@@ -57,10 +57,10 @@ The <b>MBN_PIN_CONSTANTS</b> enumerated type defines constant values used by the
 
 ## -enum-fields
 
-### -field MBN_ATTEMPTS_REMAINING_UNKNOWN
+### -field MBN_ATTEMPTS_REMAINING_UNKNOWN:0xffffffff
 
 Indicates that there is no available information available on the number of attempts remaining to enter a valid PIN.
 
-### -field MBN_PIN_LENGTH_UNKNOWN
+### -field MBN_PIN_LENGTH_UNKNOWN:0xffffffff
 
 Indicates that there is no available information on the length of the PIN.

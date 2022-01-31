@@ -56,7 +56,7 @@ The NL_LINK_LOCAL_ADDRESS_BEHAVIOR enumeration type defines the link local addre
 
 ## -enum-fields
 
-### -field LinkLocalAlwaysOff
+### -field LinkLocalAlwaysOff:0
 
 A link local IP address should never be used.
 
@@ -70,7 +70,7 @@ A link local IP address should be used only if no other address is available. Th
 A link local IP address should always be used. This setting is the default setting for an IPv6
      interface.
 
-### -field LinkLocalUnchanged
+### -field LinkLocalUnchanged:-1
 
 When the properties of an IP interface are being set, the value for link local address behavior
      should be unchanged.

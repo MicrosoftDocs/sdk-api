@@ -55,19 +55,19 @@ The <b>LineJoin</b> enumeration specifies how to join two lines that are drawn b
 
 ## -enum-fields
 
-### -field LineJoinMiter
+### -field LineJoinMiter:0
 
 Specifies a mitered join. This produces a sharp corner or a clipped corner, depending on whether the length of the miter exceeds the miter limit.
 
-### -field LineJoinBevel
+### -field LineJoinBevel:1
 
 Specifies a beveled join. This produces a diagonal corner.
 
-### -field LineJoinRound
+### -field LineJoinRound:2
 
 Specifies a circular join. This produces a smooth, circular arc between the lines.
 
-### -field LineJoinMiterClipped
+### -field LineJoinMiterClipped:3
 
 Specifies a mitered join. This produces a sharp corner or a beveled corner, depending on whether the length of the miter exceeds the miter limit.
 

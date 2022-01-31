@@ -54,11 +54,11 @@ Flags that describe a thread.
 
 ## -enum-fields
 
-### -field PSS_THREAD_FLAGS_NONE
+### -field PSS_THREAD_FLAGS_NONE:0x0000
 
 No flag.
 
-### -field PSS_THREAD_FLAGS_TERMINATED
+### -field PSS_THREAD_FLAGS_TERMINATED:0x0001
 
 The thread terminated.
 

@@ -54,7 +54,7 @@ Debug messages for setting up an info-queue filter (see <a href="/windows/deskto
 
 ## -enum-fields
 
-### -field D3D10_MESSAGE_ID_UNKNOWN
+### -field D3D10_MESSAGE_ID_UNKNOWN:0
 
 ### -field D3D10_MESSAGE_ID_DEVICE_IASETVERTEXBUFFERS_HAZARD
 
@@ -942,7 +942,7 @@ Debug messages for setting up an info-queue filter (see <a href="/windows/deskto
 
 ### -field D3D10_MESSAGE_ID_D3D10_MESSAGES_END
 
-### -field D3D10_MESSAGE_ID_D3D10L9_MESSAGES_START
+### -field D3D10_MESSAGE_ID_D3D10L9_MESSAGES_START:0x100000
 
 ### -field D3D10_MESSAGE_ID_CREATEDEPTHSTENCILSTATE_STENCIL_NO_TWO_SIDED
 

@@ -54,7 +54,7 @@ Specifies the type of access that an application is given to the specified resou
 
 ## -enum-fields
 
-### -field D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_DISCARD
+### -field D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_DISCARD:0
 
 Indicates that your application won't have any future dependency on any data that you wrote to the resource(s) during this render pass. For example, a depth buffer that won't be textured from before it's written to again.
 

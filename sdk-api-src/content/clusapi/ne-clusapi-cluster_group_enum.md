@@ -57,11 +57,11 @@ Describes the type of cluster object being enumerated by the
 
 ## -enum-fields
 
-### -field CLUSTER_GROUP_ENUM_CONTAINS
+### -field CLUSTER_GROUP_ENUM_CONTAINS:0x00000001
 
 The resources in the group.
 
-### -field CLUSTER_GROUP_ENUM_NODES
+### -field CLUSTER_GROUP_ENUM_NODES:0x00000002
 
 The nodes in the preferred owners list of the group.
 

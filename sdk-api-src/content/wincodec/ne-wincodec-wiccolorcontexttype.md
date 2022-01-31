@@ -54,15 +54,15 @@ Specifies the color context types.
 
 ## -enum-fields
 
-### -field WICColorContextUninitialized
+### -field WICColorContextUninitialized:0
 
 An uninitialized color context.
 
-### -field WICColorContextProfile
+### -field WICColorContextProfile:0x1
 
 A color context that is a full ICC color profile.
 
-### -field WICColorContextExifColorSpace
+### -field WICColorContextExifColorSpace:0x2
 
 A color context that is one of a number of set color spaces (sRGB, AdobeRGB) that are defined in the EXIF specification.
 

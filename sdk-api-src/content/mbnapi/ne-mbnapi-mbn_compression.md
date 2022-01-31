@@ -59,7 +59,7 @@ This type is applicable only for GSM devices.
 
 ## -enum-fields
 
-### -field MBN_COMPRESSION_NONE
+### -field MBN_COMPRESSION_NONE:0
 
 Data headers are not compressed.
 

@@ -55,7 +55,7 @@ Defines the notifications that are generated for quorum-specific information.
 
 ## -enum-fields
 
-### -field CLUSTER_CHANGE_QUORUM_STATE_V2
+### -field CLUSTER_CHANGE_QUORUM_STATE_V2:0x00000001
 
 Indicates that the quorum configuration of the cluster has changed.
 

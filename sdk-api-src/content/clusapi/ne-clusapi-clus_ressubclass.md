@@ -55,7 +55,7 @@ Identifies a resource subclass that manages a shared resource.
 
 ## -enum-fields
 
-### -field CLUS_RESSUBCLASS_SHARED
+### -field CLUS_RESSUBCLASS_SHARED:0x80000000
 
 Identifies a resource subclass that manages a shared resource, such as a disk on a shared SCSI bus. The 
       <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a> function with the 

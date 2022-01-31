@@ -56,19 +56,19 @@ The <b>CEPSetupProperty</b> enumeration type is used by the <a href="/windows/de
 
 ## -enum-fields
 
-### -field ENUM_CEPSETUPPROP_AUTHENTICATION
+### -field ENUM_CEPSETUPPROP_AUTHENTICATION:0
 
 The property value contains the type of authentication procedure used.
 
-### -field ENUM_CEPSETUPPROP_SSLCERTHASH
+### -field ENUM_CEPSETUPPROP_SSLCERTHASH:1
 
 The property value contains the hash of the certificate, if any, used for authentication.
 
-### -field ENUM_CEPSETUPPROP_URL
+### -field ENUM_CEPSETUPPROP_URL:2
 
 The property value contains the Certificate Enrollment Policy (CEP) Web Service URL.
 
-### -field ENUM_CEPSETUPPROP_KEYBASED_RENEWAL
+### -field ENUM_CEPSETUPPROP_KEYBASED_RENEWAL:3
 
 The property value indicates  whether to set up the Enrollment Policy Server in a mode that returns policies for KeyBasedRenewal templates only.
 

@@ -59,23 +59,23 @@ Defines the set of valid status values for an iSCSI portal.
 
 ## -enum-fields
 
-### -field VDS_IPS_UNKNOWN
+### -field VDS_IPS_UNKNOWN:0
 
 The status is unknown.
 
-### -field VDS_IPS_ONLINE
+### -field VDS_IPS_ONLINE:1
 
 The portal is available.
 
-### -field VDS_IPS_NOT_READY
+### -field VDS_IPS_NOT_READY:2
 
 The portal is busy.
 
-### -field VDS_IPS_OFFLINE
+### -field VDS_IPS_OFFLINE:4
 
 The portal is unavailable.
 
-### -field VDS_IPS_FAILED
+### -field VDS_IPS_FAILED:5
 
 The portal has failed.
 

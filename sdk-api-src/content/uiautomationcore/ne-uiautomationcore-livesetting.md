@@ -54,11 +54,11 @@ Contains possible values for the LiveSetting property. This property is implemen
 
 ## -enum-fields
 
-### -field Off
+### -field Off:0
 
-### -field Polite
+### -field Polite:1
 
-### -field Assertive
+### -field Assertive:2
 
 #### - LiveSetting_Assertive
 

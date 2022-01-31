@@ -56,7 +56,7 @@ The <b>FWPM_PROVIDER_CONTEXT_TYPE</b> enumerated type specifies types of provide
 
 ## -enum-fields
 
-### -field FWPM_IPSEC_KEYING_CONTEXT
+### -field FWPM_IPSEC_KEYING_CONTEXT:0
 
 Specifies keying context type.
 

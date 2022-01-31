@@ -54,19 +54,19 @@ Specifies the type of de-emphasis filter that should be used when decoding. This
 
 ## -enum-fields
 
-### -field eAVEncMPAEmphasisType_None
+### -field eAVEncMPAEmphasisType_None:0
 
 None.
 
-### -field eAVEncMPAEmphasisType_50_15
+### -field eAVEncMPAEmphasisType_50_15:1
 
 50/15 Î¼s.
 
-### -field eAVEncMPAEmphasisType_Reserved
+### -field eAVEncMPAEmphasisType_Reserved:2
 
 Reserved.
 
-### -field eAVEncMPAEmphasisType_CCITT_J17
+### -field eAVEncMPAEmphasisType_CCITT_J17:3
 
 CCITT J.17.
 

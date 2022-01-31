@@ -54,9 +54,9 @@ Specifies the Portable Network Graphics (PNG) hIST chunk metadata properties.
 
 ## -enum-fields
 
-### -field WICPngHistFrequencies
+### -field WICPngHistFrequencies:0x1
 
 [VT_VECTOR | VT_UI2] Indicates the approximate usage frequency of each color in the color palette.
 
-### -field WICPngHistProperties_FORCE_DWORD
+### -field WICPngHistProperties_FORCE_DWORD:0x7fffffff
 

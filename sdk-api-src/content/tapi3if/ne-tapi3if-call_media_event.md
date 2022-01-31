@@ -56,7 +56,7 @@ The
 
 ## -enum-fields
 
-### -field CME_NEW_STREAM
+### -field CME_NEW_STREAM:0
 
 A new media stream has been created.
 

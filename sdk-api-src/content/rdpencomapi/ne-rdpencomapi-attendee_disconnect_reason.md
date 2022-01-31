@@ -56,23 +56,23 @@ Defines values for the reasons why an attendee was disconnected from the session
 
 ## -enum-fields
 
-### -field ATTENDEE_DISCONNECT_REASON_MIN
+### -field ATTENDEE_DISCONNECT_REASON_MIN:0
 
 Minimum enumeration value.
 
-### -field ATTENDEE_DISCONNECT_REASON_APP
+### -field ATTENDEE_DISCONNECT_REASON_APP:0
 
 The application called the <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-terminateconnection">IRDPSRAPIAttendee::TerminateConnection</a> method.
 
-### -field ATTENDEE_DISCONNECT_REASON_ERR
+### -field ATTENDEE_DISCONNECT_REASON_ERR:1
 
 There was an internal error when processing data from an attendee or trying to manage an attendee
 
-### -field ATTENDEE_DISCONNECT_REASON_CLI
+### -field ATTENDEE_DISCONNECT_REASON_CLI:2
 
 The attendee disconnected after a request from the attendee itself.
 
-### -field ATTENDEE_DISCONNECT_REASON_MAX
+### -field ATTENDEE_DISCONNECT_REASON_MAX:2
 
 Maximum enumeration value.
 

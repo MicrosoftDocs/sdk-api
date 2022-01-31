@@ -58,19 +58,19 @@ Defines the set of the valid code sets (encodings) of a storage identifier.
 
 ## -enum-fields
 
-### -field VDSStorageIdCodeSetReserved
+### -field VDSStorageIdCodeSetReserved:0
 
 This value is reserved.
 
-### -field VDSStorageIdCodeSetBinary
+### -field VDSStorageIdCodeSetBinary:1
 
 The storage identifier is encoded as binary data.
 
-### -field VDSStorageIdCodeSetAscii
+### -field VDSStorageIdCodeSetAscii:2
 
 The storage identifier is encoded as ASCII data.
 
-### -field VDSStorageIdCodeSetUtf8
+### -field VDSStorageIdCodeSetUtf8:3
 
 The storage identifier is encoded as UTF-8.
 

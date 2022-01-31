@@ -57,7 +57,7 @@ The values of the
 
 ## -enum-fields
 
-### -field NAME
+### -field NAME:1
 
 The name of the attribute.
 

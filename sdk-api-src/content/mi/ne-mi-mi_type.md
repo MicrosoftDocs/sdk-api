@@ -58,132 +58,132 @@ parameters, and method return values for the CIM data types.
 
 ## -enum-fields
 
-### -field MI_BOOLEAN
+### -field MI_BOOLEAN:0
 
 unsigned char
 
-### -field MI_UINT8
+### -field MI_UINT8:1
 
 unsigned char
 
-### -field MI_SINT8
+### -field MI_SINT8:2
 
 signed char
 
-### -field MI_UINT16
+### -field MI_UINT16:3
 
 unsigned short
 
-### -field MI_SINT16
+### -field MI_SINT16:4
 
 signed short
 
-### -field MI_UINT32
+### -field MI_UINT32:5
 
 unsigned int
 
-### -field MI_SINT32
+### -field MI_SINT32:6
 
 signed int
 
-### -field MI_UINT64
+### -field MI_UINT64:7
 
 unsigned __int64
 
-### -field MI_SINT64
+### -field MI_SINT64:8
 
 signed __int64
 
-### -field MI_REAL32
+### -field MI_REAL32:9
 
 float
 
-### -field MI_REAL64
+### -field MI_REAL64:10
 
 double
 
-### -field MI_CHAR16
+### -field MI_CHAR16:11
 
 unsigned short
 
-### -field MI_DATETIME
+### -field MI_DATETIME:12
 
 Structure holding a union of <a href="/windows/desktop/api/mi/ns-mi-mi_timestamp">MI_Timestamp</a> or <a href="/windows/desktop/api/mi/ns-mi-mi_interval">MI_Interval</a>.
 
-### -field MI_STRING
+### -field MI_STRING:13
 
 MI_CHAR*
 
-### -field MI_REFERENCE
+### -field MI_REFERENCE:14
 
 This is encoded as an <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a>, but usually only the key properties are set.
 
-### -field MI_INSTANCE
+### -field MI_INSTANCE:15
 
-### -field MI_BOOLEANA
+### -field MI_BOOLEANA:16
 
 Array of <b>MI_BOOLEAN</b> types.
 
-### -field MI_UINT8A
+### -field MI_UINT8A:17
 
 Array of <b>MI_UINT8</b> types.
 
-### -field MI_SINT8A
+### -field MI_SINT8A:18
 
 Array of <b>MI_SINT8</b> types.
 
-### -field MI_UINT16A
+### -field MI_UINT16A:19
 
 Array of <b>MI_UINT16</b> types.
 
-### -field MI_SINT16A
+### -field MI_SINT16A:20
 
 Array of <b>MI_SINT16</b> types.
 
-### -field MI_UINT32A
+### -field MI_UINT32A:21
 
 Array of <b>MI_UINT32</b> types.
 
-### -field MI_SINT32A
+### -field MI_SINT32A:22
 
 Array of <b>MI_SINT32</b> types.
 
-### -field MI_UINT64A
+### -field MI_UINT64A:23
 
 Array of <b>MI_UINT64</b> types.
 
-### -field MI_SINT64A
+### -field MI_SINT64A:24
 
 Array of <b>MI_SINT64</b> types.
 
-### -field MI_REAL32A
+### -field MI_REAL32A:25
 
 Array of <b>MI_REAL32</b> types.
 
-### -field MI_REAL64A
+### -field MI_REAL64A:26
 
 Array of <b>MI_REAL64</b> types.
 
-### -field MI_CHAR16A
+### -field MI_CHAR16A:27
 
 Array of <b>MI_CHAR16</b> types.
 
-### -field MI_DATETIMEA
+### -field MI_DATETIMEA:28
 
 Array of <b>MI_DATETIME</b> structures.
 
-### -field MI_STRINGA
+### -field MI_STRINGA:29
 
 Array of <b>MI_STRING</b> types.
 
-### -field MI_REFERENCEA
+### -field MI_REFERENCEA:30
 
 Array of <b>MI_REFERENCE</b> types.
 
-### -field MI_INSTANCEA
+### -field MI_INSTANCEA:31
 
 Array of <b>MI_INSTANCE</b> types.
 
-### -field MI_ARRAY
+### -field MI_ARRAY:16
 
 MI_ARRAY is not an actual type, rather this is the bit that signifies  the type is an array.

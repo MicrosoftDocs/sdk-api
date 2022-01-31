@@ -54,17 +54,17 @@ Specifies flags for the build of a raytracing acceleration structure. Use a valu
 
 ## -enum-fields
 
-### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_NONE
+### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_NONE:0
 
 No options specified for the acceleration structure build.
 
-### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_UPDATE
+### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_UPDATE:0x1
 
 Build the acceleration structure such that it supports future updates (via the flag <b>D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PERFORM_UPDATE</b>) instead of the app having to entirely rebuild the structure.  This option may result in increased memory consumption, build times, and lower raytracing performance.  Future updates, however, should be faster than building the equivalent acceleration structure from scratch.
 
 This flag can only be set on an initial acceleration structure build, or on an update where the source acceleration structure specified <b>D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_UPDATE</b>.  In other words, after an acceleration structure was been built without <b>D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_UPDATE</b>, no other acceleration structures can be created from it via updates.
 
-### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_COMPACTION
+### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_COMPACTION:0x2
 
 Enables the option to compact the acceleration structure by calling <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure">CopyRaytracingAccelerationStructure</a> using compact mode, specified with <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_copy_mode">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_COMPACT</a>.  
 
@@ -86,19 +86,19 @@ The size required for the compacted acceleration structure can be queried before
 <div class="alert"><b>Note</b>  When <b>D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_UPDATE</b> is specified, there is certain information that needs to be retained in the acceleration structure, and compaction will only help so much. However, if the pipeline knows that the acceleration structure will no longer be updated, it can make the structure more compact.  Some apps may benefit from compacting twice - once after the initial build, and again after the acceleration structure has settled to a static state, if that occurs.</div>
 <div> </div>
 
-### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PREFER_FAST_TRACE
+### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PREFER_FAST_TRACE:0x4
 
 Construct a high quality acceleration structure that maximizes raytracing performance at the expense of additional build time.  Typically, the implementation will take 2-3 times the build time than the default setting in order to get better tracing performance. 
 
 This flag is recommended for static geometry in particular.  It is compatible with all other flags except for <b>D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PREFER_FAST_BUILD</b>.
 
-### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PREFER_FAST_BUILD
+### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PREFER_FAST_BUILD:0x8
 
 Construct a lower quality acceleration structure, trading raytracing performance for build speed.  Typically, the implementation will take 1/2 to 1/3 the build time than default setting, with a sacrifice in tracing performance.
 
 This flag is compatible with all other flags except for <b>D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PREFER_FAST_BUILD</b>.
 
-### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_MINIMIZE_MEMORY
+### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_MINIMIZE_MEMORY:0x10
 
 Minimize the amount of scratch memory used during the acceleration structure build as well as the size of the result.  This option may result in increased build times and/or raytracing times. This is orthogonal to the <b>D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_COMPACTION</b> flag and the explicit acceleration structure compaction that it enables.  Combining the flags can mean both the initial acceleration structure as well as the result of compacting it use less memory.
 
@@ -106,7 +106,7 @@ The impact of using this flag for a build is reflected in the result of calling 
 
 This flag is compatible with all other flags.
 
-### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PERFORM_UPDATE
+### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_PERFORM_UPDATE:0x20
 
 Perform an acceleration structure update, as opposed to building from scratch.  This is faster than a full build, but can negatively impact raytracing performance, especially if the positions of the underlying objects have changed significantly from the original build of the acceleration structure before updates.
 

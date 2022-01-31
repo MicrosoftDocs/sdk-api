@@ -95,39 +95,39 @@ Indicates if the video engine is IO coherent with the CPU.
 
 Retrieves the supported components, bin count, and counter bit depth for the a decode histogram with the specified decode profile, resolution, and format. The associated data structure is <a href="ns-d3d12video-d3d12_feature_data_video_decode_histogram.md">D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM</a>.
 
-### -field D3D12_FEATURE_VIDEO_MOTION_ESTIMATOR
+### -field D3D12_FEATURE_VIDEO_MOTION_ESTIMATOR:20
 
 Retrieves the supported resolutions, search block sizes, and precision for motion estimation. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_MOTION_ESTIMATOR](ns-d3d12video-d3d12_feature_data_video_motion_estimator.md).
 
-### -field D3D12_FEATURE_VIDEO_MOTION_ESTIMATOR_SIZE
+### -field D3D12_FEATURE_VIDEO_MOTION_ESTIMATOR_SIZE:21
 
 Checks the allocation size of a motion estimator heap. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_MOTION_ESTIMATOR_SIZE](ns-d3d12video-d3d12_feature_data_video_motion_estimator_size.md).
 
-### -field D3D12_FEATURE_VIDEO_EXTENSION_COMMAND_COUNT
+### -field D3D12_FEATURE_VIDEO_EXTENSION_COMMAND_COUNT:22
 
 Retrieves the supported number of video extension commands.  The associated data structure is [D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMAND_COUNT](ns-d3d12video-d3d12_feature_data_video_extension_command_count.md).
 
-### -field D3D12_FEATURE_VIDEO_EXTENSION_COMMANDS
+### -field D3D12_FEATURE_VIDEO_EXTENSION_COMMANDS:23
 
 Retrieves a list of [D3D12_VIDEO_EXTENSION_COMMAND_INFO](ns-d3d12video-d3d12_video_extension_command_info.md) structures describing video extension commands. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMAND_COUNT](ns-d3d12video-d3d12_feature_data_video_extension_command_count.md).
 
-### -field D3D12_FEATURE_VIDEO_EXTENSION_COMMAND_PARAMETER_COUNT
+### -field D3D12_FEATURE_VIDEO_EXTENSION_COMMAND_PARAMETER_COUNT:24
 
 Retrieves the parameter count for the specified parameter stage. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMAND_PARAMETER_COUNT](ns-d3d12video-d3d12_feature_data_video_extension_command_parameter_count.md).
 
-### -field D3D12_FEATURE_VIDEO_EXTENSION_COMMAND_PARAMETERS
+### -field D3D12_FEATURE_VIDEO_EXTENSION_COMMAND_PARAMETERS:25
 
 Retrieves a list of [D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO](ns-d3d12video-d3d12_video_extension_command_parameter_info.md) structures describing video extension command parameters for the specified parameter stage. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMAND_PARAMETERS](ns-d3d12video-d3d12_feature_data_video_extension_command_parameters.md).
 
-### -field D3D12_FEATURE_VIDEO_EXTENSION_COMMAND_SUPPORT
+### -field D3D12_FEATURE_VIDEO_EXTENSION_COMMAND_SUPPORT:26
 
 Queries for command-defined support information. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMAND_SUPPORT](ns-d3d12video-d3d12_feature_data_video_extension_command_support.md).
 
-### -field D3D12_FEATURE_VIDEO_EXTENSION_COMMAND_SIZE
+### -field D3D12_FEATURE_VIDEO_EXTENSION_COMMAND_SIZE:27
 
 Checks the allocation size of a video extension command. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMAND_SIZE](ns-d3d12video-d3d12_feature_data_video_extension_command_size.md).
 
-### -field D3D12_FEATURE_VIDEO_MOTION_ESTIMATOR_PROTECTED_RESOURCES
+### -field D3D12_FEATURE_VIDEO_MOTION_ESTIMATOR_PROTECTED_RESOURCES:30
 
 Checks support for motion estimation with protected resources. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_MOTION_ESTIMATOR_PROTECTED_RESOURCES](ns-d3d12video-d3d12_feature_data_video_motion_estimator_protected_resources.md).
 

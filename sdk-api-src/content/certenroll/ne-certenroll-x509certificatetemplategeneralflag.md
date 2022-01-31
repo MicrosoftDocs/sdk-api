@@ -54,27 +54,27 @@ The <b>X509CertificateTemplateGeneralFlag</b> enumeration contains use and modif
 
 ## -enum-fields
 
-### -field GeneralMachineType
+### -field GeneralMachineType:0x40
 
 The template should be used to create a certificate request for a computer.
 
-### -field GeneralCA
+### -field GeneralCA:0x80
 
 The template should be used to create a request for a certification authority certificate.
 
-### -field GeneralCrossCA
+### -field GeneralCrossCA:0x800
 
 The template should be used to create a request to cross certify a certificate.
 
-### -field GeneralDefault
+### -field GeneralDefault:0x10000
 
 The template is not used by the client or server in the Windows Client Certificate Enrollment and should not be modified.
 
-### -field GeneralModified
+### -field GeneralModified:0x20000
 
 The template is not used by the client or server in the Windows Client Certificate Enrollment and can be modified if necessary.
 
-### -field GeneralDonotPersist
+### -field GeneralDonotPersist:0x1000
 
 The certification authority is not required to save a record of a certificate request for a certificate that has been issued.
 

@@ -54,19 +54,19 @@ Specifies values that identify the aspect of a Command to invalidate.
 
 ## -enum-fields
 
-### -field UI_INVALIDATIONS_STATE
+### -field UI_INVALIDATIONS_STATE:0x1
 
 A state property, such as <a href="/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-enabled">UI_PKEY_Enabled</a>.
 
-### -field UI_INVALIDATIONS_VALUE
+### -field UI_INVALIDATIONS_VALUE:0x2
 
 The value property of a Command.
 
-### -field UI_INVALIDATIONS_PROPERTY
+### -field UI_INVALIDATIONS_PROPERTY:0x4
 
 Any property.
 
-### -field UI_INVALIDATIONS_ALLPROPERTIES
+### -field UI_INVALIDATIONS_ALLPROPERTIES:0x8
 
 All properties.
 

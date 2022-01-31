@@ -54,11 +54,11 @@ Specifies how a video format can be used for video processing.
 
 ## -enum-fields
 
-### -field D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT_INPUT
+### -field D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT_INPUT:0x1
 
 The format can be used as the input to the video processor.
 
-### -field D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT_OUTPUT
+### -field D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT_OUTPUT:0x2
 
 The format can be used as the output from the video processor.
 

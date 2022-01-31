@@ -54,13 +54,13 @@ Specifies decode options.
 
 ## -enum-fields
 
-### -field WICDecodeMetadataCacheOnDemand
+### -field WICDecodeMetadataCacheOnDemand:0
 
 Cache metadata when needed.
 
-### -field WICDecodeMetadataCacheOnLoad
+### -field WICDecodeMetadataCacheOnLoad:0x1
 
 Cache metadata when decoder is loaded.
 
-### -field WICMETADATACACHEOPTION_FORCE_DWORD
+### -field WICMETADATACACHEOPTION_FORCE_DWORD:0x7fffffff
 

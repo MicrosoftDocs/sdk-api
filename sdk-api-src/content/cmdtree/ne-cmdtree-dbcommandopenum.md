@@ -57,7 +57,7 @@ The <b>DBCOMMANDOPENUM</b> enumerated type contains a list of the possible comma
 
 ## -enum-fields
 
-### -field DBOP_scalar_constant
+### -field DBOP_scalar_constant:0
 
 ### -field DBOP_DEFAULT
 

@@ -54,19 +54,19 @@ Indicates whether a specific <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1simpl
 
 ## -enum-fields
 
-### -field D2D1_FIGURE_BEGIN_FILLED
+### -field D2D1_FIGURE_BEGIN_FILLED:0
 
 Indicates the figure will be filled by the FillGeometry (<a href="/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1commandsink-fillgeometry">ID2D1CommandSink::FillGeometry</a> 
           or <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry">ID2D1RenderTarget::FillGeometry</a>) method.
 
-### -field D2D1_FIGURE_BEGIN_HOLLOW
+### -field D2D1_FIGURE_BEGIN_HOLLOW:1
 
 Indicates the figure will not be filled by the FillGeometry (<a href="/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1commandsink-fillgeometry">ID2D1CommandSink::FillGeometry</a> 
           or <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry">ID2D1RenderTarget::FillGeometry</a>) method and will only consist of an outline. 
           Moreover, the bounds of a hollow figure are zero. 
           D2D1_FIGURE_BEGIN_HOLLOW should be used for stroking, or for other geometry operations.
 
-### -field D2D1_FIGURE_BEGIN_FORCE_DWORD
+### -field D2D1_FIGURE_BEGIN_FORCE_DWORD:0xffffffff
 
 ## -see-also
 

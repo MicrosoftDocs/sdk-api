@@ -56,15 +56,15 @@ Defines the rounding modes to be used when the value of an animation variable is
 
 ## -enum-fields
 
-### -field UI_ANIMATION_ROUNDING_NEAREST
+### -field UI_ANIMATION_ROUNDING_NEAREST:0
 
 Round to the nearest integer.
 
-### -field UI_ANIMATION_ROUNDING_FLOOR
+### -field UI_ANIMATION_ROUNDING_FLOOR:1
 
 Round down.
 
-### -field UI_ANIMATION_ROUNDING_CEILING
+### -field UI_ANIMATION_ROUNDING_CEILING:2
 
 Round up.
 

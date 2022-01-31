@@ -57,7 +57,7 @@ This
 
 ## -enum-fields
 
-### -field ASST_NOT_READY
+### -field ASST_NOT_READY:0
 
 The agent is unable to handle calls for this session.
 

@@ -55,20 +55,20 @@ The <b>DriverStringOptions</b> enumeration specifies the spacing, orientation, a
 
 ## -enum-fields
 
-### -field DriverStringOptionsCmapLookup
+### -field DriverStringOptionsCmapLookup:1
 
 Specifies that the string array contains Unicode character values. 
 			If this flag is not set, each value in array is interpreted as an index to a font glyph that defines a character to be displayed.
 
-### -field DriverStringOptionsVertical
+### -field DriverStringOptionsVertical:2
 
 Specifies that the string is displayed vertically.
 
-### -field DriverStringOptionsRealizedAdvance
+### -field DriverStringOptionsRealizedAdvance:4
 
 Specifies that the glyph positions are calculated from the position of the first glyph. If this flag is not set, the glyph positions are obtained from an array of coordinates.
 
-### -field DriverStringOptionsLimitSubpixel
+### -field DriverStringOptionsLimitSubpixel:8
 
 Specifies that less memory should be used for cache of antialiased glyphs. This also produces lower quality. If this flag isn't set, more memory is used, but the quality is higher.
 

@@ -56,19 +56,19 @@ Specifies how the output alpha values are calculated for Microsoft DirectX Video
 
 ## -enum-fields
 
-### -field DXVAHD_ALPHA_FILL_MODE_OPAQUE
+### -field DXVAHD_ALPHA_FILL_MODE_OPAQUE:0
 
 Alpha values inside the target rectangle are set to opaque.
 
-### -field DXVAHD_ALPHA_FILL_MODE_BACKGROUND
+### -field DXVAHD_ALPHA_FILL_MODE_BACKGROUND:1
 
 Alpha values inside the target rectangle are set to the alpha value specified in the background color. See <a href="/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_blt_state_background_color_data">DXVAHD_BLT_STATE_BACKGROUND_COLOR</a>.
 
-### -field DXVAHD_ALPHA_FILL_MODE_DESTINATION
+### -field DXVAHD_ALPHA_FILL_MODE_DESTINATION:2
 
 Existing alpha values remain unchanged in the output surface.
 
-### -field DXVAHD_ALPHA_FILL_MODE_SOURCE_STREAM
+### -field DXVAHD_ALPHA_FILL_MODE_SOURCE_STREAM:3
 
 Alpha values from the input stream  are scaled and copied to the corresponding destination rectangle for that stream. If the input stream does not have alpha data, the DXVA-HD device sets the alpha values in the target rectangle to an opaque value. If the input stream is disabled or the source rectangle is empty, the alpha values in the target rectangle are not modified.
 

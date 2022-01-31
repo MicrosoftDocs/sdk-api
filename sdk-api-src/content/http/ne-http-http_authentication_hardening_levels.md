@@ -56,7 +56,7 @@ Server Hardening level.
 
 ## -enum-fields
 
-### -field HttpAuthenticationHardeningLegacy
+### -field HttpAuthenticationHardeningLegacy:0
 
 Server is not hardened and operates without Channel Binding Token (CBT) support.
 

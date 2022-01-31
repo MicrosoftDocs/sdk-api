@@ -54,111 +54,111 @@ Defines the values that indicate how a text-to-speech engine should interpret sp
 
 ## -enum-fields
 
-### -field SayAsInterpretAs_None
+### -field SayAsInterpretAs_None:0
 
 The text should be spoken using the default for the text-to-speech engine.
 
-### -field SayAsInterpretAs_Spell
+### -field SayAsInterpretAs_Spell:1
 
 The text should be spoken character by character.
 
-### -field SayAsInterpretAs_Cardinal
+### -field SayAsInterpretAs_Cardinal:2
 
 The text is an integral or decimal number and should be spoken as a cardinal number.
 
-### -field SayAsInterpretAs_Ordinal
+### -field SayAsInterpretAs_Ordinal:3
 
 The text is an integral number and should be spoken as an ordinal number.
 
-### -field SayAsInterpretAs_Number
+### -field SayAsInterpretAs_Number:4
 
 The text should be spoken as a number.
 
-### -field SayAsInterpretAs_Date
+### -field SayAsInterpretAs_Date:5
 
 The text should be spoken as a date.
 
-### -field SayAsInterpretAs_Time
+### -field SayAsInterpretAs_Time:6
 
 The text should be spoken as a time value.
 
-### -field SayAsInterpretAs_Telephone
+### -field SayAsInterpretAs_Telephone:7
 
 The text should be spoken as a telephone number.
 
-### -field SayAsInterpretAs_Currency
+### -field SayAsInterpretAs_Currency:8
 
 The text should be spoken as currency.
 
-### -field SayAsInterpretAs_Net
+### -field SayAsInterpretAs_Net:9
 
 The text should be spoken as a network address, including saying the '\', '/', and '@' characters.
 
-### -field SayAsInterpretAs_Url
+### -field SayAsInterpretAs_Url:10
 
 The text should be spoken as a URL.
 
-### -field SayAsInterpretAs_Address
+### -field SayAsInterpretAs_Address:11
 
 The text should be spoken as an address.
 
-### -field SayAsInterpretAs_Alphanumeric
+### -field SayAsInterpretAs_Alphanumeric:12
 
 The text should be spoken as an alphanumeric number.
 
-### -field SayAsInterpretAs_Name
+### -field SayAsInterpretAs_Name:13
 
 The text should be spoken as a name.
 
-### -field SayAsInterpretAs_Media
+### -field SayAsInterpretAs_Media:14
 
 The text should be spoken as media.
 
-### -field SayAsInterpretAs_Date_MonthDayYear
+### -field SayAsInterpretAs_Date_MonthDayYear:15
 
 The text should be spoken as a date in a Month/Day/Year format.
 
-### -field SayAsInterpretAs_Date_DayMonthYear
+### -field SayAsInterpretAs_Date_DayMonthYear:16
 
 The text should be spoken as a date in a Day/Month/Year format.
 
-### -field SayAsInterpretAs_Date_YearMonthDay
+### -field SayAsInterpretAs_Date_YearMonthDay:17
 
 The text should be spoken as a date in a Year/Month/Day format.
 
-### -field SayAsInterpretAs_Date_YearMonth
+### -field SayAsInterpretAs_Date_YearMonth:18
 
 The text should be spoken as a date in a Year/Month format.
 
-### -field SayAsInterpretAs_Date_MonthYear
+### -field SayAsInterpretAs_Date_MonthYear:19
 
 The text should be spoken as a date in a Month/Year format.
 
-### -field SayAsInterpretAs_Date_DayMonth
+### -field SayAsInterpretAs_Date_DayMonth:20
 
 The text should be spoken as a date in a Day/Month format.
 
-### -field SayAsInterpretAs_Date_MonthDay
+### -field SayAsInterpretAs_Date_MonthDay:21
 
 The text should be spoken as a date in a Month/Day format.
 
-### -field SayAsInterpretAs_Date_Year
+### -field SayAsInterpretAs_Date_Year:22
 
 The text should be spoken as a date in a Year format.
 
-### -field SayAsInterpretAs_Time_HoursMinutesSeconds12
+### -field SayAsInterpretAs_Time_HoursMinutesSeconds12:23
 
 The text should be spoken as a time value in an Hours:Minutes:Seconds 12-hour format.
 
-### -field SayAsInterpretAs_Time_HoursMinutes12
+### -field SayAsInterpretAs_Time_HoursMinutes12:24
 
 The text should be spoken as a time value in an Hours:Minutes 12-hour format.
 
-### -field SayAsInterpretAs_Time_HoursMinutesSeconds24
+### -field SayAsInterpretAs_Time_HoursMinutesSeconds24:25
 
 The text should be spoken as a time value in an Hours:Minutes:Seconds 24-hour format.
 
-### -field SayAsInterpretAs_Time_HoursMinutes24
+### -field SayAsInterpretAs_Time_HoursMinutes24:26
 
 The text should be spoken as a time value in an Hours:Minutes 24-hour format.
 

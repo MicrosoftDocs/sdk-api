@@ -56,10 +56,10 @@ Describes the options passed to the <a href="/previous-versions/windows/desktop/
 
 ## -enum-fields
 
-### -field ReadOnlyAccess
+### -field ReadOnlyAccess:1
 
 Request read-only access.
 
-### -field ReadWriteAccess
+### -field ReadWriteAccess:2
 
 Request read and write access.

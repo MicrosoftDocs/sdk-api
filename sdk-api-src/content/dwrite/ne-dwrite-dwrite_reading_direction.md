@@ -56,21 +56,21 @@ Specifies the direction in which reading progresses.
 
 ## -enum-fields
 
-### -field DWRITE_READING_DIRECTION_LEFT_TO_RIGHT
+### -field DWRITE_READING_DIRECTION_LEFT_TO_RIGHT:0
 
 Indicates that reading progresses from left to right.
 
-### -field DWRITE_READING_DIRECTION_RIGHT_TO_LEFT
+### -field DWRITE_READING_DIRECTION_RIGHT_TO_LEFT:1
 
 Indicates that reading progresses from right to left.
 
-### -field DWRITE_READING_DIRECTION_TOP_TO_BOTTOM
+### -field DWRITE_READING_DIRECTION_TOP_TO_BOTTOM:2
 
 <div class="alert"><b>Note</b>  Windows 8.1 and later only.</div>
 <div> </div>
 Indicates that reading progresses from top to bottom.
 
-### -field DWRITE_READING_DIRECTION_BOTTOM_TO_TOP
+### -field DWRITE_READING_DIRECTION_BOTTOM_TO_TOP:3
 
 <div class="alert"><b>Note</b>  Windows 8.1 and later only.</div>
 <div> </div>

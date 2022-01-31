@@ -54,27 +54,27 @@ Specifies the state of an interaction.
 
 ## -enum-fields
 
-### -field INTERACTION_FLAG_NONE
+### -field INTERACTION_FLAG_NONE:0x00000000
 
 No flags set.
 
-### -field INTERACTION_FLAG_BEGIN
+### -field INTERACTION_FLAG_BEGIN:0x00000001
 
 The beginning of an interaction.
 
-### -field INTERACTION_FLAG_END
+### -field INTERACTION_FLAG_END:0x00000002
 
 The end of an interaction (including inertia).
 
-### -field INTERACTION_FLAG_CANCEL
+### -field INTERACTION_FLAG_CANCEL:0x00000004
 
 Interaction canceled. INTERACTION_FLAG_END also set on cancel.
 
-### -field INTERACTION_FLAG_INERTIA
+### -field INTERACTION_FLAG_INERTIA:0x00000008
 
 Inertia being processed.
 
-### -field INTERACTION_FLAG_MAX
+### -field INTERACTION_FLAG_MAX:0xffffffff
 
 Maximum number of interactions exceeded.
 

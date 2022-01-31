@@ -54,7 +54,7 @@ The <b>eWINDOW_ADVANCE_METHOD</b> enumeration specifies the window advance mode 
 
 ## -enum-fields
 
-### -field E_WINDOW_ADVANCE_BY_TIME
+### -field E_WINDOW_ADVANCE_BY_TIME:1
 
 Window advances based on time. This is the default mode.
 

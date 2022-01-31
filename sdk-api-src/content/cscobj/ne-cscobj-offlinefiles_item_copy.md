@@ -56,7 +56,7 @@ Specifies whether the local, remote, or original copy of an item is being querie
 
 ## -enum-fields
 
-### -field OFFLINEFILES_ITEM_COPY_LOCAL
+### -field OFFLINEFILES_ITEM_COPY_LOCAL:0
 
 Retrieve the attributes, time values, or size  of the local copy of the item.  If the item is currently offline, this may be different than the attributes associated with the original copy.
 

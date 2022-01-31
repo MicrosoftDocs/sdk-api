@@ -56,15 +56,15 @@ Describes the possible access denied remediation (ADR) client error types.
 
 ## -enum-fields
 
-### -field AdrClientErrorType_Unknown
+### -field AdrClientErrorType_Unknown:0
 
 The ADR client error type is unknown.
 
-### -field AdrClientErrorType_AccessDenied
+### -field AdrClientErrorType_AccessDenied:1
 
 The ADR client error type is access denied.
 
-### -field AdrClientErrorType_FileNotFound
+### -field AdrClientErrorType_FileNotFound:2
 
 ## -see-also
 

@@ -59,7 +59,7 @@ The <b>MSVidCtlStateList</b> enumeration defines the possible state values of th
 
 ## -enum-fields
 
-### -field STATE_UNBUILT
+### -field STATE_UNBUILT:-1
 
 Indicates that there is no filter graph.
 

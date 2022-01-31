@@ -54,15 +54,15 @@ Specifies the alignment of the paragraph relative to the margins of the <a href=
 
 ## -enum-fields
 
-### -field rtfLeft
+### -field rtfLeft:0
 
 Default. The paragraph is aligned along the left margin.
 
-### -field rtfRight
+### -field rtfRight:1
 
 The paragraph is aligned along the right margin.
 
-### -field rtfCenter
+### -field rtfCenter:2
 
 The paragraph is centered between the left and right margins.
 

@@ -56,7 +56,7 @@ Defines values for extended parameters used for file mapping into an address spa
 
 ## -enum-fields
 
-### -field MemExtendedParameterInvalidType
+### -field MemExtendedParameterInvalidType:0
 
 ### -field MemExtendedParameterAddressRequirements
 

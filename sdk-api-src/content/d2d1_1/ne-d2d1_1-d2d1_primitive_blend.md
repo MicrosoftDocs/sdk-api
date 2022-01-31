@@ -54,28 +54,28 @@ Used to specify the geometric blend mode for all Direct2D primitives.
 
 ## -enum-fields
 
-### -field D2D1_PRIMITIVE_BLEND_SOURCE_OVER
+### -field D2D1_PRIMITIVE_BLEND_SOURCE_OVER:0
 
 The standard source-over-destination blend mode.
 
-### -field D2D1_PRIMITIVE_BLEND_COPY
+### -field D2D1_PRIMITIVE_BLEND_COPY:1
 
 The source is copied to the destination; the destination pixels are ignored.
 
-### -field D2D1_PRIMITIVE_BLEND_MIN
+### -field D2D1_PRIMITIVE_BLEND_MIN:2
 
 The resulting pixel values use the minimum of the source and destination pixel values. Available in Windows 8 and later.
 
-### -field D2D1_PRIMITIVE_BLEND_ADD
+### -field D2D1_PRIMITIVE_BLEND_ADD:3
 
 The resulting pixel values are the sum of the source and destination pixel values. Available in Windows 8 and later.
 
-### -field D2D1_PRIMITIVE_BLEND_MAX
+### -field D2D1_PRIMITIVE_BLEND_MAX:4
 
 The resulting pixel values use the maximum of the source and destination pixel values. 
           Available in Windows 10 and later (set using <a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1commandsink4-setprimitiveblend2">ID21CommandSink4::SetPrimitiveBlend2</a>).
 
-### -field D2D1_PRIMITIVE_BLEND_FORCE_DWORD
+### -field D2D1_PRIMITIVE_BLEND_FORCE_DWORD:0xffffffff
 
 ## -remarks
 

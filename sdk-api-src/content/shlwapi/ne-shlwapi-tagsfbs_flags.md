@@ -54,10 +54,10 @@ Specifies how the <a href="/windows/desktop/api/shlwapi/nf-shlwapi-strformatbyte
 
 ## -enum-fields
 
-### -field SFBS_FLAGS_ROUND_TO_NEAREST_DISPLAYED_DIGIT
+### -field SFBS_FLAGS_ROUND_TO_NEAREST_DISPLAYED_DIGIT:0x0001
 
 Round to the nearest displayed digit.
 
-### -field SFBS_FLAGS_TRUNCATE_UNDISPLAYED_DECIMAL_DIGITS
+### -field SFBS_FLAGS_TRUNCATE_UNDISPLAYED_DECIMAL_DIGITS:0x0002
 
 Discard undisplayed digits.

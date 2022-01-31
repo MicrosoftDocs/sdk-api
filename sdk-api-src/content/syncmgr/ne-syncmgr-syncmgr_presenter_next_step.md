@@ -54,7 +54,7 @@ Describes the next step that is to occur in sync manager conflict resolution. Us
 
 ## -enum-fields
 
-### -field SYNCMGR_PNS_CONTINUE
+### -field SYNCMGR_PNS_CONTINUE:0
 
 The conflict has been resolved and subsequent
 selected conflicts should continue to be resolved.

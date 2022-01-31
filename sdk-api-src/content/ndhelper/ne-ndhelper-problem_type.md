@@ -56,29 +56,29 @@ The <b>PROBLEM_TYPE</b> enumeration describes the type of problem a helper class
 
 ## -enum-fields
 
-### -field PT_INVALID
+### -field PT_INVALID:0
 
-### -field PT_LOW_HEALTH
+### -field PT_LOW_HEALTH:1
 
 A low-health problem exists within the component itself. No problems were found within local components on which this component depends.
 
-### -field PT_LOWER_HEALTH
+### -field PT_LOWER_HEALTH:2
 
 A low-health problem exists within local components on which this component depends.
 
-### -field PT_DOWN_STREAM_HEALTH
+### -field PT_DOWN_STREAM_HEALTH:4
 
 The low-health problem is in the out-of-box components this component depends on.
 
-### -field PT_HIGH_UTILIZATION
+### -field PT_HIGH_UTILIZATION:8
 
 The component's resource is being highly utilized. No high utilization was found within local components on which this component depends.
 
-### -field PT_HIGHER_UTILIZATION
+### -field PT_HIGHER_UTILIZATION:16
 
                                                        The causes of the component's high-utilization problem are from local components that depend on it.
 
-### -field PT_UP_STREAM_UTILIZATION
+### -field PT_UP_STREAM_UTILIZATION:32
 
 The causes of the component's high-utilization problem are from upstream network components that depend on it.
 

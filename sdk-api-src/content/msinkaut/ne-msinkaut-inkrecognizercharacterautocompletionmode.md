@@ -54,7 +54,7 @@ Specifies types of character input modes.
 
 ## -enum-fields
 
-### -field IRCACM_Full
+### -field IRCACM_Full:0
 
 Recognition occurs as if all strokes have been input.
 

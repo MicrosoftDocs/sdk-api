@@ -54,27 +54,27 @@ Specifies the cross-slide behavior thresholds.
 
 ## -enum-fields
 
-### -field CROSS_SLIDE_THRESHOLD_SELECT_START
+### -field CROSS_SLIDE_THRESHOLD_SELECT_START:0x00000000
 
 Selection start.
 
-### -field CROSS_SLIDE_THRESHOLD_SPEED_BUMP_START
+### -field CROSS_SLIDE_THRESHOLD_SPEED_BUMP_START:0x00000001
 
 Speed bump start.
 
-### -field CROSS_SLIDE_THRESHOLD_SPEED_BUMP_END
+### -field CROSS_SLIDE_THRESHOLD_SPEED_BUMP_END:0x00000002
 
 Speed bump end.
 
-### -field CROSS_SLIDE_THRESHOLD_REARRANGE_START
+### -field CROSS_SLIDE_THRESHOLD_REARRANGE_START:0x00000003
 
 Rearrange (drag and drop) start.
 
-### -field CROSS_SLIDE_THRESHOLD_COUNT
+### -field CROSS_SLIDE_THRESHOLD_COUNT:0x00000004
 
 The number of thresholds specified.
 
-### -field CROSS_SLIDE_THRESHOLD_MAX
+### -field CROSS_SLIDE_THRESHOLD_MAX:0xffffffff
 
 Maximum number of interactions exceeded.
 

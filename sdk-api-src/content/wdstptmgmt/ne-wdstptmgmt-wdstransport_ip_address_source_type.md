@@ -58,14 +58,14 @@ Indicates the source from which the WDS multicast provider obtains a multicast a
 
 ## -enum-fields
 
-### -field WdsTptIpAddressSourceUnknown
+### -field WdsTptIpAddressSourceUnknown:0
 
 Default value that indicates that the IP address source is not known.
 
-### -field WdsTptIpAddressSourceDhcp
+### -field WdsTptIpAddressSourceDhcp:1
 
 Indicates that the server should use the <a href="/previous-versions/windows/desktop/madcap/madcap-start-page">Multicast Address Dynamic Client Allocation Protocol</a> (MADCAP) to obtain a multicast IP address. MADCAP is a protocol that enables applications to obtain, renew, and release multicast addresses, and its functionality is often included in DHCP servers, such as the Microsoft DHCP Server role.
 
-### -field WdsTptIpAddressSourceRange
+### -field WdsTptIpAddressSourceRange:2
 
 Indicates that the server should automatically select an available address from a multicast address range manually configured by the administrator.

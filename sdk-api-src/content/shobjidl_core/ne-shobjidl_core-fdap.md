@@ -54,11 +54,11 @@ Specifies list placement.
 
 ## -enum-fields
 
-### -field FDAP_BOTTOM
+### -field FDAP_BOTTOM:0
 
 The place is added to the bottom of the default list.
 
-### -field FDAP_TOP
+### -field FDAP_TOP:1
 
 The place is added to the top of the default list.
 

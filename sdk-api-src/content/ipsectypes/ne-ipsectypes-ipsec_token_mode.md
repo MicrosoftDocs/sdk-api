@@ -56,7 +56,7 @@ The <b>IPSEC_TOKEN_MODE</b> enumerated type specifies different IPsec modes in w
 
 ## -enum-fields
 
-### -field IPSEC_TOKEN_MODE_MAIN
+### -field IPSEC_TOKEN_MODE_MAIN:0
 
 Token was obtained in main mode.
 

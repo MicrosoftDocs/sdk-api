@@ -57,7 +57,7 @@ Contains virtual disk detach request flags.
 
 ## -enum-fields
 
-### -field DETACH_VIRTUAL_DISK_FLAG_NONE
+### -field DETACH_VIRTUAL_DISK_FLAG_NONE:0x00000000
 
 No flags. Use system defaults.
 

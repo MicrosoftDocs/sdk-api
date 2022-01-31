@@ -57,7 +57,7 @@ authentication and integrity protection.
 
 ## -enum-fields
 
-### -field IPSEC_AUTH_MD5
+### -field IPSEC_AUTH_MD5:0
 
 Specifies MD5 hash algorithm. 
 

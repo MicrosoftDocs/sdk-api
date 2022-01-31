@@ -54,7 +54,7 @@ Specifies the threading behavior of a callback (for example, a <a href="/windows
 
 ## -enum-fields
 
-### -field WS_SHORT_CALLBACK
+### -field WS_SHORT_CALLBACK:0
 
 This value is used to indicate that a callback is invoked short.
                 
@@ -69,7 +69,7 @@ When a callback is invoked short, it should avoid lengthy computation or lengthy
 If it is necessary to do IO within a callback that was invoked short, the best practice is
                     to use asynchronous IO (instead of synchronous IO), to avoid lengthy blocking calls.
 
-### -field WS_LONG_CALLBACK
+### -field WS_LONG_CALLBACK:1
 
 This value is used to indicate that a callback is invoked long.
                 

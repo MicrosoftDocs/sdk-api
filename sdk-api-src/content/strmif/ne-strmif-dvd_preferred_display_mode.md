@@ -57,19 +57,19 @@ Indicates the user's preferred window aspect ratio and conversion method.
 
 ## -enum-fields
 
-### -field DISPLAY_CONTENT_DEFAULT
+### -field DISPLAY_CONTENT_DEFAULT:0
 
 Use the default window size and content type.
 
-### -field DISPLAY_16x9
+### -field DISPLAY_16x9:1
 
 Use a 16 x 9 window.
 
-### -field DISPLAY_4x3_PANSCAN_PREFERRED
+### -field DISPLAY_4x3_PANSCAN_PREFERRED:2
 
 Use a 4 x 3 window and convert to pan-scan, if possible.
 
-### -field DISPLAY_4x3_LETTERBOX_PREFERRED
+### -field DISPLAY_4x3_LETTERBOX_PREFERRED:3
 
 Use a 4 x 3 window and convert to letterbox, if possible.
 

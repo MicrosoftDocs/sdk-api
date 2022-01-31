@@ -56,19 +56,19 @@ Defines the type of actions that a task can perform.
 
 ## -enum-fields
 
-### -field TASK_ACTION_EXEC
+### -field TASK_ACTION_EXEC:0
 
 This action performs a command-line operation. For example, the action can run a script, launch an executable, or, if the name of a document is provided, find its associated application and launch the application with the document.
 
-### -field TASK_ACTION_COM_HANDLER
+### -field TASK_ACTION_COM_HANDLER:5
 
 This action fires a handler. This action can only be used if the task <a href="/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_compatibility">Compatibility</a> property is set to TASK_COMPATIBILITY_V2.
 
-### -field TASK_ACTION_SEND_EMAIL
+### -field TASK_ACTION_SEND_EMAIL:6
 
 This action sends email message. This action can only be used if the task <a href="/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_compatibility">Compatibility</a> property is set to TASK_COMPATIBILITY_V2.
 
-### -field TASK_ACTION_SHOW_MESSAGE
+### -field TASK_ACTION_SHOW_MESSAGE:7
 
 This action shows a message box. This action can only be used if the task <a href="/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_compatibility">Compatibility</a> property is set to TASK_COMPATIBILITY_V2.
 

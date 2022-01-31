@@ -66,26 +66,26 @@ VSS first sends a <a href="/windows/desktop/VSS/vssgloss-f">Freeze</a> event to 
 
 ## -enum-fields
 
-### -field VSS_APP_UNKNOWN
+### -field VSS_APP_UNKNOWN:0
 
 The level at which this writer's freeze state will occur is not known. This indicates an application 
       error.
 
-### -field VSS_APP_SYSTEM
+### -field VSS_APP_SYSTEM:1
 
 This writer freeze state will occur at the system application level.
 
-### -field VSS_APP_BACK_END
+### -field VSS_APP_BACK_END:2
 
 This writer freeze state will occur at the back-end application level.
 
-### -field VSS_APP_FRONT_END
+### -field VSS_APP_FRONT_END:3
 
 This writer freeze state will occur at the front-end application level.
 
-### -field VSS_APP_SYSTEM_RM
+### -field VSS_APP_SYSTEM_RM:4
 
-### -field VSS_APP_AUTO
+### -field VSS_APP_AUTO:-1
 
 This writer freeze state will be determined automatically. This enumeration value is reserved for future 
       use.

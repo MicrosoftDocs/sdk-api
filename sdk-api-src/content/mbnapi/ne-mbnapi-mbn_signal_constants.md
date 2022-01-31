@@ -57,18 +57,18 @@ THE <b>MBN_SIGNAL_CONSTANTS</b> enumerated type contains specific values used by
 
 ## -enum-fields
 
-### -field MBN_RSSI_DEFAULT
+### -field MBN_RSSI_DEFAULT:0xffffffff
 
 Use the default value for signal state reporting.
 
-### -field MBN_RSSI_DISABLE
+### -field MBN_RSSI_DISABLE:0
 
 Disable signal state reporting.
 
-### -field MBN_RSSI_UNKNOWN
+### -field MBN_RSSI_UNKNOWN:99
 
 Signal strength is unknown.
 
-### -field MBN_ERROR_RATE_UNKNOWN
+### -field MBN_ERROR_RATE_UNKNOWN:99
 
 Signal error rate is unknown.

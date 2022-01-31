@@ -65,7 +65,7 @@ typedef enum {
 
 ## -enum-fields
 
-### -field typeSystem
+### -field typeSystem:0
 
 A system Starter Group Policy object
 

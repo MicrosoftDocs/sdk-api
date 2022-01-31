@@ -59,15 +59,15 @@ Specifies whether the current chunk is a text-type property or a value-type prop
 
 ## -enum-fields
 
-### -field CHUNK_TEXT
+### -field CHUNK_TEXT:0x1
 
 The current chunk is a text-type property.
 
-### -field CHUNK_VALUE
+### -field CHUNK_VALUE:0x2
 
 The current chunk is a value-type property.
 
-### -field CHUNK_FILTER_OWNED_VALUE
+### -field CHUNK_FILTER_OWNED_VALUE:0x4
 
 Reserved.
 

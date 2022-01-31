@@ -56,11 +56,11 @@ Defines operations that can be attempted on an update.
 
 ## -enum-fields
 
-### -field uoInstallation
+### -field uoInstallation:1
 
 Under the security context of the caller, install the update on the target computer.
 
-### -field uoUninstallation
+### -field uoUninstallation:2
 
 Under the security context of the caller, uninstall the updates  from the target computer.
 

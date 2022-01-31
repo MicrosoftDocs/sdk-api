@@ -54,11 +54,11 @@ The <b>SmartCardAssociationType</b> enumeration type specifies a smart card asso
 
 ## -enum-fields
 
-### -field NotAssociated
+### -field NotAssociated:0
 
 Not associated.
 
-### -field Associated
+### -field Associated:0
 
 Associated.
 

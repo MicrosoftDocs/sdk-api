@@ -56,7 +56,7 @@ The <b>FWPM_NET_EVENT_TYPE</b> enumerated type specifies the type of net event.
 
 ## -enum-fields
 
-### -field FWPM_NET_EVENT_TYPE_IKEEXT_MM_FAILURE
+### -field FWPM_NET_EVENT_TYPE_IKEEXT_MM_FAILURE:0
 
 An IKE/AuthIP main mode failure has occurred.
 

@@ -62,9 +62,9 @@ Colors are manipulated in 2.2 gamma color space.
 
 Colors are manipulated in 1.0 gamma color space.
 
-### -field D2D1_GAMMA1_G2084
+### -field D2D1_GAMMA1_G2084:2
 
 Colors are manipulated in ST.2084 PQ gamma color space.
 
-### -field D2D1_GAMMA1_FORCE_DWORD
+### -field D2D1_GAMMA1_FORCE_DWORD:0xffffffff
 

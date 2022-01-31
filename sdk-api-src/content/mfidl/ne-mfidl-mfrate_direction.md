@@ -56,7 +56,7 @@ Specifies the direction of playback (forward or reverse).
 
 ## -enum-fields
 
-### -field MFRATE_FORWARD
+### -field MFRATE_FORWARD:0
 
 Forward playback.
 

@@ -59,7 +59,7 @@ Contains the version of the <a href="/windows/win32/api/virtdisk/ns-virtdisk-raw
 
 ## -enum-fields
 
-### -field RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED
+### -field RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED:0
 
-### -field RAW_SCSI_VIRTUAL_DISK_VERSION_1
+### -field RAW_SCSI_VIRTUAL_DISK_VERSION_1:1
 

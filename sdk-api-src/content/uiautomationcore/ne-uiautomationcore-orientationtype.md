@@ -54,15 +54,15 @@ Contains values that specify the orientation of a control.
 
 ## -enum-fields
 
-### -field OrientationType_None
+### -field OrientationType_None:0
 
 The control has no orientation.
 
-### -field OrientationType_Horizontal
+### -field OrientationType_Horizontal:1
 
 The control has horizontal orientation.
 
-### -field OrientationType_Vertical
+### -field OrientationType_Vertical:2
 
 The control has vertical orientation.
 

@@ -56,7 +56,7 @@ The
 
 ## -enum-fields
 
-### -field FDS_SUPPORTED
+### -field FDS_SUPPORTED:0
 
 Full duplex supported.
 

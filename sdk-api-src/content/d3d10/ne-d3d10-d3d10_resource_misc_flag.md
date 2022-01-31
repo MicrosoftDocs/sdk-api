@@ -54,25 +54,25 @@ Identifies other, less common options for resources.
 
 ## -enum-fields
 
-### -field D3D10_RESOURCE_MISC_GENERATE_MIPS
+### -field D3D10_RESOURCE_MISC_GENERATE_MIPS:0x1L
 
 Enables an application to call <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-generatemips">ID3D10Device::GenerateMips</a> on 
         a <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">texture resource</a>. The resource must be created 
         with the <a href="/windows/desktop/api/d3d10/ne-d3d10-d3d10_bind_flag">bind flags</a> that specify that the resource is a render target and a shader resource.
 
-### -field D3D10_RESOURCE_MISC_SHARED
+### -field D3D10_RESOURCE_MISC_SHARED:0x2L
 
 Enables the sharing of resource data between two or more Direct3D devices. The only resources that can be shared are 2D non-mipmapped textures.
 
 WARP and REF devices do not support shared resources. Attempting to create a resource with this flag on either a WARP or REF device will cause the
         create method to return an E_OUTOFMEMORY error code.
 
-### -field D3D10_RESOURCE_MISC_TEXTURECUBE
+### -field D3D10_RESOURCE_MISC_TEXTURECUBE:0x4L
 
 Enables an application to create a cube texture from a 
         <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">Texture2DArray</a> that contains 6 textures.
 
-### -field D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX
+### -field D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX:0x10L
 
 Enables the resource created to be synchronized using the IDXGIKeyedMutex::AcquireSync and ReleaseSync APIs. 
             The following resource creation D3D10 APIs, that all take a D3D10_RESOURCE_MISC_FLAG parameter, have been extended to support the new flag.
@@ -91,7 +91,7 @@ If any of the listed functions are called with the D3D10_RESOURCE_MISC_SHARED_KE
 WARP and REF devices do not support shared resources. Attempting to create a resource with this flag on either a WARP or REF device will cause the
           create method to return an E_OUTOFMEMORY error code.
 
-### -field D3D10_RESOURCE_MISC_GDI_COMPATIBLE
+### -field D3D10_RESOURCE_MISC_GDI_COMPATIBLE:0x20L
 
 Enables a surface to be used for GDI interoperability.  Setting this flag enables rendering on the surface 
         via IDXGISurface1::GetDC.

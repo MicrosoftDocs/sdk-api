@@ -54,7 +54,7 @@ The <code>DMO_PROCESS_OUTPUT_FLAGS</code> enumeration defines flags that specify
 
 ## -enum-fields
 
-### -field DMO_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER
+### -field DMO_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER:0x1
 
 Discard the output when the pointer to the output buffer is <b>NULL</b>.
 

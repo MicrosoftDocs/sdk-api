@@ -56,7 +56,7 @@ Indicates information about the type of media file accessed.
 
 ## -enum-fields
 
-### -field WPC_MEDIA_TYPE_OTHER
+### -field WPC_MEDIA_TYPE_OTHER:0
 
 The type of media file accessed is not one of the types available.
 

@@ -54,27 +54,27 @@ Specifies the status of a topology during playback.
 
 ## -enum-fields
 
-### -field MF_TOPOSTATUS_INVALID
+### -field MF_TOPOSTATUS_INVALID:0
 
 This value is not used.
 
-### -field MF_TOPOSTATUS_READY
+### -field MF_TOPOSTATUS_READY:100
 
 The topology is ready to start. After this status flag is received, you can use the Media Session's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> method to query the topology for services, such as rate control.
 
-### -field MF_TOPOSTATUS_STARTED_SOURCE
+### -field MF_TOPOSTATUS_STARTED_SOURCE:200
 
 The Media Session has started to read data from the media sources in the topology.
 
-### -field MF_TOPOSTATUS_DYNAMIC_CHANGED
+### -field MF_TOPOSTATUS_DYNAMIC_CHANGED:210
 
 The Media Session modified the topology, because the format of a stream changed.
 
-### -field MF_TOPOSTATUS_SINK_SWITCHED
+### -field MF_TOPOSTATUS_SINK_SWITCHED:300
 
 The media sinks have switched from the previous topology to this topology. This status value is not sent for the first topology that is played. For the first topology, the <a href="/windows/desktop/medfound/mesessionstarted">MESessionStarted</a> event indicates that the media sinks have started receiving data.
 
-### -field MF_TOPOSTATUS_ENDED
+### -field MF_TOPOSTATUS_ENDED:400
 
 Playback of this topology is complete. The Media Session might still use the topology internally. The Media Session does not completely release the topology until it sends the next <b>MF_TOPOSTATUS_STARTED_SOURCE</b> status event or the <a href="/windows/desktop/medfound/mesessionended">MESessionEnded</a> event.
 

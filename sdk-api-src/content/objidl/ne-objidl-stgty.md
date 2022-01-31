@@ -58,19 +58,19 @@ The
 
 ## -enum-fields
 
-### -field STGTY_STORAGE
+### -field STGTY_STORAGE:1
 
 Indicates that the storage element is a storage object.
 
-### -field STGTY_STREAM
+### -field STGTY_STREAM:2
 
 Indicates that the storage element is a stream object.
 
-### -field STGTY_LOCKBYTES
+### -field STGTY_LOCKBYTES:3
 
 Indicates that the storage element is a byte-array object.
 
-### -field STGTY_PROPERTY
+### -field STGTY_PROPERTY:4
 
 Indicates that the storage element is a property storage object.
 

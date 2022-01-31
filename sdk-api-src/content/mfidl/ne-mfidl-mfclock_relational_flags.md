@@ -56,7 +56,7 @@ Defines properties of a clock.
 
 ## -enum-fields
 
-### -field MFCLOCK_RELATIONAL_FLAG_JITTER_NEVER_AHEAD
+### -field MFCLOCK_RELATIONAL_FLAG_JITTER_NEVER_AHEAD:0x1
 
 Jitter values are always negative. In other words, the time returned by <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclock-getcorrelatedtime">IMFClock::GetCorrelatedTime</a> might jitter behind the actual clock time, but will never jitter ahead of the actual time. If this flag is not present, the clock might jitter in either direction.
 

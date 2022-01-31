@@ -54,15 +54,15 @@ When using triangle strip primitive topology, vertex positions are interpreted a
 
 ## -enum-fields
 
-### -field D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_DISABLED
+### -field D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_DISABLED:0
 
 Indicates that there is no cut value.
 
-### -field D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFF
+### -field D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFF:1
 
 Indicates that 0xFFFF should be used as the cut value.
 
-### -field D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFFFFFF
+### -field D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFFFFFF:2
 
 Indicates that 0xFFFFFFFF should be used as the cut value.
 

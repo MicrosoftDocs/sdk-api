@@ -54,7 +54,7 @@ Indicates the unit of measurement of a property.
 
 ## -enum-fields
 
-### -field TPMU_Default
+### -field TPMU_Default:0
 
 The units are unknown.
 

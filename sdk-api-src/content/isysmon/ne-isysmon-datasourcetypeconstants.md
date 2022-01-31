@@ -56,19 +56,19 @@ Determines the source of the performance counter data.
 
 ## -enum-fields
 
-### -field sysmonNullDataSource
+### -field sysmonNullDataSource:0xffffffff
 
 No data source.
 
-### -field sysmonCurrentActivity
+### -field sysmonCurrentActivity:0x1
 
 The data source is the current activity of the performance counters on the local or remote computer as specified in the performance counter paths.
 
-### -field sysmonLogFiles
+### -field sysmonLogFiles:0x2
 
 The data source is one or more log files.
 
-### -field sysmonSqlLog
+### -field sysmonSqlLog:0x3
 
 The data source is an SQL log.
 

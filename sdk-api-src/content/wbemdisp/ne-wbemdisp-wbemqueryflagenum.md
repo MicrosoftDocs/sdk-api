@@ -62,15 +62,15 @@ The WMI scripting type library, wbemdisp.tlb, defines these constants. Visual Ba
 
 ## -enum-fields
 
-### -field wbemQueryFlagDeep
+### -field wbemQueryFlagDeep:0
 
 Forces recursive enumeration into all subclasses derived from the specified parent class. The parent class itself is not returned in the enumeration.
 
-### -field wbemQueryFlagShallow
+### -field wbemQueryFlagShallow:1
 
 Forces the enumeration to include only immediate subclasses of the specified parent class.
 
-### -field wbemQueryFlagPrototype
+### -field wbemQueryFlagPrototype:2
 
 Used for prototyping. It stops the query from happening and instead returns an object that look like a typical result object.
 

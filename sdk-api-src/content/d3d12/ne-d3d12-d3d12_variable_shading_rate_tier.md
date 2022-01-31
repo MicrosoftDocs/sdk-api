@@ -39,15 +39,15 @@ Defines constants that specify a shading rate tier (for variable-rate shading, o
 
 ## -enum-fields
 
-### -field D3D12_VARIABLE_SHADING_RATE_TIER_NOT_SUPPORTED
+### -field D3D12_VARIABLE_SHADING_RATE_TIER_NOT_SUPPORTED:0
 
 Specifies that variable-rate shading is not supported.
 
-### -field D3D12_VARIABLE_SHADING_RATE_TIER_1
+### -field D3D12_VARIABLE_SHADING_RATE_TIER_1:1
 
 Specifies that variable-rate shading tier 1 is supported.
 
-### -field D3D12_VARIABLE_SHADING_RATE_TIER_2
+### -field D3D12_VARIABLE_SHADING_RATE_TIER_2:2
 
 Specifies that variable-rate shading tier 2 is supported.
 

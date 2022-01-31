@@ -57,7 +57,7 @@ The <b>DS_MANGLE_FOR</b> enumeration is used to define whether a
 
 ## -enum-fields
 
-### -field DS_MANGLE_UNKNOWN
+### -field DS_MANGLE_UNKNOWN:0
 
 Indicates that the relative distinguished name is  not mangled or that the type of mangling is 
       unknown.

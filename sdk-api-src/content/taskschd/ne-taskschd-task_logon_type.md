@@ -56,31 +56,31 @@ Defines what logon technique is required to run a task.
 
 ## -enum-fields
 
-### -field TASK_LOGON_NONE
+### -field TASK_LOGON_NONE:0
 
 The logon method is not specified. Used for non-NT credentials.
 
-### -field TASK_LOGON_PASSWORD
+### -field TASK_LOGON_PASSWORD:1
 
 Use a password for logging on the user. The password must be supplied at registration time.
 
-### -field TASK_LOGON_S4U
+### -field TASK_LOGON_S4U:2
 
 The service will log the user on using Service For User (S4U), and the task will run in a non-interactive desktop.  When an S4U logon is used, no password is stored by the system and there is no access to either the network or to encrypted files.
 
-### -field TASK_LOGON_INTERACTIVE_TOKEN
+### -field TASK_LOGON_INTERACTIVE_TOKEN:3
 
  User must already be logged on. The task will be run only in an existing interactive session.
 
-### -field TASK_LOGON_GROUP
+### -field TASK_LOGON_GROUP:4
 
 Group activation. The <b>groupId</b> field specifies the group.
 
-### -field TASK_LOGON_SERVICE_ACCOUNT
+### -field TASK_LOGON_SERVICE_ACCOUNT:5
 
 Indicates that a Local System, Local Service, or Network Service account is being used as a security context to run the task.
 
-### -field TASK_LOGON_INTERACTIVE_TOKEN_OR_PASSWORD
+### -field TASK_LOGON_INTERACTIVE_TOKEN_OR_PASSWORD:6
 
 Not in use; currently identical to TASK_LOGON_PASSWORD.
 

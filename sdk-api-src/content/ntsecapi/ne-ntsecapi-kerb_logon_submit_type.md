@@ -58,50 +58,50 @@ The <b>KERB_LOGON_SUBMIT_TYPE</b> enumeration identifies the type of logon being
 
 ## -enum-fields
 
-### -field KerbInteractiveLogon
+### -field KerbInteractiveLogon:2
 
 Perform an interactive logon.
 
-### -field KerbSmartCardLogon
+### -field KerbSmartCardLogon:6
 
 Logon using a smart card.
 
-### -field KerbWorkstationUnlockLogon
+### -field KerbWorkstationUnlockLogon:7
 
 Unlock a workstation.
 
-### -field KerbSmartCardUnlockLogon
+### -field KerbSmartCardUnlockLogon:8
 
 Unlock a workstation using a smart card.
 
-### -field KerbProxyLogon
+### -field KerbProxyLogon:9
 
 Logon using a proxy server.
 
-### -field KerbTicketLogon
+### -field KerbTicketLogon:10
 
 Logon using a valid <a href="/windows/desktop/SecGloss/k-gly">Kerberos</a> ticket as a credential.
 
-### -field KerbTicketUnlockLogon
+### -field KerbTicketUnlockLogon:11
 
 Unlock a workstation by using a Kerberos ticket.
 
-### -field KerbS4ULogon
+### -field KerbS4ULogon:12
 
 Perform a service for user logon.
 
-### -field KerbCertificateLogon
+### -field KerbCertificateLogon:13
 
 Logon interactively using a certificate stored on a smart card.
 
-### -field KerbCertificateS4ULogon
+### -field KerbCertificateS4ULogon:14
 
 Perform a service for user logon using a certificate stored on a smart card.
 
-### -field KerbCertificateUnlockLogon
+### -field KerbCertificateUnlockLogon:15
 
 Unlock a workstation using a certificate stored on a smart card.
 
-### -field KerbNoElevationLogon
+### -field KerbNoElevationLogon:83
 
-### -field KerbLuidLogon
+### -field KerbLuidLogon:84

@@ -54,15 +54,15 @@ Flags for setting split resource barriers.
 
 ## -enum-fields
 
-### -field D3D12_RESOURCE_BARRIER_FLAG_NONE
+### -field D3D12_RESOURCE_BARRIER_FLAG_NONE:0
 
 No flags.
 
-### -field D3D12_RESOURCE_BARRIER_FLAG_BEGIN_ONLY
+### -field D3D12_RESOURCE_BARRIER_FLAG_BEGIN_ONLY:0x1
 
 This starts a barrier transition in a new state, putting a resource in a temporary no-access condition.
 
-### -field D3D12_RESOURCE_BARRIER_FLAG_END_ONLY
+### -field D3D12_RESOURCE_BARRIER_FLAG_END_ONLY:0x2
 
 This barrier completes a transition, setting a new state and restoring active access to a resource.
 

@@ -58,15 +58,15 @@ The
 
 ## -enum-fields
 
-### -field MMC_SINGLESEL
+### -field MMC_SINGLESEL:0x0001
 
 Allows only one item at a time to be selected. Without this view style, multiple items can be selected.
 
-### -field MMC_SHOWSELALWAYS
+### -field MMC_SHOWSELALWAYS:0x0002
 
 Always show the selection, if any, even if the control does not have the focus.
 
-### -field MMC_NOSORTHEADER
+### -field MMC_NOSORTHEADER:0x0004
 
 A value that specifies that column headers do not work like buttons. This style is useful if clicking a column header in report view does not carry out an action, such as sorting.
 

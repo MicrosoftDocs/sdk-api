@@ -56,21 +56,21 @@ The ID of the input message source.
 
 ## -enum-fields
 
-### -field IMO_UNAVAILABLE
+### -field IMO_UNAVAILABLE:0x00000000
 
 The source isn't identified.
 
-### -field IMO_HARDWARE
+### -field IMO_HARDWARE:0x00000001
 
 The input message is from a hardware device or has been  injected into the message queue by an application that has the <b>UIAccess</b> attribute set to TRUE in its manifest file. 
 
 For more information about the <b>UIAccess</b> attribute and application manifests, see <a href="/previous-versions/bb756883(v=msdn.10)">UAC References</a>.
 
-### -field IMO_INJECTED
+### -field IMO_INJECTED:0x00000002
 
 The input message has been injected (through the <a href="/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> function) by an application that doesn't have the <b>UIAccess</b> attribute set to TRUE in its manifest file.
 
-### -field IMO_SYSTEM
+### -field IMO_SYSTEM:0x00000004
 
 The system has injected the input message.
 

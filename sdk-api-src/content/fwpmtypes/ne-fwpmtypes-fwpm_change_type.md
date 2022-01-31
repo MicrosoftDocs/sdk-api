@@ -56,7 +56,7 @@ The <b>FWPM_CHANGE_TYPE</b> enumerated type is used when dispatching change noti
 
 ## -enum-fields
 
-### -field FWPM_CHANGE_ADD
+### -field FWPM_CHANGE_ADD:1
 
 Specifies an add change notification.
 

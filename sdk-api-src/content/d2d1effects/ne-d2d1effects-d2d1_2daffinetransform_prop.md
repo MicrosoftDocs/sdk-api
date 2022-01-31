@@ -54,7 +54,7 @@ Identifiers for properties of the <a href="/windows/desktop/Direct2D/2d-affine-t
 
 ## -enum-fields
 
-### -field D2D1_2DAFFINETRANSFORM_PROP_INTERPOLATION_MODE
+### -field D2D1_2DAFFINETRANSFORM_PROP_INTERPOLATION_MODE:0
 
 The interpolation mode used to scale the image. There are 6 scale modes that range in quality and speed.
             
@@ -63,7 +63,7 @@ Type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_2daffinetr
 
 Default value is D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE_LINEAR.
 
-### -field D2D1_2DAFFINETRANSFORM_PROP_BORDER_MODE
+### -field D2D1_2DAFFINETRANSFORM_PROP_BORDER_MODE:1
 
 The mode used to calculate the border of the image, soft or hard.
             
@@ -72,7 +72,7 @@ Type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border_mod
 
 Default value is D2D1_BORDER_MODE_SOFT.
 
-### -field D2D1_2DAFFINETRANSFORM_PROP_TRANSFORM_MATRIX
+### -field D2D1_2DAFFINETRANSFORM_PROP_TRANSFORM_MATRIX:2
 
 The 3x2 matrix to transform the image using the Direct2D matrix transform.
             
@@ -81,7 +81,7 @@ Type is <a href="/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F<
 
 Default value is Matrix3x2F::Identity().
 
-### -field D2D1_2DAFFINETRANSFORM_PROP_SHARPNESS
+### -field D2D1_2DAFFINETRANSFORM_PROP_SHARPNESS:3
 
 In the high quality cubic interpolation mode, the sharpness level of the scaling filter as a float between 0 and 1. The values are unitless. You can use sharpness to adjust the quality of an image when you scale the image.
             The sharpness factor affects the shape of the kernel. The higher the sharpness factor, the smaller the kernel.
@@ -93,4 +93,4 @@ Type is FLOAT.
 
 Default value is 1.0f.
 
-### -field D2D1_2DAFFINETRANSFORM_PROP_FORCE_DWORD
+### -field D2D1_2DAFFINETRANSFORM_PROP_FORCE_DWORD:0xffffffff

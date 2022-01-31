@@ -56,27 +56,27 @@ The <b>WMPCallbackNotification</b> enumeration defines states for use by the <b>
 
 ## -enum-fields
 
-### -field wmpcnLoginStateChange
+### -field wmpcnLoginStateChange:1
 
 The user has either signed in or signed out.
 
-### -field wmpcnAuthResult
+### -field wmpcnAuthResult:2
 
 The notification contains the result of an authentication attempt.
 
-### -field wmpcnLicenseUpdated
+### -field wmpcnLicenseUpdated:3
 
 A license was updated for a content item.
 
-### -field wmpcnNewCatalogAvailable
+### -field wmpcnNewCatalogAvailable:4
 
 A new catalog or update is available for download.
 
-### -field wmpcnNewPluginAvailable
+### -field wmpcnNewPluginAvailable:5
 
 A new plug-in or update is available for download.
 
-### -field wmpcnDisableRadioSkipping
+### -field wmpcnDisableRadioSkipping:6
 
 Disable radio skipping in Windows Media Player.
 

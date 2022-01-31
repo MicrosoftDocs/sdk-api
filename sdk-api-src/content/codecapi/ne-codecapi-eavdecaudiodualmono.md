@@ -54,15 +54,15 @@ Specifies whether the input audio stream is stereo or dual mono. This enumeratio
 
 ## -enum-fields
 
-### -field eAVDecAudioDualMono_IsNotDualMono
+### -field eAVDecAudioDualMono_IsNotDualMono:0
 
 The input bit stream is not dual mono.
 
-### -field eAVDecAudioDualMono_IsDualMono
+### -field eAVDecAudioDualMono_IsDualMono:1
 
 The input bit stream is dual mono.
 
-### -field eAVDecAudioDualMono_UnSpecified
+### -field eAVDecAudioDualMono_UnSpecified:2  
 
 There is no indication in the bit stream whether the audio is dual mono.
 

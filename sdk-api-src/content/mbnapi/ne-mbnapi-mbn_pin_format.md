@@ -57,7 +57,7 @@ The <b>MBN_PIN_FORMAT</b> enumerated type indicates whether a PIN is numeric or 
 
 ## -enum-fields
 
-### -field MBN_PIN_FORMAT_NONE
+### -field MBN_PIN_FORMAT_NONE:0
 
 Indicates that the PIN format is not known.
 

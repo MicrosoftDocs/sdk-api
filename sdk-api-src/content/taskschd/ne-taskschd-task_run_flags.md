@@ -56,23 +56,23 @@ Defines how a task is run.
 
 ## -enum-fields
 
-### -field TASK_RUN_NO_FLAGS
+### -field TASK_RUN_NO_FLAGS:0
 
 The task is run with all flags ignored.
 
-### -field TASK_RUN_AS_SELF
+### -field TASK_RUN_AS_SELF:0x1
 
 The task is run as the user who is calling the <a href="/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-run">Run</a> method.
 
-### -field TASK_RUN_IGNORE_CONSTRAINTS
+### -field TASK_RUN_IGNORE_CONSTRAINTS:0x2
 
 The task is run regardless of constraints such as "do not run on batteries" or "run only if idle".
 
-### -field TASK_RUN_USE_SESSION_ID
+### -field TASK_RUN_USE_SESSION_ID:0x4
 
 The task is run using a terminal server session identifier.
 
-### -field TASK_RUN_USER_SID
+### -field TASK_RUN_USER_SID:0x8
 
 The task is run using a security identifier.
 

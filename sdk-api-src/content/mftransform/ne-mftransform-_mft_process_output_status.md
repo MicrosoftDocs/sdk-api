@@ -54,7 +54,7 @@ Indicates the status of a call to <a href="/windows/desktop/api/mftransform/nf-m
 
 ## -enum-fields
 
-### -field MFT_PROCESS_OUTPUT_STATUS_NEW_STREAMS
+### -field MFT_PROCESS_OUTPUT_STATUS_NEW_STREAMS:0x100
 
 The Media Foundation transform (MFT) has created one or more new output streams.
 

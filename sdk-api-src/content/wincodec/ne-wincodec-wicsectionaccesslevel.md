@@ -54,13 +54,13 @@ Specifies the access level of a Windows Graphics Device Interface (GDI) section.
 
 ## -enum-fields
 
-### -field WICSectionAccessLevelRead
+### -field WICSectionAccessLevelRead:0x1
 
 Indicates a read only access level.
 
-### -field WICSectionAccessLevelReadWrite
+### -field WICSectionAccessLevelReadWrite:0x3
 
 Indicates a read/write access level.
 
-### -field WICSectionAccessLevel_FORCE_DWORD
+### -field WICSectionAccessLevel_FORCE_DWORD:0x7fffffff
 

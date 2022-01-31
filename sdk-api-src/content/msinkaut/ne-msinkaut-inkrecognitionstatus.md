@@ -54,47 +54,47 @@ Specifies whether an error occurred during recognition and, if so, which error o
 
 ## -enum-fields
 
-### -field IRS_NoError
+### -field IRS_NoError:0
 
 Specifies no error.
 
-### -field IRS_Interrupted
+### -field IRS_Interrupted:0x1
 
 The recognition was interrupted by a call to <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-stopbackgroundrecognition">StopBackgroundRecognition</a>.
 
-### -field IRS_ProcessFailed
+### -field IRS_ProcessFailed:0x2
 
 The ink recognition process failed.
 
-### -field IRS_InkAddedFailed
+### -field IRS_InkAddedFailed:0x4
 
 The ink could not be added.
 
-### -field IRS_SetAutoCompletionModeFailed
+### -field IRS_SetAutoCompletionModeFailed:0x8
 
 The <i>character Autocomplete</i> mode could not be set.
 
-### -field IRS_SetStrokesFailed
+### -field IRS_SetStrokesFailed:0x10
 
 The strokes could not be set.
 
-### -field IRS_SetGuideFailed
+### -field IRS_SetGuideFailed:0x20
 
 The recognition guide could not be set.
 
-### -field IRS_SetFlagsFailed
+### -field IRS_SetFlagsFailed:0x40
 
 The flags could not be set.
 
-### -field IRS_SetFactoidFailed
+### -field IRS_SetFactoidFailed:0x80
 
 The factoid could not be set.
 
-### -field IRS_SetPrefixSuffixFailed
+### -field IRS_SetPrefixSuffixFailed:0x100
 
 The suffix or the prefix could not be set.
 
-### -field IRS_SetWordListFailed
+### -field IRS_SetWordListFailed:0x200
 
 The word list could not be set.
 

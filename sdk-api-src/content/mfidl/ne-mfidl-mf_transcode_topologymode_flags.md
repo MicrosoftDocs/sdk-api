@@ -56,11 +56,11 @@ Defines flags for the <a href="/windows/desktop/medfound/mf-transcode-topologymo
 
 ## -enum-fields
 
-### -field MF_TRANSCODE_TOPOLOGYMODE_SOFTWARE_ONLY
+### -field MF_TRANSCODE_TOPOLOGYMODE_SOFTWARE_ONLY:0
 
 The topology loader will exclude hardware-based transforms (such as codecs and color converters) from the topology. It will use only software transforms.
 
-### -field MF_TRANSCODE_TOPOLOGYMODE_HARDWARE_ALLOWED
+### -field MF_TRANSCODE_TOPOLOGYMODE_HARDWARE_ALLOWED:1
 
 The topology loader may insert hardware-based transforms into the transcode topology.
 

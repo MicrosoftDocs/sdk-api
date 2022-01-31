@@ -55,7 +55,7 @@ The
 
 ## -enum-fields
 
-### -field FM_ASTRANSFER
+### -field FM_ASTRANSFER:0
 
 A call transfer is being finished.
 

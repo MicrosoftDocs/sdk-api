@@ -54,13 +54,13 @@ Identifiers for properties of the <a href="/windows/desktop/Direct2D/hue-to-rgb-
 
 ## -enum-fields
 
-### -field D2D1_HUETORGB_PROP_INPUT_COLOR_SPACE
+### -field D2D1_HUETORGB_PROP_INPUT_COLOR_SPACE:0
 
 The D2D1_HUETORGB_PROP_INPUT_COLOR_SPACE property is an enumeration value which indicates which color space to convert from. 
           The default value for the property is D2D1_HUETORGB_INPUT_COLOR_SPACE_HUE_SATURATION_VALUE.
           See <a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_huetorgb_input_color_space">D2D1_HUETORGB_INPUT_COLOR_SPACE</a> enumeration for more information.
 
-### -field D2D1_HUETORGB_PROP_FORCE_DWORD
+### -field D2D1_HUETORGB_PROP_FORCE_DWORD:0xffffffff
 
 ## -see-also
 

@@ -54,15 +54,15 @@ Specifies the border mode to use when composing a bitmap or applying a clip with
 
 ## -enum-fields
 
-### -field DCOMPOSITION_BORDER_MODE_SOFT
+### -field DCOMPOSITION_BORDER_MODE_SOFT:0
 
 Bitmap and clip edges are antialiased.
 
-### -field DCOMPOSITION_BORDER_MODE_HARD
+### -field DCOMPOSITION_BORDER_MODE_HARD:1
 
 Bitmap and clip edges are aliased. See Remarks.
 
-### -field DCOMPOSITION_BORDER_MODE_INHERIT
+### -field DCOMPOSITION_BORDER_MODE_INHERIT:0xffffffff
 
 Bitmap and clip edges are drawn according to the mode established by the parent visual.
 

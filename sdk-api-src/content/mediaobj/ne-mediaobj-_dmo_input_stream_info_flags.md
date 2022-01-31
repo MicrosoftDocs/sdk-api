@@ -54,19 +54,19 @@ The <code>DMO_INPUT_STREAM_INFO_FLAGS</code> enumeration defines flags that desc
 
 ## -enum-fields
 
-### -field DMO_INPUT_STREAMF_WHOLE_SAMPLES
+### -field DMO_INPUT_STREAMF_WHOLE_SAMPLES:0x1
 
 The stream requires whole samples. Samples must not span multiple buffers, and buffers must not contain partial samples.
 
-### -field DMO_INPUT_STREAMF_SINGLE_SAMPLE_PER_BUFFER
+### -field DMO_INPUT_STREAMF_SINGLE_SAMPLE_PER_BUFFER:0x2
 
 Each buffer must contain exactly one sample.
 
-### -field DMO_INPUT_STREAMF_FIXED_SAMPLE_SIZE
+### -field DMO_INPUT_STREAMF_FIXED_SAMPLE_SIZE:0x4
 
 All the samples in this stream must be the same size.
 
-### -field DMO_INPUT_STREAMF_HOLDS_BUFFERS
+### -field DMO_INPUT_STREAMF_HOLDS_BUFFERS:0x8
 
 The DMO performs lookahead on the incoming data, and may hold multiple input buffers for this stream.
 

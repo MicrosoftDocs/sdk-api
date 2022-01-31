@@ -56,7 +56,7 @@ Represents the role of a provider, relative to the other provider in the synchro
 
 ## -enum-fields
 
-### -field SPR_SOURCE
+### -field SPR_SOURCE:0
 
 The provider is the source provider.
 

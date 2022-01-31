@@ -54,35 +54,35 @@ The state of a placeholder file or folder.
 
 ## -enum-fields
 
-### -field CF_PLACEHOLDER_STATE_NO_STATES
+### -field CF_PLACEHOLDER_STATE_NO_STATES:0x00000000
 
 When returned, the file or directory whose <i>FileAttributes</i> and <i>ReparseTag</i> examined by the API is not a placeholder.
 
-### -field CF_PLACEHOLDER_STATE_PLACEHOLDER
+### -field CF_PLACEHOLDER_STATE_PLACEHOLDER:0x00000001
 
 The file or directory whose <i>FileAttributes</i> and <i>ReparseTag</i> examined by the API is a placeholder.
 
-### -field CF_PLACEHOLDER_STATE_SYNC_ROOT
+### -field CF_PLACEHOLDER_STATE_SYNC_ROOT:0x00000002
 
 The directory is both a placeholder directory as well as the sync root.
 
-### -field CF_PLACEHOLDER_STATE_ESSENTIAL_PROP_PRESENT
+### -field CF_PLACEHOLDER_STATE_ESSENTIAL_PROP_PRESENT:0x00000004
 
 The file or directory must be a placeholder and there exists an essential property in the property store of the file or directory.
 
-### -field CF_PLACEHOLDER_STATE_IN_SYNC
+### -field CF_PLACEHOLDER_STATE_IN_SYNC:0x00000008
 
 The file or directory must be a placeholder and its content in sync with the cloud.
 
-### -field CF_PLACEHOLDER_STATE_PARTIAL
+### -field CF_PLACEHOLDER_STATE_PARTIAL:0x00000010
 
 The file or directory must be a placeholder and its content is not ready to be consumed by the user application, though it may or may not be fully present locally. An example is a placeholder file whose content has been fully downloaded to the local disk, but is yet to be validated by a sync provider that has registered the sync root with the hydration modifier VERIFICATION_REQUIRED.
 
-### -field CF_PLACEHOLDER_STATE_PARTIALLY_ON_DISK
+### -field CF_PLACEHOLDER_STATE_PARTIALLY_ON_DISK:0x00000020
 
 The file or directory must be a placeholder and its content is not fully present locally. When this is set, <b>CF_PLACEHOLDER_STATE_PARTIAL</b> must also be set.
 
-### -field CF_PLACEHOLDER_STATE_INVALID
+### -field CF_PLACEHOLDER_STATE_INVALID:0xffffffff
 
 This is an invalid state when the API fails to parse the information of the file or directory.
 

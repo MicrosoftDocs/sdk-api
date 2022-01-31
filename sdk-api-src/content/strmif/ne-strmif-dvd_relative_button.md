@@ -56,19 +56,19 @@ Identifies the four directional buttons used for DVD menu navigation and other o
 
 ## -enum-fields
 
-### -field DVD_Relative_Upper
+### -field DVD_Relative_Upper:1
 
 Upper button.
 
-### -field DVD_Relative_Lower
+### -field DVD_Relative_Lower:2
 
 Lower button.
 
-### -field DVD_Relative_Left
+### -field DVD_Relative_Left:3
 
 Left button.
 
-### -field DVD_Relative_Right
+### -field DVD_Relative_Right:4
 
 Right button.
 

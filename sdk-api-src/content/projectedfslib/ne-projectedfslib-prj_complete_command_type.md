@@ -54,10 +54,10 @@ Specifies command types.
 
 ## -enum-fields
 
-### -field PRJ_COMPLETE_COMMAND_TYPE_NOTIFICATION
+### -field PRJ_COMPLETE_COMMAND_TYPE_NOTIFICATION:1
 
 The provider is completing a call to its <a href="/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_notification_cb">PRJ_NOTIFICATION_CB</a> callback.
 
-### -field PRJ_COMPLETE_COMMAND_TYPE_ENUMERATION
+### -field PRJ_COMPLETE_COMMAND_TYPE_ENUMERATION:2
 
 The provider is completing a call to its <a href="/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback.

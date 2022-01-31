@@ -56,64 +56,64 @@ Specifies the color primaries of a video source. The color primaries define how 
 
 ## -enum-fields
 
-### -field MFVideoPrimaries_Unknown
+### -field MFVideoPrimaries_Unknown:0
 
 The color primaries are unknown.
 
-### -field MFVideoPrimaries_reserved
+### -field MFVideoPrimaries_reserved:1
 
 Reserved.
 
-### -field MFVideoPrimaries_BT709
+### -field MFVideoPrimaries_BT709:2
 
 ITU-R BT.709. Also used for sRGB and scRGB.
 
-### -field MFVideoPrimaries_BT470_2_SysM
+### -field MFVideoPrimaries_BT470_2_SysM:3
 
 ITU-R BT.470-4 System M (NTSC).
 
-### -field MFVideoPrimaries_BT470_2_SysBG
+### -field MFVideoPrimaries_BT470_2_SysBG:4
 
 ITU-R BT.470-4 System B,G (NTSC).
 
-### -field MFVideoPrimaries_SMPTE170M
+### -field MFVideoPrimaries_SMPTE170M:5
 
 SMPTE 170M.
 
-### -field MFVideoPrimaries_SMPTE240M
+### -field MFVideoPrimaries_SMPTE240M:6
 
 SMPTE 240M.
 
-### -field MFVideoPrimaries_EBU3213
+### -field MFVideoPrimaries_EBU3213:7
 
 EBU 3213.
 
-### -field MFVideoPrimaries_SMPTE_C
+### -field MFVideoPrimaries_SMPTE_C:8
 
 SMPTE C (SMPTE RP 145).
 
-### -field MFVideoPrimaries_BT2020
+### -field MFVideoPrimaries_BT2020:9
 
 ITU-R BT.2020 color primaries.
 
 <div class="alert"><b>Note</b>  Requires Windows 8 or later.</div>
 <div> </div>
 
-### -field MFVideoPrimaries_XYZ
+### -field MFVideoPrimaries_XYZ:10
 
 CIE 1931 XYZ (see: <a href="https://en.wikipedia.org/wiki/CIE_1931_color_space">CIE 1931 color space</a>).  Note that this color space is only well-defined for floating point representations.
 
 <div class="alert"><b>Note</b>  Requires Windows 8 or later.</div>
 <div> </div>
 
-### -field MFVideoPrimaries_DCI_P3
+### -field MFVideoPrimaries_DCI_P3:11
 
 DCI-P3
 
 <div class="alert"><b>Note</b>  Requires Windows 10, version 1703 or later.</div>
 <div> </div>
 
-### -field MFVideoPrimaries_ACES
+### -field MFVideoPrimaries_ACES:12
 
 Academy Color Encoding System
 
@@ -124,7 +124,7 @@ Academy Color Encoding System
 
 Reserved.
 
-### -field MFVideoPrimaries_ForceDWORD
+### -field MFVideoPrimaries_ForceDWORD:0x7fffffff
 
 Reserved. This member forces the enumeration type to compile as a <b>DWORD</b> value.
 

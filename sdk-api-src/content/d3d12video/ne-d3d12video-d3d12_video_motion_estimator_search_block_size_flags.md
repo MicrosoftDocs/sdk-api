@@ -37,7 +37,7 @@ Specifies the motion estimation search block sizes that a video encoder supports
 
 ## -enum-fields
 
-### -field D3D12_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_FLAG_NONE
+### -field D3D12_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_FLAG_NONE:0
 
 Search block size is not supported by the encoder.
 

@@ -59,7 +59,7 @@ This type is applicable only for GSM devices.
 
 ## -enum-fields
 
-### -field MBN_AUTH_PROTOCOL_NONE
+### -field MBN_AUTH_PROTOCOL_NONE:0
 
 No authentication protocol is used.
 

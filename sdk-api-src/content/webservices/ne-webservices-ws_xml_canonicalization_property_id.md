@@ -55,18 +55,18 @@ Identifies each XML canonicalization property and its associated
 
 ## -enum-fields
 
-### -field WS_XML_CANONICALIZATION_PROPERTY_ALGORITHM
+### -field WS_XML_CANONICALIZATION_PROPERTY_ALGORITHM:0
 
 A <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_canonicalization_algorithm">WS_XML_CANONICALIZATION_ALGORITHM</a> value that specifies the algorithm to be used for canonicalization.  If this is not specified,
           the <b>WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM</b> is used.
 
-### -field WS_XML_CANONICALIZATION_PROPERTY_INCLUSIVE_PREFIXES
+### -field WS_XML_CANONICALIZATION_PROPERTY_INCLUSIVE_PREFIXES:1
 
 A <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_canonicalization_inclusive_prefixes">WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES</a> structure that contains the set of prefixes to be treated as inclusive prefixes when using
           the exclusive canonicalization algorithm.  If this is not specified,
           no prefix is treated as an inclusive prefix.
 
-### -field WS_XML_CANONICALIZATION_PROPERTY_OMITTED_ELEMENT
+### -field WS_XML_CANONICALIZATION_PROPERTY_OMITTED_ELEMENT:2
 
 A <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_qname">WS_XML_QNAME</a> structure that contains the elements to be omitted during canonicalization.  If one or more
           elements in the XML input match the specified name and namespace, then
@@ -77,7 +77,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_qname">WS_XML_
           signed.  If this is not specified, no element is omitted from the
           output.
 
-### -field WS_XML_CANONICALIZATION_PROPERTY_OUTPUT_BUFFER_SIZE
+### -field WS_XML_CANONICALIZATION_PROPERTY_OUTPUT_BUFFER_SIZE:3
 
 A <b>ULONG</b> that specifies the size of the buffer in which canonical bytes are accumulated.  Once at least this
           many bytes are generated, or canonicalization is ended by a call to <a href="/windows/desktop/api/webservices/nf-webservices-wsendreadercanonicalization">WsEndReaderCanonicalization</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsendwritercanonicalization">WsEndWriterCanonicalization</a>, the canonical bytes are

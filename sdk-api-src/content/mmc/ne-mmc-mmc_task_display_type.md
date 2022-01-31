@@ -70,7 +70,7 @@ For that which displays the background image, the
 
 ## -enum-fields
 
-### -field MMC_TASK_DISPLAY_UNINITIALIZED
+### -field MMC_TASK_DISPLAY_UNINITIALIZED:0
 
 No images specified.
 

@@ -56,27 +56,27 @@ Specifies the DVD menu in a call to <a href="/windows/desktop/api/strmif/nf-strm
 
 ## -enum-fields
 
-### -field DVD_MENU_Title
+### -field DVD_MENU_Title:2
 
 Specifies the top menu in a DVD-Video volume. This menu is also known as the Title Menu or Video Manager Menu and it provides access to all VTS (Video Title Set) menus on the disc.
 
-### -field DVD_MENU_Root
+### -field DVD_MENU_Root:3
 
 Specifies the root menu for a VTS.
 
-### -field DVD_MENU_Subpicture
+### -field DVD_MENU_Subpicture:4
 
 Specifies the subpicture submenu in a VTS menu.
 
-### -field DVD_MENU_Audio
+### -field DVD_MENU_Audio:5
 
 Specifies the audio submenu in a VTS menu.
 
-### -field DVD_MENU_Angle
+### -field DVD_MENU_Angle:6
 
 Specifies the angle submenu in a VTS menu.
 
-### -field DVD_MENU_Chapter
+### -field DVD_MENU_Chapter:7
 
 Choose a chapter submenu in a VTS menu.
 

@@ -54,15 +54,15 @@ The <b>NETSOURCE_URLCREDPOLICY_SETTINGS</b> enumeration type is used for an outp
 
 ## -enum-fields
 
-### -field NETSOURCE_URLCREDPOLICY_SETTING_SILENTLOGONOK
+### -field NETSOURCE_URLCREDPOLICY_SETTING_SILENTLOGONOK:0
 
 Specifies that your application can log on to servers for which passwords are cached without informing the user.
 
-### -field NETSOURCE_URLCREDPOLICY_SETTING_MUSTPROMPTUSER
+### -field NETSOURCE_URLCREDPOLICY_SETTING_MUSTPROMPTUSER:1
 
 Specifies that your application must notify the user when your application needs to log on to a server. You application can fill in the fields of a password dialog, but must get confirmation.
 
-### -field NETSOURCE_URLCREDPOLICY_SETTING_ANONYMOUSONLY
+### -field NETSOURCE_URLCREDPOLICY_SETTING_ANONYMOUSONLY:2
 
 Specifies that your application can never log on to network servers for the user. Your application can still navigate servers that do not require passwords.
 

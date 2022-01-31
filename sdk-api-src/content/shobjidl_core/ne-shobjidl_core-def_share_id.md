@@ -54,11 +54,11 @@ Values that specify the folder being acted on by methods of the <a href="/window
 
 ## -enum-fields
 
-### -field DEFSHAREID_USERS
+### -field DEFSHAREID_USERS:1
 
 The <b>Users</b> folder (<a href="/windows/desktop/shell/knownfolderid">FOLDERID_UserProfiles</a>). This folder is usually found at C:\Users.
 
-### -field DEFSHAREID_PUBLIC
+### -field DEFSHAREID_PUBLIC:2
 
 The <b>Public</b> folder (<a href="/windows/desktop/shell/knownfolderid">FOLDERID_Public</a>). This folder is usually found at C:\Users\Public.
 

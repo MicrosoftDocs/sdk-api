@@ -54,19 +54,19 @@ Specifies the type of sampler filter reduction.
 
 ## -enum-fields
 
-### -field D3D11_FILTER_REDUCTION_TYPE_STANDARD
+### -field D3D11_FILTER_REDUCTION_TYPE_STANDARD:0
 
 Indicates standard (default) filter reduction.
 
-### -field D3D11_FILTER_REDUCTION_TYPE_COMPARISON
+### -field D3D11_FILTER_REDUCTION_TYPE_COMPARISON:1
 
 Indicates a comparison filter reduction.
 
-### -field D3D11_FILTER_REDUCTION_TYPE_MINIMUM
+### -field D3D11_FILTER_REDUCTION_TYPE_MINIMUM:2
 
 Indicates minimum filter reduction.
 
-### -field D3D11_FILTER_REDUCTION_TYPE_MAXIMUM
+### -field D3D11_FILTER_REDUCTION_TYPE_MAXIMUM:3
 
 Indicates maximum filter reduction.
 

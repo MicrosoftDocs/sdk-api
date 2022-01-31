@@ -56,7 +56,7 @@ Enumerates the possible states of a
 
 ## -enum-fields
 
-### -field ClusterGroupStateUnknown
+### -field ClusterGroupStateUnknown:-1
 
 The state of the group is unknown.
 

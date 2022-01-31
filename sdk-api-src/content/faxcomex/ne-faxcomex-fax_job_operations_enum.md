@@ -54,31 +54,31 @@ The <b>FAX_JOB_OPERATIONS_ENUM</b> enumeration defines the operations that can b
 
 ## -enum-fields
 
-### -field fjoVIEW
+### -field fjoVIEW:0x1
 
 The job's TIFF image can be retrieved.
 
-### -field fjoPAUSE
+### -field fjoPAUSE:0x2
 
 The job can be paused.
 
-### -field fjoRESUME
+### -field fjoRESUME:0x4
 
 The job can be resumed.
 
-### -field fjoRESTART
+### -field fjoRESTART:0x8
 
 The job can be restarted.
 
-### -field fjoDELETE
+### -field fjoDELETE:0x10
 
 The job can be deleted.
 
-### -field fjoRECIPIENT_INFO
+### -field fjoRECIPIENT_INFO:0x20
 
 The job's recipient information can be retrieved.
 
-### -field fjoSENDER_INFO
+### -field fjoSENDER_INFO:0x40
 
 The job's sender information can be retrieved.
 

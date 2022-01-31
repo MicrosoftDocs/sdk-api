@@ -56,15 +56,15 @@ Describes a DVD stream type (video, audio, or subpicture).
 
 ## -enum-fields
 
-### -field AM_DVD_STREAM_VIDEO
+### -field AM_DVD_STREAM_VIDEO:0x1
 
 DVD video stream.
 
-### -field AM_DVD_STREAM_AUDIO
+### -field AM_DVD_STREAM_AUDIO:0x2
 
 DVD audio stream.
 
-### -field AM_DVD_STREAM_SUBPIC
+### -field AM_DVD_STREAM_SUBPIC:0x4
 
 DVD subpicture stream.
 

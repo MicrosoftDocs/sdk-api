@@ -58,15 +58,15 @@ The
 
 ## -enum-fields
 
-### -field STREAM_SEEK_SET
+### -field STREAM_SEEK_SET:0
 
 The new seek pointer is an offset relative to the beginning of the stream. In this case, the <i>dlibMove</i> parameter is the new seek position relative to the beginning of the stream.
 
-### -field STREAM_SEEK_CUR
+### -field STREAM_SEEK_CUR:1
 
 The new seek pointer is an offset relative to the current seek pointer location. In this case, the <i>dlibMove</i> parameter is the signed displacement from the current seek position.
 
-### -field STREAM_SEEK_END
+### -field STREAM_SEEK_END:2
 
 The new seek pointer is an offset relative to the end of the stream. In this case, the <i>dlibMove</i> parameter is the new seek position relative to the end of the stream.
 

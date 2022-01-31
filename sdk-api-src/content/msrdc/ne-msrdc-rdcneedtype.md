@@ -57,19 +57,19 @@ Defines the set of
 
 ## -enum-fields
 
-### -field RDCNEED_SOURCE
+### -field RDCNEED_SOURCE:0
 
 The chunk is a source chunk.
 
-### -field RDCNEED_TARGET
+### -field RDCNEED_TARGET:1
 
 This value is reserved for future use.
 
-### -field RDCNEED_SEED
+### -field RDCNEED_SEED:2
 
 The chunk is a seed chunk.
 
-### -field RDCNEED_SEED_MAX
+### -field RDCNEED_SEED_MAX:255
 
 This value is reserved for future use.
 

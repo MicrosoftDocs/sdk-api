@@ -62,15 +62,15 @@ The
 
 ## -enum-fields
 
-### -field MFCC_DISABLE
+### -field MFCC_DISABLE:0
 
 The filter view has been turned off.
 
-### -field MFCC_ENABLE
+### -field MFCC_ENABLE:1
 
 The filter view has been turned on.
 
-### -field MFCC_VALUE_CHANGE
+### -field MFCC_VALUE_CHANGE:2
 
 The filter value of a column in a result view filter list has changed. The <i>param</i> parameter of the 
 <a href="/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a> method contains the column ID.

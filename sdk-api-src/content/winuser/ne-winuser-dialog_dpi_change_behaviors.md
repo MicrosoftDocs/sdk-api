@@ -56,19 +56,19 @@ This does not affect DPI scaling behavior for the child windows of dialogs (beyo
 
 ## -enum-fields
 
-### -field DDC_DEFAULT
+### -field DDC_DEFAULT:0x0000
 
 The default behavior of the dialog manager. In response to a DPI change, the dialog manager will re-layout each control, update the font on each control, resize the dialog, and update the dialog's own font.
 
-### -field DDC_DISABLE_ALL
+### -field DDC_DISABLE_ALL:0x0001
 
 Prevents the dialog manager from responding to <a href="/windows/desktop/hidpi/wm-getdpiscaledsize">WM_GETDPISCALEDSIZE</a> and <a href="/windows/desktop/hidpi/wm-dpichanged">WM_DPICHANGED</a>, disabling all default DPI scaling behavior.
 
-### -field DDC_DISABLE_RESIZE
+### -field DDC_DISABLE_RESIZE:0x0002
 
 Prevents the dialog manager from resizing the dialog in response to a DPI change.
 
-### -field DDC_DISABLE_CONTROL_RELAYOUT
+### -field DDC_DISABLE_CONTROL_RELAYOUT:0x0004
 
 Prevents the dialog manager from re-layouting all of the dialogue's immediate children HWNDs in response to a DPI change.
 

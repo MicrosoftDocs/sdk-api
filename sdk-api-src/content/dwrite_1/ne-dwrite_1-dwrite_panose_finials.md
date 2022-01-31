@@ -54,59 +54,59 @@ The <b>DWRITE_PANOSE_FINIALS</b> enumeration contains values that specify how ch
 
 ## -enum-fields
 
-### -field DWRITE_PANOSE_FINIALS_ANY
+### -field DWRITE_PANOSE_FINIALS_ANY:0
 
 Any finials.
 
-### -field DWRITE_PANOSE_FINIALS_NO_FIT
+### -field DWRITE_PANOSE_FINIALS_NO_FIT:1
 
 No fit for finials.
 
-### -field DWRITE_PANOSE_FINIALS_NONE_NO_LOOPS
+### -field DWRITE_PANOSE_FINIALS_NONE_NO_LOOPS:2
 
 No loops.
 
-### -field DWRITE_PANOSE_FINIALS_NONE_CLOSED_LOOPS
+### -field DWRITE_PANOSE_FINIALS_NONE_CLOSED_LOOPS:3
 
 No closed loops.
 
-### -field DWRITE_PANOSE_FINIALS_NONE_OPEN_LOOPS
+### -field DWRITE_PANOSE_FINIALS_NONE_OPEN_LOOPS:4
 
 No open loops.
 
-### -field DWRITE_PANOSE_FINIALS_SHARP_NO_LOOPS
+### -field DWRITE_PANOSE_FINIALS_SHARP_NO_LOOPS:5
 
 Sharp with no loops.
 
-### -field DWRITE_PANOSE_FINIALS_SHARP_CLOSED_LOOPS
+### -field DWRITE_PANOSE_FINIALS_SHARP_CLOSED_LOOPS:6
 
 Sharp with closed loops.
 
-### -field DWRITE_PANOSE_FINIALS_SHARP_OPEN_LOOPS
+### -field DWRITE_PANOSE_FINIALS_SHARP_OPEN_LOOPS:7
 
 Sharp with open loops.
 
-### -field DWRITE_PANOSE_FINIALS_TAPERED_NO_LOOPS
+### -field DWRITE_PANOSE_FINIALS_TAPERED_NO_LOOPS:8
 
 Tapered with no loops.
 
-### -field DWRITE_PANOSE_FINIALS_TAPERED_CLOSED_LOOPS
+### -field DWRITE_PANOSE_FINIALS_TAPERED_CLOSED_LOOPS:9
 
 Tapered with closed loops.
 
-### -field DWRITE_PANOSE_FINIALS_TAPERED_OPEN_LOOPS
+### -field DWRITE_PANOSE_FINIALS_TAPERED_OPEN_LOOPS:10
 
 Tapered with open loops.
 
-### -field DWRITE_PANOSE_FINIALS_ROUND_NO_LOOPS
+### -field DWRITE_PANOSE_FINIALS_ROUND_NO_LOOPS:11
 
 Round with no loops.
 
-### -field DWRITE_PANOSE_FINIALS_ROUND_CLOSED_LOOPS
+### -field DWRITE_PANOSE_FINIALS_ROUND_CLOSED_LOOPS:12
 
 Round with closed loops.
 
-### -field DWRITE_PANOSE_FINIALS_ROUND_OPEN_LOOPS
+### -field DWRITE_PANOSE_FINIALS_ROUND_OPEN_LOOPS:13
 
 Round with open loops.
 

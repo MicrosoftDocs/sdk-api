@@ -39,7 +39,7 @@ Flags for indicating a subset of components used with video decode histogram. Th
 
 ## -enum-fields
 
-### -field D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAG_NONE
+### -field D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAG_NONE:0
 
 No associated component.
 

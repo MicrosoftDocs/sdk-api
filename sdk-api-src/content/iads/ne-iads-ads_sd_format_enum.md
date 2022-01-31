@@ -56,15 +56,15 @@ The <b>ADS_SD_FORMAT_ENUM</b> enumeration specifies the format that the security
 
 ## -enum-fields
 
-### -field ADS_SD_FORMAT_IID
+### -field ADS_SD_FORMAT_IID:1
 
 Indicates that the security descriptor is to be converted to the <a href="/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a> interface format. If <b>ADS_SD_FORMAT_IID</b> is used as the input format when setting the security descriptor, the variant passed in is expected to be a VT_DISPATCH, where the dispatch pointer supports the <b>IADsSecurityDescriptor</b> interface.
 
-### -field ADS_SD_FORMAT_RAW
+### -field ADS_SD_FORMAT_RAW:2
 
 Indicates that the security descriptor is to be converted to the binary format.
 
-### -field ADS_SD_FORMAT_HEXSTRING
+### -field ADS_SD_FORMAT_HEXSTRING:3
 
 Indicates that the security descriptor is to be converted to the hex encoded string format.
 

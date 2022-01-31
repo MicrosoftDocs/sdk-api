@@ -54,10 +54,10 @@ Specifies the properties of a High Efficiency Image Format (HEIF) image.
 
 ## -enum-fields
 
-### -field WICHeifOrientation
+### -field WICHeifOrientation:0x1
 
 [VT_UI2] Indicates the orientation of the image.
 
 The value of this property uses the same numbering scheme as the <a href="/windows/desktop/properties/props-system-photo-orientation">System.Photo.Orientation</a> property. For example, a value of 1 (PHOTO_ORIENTATION_NORMAL) indicates a 0 degree rotation.
 
-### -field WICHeifProperties_FORCE_DWORD
+### -field WICHeifProperties_FORCE_DWORD:0x7fffffff

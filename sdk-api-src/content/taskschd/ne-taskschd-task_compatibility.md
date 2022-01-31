@@ -56,25 +56,25 @@ api_name:
 
 ## -enum-fields
 
-### -field TASK_COMPATIBILITY_AT
+### -field TASK_COMPATIBILITY_AT:0
 
 The task is compatible with the AT command.
 
-### -field TASK_COMPATIBILITY_V1
+### -field TASK_COMPATIBILITY_V1:1
 
 The task is compatible with Task Scheduler 1.0.
 
-### -field TASK_COMPATIBILITY_V2
+### -field TASK_COMPATIBILITY_V2:2
 
 The task is compatible with Task Scheduler 2.0.
 
-### -field TASK_COMPATIBILITY_V2_1
+### -field TASK_COMPATIBILITY_V2_1:3
 
-### -field TASK_COMPATIBILITY_V2_2
+### -field TASK_COMPATIBILITY_V2_2:4
 
-### -field TASK_COMPATIBILITY_V2_3
+### -field TASK_COMPATIBILITY_V2_3:5
 
-### -field TASK_COMPATIBILITY_V2_4
+### -field TASK_COMPATIBILITY_V2_4:6
 
 ## -remarks
 

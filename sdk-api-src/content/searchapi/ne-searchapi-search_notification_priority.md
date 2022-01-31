@@ -56,11 +56,11 @@ Indicates the priority of processing an item that has changed.
 
 ## -enum-fields
 
-### -field SEARCH_NORMAL_PRIORITY
+### -field SEARCH_NORMAL_PRIORITY:0
 
 The changed item is added to the end of the indexer's queue.
 
-### -field SEARCH_HIGH_PRIORITY
+### -field SEARCH_HIGH_PRIORITY:1
 
 The changed item is placed ahead of other queued items in the indexer's queue, to be processed as soon as possible.
 

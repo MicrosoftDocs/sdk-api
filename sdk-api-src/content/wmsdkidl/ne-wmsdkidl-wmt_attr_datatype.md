@@ -54,31 +54,31 @@ The <b>WMT_ATTR_DATATYPE</b> enumeration defines the data type for a variably ty
 
 ## -enum-fields
 
-### -field WMT_TYPE_DWORD
+### -field WMT_TYPE_DWORD:0
 
 The property is a 4-byte <b>DWORD</b> value.
 
-### -field WMT_TYPE_STRING
+### -field WMT_TYPE_STRING:1
 
 The property is a null-terminated Unicode string.
 
-### -field WMT_TYPE_BINARY
+### -field WMT_TYPE_BINARY:2
 
 The property is an array of bytes.
 
-### -field WMT_TYPE_BOOL
+### -field WMT_TYPE_BOOL:3
 
 The property is a 4-byte Boolean value.
 
-### -field WMT_TYPE_QWORD
+### -field WMT_TYPE_QWORD:4
 
 The property is an 8-byte <b>QWORD</b> value.
 
-### -field WMT_TYPE_WORD
+### -field WMT_TYPE_WORD:5
 
 The property is a 2-byte <b>WORD</b> value.
 
-### -field WMT_TYPE_GUID
+### -field WMT_TYPE_GUID:6
 
 The property is a 128-bit (6-byte) GUID.
 

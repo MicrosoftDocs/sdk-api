@@ -56,19 +56,19 @@ Flags that define the capabilities of the storage module.
 
 ## -enum-fields
 
-### -field FsrmStorageModuleCaps_Unknown
+### -field FsrmStorageModuleCaps_Unknown:0
 
 The storage module's capabilities are unknown. Do not use this value.
 
-### -field FsrmStorageModuleCaps_CanGet
+### -field FsrmStorageModuleCaps_CanGet:0x1
 
 The storage module is allowed to retrieve classification properties.
 
-### -field FsrmStorageModuleCaps_CanSet
+### -field FsrmStorageModuleCaps_CanSet:0x2
 
 The storage module is allowed to store classification properties.
 
-### -field FsrmStorageModuleCaps_CanHandleDirectories
+### -field FsrmStorageModuleCaps_CanHandleDirectories:0x4
 
 The storage module is allowed to handle folders. Only secure properties 
        (<b>FsrmPropertyDefinitionFlags_Secure</b> flags set on the 
@@ -78,7 +78,7 @@ The storage module is allowed to handle folders. Only secure properties
 
 <b>Windows Server 2008 R2:  </b>This storage module capability is not supported before Windows Server 2012.
 
-### -field FsrmStorageModuleCaps_CanHandleFiles
+### -field FsrmStorageModuleCaps_CanHandleFiles:0x8
 
 The storage module is allowed to handle files.
 

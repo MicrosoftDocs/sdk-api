@@ -56,7 +56,7 @@ Indicates information about contacting someone by using an instant messaging app
 
 ## -enum-fields
 
-### -field WPC_ARGS_IMCONTACTEVENT_APPNAME
+### -field WPC_ARGS_IMCONTACTEVENT_APPNAME:0
 
 The name of the application used for the instant message.
 

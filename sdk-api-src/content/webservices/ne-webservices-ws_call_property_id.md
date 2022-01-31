@@ -54,20 +54,20 @@ Optional parameters for configuring a call on a client side service operation.
 
 ## -enum-fields
 
-### -field WS_CALL_PROPERTY_CHECK_MUST_UNDERSTAND
+### -field WS_CALL_PROPERTY_CHECK_MUST_UNDERSTAND:0
 
 An application can suppress or enable must understand header processing 
                     on the proxy using this setting. This is <b>TRUE</b> by default.
 
-### -field WS_CALL_PROPERTY_SEND_MESSAGE_CONTEXT
+### -field WS_CALL_PROPERTY_SEND_MESSAGE_CONTEXT:1
 
 Enables an application to put headers into the input message for a given call.
 
-### -field WS_CALL_PROPERTY_RECEIVE_MESSAGE_CONTEXT
+### -field WS_CALL_PROPERTY_RECEIVE_MESSAGE_CONTEXT:2
 
 Enables an application to extract headers from the output message for a given call.
 
-### -field WS_CALL_PROPERTY_CALL_ID
+### -field WS_CALL_PROPERTY_CALL_ID:3
 
 On a <a href="/windows/desktop/wsw/service-operation">service operation</a> an application can use the call id property to uniquely identify 
                     a service operation function all on a channel. This ID can be passed on to <a href="/windows/desktop/api/webservices/nf-webservices-wsabandoncall">WsAbandonCall</a> along with the

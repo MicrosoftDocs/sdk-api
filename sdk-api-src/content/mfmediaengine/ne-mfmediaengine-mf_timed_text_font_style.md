@@ -54,15 +54,15 @@ Specifies the font style of the timed text.
 
 ## -enum-fields
 
-### -field MF_TIMED_TEXT_FONT_STYLE_NORMAL
+### -field MF_TIMED_TEXT_FONT_STYLE_NORMAL:0
 
 The font style is normal, sometimes referred to as roman.
 
-### -field MF_TIMED_TEXT_FONT_STYLE_OBLIQUE
+### -field MF_TIMED_TEXT_FONT_STYLE_OBLIQUE:1
 
 The font style is oblique.
 
-### -field MF_TIMED_TEXT_FONT_STYLE_ITALIC
+### -field MF_TIMED_TEXT_FONT_STYLE_ITALIC:2
 
 The font style is italic.
 

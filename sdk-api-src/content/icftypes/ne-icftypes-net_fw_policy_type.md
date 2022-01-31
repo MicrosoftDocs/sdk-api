@@ -59,7 +59,7 @@ The **NET_FW_POLICY_TYPE** enumerated type specifies the type of policy.
 
 ## -enum-fields
 
-### -field NET_FW_POLICY_GROUP
+### -field NET_FW_POLICY_GROUP:0
 
 Policy type is group.
 

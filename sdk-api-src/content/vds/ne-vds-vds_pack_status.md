@@ -58,15 +58,15 @@ Defines the set of object status values for a pack.
 
 ## -enum-fields
 
-### -field VDS_PS_UNKNOWN
+### -field VDS_PS_UNKNOWN:0
 
 This value is reserved.
 
-### -field VDS_PS_ONLINE
+### -field VDS_PS_ONLINE:1
 
 The pack is available.
 
-### -field VDS_PS_OFFLINE
+### -field VDS_PS_OFFLINE:4
 
 The pack is unavailable; the disks in the pack are not accessible.
 

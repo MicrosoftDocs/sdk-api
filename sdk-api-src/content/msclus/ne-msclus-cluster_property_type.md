@@ -55,11 +55,11 @@ This enumeration defines the property types that are supported by a cluster <a h
 
 ## -enum-fields
 
-### -field CLUSPROP_TYPE_UNKNOWN
+### -field CLUSPROP_TYPE_UNKNOWN:-1
 
 The property type is unknown.
 
-### -field CLUSPROP_TYPE_ENDMARK
+### -field CLUSPROP_TYPE_ENDMARK:0
 
 Designates the data value as the last entry in a property or value list.
 
@@ -167,7 +167,7 @@ Describes descriptor data for a storage class resource.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This value is not available until Windows Server 2016 .
 
-### -field CLUSPROP_TYPE_USER
+### -field CLUSPROP_TYPE_USER:32768
 
 Describes the beginning of the range for users to define their own types. Associate this type with 
       user-defined private properties.

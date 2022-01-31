@@ -56,7 +56,7 @@ The <b>IKEEXT_INTEGRITY_TYPE</b> enumerated type specifies the type of hash algo
 
 ## -enum-fields
 
-### -field IKEEXT_INTEGRITY_MD5
+### -field IKEEXT_INTEGRITY_MD5:0
 
 Specifies MD5 hash algorithm.
 

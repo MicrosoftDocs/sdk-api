@@ -54,27 +54,27 @@ Specifies the current progress status of a synchronization process. Used by <a h
 
 ## -enum-fields
 
-### -field SYNCMGR_PS_UPDATING
+### -field SYNCMGR_PS_UPDATING:1
 
 The progress status is currently being updated by the handler.
 
-### -field SYNCMGR_PS_UPDATING_INDETERMINATE
+### -field SYNCMGR_PS_UPDATING_INDETERMINATE:2
 
 Ignore step parameters. The progress bar cycles from left to right on a timer internal to the sync folder. This is known as marquee mode.
 
-### -field SYNCMGR_PS_SUCCEEDED
+### -field SYNCMGR_PS_SUCCEEDED:3
 
 The synchronization is complete.
 
-### -field SYNCMGR_PS_FAILED
+### -field SYNCMGR_PS_FAILED:4
 
 Indicates something went wrong during the synchronization.
 
-### -field SYNCMGR_PS_CANCELED
+### -field SYNCMGR_PS_CANCELED:5
 
 The user canceled the synchronization before it completed. Upon receipt of this value, Sync Center updates the UI and enables the option to restart the sync for that item.
 
-### -field SYNCMGR_PS_DISCONNECTED
+### -field SYNCMGR_PS_DISCONNECTED:6
 
 The device being synchronized was disconnected before the sync completed..
 

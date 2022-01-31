@@ -56,7 +56,7 @@ The <b>NAPI_PROVIDER_TYPE</b> enumeration specifies the type of hosting expected
 
 ## -enum-fields
 
-### -field ProviderType_Application
+### -field ProviderType_Application:1
 
 The namespace provider is expected to be hosted by an application. There may be multiple namespace providers of type <b>ProviderType_Application</b> running at the same time on a local system. 
 

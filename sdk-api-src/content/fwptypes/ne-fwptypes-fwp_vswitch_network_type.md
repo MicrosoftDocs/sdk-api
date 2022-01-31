@@ -56,7 +56,7 @@ The <b>FWP_VSWITCH_NETWORK_TYPE</b> enumeration specifies the network type of a 
 
 ## -enum-fields
 
-### -field FWP_VSWITCH_NETWORK_TYPE_UNKNOWN
+### -field FWP_VSWITCH_NETWORK_TYPE_UNKNOWN:0
 
 Specifies an unknown network type.
 

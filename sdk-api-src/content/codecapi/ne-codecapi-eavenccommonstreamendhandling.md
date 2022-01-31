@@ -54,11 +54,11 @@ Specifies whether the encoder discards partial groups of pictures (GOPs) at the 
 
 ## -enum-fields
 
-### -field eAVEncCommonStreamEndHandling_DiscardPartial
+### -field eAVEncCommonStreamEndHandling_DiscardPartial:0
 
 If there is a partial GOP at the end of the stream, the encoder will discard it.
 
-### -field eAVEncCommonStreamEndHandling_EnsureComplete
+### -field eAVEncCommonStreamEndHandling_EnsureComplete:1
 
 If there is a partial GOP at the end of the stream, the encoder will adjust the GOP and encode all of the stream data.
 

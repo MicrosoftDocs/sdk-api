@@ -56,11 +56,11 @@ Describes the attributes of a specified verb for an object.
 
 ## -enum-fields
 
-### -field OLEVERBATTRIB_NEVERDIRTIES
+### -field OLEVERBATTRIB_NEVERDIRTIES:1
 
 Executing this verb will not cause the object to become dirty and is therefore in need of saving to persistent storage.
 
-### -field OLEVERBATTRIB_ONCONTAINERMENU
+### -field OLEVERBATTRIB_ONCONTAINERMENU:2
 
 Indicates a verb that should appear in the container's menu of verbs for this object. OLEIVERB_HIDE, OLEIVERB_SHOW, and OLEIVERB_OPEN never have this value set.
 

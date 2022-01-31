@@ -54,12 +54,12 @@ Values for the <a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1
 
 ## -enum-fields
 
-### -field D2D1_EDGEDETECTION_MODE_SOBEL
+### -field D2D1_EDGEDETECTION_MODE_SOBEL:0
 
 Indicates the Sobel operator should be used for edge detection.
 
-### -field D2D1_EDGEDETECTION_MODE_PREWITT
+### -field D2D1_EDGEDETECTION_MODE_PREWITT:1
 
 Indicates the Prewitt operator should be used for edge detection.
 
-### -field D2D1_EDGEDETECTION_MODE_FORCE_DWORD
+### -field D2D1_EDGEDETECTION_MODE_FORCE_DWORD:0xffffffff

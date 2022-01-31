@@ -54,11 +54,11 @@ Specifies whether an AAC decoder performs dynamic range control. This enumeratio
 
 ## -enum-fields
 
-### -field eAVDecHEAACDynamicRangeControl_OFF
+### -field eAVDecHEAACDynamicRangeControl_OFF:0
 
 The decoder does not apply dynamic range control.
 
-### -field eAVDecHEAACDynamicRangeControl_ON
+### -field eAVDecHEAACDynamicRangeControl_ON:1
 
 The decoder applies dynamic range control to any AAC stream that contains an extension payload of type EXT_DYNAMIC_RANGE, as defined in ISO/IEC 14496-3 (Table 4.105, "Values of the extension_type field").
 

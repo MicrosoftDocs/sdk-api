@@ -58,19 +58,19 @@ Defines the set of object status values for a volume plex.
 
 ## -enum-fields
 
-### -field VDS_VPS_UNKNOWN
+### -field VDS_VPS_UNKNOWN:0
 
 This value is reserved.
 
-### -field VDS_VPS_ONLINE
+### -field VDS_VPS_ONLINE:1
 
 The volume plex is available.
 
-### -field VDS_VPS_NO_MEDIA
+### -field VDS_VPS_NO_MEDIA:3
 
 The volume plex has no media.
 
-### -field VDS_VPS_FAILED
+### -field VDS_VPS_FAILED:5
 
 The volume plex is unavailable.
 

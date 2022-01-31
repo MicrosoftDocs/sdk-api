@@ -56,1609 +56,1609 @@ Defines values that are used with the Text Object Model (TOM) API.
 
 ## -enum-fields
 
-### -field tomFalse
+### -field tomFalse:0
 
 A <a href="/windows/desktop/Controls/about-text-object-model">tomBool</a> value that indicates false.
 
-### -field tomTrue
+### -field tomTrue:-1
 
 A <a href="/windows/desktop/Controls/about-text-object-model">tomBool</a> value that indicates true.
 
-### -field tomUndefined
+### -field tomUndefined:-9999999
 
 A <a href="/windows/desktop/Controls/about-text-object-model">tomBool</a> value that indicates a no-input, no-change value that works with <b>long</b>, <b>float</b>, and <a href="/windows/desktop/gdi/colorref">COLORREF</a> parameters. For strings, <b>tomUndefined</b> (or NINCH) is represented by the null string. For Set operations, using <b>tomUndefined</b> does not change the target property. For Get operations, <b>tomUndefined</b> means that the characters in the range have different values (it gives the grayed check box in property dialog boxes).
 
-### -field tomToggle
+### -field tomToggle:-9999998
 
 A <a href="/windows/desktop/Controls/about-text-object-model">tomBool</a> value that toggles the state of a property.
 
-### -field tomAutoColor
+### -field tomAutoColor:-9999997
 
 Allow the rich edit control to select the appropriate color.
 
-### -field tomDefault
+### -field tomDefault:-9999996
 
 Set to the document default format for objects that are attached to a range, or to the basic TOM engine default for objects that are not attached to a range.
 
-### -field tomSuspend
+### -field tomSuspend:-9999995
 
 Suspend an operation.
 
-### -field tomResume
+### -field tomResume:-9999994
 
 Resume an operation.
 
-### -field tomApplyNow
+### -field tomApplyNow:0
 
 Apply the current properties to the attached range.
 
-### -field tomApplyLater
+### -field tomApplyLater:1
 
 Allow setting property definitions, but don’t apply them to a range yet.
 
-### -field tomTrackParms
+### -field tomTrackParms:2
 
 Update the current font with the attached range properties.
 
-### -field tomCacheParms
+### -field tomCacheParms:3
 
 Don’t update the current font with the attached range properties.
 
-### -field tomApplyTmp
+### -field tomApplyTmp:4
 
 Apply temporary formatting.
 
-### -field tomDisableSmartFont
+### -field tomDisableSmartFont:8
 
 Do not apply smart fonts.
 
-### -field tomEnableSmartFont
+### -field tomEnableSmartFont:9
 
 Do apply smart fonts.
 
-### -field tomUsePoints
+### -field tomUsePoints:10
 
 Use points for floating-point measurements.
 
-### -field tomUseTwips
+### -field tomUseTwips:11
 
 Use twips for floating-point measurements.
 
-### -field tomBackward
+### -field tomBackward:0xc0000001
 
 Move backward toward the start of a story.
 
-### -field tomForward
+### -field tomForward:0x3fffffff
 
 Move foreward toward the end of a story.
 
-### -field tomMove
+### -field tomMove:0
 
 Collapse the selection or range to an insertion point and then move the insertion point.
 
-### -field tomExtend
+### -field tomExtend:1
 
 Extend a selection or range by moving one of the endpoints.
 
-### -field tomNoSelection
+### -field tomNoSelection:0
 
 There is no selection and no insertion point.
 
-### -field tomSelectionIP
+### -field tomSelectionIP:1
 
 The selection insertion point.
 
-### -field tomSelectionNormal
+### -field tomSelectionNormal:2
 
 The selection is a single, nondegenerate text range.
 
-### -field tomSelectionFrame
+### -field tomSelectionFrame:3
 
 A frame is selected.
 
-### -field tomSelectionColumn
+### -field tomSelectionColumn:4
 
 One or more table columns is selected.
 
-### -field tomSelectionRow
+### -field tomSelectionRow:5
 
  One or more table rows is selected.
 
-### -field tomSelectionBlock
+### -field tomSelectionBlock:6
 
 A block is selected.
 
-### -field tomSelectionInlineShape
+### -field tomSelectionInlineShape:7
 
 The selection is a picture.
 
-### -field tomSelectionShape
+### -field tomSelectionShape:8
 
 A shape is selected.
 
-### -field tomSelStartActive
+### -field tomSelStartActive:1
 
 The starting position of the selection is active.
 
-### -field tomSelAtEOL
+### -field tomSelAtEOL:2
 
 For degenerate selections, the ambiguous character position corresponding to both the beginning of a line and the end of the preceding line should have the caret displayed at the end of the preceding line.
 
-### -field tomSelOvertype
+### -field tomSelOvertype:4
 
 Insert/overtype mode is set to overtype.
 
-### -field tomSelActive
+### -field tomSelActive:8
 
 Selection is active.
 
-### -field tomSelReplace
+### -field tomSelReplace:16
 
 Typing and pasting replaces the selection.
 
-### -field tomEnd
+### -field tomEnd:0
 
 The end of a text range.
 
-### -field tomStart
+### -field tomStart:32
 
 The start of range.
 
-### -field tomCollapseEnd
+### -field tomCollapseEnd:0
 
 Collapse to the end position of a range or selection.
 
-### -field tomCollapseStart
+### -field tomCollapseStart:1
 
 Collapse to the start position of a range or selection.
 
-### -field tomClientCoord
+### -field tomClientCoord:256
 
 Use client coordinates instead of screen coordinates.
 
-### -field tomAllowOffClient
+### -field tomAllowOffClient:512
 
 Allow points outside of the client area.
 
-### -field tomTransform
+### -field tomTransform:1024
 
 Transform coordinates using a world transform (XFORM) supplied by the host application.
 
-### -field tomObjectArg
+### -field tomObjectArg:2048
 
 Get  a point inside an inline object argument; for example, inside the numerator of a fraction.
 
-### -field tomAtEnd
+### -field tomAtEnd:4096
 
 The end of the specified unit.
 
-### -field tomNone
+### -field tomNone:0
 
 No underlining.
 
-### -field tomSingle
+### -field tomSingle:1
 
 Single underline.
 
-### -field tomWords
+### -field tomWords:2
 
 Underline words only.
 
-### -field tomDouble
+### -field tomDouble:3
 
 Double underline.
 
-### -field tomDotted
+### -field tomDotted:4
 
 Dotted underline.
 
-### -field tomDash
+### -field tomDash:5
 
 Dash underline.
 
-### -field tomDashDot
+### -field tomDashDot:6
 
 Dash dot underline.
 
-### -field tomDashDotDot
+### -field tomDashDotDot:7
 
 Dash dot dot underline.
 
-### -field tomWave
+### -field tomWave:8
 
 Wave underline.
 
-### -field tomThick
+### -field tomThick:9
 
 Thick underline.
 
-### -field tomHair
+### -field tomHair:10
 
 Hair underline.
 
-### -field tomDoubleWave
+### -field tomDoubleWave:11
 
 Double wave underline.
 
-### -field tomHeavyWave
+### -field tomHeavyWave:12
 
 Heavy wave underline.
 
-### -field tomLongDash
+### -field tomLongDash:13
 
 Long dash underline.
 
-### -field tomThickDash
+### -field tomThickDash:14
 
 Thick dash underline.
 
-### -field tomThickDashDot
+### -field tomThickDashDot:15
 
 Thick dash dot underline.
 
-### -field tomThickDashDotDot
+### -field tomThickDashDotDot:16
 
 Thick dash dot dot underline.
 
-### -field tomThickDotted
+### -field tomThickDotted:17
 
 Thick dotted underline.
 
-### -field tomThickLongDash
+### -field tomThickLongDash:18
 
 Thick long dash underline.
 
-### -field tomLineSpaceSingle
+### -field tomLineSpaceSingle:0
 
 Single space. The line-spacing value is ignored.
 
-### -field tomLineSpace1pt5
+### -field tomLineSpace1pt5:1
 
 One-and-a-half line spacing. The line-spacing value is ignored.
 
-### -field tomLineSpaceDouble
+### -field tomLineSpaceDouble:2
 
 Double line spacing. The line-spacing value is ignored.
 
-### -field tomLineSpaceAtLeast
+### -field tomLineSpaceAtLeast:3
 
 The line-spacing value specifies the spacing from one line to the next. However, if the value is less than single spacing, text is single-spaced.
 
-### -field tomLineSpaceExactly
+### -field tomLineSpaceExactly:4
 
 The line-spacing value specifies the exact spacing from one line to the next, even if the value is less than single spacing.
 
-### -field tomLineSpaceMultiple
+### -field tomLineSpaceMultiple:5
 
 The line-spacing value specifies the line spacing, in lines.
 
-### -field tomLineSpacePercent
+### -field tomLineSpacePercent:6
 
 The line-spacing value specifies the line spacing by percent of line height.
 
-### -field tomAlignLeft
+### -field tomAlignLeft:0
 
 Text aligns with the left margin.
 
-### -field tomAlignCenter
+### -field tomAlignCenter:1
 
 Text is centered between the margins.
 
-### -field tomAlignRight
+### -field tomAlignRight:2
 
 Text aligns with the right margin.
 
-### -field tomAlignJustify
+### -field tomAlignJustify:3
 
 Text starts at the left margin and, if the line extends beyond the right margin, all the spaces in the line are adjusted to be even.
 
-### -field tomAlignDecimal
+### -field tomAlignDecimal:3
 
 The decimal point is set at the tab position. This is useful for aligning a column of decimal numbers.
 
-### -field tomAlignBar
+### -field tomAlignBar:4
 
 A vertical bar is positioned at the tab position. Text is not affected. Alignment bars on nearby lines at the same position form a continuous vertical line.
 
-### -field tomDefaultTab
+### -field tomDefaultTab:5
 
 Position at a default tab stop.
 
-### -field tomAlignInterWord
+### -field tomAlignInterWord:3
 
 Same as  <b>tomAlignJustify</b>.
 
-### -field tomAlignNewspaper
+### -field tomAlignNewspaper:4
 
 Same as <b>tomAlignInterLetter</b>, but uses East Asian metrics.
 
-### -field tomAlignInterLetter
+### -field tomAlignInterLetter:5
 
 The first and last characters of each line (except the last line) are aligned to the left and right margins, and lines are filled by adding or subtracting the same amount from each character.
 
-### -field tomAlignScaled
+### -field tomAlignScaled:6
 
 Same as <b>tomAlignInterLetter</b>, but uses East Asian metrics, and scales the spacing by the width of characters.
 
-### -field tomSpaces
+### -field tomSpaces:0
 
 Use spaces to fill the spaces taken by a tab character.
 
-### -field tomDots
+### -field tomDots:1
 
 Use dots to fill the spaces taken by a tab character.
 
-### -field tomDashes
+### -field tomDashes:2
 
 Use dashes to fill the spaces taken by a tab character.
 
-### -field tomLines
+### -field tomLines:3
 
 Use solid lines to fill the spaces taken by a tab character.
 
-### -field tomThickLines
+### -field tomThickLines:4
 
 Use thick solid lines to fill the spaces taken by a tab character.
 
-### -field tomEquals
+### -field tomEquals:5
 
 Use equal signs to fill the spaces taken by a tab character.
 
-### -field tomTabBack
+### -field tomTabBack:-3
 
 The tab preceding the specified location.
 
-### -field tomTabNext
+### -field tomTabNext:-2
 
 The next tab following the specified location.
 
-### -field tomTabHere
+### -field tomTabHere:-1
 
 The tab at the specified location.
 
-### -field tomListNone
+### -field tomListNone:0
 
 Not a list paragraph.
 
-### -field tomListBullet
+### -field tomListBullet:1
 
 List uses bullets (0x2022); other bullets are given by &gt; 32.
 
-### -field tomListNumberAsArabic
+### -field tomListNumberAsArabic:2
 
 List is numbered with Arabic numerals (0, 1, 2, ...).
 
-### -field tomListNumberAsLCLetter
+### -field tomListNumberAsLCLetter:3
 
 List is ordered with lowercase letters (a, b, c, ...).
 
-### -field tomListNumberAsUCLetter
+### -field tomListNumberAsUCLetter:4
 
 List is ordered with uppercase Arabic letters (A, B, C, ...).
 
-### -field tomListNumberAsLCRoman
+### -field tomListNumberAsLCRoman:5
 
 List is ordered with lowercase Roman letters (i, ii, iii, ...).
 
-### -field tomListNumberAsUCRoman
+### -field tomListNumberAsUCRoman:6
 
 List is ordered with uppercase Roman letters (I, II, III, ...).
 
-### -field tomListNumberAsSequence
+### -field tomListNumberAsSequence:7
 
 The value returned by <a href="/windows/desktop/api/tom/nf-tom-itextpara-getliststart">ITextPara::GetListStart</a> is treated as the first code in a Unicode sequence.
 
-### -field tomListNumberedCircle
+### -field tomListNumberedCircle:8
 
 List is ordered with Unicode circled numbers 
 
 <img alt="Unicode numbers in a circle." src="images/unicodecirclednumbers.png"/>
 
-### -field tomListNumberedBlackCircleWingding
+### -field tomListNumberedBlackCircleWingding:9
 
 List is ordered with Wingdings black circled digits 
 
 <img alt="Circled black digits." src="images/wingdingblackcircleddigits.png"/>
 
-### -field tomListNumberedWhiteCircleWingding
+### -field tomListNumberedWhiteCircleWingding:10
 
 List is ordered with Wingdings white circled digits:
 
 <img alt="White digits in a black circle." src="images/wingdingwhitecircleddigits.png"/>
 
-### -field tomListNumberedArabicWide
+### -field tomListNumberedArabicWide:11
 
 Full-width ASCII (０, １, ２, ３, …).
 
-### -field tomListNumberedChS
+### -field tomListNumberedChS:12
 
 Chinese with 十 only in items 10 through 99 (一, 二, 三, 四…).
 
-### -field tomListNumberedChT
+### -field tomListNumberedChT:13
 
 Chinese with 十 only in items 10 through 19.
 
-### -field tomListNumberedJpnChS
+### -field tomListNumberedJpnChS:14
 
 Chinese with a full-width period, no 十.
 
-### -field tomListNumberedJpnKor
+### -field tomListNumberedJpnKor:15
 
 Chinese with no 十.
 
-### -field tomListNumberedArabic1
+### -field tomListNumberedArabic1:16
 
 Arabic alphabetic ( أ ,ب ,ت ,ث ,…).
 
-### -field tomListNumberedArabic2
+### -field tomListNumberedArabic2:17
 
 Arabic abjadi ( أ ,ب ,ج ,د ,…).
 
-### -field tomListNumberedHebrew
+### -field tomListNumberedHebrew:18
 
 Hebrew alphabet (א, ב, ג, ד, …).
 
-### -field tomListNumberedThaiAlpha
+### -field tomListNumberedThaiAlpha:19
 
 Thai alphabetic (ก, ข,ค, ง, …).
 
-### -field tomListNumberedThaiNum
+### -field tomListNumberedThaiNum:20
 
 Thai numbers (๑, ๒,๓, ๔…).
 
-### -field tomListNumberedHindiAlpha
+### -field tomListNumberedHindiAlpha:21
 
 Hindi vowels (अ, आ, इ, ई, …).
 
-### -field tomListNumberedHindiAlpha1
+### -field tomListNumberedHindiAlpha1:22
 
 Hindi consonants (क, ख, ग, घ, …).
 
-### -field tomListNumberedHindiNum
+### -field tomListNumberedHindiNum:23
 
 Hindi numbers (१, २, ३, ४, …).
 
-### -field tomListParentheses
+### -field tomListParentheses:0x10000
 
 Encloses the number in parentheses, as in: (1).
 
-### -field tomListPeriod
+### -field tomListPeriod:0x20000
 
 Follows the number with a period.
 
-### -field tomListPlain
+### -field tomListPlain:0x30000
 
 Uses the number alone.
 
-### -field tomListNoNumber
+### -field tomListNoNumber:0x40000
 
 Uses no numbers.
 
-### -field tomListMinus
+### -field tomListMinus:0x80000
 
 Follows the number with a hyphen (-).
 
-### -field tomIgnoreNumberStyle
+### -field tomIgnoreNumberStyle:0x1000000
 
 Suppress the numbering style for list items.
 
-### -field tomParaStyleNormal
+### -field tomParaStyleNormal:-1
 
 The normal paragraph style.
 
-### -field tomParaStyleHeading1
+### -field tomParaStyleHeading1:-2
 
 The style for level 1 paragraph headings.
 
-### -field tomParaStyleHeading2
+### -field tomParaStyleHeading2:-3
 
 The style for level 2 paragraph headings.
 
-### -field tomParaStyleHeading3
+### -field tomParaStyleHeading3:-4
 
 The style for level 3 paragraph headings.
 
-### -field tomParaStyleHeading4
+### -field tomParaStyleHeading4:-5
 
 The style for level 4 paragraph headings.
 
-### -field tomParaStyleHeading5
+### -field tomParaStyleHeading5:-6
 
 The style for level 5 paragraph headings.
 
-### -field tomParaStyleHeading6
+### -field tomParaStyleHeading6:-7
 
 The style for level 6 paragraph headings.
 
-### -field tomParaStyleHeading7
+### -field tomParaStyleHeading7:-8
 
 The style for level 7 paragraph headings.
 
-### -field tomParaStyleHeading8
+### -field tomParaStyleHeading8:-9
 
 The style for level 8 paragraph headings.
 
-### -field tomParaStyleHeading9
+### -field tomParaStyleHeading9:-10
 
 The style for level 9 paragraph headings.
 
-### -field tomCharacter
+### -field tomCharacter:1
 
 The unit is a single character.
 
-### -field tomWord
+### -field tomWord:2
 
 The unit is a word.
 
-### -field tomSentence
+### -field tomSentence:3
 
 The unit is a sentence.
 
-### -field tomParagraph
+### -field tomParagraph:4
 
 The unit is a paragraph.
 
-### -field tomLine
+### -field tomLine:5
 
 The unit is a line.
 
-### -field tomStory
+### -field tomStory:6
 
 The unit is a story; that is, a contiguous range of text that represent a part of a document, such as the main text of the document, headers and footers, footnotes, annotations, and so on.
 
-### -field tomScreen
+### -field tomScreen:7
 
 The unit is a screenful.
 
-### -field tomSection
+### -field tomSection:8
 
 The unit is a section.
 
-### -field tomTableColumn
+### -field tomTableColumn:9
 
 The unit is a table column.
 
-### -field tomColumn
+### -field tomColumn:9
 
 The unit is a text column.
 
-### -field tomRow
+### -field tomRow:0xc
 
 The unit is a table row
 
-### -field tomWindow
+### -field tomWindow:11
 
 The unit is a window.
 
-### -field tomCell
+### -field tomCell:12
 
 The unit is a spreadsheet cell.
 
-### -field tomCharFormat
+### -field tomCharFormat:13
 
 The unit is a run of constant character formatting.
 
-### -field tomParaFormat
+### -field tomParaFormat:14
 
 The unit is a run of constant paragraph formatting.
 
-### -field tomTable
+### -field tomTable:15
 
 The unit is a table.
 
-### -field tomObject
+### -field tomObject:16
 
 The unit is an embedded object.
 
-### -field tomPage
+### -field tomPage:17
 
 The unit is a page.
 
-### -field tomHardParagraph
+### -field tomHardParagraph:18
 
 The unit is a hard paragraph.
 
-### -field tomCluster
+### -field tomCluster:19
 
 The unit is a cluster of characters.
 
-### -field tomInlineObject
+### -field tomInlineObject:20
 
 The unit is an inline object.
 
-### -field tomInlineObjectArg
+### -field tomInlineObjectArg:21
 
 The unit is an inline object argument.
 
-### -field tomLeafLine
+### -field tomLeafLine:22
 
 The unit is a leaf-level line.
 
-### -field tomLayoutColumn
+### -field tomLayoutColumn:23
 
 A layout column.
 
-### -field tomProcessId
+### -field tomProcessId:0x40000001
 
 The identifier of the current process.
 
-### -field tomMatchWord
+### -field tomMatchWord:2
 
 Match on whole words when doing a text search.
 
-### -field tomMatchCase
+### -field tomMatchCase:4
 
 A case-sensitive a text search.
 
-### -field tomMatchPattern
+### -field tomMatchPattern:8
 
 Match regular expressions when doing a text search.
 
-### -field tomUnknownStory
+### -field tomUnknownStory:0
 
 No special type.
 
-### -field tomMainTextStory
+### -field tomMainTextStory:1
 
 The main story always exists for a rich edit control.
 
-### -field tomFootnotesStory
+### -field tomFootnotesStory:2
 
 The story used for footnotes.
 
-### -field tomEndnotesStory
+### -field tomEndnotesStory:3
 
 The story used for endnotes.
 
-### -field tomCommentsStory
+### -field tomCommentsStory:4
 
 The story used for comments.
 
-### -field tomTextFrameStory
+### -field tomTextFrameStory:5
 
 The story used for a text box.
 
-### -field tomEvenPagesHeaderStory
+### -field tomEvenPagesHeaderStory:6
 
 The story containing headers for even pages.
 
-### -field tomPrimaryHeaderStory
+### -field tomPrimaryHeaderStory:7
 
 The story containing headers for odd pages.
 
-### -field tomEvenPagesFooterStory
+### -field tomEvenPagesFooterStory:8
 
 The story containing footers for even pages.
 
-### -field tomPrimaryFooterStory
+### -field tomPrimaryFooterStory:9
 
 The story containing footers for odd pages.
 
-### -field tomFirstPageHeaderStory
+### -field tomFirstPageHeaderStory:10
 
 The story containing the header for the first page.
 
-### -field tomFirstPageFooterStory
+### -field tomFirstPageFooterStory:11
 
 The story containing the footer for the first page.
 
-### -field tomScratchStory
+### -field tomScratchStory:127
 
 The scratch story.
 
-### -field tomFindStory
+### -field tomFindStory:128
 
 The story used for a Find dialog.
 
-### -field tomReplaceStory
+### -field tomReplaceStory:129
 
 The story used for a Replace dialog.
 
-### -field tomStoryInactive
+### -field tomStoryInactive:0
 
 Story is inactive.
 
-### -field tomStoryActiveDisplay
+### -field tomStoryActiveDisplay:1
 
 Story has display, but no UI.
 
-### -field tomStoryActiveUI
+### -field tomStoryActiveUI:2
 
 Story is UI active; that is, it receives keyboard and mouse input.
 
-### -field tomStoryActiveDisplayUI
+### -field tomStoryActiveDisplayUI:3
 
 Story has display and UI activity.
 
-### -field tomNoAnimation
+### -field tomNoAnimation:0
 
 Do not apply text animation.
 
-### -field tomLasVegasLights
+### -field tomLasVegasLights:1
 
 Text is bordered by marquee lights that blink between the colors red, yellow, green, and blue.
 
-### -field tomBlinkingBackground
+### -field tomBlinkingBackground:2
 
 Text has a black background that blinks on and off.
 
-### -field tomSparkleText
+### -field tomSparkleText:3
 
 Text is overlaid with multicolored stars that blink on and off at regular intervals
 
-### -field tomMarchingBlackAnts
+### -field tomMarchingBlackAnts:4
 
 Text is surrounded by a black dashed-line border. The border is animated so that the individual dashes appear to move clockwise around the text.
 
-### -field tomMarchingRedAnts
+### -field tomMarchingRedAnts:5
 
 Text is surrounded by a red dashed-line border that is animated to appear to move clockwise around the text.
 
-### -field tomShimmer
+### -field tomShimmer:6
 
 Text is alternately blurred and unblurred at regular intervals, to give the appearance of shimmering.
 
-### -field tomWipeDown
+### -field tomWipeDown:7
 
 Text appears gradually from the top down.
 
-### -field tomWipeRight
+### -field tomWipeRight:8
 
 Text appears gradually from the bottom up.
 
-### -field tomAnimationMax
+### -field tomAnimationMax:8
 
 Defines the maximum animation flag value.
 
-### -field tomLowerCase
+### -field tomLowerCase:0
 
 Set text to lowercase.
 
-### -field tomUpperCase
+### -field tomUpperCase:1
 
 Set text to uppercase.
 
-### -field tomTitleCase
+### -field tomTitleCase:2
 
 Capitalize the first letter of each word.
 
-### -field tomSentenceCase
+### -field tomSentenceCase:4
 
 Capitalize the first letter of each sentence.
 
-### -field tomToggleCase
+### -field tomToggleCase:5
 
 Toggle the case of each letter.
 
-### -field tomReadOnly
+### -field tomReadOnly:0x100
 
 Read only.
 
-### -field tomShareDenyRead
+### -field tomShareDenyRead:0x200
 
 Other programs cannot read.
 
-### -field tomShareDenyWrite
+### -field tomShareDenyWrite:0x400
 
 Other programs cannot write.
 
-### -field tomPasteFile
+### -field tomPasteFile:0x1000
 
 Replace the selection with a file.
 
-### -field tomCreateNew
+### -field tomCreateNew:0x10
 
 Create a new file. Fail if the file already exists.
 
-### -field tomCreateAlways
+### -field tomCreateAlways:0x20
 
 Create a new file. Destroy the existing file if it exists.
 
-### -field tomOpenExisting
+### -field tomOpenExisting:0x30
 
 Open an existing file. Fail if the file does not exist.
 
-### -field tomOpenAlways
+### -field tomOpenAlways:0x40
 
 Open an existing file. Create a new file if the file does not exist.
 
-### -field tomTruncateExisting
+### -field tomTruncateExisting:0x50
 
 Open an existing file, but truncate it to zero length.
 
-### -field tomRTF
+### -field tomRTF:0x1
 
 Open as  RTF.
 
-### -field tomText
+### -field tomText:0x2
 
 Open as text ANSI or Unicode.
 
-### -field tomHTML
+### -field tomHTML:0x3
 
 Open as HTML.
 
-### -field tomWordDocument
+### -field tomWordDocument:0x4
 
 Open as Word document.
 
-### -field tomBold
+### -field tomBold:0x80000001
 
 Boldface.
 
-### -field tomItalic
+### -field tomItalic:0x80000002
 
 Italic.
 
-### -field tomUnderline
+### -field tomUnderline:0x80000004
 
 Underline.
 
-### -field tomStrikeout
+### -field tomStrikeout:0x80000008
 
 Strikeout.
 
-### -field tomProtected
+### -field tomProtected:0x80000010
 
 Protected.
 
-### -field tomLink
+### -field tomLink:0x80000020
 
 Hyperlink.
 
-### -field tomSmallCaps
+### -field tomSmallCaps:0x80000040
 
 Small caps.
 
-### -field tomAllCaps
+### -field tomAllCaps:0x80000080
 
 All caps.
 
-### -field tomHidden
+### -field tomHidden:0x80000100
 
 Hidden.
 
-### -field tomOutline
+### -field tomOutline:0x80000200
 
 Outline.
 
-### -field tomShadow
+### -field tomShadow:0x80000400
 
 Shadow.
 
-### -field tomEmboss
+### -field tomEmboss:0x80000800
 
 Emboss.
 
-### -field tomImprint
+### -field tomImprint:0x80001000
 
 Imprint.
 
-### -field tomDisabled
+### -field tomDisabled:0x80002000
 
 Disabled.
 
-### -field tomRevised
+### -field tomRevised:0x80004000
 
 Revised.
 
-### -field tomSubscriptCF
+### -field tomSubscriptCF:0x80010000
 
 Subscript character format.
 
-### -field tomSuperscriptCF
+### -field tomSuperscriptCF:0x80020000
 
 Superscript character format.
 
-### -field tomFontBound
+### -field tomFontBound:0x80100000
 
 Font bound (uses font binding).
 
-### -field tomLinkProtected
+### -field tomLinkProtected:0x80800000
 
 The link is protected (friendly name link).
 
-### -field tomInlineObjectStart
+### -field tomInlineObjectStart:0x81000000
 
 The start delimiter of an inline object.
 
-### -field tomExtendedChar
+### -field tomExtendedChar:0x82000000
 
 The characters are less common members of a script. A font that supports a script should check if it has glyphs for such characters.
 
-### -field tomAutoBackColor
+### -field tomAutoBackColor:0x84000000
 
 Use system back color.
 
-### -field tomMathZoneNoBuildUp
+### -field tomMathZoneNoBuildUp:0x88000000
 
 Don't build up operator.
 
-### -field tomMathZone
+### -field tomMathZone:0x90000000
 
 Math zone.
 
-### -field tomMathZoneOrdinary
+### -field tomMathZoneOrdinary:0xa0000000
 
 Math zone ordinary text.
 
-### -field tomAutoTextColor
+### -field tomAutoTextColor:0xc0000000
 
 Use system text color.
 
-### -field tomMathZoneDisplay
+### -field tomMathZoneDisplay:0x40000
 
 Display math zone.
 
-### -field tomParaEffectRTL
+### -field tomParaEffectRTL:0x1
 
 Right-to-left paragraph
 
-### -field tomParaEffectKeep
+### -field tomParaEffectKeep:0x2
 
 Keep the paragraph together.
 
-### -field tomParaEffectKeepNext
+### -field tomParaEffectKeepNext:0x4
 
 Keep with next the paragraph.
 
-### -field tomParaEffectPageBreakBefore
+### -field tomParaEffectPageBreakBefore:0x8
 
 Put a page break before this paragraph.
 
-### -field tomParaEffectNoLineNumber
+### -field tomParaEffectNoLineNumber:0x10
 
 No line number for this paragraph.
 
-### -field tomParaEffectNoWidowControl
+### -field tomParaEffectNoWidowControl:0x20
 
 No widow control.
 
-### -field tomParaEffectDoNotHyphen
+### -field tomParaEffectDoNotHyphen:0x40
 
 Don't hyphenate this paragraph.
 
-### -field tomParaEffectSideBySide
+### -field tomParaEffectSideBySide:0x80
 
 Side by side.
 
-### -field tomParaEffectCollapsed
+### -field tomParaEffectCollapsed:0x100
 
  Heading contents are collapsed (in outline view).
 
-### -field tomParaEffectOutlineLevel
+### -field tomParaEffectOutlineLevel:0x200
 
 Outline view nested level.
 
-### -field tomParaEffectBox
+### -field tomParaEffectBox:0x400
 
 Paragraph has boxed effect (is not displayed).
 
-### -field tomParaEffectTableRowDelimiter
+### -field tomParaEffectTableRowDelimiter:0x1000
 
 At or inside table delimiter.
 
-### -field tomParaEffectTable
+### -field tomParaEffectTable:0x4000
 
 Inside or at the start of a table.
 
-### -field tomModWidthPairs
+### -field tomModWidthPairs:0x1
 
 Use East Asian character-pair-width modification.
 
-### -field tomModWidthSpace
+### -field tomModWidthSpace:0x2
 
 Use East Asian space-width modification.
 
-### -field tomAutoSpaceAlpha
+### -field tomAutoSpaceAlpha:0x4
 
 Use East Asian auto spacing between alphabetics.
 
-### -field tomAutoSpaceNumeric
+### -field tomAutoSpaceNumeric:0x8
 
 Use East Asian auto spacing for digits.
 
-### -field tomAutoSpaceParens
+### -field tomAutoSpaceParens:0x10
 
 Use East Asian automatic spacing for parentheses or brackets.
 
-### -field tomEmbeddedFont
+### -field tomEmbeddedFont:0x20
 
 Embedded font (CLIP_EMBEDDED).
 
-### -field tomDoublestrike
+### -field tomDoublestrike:0x40
 
 Double strikeout.
 
-### -field tomOverlapping
+### -field tomOverlapping:0x80
 
 Run has overlapping text.
 
-### -field tomNormalCaret
+### -field tomNormalCaret:0
 
 Normal caret.
 
-### -field tomKoreanBlockCaret
+### -field tomKoreanBlockCaret:0x1
 
 The Korean block caret.
 
-### -field tomNullCaret
+### -field tomNullCaret:0x2
 
 NULL caret (caret suppressed).
 
-### -field tomIncludeInset
+### -field tomIncludeInset:0x1
 
 Add left/top insets to the client rectangle, and subtract right/bottom insets from the client rectangle.
 
-### -field tomUnicodeBiDi
+### -field tomUnicodeBiDi:0x1
 
 Use the Unicode bidirectional (bidi) algorithm.
 
-### -field tomMathCFCheck
+### -field tomMathCFCheck:0x4
 
 Check math-zone character formatting.
 
-### -field tomUnlink
+### -field tomUnlink:0x8
 
 Don't include text as part of a hyperlink.
 
-### -field tomUnhide
+### -field tomUnhide:0x10
 
 Don't insert as hidden text.
 
-### -field tomCheckTextLimit
+### -field tomCheckTextLimit:0x20
 
 Obey the current text limit instead of increasing the text to fit.
 
-### -field tomIgnoreCurrentFont
+### -field tomIgnoreCurrentFont:0
 
 Ignore the font that is active at a particular character position.
 
-### -field tomMatchCharRep
+### -field tomMatchCharRep:0x1
 
 Match the current character repertoire.
 
-### -field tomMatchFontSignature
+### -field tomMatchFontSignature:0x2
 
 Match the current font signature.
 
-### -field tomMatchAscii
+### -field tomMatchAscii:0x4
 
 Use the current font if its character repertoire is <b>tomAnsi</b>.
 
-### -field tomGetHeightOnly
+### -field tomGetHeightOnly:0x8
 
 Gets the height.
 
-### -field tomMatchMathFont
+### -field tomMatchMathFont:0x10
 
 Match a math font.
 
-### -field tomCharset
+### -field tomCharset:0x80000000
 
 Set the character repertoire based on the specified character set.
 
-### -field tomCharRepFromLcid
+### -field tomCharRepFromLcid:0x40000000
 
 Set the character repertoire based on the specified LCID.
 
-### -field tomAnsi
+### -field tomAnsi:0
 
 Latin 1
 
-### -field tomEastEurope
+### -field tomEastEurope:1
 
 From Latin 1 and 2
 
-### -field tomCyrillic
+### -field tomCyrillic:2
 
 Cyrillic
 
-### -field tomGreek
+### -field tomGreek:3
 
 Greek
 
-### -field tomTurkish
+### -field tomTurkish:4
 
 Turkish (Latin 1 + dotless i, ...)
 
-### -field tomHebrew
+### -field tomHebrew:5
 
 Hebrew
 
-### -field tomArabic
+### -field tomArabic:6
 
 Arabic
 
-### -field tomBaltic
+### -field tomBaltic:7
 
 From Latin 1 and 2
 
-### -field tomVietnamese
+### -field tomVietnamese:8
 
 Latin 1 with some combining marks
 
-### -field tomDefaultCharRep
+### -field tomDefaultCharRep:9
 
 Default character repertoire
 
-### -field tomSymbol
+### -field tomSymbol:10
 
 Symbol character set (not Unicode)
 
-### -field tomThai
+### -field tomThai:11
 
 Thai
 
-### -field tomShiftJIS
+### -field tomShiftJIS:12
 
 Japanese
 
-### -field tomGB2312
+### -field tomGB2312:13
 
 Simplified Chinese
 
-### -field tomHangul
+### -field tomHangul:14
 
 Hangul
 
-### -field tomBIG5
+### -field tomBIG5:15
 
 Traditional Chinese
 
-### -field tomPC437
+### -field tomPC437:16
 
 PC437 character set (DOS)
 
-### -field tomOEM
+### -field tomOEM:17
 
 OEM character set (original PC)
 
-### -field tomMac
+### -field tomMac:18
 
 Main Macintosh character repertoire
 
-### -field tomArmenian
+### -field tomArmenian:19
 
 Armenian
 
-### -field tomSyriac
+### -field tomSyriac:20
 
 Syriac
 
-### -field tomThaana
+### -field tomThaana:21
 
 Thaana
 
-### -field tomDevanagari
+### -field tomDevanagari:22
 
 Devanagari
 
-### -field tomBengali
+### -field tomBengali:23
 
 Bangla (formerly Bengali)
 
-### -field tomGurmukhi
+### -field tomGurmukhi:24
 
 Gurmukhi
 
-### -field tomGujarati
+### -field tomGujarati:25
 
 Gujarati
 
-### -field tomOriya
+### -field tomOriya:26
 
 Odia (formerly Oriya)
 
-### -field tomTamil
+### -field tomTamil:27
 
 Tamil
 
-### -field tomTelugu
+### -field tomTelugu:28
 
 Telugu
 
-### -field tomKannada
+### -field tomKannada:29
 
 Kannada
 
-### -field tomMalayalam
+### -field tomMalayalam:30
 
 Malayalam
 
-### -field tomSinhala
+### -field tomSinhala:31
 
 Sinhala
 
-### -field tomLao
+### -field tomLao:32
 
 Lao
 
-### -field tomTibetan
+### -field tomTibetan:33
 
 Tibetan
 
-### -field tomMyanmar
+### -field tomMyanmar:34
 
 Myanmar
 
-### -field tomGeorgian
+### -field tomGeorgian:35
 
 Georgian
 
-### -field tomJamo
+### -field tomJamo:36
 
 Jamo
 
-### -field tomEthiopic
+### -field tomEthiopic:37
 
 Ethiopic
 
-### -field tomCherokee
+### -field tomCherokee:38
 
 Cherokee
 
-### -field tomAboriginal
+### -field tomAboriginal:39
 
 Aboriginal
 
-### -field tomOgham
+### -field tomOgham:40
 
 Ogham
 
-### -field tomRunic
+### -field tomRunic:41
 
 Runic
 
-### -field tomKhmer
+### -field tomKhmer:42
 
 Khmer
 
-### -field tomMongolian
+### -field tomMongolian:43
 
 Mongolian
 
-### -field tomBraille
+### -field tomBraille:44
 
 Braille
 
-### -field tomYi
+### -field tomYi:45
 
 Yi
 
-### -field tomLimbu
+### -field tomLimbu:46
 
 Limbu
 
-### -field tomTaiLe
+### -field tomTaiLe:47
 
 TaiLe
 
-### -field tomNewTaiLue
+### -field tomNewTaiLue:48
 
 TaiLue
 
-### -field tomSylotiNagri
+### -field tomSylotiNagri:49
 
 Syloti Nagri
 
-### -field tomKharoshthi
+### -field tomKharoshthi:50
 
 Kharoshthi
 
-### -field tomKayahli
+### -field tomKayahli:51
 
 Kayah Li
 
-### -field tomUsymbol
+### -field tomUsymbol:52
 
 Unicode symbol
 
-### -field tomEmoji
+### -field tomEmoji:53
 
 Emoji
 
-### -field tomGlagolitic
+### -field tomGlagolitic:54
 
 Glagolitic
 
-### -field tomLisu
+### -field tomLisu:55
 
 Lisu
 
-### -field tomVai
+### -field tomVai:56
 
 Vai
 
-### -field tomNKo
+### -field tomNKo:57
 
 N'Ko
 
-### -field tomOsmanya
+### -field tomOsmanya:58
 
 Osmanya
 
-### -field tomPhagsPa
+### -field tomPhagsPa:59
 
 Phags-pa
 
-### -field tomGothic
+### -field tomGothic:60
 
 Gothic
 
-### -field tomDeseret
+### -field tomDeseret:61
 
 Deseret
 
-### -field tomTifinagh
+### -field tomTifinagh:62
 
 Tifinagh
 
-### -field tomCharRepMax
+### -field tomCharRepMax:63
 
 The maximum character repertoire flag value.
 
-### -field tomRE10Mode
+### -field tomRE10Mode:0x1
 
 Use Microsoft Rich Edit 1.0 mode.
 
-### -field tomUseAtFont
+### -field tomUseAtFont:0x2
 
 Use a font with a name that starts with @,  for CJK vertical text. When rendered vertically, the characters in such a font are rotated 90 degrees so that they look upright instead of sideways.
 
-### -field tomTextFlowMask
+### -field tomTextFlowMask:0xc
 
 Mask for the following four text orientations.
 
-### -field tomTextFlowES
+### -field tomTextFlowES:0
 
 Ordinary left-to-right horizontal text.
 
-### -field tomTextFlowSW
+### -field tomTextFlowSW:0x4
 
 Ordinary East Asian vertical text.
 
-### -field tomTextFlowWN
+### -field tomTextFlowWN:0x8
 
 Alternative orientation.
 
-### -field tomTextFlowNE
+### -field tomTextFlowNE:0xc
 
 Alternative orientation.
 
-### -field tomNoIME
+### -field tomNoIME:0x80000
 
 Disables the IME operation (see <a href="/windows/desktop/Controls/rich-edit-control-styles">ES_NOIME</a>).
 
-### -field tomSelfIME
+### -field tomSelfIME:0x40000
 
 Directs the rich edit control to allow the application to handle all IME operations (see <a href="/windows/desktop/Controls/rich-edit-control-styles">ES_SELFIME</a>).
 
-### -field tomNoUpScroll
+### -field tomNoUpScroll:0x10000
 
 Horizontal scrolling is disabled.
 
-### -field tomNoVpScroll
+### -field tomNoVpScroll:0x40000
 
 Vertical scrolling is disabled.
 
-### -field tomNoLink
+### -field tomNoLink:0
 
 Not a link.
 
-### -field tomClientLink
+### -field tomClientLink:1
 
 The URL only; that is, no friendly name.
 
-### -field tomFriendlyLinkName
+### -field tomFriendlyLinkName:2
 
 The name of friendly name link.
 
-### -field tomFriendlyLinkAddress
+### -field tomFriendlyLinkAddress:3
 
 The URL of a friendly name link.
 
-### -field tomAutoLinkURL
+### -field tomAutoLinkURL:4
 
 The URL of an automatic link.
 
-### -field tomAutoLinkEmail
+### -field tomAutoLinkEmail:5
 
 An automatic link to an email address.
 
-### -field tomAutoLinkPhone
+### -field tomAutoLinkPhone:6
 
 An automatic link to a phone number.
 
-### -field tomAutoLinkPath
+### -field tomAutoLinkPath:7
 
 An automatic link to a storage location.
 
-### -field tomCompressNone
+### -field tomCompressNone:0
 
 No compression.
 
-### -field tomCompressPunctuation
+### -field tomCompressPunctuation:1
 
 Compress punctuation.
 
-### -field tomCompressPunctuationAndKana
+### -field tomCompressPunctuationAndKana:2
 
 Compress punctuation and kana.
 
-### -field tomCompressMax
+### -field tomCompressMax:2
 
 The maximum compression flag value.
 
-### -field tomUnderlinePositionAuto
+### -field tomUnderlinePositionAuto:0
 
 Automatically set the underline position.
 
-### -field tomUnderlinePositionBelow
+### -field tomUnderlinePositionBelow:1
 
 Render underline below text.
 
-### -field tomUnderlinePositionAbove
+### -field tomUnderlinePositionAbove:2
 
 Render underline above text.
 
-### -field tomUnderlinePositionMax
+### -field tomUnderlinePositionMax:2
 
 The maximum underline position flag value.
 
-### -field tomFontAlignmentAuto
+### -field tomFontAlignmentAuto:0
 
 For horizontal layout, align CJK characters on the baseline. For vertical layout, center align CJK characters.
 
-### -field tomFontAlignmentTop
+### -field tomFontAlignmentTop:1
 
 For horizontal layout, top align CJK characters. For vertical layout, right align CJK characters.
 
-### -field tomFontAlignmentBaseline
+### -field tomFontAlignmentBaseline:2
 
 For horizontal or vertical layout, align CJK characters on the baseline.
 
-### -field tomFontAlignmentBottom
+### -field tomFontAlignmentBottom:3
 
 For horizontal layout, bottom align CJK characters. For vertical layout, left align CJK characters.
 
-### -field tomFontAlignmentCenter
+### -field tomFontAlignmentCenter:4
 
 For horizontal layout, center CJK characters vertically. For vertical layout, center align CJK characters horizontally.
 
-### -field tomFontAlignmentMax
+### -field tomFontAlignmentMax:4
 
 The maximum font alignment flag value.
 
-### -field tomRubyBelow
+### -field tomRubyBelow:0x80
 
-### -field tomRubyAlignCenter
+### -field tomRubyAlignCenter:0
 
-### -field tomRubyAlign010
+### -field tomRubyAlign010:1
 
-### -field tomRubyAlign121
+### -field tomRubyAlign121:2
 
-### -field tomRubyAlignLeft
+### -field tomRubyAlignLeft:3
 
-### -field tomRubyAlignRight
+### -field tomRubyAlignRight:4
 
-### -field tomLimitsDefault
+### -field tomLimitsDefault:0
 
 Limit locations use document default.
 
-### -field tomLimitsUnderOver
+### -field tomLimitsUnderOver:1
 
 Limits are placed under and over the operator.
 
-### -field tomLimitsSubSup
+### -field tomLimitsSubSup:2
 
 Limits are operator subscript and superscript.
 
-### -field tomUpperLimitAsSuperScript
+### -field tomUpperLimitAsSuperScript:3
 
 The upper limit is a superscript.
 
-### -field tomLimitsOpposite
+### -field tomLimitsOpposite:4
 
 Switch between <b>tomLimitsSubSup</b> and <b>tomLimitsUnderOver</b>.
 
-### -field tomShowLLimPlaceHldr
+### -field tomShowLLimPlaceHldr:8
 
 Show empty lower limit placeholder.
 
-### -field tomShowULimPlaceHldr
+### -field tomShowULimPlaceHldr:16
 
 Show empty upper limit placeholder.
 
-### -field tomDontGrowWithContent
+### -field tomDontGrowWithContent:64
 
 Don't grow the <i>n</i>-ary operator with the argument.
 
-### -field tomGrowWithContent
+### -field tomGrowWithContent:128
 
 Grow the <i>n</i>-ary operator with the argument.
 
-### -field tomSubSupAlign
+### -field tomSubSupAlign:1
 
 Align subscript under superscript.
 
-### -field tomLimitAlignMask
+### -field tomLimitAlignMask:3
 
 Mask for <b>tomLimitAlignCenter</b>, <b>tomLimitAlignLeft</b>, and <b>tomLimitAlignRight.</b>
 
-### -field tomLimitAlignCenter
+### -field tomLimitAlignCenter:0
 
 Center limit under base.
 
-### -field tomLimitAlignLeft
+### -field tomLimitAlignLeft:1
 
 Align left ends of limit and base.
 
-### -field tomLimitAlignRight
+### -field tomLimitAlignRight:2
 
 Align right ends of limit and base.
 
-### -field tomShowDegPlaceHldr
+### -field tomShowDegPlaceHldr:8
 
 Show empty radical degree placeholder.
 
-### -field tomAlignDefault
+### -field tomAlignDefault:0
 
 Center brackets at baseline.
 
-### -field tomAlignMatchAscentDescent
+### -field tomAlignMatchAscentDescent:2
 
 Use brackets that match the argument ascent and descent.
 
-### -field tomMathVariant
+### -field tomMathVariant:0x20
 
 Bits 7, 6 can have TeX variant enumeration values:
 
-### -field tomStyleDefault
+### -field tomStyleDefault:0
 
 The math handler determines the style.
 
-### -field tomStyleScriptScriptCramped
+### -field tomStyleScriptScriptCramped:1
 
 The 2<sup>nd</sup> and higher level subscript superscript size, cramped.
 
-### -field tomStyleScriptScript
+### -field tomStyleScriptScript:2
 
 The 2<sup>nd</sup> and higher level subscript superscript size.
 
-### -field tomStyleScriptCramped
+### -field tomStyleScriptCramped:3
 
 The 1<sup>st</sup> level subscript superscript size, cramped.
 
-### -field tomStyleScript
+### -field tomStyleScript:4
 
 The 1<sup>st</sup> level subscript superscript size.
 
-### -field tomStyleTextCramped
+### -field tomStyleTextCramped:5
 
 Text size cramped, for example, inside a square root.
 
-### -field tomStyleText
+### -field tomStyleText:6
 
 The standard inline text size.
 
-### -field tomStyleDisplayCramped
+### -field tomStyleDisplayCramped:7
 
 Display style cramped.
 
-### -field tomStyleDisplay
+### -field tomStyleDisplay:8
 
 Display style.
 
-### -field tomMathRelSize
+### -field tomMathRelSize:0x40
 
 Indicates one of these is active: <b>tomDecDecSize</b>, <b>tomDecSize</b>, <b>tomIncSize</b>, <b>tomIncIncSize</b>. Note that the maximum size is <b>tomStyleText</b> size, and the minimum size is <b>tomStyleScriptScript</b> size.
 
-### -field tomDecDecSize
+### -field tomDecDecSize:0xfe
 
 Two sizes smaller than the default.
 
-### -field tomDecSize
+### -field tomDecSize:0xff
 
 One size smaller than the default.
 
@@ -1670,109 +1670,109 @@ One size bigger than the default.
 
 Two sizes bigger than the default.
 
-### -field tomGravityUI
+### -field tomGravityUI:0
 
 Use selection user interface rules.
 
-### -field tomGravityBack
+### -field tomGravityBack:1
 
 Both ends have backward gravity.
 
-### -field tomGravityFore
+### -field tomGravityFore:2
 
 Both ends have forward gravity.
 
-### -field tomGravityIn
+### -field tomGravityIn:3
 
 Inward gravity; that is, the start is forward, and the end is backward.
 
-### -field tomGravityOut
+### -field tomGravityOut:4
 
 Outward gravity; that is, the start is backward, and the end is forward.
 
-### -field tomGravityBackward
+### -field tomGravityBackward:0x20000000
 
-### -field tomGravityForward
+### -field tomGravityForward:0x40000000
 
-### -field tomAdjustCRLF
+### -field tomAdjustCRLF:1
 
 Adjust CR/LFs at the start.
 
-### -field tomUseCRLF
+### -field tomUseCRLF:2
 
 Use CR/LF in place of a carriage return or a line feed.
 
-### -field tomTextize
+### -field tomTextize:4
 
 Copy up to 0xFFFC (OLE object).
 
-### -field tomAllowFinalEOP
+### -field tomAllowFinalEOP:8
 
 Allow a final end-of-paragraph (EOP) marker.
 
-### -field tomFoldMathAlpha
+### -field tomFoldMathAlpha:16
 
 Fold math alphanumerics to ASCII/Greek.
 
-### -field tomNoHidden
+### -field tomNoHidden:32
 
 Don't include hidden text.
 
-### -field tomIncludeNumbering
+### -field tomIncludeNumbering:64
 
 Include list numbers.
 
-### -field tomTranslateTableCell
+### -field tomTranslateTableCell:128
 
 Replace table row delimiter characters with spaces.
 
-### -field tomNoMathZoneBrackets
+### -field tomNoMathZoneBrackets:0x100
 
 Don't include math zone brackets.
 
-### -field tomConvertMathChar
+### -field tomConvertMathChar:0x200
 
 Convert to or from math italic and/or math bold according to the status of italic and bold retrieved by the <a href="/windows/desktop/api/tom/nf-tom-itextfont2-geteffects">ITextFont2::GetEffects</a> method.
 
-### -field tomNoUCGreekItalic
+### -field tomNoUCGreekItalic:0x400
 
 Don’t use math italics for upper-case Greek letters. This value is used with  
 <b>tomConvertMathChar</b>.
 
-### -field tomAllowMathBold
+### -field tomAllowMathBold:0x800
 
 Allow math bold.  This value is used with  
 <b>tomConvertMathChar</b>.
 
-### -field tomLanguageTag
+### -field tomLanguageTag:0x1000
 
 Get the BCP-47 language tag for this range.
 
-### -field tomConvertRTF
+### -field tomConvertRTF:0x2000
 
 Get text in RTF.
 
-### -field tomApplyRtfDocProps
+### -field tomApplyRtfDocProps:0x4000
 
 Apply RTF document default properties.
 
-### -field tomPhantomShow
+### -field tomPhantomShow:1
 
 Display the phantom object's argument.
 
-### -field tomPhantomZeroWidth
+### -field tomPhantomZeroWidth:2
 
 The phantom object has zero width.
 
-### -field tomPhantomZeroAscent
+### -field tomPhantomZeroAscent:4
 
 The phantom object has zero ascent.
 
-### -field tomPhantomZeroDescent
+### -field tomPhantomZeroDescent:8
 
 The phantom object has zero descent.
 
-### -field tomPhantomTransparent
+### -field tomPhantomTransparent:16
 
 Space the phantom object as if only the argument is present.
 
@@ -1800,361 +1800,361 @@ Horizontal phantom.
 
 Vertical phantom.
 
-### -field tomBoxHideTop
+### -field tomBoxHideTop:1
 
 Hide top border.
 
-### -field tomBoxHideBottom
+### -field tomBoxHideBottom:2
 
 Hide bottom border.
 
-### -field tomBoxHideLeft
+### -field tomBoxHideLeft:4
 
 Hide left border.
 
-### -field tomBoxHideRight
+### -field tomBoxHideRight:8
 
 Hide right border.
 
-### -field tomBoxStrikeH
+### -field tomBoxStrikeH:16
 
 Display horizontal strikethrough.
 
-### -field tomBoxStrikeV
+### -field tomBoxStrikeV:32
 
 Display vertical strikethrough.
 
-### -field tomBoxStrikeTLBR
+### -field tomBoxStrikeTLBR:64
 
 Display diagonal strikethrough from the top left to the lower right.
 
-### -field tomBoxStrikeBLTR
+### -field tomBoxStrikeBLTR:128
 
 Display diagonal strikethrough from the lower left to the top right.
 
-### -field tomBoxAlignCenter
+### -field tomBoxAlignCenter:1
 
 Vertically align with center on baseline.
 
-### -field tomSpaceMask
+### -field tomSpaceMask:0x1c
 
 Mask for <b>tomSpaceDefault</b>, <b>tomSpaceUnary</b>, <b>tomSpaceBinary</b>, <b>tomSpaceRelational</b>, <b>tomSpaceSkip</b>, <b>tomSpaceOrd</b>, and <b>tomSpaceDifferential.</b>
 
-### -field tomSpaceDefault
+### -field tomSpaceDefault:0
 
 Default spacing
 
-### -field tomSpaceUnary
+### -field tomSpaceUnary:4
 
 Space the object as if it were a unary operator.
 
-### -field tomSpaceBinary
+### -field tomSpaceBinary:8
 
 Space the object as if it were a binary operator.
 
-### -field tomSpaceRelational
+### -field tomSpaceRelational:12
 
 Space the object as if it were a relational operator.
 
-### -field tomSpaceSkip
+### -field tomSpaceSkip:16
 
 Space the object as if it were a unary operator.
 
-### -field tomSpaceOrd
+### -field tomSpaceOrd:20
 
 Space the object as if it were an ordinal operator.
 
-### -field tomSpaceDifferential
+### -field tomSpaceDifferential:24
 
 Space the object as if it were a differential operator.
 
-### -field tomSizeText
+### -field tomSizeText:32
 
 Treat as text size.
 
-### -field tomSizeScript
+### -field tomSizeScript:64
 
 Treat as script size (approximately 73% of text size).
 
-### -field tomSizeScriptScript
+### -field tomSizeScriptScript:96
 
 Treat as subscript size (approximately 60% of text size).
 
-### -field tomNoBreak
+### -field tomNoBreak:128
 
 Do not break arguments across a line.
 
-### -field tomTransparentForPositioning
+### -field tomTransparentForPositioning:256
 
 Position as if only the argument appears.
 
-### -field tomTransparentForSpacing
+### -field tomTransparentForSpacing:512
 
 Space according to argument properties.
 
-### -field tomStretchCharBelow
+### -field tomStretchCharBelow:0
 
 Stretch character below base.
 
-### -field tomStretchCharAbove
+### -field tomStretchCharAbove:1
 
 Stretch character above base.
 
-### -field tomStretchBaseBelow
+### -field tomStretchBaseBelow:2
 
 Stretch base  below character.
 
-### -field tomStretchBaseAbove
+### -field tomStretchBaseAbove:3
 
 Stretch base  above character.
 
-### -field tomMatrixAlignMask
+### -field tomMatrixAlignMask:3
 
 Mask for <b>tomMatrixAlignCenter</b>, <b>tomMatrixAlignTopRow</b>, and <b>tomMatrixAlignBottomRow.</b>
 
-### -field tomMatrixAlignCenter
+### -field tomMatrixAlignCenter:0
 
 Align the matrix center on baseline.
 
-### -field tomMatrixAlignTopRow
+### -field tomMatrixAlignTopRow:1
 
 Align the matrix top row on the baseline.
 
-### -field tomMatrixAlignBottomRow
+### -field tomMatrixAlignBottomRow:3
 
 Align the matrix bottom row on the baseline.
 
-### -field tomShowMatPlaceHldr
+### -field tomShowMatPlaceHldr:8
 
 Show empty element placeholder (a dotted box).
 
-### -field tomEqArrayLayoutWidth
+### -field tomEqArrayLayoutWidth:1
 
 Expand the right size to the layout width (for equation number)
 
-### -field tomEqArrayAlignMask
+### -field tomEqArrayAlignMask:0xc
 
 Mask for <b>tomEqArrayAlignCenter</b>, <b>tomEqArrayAlignTopRow</b>, and <b>tomEqArrayBottomRow.</b>
 
-### -field tomEqArrayAlignCenter
+### -field tomEqArrayAlignCenter:0
 
 Align the center of the equation array on the baseline.
 
-### -field tomEqArrayAlignTopRow
+### -field tomEqArrayAlignTopRow:4
 
 Align the top of equations on the baseline.
 
 Align the top row of the equation on the baseline.
 
-### -field tomEqArrayAlignBottomRow
+### -field tomEqArrayAlignBottomRow:0xc
 
 Align the bottom row of the equation on the baseline.
 
-### -field tomMathManualBreakMask
+### -field tomMathManualBreakMask:0x7f
 
 Mask for <b>tomMathBreakLeft</b>, <b>tomMathBreakCenter</b>, and <b>tomMathBreakRight.</b>
 
-### -field tomMathBreakLeft
+### -field tomMathBreakLeft:0x7d
 
 Align text following a manual break to the left.
 
-### -field tomMathBreakCenter
+### -field tomMathBreakCenter:0x7e
 
 Center text following a manual break.
 
-### -field tomMathBreakRight
+### -field tomMathBreakRight:0x7f
 
 Align text following a manual break to the right.
 
-### -field tomMathEqAlign
+### -field tomMathEqAlign:0x80
 
 Math equation alignment.
 
-### -field tomMathArgShadingStart
+### -field tomMathArgShadingStart:0x251
 
 Start shading math arguments.
 
-### -field tomMathArgShadingEnd
+### -field tomMathArgShadingEnd:0x252
 
 End shading math arguments.
 
-### -field tomMathObjShadingStart
+### -field tomMathObjShadingStart:0x253
 
 Start shading math objects.
 
-### -field tomMathObjShadingEnd
+### -field tomMathObjShadingEnd:0x254
 
 End shading math objects.
 
-### -field tomFunctionTypeNone
+### -field tomFunctionTypeNone:0
 
 Not in the function list.
 
-### -field tomFunctionTypeTakesArg
+### -field tomFunctionTypeTakesArg:1
 
 An ordinary math function that takes arguments.
 
-### -field tomFunctionTypeTakesLim
+### -field tomFunctionTypeTakesLim:2
 
 Use the lower limit for _, and so on.
 
-### -field tomFunctionTypeTakesLim2
+### -field tomFunctionTypeTakesLim2:3
 
 Turn the preceding FA into an NBSP.
 
-### -field tomFunctionTypeIsLim
+### -field tomFunctionTypeIsLim:4
 
 A "lim" function.
 
-### -field tomMathParaAlignDefault
+### -field tomMathParaAlignDefault:0
 
 The default alignment for math paragraphs.
 
-### -field tomMathParaAlignCenterGroup
+### -field tomMathParaAlignCenterGroup:1
 
 Center math paragraphs as a group.
 
-### -field tomMathParaAlignCenter
+### -field tomMathParaAlignCenter:2
 
 Center math paragraphs.
 
-### -field tomMathParaAlignLeft
+### -field tomMathParaAlignLeft:3
 
 Left-align math paragraphs.
 
-### -field tomMathParaAlignRight
+### -field tomMathParaAlignRight:4
 
 Right-align math paragraphs.
 
-### -field tomMathDispAlignMask
+### -field tomMathDispAlignMask:3
 
 Mask for <b>tomMathDispAlignCenterGroup</b>, <b>tomMathDispAlignCenter</b>, <b>tomMathDispAlignLeft</b>, <b>tomMathDispAlignRight</b>, <b>tomMathDispIntUnderOver</b>, and <b>tomMathDispNaryGrow</b>.
 
-### -field tomMathDispAlignCenterGroup
+### -field tomMathDispAlignCenterGroup:0
 
 Center a math paragraph as a group.
 
-### -field tomMathDispAlignCenter
+### -field tomMathDispAlignCenter:1
 
 Center all equations in a math paragraph.
 
-### -field tomMathDispAlignLeft
+### -field tomMathDispAlignLeft:2
 
 Left justify all equations in a math paragraph.
 
-### -field tomMathDispAlignRight
+### -field tomMathDispAlignRight:3
 
 Right justify all equations in a math paragraph.
 
-### -field tomMathDispIntUnderOver
+### -field tomMathDispIntUnderOver:4
 
 Display-mode integral limits location.
 
-### -field tomMathDispFracTeX
+### -field tomMathDispFracTeX:8
 
 Indicates whether to use display-mode nested fraction script size.
 
-### -field tomMathDispNaryGrow
+### -field tomMathDispNaryGrow:0x10
 
 Indicates whether to use math-paragraph n-ary grow.
 
-### -field tomMathDocEmptyArgMask
+### -field tomMathDocEmptyArgMask:0x60
 
 Empty arguments display mask.
 
-### -field tomMathDocEmptyArgAuto
+### -field tomMathDocEmptyArgAuto:0
 
 Dotted square, if necessary.
 
-### -field tomMathDocEmptyArgAlways
+### -field tomMathDocEmptyArgAlways:0x20
 
 Dotted square, always.
 
-### -field tomMathDocEmptyArgNever
+### -field tomMathDocEmptyArgNever:0x40
 
 Nothing.
 
-### -field tomMathDocSbSpOpUnchanged
+### -field tomMathDocSbSpOpUnchanged:0x80
 
 Do not display the underscore (_) as subscripted, or the caret (^) as superscripted.
 
-### -field tomMathDocDiffMask
+### -field tomMathDocDiffMask:0x300
 
 Style mask for the <b>tomMathDocDiffUpright</b>, <b>tomMathDocDiffItalic</b>, <b>tomMathDocDiffOpenItalic </b> options.
 
-### -field tomMathDocDiffDefault
+### -field tomMathDocDiffDefault:0
 
 Use default glyphs for math differentials.
 
-### -field tomMathDocDiffUpright
+### -field tomMathDocDiffUpright:0x100
 
 Use upright glyphs for math differentials.
 
-### -field tomMathDocDiffItalic
+### -field tomMathDocDiffItalic:0x200
 
 Use italic glyphs for math differentials.
 
-### -field tomMathDocDiffOpenItalic
+### -field tomMathDocDiffOpenItalic:0x300
 
 No glyph change.
 
-### -field tomMathDispNarySubSup
+### -field tomMathDispNarySubSup:0x400
 
 Math-paragraph non-integral n-ary limits location.
 
-### -field tomMathDispDef
+### -field tomMathDispDef:0x800
 
 Math-paragraph spacing defaults. Use math paragraph offsets instead of regular paragraph offsets.
 
-### -field tomMathEnableRtl
+### -field tomMathEnableRtl:0x1000
 
 Enable right-to-left (RTL) math zones in RTL paragraphs.
 
-### -field tomMathBrkBinMask
+### -field tomMathBrkBinMask:0x30000
 
 Equation line break mask.
 
-### -field tomMathBrkBinBefore
+### -field tomMathBrkBinBefore:0
 
 Break before  binary/relational operator.
 
-### -field tomMathBrkBinAfter
+### -field tomMathBrkBinAfter:0x10000
 
 Break after binary/relational operator.
 
-### -field tomMathBrkBinDup
+### -field tomMathBrkBinDup:0x20000
 
 Duplicate binary/relational before/after.
 
-### -field tomMathBrkBinSubMask
+### -field tomMathBrkBinSubMask:0xc0000
 
 Duplicate mask for minus operator.
 
-### -field tomMathBrkBinSubMM
+### -field tomMathBrkBinSubMM:0
 
 -- (minus on both lines).
 
-### -field tomMathBrkBinSubPM
+### -field tomMathBrkBinSubPM:0x40000
 
 + -
 
-### -field tomMathBrkBinSubMP
+### -field tomMathBrkBinSubMP:0x80000
 
 - +
 
-### -field tomSelRange
+### -field tomSelRange:0x255
 
 Set the selection character position and character count to range values.
 
-### -field tomHstring
+### -field tomHstring:0x254
 
 Use a string handle (<b>HSTRING</b>) instead of a binary string (<b>BSTR</b>).
 
-### -field tomFontPropTeXStyle
+### -field tomFontPropTeXStyle:0x33c
 
 Gets the TeX style of the font.
 
-### -field tomFontPropAlign
+### -field tomFontPropAlign:0x33d
 
 Use <b>tomFontPropAlign</b> to get the <b>Align</b> property of an operator in a math zone. Here are how the values are assigned:<ul>
 <li>Value 0 implies no special alignment.</li>
@@ -2163,7 +2163,7 @@ Use <b>tomFontPropAlign</b> to get the <b>Align</b> property of an operator in a
 <li>Other values are illegal.</li>
 </ul>
 
-### -field tomFontStretch
+### -field tomFontStretch:0x33e
 
 The type of font stretching. It can have one of the following values.
 
@@ -2177,7 +2177,7 @@ The type of font stretching. It can have one of the following values.
 <b>tomFontStretchExtraExpanded</b>
 <b>tomFontStretchUltraExpanded</b>
 
-### -field tomFontStyle
+### -field tomFontStyle:0x33f
 
 The font style. It can have one of the following values.<ul>
 <li><b>tomFontStyleUpright</b></li>
@@ -2185,221 +2185,221 @@ The font style. It can have one of the following values.<ul>
 <li><b>tomFontStyleOblique</b></li>
 </ul>
 
-### -field tomFontStyleUpright
+### -field tomFontStyleUpright:0
 
 Represents the normal upright font style.
 
-### -field tomFontStyleOblique
+### -field tomFontStyleOblique:1
 
 Represents an oblique font style.
 
-### -field tomFontStyleItalic
+### -field tomFontStyleItalic:2
 
 Represents an italic font style.
 
-### -field tomFontStretchDefault
+### -field tomFontStretchDefault:0
 
 No defined font stretch.
 
-### -field tomFontStretchUltraCondensed
+### -field tomFontStretchUltraCondensed:1
 
 An ultra-condensed font stretch (50% of normal).
 
-### -field tomFontStretchExtraCondensed
+### -field tomFontStretchExtraCondensed:2
 
 An extra-condensed font stretch (62.5% of normal).
 
-### -field tomFontStretchCondensed
+### -field tomFontStretchCondensed:3
 
 A condensed font stretch (75% of normal).
 
-### -field tomFontStretchSemiCondensed
+### -field tomFontStretchSemiCondensed:4
 
 A semi-condensed font stretch (87.5% of normal).
 
-### -field tomFontStretchNormal
+### -field tomFontStretchNormal:5
 
 The normal font stretch that all other font stretch values relate to (100%).
 
-### -field tomFontStretchSemiExpanded
+### -field tomFontStretchSemiExpanded:6
 
 A semi-expanded font stretch (112.5% of normal).
 
-### -field tomFontStretchExpanded
+### -field tomFontStretchExpanded:7
 
 An expanded font stretch (125% of normal).
 
-### -field tomFontStretchExtraExpanded
+### -field tomFontStretchExtraExpanded:8
 
 An extra-expanded font stretch (150% of normal).
 
-### -field tomFontStretchUltraExpanded
+### -field tomFontStretchUltraExpanded:9
 
 An ultra-expanded font stretch (200% of normal).
 
-### -field tomFontWeightDefault
+### -field tomFontWeightDefault:0
 
 The default font weight.
 
-### -field tomFontWeightThin
+### -field tomFontWeightThin:100
 
 Thin font weight.
 
-### -field tomFontWeightExtraLight
+### -field tomFontWeightExtraLight:200
 
 Extra light font weight.
 
-### -field tomFontWeightLight
+### -field tomFontWeightLight:300
 
 Light font weight.
 
-### -field tomFontWeightNormal
+### -field tomFontWeightNormal:400
 
 Normal font weight.
 
-### -field tomFontWeightRegular
+### -field tomFontWeightRegular:400
 
 Same as <b>tomFontWeightNormal</b>.
 
-### -field tomFontWeightMedium
+### -field tomFontWeightMedium:500
 
 Medium font weight.
 
-### -field tomFontWeightSemiBold
+### -field tomFontWeightSemiBold:600
 
 Semi bold font weight.
 
-### -field tomFontWeightBold
+### -field tomFontWeightBold:700
 
 Bold font weight.
 
-### -field tomFontWeightExtraBold
+### -field tomFontWeightExtraBold:800
 
 Extra bold font weight.
 
-### -field tomFontWeightBlack
+### -field tomFontWeightBlack:900
 
 Heavy font weight.
 
-### -field tomFontWeightHeavy
+### -field tomFontWeightHeavy:900
 
 Same as <b>tomFontWeightBlack</b>.
 
-### -field tomFontWeightExtraBlack
+### -field tomFontWeightExtraBlack:950
 
 Extra heavy font weight.
 
-### -field tomParaPropMathAlign
+### -field tomParaPropMathAlign:0x437
 
 Alignment properties for a math paragraph.
 
-### -field tomDocMathBuild
+### -field tomDocMathBuild:0x80
 
 Used with the <a href="/windows/desktop/api/tom/nf-tom-itextdocument2-setproperty">ITextDocument2::SetProperty</a> method to set any combination of <b>tomMathAutoCorrect</b>, <b>tomTeX</b>, or <b>tomMathAlphabetics</b>.
 
-### -field tomMathLMargin
+### -field tomMathLMargin:0x81
 
 Left margin for display math.
 
-### -field tomMathRMargin
+### -field tomMathRMargin:0x82
 
 Right margin for display math.
 
-### -field tomMathWrapIndent
+### -field tomMathWrapIndent:0x83
 
 Equation wrap indent for display math.
 
-### -field tomMathWrapRight
+### -field tomMathWrapRight:0x84
 
 Equation right wrap indent for display math (in a left-to-right (LTR) math zone).
 
-### -field tomMathPostSpace
+### -field tomMathPostSpace:0x86
 
 Space after a display math equation.
 
-### -field tomMathPreSpace
+### -field tomMathPreSpace:0x85
 
 Space before a display math equation.
 
-### -field tomMathInterSpace
+### -field tomMathInterSpace:0x87
 
 Space between equations in math paragraphs.
 
-### -field tomMathIntraSpace
+### -field tomMathIntraSpace:0x88
 
 Space between lines in a display math equation.
 
-### -field tomCanCopy
+### -field tomCanCopy:0x89
 
 Indicates whether data can be copied to the clipboard.
 
-### -field tomCanRedo
+### -field tomCanRedo:0x8a
 
 Indicates whether one or more redo operations exist.
 
-### -field tomCanUndo
+### -field tomCanUndo:0x8b
 
 Indicates whether one or more undo operations exist.
 
-### -field tomUndoLimit
+### -field tomUndoLimit:0x8c
 
 The undo stack count limit.
 
-### -field tomDocAutoLink
+### -field tomDocAutoLink:0x8d
 
 A document automatic link.
 
-### -field tomEllipsisMode
+### -field tomEllipsisMode:0x8e
 
 The ellipsis mode.
 
-### -field tomEllipsisState
+### -field tomEllipsisState:0x8f
 
 The ellipsis state.
 
-### -field tomEllipsisNone
+### -field tomEllipsisNone:0
 
 Ellipsis is disabled.
 
-### -field tomEllipsisEnd
+### -field tomEllipsisEnd:1
 
 An ellipsis forces a break anywhere in the line.
 
-### -field tomEllipsisWord
+### -field tomEllipsisWord:3
 
 An ellipsis forces a break between words.
 
-### -field tomEllipsisPresent
+### -field tomEllipsisPresent:1
 
 Ellipsis is present.
 
-### -field tomVTopCell
+### -field tomVTopCell:1
 
 The top cell in vertically merged cell set.
 
-### -field tomVLowCell
+### -field tomVLowCell:2
 
 Any cell except the top cell in a vertically merged cell set.
 
-### -field tomHStartCell
+### -field tomHStartCell:4
 
 Start a cell in a horizontally merged cell set.
 
-### -field tomHContCell
+### -field tomHContCell:8
 
 Any cell except the start in a horizontally merged cell set.
 
-### -field tomRowUpdate
+### -field tomRowUpdate:1
 
 Update the row to have the properties of the table row identified by the associated text range.
 
-### -field tomRowApplyDefault
+### -field tomRowApplyDefault:0
 
-### -field tomCellStructureChangeOnly
+### -field tomCellStructureChangeOnly:1
 
 Changes cell width(s) or cell count (for changing column widths and inserting/deleting columns without changing cell border properties, and so forth.)
 
-### -field tomRowHeightActual
+### -field tomRowHeightActual:0x80b
 
 The actual height of a table row.
 

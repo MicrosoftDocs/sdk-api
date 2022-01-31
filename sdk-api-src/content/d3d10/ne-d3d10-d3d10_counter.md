@@ -54,7 +54,7 @@ Performance counter types.
 
 ## -enum-fields
 
-### -field D3D10_COUNTER_GPU_IDLE
+### -field D3D10_COUNTER_GPU_IDLE:0
 
 Percentage of the time that the GPU is idle.
 
@@ -126,7 +126,7 @@ Percentage of vertex data that was read from the vertex cache. For example, if 6
 
 Percentage of texel data that was read from the vertex cache. For example, if 6 texels were added to the cache and 3 of them were read from the cache, then the hit rate would be 0.5.
 
-### -field D3D10_COUNTER_DEVICE_DEPENDENT_0
+### -field D3D10_COUNTER_DEVICE_DEPENDENT_0:0x40000000
 
 Start of the device-dependent counters. See remarks.
 

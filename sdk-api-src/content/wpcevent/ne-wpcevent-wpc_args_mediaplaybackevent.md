@@ -56,7 +56,7 @@ Indicates information about the playback of a media file.
 
 ## -enum-fields
 
-### -field WPC_ARGS_MEDIAPLAYBACKEVENT_APPNAME
+### -field WPC_ARGS_MEDIAPLAYBACKEVENT_APPNAME:0
 
 The name of the application used to play back a media file.
 

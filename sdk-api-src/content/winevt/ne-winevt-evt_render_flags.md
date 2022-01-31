@@ -56,7 +56,7 @@ Defines the values that specify what to render.
 
 ## -enum-fields
 
-### -field EvtRenderEventValues
+### -field EvtRenderEventValues:0
 
 Render the event properties specified in the rendering context.
 

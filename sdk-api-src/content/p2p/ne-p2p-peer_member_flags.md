@@ -56,7 +56,7 @@ The <b>PEER_MEMBER_FLAGS</b> flag allows an application to specify whether all m
 
 ## -enum-fields
 
-### -field PEER_MEMBER_PRESENT
+### -field PEER_MEMBER_PRESENT:0x0001
 
 The member is present in the peer group.
 

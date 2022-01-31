@@ -56,11 +56,11 @@ Describes whether a reference represented by the <a href="/previous-versions/win
 
 ## -enum-fields
 
-### -field OPC_RELATIONSHIP_SIGN_USING_SELECTORS
+### -field OPC_RELATIONSHIP_SIGN_USING_SELECTORS:0
 
 The reference refers to a subset of relationships represented as relationship objects and identified using the <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipselectorset">IOpcRelationshipSelectorSet</a> interface.
 
-### -field OPC_RELATIONSHIP_SIGN_PART
+### -field OPC_RELATIONSHIP_SIGN_PART:1
 
 The reference refers to all of the relationships represented as relationship objects in the relationship set object.
 

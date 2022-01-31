@@ -58,19 +58,19 @@ Defines values that indicate the current state of the write operation when using
 
 ## -enum-fields
 
-### -field IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_UNKNOWN
+### -field IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_UNKNOWN:0
 
 Indicates an unknown state.
 
-### -field IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_PREPARING
+### -field IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_PREPARING:0x1
 
 Preparing to write the session.
 
-### -field IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_WRITING
+### -field IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_WRITING:0x2
 
 Writing session data.
 
-### -field IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_FINISHING
+### -field IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_FINISHING:0x3
 
 Synchronizing the drive's cache with the end of the data written to disc.
 

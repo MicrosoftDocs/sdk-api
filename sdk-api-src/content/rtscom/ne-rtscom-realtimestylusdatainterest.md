@@ -54,79 +54,79 @@ Defines the values used by plug-ins to specify which event notifications the plu
 
 ## -enum-fields
 
-### -field RTSDI_AllData
+### -field RTSDI_AllData:0xffffffff
 
 The plug-in receives notifications for all stylus data.
 
-### -field RTSDI_None
+### -field RTSDI_None:0
 
 The plug-in receives no notifications for any stylus data.
 
-### -field RTSDI_Error
+### -field RTSDI_Error:0x1
 
 An error has been added to the input queue.
 
-### -field RTSDI_RealTimeStylusEnabled
+### -field RTSDI_RealTimeStylusEnabled:0x2
 
 The <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object has been enabled.
 
-### -field RTSDI_RealTimeStylusDisabled
+### -field RTSDI_RealTimeStylusDisabled:0x4
 
 The <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object has been disabled.
 
-### -field RTSDI_StylusNew
+### -field RTSDI_StylusNew:0x8
 
 A <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object encounters a new Stylus object.
 
-### -field RTSDI_StylusInRange
+### -field RTSDI_StylusInRange:0x10
 
 The Stylus object is in range of the digitizer. Notifies the implementing plug-in that the stylus is entering the input area of the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object or is entering the detection range of the digitizer above the input area of the <b>RealTimeStylus Class</b> object.
 
-### -field RTSDI_InAirPackets
+### -field RTSDI_InAirPackets:0x20
 
 The <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object is within range of, but not touching, the digitizer and is moving.
 
-### -field RTSDI_StylusOutOfRange
+### -field RTSDI_StylusOutOfRange:0x40
 
 The <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object is out of range of the digitizer. Informs the implementing plug-in that the stylus is leaving the input area of the <b>RealTimeStylus Class</b> object or is leaving the detection range of the digitizer above the input area of the <b>RealTimeStylus Class</b> object.
 
-### -field RTSDI_StylusDown
+### -field RTSDI_StylusDown:0x80
 
 The stylus is in contact with the digitizer.
 
-### -field RTSDI_Packets
+### -field RTSDI_Packets:0x100
 
 The stylus is moving and is in contact with the digitizer.
 
-### -field RTSDI_StylusUp
+### -field RTSDI_StylusUp:0x200
 
 The stylus has broken physical contact with the digitizer.
 
-### -field RTSDI_StylusButtonUp
+### -field RTSDI_StylusButtonUp:0x400
 
 A user has released a stylus button.
 
-### -field RTSDI_StylusButtonDown
+### -field RTSDI_StylusButtonDown:0x800
 
 A user has pressed a stylus button.
 
-### -field RTSDI_SystemEvents
+### -field RTSDI_SystemEvents:0x1000
 
 A system event has been detected.
 
-### -field RTSDI_TabletAdded
+### -field RTSDI_TabletAdded:0x2000
 
 A new tablet device has been detected by the system. Notifies the implementing plug-in when a Microsoft.Ink.Tablet object is added to the system.
 
-### -field RTSDI_TabletRemoved
+### -field RTSDI_TabletRemoved:0x4000
 
 A tablet device has been removed from the system. Notifies the implementing plug-in when a Microsoft.Ink.Tablet object is removed from the system.
 
-### -field RTSDI_CustomStylusDataAdded
+### -field RTSDI_CustomStylusDataAdded:0x8000
 
 A plug-in has added data to a queue. You can identify the kind of custom data by either the GUID or Type.
 
-### -field RTSDI_UpdateMapping
+### -field RTSDI_UpdateMapping:0x10000
 
 A tablet mapping to the screen has been changed or set.
 

@@ -55,15 +55,15 @@ The <b>ItemDataPosition</b> enumeration is used to specify the location of custo
 
 ## -enum-fields
 
-### -field ItemDataPositionAfterHeader
+### -field ItemDataPositionAfterHeader:0x0
 
 Specifies that custom metadata is stored after the file header. Valid for JPEG, PNG, and GIF.
 
-### -field ItemDataPositionAfterPalette
+### -field ItemDataPositionAfterPalette:0x1
 
 Specifies that custom metadata is stored after the palette. Valid for PNG.
 
-### -field ItemDataPositionAfterBits
+### -field ItemDataPositionAfterBits:0x2
 
 Specifies that custom metadata is stored after the pixel data. Valid for GIF and PNG.
 

@@ -57,7 +57,7 @@ The <b>MBN_DEVICE_SERVICES_INTERFACE_STATE</b> structure provides information ab
 
 ## -enum-fields
 
-### -field MBN_DEVICE_SERVICES_CAPABLE_INTERFACE_ARRIVAL
+### -field MBN_DEVICE_SERVICES_CAPABLE_INTERFACE_ARRIVAL:0
 
 A Mobile Broadband device capable of supporting device service functionality has arrived.
 

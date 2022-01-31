@@ -54,7 +54,7 @@ Specifies which resource heap tier the hardware and driver support.
 
 ## -enum-fields
 
-### -field D3D12_RESOURCE_HEAP_TIER_1
+### -field D3D12_RESOURCE_HEAP_TIER_1:1
 
 Indicates that heaps can only support resources from a single resource category.
             For the list of resource categories, see Remarks.
@@ -62,7 +62,7 @@ Indicates that heaps can only support resources from a single resource category.
             The resource category must be declared when creating a heap, using the correct <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_flags">D3D12_HEAP_FLAGS</a> enumeration constant.
             Applications cannot create heaps with flags that allow all three categories.
 
-### -field D3D12_RESOURCE_HEAP_TIER_2
+### -field D3D12_RESOURCE_HEAP_TIER_2:2
 
 Indicates that heaps can support resources from all three categories.
             For the list of resource categories, see Remarks.

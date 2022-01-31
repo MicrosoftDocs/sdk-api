@@ -58,7 +58,7 @@ The <b>REPAIR_SCOPE</b> enumeration describes the scope of modification for a gi
 
 ## -enum-fields
 
-### -field RS_SYSTEM
+### -field RS_SYSTEM:0
 
 The repair effect is system-wide.
 

@@ -54,15 +54,15 @@ Callback flags for canceling data fetching for a placeholder file or folder.
 
 ## -enum-fields
 
-### -field CF_CALLBACK_CANCEL_FLAG_NONE
+### -field CF_CALLBACK_CANCEL_FLAG_NONE:0x00000000
 
 No cancel flag.
 
-### -field CF_CALLBACK_CANCEL_FLAG_IO_TIMEOUT
+### -field CF_CALLBACK_CANCEL_FLAG_IO_TIMEOUT:0x00000001
 
 Flag to be set if the user request is cancelled as a result of the expiration of the 60 second timer.
 
-### -field CF_CALLBACK_CANCEL_FLAG_IO_ABORTED
+### -field CF_CALLBACK_CANCEL_FLAG_IO_ABORTED:0x00000002
 
 Flag to be set if the user request is cancelled as a result of the user explicitly terminating the hydration from app-initiated download toast.
 

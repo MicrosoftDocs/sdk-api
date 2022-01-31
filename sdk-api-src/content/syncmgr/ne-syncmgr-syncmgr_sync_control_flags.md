@@ -54,15 +54,15 @@ Indicates flags used by <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmg
 
 ## -enum-fields
 
-### -field SYNCMGR_SCF_NONE
+### -field SYNCMGR_SCF_NONE:0
 
 Sync all items, regardless of whether they were just synced.
 
-### -field SYNCMGR_SCF_IGNORE_IF_ALREADY_SYNCING
+### -field SYNCMGR_SCF_IGNORE_IF_ALREADY_SYNCING:0x1
 
 Sync only items that are not currently syncing.
 
-### -field SYNCMGR_SCF_VALID
+### -field SYNCMGR_SCF_VALID:0x1
 
 A mask used to retrieve or verify valid <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_sync_control_flags">SYNCMGR_SYNC_CONTROL_FLAGS</a> flags.
 

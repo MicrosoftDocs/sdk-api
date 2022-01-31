@@ -56,7 +56,7 @@ Defines the values that specify the type of time stamp to use when logging event
 
 ## -enum-fields
 
-### -field EvtChannelClockTypeSystemTime
+### -field EvtChannelClockTypeSystemTime:0
 
 Uses the system time for the time stamp. The system time provides a low-resolution (10 milliseconds) time stamp but is comparatively less expensive to retrieve. System time is the default. 
 

@@ -54,15 +54,15 @@ Specifies the rate at which the video processor produces output frames from an i
 
 ## -enum-fields
 
-### -field D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_NORMAL
+### -field D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_NORMAL:0
 
 The output is the normal frame rate.
 
-### -field D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_HALF
+### -field D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_HALF:1
 
 The output is half the frame rate.
 
-### -field D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM
+### -field D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM:2
 
 The output is a custom frame rate.
 

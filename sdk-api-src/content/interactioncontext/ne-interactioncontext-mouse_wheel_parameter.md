@@ -54,31 +54,31 @@ Specifies the manipulations that can be mapped to mouse wheel rotation.
 
 ## -enum-fields
 
-### -field MOUSE_WHEEL_PARAMETER_CHAR_TRANSLATION_X
+### -field MOUSE_WHEEL_PARAMETER_CHAR_TRANSLATION_X:0x00000001
 
 Scrolling/panning distance along the x-axis.
 
-### -field MOUSE_WHEEL_PARAMETER_CHAR_TRANSLATION_Y
+### -field MOUSE_WHEEL_PARAMETER_CHAR_TRANSLATION_Y:0x00000002
 
 Scrolling/panning distance along the y-axis.
 
-### -field MOUSE_WHEEL_PARAMETER_DELTA_SCALE
+### -field MOUSE_WHEEL_PARAMETER_DELTA_SCALE:0x00000003
 
 The relative change in scale, as a multiplier, since the last input message.
 
-### -field MOUSE_WHEEL_PARAMETER_DELTA_ROTATION
+### -field MOUSE_WHEEL_PARAMETER_DELTA_ROTATION:0x00000004
 
 The relative change in rotation, in radians, since the last input message.
 
-### -field MOUSE_WHEEL_PARAMETER_PAGE_TRANSLATION_X
+### -field MOUSE_WHEEL_PARAMETER_PAGE_TRANSLATION_X:0x00000005
 
 Paging distance along the x-axis.
 
-### -field MOUSE_WHEEL_PARAMETER_PAGE_TRANSLATION_Y
+### -field MOUSE_WHEEL_PARAMETER_PAGE_TRANSLATION_Y:0x00000006
 
 Paging distance along the y-axis.
 
-### -field MOUSE_WHEEL_PARAMETER_MAX
+### -field MOUSE_WHEEL_PARAMETER_MAX:0xffffffff
 
 Maximum number of interactions exceeded.
 

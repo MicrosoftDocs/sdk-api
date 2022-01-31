@@ -37,19 +37,19 @@ Defines constants that specify parameters for startup.
 
 ## -enum-fields
 
-### -field GdiplusStartupDefault
+### -field GdiplusStartupDefault:0
 
 Specfies default startup.
 
-### -field GdiplusStartupNoSetRound
+### -field GdiplusStartupNoSetRound:1
 
 Specifies no set round for startup.
 
-### -field GdiplusStartupSetPSValue
+### -field GdiplusStartupSetPSValue:2
 
 Specifies a pixel shader value for startup.
 
-### -field GdiplusStartupTransparencyMask
+### -field GdiplusStartupTransparencyMask:0xFF000000
 
 Specifies a transparency mask for startup.
 

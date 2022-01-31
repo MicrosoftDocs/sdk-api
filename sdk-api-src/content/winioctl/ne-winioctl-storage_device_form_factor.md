@@ -57,7 +57,7 @@ Specifies the form factor of a device.
 
 ## -enum-fields
 
-### -field FormFactorUnknown
+### -field FormFactorUnknown:0
 
 ### -field FormFactor3_5
 

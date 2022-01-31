@@ -54,11 +54,11 @@ Specifies values that identify whether the font size of a highlighted text run s
 
 ## -enum-fields
 
-### -field UI_FONTDELTASIZE_GROW
+### -field UI_FONTDELTASIZE_GROW:0
 
 Increment the font size.
 
-### -field UI_FONTDELTASIZE_SHRINK
+### -field UI_FONTDELTASIZE_SHRINK:1
 
 Decrement the font size.
 

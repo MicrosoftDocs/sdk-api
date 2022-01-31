@@ -54,7 +54,7 @@ Used to determine which kinds of command lists are capable of supporting various
 
 ## -enum-fields
 
-### -field D3D12_COMMAND_LIST_SUPPORT_FLAG_NONE
+### -field D3D12_COMMAND_LIST_SUPPORT_FLAG_NONE:0
 
 Specifies that no command list supports the operation in question.
 

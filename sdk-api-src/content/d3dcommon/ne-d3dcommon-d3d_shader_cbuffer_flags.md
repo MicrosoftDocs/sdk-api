@@ -59,7 +59,7 @@ Values that identify the intended use of a constant-data buffer.
 
 ## -enum-fields
 
-### -field D3D_CBF_USERPACKED
+### -field D3D_CBF_USERPACKED:1
 
 Bind the constant buffer to an input slot defined in HLSL code (instead of letting the compiler choose the input slot).
 
@@ -67,7 +67,7 @@ Bind the constant buffer to an input slot defined in HLSL code (instead of letti
 
 Bind the constant buffer to an input slot defined in HLSL code (instead of letting the compiler choose the input slot).
 
-### -field D3D_CBF_FORCE_DWORD
+### -field D3D_CBF_FORCE_DWORD:0x7fffffff
 
 This value is not used by a programmer; it exists to force the enumeration to compile to 32 bits.
 

@@ -54,17 +54,17 @@ Identifiers for properties of the <a href="/windows/desktop/Direct2D/straighten-
 
 ## -enum-fields
 
-### -field D2D1_STRAIGHTEN_PROP_ANGLE
+### -field D2D1_STRAIGHTEN_PROP_ANGLE:0
 
 The D2D1_STRAIGHTEN_PROP_ANGLE property is a float value that specifies how much the image should be rotated.  The allowed range is -45.0 to 45.0.  The default value is 0.0.
 
-### -field D2D1_STRAIGHTEN_PROP_MAINTAIN_SIZE
+### -field D2D1_STRAIGHTEN_PROP_MAINTAIN_SIZE:1
 
 The D2D1_STRAIGHTEN_PROP_MAINTAIN_SIZE property is a boolean value that specifies whether the image will be scaled such that the original size is maintained without any invalid regions.
           The default value is True.
 
-### -field D2D1_STRAIGHTEN_PROP_SCALE_MODE
+### -field D2D1_STRAIGHTEN_PROP_SCALE_MODE:2
 
 The D2D1_STRAIGHTEN_PROP_SCALE_MODE property is a <a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_straighten_scale_mode">D2D1_STRAIGHTEN_SCALE_MODE</a> enumeration value indicating the scaling mode that should be used.
 
-### -field D2D1_STRAIGHTEN_PROP_FORCE_DWORD
+### -field D2D1_STRAIGHTEN_PROP_FORCE_DWORD:0xffffffff

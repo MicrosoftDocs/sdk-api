@@ -56,35 +56,35 @@ Specifies flags that, when used in a bitwise <b>OR</b> operation, describe the c
 
 ## -enum-fields
 
-### -field DVD_Karaoke_GuideVocal1
+### -field DVD_Karaoke_GuideVocal1:0x1
 
 The channel contains guide vocal 1.
 
-### -field DVD_Karaoke_GuideVocal2
+### -field DVD_Karaoke_GuideVocal2:0x2
 
 The channel contains guide vocal 2.
 
-### -field DVD_Karaoke_GuideMelody1
+### -field DVD_Karaoke_GuideMelody1:0x4
 
 The channel contains guide melody 1.
 
-### -field DVD_Karaoke_GuideMelody2
+### -field DVD_Karaoke_GuideMelody2:0x8
 
 The channel contains guide melody 2.
 
-### -field DVD_Karaoke_GuideMelodyA
+### -field DVD_Karaoke_GuideMelodyA:0x10
 
 The channel contains guide melody A.
 
-### -field DVD_Karaoke_GuideMelodyB
+### -field DVD_Karaoke_GuideMelodyB:0x20
 
 The channel contains guide melody B.
 
-### -field DVD_Karaoke_SoundEffectA
+### -field DVD_Karaoke_SoundEffectA:0x40
 
 The channel contains sound effect A.
 
-### -field DVD_Karaoke_SoundEffectB
+### -field DVD_Karaoke_SoundEffectB:0x80
 
 The channel contains sound effect B.
 

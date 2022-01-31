@@ -56,31 +56,31 @@ Specifies the opacity of the object and the drawing aspects supported by the obj
 
 ## -enum-fields
 
-### -field VIEWSTATUS_OPAQUE
+### -field VIEWSTATUS_OPAQUE:1
 
 The object is completely opaque. So, for any aspect, it promises to draw the entire rectangle passed to the <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a> method. If this value is not set, the object contains transparent parts. If it also support DVASPECT_TRANSPARENT, then this aspect may be used to draw the transparent parts only.
 
 This bit applies only to CONTENT related aspects and not to DVASPECT_ICON or DVASPECT_DOCPRINT.
 
-### -field VIEWSTATUS_SOLIDBKGND
+### -field VIEWSTATUS_SOLIDBKGND:2
 
 The object has a solid background (consisting in a solid color, not a brush pattern). This bit is meaningful only if VIEWSTATUS_OPAQUE is set.
 
 This bit applies only to CONTENT related aspects and not to DVASPECT_ICON or DVASPECT_DOCPRINT.
 
-### -field VIEWSTATUS_DVASPECTOPAQUE
+### -field VIEWSTATUS_DVASPECTOPAQUE:4
 
 The object supports DVASPECT_OPAQUE. All <a href="/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a> methods taking a drawing aspect as a parameter can be called with this aspect.
 
-### -field VIEWSTATUS_DVASPECTTRANSPARENT
+### -field VIEWSTATUS_DVASPECTTRANSPARENT:8
 
 The object supports DVASPECT_TRANSPARENT. All <a href="/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a> methods taking a drawing aspect as a parameter can be called with this aspect.
 
-### -field VIEWSTATUS_SURFACE
+### -field VIEWSTATUS_SURFACE:16
 
 The object supports a 2-dimensional surface.
 
-### -field VIEWSTATUS_3DSURFACE
+### -field VIEWSTATUS_3DSURFACE:32
 
 The object supports a 3-dimensional surface.
 

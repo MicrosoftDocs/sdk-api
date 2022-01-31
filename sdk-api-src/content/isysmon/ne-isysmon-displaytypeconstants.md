@@ -56,23 +56,23 @@ Determines how the performance counter data is graphed, for example, as a line g
 
 ## -enum-fields
 
-### -field sysmonLineGraph
+### -field sysmonLineGraph:1
 
 Counter values are displayed in a line graph. Each marker on the line graph represents a data value.
 
-### -field sysmonHistogram
+### -field sysmonHistogram:2
 
 Counter values are displayed as a histogram.
 
-### -field sysmonReport
+### -field sysmonReport:3
 
 Counter values are displayed in a report format. Only the current value for each counter is displayed.
 
-### -field sysmonChartArea
+### -field sysmonChartArea:4
 
 Counter values are displayed as a line graph. The area between the line and the x-axis is shaded. You can only use this option if the source of the counter data is a log file.
 
-### -field sysmonChartStackedArea
+### -field sysmonChartStackedArea:5
 
 Counter values are displayed as a line graph. The line graph for each counter is stacked one upon the other. The area between the line and the x-axis or adjacent counter is shaded. You can only use this option if the source of the counter data is a log file.
 

@@ -56,15 +56,15 @@ Defines status flags for the <a href="/windows/desktop/medfound/mf-topology-reso
 
 ## -enum-fields
 
-### -field MF_TOPOLOGY_RESOLUTION_SUCCEEDED
+### -field MF_TOPOLOGY_RESOLUTION_SUCCEEDED:0
 
 The topology was resolved successfully.
 
-### -field MF_OPTIONAL_NODE_REJECTED_MEDIA_TYPE
+### -field MF_OPTIONAL_NODE_REJECTED_MEDIA_TYPE:0x1
 
 An optional topology node was rejected because the topology loader could not find a media type for the connection.
 
-### -field MF_OPTIONAL_NODE_REJECTED_PROTECTED_PROCESS
+### -field MF_OPTIONAL_NODE_REJECTED_PROTECTED_PROCESS:0x2
 
 An optional topology node was rejected because it could not be loaded into a protected process.
 

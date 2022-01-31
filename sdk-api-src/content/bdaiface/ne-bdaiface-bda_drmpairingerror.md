@@ -54,7 +54,7 @@ Specifies the status of a DRM handshake between a tuner and the user's computer.
 
 ## -enum-fields
 
-### -field BDA_DrmPairing_Succeeded
+### -field BDA_DrmPairing_Succeeded:0
 
 The handshake was successful.
 

@@ -56,11 +56,11 @@ Describes the encoding method that is used by the serialization object to produc
 
 ## -enum-fields
 
-### -field OPC_WRITE_DEFAULT
+### -field OPC_WRITE_DEFAULT:0
 
 Use Zip64 encoding. The minimum software version for extracting a package with Zip64 encoding is 4.5.
 
-### -field OPC_WRITE_FORCE_ZIP32
+### -field OPC_WRITE_FORCE_ZIP32:0x1
 
 Force Zip32 encoding. The minimum software version for extracting a package with Zip32 encoding is 2.0.
 

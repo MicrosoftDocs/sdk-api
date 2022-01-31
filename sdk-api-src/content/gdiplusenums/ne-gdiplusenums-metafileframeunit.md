@@ -55,15 +55,15 @@ The <b>MetafileFrameUnit</b> enumeration specifies the unit of measure for a met
 
 ## -enum-fields
 
-### -field MetafileFrameUnitPixel
+### -field MetafileFrameUnitPixel:UnitPixel
 
 Specifies that a unit is 1 pixel.
 
-### -field MetafileFrameUnitPoint
+### -field MetafileFrameUnitPoint:UnitPoint
 
 Specifies that a unit is 1 point.
 
-### -field MetafileFrameUnitInch
+### -field MetafileFrameUnitInch:UnitInch
 
 Specifies that a unit is 1 inch.
 

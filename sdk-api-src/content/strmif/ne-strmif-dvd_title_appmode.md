@@ -56,15 +56,15 @@ Indicates whether a DVD title is a karaoke title. This enumeration is a member o
 
 ## -enum-fields
 
-### -field DVD_AppMode_Not_Specified
+### -field DVD_AppMode_Not_Specified:0
 
 The disc does not provide any application mode information about this title.
 
-### -field DVD_AppMode_Karaoke
+### -field DVD_AppMode_Karaoke:1
 
 Title contains karaoke content.
 
-### -field DVD_AppMode_Other
+### -field DVD_AppMode_Other:3
 
 Title contains a type of content that the <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator Filter</a> does not recognize, so the application should treat the title as a regular DVD-Video title.
 

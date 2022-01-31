@@ -56,11 +56,11 @@ Contains flags that modify the behavior of refresher methods.
 
 ## -enum-fields
 
-### -field WBEM_FLAG_REFRESH_AUTO_RECONNECT
+### -field WBEM_FLAG_REFRESH_AUTO_RECONNECT:0
 
 If the connection is broken, the refresher attempts to reconnect to the provider automatically.
 
-### -field WBEM_FLAG_REFRESH_NO_AUTO_RECONNECT
+### -field WBEM_FLAG_REFRESH_NO_AUTO_RECONNECT:1
 
 If the connection is broken, the refresher does not attempt to reconnect to the provider automatically.
 

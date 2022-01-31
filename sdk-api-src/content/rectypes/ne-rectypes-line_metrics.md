@@ -56,19 +56,19 @@ Represents the lines found in a recognition segment.
 
 ## -enum-fields
 
-### -field LM_BASELINE
+### -field LM_BASELINE:0
 
 Requests baseline metrics. For an example that shows the baseline of a segment, see the Remarks section.
 
-### -field LM_MIDLINE
+### -field LM_MIDLINE:1
 
 Requests midline metrics. For an example that shows the midline of a segment, see the remarks section.
 
-### -field LM_ASCENDER
+### -field LM_ASCENDER:2
 
 Requests ascender metrics. For an example that shows the ascender line of a segment, see the Remarks section.
 
-### -field LM_DESCENDER
+### -field LM_DESCENDER:3
 
 Requests descender metrics. For an example that shows the descender line of a segment, see the Remarks section.
 

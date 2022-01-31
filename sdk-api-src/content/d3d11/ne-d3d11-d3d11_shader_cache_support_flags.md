@@ -54,15 +54,15 @@ Describes the level of support for shader caching in the current graphics driver
 
 ## -enum-fields
 
-### -field D3D11_SHADER_CACHE_SUPPORT_NONE
+### -field D3D11_SHADER_CACHE_SUPPORT_NONE:0
 
 Indicates that the driver does not support shader caching.
 
-### -field D3D11_SHADER_CACHE_SUPPORT_AUTOMATIC_INPROC_CACHE
+### -field D3D11_SHADER_CACHE_SUPPORT_AUTOMATIC_INPROC_CACHE:0x1
 
 Indicates that the driver supports an OS-managed shader cache that stores compiled shaders in memory during the current run of the application.
 
-### -field D3D11_SHADER_CACHE_SUPPORT_AUTOMATIC_DISK_CACHE
+### -field D3D11_SHADER_CACHE_SUPPORT_AUTOMATIC_DISK_CACHE:0x2
 
 Indicates that the driver supports an OS-managed shader cache that stores compiled shaders on disk to accelerate future runs of the application.
 

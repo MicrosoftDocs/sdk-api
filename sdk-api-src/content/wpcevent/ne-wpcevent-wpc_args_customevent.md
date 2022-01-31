@@ -56,7 +56,7 @@ Indicates information about a user-defined event that is not covered by the gene
 
 ## -enum-fields
 
-### -field WPC_ARGS_CUSTOMEVENT_PUBLISHER
+### -field WPC_ARGS_CUSTOMEVENT_PUBLISHER:0
 
 The publisher of the custom event.
 

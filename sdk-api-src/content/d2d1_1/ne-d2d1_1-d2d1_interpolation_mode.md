@@ -78,7 +78,7 @@ Uses anisotropic filtering to sample a pattern according to the transformed shap
 
 Uses a variable size high quality cubic kernel to perform a pre-downscale the image if downscaling is involved in the transform matrix. Then uses the cubic interpolation mode for the final output.
 
-### -field D2D1_INTERPOLATION_MODE_FORCE_DWORD
+### -field D2D1_INTERPOLATION_MODE_FORCE_DWORD:0xffffffff
 
 ## -see-also
 

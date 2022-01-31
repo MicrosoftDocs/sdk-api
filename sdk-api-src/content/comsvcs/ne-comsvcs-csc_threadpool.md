@@ -56,7 +56,7 @@ Indicates the thread pool in which the work runs that is submitted through the a
 
 ## -enum-fields
 
-### -field CSC_ThreadPoolNone
+### -field CSC_ThreadPoolNone:0
 
 No thread pool is used. If this value is used to configure a <a href="/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> object that is passed to <a href="/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a>, an error (CO_E_THREADPOOL_CONFIG) is returned. This is the default thread pool setting for <b>CServiceConfig</b> when <a href="/windows/desktop/api/comsvcs/ne-comsvcs-csc_inheritanceconfig">CSC_InheritanceConfig</a> is set to CSC_Ignore.
 

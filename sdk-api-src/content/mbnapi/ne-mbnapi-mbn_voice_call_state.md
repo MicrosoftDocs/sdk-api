@@ -57,7 +57,7 @@ The <b>MBN_VOICE_CALL_STATE</b> enumerated type specifies the current voice call
 
 ## -enum-fields
 
-### -field MBN_VOICE_CALL_STATE_NONE
+### -field MBN_VOICE_CALL_STATE_NONE:0
 
 Voice call state is unknown.
 

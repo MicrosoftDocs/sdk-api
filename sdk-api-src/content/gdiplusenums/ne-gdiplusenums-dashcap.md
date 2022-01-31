@@ -55,15 +55,15 @@ The <b>DashCap</b> enumeration specifies the type of graphic shape to use on bot
 
 ## -enum-fields
 
-### -field DashCapFlat
+### -field DashCapFlat:0
 
 Specifies a square cap that squares off both ends of each dash.
 
-### -field DashCapRound
+### -field DashCapRound:2
 
 Specifies a circular cap that rounds off both ends of each dash.
 
-### -field DashCapTriangle
+### -field DashCapTriangle:3
 
 Specifies a triangular cap that points both ends of each dash.
 

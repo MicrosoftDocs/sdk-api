@@ -56,11 +56,11 @@ Contains flags that are used to configure the Microsoft DirectShow enhanced vide
 
 ## -enum-fields
 
-### -field EVRFilterConfigPrefs_EnableQoS
+### -field EVRFilterConfigPrefs_EnableQoS:0x1
 
 Enables dynamic adjustments to video quality during playback.
 
-### -field EVRFilterConfigPrefs_Mask
+### -field EVRFilterConfigPrefs_Mask:0x1
 
 The bitmask of valid flag values. This constant is not itself a valid flag.
 

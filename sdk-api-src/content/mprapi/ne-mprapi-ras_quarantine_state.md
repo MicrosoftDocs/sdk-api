@@ -57,19 +57,19 @@ The
 
 ## -enum-fields
 
-### -field RAS_QUAR_STATE_NORMAL
+### -field RAS_QUAR_STATE_NORMAL:0
 
 The connection state is normal.
 
-### -field RAS_QUAR_STATE_QUARANTINE
+### -field RAS_QUAR_STATE_QUARANTINE:1
 
 The connection is quarantined.
 
-### -field RAS_QUAR_STATE_PROBATION
+### -field RAS_QUAR_STATE_PROBATION:2
 
 The connection is in probation.
 
-### -field RAS_QUAR_STATE_NOT_CAPABLE
+### -field RAS_QUAR_STATE_NOT_CAPABLE:3
 
 The connection state is unknown.
 

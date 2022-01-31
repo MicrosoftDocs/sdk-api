@@ -54,23 +54,23 @@ The <code>DMO_OUTPUT_STREAM_INFO_FLAGS</code> enumeration defines flags that des
 
 ## -enum-fields
 
-### -field DMO_OUTPUT_STREAMF_WHOLE_SAMPLES
+### -field DMO_OUTPUT_STREAMF_WHOLE_SAMPLES:0x1
 
 The stream contains whole samples. Samples do not span multiple buffers, and buffers do not contain partial samples.
 
-### -field DMO_OUTPUT_STREAMF_SINGLE_SAMPLE_PER_BUFFER
+### -field DMO_OUTPUT_STREAMF_SINGLE_SAMPLE_PER_BUFFER:0x2
 
 Each buffer contains exactly one sample.
 
-### -field DMO_OUTPUT_STREAMF_FIXED_SAMPLE_SIZE
+### -field DMO_OUTPUT_STREAMF_FIXED_SAMPLE_SIZE:0x4
 
 All the samples in this stream are the same size.
 
-### -field DMO_OUTPUT_STREAMF_DISCARDABLE
+### -field DMO_OUTPUT_STREAMF_DISCARDABLE:0x8
 
 The stream is discardable. Within calls to <a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processoutput">IMediaObject::ProcessOutput</a>, the DMO can discard data for this stream without copying it to an output buffer.
 
-### -field DMO_OUTPUT_STREAMF_OPTIONAL
+### -field DMO_OUTPUT_STREAMF_OPTIONAL:0x10
 
 The stream is optional. An optional stream is discardable. Also, the application can ignore this stream entirely; it does not have to set the media type for the stream. Optional streams generally contain additional information, or data not needed by all applications.
 

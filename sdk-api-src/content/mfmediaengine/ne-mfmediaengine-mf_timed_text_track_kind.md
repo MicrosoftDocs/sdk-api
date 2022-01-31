@@ -54,19 +54,19 @@ Specifies the kind of timed text track.
 
 ## -enum-fields
 
-### -field MF_TIMED_TEXT_TRACK_KIND_UNKNOWN
+### -field MF_TIMED_TEXT_TRACK_KIND_UNKNOWN:0
 
 The kind of timed text track is unknown.
 
-### -field MF_TIMED_TEXT_TRACK_KIND_SUBTITLES
+### -field MF_TIMED_TEXT_TRACK_KIND_SUBTITLES:1
 
 The kind of timed text track is subtitles.
 
-### -field MF_TIMED_TEXT_TRACK_KIND_CAPTIONS
+### -field MF_TIMED_TEXT_TRACK_KIND_CAPTIONS:2
 
 The kind of timed text track is closed captions.
 
-### -field MF_TIMED_TEXT_TRACK_KIND_METADATA
+### -field MF_TIMED_TEXT_TRACK_KIND_METADATA:3
 
 The kind of timed text track is metadata.
 

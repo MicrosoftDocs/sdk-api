@@ -54,13 +54,13 @@ Specifies a value for the SVG visibility property.
 
 ## -enum-fields
 
-### -field D2D1_SVG_VISIBILITY_VISIBLE
+### -field D2D1_SVG_VISIBILITY_VISIBLE:0
 
 The element is visible.
 
-### -field D2D1_SVG_VISIBILITY_HIDDEN
+### -field D2D1_SVG_VISIBILITY_HIDDEN:1
 
 The element is invisible.
 
-### -field D2D1_SVG_VISIBILITY_FORCE_DWORD
+### -field D2D1_SVG_VISIBILITY_FORCE_DWORD:0xffffffff
 

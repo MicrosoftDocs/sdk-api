@@ -56,7 +56,7 @@ Represents the options for the concurrency conflict resolution policy to use for
 
 ## -enum-fields
 
-### -field CRP_NONE
+### -field CRP_NONE:0
 
 The change applier notifies the synchronization application of each conflict as it occurs, by using the <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isynccallback-onconflict">ISyncCallback::OnConflict</a> method. The application examines the conflicting items and specifies the conflict resolution action by calling <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeconflict-setresolveactionforchange">IChangeConflict::SetResolveActionForChange</a> or <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeconflict-setresolveactionforchangeunit">IChangeConflict::SetResolveActionForChangeUnit</a>.
 

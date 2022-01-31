@@ -56,19 +56,19 @@ Specifies the video mode of operation for a video device.
 
 ## -enum-fields
 
-### -field VideoControlFlag_FlipHorizontal
+### -field VideoControlFlag_FlipHorizontal:0x1
 
 Specifies that the picture is flipped horizontally.
 
-### -field VideoControlFlag_FlipVertical
+### -field VideoControlFlag_FlipVertical:0x2
 
 Specifies that the picture is flipped vertically.
 
-### -field VideoControlFlag_ExternalTriggerEnable
+### -field VideoControlFlag_ExternalTriggerEnable:0x4
 
 Sets up a stream to capture a trigger from an external source, for example, a push button on a camera. Buffers can be queued to the driver but will not be passed up from the WDM capture driver (for compression, display, or writing to a file) until the external event happens. See Remarks.
 
-### -field VideoControlFlag_Trigger
+### -field VideoControlFlag_Trigger:0x8
 
 In software, simulates an external trigger when the stream has the VideoControlFlag_ExternalTriggerEnable flag set.
 

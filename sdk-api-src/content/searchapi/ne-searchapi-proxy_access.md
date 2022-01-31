@@ -56,7 +56,7 @@ Used by <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchmanager">ISe
 
 ## -enum-fields
 
-### -field PROXY_ACCESS_PRECONFIG
+### -field PROXY_ACCESS_PRECONFIG:0
 
 Use proxy as set by Internet settings.
 

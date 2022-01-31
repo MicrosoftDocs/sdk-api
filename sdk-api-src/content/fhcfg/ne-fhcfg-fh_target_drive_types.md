@@ -56,19 +56,19 @@ Specifies the type of a File History backup target.
 
 ## -enum-fields
 
-### -field FH_DRIVE_UNKNOWN
+### -field FH_DRIVE_UNKNOWN:0
 
 The type of the backup target is unknown.
 
-### -field FH_DRIVE_REMOVABLE
+### -field FH_DRIVE_REMOVABLE:2
 
 The backup target is a locally attached removable storage device, such as a USB thumb drive.
 
-### -field FH_DRIVE_FIXED
+### -field FH_DRIVE_FIXED:3
 
 The backup target is a locally attached nonremovable storage device, such as an internal hard drive.
 
-### -field FH_DRIVE_REMOTE
+### -field FH_DRIVE_REMOTE:4
 
 The backup target is a storage device that is accessible over network, such as a computer that is running Windows Home Server.
 

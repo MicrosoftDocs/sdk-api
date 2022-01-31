@@ -54,12 +54,12 @@ Specifies the alpha mode of the output of the <a href="/windows/desktop/Direct2D
 
 ## -enum-fields
 
-### -field D2D1_BITMAPSOURCE_ALPHA_MODE_PREMULTIPLIED
+### -field D2D1_BITMAPSOURCE_ALPHA_MODE_PREMULTIPLIED:1
 
 The effect output uses premultiplied alpha.
 
-### -field D2D1_BITMAPSOURCE_ALPHA_MODE_STRAIGHT
+### -field D2D1_BITMAPSOURCE_ALPHA_MODE_STRAIGHT:2
 
 The effect output uses straight alpha.
 
-### -field D2D1_BITMAPSOURCE_ALPHA_MODE_FORCE_DWORD
+### -field D2D1_BITMAPSOURCE_ALPHA_MODE_FORCE_DWORD:0xffffffff

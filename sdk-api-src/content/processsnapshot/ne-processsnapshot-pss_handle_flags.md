@@ -54,23 +54,23 @@ Flags to specify what parts of a <a href="/previous-versions/windows/desktop/api
 
 ## -enum-fields
 
-### -field PSS_HANDLE_NONE
+### -field PSS_HANDLE_NONE:0x00
 
 No parts specified.
 
-### -field PSS_HANDLE_HAVE_TYPE
+### -field PSS_HANDLE_HAVE_TYPE:0x01
 
 The <b>ObjectType</b> member is valid.
 
-### -field PSS_HANDLE_HAVE_NAME
+### -field PSS_HANDLE_HAVE_NAME:0x02
 
 The <b>ObjectName</b> member is valid.
 
-### -field PSS_HANDLE_HAVE_BASIC_INFORMATION
+### -field PSS_HANDLE_HAVE_BASIC_INFORMATION:0x04
 
 The <b>Attributes</b>, <b>GrantedAccess</b>, <b>HandleCount</b>, <b>PointerCount</b>, <b>PagedPoolCharge</b>, and <b>NonPagedPoolCharge</b> members are valid.
 
-### -field PSS_HANDLE_HAVE_TYPE_SPECIFIC_INFORMATION
+### -field PSS_HANDLE_HAVE_TYPE_SPECIFIC_INFORMATION:0x08
 
 The <b>TypeSpecificInformation</b> member is valid (either <b>Process</b>, <b>Thread</b>, <b>Mutant</b>, <b>Event</b> or <b>Section</b>).
 

@@ -58,7 +58,7 @@ Indicates the closed caption decoder level.
 
 ## -enum-fields
 
-### -field AM_L21_CCLEVEL_TC2
+### -field AM_L21_CCLEVEL_TC2:0
 
 TeleCaption II.
 

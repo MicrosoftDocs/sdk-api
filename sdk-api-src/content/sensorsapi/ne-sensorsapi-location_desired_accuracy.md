@@ -54,7 +54,7 @@ The <b>LOCATION_DESIRED_ACCURACY </b> enumeration type defines values for the <a
 
 ## -enum-fields
 
-### -field LOCATION_DESIRED_ACCURACY_DEFAULT
+### -field LOCATION_DESIRED_ACCURACY_DEFAULT:0
 
 Indicates that the sensor should use the accuracy for which it can optimize power and other such cost considerations.
 

@@ -54,6 +54,6 @@ The type of <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_writ
 
 ## -enum-fields
 
-### -field WS_XML_WRITER_OUTPUT_TYPE_BUFFER
+### -field WS_XML_WRITER_OUTPUT_TYPE_BUFFER:1
 
-### -field WS_XML_WRITER_OUTPUT_TYPE_STREAM
+### -field WS_XML_WRITER_OUTPUT_TYPE_STREAM:2

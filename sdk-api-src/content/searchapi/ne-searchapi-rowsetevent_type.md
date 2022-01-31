@@ -56,15 +56,15 @@ Describes the type of change to the rowset's data.
 
 ## -enum-fields
 
-### -field ROWSETEVENT_TYPE_DATAEXPIRED
+### -field ROWSETEVENT_TYPE_DATAEXPIRED:0
 
 Indicates that data backing the rowset has expired, and that a new rowset should be requested.
 
-### -field ROWSETEVENT_TYPE_FOREGROUNDLOST
+### -field ROWSETEVENT_TYPE_FOREGROUNDLOST:1
 
 Indicates that an item that did have foreground priority in the prioritization stack has been demoted, because someone else prioritized themselves ahead of this query.
 
-### -field ROWSETEVENT_TYPE_SCOPESTATISTICS
+### -field ROWSETEVENT_TYPE_SCOPESTATISTICS:2
 
 Indicates that the scope statistics are to be obtained.
 

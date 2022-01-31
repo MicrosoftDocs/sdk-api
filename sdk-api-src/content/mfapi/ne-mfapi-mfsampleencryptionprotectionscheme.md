@@ -53,15 +53,15 @@ Specifies the supported protection schemes for encrypted samples.
 
 ## -enum-fields
 
-### -field MF_SAMPLE_ENCRYPTION_PROTECTION_SCHEME_NONE
+### -field MF_SAMPLE_ENCRYPTION_PROTECTION_SCHEME_NONE:0
 
 No encryption scheme.
 
-### -field MF_SAMPLE_ENCRYPTION_PROTECTION_SCHEME_AES_CTR
+### -field MF_SAMPLE_ENCRYPTION_PROTECTION_SCHEME_AES_CTR:1
 
 The encryption scheme is AES counter mode (CTR).
 
-### -field MF_SAMPLE_ENCRYPTION_PROTECTION_SCHEME_AES_CBC
+### -field MF_SAMPLE_ENCRYPTION_PROTECTION_SCHEME_AES_CBC:2
 
 The encryption scheme is Cipher Block Chaining (CBC).
 

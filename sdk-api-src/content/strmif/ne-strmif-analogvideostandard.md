@@ -56,85 +56,85 @@ The <b>AnalogVideoStandard</b> enumeration specifies the format of an analog tel
 
 ## -enum-fields
 
-### -field AnalogVideo_None
+### -field AnalogVideo_None:0
 
 Digital sensor.
 
-### -field AnalogVideo_NTSC_M
+### -field AnalogVideo_NTSC_M:0x1
 
 NTSC (M) standard, 7.5 IRE black.
 
-### -field AnalogVideo_NTSC_M_J
+### -field AnalogVideo_NTSC_M_J:0x2
 
 NTSC (M) standard, 0 IRE black (Japan).
 
-### -field AnalogVideo_NTSC_433
+### -field AnalogVideo_NTSC_433:0x4
 
 NTSC-433.
 
-### -field AnalogVideo_PAL_B
+### -field AnalogVideo_PAL_B:0x10
 
 PAL-B standard.
 
-### -field AnalogVideo_PAL_D
+### -field AnalogVideo_PAL_D:0x20
 
 PAL (D) standard.
 
-### -field AnalogVideo_PAL_G
+### -field AnalogVideo_PAL_G:0x40
 
-### -field AnalogVideo_PAL_H
+### -field AnalogVideo_PAL_H:0x80
 
 PAL (H) standard.
 
-### -field AnalogVideo_PAL_I
+### -field AnalogVideo_PAL_I:0x100
 
 PAL (I) standard.
 
-### -field AnalogVideo_PAL_M
+### -field AnalogVideo_PAL_M:0x200
 
 PAL (M) standard.
 
-### -field AnalogVideo_PAL_N
+### -field AnalogVideo_PAL_N:0x400
 
 PAL (N) standard.
 
-### -field AnalogVideo_PAL_60
+### -field AnalogVideo_PAL_60:0x800
 
 PAL-60 standard.
 
-### -field AnalogVideo_SECAM_B
+### -field AnalogVideo_SECAM_B:0x1000
 
 SECAM (B) standard.
 
-### -field AnalogVideo_SECAM_D
+### -field AnalogVideo_SECAM_D:0x2000
 
 SECAM (D) standard.
 
-### -field AnalogVideo_SECAM_G
+### -field AnalogVideo_SECAM_G:0x4000
 
 SECAM (G) standard.
 
-### -field AnalogVideo_SECAM_H
+### -field AnalogVideo_SECAM_H:0x8000
 
 SECAM (H) standard.
 
-### -field AnalogVideo_SECAM_K
+### -field AnalogVideo_SECAM_K:0x10000
 
 SECAM (K) standard.
 
-### -field AnalogVideo_SECAM_K1
+### -field AnalogVideo_SECAM_K1:0x20000
 
 SECAM (K1) standard.
 
-### -field AnalogVideo_SECAM_L
+### -field AnalogVideo_SECAM_L:0x40000
 
 SECAM (L) standard.
 
-### -field AnalogVideo_SECAM_L1
+### -field AnalogVideo_SECAM_L1:0x80000
 
 SECAM (L1) standard.
 
-### -field AnalogVideo_PAL_N_COMBO
+### -field AnalogVideo_PAL_N_COMBO:0x100000
 
 Combination (N) PAL standard (Argentina).
 

@@ -54,7 +54,7 @@ Indicates a distance-based decay type applied to a sound.
 
 ## -enum-fields
 
-### -field NaturalDecay
+### -field NaturalDecay:0
 
 Simulates natural decay with distance, as constrained by minimum and maximum gain distance limits. Drops to silence at rolloff distance.
 

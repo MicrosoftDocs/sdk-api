@@ -54,35 +54,35 @@ Contains values that specify the value of the CapStyle text attribute.
 
 ## -enum-fields
 
-### -field CapStyle_None
+### -field CapStyle_None:0
 
 None.
 
-### -field CapStyle_SmallCap
+### -field CapStyle_SmallCap:1
 
 Small capitals.
 
-### -field CapStyle_AllCap
+### -field CapStyle_AllCap:2
 
 All capitals.
 
-### -field CapStyle_AllPetiteCaps
+### -field CapStyle_AllPetiteCaps:3
 
 All petite capitals.
 
-### -field CapStyle_PetiteCaps
+### -field CapStyle_PetiteCaps:4
 
 Petite capitals.
 
-### -field CapStyle_Unicase
+### -field CapStyle_Unicase:5
 
 Single case.
 
-### -field CapStyle_Titling
+### -field CapStyle_Titling:6
 
 Title case.
 
-### -field CapStyle_Other
+### -field CapStyle_Other:-1
 
 #### - Other
 

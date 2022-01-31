@@ -54,11 +54,11 @@ Specifies the memory segment group to use.
 
 ## -enum-fields
 
-### -field DXGI_MEMORY_SEGMENT_GROUP_LOCAL
+### -field DXGI_MEMORY_SEGMENT_GROUP_LOCAL:0
 
               The grouping of segments which is considered local to the video adapter, and represents the fastest available memory to the GPU. Applications should target the local segment group as the target size for their working set.
 
-### -field DXGI_MEMORY_SEGMENT_GROUP_NON_LOCAL
+### -field DXGI_MEMORY_SEGMENT_GROUP_NON_LOCAL:1
 
 The grouping of segments which is considered non-local to the video adapter, and may have slower performance than the local segment group.
 

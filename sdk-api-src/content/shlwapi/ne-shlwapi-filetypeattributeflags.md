@@ -54,94 +54,94 @@ Indicates <b>FILETYPEATTRIBUTEFLAGS</b> constants that are used in the EditFlags
 
 ## -enum-fields
 
-### -field FTA_None
+### -field FTA_None:0x00000000
 
 No <a href="/windows/desktop/api/shlwapi/ne-shlwapi-filetypeattributeflags">FILETYPEATTRIBUTEFLAGS</a> options set.
 
-### -field FTA_Exclude
+### -field FTA_Exclude:0x00000001
 
 Excludes the file type.
 
-### -field FTA_Show
+### -field FTA_Show:0x00000002
 
 Shows file types, such as folders, that are not associated with a file name extension.
 
-### -field FTA_HasExtension
+### -field FTA_HasExtension:0x00000004
 
 Indicates that the file type has a file name extension.
 
-### -field FTA_NoEdit
+### -field FTA_NoEdit:0x00000008
 
 Prohibits editing of the registry entries associated with this file type, the addition of new entries, and the deletion or modification of existing entries.
 
-### -field FTA_NoRemove
+### -field FTA_NoRemove:0x00000010
 
 Prohibits deletion of the registry entries associated with this file type.
 
-### -field FTA_NoNewVerb
+### -field FTA_NoNewVerb:0x00000020
 
 Prohibits the addition of new <a href="/windows/desktop/shell/fa-verbs">verbs</a> to the file type.
 
-### -field FTA_NoEditVerb
+### -field FTA_NoEditVerb:0x00000040
 
 Prohibits the modification or deletion of canonical <a href="/windows/desktop/shell/fa-verbs">verbs</a> such as <b>open</b> and <b>print</b>.
 
-### -field FTA_NoRemoveVerb
+### -field FTA_NoRemoveVerb:0x00000080
 
 Prohibits the deletion of canonical verbs such as <b>open</b> and <b>print</b>.
 
-### -field FTA_NoEditDesc
+### -field FTA_NoEditDesc:0x00000100
 
 Prohibits the modification or deletion of the description of the file type.
 
-### -field FTA_NoEditIcon
+### -field FTA_NoEditIcon:0x00000200
 
 Prohibits the modification or deletion of the <a href="/windows/desktop/shell/icon">icon</a> assigned to the file type.
 
-### -field FTA_NoEditDflt
+### -field FTA_NoEditDflt:0x00000400
 
 Prohibits the modification of the <a href="/windows/desktop/shell/fa-verbs">default verb</a>.
 
-### -field FTA_NoEditVerbCmd
+### -field FTA_NoEditVerbCmd:0x00000800
 
 Prohibits the modification of the <a href="/windows/desktop/shell/fa-verbs">commands</a> associated with verbs.
 
-### -field FTA_NoEditVerbExe
+### -field FTA_NoEditVerbExe:0x00001000
 
 Prohibits the modification or deletion of verbs.
 
-### -field FTA_NoDDE
+### -field FTA_NoDDE:0x00002000
 
 Prohibits the modification or deletion of the entries related to DDE.
 
-### -field FTA_NoEditMIME
+### -field FTA_NoEditMIME:0x00008000
 
 Prohibits the modification or deletion of the content type and default extension entries.
 
-### -field FTA_OpenIsSafe
+### -field FTA_OpenIsSafe:0x00010000
 
 Indicates that the file type's <b>open</b> verb can be safely invoked for downloaded files. This flag  applies only to safe file types, as identified by <a href="/windows/desktop/api/shlwapi/nf-shlwapi-associsdangerous">AssocIsDangerous</a>. To improve the user experience and reduce unnecessary user prompts when downloading and activating items, file type owners should specify this flag and applications that download and activate files should respect this flag.
 
-### -field FTA_AlwaysUnsafe
+### -field FTA_AlwaysUnsafe:0x00020000
 
 Prevents the <b>Never ask me</b> check box from being enabled. Use of this flag means <b>FTA_OpenIsSafe</b> is not respected and <a href="/windows/desktop/api/shlwapi/nf-shlwapi-associsdangerous">AssocIsDangerous</a> always returns TRUE.
 If your file type can execute code, you should always use this flag or ensure that the file type handlers mitigate risks, for example, by producing warning prompts before running the code.
 
 The user can override this attribute through the <b>File Type</b> dialog box.
 
-### -field FTA_NoRecentDocs
+### -field FTA_NoRecentDocs:0x00100000
 
 Prohibits the addition of members of this file type to the <a href="/windows/desktop/shell/manage">Recent Documents</a> folder. Additionally, in Windows 7 and later, prohibits the addition of members of this file type to the automatic <b>Recent</b> or <b>Frequent</b> category of an application's Jump List.
 
 This flag does not restrict members of this file type from being added to a <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icustomdestinationlist">custom Jump List</a>. It also places no restriction on the file type being added to the automatic Jump Lists of other applications in the case that other applications use this file type.
 
-### -field FTA_SafeForElevation
+### -field FTA_SafeForElevation:0x00200000
 
 <b>Introduced in Windows 8</b>. Marks the file or URI scheme as safe to be used from a low trust application. Files that originate from the Internet or an app container are examples where the file is considered untrusted. Untrusted files that contain code are especially dangerous, and appropriate security mitigations must be applied if the file is to be opened by a full trust application. File type owners for file formats that have the ability to execute code should specify this flag only if their program mitigates elevation-of-privilege threats that are associated with running code at a higher integrity level. Mitigations include prompting the user before code is executed or executing the code with reduced privileges.
 
 By specifying this flag for an entire file type, an app running within an app container can pass files of this type to a program running at full trust. Some file types are recognized as inherently dangerous due to their ability to execute code and will be blocked if you don't specify this value.
 
-### -field FTA_AlwaysUseDirectInvoke
+### -field FTA_AlwaysUseDirectInvoke:0x00400000
 
 <b>Introduced in Windows 8</b>. Ensures that the verbs for the file type are invoked with a URI instead of a downloaded version of the file. Use this flag only if you've registered the file type's verb to support DirectInvoke through the SupportedProtocols or UseUrl registration.
 

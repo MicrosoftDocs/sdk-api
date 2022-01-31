@@ -54,7 +54,7 @@ Specifies the type of an <a href="/windows/desktop/api/spatialaudioclient/nn-spa
 
 ## -enum-fields
 
-### -field AudioObjectType_None
+### -field AudioObjectType_None:0
 
 The spatial audio object is not spatialized.
 

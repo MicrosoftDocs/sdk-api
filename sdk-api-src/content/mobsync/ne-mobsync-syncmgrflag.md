@@ -56,39 +56,39 @@ The <b>SYNCMGRFLAG</b> enumeration values are used in the <a href="/windows/desk
 
 ## -enum-fields
 
-### -field SYNCMGRFLAG_CONNECT
+### -field SYNCMGRFLAG_CONNECT:0x1
 
 Synchronization was initiated by a network connect event.
 
-### -field SYNCMGRFLAG_PENDINGDISCONNECT
+### -field SYNCMGRFLAG_PENDINGDISCONNECT:0x2
 
 Synchronization was initiated by a pending network disconnect event.
 
-### -field SYNCMGRFLAG_MANUAL
+### -field SYNCMGRFLAG_MANUAL:0x3
 
 Synchronization was initiated manually by the end user.
 
-### -field SYNCMGRFLAG_IDLE
+### -field SYNCMGRFLAG_IDLE:0x4
 
 Synchronization was programmatically invoked.
 
-### -field SYNCMGRFLAG_INVOKE
+### -field SYNCMGRFLAG_INVOKE:0x5
 
 Synchronization was programmatically invoked.
 
-### -field SYNCMGRFLAG_SCHEDULED
+### -field SYNCMGRFLAG_SCHEDULED:0x6
 
 Synchronization was initiated by a scheduled update event.
 
-### -field SYNCMGRFLAG_EVENTMASK
+### -field SYNCMGRFLAG_EVENTMASK:0xff
 
 Synchronization mask value.
 
-### -field SYNCMGRFLAG_SETTINGS
+### -field SYNCMGRFLAG_SETTINGS:0x100
 
 Synchronization was initiated for configuration purposes only in the <b>System Properties</b> dialog box.
 
-### -field SYNCMGRFLAG_MAYBOTHERUSER
+### -field SYNCMGRFLAG_MAYBOTHERUSER:0x200
 
 Interaction with the user is permitted. The application is allowed to show user interface elements and interact with the user. If this flag is not set, the application must not display any user interface elements other than using the <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a> interface. If an application cannot complete the synchronization without displaying user interface elements and this flag is not set, the application fails the synchronization.
 

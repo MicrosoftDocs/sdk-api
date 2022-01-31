@@ -54,15 +54,15 @@ Specifies the type of Microsoft Direct3D authenticated channel.
 
 ## -enum-fields
 
-### -field D3D11_AUTHENTICATED_CHANNEL_D3D11
+### -field D3D11_AUTHENTICATED_CHANNEL_D3D11:1
 
 Direct3D 11 channel. This channel provides communication with the Direct3D runtime.
 
-### -field D3D11_AUTHENTICATED_CHANNEL_DRIVER_SOFTWARE
+### -field D3D11_AUTHENTICATED_CHANNEL_DRIVER_SOFTWARE:2
 
 Software driver channel. This channel provides communication with a driver that implements content protection mechanisms in software.
 
-### -field D3D11_AUTHENTICATED_CHANNEL_DRIVER_HARDWARE
+### -field D3D11_AUTHENTICATED_CHANNEL_DRIVER_HARDWARE:3
 
 Hardware driver channel. This channel provides communication with a driver that implements content protection mechanisms in the GPU hardware.
 

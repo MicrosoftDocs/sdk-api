@@ -54,35 +54,35 @@ Defines messages for an enhanced video renderer (EVR) presenter. This enumeratio
 
 ## -enum-fields
 
-### -field MFVP_MESSAGE_FLUSH
+### -field MFVP_MESSAGE_FLUSH:0
 
 The presenter should discard any pending samples. The <i>ulParam</i> parameter is not used and should be zero.
 
-### -field MFVP_MESSAGE_INVALIDATEMEDIATYPE
+### -field MFVP_MESSAGE_INVALIDATEMEDIATYPE:0x1
 
 The mixer's output format has changed. The EVR will initiate format negotiation. The <i>ulParam</i> parameter is not used and should be zero.
 
-### -field MFVP_MESSAGE_PROCESSINPUTNOTIFY
+### -field MFVP_MESSAGE_PROCESSINPUTNOTIFY:0x2
 
 One input stream on the mixer has received a new sample. The <i>ulParam</i> parameter is not used and should be zero.
 
-### -field MFVP_MESSAGE_BEGINSTREAMING
+### -field MFVP_MESSAGE_BEGINSTREAMING:0x3
 
 The EVR switched from stopped to paused. The presenter should allocate resources. The <i>ulParam</i> parameter is not used and should be zero.
 
-### -field MFVP_MESSAGE_ENDSTREAMING
+### -field MFVP_MESSAGE_ENDSTREAMING:0x4
 
 The EVR switched from running or paused to stopped. The presenter should free resources. The <i>ulParam</i> parameter is not used and should be zero.
 
-### -field MFVP_MESSAGE_ENDOFSTREAM
+### -field MFVP_MESSAGE_ENDOFSTREAM:0x5
 
 All streams have ended. The <i>ulParam</i> parameter is not used and should be zero.
 
-### -field MFVP_MESSAGE_STEP
+### -field MFVP_MESSAGE_STEP:0x6
 
 Requests a frame step. The lower <b>DWORD</b> of the <i>ulParam</i> parameter contains the number of frames to step. If the value is <i>N</i>, the presenter should skip <i>N</i>–1 frames and display the <i>N</i>th frame. When that frame has been displayed, the presenter should send an <b>EC_STEP_COMPLETE</b> event to the EVR. If the presenter is not paused when it receives this message, it should return MF_E_INVALIDREQUEST.
 
-### -field MFVP_MESSAGE_CANCELSTEP
+### -field MFVP_MESSAGE_CANCELSTEP:0x7
 
 Cancels a frame step. The <i>ulParam</i> parameter is not used and should be zero.
 

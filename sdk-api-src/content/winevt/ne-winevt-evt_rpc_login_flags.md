@@ -56,7 +56,7 @@ Defines the types of authentication that you can use to authenticate the user wh
 
 ## -enum-fields
 
-### -field EvtRpcLoginAuthDefault
+### -field EvtRpcLoginAuthDefault:0
 
 Use the default authentication method during RPC login. The default authentication method is Negotiate.
 

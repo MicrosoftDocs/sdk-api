@@ -56,19 +56,19 @@ For a list of new capabilities included in each feature level, see [DirectML fea
 
 ## -enum-fields
 
-### -field DML_FEATURE_LEVEL_1_0
+### -field DML_FEATURE_LEVEL_1_0:0x1000
 
 Specifies feature level 1_0.
 
-### -field DML_FEATURE_LEVEL_2_0
+### -field DML_FEATURE_LEVEL_2_0:0x2000
 
 Specifies feature level 2_0.
 
-### -field DML_FEATURE_LEVEL_2_1
+### -field DML_FEATURE_LEVEL_2_1:0x2100
 
 Specifies feature level 2_1.
 
-### -field DML_FEATURE_LEVEL_3_0
+### -field DML_FEATURE_LEVEL_3_0:0x3000
 
 Specifies feature level 3_0.
 

@@ -60,51 +60,51 @@ The <a href="/windows/desktop/DirectShow/ec-dvd-error">EC_DVD_ERROR</a> event co
 
 ## -enum-fields
 
-### -field DVD_ERROR_Unexpected
+### -field DVD_ERROR_Unexpected:1
 
 Something unexpected happened; perhaps content is authored incorrectly. Playback is stopped.
 
-### -field DVD_ERROR_CopyProtectFail
+### -field DVD_ERROR_CopyProtectFail:2
 
 Key exchange for DVD copy protection failed. Playback is stopped.
 
-### -field DVD_ERROR_InvalidDVD1_0Disc
+### -field DVD_ERROR_InvalidDVD1_0Disc:3
 
 DVD-Video disc is authored incorrectly for specification version 1.<i>x</i>. Playback is stopped.
 
-### -field DVD_ERROR_InvalidDiscRegion
+### -field DVD_ERROR_InvalidDiscRegion:4
 
 The disc cannot be played because it is not authored to play in the system region. You can try fixing the region mismatch by changing the system region with Dvdrgn.exe.
 
 <i>lParam2</i>: The low <b>WORD</b> contains the disc region and the high <b>WORD</b> contains the system region.
 
-### -field DVD_ERROR_LowParentalLevel
+### -field DVD_ERROR_LowParentalLevel:5
 
 Player parental level is lower than the lowest parental level available in the DVD content. Playback is stopped.
 
 <i>lParam2</i>: The lowest parental level in the DVD content, or -1 if no parental level is specified in the content.
 
-### -field DVD_ERROR_MacrovisionFail
+### -field DVD_ERROR_MacrovisionFail:6
 
 Analog copy protection distribution failed. Playback stopped.
 
-### -field DVD_ERROR_IncompatibleSystemAndDecoderRegions
+### -field DVD_ERROR_IncompatibleSystemAndDecoderRegions:7
 
 No discs can be played because the system region does not match the decoder region.
 
 <i>lParam2</i>: The low <b>WORD</b> contains the system region and the high <b>WORD</b> contains the decoder region.
 
-### -field DVD_ERROR_IncompatibleDiscAndDecoderRegions
+### -field DVD_ERROR_IncompatibleDiscAndDecoderRegions:8
 
 The disc cannot be played because the disc is not authored to be played in the decoder's region.
 
 <i>lParam2</i>: The low <b>WORD</b> contains the disc region and the high <b>WORD</b> contains the decoder region.
 
-### -field DVD_ERROR_CopyProtectOutputFail
+### -field DVD_ERROR_CopyProtectOutputFail:9
 
 The disc cannot be played because the video display does not meet the copy protection requirements.
 
-### -field DVD_ERROR_CopyProtectOutputNotSupported
+### -field DVD_ERROR_CopyProtectOutputNotSupported:10
 
 The disc cannot be played because the driver does not support checking the video display.
 

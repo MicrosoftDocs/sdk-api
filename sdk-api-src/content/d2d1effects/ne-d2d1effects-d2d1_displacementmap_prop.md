@@ -54,7 +54,7 @@ Identifiers for properties of the <a href="/windows/desktop/Direct2D/displacemen
 
 ## -enum-fields
 
-### -field D2D1_DISPLACEMENTMAP_PROP_SCALE
+### -field D2D1_DISPLACEMENTMAP_PROP_SCALE:0
 
 Multiplies the intensity of the selected channel from the displacement image. The higher you set this property, the more the effect displaces the pixels.
             
@@ -63,7 +63,7 @@ The type is FLOAT.
 
 The default value is 0.0f.
 
-### -field D2D1_DISPLACEMENTMAP_PROP_X_CHANNEL_SELECT
+### -field D2D1_DISPLACEMENTMAP_PROP_X_CHANNEL_SELECT:1
 
 The effect extracts the intensity from this color channel and uses it to spatially displace the image in the X direction.
           
@@ -72,7 +72,7 @@ The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_channe
 
 The default value is D2D1_CHANNEL_SELECTOR_A
 
-### -field D2D1_DISPLACEMENTMAP_PROP_Y_CHANNEL_SELECT
+### -field D2D1_DISPLACEMENTMAP_PROP_Y_CHANNEL_SELECT:2
 
 The effect extracts the intensity from this color channel and uses it to spatially displace the image in the Y direction.
           
@@ -81,4 +81,4 @@ The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_channe
 
 The default value is D2D1_CHANNEL_SELECTOR_A
 
-### -field D2D1_DISPLACEMENTMAP_PROP_FORCE_DWORD
+### -field D2D1_DISPLACEMENTMAP_PROP_FORCE_DWORD:0xffffffff

@@ -56,23 +56,23 @@ Defines the relative position in the result set from which to seek.
 
 ## -enum-fields
 
-### -field EvtSeekRelativeToFirst
+### -field EvtSeekRelativeToFirst:1
 
 Seek to the specified offset from the first entry in the result set. The offset must be a positive value.
 
-### -field EvtSeekRelativeToLast
+### -field EvtSeekRelativeToLast:2
 
 Seek to the specified offset from the last entry in the result set. The offset must be a negative value.
 
-### -field EvtSeekRelativeToCurrent
+### -field EvtSeekRelativeToCurrent:3
 
 Seek to the specified offset from the current entry in the result set. The offset can be a positive or negative value.
 
-### -field EvtSeekRelativeToBookmark
+### -field EvtSeekRelativeToBookmark:4
 
 Seek to the specified offset from the bookmarked entry in the result set. The offset can be a positive or negative value.
 
-### -field EvtSeekOriginMask
+### -field EvtSeekOriginMask:7
 
 A bitmask that you can use to determine which of the following flags is set:
 
@@ -82,7 +82,7 @@ A bitmask that you can use to determine which of the following flags is set:
 <li>EvtSeekRelativeToBookmark</li>
 </ul>
 
-### -field EvtSeekStrict
+### -field EvtSeekStrict:0x10000
 
 Force the function to fail if the event does not exist.
 

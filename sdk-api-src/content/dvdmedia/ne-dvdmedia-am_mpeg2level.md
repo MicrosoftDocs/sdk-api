@@ -54,19 +54,19 @@ Indicates an MPEG-2 video level as specified in the MPEG-2 video standard (ISO13
 
 ## -enum-fields
 
-### -field AM_MPEG2Level_Low
+### -field AM_MPEG2Level_Low:1
 
 Low level.
 
-### -field AM_MPEG2Level_Main
+### -field AM_MPEG2Level_Main:2
 
 Main level.
 
-### -field AM_MPEG2Level_High1440
+### -field AM_MPEG2Level_High1440:3
 
 High 1440 level.
 
-### -field AM_MPEG2Level_High
+### -field AM_MPEG2Level_High:4
 
 High level.
 

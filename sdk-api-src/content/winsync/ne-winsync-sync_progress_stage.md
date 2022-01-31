@@ -56,7 +56,7 @@ Represents the stages of a synchronization session.
 
 ## -enum-fields
 
-### -field SPS_CHANGE_DETECTION
+### -field SPS_CHANGE_DETECTION:0
 
 Changes are being detected on the source replica.
 

@@ -54,7 +54,7 @@ Specifies a range so that, for example, if part of a descriptor table has 100 sh
 
 ## -enum-fields
 
-### -field D3D12_DESCRIPTOR_RANGE_TYPE_SRV
+### -field D3D12_DESCRIPTOR_RANGE_TYPE_SRV:0
 
 Specifies a range of SRVs.
 

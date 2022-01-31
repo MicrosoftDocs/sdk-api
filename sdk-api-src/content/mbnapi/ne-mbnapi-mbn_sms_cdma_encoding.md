@@ -57,7 +57,7 @@ The <b>MBN_SMS_CDMA_ENCODING</b> enumerated type specifies character encoding ty
 
 ## -enum-fields
 
-### -field MBN_SMS_CDMA_ENCODING_OCTET
+### -field MBN_SMS_CDMA_ENCODING_OCTET:0
 
 Octet encoding.
 

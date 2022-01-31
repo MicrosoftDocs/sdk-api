@@ -54,22 +54,22 @@ Defines constants that specify the data type of a parameter to a meta command.
 
 ## -enum-fields
 
-### -field D3D12_META_COMMAND_PARAMETER_TYPE_FLOAT
+### -field D3D12_META_COMMAND_PARAMETER_TYPE_FLOAT:0
 
 Specifies that the parameter is of type <a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a>.
 
-### -field D3D12_META_COMMAND_PARAMETER_TYPE_UINT64
+### -field D3D12_META_COMMAND_PARAMETER_TYPE_UINT64:1
 
 Specifies that the parameter is of type <a href="/windows/desktop/WinProg/windows-data-types">UINT64</a>.
 
-### -field D3D12_META_COMMAND_PARAMETER_TYPE_GPU_VIRTUAL_ADDRESS
+### -field D3D12_META_COMMAND_PARAMETER_TYPE_GPU_VIRTUAL_ADDRESS:2
 
 Specifies that the parameter is a GPU virtual address.
 
-### -field D3D12_META_COMMAND_PARAMETER_TYPE_CPU_DESCRIPTOR_HANDLE_HEAP_TYPE_CBV_SRV_UAV
+### -field D3D12_META_COMMAND_PARAMETER_TYPE_CPU_DESCRIPTOR_HANDLE_HEAP_TYPE_CBV_SRV_UAV:3
 
 Specifies that the parameter is a CPU descriptor handle to a heap containing either constant buffer views, shader resource views, or unordered access views.
 
-### -field D3D12_META_COMMAND_PARAMETER_TYPE_GPU_DESCRIPTOR_HANDLE_HEAP_TYPE_CBV_SRV_UAV
+### -field D3D12_META_COMMAND_PARAMETER_TYPE_GPU_DESCRIPTOR_HANDLE_HEAP_TYPE_CBV_SRV_UAV:4
 
 Specifies that the parameter is a GPU descriptor handle to a heap containing either constant buffer views, shader resource views, or unordered access views.

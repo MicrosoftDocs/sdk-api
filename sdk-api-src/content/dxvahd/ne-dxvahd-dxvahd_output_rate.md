@@ -58,19 +58,19 @@ This enumeration type is used in the <a href="/windows/desktop/api/dxvahd/ns-dxv
 
 ## -enum-fields
 
-### -field DXVAHD_OUTPUT_RATE_NORMAL
+### -field DXVAHD_OUTPUT_RATE_NORMAL:0
 
 The frame output is at the normal rate.
 
 For progressive input, every frame produces one output frame. For interlaced input, every frame (two fields) produces two progressive output frames.
 
-### -field DXVAHD_OUTPUT_RATE_HALF
+### -field DXVAHD_OUTPUT_RATE_HALF:1
 
 The frame output is at half rate.
 
 For progressive input, every frame produces one output frame, just as with  <b>DXVAHD_OUTPUT_RATE_NORMAL</b>. For interlaced input, every frame produces one progressive output frame.
 
-### -field DXVAHD_OUTPUT_RATE_CUSTOM
+### -field DXVAHD_OUTPUT_RATE_CUSTOM:2
 
 Frame output is at a custom rate.
 

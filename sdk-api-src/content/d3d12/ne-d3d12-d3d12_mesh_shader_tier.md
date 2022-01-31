@@ -45,11 +45,11 @@ Defines constants that specify mesh and amplification shader support.
 
 ## -enum-fields
 
-### -field D3D12_MESH_SHADER_TIER_NOT_SUPPORTED
+### -field D3D12_MESH_SHADER_TIER_NOT_SUPPORTED:0
 
 Specifies that mesh and amplification shaders are not supported.
 
-### -field D3D12_MESH_SHADER_TIER_1
+### -field D3D12_MESH_SHADER_TIER_1:10
 
 Specifies that mesh and amplification shaders are supported.
 

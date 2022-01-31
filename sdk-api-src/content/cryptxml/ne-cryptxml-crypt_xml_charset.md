@@ -54,18 +54,18 @@ The <b>CRYPT_XML_CHARSET</b> enumeration is used to specify the character set us
 
 ## -enum-fields
 
-### -field CRYPT_XML_CHARSET_AUTO
+### -field CRYPT_XML_CHARSET_AUTO:0
 
 This value is only supported in the <a href="/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlopentodecode">CryptXmlOpenToDecode</a> function. The encoded XML character set is determined by the parser and is based on the XML declaration or the best guess on the characters.
 
-### -field CRYPT_XML_CHARSET_UTF8
+### -field CRYPT_XML_CHARSET_UTF8:1
 
 Specifies the UTF-8 character set.
 
-### -field CRYPT_XML_CHARSET_UTF16LE
+### -field CRYPT_XML_CHARSET_UTF16LE:2
 
 Specifies the UTF-16 little-endian character set.
 
-### -field CRYPT_XML_CHARSET_UTF16BE
+### -field CRYPT_XML_CHARSET_UTF16BE:3
 
 Specifies the UTF-16 big-endian character set.

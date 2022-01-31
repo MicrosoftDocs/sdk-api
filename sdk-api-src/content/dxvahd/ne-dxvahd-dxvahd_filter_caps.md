@@ -56,31 +56,31 @@ Defines capabilities related to image adjustment and filtering for a Microsoft D
 
 ## -enum-fields
 
-### -field DXVAHD_FILTER_CAPS_BRIGHTNESS
+### -field DXVAHD_FILTER_CAPS_BRIGHTNESS:0x1
 
 The device can adjust the brightness level.
 
-### -field DXVAHD_FILTER_CAPS_CONTRAST
+### -field DXVAHD_FILTER_CAPS_CONTRAST:0x2
 
 The device can adjust the contrast level.
 
-### -field DXVAHD_FILTER_CAPS_HUE
+### -field DXVAHD_FILTER_CAPS_HUE:0x4
 
 The device can adjust hue.
 
-### -field DXVAHD_FILTER_CAPS_SATURATION
+### -field DXVAHD_FILTER_CAPS_SATURATION:0x8
 
 The device can adjust the saturation level.
 
-### -field DXVAHD_FILTER_CAPS_NOISE_REDUCTION
+### -field DXVAHD_FILTER_CAPS_NOISE_REDUCTION:0x10
 
 The device can perform noise reduction.
 
-### -field DXVAHD_FILTER_CAPS_EDGE_ENHANCEMENT
+### -field DXVAHD_FILTER_CAPS_EDGE_ENHANCEMENT:0x20
 
 The device can perform edge enhancement.
 
-### -field DXVAHD_FILTER_CAPS_ANAMORPHIC_SCALING
+### -field DXVAHD_FILTER_CAPS_ANAMORPHIC_SCALING:0x40
 
 The device can perform <i>anamorphic scaling</i>. Anamorphic scaling can be used to stretch 4:3 content to a widescreen 16:9 aspect ratio.
 

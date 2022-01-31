@@ -54,23 +54,23 @@ Specifies how the voice capture DSP performs microphone array processing. This e
 
 ## -enum-fields
 
-### -field MICARRAY_SINGLE_CHAN
+### -field MICARRAY_SINGLE_CHAN:0
 
 Use a single channel. Specify the channel number in the last 8 bits of the value.
 
-### -field MICARRAY_SIMPLE_SUM
+### -field MICARRAY_SIMPLE_SUM:0x100
 
 Sum all of the channels.
 
-### -field MICARRAY_SINGLE_BEAM
+### -field MICARRAY_SINGLE_BEAM:0x200
 
 Use beam forming with a beam selected by the DSP. After processing starts, you can query which beam was selected by reading the <a href="/windows/desktop/medfound/mfpkey-wmaaecma-featr-micarr-beamproperty">MFPKEY_WMAAECMA_FEATR_MICARR_BEAM</a> property.
 
-### -field MICARRAY_FIXED_BEAM
+### -field MICARRAY_FIXED_BEAM:0x400
 
 Use beam forming with the center beam.
 
-### -field MICARRAY_EXTERN_BEAM
+### -field MICARRAY_EXTERN_BEAM:0x800
 
 Use beam forming with a beam selected by the application. If you set this value, set the MFPKEY_WMAAECMA_FEATR_MICARR_BEAM property to specify the beam.
 

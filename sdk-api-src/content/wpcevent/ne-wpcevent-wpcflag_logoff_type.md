@@ -56,23 +56,23 @@ Indicates information about the type of logoff method used.
 
 ## -enum-fields
 
-### -field WPCFLAG_LOGOFF_TYPE_LOGOUT
+### -field WPCFLAG_LOGOFF_TYPE_LOGOUT:0x00000000
 
 The user logged off by logging off the computer.
 
-### -field WPCFLAG_LOGOFF_TYPE_RESTART
+### -field WPCFLAG_LOGOFF_TYPE_RESTART:0x00000001
 
 The user logged off by restarting the computer.
 
-### -field WPCFLAG_LOGOFF_TYPE_SHUTDOWN
+### -field WPCFLAG_LOGOFF_TYPE_SHUTDOWN:0x00000002
 
 The user logged off by shutting down the computer.
 
-### -field WPCFLAG_LOGOFF_TYPE_FUS
+### -field WPCFLAG_LOGOFF_TYPE_FUS:0x00000004
 
 The user logged off by using fast user switching.
 
-### -field WPCFLAG_LOGOFF_TYPE_FORCEDFUS
+### -field WPCFLAG_LOGOFF_TYPE_FORCEDFUS:0x00000008
 
 The user was forced to log off by fast user switching.
 

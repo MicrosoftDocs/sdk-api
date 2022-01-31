@@ -56,7 +56,7 @@ Describes the option for embedding a font.
 
 ## -enum-fields
 
-### -field XPS_FONT_EMBEDDING_NORMAL
+### -field XPS_FONT_EMBEDDING_NORMAL:1
 
 The embedded font is neither obfuscated nor restricted.
 

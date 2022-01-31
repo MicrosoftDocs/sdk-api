@@ -56,7 +56,7 @@ Defines the provider information to retrieve.
 
 ## -enum-fields
 
-### -field EventKeywordInformation
+### -field EventKeywordInformation:0
 
 Keyword information defined in the manifest. For providers that define themselves using MOF classes, this type returns the enable flags values if the provider class includes the Flags property. For details, see the "Specifying level and enable flags values for a provider" section of <a href="/windows/desktop/ETW/event-tracing-mof-qualifiers">Event Tracing MOF Qualifiers</a>.
 

@@ -54,31 +54,31 @@ Identifies how to bind a resource to the pipeline.
 
 ## -enum-fields
 
-### -field D3D10_BIND_VERTEX_BUFFER
+### -field D3D10_BIND_VERTEX_BUFFER:0x1L
 
 Bind a buffer as a <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">vertex buffer</a> to the <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-input-assembler-stage">input-assembler stage</a>.
 
-### -field D3D10_BIND_INDEX_BUFFER
+### -field D3D10_BIND_INDEX_BUFFER:0x2L
 
 Bind a buffer as an <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">index buffer</a> to the <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-input-assembler-stage">input-assembler stage</a>.
 
-### -field D3D10_BIND_CONSTANT_BUFFER
+### -field D3D10_BIND_CONSTANT_BUFFER:0x4L
 
 Bind a buffer as a <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">constant buffer</a> to a <a href="/previous-versions/bb205146(v=vs.85)">shader stage</a>; this flag may NOT be combined with any other bind flag.
 
-### -field D3D10_BIND_SHADER_RESOURCE
+### -field D3D10_BIND_SHADER_RESOURCE:0x8L
 
 Bind a buffer or texture to a <a href="/previous-versions/bb205146(v=vs.85)">shader stage</a>; this flag cannot be used with the <a href="/windows/desktop/api/d3d10/ne-d3d10-d3d10_map">D3D10_MAP_WRITE_NO_OVERWRITE</a> flag.
 
-### -field D3D10_BIND_STREAM_OUTPUT
+### -field D3D10_BIND_STREAM_OUTPUT:0x10L
 
 Bind an output buffer for the <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-stream-stage">stream-output stage</a>.
 
-### -field D3D10_BIND_RENDER_TARGET
+### -field D3D10_BIND_RENDER_TARGET:0x20L
 
 Bind a texture as a render target for the <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">output-merger stage</a>.
 
-### -field D3D10_BIND_DEPTH_STENCIL
+### -field D3D10_BIND_DEPTH_STENCIL:0x40L
 
 Bind a texture as a depth-stencil target for the <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">output-merger stage</a>.
 

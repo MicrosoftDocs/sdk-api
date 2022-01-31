@@ -57,28 +57,28 @@ Contains virtual disk attach request flags.
 
 ## -enum-fields
 
-### -field ATTACH_VIRTUAL_DISK_FLAG_NONE
+### -field ATTACH_VIRTUAL_DISK_FLAG_NONE:0x00000000
 
 No flags. Use system defaults.
 
 This enumeration value is not supported for ISO virtual disks. 
        <b>ATTACH_VIRTUAL_DISK_FLAG_READ_ONLY</b> must be specified.
 
-### -field ATTACH_VIRTUAL_DISK_FLAG_READ_ONLY
+### -field ATTACH_VIRTUAL_DISK_FLAG_READ_ONLY:0x00000001
 
 Attach the virtual disk as read-only.
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>This flag is not supported for opening ISO virtual disks until Windows 8 and 
         Windows Server 2012.
 
-### -field ATTACH_VIRTUAL_DISK_FLAG_NO_DRIVE_LETTER
+### -field ATTACH_VIRTUAL_DISK_FLAG_NO_DRIVE_LETTER:0x00000002
 
 No drive letters are assigned to the disk's volumes.
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>This flag is not supported for opening ISO virtual disks until Windows 8 and 
         Windows Server 2012.
 
-### -field ATTACH_VIRTUAL_DISK_FLAG_PERMANENT_LIFETIME
+### -field ATTACH_VIRTUAL_DISK_FLAG_PERMANENT_LIFETIME:0x00000004
 
 Will decouple the virtual disk lifetime from that of the <i>VirtualDiskHandle</i>. The 
        virtual disk will be attached until the 
@@ -88,15 +88,15 @@ Will decouple the virtual disk lifetime from that of the <i>VirtualDiskHandle</i
 <b>Windows 7 and Windows Server 2008 R2:  </b>This flag is not supported for opening ISO virtual disks until Windows 8 and 
         Windows Server 2012.
 
-### -field ATTACH_VIRTUAL_DISK_FLAG_NO_LOCAL_HOST
+### -field ATTACH_VIRTUAL_DISK_FLAG_NO_LOCAL_HOST:0x00000008
 
 Reserved.
 
 This flag is not supported for ISO virtual disks.
 
-### -field ATTACH_VIRTUAL_DISK_FLAG_NO_SECURITY_DESCRIPTOR
+### -field ATTACH_VIRTUAL_DISK_FLAG_NO_SECURITY_DESCRIPTOR:0x00000010
 
-### -field ATTACH_VIRTUAL_DISK_FLAG_BYPASS_DEFAULT_ENCRYPTION_POLICY
+### -field ATTACH_VIRTUAL_DISK_FLAG_BYPASS_DEFAULT_ENCRYPTION_POLICY:0x00000020
 
 ## -see-also
 

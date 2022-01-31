@@ -54,22 +54,22 @@ Specifies the use of a color. Used by <a href="/windows/desktop/api/shobjidl/nn-
 
 ## -enum-fields
 
-### -field VPCF_TEXT
+### -field VPCF_TEXT:1
 
 A text color.
 
-### -field VPCF_BACKGROUND
+### -field VPCF_BACKGROUND:2
 
 A background color.
 
-### -field VPCF_SORTCOLUMN
+### -field VPCF_SORTCOLUMN:3
 
 A sort-column color.
 
-### -field VPCF_SUBTEXT
+### -field VPCF_SUBTEXT:4
 
 A subtext color.
 
-### -field VPCF_TEXTBACKGROUND
+### -field VPCF_TEXTBACKGROUND:5
 
 <b>Windows 7 and later</b>. A text background color.

@@ -54,17 +54,17 @@ Defines the coordinate system for a collection of snap points.
 
 ## -enum-fields
 
-### -field DIRECTMANIPULATION_COORDINATE_BOUNDARY
+### -field DIRECTMANIPULATION_COORDINATE_BOUNDARY:0
 
 Default. 
 
 Snap points are specified relative to the top and left boundaries of the content unless <b>DIRECTMANIPULATION_COORDINATE_MIRRORED</b> is also specified, in which case they are relative to the bottom and right boundaries of the content. For zoom, the boundary is 1.0f.
 
-### -field DIRECTMANIPULATION_COORDINATE_ORIGIN
+### -field DIRECTMANIPULATION_COORDINATE_ORIGIN:0x1
 
 Snap points are specified relative to the origin of the viewport.
 
-### -field DIRECTMANIPULATION_COORDINATE_MIRRORED
+### -field DIRECTMANIPULATION_COORDINATE_MIRRORED:0x10
 
 Snap points are interpreted as specified in the negative direction of the origin. The origin is shifted to the bottom and right of the viewport or content. Cannot be set for zoom.
 

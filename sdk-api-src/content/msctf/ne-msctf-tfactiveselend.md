@@ -56,15 +56,15 @@ Elements of the <b>TfActiveSelEnd</b> enumeration specify which end of a selecte
 
 ## -enum-fields
 
-### -field TF_AE_NONE
+### -field TF_AE_NONE:0
 
 The selected range has no active end. This is typical for selected ranges other than the default selected range.
 
-### -field TF_AE_START
+### -field TF_AE_START:1
 
 The active end is at the start of the selected range.
 
-### -field TF_AE_END
+### -field TF_AE_END:2
 
 The active end is at the end of the selected range.
 

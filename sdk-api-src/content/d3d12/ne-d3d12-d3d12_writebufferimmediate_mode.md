@@ -54,15 +54,15 @@ Specifies the mode used by a <b>WriteBufferImmediate</b> operation.
 
 ## -enum-fields
 
-### -field D3D12_WRITEBUFFERIMMEDIATE_MODE_DEFAULT
+### -field D3D12_WRITEBUFFERIMMEDIATE_MODE_DEFAULT:0
 
 The write operation behaves the same as normal copy-write operations.
 
-### -field D3D12_WRITEBUFFERIMMEDIATE_MODE_MARKER_IN
+### -field D3D12_WRITEBUFFERIMMEDIATE_MODE_MARKER_IN:0x1
 
 The write operation is guaranteed to occur after all preceding commands in the command stream have started, including previous <b>WriteBufferImmediate</b> operations.
 
-### -field D3D12_WRITEBUFFERIMMEDIATE_MODE_MARKER_OUT
+### -field D3D12_WRITEBUFFERIMMEDIATE_MODE_MARKER_OUT:0x2
 
 The write operation is deferred until all previous commands in the command stream have completed through the GPU pipeline, including previous <b>WriteBufferImmediate</b> operations. Write operations that specify <b>D3D12_WRITEBUFFERIMMEDIATE_MODE_MARKER_OUT</b> don't block subsequent operations from starting. If there are no previous operations in the command stream, then the write operation behaves as if <b>D3D12_WRITEBUFFERIMMEDIATE_MODE_MARKER_IN</b> was specified.
 

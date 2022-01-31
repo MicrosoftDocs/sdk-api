@@ -59,19 +59,19 @@ The
 
 ## -enum-fields
 
-### -field ExportListOptions_Default
+### -field ExportListOptions_Default:0
 
 Default list export option. If this is the only flag specified in the call to <a href="/previous-versions/windows/desktop/mmc/view-exportlist">View.ExportList</a>, then the list view contents are exported as comma-delimited ANSI text.
 
-### -field ExportListOptions_Unicode
+### -field ExportListOptions_Unicode:0x1
 
 The list is exported as Unicode text.
 
-### -field ExportListOptions_TabDelimited
+### -field ExportListOptions_TabDelimited:0x2
 
 The list is exported as tab-delimited text.
 
-### -field ExportListOptions_SelectedItemsOnly
+### -field ExportListOptions_SelectedItemsOnly:0x4
 
 The exported list contains only currently selected items.
 

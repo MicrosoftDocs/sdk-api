@@ -57,7 +57,7 @@ Specifies the type of the management point for the cluster.
 
 ## -enum-fields
 
-### -field CLUSTER_MGMT_POINT_TYPE_NONE
+### -field CLUSTER_MGMT_POINT_TYPE_NONE:0
 
 The cluster has no management point.
 

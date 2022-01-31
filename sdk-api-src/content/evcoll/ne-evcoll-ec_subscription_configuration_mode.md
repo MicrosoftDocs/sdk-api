@@ -56,7 +56,7 @@ The <b>EC_SUBSCRIPTION_CONFIGURATION_MODE</b> enumeration specifies different co
 
 ## -enum-fields
 
-### -field EcConfigurationModeNormal
+### -field EcConfigurationModeNormal:0
 
 This mode is used when an administrator needs the events to be delivered reliably and for the subscription to work with minimal configuration, and when network usage is not a concern. This mode sets the default subscription delivery mode to pull subscriptions.
 

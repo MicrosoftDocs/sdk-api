@@ -58,7 +58,7 @@ Specifies a context mode type that indicates the direction and access methods  t
 
 ## -enum-fields
 
-### -field ClfsContextNone
+### -field ClfsContextNone:0x00
 
 Do not move the cursor.
 

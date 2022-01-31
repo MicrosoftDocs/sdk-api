@@ -54,23 +54,23 @@ Describes the shape that joins two lines or segments.
 
 ## -enum-fields
 
-### -field D2D1_LINE_JOIN_MITER
+### -field D2D1_LINE_JOIN_MITER:0
 
 Regular angular vertices.
 
-### -field D2D1_LINE_JOIN_BEVEL
+### -field D2D1_LINE_JOIN_BEVEL:1
 
 Beveled vertices.
 
-### -field D2D1_LINE_JOIN_ROUND
+### -field D2D1_LINE_JOIN_ROUND:2
 
 Rounded vertices.
 
-### -field D2D1_LINE_JOIN_MITER_OR_BEVEL
+### -field D2D1_LINE_JOIN_MITER_OR_BEVEL:3
 
 Regular angular vertices unless the join would extend beyond the miter limit; otherwise, beveled vertices.
 
-### -field D2D1_LINE_JOIN_FORCE_DWORD
+### -field D2D1_LINE_JOIN_FORCE_DWORD:0xffffffff
 
 ## -remarks
 

@@ -58,18 +58,18 @@ The facet values roughly conform to the  restrictions defined in <a href="/previ
 
 ## -enum-fields
 
-### -field restrictionFacetMaxLength
+### -field restrictionFacetMaxLength:0x1
 
 Maximum number of units of length. Units of length depend on the data type. This value must be a nonNegativeInteger.
 
-### -field restrictionFacetEnumeration
+### -field restrictionFacetEnumeration:0x2
 
 Specified set of values. This limits a data type to the specified values.
 
-### -field restrictionFacetMaxInclusive
+### -field restrictionFacetMaxInclusive:0x4
 
 Maximum value. This value must be the same data type as the inherited data type.
 
-### -field restrictionFacetMinInclusive
+### -field restrictionFacetMinInclusive:0x8
 
 Lower bound value (all values are greater than this value). This value must be the same data type as the inherited data type.

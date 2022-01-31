@@ -54,11 +54,11 @@ Allows a sync provider to control how placeholder files should be hydrated by th
 
 ## -enum-fields
 
-### -field CF_HYDRATION_POLICY_PARTIAL
+### -field CF_HYDRATION_POLICY_PARTIAL:0
 
 The same behavior as <b>CF_HYDRATION_POLICY_PROGRESSIVE</b>, except that <b>CF_HYDRATION_POLICY_PARTIAL</b> does not have continuous hydration in the background.
 
-### -field CF_HYDRATION_POLICY_PROGRESSIVE
+### -field CF_HYDRATION_POLICY_PROGRESSIVE:1
 
 When <b>CF_HYDRATION_POLICY_PROGRESSIVE</b> is selected, the platform will allow a placeholder to be dehydrated. When the platform detects access to a dehydrated placeholder, it will complete the user IO request as soon as it determines that sufficient data is received from the sync provider. However, the platform will continue requesting the remaining content in the placeholder from the sync provider in the background until either the full content of the placeholder is available locally, or the last user handle on the placeholder is closed.
 
@@ -67,10 +67,10 @@ When <b>CF_HYDRATION_POLICY_PROGRESSIVE</b> is selected, the platform will allow
 </div>
 <div> </div>
 
-### -field CF_HYDRATION_POLICY_FULL
+### -field CF_HYDRATION_POLICY_FULL:2
 
 When <b>CF_HYDRATION_POLICY_FULL</b> is selected, the platform will allow a placeholder to be dehydrated. When the platform detects access to a dehydrated placeholder, it will ensure that the full content of the placeholder is available locally before completing the user IO request, even if the request is only asking for 1 byte.
 
-### -field CF_HYDRATION_POLICY_ALWAYS_FULL
+### -field CF_HYDRATION_POLICY_ALWAYS_FULL:3
 
 When <b>CF_HYDRATION_POLICY_ALWAYS_FULL</b> is selected, the platform will block any placeholder operation that could result in a not fully hydrated placeholder, which includes <a href="/windows/desktop/api/cfapi/nf-cfapi-cfcreateplaceholders">CfCreatePlaceholders</a>, <a href="/windows/desktop/api/cfapi/nf-cfapi-cfupdateplaceholder">CfUpdatePlaceholder</a> with the dehydrate option, and <a href="/windows/desktop/api/cfapi/nf-cfapi-cfconverttoplaceholder">CfConvertToPlaceholder</a> with the dehydrate option.

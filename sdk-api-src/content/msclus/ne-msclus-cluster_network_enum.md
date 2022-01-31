@@ -57,7 +57,7 @@ Describes the type of cluster object being enumerated by the
 
 ## -enum-fields
 
-### -field CLUSTER_NETWORK_ENUM_NETINTERFACES
+### -field CLUSTER_NETWORK_ENUM_NETINTERFACES:0x1
 
 The object is a <a href="/previous-versions/windows/desktop/mscs/network-interfaces">network interface</a>.
 

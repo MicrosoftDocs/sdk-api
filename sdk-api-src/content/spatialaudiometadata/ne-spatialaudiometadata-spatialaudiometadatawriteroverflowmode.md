@@ -54,7 +54,7 @@ Specifies the desired behavior when an <a href="/windows/desktop/api/spatialaudi
 
 ## -enum-fields
 
-### -field SpatialAudioMetadataWriterOverflow_Fail
+### -field SpatialAudioMetadataWriterOverflow_Fail:0
 
 The write operation will fail.
 

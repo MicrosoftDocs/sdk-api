@@ -56,7 +56,7 @@ The rule used by a composite shape to determine whether a given point is part of
 
 ## -enum-fields
 
-### -field XPS_FILL_RULE_EVENODD
+### -field XPS_FILL_RULE_EVENODD:1
 
 The rule that determines whether a point is in the fill region. This is determined by drawing 
 				a ray from the point to infinity in any direction, and counting the number 

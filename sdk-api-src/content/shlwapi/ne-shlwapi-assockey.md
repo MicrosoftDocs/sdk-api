@@ -54,7 +54,7 @@ Specifies the type of key to be returned by <a href="/windows/desktop/api/shlwap
 
 ## -enum-fields
 
-### -field ASSOCKEY_SHELLEXECCLASS
+### -field ASSOCKEY_SHELLEXECCLASS:1
 
 A key that is passed to <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> through a <a href="/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfoa">SHELLEXECUTEINFO</a> structure.
 

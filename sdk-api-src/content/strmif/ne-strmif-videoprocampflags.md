@@ -56,11 +56,11 @@ The <b>VideoProcAmpFlags</b> enumeration indicates whether a particular video pr
 
 ## -enum-fields
 
-### -field VideoProcAmp_Flags_Auto
+### -field VideoProcAmp_Flags_Auto:0x1
 
 The setting is controlled automatically.
 
-### -field VideoProcAmp_Flags_Manual
+### -field VideoProcAmp_Flags_Manual:0x2
 
 The setting is controlled manually.
 

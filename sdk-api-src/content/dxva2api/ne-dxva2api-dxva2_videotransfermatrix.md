@@ -56,23 +56,23 @@ Describes the conversion matrices between Y'PbPr (component video) and studio R'
 
 ## -enum-fields
 
-### -field DXVA2_VideoTransferMatrixMask
+### -field DXVA2_VideoTransferMatrixMask:0x7
 
 Bitmask to validate flag values. This value is not a valid flag.
 
-### -field DXVA2_VideoTransferMatrix_Unknown
+### -field DXVA2_VideoTransferMatrix_Unknown:0
 
 Unknown. For standard-definition content, treat as DXVA2_VideoTransferMatrix_BT601. For high-definition content, treat as DXVA2_VideoTransferMatrix_BT709. (High-definition content is defined for this purpose as anything with a source height greater than 576 lines.)
 
-### -field DXVA2_VideoTransferMatrix_BT709
+### -field DXVA2_VideoTransferMatrix_BT709:1
 
 ITU-R BT.709 transfer matrix.
 
-### -field DXVA2_VideoTransferMatrix_BT601
+### -field DXVA2_VideoTransferMatrix_BT601:2
 
 ITU-R BT.601 transfer matrix. Also used for SMPTE 170 and ITU-R BT.470-2 System B,G.
 
-### -field DXVA2_VideoTransferMatrix_SMPTE240M
+### -field DXVA2_VideoTransferMatrix_SMPTE240M:3
 
 SMPTE 240M transfer matrix.
 

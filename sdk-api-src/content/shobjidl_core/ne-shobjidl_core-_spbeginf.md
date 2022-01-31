@@ -55,23 +55,23 @@ Used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprog
 
 ## -enum-fields
 
-### -field SPBEGINF_NORMAL
+### -field SPBEGINF_NORMAL:0
 
 Indicates default progress behavior.
 
-### -field SPBEGINF_AUTOTIME
+### -field SPBEGINF_AUTOTIME:0x2
 
 Indicates that the progress UI should automatically update a text field with the amount of time remaining until the action completes.
 
-### -field SPBEGINF_NOPROGRESSBAR
+### -field SPBEGINF_NOPROGRESSBAR:0x10
 
 Indicates that the UI should not display a progress bar.
 
-### -field SPBEGINF_MARQUEEPROGRESS
+### -field SPBEGINF_MARQUEEPROGRESS:0x20
 
 Indicates that the UI should use a marquee-style progress bar.
 
-### -field SPBEGINF_NOCANCELBUTTON
+### -field SPBEGINF_NOCANCELBUTTON:0x40
 
 Indicates that the UI should not include a <b>Cancel</b> button.
 

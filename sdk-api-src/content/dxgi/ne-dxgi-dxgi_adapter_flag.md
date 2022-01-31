@@ -54,21 +54,21 @@ Identifies the type of DXGI adapter.
 
 ## -enum-fields
 
-### -field DXGI_ADAPTER_FLAG_NONE
+### -field DXGI_ADAPTER_FLAG_NONE:0
 
 Specifies no flags.
 
-### -field DXGI_ADAPTER_FLAG_REMOTE
+### -field DXGI_ADAPTER_FLAG_REMOTE:1
 
 Value always set to 0. This flag is reserved.
 
-### -field DXGI_ADAPTER_FLAG_SOFTWARE
+### -field DXGI_ADAPTER_FLAG_SOFTWARE:2
 
 Specifies a software adapter. For more info about this flag, see <a href="/windows/desktop/direct3ddxgi/d3d10-graphics-programming-guide-dxgi">new info in Windows 8 about enumerating adapters</a>.
 
 <b>Direct3D 11:  </b>This enumeration value is supported starting with Windows 8.
 
-### -field DXGI_ADAPTER_FLAG_FORCE_DWORD
+### -field DXGI_ADAPTER_FLAG_FORCE_DWORD:0xffffffff
 
 Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile 
           to a size other than 32 bits. This value is not used.

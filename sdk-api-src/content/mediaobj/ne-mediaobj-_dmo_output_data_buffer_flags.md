@@ -54,24 +54,24 @@ The <b>DMO_OUTPUT_DATA_BUFFER_FLAGS</b> enumeration defines flags that describe 
 
 ## -enum-fields
 
-### -field DMO_OUTPUT_DATA_BUFFERF_SYNCPOINT
+### -field DMO_OUTPUT_DATA_BUFFERF_SYNCPOINT:0x1
 
 The beginning of the data is a synchronization point.
           A <i>synchronization point</i> is a random access point. For encoded video, this a sample that can be used as a decoding start point (key frame). For uncompressed audio or video, every sample is a synchronization point.
 
-### -field DMO_OUTPUT_DATA_BUFFERF_TIME
+### -field DMO_OUTPUT_DATA_BUFFERF_TIME:0x2
 
 The buffer's time stamp is valid.
 
 The buffer's indicated time length is valid.
 
-### -field DMO_OUTPUT_DATA_BUFFERF_TIMELENGTH
+### -field DMO_OUTPUT_DATA_BUFFERF_TIMELENGTH:0x4
 
 The buffer's indicated time length is valid.
 
-### -field DMO_OUTPUT_DATA_BUFFERF_DISCONTINUITY
+### -field DMO_OUTPUT_DATA_BUFFERF_DISCONTINUITY:0x8
 
-### -field DMO_OUTPUT_DATA_BUFFERF_INCOMPLETE
+### -field DMO_OUTPUT_DATA_BUFFERF_INCOMPLETE:0x1000000
 
 There is still input data available for processing, but the output buffer is full.
 

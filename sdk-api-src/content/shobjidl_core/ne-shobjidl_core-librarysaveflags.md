@@ -54,15 +54,15 @@ Specifies the options for handling a name collision when saving a library.
 
 ## -enum-fields
 
-### -field LSF_FAILIFTHERE
+### -field LSF_FAILIFTHERE:0
 
 If a library with the same name already exists, the save operation fails.
 
-### -field LSF_OVERRIDEEXISTING
+### -field LSF_OVERRIDEEXISTING:0x1
 
 If a library with the same name already exists, the save operation overwrites the existing library.
 
-### -field LSF_MAKEUNIQUENAME
+### -field LSF_MAKEUNIQUENAME:0x2
 
 If a library with the same name already exists, the save operation generates a new, unique name for the library.
 

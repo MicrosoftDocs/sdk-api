@@ -36,11 +36,11 @@ Specifies the type of a per-service state directory.
 
 ## -enum-fields
 
-### -field ServiceDirectoryPersistentState
+### -field ServiceDirectoryPersistentState:0
 
 Mutable, persistent service state. This state is both readable and writable by the service, and is inaccessible outside of the service. This state persists across reboots and and OS updates.
 
-### -field ServiceDirectoryTypeMax
+### -field ServiceDirectoryTypeMax:1
 
 Reserved. Represents the maximum value of the enumeration.
 

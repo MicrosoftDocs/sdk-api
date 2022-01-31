@@ -54,15 +54,15 @@ Defines priority levels for a command queue.
 
 ## -enum-fields
 
-### -field D3D12_COMMAND_QUEUE_PRIORITY_NORMAL
+### -field D3D12_COMMAND_QUEUE_PRIORITY_NORMAL:0
 
 Normal priority.
 
-### -field D3D12_COMMAND_QUEUE_PRIORITY_HIGH
+### -field D3D12_COMMAND_QUEUE_PRIORITY_HIGH:100
 
 High priority.
 
-### -field D3D12_COMMAND_QUEUE_PRIORITY_GLOBAL_REALTIME
+### -field D3D12_COMMAND_QUEUE_PRIORITY_GLOBAL_REALTIME:10000
 
 Global realtime priority.
 

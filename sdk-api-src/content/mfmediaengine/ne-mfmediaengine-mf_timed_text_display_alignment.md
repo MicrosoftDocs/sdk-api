@@ -54,15 +54,15 @@ Specifies how text is aligned with the display.
 
 ## -enum-fields
 
-### -field MF_TIMED_TEXT_DISPLAY_ALIGNMENT_BEFORE
+### -field MF_TIMED_TEXT_DISPLAY_ALIGNMENT_BEFORE:0
 
 Text is aligned before an element.
 
-### -field MF_TIMED_TEXT_DISPLAY_ALIGNMENT_AFTER
+### -field MF_TIMED_TEXT_DISPLAY_ALIGNMENT_AFTER:1
 
 Text is aligned after an element.
 
-### -field MF_TIMED_TEXT_DISPLAY_ALIGNMENT_CENTER
+### -field MF_TIMED_TEXT_DISPLAY_ALIGNMENT_CENTER:2
 
 Text is aligned in the center between elements.
 

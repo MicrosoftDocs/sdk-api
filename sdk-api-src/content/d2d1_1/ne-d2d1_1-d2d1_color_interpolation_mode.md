@@ -54,13 +54,13 @@ Defines how to interpolate between colors.
 
 ## -enum-fields
 
-### -field D2D1_COLOR_INTERPOLATION_MODE_STRAIGHT
+### -field D2D1_COLOR_INTERPOLATION_MODE_STRAIGHT:0
 
 Colors are interpolated with straight alpha.
 
-### -field D2D1_COLOR_INTERPOLATION_MODE_PREMULTIPLIED
+### -field D2D1_COLOR_INTERPOLATION_MODE_PREMULTIPLIED:1
 
 Colors are interpolated with premultiplied alpha.
 
-### -field D2D1_COLOR_INTERPOLATION_MODE_FORCE_DWORD
+### -field D2D1_COLOR_INTERPOLATION_MODE_FORCE_DWORD:0xffffffff
 

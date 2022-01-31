@@ -48,7 +48,7 @@ Defines constants that specify protected resource session flags. These flags can
 
 ## -enum-fields
 
-### -field D3D12_PROTECTED_RESOURCE_SESSION_FLAG_NONE
+### -field D3D12_PROTECTED_RESOURCE_SESSION_FLAG_NONE:0
 
 Specifies no flag.
 

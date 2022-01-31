@@ -56,19 +56,19 @@ Contains values that indicate the type of status change that occurred on a Remot
 
 ## -enum-fields
 
-### -field WTSSBX_NOTIFICATION_REMOVED
+### -field WTSSBX_NOTIFICATION_REMOVED:0x1
 
 RD Connection Broker received a Removed notification. This indicates that a user has logged off an RD Session Host server or that an RD Session Host server left a farm in RD Connection Broker.
 
-### -field WTSSBX_NOTIFICATION_CHANGED
+### -field WTSSBX_NOTIFICATION_CHANGED:0x2
 
 RD Connection Broker received a Changed notification. This indicates that the session state of the RD Session Host server changed or that an RD Session Host server setting, such as the IP address or the maximum session limit, changed.
 
-### -field WTSSBX_NOTIFICATION_ADDED
+### -field WTSSBX_NOTIFICATION_ADDED:0x4
 
 RD Connection Broker received  an Added notification. This indicates that a user logged into an RD Session Host server or that an RD Session Host server joined a  farm in RD Connection Broker.
 
-### -field WTSSBX_NOTIFICATION_RESYNC
+### -field WTSSBX_NOTIFICATION_RESYNC:0x8
 
 RD Connection Broker received a Resync notification. This indicates that an RD Session Host server joined a  farm in RD Connection Broker and the new RD Session Host server is now synchronizing its session information with the RD Connection Broker server.
 

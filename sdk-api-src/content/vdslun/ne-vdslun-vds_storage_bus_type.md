@@ -59,89 +59,89 @@ Defines
 
 ## -enum-fields
 
-### -field VDSBusTypeUnknown
+### -field VDSBusTypeUnknown:0
 
 This value is reserved.
 
-### -field VDSBusTypeScsi
+### -field VDSBusTypeScsi:0x1
 
 The storage bus type is SCSI.
 
-### -field VDSBusTypeAtapi
+### -field VDSBusTypeAtapi:0x2
 
 The storage bus type is ATAPI.
 
-### -field VDSBusTypeAta
+### -field VDSBusTypeAta:0x3
 
 The storage bus type is ATA.
 
-### -field VDSBusType1394
+### -field VDSBusType1394:0x4
 
 The storage bus type is IEEE 1394.
 
-### -field VDSBusTypeSsa
+### -field VDSBusTypeSsa:0x5
 
 The storage bus type is SSA.
 
-### -field VDSBusTypeFibre
+### -field VDSBusTypeFibre:0x6
 
 The storage bus type is Fibre Channel.
 
-### -field VDSBusTypeUsb
+### -field VDSBusTypeUsb:0x7
 
 The storage bus type is USB.
 
-### -field VDSBusTypeRAID
+### -field VDSBusTypeRAID:0x8
 
 The storage bus type is RAID.
 
-### -field VDSBusTypeiScsi
+### -field VDSBusTypeiScsi:0x9
 
 The storage bus type is iSCSI.
 
-### -field VDSBusTypeSas
+### -field VDSBusTypeSas:0xa
 
 The storage bus type is Serial Attached SCSI (SAS).
 
-### -field VDSBusTypeSata
+### -field VDSBusTypeSata:0xb
 
 The storage bus type is SATA.
 
-### -field VDSBusTypeSd
+### -field VDSBusTypeSd:0xc
 
 The storage bus type is Secure Digital (SD).
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>Not supported.
 
-### -field VDSBusTypeMmc
+### -field VDSBusTypeMmc:0xd
 
 The storage bus type is MultiMedia Card (MMC).
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>Not supported.
 
-### -field VDSBusTypeMax
+### -field VDSBusTypeMax:0xe
 
 This value is reserved for system use.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>Not supported.
 
-### -field VDSBusTypeVirtual
+### -field VDSBusTypeVirtual:0xe
 
-### -field VDSBusTypeFileBackedVirtual
+### -field VDSBusTypeFileBackedVirtual:0xf
 
 The storage bus type is file-backed virtual.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>Not supported.
 
-### -field VDSBusTypeSpaces
+### -field VDSBusTypeSpaces:0x10
 
-### -field VDSBusTypeNVMe
+### -field VDSBusTypeNVMe:0x11
 
-### -field VDSBusTypeScm
+### -field VDSBusTypeScm:0x12
 
-### -field VDSBusTypeUfs
+### -field VDSBusTypeUfs:0x13
 
-### -field VDSBusTypeMaxReserved
+### -field VDSBusTypeMaxReserved:0x7f
 
 The maximum value of the storage bus type range.
 

@@ -59,11 +59,11 @@ The <b>MSVidSinkStreams</b> enumeration defines the stream types for a generic s
 
 ## -enum-fields
 
-### -field MSVidSink_Video
+### -field MSVidSink_Video:1
 
-### -field MSVidSink_Audio
+### -field MSVidSink_Audio:2
 
-### -field MSVidSink_Other
+### -field MSVidSink_Other:4
 
 #### - Audio
 

@@ -56,7 +56,7 @@ Indicates the COM+ partition on which the enclosed context runs.
 
 ## -enum-fields
 
-### -field CSC_NoPartition
+### -field CSC_NoPartition:0
 
 The enclosed context runs on the Base Application Partition. This is the default setting for <a href="/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> when <a href="/windows/desktop/api/comsvcs/ne-comsvcs-csc_inheritanceconfig">CSC_InheritanceConfig</a> is set to CSC_Ignore.
 

@@ -54,7 +54,7 @@ Describes the characteristics of a given namespace tree control.
 
 ## -enum-fields
 
-### -field NSTCS_HASEXPANDOS
+### -field NSTCS_HASEXPANDOS:0x1
 
 The control displays a triangle—known as an expando—on the leftmost edge of those items that have child items. Clicking on the expando expands the item to reveal the children of the item. Has no effect when combined with NSTCS_SHOWTABSBUTTON, NSTCS_SHOWDELETEBUTTON, or NSTCS_SHOWREFRESHBUTTON.
 
@@ -62,7 +62,7 @@ The control displays a triangle—known as an expando—on the leftmost edge of 
 
 Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-styles">TVS_HASBUTTONS</a> tree view control style.
 
-### -field NSTCS_HASLINES
+### -field NSTCS_HASLINES:0x2
 
 The control draws lines to the left of the tree items that lead to their individual parent items. Has no effect when combined with NSTCS_SHOWTABSBUTTON, NSTCS_SHOWDELETEBUTTON, or NSTCS_SHOWREFRESHBUTTON.
                     
@@ -70,7 +70,7 @@ The control draws lines to the left of the tree items that lead to their individ
 
 Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-styles">TVS_HASLINES</a> tree view control style.
 
-### -field NSTCS_SINGLECLICKEXPAND
+### -field NSTCS_SINGLECLICKEXPAND:0x4
 
 An item expands to show its child items in response to a single mouse click.
                     
@@ -78,7 +78,7 @@ An item expands to show its child items in response to a single mouse click.
 
 Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-styles">TVS_SINGLEEXPAND</a> tree view control style.
 
-### -field NSTCS_FULLROWSELECT
+### -field NSTCS_FULLROWSELECT:0x8
 
 The selection of an item fills the row with inverse text to the end of the window area, regardless of the length of the text. When this option is not declared, only the area behind text is inverted. This value cannot be combined with NSTCS_HASLINES.
 
@@ -86,14 +86,14 @@ The selection of an item fills the row with inverse text to the end of the windo
 
 Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-styles">TVS_FULLROWSELECT</a> tree view control style.
 
-### -field NSTCS_SPRINGEXPAND
+### -field NSTCS_SPRINGEXPAND:0x10
 
 When one item is selected and expanded and you select a second item, the first selection automatically collapses.
                         
 
 This is the opposite of the <a href="/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_NOSINGLECOLLAPSE</a> tree view control style.
 
-### -field NSTCS_HORIZONTALSCROLL
+### -field NSTCS_HORIZONTALSCROLL:0x20
 
 The area of the window that contains the tree of namespace items has a horizontal scroll bar.
                     
@@ -101,7 +101,7 @@ The area of the window that contains the tree of namespace items has a horizonta
 
 Maps to the <a href="/windows/desktop/winmsg/window-styles">WS_HSCROLL</a> Windows style.
 
-### -field NSTCS_ROOTHASEXPANDO
+### -field NSTCS_ROOTHASEXPANDO:0x40
 
 The root item is preceded by an expando that allows expansion of the root item.
                     
@@ -109,7 +109,7 @@ The root item is preceded by an expando that allows expansion of the root item.
 
 Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-styles">TVS_LINESATROOT</a> tree view control style.
 
-### -field NSTCS_SHOWSELECTIONALWAYS
+### -field NSTCS_SHOWSELECTIONALWAYS:0x80
 
 The node of an item is outlined when the control does not have the focus.
                     
@@ -117,7 +117,7 @@ The node of an item is outlined when the control does not have the focus.
 
 Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-styles">TVS_SHOWSELALWAYS</a> tree view control style.
 
-### -field NSTCS_NOINFOTIP
+### -field NSTCS_NOINFOTIP:0x200
 
 Do not display infotips when the mouse cursor is over an item.
                     
@@ -125,7 +125,7 @@ Do not display infotips when the mouse cursor is over an item.
 
 This is the opposite of the <a href="/windows/desktop/Controls/tree-view-control-window-styles">TVS_INFOTIP</a> tree view control style.
 
-### -field NSTCS_EVENHEIGHT
+### -field NSTCS_EVENHEIGHT:0x400
 
 Sets the height of the items to an even height. By default, the height of items can be even or odd.
                     
@@ -133,11 +133,11 @@ Sets the height of the items to an even height. By default, the height of items 
 
 This is the opposite of the <a href="/windows/desktop/Controls/tree-view-control-window-styles">TVS_NONEVENHEIGHT</a> tree view control style.
 
-### -field NSTCS_NOREPLACEOPEN
+### -field NSTCS_NOREPLACEOPEN:0x800
 
 Do not replace the <b>Open</b> command in the shortcut menu with a user-defined function.
 
-### -field NSTCS_DISABLEDRAGDROP
+### -field NSTCS_DISABLEDRAGDROP:0x1000
 
 Do not allow drag-and-drop operations within the control. Note that you can still drag an item from outside of the control and drop it onto the control.
 
@@ -145,11 +145,11 @@ Do not allow drag-and-drop operations within the control. Note that you can stil
 
 Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-styles">TVS_DISABLEDRAGDROP</a> tree view control style.
 
-### -field NSTCS_NOORDERSTREAM
+### -field NSTCS_NOORDERSTREAM:0x2000
 
 Do not persist reordering changes. Used with NSTCS_FAVORITESMODE. If favorites mode is not specified, this flag has no effect.
 
-### -field NSTCS_RICHTOOLTIP
+### -field NSTCS_RICHTOOLTIP:0x4000
 
 Use a rich tooltip. Rich tooltips display the item's icon in addition to the item's text. A standard tooltip displays only the item's text. The tree view displays tooltips only for items in the tree that are partially visible.
 
@@ -159,11 +159,11 @@ Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-extended
 
 NSTCS_RICHTOOLTIP has no effect unless it is combined with NSTCS_NOINFOTIP and/or NSTCS_FAVORITESMODE. If NSTCS_NOINFOTIP is not specified, the tree view displays an infotip instead of a tooltip. If NSTCS_FAVORITESMODE is not specified, the namespace tree control always sets the <a href="/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_RICHTOOLTIP</a> style.
 
-### -field NSTCS_BORDER
+### -field NSTCS_BORDER:0x8000
 
 Draw a thin border around the control. Corresponds to <a href="/windows/desktop/winmsg/window-styles">WS_BORDER</a>.
 
-### -field NSTCS_NOEDITLABELS
+### -field NSTCS_NOEDITLABELS:0x10000
 
 Do not allow creation of an in-place edit box, which would allow the user to rename the given item.
                     
@@ -171,15 +171,15 @@ Do not allow creation of an in-place edit box, which would allow the user to ren
 
 This is the opposite of the <a href="/windows/desktop/Controls/tree-view-control-window-styles">TVS_EDITLABELS</a> tree view control style.
 
-### -field NSTCS_TABSTOP
+### -field NSTCS_TABSTOP:0x20000
 
 If the control is hosted, you can tabstop into the control. Corresponds to <a href="/windows/desktop/winmsg/extended-window-styles">WS_EX_CONTROLPARENT</a>.
 
-### -field NSTCS_FAVORITESMODE
+### -field NSTCS_FAVORITESMODE:0x80000
 
 The control has the appearance of the favorites band in Windows XP.
 
-### -field NSTCS_AUTOHSCROLL
+### -field NSTCS_AUTOHSCROLL:0x100000
 
 When you hover the mouse pointer over an item that extends past the end of the control window, the control automatically scrolls horizontally so that the item appears more fully in the window area.
 
@@ -187,7 +187,7 @@ When you hover the mouse pointer over an item that extends past the end of the c
 
 Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_AUTOHSCROLL</a> tree view control style.
 
-### -field NSTCS_FADEINOUTEXPANDOS
+### -field NSTCS_FADEINOUTEXPANDOS:0x200000
 
 If the control does not have the focus and there are items that are preceded by expandos, then these expandos are visible only when the mouse pointer is near to the control.
 
@@ -195,11 +195,11 @@ If the control does not have the focus and there are items that are preceded by 
 
 Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_FADEINOUTEXPANDOS</a> tree view control style.
 
-### -field NSTCS_EMPTYTEXT
+### -field NSTCS_EMPTYTEXT:0x400000
 
 If an item has no children and is not expanded, then that item contains a line of text at the child level that says "empty".
 
-### -field NSTCS_CHECKBOXES
+### -field NSTCS_CHECKBOXES:0x800000
 
 Items have check boxes on their leftmost side. These check boxes can be of types partial, exclusion or dimmed, which correspond to the flags NSTCS_PARTIALCHECKBOXES, NSTCS_EXCLUSIONCHECKBOXES, and NSTCS_DIMMEDCHECKBOXES.
 
@@ -207,7 +207,7 @@ Items have check boxes on their leftmost side. These check boxes can be of types
 
 Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-styles">TVS_CHECKBOXES</a> tree view control style.
 
-### -field NSTCS_PARTIALCHECKBOXES
+### -field NSTCS_PARTIALCHECKBOXES:0x1000000
 
 Adds a checkbox icon on the leftmost side of a given item with a square in the center, that indicates that the node is partially selected. Must be combined with NSTCS_CHECKBOXES.
 
@@ -215,7 +215,7 @@ Adds a checkbox icon on the leftmost side of a given item with a square in the c
 
 Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_PARTIALCHECKBOXES</a> tree view control style.
 
-### -field NSTCS_EXCLUSIONCHECKBOXES
+### -field NSTCS_EXCLUSIONCHECKBOXES:0x2000000
 
 Adds a checkbox icon on the leftmost side of a given item that contains a red <b>X</b>, which indicates that the item is excluded from the current selection. Without this exclusion icon, selection of a parent item includes selection of its child items. Must be combined with NSTCS_CHECKBOXES.
 
@@ -223,7 +223,7 @@ Adds a checkbox icon on the leftmost side of a given item that contains a red <b
 
 Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_EXCLUSIONCHECKBOXES</a> tree view control style.
 
-### -field NSTCS_DIMMEDCHECKBOXES
+### -field NSTCS_DIMMEDCHECKBOXES:0x4000000
 
 Adds a checkbox on the leftmost side of a given item that contains an icon of a dimmed check mark, that indicates that a node is selected because its parent is selected. Must be combined with NSTCS_CHECKBOXES.
 
@@ -231,7 +231,7 @@ Adds a checkbox on the leftmost side of a given item that contains an icon of a 
 
 Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_DIMMEDCHECKBOXES</a> tree view control style.
 
-### -field NSTCS_NOINDENTCHECKS
+### -field NSTCS_NOINDENTCHECKS:0x8000000
 
 Check boxes are located at the far left edge of the window area instead of being indented.
                     
@@ -239,7 +239,7 @@ Check boxes are located at the far left edge of the window area instead of being
 
 Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_NOINDENTSTATE</a> tree view control style.
 
-### -field NSTCS_ALLOWJUNCTIONS
+### -field NSTCS_ALLOWJUNCTIONS:0x10000000
 
 Allow junctions. A junction point, or just junction, is a root of a namespace extension that is normally displayed by Windows Explorer as a folder in both tree and folder views. For Windows Explorer to display your extension's files and subfolders, you must specify where the root folder is located in the Shell namespace hierarchy.
                     
@@ -247,11 +247,11 @@ Allow junctions. A junction point, or just junction, is a root of a namespace ex
 
 Junctions exist in the file system as files, but are not treated as files. An example is a compressed file with a .zip file name extension, which to the file system is just a file. However, if this file is treated as a junction, it can represent an entire namespace. This allows the namespace tree control to treat compressed files and similar junctions as folders rather than as files.
 
-### -field NSTCS_SHOWTABSBUTTON
+### -field NSTCS_SHOWTABSBUTTON:0x20000000
 
 Displays an arrow on the right side of an item if the item is a folder. The action associated with the arrow is implementation specific. Cannot be combined with NSTCS_SHOWDELETEBUTTON or NSTCS_SHOWREFRESHBUTTON.
 
-### -field NSTCS_SHOWDELETEBUTTON
+### -field NSTCS_SHOWDELETEBUTTON:0x40000000
 
 Displays a red <b>X</b> on the right side of an item. The action associated with the <b>X</b> is implementation specific. Cannot be combined with NSTCS_SHOWTABSBUTTON or NSTCS_SHOWREFRESHBUTTON.
 

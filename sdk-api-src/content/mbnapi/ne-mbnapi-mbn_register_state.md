@@ -57,7 +57,7 @@ The <b>MBN_REGISTER_STATE</b> enumerated type indicates the network registration
 
 ## -enum-fields
 
-### -field MBN_REGISTER_STATE_NONE
+### -field MBN_REGISTER_STATE_NONE:0
 
 The device registration state is unknown.  This state may be set upon failure of registration mode change requests.
 

@@ -56,7 +56,7 @@ Defines the identifiers that identify the system-specific properties of an event
 
 ## -enum-fields
 
-### -field EvtSystemProviderName
+### -field EvtSystemProviderName:0
 
 Identifies the <b>Name</b> attribute of the provider element. The variant type for this property is <b>EvtVarTypeString</b>.
 

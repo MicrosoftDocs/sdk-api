@@ -56,51 +56,51 @@ The events on the <a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-i
 
 ## -enum-fields
 
-### -field EventMask_InPlaceStateChanging
+### -field EventMask_InPlaceStateChanging:1
 
 Occurs when the correction mode is about to change.
 
-### -field EventMask_InPlaceStateChanged
+### -field EventMask_InPlaceStateChanged:2
 
 Occurs when the correction mode has changed.
 
-### -field EventMask_InPlaceSizeChanging
+### -field EventMask_InPlaceSizeChanging:4
 
 Occurs when the in-place Input Panel size is about to change due to user resizing, auto growth or an input area change.
 
-### -field EventMask_InPlaceSizeChanged
+### -field EventMask_InPlaceSizeChanged:8
 
 Occurs when the in-place Input Panel size has changed due to a user resize, auto growth, or an input area change.
 
-### -field EventMask_InputAreaChanging
+### -field EventMask_InputAreaChanging:16
 
 Occurs when the input area is about to change.
 
-### -field EventMask_InputAreaChanged
+### -field EventMask_InputAreaChanged:32
 
 Occurs when the input area has changed.
 
-### -field EventMask_CorrectionModeChanging
+### -field EventMask_CorrectionModeChanging:64
 
 Occurs when the correction mode is about to change.
 
-### -field EventMask_CorrectionModeChanged
+### -field EventMask_CorrectionModeChanged:128
 
 Occurs when the correction mode has changed.
 
-### -field EventMask_InPlaceVisibilityChanging
+### -field EventMask_InPlaceVisibilityChanging:256
 
 Occurs when the in-place Input Panel visibility is about to change.
 
-### -field EventMask_InPlaceVisibilityChanged
+### -field EventMask_InPlaceVisibilityChanged:512
 
 Occurs when the input area has changed.
 
-### -field EventMask_TextInserting
+### -field EventMask_TextInserting:1024
 
 Occurs when Tablet PC Input Panel is about to insert text into the control with input focus.
 
-### -field EventMask_TextInserted
+### -field EventMask_TextInserted:2048
 
 Occurs when the Tablet PC Input Panel has inserted text into the control with input focus.
 

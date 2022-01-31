@@ -56,7 +56,7 @@ Values that identify the intended use of constant-buffer data.
 
 ## -enum-fields
 
-### -field D3D_CT_CBUFFER
+### -field D3D_CT_CBUFFER:0
 
 A buffer containing scalar constants.
 

@@ -59,82 +59,82 @@ Defines the set of
 
 ## -enum-fields
 
-### -field VDS_VF_SYSTEM_VOLUME
+### -field VDS_VF_SYSTEM_VOLUME:0x1
 
 The volume is a system volume.
 
-### -field VDS_VF_BOOT_VOLUME
+### -field VDS_VF_BOOT_VOLUME:0x2
 
 The volume is the boot volume.
 
-### -field VDS_VF_ACTIVE
+### -field VDS_VF_ACTIVE:0x4
 
 The volume is active. That is, the <i>bootIndicator</i> value of the 
       underlying partition is set to true.
 
-### -field VDS_VF_READONLY
+### -field VDS_VF_READONLY:0x8
 
 The volume has a drive letter and a Mount Manager–assigned volume GUID name, and is enumerated by the <b>FindFirstVolume</b> and <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextvolumew">FindNextVolume</a> functions. However, the volume is read-only. This flag does not apply to CD-ROM or DVD devices.
 
-### -field VDS_VF_HIDDEN
+### -field VDS_VF_HIDDEN:0x10
 
 The volume does not have a drive letter and a Mount Manager–assigned volume GUID name. The volume is not enumerated by the <b>FindFirstVolume</b> and <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextvolumew">FindNextVolume</a> functions. The volume can be opened by using its device name, and the opened volume can be read from or written to. An example of a volume device name is \\?\GLOBALROOT\Device\HarddiskVolumeX. This flag does not apply to CD-ROM or DVD devices.
 
-### -field VDS_VF_CAN_EXTEND
+### -field VDS_VF_CAN_EXTEND:0x20
 
 The volume size can be extended.
 
-### -field VDS_VF_CAN_SHRINK
+### -field VDS_VF_CAN_SHRINK:0x40
 
 The volume size can be reduced.
 
-### -field VDS_VF_PAGEFILE
+### -field VDS_VF_PAGEFILE:0x80
 
 The volume contains a pagefile.
 
-### -field VDS_VF_HIBERNATION
+### -field VDS_VF_HIBERNATION:0x100
 
 The volume contains a hibernation file.
 
-### -field VDS_VF_CRASHDUMP
+### -field VDS_VF_CRASHDUMP:0x200
 
 The volume contains the crash dump file.
 
-### -field VDS_VF_INSTALLABLE
+### -field VDS_VF_INSTALLABLE:0x400
 
 VDS creates a hard partition under a dynamic volume that callers can use to install an operating system. Clearing this flag causes the partition to be deleted. This flag can be set or cleared only for dynamic disks; it is always set for basic disks. This flag does not apply to CD-ROM or DVD devices.
 
-### -field VDS_VF_LBN_REMAP_ENABLED
+### -field VDS_VF_LBN_REMAP_ENABLED:0x800
 
 VDS can change the position of the volume on the disk dynamically. This flag is not valid for basic 
       or dynamic volumes and is supported only by some third-party volume managers.
 
-### -field VDS_VF_FORMATTING
+### -field VDS_VF_FORMATTING:0x1000
 
 The volume is being formatted.
 
-### -field VDS_VF_NOT_FORMATTABLE
+### -field VDS_VF_NOT_FORMATTABLE:0x2000
 
 The volume cannot be formatted. This flag applies to small portable memory devices, removable 
       devices, CDROM devices, and DVD devices. For CD and DVD devices, this is always set when there is media in the 
       drive, and is not set if there is no media in the drive.
 
-### -field VDS_VF_NTFS_NOT_SUPPORTED
+### -field VDS_VF_NTFS_NOT_SUPPORTED:0x4000
 
 The volume does not support NTFS, but can support other file systems. This flag applies to small 
       portable memory devices, removable devices, CDROM devices, and DVD devices.
 
-### -field VDS_VF_FAT32_NOT_SUPPORTED
+### -field VDS_VF_FAT32_NOT_SUPPORTED:0x8000
 
 The volume does not support FAT32. This flag applies to small portable memory devices, removable 
       devices, CDROM devices, and DVD devices.
 
-### -field VDS_VF_FAT_NOT_SUPPORTED
+### -field VDS_VF_FAT_NOT_SUPPORTED:0x10000
 
 The volume does not support FAT. This flag applies to small portable memory devices, removable 
       devices, CDROM devices, and DVD devices.
 
-### -field VDS_VF_NO_DEFAULT_DRIVE_LETTER
+### -field VDS_VF_NO_DEFAULT_DRIVE_LETTER:0x20000
 
 The operating system does not assign a drive letter automatically the next time the volume is added to the computer. 
       If cleared, the operating system assigns a drive letter to the volume under some conditions. For basic GPT 
@@ -142,7 +142,7 @@ The operating system does not assign a drive letter automatically the next time 
 
 <b>Windows Server 2003:  </b>On dynamic volumes, this flag is always set and cannot be cleared. On basic volumes, it is cleared by default and can be set or cleared only by calling the <a href="/windows/desktop/api/vds/nf-vds-ivdsvolume-setflags">IVdsVolume::SetFlags</a> or <a href="/windows/desktop/api/vds/nf-vds-ivdsvolume-clearflags">IVdsVolume::ClearFlags</a> method.
 
-### -field VDS_VF_PERMANENTLY_DISMOUNTED
+### -field VDS_VF_PERMANENTLY_DISMOUNTED:0x40000
 
 The volume is offline. Volume open will succeed on an offline volume. However, I/O against an offline volume will fail. Assigning an access path, such as a drive letter, to an offline volume causes it to become online. To set this flag, call the <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf-dismount">IVdsVolumeMF::Dismount</a> 
       method, setting the <i>bForce</i> and <i>bPermanent</i> parameters to 
@@ -152,11 +152,11 @@ The volume is offline. Volume open will succeed on an offline volume. However, I
 
 When a volume is offline, this flag is set in the <b>ulFlags</b> member of the <a href="/windows/desktop/api/vds/ns-vds-vds_volume_prop">VDS_VOLUME_PROP</a> structure, and the <b>VDS_VS_OFFLINE</b> flag is also set in the <b>status</b> member of the <b>VDS_VOLUME_PROP</b> or <a href="/windows/desktop/api/vds/ns-vds-vds_volume_prop2">VDS_VOLUME_PROP2</a> structure.<b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>The <b>VDS_VS_OFFLINE</b> flag is not supported.
 
-### -field VDS_VF_PERMANENT_DISMOUNT_SUPPORTED
+### -field VDS_VF_PERMANENT_DISMOUNT_SUPPORTED:0x80000
 
 The volume can be taken offline.
 
-### -field VDS_VF_SHADOW_COPY
+### -field VDS_VF_SHADOW_COPY:0x100000
 
 The volume is a shadow copy of another volume. This flag is set when the shadow copy is created. It is 
       cleared when the shadow copy is broken from the original volume. The <b>VDS_VF_SHADOW_COPY</b> 
@@ -169,23 +169,23 @@ The volume is a shadow copy of another volume. This flag is set when the shadow 
 
 <b>Windows Server 2003:  </b>This flag is not supported before Windows Server 2003 with SP1.
 
-### -field VDS_VF_FVE_ENABLED
+### -field VDS_VF_FVE_ENABLED:0x200000
 
 The volume is protected by BitLocker full-volume encryption. This flag does not apply to CD-ROM or DVD devices.
 
 <b>Windows Server 2003:  </b>This flag is not supported.
 
-### -field VDS_VF_DIRTY
+### -field VDS_VF_DIRTY:0x400000
 
 The volume's dirty bit is set.
 
 <b>Windows Server 2003:  </b>This flag is not supported.
 
-### -field VDS_VF_REFS_NOT_SUPPORTED
+### -field VDS_VF_REFS_NOT_SUPPORTED:0x800000
 
-### -field VDS_VF_BACKS_BOOT_VOLUME
+### -field VDS_VF_BACKS_BOOT_VOLUME:0x1000000
 
-### -field VDS_VF_BACKED_BY_WIM_IMAGE
+### -field VDS_VF_BACKED_BY_WIM_IMAGE:0x2000000
 
 ## -remarks
 

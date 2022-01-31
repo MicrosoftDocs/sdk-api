@@ -56,7 +56,7 @@ The <b>ADS_ESCAPE_MODE_ENUM</b> enumeration specifies how escape characters are 
 
 ## -enum-fields
 
-### -field ADS_ESCAPEDMODE_DEFAULT
+### -field ADS_ESCAPEDMODE_DEFAULT:1
 
 The default escape mode provides a convenient option to specify the escape mode. It has the effect of minimal escape operation appropriate for a chosen format. Thus, the default behavior depends on the value that  <a href="/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a> uses to retrieve the directory paths.
 
@@ -103,15 +103,15 @@ The default escape mode provides a convenient option to specify the escape mode.
 </tr>
 </table>
 
-### -field ADS_ESCAPEDMODE_ON
+### -field ADS_ESCAPEDMODE_ON:2
 
 All special characters are displayed in the escape format; for example, "CN=date\=yy\/mm\/dd\,weekday" appears as is.
 
-### -field ADS_ESCAPEDMODE_OFF
+### -field ADS_ESCAPEDMODE_OFF:3
 
 ADSI special characters are displayed in the unescaped format; for example, "CN=date\=yy\/mm\/dd\,weekday" appears as "CN=date\=yy/mm/dd\,weekday".
 
-### -field ADS_ESCAPEDMODE_OFF_EX
+### -field ADS_ESCAPEDMODE_OFF_EX:4
 
 ADSI and LDAP special characters are displayed in the  unescaped format; for example, "CN=date\=yy\/mm\/dd\,weekday" appears as "CN=date=yy/mm/dd,weekday".
 

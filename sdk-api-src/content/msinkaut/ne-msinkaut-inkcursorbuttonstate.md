@@ -54,7 +54,7 @@ Defines values that specify the state of a cursor button.
 
 ## -enum-fields
 
-### -field ICBS_Unavailable
+### -field ICBS_Unavailable:0
 
 The cursor button is unavailable. A cursor button may become unavailable, for example, when a cursor leaves the range of Tablet PC.
 

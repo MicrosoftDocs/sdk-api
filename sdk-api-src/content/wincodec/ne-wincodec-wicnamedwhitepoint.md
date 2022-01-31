@@ -54,43 +54,43 @@ Specifies named white balances for raw images.
 
 ## -enum-fields
 
-### -field WICWhitePointDefault
+### -field WICWhitePointDefault:0x1
 
 The default white balance.
 
-### -field WICWhitePointDaylight
+### -field WICWhitePointDaylight:0x2
 
 A daylight white balance.
 
-### -field WICWhitePointCloudy
+### -field WICWhitePointCloudy:0x4
 
 A cloudy white balance.
 
-### -field WICWhitePointShade
+### -field WICWhitePointShade:0x8
 
 A shade white balance.
 
-### -field WICWhitePointTungsten
+### -field WICWhitePointTungsten:0x10
 
 A tungsten white balance.
 
-### -field WICWhitePointFluorescent
+### -field WICWhitePointFluorescent:0x20
 
 A fluorescent white balance.
 
-### -field WICWhitePointFlash
+### -field WICWhitePointFlash:0x40
 
 Daylight white balance.
 
-### -field WICWhitePointUnderwater
+### -field WICWhitePointUnderwater:0x80
 
 A flash white balance.
 
-### -field WICWhitePointCustom
+### -field WICWhitePointCustom:0x100
 
 A custom white balance. This is typically used when using a picture (grey-card) as white balance.
 
-### -field WICWhitePointAutoWhiteBalance
+### -field WICWhitePointAutoWhiteBalance:0x200
 
 An automatic balance.
 
@@ -98,5 +98,5 @@ An automatic balance.
 
 An "as shot" white balance.
 
-### -field WICNAMEDWHITEPOINT_FORCE_DWORD
+### -field WICNAMEDWHITEPOINT_FORCE_DWORD:0x7fffffff
 

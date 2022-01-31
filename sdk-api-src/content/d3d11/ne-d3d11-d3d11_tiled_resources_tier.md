@@ -54,11 +54,11 @@ Indicates the tier level at which tiled resources are supported.
 
 ## -enum-fields
 
-### -field D3D11_TILED_RESOURCES_NOT_SUPPORTED
+### -field D3D11_TILED_RESOURCES_NOT_SUPPORTED:0
 
 Tiled resources are not supported.
 
-### -field D3D11_TILED_RESOURCES_TIER_1
+### -field D3D11_TILED_RESOURCES_TIER_1:1
 
 Tier_1 tiled resources are supported.
 
@@ -70,7 +70,7 @@ The device supports calls to <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11
 
 If you access tiles (read or write) that are <b>NULL</b>-mapped, you get undefined behavior, which includes device-removed.  Apps can map all tiles to a single "default" tile to avoid this condition.
 
-### -field D3D11_TILED_RESOURCES_TIER_2
+### -field D3D11_TILED_RESOURCES_TIER_2:2
 
 Tier_2 tiled resources are supported.
             
@@ -88,7 +88,7 @@ Superset of Tier_1 functionality, which includes this additional support:
               </li>
 </ul>
 
-### -field D3D11_TILED_RESOURCES_TIER_3
+### -field D3D11_TILED_RESOURCES_TIER_3:3
 
 Tier_3 tiled resources are supported.
             

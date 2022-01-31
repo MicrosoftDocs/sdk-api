@@ -56,31 +56,31 @@ The <b>VMR9SurfaceAllocationFlags</b> enumeration type is used with the <a href=
 
 ## -enum-fields
 
-### -field VMR9AllocFlag_3DRenderTarget
+### -field VMR9AllocFlag_3DRenderTarget:0x1
 
 Indicates that the surface is a Direct3D render target.
 
-### -field VMR9AllocFlag_DXVATarget
+### -field VMR9AllocFlag_DXVATarget:0x2
 
 Indicates that the render target supports DXVA.
 
-### -field VMR9AllocFlag_TextureSurface
+### -field VMR9AllocFlag_TextureSurface:0x4
 
 Indicates that the target is a Direct3D texture surface.
 
-### -field VMR9AllocFlag_OffscreenSurface
+### -field VMR9AllocFlag_OffscreenSurface:0x8
 
 Indicates an offscreen surface.
 
-### -field VMR9AllocFlag_RGBDynamicSwitch
+### -field VMR9AllocFlag_RGBDynamicSwitch:0x10
 
 In YUV mixing mode, indicates that the mixer can accept RGB formats in addition to the specified YUV format. The allocator-presenter can switch between the formats dynamically. This flag is only valid in YUV mixing mode.
 
-### -field VMR9AllocFlag_UsageReserved
+### -field VMR9AllocFlag_UsageReserved:0xe0
 
 Reserved for future use.
 
-### -field VMR9AllocFlag_UsageMask
+### -field VMR9AllocFlag_UsageMask:0xff
 
 Bitwise <b>OR</b> of all flags; not used by applications
 

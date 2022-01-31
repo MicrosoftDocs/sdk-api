@@ -56,15 +56,15 @@ Indicates the level of confidence the recognizer has in the recognition result.
 
 ## -enum-fields
 
-### -field CFL_STRONG
+### -field CFL_STRONG:0
 
 The recognizer is confident that the best alternate is correct.
 
-### -field CFL_INTERMEDIATE
+### -field CFL_INTERMEDIATE:1
 
 The recognizer is confident that the correct result is in the list of alternates.
 
-### -field CFL_POOR
+### -field CFL_POOR:2
 
 The recognizer is not confident that the result is in the list of alternates.
 

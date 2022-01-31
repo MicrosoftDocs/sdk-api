@@ -54,11 +54,11 @@ api_name:
 
 ## -enum-fields
 
-### -field D3D11_COPY_NO_OVERWRITE
+### -field D3D11_COPY_NO_OVERWRITE:0x1
 
 The existing contents of the resource cannot be overwritten.
 
-### -field D3D11_COPY_DISCARD
+### -field D3D11_COPY_DISCARD:0x2
 
 The existing contents of the resource are undefined and can be discarded.
 

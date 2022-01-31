@@ -58,7 +58,7 @@ The <b>AM_WST_SERVICE</b> enumeration is not supported.
 
 ## -enum-fields
 
-### -field AM_WST_SERVICE_None
+### -field AM_WST_SERVICE_None:0
 
 Reserved.
 

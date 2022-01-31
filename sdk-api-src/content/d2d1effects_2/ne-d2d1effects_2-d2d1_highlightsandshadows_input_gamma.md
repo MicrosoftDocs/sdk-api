@@ -55,12 +55,12 @@ Values for the <a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1
 
 ## -enum-fields
 
-### -field D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA_LINEAR
+### -field D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA_LINEAR:0
 
 Indicates the input image is in linear gamma space.
 
-### -field D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA_SRGB
+### -field D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA_SRGB:1
 
 Indicates the input image is sRGB gamma space.
 
-### -field D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA_FORCE_DWORD
+### -field D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA_FORCE_DWORD:0xffffffff

@@ -57,7 +57,7 @@ includes an additional 4 bytes (2 bytes of ID, 2 bytes of Length).
 
 ## -enum-fields
 
-### -field WCN_TYPE_AP_CHANNEL
+### -field WCN_TYPE_AP_CHANNEL:0
 
 This attribute value indicates that the <i>puInteger</i> parameter of the <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method is a value containing data that specifies the 802.11 channel the access point is hosting.
 

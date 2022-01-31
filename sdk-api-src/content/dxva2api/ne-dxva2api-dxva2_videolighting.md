@@ -56,27 +56,27 @@ Describes the intended lighting conditions for viewing video content. These flag
 
 ## -enum-fields
 
-### -field DXVA2_VideoLightingMask
+### -field DXVA2_VideoLightingMask:0xf
 
 Bitmask to validate flag values. This value is not a valid flag.
 
-### -field DXVA2_VideoLighting_Unknown
+### -field DXVA2_VideoLighting_Unknown:0
 
 Unknown. Treat as DXVA2_VideoLighting_dim.
 
-### -field DXVA2_VideoLighting_bright
+### -field DXVA2_VideoLighting_bright:1
 
 Outdoor lighting.
 
-### -field DXVA2_VideoLighting_office
+### -field DXVA2_VideoLighting_office:2
 
 Medium brightness; for example, an office.
 
-### -field DXVA2_VideoLighting_dim
+### -field DXVA2_VideoLighting_dim:3
 
 Dim; for example, a living room with a television and some additional low lighting.
 
-### -field DXVA2_VideoLighting_dark
+### -field DXVA2_VideoLighting_dark:4
 
 Dark; for example, a movie theater.
 

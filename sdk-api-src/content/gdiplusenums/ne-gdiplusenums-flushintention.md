@@ -55,7 +55,7 @@ The <b>FlushIntention</b> enumeration specifies when to flush the queue of graph
 
 ## -enum-fields
 
-### -field FlushIntentionFlush
+### -field FlushIntentionFlush:0
 
 When passed to the 
 				<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-flush">Graphics::Flush</a> method, specifies that pending rendering operations are executed as soon as possible. The 

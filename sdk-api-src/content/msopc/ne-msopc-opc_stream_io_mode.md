@@ -56,11 +56,11 @@ Describes the read/write status of a stream.
 
 ## -enum-fields
 
-### -field OPC_STREAM_IO_READ
+### -field OPC_STREAM_IO_READ:1
 
 Creates a read-only stream for loading an existing package.
 
-### -field OPC_STREAM_IO_WRITE
+### -field OPC_STREAM_IO_WRITE:2
 
 Creates a write-only stream for saving a new package.
 

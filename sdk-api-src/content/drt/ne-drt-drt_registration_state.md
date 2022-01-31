@@ -58,7 +58,7 @@ The <b>DRT_REGISTRATION_STATE</b> enumeration defines the set of legal states fo
 
 ## -enum-fields
 
-### -field DRT_REGISTRATION_STATE_UNRESOLVEABLE
+### -field DRT_REGISTRATION_STATE_UNRESOLVEABLE:1
 
 The locally registered key is no longer resolvable by other nodes. The Distributed Routing Table signals this state when the local security provider is unable to generate an authentication token for the locally registered key. 
 

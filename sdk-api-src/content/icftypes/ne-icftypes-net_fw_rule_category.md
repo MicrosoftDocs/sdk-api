@@ -56,7 +56,7 @@ The <b>NET_FW_RULE_CATEGORY</b> enumerated type specifies the firewall rule cate
 
 ## -enum-fields
 
-### -field NET_FW_RULE_CATEGORY_BOOT
+### -field NET_FW_RULE_CATEGORY_BOOT:0
 
 Specifies boot time filters.
 

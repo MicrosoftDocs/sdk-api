@@ -55,7 +55,7 @@ Specifies whether a storage specified contains the value, or a pointer to the va
 
 ## -enum-fields
 
-### -field WS_WRITE_REQUIRED_VALUE
+### -field WS_WRITE_REQUIRED_VALUE:1
 
 The storage specified contains the value.  The size of the storage 
                     specified should be the size of the value.
@@ -80,7 +80,7 @@ This option is not supported for pointer types
                     (<a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_WSZ_TYPE</a> and <b>WS_XML_BUFFER_TYPE</b>).  
                     The <a href="/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_REQUIRED_POINTER</a> option should be used for these types.
 
-### -field WS_WRITE_REQUIRED_POINTER
+### -field WS_WRITE_REQUIRED_POINTER:2
 
 The storage specified contains a pointer to the value.  The
                     size of the storage specified is always the size of a pointer, regardless
@@ -106,7 +106,7 @@ If the pointer to the value specified in the storage is <b>NULL</b>,
                     <b>E_INVALIDARG</b> is returned.
                 (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
-### -field WS_WRITE_NILLABLE_VALUE
+### -field WS_WRITE_NILLABLE_VALUE:3
 
 The storage specified contains a pointer to the value.  The
                     size of the storage specified is always the size of a pointer, regardless
@@ -147,7 +147,7 @@ This option is only supported for the following types, listed below,
 </li>
 </ul>
 
-### -field WS_WRITE_NILLABLE_POINTER
+### -field WS_WRITE_NILLABLE_POINTER:4
 
 For all types, the storage specified contains a pointer to the value.  The
                     size of the storage specified is always the size of a pointer, regardless

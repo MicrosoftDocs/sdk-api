@@ -54,9 +54,9 @@ The <b>ENUM_PERIOD</b> enumeration specifies the units of a time span.
 
 ## -enum-fields
 
-### -field ENUM_PERIOD_INVALID
+### -field ENUM_PERIOD_INVALID:-1
 
-### -field ENUM_PERIOD_SECONDS
+### -field ENUM_PERIOD_SECONDS:0
 
 ### -field ENUM_PERIOD_MINUTES
 

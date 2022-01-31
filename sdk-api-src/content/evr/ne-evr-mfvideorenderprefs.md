@@ -54,15 +54,15 @@ Contains flags that define how the enhanced video renderer (EVR) displays the vi
 
 ## -enum-fields
 
-### -field MFVideoRenderPrefs_DoNotRenderBorder
+### -field MFVideoRenderPrefs_DoNotRenderBorder:0x1
 
 If this flag is set, the EVR does not draw the border color. By default, the EVR draws a border on areas of the destination rectangle that have no video. See <a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setbordercolor">IMFVideoDisplayControl::SetBorderColor</a>.
 
-### -field MFVideoRenderPrefs_DoNotClipToDevice
+### -field MFVideoRenderPrefs_DoNotClipToDevice:0x2
 
 If this flag is set, the EVR does not clip the video when the video window straddles two monitors. By default, if the video window straddles two monitors, the EVR clips the video to the monitor that contains the largest area of video.
 
-### -field MFVideoRenderPrefs_AllowOutputThrottling
+### -field MFVideoRenderPrefs_AllowOutputThrottling:0x4
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.</div>
 <div> </div>
@@ -70,7 +70,7 @@ If this flag is set, the EVR does not clip the video when the video window strad
 
 Allow the EVR to limit its output to match GPU bandwidth.
 
-### -field MFVideoRenderPrefs_ForceOutputThrottling
+### -field MFVideoRenderPrefs_ForceOutputThrottling:0x8
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.</div>
 <div> </div>
@@ -79,7 +79,7 @@ Allow the EVR to limit its output to match GPU bandwidth.
 Force the EVR
             to limit its output to match GPU bandwidth.
 
-### -field MFVideoRenderPrefs_ForceBatching
+### -field MFVideoRenderPrefs_ForceBatching:0x10
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.</div>
 <div> </div>
@@ -87,7 +87,7 @@ Force the EVR
 
 Force the EVR to batch Direct3D <b>Present</b> calls. This optimization enables the system to enter to idle states more frequently, which can reduce power consumption.
 
-### -field MFVideoRenderPrefs_AllowBatching
+### -field MFVideoRenderPrefs_AllowBatching:0x20
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.</div>
 <div> </div>
@@ -95,7 +95,7 @@ Force the EVR to batch Direct3D <b>Present</b> calls. This optimization enables 
 
 Allow the EVR to batch Direct3D <b>Present</b> calls.
 
-### -field MFVideoRenderPrefs_ForceScaling
+### -field MFVideoRenderPrefs_ForceScaling:0x40
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.</div>
 <div> </div>
@@ -103,7 +103,7 @@ Allow the EVR to batch Direct3D <b>Present</b> calls.
 
 Force the EVR to mix the video inside a rectangle that is smaller than the output rectangle. The EVR will then scale the result to the correct output size. The effective resolution will be lower if this setting is applied.
 
-### -field MFVideoRenderPrefs_AllowScaling
+### -field MFVideoRenderPrefs_AllowScaling:0x80
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.</div>
 <div> </div>
@@ -112,7 +112,7 @@ Force the EVR to mix the video inside a rectangle that is smaller than the outpu
 Allow
             the EVR to mix the video inside a rectangle that is smaller than the output rectangle.
 
-### -field MFVideoRenderPrefs_DoNotRepaintOnStop
+### -field MFVideoRenderPrefs_DoNotRepaintOnStop:0x100
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.</div>
 <div> </div>
@@ -120,7 +120,7 @@ Allow
 
 Prevent the EVR from repainting the video window after a stop command. By default, the EVR repaints the video window black after a stop command.
 
-### -field MFVideoRenderPrefs_Mask
+### -field MFVideoRenderPrefs_Mask:0x1ff
 
 Bitmask to validate flag values. This value is not a valid flag.
 

@@ -54,19 +54,19 @@ The <b>X500NameFlags</b> enumeration type specifies the display and <a href="/wi
 
 ## -enum-fields
 
-### -field XCN_CERT_NAME_STR_NONE
+### -field XCN_CERT_NAME_STR_NONE:0
 
 Display characteristics are not identified.
 
-### -field XCN_CERT_SIMPLE_NAME_STR
+### -field XCN_CERT_SIMPLE_NAME_STR:1
 
 All <a href="/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) are discarded. <a href="/windows/desktop/SecGloss/r-gly">Relative distinguished names</a> (RDNs) are separated by commas followed by a space (, ). RDN attributes are separated by a plus sign enclosed within spaces ( + ).
 
-### -field XCN_CERT_OID_NAME_STR
+### -field XCN_CERT_OID_NAME_STR:2
 
 OIDs are separated from their associated attribute value by using an equal sign (=). RDNs are separated by a comma followed by a space (, ). RDN attributes are separated by a plus sign followed by a space (+ ).
 
-### -field XCN_CERT_X500_NAME_STR
+### -field XCN_CERT_X500_NAME_STR:3
 
 OIDs are converted to their <a href="/windows/desktop/SecGloss/x-gly">X.500</a> key names. They are separated from their associated attribute value by using an equal sign (=). RDNs are separated by a comma followed by a space (, ). RDN attributes are separated by a plus sign followed by a space (+ ).
 
@@ -83,7 +83,7 @@ If an OID does not have a corresponding X.500 name, the OID is used with a prefi
 <li>Embedded quotation mark (")</li>
 </ul>
 
-### -field XCN_CERT_XML_NAME_STR
+### -field XCN_CERT_XML_NAME_STR:4
 
 OIDs are treated in the same manner as that used to convert XCN_CERT_X500_NAME_ST values except that they are formatted as a sequence of XML elements. This is shown in the following example.
 
@@ -112,49 +112,49 @@ The Unicode XML markup characters are escaped in the following manner. Character
 <li>\" becomes L"&amp;quot;"</li>
 </ul>
 
-### -field XCN_CERT_NAME_STR_SEMICOLON_FLAG
+### -field XCN_CERT_NAME_STR_SEMICOLON_FLAG:0x40000000
 
 The comma (,) separator used between RDNs is replaced with a semicolon (;) character.
 
-### -field XCN_CERT_NAME_STR_NO_PLUS_FLAG
+### -field XCN_CERT_NAME_STR_NO_PLUS_FLAG:0x20000000
 
 The (+) separator used between RDN attributes is replaced with a single space character.
 
-### -field XCN_CERT_NAME_STR_NO_QUOTING_FLAG
+### -field XCN_CERT_NAME_STR_NO_QUOTING_FLAG:0x10000000
 
 Inhibits the use of quotation marks for the XCN_CERT_X500_NAME_ST value.
 
-### -field XCN_CERT_NAME_STR_CRLF_FLAG
+### -field XCN_CERT_NAME_STR_CRLF_FLAG:0x8000000
 
 The comma (,) separator used between RDNs is replaced with a carriage return/line feed (\r\n) sequence.
 
-### -field XCN_CERT_NAME_STR_COMMA_FLAG
+### -field XCN_CERT_NAME_STR_COMMA_FLAG:0x4000000
 
 Specifies that the separator between RDNs is a comma (,).
 
-### -field XCN_CERT_NAME_STR_REVERSE_FLAG
+### -field XCN_CERT_NAME_STR_REVERSE_FLAG:0x2000000
 
 Specifies that the order of the RDNs that make up the distinguished name (DN) is reversed for encoding. The typical DN display order is CN=<i>name</i>,...,DC=<i>com</i>. Use this flag to change the encoding order to DC=<i>com</i>,...,CN=<i>name</i>. An <a href="/windows/desktop/api/certenroll/nn-certenroll-ix500distinguishedname">IX500DistinguishedName</a> object sets this flag by default unless you specify  XCN_CERT_NAME_STR_FORWARD_FLAG.
 
-### -field XCN_CERT_NAME_STR_FORWARD_FLAG
+### -field XCN_CERT_NAME_STR_FORWARD_FLAG:0x1000000
 
 Use to undo the encoding order specified by setting the XCN_CERT_NAME_STR_REVERSE_FLAG value.
 
 ### -field XCN_CERT_NAME_STR_AMBIGUOUS_SEPARATOR_FLAGS
 
-### -field XCN_CERT_NAME_STR_DISABLE_IE4_UTF8_FLAG
+### -field XCN_CERT_NAME_STR_DISABLE_IE4_UTF8_FLAG:0x10000
 
 Skips the initial attempt to decode T.61 Teletex character values to UTF-8 values. By default, T.61 values are initially decoded to UTF-8, but if UTF-8 decoding fails, the values are decoded as 8-bit characters.
 
-### -field XCN_CERT_NAME_STR_ENABLE_T61_UNICODE_FLAG
+### -field XCN_CERT_NAME_STR_ENABLE_T61_UNICODE_FLAG:0x20000
 
 T.61 is used rather than Unicode character encoding for all characters less than 0xFF. LDAP, for example, uses T.61.
 
-### -field XCN_CERT_NAME_STR_ENABLE_UTF8_UNICODE_FLAG
+### -field XCN_CERT_NAME_STR_ENABLE_UTF8_UNICODE_FLAG:0x40000
 
 UTF-8 is used for the DN instead of Unicode character encoding.
 
-### -field XCN_CERT_NAME_STR_FORCE_UTF8_DIR_STR_FLAG
+### -field XCN_CERT_NAME_STR_FORCE_UTF8_DIR_STR_FLAG:0x80000
 
 Forces the following X.500 keys to be encoded as UTF-8 strings rather than printable Unicode strings.
 
@@ -225,13 +225,13 @@ Forces the following X.500 keys to be encoded as UTF-8 strings rather than print
 </tr>
 </table>
 
-### -field XCN_CERT_NAME_STR_DISABLE_UTF8_DIR_STR_FLAG
+### -field XCN_CERT_NAME_STR_DISABLE_UTF8_DIR_STR_FLAG:0x100000
 
 Prevents forcing printable Unicode strings to be encoded by using UTF-8. Use when desired when  XCN_CERT_NAME_STR_FORCE_UTF8_DIR_STR_FLAG is the default behavior.
 
-### -field XCN_CERT_NAME_STR_ENABLE_PUNYCODE_FLAG
+### -field XCN_CERT_NAME_STR_ENABLE_PUNYCODE_FLAG:0x200000
 
-### -field XCN_CERT_NAME_STR_DS_ESCAPED
+### -field XCN_CERT_NAME_STR_DS_ESCAPED:0x800000
 
 ## -see-also
 

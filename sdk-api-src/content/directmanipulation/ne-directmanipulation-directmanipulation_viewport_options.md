@@ -54,29 +54,29 @@ Defines the input behavior options for the viewport.
 
 ## -enum-fields
 
-### -field DIRECTMANIPULATION_VIEWPORT_OPTIONS_DEFAULT
+### -field DIRECTMANIPULATION_VIEWPORT_OPTIONS_DEFAULT:0
 
 No special behaviors. This is the default value used to set or revert to default behavior.
 
-### -field DIRECTMANIPULATION_VIEWPORT_OPTIONS_AUTODISABLE
+### -field DIRECTMANIPULATION_VIEWPORT_OPTIONS_AUTODISABLE:0x1
 
 At the end of an interaction, the viewport transitions to <a href="/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_status">DIRECTMANIPULATION_READY</a> and then immediately to <b>DIRECTMANIPULATION_DISABLED</b>. The viewport must be explicitly enabled through the <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-enable">Enable</a> method before the next interaction can be processed.
 
-### -field DIRECTMANIPULATION_VIEWPORT_OPTIONS_MANUALUPDATE
+### -field DIRECTMANIPULATION_VIEWPORT_OPTIONS_MANUALUPDATE:0x2
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationupdatemanager-update">Update</a> must be called to redraw the content within the viewport. The content is not updated automatically during an input event.
 
-### -field DIRECTMANIPULATION_VIEWPORT_OPTIONS_INPUT
+### -field DIRECTMANIPULATION_VIEWPORT_OPTIONS_INPUT:0x4
 
 All input from a contact associated with the viewport is passed to the UI thread for processing.
 
-### -field DIRECTMANIPULATION_VIEWPORT_OPTIONS_EXPLICITHITTEST
+### -field DIRECTMANIPULATION_VIEWPORT_OPTIONS_EXPLICITHITTEST:0x8
 
 If set, all <a href="/previous-versions/windows/desktop/inputmsg/wm-pointerdown">WM_POINTERDOWN</a> messages are passed to the application for hit testing. Otherwise, <a href="/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a> will process the messages for hit testing against the existing list of running viewports, and the application will not see the input.
 
 Applies only when viewport state is <a href="/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_status">DIRECTMANIPULATION_RUNNING</a> or <b>DIRECTMANIPULATION_INERTIA</b>.
 
-### -field DIRECTMANIPULATION_VIEWPORT_OPTIONS_DISABLEPIXELSNAPPING
+### -field DIRECTMANIPULATION_VIEWPORT_OPTIONS_DISABLEPIXELSNAPPING:0x10
 
 Specifies that pixel snapping during a manipulation is disabled.
 

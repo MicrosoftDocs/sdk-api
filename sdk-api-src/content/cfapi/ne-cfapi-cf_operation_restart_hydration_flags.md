@@ -54,11 +54,11 @@ Flags to restart data  hydration on a placeholder file or folder.
 
 ## -enum-fields
 
-### -field CF_OPERATION_RESTART_HYDRATION_FLAG_NONE
+### -field CF_OPERATION_RESTART_HYDRATION_FLAG_NONE:0x00000000
 
 No restart data hydration flag.
 
-### -field CF_OPERATION_RESTART_HYDRATION_FLAG_MARK_IN_SYNC
+### -field CF_OPERATION_RESTART_HYDRATION_FLAG_MARK_IN_SYNC:0x00000001
 
 If this flag is specified, the placeholder will be marked in-sync upon a successful RESTART_HYDRATION operation.
 

@@ -56,15 +56,15 @@ Specifies whether to allow authentication to be used to connect to a proxy or to
 
 ## -enum-fields
 
-### -field XHR_AUTH_ALL
+### -field XHR_AUTH_ALL:0
 
 Allow authentication to both proxy and server.
 
-### -field XHR_AUTH_NONE
+### -field XHR_AUTH_NONE:0x1
 
 Disable authentication to both the proxy and server.
 
-### -field XHR_AUTH_PROXY
+### -field XHR_AUTH_PROXY:0x2
 
 Enable authentication to the proxy and disable auth to the server.
 

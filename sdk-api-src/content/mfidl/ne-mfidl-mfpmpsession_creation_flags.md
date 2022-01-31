@@ -54,11 +54,11 @@ Contains flags that define the behavior of the <a href="/windows/desktop/api/mfi
 
 ## -enum-fields
 
-### -field MFPMPSESSION_UNPROTECTED_PROCESS
+### -field MFPMPSESSION_UNPROTECTED_PROCESS:0x1
 
 If this flag is set, the Protected Media Path (PMP) Media Session is created in an unprotected process. You can use the unprotected process to play clear content but not protected content. If this flag is not set, the PMP Media Session is created in a protected process. In that case, the protected process is used for both protected content and clear content.
 
-### -field MFPMPSESSION_IN_PROCESS
+### -field MFPMPSESSION_IN_PROCESS:0x2
 
 ## -see-also
 

@@ -59,11 +59,11 @@ Contains the version of the DELETE_SNAPHSOT_VHDSET_PARAMETERS structure to use i
 
 ## -enum-fields
 
-### -field DELETE_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED
+### -field DELETE_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED:0
 
 Not supported.
 
-### -field DELETE_SNAPSHOT_VHDSET_VERSION_1
+### -field DELETE_SNAPSHOT_VHDSET_VERSION_1:1
 
 The Version1 member structure will be used.
 

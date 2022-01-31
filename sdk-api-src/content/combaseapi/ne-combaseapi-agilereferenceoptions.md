@@ -54,11 +54,11 @@ Specifies options for the <a href="/windows/desktop/api/combaseapi/nf-combaseapi
 
 ## -enum-fields
 
-### -field AGILEREFERENCE_DEFAULT
+### -field AGILEREFERENCE_DEFAULT:0
 
 Use the default marshaling behavior, which is to marshal interfaces when an agile reference to the interface is obtained.
 
-### -field AGILEREFERENCE_DELAYEDMARSHAL
+### -field AGILEREFERENCE_DELAYEDMARSHAL:1
 
 Marshaling happens on demand.  Use this option only in situations where it's known that an object is only resolved from the same apartment in which it was registered.
 

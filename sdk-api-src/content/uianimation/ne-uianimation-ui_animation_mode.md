@@ -56,15 +56,15 @@ Defines animation modes.
 
 ## -enum-fields
 
-### -field UI_ANIMATION_MODE_DISABLED
+### -field UI_ANIMATION_MODE_DISABLED:0
 
 Animation is disabled.
 
-### -field UI_ANIMATION_MODE_SYSTEM_DEFAULT
+### -field UI_ANIMATION_MODE_SYSTEM_DEFAULT:1
 
 The animation mode is managed by the system.
 
-### -field UI_ANIMATION_MODE_ENABLED
+### -field UI_ANIMATION_MODE_ENABLED:2
 
 Animation is enabled.
 

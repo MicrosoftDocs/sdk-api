@@ -54,15 +54,15 @@ Specifies values that identify the font property state of a <a href="/windows/de
 
 ## -enum-fields
 
-### -field UI_FONTPROPERTIES_NOTAVAILABLE
+### -field UI_FONTPROPERTIES_NOTAVAILABLE:0
 
 The property is not available.
 
-### -field UI_FONTPROPERTIES_NOTSET
+### -field UI_FONTPROPERTIES_NOTSET:1
 
 The property is not set.
 
-### -field UI_FONTPROPERTIES_SET
+### -field UI_FONTPROPERTIES_SET:2
 
 The property is set.
 

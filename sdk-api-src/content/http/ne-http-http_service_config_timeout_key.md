@@ -58,7 +58,7 @@ The <b>HTTP_SERVICE_CONFIG_TIMEOUT_KEY</b> enumeration defines the type of timer
 
 ## -enum-fields
 
-### -field IdleConnectionTimeout
+### -field IdleConnectionTimeout:0
 
 The maximum time allowed for a connection to remain idle, after which, the connection is timed out and reset.
 

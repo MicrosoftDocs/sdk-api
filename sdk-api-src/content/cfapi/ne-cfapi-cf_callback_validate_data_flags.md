@@ -54,11 +54,11 @@ Flags to validate the data of a placeholder file or directory.
 
 ## -enum-fields
 
-### -field CF_CALLBACK_VALIDATE_DATA_FLAG_NONE
+### -field CF_CALLBACK_VALIDATE_DATA_FLAG_NONE:0x00000000
 
 No data validation flag.
 
-### -field CF_CALLBACK_VALIDATE_DATA_FLAG_EXPLICIT_HYDRATION
+### -field CF_CALLBACK_VALIDATE_DATA_FLAG_EXPLICIT_HYDRATION:0x00000002
 
 <b>Note</b>  This value is new for Windows 10, version 1803.
 

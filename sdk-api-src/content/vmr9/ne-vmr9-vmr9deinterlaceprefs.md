@@ -56,19 +56,19 @@ The <code>VMR9DeinterlacePrefs</code> enumeration type describes the deinterlaci
 
 ## -enum-fields
 
-### -field DeinterlacePref9_NextBest
+### -field DeinterlacePref9_NextBest:0x1
 
 Use the next best mode offered by the driver.
 
-### -field DeinterlacePref9_BOB
+### -field DeinterlacePref9_BOB:0x2
 
 Use the bob method.
 
-### -field DeinterlacePref9_Weave
+### -field DeinterlacePref9_Weave:0x4
 
 Use the weave method (that is, no deinterlacing).
 
-### -field DeinterlacePref9_Mask
+### -field DeinterlacePref9_Mask:0x7
 
 Bitwise OR of the previous flags. This value is used internally by the VMR, and is not a valid flag.
 

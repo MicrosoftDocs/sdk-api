@@ -55,15 +55,15 @@ Defines the notifications that are generated for a cluster shared volume.
 
 ## -enum-fields
 
-### -field CLUSTER_CHANGE_SHARED_VOLUME_STATE_V2
+### -field CLUSTER_CHANGE_SHARED_VOLUME_STATE_V2:0x1
 
 Indicates that the state of the cluster shared volume has changed.
 
-### -field CLUSTER_CHANGE_SHARED_VOLUME_ADDED_V2
+### -field CLUSTER_CHANGE_SHARED_VOLUME_ADDED_V2:0x2
 
 Indicates that the cluster shared volume was added.
 
-### -field CLUSTER_CHANGE_SHARED_VOLUME_REMOVED_V2
+### -field CLUSTER_CHANGE_SHARED_VOLUME_REMOVED_V2:0x4
 
 Indicates that the cluster shared volume was removed.
 

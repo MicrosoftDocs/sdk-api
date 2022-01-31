@@ -56,7 +56,7 @@ The <b>REPAIR_STATUS</b> enumeration describes the result of a helper class atte
 
 ## -enum-fields
 
-### -field RS_NOT_IMPLEMENTED
+### -field RS_NOT_IMPLEMENTED:0
 
 The helper class does not have a repair option implemented.
 

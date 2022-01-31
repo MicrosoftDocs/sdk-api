@@ -54,11 +54,11 @@ Used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iobjectwith
 
 ## -enum-fields
 
-### -field FEM_VIEWRESULT
+### -field FEM_VIEWRESULT:0
 
  Display mode to view the contents of a folder.
 
-### -field FEM_NAVIGATION
+### -field FEM_NAVIGATION:1
 
  Display mode to view the contents of the folders in the navigation pane.
 

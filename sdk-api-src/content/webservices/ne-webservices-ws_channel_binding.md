@@ -54,23 +54,23 @@ Indicates the protocol stack to use for the channel.
 
 ## -enum-fields
 
-### -field WS_HTTP_CHANNEL_BINDING
+### -field WS_HTTP_CHANNEL_BINDING:0
 
 SOAP over HTTP.
 
-### -field WS_TCP_CHANNEL_BINDING
+### -field WS_TCP_CHANNEL_BINDING:1
 
 SOAP over TCP.
 
-### -field WS_UDP_CHANNEL_BINDING
+### -field WS_UDP_CHANNEL_BINDING:2
 
 SOAP over UDP.
 
-### -field WS_CUSTOM_CHANNEL_BINDING
+### -field WS_CUSTOM_CHANNEL_BINDING:3
 
 A custom channel or listen implementation. For more information, see <a href="/windows/win32/api/webservices/ns-webservices-ws_custom_channel_callbacks">WS_CUSTOM_CHANNEL_CALLBACKS</a> and <a href="/windows/desktop/api/webservices/ns-webservices-ws_custom_listener_callbacks">WS_CUSTOM_LISTENER_CALLBACKS</a>.
 
-### -field WS_NAMEDPIPE_CHANNEL_BINDING
+### -field WS_NAMEDPIPE_CHANNEL_BINDING:4
 
 Windows 8 or later:
                     SOAP over named pipes.

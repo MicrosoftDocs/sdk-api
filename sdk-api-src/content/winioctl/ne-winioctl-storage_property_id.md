@@ -57,7 +57,7 @@ Enumerates the possible values of the **PropertyId** member of the [STORAGE_PROP
 
 ## -enum-fields
 
-### -field StorageDeviceProperty
+### -field StorageDeviceProperty:0
 
 Indicates that the caller is querying for the device descriptor, [STORAGE_DEVICE_DESCRIPTOR](ns-winioctl-storage_device_descriptor.md).
 
@@ -145,7 +145,7 @@ Indicates that the caller is querying for RPMB support and properties. Data is r
 
 Provides info on the storage adapter encryption capabilities. This is currently supported on UFS (Universal Flash Storage) adapters.
 
-### -field StorageDeviceIoCapabilityProperty
+### -field StorageDeviceIoCapabilityProperty:48
 
 Indicates that the caller is querying for the device I/O capability property. Data is returned using the [DEVICE_IO_CAPABILITY_DESCRIPTOR](ns-winioctl-storage_device_io_capability_descriptor.md) structure.
 
@@ -209,7 +209,7 @@ Provides info on how many bytes have been read/write from a solid-state drive (S
 
 Provides info on the state of the LED associated with a storage device. This is a server-oriented feature.
 
-### -field StorageDeviceSelfEncryptionProperty
+### -field StorageDeviceSelfEncryptionProperty:64
 
 Reserved for system use.
 

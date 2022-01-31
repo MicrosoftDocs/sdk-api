@@ -56,15 +56,15 @@ Defines flags used to determine what kind of content the subpicture stream conta
 
 ## -enum-fields
 
-### -field DVD_SPType_NotSpecified
+### -field DVD_SPType_NotSpecified:0
 
 The DVD does not specify the subpicture type.
 
-### -field DVD_SPType_Language
+### -field DVD_SPType_Language:1
 
 The subpicture contains language-related content such as movie subtitles or other text.
 
-### -field DVD_SPType_Other
+### -field DVD_SPType_Other:2
 
 The subpicture contains nonlanguage-related content such as a bouncing ball in karaoke titles.
 

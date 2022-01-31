@@ -55,11 +55,11 @@ api_name:
 
 ## -enum-fields
 
-### -field ATTRIBUTE_UNDEFINED
+### -field ATTRIBUTE_UNDEFINED:0
 
 Specifies a value equal to zero, and used as the <b>NULL</b> terminator in an array of attributes.
 
-### -field ATTRIBUTE_MIN_VALUE
+### -field ATTRIBUTE_MIN_VALUE:1
 
 Specifies the minimum value for values of this enumeration type.
 
@@ -108,7 +108,7 @@ Specifies the IP address that is configured for the user requesting authenticati
 Specifies the IP network mask for a user that is a router to a network. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
-### -field RADIUS_ATTRIBUTE_FRAMED_ROUTING
+### -field RADIUS_ATTRIBUTE_FRAMED_ROUTING:10
 
 Specifies the routing method for a user that is a router to a network. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
@@ -157,7 +157,7 @@ Specifies a message to display to the user. For more information, see
 Specifies a callback number. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
-### -field RADIUS_ATTRIBUTE_CALLBACK_ID
+### -field RADIUS_ATTRIBUTE_CALLBACK_ID:20
 
 Specifies a location to call back. The value of this attribute is interpreted by the NAS. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
@@ -206,7 +206,7 @@ Specifies the maximum number of consecutive seconds the session can be idle. If 
 Specifies an action the server performs when time the connection terminates. Refer to the above-referenced files for detailed information about this value. The value field in for this type is 32-bit integral value. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
-### -field RADIUS_ATTRIBUTE_CALLED_STATION_ID
+### -field RADIUS_ATTRIBUTE_CALLED_STATION_ID:30
 
 Specifies the number that the user dialed to connect to the NAS. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
@@ -256,7 +256,7 @@ Specifies the AppleTalk network number that the NAS should use to allocate an Ap
 Specifies the AppleTalk default zone for the user. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
-### -field RADIUS_ATTRIBUTE_ACCT_STATUS_TYPE
+### -field RADIUS_ATTRIBUTE_ACCT_STATUS_TYPE:40
 
 Specifies whether the accounting provider should start or stop accounting for the user. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a>.
@@ -306,17 +306,17 @@ Specifies the number of packets that are sent during the current accounting sess
 Specifies how the current accounting session was terminated. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a>.
 
-### -field RADIUS_ATTRIBUTE_ACCT_MULTI_SSN_ID
+### -field RADIUS_ATTRIBUTE_ACCT_MULTI_SSN_ID:50
 
 Specifies a value to enable the identification of related accounting sessions within a log file. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a>.
 
-### -field RADIUS_ATTRIBUTE_ACCT_LINK_COUNT
+### -field RADIUS_ATTRIBUTE_ACCT_LINK_COUNT:51
 
 Specifies the number of links if the current accounting session is using a multilink connection. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a>.
 
-### -field RADIUS_ATTRIBUTE_CHAP_CHALLENGE
+### -field RADIUS_ATTRIBUTE_CHAP_CHALLENGE:60
 
 Specifies the CHAP challenge sent by the NAS to a CHAP user. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
@@ -484,7 +484,7 @@ Specifies an identifier assigned to the tunnel
 
 The password for authenticating to the remote server.
 
-### -field RADIUS_ATTRIBUTE_ARAP_PASSWORD
+### -field RADIUS_ATTRIBUTE_ARAP_PASSWORD:70
 
 Specifies a password to use for AppleTalk Remote Access Protocol (ARAP) authentication. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
@@ -513,7 +513,7 @@ Specifies the data to use with an ARAP security module. For more information, se
 
 Specifies the number of password retry attempts to permit the user access. The value field for this type is a 32-bit integral value.
 
-### -field RADIUS_ATTRIBUTE_PROMPT
+### -field RADIUS_ATTRIBUTE_PROMPT:76
 
 Specifies whether the NAS should echo the user response to a challenge. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
@@ -533,7 +533,7 @@ Specifies user-profile information in communications between RADIUS Proxy Server
 Specifies that EAP information be sent directly between the user and the authentication provider. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
 
-### -field RADIUS_ATTRIBUTE_SIGNATURE
+### -field RADIUS_ATTRIBUTE_SIGNATURE:80
 
 Specifies a signature to include with CHAP, EAP, or ARAP packets. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
@@ -555,12 +555,12 @@ Relative preference assigned to each tunnel when more than one set of tunneling 
 Specifies the response to a Apple Remote Access Protocol (ARAP) challenge. In ARAP, either the server or the client responds to challenges. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
 
-### -field RADIUS_ATTRIBUTE_ACCT_INTERIM_INTERVAL
+### -field RADIUS_ATTRIBUTE_ACCT_INTERIM_INTERVAL:85
 
 Indicates the number of seconds between each interim update for this specific session. This value can only appear in the Access-Accept message. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a>.
 
-### -field RADIUS_ATTRIBUTE_NAS_IPv6_ADDRESS
+### -field RADIUS_ATTRIBUTE_NAS_IPv6_ADDRESS:95
 
 Specifies the IPv6 Address of the NAS that requests authentication of the user. It should be unique to the NAS within the scope of the RADIUS server. It is only used in an Access-Request packet. For more information, see the NAS-IPv6-Address section in <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3162</a>.
 
@@ -590,7 +590,7 @@ Specifies routing information to be configured for
       can appear multiple times.
 For more information, see the Framed-IPv6-Route section in <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3162</a>.
 
-### -field RADIUS_ATTRIBUTE_FRAMED_IPv6_POOL
+### -field RADIUS_ATTRIBUTE_FRAMED_IPv6_POOL:100
 
 Specifies the name of an assigned pool that should
       be used to assign an IPv6 prefix for the user.  If a NAS does not
@@ -598,7 +598,7 @@ Specifies the name of an assigned pool that should
 
 For more information, see the Framed-IPv6-Pool section in <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3162</a>.
 
-### -field IAS_ATTRIBUTE_SAVED_RADIUS_FRAMED_IP_ADDRESS
+### -field IAS_ATTRIBUTE_SAVED_RADIUS_FRAMED_IP_ADDRESS:0x1000
 
 This attribute is reserved for system use.
 
@@ -630,7 +630,7 @@ Time periods and days of week during which user is allowed to connect.
 
 Phone number dialed by user.
 
-### -field IAS_ATTRIBUTE_NP_ALLOWED_PORT_TYPES
+### -field IAS_ATTRIBUTE_NP_ALLOWED_PORT_TYPES:0x1008
 
 Port types permitted for a connection.
 
@@ -662,7 +662,7 @@ This attribute is reserved for system use.
 
 Specifies whether dial-in access is available for a given user.
 
-### -field IAS_ATTRIBUTE_REQUEST_ID
+### -field IAS_ATTRIBUTE_REQUEST_ID:0x1010
 
 This attribute is reserved for system use.
 
@@ -694,7 +694,7 @@ This attribute is reserved for system use.
 
 This attribute is reserved for system use.
 
-### -field MS_ATTRIBUTE_CHAP_DOMAIN
+### -field MS_ATTRIBUTE_CHAP_DOMAIN:0x1018
 
 This attribute is reserved for system use.
 
@@ -726,7 +726,7 @@ This attribute is reserved for system use.
 
 This attribute is reserved for system use.
 
-### -field IAS_ATTRIBUTE_CLIENT_NAME
+### -field IAS_ATTRIBUTE_CLIENT_NAME:0x1020
 
 This attribute is reserved for system use.
 
@@ -758,7 +758,7 @@ This attribute is reserved for system use.
 
 This attribute is reserved for system use.
 
-### -field IAS_ATTRIBUTE_PACKET_TYPE
+### -field IAS_ATTRIBUTE_PACKET_TYPE:0x1028
 
 This attribute is reserved for system use.
 
@@ -792,7 +792,7 @@ Specifies an MS-CHAP reason-for-failure code. This attribute is returned in the 
 See Request for Comments (RFC) 
 <a href="https://www.ietf.org/rfc/rfc2548.txt">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
 
-### -field MS_ATTRIBUTE_CHAP2_RESPONSE
+### -field MS_ATTRIBUTE_CHAP2_RESPONSE:0x1030
 
 This attribute is reserved for system use.
 
@@ -828,7 +828,7 @@ See Request for Comments (RFC)
 See Request for Comments (RFC) 
 <a href="https://www.ietf.org/rfc/rfc2548.txt">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
 
-### -field MS_ATTRIBUTE_PRIMARY_NBNS_SERVER
+### -field MS_ATTRIBUTE_PRIMARY_NBNS_SERVER:0x1038
 
 See Request for Comments (RFC) 
 <a href="https://www.ietf.org/rfc/rfc2548.txt">2548</a>, Microsoft Vendor-specific RADIUS Attributes.
@@ -862,7 +862,7 @@ Specifies whether NPS automatically generates the class attribute. NPS automatic
 
 Specifies the name of the client generating a request.
 
-### -field MS_ATTRIBUTE_RAS_CLIENT_VERSION
+### -field MS_ATTRIBUTE_RAS_CLIENT_VERSION:0x1040
 
 Specifies the version of the client generating a request.
 
@@ -894,7 +894,7 @@ Specifies the time (in seconds) that the connection can remain in a restricted s
 
 Specifies the SID of the user requesting access.
 
-### -field IAS_ATTRIBUTE_REMOTE_RADIUS_TO_WINDOWS_USER_MAPPING
+### -field IAS_ATTRIBUTE_REMOTE_RADIUS_TO_WINDOWS_USER_MAPPING:0x1048
 
 Specifies that Windows authorization is enabled for users authenticated by the remote RADIUS server for example, allows  use with Passport user mapping.
 
@@ -910,7 +910,7 @@ Used to set the tag byte for any tunnel attributes in the profile. If this is no
 
 This attribute is reserved for system use.
 
-### -field IAS_ATTRIBUTE_CERTIFICATE_EKU
+### -field IAS_ATTRIBUTE_CERTIFICATE_EKU:8097
 
 This attribute is reserved for system use.
 
@@ -922,7 +922,7 @@ This attribute is reserved for system use.
 
 This attribute is reserved for system use.
 
-### -field IAS_ATTRIBUTE_PEAP_FAST_ROAMED_SESSION
+### -field IAS_ATTRIBUTE_PEAP_FAST_ROAMED_SESSION:8100
 
 This attribute is reserved for system use.
 
@@ -962,7 +962,7 @@ Specifies the type of identity check to perform.
 
 Specifies which group of DHCP scopes correspond to the client requesting access.
 
-### -field MS_ATTRIBUTE_QUARANTINE_USER_CLASS
+### -field MS_ATTRIBUTE_QUARANTINE_USER_CLASS:8110
 
 Vendor-specific attribute used to carry the name of a special DHCP user class, as specified in <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3004</a>, called Network Access Protection (NAP) user class.
 
@@ -1002,7 +1002,7 @@ This attribute is reserved for system use.
 
 This attribute is reserved for system use.
 
-### -field MS_ATTRIBUTE_QUARANTINE_GRACE_TIME
+### -field MS_ATTRIBUTE_QUARANTINE_GRACE_TIME:8120
 
 Specifies the amount of time a host has to become conformant with network policy.
 
@@ -1058,7 +1058,7 @@ This attribute is reserved for system use.
 
 This attribute is reserved for system use.
 
-### -field IAS_ATTRIBUTE_QUARANTINE_FIXUP_SERVERS_CONFIGURATION
+### -field IAS_ATTRIBUTE_QUARANTINE_FIXUP_SERVERS_CONFIGURATION:8130
 
 This attribute is reserved for system use.
 
@@ -1098,7 +1098,7 @@ Vendor-specific attribute used to communicate the machine name of the client req
 
 This attribute is reserved for system use.
 
-### -field IAS_ATTRIBUTE_SAVED_RADIUS_FRAMED_INTERFACE_ID
+### -field IAS_ATTRIBUTE_SAVED_RADIUS_FRAMED_INTERFACE_ID:8140
 
 This attribute is reserved for system use.
 
@@ -1108,7 +1108,7 @@ This attribute is reserved for system use.
 
 ### -field MS_ATTRIBUTE_QUARANTINE_GRACE_TIME_CONFIGURATION
 
-### -field MS_ATTRIBUTE_IPv6_FILTER
+### -field MS_ATTRIBUTE_IPv6_FILTER:8144
 
 Vendor-specific attribute used to limit the inbound and/or outbound access of the endpoint client.
 
@@ -1132,7 +1132,7 @@ This attribute is reserved for system use.
 
 This attribute is reserved for system use.
 
-### -field MS_ATTRIBUTE_QUARANTINE_SOH
+### -field MS_ATTRIBUTE_QUARANTINE_SOH:8150
 
 Vendor-specific attribute used only to carry Statement of Health (SoH) information when EAP is not used. A RADIUS server may send it to a network access server (NAS) in an Access-Accept message.
 
@@ -1152,7 +1152,7 @@ Specifies the additional Quarantine state information for a user requesting acce
 
 This attribute is reserved for system use.
 
-### -field MS_ATTRIBUTE_HCAP_USER_GROUPS
+### -field MS_ATTRIBUTE_HCAP_USER_GROUPS:8155
 
 An NAS may use this attribute to pass the group name of the user requesting network access to a RADIUS server, which may then use this information to make authentication or authorization decisions.
 
@@ -1173,7 +1173,7 @@ TBD
 
 An NAS may use this attribute to pass the name of the user requesting network access to a RADIUS server, which may then use this information to make authentication or authorization decisions.
 
-### -field IAS_ATTRIBUTE_NT4_HCAP_ACCOUNT_NAME
+### -field IAS_ATTRIBUTE_NT4_HCAP_ACCOUNT_NAME:8160
 
 This attribute is reserved for system use.
 
@@ -1194,7 +1194,7 @@ TBD
 
 Specifies the IPv4 address of the user.
 
-### -field MS_ATTRIBUTE_USER_IPv6_ADDRESS
+### -field MS_ATTRIBUTE_USER_IPv6_ADDRESS:8165
 
 Specifies the IPv4 address of the user.
 
@@ -1222,9 +1222,9 @@ TBD
 
 TBD
 
-### -field MS_ATTRIBUTE_RAS_ROUTING_DOMAIN_ID
+### -field MS_ATTRIBUTE_RAS_ROUTING_DOMAIN_ID:8172
 
-### -field IAS_ATTRIBUTE_CERTIFICATE_THUMBPRINT
+### -field IAS_ATTRIBUTE_CERTIFICATE_THUMBPRINT:8250
 
 ### -field RAS_ATTRIBUTE_ENCRYPTION_TYPE
 

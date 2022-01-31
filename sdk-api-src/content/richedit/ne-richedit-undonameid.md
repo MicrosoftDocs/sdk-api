@@ -56,31 +56,31 @@ Contains values that indicate types of rich edit control actions that can be und
 
 ## -enum-fields
 
-### -field UID_UNKNOWN
+### -field UID_UNKNOWN:0
 
 The type of undo action is unknown.
 
-### -field UID_TYPING
+### -field UID_TYPING:1
 
 Typing operation.
 
-### -field UID_DELETE
+### -field UID_DELETE:2
 
 Delete operation.
 
-### -field UID_DRAGDROP
+### -field UID_DRAGDROP:3
 
 Drag-and-drop operation.
 
-### -field UID_CUT
+### -field UID_CUT:4
 
 Cut operation.
 
-### -field UID_PASTE
+### -field UID_PASTE:5
 
 Paste operation.
 
-### -field UID_AUTOTABLE
+### -field UID_AUTOTABLE:6
 
 Automatic table insertion; for example, typing +---+---+&lt;Enter&gt; to insert a table row.
 

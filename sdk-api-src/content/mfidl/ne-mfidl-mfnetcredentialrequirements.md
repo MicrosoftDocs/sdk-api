@@ -56,11 +56,11 @@ Specifies how the credential manager should obtain user credentials.
 
 ## -enum-fields
 
-### -field REQUIRE_PROMPT
+### -field REQUIRE_PROMPT:0x1
 
 The credential manager should prompt the user to provide the credentials.
 
-### -field REQUIRE_SAVE_SELECTED
+### -field REQUIRE_SAVE_SELECTED:0x2
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.</div>
 <div> </div>

@@ -54,19 +54,19 @@ Specifies the video rotation states.
 
 ## -enum-fields
 
-### -field D3D11_VIDEO_PROCESSOR_ROTATION_IDENTITY
+### -field D3D11_VIDEO_PROCESSOR_ROTATION_IDENTITY:0
 
 The video is not rotated.
 
-### -field D3D11_VIDEO_PROCESSOR_ROTATION_90
+### -field D3D11_VIDEO_PROCESSOR_ROTATION_90:1
 
 The video is rotated 90 degrees clockwise.
 
-### -field D3D11_VIDEO_PROCESSOR_ROTATION_180
+### -field D3D11_VIDEO_PROCESSOR_ROTATION_180:2
 
 The video is rotated 180 degrees clockwise.
 
-### -field D3D11_VIDEO_PROCESSOR_ROTATION_270
+### -field D3D11_VIDEO_PROCESSOR_ROTATION_270:3
 
 The video is rotated 270 degrees clockwise.
 

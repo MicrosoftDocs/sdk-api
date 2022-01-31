@@ -54,15 +54,15 @@ The <b>WMT_STREAM_SELECTION</b> enumeration type defines the playback status of 
 
 ## -enum-fields
 
-### -field WMT_OFF
+### -field WMT_OFF:0
 
 No samples will be delivered for the stream.
 
-### -field WMT_CLEANPOINT_ONLY
+### -field WMT_CLEANPOINT_ONLY:1
 
 Only samples with <a href="/windows/desktop/wmformat/wmformat-glossary">cleanpoints</a> will be delivered for the stream.
 
-### -field WMT_ON
+### -field WMT_ON:2
 
 All samples will be delivered for the stream.
 

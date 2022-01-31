@@ -57,55 +57,55 @@ The <b>ICMP4_TYPE</b> enumeration defines the set of Internet Control Message Pr
 
 ## -enum-fields
 
-### -field ICMP4_ECHO_REPLY
+### -field ICMP4_ECHO_REPLY:0
 
 ICMP echo reply message.
 
-### -field ICMP4_DST_UNREACH
+### -field ICMP4_DST_UNREACH:3
 
 The specified destination for the message is unreachable.
 
-### -field ICMP4_SOURCE_QUENCH
+### -field ICMP4_SOURCE_QUENCH:4
 
 ICMP source quench message.
 
-### -field ICMP4_REDIRECT
+### -field ICMP4_REDIRECT:5
 
 ICMP redirection message.
 
-### -field ICMP4_ECHO_REQUEST
+### -field ICMP4_ECHO_REQUEST:8
 
 ICMP echo redirection message.
 
-### -field ICMP4_ROUTER_ADVERT
+### -field ICMP4_ROUTER_ADVERT:9
 
 ICMP router advertisement message.
 
-### -field ICMP4_ROUTER_SOLICIT
+### -field ICMP4_ROUTER_SOLICIT:10
 
 ICMP router solicitation message.
 
-### -field ICMP4_TIME_EXCEEDED
+### -field ICMP4_TIME_EXCEEDED:11
 
 The ICMPv6 message has timed out.
 
-### -field ICMP4_PARAM_PROB
+### -field ICMP4_PARAM_PROB:12
 
 The IPv4 header is malformed or contains an incorrect value.
 
-### -field ICMP4_TIMESTAMP_REQUEST
+### -field ICMP4_TIMESTAMP_REQUEST:13
 
 ICMP timestamp request message.
 
-### -field ICMP4_TIMESTAMP_REPLY
+### -field ICMP4_TIMESTAMP_REPLY:14
 
 ICMP timestamp reply message.
 
-### -field ICMP4_MASK_REQUEST
+### -field ICMP4_MASK_REQUEST:17
 
 ICMP mask request message.
 
-### -field ICMP4_MASK_REPLY
+### -field ICMP4_MASK_REPLY:18
 
 ICMP mask reply message.
 

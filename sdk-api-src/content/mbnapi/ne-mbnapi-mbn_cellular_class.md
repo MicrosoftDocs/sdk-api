@@ -57,15 +57,15 @@ The <b>MBN_CELLULAR_CLASS</b> enumerated type defines the type of cellular devic
 
 ## -enum-fields
 
-### -field MBN_CELLULAR_CLASS_NONE
+### -field MBN_CELLULAR_CLASS_NONE:0
 
 No cellular class.
 
-### -field MBN_CELLULAR_CLASS_GSM
+### -field MBN_CELLULAR_CLASS_GSM:0x1
 
 GSM cellular class.
 
-### -field MBN_CELLULAR_CLASS_CDMA
+### -field MBN_CELLULAR_CLASS_CDMA:0x2
 
 CDMA cellular class.
 

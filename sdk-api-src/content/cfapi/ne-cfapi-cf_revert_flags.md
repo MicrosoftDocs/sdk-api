@@ -54,7 +54,7 @@ Flags for reverting a placeholder file to a regular file.
 
 ## -enum-fields
 
-### -field CF_REVERT_FLAG_NONE
+### -field CF_REVERT_FLAG_NONE:0x00000000
 
 No placeholder revert flags.
 

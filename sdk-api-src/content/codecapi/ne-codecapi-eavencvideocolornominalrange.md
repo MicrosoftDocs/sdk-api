@@ -58,19 +58,19 @@ The nominal range describes how luma components normalized to a range of [0..1] 
 
 ## -enum-fields
 
-### -field eAVEncVideoColorNominalRange_SameAsSource
+### -field eAVEncVideoColorNominalRange_SameAsSource:0
 
 Use the same nominal range as the input video. This flag applies to the <b>AVEncVideoOutputChromaSubsampling</b> property only.
 
-### -field eAVEncVideoColorNominalRange_0_255
+### -field eAVEncVideoColorNominalRange_0_255:1
 
 The normalized range [0..1] maps to [0...255] for 8-bit samples, or [0..1023] for 10-bit samples.
 
-### -field eAVEncVideoColorNominalRange_16_235
+### -field eAVEncVideoColorNominalRange_16_235:2
 
 The normalized range [0..1] maps to [16...235] for 8-bit samples, or [64..940] for 10-bit samples.
 
-### -field eAVEncVideoColorNominalRange_48_208
+### -field eAVEncVideoColorNominalRange_48_208:3   
 
 The normalized range [0..1] maps to [48...208] for 8-bit samples.
 

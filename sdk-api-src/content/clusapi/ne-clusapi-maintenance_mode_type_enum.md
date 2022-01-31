@@ -58,15 +58,15 @@ Defines the possible states that a storage class resource can be placed in when 
 
 ## -enum-fields
 
-### -field MaintenanceModeTypeDisableIsAliveCheck
+### -field MaintenanceModeTypeDisableIsAliveCheck:1
 
 Indicates that the server is ignoring the result of the resource's health check.
 
-### -field MaintenanceModeTypeOfflineResource
+### -field MaintenanceModeTypeOfflineResource:2
 
 Indicates that the server has internally performed the operations to bring the storage resource to the ClusterResourceOffline state without changing the client visible state of the resource.
 
-### -field MaintenanceModeTypeUnclusterResource
+### -field MaintenanceModeTypeUnclusterResource:3
 
 Indicates the server has released ownership of the storage resource.
 

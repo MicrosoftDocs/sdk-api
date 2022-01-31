@@ -56,7 +56,7 @@ Requests the form of an item's display name to retrieve through <a href="/window
 
 ## -enum-fields
 
-### -field SIGDN_NORMALDISPLAY
+### -field SIGDN_NORMALDISPLAY:0
 
 0x00000000. Returns the display name relative to the parent folder. In UI this name is generally ideal for display to the user.
 

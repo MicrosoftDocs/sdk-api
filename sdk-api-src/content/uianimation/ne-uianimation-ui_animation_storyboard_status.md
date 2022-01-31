@@ -56,35 +56,35 @@ Defines  the status for a storyboard.
 
 ## -enum-fields
 
-### -field UI_ANIMATION_STORYBOARD_BUILDING
+### -field UI_ANIMATION_STORYBOARD_BUILDING:0
 
 The storyboard has never been scheduled.
 
-### -field UI_ANIMATION_STORYBOARD_SCHEDULED
+### -field UI_ANIMATION_STORYBOARD_SCHEDULED:1
 
 The storyboard is scheduled to play.
 
-### -field UI_ANIMATION_STORYBOARD_CANCELLED
+### -field UI_ANIMATION_STORYBOARD_CANCELLED:2
 
 The storyboard was canceled.
 
-### -field UI_ANIMATION_STORYBOARD_PLAYING
+### -field UI_ANIMATION_STORYBOARD_PLAYING:3
 
 The storyboard is currently playing.
 
-### -field UI_ANIMATION_STORYBOARD_TRUNCATED
+### -field UI_ANIMATION_STORYBOARD_TRUNCATED:4
 
 The storyboard was truncated.
 
-### -field UI_ANIMATION_STORYBOARD_FINISHED
+### -field UI_ANIMATION_STORYBOARD_FINISHED:5
 
 The storyboard has finished playing.
 
-### -field UI_ANIMATION_STORYBOARD_READY
+### -field UI_ANIMATION_STORYBOARD_READY:6
 
 The storyboard is built and ready for scheduling.
 
-### -field UI_ANIMATION_STORYBOARD_INSUFFICIENT_PRIORITY
+### -field UI_ANIMATION_STORYBOARD_INSUFFICIENT_PRIORITY:7
 
 Scheduling the storyboard failed because a scheduling conflict occurred and the currently scheduled storyboard has higher priority.
 

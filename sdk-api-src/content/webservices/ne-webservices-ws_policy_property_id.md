@@ -55,14 +55,14 @@ Identifies each policy property and its associated
 
 ## -enum-fields
 
-### -field WS_POLICY_PROPERTY_STATE
+### -field WS_POLICY_PROPERTY_STATE:1
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetpolicyproperty">WsGetPolicyProperty</a>.
                  It is of type <a href="/windows/desktop/api/webservices/ne-webservices-ws_policy_state">WS_POLICY_STATE</a>.
 
 The current state of the policy object.
 
-### -field WS_POLICY_PROPERTY_MAX_ALTERNATIVES
+### -field WS_POLICY_PROPERTY_MAX_ALTERNATIVES:2
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatemetadata">WsCreateMetadata</a> when
                     specifying <a href="/windows/desktop/api/webservices/ne-webservices-ws_metadata_property_id">WS_METADATA_PROPERTY_POLICY_PROPERTIES</a> as part of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_metadata_property">WS_METADATA_PROPERTY*</a> parameter.  It is of type <b>ULONG</b>.
@@ -83,7 +83,7 @@ When a policy is processed, the amount of memory allocated
 
 The default value is 32.
 
-### -field WS_POLICY_PROPERTY_MAX_DEPTH
+### -field WS_POLICY_PROPERTY_MAX_DEPTH:3
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatemetadata">WsCreateMetadata</a> when
                     specifying <a href="/windows/desktop/api/webservices/ne-webservices-ws_metadata_property_id">WS_METADATA_PROPERTY_POLICY_PROPERTIES</a>.
@@ -103,7 +103,7 @@ A small amount of stack space is consumed for each level of
 
 The default value is 32.
 
-### -field WS_POLICY_PROPERTY_MAX_EXTENSIONS
+### -field WS_POLICY_PROPERTY_MAX_EXTENSIONS:4
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatemetadata">WsCreateMetadata</a> when
                     specifying <a href="/windows/desktop/api/webservices/ne-webservices-ws_metadata_property_id">WS_METADATA_PROPERTY_POLICY_PROPERTIES</a>.

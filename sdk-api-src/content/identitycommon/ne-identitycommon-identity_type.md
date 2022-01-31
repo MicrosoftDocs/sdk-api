@@ -56,10 +56,10 @@ Specifies the type of identities to enumerate. This enumeration is used by the <
 
 ## -enum-fields
 
-### -field IDENTITIES_ALL
+### -field IDENTITIES_ALL:0
 
 Enumerate all identities.
 
-### -field IDENTITIES_ME_ONLY
+### -field IDENTITIES_ME_ONLY:0x1
 
 Enumerate only identities associated with the current user.

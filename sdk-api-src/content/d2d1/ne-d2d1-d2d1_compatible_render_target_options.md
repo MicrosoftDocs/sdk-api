@@ -55,15 +55,15 @@ Specifies additional features supportable by a compatible render target when it 
 
 ## -enum-fields
 
-### -field D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_NONE
+### -field D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_NONE:0x00000000
 
 The render target supports no additional features.
 
-### -field D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_GDI_COMPATIBLE
+### -field D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_GDI_COMPATIBLE:0x00000001
 
 The render target supports interoperability with the Windows Graphics Device Interface  (GDI).
 
-### -field D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_FORCE_DWORD
+### -field D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_FORCE_DWORD:0xffffffff
 
 ## -remarks
 

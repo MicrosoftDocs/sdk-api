@@ -55,11 +55,11 @@ The WS-Security specification version to be used with message
 
 ## -enum-fields
 
-### -field WS_SECURITY_HEADER_VERSION_1_0
+### -field WS_SECURITY_HEADER_VERSION_1_0:0x1
 
 WS-Security 1.0.
 
-### -field WS_SECURITY_HEADER_VERSION_1_1
+### -field WS_SECURITY_HEADER_VERSION_1_1:0x2
 
 WS-Security 1.1.
 

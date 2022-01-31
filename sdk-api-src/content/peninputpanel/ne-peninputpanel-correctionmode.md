@@ -56,19 +56,19 @@ Specifies the correction modes of the Tablet PC Input Panel.
 
 ## -enum-fields
 
-### -field CorrectionMode_NotVisible
+### -field CorrectionMode_NotVisible:0
 
 The Input Panel and the correction comb are not visible.
 
-### -field CorrectionMode_PreInsertion
+### -field CorrectionMode_PreInsertion:1
 
 The correction comb is shown in pre-insertion mode.
 
-### -field CorrectionMode_PostInsertionCollapsed
+### -field CorrectionMode_PostInsertionCollapsed:2
 
 The correction comb is shown in post-insertion collapsed mode.
 
-### -field CorrectionMode_PostInsertionExpanded
+### -field CorrectionMode_PostInsertionExpanded:3
 
 The correction comb is shown in post-insertion expanded mode.
 

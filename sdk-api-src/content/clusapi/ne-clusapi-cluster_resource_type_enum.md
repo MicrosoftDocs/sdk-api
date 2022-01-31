@@ -58,11 +58,11 @@ Describes the type of cluster object being enumerated by the
 
 ## -enum-fields
 
-### -field CLUSTER_RESOURCE_TYPE_ENUM_NODES
+### -field CLUSTER_RESOURCE_TYPE_ENUM_NODES:0x00000001
 
 The object is a node that can be a possible owner of the resource type.
 
-### -field CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES
+### -field CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES:0x00000002
 
 The object is a resource that is an instance of the resource type.
 

@@ -56,19 +56,19 @@ Indicates the content type of a <a href="/windows/desktop/api/perflib/ns-perflib
 
 ## -enum-fields
 
-### -field PERF_ERROR_RETURN
+### -field PERF_ERROR_RETURN:0
 
 An error occurred when the performance counter value was queried.
 
-### -field PERF_SINGLE_COUNTER
+### -field PERF_SINGLE_COUNTER:1
 
 The query returned a single counter from a single instance.
 
-### -field PERF_MULTIPLE_COUNTERS
+### -field PERF_MULTIPLE_COUNTERS:2
 
 The query returned multiple counters from a single instance.
 
-### -field PERF_MULTIPLE_INSTANCES
+### -field PERF_MULTIPLE_INSTANCES:4
 
 The query returned a single counter from each of multiple instances.
 

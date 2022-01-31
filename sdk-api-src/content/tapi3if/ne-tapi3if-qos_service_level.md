@@ -56,15 +56,15 @@ The
 
 ## -enum-fields
 
-### -field QSL_NEEDED
+### -field QSL_NEEDED:1
 
 Quality of service level required.
 
-### -field QSL_IF_AVAILABLE
+### -field QSL_IF_AVAILABLE:2
 
 Quality of service level desired if available.
 
-### -field QSL_BEST_EFFORT
+### -field QSL_BEST_EFFORT:3
 
 Quality of service level desired is "best effort."
 

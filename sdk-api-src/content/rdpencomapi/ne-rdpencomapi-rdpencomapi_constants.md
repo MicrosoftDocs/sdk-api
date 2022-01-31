@@ -56,35 +56,35 @@ Defines values for some of the constants used in this API.
 
 ## -enum-fields
 
-### -field CONST_MAX_CHANNEL_MESSAGE_SIZE
+### -field CONST_MAX_CHANNEL_MESSAGE_SIZE:1024
 
 Maximum message size, in bytes.
 
-### -field CONST_MAX_CHANNEL_NAME_LEN
+### -field CONST_MAX_CHANNEL_NAME_LEN:8
 
 Maximum length (including the null terminator) of a channel name, in characters.
 
 Note that the legacy channel names are limited to 32 characters.
 
-### -field CONST_MAX_LEGACY_CHANNEL_MESSAGE_SIZE
+### -field CONST_MAX_LEGACY_CHANNEL_MESSAGE_SIZE:409600
 
 Maximum message size for a legacy channel, in bytes.
 
 Use this constant if <b>CHANNEL_FLAGS_LEGACY</b> is set.
 
-### -field CONST_ATTENDEE_ID_EVERYONE
+### -field CONST_ATTENDEE_ID_EVERYONE:-1
 
 Indicates all attendees.
 
-### -field CONST_ATTENDEE_ID_HOST
+### -field CONST_ATTENDEE_ID_HOST:0
 
 Identifies the host. Used to send a virtual channel message to the host.
 
-### -field CONST_CONN_INTERVAL
+### -field CONST_CONN_INTERVAL:50
 
 Not used.
 
-### -field CONST_ATTENDEE_ID_DEFAULT
+### -field CONST_ATTENDEE_ID_DEFAULT:0xffffffff
 
 The default value for the <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendee">IRDPSRAPIAttendee</a>::<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-get_id">Id</a> property.
 

@@ -56,27 +56,27 @@ Specifies information for the current item in the <a href="/windows/desktop/api/
 
 ## -enum-fields
 
-### -field SYNCMGRITEM_HASPROPERTIES
+### -field SYNCMGRITEM_HASPROPERTIES:0x1
 
 The item has a properties dialog.
 
-### -field SYNCMGRITEM_TEMPORARY
+### -field SYNCMGRITEM_TEMPORARY:0x2
 
 The item is temporary and any stored preferences can be removed. This value is defined but not used in Windows Vista.
 
-### -field SYNCMGRITEM_ROAMINGUSER
+### -field SYNCMGRITEM_ROAMINGUSER:0x4
 
 The item roams with the user and is not specific to a machine. This value is defined but is ignored by both Windows XP and Windows Vista.
 
-### -field SYNCMGRITEM_LASTUPDATETIME
+### -field SYNCMGRITEM_LASTUPDATETIME:0x8
 
 The LastUpdateTime field is valid.
 
-### -field SYNCMGRITEM_MAYDELETEITEM
+### -field SYNCMGRITEM_MAYDELETEITEM:0x10
 
 The item may be deleted. This value has been deprecated for Windows Vista and later. This value is defined but is ignored by both Windows XP and Windows Vista.
 
-### -field SYNCMGRITEM_HIDDEN
+### -field SYNCMGRITEM_HIDDEN:0x20
 
 <b>Windows Vista and later</b>. Not supported.
 

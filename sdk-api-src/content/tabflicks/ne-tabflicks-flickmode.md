@@ -54,21 +54,21 @@ Describes where Flick gestures are enabled.
 
 ## -enum-fields
 
-### -field FLICKMODE_MIN
+### -field FLICKMODE_MIN:0
 
-### -field FLICKMODE_OFF
+### -field FLICKMODE_OFF:0
 
 Pen flicks are not enabled.
 
-### -field FLICKMODE_ON
+### -field FLICKMODE_ON:1
 
 Pen flicks are enabled.
 
-### -field FLICKMODE_LEARNING
+### -field FLICKMODE_LEARNING:2
 
-### -field FLICKMODE_MAX
+### -field FLICKMODE_MAX:2
 
-### -field FLICKMODE_DEFAULT
+### -field FLICKMODE_DEFAULT:1
 
 ## -remarks
 

@@ -55,11 +55,11 @@ Indicates whether the device is a primary or immersive type of display.
 
 ## -enum-fields
 
-### -field DEVICE_PRIMARY
+### -field DEVICE_PRIMARY:0
 
 The device is a primary display device.
 
-### -field DEVICE_IMMERSIVE
+### -field DEVICE_IMMERSIVE:1
 
 The device is an immersive display device.
 

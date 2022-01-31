@@ -54,11 +54,11 @@ Describes conflict item type.
 
 ## -enum-fields
 
-### -field SYNCMGR_CIT_UPDATED
+### -field SYNCMGR_CIT_UPDATED:0x1
 
 The conflict item was updated.
 
-### -field SYNCMGR_CIT_DELETED
+### -field SYNCMGR_CIT_DELETED:0x2
 
 The conflict item was deleted.
 

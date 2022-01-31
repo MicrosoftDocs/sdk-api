@@ -54,11 +54,11 @@ Specifies  how the recognizer interprets the ink and determines the result strin
 
 ## -enum-fields
 
-### -field IRM_None
+### -field IRM_None:0
 
 The recognizer applies no recognition modes.
 
-### -field IRM_WordModeOnly
+### -field IRM_WordModeOnly:0x1
 
 The recognizer treats the ink as a single word.
 
@@ -67,13 +67,13 @@ For example, if the recognizer context contains to get her, the recognizer retur
 <div class="alert"><b>Note</b>  Some compound words in the dictionary are treated as single words by recognizers of Latin script. For example, recognizers of Latin script treat "Los Angeles" as a single word if you use the WordMode flag. In addition, certain factoids-such as the Date <a href="/windows/desktop/tablet/factoid-constants">Factoid</a> in English (United Kingdom), English (United States), German, and French-treat some multiple word dates as single words. For example, these recognizers treat "January 21, 2000" as a single word if you use the WordMode flag.</div>
 <div> </div>
 
-### -field IRM_Coerce
+### -field IRM_Coerce:0x2
 
 The recognizer coerces the result based on the factoid that you specified for the context.
 
 For example, if you specified the Telephone factoid and the user enters the word hello, the recognizer may return a random phone number or an empty string. If you do not specify this flag, the recognizer returns hello as the result.
 
-### -field IRM_TopInkBreaksOnly
+### -field IRM_TopInkBreaksOnly:0x4
 
 The recognizer disables multiple segmentation.
 
@@ -83,19 +83,19 @@ In other words, the word together always returns alternates based on together be
 
 Turning on this flag enhances recognition speed.
 
-### -field IRM_PrefixOk
+### -field IRM_PrefixOk:0x8
 
 The recognizer applies partial word recognition.
 
-### -field IRM_LineMode
+### -field IRM_LineMode:0x10
 
 The recognizer does not imply line breaking inside the recognizer and all of the ink is recognized as one line.
 
-### -field IRM_DisablePersonalization
+### -field IRM_DisablePersonalization:0x20
 
 The recognizer disables personalization on the recognizer.
 
-### -field IRM_AutoSpace
+### -field IRM_AutoSpace:0x40
 
 The recognizer should automatically determine word breaks between newly written (and recognized) text and the suffix and prefix.
 
@@ -105,7 +105,7 @@ If the user inserts world after the recognized word, hello, the recognizer retur
 
 This flag is used only by recognizers of Latin script.
 
-### -field IRM_Max
+### -field IRM_Max:0x80
 
 For internal use only.
 

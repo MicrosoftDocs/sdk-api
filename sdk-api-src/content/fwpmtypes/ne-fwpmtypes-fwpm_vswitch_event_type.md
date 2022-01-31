@@ -56,7 +56,7 @@ The <b>FWPM_VSWITCH_EVENT_TYPE</b> enumeration specifies the type of a vSwitch e
 
 ## -enum-fields
 
-### -field FWPM_VSWITCH_EVENT_FILTER_ADD_TO_INCOMPLETE_LAYER
+### -field FWPM_VSWITCH_EVENT_FILTER_ADD_TO_INCOMPLETE_LAYER:0
 
 The filter engine is not enabled on all vSwitch instances. As a result, the filter(s) being added may not be fully enforced.
 

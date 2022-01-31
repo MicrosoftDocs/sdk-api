@@ -58,6 +58,6 @@ Indicates the  type of logon message passed in a <a href="/windows/desktop/api/n
 
 ## -enum-fields
 
-### -field Pku2uCertificateS4ULogon
+### -field Pku2uCertificateS4ULogon:14
 
 The logon message is a PKU2U certificate.

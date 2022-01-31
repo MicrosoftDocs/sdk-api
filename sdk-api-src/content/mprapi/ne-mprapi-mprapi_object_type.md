@@ -58,27 +58,27 @@ The <b>MPRAPI_OBJECT_TYPE</b> enumeration specifies the structure type in  a <a 
 
 ## -enum-fields
 
-### -field MPRAPI_OBJECT_TYPE_RAS_CONNECTION_OBJECT
+### -field MPRAPI_OBJECT_TYPE_RAS_CONNECTION_OBJECT:1
 
 The structure is a <a href="/windows/desktop/api/mprapi/ns-mprapi-ras_connection_ex">RAS_CONNECTION_EX</a> structure.
 
-### -field MPRAPI_OBJECT_TYPE_MPR_SERVER_OBJECT
+### -field MPRAPI_OBJECT_TYPE_MPR_SERVER_OBJECT:2
 
 The structure is a <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_ex0">MPR_SERVER_EX</a> structure.
 
-### -field MPRAPI_OBJECT_TYPE_MPR_SERVER_SET_CONFIG_OBJECT
+### -field MPRAPI_OBJECT_TYPE_MPR_SERVER_SET_CONFIG_OBJECT:3
 
 The structure is a <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_set_config_ex0">MPR_SERVER_SET_CONFIG_EX</a> structure.
 
-### -field MPRAPI_OBJECT_TYPE_AUTH_VALIDATION_OBJECT
+### -field MPRAPI_OBJECT_TYPE_AUTH_VALIDATION_OBJECT:4
 
 The structure is a <a href="/windows/desktop/api/mprapi/ns-mprapi-auth_validation_ex">AUTH_VALIDATION_EX</a> structure.
 
-### -field MPRAPI_OBJECT_TYPE_UPDATE_CONNECTION_OBJECT
+### -field MPRAPI_OBJECT_TYPE_UPDATE_CONNECTION_OBJECT:5
 
 The structure is a [RAS_UPDATE_CONNECTION](/windows/desktop/api/mprapi/ns-mprapi-ras_update_connection) structure.
 
-### -field MPRAPI_OBJECT_TYPE_IF_CUSTOM_CONFIG_OBJECT
+### -field MPRAPI_OBJECT_TYPE_IF_CUSTOM_CONFIG_OBJECT:6
 
 ## -see-also
 

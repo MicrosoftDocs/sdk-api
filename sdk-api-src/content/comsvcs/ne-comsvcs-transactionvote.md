@@ -56,7 +56,7 @@ Indicates the readiness of an object to commit or abort the current transaction.
 
 ## -enum-fields
 
-### -field TxCommit
+### -field TxCommit:0
 
 An existing object votes to commit the current transaction.
 

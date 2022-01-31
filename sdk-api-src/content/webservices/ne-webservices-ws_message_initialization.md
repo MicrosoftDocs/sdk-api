@@ -55,21 +55,21 @@ Specifies what headers the
 
 ## -enum-fields
 
-### -field WS_BLANK_MESSAGE
+### -field WS_BLANK_MESSAGE:0
 
 The headers of the message are empty.
 
-### -field WS_DUPLICATE_MESSAGE
+### -field WS_DUPLICATE_MESSAGE:1
 
 The headers are initialized to be the same as the source message's headers.
 
-### -field WS_REQUEST_MESSAGE
+### -field WS_REQUEST_MESSAGE:2
 
 If using <a href="/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_0_9</a> or <b>WS_ADDRESSING_VERSION_1_0</b>,
                     then a unique message ID is set as the MessageID header of the message.  
                     No other headers are added in the message.
 
-### -field WS_REPLY_MESSAGE
+### -field WS_REPLY_MESSAGE:3
 
 The ReplyTo header of the source message (an <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>)
                     is used to address the message.  The MessageID header of the source
@@ -77,7 +77,7 @@ The ReplyTo header of the source message (an <a href="/windows/desktop/api/webse
                     will contain a fault reply, then <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_initialization">WS_FAULT_MESSAGE</a> should be
                     used instead.
 
-### -field WS_FAULT_MESSAGE
+### -field WS_FAULT_MESSAGE:4
 
 The FaultTo or ReplyTo header of the source message (an <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>)
                     is used to address the message.  The MessageID header of the source message

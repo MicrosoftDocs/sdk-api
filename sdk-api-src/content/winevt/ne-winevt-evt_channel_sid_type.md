@@ -56,7 +56,7 @@ Defines the values that determine whether the event includes the security identi
 
 ## -enum-fields
 
-### -field EvtChannelSidTypeNone
+### -field EvtChannelSidTypeNone:0
 
 Do not include with the event the SID of the principal that logged the event.
 

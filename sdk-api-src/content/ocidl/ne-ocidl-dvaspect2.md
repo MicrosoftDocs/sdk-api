@@ -56,11 +56,11 @@ Specifies new drawing aspects used to optimize the drawing process.
 
 ## -enum-fields
 
-### -field DVASPECT_OPAQUE
+### -field DVASPECT_OPAQUE:16
 
 Represents the opaque, easy to clip parts of an object. Objects may or may not support this aspect.
 
-### -field DVASPECT_TRANSPARENT
+### -field DVASPECT_TRANSPARENT:32
 
 Represents the transparent or irregular parts of on object, typically parts that are expensive or impossible to clip out. Objects may or may not support this aspect.
 

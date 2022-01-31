@@ -54,7 +54,7 @@ Specifies the type of association for an application. Used by methods of the <a 
 
 ## -enum-fields
 
-### -field AT_FILEEXTENSION
+### -field AT_FILEEXTENSION:0
 
 Indicates a file name extension, such as <code>.htm</code> or <code>.mp3</code>.
 

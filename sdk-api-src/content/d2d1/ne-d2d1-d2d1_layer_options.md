@@ -55,15 +55,15 @@ Specifies options that can be applied when a layer resource is applied to create
 
 ## -enum-fields
 
-### -field D2D1_LAYER_OPTIONS_NONE
+### -field D2D1_LAYER_OPTIONS_NONE:0x00000000
 
 The text in this layer does not use ClearType antialiasing.
 
-### -field D2D1_LAYER_OPTIONS_INITIALIZE_FOR_CLEARTYPE
+### -field D2D1_LAYER_OPTIONS_INITIALIZE_FOR_CLEARTYPE:0x00000001
 
 The layer renders correctly for ClearType text. If the render target is set to ClearType, the  layer continues to render ClearType. If the render target is set to ClearType and this option is not specified, the render target will be set to render gray-scale until the layer is popped. The caller can override this default by calling <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-settextantialiasmode">SetTextAntialiasMode</a> while within the layer. This flag is slightly slower than the default.
 
-### -field D2D1_LAYER_OPTIONS_FORCE_DWORD
+### -field D2D1_LAYER_OPTIONS_FORCE_DWORD:0xffffffff
 
 ## -remarks
 

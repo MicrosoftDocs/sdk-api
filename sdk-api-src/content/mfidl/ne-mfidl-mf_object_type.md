@@ -54,7 +54,7 @@ Defines the object types that are created by the source resolver.
 
 ## -enum-fields
 
-### -field MF_OBJECT_MEDIASOURCE
+### -field MF_OBJECT_MEDIASOURCE:0
 
 Media source. You can query the object for the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> interface.
 

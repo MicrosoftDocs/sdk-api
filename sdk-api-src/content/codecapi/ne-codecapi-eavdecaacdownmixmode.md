@@ -54,11 +54,11 @@ Specifies whether an AAC decoder uses standard MPEG-2/MPEG-4 stereo downmix equa
 
 ## -enum-fields
 
-### -field eAVDecAACUseISODownmix
+### -field eAVDecAACUseISODownmix:0
 
 Use the standard ISO MPEG-2/MPEG-4 downmix equations.
 
-### -field eAVDecAACUseARIBDownmix
+### -field eAVDecAACUseARIBDownmix:1        
 
 Use the downmix equations defined by ARIB document STD-B21.
 

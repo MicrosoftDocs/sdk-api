@@ -56,15 +56,15 @@ The <b>DRT_SCOPE</b> enumeration defines the set of IPv6 scopes in which DRT ope
 
 ## -enum-fields
 
-### -field DRT_GLOBAL_SCOPE
+### -field DRT_GLOBAL_SCOPE:1
 
 Uses the global scope.
 
-### -field DRT_SITE_LOCAL_SCOPE
+### -field DRT_SITE_LOCAL_SCOPE:2
 
 The <b>DRT_SITE_LOCAL_SCOPE</b> has been deprecated and should not be used.
 
-### -field DRT_LINK_LOCAL_SCOPE
+### -field DRT_LINK_LOCAL_SCOPE:3
 
 Uses the link local scope.
 

@@ -56,27 +56,27 @@ Defines results for storyboard scheduling.
 
 ## -enum-fields
 
-### -field UI_ANIMATION_SCHEDULING_UNEXPECTED_FAILURE
+### -field UI_ANIMATION_SCHEDULING_UNEXPECTED_FAILURE:0
 
 Scheduling failed for an unexpected reason.
 
-### -field UI_ANIMATION_SCHEDULING_INSUFFICIENT_PRIORITY
+### -field UI_ANIMATION_SCHEDULING_INSUFFICIENT_PRIORITY:1
 
 Scheduling failed because
                a scheduling conflict occurred and the currently scheduled storyboard has higher priority.
                
                For more information, see <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationprioritycomparison-haspriority">IUIAnimationPriorityComparison::HasPriority</a>.
 
-### -field UI_ANIMATION_SCHEDULING_ALREADY_SCHEDULED
+### -field UI_ANIMATION_SCHEDULING_ALREADY_SCHEDULED:2
 
 Scheduling failed because 
                the storyboard is already scheduled.
 
-### -field UI_ANIMATION_SCHEDULING_SUCCEEDED
+### -field UI_ANIMATION_SCHEDULING_SUCCEEDED:3
 
 Scheduling succeeded.
 
-### -field UI_ANIMATION_SCHEDULING_DEFERRED
+### -field UI_ANIMATION_SCHEDULING_DEFERRED:4
 
 Scheduling is deferred and will be attempted when the current callback completes.
 

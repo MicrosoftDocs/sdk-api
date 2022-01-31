@@ -56,11 +56,11 @@ Represents the type of offline activation for a license. This 	enumeration is us
 
 ## -enum-fields
 
-### -field SL_ACTIVATION_TYPE_DEFAULT
+### -field SL_ACTIVATION_TYPE_DEFAULT:0
 
 Retail phone activation.
 
-### -field SL_ACTIVATION_TYPE_ACTIVE_DIRECTORY
+### -field SL_ACTIVATION_TYPE_ACTIVE_DIRECTORY:1
 
 The product activation is through Active Directory.
 

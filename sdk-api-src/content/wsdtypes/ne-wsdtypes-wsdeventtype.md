@@ -56,23 +56,23 @@ Identifies the type of event produced by the session layer.
 
 ## -enum-fields
 
-### -field WSDET_NONE
+### -field WSDET_NONE:0
 
 No events were detected.
 
-### -field WSDET_INCOMING_MESSAGE
+### -field WSDET_INCOMING_MESSAGE:1
 
 An incoming message was detected.
 
-### -field WSDET_INCOMING_FAULT
+### -field WSDET_INCOMING_FAULT:2
 
 An incoming message fault was detected.
 
-### -field WSDET_TRANSMISSION_FAILURE
+### -field WSDET_TRANSMISSION_FAILURE:3
 
 A message transmission failure was detected.
 
-### -field WSDET_RESPONSE_TIMEOUT
+### -field WSDET_RESPONSE_TIMEOUT:4
 
 A message response timeout was detected.
 

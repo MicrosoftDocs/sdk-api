@@ -55,23 +55,23 @@ Defines the notifications that are generated for a cluster network.
 
 ## -enum-fields
 
-### -field CLUSTER_CHANGE_NETWORK_DELETED_V2
+### -field CLUSTER_CHANGE_NETWORK_DELETED_V2:0x00000001
 
 Indicates that the cluster network has been deleted.
 
-### -field CLUSTER_CHANGE_NETWORK_COMMON_PROPERTY_V2
+### -field CLUSTER_CHANGE_NETWORK_COMMON_PROPERTY_V2:0x00000002
 
 Indicates that the common properties for the cluster network have changed.
 
-### -field CLUSTER_CHANGE_NETWORK_PRIVATE_PROPERTY_V2
+### -field CLUSTER_CHANGE_NETWORK_PRIVATE_PROPERTY_V2:0x00000004
 
 Indicates that the private properties for the cluster network have changed.
 
-### -field CLUSTER_CHANGE_NETWORK_STATE_V2
+### -field CLUSTER_CHANGE_NETWORK_STATE_V2:0x00000008
 
 Indicates that the cluster network state has changed.
 
-### -field CLUSTER_CHANGE_NETWORK_HANDLE_CLOSE_V2
+### -field CLUSTER_CHANGE_NETWORK_HANDLE_CLOSE_V2:0x00000010
 
 Indicates that the cluster network's context handle was closed.
 

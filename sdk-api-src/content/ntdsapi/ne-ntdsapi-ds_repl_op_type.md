@@ -56,7 +56,7 @@ The <b>DS_REPL_OP_TYPE</b> enumeration type is used to indicate the type of repl
 
 ## -enum-fields
 
-### -field DS_REPL_OP_TYPE_SYNC
+### -field DS_REPL_OP_TYPE_SYNC:0
 
 Indicates an inbound replication over an existing replication agreement from a direct replication partner.
 

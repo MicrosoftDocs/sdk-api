@@ -57,15 +57,15 @@ Contains virtual hard disk (VHD) mirror request flags.
 
 ## -enum-fields
 
-### -field MIRROR_VIRTUAL_DISK_FLAG_NONE
+### -field MIRROR_VIRTUAL_DISK_FLAG_NONE:0x00000000
 
 The mirror virtual disk file does not exist, and needs to be created.
 
-### -field MIRROR_VIRTUAL_DISK_FLAG_EXISTING_FILE
+### -field MIRROR_VIRTUAL_DISK_FLAG_EXISTING_FILE:0x00000001
 
 Create the mirror using an existing file.
 
-### -field MIRROR_VIRTUAL_DISK_FLAG_SKIP_MIRROR_ACTIVATION
+### -field MIRROR_VIRTUAL_DISK_FLAG_SKIP_MIRROR_ACTIVATION:0x00000002
 
 ## -see-also
 

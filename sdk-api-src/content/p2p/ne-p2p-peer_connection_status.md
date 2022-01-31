@@ -56,15 +56,15 @@ The <b>PEER_CONNECTION_STATUS</b> enumeration specifies the status of a peer dir
 
 ## -enum-fields
 
-### -field PEER_CONNECTED
+### -field PEER_CONNECTED:1
 
 The peer is connected to another peer.
 
-### -field PEER_DISCONNECTED
+### -field PEER_DISCONNECTED:2
 
 The peer has disconnected from another peer.
 
-### -field PEER_CONNECTION_FAILED
+### -field PEER_CONNECTION_FAILED:3
 
 The peer failed to connect to another peer.
 

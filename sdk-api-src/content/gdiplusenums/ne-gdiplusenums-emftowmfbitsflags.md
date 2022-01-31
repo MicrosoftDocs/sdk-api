@@ -55,19 +55,19 @@ Specifies options for the <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplu
 
 ## -enum-fields
 
-### -field EmfToWmfBitsFlagsDefault
+### -field EmfToWmfBitsFlagsDefault:0x00000000
 
 Specifies the default conversion.
 
-### -field EmfToWmfBitsFlagsEmbedEmf
+### -field EmfToWmfBitsFlagsEmbedEmf:0x00000001
 
 Specifies that the source EMF metafile is embedded as a comment in the resulting WMF metafile.
 
-### -field EmfToWmfBitsFlagsIncludePlaceable
+### -field EmfToWmfBitsFlagsIncludePlaceable:0x00000002
 
 Specifies that the resulting WMF metafile is in the placeable metafile format; that is, it has the additional 22-byte header required by a placeable metafile.
 
-### -field EmfToWmfBitsFlagsNoXORClip
+### -field EmfToWmfBitsFlagsNoXORClip:0x00000004
 
 Specifies that the clipping region is stored in the metafile in the traditional way. If you do not set this flag, the <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-emftowmfbits">Metafile::EmfToWmfBits</a> method applies an optimization that stores the clipping region as a path and simulates clipping by using the XOR operator.
 

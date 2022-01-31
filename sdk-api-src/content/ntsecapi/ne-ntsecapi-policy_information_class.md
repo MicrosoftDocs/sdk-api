@@ -58,7 +58,7 @@ The <b>POLICY_INFORMATION_CLASS</b> enumeration  defines values that indicate th
 
 ## -enum-fields
 
-### -field PolicyAuditLogInformation
+### -field PolicyAuditLogInformation:1
 
 This value is obsolete.
 

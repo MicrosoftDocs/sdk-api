@@ -54,23 +54,23 @@ Identifies the type of <a href="/windows/desktop/direct3d10/d3d10-graphics-progr
 
 ## -enum-fields
 
-### -field D3D10_RESOURCE_DIMENSION_UNKNOWN
+### -field D3D10_RESOURCE_DIMENSION_UNKNOWN:0
 
 Resource is of unknown type.
 
-### -field D3D10_RESOURCE_DIMENSION_BUFFER
+### -field D3D10_RESOURCE_DIMENSION_BUFFER:1
 
 Resource is a <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">buffer</a>.
 
-### -field D3D10_RESOURCE_DIMENSION_TEXTURE1D
+### -field D3D10_RESOURCE_DIMENSION_TEXTURE1D:2
 
 Resource is a <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">1D texture</a>.
 
-### -field D3D10_RESOURCE_DIMENSION_TEXTURE2D
+### -field D3D10_RESOURCE_DIMENSION_TEXTURE2D:3
 
 Resource is a <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">2D texture</a>.
 
-### -field D3D10_RESOURCE_DIMENSION_TEXTURE3D
+### -field D3D10_RESOURCE_DIMENSION_TEXTURE3D:4
 
 Resource is a <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">3D texture</a>.
 

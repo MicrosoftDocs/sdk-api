@@ -54,69 +54,69 @@ Defines values for performing raster operations on drawn ink.
 
 ## -enum-fields
 
-### -field IRO_Black
+### -field IRO_Black:1
 
  Black pen color.
 
-### -field IRO_NotMergePen
+### -field IRO_NotMergePen:2
 
 The  inverse of MergePen.
 
-### -field IRO_MaskNotPen
+### -field IRO_MaskNotPen:3
 
  A combination of the colors that are common to the background color and the inverse of the pen.
 
-### -field IRO_NotCopyPen
+### -field IRO_NotCopyPen:4
 
  The inverse of CopyPen.
 
-### -field IRO_MaskPenNot
+### -field IRO_MaskPenNot:5
 
 A combination of the colors that are common to both the pen and the inverse of the display.
 
-### -field IRO_Not
+### -field IRO_Not:6
 
 The inverse of the display color.
 
-### -field IRO_XOrPen
+### -field IRO_XOrPen:7
 
 A combination of the colors in the pen and in the display color, but not in both.
 
-### -field IRO_NotMaskPen
+### -field IRO_NotMaskPen:8
 
 The inverse of MaskPen.
 
-### -field IRO_MaskPen
+### -field IRO_MaskPen:9
 
 A combination of the colors that are common to both the pen and the display.
 
-### -field IRO_NotXOrPen
+### -field IRO_NotXOrPen:10
 
 An inverse of XOrPen.
 
-### -field IRO_NoOperation
+### -field IRO_NoOperation:11
 
 No operation; the output remains unchanged.
 
-### -field IRO_MergeNotPen
+### -field IRO_MergeNotPen:12
 
 A combination of the display color and the inverse of the pen color.
 
-### -field IRO_CopyPen
+### -field IRO_CopyPen:13
 
 The pen color.
 
 This is the default value.
 
-### -field IRO_MergePenNot
+### -field IRO_MergePenNot:14
 
 A combination of the pen color and the inverse of the display color.
 
-### -field IRO_MergePen
+### -field IRO_MergePen:15
 
 A combination of the pen color and the display color.
 
-### -field IRO_White
+### -field IRO_White:16
 
 A white pen color.
 

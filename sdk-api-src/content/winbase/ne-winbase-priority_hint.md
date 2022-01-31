@@ -56,7 +56,7 @@ Defines values that are used with the <a href="/windows/desktop/api/winbase/ns-w
 
 ## -enum-fields
 
-### -field IoPriorityHintVeryLow
+### -field IoPriorityHintVeryLow:0
 
 The lowest possible priority hint level. The system uses this value for background I/O operations.
 

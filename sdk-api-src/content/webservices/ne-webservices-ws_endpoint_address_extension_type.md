@@ -55,7 +55,7 @@ This identifies a type of extension within the extensions field of the
 
 ## -enum-fields
 
-### -field WS_ENDPOINT_ADDRESS_EXTENSION_METADATA_ADDRESS
+### -field WS_ENDPOINT_ADDRESS_EXTENSION_METADATA_ADDRESS:1
 
 The address that metadata can be downloaded from the endpoint.
                 

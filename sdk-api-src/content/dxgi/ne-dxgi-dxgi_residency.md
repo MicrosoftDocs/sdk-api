@@ -54,15 +54,15 @@ Flags indicating the memory location of a resource.
 
 ## -enum-fields
 
-### -field DXGI_RESIDENCY_FULLY_RESIDENT
+### -field DXGI_RESIDENCY_FULLY_RESIDENT:1
 
 The resource is located in video memory.
 
-### -field DXGI_RESIDENCY_RESIDENT_IN_SHARED_MEMORY
+### -field DXGI_RESIDENCY_RESIDENT_IN_SHARED_MEMORY:2
 
 At least some of the resource is located in CPU memory.
 
-### -field DXGI_RESIDENCY_EVICTED_TO_DISK
+### -field DXGI_RESIDENCY_EVICTED_TO_DISK:3
 
 At least some of the resource has been paged out to the hard drive.
 

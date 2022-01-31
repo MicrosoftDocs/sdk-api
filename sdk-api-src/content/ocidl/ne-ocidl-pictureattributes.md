@@ -56,11 +56,11 @@ Specifies attributes of a picture object as returned through the <a href="/windo
 
 ## -enum-fields
 
-### -field PICTURE_SCALABLE
+### -field PICTURE_SCALABLE:0x1
 
 The picture object is scalable, such that it can be redrawn with a different size than was used to create the picture originally. Metafile-based pictures are considered scalable; icon and bitmap pictures, while they can be scaled, do not express this attribute because both involve bitmap stretching instead of true scaling.
 
-### -field PICTURE_TRANSPARENT
+### -field PICTURE_TRANSPARENT:0x2
 
 The picture object contains an image that has transparent areas, such that drawing the picture will not necessarily fill in all the spaces in the rectangle it occupies. Metafile and icon pictures have this attribute; bitmap pictures do not.
 

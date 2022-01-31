@@ -61,29 +61,29 @@ Defines the set of valid types for a hardware provider.  These values are used i
 
 ## -enum-fields
 
-### -field VDS_HWT_UNKNOWN
+### -field VDS_HWT_UNKNOWN:0
 
 The type is unknown.
 
-### -field VDS_HWT_PCI_RAID
+### -field VDS_HWT_PCI_RAID:1
 
 The type indicates a hardware provider for PCI RAID cards.
 
-### -field VDS_HWT_FIBRE_CHANNEL
+### -field VDS_HWT_FIBRE_CHANNEL:2
 
 The type indicates a hardware provider for Fibre Channel storage array networks.
 
-### -field VDS_HWT_ISCSI
+### -field VDS_HWT_ISCSI:3
 
 The type indicates a hardware provider for iSCSI storage array networks.
 
-### -field VDS_HWT_SAS
+### -field VDS_HWT_SAS:4
 
 The type indicates a hardware provider for serial attached SCSI (SAS) storage array networks.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003 R2:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7.
 
-### -field VDS_HWT_HYBRID
+### -field VDS_HWT_HYBRID:5
 
 The type indicates a hybrid hardware provider. A hybrid provider is a provider that manages subsystems that support multiple interconnect types. This is not a valid value for the  
   <b>type</b> member of the <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_path_info">VDS_PATH_INFO</a> 

@@ -54,11 +54,11 @@ The <b>EnrollmentPolicyServerPropertyFlags</b> enumeration specifies the default
 
 ## -enum-fields
 
-### -field DefaultNone
+### -field DefaultNone:0
 
 No default policy server URL has been specified.
 
-### -field DefaultPolicyServer
+### -field DefaultPolicyServer:0x1
 
 The policy server URL returned by <a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getpolicyserverurl">GetPolicyServerUrl</a> is the default value when an URL has not been specified.
 

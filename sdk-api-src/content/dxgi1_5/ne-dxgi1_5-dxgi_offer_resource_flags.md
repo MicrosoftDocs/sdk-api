@@ -56,7 +56,7 @@ Specifies flags for the <a href="/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgide
 
 ## -enum-fields
 
-### -field DXGI_OFFER_RESOURCE_FLAG_ALLOW_DECOMMIT
+### -field DXGI_OFFER_RESOURCE_FLAG_ALLOW_DECOMMIT:0x1
 
 Indicates the ability to allow memory de-commit by the DirectX Graphics Kernel.
 

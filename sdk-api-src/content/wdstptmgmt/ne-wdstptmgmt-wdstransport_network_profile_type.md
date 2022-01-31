@@ -58,23 +58,23 @@ Defines  settings that are used by WDS transport protocols to optimize data tran
 
 ## -enum-fields
 
-### -field WdsTptNetworkProfileUnknown
+### -field WdsTptNetworkProfileUnknown:0
 
 Default value that indicates that the network profile is not known.
 
-### -field WdsTptNetworkProfileCustom
+### -field WdsTptNetworkProfileCustom:1
 
 Indicates that the server should use the custom network profile. This is a profile whose settings can be directly modified by administrators if they need to further customize their settings rather than use one of the fixed, inbox profiles. Note that settings for this profile start with values identical to those of the 100-Mbps profile.
 
-### -field WdsTptNetworkProfile10Mbps
+### -field WdsTptNetworkProfile10Mbps:2
 
 Indicates that the server should use the 10-Mbps network profile, which is optimized for slow 10-Mbps networks.
 
-### -field WdsTptNetworkProfile100Mbps
+### -field WdsTptNetworkProfile100Mbps:3
 
 Indicates that the server should use the 100-Mbps network profile, which is optimized for mainstream 100-Mbps networks. This is the default profile selected for use on a freshly installed WDS server.
 
-### -field WdsTptNetworkProfile1Gbps
+### -field WdsTptNetworkProfile1Gbps:4
 
 Indicates that the server should use the 1-Gbps network profile, which is optimized for fast 1-Gbps or higher networks, such as those used in high-end data centers.
 

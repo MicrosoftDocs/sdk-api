@@ -56,7 +56,7 @@ The <b>SAFER_POLICY_INFO_CLASS</b> enumeration type defines the ways in which a 
 
 ## -enum-fields
 
-### -field SaferPolicyLevelList
+### -field SaferPolicyLevelList:1
 
 Queries for the list of all levels defined in a policy.
 

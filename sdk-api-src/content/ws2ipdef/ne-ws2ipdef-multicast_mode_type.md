@@ -54,7 +54,7 @@ The <b>MULTICAST_MODE_TYPE</b> enumeration specifies the filter mode for multica
 
 ## -enum-fields
 
-### -field MCAST_INCLUDE
+### -field MCAST_INCLUDE:0
 
 The filter contains a list of IP addresses to include.
 

@@ -56,7 +56,7 @@ Indicates information about the address URL of a website viewed.
 
 ## -enum-fields
 
-### -field WPC_ARGS_URLVISITEVENT_URL
+### -field WPC_ARGS_URLVISITEVENT_URL:0
 
 The address URL of a website viewed.
 

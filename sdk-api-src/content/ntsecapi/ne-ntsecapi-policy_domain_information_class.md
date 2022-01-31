@@ -58,9 +58,9 @@ The <b>POLICY_DOMAIN_INFORMATION_CLASS</b> enumeration defines the type of polic
 
 ## -enum-fields
 
-### -field PolicyDomainQualityOfServiceInformation
+### -field PolicyDomainQualityOfServiceInformation:1
 
-### -field PolicyDomainEfsInformation
+### -field PolicyDomainEfsInformation:2
 
 The information is for <a href="/windows/desktop/SecGloss/e-gly">Encrypting File System</a>.
 

@@ -54,37 +54,37 @@ Specifies the Tagged Image File Format (TIFF) compression options.
 
 ## -enum-fields
 
-### -field WICTiffCompressionDontCare
+### -field WICTiffCompressionDontCare:0
 
 Indicates a suitable compression algorithm based on the image and pixel format.
 
-### -field WICTiffCompressionNone
+### -field WICTiffCompressionNone:0x1
 
 Indicates no compression.
 
-### -field WICTiffCompressionCCITT3
+### -field WICTiffCompressionCCITT3:0x2
 
 Indicates a CCITT3 compression algorithm. This algorithm is only valid for 1bpp pixel formats.
 
-### -field WICTiffCompressionCCITT4
+### -field WICTiffCompressionCCITT4:0x3
 
 Indicates a CCITT4 compression algorithm. This algorithm is only valid for 1bpp pixel formats.
 
-### -field WICTiffCompressionLZW
+### -field WICTiffCompressionLZW:0x4
 
 Indicates a LZW compression algorithm.
 
-### -field WICTiffCompressionRLE
+### -field WICTiffCompressionRLE:0x5
 
 Indicates a RLE compression algorithm. This algorithm is only valid for 1bpp pixel formats.
 
-### -field WICTiffCompressionZIP
+### -field WICTiffCompressionZIP:0x6
 
 Indicates a ZIP compression algorithm.
 
-### -field WICTiffCompressionLZWHDifferencing
+### -field WICTiffCompressionLZWHDifferencing:0x7
 
 Indicates an LZWH differencing algorithm.
 
-### -field WICTIFFCOMPRESSIONOPTION_FORCE_DWORD
+### -field WICTIFFCOMPRESSIONOPTION_FORCE_DWORD:0x7fffffff
 

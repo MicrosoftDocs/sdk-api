@@ -54,10 +54,10 @@ Used by members of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_c
 
 ## -enum-fields
 
-### -field CM_ENUM_ALL
+### -field CM_ENUM_ALL:0x1
 
 Enumerate all.
 
-### -field CM_ENUM_VISIBLE
+### -field CM_ENUM_VISIBLE:0x2
 
 Enumerate visible.

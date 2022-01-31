@@ -54,7 +54,7 @@ Identifies a type of header.
 
 ## -enum-fields
 
-### -field WS_ACTION_HEADER
+### -field WS_ACTION_HEADER:1
 
 The Action addressing header.
                 
@@ -72,7 +72,7 @@ This header can be used with the following <a href="/windows/desktop/api/webserv
 </li>
 </ul>
 
-### -field WS_TO_HEADER
+### -field WS_TO_HEADER:2
 
 The To addressing header.
                 
@@ -90,7 +90,7 @@ This header can be used with the following <a href="/windows/desktop/api/webserv
 </li>
 </ul>
 
-### -field WS_MESSAGE_ID_HEADER
+### -field WS_MESSAGE_ID_HEADER:3
 
 The MessageID addressing header.
                 
@@ -114,7 +114,7 @@ This header can be used with the following <a href="/windows/desktop/api/webserv
 
 This header is not supported for <a href="/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_TRANSPORT</a>.
 
-### -field WS_RELATES_TO_HEADER
+### -field WS_RELATES_TO_HEADER:4
 
 The RelatesTo addressing header.
                 
@@ -138,7 +138,7 @@ This header can be used with the following <a href="/windows/desktop/api/webserv
 
 This header is not supported for <a href="/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_TRANSPORT</a>.
 
-### -field WS_FROM_HEADER
+### -field WS_FROM_HEADER:5
 
 The From addressing header.
                 
@@ -148,7 +148,7 @@ This header is used with <a href="/windows/desktop/api/webservices/ne-webservice
 
 This header is not supported for <a href="/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_TRANSPORT</a>.
 
-### -field WS_REPLY_TO_HEADER
+### -field WS_REPLY_TO_HEADER:6
 
 The ReplyTo addressing header.
                 
@@ -158,7 +158,7 @@ This header is used with <a href="/windows/desktop/api/webservices/ne-webservice
 
 This header is not supported for <a href="/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_TRANSPORT</a>.
 
-### -field WS_FAULT_TO_HEADER
+### -field WS_FAULT_TO_HEADER:7
 
 The FaultTo addressing header, in <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> format.
                 

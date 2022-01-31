@@ -86,7 +86,7 @@ The specified logical processors share a single <a href="/windows/desktop/ProcTh
 
 Introduced in TBD - Release Iron.  Requests that the full affinity be returned. Unlike the other relation types, **RelationNumaNodeEx** is not used on input. It is simply a request for **RelationNumaNode** with full group information.
 
-### -field RelationAll
+### -field RelationAll:0xffff
 
 On input, retrieves information about all possible relationship types. This value is not used on output.
 

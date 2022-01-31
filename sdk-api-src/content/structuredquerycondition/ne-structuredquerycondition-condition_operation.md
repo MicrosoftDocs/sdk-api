@@ -64,7 +64,7 @@ Provides a set of flags to be used with following methods to indicate the operat
 
 ## -enum-fields
 
-### -field COP_IMPLICIT
+### -field COP_IMPLICIT:0
 
 An implicit comparison between the value of the property and the value of the constant. For an unresolved condition, <a href="/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">COP_IMPLICIT</a> means that a user did not type an operation. In contrast, a resolved condition will always have a condition other than the <b>COP_IMPLICIT</b> operation.
 

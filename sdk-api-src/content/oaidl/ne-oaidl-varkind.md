@@ -56,7 +56,7 @@ Specifies the variable type.
 
 ## -enum-fields
 
-### -field VAR_PERINSTANCE
+### -field VAR_PERINSTANCE:0
 
 The variable is a field or member of the type. It exists at a fixed offset within each instance of the type.
 

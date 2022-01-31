@@ -56,19 +56,19 @@ api_name:
 
 ## -enum-fields
 
-### -field extendedIsolationStateNoData
+### -field extendedIsolationStateNoData:0
 
 No data is available on the connection isolation state.
 
-### -field extendedIsolationStateTransition
+### -field extendedIsolationStateTransition:0x1
 
 The connection isolation state is "transition".
 
-### -field extendedIsolationStateInfected
+### -field extendedIsolationStateInfected:0x2
 
 The connection isolation state is "infected".
 
-### -field extendedIsolationStateUnknown
+### -field extendedIsolationStateUnknown:0x3
 
 The connection isolation state is unknown.
 

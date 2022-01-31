@@ -54,11 +54,11 @@ Identifies unordered-access view options for a buffer resource.
 
 ## -enum-fields
 
-### -field D3D12_BUFFER_UAV_FLAG_NONE
+### -field D3D12_BUFFER_UAV_FLAG_NONE:0
 
 Indicates a default view.
 
-### -field D3D12_BUFFER_UAV_FLAG_RAW
+### -field D3D12_BUFFER_UAV_FLAG_RAW:0x1
 
 Resource contains raw, unstructured data.  Requires the UAV format to be <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT_R32_TYPELESS</a>.
             For more info about raw viewing of buffers, see <a href="/windows/desktop/direct3d11/overviews-direct3d-11-resources-intro">Raw Views of Buffers</a>.

@@ -54,11 +54,11 @@ Specifies the pen-tip shape.
 
 ## -enum-fields
 
-### -field IPT_Ball
+### -field IPT_Ball:0
 
 The pen tip is round. This is the default pen tip.
 
-### -field IPT_Rectangle
+### -field IPT_Rectangle:1
 
 The pen tip is rectangular.
 

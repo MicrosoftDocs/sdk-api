@@ -56,15 +56,15 @@ Describes the storage location of a certificate that is used in signing.
 
 ## -enum-fields
 
-### -field OPC_CERTIFICATE_IN_CERTIFICATE_PART
+### -field OPC_CERTIFICATE_IN_CERTIFICATE_PART:0
 
 The certificate is stored in a part specific to the certificate.
 
-### -field OPC_CERTIFICATE_IN_SIGNATURE_PART
+### -field OPC_CERTIFICATE_IN_SIGNATURE_PART:1
 
 The certificate is encoded within the signature markup in the Signature part.
 
-### -field OPC_CERTIFICATE_NOT_EMBEDDED
+### -field OPC_CERTIFICATE_NOT_EMBEDDED:2
 
 The certificate is not stored in the package.
 

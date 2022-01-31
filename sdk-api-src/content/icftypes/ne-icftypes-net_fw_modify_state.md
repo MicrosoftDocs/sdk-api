@@ -56,7 +56,7 @@ The NET_FW_MODIFY_STATE enumerated type specifies the effect of modifications to
 
 ## -enum-fields
 
-### -field NET_FW_MODIFY_STATE_OK
+### -field NET_FW_MODIFY_STATE_OK:0
 
 Changing or adding a firewall rule or firewall group to the current profile will take effect.
 

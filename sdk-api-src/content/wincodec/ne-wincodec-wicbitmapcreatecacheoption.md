@@ -54,19 +54,19 @@ Specifies the desired cache usage.
 
 ## -enum-fields
 
-### -field WICBitmapNoCache
+### -field WICBitmapNoCache:0
 
 Do not cache the bitmap.
 
-### -field WICBitmapCacheOnDemand
+### -field WICBitmapCacheOnDemand:0x1
 
 Cache the bitmap when needed.
 
-### -field WICBitmapCacheOnLoad
+### -field WICBitmapCacheOnLoad:0x2
 
 Cache the bitmap at initialization.
 
-### -field WICBITMAPCREATECACHEOPTION_FORCE_DWORD
+### -field WICBITMAPCREATECACHEOPTION_FORCE_DWORD:0x7fffffff
 
 ## -remarks
 

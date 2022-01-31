@@ -54,7 +54,7 @@ Callback flags for notifying a sync provider that a placeholder was successfully
 
 ## -enum-fields
 
-### -field CF_CALLBACK_DELETE_COMPLETION_FLAG_NONE
+### -field CF_CALLBACK_DELETE_COMPLETION_FLAG_NONE:0x00000000
 
 No delete completion flag.
 

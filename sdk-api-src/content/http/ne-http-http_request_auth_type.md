@@ -60,7 +60,7 @@ This enumeration is used  in the <a href="/windows/desktop/api/http/ns-http-http
 
 ## -enum-fields
 
-### -field HttpRequestAuthTypeNone
+### -field HttpRequestAuthTypeNone:0
 
 No authentication is attempted for the request.
 

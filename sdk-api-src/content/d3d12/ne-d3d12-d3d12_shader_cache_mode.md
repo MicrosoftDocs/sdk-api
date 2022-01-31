@@ -45,7 +45,7 @@ Defines constants that specify a shader cache's mode.
 
 ## -enum-fields
 
-### -field D3D12_SHADER_CACHE_MODE_MEMORY
+### -field D3D12_SHADER_CACHE_MODE_MEMORY:0
 
 Specifies that there's no backing file for this cache. All stores are discarded when the session object is destroyed.
 

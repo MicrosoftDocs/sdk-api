@@ -36,15 +36,15 @@ Specifies a state type for a service registry key.
 
 ## -enum-fields
 
-### -field ServiceRegistryStateParameters
+### -field ServiceRegistryStateParameters:0
 
 Immutable service state, populated by INF to the Parameters subkey.
 
-### -field ServiceRegistryStatePersistent
+### -field ServiceRegistryStatePersistent:1
 
 Mutable, persistent service state. This state is both readable and writable by the service, and is inaccessible outside of the service. This state persists across reboots and and OS updates.
 
-### -field MaxServiceRegistryStateType
+### -field MaxServiceRegistryStateType:2
 
 Reserved. Represents the maximum value of the enumeration.
 

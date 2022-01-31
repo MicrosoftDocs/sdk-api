@@ -36,7 +36,7 @@ Specifies a state type for a shared service registry key.
 
 ## -enum-fields
 
-### -field ServiceSharedRegistryPersistentState
+### -field ServiceSharedRegistryPersistentState:0
 
 Mutable, persistent service state. This state is readable and writeable by the service and by local administrators. This state persists across reboots and and OS updates.
 

@@ -56,23 +56,23 @@ The <b>WINHTTP_WEB_SOCKET_BUFFER_TYPE</b> enumeration includes types of WebSocke
 
 ## -enum-fields
 
-### -field WINHTTP_WEB_SOCKET_BINARY_MESSAGE_BUFFER_TYPE
+### -field WINHTTP_WEB_SOCKET_BINARY_MESSAGE_BUFFER_TYPE:0
 
 Buffer contains either the entire binary message or the last part of it.
 
-### -field WINHTTP_WEB_SOCKET_BINARY_FRAGMENT_BUFFER_TYPE
+### -field WINHTTP_WEB_SOCKET_BINARY_FRAGMENT_BUFFER_TYPE:1
 
 Buffer contains only part of a binary message.
 
-### -field WINHTTP_WEB_SOCKET_UTF8_MESSAGE_BUFFER_TYPE
+### -field WINHTTP_WEB_SOCKET_UTF8_MESSAGE_BUFFER_TYPE:2
 
 Buffer contains either the entire UTF-8 message or the last part of it.
 
-### -field WINHTTP_WEB_SOCKET_UTF8_FRAGMENT_BUFFER_TYPE
+### -field WINHTTP_WEB_SOCKET_UTF8_FRAGMENT_BUFFER_TYPE:3
 
 Buffer contains only part of a UTF-8 message.
 
-### -field WINHTTP_WEB_SOCKET_CLOSE_BUFFER_TYPE
+### -field WINHTTP_WEB_SOCKET_CLOSE_BUFFER_TYPE:4
 
 The server sent a close frame.
 

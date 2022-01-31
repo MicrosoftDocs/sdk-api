@@ -55,11 +55,11 @@ Defines if <a href="/windows/desktop/wsw/extended-protection">Extended Protectio
 
 ## -enum-fields
 
-### -field WS_EXTENDED_PROTECTION_POLICY_NEVER
+### -field WS_EXTENDED_PROTECTION_POLICY_NEVER:1
 
 Extended protection data is not validated.
 
-### -field WS_EXTENDED_PROTECTION_POLICY_WHEN_SUPPORTED
+### -field WS_EXTENDED_PROTECTION_POLICY_WHEN_SUPPORTED:2
 
 If the client system supports the extended protection feature, extended protection data is looked for and validated during authentication. Otherwise it is ignored.
                 
@@ -74,7 +74,7 @@ NOTE: If the client supports the extended protection feature, but did not includ
 
 This is the default.
 
-### -field WS_EXTENDED_PROTECTION_POLICY_ALWAYS
+### -field WS_EXTENDED_PROTECTION_POLICY_ALWAYS:3
 
 Extended protection data is required to be present and is always validated. Clients that are not extended-protection-aware cannot authenticate to a server 
                     setting this flag.

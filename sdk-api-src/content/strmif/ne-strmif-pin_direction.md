@@ -56,7 +56,7 @@ Indicates a pin's direction.
 
 ## -enum-fields
 
-### -field PINDIR_INPUT
+### -field PINDIR_INPUT:0
 
 Input pin.
 

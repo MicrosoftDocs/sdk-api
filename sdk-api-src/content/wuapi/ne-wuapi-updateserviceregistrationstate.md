@@ -56,15 +56,15 @@ Defines the possible states for an update service.
 
 ## -enum-fields
 
-### -field usrsNotRegistered
+### -field usrsNotRegistered:1
 
 The service is not registered.
 
-### -field usrsRegistrationPending
+### -field usrsRegistrationPending:2
 
 The service is pending registration. Registration will be attempted the next time the update agent contacts an update service.
 
-### -field usrsRegistered
+### -field usrsRegistered:3
 
 The service is registered.
 

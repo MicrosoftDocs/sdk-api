@@ -55,11 +55,11 @@ Specifies the various actions that can be performed when a resource has an embed
 
 ## -enum-fields
 
-### -field ClusterResourceEmbeddedFailureActionNone
+### -field ClusterResourceEmbeddedFailureActionNone:0
 
 Indicates that no action is to be taken.
 
-### -field ClusterResourceEmbeddedFailureActionLogOnly
+### -field ClusterResourceEmbeddedFailureActionLogOnly:1
 
 Indicates that the failure is to be logged.
 

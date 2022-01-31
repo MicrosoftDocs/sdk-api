@@ -60,7 +60,7 @@ The <b>VSS_COMPONENT_FLAGS</b> enumeration is
 
 ## -enum-fields
 
-### -field VSS_CF_BACKUP_RECOVERY
+### -field VSS_CF_BACKUP_RECOVERY:0x00000001
 
 The writer will need write access to this component after the shadow copy has been created.
       
@@ -71,7 +71,7 @@ This flag can be used together with the <b>VSS_VOLSNAP_ATTR_TRANSPORTABLE</b> va
 
 This flag is not supported for express writers.
 
-### -field VSS_CF_APP_ROLLBACK_RECOVERY
+### -field VSS_CF_APP_ROLLBACK_RECOVERY:0x00000002
 
 If this is a rollback shadow copy 
       (see the <b>VSS_VOLSNAP_ATTR_ROLLBACK_RECOVERY</b> value of the <a href="/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> enumeration), the writer for this 
@@ -84,7 +84,7 @@ This flag can be used together with the <b>VSS_VOLSNAP_ATTR_TRANSPORTABLE</b> va
 
 This flag is not supported for express writers.
 
-### -field VSS_CF_NOT_SYSTEM_STATE
+### -field VSS_CF_NOT_SYSTEM_STATE:0x00000004
 
 This component is not part of system state.
 

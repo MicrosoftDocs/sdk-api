@@ -48,7 +48,7 @@ Defines constants that specify a level of dynamic optimization to apply to GPU w
 
 ## -enum-fields
 
-### -field D3D12_BACKGROUND_PROCESSING_MODE_ALLOWED
+### -field D3D12_BACKGROUND_PROCESSING_MODE_ALLOWED:0
 
 The default setting. Specifies that the driver may instrument workloads, and dynamically recompile shaders, in a low overhead, non-intrusive manner that avoids glitching the foreground workload.
 

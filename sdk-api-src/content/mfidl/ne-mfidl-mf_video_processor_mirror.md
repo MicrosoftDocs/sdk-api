@@ -56,15 +56,15 @@ Specifies how to flip a video image.
 
 ## -enum-fields
 
-### -field MIRROR_NONE
+### -field MIRROR_NONE:0
 
 Do not flip the image.
 
-### -field MIRROR_HORIZONTAL
+### -field MIRROR_HORIZONTAL:1
 
 Flip the image horizontally.
 
-### -field MIRROR_VERTICAL
+### -field MIRROR_VERTICAL:2
 
 Flip the image vertically.
 

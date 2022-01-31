@@ -59,7 +59,7 @@ The <b>MSP_CALL_EVENT_CAUSE</b> constant is returned within the
 
 ## -enum-fields
 
-### -field CALL_CAUSE_UNKNOWN
+### -field CALL_CAUSE_UNKNOWN:0
 
 Call event cause is unknown.
 

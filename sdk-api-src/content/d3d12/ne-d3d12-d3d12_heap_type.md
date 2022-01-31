@@ -55,14 +55,14 @@ Specifies the type of heap.
 
 ## -enum-fields
 
-### -field D3D12_HEAP_TYPE_DEFAULT
+### -field D3D12_HEAP_TYPE_DEFAULT:1
 
 Specifies the default heap.
             This heap type experiences the most bandwidth for the GPU, but cannot provide CPU access.
             The GPU can read and write to the memory from this pool, and resource transition barriers may be changed.
             The majority of heaps and resources are expected to be located here, and are typically populated through resources in upload heaps.
 
-### -field D3D12_HEAP_TYPE_UPLOAD
+### -field D3D12_HEAP_TYPE_UPLOAD:2
 
 Specifies a heap used for uploading.
               This heap type has CPU access optimized for uploading to the GPU, but does not experience the maximum amount of bandwidth for the GPU.
@@ -94,7 +94,7 @@ The following are likely not good usages for _UPLOAD heaps:
               </li>
 </ul>
 
-### -field D3D12_HEAP_TYPE_READBACK
+### -field D3D12_HEAP_TYPE_READBACK:3
 
 Specifies a heap used for reading back.
               This heap type has CPU access optimized for reading data back from the GPU, but does not experience the maximum amount of bandwidth for the GPU.
@@ -104,7 +104,7 @@ Specifies a heap used for reading back.
 
 Resources in this heap must be created with <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE</a>_COPY_DEST, and cannot be changed away from this.
 
-### -field D3D12_HEAP_TYPE_CUSTOM
+### -field D3D12_HEAP_TYPE_CUSTOM:4
 
 Specifies a custom heap.
             The application may specify the memory pool and CPU cache properties directly, which can be useful for UMA optimizations, multi-engine, multi-adapter, or other special cases.

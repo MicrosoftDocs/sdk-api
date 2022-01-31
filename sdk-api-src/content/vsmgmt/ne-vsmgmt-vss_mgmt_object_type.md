@@ -58,7 +58,7 @@ The <b>VSS_MGMT_OBJECT_TYPE</b> enumeration type is a discriminant for the <a hr
 
 ## -enum-fields
 
-### -field VSS_MGMT_OBJECT_UNKNOWN
+### -field VSS_MGMT_OBJECT_UNKNOWN:0
 
 The object type is unknown.
 

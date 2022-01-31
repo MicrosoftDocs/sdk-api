@@ -54,19 +54,19 @@ Specifies fence options.
 
 ## -enum-fields
 
-### -field D3D12_FENCE_FLAG_NONE
+### -field D3D12_FENCE_FLAG_NONE:0
 
 No options are specified.
 
-### -field D3D12_FENCE_FLAG_SHARED
+### -field D3D12_FENCE_FLAG_SHARED:0x1
 
 The fence is shared.
 
-### -field D3D12_FENCE_FLAG_SHARED_CROSS_ADAPTER
+### -field D3D12_FENCE_FLAG_SHARED_CROSS_ADAPTER:0x2
 
 The fence is shared with another GPU adapter.
 
-### -field D3D12_FENCE_FLAG_NON_MONITORED
+### -field D3D12_FENCE_FLAG_NON_MONITORED:0x4
 
 The fence is of the non-monitored type. Non-monitored fences should only be used when the adapter doesn't support monitored fences, or when a fence is shared with an adapter that doesn't support monitored fences.
 

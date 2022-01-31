@@ -56,39 +56,39 @@ Specifies the seeking capabilities of a media stream.
 
 ## -enum-fields
 
-### -field AM_SEEKING_CanSeekAbsolute
+### -field AM_SEEKING_CanSeekAbsolute:0x1
 
 The stream can seek to an absolute position.
 
-### -field AM_SEEKING_CanSeekForwards
+### -field AM_SEEKING_CanSeekForwards:0x2
 
 The stream can seek forward.
 
-### -field AM_SEEKING_CanSeekBackwards
+### -field AM_SEEKING_CanSeekBackwards:0x4
 
 The stream can seek backward.
 
-### -field AM_SEEKING_CanGetCurrentPos
+### -field AM_SEEKING_CanGetCurrentPos:0x8
 
 The stream can report its current position. See Remarks.
 
-### -field AM_SEEKING_CanGetStopPos
+### -field AM_SEEKING_CanGetStopPos:0x10
 
 The stream can report its stop position.
 
-### -field AM_SEEKING_CanGetDuration
+### -field AM_SEEKING_CanGetDuration:0x20
 
 The stream can report its duration.
 
-### -field AM_SEEKING_CanPlayBackwards
+### -field AM_SEEKING_CanPlayBackwards:0x40
 
 The stream can play backward.
 
-### -field AM_SEEKING_CanDoSegments
+### -field AM_SEEKING_CanDoSegments:0x80
 
 The stream can do seamless looping (see <a href="/windows/desktop/api/strmif/nf-strmif-imediaseeking-setpositions">IMediaSeeking::SetPositions</a>).
 
-### -field AM_SEEKING_Source
+### -field AM_SEEKING_Source:0x100
 
 Reserved.
 

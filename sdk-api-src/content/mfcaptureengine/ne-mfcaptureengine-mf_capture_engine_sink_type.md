@@ -54,15 +54,15 @@ Specifies a type of capture sink.
 
 ## -enum-fields
 
-### -field MF_CAPTURE_ENGINE_SINK_TYPE_RECORD
+### -field MF_CAPTURE_ENGINE_SINK_TYPE_RECORD:0
 
 A recording sink, for capturing audio and video to a file.
 
-### -field MF_CAPTURE_ENGINE_SINK_TYPE_PREVIEW
+### -field MF_CAPTURE_ENGINE_SINK_TYPE_PREVIEW:0x1
 
 A preview sink, for previewing live audio or video.
 
-### -field MF_CAPTURE_ENGINE_SINK_TYPE_PHOTO
+### -field MF_CAPTURE_ENGINE_SINK_TYPE_PHOTO:0x2
 
 A photo sink, for capturing still images.
 

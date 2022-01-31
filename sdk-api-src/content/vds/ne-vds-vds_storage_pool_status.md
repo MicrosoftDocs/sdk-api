@@ -59,19 +59,19 @@ Defines the set of object status values for a <a href="/windows/desktop/VDS/stor
 
 ## -enum-fields
 
-### -field VDS_SPS_UNKNOWN
+### -field VDS_SPS_UNKNOWN:0
 
 The provider failed to get the storage pool properties or could not access the storage pool.
 
-### -field VDS_SPS_ONLINE
+### -field VDS_SPS_ONLINE:1
 
 The storage pool is available.
 
-### -field VDS_SPS_NOT_READY
+### -field VDS_SPS_NOT_READY:2
 
 The storage pool is busy.
 
-### -field VDS_SPS_OFFLINE
+### -field VDS_SPS_OFFLINE:4
 
 The storage pool is not available.
 

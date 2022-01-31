@@ -58,27 +58,27 @@ To set a state parameter, call the <a href="/windows/desktop/api/dxvahd/nf-dxvah
 
 ## -enum-fields
 
-### -field DXVAHD_BLT_STATE_TARGET_RECT
+### -field DXVAHD_BLT_STATE_TARGET_RECT:0
 
 Specifies the target rectangle, which is the area within the destination surface where the output will be drawn. The state data is a <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_target_rect_data">DXVAHD_BLT_STATE_TARGET_RECT_DATA</a> structure.
 
-### -field DXVAHD_BLT_STATE_BACKGROUND_COLOR
+### -field DXVAHD_BLT_STATE_BACKGROUND_COLOR:1
 
 Specifies the background color. The state data is a <a href="/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_blt_state_background_color_data">DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA</a> structure.
 
-### -field DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE
+### -field DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE:2
 
 Specifies the output color space.  The state data is a <a href="/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_blt_state_output_color_space_data">DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA</a> structure.
 
-### -field DXVAHD_BLT_STATE_ALPHA_FILL
+### -field DXVAHD_BLT_STATE_ALPHA_FILL:3
 
 Specifies how DXVA-HD device calculates output alpha values.  The state data is a <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_alpha_fill_data">DXVAHD_BLT_STATE_ALPHA_FILL_DATA</a> structure.
 
-### -field DXVAHD_BLT_STATE_CONSTRICTION
+### -field DXVAHD_BLT_STATE_CONSTRICTION:4
 
 Specifies the amount of downsampling to perform on the output.  The state data is a <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_constriction_data">DXVAHD_BLT_STATE_CONSTRICTION_DATA</a> structure.
 
-### -field DXVAHD_BLT_STATE_PRIVATE
+### -field DXVAHD_BLT_STATE_PRIVATE:1000
 
 Specifies that the state data contains a private DXVA-HD blit state.  Use this state for proprietary or device-specific parameters. The state data is a <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_private_data">DXVAHD_BLT_STATE_PRIVATE_DATA</a>  structure.
 

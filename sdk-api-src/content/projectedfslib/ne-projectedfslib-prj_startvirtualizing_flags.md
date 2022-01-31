@@ -54,11 +54,11 @@ Flags to provide when starting a virtualization instance.
 
 ## -enum-fields
 
-### -field PRJ_FLAG_NONE
+### -field PRJ_FLAG_NONE:0x00000000
 
 No flags.
 
-### -field PRJ_FLAG_USE_NEGATIVE_PATH_CACHE
+### -field PRJ_FLAG_USE_NEGATIVE_PATH_CACHE:0x00000001
 
 Specifies that ProjFS should maintain a "negative path cache" for the virtualization instance. If the negative path cache is active, then if the provider indicates that a file path does not exist by returning HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND) from its <a href="/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_placeholder_info_cb">PRJ_GET_PLACEHOLDER_INFO_CB</a> callback, ProjFS will fail subsequent opens of that path without calling the <a href="/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_placeholder_info_cb">PRJ_GET_PLACEHOLDER_INFO_CB</a> callback again. 
 

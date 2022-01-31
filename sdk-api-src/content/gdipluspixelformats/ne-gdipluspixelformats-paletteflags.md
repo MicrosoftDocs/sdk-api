@@ -55,15 +55,15 @@ The <b>PaletteFlags</b> enumeration indicates attributes of the color data in a 
 
 ## -enum-fields
 
-### -field PaletteFlagsHasAlpha
+### -field PaletteFlagsHasAlpha:0x0001
 
 Indicates that one or more of the palette entries contains alpha (transparency) information.
 
-### -field PaletteFlagsGrayScale
+### -field PaletteFlagsGrayScale:0x0002
 
 Indicates that the palette contains only grayscale entries.
 
-### -field PaletteFlagsHalftone
+### -field PaletteFlagsHalftone:0x0004
 
 Indicates that the palette is the Windows halftone palette.
 

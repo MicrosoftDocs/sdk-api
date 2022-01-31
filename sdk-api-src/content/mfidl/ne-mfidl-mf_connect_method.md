@@ -56,19 +56,19 @@ Specifies how the topology loader connects a topology node. This enumeration is 
 
 ## -enum-fields
 
-### -field MF_CONNECT_DIRECT
+### -field MF_CONNECT_DIRECT:0
 
 Connect the node directly to its upstream neighbor. Fail otherwise.
 
-### -field MF_CONNECT_ALLOW_CONVERTER
+### -field MF_CONNECT_ALLOW_CONVERTER:0x1
 
 Add a converter transform upstream from this node, if needed to complete the connection. Converter transforms include color-space converters for video, and audio resamplers for audio.
 
-### -field MF_CONNECT_ALLOW_DECODER
+### -field MF_CONNECT_ALLOW_DECODER:0x3
 
 Add a decoder transform upstream upstream from this node, if needed to complete the connection. The numeric value of this flag includes the <b>MF_CONNECT_ALLOW_CONVERTER</b> flag. Therefore, setting the <b>MF_CONNECT_ALLOW_DECODER</b> flag sets the <b>MF_CONNECT_ALLOW_CONVERTER</b> flag as well.
 
-### -field MF_CONNECT_RESOLVE_INDEPENDENT_OUTPUTTYPES
+### -field MF_CONNECT_RESOLVE_INDEPENDENT_OUTPUTTYPES:0x4
 
 Controls the order in which the topology loader attempts to  
             use different output types from this node. Currently, this flag applies only to source nodes. For more information, see <a href="/windows/desktop/medfound/mf-topology-enumerate-source-types">MF_TOPOLOGY_ENUMERATE_SOURCE_TYPES</a>. 
@@ -76,11 +76,11 @@ Controls the order in which the topology loader attempts to
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.</div>
 <div> </div>
 
-### -field MF_CONNECT_AS_OPTIONAL
+### -field MF_CONNECT_AS_OPTIONAL:0x10000
 
 This node is optional. If the topology loader cannot connect this node, it will skip the node and continue.
 
-### -field MF_CONNECT_AS_OPTIONAL_BRANCH
+### -field MF_CONNECT_AS_OPTIONAL_BRANCH:0x20000
 
 The entire topology branch starting at this node is optional. If the topology loader cannot resolve this branch, it will skip the branch and continue.
 

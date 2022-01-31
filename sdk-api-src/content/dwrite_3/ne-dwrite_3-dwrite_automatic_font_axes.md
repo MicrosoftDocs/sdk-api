@@ -49,11 +49,11 @@ Defines constants that specifies axes that can be applied automatically in layou
 
 ## -enum-fields
 
-### -field DWRITE_AUTOMATIC_FONT_AXES_NONE
+### -field DWRITE_AUTOMATIC_FONT_AXES_NONE:0x0000
 
 Specifies that no axes are automatically applied.
 
-### -field DWRITE_AUTOMATIC_FONT_AXES_OPTICAL_SIZE
+### -field DWRITE_AUTOMATIC_FONT_AXES_OPTICAL_SIZE:0x0001
 
 Specifies that&mdash;when no value is specified via <a href="/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag">DWRITE_FONT_AXIS_TAG_OPTICAL_SIZE</a>&mdash;an appropriate optical value should be automatically chosen based on the font size (via <a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setfontsize">IDWriteTextLayout::SetFontSize</a>). You can still apply the 'opsz' value over text ranges via <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextformat3-setfontaxisvalues">IDWriteTextFormat3::SetFontAxisValues</a>, which take priority.
 

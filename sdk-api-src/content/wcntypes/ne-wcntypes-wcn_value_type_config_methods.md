@@ -56,88 +56,88 @@ The <b>WCN_VALUE_TYPE_CONFIG_METHODS</b> enumeration defines the configuration m
 
 ## -enum-fields
 
-### -field WCN_VALUE_CM_USBA
+### -field WCN_VALUE_CM_USBA:0x1
 
 USB-A (flash drive) configuration is supported.
 
 <div class="alert"><b>Note</b>  Not supported in Windows 7 and later. Not supported in WPS 2.0.</div>
 <div> </div>
 
-### -field WCN_VALUE_CM_ETHERNET
+### -field WCN_VALUE_CM_ETHERNET:0x2
 
 Ethernet configuration is supported.
 
 <div class="alert"><b>Note</b>  Not supported in Windows 7 and later. Not supported in WPS 2.0.</div>
 <div> </div>
 
-### -field WCN_VALUE_CM_LABEL
+### -field WCN_VALUE_CM_LABEL:0x4
 
 Label configuration is supported. To authenticate with the default password ID, call <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-setpassword">IWCNDevice::SetPassword</a> with the PIN password type defined by <a href="/windows/desktop/api/wcndevice/ne-wcndevice-wcn_password_type">WCN_PASSWORD_TYPE</a>.
 
-### -field WCN_VALUE_CM_DISPLAY
+### -field WCN_VALUE_CM_DISPLAY:0x8
 
 Display configuration is supported. To authenticate with the default password ID, call <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-setpassword">IWCNDevice::SetPassword</a> with the PIN password type defined by <a href="/windows/desktop/api/wcndevice/ne-wcndevice-wcn_password_type">WCN_PASSWORD_TYPE</a>.
 
 <div class="alert"><b>Note</b>  For WPS 2.0, use <b>WCN_VALUE_CM_VIRT_DISPLAY</b> or <b>WCN_VALUE_CM_PHYS_DISPLAY</b>.</div>
 <div> </div>
 
-### -field WCN_VALUE_CM_EXTERNAL_NFC
+### -field WCN_VALUE_CM_EXTERNAL_NFC:0x10
 
 External near-field communication (NFC) token configuration is supported.
 
 <div class="alert"><b>Note</b>  Not supported in Windows 7.</div>
 <div> </div>
 
-### -field WCN_VALUE_CM_INTEGRATED_NFC
+### -field WCN_VALUE_CM_INTEGRATED_NFC:0x20
 
 Integrated NFC token configuration is supported.
 
 <div class="alert"><b>Note</b>  Not supported in Windows 7.</div>
 <div> </div>
 
-### -field WCN_VALUE_CM_NFC_INTERFACE
+### -field WCN_VALUE_CM_NFC_INTERFACE:0x40
 
 NFC interface configuration is supported.
 
 <div class="alert"><b>Note</b>  Not supported in Windows 7.</div>
 <div> </div>
 
-### -field WCN_VALUE_CM_PUSHBUTTON
+### -field WCN_VALUE_CM_PUSHBUTTON:0x80
 
 Push button configuration is supported. To authenticate with the default password ID, call <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-setpassword">IWCNDevice::SetPassword</a> with the push button password type defined by <a href="/windows/desktop/api/wcndevice/ne-wcndevice-wcn_password_type">WCN_PASSWORD_TYPE</a>.
 
 <div class="alert"><b>Note</b>  For WPS 2.0, use <b>WCN_VALUE_CM_VIRT_PUSHBUTTON</b> or <b>WCN_VALUE_CM_PHYS_PUSHBUTTON</b>.</div>
 <div> </div>
 
-### -field WCN_VALUE_CM_KEYPAD
+### -field WCN_VALUE_CM_KEYPAD:0x100
 
 Keypad configuration is supported.
 
 <div class="alert"><b>Note</b>  Not supported in Windows 7.</div>
 <div> </div>
 
-### -field WCN_VALUE_CM_VIRT_PUSHBUTTON
+### -field WCN_VALUE_CM_VIRT_PUSHBUTTON:0x280
 
 Virtual push button configuration is supported.  To authenticate with the default password ID, call <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-setpassword">IWCNDevice::SetPassword</a> with the push button password type defined by <a href="/windows/desktop/api/wcndevice/ne-wcndevice-wcn_password_type">WCN_PASSWORD_TYPE</a>.
 
 <div class="alert"><b>Note</b>  Only available  in Windows 8.</div>
 <div> </div>
 
-### -field WCN_VALUE_CM_PHYS_PUSHBUTTON
+### -field WCN_VALUE_CM_PHYS_PUSHBUTTON:0x480
 
 Physical push button configuration is supported.  To authenticate with the default password ID, call <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-setpassword">IWCNDevice::SetPassword</a> with the push button password type defined by <a href="/windows/desktop/api/wcndevice/ne-wcndevice-wcn_password_type">WCN_PASSWORD_TYPE</a>.
 
 <div class="alert"><b>Note</b>  Only available  in Windows 8.</div>
 <div> </div>
 
-### -field WCN_VALUE_CM_VIRT_DISPLAY
+### -field WCN_VALUE_CM_VIRT_DISPLAY:0x2008
 
 Virtual display configuration is supported. To authenticate with the default password ID, call <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-setpassword">IWCNDevice::SetPassword</a> with the PIN password type defined by <a href="/windows/desktop/api/wcndevice/ne-wcndevice-wcn_password_type">WCN_PASSWORD_TYPE</a>.
 
 <div class="alert"><b>Note</b>  Only available  in Windows 8.</div>
 <div> </div>
 
-### -field WCN_VALUE_CM_PHYS_DISPLAY
+### -field WCN_VALUE_CM_PHYS_DISPLAY:0x4008
 
 Physical display configuration is supported. To authenticate with the default password ID, call <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-setpassword">IWCNDevice::SetPassword</a> with the PIN password type defined by <a href="/windows/desktop/api/wcndevice/ne-wcndevice-wcn_password_type">WCN_PASSWORD_TYPE</a>.
 

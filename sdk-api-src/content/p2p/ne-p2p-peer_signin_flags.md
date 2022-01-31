@@ -56,15 +56,15 @@ The <b>PEER_SIGNIN_FLAGS</b> enumeration defines the set of peer presence public
 
 ## -enum-fields
 
-### -field PEER_SIGNIN_NONE
+### -field PEER_SIGNIN_NONE:0x0
 
 A peer's presence is not being published in any scope.
 
-### -field PEER_SIGNIN_NEAR_ME
+### -field PEER_SIGNIN_NEAR_ME:0x1
 
 The peer can publish availability information to endpoints in the same subnet or local area network, or query for other endpoints available on the subnet.
 
-### -field PEER_SIGNIN_INTERNET
+### -field PEER_SIGNIN_INTERNET:0x2
 
 The peer can publish presence, applications, and objects to all contacts in a peer's contact list.
 

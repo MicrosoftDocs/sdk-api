@@ -57,7 +57,7 @@ The <b>DBKINDENUM</b> enumerated type specifies the combination of GUID, propert
 
 ## -enum-fields
 
-### -field DBKIND_GUID_NAME
+### -field DBKIND_GUID_NAME:0
 
 ### -field DBKIND_GUID_PROPID
 

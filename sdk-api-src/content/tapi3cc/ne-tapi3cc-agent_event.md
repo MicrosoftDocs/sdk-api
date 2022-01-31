@@ -56,7 +56,7 @@ The
 
 ## -enum-fields
 
-### -field AE_NOT_READY
+### -field AE_NOT_READY:0
 
 The agent is unable to handle calls.
 

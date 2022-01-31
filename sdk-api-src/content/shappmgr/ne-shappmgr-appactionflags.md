@@ -56,39 +56,39 @@ Specifies application management actions supported by an application publisher. 
 
 ## -enum-fields
 
-### -field APPACTION_INSTALL
+### -field APPACTION_INSTALL:0x1
 
 Indicates that the application can be installed. Published applications always set this bit.
 
-### -field APPACTION_UNINSTALL
+### -field APPACTION_UNINSTALL:0x2
 
 Not applicable to published applications.
 
-### -field APPACTION_MODIFY
+### -field APPACTION_MODIFY:0x4
 
 Not applicable to published applications.
 
-### -field APPACTION_REPAIR
+### -field APPACTION_REPAIR:0x8
 
 Not applicable to published applications.
 
-### -field APPACTION_UPGRADE
+### -field APPACTION_UPGRADE:0x10
 
 Not applicable to published applications.
 
-### -field APPACTION_CANGETSIZE
+### -field APPACTION_CANGETSIZE:0x20
 
 Not applicable to published applications.
 
-### -field APPACTION_MODIFYREMOVE
+### -field APPACTION_MODIFYREMOVE:0x80
 
 Not applicable to published applications.
 
-### -field APPACTION_ADDLATER
+### -field APPACTION_ADDLATER:0x100
 
 Indicates that the application supports scheduled installation.  If this bit is set, then the Control Panel's Add or Remove Programs application presents the user an <b>Add Later</b> button. If you select <b>Add Later</b>, you are prompted to select the desired time of installation. The <a href="/windows/desktop/api/shappmgr/nf-shappmgr-ipublishedapp-install">IPublishedApp::Install</a> method is then called with the installation time.
 
-### -field APPACTION_UNSCHEDULE
+### -field APPACTION_UNSCHEDULE:0x200
 
 Obsolete.
 

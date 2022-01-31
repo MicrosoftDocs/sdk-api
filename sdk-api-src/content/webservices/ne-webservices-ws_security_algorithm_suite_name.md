@@ -56,7 +56,7 @@ A suite of security algorithms used for tasks such as signing and encrypting.
 
 ## -enum-fields
 
-### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256
+### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256:1
 
 Identifies the Basic256 algorithm suite. This suite uses the following algorithms:
             <ul>
@@ -81,7 +81,7 @@ Identifies the Basic256 algorithm suite. This suite uses the following algorithm
 </ul>The minimum symmetric key length is 256; the maximum symmetric key length is 256.
             The minimum asymmetric key length is 1024; the maximum asymmetric key length is 4096.
 
-### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC192
+### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC192:2
 
 Identifies the Basic192 algorithm suite. This suite uses the following algorithms:
             <ul>
@@ -106,7 +106,7 @@ Identifies the Basic192 algorithm suite. This suite uses the following algorithm
 </ul>The minimum symmetric key length is 192; the maximum symmetric key length is 256.
             The minimum asymmetric key length is 1024; the maximum asymmetric key length is 4096.
 
-### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128
+### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128:3
 
 Identifies the Basic128 algorithm suite. This suite uses the following algorithms:
             <ul>
@@ -131,7 +131,7 @@ Identifies the Basic128 algorithm suite. This suite uses the following algorithm
 </ul>The minimum symmetric key length is 128; the maximum symmetric key length is 256.
             The minimum asymmetric key length is 1024; the maximum asymmetric key length is 4096.
 
-### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256_RSA15
+### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256_RSA15:4
 
 Identifies the Basic256Rsa15 algorithm suite. This suite uses the following algorithms:
             <ul>
@@ -156,7 +156,7 @@ Identifies the Basic256Rsa15 algorithm suite. This suite uses the following algo
 </ul>The minimum symmetric key length is 256; the maximum symmetric key length is 256.
             The minimum asymmetric key length is 1024; the maximum asymmetric key length is 4096.
 
-### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC192_RSA15
+### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC192_RSA15:5
 
 Identifies the Basic192Rsa15 algorithm suite. This suite uses the following algorithms:
             <ul>
@@ -181,7 +181,7 @@ Identifies the Basic192Rsa15 algorithm suite. This suite uses the following algo
 </ul>The minimum symmetric key length is 192; the maximum symmetric key length is 256.
             The minimum asymmetric key length is 1024; the maximum asymmetric key length is 4096.
 
-### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128_RSA15
+### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128_RSA15:6
 
 Identifies the Basic128RSA15 algorithm suite. This suite uses the following algorithms:
             <ul>
@@ -206,7 +206,7 @@ Identifies the Basic128RSA15 algorithm suite. This suite uses the following algo
 </ul>The minimum symmetric key length is 128; the maximum symmetric key length is 256.
             The minimum asymmetric key length is 1024; the maximum asymmetric key length is 4096.
 
-### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256_SHA256
+### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256_SHA256:7
 
 Identifies the Basic256Sha256 algorithm suite. This suite uses the following algorithms:
             <ul>
@@ -231,7 +231,7 @@ Identifies the Basic256Sha256 algorithm suite. This suite uses the following alg
 </ul>The minimum symmetric key length is 256; the maximum symmetric key length is 256.
             The minimum asymmetric key length is 1024; the maximum asymmetric key length is 4096.
 
-### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC192_SHA256
+### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC192_SHA256:8
 
 Identifies the Basic192Sha256 algorithm suite. This suite uses the following algorithms:
             <ul>
@@ -256,7 +256,7 @@ Identifies the Basic192Sha256 algorithm suite. This suite uses the following alg
 </ul>The minimum symmetric key length is 192; the maximum symmetric key length is 256.
             The minimum asymmetric key length is 1024; the maximum asymmetric key length is 4096.
 
-### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128_SHA256
+### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128_SHA256:9
 
 Identifies the Basic128Sha256 algorithm suite. This suite uses the following algorithms:
             <ul>
@@ -281,7 +281,7 @@ Identifies the Basic128Sha256 algorithm suite. This suite uses the following alg
 </ul>The minimum symmetric key length is 128; the maximum symmetric key length is 256.
             The minimum asymmetric key length is 1024; the maximum asymmetric key length is 4096.
 
-### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256_SHA256_RSA15
+### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256_SHA256_RSA15:10
 
 Identifies the Basic256Sha256Rsa15 algorithm suite. This suite uses the following algorithms:
             <ul>
@@ -306,7 +306,7 @@ Identifies the Basic256Sha256Rsa15 algorithm suite. This suite uses the followin
 </ul>The minimum symmetric key length is 256; the maximum symmetric key length is 256.
             The minimum asymmetric key length is 1024; the maximum asymmetric key length is 4096.
 
-### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC192_SHA256_RSA15
+### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC192_SHA256_RSA15:11
 
 Identifies the Basic192Sha256Rsa15 algorithm suite. This suite uses the following algorithms:
             <ul>
@@ -331,7 +331,7 @@ Identifies the Basic192Sha256Rsa15 algorithm suite. This suite uses the followin
 </ul>The minimum symmetric key length is 192; the maximum symmetric key length is 256.
             The minimum asymmetric key length is 1024; the maximum asymmetric key length is 4096.
 
-### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128_SHA256_RSA15
+### -field WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128_SHA256_RSA15:12
 
 Identifies the Basic128Sha256Rsa15 algorithm suite. This suite uses the following algorithms:
             <ul>

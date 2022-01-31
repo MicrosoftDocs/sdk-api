@@ -54,15 +54,15 @@ Defines how hit testing is handled by <a href="/previous-versions/windows/deskto
 
 ## -enum-fields
 
-### -field DIRECTMANIPULATION_HITTEST_TYPE_ASYNCHRONOUS
+### -field DIRECTMANIPULATION_HITTEST_TYPE_ASYNCHRONOUS:0
 
 The hit-test thread receives <a href="/previous-versions/windows/desktop/inputmsg/wm-pointerdown">WM_POINTERDOWN</a> messages and specifies whether to call <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact">SetContact</a>. If <b>SetContact</b> is not called, the contact will not be associated with a viewport.
 
-### -field DIRECTMANIPULATION_HITTEST_TYPE_SYNCHRONOUS
+### -field DIRECTMANIPULATION_HITTEST_TYPE_SYNCHRONOUS:0x1
 
 The UI thread always receives <a href="/previous-versions/windows/desktop/inputmsg/wm-pointerdown">WM_POINTERDOWN</a> messages after the hit-test thread. A call to <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact">SetContact</a> is not required.
 
-### -field DIRECTMANIPULATION_HITTEST_TYPE_AUTO_SYNCHRONOUS
+### -field DIRECTMANIPULATION_HITTEST_TYPE_AUTO_SYNCHRONOUS:0x2
 
 The UI thread receives <a href="/previous-versions/windows/desktop/inputmsg/wm-pointerdown">WM_POINTERDOWN</a> messages only when <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact">SetContact</a> isn't called by the hit-test thread.
 

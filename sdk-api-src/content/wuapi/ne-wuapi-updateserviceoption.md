@@ -56,7 +56,7 @@ Defines the options that  affect how the service registration for a scan package
 
 ## -enum-fields
 
-### -field usoNonVolatileService
+### -field usoNonVolatileService:0x1
 
 Indicates that you must call the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-removeservice">IUpdateServiceManager::RemoveService</a> method to remove the service registration. 
 

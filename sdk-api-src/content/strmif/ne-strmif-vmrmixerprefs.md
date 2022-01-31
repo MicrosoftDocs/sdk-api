@@ -54,82 +54,82 @@ The <b>VMRMixerPrefs</b> enumeration contains flags that specify decimation, fil
 
 ## -enum-fields
 
-### -field MixerPref_NoDecimation
+### -field MixerPref_NoDecimation:0x1
 
 No decimation. The video will be rendered onto the surface in its native size.
 
-### -field MixerPref_DecimateOutput
+### -field MixerPref_DecimateOutput:0x2
 
 Decimate output by 2 in the x and y directions.
 
-### -field MixerPref_ARAdjustXorY
+### -field MixerPref_ARAdjustXorY:0x4
 
 Adjust the horizontal or vertical size of the video streams to match the target aspect ratio. If this flag is not present, the VMR adjusts the horizontal size only. For more information, see <a href="/windows/desktop/DirectShow/aspect-ratio-correction">Aspect Ratio Correction</a>.
 
-### -field MixerPref_DecimationReserved
+### -field MixerPref_DecimationReserved:0x8
 
 Reserved.
 
-### -field MixerPref_DecimateMask
+### -field MixerPref_DecimateMask:0xf
 
 Bitmask to isolate the flags that control decimation. (This value is not a valid flag.)
 
-### -field MixerPref_BiLinearFiltering
+### -field MixerPref_BiLinearFiltering:0x10
 
 Use bi-linear filtering. This is the default type of filtering, but not all cards can support it.
 
-### -field MixerPref_PointFiltering
+### -field MixerPref_PointFiltering:0x20
 
 Use point filtering.
 
-### -field MixerPref_FilteringMask
+### -field MixerPref_FilteringMask:0xf0
 
 Bitmask to isolate the flags the control filtering. (This value is not a valid flag.)
 
-### -field MixerPref_RenderTargetRGB
+### -field MixerPref_RenderTargetRGB:0x100
 
 The render target is an RGB surface.
 
-### -field MixerPref_RenderTargetYUV
+### -field MixerPref_RenderTargetYUV:0x1000
 
 The render target is a YUV surface. Requires Windows XP Service Pack 2. For more information, see <a href="/windows/desktop/DirectShow/yuv-mixing-mode">YUV Mixing Mode</a>.
 
-### -field MixerPref_RenderTargetYUV420
+### -field MixerPref_RenderTargetYUV420:0x200
 
 The render target is a YUV 4:2:0 surface. <div class="alert"><b>Note</b>  Deprecated.</div>
 <div> </div>
 
-### -field MixerPref_RenderTargetYUV422
+### -field MixerPref_RenderTargetYUV422:0x400
 
 The render target is a YUV 4:2:2 surface. <div class="alert"><b>Note</b>  Deprecated.</div>
 <div> </div>
 
-### -field MixerPref_RenderTargetYUV444
+### -field MixerPref_RenderTargetYUV444:0x800
 
 The render target is a YUV 4:4:4 surface. <div class="alert"><b>Note</b>  Deprecated.</div>
 <div> </div>
 
-### -field MixerPref_RenderTargetReserved
+### -field MixerPref_RenderTargetReserved:0xe000
 
 Reserved.
 
-### -field MixerPref_RenderTargetMask
+### -field MixerPref_RenderTargetMask:0xff00
 
 Bitmask to isolate flags that control the render target. (This value is not a valid flag.)
 
-### -field MixerPref_DynamicSwitchToBOB
+### -field MixerPref_DynamicSwitchToBOB:0x10000
 
 In YUV mixing mode only, this flag switches the VMR to bob deinterlacing. You can add or remove this flag while the filter graph is running; the change will be applied when the VMR mixer composes the next video frame.
 
-### -field MixerPref_DynamicDecimateBy2
+### -field MixerPref_DynamicDecimateBy2:0x20000
 
 In YUV mixing mode only, this flag causes the VMR to decimate the image by a factor of 2 horizontally and vertically. You can add or remove this flag while the filter graph is running; the change is applied when the VMR mixer composes the next video frame.
 
-### -field MixerPref_DynamicReserved
+### -field MixerPref_DynamicReserved:0xc0000
 
 Reserved.
 
-### -field MixerPref_DynamicMask
+### -field MixerPref_DynamicMask:0xf0000
 
 Bitmask to isolate the MixerPref_DynamicSwitchToBOB and MixerPref_DynamicDecimateBy2 flags. (This value is not a valid flag.)
 

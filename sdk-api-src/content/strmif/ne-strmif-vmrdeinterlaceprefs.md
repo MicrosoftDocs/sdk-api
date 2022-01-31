@@ -55,19 +55,19 @@ The <b>VMRDeinterlacePrefs</b> enumeration type describes the deinterlacing meth
 
 ## -enum-fields
 
-### -field DeinterlacePref_NextBest
+### -field DeinterlacePref_NextBest:0x1
 
 Use the next best mode offered by the driver.
 
-### -field DeinterlacePref_BOB
+### -field DeinterlacePref_BOB:0x2
 
 Use the bob method.
 
-### -field DeinterlacePref_Weave
+### -field DeinterlacePref_Weave:0x4
 
 Use the weave method (that is, no deinterlacing).
 
-### -field DeinterlacePref_Mask
+### -field DeinterlacePref_Mask:0x7
 
 Bitwise <b>OR</b> of the previous flags. This value is not a valid flag.
 

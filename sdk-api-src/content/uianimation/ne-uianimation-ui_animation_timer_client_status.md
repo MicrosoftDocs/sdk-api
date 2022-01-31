@@ -56,11 +56,11 @@ Defines activity status for a timer's client.
 
 ## -enum-fields
 
-### -field UI_ANIMATION_TIMER_CLIENT_IDLE
+### -field UI_ANIMATION_TIMER_CLIENT_IDLE:0
 
 The client is idle.
 
-### -field UI_ANIMATION_TIMER_CLIENT_BUSY
+### -field UI_ANIMATION_TIMER_CLIENT_BUSY:1
 
 The client is busy.
 

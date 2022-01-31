@@ -58,19 +58,19 @@ The
 
 ## -enum-fields
 
-### -field SYNCMGRLOGLEVEL_INFORMATION
+### -field SYNCMGRLOGLEVEL_INFORMATION:0x1
 
 An information message was logged.
 
-### -field SYNCMGRLOGLEVEL_WARNING
+### -field SYNCMGRLOGLEVEL_WARNING:0x2
 
 A warning message was logged.
 
-### -field SYNCMGRLOGLEVEL_ERROR
+### -field SYNCMGRLOGLEVEL_ERROR:0x3
 
 An error message was logged.
 
-### -field SYNCMGRLOGLEVEL_LOGLEVELMAX
+### -field SYNCMGRLOGLEVEL_LOGLEVELMAX:0x3
 
 The largest valid <a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgrloglevel">SYNCMGRLOGLEVEL</a> value.
 

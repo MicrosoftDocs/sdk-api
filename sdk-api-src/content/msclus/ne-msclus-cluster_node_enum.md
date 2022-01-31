@@ -57,18 +57,18 @@ Describes the types of cluster objects that are enumerated by the
 
 ## -enum-fields
 
-### -field CLUSTER_NODE_ENUM_NETINTERFACES
+### -field CLUSTER_NODE_ENUM_NETINTERFACES:0x1
 
 Network interfaces on the node.
 
-### -field CLUSTER_NODE_ENUM_GROUPS
+### -field CLUSTER_NODE_ENUM_GROUPS:0x2
 
 Cluster groups on the node.
 
 <b>Windows Server 2008:  </b>This value is not supported before 
         Windows Server 2008 R2.
 
-### -field CLUSTER_NODE_ENUM_PREFERRED_GROUPS
+### -field CLUSTER_NODE_ENUM_PREFERRED_GROUPS:0x4
 
 Cluster groups that list this node as their preferred owner.
 

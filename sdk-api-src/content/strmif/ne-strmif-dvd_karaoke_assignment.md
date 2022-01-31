@@ -56,35 +56,35 @@ Defines the speaker configuration for an audio stream.
 
 ## -enum-fields
 
-### -field DVD_Assignment_reserved0
+### -field DVD_Assignment_reserved0:0
 
 Reserved.
 
-### -field DVD_Assignment_reserved1
+### -field DVD_Assignment_reserved1:1
 
 Reserved.
 
-### -field DVD_Assignment_LR
+### -field DVD_Assignment_LR:2
 
 The stream is assigned to the left and right speakers.
 
-### -field DVD_Assignment_LRM
+### -field DVD_Assignment_LRM:3
 
 The stream is assigned to the left, right, and middle speakers.
 
-### -field DVD_Assignment_LR1
+### -field DVD_Assignment_LR1:4
 
 The stream is assigned to the left, right, and audio1 speakers.
 
-### -field DVD_Assignment_LRM1
+### -field DVD_Assignment_LRM1:5
 
 The stream is assigned to the left, right, middle, and audio1 speakers.
 
-### -field DVD_Assignment_LR12
+### -field DVD_Assignment_LR12:6
 
 The stream is assigned to the left, right, and audio2 speakers.
 
-### -field DVD_Assignment_LRM12
+### -field DVD_Assignment_LRM12:7
 
 The stream is assigned to the left, right, middle, and audio2 speakers.
 

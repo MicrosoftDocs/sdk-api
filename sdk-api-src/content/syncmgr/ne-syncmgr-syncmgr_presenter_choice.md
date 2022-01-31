@@ -54,7 +54,7 @@ Describes what choice a user makes about a sync manager conflict resolution. Use
 
 ## -enum-fields
 
-### -field SYNCMGR_PC_NO_CHOICE
+### -field SYNCMGR_PC_NO_CHOICE:0
 
 The user is skipping this conflict, or conflict resolution is being canceled.
 

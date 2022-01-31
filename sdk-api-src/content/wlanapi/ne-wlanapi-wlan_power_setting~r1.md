@@ -44,7 +44,7 @@ The <b>WLAN_POWER_SETTING</b> enumerated type specifies the power setting of an 
 
 ## -enum-fields
 
-### -field wlan_power_setting_no_saving
+### -field wlan_power_setting_no_saving:0
 
 Specifies no power-saving activity performed by the 802.11 station.
 

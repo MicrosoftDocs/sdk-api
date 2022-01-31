@@ -37,7 +37,7 @@ Used by WCS functions to indicate the data type of vector content.
 
 ## -enum-fields
 
-### -field COLOR_BYTE
+### -field COLOR_BYTE:1
 
 Color data is stored as 8 bits per channel, with a value from 0 to 255, inclusive.
 

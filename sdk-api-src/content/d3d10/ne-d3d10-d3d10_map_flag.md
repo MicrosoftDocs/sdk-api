@@ -54,7 +54,7 @@ Specifies how the CPU should respond when Map is called on a resource being used
 
 ## -enum-fields
 
-### -field D3D10_MAP_FLAG_DO_NOT_WAIT
+### -field D3D10_MAP_FLAG_DO_NOT_WAIT:0x100000L
 
 Specifies that Map should return <b>DXGI_ERROR_WAS_STILL_DRAWING</b> when the GPU blocks the CPU from accessing a resource.
 

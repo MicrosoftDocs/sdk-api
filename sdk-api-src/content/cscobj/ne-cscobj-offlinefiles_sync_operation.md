@@ -56,7 +56,7 @@ Indicates the type of sync operation that was being performed when a sync error 
 
 ## -enum-fields
 
-### -field OFFLINEFILES_SYNC_OPERATION_CREATE_COPY_ON_SERVER
+### -field OFFLINEFILES_SYNC_OPERATION_CREATE_COPY_ON_SERVER:0
 
 Operation was creating a new file or directory copy on the server.
 

@@ -54,23 +54,23 @@ Defines event codes for the Media Engine.
 
 ## -enum-fields
 
-### -field MF_MEDIA_ENGINE_EVENT_LOADSTART
+### -field MF_MEDIA_ENGINE_EVENT_LOADSTART:1
 
 The Media Engine has started to load the source. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">IMFMediaEngine::Load</a>.
 
-### -field MF_MEDIA_ENGINE_EVENT_PROGRESS
+### -field MF_MEDIA_ENGINE_EVENT_PROGRESS:2
 
 The Media Engine is loading the source.
 
-### -field MF_MEDIA_ENGINE_EVENT_SUSPEND
+### -field MF_MEDIA_ENGINE_EVENT_SUSPEND:3
 
 The Media Engine has suspended a load operation.
 
-### -field MF_MEDIA_ENGINE_EVENT_ABORT
+### -field MF_MEDIA_ENGINE_EVENT_ABORT:4
 
 The Media Engine cancelled a load operation that was in progress.
 
-### -field MF_MEDIA_ENGINE_EVENT_ERROR
+### -field MF_MEDIA_ENGINE_EVENT_ERROR:5
 
 An error occurred.
 
@@ -89,75 +89,75 @@ An error occurred.
 </tr>
 </table>
 
-### -field MF_MEDIA_ENGINE_EVENT_EMPTIED
+### -field MF_MEDIA_ENGINE_EVENT_EMPTIED:6
 
 The Media Engine has switched to the <b>MF_MEDIA_ENGINE_NETWORK_EMPTY</b> state. This can occur when the <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">IMFMediaEngine::Load</a> method is called, or if an error occurs during the <b>Load</b> method. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getnetworkstate">IMFMediaEngine::GetNetworkState</a>.
 
-### -field MF_MEDIA_ENGINE_EVENT_STALLED
+### -field MF_MEDIA_ENGINE_EVENT_STALLED:7
 
 The <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a> algorithm is stalled, waiting for data.
 
-### -field MF_MEDIA_ENGINE_EVENT_PLAY
+### -field MF_MEDIA_ENGINE_EVENT_PLAY:8
 
 The Media Engine is switching to the playing state. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-play">IMFMediaEngine::Play</a>.
 
-### -field MF_MEDIA_ENGINE_EVENT_PAUSE
+### -field MF_MEDIA_ENGINE_EVENT_PAUSE:9
 
 The media engine has paused. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-pause">IMFMediaEngine::Pause</a>.
 
-### -field MF_MEDIA_ENGINE_EVENT_LOADEDMETADATA
+### -field MF_MEDIA_ENGINE_EVENT_LOADEDMETADATA:10
 
 The Media Engine has loaded enough source data to determine the duration and dimensions  of the source.
 
-### -field MF_MEDIA_ENGINE_EVENT_LOADEDDATA
+### -field MF_MEDIA_ENGINE_EVENT_LOADEDDATA:11
 
 The Media Engine has loaded enough data to render some content (for example, a video frame).
 
-### -field MF_MEDIA_ENGINE_EVENT_WAITING
+### -field MF_MEDIA_ENGINE_EVENT_WAITING:12
 
 Playback has stopped because the next frame is not available.
 
-### -field MF_MEDIA_ENGINE_EVENT_PLAYING
+### -field MF_MEDIA_ENGINE_EVENT_PLAYING:13
 
 Playback has started. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-play">IMFMediaEngine::Play</a>.
 
-### -field MF_MEDIA_ENGINE_EVENT_CANPLAY
+### -field MF_MEDIA_ENGINE_EVENT_CANPLAY:14
 
 Playback can start, but the Media Engine might need to stop to buffer more data.
 
-### -field MF_MEDIA_ENGINE_EVENT_CANPLAYTHROUGH
+### -field MF_MEDIA_ENGINE_EVENT_CANPLAYTHROUGH:15
 
 The Media Engine can probably play through to the end of the resource, without stopping to buffer data.
 
-### -field MF_MEDIA_ENGINE_EVENT_SEEKING
+### -field MF_MEDIA_ENGINE_EVENT_SEEKING:16
 
 The Media Engine has started seeking to a new playback position. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setcurrenttime">IMFMediaEngine::SetCurrentTime</a>.
 
-### -field MF_MEDIA_ENGINE_EVENT_SEEKED
+### -field MF_MEDIA_ENGINE_EVENT_SEEKED:17
 
 The Media Engine has seeked to a new playback position. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setcurrenttime">IMFMediaEngine::SetCurrentTime</a>.
 
-### -field MF_MEDIA_ENGINE_EVENT_TIMEUPDATE
+### -field MF_MEDIA_ENGINE_EVENT_TIMEUPDATE:18
 
 The playback position has changed. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getcurrenttime">IMFMediaEngine::GetCurrentTime</a>.
 
-### -field MF_MEDIA_ENGINE_EVENT_ENDED
+### -field MF_MEDIA_ENGINE_EVENT_ENDED:19
 
 Playback has reached the end of the source. This event is not sent if the <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getloop">GetLoop</a> is <b>TRUE</b>.
 
-### -field MF_MEDIA_ENGINE_EVENT_RATECHANGE
+### -field MF_MEDIA_ENGINE_EVENT_RATECHANGE:20
 
 The playback rate has changed. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setplaybackrate">IMFMediaEngine::SetPlaybackRate</a>.
 
-### -field MF_MEDIA_ENGINE_EVENT_DURATIONCHANGE
+### -field MF_MEDIA_ENGINE_EVENT_DURATIONCHANGE:21
 
 The duration of the media source has changed. See <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getduration">IMFMediaEngine::GetDuration</a>.
 
-### -field MF_MEDIA_ENGINE_EVENT_VOLUMECHANGE
+### -field MF_MEDIA_ENGINE_EVENT_VOLUMECHANGE:22
 
 The audio volume changed. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setvolume">IMFMediaEngine::SetVolume</a>.
 
-### -field MF_MEDIA_ENGINE_EVENT_FORMATCHANGE
+### -field MF_MEDIA_ENGINE_EVENT_FORMATCHANGE:1000
 
 The output format of the media source has changed.
 
@@ -176,35 +176,35 @@ The output format of the media source has changed.
 </tr>
 </table>
 
-### -field MF_MEDIA_ENGINE_EVENT_PURGEQUEUEDEVENTS
+### -field MF_MEDIA_ENGINE_EVENT_PURGEQUEUEDEVENTS:1001
 
 The Media Engine flushed any pending events from its 	queue.
 
-### -field MF_MEDIA_ENGINE_EVENT_TIMELINE_MARKER
+### -field MF_MEDIA_ENGINE_EVENT_TIMELINE_MARKER:1002
 
 The playback position reached a timeline marker. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-settimelinemarkertimer">IMFMediaEngineEx::SetTimelineMarkerTimer</a>.
 
-### -field MF_MEDIA_ENGINE_EVENT_BALANCECHANGE
+### -field MF_MEDIA_ENGINE_EVENT_BALANCECHANGE:1003
 
 The audio balance changed. See <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setbalance">IMFMediaEngineEx::SetBalance</a>.
 
-### -field MF_MEDIA_ENGINE_EVENT_DOWNLOADCOMPLETE
+### -field MF_MEDIA_ENGINE_EVENT_DOWNLOADCOMPLETE:1004
 
 The Media Engine has finished downloading the source data.
 
-### -field MF_MEDIA_ENGINE_EVENT_BUFFERINGSTARTED
+### -field MF_MEDIA_ENGINE_EVENT_BUFFERINGSTARTED:1005
 
 The media source has started to buffer data.
 
-### -field MF_MEDIA_ENGINE_EVENT_BUFFERINGENDED
+### -field MF_MEDIA_ENGINE_EVENT_BUFFERINGENDED:1006
 
 The media source has stopped buffering data.
 
-### -field MF_MEDIA_ENGINE_EVENT_FRAMESTEPCOMPLETED
+### -field MF_MEDIA_ENGINE_EVENT_FRAMESTEPCOMPLETED:1007
 
 The <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-framestep">IMFMediaEngineEx::FrameStep</a> method completed.
 
-### -field MF_MEDIA_ENGINE_EVENT_NOTIFYSTABLESTATE
+### -field MF_MEDIA_ENGINE_EVENT_NOTIFYSTABLESTATE:1008
 
 The Media Engine's <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a> algorithm is waiting to start.
 
@@ -228,17 +228,17 @@ If Media Engine is created with the <b>MF_MEDIA_ENGINE_WAITFORSTABLE_STATE</b> f
 
 If the Media Engine is not created with the <b>MF_MEDIA_ENGINE_WAITFORSTABLE_STATE</b>, it does not send this event, and the <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a> thread does not wait to be signalled.
 
-### -field MF_MEDIA_ENGINE_EVENT_FIRSTFRAMEREADY
+### -field MF_MEDIA_ENGINE_EVENT_FIRSTFRAMEREADY:1009
 
 The first frame of the media source is ready to render.
 
-### -field MF_MEDIA_ENGINE_EVENT_TRACKSCHANGE
+### -field MF_MEDIA_ENGINE_EVENT_TRACKSCHANGE:1010
 
 Raised when a new track is added or removed.
 
 Supported in Windows 8.1 and later.
 
-### -field MF_MEDIA_ENGINE_EVENT_OPMINFO
+### -field MF_MEDIA_ENGINE_EVENT_OPMINFO:1011
 
 Raised when there is new information about the <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>  (OPM). 
 
@@ -248,17 +248,17 @@ This event will not be raised when there is an OPM failure and the fallback also
 
 Supported in Windows 8.1 and later.
 
-### -field MF_MEDIA_ENGINE_EVENT_RESOURCELOST
+### -field MF_MEDIA_ENGINE_EVENT_RESOURCELOST:1012
 
-### -field MF_MEDIA_ENGINE_EVENT_DELAYLOADEVENT_CHANGED
+### -field MF_MEDIA_ENGINE_EVENT_DELAYLOADEVENT_CHANGED:1013
 
-### -field MF_MEDIA_ENGINE_EVENT_STREAMRENDERINGERROR
+### -field MF_MEDIA_ENGINE_EVENT_STREAMRENDERINGERROR:1014
 
 Raised when one of the component streams of a media stream fails. This event is only raised if the media stream contains other component streams that did not fail.
 
-### -field MF_MEDIA_ENGINE_EVENT_SUPPORTEDRATES_CHANGED
+### -field MF_MEDIA_ENGINE_EVENT_SUPPORTEDRATES_CHANGED:1015
 
-### -field MF_MEDIA_ENGINE_EVENT_AUDIOENDPOINTCHANGE
+### -field MF_MEDIA_ENGINE_EVENT_AUDIOENDPOINTCHANGE:1016
 
 ## -remarks
 

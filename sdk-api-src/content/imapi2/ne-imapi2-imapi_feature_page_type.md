@@ -58,251 +58,251 @@ Defines values for the feature that are supported by the logical unit (CD and DV
 
 ## -enum-fields
 
-### -field IMAPI_FEATURE_PAGE_TYPE_PROFILE_LIST
+### -field IMAPI_FEATURE_PAGE_TYPE_PROFILE_LIST:0
 
  Identifies profiles supported by the logical unit.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_CORE
+### -field IMAPI_FEATURE_PAGE_TYPE_CORE:0x1
 
  Identifies a logical unit that supports functionality common to all devices.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_MORPHING
+### -field IMAPI_FEATURE_PAGE_TYPE_MORPHING:0x2
 
 Identifies the ability of the logical unit to notify an initiator about operational changes 
 and accept initiator requests to prevent operational changes.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_REMOVABLE_MEDIUM
+### -field IMAPI_FEATURE_PAGE_TYPE_REMOVABLE_MEDIUM:0x3
 
 Identifies a logical unit that has a medium that is removable.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_WRITE_PROTECT
+### -field IMAPI_FEATURE_PAGE_TYPE_WRITE_PROTECT:0x4
 
  Identifies reporting capability and changing capability for write protection status of the 
 logical unit.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_RANDOMLY_READABLE
+### -field IMAPI_FEATURE_PAGE_TYPE_RANDOMLY_READABLE:0x10
 
  Identifies a logical unit that is able to read data from logical blocks specified by Logical 
 Block Addresses.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_CD_MULTIREAD
+### -field IMAPI_FEATURE_PAGE_TYPE_CD_MULTIREAD:0x1d
 
 Identifies a logical unit that conforms to the OSTA Multi-Read specification 1.00, with the exception of CD 
 Play capability (the CD Audio Feature is not required).
 
-### -field IMAPI_FEATURE_PAGE_TYPE_CD_READ
+### -field IMAPI_FEATURE_PAGE_TYPE_CD_READ:0x1e
 
  Identifies a logical unit that is able to read CD specific information from the media and 
 is able to read user data from all types of CD blocks.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_DVD_READ
+### -field IMAPI_FEATURE_PAGE_TYPE_DVD_READ:0x1f
 
  Identifies a logical unit that is able to read DVD specific information from the media.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_RANDOMLY_WRITABLE
+### -field IMAPI_FEATURE_PAGE_TYPE_RANDOMLY_WRITABLE:0x20
 
 Identifies a logical unit that is able to write data to logical blocks specified by Logical 
 Block Addresses.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_INCREMENTAL_STREAMING_WRITABLE
+### -field IMAPI_FEATURE_PAGE_TYPE_INCREMENTAL_STREAMING_WRITABLE:0x21
 
  Identifies a logical unit that is able to write data to a contiguous region, and is able to 
 append data to a limited number of locations on the media.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_SECTOR_ERASABLE
+### -field IMAPI_FEATURE_PAGE_TYPE_SECTOR_ERASABLE:0x22
 
  Identifies a logical unit that supports erasable media and media that requires an erase 
 pass before overwrite, such as some magneto-optical technologies.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_FORMATTABLE
+### -field IMAPI_FEATURE_PAGE_TYPE_FORMATTABLE:0x23
 
  Identifies a logical unit that can format media into logical blocks.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_HARDWARE_DEFECT_MANAGEMENT
+### -field IMAPI_FEATURE_PAGE_TYPE_HARDWARE_DEFECT_MANAGEMENT:0x24
 
 Identifies a logical unit that has defect management available to provide a 
 defect-free contiguous address space.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_WRITE_ONCE
+### -field IMAPI_FEATURE_PAGE_TYPE_WRITE_ONCE:0x25
 
 Identifies a logical unit that has the ability to record to any previously unrecorded 
 logical block.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_RESTRICTED_OVERWRITE
+### -field IMAPI_FEATURE_PAGE_TYPE_RESTRICTED_OVERWRITE:0x26
 
  Identifies a logical unit that has the ability to overwrite logical blocks only in fixed 
 sets at a time.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_CDRW_CAV_WRITE
+### -field IMAPI_FEATURE_PAGE_TYPE_CDRW_CAV_WRITE:0x27
 
 Identifies a logical unit that has the ability to write CD-RW media that is designed for 
 CAV recording.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_MRW
+### -field IMAPI_FEATURE_PAGE_TYPE_MRW:0x28
 
  Indicates that the logical unit is capable of reading a disc with the 
 MRW format.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_ENHANCED_DEFECT_REPORTING
+### -field IMAPI_FEATURE_PAGE_TYPE_ENHANCED_DEFECT_REPORTING:0x29
 
  Identifies a logical unit that has the ability to perform media 
 certification and recovered error reporting for logical unit assisted software defect 
 management.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_DVD_PLUS_RW
+### -field IMAPI_FEATURE_PAGE_TYPE_DVD_PLUS_RW:0x2a
 
  Indicates that the logical unit is capable of reading a 
 recorded DVD+RW disc.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_DVD_PLUS_R
+### -field IMAPI_FEATURE_PAGE_TYPE_DVD_PLUS_R:0x2b
 
  Indicates that the logical unit is capable of reading a recorded 
 DVD+R disc.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_RIGID_RESTRICTED_OVERWRITE
+### -field IMAPI_FEATURE_PAGE_TYPE_RIGID_RESTRICTED_OVERWRITE:0x2c
 
 Identifies a logical unit that has the ability to perform writing only on Blocking 
 boundaries.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_CD_TRACK_AT_ONCE
+### -field IMAPI_FEATURE_PAGE_TYPE_CD_TRACK_AT_ONCE:0x2d
 
 Identifies a logical unit that is able to write data to a CD track.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_CD_MASTERING
+### -field IMAPI_FEATURE_PAGE_TYPE_CD_MASTERING:0x2e
 
 Identifies a logical unit that is able to write a CD in Session at Once mode or Raw mode.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_DVD_DASH_WRITE
+### -field IMAPI_FEATURE_PAGE_TYPE_DVD_DASH_WRITE:0x2f
 
  Identifies a logical unit that has the ability to write data to DVD-R/-RW in Disc at Once 
 mode.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_DOUBLE_DENSITY_CD_READ
+### -field IMAPI_FEATURE_PAGE_TYPE_DOUBLE_DENSITY_CD_READ:0x30
 
 Identifies a logical unit that has the ability to read double density CD specific information from the media.
 
 <div class="alert"><b>Note</b>  This value has been deprecated.</div>
 <div> </div>
 
-### -field IMAPI_FEATURE_PAGE_TYPE_DOUBLE_DENSITY_CD_R_WRITE
+### -field IMAPI_FEATURE_PAGE_TYPE_DOUBLE_DENSITY_CD_R_WRITE:0x31
 
 Identifies a logical unit that has the ability to write to double density CD  media.
 
 <div class="alert"><b>Note</b>  This value has been deprecated.</div>
 <div> </div>
 
-### -field IMAPI_FEATURE_PAGE_TYPE_DOUBLE_DENSITY_CD_RW_WRITE
+### -field IMAPI_FEATURE_PAGE_TYPE_DOUBLE_DENSITY_CD_RW_WRITE:0x32
 
 Identifies a logical unit that has the ability to write to double density CD-RW  media.
 
 <div class="alert"><b>Note</b>  This value has been deprecated.</div>
 <div> </div>
 
-### -field IMAPI_FEATURE_PAGE_TYPE_LAYER_JUMP_RECORDING
+### -field IMAPI_FEATURE_PAGE_TYPE_LAYER_JUMP_RECORDING:0x33
 
 Identifies a drive that is able to write data to contiguous regions that are allocated on multiple
 layers, and is able to append data to a limited number of locations on the media.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_CD_RW_MEDIA_WRITE_SUPPORT
+### -field IMAPI_FEATURE_PAGE_TYPE_CD_RW_MEDIA_WRITE_SUPPORT:0x37
 
  Identifies a logical unit that has the ability to perform writing CD-RW media.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_BD_PSEUDO_OVERWRITE
+### -field IMAPI_FEATURE_PAGE_TYPE_BD_PSEUDO_OVERWRITE:0x38
 
 Identifies a drive that provides Logical Block overwrite service on BD-R discs that are
 formatted as SRM+POW.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_DVD_PLUS_R_DUAL_LAYER
+### -field IMAPI_FEATURE_PAGE_TYPE_DVD_PLUS_R_DUAL_LAYER:0x3b
 
  Indicates that the drive is capable of reading a 
 recorded DVD+R Double Layer disc
 
-### -field IMAPI_FEATURE_PAGE_TYPE_BD_READ
+### -field IMAPI_FEATURE_PAGE_TYPE_BD_READ:0x40
 
 Identifies a logical unit that is able to read control structures and user data from the Blu-ray 
 disc.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_BD_WRITE
+### -field IMAPI_FEATURE_PAGE_TYPE_BD_WRITE:0x41
 
 Identifies a drive that is able to write control structures and user data to writable Blu-ray discs.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_HD_DVD_READ
+### -field IMAPI_FEATURE_PAGE_TYPE_HD_DVD_READ:0x50
 
 Identifies a drive that is able to read HD DVD specific information from the media.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_HD_DVD_WRITE
+### -field IMAPI_FEATURE_PAGE_TYPE_HD_DVD_WRITE:0x51
 
 Indicates the ability to write to HD DVD-R/-RW media.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_POWER_MANAGEMENT
+### -field IMAPI_FEATURE_PAGE_TYPE_POWER_MANAGEMENT:0x100
 
  Identifies a logical unit that is able to perform initiator and logical unit directed power 
 management.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_SMART
+### -field IMAPI_FEATURE_PAGE_TYPE_SMART:0x101
 
 Identifies a logical unit that is able to perform Self-Monitoring Analysis and Reporting 
 Technology (S.M.A.R.T.).
 
-### -field IMAPI_FEATURE_PAGE_TYPE_EMBEDDED_CHANGER
+### -field IMAPI_FEATURE_PAGE_TYPE_EMBEDDED_CHANGER:0x102
 
  Identifies a logical unit that is able to move media from a storage area to a mechanism 
 and back.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_CD_ANALOG_PLAY
+### -field IMAPI_FEATURE_PAGE_TYPE_CD_ANALOG_PLAY:0x103
 
  Identifies a logical unit that is able to play CD Audio data directly to an external output.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_MICROCODE_UPDATE
+### -field IMAPI_FEATURE_PAGE_TYPE_MICROCODE_UPDATE:0x104
 
 Identifies a logical unit that is able to upgrade its internal microcode via the interface.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_TIMEOUT
+### -field IMAPI_FEATURE_PAGE_TYPE_TIMEOUT:0x105
 
  Identifies a logical unit that is able to always respond to commands within a set time 
 period.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_DVD_CSS
+### -field IMAPI_FEATURE_PAGE_TYPE_DVD_CSS:0x106
 
 Identifies a logical unit that is able to perform DVD CSS/CPPM authentication and key 
 management. This feature also indicates that the logical unit supports CSS for DVD-Video and CPPM for 
 DVD-Audio.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_REAL_TIME_STREAMING
+### -field IMAPI_FEATURE_PAGE_TYPE_REAL_TIME_STREAMING:0x107
 
 Identifies a logical unit that is able to perform reading and writing within initiator 
 specified (and logical unit verified) performance ranges.  This Feature also indicates whether the 
 logical unit supports the stream playback operation.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_LOGICAL_UNIT_SERIAL_NUMBER
+### -field IMAPI_FEATURE_PAGE_TYPE_LOGICAL_UNIT_SERIAL_NUMBER:0x108
 
  Identifies a logical unit that has a unique serial number.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_MEDIA_SERIAL_NUMBER
+### -field IMAPI_FEATURE_PAGE_TYPE_MEDIA_SERIAL_NUMBER:0x109
 
 Identifies a logical unit that is capable of reading a media serial number of the currently 
 installed media.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_DISC_CONTROL_BLOCKS
+### -field IMAPI_FEATURE_PAGE_TYPE_DISC_CONTROL_BLOCKS:0x10a
 
  Identifies a logical unit that is able to read and/or write Disc Control Blocks from or to 
 the media.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_DVD_CPRM
+### -field IMAPI_FEATURE_PAGE_TYPE_DVD_CPRM:0x10b
 
  Identifies a logical unit that is able to perform DVD CPRM and is able to perform CPRM 
 authentication and key management.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_FIRMWARE_INFORMATION
+### -field IMAPI_FEATURE_PAGE_TYPE_FIRMWARE_INFORMATION:0x10c
 
  Indicates that the logical unit provides the date and time of the creation of the 
 current firmware revision loaded on the device.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_AACS
+### -field IMAPI_FEATURE_PAGE_TYPE_AACS:0x10d
 
 Identifies a drive that supports AACS and is able to perform AACS authentication process.
 
-### -field IMAPI_FEATURE_PAGE_TYPE_VCPS
+### -field IMAPI_FEATURE_PAGE_TYPE_VCPS:0x110
 
 Identifies a Drive that is able to process disc data structures that are specified in the
 VCPS.

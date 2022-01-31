@@ -55,35 +55,35 @@ The <b>RotateFlipType</b> enumeration specifies the direction of an image's rota
 
 ## -enum-fields
 
-### -field RotateNoneFlipNone
+### -field RotateNoneFlipNone:0
 
 Specifies no rotation and no flipping.
 
-### -field Rotate90FlipNone
+### -field Rotate90FlipNone:1
 
 Specifies a 90-degree rotation without flipping.
 
-### -field Rotate180FlipNone
+### -field Rotate180FlipNone:2
 
 Specifies a 180-degree rotation without flipping.
 
-### -field Rotate270FlipNone
+### -field Rotate270FlipNone:3
 
 Specifies a 270-degree rotation without flipping.
 
-### -field RotateNoneFlipX
+### -field RotateNoneFlipX:4
 
 Specifies no rotation and a horizontal flip.
 
-### -field Rotate90FlipX
+### -field Rotate90FlipX:5
 
 Specifies a 90-degree rotation followed by a horizontal flip.
 
-### -field Rotate180FlipX
+### -field Rotate180FlipX:6
 
 Specifies a 180-degree rotation followed by a horizontal flip.
 
-### -field Rotate270FlipX
+### -field Rotate270FlipX:7
 
 Specifies a 270-degree rotation followed by a horizontal flip.
 

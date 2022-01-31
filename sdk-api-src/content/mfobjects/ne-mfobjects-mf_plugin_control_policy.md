@@ -54,19 +54,19 @@ Defines policy settings for the <a href="/windows/desktop/api/mfobjects/nf-mfobj
 
 ## -enum-fields
 
-### -field MF_PLUGIN_CONTROL_POLICY_USE_ALL_PLUGINS
+### -field MF_PLUGIN_CONTROL_POLICY_USE_ALL_PLUGINS:0
 
 Enumerate all registered sources and transforms.
 
-### -field MF_PLUGIN_CONTROL_POLICY_USE_APPROVED_PLUGINS
+### -field MF_PLUGIN_CONTROL_POLICY_USE_APPROVED_PLUGINS:1
 
 Enumerate only approved sources and transforms. Third-party components are excluded unless the component is registered with a valid merit value, or the component was registered locally by the application.
 
-### -field MF_PLUGIN_CONTROL_POLICY_USE_WEB_PLUGINS
+### -field MF_PLUGIN_CONTROL_POLICY_USE_WEB_PLUGINS:2
 
 Restrict enumeration to components intended for use in a web browser.
 
-### -field MF_PLUGIN_CONTROL_POLICY_USE_WEB_PLUGINS_EDGEMODE
+### -field MF_PLUGIN_CONTROL_POLICY_USE_WEB_PLUGINS_EDGEMODE:3
 
 ## -see-also
 

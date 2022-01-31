@@ -56,11 +56,11 @@ The <b>DRT_LEAFSET_KEY_CHANGE_TYPE</b> enumeration defines  the set of   changes
 
 ## -enum-fields
 
-### -field DRT_LEAFSET_KEY_ADDED
+### -field DRT_LEAFSET_KEY_ADDED:0
 
 A node was added to the  DRT leaf set of the local node.
 
-### -field DRT_LEAFSET_KEY_DELETED
+### -field DRT_LEAFSET_KEY_DELETED:1
 
 A node was deleted from the  DRT leaf set of the local node.
 

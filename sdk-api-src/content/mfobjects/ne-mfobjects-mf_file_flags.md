@@ -56,15 +56,15 @@ Specifies the behavior when opening a file.
 
 ## -enum-fields
 
-### -field MF_FILEFLAGS_NONE
+### -field MF_FILEFLAGS_NONE:0
 
 Use the default behavior.
 
-### -field MF_FILEFLAGS_NOBUFFERING
+### -field MF_FILEFLAGS_NOBUFFERING:0x1
 
 Open the file with no system caching.
 
-### -field MF_FILEFLAGS_ALLOW_WRITE_SHARING
+### -field MF_FILEFLAGS_ALLOW_WRITE_SHARING:0x2
 
 Subsequent open operations can have write access to the file.
 

@@ -56,7 +56,7 @@ Describes the sync state of an Offline Files item.
 
 ## -enum-fields
 
-### -field OFFLINEFILES_SYNC_STATE_Stable
+### -field OFFLINEFILES_SYNC_STATE_Stable:0
 
 The client and server copies of the file are in sync.
 

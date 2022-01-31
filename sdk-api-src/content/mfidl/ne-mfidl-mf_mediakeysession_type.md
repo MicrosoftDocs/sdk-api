@@ -37,7 +37,7 @@ Specifies the type of a Content Decryption Module (CDM) session, represented by 
 
 ## -enum-fields
 
-### -field MF_MEDIAKEYSESSION_TYPE_TEMPORARY
+### -field MF_MEDIAKEYSESSION_TYPE_TEMPORARY:0
 
 A session for which the license, key(s) and record of or data related to the session are not persisted.
 

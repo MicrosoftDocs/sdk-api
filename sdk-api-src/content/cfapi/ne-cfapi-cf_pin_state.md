@@ -54,23 +54,23 @@ Pin states of a placeholder file or directory.
 
 ## -enum-fields
 
-### -field CF_PIN_STATE_UNSPECIFIED
+### -field CF_PIN_STATE_UNSPECIFIED:0
 
 The platform can decide freely when the placeholder’s content needs to present or absent locally on the disk.
 
-### -field CF_PIN_STATE_PINNED
+### -field CF_PIN_STATE_PINNED:1
 
 The sync provider will be notified to fetch the placeholder’s content asynchronously after the pin request is received by the platform. There is no guarantee that the placeholders to be pinned will be fully available locally after a <a href="/windows/desktop/api/cfapi/nf-cfapi-cfsetpinstate">CfSetPinState</a> call completes successfully. However, the platform will fail any dehydration request on pinned placeholders.
 
-### -field CF_PIN_STATE_UNPINNED
+### -field CF_PIN_STATE_UNPINNED:2
 
 The sync provider will be notified to dehydrate/invalidate the placeholder’s content on-disk asynchronously after the unpin request is received by the platform. There is no guarantee that the placeholders to be unpinned will be fully dehydrated after the API call completes successfully.
 
-### -field CF_PIN_STATE_EXCLUDED
+### -field CF_PIN_STATE_EXCLUDED:3
 
 the placeholder will never be synced to the cloud by the sync provider. This state can only be set by the sync provider.
 
-### -field CF_PIN_STATE_INHERIT
+### -field CF_PIN_STATE_INHERIT:4  
 
 The platform treats it as if the caller performs a move operation on the placeholder and hence re-evaluates the placeholder’s pin state based on its parent’s pin state. See the Remarks section for an inheritance table.
 

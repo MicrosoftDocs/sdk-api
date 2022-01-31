@@ -54,15 +54,15 @@ Specifies a range of tile mappings to use with <a href="/windows/desktop/api/d3d
 
 ## -enum-fields
 
-### -field D3D11_TILE_RANGE_NULL
+### -field D3D11_TILE_RANGE_NULL:0x1
 
 The tile range is <b>NULL</b>.
 
-### -field D3D11_TILE_RANGE_SKIP
+### -field D3D11_TILE_RANGE_SKIP:0x2
 
 Skip the tile range.
 
-### -field D3D11_TILE_RANGE_REUSE_SINGLE_TILE
+### -field D3D11_TILE_RANGE_REUSE_SINGLE_TILE:0x4
 
 Reuse a single tile in the tile range.
 

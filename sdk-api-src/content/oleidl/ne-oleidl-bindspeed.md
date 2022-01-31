@@ -56,11 +56,11 @@ Indicates approximately how long the caller will wait to bind to an object.
 
 ## -enum-fields
 
-### -field BINDSPEED_INDEFINITE
+### -field BINDSPEED_INDEFINITE:1
 
 There is no time limit on the binding operation.
 
-### -field BINDSPEED_MODERATE
+### -field BINDSPEED_MODERATE:2
 
 The binding operation must be completed in a moderate amount of time. 
 
@@ -74,7 +74,7 @@ If this flag is specified, the implementation of <a href="/windows/desktop/api/o
 </li>
 </ul>
 
-### -field BINDSPEED_IMMEDIATE
+### -field BINDSPEED_IMMEDIATE:3
 
 The caller will wait only a short time. In this case, the binding operation should return MK_E_EXCEEEDEDDEADLINE unless the object is already in the running state or is a pseudo-object.
 

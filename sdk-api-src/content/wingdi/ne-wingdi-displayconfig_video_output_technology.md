@@ -54,81 +54,81 @@ The DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY enumeration specifies the target's con
 
 ## -enum-fields
 
-### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_OTHER
+### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_OTHER:-1
 
 Indicates a connector that is not one of the types that is indicated by the following enumerators in this enumeration.
 
-### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_HD15
+### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_HD15:0
 
 Indicates an HD15 (VGA) connector.
 
-### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_SVIDEO
+### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_SVIDEO:1
 
 Indicates an S-video connector.
 
-### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_COMPOSITE_VIDEO
+### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_COMPOSITE_VIDEO:2
 
 Indicates a composite video connector group.
 
-### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_COMPONENT_VIDEO
+### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_COMPONENT_VIDEO:3
 
 Indicates a component video connector group.
 
-### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_DVI
+### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_DVI:4
 
 Indicates a Digital Video Interface (DVI) connector.
 
-### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_HDMI
+### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_HDMI:5
 
 Indicates a High-Definition Multimedia Interface (HDMI) connector.
 
-### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_LVDS
+### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_LVDS:6
 
 Indicates a Low Voltage Differential Swing (LVDS) connector.
 
-### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_D_JPN
+### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_D_JPN:8
 
 Indicates a Japanese D connector.
 
-### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_SDI
+### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_SDI:9
 
 Indicates an SDI connector.
 
-### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_DISPLAYPORT_EXTERNAL
+### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_DISPLAYPORT_EXTERNAL:10
 
 Indicates an external display port, which is a display port that connects externally to a display device.
 
-### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_DISPLAYPORT_EMBEDDED
+### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_DISPLAYPORT_EMBEDDED:11
 
 Indicates an embedded display port that connects internally to a display device.
 
-### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_UDI_EXTERNAL
+### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_UDI_EXTERNAL:12
 
 Indicates an external Unified Display Interface (UDI), which is a UDI that connects externally to a display device.
 
-### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_UDI_EMBEDDED
+### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_UDI_EMBEDDED:13
 
 Indicates an embedded UDI that connects internally to a display device.
 
-### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_SDTVDONGLE
+### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_SDTVDONGLE:14
 
 Indicates a dongle cable that supports standard definition television (SDTV).
 
-### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_MIRACAST
+### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_MIRACAST:15
 
 Indicates that the VidPN target is  a Miracast wireless display device.
 
 Supported starting in Windows 8.1.
 
-### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_INDIRECT_WIRED
+### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_INDIRECT_WIRED:16
 
-### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_INDIRECT_VIRTUAL
+### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_INDIRECT_VIRTUAL:17
 
-### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_INTERNAL
+### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_INTERNAL:0x80000000
 
 Indicates that the video output device connects internally to a display device (for example, the internal connection in a laptop computer).
 
-### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_FORCE_UINT32
+### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_FORCE_UINT32:0xFFFFFFFF
 
 Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits. You should not use this value.
 

@@ -41,7 +41,7 @@ The resource data formats mentioned are members of the [DXGI_FORMAT enumeration]
 
 ## -enum-fields
 
-### -field D3D12_SHARED_RESOURCE_COMPATIBILITY_TIER_0
+### -field D3D12_SHARED_RESOURCE_COMPATIBILITY_TIER_0:0
 
 Specifies that the most basic level of cross-API sharing is supported, including the following resource data formats.
 

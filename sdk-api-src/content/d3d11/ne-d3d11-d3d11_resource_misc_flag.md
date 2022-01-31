@@ -54,11 +54,11 @@ Identifies options for resources.
 
 ## -enum-fields
 
-### -field D3D11_RESOURCE_MISC_GENERATE_MIPS
+### -field D3D11_RESOURCE_MISC_GENERATE_MIPS:0x1L
 
 Enables MIP map generation by using <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-generatemips">ID3D11DeviceContext::GenerateMips</a> on a texture resource. The resource must be created with the <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag">bind flags</a> that specify that the resource is a render target and a shader resource.
 
-### -field D3D11_RESOURCE_MISC_SHARED
+### -field D3D11_RESOURCE_MISC_SHARED:0x2L
 
 Enables resource data sharing between two or more Direct3D devices. The only resources that can be shared are 2D non-mipmapped textures.
             
@@ -77,27 +77,27 @@ Enables resource data sharing between two or more Direct3D devices. The only res
             </div>
 <div> </div>
 
-### -field D3D11_RESOURCE_MISC_TEXTURECUBE
+### -field D3D11_RESOURCE_MISC_TEXTURECUBE:0x4L
 
 Sets a resource to be a cube texture created from a <a href="/windows/desktop/direct3dhlsl/sm5-object-texture2darray">Texture2DArray</a> that contains 6 textures.
 
-### -field D3D11_RESOURCE_MISC_DRAWINDIRECT_ARGS
+### -field D3D11_RESOURCE_MISC_DRAWINDIRECT_ARGS:0x10L
 
 Enables instancing of GPU-generated content.
 
-### -field D3D11_RESOURCE_MISC_BUFFER_ALLOW_RAW_VIEWS
+### -field D3D11_RESOURCE_MISC_BUFFER_ALLOW_RAW_VIEWS:0x20L
 
 Enables a resource as a <a href="/windows/desktop/direct3d11/direct3d-11-advanced-stages-cs-resources">byte address buffer</a>.
 
-### -field D3D11_RESOURCE_MISC_BUFFER_STRUCTURED
+### -field D3D11_RESOURCE_MISC_BUFFER_STRUCTURED:0x40L
 
 Enables a resource as a <a href="/windows/desktop/direct3d11/direct3d-11-advanced-stages-cs-resources">structured buffer</a>.
 
-### -field D3D11_RESOURCE_MISC_RESOURCE_CLAMP
+### -field D3D11_RESOURCE_MISC_RESOURCE_CLAMP:0x80L
 
 Enables a resource with MIP map clamping for use with <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-setresourceminlod">ID3D11DeviceContext::SetResourceMinLOD</a>.
 
-### -field D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX
+### -field D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX:0x100L
 
 Enables the resource  to be synchronized by using the <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-acquiresync">IDXGIKeyedMutex::AcquireSync</a>  and 
           <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgikeyedmutex-releasesync">IDXGIKeyedMutex::ReleaseSync</a> APIs. 
@@ -131,7 +131,7 @@ If you call any of these  methods with the <b>D3D11_RESOURCE_MISC_SHARED_KEYEDMU
             </div>
 <div> </div>
 
-### -field D3D11_RESOURCE_MISC_GDI_COMPATIBLE
+### -field D3D11_RESOURCE_MISC_GDI_COMPATIBLE:0x200L
 
 Enables a resource compatible with GDI. You must set the <b>D3D11_RESOURCE_MISC_GDI_COMPATIBLE</b> flag  on surfaces that you use with GDI. Setting the <b>D3D11_RESOURCE_MISC_GDI_COMPATIBLE</b> flag allows GDI rendering on the surface via <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgisurface1-getdc">IDXGISurface1::GetDC</a>.
             
@@ -160,7 +160,7 @@ You must set the texture format to one of the following types.
               </li>
 </ul>
 
-### -field D3D11_RESOURCE_MISC_SHARED_NTHANDLE
+### -field D3D11_RESOURCE_MISC_SHARED_NTHANDLE:0x800L
 
 Set this flag to enable the use of NT HANDLE values when you create a shared resource.  By enabling this flag, you deprecate the use of existing HANDLE values.
 
@@ -171,25 +171,25 @@ Without this flag set, the runtime does not strictly validate shared resource pa
 
 <b>Direct3D 11 and earlier:  </b>This value is not supported until Direct3D 11.1.
 
-### -field D3D11_RESOURCE_MISC_RESTRICTED_CONTENT
+### -field D3D11_RESOURCE_MISC_RESTRICTED_CONTENT:0x1000L
 
 Set this flag to indicate that the resource might contain protected content; therefore, the operating system should  use the resource only when the driver and hardware support content protection.  If the driver and hardware do not support content protection and you try to create a resource with this flag, the resource creation fails.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.1.
 
-### -field D3D11_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE
+### -field D3D11_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE:0x2000L
 
 Set this flag to indicate that the operating system  restricts access to the shared surface. You can use this flag together with the D3D11_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE_DRIVER flag and only when you create a shared surface. The process that creates the shared resource can always open the shared resource.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.1.
 
-### -field D3D11_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE_DRIVER
+### -field D3D11_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE_DRIVER:0x4000L
 
 Set this flag to indicate that the driver  restricts access to the shared surface. You can use this flag in conjunction with the D3D11_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE flag and only when you create a shared surface. The process that creates the shared resource can always open the shared resource.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.1.
 
-### -field D3D11_RESOURCE_MISC_GUARDED
+### -field D3D11_RESOURCE_MISC_GUARDED:0x8000L
 
 Set this flag to indicate that the resource is guarded. Such a resource is returned by the <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-begindraw">IDCompositionSurface::BeginDraw</a> (DirectComposition) and <a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenative-begindraw">ISurfaceImageSourceNative::BeginDraw</a> (Windows Runtime) APIs.  For these APIs, you provide a region of interest (ROI) on a surface to update. This surface isn't compatible with multiple render targets (MRT).
 
@@ -202,19 +202,19 @@ A guarded resource automatically restricts all writes to the region that is rela
 </ul>
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.1.
 
-### -field D3D11_RESOURCE_MISC_TILE_POOL
+### -field D3D11_RESOURCE_MISC_TILE_POOL:0x20000L
 
 Set this flag to indicate that the resource is a tile pool.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.2.
 
-### -field D3D11_RESOURCE_MISC_TILED
+### -field D3D11_RESOURCE_MISC_TILED:0x40000L
 
 Set this flag to indicate that the resource is a tiled resource.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.2.
 
-### -field D3D11_RESOURCE_MISC_HW_PROTECTED
+### -field D3D11_RESOURCE_MISC_HW_PROTECTED:0x80000L
 
 Set this flag to indicate that the resource should be created such that it will be protected by the hardware.  Resource creation will fail if hardware content protection is not supported.
 

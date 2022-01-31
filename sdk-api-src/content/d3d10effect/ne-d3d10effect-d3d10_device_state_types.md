@@ -56,7 +56,7 @@ Effect device-state types.
 
 ## -enum-fields
 
-### -field D3D10_DST_SO_BUFFERS
+### -field D3D10_DST_SO_BUFFERS:1
 
 Stream-output buffer.
 

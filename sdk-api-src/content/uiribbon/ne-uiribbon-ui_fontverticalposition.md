@@ -54,19 +54,19 @@ Specifies values that identify the vertical-alignment state of a <a href="/windo
 
 ## -enum-fields
 
-### -field UI_FONTVERTICALPOSITION_NOTAVAILABLE
+### -field UI_FONTVERTICALPOSITION_NOTAVAILABLE:0
 
 Vertical positioning is not enabled.
 
-### -field UI_FONTVERTICALPOSITION_NOTSET
+### -field UI_FONTVERTICALPOSITION_NOTSET:1
 
 Vertical positioning is enabled but not toggled.
 
-### -field UI_FONTVERTICALPOSITION_SUPERSCRIPT
+### -field UI_FONTVERTICALPOSITION_SUPERSCRIPT:2
 
 Vertical positioning is enabled and toggled for superscript.
 
-### -field UI_FONTVERTICALPOSITION_SUBSCRIPT
+### -field UI_FONTVERTICALPOSITION_SUBSCRIPT:3
 
 Vertical positioning is enabled and toggled for subscript.
 

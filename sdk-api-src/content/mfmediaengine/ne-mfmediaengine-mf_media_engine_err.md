@@ -54,27 +54,27 @@ Defines error status codes for the Media Engine.
 
 ## -enum-fields
 
-### -field MF_MEDIA_ENGINE_ERR_NOERROR
+### -field MF_MEDIA_ENGINE_ERR_NOERROR:0
 
 No error.
 
-### -field MF_MEDIA_ENGINE_ERR_ABORTED
+### -field MF_MEDIA_ENGINE_ERR_ABORTED:1
 
 The process of fetching the media resource was stopped at the user's request.
 
-### -field MF_MEDIA_ENGINE_ERR_NETWORK
+### -field MF_MEDIA_ENGINE_ERR_NETWORK:2
 
 A network error occurred while fetching the media resource.
 
-### -field MF_MEDIA_ENGINE_ERR_DECODE
+### -field MF_MEDIA_ENGINE_ERR_DECODE:3
 
 An error occurred while decoding the media resource.
 
-### -field MF_MEDIA_ENGINE_ERR_SRC_NOT_SUPPORTED
+### -field MF_MEDIA_ENGINE_ERR_SRC_NOT_SUPPORTED:4
 
 The media resource is not supported.
 
-### -field MF_MEDIA_ENGINE_ERR_ENCRYPTED
+### -field MF_MEDIA_ENGINE_ERR_ENCRYPTED:5
 
 An error occurred while encrypting the media resource.
 

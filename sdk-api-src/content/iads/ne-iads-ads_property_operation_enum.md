@@ -56,21 +56,21 @@ The <b>ADS_PROPERTY_OPERATION_ENUM</b> enumeration specifies ways to update a na
 
 ## -enum-fields
 
-### -field ADS_PROPERTY_CLEAR
+### -field ADS_PROPERTY_CLEAR:1
 
 Instructs the directory service to remove all the property value(s) from the object.
 
-### -field ADS_PROPERTY_UPDATE
+### -field ADS_PROPERTY_UPDATE:2
 
 Instructs the directory service to replace the current value(s) with the specified value(s).
 
-### -field ADS_PROPERTY_APPEND
+### -field ADS_PROPERTY_APPEND:3
 
 Instructs the directory service to append the specified value(s) to the existing values(s).
 
 When the <b>ADS_PROPERTY_APPEND</b> operation is specified, the new attribute value(s) are automatically committed to the directory service and removed from the local cache. This forces the local cache to be updated from the directory service the next time the attribute value(s) are retrieved.
 
-### -field ADS_PROPERTY_DELETE
+### -field ADS_PROPERTY_DELETE:4
 
 Instructs the directory service to delete the specified value(s) from the object.
 

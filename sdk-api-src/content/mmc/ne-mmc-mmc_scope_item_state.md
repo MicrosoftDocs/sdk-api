@@ -58,14 +58,14 @@ MMC_SCOPE_ITEM_STATE enumeration is used to specify the <b>nState</b> member of 
 
 ## -enum-fields
 
-### -field MMC_SCOPE_ITEM_STATE_NORMAL
+### -field MMC_SCOPE_ITEM_STATE_NORMAL:0x1
 
 Not currently used.
 
-### -field MMC_SCOPE_ITEM_STATE_BOLD
+### -field MMC_SCOPE_ITEM_STATE_BOLD:0x2
 
 Not currently used.
 
-### -field MMC_SCOPE_ITEM_STATE_EXPANDEDONCE
+### -field MMC_SCOPE_ITEM_STATE_EXPANDEDONCE:0x3
 
 Set if the item has been expanded at least once or 0 (zero) if the item has not been expanded.

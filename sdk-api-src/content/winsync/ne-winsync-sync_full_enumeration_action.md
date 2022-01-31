@@ -56,7 +56,7 @@ Represents the action to be taken by an application in response to <a href="/pre
 
 ## -enum-fields
 
-### -field SFEA_FULL_ENUMERATION
+### -field SFEA_FULL_ENUMERATION:0
 
 Perform a full enumeration. This is the default option when the application does not register an <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback</a> interface.
 

@@ -58,15 +58,15 @@ The
 
 ## -enum-fields
 
-### -field STGMOVE_MOVE
+### -field STGMOVE_MOVE:0
 
 Indicates that the method should move the data from the source to the destination.
 
-### -field STGMOVE_COPY
+### -field STGMOVE_COPY:1
 
 Indicates that the method should copy the data from the source to the destination. A copy is the same as a move except that the source element is not removed after copying the element to the destination. Copying an element on top of itself is undefined.
 
-### -field STGMOVE_SHALLOWCOPY
+### -field STGMOVE_SHALLOWCOPY:2
 
 Not implemented.
 

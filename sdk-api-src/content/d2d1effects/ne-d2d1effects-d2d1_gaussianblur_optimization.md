@@ -54,16 +54,16 @@ The optimization mode for the <a href="/windows/desktop/Direct2D/gaussian-blur">
 
 ## -enum-fields
 
-### -field D2D1_GAUSSIANBLUR_OPTIMIZATION_SPEED
+### -field D2D1_GAUSSIANBLUR_OPTIMIZATION_SPEED:0
 
 Applies internal optimizations such as pre-scaling at relatively small radii. Uses linear filtering.
 
-### -field D2D1_GAUSSIANBLUR_OPTIMIZATION_BALANCED
+### -field D2D1_GAUSSIANBLUR_OPTIMIZATION_BALANCED:1
 
 Uses the same optimization thresholds as Speed mode, but uses trilinear filtering.
 
-### -field D2D1_GAUSSIANBLUR_OPTIMIZATION_QUALITY
+### -field D2D1_GAUSSIANBLUR_OPTIMIZATION_QUALITY:2
 
 Only uses internal optimizations with large blur radii, where approximations are less likely to be visible. Uses trilinear filtering.
 
-### -field D2D1_GAUSSIANBLUR_OPTIMIZATION_FORCE_DWORD
+### -field D2D1_GAUSSIANBLUR_OPTIMIZATION_FORCE_DWORD:0xffffffff

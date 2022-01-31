@@ -54,14 +54,14 @@ Contains possible values for the <a href="/windows/desktop/WinAuto/uiauto-textat
 
 ## -enum-fields
 
-### -field ActiveEnd_None
+### -field ActiveEnd_None:0
 
 The caret is not at either end of the text range.
 
-### -field ActiveEnd_Start
+### -field ActiveEnd_Start:1
 
 The caret is at the beginning of the text range.
 
-### -field ActiveEnd_End
+### -field ActiveEnd_End:2
 
 The caret is at the end of the text range.

@@ -54,14 +54,14 @@ These flags are used with <a href="/windows/desktop/api/shobjidl_core/nf-shobjid
 
 ## -enum-fields
 
-### -field EBF_NONE
+### -field EBF_NONE:0
 
 No flags.
 
-### -field EBF_SELECTFROMDATAOBJECT
+### -field EBF_SELECTFROMDATAOBJECT:0x100
 
 Causes <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-fillfromobject">IExplorerBrowser::FillFromObject</a> to first populate the results folder with the contents of the parent folders of the items in the data object, and then select only the items that are in the data object.
 
-### -field EBF_NODROPTARGET
+### -field EBF_NODROPTARGET:0x200
 
 Do not allow dropping on the folder. In other words, do not register a drop target for the view. Applications can then register their own drop targets.

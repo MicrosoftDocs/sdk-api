@@ -56,7 +56,7 @@ Indicates the type of objects in a tracking information collection.
 
 ## -enum-fields
 
-### -field TRKCOLL_PROCESSES
+### -field TRKCOLL_PROCESSES:0
 
 The objects in the referenced tracking information collections are processes.
 

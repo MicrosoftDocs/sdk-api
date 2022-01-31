@@ -59,15 +59,15 @@ transport and mixed-mode security.
 
 ## -enum-fields
 
-### -field WS_PROTECTION_LEVEL_NONE
+### -field WS_PROTECTION_LEVEL_NONE:1
 
 No signing or encryption.
 
-### -field WS_PROTECTION_LEVEL_SIGN
+### -field WS_PROTECTION_LEVEL_SIGN:2
 
 Only signing.
 
-### -field WS_PROTECTION_LEVEL_SIGN_AND_ENCRYPT
+### -field WS_PROTECTION_LEVEL_SIGN_AND_ENCRYPT:3
 
 Signing and encryption.
 

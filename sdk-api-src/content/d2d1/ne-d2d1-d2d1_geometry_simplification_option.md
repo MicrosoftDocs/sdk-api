@@ -54,15 +54,15 @@ Specifies how a geometry is simplified to an <a href="/windows/win32/api/d2d1/nn
 
 ## -enum-fields
 
-### -field D2D1_GEOMETRY_SIMPLIFICATION_OPTION_CUBICS_AND_LINES
+### -field D2D1_GEOMETRY_SIMPLIFICATION_OPTION_CUBICS_AND_LINES:0
 
 The output can contain cubic Bezier curves and line segments.
 
-### -field D2D1_GEOMETRY_SIMPLIFICATION_OPTION_LINES
+### -field D2D1_GEOMETRY_SIMPLIFICATION_OPTION_LINES:1
 
 The output is flattened so that it contains only line segments.
 
-### -field D2D1_GEOMETRY_SIMPLIFICATION_OPTION_FORCE_DWORD
+### -field D2D1_GEOMETRY_SIMPLIFICATION_OPTION_FORCE_DWORD:0xffffffff
 
 ## -see-also
 

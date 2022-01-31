@@ -56,7 +56,7 @@ Represents types of statistics that convey information about a component.
 
 ## -enum-fields
 
-### -field SYNC_STATISTICS_RANGE_COUNT
+### -field SYNC_STATISTICS_RANGE_COUNT:0
 
 Indicates that the statistic represents the number of ranges that are contained in an <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge</a> object.
 

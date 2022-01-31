@@ -56,25 +56,25 @@ Contains flags that are used to configure how the enhanced video renderer (EVR) 
 
 ## -enum-fields
 
-### -field MFVideoMixPrefs_ForceHalfInterlace
+### -field MFVideoMixPrefs_ForceHalfInterlace:0x1
 
 Force the EVR  to skip the second field (in temporal order) of every interlaced frame.
 
-### -field MFVideoMixPrefs_AllowDropToHalfInterlace
+### -field MFVideoMixPrefs_AllowDropToHalfInterlace:0x2
 
 If the EVR is falling behind, allow it to skip the second field (in temporal order) of every interlaced frame.
 
-### -field MFVideoMixPrefs_AllowDropToBob
+### -field MFVideoMixPrefs_AllowDropToBob:0x4
 
 If the EVR is falling behind, allow it to use bob deinterlacing, even if the driver supports a higher-quality deinterlacing mode.
 
-### -field MFVideoMixPrefs_ForceBob
+### -field MFVideoMixPrefs_ForceBob:0x8
 
 Force the EVR to use bob deinterlacing, even if the driver supports a higher-quality mode.
 
-### -field MFVideoMixPrefs_EnableRotation
+### -field MFVideoMixPrefs_EnableRotation:0x10
 
-### -field MFVideoMixPrefs_Mask
+### -field MFVideoMixPrefs_Mask:0x1f
 
 The bitmask of valid flag values. This constant is not itself a valid flag.
 

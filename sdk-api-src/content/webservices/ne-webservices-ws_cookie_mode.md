@@ -54,7 +54,7 @@ An enumeration used to specify how to handle HTTP cookies.
 
 ## -enum-fields
 
-### -field WS_MANUAL_COOKIE_MODE
+### -field WS_MANUAL_COOKIE_MODE:1
 
 In this mode, cookies are not processed by the client channel.
                 
@@ -66,7 +66,7 @@ If a server sends a cookie to the client, the client
 
 An application can use the <a href="/windows/desktop/api/webservices/ns-webservices-ws_http_header_mapping">WS_HTTP_HEADER_MAPPING</a> feature to handle cookies manually, if desired.
 
-### -field WS_AUTO_COOKIE_MODE
+### -field WS_AUTO_COOKIE_MODE:2
 
 In this mode, cookies are automatically tracked by
                     the channel.

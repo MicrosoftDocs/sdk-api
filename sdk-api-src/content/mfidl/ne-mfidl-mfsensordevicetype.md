@@ -56,7 +56,7 @@ Specifies the type of a sensor device. A value from this enumeration is returned
 
 ## -enum-fields
 
-### -field MFSensorDeviceType_Unknown
+### -field MFSensorDeviceType_Unknown:0
 
 The sensor device type is unknown.
 

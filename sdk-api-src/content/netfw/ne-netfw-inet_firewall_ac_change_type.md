@@ -56,19 +56,19 @@ The <b>INET_FIREWALL_AC_CHANGE_TYPE</b> enumeration specifies which type of app 
 
 ## -enum-fields
 
-### -field INET_FIREWALL_AC_CHANGE_INVALID
+### -field INET_FIREWALL_AC_CHANGE_INVALID:0
 
 This value is reserved for system use.
 
-### -field INET_FIREWALL_AC_CHANGE_CREATE
+### -field INET_FIREWALL_AC_CHANGE_CREATE:1
 
 An app container was created.
 
-### -field INET_FIREWALL_AC_CHANGE_DELETE
+### -field INET_FIREWALL_AC_CHANGE_DELETE:2
 
 An app container was deleted.
 
-### -field INET_FIREWALL_AC_CHANGE_MAX
+### -field INET_FIREWALL_AC_CHANGE_MAX:3
 
 Maximum value for testing purposes.
 

@@ -54,11 +54,11 @@ An enumeration of the different operation styles.
 
 ## -enum-fields
 
-### -field WS_NON_RPC_LITERAL_OPERATION
+### -field WS_NON_RPC_LITERAL_OPERATION:0
 
 document/literal style operation or encoding operations.
 
-### -field WS_RPC_LITERAL_OPERATION
+### -field WS_RPC_LITERAL_OPERATION:1
 
 rpc/literal style operation.
 

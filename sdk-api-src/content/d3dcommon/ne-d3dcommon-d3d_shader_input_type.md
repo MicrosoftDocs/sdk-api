@@ -59,7 +59,7 @@ Values that identify resource types that can be bound to a shader and that are r
 
 ## -enum-fields
 
-### -field D3D_SIT_CBUFFER
+### -field D3D_SIT_CBUFFER:0
 
 The shader resource is a constant buffer.
 

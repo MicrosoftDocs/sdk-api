@@ -56,7 +56,7 @@ The [FWP_VALUE0](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0) or an [FW
 
 ## -enum-fields
 
-### -field FWP_EMPTY
+### -field FWP_EMPTY:0
 
 Indicates no data.
 
@@ -136,7 +136,7 @@ Reserved.
 
 ### -field FWP_BITMAP_ARRAY64_TYPE
 
-### -field FWP_SINGLE_DATA_TYPE_MAX
+### -field FWP_SINGLE_DATA_TYPE_MAX:0xff
 
 Reserved for future use.
 

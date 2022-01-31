@@ -54,18 +54,18 @@ The state of the metadata object.
 
 ## -enum-fields
 
-### -field WS_METADATA_STATE_CREATED
+### -field WS_METADATA_STATE_CREATED:1
 
 The initial state of the metadata object.
 
-### -field WS_METADATA_STATE_RESOLVED
+### -field WS_METADATA_STATE_RESOLVED:2
 
 All references between metadata documents have been
                     resolved and no more metadata documents may be added
                     to the metadata object.  See <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmetadataendpoints">WsGetMetadataEndpoints</a> for
                     more information.
 
-### -field WS_METADATA_STATE_FAULTED
+### -field WS_METADATA_STATE_FAULTED:3
 
 The metadata object not usable due to a previous error.  See
                     See <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmetadataendpoints">WsGetMetadataEndpoints</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmetadata">WsReadMetadata</a> for more information.

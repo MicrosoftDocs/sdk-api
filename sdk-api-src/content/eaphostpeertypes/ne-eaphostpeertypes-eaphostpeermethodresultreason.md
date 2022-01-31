@@ -56,7 +56,7 @@ Defines the set of possible reasons that describe the results returned by an EAP
 
 ## -enum-fields
 
-### -field EapHostPeerMethodResultAltSuccessReceived
+### -field EapHostPeerMethodResultAltSuccessReceived:1
 
 Authentication was successful.
 

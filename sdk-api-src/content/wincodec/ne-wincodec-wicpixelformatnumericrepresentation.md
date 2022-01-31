@@ -51,31 +51,31 @@ Defines constants that specify a primitive type for numeric representation of a 
 
 ## -enum-fields
 
-### -field WICPixelFormatNumericRepresentationUnspecified
+### -field WICPixelFormatNumericRepresentationUnspecified:0
 
 The format is not specified.
 
-### -field WICPixelFormatNumericRepresentationIndexed
+### -field WICPixelFormatNumericRepresentationIndexed:0x1
 
 Specifies that the format is indexed.
 
-### -field WICPixelFormatNumericRepresentationUnsignedInteger
+### -field WICPixelFormatNumericRepresentationUnsignedInteger:0x2
 
 Specifies that the format is represented as an unsigned integer.
 
-### -field WICPixelFormatNumericRepresentationSignedInteger
+### -field WICPixelFormatNumericRepresentationSignedInteger:0x3
 
 Specifies that the format is represented as a signed integer.
 
-### -field WICPixelFormatNumericRepresentationFixed
+### -field WICPixelFormatNumericRepresentationFixed:0x4
 
 Specifies that the format is represented as a fixed-point number.
 
-### -field WICPixelFormatNumericRepresentationFloat
+### -field WICPixelFormatNumericRepresentationFloat:0x5
 
 Specifies that the format is represented as a floating-point number.
 
-### -field WICPixelFormatNumericRepresentation_FORCE_DWORD
+### -field WICPixelFormatNumericRepresentation_FORCE_DWORD:0x7fffffff
 
 This constant contains the maximum **DWORD** value.
 

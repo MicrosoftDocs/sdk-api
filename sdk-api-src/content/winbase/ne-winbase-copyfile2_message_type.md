@@ -59,7 +59,7 @@ Indicates the type of message passed in the
 
 ## -enum-fields
 
-### -field COPYFILE2_CALLBACK_NONE
+### -field COPYFILE2_CALLBACK_NONE:0
 
 Not a valid value.
 

@@ -54,19 +54,19 @@ The <b>CommitTemplateFlags</b> enumeration type specifies options for saving and
 
 ## -enum-fields
 
-### -field CommitFlagSaveTemplateGenerateOID
+### -field CommitFlagSaveTemplateGenerateOID:1
 
 Save the template and create an object identifier for it.
 
-### -field CommitFlagSaveTemplateUseCurrentOID
+### -field CommitFlagSaveTemplateUseCurrentOID:2
 
 Not used.
 
-### -field CommitFlagSaveTemplateOverwrite
+### -field CommitFlagSaveTemplateOverwrite:3
 
 Not used.
 
-### -field CommitFlagDeleteTemplate
+### -field CommitFlagDeleteTemplate:4
 
 Delete the template.
 

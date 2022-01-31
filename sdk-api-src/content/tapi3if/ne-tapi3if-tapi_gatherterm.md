@@ -54,23 +54,23 @@ The <b>TAPI_GATHERTERM</b> enum is used to describe the reasons why the TAPI Ser
 
 ## -enum-fields
 
-### -field TGT_BUFFERFULL
+### -field TGT_BUFFERFULL:0x1
 
 The requested number of digits has been gathered. The buffer is full.
 
-### -field TGT_TERMDIGIT
+### -field TGT_TERMDIGIT:0x2
 
 One of the termination digits matched a received digit. The matched termination digit is the last digit in the buffer.
 
-### -field TGT_FIRSTTIMEOUT
+### -field TGT_FIRSTTIMEOUT:0x4
 
 The first digit timeout expired. The buffer contains no digits.
 
-### -field TGT_INTERTIMEOUT
+### -field TGT_INTERTIMEOUT:0x8
 
 The interdigit timeout expired. The buffer contains at least one digit.
 
-### -field TGT_CANCEL
+### -field TGT_CANCEL:0x10
 
 The request was canceled by this application, by another application, or because the call terminated.
 

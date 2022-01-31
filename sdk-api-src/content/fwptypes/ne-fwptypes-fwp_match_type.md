@@ -56,7 +56,7 @@ The <b>FWP_MATCH_TYPE</b> enumerated type specifies different match types allowe
 
 ## -enum-fields
 
-### -field FWP_MATCH_EQUAL
+### -field FWP_MATCH_EQUAL:0
 
 Tests whether the value is equal to the condition value. 
 

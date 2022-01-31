@@ -54,22 +54,22 @@ The <b>ENUM_CATYPES</b> enumeration specifies a <a href="/windows/desktop/SecGlo
 
 ## -enum-fields
 
-### -field ENUM_ENTERPRISE_ROOTCA
+### -field ENUM_ENTERPRISE_ROOTCA:0
 
 A root CA that is a member of an Active Directory domain and uses Directory Service to issue and manage certificates.
 
-### -field ENUM_ENTERPRISE_SUBCA
+### -field ENUM_ENTERPRISE_SUBCA:1
 
 A CA  that uses Directory Service to issue and manage certificates and is subordinate to an enterprise root CA.
 
-### -field ENUM_STANDALONE_ROOTCA
+### -field ENUM_STANDALONE_ROOTCA:3
 
 A root CA that does not use Directory Service to issue or manage certificates. It might or might not belong to a domain.
 
-### -field ENUM_STANDALONE_SUBCA
+### -field ENUM_STANDALONE_SUBCA:4
 
 A CA that does not use Directory Service to issue or manage certificates and is subordinate to a standalone root CA.
 
-### -field ENUM_UNKNOWN_CA
+### -field ENUM_UNKNOWN_CA:5
 
 An unknown CA type.

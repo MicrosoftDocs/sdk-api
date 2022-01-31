@@ -54,22 +54,22 @@ Specifies column state values. Used by members of the <a href="/windows/desktop/
 
 ## -enum-fields
 
-### -field CM_STATE_NONE
+### -field CM_STATE_NONE:0
 
 The column is not currently displayed.
 
-### -field CM_STATE_VISIBLE
+### -field CM_STATE_VISIBLE:0x1
 
 The column is currently displayed.
 
-### -field CM_STATE_FIXEDWIDTH
+### -field CM_STATE_FIXEDWIDTH:0x2
 
 The column cannot be resized.
 
-### -field CM_STATE_NOSORTBYFOLDERNESS
+### -field CM_STATE_NOSORTBYFOLDERNESS:0x4
 
 Do not sort folders separately.
 
-### -field CM_STATE_ALWAYSVISIBLE
+### -field CM_STATE_ALWAYSVISIBLE:0x8
 
 The column cannot be hidden.

@@ -59,7 +59,7 @@ Used by the
 
 ## -enum-fields
 
-### -field ClusterGroupPreventFailback
+### -field ClusterGroupPreventFailback:0
 
 Prevents <a href="/previous-versions/windows/desktop/mscs/failback">failback</a>.
 

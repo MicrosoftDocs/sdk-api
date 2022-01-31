@@ -59,7 +59,7 @@ The Windows Sockets
 
 ## -enum-fields
 
-### -field COMP_EQUAL
+### -field COMP_EQUAL:0
 
 Used for determining whether version values are equal.
 

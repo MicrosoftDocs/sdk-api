@@ -56,27 +56,27 @@ api_name:
 
 ## -enum-fields
 
-### -field failureCategoryNone
+### -field failureCategoryNone:0
 
 No failure.
 
-### -field failureCategoryOther
+### -field failureCategoryOther:1
 
 A failure which is not due to client or server components or communications.
 
-### -field failureCategoryClientComponent
+### -field failureCategoryClientComponent:2
 
 Failure due to client component.
 
-### -field failureCategoryClientCommunication
+### -field failureCategoryClientCommunication:3
 
 Failure due to client communication.
 
-### -field failureCategoryServerComponent
+### -field failureCategoryServerComponent:4
 
 Failure due to server component.
 
-### -field failureCategoryServerCommunication
+### -field failureCategoryServerCommunication:5
 
 Failure due to server communication.
 

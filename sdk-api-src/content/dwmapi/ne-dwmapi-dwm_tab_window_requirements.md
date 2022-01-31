@@ -54,19 +54,19 @@ Returned by DwmGetUnmetTabRequirements to indicate the requirements needed for a
 
 ## -enum-fields
 
-### -field DWMTWR_NONE
+### -field DWMTWR_NONE:0x0000
 
 The window meets all requirements requested.
 
-### -field DWMTWR_IMPLEMENTED_BY_SYSTEM
+### -field DWMTWR_IMPLEMENTED_BY_SYSTEM:0x0001
 
 In some configurations, the admin/user setting or mode of the system means that windows won't be tabbed. This requirement indicates that the system mode must implement tabbing. If the system does not implement tabbing, nothing can be done to change this.
 
-### -field DWMTWR_WINDOW_RELATIONSHIP
+### -field DWMTWR_WINDOW_RELATIONSHIP:0x0002
 
 The window has an owner or parent, and is therefore ineligible for tabbing.
 
-### -field DWMTWR_WINDOW_STYLES
+### -field DWMTWR_WINDOW_STYLES:0x0004
 
     The window has one or more styles that make it ineligible for tabbing.
 
@@ -80,30 +80,30 @@ To be eligible for tabbing, a window must:
 </li>
 </ul>
 
-### -field DWMTWR_WINDOW_REGION
+### -field DWMTWR_WINDOW_REGION:0x0008
 
 The window has a region (set using <a href="/windows/desktop/api/winuser/nf-winuser-setwindowrgn">SetWindowRgn</a>) making it ineligible.
 
-### -field DWMTWR_WINDOW_DWM_ATTRIBUTES
+### -field DWMTWR_WINDOW_DWM_ATTRIBUTES:0x0010
 
 The window is ineligible due to its Dwm configuration.
 
 To resolve this issue, the window must not extended its client area into the title bar using <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmextendframeintoclientarea">DwmExtendFrameIntoClientArea</a>. In addition, the window must not have <b>DWMWA_NCRENDERING_POLICY</b> set to <b>DWMNCRP_ENABLED</b>.
 
-### -field DWMTWR_WINDOW_MARGINS
+### -field DWMTWR_WINDOW_MARGINS:0x0020
 
 The window is ineligible due to its margins, most likely due to custom handling in <b>WM_NCCALCSIZE</b>. 
 
 To resolve this issue, the window must use the default window margins for the non-client area.
 
-### -field DWMTWR_TABBING_ENABLED
+### -field DWMTWR_TABBING_ENABLED:0x0040
 
 The window has been explicitly opted out by setting <b>DWMWA_TABBING_ENABLED</b> to false.
 
-### -field DWMTWR_USER_POLICY
+### -field DWMTWR_USER_POLICY:0x0080
 
 The user has configured this application to not participate in tabbing.
 
-### -field DWMTWR_GROUP_POLICY
+### -field DWMTWR_GROUP_POLICY:0x0100
 
-### -field DWMTWR_APP_COMPAT
+### -field DWMTWR_APP_COMPAT:0x0200

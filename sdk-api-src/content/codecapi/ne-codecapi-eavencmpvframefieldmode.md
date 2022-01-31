@@ -54,11 +54,11 @@ Specifies whether the encoder produces encoded fields or encoded frames. This en
 
 ## -enum-fields
 
-### -field eAVEncMPVFrameFieldMode_FieldMode
+### -field eAVEncMPVFrameFieldMode_FieldMode:0
 
 The encoder produces an MPEG picture for each field in the source video.
 
-### -field eAVEncMPVFrameFieldMode_FrameMode
+### -field eAVEncMPVFrameFieldMode_FrameMode:1
 
 The encoder produces an MPEG picture for each frame (or pair of fields) in the source video.
 

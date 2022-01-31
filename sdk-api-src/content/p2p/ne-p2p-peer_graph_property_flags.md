@@ -56,11 +56,11 @@ The <b>PEER_GRAPH_PROPERTY_FLAGS</b> enumeration specifies properties of a peer 
 
 ## -enum-fields
 
-### -field PEER_GRAPH_PROPERTY_HEARTBEATS
+### -field PEER_GRAPH_PROPERTY_HEARTBEATS:0x0001
 
 Reserved.
 
-### -field PEER_GRAPH_PROPERTY_DEFER_EXPIRATION
+### -field PEER_GRAPH_PROPERTY_DEFER_EXPIRATION:0x0002
 
 Graph records are not expired until the peer  connects with a graph.
 

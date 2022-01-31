@@ -59,7 +59,7 @@ The **NET_FW_PROFILE_TYPE** enumerated type  specifies the type of profile.
 
 ## -enum-fields
 
-### -field NET_FW_PROFILE_DOMAIN
+### -field NET_FW_PROFILE_DOMAIN:0
 
 Profile type is domain.
 

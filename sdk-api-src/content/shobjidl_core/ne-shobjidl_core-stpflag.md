@@ -54,22 +54,22 @@ Used by the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskba
 
 ## -enum-fields
 
-### -field STPF_NONE
+### -field STPF_NONE:0
 
 No specific property values are specified. The default behavior is used: the tab window provides a thumbnail and peek image, either live or static as appropriate.
 
-### -field STPF_USEAPPTHUMBNAILALWAYS
+### -field STPF_USEAPPTHUMBNAILALWAYS:0x1
 
 Always use the thumbnail provided by the main application frame window rather than a thumbnail provided by the individual tab window. Do not combine this value with STPF_USEAPPTHUMBNAILWHENACTIVE; doing so will result in an error.
 
-### -field STPF_USEAPPTHUMBNAILWHENACTIVE
+### -field STPF_USEAPPTHUMBNAILWHENACTIVE:0x2
 
 When the application tab is active and a live representation of its window is available, use the main application's frame window thumbnail. At other times, use the tab window thumbnail. Do not combine this value with STPF_USEAPPTHUMBNAILALWAYS; doing so will result in an error.
 
-### -field STPF_USEAPPPEEKALWAYS
+### -field STPF_USEAPPPEEKALWAYS:0x4
 
 Always use the peek image provided by the main application frame window rather than a peek image provided by the individual tab window. Do not combine this value with STPF_USEAPPPEEKWHENACTIVE; doing so will result in an error.
 
-### -field STPF_USEAPPPEEKWHENACTIVE
+### -field STPF_USEAPPPEEKWHENACTIVE:0x8
 
 When the application tab is active and a live representation of its window is available, show the main application frame in the peek feature. At other times, use the tab window. Do not combine this value with STPF_USEAPPPEEKALWAYS; doing so will result in an error.

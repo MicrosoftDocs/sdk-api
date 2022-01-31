@@ -54,15 +54,15 @@ Specifies a hint about the order in which records are to be read from a log.
 
 ## -enum-fields
 
-### -field RECORD_READING_POLICY_FORWARD
+### -field RECORD_READING_POLICY_FORWARD:1
 
 Indicates that records will be read in order of increasing LSN (from least recent to most recent).
 
-### -field RECORD_READING_POLICY_BACKWARD
+### -field RECORD_READING_POLICY_BACKWARD:2
 
 Indicates that records will be read in order of decreasing LSN (from most recent to least recent).
 
-### -field RECORD_READING_POLICY_RANDOM
+### -field RECORD_READING_POLICY_RANDOM:3
 
 Indicates that records may be read in any order.
 

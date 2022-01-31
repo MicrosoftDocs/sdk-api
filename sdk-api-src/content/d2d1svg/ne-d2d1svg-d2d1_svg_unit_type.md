@@ -54,13 +54,13 @@ Defines the coordinate system used for SVG gradient or clipPath elements.
 
 ## -enum-fields
 
-### -field D2D1_SVG_UNIT_TYPE_USER_SPACE_ON_USE
+### -field D2D1_SVG_UNIT_TYPE_USER_SPACE_ON_USE:0
 
 The property is set to SVG's 'userSpaceOnUse' value.
 
-### -field D2D1_SVG_UNIT_TYPE_OBJECT_BOUNDING_BOX
+### -field D2D1_SVG_UNIT_TYPE_OBJECT_BOUNDING_BOX:1
 
 The property is set to SVG's 'objectBoundingBox' value.
 
-### -field D2D1_SVG_UNIT_TYPE_FORCE_DWORD
+### -field D2D1_SVG_UNIT_TYPE_FORCE_DWORD:0xffffffff
 

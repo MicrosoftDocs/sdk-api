@@ -56,7 +56,7 @@ Defines the functionality that the Windows Update Agent (WUA) object can access 
 
 ## -enum-fields
 
-### -field uloForWebsiteAccess
+### -field uloForWebsiteAccess:0x1
 
 If access is from Windows Update, restrict access to the WUA interfaces that implement the <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatelockdown">IUpdateLockdown</a> interface.
 

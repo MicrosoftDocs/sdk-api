@@ -54,11 +54,11 @@ Specifies the preferred stereo downmix mode for a Dolby Digital audio stream. Th
 
 ## -enum-fields
 
-### -field eAVEncDDPreferredStereoDownMixMode_LtRt
+### -field eAVEncDDPreferredStereoDownMixMode_LtRt:0
 
 Left total/right total (Lt/Rt) downmix.
 
-### -field eAVEncDDPreferredStereoDownMixMode_LoRo
+### -field eAVEncDDPreferredStereoDownMixMode_LoRo:1
 
 Left only/right only (Lo/Ro) downmix.
 

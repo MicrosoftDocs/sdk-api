@@ -56,7 +56,7 @@ The <b>DIAGNOSIS_STATUS</b> enumeration describes the result of a hypothesis sub
 
 ## -enum-fields
 
-### -field DS_NOT_IMPLEMENTED
+### -field DS_NOT_IMPLEMENTED:0
 
 A helper class is not implemented
 

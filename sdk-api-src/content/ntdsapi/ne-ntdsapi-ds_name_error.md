@@ -54,35 +54,35 @@ The <b>DS_NAME_ERROR</b> enumeration defines the errors returned by the <b>statu
 
 ## -enum-fields
 
-### -field DS_NAME_NO_ERROR
+### -field DS_NAME_NO_ERROR:0
 
 The conversion was successful.
 
-### -field DS_NAME_ERROR_RESOLVING
+### -field DS_NAME_ERROR_RESOLVING:1
 
 A generic processing error occurred.
 
-### -field DS_NAME_ERROR_NOT_FOUND
+### -field DS_NAME_ERROR_NOT_FOUND:2
 
 The name cannot be found or the caller does not have permission to access the name.
 
-### -field DS_NAME_ERROR_NOT_UNIQUE
+### -field DS_NAME_ERROR_NOT_UNIQUE:3
 
 The input name is mapped to more than one output name or the desired format did not have a single, unique value for the object found.
 
-### -field DS_NAME_ERROR_NO_MAPPING
+### -field DS_NAME_ERROR_NO_MAPPING:4
 
 The input name was found, but the associated output format cannot be found. This can occur if the object does not have all the required attributes.
 
-### -field DS_NAME_ERROR_DOMAIN_ONLY
+### -field DS_NAME_ERROR_DOMAIN_ONLY:5
 
 Unable to resolve entire name, but was able to determine in which domain object resides. The caller is expected to retry the call at a domain controller for the specified domain. The entire name cannot be resolved, but the domain that the object resides in could be determined. The <b>pDomain</b> member of the <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_name_result_itema">DS_NAME_RESULT_ITEM</a> contains valid data when this error is specified.
 
-### -field DS_NAME_ERROR_NO_SYNTACTICAL_MAPPING
+### -field DS_NAME_ERROR_NO_SYNTACTICAL_MAPPING:6
 
 A syntactical mapping cannot be performed on the client without transmitting over the network.
 
-### -field DS_NAME_ERROR_TRUST_REFERRAL
+### -field DS_NAME_ERROR_TRUST_REFERRAL:7
 
 The name is from an external trusted forest.
 

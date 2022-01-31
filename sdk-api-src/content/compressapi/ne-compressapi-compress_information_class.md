@@ -54,7 +54,7 @@ The values of this enumeration identify the type of information class being set 
 
 ## -enum-fields
 
-### -field COMPRESS_INFORMATION_CLASS_INVALID
+### -field COMPRESS_INFORMATION_CLASS_INVALID:0
 
 Invalid information class
 

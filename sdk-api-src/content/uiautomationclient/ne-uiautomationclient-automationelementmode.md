@@ -54,7 +54,7 @@ Contains values that specify the type of reference to use when returning UI Auto
 
 ## -enum-fields
 
-### -field AutomationElementMode_None
+### -field AutomationElementMode_None:0
 
 Specifies that returned elements have no reference to the underlying UI and contain only cached information.
 

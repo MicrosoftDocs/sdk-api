@@ -60,11 +60,11 @@ Some of these flags, marked [out], convey information back to the MFPlay player 
 
 ## -enum-fields
 
-### -field MFP_CREDENTIAL_PROMPT
+### -field MFP_CREDENTIAL_PROMPT:0x1
 
 The player object does not have any stored credentials and requires them from the application. If the player object can provide cached or stored credentials to the server, it does not set this flag.
 
-### -field MFP_CREDENTIAL_SAVE
+### -field MFP_CREDENTIAL_SAVE:0x2
 
 The credentials are saved to persistent storage. This flag acts as a hint for the application's UI. If the application prompts the user for credentials, the UI can indicate that the credentials have already been saved.
 
@@ -72,21 +72,21 @@ The credentials are saved to persistent storage. This flag acts as a hint for th
 
 [out] If the application sets this flag, the player object saves the user credentials in persistent storage. Otherwise, the player object does not save the credentials.
 
-### -field MFP_CREDENTIAL_DO_NOT_CACHE
+### -field MFP_CREDENTIAL_DO_NOT_CACHE:0x4
 
 [out] If the application sets this flag, the player object does not cache the user credentials in memory. Otherwise, the player object   does not cache the credentials. If you set this flag, do not set the <b>MFP_CREDENTIAL_SAVE</b> flag.
 
-### -field MFP_CREDENTIAL_CLEAR_TEXT
+### -field MFP_CREDENTIAL_CLEAR_TEXT:0x8
 
 The credentials will be sent in clear text. The application should  warn the user that the credentials will be sent over the network without encryption.
 
 [out] On output, set this flag to allow the player object to send credentials in clear text, without prompting the user to re-enter the credentials.
 
-### -field MFP_CREDENTIAL_PROXY
+### -field MFP_CREDENTIAL_PROXY:0x10
 
 The credentials will be used to authenticate with a proxy.
 
-### -field MFP_CREDENTIAL_LOGGED_ON_USER
+### -field MFP_CREDENTIAL_LOGGED_ON_USER:0x20
 
 The authentication scheme supports authentication of the user who is currently logged on.
 

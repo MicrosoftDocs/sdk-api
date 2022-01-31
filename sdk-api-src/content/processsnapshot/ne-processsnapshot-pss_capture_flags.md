@@ -54,59 +54,59 @@ Flags that specify what <a href="/previous-versions/windows/desktop/api/processs
 
 ## -enum-fields
 
-### -field PSS_CAPTURE_NONE
+### -field PSS_CAPTURE_NONE:0x00000000
 
 Capture nothing.
 
-### -field PSS_CAPTURE_VA_CLONE
+### -field PSS_CAPTURE_VA_CLONE:0x00000001
 
 Capture a snapshot of all cloneable pages in the process. The clone includes all <b>MEM_PRIVATE</b> regions, as well as all sections (<b>MEM_MAPPED</b> and <b>MEM_IMAGE</b>) that are shareable. All Win32 sections created via <a href="/windows/desktop/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a> are shareable.
 
-### -field PSS_CAPTURE_RESERVED_00000002
+### -field PSS_CAPTURE_RESERVED_00000002:0x00000002
 
 (Do not use.)
 
-### -field PSS_CAPTURE_HANDLES
+### -field PSS_CAPTURE_HANDLES:0x00000004
 
 Capture the handle table (handle values only).
 
-### -field PSS_CAPTURE_HANDLE_NAME_INFORMATION
+### -field PSS_CAPTURE_HANDLE_NAME_INFORMATION:0x00000008
 
 Capture name information for each handle.
 
-### -field PSS_CAPTURE_HANDLE_BASIC_INFORMATION
+### -field PSS_CAPTURE_HANDLE_BASIC_INFORMATION:0x00000010
 
 Capture basic handle information such as <b>HandleCount</b>, <b>PointerCount</b>, <b>GrantedAccess</b>, etc.
 
-### -field PSS_CAPTURE_HANDLE_TYPE_SPECIFIC_INFORMATION
+### -field PSS_CAPTURE_HANDLE_TYPE_SPECIFIC_INFORMATION:0x00000020
 
 Capture type-specific information for supported object types: <b>Process</b>, <b>Thread</b>, <b>Event</b>, <b>Mutant</b>, <b>Section.</b>
 
-### -field PSS_CAPTURE_HANDLE_TRACE
+### -field PSS_CAPTURE_HANDLE_TRACE:0x00000040
 
 Capture the handle tracing table.
 
-### -field PSS_CAPTURE_THREADS
+### -field PSS_CAPTURE_THREADS:0x00000080
 
 Capture thread information (IDs only).
 
-### -field PSS_CAPTURE_THREAD_CONTEXT
+### -field PSS_CAPTURE_THREAD_CONTEXT:0x00000100
 
 Capture the context for each thread.
 
-### -field PSS_CAPTURE_THREAD_CONTEXT_EXTENDED
+### -field PSS_CAPTURE_THREAD_CONTEXT_EXTENDED:0x00000200
 
 Capture extended context for each thread (e.g. <b>CONTEXT_XSTATE</b>).
 
-### -field PSS_CAPTURE_RESERVED_00000400
+### -field PSS_CAPTURE_RESERVED_00000400:0x00000400
 
 (Do not use.)
 
-### -field PSS_CAPTURE_VA_SPACE
+### -field PSS_CAPTURE_VA_SPACE:0x00000800
 
 Capture a snapshot of the virtual address space. The VA space is captured as an array of <a href="/windows/desktop/api/winnt/ns-winnt-memory_basic_information">MEMORY_BASIC_INFORMATION</a> structures. This flag does not capture the contents of the pages.
 
-### -field PSS_CAPTURE_VA_SPACE_SECTION_INFORMATION
+### -field PSS_CAPTURE_VA_SPACE_SECTION_INFORMATION:0x00001000
 
 For <b>MEM_IMAGE</b> and <b>MEM_MAPPED</b> regions, dumps the path to the file backing the sections (identical to what <a href="/windows/desktop/api/psapi/nf-psapi-getmappedfilenamea">GetMappedFileName</a> returns). For <b>MEM_IMAGE</b> regions, also dumps:
 
@@ -133,29 +133,29 @@ The PROCESS_VM_READ access right is required on the process handle.
 <div class="alert"><b>Warning</b>  This option is only valid when <b>PSS_CAPTURE_VA_SPACE</b> is specified. </div>
 <div> </div>
 
-### -field PSS_CAPTURE_IPT_TRACE
+### -field PSS_CAPTURE_IPT_TRACE:0x00002000
 
-### -field PSS_CREATE_BREAKAWAY_OPTIONAL
+### -field PSS_CREATE_BREAKAWAY_OPTIONAL:0x04000000
 
 The breakaway is optional. If the clone process fails to create as a breakaway, then it is created still inside the job. This flag must be specified in combination with either <b>PSS_CREATE_FORCE_BREAKAWAY</b> and/or <b>PSS_CREATE_BREAKAWAY</b>.
 
-### -field PSS_CREATE_BREAKAWAY
+### -field PSS_CREATE_BREAKAWAY:0x08000000
 
 The clone is broken away from the parent process' job. This is equivalent to <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> flag <b>CREATE_BREAKAWAY_FROM_JOB</b>.
 
-### -field PSS_CREATE_FORCE_BREAKAWAY
+### -field PSS_CREATE_FORCE_BREAKAWAY:0x10000000
 
 The clone is forcefully broken away the parent process's job. This is only allowed for Tcb-privileged callers.
 
-### -field PSS_CREATE_USE_VM_ALLOCATIONS
+### -field PSS_CREATE_USE_VM_ALLOCATIONS:0x20000000
 
 The facility should not use the process heap for any persistent or transient allocations. The use of the heap may be undesirable in certain contexts such as creation of snapshots in the exception reporting path (where the heap may be corrupted).
 
-### -field PSS_CREATE_MEASURE_PERFORMANCE
+### -field PSS_CREATE_MEASURE_PERFORMANCE:0x40000000
 
 Measure performance of the facility. Performance counters can be retrieved via <a href="/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-pssquerysnapshot">PssQuerySnapshot</a> with the <b>PSS_QUERY_PERFORMANCE_COUNTERS</b> information class of <a href="/previous-versions/windows/desktop/api/processsnapshot/ne-processsnapshot-pss_query_information_class">PSS_QUERY_INFORMATION_CLASS</a>.
 
-### -field PSS_CREATE_RELEASE_SECTION
+### -field PSS_CREATE_RELEASE_SECTION:0x80000000
 
 The virtual address (VA) clone process does not hold a reference to the underlying image. This will cause functions such as <a href="/windows/desktop/api/winbase/nf-winbase-queryfullprocessimagenamea">QueryFullProcessImageName</a> to fail on the VA clone process.
 

@@ -56,7 +56,7 @@ Reserved for Microsoft use.
 
 ## -enum-fields
 
-### -field XBL_IDP_AUTH_TOKEN_STATUS_SUCCESS
+### -field XBL_IDP_AUTH_TOKEN_STATUS_SUCCESS:0
 
 Reserved for Microsoft use.
 
@@ -88,7 +88,7 @@ Reserved for Microsoft use.
 
 Reserved for Microsoft use.
 
-### -field XBL_IDP_AUTH_TOKEN_STATUS_UNKNOWN
+### -field XBL_IDP_AUTH_TOKEN_STATUS_UNKNOWN:0xffffffff
 
 Reserved for Microsoft use.
 

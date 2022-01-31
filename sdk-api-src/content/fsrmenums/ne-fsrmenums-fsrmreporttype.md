@@ -56,46 +56,46 @@ Defines the types of reports that you can generate.
 
 ## -enum-fields
 
-### -field FsrmReportType_Unknown
+### -field FsrmReportType_Unknown:0
 
 The report type is unknown. Do not use this flag.
 
-### -field FsrmReportType_LargeFiles
+### -field FsrmReportType_LargeFiles:1
 
 Lists files that are larger than a specified size. Set the filter value to the size, in bytes.
 
-### -field FsrmReportType_FilesByType
+### -field FsrmReportType_FilesByType:2
 
 Lists groups of files. Create a file group and use file name patterns to specify the members of the group. 
       Set the filter value to the name of the file group.
 
-### -field FsrmReportType_LeastRecentlyAccessed
+### -field FsrmReportType_LeastRecentlyAccessed:3
 
 Lists files that have not been accessed in the last <i>n</i> days. Specify the filter 
       value in days.
 
-### -field FsrmReportType_MostRecentlyAccessed
+### -field FsrmReportType_MostRecentlyAccessed:4
 
 Lists files that have been accessed in the last <i>n</i> days. Specify the filter value 
       in days.
 
-### -field FsrmReportType_QuotaUsage
+### -field FsrmReportType_QuotaUsage:5
 
 Lists quotas that exceed the specified threshold. Set the filter value to the threshold.
 
-### -field FsrmReportType_FilesByOwner
+### -field FsrmReportType_FilesByOwner:6
 
 Lists files grouped by their owner. Set the filter value to the list of owners whose files you want 
       included in the report.
 
-### -field FsrmReportType_ExportReport
+### -field FsrmReportType_ExportReport:7
 
 Lists all files in the scope of the report job; there is no filtering. You can specify the XML or CSV file 
        formats only for this report type. This report cannot be sent through email.
 
 For an action report, the scope is based on the quota or file screen event that initiated the report.
 
-### -field FsrmReportType_DuplicateFiles
+### -field FsrmReportType_DuplicateFiles:8
 
 Lists duplicate files. All files with the same file name, file size, and last modify time under the scope 
       of the report job are considered duplicates. For example, if the scope of the report is C:\ and 
@@ -103,30 +103,30 @@ Lists duplicate files. All files with the same file name, file size, and last mo
       C:&#92;<i>folder2</i>\ and D:&#92;<i>folder1</i>\ with 
       the same modify time and file size, then the files are considered duplicates.
 
-### -field FsrmReportType_FileScreenAudit
+### -field FsrmReportType_FileScreenAudit:9
 
 Lists file screening events that have occurred.
 
-### -field FsrmReportType_FilesByProperty
+### -field FsrmReportType_FilesByProperty:10
 
 Lists files, grouped by property value, that contain the specified property (you can specify only one 
        property on which to report).
 
 <b>Windows Server 2008:  </b>This report type is not supported before Windows Server 2008 R2.
 
-### -field FsrmReportType_AutomaticClassification
+### -field FsrmReportType_AutomaticClassification:11
 
 For internal use only; do not specify.
 
 <b>Windows Server 2008:  </b>This report type is not supported before Windows Server 2008 R2.
 
-### -field FsrmReportType_Expiration
+### -field FsrmReportType_Expiration:12
 
 For internal use only; do not specify.
 
 <b>Windows Server 2008:  </b>This report type is not supported before Windows Server 2008 R2.
 
-### -field FsrmReportType_FoldersByProperty
+### -field FsrmReportType_FoldersByProperty:13
 
 Lists folders, grouped by property value, that contain the specified property (you can specify only one 
        property on which to report).

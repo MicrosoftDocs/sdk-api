@@ -54,11 +54,11 @@ Specifies the layout in memory of a stereo 3D video frame.
 
 ## -enum-fields
 
-### -field D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO
+### -field D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO:0
 
 The sample does not contain stereo data.  If the stereo format is not specified, this value is the default.
 
-### -field D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_HORIZONTAL
+### -field D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_HORIZONTAL:1
 
 Frame 0 and frame 1 are packed side-by-side, as shown in the following diagram.
 
@@ -66,7 +66,7 @@ Frame 0 and frame 1 are packed side-by-side, as shown in the following diagram.
 
 All drivers that support stereo video must support this format.
 
-### -field D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_VERTICAL
+### -field D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_VERTICAL:2
 
 Frame 0 and frame 1 are packed top-to-bottom, as shown in the following diagram.
 
@@ -74,13 +74,13 @@ Frame 0 and frame 1 are packed top-to-bottom, as shown in the following diagram.
 
 All drivers that support stereo video must support this format.
 
-### -field D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_SEPARATE
+### -field D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_SEPARATE:3
 
 Frame 0 and frame 1 are placed in separate resources or in separate texture array elements within the same resource.
 
 All drivers that support stereo video must support this format.
 
-### -field D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET
+### -field D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET:4
 
 The sample contains non-stereo data. However, the driver should create a left/right output of this sample using a specified offset.  The offset is specified in the <i>MonoOffset</i> parameter of the <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreamstereoformat">ID3D11VideoContext::VideoProcessorSetStreamStereoFormat</a> method. 
 
@@ -88,7 +88,7 @@ This format is primarily intended for subtitles and other subpicture data, where
 
 Support for this stereo format is optional.
 
-### -field D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_ROW_INTERLEAVED
+### -field D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_ROW_INTERLEAVED:5
 
 Frame 0 and frame 1 are packed into interleaved rows, as shown in the following diagram.
 
@@ -96,7 +96,7 @@ Frame 0 and frame 1 are packed into interleaved rows, as shown in the following 
 
 Support for this stereo format is optional.
 
-### -field D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_COLUMN_INTERLEAVED
+### -field D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_COLUMN_INTERLEAVED:6
 
 Frame 0 and frame 1 are packed into interleaved columns, as shown in the following diagram.
 
@@ -104,7 +104,7 @@ Frame 0 and frame 1 are packed into interleaved columns, as shown in the followi
 
 Support for this stereo format is optional.
 
-### -field D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_CHECKERBOARD
+### -field D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_CHECKERBOARD:7
 
 Frame 0 and frame 1 are packed in a checkerboard format, as shown in the following diagram.
 

@@ -58,7 +58,7 @@ The <b>AM_WST_STYLE</b> enumeration is not supported.
 
 ## -enum-fields
 
-### -field AM_WST_STYLE_None
+### -field AM_WST_STYLE_None:0
 
 Reserved.
 

@@ -55,27 +55,27 @@ Defines the set of notifications that are generated for a resource type.
 
 ## -enum-fields
 
-### -field CLUSTER_CHANGE_RESOURCE_TYPE_DELETED_V2
+### -field CLUSTER_CHANGE_RESOURCE_TYPE_DELETED_V2:0x00000001
 
 Indicates that the resource type has been deleted.
 
-### -field CLUSTER_CHANGE_RESOURCE_TYPE_COMMON_PROPERTY_V2
+### -field CLUSTER_CHANGE_RESOURCE_TYPE_COMMON_PROPERTY_V2:0x00000002
 
 Indicates that the resource type common properties have changed.
 
-### -field CLUSTER_CHANGE_RESOURCE_TYPE_PRIVATE_PROPERTY_V2
+### -field CLUSTER_CHANGE_RESOURCE_TYPE_PRIVATE_PROPERTY_V2:0x00000004
 
 Indicates that the resource type private properties have changed.
 
-### -field CLUSTER_CHANGE_RESOURCE_TYPE_POSSIBLE_OWNERS_V2
+### -field CLUSTER_CHANGE_RESOURCE_TYPE_POSSIBLE_OWNERS_V2:0x00000008
 
 Indicates that the possible owners for the resource type have changed.
 
-### -field CLUSTER_CHANGE_RESOURCE_TYPE_DLL_UPGRADED_V2
+### -field CLUSTER_CHANGE_RESOURCE_TYPE_DLL_UPGRADED_V2:0x00000010
 
 Indicates that the resource type DLL has been upgraded.
 
-### -field CLUSTER_RESOURCE_TYPE_SPECIFIC_V2
+### -field CLUSTER_RESOURCE_TYPE_SPECIFIC_V2:0x00000020
 
 An indication that is specific to the resource type.
 

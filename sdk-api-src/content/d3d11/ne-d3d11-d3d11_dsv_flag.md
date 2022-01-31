@@ -54,11 +54,11 @@ Depth-stencil view options.
 
 ## -enum-fields
 
-### -field D3D11_DSV_READ_ONLY_DEPTH
+### -field D3D11_DSV_READ_ONLY_DEPTH:0x1L
 
 Indicates that depth values are read only.
 
-### -field D3D11_DSV_READ_ONLY_STENCIL
+### -field D3D11_DSV_READ_ONLY_STENCIL:0x2L
 
 Indicates that stencil values are read only.
 

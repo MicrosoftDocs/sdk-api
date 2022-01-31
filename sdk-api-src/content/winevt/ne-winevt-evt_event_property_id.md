@@ -56,7 +56,7 @@ Defines the values that determine the query information to retrieve.
 
 ## -enum-fields
 
-### -field EvtEventQueryIDs
+### -field EvtEventQueryIDs:0
 
 Not supported. The identifier of the query that selected the event. The variant type of this property is EvtVarTypeInt32.
 

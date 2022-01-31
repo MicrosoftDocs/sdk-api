@@ -56,7 +56,7 @@ Specifies a mapping for a class ID.
 
 ## -enum-fields
 
-### -field TYSPEC_CLSID
+### -field TYSPEC_CLSID:0
 
 A CLSID.
 

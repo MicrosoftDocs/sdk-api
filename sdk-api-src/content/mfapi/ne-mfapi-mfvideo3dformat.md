@@ -56,19 +56,19 @@ Specifies how 3D video frames are stored in memory.
 
 ## -enum-fields
 
-### -field MFVideo3DSampleFormat_BaseView
+### -field MFVideo3DSampleFormat_BaseView:0
 
 The base view is stored in a single buffer. The other view is discarded.
 
-### -field MFVideo3DSampleFormat_MultiView
+### -field MFVideo3DSampleFormat_MultiView:1
 
 Each media sample contains multiple buffers, one for each view.
 
-### -field MFVideo3DSampleFormat_Packed_LeftRight
+### -field MFVideo3DSampleFormat_Packed_LeftRight:2
 
 Each media sample contains one buffer, with both views packed side-by-side into a single frame.
 
-### -field MFVideo3DSampleFormat_Packed_TopBottom
+### -field MFVideo3DSampleFormat_Packed_TopBottom:3
 
 Each media sample contains one buffer, with both views packed top-and-bottom into a single frame.
 

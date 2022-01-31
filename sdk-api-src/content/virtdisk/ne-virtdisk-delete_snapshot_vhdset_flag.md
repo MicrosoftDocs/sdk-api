@@ -61,11 +61,11 @@ Contains flags affecting the behavior of the <a href="/windows/win32/api/virtdis
 
 ## -enum-fields
 
-### -field DELETE_SNAPSHOT_VHDSET_FLAG_NONE
+### -field DELETE_SNAPSHOT_VHDSET_FLAG_NONE:0x00000000
 
 No flag specified.
 
-### -field DELETE_SNAPSHOT_VHDSET_FLAG_PERSIST_RCT
+### -field DELETE_SNAPSHOT_VHDSET_FLAG_PERSIST_RCT:0x00000001
 
 A reference point should be persisted in the VHD Set after the snapshot is deleted.
 

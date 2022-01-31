@@ -54,11 +54,11 @@ Specifies what type of texture copy is to take place.
 
 ## -enum-fields
 
-### -field D3D12_TEXTURE_COPY_TYPE_SUBRESOURCE_INDEX
+### -field D3D12_TEXTURE_COPY_TYPE_SUBRESOURCE_INDEX:0
 
 Indicates a subresource, identified by an index, is to be copied.
 
-### -field D3D12_TEXTURE_COPY_TYPE_PLACED_FOOTPRINT
+### -field D3D12_TEXTURE_COPY_TYPE_PLACED_FOOTPRINT:1
 
 Indicates a place footprint, identified by a <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_placed_subresource_footprint">D3D12_PLACED_SUBRESOURCE_FOOTPRINT</a> structure, is to be copied.
 

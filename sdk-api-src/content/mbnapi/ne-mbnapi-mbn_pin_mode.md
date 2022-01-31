@@ -57,7 +57,7 @@ The <b>MBN_PIN_MODE</b> enumerated type indicates if the PIN type is enabled.
 
 ## -enum-fields
 
-### -field MBN_PIN_MODE_ENABLED
+### -field MBN_PIN_MODE_ENABLED:1
 
 The PIN type is currently enabled.
 

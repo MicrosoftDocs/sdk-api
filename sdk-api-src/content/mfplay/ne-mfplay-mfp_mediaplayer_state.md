@@ -58,23 +58,23 @@ Specifies the current playback state.
 
 ## -enum-fields
 
-### -field MFP_MEDIAPLAYER_STATE_EMPTY
+### -field MFP_MEDIAPLAYER_STATE_EMPTY:0
 
 Initial state. No media items have been set on the player object.
 
-### -field MFP_MEDIAPLAYER_STATE_STOPPED
+### -field MFP_MEDIAPLAYER_STATE_STOPPED:0x1
 
 Playback is stopped.
 
-### -field MFP_MEDIAPLAYER_STATE_PLAYING
+### -field MFP_MEDIAPLAYER_STATE_PLAYING:0x2
 
 Playback is in progress.
 
-### -field MFP_MEDIAPLAYER_STATE_PAUSED
+### -field MFP_MEDIAPLAYER_STATE_PAUSED:0x3
 
 Playback is paused.
 
-### -field MFP_MEDIAPLAYER_STATE_SHUTDOWN
+### -field MFP_MEDIAPLAYER_STATE_SHUTDOWN:0x4
 
 The player object was shut down. This state is returned after the application calls <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown">IMFPMediaPlayer::Shutdown</a>.
 

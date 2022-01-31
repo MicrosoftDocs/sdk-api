@@ -54,7 +54,7 @@ The types supported for serialization.
 
 ## -enum-fields
 
-### -field WS_BOOL_TYPE
+### -field WS_BOOL_TYPE:0
 
 Used when serializing a <b>BOOL</b> value.
                 
@@ -126,7 +126,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     See the documentation for <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
 
-### -field WS_INT8_TYPE
+### -field WS_INT8_TYPE:1
 
 Used when serializing a signed 8-bit integer (<b>char</b>).
                 
@@ -198,7 +198,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     See the documentation for <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
 
-### -field WS_INT16_TYPE
+### -field WS_INT16_TYPE:2
 
 Used when serializing a signed 16-bit integer (<b>short</b>).
                 
@@ -270,7 +270,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     See the documentation for <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
 
-### -field WS_INT32_TYPE
+### -field WS_INT32_TYPE:3
 
 Used when serializing a signed 32-bit integer.
                 
@@ -342,7 +342,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     See the documentation for <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
 
-### -field WS_INT64_TYPE
+### -field WS_INT64_TYPE:4
 
 Used when serializing a signed 64-bit integer.
                 
@@ -414,7 +414,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     See the documentation for <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
 
-### -field WS_UINT8_TYPE
+### -field WS_UINT8_TYPE:5
 
 Used when serializing an unsigned 8-bit integer (<b>BYTE</b>).
                 
@@ -486,7 +486,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     See the documentation for <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
 
-### -field WS_UINT16_TYPE
+### -field WS_UINT16_TYPE:6
 
 Used when serializing an unsigned 16-bit integer.
                 
@@ -558,7 +558,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     See the documentation for <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
 
-### -field WS_UINT32_TYPE
+### -field WS_UINT32_TYPE:7
 
 Used when serializing an unsigned 32-bit integer.
                 
@@ -630,7 +630,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     See the documentation for <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
 
-### -field WS_UINT64_TYPE
+### -field WS_UINT64_TYPE:8
 
 Used when serializing an unsigned 64-bit integer.
                 
@@ -702,7 +702,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     See the documentation for <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
 
-### -field WS_FLOAT_TYPE
+### -field WS_FLOAT_TYPE:9
 
 Used when serializing a <b>float</b>.
                 
@@ -774,7 +774,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     See the documentation for <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
 
-### -field WS_DOUBLE_TYPE
+### -field WS_DOUBLE_TYPE:10
 
 Used when serializing a <b>double</b>.
                 
@@ -846,7 +846,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     See the documentation for <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
 
-### -field WS_DECIMAL_TYPE
+### -field WS_DECIMAL_TYPE:11
 
 Used when serializing a <b>DECIMAL</b>.
                 
@@ -918,7 +918,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     See the documentation for <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
 
-### -field WS_DATETIME_TYPE
+### -field WS_DATETIME_TYPE:12
 
 Used when serializing a <a href="/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a>.
                 
@@ -990,7 +990,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     See the documentation for <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
 
-### -field WS_TIMESPAN_TYPE
+### -field WS_TIMESPAN_TYPE:13
 
 Used when serializing a <a href="/windows/desktop/api/webservices/ns-webservices-ws_timespan">WS_TIMESPAN</a>.
                 
@@ -1062,7 +1062,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     See the documentation for <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
 
-### -field WS_GUID_TYPE
+### -field WS_GUID_TYPE:14
 
 Used when serializing a <b>GUID</b>.
                 
@@ -1134,7 +1134,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     See the documentation for <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
 
-### -field WS_UNIQUE_ID_TYPE
+### -field WS_UNIQUE_ID_TYPE:15
 
 Used when serializing a <a href="/windows/desktop/api/webservices/ns-webservices-ws_unique_id">WS_UNIQUE_ID</a>.
                 
@@ -1206,7 +1206,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     See the documentation for <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
 
-### -field WS_STRING_TYPE
+### -field WS_STRING_TYPE:16
 
 Used when serializing a <a href="/windows/desktop/api/webservices/ns-webservices-ws_string">WS_STRING</a>.
                 
@@ -1285,7 +1285,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     See the documentation for <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
 
-### -field WS_WSZ_TYPE
+### -field WS_WSZ_TYPE:17
 
 Used when serializing a zero-terminated <b>WCHAR</b>*.
                 
@@ -1368,7 +1368,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     The default value should point to the address of a WCHAR*, and 
                     the size should be sizeof(WCHAR*).
 
-### -field WS_BYTES_TYPE
+### -field WS_BYTES_TYPE:18
 
 Used when serializing a <a href="/windows/desktop/api/webservices/ns-webservices-ws_bytes">WS_BYTES</a>.
                 
@@ -1444,7 +1444,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     See the documentation for <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
 
-### -field WS_XML_STRING_TYPE
+### -field WS_XML_STRING_TYPE:19
 
 Used when serializing a <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a>.
                 
@@ -1523,7 +1523,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     See the documentation for <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
 
-### -field WS_XML_QNAME_TYPE
+### -field WS_XML_QNAME_TYPE:20
 
 Used when serializing a <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_qname">WS_XML_QNAME</a>.
                 
@@ -1596,7 +1596,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     See the documentation for <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
 
-### -field WS_XML_BUFFER_TYPE
+### -field WS_XML_BUFFER_TYPE:21
 
 Used when serializing an <a href="/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a>*.
                 
@@ -1741,7 +1741,7 @@ When used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_field
 </li>
 </ul>
 
-### -field WS_CHAR_ARRAY_TYPE
+### -field WS_CHAR_ARRAY_TYPE:22
 
 Used when serializing two fields of a structure as a unit: a <b>WCHAR</b>* field which
                     points to an array of WCHARs, and a ULONG field which contains the number
@@ -1833,7 +1833,7 @@ A nil string is represented by setting the chars field to <b>NULL</b> and specif
 
 This type does not support specifying a <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
 
-### -field WS_UTF8_ARRAY_TYPE
+### -field WS_UTF8_ARRAY_TYPE:23
 
 Used when serializing two fields of a structure as a unit: a BYTE* field which
                     points to an array of UTF8 bytes, and a ULONG field which contains the number
@@ -1910,7 +1910,7 @@ A nil string is represented by setting the bytes field to <b>NULL</b> and specif
 
 This type does not support specifying a <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
 
-### -field WS_BYTE_ARRAY_TYPE
+### -field WS_BYTE_ARRAY_TYPE:24
 
 Used when serializing two fields of a structure as a unit: a BYTE* field which
                     points to an array bytes, and a ULONG field which contains the number
@@ -1984,7 +1984,7 @@ A nil array is represented by setting the array pointer field to <b>NULL</b> and
 
 This type does not support specifying a <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
 
-### -field WS_DESCRIPTION_TYPE
+### -field WS_DESCRIPTION_TYPE:25
 
 Used to represent the XML type of the structure being serialized.  This can be used
                     to identify sub-types using the xsi:type attribute from XML Schema.  The field of
@@ -2019,7 +2019,7 @@ This type can be used with the following <a href="/windows/win32/api/webservices
                 </li>
 </ul>
 
-### -field WS_STRUCT_TYPE
+### -field WS_STRUCT_TYPE:26
 
 Used when serializing a user-defined structure.  The associated type description points to a
                     <a href="/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a> which provides information about how to serialize 
@@ -2116,7 +2116,7 @@ A nil value is represented using a <b>NULL</b> pointer.
 
 This type does not support specifying a <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
 
-### -field WS_CUSTOM_TYPE
+### -field WS_CUSTOM_TYPE:27
 
 Used when serializing a custom type.    The associated type description points to a
                     <a href="/windows/desktop/api/webservices/ns-webservices-ws_custom_type_description">WS_CUSTOM_TYPE_DESCRIPTION</a> which provides information about how to serialize the type.
@@ -2201,7 +2201,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     See the documentation for <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
 
-### -field WS_ENDPOINT_ADDRESS_TYPE
+### -field WS_ENDPOINT_ADDRESS_TYPE:28
 
 Used when serializing <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> .  The associated type description points to a
                     <a href="/windows/win32/api/webservices/ns-webservices-ws_endpoint_address_description">WS_ENDPOINT_ADDRESS_DESCRIPTION</a> which provides information about how to serialize the endpoint address.
@@ -2259,7 +2259,7 @@ A nil value is represented using a <b>NULL</b> pointer.
 
 This type does not support specifying a <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
 
-### -field WS_FAULT_TYPE
+### -field WS_FAULT_TYPE:29
 
 Used when serializing a <a href="/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a>.  The associated type description points to a
                     <a href="/windows/desktop/api/webservices/ns-webservices-ws_fault_description">WS_FAULT_DESCRIPTION</a> which provides information about how to serialize the fault.
@@ -2317,7 +2317,7 @@ A nil value is represented using a <b>NULL</b> pointer.
 
 This type does not support specifying a <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
 
-### -field WS_VOID_TYPE
+### -field WS_VOID_TYPE:30
 
 This type is used to specify an arbitrary size field.
                 
@@ -2382,7 +2382,7 @@ This type can be used with the following <a href="/windows/desktop/api/webservic
                 </li>
 </ul>
 
-### -field WS_ENUM_TYPE
+### -field WS_ENUM_TYPE:31
 
 Used when serializing a signed 32-bit integer which corresponds
                     to an enumerated value.
@@ -2456,7 +2456,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     See the documentation for <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
 
-### -field WS_DURATION_TYPE
+### -field WS_DURATION_TYPE:32
 
 Used when serializing a <a href="/windows/desktop/api/webservices/ns-webservices-ws_duration">WS_DURATION</a>.
                 
@@ -2528,7 +2528,7 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
                     See the documentation for <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
 
-### -field WS_UNION_TYPE
+### -field WS_UNION_TYPE:33
 
 Used when serializing a set of choices which correspond to a tagged union.
                 
@@ -2595,7 +2595,7 @@ This type does not support specifying a <a href="/windows/desktop/api/webservice
                     When used with <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>, the default value in the 
                     union is specified using the nonEnumValue of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_union_description">WS_UNION_DESCRIPTION</a>.
 
-### -field WS_ANY_ATTRIBUTES_TYPE
+### -field WS_ANY_ATTRIBUTES_TYPE:34
 
 Used when serializing a set of attributes that are not mapped to fields
                     using <a href="/windows/desktop/api/webservices/ns-webservices-ws_any_attributes">WS_ANY_ATTRIBUTES</a>.

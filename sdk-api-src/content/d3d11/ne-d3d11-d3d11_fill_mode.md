@@ -54,11 +54,11 @@ Determines the fill mode to use when rendering triangles.
 
 ## -enum-fields
 
-### -field D3D11_FILL_WIREFRAME
+### -field D3D11_FILL_WIREFRAME:2
 
 Draw lines connecting the vertices. Adjacent vertices are not drawn.
 
-### -field D3D11_FILL_SOLID
+### -field D3D11_FILL_SOLID:3
 
 Fill the triangles formed by the vertices. Adjacent vertices are not drawn.
 

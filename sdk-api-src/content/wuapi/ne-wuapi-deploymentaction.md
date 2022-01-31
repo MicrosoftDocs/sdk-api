@@ -56,19 +56,19 @@ Defines the action for which an update is explicitly deployed.
 
 ## -enum-fields
 
-### -field daNone
+### -field daNone:0
 
 No explicit deployment action is specified on the update. The update  inherits the value from its bundled updates.
 
-### -field daInstallation
+### -field daInstallation:1
 
 The update should be installed on the computer and/or for the specified user.
 
-### -field daUninstallation
+### -field daUninstallation:2
 
 The update should be uninstalled from the computer and/or for the specified user.
 
-### -field daDetection
+### -field daDetection:3
 
 The update is deployed only to determine the applicability of the update. The update will not be installed.
 

@@ -56,7 +56,7 @@ The values of the <b>ASM_NAME</b> enumeration are the property IDs for the name-
 
 ## -enum-fields
 
-### -field ASM_NAME_PUBLIC_KEY
+### -field ASM_NAME_PUBLIC_KEY:0
 
 Property ID for the assembly's public key. The value is a byte array.
 

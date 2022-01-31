@@ -56,7 +56,7 @@ Specifies whether a stream associated with an <a href="/windows/desktop/api/mfid
 
 ## -enum-fields
 
-### -field MFSensorStreamType_Unknown
+### -field MFSensorStreamType_Unknown:0
 
 The sensor stream type is unknown.
 

@@ -54,47 +54,47 @@ The <b>DWRITE_PANOSE_STROKE_VARIATION</b> enumeration contains values that speci
 
 ## -enum-fields
 
-### -field DWRITE_PANOSE_STROKE_VARIATION_ANY
+### -field DWRITE_PANOSE_STROKE_VARIATION_ANY:0
 
 Any stroke variation for text characters.
 
-### -field DWRITE_PANOSE_STROKE_VARIATION_NO_FIT
+### -field DWRITE_PANOSE_STROKE_VARIATION_NO_FIT:1
 
 No fit stroke variation for text characters.
 
-### -field DWRITE_PANOSE_STROKE_VARIATION_NO_VARIATION
+### -field DWRITE_PANOSE_STROKE_VARIATION_NO_VARIATION:2
 
 No stroke variation for text characters.
 
-### -field DWRITE_PANOSE_STROKE_VARIATION_GRADUAL_DIAGONAL
+### -field DWRITE_PANOSE_STROKE_VARIATION_GRADUAL_DIAGONAL:3
 
 The stroke variation for text characters is gradual diagonal.
 
-### -field DWRITE_PANOSE_STROKE_VARIATION_GRADUAL_TRANSITIONAL
+### -field DWRITE_PANOSE_STROKE_VARIATION_GRADUAL_TRANSITIONAL:4
 
 The stroke variation for text characters is gradual transitional.
 
-### -field DWRITE_PANOSE_STROKE_VARIATION_GRADUAL_VERTICAL
+### -field DWRITE_PANOSE_STROKE_VARIATION_GRADUAL_VERTICAL:5
 
 The stroke variation for text characters is gradual vertical.
 
-### -field DWRITE_PANOSE_STROKE_VARIATION_GRADUAL_HORIZONTAL
+### -field DWRITE_PANOSE_STROKE_VARIATION_GRADUAL_HORIZONTAL:6
 
 The stroke variation for text characters is gradual horizontal.
 
-### -field DWRITE_PANOSE_STROKE_VARIATION_RAPID_VERTICAL
+### -field DWRITE_PANOSE_STROKE_VARIATION_RAPID_VERTICAL:7
 
 The stroke variation for text characters is rapid vertical.
 
-### -field DWRITE_PANOSE_STROKE_VARIATION_RAPID_HORIZONTAL
+### -field DWRITE_PANOSE_STROKE_VARIATION_RAPID_HORIZONTAL:8
 
 The stroke variation for text characters is rapid horizontal.
 
-### -field DWRITE_PANOSE_STROKE_VARIATION_INSTANT_VERTICAL
+### -field DWRITE_PANOSE_STROKE_VARIATION_INSTANT_VERTICAL:9
 
 The stroke variation for text characters is instant vertical.
 
-### -field DWRITE_PANOSE_STROKE_VARIATION_INSTANT_HORIZONTAL
+### -field DWRITE_PANOSE_STROKE_VARIATION_INSTANT_HORIZONTAL:10
 
 The stroke variation for text characters is instant horizontal.
 

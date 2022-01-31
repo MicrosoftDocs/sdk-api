@@ -54,7 +54,7 @@ Specifies metadata creation options.
 
 ## -enum-fields
 
-### -field WICMetadataCreationDefault
+### -field WICMetadataCreationDefault:0
 
 The default metadata creation options. The default value is <b>WICMetadataCreationAllowUnknown</b>.
 
@@ -62,10 +62,10 @@ The default metadata creation options. The default value is <b>WICMetadataCreati
 
 Allow unknown metadata creation.
 
-### -field WICMetadataCreationFailUnknown
+### -field WICMetadataCreationFailUnknown:0x10000
 
 Fail on unknown metadata creation.
 
-### -field WICMetadataCreationMask
+### -field WICMetadataCreationMask:0xffff0000
 
 The <a href="/windows/desktop/api/wincodecsdk/ne-wincodecsdk-wicmetadatacreationoptions">WICMetadataCreationOptions</a> mask.

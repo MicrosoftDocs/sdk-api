@@ -53,7 +53,7 @@ Specifies texture layout options.
 
 ## -enum-fields
 
-### -field D3D12_TEXTURE_LAYOUT_UNKNOWN
+### -field D3D12_TEXTURE_LAYOUT_UNKNOWN:0
 
 Indicates that the layout is unknown, and is likely adapter-dependent.
 During creation, the driver chooses the most efficient layout based on other resource properties, especially resource size and flags.
@@ -61,7 +61,7 @@ Prefer this choice unless certain functionality is required from another texture
 
 Zero-copy texture upload optimizations exist for UMA architectures; see <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12resource-writetosubresource">ID3D12Resource::WriteToSubresource</a>.
 
-### -field D3D12_TEXTURE_LAYOUT_ROW_MAJOR
+### -field D3D12_TEXTURE_LAYOUT_ROW_MAJOR:1
 
 Indicates that data for the texture is stored in row-major order (sometimes called "pitch-linear order").
 
@@ -101,7 +101,7 @@ For examples of usage with <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12grap
 <li><a href="/windows/win32/direct3d12/upload-and-readback-of-texture-data">Uploading Texture Data</a></li>
 </ul>
 
-### -field D3D12_TEXTURE_LAYOUT_64KB_UNDEFINED_SWIZZLE
+### -field D3D12_TEXTURE_LAYOUT_64KB_UNDEFINED_SWIZZLE:2
 
 Indicates that the layout within 64KB tiles and tail mip packing is up to the driver.
 No standard swizzle pattern.
@@ -126,7 +126,7 @@ Some restrictions apply to textures with this layout:
 <li>The tiled resource tier indicates whether textures with <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_dimension">D3D12_RESOURCE_DIMENSION</a>_TEXTURE3D is supported.</li>
 </ul>
 
-### -field D3D12_TEXTURE_LAYOUT_64KB_STANDARD_SWIZZLE
+### -field D3D12_TEXTURE_LAYOUT_64KB_STANDARD_SWIZZLE:3
 
 Indicates that a default texture uses the standardized swizzle pattern.
 

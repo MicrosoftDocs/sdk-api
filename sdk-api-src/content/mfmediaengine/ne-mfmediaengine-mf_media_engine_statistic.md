@@ -56,39 +56,39 @@ In the descriptions that follow, the data type and value-type tag for the <a hre
 
 ## -enum-fields
 
-### -field MF_MEDIA_ENGINE_STATISTIC_FRAMES_RENDERED
+### -field MF_MEDIA_ENGINE_STATISTIC_FRAMES_RENDERED:0
 
 The number of rendered video frames. (<b>ULONG</b>, <b>VT_UI4</b>)
 
-### -field MF_MEDIA_ENGINE_STATISTIC_FRAMES_DROPPED
+### -field MF_MEDIA_ENGINE_STATISTIC_FRAMES_DROPPED:1
 
 The number of dropped video frames. (<b>ULONG</b>, <b>VT_UI4</b>)
 
-### -field MF_MEDIA_ENGINE_STATISTIC_BYTES_DOWNLOADED
+### -field MF_MEDIA_ENGINE_STATISTIC_BYTES_DOWNLOADED:2
 
 The number of bytes that have been downloaded since the last HTTP range request. (<b>ULARGE_INTEGER</b>, <b>VT_UI8</b>).
 
-### -field MF_MEDIA_ENGINE_STATISTIC_BUFFER_PROGRESS
+### -field MF_MEDIA_ENGINE_STATISTIC_BUFFER_PROGRESS:3
 
 The percentage of the playout buffer filled during buffering. The value is an integer in the range 0–100. (<b>LONG</b>, <b>VT_I4</b>)
 
-### -field MF_MEDIA_ENGINE_STATISTIC_FRAMES_PER_SECOND
+### -field MF_MEDIA_ENGINE_STATISTIC_FRAMES_PER_SECOND:4
 
 The frames per second. (<b>FLOAT</b>, <b>VT_R4</b>)
 
-### -field MF_MEDIA_ENGINE_STATISTIC_PLAYBACK_JITTER
+### -field MF_MEDIA_ENGINE_STATISTIC_PLAYBACK_JITTER:5
 
 The amount of playback jitter. (<b>DOUBLE</b>, <b>VT_R8</b>)
 
 Supported in Windows 8.1 and later.
 
-### -field MF_MEDIA_ENGINE_STATISTIC_FRAMES_CORRUPTED
+### -field MF_MEDIA_ENGINE_STATISTIC_FRAMES_CORRUPTED:6
 
 The number of corrupted frames. (<b>ULONG</b>, <b>VT_UI4</b>)
 
 Supported in Windows 8.1 and later.
 
-### -field MF_MEDIA_ENGINE_STATISTIC_TOTAL_FRAME_DELAY
+### -field MF_MEDIA_ENGINE_STATISTIC_TOTAL_FRAME_DELAY:7
 
 The total amount of frame delay.  (<b>DOUBLE</b>, <b>VT_R8</b>)
 

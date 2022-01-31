@@ -58,23 +58,23 @@ Defines the actions that can be triggered in response to a quota or file screen 
 
 ## -enum-fields
 
-### -field FsrmActionType_Unknown
+### -field FsrmActionType_Unknown:0
 
 The action is of an unknown type. Do not use this value to specify an action type.
 
-### -field FsrmActionType_EventLog
+### -field FsrmActionType_EventLog:1
 
 Log an event to the Application event log.
 
-### -field FsrmActionType_Email
+### -field FsrmActionType_Email:2
 
 Send an email message.
 
-### -field FsrmActionType_Command
+### -field FsrmActionType_Command:3
 
 Execute a command or script.
 
-### -field FsrmActionType_Report
+### -field FsrmActionType_Report:4
 
 Generate a report.
 

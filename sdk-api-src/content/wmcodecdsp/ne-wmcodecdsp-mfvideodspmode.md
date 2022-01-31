@@ -56,11 +56,11 @@ Specifies the processing mode of the <a href="/windows/desktop/medfound/video-st
 
 ## -enum-fields
 
-### -field MFVideoDSPMode_Passthrough
+### -field MFVideoDSPMode_Passthrough:1
 
 Pass-through mode. Video stabilization is not applied.
 
-### -field MFVideoDSPMode_Stabilization
+### -field MFVideoDSPMode_Stabilization:4
 
 Video stabilization is applied.
 

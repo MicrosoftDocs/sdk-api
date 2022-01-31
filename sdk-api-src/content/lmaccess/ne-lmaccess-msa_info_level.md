@@ -58,7 +58,7 @@ The <b>MSA_INFO_LEVEL</b> enumeration indicates the level of a managed service a
 
 ## -enum-fields
 
-### -field MsaInfoLevel0
+### -field MsaInfoLevel0:0
 
 The default level.
 

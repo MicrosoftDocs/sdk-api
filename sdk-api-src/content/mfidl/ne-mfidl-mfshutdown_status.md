@@ -56,7 +56,7 @@ Describes the current status of a call to the <a href="/windows/desktop/api/mfid
 
 ## -enum-fields
 
-### -field MFSHUTDOWN_INITIATED
+### -field MFSHUTDOWN_INITIATED:0
 
 The shutdown operation has started but is not yet complete.
 

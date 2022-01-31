@@ -58,11 +58,11 @@ Specifies what action needs to be taken when notifying WDS transport services, s
 
 ## -enum-fields
 
-### -field WdsTptServiceNotifyUnknown
+### -field WdsTptServiceNotifyUnknown:0
 
 Default value that indicates that the notification type is not known.
 
-### -field WdsTptServiceNotifyReadSettings
+### -field WdsTptServiceNotifyReadSettings:1
 
 Specifies that the WDS transport services should reread their settings to pick up recent updates.
 

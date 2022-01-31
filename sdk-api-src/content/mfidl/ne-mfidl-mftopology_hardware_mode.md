@@ -54,15 +54,15 @@ Specifies whether the topology loader will insert hardware-based Media Foundatio
 
 ## -enum-fields
 
-### -field MFTOPOLOGY_HWMODE_SOFTWARE_ONLY
+### -field MFTOPOLOGY_HWMODE_SOFTWARE_ONLY:0
 
 Use only software  MFTs. Do not use hardware-based MFTs. This mode is the default, for backward compatibility with existing applications.
 
-### -field MFTOPOLOGY_HWMODE_USE_HARDWARE
+### -field MFTOPOLOGY_HWMODE_USE_HARDWARE:1
 
 Use hardware-based MFTs when possible, and software MFTs otherwise. This mode is the recommended one.
 
-### -field MFTOPOLOGY_HWMODE_USE_ONLY_HARDWARE
+### -field MFTOPOLOGY_HWMODE_USE_ONLY_HARDWARE:2
 
 If hardware-based MFTs are available, the topoloader will insert
     them.  If not, the connection will fail.

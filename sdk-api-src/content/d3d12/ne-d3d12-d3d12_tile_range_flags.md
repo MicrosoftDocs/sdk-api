@@ -54,19 +54,19 @@ Specifies a range of tile mappings.
 
 ## -enum-fields
 
-### -field D3D12_TILE_RANGE_FLAG_NONE
+### -field D3D12_TILE_RANGE_FLAG_NONE:0
 
 No tile-mapping flags are specified.
 
-### -field D3D12_TILE_RANGE_FLAG_NULL
+### -field D3D12_TILE_RANGE_FLAG_NULL:1
 
 The tile range is <b>NULL</b>.
 
-### -field D3D12_TILE_RANGE_FLAG_SKIP
+### -field D3D12_TILE_RANGE_FLAG_SKIP:2
 
 Skip the tile range.
 
-### -field D3D12_TILE_RANGE_FLAG_REUSE_SINGLE_TILE
+### -field D3D12_TILE_RANGE_FLAG_REUSE_SINGLE_TILE:4
 
 Reuse a single tile in the tile range.
 

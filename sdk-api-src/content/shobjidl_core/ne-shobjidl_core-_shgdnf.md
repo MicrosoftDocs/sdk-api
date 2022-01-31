@@ -57,25 +57,25 @@ Defines the values used with the <a href="/windows/desktop/api/shobjidl_core/nf-
 
 ## -enum-fields
 
-### -field SHGDN_NORMAL
+### -field SHGDN_NORMAL:0
 
 When not combined with another flag, return the parent-relative name that identifies the item, suitable for displaying to the user. This name often does not include extra information such as the file name extension and does not need to be unique. This name might include information that identifies the folder that contains the item. For instance, this flag could cause <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> to return the string "<b>username</b> (on <b>Machine</b>)" for a particular user's folder.
 
-### -field SHGDN_INFOLDER
+### -field SHGDN_INFOLDER:0x1
 
 The name is relative to the folder from which the request was made. This is the name display to the user when used in the context of the folder. For example, it is used in the view and in the address bar path segment for the folder. This name should not include disambiguation information—for instance "<b>username</b>" instead of "<b>username</b> (on <i>Machine</i>)" for a particular user's folder.
 
 Use this flag in combinations with <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shgdnf">SHGDN_FORPARSING</a> and <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shgdnf">SHGDN_FOREDITING</a>.
 
-### -field SHGDN_FOREDITING
+### -field SHGDN_FOREDITING:0x1000
 
 The name is used for in-place editing when the user renames the item.
 
-### -field SHGDN_FORADDRESSBAR
+### -field SHGDN_FORADDRESSBAR:0x4000
 
 The name is displayed in an address bar combo box.
 
-### -field SHGDN_FORPARSING
+### -field SHGDN_FORPARSING:0x8000
 
 The name is used for parsing. That is, it can be passed to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname">IShellFolder::ParseDisplayName</a> to recover the object's PIDL. The form this name takes depends on the particular object. When SHGDN_FORPARSING is used alone, the name is relative to the desktop. When combined with SHGDN_INFOLDER, the name is relative to the folder from which the request was made.
 

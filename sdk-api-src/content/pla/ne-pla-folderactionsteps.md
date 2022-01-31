@@ -56,23 +56,23 @@ Defines the action that the data manager takes when both the age and size limits
 
 ## -enum-fields
 
-### -field plaCreateCab
+### -field plaCreateCab:0x1
 
 Creates a cabinet file. The name of the cabinet file is  <i>nameofthesubfolder</i>.cab.
 
-### -field plaDeleteData
+### -field plaDeleteData:0x2
 
 Deletes all files in the folder, except the report and cabinet file.
 
-### -field plaSendCab
+### -field plaSendCab:0x4
 
 Sends the cabinet file to the location specified in the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ifolderaction-get_sendcabto">IFolderAction::SendCabTo</a> property.
 
-### -field plaDeleteCab
+### -field plaDeleteCab:0x8
 
 Deletes the cabinet file.
 
-### -field plaDeleteReport
+### -field plaDeleteReport:0x10
 
 Deletes the report file.
 

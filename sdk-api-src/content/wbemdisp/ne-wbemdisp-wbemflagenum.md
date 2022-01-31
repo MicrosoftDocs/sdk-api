@@ -63,19 +63,19 @@ The WMI scripting type library, wbemdisp.tlb, defines these constants. Visual Ba
 
 ## -enum-fields
 
-### -field wbemFlagReturnImmediately
+### -field wbemFlagReturnImmediately:0x10
 
 Causes the call to return immediately.
 
-### -field wbemFlagReturnWhenComplete
+### -field wbemFlagReturnWhenComplete:0
 
 Causes this call to block until the call has completed.
 
-### -field wbemFlagBidirectional
+### -field wbemFlagBidirectional:0
 
 Causes WMI to retain pointers to objects of the enumeration until the client releases the enumerator.
 
-### -field wbemFlagForwardOnly
+### -field wbemFlagForwardOnly:0x20
 
 Causes a forward-only enumerator to be returned. Use this flag in combination with 
       <b>wbemFlagReturnImmediately</b> to request semisynchronous access. For more information, see 
@@ -90,43 +90,43 @@ Forward-only enumerators are generally much faster and use less
       memory than conventional enumerators, but they do not allow calls to 
       <a href="/windows/desktop/WmiSdk/swbemobject-clone-">SWbemObject.Clone</a>.
 
-### -field wbemFlagNoErrorObject
+### -field wbemFlagNoErrorObject:0x40
 
 This flag must not be set, and must be ignored on receipt.
 
-### -field wbemFlagReturnErrorObject
+### -field wbemFlagReturnErrorObject:0
 
 Causes asynchronous calls to return an error object in the event of an error.
 
-### -field wbemFlagSendStatus
+### -field wbemFlagSendStatus:0x80
 
 Causes asynchronous calls to send status updates to the 
      <a href="/windows/desktop/WmiSdk/swbemsink-onprogress">SWbemSink.OnProgress</a> event handler for your object 
      sink.
 
-### -field wbemFlagDontSendStatus
+### -field wbemFlagDontSendStatus:0
 
 Prevents asynchronous calls from sending status updates to the 
      <a href="/windows/desktop/WmiSdk/swbemsink-onprogress">SWbemSink.OnProgress</a> event handler for your object 
      sink.
 
-### -field wbemFlagEnsureLocatable
+### -field wbemFlagEnsureLocatable:0x100
 
-### -field wbemFlagDirectRead
+### -field wbemFlagDirectRead:0x200
 
-### -field wbemFlagSendOnlySelected
+### -field wbemFlagSendOnlySelected:0
 
-### -field wbemFlagUseAmendedQualifiers
+### -field wbemFlagUseAmendedQualifiers:0x20000
 
 Causes WMI to return class amendment data along with the base class definition. For more information about 
      amended qualifiers, see 
      <a href="/windows/desktop/WmiSdk/localizing-wmi-class-information">Localizing WMI Class Information</a>.
 
-### -field wbemFlagGetDefault
+### -field wbemFlagGetDefault:0
 
-### -field wbemFlagSpawnInstance
+### -field wbemFlagSpawnInstance:0x1
 
-### -field wbemFlagUseCurrentTime
+### -field wbemFlagUseCurrentTime:0x1
 
 ## -see-also
 

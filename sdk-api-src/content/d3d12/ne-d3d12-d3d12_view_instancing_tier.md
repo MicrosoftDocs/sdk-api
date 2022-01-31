@@ -54,19 +54,19 @@ Indicates the tier level at which view instancing is supported.
 
 ## -enum-fields
 
-### -field D3D12_VIEW_INSTANCING_TIER_NOT_SUPPORTED
+### -field D3D12_VIEW_INSTANCING_TIER_NOT_SUPPORTED:0
 
 View instancing is not supported.
 
-### -field D3D12_VIEW_INSTANCING_TIER_1
+### -field D3D12_VIEW_INSTANCING_TIER_1:1
 
 View instancing is supported by draw-call level looping only.
 
-### -field D3D12_VIEW_INSTANCING_TIER_2
+### -field D3D12_VIEW_INSTANCING_TIER_2:2
 
 View instancing is supported by draw-call level looping at worst, but the GPU can perform view instancing more efficiently in certain circumstances which are architecture-dependent.
 
-### -field D3D12_VIEW_INSTANCING_TIER_3
+### -field D3D12_VIEW_INSTANCING_TIER_3:3
 
 View instancing is supported and instancing begins with the first shader stage that references SV_ViewID or with rasterization if no shader stage references SV_ViewID. This means that redundant work is eliminated across view instances when it's not dependent on SV_ViewID. Before rasterization, work that doesn't directly depend on SV_ViewID is shared across all views; only work that depends on SV_ViewID is repeated for each view.
 

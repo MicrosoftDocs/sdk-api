@@ -56,7 +56,7 @@ The <b>WMT_TRANSPORT_TYPE</b> enumeration type defines the transport types suppo
 
 ## -enum-fields
 
-### -field WMT_Transport_Type_Unreliable
+### -field WMT_Transport_Type_Unreliable:0
 
 The transport type is not reliable.
 

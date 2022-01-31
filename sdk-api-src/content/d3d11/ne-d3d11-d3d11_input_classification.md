@@ -54,11 +54,11 @@ Type of data contained in an input slot.
 
 ## -enum-fields
 
-### -field D3D11_INPUT_PER_VERTEX_DATA
+### -field D3D11_INPUT_PER_VERTEX_DATA:0
 
 Input data is per-vertex data.
 
-### -field D3D11_INPUT_PER_INSTANCE_DATA
+### -field D3D11_INPUT_PER_INSTANCE_DATA:1
 
 Input data is per-instance data.
 

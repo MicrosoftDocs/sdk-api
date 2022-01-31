@@ -54,23 +54,23 @@ Defines the level of access that a handle has on files.
 
 ## -enum-fields
 
-### -field HAO_NONE
+### -field HAO_NONE:0
 
 None.
 
-### -field HAO_READ_ATTRIBUTES
+### -field HAO_READ_ATTRIBUTES:0x80
 
 The handle can be used to read file attributes.
 
-### -field HAO_READ
+### -field HAO_READ:0x120089
 
 The handle can be used to read the file.
 
-### -field HAO_WRITE
+### -field HAO_WRITE:0x120116
 
 The handle can be used to write to the file.
 
-### -field HAO_DELETE
+### -field HAO_DELETE:0x10000
 
 The handle can be used to delete the file.
 

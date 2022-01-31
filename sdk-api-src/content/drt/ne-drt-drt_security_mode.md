@@ -56,15 +56,15 @@ The <b>DRT_SECURITY_MODE</b> enumeration defines possible security modes for the
 
 ## -enum-fields
 
-### -field DRT_SECURE_RESOLVE
+### -field DRT_SECURE_RESOLVE:0
 
 Nodes must authenticate the keys they publish. Nodes are not required to authenticate themselves when performing searches.
 
-### -field DRT_SECURE_MEMBERSHIP
+### -field DRT_SECURE_MEMBERSHIP:1
 
 Nodes must authenticate the keys they publish. Nodes must also authenticate themselves when performing searches. Unauthorized nodes cannot search for  keys and cannot retrieve the data associated with published keys.
 
-### -field DRT_SECURE_CONFIDENTIALPAYLOAD
+### -field DRT_SECURE_CONFIDENTIALPAYLOAD:2
 
 Nodes must authenticate the keys they publish. Nodes must also authenticate themselves when performing searches. Encryption is required for all data associated with published keys prior to transmission between DRT nodes. Unauthorized nodes cannot search for keys, cannot retrieve the data associated with published keys, and cannot retrieve data by observing network traffic between other DRT nodes.
 

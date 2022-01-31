@@ -56,7 +56,7 @@ Specifies the ACP protection level.
 
 ## -enum-fields
 
-### -field COPP_ACP_Level0
+### -field COPP_ACP_Level0:0
 
 Level 0.
 
@@ -64,15 +64,15 @@ Level 0.
 
 Minimum ACP level. Equivalent to <b>COPP_ACP_Level0</b>.
 
-### -field COPP_ACP_Level1
+### -field COPP_ACP_Level1:1
 
 Level 1.
 
-### -field COPP_ACP_Level2
+### -field COPP_ACP_Level2:2
 
 Level 2.
 
-### -field COPP_ACP_Level3
+### -field COPP_ACP_Level3:3
 
 Level 3.
 
@@ -80,7 +80,7 @@ Level 3.
 
 Maximum ACP level. Equivalent to <b>COPP_ACP_Level3</b>.
 
-### -field COPP_ACP_ForceDWORD
+### -field COPP_ACP_ForceDWORD:0x7fffffff
 
 Reserved.
 

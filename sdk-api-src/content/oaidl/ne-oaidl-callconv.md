@@ -56,9 +56,9 @@ Identifies the calling convention used by a member function described in the MET
 
 ## -enum-fields
 
-### -field CC_FASTCALL
+### -field CC_FASTCALL:0
 
-### -field CC_CDECL
+### -field CC_CDECL:1
 
 ### -field CC_MSCPASCAL
 

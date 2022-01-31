@@ -61,7 +61,7 @@ Indicates whether the URL is from a trusted source.
 
 
 
-### -field MF_LICENSE_URL_UNTRUSTED
+### -field MF_LICENSE_URL_UNTRUSTED:0
 
 The validity of the URL cannot be guaranteed because it is not signed. The application should warn the user.
 

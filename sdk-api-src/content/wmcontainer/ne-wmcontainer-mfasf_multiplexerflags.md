@@ -54,7 +54,7 @@ Defines the ASF multiplexer options.
 
 ## -enum-fields
 
-### -field MFASF_MULTIPLEXER_AUTOADJUST_BITRATE
+### -field MFASF_MULTIPLEXER_AUTOADJUST_BITRATE:0x1
 
 The multiplexer automatically adjusts the bit rate of the ASF content in response to the characteristics of the streams being multiplexed.
 

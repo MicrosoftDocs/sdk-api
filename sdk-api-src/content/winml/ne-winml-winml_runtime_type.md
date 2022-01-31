@@ -58,6 +58,6 @@ Specifies the different types of WinML runtimes.
 
 ## -enum-fields
 
-### -field WINML_RUNTIME_CNTK
+### -field WINML_RUNTIME_CNTK:0
 
 Runtime type of CNTK.

@@ -54,7 +54,7 @@ Specifies tasks that Knowledge Consistency Checker (KCC) can execute.
 
 ## -enum-fields
 
-### -field DS_KCC_TASKID_UPDATE_TOPOLOGY
+### -field DS_KCC_TASKID_UPDATE_TOPOLOGY:0
 
 Dynamically adjusts the data replication topology of a network.
 

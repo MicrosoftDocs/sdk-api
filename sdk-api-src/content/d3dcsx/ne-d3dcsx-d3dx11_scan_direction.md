@@ -54,7 +54,7 @@ Direction to perform scan in.
 
 ## -enum-fields
 
-### -field D3DX11_SCAN_DIRECTION_FORWARD
+### -field D3DX11_SCAN_DIRECTION_FORWARD:1
 
 Scan forward.
 

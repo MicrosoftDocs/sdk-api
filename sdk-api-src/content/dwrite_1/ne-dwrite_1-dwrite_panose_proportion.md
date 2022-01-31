@@ -54,43 +54,43 @@ The <b>DWRITE_PANOSE_PROPORTION</b> enumeration contains values that specify the
 
 ## -enum-fields
 
-### -field DWRITE_PANOSE_PROPORTION_ANY
+### -field DWRITE_PANOSE_PROPORTION_ANY:0
 
 Any proportion for the text.
 
-### -field DWRITE_PANOSE_PROPORTION_NO_FIT
+### -field DWRITE_PANOSE_PROPORTION_NO_FIT:1
 
 No fit proportion for the text.
 
-### -field DWRITE_PANOSE_PROPORTION_OLD_STYLE
+### -field DWRITE_PANOSE_PROPORTION_OLD_STYLE:2
 
 Old style proportion for the text.
 
-### -field DWRITE_PANOSE_PROPORTION_MODERN
+### -field DWRITE_PANOSE_PROPORTION_MODERN:3
 
 Modern proportion for the text.
 
-### -field DWRITE_PANOSE_PROPORTION_EVEN_WIDTH
+### -field DWRITE_PANOSE_PROPORTION_EVEN_WIDTH:4
 
 Extra width proportion for the text.
 
-### -field DWRITE_PANOSE_PROPORTION_EXPANDED
+### -field DWRITE_PANOSE_PROPORTION_EXPANDED:5
 
 Expanded proportion for the text.
 
-### -field DWRITE_PANOSE_PROPORTION_CONDENSED
+### -field DWRITE_PANOSE_PROPORTION_CONDENSED:6
 
 Condensed proportion for the text.
 
-### -field DWRITE_PANOSE_PROPORTION_VERY_EXPANDED
+### -field DWRITE_PANOSE_PROPORTION_VERY_EXPANDED:7
 
 Very expanded proportion for the text.
 
-### -field DWRITE_PANOSE_PROPORTION_VERY_CONDENSED
+### -field DWRITE_PANOSE_PROPORTION_VERY_CONDENSED:8
 
 Very condensed proportion for the text.
 
-### -field DWRITE_PANOSE_PROPORTION_MONOSPACED
+### -field DWRITE_PANOSE_PROPORTION_MONOSPACED:9
 
 Monospaced proportion for the text.
 

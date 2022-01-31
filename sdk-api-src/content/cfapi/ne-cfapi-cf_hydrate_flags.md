@@ -54,7 +54,7 @@ Placeholder data hydration flags.
 
 ## -enum-fields
 
-### -field CF_HYDRATE_FLAG_NONE
+### -field CF_HYDRATE_FLAG_NONE:0x00000000
 
 No hydration flags.
 

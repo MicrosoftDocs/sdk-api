@@ -56,31 +56,31 @@ The <code>DEVICE_SELECTION_DEVICE_TYPE</code> enumeration type indicates the typ
 
 ## -enum-fields
 
-### -field DST_UNKNOWN_DEVICE
+### -field DST_UNKNOWN_DEVICE:0
 
 Specifies that the type of the selected device is unknown.
 
-### -field DST_WPD_DEVICE
+### -field DST_WPD_DEVICE:0x1
 
 Specifies that the type of the selected device is Windows Portable Devices (WPD).
 
-### -field DST_WIA_DEVICE
+### -field DST_WIA_DEVICE:0x2
 
 Specifies that the type of the selected device is Windows Image Acquisition (WIA).
 
-### -field DST_STI_DEVICE
+### -field DST_STI_DEVICE:0x3
 
 Specifies that the type of the selected device is Still Image Architecture (STI).
 
-### -field DSF_TWAIN_DEVICE
+### -field DSF_TWAIN_DEVICE:0x4
 
 Not supported.
 
-### -field DST_FS_DEVICE
+### -field DST_FS_DEVICE:0x5
 
 Specifies that the selected device is a removable drive in the file system.
 
-### -field DST_DV_DEVICE
+### -field DST_DV_DEVICE:0x6
 
 ## -remarks
 

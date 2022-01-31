@@ -54,23 +54,23 @@ Specifies chroma resolution. This enumeration is used with the <a href="/windows
 
 ## -enum-fields
 
-### -field eAVEncVideoChromaResolution_SameAsSource
+### -field eAVEncVideoChromaResolution_SameAsSource:0 
 
 Use the same chroma resolution as the input video. This flag applies to the <b>AVEncVideoOutputChromaResolution</b> property only.
 
-### -field eAVEncVideoChromaResolution_444
+### -field eAVEncVideoChromaResolution_444:1
 
 4:4:4 (no downsampling).
 
-### -field eAVEncVideoChromaResolution_422
+### -field eAVEncVideoChromaResolution_422:2
 
 4:2:2 (2:1 horizontal downsampling, with no vertical downsampling).
 
-### -field eAVEncVideoChromaResolution_420
+### -field eAVEncVideoChromaResolution_420:3
 
 4:2:0 (2:1 horizontal downsampling, with 2:1 vertical downsampling).
 
-### -field eAVEncVideoChromaResolution_411
+### -field eAVEncVideoChromaResolution_411:4
 
 4:1:1 (4:1 horizontal downsampling, with no vertical downsampling).
 

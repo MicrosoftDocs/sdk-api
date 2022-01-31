@@ -54,43 +54,43 @@ Specifies the interest in a set of operating system-specific gestures.
 
 ## -enum-fields
 
-### -field ISG_Tap
+### -field ISG_Tap:0x10
 
 A click of the left mouse button. This can be used to choose a command from the menu or toolbar, take action if a command is chosen, set an insertion point (IP), or show selection feedback.
 
-### -field ISG_DoubleTap
+### -field ISG_DoubleTap:0x11
 
 A double-click of the left mouse button. This can be used to select a word or open a file or folder.
 
-### -field ISG_RightTap
+### -field ISG_RightTap:0x12
 
 A click of the right mouse button. This can be used to show a shortcut menu.
 
-### -field ISG_Drag
+### -field ISG_Drag:0x13
 
 A drag of the mouse while pressing the left mouse button. This can be used to drag-select (such as in Microsoft Word when starting with an IP), select multiple words, drag (such as when dragging an object in Microsoft Windows), or scroll.
 
-### -field ISG_RightDrag
+### -field ISG_RightDrag:0x14
 
 A press and hold followed by a stroke, which maps to a right drag of a mouse. This can be used to drag (such as when dragging an object or selection followed by a shortcut menu).
 
-### -field ISG_HoldEnter
+### -field ISG_HoldEnter:0x15
 
 A press and hold of the left mouse button that lasts for a long time, which has no mouse equivalent. This is a fallback for when a user continues a press-and-hold action for a long time and the event reverts to a Tap.
 
-### -field ISG_HoldLeave
+### -field ISG_HoldLeave:0x16
 
 Not implemented.
 
-### -field ISG_HoverEnter
+### -field ISG_HoverEnter:0x17
 
 A pause of the mouse on an object. This can be used to show a ToolTip, roll-over effects, or other mouse pausing behaviors.
 
-### -field ISG_HoverLeave
+### -field ISG_HoverLeave:0x18
 
 A mouse leaving a pause. This can be used to end ToolTip roll-over effects or other mouse pausing behaviors.
 
-### -field ISG_Flick
+### -field ISG_Flick:0x1f
 
 A flick gesture.
 

@@ -51,7 +51,7 @@ Flags used by the [DwmGetWindowAttribute](/windows/desktop/api/dwmapi/nf-dwmapi-
 
 ## -enum-fields
 
-### -field DWMWA_NCRENDERING_ENABLED
+### -field DWMWA_NCRENDERING_ENABLED:1
 
 Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetwindowattribute">DwmGetWindowAttribute</a>. Discovers whether non-client rendering is enabled. The retrieved value is of type <b>BOOL</b>. <b>TRUE</b> if non-client rendering is enabled; otherwise, <b>FALSE</b>.
 

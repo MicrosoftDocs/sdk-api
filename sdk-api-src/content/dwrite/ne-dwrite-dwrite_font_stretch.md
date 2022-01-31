@@ -54,47 +54,47 @@ Represents the degree to which a font has been stretched compared to a font's no
 
 ## -enum-fields
 
-### -field DWRITE_FONT_STRETCH_UNDEFINED
+### -field DWRITE_FONT_STRETCH_UNDEFINED:0
 
 Predefined font stretch : Not known (0).
 
-### -field DWRITE_FONT_STRETCH_ULTRA_CONDENSED
+### -field DWRITE_FONT_STRETCH_ULTRA_CONDENSED:1
 
 Predefined font stretch : Ultra-condensed (1).
 
-### -field DWRITE_FONT_STRETCH_EXTRA_CONDENSED
+### -field DWRITE_FONT_STRETCH_EXTRA_CONDENSED:2
 
 Predefined font stretch : Extra-condensed (2).
 
-### -field DWRITE_FONT_STRETCH_CONDENSED
+### -field DWRITE_FONT_STRETCH_CONDENSED:3
 
 Predefined font stretch : Condensed (3).
 
-### -field DWRITE_FONT_STRETCH_SEMI_CONDENSED
+### -field DWRITE_FONT_STRETCH_SEMI_CONDENSED:4
 
 Predefined font stretch : Semi-condensed (4).
 
-### -field DWRITE_FONT_STRETCH_NORMAL
+### -field DWRITE_FONT_STRETCH_NORMAL:5
 
 Predefined font stretch : Normal (5).
 
-### -field DWRITE_FONT_STRETCH_MEDIUM
+### -field DWRITE_FONT_STRETCH_MEDIUM:5
 
 Predefined font stretch : Medium (5).
 
-### -field DWRITE_FONT_STRETCH_SEMI_EXPANDED
+### -field DWRITE_FONT_STRETCH_SEMI_EXPANDED:6
 
 Predefined font stretch : Semi-expanded (6).
 
-### -field DWRITE_FONT_STRETCH_EXPANDED
+### -field DWRITE_FONT_STRETCH_EXPANDED:7
 
 Predefined font stretch : Expanded (7).
 
-### -field DWRITE_FONT_STRETCH_EXTRA_EXPANDED
+### -field DWRITE_FONT_STRETCH_EXTRA_EXPANDED:8
 
 Predefined font stretch : Extra-expanded (8).
 
-### -field DWRITE_FONT_STRETCH_ULTRA_EXPANDED
+### -field DWRITE_FONT_STRETCH_ULTRA_EXPANDED:9
 
 Predefined font stretch : Ultra-expanded (9).
 

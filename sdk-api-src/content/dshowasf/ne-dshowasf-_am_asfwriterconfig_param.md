@@ -54,7 +54,7 @@ The <b>_AM_ASFWRITERCONFIG_PARAM</b> DirectShow QASF enumeration type defines fi
 
 ## -enum-fields
 
-### -field AM_CONFIGASFWRITER_PARAM_AUTOINDEX
+### -field AM_CONFIGASFWRITER_PARAM_AUTOINDEX:1
 
 Indicates whether the <a href="/windows/desktop/wmformat/wm-asf-writer-filter">WM ASF Writer</a> should automatically create a temporal index after it has completed encoding a file. Set this parameter to <b>FALSE</b> if you want to create a frame-based index using the Windows Media Format SDK directly.
 

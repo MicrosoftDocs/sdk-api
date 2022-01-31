@@ -56,15 +56,15 @@ The <b>ADS_PATHTYPE_ENUM</b> enumeration specifies the type of object on which t
 
 ## -enum-fields
 
-### -field ADS_PATH_FILE
+### -field ADS_PATH_FILE:1
 
 Indicates that the security descriptor will be retrieved or set on a file object.
 
-### -field ADS_PATH_FILESHARE
+### -field ADS_PATH_FILESHARE:2
 
 Indicates that the security descriptor will be retrieved or set on a file share object.
 
-### -field ADS_PATH_REGISTRY
+### -field ADS_PATH_REGISTRY:3
 
 Indicates that the security descriptor will be retrieved or set on a registry key object.
 

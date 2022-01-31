@@ -54,31 +54,31 @@ Enumeration of Error states returned by the function <a href="../keycredmgr/nf-k
 
 ## -enum-fields
 
-### -field KeyCredentialManagerOperationErrorStateNone
+### -field KeyCredentialManagerOperationErrorStateNone:0x0
 
 No Error  equivalent to ERROR_SUCCESS.
 
-### -field KeyCredentialManagerOperationErrorStateDeviceJoinFailure
+### -field KeyCredentialManagerOperationErrorStateDeviceJoinFailure:0x01
 
 WHFB enrollment will successfully complete because the device is not properly joined to Azure or the Enterprise.
 
-### -field KeyCredentialManagerOperationErrorStateTokenFailure
+### -field KeyCredentialManagerOperationErrorStateTokenFailure:0x02
 
 WHFB enrollment will not successfully complete because the user could not get a token from Azure or the Enterprise.
 
-### -field KeyCredentialManagerOperationErrorStateCertificateFailure
+### -field KeyCredentialManagerOperationErrorStateCertificateFailure:0x04
 
 WHFB enrollment will not successfully complete because the certificate authority and/or certificate template could not be found.
 
-### -field KeyCredentialManagerOperationErrorStateRemoteSessionFailure
+### -field KeyCredentialManagerOperationErrorStateRemoteSessionFailure:0x08
 
 WHFB enrollment will not successfully complete because the current session is a remote session.
 
-### -field KeyCredentialManagerOperationErrorStatePolicyFailure
+### -field KeyCredentialManagerOperationErrorStatePolicyFailure:0x10
 
 WHFB enrollment will not successfully complete because there was an error reading MDM or Group Policy.
 
-### -field KeyCredentialManagerOperationErrorStateHardwareFailure
+### -field KeyCredentialManagerOperationErrorStateHardwareFailure:0x20
 
 WHFB enrollment will not successful complete because the device does not have the required hardware.
 

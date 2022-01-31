@@ -54,15 +54,15 @@ api_name:
 
 ## -enum-fields
 
-### -field D2D1_DC_INITIALIZE_MODE_COPY
+### -field D2D1_DC_INITIALIZE_MODE_COPY:0
 
 The current contents of the render target are copied to the device context when it is initialized.
 
-### -field D2D1_DC_INITIALIZE_MODE_CLEAR
+### -field D2D1_DC_INITIALIZE_MODE_CLEAR:1
 
 The device context is cleared to transparent black when it is initialized.
 
-### -field D2D1_DC_INITIALIZE_MODE_FORCE_DWORD
+### -field D2D1_DC_INITIALIZE_MODE_FORCE_DWORD:0xffffffff
 
 ## -remarks
 

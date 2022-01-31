@@ -62,191 +62,191 @@ For more information about application gestures and system gestures, see <a href
 
 ## -enum-fields
 
-### -field IAG_AllGestures
+### -field IAG_AllGestures:0
 
  All application-specific gestures.
 
-### -field IAG_NoGesture
+### -field IAG_NoGesture:0xf000
 
  No application-specific gestures. See the following "Remarks" section for more details on this member.
 
 This is the default value.
 
-### -field IAG_Scratchout
+### -field IAG_Scratchout:0xf001
 
 This gesture must be drawn as a single stroke that has at least three back-and-forth motions.
 
-### -field IAG_Triangle
+### -field IAG_Triangle:0xf002
 
 The triangle must be drawn in a single stroke, without lifting the pen.
 
-### -field IAG_Square
+### -field IAG_Square:0xf003
 
 The square can be drawn in one or two strokes. In one stroke, draw the entire square without lifting the pen. In two strokes, draw three sides of the square and use another stroke to draw the remaining side. Do not use more than two strokes to draw the square.
 
-### -field IAG_Star
+### -field IAG_Star:0xf004
 
 The star must have exactly five points and be drawn in a single stroke without lifting the pen.
 
-### -field IAG_Check
+### -field IAG_Check:0xf005
 
 The upward stroke must be twice as long as the smaller downward stroke.
 
-### -field IAG_Curlicue
+### -field IAG_Curlicue:0xf010
 
 Start the curlicue on the ink on which you intend to take action.
 
-### -field IAG_DoubleCurlicue
+### -field IAG_DoubleCurlicue:0xf011
 
 Start the double-curlicue on the ink on which you intend to take action.
 
-### -field IAG_Circle
+### -field IAG_Circle:0xf020
 
 The circle must be drawn in a single stroke without lifting the pen.
 
-### -field IAG_DoubleCircle
+### -field IAG_DoubleCircle:0xf021
 
 The two circles must overlap each other and be drawn in a single stroke without lifting the pen.
 
-### -field IAG_SemiCircleLeft
+### -field IAG_SemiCircleLeft:0xf028
 
 The semicircle must be drawn from left to right. Horizontally, the two ends of the semicircle should be as even as possible.
 
-### -field IAG_SemiCircleRight
+### -field IAG_SemiCircleRight:0xf029
 
 The semicircle must be drawn from right to left. Horizontally, the two ends of the semicircle should be as even as possible.
 
-### -field IAG_ChevronUp
+### -field IAG_ChevronUp:0xf030
 
 Both sides of the chevron must be drawn as equal as possible. The angle must be sharp and end in a point.
 
-### -field IAG_ChevronDown
+### -field IAG_ChevronDown:0xf031
 
 Both sides of the chevron must be drawn as equal as possible. The angle must be sharp and end in a point.
 
-### -field IAG_ChevronLeft
+### -field IAG_ChevronLeft:0xf032
 
 Both sides of the chevron must be drawn as equal as possible. The angle must be sharp and end in a point.
 
-### -field IAG_ChevronRight
+### -field IAG_ChevronRight:0xf033
 
 Both sides of the chevron must be drawn as equal as possible. The angle must be sharp and end in a point.
 
-### -field IAG_ArrowUp
+### -field IAG_ArrowUp:0xf038
 
 The arrow can be drawn in single stroke or in two strokes in which one stroke is the line and the other is the arrow head. Do not use more than two strokes to draw the arrow.
 
-### -field IAG_ArrowDown
+### -field IAG_ArrowDown:0xf039
 
 The arrow can be drawn in a single stroke or in two strokes in which one stroke is the line and the other is the arrow head. Do not use more than two strokes to draw the arrow.
 
-### -field IAG_ArrowLeft
+### -field IAG_ArrowLeft:0xf03a
 
 The arrow can be drawn in a single stroke or in two strokes in which one stroke is the line and the other is the arrow head. Do not use more than two strokes to draw the arrow.
 
-### -field IAG_ArrowRight
+### -field IAG_ArrowRight:0xf03b
 
 The arrow can be drawn in a single stroke or in two strokes in which one stroke is the line and the other is the arrow head. Do not use more than two strokes to draw the arrow.
 
-### -field IAG_Up
+### -field IAG_Up:0xf058
 
 This gesture must be drawn as a single fast flick in the upward direction.
 
 This gesture is used by <a href="/windows/desktop/tablet/flicks-gestures">Flicks Gestures</a>.
 
-### -field IAG_Down
+### -field IAG_Down:0xf059
 
 This gesture must be drawn as a single fast flick in the downward direction.
 
 This gesture is used by <a href="/windows/desktop/tablet/flicks-gestures">Flicks Gestures</a>.
 
-### -field IAG_Left
+### -field IAG_Left:0xf05a
 
 This gesture must be drawn as a single fast flick to the left.
 
 This gesture is used by <a href="/windows/desktop/tablet/flicks-gestures">Flicks Gestures</a>.
 
-### -field IAG_Right
+### -field IAG_Right:0xf05b
 
 This gesture must be drawn as a single fast flick to the right.
 
 This gesture is used by <a href="/windows/desktop/tablet/flicks-gestures">Flicks Gestures</a>.
 
-### -field IAG_UpDown
+### -field IAG_UpDown:0xf060
 
 This gesture must be drawn in a single stroke starting with the up stroke. The two strokes must be as close to each other as possible.
 
-### -field IAG_DownUp
+### -field IAG_DownUp:0xf061
 
 This gesture must be drawn in a single stroke starting with the down stroke. The two strokes must be as close to each other as possible.
 
-### -field IAG_LeftRight
+### -field IAG_LeftRight:0xf062
 
 This gesture must be drawn in a single stroke starting with the left stroke. The two strokes must be as close to each other as possible.
 
-### -field IAG_RightLeft
+### -field IAG_RightLeft:0xf063
 
 This gesture must be drawn in a single stroke starting with the right stroke. The two strokes must be as close to each other as possible.
 
-### -field IAG_UpLeftLong
+### -field IAG_UpLeftLong:0xf064
 
 This gesture must be drawn in a single stroke starting with the up stroke. The left stroke must be about twice as long as the up stroke, and the two strokes must be at a right angle.
 
-### -field IAG_UpRightLong
+### -field IAG_UpRightLong:0xf065
 
 This gesture must be drawn in a single stroke starting with the up stroke. The right stroke must be about twice as long as the up stroke, and the two strokes must be at a right angle.
 
-### -field IAG_DownLeftLong
+### -field IAG_DownLeftLong:0xf066
 
 This gesture must be drawn in a single stroke starting with the down stroke. The left stroke is about twice as long as the up stroke, and the two strokes must be at a right angle.
 
-### -field IAG_DownRightLong
+### -field IAG_DownRightLong:0xf067
 
 This gesture must be drawn in a single stroke starting with the down stroke. The right stroke must be about twice as long as the up stroke, and the two strokes must be at a right angle.
 
-### -field IAG_UpLeft
+### -field IAG_UpLeft:0xf068
 
 This gesture must be drawn in a single stroke starting with the up stroke. The two sides must be as equal in length as possible and at a right angle.
 
-### -field IAG_UpRight
+### -field IAG_UpRight:0xf069
 
 This gesture must be drawn in a single stroke starting with the up stroke. The two sides must be as equal in length as possible and at a right angle.
 
-### -field IAG_DownLeft
+### -field IAG_DownLeft:0xf06a
 
 This gesture must be drawn in a single stroke starting with the down stroke. The two sides must be as equal in length as possible and at a right angle.
 
-### -field IAG_DownRight
+### -field IAG_DownRight:0xf06b
 
 This gesture must be drawn in a single stroke starting with the down stroke. The two sides must be as equal in length as possible and at a right angle.
 
-### -field IAG_LeftUp
+### -field IAG_LeftUp:0xf06c
 
 This gesture must be drawn in a single stroke starting with the left stroke. The two sides must be as equal in length as possible and at a right angle.
 
-### -field IAG_LeftDown
+### -field IAG_LeftDown:0xf06d
 
 This gesture must be drawn in a single stroke starting with the left stroke. The two sides are as equal in length as possible and at a right angle.
 
-### -field IAG_RightUp
+### -field IAG_RightUp:0xf06e
 
 This gesture must be drawn in a single stroke starting with the right stroke. The two sides must be as equal in length as possible and at a right angle.
 
-### -field IAG_RightDown
+### -field IAG_RightDown:0xf06f
 
 This gesture must be drawn in a single stroke starting with the right stroke. The two sides must be as equal in length as possible and at a right angle.
 
-### -field IAG_Exclamation
+### -field IAG_Exclamation:0xf0a4
 
 The line must be drawn first and then the dot drawn quickly and as close to the line as possible.
 
-### -field IAG_Tap
+### -field IAG_Tap:0xf0f0
 
  A mouse click.
 
 For the least amount of slipping across the digitizer surface, tap quickly.
 
-### -field IAG_DoubleTap
+### -field IAG_DoubleTap:0xf0f1
 
 A mouse double-click.
 

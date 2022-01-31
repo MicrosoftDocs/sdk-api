@@ -54,7 +54,7 @@ Contains flags for the <a href="/windows/desktop/api/mfidl/nf-mfidl-imftimer-set
 
 ## -enum-fields
 
-### -field MFTIMER_RELATIVE
+### -field MFTIMER_RELATIVE:0x1
 
 The time passed to the timer is relative to the current time. If this flag is absent, the time is expressed as an absolute clock time.
 

@@ -56,11 +56,11 @@ Indicates whether the linked object updates the cached data for the linked objec
 
 ## -enum-fields
 
-### -field OLEUPDATE_ALWAYS
+### -field OLEUPDATE_ALWAYS:1
 
 Update the link object whenever possible, this option corresponds to the <b>Automatic update</b> option in the <b>Links</b> dialog box.
 
-### -field OLEUPDATE_ONCALL
+### -field OLEUPDATE_ONCALL:3
 
 Update the link object only when <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-update">IOleObject::Update</a> or <a href="/windows/desktop/api/oleidl/nf-oleidl-iolelink-update">IOleLink::Update</a> is called, this option corresponds to the <b>Manual update</b> option in the <b>Links</b> dialog box.
 

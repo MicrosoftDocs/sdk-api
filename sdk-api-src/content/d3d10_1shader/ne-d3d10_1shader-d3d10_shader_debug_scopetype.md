@@ -88,7 +88,7 @@ Name space scope.
 
 Annotation scope.
 
-### -field D3D10_SHADER_DEBUG_SCOPE_FORCE_DWORD
+### -field D3D10_SHADER_DEBUG_SCOPE_FORCE_DWORD:0x7fffffff
 
 Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits. This value is not used.
 

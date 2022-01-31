@@ -56,7 +56,7 @@ The <b>IPSEC_TRAFFIC_TYPE</b> enumerated type specifies the type of IPsec traffi
 
 ## -enum-fields
 
-### -field IPSEC_TRAFFIC_TYPE_TRANSPORT
+### -field IPSEC_TRAFFIC_TYPE_TRANSPORT:0
 
 Specifies transport traffic.
 

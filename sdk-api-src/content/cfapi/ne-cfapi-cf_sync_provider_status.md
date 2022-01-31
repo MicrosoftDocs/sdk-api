@@ -54,43 +54,43 @@ Current status of a sync provider.
 
 ## -enum-fields
 
-### -field CF_PROVIDER_STATUS_DISCONNECTED
+### -field CF_PROVIDER_STATUS_DISCONNECTED:0x00000000
 
 The sync provider is disconnected.
 
-### -field CF_PROVIDER_STATUS_IDLE
+### -field CF_PROVIDER_STATUS_IDLE:0x00000001
 
 The sync provider is idle.
 
-### -field CF_PROVIDER_STATUS_POPULATE_NAMESPACE
+### -field CF_PROVIDER_STATUS_POPULATE_NAMESPACE:0x00000002
 
 The sync provider is populating a namespace.
 
-### -field CF_PROVIDER_STATUS_POPULATE_METADATA
+### -field CF_PROVIDER_STATUS_POPULATE_METADATA:0x00000004
 
 The sync provider is populating placeholder metadata.
 
-### -field CF_PROVIDER_STATUS_POPULATE_CONTENT
+### -field CF_PROVIDER_STATUS_POPULATE_CONTENT:0x00000008
 
 The sync provider is populating placeholder content.
 
-### -field CF_PROVIDER_STATUS_SYNC_INCREMENTAL
+### -field CF_PROVIDER_STATUS_SYNC_INCREMENTAL:0x00000010
 
 The sync provider is incrementally syncing placeholder content.
 
-### -field CF_PROVIDER_STATUS_SYNC_FULL
+### -field CF_PROVIDER_STATUS_SYNC_FULL:0x00000020
 
 The sync provider has fully synced placeholder file data.
 
-### -field CF_PROVIDER_STATUS_CONNECTIVITY_LOST
+### -field CF_PROVIDER_STATUS_CONNECTIVITY_LOST:0x00000040
 
 The sync provider has lost connectivity.
 
-### -field CF_PROVIDER_STATUS_CLEAR_FLAGS
+### -field CF_PROVIDER_STATUS_CLEAR_FLAGS:0x80000000
 
 Clears the flags of the sync provider.
 
-### -field CF_PROVIDER_STATUS_TERMINATED
+### -field CF_PROVIDER_STATUS_TERMINATED:0xC0000001
 
-### -field CF_PROVIDER_STATUS_ERROR
+### -field CF_PROVIDER_STATUS_ERROR:0xC0000002
 

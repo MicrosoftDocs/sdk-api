@@ -56,23 +56,23 @@ The <code>VMR9PresentationFlags</code> enumeration type contains flags that desc
 
 ## -enum-fields
 
-### -field VMR9Sample_SyncPoint
+### -field VMR9Sample_SyncPoint:0x1
 
 Indicates that the sample is a sync point.
 
-### -field VMR9Sample_Preroll
+### -field VMR9Sample_Preroll:0x2
 
 Indicates that the sample is part of the preroll.
 
-### -field VMR9Sample_Discontinuity
+### -field VMR9Sample_Discontinuity:0x4
 
 Indicates that the sample is a discontinuity.
 
-### -field VMR9Sample_TimeValid
+### -field VMR9Sample_TimeValid:0x8
 
 Indicates that the time stamp on the sample is valid.
 
-### -field VMR9Sample_SrcDstRectsValid
+### -field VMR9Sample_SrcDstRectsValid:0x10
 
 ## -see-also
 

@@ -54,23 +54,23 @@ The [VMRPRESENTATIONINFO](/windows/desktop/api/strmif/ns-strmif-vmrpresentationi
 
 ## -enum-fields
 
-### -field VMRSample_SyncPoint
+### -field VMRSample_SyncPoint:0x1
 
 Indicates that the sample is a sync point.
 
-### -field VMRSample_Preroll
+### -field VMRSample_Preroll:0x2
 
 Indicates that the sample is part of the preroll.
 
-### -field VMRSample_Discontinuity
+### -field VMRSample_Discontinuity:0x4
 
 Indicates that the sample is a discontinuity.
 
-### -field VMRSample_TimeValid
+### -field VMRSample_TimeValid:0x8
 
 Indicates that the time stamp on the sample is valid.
 
-### -field VMRSample_SrcDstRectsValid
+### -field VMRSample_SrcDstRectsValid:0x10
 
 ## -see-also
 

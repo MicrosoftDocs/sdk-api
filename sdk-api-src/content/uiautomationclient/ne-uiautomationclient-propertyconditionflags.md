@@ -54,15 +54,15 @@ Contains values used in creating property conditions.
 
 ## -enum-fields
 
-### -field PropertyConditionFlags_None
+### -field PropertyConditionFlags_None:0
 
 No flags.
 
-### -field PropertyConditionFlags_IgnoreCase
+### -field PropertyConditionFlags_IgnoreCase:0x1
 
 Comparison of string properties is not case-sensitive.
 
-### -field PropertyConditionFlags_MatchSubstring
+### -field PropertyConditionFlags_MatchSubstring:0x2
 
 [Windows 10 October 2018 Update (version 1809) and newer]
 

@@ -57,19 +57,19 @@ Enumerates flags for indicating why an access denied remediation (ADR) client op
 
 ## -enum-fields
 
-### -field AdrClientFlags_None
+### -field AdrClientFlags_None:0
 
 No ADR client flags are specified.
 
-### -field AdrClientFlags_FailForLocalPaths
+### -field AdrClientFlags_FailForLocalPaths:0x1
 
 ADR client operations should fail when local paths are specified.
 
-### -field AdrClientFlags_FailIfNotSupportedByServer
+### -field AdrClientFlags_FailIfNotSupportedByServer:0x2
 
 ADR client operations should fail if the operation is not supported by the server.
 
-### -field AdrClientFlags_FailIfNotDomainJoined
+### -field AdrClientFlags_FailIfNotDomainJoined:0x4
 
 ADR client operations should fail if the computer is not joined to a domain.
 

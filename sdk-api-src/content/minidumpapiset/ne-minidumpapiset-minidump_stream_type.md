@@ -56,142 +56,142 @@ Represents the type of a minidump data stream.
 
 ## -enum-fields
 
-### -field UnusedStream
+### -field UnusedStream:0
 
 Reserved. Do not use this enumeration value.
 
-### -field ReservedStream0
+### -field ReservedStream0:1
 
 Reserved. Do not use this enumeration value.
 
-### -field ReservedStream1
+### -field ReservedStream1:2
 
 Reserved. Do not use this enumeration value.
 
-### -field ThreadListStream
+### -field ThreadListStream:3
 
 The stream contains thread information. For more information, see 
 <a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_thread_list">MINIDUMP_THREAD_LIST</a>.
 
-### -field ModuleListStream
+### -field ModuleListStream:14
 
 The stream contains module information. For more information, see 
 <a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_module_list">MINIDUMP_MODULE_LIST</a>.
 
-### -field MemoryListStream
+### -field MemoryListStream:5
 
 The stream contains memory allocation information. For more information, see 
 <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_list">MINIDUMP_MEMORY_LIST</a>.
 
-### -field ExceptionStream
+### -field ExceptionStream:6
 
 The stream contains exception information. For more information, see 
 <a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_exception_stream">MINIDUMP_EXCEPTION_STREAM</a>.
 
-### -field SystemInfoStream
+### -field SystemInfoStream:7
 
 The stream contains general system information. For more information, see 
 <a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_system_info">MINIDUMP_SYSTEM_INFO</a>.
 
-### -field ThreadExListStream
+### -field ThreadExListStream:8
 
 The stream contains extended thread information. For more information, see 
 <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_ex_list">MINIDUMP_THREAD_EX_LIST</a>.
 
-### -field Memory64ListStream
+### -field Memory64ListStream:9
 
 The stream contains memory allocation information. For more information, see 
 <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory64_list">MINIDUMP_MEMORY64_LIST</a>.
 
-### -field CommentStreamA
+### -field CommentStreamA:10
 
 The stream contains an ANSI string used for documentation purposes.
 
-### -field CommentStreamW
+### -field CommentStreamW:11
 
 The stream contains a Unicode string used for documentation purposes.
 
-### -field HandleDataStream
+### -field HandleDataStream:12
 
 The stream contains high-level information about the active operating system handles. For more information, see 
 <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_data_stream">MINIDUMP_HANDLE_DATA_STREAM</a>.
 
-### -field FunctionTableStream
+### -field FunctionTableStream:13
 
 The stream contains function table information. For more information, see 
 <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_function_table_stream">MINIDUMP_FUNCTION_TABLE_STREAM</a>.
 
-### -field UnloadedModuleListStream
+### -field UnloadedModuleListStream:14
 
 The stream contains module information for the unloaded modules. For more information, see 
 <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_unloaded_module_list">MINIDUMP_UNLOADED_MODULE_LIST</a>.
 
 <b>DbgHelp 5.1:  </b>This value is not supported.
 
-### -field MiscInfoStream
+### -field MiscInfoStream:15
 
 The stream contains miscellaneous information. For more information, see 
 <a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_misc_info">MINIDUMP_MISC_INFO</a> or <a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_misc_info_2">MINIDUMP_MISC_INFO_2</a>.
 
 <b>DbgHelp 5.1:  </b>This value is not supported.
 
-### -field MemoryInfoListStream
+### -field MemoryInfoListStream:16
 
 The stream contains memory region description information. It corresponds to the information that would be returned for the process from the <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_info_list">VirtualQuery</a> function. For more information, see <a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_memory_info_list">MINIDUMP_MEMORY_INFO_LIST</a>.
 
 <b>DbgHelp 6.1 and earlier:  </b>This value is not supported.
 
-### -field ThreadInfoListStream
+### -field ThreadInfoListStream:17
 
 The stream contains thread state information. For more information, see <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_info_list">MINIDUMP_THREAD_INFO_LIST</a>.
 
 <b>DbgHelp 6.1 and earlier:  </b>This value is not supported.
 
-### -field HandleOperationListStream
+### -field HandleOperationListStream:18
 
 This stream contains operation list information. For more information, see <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_operation_list">MINIDUMP_HANDLE_OPERATION_LIST</a>.
 
 <b>DbgHelp 6.4 and earlier:  </b>This value is not supported.
 
-### -field TokenStream
+### -field TokenStream:19
 
-### -field JavaScriptDataStream
+### -field JavaScriptDataStream:20
 
-### -field SystemMemoryInfoStream
+### -field SystemMemoryInfoStream:21
 
-### -field ProcessVmCountersStream
+### -field ProcessVmCountersStream:22
 
-### -field IptTraceStream
+### -field IptTraceStream:23
 
-### -field ThreadNamesStream
+### -field ThreadNamesStream:24
 
-### -field ceStreamNull
+### -field ceStreamNull:0x8000
 
-### -field ceStreamSystemInfo
+### -field ceStreamSystemInfo:0x8001
 
-### -field ceStreamException
+### -field ceStreamException:0x8002
 
-### -field ceStreamModuleList
+### -field ceStreamModuleList:0x8003
 
-### -field ceStreamProcessList
+### -field ceStreamProcessList:0x8004
 
-### -field ceStreamThreadList
+### -field ceStreamThreadList:0x8005
 
-### -field ceStreamThreadContextList
+### -field ceStreamThreadContextList:0x8006
 
-### -field ceStreamThreadCallStackList
+### -field ceStreamThreadCallStackList:0x8007
 
-### -field ceStreamMemoryVirtualList
+### -field ceStreamMemoryVirtualList:0x8008
 
-### -field ceStreamMemoryPhysicalList
+### -field ceStreamMemoryPhysicalList:0x8009
 
-### -field ceStreamBucketParameters
+### -field ceStreamBucketParameters:0x800A
 
-### -field ceStreamProcessModuleMap
+### -field ceStreamProcessModuleMap:0x800B
 
-### -field ceStreamDiagnosisList
+### -field ceStreamDiagnosisList:0x800C
 
-### -field LastReservedStream
+### -field LastReservedStream:0xffff
 
 Any value greater than this value will not be used by the system and can be used to represent application-defined data streams. For more information, see 
 <a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_user_stream">MINIDUMP_USER_STREAM</a>.

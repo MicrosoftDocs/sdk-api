@@ -56,7 +56,7 @@ Defines the outcomes (results) that KTM can assign to a transaction.
 
 ## -enum-fields
 
-### -field TransactionOutcomeUndetermined
+### -field TransactionOutcomeUndetermined:1
 
 The transaction has not yet been committed or rolled back.
 

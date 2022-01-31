@@ -44,7 +44,7 @@ The <b>WLAN_OPCODE_VALUE_TYPE</b> enumeration specifies the origin of automatic 
 
 ## -enum-fields
 
-### -field wlan_opcode_value_type_query_only
+### -field wlan_opcode_value_type_query_only:0
 
 The auto config settings were queried, but the origin of the settings was not determined.
 

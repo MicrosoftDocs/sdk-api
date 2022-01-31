@@ -54,37 +54,37 @@ Specifies the Portable Network Graphics (PNG) cHRM chunk metadata properties for
 
 ## -enum-fields
 
-### -field WICPngChrmWhitePointX
+### -field WICPngChrmWhitePointX:0x1
 
 [VT_UI4] Indicates the whitepoint x value ratio.
 
-### -field WICPngChrmWhitePointY
+### -field WICPngChrmWhitePointY:0x2
 
 [VT_UI4] Indicates the whitepoint y value ratio.
 
-### -field WICPngChrmRedX
+### -field WICPngChrmRedX:0x3
 
 [VT_UI4] Indicates the red x value ratio.
 
-### -field WICPngChrmRedY
+### -field WICPngChrmRedY:0x4
 
 [VT_UI4] Indicates the red y value ratio.
 
-### -field WICPngChrmGreenX
+### -field WICPngChrmGreenX:0x5
 
 [VT_UI4] Indicates the green x value ratio.
 
-### -field WICPngChrmGreenY
+### -field WICPngChrmGreenY:0x6
 
 [VT_UI4] Indicates the green y value ratio.
 
-### -field WICPngChrmBlueX
+### -field WICPngChrmBlueX:0x7
 
 [VT_UI4] Indicates the blue x value ratio.
 
-### -field WICPngChrmBlueY
+### -field WICPngChrmBlueY:0x8
 
 [VT_UI4] Indicates the blue y value ratio.
 
-### -field WICPngChrmProperties_FORCE_DWORD
+### -field WICPngChrmProperties_FORCE_DWORD:0x7fffffff
 

@@ -54,11 +54,11 @@ Identifies the target.
 
 ## -enum-fields
 
-### -field DWMTRANSITION_OWNEDWINDOW_NULL
+### -field DWMTRANSITION_OWNEDWINDOW_NULL:-1
 
 Indicates no animation.
 
-### -field DWMTRANSITION_OWNEDWINDOW_REPOSITION
+### -field DWMTRANSITION_OWNEDWINDOW_REPOSITION:0
 
 Indicates that the window is repositioned.
 

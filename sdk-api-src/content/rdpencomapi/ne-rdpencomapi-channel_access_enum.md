@@ -56,7 +56,7 @@ Defines values for the type of access granted to the attendee for the channel.
 
 ## -enum-fields
 
-### -field CHANNEL_ACCESS_ENUM_NONE
+### -field CHANNEL_ACCESS_ENUM_NONE:0
 
 No access. The attendee cannot send or receive data on the channel.
 

@@ -54,19 +54,19 @@ The <b>VMRMode</b> enumeration type is used in calls to the <a href="/windows/de
 
 ## -enum-fields
 
-### -field VMRMode_Windowed
+### -field VMRMode_Windowed:0x1
 
 Windowed mode.
 
-### -field VMRMode_Windowless
+### -field VMRMode_Windowless:0x2
 
 Windowless mode.
 
-### -field VMRMode_Renderless
+### -field VMRMode_Renderless:0x4
 
 Renderless mode.
 
-### -field VMRMode_Mask
+### -field VMRMode_Mask:0x7
 
 Bitwise <b>OR</b> of all above flags; this is not a valid value to pass to <a href="/windows/desktop/api/strmif/nf-strmif-ivmrfilterconfig-setrenderingmode">SetRenderingMode</a>.
 

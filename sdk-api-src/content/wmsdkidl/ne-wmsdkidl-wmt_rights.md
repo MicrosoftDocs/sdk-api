@@ -54,43 +54,43 @@ The <b>WMT_RIGHTS</b> enumeration type defines the rights that may be specified 
 
 ## -enum-fields
 
-### -field WMT_RIGHT_PLAYBACK
+### -field WMT_RIGHT_PLAYBACK:0x1
 
 Specifies the right to play content without restriction.
 
-### -field WMT_RIGHT_COPY_TO_NON_SDMI_DEVICE
+### -field WMT_RIGHT_COPY_TO_NON_SDMI_DEVICE:0x2
 
 Specifies the right to copy content to a device not compliant with the <a href="/windows/desktop/wmformat/wmformat-glossary">Secure Digital Music Initiative (SDMI)</a>.
 
-### -field WMT_RIGHT_COPY_TO_CD
+### -field WMT_RIGHT_COPY_TO_CD:0x8
 
 Specifies the right to copy content to a CD.
 
-### -field WMT_RIGHT_COPY_TO_SDMI_DEVICE
+### -field WMT_RIGHT_COPY_TO_SDMI_DEVICE:0x10
 
 Specifies the right to copy content to a device compliant with the Secure Digital Music Initiative (SDMI).
 
-### -field WMT_RIGHT_ONE_TIME
+### -field WMT_RIGHT_ONE_TIME:0x20
 
 Specifies the right to play content one time only.
 
-### -field WMT_RIGHT_SAVE_STREAM_PROTECTED
+### -field WMT_RIGHT_SAVE_STREAM_PROTECTED:0x40
 
 Specifies the right to save content from a server.
 
-### -field WMT_RIGHT_COPY
+### -field WMT_RIGHT_COPY:0x80
 
 Specifies the right to copy content. Windows Media DRM 10 regulates the devices to which the content can be copied by using output protection levels (OPLs).
 
-### -field WMT_RIGHT_COLLABORATIVE_PLAY
+### -field WMT_RIGHT_COLLABORATIVE_PLAY:0x100
 
 Specifies the right to play content as part of an online scenario where multiple participants can contribute songs from their collection to a shared playlist.
 
-### -field WMT_RIGHT_SDMI_TRIGGER
+### -field WMT_RIGHT_SDMI_TRIGGER:0x10000
 
 Reserved for future use. Do not use.
 
-### -field WMT_RIGHT_SDMI_NOMORECOPIES
+### -field WMT_RIGHT_SDMI_NOMORECOPIES:0x20000
 
 Reserved for future use. Do not use.
 

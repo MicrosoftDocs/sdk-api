@@ -60,32 +60,32 @@ Specifies the set of valid flags for indicating which load balance policies a ha
 
 ## -enum-fields
 
-### -field VDS_LBF_FAILOVER
+### -field VDS_LBF_FAILOVER:0x1
 
 The provider supports using one primary path with the other paths being backup paths.
 
-### -field VDS_LBF_ROUND_ROBIN
+### -field VDS_LBF_ROUND_ROBIN:0x2
 
 The provider supports using all paths in round robin fashion.
 
-### -field VDS_LBF_ROUND_ROBIN_WITH_SUBSET
+### -field VDS_LBF_ROUND_ROBIN_WITH_SUBSET:0x4
 
 The provider supports using primary paths in round robin fashion. The backup paths are used if all of the 
       primary paths fail.
 
-### -field VDS_LBF_DYN_LEAST_QUEUE_DEPTH
+### -field VDS_LBF_DYN_LEAST_QUEUE_DEPTH:0x8
 
 The provider supports using the path with the least number of active requests.
 
-### -field VDS_LBF_WEIGHTED_PATHS
+### -field VDS_LBF_WEIGHTED_PATHS:0x10
 
 The provider supports using the path with the least weight (each path is assigned a weight).
 
-### -field VDS_LBF_LEAST_BLOCKS
+### -field VDS_LBF_LEAST_BLOCKS:0x20
 
 The provider supports using the path with the least blocks.
 
-### -field VDS_LBF_VENDOR_SPECIFIC
+### -field VDS_LBF_VENDOR_SPECIFIC:0x40
 
 The provider supports a vendor-specific policy.
 

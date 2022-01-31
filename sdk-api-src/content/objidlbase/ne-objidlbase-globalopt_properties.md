@@ -56,31 +56,31 @@ Identifies process-global options that you can set or query by using the <a href
 
 ## -enum-fields
 
-### -field COMGLB_EXCEPTION_HANDLING
+### -field COMGLB_EXCEPTION_HANDLING:1
 
 Defines COM exception-handling behavior.
 
-### -field COMGLB_APPID
+### -field COMGLB_APPID:2
 
 Sets the AppID for the process.
 
-### -field COMGLB_RPC_THREADPOOL_SETTING
+### -field COMGLB_RPC_THREADPOOL_SETTING:3
 
 Sets the thread-pool behavior of the RPC runtime in the process.
 
-### -field COMGLB_RO_SETTINGS
+### -field COMGLB_RO_SETTINGS:4
 
 Used for miscellaneous settings.
 
-### -field COMGLB_UNMARSHALING_POLICY
+### -field COMGLB_UNMARSHALING_POLICY:5
 
 Defines the policy that's applied in the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-counmarshalinterface">CoUnmarshalInterface</a> function.
 
-### -field COMGLB_PROPERTIES_RESERVED1
+### -field COMGLB_PROPERTIES_RESERVED1:6
 
-### -field COMGLB_PROPERTIES_RESERVED2
+### -field COMGLB_PROPERTIES_RESERVED2:7
 
-### -field COMGLB_PROPERTIES_RESERVED3
+### -field COMGLB_PROPERTIES_RESERVED3:8
 
 ## -remarks
 

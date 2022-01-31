@@ -54,19 +54,19 @@ Contains values for the TextFlowDirections text attribute.
 
 ## -enum-fields
 
-### -field FlowDirections_Default
+### -field FlowDirections_Default:0
 
 The default flow direction.
 
-### -field FlowDirections_RightToLeft
+### -field FlowDirections_RightToLeft:0x1
 
 The text flows from right to left.
 
-### -field FlowDirections_BottomToTop
+### -field FlowDirections_BottomToTop:0x2
 
 The text flows from bottom to top.
 
-### -field FlowDirections_Vertical
+### -field FlowDirections_Vertical:0x4
 
 The text flows vertically.
 

@@ -54,7 +54,7 @@ Flags to acknowledge the deletion of a placeholder file or directory.
 
 ## -enum-fields
 
-### -field CF_OPERATION_ACK_DELETE_FLAG_NONE
+### -field CF_OPERATION_ACK_DELETE_FLAG_NONE:0x00000000
 
 No deletion acknowledgment flags.
 

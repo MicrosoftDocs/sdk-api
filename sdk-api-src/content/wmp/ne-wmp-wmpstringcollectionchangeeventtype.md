@@ -58,7 +58,7 @@ The <b>WMPStringCollectionChangeEventType</b> enumeration type defines the types
 
 ## -enum-fields
 
-### -field wmpsccetUnknown
+### -field wmpsccetUnknown:0
 
 Not a valid event type.
 

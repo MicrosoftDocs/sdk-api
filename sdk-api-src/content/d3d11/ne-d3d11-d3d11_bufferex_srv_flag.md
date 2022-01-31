@@ -54,7 +54,7 @@ Identifies how to view a buffer resource.
 
 ## -enum-fields
 
-### -field D3D11_BUFFEREX_SRV_FLAG_RAW
+### -field D3D11_BUFFEREX_SRV_FLAG_RAW:0x1
 
 View the buffer as raw. For more info about raw viewing of buffers, see <a href="/windows/desktop/direct3d11/overviews-direct3d-11-resources-intro">Raw Views of Buffers</a>.
 

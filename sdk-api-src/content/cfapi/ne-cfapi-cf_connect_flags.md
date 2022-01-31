@@ -54,19 +54,19 @@ Additional information that can be requested by a sync provider when its callbac
 
 ## -enum-fields
 
-### -field CF_CONNECT_FLAG_NONE
+### -field CF_CONNECT_FLAG_NONE:0x00000000
 
 No connection flags.
 
-### -field CF_CONNECT_FLAG_REQUIRE_PROCESS_INFO
+### -field CF_CONNECT_FLAG_REQUIRE_PROCESS_INFO:0x00000002
 
 When this flag is specified, the platform returns the full image path of the hydrating process in the callback parameters.
 
-### -field CF_CONNECT_FLAG_REQUIRE_FULL_FILE_PATH
+### -field CF_CONNECT_FLAG_REQUIRE_FULL_FILE_PATH:0x00000004
 
 When this flag is specified, the platform returns the full path of the placeholder being requested in the callback parameters.
 
-### -field CF_CONNECT_FLAG_BLOCK_SELF_IMPLICIT_HYDRATION
+### -field CF_CONNECT_FLAG_BLOCK_SELF_IMPLICIT_HYDRATION:0x00000008
 
 <b>Note</b>  This value is new for Windows 10, version 1803.
 

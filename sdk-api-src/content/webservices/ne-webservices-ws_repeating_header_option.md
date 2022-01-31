@@ -55,11 +55,11 @@ This enum is used to specify whether a header is expected
 
 ## -enum-fields
 
-### -field WS_REPEATING_HEADER
+### -field WS_REPEATING_HEADER:1
 
 The header may appear more than once in the message.
 
-### -field WS_SINGLETON_HEADER
+### -field WS_SINGLETON_HEADER:2
 
 The header may appear at most once in the message.
                     When this option is specified, the function 

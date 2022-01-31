@@ -54,19 +54,19 @@ Describes whether an opacity mask contains graphics or text. Direct2D uses this 
 
 ## -enum-fields
 
-### -field D2D1_OPACITY_MASK_CONTENT_GRAPHICS
+### -field D2D1_OPACITY_MASK_CONTENT_GRAPHICS:0
 
 The opacity mask contains graphics. The opacity mask is blended in the gamma 2.2 color space.
 
-### -field D2D1_OPACITY_MASK_CONTENT_TEXT_NATURAL
+### -field D2D1_OPACITY_MASK_CONTENT_TEXT_NATURAL:1
 
 The opacity mask contains non-GDI text. The gamma space used for blending is obtained from the render target's text rendering parameters. (<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-settextrenderingparams">ID2D1RenderTarget::SetTextRenderingParams</a>).
 
-### -field D2D1_OPACITY_MASK_CONTENT_TEXT_GDI_COMPATIBLE
+### -field D2D1_OPACITY_MASK_CONTENT_TEXT_GDI_COMPATIBLE:2
 
 The opacity mask contains text rendered using the GDI-compatible rendering mode. The opacity mask is blended using the gamma for GDI rendering.
 
-### -field D2D1_OPACITY_MASK_CONTENT_FORCE_DWORD
+### -field D2D1_OPACITY_MASK_CONTENT_FORCE_DWORD:0xffffffff
 
 ## -see-also
 

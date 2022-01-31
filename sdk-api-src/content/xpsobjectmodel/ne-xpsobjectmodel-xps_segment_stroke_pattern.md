@@ -56,7 +56,7 @@ Indicates whether all, some, or none of the segments in a figure are stroked.
 
 ## -enum-fields
 
-### -field XPS_SEGMENT_STROKE_PATTERN_ALL
+### -field XPS_SEGMENT_STROKE_PATTERN_ALL:1
 
 All segments in the figure are stroked.
 

@@ -54,15 +54,15 @@ Specifies which mouse button was pressed.
 
 ## -enum-fields
 
-### -field IMF_Left
+### -field IMF_Left:1
 
 The left mouse button was pressed.
 
-### -field IMF_Right
+### -field IMF_Right:2
 
 The right mouse button was pressed.
 
-### -field IMF_Middle
+### -field IMF_Middle:4
 
 The middle mouse button was pressed.
 

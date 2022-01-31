@@ -54,15 +54,15 @@ Specifies the interpolation mode to be used when a bitmap is composed with any t
 
 ## -enum-fields
 
-### -field DCOMPOSITION_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR
+### -field DCOMPOSITION_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR:0
 
 Bitmaps are interpolated by using nearest-neighbor sampling.
 
-### -field DCOMPOSITION_BITMAP_INTERPOLATION_MODE_LINEAR
+### -field DCOMPOSITION_BITMAP_INTERPOLATION_MODE_LINEAR:1
 
 Bitmaps are interpolated by using linear sampling.
 
-### -field DCOMPOSITION_BITMAP_INTERPOLATION_MODE_INHERIT
+### -field DCOMPOSITION_BITMAP_INTERPOLATION_MODE_INHERIT:0xffffffff
 
 Bitmaps are interpolated according to the mode established by the parent visual.
 

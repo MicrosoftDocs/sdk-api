@@ -54,46 +54,46 @@ Identifies the gesture type specified in <a href="/windows/desktop/api/dwmapi/nf
 
 ## -enum-fields
 
-### -field GT_PEN_TAP
+### -field GT_PEN_TAP:0
 
 A pen tap.
 
-### -field GT_PEN_DOUBLETAP
+### -field GT_PEN_DOUBLETAP:1
 
 A pen double tap.
 
-### -field GT_PEN_RIGHTTAP
+### -field GT_PEN_RIGHTTAP:2
 
 A pen right tap.
 
-### -field GT_PEN_PRESSANDHOLD
+### -field GT_PEN_PRESSANDHOLD:3
 
 A pen press and hold.
 
-### -field GT_PEN_PRESSANDHOLDABORT
+### -field GT_PEN_PRESSANDHOLDABORT:4
 
 An abort of the pen press and hold.
 
-### -field GT_TOUCH_TAP
+### -field GT_TOUCH_TAP:5
 
 A touch tap.
 
-### -field GT_TOUCH_DOUBLETAP
+### -field GT_TOUCH_DOUBLETAP:6
 
 A touch double tap.
 
-### -field GT_TOUCH_RIGHTTAP
+### -field GT_TOUCH_RIGHTTAP:7
 
 A touch right tap.
 
-### -field GT_TOUCH_PRESSANDHOLD
+### -field GT_TOUCH_PRESSANDHOLD:8
 
 A touch press and hold.
 
-### -field GT_TOUCH_PRESSANDHOLDABORT
+### -field GT_TOUCH_PRESSANDHOLDABORT:9
 
 An abort of the pen press and hold.
 
-### -field GT_TOUCH_PRESSANDTAP
+### -field GT_TOUCH_PRESSANDTAP:10
 
 A touch press and tap.

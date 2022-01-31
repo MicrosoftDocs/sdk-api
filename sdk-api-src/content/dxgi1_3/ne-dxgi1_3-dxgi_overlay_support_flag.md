@@ -54,11 +54,11 @@ Specifies overlay support to check for in a call to <a href="/windows/desktop/ap
 
 ## -enum-fields
 
-### -field DXGI_OVERLAY_SUPPORT_FLAG_DIRECT
+### -field DXGI_OVERLAY_SUPPORT_FLAG_DIRECT:0x1
 
 Direct overlay support.
 
-### -field DXGI_OVERLAY_SUPPORT_FLAG_SCALING
+### -field DXGI_OVERLAY_SUPPORT_FLAG_SCALING:0x2
 
 Scaling overlay support.
 

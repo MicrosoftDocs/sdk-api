@@ -54,7 +54,7 @@ FFT creation flags.
 
 ## -enum-fields
 
-### -field D3DX11_FFT_CREATE_FLAG_NO_PRECOMPUTE_BUFFERS
+### -field D3DX11_FFT_CREATE_FLAG_NO_PRECOMPUTE_BUFFERS:0x01L
 
 Do not AddRef or Release temp and precompute buffers, caller is responsible for holding 
           references to these buffers.

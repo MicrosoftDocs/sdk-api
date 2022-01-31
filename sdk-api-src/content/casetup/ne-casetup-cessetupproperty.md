@@ -56,31 +56,31 @@ The <b>CESSetupProperty</b> enumeration type is used by the <a href="/windows/de
 
 ## -enum-fields
 
-### -field ENUM_CESSETUPPROP_USE_IISAPPPOOLIDENTITY
+### -field ENUM_CESSETUPPROP_USE_IISAPPPOOLIDENTITY:0
 
 The property value specifies whether the server context is <b>ApplicationPoolIdentity</b>.
 
-### -field ENUM_CESSETUPPROP_CACONFIG
+### -field ENUM_CESSETUPPROP_CACONFIG:1
 
 The property value contains a certification authority (CA) configuration string.
 
-### -field ENUM_CESSETUPPROP_AUTHENTICATION
+### -field ENUM_CESSETUPPROP_AUTHENTICATION:2
 
 The property value specifies the type of authentication procedure used.
 
-### -field ENUM_CESSETUPPROP_SSLCERTHASH
+### -field ENUM_CESSETUPPROP_SSLCERTHASH:3
 
 The property value contains a hash of the certificate used for authentication.
 
-### -field ENUM_CESSETUPPROP_URL
+### -field ENUM_CESSETUPPROP_URL:4
 
 The property value contains the Certificate Enrollment Web Service (CES) URL.
 
-### -field ENUM_CESSETUPPROP_RENEWALONLY
+### -field ENUM_CESSETUPPROP_RENEWALONLY:5
 
 The property value specifies whether CES can process only certificate renewals.
 
-### -field ENUM_CESSETUPPROP_ALLOW_KEYBASED_RENEWAL
+### -field ENUM_CESSETUPPROP_ALLOW_KEYBASED_RENEWAL:6
 
 ## -see-also
 

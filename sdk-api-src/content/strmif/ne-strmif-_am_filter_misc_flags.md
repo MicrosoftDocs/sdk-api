@@ -54,11 +54,11 @@ The <b>_AM_FILTER_MISC_FLAGS</b> enumeration contains flags that indicate whethe
 
 ## -enum-fields
 
-### -field AM_FILTER_MISC_FLAGS_IS_RENDERER
+### -field AM_FILTER_MISC_FLAGS_IS_RENDERER:0x1
 
 The filter is a renderer and sends an <a href="/windows/desktop/DirectShow/ec-complete">EC_COMPLETE</a> event at the end of the stream.
 
-### -field AM_FILTER_MISC_FLAGS_IS_SOURCE
+### -field AM_FILTER_MISC_FLAGS_IS_SOURCE:0x2
 
 The filter is a source filter.
 

@@ -60,25 +60,25 @@ Defines the set
 
 ## -enum-fields
 
-### -field VDS_PT_UNKNOWN
+### -field VDS_PT_UNKNOWN:0
 
 The provider type is unknown.
 
-### -field VDS_PT_SOFTWARE
+### -field VDS_PT_SOFTWARE:1
 
 The provider is a software provider.
 
-### -field VDS_PT_HARDWARE
+### -field VDS_PT_HARDWARE:2
 
 The provider is a hardware provider.
 
-### -field VDS_PT_VIRTUALDISK
+### -field VDS_PT_VIRTUALDISK:3
 
 The provider is a virtual disk provider.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>Not supported.
 
-### -field VDS_PT_MAX
+### -field VDS_PT_MAX:4
 
 This value is reserved for system use.
 

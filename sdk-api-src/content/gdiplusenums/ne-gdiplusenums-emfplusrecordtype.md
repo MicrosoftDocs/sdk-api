@@ -300,7 +300,7 @@ TBD
 ### -field WmfRecordTypeCreateRegion
 TBD
 
-### -field EmfRecordTypeHeader
+### -field EmfRecordTypeHeader:EMR_HEADER
 TBD
 
 ### -field EmfRecordTypePolyBezier
@@ -339,7 +339,7 @@ TBD
 ### -field EmfRecordTypeSetBrushOrgEx
 TBD
 
-### -field EmfRecordTypeEOF
+### -field EmfRecordTypeEOF:EMR_EOF
 TBD
 
 ### -field EmfRecordTypeSetPixelV
@@ -396,7 +396,7 @@ TBD
 ### -field EmfRecordTypeScaleWindowExtEx
 TBD
 
-### -field EmfRecordTypeSaveDC
+### -field EmfRecordTypeSaveDC:EMR_SAVEDC
 TBD
 
 ### -field EmfRecordTypeRestoreDC
@@ -432,13 +432,13 @@ TBD
 ### -field EmfRecordTypeRoundRect
 TBD
 
-### -field EmfRecordTypeArc
+### -field EmfRecordTypeArc:EMR_ARC
 TBD
 
-### -field EmfRecordTypeChord
+### -field EmfRecordTypeChord:EMR_CHORD
 TBD
 
-### -field EmfRecordTypePie
+### -field EmfRecordTypePie:EMR_PIE
 TBD
 
 ### -field EmfRecordTypeSelectPalette
@@ -459,10 +459,10 @@ TBD
 ### -field EmfRecordTypeExtFloodFill
 TBD
 
-### -field EmfRecordTypeLineTo
+### -field EmfRecordTypeLineTo:EMR_LINETO
 TBD
 
-### -field EmfRecordTypeArcTo
+### -field EmfRecordTypeArcTo:EMR_ARCTO
 TBD
 
 ### -field EmfRecordTypePolyDraw
@@ -504,7 +504,7 @@ TBD
 ### -field EmfRecordTypeAbortPath
 TBD
 
-### -field EmfRecordTypeReserved_069
+### -field EmfRecordTypeReserved_069:69
 TBD
 
 ### -field EmfRecordTypeGdiComment
@@ -525,7 +525,7 @@ TBD
 ### -field EmfRecordTypeExtSelectClipRgn
 TBD
 
-### -field EmfRecordTypeBitBlt
+### -field EmfRecordTypeBitBlt:EMR_BITBLT
 TBD
 
 ### -field EmfRecordTypeStretchBlt
@@ -534,7 +534,7 @@ TBD
 ### -field EmfRecordTypeMaskBlt
 TBD
 
-### -field EmfRecordTypePlgBlt
+### -field EmfRecordTypePlgBlt:EMR_PLGBLT
 TBD
 
 ### -field EmfRecordTypeSetDIBitsToDevice
@@ -591,85 +591,85 @@ TBD
 ### -field EmfRecordTypePolyTextOutW
 TBD
 
-### -field EmfRecordTypeSetICMMode
+### -field EmfRecordTypeSetICMMode:98
 TBD
 
-### -field EmfRecordTypeCreateColorSpace
+### -field EmfRecordTypeCreateColorSpace:99
 TBD
 
-### -field EmfRecordTypeSetColorSpace
+### -field EmfRecordTypeSetColorSpace:100
 TBD
 
-### -field EmfRecordTypeDeleteColorSpace
+### -field EmfRecordTypeDeleteColorSpace:101
 TBD
 
-### -field EmfRecordTypeGLSRecord
+### -field EmfRecordTypeGLSRecord:102
 TBD
 
-### -field EmfRecordTypeGLSBoundedRecord
+### -field EmfRecordTypeGLSBoundedRecord:103
 TBD
 
-### -field EmfRecordTypePixelFormat
+### -field EmfRecordTypePixelFormat:104
 TBD
 
-### -field EmfRecordTypeDrawEscape
+### -field EmfRecordTypeDrawEscape:105
 TBD
 
-### -field EmfRecordTypeExtEscape
+### -field EmfRecordTypeExtEscape:106
 TBD
 
-### -field EmfRecordTypeStartDoc
+### -field EmfRecordTypeStartDoc:107
 TBD
 
-### -field EmfRecordTypeSmallTextOut
+### -field EmfRecordTypeSmallTextOut:108
 TBD
 
-### -field EmfRecordTypeForceUFIMapping
+### -field EmfRecordTypeForceUFIMapping:109
 TBD
 
-### -field EmfRecordTypeNamedEscape
+### -field EmfRecordTypeNamedEscape:110
 TBD
 
-### -field EmfRecordTypeColorCorrectPalette
+### -field EmfRecordTypeColorCorrectPalette:111
 TBD
 
-### -field EmfRecordTypeSetICMProfileA
+### -field EmfRecordTypeSetICMProfileA:112
 TBD
 
-### -field EmfRecordTypeSetICMProfileW
+### -field EmfRecordTypeSetICMProfileW:113
 TBD
 
-### -field EmfRecordTypeAlphaBlend
+### -field EmfRecordTypeAlphaBlend:114
 TBD
 
-### -field EmfRecordTypeSetLayout
+### -field EmfRecordTypeSetLayout:115
 TBD
 
-### -field EmfRecordTypeTransparentBlt
+### -field EmfRecordTypeTransparentBlt:116
 TBD
 
-### -field EmfRecordTypeReserved_117
+### -field EmfRecordTypeReserved_117:117
 TBD
 
-### -field EmfRecordTypeGradientFill
+### -field EmfRecordTypeGradientFill:118
 TBD
 
-### -field EmfRecordTypeSetLinkedUFIs
+### -field EmfRecordTypeSetLinkedUFIs:119
 TBD
 
-### -field EmfRecordTypeSetTextJustification
+### -field EmfRecordTypeSetTextJustification:120
 TBD
 
-### -field EmfRecordTypeColorMatchToTargetW
+### -field EmfRecordTypeColorMatchToTargetW:121
 TBD
 
-### -field EmfRecordTypeCreateColorSpaceW
+### -field EmfRecordTypeCreateColorSpaceW:122
 TBD
 
-### -field EmfRecordTypeMax
+### -field EmfRecordTypeMax:122
 TBD
 
-### -field EmfRecordTypeMin
+### -field EmfRecordTypeMin:1
 TBD
 
 ### -field EmfPlusRecordTypeInvalid

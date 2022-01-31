@@ -56,39 +56,39 @@ Specifies the aspect ratio for EN 300 294.
 
 ## -enum-fields
 
-### -field COPP_AspectRatio_EN300294_FullFormat4by3
+### -field COPP_AspectRatio_EN300294_FullFormat4by3:0
 
 Full format 4:3.
 
-### -field COPP_AspectRatio_EN300294_Box14by9Center
+### -field COPP_AspectRatio_EN300294_Box14by9Center:1
 
 Box 14:9 center.
 
-### -field COPP_AspectRatio_EN300294_Box14by9Top
+### -field COPP_AspectRatio_EN300294_Box14by9Top:2
 
 Box 14:9 top.
 
-### -field COPP_AspectRatio_EN300294_Box16by9Center
+### -field COPP_AspectRatio_EN300294_Box16by9Center:3
 
 Box 16:9 center.
 
-### -field COPP_AspectRatio_EN300294_Box16by9Top
+### -field COPP_AspectRatio_EN300294_Box16by9Top:4
 
 Box 16:9 top.
 
-### -field COPP_AspectRatio_EN300294_BoxGT16by9Center
+### -field COPP_AspectRatio_EN300294_BoxGT16by9Center:5
 
 Box &gt; 16:9 center.
 
-### -field COPP_AspectRatio_EN300294_FullFormat4by3ProtectedCenter
+### -field COPP_AspectRatio_EN300294_FullFormat4by3ProtectedCenter:6
 
 Full format 4:3 (shoot and protect 14:9 center).
 
-### -field COPP_AspectRatio_EN300294_FullFormat16by9Anamorphic
+### -field COPP_AspectRatio_EN300294_FullFormat16by9Anamorphic:7
 
 Full format 16:9 (anamorphic)
 
-### -field COPP_AspectRatio_ForceDWORD
+### -field COPP_AspectRatio_ForceDWORD:0x7fffffff
 
 ## -see-also
 

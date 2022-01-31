@@ -56,7 +56,7 @@ The <b>IPSEC_TOKEN_PRINCIPAL</b> enumerated type specifies an access token princ
 
 ## -enum-fields
 
-### -field IPSEC_TOKEN_PRINCIPAL_LOCAL
+### -field IPSEC_TOKEN_PRINCIPAL_LOCAL:0
 
 The principal for the IPsec access token is "Local".
 

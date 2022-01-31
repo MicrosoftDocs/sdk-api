@@ -56,7 +56,7 @@ The <b>FWPM_CONNECTION_EVENT_TYPE</b> enumeration specifies the type of connecti
 
 ## -enum-fields
 
-### -field FWPM_CONNECTION_EVENT_ADD
+### -field FWPM_CONNECTION_EVENT_ADD:0
 
 A new connection object was added.
 

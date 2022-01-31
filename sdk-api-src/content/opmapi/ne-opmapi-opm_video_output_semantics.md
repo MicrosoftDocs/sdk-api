@@ -56,15 +56,15 @@ Specifies whether the <a href="/windows/desktop/api/opmapi/nn-opmapi-iopmvideoou
 
 ## -enum-fields
 
-### -field OPM_VOS_COPP_SEMANTICS
+### -field OPM_VOS_COPP_SEMANTICS:0
 
 The interface will use COPP semantics.
 
-### -field OPM_VOS_OPM_SEMANTICS
+### -field OPM_VOS_OPM_SEMANTICS:1
 
 The interface will use OPM semantics.
 
-### -field OPM_VOS_OPM_INDIRECT_DISPLAY
+### -field OPM_VOS_OPM_INDIRECT_DISPLAY:2
 
 ## -see-also
 

@@ -54,15 +54,15 @@ Defines the selection options for an ASF stream.
 
 ## -enum-fields
 
-### -field ASF_STATUS_NOTSELECTED
+### -field ASF_STATUS_NOTSELECTED:0
 
 No samples from the stream are delivered.
 
-### -field ASF_STATUS_CLEANPOINTSONLY
+### -field ASF_STATUS_CLEANPOINTSONLY:1
 
 Only samples from the stream that are clean points are delivered.
 
-### -field ASF_STATUS_ALLDATAUNITS
+### -field ASF_STATUS_ALLDATAUNITS:2
 
 All samples from the stream are delivered.
 

@@ -49,7 +49,7 @@ Defines constants that specify the validity of the property held in the [DNS_SER
 
 ## -enum-fields
 
-### -field DnsServerInvalidProperty
+### -field DnsServerInvalidProperty:0
 
 Specifies that the [DNS_SERVER_PROPERTY::Property](ns-netioapi-dns_server_property.md) member doesn't contain a valid DNS server property.
 

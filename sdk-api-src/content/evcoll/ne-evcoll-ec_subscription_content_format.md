@@ -56,7 +56,7 @@ The <b>EC_SUBSCRIPTION_CONTENT_FORMAT</b> enumeration specifies how events will 
 
 ## -enum-fields
 
-### -field EcContentFormatEvents
+### -field EcContentFormatEvents:1
 
 When an event is received, the Event Collector service sends an event as the received event to an event log. The service sends the raw event data only, and not any localized event data.
 

@@ -54,38 +54,38 @@ These flags are used with <a href="/windows/desktop/api/shobjidl_core/nf-shobjid
 
 ## -enum-fields
 
-### -field EBO_NONE
+### -field EBO_NONE:0
 
 No options.
 
-### -field EBO_NAVIGATEONCE
+### -field EBO_NAVIGATEONCE:0x1
 
 Do not navigate further than the initial navigation.
 
-### -field EBO_SHOWFRAMES
+### -field EBO_SHOWFRAMES:0x2
 
 Use the following standard panes: Commands Module pane, Navigation pane, Details pane, and Preview pane. An implementer of <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility">IExplorerPaneVisibility</a> can modify the components of the Commands Module that  are shown. For more information see, <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerpanevisibility-getpanestate">IExplorerPaneVisibility::GetPaneState</a>. If EBO_SHOWFRAMES is not set, Explorer browser uses a single view object.
 
-### -field EBO_ALWAYSNAVIGATE
+### -field EBO_ALWAYSNAVIGATE:0x4
 
 Always navigate, even if you are attempting to navigate to the current folder.
 
-### -field EBO_NOTRAVELLOG
+### -field EBO_NOTRAVELLOG:0x8
 
 Do not update the travel log.
 
-### -field EBO_NOWRAPPERWINDOW
+### -field EBO_NOWRAPPERWINDOW:0x10
 
 Do not use a wrapper window. This flag is used with legacy clients that need the browser parented directly on themselves.
 
-### -field EBO_HTMLSHAREPOINTVIEW
+### -field EBO_HTMLSHAREPOINTVIEW:0x20
 
 Show WebView for sharepoint sites.
 
-### -field EBO_NOBORDER
+### -field EBO_NOBORDER:0x40
 
 <b>Introduced in Windows Vista</b>. Do not draw a border around the browser window.
 
-### -field EBO_NOPERSISTVIEWSTATE
+### -field EBO_NOPERSISTVIEWSTATE:0x80
 
 <b>Introduced in Windows Vista</b>. Do not persist the view state.

@@ -56,11 +56,11 @@ Defines the type of user.
 
 ## -enum-fields
 
-### -field auutCurrentUser
+### -field auutCurrentUser:1
 
 The context of the current user.
 
-### -field auutLocalAdministrator
+### -field auutLocalAdministrator:2
 
 Any administrator on the local computer.
 

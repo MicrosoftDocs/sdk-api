@@ -54,13 +54,13 @@ Describes the DLNA device types that are supported by the Media Streaming API.
 
 ## -enum-fields
 
-### -field DeviceTypes_Unknown
+### -field DeviceTypes_Unknown:0
 
-### -field DeviceTypes_DigitalMediaRenderer
+### -field DeviceTypes_DigitalMediaRenderer:0x1
 
-### -field DeviceTypes_DigitalMediaServer
+### -field DeviceTypes_DigitalMediaServer:0x2
 
-### -field DeviceTypes_DigitalMediaPlayer
+### -field DeviceTypes_DigitalMediaPlayer:0x4
 
 #### - DigitalMediaPlayer
 

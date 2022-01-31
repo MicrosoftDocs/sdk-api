@@ -51,10 +51,10 @@ Supplies additional device creation options to [DMLCreateDevice](/windows/win32/
 
 ## -enum-fields
 
-### -field DML_CREATE_DEVICE_FLAG_NONE
+### -field DML_CREATE_DEVICE_FLAG_NONE:0
 
 No creation options are specified.
 
-### -field DML_CREATE_DEVICE_FLAG_DEBUG
+### -field DML_CREATE_DEVICE_FLAG_DEBUG:0x1
 
 Enables the DirectML debug layers. To use the debug layers, developer mode must be enabled, and the DirectML debug layers must be installed. If the <b>DML_CREATE_DEVICE_FLAG_DEBUG</b> flag is specified and either condition is not met, then [DMLCreateDevice](/windows/win32/api/directml/nf-directml-dmlcreatedevice) returns <b>DXGI_ERROR_SDK_COMPONENT_MISSING</b>.

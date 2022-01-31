@@ -56,23 +56,23 @@ The bounding box is the smallest rectangle that includes all points in the <a hr
 
 ## -enum-fields
 
-### -field IBBM_Default
+### -field IBBM_Default:0
 
  The definition of each stroke (polyline or Bezier) is used to calculate the bounding box; includes the drawing attributes, such as pen width, in the calculation.
 
-### -field IBBM_NoCurveFit
+### -field IBBM_NoCurveFit:1
 
  The polyline of the strokes (ignoring Bezier curve fitting requests) is used to calculate the bounding box; includes the drawing attributes in the calculation.
 
-### -field IBBM_CurveFit
+### -field IBBM_CurveFit:2
 
 The  Bezier curve fitting line of the strokes (apply Bezier curve fitting to all strokes) is used to calculate the bounding box; includes the drawing attributes in the calculation.
 
-### -field IBBM_PointsOnly
+### -field IBBM_PointsOnly:3
 
  Only the points of the strokes are used to calculate the bounding box.
 
-### -field IBBM_Union
+### -field IBBM_Union:4
 
  The union of a NoCurveFit request and a CurveFit request.
 

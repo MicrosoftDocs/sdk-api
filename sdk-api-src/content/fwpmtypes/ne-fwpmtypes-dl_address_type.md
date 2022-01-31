@@ -58,7 +58,7 @@ The DL_ADDRESS_TYPE enumerated type specifies the type of datalink layer address
 
 ## -enum-fields
 
-### -field DlUnicast
+### -field DlUnicast:0
 
 Specifies a unicast datalink layer address.
 

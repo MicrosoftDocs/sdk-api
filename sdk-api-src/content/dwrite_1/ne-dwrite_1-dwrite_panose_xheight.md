@@ -54,35 +54,35 @@ The <b>DWRITE_PANOSE_XHEIGHT</b> enumeration contains values that specify info a
 
 ## -enum-fields
 
-### -field DWRITE_PANOSE_XHEIGHT_ANY
+### -field DWRITE_PANOSE_XHEIGHT_ANY:0
 
 Any xheight.
 
-### -field DWRITE_PANOSE_XHEIGHT_NO_FIT
+### -field DWRITE_PANOSE_XHEIGHT_NO_FIT:1
 
 No fit xheight.
 
-### -field DWRITE_PANOSE_XHEIGHT_CONSTANT_SMALL
+### -field DWRITE_PANOSE_XHEIGHT_CONSTANT_SMALL:2
 
 Constant small xheight.
 
-### -field DWRITE_PANOSE_XHEIGHT_CONSTANT_STANDARD
+### -field DWRITE_PANOSE_XHEIGHT_CONSTANT_STANDARD:3
 
 Constant standard xheight.
 
-### -field DWRITE_PANOSE_XHEIGHT_CONSTANT_LARGE
+### -field DWRITE_PANOSE_XHEIGHT_CONSTANT_LARGE:4
 
 Constant large xheight.
 
-### -field DWRITE_PANOSE_XHEIGHT_DUCKING_SMALL
+### -field DWRITE_PANOSE_XHEIGHT_DUCKING_SMALL:5
 
 Ducking small xheight.
 
-### -field DWRITE_PANOSE_XHEIGHT_DUCKING_STANDARD
+### -field DWRITE_PANOSE_XHEIGHT_DUCKING_STANDARD:6
 
 Ducking standard xheight.
 
-### -field DWRITE_PANOSE_XHEIGHT_DUCKING_LARGE
+### -field DWRITE_PANOSE_XHEIGHT_DUCKING_LARGE:7
 
 Ducking large xheight.
 

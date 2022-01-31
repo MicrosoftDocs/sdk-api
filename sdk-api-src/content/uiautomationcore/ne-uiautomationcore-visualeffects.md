@@ -54,7 +54,7 @@ Contains values for the VisualEffects attribute.
 
 ## -enum-fields
 
-### -field VisualEffects_None
+### -field VisualEffects_None:0
 
 No visual effects
 

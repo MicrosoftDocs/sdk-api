@@ -56,61 +56,61 @@ Defines the limit used to limit the files included in a report.
 
 ## -enum-fields
 
-### -field FsrmReportLimit_MaxFiles
+### -field FsrmReportLimit_MaxFiles:1
 
 The report will list up to a maximum number of files. Applies to all report types.
 
-### -field FsrmReportLimit_MaxFileGroups
+### -field FsrmReportLimit_MaxFileGroups:2
 
 A <b>FsrmReportType_FilesByType</b> report will list up to a maximum number of file 
       groups.
 
-### -field FsrmReportLimit_MaxOwners
+### -field FsrmReportLimit_MaxOwners:3
 
 A <b>FsrmReportType_FilesByOwner</b> report will list up to a maximum number of 
       owners.
 
-### -field FsrmReportLimit_MaxFilesPerFileGroup
+### -field FsrmReportLimit_MaxFilesPerFileGroup:4
 
 A <b>FsrmReportType_FilesByProperty</b> report will list up to a maximum number of 
       files per file group.
 
-### -field FsrmReportLimit_MaxFilesPerOwner
+### -field FsrmReportLimit_MaxFilesPerOwner:5
 
 A <b>FsrmReportType_FilesByOwner</b> report will be limited to a maximum number of 
       files per owner.
 
-### -field FsrmReportLimit_MaxFilesPerDuplGroup
+### -field FsrmReportLimit_MaxFilesPerDuplGroup:6
 
 A <b>FsrmReportType_DuplicateFiles</b> report will list up to a maximum number of 
       files per duplicated file group.
 
-### -field FsrmReportLimit_MaxDuplicateGroups
+### -field FsrmReportLimit_MaxDuplicateGroups:7
 
 A <b>FsrmReportType_DuplicateFiles</b> report will list up to a maximum number of 
       duplicated file groups.
 
-### -field FsrmReportLimit_MaxQuotas
+### -field FsrmReportLimit_MaxQuotas:8
 
 A <b>FsrmReportType_QuotaUsage</b> report will list up to a maximum number of 
       quotas.
 
-### -field FsrmReportLimit_MaxFileScreenEvents
+### -field FsrmReportLimit_MaxFileScreenEvents:9
 
 A <b>FsrmReportType_FileScreenAudit</b> report will list up to a maximum number of 
       file screen events.
 
-### -field FsrmReportLimit_MaxPropertyValues
+### -field FsrmReportLimit_MaxPropertyValues:10
 
 A <b>FsrmReportType_FilesByProperty</b> report will list up to a maximum number of 
       property values.
 
-### -field FsrmReportLimit_MaxFilesPerPropertyValue
+### -field FsrmReportLimit_MaxFilesPerPropertyValue:11
 
 A <b>FsrmReportType_FilesByProperty</b> report will list up to a maximum number of 
       files per property value.
 
-### -field FsrmReportLimit_MaxFolders
+### -field FsrmReportLimit_MaxFolders:12
 
 A <b>FsrmReportType_FolderByProperty</b> report will list up to a maximum number of 
        folders.

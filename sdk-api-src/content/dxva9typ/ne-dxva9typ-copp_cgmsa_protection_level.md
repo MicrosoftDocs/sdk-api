@@ -56,7 +56,7 @@ Specifies the CGMS-A protection level.
 
 ## -enum-fields
 
-### -field COPP_CGMSA_Disabled
+### -field COPP_CGMSA_Disabled:0
 
 CGMS-A is disabled.
 
@@ -64,23 +64,23 @@ CGMS-A is disabled.
 
 Minimum CGMS-A level. Equivalent to <b>COPP_CGMSA_Disabled</b>.
 
-### -field COPP_CGMSA_CopyFreely
+### -field COPP_CGMSA_CopyFreely:1
 
 The protection level is Copy Freely.
 
-### -field COPP_CGMSA_CopyNoMore
+### -field COPP_CGMSA_CopyNoMore:2
 
 The protection level is Copy No More.
 
-### -field COPP_CGMSA_CopyOneGeneration
+### -field COPP_CGMSA_CopyOneGeneration:3
 
 The protection level is Copy One Generation.
 
-### -field COPP_CGMSA_CopyNever
+### -field COPP_CGMSA_CopyNever:4
 
 The protection level is Copy Never.
 
-### -field COPP_CGMSA_RedistributionControlRequired
+### -field COPP_CGMSA_RedistributionControlRequired:0x08
 
 Redistribution control (or <i>broadcast flag</i>) is required. This flag can be combined with the other flags.
 
@@ -88,7 +88,7 @@ Redistribution control (or <i>broadcast flag</i>) is required. This flag can be 
 
 Maximum CGMS-A level.
 
-### -field COPP_CGMSA_ForceDWORD
+### -field COPP_CGMSA_ForceDWORD:0x7fffffff
 
 Reserved.
 

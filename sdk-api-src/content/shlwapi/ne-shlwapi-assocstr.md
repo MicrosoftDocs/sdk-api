@@ -54,7 +54,7 @@ Used by <a href="/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-gets
 
 ## -enum-fields
 
-### -field ASSOCSTR_COMMAND
+### -field ASSOCSTR_COMMAND:1
 
 A command string associated with a Shell verb.
 

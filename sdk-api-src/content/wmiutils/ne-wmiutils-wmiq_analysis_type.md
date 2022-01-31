@@ -56,24 +56,24 @@ Contains constants used to specify the type of analysis to perform by using the 
 
 ## -enum-fields
 
-### -field WMIQ_ANALYSIS_RPN_SEQUENCE
+### -field WMIQ_ANALYSIS_RPN_SEQUENCE:0x1
 
 Used if the query has a SELECT clause. When this type of analysis is used,  <i>pAnalysis</i> points to an <a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnencodedquery">SWbemRpnEncodedQuery</a> structure.
 
-### -field WMIQ_ANALYSIS_ASSOC_QUERY
+### -field WMIQ_ANALYSIS_ASSOC_QUERY:0x2
 
 Used to return information about association type queries. When this type of analysis is used,  <i>pAnalysis</i> points to an <a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemassocqueryinf">SWbemAssocQueryInf</a> structure.
 
-### -field WMIQ_ANALYSIS_PROP_ANALYSIS_MATRIX
+### -field WMIQ_ANALYSIS_PROP_ANALYSIS_MATRIX:0x3
 
 Unused.  Reserved for future use.
 
-### -field WMIQ_ANALYSIS_QUERY_TEXT
+### -field WMIQ_ANALYSIS_QUERY_TEXT:0x4
 
 Used to return a text string that has the original query text. If this type of analysis is used,  <i>pAnalysis</i> points to a text string that contains the original query text.
 
 You can use this parameter if  a parser object is passed to another method.
 
-### -field WMIQ_ANALYSIS_RESERVED
+### -field WMIQ_ANALYSIS_RESERVED:0x8000000
 
 Unused.  Reserved for future use.

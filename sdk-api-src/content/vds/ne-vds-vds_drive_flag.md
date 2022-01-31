@@ -61,29 +61,29 @@ Defines the set of valid flags for a <a href="/windows/desktop/VDS/drive-object"
 
 ## -enum-fields
 
-### -field VDS_DRF_HOTSPARE
+### -field VDS_DRF_HOTSPARE:0x1
 
 The drive is reserved for use only as a hot spare.
 
-### -field VDS_DRF_ASSIGNED
+### -field VDS_DRF_ASSIGNED:0x2
 
 The drive is assigned to a RAID group or <a href="/windows/desktop/VDS/storage-pool-object">storage pool</a>.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_DRF_UNASSIGNED
+### -field VDS_DRF_UNASSIGNED:0x4
 
 The drive is not assigned to a RAID group or storage pool.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_DRF_HOTSPARE_IN_USE
+### -field VDS_DRF_HOTSPARE_IN_USE:0x8
 
 The drive is in use as a hot spare.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_DRF_HOTSPARE_STANDBY
+### -field VDS_DRF_HOTSPARE_STANDBY:0x10
 
 The drive is on standby as a hot spare.
 

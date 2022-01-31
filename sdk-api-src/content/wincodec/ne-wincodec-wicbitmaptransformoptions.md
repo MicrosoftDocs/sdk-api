@@ -54,29 +54,29 @@ Specifies the flip and rotation transforms.
 
 ## -enum-fields
 
-### -field WICBitmapTransformRotate0
+### -field WICBitmapTransformRotate0:0
 
 A rotation of 0 degrees.
 
-### -field WICBitmapTransformRotate90
+### -field WICBitmapTransformRotate90:0x1
 
 A clockwise rotation of 90 degrees.
 
-### -field WICBitmapTransformRotate180
+### -field WICBitmapTransformRotate180:0x2
 
 A clockwise rotation of 180 degrees.
 
-### -field WICBitmapTransformRotate270
+### -field WICBitmapTransformRotate270:0x3
 
 A clockwise rotation of 270 degrees.
 
-### -field WICBitmapTransformFlipHorizontal
+### -field WICBitmapTransformFlipHorizontal:0x8
 
 A horizontal flip. Pixels are flipped around the vertical y-axis.
 
-### -field WICBitmapTransformFlipVertical
+### -field WICBitmapTransformFlipVertical:0x10
 
 A vertical flip. Pixels are flipped around the horizontal x-axis.
 
-### -field WICBITMAPTRANSFORMOPTIONS_FORCE_DWORD
+### -field WICBITMAPTRANSFORMOPTIONS_FORCE_DWORD:0x7fffffff
 

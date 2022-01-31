@@ -54,15 +54,15 @@ Flags to use when transferring a video frame from sink.
 
 ## -enum-fields
 
-### -field MF_TRANSFER_VIDEO_FRAME_DEFAULT
+### -field MF_TRANSFER_VIDEO_FRAME_DEFAULT:0
 
 Use the default transfer behavior.
 
-### -field MF_TRANSFER_VIDEO_FRAME_STRETCH
+### -field MF_TRANSFER_VIDEO_FRAME_STRETCH:1
 
 Stretch the video frame.
 
-### -field MF_TRANSFER_VIDEO_FRAME_IGNORE_PAR
+### -field MF_TRANSFER_VIDEO_FRAME_IGNORE_PAR:2
 
 >>>>>>> master
 

@@ -54,11 +54,11 @@ Defines the direction of the scrolling command for a pen flick.
 
 ## -enum-fields
 
-### -field SCROLLDIRECTION_UP
+### -field SCROLLDIRECTION_UP:0
 
  The flick action is a Scroll Up command.
 
-### -field SCROLLDIRECTION_DOWN
+### -field SCROLLDIRECTION_DOWN:1
 
 The flick action is a Scroll Down command.
 

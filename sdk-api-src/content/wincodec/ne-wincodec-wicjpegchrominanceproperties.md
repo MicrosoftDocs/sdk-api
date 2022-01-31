@@ -54,9 +54,9 @@ Specifies the JPEG chrominance table property.
 
 ## -enum-fields
 
-### -field WICJpegChrominanceTable
+### -field WICJpegChrominanceTable:0x1
 
 [VT_UI2|VT_VECTOR] Indicates the metadata property is a chrominance table.
 
-### -field WICJpegChrominanceProperties_FORCE_DWORD
+### -field WICJpegChrominanceProperties_FORCE_DWORD:0x7fffffff
 

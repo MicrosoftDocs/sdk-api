@@ -54,19 +54,19 @@ Defines how the world transform, dots per inch (dpi), and stroke width affect th
 
 ## -enum-fields
 
-### -field D2D1_STROKE_TRANSFORM_TYPE_NORMAL
+### -field D2D1_STROKE_TRANSFORM_TYPE_NORMAL:0
 
 The stroke respects the currently set world transform, the dpi, and the stroke width.
 
-### -field D2D1_STROKE_TRANSFORM_TYPE_FIXED
+### -field D2D1_STROKE_TRANSFORM_TYPE_FIXED:1
 
 The stroke does not respect the world transform but it does respect the dpi and stroke width.
 
-### -field D2D1_STROKE_TRANSFORM_TYPE_HAIRLINE
+### -field D2D1_STROKE_TRANSFORM_TYPE_HAIRLINE:2
 
 The stroke is forced to 1 pixel wide (in device space) and does not respect the world transform, the dpi, or the stroke width.
 
-### -field D2D1_STROKE_TRANSFORM_TYPE_FORCE_DWORD
+### -field D2D1_STROKE_TRANSFORM_TYPE_FORCE_DWORD:0xffffffff
 
 ## -remarks
 

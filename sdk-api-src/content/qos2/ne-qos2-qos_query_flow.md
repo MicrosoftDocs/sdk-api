@@ -58,15 +58,15 @@ The <b>QOS_QUERY_FLOW</b> enumeration indicates the type of information a <a hre
 
 ## -enum-fields
 
-### -field QOSQueryFlowFundamentals
+### -field QOSQueryFlowFundamentals:0
 
 Indicates an information request for the flow fundamentals. This information includes bottleneck bandwidth, available bandwidth, and the average Round Trip Time (RTT)
 
-### -field QOSQueryPacketPriority
+### -field QOSQueryPacketPriority:1
 
 Indicates a request for information detailing the QoS priority being added to flow packets.
 
-### -field QOSQueryOutgoingRate
+### -field QOSQueryOutgoingRate:2
 
 Indicates a request for the flow rate specified during the creation of an agreement with the QoS subsystem via the <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qossetflow">QOSSetFlow</a>  function.
 

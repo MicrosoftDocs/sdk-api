@@ -56,23 +56,23 @@ The <code>VMR9ProcAmpControlFlags</code> enumeration type specifies image adjust
 
 ## -enum-fields
 
-### -field ProcAmpControl9_Brightness
+### -field ProcAmpControl9_Brightness:0x1
 
 Brightness adjustment.
 
-### -field ProcAmpControl9_Contrast
+### -field ProcAmpControl9_Contrast:0x2
 
 Contrast adjustment.
 
-### -field ProcAmpControl9_Hue
+### -field ProcAmpControl9_Hue:0x4
 
 Hue adjustment.
 
-### -field ProcAmpControl9_Saturation
+### -field ProcAmpControl9_Saturation:0x8
 
 Saturation adjustment.
 
-### -field ProcAmpControl9_Mask
+### -field ProcAmpControl9_Mask:0xf
 
 Bitwise <b>OR</b> of all the previous flags. This value is used internally by the VMR-9, and is not a valid flag.
 

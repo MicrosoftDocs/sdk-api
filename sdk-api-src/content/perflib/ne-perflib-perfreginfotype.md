@@ -56,7 +56,7 @@ Indicates the types of information that you can request about a performance coun
 
 ## -enum-fields
 
-### -field PERF_REG_COUNTERSET_STRUCT
+### -field PERF_REG_COUNTERSET_STRUCT:1
 
 Gets the registration information for a counter set and all of the counters it contains as a <a href="/windows/desktop/api/perflib/ns-perflib-perf_counterset_reg_info">PERF_COUNTERSET_REG_INFO</a> block.  The block includes a <b>PERF_COUNTERSET_REG_INFO</b> structure followed by one or  
 

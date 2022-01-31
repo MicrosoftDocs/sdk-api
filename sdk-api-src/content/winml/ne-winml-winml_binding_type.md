@@ -58,7 +58,7 @@ Specifies the different types of WinML bindings.
 
 ## -enum-fields
 
-### -field WINML_BINDING_UNDEFINED
+### -field WINML_BINDING_UNDEFINED:0
 
 Binding type undefined.
 

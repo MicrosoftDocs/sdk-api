@@ -58,7 +58,7 @@ Contains information about the device registration.
 
 ## -enum-fields
 
-### -field DeviceRegistrationBasicInfo
+### -field DeviceRegistrationBasicInfo:1
 
 Information about the device registration.
 

@@ -55,23 +55,23 @@ Defines the set of notifications that are generated for a cluster network interf
 
 ## -enum-fields
 
-### -field CLUSTER_CHANGE_NETINTERFACE_DELETED_V2
+### -field CLUSTER_CHANGE_NETINTERFACE_DELETED_V2:0x1
 
 Indicates that the cluster network interface has been deleted.
 
-### -field CLUSTER_CHANGE_NETINTERFACE_COMMON_PROPERTY_V2
+### -field CLUSTER_CHANGE_NETINTERFACE_COMMON_PROPERTY_V2:0x2
 
 Indicates that the common properties for the cluster interface have changed.
 
-### -field CLUSTER_CHANGE_NETINTERFACE_PRIVATE_PROPERTY_V2
+### -field CLUSTER_CHANGE_NETINTERFACE_PRIVATE_PROPERTY_V2:0x4
 
 Indicates that the private properties for the cluster interface have changed.
 
-### -field CLUSTER_CHANGE_NETINTERFACE_STATE_V2
+### -field CLUSTER_CHANGE_NETINTERFACE_STATE_V2:0x8
 
 Indicates that the state of the cluster interface has changed.
 
-### -field CLUSTER_CHANGE_NETINTERFACE_HANDLE_CLOSE_V2
+### -field CLUSTER_CHANGE_NETINTERFACE_HANDLE_CLOSE_V2:0x10
 
 Indicates that the cluster interface's context handle was closed.
 

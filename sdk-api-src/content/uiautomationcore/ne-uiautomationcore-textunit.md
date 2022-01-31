@@ -54,31 +54,31 @@ Contains values that specify units of text for the purposes of navigation.
 
 ## -enum-fields
 
-### -field TextUnit_Character
+### -field TextUnit_Character:0
 
 Character.
 
-### -field TextUnit_Format
+### -field TextUnit_Format:1
 
 Format.
 
-### -field TextUnit_Word
+### -field TextUnit_Word:2
 
 Word.
 
-### -field TextUnit_Line
+### -field TextUnit_Line:3
 
 Line.
 
-### -field TextUnit_Paragraph
+### -field TextUnit_Paragraph:4
 
 Paragraph.
 
-### -field TextUnit_Page
+### -field TextUnit_Page:5
 
 Page.
 
-### -field TextUnit_Document
+### -field TextUnit_Document:6
 
 Document.
 

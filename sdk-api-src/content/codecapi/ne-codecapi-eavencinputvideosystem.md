@@ -54,31 +54,31 @@ Specifies the nominal range for a video source. This enumeration is used with th
 
 ## -enum-fields
 
-### -field eAVEncInputVideoSystem_Unspecified
+### -field eAVEncInputVideoSystem_Unspecified:0
 
 The video system is not specified.
 
-### -field eAVEncInputVideoSystem_PAL
+### -field eAVEncInputVideoSystem_PAL:1
 
 PAL television.
 
-### -field eAVEncInputVideoSystem_NTSC
+### -field eAVEncInputVideoSystem_NTSC:2
 
 NTSC television.
 
-### -field eAVEncInputVideoSystem_SECAM
+### -field eAVEncInputVideoSystem_SECAM:3
 
 SECAM television.
 
-### -field eAVEncInputVideoSystem_MAC
+### -field eAVEncInputVideoSystem_MAC:4
 
 Not documented for this release.
 
-### -field eAVEncInputVideoSystem_HDV
+### -field eAVEncInputVideoSystem_HDV:5
 
 High-definition (HD) video.
 
-### -field eAVEncInputVideoSystem_Component
+### -field eAVEncInputVideoSystem_Component:6
 
 Component video.
 

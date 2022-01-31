@@ -54,15 +54,15 @@ Allows a sync provider to control how placeholder directories and files should b
 
 ## -enum-fields
 
-### -field CF_POPULATION_POLICY_PARTIAL
+### -field CF_POPULATION_POLICY_PARTIAL:0
 
 With <b>CF_POPULATION_POLICY_PARTIAL</b> population policy, when the platform detects access on a not fully populated directory, it will request only the entries required by the user application from the sync provider. This policy is not currently supported by the platform.
 
-### -field CF_POPULATION_POLICY_FULL
+### -field CF_POPULATION_POLICY_FULL:2
 
 With <b>CF_POPULATION_POLICY_FULL</b> population policy, when the platform detects access on a not fully populated directory, it will request the sync provider return all entries under the directory before completing the user request.
 
-### -field CF_POPULATION_POLICY_ALWAYS_FULL
+### -field CF_POPULATION_POLICY_ALWAYS_FULL:3
 
 When <b>CF_POPULATION_POLICY_ALWAYS_FULL</b> is selected, the platform assumes that the full name space is always available locally. It will never forward any directory enumeration request to the sync provider.
 

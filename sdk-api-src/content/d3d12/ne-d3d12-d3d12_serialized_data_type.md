@@ -54,6 +54,6 @@ Specifies the type of serialized data. Use a value from this enumeration when ca
 
 ## -enum-fields
 
-### -field D3D12_SERIALIZED_DATA_RAYTRACING_ACCELERATION_STRUCTURE
+### -field D3D12_SERIALIZED_DATA_RAYTRACING_ACCELERATION_STRUCTURE:0
 
 The serialized data is a raytracing acceleration structure.

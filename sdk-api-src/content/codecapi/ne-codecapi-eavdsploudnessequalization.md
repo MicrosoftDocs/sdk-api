@@ -54,15 +54,15 @@ Specifies whether loudness equalization is enabled in an audio decoder or digita
 
 ## -enum-fields
 
-### -field eAVDSPLoudnessEqualization_OFF
+### -field eAVDSPLoudnessEqualization_OFF:0
 
 Loudness equalization is disabled.
 
-### -field eAVDSPLoudnessEqualization_ON
+### -field eAVDSPLoudnessEqualization_ON:1
 
 Loudness equalization is enabled.
 
-### -field eAVDSPLoudnessEqualization_AUTO
+### -field eAVDSPLoudnessEqualization_AUTO:2
 
 The decoder or DSP automatically selects the equalization mode.
 

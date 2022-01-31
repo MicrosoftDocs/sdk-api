@@ -58,7 +58,7 @@ Defines constants that specify how completion notifications for asynchronous ope
 
 ## -enum-fields
 
-### -field WINBIO_ASYNC_NOTIFY_NONE
+### -field WINBIO_ASYNC_NOTIFY_NONE:0
 
 The operation is synchronous.
 

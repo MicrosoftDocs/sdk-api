@@ -54,23 +54,23 @@ The state of an item.
 
 ## -enum-fields
 
-### -field PRJ_FILE_STATE_PLACEHOLDER
+### -field PRJ_FILE_STATE_PLACEHOLDER:0x00000001
 
 The item is a placeholder.
 
-### -field PRJ_FILE_STATE_HYDRATED_PLACEHOLDER
+### -field PRJ_FILE_STATE_HYDRATED_PLACEHOLDER:0x00000002
 
 The item is a hydrated placeholder, i.e., the item's content has been written to disk.
 
-### -field PRJ_FILE_STATE_DIRTY_PLACEHOLDER
+### -field PRJ_FILE_STATE_DIRTY_PLACEHOLDER:0x00000004
 
 The placeholder item's metadata has been modified.
 
-### -field PRJ_FILE_STATE_FULL
+### -field PRJ_FILE_STATE_FULL:0x00000008
 
 The item is full.
 
-### -field PRJ_FILE_STATE_TOMBSTONE
+### -field PRJ_FILE_STATE_TOMBSTONE:0x00000010
 
 The item is a tombstone.
 

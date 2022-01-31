@@ -54,12 +54,12 @@ Option flags controlling primary conversion performed by <a href="/windows/deskt
 
 ## -enum-fields
 
-### -field D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS_NONE
+### -field D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS_NONE:0
 
 No primary conversion is performed.
 
-### -field D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS_LOW_QUALITY_PRIMARY_CONVERSION
+### -field D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS_LOW_QUALITY_PRIMARY_CONVERSION:1
 
 Low quality primary conversion is performed.
 
-### -field D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS_FORCE_DWORD
+### -field D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS_FORCE_DWORD:0xffffffff

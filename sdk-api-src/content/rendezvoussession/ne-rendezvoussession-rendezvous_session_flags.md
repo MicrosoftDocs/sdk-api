@@ -56,21 +56,21 @@ Provides the list of possible flags for the session invitation.
 
 ## -enum-fields
 
-### -field RSF_NONE
+### -field RSF_NONE:0
 
 No such value.
 
-### -field RSF_INVITER
+### -field RSF_INVITER:0x1
 
 The party that sets the session object is the inviter.
 
-### -field RSF_INVITEE
+### -field RSF_INVITEE:0x2
 
 The party that sets the session object is the recipient.
 
-### -field RSF_ORIGINAL_INVITER
+### -field RSF_ORIGINAL_INVITER:0x4
 
-### -field RSF_REMOTE_LEGACYSESSION
+### -field RSF_REMOTE_LEGACYSESSION:0x8
 
-### -field RSF_REMOTE_WIN7SESSION
+### -field RSF_REMOTE_WIN7SESSION:0x10
 

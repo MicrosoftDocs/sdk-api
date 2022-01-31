@@ -56,7 +56,7 @@ Identifies the resource or group as a
 
 ## -enum-fields
 
-### -field CLUS_FLAG_CORE
+### -field CLUS_FLAG_CORE:0x1
 
 Identifies <a href="/previous-versions/windows/desktop/mscs/core-resources">core resources</a> or the cluster group that 
        contains core resources. The 

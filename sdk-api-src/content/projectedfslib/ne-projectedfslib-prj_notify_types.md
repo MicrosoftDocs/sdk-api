@@ -54,11 +54,11 @@ Types of notifications describing a change to the file or folder.
 
 ## -enum-fields
 
-### -field PRJ_NOTIFY_NONE
+### -field PRJ_NOTIFY_NONE:0x00000000
 
 No notification.
 
-### -field PRJ_NOTIFY_SUPPRESS_NOTIFICATIONS
+### -field PRJ_NOTIFY_SUPPRESS_NOTIFICATIONS:0x00000001
 
 If specified on virtualization instance start:
 
@@ -71,7 +71,7 @@ If specified in response to a notification:
 <div class="alert"><b>Note</b>  If this bit appears in a notification mask, it overrides all other bits in the mask. For example, a valid mask with this bit is treated as containing only PRJ_NOTIFY_SUPPRESS_NOTIFICATIONS.</div>
 <div> </div>
 
-### -field PRJ_NOTIFY_FILE_OPENED
+### -field PRJ_NOTIFY_FILE_OPENED:0x00000002
 
 If specified on virtualization instance start:
 
@@ -81,7 +81,7 @@ If specified in response to a notification:
 
 - This indicates that the provider should be notified if any further handles are created to the file or folder.
 
-### -field PRJ_NOTIFY_NEW_FILE_CREATED
+### -field PRJ_NOTIFY_NEW_FILE_CREATED:0x00000004
 
 If specified on virtualization instance start:
 
@@ -91,7 +91,7 @@ If specified in response to a notification:
 
 - No effect.
 
-### -field PRJ_NOTIFY_FILE_OVERWRITTEN
+### -field PRJ_NOTIFY_FILE_OVERWRITTEN:0x00000008
 
 If specified on virtualization instance start:
 
@@ -101,7 +101,7 @@ If specified in response to a notification:
 
 - Indicates that the provider should be notified when the file or folder is overwritten or superceded.
 
-### -field PRJ_NOTIFY_PRE_DELETE
+### -field PRJ_NOTIFY_PRE_DELETE:0x00000010
 
 If specified on virtualization instance start:
 
@@ -111,7 +111,7 @@ If specified in response to a notification:
 
 - Indicates that the provider should be notified when a file or folder is about to be deleted.
 
-### -field PRJ_NOTIFY_PRE_RENAME
+### -field PRJ_NOTIFY_PRE_RENAME:0x00000020
 
 If specified on virtualization instance start:
 
@@ -121,7 +121,7 @@ If specified in response to a notification:
 
 - Indicates that the provider should be notified when a file or folder is about to be renamed.
 
-### -field PRJ_NOTIFY_PRE_SET_HARDLINK
+### -field PRJ_NOTIFY_PRE_SET_HARDLINK:0x00000040
 
 If specified on virtualization instance start:
 
@@ -131,7 +131,7 @@ If specified in response to a notification:
 
 - Indicates that the provider should be notified when a hard link is about to be created for a file.
 
-### -field PRJ_NOTIFY_FILE_RENAMED
+### -field PRJ_NOTIFY_FILE_RENAMED:0x00000080
 
 If specified on virtualization instance start:
 
@@ -141,7 +141,7 @@ If specified in response to a notification:
 
 - Indicates that the provider should be notified when a file or folder has been renamed.
 
-### -field PRJ_NOTIFY_HARDLINK_CREATED
+### -field PRJ_NOTIFY_HARDLINK_CREATED:0x00000100
 
 If specified on virtualization instance start:
 
@@ -151,7 +151,7 @@ If specified in response to a notification:
 
 - Indicates that the provider should be notified that a hard link has been created for the file.
 
-### -field PRJ_NOTIFY_FILE_HANDLE_CLOSED_NO_MODIFICATION
+### -field PRJ_NOTIFY_FILE_HANDLE_CLOSED_NO_MODIFICATION:0x00000200
 
 If specified on virtualization instance start:
 
@@ -161,7 +161,7 @@ If specified in response to a notification:
 
 - The provider should be notified when handles are closed for the file/folder and there were no modifications or deletions associated with the closing handle.
 
-### -field PRJ_NOTIFY_FILE_HANDLE_CLOSED_FILE_MODIFIED
+### -field PRJ_NOTIFY_FILE_HANDLE_CLOSED_FILE_MODIFIED:0x00000400
 
 If specified on virtualization instance start:
 
@@ -171,7 +171,7 @@ If specified in response to a notification:
 
 - The provider should be notified when a handle is closed on the file/folder and the closing handle was used to modify it.
 
-### -field PRJ_NOTIFY_FILE_HANDLE_CLOSED_FILE_DELETED
+### -field PRJ_NOTIFY_FILE_HANDLE_CLOSED_FILE_DELETED:0x00000800
 
 If specified on virtualization instance start:
 
@@ -181,7 +181,7 @@ If specified in response to a notification:
 
 - The provider should be notified when a handle is closed on the file/folder and it is deleted as part of closing the handle.
 
-### -field PRJ_NOTIFY_FILE_PRE_CONVERT_TO_FULL
+### -field PRJ_NOTIFY_FILE_PRE_CONVERT_TO_FULL:0x00001000
 
 If specified on virtualization instance start:
 
@@ -191,7 +191,7 @@ If specified in response to a notification:
 
 - The provider should be notified when it is about to convert the placeholder to a full file, assuming it is a placeholder and not already a full file.
 
-### -field PRJ_NOTIFY_USE_EXISTING_MASK
+### -field PRJ_NOTIFY_USE_EXISTING_MASK:0xFFFFFFFF
 
 If specified on virtualization instance start:
 

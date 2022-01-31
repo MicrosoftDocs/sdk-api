@@ -56,7 +56,7 @@ The <b>HTTP_SERVICE_BINDING_TYPE</b> enumerated type specifies the string type f
 
 ## -enum-fields
 
-### -field HttpServiceBindingTypeNone
+### -field HttpServiceBindingTypeNone:0
 
 No type.
 

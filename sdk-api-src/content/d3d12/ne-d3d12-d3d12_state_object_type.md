@@ -54,10 +54,10 @@ Specifies the type of a state object. Use with <a href="/windows/desktop/api/d3d
 
 ## -enum-fields
 
-### -field D3D12_STATE_OBJECT_TYPE_COLLECTION
+### -field D3D12_STATE_OBJECT_TYPE_COLLECTION:0
 
 Collection state object.
 
-### -field D3D12_STATE_OBJECT_TYPE_RAYTRACING_PIPELINE
+### -field D3D12_STATE_OBJECT_TYPE_RAYTRACING_PIPELINE:3
 
 Raytracing pipeline state object.

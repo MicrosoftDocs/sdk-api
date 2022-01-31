@@ -58,23 +58,23 @@ Defines the set of reasons for a disk to be offline.
 
 ## -enum-fields
 
-### -field VDSDiskOfflineReasonNone
+### -field VDSDiskOfflineReasonNone:0
 
 The reason is unknown.
 
-### -field VDSDiskOfflineReasonPolicy
+### -field VDSDiskOfflineReasonPolicy:1
 
 The disk is offline because of the current <a href="/windows/desktop/api/vds/ne-vds-vds_san_policy">SAN policy</a>.
 
-### -field VDSDiskOfflineReasonRedundantPath
+### -field VDSDiskOfflineReasonRedundantPath:2
 
 The disk is offline because it has a path that is the same as that of another device. This value is used when multipathing is physically enabled, but the MPIO software is not installed or is not functioning properly. (When the MPIO software is functioning properly, it exposes only one disk device.)
 
-### -field VDSDiskOfflineReasonSnapshot
+### -field VDSDiskOfflineReasonSnapshot:3
 
 The disk is offline because it contains a volume shadow copy volume. In this case, the disk is a clone of another disk that is online.
 
-### -field VDSDiskOfflineReasonCollision
+### -field VDSDiskOfflineReasonCollision:4
 
 If the disk is an MBR disk, it is offline because its disk signature is the same as that of another disk that is online. The disk signature is found in the <b>dwSignature</b> member of the <a href="/windows/desktop/api/vds/ns-vds-vds_disk_prop">VDS_DISK_PROP</a> and <a href="/windows/desktop/api/vds/ns-vds-vds_disk_prop2">VDS_DISK_PROP2</a> structures and in the <b>Signature</b> member of the <a href="/windows/desktop/api/winioctl/ns-winioctl-drive_layout_information_mbr">DRIVE_LAYOUT_INFORMATION_MBR</a> structure.
 
@@ -83,13 +83,13 @@ If it is a GPT disk, it is offline for one of the following reasons:<ul>
 <li>One of the partitions has the same partition GUID as another partition on the same disk.</li>
 </ul>
 
-### -field VDSDiskOfflineReasonResourceExhaustion
+### -field VDSDiskOfflineReasonResourceExhaustion:5
 
-### -field VDSDiskOfflineReasonWriteFailure
+### -field VDSDiskOfflineReasonWriteFailure:6
 
-### -field VDSDiskOfflineReasonDIScan
+### -field VDSDiskOfflineReasonDIScan:7
 
-### -field VDSDiskOfflineReasonLostDataPersistence
+### -field VDSDiskOfflineReasonLostDataPersistence:8
 
 ## -see-also
 

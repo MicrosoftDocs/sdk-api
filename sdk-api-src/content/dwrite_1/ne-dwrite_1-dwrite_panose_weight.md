@@ -54,51 +54,51 @@ The <b>DWRITE_PANOSE_WEIGHT</b> enumeration contains values that specify the wei
 
 ## -enum-fields
 
-### -field DWRITE_PANOSE_WEIGHT_ANY
+### -field DWRITE_PANOSE_WEIGHT_ANY:0
 
 Any weight.
 
-### -field DWRITE_PANOSE_WEIGHT_NO_FIT
+### -field DWRITE_PANOSE_WEIGHT_NO_FIT:1
 
 No fit weight.
 
-### -field DWRITE_PANOSE_WEIGHT_VERY_LIGHT
+### -field DWRITE_PANOSE_WEIGHT_VERY_LIGHT:2
 
 Very light weight.
 
-### -field DWRITE_PANOSE_WEIGHT_LIGHT
+### -field DWRITE_PANOSE_WEIGHT_LIGHT:3
 
 Light weight.
 
-### -field DWRITE_PANOSE_WEIGHT_THIN
+### -field DWRITE_PANOSE_WEIGHT_THIN:4
 
 Thin weight.
 
-### -field DWRITE_PANOSE_WEIGHT_BOOK
+### -field DWRITE_PANOSE_WEIGHT_BOOK:5
 
 Book weight.
 
-### -field DWRITE_PANOSE_WEIGHT_MEDIUM
+### -field DWRITE_PANOSE_WEIGHT_MEDIUM:6
 
 Medium weight.
 
-### -field DWRITE_PANOSE_WEIGHT_DEMI
+### -field DWRITE_PANOSE_WEIGHT_DEMI:7
 
 Demi weight.
 
-### -field DWRITE_PANOSE_WEIGHT_BOLD
+### -field DWRITE_PANOSE_WEIGHT_BOLD:8
 
 Bold weight.
 
-### -field DWRITE_PANOSE_WEIGHT_HEAVY
+### -field DWRITE_PANOSE_WEIGHT_HEAVY:9
 
 Heavy weight.
 
-### -field DWRITE_PANOSE_WEIGHT_BLACK
+### -field DWRITE_PANOSE_WEIGHT_BLACK:10
 
 Black weight.
 
-### -field DWRITE_PANOSE_WEIGHT_EXTRA_BLACK
+### -field DWRITE_PANOSE_WEIGHT_EXTRA_BLACK:11
 
 Extra black weight.
 

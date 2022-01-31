@@ -60,7 +60,7 @@ These objects can be secured using <a href="/windows/desktop/api/wlanapi/nf-wlan
 
 ## -enum-fields
 
-### -field wlan_secure_permit_list
+### -field wlan_secure_permit_list:0
 
 The permissions for modifying the permit list for user profiles.
 

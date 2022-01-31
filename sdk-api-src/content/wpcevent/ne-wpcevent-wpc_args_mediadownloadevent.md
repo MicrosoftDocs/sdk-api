@@ -56,7 +56,7 @@ Indicates information about the download of  a media file.
 
 ## -enum-fields
 
-### -field WPC_ARGS_MEDIADOWNLOADEVENT_APPNAME
+### -field WPC_ARGS_MEDIADOWNLOADEVENT_APPNAME:0
 
 The name of the application used to download the media file.
 

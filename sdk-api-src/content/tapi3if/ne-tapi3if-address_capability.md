@@ -56,7 +56,7 @@ A member of the
 
 ## -enum-fields
 
-### -field AC_ADDRESSTYPES
+### -field AC_ADDRESSTYPES:0
 
 An address may support more than one 
 <a href="/windows/desktop/Tapi/lineaddresstype--constants">address type</a>, but please note that one may be used during 

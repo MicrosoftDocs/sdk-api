@@ -54,31 +54,31 @@ Specifies the inertia values for a manipulation (translation, rotation, scaling)
 
 ## -enum-fields
 
-### -field INERTIA_PARAMETER_TRANSLATION_DECELERATION
+### -field INERTIA_PARAMETER_TRANSLATION_DECELERATION:0x00000001
 
 The rate of deceleration, in degrees/ms².
 
-### -field INERTIA_PARAMETER_TRANSLATION_DISPLACEMENT
+### -field INERTIA_PARAMETER_TRANSLATION_DISPLACEMENT:0x00000002
 
 The relative change in screen location, in DIPs.
 
-### -field INERTIA_PARAMETER_ROTATION_DECELERATION
+### -field INERTIA_PARAMETER_ROTATION_DECELERATION:0x00000003
 
 The rate of deceleration, in degrees/ms².
 
-### -field INERTIA_PARAMETER_ROTATION_ANGLE
+### -field INERTIA_PARAMETER_ROTATION_ANGLE:0x00000004
 
 The relative change in angle of rotation, in radians.
 
-### -field INERTIA_PARAMETER_EXPANSION_DECELERATION
+### -field INERTIA_PARAMETER_EXPANSION_DECELERATION:0x00000005
 
 The rate of deceleration, in degrees/ms².
 
-### -field INERTIA_PARAMETER_EXPANSION_EXPANSION
+### -field INERTIA_PARAMETER_EXPANSION_EXPANSION:0x00000006
 
 The relative change in size, in pixels.
 
-### -field INERTIA_PARAMETER_MAX
+### -field INERTIA_PARAMETER_MAX:0xffffffff
 
 Maximum number of interactions exceeded.
 

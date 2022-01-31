@@ -57,12 +57,12 @@ The <b>VSS_SNAPSHOT_COMPATIBILITY</b> enumeration
 
 ## -enum-fields
 
-### -field VSS_SC_DISABLE_DEFRAG
+### -field VSS_SC_DISABLE_DEFRAG:0x1
 
 The provider managing the shadow copies for a specified volume does not support defragmentation operations 
       on that volume.
 
-### -field VSS_SC_DISABLE_CONTENTINDEX
+### -field VSS_SC_DISABLE_CONTENTINDEX:0x2
 
 The provider managing the shadow copies for a specified volume does not support content index operations on 
       that volume.

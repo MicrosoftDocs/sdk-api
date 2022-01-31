@@ -55,15 +55,15 @@ The
 
 ## -enum-fields
 
-### -field PHSD_HANDSET
+### -field PHSD_HANDSET:0x1
 
 The handset's hookswitch.
 
-### -field PHSD_SPEAKERPHONE
+### -field PHSD_SPEAKERPHONE:0x2
 
 The speakerphone's hookswitch.
 
-### -field PHSD_HEADSET
+### -field PHSD_HEADSET:0x4
 
 The headset's hookswitch.
 

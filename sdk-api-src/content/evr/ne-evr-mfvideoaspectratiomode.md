@@ -54,15 +54,15 @@ Specifies the aspect-ratio mode.
 
 ## -enum-fields
 
-### -field MFVideoARMode_None
+### -field MFVideoARMode_None:0
 
 Do not maintain the aspect ratio of the video. Stretch the video to fit the output rectangle.
 
-### -field MFVideoARMode_PreservePicture
+### -field MFVideoARMode_PreservePicture:0x1
 
 Preserve the aspect ratio of the video by letterboxing or within the output rectangle.
 
-### -field MFVideoARMode_PreservePixel
+### -field MFVideoARMode_PreservePixel:0x2
 
 <div class="alert"><b>Note</b>  Currently the EVR ignores this flag.</div>
 <div> </div>
@@ -70,7 +70,7 @@ Correct the aspect ratio if the physical size of the display device does not mat
 
 If this flag is set, you must also set the <b>MFVideoARMode_PreservePicture</b> flag.
 
-### -field MFVideoARMode_NonLinearStretch
+### -field MFVideoARMode_NonLinearStretch:0x4
 
 Apply a non-linear horizontal stretch if the aspect ratio of the destination rectangle does not match the aspect ratio of the source rectangle.
 
@@ -80,7 +80,7 @@ This mode may cause performance degradation.
 
 If this flag is set, you must also set the <b>MFVideoARMode_PreservePixel</b> and <b>MFVideoARMode_PreservePicture</b> flags.
 
-### -field MFVideoARMode_Mask
+### -field MFVideoARMode_Mask:0x7
 
 Bitmask to validate flag values. This value is not a valid flag.
 

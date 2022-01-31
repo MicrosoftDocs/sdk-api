@@ -55,31 +55,31 @@ Describes the status of a cluster node. This enumeration is used by the <b>CLUSR
 
 ## -enum-fields
 
-### -field NodeStatusNormal
+### -field NodeStatusNormal:0
 
 The node status is normal.
 
-### -field NodeStatusIsolated
+### -field NodeStatusIsolated:0x1
 
 The node has been isolated.
 
-### -field NodeStatusQuarantined
+### -field NodeStatusQuarantined:0x2
 
 The node has been quarantined.
 
-### -field NodeStatusDrainInProgress
+### -field NodeStatusDrainInProgress:0x4
 
 The node is in the process of being drained.
 
-### -field NodeStatusDrainCompleted
+### -field NodeStatusDrainCompleted:0x8
 
 The node has completed a node drain operation.
 
-### -field NodeStatusDrainFailed
+### -field NodeStatusDrainFailed:0x10
 
 A node drain operation failed on the node.
 
-### -field NodeStatusAvoidPlacement
+### -field NodeStatusAvoidPlacement:0x20
 
 ### -field NodeStatusMax
 

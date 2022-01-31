@@ -56,45 +56,45 @@ The <b>AM_DVD_GRAPH_FLAGS</b> enumeration specifies how the DVD Navigator builds
 
 ## -enum-fields
 
-### -field AM_DVD_HWDEC_PREFER
+### -field AM_DVD_HWDEC_PREFER:0x1
 
 Use a hardware decoder if possible. If none is available, use a software decoder. This is the default setting. Hardware DVD decoders are registered under the CLSID_DVDHWDecodersCategory filter category. See <a href="/windows/desktop/DirectShow/filter-categories">Filter Categories</a>.
 
-### -field AM_DVD_HWDEC_ONLY
+### -field AM_DVD_HWDEC_ONLY:0x2
 
 Use a hardware decoder; do not use a software decoder. Do not combine this flag with the AM_DVD_VMR9_ONLY or AM_DVD_EVR_ONLY flag.
 
-### -field AM_DVD_SWDEC_PREFER
+### -field AM_DVD_SWDEC_PREFER:0x4
 
 Use a software decoder if possible. If none is available, use a hardware decoder.
 
-### -field AM_DVD_SWDEC_ONLY
+### -field AM_DVD_SWDEC_ONLY:0x8
 
 Use a software decoder; do not use a hardware decoder.
 
-### -field AM_DVD_NOVPE
+### -field AM_DVD_NOVPE:0x100
 
 Do not show video on the computer monitor. Use of this flag should be limited only to the combination of a hardware DVD-Video decoder and a display device with a port that can connect to a TV. A set-top box type of device that can play back DVD-Video could play DVD titles to be viewed on a TV set rather than a computer monitor.
 
-### -field AM_DVD_DO_NOT_CLEAR
+### -field AM_DVD_DO_NOT_CLEAR:0x200
 
 Do not clear the filter graph before building the DVD playback graph. By default, the <a href="/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume">RenderDvdVideoVolume</a> method removes any existing filters from the graph before it builds the DVD playback graph. <div class="alert"><b>Note</b>  Applies to Windows Vista and later.</div>
 <div> </div>
 
-### -field AM_DVD_VMR9_ONLY
+### -field AM_DVD_VMR9_ONLY:0x800
 
 Use the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a> (VMR-9) for rendering; fail if the VMR-9 is not available. Do not combine this flag with the AM_DVD_EVR_ONLY flag.
 
-### -field AM_DVD_EVR_ONLY
+### -field AM_DVD_EVR_ONLY:0x1000
 
 Use the Enhanced Video Renderer (EVR) for rendering; fail if the EVR is not available. <div class="alert"><b>Note</b>  Applies to Windows Vista and later.</div>
 <div> </div>
 
-### -field AM_DVD_EVR_QOS
+### -field AM_DVD_EVR_QOS:0x2000
 
-### -field AM_DVD_ADAPT_GRAPH
+### -field AM_DVD_ADAPT_GRAPH:0x4000
 
-### -field AM_DVD_MASK
+### -field AM_DVD_MASK:0xffff
 
 ## -remarks
 

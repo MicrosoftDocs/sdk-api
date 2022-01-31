@@ -56,7 +56,7 @@ Defines the identifiers that identify the log file metadata properties of a chan
 
 ## -enum-fields
 
-### -field EvtLogCreationTime
+### -field EvtLogCreationTime:0
 
 Identifies the property that contains the time that the channel or log file was created. The variant type for this property is <b>EvtVarTypeFileTime</b>.
 

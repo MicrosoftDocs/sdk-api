@@ -56,35 +56,35 @@ Defines the days of the week when Automatic Updates installs or uninstalls updat
 
 ## -enum-fields
 
-### -field ausidEveryDay
+### -field ausidEveryDay:0
 
 Every day.
 
-### -field ausidEverySunday
+### -field ausidEverySunday:1
 
 Every Sunday.
 
-### -field ausidEveryMonday
+### -field ausidEveryMonday:2
 
 Every Monday.
 
-### -field ausidEveryTuesday
+### -field ausidEveryTuesday:3
 
 Every Tuesday.
 
-### -field ausidEveryWednesday
+### -field ausidEveryWednesday:4
 
 Every Wednesday.
 
-### -field ausidEveryThursday
+### -field ausidEveryThursday:5
 
 Every Thursday.
 
-### -field ausidEveryFriday
+### -field ausidEveryFriday:6
 
 Every Friday.
 
-### -field ausidEverySaturday
+### -field ausidEverySaturday:7
 
 Every Saturday.
 

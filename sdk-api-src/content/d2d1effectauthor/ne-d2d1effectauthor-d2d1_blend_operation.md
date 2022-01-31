@@ -52,27 +52,27 @@ Specifies the blend operation on two color sources.
 
 ## -enum-fields
 
-### -field D2D1_BLEND_OPERATION_ADD
+### -field D2D1_BLEND_OPERATION_ADD:1
 
 Add source 1 and source 2.
 
-### -field D2D1_BLEND_OPERATION_SUBTRACT
+### -field D2D1_BLEND_OPERATION_SUBTRACT:2
 
 Subtract source 1 from source 2.
 
-### -field D2D1_BLEND_OPERATION_REV_SUBTRACT
+### -field D2D1_BLEND_OPERATION_REV_SUBTRACT:3
 
 Subtract source 2 from source 1.
 
-### -field D2D1_BLEND_OPERATION_MIN
+### -field D2D1_BLEND_OPERATION_MIN:4
 
 Find the minimum of source 1 and source 2.
 
-### -field D2D1_BLEND_OPERATION_MAX
+### -field D2D1_BLEND_OPERATION_MAX:5
 
 Find the maximum of source 1 and source 2.
 
-### -field D2D1_BLEND_OPERATION_FORCE_DWORD
+### -field D2D1_BLEND_OPERATION_FORCE_DWORD:0xffffffff
 
 A value guaranteed to be a DWORD.
 

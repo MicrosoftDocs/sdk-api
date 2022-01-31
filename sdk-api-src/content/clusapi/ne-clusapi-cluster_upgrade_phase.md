@@ -57,23 +57,23 @@ Describes the state of a rolling upgrade of the operating system on a cluster. T
 
 ## -enum-fields
 
-### -field ClusterUpgradePhaseInitialize
+### -field ClusterUpgradePhaseInitialize:1
 
 The nodes are being notified that an upgrade has started.
 
-### -field ClusterUpgradePhaseValidatingUpgrade
+### -field ClusterUpgradePhaseValidatingUpgrade:2
 
 The updated is being validated to determine whether the all of nodes in the cluster can be upgraded.
 
-### -field ClusterUpgradePhaseUpgradingComponents
+### -field ClusterUpgradePhaseUpgradingComponents:3
 
 The nodes are being upgraded.
 
-### -field ClusterUpgradePhaseInstallingNewComponents
+### -field ClusterUpgradePhaseInstallingNewComponents:4
 
 The new resources are being installed.
 
-### -field ClusterUpgradePhaseUpgradeComplete
+### -field ClusterUpgradePhaseUpgradeComplete:5
 
 The upgrade is complete.
 

@@ -56,10 +56,10 @@ Contains flags used for the <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwb
 
 ## -enum-fields
 
-### -field WBEM_FLAG_BACKUP_RESTORE_DEFAULT
+### -field WBEM_FLAG_BACKUP_RESTORE_DEFAULT:0
 
 Does not shut down active clients; returns an error if there are any.
 
-### -field WBEM_FLAG_BACKUP_RESTORE_FORCE_SHUTDOWN
+### -field WBEM_FLAG_BACKUP_RESTORE_FORCE_SHUTDOWN:1
 
 Shuts down any active clients.

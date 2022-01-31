@@ -54,15 +54,15 @@ Specifies a dialog box that might exist in a Video for Windows capture driver.
 
 ## -enum-fields
 
-### -field VfwCaptureDialog_Source
+### -field VfwCaptureDialog_Source:0x1
 
 Video source dialog box.
 
-### -field VfwCaptureDialog_Format
+### -field VfwCaptureDialog_Format:0x2
 
 Video format dialog box.
 
-### -field VfwCaptureDialog_Display
+### -field VfwCaptureDialog_Display:0x4
 
 Video display dialog box.
 

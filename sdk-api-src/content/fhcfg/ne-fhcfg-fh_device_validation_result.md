@@ -58,7 +58,7 @@ Indicates whether the  storage device or network share can be used as a File His
 
 ## -enum-fields
 
-### -field FH_ACCESS_DENIED
+### -field FH_ACCESS_DENIED:0
 
 The storage device or network share cannot be used as a backup target, because it is not accessible.
 

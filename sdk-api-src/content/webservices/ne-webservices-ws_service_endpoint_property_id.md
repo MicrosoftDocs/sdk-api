@@ -56,29 +56,29 @@ Each property represents optional parameters for configuring
 
 ## -enum-fields
 
-### -field WS_SERVICE_ENDPOINT_PROPERTY_ACCEPT_CHANNEL_CALLBACK
+### -field WS_SERVICE_ENDPOINT_PROPERTY_ACCEPT_CHANNEL_CALLBACK:0
 
 Used with <a href="/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a>.
                     The value is a pointer to WS_SERVICE_PROPERTY_ACCEPT_CALLBACK structure.
 
-### -field WS_SERVICE_ENDPOINT_PROPERTY_CLOSE_CHANNEL_CALLBACK
+### -field WS_SERVICE_ENDPOINT_PROPERTY_CLOSE_CHANNEL_CALLBACK:1
 
 Used with <a href="/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a>.
                     The value is a pointer to WS_SERVICE_PROPERTY_CLOSE_CALLBACK structure.
 
-### -field WS_SERVICE_ENDPOINT_PROPERTY_MAX_ACCEPTING_CHANNELS
+### -field WS_SERVICE_ENDPOINT_PROPERTY_MAX_ACCEPTING_CHANNELS:2
 
 Used with <a href="/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a>, this specifies the maximum number of concurrent channels service host will have 
                     actively accepting new connections for a given endpoint.                     When not specified this value is set to 1. If an endpoint specifies a default message handler (See <b>WS_SERVICE_ENDPOINT</b>) concurrency 
                     has to be 1.
 
-### -field WS_SERVICE_ENDPOINT_PROPERTY_MAX_CONCURRENCY
+### -field WS_SERVICE_ENDPOINT_PROPERTY_MAX_CONCURRENCY:3
 
 Used with <a href="/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a>, this specifies the maximum number of concurrent calls that would be serviced on a session based channel.
                     When not specified this value is set to 1. If an endpoint specifies a default message handler (See <b>WS_SERVICE_ENDPOINT</b> concurrency 
                     has to be 1.
 
-### -field WS_SERVICE_ENDPOINT_PROPERTY_BODY_HEAP_MAX_SIZE
+### -field WS_SERVICE_ENDPOINT_PROPERTY_BODY_HEAP_MAX_SIZE:4
 
 Maximum <a href="/windows/desktop/wsw/ws-heap">heap</a> size for body deserialization.
                 
@@ -89,7 +89,7 @@ This is the heap available setting used for deserializing the body. This heap is
 
 Default is 65535 bytes.
 
-### -field WS_SERVICE_ENDPOINT_PROPERTY_BODY_HEAP_TRIM_SIZE
+### -field WS_SERVICE_ENDPOINT_PROPERTY_BODY_HEAP_TRIM_SIZE:5
 
 <a href="/windows/desktop/wsw/ws-heap">Heap</a> trim size for body deserialization.
                 
@@ -100,7 +100,7 @@ This is the heap available setting used for deserializing the body. This heap is
 
 Default is 4096 bytes.
 
-### -field WS_SERVICE_ENDPOINT_PROPERTY_MESSAGE_PROPERTIES
+### -field WS_SERVICE_ENDPOINT_PROPERTY_MESSAGE_PROPERTIES:6
 
 This property allows the user to specify properties of the message
                     objects used by the endpoint to send and receive messages.
@@ -130,7 +130,7 @@ The following message properties may be specified:
 </li>
 </ul>
 
-### -field WS_SERVICE_ENDPOINT_PROPERTY_MAX_CALL_POOL_SIZE
+### -field WS_SERVICE_ENDPOINT_PROPERTY_MAX_CALL_POOL_SIZE:7
 
 The maximum number of call servicing objects that would be pooled to service a message object, on a given
                     endpoint. Note that in case of session based channels many call objects can be used on a single 
@@ -142,7 +142,7 @@ For sessionless channels this property should ideally be equal to <a href="/wind
 
 Default is 100.
 
-### -field WS_SERVICE_ENDPOINT_PROPERTY_MAX_CHANNEL_POOL_SIZE
+### -field WS_SERVICE_ENDPOINT_PROPERTY_MAX_CHANNEL_POOL_SIZE:8
 
 The maximum number of <a href="/windows/desktop/wsw/ws-channel">WS_CHANNEL</a> which will be pooled by Service Host on a given
                     endpoint.
@@ -150,15 +150,15 @@ The maximum number of <a href="/windows/desktop/wsw/ws-channel">WS_CHANNEL</a> w
 
 Default is 100.
 
-### -field WS_SERVICE_ENDPOINT_PROPERTY_LISTENER_PROPERTIES
+### -field WS_SERVICE_ENDPOINT_PROPERTY_LISTENER_PROPERTIES:9
 
 Listener properties.
 
-### -field WS_SERVICE_ENDPOINT_PROPERTY_CHECK_MUST_UNDERSTAND
+### -field WS_SERVICE_ENDPOINT_PROPERTY_CHECK_MUST_UNDERSTAND:10
 
 Enables or disables must understand header verification on an endpoint. This is 'TRUE' by default.
 
-### -field WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_TYPE
+### -field WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_TYPE:11
 
 This property can be set to <a href="/windows/desktop/api/webservices/ne-webservices-ws_metadata_exchange_type">WS_METADATA_EXCHANGE_TYPE_MEX</a> to enable 
                     servicing of WS-MetadataExchange requests on the endpoint. In case the application wishes to 
@@ -175,7 +175,7 @@ Note that this property when set to <a href="/windows/desktop/api/webservices/ne
 When setting this property to WS_METADATA_EXCHANGE_TYPE_HTTP_GET an application must not specify <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_buffer_property_id">WS_MATCH_URL_EXACT_PATH</a> for the listener 
                     properties <a href="/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS</a> and <b>WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS</b> for the given <a href="/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a>.
 
-### -field WS_SERVICE_ENDPOINT_PROPERTY_METADATA
+### -field WS_SERVICE_ENDPOINT_PROPERTY_METADATA:12
 
 Specifies the WSDL port name, binding name and binding namespace for the <a href="/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">endpoint</a>. 
                 
@@ -185,7 +185,7 @@ This property must be specified to enable the participation of the <a href="/win
 
 See <a href="/windows/win32/api/webservices/ns-webservices-ws_service_endpoint_metadata">WS_SERVICE_ENDPOINT_METADATA</a> for more details.
 
-### -field WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_URL_SUFFIX
+### -field WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_URL_SUFFIX:13
 
 Specifies the suffix which is concatenated as is to the <a href="/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a> URL to generate a URL for WS-MetadataExchange v1.1 requests servicing. 
                     The generated URL is used to compare against the 'to' header of the message received. Note that if the message does not contain a 'to' header the requests is not
@@ -211,7 +211,7 @@ When setting this property an application must not specify <a href="/windows/win
                     properties <a href="/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS</a> and <b>WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS</b> 
                     for the given <a href="/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a>.
 
-### -field WS_SERVICE_ENDPOINT_PROPERTY_MAX_CHANNELS
+### -field WS_SERVICE_ENDPOINT_PROPERTY_MAX_CHANNELS:14
 
 The maximum number of channels that can be serviced on the endpoint.
                 

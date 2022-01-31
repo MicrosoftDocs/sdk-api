@@ -58,11 +58,11 @@ Defines the size of the bitmap to use to represent the WinSAT score.
 
 ## -enum-fields
 
-### -field WINSAT_BITMAP_SIZE_SMALL
+### -field WINSAT_BITMAP_SIZE_SMALL:0
 
 Use a 32 x 24 bitmap (size is in pixels).
 
-### -field WINSAT_BITMAP_SIZE_NORMAL
+### -field WINSAT_BITMAP_SIZE_NORMAL:1
 
 Use an 80 x 80 bitmap (size is in pixels).
 

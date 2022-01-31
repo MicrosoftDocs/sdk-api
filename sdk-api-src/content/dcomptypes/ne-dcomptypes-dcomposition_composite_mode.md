@@ -54,19 +54,19 @@ The mode to use to blend the bitmap content of a visual with  the render target.
 
 ## -enum-fields
 
-### -field DCOMPOSITION_COMPOSITE_MODE_SOURCE_OVER
+### -field DCOMPOSITION_COMPOSITE_MODE_SOURCE_OVER:0
 
 The standard source-over-destination blend mode.
 
-### -field DCOMPOSITION_COMPOSITE_MODE_DESTINATION_INVERT
+### -field DCOMPOSITION_COMPOSITE_MODE_DESTINATION_INVERT:1
 
 The bitmap colors are inverted.
 
-### -field DCOMPOSITION_COMPOSITE_MODE_MIN_BLEND
+### -field DCOMPOSITION_COMPOSITE_MODE_MIN_BLEND:2
 
 Bitmap colors subtract for color channels in the background.
 
-### -field DCOMPOSITION_COMPOSITE_MODE_INHERIT
+### -field DCOMPOSITION_COMPOSITE_MODE_INHERIT:0xffffffff
 
 Bitmaps are blended according to the mode established by the parent visual.
 

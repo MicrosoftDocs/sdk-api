@@ -54,7 +54,7 @@ The <b>FAX_GROUP_STATUS_ENUM</b> enumeration defines the status types for outbou
 
 ## -enum-fields
 
-### -field fgsALL_DEV_VALID
+### -field fgsALL_DEV_VALID:0
 
 All the devices in the routing group are valid and available for sending outgoing faxes.
 

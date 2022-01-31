@@ -55,7 +55,7 @@ The **WINHTTP\_REQUEST\_STAT\_ENTRY** enumeration lists the available types of r
 
 ## -enum-fields
 
-### -field WinHttpConnectFailureCount
+### -field WinHttpConnectFailureCount:0
 
 The number of connection failures during connection establishment.
 
@@ -123,7 +123,7 @@ The size of the server data for the second leg of the proxy TLS handshake.
 
 Marker for the end of the list of available statistics.
 
-### -field WinHttpRequestStatMax
+### -field WinHttpRequestStatMax:32
 
 The maximum number of statistics available.
 

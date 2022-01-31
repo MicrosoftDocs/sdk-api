@@ -59,7 +59,7 @@ The <b>VSS_RESTORE_TYPE</b> enumeration is used by a
 
 ## -enum-fields
 
-### -field VSS_RTYPE_UNDEFINED
+### -field VSS_RTYPE_UNDEFINED:0
 
 No restore type is defined. 
       This is the default restore type. However, writers should treat this restore type as if it were VSS_RTYPE_BY_COPY.

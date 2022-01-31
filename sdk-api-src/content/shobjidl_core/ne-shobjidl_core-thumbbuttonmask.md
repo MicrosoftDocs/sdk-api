@@ -54,19 +54,19 @@ Used by the <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-thumbbu
 
 ## -enum-fields
 
-### -field THB_BITMAP
+### -field THB_BITMAP:0x1
 
 The <b>iBitmap</b> member contains valid information.
 
-### -field THB_ICON
+### -field THB_ICON:0x2
 
 The <b>hIcon</b> member contains valid information.
 
-### -field THB_TOOLTIP
+### -field THB_TOOLTIP:0x4
 
 The <b>szTip</b> member contains valid information.
 
-### -field THB_FLAGS
+### -field THB_FLAGS:0x8
 
 The <b>dwFlags</b> member contains valid information.
 

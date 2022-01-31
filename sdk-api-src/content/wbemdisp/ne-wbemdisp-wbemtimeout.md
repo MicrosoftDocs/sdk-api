@@ -59,7 +59,7 @@ The WMI scripting type library, wbemdisp.tlb, defines these constants. Visual Ba
 
 ## -enum-fields
 
-### -field wbemTimeoutInfinite
+### -field wbemTimeoutInfinite:0xffffffff
 
 Use for parameters that use a time-out value such as <i>iTimeoutMs</i> for <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execnotificationquery">ISWbemServices.ExecNotificationQuery</a> and the call will not return unless an event is received.
 

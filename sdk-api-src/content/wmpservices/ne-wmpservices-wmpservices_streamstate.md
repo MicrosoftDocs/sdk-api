@@ -54,7 +54,7 @@ The <b>WMPServices_StreamState</b> enumeration indicates whether the stream is c
 
 ## -enum-fields
 
-### -field WMPServices_StreamState_Stop
+### -field WMPServices_StreamState_Stop:0
 
 The stream is stopped.
 

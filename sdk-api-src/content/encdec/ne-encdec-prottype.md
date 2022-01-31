@@ -59,43 +59,43 @@ The <b>ProtType</b> enumeration type specifies various types of content protecti
 
 ## -enum-fields
 
-### -field PROT_COPY_FREE
+### -field PROT_COPY_FREE:1
 
 Copy Free.
 
-### -field PROT_COPY_ONCE
+### -field PROT_COPY_ONCE:2
 
 Copy Once.
 
-### -field PROT_COPY_NEVER
+### -field PROT_COPY_NEVER:3
 
 Copy Never.
 
-### -field PROT_COPY_NEVER_REALLY
+### -field PROT_COPY_NEVER_REALLY:4
 
 Reserved.
 
-### -field PROT_COPY_NO_MORE
+### -field PROT_COPY_NO_MORE:5
 
 Copy No More.
 
-### -field PROT_COPY_FREE_CIT
+### -field PROT_COPY_FREE_CIT:6
 
 The Copy Control Information (CCI) flag indicates Copy Free, but the Constrained Image Trigger (CIT) bit is set. The content is encrypted.
 
-### -field PROT_COPY_BF
+### -field PROT_COPY_BF:7
 
 Reserved.
 
-### -field PROT_COPY_CN_RECORDING_STOP
+### -field PROT_COPY_CN_RECORDING_STOP:8
 
 Reserved.
 
-### -field PROT_COPY_FREE_SECURE
+### -field PROT_COPY_FREE_SECURE:9
 
 The Copy Control Information (CCI) flag indicates Copy Free, but the Redistribution Control Trigger (RCT) bit is set. The content is encrypted.
 
-### -field PROT_COPY_INVALID
+### -field PROT_COPY_INVALID:50
 
 Error or invalid protection scheme. Treat as Copy Never.
 

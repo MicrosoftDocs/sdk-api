@@ -56,7 +56,7 @@ The
 
 ## -enum-fields
 
-### -field ACDGE_NEW_GROUP
+### -field ACDGE_NEW_GROUP:0
 
 A new ACD group has been added.
 

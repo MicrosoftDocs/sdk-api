@@ -54,19 +54,19 @@ The DISPLAYCONFIG_MODE_INFO_TYPE enumeration specifies that the information that
 
 ## -enum-fields
 
-### -field DISPLAYCONFIG_MODE_INFO_TYPE_SOURCE
+### -field DISPLAYCONFIG_MODE_INFO_TYPE_SOURCE:1
 
 Indicates that the <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_mode_info">DISPLAYCONFIG_MODE_INFO</a> structure contains source mode information.
 
-### -field DISPLAYCONFIG_MODE_INFO_TYPE_TARGET
+### -field DISPLAYCONFIG_MODE_INFO_TYPE_TARGET:2
 
 Indicates that the <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_mode_info">DISPLAYCONFIG_MODE_INFO</a> structure contains target mode information.
 
-### -field DISPLAYCONFIG_MODE_INFO_TYPE_DESKTOP_IMAGE
+### -field DISPLAYCONFIG_MODE_INFO_TYPE_DESKTOP_IMAGE:3
 
 Indicates that the <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_mode_info">DISPLAYCONFIG_MODE_INFO</a> structure contains a valid <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_desktop_image_info">DISPLAYCONFIG_DESKTOP_IMAGE_INFO</a> structure. Supported starting in Windows 10.
 
-### -field DISPLAYCONFIG_MODE_INFO_TYPE_FORCE_UINT32
+### -field DISPLAYCONFIG_MODE_INFO_TYPE_FORCE_UINT32:0xFFFFFFFF
 
 Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits. You should not use this value.
 

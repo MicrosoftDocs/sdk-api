@@ -135,21 +135,21 @@ the same enumeration.
 
 ## -enum-fields
 
-### -field TraceGuidQueryList
+### -field TraceGuidQueryList:0
 
 Query for an array of GUIDs of the providers that are registered on the
 computer.
 
-### -field TraceGuidQueryInfo
+### -field TraceGuidQueryInfo:1
 
 Query for information that each session used to enable the provider.
 
-### -field TraceGuidQueryProcess
+### -field TraceGuidQueryProcess:2
 
 Query for an array of GUIDs of the providers that registered themselves in the
 same process as the calling process.
 
-### -field TraceStackTracingInfo
+### -field TraceStackTracingInfo:3
 
 Query the setting for call stack tracing for kernel events.
 
@@ -159,7 +159,7 @@ enabled. The array is limited to 256 elements.
 
 The value is supported on Windows 7, Windows Server 2008 R2, and later.
 
-### -field TraceSystemTraceEnableFlagsInfo
+### -field TraceSystemTraceEnableFlagsInfo:4
 
 Query the setting for the **EnableFlags** for the system trace provider. For
 more information, see the
@@ -167,38 +167,38 @@ more information, see the
 
 The value is supported on Windows 8, Windows Server 2012, and later.
 
-### -field TraceSampledProfileIntervalInfo
+### -field TraceSampledProfileIntervalInfo:5
 
 Queries the setting for the sampling profile interval for the supplied source.
 
 The value is supported on Windows 8, Windows Server 2012, and later.
 
-### -field TraceProfileSourceConfigInfo
+### -field TraceProfileSourceConfigInfo:6
 
 Query which sources will be traced.
 
 The value is supported on Windows 8, Windows Server 2012, and later.
 
-### -field TraceProfileSourceListInfo
+### -field TraceProfileSourceListInfo:7
 
 Query the setting for sampled profile list information.
 
 The value is supported on Windows 8, Windows Server 2012, and later.
 
-### -field TracePmcEventListInfo
+### -field TracePmcEventListInfo:8
 
 Query the list of system events on which performance monitoring counters will be
 collected.
 
 The value is supported on Windows 8, Windows Server 2012, and later.
 
-### -field TracePmcCounterListInfo
+### -field TracePmcCounterListInfo:9
 
 Query the list of performance monitoring counters to collect
 
 The value is supported on Windows 8, Windows Server 2012, and later.
 
-### -field TraceSetDisallowList
+### -field TraceSetDisallowList:10
 
 Set the list of providers that are disabled for a provider group enable on this
 session. For more information, see
@@ -206,35 +206,35 @@ session. For more information, see
 
 The value is supported on Windows 10.
 
-### -field TraceVersionInfo
+### -field TraceVersionInfo:11
 
 Query the trace file version information.
 
 The value is supported on Windows 10.
 
-### -field TraceGroupQueryList
+### -field TraceGroupQueryList:12
 
 Query an array of GUIDs of the provider groups that are active on the computer.
 
-### -field TraceGroupQueryInfo
+### -field TraceGroupQueryInfo:13
 
 Query information that each session used to enable the provider group.
 
-### -field TraceDisallowListQuery
+### -field TraceDisallowListQuery:14
 
 Query an array of GUIDs that are disallowed for group enables on this session.
 
 ### -field TraceCompressionInfo
 
-### -field TracePeriodicCaptureStateListInfo
+### -field TracePeriodicCaptureStateListInfo:16
 
 Query the list of periodic capture states to collect.
 
-### -field TracePeriodicCaptureStateInfo
+### -field TracePeriodicCaptureStateInfo:17
 
 Queries the settings used for periodic capture state.
 
-### -field TraceProviderBinaryTracking
+### -field TraceProviderBinaryTracking:18
 
 Instructs ETW to begin tracking binaries for all providers that are enabled to
 the session. The tracking applies to providers that are enabled to the session
@@ -254,7 +254,7 @@ The binary tracking events will have provider id `EventTraceGuid` and opcode
 
 The value is supported on Windows 10, version 1709 and later.
 
-### -field TraceMaxLoggersQuery
+### -field TraceMaxLoggersQuery:19
 
 Queries the currently-configured maximum number of system loggers allowed by the
 operating system. Returns a ULONG. Used with

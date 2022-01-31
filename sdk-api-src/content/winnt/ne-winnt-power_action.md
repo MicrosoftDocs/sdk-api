@@ -56,7 +56,7 @@ Defines values that are used to specify system power action types.
 
 ## -enum-fields
 
-### -field PowerActionNone
+### -field PowerActionNone:0
 
 No system power action.
 

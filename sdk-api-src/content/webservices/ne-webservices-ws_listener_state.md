@@ -54,17 +54,17 @@ The different states that a listener can be in.
 
 ## -enum-fields
 
-### -field WS_LISTENER_STATE_CREATED
+### -field WS_LISTENER_STATE_CREATED:0
 
-### -field WS_LISTENER_STATE_OPENING
+### -field WS_LISTENER_STATE_OPENING:1
 
-### -field WS_LISTENER_STATE_OPEN
+### -field WS_LISTENER_STATE_OPEN:2
 
-### -field WS_LISTENER_STATE_FAULTED
+### -field WS_LISTENER_STATE_FAULTED:3
 
-### -field WS_LISTENER_STATE_CLOSING
+### -field WS_LISTENER_STATE_CLOSING:4
 
-### -field WS_LISTENER_STATE_CLOSED
+### -field WS_LISTENER_STATE_CLOSED:5
 
 ## -remarks
 

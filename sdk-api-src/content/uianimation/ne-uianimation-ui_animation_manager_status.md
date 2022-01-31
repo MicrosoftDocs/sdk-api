@@ -56,11 +56,11 @@ Defines the activity status of an animation manager.
 
 ## -enum-fields
 
-### -field UI_ANIMATION_MANAGER_IDLE
+### -field UI_ANIMATION_MANAGER_IDLE:0
 
 The animation manager is idle; no animations are currently playing.
 
-### -field UI_ANIMATION_MANAGER_BUSY
+### -field UI_ANIMATION_MANAGER_BUSY:1
 
 The animation manager is busy; at least one animation is currently playing or scheduled.
 

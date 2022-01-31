@@ -57,18 +57,18 @@ These flags enumerate reasons why URLs are included or excluded from the current
 
 ## -enum-fields
 
-### -field CLUSIONREASON_UNKNOWNSCOPE
+### -field CLUSIONREASON_UNKNOWNSCOPE:0
 
 The URL has been excluded because its scope in unknown. There is no scope that would include or exclude this URL so it is excluded by default.
 
-### -field CLUSIONREASON_DEFAULT
+### -field CLUSIONREASON_DEFAULT:1
 
 The URL has been included or excluded by a default rule. Default rules are set during setup or first run.
 
-### -field CLUSIONREASON_USER
+### -field CLUSIONREASON_USER:2
 
 The URL has been included or excluded by a user rule. User rules are set either by the user through Control Panel or by a calling application through the <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchcrawlscopemanager">ISearchCrawlScopeManager</a> interface.
 
-### -field CLUSIONREASON_GROUPPOLICY
+### -field CLUSIONREASON_GROUPPOLICY:3
 
  Not Supported.

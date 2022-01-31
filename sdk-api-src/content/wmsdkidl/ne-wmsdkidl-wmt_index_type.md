@@ -56,7 +56,7 @@ The <b>WMT_INDEX_TYPE</b> enumeration type defines the type of object that will 
 
 ## -enum-fields
 
-### -field WMT_IT_NEAREST_DATA_UNIT
+### -field WMT_IT_NEAREST_DATA_UNIT:1
 
 The index will associate indexes with the nearest data unit, or packet, in the Windows Media file.
 

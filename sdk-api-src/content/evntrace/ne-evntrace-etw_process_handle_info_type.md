@@ -75,7 +75,7 @@ Specifies what kind of operation will be done on a handle. currently used with t
 
 ## -enum-fields
 
-### -field EtwQueryPartitionInformation
+### -field EtwQueryPartitionInformation:1
 
 Used to query partition identifying information. _InBuffer_ should be Null.
 _OutBuffer_ should be large enough to hold the returned
@@ -84,12 +84,12 @@ structure. Note that this will only return a non-zero structure when the queried
 handle is for a trace file generated from a non-host partition on Windows 10,
 version 1709 or later.
 
-### -field EtwQueryPartitionInformationV2
+### -field EtwQueryPartitionInformationV2:2
 
 This is the same as **EtwQueryPartitionInformation**, except that it returns an
 `ETW_TRACE_PARTITION_INFORMATION_V2` structure which has string partition IDs.
 
-### -field EtwQueryLastDroppedTimes
+### -field EtwQueryLastDroppedTimes:3
 
 Returns a ULONG stream count followed by an array of LARGE_INTEGER timestamps,
 indexed by CPU number, of the last event dropped on each CPU stream. The zero

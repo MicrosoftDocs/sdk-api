@@ -54,47 +54,47 @@ Specifies the type of dither algorithm to apply when converting between image fo
 
 ## -enum-fields
 
-### -field WICBitmapDitherTypeNone
+### -field WICBitmapDitherTypeNone:0
 
 A solid color algorithm without dither.
 
-### -field WICBitmapDitherTypeSolid
+### -field WICBitmapDitherTypeSolid:0
 
 A solid color algorithm without dither.
 
-### -field WICBitmapDitherTypeOrdered4x4
+### -field WICBitmapDitherTypeOrdered4x4:0x1
 
 A 4x4 ordered dither algorithm.
 
-### -field WICBitmapDitherTypeOrdered8x8
+### -field WICBitmapDitherTypeOrdered8x8:0x2
 
 An 8x8 ordered dither algorithm.
 
-### -field WICBitmapDitherTypeOrdered16x16
+### -field WICBitmapDitherTypeOrdered16x16:0x3
 
 A 16x16 ordered dither algorithm.
 
-### -field WICBitmapDitherTypeSpiral4x4
+### -field WICBitmapDitherTypeSpiral4x4:0x4
 
 A 4x4 spiral dither algorithm.
 
-### -field WICBitmapDitherTypeSpiral8x8
+### -field WICBitmapDitherTypeSpiral8x8:0x5
 
 An 8x8 spiral dither algorithm.
 
-### -field WICBitmapDitherTypeDualSpiral4x4
+### -field WICBitmapDitherTypeDualSpiral4x4:0x6
 
 A 4x4 dual spiral dither algorithm.
 
-### -field WICBitmapDitherTypeDualSpiral8x8
+### -field WICBitmapDitherTypeDualSpiral8x8:0x7
 
 An 8x8 dual spiral dither algorithm.
 
-### -field WICBitmapDitherTypeErrorDiffusion
+### -field WICBitmapDitherTypeErrorDiffusion:0x8
 
 An error diffusion algorithm.
 
-### -field WICBITMAPDITHERTYPE_FORCE_DWORD
+### -field WICBITMAPDITHERTYPE_FORCE_DWORD:0x7fffffff
 
 ## -see-also
 

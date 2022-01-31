@@ -54,11 +54,11 @@ Specifies options for determining quality levels.
 
 ## -enum-fields
 
-### -field D3D12_MULTISAMPLE_QUALITY_LEVELS_FLAG_NONE
+### -field D3D12_MULTISAMPLE_QUALITY_LEVELS_FLAG_NONE:0
 
 No options are supported.
 
-### -field D3D12_MULTISAMPLE_QUALITY_LEVELS_FLAG_TILED_RESOURCE
+### -field D3D12_MULTISAMPLE_QUALITY_LEVELS_FLAG_TILED_RESOURCE:0x1
 
 The number of quality levels can be determined for tiled resources.
 

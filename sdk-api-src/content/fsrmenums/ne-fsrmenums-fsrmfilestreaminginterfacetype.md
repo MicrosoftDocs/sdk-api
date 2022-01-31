@@ -56,15 +56,15 @@ Defines the possible streaming interface types.
 
 ## -enum-fields
 
-### -field FsrmFileStreamingInterfaceType_Unknown
+### -field FsrmFileStreamingInterfaceType_Unknown:0
 
 The streaming interface type is unknown; do not use this value.
 
-### -field FsrmFileStreamingInterfaceType_ILockBytes
+### -field FsrmFileStreamingInterfaceType_ILockBytes:0x1
 
 Use an <a href="/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> interface to stream the file.
 
-### -field FsrmFileStreamingInterfaceType_IStream
+### -field FsrmFileStreamingInterfaceType_IStream:0x2
 
 Use an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface to stream the file.
 

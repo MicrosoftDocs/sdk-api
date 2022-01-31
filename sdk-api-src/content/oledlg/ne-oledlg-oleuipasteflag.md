@@ -56,15 +56,15 @@ Indicates the user options that are available to the user when pasting this form
 
 ## -enum-fields
 
-### -field OLEUIPASTE_ENABLEICON
+### -field OLEUIPASTE_ENABLEICON:2048
 
 If the container does not specify this flag for the entry in the <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuipasteentrya">OLEUIPASTEENTRY</a> array passed as input to <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuipastespeciala">OleUIPasteSpecial</a>, the DisplayAsIcon button will be unchecked and disabled when the user selects the format that corresponds to the entry.
 
-### -field OLEUIPASTE_PASTEONLY
+### -field OLEUIPASTE_PASTEONLY:0
 
 The entry in the <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuipasteentrya">OLEUIPASTEENTRY</a> array is valid for pasting only.
 
-### -field OLEUIPASTE_PASTE
+### -field OLEUIPASTE_PASTE:512
 
 The entry in the <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuipasteentrya">OLEUIPASTEENTRY</a> array is valid for pasting. It may also be valid for linking if any of the following linking flags are specified. If it is valid for linking, then the following flags indicate which link types are acceptable by OR'ing together the appropriate OLEUIPASTE_LINKTYPE<i>n</i> values. These values correspond as follows to the array of link types passed to <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuipastespeciala">OleUIPasteSpecial</a> in the <b>arrLinkTypes</b> member of the <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuipastespeciala">OLEUIPASTESPECIAL</a> structure:
 
@@ -80,39 +80,39 @@ The entry in the <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuipasteentrya
 </ul>
 The <b>arrLinkTypes</b> array is an array of registered clipboard formats for linking. A maximum of 8 link types is allowed.
 
-### -field OLEUIPASTE_LINKANYTYPE
+### -field OLEUIPASTE_LINKANYTYPE:1024
 
 Any link type.
 
-### -field OLEUIPASTE_LINKTYPE1
+### -field OLEUIPASTE_LINKTYPE1:1
 
 Link type 1.
 
-### -field OLEUIPASTE_LINKTYPE2
+### -field OLEUIPASTE_LINKTYPE2:2
 
 Link type 2.
 
-### -field OLEUIPASTE_LINKTYPE3
+### -field OLEUIPASTE_LINKTYPE3:4
 
 Link type 3.
 
-### -field OLEUIPASTE_LINKTYPE4
+### -field OLEUIPASTE_LINKTYPE4:8
 
 Link type 4.
 
-### -field OLEUIPASTE_LINKTYPE5
+### -field OLEUIPASTE_LINKTYPE5:16
 
 Link type 5.
 
-### -field OLEUIPASTE_LINKTYPE6
+### -field OLEUIPASTE_LINKTYPE6:32
 
 Link type 6.
 
-### -field OLEUIPASTE_LINKTYPE7
+### -field OLEUIPASTE_LINKTYPE7:64
 
 Link type 7.
 
-### -field OLEUIPASTE_LINKTYPE8
+### -field OLEUIPASTE_LINKTYPE8:128
 
 Link type 8.
 

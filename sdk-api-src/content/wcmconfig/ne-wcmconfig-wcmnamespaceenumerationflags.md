@@ -56,11 +56,11 @@ Describes the types of enumeration flags.
 
 ## -enum-fields
 
-### -field SharedEnumeration
+### -field SharedEnumeration:1
 
 Describes a shared enumeration. It enumerates all namespaces that have been compiled for the machine space.
 
-### -field UserEnumeration
+### -field UserEnumeration:2
 
 Describes a user-specific  enumeration. It enumerates the namespaces that have been compiled for a specific user.
 

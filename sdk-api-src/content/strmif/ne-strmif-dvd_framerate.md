@@ -56,11 +56,11 @@ Indicates whether the DVD is authored to play at 25 or 30 frames per second.
 
 ## -enum-fields
 
-### -field DVD_FPS_25
+### -field DVD_FPS_25:1
 
 Twenty-five frames per second.
 
-### -field DVD_FPS_30NonDrop
+### -field DVD_FPS_30NonDrop:3
 
 Exactly 30 frames per second.
 

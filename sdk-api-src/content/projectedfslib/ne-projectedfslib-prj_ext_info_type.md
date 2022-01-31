@@ -41,7 +41,7 @@ Specifies extended information types for <a href="/windows/desktop/api/projected
 
 ## -enum-fields
 
-### -field PRJ_EXT_INFO_TYPE_SYMLINK
+### -field PRJ_EXT_INFO_TYPE_SYMLINK:1
 
 This <a href="/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_extended_info">PRJ_EXTENDED_INFO</a> specifies the target of a symbolic link.
 

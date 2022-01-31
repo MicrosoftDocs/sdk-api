@@ -56,19 +56,19 @@ The <b>PEER_INVITATION_RESPONSE_TYPE</b> enumeration defines the type of  respon
 
 ## -enum-fields
 
-### -field PEER_INVITATION_RESPONSE_DECLINED
+### -field PEER_INVITATION_RESPONSE_DECLINED:0
 
 The invitation was declined by the peer.
 
-### -field PEER_INVITATION_RESPONSE_ACCEPTED
+### -field PEER_INVITATION_RESPONSE_ACCEPTED:1
 
 The invitation was accepted by the peer.
 
-### -field PEER_INVITATION_RESPONSE_EXPIRED
+### -field PEER_INVITATION_RESPONSE_EXPIRED:2
 
 The invitation has expired.
 
-### -field PEER_INVITATION_RESPONSE_ERROR
+### -field PEER_INVITATION_RESPONSE_ERROR:3
 
 An error occurred during the invitation process.
 

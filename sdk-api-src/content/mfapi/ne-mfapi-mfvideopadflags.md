@@ -56,15 +56,15 @@ Specifies whether to pad a video image so that it fits within a specified aspect
 
 ## -enum-fields
 
-### -field MFVideoPadFlag_PAD_TO_None
+### -field MFVideoPadFlag_PAD_TO_None:0
 
 Do not pad the image.
 
-### -field MFVideoPadFlag_PAD_TO_4x3
+### -field MFVideoPadFlag_PAD_TO_4x3:1
 
 Pad the image so that it can be displayed in a 4×3 area.
 
-### -field MFVideoPadFlag_PAD_TO_16x9
+### -field MFVideoPadFlag_PAD_TO_16x9:2
 
 Pad the image so that it can be displayed in a 16×9 area.
 

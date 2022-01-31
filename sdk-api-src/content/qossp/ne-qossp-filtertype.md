@@ -54,7 +54,7 @@ The <b>FilterType</b> enumeration specifies the type of filter used for an RSVP 
 
 ## -enum-fields
 
-### -field FILTERSPECV4
+### -field FILTERSPECV4:1
 
 Indicates an IPv4 FILTERSPEC.
 

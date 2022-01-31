@@ -54,23 +54,23 @@ Indicates the type of device that the game is running on.
 
 ## -enum-fields
 
-### -field GAMING_DEVICE_DEVICE_ID_NONE
+### -field GAMING_DEVICE_DEVICE_ID_NONE:0
 
 The device is not in the Xbox family.
 
-### -field GAMING_DEVICE_DEVICE_ID_XBOX_ONE
+### -field GAMING_DEVICE_DEVICE_ID_XBOX_ONE:0x768BAE26
 
 The device is an Xbox One (original).
 
-### -field GAMING_DEVICE_DEVICE_ID_XBOX_ONE_S
+### -field GAMING_DEVICE_DEVICE_ID_XBOX_ONE_S:0x2A7361D9
 
 The device is an Xbox One S.
 
-### -field GAMING_DEVICE_DEVICE_ID_XBOX_ONE_X
+### -field GAMING_DEVICE_DEVICE_ID_XBOX_ONE_X:0x5AD617C7
 
 The device is an Xbox One X.
 
-### -field GAMING_DEVICE_DEVICE_ID_XBOX_ONE_X_DEVKIT
+### -field GAMING_DEVICE_DEVICE_ID_XBOX_ONE_X_DEVKIT:0x10F7CDE3
 
 The device is an Xbox One X dev kit.
 

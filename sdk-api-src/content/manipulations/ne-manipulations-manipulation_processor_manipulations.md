@@ -54,27 +54,27 @@ The <b>MANIPULATION_PROCESSOR_MANIPULATIONS</b> enumeration different kinds of m
 
 ## -enum-fields
 
-### -field MANIPULATION_NONE
+### -field MANIPULATION_NONE:0
 
 Indicates that no manipulations are performed.
 
-### -field MANIPULATION_TRANSLATE_X
+### -field MANIPULATION_TRANSLATE_X:0x1
 
 Indicates manipulation by moving the target across the horizontal axis.
 
-### -field MANIPULATION_TRANSLATE_Y
+### -field MANIPULATION_TRANSLATE_Y:0x2
 
 Indicates manipulation by moving the target across the vertical axis.
 
-### -field MANIPULATION_SCALE
+### -field MANIPULATION_SCALE:0x4
 
 Indicates manipulation by making the target larger or smaller.
 
-### -field MANIPULATION_ROTATE
+### -field MANIPULATION_ROTATE:0x8
 
 Indicates manipulation by rotating the target.
 
-### -field MANIPULATION_ALL
+### -field MANIPULATION_ALL:0xf
 
 Indicates all manipulations are enabled.
 

@@ -54,15 +54,15 @@ Specifies the options for indexing a JPEG image.
 
 ## -enum-fields
 
-### -field WICJpegIndexingOptionsGenerateOnDemand
+### -field WICJpegIndexingOptionsGenerateOnDemand:0
 
 Index generation is deferred until <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">IWICBitmapSource::CopyPixels</a> is called on the image.
 
-### -field WICJpegIndexingOptionsGenerateOnLoad
+### -field WICJpegIndexingOptionsGenerateOnLoad:0x1
 
 Index generation is performed when the when the image is initially loaded.
 
-### -field WICJpegIndexingOptions_FORCE_DWORD
+### -field WICJpegIndexingOptions_FORCE_DWORD:0x7fffffff
 
 Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits. This value is not used.
 

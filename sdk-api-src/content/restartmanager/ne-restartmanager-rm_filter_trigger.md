@@ -56,7 +56,7 @@ Describes the restart or shutdown actions for an application or service.
 
 ## -enum-fields
 
-### -field RmFilterTriggerInvalid
+### -field RmFilterTriggerInvalid:0
 
 An invalid filter trigger.
 

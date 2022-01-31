@@ -56,23 +56,23 @@ Specifies the supported normalization forms.
 
 ## -enum-fields
 
-### -field NormalizationOther
+### -field NormalizationOther:0
 
 Not supported.
 
-### -field NormalizationC
+### -field NormalizationC:0x1
 
 Unicode normalization form C, canonical composition. Transforms each decomposed grouping, consisting of a base character plus combining characters, to the canonical precomposed equivalent. For example, A + ¨ becomes Ä.
 
-### -field NormalizationD
+### -field NormalizationD:0x2
 
 Unicode normalization form D, canonical decomposition. Transforms each precomposed character to its canonical decomposed equivalent. For example, Ä becomes A + ¨.
 
-### -field NormalizationKC
+### -field NormalizationKC:0x5
 
 Unicode normalization form KC, compatibility composition. Transforms each base plus combining characters to the canonical precomposed equivalent and all compatibility characters to their equivalents. For example, the ligature ﬁ becomes f + i; similarly, A + ¨ + ﬁ + n becomes Ä + f + i + n.
 
-### -field NormalizationKD
+### -field NormalizationKD:0x6      
 
 Unicode normalization form KD, compatibility decomposition. Transforms each precomposed character to its canonical decomposed equivalent and all compatibility characters to their equivalents. For example, Ä + ﬁ + n becomes A + ¨ + f + i + n.
 

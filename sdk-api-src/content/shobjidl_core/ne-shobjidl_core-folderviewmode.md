@@ -54,46 +54,46 @@ Specifies the folder view type.
 
 ## -enum-fields
 
-### -field FVM_AUTO
+### -field FVM_AUTO:-1
 
 The view should determine the best option.
 
-### -field FVM_FIRST
+### -field FVM_FIRST:1
 
 The minimum constant value in <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderviewmode">FOLDERVIEWMODE</a>, for validation purposes.
 
-### -field FVM_ICON
+### -field FVM_ICON:1
 
 The view should display medium-size icons.
 
-### -field FVM_SMALLICON
+### -field FVM_SMALLICON:2
 
 The view should display small icons.
 
-### -field FVM_LIST
+### -field FVM_LIST:3
 
 Object names are displayed in a list view.
 
-### -field FVM_DETAILS
+### -field FVM_DETAILS:4
 
 Object names and other selected information, such as the size or date last updated, are shown.
 
-### -field FVM_THUMBNAIL
+### -field FVM_THUMBNAIL:5
 
 The view should display thumbnail icons.
 
-### -field FVM_TILE
+### -field FVM_TILE:6
 
 The view should display large icons.
 
-### -field FVM_THUMBSTRIP
+### -field FVM_THUMBSTRIP:7
 
 The view should display icons in a filmstrip format.
 
-### -field FVM_CONTENT
+### -field FVM_CONTENT:8
 
 <b>Windows 7 and later</b>. The view should display content mode.
 
-### -field FVM_LAST
+### -field FVM_LAST:8
 
 The maximum constant value in <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderviewmode">FOLDERVIEWMODE</a>, for validation purposes.

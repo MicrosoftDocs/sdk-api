@@ -51,22 +51,22 @@ Defines when font resources should be subset during printing.
 
 ## -enum-fields
 
-### -field D2D1_PRINT_FONT_SUBSET_MODE_DEFAULT
+### -field D2D1_PRINT_FONT_SUBSET_MODE_DEFAULT:0
 
 Uses a heuristic strategy to decide when to subset fonts. 
 
 > [!NOTE]
 > If the print driver has requested archive-optimized content, then Direct2D will subset fonts once, for the entire document.
 
-### -field D2D1_PRINT_FONT_SUBSET_MODE_EACHPAGE
+### -field D2D1_PRINT_FONT_SUBSET_MODE_EACHPAGE:1
 
 Subsets and embeds font resources in each page, then discards that font subset after the page is printed out.
 
-### -field D2D1_PRINT_FONT_SUBSET_MODE_NONE
+### -field D2D1_PRINT_FONT_SUBSET_MODE_NONE:2
 
 Sends out the original font resources without subsetting along with the page that first uses the font, and re-uses the font resources for later pages without resending them.
 
-### -field D2D1_PRINT_FONT_SUBSET_MODE_FORCE_DWORD
+### -field D2D1_PRINT_FONT_SUBSET_MODE_FORCE_DWORD:0xffffffff
 
 A value that's guaranteed to be a DWORD.
 

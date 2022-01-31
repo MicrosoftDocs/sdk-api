@@ -56,7 +56,7 @@ Defines the default access permissions to apply to the channel.
 
 ## -enum-fields
 
-### -field EvtChannelIsolationTypeApplication
+### -field EvtChannelIsolationTypeApplication:0
 
 Provides open access to the channel.
 

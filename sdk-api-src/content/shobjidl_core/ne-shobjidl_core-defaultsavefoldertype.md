@@ -54,7 +54,7 @@ Specifies the default save location.
 
 ## -enum-fields
 
-### -field DSFT_DETECT
+### -field DSFT_DETECT:1
 
 The current user determines the save folder. If the current user is the library's owner,  use the private save location (<a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-defaultsavefoldertype">DSFT_PRIVATE</a>). If the current user is not the library's owner, use the public save location (<a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-defaultsavefoldertype">DSFT_PUBLIC</a>).
 

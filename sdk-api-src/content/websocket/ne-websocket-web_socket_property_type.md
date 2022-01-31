@@ -56,7 +56,7 @@ The <b>WEB_SOCKET_PROPERTY_TYPE</b> enumeration specifies a WebSocket property t
 
 ## -enum-fields
 
-### -field WEB_SOCKET_RECEIVE_BUFFER_SIZE_PROPERTY_TYPE
+### -field WEB_SOCKET_RECEIVE_BUFFER_SIZE_PROPERTY_TYPE:0
 
 Property type: <b>ULONG</b>
 
@@ -66,7 +66,7 @@ The default is 4096.
 
 Used with <a href="/windows/desktop/api/websocket/nf-websocket-websocketcreateclienthandle">WebSocketCreateClientHandle</a> and <a href="/windows/desktop/api/websocket/nf-websocket-websocketcreateserverhandle">WebSocketCreateServerHandle</a>.
 
-### -field WEB_SOCKET_SEND_BUFFER_SIZE_PROPERTY_TYPE
+### -field WEB_SOCKET_SEND_BUFFER_SIZE_PROPERTY_TYPE:1
 
 Property type: <b>ULONG</b>
 
@@ -76,7 +76,7 @@ The default is 4096 on a handle created with <a href="/windows/desktop/api/webso
 
 Used with <a href="/windows/desktop/api/websocket/nf-websocket-websocketcreateclienthandle">WebSocketCreateClientHandle</a> and <a href="/windows/desktop/api/websocket/nf-websocket-websocketcreateserverhandle">WebSocketCreateServerHandle</a>.
 
-### -field WEB_SOCKET_DISABLE_MASKING_PROPERTY_TYPE
+### -field WEB_SOCKET_DISABLE_MASKING_PROPERTY_TYPE:2
 
 Property type:  <b>BOOL</b>
 
@@ -85,7 +85,7 @@ By default, this property is not used and masking is enabled.
 
 Used with <a href="/windows/desktop/api/websocket/nf-websocket-websocketcreateclienthandle">WebSocketCreateClientHandle</a> and <a href="/windows/desktop/api/websocket/nf-websocket-websocketcreateserverhandle">WebSocketCreateServerHandle</a>.
 
-### -field WEB_SOCKET_ALLOCATED_BUFFER_PROPERTY_TYPE
+### -field WEB_SOCKET_ALLOCATED_BUFFER_PROPERTY_TYPE:3
 
 Property type: <b>PVOID</b>
 
@@ -94,7 +94,7 @@ The passed buffer must be aligned to an 8-byte boundary and be greater in size t
 
 Used with <a href="/windows/desktop/api/websocket/nf-websocket-websocketcreateclienthandle">WebSocketCreateClientHandle</a> and <a href="/windows/desktop/api/websocket/nf-websocket-websocketcreateserverhandle">WebSocketCreateServerHandle</a>.
 
-### -field WEB_SOCKET_DISABLE_UTF8_VERIFICATION_PROPERTY_TYPE
+### -field WEB_SOCKET_DISABLE_UTF8_VERIFICATION_PROPERTY_TYPE:4
 
 Property type: <b>BOOL</b>
 
@@ -102,7 +102,7 @@ The WebSocket property disables UTF-8 verification.
 
 Used with <a href="/windows/desktop/api/websocket/nf-websocket-websocketcreateclienthandle">WebSocketCreateClientHandle</a> and <a href="/windows/desktop/api/websocket/nf-websocket-websocketcreateserverhandle">WebSocketCreateServerHandle</a>.
 
-### -field WEB_SOCKET_KEEPALIVE_INTERVAL_PROPERTY_TYPE
+### -field WEB_SOCKET_KEEPALIVE_INTERVAL_PROPERTY_TYPE:5
 
 Property type: <b>ULONG</b>
 
@@ -113,7 +113,7 @@ The WebSocket property is the interval, in milliseconds, to send a keep-alive pa
 
 Used with <a href="/windows/desktop/api/websocket/nf-websocket-websocketgetglobalproperty">WebSocketGetGlobalProperty</a>.
 
-### -field WEB_SOCKET_SUPPORTED_VERSIONS_PROPERTY_TYPE
+### -field WEB_SOCKET_SUPPORTED_VERSIONS_PROPERTY_TYPE:6
 
 Property type: <b>ULONG</b> array
 

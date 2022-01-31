@@ -54,7 +54,7 @@ The <b>EncodingType</b> enumeration specifies the type of encoding applied to a 
 
 ## -enum-fields
 
-### -field XCN_CRYPT_STRING_BASE64HEADER
+### -field XCN_CRYPT_STRING_BASE64HEADER:0
 
 The string is base64 encoded with beginning and ending certificate headers. Base64 is an encoding scheme  used to transmit binary data. The data to be encoded is examined three bytes at a time. Every six bits in the 24-bit buffer is used as an index into a text string. The strings used vary depending on the type of data being encoded. The following string is commonly used for Multipurpose Internet Mail Extensions (MIME) email base64 encoding.
 
@@ -80,15 +80,15 @@ WD30lAfGBr8SZixLep4pMIN/wO0eu6f30cBuoPtDnDulNT8AuQHjkJIc8Qc=
 ```
 
 
-### -field XCN_CRYPT_STRING_BASE64
+### -field XCN_CRYPT_STRING_BASE64:0x1
 
 The string is base64 encoded without beginning and ending certificate headers.
 
-### -field XCN_CRYPT_STRING_BINARY
+### -field XCN_CRYPT_STRING_BINARY:0x2
 
 The string is a pure binary sequence. It is not encoded.
 
-### -field XCN_CRYPT_STRING_BASE64REQUESTHEADER
+### -field XCN_CRYPT_STRING_BASE64REQUESTHEADER:0x3
 
 The string is base64 encoded with beginning and ending certificate request headers. This is shown in the following example.
 
@@ -116,7 +116,7 @@ wkcejcttDjo3Kw==
 ```
 
 
-### -field XCN_CRYPT_STRING_HEX
+### -field XCN_CRYPT_STRING_HEX:0x4
 
 The string is hexadecimal encoded. Each 4-bit nibble of the string is represented as a number between zero and nine or a letter between A and F (or a and f). This is shown in the following example.
 
@@ -128,7 +128,7 @@ The string is hexadecimal encoded. Each 4-bit nibble of the string is represente
 ```
 
 
-### -field XCN_CRYPT_STRING_HEXASCII
+### -field XCN_CRYPT_STRING_HEXASCII:0x5
 
 The string is hexadecimal encoded, and the corresponding ASCII characters are displayed. This is shown in the following example.
 
@@ -140,7 +140,7 @@ The string is hexadecimal encoded, and the corresponding ASCII characters are di
 ```
 
 
-### -field XCN_CRYPT_STRING_BASE64_ANY
+### -field XCN_CRYPT_STRING_BASE64_ANY:0x6
 
 The string is base64 encoded. Enumeration values are tried in the following order:
 
@@ -149,7 +149,7 @@ The string is base64 encoded. Enumeration values are tried in the following orde
 <li><b>XCN_CRYPT_STRING_BASE64</b></li>
 </ol>
 
-### -field XCN_CRYPT_STRING_ANY
+### -field XCN_CRYPT_STRING_ANY:0x7
 
 Enumeration values are tried in the following order:
 
@@ -159,7 +159,7 @@ Enumeration values are tried in the following order:
 </ol>
 The <b>XCN_CRYPT_STRING_BINARY</b> value always succeeds.
 
-### -field XCN_CRYPT_STRING_HEX_ANY
+### -field XCN_CRYPT_STRING_HEX_ANY:0x8
 
 Enumeration values are tried in the following order:
 
@@ -170,7 +170,7 @@ Enumeration values are tried in the following order:
 <li><b>XCN_CRYPT_STRING_HEX</b></li>
 </ol>
 
-### -field XCN_CRYPT_STRING_BASE64X509CRLHEADER
+### -field XCN_CRYPT_STRING_BASE64X509CRLHEADER:0x9
 
 The string is base64 encoded with beginning and ending <a href="/windows/desktop/SecGloss/x-gly">X.509</a> <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) headers. This is shown in the following example.
 
@@ -198,7 +198,7 @@ wkcejcttDjo3Kw==
 ```
 
 
-### -field XCN_CRYPT_STRING_HEXADDR
+### -field XCN_CRYPT_STRING_HEXADDR:0xa
 
 The string is hexadecimal encoded and displayed as a hexadecimal address. This is shown in the following example.
 
@@ -210,7 +210,7 @@ The string is hexadecimal encoded and displayed as a hexadecimal address. This i
 ```
 
 
-### -field XCN_CRYPT_STRING_HEXASCIIADDR
+### -field XCN_CRYPT_STRING_HEXASCIIADDR:0xb
 
 The string is hexadecimal encoded and displayed as a hexadecimal address along with the corresponding ASCII characters. This is shown in the following example.
 
@@ -222,7 +222,7 @@ The string is hexadecimal encoded and displayed as a hexadecimal address along w
 ```
 
 
-### -field XCN_CRYPT_STRING_HEXRAW
+### -field XCN_CRYPT_STRING_HEXRAW:0xc
 
 The string is hexadecimal encoded and displayed without punctuation. <b>XCN_CRYPT_STRING_HEXRAW</b> is available only with Windows Vista.
 
@@ -232,25 +232,25 @@ The string is hexadecimal encoded and displayed without punctuation. <b>XCN_CRYP
 ```
 
 
-### -field XCN_CRYPT_STRING_BASE64URI
+### -field XCN_CRYPT_STRING_BASE64URI:0xd
 
-### -field XCN_CRYPT_STRING_ENCODEMASK
+### -field XCN_CRYPT_STRING_ENCODEMASK:0xff
 
-### -field XCN_CRYPT_STRING_CHAIN
+### -field XCN_CRYPT_STRING_CHAIN:0x100
 
-### -field XCN_CRYPT_STRING_TEXT
+### -field XCN_CRYPT_STRING_TEXT:0x200
 
-### -field XCN_CRYPT_STRING_PERCENTESCAPE
+### -field XCN_CRYPT_STRING_PERCENTESCAPE:0x8000000
 
-### -field XCN_CRYPT_STRING_HASHDATA
+### -field XCN_CRYPT_STRING_HASHDATA:0x10000000
 
-### -field XCN_CRYPT_STRING_STRICT
+### -field XCN_CRYPT_STRING_STRICT:0x20000000
 
-### -field XCN_CRYPT_STRING_NOCRLF
+### -field XCN_CRYPT_STRING_NOCRLF:0x40000000
 
 Removes carriage return and line feed control characters from the encoded string.
 
-### -field XCN_CRYPT_STRING_NOCR
+### -field XCN_CRYPT_STRING_NOCR:0x80000000
 
 Removes the carriage return control character from the encoded string.
 

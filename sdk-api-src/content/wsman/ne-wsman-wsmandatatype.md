@@ -54,18 +54,18 @@ Specifies the current data type of the union in the <a href="/windows/desktop/ap
 
 ## -enum-fields
 
-### -field WSMAN_DATA_NONE
+### -field WSMAN_DATA_NONE:0
 
 The structure is not valid yet.
 
-### -field WSMAN_DATA_TYPE_TEXT
+### -field WSMAN_DATA_TYPE_TEXT:1
 
 The structure contains text.
 
-### -field WSMAN_DATA_TYPE_BINARY
+### -field WSMAN_DATA_TYPE_BINARY:2
 
 The structure contains binary data.
 
-### -field WSMAN_DATA_TYPE_DWORD
+### -field WSMAN_DATA_TYPE_DWORD:4
 
 The structure contains a DWORD integer.

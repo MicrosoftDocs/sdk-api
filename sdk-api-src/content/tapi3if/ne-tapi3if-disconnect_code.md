@@ -56,7 +56,7 @@ The
 
 ## -enum-fields
 
-### -field DC_NORMAL
+### -field DC_NORMAL:0
 
 The call is being disconnected as part of the normal cycle of the call.
 

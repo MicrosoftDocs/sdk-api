@@ -54,23 +54,23 @@ Specifies chroma siting. Chroma siting defines the positions of the chroma sampl
 
 ## -enum-fields
 
-### -field eAVEncVideoChromaSubsamplingFormat_SameAsSource
+### -field eAVEncVideoChromaSubsamplingFormat_SameAsSource:0
 
 Use the same chroma siting as the input video. This flag applies to the <b>AVEncVideoOutputChromaResolution</b> property only. This flag may not be combined with other flags.
 
-### -field eAVEncVideoChromaSubsamplingFormat_ProgressiveChroma
+### -field eAVEncVideoChromaSubsamplingFormat_ProgressiveChroma:0x8
 
 Chroma should be reconstructed as if the underlying video was progressive content, rather than skipping fields or applying chroma filtering to minimize artifacts from reconstructing 4:2:0 interlaced chroma.
 
-### -field eAVEncVideoChromaSubsamplingFormat_Horizontally_Cosited
+### -field eAVEncVideoChromaSubsamplingFormat_Horizontally_Cosited:0x4
 
 Chroma samples are aligned horizontally with multiples of the luma samples.
 
-### -field eAVEncVideoChromaSubsamplingFormat_Vertically_Cosited
+### -field eAVEncVideoChromaSubsamplingFormat_Vertically_Cosited:0x2
 
 Chroma samples are aligned vertically with multiples of the luma samples.
 
-### -field eAVEncVideoChromaSubsamplingFormat_Vertically_AlignedChromaPlanes
+### -field eAVEncVideoChromaSubsamplingFormat_Vertically_AlignedChromaPlanes:0x1
 
 The chroma planes have the same phase alignment. It is not valid to omit this flag unless the data is vertically cosited. If the data is not vertically cosited, this flag is required. If this flag is absent, the Cb and Cr samples are sited on alternate lines. For example, interlaced PAL DV video uses non-aligned chroma planes.
 

@@ -56,15 +56,15 @@ The <b>PEER_PUBLICATION_SCOPE</b> enumeration defines the set of scopes for the 
 
 ## -enum-fields
 
-### -field PEER_PUBLICATION_SCOPE_NONE
+### -field PEER_PUBLICATION_SCOPE_NONE:0x0
 
 No scope is set for the publication of this data.
 
-### -field PEER_PUBLICATION_SCOPE_NEAR_ME
+### -field PEER_PUBLICATION_SCOPE_NEAR_ME:0x1
 
 The data is published to peers in the same logical or virtual subnet.
 
-### -field PEER_PUBLICATION_SCOPE_INTERNET
+### -field PEER_PUBLICATION_SCOPE_INTERNET:0x2
 
 The data is published to peers on the Internet.
 

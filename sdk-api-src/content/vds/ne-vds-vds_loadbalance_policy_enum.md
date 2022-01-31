@@ -60,36 +60,36 @@ Defines a set of valid load balance policies for a path. These policies correspo
 
 ## -enum-fields
 
-### -field VDS_LBP_UNKNOWN
+### -field VDS_LBP_UNKNOWN:0
 
 The policy is unknown.
 
-### -field VDS_LBP_FAILOVER
+### -field VDS_LBP_FAILOVER:1
 
 The policy uses one primary path with other paths being backup paths.
 
-### -field VDS_LBP_ROUND_ROBIN
+### -field VDS_LBP_ROUND_ROBIN:2
 
 The policy uses all paths in round-robin fashion.
 
-### -field VDS_LBP_ROUND_ROBIN_WITH_SUBSET
+### -field VDS_LBP_ROUND_ROBIN_WITH_SUBSET:3
 
 The policy uses primary paths in round-robin fashion. The backup paths are used if all of the primary paths 
      fail.
 
-### -field VDS_LBP_DYN_LEAST_QUEUE_DEPTH
+### -field VDS_LBP_DYN_LEAST_QUEUE_DEPTH:4
 
 The policy uses the path with the least number of active requests.
 
-### -field VDS_LBP_WEIGHTED_PATHS
+### -field VDS_LBP_WEIGHTED_PATHS:5
 
 The policy uses the path with the least weight (each path is assigned a weight).
 
-### -field VDS_LBP_LEAST_BLOCKS
+### -field VDS_LBP_LEAST_BLOCKS:6
 
 The policy uses the path with the least blocks.
 
-### -field VDS_LBP_VENDOR_SPECIFIC
+### -field VDS_LBP_VENDOR_SPECIFIC:7
 
 The policy is a vendor-specific policy.
 

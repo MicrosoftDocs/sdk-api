@@ -57,83 +57,83 @@ The <b>MBN_BAND_CLASS</b> enumerated type defines the frequency band classes.
 
 ## -enum-fields
 
-### -field MBN_BAND_CLASS_NONE
+### -field MBN_BAND_CLASS_NONE:0
 
 Unknown band class.
 
-### -field MBN_BAND_CLASS_0
+### -field MBN_BAND_CLASS_0:0x1
 
 Band class 0.
 
-### -field MBN_BAND_CLASS_I
+### -field MBN_BAND_CLASS_I:0x2
 
 Band class 1.
 
-### -field MBN_BAND_CLASS_II
+### -field MBN_BAND_CLASS_II:0x4
 
 Band class 2.
 
-### -field MBN_BAND_CLASS_III
+### -field MBN_BAND_CLASS_III:0x8
 
 Band class 3.
 
-### -field MBN_BAND_CLASS_IV
+### -field MBN_BAND_CLASS_IV:0x10
 
 Band class 4.
 
-### -field MBN_BAND_CLASS_V
+### -field MBN_BAND_CLASS_V:0x20
 
 Band class 5.
 
-### -field MBN_BAND_CLASS_VI
+### -field MBN_BAND_CLASS_VI:0x40
 
 Band class 6.
 
-### -field MBN_BAND_CLASS_VII
+### -field MBN_BAND_CLASS_VII:0x80
 
 Band class 7.
 
-### -field MBN_BAND_CLASS_VIII
+### -field MBN_BAND_CLASS_VIII:0x100
 
 Band class 8.
 
-### -field MBN_BAND_CLASS_IX
+### -field MBN_BAND_CLASS_IX:0x200
 
 Band class 9.
 
-### -field MBN_BAND_CLASS_X
+### -field MBN_BAND_CLASS_X:0x400
 
 Band class 10.
 
-### -field MBN_BAND_CLASS_XI
+### -field MBN_BAND_CLASS_XI:0x800
 
 Band class 11.
 
-### -field MBN_BAND_CLASS_XII
+### -field MBN_BAND_CLASS_XII:0x1000
 
 Band class 12.
 
-### -field MBN_BAND_CLASS_XIII
+### -field MBN_BAND_CLASS_XIII:0x2000
 
 Band class 13.
 
-### -field MBN_BAND_CLASS_XIV
+### -field MBN_BAND_CLASS_XIV:0x4000
 
 Band class 14.
 
-### -field MBN_BAND_CLASS_XV
+### -field MBN_BAND_CLASS_XV:0x8000
 
 Band class 15.
 
-### -field MBN_BAND_CLASS_XVI
+### -field MBN_BAND_CLASS_XVI:0x10000
 
 Band class 16.
 
-### -field MBN_BAND_CLASS_XVII
+### -field MBN_BAND_CLASS_XVII:0x20000
 
 Band class 17.
 
-### -field MBN_BAND_CLASS_CUSTOM
+### -field MBN_BAND_CLASS_CUSTOM:0x80000000
 
 Custom band class.
 

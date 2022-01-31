@@ -39,23 +39,23 @@ Defines constants that specify a shading rate combiner (for variable-rate shadin
 
 ## -enum-fields
 
-### -field D3D12_SHADING_RATE_COMBINER_PASSTHROUGH
+### -field D3D12_SHADING_RATE_COMBINER_PASSTHROUGH:0
 
 Specifies the combiner `C.xy = A.xy`, for combiner (C) and inputs (A and B).
 
-### -field D3D12_SHADING_RATE_COMBINER_OVERRIDE
+### -field D3D12_SHADING_RATE_COMBINER_OVERRIDE:1
 
 Specifies the combiner `C.xy = B.xy`, for combiner (C) and inputs (A and B).
 
-### -field D3D12_SHADING_RATE_COMBINER_MIN
+### -field D3D12_SHADING_RATE_COMBINER_MIN:2
 
 Specifies the combiner `C.xy = max(A.xy, B.xy)`, for combiner (C) and inputs (A and B).
 
-### -field D3D12_SHADING_RATE_COMBINER_MAX
+### -field D3D12_SHADING_RATE_COMBINER_MAX:3
 
 Specifies the combiner `C.xy = min(A.xy, B.xy)`, for combiner (C) and inputs (A and B).
 
-### -field D3D12_SHADING_RATE_COMBINER_SUM
+### -field D3D12_SHADING_RATE_COMBINER_SUM:4
 
 Specifies the combiner C.xy = min(maxRate, A.xy + B.xy)`, for combiner (C) and inputs (A and B).
 

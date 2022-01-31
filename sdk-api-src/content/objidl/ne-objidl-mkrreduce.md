@@ -68,7 +68,7 @@ Reduces the moniker to a form that the user identifies as a persistent object. I
 
 Reduces the moniker to where any further reduction would reduce it to a form that the user does not identify as a persistent object. Often, this is the same stage as MKRREDUCE_TOUSER.
 
-### -field MKRREDUCE_ALL
+### -field MKRREDUCE_ALL:0
 
 Reduces the moniker until it is in its simplest form, that is, reduce it to itself.
 

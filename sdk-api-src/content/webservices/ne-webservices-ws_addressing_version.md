@@ -55,17 +55,17 @@ Identifies the version of the specification used for
 
 ## -enum-fields
 
-### -field WS_ADDRESSING_VERSION_0_9
+### -field WS_ADDRESSING_VERSION_0_9:1
 
 The message addressing headers correspond to version 0.9 (August 2004)
                     of the addressing specification <a href="https://www.w3.org/Submission/ws-addressing/">Web Services Addressing (WS-Addressing)</a>.
 
-### -field WS_ADDRESSING_VERSION_1_0
+### -field WS_ADDRESSING_VERSION_1_0:2
 
 The message addressing headers correspond to version 1.0 (May 2006)
                     of the addressing specification <a href="https://www.w3.org/TR/ws-addr-core/">Web Services Addressing 1.0 - Core</a>.
 
-### -field WS_ADDRESSING_VERSION_TRANSPORT
+### -field WS_ADDRESSING_VERSION_TRANSPORT:3
 
 This addressing version indicates that the only addressing headers
                     supported are those that are natively supported by the underlying

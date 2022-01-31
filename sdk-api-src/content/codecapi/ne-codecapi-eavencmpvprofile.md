@@ -54,23 +54,23 @@ Specifies the MPEG-2 profile. This enumeration is used with the <a href="/window
 
 ## -enum-fields
 
-### -field eAVEncMPVProfile_unknown
+### -field eAVEncMPVProfile_unknown:0
 
 The profile is not known.
 
-### -field eAVEncMPVProfile_Simple
+### -field eAVEncMPVProfile_Simple:1
 
 Simple Profile.
 
-### -field eAVEncMPVProfile_Main
+### -field eAVEncMPVProfile_Main:2
 
 Main Profile.
 
-### -field eAVEncMPVProfile_High
+### -field eAVEncMPVProfile_High:3
 
 High Profile.
 
-### -field eAVEncMPVProfile_422
+### -field eAVEncMPVProfile_422:4
 
 4:2:2 Profile.
 

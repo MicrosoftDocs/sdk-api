@@ -56,11 +56,11 @@ Specifies the status of a Certified Output Protection Protocol (COPP) session.
 
 ## -enum-fields
 
-### -field COPP_StatusNormal
+### -field COPP_StatusNormal:0x00
 
 Normal status.
 
-### -field COPP_LinkLost
+### -field COPP_LinkLost:0x01
 
 The integrity of the connection has been compromised. Examples of events that cause the driver to set this flag include:
 
@@ -70,11 +70,11 @@ The integrity of the connection has been compromised. Examples of events that ca
 <li>The connector between the computer and the display device was unplugged.</li>
 </ul>
 
-### -field COPP_RenegotiationRequired
+### -field COPP_RenegotiationRequired:0x02
 
 The connection configuration has changed. For example, the user has changed the desktop display mode.
 
-### -field COPP_StatusFlagsReserved
+### -field COPP_StatusFlagsReserved:0xFFFFFFFC
 
 Reserved. Must be zero.
 

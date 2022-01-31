@@ -54,7 +54,7 @@ The <b>FAX_ROUTING_RULE_CODE_ENUM</b> enumeration defines the rules for outbound
 
 ## -enum-fields
 
-### -field frrcANY_CODE
+### -field frrcANY_CODE:0
 
 Any area or country/region code. Used as a default value in functions that require an area or country/region code.
 

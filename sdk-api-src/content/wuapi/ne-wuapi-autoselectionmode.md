@@ -56,19 +56,19 @@ Defines  the types of logic that is used to determine whether a particular updat
 
 ## -enum-fields
 
-### -field asLetWindowsUpdateDecide
+### -field asLetWindowsUpdateDecide:0
 
 Use the standard logic. The update will be automatically selected if it is important, or if it is recommended and Windows Update has been configured to treat recommended updates as important. Otherwise, the update will not be automatically selected.
 
-### -field asAutoSelectIfDownloaded
+### -field asAutoSelectIfDownloaded:1
 
 The update will be automatically selected only if it has been completely downloaded.
 
-### -field asNeverAutoSelect
+### -field asNeverAutoSelect:2
 
 The update will never be automatically selected.
 
-### -field asAlwaysAutoSelect
+### -field asAlwaysAutoSelect:3
 
 The update will always be automatically selected.
 

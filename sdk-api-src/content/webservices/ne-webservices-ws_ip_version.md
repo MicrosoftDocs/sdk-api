@@ -54,13 +54,13 @@ Specifies an IP version.
 
 ## -enum-fields
 
-### -field WS_IP_VERSION_4
+### -field WS_IP_VERSION_4:1
 
 Use IPv4.
 
-### -field WS_IP_VERSION_6
+### -field WS_IP_VERSION_6:2
 
 Use IPv6.
 
-### -field WS_IP_VERSION_AUTO
+### -field WS_IP_VERSION_AUTO:3
 

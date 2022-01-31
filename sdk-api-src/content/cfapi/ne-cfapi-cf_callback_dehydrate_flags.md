@@ -54,11 +54,11 @@ Callback flags for notifying a sync provider that a placeholder under one of its
 
 ## -enum-fields
 
-### -field CF_CALLBACK_DEHYDRATE_FLAG_NONE
+### -field CF_CALLBACK_DEHYDRATE_FLAG_NONE:0x00000000
 
 No dehydrate flag.
 
-### -field CF_CALLBACK_DEHYDRATE_FLAG_BACKGROUND
+### -field CF_CALLBACK_DEHYDRATE_FLAG_BACKGROUND:0x00000001
 
 A flag set if the dehydration request is initiated by a system background service.
 

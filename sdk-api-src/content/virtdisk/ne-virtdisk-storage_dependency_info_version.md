@@ -57,15 +57,15 @@ Contains the version of the virtual hard disk (VHD) [STORAGE_DEPENDENCY_INFO](./
 
 ## -enum-fields
 
-### -field STORAGE_DEPENDENCY_INFO_VERSION_UNSPECIFIED
+### -field STORAGE_DEPENDENCY_INFO_VERSION_UNSPECIFIED:0
 
 The version is not specified.
 
-### -field STORAGE_DEPENDENCY_INFO_VERSION_1
+### -field STORAGE_DEPENDENCY_INFO_VERSION_1:1
 
 Specifies <a href="/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info_type_1">STORAGE_DEPENDENCY_INFO_TYPE_1</a>.
 
-### -field STORAGE_DEPENDENCY_INFO_VERSION_2
+### -field STORAGE_DEPENDENCY_INFO_VERSION_2:2
 
 Specifies <a href="/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info_type_2">STORAGE_DEPENDENCY_INFO_TYPE_2</a>.
 

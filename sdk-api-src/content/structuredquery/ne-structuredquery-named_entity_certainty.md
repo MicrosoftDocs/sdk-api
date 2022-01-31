@@ -56,7 +56,7 @@ Defines the level of certainty for a named entity.
 
 ## -enum-fields
 
-### -field NEC_LOW
+### -field NEC_LOW:0
 
 It could be this named entity but additional evidence is advisable.
 

@@ -57,7 +57,7 @@ The values of the
 
 ## -enum-fields
 
-### -field IAS_LOGGING_UNLIMITED_SIZE
+### -field IAS_LOGGING_UNLIMITED_SIZE:0
 
 Allows the log file to grow without limit. Do not create new log files periodically.
 

@@ -56,19 +56,19 @@ Describes the read settings for caching package components and validating them a
 
 ## -enum-fields
 
-### -field OPC_READ_DEFAULT
+### -field OPC_READ_DEFAULT:0
 
 Validate a package component against <i>OPC</i> conformance requirements when the  component is accessed. For more information about <i>OPC</i> conformance validation, see Remarks.
 
 When validation is performed on access, <i>OPC</i> validation errors can be returned by any method.
 
-### -field OPC_VALIDATE_ON_LOAD
+### -field OPC_VALIDATE_ON_LOAD:0x1
 
 Validate all package components against <i>OPC</i> conformance requirements when a package is loaded. For more information about <i>OPC</i> conformance validation, see Remarks.
 
 If this setting is enabled, performance costs for loading and validating package components are paid when the package is first loaded.
 
-### -field OPC_CACHE_ON_ACCESS
+### -field OPC_CACHE_ON_ACCESS:0x2
 
 Cache decompressed package component data as a temp file when accessing the component for the first time. When a  package component is accessed repeatedly, this caching reduces overhead because the component data is decompressed one time for the first read instead of once for every read operation.
 

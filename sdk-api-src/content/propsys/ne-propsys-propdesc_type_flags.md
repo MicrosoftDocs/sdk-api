@@ -54,63 +54,63 @@ Describes attributes of the <a href="/windows/desktop/properties/propdesc-schema
 
 ## -enum-fields
 
-### -field PDTF_DEFAULT
+### -field PDTF_DEFAULT:0
 
 The property uses the default values for all attributes.
 
-### -field PDTF_MULTIPLEVALUES
+### -field PDTF_MULTIPLEVALUES:0x1
 
 The property can have multiple values. These values are stored as a VT_VECTOR in the <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. This value is set by the <i>multipleValues</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
-### -field PDTF_ISINNATE
+### -field PDTF_ISINNATE:0x2
 
 This flag indicates that a property is read-only, and cannot be written to. This value is set by the <i>isInnate</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
-### -field PDTF_ISGROUP
+### -field PDTF_ISGROUP:0x4
 
 The property is a group heading. This value is set by the <i>isGroup</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
-### -field PDTF_CANGROUPBY
+### -field PDTF_CANGROUPBY:0x8
 
 The user can group by this property. This value is set by the <i>canGroupBy</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
-### -field PDTF_CANSTACKBY
+### -field PDTF_CANSTACKBY:0x10
 
 The user can stack by this property. This value is set by the <i>canStackBy</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
-### -field PDTF_ISTREEPROPERTY
+### -field PDTF_ISTREEPROPERTY:0x20
 
 This property contains a hierarchy. This value is set by the <i>isTreeProperty</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
-### -field PDTF_INCLUDEINFULLTEXTQUERY
+### -field PDTF_INCLUDEINFULLTEXTQUERY:0x40
 
 <b>Deprecated in Windows 7 and later</b>. Include this property in any full text query that is performed. This value is set by the <i>includeInFullTextQuery</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
-### -field PDTF_ISVIEWABLE
+### -field PDTF_ISVIEWABLE:0x80
 
 This property is meant to be viewed by the user. This influences whether the property shows up in the "Choose Columns" dialog box, for example. This value is set by the <i>isViewable</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
-### -field PDTF_ISQUERYABLE
+### -field PDTF_ISQUERYABLE:0x100
 
 <b>Deprecated in Windows 7 and later</b>. This property is included in the list of properties that can be queried. A queryable property must also be viewable. This influences whether the property shows up in the query builder UI. This value is set by the <i>isQueryable</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
-### -field PDTF_CANBEPURGED
+### -field PDTF_CANBEPURGED:0x200
 
 <b>Windows Vista with Service Pack 1 (SP1) and later</b>. Used with an innate property (that is, a value calculated from other property values) to indicate that it can be deleted. This value is used by the <b>Remove Properties</b> UI to determine whether to display a check box next to a property that enables that property to be selected for removal. Note that a property that is not innate can always be purged regardless of the presence or absence of this flag.
 
-### -field PDTF_SEARCHRAWVALUE
+### -field PDTF_SEARCHRAWVALUE:0x400
 
 <b>Windows 7 and later</b>. The unformatted (raw) property value should be used for searching.
 
-### -field PDTF_DONTCOERCEEMPTYSTRINGS
+### -field PDTF_DONTCOERCEEMPTYSTRINGS:0x800
 
-### -field PDTF_ALWAYSINSUPPLEMENTALSTORE
+### -field PDTF_ALWAYSINSUPPLEMENTALSTORE:0x1000
 
-### -field PDTF_ISSYSTEMPROPERTY
+### -field PDTF_ISSYSTEMPROPERTY:0x80000000
 
 This property is owned by the system.
 
-### -field PDTF_MASK_ALL
+### -field PDTF_MASK_ALL:0x80001fff
 
 A mask used to retrieve all flags.
 
