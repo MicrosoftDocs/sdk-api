@@ -40,13 +40,13 @@ A callback function, which you define in your application, that processes messag
 
 ## -parameters
 
-### -param unnamedParam1
+### -param hWnd
 
 Type: **[HWND](/windows/win32/winprog/windows-data-types)**
 
 A handle to the window. This parameter is typically named *hWnd*.
 
-### -param unnamedParam2
+### -param uMsg
 
 Type: **[UINT](/windows/win32/winprog/windows-data-types)**
 
@@ -54,7 +54,7 @@ The message. This parameter is typically named *uMsg*.
 
 For lists of the system-provided messages, see [System-defined messages](/windows/win32/winmsg/about-messages-and-message-queues#system-defined-messages).
 
-### -param unnamedParam3
+### -param wParam
 
 Type: **[WPARAM](/windows/win32/winprog/windows-data-types)**
 
@@ -62,7 +62,7 @@ Additional message information. This parameter is typically named *wParam*.
 
 The contents of the *wParam* parameter depend on the value of the *uMsg* parameter.
 
-### -param unnamedParam4
+### -param lParam
 
 Type: **[LPARAM](/windows/win32/winprog/windows-data-types)**
 
