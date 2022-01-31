@@ -187,12 +187,6 @@ An alternative name for the file.
 
 This name is in the classic 8.3 file name format.
 
-### -field dwFileType
-
-### -field dwCreatorType
-
-### -field wFinderFlags
-
 ## -remarks
 
 If a file has a long file name, the complete name appears in the <b>cFileName</b> member, 

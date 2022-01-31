@@ -187,48 +187,6 @@ An alternative name for the file.
 
 This name is in the classic 8.3 file name format.
 
-### -field dwFileType
-
-### -field dwCreatorType
-
-### -field wFinderFlags
-
- 
-
-
-
-
-##### - dwReserved0.IO_REPARSE_TAG_CSV (0x80000009)
-
-
-##### - dwReserved0.IO_REPARSE_TAG_DEDUP (0x80000013)
-
-
-##### - dwReserved0.IO_REPARSE_TAG_DFS (0x8000000A)
-
-
-##### - dwReserved0.IO_REPARSE_TAG_DFSR (0x80000012)
-
-
-##### - dwReserved0.IO_REPARSE_TAG_HSM (0xC0000004)
-
-
-##### - dwReserved0.IO_REPARSE_TAG_HSM2 (0x80000006)
-
-
-##### - dwReserved0.IO_REPARSE_TAG_MOUNT_POINT (0xA0000003)
-
-
-##### - dwReserved0.IO_REPARSE_TAG_NFS (0x80000014)
-
-
-##### - dwReserved0.IO_REPARSE_TAG_SIS (0x80000007)
-
-
-##### - dwReserved0.IO_REPARSE_TAG_SYMLINK (0xA000000C)
-
-
-##### - dwReserved0.IO_REPARSE_TAG_WIM (0x80000008)
 
 ## -remarks
 
