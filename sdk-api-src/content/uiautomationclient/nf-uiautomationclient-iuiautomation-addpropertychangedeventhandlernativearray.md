@@ -97,6 +97,10 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
+## example
+
+For code examples that show how to implement interfaces that enable clients to receive and handle Microsoft UI Automation events (including AddPropertyChangedEventHandlerNativeArray), see [How to Implement Event Handlers](/windows/win32/winauto/uiauto-howto-implement-event-handlers).
+
 ## -remarks
 
 The UI item specified by <i>element</i> might not support the properties specified by the <i>propertyArray</i> parameter. 
