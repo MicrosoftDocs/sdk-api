@@ -7,7 +7,6 @@ old-location: direct3d12\id3d12fence_seteventoncompletion.htm
 tech.root: direct3d12
 ms.assetid: DBC5A1FD-F3D0-4C9B-965B-1967151093F7
 ms.date: 12/05/2018
-ms.keywords: ID3D12Fence interface,SetEventOnCompletion method, ID3D12Fence.SetEventOnCompletion, ID3D12Fence::SetEventOnCompletion, SetEventOnCompletion, SetEventOnCompletion method, SetEventOnCompletion method,ID3D12Fence interface, d3d12/ID3D12Fence::SetEventOnCompletion, direct3d12.id3d12fence_seteventoncompletion
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -47,7 +46,7 @@ api_name:
 
 ## -description
 
-Specifies an event that should be fired when the fence reaches a certain value.
+Specifies an event that's raised when the fence reaches a certain value.
 
 ## -parameters
 
@@ -67,13 +66,15 @@ A handle to the event object.
 
 Type: <b>HRESULT</b>
 
-This method returns <b>E_OUTOFMEMORY</b> if the kernel components don’t have sufficient memory to store the event in a list. See <a href="/windows/win32/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a> for other possible return values.
+This method returns <b>E_OUTOFMEMORY</b> if the kernel components don’t have sufficient memory to store the event in a list. See <a href="/windows/win32/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 return codes</a> for other possible return values.
 
 ## -remarks
 
 To specify multiple fences before an event is triggered, refer to <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device1-seteventonmultiplefencecompletion">SetEventOnMultipleFenceCompletion</a>.
 
 If *hEvent* is a null handle, then this API will not return until the specified fence value(s) have been reached.
+
+This method can be safely called from multiple threads at one time.
 
 ## Examples
 
@@ -94,7 +95,7 @@ ThrowIfFailed(m_fence->SetEventOnCompletion(fenceToWaitFor, m_fenceEvent));
 WaitForSingleObject(m_fenceEvent, INFINITE);
 ```
 
-Refer to the <a href="/windows/win32/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="/windows/win32/direct3d12/notes-on-example-code">Example code in the Direct3D 12 reference</a>.
 
 ## -see-also
 
