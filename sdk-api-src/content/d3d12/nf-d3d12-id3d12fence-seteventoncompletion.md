@@ -75,6 +75,8 @@ To specify multiple fences before an event is triggered, refer to <a href="/wind
 
 If *hEvent* is a null handle, then this API will not return until the specified fence value(s) have been reached.
 
+This method can be safely called by multiple threads at one time.
+
 ## Examples
 
 The <a href="/windows/win32/direct3d12/working-samples">D3D12Multithreading</a> sample uses <b>ID3D12Fence::SetEventOnCompletion</b> as follows:
