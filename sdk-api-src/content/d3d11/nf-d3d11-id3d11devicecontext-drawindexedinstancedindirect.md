@@ -65,7 +65,7 @@ A pointer to an <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11buffer">ID3D1
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Offset in <i>pBufferForArgs</i> to the start of the GPU generated primitives.
+A DWORD-aligned byte offset in <i>pBufferForArgs</i> to the start of the GPU generated primitives.
 
 ## -remarks
 
