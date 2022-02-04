@@ -57,7 +57,7 @@ Use this flag to specify the bit-block transfer (bitblt) model and to specify th
             This flag is valid for a swap chain with more than one back buffer, although, applications only have read and write access to buffer 0.
             Use this flag to enable the display driver to select the most efficient presentation technique for the swap chain.
           
-<b>Direct3D 12:  </b>This enumeration value is never supported. D3D12 apps must using <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> or <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b>.
+<b>Direct3D 12:  </b>This enumeration value is never supported. D3D12 apps must use <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> or <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b>.
 
 <div class="alert"><b>Note</b>  There are differences between full screen exclusive and full screen UWP. If you are porting a Direct3D 11 application to UWP on a Windows PC, be aware that the use of  <b>DXGI_SWAP_EFFECT_DISCARD</b> when creating swap chains does
 not behave the same way in UWP as it does in Win32, and its use may be detrimental to GPU performance.
@@ -75,7 +75,7 @@ Use this flag to specify the bitblt model and to specify that DXGI persist the c
               Use this option to present the contents of the swap chain in order, from the first buffer (buffer 0) to the last buffer.
               This flag cannot be used with multisampling.
               
-<b>Direct3D 12:  </b>This enumeration value is never supported. D3D12 apps must using <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> or <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b>.
+<b>Direct3D 12:  </b>This enumeration value is never supported. D3D12 apps must use <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> or <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b>.
             
 
 <div class="alert"><b>Note</b>  For best performance, use <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> instead of <b>DXGI_SWAP_EFFECT_SEQUENTIAL</b>. See <a href="/windows/win32/direct3ddxgi/for-best-performance--use-dxgi-flip-model">this article</a> for more information.</div>
