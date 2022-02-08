@@ -103,7 +103,7 @@ This field defaults to 0 if the device does not report orientation.
 
 Type: **UINT32**
 
- A pen pressure normalized to a range between 0 and 1024. The default is 0 if the device does not report pressure.
+ A pen pressure normalized to a range between 0 and 1024. The default is 512 if the device does not report pressure.
 
 ## -see-also
 
