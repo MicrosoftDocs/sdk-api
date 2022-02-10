@@ -56,7 +56,7 @@ Describes the arguments (parameters) of a command signature.
 
 ### -field ByteStride
 
-Specifies the size of each argument of a command signature, in bytes.
+Specifies the size of each command in the drawing buffer, in bytes.
 
 ### -field NumArgumentDescs
 
