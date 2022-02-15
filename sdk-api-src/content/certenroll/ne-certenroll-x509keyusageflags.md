@@ -94,7 +94,7 @@ The key is used to verify a CRL signature.
 
 The key is used to encrypt data while performing key agreement. When this value is specified, the <b>XCN_CERT_KEY_AGREEMENT_KEY_USAGE</b> value must also be specified.
 
-### -field XCN_CERT_DECIPHER_ONLY_KEY_USAGE
+### -field XCN_CERT_DECIPHER_ONLY_KEY_USAGE:0x8000
 
 The key is used to decrypt data while performing key agreement. When this value is specified, the <b>XCN_CERT_KEY_AGREEMENT_KEY_USAGE</b> must also be specified.
 
