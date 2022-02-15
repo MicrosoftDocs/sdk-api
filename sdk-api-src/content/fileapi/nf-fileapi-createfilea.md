@@ -89,7 +89,7 @@ To create a file stream, specify the name of the file, a colon, and then the nam
 
 ### -param dwDesiredAccess [in]
 
-The requested access to the file or device, which can be summarized as read, write, both or neither zero).
+The requested access to the file or device, which can be summarized as read, write, both or 0 to indicate neither).
 
 The most commonly used values are <b>GENERIC_READ</b>, 
        <b>GENERIC_WRITE</b>, or both 
