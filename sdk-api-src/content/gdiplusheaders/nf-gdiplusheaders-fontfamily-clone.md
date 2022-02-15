@@ -53,7 +53,7 @@ api_name:
 
 The <b>FontFamily::Clone</b> method creates a new <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> object based on this <b>FontFamily</b> object.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 Unlocks a buffer that was previously locked. Call this method once for each call to <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-lock2d">IMF2DBuffer::Lock2D</a>.
 
-## -parameters
+
 
 ## -returns
 

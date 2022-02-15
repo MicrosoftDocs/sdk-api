@@ -54,10 +54,7 @@ Provides a method that is called when event links are clicked in the sync result
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrEventLinkUIOperation</b> interface inherits from <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgruioperation">ISyncMgrUIOperation</a>. <b>ISyncMgrEventLinkUIOperation</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ISyncMgrEventLinkUIOperation</b> interface inherits from <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgruioperation">ISyncMgrUIOperation</a>. <b>ISyncMgrEventLinkUIOperation</b> also has these types of members:
 
 ## -remarks
 

@@ -54,11 +54,11 @@ Specifies what to clear from the depth stencil view.
 
 ## -enum-fields
 
-### -field D3D12_CLEAR_FLAG_DEPTH
+### -field D3D12_CLEAR_FLAG_DEPTH:0x1
 
 Indicates the depth buffer should be cleared.
 
-### -field D3D12_CLEAR_FLAG_STENCIL
+### -field D3D12_CLEAR_FLAG_STENCIL:0x2
 
 Indicates the stencil buffer should be cleared.
 

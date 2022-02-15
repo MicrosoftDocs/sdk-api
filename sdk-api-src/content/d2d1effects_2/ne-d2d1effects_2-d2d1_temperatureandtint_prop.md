@@ -54,12 +54,12 @@ Identifiers for properties of the <a href="/windows/desktop/Direct2D/temperature
 
 ## -enum-fields
 
-### -field D2D1_TEMPERATUREANDTINT_PROP_TEMPERATURE
+### -field D2D1_TEMPERATUREANDTINT_PROP_TEMPERATURE:0
 
 The D2D1_TEMPERATUREANDTINT_PROP_TEMPERATURE property is a float value specifying how much to increase or decrease the temperature of the input image.  The allowed range is -1.0 to 1.0. The default value is 0.0.
 
-### -field D2D1_TEMPERATUREANDTINT_PROP_TINT
+### -field D2D1_TEMPERATUREANDTINT_PROP_TINT:1
 
 The D2D1_TEMPERATUREANDTINT_PROP_TINT property is a float value specifying how much to increase or decrease the tint of the input image.  The allowed range is -1.0 to 1.0.  The default value is 0.0.
 
-### -field D2D1_TEMPERATUREANDTINT_PROP_FORCE_DWORD
+### -field D2D1_TEMPERATUREANDTINT_PROP_FORCE_DWORD:0xffffffff

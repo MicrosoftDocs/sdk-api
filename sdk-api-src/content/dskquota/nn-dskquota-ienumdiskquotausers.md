@@ -55,10 +55,7 @@ Enumerates user quota entries on the volume. This interface is instantiated by u
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumDiskQuotaUsers</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumDiskQuotaUsers</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IEnumDiskQuotaUsers</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumDiskQuotaUsers</b> also has these types of members:
 
 ## -see-also
 

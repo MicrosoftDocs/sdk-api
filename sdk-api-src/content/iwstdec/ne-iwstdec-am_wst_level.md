@@ -58,7 +58,7 @@ The <b>AM_WST_LEVEL</b> enumeration is not supported.
 
 ## -enum-fields
 
-### -field AM_WST_LEVEL_1_5
+### -field AM_WST_LEVEL_1_5:0
 
 Not implemented.
 

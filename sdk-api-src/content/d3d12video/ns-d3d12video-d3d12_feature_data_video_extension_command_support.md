@@ -43,7 +43,7 @@ Provides data for calls to [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12vide
 
 ### -field NodeIndex
 
-For single GPU operation, set this to zero. If there are multiple GPU nodes, set a bit to identify the node (the device's physical adapter) to which the command queue applies. Each bit in the mask corresponds to a single node. Only 1 bit may be set.
+In multi-adapter operation, this indicates which physical adapter of the device this operation applies to.
 
 ### -field CommandId
 

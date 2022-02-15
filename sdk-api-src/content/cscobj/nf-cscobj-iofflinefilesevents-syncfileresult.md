@@ -65,7 +65,7 @@ Fully qualified UNC path of the processed file.
 
 ### -param hrResult [in]
 
-Result of the sync operation on this file.  The parameter will contain S_OK if the operation completed successfully or an value otherwise.
+Result of the sync operation on this file.  The parameter will contain S_OK if the operation completed successfully or a value otherwise.
 
 ## -returns
 

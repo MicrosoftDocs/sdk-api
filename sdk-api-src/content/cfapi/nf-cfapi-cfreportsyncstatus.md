@@ -58,13 +58,13 @@ Allows a sync provider to notify the platform of its status on a specified sync 
 
 Path to the sync root.
 
-### -param SyncStatus [in, out]
+### -param SyncStatus [in]
 
 The sync status to report; if <b>null</b>, clears the previously-saved sync status. For more information, see the Remarks section, below.
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

@@ -56,7 +56,7 @@ api_name:
 
 Refreshes this object's quota usage information from the current information in FSRM.
 
-## -parameters
+
 
 ## -returns
 

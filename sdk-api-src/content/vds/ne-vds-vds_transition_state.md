@@ -60,27 +60,27 @@ Defines
 
 ## -enum-fields
 
-### -field VDS_TS_UNKNOWN
+### -field VDS_TS_UNKNOWN:0
 
 This value is reserved.
 
-### -field VDS_TS_STABLE
+### -field VDS_TS_STABLE:1
 
 The object is stable. No configuration activity is currently in progress.
 
-### -field VDS_TS_EXTENDING
+### -field VDS_TS_EXTENDING:2
 
 The object is being extended.
 
-### -field VDS_TS_SHRINKING
+### -field VDS_TS_SHRINKING:3
 
 The object is being shrunk.
 
-### -field VDS_TS_RECONFIGING
+### -field VDS_TS_RECONFIGING:4
 
 The object is being automagically reconfigured.
 
-### -field VDS_TS_RESTRIPING
+### -field VDS_TS_RESTRIPING:5
 
 The object is being restriped.
 

@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Registers a client-defined listener object that receives download notifications.  
-    All registered listener's DownloadCompleted will be called after <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload">BeginDownload</a>completes.
+    All registered listener's DownloadCompleted will be called after <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload">BeginDownload</a> completes.
 
 ## -parameters
 
@@ -71,7 +71,7 @@ Receives a token value, which the caller must subsequently pass to <a href="/win
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

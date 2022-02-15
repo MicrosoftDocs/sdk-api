@@ -56,7 +56,7 @@ api_name:
 
 Determines whether the current thread is a fiber.
 
-## -parameters
+
 
 ## -returns
 

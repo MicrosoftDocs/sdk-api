@@ -54,11 +54,7 @@ Contains the  properties and methods that are available to an update.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdate2</b> interface inherits from <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>. <b>IUpdate2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IUpdate2</b> interface inherits from <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>. <b>IUpdate2</b> also has these types of members:
 
 ## -see-also
 

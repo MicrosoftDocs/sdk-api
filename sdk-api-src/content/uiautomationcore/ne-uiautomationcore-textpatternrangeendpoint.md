@@ -54,11 +54,11 @@ Contains values that specify the endpoints of a text range.
 
 ## -enum-fields
 
-### -field TextPatternRangeEndpoint_Start
+### -field TextPatternRangeEndpoint_Start:0
 
 The starting endpoint of the range.
 
-### -field TextPatternRangeEndpoint_End
+### -field TextPatternRangeEndpoint_End:1
 
 The ending endpoint of the range.
 

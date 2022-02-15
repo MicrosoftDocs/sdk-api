@@ -68,7 +68,7 @@ A pointer to a buffer that receives an array of <a href="/windows-hardware/drive
 
 ### -param PropertyKeyCount [in]
 
-The size, in DEVPROPKEY-typed values, of the <i>PropertyKeyArray </i>buffer<i>. </i>If <i>PropertyKeyArray</i> is set to <b>NULL</b>, <i>PropertyKeyCount</i> must be set to zero.
+The size, in DEVPROPKEY-typed values, of the <i>PropertyKeyArray </i> buffer<i>. </i>If <i>PropertyKeyArray</i> is set to <b>NULL</b>, <i>PropertyKeyCount</i> must be set to zero.
 
 ### -param RequiredPropertyKeyCount [out, optional]
 
@@ -184,7 +184,7 @@ There was not enough system memory available to complete the operation.
 
 <b>SetupDiGetDevicePropertyKeys</b> is part of the <a href="/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-">unified device property model</a>. 
 
-If the <i>ProperKeyArray</i> buffer is not large enough to hold all the requested property keys, <b>SetupDiGetDevicePropertyKeys</b> does not retrieve any property keys and returns ERROR_INSUFFICIENT_BUFFER. If the caller supplied a <i>RequiredPropertyKeyCount</i> pointer, <b>SetupDiGetDevicePropertyKeys</b> sets the value of *<i>RequiredPropertyKeyCount</i> to the required size, in DEVPROPKEY-typed values, of the <i>PropertyKeyArray </i>buffer<i>.</i>
+If the <i>ProperKeyArray</i> buffer is not large enough to hold all the requested property keys, <b>SetupDiGetDevicePropertyKeys</b> does not retrieve any property keys and returns ERROR_INSUFFICIENT_BUFFER. If the caller supplied a <i>RequiredPropertyKeyCount</i> pointer, <b>SetupDiGetDevicePropertyKeys</b> sets the value of *<i>RequiredPropertyKeyCount</i> to the required size, in DEVPROPKEY-typed values, of the <i>PropertyKeyArray </i> buffer<i>.</i>
 
 To retrieve a device instance property, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdevicepropertyw">SetupDiGetDeviceProperty</a>, and to set a device instance property, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetdevicepropertyw">SetupDiSetDeviceProperty</a>.
 

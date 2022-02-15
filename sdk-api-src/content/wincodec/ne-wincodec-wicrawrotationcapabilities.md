@@ -54,21 +54,21 @@ Specifies the rotation capabilities of the codec.
 
 ## -enum-fields
 
-### -field WICRawRotationCapabilityNotSupported
+### -field WICRawRotationCapabilityNotSupported:0
 
 Rotation is not supported.
 
-### -field WICRawRotationCapabilityGetSupported
+### -field WICRawRotationCapabilityGetSupported:0x1
 
 Set operations for rotation is not supported.
 
-### -field WICRawRotationCapabilityNinetyDegreesSupported
+### -field WICRawRotationCapabilityNinetyDegreesSupported:0x2
 
 90 degree rotations are supported.
 
-### -field WICRawRotationCapabilityFullySupported
+### -field WICRawRotationCapabilityFullySupported:0x3
 
 All rotation angles are supported.
 
-### -field WICRAWROTATIONCAPABILITIES_FORCE_DWORD
+### -field WICRAWROTATIONCAPABILITIES_FORCE_DWORD:0x7fffffff
 

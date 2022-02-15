@@ -69,7 +69,7 @@ A pointer to a buffer that contains the information class data to set for the LS
 
 ### -param InfoSize [in]
 
-The size, in bytes, of the buffer pointed to by the <i>Info </i>parameter.
+The size, in bytes, of the buffer pointed to by the <i>Info</i> parameter.
 
 ### -param Flags [in]
 

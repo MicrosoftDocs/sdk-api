@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Obtains an enumerator that contains all of the profiles for a specific langauage.
+Obtains an enumerator that contains all of the profiles for a specific language.
 
 ## -parameters
 

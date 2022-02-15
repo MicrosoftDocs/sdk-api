@@ -54,53 +54,53 @@ The <b>RequestClientInfoClientId</b> enumeration  specifies the type of applicat
 
 ## -enum-fields
 
-### -field ClientIdNone
+### -field ClientIdNone:0
 
 No client identifier is specified.
 
-### -field ClientIdXEnroll2003
+### -field ClientIdXEnroll2003:1
 
 Specifies the Certificate Enrollment Control that is available on Windows Server 2003.
 
-### -field ClientIdAutoEnroll2003
+### -field ClientIdAutoEnroll2003:2
 
 Specifies the autoenrollment  that is available on Windows Server 2003.
 
-### -field ClientIdWizard2003
+### -field ClientIdWizard2003:3
 
 Specifies the Certificate Request Wizard that is available on Windows Server 2003.
 
-### -field ClientIdCertReq2003
+### -field ClientIdCertReq2003:4
 
 Specifies the Certreq.exe command-line tool that is available on Windows Server 2003.
 
-### -field ClientIdDefaultRequest
+### -field ClientIdDefaultRequest:5
 
 Specifies the default certificate request object that is available starting with Windows Vista. This is represented by the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a> interface and is the default value if the client ID is not set by the caller.
 
-### -field ClientIdAutoEnroll
+### -field ClientIdAutoEnroll:6
 
 Specifies the autoenrollment that is available starting with  Windows Vista.
 
-### -field ClientIdRequestWizard
+### -field ClientIdRequestWizard:7
 
 Specifies the Certificate Request Wizard that is available starting with Windows Vista.
 
-### -field ClientIdEOBO
+### -field ClientIdEOBO:8
 
 Specifies the Enroll-On-Behalf-Of (EOBO) Wizard that is available starting with Windows Vista.
 
-### -field ClientIdCertReq
+### -field ClientIdCertReq:9
 
 Specifies the Certreq.exe command-line tool that is available starting with Windows Vista.
 
-### -field ClientIdTest
+### -field ClientIdTest:10
 
 This value is not supported.
 
-### -field ClientIdWinRT
+### -field ClientIdWinRT:11
 
-### -field ClientIdUserStart
+### -field ClientIdUserStart:1000
 
 This is the base value for custom applications.
 

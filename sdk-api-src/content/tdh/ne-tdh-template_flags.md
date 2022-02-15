@@ -57,15 +57,15 @@ Defines constant values that
 
 ## -enum-fields
 
-### -field TEMPLATE_EVENT_DATA
+### -field TEMPLATE_EVENT_DATA:1
 
 The layout of the event data is determined by the order of the data items defined in the event data template definition.
 
-### -field TEMPLATE_USER_DATA
+### -field TEMPLATE_USER_DATA:2
 
 The layout of the event data is determined by the XML fragment included in the event data template definition.
 
-### -field TEMPLATE_CONTROL_GUID
+### -field TEMPLATE_CONTROL_GUID:4 
 
 ## -see-also
 

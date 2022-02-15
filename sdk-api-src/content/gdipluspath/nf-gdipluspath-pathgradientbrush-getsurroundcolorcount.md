@@ -53,7 +53,7 @@ api_name:
 
 The <b>PathGradientBrush::GetSurroundColorCount</b> method gets the number of colors that have been specified for the boundary path of this path gradient brush.
 
-## -parameters
+
 
 ## -returns
 

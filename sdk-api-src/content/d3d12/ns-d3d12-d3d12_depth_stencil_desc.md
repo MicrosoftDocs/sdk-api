@@ -108,7 +108,7 @@ This table shows the default values of depth-stencil states.
 </tr>
 <tr>
 <td>DepthFunc</td>
-<td>D3D12_COMPARISON_LESS</td>
+<td>D3D12_COMPARISON_FUNC_LESS</td>
 </tr>
 <tr>
 <td>StencilEnable</td>
@@ -124,14 +124,14 @@ This table shows the default values of depth-stencil states.
 </tr>
 <tr>
 <td>
-FrontFace.StencilFunc
+FrontFace.StencilFailOp
 
 and
 
-BackFace.StencilFunc
+BackFace.StencilFailOp
 
 </td>
-<td>D3D12_COMPARISON_ALWAYS</td>
+<td>D3D12_STENCIL_OP_KEEP</td>
 </tr>
 <tr>
 <td>
@@ -157,14 +157,14 @@ BackFace.StencilPassOp
 </tr>
 <tr>
 <td>
-FrontFace.StencilFailOp
+FrontFace.StencilFunc
 
 and
 
-BackFace.StencilFailOp
+BackFace.StencilFunc
 
 </td>
-<td>D3D12_STENCIL_OP_KEEP</td>
+<td>D3D12_COMPARISON_FUNC_ALWAYS</td>
 </tr>
 </table>
  

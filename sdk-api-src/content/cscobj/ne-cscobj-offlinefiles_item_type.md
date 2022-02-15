@@ -56,7 +56,7 @@ Identifies the type of an item in the Offline Files cache.
 
 ## -enum-fields
 
-### -field OFFLINEFILES_ITEM_TYPE_FILE
+### -field OFFLINEFILES_ITEM_TYPE_FILE:0
 
 The item is a file.
 

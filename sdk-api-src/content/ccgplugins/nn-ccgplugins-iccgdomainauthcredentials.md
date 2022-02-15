@@ -15,8 +15,8 @@ req.include-header:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10, version 1809 [desktop apps only]
+req.target-min-winversvr: Windows Server 2019 [desktop apps only]
 req.target-type: 
 req.unicode-ansi: 
 topic_type:

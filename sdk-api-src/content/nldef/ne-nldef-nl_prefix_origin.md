@@ -55,7 +55,7 @@ The <b>IP_PREFIX_ORIGIN</b> enumeration specifies the origin of an IPv4 or IPv6 
 
 ## -enum-fields
 
-### -field IpPrefixOriginOther
+### -field IpPrefixOriginOther:0
 
 The IP prefix was provided by a source other than those defined in this enumeration.
 
@@ -75,7 +75,7 @@ The IP address prefix was provided by DHCP settings.
 
 The IP address prefix was obtained through a router advertisement (RA).
 
-### -field IpPrefixOriginUnchanged
+### -field IpPrefixOriginUnchanged:1 << 4
 
 The IP address prefix should be unchanged. This value is used when setting the properties for a unicast IP interface when the value for the IP prefix origin should be left unchanged.
 

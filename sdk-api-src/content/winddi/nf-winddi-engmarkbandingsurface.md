@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>EngMarkBandingSurface </b>function marks the specified surface as a banding surface.
+The <b>EngMarkBandingSurface </b> function marks the specified surface as a banding surface.
 
 ## -parameters
 

@@ -61,7 +61,7 @@ The
 
 ## -enum-fields
 
-### -field ListMode_Small_Icons
+### -field ListMode_Small_Icons:0
 
 The list view is displayed with small icons.
 

@@ -69,15 +69,15 @@ The mouse state. This member can be any reasonable combination of the following.
 | **MOUSE_MOVE_ABSOLUTE**</br>0x01 | Mouse movement data is based on absolute position. For further information about mouse motion, see the following Remarks section. |
 | **MOUSE_VIRTUAL_DESKTOP**</br>0x02 | Mouse coordinates are mapped to the virtual desktop (for a multiple monitor system). For further information about mouse motion, see the following Remarks section. |
 | **MOUSE_ATTRIBUTES_CHANGED**</br>0x04 | Mouse attributes changed; application needs to query the mouse attributes. |
-| **MOUSE_MOVE_NOCOALESCE**</br>0x08 | This mouse movement event was not coalesced. Mouse movement events can be coalescened by default.<br/>Windows XP/2000: This value is not supported. |
+| **MOUSE_MOVE_NOCOALESCE**</br>0x08 | This mouse movement event was not coalesced. Mouse movement events can be coalesced by default.<br/>Windows XP/2000: This value is not supported. |
 
-### -field ulButtons
+### -field DUMMYUNIONNAME.ulButtons
 
 Type: **ULONG**
 
 Reserved.
 
-### -field usButtonFlags
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.usButtonFlags
 
 Type: **USHORT**
 
@@ -98,7 +98,7 @@ The transition state of the mouse buttons. This member can be one or more of the
 | **RI_MOUSE_WHEEL**</br>0x0400 | Raw input comes from a mouse wheel. The wheel delta is stored in **usButtonData**.<br/>A positive value indicates that the wheel was rotated forward, away from the user; a negative value indicates that the wheel was rotated backward, toward the user. For further information see the following Remarks section. |
 | **RI_MOUSE_HWHEEL**</br>0x0800 | Raw input comes from a horizontal mouse wheel. The wheel delta is stored in **usButtonData**.<br/>A positive value indicates that the wheel was rotated to the right; a negative value indicates that the wheel was rotated to the left. For further information see the following Remarks section.<br/>Windows XP/2000:  This value is not supported. |
 
-### -field usButtonData
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.usButtonData
 
 Type: **USHORT**
 

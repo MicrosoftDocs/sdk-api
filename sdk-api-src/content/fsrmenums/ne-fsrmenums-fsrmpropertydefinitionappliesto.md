@@ -56,11 +56,11 @@ Flags that indicate what a FSRM classification property can be applied to.
 
 ## -enum-fields
 
-### -field FsrmPropertyDefinitionAppliesTo_Files
+### -field FsrmPropertyDefinitionAppliesTo_Files:0x1
 
 Indicates if a classification property can be applied to a file.
 
-### -field FsrmPropertyDefinitionAppliesTo_Folders
+### -field FsrmPropertyDefinitionAppliesTo_Folders:0x2
 
 Indicates if a classification property can be applied to a folder.
 

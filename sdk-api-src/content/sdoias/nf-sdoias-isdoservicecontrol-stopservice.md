@@ -52,7 +52,7 @@ api_name:
 
 The <b>StopService</b> method shuts down the service administered through SDO.
 
-## -parameters
+
 
 ## -returns
 

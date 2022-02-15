@@ -216,7 +216,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-<b>StringCbGetsEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbGetsEx</b>always null-terminates a nonzero-length destination buffer.
+<b>StringCbGetsEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbGetsEx</b> always null-terminates a nonzero-length destination buffer.
 
 The value of <i>pszDest</i> should not be <b>NULL</b> unless the <b>STRSAFE_IGNORE_NULLS</b> flag is specified. However, an error due to insufficient space may still be returned even though <b>NULL</b> values are ignored.
 

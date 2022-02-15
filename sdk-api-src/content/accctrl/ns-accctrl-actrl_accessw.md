@@ -76,7 +76,11 @@ An array of <a href="/windows/desktop/api/accctrl/ns-accctrl-actrl_property_entr
 
 Note the following type definition.
 
-<pre class="syntax" xml:space="preserve"><code>typedef PACTRL_ACCESSW PACTRL_ACCESSW_ALLOCATE_ALL_NODES;</code></pre>
+
+``` syntax
+typedef PACTRL_ACCESSW PACTRL_ACCESSW_ALLOCATE_ALL_NODES;
+```
+
 
 
 

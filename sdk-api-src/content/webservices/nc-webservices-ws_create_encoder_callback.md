@@ -56,13 +56,13 @@ Handles creating an encoder instance.
 
 ### -param createContext [in]
 
-The createContext that was specified in the <a href="/windows/desktop/api/webservices/ns-webservices-ws_channel_encoder">WS_CHANNEL_ENCODER</a>used during channel creation.
+The createContext that was specified in the <a href="/windows/desktop/api/webservices/ns-webservices-ws_channel_encoder">WS_CHANNEL_ENCODER</a> used during channel creation.
 
 ### -param writeCallback [in]
 
 The function that should be used to write the message data.  This callback
                   should only be used in response to the <a href="/windows/desktop/api/webservices/nc-webservices-ws_encoder_start_callback">WS_ENCODER_START_CALLBACK</a>,
-                  <a href="/windows/desktop/api/webservices/nc-webservices-ws_encoder_encode_callback">WS_ENCODER_ENCODE_CALLBACK</a> and <a href="/windows/desktop/api/webservices/nc-webservices-ws_encoder_end_callback">WS_ENCODER_END_CALLBACK</a>callbacks.
+                  <a href="/windows/desktop/api/webservices/nc-webservices-ws_encoder_encode_callback">WS_ENCODER_ENCODE_CALLBACK</a> and <a href="/windows/desktop/api/webservices/nc-webservices-ws_encoder_end_callback">WS_ENCODER_END_CALLBACK</a> callbacks.
 
 ### -param writeContext [in]
 

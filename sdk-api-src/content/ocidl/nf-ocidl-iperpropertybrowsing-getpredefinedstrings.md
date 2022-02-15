@@ -82,7 +82,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, a
 </dl>
 </td>
 <td width="60%">
-The method completed succesfully.
+The method completed successfully.
 
 </td>
 </tr>
@@ -123,7 +123,9 @@ All memory is allocated with <a href="/windows/desktop/api/combaseapi/nf-combase
 
 Upon return from this method, the caller is responsible for all this memory and must free it when it is no longer needed. Code to achieve this appears as follows.
 
-<pre class="syntax" xml:space="preserve"><code>CALPOLESTR     castr; 
+
+``` syntax
+CALPOLESTR     castr; 
 CWDWORD        cadw; 
 ULONG          i; 
  
@@ -137,7 +139,9 @@ for (i=0; i &lt; castr.cElems; i++)
     CoTaskMemFree((void *)castr.pElems[i]); 
  
 CoTaskMemFree((void *)castr.pElems); 
-</code></pre>
+
+```
+
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 Support for predefined names and values is not required. If your object does not support these names, return E_NOTIMPL from this method. If this method is not implemented, <a href="/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedvalue">IPerPropertyBrowsing::GetPredefinedValue</a> must not be implemented either.
 

@@ -56,4 +56,4 @@ Releases the memory resource associated with  a <b>Security Token</b> object.
 
 ### -param token [in]
 
-A pointer to the <b>Security Token</b> object to release.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-security-token">WS_SECURITY_TOKEN</a>object returned by <a href="/windows/desktop/api/webservices/nf-webservices-wscreatexmlsecuritytoken">WsCreateXmlSecurityToken</a>.
+A pointer to the <b>Security Token</b> object to release.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-security-token">WS_SECURITY_TOKEN</a> object returned by <a href="/windows/desktop/api/webservices/nf-webservices-wscreatexmlsecuritytoken">WsCreateXmlSecurityToken</a>.

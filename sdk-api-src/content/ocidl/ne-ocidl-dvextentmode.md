@@ -56,7 +56,7 @@ Indicates whether the sizing mode is content or integral sizing.
 
 ## -enum-fields
 
-### -field DVEXTENT_CONTENT
+### -field DVEXTENT_CONTENT:0
 
 Indicates that the container will ask the object how big it wants to be to exactly fit its content, for example, in snap-to-size operations.
 

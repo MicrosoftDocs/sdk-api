@@ -52,7 +52,7 @@ api_name:
 
 Removes all sprites from this sprite batch.
 
-## -parameters
+
 
 ## -see-also
 

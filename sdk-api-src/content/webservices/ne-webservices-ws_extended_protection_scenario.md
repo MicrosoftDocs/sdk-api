@@ -59,11 +59,11 @@ Only available on the server.
 
 ## -enum-fields
 
-### -field WS_EXTENDED_PROTECTION_SCENARIO_BOUND_SERVER
+### -field WS_EXTENDED_PROTECTION_SCENARIO_BOUND_SERVER:1
 
 There is no SSL connection between the client and the server, or the SSL connection is terminated at the server. This is the default.
 
-### -field WS_EXTENDED_PROTECTION_SCENARIO_TERMINATED_SSL
+### -field WS_EXTENDED_PROTECTION_SCENARIO_TERMINATED_SSL:2
 
 An SSL connection exists but is terminated at an intermediary. The connection between the intermediary and the server may or may not
                     use SSL. When this property is set, <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_PROPERTY_ID</a> must be set as well.

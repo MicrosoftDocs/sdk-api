@@ -54,15 +54,15 @@ Determines the parameter type to be walked.
 
 ## -enum-fields
 
-### -field CALLFRAME_WALK_IN
+### -field CALLFRAME_WALK_IN:1
 
 The [in] parameter values will be walked.
 
-### -field CALLFRAME_WALK_INOUT
+### -field CALLFRAME_WALK_INOUT:2
 
 The [in, out] parameter values will be walked.
 
-### -field CALLFRAME_WALK_OUT
+### -field CALLFRAME_WALK_OUT:4
 
 The [out] parameter values will be walked.
 

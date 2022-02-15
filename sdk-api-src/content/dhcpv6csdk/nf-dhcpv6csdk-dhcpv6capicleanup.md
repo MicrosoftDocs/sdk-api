@@ -55,7 +55,7 @@ The
 <b>Dhcpv6CApiCleanup</b> function must only be called if a previous call to 
 <a href="/previous-versions/windows/desktop/api/dhcpv6csdk/nf-dhcpv6csdk-dhcpv6capiinitialize">Dhcpv6CApiInitialize</a> executed successfully.
 
-## -parameters
+
 
 ## -see-also
 

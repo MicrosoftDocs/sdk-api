@@ -52,7 +52,7 @@ api_name:
 
 Gets the duration of the media resource.
 
-## -parameters
+
 
 ## -returns
 

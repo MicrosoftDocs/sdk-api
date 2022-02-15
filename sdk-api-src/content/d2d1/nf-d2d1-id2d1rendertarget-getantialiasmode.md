@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the current antialiasing mode for nontext drawing operations.
 
-## -parameters
+
 
 ## -returns
 

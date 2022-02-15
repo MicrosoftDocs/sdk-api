@@ -56,13 +56,13 @@ This mode is used when the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-in
 
 ## -enum-fields
 
-### -field IOERM_StrokeErase
+### -field IOERM_StrokeErase:0
 
  Ink is erased by stroke.
 
 This is the default value.
 
-### -field IOERM_PointErase
+### -field IOERM_PointErase:1
 
 Ink is erased by point.
 

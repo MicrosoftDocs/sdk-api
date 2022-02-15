@@ -54,31 +54,31 @@ Defines the data types used for the codec and DSP properties that are accessed b
 
 ## -enum-fields
 
-### -field WMT_PROP_TYPE_DWORD
+### -field WMT_PROP_TYPE_DWORD:0
 
 Specifies a double-word value.
 
-### -field WMT_PROP_TYPE_STRING
+### -field WMT_PROP_TYPE_STRING:1
 
 Specifies a string value.
 
-### -field WMT_PROP_TYPE_BINARY
+### -field WMT_PROP_TYPE_BINARY:2
 
 Specifies a binary value.
 
-### -field WMT_PROP_TYPE_BOOL
+### -field WMT_PROP_TYPE_BOOL:3
 
 Specifies a Boolean value.
 
-### -field WMT_PROP_TYPE_QWORD
+### -field WMT_PROP_TYPE_QWORD:4
 
 Specifies a quadruple-word value.
 
-### -field WMT_PROP_TYPE_WORD
+### -field WMT_PROP_TYPE_WORD:5
 
 Specifies a word value.
 
-### -field WMT_PROP_TYPE_GUID
+### -field WMT_PROP_TYPE_GUID:6
 
 Specifies a GUID value.
 

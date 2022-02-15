@@ -56,7 +56,7 @@ The <b>RpcCallClientLocality</b> enumeration specifies the set of possible RPC c
 
 ## -enum-fields
 
-### -field rcclInvalid
+### -field rcclInvalid:0
 
 The RPC client locality is invalid.
 

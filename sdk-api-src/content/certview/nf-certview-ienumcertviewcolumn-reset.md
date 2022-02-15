@@ -53,7 +53,7 @@ api_name:
 
 The <b>Reset</b> method moves to the beginning of the column-enumeration sequence.
 
-## -parameters
+
 
 ## -returns
 

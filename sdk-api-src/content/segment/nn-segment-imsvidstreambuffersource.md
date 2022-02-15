@@ -54,7 +54,7 @@ The <b>IMSVidStreamBufferSource</b> interface represents the Stream Buffer Sourc
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSource</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidfileplayback">IMSVidFilePlayback</a>. <b>IMSVidStreamBufferSource</b> also has these types of members:
+The <b>IMSVidStreamBufferSource</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidfileplayback">IMSVidFilePlayback</a>. <b>IMSVidStreamBufferSource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

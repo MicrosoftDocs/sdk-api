@@ -116,7 +116,9 @@ Sharing mode behavior and transactional isolation depend on the <a href="/window
 The  <i>pStgPriority</i> parameter is intended as a convenience for callers replacing an existing storage object, often one opened in priority mode, with a new storage object opened on the same byte array. Unlike the <i>pStgPriority</i> parameter of <a href="/windows/desktop/api/coml2api/nf-coml2api-stgopenstorage">StgOpenStorage</a>, this parameter does not affect the open operation performed by <b>StgOpenStorageOnILockBytes</b> and is simply an existing storage object the caller would like released.  Callers should always pass <b>NULL</b> for this parameter because <b>StgOpenStorageOnILockBytes</b> releases the object under some circumstances, and does not release it under other circumstances.
 The use of the <i>pStgPriority</i> parameter can be duplicated by the caller in a safer manner by instead releasing the object before calling <b>StgOpenStorageOnILockBytes</b>, as shown in the following example:
 
-<pre class="syntax" xml:space="preserve"><code>// Replacement for:
+
+``` syntax
+// Replacement for:
 // HRESULT hr = StgOpenStorageOnILockBytes(
 //         plkbyt, pStgPriority, grfMode, NULL, 0, &amp;pstgNew);
 
@@ -124,7 +126,9 @@ pStgPriority-&gt;Release();
 pStgPriority = NULL;
 hr = StgOpenStorage(plkbyt, NULL, grfMode, NULL, 0, &amp;pstgNew);
     
-</code></pre>
+
+```
+
 For more information, refer to 
 <a href="/windows/desktop/api/coml2api/nf-coml2api-stgopenstorage">StgOpenStorage</a>.
 

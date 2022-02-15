@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Windows Messenger. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [COM+ (Component Services)](../_cos/index.md)
 - [Windows Messenger](../_winmessenger/index.md)
 

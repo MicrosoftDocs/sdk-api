@@ -55,10 +55,7 @@ The device interface represents a virtual adapter for Direct3D 10.1; it is used 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Device1</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device</a>. <b>ID3D10Device1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID3D10Device1</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device</a>. <b>ID3D10Device1</b> also has these types of members:
 
 ## -remarks
 

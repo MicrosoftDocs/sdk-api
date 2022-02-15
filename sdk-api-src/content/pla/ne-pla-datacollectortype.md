@@ -56,23 +56,23 @@ Defines the data collector types.
 
 ## -enum-fields
 
-### -field plaPerformanceCounter
+### -field plaPerformanceCounter:0
 
 Collects performance counter data. The <a href="/previous-versions/windows/desktop/api/pla/nn-pla-iperformancecounterdatacollector">IPerformanceCounterDataCollector</a> interface represents this data collector.
 
-### -field plaTrace
+### -field plaTrace:1
 
 Collects events from an event trace session. The <a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a> interface represents this data collector.
 
-### -field plaConfiguration
+### -field plaConfiguration:2
 
 Collects computer configuration information. The <a href="/previous-versions/windows/desktop/api/pla/nn-pla-iconfigurationdatacollector">IConfigurationDataCollector</a> interface represents this data collector.
 
-### -field plaAlert
+### -field plaAlert:3
 
 Monitors performance counters and performs actions if the counter value crosses the specified threshold. The <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ialertdatacollector">IAlertDataCollector</a> interface represents this data collector.
 
-### -field plaApiTrace
+### -field plaApiTrace:4
 
 Logs API calls made by the process. The <a href="/previous-versions/windows/desktop/api/pla/nn-pla-iapitracingdatacollector">IApiTracingDataCollector</a> interface represents this data collector.
 

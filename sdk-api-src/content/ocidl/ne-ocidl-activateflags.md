@@ -56,7 +56,7 @@ Indicates whether an object is activated as a windowless object. It is used in <
 
 ## -enum-fields
 
-### -field ACTIVATE_WINDOWLESS
+### -field ACTIVATE_WINDOWLESS:1
 
  Indicates that the object is activated in place as a windowless object. In the <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesiteex">IOleInPlaceSiteEx::OnInPlaceActivateEx</a> method, the container uses this value returned in the <i>dwFlags</i> parameter instead of calling the <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplaceobjectwindowless">IOleInPlaceObjectWindowless::GetWindow</a>  method to determine if the object is windowless or not.
 

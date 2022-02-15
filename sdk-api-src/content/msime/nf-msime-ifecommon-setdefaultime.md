@@ -54,7 +54,7 @@ Allows the Microsoft IME to become the default IME in the keyboard layout.
 
 This method only applies when Microsoft IME uses the Input Method Manager (IMM) of the operating system.
 
-## -parameters
+
 
 ## -returns
 

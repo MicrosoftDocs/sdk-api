@@ -52,7 +52,7 @@ api_name:
 
 Called when an edit transaction is terminated.
 
-## -parameters
+
 
 ## -returns
 

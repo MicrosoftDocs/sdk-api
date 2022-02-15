@@ -54,7 +54,7 @@ api_name:
 
 The <b>midiOutGetNumDevs</b> function retrieves the number of MIDI output devices present in the system.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Indicates whether the operation has completed.
 
-## -parameters
+
 
 ## -returns
 

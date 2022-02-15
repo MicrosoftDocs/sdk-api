@@ -52,7 +52,7 @@ api_name:
 
 Sets the synchronization object to the nonsignaled state.
 
-## -parameters
+
 
 ## -returns
 

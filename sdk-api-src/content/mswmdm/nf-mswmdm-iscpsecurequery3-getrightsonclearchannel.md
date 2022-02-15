@@ -103,7 +103,7 @@ If the method succeeds, it returns S_OK. If the method fails, it returns an <b>H
 </dl>
 </td>
 <td width="60%">
-This method was called out of sequence. <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-getdatademands">ISCPSecureQuery::GetDataDemands</a> and then <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-examinedata">ISCPSecureQuery::ExamineData</a>must be called, in that order.
+This method was called out of sequence. <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-getdatademands">ISCPSecureQuery::GetDataDemands</a> and then <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-examinedata">ISCPSecureQuery::ExamineData</a> must be called, in that order.
 
 </td>
 </tr>

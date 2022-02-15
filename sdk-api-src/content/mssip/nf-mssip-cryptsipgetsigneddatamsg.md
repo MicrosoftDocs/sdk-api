@@ -164,7 +164,7 @@ The [SIP_SUBJECTINFO](/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) struc
 </dl>
 </td>
 <td width="60%">
-The size of the message buffer was insufficient to hold the retrieved data, the <i>pcbSignedDataMsg</i>parameter has been set to indicate the required buffer size.
+The size of the message buffer was insufficient to hold the retrieved data, the <i>pcbSignedDataMsg</i> parameter has been set to indicate the required buffer size.
 
 </td>
 </tr>

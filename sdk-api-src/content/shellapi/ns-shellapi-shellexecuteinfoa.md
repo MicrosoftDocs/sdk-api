@@ -71,8 +71,8 @@ A combination of one or more of the following values that indicate the content a
 
 <table>
 <colgroup>
-    <col span="1" style="width: 40%;">
-    <col span="1" style="width: 60%;">
+    <col span="1">
+    <col span="1">
 </colgroup>
 <tr valign="top">
 <td>SEE_MASK_DEFAULT (0x00000000)</td>
@@ -171,7 +171,7 @@ For further discussion on when this flag is necessary, see the Remarks section.<
 <td>Indicates a user initiated launch that enables tracking of frequently used programs and other behaviors.</td>
 </tr>
 <tr valign="top">
-<td>SEE_MASK_FLAG_HINST_IS_SITE` (0x08000000)</td>
+<td>SEE_MASK_FLAG_HINST_IS_SITE (0x08000000)</td>
 <td>The <b>hInstApp</b> member is used to specify the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of an object that implements <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678965(v=vs.85)">IServiceProvider</a>. This object will be used as a site pointer. The site pointer is used to provide services to the <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a> function, the handler binding process, and invoked verb handlers.
 
 To use <b>SEE_MASK_FLAG_HINST_IS_SITE</b> in operating systems prior to Windows 8, define it manually in your program: #define SEE_MASK_FLAG_HINST_IS_SITE 0x08000000.

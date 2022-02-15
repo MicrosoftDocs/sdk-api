@@ -53,7 +53,7 @@ api_name:
 
 The <b>MetafileHeader::GetDpiY</b> method gets the vertical dots per inch of the associated metafile.
 
-## -parameters
+
 
 ## -returns
 

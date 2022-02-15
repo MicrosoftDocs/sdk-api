@@ -52,7 +52,7 @@ api_name:
 
 The <b>SetPinActive</b> method notifies the endpoint that it must change the state of the underlying streaming resources to an active state.
 
-## -parameters
+
 
 ## -returns
 

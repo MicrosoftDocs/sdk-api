@@ -52,7 +52,7 @@ api_name:
 
 Determines if the provided .iso image is valid.
 
-## -parameters
+
 
 ## -returns
 

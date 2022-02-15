@@ -61,7 +61,7 @@ Setting a restore target modifies or overrides the restore method set during bac
 
 ## -enum-fields
 
-### -field VSS_RT_UNDEFINED
+### -field VSS_RT_UNDEFINED:0
 
 No target is defined. 
      

@@ -90,10 +90,14 @@ An operating system version check function. This is the function used to determi
 Macros are available that can simplify the creation of the 
 <b>CMD_GROUP_ENTRY</b> structure, as follows:
 
-<pre class="syntax" xml:space="preserve"><code>#define CREATE_CMD_GROUP_ENTRY_EX(t,s,i)       {CMD_##t, HLP_##t, sizeof(s)/sizeof(CMD_ENTRY), i, s, NULL }
+
+``` syntax
+#define CREATE_CMD_GROUP_ENTRY_EX(t,s,i)       {CMD_##t, HLP_##t, sizeof(s)/sizeof(CMD_ENTRY), i, s, NULL }
 #define CREATE_CMD_GROUP_ENTRY_EX_VER(t,s,i,v) {CMD_##t, HLP_##t, sizeof(s)/sizeof(CMD_ENTRY), i, s, v }
 #define CREATE_CMD_GROUP_ENTRY(t,s)            {CMD_##t, HLP_##t, sizeof(s)/sizeof(CMD_ENTRY), 0, s, NULL }
-</code></pre>
+
+```
+
 If these macros are used, the following constants must be defined in the helper DLL:
 
 

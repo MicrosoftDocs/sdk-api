@@ -54,7 +54,7 @@ Defines constants that specify logical operations to configure for a render targ
 
 ## -enum-fields
 
-### -field D3D12_LOGIC_OP_CLEAR
+### -field D3D12_LOGIC_OP_CLEAR:0
 
 Clears the render target (<code>0</code>).
 

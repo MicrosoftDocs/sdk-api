@@ -54,7 +54,7 @@ The <b>IWMPPlayer</b> interface provides methods for modifying the basic behavio
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlayer</b> interface inherits from <a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore</a>. <b>IWMPPlayer</b> also has these types of members:
+The <b>IWMPPlayer</b> interface inherits from <a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore</a>. <b>IWMPPlayer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

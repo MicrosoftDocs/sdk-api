@@ -61,7 +61,7 @@ api_name:
 
 The <b>GetLength</b> method gets a count of the number of wide characters in this <a href="/windows/desktop/WmiSdk/chstring">CHString</a> string. The count does not include a <b>NULL</b> terminator.
 
-## -parameters
+
 
 ## -returns
 

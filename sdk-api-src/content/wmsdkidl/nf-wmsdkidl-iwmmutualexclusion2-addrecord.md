@@ -55,7 +55,7 @@ api_name:
 
 The <b>AddRecord</b> method adds a record to the mutual exclusion object. Records can hold groups of streams. You can add streams with calls to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-addstreamforrecord">IWMMutualExclusion2::AddStreamForRecord</a>. You can assign a name to a record with a call to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-setname">IWMMutualExclusion2::SetName</a>.
 
-## -parameters
+
 
 ## -returns
 

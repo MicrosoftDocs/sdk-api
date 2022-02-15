@@ -57,7 +57,7 @@ Specifies the type of event that the <a href="/windows/desktop/api/tsgpolicyengi
 
 ## -enum-fields
 
-### -field AA_MAIN_SESSION_CREATION
+### -field AA_MAIN_SESSION_CREATION:0
 
 A new session was created.
 

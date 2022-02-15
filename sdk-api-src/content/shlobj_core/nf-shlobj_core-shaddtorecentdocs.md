@@ -119,7 +119,7 @@ A set of requirements must be met for the registration to be accomplished succes
 The application's executable file cannot be listed in the KillList value found here:
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Windows</b>
@@ -155,7 +155,7 @@ However, some classes of file type association registrations or individual <a hr
 For example, context menu extensions and static verbs registered under <b>HKEY_CLASSES_ROOT</b> in classes such as "*", "AllFileSystemObjects", or "Folder" should not be tracked. In cases such as these, the NoRecentDocs entry is added to the root of the class key as shown here to suppress tracking of documents launched through any verb or extension registered to that class:
 
 
-<pre xml:space="preserve"><b>HKEY_CLASSES_ROOT</b>
+<pre><b>HKEY_CLASSES_ROOT</b>
    <b>AllFileSystemObjects</b>
       <b>NoRecentDocs</b></pre>
 
@@ -165,7 +165,7 @@ The NoRecentDocs entry is assigned by default to the <b>*</b>, <b>AllFileSystemO
 Individual <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> implementations can opt out of tracking by adding a NoRecentDocs subkey to its Component Object Model (COM) object's registration, in its <b>shellex</b> subkey, as shown here:
 
 
-<pre xml:space="preserve"><b>HKEY_CLASSES_ROOT</b>
+<pre><b>HKEY_CLASSES_ROOT</b>
    <b>CLSID</b>
       <i>{093C7AAB-5E72-454f-A91D-CA1BC991FCEC}</i>
          <b>shellex</b>

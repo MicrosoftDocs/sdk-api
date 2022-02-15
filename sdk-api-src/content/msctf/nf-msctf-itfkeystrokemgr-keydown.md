@@ -114,7 +114,9 @@ One or more parameters are invalid.
 
 If this method is successful and <i>pfEaten</i> receives <b>TRUE</b>, the application should not process the key down event. If this method does not return S_OK or <i>pfEaten</i> receives <b>FALSE</b>, the application should process the key down event. The following is an example of how this is implemented.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 if(msg.message == WM_KEYDOWN)
 {
     if( pKeyboardMgr-&gt;TestKeyDown(msg.wParam, msg.lParam, &amp;fEaten) == S_OK 
@@ -130,7 +132,9 @@ if(msg.message == WM_KEYDOWN)
         //Let the application process the key. 
     }
 }
-</code></pre>
+
+```
+
 If the keystroke manager does not handle the key event, it passes the key event to TSF text services by calling the TSF text service <a href="/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-onkeydown">ITfKeyEventSink::OnKeyDown</a> method.
 
 ## -see-also

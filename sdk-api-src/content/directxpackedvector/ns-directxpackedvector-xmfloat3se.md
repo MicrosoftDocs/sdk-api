@@ -126,7 +126,7 @@ Bits 27-31 of <b>Packed</b> are the 5 bit <i>exponent</i> used with
 
 </li>
 </ul>
-As there are no sign bits in the format for storing the components in the <code>XMFLOAT3SE</code>structure, all component values are positive.
+As there are no sign bits in the format for storing the components in the <code>XMFLOAT3SE</code> structure, all component values are positive.
        
 
 <code>XMFLOAT3SE</code> can be loaded into instances of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> by using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadfloat3se">XMLoadFloat3SE</a>.

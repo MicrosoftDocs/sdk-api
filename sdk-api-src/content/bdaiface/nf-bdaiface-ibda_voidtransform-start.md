@@ -52,7 +52,7 @@ api_name:
 
 The <b>Start</b> method restarts data flow through a control node.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,10 +54,7 @@ Provides a write-only object model for bundle packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleWriter2</b> interface inherits from <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlewriter">IAppxBundleWriter</a>. <b>IAppxBundleWriter2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppxBundleWriter2</b> interface inherits from <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlewriter">IAppxBundleWriter</a>. <b>IAppxBundleWriter2</b> also has these types of members:
 
 ## -see-also
 

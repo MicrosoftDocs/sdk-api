@@ -54,10 +54,7 @@ Extends the <a href="/windows/desktop/api/shobjidl/nn-shobjidl-ihweventhandler">
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHWEventHandler2</b> interface inherits from <a href="/windows/desktop/api/shobjidl/nn-shobjidl-ihweventhandler">IHWEventHandler</a>. <b>IHWEventHandler2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IHWEventHandler2</b> interface inherits from <a href="/windows/desktop/api/shobjidl/nn-shobjidl-ihweventhandler">IHWEventHandler</a>. <b>IHWEventHandler2</b> also has these types of members:
 
 ## -remarks
 

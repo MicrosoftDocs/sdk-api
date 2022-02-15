@@ -55,15 +55,15 @@ Indicates whether the vertex buffer changes infrequently or frequently.
 
 ## -enum-fields
 
-### -field D2D1_VERTEX_USAGE_STATIC
+### -field D2D1_VERTEX_USAGE_STATIC:0
 
 The created vertex buffer is updated infrequently.
 
-### -field D2D1_VERTEX_USAGE_DYNAMIC
+### -field D2D1_VERTEX_USAGE_DYNAMIC:1
 
 The created vertex buffer is changed frequently.
 
-### -field D2D1_VERTEX_USAGE_FORCE_DWORD
+### -field D2D1_VERTEX_USAGE_FORCE_DWORD:0xffffffff
 
 ## -remarks
 

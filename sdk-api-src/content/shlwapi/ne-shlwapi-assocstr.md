@@ -54,7 +54,7 @@ Used by <a href="/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-gets
 
 ## -enum-fields
 
-### -field ASSOCSTR_COMMAND
+### -field ASSOCSTR_COMMAND:1
 
 A command string associated with a Shell verb.
 
@@ -128,35 +128,35 @@ Corresponds to the InfoTip registry value. Returns an info tip for an item, or l
 
 ### -field ASSOCSTR_DROPTARGET
 
-<b>Introduced in Internet Explorer 8</b>.. For a verb invoked through COM and the <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> interface, you can use this flag to retrieve the <b>IDropTarget</b> object's CLSID. This CLSID is registered in the <b>DropTarget</b> subkey. The verb is specified in the <i>pwszExtra</i> parameter in the call to <a href="/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getstring">IQueryAssociations::GetString</a>.
+<b>Introduced in Internet Explorer 8</b>. For a verb invoked through COM and the <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> interface, you can use this flag to retrieve the <b>IDropTarget</b> object's CLSID. This CLSID is registered in the <b>DropTarget</b> subkey. The verb is specified in the <i>pwszExtra</i> parameter in the call to <a href="/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getstring">IQueryAssociations::GetString</a>.
 
 This type of string will identify the code that will be invoked in the implementation of the verb.
 
 ### -field ASSOCSTR_DELEGATEEXECUTE
 
-<b>Introduced in Internet Explorer 8</b>.. For a verb invoked through COM and the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand">IExecuteCommand</a> interface, you can use this flag to retrieve the <b>IExecuteCommand</b> object's CLSID. This CLSID is registered in the verb's <b>command</b> subkey as the DelegateExecute entry. The verb is specified in the <i>pwszExtra</i> parameter in the call to <a href="/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getstring">IQueryAssociations::GetString</a>.
+<b>Introduced in Internet Explorer 8</b>. For a verb invoked through COM and the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand">IExecuteCommand</a> interface, you can use this flag to retrieve the <b>IExecuteCommand</b> object's CLSID. This CLSID is registered in the verb's <b>command</b> subkey as the DelegateExecute entry. The verb is specified in the <i>pwszExtra</i> parameter in the call to <a href="/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getstring">IQueryAssociations::GetString</a>.
 
 This type of string will identify the code that will be invoked in the implementation of the verb.
 
 ### -field ASSOCSTR_SUPPORTED_URI_PROTOCOLS
 
-<b>Introduced in Windows 8</b>.
+A string value of the URI protocol schemes. For example, `http:https:ftp:file:` or `*` indicating all.
 
 ### -field ASSOCSTR_PROGID
 
-The ProgID provided by the app associated with the file type or URI scheme. This if configured by users in their default program settings.
+<b>Introduced in Windows 10</b>. The ProgID provided by the app associated with the file type or URI scheme. This if configured by users in their default program settings.
 
 ### -field ASSOCSTR_APPID
 
-The AppUserModelID of the app associated with the file type or URI scheme. This is configured by users in their default program settings.
+<b>Introduced in Windows 10</b>. The AppUserModelID of the app associated with the file type or URI scheme. This is configured by users in their default program settings.
 
 ### -field ASSOCSTR_APPPUBLISHER
 
-The publisher of the app associated with the file type or URI scheme. This is configured by users in their default program settings.
+<b>Introduced in Windows 10</b>. The publisher of the app associated with the file type or URI scheme. This is configured by users in their default program settings.
 
 ### -field ASSOCSTR_APPICONREFERENCE
 
-The icon reference of the app associated with the file type or URI scheme. This is configured by users in their default program settings.
+<b>Introduced in Windows 10</b>. The icon reference of the app associated with the file type or URI scheme. This is configured by users in their default program settings.
 
 ### -field ASSOCSTR_MAX
 

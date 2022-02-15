@@ -122,4 +122,4 @@ Creates a <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrus
 </tr>
 </table>
 
-## -parameters
+

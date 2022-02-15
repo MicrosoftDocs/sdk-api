@@ -52,7 +52,7 @@ api_name:
 
 Get a vector variable.
 
-## -parameters
+
 
 ## -returns
 

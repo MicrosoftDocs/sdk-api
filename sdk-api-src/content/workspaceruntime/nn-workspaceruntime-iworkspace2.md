@@ -56,8 +56,5 @@ Exposes additional methods that provide information about a connection in Remote
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspace2</b> interface inherits from <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace">IWorkspace</a>. <b>IWorkspace2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWorkspace2</b> interface inherits from <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace">IWorkspace</a>. <b>IWorkspace2</b> also has these types of members:
 

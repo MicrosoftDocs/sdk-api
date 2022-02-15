@@ -256,15 +256,23 @@ to provide a list of handles to be inherited by a particular process.
 <h3><a id="Security_Remarks"></a><a id="security_remarks"></a><a id="SECURITY_REMARKS"></a>Security Remarks</h3>
 The first parameter, <i>lpApplicationName</i>, can be <b>NULL</b>, in which case the executable name must be in the  white space–delimited string pointed to by <i>lpCommandLine</i>. If the executable or path name has a space in it, there is a risk that a different executable could be run because of the way the function parses spaces. The following example is dangerous because the function will attempt to run "Program.exe", if it exists, instead of "MyApp.exe".
 
-<pre class="syntax" xml:space="preserve"><code>	LPTSTR szCmdline = _tcsdup(TEXT("C:\\Program Files\\MyApp -L -S"));
-	CreateProcess(NULL, szCmdline, /* ... */);</code></pre>
+
+``` syntax
+	LPTSTR szCmdline = _tcsdup(TEXT("C:\\Program Files\\MyApp -L -S"));
+	CreateProcess(NULL, szCmdline, /* ... */);
+```
+
 If a malicious user were to create an application called "Program.exe" on a system, any program that incorrectly calls 
 <b>CreateProcess</b> using the Program Files directory will run this application instead of the intended application.
 
 To avoid this problem, do not pass <b>NULL</b> for <i>lpApplicationName</i>. If you do pass <b>NULL</b> for <i>lpApplicationName</i>, use quotation marks around the executable path in <i>lpCommandLine</i>, as shown in the example below.
 
-<pre class="syntax" xml:space="preserve"><code>	LPTSTR szCmdline[] = _tcsdup(TEXT("\"C:\\Program Files\\MyApp\" -L -S"));
-	CreateProcess(NULL, szCmdline, /*...*/);</code></pre>
+
+``` syntax
+	LPTSTR szCmdline[] = _tcsdup(TEXT("\"C:\\Program Files\\MyApp\" -L -S"));
+	CreateProcess(NULL, szCmdline, /*...*/);
+```
+
 
 #### Examples
 
@@ -282,6 +290,10 @@ For an example, see
 ## -see-also
 
 <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
+
+
+
+<a href="/windows/win32/api/shellapi/nf-shellapi-shellexecutea">ShellExecuteA</a>
 
 
 

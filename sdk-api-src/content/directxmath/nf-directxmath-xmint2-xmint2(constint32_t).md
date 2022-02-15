@@ -52,7 +52,7 @@ api_name:
 
 Initializes a new instance of <code>XMINT2</code> from a two element <code>int32_t2</code> array argument.
 
-This constructor initializes a new instance of <a href="/windows/desktop/api/directxmath/ns-directxmath-xmint2">XMINT2</a> from a from a two element <code>int32_t</code>array argument.
+This constructor initializes a new instance of <a href="/windows/desktop/api/directxmath/ns-directxmath-xmint2">XMINT2</a> from a from a two element <code>int32_t</code> array argument.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters

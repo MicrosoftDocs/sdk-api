@@ -52,7 +52,7 @@ api_name:
 
 Determines whether the image has been decoded by calling <a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-decode">IShellImageData::Decode</a>. Many operations return a failure code if the image is not first decoded.
 
-## -parameters
+
 
 ## -returns
 

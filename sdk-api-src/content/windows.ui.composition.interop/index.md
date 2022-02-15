@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Windows Runtime C++ reference. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [w_ui_comp](../_w_ui_comp/index.md)
 - [Windows Runtime C++ reference](../_winrt/index.md)
 

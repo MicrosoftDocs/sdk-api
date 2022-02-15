@@ -54,16 +54,16 @@ Specifies the render intent of the next <a href="/windows/desktop/api/wincodec/n
 
 ## -enum-fields
 
-### -field WICRawRenderModeDraft
+### -field WICRawRenderModeDraft:0x1
 
 Use speed priority mode.
 
-### -field WICRawRenderModeNormal
+### -field WICRawRenderModeNormal:0x2
 
 Use normal priority mode. Balance of speed and quality.
 
-### -field WICRawRenderModeBestQuality
+### -field WICRawRenderModeBestQuality:0x3
 
 Use best quality mode.
 
-### -field WICRAWRENDERMODE_FORCE_DWORD
+### -field WICRAWRENDERMODE_FORCE_DWORD:0x7fffffff

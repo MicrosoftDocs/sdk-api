@@ -82,7 +82,7 @@ A pointer to the device (see <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10
 
 Type: <b><a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectpool">ID3D10EffectPool</a>*</b>
 
-Optional. A pointer to an memory space for effect variables that are shared across effects (see <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectpool">ID3D10EffectPool Interface</a>).
+Optional. A pointer to a memory space for effect variables that are shared across effects (see <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectpool">ID3D10EffectPool Interface</a>).
 
 ### -param ppEffect [out]
 

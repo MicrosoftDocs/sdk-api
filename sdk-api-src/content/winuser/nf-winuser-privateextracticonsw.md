@@ -122,7 +122,7 @@ Specifies flags that control this function.  These flags are the LR_*
 
 Type: <b>UINT</b>
 
-If the <i>phicon</i>parameter is <b>NULL</b> and this function succeeds, then the return
+If the <i>phicon</i> parameter is <b>NULL</b> and this function succeeds, then the return
 				value is the number of icons in the file.  If the function fails then the
 				return value is 0.
 
@@ -145,7 +145,7 @@ The <i>cxIcon</i> and
       For example, <code>MAKELONG(24, 48)</code> for both the cxIcon and cyIcon parameters would extract
       both 24 and 48 size icons.
 
-You must destroy all icons extracted by <b>PrivateExtractIcons</b>by calling the <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function. 
+You must destroy all icons extracted by <b>PrivateExtractIcons</b> by calling the <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function. 
 
 This function was not included in the SDK headers and libraries until Windows XP Service Pack 1 (SP1) and Windows Server 2003. If you do not have a header file and import library for this function, you can call the function using <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
 

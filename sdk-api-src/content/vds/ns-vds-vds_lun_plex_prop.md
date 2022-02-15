@@ -130,7 +130,7 @@ The rebuild priority of the plex. This value must be greater than or equal to 0 
 
 ## -remarks
 
-The <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-getproperties">IVdsLunPlex::GetProperties</a>method returns this structure to report the properties of a <a href="/windows/desktop/VDS/lun-plex-object">LUN plex object</a>.
+The <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-getproperties">IVdsLunPlex::GetProperties</a> method returns this structure to report the properties of a <a href="/windows/desktop/VDS/lun-plex-object">LUN plex object</a>.
 
 ## -see-also
 

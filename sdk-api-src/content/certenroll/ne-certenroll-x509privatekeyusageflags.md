@@ -54,11 +54,11 @@ The <b>X509PrivateKeyUsageFlags</b> enumeration specifies the permitted uses of 
 
 ## -enum-fields
 
-### -field XCN_NCRYPT_ALLOW_USAGES_NONE
+### -field XCN_NCRYPT_ALLOW_USAGES_NONE:0
 
 The permitted uses are not defined.
 
-### -field XCN_NCRYPT_ALLOW_DECRYPT_FLAG
+### -field XCN_NCRYPT_ALLOW_DECRYPT_FLAG:0x1
 
 The key can be used to decrypt content. This maps to the following <a href="/windows/desktop/api/certenroll/ne-certenroll-x509keyusageflags">X509KeyUsageFlags</a> values:
 
@@ -69,7 +69,7 @@ The key can be used to decrypt content. This maps to the following <a href="/win
 <li>XCN_CERT_KEY_ENCIPHERMENT_KEY_USAGE</li>
 </ul>
 
-### -field XCN_NCRYPT_ALLOW_SIGNING_FLAG
+### -field XCN_NCRYPT_ALLOW_SIGNING_FLAG:0x2
 
 The key can be used for signing. This maps to the following <a href="/windows/desktop/api/certenroll/ne-certenroll-x509keyusageflags">X509KeyUsageFlags</a> values:
 
@@ -79,13 +79,13 @@ The key can be used for signing. This maps to the following <a href="/windows/de
 <li>XCN_CERT_KEY_CERT_SIGN_KEY_USAGE</li>
 </ul>
 
-### -field XCN_NCRYPT_ALLOW_KEY_AGREEMENT_FLAG
+### -field XCN_NCRYPT_ALLOW_KEY_AGREEMENT_FLAG:0x4
 
 The key can be used to establish key agreement between entities.
 
-### -field XCN_NCRYPT_ALLOW_KEY_IMPORT_FLAG
+### -field XCN_NCRYPT_ALLOW_KEY_IMPORT_FLAG:0x8
 
-### -field XCN_NCRYPT_ALLOW_ALL_USAGES
+### -field XCN_NCRYPT_ALLOW_ALL_USAGES:0xffffff
 
 All of the uses defined for this enumeration are permitted.
 

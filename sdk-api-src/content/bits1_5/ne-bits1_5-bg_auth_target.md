@@ -53,7 +53,7 @@ Defines constants that specify whether the credentials are used for proxy or ser
 
 ## -enum-fields
 
-### -field BG_AUTH_TARGET_SERVER
+### -field BG_AUTH_TARGET_SERVER:1
 
 Use credentials for server requests.
 

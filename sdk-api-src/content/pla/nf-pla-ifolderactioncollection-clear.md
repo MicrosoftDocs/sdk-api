@@ -52,7 +52,7 @@ api_name:
 
 Removes all folder actions from the collection.
 
-## -parameters
+
 
 ## -returns
 

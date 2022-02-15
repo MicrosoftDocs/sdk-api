@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the build version of OLE Automation.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Gets the layout of the root signature, without converting between root signature versions.
 
-## -parameters
+
 
 ## -returns
 

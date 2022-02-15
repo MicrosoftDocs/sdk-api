@@ -56,15 +56,15 @@ The <b>ISCSI_AUTH_TYPES</b> enumeration indicates the type of authentication met
 
 ## -enum-fields
 
-### -field ISCSI_NO_AUTH_TYPE
+### -field ISCSI_NO_AUTH_TYPE:0
 
 No authentication type was specified.
 
-### -field ISCSI_CHAP_AUTH_TYPE
+### -field ISCSI_CHAP_AUTH_TYPE:1
 
 Challenge Handshake Authentication Protocol (CHAP) authentication.
 
-### -field ISCSI_MUTUAL_CHAP_AUTH_TYPE
+### -field ISCSI_MUTUAL_CHAP_AUTH_TYPE:2
 
 Mutual (2-way) CHAP authentication.
 

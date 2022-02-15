@@ -93,14 +93,18 @@ The <b>DnsExtractRecordsFromMessage</b> function is designed to operate on messa
 
 The following declaration for <b>DnsExtractRecordsFromMessage_UTF8</b> can be found in Windns.h.
 
-<pre class="syntax" xml:space="preserve"><code>DNS_STATUS
+
+``` syntax
+DNS_STATUS
 WINAPI
 DnsExtractRecordsFromMessage_UTF8(
     __in            PDNS_MESSAGE_BUFFER pDnsBuffer,
     __in            WORD                wMessageLength,
     __deref_out     PDNS_RECORD *       ppRecord
     );
-</code></pre>
+
+```
+
 
 ## -see-also
 

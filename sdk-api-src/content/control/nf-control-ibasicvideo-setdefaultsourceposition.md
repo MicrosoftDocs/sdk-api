@@ -53,7 +53,7 @@ api_name:
 
 The <code>SetDefaultSourcePosition</code> method reverts to the default source rectangle. After this method is called, the video renderer uses the entire video image, without cropping.
 
-## -parameters
+
 
 ## -returns
 

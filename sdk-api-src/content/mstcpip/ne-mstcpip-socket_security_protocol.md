@@ -72,7 +72,7 @@ The maximum possible value for the <a href="/windows/desktop/api/mstcpip/ne-mstc
 
 ## -remarks
 
-This enumeration is supported on Windows Vistaand later.
+This enumeration is supported on Windows Vista and later.
 
 Currently, the only type of security protocol that is supported is IPsec. So specifying an enumeration value  of <b>SOCKET_SECURITY_PROTOCOL_DEFAULT</b> has the same effect as specifying <b>SOCKET_SECURITY_PROTOCOL_IPSEC</b>. 
 

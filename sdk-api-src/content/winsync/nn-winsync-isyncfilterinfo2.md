@@ -54,10 +54,7 @@ Represents additional information about a filter that can be used to control whi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncFilterInfo2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfilterinfo">ISyncFilterInfo</a>. <b>ISyncFilterInfo2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ISyncFilterInfo2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfilterinfo">ISyncFilterInfo</a>. <b>ISyncFilterInfo2</b> also has these types of members:
 
 ## -remarks
 

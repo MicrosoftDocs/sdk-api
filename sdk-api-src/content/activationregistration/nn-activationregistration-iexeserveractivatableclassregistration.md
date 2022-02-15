@@ -54,10 +54,7 @@ Enables getting  the registration info for an out-of-process server.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExeServerActivatableClassRegistration</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IExeServerActivatableClassRegistration</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IExeServerActivatableClassRegistration</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IExeServerActivatableClassRegistration</b> also has these types of members:
 
 ## -see-also
 

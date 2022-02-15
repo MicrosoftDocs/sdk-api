@@ -88,7 +88,7 @@ Pointer to a string that contains the text to draw.
 
 Type: <b>int</b>
 
-Value of type<b>int</b> that contains the number of characters to draw. If the parameter is set to -1, all the characters in the string are drawn.
+Value of type <b>int</b> that contains the number of characters to draw. If the parameter is set to -1, all the characters in the string are drawn.
 
 ### -param dwTextFlags [in]
 
@@ -112,7 +112,7 @@ Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> struc
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

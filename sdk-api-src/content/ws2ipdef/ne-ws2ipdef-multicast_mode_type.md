@@ -54,7 +54,7 @@ The <b>MULTICAST_MODE_TYPE</b> enumeration specifies the filter mode for multica
 
 ## -enum-fields
 
-### -field MCAST_INCLUDE
+### -field MCAST_INCLUDE:0
 
 The filter contains a list of IP addresses to include.
 
@@ -64,7 +64,7 @@ The filter contains a list of IP addresses to exclude.
 
 ## -remarks
 
-This enumeration is supported on Windows Vistaand later.
+This enumeration is supported on Windows Vista and later.
 
 The <b>MULTICAST_MODE_TYPE</b> enumeration is used in the <b>gf_fmode</b> member of the <a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_source_req">GROUP_SOURCE_REQ</a> structure to determine if a list of IP addresses should included or excluded. The values from this enumeration can also be used in the <b>imsf_fmode</b> member of the <a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-ip_msfilter">ip_msfilter</a> structure.
 

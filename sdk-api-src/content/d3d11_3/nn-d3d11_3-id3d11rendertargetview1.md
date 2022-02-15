@@ -55,10 +55,7 @@ A render-target-view interface represents the render-target subresources that ca
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11RenderTargetView1</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11rendertargetview">ID3D11RenderTargetView</a>. <b>ID3D11RenderTargetView1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID3D11RenderTargetView1</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11rendertargetview">ID3D11RenderTargetView</a>. <b>ID3D11RenderTargetView1</b> also has these types of members:
 
 ## -remarks
 

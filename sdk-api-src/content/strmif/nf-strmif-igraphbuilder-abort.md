@@ -57,7 +57,7 @@ The <code>Abort</code> method requests the Filter Graph Manager to halt its curr
 
 The current task may or may not fail to complete. Possibly the fastest option for the Filter Graph Manager is to complete the task.
 
-## -parameters
+
 
 ## -returns
 

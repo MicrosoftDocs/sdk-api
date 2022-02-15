@@ -53,7 +53,7 @@ api_name:
 
 Unlocks a buffer that was previously locked. Call this method once for every call to <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">IMFMediaBuffer::Lock</a>.
 
-## -parameters
+
 
 ## -returns
 

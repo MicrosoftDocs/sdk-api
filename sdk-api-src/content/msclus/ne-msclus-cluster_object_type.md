@@ -55,51 +55,51 @@ Defines the type of object for which a notification is requested or generated.
 
 ## -enum-fields
 
-### -field CLUSTER_OBJECT_TYPE_NONE
+### -field CLUSTER_OBJECT_TYPE_NONE:0
 
 The notification is for an unspecified type.
 
-### -field CLUSTER_OBJECT_TYPE_CLUSTER
+### -field CLUSTER_OBJECT_TYPE_CLUSTER:0x1
 
 The notification is for the cluster.
 
-### -field CLUSTER_OBJECT_TYPE_GROUP
+### -field CLUSTER_OBJECT_TYPE_GROUP:0x2
 
 The notification is for a group.
 
-### -field CLUSTER_OBJECT_TYPE_RESOURCE
+### -field CLUSTER_OBJECT_TYPE_RESOURCE:0x3
 
 The notification is for a resource.
 
-### -field CLUSTER_OBJECT_TYPE_RESOURCE_TYPE
+### -field CLUSTER_OBJECT_TYPE_RESOURCE_TYPE:0x4
 
 The notification is for a resource type.
 
-### -field CLUSTER_OBJECT_TYPE_NETWORK_INTERFACE
+### -field CLUSTER_OBJECT_TYPE_NETWORK_INTERFACE:0x5
 
 The notification is for a cluster network interface.
 
-### -field CLUSTER_OBJECT_TYPE_NETWORK
+### -field CLUSTER_OBJECT_TYPE_NETWORK:0x6
 
 The notification is for a cluster network.
 
-### -field CLUSTER_OBJECT_TYPE_NODE
+### -field CLUSTER_OBJECT_TYPE_NODE:0x7
 
 The notification is for a cluster node.
 
-### -field CLUSTER_OBJECT_TYPE_REGISTRY
+### -field CLUSTER_OBJECT_TYPE_REGISTRY:0x8
 
 The notification is for a cluster registry key.
 
-### -field CLUSTER_OBJECT_TYPE_QUORUM
+### -field CLUSTER_OBJECT_TYPE_QUORUM:0x9
 
 The notification is for a quorum resource.
 
-### -field CLUSTER_OBJECT_TYPE_SHARED_VOLUME
+### -field CLUSTER_OBJECT_TYPE_SHARED_VOLUME:0xa
 
 The notification is for a cluster shared volume.
 
-### -field CLUSTER_OBJECT_TYPE_GROUPSET
+### -field CLUSTER_OBJECT_TYPE_GROUPSET:0xd
 
 The notification is for a groupset.
 

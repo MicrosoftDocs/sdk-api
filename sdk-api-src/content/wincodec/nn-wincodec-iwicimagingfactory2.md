@@ -54,10 +54,7 @@ An extension of the WIC factory interface that includes the ability to create an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICImagingFactory2</b> interface inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory">IWICImagingFactory</a>. <b>IWICImagingFactory2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWICImagingFactory2</b> interface inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory">IWICImagingFactory</a>. <b>IWICImagingFactory2</b> also has these types of members:
 
 ## -see-also
 

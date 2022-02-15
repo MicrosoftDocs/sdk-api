@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPOBackupCollection.get_Item
 title: IGPMStarterGPOBackupCollection::get_Item (gpmgmt.h)
-description: Given an index, returns an GPMStarterGPOBackup object from the collection.
+description: Given an index, returns a GPMStarterGPOBackup object from the collection.
 helpviewer_keywords: ["IGPMStarterGPOBackupCollection interface [GPMC]","Item property","IGPMStarterGPOBackupCollection.Item","IGPMStarterGPOBackupCollection.get_Item","IGPMStarterGPOBackupCollection::Item","IGPMStarterGPOBackupCollection::get_Item","Item property [GPMC]","Item property [GPMC]","IGPMStarterGPOBackupCollection interface","get_Item","gpmc.igpmstartergpobackupcollection_get_item","gpmgmt/IGPMStarterGPOBackupCollection::Item","gpmgmt/IGPMStarterGPOBackupCollection::get_Item"]
 old-location: gpmc\igpmstartergpobackupcollection_get_item.htm
 tech.root: gpmc
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Given an index, returns an 
+Given an index, returns a 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpobackup">GPMStarterGPOBackup</a> object from the collection.
 
 This property is read-only.

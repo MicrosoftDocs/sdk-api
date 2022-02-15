@@ -53,7 +53,7 @@ api_name:
 
 Unlocks the attribute store after a call to the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-lockstore">IMFAttributes::LockStore</a> method. While the object is unlocked, multiple threads can access the object's attributes.
 
-## -parameters
+
 
 ## -returns
 

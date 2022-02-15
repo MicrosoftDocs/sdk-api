@@ -58,12 +58,12 @@ The <b>KERB_PROFILE_BUFFER_TYPE</b> enumeration lists the type of logon profile 
 
 ## -enum-fields
 
-### -field KerbInteractiveProfile
+### -field KerbInteractiveProfile:2
 
 The buffer contains information about an interactive <a href="/windows/desktop/SecGloss/l-gly">logon session</a>.
 
-### -field KerbSmartCardProfile
+### -field KerbSmartCardProfile:4
 
-### -field KerbTicketProfile
+### -field KerbTicketProfile:6
 
 The buffer contains information about a Kerberos logon session.

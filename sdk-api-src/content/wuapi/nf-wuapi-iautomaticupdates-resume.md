@@ -56,7 +56,7 @@ api_name:
 
 Restarts automatic updating if automatic updating is paused.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 The <b>ResetService</b> method resets the 
   service administered by the SDO API. Resetting the service causes the service to refresh its data.
 
-## -parameters
+
 
 ## -returns
 

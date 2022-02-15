@@ -56,15 +56,15 @@ Indicates whether a target belongs to a pool or farm.
 
 ## -enum-fields
 
-### -field UNKNOWN
+### -field UNKNOWN:0
 
 The target type is unknown.
 
-### -field FARM
+### -field FARM:2
 
 The target is a virtual machine that belongs to a pool or an RD Session Host server that belongs to a farm.
 
-### -field NONFARM
+### -field NONFARM:2
 
 The target does not belong to a pool or farm.
 

@@ -54,7 +54,7 @@ Defines flags for serializing and deserializing attribute stores.
 
 ## -enum-fields
 
-### -field MF_ATTRIBUTE_SERIALIZE_UNKNOWN_BYREF
+### -field MF_ATTRIBUTE_SERIALIZE_UNKNOWN_BYREF:0x1
 
 If this flag is set, <b>IUnknown</b> pointers in the attribute store are marshaled to and from the stream. If this flag is absent, <b>IUnknown</b> pointers in the attribute store are not marshaled or serialized.
 

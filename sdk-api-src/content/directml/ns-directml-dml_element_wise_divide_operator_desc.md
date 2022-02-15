@@ -87,9 +87,9 @@ This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 ### DML_FEATURE_LEVEL_3_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |
-| ATensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
-| BTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
-| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+| ATensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, UINT32 |
+| BTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, UINT32 |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT32, UINT32 |
 
 ### DML_FEATURE_LEVEL_2_1 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |

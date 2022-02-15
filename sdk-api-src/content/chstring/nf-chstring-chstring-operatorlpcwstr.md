@@ -61,7 +61,7 @@ api_name:
 
 The <b>operator LPCWSTR</b> conversion operator provides an efficient method to access the <b>NULL</b>-terminated C string contained in a <a href="/windows/desktop/WmiSdk/chstring">CHString</a> object.
 
-## -parameters
+
 
 ## -see-also
 

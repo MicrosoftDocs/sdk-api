@@ -54,23 +54,23 @@ Represents the state of a Windows app package.
 
 ## -enum-fields
 
-### -field PES_UNKNOWN
+### -field PES_UNKNOWN:0
 
 The package is in an unknown state.
 
-### -field PES_RUNNING
+### -field PES_RUNNING:1
 
 The package is running.
 
-### -field PES_SUSPENDING
+### -field PES_SUSPENDING:2
 
 The package is being suspended.
 
-### -field PES_SUSPENDED
+### -field PES_SUSPENDED:3
 
 The package is suspended.
 
-### -field PES_TERMINATED
+### -field PES_TERMINATED:4
 
 The package was terminated.
 

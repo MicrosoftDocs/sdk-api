@@ -55,7 +55,7 @@ The <b>VSS_SOURCE_TYPE</b> enumeration specifies the
 
 ## -enum-fields
 
-### -field VSS_ST_UNDEFINED
+### -field VSS_ST_UNDEFINED:0
 
 The source of the data is not known. 
       

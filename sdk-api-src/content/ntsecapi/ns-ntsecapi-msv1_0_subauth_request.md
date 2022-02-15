@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecapi._MSV1_0_SUBAUTH_REQUEST
 title: MSV1_0_SUBAUTH_REQUEST (ntsecapi.h)
-description: Contains information to pass to an subauthentication package.
+description: Contains information to pass to a subauthentication package.
 helpviewer_keywords: ["*PMSV1_0_SUBAUTH_REQUEST","MSV1_0_SUBAUTH_REQUEST","MSV1_0_SUBAUTH_REQUEST structure [Security]","PMSV1_0_SUBAUTH_REQUEST","PMSV1_0_SUBAUTH_REQUEST structure pointer [Security]","_lsa_msv1_0_subauth_request","ntsecapi/MSV1_0_SUBAUTH_REQUEST","ntsecapi/PMSV1_0_SUBAUTH_REQUEST","security.msv1_0_subauth_request"]
 old-location: security\msv1_0_subauth_request.htm
 tech.root: security
@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>MSV1_0_SUBAUTH_REQUEST</b> structure contains information to pass to an <a href="/windows/desktop/SecGloss/s-gly">subauthentication package</a>.
+The <b>MSV1_0_SUBAUTH_REQUEST</b> structure contains information to pass to a <a href="/windows/desktop/SecGloss/s-gly">subauthentication package</a>.
 
 It is used by 
 <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>.

@@ -56,67 +56,67 @@ Represents mathematical alphanumeric codes.
 
 ## -enum-fields
 
-### -field MBOLD
+### -field MBOLD:0x10
 
 Bold
 
-### -field MITAL
+### -field MITAL:0x20
 
 Italics
 
-### -field MGREEK
+### -field MGREEK:0x40
 
 Greek
 
-### -field MROMN
+### -field MROMN:0
 
 Roman
 
-### -field MSCRP
+### -field MSCRP:1
 
 Script
 
-### -field MFRAK
+### -field MFRAK:2
 
 Fraktur
 
-### -field MOPEN
+### -field MOPEN:3
 
 Double struck
 
-### -field MSANS
+### -field MSANS:4
 
 Sans-serif
 
-### -field MMONO
+### -field MMONO:5
 
 Monospaced
 
-### -field MMATH
+### -field MMATH:6
 
 Math
 
-### -field MISOL
+### -field MISOL:7
 
 Isolated
 
-### -field MINIT
+### -field MINIT:8
 
 Initial
 
-### -field MTAIL
+### -field MTAIL:9
 
 Tailed
 
-### -field MSTRCH
+### -field MSTRCH:10
 
 Stretched
 
-### -field MLOOP
+### -field MLOOP:11
 
 Looped
 
-### -field MOPENA
+### -field MOPENA:12
 
 Arabic double-struck
 

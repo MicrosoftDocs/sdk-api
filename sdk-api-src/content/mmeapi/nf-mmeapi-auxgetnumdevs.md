@@ -54,7 +54,7 @@ api_name:
 
 The <b>auxGetNumDevs</b> function retrieves the number of auxiliary output devices present in the system.
 
-## -parameters
+
 
 ## -returns
 

@@ -57,10 +57,7 @@ For information about using COPP, see <a href="/windows/desktop/DirectShow/using
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMCertifiedOutputProtection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMCertifiedOutputProtection</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAMCertifiedOutputProtection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMCertifiedOutputProtection</b> also has these types of members:
 
 ## -see-also
 

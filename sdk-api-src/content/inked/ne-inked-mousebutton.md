@@ -54,19 +54,19 @@ Specifies which mouse button was pressed.
 
 ## -enum-fields
 
-### -field NO_BUTTON
+### -field NO_BUTTON:0
 
 Default. No mouse button was pressed.
 
-### -field LEFT_BUTTON
+### -field LEFT_BUTTON:0x1
 
 The left mouse button was pressed.
 
-### -field RIGHT_BUTTON
+### -field RIGHT_BUTTON:0x2
 
 The right mouse button was pressed.
 
-### -field MIDDLE_BUTTON
+### -field MIDDLE_BUTTON:0x4
 
 The middle mouse button was pressed.
 

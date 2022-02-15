@@ -52,7 +52,7 @@ api_name:
 
 Test an effect to see if the reflection metadata has been removed from memory.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 Resumes playback of the current media file after a pause.
 
-## -parameters
+
 
 ## -returns
 

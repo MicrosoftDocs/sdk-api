@@ -68,9 +68,9 @@ You acquire an <b>EventRegistrationToken</b> when you subscribe to an event.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/hh438385(v=vs.85)">IEventHandler<T></a>
+<a href="/previous-versions/hh438385(v=vs.85)">IEventHandler&lt;T&gt;</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/hh438424(v=vs.85)">ITypedEventHandler<TSender, TArgs></a>
+<a href="/previous-versions/hh438424(v=vs.85)">ITypedEventHandler<TSender, TArgs></a>
 

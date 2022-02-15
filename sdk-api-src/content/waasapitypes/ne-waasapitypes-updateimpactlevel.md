@@ -56,7 +56,7 @@ Indicates a high, medium, or low impact of a device running an out-of-date OS. T
 
 ## -enum-fields
 
-### -field UpdateImpactLevel_None
+### -field UpdateImpactLevel_None:0
 
 There is no foreseeable impact to your device. This can be because the device is up-to-date, or is not up-to-date because the device is honoring its Windows Update for Business deferral periods, or is out-of-date but has not yet reached the <b>daysOutOfDate</b> threshold to reach a higher impact level.
 

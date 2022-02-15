@@ -55,7 +55,7 @@ api_name:
 
 Starts the sensor activity monitor.
 
-## -parameters
+
 
 ## -returns
 

@@ -56,7 +56,7 @@ Emits post-build properties for a set of acceleration structures.  This enables 
 
 ### -param pDesc [in]
 
-Description of pos-tbuild information to generate.
+Description of post-build information to generate.
 
 ### -param NumSourceAccelerationStructures [in]
 

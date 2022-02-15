@@ -54,7 +54,7 @@ The PrintDocumentPackageCompletion enumeration specifies the status of the print
 
 ## -enum-fields
 
-### -field PrintDocumentPackageCompletion_InProgress
+### -field PrintDocumentPackageCompletion_InProgress:0
 
 The print job is running.
 

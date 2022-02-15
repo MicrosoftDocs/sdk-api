@@ -54,7 +54,7 @@ Option(s) for raising an error to a non-continuable exception.
 
 ## -enum-fields
 
-### -field D3D10_RAISE_FLAG_DRIVER_INTERNAL_ERROR
+### -field D3D10_RAISE_FLAG_DRIVER_INTERNAL_ERROR:0x1L
 
 Raise an internal driver error to a non-continuable exception.
 

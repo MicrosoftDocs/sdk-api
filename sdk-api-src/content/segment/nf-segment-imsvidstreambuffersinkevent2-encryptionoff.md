@@ -57,7 +57,7 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>EncryptionOff</b> method is called when the stream changes from encrypted to not encrypted.
 
-## -parameters
+
 
 ## -returns
 

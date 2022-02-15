@@ -52,7 +52,7 @@ api_name:
 
 The <b>UnlockProfile</b> method unlocks the Stream Buffer Sink filter's profile. After the profile is unlocked, you can change the name of the stub file.
 
-## -parameters
+
 
 ## -returns
 

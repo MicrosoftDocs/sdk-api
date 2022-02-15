@@ -54,14 +54,11 @@ Exposes methods for interacting with Shell data sources.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">CItemIDFactory</b> class inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idelegatefolder">IDelegateFolder</a>. <b>CItemIDFactory</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>CItemIDFactory</b> class inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idelegatefolder">IDelegateFolder</a>. <b>CItemIDFactory</b> also has these types of members:
 
 ## -remarks
 
-it is recomended that all data sources use this as it manages an important issue of security when  dealing with IDList parsing.
+it is recommended that all data sources use this as it manages an important issue of security when dealing with IDList parsing.
 
 ## -see-also
 

@@ -52,7 +52,7 @@ api_name:
 
 Sets the helper token to impersonate the token of the COM client. Because an application sets the token through COM impersonation, the token is not persistent and is valid only for the lifetime of a session. When the BITS service receives a log-off notification, the BITS service discards any helper tokens that are associated with the transfer job.
 
-## -parameters
+
 
 ## -returns
 

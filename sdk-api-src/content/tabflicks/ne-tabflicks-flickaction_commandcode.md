@@ -54,23 +54,23 @@ Defines the possible flick actions that can be assigned to a pen flick.
 
 ## -enum-fields
 
-### -field FLICKACTION_COMMANDCODE_NULL
+### -field FLICKACTION_COMMANDCODE_NULL:0
 
 No action is assigned to the pen flick.
 
-### -field FLICKACTION_COMMANDCODE_SCROLL
+### -field FLICKACTION_COMMANDCODE_SCROLL:1
 
 A scrolling command is assigned to the pen flick.
 
-### -field FLICKACTION_COMMANDCODE_APPCOMMAND
+### -field FLICKACTION_COMMANDCODE_APPCOMMAND:2
 
 An application command is assigned to a pen flick.
 
-### -field FLICKACTION_COMMANDCODE_CUSTOMKEY
+### -field FLICKACTION_COMMANDCODE_CUSTOMKEY:3
 
 A customized key sequence is assigned to the pen flick.
 
-### -field FLICKACTION_COMMANDCODE_KEYMODIFIER
+### -field FLICKACTION_COMMANDCODE_KEYMODIFIER:4
 
 A key modifier is assigned to the pen flick.
 

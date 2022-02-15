@@ -54,16 +54,16 @@ Specifies whether the topology loader enables Microsoft DirectX Video Accelerati
 
 ## -enum-fields
 
-### -field MFTOPOLOGY_DXVA_DEFAULT
+### -field MFTOPOLOGY_DXVA_DEFAULT:0
 
 The topology loader enables DXVA
 on the decoder if possible, and drops optional Media Foundation transforms (MFTs) that do not support DXVA.
 
-### -field MFTOPOLOGY_DXVA_NONE
+### -field MFTOPOLOGY_DXVA_NONE:1
 
 The topology loader disables all video acceleration. This setting forces software processing, even when the decoder supports DXVA.
 
-### -field MFTOPOLOGY_DXVA_FULL
+### -field MFTOPOLOGY_DXVA_FULL:2
 
 The topology loader enables DXVA on every MFT that supports it.
 

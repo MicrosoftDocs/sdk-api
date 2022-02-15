@@ -58,7 +58,7 @@ The
 <b>IMsmMerge2::CloseLog</b>    Mergemod.dll version 2.0 or later.
 			<div> </div><b>IMsmMerge::CloseLog</b>      All Mergemod.dll versions.
 
-## -parameters
+
 
 ## -returns
 

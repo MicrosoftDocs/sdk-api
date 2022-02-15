@@ -56,10 +56,7 @@ This interface adds the ability to check if a color rendering path is potentiall
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFont2</b> interface inherits from <a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefont1">IDWriteFont1</a>. <b>IDWriteFont2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteFont2</b> interface inherits from <a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefont1">IDWriteFont1</a>. <b>IDWriteFont2</b> also has these types of members:
 
 ## -see-also
 

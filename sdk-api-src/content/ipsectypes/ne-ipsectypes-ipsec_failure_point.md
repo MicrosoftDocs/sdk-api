@@ -56,7 +56,7 @@ The <b>IPSEC_FAILURE_POINT</b> enumerated type specifies at what point IPsec has
 
 ## -enum-fields
 
-### -field IPSEC_FAILURE_NONE
+### -field IPSEC_FAILURE_NONE:0
 
 IPsec has not failed.
 

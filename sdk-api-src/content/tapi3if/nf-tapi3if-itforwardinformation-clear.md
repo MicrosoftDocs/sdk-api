@@ -53,7 +53,7 @@ api_name:
 The 
 <b>Clear</b> method clears all forwarding information in this object.
 
-## -parameters
+
 
 ## -returns
 

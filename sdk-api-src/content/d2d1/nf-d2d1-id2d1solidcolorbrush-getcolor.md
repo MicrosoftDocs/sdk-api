@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the color of the solid color brush.
 
-## -parameters
+
 
 ## -returns
 

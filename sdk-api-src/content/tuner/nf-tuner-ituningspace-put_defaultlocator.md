@@ -66,7 +66,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 See <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-get_defaultlocator">ITuningSpace::get_DefaultLocator</a> for more information about the default locator.
 
-For DVB tuning spaces, the sytem type (cable, terrestrial, or satelite) of the tuning space must match the locator object. Otherwise, the method returns DISP_E_TYPEMISMATCH. For more information, see <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtuningspace-put_systemtype">IDVBTuningSpace::put_SystemType</a>.
+For DVB tuning spaces, the sytem type (cable, terrestrial, or satellite) of the tuning space must match the locator object. Otherwise, the method returns DISP_E_TYPEMISMATCH. For more information, see <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtuningspace-put_systemtype">IDVBTuningSpace::put_SystemType</a>.
 
 ## -see-also
 

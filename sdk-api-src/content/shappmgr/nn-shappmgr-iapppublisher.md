@@ -54,10 +54,7 @@ Exposes methods for publishing applications through <b>Add/Remove Programs</b> i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppPublisher</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppPublisher</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppPublisher</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppPublisher</b> also has these types of members:
 
 ## -remarks
 
@@ -79,7 +76,7 @@ You can publish applications in <b>Add/Remove Programs </b> using the following 
 When you implement these interfaces, you must register your COM object in the registry.  To register your publisher, add your object's class identifier (CLSID) under the following registry key.
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Windows</b>
@@ -91,7 +88,7 @@ When you implement these interfaces, you must register your COM object in the re
 For example, if your publisher is named "My Publisher", you  create a new key under "Publishers" named "My Publisher" with its default REG_SZ value as the publisher's CLSID:
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Windows</b>
@@ -105,7 +102,7 @@ For example, if your publisher is named "My Publisher", you  create a new key un
 You can also create the typical COM server registration entries as follows:
 
 
-<pre xml:space="preserve"><b>HKEY_CLASSES_ROOT</b>
+<pre><b>HKEY_CLASSES_ROOT</b>
    <b>CLSID</b>
       <b>{469EE8CE-1B86-4524-9042-AAA44FD9C8F2}</b>
          (Default) = Sample Applications Publisher
@@ -114,7 +111,7 @@ You can also create the typical COM server registration entries as follows:
             <b>ThreadingModel</b> = Apartment</pre>
 
 
-With the publisher registered in this way, <b>Add/Remove Programs</b> creates an instance of your object by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> for your object and requesting the approprite <b>IAppPublisher</b> interface when the <b>Add New Programs</b> view is populated. Using <b>IAppPublisher</b>, Add/Remove Programs retrieves the application enumerator (<a href="/windows/desktop/api/shappmgr/nn-shappmgr-ienumpublishedapps">IEnumPublishedApps</a>) and information that describes the published applications.  Your implementation of <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a> is responsible for installing the associated application in its <a href="/windows/desktop/api/shappmgr/nf-shappmgr-ipublishedapp-install">IPublishedApp::Install</a> method. Add/Remove Programs calls this method when the user clicks the <b>Add</b> or the <b>Add Later</b> button in the user interface.
+With the publisher registered in this way, <b>Add/Remove Programs</b> creates an instance of your object by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> for your object and requesting the appropriate <b>IAppPublisher</b> interface when the <b>Add New Programs</b> view is populated. Using <b>IAppPublisher</b>, Add/Remove Programs retrieves the application enumerator (<a href="/windows/desktop/api/shappmgr/nn-shappmgr-ienumpublishedapps">IEnumPublishedApps</a>) and information that describes the published applications.  Your implementation of <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a> is responsible for installing the associated application in its <a href="/windows/desktop/api/shappmgr/nf-shappmgr-ipublishedapp-install">IPublishedApp::Install</a> method. Add/Remove Programs calls this method when the user clicks the <b>Add</b> or the <b>Add Later</b> button in the user interface.
 
 ## -see-also
 

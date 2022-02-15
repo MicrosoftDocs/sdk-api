@@ -59,7 +59,7 @@ api_name:
 
 The <b>RevertToSelf</b> function terminates the impersonation of a client application.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>LdapGetLastError</b> function retrieves the last error code returned by an LDAP call.
 
-## -parameters
+
 
 ## -returns
 

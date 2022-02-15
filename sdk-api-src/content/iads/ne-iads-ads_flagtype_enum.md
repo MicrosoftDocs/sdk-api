@@ -56,11 +56,11 @@ The <b>ADS_FLAGTYPE_ENUM</b> enumeration specifies values that can be used to in
 
 ## -enum-fields
 
-### -field ADS_FLAG_OBJECT_TYPE_PRESENT
+### -field ADS_FLAG_OBJECT_TYPE_PRESENT:0x1
 
 The <b>ObjectType</b> field is present in the ACE.
 
-### -field ADS_FLAG_INHERITED_OBJECT_TYPE_PRESENT
+### -field ADS_FLAG_INHERITED_OBJECT_TYPE_PRESENT:0x2
 
 The <b>InheritedObjectType</b> field is present in the ACE.
 

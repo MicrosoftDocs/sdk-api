@@ -52,7 +52,7 @@ api_name:
 
 Gets the optical margin alignment for the text format.
 
-## -parameters
+
 
 ## -returns
 

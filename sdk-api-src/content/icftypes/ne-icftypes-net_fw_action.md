@@ -56,7 +56,7 @@ The <b>NET_FW_ACTION</b> enumerated type specifies the action for a rule or defa
 
 ## -enum-fields
 
-### -field NET_FW_ACTION_BLOCK
+### -field NET_FW_ACTION_BLOCK:0
 
 Block traffic.
 

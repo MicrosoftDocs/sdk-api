@@ -56,7 +56,7 @@ Specifies the shapes of line segment caps.
 
 ## -enum-fields
 
-### -field XPS_LINE_CAP_FLAT
+### -field XPS_LINE_CAP_FLAT:1
 
 Flat line cap.
 

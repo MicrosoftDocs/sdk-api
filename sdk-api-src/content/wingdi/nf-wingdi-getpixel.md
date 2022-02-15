@@ -60,7 +60,7 @@ The <b>GetPixel</b> function retrieves the red, green, blue (RGB) color value of
 
 ### -param hdc [in]
 
-A handle to the device context.
+A handle to the [device context](/windows/win32/gdi/device-contexts).
 
 ### -param x [in]
 

@@ -54,11 +54,11 @@ The <b>InnerRequestLevel</b> enumeration type specifies the containment level of
 
 ## -enum-fields
 
-### -field LevelInnermost
+### -field LevelInnermost:0
 
 Use to retrieve the most deeply nested request.
 
-### -field LevelNext
+### -field LevelNext:1
 
 Use to retrieve the request at the next nesting level.
 

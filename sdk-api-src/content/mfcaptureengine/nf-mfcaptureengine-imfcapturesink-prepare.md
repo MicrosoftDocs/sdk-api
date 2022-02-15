@@ -52,7 +52,7 @@ api_name:
 
 Prepares the capture sink by loading any required pipeline components, such as encoders, video processors, and media sinks.
 
-## -parameters
+
 
 ## -returns
 

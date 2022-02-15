@@ -60,111 +60,111 @@ The WMI scripting type library, wbemdisp.tlb defines these constants. Microsoft 
 
 ## -enum-fields
 
-### -field wbemPrivilegeCreateToken
+### -field wbemPrivilegeCreateToken:1
 
 Required to create a primary token.
 
-### -field wbemPrivilegePrimaryToken
+### -field wbemPrivilegePrimaryToken:2
 
 Required to assign the primary token of a process.
 
-### -field wbemPrivilegeLockMemory
+### -field wbemPrivilegeLockMemory:3
 
 Required to lock physical pages in memory.
 
-### -field wbemPrivilegeIncreaseQuota
+### -field wbemPrivilegeIncreaseQuota:4
 
 Required to increase the quota assigned to a process.
 
-### -field wbemPrivilegeMachineAccount
+### -field wbemPrivilegeMachineAccount:5
 
 Required to create a machine account.
 
-### -field wbemPrivilegeTcb
+### -field wbemPrivilegeTcb:6
 
 Identifies its holder as part of the trusted computer base. Some trusted, protected subsystems are granted this privilege.
 
-### -field wbemPrivilegeSecurity
+### -field wbemPrivilegeSecurity:7
 
 Required to perform a number of security-related functions, such as controlling and viewing audit messages. This privilege identifies its holder as a security operator.
 
-### -field wbemPrivilegeTakeOwnership
+### -field wbemPrivilegeTakeOwnership:8
 
 Required to take ownership of an object without being granted discretionary access. This privilege allows the owner value to be set only to those values that the holder may legitimately assign as the owner of an object.
 
-### -field wbemPrivilegeLoadDriver
+### -field wbemPrivilegeLoadDriver:9
 
 Required to load or unload a device driver.
 
-### -field wbemPrivilegeSystemProfile
+### -field wbemPrivilegeSystemProfile:10
 
 Required to gather profiling information for the entire system.
 
-### -field wbemPrivilegeSystemtime
+### -field wbemPrivilegeSystemtime:11
 
 Required to modify the system time.
 
-### -field wbemPrivilegeProfileSingleProcess
+### -field wbemPrivilegeProfileSingleProcess:12
 
 Required to gather profiling information for a single process.
 
-### -field wbemPrivilegeIncreaseBasePriority
+### -field wbemPrivilegeIncreaseBasePriority:13
 
 Required to increase the base priority of a process.
 
-### -field wbemPrivilegeCreatePagefile
+### -field wbemPrivilegeCreatePagefile:14
 
 Required to create a paging file.
 
-### -field wbemPrivilegeCreatePermanent
+### -field wbemPrivilegeCreatePermanent:15
 
 Required to create a permanent object.
 
-### -field wbemPrivilegeBackup
+### -field wbemPrivilegeBackup:16
 
 Required to perform backup operations.
 
-### -field wbemPrivilegeRestore
+### -field wbemPrivilegeRestore:17
 
 Required to perform restore operations. This privilege enables you to set any valid user or group security identifier (SID)  as the owner of an object.
 
-### -field wbemPrivilegeShutdown
+### -field wbemPrivilegeShutdown:18
 
 Required to shut down a local system.
 
-### -field wbemPrivilegeDebug
+### -field wbemPrivilegeDebug:19
 
 Required to debug a process.
 
-### -field wbemPrivilegeAudit
+### -field wbemPrivilegeAudit:20
 
 Required to generate audit-log entries.
 
-### -field wbemPrivilegeSystemEnvironment
+### -field wbemPrivilegeSystemEnvironment:21
 
 Required to modify the nonvolatile RAM of systems that use this type of memory to store configuration information.
 
-### -field wbemPrivilegeChangeNotify
+### -field wbemPrivilegeChangeNotify:22
 
 Required to receive notifications of changes to files or directories. This privilege also causes the system to skip all traversal access checks. It is enabled by default for all users.
 
-### -field wbemPrivilegeRemoteShutdown
+### -field wbemPrivilegeRemoteShutdown:23
 
 Required to shut down a system using a network request.
 
-### -field wbemPrivilegeUndock
+### -field wbemPrivilegeUndock:24
 
 Required to remove a computer from a docking station.
 
-### -field wbemPrivilegeSyncAgent
+### -field wbemPrivilegeSyncAgent:25
 
 Required to synchronize directory service data.
 
-### -field wbemPrivilegeEnableDelegation
+### -field wbemPrivilegeEnableDelegation:26
 
 Required to enable computer and user accounts to be trusted for delegation.
 
-### -field wbemPrivilegeManageVolume
+### -field wbemPrivilegeManageVolume:27
 
 Required to perform volume maintenance tasks.
 

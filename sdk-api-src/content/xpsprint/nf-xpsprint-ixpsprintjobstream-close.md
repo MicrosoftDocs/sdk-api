@@ -54,7 +54,7 @@ api_name:
 
 Closes the stream and indicates to the print job that the entire document has been written to the print queue by the application.
 
-## -parameters
+
 
 ## -returns
 

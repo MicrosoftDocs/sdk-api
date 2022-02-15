@@ -246,7 +246,7 @@ Complex example - defining mappings for regions with some skips, some NULL mappi
 
 ```cpp
 // - This complex example hard codes the parameter arrays, whereas in practice the 
-//   application would likely configure the paramaters programatically or in a data driven way.
+//   application would likely configure the parameters programatically or in a data driven way.
 // - Suppose we have 3 regions in a resource to configure mappings for, 2x3 at coordinate (1,1),
 //   3x3 at coordinate (4,7), and 7x1 at coordinate (20,30)
 // - The tiles in the regions are walked from first to last, in X then Y then Z order,

@@ -55,7 +55,7 @@ api_name:
 
 Returns a handle to the icon to use in the upper-left corner of property and wizard pages.
 
-## -parameters
+
 
 ## -returns
 

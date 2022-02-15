@@ -54,47 +54,47 @@ Specifies the indices of the system properties present on the <a href="/windows/
 
 ## -enum-fields
 
-### -field D2D1_PROPERTY_CLSID
+### -field D2D1_PROPERTY_CLSID:0x80000000
 
 The CLSID of the effect.
 
-### -field D2D1_PROPERTY_DISPLAYNAME
+### -field D2D1_PROPERTY_DISPLAYNAME:0x80000001
 
 The name of the effect.
 
-### -field D2D1_PROPERTY_AUTHOR
+### -field D2D1_PROPERTY_AUTHOR:0x80000002
 
 The author of the effect.
 
-### -field D2D1_PROPERTY_CATEGORY
+### -field D2D1_PROPERTY_CATEGORY:0x80000003
 
 The category of the effect.
 
-### -field D2D1_PROPERTY_DESCRIPTION
+### -field D2D1_PROPERTY_DESCRIPTION:0x80000004
 
 The description of the effect.
 
-### -field D2D1_PROPERTY_INPUTS
+### -field D2D1_PROPERTY_INPUTS:0x80000005
 
 The names of the effect's inputs.
 
-### -field D2D1_PROPERTY_CACHED
+### -field D2D1_PROPERTY_CACHED:0x80000006
 
 The output of the effect should be cached.
 
-### -field D2D1_PROPERTY_PRECISION
+### -field D2D1_PROPERTY_PRECISION:0x80000007
 
 The buffer precision of the effect output.
 
-### -field D2D1_PROPERTY_MIN_INPUTS
+### -field D2D1_PROPERTY_MIN_INPUTS:0x80000008
 
 The minimum number of inputs supported by the effect.
 
-### -field D2D1_PROPERTY_MAX_INPUTS
+### -field D2D1_PROPERTY_MAX_INPUTS:0x80000009
 
 The maximum number of inputs supported by the effect.
 
-### -field D2D1_PROPERTY_FORCE_DWORD
+### -field D2D1_PROPERTY_FORCE_DWORD:0xffffffff
 
 ## -remarks
 

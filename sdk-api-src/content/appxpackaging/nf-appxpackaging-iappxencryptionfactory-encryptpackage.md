@@ -60,7 +60,7 @@ A readable stream from the app package to be encrypted.
 
 ### -param outputStream [in]
 
-A writeable stream for writing the resulting encrypted app package.
+A writable stream for writing the resulting encrypted app package.
 
 ### -param settings [in]
 

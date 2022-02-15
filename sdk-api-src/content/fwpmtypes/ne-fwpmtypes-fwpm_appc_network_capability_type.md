@@ -56,7 +56,7 @@ The <b>FWPM_APPC_NETWORK_CAPABILITY_TYPE</b> enumeration specifies the type of a
 
 ## -enum-fields
 
-### -field FWPM_APPC_NETWORK_CAPABILITY_INTERNET_CLIENT
+### -field FWPM_APPC_NETWORK_CAPABILITY_INTERNET_CLIENT:0
 
 Allows the app container to make network requests to servers on the Internet. It acts as a client.
 

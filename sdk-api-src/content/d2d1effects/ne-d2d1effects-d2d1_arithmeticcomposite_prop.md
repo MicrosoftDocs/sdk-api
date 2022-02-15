@@ -54,7 +54,7 @@ Identifiers for the properties of the <a href="/windows/desktop/Direct2D/arithme
 
 ## -enum-fields
 
-### -field D2D1_ARITHMETICCOMPOSITE_PROP_COEFFICIENTS
+### -field D2D1_ARITHMETICCOMPOSITE_PROP_COEFFICIENTS:0
 
 The coefficients for the equation used to composite the two input images. The coefficients are unitless and unbounded.
             
@@ -63,7 +63,7 @@ Type is D2D1_VECTOR_4F.
 
 Default value is {1.0f, 0.0f, 0.0f, 0.0f}.
 
-### -field D2D1_ARITHMETICCOMPOSITE_PROP_CLAMP_OUTPUT
+### -field D2D1_ARITHMETICCOMPOSITE_PROP_CLAMP_OUTPUT:1
 
 The effect clamps color values to between 0 and 1 before the effect passes the values to the next effect in the graph.
             If you set this to TRUE the effect will clamp the values. If you set this to FALSE, the effect will not clamp the color values, 
@@ -74,4 +74,4 @@ Type is BOOL.
 
 Default value is FALSE.
 
-### -field D2D1_ARITHMETICCOMPOSITE_PROP_FORCE_DWORD
+### -field D2D1_ARITHMETICCOMPOSITE_PROP_FORCE_DWORD:0xffffffff

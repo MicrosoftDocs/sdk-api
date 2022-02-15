@@ -134,7 +134,7 @@ The  <b>WFDCloseSession</b> function queues a future work item to close the sess
 Calling the  <b>WFDCloseSession</b> function  while a <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wfdstartopensession">WFDStartOpenSession</a> call is pending will not close the session.
 
 
-It is the responsibility of the caller to pass the <b>WFDCloseSession</b> function a handle in the <i>hSessionHandle </i>parameter that was returned from a successful asynchronous call to the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wfdstartopensession">WFDStartOpenSession</a> function.
+It is the responsibility of the caller to pass the <b>WFDCloseSession</b> function a handle in the <i>hSessionHandle </i> parameter that was returned from a successful asynchronous call to the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wfdstartopensession">WFDStartOpenSession</a> function.
 
 
 

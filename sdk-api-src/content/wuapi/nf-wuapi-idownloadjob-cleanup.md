@@ -52,7 +52,7 @@ api_name:
 
 Waits for an asynchronous operation to be completed and releases all callbacks.
 
-## -parameters
+
 
 ## -returns
 

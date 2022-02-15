@@ -52,7 +52,7 @@ api_name:
 
 Find out if multithread protection is turned on or not.
 
-## -parameters
+
 
 ## -returns
 

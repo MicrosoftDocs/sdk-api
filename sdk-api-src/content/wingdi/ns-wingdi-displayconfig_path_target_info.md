@@ -109,36 +109,74 @@ Because the asynchronous nature of display topology changes when a monitor is re
 A bitwise OR of flag values that indicates the status of the target. The following values are supported:
 
 
-
-
-
-#### DISPLAYCONFIG_TARGET_IN_USE
-
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="DISPLAYCONFIG_TARGET_IN_USE"></a><a id="displayconfig_target_in_use"></a><dl>
+<dt><b>DISPLAYCONFIG_TARGET_IN_USE</b></dt>
+<dt>0x00000001</dt>
+</dl>
+</td>
+<td width="60%">
 Target is in use on an active path.
-
-
-
-#### DISPLAYCONFIG_TARGET_FORCIBLE
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="DISPLAYCONFIG_TARGET_FORCIBLE"></a><a id="displayconfig_target_forcible"></a><dl>
+<dt><b>DISPLAYCONFIG_TARGET_FORCIBLE</b></dt>
+<dt>0x00000002</dt>
+</dl>
+</td>
+<td width="60%">
 The output can be forced on this target even if a monitor is not detected.
-
-
-
-#### DISPLAYCONFIG_TARGET_FORCED_AVAILABILITY_BOOT
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="DISPLAYCONFIG_TARGET_FORCED_AVAILABILITY_BOOT"></a><a id="displayconfig_target_forced_availability_boot"></a><dl>
+<dt><b>DISPLAYCONFIG_TARGET_FORCED_AVAILABILITY_BOOT</b></dt>
+<dt>0x00000004</dt>
+</dl>
+</td>
+<td width="60%">
 Output is currently being forced in a boot-persistent manner.
-
-
-
-#### DISPLAYCONFIG_TARGET_FORCED_AVAILABILITY_PATH
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="DISPLAYCONFIG_TARGET_FORCED_AVAILABILITY_PATH"></a><a id="displayconfig_target_forced_availability_path"></a><dl>
+<dt><b>DISPLAYCONFIG_TARGET_FORCED_AVAILABILITY_PATH</b></dt>
+<dt>0x00000008</dt>
+</dl>
+</td>
+<td width="60%">
 Output is currently being forced in a path-persistent manner.
-
-
-
-#### DISPLAYCONFIG_TARGET_FORCED_AVAILABILITY_SYSTEM
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="DISPLAYCONFIG_TARGET_FORCED_AVAILABILITY_SYSTEM"></a><a id="displayconfig_target_forced_availability_system"></a><dl>
+<dt><b>DISPLAYCONFIG_TARGET_FORCED_AVAILABILITY_SYSTEM</b></dt>
+<dt>0x00000010</dt>
+</dl>
+</td>
+<td width="60%">
 Output is currently being forced in a nonpersistent manner.
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="DISPLAYCONFIG_TARGET_IS_HMD"></a><a id="displayconfig_target_is_hmd"></a><dl>
+<dt><b>DISPLAYCONFIG_TARGET_IS_HMD</b></dt>
+<dt>0x00000020</dt>
+</dl>
+</td>
+<td width="60%">
+The output is a head-mounted display (HMD). Such a path is only returned from QueryDisplayConfig using the QDC_INCLUDE_HMD flag.
+
+Supported starting in the Windows 10 Creators Update (Version 1703).
+</td>
+</tr>
+</table>
 
 ## -remarks
 

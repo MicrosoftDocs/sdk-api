@@ -8,7 +8,6 @@ ms.author: windowssdkdev
 ms.date: 06/06/2019
 ms.keywords: DXCoreCreateAdapterFactory, DXCoreCreateAdapterFactory function, dxcore/DXCoreCreateAdapterFactory, dxcore.dxcorecreateadapterfactory
 ms.localizationpriority: low
-ms.topic: function
 targetos: Windows
 ms.prod: windows
 req.assembly: 

@@ -55,10 +55,7 @@ The <b>IDXGIDevice3</b> interface implements a derived class for DXGI objects th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDevice3</b> interface inherits from <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgidevice2">IDXGIDevice2</a>. <b>IDXGIDevice3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDXGIDevice3</b> interface inherits from <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgidevice2">IDXGIDevice2</a>. <b>IDXGIDevice3</b> also has these types of members:
 
 ## -remarks
 

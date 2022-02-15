@@ -62,7 +62,11 @@ The status code.
 
 This macro is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>#define SCODE_CODE(sc)      ((sc) &amp; 0xFFFF)</code></pre>
+
+``` syntax
+#define SCODE_CODE(sc)      ((sc) &amp; 0xFFFF)
+```
+
 
 ## -see-also
 

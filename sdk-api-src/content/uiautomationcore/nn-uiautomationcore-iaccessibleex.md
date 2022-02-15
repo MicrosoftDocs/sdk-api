@@ -55,9 +55,6 @@ Exposes methods that are called by Microsoft UI Automation to retrieve extra inf
 ## -inheritance
 
 The **IAccessibleEx** interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. **IAccessibleEx** also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -remarks
 

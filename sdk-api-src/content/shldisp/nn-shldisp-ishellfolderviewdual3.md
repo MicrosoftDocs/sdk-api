@@ -54,10 +54,7 @@ Exposes methods that modify the current folder view.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellFolderViewDual3</b> interface inherits from <a href="/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual2">IShellFolderViewDual2</a>. <b>IShellFolderViewDual3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IShellFolderViewDual3</b> interface inherits from <a href="/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual2">IShellFolderViewDual2</a>. <b>IShellFolderViewDual3</b> also has these types of members:
 
 ## -remarks
 

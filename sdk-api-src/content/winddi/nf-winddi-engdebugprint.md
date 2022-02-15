@@ -99,7 +99,7 @@ MyDebugPrint("Bank: %lx; Width: %ld", bank, width);
 ```
 
 
-<div class="alert"><b>Note</b>    The Microsoft Windows Driver Kit (WDK) does not contain the Permedia (<i>3dlabs.htm</i> and <i>Perm3.htm</i>) and FrameBuffer (<i>Framebuf.htm) </i>sample display drivers. You can get these sample drivers from the Windows Server 2003 SP1 Driver Development Kit (DDK), which you can download from the <a href="/windows-hardware/drivers/devtest/">DDK - Windows Driver Development Kit</a> page of the WDHC website.</div>
+<div class="alert"><b>Note</b>    The Microsoft Windows Driver Kit (WDK) does not contain the Permedia (<i>3dlabs.htm</i> and <i>Perm3.htm</i>) and FrameBuffer (<i>Framebuf.htm) </i> sample display drivers. You can get these sample drivers from the Windows Server 2003 SP1 Driver Development Kit (DDK), which you can download from the <a href="/windows-hardware/drivers/devtest/">DDK - Windows Driver Development Kit</a> page of the WDHC website.</div>
 <div> </div>
 
 ## -see-also

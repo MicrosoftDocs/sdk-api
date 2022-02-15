@@ -55,8 +55,5 @@ The root factory interface for all DirectWrite objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFactory4</b> interface inherits from <a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory3">IDWriteFactory3</a>. <b>IDWriteFactory4</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteFactory4</b> interface inherits from <a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory3">IDWriteFactory3</a>. <b>IDWriteFactory4</b> also has these types of members:
 

@@ -57,7 +57,7 @@ req.apiset: ext-ms-win-ntuser-windowstation-l1-1-0 (introduced in Windows 8)
 
 Retrieves a handle to the current window station for the calling process.
 
-## -parameters
+
 
 ## -returns
 

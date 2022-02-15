@@ -52,7 +52,7 @@ api_name:
 
 Releases a lock on a shared resource.
 
-## -parameters
+
 
 ## -returns
 

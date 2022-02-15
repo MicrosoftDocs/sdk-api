@@ -57,7 +57,7 @@ This topic applies to Windows XP Service Pack 1 or later.
 
 The <b>TimeHole</b> method is called when the <b>MSVidStreamBufferSource</b> object reads from a temporary recording file that has been marked for deletion.
 
-## -parameters
+
 
 ## -returns
 

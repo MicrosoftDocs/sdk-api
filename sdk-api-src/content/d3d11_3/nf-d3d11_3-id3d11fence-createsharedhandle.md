@@ -61,7 +61,7 @@ This method is equivalent to the Direct3D 12 <a href="/windows/desktop/api/d3d12
 
 Type: <b>const <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>*</b>
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>structure that contains two separate but related data members: an optional security descriptor, and a <b>Boolean</b>value that determines whether child processes can inherit the returned handle.
+A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that contains two separate but related data members: an optional security descriptor, and a <b>Boolean</b> value that determines whether child processes can inherit the returned handle.
             
 
 Set this parameter to <b>NULL</b> if you want child processes that the

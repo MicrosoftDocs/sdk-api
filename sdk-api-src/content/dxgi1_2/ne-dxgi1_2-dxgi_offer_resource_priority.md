@@ -56,7 +56,7 @@ Identifies the importance of a resource’s content when you call the  <a href="
 
 ## -enum-fields
 
-### -field DXGI_OFFER_RESOURCE_PRIORITY_LOW
+### -field DXGI_OFFER_RESOURCE_PRIORITY_LOW:1
 
 The resource is low priority. The operating system discards a low priority resource before other offered resources with higher priority. It is a good programming practice to mark a resource as low priority if it has no useful content.
 

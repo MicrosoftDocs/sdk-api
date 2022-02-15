@@ -52,7 +52,7 @@ api_name:
 
 This method returns the GPU virtual address of a buffer resource.
 
-## -parameters
+
 
 ## -returns
 

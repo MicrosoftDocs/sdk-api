@@ -157,6 +157,16 @@ Use the WinHTTP functions asynchronously. By default, all WinHTTP functions that
 
 </td>
 </tr>
+<tr>
+<td width="40%"><a id="WINHTTP_FLAG_SECURE_DEFAULTS"></a><a id="winhttp_flag_secure_defaults"></a><dl>
+<dt><b>WINHTTP_FLAG_SECURE_DEFAULTS</b></dt>
+</dl>
+</td>
+<td width="60%">
+When this flag is set, WinHttp will require use of TLS 1.2 or newer. If the caller attempts to enable older TLS versions by setting <b>WINHTTP_OPTION_SECURE_PROTOCOLS</b>, it will fail with <b>ERROR_ACCESS_DENIED</b>. Additionally, TLS fallback will be disabled. Note that setting this flag also sets flag <b>WINHTTP_FLAG_ASYNC</b>.
+
+</td>
+</tr>
 </table>
 
 ## -returns

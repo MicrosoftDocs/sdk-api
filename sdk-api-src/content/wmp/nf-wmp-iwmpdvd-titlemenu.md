@@ -52,7 +52,7 @@ api_name:
 
 The <b>titleMenu</b> method stops playback and displays the title menu.
 
-## -parameters
+
 
 ## -returns
 

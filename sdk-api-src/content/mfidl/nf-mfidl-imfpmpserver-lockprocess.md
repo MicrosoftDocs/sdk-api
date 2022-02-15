@@ -53,7 +53,7 @@ api_name:
 
 Blocks the protected media path (PMP) process from ending.
 
-## -parameters
+
 
 ## -returns
 

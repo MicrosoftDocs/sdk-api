@@ -59,7 +59,7 @@ api_name:
 
 Retrieves a bitmask representing the currently available disk drives.
 
-## -parameters
+
 
 ## -returns
 

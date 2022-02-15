@@ -60,7 +60,7 @@ The <b>Region::Exclude</b> method updates this region to the portion of itself t
 Type: <b>const <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a></b>
 
 Reference to a rectangle to use to update this 
-					<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>object.
+					<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a> object.
 
 ## -returns
 

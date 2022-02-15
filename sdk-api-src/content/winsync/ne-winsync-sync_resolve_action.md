@@ -56,7 +56,7 @@ Represents actions that are taken to resolve a specific concurrency conflict.
 
 ## -enum-fields
 
-### -field SRA_DEFER
+### -field SRA_DEFER:0
 
 Ignore the conflict and do not apply the change. The change applier does not pass the conflict data to the destination provider.
 

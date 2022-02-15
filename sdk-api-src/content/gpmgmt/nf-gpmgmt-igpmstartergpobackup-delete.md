@@ -52,7 +52,7 @@ api_name:
 
 Removes the Starter GPO backup from the backup directory, and from the file system.
 
-## -parameters
+
 
 ## -returns
 

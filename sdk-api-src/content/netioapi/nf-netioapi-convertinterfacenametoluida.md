@@ -110,7 +110,7 @@ One of the parameters was invalid. This error is returned if the <i>InterfaceLui
 
 ## -remarks
 
-The <b>ConvertInterfaceNameToLuidA</b> function is available on Windows Vistaand later.
+The <b>ConvertInterfaceNameToLuidA</b> function is available on Windows Vista and later.
 
 The <b>ConvertInterfaceNameToLuidA</b> function is protocol independent and works with network interfaces for both the IPv6 and IPv4 protocol. The <b>ConvertInterfaceNameToLuidA</b> converts an ANSI interface name to a LUID. 
 

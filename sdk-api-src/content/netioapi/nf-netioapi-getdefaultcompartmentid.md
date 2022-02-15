@@ -53,7 +53,7 @@ api_name:
 The 
 <b>GetDefaultCompartmentId</b> function retrieves the default network routing compartment identifier for the local computer.
 
-## -parameters
+
 
 ## -returns
 

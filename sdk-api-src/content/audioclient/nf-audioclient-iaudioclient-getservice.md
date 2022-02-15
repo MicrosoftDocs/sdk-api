@@ -202,9 +202,13 @@ Note that activating IMFTrustedOutput through this mechanism works regardless of
 
 To obtain the interface ID for a service interface, use the <b>__uuidof</b> operator. For example, the interface ID of <b>IAudioCaptureClient</b> is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 const IID IID_IAudioCaptureClient  __uuidof(IAudioCaptureClient)
-</code></pre>
+
+```
+
 For information about the <b>__uuidof</b> operator, see the Windows SDK documentation.
 
 To release the <b>IAudioClient</b> object and free all its associated resources, the client must release all references to any service objects that were created by calling <b>GetService</b>, in addition to calling <b>Release</b> on the <b>IAudioClient</b> interface itself. The client must release a service from the same thread that releases the <b>IAudioClient</b> object.

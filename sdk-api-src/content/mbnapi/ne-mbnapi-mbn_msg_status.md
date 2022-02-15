@@ -57,7 +57,7 @@ The <b>MBN_MSG_STATUS</b> enumerated type defines the type of message being hand
 
 ## -enum-fields
 
-### -field MBN_MSG_STATUS_NEW
+### -field MBN_MSG_STATUS_NEW:0
 
 The received message is newly arrived or unread.
 

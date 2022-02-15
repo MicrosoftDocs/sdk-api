@@ -56,7 +56,7 @@ Indicates wildcard options on search terms. Used by <a href="/windows/desktop/ap
 
 ## -enum-fields
 
-### -field SEARCH_TERM_NO_EXPANSION
+### -field SEARCH_TERM_NO_EXPANSION:0
 
 No expansion is applied to search terms.
 

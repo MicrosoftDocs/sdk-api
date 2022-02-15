@@ -54,7 +54,7 @@ Categories of debug messages. This will identify the category of a message when 
 
 ## -enum-fields
 
-### -field D3D10_MESSAGE_CATEGORY_APPLICATION_DEFINED
+### -field D3D10_MESSAGE_CATEGORY_APPLICATION_DEFINED:0
 
 User defined message. See <a href="/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10infoqueue-addmessage">ID3D10InfoQueue::AddMessage</a>.
 

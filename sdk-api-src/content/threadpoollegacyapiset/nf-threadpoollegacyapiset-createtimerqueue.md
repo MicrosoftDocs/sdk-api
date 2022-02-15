@@ -57,7 +57,7 @@ api_name:
 
 Creates a queue for timers. Timer-queue timers are lightweight objects that enable you to specify a callback function to be called at a specified time.
 
-## -parameters
+
 
 ## -returns
 

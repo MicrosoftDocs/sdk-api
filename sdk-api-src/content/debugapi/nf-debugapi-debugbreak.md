@@ -61,7 +61,7 @@ Causes a breakpoint exception to occur in the current process. This allows the c
 To cause a breakpoint exception in another process, use the 
 <a href="/windows/desktop/api/winbase/nf-winbase-debugbreakprocess">DebugBreakProcess</a> function.
 
-## -parameters
+
 
 ## -remarks
 

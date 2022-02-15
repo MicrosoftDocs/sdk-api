@@ -52,7 +52,7 @@ api_name:
 
 Indicates that the reference tracker is returning the target XAML object(s) from previous calls to  <a href="/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetracker-findtrackertargets">FindTrackerTargets</a>.  Note that the reference is held by the reference tracker object in lieu of <b>IUnknown::AddRef</b>.
 
-## -parameters
+
 
 ## -remarks
 

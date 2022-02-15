@@ -52,7 +52,7 @@ The <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infras
 
 Each of these constructors initializes a new **CHString** object with the specified data.
 
-## -parameters
+
 
 ## -remarks
 

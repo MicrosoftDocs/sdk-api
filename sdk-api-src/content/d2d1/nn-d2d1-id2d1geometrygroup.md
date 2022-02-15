@@ -54,7 +54,7 @@ Represents a composite geometry, composed of other <a href="/windows/win32/api/d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1GeometryGroup</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>. <b>ID2D1GeometryGroup</b> also has these types of members:
+The <b>ID2D1GeometryGroup</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>. <b>ID2D1GeometryGroup</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 </ul>

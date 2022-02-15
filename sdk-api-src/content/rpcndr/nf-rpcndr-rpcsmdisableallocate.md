@@ -53,7 +53,7 @@ api_name:
 The 
 <b>RpcSmDisableAllocate</b> function frees resources and memory within the stub memory–management environment.
 
-## -parameters
+
 
 ## -returns
 

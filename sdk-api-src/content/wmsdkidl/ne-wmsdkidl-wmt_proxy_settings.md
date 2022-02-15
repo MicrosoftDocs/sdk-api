@@ -54,19 +54,19 @@ The <b>WMT_PROXY_SETTINGS</b> enumeration type defines network proxy settings fo
 
 ## -enum-fields
 
-### -field WMT_PROXY_SETTING_NONE
+### -field WMT_PROXY_SETTING_NONE:0
 
 No proxy settings will be used.
 
-### -field WMT_PROXY_SETTING_MANUAL
+### -field WMT_PROXY_SETTING_MANUAL:1
 
 Proxy settings will be explicitly set.
 
-### -field WMT_PROXY_SETTING_AUTO
+### -field WMT_PROXY_SETTING_AUTO:2
 
 Proxy settings will be automatically negotiated.
 
-### -field WMT_PROXY_SETTING_BROWSER
+### -field WMT_PROXY_SETTING_BROWSER:3
 
 The browser will negotiate the proxy settings. This applies only when using HTTP.
 

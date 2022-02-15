@@ -53,7 +53,7 @@ api_name:
 
 The <code>WaitForStart</code> method blocks the DVD Navigator until the command associated with this object begins.
 
-## -parameters
+
 
 ## -returns
 

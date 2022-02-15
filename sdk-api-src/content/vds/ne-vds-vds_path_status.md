@@ -60,19 +60,19 @@ Defines
 
 ## -enum-fields
 
-### -field VDS_MPS_UNKNOWN
+### -field VDS_MPS_UNKNOWN:0
 
 The path status is unknown.
 
-### -field VDS_MPS_ONLINE
+### -field VDS_MPS_ONLINE:1
 
 The path is active.
 
-### -field VDS_MPS_FAILED
+### -field VDS_MPS_FAILED:5
 
 The path is failed.
 
-### -field VDS_MPS_STANDBY
+### -field VDS_MPS_STANDBY:7
 
 The path is in standby mode.
 

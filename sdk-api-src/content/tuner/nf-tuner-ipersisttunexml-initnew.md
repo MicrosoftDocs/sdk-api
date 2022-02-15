@@ -52,7 +52,7 @@ api_name:
 
 This method is not implemented in the current release. It was created to make the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ipersisttunexml">IPersistTuneXml</a> interface compatible with the <b>IPersistStreamInit</b> interface and is reserved for future use.
 
-## -parameters
+
 
 ## -returns
 

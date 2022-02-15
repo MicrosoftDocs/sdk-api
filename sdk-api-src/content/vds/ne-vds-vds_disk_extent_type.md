@@ -58,39 +58,39 @@ Defines the set of disk extents types. The type can be a partition, volume, or f
 
 ## -enum-fields
 
-### -field VDS_DET_UNKNOWN
+### -field VDS_DET_UNKNOWN:0
 
 An extent of any unknown partition.
 
-### -field VDS_DET_FREE
+### -field VDS_DET_FREE:1
 
 An extent of free space, including free space inside an extended partition.
 
-### -field VDS_DET_DATA
+### -field VDS_DET_DATA:2
 
 An extent of any volume.
 
-### -field VDS_DET_OEM
+### -field VDS_DET_OEM:3
 
 An extent of an OEM partition.
 
-### -field VDS_DET_ESP
+### -field VDS_DET_ESP:4
 
 An extent of an ESP partition.
 
-### -field VDS_DET_MSR
+### -field VDS_DET_MSR:5
 
 An extent of a MSR partition.
 
-### -field VDS_DET_LDM
+### -field VDS_DET_LDM:6
 
 An extent of a LDM metadata partition.
 
-### -field VDS_DET_CLUSTER
+### -field VDS_DET_CLUSTER:7
 
 An extent of a cluster metadata partition.
 
-### -field VDS_DET_UNUSABLE
+### -field VDS_DET_UNUSABLE:0x7fff
 
 An extent of unusable space on a disk. That is, space outside the four primary partitions (or three primary partitions plus one extended partition) on a basic MBR disk and space outside the dynamic disk public region.
 

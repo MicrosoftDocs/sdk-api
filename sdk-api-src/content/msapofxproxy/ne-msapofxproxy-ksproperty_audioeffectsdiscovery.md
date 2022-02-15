@@ -54,7 +54,7 @@ The KSPROPERTY_AUDIOEFFECTSDISCOVERY enumeration defines a constant that is used
 
 ## -enum-fields
 
-### -field KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST
+### -field KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST:1
 
 Specifies the ID of the <a href="/previous-versions/windows/hardware/drivers/dn457706(v=vs.85)">KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST</a> property.
 

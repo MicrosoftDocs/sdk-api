@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Use a pointer to an integer instance to set the value of one of the four components of an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>containing integer data referenced by an index.
+Use a pointer to an integer instance to set the value of one of the four components of an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> containing integer data referenced by an index.
 
 ## -parameters
 

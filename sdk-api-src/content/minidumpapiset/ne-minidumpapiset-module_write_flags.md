@@ -57,35 +57,35 @@ Identifies the type of module information that will be written to the minidump f
 
 ## -enum-fields
 
-### -field ModuleWriteModule
+### -field ModuleWriteModule:0x0001
 
 Only module information will be written to the minidump file.
 
-### -field ModuleWriteDataSeg
+### -field ModuleWriteDataSeg:0x0002
 
 Module and data segment information will be written to the minidump file. This value will only be set if the <b>MiniDumpWithDataSegs</b> enumeration value from <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_type">MINIDUMP_TYPE</a> is set.
 
-### -field ModuleWriteMiscRecord
+### -field ModuleWriteMiscRecord:0x0004
 
 Module, data segment, and miscellaneous record information will be written to the minidump file.
 
-### -field ModuleWriteCvRecord
+### -field ModuleWriteCvRecord:0x0008
 
 CodeView information will be written to the minidump file. Some debuggers need the CodeView information to properly locate symbols.
 
-### -field ModuleReferencedByMemory
+### -field ModuleReferencedByMemory:0x0010
 
 Indicates that a module was referenced by a pointer on the stack or backing store of a thread in the minidump. This value is valid only if the <i>DumpType</i> parameter of the 
 <a href="/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a> function includes <b>MiniDumpScanMemory</b>.
 
-### -field ModuleWriteTlsData
+### -field ModuleWriteTlsData:0x0020
 
 Per-module automatic TLS data is written to the minidump file. (Note that automatic TLS data is created using <b>__declspec(thread)</b> while <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsalloc">TlsAlloc</a> creates dynamic TLS data). This value is valid only if the <i>DumpType</i> parameter of the 
 <a href="/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a> function includes <b>MiniDumpWithProcessThreadData</b>.
 
 <b>DbgHelp 6.1 and earlier:  </b>This value is not supported.
 
-### -field ModuleWriteCodeSegs
+### -field ModuleWriteCodeSegs:0x0040
 
 Code segment information will be written to the minidump file. This value will only be set if the <b>MiniDumpWithCodeSegs</b> enumeration value from <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_type">MINIDUMP_TYPE</a> is set.
 

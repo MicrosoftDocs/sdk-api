@@ -195,7 +195,9 @@ The MSICOSTTREE_PARENTS value indicates the total amount of disk space (in units
 
 <b>MsiGetFeatureCost</b> is dependent upon several other functions to be successful. The following example demonstrates the order in which these functions must be called:
 
-<pre class="syntax" xml:space="preserve"><code>MSIHANDLE   hInstall;      //product handle, must be closed
+
+``` syntax
+MSIHANDLE   hInstall;      //product handle, must be closed
 int         iCost;         //cost returned by MsiGetFeatureCost
 
 MsiOpenPackage("Path to package....",&amp;hInstall);   //"Path to package...." should be replaced with the full path to the package to be opened
@@ -204,10 +206,14 @@ MsiDoAction(hInstall,"FileCost");
 MsiDoAction(hInstall,"CostFinalize");
 MsiDoAction(hInstall,"InstallValidate");
 MsiGetFeatureCost(hInstall,"FeatureName",MSICOSTTREE_SELFONLY,INSTALLSTATE_ABSENT,&amp;iCost);
-MsiCloseHandle(hInstall);                        //close the open product handle</code></pre>
+MsiCloseHandle(hInstall);                        //close the open product handle
+```
+
 The process to query the cost of features scheduled to be removed is slightly different:
 
-<pre class="syntax" xml:space="preserve"><code>MSIHANDLE   hInstall;      //product handle, must be closed
+
+``` syntax
+MSIHANDLE   hInstall;      //product handle, must be closed
 int         iCost;         //cost returned by MsiGetFeatureCost
 
 MsiOpenPackage("Path to package....",&amp;hInstall);              //"Path to package...." should be replaced with the full path to the package to be opened
@@ -217,7 +223,9 @@ MsiDoAction(hInstall,"CostFinalize");
 MsiSetFeatureState(hInstall,"FeatureName",INSTALLSTATE_ABSENT);  //set the feature's state to "not installed"
 MsiDoAction(hInstall,"InstallValidate");
 MsiGetFeatureCost(hInstall,"FeatureName",MSICOSTTREE_SELFONLY,INSTALLSTATE_ABSENT,&amp;iCost);
-MsiCloseHandle(hInstall);                                        //close the open product handle</code></pre>
+MsiCloseHandle(hInstall);                                        //close the open product handle
+```
+
 If the function fails, you can obtain extended error information by using <a href="/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 

@@ -82,4 +82,4 @@ The interpolation mode used when the image source is drawn.  This is ignored if 
 
 Type: <b><a href="/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_transformed_image_source_options">D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS</a></b>
 
-Image sourc option flags.
+Image source option flags.

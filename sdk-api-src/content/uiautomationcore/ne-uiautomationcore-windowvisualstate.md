@@ -54,15 +54,15 @@ Contains values that specify the visual state of a window.
 
 ## -enum-fields
 
-### -field WindowVisualState_Normal
+### -field WindowVisualState_Normal:0
 
 The window is normal (restored).
 
-### -field WindowVisualState_Maximized
+### -field WindowVisualState_Maximized:1
 
 The window is maximized.
 
-### -field WindowVisualState_Minimized
+### -field WindowVisualState_Minimized:2
 
 The window is minimized.
 

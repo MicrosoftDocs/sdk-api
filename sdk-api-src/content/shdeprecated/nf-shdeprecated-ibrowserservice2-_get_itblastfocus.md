@@ -53,7 +53,7 @@ api_name:
 
 Deprecated. Gets the ID of the last toolbar or view that had focus.
 
-## -parameters
+
 
 ## -returns
 

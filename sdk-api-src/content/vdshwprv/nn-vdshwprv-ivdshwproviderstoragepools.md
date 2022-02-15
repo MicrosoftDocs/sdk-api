@@ -57,10 +57,7 @@ Provides methods to create LUNs in a <a href="/windows/desktop/VDS/storage-pool-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsHwProviderStoragePools</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsHwProviderStoragePools</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVdsHwProviderStoragePools</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsHwProviderStoragePools</b> also has these types of members:
 
 ## -see-also
 

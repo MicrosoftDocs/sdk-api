@@ -55,7 +55,7 @@ Defines the class of a resource.
 
 ## -enum-fields
 
-### -field CLUS_RESCLASS_UNKNOWN
+### -field CLUS_RESCLASS_UNKNOWN:0
 
 Resource class is unknown.
 
@@ -68,7 +68,7 @@ Resource is a storage device, such as a
 
 Resource is a <a href="/previous-versions/windows/desktop/mscs/n-gly">network</a> device.
 
-### -field CLUS_RESCLASS_USER
+### -field CLUS_RESCLASS_USER:32768
 
 Resource classes beginning at this value are user-defined.
 

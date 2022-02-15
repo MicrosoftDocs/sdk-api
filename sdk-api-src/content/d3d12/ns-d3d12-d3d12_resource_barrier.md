@@ -71,12 +71,12 @@ A <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_transition_barrier
 ### -field Aliasing
 
 A 
-              <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_aliasing_barrier">D3D12_RESOURCE_ALIASING_BARRIER</a>structure that describes the transition between usages of two different resources that have mappings into the same heap.
+              <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_aliasing_barrier">D3D12_RESOURCE_ALIASING_BARRIER</a> structure that describes the transition between usages of two different resources that have mappings into the same heap.
 
 ### -field UAV
 
 A 
-              <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_uav_barrier">D3D12_RESOURCE_UAV_BARRIER</a>structure that describes a resource in which all UAV accesses (reads or writes) must complete before any future UAV accesses (read or write) can begin.
+              <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_uav_barrier">D3D12_RESOURCE_UAV_BARRIER</a> structure that describes a resource in which all UAV accesses (reads or writes) must complete before any future UAV accesses (read or write) can begin.
 
 ## -remarks
 

@@ -59,7 +59,7 @@ The <b>VSS_OBJECT_TYPE</b> enumeration is used by
 
 ## -enum-fields
 
-### -field VSS_OBJECT_UNKNOWN
+### -field VSS_OBJECT_UNKNOWN:0
 
 The object type is not known.
       

@@ -54,14 +54,14 @@ Specifies the values used by the <a href="/windows/desktop/api/shobjidl_core/nf-
 
 ## -enum-fields
 
-### -field FDEOR_DEFAULT
+### -field FDEOR_DEFAULT:0
 
 The application has not handled the event. The dialog displays a UI asking the user whether the file should be overwritten and returned from the dialog.
 
-### -field FDEOR_ACCEPT
+### -field FDEOR_ACCEPT:1
 
 The application has determined that the file should be returned from the dialog.
 
-### -field FDEOR_REFUSE
+### -field FDEOR_REFUSE:2
 
 The application has determined that the file should not be returned from the dialog.

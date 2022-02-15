@@ -102,7 +102,7 @@ Manual construction of a control vector is not necessary. There are two simple w
 
 <ul>
 <li>
-Using the <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorselectcontrol">XMVectorSelectControl</a>function to construct a control vector.
+Using the <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorselectcontrol">XMVectorSelectControl</a> function to construct a control vector.
 
 See <a href="/windows/win32/api/directxmath/nf-directxmath-xmvectorselectcontrol">Using XMVectorSelect and
        XMVectorSelectControl</a> for a demonstration of how this function can be used.

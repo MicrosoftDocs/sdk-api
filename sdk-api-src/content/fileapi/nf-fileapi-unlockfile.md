@@ -162,6 +162,10 @@ Yes
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/locking-and-unlocking-byte-ranges-in-files">Locking and Unlocking Byte Ranges in Files</a>
+
+
+
 <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 

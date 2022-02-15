@@ -63,67 +63,67 @@ Initializes a new instance of the <a href="/windows/desktop/api/directxmath/ns-d
 
 ### -param m00
 
-Value used to initialize the <b>_11</b> member of the <code>XMMATRIX</code>structure.
+Value used to initialize the <b>_11</b> member of the <code>XMMATRIX</code> structure.
 
 ### -param m01
 
-Value used to initialize the <b>_12</b> member of the <code>XMMATRIX</code>structure.
+Value used to initialize the <b>_12</b> member of the <code>XMMATRIX</code> structure.
 
 ### -param m02
 
-Value used to initialize the <b>_13</b> member of the <code>XMMATRIX</code>structure.
+Value used to initialize the <b>_13</b> member of the <code>XMMATRIX</code> structure.
 
 ### -param m03
 
-Value used to initialize the <b>_14</b> member of the <code>XMMATRIX</code>structure.
+Value used to initialize the <b>_14</b> member of the <code>XMMATRIX</code> structure.
 
 ### -param m10
 
-Value used to initialize the <b>_21</b> member of the <code>XMMATRIX</code>structure.
+Value used to initialize the <b>_21</b> member of the <code>XMMATRIX</code> structure.
 
 ### -param m11
 
-Value used to initialize the <b>_22</b> member of the <code>XMMATRIX</code>structure.
+Value used to initialize the <b>_22</b> member of the <code>XMMATRIX</code> structure.
 
 ### -param m12
 
-Value used to initialize the <b>_23</b> member of the <code>XMMATRIX</code>structure.
+Value used to initialize the <b>_23</b> member of the <code>XMMATRIX</code> structure.
 
 ### -param m13
 
-Value used to initialize the <b>_24</b> member of the <code>XMMATRIX</code>structure.
+Value used to initialize the <b>_24</b> member of the <code>XMMATRIX</code> structure.
 
 ### -param m20
 
-Value used to initialize the <b>_31</b> member of the <code>XMMATRIX</code>structure.
+Value used to initialize the <b>_31</b> member of the <code>XMMATRIX</code> structure.
 
 ### -param m21
 
-Value used to initialize the <b>_32</b> member of the <code>XMMATRIX</code>structure.
+Value used to initialize the <b>_32</b> member of the <code>XMMATRIX</code> structure.
 
 ### -param m22
 
-Value used to initialize the <b>_33</b> member of the <code>XMMATRIX</code>structure.
+Value used to initialize the <b>_33</b> member of the <code>XMMATRIX</code> structure.
 
 ### -param m23
 
-Value used to initialize the <b>_34</b> member of the <code>XMMATRIX</code>structure.
+Value used to initialize the <b>_34</b> member of the <code>XMMATRIX</code> structure.
 
 ### -param m30
 
-Value used to initialize the <b>_41</b> member of the <code>XMMATRIX</code>structure.
+Value used to initialize the <b>_41</b> member of the <code>XMMATRIX</code> structure.
 
 ### -param m31
 
-Value used to initialize the <b>_42</b> member of the <code>XMMATRIX</code>structure.
+Value used to initialize the <b>_42</b> member of the <code>XMMATRIX</code> structure.
 
 ### -param m32
 
-Value used to initialize the <b>_43</b> member of the <code>XMMATRIX</code>structure.
+Value used to initialize the <b>_43</b> member of the <code>XMMATRIX</code> structure.
 
 ### -param m33
 
-Value used to initialize the <b>_44</b> member of the <code>XMMATRIX</code>structure.
+Value used to initialize the <b>_44</b> member of the <code>XMMATRIX</code> structure.
 
 ## -remarks
 

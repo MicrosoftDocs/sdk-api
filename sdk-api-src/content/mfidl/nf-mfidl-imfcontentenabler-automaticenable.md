@@ -53,7 +53,7 @@ api_name:
 
 Performs a content enabling action without any user interaction.
 
-## -parameters
+
 
 ## -returns
 

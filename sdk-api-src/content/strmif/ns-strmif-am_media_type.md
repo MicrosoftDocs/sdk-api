@@ -214,7 +214,7 @@ The stream type is specified by two <b>GUID</b>s, called the <i>major type</i> a
 
 The <b>AM_MEDIA_TYPE</b> structure is followed by a variable-length block of data that contains format-specific information. The <b>pbFormat</b> member points to this block, called the <i>format block</i>. The layout of the format block depends on the type of data in the stream, and is specified by the <b>formattype</b> member. The format block might be <b>NULL</b>. Check the <b>cbFormat</b> member to determine the size. Cast the <b>pbFormat</b> member to access the format block. For example:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

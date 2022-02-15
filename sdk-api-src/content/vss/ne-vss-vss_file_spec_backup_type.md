@@ -70,7 +70,7 @@ File sets stored in the Writer Metadata Document are tagged with a bit mask (or 
 
 ## -enum-fields
 
-### -field VSS_FSBT_FULL_BACKUP_REQUIRED
+### -field VSS_FSBT_FULL_BACKUP_REQUIRED:0x1
 
 A file set tagged with this value must be involved in all types of backup operations. 
      
@@ -80,7 +80,7 @@ A writer tags a file set with this value to indicate to the requester that it ex
       <a href="/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_FULL</b>.
 
-### -field VSS_FSBT_DIFFERENTIAL_BACKUP_REQUIRED
+### -field VSS_FSBT_DIFFERENTIAL_BACKUP_REQUIRED:0x2
 
 A writer tags a file set with this value to indicate to the requester that it expects a copy of the current 
       version of the file set to be available following the restore of any backup operation with a 
@@ -89,7 +89,7 @@ A writer tags a file set with this value to indicate to the requester that it ex
 
 This value is not supported for express writers.
 
-### -field VSS_FSBT_INCREMENTAL_BACKUP_REQUIRED
+### -field VSS_FSBT_INCREMENTAL_BACKUP_REQUIRED:0x4
 
 A writer tags a file set with this value to indicate to the requester that it expects a copy of the current 
       version of the file set to be available following the restore of any backup operation with a 
@@ -98,7 +98,7 @@ A writer tags a file set with this value to indicate to the requester that it ex
 
 This value is not supported for express writers.
 
-### -field VSS_FSBT_LOG_BACKUP_REQUIRED
+### -field VSS_FSBT_LOG_BACKUP_REQUIRED:0x8
 
 A writer tags a file set with this value to indicate to the requester that it expects a copy of the current 
       version of the file set to be available following the restore of any backup operation with a 
@@ -107,44 +107,44 @@ A writer tags a file set with this value to indicate to the requester that it ex
 
 This value is not supported for express writers.
 
-### -field VSS_FSBT_FULL_SNAPSHOT_REQUIRED
+### -field VSS_FSBT_FULL_SNAPSHOT_REQUIRED:0x100
 
 A file set tagged with this value must be backed up from a shadow copy of a volume (and never from the 
       original volume) when participating in a backup operation with a 
       <a href="/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_FULL</b>.
 
-### -field VSS_FSBT_DIFFERENTIAL_SNAPSHOT_REQUIRED
+### -field VSS_FSBT_DIFFERENTIAL_SNAPSHOT_REQUIRED:0x200
 
 A file set tagged with this value must be backed up from a shadow copy of a volume (and never from the 
       original volume) when participating in a backup operation with a 
       <a href="/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_DIFFERENTIAL</b>.
 
-### -field VSS_FSBT_INCREMENTAL_SNAPSHOT_REQUIRED
+### -field VSS_FSBT_INCREMENTAL_SNAPSHOT_REQUIRED:0x400
 
 A file set tagged with this value must be backed up from a shadow copy of a volume (and never from the 
       original volume) when participating in a backup operation with a 
       <a href="/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_INCREMENTAL</b>.
 
-### -field VSS_FSBT_LOG_SNAPSHOT_REQUIRED
+### -field VSS_FSBT_LOG_SNAPSHOT_REQUIRED:0x800
 
 A file set tagged with this value must be backed up from a shadow copy of a volume (and never from the 
       original volume) when participating in a backup operation with a 
       <a href="/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_LOG</b>).
 
-### -field VSS_FSBT_CREATED_DURING_BACKUP
+### -field VSS_FSBT_CREATED_DURING_BACKUP:0x10000
 
 A writer tags a file set with this value to indicate to the requester that they expect the file to be created during the snapshot sequence.
 
-### -field VSS_FSBT_ALL_BACKUP_REQUIRED
+### -field VSS_FSBT_ALL_BACKUP_REQUIRED:0xf
 
 The default file backup specification type. A file set tagged with this value must always participate in 
       backup and restore operations.
 
-### -field VSS_FSBT_ALL_SNAPSHOT_REQUIRED
+### -field VSS_FSBT_ALL_SNAPSHOT_REQUIRED:0xf00
 
 The shadow copy requirement for backup. A file set tagged with this value must always be backed up from a 
       shadow copy of a volume (and never from the original volume) when participating in a backup operation.

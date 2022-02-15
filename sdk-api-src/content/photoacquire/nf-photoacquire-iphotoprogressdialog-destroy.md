@@ -53,7 +53,7 @@ api_name:
 
 The <code>Destroy</code> method closes and disposes of the progress dialog box shown during image enumeration and acquisition.
 
-## -parameters
+
 
 ## -returns
 

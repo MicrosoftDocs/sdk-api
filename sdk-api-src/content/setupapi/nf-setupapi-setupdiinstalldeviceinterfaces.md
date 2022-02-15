@@ -72,7 +72,7 @@ A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_da
 
 The caller of <b>SetupDiInstallDeviceInterfaces</b> must be a member of the Administrators group. 
 
-<div class="alert"><b>Note</b>  Only a <a href="/windows-hardware/drivers/">class installer</a> should call <b>SetupDiInstallDeviceInterfaces</b> and only in those situations where the class installer must perform device interface installation operations after <b>SetupDiInstallDeviceInterfaces</b> completes the default device interface installation operation. In such situations, the class installer must directly call <b>SetupDiInstallDeviceInterfaces</b>when the installer processes a DIF_INSTALLINTERFACES request. For more information about calling the default handler, see <a href="/windows-hardware/drivers/install/calling-the-default-dif-code-handlers">Calling Default DIF Code Handlers</a>.</div>
+<div class="alert"><b>Note</b>  Only a <a href="/windows-hardware/drivers/">class installer</a> should call <b>SetupDiInstallDeviceInterfaces</b> and only in those situations where the class installer must perform device interface installation operations after <b>SetupDiInstallDeviceInterfaces</b> completes the default device interface installation operation. In such situations, the class installer must directly call <b>SetupDiInstallDeviceInterfaces</b> when the installer processes a DIF_INSTALLINTERFACES request. For more information about calling the default handler, see <a href="/windows-hardware/drivers/install/calling-the-default-dif-code-handlers">Calling Default DIF Code Handlers</a>.</div>
 <div> </div>
 For information about INF file format, see <a href="/windows-hardware/drivers/install/inf-file-sections-and-directives">INF File Sections and Directives</a>.
 

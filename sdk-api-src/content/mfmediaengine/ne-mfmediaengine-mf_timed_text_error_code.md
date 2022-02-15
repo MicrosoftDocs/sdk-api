@@ -54,23 +54,23 @@ Specifies the kind error that occurred with a timed text track.
 
 ## -enum-fields
 
-### -field MF_TIMED_TEXT_ERROR_CODE_NOERROR
+### -field MF_TIMED_TEXT_ERROR_CODE_NOERROR:0
 
 No error occurred.
 
-### -field MF_TIMED_TEXT_ERROR_CODE_FATAL
+### -field MF_TIMED_TEXT_ERROR_CODE_FATAL:1
 
 A fatal error occurred.
 
-### -field MF_TIMED_TEXT_ERROR_CODE_DATA_FORMAT
+### -field MF_TIMED_TEXT_ERROR_CODE_DATA_FORMAT:2
 
 An error occurred with the data format of the timed text track.
 
-### -field MF_TIMED_TEXT_ERROR_CODE_NETWORK
+### -field MF_TIMED_TEXT_ERROR_CODE_NETWORK:3
 
 A network error occurred when trying to load the timed text track.
 
-### -field MF_TIMED_TEXT_ERROR_CODE_INTERNAL
+### -field MF_TIMED_TEXT_ERROR_CODE_INTERNAL:4
 
 An internal error occurred.
 

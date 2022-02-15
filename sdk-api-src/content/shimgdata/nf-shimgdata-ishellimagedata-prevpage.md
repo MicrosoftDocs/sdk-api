@@ -52,7 +52,7 @@ api_name:
 
 Switches to the previous page of a multipage image. Any associated animations are reset.
 
-## -parameters
+
 
 ## -returns
 

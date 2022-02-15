@@ -56,7 +56,7 @@ The <b>ICDraw</b> function decompresses an image for drawing.
 
 ### -param hic
 
-Handle to an decompressor.
+Handle to a decompressor.
 
 ### -param dwFlags
 

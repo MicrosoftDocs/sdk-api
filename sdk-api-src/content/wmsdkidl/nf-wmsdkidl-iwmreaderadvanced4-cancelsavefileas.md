@@ -55,7 +55,7 @@ api_name:
 
 The <b>CancelSaveFileAs</b> method cancels a file save resulting from a call to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-savefileas">IWMReaderAdvanced2::SaveFileAs</a>.
 
-## -parameters
+
 
 ## -returns
 

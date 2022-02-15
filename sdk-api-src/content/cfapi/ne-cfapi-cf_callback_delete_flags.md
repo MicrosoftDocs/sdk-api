@@ -54,11 +54,11 @@ This callback is used to inform the sync provider that a placeholder file or dir
 
 ## -enum-fields
 
-### -field CF_CALLBACK_DELETE_FLAG_NONE
+### -field CF_CALLBACK_DELETE_FLAG_NONE:0x00000000
 
 No delete flag.
 
-### -field CF_CALLBACK_DELETE_FLAG_IS_DIRECTORY
+### -field CF_CALLBACK_DELETE_FLAG_IS_DIRECTORY:0x00000001
 
 The placeholder that is about to be deleted is a directory.
 

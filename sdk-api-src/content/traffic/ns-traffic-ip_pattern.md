@@ -116,11 +116,15 @@ Reserved for future use.
 
 The following macros are defined in Traffic.h to make it easier to reference the members of the union: 
 
-<pre class="syntax" xml:space="preserve"><code>#define tcSrcPort S_un.S_un_ports.s_srcport
+
+``` syntax
+#define tcSrcPort S_un.S_un_ports.s_srcport
 #define tcDstPort S_un.S_un_ports.s_dstport
 #define tcIcmpType        S_un.S_un_icmp.s_type
 #define tcIcmpCode        S_un.S_un_icmp.s_code
-#define tcSpi             S_un.S_Spi</code></pre>
+#define tcSpi             S_un.S_Spi
+```
+
 
 ## -see-also
 

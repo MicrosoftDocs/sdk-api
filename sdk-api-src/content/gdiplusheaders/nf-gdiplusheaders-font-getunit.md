@@ -54,7 +54,7 @@ api_name:
 The <b>Font::GetUnit</b> method returns the unit of measure of this 
 			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object.
 
-## -parameters
+
 
 ## -returns
 

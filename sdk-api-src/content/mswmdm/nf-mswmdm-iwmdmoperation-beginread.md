@@ -53,7 +53,7 @@ api_name:
 
 The <b>BeginRead</b> method indicates that a "read from device" action is beginning. Windows Media Device Manager only calls this method if the application calls <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-read">IWMDMStorageControl::Read</a> and passes in this <b>IWMDMOperation</b> interface.
 
-## -parameters
+
 
 ## -returns
 

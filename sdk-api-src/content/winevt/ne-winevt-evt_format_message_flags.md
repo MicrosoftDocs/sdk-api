@@ -56,7 +56,7 @@ Defines the values that specify the message string from the event to format.
 
 ## -enum-fields
 
-### -field EvtFormatMessageEvent
+### -field EvtFormatMessageEvent:1
 
 Format the event's message string.
 

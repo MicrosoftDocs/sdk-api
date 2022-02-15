@@ -53,7 +53,7 @@ api_name:
 
 Instantiates a new instance of an uninitialized <a href="/previous-versions/windows/desktop/legacy/jj151706(v=vs.85)">CD3D11_TEXTURE3D_DESC</a> structure.
 
-## -parameters
+
 
 ## -see-also
 

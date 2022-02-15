@@ -58,7 +58,7 @@ api_name:
 
 Closes the specified mounted folder search handle. The 
     <a href="/windows/desktop/api/winbase/nf-winbase-findfirstvolumemountpointa">FindFirstVolumeMountPoint</a> and 
-<a href="/windows/desktop/api/winbase/nf-winbase-findnextvolumemountpointa">FindNextVolumeMountPoint</a>functions use this search handle to locate mounted folders on a specified volume.
+<a href="/windows/desktop/api/winbase/nf-winbase-findnextvolumemountpointa">FindNextVolumeMountPoint</a> functions use this search handle to locate mounted folders on a specified volume.
 
 ## -parameters
 

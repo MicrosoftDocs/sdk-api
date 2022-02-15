@@ -56,7 +56,7 @@ The <b>RASPROJECTION_INFO_TYPE</b> enumeration  is used in the <a href="/windows
 
 ## -enum-fields
 
-### -field PROJECTION_INFO_TYPE_PPP
+### -field PROJECTION_INFO_TYPE_PPP:1
 
 Represents a <a href="/windows/desktop/api/ras/ns-ras-rasppp_projection_info">RASPPP_PROJECTION_INFO</a> structure.
 

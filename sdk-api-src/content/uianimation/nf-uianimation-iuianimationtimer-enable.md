@@ -52,7 +52,7 @@ api_name:
 
 Enables the animation timer.
 
-## -parameters
+
 
 ## -returns
 

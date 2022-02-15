@@ -88,7 +88,9 @@ All strings and values within a dictionary must be unique.  Dictionaries are
 A dictionary might be declared as:
       
 
-<pre class="syntax" xml:space="preserve"><code>struct PurchaseOrderDictionary
+
+``` syntax
+struct PurchaseOrderDictionary
 {
     WS_XML_DICTIONARY dictionary;
     WS_XML_STRING quantity;
@@ -110,9 +112,15 @@ static PurchaseOrderDictionary purchaseOrderDictionary =
     WS_XML_STRING_DICTIONARY_VALUE("PurchaseOrder",      &amp;purchaseOrderDictionary.dictionary, 2),
     WS_XML_STRING_DICTIONARY_VALUE("http://example.com", &amp;purchaseOrderDictionary.dictionary, 3),
 };
-</code></pre>
+
+```
+
 Strings from the dictionary might be used as:
       
 
-<pre class="syntax" xml:space="preserve"><code>WsWriteStartElement(xmlWriter, NULL, &amp;purchaseOrderDictionary.purchaseOrder, &amp;purchaseOrderDictionary.purchaseOrderNamespace, error);</code></pre>
+
+``` syntax
+WsWriteStartElement(xmlWriter, NULL, &amp;purchaseOrderDictionary.purchaseOrder, &amp;purchaseOrderDictionary.purchaseOrderNamespace, error);
+```
+
 

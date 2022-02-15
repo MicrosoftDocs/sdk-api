@@ -190,7 +190,7 @@ In versions before Windows 10, if an application needs to bind to a specific lo
  
 This restriction was removed Windows 10.
 
-The <i>RemoteAddress</i> and the <i>LocalAddress</i> parameters point to a <b>SOCKADDR</b>  structure, which is a generic data type. When <b>WSAConnectByName</b> is called, it is expected that a socket address type specific to the network protocol or address family being used will actually be passed in these parameters. So for IPv4 addresses, a pointer to a <b>sockaddr_in</b> structure would be cast to a pointer to <b>SOCKADDR</b> as the <i>RemoteAddress</i> and <i>LocalAddress</i>parameters. For IPv6 addresses, a pointer to a <b>sockaddr_in6</b> structure would be cast to a pointer to <b>SOCKADDR</b> as the <i>RemoteAddress</i> and <i>LocalAddress</i>parameters. 
+The <i>RemoteAddress</i> and the <i>LocalAddress</i> parameters point to a <b>SOCKADDR</b>  structure, which is a generic data type. When <b>WSAConnectByName</b> is called, it is expected that a socket address type specific to the network protocol or address family being used will actually be passed in these parameters. So for IPv4 addresses, a pointer to a <b>sockaddr_in</b> structure would be cast to a pointer to <b>SOCKADDR</b> as the <i>RemoteAddress</i> and <i>LocalAddress</i> parameters. For IPv6 addresses, a pointer to a <b>sockaddr_in6</b> structure would be cast to a pointer to <b>SOCKADDR</b> as the <i>RemoteAddress</i> and <i>LocalAddress</i> parameters. 
 
 When the 
 <b>WSAConnectByName</b> function returns <b>TRUE</b>, the socket <i>s</i> is in the default state for a connected socket. The socket <i>s</i> does not enable previously set properties or options until SO_UPDATE_CONNECT_CONTEXT is set on the socket. Use the 

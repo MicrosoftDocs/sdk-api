@@ -56,19 +56,19 @@ The <b>ADS_DEREFENUM</b> enumeration specifies the process through which aliases
 
 ## -enum-fields
 
-### -field ADS_DEREF_NEVER
+### -field ADS_DEREF_NEVER:0
 
 Does not dereference aliases when searching or locating the base object of the search.
 
-### -field ADS_DEREF_SEARCHING
+### -field ADS_DEREF_SEARCHING:1
 
 Dereferences aliases when searching subordinates of the base object, but not when locating the base itself.
 
-### -field ADS_DEREF_FINDING
+### -field ADS_DEREF_FINDING:2
 
 Dereferences aliases when locating the base object of the search, but not when searching its subordinates.
 
-### -field ADS_DEREF_ALWAYS
+### -field ADS_DEREF_ALWAYS:3
 
 Dereferences aliases when both searching subordinates and locating the base object of the search.
 

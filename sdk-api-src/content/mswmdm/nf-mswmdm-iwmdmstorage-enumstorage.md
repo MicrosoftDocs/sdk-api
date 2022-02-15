@@ -72,7 +72,7 @@ For an extensive list of possible error codes, see <a href="/windows/desktop/WMD
 
 ## -remarks
 
-The <b>IWMDMEnumStorage</b> interface that is retrieved will enumerate the immediate chilren of this object. This method allows an application to navigate the contents of a device recursively.
+The <b>IWMDMEnumStorage</b> interface that is retrieved will enumerate the immediate children of this object. This method allows an application to navigate the contents of a device recursively.
 
 ## -see-also
 

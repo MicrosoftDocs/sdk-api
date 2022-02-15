@@ -69,7 +69,7 @@ Variable of type <b>ULONG</b> that specifies the list of entries that can be add
 
 Type: <b>LPENTRYID</b>
 
-Pointer to a variable of type <a href="/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-entryid">ENTRYID</a> that specifies the container that will supply the list of <a href="https://docs.microsoft.com/">one-off</a> entries that can be added to the recipient wells of the address book's common dialog box. The address book container that <b>lpABContEntryID</b> points to determines what is listed in the edit box within the dialog box that holds possible recipient names. Usually, <b>lpABContEntryID</b> is <b>NULL</b>, indicating the use of a custom recipient provider.
+Pointer to a variable of type <a href="/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-entryid">ENTRYID</a> that specifies the container that will supply the list of <a href="/windows/win32/api/wabiab/nf-wabiab-iaddrbook-createoneoff">one-off</a> entries that can be added to the recipient wells of the address book's common dialog box. The address book container that <b>lpABContEntryID</b> points to determines what is listed in the edit box within the dialog box that holds possible recipient names. Usually, <b>lpABContEntryID</b> is <b>NULL</b>, indicating the use of a custom recipient provider.
 
 ### -field ulFlags
 

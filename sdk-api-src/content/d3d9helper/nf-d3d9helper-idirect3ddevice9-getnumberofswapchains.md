@@ -53,7 +53,7 @@ api_name:
 
 Gets the number of implicit swap chains.
 
-## -parameters
+
 
 ## -returns
 

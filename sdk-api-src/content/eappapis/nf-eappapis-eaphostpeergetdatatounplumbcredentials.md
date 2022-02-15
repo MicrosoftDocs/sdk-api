@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Returns the<b> Connection Id</b>,<b>User Impersonation Token</b> and <b>Eaphost Process Id  </b>used by EAPHost to save the credentials for SSO. This data is needed to unplumb previously plumbed credentials.
+Returns the<b> Connection Id</b>,<b>User Impersonation Token</b> and <b>Eaphost Process Id  </b> used by EAPHost to save the credentials for SSO. This data is needed to unplumb previously plumbed credentials.
 <div class="alert"><b>Important</b>   
 Unplumbing of credentials (plumbed as part of the SSO experience) on disconnection is no longer performed by EAPHost. Unplumbing of credentials now needs to be performed by the supplicant. </div><div> </div>
 

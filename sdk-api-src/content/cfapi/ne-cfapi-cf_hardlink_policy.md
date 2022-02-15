@@ -51,11 +51,11 @@ Specifies whether or not hard links are allowed on placeholder files.
 
 ## -enum-fields
 
-### -field CF_HARDLINK_POLICY_NONE
+### -field CF_HARDLINK_POLICY_NONE:0x00000000
 
 Default; No hard links can be created on any placeholder.
 
-### -field CF_HARDLINK_POLICY_ALLOWED
+### -field CF_HARDLINK_POLICY_ALLOWED:0x00000001
 
 Hard links can be created on a placeholder under the same sync root or no sync root.
 

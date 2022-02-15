@@ -55,7 +55,7 @@ Default constructor for <code>XMUINT3</code>.
 Default constructor for <a href="/windows/desktop/api/directxmath/ns-directxmath-xmuint3">XMUINT3</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
-## -parameters
+
 
 ## -remarks
 

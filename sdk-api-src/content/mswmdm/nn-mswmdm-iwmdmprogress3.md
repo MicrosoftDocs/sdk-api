@@ -56,10 +56,7 @@ Applications that implement this callback interface should provide an implementa
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMProgress3</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress">IWMDMProgress</a>. <b>IWMDMProgress3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWMDMProgress3</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress">IWMDMProgress</a>. <b>IWMDMProgress3</b> also has these types of members:
 
 ## -see-also
 

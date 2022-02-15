@@ -52,7 +52,7 @@ api_name:
 
 Atomically copies a primary data element of type UINT64 from one resource to another, along with optional dependent resources.
 
-These 'dependent resourses' are so-named because they depend upon the primary data element to locate them, typically the key element is an address, index, or other handle that refers to one or more the dependent resources indirectly. 
+These 'dependent resources' are so-named because they depend upon the primary data element to locate them, typically the key element is an address, index, or other handle that refers to one or more the dependent resources indirectly. 
 
 This function supports a primary data element of type UINT64 (64bit). A different version of this function, <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-atomiccopybufferuint">AtomicCopyBufferUINT</a>, supports a primary data element of type UINT (32bit).
 
@@ -110,7 +110,7 @@ An array of subresource ranges that specify the dependent elements of the data p
 
 ## -remarks
 
-This method is typically used to update resources for which normal rendering pipeline latency can be detrimental to user experience. For example, an application can compute a view matrix from the latest user input (such as from the sensors of a head-mounted display), and use this function to update and activate this matrix in command lists already dispatched to the GPU to reduce percieved latency between input and rendering.
+This method is typically used to update resources for which normal rendering pipeline latency can be detrimental to user experience. For example, an application can compute a view matrix from the latest user input (such as from the sensors of a head-mounted display), and use this function to update and activate this matrix in command lists already dispatched to the GPU to reduce perceived latency between input and rendering.
 
 ## -see-also
 

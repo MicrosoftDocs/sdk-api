@@ -54,11 +54,11 @@ The <b>WebSecurityLevel</b> enumeration type specifies whether a web-enabled met
 
 ## -enum-fields
 
-### -field LevelUnsafe
+### -field LevelUnsafe:0
 
 The method is not safe for scripting.
 
-### -field LevelSafe
+### -field LevelSafe:1
 
 The method is safe for scripting.
 

@@ -54,10 +54,7 @@ Exposes methods that represent applications to Add/Remove Programs in Control Pa
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPublishedApp</b> interface inherits from <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>. <b>IPublishedApp</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPublishedApp</b> interface inherits from <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>. <b>IPublishedApp</b> also has these types of members:
 
 ## -remarks
 

@@ -52,7 +52,7 @@ api_name:
 
 Turns on edit collection (also called <i>undo grouping</i>).
 
-## -parameters
+
 
 ## -returns
 

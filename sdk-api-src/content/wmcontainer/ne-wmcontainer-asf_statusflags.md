@@ -54,11 +54,11 @@ Defines status conditions for the <a href="/windows/desktop/api/wmcontainer/nf-w
 
 ## -enum-fields
 
-### -field ASF_STATUSFLAGS_INCOMPLETE
+### -field ASF_STATUSFLAGS_INCOMPLETE:0x1
 
 The operation is incomplete.
 
-### -field ASF_STATUSFLAGS_NONFATAL_ERROR
+### -field ASF_STATUSFLAGS_NONFATAL_ERROR:0x2
 
  One or more non-critical errors
         occurred while parsing the ASF data.

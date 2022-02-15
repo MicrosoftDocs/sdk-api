@@ -66,7 +66,7 @@ A pointer to a constant structure whose type depends on the value <i>Type</i>. I
 
 ## -see-also
 
-<a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
+<a href="/windows/ai/directml/dml-binding">Binding in DirectML</a>
 
 [IDMLBindingTable::BindInputs](/windows/win32/api/directml/nf-directml-idmlbindingtable-bindinputs)
 

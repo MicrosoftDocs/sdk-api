@@ -168,7 +168,7 @@ On some compression filters, this method fails if the filter's input pin is not 
 
 The following example retrieves the first supported format (index zero) on a video output pin and then sets this format on the pin.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

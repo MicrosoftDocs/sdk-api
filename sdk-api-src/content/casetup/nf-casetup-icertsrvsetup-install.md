@@ -52,7 +52,7 @@ api_name:
 
 The <b>Install</b> method installs a role as configured in the <b>CCertSrvSetup</b> object.
 
-## -parameters
+
 
 ## -remarks
 

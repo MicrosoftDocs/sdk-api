@@ -52,7 +52,7 @@ api_name:
 
 Returns a vector, each of whose components are the sign mask (0x80000000).
 
-## -parameters
+
 
 ## -returns
 

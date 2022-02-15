@@ -56,7 +56,7 @@ The <b>ATTRIBUTE_TYPE</b> enumeration defines possible values for a helper attri
 
 ## -enum-fields
 
-### -field AT_INVALID
+### -field AT_INVALID:0
 
 An invalid attribute.
 

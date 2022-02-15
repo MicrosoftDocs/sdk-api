@@ -52,7 +52,7 @@ api_name:
 
 Resumes drawing on the surface object.
 
-## -parameters
+
 
 ## -returns
 

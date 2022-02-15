@@ -54,23 +54,23 @@ Specifies a shader model.
 
 ## -enum-fields
 
-### -field D3D_SHADER_MODEL_5_1
+### -field D3D_SHADER_MODEL_5_1:0x51
 
 Indicates shader model 5.1.
 
-### -field D3D_SHADER_MODEL_6_0
+### -field D3D_SHADER_MODEL_6_0:0x60
 
 Indicates shader model 6.0.
 
-### -field D3D_SHADER_MODEL_6_1
+### -field D3D_SHADER_MODEL_6_1:0x61
 
 Indicates shader model 6.1.
 
-### -field D3D_SHADER_MODEL_6_2
+### -field D3D_SHADER_MODEL_6_2:0x62
 
-### -field D3D_SHADER_MODEL_6_3
+### -field D3D_SHADER_MODEL_6_3:0x63
 
-### -field D3D_SHADER_MODEL_6_4
+### -field D3D_SHADER_MODEL_6_4:0x64
 
 ## -remarks
 

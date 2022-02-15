@@ -53,7 +53,7 @@ api_name:
 The 
 <b>Add</b> method adds a pluggable terminal superclass to the registry. If the superclass already exists, the method modifies the information for the superclass.
 
-## -parameters
+
 
 ## -returns
 

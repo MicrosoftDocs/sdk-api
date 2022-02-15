@@ -55,7 +55,7 @@ api_name:
 
 The <b>SetNonBlocking</b> method configures the writer so that the calling thread is not blocked while writing samples.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,19 +54,19 @@ Flags for creating a placeholder on a per-placeholder basis.
 
 ## -enum-fields
 
-### -field CF_PLACEHOLDER_CREATE_FLAG_NONE
+### -field CF_PLACEHOLDER_CREATE_FLAG_NONE:0x00000000
 
 No placeholder create flags.
 
-### -field CF_PLACEHOLDER_CREATE_FLAG_DISABLE_ON_DEMAND_POPULATION
+### -field CF_PLACEHOLDER_CREATE_FLAG_DISABLE_ON_DEMAND_POPULATION:0x00000001
 
 The newly created child placeholder directory is considered to have all of its children present locally.
 
 Applicable to a child placeholder directory only.
 
-### -field CF_PLACEHOLDER_CREATE_FLAG_MARK_IN_SYNC
+### -field CF_PLACEHOLDER_CREATE_FLAG_MARK_IN_SYNC:0x00000002
 
 The newly created placeholder is marked as in-sync. Applicable to both placeholder files and directories.
 
-### -field CF_PLACEHOLDER_CREATE_FLAG_SUPERSEDE
+### -field CF_PLACEHOLDER_CREATE_FLAG_SUPERSEDE:0x00000004
 

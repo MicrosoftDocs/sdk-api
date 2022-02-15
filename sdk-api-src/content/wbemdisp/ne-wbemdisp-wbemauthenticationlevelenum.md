@@ -99,19 +99,19 @@ For more information, see
 
 ## -enum-fields
 
-### -field wbemAuthenticationLevelDefault
+### -field wbemAuthenticationLevelDefault:0
 
-### -field wbemAuthenticationLevelNone
+### -field wbemAuthenticationLevelNone:1
 
-### -field wbemAuthenticationLevelConnect
+### -field wbemAuthenticationLevelConnect:2
 
-### -field wbemAuthenticationLevelCall
+### -field wbemAuthenticationLevelCall:3
 
-### -field wbemAuthenticationLevelPkt
+### -field wbemAuthenticationLevelPkt:4
 
-### -field wbemAuthenticationLevelPktIntegrity
+### -field wbemAuthenticationLevelPktIntegrity:5
 
-### -field wbemAuthenticationLevelPktPrivacy
+### -field wbemAuthenticationLevelPktPrivacy:6
 
 ### -field WbemAuthenticationLevelCall
 

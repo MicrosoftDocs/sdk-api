@@ -53,7 +53,7 @@ api_name:
 Obtains the zero-based index of the font face in its font file or files. If the font files contain a single face,  
    the return value is zero.
 
-## -parameters
+
 
 ## -returns
 

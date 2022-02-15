@@ -66,7 +66,7 @@ The block count, in big-endian format.
 
 ## -remarks
 
-For AES-CTR encyption, the <b>pvPVPState</b> member of the <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_decodebufferdesc">DXVA2_DecodeBufferDesc</a> structure points to a <b>DXVA2_AES_CTR_IV</b> structure.
+For AES-CTR encryption, the <b>pvPVPState</b> member of the <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_decodebufferdesc">DXVA2_DecodeBufferDesc</a> structure points to a <b>DXVA2_AES_CTR_IV</b> structure.
 
 The <a href="/windows/desktop/medfound/d3daes-ctr-iv">D3DAES_CTR_IV</a> structure and the <b>DXVA2_AES_CTR_IV</b> structure are equivalent.
 

@@ -56,19 +56,19 @@ The <b>PEER_MEMBER_CHANGE_TYPE</b> enumeration defines the set of possible peer 
 
 ## -enum-fields
 
-### -field PEER_MEMBER_CONNECTED
+### -field PEER_MEMBER_CONNECTED:1
 
 A member is connected to a peer group.
 
-### -field PEER_MEMBER_DISCONNECTED
+### -field PEER_MEMBER_DISCONNECTED:2
 
 A member is disconnected from a peer group.
 
-### -field PEER_MEMBER_UPDATED
+### -field PEER_MEMBER_UPDATED:3
 
 A member has updated information (for example, a new address) within a peer group.
 
-### -field PEER_MEMBER_JOINED
+### -field PEER_MEMBER_JOINED:4
 
 New membership information is published for a group member. The peer name of a peer group member is obtained from the <b>pwzIdentity</b> field of the <a href="/windows/desktop/api/p2p/ns-p2p-peer_event_member_change_data">PEER_EVENT_MEMBER_CHANGE_DATA</a>  structure. New membership information is published in one of the following three scenarios: 
 
@@ -78,7 +78,7 @@ New membership information is published for a group member. The peer name of a p
 <li>A peer group member performs an operation (for example, issuing an invitation or credentials, or publishing a record), but membership information for the peer group member does not exist in the group.</li>
 </ul>
 
-### -field PEER_MEMBER_LEFT
+### -field PEER_MEMBER_LEFT:5
 
 This peer event does not exist in the Peer Grouping Infrastructure v1.0, and must not be used.
 

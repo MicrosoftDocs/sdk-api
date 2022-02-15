@@ -54,15 +54,15 @@ Specifies the MPEG audio layer. This enumeration is used with the <a href="/wind
 
 ## -enum-fields
 
-### -field eAVEncMPALayer_1
+### -field eAVEncMPALayer_1:1
 
 MPEG Audio Layer-1.
 
-### -field eAVEncMPALayer_2
+### -field eAVEncMPALayer_2:2
 
 MPEG Audio Layer-2.
 
-### -field eAVEncMPALayer_3
+### -field eAVEncMPALayer_3:3
 
 MPEG Audio Layer-3.
 

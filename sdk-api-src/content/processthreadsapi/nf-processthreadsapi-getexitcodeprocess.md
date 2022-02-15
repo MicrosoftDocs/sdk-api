@@ -83,7 +83,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -remarks
 
-This function returns immediately. If the process has not terminated and the function succeeds, the status returned is <b>STILL_ACTIVE</b>. If the process has terminated and the function succeeds, the status returned is one of the following values:
+This function returns immediately. If the process has not terminated and the function succeeds, the status returned is <b>STILL_ACTIVE</b> (a macro for **STATUS_PENDING** (minwinbase.h)). If the process has terminated and the function succeeds, the status returned is one of the following values:
 
 <ul>
 <li>The exit value specified in the 
@@ -92,8 +92,9 @@ This function returns immediately. If the process has not terminated and the fun
 <li>The return value from the <a href="/cpp/cpp/main-function-command-line-args">main</a> or <a href="/windows/win32/api/winbase/nf-winbase-winmain">WinMain</a> function of the process.</li>
 <li>The exception value for an unhandled exception that caused the process to terminate.</li>
 </ul>
-<div class="alert"><b>Important</b>  The <b>GetExitCodeProcess</b> function returns a valid error code defined by the application only after the thread terminates. Therefore, an application should not use <b>STILL_ACTIVE</b> (259) as an error code. If a thread returns <b>STILL_ACTIVE</b> (259) as an error code, applications that test for this value could interpret it to mean that the thread is still running and continue to test for the completion of the thread after the thread has terminated, which could put the application into an infinite loop.</div>
-<div> </div>
+
+> [!IMPORTANT]
+> The **GetExitCodeProcess** function returns a valid error code defined by the application only after the thread terminates. Therefore, an application should not use **STILL_ACTIVE** (259) as an error code (**STILL_ACTIVE** is a macro for **STATUS_PENDING** (minwinbase.h)). If a thread returns **STILL_ACTIVE** (259) as an error code, then applications that test for that value could interpret it to mean that the thread is still running, and continue to test for the completion of the thread after the thread has terminated, which could put the application into an infinite loop.
 
 ## -see-also
 

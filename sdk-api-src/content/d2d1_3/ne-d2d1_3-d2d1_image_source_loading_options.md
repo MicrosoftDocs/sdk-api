@@ -54,17 +54,17 @@ Controls option flags for a new ID2D1ImageSource when it is created.
 
 ## -enum-fields
 
-### -field D2D1_IMAGE_SOURCE_LOADING_OPTIONS_NONE
+### -field D2D1_IMAGE_SOURCE_LOADING_OPTIONS_NONE:0
 
 No options are used.
 
-### -field D2D1_IMAGE_SOURCE_LOADING_OPTIONS_RELEASE_SOURCE
+### -field D2D1_IMAGE_SOURCE_LOADING_OPTIONS_RELEASE_SOURCE:1
 
 Indicates the image source should release its reference to the WIC bitmap source after it has initialized. 
         By default, the image source retains a reference to the WIC bitmap source for the lifetime of the object to enable quality and speed optimizations for printing. 
         This option disables that optimization.
 
-### -field D2D1_IMAGE_SOURCE_LOADING_OPTIONS_CACHE_ON_DEMAND
+### -field D2D1_IMAGE_SOURCE_LOADING_OPTIONS_CACHE_ON_DEMAND:2
 
 Indicates the image source should only populate subregions of the image cache on-demand. You can control this behavior using 
         the <a href="/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1imagesourcefromwic-ensurecached(constd2d1_rect_u)">EnsureCached</a> 
@@ -72,7 +72,7 @@ Indicates the image source should only populate subregions of the image cache on
         This options provides the ability to improve memory usage by only keeping needed portions of the image in memory. 
         This option requires that the image source has a reference to the WIC bitmap source, and is incompatible with D2D1_IMAGE_SOURCE_LOADING_OPTIONS_RELEASE_SOURCE.
 
-### -field D2D1_IMAGE_SOURCE_LOADING_OPTIONS_FORCE_DWORD
+### -field D2D1_IMAGE_SOURCE_LOADING_OPTIONS_FORCE_DWORD:0xffffffff
 
 ## -remarks
 

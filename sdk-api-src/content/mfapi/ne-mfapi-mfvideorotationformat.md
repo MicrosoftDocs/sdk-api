@@ -56,19 +56,19 @@ Describes the rotation of the video image in the counter-clockwise direction.
 
 ## -enum-fields
 
-### -field MFVideoRotationFormat_0
+### -field MFVideoRotationFormat_0:0
 
 The image is not rotated.
 
-### -field MFVideoRotationFormat_90
+### -field MFVideoRotationFormat_90:90
 
 The image is rotated 90 degrees counter-clockwise.
 
-### -field MFVideoRotationFormat_180
+### -field MFVideoRotationFormat_180:180
 
 The image is rotated 180 degrees.
 
-### -field MFVideoRotationFormat_270
+### -field MFVideoRotationFormat_270:270
 
 The image is rotated 270 degrees counter-clockwise.
 

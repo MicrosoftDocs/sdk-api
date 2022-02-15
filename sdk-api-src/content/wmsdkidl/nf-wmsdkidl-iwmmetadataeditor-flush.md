@@ -55,7 +55,7 @@ api_name:
 
 The <b>Flush</b> method closes the open file, saving any changes.
 
-## -parameters
+
 
 ## -returns
 

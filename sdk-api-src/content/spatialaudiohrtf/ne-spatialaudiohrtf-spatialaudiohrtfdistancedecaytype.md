@@ -54,7 +54,7 @@ Specifies the type of decay applied over distance from the position of an <a hre
 
 ## -enum-fields
 
-### -field SpatialAudioHrtfDistanceDecay_NaturalDecay
+### -field SpatialAudioHrtfDistanceDecay_NaturalDecay:0
 
 A natural decay  over distance, as constrained by minimum and maximum gain distance limits. The output drops to silent at the distance specified by <a href="/windows/desktop/api/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfdistancedecay">SpatialAudioHrtfDistanceDecay.CutoffDistance</a>.
 

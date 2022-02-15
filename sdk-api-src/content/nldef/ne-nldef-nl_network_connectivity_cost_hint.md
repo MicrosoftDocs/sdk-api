@@ -52,7 +52,7 @@ Defines constants that specify hints about the usage charge for a network connec
 
 ## -enum-fields
 
-### -field NetworkConnectivityCostHintUnknown
+### -field NetworkConnectivityCostHintUnknown:0
 
 Specifies a hint that cost information is not available.
 

@@ -57,10 +57,7 @@ Because the <b>CopyCaptureFile</b> method can take a long time to complete, an a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMCopyCaptureFileProgress</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMCopyCaptureFileProgress</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAMCopyCaptureFileProgress</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMCopyCaptureFileProgress</b> also has these types of members:
 
 ## -remarks
 
@@ -68,7 +65,7 @@ To use this interface, implement a class that inherits the interface and impleme
 
 The following example shows a class that implements the interface:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -122,7 +119,7 @@ public:
 </table></span></div>
 The following example uses this class in the <b>CopyCaptureFile</b> method:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

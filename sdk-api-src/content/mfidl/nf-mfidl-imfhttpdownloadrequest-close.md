@@ -55,7 +55,7 @@ api_name:
 
 Invoked by Microsoft Media Foundation to allow <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a> to free any internal resources. It will also cancel the current request if it is still in progress.
 
-## -parameters
+
 
 ## -returns
 

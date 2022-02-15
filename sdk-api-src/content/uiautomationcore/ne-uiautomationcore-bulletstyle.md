@@ -54,31 +54,31 @@ Contains values for the BulletStyle text attribute.
 
 ## -enum-fields
 
-### -field BulletStyle_None
+### -field BulletStyle_None:0
 
 None.
 
-### -field BulletStyle_HollowRoundBullet
+### -field BulletStyle_HollowRoundBullet:1
 
 Hollow round bullet.
 
-### -field BulletStyle_FilledRoundBullet
+### -field BulletStyle_FilledRoundBullet:2
 
 Filled round bullet.
 
-### -field BulletStyle_HollowSquareBullet
+### -field BulletStyle_HollowSquareBullet:3
 
 Hollow square bullet.
 
-### -field BulletStyle_FilledSquareBullet
+### -field BulletStyle_FilledSquareBullet:4
 
 Filled square bullet.
 
-### -field BulletStyle_DashBullet
+### -field BulletStyle_DashBullet:5
 
 Dash bullet.
 
-### -field BulletStyle_Other
+### -field BulletStyle_Other:-1
 
 Other.
 

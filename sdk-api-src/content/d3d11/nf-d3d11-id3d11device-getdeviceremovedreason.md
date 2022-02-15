@@ -53,7 +53,7 @@ api_name:
 
 Get the reason why the device was removed.
 
-## -parameters
+
 
 ## -returns
 

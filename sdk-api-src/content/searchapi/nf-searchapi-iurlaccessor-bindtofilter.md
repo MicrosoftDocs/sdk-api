@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Binds the item being processed to the appropriate <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>and retrieves a pointer to the <b>IFilter</b>.
+Binds the item being processed to the appropriate <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> and retrieves a pointer to the <b>IFilter</b>.
 
 ## -parameters
 
@@ -64,11 +64,11 @@ Receives the address of a pointer to the <a href="/windows/desktop/api/filter/nn
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
 This method retrieves an <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> to enumerate the properties of the item associated with the specified URL, based on the protocol's information about that URL.
             
 
-If the URL's content is also accessible from the <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> returned by <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-bindtostream">IUrlAccessor::BindToStream</a>, then a separate <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>is invoked on the IStream to retrieve additional properties.
+If the URL's content is also accessible from the <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> returned by <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-bindtostream">IUrlAccessor::BindToStream</a>, then a separate <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> is invoked on the IStream to retrieve additional properties.

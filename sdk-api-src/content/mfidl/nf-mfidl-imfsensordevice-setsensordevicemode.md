@@ -59,7 +59,7 @@ Sets a value that specifies the sharing mode of the sensor device to either cont
 
 ### -param eMode [in]
 
-A member of the <a href="/windows/win32/api/mfidl/ne-mfidl-mfsensordevicemode">MFSensorDeviceMode</a> enumeration specifying wether the device is in shared or controller mode.
+A member of the <a href="/windows/win32/api/mfidl/ne-mfidl-mfsensordevicemode">MFSensorDeviceMode</a> enumeration specifying whether the device is in shared or controller mode.
 
 ## -returns
 

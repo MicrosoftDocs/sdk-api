@@ -52,7 +52,7 @@ api_name:
 
 Closes the interface so other applications can use it.
 
-## -parameters
+
 
 ## -returns
 

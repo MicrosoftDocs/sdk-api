@@ -56,118 +56,118 @@ The
 
 ## -enum-fields
 
-### -field TE_TAPIOBJECT
+### -field TE_TAPIOBJECT:0x1
 
 Change is in TAPI object itself. For more information, see 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittapiobjectevent">ITTAPIObjectEvent</a>.
 
-### -field TE_ADDRESS
+### -field TE_ADDRESS:0x2
 
 An Address object has changed. For more information, see 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddressevent">ITAddressEvent</a>.
 
-### -field TE_CALLNOTIFICATION
+### -field TE_CALLNOTIFICATION:0x4
 
 A new communications session has appeared on the address and the TAPI DLL has created a new call object. This could be a result from an incoming session, a session handed off by another application, or a session being parked on the address. For more information, see 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a> and 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-registercallnotifications">ITTAPI::RegisterCallNotifications</a>.
 
-### -field TE_CALLSTATE
+### -field TE_CALLSTATE:0x8
 
 The Call state has changed. For more information, see 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallstateevent">ITCallStateEvent</a>.
 
-### -field TE_CALLMEDIA
+### -field TE_CALLMEDIA:0x10
 
 The media associated with a call has changed. For more information, see 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallmediaevent">ITCallMediaEvent</a>.
 
-### -field TE_CALLHUB
+### -field TE_CALLHUB:0x20
 
 A CallHub object has changed. For more information, see 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallhubevent">ITCallHubEvent</a>.
 
-### -field TE_CALLINFOCHANGE
+### -field TE_CALLINFOCHANGE:0x40
 
 The call information has changed. 
 For more information, see <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfochangeevent">ITCallInfoChangeEvent</a>.
 
-### -field TE_PRIVATE
+### -field TE_PRIVATE:0x80
 
 A provider-specific private object has changed. The precise type of object referenced is implementation dependent. For more information, see <a href="/windows/desktop/Tapi/provider-specific-interfaces">Provider-Specific Interfaces</a>.
 
-### -field TE_REQUEST
+### -field TE_REQUEST:0x100
 
 A Request object has changed. For more information, see <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itrequestevent">ITRequestEvent</a>.
 
-### -field TE_AGENT
+### -field TE_AGENT:0x200
 
 An Agent object has changed. For more information, see <a href="/windows/desktop/api/tapi3/nn-tapi3-itagentevent">ITAgentEvent</a>.
 
-### -field TE_AGENTSESSION
+### -field TE_AGENTSESSION:0x400
 
 An AgentSession object has changed. For more information, see <a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsessionevent">ITAgentSessionEvent</a>.
 
-### -field TE_QOSEVENT
+### -field TE_QOSEVENT:0x800
 
 A QOS event has occurred. For more information, see <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itqosevent">ITQOSEvent</a>.
 
-### -field TE_AGENTHANDLER
+### -field TE_AGENTHANDLER:0x1000
 
 An AgentHandler object has changed. For more information, see <a href="/windows/desktop/api/tapi3/nn-tapi3-itagenthandlerevent">ITAgentHandlerEvent</a>.
 
-### -field TE_ACDGROUP
+### -field TE_ACDGROUP:0x2000
 
 An ACDGroup object has changed. For more information, see <a href="/windows/desktop/api/tapi3/nn-tapi3-itacdgroupevent">ITACDGroupEvent</a>.
 
-### -field TE_QUEUE
+### -field TE_QUEUE:0x4000
 
 A Queue object has changed. For more information, see <a href="/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueueevent">ITQueueEvent</a>.
 
-### -field TE_DIGITEVENT
+### -field TE_DIGITEVENT:0x8000
 
 A digit event has occurred. For more information, see <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itdigitdetectionevent">ITDigitDetectionEvent</a>.
 
-### -field TE_GENERATEEVENT
+### -field TE_GENERATEEVENT:0x10000
 
 A digit generation event has occurred. For more information, see <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itdigitgenerationevent">ITDigitGenerationEvent</a>.
 
-### -field TE_ASRTERMINAL
+### -field TE_ASRTERMINAL:0x20000
 
 An Automatic Speech Recognition terminal event has occurred. Valid only for computers running on Windows XP and later.
 
-### -field TE_TTSTERMINAL
+### -field TE_TTSTERMINAL:0x40000
 
 An event has occurred on a TTS terminal. For more information, see <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itttsterminalevent">ITTTSTerminalEvent</a>. Valid only for computers running on Windows XP and later.
 
-### -field TE_FILETERMINAL
+### -field TE_FILETERMINAL:0x80000
 
 An event has occurred on a file terminal. For more information, see <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itfileterminalevent">ITFileTerminalEvent</a>. Valid only for computers running on Windows XP and later.
 
-### -field TE_TONETERMINAL
+### -field TE_TONETERMINAL:0x100000
 
 An event has occurred on a tone terminal. For more information, see <a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittoneterminalevent">ITToneTerminalEvent</a>. Valid only for computers running on Windows XP and later.
 
-### -field TE_PHONEEVENT
+### -field TE_PHONEEVENT:0x200000
 
 A Phone object has changed. For more information, see 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphoneevent">ITPhoneEvent</a>. Valid only for computers running on Windows XP and later.
 
-### -field TE_TONEEVENT
+### -field TE_TONEEVENT:0x400000
 
 A tone event has been fired. Detection of in-band tones will be enabled or disabled. For more information, see 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittonedetectionevent">ITToneDetectionEvent</a>. Valid only for computers running on Windows XP and later.
 
-### -field TE_GATHERDIGITS
+### -field TE_GATHERDIGITS:0x800000
 
 A gather digits event has been fired. Digits will be gathered on the current call. For more information, see 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itdigitsgatheredevent">ITDigitsGatheredEvent</a>. Valid only for computers running on Windows XP and later.
 
-### -field TE_ADDRESSDEVSPECIFIC
+### -field TE_ADDRESSDEVSPECIFIC:0x1000000
 
 An address device-specific event has occurred. For more information, see <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddressdevicespecificevent">ITAddressDeviceSpecificEvent</a>. Valid only for computers running on Windows XP and later.
 
-### -field TE_PHONEDEVSPECIFIC
+### -field TE_PHONEDEVSPECIFIC:0x2000000
 
 A phone device-specific event has occurred. For more information, see <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddressdevicespecificevent">ITPhoneDeviceSpecificEvent</a>. Valid only for computers running on Windows XP and later.
 

@@ -54,27 +54,27 @@ Defines stereo 3D capabilities for a Microsoft Direct3D 11 video processor.
 
 ## -enum-fields
 
-### -field D3D11_VIDEO_PROCESSOR_STEREO_CAPS_MONO_OFFSET
+### -field D3D11_VIDEO_PROCESSOR_STEREO_CAPS_MONO_OFFSET:0x1
 
 The video processor supports the <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET</b> 
  format.
 
-### -field D3D11_VIDEO_PROCESSOR_STEREO_CAPS_ROW_INTERLEAVED
+### -field D3D11_VIDEO_PROCESSOR_STEREO_CAPS_ROW_INTERLEAVED:0x2
 
 The video processor supports the <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_ROW_INTERLEAVED</b> 
  format.
 
-### -field D3D11_VIDEO_PROCESSOR_STEREO_CAPS_COLUMN_INTERLEAVED
+### -field D3D11_VIDEO_PROCESSOR_STEREO_CAPS_COLUMN_INTERLEAVED:0x4
 
 The video processor supports the <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_COLUMN_INTERLEAVED</b> 
  format.
 
-### -field D3D11_VIDEO_PROCESSOR_STEREO_CAPS_CHECKERBOARD
+### -field D3D11_VIDEO_PROCESSOR_STEREO_CAPS_CHECKERBOARD:0x8
 
 The video processor supports the <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_CHECKERBOARD</b> 
  format.
 
-### -field D3D11_VIDEO_PROCESSOR_STEREO_CAPS_FLIP_MODE
+### -field D3D11_VIDEO_PROCESSOR_STEREO_CAPS_FLIP_MODE:0x10
 
 The video processor can flip one or both views. For more information, see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_stereo_flip_mode">D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a>.
 

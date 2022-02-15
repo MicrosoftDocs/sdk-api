@@ -56,19 +56,19 @@ Identifies the pointer device cursor types.
 
 ## -enum-fields
 
-### -field POINTER_DEVICE_CURSOR_TYPE_UNKNOWN
+### -field POINTER_DEVICE_CURSOR_TYPE_UNKNOWN:0x00000000
 
 Unidentified cursor.
 
-### -field POINTER_DEVICE_CURSOR_TYPE_TIP
+### -field POINTER_DEVICE_CURSOR_TYPE_TIP:0x00000001
 
 Pen tip.
 
-### -field POINTER_DEVICE_CURSOR_TYPE_ERASER
+### -field POINTER_DEVICE_CURSOR_TYPE_ERASER:0x00000002
 
 Pen eraser.
 
-### -field POINTER_DEVICE_CURSOR_TYPE_MAX
+### -field POINTER_DEVICE_CURSOR_TYPE_MAX:0xFFFFFFFF
 
 Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits. You should not use this value.
 

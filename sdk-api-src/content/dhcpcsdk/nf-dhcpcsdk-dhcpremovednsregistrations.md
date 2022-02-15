@@ -52,7 +52,7 @@ api_name:
 
 The <b>DhcpRemoveDNSRegistrations</b> function removes all DHCP-initiated DNS registrations for the client.
 
-## -parameters
+
 
 ## -returns
 

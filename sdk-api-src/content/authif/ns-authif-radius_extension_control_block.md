@@ -147,7 +147,7 @@ Note that the disposition set by the Extension DLL can be overridden during furt
 
 Pointer to a 
 <b>RADIUS_EXTENSION_CONTROL_BLOCK</b> structure. NPS passes the Extension DLL a pointer to this structure when it calls the 
-<a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a>function.
+<a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a> function.
 
 
 

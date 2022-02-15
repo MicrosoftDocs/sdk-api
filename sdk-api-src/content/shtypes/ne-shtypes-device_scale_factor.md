@@ -54,53 +54,53 @@ Indicates a spoofed device scale factor, as a percent. Used by <a href="/windows
 
 ## -enum-fields
 
-### -field DEVICE_SCALE_FACTOR_INVALID
+### -field DEVICE_SCALE_FACTOR_INVALID:0
 
-### -field SCALE_100_PERCENT
+### -field SCALE_100_PERCENT:100
 
 100%. The scale factor for the device is 1x.
 
-### -field SCALE_120_PERCENT
+### -field SCALE_120_PERCENT:120
 
 120%. The scale factor for the device is 1.2x.
 
-### -field SCALE_125_PERCENT
+### -field SCALE_125_PERCENT:125
 
-### -field SCALE_140_PERCENT
+### -field SCALE_140_PERCENT:140
 
 140%. The scale factor for the device is 1.4x.
 
-### -field SCALE_150_PERCENT
+### -field SCALE_150_PERCENT:150
 
 150%. The scale factor for the device is 1.5x.
 
-### -field SCALE_160_PERCENT
+### -field SCALE_160_PERCENT:160
 
 160%. The scale factor for the device is 1.6x.
 
-### -field SCALE_175_PERCENT
+### -field SCALE_175_PERCENT:175
 
-### -field SCALE_180_PERCENT
+### -field SCALE_180_PERCENT:180
 
 180%. The scale factor for the device is 1.8x.
 
-### -field SCALE_200_PERCENT
+### -field SCALE_200_PERCENT:200
 
-### -field SCALE_225_PERCENT
+### -field SCALE_225_PERCENT:225
 
 225%. The scale factor for the device is 2.25x.
 
-### -field SCALE_250_PERCENT
+### -field SCALE_250_PERCENT:250
 
-### -field SCALE_300_PERCENT
+### -field SCALE_300_PERCENT:300
 
-### -field SCALE_350_PERCENT
+### -field SCALE_350_PERCENT:350
 
-### -field SCALE_400_PERCENT
+### -field SCALE_400_PERCENT:400
 
-### -field SCALE_450_PERCENT
+### -field SCALE_450_PERCENT:450
 
-### -field SCALE_500_PERCENT
+### -field SCALE_500_PERCENT:500
 
 ## -see-also
 

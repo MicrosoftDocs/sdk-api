@@ -52,7 +52,7 @@ api_name:
 
 Enables display of performance debugging counters.
 
-## -parameters
+
 
 ## -returns
 

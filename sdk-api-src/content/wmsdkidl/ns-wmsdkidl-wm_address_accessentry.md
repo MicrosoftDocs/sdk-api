@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>WM_ADDRESS_ACCESSENTRY </b>structure specifies an entry in an IP address access list.
+The <b>WM_ADDRESS_ACCESSENTRY</b> structure specifies an entry in an IP address access list.
 
 ## -struct-fields
 

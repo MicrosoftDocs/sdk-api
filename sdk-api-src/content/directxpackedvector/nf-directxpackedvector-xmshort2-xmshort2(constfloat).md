@@ -64,7 +64,7 @@ Two element <code>float</code> array containing the values used to initialize th
 
 ## -remarks
 
-The magnitude of each member of the *pArray* argument to the constructor will be clamped to the range supported by an 16-bit signed integer [-32767.0, 32767.0].
+The magnitude of each member of the *pArray* argument to the constructor will be clamped to the range supported by a 16-bit signed integer [-32767.0, 32767.0].
 
 The following pseudocode demonstrates the operation of this constructor:
 

@@ -52,7 +52,7 @@ api_name:
 
 Accepts the Microsoft Software License Terms that are associated with Windows Update. Administrators and power users can call this method.
 
-## -parameters
+
 
 ## -returns
 

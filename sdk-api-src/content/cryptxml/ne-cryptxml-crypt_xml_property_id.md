@@ -55,13 +55,13 @@ The <b>CRYPT_XML_PROPERTY_ID</b> enumeration
 
 ## -enum-fields
 
-### -field CRYPT_XML_PROPERTY_MAX_HEAP_SIZE
+### -field CRYPT_XML_PROPERTY_MAX_HEAP_SIZE:1
 
 Specifies the maximum heap size, in bytes, that the  XML layer can use.
       This property is applied to intermediate buffers used to parse or construct XML parts. 
       By default, the limit is equal to <b>CRYPT_XML_BLOB_MAX</b>.
 
-### -field CRYPT_XML_PROPERTY_SIGNATURE_LOCATION
+### -field CRYPT_XML_PROPERTY_SIGNATURE_LOCATION:2
 
 Specifies the location in the XML document where the signature is to be created.
 
@@ -84,17 +84,17 @@ The absolute path of the element to insert the signature.
 </dd>
 </dl>
 
-### -field CRYPT_XML_PROPERTY_MAX_SIGNATURES
+### -field CRYPT_XML_PROPERTY_MAX_SIGNATURES:3
 
 Specifies the maximum number of <b>Signature</b> elements when parsing an XML document. 
      This property overrides the default <b>CRYPT_XML_SIGNATURES_MAX</b> value.
 
-### -field CRYPT_XML_PROPERTY_DOC_DECLARATION
+### -field CRYPT_XML_PROPERTY_DOC_DECLARATION:4
 
 Specifies whether to write an XML document declaration. This property is used with the 
      <a href="/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlencode">CryptXmlEncode</a> function. The default property is <b>TRUE</b>.
 
-### -field CRYPT_XML_PROPERTY_XML_OUTPUT_CHARSET
+### -field CRYPT_XML_PROPERTY_XML_OUTPUT_CHARSET:5
 
 Specifies an encoding character set of XML fragments for custom elements. This property is used with the 
      <a href="/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlopentodecode">CryptXmlOpenToDecode</a> function. 

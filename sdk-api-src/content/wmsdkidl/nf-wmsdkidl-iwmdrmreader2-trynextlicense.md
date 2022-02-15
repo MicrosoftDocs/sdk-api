@@ -57,7 +57,7 @@ api_name:
 
 The <b>TryNextLicense</b> method sets the reader to evaluate the next applicable license (if present) for the file loaded in the reader.
 
-## -parameters
+
 
 ## -returns
 

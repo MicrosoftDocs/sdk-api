@@ -54,27 +54,27 @@ Flags that specify certain known folder behaviors. Used with the <a href="/windo
 
 ## -enum-fields
 
-### -field KFDF_LOCAL_REDIRECT_ONLY
+### -field KFDF_LOCAL_REDIRECT_ONLY:0x2
 
 Prevent a <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-kf_category">per-user</a> known folder from being redirected to a network location. Note that if the known folder has been flagged with KFDF_LOCAL_REDIRECT_ONLY but it is a subfolder of a known folder that is redirected to a network location, this subfolder is redirected also.
 
-### -field KFDF_ROAMABLE
+### -field KFDF_ROAMABLE:0x4
 
 Can be roamed through a PC-to-PC synchronization.
 
-### -field KFDF_PRECREATE
+### -field KFDF_PRECREATE:0x8
 
 Create the folder when the user first logs on. Normally a known folder is not created until it is first called. At that time, an API such as <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateiteminknownfolder">SHCreateItemInKnownFolder</a> or <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getshellitem">IKnownFolder::GetShellItem</a> is called with the <a href="/windows/desktop/api/shlobj_core/ne-shlobj_core-known_folder_flag">KF_FLAG_CREATE</a> flag. However, some known folders need to exist immediately. An example is those known folders under %USERPROFILE%, which must exist to provide a proper view. In those cases, KFDF_PRECREATE is set and Windows Explorer calls the creation API during its user initialization.
 
-### -field KFDF_STREAM
+### -field KFDF_STREAM:0x10
 
 <b>Introduced in Windows 7</b>. The known folder is a file rather than a folder.
 
-### -field KFDF_PUBLISHEXPANDEDPATH
+### -field KFDF_PUBLISHEXPANDEDPATH:0x20
 
 <b>Introduced in Windows 7</b>. The full path of the known folder, with any environment variables fully expanded, is stored in the registry under HKEY_CURRENT_USER.
 
-### -field KFDF_NO_REDIRECT_UI
+### -field KFDF_NO_REDIRECT_UI:0x40
 
 <b>Introduced in Windows 8.1</b>. Prevent showing the <b>Locations</b> tab in the property dialog of the known folder. 
 

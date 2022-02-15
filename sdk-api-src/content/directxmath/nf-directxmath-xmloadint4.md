@@ -53,8 +53,8 @@ api_name:
 Loads data into an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>, without type checking.
 <div class="alert"><b>Note</b>  This function is provided for backward compatibility with the Xbox Math library. 
   You should use 
-  <b>XMLoadInt4</b>when you load integer data, and
-  <a href="/windows/desktop/api/directxmath/nf-directxmath-xmloadfloat4">XMLoadFloat4</a>when you load floating point data.</div><div> </div>
+ <b>XMLoadInt4</b> when you load integer data, and
+  <a href="/windows/desktop/api/directxmath/nf-directxmath-xmloadfloat4">XMLoadFloat4</a> when you load floating point data.</div><div> </div>
 
 ## -parameters
 

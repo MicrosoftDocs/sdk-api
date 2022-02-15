@@ -57,30 +57,30 @@ Contains virtual hard disk (VHD) or CD or DVD image file (ISO) open request flag
 
 ## -enum-fields
 
-### -field OPEN_VIRTUAL_DISK_FLAG_NONE
+### -field OPEN_VIRTUAL_DISK_FLAG_NONE:0x00000000
 
 No flag specified.
 
-### -field OPEN_VIRTUAL_DISK_FLAG_NO_PARENTS
+### -field OPEN_VIRTUAL_DISK_FLAG_NO_PARENTS:0x00000001
 
 Open the VHD file (backing store) without opening any differencing-chain parents. Used to correct broken 
        parent links.
 
 This flag is not supported for ISO virtual disks.
 
-### -field OPEN_VIRTUAL_DISK_FLAG_BLANK_FILE
+### -field OPEN_VIRTUAL_DISK_FLAG_BLANK_FILE:0x00000002
 
 Reserved.
 
 This flag is not supported for ISO virtual disks.
 
-### -field OPEN_VIRTUAL_DISK_FLAG_BOOT_DRIVE
+### -field OPEN_VIRTUAL_DISK_FLAG_BOOT_DRIVE:0x00000004
 
 Reserved.
 
 This flag is not supported for ISO virtual disks.
 
-### -field OPEN_VIRTUAL_DISK_FLAG_CACHED_IO
+### -field OPEN_VIRTUAL_DISK_FLAG_CACHED_IO:0x00000008
 
 Indicates that the virtual disk should be opened in cached mode. By default the virtual disks are opened 
        using <b>FILE_FLAG_NO_BUFFERING</b> and 
@@ -88,7 +88,7 @@ Indicates that the virtual disk should be opened in cached mode. By default the 
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>This value is not supported before Windows 8 and Windows Server 2012.
 
-### -field OPEN_VIRTUAL_DISK_FLAG_CUSTOM_DIFF_CHAIN
+### -field OPEN_VIRTUAL_DISK_FLAG_CUSTOM_DIFF_CHAIN:0x00000010
 
 Indicates the VHD file is to be opened without opening any differencing-chain parents and the parent chain is 
        to be created manually using the 
@@ -96,13 +96,13 @@ Indicates the VHD file is to be opened without opening any differencing-chain pa
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>This value is not supported before Windows 8 and Windows Server 2012.
 
-### -field OPEN_VIRTUAL_DISK_FLAG_PARENT_CACHED_IO
+### -field OPEN_VIRTUAL_DISK_FLAG_PARENT_CACHED_IO:0x00000020
 
-### -field OPEN_VIRTUAL_DISK_FLAG_VHDSET_FILE_ONLY
+### -field OPEN_VIRTUAL_DISK_FLAG_VHDSET_FILE_ONLY:0x00000040
 
-### -field OPEN_VIRTUAL_DISK_FLAG_IGNORE_RELATIVE_PARENT_LOCATOR
+### -field OPEN_VIRTUAL_DISK_FLAG_IGNORE_RELATIVE_PARENT_LOCATOR:0x00000080
 
-### -field OPEN_VIRTUAL_DISK_FLAG_NO_WRITE_HARDENING
+### -field OPEN_VIRTUAL_DISK_FLAG_NO_WRITE_HARDENING:0x00000100
 
 ## -see-also
 

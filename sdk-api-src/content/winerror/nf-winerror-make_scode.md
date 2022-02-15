@@ -70,8 +70,12 @@ The code.
 
 This macro is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>#define MAKE_SCODE(sev,fac,code) \
-    ((SCODE) (((unsigned long)(sev)&lt;&lt;31) | ((unsigned long)(fac)&lt;&lt;16) | ((unsigned long)(code))) )</code></pre>
+
+``` syntax
+#define MAKE_SCODE(sev,fac,code) \
+    ((SCODE) (((unsigned long)(sev)&lt;&lt;31) | ((unsigned long)(fac)&lt;&lt;16) | ((unsigned long)(code))) )
+```
+
 
 ## -see-also
 

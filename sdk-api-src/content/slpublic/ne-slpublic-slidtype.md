@@ -56,7 +56,7 @@ Represents the type of Software Licensing ID.
 
 ## -enum-fields
 
-### -field SL_ID_APPLICATION
+### -field SL_ID_APPLICATION:0
 
 ### -field SL_ID_PRODUCT_SKU
 

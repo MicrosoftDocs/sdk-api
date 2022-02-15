@@ -52,7 +52,7 @@ api_name:
 
 Sends notification to all advisory sinks currently registered with the advise holder that the object has closed.
 
-## -parameters
+
 
 ## -returns
 

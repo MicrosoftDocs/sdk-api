@@ -63,8 +63,12 @@ A semicolon-separated list of the proxy servers to be used by the channel. Each
                     entry must follow the following EBNF.
                 
 
-<pre class="syntax" xml:space="preserve"><code>
-&lt;server&gt;[":"&lt;port&gt;]</code></pre>
+
+``` syntax
+
+&lt;server&gt;[":"&lt;port&gt;]
+```
+
 
 <ul>
 <li>server=Address of the server

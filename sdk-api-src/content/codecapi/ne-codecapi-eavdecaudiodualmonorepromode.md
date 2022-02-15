@@ -54,19 +54,19 @@ Specifies how the decoder reproduces dual mono audio. This enumeration is used w
 
 ## -enum-fields
 
-### -field eAVDecAudioDualMonoReproMode_STEREO
+### -field eAVDecAudioDualMonoReproMode_STEREO:0
 
 Output channel 1 (Ch1) to the left speaker and channel 2 (Ch2) to the right speaker.
 
-### -field eAVDecAudioDualMonoReproMode_LEFT_MONO
+### -field eAVDecAudioDualMonoReproMode_LEFT_MONO:1
 
 Output Ch1 to the left and right speakers.
 
-### -field eAVDecAudioDualMonoReproMode_RIGHT_MONO
+### -field eAVDecAudioDualMonoReproMode_RIGHT_MONO:2
 
 Output Ch2 to the left and right speakers.
 
-### -field eAVDecAudioDualMonoReproMode_MIX_MONO
+### -field eAVDecAudioDualMonoReproMode_MIX_MONO:3
 
 Mix Ch1 and Ch2 and output the mix to the left and right speakers.
 

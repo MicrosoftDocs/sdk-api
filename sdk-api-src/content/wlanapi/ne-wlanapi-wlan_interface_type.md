@@ -58,7 +58,7 @@ The <b>WLAN_INTERFACE_TYPE</b> enumeration specifies the wireless interface type
 
 ## -enum-fields
 
-### -field wlan_interface_type_emulated_802_11
+### -field wlan_interface_type_emulated_802_11:0
 
 Specifies an emulated 802.11 interface.
 

@@ -54,7 +54,7 @@ api_name:
 
 Closes a connection after the session is disconnected.
 
-## -parameters
+
 
 ## -remarks
 

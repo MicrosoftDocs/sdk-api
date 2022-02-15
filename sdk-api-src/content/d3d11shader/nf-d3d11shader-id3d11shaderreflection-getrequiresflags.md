@@ -52,7 +52,7 @@ api_name:
 
 Gets a group of flags that indicates the requirements of a shader.
 
-## -parameters
+
 
 ## -returns
 

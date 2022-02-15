@@ -54,7 +54,7 @@ The <b>WMPOpenState</b> enumeration type defines the possible operational states
 
 ## -enum-fields
 
-### -field wmposUndefined
+### -field wmposUndefined:0
 
 The content source is in an undefined state.
 

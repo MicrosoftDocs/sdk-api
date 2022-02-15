@@ -53,7 +53,7 @@ api_name:
 
 The <code>LockMediaSamplePointer</code> method locks the surface that the sample represents.
 
-## -parameters
+
 
 ## -returns
 

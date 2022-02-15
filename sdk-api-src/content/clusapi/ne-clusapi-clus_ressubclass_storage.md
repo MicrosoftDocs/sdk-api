@@ -55,7 +55,7 @@ Identifies a resource subclass that manages a shared bus.
 
 ## -enum-fields
 
-### -field CLUS_RESSUBCLASS_STORAGE_SHARED_BUS
+### -field CLUS_RESSUBCLASS_STORAGE_SHARED_BUS:0x80000000
 
 Identifies a resource subclass that manages a shared bus. The 
       <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a> function with the 
@@ -64,13 +64,13 @@ Identifies a resource subclass that manages a shared bus. The
       <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_resource_class_info">CLUS_RESOURCE_CLASS_INFO</a> structure that contains 
       information for a resource subclass.
 
-### -field CLUS_RESSUBCLASS_STORAGE_DISK
+### -field CLUS_RESSUBCLASS_STORAGE_DISK:0x40000000
 
 Identifies a resource subclass that manages a disk.
 
 <b>Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This value is not supported before Windows Server 2012 R2.
 
-### -field CLUS_RESSUBCLASS_STORAGE_REPLICATION
+### -field CLUS_RESSUBCLASS_STORAGE_REPLICATION:0x10000000
 
 Identifies a resource subclass that manages storage replication.
 

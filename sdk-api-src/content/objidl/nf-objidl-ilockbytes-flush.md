@@ -54,7 +54,7 @@ The
 <b>Flush</b> method ensures that any internal buffers maintained by the 
 <a href="/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> implementation are written out to the underlying physical storage.
 
-## -parameters
+
 
 ## -returns
 

@@ -56,23 +56,23 @@ Defines flags that indicate whether an audio stream contains audio language exte
 
 ## -enum-fields
 
-### -field DVD_AUD_EXT_NotSpecified
+### -field DVD_AUD_EXT_NotSpecified:0
 
 The DVD doesn't specify an audio language extension for this audio stream.
 
-### -field DVD_AUD_EXT_Captions
+### -field DVD_AUD_EXT_Captions:1
 
 The audio stream contains captions.
 
-### -field DVD_AUD_EXT_VisuallyImpaired
+### -field DVD_AUD_EXT_VisuallyImpaired:2
 
 The audio stream contains content for people with low vision.
 
-### -field DVD_AUD_EXT_DirectorComments1
+### -field DVD_AUD_EXT_DirectorComments1:3
 
 The audio stream contains "director comments 1."
 
-### -field DVD_AUD_EXT_DirectorComments2
+### -field DVD_AUD_EXT_DirectorComments2:4
 
 The audio stream contains "director comments 2."
 

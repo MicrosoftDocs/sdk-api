@@ -54,15 +54,15 @@ The NLM_ENUM_NETWORK enumeration  contains a set of flags that specify what type
 
 ## -enum-fields
 
-### -field NLM_ENUM_NETWORK_CONNECTED
+### -field NLM_ENUM_NETWORK_CONNECTED:0x1
 
 Returns connected networks
 
-### -field NLM_ENUM_NETWORK_DISCONNECTED
+### -field NLM_ENUM_NETWORK_DISCONNECTED:0x2
 
 Returns disconnected networks
 
-### -field NLM_ENUM_NETWORK_ALL
+### -field NLM_ENUM_NETWORK_ALL:0x3
 
 Returns connected and disconnected networks
 

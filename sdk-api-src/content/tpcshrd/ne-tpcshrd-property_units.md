@@ -58,55 +58,55 @@ Defines constant values for the unit of measurement of a property.
 
 ## -enum-fields
 
-### -field PROPERTY_UNITS_DEFAULT
+### -field PROPERTY_UNITS_DEFAULT:0
 
 Units are unknown.
 
-### -field PROPERTY_UNITS_INCHES
+### -field PROPERTY_UNITS_INCHES:1
 
 The property value is in inches.
 
-### -field PROPERTY_UNITS_CENTIMETERS
+### -field PROPERTY_UNITS_CENTIMETERS:2
 
  The property value is in centimeters.
 
-### -field PROPERTY_UNITS_DEGREES
+### -field PROPERTY_UNITS_DEGREES:3
 
 The property value is in degrees.
 
-### -field PROPERTY_UNITS_RADIANS
+### -field PROPERTY_UNITS_RADIANS:4
 
 The property value is in radians.
 
-### -field PROPERTY_UNITS_SECONDS
+### -field PROPERTY_UNITS_SECONDS:5
 
 The property value is in seconds.
 
-### -field PROPERTY_UNITS_POUNDS
+### -field PROPERTY_UNITS_POUNDS:6
 
  The property value is in pounds.
 
-### -field PROPERTY_UNITS_GRAMS
+### -field PROPERTY_UNITS_GRAMS:7
 
 The property value is in grams.
 
-### -field PROPERTY_UNITS_SILINEAR
+### -field PROPERTY_UNITS_SILINEAR:8
 
-### -field PROPERTY_UNITS_SIROTATION
+### -field PROPERTY_UNITS_SIROTATION:9
 
-### -field PROPERTY_UNITS_ENGLINEAR
+### -field PROPERTY_UNITS_ENGLINEAR:10
 
-### -field PROPERTY_UNITS_ENGROTATION
+### -field PROPERTY_UNITS_ENGROTATION:11
 
-### -field PROPERTY_UNITS_SLUGS
+### -field PROPERTY_UNITS_SLUGS:12
 
-### -field PROPERTY_UNITS_KELVIN
+### -field PROPERTY_UNITS_KELVIN:13
 
-### -field PROPERTY_UNITS_FAHRENHEIT
+### -field PROPERTY_UNITS_FAHRENHEIT:14
 
-### -field PROPERTY_UNITS_AMPERE
+### -field PROPERTY_UNITS_AMPERE:15
 
-### -field PROPERTY_UNITS_CANDELA
+### -field PROPERTY_UNITS_CANDELA:16
 
 ## -see-also
 

@@ -56,39 +56,39 @@ Indicates the audio format of a DVD.
 
 ## -enum-fields
 
-### -field DVD_AudioFormat_AC3
+### -field DVD_AudioFormat_AC3:0
 
 Audio format is Dolby AC-3.
 
-### -field DVD_AudioFormat_MPEG1
+### -field DVD_AudioFormat_MPEG1:1
 
 Audio format is MPEG-1.
 
-### -field DVD_AudioFormat_MPEG1_DRC
+### -field DVD_AudioFormat_MPEG1_DRC:2
 
 Audio format is MPEG-1 with dynamic range control.
 
-### -field DVD_AudioFormat_MPEG2
+### -field DVD_AudioFormat_MPEG2:3
 
 Audio format is MPEG-2.
 
-### -field DVD_AudioFormat_MPEG2_DRC
+### -field DVD_AudioFormat_MPEG2_DRC:4
 
 Audio format is MPEG-2 with dynamic range control.
 
-### -field DVD_AudioFormat_LPCM
+### -field DVD_AudioFormat_LPCM:5
 
 Audio format is Linear Pulse Code Modulated (LPCM).
 
-### -field DVD_AudioFormat_DTS
+### -field DVD_AudioFormat_DTS:6
 
 Audio format is Digital Theater Systems (DTS).
 
-### -field DVD_AudioFormat_SDDS
+### -field DVD_AudioFormat_SDDS:7
 
 Audio format is Sony Dynamic Digital Sound (SDDS).
 
-### -field DVD_AudioFormat_Other
+### -field DVD_AudioFormat_Other:8
 
 Audio format is unrecognized.
 

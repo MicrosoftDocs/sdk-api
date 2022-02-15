@@ -58,31 +58,31 @@ In the descriptions that follow, upper field refers to the field that contains t
 
 ## -enum-fields
 
-### -field MFVideoInterlace_Unknown
+### -field MFVideoInterlace_Unknown:0
 
 The type of interlacing is not known.
 
-### -field MFVideoInterlace_Progressive
+### -field MFVideoInterlace_Progressive:2
 
 Progressive frames.
 
-### -field MFVideoInterlace_FieldInterleavedUpperFirst
+### -field MFVideoInterlace_FieldInterleavedUpperFirst:3
 
 Interlaced frames. Each frame contains two fields. The field lines are interleaved, with the upper field appearing on the first line.
 
-### -field MFVideoInterlace_FieldInterleavedLowerFirst
+### -field MFVideoInterlace_FieldInterleavedLowerFirst:4
 
 Interlaced frames. Each frame contains two fields. The field lines are interleaved, with the lower field appearing on the first line.
 
-### -field MFVideoInterlace_FieldSingleUpper
+### -field MFVideoInterlace_FieldSingleUpper:5
 
 Interlaced frames. Each frame contains one field, with the upper field appearing first.
 
-### -field MFVideoInterlace_FieldSingleLower
+### -field MFVideoInterlace_FieldSingleLower:6
 
 Interlaced frames. Each frame contains one field, with the lower field appearing first.
 
-### -field MFVideoInterlace_MixedInterlaceOrProgressive
+### -field MFVideoInterlace_MixedInterlaceOrProgressive:7
 
 The stream contains a mix of interlaced and progressive modes.
 
@@ -90,7 +90,7 @@ The stream contains a mix of interlaced and progressive modes.
 
 Reserved.
 
-### -field MFVideoInterlace_ForceDWORD
+### -field MFVideoInterlace_ForceDWORD:0x7fffffff
 
 Reserved. This member forces the enumeration type to compile as a <b>DWORD</b> value.
 

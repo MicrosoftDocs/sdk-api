@@ -1,7 +1,7 @@
 ---
 UID: NN:propsys.IPropertyDescriptionRelatedPropertyInfo
 title: IPropertyDescriptionRelatedPropertyInfo (propsys.h)
-description: Provides a method that retrives an IPropertyDescription interface.
+description: Provides a method that retrieves an IPropertyDescription interface.
 helpviewer_keywords: ["IPropertyDescriptionRelatedPropertyInfo","IPropertyDescriptionRelatedPropertyInfo interface [Windows Properties]","IPropertyDescriptionRelatedPropertyInfo interface [Windows Properties]","described","properties.IPropertyDescriptionRelatedPropertyInfo","propsys/IPropertyDescriptionRelatedPropertyInfo","shell.IPropertyDescriptionRelatedPropertyInfo","shell_IPropertyDescriptionRelatedPropertyInfo"]
 old-location: properties\IPropertyDescriptionRelatedPropertyInfo.htm
 tech.root: properties
@@ -50,14 +50,11 @@ api_name:
 
 ## -description
 
-Provides a method that retrives an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a> interface.
+Provides a method that retrieves an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyDescriptionRelatedPropertyInfo</b> interface inherits from <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>. <b>IPropertyDescriptionRelatedPropertyInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPropertyDescriptionRelatedPropertyInfo</b> interface inherits from <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>. <b>IPropertyDescriptionRelatedPropertyInfo</b> also has these types of members:
 
 ## -remarks
 

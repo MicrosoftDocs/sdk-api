@@ -57,10 +57,7 @@ Represents a font file stream, parts of which may be non-local.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteRemoteFontFileStream</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfilestream">IDWriteFontFileStream</a>. <b>IDWriteRemoteFontFileStream</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteRemoteFontFileStream</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfilestream">IDWriteFontFileStream</a>. <b>IDWriteRemoteFontFileStream</b> also has these types of members:
 
 ## -remarks
 

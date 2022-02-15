@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>RtlLocalTimeToSystemTime</b> is available for use in Windows 2000 and Windows XP. It may be unavailable or modifed in subsequent releases. Applications should use the <a href="/windows/desktop/api/fileapi/nf-fileapi-localfiletimetofiletime">LocalFileTimeToFileTime</a> function.]
+<p class="CCE_Message">[<b>RtlLocalTimeToSystemTime</b> is available for use in Windows 2000 and Windows XP. It may be unavailable or modified in subsequent releases. Applications should use the <a href="/windows/desktop/api/fileapi/nf-fileapi-localfiletimetofiletime">LocalFileTimeToFileTime</a> function.]
 
 Converts the specified local time to system time.
 

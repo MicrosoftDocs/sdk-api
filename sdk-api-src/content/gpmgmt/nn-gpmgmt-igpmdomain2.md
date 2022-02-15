@@ -63,10 +63,7 @@ These methods allow you to perform the following tasks when you are using the Gr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMDomain2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">IGPMDomain</a>. <b>IGPMDomain2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IGPMDomain2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">IGPMDomain</a>. <b>IGPMDomain2</b> also has these types of members:
 
 ## -see-also
 

@@ -76,7 +76,11 @@ The
 
 Avoid making the following call:
 
-<pre class="syntax" xml:space="preserve"><code>SwitchToFiber( GetCurrentFiber() );</code></pre>
+
+``` syntax
+SwitchToFiber( GetCurrentFiber() );
+```
+
 This call can cause unpredictable problems.
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0400 or later. For more information, see 

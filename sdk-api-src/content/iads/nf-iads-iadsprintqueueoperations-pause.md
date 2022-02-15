@@ -52,7 +52,7 @@ api_name:
 
 The <b>IADsPrintQueueOperations::Pause</b> method suspends the processing of print jobs within a print queue service.
 
-## -parameters
+
 
 ## -returns
 

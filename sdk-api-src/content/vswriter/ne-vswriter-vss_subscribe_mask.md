@@ -56,7 +56,7 @@ The <b>VSS_SUBSCRIBE_MASK</b> enumeration is used by a
 
 ## -enum-fields
 
-### -field VSS_SM_POST_SNAPSHOT_FLAG
+### -field VSS_SM_POST_SNAPSHOT_FLAG:0x00000001
 
 This enumeration value is reserved for future use. 
       
@@ -65,7 +65,7 @@ Specifies that the writer expects to be notified after the shadow copy it is par
        It will then call 
        <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a>.
 
-### -field VSS_SM_BACKUP_EVENTS_FLAG
+### -field VSS_SM_BACKUP_EVENTS_FLAG:0x00000002
 
 Currently, <b>VSS_SM_BACKUP_EVENTS_FLAG</b> can be used as an argument only when 
       combined through a bitwise OR with <b>VSS_SM_RESTORE_EVENTS_FLAG</b>. 
@@ -88,7 +88,7 @@ Specifies that the writer can expect to receive the following events:
         <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a>.</li>
 </ul>
 
-### -field VSS_SM_RESTORE_EVENTS_FLAG
+### -field VSS_SM_RESTORE_EVENTS_FLAG:0x00000004
 
 Currently, <b>VSS_SM_RESTORE_EVENTS_FLAG</b> can be used as an argument only when 
       combined through a bitwise OR with <b>VSS_SM_BACKUP_EVENTS_FLAG</b>. 
@@ -103,11 +103,11 @@ Specifies that the writer can expect to receive the following events:
         <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostrestore">CVssWriter::OnPostRestore</a>.</li>
 </ul>
 
-### -field VSS_SM_IO_THROTTLING_FLAG
+### -field VSS_SM_IO_THROTTLING_FLAG:0x00000008
 
 This enumeration value is reserved for future use.
 
-### -field VSS_SM_ALL_FLAGS
+### -field VSS_SM_ALL_FLAGS:0xffffffff
 
 This enumeration value is reserved for future use. 
       

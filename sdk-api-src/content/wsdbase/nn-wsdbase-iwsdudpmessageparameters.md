@@ -58,10 +58,7 @@ You can also call <a href="/windows/desktop/api/wsdbase/nf-wsdbase-wsdcreateudpm
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDUdpMessageParameters</b> interface inherits from <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>. <b>IWSDUdpMessageParameters</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWSDUdpMessageParameters</b> interface inherits from <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>. <b>IWSDUdpMessageParameters</b> also has these types of members:
 
 ## -see-also
 

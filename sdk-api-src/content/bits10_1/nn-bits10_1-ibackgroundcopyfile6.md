@@ -54,10 +54,7 @@ Use this interface to request file ranges for On Demand download jobs.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyFile6</b> interface inherits from <a href="/windows/desktop/api/bits5_0/nn-bits5_0-ibackgroundcopyfile5">IBackgroundCopyFile5</a>. <b>IBackgroundCopyFile6</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IBackgroundCopyFile6</b> interface inherits from <a href="/windows/desktop/api/bits5_0/nn-bits5_0-ibackgroundcopyfile5">IBackgroundCopyFile5</a>. <b>IBackgroundCopyFile6</b> also has these types of members:
 
 ## -remarks
 

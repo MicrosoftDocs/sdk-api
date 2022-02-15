@@ -74,7 +74,7 @@ The currently defined OID group IDs are:
 <li>CRYPT_ENHKEY_USAGE_OID_GROUP_ID</li>
 <li>CRYPT_POLICY_OID_GROUP_ID</li>
 <li>CRYPT_TEMPLATE_OID_GROUP_ID</li>
-<li>CRYPT_KDF_OID_GROUP_ID<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>The CRYPT_KDF_OID_GROUP_ID value is not supported.
+<li>CRYPT_KDF_OID_GROUP_ID <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>The CRYPT_KDF_OID_GROUP_ID value is not supported.
 
 </li>
 <li>CRYPT_LAST_OID_GROUP_ID</li>

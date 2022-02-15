@@ -60,43 +60,43 @@ A function instance will only match a property constraint when the property key 
 
 ## -enum-fields
 
-### -field QC_EQUALS
+### -field QC_EQUALS:0
 
 The constraint's PKEY and the function instance's  PKEY must be equal.
 
-### -field QC_NOTEQUAL
+### -field QC_NOTEQUAL:1
 
 The constraint's PKEY and the function instance's  PKEY  must not be equal.
 
-### -field QC_LESSTHAN
+### -field QC_LESSTHAN:2
 
 The constraint's PKEY must be less than the function instance's PKEY. This value can be used only with numbers.
 
-### -field QC_LESSTHANOREQUAL
+### -field QC_LESSTHANOREQUAL:3
 
 The constraint's PKEY must be less than or equal to the function instance's PKEY. This value can be used only with numbers.
 
-### -field QC_GREATERTHAN
+### -field QC_GREATERTHAN:4
 
 The constraint's PKEY must be greater than the function instance's PKEY. This value can be used only with numbers.
 
-### -field QC_GREATERTHANOREQUAL
+### -field QC_GREATERTHANOREQUAL:5
 
 The constraint's PKEY must be greater than or equal to the function instance's PKEY. This value can be used only with numbers.
 
-### -field QC_STARTSWITH
+### -field QC_STARTSWITH:6
 
 The constraint's PKEY must be the start of the function instance's PKEY. This value can be used with strings only.
 
-### -field QC_EXISTS
+### -field QC_EXISTS:7
 
 The property must exist.
 
-### -field QC_DOESNOTEXIST
+### -field QC_DOESNOTEXIST:8
 
 The property must not exist.
 
-### -field QC_CONTAINS
+### -field QC_CONTAINS:9     
 
 The constraint's PKEY value must be contained within the function instance's PKEY value.  This filter is only supported for PROPVARIANTs of type VT_LPWSTR or VT_VECTOR|VT_LPWSTR.
 

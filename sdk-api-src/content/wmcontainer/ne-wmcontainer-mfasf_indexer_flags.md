@@ -56,15 +56,15 @@ Defines the ASF indexer options.
 
 ## -enum-fields
 
-### -field MFASF_INDEXER_WRITE_NEW_INDEX
+### -field MFASF_INDEXER_WRITE_NEW_INDEX:0x1
 
 The indexer creates a new index object.
 
-### -field MFASF_INDEXER_READ_FOR_REVERSEPLAYBACK
+### -field MFASF_INDEXER_READ_FOR_REVERSEPLAYBACK:0x2
 
 The indexer returns values for reverse playback.
 
-### -field MFASF_INDEXER_WRITE_FOR_LIVEREAD
+### -field MFASF_INDEXER_WRITE_FOR_LIVEREAD:0x4
 
 The indexer creates an index object for a live ASF stream.
 

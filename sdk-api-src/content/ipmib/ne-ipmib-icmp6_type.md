@@ -57,63 +57,63 @@ The <b>ICMP6_TYPE</b> enumeration defines the set of Internet Control Message Pr
 
 ## -enum-fields
 
-### -field ICMP6_DST_UNREACH
+### -field ICMP6_DST_UNREACH:1
 
 The specified destination for the message is unreachable.
 
-### -field ICMP6_PACKET_TOO_BIG
+### -field ICMP6_PACKET_TOO_BIG:2
 
 The ICMPv6 packet is too large.
 
-### -field ICMP6_TIME_EXCEEDED
+### -field ICMP6_TIME_EXCEEDED:3
 
 The ICMPv6 message has timed out.
 
-### -field ICMP6_PARAM_PROB
+### -field ICMP6_PARAM_PROB:4
 
 The IPv6 header is malformed or contains an incorrect value.
 
-### -field ICMP6_ECHO_REQUEST
+### -field ICMP6_ECHO_REQUEST:128
 
 ICMPv6 echo request message.
 
-### -field ICMP6_ECHO_REPLY
+### -field ICMP6_ECHO_REPLY:129
 
 ICMPv6 echo reply message.
 
-### -field ICMP6_MEMBERSHIP_QUERY
+### -field ICMP6_MEMBERSHIP_QUERY:130
 
 ICMPv6 group membership query message.
 
-### -field ICMP6_MEMBERSHIP_REPORT
+### -field ICMP6_MEMBERSHIP_REPORT:131
 
 ICMPv6 group membership report message.
 
-### -field ICMP6_MEMBERSHIP_REDUCTION
+### -field ICMP6_MEMBERSHIP_REDUCTION:132
 
 ICMPv6 group membership reduction message.
 
-### -field ND_ROUTER_SOLICIT
+### -field ND_ROUTER_SOLICIT:133
 
 ICMPv6 router solicitation message.
 
-### -field ND_ROUTER_ADVERT
+### -field ND_ROUTER_ADVERT:134
 
 ICMPv6 router advertisement message.
 
-### -field ND_NEIGHBOR_SOLICIT
+### -field ND_NEIGHBOR_SOLICIT:135
 
 ICMPv6 network neighbor solicitation message.
 
-### -field ND_NEIGHBOR_ADVERT
+### -field ND_NEIGHBOR_ADVERT:136
 
 ICMPv6 network neighbor advertisement message.
 
-### -field ND_REDIRECT
+### -field ND_REDIRECT:137
 
 ICMPv6 packet redirection message.
 
-### -field ICMP6_V2_MEMBERSHIP_REPORT
+### -field ICMP6_V2_MEMBERSHIP_REPORT:143
 
 ## -remarks
 

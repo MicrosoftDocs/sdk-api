@@ -56,7 +56,7 @@ Indicates information about the explicit rating of the media file.
 
 ## -enum-fields
 
-### -field WPC_MEDIA_EXPLICIT_FALSE
+### -field WPC_MEDIA_EXPLICIT_FALSE:0
 
 The media file is not rated as explicit.
 

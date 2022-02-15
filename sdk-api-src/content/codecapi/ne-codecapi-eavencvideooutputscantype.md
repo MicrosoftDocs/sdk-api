@@ -54,19 +54,19 @@ Specifies how the encoder interlaces the output video. This enumeration is used 
 
 ## -enum-fields
 
-### -field eAVEncVideoOutputScan_Progressive
+### -field eAVEncVideoOutputScan_Progressive:0
 
 Output frames are progressive.
 
-### -field eAVEncVideoOutputScan_Interlaced
+### -field eAVEncVideoOutputScan_Interlaced:1
 
 Output frames are interlaced.
 
-### -field eAVEncVideoOutputScan_SameAsInput
+### -field eAVEncVideoOutputScan_SameAsInput:2
 
 The interlacing on the output frames matches the input frames.
 
-### -field eAVEncVideoOutputScan_Automatic
+### -field eAVEncVideoOutputScan_Automatic:3
 
 Use the media type on the encoder's input pin to determine whether the frames are progressive or interlaced.
 

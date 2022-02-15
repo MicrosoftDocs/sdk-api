@@ -55,7 +55,7 @@ api_name:
 
 The <b>Initialize</b> method prepares the network source creator for operations. You must call this method before calling any of the other methods in the <b>INSNetSourceCreator</b> interface.
 
-## -parameters
+
 
 ## -returns
 

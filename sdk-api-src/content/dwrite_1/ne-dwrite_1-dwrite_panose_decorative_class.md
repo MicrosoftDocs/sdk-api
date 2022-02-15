@@ -54,55 +54,55 @@ The <b>DWRITE_PANOSE_DECORATIVE_CLASS</b> enumeration contains values that speci
 
 ## -enum-fields
 
-### -field DWRITE_PANOSE_DECORATIVE_CLASS_ANY
+### -field DWRITE_PANOSE_DECORATIVE_CLASS_ANY:0
 
 Any class of decorative typeface.
 
-### -field DWRITE_PANOSE_DECORATIVE_CLASS_NO_FIT
+### -field DWRITE_PANOSE_DECORATIVE_CLASS_NO_FIT:1
 
 No fit for decorative typeface.
 
-### -field DWRITE_PANOSE_DECORATIVE_CLASS_DERIVATIVE
+### -field DWRITE_PANOSE_DECORATIVE_CLASS_DERIVATIVE:2
 
 Derivative decorative typeface.
 
-### -field DWRITE_PANOSE_DECORATIVE_CLASS_NONSTANDARD_TOPOLOGY
+### -field DWRITE_PANOSE_DECORATIVE_CLASS_NONSTANDARD_TOPOLOGY:3
 
 Nonstandard topology decorative typeface.
 
-### -field DWRITE_PANOSE_DECORATIVE_CLASS_NONSTANDARD_ELEMENTS
+### -field DWRITE_PANOSE_DECORATIVE_CLASS_NONSTANDARD_ELEMENTS:4
 
 Nonstandard elements decorative typeface.
 
-### -field DWRITE_PANOSE_DECORATIVE_CLASS_NONSTANDARD_ASPECT
+### -field DWRITE_PANOSE_DECORATIVE_CLASS_NONSTANDARD_ASPECT:5
 
 Nonstandard aspect decorative typeface.
 
-### -field DWRITE_PANOSE_DECORATIVE_CLASS_INITIALS
+### -field DWRITE_PANOSE_DECORATIVE_CLASS_INITIALS:6
 
 Initials decorative typeface.
 
-### -field DWRITE_PANOSE_DECORATIVE_CLASS_CARTOON
+### -field DWRITE_PANOSE_DECORATIVE_CLASS_CARTOON:7
 
 Cartoon decorative typeface.
 
-### -field DWRITE_PANOSE_DECORATIVE_CLASS_PICTURE_STEMS
+### -field DWRITE_PANOSE_DECORATIVE_CLASS_PICTURE_STEMS:8
 
 Picture stems decorative typeface.
 
-### -field DWRITE_PANOSE_DECORATIVE_CLASS_ORNAMENTED
+### -field DWRITE_PANOSE_DECORATIVE_CLASS_ORNAMENTED:9
 
 Ornamented decorative typeface.
 
-### -field DWRITE_PANOSE_DECORATIVE_CLASS_TEXT_AND_BACKGROUND
+### -field DWRITE_PANOSE_DECORATIVE_CLASS_TEXT_AND_BACKGROUND:10
 
 Text and background decorative typeface.
 
-### -field DWRITE_PANOSE_DECORATIVE_CLASS_COLLAGE
+### -field DWRITE_PANOSE_DECORATIVE_CLASS_COLLAGE:11
 
 Collage decorative typeface.
 
-### -field DWRITE_PANOSE_DECORATIVE_CLASS_MONTAGE
+### -field DWRITE_PANOSE_DECORATIVE_CLASS_MONTAGE:12
 
 Montage decorative typeface.
 

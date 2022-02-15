@@ -53,7 +53,7 @@ api_name:
 
 Get the size of the data (in bytes) that is output when calling <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-getdata">ID3D11DeviceContext::GetData</a>.
 
-## -parameters
+
 
 ## -returns
 

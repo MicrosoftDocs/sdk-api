@@ -55,7 +55,7 @@ req.apiset: ext-ms-win-shell-comdlg32-l1-1-0 (introduced in Windows 10, version 
 
 Returns a common dialog box error code. This code indicates the most recent error to occur during the execution of one of the common dialog box functions.
 
-## -parameters
+
 
 ## -returns
 
@@ -399,7 +399,7 @@ The following error codes can be returned for the <a href="/previous-versions/wi
 <td width="40%">
 <dl>
 <dt><b>CFERR_MAXLESSTHANMIN</b></dt>
-<dt>CFERR_MAXLESSTHANMIN</dt>
+<dt>0x2002</dt>
 </dl>
 </td>
 <td width="60%">

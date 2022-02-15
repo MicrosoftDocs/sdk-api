@@ -10,8 +10,8 @@ req.header: wlanapi.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -44,7 +44,7 @@ The <b>WLAN_AUTOCONF_OPCODE</b> enumerated type specifies an  automatic configur
 
 ## -enum-fields
 
-### -field wlan_autoconf_opcode_start
+### -field wlan_autoconf_opcode_start:0
 
 Not used.
 

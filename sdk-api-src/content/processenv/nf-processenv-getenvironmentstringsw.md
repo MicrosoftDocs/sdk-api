@@ -59,7 +59,7 @@ api_name:
 
 Retrieves the environment variables for the current process.
 
-## -parameters
+
 
 ## -returns
 

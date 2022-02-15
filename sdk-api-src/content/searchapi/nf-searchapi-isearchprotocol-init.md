@@ -64,7 +64,7 @@ Pointer to a <a href="/windows/desktop/api/searchapi/ns-searchapi-timeout_info">
 
 Type: <b><a href="/windows/desktop/api/searchapi/nn-searchapi-iprotocolhandlersite">IProtocolHandlerSite</a>*</b>
 
-Pointer to an <a href="/windows/desktop/api/searchapi/nn-searchapi-iprotocolhandlersite">IProtocolHandlerSite</a> interface that enables protocol handlers to access <a href="/windows-hardware/test/hlk/api/ifilter-interface">IFiltear</a>within the filter host.
+Pointer to an <a href="/windows/desktop/api/searchapi/nn-searchapi-iprotocolhandlersite">IProtocolHandlerSite</a> interface that enables protocol handlers to access <a href="/windows-hardware/test/hlk/api/ifilter-interface">IFiltear</a> within the filter host.
 
 ### -param pProxyInfo [in]
 
@@ -76,7 +76,7 @@ Pointer to a <a href="/windows/desktop/api/searchapi/ns-searchapi-proxy_info">PR
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

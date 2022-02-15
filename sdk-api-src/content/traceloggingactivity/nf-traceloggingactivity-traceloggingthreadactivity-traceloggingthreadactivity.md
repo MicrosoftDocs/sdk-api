@@ -54,7 +54,7 @@ Initializes a new instance of the  <a href="/windows/desktop/api/traceloggingact
 
 <b>TraceLoggingThreadActivity</b> is a class template.
 
-## -parameters
+
 
 ## -remarks
 

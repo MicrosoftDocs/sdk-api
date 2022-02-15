@@ -53,16 +53,15 @@ api_name:
 
 Provides extended information about a partition on a  <a href="/previous-versions/windows/desktop/mscs/physical-disk">Physical Disk</a> resource.
 <ul>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul><h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ClusPartitionEx</b> object has these properties.
+</ul><h3><a id="properties"></a>Properties</h3>The <b>ClusPartitionEx</b> object has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>
 <th align="left" width="10%">Access type</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
+<tr>
+<td align="left" width="27%">
 
 <a href="/previous-versions/windows/desktop/mscs/cluspartitionex-devicenumber">DeviceNumber</a>
 
@@ -77,8 +76,8 @@ Gets the device number of the partition.
 
 </td>
 </tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
+<tr>
+<td align="left" width="27%">
 
 <a href="/previous-versions/windows/desktop/mscs/cluspartitionex-freespace">FreeSpace</a>
 
@@ -93,8 +92,8 @@ Gets the total disk space available to the partition in megabytes.
 
 </td>
 </tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
+<tr>
+<td align="left" width="27%">
 
 <a href="/previous-versions/windows/desktop/mscs/cluspartitionex-partitionnumber">PartitionNumber</a>
 
@@ -109,8 +108,8 @@ Gets the partition number of the partition.
 
 </td>
 </tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
+<tr>
+<td align="left" width="27%">
 
 <a href="/previous-versions/windows/desktop/mscs/cluspartitionex-totalsize">TotalSize</a>
 
@@ -125,8 +124,8 @@ Gets the total size of the partition in megabytes.
 
 </td>
 </tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
+<tr>
+<td align="left" width="27%">
 
 <a href="/previous-versions/windows/desktop/mscs/cluspartitionex-volumeguid">VolumeGuid</a>
 

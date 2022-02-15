@@ -58,11 +58,11 @@ Controls how much error information is included in a fault.
 
 ## -enum-fields
 
-### -field WS_MINIMAL_FAULT_DISCLOSURE
+### -field WS_MINIMAL_FAULT_DISCLOSURE:0
 
 Use a generic fault string for all errors.
 
-### -field WS_FULL_FAULT_DISCLOSURE
+### -field WS_FULL_FAULT_DISCLOSURE:1
 
 Use the error string as the fault string.
 

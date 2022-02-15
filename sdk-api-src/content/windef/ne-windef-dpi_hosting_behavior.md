@@ -54,15 +54,15 @@ Identifies the DPI hosting behavior for a window. This behavior allows windows c
 
 ## -enum-fields
 
-### -field DPI_HOSTING_BEHAVIOR_INVALID
+### -field DPI_HOSTING_BEHAVIOR_INVALID:-1
 
 Invalid DPI hosting behavior. This usually occurs if the previous <a href="/windows/desktop/api/winuser/nf-winuser-setthreaddpihostingbehavior">SetThreadDpiHostingBehavior</a> call used an invalid parameter.
 
-### -field DPI_HOSTING_BEHAVIOR_DEFAULT
+### -field DPI_HOSTING_BEHAVIOR_DEFAULT:0
 
 Default DPI hosting behavior. The associated window behaves as normal, and cannot create or re-parent child windows with a different <b>DPI_AWARENESS_CONTEXT</b>.
 
-### -field DPI_HOSTING_BEHAVIOR_MIXED
+### -field DPI_HOSTING_BEHAVIOR_MIXED:1
 
 Mixed DPI hosting behavior. This enables the creation and re-parenting of child windows with different <b>DPI_AWARENESS_CONTEXT</b>. These child windows will be independently scaled by the OS.
 
@@ -70,7 +70,7 @@ Mixed DPI hosting behavior. This enables the creation and re-parenting of child 
 
 <b>DPI_HOSTING_BEHAVIOR</b> enables a mixed content hosting behavior, which allows parent windows created in the thread to host child windows with a different <a href="/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a> value. This property only effects new windows created within this thread while the mixed hosting behavior is active. A parent window with this hosting behavior is able to host child windows with different <b>DPI_AWARENESS_CONTEXT</b> values, regardless of whether the child windows have mixed hosting behavior enabled.
 
-This hosting behavior does not allow for windows with per-monitor <b>DPI_AWARENESS_CONTEXT</b> values to be hosted until windows with <b>DPI_AWARENESS_CONTEXT</b> values of system or unaware.
+This hosting behavior does not allow for windows with per-monitor <b>DPI_AWARENESS_CONTEXT</b> values to be hosted by windows with <b>DPI_AWARENESS_CONTEXT</b> values of system or unaware.
 
 To avoid unexpected outcomes, a thread's <b>DPI_HOSTING_BEHAVIOR</b> should be changed to support mixed hosting behaviors only when creating a new window which needs to support those behaviors. Once that window is created, the hosting behavior should be switched back to its default value.
 

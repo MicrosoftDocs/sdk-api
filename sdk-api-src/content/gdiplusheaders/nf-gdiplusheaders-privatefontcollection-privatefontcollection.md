@@ -53,4 +53,4 @@ api_name:
 
 Creates an empty <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-privatefontcollection">PrivateFontCollection</a> object.
 
-## -parameters
+

@@ -55,35 +55,35 @@ The
 
 ## -enum-fields
 
-### -field LM_DUMMY
+### -field LM_DUMMY:0x1
 
 The lamp identifier has no corresponding lamp.
 
-### -field LM_OFF
+### -field LM_OFF:0x2
 
 The lamp is off.
 
-### -field LM_STEADY
+### -field LM_STEADY:0x4
 
 The lamp is on steadily.
 
-### -field LM_WINK
+### -field LM_WINK:0x8
 
 The lamp is winking, which means on and off at a normal rate.
 
-### -field LM_FLASH
+### -field LM_FLASH:0x10
 
 The lamp is flashing, which means a slow on and off.
 
-### -field LM_FLUTTER
+### -field LM_FLUTTER:0x20
 
 The lamp is fluttering, which means a fast on and off.
 
-### -field LM_BROKENFLUTTER
+### -field LM_BROKENFLUTTER:0x40
 
 The lamp is flashing, which means superposition of a flash and flutter.
 
-### -field LM_UNKNOWN
+### -field LM_UNKNOWN:0x80
 
 The lamp mode is not known.
 

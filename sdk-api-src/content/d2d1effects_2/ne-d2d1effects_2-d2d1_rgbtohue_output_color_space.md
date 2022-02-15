@@ -54,15 +54,15 @@ Values for the <a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1
 
 ## -enum-fields
 
-### -field D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE_HUE_SATURATION_VALUE
+### -field D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE_HUE_SATURATION_VALUE:0
 
 The effect converts from RGB to Hue Saturation Value (HSV).
 
-### -field D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE_HUE_SATURATION_LIGHTNESS
+### -field D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE_HUE_SATURATION_LIGHTNESS:1
 
 The effect converts from RGB to Hue Saturation Lightness (HSL).
 
-### -field D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE_FORCE_DWORD
+### -field D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE_FORCE_DWORD:0xffffffff
 
 ## -see-also
 

@@ -56,19 +56,19 @@ The <b>WINHTTP_WEB_SOCKET_OPERATION</b> enumeration includes the WebSocket opera
 
 ## -enum-fields
 
-### -field WINHTTP_WEB_SOCKET_SEND_OPERATION
+### -field WINHTTP_WEB_SOCKET_SEND_OPERATION:0
 
 A <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketsend">WinHttpWebSocketSend</a> operation.
 
-### -field WINHTTP_WEB_SOCKET_RECEIVE_OPERATION
+### -field WINHTTP_WEB_SOCKET_RECEIVE_OPERATION:1
 
 A <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketreceive">WinHttpWebSocketReceive</a> operation.
 
-### -field WINHTTP_WEB_SOCKET_CLOSE_OPERATION
+### -field WINHTTP_WEB_SOCKET_CLOSE_OPERATION:2
 
 A <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketclose">WinHttpWebSocketClose</a> operation.
 
-### -field WINHTTP_WEB_SOCKET_SHUTDOWN_OPERATION
+### -field WINHTTP_WEB_SOCKET_SHUTDOWN_OPERATION:3
 
 A <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketshutdown">WinHttpWebSocketShutdown</a> operation.
 

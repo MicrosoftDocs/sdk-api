@@ -55,7 +55,7 @@ api_name:
 
 Returns the initialization status of VDS.
 
-## -parameters
+
 
 ## -returns
 

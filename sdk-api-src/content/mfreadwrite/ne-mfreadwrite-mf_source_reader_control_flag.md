@@ -54,7 +54,7 @@ Contains flags for the <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-
 
 ## -enum-fields
 
-### -field MF_SOURCE_READER_CONTROLF_DRAIN
+### -field MF_SOURCE_READER_CONTROLF_DRAIN:0x1
 
 Retrieve any pending samples, but do not request any more samples from the media source. To get all of the pending samples, call <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">ReadSample</a> with this flag until the method returns a <b>NULL</b> media sample pointer.
 

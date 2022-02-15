@@ -60,10 +60,7 @@ Data buffers cannot be submitted directly to mastering voices, but data submitte
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXAudio2MasteringVoice</b> interface inherits from <a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a>. <b>IXAudio2MasteringVoice</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IXAudio2MasteringVoice</b> interface inherits from <a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a>. <b>IXAudio2MasteringVoice</b> also has these types of members:
 
 ## -remarks
 

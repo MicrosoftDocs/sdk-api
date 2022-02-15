@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsReadEndElement
 title: WsReadEndElement function (webservices.h)
-description: This function ensures that the current Reader node is an End elementand advances the reader to the next node.
+description: This function ensures that the current Reader node is an End element and advances the reader to the next node.
 helpviewer_keywords: ["WsReadEndElement","WsReadEndElement function [Web Services for Windows]","webservices/WsReadEndElement","wsw.wsreadendelement"]
 old-location: wsw\wsreadendelement.htm
 tech.root: wsw
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This function ensures that the current Reader <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_node">node</a> is an <b>End element</b>and advances the reader to the next <b>node</b>.
+This function ensures that the current Reader <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_node">node</a> is an <b>End element</b> and advances the reader to the next <b>node</b>.
       
 If the Reader is not positioned on an <b>End element</b> when the function is called it will skip whitespace attempting to find one. If after skipping whitespace it is not positioned on an <b>End element</b> it returns a <b>WS_E_INVALID_FORMAT</b> exception.
 

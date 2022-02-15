@@ -54,13 +54,13 @@ The <b>NETISO_FLAG</b> enumerated type specifies whether binaries should be retu
 
 ## -enum-fields
 
-### -field NETISO_FLAG_FORCE_COMPUTE_BINARIES
+### -field NETISO_FLAG_FORCE_COMPUTE_BINARIES:0x1
 
 Specifies that all binaries will be computed before the app container is returned.
 
 This flag should be set if the caller requires up-to-date and complete information on app container binaries. If this flag is not set, returned data may be stale or incomplete.
 
-### -field NETISO_FLAG_MAX
+### -field NETISO_FLAG_MAX:0x2 
 
 Maximum value for testing purposes.
 

@@ -56,39 +56,39 @@ Specifies the mode of a TV audio control.
 
 ## -enum-fields
 
-### -field AMTVAUDIO_MODE_MONO
+### -field AMTVAUDIO_MODE_MONO:0x1
 
 Mono.
 
-### -field AMTVAUDIO_MODE_STEREO
+### -field AMTVAUDIO_MODE_STEREO:0x2
 
 Stereo.
 
-### -field AMTVAUDIO_MODE_LANG_A
+### -field AMTVAUDIO_MODE_LANG_A:0x10
 
 Language A: Main audio channel.
 
-### -field AMTVAUDIO_MODE_LANG_B
+### -field AMTVAUDIO_MODE_LANG_B:0x20
 
 Languag B: Secondary audio program (SAP).
 
-### -field AMTVAUDIO_MODE_LANG_C
+### -field AMTVAUDIO_MODE_LANG_C:0x40
 
 Language C: Either a third language, or the main audio program plus the SAP (for example, English from one speaker and Japanese from the other speaker).
 
-### -field AMTVAUDIO_PRESET_STEREO
+### -field AMTVAUDIO_PRESET_STEREO:0x200
 
 Stereo preset.
 
-### -field AMTVAUDIO_PRESET_LANG_A
+### -field AMTVAUDIO_PRESET_LANG_A:0x1000
 
 Languag A preset.
 
-### -field AMTVAUDIO_PRESET_LANG_B
+### -field AMTVAUDIO_PRESET_LANG_B:0x2000
 
 Language B preset.
 
-### -field AMTVAUDIO_PRESET_LANG_C
+### -field AMTVAUDIO_PRESET_LANG_C:0x4000
 
 Language C preset.
 
@@ -102,7 +102,7 @@ The <b>TVAudioMode</b> flags fall into two groups.
 </ul>
 <div class="alert"><b>Note</b>  The preset flags require Windows Vista or later.</div>
 <div> </div>
-The mode flags represent the tuner's current audio mode. The preset flags represent settings that can take effect in the future, if the audio signal changes. Often, the secondary audio program is not available, or is available only in mono. An application can use the preset flags to store the user's preferred language while providing a reasonble experience when that language is not available.
+The mode flags represent the tuner's current audio mode. The preset flags represent settings that can take effect in the future, if the audio signal changes. Often, the secondary audio program is not available, or is available only in mono. An application can use the preset flags to store the user's preferred language while providing a reasonable experience when that language is not available.
 
 The following remarks describe how the <a href="/windows/desktop/api/strmif/nn-strmif-iamtvaudio">IAMTVAudio</a> methods interpret these flags.
 
@@ -145,12 +145,16 @@ Example: The caller sets <b>AMTVAUDIO_PRESET_STEREO</b> | <b>AMTVAUDIO_PRESET_LA
 The following constants are defined in Strmif.h:
           
 
-<pre class="syntax" xml:space="preserve"><code>#define TVAUDIO_MODE_MASK 0x000000ff
-#define TVAUDIO_PRESET_MASK 0x0000ff00</code></pre>
+
+``` syntax
+#define TVAUDIO_MODE_MASK 0x000000ff
+#define TVAUDIO_PRESET_MASK 0x0000ff00
+```
+
 You can use <b>TVAUDIO_MODE_MASK</b> to select mode flags and <b>TVAUDIO_PRESET_MASK</b> to select preset flags:
           
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

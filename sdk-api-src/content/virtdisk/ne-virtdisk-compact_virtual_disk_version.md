@@ -57,9 +57,9 @@ Contains the version of the virtual hard disk (VHD) <a href="/windows/win32/api/
 
 ## -enum-fields
 
-### -field COMPACT_VIRTUAL_DISK_VERSION_UNSPECIFIED
+### -field COMPACT_VIRTUAL_DISK_VERSION_UNSPECIFIED:0
 
-### -field COMPACT_VIRTUAL_DISK_VERSION_1
+### -field COMPACT_VIRTUAL_DISK_VERSION_1:1
 
 ## -see-also
 

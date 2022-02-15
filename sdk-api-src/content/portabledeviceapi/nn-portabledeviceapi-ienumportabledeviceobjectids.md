@@ -55,10 +55,7 @@ The <b>IEnumPortableDeviceObjectIDs</b> interface enumerates the objects on a po
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumPortableDeviceObjectIDs</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumPortableDeviceObjectIDs</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IEnumPortableDeviceObjectIDs</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumPortableDeviceObjectIDs</b> also has these types of members:
 
 ## -see-also
 

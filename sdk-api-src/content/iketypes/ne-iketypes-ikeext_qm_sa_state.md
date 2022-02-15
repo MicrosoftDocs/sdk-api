@@ -56,7 +56,7 @@ The <b>IKEEXT_QM_SA_STATE</b> enumerated type defines the states for the Quick M
 
 ## -enum-fields
 
-### -field IKEEXT_QM_SA_STATE_NONE
+### -field IKEEXT_QM_SA_STATE_NONE:0
 
 Initial state.  No QM packets have been sent to the peer.
 

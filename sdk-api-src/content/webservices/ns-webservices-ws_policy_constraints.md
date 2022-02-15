@@ -86,7 +86,7 @@ If a channel property constraint is not specified for a given property,
 
 ### -field channelPropertyConstraintCount
 
-The number of elements specified in the <b>channelPropertyConstraints</b>array.  
+The number of elements specified in the <b>channelPropertyConstraints</b> array.  
                 
 
 If this value is 0, then the channelPropertyConstraints array may be <b>NULL</b>.

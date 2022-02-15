@@ -53,7 +53,7 @@ api_name:
 
 Gets the extend mode in the x direction.
 
-## -parameters
+
 
 ## -returns
 

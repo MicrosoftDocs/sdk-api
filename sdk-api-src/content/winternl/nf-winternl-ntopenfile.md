@@ -75,7 +75,7 @@ A pointer to a structure that a caller initializes with
       <b>InitializeObjectAttributes</b>. If the caller is not running in the system process 
       context, it must set the <b>OBJ_KERNEL_HANDLE</b> attribute for 
       <i>ObjectAttributes</i>. For more information about specifying object attributes, see 
-      <b>ZwCreateFile</b> in the WDK.
+      the <i>CreateOptions</i> parameter of <b>ZwCreateFile</b> in the WDK.
 
 ### -param IoStatusBlock [out]
 

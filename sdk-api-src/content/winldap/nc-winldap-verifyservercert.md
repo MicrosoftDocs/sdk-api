@@ -73,7 +73,7 @@ If the function fails; the return value is <b>FALSE</b> and the secure connectio
 ## -remarks
 
 The <b>VERIFYSERVERCERT</b> callback function allows the client to verify the certificate of the server. The client registers a callback which is invoked after the secure connection is set up. The server certificate context is presented to the callback function, where it can be verified as acceptable or not. To register this callback, call 
-<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a>where CertRoutine is the address of your callback function.
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a> where CertRoutine is the address of your callback function.
 
 
 ```cpp

@@ -56,13 +56,13 @@ Defines some limit values.
 
 ## -enum-fields
 
-### -field WBEM_MAX_IDENTIFIER
+### -field WBEM_MAX_IDENTIFIER:0x1000
 
-### -field WBEM_MAX_QUERY
+### -field WBEM_MAX_QUERY:0x4000
 
-### -field WBEM_MAX_PATH
+### -field WBEM_MAX_PATH:0x2000
 
-### -field WBEM_MAX_OBJECT_NESTING
+### -field WBEM_MAX_OBJECT_NESTING:64
 
-### -field WBEM_MAX_USER_PROPERTIES
+### -field WBEM_MAX_USER_PROPERTIES:1024
 

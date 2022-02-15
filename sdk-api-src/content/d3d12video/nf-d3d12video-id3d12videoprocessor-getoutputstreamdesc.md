@@ -48,7 +48,7 @@ api_name:
 
 Gets the output stream description provided when the video processor was created with a call to [ID3D12VideoDevice::CreateVideoProcessor](nf-d3d12video-id3d12videodevice-createvideoprocessor.md).
 
-## -parameters
+
 
 ## -returns
 

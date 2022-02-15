@@ -54,7 +54,7 @@ The <b>Stop</b> method stops the playback device.
 
 Applications should call the <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-stop">IMSVidCtl::Stop</a> method, rather than this method.
 
-## -parameters
+
 
 ## -returns
 

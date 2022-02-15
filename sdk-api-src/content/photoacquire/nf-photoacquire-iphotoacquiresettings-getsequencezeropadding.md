@@ -86,13 +86,21 @@ The method succeeded.
 A file name padded with zeros might appear as
 
 
-<pre class="syntax" xml:space="preserve"><code>"IMG0001.JPG"</code></pre>
+
+``` syntax
+"IMG0001.JPG"
+```
+
 
 
 The same file name without zero padding might appear as 
 
 
-<pre class="syntax" xml:space="preserve"><code>"IMG   1.JPG"</code></pre>
+
+``` syntax
+"IMG   1.JPG"
+```
+
 
 ## -see-also
 

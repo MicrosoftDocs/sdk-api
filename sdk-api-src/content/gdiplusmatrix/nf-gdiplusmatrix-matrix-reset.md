@@ -53,7 +53,7 @@ api_name:
 
 The <b>Matrix::Reset</b> method updates this matrix with the elements of the identity matrix.
 
-## -parameters
+
 
 ## -returns
 

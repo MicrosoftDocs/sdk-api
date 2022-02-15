@@ -56,11 +56,11 @@ The <code>USER_INPUT_STRING_TYPE</code> enumeration type indicates the type of s
 
 ## -enum-fields
 
-### -field USER_INPUT_DEFAULT
+### -field USER_INPUT_DEFAULT:0
 
 Indicates that any string is allowed.
 
-### -field USER_INPUT_PATH_ELEMENT
+### -field USER_INPUT_PATH_ELEMENT:0x1
 
 Indicates that the string will not accept characters that are illegal in file or directory names (such as * or /).
 

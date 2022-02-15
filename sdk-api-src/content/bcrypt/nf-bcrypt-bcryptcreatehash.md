@@ -69,13 +69,13 @@ A pointer to a buffer that receives the hash or MAC object. The <i>cbHashObject<
 
 This memory can only be freed after the handle pointed to by the <i>phHash</i> parameter is destroyed.
 
-If the value of this parameter is <b>NULL</b> and the value of the <i>cbHashObject</i> parameter is zero, the memory for the hash object is allocated and freed by this function.<b>Windows 7:  </b>This memory management functionality is available beginning with Windows 7.
+If the value of this parameter is <b>NULL</b> and the value of the <i>cbHashObject</i> parameter is zero, the memory for the hash object is allocated and freed by this function. <b>Windows 7:</b> This memory management functionality is available beginning with Windows 7.
 
 ### -param cbHashObject [in, optional]
 
 The size, in bytes, of the <i>pbHashObject</i> buffer.
 
-If the value of this parameter is zero and the value of the <i>pbHashObject</i> parameter is <b>NULL</b>, the memory for the key object is allocated and freed by this function.<b>Windows 7:  </b>This memory management functionality is available beginning with Windows 7.</p>c
+If the value of this parameter is zero and the value of the <i>pbHashObject</i> parameter is <b>NULL</b>, the memory for the key object is allocated and freed by this function. <b>Windows 7:</b> This memory management functionality is available beginning with Windows 7.</p>
 
 ### -param pbSecret [in, optional]
 

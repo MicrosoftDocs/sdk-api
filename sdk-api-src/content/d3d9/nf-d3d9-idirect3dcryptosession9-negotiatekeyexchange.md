@@ -64,7 +64,7 @@ A pointer to a byte array that contains the encrypted session key.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -72,7 +72,7 @@ To find out which key-exchange mechanism to use, call  the <a href="/windows/des
 
 If the key-exchange type is <b>D3DKEYEXCHANGE_DXVA</b>, do not call this method to establish the session key. Instead, use the key-exchange mechanism that is defined for DirectX Video Acceleration 2 (DXVA-2) decoding.
 
-The driver might also use a proprietary key-exhange mechanism.
+The driver might also use a proprietary key-exchange mechanism.
 
 ## -see-also
 

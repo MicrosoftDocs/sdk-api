@@ -55,7 +55,7 @@ api_name:
 
 Reports the current cooperative-level status of the Direct3D device for a windowed or full-screen application.
 
-## -parameters
+
 
 ## -returns
 

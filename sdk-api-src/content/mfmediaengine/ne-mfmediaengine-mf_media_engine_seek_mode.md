@@ -54,11 +54,11 @@ Defines values for the media engine seek mode.
 
 ## -enum-fields
 
-### -field MF_MEDIA_ENGINE_SEEK_MODE_NORMAL
+### -field MF_MEDIA_ENGINE_SEEK_MODE_NORMAL:0
 
 Specifies normal seek.
 
-### -field MF_MEDIA_ENGINE_SEEK_MODE_APPROXIMATE
+### -field MF_MEDIA_ENGINE_SEEK_MODE_APPROXIMATE:1
 
 Specifies an approximate seek.
 

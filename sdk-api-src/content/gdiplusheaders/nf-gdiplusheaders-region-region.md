@@ -53,5 +53,5 @@ api_name:
 
 Creates a region that is infinite. This is the default constructor.
 
-## -parameters
+
 

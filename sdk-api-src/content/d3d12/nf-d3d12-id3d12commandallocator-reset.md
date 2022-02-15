@@ -52,7 +52,7 @@ api_name:
 
 Indicates to re-use the memory that is associated with the command allocator.
 
-## -parameters
+
 
 ## -returns
 

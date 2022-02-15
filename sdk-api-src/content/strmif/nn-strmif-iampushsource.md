@@ -57,10 +57,7 @@ Source filters that stream live data should expose this interface on their outpu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMPushSource</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-iamlatency">IAMLatency</a>. <b>IAMPushSource</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAMPushSource</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-iamlatency">IAMLatency</a>. <b>IAMPushSource</b> also has these types of members:
 
 ## -remarks
 

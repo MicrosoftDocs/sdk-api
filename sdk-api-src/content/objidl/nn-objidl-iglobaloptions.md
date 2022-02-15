@@ -54,10 +54,7 @@ Sets and queries global properties of the Component Object Model (COM) runtime.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGlobalOptions</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGlobalOptions</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IGlobalOptions</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGlobalOptions</b> also has these types of members:
 
 ## -remarks
 
@@ -194,14 +191,18 @@ It's important for applications that detect crashes and other exceptions that mi
 
 All such applications should execute this code at startup.
 
-<pre class="syntax" xml:space="preserve"><code>    IGlobalOptions *pGlobalOptions;
+
+``` syntax
+    IGlobalOptions *pGlobalOptions;
     hr =  CoCreateInstance(CLSID_GlobalOptions, NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&amp;pGlobalOptions));
     if (SUCCEEDED(hr))
     {
         hr = pGlobalOptions-&gt;Set(COMGLB_EXCEPTION_HANDLING, COMGLB_EXCEPTION_DONOT_HANDLE);
         pGlobalOptions-&gt;Release();
     }
-</code></pre>
+
+```
+
 
 ## -see-also
 

@@ -142,7 +142,7 @@ The following list specifies the order (from most specific to least specific) of
 <li>An exact match on <i>TargetName</i>.</li>
 <li>A match of the <i>DnsServerName</i> to a wildcard server credential. If more than one wildcard server credential matches, the credential with the longer TargetName is used. That is, a credential for *.example.microsoft.com is used instead of a credential for *.microsoft.com.</li>
 <li>An exact match of the <i>DnsDomainName</i> to a wildcard domain credential of the form &lt;<i>DnsDomainName</i>&gt;\*.</li>
-<li>An exact match of the <i>NetBIOSDomainName </i>to a wildcard domain credential of the form &lt;<i>NetBIOSDomainName</i>&gt;\*</li>
+<li>An exact match of the <i>NetBIOSDomainName </i> to a wildcard domain credential of the form &lt;<i>NetBIOSDomainName</i>&gt;\*</li>
 <li>The credential named CRED_SESSION_WILDCARD_NAME.</li>
 <li>The credential named "*".</li>
 </ul>

@@ -56,7 +56,7 @@ Creates a new enumeration interface.
 
 ### -param ppEnum [out]
 
-A pointer to a variable that, on successful return, points to an <a href="/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocnetworks">IEnumDot11AdHocNetworks</a>interface.
+A pointer to a variable that, on successful return, points to an <a href="/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocnetworks">IEnumDot11AdHocNetworks</a> interface.
 
 ## -returns
 

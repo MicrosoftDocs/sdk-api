@@ -89,7 +89,7 @@ To create a file stream, specify the name of the file, a colon, and then the nam
 
 ### -param dwDesiredAccess [in]
 
-The requested access to the file or device, which can be summarized as read, write, both or neither zero).
+The requested access to the file or device, which can be summarized as read, write, both or 0 to indicate neither).
 
 The most commonly used values are <b>GENERIC_READ</b>, 
        <b>GENERIC_WRITE</b>, or both 
@@ -222,7 +222,7 @@ The <b>lpSecurityDescriptor</b> member of the structure specifies a
        <b>lpSecurityDescriptor</b> member when opening an existing file or device, but continues 
        to use the <b>bInheritHandle</b> member.
 
-The <b>bInheritHandle</b>member of the structure specifies whether the returned handle 
+The <b>bInheritHandle</b> member of the structure specifies whether the returned handle 
        can be inherited.
 
 For more information, see the Remarks section.
@@ -335,12 +335,12 @@ The file or device attributes and flags, <b>FILE_ATTRIBUTE_NORMAL</b> being the 
        common default value for files.
 
 This parameter can include any combination of the available file attributes 
-       (<b>FILE_ATTRIBUTE_*</b>). All other file attributes override 
+       (<b>FILE_ATTRIBUTE_\*</b>). All other file attributes override 
        <b>FILE_ATTRIBUTE_NORMAL</b>.
 
-This parameter can also contain combinations of flags (<b>FILE_FLAG_*</b>) for control of 
+This parameter can also contain combinations of flags (<b>FILE_FLAG_\*</b>) for control of 
        file or device caching behavior, access modes, and other special-purpose flags. These combine with any 
-       <b>FILE_ATTRIBUTE_*</b> values.
+       <b>FILE_ATTRIBUTE_\*</b> values.
 
 This parameter can also contain Security Quality of Service (SQOS) information by specifying the 
        <b>SECURITY_SQOS_PRESENT</b> flag. Additional SQOS-related flags information is presented in 
@@ -576,7 +576,7 @@ If this flag is not specified, then I/O operations are serialized, even if the c
          functions specify an <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
 
 For information about considerations when using a file handle created with this flag, see the 
-         <a href="https://docs.microsoft.com/">Synchronous and Asynchronous I/O Handles</a> 
+         <a href="#synchronous-and-asynchronous-i-o-handles">Synchronous and Asynchronous I/O Handles</a> 
          section of this topic.
 
 </td>
@@ -665,7 +665,7 @@ For additional information, see the <a href="#caching_behavior">Caching Behavior
 </table>
  
 
-The <i>dwFlagsAndAttributes</i>parameter can also specify SQOS information. For more 
+The <i>dwFlagsAndAttributes</i> parameter can also specify SQOS information. For more 
        information, see 
        <a href="/windows/desktop/SecAuthZ/impersonation-levels">Impersonation Levels</a>. When the 
        calling application specifies the <b>SECURITY_SQOS_PRESENT</b> flag as part of 
@@ -1213,10 +1213,10 @@ Use the CONOUT$ value to specify console output.
 CONIN$ gets a handle to the console input buffer, even if the 
          <a href="/windows/console/setstdhandle">SetStdHandle</a> function redirects the standard input 
          handle. To get the standard input handle, use the 
-         <a href="/windows/console/getstdhandle">GetStdHandle</a>function.
+         <a href="/windows/console/getstdhandle">GetStdHandle</a> function.
 
 CONOUT$ gets a handle to the active screen buffer, even if 
-         <a href="/windows/console/setstdhandle">SetStdHandle</a>redirects the standard output handle. To 
+         <a href="/windows/console/setstdhandle">SetStdHandle</a> redirects the standard output handle. To 
          get the standard output handle, use <a href="/windows/console/getstdhandle">GetStdHandle</a>.
 
 </td>
@@ -1323,7 +1323,7 @@ The following table shows various settings of <i>dwDesiredAccess</i> and
  
 
 <h3><a id="Mailslots"></a><a id="mailslots"></a><a id="MAILSLOTS"></a>Mailslots</h3>
-If <b>CreateFile</b>opens the client end of a mailslot, the 
+If <b>CreateFile</b> opens the client end of a mailslot, the 
       function returns <b>INVALID_HANDLE_VALUE</b> if the mailslot client attempts to open a local 
       mailslot before the mailslot server has created it with the 
       <a href="/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailSlot</a> function.
@@ -1335,7 +1335,7 @@ If <b>CreateFile</b> opens the client end of a named pipe, the
       function uses any instance of the named pipe that is in the listening state. The opening process can duplicate 
       the handle as many times as required, but after it is opened, the named pipe instance cannot be opened by 
       another client. The access that is specified when a pipe is opened must be compatible with the access that is 
-      specified in the <i>dwOpenMode</i>parameter of the 
+      specified in the <i>dwOpenMode</i> parameter of the 
       <a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function.
 
 If the <a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function was not 

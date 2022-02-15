@@ -54,27 +54,27 @@ The different faces of a cube texture.
 
 ## -enum-fields
 
-### -field D3D11_TEXTURECUBE_FACE_POSITIVE_X
+### -field D3D11_TEXTURECUBE_FACE_POSITIVE_X:0
 
 Positive X face.
 
-### -field D3D11_TEXTURECUBE_FACE_NEGATIVE_X
+### -field D3D11_TEXTURECUBE_FACE_NEGATIVE_X:1
 
 Negative X face.
 
-### -field D3D11_TEXTURECUBE_FACE_POSITIVE_Y
+### -field D3D11_TEXTURECUBE_FACE_POSITIVE_Y:2
 
 Positive Y face.
 
-### -field D3D11_TEXTURECUBE_FACE_NEGATIVE_Y
+### -field D3D11_TEXTURECUBE_FACE_NEGATIVE_Y:3
 
 Negative Y face.
 
-### -field D3D11_TEXTURECUBE_FACE_POSITIVE_Z
+### -field D3D11_TEXTURECUBE_FACE_POSITIVE_Z:4
 
 Positive Z face.
 
-### -field D3D11_TEXTURECUBE_FACE_NEGATIVE_Z
+### -field D3D11_TEXTURECUBE_FACE_NEGATIVE_Z:5
 
 Negative Z face.
 

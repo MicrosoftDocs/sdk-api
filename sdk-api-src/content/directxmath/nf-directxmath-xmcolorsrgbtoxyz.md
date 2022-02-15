@@ -60,7 +60,7 @@ Color value to convert. X element is Red, Y element is Green, Z element is Blue,
 
 ## -returns
 
- Returns the converted color value with the trisimulus values of X, Y, and Z in the corresponding element, and the W element with Alpha (a copy of rgb.w). Each has a range of 0.0 to 1.0.
+ Returns the converted color value with the tristimulus values of X, Y, and Z in the corresponding element, and the W element with Alpha (a copy of rgb.w). Each has a range of 0.0 to 1.0.
 
 ## -remarks
 

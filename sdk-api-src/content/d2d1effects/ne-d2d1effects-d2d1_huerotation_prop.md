@@ -54,7 +54,7 @@ Identifiers for properties of the <a href="/windows/desktop/Direct2D/hue-rotate"
 
 ## -enum-fields
 
-### -field D2D1_HUEROTATION_PROP_ANGLE
+### -field D2D1_HUEROTATION_PROP_ANGLE:0
 
 The angle to rotate the hue, in degrees.
           
@@ -63,4 +63,4 @@ The type is FLOAT.
 
 The default is 0.0f.
 
-### -field D2D1_HUEROTATION_PROP_FORCE_DWORD
+### -field D2D1_HUEROTATION_PROP_FORCE_DWORD:0xffffffff

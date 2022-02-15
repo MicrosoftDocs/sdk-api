@@ -155,7 +155,7 @@ A message queue can contain at most 10,000 messages. This limit should be suffic
 				
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
          <b>Windows NT</b>

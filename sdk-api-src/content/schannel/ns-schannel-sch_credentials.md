@@ -287,7 +287,7 @@ Schannel attempts to automatically supply a certificate chain for client authent
 </dl>
 </td>
 <td width="60%">
-Instruct Schannel to split data to be encrypted into two separate records to counter weakness present in the SSL/TLS procotol when used with symmetric cipher suite using cipher block chaining mode. For more information, see "Vulnerability in SSL/TLS Could Allow Information Disclosure" in the Help and Support Knowledge Base at <a href="https://support.microsoft.com/help/2643584">http://support.microsoft.com/kb/2643584</a>.
+Instruct Schannel to split data to be encrypted into two separate records to counter weakness present in the SSL/TLS protocol when used with symmetric cipher suite using cipher block chaining mode. For more information, see "Vulnerability in SSL/TLS Could Allow Information Disclosure" in the Help and Support Knowledge Base at <a href="https://support.microsoft.com/help/2643584">http://support.microsoft.com/kb/2643584</a>.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003, Windows XP and Windows XP/2000:  </b>This flag is not supported.
 

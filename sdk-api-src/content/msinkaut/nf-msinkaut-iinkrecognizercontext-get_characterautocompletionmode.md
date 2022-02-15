@@ -65,7 +65,7 @@ This property is read/write.
 
 ## -remarks
 
-Recognition can occur in <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkrecognizercharacterautocompletionmode">Full</a> mode (all strokes have been inputted), <b>Partial</b> mode (partial input in specific order), or <b>Random</b> mode (partial input in random order).
+Recognition can occur in <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkrecognizercharacterautocompletionmode">Full</a> mode (all strokes have been input), <b>Partial</b> mode (partial input in specific order), or <b>Random</b> mode (partial input in random order).
 
 For a list of the character Autocomplete mode values that you can use, see the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkrecognizercharacterautocompletionmode">InkRecognizerCharacterAutoCompletionMode</a> enumeration type.
 

@@ -56,7 +56,7 @@ Indicates how synchronization is configured for <a href="/windows/desktop/cossdk
 
 ## -enum-fields
 
-### -field CSC_NoSynchronization
+### -field CSC_NoSynchronization:0
 
 The code is forced to run unsynchronized. This is the default synchronization setting for <a href="/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> when <a href="/windows/desktop/api/comsvcs/ne-comsvcs-csc_inheritanceconfig">CSC_InheritanceConfig</a> is set to CSC_Ignore.
 

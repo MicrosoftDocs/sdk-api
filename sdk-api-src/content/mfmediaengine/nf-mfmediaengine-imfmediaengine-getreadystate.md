@@ -52,7 +52,7 @@ api_name:
 
 Gets the ready state, which indicates whether the current media resource can be rendered.
 
-## -parameters
+
 
 ## -returns
 

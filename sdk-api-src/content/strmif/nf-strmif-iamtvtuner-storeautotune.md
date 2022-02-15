@@ -53,7 +53,7 @@ api_name:
 
 The <code>StoreAutoTune</code> method saves the fine-tuning information for all channels.
 
-## -parameters
+
 
 ## -returns
 

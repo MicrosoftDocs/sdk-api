@@ -54,35 +54,35 @@ Identifies the types of events associated with a <a href="/windows/desktop/windo
 
 ## -enum-fields
 
-### -field UI_EVENTTYPE_ApplicationMenuOpened
+### -field UI_EVENTTYPE_ApplicationMenuOpened:0
 
 The <a href="/windows/desktop/windowsribbon/windowsribbon-element-applicationmenu">ApplicationMenu</a> opened.
 
-### -field UI_EVENTTYPE_RibbonMinimized
+### -field UI_EVENTTYPE_RibbonMinimized:1
 
 The <a href="/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon</a> minimized.
 
-### -field UI_EVENTTYPE_RibbonExpanded
+### -field UI_EVENTTYPE_RibbonExpanded:2
 
 The <a href="/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon</a> expanded.
 
-### -field UI_EVENTTYPE_ApplicationModeSwitched
+### -field UI_EVENTTYPE_ApplicationModeSwitched:3
 
 The <a href="/windows/desktop/windowsribbon/ribbon-applicationmodes">application mode</a> changed.
 
-### -field UI_EVENTTYPE_TabActivated
+### -field UI_EVENTTYPE_TabActivated:4
 
 A <a href="/windows/desktop/windowsribbon/windowsribbon-element-tab">Tab</a> activated.
 
-### -field UI_EVENTTYPE_MenuOpened
+### -field UI_EVENTTYPE_MenuOpened:5
 
 A menu opened.
 
-### -field UI_EVENTTYPE_CommandExecuted
+### -field UI_EVENTTYPE_CommandExecuted:6
 
 A <a href="/windows/desktop/windowsribbon/windowsribbon-element-command">Command</a> executed.
 
-### -field UI_EVENTTYPE_TooltipShown
+### -field UI_EVENTTYPE_TooltipShown:7
 
 A <a href="/windows/desktop/windowsribbon/windowsribbon-element-command">Command</a> tooltip displayed.
 

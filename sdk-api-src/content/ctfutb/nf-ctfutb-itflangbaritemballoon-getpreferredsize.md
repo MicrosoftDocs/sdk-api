@@ -60,7 +60,7 @@ Pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure t
 
 ### -param psz [out]
 
-Pointer to a <b>SIZE</b> structure that recevies the preferred balloon size, in pixels. The <b>cy</b> member of this structure is ignored.
+Pointer to a <b>SIZE</b> structure that receives the preferred balloon size, in pixels. The <b>cy</b> member of this structure is ignored.
 
 ## -returns
 
@@ -90,7 +90,7 @@ This method is required. The balloon must supply the preferred size in response 
 
 To obtain the font used to draw the balloon, call <a href="/windows/desktop/api/wingdi/nf-wingdi-getstockobject">GetStockObject</a> with DEFAULT_GUI_FONT. This font can be used to calculate the preferred balloon size at runtime.
 
-If the ballon text will not fit into the preferred size obtained from this method, the language bar truncates the text and adds an ellipses to the text.
+If the balloon text will not fit into the preferred size obtained from this method, the language bar truncates the text and adds an ellipses to the text.
 
 ## -see-also
 

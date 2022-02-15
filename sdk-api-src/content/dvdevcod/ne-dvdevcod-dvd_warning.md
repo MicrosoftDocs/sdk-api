@@ -56,23 +56,23 @@ Specifies DVD warning conditions.
 
 ## -enum-fields
 
-### -field DVD_WARNING_InvalidDVD1_0Disc
+### -field DVD_WARNING_InvalidDVD1_0Disc:1
 
 DVD-Video disc is authored incorrectly. Playback can continue, but unexpected behavior might occur.
 
-### -field DVD_WARNING_FormatNotSupported
+### -field DVD_WARNING_FormatNotSupported:2
 
 A decoder would not support the current format. Playback of a stream (audio, video or subpicture) might not function. <i>lParam2</i> of the <a href="/windows/desktop/DirectShow/ec-dvd-warning">EC_DVD_WARNING</a> event notification code contains the stream type (see <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-am_dvd_stream_flags">AM_DVD_STREAM_FLAGS</a>).
 
-### -field DVD_WARNING_IllegalNavCommand
+### -field DVD_WARNING_IllegalNavCommand:3
 
 The internal DVD navigation command processor attempted to process an illegal command.
 
-### -field DVD_WARNING_Open
+### -field DVD_WARNING_Open:4
 
 File Open failed.
 
-### -field DVD_WARNING_Seek
+### -field DVD_WARNING_Seek:5
 
 File Seek failed.
 

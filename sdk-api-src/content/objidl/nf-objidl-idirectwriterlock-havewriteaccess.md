@@ -52,7 +52,7 @@ api_name:
 
 The <b>HaveWriteAccess</b> method indicates whether the write lock has been taken.
 
-## -parameters
+
 
 ## -returns
 

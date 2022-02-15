@@ -53,47 +53,47 @@ Specifies the type of physical connector.
 
 ## -enum-fields
 
-### -field COPP_ConnectorType_Unknown
+### -field COPP_ConnectorType_Unknown:-1
 
 Unknown connector type.
 
-### -field COPP_ConnectorType_VGA
+### -field COPP_ConnectorType_VGA:0
 
 VGA (Video Graphics Array) connector.
 
-### -field COPP_ConnectorType_SVideo
+### -field COPP_ConnectorType_SVideo:1
 
 S-Video connector.
 
-### -field COPP_ConnectorType_CompositeVideo
+### -field COPP_ConnectorType_CompositeVideo:2
 
 Composite video connector.
 
-### -field COPP_ConnectorType_ComponentVideo
+### -field COPP_ConnectorType_ComponentVideo:3
 
 Component video connector.
 
-### -field COPP_ConnectorType_DVI
+### -field COPP_ConnectorType_DVI:4
 
 DVI (digital video interface) connector.
 
-### -field COPP_ConnectorType_HDMI
+### -field COPP_ConnectorType_HDMI:5
 
 HDMI (high-definition multimedia interface) connector.
 
-### -field COPP_ConnectorType_LVDS
+### -field COPP_ConnectorType_LVDS:6
 
 LVDS (Low voltage differential signaling) connector.
 
-### -field COPP_ConnectorType_TMDS
+### -field COPP_ConnectorType_TMDS:7
 
 Reserved.
 
-### -field COPP_ConnectorType_D_JPN
+### -field COPP_ConnectorType_D_JPN:8
 
 Japanese D connector. (Connector conforming to the EIAJ RC-5237 standard.)
 
-### -field COPP_ConnectorType_Internal
+### -field COPP_ConnectorType_Internal:0x80000000
 
 Internal connector. This flag can be combined with the other flags. This flag indicates that the connection between the graphics adapter and the display device is permanent and not accessible to the user.
 

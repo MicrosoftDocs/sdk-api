@@ -54,7 +54,7 @@ Specifies the border color for a static sampler.
 
 ## -enum-fields
 
-### -field D3D12_STATIC_BORDER_COLOR_TRANSPARENT_BLACK
+### -field D3D12_STATIC_BORDER_COLOR_TRANSPARENT_BLACK:0
 
 Indicates black, with the alpha component as fully transparent.
 

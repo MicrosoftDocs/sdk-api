@@ -53,7 +53,7 @@ api_name:
 The 
 <b>Stop</b> method stops the device provider. This method is invoked by the device host before it unloads the device provider. This method is invoked when a service stops or the computer is shut down, and performs any cleanup processing required by the device provider.
 
-## -parameters
+
 
 ## -returns
 

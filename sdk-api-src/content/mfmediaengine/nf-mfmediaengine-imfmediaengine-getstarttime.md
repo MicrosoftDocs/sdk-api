@@ -52,7 +52,7 @@ api_name:
 
 Gets the initial playback position.
 
-## -parameters
+
 
 ## -returns
 

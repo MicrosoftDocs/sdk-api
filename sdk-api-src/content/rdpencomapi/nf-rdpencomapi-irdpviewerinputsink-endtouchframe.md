@@ -54,7 +54,7 @@ api_name:
 
 Stops  to   accept  a series of touch inputs.
 
-## -parameters
+
 
 ## -returns
 

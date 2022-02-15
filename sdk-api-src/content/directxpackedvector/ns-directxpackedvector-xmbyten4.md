@@ -110,7 +110,7 @@ Those <code>XMBYTEN4</code> constructors using floating point arguments require 
 	    <code>XMVECTOR</code> instance.
 	
 
-<code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMBYTEN4</code>using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstorebyten4">XMStoreByteN4</a>, which multiplies each component by 127.0f,
+<code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMBYTEN4</code> using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstorebyten4">XMStoreByteN4</a>, which multiplies each component by 127.0f,
 	    rounding the result, before assigning the values to the appropriate <code>XMBYTEN4</code> members.
 	
 

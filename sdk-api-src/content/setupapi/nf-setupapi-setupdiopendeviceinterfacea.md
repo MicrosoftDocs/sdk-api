@@ -96,7 +96,7 @@ If the DIODI_NO_ADD flag is specified for the <i>OpenFlags</i> parameter, and a 
 When the application has finished using the information that <b>SetupDiOpenDeviceInterface</b> retrieved<b>,</b> the application must call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdideletedeviceinterfacedata">SetupDiDeleteDeviceInterfaceData</a>.
 
 
-<a href="/windows/desktop/medfound/mf-devsource-attribute-source-type-vidcap-symbolic-link">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK</a>attribute can be passed in as the value of the <i>DevicePath</i> argument of the <b>SetupDiOpenDeviceInterface</b> function.
+<a href="/windows/desktop/medfound/mf-devsource-attribute-source-type-vidcap-symbolic-link">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK</a> attribute can be passed in as the value of the <i>DevicePath</i> argument of the <b>SetupDiOpenDeviceInterface</b> function.
 
 
 

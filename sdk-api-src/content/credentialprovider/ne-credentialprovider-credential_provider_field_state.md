@@ -56,7 +56,7 @@ Specifies the state of a single field in the Credential UI. Used by <a href="/wi
 
 ## -enum-fields
 
-### -field CPFS_HIDDEN
+### -field CPFS_HIDDEN:0
 
 Do not show the field in any state. One example of this would be a password edit control that should not be displayed until the user authenticates a thumb print. Until the thumb print has been authenticated, the state of the password field would be <b>CPFS_HIDDEN</b>.
 

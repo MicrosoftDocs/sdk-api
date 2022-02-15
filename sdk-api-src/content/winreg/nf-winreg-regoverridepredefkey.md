@@ -62,23 +62,17 @@ Maps a predefined registry key to the specified registry key.
 A handle to one of the following 
 <a href="/windows/desktop/SysInfo/predefined-keys">predefined keys</a>: 
 
-
-
-
-<b>HKEY_CLASSES_ROOT</b>
-<b>HKEY_CURRENT_CONFIG</b>
-<b>HKEY_CURRENT_USER</b>
-<b>HKEY_LOCAL_MACHINE</b>
-<b>HKEY_PERFORMANCE_DATA</b>
-<b>HKEY_USERS</b>
+- <b>HKEY_CLASSES_ROOT</b>
+- <b>HKEY_CURRENT_CONFIG</b>
+- <b>HKEY_CURRENT_USER</b>
+- <b>HKEY_LOCAL_MACHINE</b>
+- <b>HKEY_PERFORMANCE_DATA</b>
+- <b>HKEY_USERS</b>
 
 ### -param hNewHKey [in, optional]
 
 A handle to an open registry key. This handle is returned by the 
 <a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a> or <a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a> function. It cannot be one of the predefined keys. The function maps <i>hKey</i> to refer to the <i>hNewHKey</i> key. This affects only the calling process. 
-
-
-
 
 If <i>hNewHKey</i> is <b>NULL</b>, the function restores the default mapping of the predefined key.
 

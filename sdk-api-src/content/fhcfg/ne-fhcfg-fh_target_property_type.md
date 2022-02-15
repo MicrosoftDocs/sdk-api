@@ -58,7 +58,7 @@ Specifies the type of a property of a backup target.
 
 ## -enum-fields
 
-### -field FH_TARGET_NAME
+### -field FH_TARGET_NAME:0
 
 The property is a string that contains the backup target’s friendly name.  The friendly name is set during target provisioning by calling the <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-provisionandsetnewtarget">IFhConfigMgr::ProvisionAndSetNewTarget</a> method.
 

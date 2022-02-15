@@ -54,23 +54,23 @@ Defines values for recognized file systems.
 
 ## -enum-fields
 
-### -field FsiFileSystemNone
+### -field FsiFileSystemNone:0
 
 The disc does not contain a recognized file system.
 
-### -field FsiFileSystemISO9660
+### -field FsiFileSystemISO9660:1
 
 Standard CD file system.
 
-### -field FsiFileSystemJoliet
+### -field FsiFileSystemJoliet:2
 
 Joliet file system.
 
-### -field FsiFileSystemUDF
+### -field FsiFileSystemUDF:4
 
 UDF file system.
 
-### -field FsiFileSystemUnknown
+### -field FsiFileSystemUnknown:0x40000000
 
 The disc appears to have a file system, but the layout does not match any of the recognized types.
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>Build</b> method builds the filter graph and connects all the filters.
 
-## -parameters
+
 
 ## -returns
 

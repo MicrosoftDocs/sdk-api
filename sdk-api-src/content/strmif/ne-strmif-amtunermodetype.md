@@ -56,23 +56,23 @@ Specifies the frequency of a TV tuner (cable or antenna).
 
 ## -enum-fields
 
-### -field AMTUNER_MODE_DEFAULT
+### -field AMTUNER_MODE_DEFAULT:0
 
 Indicates default tuner mode.
 
-### -field AMTUNER_MODE_TV
+### -field AMTUNER_MODE_TV:0x1
 
 Indicates TV tuner mode.
 
-### -field AMTUNER_MODE_FM_RADIO
+### -field AMTUNER_MODE_FM_RADIO:0x2
 
 Indicates FM radio tuner mode.
 
-### -field AMTUNER_MODE_AM_RADIO
+### -field AMTUNER_MODE_AM_RADIO:0x4
 
 Indicates AM radio tuner mode.
 
-### -field AMTUNER_MODE_DSS
+### -field AMTUNER_MODE_DSS:0x8
 
 Indicates Digital Satellite Service (DSS) tuner mode.
 

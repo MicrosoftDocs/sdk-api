@@ -55,15 +55,15 @@ Indicates how pixel shader sampling will be restricted. This indicates whether t
 
 ## -enum-fields
 
-### -field D2D1_PIXEL_OPTIONS_NONE
+### -field D2D1_PIXEL_OPTIONS_NONE:0
 
 The pixel shader is not restricted in its sampling.
 
-### -field D2D1_PIXEL_OPTIONS_TRIVIAL_SAMPLING
+### -field D2D1_PIXEL_OPTIONS_TRIVIAL_SAMPLING:1
 
  The pixel shader samples inputs only at the same scene coordinate as the output pixel and returns transparent black whenever the input pixels are also transparent black.
 
-### -field D2D1_PIXEL_OPTIONS_FORCE_DWORD
+### -field D2D1_PIXEL_OPTIONS_FORCE_DWORD:0xffffffff
 
 ## -remarks
 

@@ -54,11 +54,11 @@ The state of the policy object.
 
 ## -enum-fields
 
-### -field WS_POLICY_STATE_CREATED
+### -field WS_POLICY_STATE_CREATED:1
 
 The initial state of the policy object.
 
-### -field WS_POLICY_STATE_FAULTED
+### -field WS_POLICY_STATE_FAULTED:2
 
 The policy object is no longer usable due to a previous error.
 

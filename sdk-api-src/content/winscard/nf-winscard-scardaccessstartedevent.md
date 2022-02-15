@@ -53,7 +53,7 @@ api_name:
 
 The <b>SCardAccessStartedEvent</b> function returns an event handle when an event signals that the smart card resource manager is started. The event-object handle can be specified in a call to one of the wait functions.
 
-## -parameters
+
 
 ## -returns
 

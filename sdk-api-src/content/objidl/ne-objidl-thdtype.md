@@ -56,11 +56,11 @@ Indicates whether a particular thread supports a message loop.
 
 ## -enum-fields
 
-### -field THDTYPE_BLOCKMESSAGES
+### -field THDTYPE_BLOCKMESSAGES:0
 
 The thread does not support a message loop. This behavior is associated with multithreaded apartments.
 
-### -field THDTYPE_PROCESSMESSAGES
+### -field THDTYPE_PROCESSMESSAGES:1
 
 The thread supports a message loop. This behavior is associated with single-threaded apartments.
 

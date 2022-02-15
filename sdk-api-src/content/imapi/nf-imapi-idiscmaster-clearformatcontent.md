@@ -52,7 +52,7 @@ api_name:
 
 Clears the contents of an unburned image (the current stash file).
 
-## -parameters
+
 
 ## -returns
 

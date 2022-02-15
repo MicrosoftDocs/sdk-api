@@ -52,7 +52,7 @@ api_name:
 
 The <b>start</b> method begins synchronization.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 Deprecated. Returns a value that indicates whether navigation is currently allowed.
 
-## -parameters
+
 
 ## -returns
 

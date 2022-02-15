@@ -57,7 +57,7 @@ This topic applies only to Windows XP Service Pack 1 or later.
 
 The <b>IsProfileLocked</b> method queries whether the Stream Buffer Sink filter's profile is locked.
 
-## -parameters
+
 
 ## -returns
 

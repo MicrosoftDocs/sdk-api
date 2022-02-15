@@ -68,7 +68,7 @@ The number of TCP or UDP port numbers to reserve.
 
 ## -remarks
 
-The  <b>INET_PORT_RANGE</b> structure is supported on Windows Vistaand later.
+The  <b>INET_PORT_RANGE</b> structure is supported on Windows Vista and later.
 
 The 
 <b>INET_PORT_RANGE</b> structure is the datatype passed in the input buffer to the <a href="/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)">SIO_ACQUIRE_PORT_RESERVATION</a> IOCTL. This IOCTL is used to acquire a runtime reservation for a block of TCP or UDP ports.  

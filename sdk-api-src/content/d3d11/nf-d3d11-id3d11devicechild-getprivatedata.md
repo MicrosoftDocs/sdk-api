@@ -66,14 +66,14 @@ Guid associated with the data.
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 A pointer to a variable that on input contains the size, in bytes, of the buffer that <i>pData</i> points to, and on output contains the size, in bytes, of the amount of data that
-            <b>GetPrivateData</b>retrieved.
+           <b>GetPrivateData</b> retrieved.
 
 ### -param pData [out, optional]
 
 Type: <b>void*</b>
 
 A pointer to a buffer that
-            <b>GetPrivateData</b>fills with data from the device child if <i>pDataSize</i> points to a value that specifies a buffer large enough to hold the data.
+           <b>GetPrivateData</b> fills with data from the device child if <i>pDataSize</i> points to a value that specifies a buffer large enough to hold the data.
 
 ## -returns
 

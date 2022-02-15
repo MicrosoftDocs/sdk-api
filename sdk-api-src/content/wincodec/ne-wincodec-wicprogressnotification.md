@@ -54,23 +54,23 @@ Specifies when the progress notification callback should be called.
 
 ## -enum-fields
 
-### -field WICProgressNotificationBegin
+### -field WICProgressNotificationBegin:0x10000
 
 The callback should be called when codec operations begin.
 
-### -field WICProgressNotificationEnd
+### -field WICProgressNotificationEnd:0x20000
 
 The callback should be called when codec operations end.
 
-### -field WICProgressNotificationFrequent
+### -field WICProgressNotificationFrequent:0x40000
 
 The callback should be called frequently to report status.
 
-### -field WICProgressNotificationAll
+### -field WICProgressNotificationAll:0xffff0000
 
 The callback should be called on all available progress notifications.
 
-### -field WICPROGRESSNOTIFICATION_FORCE_DWORD
+### -field WICPROGRESSNOTIFICATION_FORCE_DWORD:0x7fffffff
 
 ## -see-also
 

@@ -103,7 +103,7 @@ Unmaps a mapped view back to a placeholder (after you've replaced a placeholder 
 
 ## -returns
 
-Returns <b>TRUE</b> if sucessful. Otherwise, returns <b>FALSE</b> and extended error status is available
+Returns <b>TRUE</b> if successful. Otherwise, returns <b>FALSE</b> and extended error status is available
             using <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also

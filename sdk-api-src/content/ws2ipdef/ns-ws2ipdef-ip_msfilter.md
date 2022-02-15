@@ -75,7 +75,7 @@ The multicast filter mode to be used. This parameter can be either MCAST_INCLUDE
 
 On Windows Server 2003 and Windows XP, these values are defined in the <i>Ws2tcpip.h</i> header file. 
 
-On Windows Vistaand later, these values are defined as enumeration values in the <a href="/windows/desktop/api/ws2ipdef/ne-ws2ipdef-multicast_mode_type">MULTICAST_MODE_TYPE</a> enumeration defined in the <i>Ws2ipdef.h</i> header file.
+On Windows Vista and later, these values are defined as enumeration values in the <a href="/windows/desktop/api/ws2ipdef/ne-ws2ipdef-multicast_mode_type">MULTICAST_MODE_TYPE</a> enumeration defined in the <i>Ws2ipdef.h</i> header file.
 
 ### -field imsf_numsrc
 
@@ -91,7 +91,7 @@ The <b>ip_msfilter</b> structure is used with IPv4 addresses. The <b>ip_msfilter
 
 The <b>ip_msfilter</b> structure and related structures used for IPv4 multicast programming are based on IETF recommendations in sections 4 and 8.1 of RFC 3768. For more information, see <a href="http://tools.ietf.org/html/rfc3678">http://www.ietf.org/rfc/rfc3678.txt</a>.
 
-On Windows Vista and later, a set of socket options are available for multicast programming that support IPv6 and IPv4 addresses. These socket options are IP agnostic and can be used on both IPv6 and IPv4. These IP agnostic options use the <a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_req">GROUP_REQ</a> and the <a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_source_req">GROUP_SOURCE_REQ</a> structures and the <b>SIOCSMSFILTER</b>and <b>SIOCGMSFILTER</b> IOCTLs. These are the preferred socket options and IOCTLs for multicast programming on Windows Vista and later.
+On Windows Vista and later, a set of socket options are available for multicast programming that support IPv6 and IPv4 addresses. These socket options are IP agnostic and can be used on both IPv6 and IPv4. These IP agnostic options use the <a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_req">GROUP_REQ</a> and the <a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_source_req">GROUP_SOURCE_REQ</a> structures and the <b>SIOCSMSFILTER</b> and <b>SIOCGMSFILTER</b> IOCTLs. These are the preferred socket options and IOCTLs for multicast programming on Windows Vista and later.
 
 The <b>imsf_interface</b> member can be an interface index. Any IPv4 address in the 0.x.x.x block (first octet of 0) except for the IPv4 address of 0.0.0.0 is treated as an interface index.
 An interface index is a 24-bit number. The 0.0.0.0/8 IPv4 address block is not used (this range is reserved). The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function can be used to obtain interface index information to use for the <b>imsf_interface</b> member.

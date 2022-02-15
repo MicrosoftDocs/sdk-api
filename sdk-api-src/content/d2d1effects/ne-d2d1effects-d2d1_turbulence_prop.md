@@ -54,7 +54,7 @@ Identifiers for properties of the <a href="/windows/desktop/Direct2D/turbulence"
 
 ## -enum-fields
 
-### -field D2D1_TURBULENCE_PROP_OFFSET
+### -field D2D1_TURBULENCE_PROP_OFFSET:0
 
 The coordinates where the turbulence output is generated.
             
@@ -70,9 +70,9 @@ The type is <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1
 
 The default value is {0.0f, 0.0f}.
 
-### -field D2D1_TURBULENCE_PROP_SIZE
+### -field D2D1_TURBULENCE_PROP_SIZE:1
 
-### -field D2D1_TURBULENCE_PROP_BASE_FREQUENCY
+### -field D2D1_TURBULENCE_PROP_BASE_FREQUENCY:2
 
 The base frequencies in the X and Y direction. This property is a float and must be greater than 0. The units are specified in 1/DIPs.
             
@@ -86,7 +86,7 @@ The type is <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1
 
 The default value is {0.01f, 0.01f}.
 
-### -field D2D1_TURBULENCE_PROP_NUM_OCTAVES
+### -field D2D1_TURBULENCE_PROP_NUM_OCTAVES:3
 
 The number of octaves for the noise function. This property is a UINT32 and must be greater than 0.
             
@@ -95,7 +95,7 @@ The type is UINT32.
 
 The default value is 1.
 
-### -field D2D1_TURBULENCE_PROP_SEED
+### -field D2D1_TURBULENCE_PROP_SEED:4
 
 The seed for the pseudo random generator. This property is unbounded.
             
@@ -104,7 +104,7 @@ The type is UINT32.
 
 The default value is 0.
 
-### -field D2D1_TURBULENCE_PROP_NOISE
+### -field D2D1_TURBULENCE_PROP_NOISE:5
 
 The turbulence noise mode. This property can be either fractal sum or turbulence. Indicates whether to generate a bitmap based on Fractal Noise or the Turbulence function. 
             
@@ -114,7 +114,7 @@ The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_turbul
 
 The default value is D2D1_TURBULENCE_NOISE_FRACTAL_SUM.
 
-### -field D2D1_TURBULENCE_PROP_STITCHABLE
+### -field D2D1_TURBULENCE_PROP_STITCHABLE:6
 
 Turns stitching on or off. The base frequency is adjusted so that output bitmap can be stitched. This is useful if you want to tile multiple copies of the turbulence effect output.
             
@@ -127,4 +127,4 @@ The type is BOOL.
 
 The default value is FALSE.
 
-### -field D2D1_TURBULENCE_PROP_FORCE_DWORD
+### -field D2D1_TURBULENCE_PROP_FORCE_DWORD:0xffffffff

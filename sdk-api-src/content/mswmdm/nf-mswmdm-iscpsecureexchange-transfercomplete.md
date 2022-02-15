@@ -53,7 +53,7 @@ api_name:
 
 The <b>TransferComplete</b> method is called by Windows Media Device Manager to signal the end of a secure transfer of data. In this method, the secure content provider can perform any additional processing required to enable the content on the target device.
 
-## -parameters
+
 
 ## -returns
 

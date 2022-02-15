@@ -226,13 +226,17 @@ Any application that calls the <b>IcmpSendEcho2Ex</b> function asynchronously us
 
 The callback function pointed to by the <i>ApcRoutine</i> must be defined as a function of type <b>VOID</b> with the following syntax:
 
-<pre class="syntax" xml:space="preserve"><code>typedef
+
+``` syntax
+typedef
 VOID WINAPI
 (*PIO_APC_ROUTINE) (
     IN PVOID ApcContext,
     IN PIO_STATUS_BLOCK IoStatusBlock,
     IN ULONG Reserved
-    );</code></pre>
+    );
+```
+
 The parameters passed to the callback function include the following:
 
 

@@ -106,7 +106,7 @@ A byte array that contains the unique identifier for the volume.
 
 ## -remarks
 
-The <a href="/windows/desktop/api/vds/nf-vds-ivdsvolume2-getproperties2">IVdsVolume2::GetProperties2</a>method returns this structure to report the properties of a <a href="/windows/desktop/VDS/volume-object">volume object</a>.
+The <a href="/windows/desktop/api/vds/nf-vds-ivdsvolume2-getproperties2">IVdsVolume2::GetProperties2</a> method returns this structure to report the properties of a <a href="/windows/desktop/VDS/volume-object">volume object</a>.
 
 When a volume is offline, the <b>VDS_VF_PERMANENTLY_DISMOUNTED</b> flag is set in the <b>ulFlags</b> member of the <b>VDS_VOLUME_PROP2</b> structure, and the <b>VDS_VS_OFFLINE</b> volume status value is also set in the <b>status</b> member of this structure.
 

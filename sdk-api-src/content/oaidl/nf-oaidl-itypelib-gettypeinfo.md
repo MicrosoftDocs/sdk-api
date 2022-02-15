@@ -122,7 +122,7 @@ Insufficient memory to complete the operation.
 
 ## -remarks
 
-For dual interfaces, <b>GetTypeInfo</b>returns only the TKIND_DISPATCH type information. To get the TKIND_INTERFACE type information, <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getreftypeofimpltype">GetRefTypeOfImplType</a> can be called on the TKIND_DISPATCH type information, passing an index of –1. Then, the returned type information handle can be passed to <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getreftypeinfo">GetRefTypeInfo</a>.
+For dual interfaces, <b>GetTypeInfo</b> returns only the TKIND_DISPATCH type information. To get the TKIND_INTERFACE type information, <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getreftypeofimpltype">GetRefTypeOfImplType</a> can be called on the TKIND_DISPATCH type information, passing an index of –1. Then, the returned type information handle can be passed to <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getreftypeinfo">GetRefTypeInfo</a>.
 
 
 #### Examples

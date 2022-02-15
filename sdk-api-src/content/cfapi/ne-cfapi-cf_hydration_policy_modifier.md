@@ -54,19 +54,19 @@ Allows a sync provider to control how placeholder files should be hydrated by th
 
 ## -enum-fields
 
-### -field CF_HYDRATION_POLICY_MODIFIER_NONE
+### -field CF_HYDRATION_POLICY_MODIFIER_NONE:0x0000
 
 No policy modifier.
 
-### -field CF_HYDRATION_POLICY_MODIFIER_VALIDATION_REQUIRED
+### -field CF_HYDRATION_POLICY_MODIFIER_VALIDATION_REQUIRED:0x0001
 
 This policy modifier offers two guarantees to a sync provider. First, it guarantees that the data returned by the sync provider is always persisted to the disk prior to it being returned to the user application. Second, it allows the sync provider to retrieve the same data it has returned previously to the platform and validate its integrity. Only upon a successful confirmation of the integrity by the sync provider will the platform complete the user I/O request. This modifier helps support end-to-end data integrity at the cost of extra disk I/Os.
 
-### -field CF_HYDRATION_POLICY_MODIFIER_STREAMING_ALLOWED
+### -field CF_HYDRATION_POLICY_MODIFIER_STREAMING_ALLOWED:0x0002
 
 This policy modifier grants the platform the permission to not store any data returned by a sync provider on local disks. This policy modifier is ineffective when being combined with <b>CF_HYDRATION_POLICY_MODIFIER_VALIDATION_REQUIRED</b>.
 
-### -field CF_HYDRATION_POLICY_MODIFIER_AUTO_DEHYDRATION_ALLOWED
+### -field CF_HYDRATION_POLICY_MODIFIER_AUTO_DEHYDRATION_ALLOWED:0x0004
 
 <b>Note</b>  This value is new for Windows 10, version 1803.
 

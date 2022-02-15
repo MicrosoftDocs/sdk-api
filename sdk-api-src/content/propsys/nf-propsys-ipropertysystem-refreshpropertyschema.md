@@ -52,7 +52,7 @@ api_name:
 
 Not supported.
 
-## -parameters
+
 
 ## -returns
 

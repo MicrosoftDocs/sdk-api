@@ -53,7 +53,7 @@ api_name:
 
 Evicts all managed resources, including both Direct3D and driver-managed resources.
 
-## -parameters
+
 
 ## -returns
 

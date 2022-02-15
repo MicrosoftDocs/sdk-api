@@ -56,11 +56,11 @@ Elements of the <b>TfLBIClick</b> enumeration specify which mouse button was use
 
 ## -enum-fields
 
-### -field TF_LBI_CLK_RIGHT
+### -field TF_LBI_CLK_RIGHT:1
 
 The user right-clicked the button.
 
-### -field TF_LBI_CLK_LEFT
+### -field TF_LBI_CLK_LEFT:2
 
 The user left-clicked the button.
 

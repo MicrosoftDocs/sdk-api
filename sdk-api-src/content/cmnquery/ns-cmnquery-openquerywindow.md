@@ -245,7 +245,7 @@ Identifies the <b>Shared Folders</b> query form.
 
 #### CLSID_DsFindWriteableDomainController
 
-Identifies the <b>Domain Controllers</b> query form and displays writeable Domain 
+Identifies the <b>Domain Controllers</b> query form and displays writable Domain 
         Controllers.
 
 ### -field pPersistQuery

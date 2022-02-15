@@ -54,8 +54,5 @@ Allows the provider to optionally support a more comprehensive spell checking fu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComprehensiveSpellCheckProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComprehensiveSpellCheckProvider</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IComprehensiveSpellCheckProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComprehensiveSpellCheckProvider</b> also has these types of members:
 

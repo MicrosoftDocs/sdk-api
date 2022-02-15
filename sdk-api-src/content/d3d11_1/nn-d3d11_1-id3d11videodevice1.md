@@ -54,10 +54,7 @@ Provides the video decoding and video processing capabilities of a Microsoft Dir
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11VideoDevice1</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>. <b>ID3D11VideoDevice1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID3D11VideoDevice1</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>. <b>ID3D11VideoDevice1</b> also has these types of members:
 
 ## -remarks
 

@@ -56,7 +56,7 @@ The
 
 ## -enum-fields
 
-### -field AE_STATE
+### -field AE_STATE:0
 
 The address state has changed. See 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_state">ITAddress::get_State</a>.

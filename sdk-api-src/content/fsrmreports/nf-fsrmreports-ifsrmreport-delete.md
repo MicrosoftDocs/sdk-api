@@ -52,7 +52,7 @@ api_name:
 
 Removes this report object from the report job object.
 
-## -parameters
+
 
 ## -returns
 

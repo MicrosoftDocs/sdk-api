@@ -81,8 +81,8 @@ By default the center point is the centroid of the brush's boundary path, but yo
 
 
 The following example creates a 
-						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object based on an ellipse. The code calls the <b>PathGradientBrush::SetCenterColor</b> method of the 
-						<b>PathGradientBrush</b>object to set the center color to blue. The 
+						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object based on an ellipse. The code calls the <b>PathGradientBrush::SetCenterColor</b> method of the 
+						<b>PathGradientBrush</b> object to set the center color to blue. The 
 						<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setsurroundcolors">PathGradientBrush::SetSurroundColors</a> method sets the color along the entire boundary to aqua. The 
 						<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillrectangle(inconstbrush_inconstrect_)">FillRectangle Methods</a> method uses the path gradient brush to paint a rectangle that contains the ellipse.
 

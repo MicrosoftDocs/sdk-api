@@ -52,7 +52,7 @@ api_name:
 
 Determines whether the RPC channel is connected.
 
-## -parameters
+
 
 ## -returns
 

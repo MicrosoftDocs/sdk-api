@@ -52,7 +52,7 @@ api_name:
 
 The <b>wglGetCurrentContext</b> function obtains a handle to the current OpenGL rendering context of the calling thread.
 
-## -parameters
+
 
 ## -returns
 

@@ -59,7 +59,7 @@ api_name:
 
 Removes the action from the quota or file screen's list of actions.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 The 
 <b>IWbemPath::RemoveAllScopes</b> method removes all scopes from the path.
 
-## -parameters
+
 
 ## -returns
 

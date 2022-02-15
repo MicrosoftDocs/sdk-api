@@ -53,7 +53,7 @@ api_name:
 
 Gets the current locality of the font.
 
-## -parameters
+
 
 ## -returns
 

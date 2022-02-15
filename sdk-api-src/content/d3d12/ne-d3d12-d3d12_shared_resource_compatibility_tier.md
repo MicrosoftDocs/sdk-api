@@ -13,8 +13,8 @@ req.header: d3d12.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -41,7 +41,7 @@ The resource data formats mentioned are members of the [DXGI_FORMAT enumeration]
 
 ## -enum-fields
 
-### -field D3D12_SHARED_RESOURCE_COMPATIBILITY_TIER_0
+### -field D3D12_SHARED_RESOURCE_COMPATIBILITY_TIER_0:0
 
 Specifies that the most basic level of cross-API sharing is supported, including the following resource data formats.
 

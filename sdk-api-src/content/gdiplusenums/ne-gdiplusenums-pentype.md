@@ -79,7 +79,7 @@ Indicates that the pen draws with a color gradient that is specified by a
 Indicates that the pen draws with a color gradient that is specified by a 
 				<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a> object.
 
-### -field PenTypeUnknown
+### -field PenTypeUnknown:-1
 
 Indicates that the pen type is unknown.
 

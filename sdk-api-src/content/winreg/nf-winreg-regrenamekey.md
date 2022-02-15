@@ -59,7 +59,7 @@ This handle is returned by the [RegCreateKeyEx](nf-winreg-regcreatekeyexa.md) or
 
 ### -param lpSubKeyName
 
-The name of the subkey to be renamed. This key must be a subkey of the key identified by the *hKeySrc* parameter. This parameter can also be **NULL**, in which case the key identified by the *hKeySrc* parameter will be renamed.
+The name of the subkey to be renamed. This key must be a subkey of the key identified by the *hKey* parameter. This parameter can also be **NULL**, in which case the key identified by the *hKey* parameter will be renamed.
 
 ### -param lpNewKeyName
 

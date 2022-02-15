@@ -61,7 +61,7 @@ api_name:
 
 The <b>Empty</b> method makes the <a href="/windows/desktop/WmiSdk/chstring">CHString</a> object an empty string and frees memory as appropriate.
 
-## -parameters
+
 
 ## -see-also
 

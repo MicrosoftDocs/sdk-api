@@ -52,7 +52,7 @@ api_name:
 
 Checks whether the user has canceled the operation.
 
-## -parameters
+
 
 ## -returns
 

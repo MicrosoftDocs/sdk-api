@@ -55,7 +55,7 @@ api_name:
 
 The <b>Close</b> method closes the open file without saving any changes.
 
-## -parameters
+
 
 ## -returns
 

@@ -56,7 +56,7 @@ api_name:
 
 ## -enum-fields
 
-### -field remoteConfigTypeMachine
+### -field remoteConfigTypeMachine:1
 
 The component allows  remote configuration directly on the machine.
 

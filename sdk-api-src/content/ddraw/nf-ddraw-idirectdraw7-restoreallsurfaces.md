@@ -52,7 +52,7 @@ api_name:
 
  Restores all the surfaces that were created for the DirectDraw object, in the order that they were created.
 
-## -parameters
+
 
 ## -returns
 

@@ -56,7 +56,7 @@ The <b>FWP_FILTER_ENUM_TYPE</b> enumerated type specifies how the filter enum co
 
 ## -enum-fields
 
-### -field FWP_FILTER_ENUM_FULLY_CONTAINED
+### -field FWP_FILTER_ENUM_FULLY_CONTAINED:0
 
 Return only filters that fully contain the enum conditions.
 

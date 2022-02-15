@@ -58,7 +58,7 @@ Indicates the completion status of a print job.
 
 ## -enum-fields
 
-### -field XPS_JOB_IN_PROGRESS
+### -field XPS_JOB_IN_PROGRESS:0
 
 The print  job is running.
 

@@ -58,7 +58,7 @@ Updates the disk
    <a href="/windows/desktop/api/vds/nf-vds-ivdsdisk-getproperties">IVdsDisk::GetProperties</a> to get updated details
    about the current media.
 
-## -parameters
+
 
 ## -returns
 

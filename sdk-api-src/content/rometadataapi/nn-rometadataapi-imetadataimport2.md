@@ -54,8 +54,5 @@ Extends the <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetada
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMetaDataImport2</b> interface inherits from <b>IMetaDataImport</b>. <b>IMetaDataImport2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMetaDataImport2</b> interface inherits from <b>IMetaDataImport</b>. <b>IMetaDataImport2</b> also has these types of members:
 

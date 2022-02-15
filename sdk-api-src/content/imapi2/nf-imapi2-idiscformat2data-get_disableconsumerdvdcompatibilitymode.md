@@ -86,7 +86,7 @@ Value: 0x80004003
 
 ## -remarks
 
-This property has no affect on CD media.
+This property has no effect on CD media.
 
 ## -see-also
 

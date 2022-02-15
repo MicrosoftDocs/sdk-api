@@ -61,27 +61,27 @@ Defines the set of object status values for a port.
 
 ## -enum-fields
 
-### -field VDS_PRS_UNKNOWN
+### -field VDS_PRS_UNKNOWN:0
 
 The status of the port cannot be determined.
 
-### -field VDS_PRS_ONLINE
+### -field VDS_PRS_ONLINE:1
 
 The port is physically present and in use. The <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value associated with this port status can be any value except <b>VDS_H_FAILED</b>.
 
-### -field VDS_PRS_NOT_READY
+### -field VDS_PRS_NOT_READY:2
 
 The port is busy. The <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value can be any value except <b>VDS_H_FAILED</b>.
 
-### -field VDS_PRS_OFFLINE
+### -field VDS_PRS_OFFLINE:4
 
 Either the port or its controller is physically present but not available for use. For example, the port or its controller has been set to the inactive state. When this status is set,  a <b>VDS_NF_PORT_REMOVED</b> notification is sent. The <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value can be any value.
 
-### -field VDS_PRS_FAILED
+### -field VDS_PRS_FAILED:5
 
 The port has failed. The <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value should be <b>VDS_H_FAILED</b> or <b>VDS_H_FAILING</b>.
 
-### -field VDS_PRS_REMOVED
+### -field VDS_PRS_REMOVED:8
 
 The port's controller has been physically removed from the subsystem.  When this status is set, a <b>VDS_NF_PORT_DEPART</b> notification is sent.
 

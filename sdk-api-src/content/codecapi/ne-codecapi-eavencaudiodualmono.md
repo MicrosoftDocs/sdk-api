@@ -54,15 +54,15 @@ Specifies whether 2-channel audio is encoded as stereo or dual mono. This enumer
 
 ## -enum-fields
 
-### -field eAVEncAudioDualMono_SameAsInput
+### -field eAVEncAudioDualMono_SameAsInput:0
 
 Use the setting specified in the input media type.
 
-### -field eAVEncAudioDualMono_Off
+### -field eAVEncAudioDualMono_Off:1
 
 Do not use dual mono encoding.
 
-### -field eAVEncAudioDualMono_On
+### -field eAVEncAudioDualMono_On:2   
 
 Use dual mono encoding.
 

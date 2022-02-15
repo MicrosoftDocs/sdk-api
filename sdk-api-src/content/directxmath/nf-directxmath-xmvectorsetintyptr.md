@@ -61,12 +61,12 @@ A valid 4D vector storing integer data.
 
 ### -param y [in]
 
-Pointer to a uint32_t containing the value to be stored in the <code>y</code> element of the <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>object <code>V</code>.
+Pointer to a uint32_t containing the value to be stored in the <code>y</code> element of the <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> object <code>V</code>.
 
 ## -returns
 
 An instance of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> whose <i>y</i> component has been set to the integer value pointed to by
-       the argument <i>y</i> of <code>XMVectorSetIntYPtr</code>. All other components of the returned <b>XMVECTOR Data Type</b>instance have the same value as those of the input vector <i>V</i>.
+       the argument <i>y</i> of <code>XMVectorSetIntYPtr</code>. All other components of the returned <b>XMVECTOR Data Type</b> instance have the same value as those of the input vector <i>V</i>.
 
 ## -remarks
 

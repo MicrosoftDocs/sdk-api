@@ -98,7 +98,7 @@ HRESULT DXVAHD_SetLumaKey(
     UINT stream,
     BOOL bEnable,
     float fLower,   // Lower bound for the luma key.
-    float fUpper    // Uppper bound for the luma key.
+    float fUpper    // Upper bound for the luma key.
     )
 {
     DXVAHD_STREAM_STATE_LUMA_KEY_DATA luma = { bEnable, fLower, fUpper };

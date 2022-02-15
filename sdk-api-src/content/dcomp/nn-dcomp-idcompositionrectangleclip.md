@@ -54,10 +54,7 @@ Represents a clip object that restricts the rendering of a visual subtree to the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionRectangleClip</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionclip">IDCompositionClip</a>. <b>IDCompositionRectangleClip</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDCompositionRectangleClip</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionclip">IDCompositionClip</a>. <b>IDCompositionRectangleClip</b> also has these types of members:
 
 ## -see-also
 

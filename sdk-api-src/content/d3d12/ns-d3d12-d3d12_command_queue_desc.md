@@ -61,7 +61,7 @@ Specifies one member of <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_command
 ### -field Priority
 
 The priority for the command queue, as a 
-            <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_command_queue_priority">D3D12_COMMAND_QUEUE_PRIORITY</a>enumeration constant to select normal or high priority.
+            <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_command_queue_priority">D3D12_COMMAND_QUEUE_PRIORITY</a> enumeration constant to select normal or high priority.
 
 ### -field Flags
 

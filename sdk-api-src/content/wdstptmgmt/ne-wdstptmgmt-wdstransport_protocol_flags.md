@@ -58,11 +58,11 @@ Specifies which protocols the WDS transport server supports.
 
 ## -enum-fields
 
-### -field WdsTptProtocolUnicast
+### -field WdsTptProtocolUnicast:0x1
 
 Indicates that the server supports the Unicast transmission protocol.
 
-### -field WdsTptProtocolMulticast
+### -field WdsTptProtocolMulticast:0x2
 
 Indicates that the server supports the Multicast transmission protocol
 

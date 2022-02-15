@@ -54,15 +54,15 @@ Contains flags that indicate the status of the <a href="/windows/desktop/api/mfr
 
 ## -enum-fields
 
-### -field MF_SOURCE_READERF_ERROR
+### -field MF_SOURCE_READERF_ERROR:0x1
 
 An error occurred. If you receive this flag, do not make any further calls to <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a> methods.
 
-### -field MF_SOURCE_READERF_ENDOFSTREAM
+### -field MF_SOURCE_READERF_ENDOFSTREAM:0x2
 
 The source reader reached the end of the stream.
 
-### -field MF_SOURCE_READERF_NEWSTREAM
+### -field MF_SOURCE_READERF_NEWSTREAM:0x4
 
 One or more new streams were created. Respond to this flag by doing at least one of the following:
 
@@ -71,19 +71,19 @@ One or more new streams were created. Respond to this flag by doing at least one
 <li>Update the stream selection by selecting or deselecting streams.</li>
 </ul>
 
-### -field MF_SOURCE_READERF_NATIVEMEDIATYPECHANGED
+### -field MF_SOURCE_READERF_NATIVEMEDIATYPECHANGED:0x10
 
 The <i>native format</i> has changed for one or more streams. The native format is the format delivered by the media source before any decoders are inserted.
 
-### -field MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED
+### -field MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED:0x20
 
 The current media has type changed for one or more streams. To get the current media type, call the <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-getcurrentmediatype">IMFSourceReader::GetCurrentMediaType</a> method.
 
-### -field MF_SOURCE_READERF_STREAMTICK
+### -field MF_SOURCE_READERF_STREAMTICK:0x100
 
 There is a gap in the stream. This flag corresponds to an <a href="/windows/desktop/medfound/mestreamtick">MEStreamTick</a> event from the media source.
 
-### -field MF_SOURCE_READERF_ALLEFFECTSREMOVED
+### -field MF_SOURCE_READERF_ALLEFFECTSREMOVED:0x200
 
 All transforms inserted by the application have been removed for a particular stream. This could be due to a dynamic format change from a source or decoder that prevents custom transforms from being used because they cannot handle the new media type.
 

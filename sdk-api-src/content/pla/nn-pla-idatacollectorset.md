@@ -61,11 +61,7 @@ To get this interface, call the <a href="/windows/desktop/api/combaseapi/nf-comb
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataCollectorSet</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IDataCollectorSet</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IDataCollectorSet</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IDataCollectorSet</b> also has these types of members:
 
 ## -remarks
 
@@ -183,7 +179,7 @@ To use the data collector set elements to initialize the property values of a da
         <TaskArguments/>
         <TaskRunAsSelf/>            <!-- 0 (false), nonzero (true) -->
         <TaskUserTextArguments/>
-        <TriggerDataCollectorSet/>
+        <tr>
 
         <!-- Data collector elements go here. -->
     </AlertDataCollector>

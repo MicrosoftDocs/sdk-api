@@ -278,7 +278,7 @@ Queries the life span of the context.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCCERT_CONTEXT</a>structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCCERT_CONTEXT</a> structure.
 
 Finds a certificate context that contains a local end certificate.
 
@@ -344,7 +344,7 @@ Returns information about the security package to be used with the negotiation p
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_packageinfoa">SecPkgContext_PackageInfo</a>structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_packageinfoa">SecPkgContext_PackageInfo</a> structure.
 
 Returns information on the SSP in use.
 
@@ -370,7 +370,7 @@ Returns password expiration information.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCCERT_CONTEXT</a>structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCCERT_CONTEXT</a> structure.
 
 Finds a certificate context that contains the end certificate supplied by the server.
 

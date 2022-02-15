@@ -54,10 +54,7 @@ Exposes methods that retrieve information about a folder's display options, sele
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFolderView2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a>. <b>IFolderView2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IFolderView2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a>. <b>IFolderView2</b> also has these types of members:
 
 ## -remarks
 

@@ -52,7 +52,7 @@ api_name:
 
 Queries whether the Media Engine automatically begins playback.
 
-## -parameters
+
 
 ## -returns
 

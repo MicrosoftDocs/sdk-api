@@ -57,7 +57,7 @@ Each value from the
 
 ## -enum-fields
 
-### -field IAS_SYNTAX_BOOLEAN
+### -field IAS_SYNTAX_BOOLEAN:1
 
 The attribute is of type Boolean.
 

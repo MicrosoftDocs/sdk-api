@@ -54,15 +54,15 @@ Specifies the threading apartment type for a new <a href="/uwp/api/windows.syste
 
 ## -enum-fields
 
-### -field DQTAT_COM_NONE
+### -field DQTAT_COM_NONE:0
 
 No COM threading apartment type specified.
 
-### -field DQTAT_COM_ASTA
+### -field DQTAT_COM_ASTA:1
 
 Specifies an application single-threaded apartment (ASTA) COM threading apartment.
 
-### -field DQTAT_COM_STA
+### -field DQTAT_COM_STA:2
 
 Specifies a single-threaded apartment (STA) COM threading apartment.
 

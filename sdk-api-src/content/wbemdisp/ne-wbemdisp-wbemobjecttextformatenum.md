@@ -59,11 +59,11 @@ The WMI scripting type library, wbemdisp.tlb, defines these constants. Visual Ba
 
 ## -enum-fields
 
-### -field wbemObjectTextFormatCIMDTD20
+### -field wbemObjectTextFormatCIMDTD20:1
 
 XML format conforming to the DMTF (Distributed Management Task Force) CIM document type definition (DTD) version 2.0.
 
-### -field wbemObjectTextFormatWMIDTD20
+### -field wbemObjectTextFormatWMIDTD20:2
 
 XML format as defined by the extended WMI version of DMTF CIM DTD version 2.0. Using this value enables WMI-specific extensions, such as embedded objects or scope.
 

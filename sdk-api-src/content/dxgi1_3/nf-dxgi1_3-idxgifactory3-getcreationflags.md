@@ -52,7 +52,7 @@ api_name:
 
 Gets the flags that were used when a Microsoft DirectX Graphics Infrastructure (DXGI) object was created.
 
-## -parameters
+
 
 ## -returns
 

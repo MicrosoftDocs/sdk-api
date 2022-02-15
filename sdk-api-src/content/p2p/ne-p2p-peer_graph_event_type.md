@@ -56,39 +56,39 @@ The <b>PEER_GRAPH_EVENT_TYPE</b> enumeration specifies peer event types the appl
 
 ## -enum-fields
 
-### -field PEER_GRAPH_EVENT_STATUS_CHANGED
+### -field PEER_GRAPH_EVENT_STATUS_CHANGED:1
 
 The peer graph   status has changed in some manner. For example, the node has synchronized with the peer graph.
 
-### -field PEER_GRAPH_EVENT_PROPERTY_CHANGED
+### -field PEER_GRAPH_EVENT_PROPERTY_CHANGED:2
 
 A field in the peer graph property structure has changed. This peer event does not generate  a specific piece of data for an application to retrieve. The application must use <a href="/windows/desktop/api/p2p/nf-p2p-peergraphgetproperties">PeerGraphGetProperties</a> to obtain the updated structure.
 
-### -field PEER_GRAPH_EVENT_RECORD_CHANGED
+### -field PEER_GRAPH_EVENT_RECORD_CHANGED:3
 
 A record type or specific record has changed in some manner.
 
-### -field PEER_GRAPH_EVENT_DIRECT_CONNECTION
+### -field PEER_GRAPH_EVENT_DIRECT_CONNECTION:4
 
 A peer's direct connection has changed.
 
-### -field PEER_GRAPH_EVENT_NEIGHBOR_CONNECTION
+### -field PEER_GRAPH_EVENT_NEIGHBOR_CONNECTION:5
 
 A connection to a peer neighbor has changed.
 
-### -field PEER_GRAPH_EVENT_INCOMING_DATA
+### -field PEER_GRAPH_EVENT_INCOMING_DATA:6
 
 Data has been received from a direct or neighbor connection.
 
-### -field PEER_GRAPH_EVENT_CONNECTION_REQUIRED
+### -field PEER_GRAPH_EVENT_CONNECTION_REQUIRED:7
 
 The peer graph has become unstable.  The client should call <a href="/windows/desktop/api/p2p/nf-p2p-peergraphconnect">PeerGraphConnect</a> on a new node. This peer event does not generate  a specific piece of data for an application to retrieve.
 
-### -field PEER_GRAPH_EVENT_NODE_CHANGED
+### -field PEER_GRAPH_EVENT_NODE_CHANGED:8
 
 A node's presence status has changed in the peer graph.
 
-### -field PEER_GRAPH_EVENT_SYNCHRONIZED
+### -field PEER_GRAPH_EVENT_SYNCHRONIZED:9
 
 A specific  record type has been synchronized.
 

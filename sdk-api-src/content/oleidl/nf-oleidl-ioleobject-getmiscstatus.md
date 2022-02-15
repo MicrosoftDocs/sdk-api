@@ -117,7 +117,7 @@ The information that is actually stored in the registry varies with individual o
 The default value of <b>IOleObject::GetMiscStatus</b> is used if a subkey corresponding to the specified <a href="/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a> is not found. To set an OLE control, specify DVASPECT==1. This will cause the following to occur in the registry: 
 
 
-<pre xml:space="preserve"><b>HKEY_CLASSES_ROOT\CLSID\ . . .</b>
+<pre><b>HKEY_CLASSES_ROOT\CLSID\ . . .</b>
    <b>MiscStatus</b> = 1</pre>
 
 

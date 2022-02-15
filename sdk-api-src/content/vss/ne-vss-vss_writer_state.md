@@ -59,7 +59,7 @@ The <b>VSS_WRITER_STATE</b> enumeration indicates the current
 
 ## -enum-fields
 
-### -field VSS_WS_UNKNOWN
+### -field VSS_WS_UNKNOWN:0
 
 The writer's state is not known. 
       

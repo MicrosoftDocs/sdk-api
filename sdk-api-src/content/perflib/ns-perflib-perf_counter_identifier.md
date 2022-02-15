@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 Contains information about the <b>PERF_COUNTER_IDENTIFIER</b> block that contains the structure. A <b>PERF_COUNTER_IDENTIFIER</b> block provides information about a performance counter specification, and consists of the following items in order: <ol>
-<li>A <b>PERF_COUNTER_IDENTIFIER</b>structure</li>
+<li>A <b>PERF_COUNTER_IDENTIFIER</b> structure</li>
 <li>An optional null-terminated UTF-16LE string that specifies the instance name</li>
 <li>Padding as needed to make the size of the block  a multiple of 8 bytes. </li>
 </ol>
@@ -104,7 +104,7 @@ The <a href="/windows/desktop/api/perflib/nf-perflib-perfaddcounters">PerfAddCou
 <b>PERF_COUNTER_IDENTIFIER</b> blocks to define the counter specifications that you want to be
 add or remove from a query.
 
-The <a href="/windows/desktop/api/perflib/nf-perflib-perfquerycounterinfo">PerfQueryCounterInfo</a> function gets a sequence of <b>PERF_COUNTER_IDENTIFIER</b>blocks to indicate the counter specifications in a query and to indicate in the <b>Index</b> member the
+The <a href="/windows/desktop/api/perflib/nf-perflib-perfquerycounterinfo">PerfQueryCounterInfo</a> function gets a sequence of <b>PERF_COUNTER_IDENTIFIER</b> blocks to indicate the counter specifications in a query and to indicate in the <b>Index</b> member the
 order in which the  query gets the results.
 
 ## -see-also

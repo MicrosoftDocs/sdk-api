@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_CREATE_DECODER_CALLBACK
 title: WS_CREATE_DECODER_CALLBACK (webservices.h)
-description: Handles creating an decoder instance.
+description: Handles creating a decoder instance.
 helpviewer_keywords: ["WS_CREATE_DECODER_CALLBACK","WS_CREATE_DECODER_CALLBACK callback","WS_CREATE_DECODER_CALLBACK callback function [Web Services for Windows]","webservices/WS_CREATE_DECODER_CALLBACK","wsw.ws_create_decoder_callback"]
 old-location: wsw\ws_create_decoder_callback.htm
 tech.root: wsw
@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Handles creating an decoder instance.
+Handles creating a decoder instance.
 
 ## -parameters
 
 ### -param createContext [in]
 
-The createContext that was specified in the <a href="/windows/desktop/api/webservices/ns-webservices-ws_channel_decoder">WS_CHANNEL_DECODER</a>used during channel creation.
+The createContext that was specified in the <a href="/windows/desktop/api/webservices/ns-webservices-ws_channel_decoder">WS_CHANNEL_DECODER</a> used during channel creation.
 
 ### -param readCallback [in]
 

@@ -52,7 +52,7 @@ api_name:
 
 Indicates whether security is enabled for the current object. COM+ security is enabled unless the object is running in the client's process.
 
-## -parameters
+
 
 ## -returns
 

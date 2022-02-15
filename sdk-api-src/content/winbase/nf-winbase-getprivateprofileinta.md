@@ -86,11 +86,15 @@ The return value is the integer equivalent of the string following the specified
 
 The function searches the file for a key that matches the name specified by the <i>lpKeyName</i> parameter under the section name specified by the <i>lpAppName</i> parameter. A section in the initialization file must have the following form:
 
-<pre class="syntax" xml:space="preserve"><code>[section]
+
+``` syntax
+[section]
 key=value
       .
       .
-      .</code></pre>
+      .
+```
+
 The 
 <b>GetPrivateProfileInt</b> function is not case-sensitive; the strings in <i>lpAppName</i> and <i>lpKeyName</i> can be a combination of uppercase and lowercase letters.
 

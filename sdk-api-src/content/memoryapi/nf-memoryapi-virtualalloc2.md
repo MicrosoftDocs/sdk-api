@@ -51,12 +51,7 @@ api_name:
 
 ## -description
 
-Reserves, commits, or changes the state  of a region of memory within the virtual address space of a specified process. The 
-    function initializes the memory it allocates to zero.
-
-Using this function, you can: for new allocations, specify a range of virtual address space and a power-of-2 alignment restriction; specify an arbitrary number of extended parameters; specify a preferred NUMA node for the physical memory as an extended parameter; and specify a placeholder operation (specifically, replacement).
-
-To specify the NUMA node, see the <i>ExtendedParameters</i> parameter.
+Reserves, commits, or changes the state  of a region of memory within the virtual address space of a specified process (allocated memory is initialized to zero).
 
 ## -parameters
 
@@ -67,6 +62,8 @@ The handle to a process. The function allocates memory within the virtual addres
 The handle must have the <b>PROCESS_VM_OPERATION</b> access right. For more information, 
        see 
        <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+
+If <i>Process</i> is <b>NULL</b>, the function allocates memory for the calling process.
 
 ### -param BaseAddress [in, optional]
 
@@ -315,10 +312,16 @@ The number of extended parameters pointed to by <i>ExtendedParameters</i>.
 
 If the function succeeds, the return value is the base address of the allocated region of pages.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, 
-       call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
+
+This function lets you specify:
+
+- a range of virtual address space and a power-of-2 alignment restriction for new allocations
+- an arbitrary number of extended parameters
+- a preferred NUMA node for the physical memory as an extended parameter (see the <i>ExtendedParameters</i> parameter)
+- a placeholder operation (specifically, replacement).
 
 This API provides specialized techniques for managing virtual memory in support of high-performance games and server applications. For example, placeholders allow a reserved memory range to be explicitly partitioned, overlaid, and re-mapped; this can be used to implement arbitrarily extendable regions or virtual memory ring buffers. <b>VirtualAlloc2</b> also allows for allocating memory with a specific memory-alignment.
 

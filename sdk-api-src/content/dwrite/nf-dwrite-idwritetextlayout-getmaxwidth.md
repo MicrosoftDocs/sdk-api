@@ -52,7 +52,7 @@ api_name:
 
  Gets the layout maximum width.
 
-## -parameters
+
 
 ## -returns
 

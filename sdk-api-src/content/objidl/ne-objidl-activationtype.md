@@ -56,17 +56,17 @@ Specifies the kind of activation for an activatable class.
 
 ## -enum-fields
 
-### -field ACTIVATIONTYPE_UNCATEGORIZED
+### -field ACTIVATIONTYPE_UNCATEGORIZED:0
 
-### -field ACTIVATIONTYPE_FROM_MONIKER
+### -field ACTIVATIONTYPE_FROM_MONIKER:0x1
 
-### -field ACTIVATIONTYPE_FROM_DATA
+### -field ACTIVATIONTYPE_FROM_DATA:0x2
 
-### -field ACTIVATIONTYPE_FROM_STORAGE
+### -field ACTIVATIONTYPE_FROM_STORAGE:0x4
 
-### -field ACTIVATIONTYPE_FROM_STREAM
+### -field ACTIVATIONTYPE_FROM_STREAM:0x8
 
-### -field ACTIVATIONTYPE_FROM_FILE
+### -field ACTIVATIONTYPE_FROM_FILE:0x10
 
 #### - ActivationType_InProcess
 

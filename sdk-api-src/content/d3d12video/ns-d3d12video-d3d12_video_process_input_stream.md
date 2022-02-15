@@ -52,7 +52,7 @@ An [ID3D12Resource](/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) represen
 
 ### -field Subresource
 
-The subresource index to use of the *pInputTexture* argument.
+The subresource index to use of the *pTexture2D* argument.
 
 ### -field ReferenceSet
 

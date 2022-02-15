@@ -64,7 +64,7 @@ A content handle opened by <a href="/windows/desktop/api/peerdist/nf-peerdist-pe
 
 ### -param cbMaxNumberOfBytes
 
-The maximum number of bytes to read. If the <i>cbMaxNumberOfBytesToRead</i> is equal to 0, it indicates that the <b>PeerDistClientBlockRead</b> function is  querying the length of available consecutive content byes in the local cache at the current block read offset. The query will neither download content from the peers, nor return the count of bytes present in the peer cache.
+The maximum number of bytes to read. If the <i>cbMaxNumberOfBytesToRead</i> is equal to 0, it indicates that the <b>PeerDistClientBlockRead</b> function is querying the length of available consecutive content bytes in the local cache at the current block read offset. The query will neither download content from the peers, nor return the count of bytes present in the peer cache.
 
 ### -param pBuffer [in, out, optional]
 

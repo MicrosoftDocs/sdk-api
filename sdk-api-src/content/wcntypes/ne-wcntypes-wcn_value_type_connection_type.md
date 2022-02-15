@@ -56,11 +56,11 @@ The <b>WCN_VALUE_TYPE_CONNECTION_TYPE</b> enumeration defines the connection cap
 
 ## -enum-fields
 
-### -field WCN_VALUE_CT_ESS
+### -field WCN_VALUE_CT_ESS:1
 
 Specifies an ESS (infrastructure network) connection.
 
-### -field WCN_VALUE_CT_IBSS
+### -field WCN_VALUE_CT_IBSS:2
 
 Specifies an IBSS (ad-hoc network) connection.
 

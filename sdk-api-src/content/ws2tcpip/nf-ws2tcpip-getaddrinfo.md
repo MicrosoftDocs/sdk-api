@@ -168,7 +168,7 @@ There was insufficient memory to perform the operation.
 </td>
 <td width="60%">
 An address incompatible with the requested protocol was used. This error is returned if the <b>ai_family</b> member of the 
-			<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a>structure pointed to by the <i>pHints</i> parameter is not supported.
+			<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a> structure pointed to by the <i>pHints</i> parameter is not supported.
 
 </td>
 </tr>
@@ -180,7 +180,7 @@ An address incompatible with the requested protocol was used. This error is retu
 </td>
 <td width="60%">
 An invalid argument was supplied.  This error is returned if an invalid value was provided for the <b>ai_flags</b> member of the 
-			<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a>structure pointed to by the <i>pHints</i> parameter.
+			<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a> structure pointed to by the <i>pHints</i> parameter.
 
 </td>
 </tr>
@@ -192,7 +192,7 @@ An invalid argument was supplied.  This error is returned if an invalid value wa
 </td>
 <td width="60%">
 The support for the specified socket type does not exist in this address family. This error is returned if the <b>ai_socktype</b> member of the 
-			<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a>structure pointed to by the <i>pHints</i> parameter is not supported.
+			<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a> structure pointed to by the <i>pHints</i> parameter is not supported.
 
 </td>
 </tr>
@@ -260,7 +260,7 @@ This is usually a temporary error during hostname resolution and means that the 
 </td>
 <td width="60%">
 The specified class was not found. The <i>pServiceName</i> parameter is not supported for the specified <b>ai_socktype</b> member of the 
-			<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a>structure pointed to by the <i>pHints</i> parameter.
+			<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a> structure pointed to by the <i>pHints</i> parameter.
 
 </td>
 </tr>
@@ -334,7 +334,7 @@ On Windows Vista and later when <b>getaddrinfo</b> is called from a service, if
 
 
 The 
-<b>getaddrinfo</b> function can be used to convert a text string representation of an IP address to an <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a>structure that contains a <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure for the IP address and other information. To be used in this way, the string pointed to by the <i>pNodeName</i> parameter must contain a text representation of an IP address and the <b>addrinfo</b>structure pointed to by the <i>pHints</i> parameter must have the AI_NUMERICHOST flag set in the <b>ai_flags</b> member. The string pointed to by the <i>pNodeName</i> parameter may contain a text representation of either an IPv4 or an IPv6 address. The text IP address is converted to an <b>addrinfo</b>structure pointed to by the <i>ppResult</i> parameter. The returned <b>addrinfo</b>structure contains a <b>sockaddr</b> structure for the IP address along with addition information about the IP address. For this method to work with an IPv6 address string on Windows Server 2003 and Windows XP, the IPv6 protocol must be installed on the local computer. Otherwise, the <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAHOST_NOT_FOUND</a> error is returned.
+<b>getaddrinfo</b> function can be used to convert a text string representation of an IP address to an <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a> structure that contains a <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure for the IP address and other information. To be used in this way, the string pointed to by the <i>pNodeName</i> parameter must contain a text representation of an IP address and the <b>addrinfo</b> structure pointed to by the <i>pHints</i> parameter must have the AI_NUMERICHOST flag set in the <b>ai_flags</b> member. The string pointed to by the <i>pNodeName</i> parameter may contain a text representation of either an IPv4 or an IPv6 address. The text IP address is converted to an <b>addrinfo</b> structure pointed to by the <i>ppResult</i> parameter. The returned <b>addrinfo</b> structure contains a <b>sockaddr</b> structure for the IP address along with addition information about the IP address. For this method to work with an IPv6 address string on Windows Server 2003 and Windows XP, the IPv6 protocol must be installed on the local computer. Otherwise, the <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAHOST_NOT_FOUND</a> error is returned.
 
 <h3><a id="Freeing_Address_Information_from_Dynamic_Allocation"></a><a id="freeing_address_information_from_dynamic_allocation"></a><a id="FREEING_ADDRESS_INFORMATION_FROM_DYNAMIC_ALLOCATION"></a>Freeing Address Information from Dynamic Allocation</h3>
 All information returned by the 
@@ -750,7 +750,7 @@ If the  <b>AI_FILESERVER</b> is set, this is a  hint to the namespace provider t
 
 
 <h3><a id="Example_code_using_AI_NUMERICHOST"></a><a id="example_code_using_ai_numerichost"></a><a id="EXAMPLE_CODE_USING_AI_NUMERICHOST"></a>Example code using AI_NUMERICHOST</h3>
-The following code example shows how to use the <b>getaddrinfo</b> function to convert a text string representation of an IP address to an <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a>structure that contains a <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure for the IP address and other information. 
+The following code example shows how to use the <b>getaddrinfo</b> function to convert a text string representation of an IP address to an <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a> structure that contains a <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure for the IP address and other information. 
 
 
 ```cpp

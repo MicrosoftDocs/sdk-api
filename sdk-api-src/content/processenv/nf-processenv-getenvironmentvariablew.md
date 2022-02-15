@@ -108,7 +108,7 @@ For an example, see
 
 
 
-<a href="/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a>
+<a href="/windows/desktop/api/processenv/nf-processenv-getenvironmentstrings">GetEnvironmentStrings</a>
 
 
 

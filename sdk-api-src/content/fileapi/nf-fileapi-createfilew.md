@@ -143,7 +143,6 @@ To enable a process to share a file or device while another process has the file
 </td>
 <td width="60%">
 Prevents subsequent open operations on a file or device if they request delete, read, or write access.
-
 </td>
 </tr>
 <tr>
@@ -155,7 +154,7 @@ Prevents subsequent open operations on a file or device if they request delete, 
 <td width="60%">
 Enables subsequent open operations on a file or device to request delete access.
 
-Otherwise, other processes cannot open the file or device if they request delete access.
+Otherwise, no process can open the file or device if it requests delete access.
 
 If this flag is not specified, but the file or device has been opened for delete access, the function 
          fails.
@@ -173,7 +172,7 @@ If this flag is not specified, but the file or device has been opened for delete
 <td width="60%">
 Enables subsequent open operations on a file or device to request read access.
 
-Otherwise, other processes cannot open the file or device if they request read access.
+Otherwise, no process can open the file or device if it requests read access.
 
 If this flag is not specified, but the file or device has been opened for read access, the function 
          fails.
@@ -189,7 +188,7 @@ If this flag is not specified, but the file or device has been opened for read a
 <td width="60%">
 Enables subsequent open operations on a file or device to request write access.
 
-Otherwise, other processes cannot open the file or device if they request write access.
+Otherwise, no process can open the file or device if it requests write access.
 
 If this flag is not specified, but the file or device has been opened for write access or has a file mapping 
          with write access, the function fails.
@@ -220,7 +219,7 @@ The <b>lpSecurityDescriptor</b> member of the structure specifies a
        <b>lpSecurityDescriptor</b> member when opening an existing file or device, but continues 
        to use the <b>bInheritHandle</b> member.
 
-The <b>bInheritHandle</b>member of the structure specifies whether the returned handle 
+The <b>bInheritHandle</b> member of the structure specifies whether the returned handle 
        can be inherited.
 
 For more information, see the Remarks section.
@@ -574,7 +573,7 @@ If this flag is not specified, then I/O operations are serialized, even if the c
          functions specify an <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
 
 For information about considerations when using a file handle created with this flag, see the 
-         <a href="https://docs.microsoft.com/">Synchronous and Asynchronous I/O Handles</a> 
+         <a href="#synchronous-and-asynchronous-i-o-handles">Synchronous and Asynchronous I/O Handles</a> 
          section of this topic.
 
 </td>
@@ -1068,9 +1067,9 @@ The following requirements must be met for such a call to succeed:
 <li>The caller must have administrative privileges. For more information, see 
        <a href="/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.</li>
 <li>The <i>dwCreationDisposition</i> parameter must have the 
-       <b>OPEN_EXISTING</b>flag.</li>
+      <b>OPEN_EXISTING</b> flag.</li>
 <li>When opening a volume or floppy disk, the <i>dwShareMode</i> parameter must have the 
-       <b>FILE_SHARE_WRITE</b>flag.</li>
+      <b>FILE_SHARE_WRITE</b> flag.</li>
 </ul>
 <div class="alert"><b>Note</b>  The <i>dwDesiredAccess</i> parameter can be zero, allowing the application to query 
       device attributes without accessing a device. This is useful for an application to determine the size of a 
@@ -1211,10 +1210,10 @@ Use the CONOUT$ value to specify console output.
 CONIN$ gets a handle to the console input buffer, even if the 
          <a href="/windows/console/setstdhandle">SetStdHandle</a> function redirects the standard input 
          handle. To get the standard input handle, use the 
-         <a href="/windows/console/getstdhandle">GetStdHandle</a>function.
+         <a href="/windows/console/getstdhandle">GetStdHandle</a> function.
 
 CONOUT$ gets a handle to the active screen buffer, even if 
-         <a href="/windows/console/setstdhandle">SetStdHandle</a>redirects the standard output handle. To 
+         <a href="/windows/console/setstdhandle">SetStdHandle</a> redirects the standard output handle. To 
          get the standard output handle, use <a href="/windows/console/getstdhandle">GetStdHandle</a>.
 
 </td>
@@ -1321,7 +1320,7 @@ The following table shows various settings of <i>dwDesiredAccess</i> and
  
 
 <h3><a id="Mailslots"></a><a id="mailslots"></a><a id="MAILSLOTS"></a>Mailslots</h3>
-If <b>CreateFile</b>opens the client end of a mailslot, the 
+If <b>CreateFile</b> opens the client end of a mailslot, the 
       function returns <b>INVALID_HANDLE_VALUE</b> if the mailslot client attempts to open a local 
       mailslot before the mailslot server has created it with the 
       <a href="/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailSlot</a> function.
@@ -1333,7 +1332,7 @@ If <b>CreateFile</b> opens the client end of a named pipe, the
       function uses any instance of the named pipe that is in the listening state. The opening process can duplicate 
       the handle as many times as required, but after it is opened, the named pipe instance cannot be opened by 
       another client. The access that is specified when a pipe is opened must be compatible with the access that is 
-      specified in the <i>dwOpenMode</i>parameter of the 
+      specified in the <i>dwOpenMode</i> parameter of the 
       <a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function.
 
 If the <a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function was not 

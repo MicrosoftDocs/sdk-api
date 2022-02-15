@@ -88,6 +88,9 @@ You can use the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystem
 <b>GetProcessAffinityMask</b> returns a bitmask whereas 
 <b>SetThreadIdealProcessor</b> uses an integer value to represent the processor.
 
+Starting with Windows 11 and Windows Server 2022, on a system with more than 64 processors, process and thread affinities span all processors in the system, across all <a href="/windows/desktop/ProcThread/processor-groups">processor groups</a>, by default.
+The <b>SetThreadIdealProcessor</b> function sets the preferred processor to a logical processor in the thread's primary group.
+
 To compile an application that uses this function, define _WIN32_WINNT as 0x0400 or later. For more information, see 
 <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 

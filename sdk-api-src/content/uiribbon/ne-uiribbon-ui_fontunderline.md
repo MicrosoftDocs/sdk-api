@@ -54,15 +54,15 @@ Specifies values that identify the underline state of a <a href="/windows/deskto
 
 ## -enum-fields
 
-### -field UI_FONTUNDERLINE_NOTAVAILABLE
+### -field UI_FONTUNDERLINE_NOTAVAILABLE:0
 
 Underlining is not enabled.
 
-### -field UI_FONTUNDERLINE_NOTSET
+### -field UI_FONTUNDERLINE_NOTSET:1
 
 Underlining is off.
 
-### -field UI_FONTUNDERLINE_SET
+### -field UI_FONTUNDERLINE_SET:2
 
 Underlining is on.
 

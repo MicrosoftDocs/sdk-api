@@ -54,8 +54,5 @@ Exposes methods that provide basic information about the registered metadata rea
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataReaderInfo</b> interface inherits from <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatahandlerinfo">IWICMetadataHandlerInfo</a>. <b>IWICMetadataReaderInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWICMetadataReaderInfo</b> interface inherits from <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatahandlerinfo">IWICMetadataHandlerInfo</a>. <b>IWICMetadataReaderInfo</b> also has these types of members:
 

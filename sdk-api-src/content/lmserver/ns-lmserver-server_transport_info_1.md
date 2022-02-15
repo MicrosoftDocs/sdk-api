@@ -72,8 +72,12 @@ Type: <b>LMSTR</b>
 
 A pointer to a null-terminated character string that contains the name of a transport device; for example,
 
-<pre class="syntax" xml:space="preserve"><code>\Device\NetBT_Tcpip_{2C9725F4-151A-11D3-AEEC-C3B211BD350B}
-</code></pre>
+
+``` syntax
+\Device\NetBT_Tcpip_{2C9725F4-151A-11D3-AEEC-C3B211BD350B}
+
+```
+
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
 ### -field svti1_transportaddress

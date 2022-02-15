@@ -114,7 +114,7 @@ To create and execute an edit event, the application must do the following:
 </ul>
 For example, the following code configures an insert edit on all tracks:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

@@ -77,7 +77,7 @@ The operation context.
 
 ### -param asyncContext [in, optional]
 
-Information on whether the function is getting invoked asynchornously.
+Information on whether the function is getting invoked asynchronously.
 
 ## -returns
 
@@ -107,7 +107,9 @@ This callback is cancellable.
 
 #### Examples
 
-<pre class="syntax" xml:space="preserve"><code>HRESULT CALLBACK FreeSessionCalculator (const WS_OPERATION_CONTEXT* context,
+
+``` syntax
+HRESULT CALLBACK FreeSessionCalculator (const WS_OPERATION_CONTEXT* context,
                                         const WS_ASYNC_CONTEXT* asyncContext)
 {
      HRESULT hr = NOERROR;
@@ -121,4 +123,6 @@ This callback is cancellable.
      }
      return NOERROR;
 }
-</code></pre>
+
+```
+

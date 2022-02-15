@@ -57,7 +57,7 @@ Sets the privacy settings for a given <a href="/dotnet/api/microsoft.visualstudi
 
 ### -param dwZone [in]
 
-Value of type <b>DWORD</b> that specifies the <a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone?view=visualstudiosdk-2017">URLZONE</a>for which privacy settings are being set.
+Value of type <b>DWORD</b> that specifies the <a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone?view=visualstudiosdk-2017">URLZONE</a> for which privacy settings are being set.
 
 ### -param dwType [in]
 
@@ -123,19 +123,27 @@ An empty expression is also allowed. If an expression is empty, the left side ev
 
 The following examples show valid logical rules. 
 
-<pre class="syntax" xml:space="preserve"><code>/DEM=d/
+
+``` syntax
+/DEM=d/
     Deny a cookie whose compact policy contains the DEM token
 /CON&amp;!TEL=a/	
     Accept a cookie whose compact policy contains the CON token 
     and does not contain the TEL token
 /=a/		
-    Accept all cookies</code></pre>
+    Accept all cookies
+```
+
 Special rules are specified using the nopolicy, session, and always symbols. The nopolicy symbol is used to specify the action to taken when there is no compact policy. For example nopolicy=d specifies to downgrade all cookies without a compact policy to session cookies. The session symbol is used to specify the action to take on session cookies and can only be set to a. When session=a is specified, all session cookies are accepted regardless of the content of the compact policy. If this rule is not specified, session cookies are subject to the same rules as persistent cookies. Finally, the always symbol is used to specify to perform the same action for everything. For example, always=d specifies to deny all cookies regardless of the existence of a compact policy. Note that always=d is equivalent to /=d/.
 
 The following example shows a privacy preferences string that specifies to accept cookies for which the compact policy contains a FIN/CONi token pair, reject cookies with compact policies containing FIN/CON, FIN/CONo, FIN/CONa and GOV/PUB token pairs or a TEL token, and to prompt the user when a cookie's compact policy contains the UNR token. It also specifies to downgrade cookies without a compact policy to session cookies and to accept all cookies that do not match one of the given rules. Note that the first rule that evaluates to true determines the cookie action. 
 
-<pre class="syntax" xml:space="preserve"><code>IE6-P3PSettings/V1: /FIN&amp;CONi=a/ /FIN&amp;CONo=r/ /FIN&amp;CONa=r/ /FIN&amp;CON=r/ 
-/GOV&amp;PUB=r/ /TEL=r/ /UNR=p/ nopolicy=d /=a/</code></pre>
+
+``` syntax
+IE6-P3PSettings/V1: /FIN&amp;CONi=a/ /FIN&amp;CONo=r/ /FIN&amp;CONa=r/ /FIN&amp;CON=r/ 
+/GOV&amp;PUB=r/ /TEL=r/ /UNR=p/ nopolicy=d /=a/
+```
+
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
 <div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>

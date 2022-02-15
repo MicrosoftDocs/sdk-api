@@ -54,23 +54,23 @@ Indicates an MPEG-2 video profile as specified in the MPEG-2 video standard (ISO
 
 ## -enum-fields
 
-### -field AM_MPEG2Profile_Simple
+### -field AM_MPEG2Profile_Simple:1
 
 Simple profile.
 
-### -field AM_MPEG2Profile_Main
+### -field AM_MPEG2Profile_Main:2
 
 Main profile.
 
-### -field AM_MPEG2Profile_SNRScalable
+### -field AM_MPEG2Profile_SNRScalable:3
 
 Signal to Noise Ratio (SNR) scalable profile
 
-### -field AM_MPEG2Profile_SpatiallyScalable
+### -field AM_MPEG2Profile_SpatiallyScalable:4
 
 Spatially scalable profile.
 
-### -field AM_MPEG2Profile_High
+### -field AM_MPEG2Profile_High:5
 
 High profile.
 

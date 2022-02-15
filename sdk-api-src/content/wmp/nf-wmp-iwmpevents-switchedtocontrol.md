@@ -52,7 +52,7 @@ api_name:
 
 The <b>SwitchedToControl</b> event occurs when a remoted Windows Media Player control switches to the docked state.
 
-## -parameters
+
 
 ## -remarks
 

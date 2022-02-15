@@ -54,54 +54,54 @@ Contains flags that describe content-protection capabilities.
 
 ## -enum-fields
 
-### -field D3D11_CONTENT_PROTECTION_CAPS_SOFTWARE
+### -field D3D11_CONTENT_PROTECTION_CAPS_SOFTWARE:0x1
 
 The content protection is implemented in software by the driver.
 
-### -field D3D11_CONTENT_PROTECTION_CAPS_HARDWARE
+### -field D3D11_CONTENT_PROTECTION_CAPS_HARDWARE:0x2
 
 The content protection is implemented in hardware by the GPU.
 
-### -field D3D11_CONTENT_PROTECTION_CAPS_PROTECTION_ALWAYS_ON
+### -field D3D11_CONTENT_PROTECTION_CAPS_PROTECTION_ALWAYS_ON:0x4
 
 Content protection is always applied to a protected surface, regardless of whether the application explicitly enables protection.
 
-### -field D3D11_CONTENT_PROTECTION_CAPS_PARTIAL_DECRYPTION
+### -field D3D11_CONTENT_PROTECTION_CAPS_PARTIAL_DECRYPTION:0x8
 
 The driver can use partially encrypted buffers. If this capability is not present, the entire buffer must be either encrypted or clear.
 
-### -field D3D11_CONTENT_PROTECTION_CAPS_CONTENT_KEY
+### -field D3D11_CONTENT_PROTECTION_CAPS_CONTENT_KEY:0x10
 
 The driver can encrypt data using a separate content key that is encrypted using the session key.
 
-### -field D3D11_CONTENT_PROTECTION_CAPS_FRESHEN_SESSION_KEY
+### -field D3D11_CONTENT_PROTECTION_CAPS_FRESHEN_SESSION_KEY:0x20
 
 The driver can refresh the session key without renegotiating the key.
 
-### -field D3D11_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK
+### -field D3D11_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK:0x40
 
 The driver can read back encrypted data from a protected surface. For more information, see <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-encryptionblt">ID3D11VideoContext::EncryptionBlt</a>.
 
-### -field D3D11_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK_KEY
+### -field D3D11_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK_KEY:0x80
 
 The driver requires a separate key to read encrypted data from a protected surface.
 
-### -field D3D11_CONTENT_PROTECTION_CAPS_SEQUENTIAL_CTR_IV
+### -field D3D11_CONTENT_PROTECTION_CAPS_SEQUENTIAL_CTR_IV:0x100
 
 If the encryption type is <b>D3DCRYPTOTYPE_AES128_CTR</b>, the application must use a sequential count in the <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_aes_ctr_iv">D3D11_AES_CTR_IV</a>  structure.
 
-### -field D3D11_CONTENT_PROTECTION_CAPS_ENCRYPT_SLICEDATA_ONLY
+### -field D3D11_CONTENT_PROTECTION_CAPS_ENCRYPT_SLICEDATA_ONLY:0x200
 
 The driver supports encrypted slice data, but does not support any other encrypted data in the compressed buffer.  The caller should not encrypt any data within the buffer other than the slice data.
 
 <div class="alert"><b>Note</b>  The driver should only report this flag for the specific profiles that have this limitation.</div>
 <div> </div>
 
-### -field D3D11_CONTENT_PROTECTION_CAPS_DECRYPTION_BLT
+### -field D3D11_CONTENT_PROTECTION_CAPS_DECRYPTION_BLT:0x400
 
 The driver can copy encrypted data from one resource to another, decrypting the data as part of the process.
 
-### -field D3D11_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECT_UNCOMPRESSED
+### -field D3D11_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECT_UNCOMPRESSED:0x800
 
 The hardware supports the protection of specific resources. This means that:
 
@@ -111,25 +111,25 @@ The hardware supports the protection of specific resources. This means that:
 </ul>
 <b>Note</b>  This enumeration value is supported starting with Windows 10.
 
-### -field D3D11_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECTED_MEMORY_PAGEABLE
+### -field D3D11_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECTED_MEMORY_PAGEABLE:0x1000
 
 Physical pages of a protected resource can be evicted and potentially paged to disk in low memory conditions without losing the contents of the resource when paged back in. 
 
 <b>Note</b>  This enumeration value is supported starting with Windows 10.
 
-### -field D3D11_CONTENT_PROTECTION_CAPS_HARDWARE_TEARDOWN
+### -field D3D11_CONTENT_PROTECTION_CAPS_HARDWARE_TEARDOWN:0x2000
 
 The hardware supports an automatic teardown mechanism that could trigger hardware keys or protected content to become lost in some conditions.  The application can register to be notified when these events occur.
 
 <b>Note</b>  This enumeration value is supported starting with Windows 10.
 
-### -field D3D11_CONTENT_PROTECTION_CAPS_HARDWARE_DRM_COMMUNICATION
+### -field D3D11_CONTENT_PROTECTION_CAPS_HARDWARE_DRM_COMMUNICATION:0x4000
 
 The secure environment is tightly coupled with the GPU and an <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> should be used for communication between the user mode DRM component and the secure execution environment.
 
 <b>Note</b>  This enumeration value is supported starting with Windows 10.
 
-### -field D3D11_CONTENT_PROTECTION_CAPS_HARDWARE_DRM_COMMUNICATION_MULTI_THREADED
+### -field D3D11_CONTENT_PROTECTION_CAPS_HARDWARE_DRM_COMMUNICATION_MULTI_THREADED:0x8000
 
 ## -see-also
 

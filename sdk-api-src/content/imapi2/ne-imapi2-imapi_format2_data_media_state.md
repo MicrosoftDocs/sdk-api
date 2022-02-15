@@ -58,62 +58,62 @@ Defines values for the possible media states.
 
 ## -enum-fields
 
-### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_UNKNOWN
+### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_UNKNOWN:0
 
 Indicates that the interface does not know the media state.
 
-### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_INFORMATIONAL_MASK
+### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_INFORMATIONAL_MASK:0xf
 
 Reports information (but not errors) about the media state.
 
-### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_UNSUPPORTED_MASK
+### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_UNSUPPORTED_MASK:0xfc00
 
 Reports an unsupported media state.
 
-### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_OVERWRITE_ONLY
+### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_OVERWRITE_ONLY:0x1
 
 Write operations can occur on used portions of the disc.
 
-### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_RANDOMLY_WRITABLE
+### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_RANDOMLY_WRITABLE:0x1
 
 Media is randomly writable.  This indicates that a single session can be written to this disc.
 
 <div class="alert"><b>Note</b>  This value is deprecated and superseded by <b>IMAPI_FORMAT2_DATA_MEDIA_STATE_OVERWRITE_ONLY</b>.</div>
 <div> </div>
 
-### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_BLANK
+### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_BLANK:0x2
 
 Media has never been used, or has been erased.
 
-### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_APPENDABLE
+### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_APPENDABLE:0x4
 
 Media is appendable (supports multiple sessions).
 
-### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_FINAL_SESSION
+### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_FINAL_SESSION:0x8
 
 Media can have only one additional session added to it, or the media does not support multiple sessions.
 
-### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_DAMAGED
+### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_DAMAGED:0x400
 
 Media is not usable by this interface.  The media might require an erase or other recovery.
 
-### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_ERASE_REQUIRED
+### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_ERASE_REQUIRED:0x800
 
 Media must be erased prior to use by this interface.
 
-### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_NON_EMPTY_SESSION
+### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_NON_EMPTY_SESSION:0x1000
 
 Media has a partially written last session, which is not supported by this interface.
 
-### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_WRITE_PROTECTED
+### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_WRITE_PROTECTED:0x2000
 
 Media or drive is write-protected.
 
-### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_FINALIZED
+### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_FINALIZED:0x4000
 
 Media cannot be written to (finalized).
 
-### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_UNSUPPORTED_MEDIA
+### -field IMAPI_FORMAT2_DATA_MEDIA_STATE_UNSUPPORTED_MEDIA:0x8000
 
 Media is not supported by this interface.
 

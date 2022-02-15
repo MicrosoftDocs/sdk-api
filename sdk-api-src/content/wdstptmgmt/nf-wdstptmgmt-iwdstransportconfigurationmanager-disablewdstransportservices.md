@@ -52,7 +52,7 @@ api_name:
 
 Sets all WDS transport services to Disabled mode.
 
-## -parameters
+
 
 ## -returns
 

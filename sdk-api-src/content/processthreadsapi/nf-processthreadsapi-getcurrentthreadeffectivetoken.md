@@ -52,7 +52,7 @@ api_name:
 
 Retrieves a pseudo-handle that you can use as a shorthand way to refer to the token that is currently in effect for the thread, which is the thread token if one exists and the process token otherwise.
 
-## -parameters
+
 
 ## -returns
 

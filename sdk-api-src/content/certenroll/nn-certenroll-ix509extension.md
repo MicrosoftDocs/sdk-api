@@ -51,14 +51,18 @@ api_name:
 ## -description
 
 The <b>IX509Extension</b> interface can be used to define an extension for a <a href="/windows/desktop/SecGloss/c-gly">certificate request</a>. Certificate extensions provide information about key usage, certificate policies and constraints, alternative name forms, and more. An extension consists of an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID), a Boolean value that identifies whether the extension is critical, and a byte array that contains the extension value as shown by the following <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) syntax.
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 Extension ::= SEQUENCE 
 {
    extnId              OBJECT IDENTIFIER,
    critical            BOOLEAN DEFAULT FALSE,
    extnValue           OCTETSTRING
 }
-</code></pre>The Certificate Enrollment API contains the following interfaces, derived from <b>IX509Extension</b>, that you can use to create the various extensions used most commonly in a public key infrastructure (PKI) that relies on a Windows <a href="/windows/desktop/SecGloss/c-gly">certificate server</a>.<div class="alert"><b>Note</b>  Do not use the <b>IX509Extension</b> base interface to represent any extension that can be represented by one of the following interfaces. Enrollment behavior is undefined if the appropriate interface is not used.</div>
+
+```
+The Certificate Enrollment API contains the following interfaces, derived from <b>IX509Extension</b>, that you can use to create the various extensions used most commonly in a public key infrastructure (PKI) that relies on a Windows <a href="/windows/desktop/SecGloss/c-gly">certificate server</a>.<div class="alert"><b>Note</b>  Do not use the <b>IX509Extension</b> base interface to represent any extension that can be represented by one of the following interfaces. Enrollment behavior is undefined if the appropriate interface is not used.</div>
 <div> </div>
 <table>
 <tr>
@@ -200,11 +204,7 @@ Extensions are added to the <b>Attributes</b> structure of a PKCS #10 request an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509Extension</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509Extension</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IX509Extension</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509Extension</b> also has these types of members:
 
 ## -see-also
 

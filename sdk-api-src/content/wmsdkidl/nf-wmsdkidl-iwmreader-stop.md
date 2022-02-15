@@ -55,7 +55,7 @@ api_name:
 
 The <b>Stop</b> method stops reading the file.
 
-## -parameters
+
 
 ## -returns
 

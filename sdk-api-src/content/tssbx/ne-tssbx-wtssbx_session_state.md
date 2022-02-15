@@ -56,15 +56,15 @@ Contains values that indicate the connection state of a user session.
 
 ## -enum-fields
 
-### -field WTSSBX_SESSION_STATE_UNSPEC
+### -field WTSSBX_SESSION_STATE_UNSPEC:0
 
 The session state is unspecified.
 
-### -field WTSSBX_SESSION_STATE_ACTIVE
+### -field WTSSBX_SESSION_STATE_ACTIVE:0x1
 
 The user session is active.
 
-### -field WTSSBX_SESSION_STATE_DISCONNECTED
+### -field WTSSBX_SESSION_STATE_DISCONNECTED:0x2
 
 The user session is disconnected.
 

@@ -56,7 +56,7 @@ The <b>IPSEC_CIPHER_TYPE</b> enumerated type indicates the type of encryption al
 
 ## -enum-fields
 
-### -field IPSEC_CIPHER_TYPE_DES
+### -field IPSEC_CIPHER_TYPE_DES:1
 
 Specifies DES encryption.
 

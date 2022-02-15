@@ -56,7 +56,7 @@ The <b>IKEEXT_AUTHENTICATION_METHOD_TYPE</b> enumerated type specifies the type 
 
 ## -enum-fields
 
-### -field IKEEXT_PRESHARED_KEY
+### -field IKEEXT_PRESHARED_KEY:0
 
 Specifies pre-shared key authentication method. Available only for IKE.
 

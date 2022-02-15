@@ -52,7 +52,7 @@ api_name:
 
 The <b>stopBurn</b> method stops the CD burning process.
 
-## -parameters
+
 
 ## -returns
 

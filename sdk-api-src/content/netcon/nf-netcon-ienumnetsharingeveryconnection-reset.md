@@ -55,7 +55,7 @@ api_name:
 The 
 <b>Reset</b> method causes subsequent enumeration calls to operate from the beginning of the enumeration.
 
-## -parameters
+
 
 ## -returns
 

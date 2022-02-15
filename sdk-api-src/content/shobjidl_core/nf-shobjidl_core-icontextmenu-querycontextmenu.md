@@ -132,7 +132,7 @@ Optional flags that specify how the shortcut menu can be changed. This parameter
 
 This value is not available.
 
-<b>Windows Server 2003 and Windows XP:  </b>0x00000040. A static menu is being constructed. Only the browser should use this flag; all other shortcut menu extensions should ignore it.
+<b>Windows Server 2003 and Windows XP:</b> 0x00000040. A static menu is being constructed. Only the browser should use this flag; all other shortcut menu extensions should ignore it.
 
 
 

@@ -53,7 +53,7 @@ api_name:
 
 The <code>Unadvise</code> method terminates the advise link established with the <a href="/windows/desktop/api/strmif/nn-strmif-ioverlaynotify">IOverlayNotify</a> interface.
 
-## -parameters
+
 
 ## -returns
 

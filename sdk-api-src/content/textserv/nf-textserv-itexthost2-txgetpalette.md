@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the color palette of the rich edit control.
 
-## -parameters
+
 
 ## -returns
 

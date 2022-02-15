@@ -52,7 +52,7 @@ api_name:
 
 Indicates whether a generic operation should continue.
 
-## -parameters
+
 
 ## -returns
 

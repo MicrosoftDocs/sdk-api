@@ -56,7 +56,7 @@ The <b>CryptProtectMemory</b> function <a href="/windows/desktop/SecGloss/e-gly"
 
 ### -param pDataIn [in, out]
 
-A pointer to the block of memory to encrypt. The <i>cbData</i> parameter specifies the number of bytes that will be encrypted. If the data contained in the memory space is smaller than the number of bytes specified, data outside of the intended block will be encrypted. If it is larger than <i>cbData</i> bytes, then only the first <i>cbData</i> bytes will be encrypted.
+A pointer to the block of memory to encrypt. The <i>cbDataIn</i> parameter specifies the number of bytes that will be encrypted. If the data contained in the memory space is smaller than the number of bytes specified, data outside of the intended block will be encrypted. If it is larger than <i>cbDataIn</i> bytes, then only the first <i>cbDataIn</i> bytes will be encrypted.
 
 ### -param cbDataIn [in]
 

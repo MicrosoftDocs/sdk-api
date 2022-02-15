@@ -55,7 +55,7 @@ The
 
 ## -enum-fields
 
-### -field PCS_PHONENAME
+### -field PCS_PHONENAME:0
 
 Name of the phone.
 

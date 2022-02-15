@@ -63,7 +63,7 @@ Retrieves information about the memory usage of the specified process.
 
 A handle to the process. The handle must have the **PROCESS_QUERY_INFORMATION** or **PROCESS_QUERY_LIMITED_INFORMATION** access right. For more information, see <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
-**Windows Server 2003 and Windows XP:  **The handle must have the **PROCESS_QUERY_INFORMATION** and **PROCESS_VM_READ** access rights.
+**Windows Server 2003 and Windows XP:** The handle must have the **PROCESS_QUERY_INFORMATION** and **PROCESS_VM_READ** access rights.
 
 ### -param ppsmemCounters [out]
 

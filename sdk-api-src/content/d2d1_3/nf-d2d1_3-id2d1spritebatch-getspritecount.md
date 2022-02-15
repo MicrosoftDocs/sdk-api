@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the number of sprites in this sprite batch.
 
-## -parameters
+
 
 ## -returns
 

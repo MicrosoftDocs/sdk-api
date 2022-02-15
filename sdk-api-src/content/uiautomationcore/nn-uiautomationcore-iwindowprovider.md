@@ -55,15 +55,11 @@ Provides
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWindowProvider</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IWindowProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWindowProvider</b> also has these types of members:
 
 ## -remarks
 
-Implemented on a Microsoft UI Automation provider that must support the <a href="/windows/desktop/WinAuto/uiauto-implementingwindow">Window</a> control pattern.
+Implemented on a Microsoft UI Automation provider that must support the [Window Control Pattern](/windows/win32/winauto/uiauto-implementingwindow) control pattern.
 
 ## -see-also
 

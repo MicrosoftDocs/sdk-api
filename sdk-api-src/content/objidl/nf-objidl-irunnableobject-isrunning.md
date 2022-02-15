@@ -52,7 +52,7 @@ api_name:
 
 Determines whether an object is currently in the running state.
 
-## -parameters
+
 
 ## -returns
 

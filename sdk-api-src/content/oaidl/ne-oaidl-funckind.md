@@ -56,7 +56,7 @@ Specifies the function type.
 
 ## -enum-fields
 
-### -field FUNC_VIRTUAL
+### -field FUNC_VIRTUAL:0
 
 The function is accessed the same as PUREVIRTUAL, except the function has an implementation.
 

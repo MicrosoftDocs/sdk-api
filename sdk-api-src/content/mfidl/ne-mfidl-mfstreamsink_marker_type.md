@@ -56,7 +56,7 @@ Defines stream marker information for the <a href="/windows/desktop/api/mfidl/nf
 
 ## -enum-fields
 
-### -field MFSTREAMSINK_MARKER_DEFAULT
+### -field MFSTREAMSINK_MARKER_DEFAULT:0
 
 This marker is for the application's use and does not convey any information to the stream sink.
 

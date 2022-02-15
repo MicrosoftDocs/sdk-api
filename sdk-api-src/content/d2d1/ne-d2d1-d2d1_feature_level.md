@@ -54,7 +54,7 @@ Describes the minimum DirectX support required for hardware rendering by a rende
 
 ## -enum-fields
 
-### -field D2D1_FEATURE_LEVEL_DEFAULT
+### -field D2D1_FEATURE_LEVEL_DEFAULT:0
 
 Direct2D determines whether the video card provides adequate hardware rendering support.
 
@@ -66,7 +66,7 @@ The video card must support DirectX 9.
 
 The video card must support DirectX 10.
 
-### -field D2D1_FEATURE_LEVEL_FORCE_DWORD
+### -field D2D1_FEATURE_LEVEL_FORCE_DWORD:0xffffffff
 
 ## -see-also
 

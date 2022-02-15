@@ -59,7 +59,7 @@ These enumerated values are used in the <a href="/windows/desktop/api/mbnapi/ns-
 
 ## -enum-fields
 
-### -field MBN_SMS_FLAG_ALL
+### -field MBN_SMS_FLAG_ALL:0
 
 Refers to all the messages in the device message store.
 

@@ -118,4 +118,4 @@ Initializes the new time object to the value in the parameter.
 </tr>
 </table>
 
-## -parameters
+

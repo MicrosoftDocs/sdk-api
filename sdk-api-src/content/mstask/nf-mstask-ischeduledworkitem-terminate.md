@@ -54,7 +54,7 @@ api_name:
 
 This method ends the execution of the <a href="/windows/desktop/TaskSchd/w">work item</a>.
 
-## -parameters
+
 
 ## -returns
 

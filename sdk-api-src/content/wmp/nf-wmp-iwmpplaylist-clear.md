@@ -52,7 +52,7 @@ api_name:
 
 The <b>clear</b> method is reserved for future use.
 
-## -parameters
+
 
 ## -returns
 

@@ -57,33 +57,33 @@ Identifies the type of thread information that will be written to the minidump f
 
 ## -enum-fields
 
-### -field ThreadWriteThread
+### -field ThreadWriteThread:0x0001
 
 Only basic thread information will be written to the minidump file.
 
-### -field ThreadWriteStack
+### -field ThreadWriteStack:0x0002
 
 Basic thread and thread stack information will be written to the minidump file.
 
-### -field ThreadWriteContext
+### -field ThreadWriteContext:0x0004
 
 The entire thread context will be written to the minidump file.
 
-### -field ThreadWriteBackingStore
+### -field ThreadWriteBackingStore:0x0008
 
 <b>Intel Itanium:  </b>The backing store memory of every thread will be written to the minidump file.
 
-### -field ThreadWriteInstructionWindow
+### -field ThreadWriteInstructionWindow:0x0010
 
 A small amount of memory surrounding each thread's instruction pointer will be written to the minidump file. This allows instructions near a thread's instruction pointer to be disassembled even if an executable image matching the module cannot be found.
 
-### -field ThreadWriteThreadData
+### -field ThreadWriteThreadData:0x0020
 
 When the minidump type includes <b>MiniDumpWithProcessThreadData</b>, this flag is set. The callback function can clear this flag to control which threads provide complete thread data in the minidump file.
 
 <b>DbgHelp 5.1:  </b>This value is not supported.
 
-### -field ThreadWriteThreadInfo
+### -field ThreadWriteThreadInfo:0x0040
 
 When the minidump type includes <b>MiniDumpWithThreadInfo</b>, this flag is set. The callback function can clear this flag to control which threads provide thread state information in the minidump file. For more information, see <a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_thread_info">MINIDUMP_THREAD_INFO</a>.
 

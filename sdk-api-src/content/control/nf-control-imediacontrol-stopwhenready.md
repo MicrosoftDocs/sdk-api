@@ -53,7 +53,7 @@ api_name:
 
 The <code>StopWhenReady</code> method pauses the filter graph, allowing filters to queue data, and then stops the filter graph.
 
-## -parameters
+
 
 ## -returns
 

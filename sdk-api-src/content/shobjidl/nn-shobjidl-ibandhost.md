@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.IBandHost
 title: IBandHost (shobjidl.h)
-description: Exposes methods that create and destroy bands and specifiy their availability.
+description: Exposes methods that create and destroy bands and specify their availability.
 helpviewer_keywords: ["IBandHost","IBandHost interface [Windows Shell]","IBandHost interface [Windows Shell]","described","_shell_IBandHost","shell.IBandHost","shobjidl/IBandHost"]
 old-location: shell\IBandHost.htm
 tech.root: shell
@@ -50,12 +50,9 @@ api_name:
 
 ## -description
 
-Exposes methods that create and destroy bands and specifiy their availability.
+Exposes methods that create and destroy bands and specify their availability.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBandHost</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBandHost</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IBandHost</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBandHost</b> also has these types of members:
 

@@ -50,7 +50,7 @@ api_name:
 
 The Reset method resets the APO to its original state. This method does not cause any changes in the connection objects that are attached to the input or the output of the APO.
 
-## -parameters
+
 
 ## -returns
 

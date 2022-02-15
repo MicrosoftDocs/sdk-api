@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the color context type.
 
-## -parameters
+
 
 ## -returns
 

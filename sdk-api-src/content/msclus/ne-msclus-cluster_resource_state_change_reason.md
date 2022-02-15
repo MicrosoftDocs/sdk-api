@@ -59,7 +59,7 @@ Used by the
 
 ## -enum-fields
 
-### -field eResourceStateChangeReasonUnknown
+### -field eResourceStateChangeReasonUnknown:0
 
 This reason code is never sent by the cluster. 
        <a href="/previous-versions/windows/desktop/mscs/resource-dlls">Resource DLLs</a> should use this value to initialize a local 

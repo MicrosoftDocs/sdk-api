@@ -115,7 +115,7 @@ Reserved. Must be zero.
 
 ### -field DeinterlaceTechnology
 
-Identifies the deinteracing technique used by the device. This value is a bitwise <b>OR</b> of one or more of the following flags.
+Identifies the deinterlacing technique used by the device. This value is a bitwise <b>OR</b> of one or more of the following flags.
 
 <table>
 <tr>

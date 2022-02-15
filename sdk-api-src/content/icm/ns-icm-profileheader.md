@@ -120,8 +120,8 @@ Bit flags containing hints that the CMM uses to interpret the profile data. The 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

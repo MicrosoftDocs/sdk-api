@@ -72,7 +72,9 @@ The following code example shows how to use this method:
 
 
 
-<pre class="syntax" xml:space="preserve"><code> 
+
+``` syntax
+ 
 D3D12_MESSAGE_CATEGORY cats[] = { ..., ..., ... };
 D3D12_MESSAGE_SEVERITY sevs[] = { ..., ..., ... };
 D3D12_MESSAGE_ID ids[] = { ..., ..., ... };
@@ -95,7 +97,9 @@ filter.AllowList.pIDList = ids;
 // The following single call sets all of the preceding information.
 hr = infoQueue-&gt;AddRetrievalFilterEntries( &amp;filter );
  
-</code></pre>
+
+```
+
 
 ## -see-also
 

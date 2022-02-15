@@ -52,7 +52,7 @@ api_name:
 
 Returns a vector, each of whose components are one.
 
-## -parameters
+
 
 ## -returns
 

@@ -58,7 +58,7 @@ The values of the <b>IASOSTYPE</b> enumeration type specify what type of operati
 
 ## -enum-fields
 
-### -field SYSTEM_TYPE_NT4_WORKSTATION
+### -field SYSTEM_TYPE_NT4_WORKSTATION:0
 
 Not supported.
 

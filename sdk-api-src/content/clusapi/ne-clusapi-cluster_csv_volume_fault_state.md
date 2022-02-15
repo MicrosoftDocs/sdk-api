@@ -58,23 +58,23 @@ Defines the various fault states for a cluster shared volume (CSV).
 
 ## -enum-fields
 
-### -field VolumeStateNoFaults
+### -field VolumeStateNoFaults:0x00000000
 
 The CSV has no faults.
 
-### -field VolumeStateNoDirectIO
+### -field VolumeStateNoDirectIO:0x00000001
 
 Direct I/O is disabled for the CSV.
 
-### -field VolumeStateNoAccess
+### -field VolumeStateNoAccess:0x00000002
 
 The CSV can not be accessed.
 
-### -field VolumeStateInMaintenance
+### -field VolumeStateInMaintenance:0x00000004
 
 The CSV is in maintenance mode.
 
-### -field VolumeStateDismounted
+### -field VolumeStateDismounted:0x00000008
 
 The CSV is dismounted.
 

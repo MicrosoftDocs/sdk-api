@@ -56,23 +56,23 @@ Specifies the state of the cookie.
 
 ## -enum-fields
 
-### -field XHR_COOKIE_STATE_UNKNOWN
+### -field XHR_COOKIE_STATE_UNKNOWN:0
 
 The state of the cookie is unknown.
 
-### -field XHR_COOKIE_STATE_ACCEPT
+### -field XHR_COOKIE_STATE_ACCEPT:0x1
 
 The cookie has been accepted by the client.
 
-### -field XHR_COOKIE_STATE_PROMPT
+### -field XHR_COOKIE_STATE_PROMPT:0x2
 
 The user is being prompted to accept the cookie form the server.
 
-### -field XHR_COOKIE_STATE_LEASH
+### -field XHR_COOKIE_STATE_LEASH:0x3
 
-### -field XHR_COOKIE_STATE_DOWNGRADE
+### -field XHR_COOKIE_STATE_DOWNGRADE:0x4
 
-### -field XHR_COOKIE_STATE_REJECT
+### -field XHR_COOKIE_STATE_REJECT:0x5
 
 The cookie has been rejected.
 

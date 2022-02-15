@@ -87,7 +87,7 @@ Value of type <b>ULONG</b> that specifies flags that control the behavior of WAB
 
 #### WAB_USE_OE_SENDMAIL (WAB_USE_OE_SENDMAIL)
 
-Indicates that WAB is to use Outlook Express for e-mail before checking for a default Simple MAPI client. Default behaviour is to check for the Simple MAPI client first.
+Indicates that WAB is to use Outlook Express for e-mail before checking for a default Simple MAPI client. Default behavior is to check for the Simple MAPI client first.
 
 
 

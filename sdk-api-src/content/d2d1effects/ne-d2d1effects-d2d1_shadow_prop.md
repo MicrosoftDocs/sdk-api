@@ -54,7 +54,7 @@ Identifiers for properties of the <a href="/windows/desktop/Direct2D/drop-shadow
 
 ## -enum-fields
 
-### -field D2D1_SHADOW_PROP_BLUR_STANDARD_DEVIATION
+### -field D2D1_SHADOW_PROP_BLUR_STANDARD_DEVIATION:0
 
 The amount of blur to be applied to the alpha channel of the image. You can compute the blur radius of the kernel by multiplying the standard deviation by 3.
             The units of both the standard deviation and blur radius are DIPs.
@@ -66,7 +66,7 @@ The type is FLOAT.
 
 The default value is 3.0f.
 
-### -field D2D1_SHADOW_PROP_COLOR
+### -field D2D1_SHADOW_PROP_COLOR:1
 
 The color of the drop shadow. This property is a D2D1_VECTOR_4F defined as: (R, G, B, A). You must specify this color in straight alpha.
             
@@ -75,7 +75,7 @@ The type is <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_4f">D2D1
 
 The default value is {0.0f, 0.0f, 0.0f, 1.0f}.
 
-### -field D2D1_SHADOW_PROP_OPTIMIZATION
+### -field D2D1_SHADOW_PROP_OPTIMIZATION:2
 
 The level of performance optimization.
             
@@ -84,4 +84,4 @@ The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_shadow
 
 The default value is D2D1_SHADOW_OPTIMIZATION_BALANCED.
 
-### -field D2D1_SHADOW_PROP_FORCE_DWORD
+### -field D2D1_SHADOW_PROP_FORCE_DWORD:0xffffffff

@@ -56,23 +56,23 @@ Defines which aspects of an interpolator  depend on a given input.
 
 ## -enum-fields
 
-### -field UI_ANIMATION_DEPENDENCY_NONE
+### -field UI_ANIMATION_DEPENDENCY_NONE:0
 
 No aspect depends on the input.
 
-### -field UI_ANIMATION_DEPENDENCY_INTERMEDIATE_VALUES
+### -field UI_ANIMATION_DEPENDENCY_INTERMEDIATE_VALUES:0x1
 
 The intermediate values depend on the input.
 
-### -field UI_ANIMATION_DEPENDENCY_FINAL_VALUE
+### -field UI_ANIMATION_DEPENDENCY_FINAL_VALUE:0x2
 
 The final value depends on the input.
 
-### -field UI_ANIMATION_DEPENDENCY_FINAL_VELOCITY
+### -field UI_ANIMATION_DEPENDENCY_FINAL_VELOCITY:0x4
 
 The final velocity depends on the input.
 
-### -field UI_ANIMATION_DEPENDENCY_DURATION
+### -field UI_ANIMATION_DEPENDENCY_DURATION:0x8
 
 The duration depends on the input.
 

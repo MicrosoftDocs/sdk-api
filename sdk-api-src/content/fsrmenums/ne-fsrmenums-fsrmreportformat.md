@@ -56,27 +56,27 @@ Defines the file formats that you can use when generating reports.
 
 ## -enum-fields
 
-### -field FsrmReportFormat_Unknown
+### -field FsrmReportFormat_Unknown:0
 
 The report format is unknown. Do not use this flag.
 
-### -field FsrmReportFormat_DHtml
+### -field FsrmReportFormat_DHtml:1
 
 The report is rendered in Dynamic HTML (DHTML).
 
-### -field FsrmReportFormat_Html
+### -field FsrmReportFormat_Html:2
 
 The report is rendered in HTML.
 
-### -field FsrmReportFormat_Txt
+### -field FsrmReportFormat_Txt:3
 
 The report is rendered as a text file.
 
-### -field FsrmReportFormat_Csv
+### -field FsrmReportFormat_Csv:4
 
 The report is rendered as a comma-separated value file.
 
-### -field FsrmReportFormat_Xml
+### -field FsrmReportFormat_Xml:5
 
 The report is rendered in XML.
 

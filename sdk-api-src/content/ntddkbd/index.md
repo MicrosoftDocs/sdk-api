@@ -13,8 +13,11 @@ f1_keywords:
 
 # Ntddkbd.h header
 
-
 ## -description
 
-This header file defines types and constants used to access the keyboard device. For more information, see [Human Interface Devices Reference](../_hid/index.md)
+This is the include file that defines all constants and types for accessing the keyboard device.
+
+For more information, see:
+
+- [Human Interface Devices Reference](../_hid/index.md)
 

@@ -70,11 +70,15 @@ If the method succeeds, the return value is S_OK. Otherwise, it is E_UNEXPECTED.
 
 The application type is defined by the following enum.
 
-<pre class="syntax" xml:space="preserve"><code>typedef enum tagApplicationType { 
+
+``` syntax
+typedef enum tagApplicationType { 
     ServerApplication, 
     LibraryApplication 
 } ApplicationType;
-</code></pre>
+
+```
+
 
 ## -see-also
 

@@ -68,7 +68,7 @@ A pointer to the interface that represents the item that will be overwritten.
 
 ### -param pResponse [out]
 
-Type: <b><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-fde_shareviolation_response">FDE_SHAREVIOLATION_RESPONSE</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-fde_overwrite_response">FDE_OVERWRITE_RESPONSE</a>*</b>
 
 A pointer to a value from the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-fde_overwrite_response">FDE_OVERWRITE_RESPONSE</a> enumeration indicating the response to the potential overwrite action.
 

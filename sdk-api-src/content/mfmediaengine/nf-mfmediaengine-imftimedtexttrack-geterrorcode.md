@@ -52,7 +52,7 @@ api_name:
 
 Gets a value indicating the error type of the latest error associated with the track.
 
-## -parameters
+
 
 ## -returns
 

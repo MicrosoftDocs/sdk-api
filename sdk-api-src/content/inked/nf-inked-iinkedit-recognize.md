@@ -53,7 +53,7 @@ api_name:
 
 Performs recognition on an <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection and returns recognition results.
 
-## -parameters
+
 
 ## -returns
 

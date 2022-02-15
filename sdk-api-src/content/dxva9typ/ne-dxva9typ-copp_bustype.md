@@ -56,27 +56,27 @@ Specifies the type of I/O bus used by the graphics adapter.
 
 ## -enum-fields
 
-### -field COPP_BusType_Unknown
+### -field COPP_BusType_Unknown:0
 
 Unknown bus type.
 
-### -field COPP_BusType_PCI
+### -field COPP_BusType_PCI:1
 
 PCI bus.
 
-### -field COPP_BusType_PCIX
+### -field COPP_BusType_PCIX:2
 
 PCI-X bus.
 
-### -field COPP_BusType_PCIExpress
+### -field COPP_BusType_PCIExpress:3
 
 PCI Express bus.
 
-### -field COPP_BusType_AGP
+### -field COPP_BusType_AGP:4
 
 AGP bus.
 
-### -field COPP_BusType_Integrated
+### -field COPP_BusType_Integrated:0x80000000
 
 Integrated bus. This flag can be combined with the other flags. This flag indicates that the command and status signals between the graphics adapter and other subsystems on the computer are not available on an expansion bus that has a public specification and standard connector type, unless it is a memory bus.
 

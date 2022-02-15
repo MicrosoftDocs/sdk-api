@@ -53,7 +53,7 @@ api_name:
 The 
 <b>StopRinger</b> method ceases any incoming ring that is currently being produced. If no ring is being produced, the method performs no action and returns success.
 
-## -parameters
+
 
 ## -returns
 

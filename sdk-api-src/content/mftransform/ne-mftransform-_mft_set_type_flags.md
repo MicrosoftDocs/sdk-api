@@ -54,7 +54,7 @@ Defines flags for the setting or testing the media type on a Media Foundation tr
 
 ## -enum-fields
 
-### -field MFT_SET_TYPE_TEST_ONLY
+### -field MFT_SET_TYPE_TEST_ONLY:0x1
 
 Test the proposed media type, but do not set it.
 

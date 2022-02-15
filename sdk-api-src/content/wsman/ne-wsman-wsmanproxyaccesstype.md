@@ -54,19 +54,19 @@ Defines the proxy access type.
 
 ## -enum-fields
 
-### -field WSMAN_OPTION_PROXY_IE_PROXY_CONFIG
+### -field WSMAN_OPTION_PROXY_IE_PROXY_CONFIG:1
 
 Use the Internet Explorer proxy configuration for the current user. This is the default setting.
 
-### -field WSMAN_OPTION_PROXY_WINHTTP_PROXY_CONFIG
+### -field WSMAN_OPTION_PROXY_WINHTTP_PROXY_CONFIG:2
 
 Use the proxy settings configured for WinHTTP.
 
-### -field WSMAN_OPTION_PROXY_AUTO_DETECT
+### -field WSMAN_OPTION_PROXY_AUTO_DETECT:4
 
 Force autodetection of a proxy.
 
-### -field WSMAN_OPTION_PROXY_NO_PROXY_SERVER
+### -field WSMAN_OPTION_PROXY_NO_PROXY_SERVER:8
 
 Do not use a proxy server. All host names are resolved locally.
 

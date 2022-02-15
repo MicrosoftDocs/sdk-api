@@ -55,7 +55,7 @@ The <b>TextRenderingHint</b> enumeration specifies the process used to render te
 
 ## -enum-fields
 
-### -field TextRenderingHintSystemDefault
+### -field TextRenderingHintSystemDefault:0
 
 Specifies that a character is drawn using the currently selected system font smoothing mode (also called a rendering hint).
 

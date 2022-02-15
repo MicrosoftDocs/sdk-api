@@ -61,79 +61,79 @@ Defines the set enumeration values that can be used to specify the underlying RA
 
 ## -enum-fields
 
-### -field VDS_RT_UNKNOWN
+### -field VDS_RT_UNKNOWN:0
 
 The RAID level is unknown.
 
-### -field VDS_RT_RAID0
+### -field VDS_RT_RAID0:10
 
 RAID level 0.
 
-### -field VDS_RT_RAID1
+### -field VDS_RT_RAID1:11
 
 RAID level 1.
 
-### -field VDS_RT_RAID2
+### -field VDS_RT_RAID2:12
 
 RAID level 2.
 
-### -field VDS_RT_RAID3
+### -field VDS_RT_RAID3:13
 
 RAID level 3.
 
-### -field VDS_RT_RAID4
+### -field VDS_RT_RAID4:14
 
 RAID level 4.
 
-### -field VDS_RT_RAID5
+### -field VDS_RT_RAID5:15
 
 RAID level 5.
 
-### -field VDS_RT_RAID6
+### -field VDS_RT_RAID6:16
 
 RAID level 6.
 
-### -field VDS_RT_RAID01
+### -field VDS_RT_RAID01:17
 
 RAID level 0+1.
 
-### -field VDS_RT_RAID03
+### -field VDS_RT_RAID03:18
 
 RAID level 0+3.
 
-### -field VDS_RT_RAID05
+### -field VDS_RT_RAID05:19
 
 RAID level 0+5.
 
-### -field VDS_RT_RAID10
+### -field VDS_RT_RAID10:20
 
 RAID level 1+0.
 
-### -field VDS_RT_RAID15
+### -field VDS_RT_RAID15:21
 
 RAID level 1+5.
 
-### -field VDS_RT_RAID30
+### -field VDS_RT_RAID30:22
 
 RAID level 3+0.
 
-### -field VDS_RT_RAID50
+### -field VDS_RT_RAID50:23
 
 RAID level 5+0.
 
-### -field VDS_RT_RAID51
+### -field VDS_RT_RAID51:24
 
 RAID level 5+1.
 
-### -field VDS_RT_RAID53
+### -field VDS_RT_RAID53:25
 
 RAID level 5+3.
 
-### -field VDS_RT_RAID60
+### -field VDS_RT_RAID60:26
 
 RAID level 6+0.
 
-### -field VDS_RT_RAID61
+### -field VDS_RT_RAID61:27
 
 RAID level 6+1.
 

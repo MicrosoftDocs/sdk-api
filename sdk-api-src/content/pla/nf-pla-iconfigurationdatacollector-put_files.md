@@ -66,7 +66,9 @@ PLA copies the files to the location specified in the <a href="/previous-version
 
 The property performs a depth-first search using the  <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a> and  <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a> functions. For example, assuming the following directory structure:
 
-<pre class="syntax" xml:space="preserve"><code>MyDir
+
+``` syntax
+MyDir
     Subdir1
         Subdir1.1
             a.txt
@@ -83,10 +85,14 @@ The property performs a depth-first search using the  <a href="/windows/desktop/
                 m.txt
     q.txt  (folder in MyDir)
     s.txt  (folder in MyDir)
-</code></pre>
+
+```
+
 PLA would collect the files in the following order (assuming that no limits were reached):
 
-<pre class="syntax" xml:space="preserve"><code>q.txt
+
+``` syntax
+q.txt
 s.txt
 g.txt
 h.txt
@@ -96,7 +102,9 @@ c.txt
 y.txt
 z.txt
 m.txt
-</code></pre>
+
+```
+
 
 ## -see-also
 

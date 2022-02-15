@@ -56,7 +56,7 @@ Indicates information about initiating a conversation.
 
 ## -enum-fields
 
-### -field WPC_ARGS_CONVERSATIONINITEVENT_APPNAME
+### -field WPC_ARGS_CONVERSATIONINITEVENT_APPNAME:0
 
 The name of the application used for starting the conversation.
 

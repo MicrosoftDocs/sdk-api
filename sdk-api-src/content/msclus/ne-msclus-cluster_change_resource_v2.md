@@ -52,47 +52,47 @@ Defines the list of notifications that are generated for a resource.
 
 ## -enum-fields
 
-### -field CLUSTER_CHANGE_RESOURCE_COMMON_PROPERTY_V2
+### -field CLUSTER_CHANGE_RESOURCE_COMMON_PROPERTY_V2:0x1
 
 Indicates that the resource's common properties have changed.
 
-### -field CLUSTER_CHANGE_RESOURCE_PRIVATE_PROPERTY_V2
+### -field CLUSTER_CHANGE_RESOURCE_PRIVATE_PROPERTY_V2:0x2
 
 Indicates that the resource's private properties have changed.
 
-### -field CLUSTER_CHANGE_RESOURCE_STATE_V2
+### -field CLUSTER_CHANGE_RESOURCE_STATE_V2:0x4
 
 Indicates that the state of the resource has changed.
 
-### -field CLUSTER_CHANGE_RESOURCE_OWNER_GROUP_V2
+### -field CLUSTER_CHANGE_RESOURCE_OWNER_GROUP_V2:0x8
 
 Indicates that the owner group of the resource has changed.
 
-### -field CLUSTER_CHANGE_RESOURCE_DEPENDENCIES_V2
+### -field CLUSTER_CHANGE_RESOURCE_DEPENDENCIES_V2:0x10
 
 Indicates that the resource's dependencies have changed.
 
-### -field CLUSTER_CHANGE_RESOURCE_DEPENDENTS_V2
+### -field CLUSTER_CHANGE_RESOURCE_DEPENDENTS_V2:0x20
 
 Indicates that the resource's dependents have changed.
 
-### -field CLUSTER_CHANGE_RESOURCE_POSSIBLE_OWNERS_V2
+### -field CLUSTER_CHANGE_RESOURCE_POSSIBLE_OWNERS_V2:0x40
 
 Indicates that the resource's possible owner nodes have changed.
 
-### -field CLUSTER_CHANGE_RESOURCE_DELETED_V2
+### -field CLUSTER_CHANGE_RESOURCE_DELETED_V2:0x80
 
 Indicates that the resource has been deleted.
 
-### -field CLUSTER_CHANGE_RESOURCE_DLL_UPGRADED_V2
+### -field CLUSTER_CHANGE_RESOURCE_DLL_UPGRADED_V2:0x100
 
 Indicates that the resource's DLL has been upgraded.
 
-### -field CLUSTER_CHANGE_RESOURCE_HANDLE_CLOSE_V2
+### -field CLUSTER_CHANGE_RESOURCE_HANDLE_CLOSE_V2:0x200
 
 Indicates that the resource's context handle was closed.
 
-### -field CLUSTER_CHANGE_RESOURCE_TERMINAL_STATE_V2
+### -field CLUSTER_CHANGE_RESOURCE_TERMINAL_STATE_V2:0x400
 
 TBD
 

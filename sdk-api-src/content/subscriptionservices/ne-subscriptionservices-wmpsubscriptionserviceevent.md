@@ -56,19 +56,19 @@ The <b>WMPSubscriptionServiceEvent</b> enumeration type defines the types of ser
 
 ## -enum-fields
 
-### -field wmpsseCurrentBegin
+### -field wmpsseCurrentBegin:1
 
 The online store is active.
 
-### -field wmpsseCurrentEnd
+### -field wmpsseCurrentEnd:2
 
 The online store is no longer active.
 
-### -field wmpsseFullBegin
+### -field wmpsseFullBegin:3
 
 The online store is the current active music store.
 
-### -field wmpsseFullEnd
+### -field wmpsseFullEnd:4
 
 The online store is no longer the current active music store.
 

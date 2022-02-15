@@ -54,7 +54,7 @@ Defines constants that specify whether the element was added to or removed from 
 
 ## -enum-fields
 
-### -field Add
+### -field Add:0
 
 The child element was added to the visual tree of the parent element.
 

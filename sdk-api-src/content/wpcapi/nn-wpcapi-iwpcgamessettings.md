@@ -54,8 +54,5 @@ Accesses games settings for the user.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWPCGamesSettings</b> interface inherits from <b>IWPCSettings</b>. <b>IWPCGamesSettings</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWPCGamesSettings</b> interface inherits from <b>IWPCSettings</b>. <b>IWPCGamesSettings</b> also has these types of members:
 

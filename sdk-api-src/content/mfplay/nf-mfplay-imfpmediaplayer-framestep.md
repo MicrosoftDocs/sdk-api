@@ -56,7 +56,7 @@ api_name:
 
 Steps forward one video frame.
 
-## -parameters
+
 
 ## -returns
 

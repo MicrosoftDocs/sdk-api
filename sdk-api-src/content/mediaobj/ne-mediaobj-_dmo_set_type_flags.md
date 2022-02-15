@@ -54,11 +54,11 @@ The <code>DMO_SET_TYPE_FLAGS</code> enumeration defines flags for setting the me
 
 ## -enum-fields
 
-### -field DMO_SET_TYPEF_TEST_ONLY
+### -field DMO_SET_TYPEF_TEST_ONLY:0x1
 
 Test the media type but do not set it.
 
-### -field DMO_SET_TYPEF_CLEAR
+### -field DMO_SET_TYPEF_CLEAR:0x2
 
 Clear the media type that was set for the stream.
 

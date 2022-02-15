@@ -331,7 +331,9 @@ The exact interpretation of RESOURCE_CONTEXT in the <i>dwScope</i> parameter dep
 The 
 <b>WNetOpenEnum</b> function is used to begin enumeration of the resources in a single container. The following examples show the hierarchical structure of a Microsoft LAN Manager network and a Novell NetWare network and identify the containers.
 
-<pre class="syntax" xml:space="preserve"><code>LanMan (container, in this case the provider) 
+
+``` syntax
+LanMan (container, in this case the provider) 
   ACCOUNTING (container, in this case the domain) 
     \\ACCTSPAY (container, in this case the server) 
       PAYFILES (disk) 
@@ -342,7 +344,9 @@ NetWare (container, in this case the provider)
     SYS (disk, first one on any NetWare server) 
     ANOTHERVOLUME (disk) 
     LASERJET (print) 
-</code></pre>
+
+```
+
 
 #### Examples
 

@@ -55,7 +55,7 @@ api_name:
 The 
 <b>DisableSharing</b> method disables sharing on this connection. It also disables all mappings on this connection. It does not disable Internet Connection Firewall or bridge configuration.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,7 +54,7 @@ Specifies the shape in which sound is emitted by an <a href="/windows/desktop/ap
 
 ## -enum-fields
 
-### -field SpatialAudioHrtfDirectivity_OmniDirectional
+### -field SpatialAudioHrtfDirectivity_OmniDirectional:0
 
 The sound is emitted in all directions.
 

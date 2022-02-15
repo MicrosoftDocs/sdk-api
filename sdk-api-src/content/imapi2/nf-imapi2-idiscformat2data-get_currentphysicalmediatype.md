@@ -56,7 +56,7 @@ Retrieves the type of media in the disc device.
 
 ### -param value [out]
 
-Type of media in the disc device. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a>enumeration type.
+Type of media in the disc device. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a> enumeration type.
 
 ## -returns
 

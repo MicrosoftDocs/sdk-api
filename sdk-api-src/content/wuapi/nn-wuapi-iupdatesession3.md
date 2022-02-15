@@ -54,10 +54,7 @@ Represents a session in which the caller can perform operations that involve upd
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateSession3</b> interface inherits from <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesession2">IUpdateSession2</a>. <b>IUpdateSession3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IUpdateSession3</b> interface inherits from <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesession2">IUpdateSession2</a>. <b>IUpdateSession3</b> also has these types of members:
 
 ## -see-also
 

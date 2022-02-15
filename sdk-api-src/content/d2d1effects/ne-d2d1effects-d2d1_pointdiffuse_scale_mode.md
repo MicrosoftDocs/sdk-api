@@ -55,28 +55,28 @@ The interpolation mode the <a href="/windows/desktop/Direct2D/point-diffuse-ligh
 
 ## -enum-fields
 
-### -field D2D1_POINTDIFFUSE_SCALE_MODE_NEAREST_NEIGHBOR
+### -field D2D1_POINTDIFFUSE_SCALE_MODE_NEAREST_NEIGHBOR:0
 
 Samples the nearest single point and uses that. This mode uses less processing time, but outputs the lowest quality image.
 
-### -field D2D1_POINTDIFFUSE_SCALE_MODE_LINEAR
+### -field D2D1_POINTDIFFUSE_SCALE_MODE_LINEAR:1
 
 Uses a four point sample and linear interpolation. This mode outputs a higher quality image than nearest neighbor.
 
-### -field D2D1_POINTDIFFUSE_SCALE_MODE_CUBIC
+### -field D2D1_POINTDIFFUSE_SCALE_MODE_CUBIC:2
 
 Uses a 16 sample cubic kernel for interpolation. This mode uses the most processing time, but outputs a higher quality image.
 
-### -field D2D1_POINTDIFFUSE_SCALE_MODE_MULTI_SAMPLE_LINEAR
+### -field D2D1_POINTDIFFUSE_SCALE_MODE_MULTI_SAMPLE_LINEAR:3
 
 Uses 4 linear samples within a single pixel for good edge anti-aliasing. This mode is good for scaling down by small amounts on images with few pixels.
 
-### -field D2D1_POINTDIFFUSE_SCALE_MODE_ANISOTROPIC
+### -field D2D1_POINTDIFFUSE_SCALE_MODE_ANISOTROPIC:4
 
 Uses anisotropic filtering to sample a pattern according to the transformed shape of the bitmap.
 
-### -field D2D1_POINTDIFFUSE_SCALE_MODE_HIGH_QUALITY_CUBIC
+### -field D2D1_POINTDIFFUSE_SCALE_MODE_HIGH_QUALITY_CUBIC:5
 
 Uses a variable size high quality cubic kernel to perform a pre-downscale the image if downscaling is involved in the transform matrix. Then uses the cubic interpolation mode for the final output.
 
-### -field D2D1_POINTDIFFUSE_SCALE_MODE_FORCE_DWORD
+### -field D2D1_POINTDIFFUSE_SCALE_MODE_FORCE_DWORD:0xffffffff

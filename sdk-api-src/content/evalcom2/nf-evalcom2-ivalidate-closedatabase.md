@@ -52,7 +52,7 @@ api_name:
 
 The <b>CloseDatabase</b> method closes the currently open Windows Installer package or merge module.  Windows Installer packages or merge modules can be opened by using the <a href="/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-opendatabase">OpenDatabase</a> method.
 
-## -parameters
+
 
 ## -returns
 

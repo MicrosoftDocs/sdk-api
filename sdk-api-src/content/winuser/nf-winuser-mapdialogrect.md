@@ -82,11 +82,15 @@ The <b>MapDialogRect</b> function assumes that the initial coordinates in the <a
 				
 				
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 left   = MulDiv(left,   baseunitX, 4);
 right  = MulDiv(right,  baseunitX, 4);
 top    = MulDiv(top,    baseunitY, 8);
-bottom = MulDiv(bottom, baseunitY, 8);</code></pre>
+bottom = MulDiv(bottom, baseunitY, 8);
+```
+
 If the dialog box template has the <a href="/windows/desktop/dlgbox/about-dialog-boxes">DS_SETFONT</a> or <b>DS_SHELLFONT</b> style, the base units are the average width and height, in pixels, of the characters in the font specified by the template.
 
 ## -see-also

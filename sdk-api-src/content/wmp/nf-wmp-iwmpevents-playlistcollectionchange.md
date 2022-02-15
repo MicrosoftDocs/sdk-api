@@ -52,7 +52,7 @@ api_name:
 
 The <b>PlaylistCollectionChange</b> event occurs when something changes in the playlist collection.
 
-## -parameters
+
 
 ## -remarks
 

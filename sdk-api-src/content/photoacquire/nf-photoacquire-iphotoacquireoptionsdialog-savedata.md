@@ -53,7 +53,7 @@ api_name:
 
 The <code>SaveData</code> method saves acquisition settings from the options dialog box to the registry so that a subsequent instance of the dialog can be initialized with the same settings.
 
-## -parameters
+
 
 ## -returns
 

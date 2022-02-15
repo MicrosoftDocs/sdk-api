@@ -54,17 +54,17 @@ Identifies the tier of resource binding being used.
 
 ## -enum-fields
 
-### -field D3D12_RESOURCE_BINDING_TIER_1
+### -field D3D12_RESOURCE_BINDING_TIER_1:1
 
 Tier 1.
             See <a href="/windows/desktop/direct3d12/hardware-support">Hardware Tiers</a>.
 
-### -field D3D12_RESOURCE_BINDING_TIER_2
+### -field D3D12_RESOURCE_BINDING_TIER_2:2
 
 Tier 2.
             See <a href="/windows/desktop/direct3d12/hardware-support">Hardware Tiers</a>.
 
-### -field D3D12_RESOURCE_BINDING_TIER_3
+### -field D3D12_RESOURCE_BINDING_TIER_3:3
 
 Tier 3.
             See <a href="/windows/desktop/direct3d12/hardware-support">Hardware Tiers</a>.

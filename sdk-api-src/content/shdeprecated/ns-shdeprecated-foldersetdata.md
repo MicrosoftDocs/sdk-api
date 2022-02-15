@@ -65,7 +65,7 @@ Deprecated. Data used in <a href="/windows/desktop/api/shdeprecated/nf-shdepreca
 
 Type: <b><a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a></b>
 
-The <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a> structure containing folder view informtion.
+The <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a> structure containing folder view information.
 
 ### -field _vidRestore
 

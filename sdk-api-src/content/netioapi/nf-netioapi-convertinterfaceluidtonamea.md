@@ -105,7 +105,7 @@ Not enough storage is available to process this command. This error is returned 
 
 ## -remarks
 
-The <b>ConvertInterfaceLuidToNameA</b> function is available on Windows Vistaand later.
+The <b>ConvertInterfaceLuidToNameA</b> function is available on Windows Vista and later.
 
 The <b>ConvertInterfaceLuidToNameA</b> function is protocol independent and works with network interfaces for both the IPv6 and IPv4 protocol. The <b>ConvertInterfaceLuidToNameA</b> converts a network interface LUID to an ANSI interface name. 
 

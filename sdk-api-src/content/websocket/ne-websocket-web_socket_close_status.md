@@ -56,55 +56,55 @@ The <b>WEB_SOCKET_CLOSE_STATUS</b> enumeration specifies the WebSocket close sta
 
 ## -enum-fields
 
-### -field WEB_SOCKET_SUCCESS_CLOSE_STATUS
+### -field WEB_SOCKET_SUCCESS_CLOSE_STATUS:1000
 
 Close completed successfully.
 
-### -field WEB_SOCKET_ENDPOINT_UNAVAILABLE_CLOSE_STATUS
+### -field WEB_SOCKET_ENDPOINT_UNAVAILABLE_CLOSE_STATUS:1001
 
 The endpoint is going away and thus closing the connection.
 
-### -field WEB_SOCKET_PROTOCOL_ERROR_CLOSE_STATUS
+### -field WEB_SOCKET_PROTOCOL_ERROR_CLOSE_STATUS:1002
 
 Peer detected protocol error and it is closing the connection.
 
-### -field WEB_SOCKET_INVALID_DATA_TYPE_CLOSE_STATUS
+### -field WEB_SOCKET_INVALID_DATA_TYPE_CLOSE_STATUS:1003
 
 The endpoint cannot receive this type of data.
 
-### -field WEB_SOCKET_EMPTY_CLOSE_STATUS
+### -field WEB_SOCKET_EMPTY_CLOSE_STATUS:1005
 
 No close status
       code was provided.
 
-### -field WEB_SOCKET_ABORTED_CLOSE_STATUS
+### -field WEB_SOCKET_ABORTED_CLOSE_STATUS:1006
 
 The
       connection was closed without sending or
       receiving a close frame.
 
-### -field WEB_SOCKET_INVALID_PAYLOAD_CLOSE_STATUS
+### -field WEB_SOCKET_INVALID_PAYLOAD_CLOSE_STATUS:1007
 
 Data within a message is not consistent with the type of the message.
 
-### -field WEB_SOCKET_POLICY_VIOLATION_CLOSE_STATUS
+### -field WEB_SOCKET_POLICY_VIOLATION_CLOSE_STATUS:1008
 
 The message violates an endpoint's policy.
 
-### -field WEB_SOCKET_MESSAGE_TOO_BIG_CLOSE_STATUS
+### -field WEB_SOCKET_MESSAGE_TOO_BIG_CLOSE_STATUS:1009
 
 The message sent was too large to process.
 
-### -field WEB_SOCKET_UNSUPPORTED_EXTENSIONS_CLOSE_STATUS
+### -field WEB_SOCKET_UNSUPPORTED_EXTENSIONS_CLOSE_STATUS:1010
 
 A client endpoint expected the server to negotiate one or more extensions, but the server didn't return them in the response message of the WebSocket handshake.
 
-### -field WEB_SOCKET_SERVER_ERROR_CLOSE_STATUS
+### -field WEB_SOCKET_SERVER_ERROR_CLOSE_STATUS:1011
 
 An unexpected condition prevented the server from
       fulfilling the request.
 
-### -field WEB_SOCKET_SECURE_HANDSHAKE_ERROR_CLOSE_STATUS
+### -field WEB_SOCKET_SECURE_HANDSHAKE_ERROR_CLOSE_STATUS:1015
 
 The
       TLS handshake could not be completed.

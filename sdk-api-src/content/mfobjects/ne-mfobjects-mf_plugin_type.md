@@ -56,15 +56,15 @@ Specifies the object type for the <a href="/windows/desktop/api/mfobjects/nn-mfo
 
 ## -enum-fields
 
-### -field MF_Plugin_Type_MFT
+### -field MF_Plugin_Type_MFT:0
 
 Media Foundation transform (MFT).
 
-### -field MF_Plugin_Type_MediaSource
+### -field MF_Plugin_Type_MediaSource:1
 
 Media source.
 
-### -field MF_Plugin_Type_MFT_MatchOutputType
+### -field MF_Plugin_Type_MFT_MatchOutputType:2
 
 Match output type.
 

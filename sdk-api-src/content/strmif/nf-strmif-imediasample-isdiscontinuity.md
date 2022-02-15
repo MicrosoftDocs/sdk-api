@@ -53,7 +53,7 @@ api_name:
 
 The <code>IsDiscontinuity</code> method determines if this sample represents a break in the data stream.
 
-## -parameters
+
 
 ## -returns
 

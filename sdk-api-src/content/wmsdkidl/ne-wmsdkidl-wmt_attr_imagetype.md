@@ -54,15 +54,15 @@ The <b>WMT_ATTR_IMAGETYPE</b> enumeration type lists image types that can be sto
 
 ## -enum-fields
 
-### -field WMT_IMAGETYPE_BITMAP
+### -field WMT_IMAGETYPE_BITMAP:1
 
 The image is a device-independent bitmap.
 
-### -field WMT_IMAGETYPE_JPEG
+### -field WMT_IMAGETYPE_JPEG:2
 
 The image is in JPEG format.
 
-### -field WMT_IMAGETYPE_GIF
+### -field WMT_IMAGETYPE_GIF:3
 
 The image is in GIF format.
 

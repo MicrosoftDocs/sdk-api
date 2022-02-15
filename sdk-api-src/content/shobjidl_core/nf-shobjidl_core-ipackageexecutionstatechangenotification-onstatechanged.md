@@ -64,7 +64,7 @@ The new state that the package changed to.
 
 ## -returns
 
-Return <b>S_OK</b> when you implement the <b>OnStateChanged</b>method.
+Return <b>S_OK</b> when you implement the <b>OnStateChanged</b> method.
 
 ## -see-also
 

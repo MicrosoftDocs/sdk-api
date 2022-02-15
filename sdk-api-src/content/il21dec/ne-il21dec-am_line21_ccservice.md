@@ -58,7 +58,7 @@ Indicates the closed captioning service.
 
 ## -enum-fields
 
-### -field AM_L21_CCSERVICE_None
+### -field AM_L21_CCSERVICE_None:0
 
 No current service.
 
@@ -82,7 +82,7 @@ T2 (text channel)
 
 Extended Data Services (XDS or EDS).
 
-### -field AM_L21_CCSERVICE_DefChannel
+### -field AM_L21_CCSERVICE_DefChannel:10
 
 ### -field AM_L21_CCSERVICE_Invalid
 

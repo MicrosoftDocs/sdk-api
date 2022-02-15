@@ -56,15 +56,15 @@ The <b>WMPAccountType</b> enumeration defines account types for an online store.
 
 ## -enum-fields
 
-### -field wmpatBuyOnly
+### -field wmpatBuyOnly:1
 
 The user is only authorized to purchase content.
 
-### -field wmpatSubscription
+### -field wmpatSubscription:2
 
 The user has a subscription account, but content must be purchased to synchronize to a device based on Windows Media DRM for Portable Devices.
 
-### -field wmpatJanus
+### -field wmpatJanus:3
 
 The user has a subscription account and the subscription content can be synchronized to a device based on Windows Media DRM for Portable Devices.
 

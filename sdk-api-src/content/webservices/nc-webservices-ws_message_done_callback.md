@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Notifies the caller that the message has completed its use of either the <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> structure that was supplied to <a href="/windows/desktop/api/webservices/nf-webservices-wsreadenvelopestart">WsReadEnvelopeStart</a>function, or of the <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> structure supplied to the  <a href="/windows/desktop/api/webservices/nf-webservices-wswriteenvelopestart">WsWriteEnvelopeStart</a> function.
+Notifies the caller that the message has completed its use of either the <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> structure that was supplied to <a href="/windows/desktop/api/webservices/nf-webservices-wsreadenvelopestart">WsReadEnvelopeStart</a> function, or of the <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> structure supplied to the  <a href="/windows/desktop/api/webservices/nf-webservices-wswriteenvelopestart">WsWriteEnvelopeStart</a> function.
 
 ## -parameters
 

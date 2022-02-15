@@ -56,11 +56,11 @@ The <b>PEER_GROUP_AUTHENTICATION_SCHEME</b> enumeration defines the set of possi
 
 ## -enum-fields
 
-### -field PEER_GROUP_GMC_AUTHENTICATION
+### -field PEER_GROUP_GMC_AUTHENTICATION:0x00000001
 
 Authentication is performed using Group Membership Certificates (GMC).
 
-### -field PEER_GROUP_PASSWORD_AUTHENTICATION
+### -field PEER_GROUP_PASSWORD_AUTHENTICATION:0x00000002
 
 Authentication is performed by validating a provided password.
 

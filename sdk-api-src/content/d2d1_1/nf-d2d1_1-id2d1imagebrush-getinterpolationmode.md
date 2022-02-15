@@ -52,7 +52,7 @@ api_name:
 
 Gets the interpolation mode of the image brush.
 
-## -parameters
+
 
 ## -returns
 

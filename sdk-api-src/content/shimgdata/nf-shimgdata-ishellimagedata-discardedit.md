@@ -52,7 +52,7 @@ api_name:
 
 Discards edits made to an image.
 
-## -parameters
+
 
 ## -returns
 

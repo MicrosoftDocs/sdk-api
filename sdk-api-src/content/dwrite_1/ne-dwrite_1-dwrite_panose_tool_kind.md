@@ -54,43 +54,43 @@ The <b>DWRITE_PANOSE_TOOL_KIND</b> enumeration contains values that specify the 
 
 ## -enum-fields
 
-### -field DWRITE_PANOSE_TOOL_KIND_ANY
+### -field DWRITE_PANOSE_TOOL_KIND_ANY:0
 
 Any kind of tool.
 
-### -field DWRITE_PANOSE_TOOL_KIND_NO_FIT
+### -field DWRITE_PANOSE_TOOL_KIND_NO_FIT:1
 
 No fit for the kind of tool.
 
-### -field DWRITE_PANOSE_TOOL_KIND_FLAT_NIB
+### -field DWRITE_PANOSE_TOOL_KIND_FLAT_NIB:2
 
 Flat NIB tool.
 
-### -field DWRITE_PANOSE_TOOL_KIND_PRESSURE_POINT
+### -field DWRITE_PANOSE_TOOL_KIND_PRESSURE_POINT:3
 
 Pressure point tool.
 
-### -field DWRITE_PANOSE_TOOL_KIND_ENGRAVED
+### -field DWRITE_PANOSE_TOOL_KIND_ENGRAVED:4
 
 Engraved tool.
 
-### -field DWRITE_PANOSE_TOOL_KIND_BALL
+### -field DWRITE_PANOSE_TOOL_KIND_BALL:5
 
 Ball tool.
 
-### -field DWRITE_PANOSE_TOOL_KIND_BRUSH
+### -field DWRITE_PANOSE_TOOL_KIND_BRUSH:6
 
 Brush tool.
 
-### -field DWRITE_PANOSE_TOOL_KIND_ROUGH
+### -field DWRITE_PANOSE_TOOL_KIND_ROUGH:7
 
 Rough tool.
 
-### -field DWRITE_PANOSE_TOOL_KIND_FELT_PEN_BRUSH_TIP
+### -field DWRITE_PANOSE_TOOL_KIND_FELT_PEN_BRUSH_TIP:8
 
 Felt-pen-brush-tip tool.
 
-### -field DWRITE_PANOSE_TOOL_KIND_WILD_BRUSH
+### -field DWRITE_PANOSE_TOOL_KIND_WILD_BRUSH:9
 
 Wild-brush tool.
 

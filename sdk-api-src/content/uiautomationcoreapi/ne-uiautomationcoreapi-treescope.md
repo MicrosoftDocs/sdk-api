@@ -54,27 +54,27 @@ Contains values that specify the scope of various operations in the Microsoft UI
 
 ## -enum-fields
 
-### -field TreeScope_None
+### -field TreeScope_None:0x0
 
 The scope excludes the subtree from the search.
 
-### -field TreeScope_Element
+### -field TreeScope_Element:0x1
 
 The scope includes the element itself.
 
-### -field TreeScope_Children
+### -field TreeScope_Children:0x2
 
 The scope includes children of the element.
 
-### -field TreeScope_Descendants
+### -field TreeScope_Descendants:0x4
 
 The scope includes children and more distant descendants of the element.
 
-### -field TreeScope_Parent
+### -field TreeScope_Parent:0x8
 
 The scope includes the parent of the element.
 
-### -field TreeScope_Ancestors
+### -field TreeScope_Ancestors:0x10
 
 The scope includes the parent and more distant ancestors of the element.
 

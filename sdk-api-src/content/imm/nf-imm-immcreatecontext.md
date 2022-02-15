@@ -52,7 +52,7 @@ api_name:
 
 Creates a new input context, allocating memory for the context and initializing it. An application calls this function to prepare its own input context.
 
-## -parameters
+
 
 ## -returns
 

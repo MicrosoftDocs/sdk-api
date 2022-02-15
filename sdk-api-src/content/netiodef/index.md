@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Windows Filtering Platform. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [Network Drivers, Windows Vista and Later](../_netvista/index.md)
 - [Windows Filtering Platform](../_fwp/index.md)
 

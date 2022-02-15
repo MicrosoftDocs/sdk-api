@@ -53,7 +53,7 @@ api_name:
 
 The <b>GraphicsPathIterator::Rewind</b> method rewinds this iterator to the beginning of its associated path.
 
-## -parameters
+
 
 ## -remarks
 

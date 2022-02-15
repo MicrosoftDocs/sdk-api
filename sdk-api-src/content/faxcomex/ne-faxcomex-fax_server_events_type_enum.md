@@ -54,47 +54,47 @@ The <b>FAX_SERVER_EVENTS_TYPE_ENUM</b> enumeration defines the types of events t
 
 ## -enum-fields
 
-### -field fsetNONE
+### -field fsetNONE:0
 
 No events are sent.
 
-### -field fsetIN_QUEUE
+### -field fsetIN_QUEUE:0x1
 
 The client requests notifications about fax jobs in the incoming queue. When the status of an incoming fax job changes, the fax service issues a notification of this type.
 
-### -field fsetOUT_QUEUE
+### -field fsetOUT_QUEUE:0x2
 
 The client requests notification about fax jobs in the outgoing queue. When the status of an outgoing fax job changes, the fax service issues a notification of this type.
 
-### -field fsetCONFIG
+### -field fsetCONFIG:0x4
 
 The client requests notifications about changes to the fax server configuration. When the configuration data changes, the fax service issues a notification of this type.
 
-### -field fsetACTIVITY
+### -field fsetACTIVITY:0x8
 
 The client requests notifications about the fax server activity. When the activity status of the fax server changes, the fax service issues a notification of this type.
 
-### -field fsetQUEUE_STATE
+### -field fsetQUEUE_STATE:0x10
 
 The client requests notifications about changes in the status of the fax job queue. When the status of the queue changes, the fax service issues a notification.
 
-### -field fsetIN_ARCHIVE
+### -field fsetIN_ARCHIVE:0x20
 
 The client requests notifications about the addition or removal of fax messages from the incoming archive. When a message is removed from the archive, the fax service issues a notification. The notification includes the archive type (inbound) and the unique ID of the fax message.
 
-### -field fsetOUT_ARCHIVE
+### -field fsetOUT_ARCHIVE:0x40
 
 The client requests notifications about the addition or removal of fax messages from the outgoing archive. When a message is removed from the archive, the fax service issues a notification. The notification includes the archive type (outbound) and the unique ID of the fax message.
 
-### -field fsetFXSSVC_ENDED
+### -field fsetFXSSVC_ENDED:0x80
 
 The client requests notifications when the fax service stops executing.
 
-### -field fsetDEVICE_STATUS
+### -field fsetDEVICE_STATUS:0x100
 
 The client requests notifications when a device status changes.
 
-### -field fsetINCOMING_CALL
+### -field fsetINCOMING_CALL:0x200
 
 The client requests notifications when there is an incoming call.
 

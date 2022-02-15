@@ -52,7 +52,7 @@ api_name:
 
 Returns whether the Direct2D factory was created with the <a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_factory_type">D2D1_FACTORY_TYPE_MULTI_THREADED</a> flag.
 
-## -parameters
+
 
 ## -returns
 

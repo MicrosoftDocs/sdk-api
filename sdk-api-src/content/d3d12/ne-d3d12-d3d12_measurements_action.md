@@ -9,8 +9,8 @@ ms.keywords: D3D12_MEASUREMENTS_ACTION, D3D12_MEASUREMENTS_ACTION enumeration, d
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -48,7 +48,7 @@ Defines constants that specify what should be done with the results of earlier w
 
 ## -enum-fields
 
-### -field D3D12_MEASUREMENTS_ACTION_KEEP_ALL
+### -field D3D12_MEASUREMENTS_ACTION_KEEP_ALL:0
 
 The default setting. Specifies that all results should be kept.
 

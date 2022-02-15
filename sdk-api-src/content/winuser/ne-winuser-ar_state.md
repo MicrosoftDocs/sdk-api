@@ -58,39 +58,39 @@ Indicates the state of screen auto-rotation for the system. For example, whether
 
 ## -enum-fields
 
-### -field AR_ENABLED
+### -field AR_ENABLED:0x0
 
             Auto-rotation is enabled by the user.
 
-### -field AR_DISABLED
+### -field AR_DISABLED:0x1
 
 Auto-rotation is disabled by the user.
 
-### -field AR_SUPPRESSED
+### -field AR_SUPPRESSED:0x2
 
 Auto-rotation is currently suppressed by one or more process auto-rotation preferences.
 
-### -field AR_REMOTESESSION
+### -field AR_REMOTESESSION:0x4
 
 The session is remote, and auto-rotation is temporarily disabled as a result.
 
-### -field AR_MULTIMON
+### -field AR_MULTIMON:0x8
 
 The system has multiple monitors attached, and auto-rotation is temporarily disabled as a result.
 
-### -field AR_NOSENSOR
+### -field AR_NOSENSOR:0x10
 
 The system does not have an auto-rotation sensor.
 
-### -field AR_NOT_SUPPORTED
+### -field AR_NOT_SUPPORTED:0x20
 
 Auto-rotation is not supported with the current system configuration.
 
-### -field AR_DOCKED
+### -field AR_DOCKED:0x40
 
 The device is docked, and auto-rotation is temporarily disabled as a result.
 
-### -field AR_LAPTOP
+### -field AR_LAPTOP:0x80
 
 The device is in laptop mode, and auto-rotation is temporarily disabled as a result.
 

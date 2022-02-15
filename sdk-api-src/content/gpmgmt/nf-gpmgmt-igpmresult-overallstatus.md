@@ -54,7 +54,7 @@ api_name:
 Returns the overall status of a GPMC operation, such as a copy, restore, backup, or import. If no error occurred during the operation, the method returns a success code; otherwise the method returns a failure code.
 <div class="alert"><b>Note</b>  You must check the code returned by this method as well as the one returned by the GPMC operation to determine whether or not the operation succeeded.</div><div> </div>
 
-## -parameters
+
 
 ## -returns
 

@@ -63,56 +63,56 @@ Defines
 
 ## -enum-fields
 
-### -field VDS_HPS_UNKNOWN
+### -field VDS_HPS_UNKNOWN:1
 
 The HBA port status is unknown.
      
 
 HBA_PORTSTATE_UNKNOWN
 
-### -field VDS_HPS_ONLINE
+### -field VDS_HPS_ONLINE:2
 
 The HBA port is operational.
      
 
 HBA_PORTSTATE_ONLINE
 
-### -field VDS_HPS_OFFLINE
+### -field VDS_HPS_OFFLINE:3
 
 The HBA port has been set offline by a user.
      
 
 HBA_PORTSTATE_OFFLINE
 
-### -field VDS_HPS_BYPASSED
+### -field VDS_HPS_BYPASSED:4
 
 The HBA port is bypassed.
      
 
 HBA_PORTSTATE_BYPASSED
 
-### -field VDS_HPS_DIAGNOSTICS
+### -field VDS_HPS_DIAGNOSTICS:5
 
 The HBA port is in diagnostics mode.
      
 
 HBA_PORTSTATE_DIAGNOSTICS
 
-### -field VDS_HPS_LINKDOWN
+### -field VDS_HPS_LINKDOWN:6
 
 The HBA port link is down.
      
 
 HBA_PORTSTATE_LINKDOWN
 
-### -field VDS_HPS_ERROR
+### -field VDS_HPS_ERROR:7
 
 The HBA port has an error.
      
 
 HBA_PORTSTATE_ERROR
 
-### -field VDS_HPS_LOOPBACK
+### -field VDS_HPS_LOOPBACK:8
 
 The HBA port is loopback.
      

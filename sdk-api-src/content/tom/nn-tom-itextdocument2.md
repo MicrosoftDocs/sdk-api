@@ -56,8 +56,5 @@ Some <b>ITextDocument2</b> methods used with the IME need access to the current 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextDocument2</b> interface inherits from <b>ITextDocument</b>. <b>ITextDocument2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITextDocument2</b> interface inherits from <b>ITextDocument</b>. <b>ITextDocument2</b> also has these types of members:
 

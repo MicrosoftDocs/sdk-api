@@ -1,7 +1,7 @@
 ---
 UID: NS:mprapi._SSTP_CERT_INFO
 title: SSTP_CERT_INFO (mprapi.h)
-description: Contains information about a Secure Socket Tunneling Protocool (SSTP) based certificate.
+description: Contains information about a Secure Socket Tunneling Protocol (SSTP) based certificate.
 helpviewer_keywords: ["*PSSTP_CERT_INFO","SSTP_CERT_INFO","SSTP_CERT_INFO structure [RAS]","mprapi/SSTP_CERT_INFO","rras.sstp_cert_info"]
 old-location: rras\sstp_cert_info.htm
 tech.root: RRAS
@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>SSTP_CERT_INFO</b> structure  contains information about a Secure Socket Tunneling Protocool (SSTP) based certificate.
+The <b>SSTP_CERT_INFO</b> structure  contains information about a Secure Socket Tunneling Protocol (SSTP) based certificate.
 
 ## -struct-fields
 

@@ -57,10 +57,7 @@ Windows Media Device Manager uses <b>IMDSPObject2</b> to enable more efficient f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPObject2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspobject">IMDSPObject</a>. <b>IMDSPObject2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMDSPObject2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspobject">IMDSPObject</a>. <b>IMDSPObject2</b> also has these types of members:
 
 ## -see-also
 

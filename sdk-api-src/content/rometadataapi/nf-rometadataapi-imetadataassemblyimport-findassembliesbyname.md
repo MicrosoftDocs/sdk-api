@@ -91,7 +91,7 @@ The number of interface pointers returned. That is, the number of interface poin
 </tr>
 <tr>
 <td><b>S_FALSE</b></td>
-<td>There are no assembies.</td>
+<td>There are no assemblies.</td>
 </tr>
 </table>
 

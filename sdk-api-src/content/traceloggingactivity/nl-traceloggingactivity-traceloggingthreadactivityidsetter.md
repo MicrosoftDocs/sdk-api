@@ -47,21 +47,22 @@ api_name:
 
 # TraceLoggingThreadActivityIdSetter class
 
-
 ## -description
 
 Tags a thread with an activity id so ETW marks all events in that thread with the activity id.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">TraceLoggingThreadActivityIdSetter</b> has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Constructors</a></li>
-</ul><h3><a id="constructors"></a>Constructors</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">TraceLoggingThreadActivityIdSetter</b> class has these constructors.
+**TraceLoggingThreadActivityIdSetter** has these types of members:
+
+### Constructors
+
+The **TraceLoggingThreadActivityIdSetter** class has these constructors.
+
 <table class="members" id="memberListConstructors">
 <tr>
 <th align="left" width="37%">Constructor</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivityidsetter-traceloggingthreadactivityidsetter(constguid)">TraceLoggingThreadActivityIdSetter Constructor</a>
 </td>
@@ -70,7 +71,7 @@ Creates a new <b>TraceLoggingThreadActivityIdSetter</b> object.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivityidsetter-traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIDSetter Constructor</a>
 </td>
@@ -79,7 +80,7 @@ Saves the original activity ID and sets a new activity on the thread.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivityidsetter-traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIdSetter Destructor</a>
 </td>

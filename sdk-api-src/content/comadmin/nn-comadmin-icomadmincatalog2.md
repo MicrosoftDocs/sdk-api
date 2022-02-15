@@ -54,9 +54,5 @@ An extension of the <a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmin
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICOMAdminCatalog2</b> interface inherits from <b>ICOMAdminCatalog</b>. <b>ICOMAdminCatalog2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>ICOMAdminCatalog2</b> interface inherits from <b>ICOMAdminCatalog</b>. <b>ICOMAdminCatalog2</b> also has these types of members:
 

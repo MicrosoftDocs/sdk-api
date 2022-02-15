@@ -77,7 +77,7 @@ Specifies the password of the user to be authenticated. The value field in
 
 ### -field ratCHAPPassword
 
-Specifies the password provided by the user in response to an Challenge Handshake Authentication Protocol (CHAP) challenge. The value field in 
+Specifies the password provided by the user in response to a Challenge Handshake Authentication Protocol (CHAP) challenge. The value field in 
 <a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 

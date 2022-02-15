@@ -56,7 +56,7 @@ Defines how the  Task Scheduler enumerates through registered tasks.
 
 ## -enum-fields
 
-### -field TASK_ENUM_HIDDEN
+### -field TASK_ENUM_HIDDEN:0x1
 
 Enumerates all tasks, including tasks that are hidden.
 

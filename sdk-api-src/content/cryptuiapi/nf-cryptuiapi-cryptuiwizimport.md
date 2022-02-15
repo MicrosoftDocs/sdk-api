@@ -215,7 +215,7 @@ If none of following three flags are set in <i>dwFlags</i>, import of any type o
 <li>CRYPTUI_WIZ_IMPORT_ALLOW_CRL</li>
 <li>CRYPTUI_WIZ_IMPORT_ALLOW_CTL</li>
 </ul>
-The <b>CRYPTUI_WIZ_IMPORT_TO_LOCALMACHINE</b> and <b>CRYPTUI_WIZ_IMPORT_TO_CURRENTUSER</b>flags are used to force the content of a PFX <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> into either the local machine store or the current user store.
+The <b>CRYPTUI_WIZ_IMPORT_TO_LOCALMACHINE</b> and <b>CRYPTUI_WIZ_IMPORT_TO_CURRENTUSER</b> flags are used to force the content of a PFX <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> into either the local machine store or the current user store.
 If neither of these flags are set and <i>hDestCertStore</i> is <b>NULL</b>:
 
 <ul>

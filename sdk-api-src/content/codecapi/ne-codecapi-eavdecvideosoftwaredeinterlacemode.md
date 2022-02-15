@@ -54,19 +54,19 @@ Specifies a video decoder's software deinterlace mode. This enumeration is used 
 
 ## -enum-fields
 
-### -field eAVDecVideoSoftwareDeinterlaceMode_NoDeinterlacing
+### -field eAVDecVideoSoftwareDeinterlaceMode_NoDeinterlacing:0
 
 No software deinterlacing.
 
-### -field eAVDecVideoSoftwareDeinterlaceMode_ProgressiveDeinterlacing
+### -field eAVDecVideoSoftwareDeinterlaceMode_ProgressiveDeinterlacing:1
 
 Progressive deinterlacing.
 
-### -field eAVDecVideoSoftwareDeinterlaceMode_BOBDeinterlacing
+### -field eAVDecVideoSoftwareDeinterlaceMode_BOBDeinterlacing:2
 
 Bob deinterlacing.
 
-### -field eAVDecVideoSoftwareDeinterlaceMode_SmartBOBDeinterlacing
+### -field eAVDecVideoSoftwareDeinterlaceMode_SmartBOBDeinterlacing:3  
 
 "Smart" bob deinterlacing.
 

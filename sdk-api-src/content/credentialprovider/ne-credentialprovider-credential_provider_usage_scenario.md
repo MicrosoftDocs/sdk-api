@@ -56,7 +56,7 @@ Declares the scenarios in which a credential provider is supported. A credential
 
 ## -enum-fields
 
-### -field CPUS_INVALID
+### -field CPUS_INVALID:0
 
 No usage scenario has been set for the credential provider. The scenario is not passed to <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-setusagescenario">ICredentialProvider::SetUsageScenario</a>. If a credential provider stores its current usage scenario as a class member, this provides an initialization value before the first call to <b>ICredentialProvider::SetUsageScenario</b>.
 

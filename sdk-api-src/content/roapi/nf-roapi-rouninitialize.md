@@ -55,7 +55,7 @@ api_name:
 
 Closes the Windows Runtime on the current thread.
 
-## -parameters
+
 
 ## -remarks
 

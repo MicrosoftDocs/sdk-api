@@ -56,7 +56,7 @@ api_name:
 
 Performs an atomic addition of two 32-bit values.
 
-To operate  on 64-bit values, use the <a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangeAdd64</a> function.
+To operate  on 64-bit values, use the <a href="/windows/win32/api/winnt/nf-winnt-interlockedexchangeadd64">InterlockedExchangeAdd64</a> function.
 
 ## -parameters
 

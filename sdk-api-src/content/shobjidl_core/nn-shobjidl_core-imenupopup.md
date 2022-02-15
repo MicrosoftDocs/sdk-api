@@ -56,8 +56,5 @@ Exposes methods to navigate through a shortcut menu.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMenuPopup</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskbar">IDeskBar</a>. <b>IMenuPopup</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMenuPopup</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskbar">IDeskBar</a>. <b>IMenuPopup</b> also has these types of members:
 

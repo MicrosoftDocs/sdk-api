@@ -52,7 +52,7 @@ api_name:
 
 Brings the current window to the foreground.
 
-## -parameters
+
 
 ## -returns
 

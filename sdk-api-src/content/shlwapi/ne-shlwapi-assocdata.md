@@ -54,7 +54,7 @@ Used by <a href="/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getd
 
 ## -enum-fields
 
-### -field ASSOCDATA_MSIDESCRIPTOR
+### -field ASSOCDATA_MSIDESCRIPTOR:1
 
 The component descriptor to pass to the Windows Installer API.
 

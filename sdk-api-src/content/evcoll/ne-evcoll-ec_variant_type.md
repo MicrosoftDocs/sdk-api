@@ -56,7 +56,7 @@ The <b>EC_VARIANT_TYPE</b> enumeration defines the values that specify the data 
 
 ## -enum-fields
 
-### -field EcVarTypeNull
+### -field EcVarTypeNull:0
 
 Null content that implies that the element that contains the content does not exist.
 

@@ -101,7 +101,9 @@ Returns <b>TRUE</b> upon successful execution, otherwise <b>FALSE</b>.
 
 The following declaration for <b>DnsWriteQuestionToBuffer_UTF8</b> can be found in Windns.h.
 
-<pre class="syntax" xml:space="preserve"><code>BOOL
+
+``` syntax
+BOOL
 WINAPI
 DnsWriteQuestionToBuffer_UTF8(
     __inout     PDNS_MESSAGE_BUFFER pDnsBuffer,
@@ -110,7 +112,9 @@ DnsWriteQuestionToBuffer_UTF8(
     __in        WORD                wType,
     __in        WORD                Xid,
     __in        BOOL                fRecursionDesired
-    );</code></pre>
+    );
+```
+
 
 ## -see-also
 

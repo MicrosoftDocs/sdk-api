@@ -57,7 +57,7 @@ The <b>MBN_SMS_CDMA_LANG</b> enumerated type represents the different languages 
 
 ## -enum-fields
 
-### -field MBN_SMS_CDMA_LANG_NONE
+### -field MBN_SMS_CDMA_LANG_NONE:0
 
 None.
 

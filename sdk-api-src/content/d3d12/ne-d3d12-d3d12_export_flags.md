@@ -54,7 +54,7 @@ The flags to apply when exporting symbols from a state subobject.
 
 ## -enum-fields
 
-### -field D3D12_EXPORT_FLAG_NONE
+### -field D3D12_EXPORT_FLAG_NONE:0
 
 No export flags.
 

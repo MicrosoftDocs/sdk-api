@@ -55,16 +55,16 @@ Proxy setting indicates HTTP proxy setting for the channel with binding <a href=
 
 ## -enum-fields
 
-### -field WS_HTTP_PROXY_SETTING_MODE_AUTO
+### -field WS_HTTP_PROXY_SETTING_MODE_AUTO:0x1
 
 The channel will automatically detect the proxy setting based on the IE configuration for the
                     user at the point the channel is opened. This is the default setting for the <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>.
 
-### -field WS_HTTP_PROXY_SETTING_MODE_NONE
+### -field WS_HTTP_PROXY_SETTING_MODE_NONE:0x2
 
 No proxy will be used to service the request on the channel.
 
-### -field WS_HTTP_PROXY_SETTING_MODE_CUSTOM
+### -field WS_HTTP_PROXY_SETTING_MODE_CUSTOM:0x3
 
 If an application chooses to explicitly control the HTTP proxy it can use this setting.
                     The <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_CUSTOM_HTTP_PROXY</a> property specifies the custom proxy to be used

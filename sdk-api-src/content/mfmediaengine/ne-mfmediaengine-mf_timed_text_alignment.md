@@ -54,15 +54,15 @@ Specifies how text is aligned in its parent block element.
 
 ## -enum-fields
 
-### -field MF_TIMED_TEXT_ALIGNMENT_START
+### -field MF_TIMED_TEXT_ALIGNMENT_START:0
 
 Text is aligned at the start of its parent block element.
 
-### -field MF_TIMED_TEXT_ALIGNMENT_END
+### -field MF_TIMED_TEXT_ALIGNMENT_END:1
 
 Text is aligned at the end of its parent block element.
 
-### -field MF_TIMED_TEXT_ALIGNMENT_CENTER
+### -field MF_TIMED_TEXT_ALIGNMENT_CENTER:2
 
 Text is aligned in the center of its parent block element.
 

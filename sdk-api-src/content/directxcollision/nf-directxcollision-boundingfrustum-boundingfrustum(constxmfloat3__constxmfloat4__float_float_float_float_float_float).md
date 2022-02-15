@@ -84,7 +84,7 @@ The distance of the near plane from the origin of the frustum.
 
 ### -param _Far [in]
 
-The distanc of the far plane from the origin of the frustum.
+The distance of the far plane from the origin of the frustum.
 
 ## -remarks
 

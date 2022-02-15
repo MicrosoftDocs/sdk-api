@@ -53,7 +53,7 @@ api_name:
 Not intended to be called directly.  Use the
         <a href="https://devblogs.microsoft.com/pix/winpixeventruntime/">PIX event runtime</a> to insert events into a command list.
 
-## -parameters
+
 
 ## -remarks
 

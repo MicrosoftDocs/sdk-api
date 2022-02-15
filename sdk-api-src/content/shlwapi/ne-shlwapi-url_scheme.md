@@ -54,11 +54,11 @@ Used to specify URL schemes.
 
 ## -enum-fields
 
-### -field URL_SCHEME_INVALID
+### -field URL_SCHEME_INVALID:-1
 
 An invalid scheme.
 
-### -field URL_SCHEME_UNKNOWN
+### -field URL_SCHEME_UNKNOWN:0
 
 An unknown scheme.
 

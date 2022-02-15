@@ -54,15 +54,15 @@ The AM_OVERLAY_NOTIFY_FLAGS enumeration indicates what the overlay has changed, 
 
 ## -enum-fields
 
-### -field AM_OVERLAY_NOTIFY_VISIBLE_CHANGE
+### -field AM_OVERLAY_NOTIFY_VISIBLE_CHANGE:0x1
 
 The rectangle will be changed from visible to invisible, or vice-versa.
 
-### -field AM_OVERLAY_NOTIFY_SOURCE_CHANGE
+### -field AM_OVERLAY_NOTIFY_SOURCE_CHANGE:0x2
 
 Source rectangle changed or changing.
 
-### -field AM_OVERLAY_NOTIFY_DEST_CHANGE
+### -field AM_OVERLAY_NOTIFY_DEST_CHANGE:0x4
 
 Destination rectangle changed or changing.
 

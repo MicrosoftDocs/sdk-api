@@ -168,7 +168,9 @@ You typically call <b>BindToObject</b> during the following process:
 </ol>
 The following code fragment illustrates these steps.
 
-<pre class="syntax" xml:space="preserve"><code>HRESULT hr;       // An error code
+
+``` syntax
+HRESULT hr;       // An error code
 IMoniker * pMnk;  // A previously acquired interface moniker
 
 // Obtain an IBindCtx interface.
@@ -186,7 +188,9 @@ if (FAILED(hr)) exit(0);  // Handle errors here.
 // Release interfaces after use. 
 pbc-&gt;Release(); 
 pCellRange-&gt;Release(); 
-</code></pre>
+
+```
+
 You can also use the <a href="/windows/desktop/api/objbase/nf-objbase-bindmoniker">BindMoniker</a> function when you intend only one binding operation and don't need to retain the bind context object. This helper function encapsulates the creation of the bind context, calling <b>BindToObject</b> and releasing the bind context.
 
 COM containers that support links to objects use monikers to locate and get access to the linked object but typically do not call <b>BindToObject</b> directly. Instead, when a user activates a link in a container, the link container usually calls <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-doverb">IOleObject::DoVerb</a>, using the link handler's implementation, which calls <b>BindToObject</b> on the moniker stored in the linked object (if it cannot handle the verb).
@@ -280,15 +284,23 @@ The semantics of the bind operation for a URL moniker are identical regardless o
 <li>
 Next the moniker checks the ROT of the bind context to determine whether the referenced object is already running. The moniker can obtain this information with the following calls:
 
-<pre class="syntax" xml:space="preserve"><code>IBindCtx::GetRunningObjectTable(&amp;prot)
+
+``` syntax
+IBindCtx::GetRunningObjectTable(&amp;prot)
 prot-&gt;IsRunning(this)
-</code></pre>
+
+```
+
 </li>
 <li>
 If the object is already running, the moniker retrieves the running object with the following call:
 
-<pre class="syntax" xml:space="preserve"><code>prot-&gt;GetObject(this, &amp;punk)
-</code></pre>
+
+``` syntax
+prot-&gt;GetObject(this, &amp;punk)
+
+```
+
 </li>
 <li>
 Then the moniker calls <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for the requested interface.

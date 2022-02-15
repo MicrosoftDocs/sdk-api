@@ -56,19 +56,19 @@ The <code>ERROR_ADVISE_MESSAGE_TYPE</code> enumeration type indicates the type o
 
 ## -enum-fields
 
-### -field PHOTOACQUIRE_ERROR_SKIPRETRYCANCEL
+### -field PHOTOACQUIRE_ERROR_SKIPRETRYCANCEL:0
 
 Specifies that the error that occurred requires a Skip, Retry, or Cancel response. The <i>pnErrorAdviseResult</i> parameter to <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressDialogCB::ErrorAdvise</a> must be one of the following: <b>PHOTOACQUIRE_RESULT_SKIP</b>, <b>PHOTOACQUIRE_RESULT_SKIP_ALL</b>, <b>PHOTOACQUIRE_RESULT_RETRY</b>, or <b>PHOTOACQUIRE_RESULT_ABORT</b>.
 
-### -field PHOTOACQUIRE_ERROR_RETRYCANCEL
+### -field PHOTOACQUIRE_ERROR_RETRYCANCEL:1
 
 Specifies that the error that occurred requires a Retry or Cancel response. The <i>pnErrorAdviseResult</i> parameter to <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressDialogCB::ErrorAdvise</a> must be one of the following: <b>PHOTOACQUIRE_RESULT_RETRY</b> or <b>PHOTOACQUIRE_RESULT_ABORT</b>.
 
-### -field PHOTOACQUIRE_ERROR_YESNO
+### -field PHOTOACQUIRE_ERROR_YESNO:2
 
 Specifies that the error that occurred requires a Yes or No response. The <i>pnErrorAdviseResult</i> parameter to <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressDialogCB::ErrorAdvise</a> must be one of the following: <b>PHOTOACQUIRE_RESULT_YES</b> or <b>PHOTOACQUIRE_RESULT_NO</b>.
 
-### -field PHOTOACQUIRE_ERROR_OK
+### -field PHOTOACQUIRE_ERROR_OK:3
 
 Specifies that the error that occurred requires an OK response. The <i>pnErrorAdviseResult</i> parameter to <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressDialogCB::ErrorAdvise</a> must be <b>PHOTOACQUIRE_RESULT_OK</b>.
 

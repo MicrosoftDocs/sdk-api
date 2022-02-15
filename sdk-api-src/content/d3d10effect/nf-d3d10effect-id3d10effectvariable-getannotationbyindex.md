@@ -68,7 +68,7 @@ A pointer to an <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10e
 
 ## -remarks
 
-Annonations can be attached to a technique, a pass or a gloval variable. For the syntax, see <a href="/windows/desktop/direct3d10/d3d10-effect-annotation-syntax">Annotation Syntax (Direct3D 10)</a>.
+Annotations can be attached to a technique, a pass or a global variable. For the syntax, see <a href="/windows/desktop/direct3d10/d3d10-effect-annotation-syntax">Annotation Syntax (Direct3D 10)</a>.
 
 ## -see-also
 

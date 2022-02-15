@@ -56,7 +56,7 @@ Defines at what times a transform in a topology is drained.
 
 ## -enum-fields
 
-### -field MF_TOPONODE_DRAIN_DEFAULT
+### -field MF_TOPONODE_DRAIN_DEFAULT:0
 
 The transform is drained when the end of a stream is reached. It is not drained when markout is reached at the end of a segment.
 

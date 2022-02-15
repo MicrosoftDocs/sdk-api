@@ -54,19 +54,19 @@ The placeholder pin flags.
 
 ## -enum-fields
 
-### -field CF_SET_PIN_FLAG_NONE
+### -field CF_SET_PIN_FLAG_NONE:0x00000000
 
 No pin flag.
 
-### -field CF_SET_PIN_FLAG_RECURSE
+### -field CF_SET_PIN_FLAG_RECURSE:0x00000001
 
 The platform applies the pin state to the placeholder <i>FileHandle</i> and every file recursively beneath it (relevant only if <i>FileHandle</i> is a handle to a directory).
 
-### -field CF_SET_PIN_FLAG_RECURSE_ONLY
+### -field CF_SET_PIN_FLAG_RECURSE_ONLY:0x00000002
 
 The platform applies the pin state to every file recursively beneath the placeholder <i>FileHandle</i>, but not to <i>FileHandle</i> itself.
 
-### -field CF_SET_PIN_FLAG_RECURSE_STOP_ON_ERROR
+### -field CF_SET_PIN_FLAG_RECURSE_STOP_ON_ERROR:0x00000004
 
 The platform will stop the recursion when encountering the first error; otherwise the platform skips the error and continues the recursion.
 

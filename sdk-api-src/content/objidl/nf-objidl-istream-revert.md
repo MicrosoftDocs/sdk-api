@@ -53,7 +53,7 @@ api_name:
 The <b>Revert</b> method discards all changes that have been made to a transacted stream since the last 
 <a href="/windows/desktop/api/objidl/nf-objidl-istream-commit">IStream::Commit</a> call. On streams open in direct mode and streams using the COM compound file implementation of <b>IStream::Revert</b>, this method has no effect.
 
-## -parameters
+
 
 ## -returns
 

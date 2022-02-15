@@ -54,22 +54,22 @@ The <b>X509EnrollmentAuthFlags</b> enumeration specifies the authentication type
 
 ## -enum-fields
 
-### -field X509AuthNone
+### -field X509AuthNone:0
 
 Reserved.
 
-### -field X509AuthAnonymous
+### -field X509AuthAnonymous:1
 
 Anonymous authentication.
 
-### -field X509AuthKerberos
+### -field X509AuthKerberos:2
 
 Kerberos authentication.
 
-### -field X509AuthUsername
+### -field X509AuthUsername:4
 
 Plaintext user name and password authentication.
 
-### -field X509AuthCertificate
+### -field X509AuthCertificate:8
 
 A client authentication certificate (suitable for <a href="/windows/desktop/SecGloss/s-gly">Secure Sockets Layer protocol</a> (SSL) client authentication) that is installed locally and that has an associated private key.  This certificate is used by the server to verify the client's identity.

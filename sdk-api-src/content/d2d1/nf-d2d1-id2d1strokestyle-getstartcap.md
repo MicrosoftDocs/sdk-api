@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the type of shape used at the beginning of a stroke.
 
-## -parameters
+
 
 ## -returns
 

@@ -58,31 +58,31 @@ Defines the possible states of an assessment.
 
 ## -enum-fields
 
-### -field WINSAT_ASSESSMENT_STATE_MIN
+### -field WINSAT_ASSESSMENT_STATE_MIN:0
 
 The minimum enumeration value for this enumeration.
 
-### -field WINSAT_ASSESSMENT_STATE_UNKNOWN
+### -field WINSAT_ASSESSMENT_STATE_UNKNOWN:0
 
 The state of the assessment is unknown.
 
-### -field WINSAT_ASSESSMENT_STATE_VALID
+### -field WINSAT_ASSESSMENT_STATE_VALID:1
 
 The assessment data is valid for the current computer configuration.
 
-### -field WINSAT_ASSESSMENT_STATE_INCOHERENT_WITH_HARDWARE
+### -field WINSAT_ASSESSMENT_STATE_INCOHERENT_WITH_HARDWARE:2
 
 The assessment data does not match the current computer configuration. The hardware on the computer has changed since the last time a formal assessment was run.
 
-### -field WINSAT_ASSESSMENT_STATE_NOT_AVAILABLE
+### -field WINSAT_ASSESSMENT_STATE_NOT_AVAILABLE:3
 
 The assessment data is not available because a formal WinSAT assessment has not been run on this computer.
 
-### -field WINSAT_ASSESSMENT_STATE_INVALID
+### -field WINSAT_ASSESSMENT_STATE_INVALID:4
 
 The assessment data is not valid.
 
-### -field WINSAT_ASSESSMENT_STATE_MAX
+### -field WINSAT_ASSESSMENT_STATE_MAX:4
 
 The maximum enumeration value for this enumeration.
 

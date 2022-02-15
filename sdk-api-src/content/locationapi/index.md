@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Location API. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Location API](../_winlocation/index.md)
+- [winlocation_com_ref](../_winlocation_com_ref/index.md)
 

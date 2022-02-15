@@ -54,14 +54,14 @@ Specifies the values used by the <a href="/windows/desktop/api/shobjidl_core/nf-
 
 ## -enum-fields
 
-### -field FDESVR_DEFAULT
+### -field FDESVR_DEFAULT:0
 
 The application has not handled the event. The dialog displays a UI that indicates that the file is in use and a different file must be chosen.
 
-### -field FDESVR_ACCEPT
+### -field FDESVR_ACCEPT:1
 
 The application has determined that the file should be returned from the dialog.
 
-### -field FDESVR_REFUSE
+### -field FDESVR_REFUSE:2
 
 The application has determined that the file should not be returned from the dialog.

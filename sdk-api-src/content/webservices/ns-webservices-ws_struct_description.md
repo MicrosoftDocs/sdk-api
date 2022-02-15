@@ -114,7 +114,9 @@ The following is the grammar describing the order of the fields
                 mapping field of each <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
             
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 Fields := TypeAttributeField? AttributeField* ContentFields UnmappedFields*
 ContentFields := TextContentField | ElementContentFields
 ElementContentFields := ElementContentField* ? AnyElementField?
@@ -127,7 +129,9 @@ AnyElementField := WS_ANY_ELEMENT_FIELD_MAPPING
 TextContentField := WS_TEXT_FIELD_MAPPING
 UnmappedField := WS_NO_FIELD_MAPPING
 TypeAttributeField := WS_TYPE_ATTRIBUTE_FIELD_MAPPING
-AttributeField := WS_ATTRIBUTE_FIELD_MAPPING</code></pre>
+AttributeField := WS_ATTRIBUTE_FIELD_MAPPING
+```
+
 Note that the fields descriptions of a structure are serialized and deserialized in
                 the order specified.  The deserialization process is "greedy", that is, as much content
                 as will match the definition a specific field description will be consumed before
@@ -152,7 +156,9 @@ When one structure derives from (extends) another, the fields for both structure
                 maintained.  For example:
             
 
-<pre class="syntax" xml:space="preserve"><code>struct BaseStructure
+
+``` syntax
+struct BaseStructure
 {
     const WS_STRUCT_DESCRIPTION* _type;
     int baseAttribute;
@@ -176,4 +182,6 @@ struct DerivedStructure
 //    WS_ATTRIBUTE_FIELD_MAPPING            // baseAttribute
 //    WS_ATTRIBUTE_FIELD_MAPPING            // derivedAttribute
 //    WS_ELEMENT_FIELD_MAPPING              // baseElement
-//    WS_ELEMENT_FIELD_MAPPING              // derivedElement</code></pre>
+//    WS_ELEMENT_FIELD_MAPPING              // derivedElement
+```
+

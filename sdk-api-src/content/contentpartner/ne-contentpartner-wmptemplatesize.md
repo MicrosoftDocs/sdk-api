@@ -56,7 +56,7 @@ The <b>WMPTemplateSize</b> enumeration represents HTML template sizes.
 
 ## -enum-fields
 
-### -field wmptsSmall
+### -field wmptsSmall:0
 
 Small template; height is fixed at 100 pixels.
 

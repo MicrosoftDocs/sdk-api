@@ -52,7 +52,7 @@ api_name:
 
 The <b>close</b> method releases Windows Media Player resources.
 
-## -parameters
+
 
 ## -returns
 

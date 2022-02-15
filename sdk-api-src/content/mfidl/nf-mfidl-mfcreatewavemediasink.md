@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
- Creates an WAVE archive sink.  The WAVE archive sink takes
+ Creates a WAVE archive sink.  The WAVE archive sink takes
 audio and writes it to an .wav file.
 
 ## -parameters

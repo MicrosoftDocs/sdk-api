@@ -90,10 +90,14 @@ An optional client context that the operating system passes to the callback func
 
 A pointer to a variable that receives the <b>HSWDEVICE</b> handle that represents the device.  Call <a href="/windows/desktop/api/swdevice/nf-swdevice-swdeviceclose">SwDeviceClose</a> to close this handle after the client app wants PnP to remove the device.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 DECLARE_HANDLE(HSWDEVICE);
 typedef HSWDEVICE *PHSWDEVICE;
-</code></pre>
+
+```
+
 
 ## -returns
 

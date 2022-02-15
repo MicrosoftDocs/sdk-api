@@ -77,7 +77,7 @@ Type: <b>BOOL</b>
 
 A <b>TRUE</b> for this parameter will force the destruction of the
         window if an initial attempt fails to gently close the window using <a href="/windows/desktop/winmsg/wm-close">WM_CLOSE</a>.
-        With a <b>FALSE</b> for this parameter, only the close with <b>WM_CLOSE</b>is attempted.
+        With a <b>FALSE</b> for this parameter, only the close with <b>WM_CLOSE</b> is attempted.
 
 ## -returns
 

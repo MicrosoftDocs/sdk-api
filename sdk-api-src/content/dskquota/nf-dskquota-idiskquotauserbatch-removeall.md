@@ -53,7 +53,7 @@ api_name:
 Removes all 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> pointers from the batch list.
 
-## -parameters
+
 
 ## -returns
 

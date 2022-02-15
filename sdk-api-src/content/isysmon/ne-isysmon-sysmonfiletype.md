@@ -56,31 +56,31 @@ Determines the format in which the counter data is saved to a file.
 
 ## -enum-fields
 
-### -field sysmonFileHtml
+### -field sysmonFileHtml:1
 
 Saves the control's property settings, list of counters, and counter data as HTML to a file. If the source of the counter data is a log file, the counter data is not saved.
 
-### -field sysmonFileReport
+### -field sysmonFileReport:2
 
 Saves the counter data displayed in the report view as tab-separated data to a file. If the counter data is displayed in the graph view, only the last sampled counter data is saved to the file.
 
-### -field sysmonFileCsv
+### -field sysmonFileCsv:3
 
 Saves the counter data as comma-separated data to a file.
 
-### -field sysmonFileTsv
+### -field sysmonFileTsv:4
 
 Saves the counter data as tab-separated data to a file.
 
-### -field sysmonFileBlg
+### -field sysmonFileBlg:5
 
 Saves the counter data as binary data to a file.
 
-### -field sysmonFileRetiredBlg
+### -field sysmonFileRetiredBlg:6
 
 Saves the counter data in the Windows 2000 binary format to a file.
 
-### -field sysmonFileGif
+### -field sysmonFileGif:7
 
 Saves the image of the System Monitor control to a file. The image does not include the toolbar, if enabled.
 

@@ -262,7 +262,7 @@ Transport is shutting down.
 </dl>
 </td>
 <td width="60%">
-Trasport is already bound.
+Transport is already bound.
 
 </td>
 </tr>

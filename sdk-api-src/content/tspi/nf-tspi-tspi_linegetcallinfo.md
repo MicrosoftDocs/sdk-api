@@ -445,6 +445,10 @@ After the service provider returns from the
 <b>TSPI_lineGetCallInfo</b> function, TAPI sets the <b>dwCallStates</b> member of the 
 <a href="/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> structure as follows:
 
-<pre class="syntax" xml:space="preserve"><code>LINECALLINFO.dwCallStates |= LINECALLSTATE_UNKNOWN;</code></pre>
+
+``` syntax
+LINECALLINFO.dwCallStates |= LINECALLSTATE_UNKNOWN;
+```
+
 If the service provider models lines as "pools" of channel resources and does inverse multiplexing of a call over several address identifiers, it should consistently choose one of these address identifiers as the primary identifier reported by this function in the 
 <a href="/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> data structure.

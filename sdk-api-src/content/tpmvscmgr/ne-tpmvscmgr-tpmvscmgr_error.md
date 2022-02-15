@@ -56,7 +56,7 @@ Provides predefined error codes to represent the contexts of errors from the TPM
 
 ## -enum-fields
 
-### -field TPMVSCMGR_ERROR_IMPERSONATION
+### -field TPMVSCMGR_ERROR_IMPERSONATION:0
 
 Failed to impersonate the caller.
 

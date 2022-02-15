@@ -10,8 +10,8 @@ ms.date: 12/16/2020
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 11 (Build 10.0.22000.194)
+req.target-min-winversvr: Windows Server 2022
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

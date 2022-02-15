@@ -53,7 +53,7 @@ api_name:
 
 The <b>Matrix::IsIdentity</b> method determines whether this matrix is the identity matrix.
 
-## -parameters
+
 
 ## -returns
 

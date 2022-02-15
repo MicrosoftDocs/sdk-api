@@ -52,7 +52,7 @@ api_name:
 
 Gets the current playback position.
 
-## -parameters
+
 
 ## -returns
 

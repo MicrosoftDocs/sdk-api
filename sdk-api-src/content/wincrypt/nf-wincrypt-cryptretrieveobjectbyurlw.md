@@ -413,7 +413,7 @@ The remote object retrieval manager exposes two provider models. One is the Sche
 
 The second provider model is the Context Provider model that allows for installable creators of the context handles (objects) based on the retrieved encoded bits. These are dispatched based on the <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) specified in the call to <b>CryptRetrieveObjectByUrl</b>.
 
-Individual PKI objects such as certificates, trusts lists, revocation lists, PKCS #7 messages, and multiple homogenous objects can be retrieved. Starting with Windows Vista with Service Pack 1 (SP1) and Windows Server 2008, security of "http:" and "ldap:" retrievals have been hardened. For more information, see <a href="https://support.microsoft.com/kb/946401">http://support.microsoft.com/kb/946401</a>.
+Individual PKI objects such as certificates, trusts lists, revocation lists, PKCS #7 messages, and multiple homogeneous objects can be retrieved. Starting with Windows Vista with Service Pack 1 (SP1) and Windows Server 2008, security of "http:" and "ldap:" retrievals have been hardened. For more information, see <a href="https://support.microsoft.com/kb/946401">http://support.microsoft.com/kb/946401</a>.
 
 This function supports "http:" and "ldap:" URL schemes as well as newly defined schemes.
 

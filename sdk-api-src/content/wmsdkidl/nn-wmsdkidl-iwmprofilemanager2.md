@@ -54,7 +54,7 @@ The <b>IWMProfileManager2</b> interface adds methods to specify and retrieve the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMProfileManager2</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager">IWMProfileManager</a>. <b>IWMProfileManager2</b> also has these types of members:
+The <b>IWMProfileManager2</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager">IWMProfileManager</a>. <b>IWMProfileManager2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

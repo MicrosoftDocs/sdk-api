@@ -52,7 +52,7 @@ api_name:
 
 Clears memory associated with a property list and reinitializes the list.
 
-## -parameters
+
 
 ## -returns
 

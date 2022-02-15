@@ -54,23 +54,23 @@ Indicates the behavior of a live source filter.
 
 ## -enum-fields
 
-### -field AM_PUSHSOURCECAPS_INTERNAL_RM
+### -field AM_PUSHSOURCECAPS_INTERNAL_RM:0x1
 
 The filter uses its own rate-matching mechanism; the renderer should therefore not attempt to match rates with this filter.
 
-### -field AM_PUSHSOURCECAPS_NOT_LIVE
+### -field AM_PUSHSOURCECAPS_NOT_LIVE:0x2
 
 The filter is not live. Do not treat it as a live source, even though it exposes the <a href="/windows/desktop/api/strmif/nn-strmif-iampushsource">IAMPushSource</a> interface.
 
-### -field AM_PUSHSOURCECAPS_PRIVATE_CLOCK
+### -field AM_PUSHSOURCECAPS_PRIVATE_CLOCK:0x4
 
 The filter time stamps the samples using a private clock. The clock is not available to the rest of the graph through <a href="/windows/desktop/api/strmif/nn-strmif-ireferenceclock">IReferenceClock</a>.
 
-### -field AM_PUSHSOURCEREQS_USE_STREAM_CLOCK
+### -field AM_PUSHSOURCEREQS_USE_STREAM_CLOCK:0x10000
 
 Reserved; do not use.
 
-### -field AM_PUSHSOURCEREQS_USE_CLOCK_CHAIN
+### -field AM_PUSHSOURCEREQS_USE_CLOCK_CHAIN:0x20000
 
 ## -remarks
 

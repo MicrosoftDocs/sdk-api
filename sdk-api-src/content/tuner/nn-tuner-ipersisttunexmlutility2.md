@@ -54,7 +54,7 @@ Defines utility methods for serializing tuning requests (objects that implement 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistTuneXmlUtility2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ipersisttunexmlutility">IPersistTuneXmlUtility</a>. <b>IPersistTuneXmlUtility2</b> also has these types of members:
+The <b>IPersistTuneXmlUtility2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ipersisttunexmlutility">IPersistTuneXmlUtility</a>. <b>IPersistTuneXmlUtility2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

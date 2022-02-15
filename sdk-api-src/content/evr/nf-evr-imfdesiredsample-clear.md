@@ -53,7 +53,7 @@ api_name:
 
 Clears the time stamps previously set by a call to <a href="/windows/desktop/api/evr/nf-evr-imfdesiredsample-setdesiredsampletimeandduration">IMFDesiredSample::SetDesiredSampleTimeAndDuration</a>.
 
-## -parameters
+
 
 ## -remarks
 

@@ -53,7 +53,7 @@ api_name:
 The 
 <b>Reset</b> method resets the enumeration sequence to the beginning. This method is hidden from Visual Basic and scripting languages.
 
-## -parameters
+
 
 ## -returns
 

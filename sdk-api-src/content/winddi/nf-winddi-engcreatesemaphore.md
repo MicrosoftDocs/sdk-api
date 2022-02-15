@@ -55,7 +55,7 @@ api_name:
 
 The <b>EngCreateSemaphore</b> function creates a semaphore object.
 
-## -parameters
+
 
 ## -returns
 

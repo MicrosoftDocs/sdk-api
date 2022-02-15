@@ -54,7 +54,7 @@ Defines values that indicate how a notification should be processed.
 
 ## -enum-fields
 
-### -field NotificationProcessing_ImportantAll
+### -field NotificationProcessing_ImportantAll:0
 
 These notifications should be presented to the user as soon as possible and 
 all of the notifications from this source should be delivered to the user.
@@ -62,23 +62,23 @@ all of the notifications from this source should be delivered to the user.
 <div class="alert"><b>Warning</b>  Use this in a limited capacity as this style of message could cause a flooding of information to the user due to the nature of the request to deliver all notifications.</div>
 <div> </div>
 
-### -field NotificationProcessing_ImportantMostRecent
+### -field NotificationProcessing_ImportantMostRecent:1
 
 These notifications 
 should be presented to the user as soon as possible. The most recent notification from this source should be delivered to the user because it supersedes all of the other notifications.
 
-### -field NotificationProcessing_All
+### -field NotificationProcessing_All:2
 
 These notifications 
 should be presented to the user when possible. 
 All of the notifications from this source should be delivered to the user.
 
-### -field NotificationProcessing_MostRecent
+### -field NotificationProcessing_MostRecent:3
 
 These notifications 
 should be presented to the user when possible. The most recent notification from this source should be delivered to the user because it supersedes all of the other notifications.
 
-### -field NotificationProcessing_CurrentThenMostRecent
+### -field NotificationProcessing_CurrentThenMostRecent:4
 
 These notifications 
 should be presented to the user when possible. 

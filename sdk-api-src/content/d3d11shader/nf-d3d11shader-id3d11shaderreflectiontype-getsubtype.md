@@ -52,7 +52,7 @@ api_name:
 
 Gets the base class of a class.
 
-## -parameters
+
 
 ## -returns
 

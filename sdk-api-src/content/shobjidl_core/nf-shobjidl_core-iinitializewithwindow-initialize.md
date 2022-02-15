@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies an owner window to be used by a Windows Runtime object that is used in a desktop app.
+Specifies an owner window to be used by a Windows Runtime (WinRT) object that is used in a desktop app.
 
 ## -parameters
 
@@ -60,8 +60,14 @@ The handle of the window to be used as the owner window.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+
+## -remarks
+
+For more information about using this method to specify the owner window for a WinRT object, see <a href="/windows/apps/desktop/modernize/desktop-to-uwp-supported-api#classes-that-use-iinitializewithwindow">Classes that use IInitializeWithWindow</a>.
 
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow">IInitializeWithWindow</a>
+
+<a href="/windows/apps/desktop/modernize/desktop-to-uwp-supported-api#classes-that-use-iinitializewithwindow">Classes that use IInitializeWithWindow</a>

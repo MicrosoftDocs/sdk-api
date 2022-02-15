@@ -52,7 +52,7 @@ api_name:
 
 Determines whether inband mode is enabled.
 
-## -parameters
+
 
 ## -returns
 

@@ -100,7 +100,7 @@ Do not use bitwise comparisons to compare this flag value directly. Instead, use
 
 #### CHANNEL_FLAG_ONLY (3)
 
-Combines the <b>CHANNEL_FLAG_FIRST</b> and <b>CHANNEL_FLAG_LAST</b>values. The chunk contains all the data from a single write operation.
+Combines the <b>CHANNEL_FLAG_FIRST</b> and <b>CHANNEL_FLAG_LAST</b> values. The chunk contains all the data from a single write operation.
 
 Use bitwise comparisons when comparing this flag.
 

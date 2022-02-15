@@ -78,7 +78,7 @@ The pack flags enumerated by <a href="/windows/desktop/api/vds/ne-vds-vds_pack_f
 
 ## -remarks
 
-The <a href="/windows/desktop/api/vds/nf-vds-ivdspack-getproperties">IVdsPack::GetProperties</a>method returns this structure to report the property details of a pack object.
+The <a href="/windows/desktop/api/vds/nf-vds-ivdspack-getproperties">IVdsPack::GetProperties</a> method returns this structure to report the property details of a pack object.
 
 ## -see-also
 

@@ -54,19 +54,19 @@ Provides a set of values that indicate the base key that will be used for an enu
 
 ## -enum-fields
 
-### -field SHREGENUM_DEFAULT
+### -field SHREGENUM_DEFAULT:0x00000000
 
 Enumerates under <b>HKEY_CURRENT_USER</b>, or, if the specified item is not found in <b>HKEY_CURRENT_USER</b>, enumerates under <b>HKEY_LOCAL_MACHINE</b>.
 
-### -field SHREGENUM_HKCU
+### -field SHREGENUM_HKCU:0x00000001
 
 Enumerates under <b>HKEY_CURRENT_USER</b> only.
 
-### -field SHREGENUM_HKLM
+### -field SHREGENUM_HKLM:0x00000010
 
 Enumerates under <b>HKEY_LOCAL_MACHINE</b> only.
 
-### -field SHREGENUM_BOTH
+### -field SHREGENUM_BOTH:0x00000011
 
 Not used.
 

@@ -56,11 +56,11 @@ Specifies the type of assignment for a personal desktop resolution.
 
 ## -enum-fields
 
-### -field TSPUB_PLUGIN_PD_ASSIGNMENT_NEW
+### -field TSPUB_PLUGIN_PD_ASSIGNMENT_NEW:0
 
 A new personal desktop was created for the user.
 
-### -field TSPUB_PLUGIN_PD_ASSIGNMENT_EXISTING
+### -field TSPUB_PLUGIN_PD_ASSIGNMENT_EXISTING:1
 
 An existing personal desktop was used for the user.
 

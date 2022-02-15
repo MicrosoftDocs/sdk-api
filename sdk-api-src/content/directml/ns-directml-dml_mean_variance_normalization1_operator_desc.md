@@ -8,8 +8,8 @@ ms.date: 11/03/2020
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -148,4 +148,4 @@ This operator was introduced in `DML_FEATURE_LEVEL_2_1`.
 | OutputTensor | Output | 4 | FLOAT32, FLOAT16 |
 
 ## -see-also
-[Using fused operators for improved performance](/windows/win32/direct3d12/dml-fused-activations)
+[Using fused operators for improved performance](/windows/ai/directml/dml-fused-activations)

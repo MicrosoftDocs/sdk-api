@@ -54,7 +54,7 @@ The <b>FAX_PRIORITY_TYPE_ENUM</b> enumeration defines the types of priorities fo
 
 ## -enum-fields
 
-### -field fptLOW
+### -field fptLOW:0
 
 The fax will be sent with a low priority. All faxes that have a normal or a high priority will be sent before a fax that has a low priority.
 

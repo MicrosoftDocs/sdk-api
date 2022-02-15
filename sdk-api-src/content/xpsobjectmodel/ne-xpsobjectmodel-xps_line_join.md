@@ -56,7 +56,7 @@ Describes the joint made by two intersecting line segments.
 
 ## -enum-fields
 
-### -field XPS_LINE_JOIN_MITER
+### -field XPS_LINE_JOIN_MITER:1
 
 Produces a sharp or clipped corner, depending on whether the length of the miter exceeds the miter limit.
 

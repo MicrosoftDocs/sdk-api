@@ -59,7 +59,7 @@ This enumeration is
 
 ## -enum-fields
 
-### -field VDS_PARTITION_STYLE_MBR
+### -field VDS_PARTITION_STYLE_MBR:0
 
 This value is not intended for use.
 

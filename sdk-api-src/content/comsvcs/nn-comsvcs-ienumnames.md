@@ -54,7 +54,7 @@ Enumerates names.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumNames</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumNames</b> also has these types of members:
+The <b>IEnumNames</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumNames</b> also has these types of members:
 <ul>
 <li><a href="/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingextension-methods-vb">Methods</a></li>
 </ul>

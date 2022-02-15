@@ -54,8 +54,5 @@ Represents a color context to be used with the Color Management Effect.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1ColorContext1</b> interface inherits from <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1colorcontext">ID2D1ColorContext</a>. <b>ID2D1ColorContext1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID2D1ColorContext1</b> interface inherits from <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1colorcontext">ID2D1ColorContext</a>. <b>ID2D1ColorContext1</b> also has these types of members:
 

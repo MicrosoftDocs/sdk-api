@@ -115,7 +115,7 @@ If the function fails, the return value is one of the following error codes or a
 </dl>
 </td>
 <td width="60%">
-The <i>lprasentryname</i> buffer is not large enough. The <i>lpcb</i>parameter is less than the <b>dwSize</b> member in the <i>lprasentryname</i>parameter which should be set prior to calling the function. The function returns the required buffer size in the variable pointed to by <i>lpcb</i>.
+The <i>lprasentryname</i> buffer is not large enough. The <i>lpcb</i> parameter is less than the <b>dwSize</b> member in the <i>lprasentryname</i> parameter which should be set prior to calling the function. The function returns the required buffer size in the variable pointed to by <i>lpcb</i>.
 
 <b>Windows Vista or later:  </b>The <i>lprasentryname</i> buffer may be set to <b>NULL</b> and the variable pointed to by <i>lpcb</i> may be set to zero. The function will return the required buffer size in the variable pointed to by <i>lpcb</i>.
 

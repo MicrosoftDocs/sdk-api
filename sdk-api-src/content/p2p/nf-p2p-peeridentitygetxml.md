@@ -110,11 +110,15 @@ There is not enough memory to perform the specified operation.
 
 The XML fragment returned has the following structure:
 
-<pre class="syntax" xml:space="preserve"><code>&lt;PEERIDENTITYINFO VERSION="1.0"&gt;
+
+``` syntax
+&lt;PEERIDENTITYINFO VERSION="1.0"&gt;
      &lt;IDC xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64"&gt;
           Base 64 encoded certificate.
      &lt;/IDC&gt;
-&lt;/PEERIDENTITYINFO&gt;</code></pre>
+&lt;/PEERIDENTITYINFO&gt;
+```
+
 This XML fragment is used when creating an invitation to join a group.
 
 Applications are not allowed to add tags within the <b>PEERIDENTITYINFO</b> tag or modify this XML fragment in any way.  Applications are allowed to incorporate this XML fragment into other XML documents, but must strip out all application-specific XML before passing this fragment to the <a href="/windows/desktop/api/p2p/nf-p2p-peergroupcreateinvitation">PeerGroupCreateInvitation</a>.

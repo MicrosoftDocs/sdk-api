@@ -61,133 +61,133 @@ Defines the set of valid types for a LUN.
 
 ## -enum-fields
 
-### -field VDS_LT_UNKNOWN
+### -field VDS_LT_UNKNOWN:0
 
 This value is reserved.
 
-### -field VDS_LT_DEFAULT
+### -field VDS_LT_DEFAULT:1
 
 The LUN type is default automagic—the provider configures the LUN automatically based on hints. This value is used as an input parameter only; it is not returned by queries.
 
-### -field VDS_LT_FAULT_TOLERANT
+### -field VDS_LT_FAULT_TOLERANT:2
 
 The LUN type is fault tolerant automagic—the provider configures the LUN automatically based on hints, but with the requirement that the resulting LUN is fault tolerant. This value is used as an input parameter only; it is not returned by queries.
 
-### -field VDS_LT_NON_FAULT_TOLERANT
+### -field VDS_LT_NON_FAULT_TOLERANT:3
 
 The LUN type is non-fault tolerant automagic—the provider configures the LUN automatically based on hints, but with the requirement that the resulting LUN is non-fault tolerant. This value is used as an input parameter only; it is not returned by queries.
 
-### -field VDS_LT_SIMPLE
+### -field VDS_LT_SIMPLE:10
 
 The LUN type is simple—it is composed of extents from exactly one drive.
 
-### -field VDS_LT_SPAN
+### -field VDS_LT_SPAN:11
 
 The LUN's type is spanned—it is composed of extents from more than one drive.
 
-### -field VDS_LT_STRIPE
+### -field VDS_LT_STRIPE:12
 
 The LUN type is striped, which is equivalent to RAID 0.
 
-### -field VDS_LT_MIRROR
+### -field VDS_LT_MIRROR:13
 
 The LUN type is mirrored, which is equivalent to RAID 1.
 
-### -field VDS_LT_PARITY
+### -field VDS_LT_PARITY:14
 
 The LUN type is striped with parity, which accounts for RAID levels 3, 4, 5, and 6.
 
-### -field VDS_LT_RAID2
+### -field VDS_LT_RAID2:15
 
 The LUN type is RAID level 2.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_LT_RAID3
+### -field VDS_LT_RAID3:16
 
 The LUN type is RAID level 3.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_LT_RAID4
+### -field VDS_LT_RAID4:17
 
 The LUN type is RAID level 4.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_LT_RAID5
+### -field VDS_LT_RAID5:18
 
 The LUN type is RAID level 5.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_LT_RAID6
+### -field VDS_LT_RAID6:19
 
 The LUN type is RAID level 6.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_LT_RAID01
+### -field VDS_LT_RAID01:20
 
 The LUN type is RAID level 0+1.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_LT_RAID03
+### -field VDS_LT_RAID03:21
 
 The LUN type is RAID level 0+3.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_LT_RAID05
+### -field VDS_LT_RAID05:22
 
 The LUN type is RAID level 0+5.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_LT_RAID10
+### -field VDS_LT_RAID10:23
 
 The LUN type is RAID level 1+0.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_LT_RAID15
+### -field VDS_LT_RAID15:24
 
 The LUN type is RAID level 1+5.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_LT_RAID30
+### -field VDS_LT_RAID30:25
 
 The LUN type is RAID level 3+0.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_LT_RAID50
+### -field VDS_LT_RAID50:26
 
 The LUN type is RAID level 5+0.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_LT_RAID51
+### -field VDS_LT_RAID51:27
 
 The LUN type is RAID level 5+1.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_LT_RAID53
+### -field VDS_LT_RAID53:28
 
 The LUN type is RAID level 5+3.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_LT_RAID60
+### -field VDS_LT_RAID60:29
 
 The LUN type is RAID level 6+0.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_LT_RAID61
+### -field VDS_LT_RAID61:30
 
 The LUN type is RAID level 6+1.
 

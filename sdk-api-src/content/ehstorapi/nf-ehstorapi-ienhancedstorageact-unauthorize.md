@@ -52,7 +52,7 @@ api_name:
 
 Associates the Addressable Command Target (ACT) with the <b>Unauthorized</b> state defined by <a href="/windows/desktop/api/ehstorapi/ns-ehstorapi-act_authorization_state">ACT_AUTHORIZATION_STATE</a>, and ensures the deauthentication of each individual silo according to the required sequence and logical combination necessary to restrict access to the ACT.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,11 +54,11 @@ The <b>BCRYPT_HASH_OPERATION_TYPE</b> enumeration specifies the hash operation t
 
 ## -enum-fields
 
-### -field BCRYPT_HASH_OPERATION_HASH_DATA
+### -field BCRYPT_HASH_OPERATION_HASH_DATA:1
 
 Equivalent to calling the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcrypthashdata">BCryptHashData</a> function.
 
-### -field BCRYPT_HASH_OPERATION_FINISH_HASH
+### -field BCRYPT_HASH_OPERATION_FINISH_HASH:2
 
 Equivalent to calling the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfinishhash">BCryptFinishHash</a> function.
 

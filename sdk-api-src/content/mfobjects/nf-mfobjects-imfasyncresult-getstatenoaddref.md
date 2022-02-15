@@ -53,7 +53,7 @@ api_name:
 
 Returns the state object specified by the caller in the asynchronous <b>Begin</b> method, without incrementing the object's reference count.
 
-## -parameters
+
 
 ## -returns
 

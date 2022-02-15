@@ -56,9 +56,9 @@ api_name:
 
 ## -enum-fields
 
-### -field ATTRIBUTE_FILTER_NONE
+### -field ATTRIBUTE_FILTER_NONE:0
 
-### -field ATTRIBUTE_FILTER_VPN_DIALUP
+### -field ATTRIBUTE_FILTER_VPN_DIALUP:0x1
 
-### -field ATTRIBUTE_FILTER_IEEE_802_1x
+### -field ATTRIBUTE_FILTER_IEEE_802_1x:0x2
 

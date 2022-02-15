@@ -68,7 +68,7 @@ A null-terminated string of maximum length INTERNET_MAX_URL_LENGTH that contains
 
 Type: <b>BYTE*</b>
 
-A pointere to a buffer that, when this function returns successfully, receives the hashed array.
+A pointer to a buffer that, when this function returns successfully, receives the hashed array.
 
 ### -param cbHash
 
@@ -80,7 +80,7 @@ The number of elements in the array at <i>pbHash</i>. It should be no larger tha
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

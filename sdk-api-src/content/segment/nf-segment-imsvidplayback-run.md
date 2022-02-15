@@ -54,7 +54,7 @@ The <b>Run</b> method runs the playback device.
 
 Applications should call the <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-run">IMSVidCtl::Run</a> method, rather than this method.
 
-## -parameters
+
 
 ## -returns
 

@@ -45,7 +45,7 @@ Encapsulates a list of graphics commands for video processing. This interface is
 
 ## -inheritance
 
-ID3D12VideoProcessCommandList interits from ID3D12CommandList.
+ID3D12VideoProcessCommandList inherits from ID3D12CommandList.
 
 ## -remarks
 

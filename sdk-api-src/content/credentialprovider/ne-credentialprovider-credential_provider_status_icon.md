@@ -56,7 +56,7 @@ Indicates which status icon should be displayed.
 
 ## -enum-fields
 
-### -field CPSI_NONE
+### -field CPSI_NONE:0
 
 No icon indicated.
 

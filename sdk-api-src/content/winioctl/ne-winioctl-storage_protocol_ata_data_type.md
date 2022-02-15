@@ -59,7 +59,7 @@ The ATA protocol data type.
 
 ## -enum-fields
 
-### -field AtaDataTypeUnknown
+### -field AtaDataTypeUnknown:0
 
 Unknown data type.
 

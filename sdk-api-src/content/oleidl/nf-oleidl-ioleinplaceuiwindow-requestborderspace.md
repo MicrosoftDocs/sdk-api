@@ -100,23 +100,31 @@ The space for the tools is not actually allocated to the object until it calls <
 
 The object can install these tools by passing the width in pixels that is to be used on each side. For example, if the object required 10 pixels on the top, 0 pixels on the bottom, and 5 pixels on the left and right sides, it would pass the following <a href="/previous-versions/windows/desktop/legacy/cc136564(v=vs.85)">BORDERWIDTHS</a> structure to <b>IOleInPlaceUIWindow::RequestBorderSpace</b>:
 
-<pre class="syntax" xml:space="preserve"><code>lpbw-&gt;top    = 10 
+
+``` syntax
+lpbw-&gt;top    = 10 
 lpbw-&gt;bottom =  0 
 lpbw-&gt;lLeft  =  5 
-lpbw-&gt;right  =  5 </code></pre>
+lpbw-&gt;right  =  5 
+```
+
 <div class="alert"><b>Note</b>  While executing <b>IOleInPlaceUIWindow::RequestBorderSpace</b>, do not make calls to the <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> or <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> functions, or a dialog box. Doing so may cause the system to deadlock. There are further restrictions on which OLE interface methods and functions can be called from within <b>IOleInPlaceUIWindow::RequestBorderSpace</b>.</div>
 <div> </div>
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 If the amount of space an active object uses for its toolbars is irrelevant to the container, it can simply return NOERROR as shown in the following <b>IOleInPlaceUIWindow::RequestBorderSpace</b> example. Containers should not unduly restrict the display of tools by an active in-place object.
 
-<pre class="syntax" xml:space="preserve"><code>HRESULT InPlaceUIWindow_RequestBorderSpace( 
+
+``` syntax
+HRESULT InPlaceUIWindow_RequestBorderSpace( 
     IOleInPlaceFrame *  lpThis, 
     LPCBORDERWIDTHS     pborderwidths) 
 { 
     // Container allows the object to have as much border space as it 
     // wants.  
     return NOERROR; 
-} </code></pre>
+} 
+```
+
 
 ## -see-also
 

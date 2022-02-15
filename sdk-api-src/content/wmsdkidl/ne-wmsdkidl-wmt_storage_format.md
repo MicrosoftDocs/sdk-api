@@ -56,7 +56,7 @@ The <b>WMT_STORAGE_FORMAT</b> enumeration type defines the file types that can b
 
 ## -enum-fields
 
-### -field WMT_Storage_Format_MP3
+### -field WMT_Storage_Format_MP3:0
 
 The file is encoded in MP3 format.
 

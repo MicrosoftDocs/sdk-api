@@ -68,7 +68,7 @@ This field cannot be changed via [SetProcessMitigationPolicy](/windows/desktop/a
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.AuditUserShadowStack
 
 If TRUE, shadow stack violations that would have been fatal are instead treated as not fatal and diagnostic events are logged in the Event Log.
-When this field is TRUE, EnableUserShadowStack must be TRUE and EnableUserShadowStackStrictMode may be TRUE, depending on whether compatibilty mode is being audited or strict mode is being audited.
+When this field is TRUE, EnableUserShadowStack must be TRUE and EnableUserShadowStackStrictMode may be TRUE, depending on whether compatibility mode is being audited or strict mode is being audited.
 This field cannot be changed via [SetProcessMitigationPolicy](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy).
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.BlockNonCetBinaries

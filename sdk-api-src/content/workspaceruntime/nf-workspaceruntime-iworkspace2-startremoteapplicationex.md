@@ -91,11 +91,11 @@ For RDP connections, this parameter contains two strings:
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-<b>StartRemoteApplicationEx</b> contains a number of new features: launching a 3rd party application when the remote destop first starts, handling multiple remote desktops, and launching with the web-based client UI.
+<b>StartRemoteApplicationEx</b> contains a number of new features: launching a 3rd party application when the remote desktop first starts, handling multiple remote desktops, and launching with the web-based client UI.
 
 ## -see-also
 

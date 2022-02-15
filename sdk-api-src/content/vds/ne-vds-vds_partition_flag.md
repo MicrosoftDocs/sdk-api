@@ -58,7 +58,7 @@ Defines a set of valid flags for a partition.
 
 ## -enum-fields
 
-### -field VDS_PTF_SYSTEM
+### -field VDS_PTF_SYSTEM:0x1
 
 If set, the partition is a system partition.
 

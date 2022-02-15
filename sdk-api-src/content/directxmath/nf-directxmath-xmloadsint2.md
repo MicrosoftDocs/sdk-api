@@ -61,11 +61,11 @@ Address of an <a href="/windows/desktop/api/directxmath/ns-directxmath-xmint2">X
 
 ## -returns
 
-Returns an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> loaded with the data from the <i>pSource</i>parameter.
+Returns an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> loaded with the data from the <i>pSource</i> parameter.
 
 ## -remarks
 
-For 16-byte aligned memory, it may be faster to use <a href="/windows/desktop/api/directxmath/nf-directxmath-xmloadint2a">XMLoadInt2A</a>with a casting operator.
+For 16-byte aligned memory, it may be faster to use <a href="/windows/desktop/api/directxmath/nf-directxmath-xmloadint2a">XMLoadInt2A</a> with a casting operator.
 
 The following pseudocode shows the operation of this function.
 

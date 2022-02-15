@@ -56,11 +56,11 @@ Describes how to interpret the  <i>selectionCriterion</i> parameter of the <a hr
 
 ## -enum-fields
 
-### -field OPC_RELATIONSHIP_SELECT_BY_ID
+### -field OPC_RELATIONSHIP_SELECT_BY_ID:0
 
 The <i>selectionCriterion</i> parameter is a relationship identifier.
 
-### -field OPC_RELATIONSHIP_SELECT_BY_TYPE
+### -field OPC_RELATIONSHIP_SELECT_BY_TYPE:1
 
 The <i>selectionCriterion</i> parameter is a relationship type.
 

@@ -56,7 +56,7 @@ api_name:
 
 The <b>GetStatusObject</b> method gets an internal pointer to <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> information. WMI does not implement any functionality based on the pointer.
 
-## -parameters
+
 
 ## -returns
 

@@ -55,10 +55,7 @@ Provides interoperability with GDI, such as methods to convert a font face to a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteGdiInterop1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritegdiinterop">IDWriteGdiInterop</a>. <b>IDWriteGdiInterop1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteGdiInterop1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritegdiinterop">IDWriteGdiInterop</a>. <b>IDWriteGdiInterop1</b> also has these types of members:
 
 ## -see-also
 

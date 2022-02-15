@@ -53,7 +53,7 @@ api_name:
 
 The <b>FontFamily::GenericMonospace</b> method gets a <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> object that specifies a generic monospace typeface.
 
-## -parameters
+
 
 ## -returns
 

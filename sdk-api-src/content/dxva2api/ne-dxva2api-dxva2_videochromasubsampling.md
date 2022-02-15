@@ -56,27 +56,27 @@ Describes how chroma values are positioned relative to the luma samples in a YUV
 
 ## -enum-fields
 
-### -field DXVA2_VideoChromaSubsamplingMask
+### -field DXVA2_VideoChromaSubsamplingMask:0xf
 
 Bitmask to validate flag values. This value is not a valid flag.
 
-### -field DXVA2_VideoChromaSubsampling_Unknown
+### -field DXVA2_VideoChromaSubsampling_Unknown:0
 
 Unknown encoding scheme.
 
-### -field DXVA2_VideoChromaSubsampling_ProgressiveChroma
+### -field DXVA2_VideoChromaSubsampling_ProgressiveChroma:0x8
 
 Chroma should be reconstructed as if the underlying video was progressive content, rather than skipping fields or applying chroma filtering to minimize artifacts from reconstructing 4:2:0 interlaced chroma.
 
-### -field DXVA2_VideoChromaSubsampling_Horizontally_Cosited
+### -field DXVA2_VideoChromaSubsampling_Horizontally_Cosited:0x4
 
 Horizontally cosited. Chroma samples are aligned horizontally with multiples of the luma samples. If this flag is not set, chroma samples are located 1/2 pixel to the right of the corresponding luma samples.
 
-### -field DXVA2_VideoChromaSubsampling_Vertically_Cosited
+### -field DXVA2_VideoChromaSubsampling_Vertically_Cosited:0x2
 
 Vertically cosited. Chroma samples are aligned vertically with multiples of the luma samples. If this flag is not set, chroma samples are located 1/2 pixel down from the corresponding luma samples.
 
-### -field DXVA2_VideoChromaSubsampling_Vertically_AlignedChromaPlanes
+### -field DXVA2_VideoChromaSubsampling_Vertically_AlignedChromaPlanes:0x1
 
 The chroma planes are vertically aligned. If this flag is not set, chroma planes are out of phase by 1/2 chroma sample, and the Cb and Cr samples are sited on alternate lines.
 

@@ -54,7 +54,7 @@ api_name:
 
 Directs the protocol to continue with the connection request.
 
-## -parameters
+
 
 ## -remarks
 

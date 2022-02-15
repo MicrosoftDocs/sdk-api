@@ -61,19 +61,19 @@ Defines the set of interconnect types that subsystems can support.
 
 ## -enum-fields
 
-### -field VDS_ITF_PCI_RAID
+### -field VDS_ITF_PCI_RAID:0x1
 
 The subsystem supports a PCI RAID interconnect.
 
-### -field VDS_ITF_FIBRE_CHANNEL
+### -field VDS_ITF_FIBRE_CHANNEL:0x2
 
 The subsystem supports a Fibre Channel interconnect.
 
-### -field VDS_ITF_ISCSI
+### -field VDS_ITF_ISCSI:0x4
 
 The subsystem supports an iSCSI interconnect.
 
-### -field VDS_ITF_SAS
+### -field VDS_ITF_SAS:0x8
 
 The subsystem supports a serial attached iSCSI (SAS) interconnect.
 

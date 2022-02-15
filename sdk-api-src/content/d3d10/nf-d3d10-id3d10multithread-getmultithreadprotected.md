@@ -53,7 +53,7 @@ api_name:
 
 Find out if multithreading is turned on or not.
 
-## -parameters
+
 
 ## -returns
 

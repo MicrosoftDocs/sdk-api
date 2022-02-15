@@ -53,7 +53,7 @@ api_name:
 
 The <code>IsSyncPoint</code> method determines if the beginning of this sample is a synchronization point.
 
-## -parameters
+
 
 ## -returns
 

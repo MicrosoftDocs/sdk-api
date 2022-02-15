@@ -53,7 +53,7 @@ api_name:
 
 The <b>Reset</b> method deletes the contents of the current log file.
 
-## -parameters
+
 
 ## -returns
 

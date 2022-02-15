@@ -99,9 +99,9 @@ The return value is <b>TRUE</b> if the function is successful. Otherwise, it is 
 
  The driver sets the hardware palette to match the entries in the given palette as closely as possible.
 
-Only indexed palettes are realizeable. The RC_PALETTE bit of the <b>flRasterCaps</b> member of the <a href="/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure specifies whether a device has a realizeable palette.
+Only indexed palettes are realizable. The RC_PALETTE bit of the <b>flRasterCaps</b> member of the <a href="/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure specifies whether a device has a realizable palette.
 
-<b>DrvSetPalette</b> is required for display drivers that support realizeable palettes.
+<b>DrvSetPalette</b> is required for display drivers that support realizable palettes.
 
 ## -see-also
 

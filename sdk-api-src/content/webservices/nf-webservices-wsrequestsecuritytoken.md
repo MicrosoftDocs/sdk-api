@@ -70,7 +70,7 @@ responsible for <a href="/windows/desktop/api/webservices/nf-webservices-wsclose
 this function.
                 
 
-Thus, the channel must be in state <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_state">WS_CHANNEL_STATE_OPEN</a>when this function is called.  After a successful completion of this
+Thus, the channel must be in state <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_state">WS_CHANNEL_STATE_OPEN</a> when this function is called.  After a successful completion of this
 function, the channel will be in state <b>WS_CHANNEL_STATE_OPEN</b>.  After a failed completion, it will
 either be in state <b>WS_CHANNEL_STATE_OPEN</b> or state <b>WS_CHANNEL_STATE_FAULTED</b>.
 

@@ -55,7 +55,7 @@ The <b>EndpointFormFactor</b> enumeration defines constants that indicate the ge
 
 ## -enum-fields
 
-### -field RemoteNetworkDevice
+### -field RemoteNetworkDevice:0
 
 An audio endpoint device that the user accesses remotely through a network.
 

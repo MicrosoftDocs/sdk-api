@@ -54,30 +54,30 @@ Specifies the view options returned by the <a href="/windows/desktop/shell/shell
 
 ## -enum-fields
 
-### -field SFVVO_SHOWALLOBJECTS
+### -field SFVVO_SHOWALLOBJECTS:0x1
 
 0x0001. The <b>Show All Files</b> option is enabled.
 
-### -field SFVVO_SHOWEXTENSIONS
+### -field SFVVO_SHOWEXTENSIONS:0x2
 
 0x0002. The <b>Hide extensions for known file types</b> option is disabled.
 
-### -field SFVVO_SHOWCOMPCOLOR
+### -field SFVVO_SHOWCOMPCOLOR:0x8
 
 0x0008. The <b>Display Compressed Files and Folders with Alternate Color</b> option is enabled.
 
-### -field SFVVO_SHOWSYSFILES
+### -field SFVVO_SHOWSYSFILES:0x20
 
 0x0020. The <b>Do Not Show Hidden Files</b> option is enabled.
 
-### -field SFVVO_WIN95CLASSIC
+### -field SFVVO_WIN95CLASSIC:0x40
 
 0x0040. The <b>Classic Style</b> option is enabled.
 
-### -field SFVVO_DOUBLECLICKINWEBVIEW
+### -field SFVVO_DOUBLECLICKINWEBVIEW:0x80
 
 0x0080. The <b>Double-Click to Open an Item</b> option is enabled.
 
-### -field SFVVO_DESKTOPHTML
+### -field SFVVO_DESKTOPHTML:0x200
 
 0x0200. The <b>Active Desktop – View as Web Page</b> option is enabled.

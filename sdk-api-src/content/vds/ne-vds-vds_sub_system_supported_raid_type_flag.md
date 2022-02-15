@@ -61,67 +61,67 @@ Defines the set of RAID levels that can be supported by subsystems.
 
 ## -enum-fields
 
-### -field VDS_SF_SUPPORTS_RAID2_LUNS
+### -field VDS_SF_SUPPORTS_RAID2_LUNS:0x1
 
 Supports RAID level 2.
 
-### -field VDS_SF_SUPPORTS_RAID3_LUNS
+### -field VDS_SF_SUPPORTS_RAID3_LUNS:0x2
 
 Supports RAID level 3.
 
-### -field VDS_SF_SUPPORTS_RAID4_LUNS
+### -field VDS_SF_SUPPORTS_RAID4_LUNS:0x4
 
 Supports RAID level 4.
 
-### -field VDS_SF_SUPPORTS_RAID5_LUNS
+### -field VDS_SF_SUPPORTS_RAID5_LUNS:0x8
 
 Supports RAID level 5.
 
-### -field VDS_SF_SUPPORTS_RAID6_LUNS
+### -field VDS_SF_SUPPORTS_RAID6_LUNS:0x10
 
 Supports RAID level 6.
 
-### -field VDS_SF_SUPPORTS_RAID01_LUNS
+### -field VDS_SF_SUPPORTS_RAID01_LUNS:0x20
 
 Supports RAID level 0+1.
 
-### -field VDS_SF_SUPPORTS_RAID03_LUNS
+### -field VDS_SF_SUPPORTS_RAID03_LUNS:0x40
 
 Supports RAID level 0+3.
 
-### -field VDS_SF_SUPPORTS_RAID05_LUNS
+### -field VDS_SF_SUPPORTS_RAID05_LUNS:0x80
 
 Supports RAID level 0+5.
 
-### -field VDS_SF_SUPPORTS_RAID10_LUNS
+### -field VDS_SF_SUPPORTS_RAID10_LUNS:0x100
 
 Supports RAID level 1+0.
 
-### -field VDS_SF_SUPPORTS_RAID15_LUNS
+### -field VDS_SF_SUPPORTS_RAID15_LUNS:0x200
 
 Supports RAID level 1+5.
 
-### -field VDS_SF_SUPPORTS_RAID30_LUNS
+### -field VDS_SF_SUPPORTS_RAID30_LUNS:0x400
 
 Supports RAID level 3+0.
 
-### -field VDS_SF_SUPPORTS_RAID50_LUNS
+### -field VDS_SF_SUPPORTS_RAID50_LUNS:0x800
 
 Supports RAID level 5+0.
 
-### -field VDS_SF_SUPPORTS_RAID51_LUNS
+### -field VDS_SF_SUPPORTS_RAID51_LUNS:0x1000
 
 Supports RAID level 5+1.
 
-### -field VDS_SF_SUPPORTS_RAID53_LUNS
+### -field VDS_SF_SUPPORTS_RAID53_LUNS:0x2000
 
 Supports RAID level 5+3.
 
-### -field VDS_SF_SUPPORTS_RAID60_LUNS
+### -field VDS_SF_SUPPORTS_RAID60_LUNS:0x4000
 
 Supports RAID level 6+0.
 
-### -field VDS_SF_SUPPORTS_RAID61_LUNS
+### -field VDS_SF_SUPPORTS_RAID61_LUNS:0x8000
 
 Supports RAID level 6+1.
 

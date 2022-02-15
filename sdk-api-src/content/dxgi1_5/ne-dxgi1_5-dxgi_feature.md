@@ -54,7 +54,7 @@ Specifies a range of hardware features, to be used when checking for feature sup
 
 ## -enum-fields
 
-### -field DXGI_FEATURE_PRESENT_ALLOW_TEARING
+### -field DXGI_FEATURE_PRESENT_ALLOW_TEARING:0
 
 The display supports tearing, a requirement of variable refresh rate displays.
 

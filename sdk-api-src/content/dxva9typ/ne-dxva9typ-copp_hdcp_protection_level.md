@@ -56,7 +56,7 @@ Specifies the HDCP protection level.
 
 ## -enum-fields
 
-### -field COPP_HDCP_Level0
+### -field COPP_HDCP_Level0:0
 
 HDCP protection is not enabled. See Remarks.
 
@@ -64,7 +64,7 @@ HDCP protection is not enabled. See Remarks.
 
 Minimum HDCP level. Equivalent to <b>COPP_HDCP_Level0</b>.
 
-### -field COPP_HDCP_Level1
+### -field COPP_HDCP_Level1:1
 
 HDCP is enabled.
 
@@ -72,7 +72,7 @@ HDCP is enabled.
 
 Maximum HDCP level. Equivalent to <b>COPP_HDCP_Level1</b>.
 
-### -field COPP_HDCP_ForceDWORD
+### -field COPP_HDCP_ForceDWORD:0x7fffffff
 
 Reserved.
 

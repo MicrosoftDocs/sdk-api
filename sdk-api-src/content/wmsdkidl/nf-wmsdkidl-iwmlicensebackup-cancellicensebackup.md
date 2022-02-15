@@ -59,7 +59,7 @@ api_name:
 
 The <b>CancelLicenseBackup</b> method cancels a current backup operation.
 
-## -parameters
+
 
 ## -returns
 

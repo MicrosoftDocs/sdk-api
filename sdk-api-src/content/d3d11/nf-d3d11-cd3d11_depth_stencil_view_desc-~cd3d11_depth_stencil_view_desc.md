@@ -53,7 +53,7 @@ api_name:
 
 Destroys an instance of a <a href="/previous-versions/windows/desktop/legacy/jj151639(v=vs.85)">CD3D11_DEPTH_STENCIL_VIEW_DESC</a> structure.
 
-## -parameters
+
 
 ## -see-also
 

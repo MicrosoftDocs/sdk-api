@@ -55,11 +55,11 @@ Defines the various versions of cluster notification enumerations.
 
 ## -enum-fields
 
-### -field CLUSTER_NOTIFICATIONS_V1
+### -field CLUSTER_NOTIFICATIONS_V1:0x00000001
 
 Version 1 of the cluster notification enumeration.
 
-### -field CLUSTER_NOTIFICATIONS_V2
+### -field CLUSTER_NOTIFICATIONS_V2:0x00000002
 
 Version 2 of the cluster notification enumeration.
 

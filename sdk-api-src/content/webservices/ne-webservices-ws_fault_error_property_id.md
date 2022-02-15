@@ -54,7 +54,7 @@ Information about a fault.
 
 ## -enum-fields
 
-### -field WS_FAULT_ERROR_PROPERTY_FAULT
+### -field WS_FAULT_ERROR_PROPERTY_FAULT:0
 
 An optional <a href="/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a> value that is the fault representation of the error.  If no
                     fault representation is present, then the value is <b>NULL</b>.
@@ -74,7 +74,7 @@ To get the WS_FAULT value, pass a WS_FAULT** to <a href="/windows/desktop/api/we
 
 The default value is <b>NULL</b>.
 
-### -field WS_FAULT_ERROR_PROPERTY_ACTION
+### -field WS_FAULT_ERROR_PROPERTY_ACTION:1
 
 An optional <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> value representing the action to use for the fault.
                     If the length of the string is zero, then no action is present.
@@ -91,7 +91,7 @@ To set the string value, pass a WS_XML_STRING* to <a href="/windows/desktop/api/
 
 The default value is a zero-length string.
 
-### -field WS_FAULT_ERROR_PROPERTY_HEADER
+### -field WS_FAULT_ERROR_PROPERTY_HEADER:2
 
 An optional <a href="/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> value representing a header to
                     add to the fault message relating to the fault.

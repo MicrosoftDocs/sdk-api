@@ -76,5 +76,5 @@ The center point of the skew operation.
 
 Type: <b><a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
 
-When this method returns, contains the rotation transformation. You must allocate storate for this parameter.
+When this method returns, contains the rotation transformation. You must allocate storage for this parameter.
 

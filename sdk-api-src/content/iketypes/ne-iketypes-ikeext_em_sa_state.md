@@ -56,7 +56,7 @@ The <b>IKEEXT_EM_SA_STATE</b> enumerated type defines the states for the Extende
 
 ## -enum-fields
 
-### -field IKEEXT_EM_SA_STATE_NONE
+### -field IKEEXT_EM_SA_STATE_NONE:0
 
 Initial state.  No Extended Mode packets have been sent to the peer.
 

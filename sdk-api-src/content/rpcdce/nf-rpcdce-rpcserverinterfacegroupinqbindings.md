@@ -104,7 +104,7 @@ A server application calls <b>RpcServerInterfaceGroupInqBindings</b> to obtain a
 
 The returned binding vector can contain binding handles with dynamic endpoints or binding handles with well-known endpoints, depending on the interface group’s endpoint specification.
 
-A server uses the vector of binding handles for exporting to the name service or for conversion to string bindings.  If there are no binding handles (no registered protocol sequences), <b>RpcServerInterfaceGroupInqBindings</b> returns <b>RPC_S_NO_BINDINGS</b>and <i>BindingVector</i> is <b>NULL</b>. The server is responsible for calling <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingvectorfree">RpcBindingVectorFree</a> to release the vector's memory.
+A server uses the vector of binding handles for exporting to the name service or for conversion to string bindings.  If there are no binding handles (no registered protocol sequences), <b>RpcServerInterfaceGroupInqBindings</b> returns <b>RPC_S_NO_BINDINGS</b> and <i>BindingVector</i> is <b>NULL</b>. The server is responsible for calling <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingvectorfree">RpcBindingVectorFree</a> to release the vector's memory.
 
 ## -see-also
 

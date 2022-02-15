@@ -54,27 +54,27 @@ The <b>DWRITE_PANOSE_CHARACTER_RANGES</b> enumeration contains values that speci
 
 ## -enum-fields
 
-### -field DWRITE_PANOSE_CHARACTER_RANGES_ANY
+### -field DWRITE_PANOSE_CHARACTER_RANGES_ANY:0
 
 Any range.
 
-### -field DWRITE_PANOSE_CHARACTER_RANGES_NO_FIT
+### -field DWRITE_PANOSE_CHARACTER_RANGES_NO_FIT:1
 
 No fit for range.
 
-### -field DWRITE_PANOSE_CHARACTER_RANGES_EXTENDED_COLLECTION
+### -field DWRITE_PANOSE_CHARACTER_RANGES_EXTENDED_COLLECTION:2
 
 The range includes extended collection.
 
-### -field DWRITE_PANOSE_CHARACTER_RANGES_LITERALS
+### -field DWRITE_PANOSE_CHARACTER_RANGES_LITERALS:3
 
 The range includes literals.
 
-### -field DWRITE_PANOSE_CHARACTER_RANGES_NO_LOWER_CASE
+### -field DWRITE_PANOSE_CHARACTER_RANGES_NO_LOWER_CASE:4
 
 The range doesn't include lower case.
 
-### -field DWRITE_PANOSE_CHARACTER_RANGES_SMALL_CAPS
+### -field DWRITE_PANOSE_CHARACTER_RANGES_SMALL_CAPS:5
 
 The range includes small capitals.
 

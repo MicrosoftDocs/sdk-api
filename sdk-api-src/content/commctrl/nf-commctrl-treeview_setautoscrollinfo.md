@@ -70,7 +70,7 @@ Specifies pixels per second. The offset to scroll is divided by the <i>uPixPerSe
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Specifies the redraw time interval. Redraw at every elasped interval, until the item is scrolled into view.  Given <i>uPixPerSec</i>, the location of the item is calculated and a repaint occurs. Set this value to create smooth scrolling.
+Specifies the redraw time interval. Redraw at every elapsed interval, until the item is scrolled into view.  Given <i>uPixPerSec</i>, the location of the item is calculated and a repaint occurs. Set this value to create smooth scrolling.
 
 ## -remarks
 

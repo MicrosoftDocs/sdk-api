@@ -54,7 +54,7 @@ api_name:
 
 Cancels the print job.
 
-## -parameters
+
 
 ## -returns
 

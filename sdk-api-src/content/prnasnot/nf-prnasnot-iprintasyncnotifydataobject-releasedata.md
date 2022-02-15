@@ -52,7 +52,7 @@ api_name:
 
 Releases the memory used by the data encapsulated in <a href="/windows/desktop/api/prnasnot/nn-prnasnot-iprintasyncnotifydataobject">IPrintAsyncNotifyDataObject</a>.
 
-## -parameters
+
 
 ## -returns
 

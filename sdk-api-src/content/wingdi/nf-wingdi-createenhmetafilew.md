@@ -89,7 +89,7 @@ The system uses the reference device identified by the <i>hdcRef</i> parameter t
 
 The <b>left</b> and <b>top</b> members of the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure pointed to by the <i>lpRect</i> parameter must be less than the <b>right</b> and <b>bottom</b> members, respectively. Points along the edges of the rectangle are included in the picture. If <i>lpRect</i> is <b>NULL</b>, the graphics device interface (GDI) computes the dimensions of the smallest rectangle that surrounds the picture drawn by the application. The <i>lpRect</i> parameter should be provided where possible.
 
-The string pointed to by the <i>lpDescription</i> parameter must contain a null character between the application name and the picture name and must terminate with two null charactersfor example, "XYZ Graphics Editor\0Bald Eagle\0\0", where \0 represents the null character. If <i>lpDescription</i> is <b>NULL</b>, there is no corresponding entry in the enhanced-metafile header.
+The string pointed to by the <i>lpDescription</i> parameter must contain a null character between the application name and the picture name and must terminate with two null characters, for example, "XYZ Graphics Editor\0Bald Eagle\0\0", where \0 represents the null character. If <i>lpDescription</i> is <b>NULL</b>, there is no corresponding entry in the enhanced-metafile header.
 
 Applications use the device context created by this function to store a graphics picture in an enhanced metafile. The handle identifying this device context can be passed to any GDI function.
 

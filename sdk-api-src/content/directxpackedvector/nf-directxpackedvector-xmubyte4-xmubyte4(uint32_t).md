@@ -66,10 +66,10 @@ The values of four vector components of the new instance, in a packed format.
 
 The values of the four components of the new instance of **XMUBYTE4* are stored in the argument *Packed* as follows:
 
-* The first 8 bits (bits 0-7) of *Packed* assigned, as an signed integer, to the **x** member of the instance of **XMUBYTE4** constructed.
-* The second 8 bits (bits 8-15) of *Packed* assigned, as an signed integer, to the **y** member of the instance of **XMUBYTE4** constructed.
-* The third 8 bits (bits 16-23) of *Packed* assigned, as an signed integer, to the **z**  member of the instance of **XMUBYTE4** constructed.
-* The last 8 bits (bits 24-31) of *Packed* assigned, as an signed integer, to the **w** member of the instance of **XMUBYTE4** constructed.
+* The first 8 bits (bits 0-7) of *Packed* assigned, as a signed integer, to the **x** member of the instance of **XMUBYTE4** constructed.
+* The second 8 bits (bits 8-15) of *Packed* assigned, as a signed integer, to the **y** member of the instance of **XMUBYTE4** constructed.
+* The third 8 bits (bits 16-23) of *Packed* assigned, as a signed integer, to the **z**  member of the instance of **XMUBYTE4** constructed.
+* The last 8 bits (bits 24-31) of *Packed* assigned, as a signed integer, to the **w** member of the instance of **XMUBYTE4** constructed.
 
 ## -see-also
 

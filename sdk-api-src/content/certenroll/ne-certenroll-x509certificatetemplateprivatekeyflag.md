@@ -54,51 +54,51 @@ The <b>X509CertificateTemplatePrivateKeyFlag</b> enumeration contains values tha
 
 ## -enum-fields
 
-### -field PrivateKeyRequireArchival
+### -field PrivateKeyRequireArchival:0x1
 
 Instructs the client to create a key archival certificate request.
 
-### -field PrivateKeyExportable
+### -field PrivateKeyExportable:0x10
 
 Instructs the client to allow other applications to export the private key to a Personal Information Exchange (PFX) message. The message is typically saved in a file with a .pfx extension.
 
-### -field PrivateKeyRequireStrongKeyProtection
+### -field PrivateKeyRequireStrongKeyProtection:0x20
 
 Instructs the client to use additional protection for the private key.
 
-### -field PrivateKeyRequireAlternateSignatureAlgorithm
+### -field PrivateKeyRequireAlternateSignatureAlgorithm:0x40
 
 If this flag is defined, the client must sign the certificate request by using the PKCS #1 version 2.1 signature format which requires that the hash algorithm OID be encoded into the signature parameters. If this flag is not defined the client must sign the certificate request by using the PKCS #1 version 1.5 signature format which requires that the hash and asymmetric algorithm object identifiers (OIDs) be combined into a single OID and that the signature parameters be set to <b>NULL</b>.
 
-### -field PrivateKeyRequireSameKeyRenewal
+### -field PrivateKeyRequireSameKeyRenewal:0x80
 
-### -field PrivateKeyUseLegacyProvider
+### -field PrivateKeyUseLegacyProvider:0x100
 
-### -field PrivateKeyEKTrustOnUse
+### -field PrivateKeyEKTrustOnUse:0x200
 
-### -field PrivateKeyEKValidateCert
+### -field PrivateKeyEKValidateCert:0x400
 
-### -field PrivateKeyEKValidateKey
+### -field PrivateKeyEKValidateKey:0x800
 
-### -field PrivateKeyAttestNone
+### -field PrivateKeyAttestNone:0
 
-### -field PrivateKeyAttestPreferred
+### -field PrivateKeyAttestPreferred:0x1000
 
-### -field PrivateKeyAttestRequired
+### -field PrivateKeyAttestRequired:0x2000
 
-### -field PrivateKeyAttestMask
+### -field PrivateKeyAttestMask:0x3000
 
-### -field PrivateKeyAttestWithoutPolicy
+### -field PrivateKeyAttestWithoutPolicy:0x4000
 
-### -field PrivateKeyServerVersionMask
+### -field PrivateKeyServerVersionMask:0xf0000
 
-### -field PrivateKeyServerVersionShift
+### -field PrivateKeyServerVersionShift:16
 
-### -field PrivateKeyHelloKspKey
+### -field PrivateKeyHelloKspKey:0x100000
 
-### -field PrivateKeyHelloLogonKey
+### -field PrivateKeyHelloLogonKey:0x200000
 
-### -field PrivateKeyClientVersionMask
+### -field PrivateKeyClientVersionMask:0xf000000
 
-### -field PrivateKeyClientVersionShift
+### -field PrivateKeyClientVersionShift:24
 

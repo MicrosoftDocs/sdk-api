@@ -56,11 +56,11 @@ Specifies how to rotate a video image.
 
 ## -enum-fields
 
-### -field ROTATION_NONE
+### -field ROTATION_NONE:0
 
 Do not rotate the image.
 
-### -field ROTATION_NORMAL
+### -field ROTATION_NORMAL:1
 
 Rotate the image to the correct viewing orientation.
 

@@ -64,13 +64,13 @@ A pointer to a <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-fold
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
 This method also changes the default that will be applied when navigating to another location.
 
-To ensure the view state is perserved across sessions, specify the persistence name using <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-setpropertybag">IExplorerBrowser::SetPropertyBag</a>.
+To ensure the view state is preserved across sessions, specify the persistence name using <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-setpropertybag">IExplorerBrowser::SetPropertyBag</a>.
 
 ## -see-also
 

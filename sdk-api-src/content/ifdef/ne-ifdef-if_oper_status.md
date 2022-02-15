@@ -54,7 +54,7 @@ The <b>IF_OPER_STATUS</b> enumeration specifies the operational status of an int
 
 ## -enum-fields
 
-### -field IfOperStatusUp
+### -field IfOperStatusUp:1
 
 The interface is up and operational. The interface is able to pass packets.
 

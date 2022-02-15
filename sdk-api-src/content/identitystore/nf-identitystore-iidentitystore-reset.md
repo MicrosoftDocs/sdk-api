@@ -52,7 +52,7 @@ api_name:
 
 The <b>Reset</b> method sets the current index of the identity enumeration to zero.
 
-## -parameters
+
 
 ## -returns
 

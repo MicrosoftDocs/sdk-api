@@ -54,15 +54,15 @@ Specifies values that identify the type of Command associated with a Ribbon cont
 
 ## -enum-fields
 
-### -field UI_COMMANDTYPE_UNKNOWN
+### -field UI_COMMANDTYPE_UNKNOWN:0
 
 The type of command is not known.
 
-### -field UI_COMMANDTYPE_GROUP
+### -field UI_COMMANDTYPE_GROUP:1
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-controls-group">Group</a>
 
-### -field UI_COMMANDTYPE_ACTION
+### -field UI_COMMANDTYPE_ACTION:2
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-controls-button">Button</a>
 
@@ -70,7 +70,7 @@ The type of command is not known.
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-controls-helpbutton">Help Button</a>
 
-### -field UI_COMMANDTYPE_ANCHOR
+### -field UI_COMMANDTYPE_ANCHOR:3
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-controls-applicationmenu">Application Menu</a>
 
@@ -86,11 +86,11 @@ The type of command is not known.
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-controls-tab">Tab</a>
 
-### -field UI_COMMANDTYPE_CONTEXT
+### -field UI_COMMANDTYPE_CONTEXT:4
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-controls-tabgroup">Tab Group</a>
 
-### -field UI_COMMANDTYPE_COLLECTION
+### -field UI_COMMANDTYPE_COLLECTION:5
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-controls-combobox">Combo Box</a>
 
@@ -106,7 +106,7 @@ The type of command is not known.
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-controls-splitbuttongallery">Split Button Gallery</a>
 
-### -field UI_COMMANDTYPE_COMMANDCOLLECTION
+### -field UI_COMMANDTYPE_COMMANDCOLLECTION:6
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-controls-dropdowngallery">Drop-Down Gallery</a>
 
@@ -122,11 +122,11 @@ The type of command is not known.
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-controls-splitbuttongallery">Split Button Gallery</a>
 
-### -field UI_COMMANDTYPE_DECIMAL
+### -field UI_COMMANDTYPE_DECIMAL:7
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-controls-spinner">Spinner</a>
 
-### -field UI_COMMANDTYPE_BOOLEAN
+### -field UI_COMMANDTYPE_BOOLEAN:8
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-controls-togglebutton">Toggle Button</a>
 
@@ -134,19 +134,19 @@ The type of command is not known.
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-controls-checkbox">Check Box</a>
 
-### -field UI_COMMANDTYPE_FONT
+### -field UI_COMMANDTYPE_FONT:9
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-controls-fontcontrol">Font Control</a>
 
-### -field UI_COMMANDTYPE_RECENTITEMS
+### -field UI_COMMANDTYPE_RECENTITEMS:10
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-controls-recentitems">Recent Items</a>
 
-### -field UI_COMMANDTYPE_COLORANCHOR
+### -field UI_COMMANDTYPE_COLORANCHOR:11
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-controls-dropdowncolorpicker">Drop-Down Color Picker</a>
 
-### -field UI_COMMANDTYPE_COLORCOLLECTION
+### -field UI_COMMANDTYPE_COLORCOLLECTION:12
 
 This Command type is not supported by any framework controls.
 

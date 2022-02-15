@@ -55,7 +55,7 @@ Default constructor for <code>XMMATRIX</code>.
 Default constructor for <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>.
 <div class="alert"><b>Note</b>  This constructor is only available when developing with C++.</div><div> </div>
 
-## -parameters
+
 
 ## -remarks
 

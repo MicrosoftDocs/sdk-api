@@ -56,7 +56,7 @@ Indicates the format into which the document was serialized.
 
 ## -enum-fields
 
-### -field XPS_DOCUMENT_TYPE_UNSPECIFIED
+### -field XPS_DOCUMENT_TYPE_UNSPECIFIED:1
 
 For documents which have yet to be serialized, and whose type is yet to be determined.
 

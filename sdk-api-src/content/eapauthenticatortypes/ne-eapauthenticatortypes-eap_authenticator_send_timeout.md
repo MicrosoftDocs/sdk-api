@@ -56,7 +56,7 @@ Indicates to the authenticator method the amount of time to wait for user input 
 
 ## -enum-fields
 
-### -field EAP_AUTHENTICATOR_SEND_TIMEOUT_NONE
+### -field EAP_AUTHENTICATOR_SEND_TIMEOUT_NONE:0
 
  Sends the packet and never times out; the user can enter a response at any time.
 

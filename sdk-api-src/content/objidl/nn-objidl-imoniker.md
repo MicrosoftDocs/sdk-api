@@ -56,10 +56,7 @@ Monikers are used as the basis for linking in COM. A linked object contains a mo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMoniker</b> interface inherits from <b>IPersistStream</b>. <b>IMoniker</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMoniker</b> interface inherits from <b>IPersistStream</b>. <b>IMoniker</b> also has these types of members:
 
 ## -remarks
 
@@ -118,7 +115,7 @@ A moniker client (using a moniker to get an interface pointer to an object) does
 
 A moniker provider (handing out monikers that identify its objects to make them accessible to moniker clients) may need to compose two monikers together. (For example, if you are using an item moniker to identify an object, you must compose it with the moniker identifying the object's container before you hand it out.) Use the <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-composewith">IMoniker::ComposeWith</a> method to do this, calling the method on the first moniker and passing the second moniker as a parameter; this method may produce either a generic or a nongeneric composite.
 
-The only time you should explicitly create a generic composite moniker is when you are writing your own moniker class. In your implementation of <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-composewith">IMoniker::ComposeWith</a>h, you should attempt to perform a nongeneric composition whenever possible; if you cannot perform a nongeneric composition and generic composition is acceptable, you can call the <a href="/windows/desktop/api/objbase/nf-objbase-creategenericcomposite">CreateGenericComposite</a> function to create a generic composite moniker.
+The only time you should explicitly create a generic composite moniker is when you are writing your own moniker class. In your implementation of <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-composewith">IMoniker::ComposeWith</a>, you should attempt to perform a nongeneric composition whenever possible; if you cannot perform a nongeneric composition and generic composition is acceptable, you can call the <a href="/windows/desktop/api/objbase/nf-objbase-creategenericcomposite">CreateGenericComposite</a> function to create a generic composite moniker.
 
 <h3><a id="Item_Moniker_Implementation"></a><a id="item_moniker_implementation"></a><a id="ITEM_MONIKER_IMPLEMENTATION"></a>Item Moniker Implementation</h3>
 Item monikers are used to identify objects within containers, such as a portion of a document, an embedded object within a compound document, or a range of cells within a spreadsheet. Item monikers are often used in combination with file monikers; a file moniker is used to identify the container while an item moniker is used to identify the item within the container.

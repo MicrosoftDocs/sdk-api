@@ -54,21 +54,21 @@ The <b>X509SCEPDisposition</b> enumeration   describes the resulting disposition
 
 ## -enum-fields
 
-### -field SCEPDispositionUnknown
+### -field SCEPDispositionUnknown:-1
 
-### -field SCEPDispositionSuccess
+### -field SCEPDispositionSuccess:0
 
 The request was successful.
 
-### -field SCEPDispositionFailure
+### -field SCEPDispositionFailure:2
 
 The request failed.
 
-### -field SCEPDispositionPending
+### -field SCEPDispositionPending:3
 
 The request has not completed yet.
 
-### -field SCEPDispositionPendingChallenge
+### -field SCEPDispositionPendingChallenge:11
 
 ## -see-also
 

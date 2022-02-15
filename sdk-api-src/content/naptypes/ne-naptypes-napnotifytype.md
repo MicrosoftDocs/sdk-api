@@ -56,17 +56,17 @@ api_name:
 
 ## -enum-fields
 
-### -field napNotifyTypeUnknown
+### -field napNotifyTypeUnknown:0
 
 Not used.
 
-### -field napNotifyTypeServiceState
+### -field napNotifyTypeServiceState:1
 
 NapAgent service state change notifications. 
 
 A notification of type <b>napNotifyTypeServiceState</b> is sent whenever the NapAgent service stops or starts.
 
-### -field napNotifyTypeQuarState
+### -field napNotifyTypeQuarState:2
 
 Quarantine state change notifications. 
 

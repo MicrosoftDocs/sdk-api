@@ -56,10 +56,7 @@ A client obtains a reference to the <b>IAudioEndpointVolumeEx</b> interface of a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpointVolumeEx</b> interface inherits from <a href="/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume">IAudioEndpointVolume</a>. <b>IAudioEndpointVolumeEx</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAudioEndpointVolumeEx</b> interface inherits from <a href="/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume">IAudioEndpointVolume</a>. <b>IAudioEndpointVolumeEx</b> also has these types of members:
 
 ## -see-also
 

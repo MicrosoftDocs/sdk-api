@@ -56,11 +56,11 @@ Defines animation slope characteristics.
 
 ## -enum-fields
 
-### -field UI_ANIMATION_SLOPE_INCREASING
+### -field UI_ANIMATION_SLOPE_INCREASING:0
 
 An increasing slope.
 
-### -field UI_ANIMATION_SLOPE_DECREASING
+### -field UI_ANIMATION_SLOPE_DECREASING:1
 
 A decreasing slope.
 

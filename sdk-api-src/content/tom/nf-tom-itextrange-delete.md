@@ -132,7 +132,7 @@ If
 
 If 
 				<i>Count</i> is not zero, and the range is nondegenerate (contains text), the text in the range is deleted (regardless of the values of 
-				<i>Unit </i>and 
+				<i>Unit </i> and 
 				<i>Count</i>), thereby creating an insertion point. Then, |
 				<i>Count</i>| - 1
 				 

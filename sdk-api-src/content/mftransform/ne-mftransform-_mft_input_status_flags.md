@@ -54,7 +54,7 @@ Indicates the status of an input stream on a Media Foundation transform (MFT).
 
 ## -enum-fields
 
-### -field MFT_INPUT_STATUS_ACCEPT_DATA
+### -field MFT_INPUT_STATUS_ACCEPT_DATA:0x1
 
 The input stream can receive more data at this time. To deliver more input data, call <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput">IMFTransform::ProcessInput</a>.
 

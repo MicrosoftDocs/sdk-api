@@ -53,7 +53,7 @@ api_name:
 
 Clears all <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collections from the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes">IInkCustomStrokes</a> collection.
 
-## -parameters
+
 
 ## -returns
 

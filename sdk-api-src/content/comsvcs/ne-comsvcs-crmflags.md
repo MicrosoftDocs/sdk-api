@@ -56,29 +56,29 @@ Provides information about when a particular log record to the CRM compensator w
 
 ## -enum-fields
 
-### -field CRMFLAG_FORGETTARGET
+### -field CRMFLAG_FORGETTARGET:0x1
 
-### -field CRMFLAG_WRITTENDURINGPREPARE
+### -field CRMFLAG_WRITTENDURINGPREPARE:0x2
 
 The record was written during prepare.
 
-### -field CRMFLAG_WRITTENDURINGCOMMIT
+### -field CRMFLAG_WRITTENDURINGCOMMIT:0x4
 
 The record was written during commit.
 
-### -field CRMFLAG_WRITTENDURINGABORT
+### -field CRMFLAG_WRITTENDURINGABORT:0x8
 
 The record was written during abort.
 
-### -field CRMFLAG_WRITTENDURINGRECOVERY
+### -field CRMFLAG_WRITTENDURINGRECOVERY:0x10
 
 The record was written during recovery.
 
-### -field CRMFLAG_WRITTENDURINGREPLAY
+### -field CRMFLAG_WRITTENDURINGREPLAY:0x20
 
 The record was written during replay.
 
-### -field CRMFLAG_REPLAYINPROGRESS
+### -field CRMFLAG_REPLAYINPROGRESS:0x40
 
 ## -see-also
 

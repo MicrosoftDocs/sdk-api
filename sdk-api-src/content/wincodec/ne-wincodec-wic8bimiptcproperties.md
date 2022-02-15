@@ -54,13 +54,13 @@ Specifies the identifiers of the metadata items in an 8BIM IPTC block.
 
 ## -enum-fields
 
-### -field WIC8BIMIptcPString
+### -field WIC8BIMIptcPString:0
 
 [VT_LPSTR] A name that identifies the 8BIM block.
 
-### -field WIC8BIMIptcEmbeddedIPTC
+### -field WIC8BIMIptcEmbeddedIPTC:0x1
 
-### -field WIC8BIMIptcProperties_FORCE_DWORD
+### -field WIC8BIMIptcProperties_FORCE_DWORD:0x7fffffff
 
 #### - WIC8BIMEmbeddedIPTC
 

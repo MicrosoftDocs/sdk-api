@@ -55,7 +55,7 @@ The <b>Matrix::Clone</b> method creates a new
 			<a href="/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object that is a copy of this 
 			<b>Matrix</b> object.
 
-## -parameters
+
 
 ## -returns
 

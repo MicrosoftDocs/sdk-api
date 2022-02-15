@@ -168,7 +168,7 @@ The transaction ID provided is not valid.
 
 Because a transaction can be owned by no more than one process at a time, the functions authored into the <a href="/windows/desktop/Msi/msiembeddedchainer-table">MsiEmbeddedChainer table</a> can use <b>MsiJoinTransaction</b> to request ownership of the transaction before using the Windows Installer API to configure or install an application. The installer verifies that there is no installation in progress. The installer verifies that the process requesting ownership and the process that currently owns the transaction share a parent process in the same process tree.  If the function succeeds, the process that calls <b>MsiJoinTransaction</b> becomes the current owner of the transaction.
 
-<b>MsiJoinTransaction</b> sets the internal UI of the new installation to the UI level of thew original installation. After the new installation owns the transaction, it can call <a href="/windows/desktop/api/msi/nf-msi-msisetinternalui">MsiSetInternalUI</a> to change the UI level.  This enables the new installation to run at a higher UI level than the original installation.
+<b>MsiJoinTransaction</b> sets the internal UI of the new installation to the UI level of the original installation. After the new installation owns the transaction, it can call <a href="/windows/desktop/api/msi/nf-msi-msisetinternalui">MsiSetInternalUI</a> to change the UI level.  This enables the new installation to run at a higher UI level than the original installation.
 
 ## -see-also
 

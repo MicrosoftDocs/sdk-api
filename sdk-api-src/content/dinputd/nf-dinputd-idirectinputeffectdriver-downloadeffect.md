@@ -64,7 +64,7 @@ Specifies the <b>dwEffectId</b> member of the <a href="/windows/desktop/api/dinp
 
 ### -param unnamedParam3
 
-On entry, this parameter is a pointer to the handle of the effect being downloaded. If this parameter points to a zero, then a new effect is downloaded. On exit, this parameter is a pointer to a <b>DWORD </b>that contains the new effect handle. On failure, the <b>DWORD</b> pointed to by this parameter is set to zero if the effect is lost, or left alone if the effect is still valid with its old parameters. Note that zero is never a valid effect handle.
+On entry, this parameter is a pointer to the handle of the effect being downloaded. If this parameter points to a zero, then a new effect is downloaded. On exit, this parameter is a pointer to a <b>DWORD </b> that contains the new effect handle. On failure, the <b>DWORD</b> pointed to by this parameter is set to zero if the effect is lost, or left alone if the effect is still valid with its old parameters. Note that zero is never a valid effect handle.
 
 ### -param unnamedParam4
 

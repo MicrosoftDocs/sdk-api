@@ -56,19 +56,19 @@ Represents types of applications tracked by the tracker server.
 
 ## -enum-fields
 
-### -field APPTYPE_UNKNOWN
+### -field APPTYPE_UNKNOWN:0xffffffff
 
 This value is not used.
 
-### -field APPTYPE_SERVER
+### -field APPTYPE_SERVER:1
 
 COM+ server application.
 
-### -field APPTYPE_LIBRARY
+### -field APPTYPE_LIBRARY:0
 
 COM+ library application.
 
-### -field APPTYPE_SWC
+### -field APPTYPE_SWC:2
 
 COM+ services without components.
 

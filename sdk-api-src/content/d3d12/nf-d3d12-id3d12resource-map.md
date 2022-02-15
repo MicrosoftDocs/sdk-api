@@ -179,7 +179,7 @@ ThrowIfFailed(pDevice->CreateCommittedResource(
 
 // Map the constant buffers. Note that unlike D3D11, the resource 
 // does not need to be unmapped for use by the GPU. In this sample, 
-// the resource stays 'permenantly' mapped to avoid overhead with 
+// the resource stays 'permanently' mapped to avoid overhead with 
 // mapping/unmapping each frame.
 CD3DX12_RANGE readRange(0, 0);        // We do not intend to read from this resource on the CPU.
 ThrowIfFailed(m_cbvUploadHeap->Map(0, &readRange, reinterpret_cast<void**>(&m_pConstantBuffers)));

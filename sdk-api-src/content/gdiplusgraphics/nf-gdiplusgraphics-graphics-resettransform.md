@@ -53,7 +53,7 @@ api_name:
 
 The <b>Graphics::ResetTransform</b> method sets the world transformation matrix of this <a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object to the identity matrix.
 
-## -parameters
+
 
 ## -returns
 

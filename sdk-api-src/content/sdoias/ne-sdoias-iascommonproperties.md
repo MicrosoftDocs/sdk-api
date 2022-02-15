@@ -57,7 +57,7 @@ The values of the
 
 ## -enum-fields
 
-### -field PROPERTY_SDO_RESERVED
+### -field PROPERTY_SDO_RESERVED:0
 
 This property is reserved.
 
@@ -85,7 +85,7 @@ The name of the datastore for the object.
 
 ### -field PROPERTY_SDO_OPAQUE
 
-### -field PROPERTY_SDO_START
+### -field PROPERTY_SDO_START:0x400
 
 Indicates the start of <a href="/windows/desktop/api/sdoias/ne-sdoias-userproperties">USERPROPERTIES</a>.
 

@@ -127,7 +127,9 @@ To generate a peer group configuration, call <a href="/windows/desktop/api/p2p/n
 
 The configuration XML string appears in the following format:
 
-<pre class="syntax" xml:space="preserve"><code>&lt;PEERGROUPCONFIG VERSION="1.0"&gt;
+
+``` syntax
+&lt;PEERGROUPCONFIG VERSION="1.0"&gt;
   &lt;IDENTITYPEERNAME&gt;
     &lt;!-- UTF-8 encoded peer name of the identity --&gt;
   &lt;/IDENTITYPEERNAME&gt;
@@ -146,4 +148,6 @@ The configuration XML string appears in the following format:
   &lt;GMC xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64"&gt;
     &lt;!-- base64/PKCS7 encoded GMC chain --&gt;
   &lt;/GMC&gt;
-&lt;/PEERGROUPCONFIG&gt;</code></pre>
+&lt;/PEERGROUPCONFIG&gt;
+```
+

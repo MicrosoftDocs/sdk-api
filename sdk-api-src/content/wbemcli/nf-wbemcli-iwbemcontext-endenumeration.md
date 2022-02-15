@@ -61,11 +61,11 @@ The
 <b>IWbemContext::EndEnumeration</b> method ends an enumeration sequence that begins with 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-beginenumeration">IWbemContext::BeginEnumeration</a>. This call is not required, but it releases as early as possible any system resources associated with the enumeration.
 
-## -parameters
+
 
 ## -returns
 
-This method returns an <b>HRESULT</b>HRESULT indicating the status of the method call. The following list lists the value contained withinan <b>HRESULT</b>HRESULT.
+This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
 ## -see-also
 

@@ -59,19 +59,19 @@ Describes the type of break that separates the current word from the previous wo
 
 ## -enum-fields
 
-### -field WORDREP_BREAK_EOW
+### -field WORDREP_BREAK_EOW:0
 
 A word break is placed between this word and the previous word that was placed in the <b>WordSink</b>. This break is the default used by the <a href="/windows/desktop/search/iwordsink-putword">PutWord</a> method.
 
-### -field WORDREP_BREAK_EOS
+### -field WORDREP_BREAK_EOS:1
 
 A sentence break is placed between this word and the previous word.
 
-### -field WORDREP_BREAK_EOP
+### -field WORDREP_BREAK_EOP:2
 
 A paragraph break is placed between this word and the previous word.
 
-### -field WORDREP_BREAK_EOC
+### -field WORDREP_BREAK_EOC:3
 
 A chapter break is placed between this word and the previous word.
 

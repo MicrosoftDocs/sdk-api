@@ -54,7 +54,7 @@ The <b>IAudioVolumeLevel</b> interface provides access to a hardware volume cont
 
 
 
-The <b>IAudioVolumeLevel</b> interface provides per-channel controls for setting and getting the gain or attenuation levels in an the audio stream. If a volume-level hardware control can only attenuate the channels in the audio stream, then the maximum volume level for any channel is 0 dB. If a volume-level control can provide gain (amplification), then the maximum volume level is greater than 0 dB.
+The <b>IAudioVolumeLevel</b> interface provides per-channel controls for setting and getting the gain or attenuation levels in the audio stream. If a volume-level hardware control can only attenuate the channels in the audio stream, then the maximum volume level for any channel is 0 dB. If a volume-level control can provide gain (amplification), then the maximum volume level is greater than 0 dB.
 
 Most Windows audio adapter drivers support the Windows Driver Model (WDM) and use kernel-streaming (KS) properties to represent the hardware control parameters in subunits (referred to as KS nodes). The <b>IAudioVolumeLevel</b> interface provides convenient access to the KSPROPERTY_AUDIO_VOLUMELEVEL property of a subunit that has a subtype GUID value of KSNODETYPE_VOLUME. To obtain the subtype GUID of a subunit, call the <a href="/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getsubtype">IPart::GetSubType</a> method. For more information about KS properties and KS node types, see the Windows DDK documentation.
 

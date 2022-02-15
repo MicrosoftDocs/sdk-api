@@ -52,7 +52,7 @@ api_name:
 
 Determines whether the surface memory that is associated with a DirectDrawSurface object has been freed.
 
-## -parameters
+
 
 ## -returns
 

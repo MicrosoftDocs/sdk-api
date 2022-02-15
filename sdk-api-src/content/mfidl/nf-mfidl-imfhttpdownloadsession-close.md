@@ -55,7 +55,7 @@ api_name:
 
 Invoked by Microsoft Media Foundation to specify that no more HTTP requests will be created, and allows <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsession">IMFHttpDownloadSession</a> to free any internal resources.
 
-## -parameters
+
 
 ## -returns
 

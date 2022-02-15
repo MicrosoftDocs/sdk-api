@@ -54,23 +54,23 @@ Contains values for the FillType attribute.
 
 ## -enum-fields
 
-### -field FillType_None
+### -field FillType_None:0
 
 The element is not filled.
 
-### -field FillType_Color
+### -field FillType_Color:1
 
 The element is filled with a solid color.
 
-### -field FillType_Gradient
+### -field FillType_Gradient:2
 
 The element is filled with a gradient.
 
-### -field FillType_Picture
+### -field FillType_Picture:3
 
 The element is filled using a picture.
 
-### -field FillType_Pattern
+### -field FillType_Pattern:4
 
 The element is filled using a pattern.
 

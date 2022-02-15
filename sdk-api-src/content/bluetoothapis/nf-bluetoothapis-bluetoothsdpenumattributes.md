@@ -111,7 +111,7 @@ The SDP stream is corrupt.
 If the callback function returns
 <b>FALSE</b>, the enumeration initiated by the <b>BluetoothSdpEnumAttributes</b> function is stopped.
 
-The record stream in <i>pSDPStream</i>must be an SDP stream formatted as an SDP record, a SEQUENCE
+The record stream in <i>pSDPStream</i> must be an SDP stream formatted as an SDP record, a SEQUENCE
 containing attribute ID (UINT16) plus attribute value (any SDP element type) pairs.
 
 ## -see-also

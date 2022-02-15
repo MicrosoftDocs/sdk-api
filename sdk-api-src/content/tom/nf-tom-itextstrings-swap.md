@@ -52,7 +52,7 @@ api_name:
 
 Swaps the top two strings in the collection.
 
-## -parameters
+
 
 ## -returns
 

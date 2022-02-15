@@ -54,28 +54,28 @@ Defines the status of the <a href="/windows/desktop/medfound/output-protection-m
 
 ## -enum-fields
 
-### -field MF_MEDIA_ENGINE_OPM_NOT_REQUESTED
+### -field MF_MEDIA_ENGINE_OPM_NOT_REQUESTED:0
 
 Default status. Used to return the correct status when the content is unprotected.
 
-### -field MF_MEDIA_ENGINE_OPM_ESTABLISHED
+### -field MF_MEDIA_ENGINE_OPM_ESTABLISHED:1
 
 OPM successfully established.
 
-### -field MF_MEDIA_ENGINE_OPM_FAILED_VM
+### -field MF_MEDIA_ENGINE_OPM_FAILED_VM:2
 
 OPM failed because running in a virtual machined (VM).
 
-### -field MF_MEDIA_ENGINE_OPM_FAILED_BDA
+### -field MF_MEDIA_ENGINE_OPM_FAILED_BDA:3
 
 OPM failed because there is no graphics driver and the system is using Basic Display Adapter (BDA).
 
-### -field MF_MEDIA_ENGINE_OPM_FAILED_UNSIGNED_DRIVER
+### -field MF_MEDIA_ENGINE_OPM_FAILED_UNSIGNED_DRIVER:4
 
 OPM failed because the graphics 
 driver is not PE signed, falling back to WARP.
 
-### -field MF_MEDIA_ENGINE_OPM_FAILED
+### -field MF_MEDIA_ENGINE_OPM_FAILED:5
 
 OPM failed for other reasons.
 

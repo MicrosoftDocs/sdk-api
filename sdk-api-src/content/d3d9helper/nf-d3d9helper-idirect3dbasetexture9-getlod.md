@@ -53,7 +53,7 @@ api_name:
 
 Returns a value clamped to the maximum level-of-detail set for a managed texture (this method is not supported for an unmanaged texture).
 
-## -parameters
+
 
 ## -returns
 

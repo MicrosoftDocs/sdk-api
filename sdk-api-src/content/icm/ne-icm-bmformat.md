@@ -37,11 +37,11 @@ The values of the **BMFORMAT** enumerated type are used by several WCS functions
 
 ## -enum-fields
 
-### -field BM_x555RGB
+### -field BM_x555RGB:0x0000
 
 16 bits per pixel. RGB color space. 5 bits per channel. The most significant bit is ignored.
 
-### -field BM_x555XYZ
+### -field BM_x555XYZ:0x0101
 
 16 bits per pixel. CIE device-independent XYZ color space. 5 bits per channel. The most significant bit is ignored.
 
@@ -57,15 +57,15 @@ The values of the **BMFORMAT** enumerated type are used by several WCS functions
 
 16 bits per pixel. G3CH color space. 5 bits per channel. The most significant bit is ignored.
 
-### -field BM_RGBTRIPLETS
+### -field BM_RGBTRIPLETS:0x0002
 
 24 bits per pixel maximum. For three channel colors, such as Red,Green,Blue, the total size is 24 bits per pixel. For single channel colors, such as gray, the total size is 8 bits per pixel.
 
-### -field BM_BGRTRIPLETS
+### -field BM_BGRTRIPLETS:0x0004
 
 24 bits per pixel maximum. For three channel colors, such as Red,Green,Blue, the total size is 24 bits per pixel. For single channel colors, such as gray, the total size is 8 bits per pixel.
 
-### -field BM_XYZTRIPLETS
+### -field BM_XYZTRIPLETS:0x0201
 
 24 bits per pixel maximum. For three channel, X, Y and Z values, the total size is 24 bits per pixel. For single channel gray scale, the total size is 8 bits per pixel.
 
@@ -107,15 +107,15 @@ The values of the **BMFORMAT** enumerated type are used by several WCS functions
 
 32 bits per pixel. Only the 8 bit gray-scale value is used.
 
-### -field BM_xRGBQUADS
+### -field BM_xRGBQUADS:0x0008
 
 32 bits per pixel. 8 bits are used for each color channel. The most significant byte is ignored.
 
-### -field BM_xBGRQUADS
+### -field BM_xBGRQUADS:0x0010
 
 32 bits per pixel. 8 bits are used for each color channel. The most significant byte is ignored.
 
-### -field BM_xG3CHQUADS
+### -field BM_xG3CHQUADS:0x0304
 
 32 bits per pixel. 8 bits are used for each color channel. The most significant byte is ignored.
 
@@ -123,15 +123,15 @@ The values of the **BMFORMAT** enumerated type are used by several WCS functions
 
 32 bits per pixel. 8 bits are used for each color channel.
 
-### -field BM_CMYKQUADS
+### -field BM_CMYKQUADS:0x0020
 
 32 bits per pixel. 8 bits are used for each color channel.
 
-### -field BM_10b_RGB
+### -field BM_10b_RGB:0x0009
 
 32 bits per pixel. 10 bits are used for each color channel. The 2 most significant bits are ignored.
 
-### -field BM_10b_XYZ
+### -field BM_10b_XYZ:0x0401
 
 32 bits per pixel. 10 bits are used for each color channel. The 2 most significant bits are ignored.
 
@@ -151,11 +151,11 @@ The values of the **BMFORMAT** enumerated type are used by several WCS functions
 
 32 bits per pixel. Named color indices. Index numbering begins at 1.
 
-### -field BM_16b_RGB
+### -field BM_16b_RGB:0x000A
 
 48 bits per pixel. Each channel uses 16 bits.
 
-### -field BM_16b_XYZ
+### -field BM_16b_XYZ:0x0501
 
 48 bits per pixel. Each channel uses 16 bits.
 
@@ -175,37 +175,37 @@ The values of the **BMFORMAT** enumerated type are used by several WCS functions
 
 16 bits per pixel.
 
-### -field BM_565RGB
+### -field BM_565RGB:0x0001
 
 16 bits per pixel. 5 bits are used for red, 6 for green, and 5 for blue.
 
-### -field BM_32b_scRGB
+### -field BM_32b_scRGB:0x0601
 
 96 bits per pixel, 32 bit per channel IEEE floating point.
 
-### -field BM_32b_scARGB
+### -field BM_32b_scARGB:0x0602
 
 128 bits per pixel, 32 bit per channel IEEE floating point.
 
-### -field BM_S2DOT13FIXED_scRGB
+### -field BM_S2DOT13FIXED_scRGB:0x0603
 
 48 bits per pixel, Fixed point integer ranging from -4 to +4 with a sign bit and 2 bit exponent and 13 bit mantissa.
 
-### -field BM_S2DOT13FIXED_scARGB
+### -field BM_S2DOT13FIXED_scARGB:0x0604
 
 64 bits per pixel, Fixed point integer ranging from -4 to +4 with a sign bit and 2 bit exponent and 13 bit mantissa.
 
-### -field BM_R10G10B10A2
+### -field BM_R10G10B10A2:0x0701
 
 32 bits per pixel. 10 bits are used for each color channel. The two most significant bits are alpha.
 
-### -field BM_R10G10B10A2_XR
+### -field BM_R10G10B10A2_XR:0x0702
 
 32 bits per pixel. 10 bits are used for each color channel. The 10 bits of each color channel are 2.8 fixed point with a -0.75 bias, giving a range of \[-0.76 .. 1.25\]. This range corresponds to \[-0.5 .. 1.5\] in a gamma = 1 space. The two most significant bits are preserved for alpha.
 
 This uses an extended range (XR) sRGB color space. It has the same RGB primaries, white point, and gamma as sRGB.
 
-### -field BM_R16G16B16A16_FLOAT
+### -field BM_R16G16B16A16_FLOAT:0x0703
 
 64 bits per pixel. Each channel is a 16-bit float. The last WORD is alpha.
 

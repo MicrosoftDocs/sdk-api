@@ -54,10 +54,7 @@ Exposes methods that extend the <a href="/windows/desktop/api/shobjidl_core/nn-s
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITrackShellMenu</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenu">IShellMenu</a>. <b>ITrackShellMenu</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITrackShellMenu</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenu">IShellMenu</a>. <b>ITrackShellMenu</b> also has these types of members:
 
 ## -remarks
 

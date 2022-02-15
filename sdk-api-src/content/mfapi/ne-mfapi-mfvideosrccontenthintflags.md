@@ -56,15 +56,15 @@ Describes the intended aspect ratio for a video stream.
 
 ## -enum-fields
 
-### -field MFVideoSrcContentHintFlag_None
+### -field MFVideoSrcContentHintFlag_None:0
 
 The aspect ratio is unknown.
 
-### -field MFVideoSrcContentHintFlag_16x9
+### -field MFVideoSrcContentHintFlag_16x9:1
 
 The source is 16×9 content encoded within a 4×3 area.
 
-### -field MFVideoSrcContentHintFlag_235_1
+### -field MFVideoSrcContentHintFlag_235_1:2
 
 The source is 2.35:1 content encoded within a 16×9 or 4×3 area.
 

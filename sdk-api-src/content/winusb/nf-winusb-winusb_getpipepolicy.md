@@ -70,7 +70,7 @@ A <b>ULONG</b> variable that specifies the policy parameter to retrieve. The cur
 
 ### -param ValueLength [in, out]
 
-A pointer to the size, in bytes, of the buffer that <i>Value</i> points to. On output, <i>ValueLength</i> receives the size, in bytes, of the data that was copied into the <i>Value </i>buffer.
+A pointer to the size, in bytes, of the buffer that <i>Value</i> points to. On output, <i>ValueLength</i> receives the size, in bytes, of the data that was copied into the <i>Value </i> buffer.
 
 ### -param Value [out]
 

@@ -54,7 +54,7 @@ api_name:
 
 Use the <b>SwitchToForeground</b> method to download the group in the foreground instead of the background.
 
-## -parameters
+
 
 ## -returns
 

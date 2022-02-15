@@ -58,15 +58,15 @@ Defines the direction of data flow for the stream.
 
 ## -enum-fields
 
-### -field STREAMTYPE_READ
+### -field STREAMTYPE_READ:0
 
 Application can read the stream.
 
-### -field STREAMTYPE_WRITE
+### -field STREAMTYPE_WRITE:1
 
 Application can write to the stream.
 
-### -field STREAMTYPE_TRANSFORM
+### -field STREAMTYPE_TRANSFORM:2
 
 Application reads and writes to the stream.
 

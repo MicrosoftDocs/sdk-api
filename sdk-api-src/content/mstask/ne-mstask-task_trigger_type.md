@@ -60,7 +60,7 @@ Defines the types of <a href="/windows/desktop/TaskSchd/t">triggers</a> associat
 
 ## -enum-fields
 
-### -field TASK_TIME_TRIGGER_ONCE
+### -field TASK_TIME_TRIGGER_ONCE:0
 
 Trigger is set to run the task a single time. 
 
@@ -70,7 +70,7 @@ Trigger is set to run the task a single time.
 When this value is specified, the <b>Type</b> member of the 
 <a href="/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure is ignored.
 
-### -field TASK_TIME_TRIGGER_DAILY
+### -field TASK_TIME_TRIGGER_DAILY:1
 
 Trigger is set to run the task on a daily interval. 
 
@@ -81,7 +81,7 @@ When this value is specified, the
 <b>DAILY</b> member of the 
 <a href="/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a> structure is used.
 
-### -field TASK_TIME_TRIGGER_WEEKLY
+### -field TASK_TIME_TRIGGER_WEEKLY:2
 
 Trigger is set to run the work item on specific days of a specific week of a specific month. 
 
@@ -92,7 +92,7 @@ When this value is specified, the
 <b>WEEKLY</b> member of the 
 <a href="/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a> structure is used.
 
-### -field TASK_TIME_TRIGGER_MONTHLYDATE
+### -field TASK_TIME_TRIGGER_MONTHLYDATE:3
 
 Trigger is set to run the task on a specific day(s) of the month. 
 
@@ -103,7 +103,7 @@ When this value is specified, the
 <b>MONTHLYDATE</b> member of the 
 <a href="/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a> structure is used.
 
-### -field TASK_TIME_TRIGGER_MONTHLYDOW
+### -field TASK_TIME_TRIGGER_MONTHLYDOW:4
 
 Trigger is set to run the task on specific days, weeks, and months. 
 
@@ -114,7 +114,7 @@ When this value is specified, the
 <b>MONTHLYDOW</b> member of the 
 <a href="/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a> structure is used.
 
-### -field TASK_EVENT_TRIGGER_ON_IDLE
+### -field TASK_EVENT_TRIGGER_ON_IDLE:5
 
 Trigger is set to run the task if the system remains idle for the amount of time specified by the <a href="/windows/desktop/TaskSchd/i">idle wait time</a> of the task. 
 
@@ -124,7 +124,7 @@ Trigger is set to run the task if the system remains idle for the amount of time
 When this value is specified, the <b>wStartHour</b>, <b>wStartMinute</b>, and <b>Type</b> member of the 
 <a href="/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure are ignored.
 
-### -field TASK_EVENT_TRIGGER_AT_SYSTEMSTART
+### -field TASK_EVENT_TRIGGER_AT_SYSTEMSTART:6
 
 Trigger is set to run the task at system startup. 
 
@@ -134,7 +134,7 @@ Trigger is set to run the task at system startup.
 When this value is specified, the <b>Type</b> member of the 
 <a href="/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure is ignored.
 
-### -field TASK_EVENT_TRIGGER_AT_LOGON
+### -field TASK_EVENT_TRIGGER_AT_LOGON:7
 
 Trigger is set to run the task when a user logs on. 
 

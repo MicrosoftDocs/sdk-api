@@ -54,19 +54,19 @@ Normal file/directory to placeholder file/directory conversion flags.
 
 ## -enum-fields
 
-### -field CF_CONVERT_FLAG_NONE
+### -field CF_CONVERT_FLAG_NONE:0x00000000
 
 No conversion flags.
 
-### -field CF_CONVERT_FLAG_MARK_IN_SYNC
+### -field CF_CONVERT_FLAG_MARK_IN_SYNC:0x00000001
 
 The platform marks the converted placeholder as in sync with cloud upon a successful conversion of the file.
 
-### -field CF_CONVERT_FLAG_DEHYDRATE
+### -field CF_CONVERT_FLAG_DEHYDRATE:0x00000002
 
 Applicable to files only. When specified, the platform dehydrates the file after converting it to a placeholder successfully. The caller must acquire an exclusive handle when specifying this flag or data corruptions can occur. Note that the platform does not validate the exclusiveness of the handle.
 
-### -field CF_CONVERT_FLAG_ENABLE_ON_DEMAND_POPULATION
+### -field CF_CONVERT_FLAG_ENABLE_ON_DEMAND_POPULATION:0x00000004
 
 Applicable for directories only. When specified, it marks the converted placeholder directory as partially populated such that any future access to it will result in a FETCH_PLACEHOLDERS callback sent to the sync provider.
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>resume</b> method returns to playback mode from menu mode at the same title position as when the menu was invoked.
 
-## -parameters
+
 
 ## -returns
 

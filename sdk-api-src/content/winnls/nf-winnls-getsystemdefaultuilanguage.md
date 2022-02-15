@@ -64,7 +64,7 @@ Retrieves the [language identifier](/windows/desktop/Intl/language-identifiers) 
 > - WCOS SKUs always return an incorrect value.
 > - This function uses deprecated LANGIDs.
 
-## -parameters
+
 
 ## -returns
 

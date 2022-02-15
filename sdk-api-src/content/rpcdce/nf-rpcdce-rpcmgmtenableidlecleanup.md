@@ -53,7 +53,7 @@ api_name:
 The 
 <b>RpcMgmtEnableIdleCleanup</b> function enables RPC to close idle resources, such as network connections, on the client.
 
-## -parameters
+
 
 ## -returns
 

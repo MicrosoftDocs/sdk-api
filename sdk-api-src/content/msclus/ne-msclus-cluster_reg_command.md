@@ -57,11 +57,11 @@ Enumerates the possible cluster registry commands that a local node will perform
 
 ## -enum-fields
 
-### -field CLUSREG_COMMAND_NONE
+### -field CLUSREG_COMMAND_NONE:0
 
 This constant is not a valid command. It and the <b>CLUSREG_LAST_COMMAND</b> constant act as brackets  that contain the valid commands.
 
-### -field CLUSREG_SET_VALUE
+### -field CLUSREG_SET_VALUE:1
 
 This command sets a value relative to the last executed <b>CLUSREG_CREATE_KEY</b> command or (if not provided) relative to a key passed into  the <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a> function.
 

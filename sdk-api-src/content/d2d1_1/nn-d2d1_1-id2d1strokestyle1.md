@@ -54,10 +54,7 @@ Describes the caps, miter limit, line join, and dash information for a stroke.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1StrokeStyle1</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>. <b>ID2D1StrokeStyle1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID2D1StrokeStyle1</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>. <b>ID2D1StrokeStyle1</b> also has these types of members:
 
 ## -remarks
 

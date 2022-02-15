@@ -56,7 +56,7 @@ The <b>AUTHZ_SID_OPERATION</b> enumeration indicates the type of SID operations 
 
 ## -enum-fields
 
-### -field AUTHZ_SID_OPERATION_NONE
+### -field AUTHZ_SID_OPERATION_NONE:0
 
 Do not modify anything.
 

@@ -10,8 +10,8 @@ req.header: lmdfs.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -42,11 +42,11 @@ Defines the set of possible DFS target priority class settings.
 
 ## -enum-fields
 
-### -field DfsInvalidPriorityClass
+### -field DfsInvalidPriorityClass:-1
 
 The priority class is not valid.
 
-### -field DfsSiteCostNormalPriorityClass
+### -field DfsSiteCostNormalPriorityClass:0
 
 The middle or "normal" site cost priority class for a DFS target.
 

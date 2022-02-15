@@ -54,8 +54,7 @@ api_name:
 
 ## -description
 
-The 
-<a href="https://docs.microsoft.com/">RTM_NET_ADDRESS</a> structure is used to communicate address information to the routing table manager for any address family. The address family must use only with contiguous address masks that are less than 8 bytes.
+The <a href="/windows/win32/api/rtmv2/ns-rtmv2-rtm_net_address">RTM_NET_ADDRESS</a> structure is used to communicate address information to the routing table manager for any address family. The address family must use only with contiguous address masks that are less than 8 bytes.
 
 ## -struct-fields
 

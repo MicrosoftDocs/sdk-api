@@ -52,7 +52,7 @@ api_name:
 
 Determines whether the image is a multipage Tagged Image File Format (TIFF) image.
 
-## -parameters
+
 
 ## -returns
 

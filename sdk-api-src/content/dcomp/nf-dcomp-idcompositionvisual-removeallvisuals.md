@@ -52,7 +52,7 @@ api_name:
 
 Removes all visuals from the children list of this visual.
 
-## -parameters
+
 
 ## -returns
 

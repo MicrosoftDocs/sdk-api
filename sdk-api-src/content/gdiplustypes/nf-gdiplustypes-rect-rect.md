@@ -53,7 +53,7 @@ api_name:
 
 Creates a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a> object whose x-coordinate, y-coordinate, width, and height are all zero. This is the default constructor.
 
-## -parameters
+
 
 ## -see-also
 

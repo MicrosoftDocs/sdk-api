@@ -52,7 +52,7 @@ api_name:
 
 The <b>Complete</b> method finishes the current manipulation and stops inertia on the inertia processor.
 
-## -parameters
+
 
 ## -returns
 

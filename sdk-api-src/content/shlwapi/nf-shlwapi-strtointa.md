@@ -69,7 +69,11 @@ A pointer to the null-terminated string to be converted. A valid string represen
                     
                     
 
-<pre class="syntax" xml:space="preserve"><code>(optional white space)(optional sign)(one or more decimal digits)</code></pre>
+
+``` syntax
+(optional white space)(optional sign)(one or more decimal digits)
+```
+
 The optional sign can be the character '-' or '+'; if omitted, the sign is assumed to be positive.
 
 ## -returns

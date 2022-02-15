@@ -56,7 +56,7 @@ Elements of the <b>TsRunType</b> enumeration specify if a text run is visible, h
 
 ## -enum-fields
 
-### -field TS_RT_PLAIN
+### -field TS_RT_PLAIN:0
 
 The text run is visible.
 

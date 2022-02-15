@@ -52,7 +52,7 @@ api_name:
 
 The <b>IADsServiceOperations::Stop</b> method stops a currently active network service.
 
-## -parameters
+
 
 ## -returns
 

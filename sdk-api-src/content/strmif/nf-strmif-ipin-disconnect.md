@@ -57,7 +57,7 @@ The <code>Disconnect</code> method breaks the current pin connection.
 
 The Filter Graph Manager calls this method when it disconnects two filters. Applications and filters should not call this method. Instead, call the <a href="/windows/desktop/api/strmif/nf-strmif-ifiltergraph-disconnect">IFilterGraph::Disconnect</a> method on the Filter Graph Manager.
 
-## -parameters
+
 
 ## -returns
 

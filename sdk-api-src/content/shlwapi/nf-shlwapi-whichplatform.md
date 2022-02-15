@@ -54,7 +54,7 @@ api_name:
 
 Retrieves a value that indicates the type of Shell32.dll that the platform contains.
 
-## -parameters
+
 
 ## -returns
 

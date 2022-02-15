@@ -52,7 +52,7 @@ api_name:
 
 The <b>WMPNotifyPluginAddRemove</b> function notifies Windows Media Player that a plug-in has been installed or uninstalled.
 
-## -parameters
+
 
 ## -returns
 

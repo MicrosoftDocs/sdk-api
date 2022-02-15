@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputEffectDriver::GetEffectStatus </b>method obtains information about the status of an effect.
+The <b>IDirectInputEffectDriver::GetEffectStatus </b> method obtains information about the status of an effect.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ Specifies the effect to be queried.
 
 ### -param unnamedParam3
 
-Points to a <b>DWORD </b>that receives the effect status. The <b>DWORD</b> should be filled in with one of the following values: 
+Points to a <b>DWORD </b> that receives the effect status. The <b>DWORD</b> should be filled in with one of the following values: 
 
 
 

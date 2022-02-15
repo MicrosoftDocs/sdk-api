@@ -53,7 +53,7 @@ api_name:
 Retrieves the current code page.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="/windows/desktop/api/winnls/nf-winnls-getoemcp">GetOEMCP</a> function to retrieve the OEM code-page identifier for the system.</div><div> </div>
 
-## -parameters
+
 
 ## -returns
 

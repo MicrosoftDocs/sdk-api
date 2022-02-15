@@ -52,7 +52,7 @@ api_name:
 
 Gets the audio volume level.
 
-## -parameters
+
 
 ## -returns
 

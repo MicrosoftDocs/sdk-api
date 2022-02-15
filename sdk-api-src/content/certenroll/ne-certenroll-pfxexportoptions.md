@@ -54,15 +54,15 @@ The <b>PFXExportOptions</b> enumeration specifies how much of a certificate chai
 
 ## -enum-fields
 
-### -field PFXExportEEOnly
+### -field PFXExportEEOnly:0
 
 Includes only the end entity certificate.
 
-### -field PFXExportChainNoRoot
+### -field PFXExportChainNoRoot:1
 
 Includes the certificate chain without the root <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> certificate.
 
-### -field PFXExportChainWithRoot
+### -field PFXExportChainWithRoot:2
 
 Includes the entire certificate chain, including the root certification authority certificate.
 

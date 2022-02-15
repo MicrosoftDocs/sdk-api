@@ -52,7 +52,7 @@ api_name:
 
 Completes the current iteration of a keyframe loop that is in progress (where the loop is set to <a href="/windows/desktop/UIAnimation/ui-animation-repeat-indefinitely">UI_ANIMATION_REPEAT_INDEFINITELY</a>), terminates the loop, and continues with the storyboard.
 
-## -parameters
+
 
 ## -returns
 

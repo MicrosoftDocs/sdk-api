@@ -52,7 +52,7 @@ api_name:
 
 Breaks the connection between a linked object and its link source.
 
-## -parameters
+
 
 ## -returns
 

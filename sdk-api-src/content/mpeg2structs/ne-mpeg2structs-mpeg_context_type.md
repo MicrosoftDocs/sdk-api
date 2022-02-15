@@ -56,7 +56,7 @@ The <b>MPEG_CONTEXT_TYPE</b> enumeration type identifies the source of an MPEG-2
 
 ## -enum-fields
 
-### -field MPEG_CONTEXT_BCS_DEMUX
+### -field MPEG_CONTEXT_BCS_DEMUX:0
 
 Indicates that the source is a DirectShow filter graph using the <a href="/windows/desktop/DirectShow/mpeg-2-demultiplexer">MPEG-2 Demultiplexer</a> filter.
 

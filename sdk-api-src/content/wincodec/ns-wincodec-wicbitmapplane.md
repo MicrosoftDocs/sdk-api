@@ -70,7 +70,7 @@ Pointer to the buffer that holds the plane’s pixel components.
 
 Type: <b>UINT</b>
 
-The stride of the buffer ponted to by <i>pbData</i>.  Stride indicates the total number of bytes to go from the beginning of one scanline to the beginning of the next scanline.
+The stride of the buffer pointed to by <i>pbData</i>.  Stride indicates the total number of bytes to go from the beginning of one scanline to the beginning of the next scanline.
 
 ### -field cbBufferSize
 

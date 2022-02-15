@@ -54,7 +54,7 @@ api_name:
 
 The <b>resetExtensions</b> method removes all extensions from the request. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
 
-## -parameters
+
 
 ## -see-also
 

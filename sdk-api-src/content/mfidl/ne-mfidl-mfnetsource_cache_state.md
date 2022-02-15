@@ -56,7 +56,7 @@ Defines the status of the cache for a media file or entry.
 
 ## -enum-fields
 
-### -field MFNETSOURCE_CACHE_UNAVAILABLE
+### -field MFNETSOURCE_CACHE_UNAVAILABLE:0
 
 The cache for a file or entry does not exist.
 

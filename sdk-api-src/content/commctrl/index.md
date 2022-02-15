@@ -16,7 +16,9 @@ f1_keywords:
 
 ## -description
 
-This header is used by Windows Controls. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [Keyboard and Mouse Input](../_inputdev/index.md)
+- [The Windows Shell](../_shell/index.md)
 - [Windows Controls](../_controls/index.md)
 

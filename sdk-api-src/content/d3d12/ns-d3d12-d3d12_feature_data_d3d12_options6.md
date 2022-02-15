@@ -16,8 +16,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: D3D12_FEATURE_DATA_D3D12_OPTIONS6
 req.umdf-ver: 
@@ -77,5 +77,5 @@ Indicates whether or not background processing is supported. `true` if backgroun
 
 ## -see-also
 
-[Variable-rate shading (VRS)](/windows/desktop/direct3d12/vrs), [Direct3D 12 background processing spec](https://microsoft.github.io/DirectX-Specs/d3d/BackgroundProcessing.html)
-
+* [Variable-rate shading (VRS)](/windows/desktop/direct3d12/vrs)
+* [Direct3D 12 background processing spec](https://microsoft.github.io/DirectX-Specs/d3d/BackgroundProcessing.html)

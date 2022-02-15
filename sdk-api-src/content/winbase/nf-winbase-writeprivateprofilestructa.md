@@ -93,11 +93,15 @@ A section in the initialization file must have the following form:
 				
 			
 
-<pre class="syntax" xml:space="preserve"><code>[section]
+
+``` syntax
+[section]
 key=string
       .
       .
-      .</code></pre>
+      .
+```
+
 If the <i>szFile</i> parameter does not contain a full path and file name for the file, 
 <a href="/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestringa">WritePrivateProfileString</a> searches the Windows directory for the file. If the file does not exist, this function creates the file in the Windows directory.
 
@@ -106,7 +110,7 @@ If <i>szFile</i> contains a full path and file name and the file does not exist,
 
 The system keeps a cached version of the most recent registry file mapping to improve performance. If all parameters are <b>NULL</b>, the function flushes the cache. While the system is editing the cached version of the file, processes that edit the file itself will use the original file until the cache has been cleared.
 
-The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
          <b>Windows NT</b>

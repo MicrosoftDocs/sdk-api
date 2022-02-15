@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains information about a failed memory read operation. This structure is used by the <a href="/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a>function when the callback type is ReadMemoryFailureCallback.
+Contains information about a failed memory read operation. This structure is used by the <a href="/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a> function when the callback type is ReadMemoryFailureCallback.
 
 ## -struct-fields
 

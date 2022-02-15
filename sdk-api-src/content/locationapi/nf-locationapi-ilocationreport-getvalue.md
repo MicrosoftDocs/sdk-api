@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a> API.
 ]
 
 Retrieves a property value from the location report.
@@ -67,7 +67,7 @@ Address of a <b>PROPVARIANT</b> that receives the property value.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -83,7 +83,7 @@ The following is a table of some platform-defined properties that are commonly a
 <th>Description</th>
 </tr>
 <tr>
-<td>SENSOR_DATA_TYPE_LATITUDE<b>VT_R8</b>
+<td>SENSOR_DATA_TYPE_LATITUDE <b>VT_R8</b>
 
 </td>
 <td>Degrees latitude where North is positive.
@@ -95,7 +95,7 @@ The following is a table of some platform-defined properties that are commonly a
 </td>
 </tr>
 <tr>
-<td>SENSOR_DATA_TYPE_LONGITUDE<b>VT_R8</b>
+<td>SENSOR_DATA_TYPE_LONGITUDE <b>VT_R8</b>
 
 </td>
 <td>Degrees longitude where East is positive.
@@ -107,44 +107,44 @@ The following is a table of some platform-defined properties that are commonly a
 </td>
 </tr>
 <tr>
-<td>SENSOR_DATA_TYPE_ALTITUDE_SEALEVEL_METERS<b>VT_R8</b>
+<td>SENSOR_DATA_TYPE_ALTITUDE_SEALEVEL_METERS <b>VT_R8</b>
 
 </td>
 <td>Altitude with respect to sea level, in meters.</td>
 </tr>
 <tr>
-<td>SENSOR_DATA_TYPE_ALTITUDE_ELLIPSOID_METERS<b>VT_R8</b>
+<td>SENSOR_DATA_TYPE_ALTITUDE_ELLIPSOID_METERS <b>VT_R8</b>
 
 </td>
 <td>Altitude with respect to the reference ellipsoid, in meters.</td>
 </tr>
 <tr>
-<td>SENSOR_DATA_TYPE_SPEED_KNOTS<b>VT_R8</b>
+<td>SENSOR_DATA_TYPE_SPEED_KNOTS <b>VT_R8</b>
 
 </td>
 <td>Speed measured in knots.</td>
 </tr>
 <tr>
-<td>SENSOR_DATA_TYPE_TRUE_HEADING_DEGREES<b>VT_R8</b>
+<td>SENSOR_DATA_TYPE_TRUE_HEADING_DEGREES <b>VT_R8</b>
 
 </td>
 <td>Heading relative to true north in degrees.
             </td>
 </tr>
 <tr>
-<td>SENSOR_DATA_TYPE_MAGNETIC_HEADING_DEGREES<b>VT_R8</b>
+<td>SENSOR_DATA_TYPE_MAGNETIC_HEADING_DEGREES <b>VT_R8</b>
 
 </td>
 <td> Heading relative to magnetic north in degrees.</td>
 </tr>
 <tr>
-<td>SENSOR_DATA_TYPE_MAGNETIC_VARIATION<b>VT_R8</b>
+<td>SENSOR_DATA_TYPE_MAGNETIC_VARIATION <b>VT_R8</b>
 
 </td>
 <td>Magnetic variation. East is positive.</td>
 </tr>
 <tr>
-<td>SENSOR_DATA_TYPE_ERROR_RADIUS_METERS<b>VT_R8</b>
+<td>SENSOR_DATA_TYPE_ERROR_RADIUS_METERS <b>VT_R8</b>
 
 </td>
 <td>Error radius that indicates accuracy of latitude and longitude in meters.
@@ -155,7 +155,7 @@ The following is a table of some platform-defined properties that are commonly a
 </td>
 </tr>
 <tr>
-<td>SENSOR_DATA_TYPE_ADDRESS1<b>VT_LPWSTR</b>
+<td>SENSOR_DATA_TYPE_ADDRESS1 <b>VT_LPWSTR</b>
 
 </td>
 <td> First line of the address in a civic address report. 
@@ -166,7 +166,7 @@ The following is a table of some platform-defined properties that are commonly a
 </td>
 </tr>
 <tr>
-<td>SENSOR_DATA_TYPE_ADDRESS2<b>VT_LPWSTR</b>
+<td>SENSOR_DATA_TYPE_ADDRESS2 <b>VT_LPWSTR</b>
 
 </td>
 <td>Second line of the address in a civic address report.<div class="alert"><b>Note</b>  If a civic address report object that is passed to <a href="/windows/desktop/api/locationapi/nf-locationapi-idefaultlocation-setreport">SetReport</a> contains this data, it should provide this value in its implementation of <b>GetValue</b>.</div>
@@ -174,7 +174,7 @@ The following is a table of some platform-defined properties that are commonly a
 </td>
 </tr>
 <tr>
-<td>SENSOR_DATA_TYPE_CITY<b>VT_LPWSTR</b>
+<td>SENSOR_DATA_TYPE_CITY <b>VT_LPWSTR</b>
 
 </td>
 <td> City field in a civic address report.<div class="alert"><b>Note</b>  If a civic address report object that is passed to <a href="/windows/desktop/api/locationapi/nf-locationapi-idefaultlocation-setreport">SetReport</a> contains this data, it should provide this value in its implementation of <b>GetValue</b>.</div>
@@ -182,7 +182,7 @@ The following is a table of some platform-defined properties that are commonly a
 </td>
 </tr>
 <tr>
-<td>SENSOR_DATA_TYPE_STATE_PROVINCE<b>VT_LPWSTR</b>
+<td>SENSOR_DATA_TYPE_STATE_PROVINCE <b>VT_LPWSTR</b>
 
 </td>
 <td>State/province field in a civic address report.<div class="alert"><b>Note</b>  If a civic address report object that is passed to <a href="/windows/desktop/api/locationapi/nf-locationapi-idefaultlocation-setreport">SetReport</a> contains this data, it should provide this value in its implementation of <b>GetValue</b>.</div>
@@ -190,7 +190,7 @@ The following is a table of some platform-defined properties that are commonly a
 </td>
 </tr>
 <tr>
-<td>SENSOR_DATA_TYPE_POSTALCODE<b>VT_LPWSTR</b>
+<td>SENSOR_DATA_TYPE_POSTALCODE <b>VT_LPWSTR</b>
 
 </td>
 <td>Postal code field in a civic address report.<div class="alert"><b>Note</b>  If a civic address report object that is passed to <a href="/windows/desktop/api/locationapi/nf-locationapi-idefaultlocation-setreport">SetReport</a> contains this data, it should provide this value in its implementation of <b>GetValue</b>.</div>
@@ -198,7 +198,7 @@ The following is a table of some platform-defined properties that are commonly a
 </td>
 </tr>
 <tr>
-<td>SENSOR_DATA_TYPE_COUNTRY_REGION<b>VT_LPWSTR</b>
+<td>SENSOR_DATA_TYPE_COUNTRY_REGION <b>VT_LPWSTR</b>
 
 </td>
 <td>Country/region code in a civic address report. The value must be a two-letter or three-letter ISO 3166 country code.
@@ -211,13 +211,13 @@ The following is a table of some platform-defined properties that are commonly a
 </td>
 </tr>
 <tr>
-<td>SENSOR_DATA_TYPE_ALTITUDE_ELLIPSOID_ERROR_METERS<b>VT_R8</b>
+<td>SENSOR_DATA_TYPE_ALTITUDE_ELLIPSOID_ERROR_METERS <b>VT_R8</b>
 
 </td>
 <td>Altitude error with respect to the reference ellipsoid, in meters.</td>
 </tr>
 <tr>
-<td>SENSOR_DATA_TYPE_ALTITUDE_SEALEVEL_ERROR_METERS<b>VT_R8</b>
+<td>SENSOR_DATA_TYPE_ALTITUDE_SEALEVEL_ERROR_METERS <b>VT_R8</b>
 
 </td>
 <td>Altitude error with respect to sea level, in meters.</td>
@@ -233,7 +233,7 @@ The following is a table of other platform-defined properties that may occur in 
 <th>Description</th>
 </tr>
 <tr>
-<td>SENSOR_PROPERTY_ACCURACY<b>VT_UNKNOWN</b>
+<td>SENSOR_PROPERTY_ACCURACY <b>VT_UNKNOWN</b>
 
 </td>
 <td>IPortableDeviceValues object that contains sensor data type names and their associated accuracies. Accuracy values represent possible variation from true values.
@@ -242,7 +242,7 @@ Accuracy values are expressed by using the same units as the data field, except 
  </td>
 </tr>
 <tr>
-<td>SENSOR_PROPERTY_CHANGE_SENSITIVITY<b>VT_UNKNOWN</b>
+<td>SENSOR_PROPERTY_CHANGE_SENSITIVITY <b>VT_UNKNOWN</b>
 
 </td>
 <td>
@@ -257,14 +257,14 @@ For example, a change sensitivity value of 2 for SENSOR_DATA_TYPE_TEMPERATURE_CE
 </td>
 </tr>
 <tr>
-<td>SENSOR_PROPERTY_CURRENT_CONNECTION_TYPE<b>VT_UI4</b>
+<td>SENSOR_PROPERTY_CURRENT_CONNECTION_TYPE <b>VT_UI4</b>
 
 </td>
 <td>
 <a href="/windows/win32/api/sensorsapi/ne-sensorsapi-sensorconnectiontype">SensorConnectionType</a> value that contains the current connection type.</td>
 </tr>
 <tr>
-<td>SENSOR_PROPERTY_CURRENT_REPORT_INTERVAL<b>VT_UI4</b>
+<td>SENSOR_PROPERTY_CURRENT_REPORT_INTERVAL <b>VT_UI4</b>
 
 </td>
 <td>
@@ -278,13 +278,13 @@ Applications can set this value to request a particular report interval, but mul
 </td>
 </tr>
 <tr>
-<td>SENSOR_PROPERTY_DESCRIPTION<b>VT_LPWSTR</b>
+<td>SENSOR_PROPERTY_DESCRIPTION <b>VT_LPWSTR</b>
 
 </td>
 <td>The sensor description string.</td>
 </tr>
 <tr>
-<td>SENSOR_PROPERTY_DEVICE_PATH<b>VT_LPWSTR</b>
+<td>SENSOR_PROPERTY_DEVICE_PATH <b>VT_LPWSTR</b>
 
 </td>
 <td>
@@ -296,13 +296,13 @@ Device drivers do not have to support this property because the platform provide
 </td>
 </tr>
 <tr>
-<td>SENSOR_PROPERTY_FRIENDLY_NAME<b>VT_LPWSTR</b>
+<td>SENSOR_PROPERTY_FRIENDLY_NAME <b>VT_LPWSTR</b>
 
 </td>
 <td> The friendly name for the device.</td>
 </tr>
 <tr>
-<td>SENSOR_PROPERTY_LOCATION_DESIRED_ACCURACY<b>VT_UI4</b>
+<td>SENSOR_PROPERTY_LOCATION_DESIRED_ACCURACY <b>VT_UI4</b>
 
 </td>
 <td>An enumerated value that indicates the type of accuracy handling requested by a client application.<b>LOCATION_DESIRED_ACCURACY_DEFAULT</b> (0) indicates that the sensor should use the accuracy for which it can optimize power use and other cost considerations.
@@ -312,43 +312,43 @@ Device drivers do not have to support this property because the platform provide
 </td>
 </tr>
 <tr>
-<td>SENSOR_PROPERTY_MANUFACTURER<b>VT_LPWSTR</b>
+<td>SENSOR_PROPERTY_MANUFACTURER <b>VT_LPWSTR</b>
 
 </td>
 <td>The manufacturer's name.</td>
 </tr>
 <tr>
-<td>SENSOR_PROPERTY_MIN_REPORT_INTERVAL<b>VT_UI4</b>
+<td>SENSOR_PROPERTY_MIN_REPORT_INTERVAL <b>VT_UI4</b>
 
 </td>
 <td> The minimum elapsed time setting that the hardware supports for sensor data report generation, in milliseconds. </td>
 </tr>
 <tr>
-<td>SENSOR_PROPERTY_MODEL<b>VT_LPWSTR</b>
+<td>SENSOR_PROPERTY_MODEL <b>VT_LPWSTR</b>
 
 </td>
 <td>The sensor model name.</td>
 </tr>
 <tr>
-<td>SENSOR_PROPERTY_PERSISTENT_UNIQUE_ID<b>VT_CLSID</b>
+<td>SENSOR_PROPERTY_PERSISTENT_UNIQUE_ID <b>VT_CLSID</b>
 
 </td>
 <td> A <b>GUID</b> that identifies the sensor. This value must be unique for each sensor on a device, or across devices of the same model as enumerated on the computer.</td>
 </tr>
 <tr>
-<td>SENSOR_PROPERTY_RANGE_MAXIMUM<b>VT_UKNOWN</b>
+<td>SENSOR_PROPERTY_RANGE_MAXIMUM <b>VT_UKNOWN</b>
 
 </td>
 <td><b>IPortableDeviceValues</b> object that contains sensor data field names and their associated maximum values.</td>
 </tr>
 <tr>
-<td>SENSOR_PROPERTY_RANGE_MINIMUM<b>VT_UKNOWN</b>
+<td>SENSOR_PROPERTY_RANGE_MINIMUM <b>VT_UKNOWN</b>
 
 </td>
 <td><b>IPortableDeviceValues</b> object that contains sensor data field names and their associated minimum values.</td>
 </tr>
 <tr>
-<td>SENSOR_PROPERTY_RESOLUTION<b>VT_UKNOWN</b>
+<td>SENSOR_PROPERTY_RESOLUTION <b>VT_UKNOWN</b>
 
 </td>
 <td><b>IPortableDeviceValues</b> object that contains sensor data field names and their associated resolutions. Resolution values represent sensitivity to change in the data field.
@@ -360,20 +360,20 @@ Resolution values are expressed by using the same units as the data field, excep
 </td>
 </tr>
 <tr>
-<td>SENSOR_PROPERTY_SERIAL_NUMBER<b>VT_LPWSTR</b>
+<td>SENSOR_PROPERTY_SERIAL_NUMBER <b>VT_LPWSTR</b>
 
 </td>
 <td>The sensor serial number.</td>
 </tr>
 <tr>
-<td>SENSOR_PROPERTY_STATE<b>VT_UI4</b>
+<td>SENSOR_PROPERTY_STATE <b>VT_UI4</b>
 
 </td>
 <td>
 <a href="/windows/win32/api/sensorsapi/ne-sensorsapi-sensorstate">SensorState</a> value that contains the current sensor state.</td>
 </tr>
 <tr>
-<td>SENSOR_PROPERTY_TYPE<b>VT_CLSID</b>
+<td>SENSOR_PROPERTY_TYPE <b>VT_CLSID</b>
 
 </td>
 <td>A <b>GUID</b> that identifies the sensor type. Platform-defined sensor types are defined in Sensors.h.</td>

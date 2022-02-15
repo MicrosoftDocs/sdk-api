@@ -54,10 +54,7 @@ Represents a fence, an object used for synchronization of the CPU and one or mor
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Fence</b> interface inherits from <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>. <b>ID3D12Fence</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID3D12Fence</b> interface inherits from <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>. <b>ID3D12Fence</b> also has these types of members:
 
 ## -see-also
 

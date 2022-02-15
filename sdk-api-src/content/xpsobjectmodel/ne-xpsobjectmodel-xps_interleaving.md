@@ -56,7 +56,7 @@ Specifies whether the content of the XPS OM will be interleaved when it is writt
 
 ## -enum-fields
 
-### -field XPS_INTERLEAVING_OFF
+### -field XPS_INTERLEAVING_OFF:1
 
 The content of the XPS OM is not interleaved. The document parts are written as complete parts.
 

@@ -58,20 +58,20 @@ Describes the type of cluster object being enumerated by the
 
 ## -enum-fields
 
-### -field CLUSTER_RESOURCE_ENUM_DEPENDS
+### -field CLUSTER_RESOURCE_ENUM_DEPENDS:0x00000001
 
 A resource that the resource identified by the 
        <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterresourceenum">ClusterResourceEnum</a> or 
        <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterresourceopenenum">ClusterResourceOpenEnum</a> functions directly 
        depends on.
 
-### -field CLUSTER_RESOURCE_ENUM_PROVIDES
+### -field CLUSTER_RESOURCE_ENUM_PROVIDES:0x00000002
 
 A resource that directly depends on the resource identified by the 
        <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterresourceenum">ClusterResourceEnum</a> or 
        <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterresourceopenenum">ClusterResourceOpenEnum</a> functions.
 
-### -field CLUSTER_RESOURCE_ENUM_NODES
+### -field CLUSTER_RESOURCE_ENUM_NODES:0x00000004
 
 A node that can host the resource identified by the 
        <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterresourceenum">ClusterResourceEnum</a> or 

@@ -54,35 +54,35 @@ The type of <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_node
 
 ## -enum-fields
 
-### -field WS_XML_NODE_TYPE_ELEMENT
+### -field WS_XML_NODE_TYPE_ELEMENT:1
 
 A start element. (e.g. &lt;a:purchaseOrder xmlns:a="http://tempuri.org" id="5"&gt;)
 
-### -field WS_XML_NODE_TYPE_TEXT
+### -field WS_XML_NODE_TYPE_TEXT:2
 
 Element, attribute, or CDATA content.
 
-### -field WS_XML_NODE_TYPE_END_ELEMENT
+### -field WS_XML_NODE_TYPE_END_ELEMENT:3
 
 An end element. (e.g. &lt;/purchaseOrder&gt;)
 
-### -field WS_XML_NODE_TYPE_COMMENT
+### -field WS_XML_NODE_TYPE_COMMENT:4
 
 A comment. (For example, &lt;!--The message follows--&gt;)
 
-### -field WS_XML_NODE_TYPE_CDATA
+### -field WS_XML_NODE_TYPE_CDATA:6
 
 The start of a CDATA section (i.e. &lt;![CDATA[)
 
-### -field WS_XML_NODE_TYPE_END_CDATA
+### -field WS_XML_NODE_TYPE_END_CDATA:7
 
 The end of a CDATA section (i.e. ]]&gt;)
 
-### -field WS_XML_NODE_TYPE_EOF
+### -field WS_XML_NODE_TYPE_EOF:8
 
 The final node of an xml stream.
 
-### -field WS_XML_NODE_TYPE_BOF
+### -field WS_XML_NODE_TYPE_BOF:9
 
 The first node of an xml stream.
 
@@ -91,7 +91,9 @@ The first node of an xml stream.
 The BNF for node types within a document is:
       
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 Xml := StartInput Whitespace Element Whitespace EndInput
 Whitespace := (Text | Comment)* // Text is whitespace only
 Element := StartElement ElementContent EndElement
@@ -102,4 +104,6 @@ Text := WS_XML_NODE_TYPE_TEXT
 Comment := WS_XML_NODE_TYPE_COMMENT
 CData := WS_XML_NODE_TYPE_CDATA Text* WS_XML_NODE_TYPE_END_CDATA
 StartInput := WS_XML_NODE_TYPE_BOF
-EndInput := WS_XML_NODE_TYPE_EOF</code></pre>
+EndInput := WS_XML_NODE_TYPE_EOF
+```
+

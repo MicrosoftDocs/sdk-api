@@ -78,7 +78,7 @@ Notice that this functionality is provided as an
 <a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> method on a property-storage object that is already open, in contrast to being provided as a method in 
 <a href="/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>. Normally, when the 
 <b>SetTimes</b> method is not explicitly called, the access and modification times are updated as a side effect of reading and writing the property set. When 
- <b>SetTimes</b>is used, the latest specified times supersede either default times or time values specified in previous calls to 
+ <b>SetTimes</b> is used, the latest specified times supersede either default times or time values specified in previous calls to 
 <b>SetTimes</b>.
 
 ## -see-also

@@ -54,7 +54,7 @@ api_name:
 The <b>Image::GetPixelFormat</b> method gets the pixel format of this 
 			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
 
-## -parameters
+
 
 ## -returns
 

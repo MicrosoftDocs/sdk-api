@@ -6,7 +6,7 @@ helpviewer_keywords: ["*PSW_DEVICE_CREATE_INFO","PSW_DEVICE_CREATE_INFO","PSW_DE
 old-location: swdevice\sw_device_create_info.htm
 tech.root: swdevice
 ms.assetid: 9519FD17-AB43-4C9E-BE77-9DFAC3263447
-ms.date: 12/05/2018
+ms.date: 09/13/2021
 ms.keywords: '*PSW_DEVICE_CREATE_INFO, PSW_DEVICE_CREATE_INFO, PSW_DEVICE_CREATE_INFO structure pointer, SWDeviceCapabilitiesDriverRequired, SWDeviceCapabilitiesNoDisplayInUI, SWDeviceCapabilitiesNone, SWDeviceCapabilitiesRemovable, SWDeviceCapabilitiesSilentInstall, SW_DEVICE_CREATE_INFO, SW_DEVICE_CREATE_INFO structure, swdevice.sw_device_create_info, swdevicedef/PSW_DEVICE_CREATE_INFO, swdevicedef/SW_DEVICE_CREATE_INFO'
 req.header: swdevicedef.h
 req.include-header: Swdevice.h
@@ -80,7 +80,7 @@ A value that is used to control the base container ID for the software device.  
 
 ### -field CapabilityFlags
 
-A combination of <b>SW_DEVICE_CAPABILITIES</b> values that are combined by using a bitwise OR operation. The resulting value specifies capabilities of the software device. The capability that you can specify when you create a software device are a subset of the capabilities that a bus driver can specify by using the <b>DEVICE_CAPABILTIES</b> structure.  Only capabilities that make sense to allow changing for a software only device are supported.  The rest receive appropriate default values. Here are possible values:
+A combination of <b>SW_DEVICE_CAPABILITIES</b> values that are combined by using a bitwise OR operation. The resulting value specifies capabilities of the software device. The capability that you can specify when you create a software device are a subset of the capabilities that a bus driver can specify by using the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_capabilities"><b>DEVICE_CAPABILTIES</b></a> structure.  Only capabilities that make sense to allow changing for a software only device are supported.  The rest receive appropriate default values. Here are possible values:
 
 <table>
 <tr>
@@ -105,7 +105,7 @@ No capabilities have been specified.
 </dl>
 </td>
 <td width="60%">
-This bit specifies that the device is removable from its parent.  Setting this flag is equivalent to a bus driver setting the <b>Removable</b> member of the <b>DEVICE_CAPABILTIES</b> structure for a PDO.
+This bit specifies that the device is removable from its parent.  Setting this flag is equivalent to a bus driver setting the <b>Removable</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_capabilities"><b>DEVICE_CAPABILTIES</b></a> structure for a PDO.
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ This bit specifies that the device is removable from its parent.  Setting this f
 </dl>
 </td>
 <td width="60%">
-This bit suppresses UI that would normally be shown during installation.  Setting this flag is equivalent to a bus driver setting the <b>SilentInstall</b> member of the <b>DEVICE_CAPABILTIES</b> structure for a PDO.
+This bit suppresses UI that would normally be shown during installation.  Setting this flag is equivalent to a bus driver setting the <b>SilentInstall</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_capabilities"><b>DEVICE_CAPABILTIES</b></a> structure for a PDO.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ This bit suppresses UI that would normally be shown during installation.  Settin
 </dl>
 </td>
 <td width="60%">
-This bit prevents the device from being displayed in some UI.  Setting this flag is equivalent to a bus driver setting the <b>NoDisplayInUI</b> member of the <b>DEVICE_CAPABILTIES</b> structure for a PDO.
+This bit prevents the device from being displayed in some UI.  Setting this flag is equivalent to a bus driver setting the <b>NoDisplayInUI</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_capabilities"><b>DEVICE_CAPABILTIES</b></a> structure for a PDO.
 
 </td>
 </tr>
@@ -142,7 +142,7 @@ Specify this bit when the client wants a driver to be loaded on the device and w
 
 When this bit is specified, at least one of <b>pszzHardwareIds</b> or <b>pszzCompatibleIds</b> must be filled in.
 
-  If this bit is specified and if a driver can't be found, the device shows a yellow bang in <b>Device Manager</b> to indicate that the device has a problem, and Troubleshooters flag this as a device with a problem.  Setting this bit is equivalent to a bus driver not setting the <b>RawDeviceOK</b> member of the <b>DEVICE_CAPABILTIES</b> structure for a PDO.
+  If this bit is specified and if a driver can't be found, the device shows a yellow bang in <b>Device Manager</b> to indicate that the device has a problem, and Troubleshooters flag this as a device with a problem.  Setting this bit is equivalent to a bus driver not setting the <b>RawDeviceOK</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_capabilities"><b>DEVICE_CAPABILTIES</b></a> structure for a PDO.
 
 When this bit is specified, the driver owns creating interfaces for the device, and you can't call <a href="/windows/desktop/api/swdevice/nf-swdevice-swdeviceinterfaceregister">SwDeviceInterfaceRegister</a> for the device.
 

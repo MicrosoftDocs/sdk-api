@@ -54,11 +54,11 @@ Specifies flags to be used when creating a command queue.
 
 ## -enum-fields
 
-### -field D3D12_COMMAND_QUEUE_FLAG_NONE
+### -field D3D12_COMMAND_QUEUE_FLAG_NONE:0
 
 Indicates a default command queue.
 
-### -field D3D12_COMMAND_QUEUE_FLAG_DISABLE_GPU_TIMEOUT
+### -field D3D12_COMMAND_QUEUE_FLAG_DISABLE_GPU_TIMEOUT:0x1
 
 Indicates that the GPU timeout should be disabled for this command queue.
 

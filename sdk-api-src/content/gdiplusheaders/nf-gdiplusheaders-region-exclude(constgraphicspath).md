@@ -60,7 +60,7 @@ The <b>Region::Exclude</b> method updates this region to the portion of itself t
 Type: <b>const <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>
 
 Pointer to a <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object that specifies the path to use to update this 
-					<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>object.
+					<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a> object.
 
 ## -returns
 

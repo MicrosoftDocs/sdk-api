@@ -81,8 +81,8 @@ The replacement options. This parameter can be one or more of the following valu
     
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -130,8 +130,8 @@ If the function fails, the return value is zero. To get extended error informati
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

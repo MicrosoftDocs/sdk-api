@@ -277,7 +277,7 @@ The offload state for this TCP connection. This parameter can be one of the enum
 
 The <b>MIB_TCP6ROW2</b> structure is defined on Windows Vista and later. 
 
-The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table2">GetTcp6Table2</a>function retrieves the IPv6 TCP connection table on the local computer and returns this information in a <a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6table2">MIB_TCP6TABLE2</a> structure. 
+The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table2">GetTcp6Table2</a> function retrieves the IPv6 TCP connection table on the local computer and returns this information in a <a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6table2">MIB_TCP6TABLE2</a> structure. 
 
 An array of <b>MIB_TCP6ROW2</b> structures are contained in the <b>MIB_TCP6TABLE2</b> structure.  
 

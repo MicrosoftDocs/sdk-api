@@ -64,7 +64,7 @@ Flags that specify the behavior of the APO. The value of this parameter must be 
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -139,19 +139,27 @@ XAudio2CreateReverb(&pReverbAPO);
 
 The xaudio2fx.h header defines the <b>AudioReverb</b> class GUID as   a cross-platform audio processing object (XAPO). 
 
-<pre class="syntax" xml:space="preserve"><code>class __declspec(uuid("C2633B16-471B-4498-B8C5-4F0959E2EC09")) AudioReverb;
-</code></pre>
+
+``` syntax
+class __declspec(uuid("C2633B16-471B-4498-B8C5-4F0959E2EC09")) AudioReverb;
+
+```
+
 <b>XAudio2CreateReverb</b> returns this object as a pointer to a pointer to <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> in the <i>ppApo</i> parameter. Although you can query the <a href="/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a> and <a href="/windows/desktop/api/xapo/nn-xapo-ixapoparameters">IXAPOParameters</a> interfaces from this <b>IUnknown</b>, you typically never use these interfaces directly. Instead, you use them when you create a voice to add them as part of the effects chain. 
 
 The reverb uses the <a href="/windows/desktop/api/xaudio2fx/ns-xaudio2fx-xaudio2fx_reverb_parameters">XAUDIO2FX_REVERB_PARAMETERS</a> parameter structure that you access via the <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-seteffectparameters">IXAudio2Voice::SetEffectParameters</a>. 
 
-<div class="alert"><b>Note</b>  <b>XAudio2CreateReverb</b> is an inline function in xaudio2fx.h that calls <b>CreateAudioReverb</b>: <pre class="syntax" xml:space="preserve"><code>
+<div class="alert"><b>Note</b>  <b>XAudio2CreateReverb</b> is an inline function in xaudio2fx.h that calls <b>CreateAudioReverb</b>: 
+``` syntax
+
 XAUDIO2FX_STDAPI CreateAudioReverb(_Outptr_ IUnknown** ppApo);
 __inline HRESULT XAudio2CreateReverb(_Outptr_ IUnknown** ppApo, UINT32 /*Flags*/ DEFAULT(0))
 {
     return CreateAudioReverb(ppApo);
 }
-</code></pre>
+
+```
+
 </div>
 <div> </div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

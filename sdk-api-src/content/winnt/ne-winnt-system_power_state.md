@@ -58,35 +58,35 @@ Defines values that are used to specify system power states.
 
 ## -enum-fields
 
-### -field PowerSystemUnspecified
+### -field PowerSystemUnspecified:0
 
 Unspecified system power state.
 
-### -field PowerSystemWorking
+### -field PowerSystemWorking:1
 
 Specifies system power state S0.
 
-### -field PowerSystemSleeping1
+### -field PowerSystemSleeping1:2
 
 Specifies system power state S1.
 
-### -field PowerSystemSleeping2
+### -field PowerSystemSleeping2:3
 
 Specifies system power state S2.
 
-### -field PowerSystemSleeping3
+### -field PowerSystemSleeping3:4
 
 Specifies system power state S3.
 
-### -field PowerSystemHibernate
+### -field PowerSystemHibernate:5
 
 Specifies system power state S4 (HIBERNATE).
 
-### -field PowerSystemShutdown
+### -field PowerSystemShutdown:6
 
 Specifies system power state S5 (OFF).
 
-### -field PowerSystemMaximum
+### -field PowerSystemMaximum:7
 
 Specifies the maximum enumeration value.
 

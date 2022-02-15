@@ -60,27 +60,27 @@ The WMI scripting type library, WbemDisp.tlb, defines these constants. Visual Ba
 
 ## -enum-fields
 
-### -field wbemChangeFlagCreateOrUpdate
+### -field wbemChangeFlagCreateOrUpdate:0
 
 Causes the class or instance to be created, if it does not exist, or overwritten if it already exists.
 
-### -field wbemChangeFlagUpdateOnly
+### -field wbemChangeFlagUpdateOnly:0x1
 
 Causes the call to update. The class or instance must exist for the call to be successful.
 
-### -field wbemChangeFlagCreateOnly
+### -field wbemChangeFlagCreateOnly:0x2
 
 Used for creation only. The call will fail if the class or instance already exists.
 
-### -field wbemChangeFlagUpdateCompatible
+### -field wbemChangeFlagUpdateCompatible:0
 
 Allows a class to be updated if there are no derived classes and there are no instances for that class. It also allows updates in all cases if the change is just to non-important qualifiers (for example, the <a href="/windows/desktop/WmiSdk/standard-qualifiers">Description</a> qualifier). If the class has instances, the update fails. This flag is used for compatibility with previous versions of WMI.
 
-### -field wbemChangeFlagUpdateSafeMode
+### -field wbemChangeFlagUpdateSafeMode:0x20
 
 Allows updates of classes even if there are child classes as long as the change does not cause any conflicts with child classes. An example of an update this flag would allow would be to add a new property to the base class not previously mentioned in any of the child classes. If the class has instances, the update fails.
 
-### -field wbemChangeFlagUpdateForceMode
+### -field wbemChangeFlagUpdateForceMode:0x40
 
 Forces updates of classes when conflicting child classes exist.
 
@@ -88,11 +88,11 @@ An example of an update this flag forces would be if a class qualifier was defin
 
 Using the force mode to update a static class results in deletion of all instances of that class. Force update on provider classes does not delete instances of the class.
 
-### -field wbemChangeFlagStrongValidation
+### -field wbemChangeFlagStrongValidation:0x80
 
 <b>:  </b>Notifies the operating system to return a failure on put operations to any invalid system instances. Examples of such instances are event-related instances, such as filters, bindings, or providers. By default, if these instances are invalid, the put operation reports success but an error is reported in the log.
 
-### -field wbemChangeFlagAdvisory
+### -field wbemChangeFlagAdvisory:0x10000
 
 ## -see-also
 

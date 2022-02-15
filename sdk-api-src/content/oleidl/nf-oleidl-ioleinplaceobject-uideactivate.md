@@ -52,7 +52,7 @@ api_name:
 
 Deactivates and removes the user interface of an active in-place object.
 
-## -parameters
+
 
 ## -returns
 

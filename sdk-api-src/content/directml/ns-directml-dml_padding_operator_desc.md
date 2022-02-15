@@ -6,7 +6,7 @@ helpviewer_keywords: ["DML_PADDING_OPERATOR_DESC","DML_PADDING_OPERATOR_DESC str
 old-location: direct3d12\dml_padding_operator_desc.htm
 tech.root: directml
 ms.assetid: 0CC96A3F-12DF-4577-AFDD-356BC0D42C64
-ms.date: 11/03/2020
+ms.date: 01/19/2022
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -203,23 +203,25 @@ This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 *InputTensor* and *OutputTensor* must have the same *DataType* and *DimensionCount*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_5_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT64, FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 1 to 8 | FLOAT64, FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
 
 ### DML_FEATURE_LEVEL_3_1 and above
-
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
 | OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
 
 ### DML_FEATURE_LEVEL_2_1 and above
-
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputTensor | Input | 4 to 5 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
 | OutputTensor | Output | 4 to 5 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
 
 ### DML_FEATURE_LEVEL_1_0 and above
-
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputTensor | Input | 4 to 5 | FLOAT32, FLOAT16 |

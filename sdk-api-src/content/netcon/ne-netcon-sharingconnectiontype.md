@@ -61,7 +61,7 @@ The values of the
 
 ## -enum-fields
 
-### -field ICSSHARINGTYPE_PUBLIC
+### -field ICSSHARINGTYPE_PUBLIC:0
 
 The connection is public.
 

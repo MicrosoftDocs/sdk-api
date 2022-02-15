@@ -54,15 +54,15 @@ Specifies the header metadata type.
 
 ## -enum-fields
 
-### -field DXGI_HDR_METADATA_TYPE_NONE
+### -field DXGI_HDR_METADATA_TYPE_NONE:0
 
 Indicates there is no header metadata.
 
-### -field DXGI_HDR_METADATA_TYPE_HDR10
+### -field DXGI_HDR_METADATA_TYPE_HDR10:1
 
 Indicates the header metadata is held by a  <a href="/windows/desktop/api/dxgi1_5/ns-dxgi1_5-dxgi_hdr_metadata_hdr10">DXGI_HDR_METADATA_HDR10</a> structure.
 
-### -field DXGI_HDR_METADATA_TYPE_HDR10PLUS
+### -field DXGI_HDR_METADATA_TYPE_HDR10PLUS:2
 
 ## -remarks
 

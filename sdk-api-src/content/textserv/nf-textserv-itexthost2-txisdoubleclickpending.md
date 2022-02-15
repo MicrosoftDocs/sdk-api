@@ -52,7 +52,7 @@ api_name:
 
 Discovers whether the message queue contains a <a href="/windows/desktop/inputdev/wm-lbuttondblclk">WM_LBUTTONDBLCLK</a>  message that is pending for the text host window.
 
-## -parameters
+
 
 ## -returns
 

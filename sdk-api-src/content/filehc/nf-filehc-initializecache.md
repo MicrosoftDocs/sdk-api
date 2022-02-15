@@ -52,7 +52,7 @@ api_name:
 
 Provides the initializing values of the file handle cache.
 
-## -parameters
+
 
 ## -returns
 

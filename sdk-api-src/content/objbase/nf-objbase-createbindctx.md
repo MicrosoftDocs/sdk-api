@@ -84,7 +84,9 @@ This function can return the standard return values E_OUTOFMEMORY and S_OK.
 </ol>
 The following code fragment illustrates these steps.
 
-<pre class="syntax" xml:space="preserve"><code>// pMnk is an IMoniker * that points to a previously acquired moniker 
+
+``` syntax
+// pMnk is an IMoniker * that points to a previously acquired moniker 
 IInterface *pInterface; 
 IBindCtx *pbc; 
  
@@ -94,17 +96,23 @@ pbc-&gt;Release();
 
 // pInterface now points to the object; safe to use pInterface 
 pInterface-&gt;Release(); 
-</code></pre>
+
+```
+
 Bind contexts are also used in other methods of the <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface besides <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a> and in the <a href="/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a> function. 
 
 A bind context retains references to the objects that are bound during the binding operation, causing the bound objects to remain active (keeping the object's server running) until the bind context is released. Reusing a bind context when subsequent operations bind to the same object can improve performance. You should, however, release the bind context as soon as possible, because you could be keeping the objects activated unnecessarily.
 
 A bind context contains a <a href="/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a> structure, which contains parameters that apply to all steps in a binding operation. When you create a bind context using <b>CreateBindCtx</b>, the fields of the <b>BIND_OPTS</b> structure are initialized as follows.
 
-<pre class="syntax" xml:space="preserve"><code>cbStruct = sizeof(BIND_OPTS) 
+
+``` syntax
+cbStruct = sizeof(BIND_OPTS) 
 grfFlags = 0 
 grfMode = STGM_READWRITE 
-dwTickCountDeadline = 0</code></pre>
+dwTickCountDeadline = 0
+```
+
 You can call the <a href="/windows/desktop/api/objidl/nf-objidl-ibindctx-setbindoptions">IBindCtx::SetBindOptions</a> method to modify these default values.
 
 ## -see-also

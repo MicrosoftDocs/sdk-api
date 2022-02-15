@@ -1,7 +1,7 @@
 ---
 UID: NE:structuredquery.tagSTRUCTURED_QUERY_PARSE_ERROR
 title: STRUCTURED_QUERY_PARSE_ERROR (structuredquery.h)
-description: A set of flags to be used with IQuerySolution::GetErrors to indentify parsing error(s). Each parsing error indicates that one or more tokens were ignored when parsing a query string.
+description: A set of flags to be used with IQuerySolution::GetErrors to identify parsing error(s). Each parsing error indicates that one or more tokens were ignored when parsing a query string.
 helpviewer_keywords: ["SQPE_EXTRA_CLOSING_PARENTHESIS","SQPE_EXTRA_OPENING_PARENTHESIS","SQPE_IGNORED_CONNECTOR","SQPE_IGNORED_KEYWORD","SQPE_IGNORED_MODIFIER","SQPE_NONE","SQPE_UNHANDLED","STRUCTURED_QUERY_PARSE_ERROR","STRUCTURED_QUERY_PARSE_ERROR enumeration [search]","_search_STRUCTURED_QUERY_PARSE_ERROR","search._search_STRUCTURED_QUERY_PARSE_ERROR","structuredquery/SQPE_EXTRA_CLOSING_PARENTHESIS","structuredquery/SQPE_EXTRA_OPENING_PARENTHESIS","structuredquery/SQPE_IGNORED_CONNECTOR","structuredquery/SQPE_IGNORED_KEYWORD","structuredquery/SQPE_IGNORED_MODIFIER","structuredquery/SQPE_NONE","structuredquery/SQPE_UNHANDLED","structuredquery/STRUCTURED_QUERY_PARSE_ERROR"]
 old-location: search\_search_STRUCTURED_QUERY_PARSE_ERROR.htm
 tech.root: search
@@ -52,11 +52,11 @@ api_name:
 
 ## -description
 
-A set of flags to be used with <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iquerysolution-geterrors">IQuerySolution::GetErrors</a> to indentify parsing error(s). Each parsing error indicates that one or more tokens were ignored when parsing a query string.
+A set of flags to be used with <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iquerysolution-geterrors">IQuerySolution::GetErrors</a> to identify parsing error(s). Each parsing error indicates that one or more tokens were ignored when parsing a query string.
 
 ## -enum-fields
 
-### -field SQPE_NONE
+### -field SQPE_NONE:0
 
 No error.
 

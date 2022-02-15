@@ -52,7 +52,7 @@ api_name:
 
 The <b>Clear</b> method removes all <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a> objects from the collection.
 
-## -parameters
+
 
 ## -returns
 

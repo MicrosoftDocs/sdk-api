@@ -54,15 +54,15 @@ Defines constants that specify the stage of a parameter to a meta command.
 
 ## -enum-fields
 
-### -field D3D12_META_COMMAND_PARAMETER_STAGE_CREATION
+### -field D3D12_META_COMMAND_PARAMETER_STAGE_CREATION:0
 
 Specifies that the parameter is used at the meta command creation stage.
 
-### -field D3D12_META_COMMAND_PARAMETER_STAGE_INITIALIZATION
+### -field D3D12_META_COMMAND_PARAMETER_STAGE_INITIALIZATION:1
 
 Specifies that the parameter is used at the meta command initialization stage.
 
-### -field D3D12_META_COMMAND_PARAMETER_STAGE_EXECUTION
+### -field D3D12_META_COMMAND_PARAMETER_STAGE_EXECUTION:2
 
 Specifies that the parameter is used at the meta command execution stage.
 

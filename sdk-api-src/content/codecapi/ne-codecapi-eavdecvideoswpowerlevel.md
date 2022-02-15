@@ -54,15 +54,15 @@ Specifies the power-saving level of a video decoder. This enumeration is used wi
 
 ## -enum-fields
 
-### -field eAVDecVideoSWPowerLevel_BatteryLife
+### -field eAVDecVideoSWPowerLevel_BatteryLife:0
 
 Optimize for battery life.
 
-### -field eAVDecVideoSWPowerLevel_Balanced
+### -field eAVDecVideoSWPowerLevel_Balanced:50
 
 Balanced power-saving profile.
 
-### -field eAVDecVideoSWPowerLevel_VideoQuality
+### -field eAVDecVideoSWPowerLevel_VideoQuality:100
 
 Optimize for video quality.
 

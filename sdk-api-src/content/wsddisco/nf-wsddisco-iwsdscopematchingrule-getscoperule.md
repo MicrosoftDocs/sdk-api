@@ -56,7 +56,7 @@ Is called to return a URI defining the implemented scope matching rule.
 
 ### -param ppszScopeMatchingRule [out]
 
-Pointer to the scope matching rule. The implementor must allocate memory using <a href="/windows/desktop/api/wsdutil/nf-wsdutil-wsdallocatelinkedmemory">WSDAllocateLinkedMemory</a> and the caller must release memory using <a href="/windows/desktop/api/wsdutil/nf-wsdutil-wsdfreelinkedmemory">WSDFreeLinkedMemory</a>.
+Pointer to the scope matching rule. The implementer must allocate memory using <a href="/windows/desktop/api/wsdutil/nf-wsdutil-wsdallocatelinkedmemory">WSDAllocateLinkedMemory</a> and the caller must release memory using <a href="/windows/desktop/api/wsdutil/nf-wsdutil-wsdfreelinkedmemory">WSDFreeLinkedMemory</a>.
 
 ## -returns
 

@@ -56,7 +56,7 @@ The <b>TCP_SOFT_ERROR</b> enumeration defines the reason for non-fatal or soft e
 
 ## -enum-fields
 
-### -field TcpErrorNone
+### -field TcpErrorNone:0
 
 No soft errors have occurred.
 

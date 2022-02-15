@@ -52,11 +52,11 @@ api_name:
 
 Fired when an SBE2 source filter receives a <b>STREAMBUFFER_EC_PRIMARY_AUDIO</b> event, which is fired through the <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent3">IMSVidStreamBufferSourceEvent3</a> interface, and indicates that SBE is processing primarily audio data.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

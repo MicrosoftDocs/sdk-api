@@ -52,7 +52,7 @@ api_name:
 
 Indicates that recording to the command list has finished.
 
-## -parameters
+
 
 ## -returns
 

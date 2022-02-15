@@ -57,15 +57,15 @@ The <b>ImageLockMode</b> enumeration specifies flags that are passed to the
 
 ## -enum-fields
 
-### -field ImageLockModeRead
+### -field ImageLockModeRead:0x0001
 
 Specifies that a portion of the image is locked for reading.
 
-### -field ImageLockModeWrite
+### -field ImageLockModeWrite:0x0002
 
 Specifies that a portion of the image is locked for writing.
 
-### -field ImageLockModeUserInputBuf
+### -field ImageLockModeUserInputBuf:0x0004
 
 Specifies that the buffer used for reading or writing pixel data is allocated by the user. If this flag is set, then the 
 				<i>lockedBitmapData</i> parameter of the 

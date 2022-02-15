@@ -225,7 +225,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-<b>StringCchVPrintfEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchVPrintfEx</b>always null-terminates a nonzero-length destination buffer.
+<b>StringCchVPrintfEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchVPrintfEx</b> always null-terminates a nonzero-length destination buffer.
 
 For more information on va_lists, see the conventions defined in Stdarg.h.
 

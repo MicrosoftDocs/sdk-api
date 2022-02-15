@@ -120,7 +120,7 @@ The <i>pMappedResource</i> parameter may be NULL when a texture is provided that
             This allows a default texture to be mapped, even if it was created using
             <a href="/windows/desktop/api/d3d11_3/ne-d3d11_3-d3d11_texture_layout">D3D11_TEXTURE_LAYOUT_UNDEFINED</a>.
             Following this API call, the texture may be accessed using
-            <a href="/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-writetosubresource">ID3D11DeviceContext3::WriteToSubresource</a>and/or
+            <a href="/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-writetosubresource">ID3D11DeviceContext3::WriteToSubresource</a> and/or
             <a href="/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-readfromsubresource">ID3D11DeviceContext3::ReadFromSubresource</a>.
           
 

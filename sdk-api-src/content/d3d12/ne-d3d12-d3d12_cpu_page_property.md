@@ -54,19 +54,19 @@ Specifies the CPU-page properties for the heap.
 
 ## -enum-fields
 
-### -field D3D12_CPU_PAGE_PROPERTY_UNKNOWN
+### -field D3D12_CPU_PAGE_PROPERTY_UNKNOWN:0
 
 The CPU-page property is unknown.
 
-### -field D3D12_CPU_PAGE_PROPERTY_NOT_AVAILABLE
+### -field D3D12_CPU_PAGE_PROPERTY_NOT_AVAILABLE:1
 
 The CPU cannot access the heap, therefore no page properties are available.
 
-### -field D3D12_CPU_PAGE_PROPERTY_WRITE_COMBINE
+### -field D3D12_CPU_PAGE_PROPERTY_WRITE_COMBINE:2
 
 The CPU-page property is write-combined.
 
-### -field D3D12_CPU_PAGE_PROPERTY_WRITE_BACK
+### -field D3D12_CPU_PAGE_PROPERTY_WRITE_BACK:3
 
 The CPU-page property is write-back.
 

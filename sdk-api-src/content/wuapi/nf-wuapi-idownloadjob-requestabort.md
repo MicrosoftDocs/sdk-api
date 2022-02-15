@@ -52,7 +52,7 @@ api_name:
 
 Makes a request to end an asynchronous download.
 
-## -parameters
+
 
 ## -returns
 

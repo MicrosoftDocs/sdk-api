@@ -56,14 +56,14 @@ Used to control access checks on callbacks when using the <a href="/windows/desk
 
 ## -enum-fields
 
-### -field WBEM_FLAG_UNSECAPP_DEFAULT_CHECK_ACCESS
+### -field WBEM_FLAG_UNSECAPP_DEFAULT_CHECK_ACCESS:0
 
 Unsecapp.exe reads the registry key UnsecAppAccessControlDefault to determine if it should authenticate callbacks.
 
-### -field WBEM_FLAG_UNSECAPP_CHECK_ACCESS
+### -field WBEM_FLAG_UNSECAPP_CHECK_ACCESS:1
 
 Unsecapp.exe authenticates callbacks regardless of the setting of the registry key UnsecAppAccessControlDefault.
 
-### -field WBEM_FLAG_UNSECAPP_DONT_CHECK_ACCESS
+### -field WBEM_FLAG_UNSECAPP_DONT_CHECK_ACCESS:2
 
 Unsecapp.exe does not authenticate callbacks regardless of the setting of the registry key UnsecAppAccessControlDefault.

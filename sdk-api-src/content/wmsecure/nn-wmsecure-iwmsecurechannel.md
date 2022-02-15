@@ -58,7 +58,7 @@ The <b>IWMSecureChannel</b> interface provides methods that allow two DLLs to va
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMSecureChannel</b> interface inherits from <a href="/windows/desktop/api/wmsecure/nn-wmsecure-iwmauthorizer">IWMAuthorizer</a>. <b>IWMSecureChannel</b> also has these types of members:
+The <b>IWMSecureChannel</b> interface inherits from <a href="/windows/desktop/api/wmsecure/nn-wmsecure-iwmauthorizer">IWMAuthorizer</a>. <b>IWMSecureChannel</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

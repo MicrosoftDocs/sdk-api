@@ -13,10 +13,11 @@ f1_keywords:
 
 # Ntddmou.h header
 
-
 ## -description
 
-This header is used by Human Interface Devices Reference. For more information, see:
+This is the include file that defines all constants and types for accessing the mouse device.
+
+For more information, see:
 
 - [Human Interface Devices Reference](../_hid/index.md)
 

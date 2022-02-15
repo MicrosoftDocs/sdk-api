@@ -56,7 +56,7 @@ api_name:
 
 Stops playback.
 
-## -parameters
+
 
 ## -returns
 

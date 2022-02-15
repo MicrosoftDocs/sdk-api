@@ -106,7 +106,7 @@ Contains the number of successfully received MSDU/MMPDUs with the multicast bit 
 
 ### -field ullPromiscuousReceivedFrameCount
 
-Contains the number of MSDU/MMPDUs successfully received only because promicscuous mode is enabled.
+Contains the number of MSDU/MMPDUs successfully received only because promiscuous mode is enabled.
 
 ### -field ullMaxRXLifetimeExceededCount
 

@@ -58,7 +58,7 @@ The following tuning space objects support the <b>IMPEG2TuneRequestSupport</b> i
 
 ## -inheritance
 
-IMPEG2TuneRequestSupport interits from .
+IMPEG2TuneRequestSupport inherits from .
 
 ## -remarks
 

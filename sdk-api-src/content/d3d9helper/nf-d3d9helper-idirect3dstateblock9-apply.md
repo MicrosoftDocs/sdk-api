@@ -53,7 +53,7 @@ api_name:
 
 Apply the state block to the current device state.
 
-## -parameters
+
 
 ## -returns
 

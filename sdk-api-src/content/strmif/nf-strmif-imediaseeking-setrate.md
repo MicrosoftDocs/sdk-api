@@ -142,11 +142,11 @@ When an application calls this method on the Filter Graph Manager, the Filter Gr
 </ol>
 If an error occurs in step 4, the Filter Graph Manager tries to restore the previous rate.
 
-Filters should repond to rate changes as follows:
+Filters should respond to rate changes as follows:
 
-<b>Parser and source filters: </b>The filter that originates the time stamps responds to the <code>SetRate</code> call. This is usually a parser filter, such as the <a href="/windows/desktop/DirectShow/avi-splitter-filter">AVI Splitter Filter</a>, but it might be a source filter. After any seek or rate change, the filter should call the <a href="/windows/desktop/api/strmif/nf-strmif-ipin-newsegment">IPin::NewSegment</a> method with the new settings. After a rate change, it should adjust its time stamps accordingly. Because a rate change is preceded by a seek, time stamps restart from zero, so the filter can simply divide by the rate to calculate the new time stamps.
+<b>Parser and source filters: </b>The filter that originates the timestamps responds to the <code>SetRate</code> call. This is usually a parser filter, such as the <a href="/windows/desktop/DirectShow/avi-splitter-filter">AVI Splitter Filter</a>, but it might be a source filter. After any seek or rate change, the filter should call the <a href="/windows/desktop/api/strmif/nf-strmif-ipin-newsegment">IPin::NewSegment</a> method with the new settings. After a rate change, it should adjust its timestamps accordingly. Because a rate change is preceded by a seek, timestamps restart from zero, so the filter can simply divide by the rate to calculate the new timestamps.
 
-<b>Decoder filters: </b>Decoders should not act on <code>SetRate</code> calls other than to pass them upstream. Instead, they should respond to the <b>NewSegment</b> call that the upstream parser issues. When a decoder filter receives new segment information, it should store the values and pass the <b>NewSegment</b> call downstream. Some decoders need to generate extra time stamps by interpolating their input; they should take rate changes into account when doing so.
+<b>Decoder filters: </b>Decoders should not act on <code>SetRate</code> calls other than to pass them upstream. Instead, they should respond to the <b>NewSegment</b> call that the upstream parser issues. When a decoder filter receives new segment information, it should store the values and pass the <b>NewSegment</b> call downstream. Some decoders need to generate extra timestamps by interpolating their input; they should take rate changes into account when doing so.
 
 <b>Renderers: </b>Video renderers can typically ignore rate changes, because the incoming frames already have the correct time stamp. Audio renderers must modify their playback rate, because audio decoders typically do not make rate-change conversions.
 

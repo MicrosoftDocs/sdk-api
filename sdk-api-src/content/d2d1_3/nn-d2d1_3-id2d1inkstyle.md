@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1_3.ID2D1InkStyle
 title: ID2D1InkStyle (d2d1_3.h)
-description: Represents a collection of style properties to be used by methods like ID2D1DeviceContext2::DrawInkwhen rendering ink. The ink style defines the nib (pen tip) shape and transform.
+description: Represents a collection of style properties to be used by methods like ID2D1DeviceContext2::DrawInk when rendering ink. The ink style defines the nib (pen tip) shape and transform.
 helpviewer_keywords: ["ID2D1InkStyle","ID2D1InkStyle interface [Direct2D]","ID2D1InkStyle interface [Direct2D]","described","d2d1_3/ID2D1InkStyle","direct2d.id2d1inkstyle"]
 old-location: direct2d\id2d1inkstyle.htm
 tech.root: Direct2D
@@ -50,12 +50,9 @@ api_name:
 
 ## -description
 
-Represents a collection of style properties to be used by methods like <a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-drawink">ID2D1DeviceContext2::DrawInk</a>when rendering ink. The ink style defines the nib (pen tip) shape and transform.
+Represents a collection of style properties to be used by methods like <a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-drawink">ID2D1DeviceContext2::DrawInk</a> when rendering ink. The ink style defines the nib (pen tip) shape and transform.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1InkStyle</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1InkStyle</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID2D1InkStyle</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1InkStyle</b> also has these types of members:
 

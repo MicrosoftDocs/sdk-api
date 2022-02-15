@@ -55,7 +55,7 @@ api_name:
 The 
 <b>Delete</b> method deletes this connection from connections folder.
 
-## -parameters
+
 
 ## -returns
 

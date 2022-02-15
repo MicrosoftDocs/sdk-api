@@ -1,7 +1,7 @@
 ---
 UID: NS:networkisolation._INET_FIREWALL_APP_CONTAINER
 title: INET_FIREWALL_APP_CONTAINER (networkisolation.h)
-description: Contains information about an specific app container.
+description: Contains information about a specific app container.
 helpviewer_keywords: ["*PINET_FIREWALL_APP_CONTAINER","INET_FIREWALL_APP_CONTAINER","INET_FIREWALL_APP_CONTAINER structure [ICS/ICF]","PINET_FIREWALL_APP_CONTAINER","PINET_FIREWALL_APP_CONTAINER structure pointer [ICS/ICF]","_INET_FIREWALL_APP_CONTAINER","ics.inet_firewall_app_container","networkisolation/INET_FIREWALL_APP_CONTAINER","networkisolation/PINET_FIREWALL_APP_CONTAINER"]
 old-location: ics\inet_firewall_app_container.htm
 tech.root: ics
@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>INET_FIREWALL_APP_CONTAINER</b> structure contains information about an specific app container.
+The <b>INET_FIREWALL_APP_CONTAINER</b> structure contains information about a specific app container.
 <div class="code"></div>
 
 ## -struct-fields

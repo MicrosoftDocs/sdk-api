@@ -56,11 +56,11 @@ Used to specify the type of graphics virtual channel to create in the <a href="/
 
 ## -enum-fields
 
-### -field WRdsGraphicsChannelType_GuaranteedDelivery
+### -field WRdsGraphicsChannelType_GuaranteedDelivery:0
 
 The channel delivery must be guaranteed.
 
-### -field WRdsGraphicsChannelType_BestEffortDelivery
+### -field WRdsGraphicsChannelType_BestEffortDelivery:1
 
 The channel delivery can be lossy.
 

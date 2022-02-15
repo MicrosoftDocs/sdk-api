@@ -56,15 +56,15 @@ The <b>WMPTransactionType</b> enumeration represents a transaction type.
 
 ## -enum-fields
 
-### -field wmpttNoTransaction
+### -field wmpttNoTransaction:0
 
 No transaction.
 
-### -field wmpttDownload
+### -field wmpttDownload:1
 
 A download transaction.
 
-### -field wmpttBuy
+### -field wmpttBuy:2
 
 A purchase transaction.
 

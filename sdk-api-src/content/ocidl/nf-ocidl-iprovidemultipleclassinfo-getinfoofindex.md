@@ -123,7 +123,7 @@ The bitfield flag.
 
 ### -param pcdispidReserved [out]
 
-The mumber of DISPIDs the default interface of <i>pptiCoClass</i> reserves for its own use. This number can be used to calculate the amount to offset DISPIDs in the reserved range implemented by the object this class is extending.
+The number of DISPIDs the default interface of <i>pptiCoClass</i> reserves for its own use. This number can be used to calculate the amount to offset DISPIDs in the reserved range implemented by the object this class is extending.
 
 ### -param piidPrimary [out]
 

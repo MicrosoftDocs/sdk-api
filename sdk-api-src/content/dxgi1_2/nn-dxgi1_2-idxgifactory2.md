@@ -55,10 +55,7 @@ The <b>IDXGIFactory2</b> interface includes methods to create a newer version sw
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIFactory2</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1">IDXGIFactory1</a>. <b>IDXGIFactory2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDXGIFactory2</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1">IDXGIFactory1</a>. <b>IDXGIFactory2</b> also has these types of members:
 
 ## -remarks
 

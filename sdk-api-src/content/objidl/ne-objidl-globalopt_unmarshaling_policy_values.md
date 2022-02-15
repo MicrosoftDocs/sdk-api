@@ -56,15 +56,15 @@ Provides values for the COM unmarshaling policy global option.
 
 ## -enum-fields
 
-### -field COMGLB_UNMARSHALING_POLICY_NORMAL
+### -field COMGLB_UNMARSHALING_POLICY_NORMAL:0
 
 Unmarshaling behavior is the same as versions older than Windows 8. <b>EOAC_NO_CUSTOM_MARSHAL</b> restrictions apply if this flag is set in <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity">CoInitializeSecurity</a>. Otherwise, there are no restrictions. This is the default for processes that aren't in the app container.
 
-### -field COMGLB_UNMARSHALING_POLICY_STRONG
+### -field COMGLB_UNMARSHALING_POLICY_STRONG:1
 
 Unmarshaling allows only a system-trusted list of hardened unmarshalers and unmarshalers allowed per-process by the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coallowunmarshalerclsid">CoAllowUnmarshalerCLSID</a> function. This is the default for processes in the app container.
 
-### -field COMGLB_UNMARSHALING_POLICY_HYBRID
+### -field COMGLB_UNMARSHALING_POLICY_HYBRID:2
 
 Unmarshaling data whose source is app container allows only a system-trusted list of hardened unmarshalers and unmarshalers allowed per-process by the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coallowunmarshalerclsid">CoAllowUnmarshalerCLSID</a> function. Unmarshaling behavior for data with a source that's not app container is unchanged from previous versions.
 

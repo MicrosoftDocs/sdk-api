@@ -53,7 +53,7 @@ api_name:
 Resets a synchronization provider so that it looks like a new replica
 	in the next synchronization session.
 
-## -parameters
+
 
 ## -returns
 

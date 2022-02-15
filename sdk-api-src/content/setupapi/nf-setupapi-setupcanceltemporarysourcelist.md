@@ -55,7 +55,7 @@ api_name:
 The 
 <b>SetupCancelTemporarySourceList</b> function cancels any temporary list and no-browse behavior and reestablishes standard list behavior.
 
-## -parameters
+
 
 ## -returns
 

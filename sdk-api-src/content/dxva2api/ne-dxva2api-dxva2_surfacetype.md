@@ -56,15 +56,15 @@ Describes a DirectX surface type for DirectX Video Acceleration (DXVA).
 
 ## -enum-fields
 
-### -field DXVA2_SurfaceType_DecoderRenderTarget
+### -field DXVA2_SurfaceType_DecoderRenderTarget:0
 
 The surface is a decoder render target.
 
-### -field DXVA2_SurfaceType_ProcessorRenderTarget
+### -field DXVA2_SurfaceType_ProcessorRenderTarget:1
 
 The surface is a video processor render target.
 
-### -field DXVA2_SurfaceType_D3DRenderTargetTexture
+### -field DXVA2_SurfaceType_D3DRenderTargetTexture:2
 
 The surface is a Direct3D texture render target.
 

@@ -92,11 +92,15 @@ After
 
 WinINet attempts to decode Unicode  parameters according to the system code page. Applications should ensure that  Unicode parameters are properly encoded for the system code page. Applications can set the system code page with <a href="/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a> as shown in the following code example:
 
-<pre class="syntax" xml:space="preserve"><code>DWORD CP_SHIFT_JIS = 932;  // ANSI/OEM  Japanese, Shift-JIS
+
+``` syntax
+DWORD CP_SHIFT_JIS = 932;  // ANSI/OEM  Japanese, Shift-JIS
 InternetSetOption( hRequest, 
                    INTERNET_OPTION_CODEPAGE,
                    &amp;CP_SHIFT_JIS, 
-                   sizeof(DWORD) );</code></pre>
+                   sizeof(DWORD) );
+```
+
 If the Unicode parameter is not properly encoded to the system code page, WinINet attempts UTF8 decoding. 
 
 When items are retrieved from the cache, the system code page that was used to place the item in the cache must match the current system code page for the user. For applications running under IE6 and earlier, if decoding for the system code page fails, WinINet attempts UTF8 decoding. 

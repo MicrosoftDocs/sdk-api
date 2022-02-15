@@ -54,8 +54,5 @@ Represents a remote WSD service for client applications and middleware.  This in
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDServiceProxyEventing</b> interface inherits from <b>IWSDServiceProxy</b>. <b>IWSDServiceProxyEventing</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWSDServiceProxyEventing</b> interface inherits from <b>IWSDServiceProxy</b>. <b>IWSDServiceProxyEventing</b> also has these types of members:
 

@@ -9,8 +9,8 @@ ms.keywords: DML_CONVOLUTION_INTEGER_OPERATOR_DESC, DML_CONVOLUTION_INTEGER_OPER
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -118,10 +118,22 @@ The number of groups which to divide the convolution operation up into. *GroupCo
 This operator was introduced in `DML_FEATURE_LEVEL_2_1`.
 
 ## Tensor constraints
-* *FilterTensor* and *FilterZeroPointTensor* must have the same *DataType*.
+* *FilterZeroPointTensor* and *InputZeroPointTensor* must have the same *DimensionCount*.
+* *FilterTensor*, *InputTensor*, and *OutputTensor* must have the same *DimensionCount*.
 * *InputTensor* and *InputZeroPointTensor* must have the same *DataType*.
+* *FilterTensor* and *FilterZeroPointTensor* must have the same *DataType*.
 
-## Tensor support
+# Tensor support
+### DML_FEATURE_LEVEL_4_0 and above
+| Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
+| ------ | ---- | ---------- | -------------------------- | -------------------- |
+| InputTensor | Input | { BatchCount, InputChannelCount, [InputHeight], InputWidth } | 3 to 4 | INT8, UINT8 |
+| InputZeroPointTensor | Optional input | { [1], [1], [1], 1 } | 1 to 4 | INT8, UINT8 |
+| FilterTensor | Input | { FilterBatchCount, FilterChannelCount, [FilterHeight], FilterWidth } | 3 to 4 | INT8, UINT8 |
+| FilterZeroPointTensor | Optional input | { [1], FilterZeroPointChannelCount, [1], [1] } | 1 to 4 | INT8, UINT8 |
+| OutputTensor | Output | { BatchCount, OutputChannelCount, [OutputHeight], OutputWidth } | 3 to 4 | INT32 |
+
+### DML_FEATURE_LEVEL_2_1 and above
 | Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
 | ------ | ---- | ---------- | -------------------------- | -------------------- |
 | InputTensor | Input | { BatchCount, InputChannelCount, InputHeight, InputWidth } | 4 | INT8, UINT8 |

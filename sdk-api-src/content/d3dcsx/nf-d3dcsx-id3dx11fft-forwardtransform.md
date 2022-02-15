@@ -77,7 +77,7 @@ Returns one of the return codes described in the topic <a href="/windows/desktop
 
 ## -remarks
 
-<b>ForwardTransform</b> can be called after buffers have been attached to the context using <a href="/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11fft-attachbuffersandprecompute">ID3DX11FFT::AttachBuffersAndPrecompute</a>. The combination of <i>pInputBuffer</i> and *<i>ppOuputBuffer</i> can be one of the temp buffers.
+<b>ForwardTransform</b> can be called after buffers have been attached to the context using <a href="/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11fft-attachbuffersandprecompute">ID3DX11FFT::AttachBuffersAndPrecompute</a>. The combination of <i>pInputBuffer</i> and *<i>ppOutputBuffer</i> can be one of the temp buffers.
 
 The format of complex data is interleaved components (for example, (Real0, Imag0), 
       (Real1, Imag1) ... , and so on). Data is stored in row major order.

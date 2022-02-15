@@ -54,27 +54,27 @@ Specifies the intended lighting conditions for viewing a video source. This enum
 
 ## -enum-fields
 
-### -field eAVEncVideoColorLighting_SameAsSource
+### -field eAVEncVideoColorLighting_SameAsSource:0
 
 Use the same lighting as the input video. This flag applies to the <b>AVEncVideoOutputColorLighting</b> property only.
 
-### -field eAVEncVideoColorLighting_Unknown
+### -field eAVEncVideoColorLighting_Unknown:1
 
 The optimal lighting is unknown.
 
-### -field eAVEncVideoColorLighting_Bright
+### -field eAVEncVideoColorLighting_Bright:2
 
 Bright lighting; for example, outdoors.
 
-### -field eAVEncVideoColorLighting_Office
+### -field eAVEncVideoColorLighting_Office:3
 
 Medium brightness; for example, normal office lighting.
 
-### -field eAVEncVideoColorLighting_Dim
+### -field eAVEncVideoColorLighting_Dim:4
 
 Dim; for example, a living room with a television and additional low lighting.
 
-### -field eAVEncVideoColorLighting_Dark
+### -field eAVEncVideoColorLighting_Dark:5
 
 Dark; for example, a movie theater.
 

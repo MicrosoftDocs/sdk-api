@@ -57,11 +57,11 @@ Not supported.
 
 ## -enum-fields
 
-### -field MFT_DRAIN_PRODUCE_TAILS
+### -field MFT_DRAIN_PRODUCE_TAILS:0
 
 Reserved.
 
-### -field MFT_DRAIN_NO_TAILS
+### -field MFT_DRAIN_NO_TAILS:0x1
 
 Reserved.
 

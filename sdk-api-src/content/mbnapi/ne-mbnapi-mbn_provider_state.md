@@ -57,31 +57,31 @@ The <b>MBN_PROVIDER_STATE</b> enumerated type specifies the various states with 
 
 ## -enum-fields
 
-### -field MBN_PROVIDER_STATE_NONE
+### -field MBN_PROVIDER_STATE_NONE:0
 
 Unknown provider state.
 
-### -field MBN_PROVIDER_STATE_HOME
+### -field MBN_PROVIDER_STATE_HOME:0x1
 
 The provider is a home operator.
 
-### -field MBN_PROVIDER_STATE_FORBIDDEN
+### -field MBN_PROVIDER_STATE_FORBIDDEN:0x2
 
 The provider is on the forbidden list.
 
-### -field MBN_PROVIDER_STATE_PREFERRED
+### -field MBN_PROVIDER_STATE_PREFERRED:0x4
 
 The provider is on the preferred list.
 
-### -field MBN_PROVIDER_STATE_VISIBLE
+### -field MBN_PROVIDER_STATE_VISIBLE:0x8
 
 The provider is visible.
 
-### -field MBN_PROVIDER_STATE_REGISTERED
+### -field MBN_PROVIDER_STATE_REGISTERED:0x10
 
 Windows 8 or later: The provider is currently registered by the device.
 
-### -field MBN_PROVIDER_STATE_PREFERRED_MULTICARRIER
+### -field MBN_PROVIDER_STATE_PREFERRED_MULTICARRIER:0x20
 
 Windows 8 or later: The provider is currently on the preferred multi-carrier list.
 

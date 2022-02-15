@@ -54,23 +54,23 @@ The <b>AM_PROPERTY_DVD_RATE_CHANGE</b> enumeration is not used.
 
 ## -enum-fields
 
-### -field AM_RATE_ChangeRate
+### -field AM_RATE_ChangeRate:1
 
 Reserved.
 
-### -field AM_RATE_FullDataRateMax
+### -field AM_RATE_FullDataRateMax:2
 
 Reserved.
 
-### -field AM_RATE_ReverseDecode
+### -field AM_RATE_ReverseDecode:3
 
 Reserved.
 
-### -field AM_RATE_DecoderPosition
+### -field AM_RATE_DecoderPosition:4
 
 Reserved.
 
-### -field AM_RATE_DecoderVersion
+### -field AM_RATE_DecoderVersion:5     
 
 Reserved.
 

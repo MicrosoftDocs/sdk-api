@@ -52,7 +52,7 @@ api_name:
 
 The <b>stop</b> method ends synchronization.
 
-## -parameters
+
 
 ## -returns
 

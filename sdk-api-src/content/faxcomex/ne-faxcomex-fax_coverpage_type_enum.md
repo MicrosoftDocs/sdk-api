@@ -54,7 +54,7 @@ The <b>FAX_COVERPAGE_TYPE_ENUM</b> enumeration defines whether a cover page temp
 
 ## -enum-fields
 
-### -field fcptNONE
+### -field fcptNONE:0
 
 No cover page.
 

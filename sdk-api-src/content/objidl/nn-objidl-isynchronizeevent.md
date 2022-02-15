@@ -56,10 +56,7 @@ The synchronization object can use a handle to manage its activities. For exampl
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISynchronizeEvent</b> interface inherits from <b>ISynchronizeHandle</b>. <b>ISynchronizeEvent</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ISynchronizeEvent</b> interface inherits from <b>ISynchronizeHandle</b>. <b>ISynchronizeEvent</b> also has these types of members:
 
 ## -see-also
 

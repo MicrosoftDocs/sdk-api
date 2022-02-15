@@ -117,9 +117,13 @@ Set parameter <i>riid</i> to one of the following GUID values:
 </ul>
 To obtain the interface ID of the function-specific control interface for a part, call the part's <a href="/windows/desktop/api/devicetopology/nf-devicetopology-icontrolinterface-getiid">IControlInterface::GetIID</a> method. To obtain the interface ID of a function-specific control interface type, use the <b>__uuidof</b> operator. For example, the interface ID of <a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudioautogaincontrol">IAudioAutoGainControl</a> is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 const IID IID_IAudioAutoGainControl  __uuidof(IAudioAutoGainControl)
-</code></pre>
+
+```
+
 For more information about the <b>__uuidof</b> operator, see the Windows SDK documentation.
 
 Before the client releases its final reference to the <a href="/windows/desktop/api/devicetopology/nn-devicetopology-icontrolchangenotify">IControlChangeNotify</a> interface, it should call the <a href="/windows/desktop/api/devicetopology/nf-devicetopology-ipart-unregistercontrolchangecallback">IPart::UnregisterControlChangeCallback</a> method to unregister the interface. Otherwise, the application leaks the resources held by the <b>IControlChangeNotify</b> and <a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart</a> objects. Note that <b>RegisterControlChangeCallback</b> calls the client's <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IControlChangeNotify::AddRef</a> method, and <b>UnregisterControlChangeCallback</b> calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IControlChangeNotify::Release</a> method. If the client errs by releasing its reference to the <b>IControlChangeNotify</b> interface before calling <b>UnregisterControlChangeCallback</b>, the <b>IPart</b> object never releases its reference to the <b>IControlChangeNotify</b> interface. For example, a poorly designed <b>IControlChangeNotify</b> implementation might call <b>UnregisterControlChangeCallback</b> from the destructor for the <b>IControlChangeNotify</b> object. In this case, the client will not call <b>UnregisterControlChangeCallback</b> until the <b>IPart</b> object releases its reference to the <b>IControlChangeNotify</b> interface, and the <b>IPart</b> object will not release its reference to the <b>IControlChangeNotify</b> interface until the client calls <b>UnregisterControlChangeCallback</b>. For more information about the <b>AddRef</b> and <b>Release</b> methods, see the discussion of the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface in the Windows SDK documentation.

@@ -59,7 +59,7 @@ The <b>GetEnableUDP</b> method queries whether <a href="/windows/desktop/wmforma
 
 ### -param pfEnableUDP [out]
 
-Pointer to a variable that receives a Boolean value. If the value is <b>TRUE</b>, the reader object includes UDP when it performs protocol rollover. If the value is FASLE, the reader does not use UDP for protocol rollover. However, the reader will still use UDP if the URL explicitly specifies a UDP-based protocol, such as MMSU or RTSPU.
+Pointer to a variable that receives a Boolean value. If the value is <b>TRUE</b>, the reader object includes UDP when it performs protocol rollover. If the value is <b>FALSE</b>, the reader does not use UDP for protocol rollover. However, the reader will still use UDP if the URL explicitly specifies a UDP-based protocol, such as MMSU or RTSPU.
 
 ## -returns
 

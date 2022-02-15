@@ -58,34 +58,34 @@ Defines the set of valid types for a storage identifier.
 
 ## -enum-fields
 
-### -field VDSStorageIdTypeVendorSpecific
+### -field VDSStorageIdTypeVendorSpecific:0
 
 The storage identifier type is vendor specific.
 
-### -field VDSStorageIdTypeVendorId
+### -field VDSStorageIdTypeVendorId:1
 
 The storage identifier is the same as the vendor identifier.
 
-### -field VDSStorageIdTypeEUI64
+### -field VDSStorageIdTypeEUI64:2
 
 The storage identifier type follows the IEEE 64-bit Extended Unique Identifier (EUI-64) standard.
 
-### -field VDSStorageIdTypeFCPHName
+### -field VDSStorageIdTypeFCPHName:3
 
 The storage identifier type follows the Fibre Channel Physical and Signaling Interface (FC-PH) naming 
       convention.
 
-### -field VDSStorageIdTypePortRelative
+### -field VDSStorageIdTypePortRelative:4
 
 <b>VDS 1.1:  </b>The storage identifier type is dependent on the port.
 
-### -field VDSStorageIdTypeTargetPortGroup
+### -field VDSStorageIdTypeTargetPortGroup:5
 
-### -field VDSStorageIdTypeLogicalUnitGroup
+### -field VDSStorageIdTypeLogicalUnitGroup:6
 
-### -field VDSStorageIdTypeMD5LogicalUnitIdentifier
+### -field VDSStorageIdTypeMD5LogicalUnitIdentifier:7
 
-### -field VDSStorageIdTypeScsiNameString
+### -field VDSStorageIdTypeScsiNameString:8
 
 ### -field VDSStorageIdTypeSCSINameString
 

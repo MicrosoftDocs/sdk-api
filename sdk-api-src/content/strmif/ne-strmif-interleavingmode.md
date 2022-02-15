@@ -54,7 +54,7 @@ Specifies how video frames and audio samples will be written to disk.
 
 ## -enum-fields
 
-### -field INTERLEAVE_NONE
+### -field INTERLEAVE_NONE:0
 
 Noninterleaved. Frames are written in the order they arrive. Files must be interleaved for playback at a later time. In this mode, the AVI Mux filter attempts to use unbuffered, overlapped write operations, to increase throughput.
 

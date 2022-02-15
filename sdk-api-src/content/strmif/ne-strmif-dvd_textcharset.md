@@ -54,23 +54,23 @@ Defines which character set a specified string is encoded with.
 
 ## -enum-fields
 
-### -field DVD_CharSet_Unicode
+### -field DVD_CharSet_Unicode:0
 
 Unicode character set.
 
-### -field DVD_CharSet_ISO646
+### -field DVD_CharSet_ISO646:1
 
 ISO 646 character set.
 
-### -field DVD_CharSet_JIS_Roman_Kanji
+### -field DVD_CharSet_JIS_Roman_Kanji:2
 
 Japanese Industrial Standards (JIS) Roman Kanji character set.
 
-### -field DVD_CharSet_ISO8859_1
+### -field DVD_CharSet_ISO8859_1:3
 
 ISO 8859-1 character set.
 
-### -field DVD_CharSet_ShiftJIS_Kanji_Roman_Katakana
+### -field DVD_CharSet_ShiftJIS_Kanji_Roman_Katakana:4
 
 JIS Kanji-Roman-Katakana character set.
 

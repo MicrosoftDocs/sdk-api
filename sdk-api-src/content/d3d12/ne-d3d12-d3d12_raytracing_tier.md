@@ -54,11 +54,11 @@ Specifies the level of ray tracing support on the graphics device.
 
 ## -enum-fields
 
-### -field D3D12_RAYTRACING_TIER_NOT_SUPPORTED
+### -field D3D12_RAYTRACING_TIER_NOT_SUPPORTED:0
 
 No support for ray tracing on the device.  Attempts to create any ray tracing-related object will fail, and using ray tracing-related APIs on command lists results in undefined behavior.
 
-### -field D3D12_RAYTRACING_TIER_1_0
+### -field D3D12_RAYTRACING_TIER_1_0:10
 
 The device supports tier 1 ray tracing functionality. In the current release, this tier represents all available ray tracing features.
 

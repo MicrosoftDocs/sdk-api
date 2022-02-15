@@ -60,7 +60,7 @@ Receives the number of categories.
 
 ## -returns
 
-The method returns an HRES<b></b>ULT. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
 <table>
 <tr>

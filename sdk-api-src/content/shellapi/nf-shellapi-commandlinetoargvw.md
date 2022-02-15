@@ -88,7 +88,7 @@ The address returned by <b>CommandLineToArgvW</b> is the address of the first el
 
 For more information about the <i>argv</i> and <i>argc</i> argument convention, see <a href="/previous-versions/88w63h9k(v=vs.85)">Argument Definitions</a> and <a href="/previous-versions/17w5ykft(v=vs.85)">Parsing C++ Command-Line Arguments</a>.
 
-The <a href="/windows/desktop/api/processenv/nf-processenv-getcommandlinea">GetCommandLineW</a> function can be used to get a command line string that is suitable for use as the <i>lpCmdLine</i> parameter.
+The <a href="/windows/desktop/api/processenv/nf-processenv-getcommandlinew">GetCommandLineW</a> function can be used to get a command line string that is suitable for use as the <i>lpCmdLine</i> parameter.
 
 This function accepts command lines that contain a program name; the program name can be enclosed in quotation marks or not.
 

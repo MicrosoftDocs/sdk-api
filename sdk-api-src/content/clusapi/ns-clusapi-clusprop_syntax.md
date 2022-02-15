@@ -111,7 +111,7 @@ Data is a signed large integer.
 
 ##### wFormat.CLUSPROP_FORMAT_LONG (7)
 
-Data is an signed <b>LONG</b> value.
+Data is a signed <b>LONG</b> value.
 
 
 

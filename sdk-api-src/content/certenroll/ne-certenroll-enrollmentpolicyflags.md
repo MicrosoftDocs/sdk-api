@@ -54,11 +54,11 @@ The <b>EnrollmentPolicyFlags</b> enumeration specifies group policy flags. This 
 
 ## -enum-fields
 
-### -field DisableGroupPolicyList
+### -field DisableGroupPolicyList:0x2
 
 Ignore policy servers configured in group policy.
 
-### -field DisableUserServerList
+### -field DisableUserServerList:0x4
 
 Ignore user configured policy servers.
 

@@ -127,6 +127,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 
 <b>Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This flag is not supported.
 
+If Dynamic Fair Share Scheduling (DFSS) is enabled, the CPU rate cannot be set and SetInformationJobObject will fail with error code 50 ("The request is not supported").
 </td>
 </tr>
 <tr>

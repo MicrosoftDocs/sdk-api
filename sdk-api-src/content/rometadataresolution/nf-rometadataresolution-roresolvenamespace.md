@@ -264,7 +264,7 @@ HRESULT PrintDirectChildrenSubNamespacesAndTypesPaths(PCWSTR pszName)
     }
     else
     {
-        wprintf(L"Error %x occured while trying to resolve %s!\n", hr, pszName);
+        wprintf(L"Error %x occurred while trying to resolve %s!\n", hr, pszName);
     }
 
     // Clean up resources.

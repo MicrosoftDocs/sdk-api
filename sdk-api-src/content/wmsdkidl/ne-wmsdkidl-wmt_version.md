@@ -54,19 +54,19 @@ The <b>WMT_VERSION</b> enumeration type defines the versions of the Windows Medi
 
 ## -enum-fields
 
-### -field WMT_VER_4_0
+### -field WMT_VER_4_0:0x40000
 
 Compatible with version 4 of the Windows Media Format SDK.
 
-### -field WMT_VER_7_0
+### -field WMT_VER_7_0:0x70000
 
 Compatible with the Windows Media Format 7 SDK.
 
-### -field WMT_VER_8_0
+### -field WMT_VER_8_0:0x80000
 
 Compatible with the Windows Media Format 8.2 SDK.
 
-### -field WMT_VER_9_0
+### -field WMT_VER_9_0:0x90000
 
 Compatible with the Windows Media Format 9 Series SDK, and with the Windows Media Format 9.5 SDK.
 

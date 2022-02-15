@@ -56,23 +56,23 @@ Defines protection levels for <b>MFPROTECTION_ACP</b>.
 
 ## -enum-fields
 
-### -field MF_OPM_ACP_OFF
+### -field MF_OPM_ACP_OFF:0
 
 Specifies ACP is disabled.
 
-### -field MF_OPM_ACP_LEVEL_ONE
+### -field MF_OPM_ACP_LEVEL_ONE:1
 
 Specifies ACP is level one.
 
-### -field MF_OPM_ACP_LEVEL_TWO
+### -field MF_OPM_ACP_LEVEL_TWO:2
 
 Specifies ACP is level two.
 
-### -field MF_OPM_ACP_LEVEL_THREE
+### -field MF_OPM_ACP_LEVEL_THREE:3
 
 Specifies ACP is level three.
 
-### -field MF_OPM_ACP_FORCE_ULONG
+### -field MF_OPM_ACP_FORCE_ULONG:0x7fffffff
 
 Reserved.
 

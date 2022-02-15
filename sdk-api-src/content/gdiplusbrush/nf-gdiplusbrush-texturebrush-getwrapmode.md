@@ -53,7 +53,7 @@ api_name:
 
 The <b>TextureBrush::GetWrapMode</b> method gets the wrap mode currently set for this texture brush.
 
-## -parameters
+
 
 ## -returns
 

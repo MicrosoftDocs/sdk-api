@@ -86,7 +86,7 @@ If this flag is set, <i>pszFilter</i> must specify a device instance identifier.
 
 #### CM_GETIDLIST_FILTER_CLASS (Windows 7 and later versions of Windows)
 
-If this flag is set, <i>pszFilter</i> contains a string that specifies a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> GUID. The returned list contains device instances for which the property (referenced by the CM_DRP_CLASSGUID constant) matches the specified device setup class GUID. 
+If this flag is set, <i>pszFilter</i> contains a string that specifies a <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> GUID. The returned list contains device instances for which the property (referenced by the CM_DRP_CLASSGUID constant) matches the specified device setup class GUID. 
 
 The CM_DRP_CLASSGUID constant is defined in <i>Cfgmgr32.h</i>.
 
@@ -169,7 +169,7 @@ If this flag is set, <i>pszFilter</i> must specify a device instance identifier.
 
 ##### - ulFlags.CM_GETIDLIST_FILTER_CLASS (Windows 7 and later versions of Windows)
 
-If this flag is set, <i>pszFilter</i> contains a string that specifies a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> GUID. The returned list contains device instances for which the property (referenced by the CM_DRP_CLASSGUID constant) matches the specified device setup class GUID. 
+If this flag is set, <i>pszFilter</i> contains a string that specifies a <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> GUID. The returned list contains device instances for which the property (referenced by the CM_DRP_CLASSGUID constant) matches the specified device setup class GUID. 
 
 The CM_DRP_CLASSGUID constant is defined in <i>Cfgmgr32.h</i>.
 
@@ -229,7 +229,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 ## -remarks
 
-Starting with Windows 7, a device that supports multiple transport paths for packet-based data is referred to as a <i>composite </i>device and is represented by a <i>composite </i><a href="/windows-hardware/drivers/">devnode</a>. A composite devnode logically represents the composite device to the user and applications as a single device, even though the composite devnode can have multiple paths to the physical device. 
+Starting with Windows 7, a device that supports multiple transport paths for packet-based data is referred to as a <i>composite </i> device and is represented by a <i>composite </i><a href="/windows-hardware/drivers/">devnode</a>. A composite devnode logically represents the composite device to the user and applications as a single device, even though the composite devnode can have multiple paths to the physical device. 
 
 Each active transport path to the physical device is represented by a transport devnode and is referred to as a <i>transport relation</i> for the composite device.
 

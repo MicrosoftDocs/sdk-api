@@ -100,7 +100,7 @@ A <a href="/windows/desktop/SecBioMet/winbio-biometric-subtype-constants">WINBIO
 
 ## -returns
 
-<b>WINBIO_E_INVALID_KEY_IDENTIFIER</b> must be returned in the case where the key cannot be used for whatever reason. When <b>WINBIO_E_INVALID_KEY_IDENTIFIER </b>is returned, the sensor and TPM will be re-provisioned.
+<b>WINBIO_E_INVALID_KEY_IDENTIFIER</b> must be returned in the case where the key cannot be used for whatever reason. When <b>WINBIO_E_INVALID_KEY_IDENTIFIER </b> is returned, the sensor and TPM will be re-provisioned.
 
 ## -remarks
 

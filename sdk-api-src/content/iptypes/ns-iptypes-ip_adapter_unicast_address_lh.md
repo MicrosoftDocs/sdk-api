@@ -168,7 +168,7 @@ A value of 255 is commonly used to represent an illegal value.
 
 ## -remarks
 
-The <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structure is retrieved by the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function. The <b>FirstUnicastAddress</b> member of the <b>IP_ADAPTER_ADDRESSES</b>structure is a pointer to a linked list of <b>IP_ADAPTER_UNICAST_ADDRESS</b> structures. 
+The <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structure is retrieved by the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function. The <b>FirstUnicastAddress</b> member of the <b>IP_ADAPTER_ADDRESSES</b> structure is a pointer to a linked list of <b>IP_ADAPTER_UNICAST_ADDRESS</b> structures. 
 
 The size of the <b>IP_ADAPTER_UNICAST_ADDRESS</b> structure changed on Windows Vista and later. The <b>Length</b> member should be used to determine which version of the <b>IP_ADAPTER_UNICAST_ADDRESS</b> structure is being used. 
 

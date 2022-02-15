@@ -54,7 +54,7 @@ Indicates one of several stock directivity patterns.
 
 ## -enum-fields
 
-### -field OmniDirectional
+### -field OmniDirectional:0
 
 The sound emission is in all directions.
 

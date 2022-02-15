@@ -275,7 +275,34 @@ Another exception code is likely to occur when debugging console processes. It d
 
 ### -field ExceptionFlags
 
-The exception flags. This member can be either zero, indicating a continuable exception, or <b>EXCEPTION_NONCONTINUABLE</b> indicating a noncontinuable exception. Any attempt to continue execution after a noncontinuable exception causes the <b>EXCEPTION_NONCONTINUABLE_EXCEPTION</b> exception.
+This member contains zero or more exception flags. The following table describes some of the commonly seen exception flags. Exception flags not present in the following table should be treated as reserved for system use.
+
+<table>
+<tr>
+<th>Exception flag</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="EXCEPTION_NONCONTINUABLE"></a><a id="exception_noncontinuable"></a><dl>
+<dt><b>EXCEPTION_NONCONTINUABLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The presence of this flag indicates that the exception is a noncontinuable exception, whereas the absence of this flag indicates that the exception is a continuable exception.
+Any attempt to continue execution after a noncontinuable exception causes the <b>EXCEPTION_NONCONTINUABLE_EXCEPTION</b> exception.
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="EXCEPTION_SOFTWARE_ORIGINATE"></a><a id="exception_software_originate"></a><dl>
+<dt><b>EXCEPTION_SOFTWARE_ORIGINATE</b></dt>
+</dl>
+</td>
+<td width="60%">
+This flag is reserved for system use.
+
+</td>
+</tr>
+</table>
 
 ### -field ExceptionRecord
 

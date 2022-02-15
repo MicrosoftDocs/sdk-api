@@ -53,7 +53,7 @@ api_name:
 
 The <b>BeginWrite</b> method indicates that a "write to device" action is beginning. Windows Media Device Manager only calls this method if the application calls <b>IWMDMStorageControl/2/3::Insert/2/3</b> and passes in this interface.
 
-## -parameters
+
 
 ## -returns
 

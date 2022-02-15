@@ -57,7 +57,7 @@ api_name:
 
 Closes the COM library on the current thread, unloads all DLLs loaded by the thread, frees any other resources that the thread maintains, and forces all RPC connections on the thread to close.
 
-## -parameters
+
 
 ## -remarks
 

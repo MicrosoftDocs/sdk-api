@@ -49,7 +49,7 @@ api_name:
 
 Retrieves a description of the protected resource session.
 
-## -parameters
+
 
 ## -returns
 

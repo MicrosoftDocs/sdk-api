@@ -56,7 +56,7 @@ Defines the identifiers that identify the configuration properties of a channel.
 
 ## -enum-fields
 
-### -field EvtChannelConfigEnabled
+### -field EvtChannelConfigEnabled:0
 
 Identifies the <b>enabled</b> attribute of the channel.  The variant type for this property is <b>EvtVarTypeBoolean</b>.
 

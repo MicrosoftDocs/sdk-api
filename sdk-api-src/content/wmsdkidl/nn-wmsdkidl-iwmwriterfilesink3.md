@@ -54,7 +54,7 @@ The <b>IWMWriterFileSink3</b> interface provides additional functionality to the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterFileSink3</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink2">IWMWriterFileSink2</a>. <b>IWMWriterFileSink3</b> also has these types of members:
+The <b>IWMWriterFileSink3</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink2">IWMWriterFileSink2</a>. <b>IWMWriterFileSink3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

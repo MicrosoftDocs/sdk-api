@@ -57,7 +57,7 @@ The following list identifies the policy data managed by this interface and whic
 <li>The CEP client authentication method.</li>
 <li>The CES client authentication method.</li>
 <li>The CEP URL.</li>
-<li>The CES URL</li>
+<li>The CES URL.</li>
 <li>The CEP ID.</li>
 <li>The request ID string.</li>
 </ul>In addition to the preceding policy information, a CEP web service also queries Active Directory for collections of available certification authorities, certificate templates, and custom object identifiers. These collections can be retrieved by using the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a> interface.
@@ -65,10 +65,7 @@ The following list identifies the policy data managed by this interface and whic
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertyEnrollmentPolicyServer</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>. <b>ICertPropertyEnrollmentPolicyServer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ICertPropertyEnrollmentPolicyServer</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>. <b>ICertPropertyEnrollmentPolicyServer</b> also has these types of members:
 
 ## -see-also
 

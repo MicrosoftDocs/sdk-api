@@ -54,7 +54,7 @@ Identifiers for properties of the <a href="/windows/desktop/Direct2D/high-qualit
 
 ## -enum-fields
 
-### -field D2D1_SCALE_PROP_SCALE
+### -field D2D1_SCALE_PROP_SCALE:0
 
 The scale amount in the X and Y direction as a ratio of the output size to the input size.
             
@@ -66,7 +66,7 @@ The type is <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1
 
 The default value is {1.0f, 1.0f}.
 
-### -field D2D1_SCALE_PROP_CENTER_POINT
+### -field D2D1_SCALE_PROP_CENTER_POINT:1
 
 The image scaling center point. This property is a <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a> defined as: (point X, point Y). The units are in DIPs.
             
@@ -77,7 +77,7 @@ The type is <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1
 
 The default value is {0.0f, 0.0f}.
 
-### -field D2D1_SCALE_PROP_INTERPOLATION_MODE
+### -field D2D1_SCALE_PROP_INTERPOLATION_MODE:2
 
 The interpolation mode the effect uses to scale the image. There are 6 scale modes that range in quality and speed.
             
@@ -86,7 +86,7 @@ The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_scale_
 
 The default value is D2D1_SCALE_INTERPOLATION_MODE_LINEAR.
 
-### -field D2D1_SCALE_PROP_BORDER_MODE
+### -field D2D1_SCALE_PROP_BORDER_MODE:3
 
 The mode used to calculate the border of the image, soft or hard. 
             
@@ -95,7 +95,7 @@ The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border
 
 The default value is D2D1_BORDER_MODE_SOFT.
 
-### -field D2D1_SCALE_PROP_SHARPNESS
+### -field D2D1_SCALE_PROP_SHARPNESS:4
 
 In the high quality cubic interpolation mode, the sharpness level of the scaling filter as a float between 0 and 1. The values are unitless. 
             You can use sharpness to adjust the quality of an image when you scale the image down.
@@ -109,4 +109,4 @@ The type is FLOAT.
 
 The default value is 0.0f.
 
-### -field D2D1_SCALE_PROP_FORCE_DWORD
+### -field D2D1_SCALE_PROP_FORCE_DWORD:0xffffffff

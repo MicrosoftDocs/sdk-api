@@ -54,15 +54,15 @@ Specifies conversion matrix from Y'Cb'Cr' to R'G'B'.
 
 ## -enum-fields
 
-### -field WICJpegTransferMatrixIdentity
+### -field WICJpegTransferMatrixIdentity:0
 
 Specifies the identity transfer matrix.
 
-### -field WICJpegTransferMatrixBT601
+### -field WICJpegTransferMatrixBT601:0x1
 
 Specifies the BT601 transfer matrix.
 
-### -field WICJpegTransferMatrix_FORCE_DWORD
+### -field WICJpegTransferMatrix_FORCE_DWORD:0x7fffffff
 
 Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits. This value is not used.
 

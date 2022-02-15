@@ -177,7 +177,7 @@ Be aware that some other thread or process could create or delete a file with th
 
 If you are writing a 32-bit application to list all the files in a directory and the application may be  run 
     on a 64-bit computer, you should call the 
-    <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a>function 
+    <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> function 
     before calling <b>FindFirstFile</b> and call 
     <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection">Wow64RevertWow64FsRedirection</a> after the 
     last call to <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a>. For more information, see 

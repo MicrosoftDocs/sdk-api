@@ -54,7 +54,7 @@ The <b>FAX_JOB_EXTENDED_STATUS_ENUM</b> enumeration defines the extended status 
 
 ## -enum-fields
 
-### -field fjesNONE
+### -field fjesNONE:0
 
 No extended status value.
 
@@ -134,7 +134,7 @@ The call was completed.
 
 The call was aborted.
 
-### -field fjesPROPRIETARY
+### -field fjesPROPRIETARY:0x1000000
 
 Obsolete. For information about proprietary extended status codes, see <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob-extendedstatuscode-vb">IFaxOutgoingJob::get_ExtendedStatusCode</a>.
 

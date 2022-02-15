@@ -54,7 +54,7 @@ api_name:
 The <b>Brush::GetLastStatus</b> method returns a value that indicates the nature of this 
 			<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object's most recent method failure.
 
-## -parameters
+
 
 ## -returns
 

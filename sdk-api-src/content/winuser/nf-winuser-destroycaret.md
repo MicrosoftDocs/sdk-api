@@ -56,7 +56,7 @@ req.apiset: ext-ms-win-ntuser-caret-l1-1-0 (introduced in Windows 8)
 
 Destroys the caret's current shape, frees the caret from the window, and removes the caret from the screen.
 
-## -parameters
+
 
 ## -returns
 

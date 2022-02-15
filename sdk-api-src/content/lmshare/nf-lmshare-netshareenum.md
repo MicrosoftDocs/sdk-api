@@ -176,6 +176,9 @@ This function applies only to Server Message Block (SMB) shares. For other types
 For interactive users (users who are logged on locally to the machine), no special group membership is required to execute the <b>NetShareEnum</b> function. For non-interactive users, Administrator, Power User, Print Operator, or Server Operator group membership is required to successfully execute the 
 <b>NetShareEnum</b> function at levels 2, 502, and 503. No special group membership is required for level 0 or level 1 calls.
 
+<b>Windows Server 2022:  </b> For non-interactive users, Administrator, Access Control Assistance Operators, or Server Operator group membership is required to successfully execute the 
+<b>NetShareEnum</b> function at levels 2, 502, and 503.
+
 <b>Windows Server 2003 and Windows XP:  </b>For all users, Administrator, Power User, Print Operator, or Server Operator group membership is required to successfully execute the 
 <b>NetShareEnum</b> function at levels 2 and 502.
 

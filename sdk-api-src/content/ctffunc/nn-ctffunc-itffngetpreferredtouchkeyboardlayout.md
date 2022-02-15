@@ -58,10 +58,7 @@ If the function is not supported by the IME, then the touch keyboard will show t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnGetPreferredTouchKeyboardLayout</b> interface inherits from <a href="/windows/desktop/api/msctf/nn-msctf-itffunction">ITfFunction</a>. <b>ITfFnGetPreferredTouchKeyboardLayout</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITfFnGetPreferredTouchKeyboardLayout</b> interface inherits from <a href="/windows/desktop/api/msctf/nn-msctf-itffunction">ITfFunction</a>. <b>ITfFnGetPreferredTouchKeyboardLayout</b> also has these types of members:
 
 ## -remarks
 

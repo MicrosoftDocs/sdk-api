@@ -56,7 +56,7 @@ Indicates information about a safer application that is being blocked.
 
 ## -enum-fields
 
-### -field WPC_ARGS_SAFERAPPBLOCKED_TIMESTAMP
+### -field WPC_ARGS_SAFERAPPBLOCKED_TIMESTAMP:0
 
 The time stamp for the blocked application.
 

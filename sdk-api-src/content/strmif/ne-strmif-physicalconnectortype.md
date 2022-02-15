@@ -56,7 +56,7 @@ Specifies the physical type of pin (audio or video).
 
 ## -enum-fields
 
-### -field PhysConn_Video_Tuner
+### -field PhysConn_Video_Tuner:1
 
 Specifies a tuner pin for video.
 
@@ -116,7 +116,7 @@ Specifies a SCART (Peritel) pin for video.
 
 Not used.
 
-### -field PhysConn_Audio_Tuner
+### -field PhysConn_Audio_Tuner:0x1000
 
 Specifies a tuner pin for audio.
 

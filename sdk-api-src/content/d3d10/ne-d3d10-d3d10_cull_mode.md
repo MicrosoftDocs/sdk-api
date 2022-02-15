@@ -54,15 +54,15 @@ Indicates triangles facing a particular direction are not drawn.
 
 ## -enum-fields
 
-### -field D3D10_CULL_NONE
+### -field D3D10_CULL_NONE:1
 
 Always draw all triangles.
 
-### -field D3D10_CULL_FRONT
+### -field D3D10_CULL_FRONT:2
 
 Do not draw triangles that are front-facing.
 
-### -field D3D10_CULL_BACK
+### -field D3D10_CULL_BACK:3
 
 Do not draw triangles that are back-facing.
 

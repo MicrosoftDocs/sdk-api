@@ -56,7 +56,7 @@ The <b>IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</b> enumerated type specifies th
 
 ## -enum-fields
 
-### -field IKEEXT_IMPERSONATION_NONE
+### -field IKEEXT_IMPERSONATION_NONE:0
 
 Specifies no impersonation.
 

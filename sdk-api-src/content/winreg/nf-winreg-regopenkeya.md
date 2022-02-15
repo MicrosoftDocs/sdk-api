@@ -68,11 +68,11 @@ A handle to an open registry key. This handle is returned by the
 <a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a> function, or it can be one of the following 
 <a href="/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:
 
-<b>HKEY_CLASSES_ROOT</b>
-<b>HKEY_CURRENT_CONFIG</b>
-<b>HKEY_CURRENT_USER</b>
-<b>HKEY_LOCAL_MACHINE</b>
-<b>HKEY_USERS</b>
+* <b>HKEY_CLASSES_ROOT</b>
+* <b>HKEY_CURRENT_CONFIG</b>
+* <b>HKEY_CURRENT_USER</b>
+* <b>HKEY_LOCAL_MACHINE</b>
+* <b>HKEY_USERS</b>
 
 ### -param lpSubKey [in, optional]
 

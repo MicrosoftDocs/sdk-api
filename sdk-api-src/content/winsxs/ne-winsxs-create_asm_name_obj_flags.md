@@ -58,10 +58,10 @@ If no  value is specified, the <i>szAssemblyName</i> parameter of the <a href="/
 
 ## -enum-fields
 
-### -field CANOF_PARSE_DISPLAY_NAME
+### -field CANOF_PARSE_DISPLAY_NAME:0x1
 
 If this flag is specified, the <i>szAssemblyName</i> parameter of <a href="/windows/desktop/api/winsxs/nf-winsxs-createassemblynameobject">CreateAssemblyNameObject</a> is a fully-specified side-by-side assembly name and is parsed to the individual properties.
 
-### -field CANOF_SET_DEFAULT_VALUES
+### -field CANOF_SET_DEFAULT_VALUES:0x2
 
 Reserved.

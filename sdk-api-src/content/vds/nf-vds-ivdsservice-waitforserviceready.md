@@ -55,7 +55,7 @@ api_name:
 
 Waits for VDS initialization to complete and returns the status of the VDS initialization.
 
-## -parameters
+
 
 ## -returns
 

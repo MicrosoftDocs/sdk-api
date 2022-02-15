@@ -53,7 +53,7 @@ api_name:
 The 
 <b>RpcTestCancel</b> function checks for a cancel indication.
 
-## -parameters
+
 
 ## -returns
 

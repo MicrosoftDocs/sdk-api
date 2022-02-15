@@ -58,11 +58,11 @@ Enumerates the possible versions for parameters for the
 
 ## -enum-fields
 
-### -field APPLY_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED
+### -field APPLY_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED:0
 
 Not Supported.
 
-### -field APPLY_SNAPSHOT_VHDSET_VERSION_1
+### -field APPLY_SNAPSHOT_VHDSET_VERSION_1:1
 
 The Version1 member structure will be used.
 

@@ -52,7 +52,7 @@ api_name:
 
 Indicates that this thread is a Windows Store app UI thread.
 
-## -parameters
+
 
 ## -returns
 

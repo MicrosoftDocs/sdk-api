@@ -8,7 +8,6 @@ ms.author: windowssdkdev
 ms.date: 06/11/2019
 ms.keywords: DXCoreAdapterPreference enumeration, dxcore_interface.dxcoreadapterpreference
 ms.localizationpriority: low
-ms.topic: enumeration
 targetos: Windows
 ms.prod: windows
 req.assembly: 
@@ -47,15 +46,15 @@ Defines constants that specify DXCore adapter preferences to be used as list-sor
 
 ## -enum-fields
 
-### -field Hardware
+### -field Hardware:0
 
 Specifies a preference for hardware adapters (as opposed to software adapters).
 
-### -field MinimumPower
+### -field MinimumPower:1
 
 Specifies a preference for the minimum-powered GPU (such as an integrated graphics processor, or iGPU).
 
-### -field HighPerformance
+### -field HighPerformance:2
 
 Specifies a preference for the highest-performance GPU, such as an external graphics processor (xGPU), if available, or discrete graphics processor (dGPU) if available.
 

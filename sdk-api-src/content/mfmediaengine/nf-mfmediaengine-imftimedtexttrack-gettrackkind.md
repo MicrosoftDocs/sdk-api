@@ -52,7 +52,7 @@ api_name:
 
 Gets the kind of timed-text track.
 
-## -parameters
+
 
 ## -returns
 

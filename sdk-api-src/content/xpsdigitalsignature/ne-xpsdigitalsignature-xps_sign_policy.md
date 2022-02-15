@@ -56,15 +56,15 @@ A bitwise enumerator that indicates which, if any, optional parts of an XPS docu
 
 ## -enum-fields
 
-### -field XPS_SIGN_POLICY_NONE
+### -field XPS_SIGN_POLICY_NONE:0
 
 No optional parts or relationships are signed.
 
-### -field XPS_SIGN_POLICY_CORE_PROPERTIES
+### -field XPS_SIGN_POLICY_CORE_PROPERTIES:0x1
 
 The CoreProperties part and the relationships that include it are signed.
 
-### -field XPS_SIGN_POLICY_SIGNATURE_RELATIONSHIPS
+### -field XPS_SIGN_POLICY_SIGNATURE_RELATIONSHIPS:0x2
 
 The signature relationships  from the signature origin part are signed. <i>Signature relationships</i> are those relationships that have a <i>digital signature</i> relationship type.
 
@@ -73,15 +73,15 @@ The signature relationships  from the signature origin part are signed. <i>Signa
 </div>
 <div> </div>
 
-### -field XPS_SIGN_POLICY_PRINT_TICKET
+### -field XPS_SIGN_POLICY_PRINT_TICKET:0x4
 
 The  PrintTicket part and the relationships that include it are signed.
 
-### -field XPS_SIGN_POLICY_DISCARD_CONTROL
+### -field XPS_SIGN_POLICY_DISCARD_CONTROL:0x8
 
 The  DiscardControl part and the relationships that include it are signed.
 
-### -field XPS_SIGN_POLICY_ALL
+### -field XPS_SIGN_POLICY_ALL:0xf
 
 The  CoreProperties part and the relationships that include it, the digital signature relationship type from the SignatureOrigin part, the PrintTicket part and the relationships that include it, and the DiscardControl part and the relationships that include it are all signed.
 

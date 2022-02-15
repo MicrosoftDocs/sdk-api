@@ -57,11 +57,11 @@ Enumerates the possible versions for parameters for the
 
 ## -enum-fields
 
-### -field RESIZE_VIRTUAL_DISK_VERSION_UNSPECIFIED
+### -field RESIZE_VIRTUAL_DISK_VERSION_UNSPECIFIED:0
 
 The version is not valid.
 
-### -field RESIZE_VIRTUAL_DISK_VERSION_1
+### -field RESIZE_VIRTUAL_DISK_VERSION_1:1
 
 Version one of the parameters is used. This is the only supported value.
 

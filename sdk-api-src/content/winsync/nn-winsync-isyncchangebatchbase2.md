@@ -54,10 +54,7 @@ Represents additional capabilities of an <a href="/previous-versions/windows/des
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncChangeBatchBase2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase</a>. <b>ISyncChangeBatchBase2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ISyncChangeBatchBase2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase</a>. <b>ISyncChangeBatchBase2</b> also has these types of members:
 
 ## -remarks
 

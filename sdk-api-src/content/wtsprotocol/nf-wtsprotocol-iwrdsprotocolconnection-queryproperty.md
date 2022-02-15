@@ -190,7 +190,7 @@ On output, pass the following <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-w
 <li><code>pPropertyEntriesOut[0].u.ulVal = </code><i>1 to disable cursor blink, 0 otherwise</i></li>
 </ul>
 
-#### PROPERTY_GET_FAST_RECONNECT (6212d757-0043-4862-99c3-9f3059ac2a3b)
+#### PROPERTY_TYPE_GET_FAST_RECONNECT (6212d757-0043-4862-99c3-9f3059ac2a3b)
 
 Used by the Remote Desktop Services service to determine the mode of reconnection to be used.
 
@@ -249,7 +249,7 @@ An array of pointers to <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_pro
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

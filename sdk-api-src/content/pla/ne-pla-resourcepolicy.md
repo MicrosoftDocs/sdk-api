@@ -56,11 +56,11 @@ Defines how folders are deleted when one of the disk resource limits is exceeded
 
 ## -enum-fields
 
-### -field plaDeleteLargest
+### -field plaDeleteLargest:0
 
 Delete folders from largest to smallest.
 
-### -field plaDeleteOldest
+### -field plaDeleteOldest:1
 
 Delete folders from oldest to newest.
 

@@ -56,7 +56,7 @@ Defines the type of a channel.
 
 ## -enum-fields
 
-### -field EvtChannelTypeAdmin
+### -field EvtChannelTypeAdmin:0
 
 The channel's type is Admin.
 

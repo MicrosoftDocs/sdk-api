@@ -54,19 +54,19 @@ The <b>AM_STREAM_INFO_FLAGS</b> enumeration defines flags that indicate a pin's 
 
 ## -enum-fields
 
-### -field AM_STREAM_INFO_START_DEFINED
+### -field AM_STREAM_INFO_START_DEFINED:0x1
 
 Indicates that the pin's start time is set.
 
-### -field AM_STREAM_INFO_STOP_DEFINED
+### -field AM_STREAM_INFO_STOP_DEFINED:0x2
 
 Indicates that the pin's stop time is been set.
 
-### -field AM_STREAM_INFO_DISCARDING
+### -field AM_STREAM_INFO_DISCARDING:0x4
 
 Indicates that the pin is currently discarding data.
 
-### -field AM_STREAM_INFO_STOP_SEND_EXTRA
+### -field AM_STREAM_INFO_STOP_SEND_EXTRA:0x10
 
 Indicates that the pin will send one extra sample after it reaches the stop time.
 

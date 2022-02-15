@@ -56,39 +56,39 @@ Describes the current status of an application that is acted upon by the Restart
 
 ## -enum-fields
 
-### -field RmStatusUnknown
+### -field RmStatusUnknown:0x0
 
 The application is in a state that is not described by any other enumerated state.
 
-### -field RmStatusRunning
+### -field RmStatusRunning:0x1
 
 The application is currently running.
 
-### -field RmStatusStopped
+### -field RmStatusStopped:0x2
 
 The Restart Manager has stopped the application.
 
-### -field RmStatusStoppedOther
+### -field RmStatusStoppedOther:0x4
 
 An action outside the Restart Manager has stopped the application.
 
-### -field RmStatusRestarted
+### -field RmStatusRestarted:0x8
 
 The Restart Manager has restarted the application.
 
-### -field RmStatusErrorOnStop
+### -field RmStatusErrorOnStop:0x10
 
 The Restart Manager encountered an error when stopping the application.
 
-### -field RmStatusErrorOnRestart
+### -field RmStatusErrorOnRestart:0x20
 
 The Restart Manager encountered an error when restarting the application.
 
-### -field RmStatusShutdownMasked
+### -field RmStatusShutdownMasked:0x40
 
 Shutdown is masked by a filter.
 
-### -field RmStatusRestartMasked
+### -field RmStatusRestartMasked:0x80    
 
 Restart is masked by a filter.
 

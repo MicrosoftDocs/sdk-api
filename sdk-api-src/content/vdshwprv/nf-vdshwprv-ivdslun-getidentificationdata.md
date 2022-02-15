@@ -59,7 +59,7 @@ Returns data from the SCSI Inquiry Data and Vital Product Data pages 0x80 and 0x
 
 ### -param pLunInfo [out]
 
-The address of the <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>structure allocated and passed in by the caller. VDS allocates memory for the <b>m_szVendorId</b>, 
+The address of the <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure allocated and passed in by the caller. VDS allocates memory for the <b>m_szVendorId</b>, 
       <b>m_szProductId</b>, <b>m_szProductRevision</b>, 
       and <b>m_szSerialNumber</b> member strings, as well as the <b>m_pbPort</b> and   <b>m_pbAddress</b> member strings of each element in the array of <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_interconnect">VDS_INTERCONNECT</a> structures. 
       Callers must free the strings by using the 

@@ -52,7 +52,7 @@ api_name:
 
 Queries whether the current media resource contains a video stream.
 
-## -parameters
+
 
 ## -returns
 

@@ -182,9 +182,13 @@ The method gets one of the function-specific interface IDs shown in the followin
 
 To obtain the interface ID of an interface, use the <b>__uuidof</b> operator. For example, the interface ID of the <b>IAudioAutoGainControl</b> interface is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 const IID IID_IAudioAutoGainControl  __uuidof(IAudioAutoGainControl)
-</code></pre>
+
+```
+
 For more information about the <b>__uuidof</b> operator, see the Windows SDK documentation.
 
 ## -see-also

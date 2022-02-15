@@ -61,7 +61,7 @@ You can retrieve specific information about the change by using the TAPI 3
 
 ## -enum-fields
 
-### -field CIC_OTHER
+### -field CIC_OTHER:0
 
 Unspecified call information has changed.
 

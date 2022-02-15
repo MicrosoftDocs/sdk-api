@@ -82,7 +82,11 @@ The function that is to process <a href="/windows/desktop/Controls/wm-notify">WM
 
 The <b>HANDLE_WM_NOTIFY</b> macro is defined as follows. 
 
-<pre class="syntax" xml:space="preserve"><code>#define HANDLE_WM_NOTIFY(hwnd, wParam, lParam, fn) \ 
 
-    (fn)((hwnd), (int)(wParam), (NMHDR*)(lParam))</code></pre>
+``` syntax
+#define HANDLE_WM_NOTIFY(hwnd, wParam, lParam, fn) \ 
+
+    (fn)((hwnd), (int)(wParam), (NMHDR*)(lParam))
+```
+
 The macro can be used inside a dialog window procedure to simplify the calling of an application-defined function that requires an <a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> parameter.

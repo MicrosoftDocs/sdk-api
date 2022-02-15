@@ -54,10 +54,7 @@ Extends the  <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextProvider2</b> interface inherits from <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider">ITextProvider</a>. <b>ITextProvider2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITextProvider2</b> interface inherits from <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider">ITextProvider</a>. <b>ITextProvider2</b> also has these types of members:
 
 ## -see-also
 

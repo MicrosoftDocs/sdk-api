@@ -52,7 +52,7 @@ api_name:
 
 Gets the description of the command queue.
 
-## -parameters
+
 
 ## -returns
 

@@ -82,7 +82,7 @@ An extended version of this method called <a href="/windows/desktop/api/wmsdkidl
 
 When allocating buffers, you can use whatever logic suits your application. Typically, applications initialize a pool of buffers for the file or a pool of buffers for each stream or output. When the application is done with a sample, the buffer is put back into the pool for use.
 
-You can determine the size needed to hold the largest sample of an stream by calling <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getmaxstreamsamplesize">IWMReaderAdvanced::GetMaxStreamSampleSize</a>. This is the size you should make the samples in the pool used for the output.
+You can determine the size needed to hold the largest sample of a stream by calling <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getmaxstreamsamplesize">IWMReaderAdvanced::GetMaxStreamSampleSize</a>. This is the size you should make the samples in the pool used for the output.
 
 When you allocate a sample in your implementation of this method, you should call <a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-setlength">INSSBuffer::SetLength</a> to set the length of the buffer to the length passed by the reader in the <i>cbBuffer</i> parameter. If you do not set the current length on the buffer, the reader may encounter an error.
 

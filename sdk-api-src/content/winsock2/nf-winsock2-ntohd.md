@@ -72,7 +72,7 @@ The
 The 
 <b>ntohd</b> function can be used to convert an IPv4 address in network byte order to the IPv4 address in host byte order. This function does not do any checking to determine if the <i>value</i> parameter is a valid IPv4 address.
 
-The <b>ntohd</b>function does not require that the Winsock DLL has previously been loaded with a successful 
+The <b>ntohd</b> function does not require that the Winsock DLL has previously been loaded with a successful 
 call to the <a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> function.
 
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.

@@ -52,7 +52,7 @@ api_name:
 
 Enables highlighting visuals when content is being redrawn.
 
-## -parameters
+
 
 ## -returns
 
@@ -60,7 +60,7 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 ## -remarks
 
-Highlighting redraw regions can be enabled by calling <b>EnableRedrawRegions</b>.  With this function, redrawn client areas are visually highlighted every frame the visual is updated. Redraw regions are drawn on the source of the VisualDebug and child visuals. Redraw is triggered when properties of a visual are updated. The updated visusal does not neccessarly need to visually change to trigger a redraw. The highlighting will cycle through Blue, Yellow, Pink and Green to provide an order of which content is being updated. The redraw regions are only visible while the window of the VisualDebug is being updated.
+Highlighting redraw regions can be enabled by calling <b>EnableRedrawRegions</b>.  With this function, redrawn client areas are visually highlighted every frame the visual is updated. Redraw regions are drawn on the source of the VisualDebug and child visuals. Redraw is triggered when properties of a visual are updated. The updated visual does not necessarily need to visually change to trigger a redraw. The highlighting will cycle through Blue, Yellow, Pink and Green to provide an order of which content is being updated. The redraw regions are only visible while the window of the VisualDebug is being updated.
 
 ## -see-also
 

@@ -56,7 +56,7 @@ The <b>IKEEXT_DH_GROUP</b> enumerated type specifies the type of Diffie Hellman 
 
 ## -enum-fields
 
-### -field IKEEXT_DH_GROUP_NONE
+### -field IKEEXT_DH_GROUP_NONE:0
 
 Specifies no Diffie Hellman group. Available only for AuthIP.
 

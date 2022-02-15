@@ -59,8 +59,5 @@ The <a href="/windows/desktop/DirectShow/avi-splitter-filter">AVI Splitter</a> f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistMediaPropertyBag</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPersistMediaPropertyBag</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPersistMediaPropertyBag</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPersistMediaPropertyBag</b> also has these types of members:
 

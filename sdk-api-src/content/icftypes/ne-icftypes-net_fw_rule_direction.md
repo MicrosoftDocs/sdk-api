@@ -56,7 +56,7 @@ The <b>NET_FW_RULE_DIRECTION</b> enumerated type specifies the direction of traf
 
 ## -enum-fields
 
-### -field NET_FW_RULE_DIR_IN
+### -field NET_FW_RULE_DIR_IN:1
 
 The rule applies to inbound traffic.
 

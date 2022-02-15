@@ -53,7 +53,7 @@ api_name:
 
 Retrieves the priority for this resource.
 
-## -parameters
+
 
 ## -returns
 

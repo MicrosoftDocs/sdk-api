@@ -53,7 +53,7 @@ api_name:
 The 
 <b>Shutdown</b> method shuts down a TAPI session.
 
-## -parameters
+
 
 ## -returns
 

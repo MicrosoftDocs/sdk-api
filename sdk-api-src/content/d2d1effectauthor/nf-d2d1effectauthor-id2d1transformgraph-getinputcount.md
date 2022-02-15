@@ -52,7 +52,7 @@ api_name:
 
 Returns the number of inputs to the transform graph.
 
-## -parameters
+
 
 ## -returns
 

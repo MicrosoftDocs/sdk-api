@@ -4,13 +4,13 @@ title: DML_CUMULATIVE_SUMMATION_OPERATOR_DESC
 description: Sums the elements of a tensor along an axis, writing the running tally of the summation into the output tensor.
 helpviewer_keywords: ["DML_CUMULATIVE_SUMMATION_OPERATOR_DESC","DML_CUMULATIVE_SUMMATION_OPERATOR_DESC structure","direct3d12.dml_cumulative_summation_operator_desc","directml/DML_CUMULATIVE_SUMMATION_OPERATOR_DESC"]
 tech.root: directml
-ms.date: 10/29/2020
+ms.date: 01/19/2022
 ms.keywords: DML_CUMULATIVE_SUMMATION_OPERATOR_DESC, DML_CUMULATIVE_SUMMATION_OPERATOR_DESC structure, direct3d12.dml_cumulative_summation_operator_desc, directml/DML_CUMULATIVE_SUMMATION_OPERATOR_DESC
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -154,10 +154,23 @@ This operator supports in-place execution, meaning that the *OutputTensor* is pe
 This operator was introduced in `DML_FEATURE_LEVEL_2_1`.
 
 ## Tensor constraints
-*InputTensor* and *OutputTensor* must have the same *DataType* and *Sizes*.
+*InputTensor* and *OutputTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_5_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |
-| InputTensor | Input | 4 | FLOAT32, FLOAT16, UINT32, UINT16 |
-| OutputTensor | Output | 4 | FLOAT32, FLOAT16, UINT32, UINT16 |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, UINT64, UINT32 |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, UINT64, UINT32 |
+
+### DML_FEATURE_LEVEL_4_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, UINT32 |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT32, UINT32 |
+
+### DML_FEATURE_LEVEL_2_1 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 | FLOAT32, FLOAT16, INT32, UINT32 |
+| OutputTensor | Output | 4 | FLOAT32, FLOAT16, INT32, UINT32 |

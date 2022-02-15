@@ -52,7 +52,7 @@ api_name:
 
 Invalidates the PCRs if the ELAM driver detects a policy-violation (a rootkit, for example).
 
-## -parameters
+
 
 ## -returns
 

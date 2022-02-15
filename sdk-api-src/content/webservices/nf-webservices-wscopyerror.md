@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsCopyError
 title: WsCopyError function (webservices.h)
-description: Copies an error object from a specified source to a specifed destination.
+description: Copies an error object from a specified source to a specified destination.
 helpviewer_keywords: ["WsCopyError","WsCopyError function [Web Services for Windows]","webservices/WsCopyError","wsw.wscopyerror"]
 old-location: wsw\wscopyerror.htm
 tech.root: wsw
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Copies an error object from a specified source  to a specifed destination.
+Copies an error object from a specified source  to a specified destination.
 
 ## -parameters
 

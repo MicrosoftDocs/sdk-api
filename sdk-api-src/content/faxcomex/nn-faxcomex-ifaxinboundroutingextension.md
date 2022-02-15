@@ -54,9 +54,9 @@ The <b>IFaxInboundRoutingExtension</b> interface defines a configuration object 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxInboundRoutingExtension</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxInboundRoutingExtension</b> also has these types of members:
+The <b>IFaxInboundRoutingExtension</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxInboundRoutingExtension</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
+<li><a href="/windows/win32/api/faxcomex/nn-faxcomex-ifaxinboundrouting">Properties</a></li>
 </ul>
 
 ## -remarks

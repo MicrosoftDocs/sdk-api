@@ -58,7 +58,7 @@ Specifies the different data types of WinML tensors.
 
 ## -enum-fields
 
-### -field WINML_TENSOR_UNDEFINED
+### -field WINML_TENSOR_UNDEFINED:0
 
 Tensor data type undefined.
 

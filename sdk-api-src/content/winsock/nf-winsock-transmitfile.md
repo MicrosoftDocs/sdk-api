@@ -390,7 +390,7 @@ Server versions of Windows optimize the
 
 
 
-If the <b>TransmitFile</b> function is called with TCP socket (protocol of IPPROTO_TCP) with both the <b>TF_DISCONNECT</b>and <b>TF_REUSE_SOCKET</b> flags specified, the call will not complete until the two following conditions are met.<ul>
+If the <b>TransmitFile</b> function is called with TCP socket (protocol of IPPROTO_TCP) with both the <b>TF_DISCONNECT</b> and <b>TF_REUSE_SOCKET</b> flags specified, the call will not complete until the two following conditions are met.<ul>
 <li>All pending receive data sent by remote side (received prior to a FIN from the remote side) on the TCP socket has been read.
 </li>
 <li> The remote side has closed the connection (completed the graceful TCP connection closure).</li>

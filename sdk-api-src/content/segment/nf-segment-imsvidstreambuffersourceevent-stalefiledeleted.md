@@ -57,7 +57,7 @@ This topic applies to Windows XP Service Pack 1 or later.
 
 The <b>StaleFileDeleted</b> method is called when a temporary recording file is deleted.
 
-## -parameters
+
 
 ## -returns
 

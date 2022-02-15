@@ -54,7 +54,7 @@ api_name:
 The <b>Graphics::GetDpiY</b> method gets the vertical resolution, in dots per inch, of the display device associated with this 
 			<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
 
-## -parameters
+
 
 ## -returns
 

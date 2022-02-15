@@ -54,79 +54,79 @@ Filtering options during texture sampling.
 
 ## -enum-fields
 
-### -field D3D10_FILTER_MIN_MAG_MIP_POINT
+### -field D3D10_FILTER_MIN_MAG_MIP_POINT:0
 
 Use point sampling for minification, magnification, and mip-level sampling.
 
-### -field D3D10_FILTER_MIN_MAG_POINT_MIP_LINEAR
+### -field D3D10_FILTER_MIN_MAG_POINT_MIP_LINEAR:0x1
 
 Use point sampling for minification and magnification; use linear interpolation for mip-level sampling.
 
-### -field D3D10_FILTER_MIN_POINT_MAG_LINEAR_MIP_POINT
+### -field D3D10_FILTER_MIN_POINT_MAG_LINEAR_MIP_POINT:0x4
 
 Use point sampling for minification; use linear interpolation for magnification; use point sampling for mip-level sampling.
 
-### -field D3D10_FILTER_MIN_POINT_MAG_MIP_LINEAR
+### -field D3D10_FILTER_MIN_POINT_MAG_MIP_LINEAR:0x5
 
 Use point sampling for minification; use linear interpolation for magnification and mip-level sampling.
 
-### -field D3D10_FILTER_MIN_LINEAR_MAG_MIP_POINT
+### -field D3D10_FILTER_MIN_LINEAR_MAG_MIP_POINT:0x10
 
 Use linear interpolation for minification; use point sampling for magnification and mip-level sampling.
 
-### -field D3D10_FILTER_MIN_LINEAR_MAG_POINT_MIP_LINEAR
+### -field D3D10_FILTER_MIN_LINEAR_MAG_POINT_MIP_LINEAR:0x11
 
 Use linear interpolation for minification; use point sampling for magnification; use linear interpolation for mip-level sampling.
 
-### -field D3D10_FILTER_MIN_MAG_LINEAR_MIP_POINT
+### -field D3D10_FILTER_MIN_MAG_LINEAR_MIP_POINT:0x14
 
 Use linear interpolation for minification and magnification; use point sampling for mip-level sampling.
 
-### -field D3D10_FILTER_MIN_MAG_MIP_LINEAR
+### -field D3D10_FILTER_MIN_MAG_MIP_LINEAR:0x15
 
 Use linear interpolation for minification, magnification, and mip-level sampling.
 
-### -field D3D10_FILTER_ANISOTROPIC
+### -field D3D10_FILTER_ANISOTROPIC:0x55
 
 Use anisotropic interpolation for minification, magnification, and mip-level sampling.
 
-### -field D3D10_FILTER_COMPARISON_MIN_MAG_MIP_POINT
+### -field D3D10_FILTER_COMPARISON_MIN_MAG_MIP_POINT:0x80
 
 Use point sampling for minification, magnification, and mip-level sampling. Compare the result to the comparison value.
 
-### -field D3D10_FILTER_COMPARISON_MIN_MAG_POINT_MIP_LINEAR
+### -field D3D10_FILTER_COMPARISON_MIN_MAG_POINT_MIP_LINEAR:0x81
 
 Use point sampling for minification and magnification; use linear interpolation for mip-level sampling. Compare the result to the comparison value.
 
-### -field D3D10_FILTER_COMPARISON_MIN_POINT_MAG_LINEAR_MIP_POINT
+### -field D3D10_FILTER_COMPARISON_MIN_POINT_MAG_LINEAR_MIP_POINT:0x84
 
 Use point sampling for minification; use linear interpolation for magnification; use point sampling for mip-level sampling. Compare the result to the comparison value.
 
-### -field D3D10_FILTER_COMPARISON_MIN_POINT_MAG_MIP_LINEAR
+### -field D3D10_FILTER_COMPARISON_MIN_POINT_MAG_MIP_LINEAR:0x85
 
 Use point sampling for minification; use linear interpolation for magnification and mip-level sampling. Compare the result to the comparison value.
 
-### -field D3D10_FILTER_COMPARISON_MIN_LINEAR_MAG_MIP_POINT
+### -field D3D10_FILTER_COMPARISON_MIN_LINEAR_MAG_MIP_POINT:0x90
 
 Use linear interpolation for minification; use point sampling for magnification and mip-level sampling. Compare the result to the comparison value.
 
-### -field D3D10_FILTER_COMPARISON_MIN_LINEAR_MAG_POINT_MIP_LINEAR
+### -field D3D10_FILTER_COMPARISON_MIN_LINEAR_MAG_POINT_MIP_LINEAR:0x91
 
 Use linear interpolation for minification; use point sampling for magnification; use linear interpolation for mip-level sampling. Compare the result to the comparison value.
 
-### -field D3D10_FILTER_COMPARISON_MIN_MAG_LINEAR_MIP_POINT
+### -field D3D10_FILTER_COMPARISON_MIN_MAG_LINEAR_MIP_POINT:0x94
 
 Use linear interpolation for minification and magnification; use point sampling for mip-level sampling. Compare the result to the comparison value.
 
-### -field D3D10_FILTER_COMPARISON_MIN_MAG_MIP_LINEAR
+### -field D3D10_FILTER_COMPARISON_MIN_MAG_MIP_LINEAR:0x95
 
 Use linear interpolation for minification, magnification, and mip-level sampling. Compare the result to the comparison value.
 
-### -field D3D10_FILTER_COMPARISON_ANISOTROPIC
+### -field D3D10_FILTER_COMPARISON_ANISOTROPIC:0xd5
 
 Use anisotropic interpolation for minification, magnification, and mip-level sampling. Compare the result to the comparison value.
 
-### -field D3D10_FILTER_TEXT_1BIT
+### -field D3D10_FILTER_TEXT_1BIT:0x80000000
 
 For use in pixel shaders with textures that have the R1_UNORM format.
 

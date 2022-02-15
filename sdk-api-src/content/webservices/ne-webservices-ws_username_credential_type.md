@@ -55,6 +55,6 @@ subtypes of <a href="/windows/desktop/api/webservices/ns-webservices-ws_username
 
 ## -enum-fields
 
-### -field WS_STRING_USERNAME_CREDENTIAL_TYPE
+### -field WS_STRING_USERNAME_CREDENTIAL_TYPE:1
 
 Type ID for the username/password credential <a href="/windows/win32/api/webservices/ns-webservices-ws_string_username_credential">WS_STRING_USERNAME_CREDENTIAL</a>.

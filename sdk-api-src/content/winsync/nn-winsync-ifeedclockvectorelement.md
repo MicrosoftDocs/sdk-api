@@ -54,10 +54,7 @@ Represents a clock vector element that contains FeedSync information.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFeedClockVectorElement</b> interface inherits from <b>IClockVectorElement</b>. <b>IFeedClockVectorElement</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IFeedClockVectorElement</b> interface inherits from <b>IClockVectorElement</b>. <b>IFeedClockVectorElement</b> also has these types of members:
 
 ## -see-also
 

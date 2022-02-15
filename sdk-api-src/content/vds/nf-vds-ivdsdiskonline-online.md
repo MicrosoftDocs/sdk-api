@@ -55,7 +55,7 @@ api_name:
 
 Brings the disk online.<b>Windows Vista:  </b>This method is not supported until Windows Vista with Service Pack 1 (SP1). Use <a href="/windows/desktop/api/vds/nf-vds-ivdsdisk2-setsanmode">IVdsDisk2::SetSANMode</a> instead.
 
-## -parameters
+
 
 ## -returns
 

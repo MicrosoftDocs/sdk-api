@@ -54,7 +54,7 @@ The NLM_CONNECTION PROPERTY_CHANGE enumeration is  a set of flags that define ch
 
 ## -enum-fields
 
-### -field NLM_CONNECTION_PROPERTY_CHANGE_AUTHENTICATION
+### -field NLM_CONNECTION_PROPERTY_CHANGE_AUTHENTICATION:0x1
 
 The Authentication (Domain Type) of this Network Connection has changed.
 

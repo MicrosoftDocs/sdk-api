@@ -54,131 +54,131 @@ Defines a subset of the DVD text-string types.
 
 ## -enum-fields
 
-### -field DVD_Struct_Volume
+### -field DVD_Struct_Volume:0x1
 
 Indicates the top-level of the logical hierarchy. Refers to the entire contents of a one-sided disc or one side of a two-sided disc.
 
-### -field DVD_Struct_Title
+### -field DVD_Struct_Title:0x2
 
 Indicates that all content strings, until the next <b>DVD_Struct_Title</b>, belong to one title.
 
-### -field DVD_Struct_ParentalID
+### -field DVD_Struct_ParentalID:0x3
 
 Indicates the parental ID of the following strings.
 
-### -field DVD_Struct_PartOfTitle
+### -field DVD_Struct_PartOfTitle:0x4
 
 Indicates that all content strings, until the next <b>DVD_Struct_PartOfTitle</b>, belong to one chapter.
 
-### -field DVD_Struct_Cell
+### -field DVD_Struct_Cell:0x5
 
 Indicates that all content strings, until the next <b>DVD_Struct_Cell</b>, belong to one cell, which can be a scene from a chapter.
 
-### -field DVD_Stream_Audio
+### -field DVD_Stream_Audio:0x10
 
 Indicates that the following content strings refer to the audio stream.
 
-### -field DVD_Stream_Subpicture
+### -field DVD_Stream_Subpicture:0x11
 
 Indicates that the following content strings refer to the subpicture stream.
 
-### -field DVD_Stream_Angle
+### -field DVD_Stream_Angle:0x12
 
 Indicates that the following content strings refer to the angle.
 
-### -field DVD_Channel_Audio
+### -field DVD_Channel_Audio:0x20
 
 Indicates that the following content strings refer to the audio channel.
 
-### -field DVD_General_Name
+### -field DVD_General_Name:0x30
 
 Indicates the most important content string. Strings of this type contain the name of the volume, title, chapter, and so on, and can follow any structure identifiers.
 
-### -field DVD_General_Comments
+### -field DVD_General_Comments:0x31
 
 Identifies a content string with additional information about the title, chapter, and so on, described by the <b>DVD_General_Name</b> string. The exact nature or structure of these comments is not defined.
 
-### -field DVD_Title_Series
+### -field DVD_Title_Series:0x38
 
 Identifies a content string containing the name of a series to which the title belongs.
 
-### -field DVD_Title_Movie
+### -field DVD_Title_Movie:0x39
 
 Identifies a content string with the main movie title.
 
-### -field DVD_Title_Video
+### -field DVD_Title_Video:0x3a
 
 Identifies a content string containing the name of the video title.
 
-### -field DVD_Title_Album
+### -field DVD_Title_Album:0x3b
 
 Identifies a content string containing the name of the album title.
 
-### -field DVD_Title_Song
+### -field DVD_Title_Song:0x3c
 
 Identifies a content string containing the name of the song title.
 
-### -field DVD_Title_Other
+### -field DVD_Title_Other:0x3f
 
 Identifies a content string containing the name of the title of some other genre.
 
-### -field DVD_Title_Sub_Series
+### -field DVD_Title_Sub_Series:0x40
 
 Identifies a content string with the name of the series localized to a particular country/region.
 
-### -field DVD_Title_Sub_Movie
+### -field DVD_Title_Sub_Movie:0x41
 
 Identifies a content string with the movie title localized to a particular country/region.
 
-### -field DVD_Title_Sub_Video
+### -field DVD_Title_Sub_Video:0x42
 
 Identifies a content string with the video title localized to a particular country/region.
 
-### -field DVD_Title_Sub_Album
+### -field DVD_Title_Sub_Album:0x43
 
 Identifies a content string with the album title localized to a particular country/region.
 
-### -field DVD_Title_Sub_Song
+### -field DVD_Title_Sub_Song:0x44
 
 Identifies a content string with the song title localized to a particular country/region.
 
-### -field DVD_Title_Sub_Other
+### -field DVD_Title_Sub_Other:0x47
 
 Identifies a content string with the title of some other genre localized to a particular country/region.
 
-### -field DVD_Title_Orig_Series
+### -field DVD_Title_Orig_Series:0x48
 
 Identifies a content string with the original name of the series.
 
-### -field DVD_Title_Orig_Movie
+### -field DVD_Title_Orig_Movie:0x49
 
 Identifies a content string with the original name of the movie.
 
-### -field DVD_Title_Orig_Video
+### -field DVD_Title_Orig_Video:0x4a
 
 Identifies a content string with the original name of the video.
 
-### -field DVD_Title_Orig_Album
+### -field DVD_Title_Orig_Album:0x4b
 
 Identifies a content string with the original name of the album.
 
-### -field DVD_Title_Orig_Song
+### -field DVD_Title_Orig_Song:0x4c
 
 Identifies a content string with the original name of the song.
 
-### -field DVD_Title_Orig_Other
+### -field DVD_Title_Orig_Other:0x4f
 
 Identifies a content string with the original name of the content.
 
-### -field DVD_Other_Scene
+### -field DVD_Other_Scene:0x50
 
 Identifies a content string pertaining to a particular scene in a movie or video.
 
-### -field DVD_Other_Cut
+### -field DVD_Other_Cut:0x51
 
 Identifies a content string pertaining to a particular cut in a movie or video.
 
-### -field DVD_Other_Take
+### -field DVD_Other_Take:0x52
 
 Identifies a content string pertaining to a particular take in a movie or video.
 

@@ -54,15 +54,15 @@ The <b>NLM_INTERNET_CONNECTIVITY</b> enumeration defines a set of flags that pro
 
 ## -enum-fields
 
-### -field NLM_INTERNET_CONNECTIVITY_WEBHIJACK
+### -field NLM_INTERNET_CONNECTIVITY_WEBHIJACK:0x1
 
 Indicates that the detected network is a hotspot. For example, when connected to a coffee Wi-Fi hotspot network and the local HTTP traffic is being redirected to a captive portal, this flag will be set.
 
-### -field NLM_INTERNET_CONNECTIVITY_PROXIED
+### -field NLM_INTERNET_CONNECTIVITY_PROXIED:0x2
 
 Indicates that the detected network has a proxy configuration. For example, when connected to a corporate network using a proxy for HTTP access, this flag will be set.
 
-### -field NLM_INTERNET_CONNECTIVITY_CORPORATE
+### -field NLM_INTERNET_CONNECTIVITY_CORPORATE:0x4
 
 Indicates that the machine is configured for Direct Access and that access to the corporate domain network, for which Direct Access was previously configured, has been detected.
 

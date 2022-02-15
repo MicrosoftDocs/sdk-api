@@ -54,51 +54,51 @@ The <b>DWRITE_PANOSE_ARM_STYLE</b> enumeration contains values that specify the 
 
 ## -enum-fields
 
-### -field DWRITE_PANOSE_ARM_STYLE_ANY
+### -field DWRITE_PANOSE_ARM_STYLE_ANY:0
 
 Any arm style.
 
-### -field DWRITE_PANOSE_ARM_STYLE_NO_FIT
+### -field DWRITE_PANOSE_ARM_STYLE_NO_FIT:1
 
 No fit arm style.
 
-### -field DWRITE_PANOSE_ARM_STYLE_STRAIGHT_ARMS_HORIZONTAL
+### -field DWRITE_PANOSE_ARM_STYLE_STRAIGHT_ARMS_HORIZONTAL:2
 
 The arm style is straight horizontal.
 
-### -field DWRITE_PANOSE_ARM_STYLE_STRAIGHT_ARMS_WEDGE
+### -field DWRITE_PANOSE_ARM_STYLE_STRAIGHT_ARMS_WEDGE:3
 
 The arm style is straight wedge.
 
-### -field DWRITE_PANOSE_ARM_STYLE_STRAIGHT_ARMS_VERTICAL
+### -field DWRITE_PANOSE_ARM_STYLE_STRAIGHT_ARMS_VERTICAL:4
 
 The arm style is straight vertical.
 
-### -field DWRITE_PANOSE_ARM_STYLE_STRAIGHT_ARMS_SINGLE_SERIF
+### -field DWRITE_PANOSE_ARM_STYLE_STRAIGHT_ARMS_SINGLE_SERIF:5
 
 The arm style is straight single serif.
 
-### -field DWRITE_PANOSE_ARM_STYLE_STRAIGHT_ARMS_DOUBLE_SERIF
+### -field DWRITE_PANOSE_ARM_STYLE_STRAIGHT_ARMS_DOUBLE_SERIF:6
 
 The arm style is straight double serif.
 
-### -field DWRITE_PANOSE_ARM_STYLE_NONSTRAIGHT_ARMS_HORIZONTAL
+### -field DWRITE_PANOSE_ARM_STYLE_NONSTRAIGHT_ARMS_HORIZONTAL:7
 
 The arm style is non-straight horizontal.
 
-### -field DWRITE_PANOSE_ARM_STYLE_NONSTRAIGHT_ARMS_WEDGE
+### -field DWRITE_PANOSE_ARM_STYLE_NONSTRAIGHT_ARMS_WEDGE:8
 
 The arm style is non-straight wedge.
 
-### -field DWRITE_PANOSE_ARM_STYLE_NONSTRAIGHT_ARMS_VERTICAL
+### -field DWRITE_PANOSE_ARM_STYLE_NONSTRAIGHT_ARMS_VERTICAL:9
 
 The arm style is non-straight vertical.
 
-### -field DWRITE_PANOSE_ARM_STYLE_NONSTRAIGHT_ARMS_SINGLE_SERIF
+### -field DWRITE_PANOSE_ARM_STYLE_NONSTRAIGHT_ARMS_SINGLE_SERIF:10
 
 The arm style is non-straight single serif.
 
-### -field DWRITE_PANOSE_ARM_STYLE_NONSTRAIGHT_ARMS_DOUBLE_SERIF
+### -field DWRITE_PANOSE_ARM_STYLE_NONSTRAIGHT_ARMS_DOUBLE_SERIF:11
 
 The arm style is non-straight double serif.
 

@@ -52,7 +52,7 @@ api_name:
 
 Restores the authentication information of a thread to what it was before impersonation began.
 
-## -parameters
+
 
 ## -returns
 

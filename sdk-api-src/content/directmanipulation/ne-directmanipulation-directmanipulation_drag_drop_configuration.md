@@ -54,23 +54,23 @@ Defines behaviors for the drag-drop interaction.
 
 ## -enum-fields
 
-### -field DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_VERTICAL
+### -field DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_VERTICAL:0x1
 
 Specifies that vertical movement is applicable to the chosen gesture.
 
-### -field DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_HORIZONTAL
+### -field DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_HORIZONTAL:0x2
 
 Specifies that horizontal movement is applicable to the chosen gesture.
 
-### -field DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_SELECT_ONLY
+### -field DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_SELECT_ONLY:0x10
 
 Specifies that the gesture is to be cross-slide only.
 
-### -field DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_SELECT_DRAG
+### -field DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_SELECT_DRAG:0x20
 
 Specifies that the gesture is a drag initiated by cross-slide.
 
-### -field DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_HOLD_DRAG
+### -field DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_HOLD_DRAG:0x40
 
 Specifies that the gesture a drag initiated by press-and-hold.
 

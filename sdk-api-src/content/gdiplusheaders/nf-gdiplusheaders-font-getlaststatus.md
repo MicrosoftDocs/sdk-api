@@ -54,7 +54,7 @@ api_name:
 The <b>Font::GetLastStatus</b> method returns a value that indicates the nature of this 
 			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object's most recent method failure.
 
-## -parameters
+
 
 ## -returns
 

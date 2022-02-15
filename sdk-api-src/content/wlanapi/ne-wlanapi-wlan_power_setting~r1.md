@@ -10,8 +10,8 @@ req.header: wlanapi.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -44,7 +44,7 @@ The <b>WLAN_POWER_SETTING</b> enumerated type specifies the power setting of an 
 
 ## -enum-fields
 
-### -field wlan_power_setting_no_saving
+### -field wlan_power_setting_no_saving:0
 
 Specifies no power-saving activity performed by the 802.11 station.
 

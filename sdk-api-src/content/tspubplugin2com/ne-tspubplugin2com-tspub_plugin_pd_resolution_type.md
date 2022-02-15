@@ -56,11 +56,11 @@ Specifies the type of personal desktop resolution being requested.
 
 ## -enum-fields
 
-### -field TSPUB_PLUGIN_PD_QUERY_OR_CREATE
+### -field TSPUB_PLUGIN_PD_QUERY_OR_CREATE:0
 
 Resolve an existing personal desktop for the user. If no personal desktop exists, the <a href="/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-resolvepersonaldesktop">ResolvePersonalDesktop</a> method should create a new one.
 
-### -field TSPUB_PLUGIN_PD_QUERY_EXISTING
+### -field TSPUB_PLUGIN_PD_QUERY_EXISTING:1
 
 Resolve an existing personal desktop for the user. If no personal desktop exists, the <a href="/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-resolvepersonaldesktop">ResolvePersonalDesktop</a> method should return an error code.
 

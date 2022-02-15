@@ -86,7 +86,7 @@ If there is a privacy Group Policy or user privacy setting present, it can affec
 
 You must call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icustomdestinationlist-beginlist">ICustomDestinationList::BeginList</a> before you call this method.
 
-The <b>Recent</b> category is shown in a default Jump List, but to show it in a custom Jump List together with custom categories you must explictly request it through this method.
+The <b>Recent</b> category is shown in a default Jump List, but to show it in a custom Jump List together with custom categories you must explicitly request it through this method.
 
 With both <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icustomdestinationlist-appendcategory">AppendCategory</a> and <b>AppendKnownCategory</b>, a custom Jump List should be designed to avoid any item appearing in more than one category. If two categories are simply different views on the same data, one of those categories should be removed since it is using Jump List space without contributing to the user's convenience. Duplicates are not hidden by the system except in the case of a pinned destination, in which case that destination is shown in the Pinned category and hidden in all others.
 

@@ -128,7 +128,7 @@ The <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a
 
 This helper function is used when the calling application expects a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold a Boolean vector value with a fixed number of elements.
 
-If the source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> has type VT_VECTOR | VT_BOOL or VT_ARRAY | VT_BOOL, this helper function extracts up to <i>crgf</i> Boolean values an places them into the buffer pointed to by <i>prgf</i>. If the <b>PROPVARIANT</b> contains more elements than will fit into the <i>prgf</i> buffer, this function returns an error and sets <i>pcElem</i> to 0.
+If the source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> has type VT_VECTOR | VT_BOOL or VT_ARRAY | VT_BOOL, this helper function extracts up to <i>crgf</i> Boolean values and places them into the buffer pointed to by <i>prgf</i>. If the <b>PROPVARIANT</b> contains more elements than will fit into the <i>prgf</i> buffer, this function returns an error and sets <i>pcElem</i> to 0.
 
 
 #### Examples

@@ -57,39 +57,39 @@ Specifies the type of CSV control operation to use with the [FSCTL_CSV_CONTROL](
 
 ## -enum-fields
 
-### -field CsvControlStartRedirectFile
+### -field CsvControlStartRedirectFile:0x02
 
 Start file redirection.
 
-### -field CsvControlStopRedirectFile
+### -field CsvControlStopRedirectFile:0x03
 
 Stop file redirection.
 
-### -field CsvControlQueryRedirectState
+### -field CsvControlQueryRedirectState:0x04
 
 Search for state redirection. When this value is specified, the [CSV_QUERY_REDIRECT_STATE](ns-winioctl-csv_query_redirect_state.md) structure must also be used.
 
-### -field CsvControlQueryFileRevision
+### -field CsvControlQueryFileRevision:0x06
 
 Search for file revision. When this value is specified, the [CSV_QUERY_FILE_REVISION](ns-winioctl-csv_query_file_revision.md) structure must also be used.
 
-### -field CsvControlQueryMdsPath
+### -field CsvControlQueryMdsPath:0x08
 
-### -field CsvControlQueryFileRevisionFileId128
+### -field CsvControlQueryFileRevisionFileId128:0x09
 
-### -field CsvControlQueryVolumeRedirectState
+### -field CsvControlQueryVolumeRedirectState:0x0a
 
-### -field CsvControlEnableUSNRangeModificationTracking
+### -field CsvControlEnableUSNRangeModificationTracking:0x0d
 
-### -field CsvControlMarkHandleLocalVolumeMount
+### -field CsvControlMarkHandleLocalVolumeMount:0x0e
 
-### -field CsvControlUnmarkHandleLocalVolumeMount
+### -field CsvControlUnmarkHandleLocalVolumeMount:0x0f
 
-### -field CsvControlGetCsvFsMdsPathV2
+### -field CsvControlGetCsvFsMdsPathV2:0x12
 
-### -field CsvControlDisableCaching
+### -field CsvControlDisableCaching:0x13
 
-### -field CsvControlEnableCaching
+### -field CsvControlEnableCaching:0x14
 
 #### - CsvControlMdsPath
 

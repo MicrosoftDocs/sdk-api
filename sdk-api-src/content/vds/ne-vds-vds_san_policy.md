@@ -58,25 +58,25 @@ Defines the set of valid disk SAN policy flags.
 
 ## -enum-fields
 
-### -field VDS_SP_UNKNOWN
+### -field VDS_SP_UNKNOWN:0
 
 The SAN policy is unknown.
 
-### -field VDS_SP_ONLINE
+### -field VDS_SP_ONLINE:0x1
 
 All newly discovered disks are brought online and made read-write.
 
-### -field VDS_SP_OFFLINE_SHARED
+### -field VDS_SP_OFFLINE_SHARED:0x2
 
 All newly discovered disks that do not reside on a shared bus are brought online and made read-write.
 
-### -field VDS_SP_OFFLINE
+### -field VDS_SP_OFFLINE:0x3
 
 All newly discovered disks remain offline and read-only.
 
-### -field VDS_SP_OFFLINE_INTERNAL
+### -field VDS_SP_OFFLINE_INTERNAL:0x4
 
-### -field VDS_SP_MAX
+### -field VDS_SP_MAX:0x5
 
 ## -remarks
 

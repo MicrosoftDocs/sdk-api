@@ -52,7 +52,7 @@ api_name:
 
 Generates a system beep.
 
-## -parameters
+
 
 ## -returns
 

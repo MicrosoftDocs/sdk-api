@@ -100,12 +100,16 @@ This function can return the standard return values E_INVALIDARG, E_OUTOFMEMORY,
 
 
 
-<pre class="syntax" xml:space="preserve"><code>pProxy-&gt;QueryInterface(IID_IClientSecurity, (void**)&amp;pcs);
+
+``` syntax
+pProxy-&gt;QueryInterface(IID_IClientSecurity, (void**)&amp;pcs);
 pcs-&gt;QueryBlanket(
     pProxy, pAuthnSvc, pAuthzSvc, pServerPrincName, pAuthnLevel, pImpLevel, ppAuthInfo, pCapabilities
   );
 pcs-&gt;Release();
-</code></pre>
+
+```
+
 This sequence calls <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the proxy to get a pointer to <a href="/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a>, and with the resulting pointer, calls <a href="/windows/desktop/api/objidl/nf-objidl-iclientsecurity-queryblanket">IClientSecurity::QueryBlanket</a> and then releases the pointer.
 
 In <i>pProxy</i>, you can pass any proxy, such as a proxy you get through a call to <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> or <a href="/windows/desktop/api/combaseapi/nf-combaseapi-counmarshalinterface">CoUnmarshalInterface</a>, or you can pass an interface pointer. It can be any interface. You cannot pass a pointer to something that is not a proxy. Therefore, you can't pass a pointer to an interface that has the local keyword in its interface definition because no proxy is created for such an interface. <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> is the exception to this rule.

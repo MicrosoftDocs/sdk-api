@@ -75,9 +75,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 The data stored in a TLS slot can have a value of 0 because it still has its initial value or because the thread called the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlssetvalue">TlsSetValue</a> function with 0. Therefore, if the return value is 0, you must check whether <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_SUCCESS</b> before determining that the function has failed. If <b>GetLastError</b> returns <b>ERROR_SUCCESS</b>, then the function has succeeded and the data stored in the TLS slot is 0. Otherwise, the function has failed.
 
-Functions that return indications of failure call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a>when they fail. They generally do not call <b>SetLastError</b>when they succeed. The 
+Functions that return indications of failure call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> when they fail. They generally do not call <b>SetLastError</b> when they succeed. The 
 <b>TlsGetValue</b> function is an exception to this general rule. The 
-<b>TlsGetValue</b> function calls <b>SetLastError</b>to clear a thread's last error when it succeeds. That allows checking for the error-free retrieval of zero values.
+<b>TlsGetValue</b> function calls <b>SetLastError</b> to clear a thread's last error when it succeeds. That allows checking for the error-free retrieval of zero values.
 
 ## -remarks
 

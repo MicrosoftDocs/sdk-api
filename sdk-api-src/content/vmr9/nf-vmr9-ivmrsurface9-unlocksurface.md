@@ -53,7 +53,7 @@ api_name:
 
 The <code>UnlockSurface</code> method unlocks the attached Direct3D surface.
 
-## -parameters
+
 
 ## -returns
 

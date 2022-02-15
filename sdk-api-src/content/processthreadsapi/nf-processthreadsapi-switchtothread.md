@@ -59,7 +59,7 @@ api_name:
 
 Causes the calling thread to yield execution to another thread that is ready to run on the current processor. The operating system selects the next thread to be executed.
 
-## -parameters
+
 
 ## -returns
 

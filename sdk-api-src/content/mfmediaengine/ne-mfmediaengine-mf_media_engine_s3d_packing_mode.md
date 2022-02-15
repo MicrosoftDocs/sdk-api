@@ -54,15 +54,15 @@ Specifies the layout for a packed 3D video frame.
 
 ## -enum-fields
 
-### -field MF_MEDIA_ENGINE_S3D_PACKING_MODE_NONE
+### -field MF_MEDIA_ENGINE_S3D_PACKING_MODE_NONE:0
 
 None.
 
-### -field MF_MEDIA_ENGINE_S3D_PACKING_MODE_SIDE_BY_SIDE
+### -field MF_MEDIA_ENGINE_S3D_PACKING_MODE_SIDE_BY_SIDE:1
 
 The views are packed side-by-side in a single frame.
 
-### -field MF_MEDIA_ENGINE_S3D_PACKING_MODE_TOP_BOTTOM
+### -field MF_MEDIA_ENGINE_S3D_PACKING_MODE_TOP_BOTTOM:2
 
 The views are packed top-to-bottom in a single frame.
 

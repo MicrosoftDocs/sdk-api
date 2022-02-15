@@ -52,7 +52,7 @@ api_name:
 
 The <b>IDirectDrawKernel::ReleaseKernelHandle</b> method releases a kernel-mode handle to the DirectDraw object.
 
-## -parameters
+
 
 ## -returns
 

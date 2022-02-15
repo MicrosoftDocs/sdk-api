@@ -61,23 +61,23 @@ The
 
 ## -enum-fields
 
-### -field ViewOption_Default
+### -field ViewOption_Default:0
 
 The view is added with default settings.
 
-### -field ViewOption_ScopeTreeHidden
+### -field ViewOption_ScopeTreeHidden:0x1
 
 The view is added with the scope tree pane hidden. The user will not be able to show the scope tree, as the <b>Console Tree</b> check box will be disabled in the <b>Customize View</b> dialog box.
 
-### -field ViewOption_NoToolBars
+### -field ViewOption_NoToolBars:0x2
 
 The view is added with toolbars hidden.
 
-### -field ViewOption_NotPersistable
+### -field ViewOption_NotPersistable:0x4
 
 The view is added as temporary (without persistence capability).
 
-### -field ViewOption_ActionPaneHidden
+### -field ViewOption_ActionPaneHidden:0x8
 
 ## -see-also
 

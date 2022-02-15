@@ -80,7 +80,9 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 #### Examples
 
-<pre class="syntax" xml:space="preserve"><code>void CALLBACK YourInternetStatusCallbackFunction(
+
+``` syntax
+void CALLBACK YourInternetStatusCallbackFunction(
     HINTERNET hInternet,
     DWORD_PTR dwContext,
     DWORD dwInternetStatus,
@@ -105,7 +107,9 @@ Like all other aspects of the WinINet API, this function cannot be safely called
   }
 
   return;
-}</code></pre>
+}
+```
+
 
 ## -see-also
 

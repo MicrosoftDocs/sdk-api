@@ -52,7 +52,7 @@ api_name:
 
 Instructs the command list to stop accepting commands so that you can use it as an input to an effect or in a call to <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandsink-drawimage">ID2D1DeviceContext::DrawImage</a>.  You should call the method after it has been attached to an <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>  and written to but before the command list is used.
 
-## -parameters
+
 
 ## -returns
 

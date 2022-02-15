@@ -78,7 +78,7 @@ None
 
 <b>EngSort</b> implements a quick-sort algorithm to sort <i>cjElem</i> elements in <i>pjBuf</i>, where each element is of size <i>c</i>. The sorted elements are returned in <i>pjBuf</i>; that is, the original contents of the buffer are overwritten with the sorted results.
 
-The basis for comparing two elements is defined in the function that <i>pfnComp </i>points to. This function is prototyped as follows:
+The basis for comparing two elements is defined in the function that <i>pfnComp </i> points to. This function is prototyped as follows:
 
 
 ```

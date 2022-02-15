@@ -59,125 +59,125 @@ Specifies the type of cluster group to create.
 
 ## -enum-fields
 
-### -field ClusGroupTypeCoreCluster
+### -field ClusGroupTypeCoreCluster:1
 
 A core cluster group.
 
-### -field ClusGroupTypeAvailableStorage
+### -field ClusGroupTypeAvailableStorage:2
 
 An available storage cluster group.
 
-### -field ClusGroupTypeTemporary
+### -field ClusGroupTypeTemporary:3
 
 A temporary cluster group.
 
-### -field ClusGroupTypeSharedVolume
+### -field ClusGroupTypeSharedVolume:4
 
 A shared volume.
 
-### -field ClusGroupTypeStoragePool
+### -field ClusGroupTypeStoragePool:5
 
 A storage pool.
 
-### -field ClusGroupTypeFileServer
+### -field ClusGroupTypeFileServer:100
 
 A file server.
 
-### -field ClusGroupTypePrintServer
+### -field ClusGroupTypePrintServer:101
 
 A print server.
 
-### -field ClusGroupTypeDhcpServer
+### -field ClusGroupTypeDhcpServer:102
 
 A Dynamic Host Configuration Protocol (DHCP) server.
 
-### -field ClusGroupTypeDtc
+### -field ClusGroupTypeDtc:103
 
 A Distributed Transaction Coordinator (DTC) service.
 
-### -field ClusGroupTypeMsmq
+### -field ClusGroupTypeMsmq:104
 
 An Microsoft Message Queuing (MSMQ) service.
 
-### -field ClusGroupTypeWins
+### -field ClusGroupTypeWins:105
 
 A Windows Internet Name Service (WINS).
 
-### -field ClusGroupTypeStandAloneDfs
+### -field ClusGroupTypeStandAloneDfs:106
 
 A standalone Distributed File System (DFS).
 
-### -field ClusGroupTypeGenericApplication
+### -field ClusGroupTypeGenericApplication:107
 
 A generic application.
 
-### -field ClusGroupTypeGenericService
+### -field ClusGroupTypeGenericService:108
 
 A generic service.
 
-### -field ClusGroupTypeGenericScript
+### -field ClusGroupTypeGenericScript:109
 
 A generic script.
 
-### -field ClusGroupTypeIScsiNameService
+### -field ClusGroupTypeIScsiNameService:110
 
 An  Internet Small Computer System Interface (iSCSI) name service.
 
-### -field ClusGroupTypeVirtualMachine
+### -field ClusGroupTypeVirtualMachine:111
 
 A virtual machine.
 
-### -field ClusGroupTypeTsSessionBroker
+### -field ClusGroupTypeTsSessionBroker:112
 
 A Terminal Services  Session  Broker.
 
-### -field ClusGroupTypeIScsiTarget
+### -field ClusGroupTypeIScsiTarget:113
 
 An iSCSI target.
 
-### -field ClusGroupTypeScaleoutFileServer
+### -field ClusGroupTypeScaleoutFileServer:114
 
 A Scale-Out File Server.
 
-### -field ClusGroupTypeVMReplicaBroker
+### -field ClusGroupTypeVMReplicaBroker:115
 
 A virtual machine  replica broker.
 
-### -field ClusGroupTypeTaskScheduler
+### -field ClusGroupTypeTaskScheduler:116
 
 A task scheduler.
 
-### -field ClusGroupTypeClusterUpdateAgent
+### -field ClusGroupTypeClusterUpdateAgent:117
 
 A cluster update agent.
 
-### -field ClusGroupTypeScaleoutCluster
+### -field ClusGroupTypeScaleoutCluster:118
 
 A cluster on a scale-out file server.
 
 <b>Windows Server 2012 R2 and Windows Server 2012:  </b>This member is not supported until Windows Server 2016.
 
-### -field ClusGroupTypeStorageReplica
+### -field ClusGroupTypeStorageReplica:119
 
 A storage replica.
 
 <b>Windows Server 2012 R2 and Windows Server 2012:  </b>This member is not supported until Windows Server 2016.
 
-### -field ClusGroupTypeVMReplicaCoordinator
+### -field ClusGroupTypeVMReplicaCoordinator:120
 
 A virtual machine replica coordinator.
 
 <b>Windows Server 2012 R2 and Windows Server 2012:  </b>This member is not supported until Windows Server 2016.
 
-### -field ClusGroupTypeCrossClusterOrchestrator
+### -field ClusGroupTypeCrossClusterOrchestrator:121
 
 A cross-cluster orchestrator.
 
 <b>Windows Server 2012 R2 and Windows Server 2012:  </b>This member is not supported until Windows Server 2016.
 
-### -field ClusGroupTypeInfrastructureFileServer
+### -field ClusGroupTypeInfrastructureFileServer:122
 
-### -field ClusGroupTypeUnknown
+### -field ClusGroupTypeUnknown:9999
 
 An unknown cluster group type.
 

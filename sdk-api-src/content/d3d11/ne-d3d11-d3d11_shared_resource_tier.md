@@ -13,8 +13,8 @@ req.header: d3d11.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -39,7 +39,7 @@ Defines constants that specify a tier for shared resource support.
 
 ## -enum-fields
 
-### -field D3D11_SHARED_RESOURCE_TIER_0
+### -field D3D11_SHARED_RESOURCE_TIER_0:0
 
 Specifies the support available when [D3D11_FEATURE_DATA_D3D11_OPTIONS::ExtendedResourceSharing](./ns-d3d11-d3d11_feature_data_d3d11_options.md) is **FALSE**.
 

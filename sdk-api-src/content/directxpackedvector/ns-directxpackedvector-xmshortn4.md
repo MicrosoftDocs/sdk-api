@@ -108,7 +108,7 @@ Those <code>XMSHORTN4</code> constructors using floating point arguments require
 	    <code>XMVECTOR</code> instance.
 	
 
-<code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMSHORTN4</code>using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstoreshortn4">XMStoreShortN4</a>, which multiplies each component by 32767.0f,
+<code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMSHORTN4</code> using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstoreshortn4">XMStoreShortN4</a>, which multiplies each component by 32767.0f,
 	    rounding the result, before assigning the values to the appropriate <code>XMSHORTN4</code> members.
 	
 

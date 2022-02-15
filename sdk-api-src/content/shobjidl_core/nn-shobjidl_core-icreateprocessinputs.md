@@ -54,10 +54,7 @@ Used by the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icreati
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateProcessInputs</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateProcessInputs</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ICreateProcessInputs</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateProcessInputs</b> also has these types of members:
 
 ## -remarks
 

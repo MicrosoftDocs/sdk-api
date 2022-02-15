@@ -55,7 +55,7 @@ api_name:
 The 
 <b>Disable</b> method disables a port mapping for a particular connection.
 
-## -parameters
+
 
 ## -returns
 

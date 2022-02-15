@@ -56,7 +56,7 @@ The <b>ACL_INFORMATION_CLASS</b> enumeration contains values that specify the ty
 
 ## -enum-fields
 
-### -field AclRevisionInformation
+### -field AclRevisionInformation:1
 
 Indicates ACL revision information.
 

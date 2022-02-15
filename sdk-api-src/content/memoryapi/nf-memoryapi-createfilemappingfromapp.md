@@ -234,7 +234,7 @@ If <b>SEC_LARGE_PAGES</b> is specified, <b>SEC_COMMIT</b> must also
 </dl>
 </td>
 <td width="60%">
-Sets all pages to be non-cachable.
+Sets all pages to be non-cacheable.
 
 Applications should not use this attribute except when 
          explicitly required for a device. Using the interlocked functions with memory that is mapped with 

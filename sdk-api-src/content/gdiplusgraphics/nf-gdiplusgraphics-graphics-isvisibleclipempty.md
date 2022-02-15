@@ -53,7 +53,7 @@ api_name:
 
 The <b>Graphics::IsVisibleClipEmpty</b> method determines whether the visible clipping region of this <a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object is empty. The visible clipping region is the intersection of the clipping region of this <b>Graphics</b> object and the clipping region of the window.
 
-## -parameters
+
 
 ## -returns
 

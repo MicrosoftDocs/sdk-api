@@ -56,7 +56,7 @@ The <b>EC_SUBSCRIPTION_CONFIGURATION_MODE</b> enumeration specifies different co
 
 ## -enum-fields
 
-### -field EcConfigurationModeNormal
+### -field EcConfigurationModeNormal:0
 
 This mode is used when an administrator needs the events to be delivered reliably and for the subscription to work with minimal configuration, and when network usage is not a concern. This mode sets the default subscription delivery mode to pull subscriptions.
 
@@ -74,7 +74,7 @@ This mode is used when network activity is controllable, and when network usage 
 
 ## -remarks
 
-The settings for each configuration mode can be found in the Event Collector registry located at: <pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+The settings for each configuration mode can be found in the Event Collector registry located at: <pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
          <b>Windows</b>

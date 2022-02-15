@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>WM_CLIENT_PROPERTIES_EX </b>structure holds extended client information.
+The <b>WM_CLIENT_PROPERTIES_EX</b> structure holds extended client information.
 
 ## -struct-fields
 

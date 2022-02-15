@@ -53,7 +53,7 @@ api_name:
 
 Creates a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-levels">Levels</a> object.
 
-## -parameters
+
 
 ## -see-also
 

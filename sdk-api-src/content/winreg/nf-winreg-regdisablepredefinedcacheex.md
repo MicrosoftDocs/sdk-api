@@ -59,7 +59,7 @@ api_name:
 
 Disables handle caching for all predefined registry handles for the current process.
 
-## -parameters
+
 
 ## -returns
 

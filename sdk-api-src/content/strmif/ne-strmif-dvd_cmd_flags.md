@@ -56,27 +56,27 @@ Defines flags that control how the <a href="/windows/desktop/DirectShow/dvd-navi
 
 ## -enum-fields
 
-### -field DVD_CMD_FLAG_None
+### -field DVD_CMD_FLAG_None:0
 
 The DVD Navigator will not flush its buffers when it issues the command, will not send any events, and will not to block the thread of execution on any method call.
 
-### -field DVD_CMD_FLAG_Flush
+### -field DVD_CMD_FLAG_Flush:0x1
 
 The DVD Navigator will flush all of its buffered video data before issuing the command. This can cause the DVD Navigator to discard approximately two seconds of video, which will decrease the response time but cause a gap in the playback data.
 
-### -field DVD_CMD_FLAG_SendEvents
+### -field DVD_CMD_FLAG_SendEvents:0x2
 
 The DVD Navigator will send an <a href="/windows/desktop/DirectShow/ec-dvd-cmd-start">EC_DVD_CMD_START</a> event when the command begins, and an <a href="/windows/desktop/DirectShow/ec-dvd-cmd-end">EC_DVD_CMD_END</a> event when the command ends. The event parameters contain the status code of the operation.
 
-### -field DVD_CMD_FLAG_Block
+### -field DVD_CMD_FLAG_Block:0x4
 
 The DVD Navigator blocks until the command completes or is canceled.
 
-### -field DVD_CMD_FLAG_StartWhenRendered
+### -field DVD_CMD_FLAG_StartWhenRendered:0x8
 
 Currently not used.
 
-### -field DVD_CMD_FLAG_EndAfterRendered
+### -field DVD_CMD_FLAG_EndAfterRendered:0x10
 
 The DVD Navigator will block until the specified action is actually rendered. This flag can be used with the following methods:
 

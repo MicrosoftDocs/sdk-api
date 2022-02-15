@@ -54,10 +54,7 @@ Creates Direct2D resources. This interface also enables the creation of <a href=
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Factory4</b> interface inherits from <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1factory3">ID2D1Factory3</a>. <b>ID2D1Factory4</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID2D1Factory4</b> interface inherits from <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1factory3">ID2D1Factory3</a>. <b>ID2D1Factory4</b> also has these types of members:
 
 ## -see-also
 

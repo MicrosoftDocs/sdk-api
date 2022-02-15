@@ -68,31 +68,31 @@ You can choose one of the following values to specify how keys are inherited:<ul
 
 ## -enum-fields
 
-### -field InheritDefault
+### -field InheritDefault:0
 
 Inheritance is not specified. For more information, see the  <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10-initializefromcertificate">InitializeFromCertificate</a> method on the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a> interface.
 
-### -field InheritNewDefaultKey
+### -field InheritNewDefaultKey:0x1
 
 Creates a new key but inherits the default <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) or KSP.
 
-### -field InheritNewSimilarKey
+### -field InheritNewSimilarKey:0x2
 
 Creates a new key but inherits the CSP or KSP used to create the existing certificate.
 
-### -field InheritPrivateKey
+### -field InheritPrivateKey:0x3
 
 Inherits the <a href="/windows/desktop/SecGloss/p-gly">private</a> and <a href="/windows/desktop/SecGloss/p-gly">public keys</a>.
 
-### -field InheritPublicKey
+### -field InheritPublicKey:0x4
 
 Inherits only the public key.
 
-### -field InheritKeyMask
+### -field InheritKeyMask:0xf
 
 Use to mask the lower-order 4 bits that identify key inheritance.
 
-### -field InheritNone
+### -field InheritNone:0x10
 
 Prevents use of the following inheritance values:
 
@@ -105,19 +105,19 @@ Prevents use of the following inheritance values:
 <li><b>InheritValidityPeriodFlag</b></li>
 </ul>
 
-### -field InheritRenewalCertificateFlag
+### -field InheritRenewalCertificateFlag:0x20
 
 Inherits the renewal certificate. Specifying this flag sets an <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyrenewal">ICertPropertyRenewal</a> value.
 
-### -field InheritTemplateFlag
+### -field InheritTemplateFlag:0x40
 
 Inherits the <a href="/windows/desktop/SecGloss/c-gly">certificate template</a>.
 
-### -field InheritSubjectFlag
+### -field InheritSubjectFlag:0x80
 
 Inherits the subject distinguished name.
 
-### -field InheritExtensionsFlag
+### -field InheritExtensionsFlag:0x100
 
 Inherits the relevant extensions from the certificate. Extension values associated with the following <a href="/windows/desktop/SecGloss/o-gly">object identifiers</a> are not inherited:
 
@@ -131,15 +131,15 @@ Inherits the relevant extensions from the certificate. Extension values associat
 <li>XCN_OID_CERTIFICATE_TEMPLATE</li>
 </ul>
 
-### -field InheritSubjectAltNameFlag
+### -field InheritSubjectAltNameFlag:0x200
 
 Inherits the <b>SubjectAlternativeName</b> extension.
 
-### -field InheritValidityPeriodFlag
+### -field InheritValidityPeriodFlag:0x400
 
 Inherits the validity period.
 
-### -field InheritReserved80000000
+### -field InheritReserved80000000:0x80000000
 
 ## -see-also
 

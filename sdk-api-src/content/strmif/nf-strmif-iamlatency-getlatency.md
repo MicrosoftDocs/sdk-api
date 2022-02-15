@@ -61,7 +61,7 @@ Pointer to a variable that receives the latency in 100-nanosecond units.
 
 ## -returns
 
-Returns S_OK if successsful, or an error code otherwise.
+Returns S_OK if successful, or an error code otherwise.
 
 ## -see-also
 

@@ -375,7 +375,7 @@ Specifies the output quality. The output quality defines how carefully the GDI m
 <tr>
 <td>NONANTIALIASED_QUALITY</td>
 <td>Forces use of draft quality when the 
-                                <b>HKEY_LOCAL_MACHINE</b>&#92;<b>System</b>&#92;<b>GDI</b>&#92;<b>Fontsmoothing</b>registry subkey is present.</td>
+                                <b>HKEY_LOCAL_MACHINE</b>&#92;<b>System</b>&#92;<b>GDI</b>&#92;<b>Fontsmoothing</b> registry subkey is present.</td>
 </tr>
 <tr>
 <td>CLEARTYPE_COMPAT_QUALITY</td>

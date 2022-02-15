@@ -52,7 +52,7 @@ api_name:
 
 Determines if the map is up to date.
 
-## -parameters
+
 
 ## -returns
 

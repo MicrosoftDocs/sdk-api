@@ -64,7 +64,7 @@ Pointer to an address containing the server's ID block. This field should be set
 
 ### -param Servers [out]
 
-Pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpds_servers">DHCP_SERVER_INFO_ARRAY</a>structure that contains the output list of DHCP servers.
+Pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpds_servers">DHCP_SERVER_INFO_ARRAY</a> structure that contains the output list of DHCP servers.
 
 ### -param CallbackFn [in]
 

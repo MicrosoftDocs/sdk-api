@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Returns an instance of <code>uint32_t</code> containing the components of the <code>XMXDEC4</code>instance in a packed format.
+Returns an instance of <code>uint32_t</code> containing the components of the <code>XMXDEC4</code> instance in a packed format.
     
 
 This operator returns an instance of <code>uint32_t</code> containing the components of the <a href="https://msdn.microsoft.com/5b46e0fb-e4a5-49c4-8084-0c631d43d4f7">XMXDEC4
@@ -58,7 +58,7 @@ This operator returns an instance of <code>uint32_t</code> containing the compon
 <div class="alert"><b>Note</b>  This operator is only available under C++.
     </div><div> </div>
 
-## -parameters
+
 
 ## -returns
 
@@ -72,22 +72,22 @@ The packed format of this operators return value is:
 
 <ul>
 <li>
-The first 20 bits (bits 0-09) of the return value are to the <b>x</b>component of the current instance of <code>XMXDEC4</code>.
+The first 20 bits (bits 0-09) of the return value are to the <b>x</b> component of the current instance of <code>XMXDEC4</code>.
 		
 
 </li>
 <li>
-The second 20 bits (bits 10-19) of the return value are to the <b>y</b>component of the current instance of <code>XMXDEC4</code>.
+The second 20 bits (bits 10-19) of the return value are to the <b>y</b> component of the current instance of <code>XMXDEC4</code>.
 		
 
 </li>
 <li>
-The third 20 bits (bits 20-29) of the return value are to the <b>z</b>component of the current instance of <code>XMXDEC4</code>.
+The third 20 bits (bits 20-29) of the return value are to the <b>z</b> component of the current instance of <code>XMXDEC4</code>.
 		
 
 </li>
 <li>
-The last 4 bits (bits 30-31) of the return value are to the <b>w</b>component of the current instance of <code>XMXDEC4</code>.
+The last 4 bits (bits 30-31) of the return value are to the <b>w</b> component of the current instance of <code>XMXDEC4</code>.
 		
 
 </li>

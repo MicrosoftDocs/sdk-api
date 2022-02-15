@@ -54,23 +54,23 @@ Provides operation status flags.
 
 ## -enum-fields
 
-### -field PDOPS_RUNNING
+### -field PDOPS_RUNNING:1
 
 Operation is running, no user intervention.
 
-### -field PDOPS_PAUSED
+### -field PDOPS_PAUSED:2
 
 Operation has been paused by the user.
 
-### -field PDOPS_CANCELLED
+### -field PDOPS_CANCELLED:3
 
 Operation has been canceled by the user - now go undo.
 
-### -field PDOPS_STOPPED
+### -field PDOPS_STOPPED:4
 
 Operation has been stopped by the user - terminate completely.
 
-### -field PDOPS_ERRORS
+### -field PDOPS_ERRORS:5
 
 Operation has gone as far as it can go without throwing error dialogs.
 

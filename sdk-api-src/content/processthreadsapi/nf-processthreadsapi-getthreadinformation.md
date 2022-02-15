@@ -6,13 +6,13 @@ helpviewer_keywords: ["GetThreadInformation","GetThreadInformation function","ba
 old-location: base\getthreadinformation.htm
 tech.root: backup
 ms.assetid: b7996647-78ab-4f32-bcf6-41aa87d13bb8
-ms.date: 12/05/2018
+ms.date: 01/21/2022
 ms.keywords: GetThreadInformation, GetThreadInformation function, base.getthreadinformation, processthreadsapi/GetThreadInformation
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -52,7 +52,6 @@ api_name:
 
 # GetThreadInformation function
 
-
 ## -description
 
 Retrieves information about the specified thread.
@@ -61,39 +60,41 @@ Retrieves information about the specified thread.
 
 ### -param hThread [in]
 
-A handle to the thread. The handle must have THREAD_QUERY_INFORMATION access rights. For more information, see  <a href="/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
+A handle to the thread. The handle must have THREAD_QUERY_INFORMATION access rights. For more information, see [Thread Security and Access Rights](/windows/desktop/ProcThread/thread-security-and-access-rights).
 
 ### -param ThreadInformationClass [in]
 
-The class of information to retrieve. The only supported values are <b>ThreadMemoryPriority</b> and <b>ThreadPowerThrottling</b>.
+The class of information to retrieve. This value can be **ThreadMemoryPriority**, **ThreadAbsoluteCpuPriority** or **ThreadDynamicCodePolicy**.
+
+> [!NOTE]
+> **ThreadDynamicCodePolicy** is supported in Windows Server 2016 and newer, Windows 10 LTSB 2016 and newer, and Windows 10 version 1607 and newer.
 
 ### -param ThreadInformation
 
-Pointer to a structure to receive the type of information specified by the <i>ThreadInformationClass</i> parameter.
+Pointer to a structure to receive the type of information specified by the *ThreadInformationClass* parameter.
 
-If the <i>ThreadInformationClass</i> parameter is <b>ThreadMemoryPriority</b>, this parameter must point to a <b>MEMORY_PRIORITY_INFORMATION</b> structure.
+If the *ThreadInformationClass* parameter is **ThreadMemoryPriority**, this parameter must point to a **MEMORY_PRIORITY_INFORMATION** structure.
 
-If the <i>ThreadInformationClass</i> parameter is <b>ThreadPowerThrottling</b>, this parameter must point to a <b>THREAD_POWER_THROTTLING_STATE</b> structure.
+If the *ThreadInformationClass* parameter is **ThreadAbsoluteCpuPriority**, this parameter must point to a **LONG**.
+
+If the *ThreadInformationClass* parameter is **ThreadDynamicCodePolicy**, this parameter must point to a **DWORD**.
 
 ### -param ThreadInformationSize [in]
 
-The size in bytes of the structure specified by the <i>ThreadInformation</i> parameter.
+The size in bytes of the structure specified by the *ThreadInformation* parameter.
 
-If the <i>ThreadInformationClass</i> parameter is <b>ThreadMemoryPriority</b>, this parameter must be <code>sizeof(MEMORY_PRIORITY_INFORMATION)</code>.  
+If the *ThreadInformationClass* parameter is **ThreadMemoryPriority**, this parameter must be `sizeof(MEMORY_PRIORITY_INFORMATION)`.  
 
-If the <i>ThreadInformationClass</i> parameter is <b>ThreadPowerThrottling</b>, this parameter must be <code>sizeof(THREAD_POWER_THROTTLING_STATE)</code>.
+If the *ThreadInformationClass* parameter is **ThreadAbsoluteCpuPriority**, this parameter must be `sizeof(LONG)`.
+
+If the *ThreadInformationClass* parameter is **ThreadDynamicCodePolicy**, this parameter must be `sizeof(DWORD)`.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call 
-      <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -see-also
 
-<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessinformation">GetProcessInformation</a>
-
-
-
-<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadinformation">SetThreadInformation</a>
+[GetProcessInformation](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessinformation), [SetThreadInformation](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadinformation)

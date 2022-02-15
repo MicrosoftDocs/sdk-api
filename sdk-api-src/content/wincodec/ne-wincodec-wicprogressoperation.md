@@ -54,19 +54,19 @@ Specifies the progress operations to receive notifications for.
 
 ## -enum-fields
 
-### -field WICProgressOperationCopyPixels
+### -field WICProgressOperationCopyPixels:0x1
 
 Receive copy pixel operation.
 
-### -field WICProgressOperationWritePixels
+### -field WICProgressOperationWritePixels:0x2
 
 Receive write pixel operation.
 
-### -field WICProgressOperationAll
+### -field WICProgressOperationAll:0xffff
 
 Receive all progress operations available.
 
-### -field WICPROGRESSOPERATION_FORCE_DWORD
+### -field WICPROGRESSOPERATION_FORCE_DWORD:0x7fffffff
 
 ## -see-also
 

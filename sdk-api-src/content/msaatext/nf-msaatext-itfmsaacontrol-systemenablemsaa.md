@@ -52,7 +52,7 @@ api_name:
 
 Used by MSAA to request TSF support of an MSAA client.
 
-## -parameters
+
 
 ## -returns
 

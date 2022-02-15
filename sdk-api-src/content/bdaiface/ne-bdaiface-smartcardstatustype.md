@@ -54,7 +54,7 @@ The <b>SmartCardStatusType</b> enumeration type specifies the status of a smart 
 
 ## -enum-fields
 
-### -field CardInserted
+### -field CardInserted:0
 
 The card was inserted.
 

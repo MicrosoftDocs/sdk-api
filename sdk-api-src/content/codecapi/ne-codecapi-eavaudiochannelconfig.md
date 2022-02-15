@@ -54,75 +54,75 @@ Specifies the speaker configuration for the audio channels in the audio bit stre
 
 ## -enum-fields
 
-### -field eAVAudioChannelConfig_FRONT_LEFT
+### -field eAVAudioChannelConfig_FRONT_LEFT:0x1
 
 Front left
 
-### -field eAVAudioChannelConfig_FRONT_RIGHT
+### -field eAVAudioChannelConfig_FRONT_RIGHT:0x2
 
 Front right
 
-### -field eAVAudioChannelConfig_FRONT_CENTER
+### -field eAVAudioChannelConfig_FRONT_CENTER:0x4
 
 Front center
 
-### -field eAVAudioChannelConfig_LOW_FREQUENCY
+### -field eAVAudioChannelConfig_LOW_FREQUENCY:0x8
 
 Low frequency effect (LFE)
 
-### -field eAVAudioChannelConfig_BACK_LEFT
+### -field eAVAudioChannelConfig_BACK_LEFT:0x10
 
 Back left
 
-### -field eAVAudioChannelConfig_BACK_RIGHT
+### -field eAVAudioChannelConfig_BACK_RIGHT:0x20
 
 Back right
 
-### -field eAVAudioChannelConfig_FRONT_LEFT_OF_CENTER
+### -field eAVAudioChannelConfig_FRONT_LEFT_OF_CENTER:0x40
 
 Front, left of center
 
-### -field eAVAudioChannelConfig_FRONT_RIGHT_OF_CENTER
+### -field eAVAudioChannelConfig_FRONT_RIGHT_OF_CENTER:0x80
 
 Front, right of center
 
-### -field eAVAudioChannelConfig_BACK_CENTER
+### -field eAVAudioChannelConfig_BACK_CENTER:0x100
 
 Back center
 
-### -field eAVAudioChannelConfig_SIDE_LEFT
+### -field eAVAudioChannelConfig_SIDE_LEFT:0x200
 
 Side left
 
-### -field eAVAudioChannelConfig_SIDE_RIGHT
+### -field eAVAudioChannelConfig_SIDE_RIGHT:0x400
 
 Side right
 
-### -field eAVAudioChannelConfig_TOP_CENTER
+### -field eAVAudioChannelConfig_TOP_CENTER:0x800
 
 Top center
 
-### -field eAVAudioChannelConfig_TOP_FRONT_LEFT
+### -field eAVAudioChannelConfig_TOP_FRONT_LEFT:0x1000
 
 Top, front left
 
-### -field eAVAudioChannelConfig_TOP_FRONT_CENTER
+### -field eAVAudioChannelConfig_TOP_FRONT_CENTER:0x2000
 
 Top, front center
 
-### -field eAVAudioChannelConfig_TOP_FRONT_RIGHT
+### -field eAVAudioChannelConfig_TOP_FRONT_RIGHT:0x4000
 
 Top, front right
 
-### -field eAVAudioChannelConfig_TOP_BACK_LEFT
+### -field eAVAudioChannelConfig_TOP_BACK_LEFT:0x8000
 
 Top, back left
 
-### -field eAVAudioChannelConfig_TOP_BACK_CENTER
+### -field eAVAudioChannelConfig_TOP_BACK_CENTER:0x10000
 
 Top, back center
 
-### -field eAVAudioChannelConfig_TOP_BACK_RIGHT
+### -field eAVAudioChannelConfig_TOP_BACK_RIGHT:0x20000 
 
 Top, back right
 

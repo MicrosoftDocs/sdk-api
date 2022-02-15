@@ -52,7 +52,7 @@ api_name:
 
 The <b>Close</b> method closes the target file.
 
-## -parameters
+
 
 ## -returns
 

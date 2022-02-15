@@ -56,11 +56,11 @@ Defines the types of file classification properties that you can define.
 
 ## -enum-fields
 
-### -field FsrmPropertyDefinitionType_Unknown
+### -field FsrmPropertyDefinitionType_Unknown:0
 
 The type is unknown. Do not use this value.
 
-### -field FsrmPropertyDefinitionType_OrderedList
+### -field FsrmPropertyDefinitionType_OrderedList:1
 
 A classification property that defines an ordered list of possible string values, one of which may be 
        assigned to the property.
@@ -76,7 +76,7 @@ You can use the following comparison operators with this type (see
        <a href="/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
        Greater than, Less than, Exists, and Not exists.
 
-### -field FsrmPropertyDefinitionType_MultiChoiceList
+### -field FsrmPropertyDefinitionType_MultiChoiceList:2
 
 A classification property that defines a list of possible string values, one or more of which may be assigned 
        to the property. Use the vertical bar character (|) to delimit the strings.
@@ -91,7 +91,7 @@ You can use the following comparison operators with this type (see
        <a href="/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
        Contains, Contained in, Exists, and Not exists.
 
-### -field FsrmPropertyDefinitionType_SingleChoiceList
+### -field FsrmPropertyDefinitionType_SingleChoiceList:3
 
 A classification property that defines a list of possible string values, only one of which may be assigned 
        to the property.
@@ -104,7 +104,7 @@ You can use the following comparison operators with this type (see
 
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This file classification property type is not supported before Windows Server 2012.
 
-### -field FsrmPropertyDefinitionType_String
+### -field FsrmPropertyDefinitionType_String:4
 
 A classification property that contains an arbitrary string value.
 
@@ -115,7 +115,7 @@ You can use the following comparison operators with this type (see
        Greater than, Less than, Contains, Contained in, Start with, End with, Prefix of, Suffix of, Exists, and Not 
        exists.
 
-### -field FsrmPropertyDefinitionType_MultiString
+### -field FsrmPropertyDefinitionType_MultiString:5
 
 A classification property that contains one or more arbitrary string values. Use the vertical bar character 
        (|) to delimit the strings.
@@ -128,7 +128,7 @@ You can use the following comparison operators with this type (see
        <a href="/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
        Contains, Contained in, Exists, and Not exists.
 
-### -field FsrmPropertyDefinitionType_Int
+### -field FsrmPropertyDefinitionType_Int:6
 
 A classification property that contains a decimal integer value expressed as a string.
 
@@ -138,7 +138,7 @@ You can use the following comparison operators with this type (see
        <a href="/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
        Greater than, Less than, Exists, and Not exists.
 
-### -field FsrmPropertyDefinitionType_Bool
+### -field FsrmPropertyDefinitionType_Bool:7
 
 A classification property that contains a Boolean value expressed as a string. Use a string value of 
        "0" for <b>False</b> or a string value of "1" for 
@@ -153,7 +153,7 @@ You can use the following comparison operators with this type (see
        <a href="/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
        Exists, and Not exists.
 
-### -field FsrmPropertyDefinitionType_Date
+### -field FsrmPropertyDefinitionType_Date:8
 
 A classification property that contains a date value. The date value is a 64-bit decimal number (see 
        <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>) expressed as a string.

@@ -52,7 +52,7 @@ api_name:
 
 Sets the synchronization object to the signaled state and causes pending wait operations to return S_OK.
 
-## -parameters
+
 
 ## -returns
 

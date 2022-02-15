@@ -138,7 +138,7 @@ The <i>SubType</i> member indicates the specific subtype of controller present. 
 
 
 
-Older XUSB Windows drivers report incomplete capabilities information, particularly for wireless devices. The latest XUSB Windows driver provides full support for wired and wireless devices, and more complete and accurate capabilties flags.
+Older XUSB Windows drivers report incomplete capabilities information, particularly for wireless devices. The latest XUSB Windows driver provides full support for wired and wireless devices, and more complete and accurate capabilities flags.
 
 ## -see-also
 

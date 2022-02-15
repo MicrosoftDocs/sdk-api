@@ -54,11 +54,11 @@ Determines whether the enumeration operation should continue or stop.
 
 ## -enum-fields
 
-### -field HeapEnumerationEverything
+### -field HeapEnumerationEverything:0x0
 
 A constant that specifies the enumeration should continue.
 
-### -field HeapEnumerationStop
+### -field HeapEnumerationStop:0xFFFFFFFF
 
 A constant that specifies to the <a href="/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a> function when the enumeration operation should stop.
 

@@ -58,15 +58,15 @@ Specifies the possible ways that a device can be joined to Microsoft Azure Activ
 
 ## -enum-fields
 
-### -field DSREG_UNKNOWN_JOIN
+### -field DSREG_UNKNOWN_JOIN:0
 
 The type of join is not known.
 
-### -field DSREG_DEVICE_JOIN
+### -field DSREG_DEVICE_JOIN:1
 
 The device is joined to Azure Active Directory (Azure AD).
 
-### -field DSREG_WORKPLACE_JOIN
+### -field DSREG_WORKPLACE_JOIN:2
 
 An Azure AD work account is added on the device.
 

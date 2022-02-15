@@ -85,7 +85,7 @@ To enumerate all children of a devnode in a local or a remote machine's device t
 
 <b>Using Device Instance Handles</b>
 
-Device instance handle that you use with <a href="/previous-versions/ff549713(v=vs.85)">PnP configuration manager functions</a> are bound to machine handles, as follows:
+Device instance handle that you use with <a href="/windows/win32/api/cfgmgr32/">PnP configuration manager functions</a> are bound to machine handles, as follows:
 
 <ul>
 <li>
@@ -119,7 +119,7 @@ Use one of the following functions to retrieve a device instance handle bound to
 
 </li>
 </ul>
-You can also use the <a href="/previous-versions/ff541299(v=vs.85)">device installation functions</a> to obtain device instance handles. Do the following steps: 
+You can also use the <a href="/windows-hardware/drivers/install/using-device-installation-functions#ddk-update-driver-function-dg">device installation functions</a> to obtain device instance handles. Do the following steps: 
 
 <ol>
 <li>

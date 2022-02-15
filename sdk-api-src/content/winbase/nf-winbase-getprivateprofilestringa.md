@@ -109,11 +109,15 @@ The
 				
 			
 
-<pre class="syntax" xml:space="preserve"><code>[section]
+
+``` syntax
+[section]
 key=string
       .
       .
-      .</code></pre>
+      .
+```
+
 If <i>lpAppName</i> is <b>NULL</b>, 
 <b>GetPrivateProfileString</b> copies all section names in the specified file to the supplied buffer. If <i>lpKeyName</i> is <b>NULL</b>, the function copies all key names in the specified section to the supplied buffer. An application can use this method to enumerate all of the sections and keys in a file. In either case, each string is followed by a <b>null</b> character and the final string is followed by a second <b>null</b> character. If the supplied destination buffer is too small to hold all the strings, the last string is truncated and followed by two <b>null</b> characters.
 

@@ -61,7 +61,7 @@ api_name:
 
 The <b>TrimLeft</b> method trims leading whitespace characters from the string by removing new line, space, and tab characters.
 
-## -parameters
+
 
 ## -returns
 

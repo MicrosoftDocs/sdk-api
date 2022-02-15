@@ -56,11 +56,11 @@ Elements of the <b>TfIntegratableCandidateListSelectionStyle</b> enumeration spe
 
 ## -enum-fields
 
-### -field STYLE_ACTIVE_SELECTION
+### -field STYLE_ACTIVE_SELECTION:0
 
 The selection can be changed with the arrow keys.
 
-### -field STYLE_IMPLIED_SELECTION
+### -field STYLE_IMPLIED_SELECTION:0x1
 
 The default selection key will choose the selection.
 

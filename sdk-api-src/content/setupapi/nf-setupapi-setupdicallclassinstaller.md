@@ -60,7 +60,7 @@ The <b>SetupDiCallClassInstaller</b> function calls the appropriate class instal
 
 ### -param InstallFunction [in]
 
-The device installation request (DIF request) to pass to the co-installers and class installer. DIF codes have the format <b>DIF_<i>XXX</i></b> and are defined in Setupapi.h. See <a href="/previous-versions/ff541307(v=vs.85)">Device Installation Function Codes</a> for more information.
+The device installation request (DIF request) to pass to the co-installers and class installer. DIF codes have the format <b>DIF_<i>XXX</i></b> and are defined in Setupapi.h. See <a href="/windows-hardware/drivers/install/handling-dif-codes">Device Installation Function Codes</a> for more information.
 
 <div class="alert"><b>Note</b>  For certain DIF requests, the caller must be a member of the Administrators group. For such DIF requests, this requirement is listed on the reference page for the associated default handler.</div>
 <div> </div>
@@ -82,9 +82,9 @@ When GetLastError returns <b>ERROR_IN_WOW64</b>, this means that the calling app
 
 ## -remarks
 
-<b>SetupDiCallClassInstaller</b> calls the class installer and any co-installers that are registered for a device or a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a>. This function loads the installers if they are not yet loaded. The function also calls the default handler for the DIF request, if there is a default handler and if the installers return a status indicating that the default handler should be called.
+<b>SetupDiCallClassInstaller</b> calls the class installer and any co-installers that are registered for a device or a <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a>. This function loads the installers if they are not yet loaded. The function also calls the default handler for the DIF request, if there is a default handler and if the installers return a status indicating that the default handler should be called.
 
-<a href="/windows-hardware/drivers/">Device installation applications</a> call this function with a variety of <a href="/previous-versions/ff541307(v=vs.85)">device installation function codes</a> (DIF codes). The function ensures that all the appropriate installers and default handlers are called, in the correct order, for a given DIF request. For more information, see <a href="/windows-hardware/drivers/install/handling-dif-codes">Handling DIF Codes</a>.
+<a href="/windows-hardware/drivers/">Device installation applications</a> call this function with a variety of <a href="/windows-hardware/drivers/install/handling-dif-codes">device installation function codes</a> (DIF codes). The function ensures that all the appropriate installers and default handlers are called, in the correct order, for a given DIF request. For more information, see <a href="/windows-hardware/drivers/install/handling-dif-codes">Handling DIF Codes</a>.
 
 After <b>SetupDiCallClassInstaller</b> returns <b>TRUE</b>, the device installation application must call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinstallparamsa">SetupDiGetDeviceInstallParams</a> to obtain an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> structure. If the structure's <b>DI_NEEDREBOOT</b> or <b>DI_NEEDRESTART</b> flag is set, the caller must prompt the user to restart the system. For example, the caller can do this by calling <a href="/windows/desktop/api/setupapi/nf-setupapi-setuppromptreboot">SetupPromptReboot</a>. 
 

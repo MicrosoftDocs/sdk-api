@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by System Services. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [Developer Notes](../_winprog/index.md)
 - [System Services](../_base/index.md)
 

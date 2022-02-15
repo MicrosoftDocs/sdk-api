@@ -62,7 +62,7 @@ The <b>GetScript</b> method returns the type and command strings, and the presen
 
 ### -param wIndex [in]
 
-<b>WORD</b>that contains the index.
+<b>WORD</b> that contains the index.
 
 ### -param pwszType [out]
 
@@ -82,7 +82,7 @@ On input, a pointer to a variable that contains the length of the <i>pwszCommand
 
 ### -param pcnsScriptTime [out]
 
-Pointer to a <b>QWORD</b>that specifies the presentation time of this script command in 100-nanosecond increments.
+Pointer to a <b>QWORD</b> that specifies the presentation time of this script command in 100-nanosecond increments.
 
 ## -returns
 

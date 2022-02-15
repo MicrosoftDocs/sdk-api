@@ -54,7 +54,7 @@ The <b>WebEnrollmentFlags</b> enumeration specifies web enrollment behavior. It 
 
 ## -enum-fields
 
-### -field EnrollPrompt
+### -field EnrollPrompt:0x1
 
 If this flag is set and no authentication credential is available for the certificate enrollment server, the certificate service prompts for a credential. If there is no authentication credential and this flag is not set, the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmenthelper-enroll">Enroll</a> method fails.
 

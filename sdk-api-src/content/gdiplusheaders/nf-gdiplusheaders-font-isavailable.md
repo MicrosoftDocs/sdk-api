@@ -54,7 +54,7 @@ api_name:
 The <b>Font::IsAvailable</b> method determines whether this 
 			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object was created successfully.
 
-## -parameters
+
 
 ## -returns
 

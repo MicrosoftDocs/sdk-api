@@ -54,7 +54,7 @@ Constants used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-i
 
 ## -enum-fields
 
-### -field FUT_PLAYING
+### -field FUT_PLAYING:0
 
 The file is being played by the process that has it open.
 

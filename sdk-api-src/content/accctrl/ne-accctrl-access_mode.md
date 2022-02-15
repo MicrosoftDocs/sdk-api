@@ -70,7 +70,7 @@ Indicates an
 
 ### -field SET_ACCESS
 
-Indicates an <a href="/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a>structure that allows the specified rights. 
+Indicates an <a href="/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a> structure that allows the specified rights. 
 
 
 
@@ -80,7 +80,7 @@ On input, this value discards any existing access control information for the tr
 ### -field DENY_ACCESS
 
 Indicates an 
-<a href="/windows/desktop/api/winnt/ns-winnt-access_denied_ace">ACCESS_DENIED_ACE</a>structure that denies the specified rights. 
+<a href="/windows/desktop/api/winnt/ns-winnt-access_denied_ace">ACCESS_DENIED_ACE</a> structure that denies the specified rights. 
 
 
 
@@ -94,7 +94,7 @@ Indicates that all existing <a href="/windows/desktop/api/winnt/ns-winnt-access_
 
 ### -field SET_AUDIT_SUCCESS
 
-Indicates a <a href="/windows/desktop/api/winnt/ns-winnt-system_audit_ace">SYSTEM_AUDIT_ACE</a>structure that generates audit messages for successful attempts to use the specified access rights. 
+Indicates a <a href="/windows/desktop/api/winnt/ns-winnt-system_audit_ace">SYSTEM_AUDIT_ACE</a> structure that generates audit messages for successful attempts to use the specified access rights. 
 						
 
 On input, this value combines the specified rights with any existing audited access rights for the trustee.
@@ -102,7 +102,7 @@ On input, this value combines the specified rights with any existing audited acc
 ### -field SET_AUDIT_FAILURE
 
 Indicates a 
-<a href="/windows/desktop/api/winnt/ns-winnt-system_audit_ace">SYSTEM_AUDIT_ACE</a>structure that generates audit messages for failed attempts to use the specified access rights.  
+<a href="/windows/desktop/api/winnt/ns-winnt-system_audit_ace">SYSTEM_AUDIT_ACE</a> structure that generates audit messages for failed attempts to use the specified access rights.  
 
 On input, this value combines the specified rights with any existing audited access rights for the trustee.
 

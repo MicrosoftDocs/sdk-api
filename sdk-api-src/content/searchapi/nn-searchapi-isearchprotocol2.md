@@ -56,10 +56,7 @@ The protocol handler implements the protocol for accessing a content source in i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchProtocol2</b> interface inherits from <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchprotocol">ISearchProtocol</a>. <b>ISearchProtocol2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ISearchProtocol2</b> interface inherits from <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchprotocol">ISearchProtocol</a>. <b>ISearchProtocol2</b> also has these types of members:
 
 ## -see-also
 

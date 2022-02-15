@@ -56,11 +56,11 @@ The <b>ADS_PASSWORD_ENCODING_ENUM</b> enumeration identifies the type of passwor
 
 ## -enum-fields
 
-### -field ADS_PASSWORD_ENCODE_REQUIRE_SSL
+### -field ADS_PASSWORD_ENCODE_REQUIRE_SSL:0
 
 Passwords are encoded using SSL.
 
-### -field ADS_PASSWORD_ENCODE_CLEAR
+### -field ADS_PASSWORD_ENCODE_CLEAR:1
 
 Passwords are not encoded and are transmitted in plaintext.
 

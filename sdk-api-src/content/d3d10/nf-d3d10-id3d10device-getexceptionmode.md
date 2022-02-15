@@ -53,7 +53,7 @@ api_name:
 
 Get the exception-mode flags.
 
-## -parameters
+
 
 ## -returns
 

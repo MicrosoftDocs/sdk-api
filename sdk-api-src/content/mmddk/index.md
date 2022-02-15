@@ -13,10 +13,13 @@ f1_keywords:
 
 # Mmddk.h header
 
-
 ## -description
 
-This header is used by Windows Multimedia. For more information, see:
+Include file for Multimedia Device Development Kit.
 
+For more information, see:
+
+- [Audio Devices DDI Reference](../_audio/index.md)
+- [Human Interface Devices Reference](../_hid/index.md)
 - [Windows Multimedia](../_multimedia/index.md)
 

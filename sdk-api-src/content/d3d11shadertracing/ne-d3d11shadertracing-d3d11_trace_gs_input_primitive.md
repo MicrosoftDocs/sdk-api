@@ -54,27 +54,27 @@ Identifies the type of geometry shader input primitive.
 
 ## -enum-fields
 
-### -field D3D11_TRACE_GS_INPUT_PRIMITIVE_UNDEFINED
+### -field D3D11_TRACE_GS_INPUT_PRIMITIVE_UNDEFINED:0
 
 Identifies the geometry shader input primitive as undefined.
 
-### -field D3D11_TRACE_GS_INPUT_PRIMITIVE_POINT
+### -field D3D11_TRACE_GS_INPUT_PRIMITIVE_POINT:1
 
 Identifies the geometry shader input primitive as a point.
 
-### -field D3D11_TRACE_GS_INPUT_PRIMITIVE_LINE
+### -field D3D11_TRACE_GS_INPUT_PRIMITIVE_LINE:2
 
 Identifies the geometry shader input primitive as a line.
 
-### -field D3D11_TRACE_GS_INPUT_PRIMITIVE_TRIANGLE
+### -field D3D11_TRACE_GS_INPUT_PRIMITIVE_TRIANGLE:3
 
 Identifies the geometry shader input primitive as a triangle.
 
-### -field D3D11_TRACE_GS_INPUT_PRIMITIVE_LINE_ADJ
+### -field D3D11_TRACE_GS_INPUT_PRIMITIVE_LINE_ADJ:6
 
 Identifies the geometry shader input primitive as an adjacent line.
 
-### -field D3D11_TRACE_GS_INPUT_PRIMITIVE_TRIANGLE_ADJ
+### -field D3D11_TRACE_GS_INPUT_PRIMITIVE_TRIANGLE_ADJ:7
 
 Identifies the geometry shader input primitive as an adjacent triangle.
 

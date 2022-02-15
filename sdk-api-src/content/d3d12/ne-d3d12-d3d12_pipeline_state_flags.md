@@ -54,11 +54,11 @@ Flags to control pipeline state.
 
 ## -enum-fields
 
-### -field D3D12_PIPELINE_STATE_FLAG_NONE
+### -field D3D12_PIPELINE_STATE_FLAG_NONE:0
 
 Indicates no flags.
 
-### -field D3D12_PIPELINE_STATE_FLAG_TOOL_DEBUG
+### -field D3D12_PIPELINE_STATE_FLAG_TOOL_DEBUG:0x1
 
 Indicates that the pipeline state should be compiled with additional information to assist debugging.
           This can only be set on WARP devices.
@@ -66,8 +66,8 @@ Indicates that the pipeline state should be compiled with additional information
 ## -remarks
 
 This enum is used by the <b>Flags</b> member of the
-          <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc">D3D12_GRAPHICS_PIPELINE_STATE_DESC</a>and 
-          <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc">D3D12_COMPUTE_PIPELINE_STATE_DESC</a>structures.
+          <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc">D3D12_GRAPHICS_PIPELINE_STATE_DESC</a> and 
+          <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc">D3D12_COMPUTE_PIPELINE_STATE_DESC</a> structures.
 
 ## -see-also
 

@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Windows Clustering. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [Failover Cluster WMI Provider](../_cluswmi/index.md)
 - [Windows Clustering](../_mscs/index.md)
 

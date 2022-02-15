@@ -56,7 +56,7 @@ Represents the different types of synchronization registration events.
 
 ## -enum-fields
 
-### -field SRE_PROVIDER_ADDED
+### -field SRE_PROVIDER_ADDED:0
 
 A synchronization provider registration has been added.
 

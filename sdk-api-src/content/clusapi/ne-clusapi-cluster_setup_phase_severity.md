@@ -58,15 +58,15 @@ Describes the severity of the current phase of the cluster setup process. The
 
 ## -enum-fields
 
-### -field ClusterSetupPhaseInformational
+### -field ClusterSetupPhaseInformational:1
 
 This phase of the cluster setup can complete successfully.
 
-### -field ClusterSetupPhaseWarning
+### -field ClusterSetupPhaseWarning:2
 
 This phase of the cluster setup can complete, with a warning.
 
-### -field ClusterSetupPhaseFatal
+### -field ClusterSetupPhaseFatal:3
 
 This phase of the cluster setup process cannot complete successfully.
 

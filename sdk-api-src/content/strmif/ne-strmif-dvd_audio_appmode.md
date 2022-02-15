@@ -56,19 +56,19 @@ Indicates the current audio mode as retrieved in a call to <a href="/windows/des
 
 ## -enum-fields
 
-### -field DVD_AudioMode_None
+### -field DVD_AudioMode_None:0
 
 No special audio mode. The <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator Filter</a> will send the audio to the decoder with no special processing.
 
-### -field DVD_AudioMode_Karaoke
+### -field DVD_AudioMode_Karaoke:1
 
 The current audio mode is karaoke content.
 
-### -field DVD_AudioMode_Surround
+### -field DVD_AudioMode_Surround:2
 
 The current audio mode is surround sound.
 
-### -field DVD_AudioMode_Other
+### -field DVD_AudioMode_Other:3
 
 Unrecognized audio mode.
 

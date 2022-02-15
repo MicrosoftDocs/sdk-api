@@ -52,7 +52,7 @@ api_name:
 
 The <b>Create</b> method creates an asymmetric  <a href="/windows/desktop/SecGloss/p-gly">private key</a>.
 
-## -parameters
+
 
 ## -returns
 

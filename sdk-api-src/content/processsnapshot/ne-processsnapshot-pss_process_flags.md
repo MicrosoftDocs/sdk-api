@@ -54,27 +54,27 @@ Flags that describe a process.
 
 ## -enum-fields
 
-### -field PSS_PROCESS_FLAGS_NONE
+### -field PSS_PROCESS_FLAGS_NONE:0x00000000
 
 No flag.
 
-### -field PSS_PROCESS_FLAGS_PROTECTED
+### -field PSS_PROCESS_FLAGS_PROTECTED:0x00000001
 
 The process is protected.
 
-### -field PSS_PROCESS_FLAGS_WOW64
+### -field PSS_PROCESS_FLAGS_WOW64:0x00000002
 
 The process is a 32-bit process running on a 64-bit native OS.
 
-### -field PSS_PROCESS_FLAGS_RESERVED_03
+### -field PSS_PROCESS_FLAGS_RESERVED_03:0x00000004
 
 Undefined.
 
-### -field PSS_PROCESS_FLAGS_RESERVED_04
+### -field PSS_PROCESS_FLAGS_RESERVED_04:0x00000008
 
 Undefined.
 
-### -field PSS_PROCESS_FLAGS_FROZEN
+### -field PSS_PROCESS_FLAGS_FROZEN:0x00000010
 
 The process is frozen; for example,  a debugger is attached and broken into the process or a Store process is suspended by a lifetime management service.
 

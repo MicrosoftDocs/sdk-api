@@ -56,15 +56,15 @@ The <b>ADS_SCOPEENUM</b> enumeration specifies the scope of a directory search.
 
 ## -enum-fields
 
-### -field ADS_SCOPE_BASE
+### -field ADS_SCOPE_BASE:0
 
 Limits the search to the base object. The result contains, at most, one object.
 
-### -field ADS_SCOPE_ONELEVEL
+### -field ADS_SCOPE_ONELEVEL:1
 
 Searches one level of the immediate children, excluding the base object.
 
-### -field ADS_SCOPE_SUBTREE
+### -field ADS_SCOPE_SUBTREE:2
 
 Searches the whole subtree, including all the children and the base object itself.
 

@@ -52,7 +52,7 @@ api_name:
 
 Starts the audio processing thread.
 
-## -parameters
+
 
 ## -returns
 

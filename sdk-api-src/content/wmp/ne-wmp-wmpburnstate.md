@@ -54,7 +54,7 @@ The <b>WMPBurnState</b> enumeration type defines the possible operational states
 
 ## -enum-fields
 
-### -field wmpbsUnknown
+### -field wmpbsUnknown:0
 
 Not a valid state.
 

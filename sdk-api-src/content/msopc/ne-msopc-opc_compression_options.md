@@ -56,23 +56,23 @@ Describes ways to compress   part content.
 
 ## -enum-fields
 
-### -field OPC_COMPRESSION_NONE
+### -field OPC_COMPRESSION_NONE:-1
 
 Compression is turned off.
 
-### -field OPC_COMPRESSION_NORMAL
+### -field OPC_COMPRESSION_NORMAL:0
 
 Compression is optimized for a balance between size and performance.
 
-### -field OPC_COMPRESSION_MAXIMUM
+### -field OPC_COMPRESSION_MAXIMUM:1
 
 Compression is optimized for size.
 
-### -field OPC_COMPRESSION_FAST
+### -field OPC_COMPRESSION_FAST:2
 
 Compression is optimized for performance.
 
-### -field OPC_COMPRESSION_SUPERFAST
+### -field OPC_COMPRESSION_SUPERFAST:3
 
 Compression is optimized for high performance.
 

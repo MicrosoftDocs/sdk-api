@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IVMRImagePresenterExclModeConfig
 title: IVMRImagePresenterExclModeConfig (strmif.h)
-description: The IVMRImagePresenterExclModeConfig interface inherits from IVMRImagePresenterConfig and provides methods for setting and retrieving the renderering preferences on the Exclusive Mode Allocator-Presenter.
+description: The IVMRImagePresenterExclModeConfig interface inherits from IVMRImagePresenterConfig and provides methods for setting and retrieving the rendering preferences on the Exclusive Mode Allocator-Presenter.
 helpviewer_keywords: ["IVMRImagePresenterExclModeConfig","IVMRImagePresenterExclModeConfig interface [DirectShow]","IVMRImagePresenterExclModeConfig interface [DirectShow]","described","dshow.ivmrimagepresenterexclmodeconfig","strmif/IVMRImagePresenterExclModeConfig"]
 old-location: dshow\ivmrimagepresenterexclmodeconfig.htm
 tech.root: dshow
@@ -51,14 +51,11 @@ api_name:
 
 ## -description
 
-The <code>IVMRImagePresenterExclModeConfig</code> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-ivmrimagepresenterconfig">IVMRImagePresenterConfig</a> and provides methods for setting and retrieving the renderering preferences on the Exclusive Mode Allocator-Presenter. This interface is exposed on the DirectDraw Exclusive Mode Allocator-Presenter object. When applications run in DirectDraw Exclusive Mode, they must create their own DirectDraw object, configure the VMR to use the Exclusive Mode Allocator-Presenter, and use this interface to inform the VMR about the DirectDraw object and the primary surface associated with it. For more information, see <a href="/windows/desktop/DirectShow/directdraw-exclusive-mode">DirectDraw Exclusive Mode</a>.
+The <code>IVMRImagePresenterExclModeConfig</code> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-ivmrimagepresenterconfig">IVMRImagePresenterConfig</a> and provides methods for setting and retrieving the rendering preferences on the Exclusive Mode Allocator-Presenter. This interface is exposed on the DirectDraw Exclusive Mode Allocator-Presenter object. When applications run in DirectDraw Exclusive Mode, they must create their own DirectDraw object, configure the VMR to use the Exclusive Mode Allocator-Presenter, and use this interface to inform the VMR about the DirectDraw object and the primary surface associated with it. For more information, see <a href="/windows/desktop/DirectShow/directdraw-exclusive-mode">DirectDraw Exclusive Mode</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRImagePresenterExclModeConfig</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-ivmrimagepresenterconfig">IVMRImagePresenterConfig</a>. <b>IVMRImagePresenterExclModeConfig</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVMRImagePresenterExclModeConfig</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-ivmrimagepresenterconfig">IVMRImagePresenterConfig</a>. <b>IVMRImagePresenterExclModeConfig</b> also has these types of members:
 
 ## -see-also
 

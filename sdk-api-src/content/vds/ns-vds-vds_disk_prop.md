@@ -172,7 +172,7 @@ The name used to open a handle to an object created using the <a href="/windows/
 
 ### -field pwszFriendlyName
 
-The name returned by the Plug and Play   Manager. This name is maintained in the Windows registry by the 
+The name returned by the Plug and Play Manager. This name is maintained in the Windows registry by the 
       Plug and Play Manager, for example: "SEAGATE ST34573N SCSI Disk Device".
 
 ### -field pwszAdaptorName

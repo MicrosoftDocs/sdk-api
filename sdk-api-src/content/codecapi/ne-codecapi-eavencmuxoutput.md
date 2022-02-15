@@ -54,15 +54,15 @@ Specifies the type of output stream produced by a multiplexer. This enumeration 
 
 ## -enum-fields
 
-### -field eAVEncMuxOutputAuto
+### -field eAVEncMuxOutputAuto:0
 
 The multiplexer automatically selects whether to output an elementary stream, a program stream, or  a transport stream.
 
-### -field eAVEncMuxOutputPS
+### -field eAVEncMuxOutputPS:1
 
 The multiplexer outputs a program stream.
 
-### -field eAVEncMuxOutputTS
+### -field eAVEncMuxOutputTS:2  
 
 The multiplexer outputs a transport stream.
 

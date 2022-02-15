@@ -52,7 +52,7 @@ api_name:
 
 The <b>MCIWndRegisterClass</b> function registers the MCI window class MCIWND_WINDOW_CLASS.
 
-## -parameters
+
 
 #### - hInstance
 

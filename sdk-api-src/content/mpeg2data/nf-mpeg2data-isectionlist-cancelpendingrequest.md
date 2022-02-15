@@ -52,7 +52,7 @@ api_name:
 
 The <b>CancelPendingRequest</b> method cancels any pending asynchronous request.
 
-## -parameters
+
 
 ## -returns
 

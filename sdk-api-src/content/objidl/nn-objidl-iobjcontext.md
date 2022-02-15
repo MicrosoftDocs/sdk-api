@@ -61,8 +61,5 @@ Performs various operations on contexts.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjContext</b> interface inherits from <b>IContext</b>. <b>IObjContext</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IObjContext</b> interface inherits from <b>IContext</b>. <b>IObjContext</b> also has these types of members:
 

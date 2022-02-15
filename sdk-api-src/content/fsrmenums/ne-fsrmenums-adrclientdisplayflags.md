@@ -56,11 +56,11 @@ Describes the possible types of access denied remediation (ADR) client display f
 
 ## -enum-fields
 
-### -field AdrClientDisplayFlags_AllowEmailRequests
+### -field AdrClientDisplayFlags_AllowEmailRequests:0x1
 
 Indicates whether to send the user an email after an ADR event.
 
-### -field AdrClientDisplayFlags_ShowDeviceTroubleshooting
+### -field AdrClientDisplayFlags_ShowDeviceTroubleshooting:0x2
 
 Indicates whether to show the user the offending device claims.
 

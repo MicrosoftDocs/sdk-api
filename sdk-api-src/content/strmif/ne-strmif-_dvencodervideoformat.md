@@ -54,11 +54,11 @@ Indicates the video standard (NTSC or PAL) for digital video (DV) encoding.
 
 ## -enum-fields
 
-### -field DVENCODERVIDEOFORMAT_NTSC
+### -field DVENCODERVIDEOFORMAT_NTSC:2000
 
 National Television Standards Committee (NTSC)
 
-### -field DVENCODERVIDEOFORMAT_PAL
+### -field DVENCODERVIDEOFORMAT_PAL:2001
 
 Phase Alternating Line (PAL)
 

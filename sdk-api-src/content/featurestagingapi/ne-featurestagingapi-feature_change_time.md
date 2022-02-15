@@ -51,18 +51,18 @@ This enumeration is intended for infrastructure use only. Do not use this enumer
 
 ## -enum-fields
 
-### -field FEATURE_CHANGE_TIME_READ
+### -field FEATURE_CHANGE_TIME_READ:0
 
 TBD
 
-### -field FEATURE_CHANGE_TIME_MODULE_RELOAD
+### -field FEATURE_CHANGE_TIME_MODULE_RELOAD:1
 
 TBD
 
-### -field FEATURE_CHANGE_TIME_SESSION
+### -field FEATURE_CHANGE_TIME_SESSION:2
 
 TBD
 
-### -field FEATURE_CHANGE_TIME_REBOOT
+### -field FEATURE_CHANGE_TIME_REBOOT:3
 
 TBD

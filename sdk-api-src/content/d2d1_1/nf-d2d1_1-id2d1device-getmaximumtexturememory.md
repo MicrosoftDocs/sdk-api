@@ -52,7 +52,7 @@ api_name:
 
 Sets the maximum amount of texture memory Direct2D accumulates before it purges the image caches and cached texture allocations.
 
-## -parameters
+
 
 ## -returns
 

@@ -3,6 +3,7 @@ UID: NN:d3d12video.ID3D12VideoDecodeCommandList1
 title: ID3D12VideoDecodeCommandList1
 helpviewer_keywords: ["- ID3D12VideoDecodeCommandList1"]
 tech.root: mf
+description: Encapsulates a list of graphics commands for video decoding. This interface inherits from ID3D12VideoDecodeCommandList and adds support for video decode histograms.
 ms.assetid: 31a1f145-9be2-4d05-8a20-4d9906471fb6
 ms.date: 05/28/2019
 req.header: d3d12video.h

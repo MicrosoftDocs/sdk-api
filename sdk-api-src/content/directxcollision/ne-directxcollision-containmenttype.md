@@ -54,15 +54,15 @@ Indicates whether an object contains another object.
 
 ## -enum-fields
 
-### -field DISJOINT
+### -field DISJOINT:0
 
 The object does not contain the specified object.
 
-### -field INTERSECTS
+### -field INTERSECTS:1
 
 The objects intersect.
 
-### -field CONTAINS
+### -field CONTAINS:2
 
 The object contains the specified object.
 

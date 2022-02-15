@@ -53,7 +53,7 @@ api_name:
 
 The <code>UnAdvise</code> method instructs the Overlay Mixer to release its pointer to the client's <a href="/windows/desktop/api/mixerocx/nn-mixerocx-imixerocxnotify">IMixerOCXNotify</a> interface.
 
-## -parameters
+
 
 ## -returns
 

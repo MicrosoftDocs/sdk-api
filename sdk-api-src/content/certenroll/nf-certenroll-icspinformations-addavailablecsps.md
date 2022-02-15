@@ -52,7 +52,7 @@ api_name:
 
 The <b>AddAvailableCsps</b> method adds the providers installed on the computer to the collection. This method is web enabled.
 
-## -parameters
+
 
 ## -returns
 

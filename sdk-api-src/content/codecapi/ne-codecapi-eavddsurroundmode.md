@@ -54,15 +54,15 @@ Specifies whether the audio is encoded in Dolby Surround. This enumeration is us
 
 ## -enum-fields
 
-### -field eAVDDSurroundMode_NotIndicated
+### -field eAVDDSurroundMode_NotIndicated:0
 
 The bit stream does not indicate whether the audio is encoded in Dolby Surround.
 
-### -field eAVDDSurroundMode_No
+### -field eAVDDSurroundMode_No:1
 
 The bit stream is not encoded in Dolby Surround.
 
-### -field eAVDDSurroundMode_Yes
+### -field eAVDDSurroundMode_Yes:2
 
 The bit stream is encoded in Dolby Surround.
 

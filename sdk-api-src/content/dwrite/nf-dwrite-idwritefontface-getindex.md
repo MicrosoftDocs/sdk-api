@@ -52,7 +52,7 @@ api_name:
 
  Obtains the index of a font face in the context of its font files.
 
-## -parameters
+
 
 ## -returns
 

@@ -8,8 +8,8 @@ ms.date: 11/03/2020
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -97,9 +97,17 @@ Consider an example where the value of the 128-bit counter is currently `0x48656
 This operator was introduced in `DML_FEATURE_LEVEL_3_0`.
 
 ## Tensor constraints
-`InputStateTensor` and `OutputStateTensor` must have the same *Sizes*.
+*InputStateTensor* and *OutputStateTensor* must have the same *DimensionCount* and *Sizes*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_4_0 and above
+| Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
+| ------ | ---- | ---------- | -------------------------- | -------------------- |
+| InputStateTensor | Input | { [1], [1], [1], [1], [1], [1], [1], 6 } | 1 to 8 | UINT32 |
+| OutputTensor | Output | { [D0], [D1], [D2], [D3], [D4], [D5], [D6], D7 } | 1 to 8 | UINT32 |
+| OutputStateTensor | Optional output | { [1], [1], [1], [1], [1], [1], [1], 6 } | 1 to 8 | UINT32 |
+
+### DML_FEATURE_LEVEL_3_0 and above
 | Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
 | ------ | ---- | ---------- | -------------------------- | -------------------- |
 | InputStateTensor | Input | { 1, 1, 1, 6 } | 4 | UINT32 |

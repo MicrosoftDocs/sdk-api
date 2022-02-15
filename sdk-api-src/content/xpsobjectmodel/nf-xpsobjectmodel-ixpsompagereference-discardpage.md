@@ -52,7 +52,7 @@ api_name:
 
 Discards the page from memory.
 
-## -parameters
+
 
 ## -returns
 

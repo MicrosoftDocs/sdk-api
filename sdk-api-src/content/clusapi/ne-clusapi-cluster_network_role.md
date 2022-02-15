@@ -59,19 +59,19 @@ Describes the role a <a href="/previous-versions/windows/desktop/mscs/networks">
 
 ## -enum-fields
 
-### -field ClusterNetworkRoleNone
+### -field ClusterNetworkRoleNone:0
 
 The network is not used by the cluster.
 
-### -field ClusterNetworkRoleInternalUse
+### -field ClusterNetworkRoleInternalUse:0x00000001
 
 The network is used to carry internal cluster communication.
 
-### -field ClusterNetworkRoleClientAccess
+### -field ClusterNetworkRoleClientAccess:0x00000002
 
 Not supported.
 
-### -field ClusterNetworkRoleInternalAndClient
+### -field ClusterNetworkRoleInternalAndClient:0x00000003
 
 The network is used to connect client systems and to carry internal cluster communication.
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>Reset</b> method sets the enumerator to the first item in the collection.
 
-## -parameters
+
 
 ## -returns
 

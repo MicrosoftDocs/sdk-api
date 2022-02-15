@@ -52,7 +52,7 @@ api_name:
 
 Declares that the object's transactional updates are in an inconsistent state and cannot be committed in their present state.
 
-## -parameters
+
 
 ## -returns
 

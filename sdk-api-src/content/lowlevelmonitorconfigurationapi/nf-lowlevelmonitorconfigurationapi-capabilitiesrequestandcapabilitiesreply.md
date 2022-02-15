@@ -82,8 +82,12 @@ This function usually returns quickly, but sometimes it can take several seconds
 
 You can update a monitor's capabilities string by adding an <i>AddReg</i> directive to the monitor's INF file. Add a registry key named "CapabilitiesString" to the monitor's driver key. The value of the registry key is the capabilities string. The registry data type is REG_SZ.
 
-<pre class="syntax" xml:space="preserve"><code>HKR,,"CapabilitiesString",0x00000000,"updated capabilities string"
-</code></pre>
+
+``` syntax
+HKR,,"CapabilitiesString",0x00000000,"updated capabilities string"
+
+```
+
 <div class="alert"><b>Warning</b>  Do not modify a monitor's INF file unless you are familiar with the layout of INF files and also understand the DDC/CI standard.</div>
 <div> </div>
 

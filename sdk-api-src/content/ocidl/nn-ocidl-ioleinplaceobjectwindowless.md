@@ -56,10 +56,7 @@ A small object, such as a control, does not need a window of its own. Instead, i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleInPlaceObjectWindowless</b> interface inherits from <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceobject">IOleInPlaceObject</a>. <b>IOleInPlaceObjectWindowless</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IOleInPlaceObjectWindowless</b> interface inherits from <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceobject">IOleInPlaceObject</a>. <b>IOleInPlaceObjectWindowless</b> also has these types of members:
 
 ## -see-also
 

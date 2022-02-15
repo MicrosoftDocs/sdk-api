@@ -96,7 +96,7 @@ Success
 
 At connection time, some live source filters use the maximum latency to determine the size of buffer to allocate. Calling this method before constructing the graph can help to ensure that sufficient buffers are allocated for the expected latency.
 
-If you call this method beforing calling <b>SyncUsingStreamOffset</b>, the method returns E_FAIL.
+If you call this method before calling <b>SyncUsingStreamOffset</b>, the method returns E_FAIL.
 
 ## -see-also
 

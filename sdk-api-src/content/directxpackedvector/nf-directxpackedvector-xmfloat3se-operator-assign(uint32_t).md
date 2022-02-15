@@ -69,7 +69,7 @@ The current instance of <code>XMFLOAT3SE</code> whose vector component data has 
 
 ## -remarks
 
-The values of the three components of the updated current instance of <code>XMFLOAT3SE</code>are loaded from the argument <b>Packed</b>. The format of these data have the
+The values of the three components of the updated current instance of <code>XMFLOAT3SE</code> are loaded from the argument <b>Packed</b>. The format of these data have the
 	<b>e</b> member of the <code>XMFLOAT3SE</code> structure -- the exponent shared by the
 	mantissas of the floating point values of all three stored components -- is stored in the highest order
 	bits of <b>Packed</b>, and the mantissa of the x component stored in the least significant bits.

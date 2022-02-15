@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>WINUSB_SETUP_PACKE</b>T structure describes a USB setup packet.
+The <b>WINUSB_SETUP_PACKET</b> structure describes a USB setup packet.
 
 ## -struct-fields
 

@@ -57,59 +57,59 @@ Defines the possible comparison operations that can be used to determine whether
 
 ## -enum-fields
 
-### -field FsrmPropertyConditionType_Unknown
+### -field FsrmPropertyConditionType_Unknown:0
 
 The operator is unknown; do not use this value.
 
-### -field FsrmPropertyConditionType_Equal
+### -field FsrmPropertyConditionType_Equal:1
 
 The property condition is met if the property value is equal to a specified value.
 
-### -field FsrmPropertyConditionType_NotEqual
+### -field FsrmPropertyConditionType_NotEqual:2
 
 The property condition is met if the property value is not equal to a specified value.
 
-### -field FsrmPropertyConditionType_GreaterThan
+### -field FsrmPropertyConditionType_GreaterThan:3
 
 The property condition is met if the property value is greater than a specified value.
 
-### -field FsrmPropertyConditionType_LessThan
+### -field FsrmPropertyConditionType_LessThan:4
 
 The property condition is met if the property value is less than a specified value.
 
-### -field FsrmPropertyConditionType_Contain
+### -field FsrmPropertyConditionType_Contain:5
 
 The property condition is met if the property value contains the specified value.
 
-### -field FsrmPropertyConditionType_Exist
+### -field FsrmPropertyConditionType_Exist:6
 
 The property condition is met if the property value exists.
 
-### -field FsrmPropertyConditionType_NotExist
+### -field FsrmPropertyConditionType_NotExist:7
 
 The property condition is met if the property value does not exist.
 
-### -field FsrmPropertyConditionType_StartWith
+### -field FsrmPropertyConditionType_StartWith:8
 
 The property condition is met if the property value starts with the specified value.
 
-### -field FsrmPropertyConditionType_EndWith
+### -field FsrmPropertyConditionType_EndWith:9
 
 The property condition is met if the property value ends with the specified value.
 
-### -field FsrmPropertyConditionType_ContainedIn
+### -field FsrmPropertyConditionType_ContainedIn:10
 
 The property condition is met if the property value is contained in the specified value.
 
-### -field FsrmPropertyConditionType_PrefixOf
+### -field FsrmPropertyConditionType_PrefixOf:11
 
 The property condition is met if the property value is a prefix of the specified value.
 
-### -field FsrmPropertyConditionType_SuffixOf
+### -field FsrmPropertyConditionType_SuffixOf:12
 
 The property condition is met if the property value is a suffix of the specified value.
 
-### -field FsrmPropertyConditionType_MatchesPattern
+### -field FsrmPropertyConditionType_MatchesPattern:13
 
 The property condition is met if the property value matches the specified pattern. The pattern format is a 
        semicolon-separated list of wildcard patterns. For example "*.exe;*.com"

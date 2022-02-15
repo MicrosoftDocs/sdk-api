@@ -54,7 +54,7 @@ api_name:
 
 Removes all user credentials for the current domain from the store. Starting with Windows 10, build 1607, this  function is available to use with a mobile image.
 
-## -parameters
+
 
 ## -returns
 

@@ -56,7 +56,7 @@ The <b>COMPARTMENT_ID</b> enumeration indicates the network routing compartment 
 
 ## -enum-fields
 
-### -field UNSPECIFIED_COMPARTMENT_ID
+### -field UNSPECIFIED_COMPARTMENT_ID:0
 
 Indicates that the routing compartment is undefined.
 

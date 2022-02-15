@@ -52,7 +52,7 @@ api_name:
 
 Forgets the last log record written by this instance of the interface.
 
-## -parameters
+
 
 ## -returns
 

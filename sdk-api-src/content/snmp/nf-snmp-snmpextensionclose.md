@@ -55,7 +55,7 @@ api_name:
 The Microsoft SNMP service calls the 
 <b>SnmpExtensionClose</b> function to request that the SNMP extension agent deallocate resources and terminate operations. This function is an element of the SNMP Extension Agent API.
 
-## -parameters
+
 
 ## -returns
 

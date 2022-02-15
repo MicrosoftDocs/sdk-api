@@ -55,7 +55,7 @@ api_name:
 
 Invalidates the cache of the controller. All data in the cache is lost.
 
-## -parameters
+
 
 ## -returns
 

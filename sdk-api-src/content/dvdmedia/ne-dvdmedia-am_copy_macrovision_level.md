@@ -56,19 +56,19 @@ Identifies the analog copy protection level.
 
 ## -enum-fields
 
-### -field AM_MACROVISION_DISABLED
+### -field AM_MACROVISION_DISABLED:0
 
 Disabled.
 
-### -field AM_MACROVISION_LEVEL1
+### -field AM_MACROVISION_LEVEL1:1
 
 Level 1.
 
-### -field AM_MACROVISION_LEVEL2
+### -field AM_MACROVISION_LEVEL2:2
 
 Level 2.
 
-### -field AM_MACROVISION_LEVEL3
+### -field AM_MACROVISION_LEVEL3:3
 
 Level 3.
 

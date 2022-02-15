@@ -57,7 +57,7 @@ When used with the <a href="/previous-versions/windows/desktop/legacy/aa368375(v
 
 ## -enum-fields
 
-### -field CLUSPROP_IPADDR_ENABLENETBIOS_DISABLED
+### -field CLUSPROP_IPADDR_ENABLENETBIOS_DISABLED:0
 
 Disable the functionality of the 
        <a href="/previous-versions/windows/desktop/mscs/ip-addresses-enablenetbios">EnableNetBIOS</a> property.

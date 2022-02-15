@@ -52,7 +52,7 @@ api_name:
 
 Returns the HWND associated with this render target.
 
-## -parameters
+
 
 ## -returns
 

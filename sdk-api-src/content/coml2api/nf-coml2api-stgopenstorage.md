@@ -105,32 +105,72 @@ The
 To support the simple mode for saving a storage object with no substorages, the 
 <b>StgOpenStorage</b> function accepts one of the following two flag combinations as valid modes in the <i>grfMode</i> parameter.
 
-<pre class="syntax" xml:space="preserve"><code>    STGM_SIMPLE | STGM_READWRITE | STGM_SHARE_EXCLUSIVE</code></pre>
-<pre class="syntax" xml:space="preserve"><code>    STGM_SIMPLE | STGM_READ | STGM_SHARE_EXCLUSIVE</code></pre>
+
+``` syntax
+    STGM_SIMPLE | STGM_READWRITE | STGM_SHARE_EXCLUSIVE
+```
+
+
+``` syntax
+    STGM_SIMPLE | STGM_READ | STGM_SHARE_EXCLUSIVE
+```
+
 To support the single-writer, multireader, direct mode, the first flag combination is the valid <i>grfMode</i> parameter for the writer.  The second flag combination is valid for readers.
 
-<pre class="syntax" xml:space="preserve"><code>    STGM_DIRECT_SWMR | STGM_READWRITE | STGM_SHARE_DENY_WRITE</code></pre>
-<pre class="syntax" xml:space="preserve"><code>    STGM_DIRECT_SWMR | STGM_READ | STGM_SHARE_DENY_NONE</code></pre>
+
+``` syntax
+    STGM_DIRECT_SWMR | STGM_READWRITE | STGM_SHARE_DENY_WRITE
+```
+
+
+``` syntax
+    STGM_DIRECT_SWMR | STGM_READ | STGM_SHARE_DENY_NONE
+```
+
 In direct mode, one of the following three combinations are valid.
 
-<pre class="syntax" xml:space="preserve"><code>    STGM_DIRECT | STGM_READWRITE | STGM_SHARE_EXCLUSIVE</code></pre>
-<pre class="syntax" xml:space="preserve"><code>    STGM_DIRECT | STGM_READ | STGM_SHARE_DENY_WRITE</code></pre>
-<pre class="syntax" xml:space="preserve"><code>    STGM_DIRECT | STGM_READ | STGM_SHARE_EXCLUSIVE</code></pre>
+
+``` syntax
+    STGM_DIRECT | STGM_READWRITE | STGM_SHARE_EXCLUSIVE
+```
+
+
+``` syntax
+    STGM_DIRECT | STGM_READ | STGM_SHARE_DENY_WRITE
+```
+
+
+``` syntax
+    STGM_DIRECT | STGM_READ | STGM_SHARE_EXCLUSIVE
+```
+
 <div class="alert"><b>Note</b>  Opening a storage object in read/write mode without denying write permission to others (the <i>grfMode</i> parameter specifies STGM_SHARE_DENY_WRITE) can be a time-consuming operation because the 
 <b>StgOpenStorage</b> call must make a snapshot of the entire storage object.</div>
 <div> </div>
 Applications often try to open storage objects with the following access permissions. If the application succeeds, it never needs to make a snapshot copy.
 
-<pre class="syntax" xml:space="preserve"><code>STGM_READWRITE | STGM_SHARE_DENY_WRITE 
-    // transacted versus direct mode omitted for exposition </code></pre>
+
+``` syntax
+STGM_READWRITE | STGM_SHARE_DENY_WRITE 
+    // transacted versus direct mode omitted for exposition 
+```
+
 The application can revert to using the permissions and make a snapshot copy, if the previous access permissions fail. The application should prompt the user before making a time-consuming copy.
 
-<pre class="syntax" xml:space="preserve"><code>STGM_READWRITE 
-    // transacted versus direct mode omitted for exposition </code></pre>
+
+``` syntax
+STGM_READWRITE 
+    // transacted versus direct mode omitted for exposition 
+```
+
 If the document-sharing semantics implied by the access modes are appropriate, the application could try to open the storage as follows. In this case, if the application succeeds, a snapshot copy will not have been made (because <b>STGM_SHARE_DENY_WRITE</b> was specified, denying others write access).
 
-<pre class="syntax" xml:space="preserve"><code>STGM_READ | STGM_SHARE_DENY_WRITE 
-    // transacted versus direct mode omitted for exposition </code></pre>
+
+``` syntax
+STGM_READ | STGM_SHARE_DENY_WRITE 
+    // transacted versus direct mode omitted for exposition 
+```
+
 <div class="alert"><b>Note</b>  To reduce the expense of making a snapshot copy, applications can open storage objects in priority mode (<i>grfMode</i> specifies <b>STGM_PRIORITY</b>).</div>
 <div> </div>
 The <i>snbExclude</i> parameter specifies a set of element names in this storage object that are to be emptied as the storage object is opened: streams are set to a length of zero; storage objects have all their elements removed. By excluding certain streams, the expense of making a snapshot copy can be significantly reduced. Almost always, this approach is used after first opening the storage object in priority mode, then completely reading the now-excluded elements into memory. This earlier priority-mode opening of the storage object should be passed through the <i>pstgPriority</i> parameter to remove the exclusion implied by priority mode. The calling application is responsible for rewriting the contents of excluded items before committing. Thus, this technique is most likely useful only to applications whose documents do not require constant access to their storage objects while they are active.
@@ -139,7 +179,9 @@ The <i>pstgPriority</i> parameter is intended as a convenience for callers repla
 
 The functionality of the <i>pstgPriority</i> parameter can be duplicated by the caller in a safer manner as shown in the following example:
 
-<pre class="syntax" xml:space="preserve"><code>// Replacement for:
+
+``` syntax
+// Replacement for:
 // HRESULT hr = StgOpenStorage(
 //         NULL, pstgPriority, grfMode, NULL, 0, &amp;pstgNew);
 
@@ -151,7 +193,9 @@ if (SUCCEEDED(hr))
 {
     hr = StgOpenStorage(statstg.pwcsName, NULL, grfMode, NULL, 0, &amp;pstgNew);
 }     
-</code></pre>
+
+```
+
 
 ## -see-also
 

@@ -56,7 +56,7 @@ api_name:
 Deletes the LUN and all of its 
    plexes. Any data on the LUN is lost. VDS frees the extents allocated to the LUN.
 
-## -parameters
+
 
 ## -returns
 

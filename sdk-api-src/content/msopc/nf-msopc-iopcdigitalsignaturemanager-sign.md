@@ -228,7 +228,7 @@ This method may create the following parts and relationships:<ul>
 
 If <b>Sign</b> fails, any of the above parts and relationships may be represented, in the package, by Packaging objects. If the method returns the <b>OPC_E_DS_SIGNATURE_METHOD_NOT_SET</b> or <b>OPC_E_DS_DEFAULT_DIGEST_METHOD_NOT_SET</b> error code, the package has not been altered.
 
-If <b>Sign</b> is successful, digest values are calculated for signed enitities, and the generated signature is serialized as signature markup. Possible signed entities include the <b>Signature</b> element, references, parts, relationships,  and package-specific and application-specific <b>Object</b> elements.
+If <b>Sign</b> is successful, digest values are calculated for signed entities, and the generated signature is serialized as signature markup. Possible signed entities include the <b>Signature</b> element, references, parts, relationships,  and package-specific and application-specific <b>Object</b> elements.
 
 Errors that are introduced into a package signature when the caller is using the <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsigningoptions">IOpcSigningOptions</a> interface to set signature information may not be exposed until <b>Sign</b> is called.
 

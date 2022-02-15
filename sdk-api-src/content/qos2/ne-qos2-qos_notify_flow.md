@@ -58,17 +58,17 @@ The <b>QOS_NOTIFY_FLOW</b> enumeration specifies the circumstances that must be 
 
 ## -enum-fields
 
-### -field QOSNotifyCongested
+### -field QOSNotifyCongested:0
 
 Notifications will be sent when congestion is detected.  If the flow is currently congested, a notification may be sent immediately.
 
-### -field QOSNotifyUncongested
+### -field QOSNotifyUncongested:1
 
 Notifications will be sent when the flow is not congested.  If the flow is currently uncongested, a notification may be sent immediately.
 
-### -field QOSNotifyAvailable
+### -field QOSNotifyAvailable:2       
 
-Notifications will be sent when the flow's available capacity is sufficient  to allow upgrading it's bandwidth to a specified  capacity.
+Notifications will be sent when the flow's available capacity is sufficient to allow upgrading its bandwidth to a specified capacity.
 
 ## -see-also
 

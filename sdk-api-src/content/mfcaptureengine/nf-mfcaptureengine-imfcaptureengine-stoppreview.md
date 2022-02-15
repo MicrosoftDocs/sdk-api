@@ -52,7 +52,7 @@ api_name:
 
 Stops preview.
 
-## -parameters
+
 
 ## -returns
 

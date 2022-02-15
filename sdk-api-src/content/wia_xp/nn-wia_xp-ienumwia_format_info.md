@@ -55,10 +55,7 @@ Use the <b>IEnumWIA_FORMAT_INFO</b> interface to enumerate the format and media 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumWIA_FORMAT_INFO</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumWIA_FORMAT_INFO</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IEnumWIA_FORMAT_INFO</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumWIA_FORMAT_INFO</b> also has these types of members:
 
 ## -remarks
 

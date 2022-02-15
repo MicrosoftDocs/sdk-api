@@ -58,7 +58,7 @@ The values of the <b>NETCON_MEDIATYPE</b> enumerate the possible ways the comput
 
 ## -enum-fields
 
-### -field NCM_NONE
+### -field NCM_NONE:0
 
 No media is present.
 
@@ -66,7 +66,7 @@ No media is present.
 
 Direct serial connection through a serial port.
 
-### -field NCM_ISDN
+### -field NCM_ISDN:2
 
 Connection is through an integrated services digital network (ISDN) line.
 

@@ -52,7 +52,7 @@ api_name:
 
 Called when the selection within the document changes.
 
-## -parameters
+
 
 ## -returns
 

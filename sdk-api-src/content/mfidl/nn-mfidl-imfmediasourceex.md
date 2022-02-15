@@ -56,10 +56,7 @@ To get a pointer to this interface, call <a href="/windows/desktop/api/unknwn/nf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSourceEx</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a>. <b>IMFMediaSourceEx</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFMediaSourceEx</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a>. <b>IMFMediaSourceEx</b> also has these types of members:
 
 ## -remarks
 

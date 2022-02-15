@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the pre-transform nib shape for this style.
 
-## -parameters
+
 
 ## -returns
 

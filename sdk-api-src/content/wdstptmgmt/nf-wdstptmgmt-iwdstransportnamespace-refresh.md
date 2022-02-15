@@ -52,7 +52,7 @@ api_name:
 
 Resets the property values of the namespace with values from the server.
 
-## -parameters
+
 
 ## -returns
 

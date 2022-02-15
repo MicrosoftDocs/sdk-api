@@ -56,7 +56,7 @@ The
 
 ## -enum-fields
 
-### -field CNE_OWNER
+### -field CNE_OWNER:0
 
 The current application owns the call on which the event occurred.
 

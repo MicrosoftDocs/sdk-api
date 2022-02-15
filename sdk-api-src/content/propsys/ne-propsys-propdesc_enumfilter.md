@@ -54,31 +54,31 @@ Describes the filtered list of property descriptions that is returned.
 
 ## -enum-fields
 
-### -field PDEF_ALL
+### -field PDEF_ALL:0
 
 The list contains all property descriptions in the system.
 
-### -field PDEF_SYSTEM
+### -field PDEF_SYSTEM:1
 
 The list contains system property descriptions only. It excludes third-party property descriptions that are registered on the computer.
 
-### -field PDEF_NONSYSTEM
+### -field PDEF_NONSYSTEM:2
 
 The list contains only third-party property descriptions that are registered on the computer.
 
-### -field PDEF_VIEWABLE
+### -field PDEF_VIEWABLE:3
 
 The list contains only viewable properties, where &lt;typeInfo isViewable="true"&gt;.
 
-### -field PDEF_QUERYABLE
+### -field PDEF_QUERYABLE:4
 
 Deprecated in <b>Windows 7 and later</b>. The list contains only queryable properties, where &lt;typeInfo isViewable="true" isQueryable="true"&gt;.
 
-### -field PDEF_INFULLTEXTQUERY
+### -field PDEF_INFULLTEXTQUERY:5
 
 <b>Deprecated in Windows 7 and later</b>. The list contains only properties to be included in full-text queries.
 
-### -field PDEF_COLUMN
+### -field PDEF_COLUMN:6
 
 The list contains only properties that are columns.
 

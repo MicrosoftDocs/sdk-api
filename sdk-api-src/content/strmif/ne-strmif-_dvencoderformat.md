@@ -54,15 +54,15 @@ Indicates the digital video (DV) format.
 
 ## -enum-fields
 
-### -field DVENCODERFORMAT_DVSD
+### -field DVENCODERFORMAT_DVSD:2007
 
 Use the 'dvsd' stream handler.
 
-### -field DVENCODERFORMAT_DVHD
+### -field DVENCODERFORMAT_DVHD:2008
 
 Use the 'dvhd' stream handler.
 
-### -field DVENCODERFORMAT_DVSL
+### -field DVENCODERFORMAT_DVSL:2009
 
 Use the 'dvsl' stream handler.
 

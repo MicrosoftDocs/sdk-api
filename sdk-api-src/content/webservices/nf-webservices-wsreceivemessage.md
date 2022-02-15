@@ -557,7 +557,7 @@ This function may return other errors not listed above.
 This function uses metadata about the expected message types in order to deserialize the body.  
                 The metadata is an array of of pointers to <a href="/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a>s.
                 Each message description contains an action value, which is used to match against
-                the action of the message, and an <a href="/windows/desktop/api/webservices/ns-webservices-ws_element_description">WS_ELEMENT_DESCRIPTION</a>which provides the metadata for the body element.
+                the action of the message, and an <a href="/windows/desktop/api/webservices/ns-webservices-ws_element_description">WS_ELEMENT_DESCRIPTION</a> which provides the metadata for the body element.
             
 
 When the message headers have been received, the function will scan the array
@@ -583,4 +583,4 @@ If the bodyElementDescription is non-<b>NULL</b>, then this function deserialize
                 body as described in <a href="/windows/desktop/api/webservices/nf-webservices-wsreadbody">WsReadBody</a>.
             
 
-After a message has been received, it's headers can be inspected using <a href="/windows/desktop/api/webservices/nf-webservices-wsgetheader">WsGetHeader</a>or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetcustomheader">WsGetCustomHeader</a>.
+After a message has been received, its headers can be inspected using <a href="/windows/desktop/api/webservices/nf-webservices-wsgetheader">WsGetHeader</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetcustomheader">WsGetCustomHeader</a>.

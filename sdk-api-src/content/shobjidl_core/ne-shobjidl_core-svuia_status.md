@@ -54,19 +54,19 @@ Used with the <a href="/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowsers
 
 ## -enum-fields
 
-### -field SVUIA_DEACTIVATE
+### -field SVUIA_DEACTIVATE:0
 
 The browser view has been deactivated.
 
-### -field SVUIA_ACTIVATE_NOFOCUS
+### -field SVUIA_ACTIVATE_NOFOCUS:1
 
 The browser view is activated and does not have focus.
 
-### -field SVUIA_ACTIVATE_FOCUS
+### -field SVUIA_ACTIVATE_FOCUS:2
 
 The browser view is activated and has focus.
 
-### -field SVUIA_INPLACEACTIVATE
+### -field SVUIA_INPLACEACTIVATE:3
 
 The browser view is activated in place.
 

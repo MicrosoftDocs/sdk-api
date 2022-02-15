@@ -56,7 +56,7 @@ The <b>DSROLE_PRIMARY_DOMAIN_INFO_LEVEL</b> enumeration is used with the <a href
 
 ## -enum-fields
 
-### -field DsRolePrimaryDomainInfoBasic
+### -field DsRolePrimaryDomainInfoBasic:1
 
 The <a href="/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a> function retrieves data from a <a href="/windows/desktop/api/dsrole/ns-dsrole-dsrole_primary_domain_info_basic">DSROLE_PRIMARY_DOMAIN_INFO_BASIC</a> structure.
 

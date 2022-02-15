@@ -52,7 +52,7 @@ api_name:
 
 Discards all changes made to the object data members by clearing the <a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportcacheable-get_dirty">IWdsTransportCacheable::Dirty</a> property and then calling the object's <a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportcacheable-refresh">IWdsTransportCacheable::Refresh</a> method to reread the current object data.
 
-## -parameters
+
 
 ## -remarks
 

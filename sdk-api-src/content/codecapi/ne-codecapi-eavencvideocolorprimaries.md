@@ -54,39 +54,39 @@ Specifies the color primaries of the video. This enumeration is used with the <a
 
 ## -enum-fields
 
-### -field eAVEncVideoColorPrimaries_SameAsSource
+### -field eAVEncVideoColorPrimaries_SameAsSource:0
 
 Use the same primaries as the input video. This flag applies to the <b>AVEncVideoOutputColorPrimaries</b> property only.
 
-### -field eAVEncVideoColorPrimaries_Reserved
+### -field eAVEncVideoColorPrimaries_Reserved:1
 
 Reserved. Do not use.
 
-### -field eAVEncVideoColorPrimaries_BT709
+### -field eAVEncVideoColorPrimaries_BT709:2
 
 ITU-R BT.709 (including sRGB and scRGB).
 
-### -field eAVEncVideoColorPrimaries_BT470_2_SysM
+### -field eAVEncVideoColorPrimaries_BT470_2_SysM:3
 
 ITU-R.BT.470-4 System M (NTSC).
 
-### -field eAVEncVideoColorPrimaries_BT470_2_SysBG
+### -field eAVEncVideoColorPrimaries_BT470_2_SysBG:4
 
 ITU-R.BT.470-4 System B,G (NTSC).
 
-### -field eAVEncVideoColorPrimaries_SMPTE170M
+### -field eAVEncVideoColorPrimaries_SMPTE170M:5
 
 SMPTE 170M.
 
-### -field eAVEncVideoColorPrimaries_SMPTE240M
+### -field eAVEncVideoColorPrimaries_SMPTE240M:6
 
 SMPTE 240M.
 
-### -field eAVEncVideoColorPrimaries_EBU3231
+### -field eAVEncVideoColorPrimaries_EBU3231:7
 
 EBU 3213.
 
-### -field eAVEncVideoColorPrimaries_SMPTE_C
+### -field eAVEncVideoColorPrimaries_SMPTE_C:8
 
 SPMTE C (NTSC).
 

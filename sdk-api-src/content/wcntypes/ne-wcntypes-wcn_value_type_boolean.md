@@ -56,11 +56,11 @@ The <b>WCN_VALUE_TYPE_BOOLEAN</b> enumeration defines values used to represent t
 
 ## -enum-fields
 
-### -field WCN_VALUE_FALSE
+### -field WCN_VALUE_FALSE:0
 
 The argument is false.
 
-### -field WCN_VALUE_TRUE
+### -field WCN_VALUE_TRUE:1
 
 The argument is true.
 

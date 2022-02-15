@@ -54,7 +54,7 @@ api_name:
 The <b>Pen::GetDashStyle</b> method gets the dash style currently set for this 
 			<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
 
-## -parameters
+
 
 ## -returns
 

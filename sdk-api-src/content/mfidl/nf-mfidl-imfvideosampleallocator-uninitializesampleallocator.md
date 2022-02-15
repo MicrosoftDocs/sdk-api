@@ -53,7 +53,7 @@ api_name:
 
 Releases all of the video samples that have been allocated.
 
-## -parameters
+
 
 ## -returns
 

@@ -134,7 +134,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-<b>StringCchGets</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchGets</b>always null-terminates a nonzero-length destination buffer.
+<b>StringCchGets</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchGets</b> always null-terminates a nonzero-length destination buffer.
 
 The value of <i>pszDest</i> should not be <b>NULL</b>. See <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchgetsexa">StringCchGetsEx</a> if you require the handling of null string pointer values.
 

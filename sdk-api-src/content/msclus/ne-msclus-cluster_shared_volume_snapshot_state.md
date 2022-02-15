@@ -52,9 +52,9 @@ Specifies the various snapshot states for a shared volume.
 
 ## -enum-fields
 
-### -field ClusterSharedVolumeSnapshotStateUnknown
+### -field ClusterSharedVolumeSnapshotStateUnknown:0
 
-Indicates that the snapshot state is unknow.
+Indicates that the snapshot state is unknown.
 
 ### -field ClusterSharedVolumePrepareForHWSnapshot
 

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>WM_CLIENT_PROPERTIES </b>structure records information about the client.
+The <b>WM_CLIENT_PROPERTIES</b> structure records information about the client.
 
 ## -struct-fields
 

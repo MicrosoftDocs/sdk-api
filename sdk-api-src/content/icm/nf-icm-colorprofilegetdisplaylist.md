@@ -19,8 +19,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -71,8 +71,8 @@ Receives the number of profiles names copied into profileList.
 
 ## -remarks
 
-See [connecting and configuring displays](https://docs.microsoft.com/windows-hardware/drivers/display/connecting-and-configuring-displays) for information on display adapter IDs and source IDs.
+See [connecting and configuring displays](/windows-hardware/drivers/display/connecting-and-configuring-displays) for information on display adapter IDs and source IDs.
 
 ## -see-also
 
-[Connecting and configuring displays](https://docs.microsoft.com/windows-hardware/drivers/display/connecting-and-configuring-displays)
+[Connecting and configuring displays](/windows-hardware/drivers/display/connecting-and-configuring-displays)

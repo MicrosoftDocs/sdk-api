@@ -61,7 +61,7 @@ Specifies the size of the array.
 
 ### -param plArray [out]
 
-Pointer to an array of size <i>lSize</i>, allocated by the caller. The method fills the array with the frame numbers of the first <i>lSize</i> frames that were dropped, up to a maximum number that is device-depedent.
+Pointer to an array of size <i>lSize</i>, allocated by the caller. The method fills the array with the frame numbers of the first <i>lSize</i> frames that were dropped, up to a maximum number that is device-dependent.
 
 ### -param plNumCopied [out]
 

@@ -52,7 +52,7 @@ api_name:
 
 Gets the size of the color profile associated with the bitmap.
 
-## -parameters
+
 
 ## -returns
 

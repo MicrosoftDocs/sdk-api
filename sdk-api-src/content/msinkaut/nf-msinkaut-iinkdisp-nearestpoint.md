@@ -57,11 +57,11 @@ Retrieves the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp"
 
 ### -param X [in]
 
-The <code>x-</code>position in ink space of the point.
+The <code>x-</code> position in ink space of the point.
 
 ### -param Y [in]
 
-Specifies the <code>y-</code>position in ink space of the point.
+Specifies the <code>y-</code> position in ink space of the point.
 
 ### -param PointOnStroke [in, out, optional]
 

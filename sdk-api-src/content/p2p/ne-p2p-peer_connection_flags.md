@@ -56,11 +56,11 @@ The <b>PEER_CONNECTION_FLAGS</b> enumeration specifies the types of connections 
 
 ## -enum-fields
 
-### -field PEER_CONNECTION_NEIGHBOR
+### -field PEER_CONNECTION_NEIGHBOR:0x0001
 
 Specifies that a connection is a neighbor connection.
 
-### -field PEER_CONNECTION_DIRECT
+### -field PEER_CONNECTION_DIRECT:0x0002
 
 Specifies that a connection is a direct connection to another node.
 

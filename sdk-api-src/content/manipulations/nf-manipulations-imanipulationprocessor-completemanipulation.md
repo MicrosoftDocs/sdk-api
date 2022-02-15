@@ -52,7 +52,7 @@ api_name:
 
 The <b>CompleteManipulation</b> method is called when the developer chooses to end the manipulation.
 
-## -parameters
+
 
 ## -returns
 

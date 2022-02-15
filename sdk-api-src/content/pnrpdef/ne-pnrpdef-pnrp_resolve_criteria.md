@@ -56,27 +56,27 @@ The <b>PNRP_RESOLVE_CRITERIA</b> enumeration specifies the criteria that PNRP us
 
 ## -enum-fields
 
-### -field PNRP_RESOLVE_CRITERIA_DEFAULT
+### -field PNRP_RESOLVE_CRITERIA_DEFAULT:0
 
 Use the PNRP_RESOLVE_CRITERIA_NON_CURRENT_PROCESS_PEER_NAME criteria. This is also the default behavior if <a href="/windows/desktop/api/pnrpns/ns-pnrpns-pnrpinfo_v1">PNRPINFO</a> is not specified.
 
-### -field PNRP_RESOLVE_CRITERIA_REMOTE_PEER_NAME
+### -field PNRP_RESOLVE_CRITERIA_REMOTE_PEER_NAME:1
 
 Match a peer name. The resolve request excludes any  peer name registered locally on this computer.
 
-### -field PNRP_RESOLVE_CRITERIA_NEAREST_REMOTE_PEER_NAME
+### -field PNRP_RESOLVE_CRITERIA_NEAREST_REMOTE_PEER_NAME:2
 
 Match a peer name by   finding the name with a service location closest to the supplied hint, or if no hint is supplied, closest to the local IP address.  The resolve request excludes any  peer name registered locally on this computer.
 
-### -field PNRP_RESOLVE_CRITERIA_NON_CURRENT_PROCESS_PEER_NAME
+### -field PNRP_RESOLVE_CRITERIA_NON_CURRENT_PROCESS_PEER_NAME:3
 
 Match a peer name. The matching peer name can be registered locally or remotely,  but the resolve request excludes  any peer name registered by the process making the resolve request.
 
-### -field PNRP_RESOLVE_CRITERIA_NEAREST_NON_CURRENT_PROCESS_PEER_NAME
+### -field PNRP_RESOLVE_CRITERIA_NEAREST_NON_CURRENT_PROCESS_PEER_NAME:4
 
 Match a peer name by   finding the name with a service location closest to the supplied hint, or if no hint is supplied, closest to the local IP address. The matching peer name can be registered locally or remotely, but the resolve request excludes  any peer name registered by the process making the resolve request.
 
-### -field PNRP_RESOLVE_CRITERIA_ANY_PEER_NAME
+### -field PNRP_RESOLVE_CRITERIA_ANY_PEER_NAME:5
 
 Match a peer name. The matching peer name can be registered locally or remotely.
 

@@ -54,10 +54,7 @@ Exposes a method that is used by the browser to translate the address of an unkn
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IURLSearchHook</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IURLSearchHook</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IURLSearchHook</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IURLSearchHook</b> also has these types of members:
 
 ## -remarks
 
@@ -65,7 +62,7 @@ When attempting to browse to a URL address that does not contain a protocol, the
 
 URL Search Hooks are registered by adding a value that contains the object's class identifier (CLSID) string under the following key in the registry: 
 				
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Internet Explorer</b>

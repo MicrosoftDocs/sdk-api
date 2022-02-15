@@ -54,7 +54,7 @@ api_name:
 
 Notifies the module to perform any cleanup tasks.
 
-## -parameters
+
 
 ## -returns
 

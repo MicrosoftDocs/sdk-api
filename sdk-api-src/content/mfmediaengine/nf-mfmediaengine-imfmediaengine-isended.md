@@ -52,7 +52,7 @@ api_name:
 
 Queries whether playback has ended.
 
-## -parameters
+
 
 ## -returns
 

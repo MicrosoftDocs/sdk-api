@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>WLAN_RADIO_STATE</b> structurespecifies the radio state on a list of physical layer (PHY) types.
+The <b>WLAN_RADIO_STATE</b> structure specifies the radio state on a list of physical layer (PHY) types.
 
 ## -struct-fields
 

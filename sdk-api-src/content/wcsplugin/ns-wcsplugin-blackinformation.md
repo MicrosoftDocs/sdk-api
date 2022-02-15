@@ -84,7 +84,7 @@ Black preservation is only performed when both the source and destination device
 
 <ul>
 <li>For source devices with a black channel, <b>blackWeight</b> is set to the black value.</li>
-<li>For source devices without a black channel, the black weight is computed using a combination of <i>color purity</i> and <i>relative lightness</i>.<i>Color purity</i>is defined as (maxColorant - minColorant)/maxColorant
+<li>For source devices without a black channel, the black weight is computed using a combination of <i>color purity</i> and <i>relative lightness</i>.<i>Color purity</i> is defined as (maxColorant - minColorant)/maxColorant
 
 <i>Relative lightness</i> is defined as (the lightness of the color in appearance space - minimum lightness of destination device) / (maximum lightness of destination device - minimum lightness of destination device)
 

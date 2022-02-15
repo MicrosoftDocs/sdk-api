@@ -54,19 +54,19 @@ Specifies the conversion matrix from the Y'Cb'Cr' color space to the R'G'B' colo
 
 ## -enum-fields
 
-### -field eAVEncVideoColorTransferMatrix_SameAsSource
+### -field eAVEncVideoColorTransferMatrix_SameAsSource:0
 
 Use the same transfer matrix as the input video. This flag applies to the <b>AVEncVideoOutputColorTransferMatrix</b> property only.
 
-### -field eAVEncVideoColorTransferMatrix_BT709
+### -field eAVEncVideoColorTransferMatrix_BT709:1
 
 ITU-R BT.709 transfer matrix.
 
-### -field eAVEncVideoColorTransferMatrix_BT601
+### -field eAVEncVideoColorTransferMatrix_BT601:2
 
 ITU-R BT.601 transfer matrix.
 
-### -field eAVEncVideoColorTransferMatrix_SMPTE240M
+### -field eAVEncVideoColorTransferMatrix_SMPTE240M:3
 
 SMPTE 240M transfer matrix.
 

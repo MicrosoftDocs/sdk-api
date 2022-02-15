@@ -57,11 +57,11 @@ Indicates the state of the cluster. The
 
 ## -enum-fields
 
-### -field ClusterStateNotInstalled
+### -field ClusterStateNotInstalled:0
 
 The Cluster service is not installed on the node.
 
-### -field ClusterStateNotConfigured
+### -field ClusterStateNotConfigured:0x1
 
 The Cluster service is installed on the node but has not yet been configured.
 

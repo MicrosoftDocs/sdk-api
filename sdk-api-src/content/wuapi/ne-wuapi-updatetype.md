@@ -56,11 +56,11 @@ Defines the types of update, such as a driver or software update.
 
 ## -enum-fields
 
-### -field utSoftware
+### -field utSoftware:1
 
 Indicates that the update is a software update.
 
-### -field utDriver
+### -field utDriver:2
 
 Indicates that the update is a driver update.
 

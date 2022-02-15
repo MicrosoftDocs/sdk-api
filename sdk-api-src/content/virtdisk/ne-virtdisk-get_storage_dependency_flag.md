@@ -57,15 +57,15 @@ Contains virtual hard disk (VHD) storage dependency request flags.
 
 ## -enum-fields
 
-### -field GET_STORAGE_DEPENDENCY_FLAG_NONE
+### -field GET_STORAGE_DEPENDENCY_FLAG_NONE:0x00000000
 
 No flags specified.
 
-### -field GET_STORAGE_DEPENDENCY_FLAG_HOST_VOLUMES
+### -field GET_STORAGE_DEPENDENCY_FLAG_HOST_VOLUMES:0x00000001
 
 Return information for volumes or disks hosting the volume specified.
 
-### -field GET_STORAGE_DEPENDENCY_FLAG_DISK_HANDLE
+### -field GET_STORAGE_DEPENDENCY_FLAG_DISK_HANDLE:0x00000002
 
 The handle provided is to a disk, not a volume or file.
 

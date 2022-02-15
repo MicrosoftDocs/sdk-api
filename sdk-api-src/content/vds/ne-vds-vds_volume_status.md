@@ -58,23 +58,23 @@ Defines the set of object status values for a volume.
 
 ## -enum-fields
 
-### -field VDS_VS_UNKNOWN
+### -field VDS_VS_UNKNOWN:0
 
 The status of the volume is unknown. This value does not apply to dynamic volumes.
 
-### -field VDS_VS_ONLINE
+### -field VDS_VS_ONLINE:1
 
 The volume is available.
 
-### -field VDS_VS_NO_MEDIA
+### -field VDS_VS_NO_MEDIA:3
 
 The volume is removable media, such as a CD-ROM.
 
-### -field VDS_VS_FAILED
+### -field VDS_VS_FAILED:5
 
 The volume is unavailable.
 
-### -field VDS_VS_OFFLINE
+### -field VDS_VS_OFFLINE:4
 
 The volume is offline.
 
@@ -89,7 +89,7 @@ When the <a href="/windows/desktop/api/vds/nf-vds-ivdspack-getproperties">IVdsPa
 <li>For mirrored volumes—when any disk, except the last disk, is missing or has write errors that  the plex transitions to a detached condition. Likewise, if it is the last (non-stale) plex and the disk is missing.</li>
 <li>For stripe with parity (RAID-5)—when the second disk is missing, or if one column becomes detached (because the disk is missing or the column has write errors), and a second disk is missing.</li>
 </ul>
-The <a href="/windows/desktop/api/vds/ns-vds-vds_volume_prop">VDS_VOLUME_PROP</a>structure includes a <b>VDS_VOLUME_STATUS</b> value as a member to indicate the status of a volume.
+The <a href="/windows/desktop/api/vds/ns-vds-vds_volume_prop">VDS_VOLUME_PROP</a> structure includes a <b>VDS_VOLUME_STATUS</b> value as a member to indicate the status of a volume.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_VOLUME_STATUS</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_VOLUME_STATUS</b> enumeration constant.</div>
 <div> </div>

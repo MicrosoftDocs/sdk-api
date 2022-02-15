@@ -60,20 +60,24 @@ A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivat
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-Call this method to provide a writeable byte stream 
+Call this method to provide a writable byte stream 
         that will receive the transcoded data.
 
 Alternatively, you can provide the name of an  output file, by calling <a href="/windows/desktop/api/mfidl/nf-mfidl-imftranscodesinkinfoprovider-setoutputfile">IMFTranscodeSinkInfoProvider::SetOutputFile</a>. These two methods are mutually exclusive.
 
-The <i>pByteStreamActivate</i> parameter must specify an activation object that creates a writeable byte stream. Internally, the transcode media sink calls <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">IMFActivate::ActivateObject</a> to create the byte stream, as follows:
+The <i>pByteStreamActivate</i> parameter must specify an activation object that creates a writable byte stream. Internally, the transcode media sink calls <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">IMFActivate::ActivateObject</a> to create the byte stream, as follows:
 
-<pre class="syntax" xml:space="preserve"><code>IMFByteStream *pByteStream = NULL;
 
-HRESULT hr = pByteStreamActivate-&gt;ActivateObject(IID_IMFByteStream, (void**)&amp;pByteStream);</code></pre>
+``` syntax
+IMFByteStream *pByteStream = NULL;
+
+HRESULT hr = pByteStreamActivate-&gt;ActivateObject(IID_IMFByteStream, (void**)&amp;pByteStream);
+```
+
 Currently, Microsoft Media Foundation does not provide any byte-stream activation objects. To use this method, an application must provide a custom implementation of <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a>.
 
 ## -see-also

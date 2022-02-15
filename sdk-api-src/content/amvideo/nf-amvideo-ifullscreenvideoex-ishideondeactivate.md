@@ -53,7 +53,7 @@ api_name:
 
 The <code>IsHideOnDeactivate</code> method indicates the behavior when the user switches to another application. Depending on the setting, the full-screen video window is either minimized or hidden. If it is minimized, it appears as an icon in the task bar; otherwise, it does not.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,79 +54,79 @@ Specifies the attributes of a recognizer. You also use this enumeration to deter
 
 ## -enum-fields
 
-### -field IRC_DontCare
+### -field IRC_DontCare:1
 
 Ignores all other flags that are set.
 
-### -field IRC_Object
+### -field IRC_Object:2
 
 The recognizer performs object recognition; otherwise, the recognizer performs text recognition.
 
-### -field IRC_FreeInput
+### -field IRC_FreeInput:4
 
 The recognizer supports free input. Ink is entered without the use of a recognition guide, such as lines or boxes.
 
-### -field IRC_LinedInput
+### -field IRC_LinedInput:8
 
 The recognizer supports lined input, which is similar to writing on lined paper.
 
-### -field IRC_BoxedInput
+### -field IRC_BoxedInput:16
 
 The recognizer supports boxed input, in which each character or word is entered in a box.
 
-### -field IRC_CharacterAutoCompletionInput
+### -field IRC_CharacterAutoCompletionInput:32
 
 The recognizer supports character Autocomplete. Recognizers that support character Autocomplete require boxed input.
 
-### -field IRC_RightAndDown
+### -field IRC_RightAndDown:64
 
 The recognizer supports western and Asian languages.
 
-### -field IRC_LeftAndDown
+### -field IRC_LeftAndDown:128
 
 The recognizer supports Hebrew and Arabic languages.
 
-### -field IRC_DownAndLeft
+### -field IRC_DownAndLeft:256
 
 The recognizer supports Asian languages.
 
-### -field IRC_DownAndRight
+### -field IRC_DownAndRight:512
 
 The recognizer supports the Chinese language.
 
-### -field IRC_ArbitraryAngle
+### -field IRC_ArbitraryAngle:1024
 
 The recognizer supports text that is written at arbitrary angles.
 
-### -field IRC_Lattice
+### -field IRC_Lattice:2048
 
 The recognizer can return a lattice object.
 
-### -field IRC_AdviseInkChange
+### -field IRC_AdviseInkChange:4096
 
 The recognizer's background recognition can be interrupted, as in when the ink has changed.
 
-### -field IRC_StrokeReorder
+### -field IRC_StrokeReorder:8192
 
 Specifies that stroke order - spatial and temporal - is handled.
 
-### -field IRC_Personalizable
+### -field IRC_Personalizable:16384
 
 The recognizer supports personalization.
 
-### -field IRC_PrefersArbitraryAngle
+### -field IRC_PrefersArbitraryAngle:32768
 
-### -field IRC_PrefersParagraphBreaking
+### -field IRC_PrefersParagraphBreaking:65536
 
-### -field IRC_PrefersSegmentation
+### -field IRC_PrefersSegmentation:131072
 
-### -field IRC_Cursive
+### -field IRC_Cursive:262144
 
-### -field IRC_TextPrediction
+### -field IRC_TextPrediction:524288
 
-### -field IRC_Alpha
+### -field IRC_Alpha:1048576
 
-### -field IRC_Beta
+### -field IRC_Beta:2097152
 
 
 

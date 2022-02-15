@@ -56,82 +56,82 @@ Describes how a property should be treated. These values are defined in Shtypes.
 
 ## -enum-fields
 
-### -field SHCOLSTATE_DEFAULT
+### -field SHCOLSTATE_DEFAULT:0
 
 The value is displayed according to default settings for the column.
 
-### -field SHCOLSTATE_TYPE_STR
+### -field SHCOLSTATE_TYPE_STR:0x1
 
 The value is displayed as a string.
 
-### -field SHCOLSTATE_TYPE_INT
+### -field SHCOLSTATE_TYPE_INT:0x2
 
 The value is displayed as an integer.
 
-### -field SHCOLSTATE_TYPE_DATE
+### -field SHCOLSTATE_TYPE_DATE:0x3
 
 The value is displayed as a date/time.
 
-### -field SHCOLSTATE_TYPEMASK
+### -field SHCOLSTATE_TYPEMASK:0xf
 
 A mask for display type values SHCOLSTATE_TYPE_STR, SHCOLSTATE_TYPE_STR, and SHCOLSTATE_TYPE_DATE.
 
-### -field SHCOLSTATE_ONBYDEFAULT
+### -field SHCOLSTATE_ONBYDEFAULT:0x10
 
 The column should be on by default in Details view.
 
-### -field SHCOLSTATE_SLOW
+### -field SHCOLSTATE_SLOW:0x20
 
 Will be slow to compute. Perform on a background thread.
 
-### -field SHCOLSTATE_EXTENDED
+### -field SHCOLSTATE_EXTENDED:0x40
 
 Provided by a handler, not the folder.
 
-### -field SHCOLSTATE_SECONDARYUI
+### -field SHCOLSTATE_SECONDARYUI:0x80
 
 Not displayed in the context menu, but is listed in the <b>More...</b> dialog.
 
-### -field SHCOLSTATE_HIDDEN
+### -field SHCOLSTATE_HIDDEN:0x100
 
 Not displayed in the UI.
 
-### -field SHCOLSTATE_PREFER_VARCMP
+### -field SHCOLSTATE_PREFER_VARCMP:0x200
 
 <b>VarCmp</b> produces same result as <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-compareids">IShellFolder::CompareIDs</a>.
 
-### -field SHCOLSTATE_PREFER_FMTCMP
+### -field SHCOLSTATE_PREFER_FMTCMP:0x400
 
 <a href="/windows/desktop/api/propsys/nf-propsys-psformatfordisplay">PSFormatForDisplay</a> produces same result as <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-compareids">IShellFolder::CompareIDs</a>.
 
-### -field SHCOLSTATE_NOSORTBYFOLDERNESS
+### -field SHCOLSTATE_NOSORTBYFOLDERNESS:0x800
 
 Do not sort folders separately.
 
-### -field SHCOLSTATE_VIEWONLY
+### -field SHCOLSTATE_VIEWONLY:0x10000
 
 Only displayed in the UI.
 
-### -field SHCOLSTATE_BATCHREAD
+### -field SHCOLSTATE_BATCHREAD:0x20000
 
 Marks columns with values that should be read in a batch.
 
-### -field SHCOLSTATE_NO_GROUPBY
+### -field SHCOLSTATE_NO_GROUPBY:0x40000
 
 Grouping is disabled for this column.
 
-### -field SHCOLSTATE_FIXED_WIDTH
+### -field SHCOLSTATE_FIXED_WIDTH:0x1000
 
 Can't resize the column.
 
-### -field SHCOLSTATE_NODPISCALE
+### -field SHCOLSTATE_NODPISCALE:0x2000
 
 The width is the same in all dpi.
 
-### -field SHCOLSTATE_FIXED_RATIO
+### -field SHCOLSTATE_FIXED_RATIO:0x4000
 
 Fixed width and height ratio.
 
-### -field SHCOLSTATE_DISPLAYMASK
+### -field SHCOLSTATE_DISPLAYMASK:0xf000
 
 Filters out new display flags.

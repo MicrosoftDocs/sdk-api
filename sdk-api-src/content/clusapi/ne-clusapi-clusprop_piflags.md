@@ -57,37 +57,37 @@ Represents disk partition information.  The enumeration flags identify certain p
 
 ## -enum-fields
 
-### -field CLUSPROP_PIFLAG_STICKY
+### -field CLUSPROP_PIFLAG_STICKY:0x00000001
 
 The drive letter is sticky.
 
-### -field CLUSPROP_PIFLAG_REMOVABLE
+### -field CLUSPROP_PIFLAG_REMOVABLE:0x00000002
 
 The storage class resource is removable.
 
-### -field CLUSPROP_PIFLAG_USABLE
+### -field CLUSPROP_PIFLAG_USABLE:0x00000004
 
 The storage class resource is formatted with a file system that is usable by the 
       <a href="/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a>.
 
-### -field CLUSPROP_PIFLAG_DEFAULT_QUORUM
+### -field CLUSPROP_PIFLAG_DEFAULT_QUORUM:0x00000008
 
 The partition should be used to store quorum files if no partition is specified in the 
       <a href="/windows/desktop/api/clusapi/nf-clusapi-setclusterquorumresource">SetClusterQuorumResource</a> function.
 
-### -field CLUSPROP_PIFLAG_USABLE_FOR_CSV
+### -field CLUSPROP_PIFLAG_USABLE_FOR_CSV:0x00000010
 
 The partition can be used in a cluster shared volume (CSV).
 
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This value is supported starting with Windows Server 2012.
 
-### -field CLUSPROP_PIFLAG_ENCRYPTION_ENABLED
+### -field CLUSPROP_PIFLAG_ENCRYPTION_ENABLED:0x00000020
 
 The partition uses BitLocker encryption.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This value is supported starting with Windows Server 2016.
 
-### -field CLUSPROP_PIFLAG_UNKNOWN
+### -field CLUSPROP_PIFLAG_UNKNOWN:0x80000000
 
 The partition uses an unknown file system type.
 

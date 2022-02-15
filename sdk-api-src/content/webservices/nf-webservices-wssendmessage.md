@@ -73,7 +73,7 @@ The action field of the <a href="/windows/desktop/api/webservices/ns-webservices
                     is required.
                 
 
-The bodyElementDescription field of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a>is used to serialize the body of the message.  This field may be 
+The bodyElementDescription field of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a> is used to serialize the body of the message.  This field may be 
                     <b>NULL</b> if no body element is desired.  See <a href="/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a> for
                     information about how the bodyElementDescription is used to serialize
                     the value.
@@ -499,5 +499,5 @@ This function may return other errors not listed above.
 
 ## -remarks
 
-To include custom headers with the message, initialize the message <a href="/windows/desktop/api/webservices/nf-webservices-wsinitializemessage">WsInitializeMessage</a>with <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_initialization">WS_BLANK_MESSAGE</a> and then add the headers using <a href="/windows/desktop/api/webservices/nf-webservices-wsaddcustomheader">WsAddCustomHeader</a> 
+To include custom headers with the message, initialize the message <a href="/windows/desktop/api/webservices/nf-webservices-wsinitializemessage">WsInitializeMessage</a> with <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_initialization">WS_BLANK_MESSAGE</a> and then add the headers using <a href="/windows/desktop/api/webservices/nf-webservices-wsaddcustomheader">WsAddCustomHeader</a> 
                 before calling this function.

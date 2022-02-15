@@ -54,10 +54,7 @@ Enables object clients to selectively update each cache that was created with <a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleCache2</b> interface inherits from <b>IOleCache</b>. <b>IOleCache2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IOleCache2</b> interface inherits from <b>IOleCache</b>. <b>IOleCache2</b> also has these types of members:
 
 ## -see-also
 

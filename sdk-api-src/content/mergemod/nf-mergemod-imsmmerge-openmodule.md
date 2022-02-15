@@ -83,7 +83,7 @@ The <b>OpenModule</b> function returns the following values.
 </dl>
 </td>
 <td width="60%">
-The file specified is an Windows Installer database, but is not a merge module (missing 
+The file specified is a Windows Installer database, but is not a merge module (missing 
 <a href="/windows/desktop/Msi/modulesignature-table">ModuleSignature table</a>).
 
 </td>
@@ -117,7 +117,7 @@ The language is supported by the module, but there was an error applying the tra
 </dl>
 </td>
 <td width="60%">
-The file could not be opened as an Windows Installer database.
+The file could not be opened as a Windows Installer database.
 
 </td>
 </tr>

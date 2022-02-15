@@ -54,15 +54,15 @@ Specifies whether the original source of the input video was film or video. This
 
 ## -enum-fields
 
-### -field eAVEncVideoFilmContent_VideoOnly
+### -field eAVEncVideoFilmContent_VideoOnly:0
 
 The original source was video.
 
-### -field eAVEncVideoFilmContent_FilmOnly
+### -field eAVEncVideoFilmContent_FilmOnly:1
 
 The original source was film.
 
-### -field eAVEncVideoFilmContent_Mixed
+### -field eAVEncVideoFilmContent_Mixed:2
 
 The original source contains a mix of video and film.
 

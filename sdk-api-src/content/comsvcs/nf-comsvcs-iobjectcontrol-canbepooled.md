@@ -52,7 +52,7 @@ api_name:
 
 Notifies the COM+ run-time environment whether the object can be pooled for reuse when it is deactivated.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,7 +54,7 @@ The <code>DMO_ENUM_FLAGS</code> enumeration defines flags that specify search cr
 
 ## -enum-fields
 
-### -field DMO_ENUMF_INCLUDE_KEYED
+### -field DMO_ENUMF_INCLUDE_KEYED:0x00000001
 
 The enumeration should include DMOs whose use is restricted by a software key. If this flag is absent, keyed DMOs are omitted from the enumeration.
 

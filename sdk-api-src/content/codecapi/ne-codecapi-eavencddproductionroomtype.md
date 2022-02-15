@@ -54,15 +54,15 @@ Specifies the room type for a Dolby Digital audio stream. This enumeration is us
 
 ## -enum-fields
 
-### -field eAVEncDDProductionRoomType_NotIndicated
+### -field eAVEncDDProductionRoomType_NotIndicated:0
 
 The room type is not indicated.
 
-### -field eAVEncDDProductionRoomType_Large
+### -field eAVEncDDProductionRoomType_Large:1
 
 Large room.
 
-### -field eAVEncDDProductionRoomType_Small
+### -field eAVEncDDProductionRoomType_Small:2
 
 Small room.
 

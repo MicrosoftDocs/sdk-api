@@ -126,7 +126,7 @@ Before calling <b>WinHttpCloseHandle</b>, an application can call <a href="/wind
 
 <code>WinHttpSetStatusCallback( hRequest, NULL, 0, 0 );</code>
 
-It might seem that the context data structure could then be freed immediately rather than having to wait for a <b>WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING</b> notification, but this is not the case: WinHTTP does not synchronize <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpsetstatuscallback">WinHttpSetStatusCallback</a> with callbacks originating in worker threads. As a result, a callback could already be in progress from another thread, and the application could receive a callback notification even after having <b>NULL</b>ed-out the callback function pointer and deleted the handle's context data structure. Because of this potential race condition, be conservative in freeing the context structure until after having received the <b>WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING</b> notification.
+It might seem that the context data structure could then be freed immediately rather than having to wait for a <b>WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING</b> notification, but this is not the case: WinHTTP does not synchronize <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpsetstatuscallback">WinHttpSetStatusCallback</a> with callbacks originating in worker threads. As a result, a callback could already be in progress from another thread, and the application could receive a callback notification even after having <b>NULL</b> ed-out the callback function pointer and deleted the handle's context data structure. Because of this potential race condition, be conservative in freeing the context structure until after having received the <b>WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING</b> notification.
 
 </li>
 </ul>

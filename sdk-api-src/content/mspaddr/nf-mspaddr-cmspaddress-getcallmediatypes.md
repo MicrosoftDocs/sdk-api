@@ -53,7 +53,7 @@ api_name:
 The 
 <b>GetCallMediaTypes</b> method gets media types supported by the MSP. The derived class must override this method to indicate the media types supported. The relevant TAPIMEDIATYPE constants should be ORed together and returned.
 
-## -parameters
+
 
 ## -see-also
 

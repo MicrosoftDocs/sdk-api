@@ -59,10 +59,7 @@ Using these methods, an application does not need to specify every filter and pi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGraphBuilder</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph</a>. <b>IGraphBuilder</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IGraphBuilder</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph</a>. <b>IGraphBuilder</b> also has these types of members:
 
 ## -see-also
 

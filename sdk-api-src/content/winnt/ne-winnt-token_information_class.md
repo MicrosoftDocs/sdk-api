@@ -62,7 +62,7 @@ The <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-settokeninf
 
 ## -enum-fields
 
-### -field TokenUser
+### -field TokenUser:1
 
 The buffer receives a 
 <a href="/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a> structure that contains the user account of the token.

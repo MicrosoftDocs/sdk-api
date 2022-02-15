@@ -53,7 +53,7 @@ api_name:
 
 Resets the input trust authority (ITA) to its initial state.
 
-## -parameters
+
 
 ## -returns
 

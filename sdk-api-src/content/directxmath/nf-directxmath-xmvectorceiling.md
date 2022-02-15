@@ -69,14 +69,18 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 <b>XMVectorCeiling</b> is implemented like this:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 XMVECTOR Result; 
 Result.x = ceilf(V.x); 
 Result.y = ceilf(V.y); 
 Result.z = ceilf(V.z); 
 Result.w = ceilf(V.w); 
 return Result; 
-</code></pre>
+
+```
+
 
 ## -see-also
 

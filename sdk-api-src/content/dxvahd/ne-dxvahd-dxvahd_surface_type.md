@@ -56,15 +56,15 @@ Specifies the type of video surface created by a Microsoft DirectX Video Acceler
 
 ## -enum-fields
 
-### -field DXVAHD_SURFACE_TYPE_VIDEO_INPUT
+### -field DXVAHD_SURFACE_TYPE_VIDEO_INPUT:0
 
 A surface for an input stream. This surface type is equivalent to an off-screen plain surface in Microsoft Direct3D. The application can use the surface in Direct3D calls.
 
-### -field DXVAHD_SURFACE_TYPE_VIDEO_INPUT_PRIVATE
+### -field DXVAHD_SURFACE_TYPE_VIDEO_INPUT_PRIVATE:1
 
 A private surface for an input stream. This surface type is equivalent to an off-screen plain surface, except that the application cannot use the surface in Direct3D calls.
 
-### -field DXVAHD_SURFACE_TYPE_VIDEO_OUTPUT
+### -field DXVAHD_SURFACE_TYPE_VIDEO_OUTPUT:2
 
 A surface for an output stream. This surface type is equivalent to an off-screen plain surface in Direct3D. The application can use the surface in Direct3D calls. 
 

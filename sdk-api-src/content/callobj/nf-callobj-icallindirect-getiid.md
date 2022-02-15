@@ -64,7 +64,7 @@ Indicates whether the interface is derived from <b>IDispatch</b>. This parameter
 
 ### -param pcMethod [out]
 
-Receives the number of methods in the inferface.
+Receives the number of methods in the interface.
 
 ### -param pwszInterface [out]
 

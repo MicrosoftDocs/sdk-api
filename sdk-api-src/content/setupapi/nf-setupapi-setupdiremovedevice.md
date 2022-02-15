@@ -74,7 +74,7 @@ Device removal is either global to all hardware profiles or specific to one hard
 
 The caller of <b>SetupDiRemoveDevice</b> must be a member of the Administrators group.
 
-<div class="alert"><b>Note</b>  Only a <a href="/windows-hardware/drivers/">class installer</a> should call <b>SetupDiRemoveDevice </b>and only in those situations where the class installer must perform device removal operations after <b>SetupDiRemoveDevice </b>completes the default device removal operation. In such situations, the class installer must directly call <b>SetupDiRemoveDevice</b> when the installer processes a DIF_REMOVE request. For more information about calling the default handler, see <a href="/windows-hardware/drivers/install/calling-the-default-dif-code-handlers">Calling Default DIF Code Handlers</a>. </div>
+<div class="alert"><b>Note</b>  Only a <a href="/windows-hardware/drivers/">class installer</a> should call <b>SetupDiRemoveDevice </b> and only in those situations where the class installer must perform device removal operations after <b>SetupDiRemoveDevice </b> completes the default device removal operation. In such situations, the class installer must directly call <b>SetupDiRemoveDevice</b> when the installer processes a DIF_REMOVE request. For more information about calling the default handler, see <a href="/windows-hardware/drivers/install/calling-the-default-dif-code-handlers">Calling Default DIF Code Handlers</a>. </div>
 <div> </div>
 
 ## -see-also

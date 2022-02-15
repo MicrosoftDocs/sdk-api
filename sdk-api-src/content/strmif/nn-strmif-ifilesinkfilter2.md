@@ -57,10 +57,7 @@ The <b>IFileSinkFilter2</b> interface extends the <a href="/windows/desktop/api/
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileSinkFilter2</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-ifilesinkfilter">IFileSinkFilter</a>. <b>IFileSinkFilter2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IFileSinkFilter2</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-ifilesinkfilter">IFileSinkFilter</a>. <b>IFileSinkFilter2</b> also has these types of members:
 
 ## -see-also
 

@@ -56,11 +56,11 @@ The <b>WMT_WATERMARK_ENTRY_TYPE</b> enumeration type identifies the types of wat
 
 ## -enum-fields
 
-### -field WMT_WMETYPE_AUDIO
+### -field WMT_WMETYPE_AUDIO:1
 
 Identifies a watermarking DMO for audio.
 
-### -field WMT_WMETYPE_VIDEO
+### -field WMT_WMETYPE_VIDEO:2
 
 Identifies a watermarking DMO for video.
 

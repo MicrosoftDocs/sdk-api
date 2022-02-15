@@ -52,7 +52,7 @@ api_name:
 
 Stops tracking leaks for the current thread.
 
-## -parameters
+
 
 ## -see-also
 

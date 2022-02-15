@@ -65,4 +65,8 @@ An index of an overlay mask.
 The <b>INDEXTOOVERLAYMASK</b> macro is defined as follows.
 
 
-<pre class="syntax" xml:space="preserve"><code>#define INDEXTOOVERLAYMASK(i) ((i) &lt;&lt; 8)</code></pre>
+
+``` syntax
+#define INDEXTOOVERLAYMASK(i) ((i) &lt;&lt; 8)
+```
+

@@ -74,7 +74,7 @@ Reserved. Must be zero.
 
 The caller of this function must be a member of the Administrators group.
 
-<b>SetupDiDeleteDeviceInterfaceRegKey</b> deletes the subkey used by drivers and applications to store information about the device interface instance. This subkey was created by <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinterfaceregkeya">SetupDiCreateDeviceInterfaceRegKey</a> or by the driver's call to an associated <a href="/previous-versions/windows/hardware/drivers/ff551797(v=vs.85)">I/O manager routine</a>. <b>SetupDiDeleteDeviceInterfaceRegKey</b> does not affect the main registry key for the device interface instance nor any other subkeys that may have been created.
+<b>SetupDiDeleteDeviceInterfaceRegKey</b> deletes the subkey used by drivers and applications to store information about the device interface instance. This subkey was created by <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinterfaceregkeya">SetupDiCreateDeviceInterfaceRegKey</a> or by the driver's call to an associated <a href="/windows-hardware/drivers/ddi/_kernel/#io-manager-routines">I/O manager routine</a>. <b>SetupDiDeleteDeviceInterfaceRegKey</b> does not affect the main registry key for the device interface instance nor any other subkeys that may have been created.
 
 The <i>DeviceInfoSet</i> must only contain elements on the local computer.
 

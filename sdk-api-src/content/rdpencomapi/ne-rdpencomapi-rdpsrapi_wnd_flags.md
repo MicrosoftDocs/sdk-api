@@ -58,7 +58,7 @@ The list of windows on the sharing user session can be retrieved on both the sha
 
 ## -enum-fields
 
-### -field WND_FLAG_PRIVILEGED
+### -field WND_FLAG_PRIVILEGED:1
 
 The window is part of an application that runs at a higher level than the current process. This flag indicates that the window cannot be shared. Applications can use this flag to prevent the user from sharing it either by disabling the entry for the window in the user interface or by not showing the entry.
 

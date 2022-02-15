@@ -56,7 +56,7 @@ Creates a new instance of an <a href="/windows/desktop/api/appxpackaging/nn-appx
 
 ### -param outputStream [in]
 
-A writeable stream for sending bytes produced by the app package.
+A writable stream for sending bytes produced by the app package.
 
 ### -param manifestStream [in]
 

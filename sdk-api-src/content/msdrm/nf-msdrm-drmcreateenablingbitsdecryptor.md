@@ -94,7 +94,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 A consuming application performs the following steps to decrypt content previously encrypted by a publishing application.<ol>
 <li>Retrieve an end-user license. Call <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmenumeratelicense">DRMEnumerateLicense</a> to retrieve the license if it already exists in the store. If function succeeds, go to step 2. If the license is not in the store, call <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmacquirelicense">DRMAcquireLicense</a> followed by <b>DRMEnumerateLicense</b>.</li>
 <li>Call <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateboundlicense">DRMCreateBoundLicense</a> to create a license that binds to one or more rights in the end-user license. The bound license includes a symmetric key that can be used for decryption.</li>
-<li>Call <b>DRMCreateEnablingBitsDecryptor</b> to create an decrypting object associated with the bound right and content key.</li>
+<li>Call <b>DRMCreateEnablingBitsDecryptor</b> to create a decrypting object associated with the bound right and content key.</li>
 <li>Call <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmdecrypt">DRMDecrypt</a> to use the content key to decrypt the content.</li>
 </ol>
 

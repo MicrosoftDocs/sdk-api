@@ -54,43 +54,43 @@ The <b>DWRITE_PANOSE_ASPECT</b> enumeration contains values that specify the rat
 
 ## -enum-fields
 
-### -field DWRITE_PANOSE_ASPECT_ANY
+### -field DWRITE_PANOSE_ASPECT_ANY:0
 
 Any aspect.
 
-### -field DWRITE_PANOSE_ASPECT_NO_FIT
+### -field DWRITE_PANOSE_ASPECT_NO_FIT:1
 
 No fit for aspect.
 
-### -field DWRITE_PANOSE_ASPECT_SUPER_CONDENSED
+### -field DWRITE_PANOSE_ASPECT_SUPER_CONDENSED:2
 
 Super condensed aspect.
 
-### -field DWRITE_PANOSE_ASPECT_VERY_CONDENSED
+### -field DWRITE_PANOSE_ASPECT_VERY_CONDENSED:3
 
 Very condensed aspect.
 
-### -field DWRITE_PANOSE_ASPECT_CONDENSED
+### -field DWRITE_PANOSE_ASPECT_CONDENSED:4
 
 Condensed aspect.
 
-### -field DWRITE_PANOSE_ASPECT_NORMAL
+### -field DWRITE_PANOSE_ASPECT_NORMAL:5
 
 Normal aspect.
 
-### -field DWRITE_PANOSE_ASPECT_EXTENDED
+### -field DWRITE_PANOSE_ASPECT_EXTENDED:6
 
 Extended aspect.
 
-### -field DWRITE_PANOSE_ASPECT_VERY_EXTENDED
+### -field DWRITE_PANOSE_ASPECT_VERY_EXTENDED:7
 
 Very extended aspect.
 
-### -field DWRITE_PANOSE_ASPECT_SUPER_EXTENDED
+### -field DWRITE_PANOSE_ASPECT_SUPER_EXTENDED:8
 
 Super extended aspect.
 
-### -field DWRITE_PANOSE_ASPECT_MONOSPACED
+### -field DWRITE_PANOSE_ASPECT_MONOSPACED:9
 
 Monospace aspect.
 

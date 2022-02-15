@@ -58,7 +58,7 @@ current item in a Digital Video Broadcast (DVB) extended event descriptor.
 ### -param bRecordIndex [in]
 
 Specifies the item record number,
-  indexed from zero. Call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getcountofrecords">IDvbExtendedEventDescriptor::GetCountOfRecords</a>method to get the number of records in the extended event descriptor.
+  indexed from zero. Call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getcountofrecords">IDvbExtendedEventDescriptor::GetCountOfRecords</a> method to get the number of records in the extended event descriptor.
 
 ### -param ppbRawItem [out]
 
@@ -70,7 +70,7 @@ Receives the number of bytes in the item description.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

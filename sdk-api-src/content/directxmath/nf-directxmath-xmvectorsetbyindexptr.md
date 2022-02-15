@@ -61,7 +61,7 @@ A <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> co
 
 ### -param f [in]
 
-A pointer to an floating-point instance used to set the <i>i</i> component of the returned
+A pointer to a floating-point instance used to set the <i>i</i> component of the returned
         <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>.
 
 ### -param i

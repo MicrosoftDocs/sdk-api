@@ -59,23 +59,23 @@ Describes the type of break that separates the current chunk from the previous c
 
 ## -enum-fields
 
-### -field CHUNK_NO_BREAK
+### -field CHUNK_NO_BREAK:0
 
 No break is placed between the current chunk and the previous chunk. The chunks are glued together.
 
-### -field CHUNK_EOW
+### -field CHUNK_EOW:1
 
 A word break is placed between this chunk and the previous chunk that had the same attribute. Use of CHUNK_EOW should be minimized because the choice of word breaks is language-dependent, so determining word breaks is best left to the search engine.
 
-### -field CHUNK_EOS
+### -field CHUNK_EOS:2
 
 A sentence break is placed between this chunk and the previous chunk that had the same attribute.
 
-### -field CHUNK_EOP
+### -field CHUNK_EOP:3
 
 A paragraph break is placed between this chunk and the previous chunk that had the same attribute.
 
-### -field CHUNK_EOC
+### -field CHUNK_EOC:4
 
 A chapter break is placed between this chunk and the previous chunk that had the same attribute.
 

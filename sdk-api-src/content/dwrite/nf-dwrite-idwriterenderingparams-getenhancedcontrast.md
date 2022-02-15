@@ -52,7 +52,7 @@ api_name:
 
 Gets the enhanced contrast property of the rendering parameters object. Valid values are greater than or equal to zero.
 
-## -parameters
+
 
 ## -returns
 

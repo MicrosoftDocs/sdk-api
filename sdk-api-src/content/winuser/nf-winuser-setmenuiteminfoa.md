@@ -73,7 +73,7 @@ Type: <b>UINT</b>
 
 The identifier or position of the menu item to change. The meaning of this parameter depends on the value of <i>fByPosition</i>.
 
-### -param fByPositon [in]
+### -param fByPosition [in]
 
 Type: <b>BOOL</b>
 

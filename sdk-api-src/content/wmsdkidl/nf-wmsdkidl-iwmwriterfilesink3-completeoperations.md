@@ -55,7 +55,7 @@ api_name:
 
 The <b>CompleteOperations</b> method stops the writer sink after completing all operations in progress. This method is used with unbuffered I/O.
 
-## -parameters
+
 
 ## -returns
 

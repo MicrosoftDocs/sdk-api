@@ -54,23 +54,23 @@ Describes the level of support for shader caching in the current graphics driver
 
 ## -enum-fields
 
-### -field D3D12_SHADER_CACHE_SUPPORT_NONE
+### -field D3D12_SHADER_CACHE_SUPPORT_NONE:0
 
 Indicates that the driver does not support shader caching.
 
-### -field D3D12_SHADER_CACHE_SUPPORT_SINGLE_PSO
+### -field D3D12_SHADER_CACHE_SUPPORT_SINGLE_PSO:0x1
 
 Indicates that the driver supports the CachedPSO member of the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc">D3D12_GRAPHICS_PIPELINE_STATE_DESC</a> and <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc">D3D12_COMPUTE_PIPELINE_STATE_DESC</a> structures. This is always supported.
 
-### -field D3D12_SHADER_CACHE_SUPPORT_LIBRARY
+### -field D3D12_SHADER_CACHE_SUPPORT_LIBRARY:0x2
 
 Indicates that the driver supports the ID3D12PipelineLibrary interface, which provides application-controlled PSO grouping and caching. This is supported by drivers targetting the Windows 10 Anniversary Update.
 
-### -field D3D12_SHADER_CACHE_SUPPORT_AUTOMATIC_INPROC_CACHE
+### -field D3D12_SHADER_CACHE_SUPPORT_AUTOMATIC_INPROC_CACHE:0x4
 
 Indicates that the driver supports an OS-managed shader cache that stores compiled shaders in memory during the current run of the application.
 
-### -field D3D12_SHADER_CACHE_SUPPORT_AUTOMATIC_DISK_CACHE
+### -field D3D12_SHADER_CACHE_SUPPORT_AUTOMATIC_DISK_CACHE:0x8
 
 Indicates that the driver supports an OS-managed shader cache that stores compiled shaders on disk to accelerate future runs of the application.
 

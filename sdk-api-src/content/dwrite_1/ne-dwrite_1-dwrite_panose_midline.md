@@ -54,59 +54,59 @@ The <b>DWRITE_PANOSE_MIDLINE</b> enumeration contains values that specify info a
 
 ## -enum-fields
 
-### -field DWRITE_PANOSE_MIDLINE_ANY
+### -field DWRITE_PANOSE_MIDLINE_ANY:0
 
 Any midline.
 
-### -field DWRITE_PANOSE_MIDLINE_NO_FIT
+### -field DWRITE_PANOSE_MIDLINE_NO_FIT:1
 
 No fit midline.
 
-### -field DWRITE_PANOSE_MIDLINE_STANDARD_TRIMMED
+### -field DWRITE_PANOSE_MIDLINE_STANDARD_TRIMMED:2
 
 Standard trimmed midline.
 
-### -field DWRITE_PANOSE_MIDLINE_STANDARD_POINTED
+### -field DWRITE_PANOSE_MIDLINE_STANDARD_POINTED:3
 
 Standard pointed midline.
 
-### -field DWRITE_PANOSE_MIDLINE_STANDARD_SERIFED
+### -field DWRITE_PANOSE_MIDLINE_STANDARD_SERIFED:4
 
 Standard serifed midline.
 
-### -field DWRITE_PANOSE_MIDLINE_HIGH_TRIMMED
+### -field DWRITE_PANOSE_MIDLINE_HIGH_TRIMMED:5
 
 High trimmed midline.
 
-### -field DWRITE_PANOSE_MIDLINE_HIGH_POINTED
+### -field DWRITE_PANOSE_MIDLINE_HIGH_POINTED:6
 
 High pointed midline.
 
-### -field DWRITE_PANOSE_MIDLINE_HIGH_SERIFED
+### -field DWRITE_PANOSE_MIDLINE_HIGH_SERIFED:7
 
 High serifed midline.
 
-### -field DWRITE_PANOSE_MIDLINE_CONSTANT_TRIMMED
+### -field DWRITE_PANOSE_MIDLINE_CONSTANT_TRIMMED:8
 
 Constant trimmed midline.
 
-### -field DWRITE_PANOSE_MIDLINE_CONSTANT_POINTED
+### -field DWRITE_PANOSE_MIDLINE_CONSTANT_POINTED:9
 
 Constant pointed midline.
 
-### -field DWRITE_PANOSE_MIDLINE_CONSTANT_SERIFED
+### -field DWRITE_PANOSE_MIDLINE_CONSTANT_SERIFED:10
 
 Constant serifed midline.
 
-### -field DWRITE_PANOSE_MIDLINE_LOW_TRIMMED
+### -field DWRITE_PANOSE_MIDLINE_LOW_TRIMMED:11
 
 Low trimmed midline.
 
-### -field DWRITE_PANOSE_MIDLINE_LOW_POINTED
+### -field DWRITE_PANOSE_MIDLINE_LOW_POINTED:12
 
 Low pointed midline.
 
-### -field DWRITE_PANOSE_MIDLINE_LOW_SERIFED
+### -field DWRITE_PANOSE_MIDLINE_LOW_SERIFED:13
 
 Low serifed midline.
 

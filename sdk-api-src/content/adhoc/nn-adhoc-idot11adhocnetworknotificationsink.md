@@ -55,10 +55,7 @@ The <b>IDot11AdHocNetworkNotificationSink</b> interface defines the notification
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDot11AdHocNetworkNotificationSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDot11AdHocNetworkNotificationSink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDot11AdHocNetworkNotificationSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDot11AdHocNetworkNotificationSink</b> also has these types of members:
 
 ## -see-also
 

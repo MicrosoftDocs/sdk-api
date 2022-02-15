@@ -54,7 +54,7 @@ api_name:
 The <b>Size::Empty</b> method determines whether a 
 			<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object is empty.
 
-## -parameters
+
 
 ## -returns
 

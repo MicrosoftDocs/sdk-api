@@ -56,11 +56,11 @@ Contains flags that specify how to convert an audio media type.
 
 ## -enum-fields
 
-### -field MFWaveFormatExConvertFlag_Normal
+### -field MFWaveFormatExConvertFlag_Normal:0
 
 Convert the media type to a <b>WAVEFORMATEX</b> structure if possible, or a <b>WAVEFORMATEXTENSIBLE</b> structure otherwise.
 
-### -field MFWaveFormatExConvertFlag_ForceExtensible
+### -field MFWaveFormatExConvertFlag_ForceExtensible:1
 
 Convert the media type to a <b>WAVEFORMATEXTENSIBLE</b> structure.
 

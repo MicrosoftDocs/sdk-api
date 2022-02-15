@@ -56,23 +56,23 @@ Defines the different states that a registered task can be in.
 
 ## -enum-fields
 
-### -field TASK_STATE_UNKNOWN
+### -field TASK_STATE_UNKNOWN:0
 
 The state of the task is unknown.
 
-### -field TASK_STATE_DISABLED
+### -field TASK_STATE_DISABLED:1
 
 The task is registered but is disabled and no instances of the task are queued or running. The task cannot be run until it is enabled.
 
-### -field TASK_STATE_QUEUED
+### -field TASK_STATE_QUEUED:2
 
 Instances of the task are queued.
 
-### -field TASK_STATE_READY
+### -field TASK_STATE_READY:3
 
 The task is ready to be executed, but no instances are queued or running.
 
-### -field TASK_STATE_RUNNING
+### -field TASK_STATE_RUNNING:4
 
 One or more instances of the task is running.
 

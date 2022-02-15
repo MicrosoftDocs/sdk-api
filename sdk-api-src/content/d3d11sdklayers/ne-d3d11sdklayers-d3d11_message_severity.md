@@ -54,7 +54,7 @@ Debug message severity levels for an information queue.
 
 ## -enum-fields
 
-### -field D3D11_MESSAGE_SEVERITY_CORRUPTION
+### -field D3D11_MESSAGE_SEVERITY_CORRUPTION:0
 
 Defines some type of corruption which has occurred.
 

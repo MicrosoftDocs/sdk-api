@@ -22,6 +22,6 @@ To develop Windows Information Protection (WIP), you need these headers:
 For guidance for this technology, see:
 * [Windows Information Protection (WIP)](/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip)
 
-* [Generate guidance and best practies for WIndows Information Protection (WIP_)](/windows/security/information-protection/windows-information-protection/guidance-and-best-practices-wip)
+* [Generate guidance and best practices for Windows Information Protection (WIP)](/windows/security/information-protection/windows-information-protection/guidance-and-best-practices-wip)
 
 * [Create a Windows Information Protection (WIP) policy using Microsoft Intune](/windows/security/information-protection/windows-information-protection/overview-create-wip-policy)

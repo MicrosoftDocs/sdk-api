@@ -9,8 +9,8 @@ ms.keywords: DML_MATRIX_MULTIPLY_INTEGER_OPERATOR_DESC, DML_MATRIX_MULTIPLY_INTE
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -87,10 +87,21 @@ A tensor with which to write the results to. This tensor's dimensions are `{ Bat
 This operator was introduced in `DML_FEATURE_LEVEL_2_1`.
 
 ## Tensor constraints
-* *ATensor* and `AZeroPointTensor` must have the same *DataType*.
-* *BTensor* and `BZeroPointTensor` must have the same *DataType*.
+* *ATensor*, *BZeroPointTensor*, and *OutputTensor* must have the same *DimensionCount*.
+* *BTensor* and *BZeroPointTensor* must have the same *DataType*.
+* *ATensor* and *AZeroPointTensor* must have the same *DataType*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_4_0 and above
+| Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
+| ------ | ---- | ---------- | -------------------------- | -------------------- |
+| ATensor | Input | { [BatchCount], [ChannelCount], M, K } | 2 to 4 | INT8, UINT8 |
+| AZeroPointTensor | Optional input | { [1], [1], AZeroPointCount, [1] } | 1 to 4 | INT8, UINT8 |
+| BTensor | Input | { [BatchCount], [ChannelCount], K, N } | 2 to 4 | INT8, UINT8 |
+| BZeroPointTensor | Optional input | { [1], [1], 1, BZeroPointCount } | 2 to 4 | INT8, UINT8 |
+| OutputTensor | Output | { [BatchCount], [ChannelCount], M, N } | 2 to 4 | INT32 |
+
+### DML_FEATURE_LEVEL_2_1 and above
 | Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
 | ------ | ---- | ---------- | -------------------------- | -------------------- |
 | ATensor | Input | { BatchCount, ChannelCount, M, K } | 4 | INT8, UINT8 |

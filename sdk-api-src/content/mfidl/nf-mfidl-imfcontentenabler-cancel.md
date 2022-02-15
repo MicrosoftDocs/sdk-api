@@ -53,7 +53,7 @@ api_name:
 
 Cancels a pending content enabling action.
 
-## -parameters
+
 
 ## -returns
 

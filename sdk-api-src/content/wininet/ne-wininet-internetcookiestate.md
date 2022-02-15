@@ -54,27 +54,27 @@ The <b>InternetCookieState</b> enumeration defines the state of the cookie.
 
 ## -enum-fields
 
-### -field COOKIE_STATE_UNKNOWN
+### -field COOKIE_STATE_UNKNOWN:0x0
 
 Reserved.
 
-### -field COOKIE_STATE_ACCEPT
+### -field COOKIE_STATE_ACCEPT:0x1
 
 The cookies are accepted.
 
-### -field COOKIE_STATE_PROMPT
+### -field COOKIE_STATE_PROMPT:0x2
 
 The user is prompted to accept or deny the cookie.
 
-### -field COOKIE_STATE_LEASH
+### -field COOKIE_STATE_LEASH:0x3
 
 Cookies are accepted only in the first-party context.
 
-### -field COOKIE_STATE_DOWNGRADE
+### -field COOKIE_STATE_DOWNGRADE:0x4
 
 Cookies are accepted and become session cookies.
 
-### -field COOKIE_STATE_REJECT
+### -field COOKIE_STATE_REJECT:0x5
 
 The cookies are rejected.
 

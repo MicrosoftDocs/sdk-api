@@ -54,31 +54,31 @@ Specifies the type of a handler. Used by <a href="/windows/desktop/api/syncmgr/n
 
 ## -enum-fields
 
-### -field SYNCMGR_HT_UNSPECIFIED
+### -field SYNCMGR_HT_UNSPECIFIED:0
 
 The handler type is unknown. This value is also used if <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandlerinfo-gettype">ISyncMgrHandlerInfo::GetType</a> fails.
 
-### -field SYNCMGR_HT_APPLICATION
+### -field SYNCMGR_HT_APPLICATION:1
 
 The handler is an application.
 
-### -field SYNCMGR_HT_DEVICE
+### -field SYNCMGR_HT_DEVICE:2
 
 The handler syncs with a device such as a phone or PDA.
 
-### -field SYNCMGR_HT_FOLDER
+### -field SYNCMGR_HT_FOLDER:3
 
 The handler syncs with local or remote folders.
 
-### -field SYNCMGR_HT_SERVICE
+### -field SYNCMGR_HT_SERVICE:4
 
 The handler syncs with a web service.
 
-### -field SYNCMGR_HT_COMPUTER
+### -field SYNCMGR_HT_COMPUTER:5
 
 The handler syncs with a computer.
 
-### -field SYNCMGR_HT_MIN
+### -field SYNCMGR_HT_MIN:0
 
 Indicates the minimum <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_type">SYNCMGR_HANDLER_TYPE</a> value.
 

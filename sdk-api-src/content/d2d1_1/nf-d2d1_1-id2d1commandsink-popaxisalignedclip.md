@@ -52,7 +52,7 @@ api_name:
 
 Removes an axis-aligned clip from the layer and clip stack.
 
-## -parameters
+
 
 ## -returns
 

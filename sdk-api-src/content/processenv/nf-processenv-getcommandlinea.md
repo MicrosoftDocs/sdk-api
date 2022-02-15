@@ -59,7 +59,7 @@ api_name:
 
 Retrieves the command-line string for the current process.
 
-## -parameters
+
 
 ## -returns
 

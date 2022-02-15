@@ -74,7 +74,9 @@ It's similar to the existing <a href="/windows/desktop/api/directxmath/nf-direct
 
 <b>XMVectorLogE</b> is implemented like this:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 XMVECTOR Result;
 
 Result.x = logf(V.x);
@@ -83,7 +85,9 @@ Result.z = logf(V.z);
 Result.w = logf(V.w);
 
 return Result;
-</code></pre>
+
+```
+
 
 ## -see-also
 

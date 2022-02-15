@@ -73,7 +73,9 @@ Address of Unicode string containing the dependency expression.
 The system only supports groups of <b>OR</b> expressions that are combined by using <b>AND</b>. The dependency expressions are 
     described by this BNF grammar.
 
-<pre class="syntax" xml:space="preserve"><code>expression:
+
+``` syntax
+expression:
       expression_part
     | expression and expression_part
 
@@ -88,7 +90,9 @@ or_expression:
 
 resource:
     [resourceID]
-    | [resourceName]</code></pre>
+    | [resourceName]
+```
+
 This gives us expressions of the general form:<b>( [</b><i>id</i><b>] or [</b><i>id</i><b>] ... ) and ( [</b><i>id</i><b>] or [</b><i>id</i><b>] ... ) and ...</b>
 
 For example: ([a904e1b7-95dd-47f0-9b2e-f1007d92699b] or [ae6fcf48-c42f-4960-a61a-7f1044067668]) and ([c471abc6-e454-482e-8be4-fae084cf799b] or [de976488-82cb-4950-8ce0-1b45e868e058])

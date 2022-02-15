@@ -61,29 +61,29 @@ Defines the set of valid flags for a <a href="/windows/desktop/VDS/drive-object"
 
 ## -enum-fields
 
-### -field VDS_DRF_HOTSPARE
+### -field VDS_DRF_HOTSPARE:0x1
 
 The drive is reserved for use only as a hot spare.
 
-### -field VDS_DRF_ASSIGNED
+### -field VDS_DRF_ASSIGNED:0x2
 
 The drive is assigned to a RAID group or <a href="/windows/desktop/VDS/storage-pool-object">storage pool</a>.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_DRF_UNASSIGNED
+### -field VDS_DRF_UNASSIGNED:0x4
 
 The drive is not assigned to a RAID group or storage pool.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_DRF_HOTSPARE_IN_USE
+### -field VDS_DRF_HOTSPARE_IN_USE:0x8
 
 The drive is in use as a hot spare.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_DRF_HOTSPARE_STANDBY
+### -field VDS_DRF_HOTSPARE_STANDBY:0x10
 
 The drive is on standby as a hot spare.
 
@@ -91,9 +91,9 @@ The drive is on standby as a hot spare.
 
 ## -remarks
 
-This enumeration provides the values for the <i>ulFlags</i> member of the  <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a>structure.
+This enumeration provides the values for the <i>ulFlags</i> member of the  <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a> structure.
 
-This enumeration provides the values for the <i>ulFlags</i> member of the  <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a>structure.
+This enumeration provides the values for the <i>ulFlags</i> member of the  <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a> structure.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_DRIVE_FLAG</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_DRIVE_FLAG</b> enumeration constant.</div>
 <div> </div>

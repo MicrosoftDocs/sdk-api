@@ -82,10 +82,12 @@ Returns <b>S_OK</b> if successful; otherwise, returns one of the <a href="/windo
 
 If an application procedurally generates a <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_signature_desc1">D3D12_ROOT_SIGNATURE_DESC1</a> data structure, it must pass a pointer to this <b>D3D12_ROOT_SIGNATURE_DESC1</b> in a call to <b>D3D12SerializeVersionedRootSignature</b> to make the serialized form.
         The application then passes the serialized form to which <i>ppBlob</i> points into <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrootsignature">ID3D12Device::CreateRootSignature</a>.
-      
 
-If a shader has been authored with a root signature in it (when that capability is added), the compiled shader will contain a serialized root signature in it already.
-      
+
+If a shader has been authored with a root signature in it, the compiled shader will contain a serialized root signature in it already. In this case, pass the compiled shader blob to <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrootsignature">ID3D12Device::CreateRootSignature</a> to obtain the runtime root signature object.
+
+> Note that for Xbox developers, use of HLSL-authored root signatures is strongly recommended.
+
 
 The function signature PFN_D3D12_SERIALIZE_VERSIONED_ROOT_SIGNATURE is provided as a typedef, so that you can use dynamic linking techniques (<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>) instead of statically linking.
       

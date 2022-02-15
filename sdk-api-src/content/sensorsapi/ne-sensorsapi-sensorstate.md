@@ -56,7 +56,7 @@ Defines possible operational states for sensors.
 
 ## -enum-fields
 
-### -field SENSOR_STATE_MIN
+### -field SENSOR_STATE_MIN:0
 
 Minimum enumerated sensor state. Use <b>SENSOR_STATE_READY</b> instead.
 

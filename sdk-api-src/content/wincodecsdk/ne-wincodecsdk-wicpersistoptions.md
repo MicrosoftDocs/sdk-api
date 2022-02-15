@@ -54,39 +54,39 @@ Specifies Windows Imaging Component (WIC) options that are used when initializin
 
 ## -enum-fields
 
-### -field WICPersistOptionDefault
+### -field WICPersistOptionDefault:0
 
 The default persist options. The default is <b>WICPersistOptionLittleEndian</b>.
 
-### -field WICPersistOptionLittleEndian
+### -field WICPersistOptionLittleEndian:0
 
 The data byte order is little endian.
 
-### -field WICPersistOptionBigEndian
+### -field WICPersistOptionBigEndian:0x1
 
 The data byte order is big endian.
 
-### -field WICPersistOptionStrictFormat
+### -field WICPersistOptionStrictFormat:0x2
 
 The data format must strictly conform to the specification.
 
 <div class="alert"><b>Warning</b>  This option is inconsistently implement and should not be relied on.</div>
 <div> </div>
 
-### -field WICPersistOptionNoCacheStream
+### -field WICPersistOptionNoCacheStream:0x4
 
 No cache for the metadata stream.
 
 Certain operations, such as <a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwiccomponentfactory-createmetadatawriterfromreader">IWICComponentFactory::CreateMetadataWriterFromReader</a> require that the reader have a stream. Therefore, these operations will be unavailable if the reader is initialized with <b>WICPersistOptionNoCacheStream</b>.
 
-### -field WICPersistOptionPreferUTF8
+### -field WICPersistOptionPreferUTF8:0x8
 
 Use UTF8 instead of the default UTF16.
 
 <div class="alert"><b>Note</b>  This option is currently unused by WIC.</div>
 <div> </div>
 
-### -field WICPersistOptionMask
+### -field WICPersistOptionMask:0xffff
 
 The <a href="/windows/desktop/api/wincodecsdk/ne-wincodecsdk-wicpersistoptions">WICPersistOptions</a> mask.
 

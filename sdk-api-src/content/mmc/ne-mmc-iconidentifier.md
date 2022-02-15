@@ -61,27 +61,27 @@ The
 
 ## -enum-fields
 
-### -field Icon_None
+### -field Icon_None:0
 
 No icon displayed in error message.
 
-### -field Icon_Error
+### -field Icon_Error:32513
 
 Error icon displayed in error message.
 
-### -field Icon_Question
+### -field Icon_Question:32514
 
 Question icon displayed in error message.
 
-### -field Icon_Warning
+### -field Icon_Warning:32515
 
 Warning icon displayed in error message.
 
-### -field Icon_Information
+### -field Icon_Information:32516
 
 Information icon displayed in error message.
 
-### -field Icon_First
+### -field Icon_First:Icon_Error
 
 Used internally by MMC.
 

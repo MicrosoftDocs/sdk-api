@@ -53,7 +53,7 @@ api_name:
 
 The <code>Disassociate</code> method disassociates the KsProxy filter from the device by closing the device handle. The Filter Graph Manager calls this method if it receives a notification that the device was removed.
 
-## -parameters
+
 
 ## -returns
 

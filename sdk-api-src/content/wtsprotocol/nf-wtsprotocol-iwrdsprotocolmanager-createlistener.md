@@ -71,7 +71,7 @@ When you are implementing this method, return <b>S_OK</b> if the function succee
 The <b>CreateListener</b> method is the first call the Remote Desktop Services service  makes into your  protocol provider. The service looks in the registry under the following key to find the GUID of the listener to create:
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>System</b>
       <b>CurrentControlSet</b>
          <b>Control</b>

@@ -1,7 +1,7 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT.GetUniqueIdentity
 title: IEnhancedStorageACT::GetUniqueIdentity (ehstorapi.h)
-description: Retrieves the unique identity of the Addressable Command Targer (ACT).
+description: Retrieves the unique identity of the Addressable Command Target (ACT).
 helpviewer_keywords: ["GetUniqueIdentity","GetUniqueIdentity method [Enhanced Storage]","GetUniqueIdentity method [Enhanced Storage]","IEnhancedStorageACT interface","IEnhancedStorageACT interface [Enhanced Storage]","GetUniqueIdentity method","IEnhancedStorageACT.GetUniqueIdentity","IEnhancedStorageACT::GetUniqueIdentity","ehstorapi/IEnhancedStorageACT::GetUniqueIdentity","enstor.ienhancedstorageact_getuniqueidentity"]
 old-location: enstor\ienhancedstorageact_getuniqueidentity.htm
 tech.root: enstor
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the unique identity of the Addressable Command Targer (ACT).
+Retrieves the unique identity of the Addressable Command Target (ACT).
 
 ## -parameters
 

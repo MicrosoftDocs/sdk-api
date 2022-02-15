@@ -54,7 +54,7 @@ Specifies how to remove a filter from the filter graph.
 
 ## -enum-fields
 
-### -field REMFILTERF_LEAVECONNECTED
+### -field REMFILTERF_LEAVECONNECTED:0x1
 
 Leave the filter connected. By default, filters are disconnected when removed from the graph.
 

@@ -59,7 +59,7 @@ The
 
 ## -enum-fields
 
-### -field NCS_DISCONNECTED
+### -field NCS_DISCONNECTED:0
 
 The connection is disconnected.
 

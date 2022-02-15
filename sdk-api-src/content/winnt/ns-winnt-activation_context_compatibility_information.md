@@ -70,7 +70,9 @@ This is an array of <a href="/windows/desktop/api/winnt/ns-winnt-compatibility_c
 
 The following example requires Windows Server 2008 R2 or Windows 7 and shows the method to retrieve information about the compatibility context.
 
-<pre class="syntax" xml:space="preserve"><code>HANDLE   ActCtxHandle=INVALID_HANDLE_VALUE;
+
+``` syntax
+HANDLE   ActCtxHandle=INVALID_HANDLE_VALUE;
 SIZE_T   BytesWritten=0;
 PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION CtxCompatInfo=NULL;
 
@@ -133,4 +135,6 @@ if (CtxCompatInfo != NULL)
         RtlFreeHeap (RtlProcessHeap (), 0, CtxCompatInfo);
         CtxCompatInfo = NULL;
 	 }
-</code></pre>
+
+```
+

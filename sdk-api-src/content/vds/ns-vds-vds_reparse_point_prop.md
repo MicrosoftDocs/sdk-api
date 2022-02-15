@@ -68,7 +68,7 @@ A string for a path without a drive letter. For example, "\mount".
 
 ## -remarks
 
-The <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf-queryreparsepoints">IVdsVolumeMF::QueryReparsePoints</a>method returns this structure to report the reparse-point properties of a <a href="/windows/desktop/VDS/volume-object">volume object</a>.
+The <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf-queryreparsepoints">IVdsVolumeMF::QueryReparsePoints</a> method returns this structure to report the reparse-point properties of a <a href="/windows/desktop/VDS/volume-object">volume object</a>.
 
 ## -see-also
 

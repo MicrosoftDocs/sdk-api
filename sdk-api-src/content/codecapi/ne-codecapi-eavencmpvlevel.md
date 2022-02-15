@@ -54,19 +54,19 @@ Specifies the MPEG-2 profile. This enumeration is used with the <a href="/window
 
 ## -enum-fields
 
-### -field eAVEncMPVLevel_Low
+### -field eAVEncMPVLevel_Low:1
 
 Low Level.
 
-### -field eAVEncMPVLevel_Main
+### -field eAVEncMPVLevel_Main:2
 
 Main Level.
 
-### -field eAVEncMPVLevel_High1440
+### -field eAVEncMPVLevel_High1440:3
 
 High 1440 Level.
 
-### -field eAVEncMPVLevel_High
+### -field eAVEncMPVLevel_High:4
 
 High Level.
 

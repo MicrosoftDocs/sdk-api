@@ -57,7 +57,7 @@ The <b>MSP_EVENT</b> enumerator defines the type of event information contained 
 
 ## -enum-fields
 
-### -field ME_ADDRESS_EVENT
+### -field ME_ADDRESS_EVENT:0
 
 The event buffer is an 
 <a href="/previous-versions/windows/desktop/legacy/ms733454(v=vs.85)">MSP_ADDRESS_EVENT_INFO</a> structure.

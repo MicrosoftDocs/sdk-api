@@ -56,15 +56,15 @@ api_name:
 
 ## -enum-fields
 
-### -field fixupStateSuccess
+### -field fixupStateSuccess:0
 
 SHA fix-up is successful.
 
-### -field fixupStateInProgress
+### -field fixupStateInProgress:1
 
 SHA fix-up in progress.
 
-### -field fixupStateCouldNotUpdate
+### -field fixupStateCouldNotUpdate:2
 
 SHA could not be updated.
 

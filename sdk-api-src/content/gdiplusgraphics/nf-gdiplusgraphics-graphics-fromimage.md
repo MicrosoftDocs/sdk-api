@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 The <b>Graphics::FromImage</b> method creates a 
-			<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>object that is associated with a specified 
+			<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object that is associated with a specified 
 			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
 
 ## -parameters
@@ -63,14 +63,14 @@ Type: <b><a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">I
 
 Pointer to an 
 					<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object that will be associated with the new 
-					<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>object.
+					<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
 
 ## -returns
 
 Type: <b><a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>*</b>
 
 This method returns a pointer to the new 
-						<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>object.
+						<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
 
 ## -remarks
 
@@ -97,7 +97,7 @@ This method also fails if the image has one of the following pixel formats:
 
 
 The following example calls the <b>Graphics::FromImage</b> method to create a 
-						<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>object that is associated with an 
+						<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object that is associated with an 
 						<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object. The call to 
 						<a href="/previous-versions/ms535969(v=vs.85)">Graphics::FillEllipse</a>	does not paint on the display device; instead, it alters the bitmap of the 
 						<b>Image</b> object. The call to 

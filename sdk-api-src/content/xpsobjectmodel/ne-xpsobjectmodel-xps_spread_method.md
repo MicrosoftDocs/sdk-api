@@ -57,7 +57,7 @@ Describes how the spread region is  to be filled.
 
 ## -enum-fields
 
-### -field XPS_SPREAD_METHOD_PAD
+### -field XPS_SPREAD_METHOD_PAD:1
 
 The spread region is filled with the color whose value equals the color  at the end of the gradient region.
 

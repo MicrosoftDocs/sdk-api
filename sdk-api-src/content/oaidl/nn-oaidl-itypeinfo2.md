@@ -54,10 +54,7 @@ Used for reading information about objects. Can be cast to an <a href="/previous
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITypeInfo2</b> interface inherits from <b>ITypeInfo</b>. <b>ITypeInfo2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITypeInfo2</b> interface inherits from <b>ITypeInfo</b>. <b>ITypeInfo2</b> also has these types of members:
 
 ## -see-also
 

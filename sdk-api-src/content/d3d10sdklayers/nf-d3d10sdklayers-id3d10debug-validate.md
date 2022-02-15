@@ -52,7 +52,7 @@ api_name:
 
 Check the validity of pipeline state.
 
-## -parameters
+
 
 ## -returns
 

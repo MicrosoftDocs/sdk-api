@@ -62,7 +62,7 @@ Null-terminated string that consists of one or more arbitrary letters, a space, 
 
 ### -param bQuietModeArg [in]
 
-Set to <b>TRUE</b> to prevent the function from displaying the output from the  <b>Unlodctr</b> tool; otherwise, <b>FALSE</b>. This parameter has meaning only if the application is run from a command prompt.
+Set to <b>TRUE</b> to prevent the function from displaying the output from the <b>Unlodctr</b> tool; otherwise, <b>FALSE</b>. This parameter has meaning only if the application is run from a command prompt.
 
 ## -returns
 

@@ -54,7 +54,7 @@ Defines flags for the <a href="/windows/desktop/api/mftransform/nf-mftransform-i
 
 ## -enum-fields
 
-### -field MFT_INPUT_DATA_BUFFER_PLACEHOLDER
+### -field MFT_INPUT_DATA_BUFFER_PLACEHOLDER:0xffffffff
 
 Reserved. Do not use.
 

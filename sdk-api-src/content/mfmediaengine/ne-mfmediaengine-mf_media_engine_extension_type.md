@@ -54,9 +54,9 @@ Specifies media engine extension types.
 
 ## -enum-fields
 
-### -field MF_MEDIA_ENGINE_EXTENSION_TYPE_MEDIASOURCE
+### -field MF_MEDIA_ENGINE_EXTENSION_TYPE_MEDIASOURCE:0
 
-### -field MF_MEDIA_ENGINE_EXTENSION_TYPE_BYTESTREAM
+### -field MF_MEDIA_ENGINE_EXTENSION_TYPE_BYTESTREAM:1
 
 ## -see-also
 

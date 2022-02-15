@@ -79,7 +79,7 @@ Returns S_OK if successful; otherwise, returns one of the following:
                 If this error occurs, you should destroy and recreate the device.
               </li>
 <li>Returns <b>DXGI_ERROR_INVALID_CALL</b> if the
-                <b>CreateDeferredContext3</b>method can't be called from the current context.
+               <b>CreateDeferredContext3</b> method can't be called from the current context.
                 For example, if the device was created with the <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_create_device_flag">D3D11_CREATE_DEVICE_SINGLETHREADED</a> value,  <b>CreateDeferredContext3</b> returns <b>DXGI_ERROR_INVALID_CALL</b>.
               </li>
 <li>Returns <b>E_INVALIDARG</b> if the <i>ContextFlags</i> parameter is invalid.

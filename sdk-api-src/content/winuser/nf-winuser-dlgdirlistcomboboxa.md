@@ -208,7 +208,7 @@ If <i>lpPathSpec</i> specifies a directory, <b>DlgDirListComboBox</b> changes th
 
 Microsoft Windows NT 4.0 and later: If <i>uFiletype</i> includes the DDL_DIRECTORY flag and <i>lpPathSpec</i> specifies a first-level directory, such as C:\TEMP, the combo box will always include a ".." entry for the root directory. This is true even if the root directory has hidden or system attributes and the DDL_HIDDEN and DDL_SYSTEM flags are not specified. The root directory of an NTFS volume has hidden and system attributes. 
 
-<b>Security Warning:  </b>Using this function incorrectly might compromise the security of your program. Incorrect use of this function includes having <i>lpPathSpec</i> indicate a non-writeable buffer, or a buffer without a null-termination. You should review the <a href="/windows/desktop/Controls/sec-comctls">Security Considerations: Microsoft Windows Controls</a> before continuing.
+<b>Security Warning:  </b>Using this function incorrectly might compromise the security of your program. Incorrect use of this function includes having <i>lpPathSpec</i> indicate a non-writable buffer, or a buffer without a null-termination. You should review the <a href="/windows/desktop/Controls/sec-comctls">Security Considerations: Microsoft Windows Controls</a> before continuing.
 
 Microsoft Windows NT 4.0 and later: The list displays long file names, if any.
 

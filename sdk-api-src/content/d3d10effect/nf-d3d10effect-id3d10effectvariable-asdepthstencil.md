@@ -52,7 +52,7 @@ api_name:
 
 Get a depth-stencil variable.
 
-## -parameters
+
 
 ## -returns
 

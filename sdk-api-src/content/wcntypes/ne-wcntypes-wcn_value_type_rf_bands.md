@@ -56,11 +56,11 @@ The <b>WCN_VALUE_TYPE_RF_BANDS</b> enumeration defines the possible radio freque
 
 ## -enum-fields
 
-### -field WCN_VALUE_RB_24GHZ
+### -field WCN_VALUE_RB_24GHZ:0x1
 
 The request is being sent on the 2.4 GHz frequency band.
 
-### -field WCN_VALUE_RB_50GHZ
+### -field WCN_VALUE_RB_50GHZ:0x2
 
 The request is being sent on the 5.0 Ghz frequency band.
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>Destroy</b> method is called by Windows Media Player to destroy a visualization window instantiated in the <b>Create</b> method.
 
-## -parameters
+
 
 ## -returns
 

@@ -86,7 +86,7 @@ A Pointer to an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_in
 
 <b>EapPeerQueryCredentialInputFields</b> supports SSO. This peer method function, like <a href="/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryuserblobfromcredentialinputfields">EapPeerQueryUserBlobFromCredentialInputFields</a>, is used only in an SSO scenario.
 
- The EAP method-specific implementation of this function is called by EAPHost whenever a supplicant application calls <a href="/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerquerycredentialinputfields">EapHostPeerQueryCredentialInputFields</a>. The implementor of this function is responsible for ensuring that the  <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_array">EAP_CONFIG_INPUT_FIELD_ARRAY</a> returned by this function contains input field definitions for each piece of credential data the EAP methods will request from the supplicant user.
+ The EAP method-specific implementation of this function is called by EAPHost whenever a supplicant application calls <a href="/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerquerycredentialinputfields">EapHostPeerQueryCredentialInputFields</a>. The implementer of this function is responsible for ensuring that the  <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_array">EAP_CONFIG_INPUT_FIELD_ARRAY</a> returned by this function contains input field definitions for each piece of credential data the EAP methods will request from the supplicant user.
 
 ## -see-also
 

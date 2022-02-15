@@ -54,7 +54,7 @@ Defines constants that specify the type of a resource in a resource dictionary.
 
 ## -enum-fields
 
-### -field ResourceTypeStatic
+### -field ResourceTypeStatic:0
 
 The resource is a <a href="/windows/uwp/xaml-platform/staticresource-markup-extension">StaticResource</a>.
 

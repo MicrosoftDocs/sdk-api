@@ -52,7 +52,7 @@ api_name:
 
 Gets the precision of the gradient buffer.
 
-## -parameters
+
 
 ## -returns
 

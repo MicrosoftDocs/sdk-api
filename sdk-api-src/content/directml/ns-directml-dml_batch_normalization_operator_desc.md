@@ -48,6 +48,8 @@ api_name:
 
 Performs a batch normalization on the input. This operator performs the following computation: `Output = FusedActivation(Scale * ((Input - Mean) / sqrt(Variance + Epsilon)) + Bias)`.
 
+Any dimension in *MeanTensor*, *VarianceTensor*, *ScaleTensor*, and *BiasTensor* can be set to 1, and be automatically broadcast to match *InputTensor*, but otherwise must equal the corresponding dimension's size from *InputTensor*.
+
 ## -struct-fields
 
 ### -field InputTensor
@@ -62,19 +64,11 @@ Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tens
 
 A tensor containing the Mean data.
 
-If **DML_FEATURE_LEVEL** is less than **DML_FEATURE_LEVEL_4_0**, then this tensor's dimensions should be `{ MeanBatchCount, ChannelCount, MeanHeight, MeanWidth }`. The dimensions MeanBatchCount, MeanHeight, and MeanWidth should either match *InputTensor*, or be set to 1 to automatically broadcast those dimensions across the input.
-
-If **DML_FEATURE_LEVEL** is greater than or equal to **DML_FEATURE_LEVEL_4_0**, then any dimension can be set to 1, and be automatically broadcast to match *InputTensor*.
-
 ### -field VarianceTensor
 
 Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
 A tensor containing the Variance data.
-
-If **DML_FEATURE_LEVEL** is less than **DML_FEATURE_LEVEL_4_0**, then this tensor's dimensions should be `{ VarianceBatchCount, ChannelCount, VarianceHeight, VarianceWidth }`. The dimensions VarianceBatchCount, VarianceHeight, and VarianceWidth should either match *InputTensor*, or be set to 1 to automatically broadcast those dimensions across the input.
-
-If **DML_FEATURE_LEVEL** is greater than or equal to **DML_FEATURE_LEVEL_4_0**, then any dimension can be set to 1, and be automatically broadcast to match *InputTensor*.
 
 ### -field ScaleTensor
 
@@ -82,25 +76,17 @@ Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tens
 
 A tensor containing the Scale data.
 
-If **DML_FEATURE_LEVEL** is less than **DML_FEATURE_LEVEL_4_0**, then this tensor's dimensions should be `{ ScaleBatchCount, ChannelCount, ScaleHeight, ScaleWidth }`. The dimensions ScaleBatchCount, ScaleHeight, and ScaleWidth should either match *InputTensor*, or be set to 1 to automatically broadcast those dimensions across the input.
-
-If **DML_FEATURE_LEVEL** is greater than or equal to **DML_FEATURE_LEVEL_4_0**, then any dimension can be set to 1 and be automatically broadcast to match *InputTensor*.
-
 ### -field BiasTensor
 
 Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
 A tensor containing the Bias data.
 
-If **DML_FEATURE_LEVEL** is less than **DML_FEATURE_LEVEL_4_0**, then this tensor's dimensions should be `{ BiasBatchCount, ChannelCount, BiasHeight, BiasWidth }`. The dimensions BiasBatchCount, BiasHeight, and BiasWidth should either match *InputTensor*, or be set to 1 to automatically broadcast those dimensions across the input.
-
-If **DML_FEATURE_LEVEL** is greater than or equal to **DML_FEATURE_LEVEL_4_0**, then any dimension can be set to 1 and be automatically broadcast to match *InputTensor*.
-
 ### -field OutputTensor
 
 Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A tensor to write the results to. This tensor's dimensions should match *InputTensor*.
+A tensor to write the results to.
 
 ### -field Spatial
 
@@ -124,32 +110,30 @@ An optional fused activation layer to apply after the normalization.
 This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 
 ## Tensor constraints
-*BiasTensor*, *InputTensor*, *MeanTensor*, *OutputTensor*, *ScaleTensor*, and *VarianceTensor* must have the same *DataType* and *DimensionCount*.
+* *BiasTensor*, *InputTensor*, *MeanTensor*, *OutputTensor*, *ScaleTensor*, and *VarianceTensor* must have the same *DataType* and *DimensionCount*.
+* *InputTensor* and *OutputTensor* must have the same *Sizes*.
 
 ## Tensor support
-
 ### DML_FEATURE_LEVEL_3_1 and above
-
-| Tensor | Kind | Supported dimension counts | Supported data types |
-| ------ | ---- | -------------------------- | -------------------- |
-| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16 |
-| MeanTensor | Input | 1 to 8 | FLOAT32, FLOAT16 |
-| VarianceTensor | Input | 1 to 8 | FLOAT32, FLOAT16 |
-| ScaleTensor | Input | 1 to 8 | FLOAT32, FLOAT16 |
-| BiasTensor | Input | 1 to 8 | FLOAT32, FLOAT16 |
-| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16 |
+| Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
+| ------ | ---- | ---------- | -------------------------- | -------------------- |
+| InputTensor | Input | { InputDimensions[] } | 1 to 8 | FLOAT32, FLOAT16 |
+| MeanTensor | Input | { MeanDimensions[] } | 1 to 8 | FLOAT32, FLOAT16 |
+| VarianceTensor | Input | { VarianceDimensions[] } | 1 to 8 | FLOAT32, FLOAT16 |
+| ScaleTensor | Input | { ScaleDimensions[] } | 1 to 8 | FLOAT32, FLOAT16 |
+| BiasTensor | Input | { BiasDimensions[] } | 1 to 8 | FLOAT32, FLOAT16 |
+| OutputTensor | Output | { InputDimensions[] } | 1 to 8 | FLOAT32, FLOAT16 |
 
 ### DML_FEATURE_LEVEL_1_0 and above
-
-| Tensor | Kind | Supported Dimension Counts | Supported Data Types |
-| ------ | ---- | -------------------------- | -------------------- |
-| InputTensor | Input | 4 | FLOAT32, FLOAT16 |
-| MeanTensor | Input | 4 | FLOAT32, FLOAT16 |
-| VarianceTensor | Input | 4 | FLOAT32, FLOAT16 |
-| ScaleTensor | Input | 4 | FLOAT32, FLOAT16 |
-| BiasTensor | Input | 4 | FLOAT32, FLOAT16 |
-| OutputTensor | Output | 4 | FLOAT32, FLOAT16 |
+| Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
+| ------ | ---- | ---------- | -------------------------- | -------------------- |
+| InputTensor | Input | { InputDimensions[] } | 4 | FLOAT32, FLOAT16 |
+| MeanTensor | Input | { MeanDimensions[] } | 4 | FLOAT32, FLOAT16 |
+| VarianceTensor | Input | { VarianceDimensions[] } | 4 | FLOAT32, FLOAT16 |
+| ScaleTensor | Input | { ScaleDimensions[] } | 4 | FLOAT32, FLOAT16 |
+| BiasTensor | Input | { BiasDimensions[] } | 4 | FLOAT32, FLOAT16 |
+| OutputTensor | Output | { InputDimensions[] } | 4 | FLOAT32, FLOAT16 |
 
 ## -see-also
 
-* [Using fused operators for improved performance](/windows/win32/direct3d12/dml-fused-activations)
+* [Using fused operators for improved performance](/windows/ai/directml/dml-fused-activations)

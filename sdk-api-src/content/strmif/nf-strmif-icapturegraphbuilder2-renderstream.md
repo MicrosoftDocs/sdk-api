@@ -190,7 +190,7 @@ The <code>RenderStream</code> method handles many of the details required for ca
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 For a typical capture graph, connect the preview pin to the default renderer, with no intermediate filter:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -209,7 +209,7 @@ pBuilder-&gt;RenderStream(&amp;PIN_CATEGORY_PREVIEW, &amp;MEDIATYPE_Audio,
 </table></span></div>
 Connect the capture pin to a mux filter or file writer filter, depending on what type of file you wish to output. For AVI files, use the <a href="/windows/desktop/DirectShow/avi-mux-filter">AVI Mux</a> filter. For ASF files, use the <a href="/windows/desktop/DirectShow/wm-asf-writer-filter">WM ASF Writer</a> filter. Typically, you will get a pointer to this filter from the <i>ppf</i> parameter of the <a href="/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder2-setoutputfilename">ICaptureGraphBuilder2::SetOutputFileName</a> method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -229,7 +229,7 @@ You can use this method to transcode or recompress a file. The following discuss
 
 A file source has one output pin, so set <i>pCategory</i> and <i>pType</i> to <b>NULL</b>. Call the method twice—once to render the video stream, and once to render the audio stream. The first call connects the source filter to a parser filter and renders one of the parser filter's output pins. The second call renders the parser's remaining output pin. If you are compressing one stream but not the other, make sure to specify the compressor filter in the first call. The method will automatically pick the correct stream based on the compression type.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

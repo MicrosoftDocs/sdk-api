@@ -52,7 +52,7 @@ api_name:
 
 Queries whether the audio is muted.
 
-## -parameters
+
 
 ## -returns
 

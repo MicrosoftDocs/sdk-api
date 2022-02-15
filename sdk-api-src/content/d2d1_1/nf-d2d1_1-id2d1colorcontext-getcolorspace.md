@@ -52,7 +52,7 @@ api_name:
 
 Gets the color space  of the color context.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Push a copy of storage filter currently on the top of the storage-filter stack onto the storage-filter stack.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,10 +54,7 @@ Exposes methods for accessing and building a color table, primarily for indexed 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICPalette</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICPalette</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWICPalette</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICPalette</b> also has these types of members:
 
 ## -remarks
 
@@ -172,5 +169,9 @@ Traditionally the basic operation of the palette is to provide a translation fro
 
 In this example code, <b>WICColor</b> is defined as a <b>UINT32</b> value with this layout: 
 
-<pre class="syntax" xml:space="preserve"><code>0xAARRGGBB</code></pre>
+
+``` syntax
+0xAARRGGBB
+```
+
 The wincodec.h header type-defines <b>WICColor</b> as <b>UINT32</b>.

@@ -51,19 +51,19 @@ The <b>DWRITE_PANOSE_SPACING</b> enumeration contains values that specify charac
 
 ## -enum-fields
 
-### -field DWRITE_PANOSE_SPACING_ANY
+### -field DWRITE_PANOSE_SPACING_ANY:0
 
 Any spacing.
 
-### -field DWRITE_PANOSE_SPACING_NO_FIT
+### -field DWRITE_PANOSE_SPACING_NO_FIT:1
 
 No fit for spacing.
 
-### -field DWRITE_PANOSE_SPACING_PROPORTIONAL_SPACED
+### -field DWRITE_PANOSE_SPACING_PROPORTIONAL_SPACED:2
 
 Spacing is proportional.
 
-### -field DWRITE_PANOSE_SPACING_MONOSPACED
+### -field DWRITE_PANOSE_SPACING_MONOSPACED:3
 
 Spacing is monospace.
 

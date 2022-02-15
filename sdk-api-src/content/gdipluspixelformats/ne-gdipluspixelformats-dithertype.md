@@ -54,47 +54,47 @@ Calling the <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitma
 
 ## -enum-fields
 
-### -field DitherTypeNone
+### -field DitherTypeNone:0
 
 No dithering is performed. Pixels in the source bitmap are mapped to the nearest color in the palette specified by the <i>palette</i> parameter of the <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-convertformat">Bitmap::ConvertFormat</a> method. This algorithm can be used with any palette. If the palette specified by the <i>palette</i> parameter does not have one of the standard fixed formats listed in the <a href="/windows/desktop/api/gdipluspixelformats/ne-gdipluspixelformats-palettetype">PaletteType</a> enumeration, pass <b>PaletteTypeCustom</b> to the <i>palettetype</i> parameter.
 
-### -field DitherTypeSolid
+### -field DitherTypeSolid:1
 
 No dithering is performed. Pixels in the source bitmap are mapped to the nearest color in the palette specified by the <i>palette</i> parameter of the <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-convertformat">Bitmap::ConvertFormat</a> method. This algorithm can be used with any palette. If the palette specified by the <i>palette</i> parameter does not have one of the standard fixed formats listed in the <a href="/windows/desktop/api/gdipluspixelformats/ne-gdipluspixelformats-palettetype">PaletteType</a> enumeration, pass <b>PaletteTypeCustom</b> to the <i>palettetype</i> parameter.
 
-### -field DitherTypeOrdered4x4
+### -field DitherTypeOrdered4x4:2
 
 You can use this algorithm to perform dithering based on the colors in one of the standard fixed palettes. You can also use this algorithm to convert a bitmap to a 16-bits-per-pixel format that has no palette.
 
-### -field DitherTypeOrdered8x8
+### -field DitherTypeOrdered8x8:3
 
 Dithering is performed using the colors in one of the standard fixed palettes.
 
-### -field DitherTypeOrdered16x16
+### -field DitherTypeOrdered16x16:4
 
 Dithering is performed using the colors in one of the standard fixed palettes.
 
-### -field DitherTypeSpiral4x4
+### -field DitherTypeSpiral4x4:5
 
 Dithering is performed using the colors in one of the standard fixed palettes.
 
-### -field DitherTypeSpiral8x8
+### -field DitherTypeSpiral8x8:6
 
 Dithering is performed using the colors in one of the standard fixed palettes.
 
-### -field DitherTypeDualSpiral4x4
+### -field DitherTypeDualSpiral4x4:7
 
 Dithering is performed using the colors in one of the standard fixed palettes.
 
-### -field DitherTypeDualSpiral8x8
+### -field DitherTypeDualSpiral8x8:8
 
 Dithering is performed using the colors in one of the standard fixed palettes.
 
-### -field DitherTypeErrorDiffusion
+### -field DitherTypeErrorDiffusion:9
 
 Dithering is performed based on the palette specified by the <i>palette</i> parameter of the <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-convertformat">Bitmap::ConvertFormat</a> method. This algorithm can be used with any palette. If the palette specified by the <i>palette</i> parameter does not have one of the standard fixed formats listed in the <a href="/windows/desktop/api/gdipluspixelformats/ne-gdipluspixelformats-palettetype">PaletteType</a> enumeration, pass <b>PaletteTypeCustom</b> to the <i>palettetype</i> parameter.
 
-### -field DitherTypeMax
+### -field DitherTypeMax:10
 
 TBD
 

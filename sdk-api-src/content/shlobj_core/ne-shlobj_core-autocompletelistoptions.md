@@ -56,35 +56,35 @@ Specifies which objects are enumerated for autocompletion lists.
 
 ## -enum-fields
 
-### -field ACLO_NONE
+### -field ACLO_NONE:0
 
 No enumeration should take place.
 
-### -field ACLO_CURRENTDIR
+### -field ACLO_CURRENTDIR:1
 
 Only the current directory should be enumerated.
 
-### -field ACLO_MYCOMPUTER
+### -field ACLO_MYCOMPUTER:2
 
 Only MyComputer should be enumerated.
 
-### -field ACLO_DESKTOP
+### -field ACLO_DESKTOP:4
 
 Only the Desktop Folder should be enumerated.
 
-### -field ACLO_FAVORITES
+### -field ACLO_FAVORITES:8
 
 Only the Favorites Folder should be enumerated.
 
-### -field ACLO_FILESYSONLY
+### -field ACLO_FILESYSONLY:16
 
 Only the file system should be enumerated.
 
-### -field ACLO_FILESYSDIRS
+### -field ACLO_FILESYSDIRS:32
 
 <b>Internet Explorer 6 or greater:</b> The file system dirs, UNC shares, and UNC servers should be enumerated.
 
-### -field ACLO_VIRTUALNAMESPACE
+### -field ACLO_VIRTUALNAMESPACE:64
 
 <b>Windows Internet Explorer 7 or greater:</b> The virtual namespace should be enumerated.
 

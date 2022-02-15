@@ -54,7 +54,7 @@ Enables a COM+ object to perform context-specific initialization whenever it is 
 
 This method is called by the COM+ run-time environment before any other methods are called on the object.
 
-## -parameters
+
 
 ## -returns
 

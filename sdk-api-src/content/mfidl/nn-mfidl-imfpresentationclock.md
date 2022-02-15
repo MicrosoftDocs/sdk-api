@@ -55,10 +55,7 @@ Represents a presentation clock, which is used to schedule when samples are rend
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPresentationClock</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfclock">IMFClock</a>. <b>IMFPresentationClock</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFPresentationClock</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfclock">IMFClock</a>. <b>IMFPresentationClock</b> also has these types of members:
 
 ## -remarks
 

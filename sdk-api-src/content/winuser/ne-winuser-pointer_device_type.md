@@ -56,23 +56,23 @@ Identifies the pointer device types.
 
 ## -enum-fields
 
-### -field POINTER_DEVICE_TYPE_INTEGRATED_PEN
+### -field POINTER_DEVICE_TYPE_INTEGRATED_PEN:0x00000001
 
 Direct pen digitizer (integrated into display).
 
-### -field POINTER_DEVICE_TYPE_EXTERNAL_PEN
+### -field POINTER_DEVICE_TYPE_EXTERNAL_PEN:0x00000002
 
 Indirect pen digitizer (not integrated into display).
 
-### -field POINTER_DEVICE_TYPE_TOUCH
+### -field POINTER_DEVICE_TYPE_TOUCH:0x00000003
 
 Touch digitizer.
 
-### -field POINTER_DEVICE_TYPE_TOUCH_PAD
+### -field POINTER_DEVICE_TYPE_TOUCH_PAD:0x00000004
 
 Touchpad digitizer (Windows 8.1 and later).
 
-### -field POINTER_DEVICE_TYPE_MAX
+### -field POINTER_DEVICE_TYPE_MAX:0xFFFFFFFF
 
 Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits. You should not use this value.
 

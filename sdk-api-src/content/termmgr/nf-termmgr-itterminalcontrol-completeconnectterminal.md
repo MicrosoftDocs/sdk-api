@@ -53,7 +53,7 @@ api_name:
 The 
 <b>CompleteConnectTerminal</b> method completes the terminal connection.
 
-## -parameters
+
 
 ## -returns
 

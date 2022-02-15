@@ -54,27 +54,27 @@ Describes the condition type to use when displaying the property in the query bu
 
 ## -enum-fields
 
-### -field PDCOT_NONE
+### -field PDCOT_NONE:0
 
 The default value; it means the condition type is unspecified.
 
-### -field PDCOT_STRING
+### -field PDCOT_STRING:1
 
 Use the string condition type.
 
-### -field PDCOT_SIZE
+### -field PDCOT_SIZE:2
 
 Use the size condition type.
 
-### -field PDCOT_DATETIME
+### -field PDCOT_DATETIME:3
 
 Use the date/time condition type.
 
-### -field PDCOT_BOOLEAN
+### -field PDCOT_BOOLEAN:4
 
 Use the Boolean condition type.
 
-### -field PDCOT_NUMBER
+### -field PDCOT_NUMBER:5
 
 Use the number condition type.
 

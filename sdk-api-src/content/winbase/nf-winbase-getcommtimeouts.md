@@ -78,7 +78,7 @@ If the function fails, the return value is zero. To get extended error informati
 ## -remarks
 
 For more information about time-out values for communications devices, see the 
-<a href="/windows/desktop/api/winbase/nf-winbase-setcommtimeouts">SetCommTimeouts</a>function.
+<a href="/windows/desktop/api/winbase/nf-winbase-setcommtimeouts">SetCommTimeouts</a> function.
 
 ## -see-also
 

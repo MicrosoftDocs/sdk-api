@@ -52,7 +52,7 @@ api_name:
 
 Initializes the sink writer for writing.
 
-## -parameters
+
 
 ## -returns
 

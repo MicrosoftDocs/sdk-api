@@ -131,7 +131,7 @@ Locking a portion of a file for exclusive access denies all other processes both
 
 Locking a portion of a file for shared access denies all processes write access to the specified region of the file, including the process that first locks the region. All processes can read the locked region.
 
-Locking a region of a file does not prevent reading from a mapped file view.
+Locking a region of a file does not prevent reading or writing from a mapped file view.
 
 The 
 <b>LockFileEx</b> function operates asynchronously if the file handle was opened for asynchronous I/O, unless the <b>LOCKFILE_FAIL_IMMEDIATELY</b> flag is specified. If an exclusive lock is requested for a range of a file that already has a shared or exclusive lock, the function returns the error <b>ERROR_IO_PENDING</b>. The system will signal the event specified in the 
@@ -207,6 +207,10 @@ Yes
 </table>
 
 ## -see-also
+
+<a href="/windows/desktop/FileIO/locking-and-unlocking-byte-ranges-in-files">Locking and Unlocking Byte Ranges in Files</a>
+
+
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 

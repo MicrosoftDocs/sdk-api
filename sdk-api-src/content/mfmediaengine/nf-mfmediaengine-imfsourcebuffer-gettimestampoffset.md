@@ -52,7 +52,7 @@ api_name:
 
 Gets the timestamp offset for media segments appended to the <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>.
 
-## -parameters
+
 
 ## -returns
 

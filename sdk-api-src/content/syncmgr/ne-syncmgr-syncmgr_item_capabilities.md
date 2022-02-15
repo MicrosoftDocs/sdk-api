@@ -54,43 +54,43 @@ Specifies the actions that can be performed against an item.
 
 ## -enum-fields
 
-### -field SYNCMGR_ICM_NONE
+### -field SYNCMGR_ICM_NONE:0
 
 No capability flags are set.
 
-### -field SYNCMGR_ICM_PROVIDES_ICON
+### -field SYNCMGR_ICM_PROVIDES_ICON:0x1
 
 The item returns a valid object from <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">ISyncMgrSyncItem::GetObject</a> when that method is called with the SYNCMGR_OBJECTID_Icon flag.
 
-### -field SYNCMGR_ICM_EVENT_STORE
+### -field SYNCMGR_ICM_EVENT_STORE:0x2
 
 The item returns a valid object from <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">ISyncMgrSyncItem::GetObject</a> when that method is called with the SYNCMGR_OBJECTID_EventStore flag.
 
-### -field SYNCMGR_ICM_CONFLICT_STORE
+### -field SYNCMGR_ICM_CONFLICT_STORE:0x4
 
 The item returns a valid object from <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">ISyncMgrSyncItem::GetObject</a> when that method is called with the SYNCMGR_OBJECTID_ConflictStore flag.
 
-### -field SYNCMGR_ICM_CAN_DELETE
+### -field SYNCMGR_ICM_CAN_DELETE:0x10
 
 The user is allowed to delete the item from the handler's folder. This can be used by an item to remove itself from the handler's sync set (for instance, remove a folder from the set of Offline Files). If this value is set, the <b>Delete</b> task is shown in the handler's folder when this item is selected.
 
-### -field SYNCMGR_ICM_CAN_BROWSE_CONTENT
+### -field SYNCMGR_ICM_CAN_BROWSE_CONTENT:0x10000
 
 The item returns a valid object from <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">ISyncMgrSyncItem::GetObject</a> when that method is called with the SYNCMGR_OBJECTID_BrowseContent flag. If this value is set, the <b>Browse Content</b> task is added to the item's shortcut menu.
 
-### -field SYNCMGR_ICM_QUERY_BEFORE_ENABLE
+### -field SYNCMGR_ICM_QUERY_BEFORE_ENABLE:0x100000
 
 The item returns a valid object from <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">ISyncMgrSyncItem::GetObject</a> when that method is called with the SYNCMGR_OBJECTID_QueryBeforeEnable flag.
 
-### -field SYNCMGR_ICM_QUERY_BEFORE_DISABLE
+### -field SYNCMGR_ICM_QUERY_BEFORE_DISABLE:0x200000
 
 The item returns a valid object from <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">ISyncMgrSyncItem::GetObject</a> when that method is called with the SYNCMGR_OBJECTID_QueryBeforeDisable flag.
 
-### -field SYNCMGR_ICM_QUERY_BEFORE_DELETE
+### -field SYNCMGR_ICM_QUERY_BEFORE_DELETE:0x400000
 
 The item returns a valid object from <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">ISyncMgrSyncItem::GetObject</a> when that method is called with the SYNCMGR_OBJECTID_QueryBeforeDelete flag.
 
-### -field SYNCMGR_ICM_VALID_MASK
+### -field SYNCMGR_ICM_VALID_MASK:0x710017
 
 A mask used to retrieve valid <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ITEM_CAPABILITIES</a> flags.
 

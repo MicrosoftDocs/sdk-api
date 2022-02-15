@@ -54,7 +54,7 @@ The <code>DMO_REGISTER_FLAGS</code> enumeration defines flags that specify regis
 
 ## -enum-fields
 
-### -field DMO_REGISTERF_IS_KEYED
+### -field DMO_REGISTERF_IS_KEYED:0x00000001
 
 Use of the DMO is restricted by a software key.
 

@@ -52,7 +52,7 @@ api_name:
 
 Gets the number of conversion instructions.
 
-## -parameters
+
 
 ## -returns
 

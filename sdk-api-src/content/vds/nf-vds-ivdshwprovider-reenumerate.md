@@ -56,7 +56,7 @@ api_name:
 Discovers newly 
    connected and disconnected subsystems.
 
-## -parameters
+
 
 ## -returns
 

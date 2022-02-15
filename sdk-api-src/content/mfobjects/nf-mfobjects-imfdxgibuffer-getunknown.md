@@ -60,7 +60,7 @@ The identifier of the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">I
 
 ### -param riid [in]
 
-The interface identifer (IID) of the interface being requested.
+The interface identifier (IID) of the interface being requested.
 
 ### -param ppvObject [out]
 

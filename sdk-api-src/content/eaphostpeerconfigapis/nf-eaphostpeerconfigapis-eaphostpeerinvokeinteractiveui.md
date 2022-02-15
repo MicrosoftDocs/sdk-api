@@ -85,7 +85,7 @@ A pointer to a pointer to an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-
 The supplicant should call [EAP_E_EAPHOST_METHOD_OPERATION_NOT_SUPPORTED](/windows/win32/eaphost/eap-related-error-and-information-constants) is returned, the supplicant should resort to the traditional model of invoking method interactive UI by calling <b>EapHostPeerInvokeInteractiveUI</b>. 
 
 If called,<b>EapHostPeerInvokeInteractiveUI</b> raises the user interface for the EAP method after the supplicant calls <a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetuicontext">EapHostPeerGetUIContext</a>. This occurs when a call to <a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerprocessreceivedpacket">EapHostPeerProcessReceivedPacket</a> 
-   returns the <b>EapHostPeerResponseInvokeUi</b>action code. <b>EapHostPeerGetUIContext</b>returns UI context that 
+   returns the <b>EapHostPeerResponseInvokeUi</b> action code. <b>EapHostPeerGetUIContext</b> returns UI context that 
    the supplicant then passes to <b>EapHostPeerInvokeInteractiveUI</b> to raise the UI.
 
 ## -see-also

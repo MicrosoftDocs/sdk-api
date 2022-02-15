@@ -65,7 +65,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 ## -remarks
 
 If the rendering frame rate for an animation falls below the specified frame rate, an 
-         <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimereventhandler-onrenderingtooslow">IUIAnimationTimerEventHandler::OnRenderingTooSlow</a>event is raised.
+         <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimereventhandler-onrenderingtooslow">IUIAnimationTimerEventHandler::OnRenderingTooSlow</a> event is raised.
 
 ## -see-also
 

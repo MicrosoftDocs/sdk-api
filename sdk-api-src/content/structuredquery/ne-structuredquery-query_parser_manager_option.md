@@ -56,7 +56,7 @@ Used by <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iqueryp
 
 ## -enum-fields
 
-### -field QPMO_SCHEMA_BINARY_NAME
+### -field QPMO_SCHEMA_BINARY_NAME:0
 
 A <b>VT_LPWSTR</b> containing the name of the file that contains the schema binary. The default value is <b>StructuredQuerySchema.bin</b> for the SystemIndex catalog and <b>StructuredQuerySchemaTrivial.bin</b> for the trivial catalog.
 

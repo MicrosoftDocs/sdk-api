@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the offset of the gradient origin relative to the gradient ellipse's center.
 
-## -parameters
+
 
 ## -returns
 

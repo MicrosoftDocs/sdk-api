@@ -52,7 +52,7 @@ api_name:
 
 Destroys the voice. If necessary, stops the voice and removes it from the XAudio2 graph.
 
-## -parameters
+
 
 ## -returns
 

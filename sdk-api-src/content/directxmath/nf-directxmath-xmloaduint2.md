@@ -61,7 +61,7 @@ Address of an <a href="/windows/desktop/direct3dhlsl/xmuint2">XMUINT2</a> struct
 
 ## -returns
 
-Returns an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> loaded with the data from the <i>pSource</i>parameter.
+Returns an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> loaded with the data from the <i>pSource</i> parameter.
 
 ## -remarks
 

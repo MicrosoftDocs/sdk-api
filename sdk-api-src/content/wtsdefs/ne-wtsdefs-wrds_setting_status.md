@@ -58,7 +58,7 @@ Specifies the status of a policy setting for various members of the <a href="/wi
 
 ## -enum-fields
 
-### -field WRDS_SETTING_STATUS_NOTAPPLICABLE
+### -field WRDS_SETTING_STATUS_NOTAPPLICABLE:-1
 
 The setting status has not been defined.
 

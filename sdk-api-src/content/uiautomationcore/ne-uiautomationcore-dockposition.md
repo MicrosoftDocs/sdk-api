@@ -54,27 +54,27 @@ Contains values that specify the location of a docking window represented by the
 
 ## -enum-fields
 
-### -field DockPosition_Top
+### -field DockPosition_Top:0
 
 The window is docked at the top.
 
-### -field DockPosition_Left
+### -field DockPosition_Left:1
 
 The window is docked at the left.
 
-### -field DockPosition_Bottom
+### -field DockPosition_Bottom:2
 
 The window is docked at the bottom.
 
-### -field DockPosition_Right
+### -field DockPosition_Right:3
 
 The window is docked at the right.
 
-### -field DockPosition_Fill
+### -field DockPosition_Fill:4
 
 The window is docked on all four sides.
 
-### -field DockPosition_None
+### -field DockPosition_None:5
 
 The window is not docked.
 

@@ -58,7 +58,7 @@ The <b>TCP_BOOLEAN_OPTIONAL</b> enumeration defines the states that a caller can
 
 ## -enum-fields
 
-### -field TcpBoolOptDisabled
+### -field TcpBoolOptDisabled:0
 
 The option should be disabled.
 
@@ -66,7 +66,7 @@ The option should be disabled.
 
 The option should be enabled.
 
-### -field TcpBoolOptUnchanged
+### -field TcpBoolOptUnchanged:-1
 
 The option should be unchanged.
 

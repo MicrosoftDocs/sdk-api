@@ -52,9 +52,9 @@ api_name:
 ## -description
 
 Copies data into a
-          <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE_DEFAULT</a>texture which was mapped using
-          ID3D11DeviceContext3::<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-map">Map</a>while providing a NULL
-          <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_mapped_subresource">D3D11_MAPPED_SUBRESOURCE</a>parameter.
+          <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE_DEFAULT</a> texture which was mapped using
+          ID3D11DeviceContext3::<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-map">Map</a> while providing a NULL
+          <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_mapped_subresource">D3D11_MAPPED_SUBRESOURCE</a> parameter.
 
 ## -parameters
 
@@ -108,9 +108,9 @@ The size of one depth slice of source data.
 ## -remarks
 
 The provided resource must be a
-          <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE_DEFAULT</a>texture which was mapped for writing by a previous call to
-          ID3D11DeviceContext3::<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-map">Map</a>while providing a NULL
-          <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_mapped_subresource">D3D11_MAPPED_SUBRESOURCE</a>parameter.
+          <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE_DEFAULT</a> texture which was mapped for writing by a previous call to
+          ID3D11DeviceContext3::<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-map">Map</a> while providing a NULL
+          <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_mapped_subresource">D3D11_MAPPED_SUBRESOURCE</a> parameter.
         
 
 This API is intended for calling at high frequency.

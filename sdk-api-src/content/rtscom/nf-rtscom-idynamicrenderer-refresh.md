@@ -52,7 +52,7 @@ api_name:
 
 Causes the <a href="/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> object to redraw the ink data that is currently rendering.
 
-## -parameters
+
 
 ## -returns
 

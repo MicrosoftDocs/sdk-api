@@ -54,23 +54,23 @@ Identifies the type of resource being used.
 
 ## -enum-fields
 
-### -field D3D11_RESOURCE_DIMENSION_UNKNOWN
+### -field D3D11_RESOURCE_DIMENSION_UNKNOWN:0
 
 Resource is of unknown type.
 
-### -field D3D11_RESOURCE_DIMENSION_BUFFER
+### -field D3D11_RESOURCE_DIMENSION_BUFFER:1
 
 Resource is a buffer.
 
-### -field D3D11_RESOURCE_DIMENSION_TEXTURE1D
+### -field D3D11_RESOURCE_DIMENSION_TEXTURE1D:2
 
 Resource is a 1D texture.
 
-### -field D3D11_RESOURCE_DIMENSION_TEXTURE2D
+### -field D3D11_RESOURCE_DIMENSION_TEXTURE2D:3
 
 Resource is a 2D texture.
 
-### -field D3D11_RESOURCE_DIMENSION_TEXTURE3D
+### -field D3D11_RESOURCE_DIMENSION_TEXTURE3D:4
 
 Resource is a 3D texture.
 

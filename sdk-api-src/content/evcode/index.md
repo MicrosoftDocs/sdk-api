@@ -17,7 +17,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by DirectShow. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [DirectShow](../_dshow/index.md)
+- [Windows Media Format 11 SDK](../_wmformat/index.md)
 

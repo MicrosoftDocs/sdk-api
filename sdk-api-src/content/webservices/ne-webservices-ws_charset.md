@@ -54,20 +54,20 @@ Identifies the character set of a document.
 
 ## -enum-fields
 
-### -field WS_CHARSET_AUTO
+### -field WS_CHARSET_AUTO:0
 
 Specifies that the charset of a document should be determined automatically by inspecting
           the BOM (Byte Order Marks) of the document and the xml declaration if present.
 
-### -field WS_CHARSET_UTF8
+### -field WS_CHARSET_UTF8:1
 
 Specifies that the charset of a document is UTF-8.
 
-### -field WS_CHARSET_UTF16LE
+### -field WS_CHARSET_UTF16LE:2
 
 Specifies that the charset of a document is UTF-16LE.
 
-### -field WS_CHARSET_UTF16BE
+### -field WS_CHARSET_UTF16BE:3
 
 Specifies that the charset of a document is UTF-16BE.
 

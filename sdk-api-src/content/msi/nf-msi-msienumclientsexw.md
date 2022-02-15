@@ -279,7 +279,7 @@ The <b>MsiEnumClientsEx</b> function returns one of the following values.
 </dl>
 </td>
 <td width="60%">
-Administrtator privileges are required to enumerate components of applications installed by users other than the current user. 
+Administratator privileges are required to enumerate components of applications installed by users other than the current user. 
 
 </td>
 </tr>

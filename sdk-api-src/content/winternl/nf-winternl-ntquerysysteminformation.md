@@ -116,7 +116,7 @@ instead.
 
 Returns an opaque <b>SYSTEM_PERFORMANCE_INFORMATION</b> structure that can be
 used to generate an unpredictable seed for a random number generator. Use the
-<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a>function instead.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> function instead.
 
 
 
@@ -163,7 +163,9 @@ Returns a <b>SYSTEM_SPECULATION_CONTROL_INFORMATION</b> structure that can be us
 
 Each <b>SYSTEM_SPECULATION_CONTROL_INFORMATION</b> structure has the following layout:
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_SPECULATION_CONTROL_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_SPECULATION_CONTROL_INFORMATION {
     struct {
         ULONG BpbEnabled : 1;
         ULONG BpbDisabledSystemPolicy : 1;
@@ -184,7 +186,9 @@ Each <b>SYSTEM_SPECULATION_CONTROL_INFORMATION</b> structure has the following l
         ULONG Reserved : 16;
     } SpeculationControlFlags;
 } SYSTEM_SPECULATION_CONTROL_INFORMATION, * PSYSTEM_SPECULATION_CONTROL_INFORMATION;
-</code></pre>
+
+```
+
 <table>
 <tr>
 <td><b>Flag</b></td>
@@ -289,11 +293,15 @@ to hold a single <b>SYSTEM_BASIC_INFORMATION</b> structure
 having the following layout:
 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_BASIC_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_BASIC_INFORMATION {
     BYTE Reserved1[24];
     PVOID Reserved2[4];
     CCHAR NumberOfProcessors;
-} SYSTEM_BASIC_INFORMATION;</code></pre>
+} SYSTEM_BASIC_INFORMATION;
+```
+
 The <b>NumberOfProcessors</b> member contains the number of
 processors present in the system. Use <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> instead to retrieve this
 information.
@@ -312,10 +320,14 @@ to hold a single <b>SYSTEM_CODEINTEGRITY_INFORMATION</b> structure
 having the following layout:
 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_CODEINTEGRITY_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_CODEINTEGRITY_INFORMATION {
     ULONG  Length;
     ULONG  CodeIntegrityOptions;
-} SYSTEM_CODEINTEGRITY_INFORMATION, *PSYSTEM_CODEINTEGRITY_INFORMATION;</code></pre>
+} SYSTEM_CODEINTEGRITY_INFORMATION, *PSYSTEM_CODEINTEGRITY_INFORMATION;
+```
+
 The <b>Length</b> member contains the size of the structure in bytes. This must be set by the caller.
 
 The <b>CodeIntegrityOptions</b> member contains a bitmask to identify code integrity options. 
@@ -458,9 +470,13 @@ generating an unpredictable seed for a random number generator. For this
 purpose, the structure has the following layout:
 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_EXCEPTION_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_EXCEPTION_INFORMATION {
     BYTE Reserved1[16];
-} SYSTEM_EXCEPTION_INFORMATION;</code></pre>
+} SYSTEM_EXCEPTION_INFORMATION;
+```
+
 Individual members of the structure are reserved for internal
 use by the operating system.
 
@@ -481,9 +497,13 @@ can be used to generate an unpredictable seed for a random number generator. For
 purpose, the structure has the following layout:
 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_INTERRUPT_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_INTERRUPT_INFORMATION {
     BYTE Reserved1[24];
-} SYSTEM_INTERRUPT_INFORMATION;</code></pre>
+} SYSTEM_INTERRUPT_INFORMATION;
+```
+
 Individual members of the structure are reserved for internal
 use by the operating system.
 
@@ -499,7 +519,9 @@ When the <i>SystemInformationClass</i>  parameter is
 the <i>SystemInformation</i> parameter should be large
 enough to hold a single <b>SYSTEM_KERNEL_VA_SHADOW_INFORMATION</b> structure having the following layout: 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_KERNEL_VA_SHADOW_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_KERNEL_VA_SHADOW_INFORMATION {
     struct {
         ULONG KvaShadowEnabled:1;
         ULONG KvaShadowUserGlobal:1;
@@ -512,7 +534,9 @@ enough to hold a single <b>SYSTEM_KERNEL_VA_SHADOW_INFORMATION</b> structure hav
         ULONG L1TerminalFaultMitigationPresent:1;
         ULONG Reserved:18;
     } KvaShadowFlags;
-} SYSTEM_KERNEL_VA_SHADOW_INFORMATION, * PSYSTEM_KERNEL_VA_SHADOW_INFORMATION;</code></pre>
+} SYSTEM_KERNEL_VA_SHADOW_INFORMATION, * PSYSTEM_KERNEL_VA_SHADOW_INFORMATION;
+```
+
 The <b>KvaShadowEnabled</b> indicates whether shadowing is enabled.
 
 The <b>KvaShadowUserGlobal</b> indicates that user/global is enabled.
@@ -546,10 +570,14 @@ enabling or disabling leap seconds system-wide. This setting will persist even a
 purpose, the structure has the following layout:
 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_LEAP_SECOND_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_LEAP_SECOND_INFORMATION {
     BOOLEAN Enabled;
     ULONG Flags;
-} SYSTEM_LEAP_SECOND_INFORMATION</code></pre>
+} SYSTEM_LEAP_SECOND_INFORMATION
+```
+
 The <b>Flags</b> field is reserved for future use.
 
 
@@ -564,9 +592,13 @@ generating an unpredictable seed for a random number generator. For this
 purpose, the structure has the following layout:
 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_LOOKASIDE_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_LOOKASIDE_INFORMATION {
     BYTE Reserved1[32];
-} SYSTEM_LOOKASIDE_INFORMATION;</code></pre>
+} SYSTEM_LOOKASIDE_INFORMATION;
+```
+
 Individual members of the structure are reserved for internal
 use by the operating system.
 
@@ -585,9 +617,13 @@ generating an unpredictable seed for a random number generator. For this
 purpose, the structure has the following layout:
 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_PERFORMANCE_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_PERFORMANCE_INFORMATION {
     BYTE Reserved1[312];
-} SYSTEM_PERFORMANCE_INFORMATION;</code></pre>
+} SYSTEM_PERFORMANCE_INFORMATION;
+```
+
 Individual members of the structure are reserved for internal
 use by the operating system.
 
@@ -604,10 +640,14 @@ by the <i>SystemInformation</i> parameter should be large
 enough to hold a single <b>SYSTEM_POLICY_INFORMATION</b> structure having the following layout:
 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_POLICY_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_POLICY_INFORMATION {
     PVOID Reserved1[2];
     ULONG Reserved2[3];
-} SYSTEM_POLICY_INFORMATION;</code></pre>
+} SYSTEM_POLICY_INFORMATION;
+```
+
 Individual members of the structure are reserved for internal
 use by the operating system.
 
@@ -630,7 +670,9 @@ there are processes and threads running in the system. This size is specified by
 Each <b>SYSTEM_PROCESS_INFORMATION</b> structure has the following
 layout:
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_PROCESS_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_PROCESS_INFORMATION {
     ULONG NextEntryOffset;
     ULONG NumberOfThreads;
     BYTE Reserved1[48];
@@ -654,7 +696,9 @@ layout:
     SIZE_T PeakPagefileUsage;
     SIZE_T PrivatePageCount;
     LARGE_INTEGER Reserved7[6];
-} SYSTEM_PROCESS_INFORMATION;</code></pre>
+} SYSTEM_PROCESS_INFORMATION;
+```
+
 The start of the next item in the array is the address of the previous item plus the value in the <b>NextEntryOffset</b> member. For the last item in the array, <b>NextEntryOffset</b> is 0.
 
 The <b>NumberOfThreads</b> member contains the number of threads in the process.
@@ -703,7 +747,9 @@ When the <i>SystemInformationClass</i>  parameter is
 the <i>SystemInformation</i> parameter contains a <b>SYSTEM_PROCESS_INFORMATION</b> structure for each process. Each of these structures is immediately followed in memory by one or more <b>SYSTEM_THREAD_INFORMATION</b> structures that provide info for each thread in the preceding process. For more information about <b>SYSTEM_PROCESS_INFORMATION</b>, see the section about this structure in this article. Each <b>SYSTEM_THREAD_INFORMATION</b> structure has the following
 layout: 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_THREAD_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_THREAD_INFORMATION {
     LARGE_INTEGER Reserved1[3];
     ULONG Reserved2;
     PVOID StartAddress;
@@ -713,7 +759,9 @@ layout:
     ULONG Reserved3;
     ULONG ThreadState;
     ULONG WaitReason;
-} SYSTEM_THREAD_INFORMATION;</code></pre>
+} SYSTEM_THREAD_INFORMATION;
+```
+
 The <b>StartAddress</b> member contains the start address of the thread.
 
 The <b>ClientId</b> member contains the 
@@ -739,17 +787,21 @@ operating system.
 When the <i>SystemInformationClass</i>  parameter is
 <b>SystemProcessorPerformanceInformation</b>,  the buffer
 pointed to by the <i>SystemInformation</i> parameter should
-be large enough to hold an array that contains as many <b>SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION</b>structures as there are processors (CPUs) installed in the system. Each
+be large enough to hold an array that contains as many <b>SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION</b> structures as there are processors (CPUs) installed in the system. Each
 structure has the following layout: 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct
+
+``` syntax
+typedef struct
 _SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION {
     LARGE_INTEGER IdleTime;
     LARGE_INTEGER KernelTime;
     LARGE_INTEGER UserTime;
     LARGE_INTEGER Reserved1[2];
     ULONG Reserved2;
-} SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION;</code></pre>
+} SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION;
+```
+
 The <b>IdleTime</b> member contains the amount of time
 that the system has been idle, in 100-nanosecond intervals.
 
@@ -761,7 +813,7 @@ The <b>UserTime</b> member contains the amount of time
 that the system has spent executing in User mode (including all threads in all
 processes, on all processors), in 100-nanosecond intervals.
 
-Use <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getsystemtimes">GetSystemTimes</a>instead to retrieve this information.
+Use <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getsystemtimes">GetSystemTimes</a> instead to retrieve this information.
 
 
 
@@ -770,15 +822,21 @@ Use <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getsyst
 When the <i>SystemInformationClass</i> parameter is <b>SystemQueryPerformanceCounterInformation</b>, the buffer pointed to by the <i>SystemInformation</i> parameter should be large
 enough to hold a single <b>SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION</b> structure having the following layout:
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION {
     ULONG                           Version;
     QUERY_PERFORMANCE_COUNTER_FLAGS Flags;
     QUERY_PERFORMANCE_COUNTER_FLAGS ValidFlags;
 } SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION;
-</code></pre>
+
+```
+
 The <b>Flags</b> and <b>ValidFlags</b> members are <b>QUERY_PERFORMANCE_COUNTER_FLAGS</b> structures having the following layout:
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _QUERY_PERFORMANCE_COUNTER_FLAGS {
+
+``` syntax
+typedef struct _QUERY_PERFORMANCE_COUNTER_FLAGS {
     union {
         struct {
             ULONG KernelTransition:1;
@@ -786,7 +844,9 @@ The <b>Flags</b> and <b>ValidFlags</b> members are <b>QUERY_PERFORMANCE_COUNTER_
         };
         ULONG ul;
     };
-} QUERY_PERFORMANCE_COUNTER_FLAGS;</code></pre>
+} QUERY_PERFORMANCE_COUNTER_FLAGS;
+```
+
 The <b>ValidFlags</b> member of the <b>SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION</b> structure indicates which bits of the <b>Flags</b> member contain valid information. If a kernel transition is required, the <b>KernelTransition</b> bit is set in both <b>ValidFlags</b> and <b>Flags</b>. If a kernel transition is not required, the <b>KernelTransition</b> bit is set in <b>ValidFlags</b> and clear in <b>Flags</b>.
 
 
@@ -799,11 +859,15 @@ to by the <i>SystemInformation</i> parameter should be large
 enough to hold a single <b>SYSTEM_REGISTRY_QUOTA_INFORMATION</b> structure having the
 following layout: 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_REGISTRY_QUOTA_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_REGISTRY_QUOTA_INFORMATION {
     ULONG RegistryQuotaAllowed;
     ULONG RegistryQuotaUsed;
     PVOID Reserved1;
-} SYSTEM_REGISTRY_QUOTA_INFORMATION;</code></pre>
+} SYSTEM_REGISTRY_QUOTA_INFORMATION;
+```
+
 The <b>RegistryQuotaAllowed</b> member contains the
 maximum size, in bytes, that the Registry can attain on this system.
 
@@ -825,7 +889,9 @@ When the <i>SystemInformationClass</i>  parameter is
 the <i>SystemInformation</i> parameter should be large
 enough to hold a single <b>SYSTEM_SPECULATION_CONTROL_INFORMATION</b> structure having the following layout: 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_SPECULATION_CONTROL_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_SPECULATION_CONTROL_INFORMATION {
     struct {
          ULONG BpbEnabled:1;
          ULONG BpbDisabledSystemPolicy:1;
@@ -844,7 +910,9 @@ enough to hold a single <b>SYSTEM_SPECULATION_CONTROL_INFORMATION</b> structure 
          ULONG Reserved:18;
     } SpeculationControlFlags;
 
-} SYSTEM_SPECULATION_CONTROL_INFORMATION, * PSYSTEM_SPECULATION_CONTROL_INFORMATION;</code></pre>
+} SYSTEM_SPECULATION_CONTROL_INFORMATION, * PSYSTEM_SPECULATION_CONTROL_INFORMATION;
+```
+
 The <b>BpbEnabled</b> indicates whether speculation control features are supported and enabled.
 
 The <b>BpbDisabledSystemPolicy</b> indicates whether speculation control features are disabled due to system 
@@ -889,9 +957,13 @@ generating an unpredictable seed for a random number generator. For this
 purpose, the structure has the following layout:
 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_TIMEOFDAY_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_TIMEOFDAY_INFORMATION {
     BYTE Reserved1[48];
-} SYSTEM_TIMEOFDAY_INFORMATION;</code></pre>
+} SYSTEM_TIMEOFDAY_INFORMATION;
+```
+
 Individual members of the structure are reserved for internal
 use by the operating system.
 
@@ -900,7 +972,7 @@ function instead to generate cryptographically random data.
 
 ### -param SystemInformationLength [in]
 
-The size of the buffer pointed to by the <i>SystemInformation</i>parameter, in bytes.
+The size of the buffer pointed to by the <i>SystemInformation</i> parameter, in bytes.
 
 ### -param ReturnLength [out, optional]
 

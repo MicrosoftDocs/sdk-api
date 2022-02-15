@@ -54,7 +54,7 @@ Scan opcodes.
 
 ## -enum-fields
 
-### -field D3DX11_SCAN_OPCODE_ADD
+### -field D3DX11_SCAN_OPCODE_ADD:1
 
 Add values.
 

@@ -56,19 +56,19 @@ Used by the <a href="/windows/desktop/api/searchapi/nn-searchapi-irowsetprioriti
 
 ## -enum-fields
 
-### -field PRIORITY_LEVEL_FOREGROUND
+### -field PRIORITY_LEVEL_FOREGROUND:0
 
 Indicates that the indexer should process items as fast as the machine allows.
 
-### -field PRIORITY_LEVEL_HIGH
+### -field PRIORITY_LEVEL_HIGH:1
 
 Indicates that the indexer should process items in this scope first, and as quickly as possible.
 
-### -field PRIORITY_LEVEL_LOW
+### -field PRIORITY_LEVEL_LOW:2
 
 Indicates that the indexer should process items in this scope before those at the normal rate, but after any other prioritization requests.
 
-### -field PRIORITY_LEVEL_DEFAULT
+### -field PRIORITY_LEVEL_DEFAULT:3
 
 Indicates that the indexer should  process items at the normal indexer rate.
 

@@ -53,7 +53,7 @@ api_name:
 
 The <b>fIsAuthenticated</b> method verifies that a <a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Secure Authenticated Channel</a> has been successfully established.
 
-## -parameters
+
 
 ## -returns
 

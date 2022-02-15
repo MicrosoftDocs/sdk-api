@@ -59,7 +59,7 @@ The <b>CM_Set_Class_Property_ExW</b> function sets a class property for a device
 
 ### -param ClassGUID [in]
 
-Pointer to the GUID that identifies the <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a> or <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> for which to set a device property. For information about specifying the class type, see the <i>ulFlags</i> parameter.
+Pointer to the GUID that identifies the <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a> or <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> for which to set a device property. For information about specifying the class type, see the <i>ulFlags</i> parameter.
 
 ### -param PropertyKey [in]
 
@@ -67,7 +67,7 @@ Pointer to a <a href="/windows-hardware/drivers/install/devpropkey">DEVPROPKEY</
 
 ### -param PropertyType [in]
 
-A <a href="/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a>-typed value that represents the property-data-type identifier for the device class property. To delete a property, set this to <b>DEVPROP_TYPE_EMPTY</b>.
+A <a href="/windows-hardware/drivers/install/property-data-type-identifiers">DEVPROPTYPE</a>-typed value that represents the property-data-type identifier for the device class property. To delete a property, set this to <b>DEVPROP_TYPE_EMPTY</b>.
 
 ### -param PropertyBuffer [in]
 

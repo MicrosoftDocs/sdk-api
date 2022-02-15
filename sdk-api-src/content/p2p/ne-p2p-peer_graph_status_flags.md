@@ -56,15 +56,15 @@ The <b>PEER_GRAPH_STATUS_FLAGS</b> enumeration is a set of flags that show the c
 
 ## -enum-fields
 
-### -field PEER_GRAPH_STATUS_LISTENING
+### -field PEER_GRAPH_STATUS_LISTENING:0x0001
 
 Specifies whether or not the node is listening for connections.
 
-### -field PEER_GRAPH_STATUS_HAS_CONNECTIONS
+### -field PEER_GRAPH_STATUS_HAS_CONNECTIONS:0x0002
 
 Specifies whether or not the node has connections to other nodes.
 
-### -field PEER_GRAPH_STATUS_SYNCHRONIZED
+### -field PEER_GRAPH_STATUS_SYNCHRONIZED:0x0004
 
 Specifies whether or not the node's database is synchronized.
 

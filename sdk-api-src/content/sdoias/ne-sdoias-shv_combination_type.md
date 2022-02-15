@@ -56,7 +56,7 @@ The <b>SHV_COMBINATION_TYPE</b> enumeration type specifies the type of a System 
 
 ## -enum-fields
 
-### -field SHV_COMBINATION_TYPE_ALL_PASS
+### -field SHV_COMBINATION_TYPE_ALL_PASS:0
 
 ### -field SHV_COMBINATION_TYPE_ALL_FAIL
 

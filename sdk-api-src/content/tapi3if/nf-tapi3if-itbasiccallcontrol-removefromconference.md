@@ -53,7 +53,7 @@ api_name:
 The 
 <b>RemoveFromConference</b> method removes the call from a conference if it is involved in one.
 
-## -parameters
+
 
 ## -returns
 

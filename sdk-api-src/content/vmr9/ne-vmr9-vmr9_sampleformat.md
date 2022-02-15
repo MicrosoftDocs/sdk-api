@@ -56,27 +56,27 @@ The <b>VMR9_SampleFormat</b> enumeration type describes the interlacing of a vid
 
 ## -enum-fields
 
-### -field VMR9_SampleReserved
+### -field VMR9_SampleReserved:1
 
 Reserved; do not use.
 
-### -field VMR9_SampleProgressiveFrame
+### -field VMR9_SampleProgressiveFrame:2
 
 Progressive frame; no interleaving
 
-### -field VMR9_SampleFieldInterleavedEvenFirst
+### -field VMR9_SampleFieldInterleavedEvenFirst:3
 
 Each sample contains two interleaved fields, with the even field first.
 
-### -field VMR9_SampleFieldInterleavedOddFirst
+### -field VMR9_SampleFieldInterleavedOddFirst:4
 
 Each sample contains two interleaved fields, with the odd field first.
 
-### -field VMR9_SampleFieldSingleEven
+### -field VMR9_SampleFieldSingleEven:5
 
 The sample contains a single field, and each line in the sample corresponds to the even lines in a deinterlaced frame. That is, lines 0, 1, 2,... in the sample correspond to lines 0, 2, 4,... in the deinterlaced frame. The missing lines must be constructed when the frame is deinterlaced.
 
-### -field VMR9_SampleFieldSingleOdd
+### -field VMR9_SampleFieldSingleOdd:6
 
 The sample contains a single field, and each line in the sample corresponds to the odd lines in a de-interlaced frame.
 

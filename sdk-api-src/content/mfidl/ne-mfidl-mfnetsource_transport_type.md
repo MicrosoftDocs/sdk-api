@@ -56,7 +56,7 @@ Describes the type of transport used in streaming or downloading data (TCP or UD
 
 ## -enum-fields
 
-### -field MFNETSOURCE_UDP
+### -field MFNETSOURCE_UDP:0
 
 The data transport type is UDP.
 

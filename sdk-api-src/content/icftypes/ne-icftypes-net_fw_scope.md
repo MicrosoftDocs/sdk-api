@@ -60,7 +60,7 @@ The
 
 ## -enum-fields
 
-### -field NET_FW_SCOPE_ALL
+### -field NET_FW_SCOPE_ALL:0
 
 Scope is all.
 

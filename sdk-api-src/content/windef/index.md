@@ -16,7 +16,11 @@ f1_keywords:
 
 ## -description
 
-This header is used by Windows GDI. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [Display Devices Reference](../_display/index.md)
+- [High DPI](../_hidpi/index.md)
+- [Windows Accessibility Features](../_winauto/index.md)
+- [Windows and Messages](../_winmsg/index.md)
 - [Windows GDI](../_gdi/index.md)
 

@@ -59,7 +59,7 @@ api_name:
 
 Retrieves the error mode for the current process.
 
-## -parameters
+
 
 ## -returns
 

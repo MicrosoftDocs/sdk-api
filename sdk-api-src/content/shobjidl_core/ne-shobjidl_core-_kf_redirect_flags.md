@@ -54,47 +54,47 @@ Flags used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknow
 
 ## -enum-fields
 
-### -field KF_REDIRECT_USER_EXCLUSIVE
+### -field KF_REDIRECT_USER_EXCLUSIVE:0x1
 
 Ensure that only the user has permission to access the redirected folder.
 
-### -field KF_REDIRECT_COPY_SOURCE_DACL
+### -field KF_REDIRECT_COPY_SOURCE_DACL:0x2
 
 Copy the DACL of the source folder to the target to maintain current access permissions.
 
-### -field KF_REDIRECT_OWNER_USER
+### -field KF_REDIRECT_OWNER_USER:0x4
 
 Sets the user as the owner of a newly created target folder unless the user is a member of the Administrator group, in which case Administrator is set as the owner. Must be called with KF_REDIRECT_SET_OWNER_EXPLICIT.
 
-### -field KF_REDIRECT_SET_OWNER_EXPLICIT
+### -field KF_REDIRECT_SET_OWNER_EXPLICIT:0x8
 
 Set the owner of a newly created target folder.  If the user belongs to the Administrators group, Administrators is assigned as the owner. Must be called with KF_REDIRECT_OWNER_USER.
 
-### -field KF_REDIRECT_CHECK_ONLY
+### -field KF_REDIRECT_CHECK_ONLY:0x10
 
 Do not perform a redirection, simply check whether redirection has occurred. If so, <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-redirect">IKnownFolderManager::Redirect</a> returns S_OK; if not, or if some actions remain to be completed, it returns S_FALSE.
 
-### -field KF_REDIRECT_WITH_UI
+### -field KF_REDIRECT_WITH_UI:0x20
 
 Display UI during the redirection.
 
-### -field KF_REDIRECT_UNPIN
+### -field KF_REDIRECT_UNPIN:0x40
 
 Unpin the source folder.
 
-### -field KF_REDIRECT_PIN
+### -field KF_REDIRECT_PIN:0x80
 
 Pin the target folder.
 
-### -field KF_REDIRECT_COPY_CONTENTS
+### -field KF_REDIRECT_COPY_CONTENTS:0x200
 
 Copy the existing contents—both files and subfolders—of the known folder to the redirected folder.
 
-### -field KF_REDIRECT_DEL_SOURCE_CONTENTS
+### -field KF_REDIRECT_DEL_SOURCE_CONTENTS:0x400
 
 Delete the contents of the source folder after they have been copied to the redirected folder. This flag is valid only if <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_kf_redirect_flags">KF_REDIRECT_COPY_CONTENTS</a> is set.
 
-### -field KF_REDIRECT_EXCLUDE_ALL_KNOWN_SUBFOLDERS
+### -field KF_REDIRECT_EXCLUDE_ALL_KNOWN_SUBFOLDERS:0x800
 
 Reserved. Do not use.
 

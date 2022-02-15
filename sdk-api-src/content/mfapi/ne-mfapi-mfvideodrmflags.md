@@ -56,15 +56,15 @@ Specifies the type of copy protection required for a video stream.
 
 ## -enum-fields
 
-### -field MFVideoDRMFlag_None
+### -field MFVideoDRMFlag_None:0
 
 No copy protection is required.
 
-### -field MFVideoDRMFlag_AnalogProtected
+### -field MFVideoDRMFlag_AnalogProtected:1
 
 Analog copy protection should be applied.
 
-### -field MFVideoDRMFlag_DigitallyProtected
+### -field MFVideoDRMFlag_DigitallyProtected:2
 
 Digital copy protection should be applied.
 

@@ -54,23 +54,23 @@ The <b>X509PrivateKeyExportFlags</b> enumeration type specifies the export polic
 
 ## -enum-fields
 
-### -field XCN_NCRYPT_ALLOW_EXPORT_NONE
+### -field XCN_NCRYPT_ALLOW_EXPORT_NONE:0
 
 Export is not allowed. This is the default value.
 
-### -field XCN_NCRYPT_ALLOW_EXPORT_FLAG
+### -field XCN_NCRYPT_ALLOW_EXPORT_FLAG:0x1
 
 The private key can be exported.
 
-### -field XCN_NCRYPT_ALLOW_PLAINTEXT_EXPORT_FLAG
+### -field XCN_NCRYPT_ALLOW_PLAINTEXT_EXPORT_FLAG:0x2
 
 The private key can be exported in plaintext form.
 
-### -field XCN_NCRYPT_ALLOW_ARCHIVING_FLAG
+### -field XCN_NCRYPT_ALLOW_ARCHIVING_FLAG:0x4
 
 The private key can be exported once for archiving.
 
-### -field XCN_NCRYPT_ALLOW_PLAINTEXT_ARCHIVING_FLAG
+### -field XCN_NCRYPT_ALLOW_PLAINTEXT_ARCHIVING_FLAG:0x8
 
 The private key can be exported once in plaintext form for archiving.
 

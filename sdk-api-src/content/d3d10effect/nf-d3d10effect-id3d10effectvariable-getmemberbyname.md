@@ -68,7 +68,7 @@ A pointer to an <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10e
 
 ## -remarks
 
-If the effect variable is an structure, use this method to look up a member by name.
+If the effect variable is a structure, use this method to look up a member by name.
 
 ## -see-also
 

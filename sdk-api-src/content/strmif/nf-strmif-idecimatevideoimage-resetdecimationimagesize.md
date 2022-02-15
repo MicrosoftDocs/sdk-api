@@ -53,7 +53,7 @@ api_name:
 
 The <code>ResetDecimationImageSize</code> method specifies that the decoder should no longer decimate its output image.
 
-## -parameters
+
 
 ## -returns
 

@@ -56,7 +56,7 @@ api_name:
 
 Cancels the job if it is running.
 
-## -parameters
+
 
 ## -returns
 

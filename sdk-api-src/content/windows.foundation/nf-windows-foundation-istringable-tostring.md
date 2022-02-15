@@ -11,8 +11,8 @@ ms.keywords: IStringable interface [Windows Runtime],ToString method, IStringabl
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
+req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -60,7 +60,7 @@ Gets a string that represents the current object.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

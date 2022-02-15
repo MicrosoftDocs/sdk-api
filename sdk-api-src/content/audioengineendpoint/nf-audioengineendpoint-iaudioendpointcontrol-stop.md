@@ -52,7 +52,7 @@ api_name:
 
 The <b>Stop</b> method stops the endpoint stream.
 
-## -parameters
+
 
 ## -returns
 

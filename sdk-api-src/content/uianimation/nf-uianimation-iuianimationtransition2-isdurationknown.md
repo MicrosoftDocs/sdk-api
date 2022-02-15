@@ -52,7 +52,7 @@ api_name:
 
 Determines whether the duration of a transition is known.
 
-## -parameters
+
 
 ## -returns
 

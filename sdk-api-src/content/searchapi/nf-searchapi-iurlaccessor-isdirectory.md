@@ -52,7 +52,7 @@ api_name:
 
 Ascertains whether the item URL points to a directory.
 
-## -parameters
+
 
 ## -returns
 

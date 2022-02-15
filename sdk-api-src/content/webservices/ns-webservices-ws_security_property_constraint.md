@@ -111,7 +111,7 @@ This property constraint may be specified when any
 If this property is not specified, then the default constraint value
                         of <a href="/windows/desktop/api/webservices/ne-webservices-ws_protection_level">WS_PROTECTION_LEVEL_SIGN_AND_ENCRYPT</a> will be used.
                     
-<b>WS_SECURITY_PROPERTY_SECURITY_HEADER_LAYOUT</b>This property constraint may be specified when any
+<b>WS_SECURITY_PROPERTY_SECURITY_HEADER_LAYOUT</b> This property constraint may be specified when any
                         of the following security bindings are specified:
                     
 

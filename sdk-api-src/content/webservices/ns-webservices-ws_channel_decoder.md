@@ -63,7 +63,7 @@ A context that will be passed to the <a href="/windows/desktop/api/webservices/n
 
 ### -field createDecoderCallback
 
-A <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_decoder_callback">WS_CREATE_DECODER_CALLBACK</a> callback that creates an instance of an decoder.
+A <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_decoder_callback">WS_CREATE_DECODER_CALLBACK</a> callback that creates an instance of a decoder.
 
 ### -field decoderGetContentTypeCallback
 
@@ -84,7 +84,7 @@ A <a href="/windows/desktop/api/webservices/nc-webservices-ws_decoder_end_callba
 
 ### -field freeDecoderCallback
 
-A <a href="/windows/desktop/api/webservices/nc-webservices-ws_free_decoder_callback">WS_FREE_DECODER_CALLBACK</a> callback that frees an instance of an decoder.
+A <a href="/windows/desktop/api/webservices/nc-webservices-ws_free_decoder_callback">WS_FREE_DECODER_CALLBACK</a> callback that frees an instance of a decoder.
 
 ## -remarks
 
@@ -103,12 +103,16 @@ The callbacks specified will get invoked according to the following grammar:
 
               
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 decodercalls := create decoderloop* free
 decoderloop  := decodestart
              |  decodestart getcontenttype
              |  decodestart getcontenttype (decode*)
-             |  decodestart getcontenttype (decode*) decodeend</code></pre>
+             |  decodestart getcontenttype (decode*) decodeend
+```
+
 The decoder may not see the full decode sequence for a message if the channel 
               or the decoder encounters an error while reading the message.  A decoder must be 
               prepared to handle transitioning to the appropriate state based upon the callbacks invoked.

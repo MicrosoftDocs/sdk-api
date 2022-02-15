@@ -54,23 +54,23 @@ Identifies the  pointer input types.
 
 ## -enum-fields
 
-### -field PT_POINTER
+### -field PT_POINTER:1
 
 Generic pointer type. This type never appears in pointer messages or pointer data. Some data query functions allow the caller to restrict the query to specific pointer type. The <b>PT_POINTER</b> type can be used in these functions to specify that the query is to include pointers of all types
 
-### -field PT_TOUCH
+### -field PT_TOUCH:2
 
 Touch pointer type.
 
-### -field PT_PEN
+### -field PT_PEN:3
 
 Pen pointer type.
 
-### -field PT_MOUSE
+### -field PT_MOUSE:4
 
 Mouse pointer type.
 
-### -field PT_TOUCHPAD
+### -field PT_TOUCHPAD:5
 
 Touchpad pointer type (Windows 8.1 and later).
 

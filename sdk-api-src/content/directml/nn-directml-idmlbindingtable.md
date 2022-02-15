@@ -66,6 +66,6 @@ This object is not thread safe—your application must not call methods on the b
 
 ## -see-also
 
-[Binding in DirectML](/windows/desktop/direct3d12/dml-binding)
+[Binding in DirectML](/windows/ai/directml/dml-binding)
 
 [IDMLDeviceChild](/windows/win32/api/directml/nn-directml-idmldevicechild)

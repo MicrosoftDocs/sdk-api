@@ -64,9 +64,13 @@ After the font object is deleted, the specified handle is no longer valid.
 
 The <b>DeleteFont</b> macro is equivalent to calling <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> as follows:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
    DeleteObject((HGDIOBJ)(HFONT)(hfont))
-</code></pre>
+
+```
+
 
 ## -see-also
 

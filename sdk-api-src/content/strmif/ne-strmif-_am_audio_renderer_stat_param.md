@@ -62,7 +62,7 @@ Microsoft supports a diverse and inclusionary environment.  Within this document
 
 ## -enum-fields
 
-### -field AM_AUDREND_STAT_PARAM_BREAK_COUNT
+### -field AM_AUDREND_STAT_PARAM_BREAK_COUNT:1
 
 <i>Param1</i>: The cumulative number of breaks in the audio stream.
 

@@ -56,7 +56,7 @@ The <b>EC_SUBSCRIPTION_PROPERTY_ID</b> enumeration defines values to identify ev
 
 ## -enum-fields
 
-### -field EcSubscriptionEnabled
+### -field EcSubscriptionEnabled:0
 
 The <b>Enabled</b> property of the subscription that is used to enable or disable the subscription or obtain the current status of a subscription. This property is an <a href="/windows/desktop/api/evcoll/ns-evcoll-ec_variant">EcVarTypeBoolean</a> value.
 

@@ -56,17 +56,17 @@ Defines the possible priorities for a download operation.
 
 ## -enum-fields
 
-### -field dpLow
+### -field dpLow:1
 
 Updates are downloaded as low priority.
 
-### -field dpNormal
+### -field dpNormal:2
 
 Updates are downloaded as normal priority.
 
-### -field dpHigh
+### -field dpHigh:3
 
 Updates are downloaded as high priority.
 
-### -field dpExtraHigh
+### -field dpExtraHigh:4
 

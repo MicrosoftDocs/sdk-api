@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Active Directory Domain Services. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Active Directory Domain Services](../_ad/index.md)
+- [Active Directory Lightweight Directory Services](../_adam/index.md)
 

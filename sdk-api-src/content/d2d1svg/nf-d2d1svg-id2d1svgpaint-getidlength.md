@@ -52,7 +52,7 @@ api_name:
 
 Gets the string length of the element id which acts as the paint server. This id is used if the paint type is D2D1_SVG_PAINT_TYPE_URI.
 
-## -parameters
+
 
 ## -returns
 

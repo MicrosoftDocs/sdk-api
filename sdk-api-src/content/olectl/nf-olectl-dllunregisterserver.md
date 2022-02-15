@@ -52,7 +52,7 @@ api_name:
 
 Instructs an in-process server to remove only those entries created through <a href="/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a>.
 
-## -parameters
+
 
 ## -returns
 

@@ -56,7 +56,7 @@ Gets the <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourceb
 
 ### -param dwStreamIndex [in]
 
-The location of the buffer in the colloection.
+The location of the buffer in the collection.
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Determines whether the font has any vertical glyph variants.
 
-## -parameters
+
 
 ## -returns
 

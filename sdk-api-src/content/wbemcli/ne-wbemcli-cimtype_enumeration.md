@@ -56,79 +56,79 @@ The <b>CIMTYPE_ENUMERATION</b> enumeration defines values that specify different
 
 ## -enum-fields
 
-### -field CIM_ILLEGAL
+### -field CIM_ILLEGAL:0xfff
 
 An illegal value.
 
-### -field CIM_EMPTY
+### -field CIM_EMPTY:0
 
 An empty (null) value.
 
-### -field CIM_SINT8
+### -field CIM_SINT8:16
 
 An 8-bit signed integer.
 
-### -field CIM_UINT8
+### -field CIM_UINT8:17
 
 An 8-bit unsigned integer.
 
-### -field CIM_SINT16
+### -field CIM_SINT16:2
 
 A 16-bit signed integer.
 
-### -field CIM_UINT16
+### -field CIM_UINT16:18
 
 A 16-bit unsigned integer.
 
-### -field CIM_SINT32
+### -field CIM_SINT32:3
 
 A 32-bit signed integer.
 
-### -field CIM_UINT32
+### -field CIM_UINT32:19
 
 A 32-bit unsigned integer.
 
-### -field CIM_SINT64
+### -field CIM_SINT64:20
 
 A 64-bit signed integer.
 
-### -field CIM_UINT64
+### -field CIM_UINT64:21
 
 A 64-bit unsigned integer.
 
-### -field CIM_REAL32
+### -field CIM_REAL32:4
 
 A 32-bit real number.
 
-### -field CIM_REAL64
+### -field CIM_REAL64:5
 
 A 64-bit real number.
 
-### -field CIM_BOOLEAN
+### -field CIM_BOOLEAN:11
 
 A Boolean value.
 
-### -field CIM_STRING
+### -field CIM_STRING:8
 
 A string value.
 
-### -field CIM_DATETIME
+### -field CIM_DATETIME:101
 
 A DateTime value.
 
-### -field CIM_REFERENCE
+### -field CIM_REFERENCE:102
 
 Reference (__Path) of another Object.
 
-### -field CIM_CHAR16
+### -field CIM_CHAR16:103
 
 A 16-bit character value.
 
-### -field CIM_OBJECT
+### -field CIM_OBJECT:13
 
 An Object value.
 
-### -field CIM_FLAG_ARRAY
+### -field CIM_FLAG_ARRAY:0x2000
 
 An array value.
 

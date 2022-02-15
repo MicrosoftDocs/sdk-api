@@ -54,7 +54,7 @@ The <code>DMO_VIDEO_OUTPUT_STREAM_FLAGS</code> enumeration defines flags that de
 
 ## -enum-fields
 
-### -field DMO_VOSF_NEEDS_PREVIOUS_SAMPLE
+### -field DMO_VOSF_NEEDS_PREVIOUS_SAMPLE:0x1
 
 Requests that every output buffer passed to the DMO contain the previous data that was generated.
 

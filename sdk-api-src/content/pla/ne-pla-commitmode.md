@@ -56,31 +56,31 @@ Defines the action to take when committing changes to the data collector set.
 
 ## -enum-fields
 
-### -field plaCreateNew
+### -field plaCreateNew:0x1
 
 Save the set. The set must not already exist. 
 
 The set is not saved if it is a trace session.
 
-### -field plaModify
+### -field plaModify:0x2
 
 Update a previously saved set.
 
-### -field plaCreateOrModify
+### -field plaCreateOrModify:0x3
 
 Save the set. If the set already exists, update the set.
 
 The set is not saved if it is a trace session.
 
-### -field plaUpdateRunningInstance
+### -field plaUpdateRunningInstance:0x10
 
 Apply the updated property values to the currently running data set.
 
-### -field plaFlushTrace
+### -field plaFlushTrace:0x20
 
 Flush the buffers for an Event Tracing for Windows trace session. This action applies only to sets that contain trace data collectors.
 
-### -field plaValidateOnly
+### -field plaValidateOnly:0x1000
 
 Perform validation only on the set.
 

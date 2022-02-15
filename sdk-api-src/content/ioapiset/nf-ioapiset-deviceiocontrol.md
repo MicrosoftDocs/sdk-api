@@ -147,7 +147,7 @@ For overlapped operations,
 
 ## -returns
 
-If the operation completes successfully, the return value is nonzero.
+If the operation completes successfully, the return value is nonzero (TRUE).
 
 If the operation fails or is pending, the return value is zero. To get extended error information, call 
        <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
@@ -183,6 +183,9 @@ You should specify the <b>FILE_SHARE_READ</b> and
 For lists of supported control codes, see the following topics:
 
 <ul>
+<li>
+<a href="/windows-hardware/drivers/storage/cd-rom-io-control-codes">CD-ROM Control Codes</a>
+</li>
 <li>
 <a href="/windows/desktop/DevIO/communications-control-codes">Communications Control Codes</a>
 </li>

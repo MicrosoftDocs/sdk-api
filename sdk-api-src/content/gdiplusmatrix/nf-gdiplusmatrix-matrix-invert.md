@@ -53,7 +53,7 @@ api_name:
 
 If this matrix is invertible, the <b>Matrix::Invert</b> method replaces the elements of this matrix with the elements of its inverse.
 
-## -parameters
+
 
 ## -returns
 

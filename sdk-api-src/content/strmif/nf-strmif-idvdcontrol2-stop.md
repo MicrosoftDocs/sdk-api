@@ -53,7 +53,7 @@ api_name:
 
 The <code>Stop</code> method stops playback of a title or menu by moving the DVD Navigator into the DVD Stop domain.
 
-## -parameters
+
 
 ## -returns
 

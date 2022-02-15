@@ -189,9 +189,15 @@ This name is in the classic 8.3 file name format.
 
 ### -field dwFileType
 
+Obsolete. Do not use.
+
 ### -field dwCreatorType
 
+Obsolete. Do not use.
+
 ### -field wFinderFlags
+
+Obsolete. Do not use.
 
 ## -remarks
 

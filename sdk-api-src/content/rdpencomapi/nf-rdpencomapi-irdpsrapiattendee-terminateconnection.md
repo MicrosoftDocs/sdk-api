@@ -52,7 +52,7 @@ api_name:
 
 Disconnects the client represented by the attendee.
 
-## -parameters
+
 
 ## -returns
 

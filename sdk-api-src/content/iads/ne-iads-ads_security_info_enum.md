@@ -56,19 +56,19 @@ The <b>ADS_SECURITY_INFO_ENUM</b> enumeration specifies the available options fo
 
 ## -enum-fields
 
-### -field ADS_SECURITY_INFO_OWNER
+### -field ADS_SECURITY_INFO_OWNER:0x1
 
 Reads or sets the owner data.
 
-### -field ADS_SECURITY_INFO_GROUP
+### -field ADS_SECURITY_INFO_GROUP:0x2
 
 Reads or sets the group data.
 
-### -field ADS_SECURITY_INFO_DACL
+### -field ADS_SECURITY_INFO_DACL:0x4
 
 Reads or sets the discretionary access-control list data.
 
-### -field ADS_SECURITY_INFO_SACL
+### -field ADS_SECURITY_INFO_SACL:0x8
 
 Reads or sets the system access-control list data.
 

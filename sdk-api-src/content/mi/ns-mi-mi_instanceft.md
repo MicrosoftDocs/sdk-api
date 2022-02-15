@@ -87,7 +87,7 @@ Deletes an instance that was created on the stack. See
 
 ### -field GetClass
 
-Gets the <a href="/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a>associated with an instance. See 
+Gets the <a href="/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> associated with an instance. See 
        <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_getclass">MI_Instance_GetClass</a>.
 
 ### -field GetClassName

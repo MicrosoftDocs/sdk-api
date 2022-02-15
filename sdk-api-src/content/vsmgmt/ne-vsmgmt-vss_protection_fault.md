@@ -58,7 +58,7 @@ Defines the set of shadow copy protection faults. A shadow copy protection fault
 
 ## -enum-fields
 
-### -field VSS_PROTECTION_FAULT_NONE
+### -field VSS_PROTECTION_FAULT_NONE:0
 
 No shadow copy protection fault has occurred.
 

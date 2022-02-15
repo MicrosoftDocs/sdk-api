@@ -54,19 +54,19 @@ Identifies the locations where events associated with a Ribbon control can origi
 
 ## -enum-fields
 
-### -field UI_EVENTLOCATION_Ribbon
+### -field UI_EVENTLOCATION_Ribbon:0
 
 The <a href="/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon</a>.
 
-### -field UI_EVENTLOCATION_QAT
+### -field UI_EVENTLOCATION_QAT:1
 
 The <a href="/windows/desktop/windowsribbon/windowsribbon-element-quickaccesstoolbar">QuickAccessToolbar</a>.
 
-### -field UI_EVENTLOCATION_ApplicationMenu
+### -field UI_EVENTLOCATION_ApplicationMenu:2
 
 The <a href="/windows/desktop/windowsribbon/windowsribbon-element-applicationmenu">ApplicationMenu</a>.
 
-### -field UI_EVENTLOCATION_ContextPopup
+### -field UI_EVENTLOCATION_ContextPopup:3
 
 The <a href="/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>.
 

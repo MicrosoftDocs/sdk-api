@@ -533,7 +533,7 @@ If <i>lpFileName</i> specifies a relative path, the entire relative path is appe
 If <i>lpFileName</i> specifies an absolute path and <i>dwFlags</i> is 
       set to <b>LOAD_WITH_ALTERED_SEARCH_PATH</b>, 
       <b>LoadLibraryEx</b> uses the altered search path. 
-      The behavior is undefined when <b>LOAD_WITH_ALTERED_SEARCH_PATH</b>flag is set, and <i>lpFileName</i> specifiies a relative path.
+      The behavior is undefined when <b>LOAD_WITH_ALTERED_SEARCH_PATH</b> flag is set, and <i>lpFileName</i> specifies a relative path.
 
 The <a href="/windows/desktop/api/winbase/nf-winbase-setdlldirectorya">SetDllDirectory</a> function can be used to modify 
       the search path. This solution is better than using 

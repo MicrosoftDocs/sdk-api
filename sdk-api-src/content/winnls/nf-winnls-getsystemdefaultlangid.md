@@ -59,7 +59,7 @@ api_name:
 
 Returns the <a href="/windows/desktop/Intl/language-identifiers">language identifier</a> for the system locale.
 
-## -parameters
+
 
 ## -returns
 

@@ -460,10 +460,14 @@ String ProcessName
 For example, this would trace all instances of App1.exe and App2.exe, but only the instance of App3.exe that 
       has a PID of 999:
 
-<pre class="syntax" xml:space="preserve"><code>App1.exe 
+
+``` syntax
+App1.exe 
 App2.exe
 App3.exe
-     PID 999</code></pre>
+     PID 999
+```
+
 Run the following command to start the tracing session:
 
 <b>tracelog.exe -start &lt;sessionname&gt; -guid #cfaa5446-c6c4-4f5c-866f-31c9b55b962d -f &lt;filename&gt; -flag &lt;traceFlags&gt;</b>

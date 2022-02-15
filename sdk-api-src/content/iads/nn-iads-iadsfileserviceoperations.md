@@ -54,11 +54,7 @@ The <b>IADsFileServiceOperations</b> interface is a dual interface that inherits
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsFileServiceOperations</b> interface inherits from <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>, <a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>, and <a href="/windows/desktop/api/iads/nn-iads-iadsserviceoperations">IADsServiceOperations</a>. <b>IADsFileServiceOperations</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IADsFileServiceOperations</b> interface inherits from <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>, <a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>, and <a href="/windows/desktop/api/iads/nn-iads-iadsserviceoperations">IADsServiceOperations</a>. <b>IADsFileServiceOperations</b> also has these types of members:
 
 ## -remarks
 

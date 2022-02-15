@@ -84,7 +84,7 @@ Number of variables.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Offset an array of UINT values with <b>uVariables</b> members contianing the scope variable list.
+Offset an array of UINT values with <b>uVariables</b> members containing the scope variable list.
 
 ## -remarks
 

@@ -53,7 +53,7 @@ api_name:
 
 Capture the current value of states that are included in a stateblock.
 
-## -parameters
+
 
 ## -returns
 

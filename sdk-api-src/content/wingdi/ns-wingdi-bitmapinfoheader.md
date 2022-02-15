@@ -73,7 +73,7 @@ Specifies the height of the bitmap, in pixels.
 
 <ul>
 <li>For uncompressed RGB bitmaps, if <b>biHeight</b> is positive, the bitmap is a bottom-up DIB with the origin at the lower left corner. If <b>biHeight</b> is negative, the bitmap is a top-down DIB with the origin at the upper left corner.</li>
-<li>For YUV bitmaps, the bitmap is always top-down, regardless of the sign of <b>biHeight</b>. Decoders should offer YUV formats with postive <b>biHeight</b>, but for backward compatibility they should accept YUV formats with either positive or negative <b>biHeight</b>.</li>
+<li>For YUV bitmaps, the bitmap is always top-down, regardless of the sign of <b>biHeight</b>. Decoders should offer YUV formats with positive <b>biHeight</b>, but for backward compatibility they should accept YUV formats with either positive or negative <b>biHeight</b>.</li>
 <li>For compressed formats, <b>biHeight</b> must be positive, regardless of image orientation.</li>
 </ul>
 
@@ -149,17 +149,21 @@ Specifies the number of color indices that are considered important for displayi
 The <b>BITMAPINFOHEADER</b> structure may be followed by an array of palette entries or color masks. The rules depend on the value of <b>biCompression</b>.
 
 <ul>
-<li>If <b>biCompression</b> equals <b>BI_RGB</b> and the bitmap uses 8 bpp or less, the bitmap has a color table immediatelly following the <b>BITMAPINFOHEADER</b> structure. The color table consists of an array of <b>RGBQUAD</b> values. The size of the array is given by the <b>biClrUsed</b> member. If <b>biClrUsed</b> is zero, the array contains the maximum number of colors for the given bitdepth; that is, 2^<b>biBitCount</b> colors.</li>
+<li>If <b>biCompression</b> equals <b>BI_RGB</b> and the bitmap uses 8 bpp or less, the bitmap has a color table immediately following the <b>BITMAPINFOHEADER</b> structure. The color table consists of an array of <b>RGBQUAD</b> values. The size of the array is given by the <b>biClrUsed</b> member. If <b>biClrUsed</b> is zero, the array contains the maximum number of colors for the given bitdepth; that is, 2^<b>biBitCount</b> colors.</li>
 <li>If <b>biCompression</b> equals <b>BI_BITFIELDS</b>, the bitmap uses three <b>DWORD</b> color masks (red, green, and blue, respectively), which specify the byte layout of the pixels. The 1 bits in each mask indicate the bits for that color within the pixel.</li>
 <li>If <b>biCompression</b> is a video FOURCC, the presence of a color table is implied by the video format. You should not assume that a color table exists when the bit depth is 8 bpp or less. However, some legacy components might assume that a color table is present. Therefore, if you are allocating a <b>BITMAPINFOHEADER</b> structure, it is recommended to allocate space for a color table when the bit depth is 8 bpp or less, even if the color table is not used.</li>
 </ul>
 When the <b>BITMAPINFOHEADER</b> is followed by a color table or a set of color masks, you can use the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure to reference the color table of the color masks. The <b>BITMAPINFO</b> structure is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct tagBITMAPINFO {
+
+``` syntax
+typedef struct tagBITMAPINFO {
     BITMAPINFOHEADER bmiHeader;
     RGBQUAD          bmiColors[1];
 } BITMAPINFO;
-</code></pre>
+
+```
+
 If you cast the <b>BITMAPINFOHEADER</b> to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>, the <b>bmiHeader</b> member refers to the <b>BITMAPINFOHEADER</b> and the <b>bmiColors</b> member refers to the first entry in the color table, or the first color mask.
 
 Be aware that if the bitmap uses a color table or color masks, then the size of the entire format structure (the <b>BITMAPINFOHEADER</b> plus the color information) is not equal to <code>sizeof(BITMAPINFOHEADER)</code> or <code>sizeof(BITMAPINFO)</code>. You must calculate the actual size for each instance.

@@ -81,7 +81,7 @@ Specifies the background color, as a <b>D3DCOLOR</b> type.
 
 ### -param pVideoStreamInfo [in]
 
-Pointer to an array of <a href="/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9videostreaminfo">VMR9VideoStreamInfo</a> structures, which descibe each video stream.
+Pointer to an array of <a href="/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9videostreaminfo">VMR9VideoStreamInfo</a> structures, which describe each video stream.
 
 ### -param cStreams [in]
 

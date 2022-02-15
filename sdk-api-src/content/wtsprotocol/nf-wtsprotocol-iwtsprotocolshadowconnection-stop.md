@@ -54,7 +54,7 @@ api_name:
 
 Notifies the protocol that shadowing has stopped.
 
-## -parameters
+
 
 ## -returns
 

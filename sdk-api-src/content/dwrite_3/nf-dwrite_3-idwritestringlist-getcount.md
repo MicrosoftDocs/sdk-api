@@ -52,7 +52,7 @@ api_name:
 
 Gets the number of strings in the string list.
 
-## -parameters
+
 
 ## -returns
 

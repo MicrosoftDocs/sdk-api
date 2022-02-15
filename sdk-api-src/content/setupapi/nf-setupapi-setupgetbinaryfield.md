@@ -95,7 +95,11 @@ If this function is called with a <i>ReturnBuffer</i> of <b>NULL</b> and a <i>Re
 
 To better understand how this function works, consider the following line from an INF file.
 
-<pre class="syntax" xml:space="preserve"><code>X=34,FF,00,13</code></pre>
+
+``` syntax
+X=34,FF,00,13
+```
+
 If 
 <b>SetupGetBinaryField</b> was called on the preceding line, the binary values 34, FF, 00, and 13 would be put into the buffer specified by <i>ReturnBuffer</i>.
 

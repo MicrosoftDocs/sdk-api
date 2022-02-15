@@ -55,7 +55,7 @@ api_name:
 The 
 <b>Delete</b> method deletes a port mapping from the list of port mappings for a particular connection.
 
-## -parameters
+
 
 ## -returns
 

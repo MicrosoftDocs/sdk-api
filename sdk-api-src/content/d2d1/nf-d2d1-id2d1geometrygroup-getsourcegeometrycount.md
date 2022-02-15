@@ -52,7 +52,7 @@ api_name:
 
 Indicates the number of geometry objects in the geometry group.
 
-## -parameters
+
 
 ## -returns
 

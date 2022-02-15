@@ -54,35 +54,35 @@ The stencil operations that can be performed during <a href="/windows/desktop/di
 
 ## -enum-fields
 
-### -field D3D10_STENCIL_OP_KEEP
+### -field D3D10_STENCIL_OP_KEEP:1
 
 Keep the existing stencil data.
 
-### -field D3D10_STENCIL_OP_ZERO
+### -field D3D10_STENCIL_OP_ZERO:2
 
 Set the stencil data to 0.
 
-### -field D3D10_STENCIL_OP_REPLACE
+### -field D3D10_STENCIL_OP_REPLACE:3
 
 Set the stencil data to the reference value set by calling <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-omsetdepthstencilstate">ID3D10Device::OMSetDepthStencilState</a>.
 
-### -field D3D10_STENCIL_OP_INCR_SAT
+### -field D3D10_STENCIL_OP_INCR_SAT:4
 
 Increment the stencil value by 1, and clamp the result.
 
-### -field D3D10_STENCIL_OP_DECR_SAT
+### -field D3D10_STENCIL_OP_DECR_SAT:5
 
 Decrement the stencil value by 1, and clamp the result.
 
-### -field D3D10_STENCIL_OP_INVERT
+### -field D3D10_STENCIL_OP_INVERT:6
 
 Invert the stencil data.
 
-### -field D3D10_STENCIL_OP_INCR
+### -field D3D10_STENCIL_OP_INCR:7
 
 Increment the stencil value by 1, and wrap the result if necessary.
 
-### -field D3D10_STENCIL_OP_DECR
+### -field D3D10_STENCIL_OP_DECR:8
 
 Increment the stencil value by 1, and wrap the result if necessary.
 

@@ -57,7 +57,7 @@ api_name:
 
 Indicates whether <a href="/windows/desktop/api/winuser/nf-winuser-enablemouseinpointer">EnableMouseInPointer</a> is set for the mouse to  act as a pointer input device and send <a href="/previous-versions/windows/desktop/inputmsg/messages">WM_POINTER</a> messages.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Instructs the transport provider to print a summary of its state and any other relevant information to the tracing log.
 
-## -parameters
+
 
 ## -returns
 

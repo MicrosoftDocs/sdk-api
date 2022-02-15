@@ -56,7 +56,7 @@ Event identifier codes describing events to be received or excluded by an event 
 
 ## -enum-fields
 
-### -field OFFLINEFILES_EVENT_CACHEMOVED
+### -field OFFLINEFILES_EVENT_CACHEMOVED:0
 
 This value is reserved for future use.
 

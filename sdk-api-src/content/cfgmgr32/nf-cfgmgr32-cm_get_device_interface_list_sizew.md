@@ -70,7 +70,7 @@ Caller-supplied pointer to a location that receives the required length, in char
 ### -param InterfaceClassGuid [in]
 
 Supplies a GUID that identifies a 
-           <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>.
+           <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a>.
 
 ### -param pDeviceID [in, optional]
 

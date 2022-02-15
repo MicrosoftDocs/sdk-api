@@ -55,7 +55,7 @@ The
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-getcallinfobuffer">ITCallInfo::GetCallInfoBuffer</a> method, called with the CIB_USERUSERINFO member of 
 <a href="/windows/desktop/api/tapi3if/ne-tapi3if-callinfo_buffer">CALLINFO_BUFFER</a>, and subsequently received user-user information can now be written.
 
-## -parameters
+
 
 ## -returns
 

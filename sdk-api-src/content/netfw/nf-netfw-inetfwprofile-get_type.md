@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwProfile.get_Type
 title: INetFwProfile::get_Type (netfw.h)
-description: Speciifes the type of the profile.
+description: Specifies the type of the profile.
 helpviewer_keywords: ["INetFwProfile interface [ICS/ICF]","Type property","INetFwProfile.Type","INetFwProfile.get_Type","INetFwProfile::Type","INetFwProfile::get_Type","Type property [ICS/ICF]","Type property [ICS/ICF]","INetFwProfile interface","get_Type","ics.inetfwprofile_type","netfw/INetFwProfile::Type","netfw/INetFwProfile::get_Type"]
 old-location: ics\inetfwprofile_type.htm
 tech.root: ics
@@ -54,7 +54,7 @@ api_name:
 
 <p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
 
-Speciifes the type of the profile.
+Specifies the type of the profile.
 
 This property is read-only.
 

@@ -51,7 +51,9 @@ api_name:
 ## -description
 
 The <b>IX509ExtensionEnhancedKeyUsage</b> interface can be used to define a collection of <a href="/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) that identify the intended uses of the <a href="/windows/desktop/SecGloss/p-gly">public key</a> contained in the certificate. The <b>EnhancedKeyUsage</b> extension can be used in addition to or in place of the <b>KeyUsage</b> extension. Also, the <b>EnhancedKeyUsage</b> extension and the <b>MSApplicationPolicies</b> extension defined by the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionmsapplicationpolicies">IX509ExtensionMSApplicationPolicies</a> interface are similar. The following syntax shows the <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) structure  of the extension. The extension value is encoded by using <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) and included in the certificate request. 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 ----------------------------------------------------------------------
 -- EnhancedKeyUsage
 -- XCN_OID_ENHANCED_KEY_USAGE (2.5.29.37)
@@ -60,7 +62,9 @@ The <b>IX509ExtensionEnhancedKeyUsage</b> interface can be used to define a coll
 EnhancedKeyUsage ::= SEQUENCE OF UsageIdentifier
 
 UsageIdentifier ::= EncodedObjectID
-</code></pre>You can define your own OIDs or use any of the following EKU OIDs. The list is not complete.<table>
+
+```
+You can define your own OIDs or use any of the following EKU OIDs. The list is not complete.<table>
 <tr>
 <th>Value</th>
 <th>Description</th>
@@ -273,11 +277,7 @@ To add this extension object to a  PKCS #10 request or a CMC request, you must f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509ExtensionEnhancedKeyUsage</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>. <b>IX509ExtensionEnhancedKeyUsage</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IX509ExtensionEnhancedKeyUsage</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>. <b>IX509ExtensionEnhancedKeyUsage</b> also has these types of members:
 
 ## -see-also
 

@@ -54,19 +54,19 @@ Specifies the hardware capabilities of the Tablet PC.
 
 ## -enum-fields
 
-### -field THWC_Integrated
+### -field THWC_Integrated:0x1
 
 The digitizer is integrated with the display.
 
-### -field THWC_CursorMustTouch
+### -field THWC_CursorMustTouch:0x2
 
 The cursor must be in physical contact with the device to report position.
 
-### -field THWC_HardProximity
+### -field THWC_HardProximity:0x4
 
 The device can generate in-air packets when the cursor is in the physical detection range (proximity) of the device.
 
-### -field THWC_CursorsHavePhysicalIds
+### -field THWC_CursorsHavePhysicalIds:0x8
 
 The device can uniquely identify the active cursor.
 

@@ -8,8 +8,8 @@ ms.date: 11/04/2020
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -105,6 +105,6 @@ This API was introduced in DirectML version `1.1.0`.
 
 ## -see-also
 * [DML_FEATURE_LEVEL enumeration](/windows/win32/api/directml/ne-directml-dml_feature_level)
-* [DirectML version history](/windows/win32/direct3d12/dml-version-history)
-* [DirectML feature level history](/windows/win32/direct3d12/dml-feature_level-history)    
-* [Using the DirectML debug layer](/windows/win32/direct3d12/dml-debug-layer)
+* [DirectML version history](/windows/ai/directml/dml-version-history)
+* [DirectML feature level history](/windows/ai/directml/dml-feature_level-history)    
+* [Using the DirectML debug layer](/windows/ai/directml/dml-debug-layer)

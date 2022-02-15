@@ -54,7 +54,7 @@ Invalidates the contents of the system's SID-to-name cache so subsequent request
 <a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-findusersid">IDiskQuotaControl::FindUserSid</a>, and 
 <a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-findusername">IDiskQuotaControl::FindUserName</a>) must obtain user names from the domain controller. As names are obtained, they are cached.
 
-## -parameters
+
 
 ## -returns
 

@@ -58,43 +58,43 @@ To update the property, first call <a href="/windows/desktop/api/shobjidl_core/n
 
 ## -enum-fields
 
-### -field SESF_NONE
+### -field SESF_NONE:0
 
 No state.
 
-### -field SESF_SERVICE_QUOTA_NEARING_LIMIT
+### -field SESF_SERVICE_QUOTA_NEARING_LIMIT:0x1
 
 The user's cloud storage quota is nearing capacity. This is dependent on the user's total quota space.
 
-### -field SESF_SERVICE_QUOTA_EXCEEDED_LIMIT
+### -field SESF_SERVICE_QUOTA_EXCEEDED_LIMIT:0x2
 
 The user's cloud storage quota is filled.
 
-### -field SESF_AUTHENTICATION_ERROR
+### -field SESF_AUTHENTICATION_ERROR:0x4
 
 The user's account credentials are invalid.
 
-### -field SESF_PAUSED_DUE_TO_METERED_NETWORK
+### -field SESF_PAUSED_DUE_TO_METERED_NETWORK:0x8
 
 The sync engine is paused because of metered network settings.
 
-### -field SESF_PAUSED_DUE_TO_DISK_SPACE_FULL
+### -field SESF_PAUSED_DUE_TO_DISK_SPACE_FULL:0x10
 
 The drive that contains the sync engine's content has reached the maximum allowed space.
 
-### -field SESF_PAUSED_DUE_TO_CLIENT_POLICY
+### -field SESF_PAUSED_DUE_TO_CLIENT_POLICY:0x20
 
 The user has exceeded their daily limit of requests or data transfers to the service.
 
-### -field SESF_PAUSED_DUE_TO_SERVICE_POLICY
+### -field SESF_PAUSED_DUE_TO_SERVICE_POLICY:0x40
 
 The service has requested the system to throttle requests.
 
-### -field SESF_SERVICE_UNAVAILABLE
+### -field SESF_SERVICE_UNAVAILABLE:0x80
 
 The service can't be reached at this time.
 
-### -field SESF_PAUSED_DUE_TO_USER_REQUEST
+### -field SESF_PAUSED_DUE_TO_USER_REQUEST:0x100
 
 ### -field SESF_ALL_FLAGS
 

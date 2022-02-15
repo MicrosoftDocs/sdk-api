@@ -54,7 +54,7 @@ Optional flags that control the behavior of <a href="/windows/desktop/api/d3d11/
 
 ## -enum-fields
 
-### -field D3D11_ASYNC_GETDATA_DONOTFLUSH
+### -field D3D11_ASYNC_GETDATA_DONOTFLUSH:0x1
 
 Do not flush the command buffer. This can potentially cause an infinite loop if GetData is continually called until it returns S_OK as there may still be commands in the command buffer that need to be processed in order for GetData to return S_OK. Since the commands in the command buffer are not flushed they will not be processed and therefore GetData will never return S_OK.
 

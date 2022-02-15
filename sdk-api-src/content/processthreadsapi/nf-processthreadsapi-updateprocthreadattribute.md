@@ -198,9 +198,9 @@ The <i>lpValue</i> parameter is a pointer to a <b>DWORD</b> value of <b>PROTECTI
 </dl>
 </td>
 <td width="60%">
-The <i>lpValue</i> parameter is a pointer to a <b>DWORD</b> or <b>DWORD64</b> value that specifies the child process policy. The policy specifies whether to allow a child process to be created.
+The <i>lpValue</i> parameter is a pointer to a <b>DWORD</b> value that specifies the child process policy. The policy specifies whether to allow a child process to be created.
 
-For information on the possible values for the  <b>DWORD</b> or <b>DWORD64</b> to which <i>lpValue</i> points, see Remarks.
+For information on the possible values for the <b>DWORD</b> to which <i>lpValue</i> points, see Remarks.
 
 </td>
 </tr>
@@ -225,6 +225,18 @@ For information about the possible values for the <b>DWORD</b> to which <i>lpVal
 </td>
 <td width="60%">
 The <i>lpValue</i> parameter is a pointer to a list of job handles to be assigned to the child process, in the order specified.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PROC_THREAD_ATTRIBUTE_ENABLE_OPTIONAL_XSTATE_FEATURES"></a><a id="proc_thread_attribute_enable_optional_xstate_features"></a><dl>
+<dt><b>PROC_THREAD_ATTRIBUTE_ENABLE_OPTIONAL_XSTATE_FEATURES</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>lpValue</i> parameter is a pointer to a <b>DWORD64</b> value that specifies the set of optional XState features to enable for the new thread.
+
+This value is not supported until Windows 11 and Windows Server 2022.
 
 </td>
 </tr>
@@ -562,7 +574,7 @@ Restricting certain HSP APIs used to specify security properties of dynamic code
 <dd><b>PROCESS_CREATION_MITIGATION_POLICY2_CET_DYNAMIC_APIS_OUT_OF_PROC_ONLY_ALWAYS_ON </b>     (0x00000001ui64 &lt;&lt; 48)</dd>
 <dd><b>PROCESS_CREATION_MITIGATION_POLICY2_CET_DYNAMIC_APIS_OUT_OF_PROC_ONLY_ALWAYS_OFF </b>    (0x00000002ui64 &lt;&lt; 48)</dd>
 
-The  <b>DWORD</b> or <b>DWORD64</b> pointed to by <i>lpValue</i> can be one or more of the following values when you specify <b>PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY</b> for the <i>Attribute</i> parameter:
+The <b>DWORD</b> pointed to by <i>lpValue</i> can be one or more of the following values when you specify <b>PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY</b> for the <i>Attribute</i> parameter:
 
 <b>PROCESS_CREATION_CHILD_PROCESS_RESTRICTED</b>                                         0x01
 

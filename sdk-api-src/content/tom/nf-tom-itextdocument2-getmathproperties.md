@@ -191,7 +191,7 @@ Display the underscore (_) and caret (^) as themselves.
 </dl>
 </td>
 <td width="60%">
-Style mask for the <b>tomMathDocDiffUpright</b>, <b>tomMathDocDiffItalic</b>, <b>tomMathDocDiffOpenItalic </b>options.
+Style mask for the <b>tomMathDocDiffUpright</b>, <b>tomMathDocDiffItalic</b>, <b>tomMathDocDiffOpenItalic </b> options.
 
 </td>
 </tr>

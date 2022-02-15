@@ -52,7 +52,7 @@ api_name:
 
 Determines whether the image is a vector image.
 
-## -parameters
+
 
 ## -returns
 

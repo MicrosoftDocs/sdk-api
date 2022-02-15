@@ -54,7 +54,7 @@ The <b>WMPBurnFormat</b> enumeration type defines the possible types of CDs for 
 
 ## -enum-fields
 
-### -field wmpbfAudioCD
+### -field wmpbfAudioCD:0
 
 The CD being burned is an audio CD.
 

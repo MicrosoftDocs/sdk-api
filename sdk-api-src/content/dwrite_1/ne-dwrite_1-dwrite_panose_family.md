@@ -54,27 +54,27 @@ The <b>DWRITE_PANOSE_FAMILY</b> enumeration contains values that specify the kin
 
 ## -enum-fields
 
-### -field DWRITE_PANOSE_FAMILY_ANY
+### -field DWRITE_PANOSE_FAMILY_ANY:0
 
 Any typeface classification.
 
-### -field DWRITE_PANOSE_FAMILY_NO_FIT
+### -field DWRITE_PANOSE_FAMILY_NO_FIT:1
 
 No fit typeface classification.
 
-### -field DWRITE_PANOSE_FAMILY_TEXT_DISPLAY
+### -field DWRITE_PANOSE_FAMILY_TEXT_DISPLAY:2
 
 Text display typeface classification.
 
-### -field DWRITE_PANOSE_FAMILY_SCRIPT
+### -field DWRITE_PANOSE_FAMILY_SCRIPT:3
 
 Script (or hand written) typeface classification.
 
-### -field DWRITE_PANOSE_FAMILY_DECORATIVE
+### -field DWRITE_PANOSE_FAMILY_DECORATIVE:4
 
 Decorative typeface classification.
 
-### -field DWRITE_PANOSE_FAMILY_SYMBOL
+### -field DWRITE_PANOSE_FAMILY_SYMBOL:5
 
 Symbol typeface classification.
 

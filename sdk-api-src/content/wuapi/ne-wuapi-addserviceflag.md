@@ -56,15 +56,15 @@ Defines the possible ways in which the <a href="/windows/desktop/api/wuapi/nn-wu
 
 ## -enum-fields
 
-### -field asfAllowPendingRegistration
+### -field asfAllowPendingRegistration:0x1
 
 Allows the update agent to process the service registration at a later time, when it next performs an online scan for updates.
 
-### -field asfAllowOnlineRegistration
+### -field asfAllowOnlineRegistration:0x2
 
 Allows the update agent to process the service registration immediately if network connectivity is available.
 
-### -field asfRegisterServiceWithAU
+### -field asfRegisterServiceWithAU:0x4
 
 Registers the service with Automatic Updates when the service is added.
 

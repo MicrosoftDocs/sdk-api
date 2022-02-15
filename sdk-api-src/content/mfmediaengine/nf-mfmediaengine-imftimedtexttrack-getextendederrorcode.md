@@ -52,7 +52,7 @@ api_name:
 
 Gets the extended error code for the latest error associated with the track.
 
-## -parameters
+
 
 ## -returns
 

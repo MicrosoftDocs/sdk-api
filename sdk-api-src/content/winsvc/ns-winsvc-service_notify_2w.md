@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-Represents service status notification information. It is used by the <a href="/windows/desktop/api/winsvc/nf-winsvc-notifyservicestatuschangea">NotifyServiceStatusChange</a>function.
+Represents service status notification information. It is used by the <a href="/windows/desktop/api/winsvc/nf-winsvc-notifyservicestatuschangea">NotifyServiceStatusChange</a> function.
 
 ## -struct-fields
 
@@ -94,9 +94,13 @@ If this member is valid, the notification callback function must free the string
 
 The callback function is declared as follows:
 
-<pre class="syntax" xml:space="preserve"><code>typedef VOID( CALLBACK * PFN_SC_NOTIFY_CALLBACK ) (
+
+``` syntax
+typedef VOID( CALLBACK * PFN_SC_NOTIFY_CALLBACK ) (
     IN PVOID pParameter 
-);</code></pre>
+);
+```
+
 The callback function receives a pointer to the <b>SERVICE_NOTIFY</b> structure provided by the caller.
 
 

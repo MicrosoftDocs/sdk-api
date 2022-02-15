@@ -53,7 +53,7 @@ api_name:
 
 The <b>Font::GetStyle</b> method gets the style of this font's typeface.
 
-## -parameters
+
 
 ## -returns
 

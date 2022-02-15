@@ -58,7 +58,7 @@ Defines the set of volume shadow copy protection levels.
 
 ## -enum-fields
 
-### -field VSS_PROTECTION_LEVEL_ORIGINAL_VOLUME
+### -field VSS_PROTECTION_LEVEL_ORIGINAL_VOLUME:0
 
 Specifies that I/O to the original volume must be maintained at the expense of shadow copies. This is the default protection level. Shadow copies might be deleted if both of the following conditions occur:
 

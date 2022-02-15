@@ -1,10 +1,11 @@
 ---
 UID: NF:d3d12video.ID3D12VideoEncodeCommandList1.InitializeExtensionCommand
+tech.root: 
 title: ID3D12VideoEncodeCommandList1::InitializeExtensionCommand
-ms.date: 11/4/2019
+ms.date: 07/13/2021
 targetos: Windows
 description: Records a command to initializes or re-initializes a video extension command into a video encode command list.
-tech.root: mf
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -18,8 +19,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 2004 (10.0; Build 19041)
-req.target-min-winversvr: Windows Server, version 2004 (10.0; Build 19041)
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -59,7 +60,7 @@ The size of the *pInitializationParameters* parameter structure, in bytes.
 
 ## -remarks
 
-Errors initializing the extension command are reported via debug layers and the return value of the command list's [Close](nf-d3d12video-id3d12videoencodecommandlist-close.md) method.
+Errors initializing the extension command are reported via debug layers and the return value of the command list's [Close](nf-d3d12video-id3d12videodecodecommandlist-close.md) method.
 
 ## -see-also
 

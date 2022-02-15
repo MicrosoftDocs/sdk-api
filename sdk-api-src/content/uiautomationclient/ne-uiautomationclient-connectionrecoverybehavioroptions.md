@@ -54,11 +54,11 @@ Contains possible values for the <a href="/windows/desktop/api/uiautomationclien
 
 ## -enum-fields
 
-### -field ConnectionRecoveryBehaviorOptions_Disabled
+### -field ConnectionRecoveryBehaviorOptions_Disabled:0
 
 Connection recovery is disabled.
 
-### -field ConnectionRecoveryBehaviorOptions_Enabled
+### -field ConnectionRecoveryBehaviorOptions_Enabled:0x1
 
 Connection recovery is enabled.
 

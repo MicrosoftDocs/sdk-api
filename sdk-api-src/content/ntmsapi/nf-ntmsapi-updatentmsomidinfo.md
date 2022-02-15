@@ -218,12 +218,16 @@ For tape media <i>lpBuffer</i> must point to a buffer that holds the label just 
 
 For media with file systems, <i>lpBuffer</i> must be a pointer to a buffer that contains the following structure: 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 typedef struct {
     WCHAR   FileSystemType[64];
     WCHAR   VolumeName[256];
     DWORD   SerialNumber;
-} NTMS_FILESYSTEM_INFO;</code></pre>
+} NTMS_FILESYSTEM_INFO;
+```
+
 RSM uses this file system info as the OMID. The format utilities (LDM, explorer, format.com, and so on) effectively performs the same functionality as this call. An application that performs its own formatting or formats with a third-party file system type should only need to call 
 <b>UpdateNtmsOmidInfo</b> for file system media.
 

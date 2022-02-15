@@ -52,7 +52,7 @@ api_name:
 
 The <b>Commit</b> method invalidates a Video Present Network (VidPN) on all graphics adapters.
 
-## -parameters
+
 
 ## -returns
 

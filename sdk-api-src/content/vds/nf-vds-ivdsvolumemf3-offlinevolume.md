@@ -55,7 +55,7 @@ api_name:
 
 Takes the volume offline by using the <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_offline">IOCTL_VOLUME_OFFLINE</a> control code.
 
-## -parameters
+
 
 ## -returns
 

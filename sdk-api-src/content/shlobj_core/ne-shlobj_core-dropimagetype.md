@@ -54,11 +54,11 @@ Values used with the <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-dr
 
 ## -enum-fields
 
-### -field DROPIMAGE_INVALID
+### -field DROPIMAGE_INVALID:-1
 
 No drop image preference; use the default image.
 
-### -field DROPIMAGE_NONE
+### -field DROPIMAGE_NONE:0
 
 A red bisected circle such as that found on a "no smoking" sign.
 
@@ -74,14 +74,14 @@ An arrow that indicates a move operation.
 
 An arrow that indicates a link.
 
-### -field DROPIMAGE_LABEL
+### -field DROPIMAGE_LABEL:6
 
 A tag icon that indicates that the metadata will be changed.
 
-### -field DROPIMAGE_WARNING
+### -field DROPIMAGE_WARNING:7
 
 A yellow exclamation mark that indicates that a problem has been encountered in the operation.
 
-### -field DROPIMAGE_NOIMAGE
+### -field DROPIMAGE_NOIMAGE:8
 
 <b>Windows 7 and later</b>. Use no drop image.

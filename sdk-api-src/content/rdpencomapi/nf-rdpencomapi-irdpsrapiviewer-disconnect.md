@@ -54,7 +54,7 @@ api_name:
 
 Initiates a disconnect of the viewer from the sharer.
 
-## -parameters
+
 
 ## -returns
 

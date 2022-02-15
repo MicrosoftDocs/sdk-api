@@ -52,7 +52,7 @@ api_name:
 
 Declares that the transaction in which the object is executing can be committed and that the object should be deactivated on return.
 
-## -parameters
+
 
 ## -returns
 

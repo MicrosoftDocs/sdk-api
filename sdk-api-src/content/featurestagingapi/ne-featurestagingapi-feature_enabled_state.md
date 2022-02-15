@@ -51,14 +51,14 @@ This enumeration is intended for infrastructure use only. Do not use this enumer
 
 ## -enum-fields
 
-### -field FEATURE_ENABLED_STATE_DEFAULT
+### -field FEATURE_ENABLED_STATE_DEFAULT:0
 
 TBD
 
-### -field FEATURE_ENABLED_STATE_DISABLED
+### -field FEATURE_ENABLED_STATE_DISABLED:1
 
 TBD
 
-### -field FEATURE_ENABLED_STATE_ENABLED
+### -field FEATURE_ENABLED_STATE_ENABLED:2
 
 TBD

@@ -54,19 +54,19 @@ Specifies the interaction states used for configuring an <a href="/previous-vers
 
 ## -enum-fields
 
-### -field INTERACTION_ID_NONE
+### -field INTERACTION_ID_NONE:0x00000000
 
 Not used.
 
-### -field INTERACTION_ID_MANIPULATION
+### -field INTERACTION_ID_MANIPULATION:0x00000001
 
 A compound gesture that supports translation, rotation, and scaling (dynamic).
 
-### -field INTERACTION_ID_TAP
+### -field INTERACTION_ID_TAP:0x00000002
 
 A tap gesture (static).
 
-### -field INTERACTION_ID_SECONDARY_TAP
+### -field INTERACTION_ID_SECONDARY_TAP:0x00000003
 
 A right click gesture (static), regardless of input device. Typically used for displaying a context menu.
 
@@ -76,19 +76,19 @@ A right click gesture (static), regardless of input device. Typically used for d
 <li>Touch or pen press and hold</li>
 </ul>
 
-### -field INTERACTION_ID_HOLD
+### -field INTERACTION_ID_HOLD:0x00000004
 
 Press and hold gesture (static).
 
-### -field INTERACTION_ID_DRAG
+### -field INTERACTION_ID_DRAG:0x00000005
 
 Move with mouse or pen (dynamic).
 
-### -field INTERACTION_ID_CROSS_SLIDE
+### -field INTERACTION_ID_CROSS_SLIDE:0x00000006
 
 Select or move through slide or swipe gestures (dynamic).
 
-### -field INTERACTION_ID_MAX
+### -field INTERACTION_ID_MAX:0xffffffff
 
 Maximum number of interactions exceeded.
 

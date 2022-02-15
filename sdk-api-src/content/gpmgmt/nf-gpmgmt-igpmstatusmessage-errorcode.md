@@ -55,7 +55,7 @@ Returns the error that occurred during the GPMC operation. If the operation was 
 
 For example, if GPMC calls <a href="/windows/desktop/api/winbase/nf-winbase-lookupaccountsida">LookupAccountSid</a> while resolving the destination of a security group in a GPO import operation, and <b>LookupAccountSid</b> returns <b>E_ACCESSDENIED</b>, then the error code for the message will be <b>E_ACCESSDENIED</b> and the operation code of the message will be STATUS_ENTRY_DEST_UNRESOLVED.
 
-## -parameters
+
 
 ## -returns
 

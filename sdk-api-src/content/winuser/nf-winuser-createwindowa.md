@@ -247,7 +247,9 @@ For a table of the static control styles you can specify in the <i>dwStyle</i> p
 
 <b>CreateWindow</b> is implemented as a call to the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function, as shown below.
 
-<pre class="syntax" xml:space="preserve"><code>#define CreateWindowA(lpClassName, lpWindowName, dwStyle, x, y, nWidth, nHeight, hWndParent, hMenu, hInstance, lpParam)\
+
+``` syntax
+#define CreateWindowA(lpClassName, lpWindowName, dwStyle, x, y, nWidth, nHeight, hWndParent, hMenu, hInstance, lpParam)\
 CreateWindowExA(0L, lpClassName, lpWindowName, dwStyle, x, y, nWidth, nHeight, hWndParent, hMenu, hInstance, lpParam)
 
 #define CreateWindowW(lpClassName, lpWindowName, dwStyle, x, y, nWidth, nHeight, hWndParent, hMenu, hInstance, lpParam)\
@@ -257,7 +259,9 @@ CreateWindowExW(0L, lpClassName, lpWindowName, dwStyle, x, y, nWidth, nHeight, h
 #define CreateWindow  CreateWindowW
 #else
 #define CreateWindow  CreateWindowA
-#endif</code></pre>
+#endif
+```
+
 
 #### Examples
 

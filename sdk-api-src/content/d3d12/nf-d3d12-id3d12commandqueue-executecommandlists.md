@@ -69,7 +69,7 @@ Applications are encouraged to batch together command list executions to reduce 
 
 ### Runtime validation
 
-Bundles can't be submitted to a command queue directly. If a bundle is passed to this method, the runtime will drop the call. The runtime will also drop the call if the <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close">Close</a> has not been called on any of the command lists.
+Bundles can't be submitted to a command queue directly. If a bundle is passed to this method, the runtime will drop the call. The runtime will also drop the call if the <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close">Close</a> function has not been called on one or more of the command lists.
 
 The runtime will detect if the command allocators associated with the command lists have been reset after <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close">Close</a> was called.  The runtime will drop the call and remove the device in this situation.
 

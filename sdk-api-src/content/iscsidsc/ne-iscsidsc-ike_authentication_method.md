@@ -56,7 +56,7 @@ The <b>IKE_AUTHENTICATION_METHOD</b> enumeration indicates the type of Internet 
 
 ## -enum-fields
 
-### -field IKE_AUTHENTICATION_PRESHARED_KEY_METHOD
+### -field IKE_AUTHENTICATION_PRESHARED_KEY_METHOD:1
 
 The authentication method was preshared.
 

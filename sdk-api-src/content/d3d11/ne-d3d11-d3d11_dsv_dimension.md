@@ -54,31 +54,31 @@ Specifies how to access a resource used in a depth-stencil view.
 
 ## -enum-fields
 
-### -field D3D11_DSV_DIMENSION_UNKNOWN
+### -field D3D11_DSV_DIMENSION_UNKNOWN:0
 
 <i>D3D11_DSV_DIMENSION_UNKNOWN</i> is not a valid value for <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_depth_stencil_view_desc">D3D11_DEPTH_STENCIL_VIEW_DESC</a> and is not used.
 
-### -field D3D11_DSV_DIMENSION_TEXTURE1D
+### -field D3D11_DSV_DIMENSION_TEXTURE1D:1
 
 The resource will be accessed as a 1D texture.
 
-### -field D3D11_DSV_DIMENSION_TEXTURE1DARRAY
+### -field D3D11_DSV_DIMENSION_TEXTURE1DARRAY:2
 
 The resource will be accessed as an array of 1D textures.
 
-### -field D3D11_DSV_DIMENSION_TEXTURE2D
+### -field D3D11_DSV_DIMENSION_TEXTURE2D:3
 
 The resource will be accessed as a 2D texture.
 
-### -field D3D11_DSV_DIMENSION_TEXTURE2DARRAY
+### -field D3D11_DSV_DIMENSION_TEXTURE2DARRAY:4
 
 The resource will be accessed as an array of 2D textures.
 
-### -field D3D11_DSV_DIMENSION_TEXTURE2DMS
+### -field D3D11_DSV_DIMENSION_TEXTURE2DMS:5
 
 The resource will be accessed as a 2D texture with multisampling.
 
-### -field D3D11_DSV_DIMENSION_TEXTURE2DMSARRAY
+### -field D3D11_DSV_DIMENSION_TEXTURE2DMSARRAY:6
 
 The resource will be accessed as an array of 2D textures with multisampling.
 

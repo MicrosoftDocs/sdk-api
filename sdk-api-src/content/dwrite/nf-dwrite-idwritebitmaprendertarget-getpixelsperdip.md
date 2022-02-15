@@ -52,7 +52,7 @@ api_name:
 
  Gets the number of bitmap pixels per DIP.
 
-## -parameters
+
 
 ## -returns
 

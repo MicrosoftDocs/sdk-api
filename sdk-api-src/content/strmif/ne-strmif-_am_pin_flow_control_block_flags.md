@@ -54,7 +54,7 @@ Defines flags that specify how to block data flow from an output pin.
 
 ## -enum-fields
 
-### -field AM_PIN_FLOW_CONTROL_BLOCK
+### -field AM_PIN_FLOW_CONTROL_BLOCK:0x1
 
 Block the data flow.
 

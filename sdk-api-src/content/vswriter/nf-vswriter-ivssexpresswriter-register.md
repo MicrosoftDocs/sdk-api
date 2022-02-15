@@ -52,7 +52,7 @@ api_name:
 
 Causes VSS to store the writer's metadata in the express writer metadata store.
 
-## -parameters
+
 
 ## -returns
 

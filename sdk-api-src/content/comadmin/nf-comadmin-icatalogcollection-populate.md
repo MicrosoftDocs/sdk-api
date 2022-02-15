@@ -52,7 +52,7 @@ api_name:
 
 Populates the collection with data for all items contained in the collection.
 
-## -parameters
+
 
 ## -returns
 

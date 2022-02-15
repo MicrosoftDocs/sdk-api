@@ -52,7 +52,7 @@ api_name:
 
 Removes all contacts that are associated with the viewport. Inertia is started if the viewport supports inertia.
 
-## -parameters
+
 
 ## -returns
 

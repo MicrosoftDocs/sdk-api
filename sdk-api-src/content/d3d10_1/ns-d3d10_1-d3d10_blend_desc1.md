@@ -58,7 +58,7 @@ Describes the blend state for a Direct3D 10.1 device.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
-Determines whether or not to use the <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-blend-state">alpha-to-coverage</a>multisampling technique when setting a render-target pixel.
+Determines whether or not to use the <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-blend-state">alpha-to-coverage</a> multisampling technique when setting a render-target pixel.
 
 ### -field IndependentBlendEnable
 

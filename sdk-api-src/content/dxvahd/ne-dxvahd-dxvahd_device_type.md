@@ -56,19 +56,19 @@ Specifies the type of Microsoft DirectX Video Acceleration High Definition (DXVA
 
 ## -enum-fields
 
-### -field DXVAHD_DEVICE_TYPE_HARDWARE
+### -field DXVAHD_DEVICE_TYPE_HARDWARE:0
 
 Hardware device. Video processing is performed in the GPU by the driver.
 
-### -field DXVAHD_DEVICE_TYPE_SOFTWARE
+### -field DXVAHD_DEVICE_TYPE_SOFTWARE:1
 
 Software device. Video processing is performed in the CPU by a software plug-in.
 
-### -field DXVAHD_DEVICE_TYPE_REFERENCE
+### -field DXVAHD_DEVICE_TYPE_REFERENCE:2
 
 Reference device. Video processing is performed in the CPU by a software plug-in.
 
-### -field DXVAHD_DEVICE_TYPE_OTHER
+### -field DXVAHD_DEVICE_TYPE_OTHER:3
 
 Other. The device is neither a hardware device nor a software plug-in.
 

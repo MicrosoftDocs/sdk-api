@@ -55,7 +55,7 @@ api_name:
 The 
 <b>Disconnect</b> method disconnects this connection.
 
-## -parameters
+
 
 ## -returns
 

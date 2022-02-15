@@ -72,7 +72,7 @@ Pointer to a SURFOBJ structure that describes a transparency mask for the brush.
 
 ### -param pxlo [in]
 
-Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure that defines the interpretration of colors in the pattern. If <i>pxlo</i> is <b>NULL</b>, no translation is needed. A XLATEOBJ_<i>Xxx</i> service routine can be called to translate the colors to device color indices. Vector devices should translate color zero through the XLATEOBJ to get the foreground color for the brush.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure that defines the interpretation of colors in the pattern. If <i>pxlo</i> is <b>NULL</b>, no translation is needed. A XLATEOBJ_<i>Xxx</i> service routine can be called to translate the colors to device color indices. Vector devices should translate color zero through the XLATEOBJ to get the foreground color for the brush.
 
 ### -param iHatch [in]
 

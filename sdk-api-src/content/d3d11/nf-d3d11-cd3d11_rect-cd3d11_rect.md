@@ -53,7 +53,7 @@ api_name:
 
 Instantiates a new instance of an uninitialized <a href="/windows/win32/api/d3d11/ns-d3d11-cd3d11_rect">CD3D11_RECT</a> structure.
 
-## -parameters
+
 
 ## -see-also
 

@@ -54,12 +54,12 @@ The rendering priority affects the extent to which <a href="/windows/desktop/Dir
 
 ## -enum-fields
 
-### -field D2D1_RENDERING_PRIORITY_NORMAL
+### -field D2D1_RENDERING_PRIORITY_NORMAL:0
 
 No change in rendering workload priority.
 
-### -field D2D1_RENDERING_PRIORITY_LOW
+### -field D2D1_RENDERING_PRIORITY_LOW:1
 
 The device and its associated device contexts are given a lower priority than others.
 
-### -field D2D1_RENDERING_PRIORITY_FORCE_DWORD
+### -field D2D1_RENDERING_PRIORITY_FORCE_DWORD:0xffffffff

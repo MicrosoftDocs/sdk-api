@@ -637,15 +637,15 @@ The order of  linked <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter
     member do not reflect the order that IP addresses were added to an adapter and may vary between versions of Windows. 
 
  In addition, the linked <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_unicast_address_lh">IP_ADAPTER_UNICAST_ADDRESS</a> structures pointed to by the <b>FirstUnicastAddress</b> 
-    member and the linked <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_prefix_xp">IP_ADAPTER_PREFIX</a>structures pointed to by the <b>FirstPrefix</b> 
+    member and the linked <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_prefix_xp">IP_ADAPTER_PREFIX</a> structures pointed to by the <b>FirstPrefix</b> 
     member are maintained as separate internal linked lists by the operating system. As a result, the order of linked <b>IP_ADAPTER_UNICAST_ADDRESS</b> structures pointed to by the <b>FirstUnicastAddress</b> 
-    member does not have any relationship with the order of linked <b>IP_ADAPTER_PREFIX</b>structures pointed to by the <b>FirstPrefix</b> 
+    member does not have any relationship with the order of linked <b>IP_ADAPTER_PREFIX</b> structures pointed to by the <b>FirstPrefix</b> 
     member. 
 
-On Windows Vista and later, the linked <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_prefix_xp">IP_ADAPTER_PREFIX</a>structures pointed to by the <b>FirstPrefix</b> 
+On Windows Vista and later, the linked <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_prefix_xp">IP_ADAPTER_PREFIX</a> structures pointed to by the <b>FirstPrefix</b> 
     member include three IP adapter prefixes for each IP address assigned to the adapter. These include the host IP address prefix, the subnet IP address prefix, and the subnet broadcast IP address prefix. In addition, for each adapter there is a multicast address prefix and a broadcast address prefix.
 
-On Windows XP with SP1 and later prior to Windows Vista, the linked <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_prefix_xp">IP_ADAPTER_PREFIX</a>structures pointed to by the <b>FirstPrefix</b> 
+On Windows XP with SP1 and later prior to Windows Vista, the linked <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_prefix_xp">IP_ADAPTER_PREFIX</a> structures pointed to by the <b>FirstPrefix</b> 
     member include only a single IP adapter prefix for each IP address assigned to the adapter. 
 
 In the Windows SDK, the version of the structure for use on Windows Vista and later is  defined as 

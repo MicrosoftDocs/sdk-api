@@ -53,7 +53,7 @@ Defines constants that specify which proxy to use for file transfers. You can de
 
 ## -enum-fields
 
-### -field BG_JOB_PROXY_USAGE_PRECONFIG
+### -field BG_JOB_PROXY_USAGE_PRECONFIG:0
 
 Use the proxy and proxy bypass list settings defined by each user to transfer files. Settings are user-defined from Control Panel, Internet Options, Connections, Local Area Network (LAN) settings (or Dial-up settings, depending on the network connection).
 

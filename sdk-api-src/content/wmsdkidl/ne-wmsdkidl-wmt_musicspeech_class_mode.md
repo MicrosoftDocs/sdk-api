@@ -56,15 +56,15 @@ The <b>WMT_MUSICSPEECH_CLASS_MODE</b> enumeration type defines the types of comp
 
 ## -enum-fields
 
-### -field WMT_MS_CLASS_MUSIC
+### -field WMT_MS_CLASS_MUSIC:0
 
 Not currently supported. Do not use.
 
-### -field WMT_MS_CLASS_SPEECH
+### -field WMT_MS_CLASS_SPEECH:1
 
 Compression optimized for speech.
 
-### -field WMT_MS_CLASS_MIXED
+### -field WMT_MS_CLASS_MIXED:2
 
 Compression optimized for a mixture of music and speech.
 

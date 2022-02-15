@@ -56,15 +56,15 @@ Contains values that indicate the drain state of a Remote Desktop Session Host (
 
 ## -enum-fields
 
-### -field WTSSBX_MACHINE_DRAIN_UNSPEC
+### -field WTSSBX_MACHINE_DRAIN_UNSPEC:0
 
 The drain state of the server is unspecified.
 
-### -field WTSSBX_MACHINE_DRAIN_OFF
+### -field WTSSBX_MACHINE_DRAIN_OFF:0x1
 
 The server is accepting new user sessions.
 
-### -field WTSSBX_MACHINE_DRAIN_ON
+### -field WTSSBX_MACHINE_DRAIN_ON:0x2
 
 The server is not accepting new user sessions.
 

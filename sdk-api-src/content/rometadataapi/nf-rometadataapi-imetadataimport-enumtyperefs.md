@@ -79,7 +79,7 @@ A pointer to the number of TypeRef tokens returned in <i>rgTypeRefs</i>.
 </tr>
 <tr>
 <td><b>S_OK</b></td>
-<td><b>EnumTypeRefs </b>returned successfully.</td>
+<td><b>EnumTypeRefs </b> returned successfully.</td>
 </tr>
 <tr>
 <td><b>S_FALSE</b></td>

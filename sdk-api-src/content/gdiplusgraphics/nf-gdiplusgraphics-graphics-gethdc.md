@@ -54,7 +54,7 @@ api_name:
 The <b>Graphics::GetHDC</b> method gets a handle to the device context associated with this 
 			<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
 
-## -parameters
+
 
 ## -returns
 
@@ -83,7 +83,7 @@ The following function uses GDI+ to draw an ellipse, then uses GDI to draw a rec
 						<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object. The code calls the
 <a href="/previous-versions/ms536067(v=vs.85)">Graphics::DrawEllipse</a> method of that 
 						<b>Graphics</b> object to draw an ellipse. Next, the code calls the <b>Graphics::GetHDC</b> method to obtain a handle to the device context associated with the 
-						<b>Graphics</b> object. The code draws a rectangle by passing the device context handle to the GDI<b>Rectangle</b> function. The code calls the <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-releasehdc">Graphics::ReleaseHDC</a> method of the 
+						<b>Graphics</b> object. The code draws a rectangle by passing the device context handle to the GDI <b>Rectangle</b> function. The code calls the <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-releasehdc">Graphics::ReleaseHDC</a> method of the 
 						<b>Graphics</b> object and then uses the 
 						<b>Graphics</b> object to draw a line.
 

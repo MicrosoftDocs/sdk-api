@@ -58,7 +58,7 @@ Indicates the closed captioning state (on or off).
 
 ## -enum-fields
 
-### -field AM_L21_CCSTATE_Off
+### -field AM_L21_CCSTATE_Off:0
 
 Closed captioning off.
 

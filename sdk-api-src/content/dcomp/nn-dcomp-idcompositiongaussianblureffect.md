@@ -51,7 +51,7 @@ The Gaussian blur effect is used to blur an image by a Gaussian function, typica
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionGaussianBlurEffect</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>.
+The <b>IDCompositionGaussianBlurEffect</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>.
 
 ## -see-also
 

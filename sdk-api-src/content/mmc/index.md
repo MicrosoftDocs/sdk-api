@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Hyper-V WMI Provider. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Hyper-V WMI Provider](../_virtual/index.md)
+- [Microsoft Management Console 2.0](../_mmc/index.md)
 

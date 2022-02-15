@@ -54,15 +54,15 @@ Determines the type and direction of automatic scrolling animation to apply.
 
 ## -enum-fields
 
-### -field DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_STOP
+### -field DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_STOP:0
 
 If content is scrolling, slowly stop along the direction of the motion.
 
-### -field DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_FORWARD
+### -field DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_FORWARD:1
 
 Scroll towards the positive boundary of the content.
 
-### -field DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_REVERSE
+### -field DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_REVERSE:2
 
 Scroll towards the origin of the content.
 

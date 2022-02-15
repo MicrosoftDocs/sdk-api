@@ -52,7 +52,7 @@ api_name:
 
 Frees all nodes in the device list and destroys the device list.
 
-## -parameters
+
 
 ## -returns
 

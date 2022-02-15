@@ -66,8 +66,12 @@ Pointer to a null-terminated Unicode string specifying the account name of the l
 
 
 
-<pre class="syntax" xml:space="preserve"><code>&lt;DomainName&gt;\&lt;AccountName&gt;
-</code></pre>
+
+``` syntax
+&lt;DomainName&gt;\&lt;AccountName&gt;
+
+```
+
 
 ## -remarks
 

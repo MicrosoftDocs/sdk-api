@@ -52,7 +52,7 @@ api_name:
 
 The <b>startBurn</b> method burns the CD.
 
-## -parameters
+
 
 ## -returns
 

@@ -57,11 +57,11 @@ The
 This method is analogous to the TAPI 2.<i>x</i>
 <a href="/windows/desktop/api/tapi/nf-tapi-phoneopen">phoneOpen</a> function; please see the TAPI 2.<i>x</i> documentation for more information.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

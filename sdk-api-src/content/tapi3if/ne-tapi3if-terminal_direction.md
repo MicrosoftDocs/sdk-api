@@ -55,7 +55,7 @@ The
 
 ## -enum-fields
 
-### -field TD_CAPTURE
+### -field TD_CAPTURE:0
 
 The stream is captured on the local computer, and the data is sent out to the remote end of the connection. When applied to a terminal, this means it can originate a stream.
 

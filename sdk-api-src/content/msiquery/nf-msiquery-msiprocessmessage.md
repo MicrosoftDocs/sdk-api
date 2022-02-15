@@ -119,7 +119,7 @@ User request message,<div> </div>[1] is message number in Error table.
 </dl>
 </td>
 <td width="60%">
-Informative message for log,<div> </div>not to be displayed.
+Informative message for log,<div> </div> not to be displayed.
 
 </td>
 </tr>

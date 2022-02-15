@@ -56,67 +56,67 @@ The DVD_PB_STOPPED enumeration value has flags that indicate why DVD playback st
 
 ## -enum-fields
 
-### -field DVD_PB_STOPPED_Other
+### -field DVD_PB_STOPPED_Other:0
 
 Unspecified reason.
 
-### -field DVD_PB_STOPPED_NoBranch
+### -field DVD_PB_STOPPED_NoBranch:1
 
 The current program chain (PGC) completed and the DVD Navigator found no other video or other branching instructions.
 
-### -field DVD_PB_STOPPED_NoFirstPlayDomain
+### -field DVD_PB_STOPPED_NoFirstPlayDomain:2
 
 The disc does not contain an initial startup program.
 
-### -field DVD_PB_STOPPED_StopCommand
+### -field DVD_PB_STOPPED_StopCommand:3
 
 The application stopped playback or a DVD Navigator reached a stop command on the disc.
 
-### -field DVD_PB_STOPPED_Reset
+### -field DVD_PB_STOPPED_Reset:4
 
 The DVD Navigator was reset to the start of the disc.
 
-### -field DVD_PB_STOPPED_DiscEjected
+### -field DVD_PB_STOPPED_DiscEjected:5
 
 The disc was ejected.
 
-### -field DVD_PB_STOPPED_IllegalNavCommand
+### -field DVD_PB_STOPPED_IllegalNavCommand:6
 
 An invalid navigation command prevented playback from continuing.
 
-### -field DVD_PB_STOPPED_PlayPeriodAutoStop
+### -field DVD_PB_STOPPED_PlayPeriodAutoStop:7
 
 Playback reached the end time that was specified by the application.
 
-### -field DVD_PB_STOPPED_PlayChapterAutoStop
+### -field DVD_PB_STOPPED_PlayChapterAutoStop:8
 
 Playback reached the end of the chapter.
 
-### -field DVD_PB_STOPPED_ParentalFailure
+### -field DVD_PB_STOPPED_ParentalFailure:9
 
 Playback was stopped because of the parental level.
 
-### -field DVD_PB_STOPPED_RegionFailure
+### -field DVD_PB_STOPPED_RegionFailure:10
 
 Playback was stopped because the region did not match.
 
-### -field DVD_PB_STOPPED_MacrovisionFailure
+### -field DVD_PB_STOPPED_MacrovisionFailure:11
 
 Playback was stopped because of analog copy protection.
 
-### -field DVD_PB_STOPPED_DiscReadError
+### -field DVD_PB_STOPPED_DiscReadError:12
 
 An error occurred while reading the disc.
 
-### -field DVD_PB_STOPPED_CopyProtectFailure
+### -field DVD_PB_STOPPED_CopyProtectFailure:13
 
 Playback was stopped because of copy protection.
 
-### -field DVD_PB_STOPPED_CopyProtectOutputFailure
+### -field DVD_PB_STOPPED_CopyProtectOutputFailure:14
 
 The disc cannot be played because the video display does not meet the copy protection requirements.
 
-### -field DVD_PB_STOPPED_CopyProtectOutputNotSupported
+### -field DVD_PB_STOPPED_CopyProtectOutputNotSupported:15 
 
 The disc cannot be played because the driver does not support checking the video display.
 

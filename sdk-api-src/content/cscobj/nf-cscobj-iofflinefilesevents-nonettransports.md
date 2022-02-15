@@ -53,7 +53,7 @@ api_name:
 
 Reports that the Offline Files feature has detected that no network transports are available. This is most often sent when a client computer disconnects from a network.
 
-## -parameters
+
 
 ## -returns
 

@@ -56,7 +56,7 @@ Specifies the frequency of a TV tuner (cable or antenna).
 
 ## -enum-fields
 
-### -field TunerInputCable
+### -field TunerInputCable:0
 
 Indicates cable frequency.
 

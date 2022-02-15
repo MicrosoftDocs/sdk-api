@@ -56,23 +56,23 @@ Flags that defines how classification properties associated with a file are retr
 
 ## -enum-fields
 
-### -field FsrmGetFilePropertyOptions_None
+### -field FsrmGetFilePropertyOptions_None:0
 
 Retrieve the most up-to-date classification properties. Using this value may require more time than the 
       <b>FsrmGetFilePropertyOptions_NoRuleEvaluation</b> value.
 
-### -field FsrmGetFilePropertyOptions_NoRuleEvaluation
+### -field FsrmGetFilePropertyOptions_NoRuleEvaluation:0x1
 
 Retrieve classification properties from cache or storage without using any rule evaluation.
 
-### -field FsrmGetFilePropertyOptions_Persistent
+### -field FsrmGetFilePropertyOptions_Persistent:0x2
 
 After retrieving the classification properties (and possibly reclassifying the file in the process), store 
        the classification properties with the file.
 
 <b>Windows Server 2008 R2:  </b>This enumeration value is not supported before Windows Server 2012.
 
-### -field FsrmGetFilePropertyOptions_FailOnPersistErrors
+### -field FsrmGetFilePropertyOptions_FailOnPersistErrors:0x4
 
 If the <b>FsrmGetFilePropertyOptions_Persistent</b> flag is set but the properties were 
        unable to be stored with the file, return a failure for the operation. If this flag is clear the operation will 
@@ -80,7 +80,7 @@ If the <b>FsrmGetFilePropertyOptions_Persistent</b> flag is set but the properti
 
 <b>Windows Server 2008 R2:  </b>This enumeration value is not supported before Windows Server 2012.
 
-### -field FsrmGetFilePropertyOptions_SkipOrphaned
+### -field FsrmGetFilePropertyOptions_SkipOrphaned:0x8
 
 If the <b>FsrmGetFilePropertyOptions_Persistent</b> flag is set, skip any properties 
        stored with the file that are not also defined for the machine.

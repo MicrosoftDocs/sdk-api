@@ -52,7 +52,7 @@ api_name:
 
 Called when the transform chain in the <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a> is built or modified.
 
-## -parameters
+
 
 ## -returns
 

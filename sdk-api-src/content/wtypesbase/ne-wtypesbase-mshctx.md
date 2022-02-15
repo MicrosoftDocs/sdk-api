@@ -56,23 +56,23 @@ Specifies the destination context, which is the process in which the unmarshalin
 
 ## -enum-fields
 
-### -field MSHCTX_LOCAL
+### -field MSHCTX_LOCAL:0
 
 The unmarshaling process is local and has shared memory access with the marshaling process.
 
-### -field MSHCTX_NOSHAREDMEM
+### -field MSHCTX_NOSHAREDMEM:1
 
 The unmarshaling process does not have shared memory access with the marshaling process.
 
-### -field MSHCTX_DIFFERENTMACHINE
+### -field MSHCTX_DIFFERENTMACHINE:2
 
 The unmarshaling process is on a different computer. The marshaling code cannot assume that a particular piece of application code is installed on that computer.
 
-### -field MSHCTX_INPROC
+### -field MSHCTX_INPROC:3
 
 The unmarshaling will be done in another apartment in the same process.
 
-### -field MSHCTX_CROSSCTX
+### -field MSHCTX_CROSSCTX:4
 
 Create a new context in the current apartment.
 

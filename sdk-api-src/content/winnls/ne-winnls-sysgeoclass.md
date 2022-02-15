@@ -54,15 +54,15 @@ Specifies the geographical location class.
 
 ## -enum-fields
 
-### -field GEOCLASS_NATION
+### -field GEOCLASS_NATION:16
 
 Class for nation geographical location identifiers.
 
-### -field GEOCLASS_REGION
+### -field GEOCLASS_REGION:14
 
 Class for region geographical location identifiers.
 
-### -field GEOCLASS_ALL
+### -field GEOCLASS_ALL:0
 
 <b>Starting with Windows 8:</b> Class for all geographical location identifiers.
 

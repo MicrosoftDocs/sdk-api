@@ -57,15 +57,15 @@ The
 
 ## -enum-fields
 
-### -field TMGR_TD_CAPTURE
+### -field TMGR_TD_CAPTURE:1
 
 The terminal can originate a media stream.
 
-### -field TMGR_TD_RENDER
+### -field TMGR_TD_RENDER:2
 
 The terminal can render a media stream.
 
-### -field TMGR_TD_BOTH
+### -field TMGR_TD_BOTH:3
 
 The terminal can handle both directions of a media stream.
 

@@ -56,7 +56,7 @@ Describes the strategy that the <a href="/windows/desktop/DirectShow/overlay-mix
 
 ## -enum-fields
 
-### -field DECIMATION_LEGACY
+### -field DECIMATION_LEGACY:0
 
 Decimate the video by taking the following steps, in the order listed, until one of them succeeds.
 

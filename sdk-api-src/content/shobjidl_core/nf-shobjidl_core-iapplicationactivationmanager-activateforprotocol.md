@@ -64,11 +64,11 @@ A pointer to an array of a single Shell item. The first item in the array is con
 
 ### -param processId [out]
 
-A pointer to a value that, when this method returns successfully, receives the process ID of the app instance that fulfils this contract.
+A pointer to a value that, when this method returns successfully, receives the process ID of the app instance that fulfills this contract.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

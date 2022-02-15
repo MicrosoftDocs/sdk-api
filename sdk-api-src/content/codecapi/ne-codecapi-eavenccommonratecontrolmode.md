@@ -54,35 +54,35 @@ Specifies the rate control mode for an encoder. This enumeration is used with th
 
 ## -enum-fields
 
-### -field eAVEncCommonRateControlMode_CBR
+### -field eAVEncCommonRateControlMode_CBR:0
 
 Constant bit rate (CBR) encoding.
 
-### -field eAVEncCommonRateControlMode_PeakConstrainedVBR
+### -field eAVEncCommonRateControlMode_PeakConstrainedVBR:1
 
 Constrained variable bit rate (VBR) encoding.
 
-### -field eAVEncCommonRateControlMode_UnconstrainedVBR
+### -field eAVEncCommonRateControlMode_UnconstrainedVBR:2
 
 Unconstrained VBR encoding.
 
-### -field eAVEncCommonRateControlMode_Quality
+### -field eAVEncCommonRateControlMode_Quality:3
 
 Quality-based VBR encoding. The encoder selects the bit rate to match a specified quality level. To specify the quality level, set the <a href="/windows/desktop/DirectShow/avenccommonquality-property">AVEncCommonQuality</a> property.
 
-### -field eAVEncCommonRateControlMode_LowDelayVBR
+### -field eAVEncCommonRateControlMode_LowDelayVBR:4
 
 Low delay VBR encoding. H.264 extension.
 
 Requires Windows 8.
 
-### -field eAVEncCommonRateControlMode_GlobalVBR
+### -field eAVEncCommonRateControlMode_GlobalVBR:5
 
 Global VBR encoding. H.264 extension.
 
 Requires Windows 8.
 
-### -field eAVEncCommonRateControlMode_GlobalLowDelayVBR
+### -field eAVEncCommonRateControlMode_GlobalLowDelayVBR:6
 
 Global low delay VBR encoding. H.264 extension.
 

@@ -104,4 +104,4 @@ Creates a <a href="/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradi
 </tr>
 </table>
 
-## -parameters
+

@@ -56,7 +56,7 @@ Provides the list of possible state codes of the session invitation.
 
 ## -enum-fields
 
-### -field RSS_UNKNOWN
+### -field RSS_UNKNOWN:0
 
 Unknown response.
 

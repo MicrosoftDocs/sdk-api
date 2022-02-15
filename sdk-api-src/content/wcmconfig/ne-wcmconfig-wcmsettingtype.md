@@ -56,15 +56,15 @@ Describes setting types that are returned from the <a href="/previous-versions/w
 
 ## -enum-fields
 
-### -field settingTypeScalar
+### -field settingTypeScalar:1
 
 For items of this type, you can call the <a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getdatatype">ISettingsItem::GetDataType</a>, <a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getvalue">ISettingsItem::GetValue</a>, <a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getvalueraw">ISettingsItem::GetValueRaw</a>, <a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getrestriction">ISettingsItem::GetRestriction</a>, <a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getrestrictionfacets">ISettingsItem::GetRestrictionFacets</a>, <a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-setvalue">ISettingsItem::SetValue</a>, and <a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-setvalueraw">ISettingsItem::SetValueRaw</a> methods.
 
-### -field settingTypeComplex
+### -field settingTypeComplex:2
 
 Items of this type may have children. You may call the <a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-children">ISettingsItem::Children</a>, <a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getchild">ISettingsItem::GetChild</a>, or <a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-haschild">ISettingsItem::HasChild</a> methods on this setting type.
 
-### -field settingTypeList
+### -field settingTypeList:3
 
 Items of this type may have children. You may call the <a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-children">ISettingsItem::Children</a>, <a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getchild">ISettingsItem::GetChild</a>, or <a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-haschild">ISettingsItem::HasChild</a> methods on this setting type. You can also call the <a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-createlistelement">ISettingsItem::CreateListElement</a> and <a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-removelistelement">ISettingsItem::RemoveListElement</a> methods  on children of items of this type.
 

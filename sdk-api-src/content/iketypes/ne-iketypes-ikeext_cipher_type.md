@@ -56,7 +56,7 @@ The <b>IKEEXT_CIPHER_TYPE</b> enumerated type specifies the type of encryption a
 
 ## -enum-fields
 
-### -field IKEEXT_CIPHER_DES
+### -field IKEEXT_CIPHER_DES:0
 
 Specifies DES encryption.
 

@@ -55,10 +55,7 @@ Represents a fence. This interface extends <a href="/windows/win32/api/d3d12/nn-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Fence1</b> interface inherits from <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a>. <b>ID3D12Fence1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID3D12Fence1</b> interface inherits from <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a>. <b>ID3D12Fence1</b> also has these types of members:
 
 ## -see-also
 

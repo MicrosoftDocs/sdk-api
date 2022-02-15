@@ -51,9 +51,9 @@ api_name:
 ## -description
 
 Determines whether the download queue is empty. Note that the queue does not    
-    include requests that are already being downloaded. Calling <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload">BeginDownload</a>clears the queue.
+    include requests that are already being downloaded. Calling <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload">BeginDownload</a> clears the queue.
 
-## -parameters
+
 
 ## -returns
 

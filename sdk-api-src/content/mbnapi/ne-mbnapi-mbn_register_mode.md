@@ -57,7 +57,7 @@ The <b>MBN_REGISTER_MODE</b> enumerated type indicates the network selection mod
 
 ## -enum-fields
 
-### -field MBN_REGISTER_MODE_NONE
+### -field MBN_REGISTER_MODE_NONE:0
 
 No network selection mode is defined.
 

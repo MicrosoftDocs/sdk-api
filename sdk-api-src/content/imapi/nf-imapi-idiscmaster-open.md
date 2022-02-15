@@ -52,7 +52,7 @@ api_name:
 
 Opens an upper-level IMAPI object for access by a client application.
 
-## -parameters
+
 
 ## -returns
 

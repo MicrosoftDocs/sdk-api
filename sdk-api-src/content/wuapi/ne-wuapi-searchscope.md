@@ -56,27 +56,27 @@ Defines the variety of updates that should be returned by the search: per-machin
 
 ## -enum-fields
 
-### -field searchScopeDefault
+### -field searchScopeDefault:0
 
 Search by using the default scope (the scope that Automatic Updates would use when searching for updates). This is currently equivalent to search ScopeMachineOnly.
 
-### -field searchScopeMachineOnly
+### -field searchScopeMachineOnly:1
 
 Search only for per-machine updates; exclude all per-user updates.
 
-### -field searchScopeCurrentUserOnly
+### -field searchScopeCurrentUserOnly:2
 
 Search only for per-user updates applicable to the calling user – the user who owns the process which is making the Windows Update Agent (WUA) API call.
 
-### -field searchScopeMachineAndCurrentUser
+### -field searchScopeMachineAndCurrentUser:3
 
 [Not currently supported.] Search for per-machine updates and for per-user updates applicable to the current user.
 
-### -field searchScopeMachineAndAllUsers
+### -field searchScopeMachineAndAllUsers:4
 
 [Not currently supported.] Search  for per-machine updates and for per-user updates applicable to any known user accounts on the computer.
 
-### -field searchScopeAllUsers
+### -field searchScopeAllUsers:5
 
 [Not currently supported.] Search only for per-user updates applicable to any known user accounts on the computer.
 

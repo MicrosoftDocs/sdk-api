@@ -55,12 +55,12 @@ The turbulence noise mode for the <a href="/windows/desktop/Direct2D/turbulence"
 
 ## -enum-fields
 
-### -field D2D1_TURBULENCE_NOISE_FRACTAL_SUM
+### -field D2D1_TURBULENCE_NOISE_FRACTAL_SUM:0
 
 Computes a sum of the octaves, shifting the output range from [-1, 1], to [0, 1].
 
-### -field D2D1_TURBULENCE_NOISE_TURBULENCE
+### -field D2D1_TURBULENCE_NOISE_TURBULENCE:1
 
 Computes a sum of the absolute value of each octave.
 
-### -field D2D1_TURBULENCE_NOISE_FORCE_DWORD
+### -field D2D1_TURBULENCE_NOISE_FORCE_DWORD:0xffffffff

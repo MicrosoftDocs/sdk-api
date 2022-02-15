@@ -52,7 +52,7 @@ api_name:
 
 Starts a transmission on a namespace.
 
-## -parameters
+
 
 ## -returns
 

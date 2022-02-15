@@ -56,7 +56,7 @@ Gets a list of custom rates that a Microsoft DirectX Video Acceleration High Def
 
 ### -param pVPGuid [in]
 
-A GUID that identifies the video processor to query. This GUID must equal the valud of the <b>VPGuid</b> member from one of the <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpcaps">DXVAHD_VPCAPS</a> structures retrieved by the <a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorcaps">IDXVAHD_Device::GetVideoProcessorCaps</a> method.
+A GUID that identifies the video processor to query. This GUID must equal the value of the <b>VPGuid</b> member from one of the <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpcaps">DXVAHD_VPCAPS</a> structures retrieved by the <a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorcaps">IDXVAHD_Device::GetVideoProcessorCaps</a> method.
 
 ### -param Count [in]
 
@@ -68,7 +68,7 @@ A pointer to an array of <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_c
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

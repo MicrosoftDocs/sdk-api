@@ -52,7 +52,7 @@ api_name:
 
  Determines whether the font is a symbol font.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Determines whether the last message read from the current thread's queue originated from a <a href="/windows/desktop/WinProg64/running-32-bit-applications">WOW64</a> process.
 
-## -parameters
+
 
 ## -returns
 

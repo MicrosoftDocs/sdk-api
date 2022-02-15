@@ -174,7 +174,7 @@ A quota was exceeded.
 </dl>
 </td>
 <td width="60%">
-Insuffiient memory to complete the operation.
+Insufficient memory to complete the operation.
 
 </td>
 </tr>

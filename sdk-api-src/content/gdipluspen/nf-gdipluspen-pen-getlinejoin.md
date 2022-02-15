@@ -54,7 +54,7 @@ api_name:
 The <b>Pen::GetLineJoin</b> method gets the line join style currently set for this 
 			<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
 
-## -parameters
+
 
 ## -returns
 

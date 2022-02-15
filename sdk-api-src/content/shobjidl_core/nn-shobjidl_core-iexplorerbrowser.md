@@ -52,16 +52,13 @@ api_name:
 
 <b>IExplorerBrowser</b> is a browser object that can be either navigated or that can host a view of a data object. As a full-featured browser object, it also supports an automatic travel log.
 
-The Shell provides a default implementation of <b>IExplorerBrowser</b> as CLSID_ExplorerBrowser. Typically, a developer does not need to provide a custom implemention of this interface.
+The Shell provides a default implementation of <b>IExplorerBrowser</b> as CLSID_ExplorerBrowser. Typically, a developer does not need to provide a custom implementation of this interface.
 
 The Windows Software Development Kit (SDK) provides full samples that demonstrate the use of and interaction with <b>IExplorerBrowser</b>. Download the <a href="/previous-versions/windows/desktop/legacy/dd940358(v=vs.85)">Explorer Browser Search Sample</a> and the <a href="/previous-versions/windows/desktop/legacy/dd940357(v=vs.85)">Explorer Browser Custom Contents Sample</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExplorerBrowser</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExplorerBrowser</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IExplorerBrowser</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExplorerBrowser</b> also has these types of members:
 
 ## -remarks
 

@@ -54,10 +54,7 @@ An object that encapsulates a set of fonts, such as the set of fonts installed o
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontCollection1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection">IDWriteFontCollection</a>. <b>IDWriteFontCollection1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteFontCollection1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection">IDWriteFontCollection</a>. <b>IDWriteFontCollection1</b> also has these types of members:
 
 ## -see-also
 

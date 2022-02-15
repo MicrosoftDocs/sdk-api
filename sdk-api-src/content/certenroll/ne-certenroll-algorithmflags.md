@@ -54,11 +54,11 @@ The <b>AlgorithmFlags</b> enumeration type contains flags that can be used to re
 
 ## -enum-fields
 
-### -field AlgorithmFlagsNone
+### -field AlgorithmFlagsNone:0
 
 No flags are specified.
 
-### -field AlgorithmFlagsWrap
+### -field AlgorithmFlagsWrap:0x1
 
 The algorithm is used for key wrapping. For more information, see <a href="/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromalgorithmname">InitializeFromAlgorithmName</a>.
 

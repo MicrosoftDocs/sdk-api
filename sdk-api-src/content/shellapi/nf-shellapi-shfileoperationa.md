@@ -248,7 +248,7 @@ The HTML file must have a .htm or .html extension. You create the connection to 
 File connection is enabled by default. It can be disabled by adding a <b>REG_DWORD</b> entry, NoFileFolderConnection, as shown here:
 
 
-<pre xml:space="preserve"><b>HKEY_CURRENT_USER</b>
+<pre><b>HKEY_CURRENT_USER</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Windows</b>

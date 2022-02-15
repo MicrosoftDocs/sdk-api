@@ -52,7 +52,7 @@ api_name:
 
 Get the total size of the font face in bytes.
 
-## -parameters
+
 
 ## -returns
 

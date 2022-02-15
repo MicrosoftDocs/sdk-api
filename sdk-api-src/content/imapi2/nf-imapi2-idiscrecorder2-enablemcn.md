@@ -52,7 +52,7 @@ api_name:
 
 Enables Media Change Notification (MCN) for the device.
 
-## -parameters
+
 
 ## -returns
 

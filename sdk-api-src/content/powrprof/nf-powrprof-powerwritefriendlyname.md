@@ -55,7 +55,7 @@ Sets the friendly name for the specified power setting, subgroup, or scheme. If 
     <i>SubGroupOfPowerSettingsGuid</i> and <i>PowerSettingGuid</i> parameters 
     are <b>NULL</b>, the friendly name of the power scheme will be set. If the 
     <i>SchemeGuid</i> and <i>SubGroupOfPowerSettingsGuid</i> parameters are not 
-    <b>NULL</b>and  the <i>PowerSettingGuid</i> parameter is 
+   <b>NULL</b> and  the <i>PowerSettingGuid</i> parameter is 
     <b>NULL</b>, the friendly name of the subgroup will be set. If the 
     <i>SchemeGuid</i>, <i>SubGroupOfPowerSettingsGuid</i>, and 
     <i>PowerSettingGuid</i> parameters are not <b>NULL</b>, the friendly name of 

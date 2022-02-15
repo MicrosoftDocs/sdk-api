@@ -56,11 +56,11 @@ The <b>ISCSI_DIGEST_TYPES</b> enumeration indicates the digest type.
 
 ## -enum-fields
 
-### -field ISCSI_DIGEST_TYPE_NONE
+### -field ISCSI_DIGEST_TYPE_NONE:0
 
 No digest is in use for guaranteeing data integrity.
 
-### -field ISCSI_DIGEST_TYPE_CRC32C
+### -field ISCSI_DIGEST_TYPE_CRC32C:1
 
 The digest for guaranteeing data integrity uses a 32-bit cyclic redundancy check.
 

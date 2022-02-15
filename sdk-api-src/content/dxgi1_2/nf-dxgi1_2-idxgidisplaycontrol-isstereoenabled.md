@@ -53,7 +53,7 @@ api_name:
 
 Retrieves a Boolean value that indicates whether the operating system's stereoscopic 3D display behavior is enabled.
 
-## -parameters
+
 
 ## -returns
 

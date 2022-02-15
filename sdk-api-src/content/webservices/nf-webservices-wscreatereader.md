@@ -83,7 +83,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 
 ## -remarks
 
-Use <a href="/windows/desktop/api/webservices/nf-webservices-wssetinput">WsSetInput</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wssetinputtobuffer">WsSetInputToBuffer</a>functions to choose the encoding for the XML reader and to indicate the source of the input.
+Use <a href="/windows/desktop/api/webservices/nf-webservices-wssetinput">WsSetInput</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wssetinputtobuffer">WsSetInputToBuffer</a> functions to choose the encoding for the XML reader and to indicate the source of the input.
       
 
 If <a href="/windows/desktop/api/webservices/nc-webservices-ws_read_callback">WS_READ_CALLBACK</a> is specified in the <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_input">WS_XML_READER_INPUT</a> structure passed to the <a href="/windows/desktop/api/webservices/nf-webservices-wssetinput">WsSetInput</a> function, the XML reader reads

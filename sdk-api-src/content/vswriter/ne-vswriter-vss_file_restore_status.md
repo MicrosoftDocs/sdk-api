@@ -58,7 +58,7 @@ The <b>VSS_FILE_RESTORE_STATUS</b> enumeration
 
 ## -enum-fields
 
-### -field VSS_RS_UNDEFINED
+### -field VSS_RS_UNDEFINED:0
 
 The restore state is undefined. 
       

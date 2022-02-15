@@ -54,7 +54,7 @@ The <b>UICloseReasonType</b> enumeration type specifies the reason that a user-i
 
 ## -enum-fields
 
-### -field NotReady
+### -field NotReady:0
 
 Not ready.
 

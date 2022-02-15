@@ -66,7 +66,7 @@ A FOURCC code, D3DFORMAT value, or audio format type.
 
 Media formats are often identified by a FOURCC code (such as 'AYUV'), <b>D3DFORMAT</b> value (such as D3DFMT_X8R8G8B8), or audio format type (such as WAVE_FORMAT_PCM). The <b>DEFINE_MEDIATYPE_GUID</b> macro defines a new GUID constant from one of these values. The resulting GUID can be used as a media subtype.
 
-This macro invokes the <b>DEFINE_GUID</b> macro. The resuling GUID constant is declared <code>extern</code>, so the declaration must have global scope.
+This macro invokes the <b>DEFINE_GUID</b> macro. The resulting GUID constant is declared <code>extern</code>, so the declaration must have global scope.
 
 
 #### Examples

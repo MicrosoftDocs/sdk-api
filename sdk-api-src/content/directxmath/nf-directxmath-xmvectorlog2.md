@@ -73,7 +73,9 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 <b>XMVectorLog2</b> is implemented like this:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 XMVECTOR Result;
 
 Result.x = log2f(V.x);
@@ -82,7 +84,9 @@ Result.z = log2f(V.z);
 Result.w = log2f(V.w);
 
 return Result;
-</code></pre>
+
+```
+
 
 ## -see-also
 

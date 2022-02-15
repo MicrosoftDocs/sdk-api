@@ -53,7 +53,7 @@ api_name:
 
 The <b>MetafileHeader::IsWmf</b> method determines whether the associated metafile is in the WMF format.
 
-## -parameters
+
 
 ## -returns
 

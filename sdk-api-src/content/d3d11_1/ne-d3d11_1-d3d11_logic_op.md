@@ -54,7 +54,7 @@ api_name:
 
 ## -enum-fields
 
-### -field D3D11_LOGIC_OP_CLEAR
+### -field D3D11_LOGIC_OP_CLEAR:0
 
 Clears the render target.
 

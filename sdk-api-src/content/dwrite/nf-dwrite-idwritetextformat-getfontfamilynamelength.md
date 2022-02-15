@@ -52,7 +52,7 @@ api_name:
 
  Gets the length of the font family name.
 
-## -parameters
+
 
 ## -returns
 

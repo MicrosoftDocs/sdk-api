@@ -54,15 +54,15 @@ Specifies whether a Dolby Digital audio stream is encoded in Dolby Digital Surro
 
 ## -enum-fields
 
-### -field eAVEncDDSurroundExMode_NotIndicated
+### -field eAVEncDDSurroundExMode_NotIndicated:0
 
 The Surround EX mode is not indicated.
 
-### -field eAVEncDDSurroundExMode_No
+### -field eAVEncDDSurroundExMode_No:1
 
 The audio is not encoded in Surround EX.
 
-### -field eAVEncDDSurroundExMode_Yes
+### -field eAVEncDDSurroundExMode_Yes:2
 
 The audio is encoded in Surround EX.
 

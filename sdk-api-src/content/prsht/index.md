@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Windows Controls. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [Microsoft Management Console 2.0](../_mmc/index.md)
 - [Windows Controls](../_controls/index.md)
 

@@ -56,7 +56,7 @@ The <b>RpcLocalAddressFormat</b> enumeration specifies the possible local IP add
 
 ## -enum-fields
 
-### -field rlafInvalid
+### -field rlafInvalid:0
 
 The address format is not supported.
 

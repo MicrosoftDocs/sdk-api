@@ -56,11 +56,11 @@ Defines results for animation updates.
 
 ## -enum-fields
 
-### -field UI_ANIMATION_UPDATE_NO_CHANGE
+### -field UI_ANIMATION_UPDATE_NO_CHANGE:0
 
 No animation variables have changed.
 
-### -field UI_ANIMATION_UPDATE_VARIABLES_CHANGED
+### -field UI_ANIMATION_UPDATE_VARIABLES_CHANGED:1
 
 One or more animation variables has changed.
 

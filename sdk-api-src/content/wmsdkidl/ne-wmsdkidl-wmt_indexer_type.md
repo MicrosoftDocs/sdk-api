@@ -56,7 +56,7 @@ The <b>WMT_INDEXER_TYPE</b> enumeration type defines the types of indexing suppo
 
 ## -enum-fields
 
-### -field WMT_IT_PRESENTATION_TIME
+### -field WMT_IT_PRESENTATION_TIME:0
 
 The indexer will construct an index using presentation times as indexes.
 

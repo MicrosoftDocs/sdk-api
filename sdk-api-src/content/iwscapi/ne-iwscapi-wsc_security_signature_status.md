@@ -56,11 +56,11 @@ Reports the current version  status of the security product to Windows Security 
 
 ## -enum-fields
 
-### -field WSC_SECURITY_PRODUCT_OUT_OF_DATE
+### -field WSC_SECURITY_PRODUCT_OUT_OF_DATE:0
 
 The security software reports that it is not the most recent version.
 
-### -field WSC_SECURITY_PRODUCT_UP_TO_DATE
+### -field WSC_SECURITY_PRODUCT_UP_TO_DATE:1
 
 The security software reports that it is the most recent version.
 

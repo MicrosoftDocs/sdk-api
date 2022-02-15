@@ -51,7 +51,9 @@ api_name:
 ## -description
 
 A collection of  <b>IAlternativeName</b> interfaces is used by an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionalternativenames">IX509ExtensionAlternativeNames</a> object to represent an instance of an <b>AlternativeNames</b> extension. The collection is represented by the <a href="/windows/desktop/api/certenroll/nn-certenroll-ialternativenames">IAlternativeNames</a> interface. The following syntax shows the <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) structure  of the extension.
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 ----------------------------------------------------------------------
 -- AlternativeNames 
 -- XCN_OID_SUBJECT_ALT_NAME2 (2.5.29.17)
@@ -78,7 +80,9 @@ OtherName ::= SEQUENCE
    type                    EncodedObjectID,
    value                   [0] EXPLICIT NOCOPYANY 
 }
-</code></pre> You can initialize an <b>IAlternativeName</b> object from an <a href="/windows/desktop/api/certenroll/ne-certenroll-alternativenametype">AlternativeNameType</a> enumeration. The following types are available, but they are supported by different initialization methods as indicated.<table>
+
+```
+ You can initialize an <b>IAlternativeName</b> object from an <a href="/windows/desktop/api/certenroll/ne-certenroll-alternativenametype">AlternativeNameType</a> enumeration. The following types are available, but they are supported by different initialization methods as indicated.<table>
 <tr>
 <th>Value</th>
 <th>Description</th>
@@ -151,11 +155,7 @@ OtherName ::= SEQUENCE
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAlternativeName</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAlternativeName</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IAlternativeName</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAlternativeName</b> also has these types of members:
 
 ## -see-also
 

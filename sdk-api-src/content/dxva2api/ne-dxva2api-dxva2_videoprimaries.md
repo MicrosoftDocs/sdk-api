@@ -56,43 +56,43 @@ Specifies the color primaries of a video source. These flags are used in the <a 
 
 ## -enum-fields
 
-### -field DXVA2_VideoPrimariesMask
+### -field DXVA2_VideoPrimariesMask:0x1f
 
 Bitmask to validate flag values. This value is not a valid flag.
 
-### -field DXVA2_VideoPrimaries_Unknown
+### -field DXVA2_VideoPrimaries_Unknown:0
 
 Unknown. Treat as <b>DXVA2_VideoPrimaries_BT709</b>.
 
-### -field DXVA2_VideoPrimaries_reserved
+### -field DXVA2_VideoPrimaries_reserved:1
 
 Reserved. Do not use.
 
-### -field DXVA2_VideoPrimaries_BT709
+### -field DXVA2_VideoPrimaries_BT709:2
 
 ITU-R BT.709. Also used for sRGB and scRGB.
 
-### -field DXVA2_VideoPrimaries_BT470_2_SysM
+### -field DXVA2_VideoPrimaries_BT470_2_SysM:3
 
 ITU-R BT.470-4 System M (NTSC).
 
-### -field DXVA2_VideoPrimaries_BT470_2_SysBG
+### -field DXVA2_VideoPrimaries_BT470_2_SysBG:4
 
 ITU-R BT.470-4 System B,G (PAL).
 
-### -field DXVA2_VideoPrimaries_SMPTE170M
+### -field DXVA2_VideoPrimaries_SMPTE170M:5
 
 SMPTE 170M.
 
-### -field DXVA2_VideoPrimaries_SMPTE240M
+### -field DXVA2_VideoPrimaries_SMPTE240M:6
 
 SMPTE 240M.
 
-### -field DXVA2_VideoPrimaries_EBU3213
+### -field DXVA2_VideoPrimaries_EBU3213:7
 
 EBU Tech. 3213.
 
-### -field DXVA2_VideoPrimaries_SMPTE_C
+### -field DXVA2_VideoPrimaries_SMPTE_C:8
 
 SMPTE C (SMPTE RP 145).
 

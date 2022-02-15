@@ -56,25 +56,25 @@ The <b>WCN_VALUE_TYPE_AUTHENTICATION_TYPE</b> enumeration defines the authentica
 
 ## -enum-fields
 
-### -field WCN_VALUE_AT_OPEN
+### -field WCN_VALUE_AT_OPEN:0x1
 
 Specifies IEEE 802.11 Open System authentication.
 
-### -field WCN_VALUE_AT_WPAPSK
+### -field WCN_VALUE_AT_WPAPSK:0x2
 
 Specifies WPA security. Authentication is performed between the supplicant and authenticator over IEEE 802.1X. Encryption keys are dynamic and are derived through the preshared key used by the supplicant and authenticator. 
 
 <div class="alert"><b>Note</b>  Not supported in WPS 2.0.</div>
 <div> </div>
 
-### -field WCN_VALUE_AT_SHARED
+### -field WCN_VALUE_AT_SHARED:0x4
 
 Specifies IEEE 802.11 Shared Key authentication that uses a preshared WEP key. 
 
 <div class="alert"><b>Note</b>  Not supported in WPS 2.0.</div>
 <div> </div>
 
-### -field WCN_VALUE_AT_WPA
+### -field WCN_VALUE_AT_WPA:0x8
 
 Specifies WPA security. Authentication is performed between the supplicant, authenticator, and authentication server over IEEE 802.1X. Encryption keys are dynamic and are derived through the authentication process. 
 
@@ -83,18 +83,18 @@ Specifies WPA security. Authentication is performed between the supplicant, auth
 <div class="alert"><b>Note</b>  Not supported in WPS 2.0.</div>
 <div> </div>
 
-### -field WCN_VALUE_AT_WPA2
+### -field WCN_VALUE_AT_WPA2:0x10
 
 Specifies WPA2 security. Authentication is performed between the supplicant, authenticator, and authentication server over IEEE 802.1X. Encryption keys are dynamic and are derived through the authentication process.
 
 <div class="alert"><b>Note</b>  Not supported by most access points, consider WPA2PSK authentication instead.</div>
 <div> </div>
 
-### -field WCN_VALUE_AT_WPA2PSK
+### -field WCN_VALUE_AT_WPA2PSK:0x20
 
 Specifies WPA2 security. Authentication is performed between the supplicant and authenticator over IEEE 802 1X. Encryption keys are dynamic and are derived through the preshared key used by the supplicant and authenticator.
 
-### -field WCN_VALUE_AT_WPAWPA2PSK_MIXED
+### -field WCN_VALUE_AT_WPAWPA2PSK_MIXED:0x22
 
 Specifies WPAPSK/WPA2PSK mixed-mode encryption.
 

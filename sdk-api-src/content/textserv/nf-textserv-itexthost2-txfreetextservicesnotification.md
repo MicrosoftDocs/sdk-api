@@ -52,7 +52,7 @@ api_name:
 
 Notifies the text host that text services have been freed.
 
-## -parameters
+
 
 ## -remarks
 

@@ -101,7 +101,7 @@ The
 				<i>dstWidth</i> and 
 				<i>dstHeight</i>. The 
 				<i>dstX</i> and 
-				<i>dstY</i> parameters have no affect on the brush's size or position — the brush is always oriented at (0, 0). The 
+				<i>dstY</i> parameters have no effect on the brush's size or position — the brush is always oriented at (0, 0). The 
 				<i>dstX</i>, 
 				<i>dstY</i>, 
 				<i>dstWidth</i>, and 

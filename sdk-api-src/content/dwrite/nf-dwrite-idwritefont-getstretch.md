@@ -52,7 +52,7 @@ api_name:
 
  Gets the stretch, or width, of the specified font.
 
-## -parameters
+
 
 ## -returns
 

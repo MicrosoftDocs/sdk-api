@@ -59,7 +59,7 @@ api_name:
 
 The <b>FreeExtra</b> method frees any extra memory allocated while the array increased. This method has no effect on the size or upper bound of the array.
 
-## -parameters
+
 
 ## -returns
 

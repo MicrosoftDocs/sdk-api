@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Microsoft Media Foundation. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [DirectShow](../_dshow/index.md)
 - [Microsoft Media Foundation](../_mf/index.md)
 

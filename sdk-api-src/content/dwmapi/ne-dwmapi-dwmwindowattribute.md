@@ -45,16 +45,13 @@ api_name:
  - DWMWINDOWATTRIBUTE
 ---
 
-# DWMWINDOWATTRIBUTE enumeration
-
-
 ## -description
 
 Flags used by the [DwmGetWindowAttribute](/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetwindowattribute) and [DwmSetWindowAttribute](/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute) functions to specify window attributes for Desktop Window Manager (DWM) non-client rendering. For programming guidance, and code examples, see [Controlling non-client region rendering](/windows/desktop/dwm/composition-ovw#controlling-non-client-region-rendering).
 
 ## -enum-fields
 
-### -field DWMWA_NCRENDERING_ENABLED
+### -field DWMWA_NCRENDERING_ENABLED:1
 
 Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetwindowattribute">DwmGetWindowAttribute</a>. Discovers whether non-client rendering is enabled. The retrieved value is of type <b>BOOL</b>. <b>TRUE</b> if non-client rendering is enabled; otherwise, <b>FALSE</b>.
 
@@ -133,6 +130,12 @@ Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetwindowattribute">D
 Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute">DwmSetWindowAttribute</a>. Freeze the window's thumbnail image with its current visuals. Do no further live updates on the thumbnail image to match the window's contents.
 
 <b>Windows 7 and earlier: </b>This value is not supported.
+
+### -field DWMWA_USE_HOSTBACKDROPBRUSH
+
+Use with [DwmSetWindowAttribute](/windows/win32/api/dwmapi/nf-dwmapi-dwmsetwindowattribute). Enables a non-UWP window to use host backdrop brushes. If this flag is set, then a Win32 app that calls [Windows::UI::Composition](/uwp/api/windows.ui.composition) APIs can build transparency effects using the host backdrop brush (see [Compositor.CreateHostBackdropBrush](/uwp/api/windows.ui.composition.compositor.createhostbackdropbrush)). The <i>pvAttribute</i> parameter points to a value of type <b>BOOL</b>. <b>TRUE</b> to enable host backdrop brushes for the window, or <b>FALSE</b> to disable it.
+
+<b>Windows 10 and earlier: </b>This value is not supported.
 
 ### -field DWMWA_LAST
 

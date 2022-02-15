@@ -54,10 +54,7 @@ Enables language projections to provide and retrieve error information as with <
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILanguageExceptionErrorInfo2</b> interface inherits from <a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionerrorinfo">ILanguageExceptionErrorInfo</a>. <b>ILanguageExceptionErrorInfo2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ILanguageExceptionErrorInfo2</b> interface inherits from <a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionerrorinfo">ILanguageExceptionErrorInfo</a>. <b>ILanguageExceptionErrorInfo2</b> also has these types of members:
 
 ## -see-also
 

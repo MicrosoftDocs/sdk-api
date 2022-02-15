@@ -56,7 +56,7 @@ The <b>IKEEXT_KEY_MODULE_TYPE</b> enumerated type specifies the type of keying m
 
 ## -enum-fields
 
-### -field IKEEXT_KEY_MODULE_IKE
+### -field IKEEXT_KEY_MODULE_IKE:0
 
 Specifies Internet Key Exchange (IKE) keying module.
 

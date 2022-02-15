@@ -9,8 +9,8 @@ ms.keywords: D3D12_BACKGROUND_PROCESSING_MODE, D3D12_BACKGROUND_PROCESSING_MODE 
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -48,7 +48,7 @@ Defines constants that specify a level of dynamic optimization to apply to GPU w
 
 ## -enum-fields
 
-### -field D3D12_BACKGROUND_PROCESSING_MODE_ALLOWED
+### -field D3D12_BACKGROUND_PROCESSING_MODE_ALLOWED:0
 
 The default setting. Specifies that the driver may instrument workloads, and dynamically recompile shaders, in a low overhead, non-intrusive manner that avoids glitching the foreground workload.
 

@@ -16,7 +16,9 @@ f1_keywords:
 
 ## -description
 
-This header is used by IP Helper. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [IP Helper](../_iphlp/index.md)
+- [Network Drivers, Windows Vista and Later](../_netvista/index.md)
+- [Windows Sockets 2](../_winsock/index.md)
 

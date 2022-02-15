@@ -57,7 +57,7 @@ api_name:
 
 The <b>CancelMonitorLicenseAcquisition</b> method cancels a current call to the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-monitorlicenseacquisition">MonitorLicenseAcquisition</a> method.
 
-## -parameters
+
 
 ## -returns
 

@@ -70,7 +70,7 @@ Pointer to a variable that specifies the start position
   in the descriptor list. This parameter is optional.
   If the value of <i>pdwCookie</i> is <b>NULL</b>, the search starts from the
   first descriptor in the list. Otherwise, the search starts from
-  the position given in <i>pdwCookie</i>. When the method returns, the <i>pdwCookie</i>parameter contains the position of the next matching descriptor,
+  the position given in <i>pdwCookie</i>. When the method returns, the <i>pdwCookie</i> parameter contains the position of the next matching descriptor,
   if any. You can use this parameter to iterate through the descriptor list,
   looking for every instance of a particular descriptor tag.
 
@@ -82,7 +82,7 @@ Address of a variable that receives an <a href="/windows/desktop/api/mpeg2psipar
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

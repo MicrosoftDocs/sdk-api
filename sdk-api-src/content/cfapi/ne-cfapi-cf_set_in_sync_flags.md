@@ -54,7 +54,7 @@ The in-sync state flags for placeholder files and folders.
 
 ## -enum-fields
 
-### -field CF_SET_IN_SYNC_FLAG_NONE
+### -field CF_SET_IN_SYNC_FLAG_NONE:0x00000000
 
 No in-sync flag.
 

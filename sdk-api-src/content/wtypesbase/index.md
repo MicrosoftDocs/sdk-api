@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Component Object Model (COM). For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Component Object Model (COM)](../_com/index.md)
+- [Windows Sockets 2](../_winsock/index.md)
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>IADsPathname::RemoveLeafElement</b> method removes the last element from the directory path that has been set on the Pathname object.
 
-## -parameters
+
 
 ## -returns
 

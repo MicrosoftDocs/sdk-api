@@ -52,7 +52,7 @@ api_name:
 
 Gets the current value of the fence.
 
-## -parameters
+
 
 ## -returns
 

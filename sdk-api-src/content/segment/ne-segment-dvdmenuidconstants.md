@@ -54,7 +54,7 @@ The <b>DVDMenuID</b> constants define menu type ID numbers used to display speci
 
 ## -enum-fields
 
-### -field dvdMenu_Title
+### -field dvdMenu_Title:2
 
 Title menu, also called the Video Manager Menu.
 

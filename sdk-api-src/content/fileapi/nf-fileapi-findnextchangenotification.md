@@ -80,7 +80,7 @@ After the
 <a href="/windows/desktop/Sync/wait-functions">wait functions</a>.
 
 If a change occurs after a call to 
-<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a>but before a call to 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a> but before a call to 
 <b>FindNextChangeNotification</b>, the operating system records the change. When 
 <b>FindNextChangeNotification</b> is executed, the recorded change immediately satisfies a wait for the change notification.
 

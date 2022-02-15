@@ -56,7 +56,7 @@ The <b>EDataFlow</b> enumeration defines constants that indicate the direction i
 
 ## -enum-fields
 
-### -field eRender
+### -field eRender:0
 
 Audio rendering stream. Audio data flows from the application to the audio endpoint device, which renders the stream.
 

@@ -58,11 +58,11 @@ Call the
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-beginenumeration">IWbemQualifierSet::BeginEnumeration</a> and 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-next">IWbemQualifierSet::Next</a>. This call is recommended, but not required. It immediately releases resources associated with the enumeration.
 
-## -parameters
+
 
 ## -returns
 
-This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained withinan <b>HRESULT</b>.
+This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
 ## -see-also
 

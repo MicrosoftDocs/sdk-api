@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Picture Acquisition. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [Application Installation and Servicing](../_setup/index.md)
 - [Picture Acquisition](../_picacq/index.md)
 

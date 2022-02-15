@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Invoked to write an element when <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_CUSTOM_TYPE</a>has been specified.  This allows writing of XML constructs which do not easily
+Invoked to write an element when <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_CUSTOM_TYPE</a> has been specified.  This allows writing of XML constructs which do not easily
                 map to the core serialization model.
 
 ## -parameters
@@ -61,7 +61,7 @@ A  <b>WS_XML_WRITER</b> pointer to the writer that the value should be written t
 
 ### -param typeMapping [in]
 
-Indicates how the XML is being mapped to this type.  See <a href="/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_TYPE_MAPPING</a>for more information.
+Indicates how the XML is being mapped to this type.  See <a href="/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_TYPE_MAPPING</a> for more information.
                 
 
 If a mapping does not make sense for this particular type, the callback

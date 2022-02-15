@@ -138,9 +138,13 @@ Since these tokens are not intended to be visible to users, they will not be loc
 
 As an example, suppose <code>EventName</code> is "Meghan's Birthday" and the naming pattern is as follows:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 $(MyPicturesFolder)\$(DateAcquired)$([, ]EventName)\$(EventName[ ])$(SequenceNumber).$(OriginalExtension)
-</code></pre>
+
+```
+
 The resulting files would be named as follows:
 
 C:\Documents and Settings\shauniv\My Documents\My Pictures\2003-11-14, Meghan's Birthday\Meghan's Birthday 001.jpg

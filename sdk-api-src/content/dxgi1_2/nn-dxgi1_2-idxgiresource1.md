@@ -55,10 +55,7 @@ An <b>IDXGIResource1</b> interface extends the <a href="/windows/desktop/api/dxg
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIResource1</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a>. <b>IDXGIResource1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDXGIResource1</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a>. <b>IDXGIResource1</b> also has these types of members:
 
 ## -remarks
 

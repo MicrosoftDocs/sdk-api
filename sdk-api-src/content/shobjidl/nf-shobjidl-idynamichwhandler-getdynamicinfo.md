@@ -85,7 +85,7 @@ To register a dynamic handler, add a REG_SZ named "DynamicHWHandlerCLSID" and as
 Example:
 
 
-<pre xml:space="preserve"><b>HKLM</b>
+<pre><b>HKLM</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Windows</b>

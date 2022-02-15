@@ -54,7 +54,7 @@ api_name:
 
 Resets the shader-trace object.
 
-## -parameters
+
 
 ## -remarks
 

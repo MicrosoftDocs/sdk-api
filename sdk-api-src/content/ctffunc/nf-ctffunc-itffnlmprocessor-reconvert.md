@@ -104,7 +104,7 @@ An unspecified error occurred.
 
 ## -remarks
 
-This method is identical to <a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnreconversion-reconvert">ITfFnReconversion::Reconvet</a>. When <b>ITfFnReconversion::Reconvet</b> is called in the text service, the text service should forward the call to this method if a language model processor is installed. If no language model processor is installed, the text service should perform its default processing.
+This method is identical to <a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnreconversion-reconvert">ITfFnReconversion::Reconvert</a>. When <b>ITfFnReconversion::Reconvert</b> is called in the text service, the text service should forward the call to this method if a language model processor is installed. If no language model processor is installed, the text service should perform its default processing.
 
 ## -see-also
 

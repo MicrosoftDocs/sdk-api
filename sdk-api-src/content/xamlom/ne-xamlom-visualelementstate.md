@@ -54,7 +54,7 @@ Defines constants that specify the state of an element in the visual tree.
 
 ## -enum-fields
 
-### -field ErrorResolved
+### -field ErrorResolved:0
 
 The error has been fixed.
 

@@ -54,35 +54,35 @@ Specifies the audio service contained in a Dolby Digital audio stream. This enum
 
 ## -enum-fields
 
-### -field eAVEncDDService_CM
+### -field eAVEncDDService_CM:0
 
 Complete main audio service.
 
-### -field eAVEncDDService_ME
+### -field eAVEncDDService_ME:1
 
 Main service: music and effects. (The main audio service minus the dialog channel.)
 
-### -field eAVEncDDService_VI
+### -field eAVEncDDService_VI:2
 
 Associated service: visually impaired.
 
-### -field eAVEncDDService_HI
+### -field eAVEncDDService_HI:3
 
 Associated service: hard of hearing.
 
-### -field eAVEncDDService_D
+### -field eAVEncDDService_D:4
 
 Associated service: dialog.
 
-### -field eAVEncDDService_C
+### -field eAVEncDDService_C:5
 
 Associated service: commentary.
 
-### -field eAVEncDDService_E
+### -field eAVEncDDService_E:6
 
 Associated service: emergency.
 
-### -field eAVEncDDService_VO
+### -field eAVEncDDService_VO:7   
 
 Associated service: voice over.
 

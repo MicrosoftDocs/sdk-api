@@ -73,10 +73,7 @@ When the parent undo unit is marked blocked, it discards any undo units it recei
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleParentUndoUnit</b> interface inherits from <b>IOleUndoUnit</b>. <b>IOleParentUndoUnit</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IOleParentUndoUnit</b> interface inherits from <b>IOleUndoUnit</b>. <b>IOleParentUndoUnit</b> also has these types of members:
 
 ## -see-also
 

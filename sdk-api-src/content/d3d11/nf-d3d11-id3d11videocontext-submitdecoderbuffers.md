@@ -68,13 +68,13 @@ A pointer to an array of <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_vide
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
 This function does not honor a D3D11 predicate that may have been set.
 
-If the application uses <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_query">D3D11 quries</a>, this function may not be accounted for with <b>D3D11_QUERY_EVENT</b> and <b>D3D11_QUERY_TIMESTAMP</b> when using feature levels lower than 11.  <b>D3D11_QUERY_PIPELINE_STATISTICS</b> will not include this function for any feature level.
+If the application uses <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_query">D3D11 queries</a>, this function may not be accounted for with <b>D3D11_QUERY_EVENT</b> and <b>D3D11_QUERY_TIMESTAMP</b> when using feature levels lower than 11.  <b>D3D11_QUERY_PIPELINE_STATISTICS</b> will not include this function for any feature level.
 
 When using feature levels 9_x, all partially encrypted buffers must use the same EncryptedBlockInfo, and partial encryption cannot be turned off on a per frame basis.
 

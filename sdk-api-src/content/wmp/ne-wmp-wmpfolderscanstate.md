@@ -54,7 +54,7 @@ The <b>WMPFolderScanState</b> enumeration type defines the possible operational 
 
 ## -enum-fields
 
-### -field wmpfssUnknown
+### -field wmpfssUnknown:0
 
 Not a valid state.
 

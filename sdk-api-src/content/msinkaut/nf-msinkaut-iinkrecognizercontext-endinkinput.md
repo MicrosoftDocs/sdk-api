@@ -55,7 +55,7 @@ api_name:
 
 Stops adding ink to the <a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> object.
 
-## -parameters
+
 
 ## -returns
 

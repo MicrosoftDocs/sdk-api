@@ -54,35 +54,35 @@ The <b>NLM_CONNECTION_COST</b> enumeration specifies a set of cost levels and co
 
 ## -enum-fields
 
-### -field NLM_CONNECTION_COST_UNKNOWN
+### -field NLM_CONNECTION_COST_UNKNOWN:0
 
 The cost is unknown.
 
-### -field NLM_CONNECTION_COST_UNRESTRICTED
+### -field NLM_CONNECTION_COST_UNRESTRICTED:0x1
 
 The connection is unlimited and is considered to be unrestricted of usage charges and capacity constraints.
 
-### -field NLM_CONNECTION_COST_FIXED
+### -field NLM_CONNECTION_COST_FIXED:0x2
 
 The use of this connection is unrestricted up to a specific data transfer limit.
 
-### -field NLM_CONNECTION_COST_VARIABLE
+### -field NLM_CONNECTION_COST_VARIABLE:0x4
 
 This connection is regulated on a per byte basis.
 
-### -field NLM_CONNECTION_COST_OVERDATALIMIT
+### -field NLM_CONNECTION_COST_OVERDATALIMIT:0x10000
 
 The connection is currently in an OverDataLimit state as it has exceeded the carrier specified data transfer limit.
 
-### -field NLM_CONNECTION_COST_CONGESTED
+### -field NLM_CONNECTION_COST_CONGESTED:0x20000
 
 The network is experiencing high traffic load and is congested.
 
-### -field NLM_CONNECTION_COST_ROAMING
+### -field NLM_CONNECTION_COST_ROAMING:0x40000
 
 The connection is roaming outside the network and  affiliates of the home provider.
 
-### -field NLM_CONNECTION_COST_APPROACHINGDATALIMIT
+### -field NLM_CONNECTION_COST_APPROACHINGDATALIMIT:0x80000
 
 The connection is approaching the data limit specified by the carrier.
 

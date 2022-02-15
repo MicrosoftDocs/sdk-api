@@ -17,7 +17,7 @@ f1_keywords:
 
 ## -description
 
-This header is used by Radial controller input. For more information, see:
+This header is used by Windows Runtime C++ reference. For more information, see:
 
-- [Radial controller input](../_input_radial/index.md)
+- [Windows Runtime C++ reference](../_winrt/index.md)
 

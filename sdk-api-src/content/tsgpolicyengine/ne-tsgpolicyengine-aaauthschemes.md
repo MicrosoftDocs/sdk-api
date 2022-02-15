@@ -57,7 +57,7 @@ Specifies the type of authentication used to connect to Remote Desktop Gateway (
 
 ## -enum-fields
 
-### -field AA_AUTH_MIN
+### -field AA_AUTH_MIN:0
 
 This value is reserved.
 

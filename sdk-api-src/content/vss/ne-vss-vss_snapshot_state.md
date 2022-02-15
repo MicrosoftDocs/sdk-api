@@ -59,7 +59,7 @@ The <b>VSS_SNAPSHOT_STATE</b> enumeration is returned by a
 
 ## -enum-fields
 
-### -field VSS_SS_UNKNOWN
+### -field VSS_SS_UNKNOWN:0
 
 Reserved for system use. 
       

@@ -58,7 +58,7 @@ This operator returns an instance of <code>uint32_t</code> containing the compon
 
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div><div> </div>
 
-## -parameters
+
 
 ## -returns
 
@@ -67,7 +67,7 @@ Contains the three vector components of an instance of  <code>XMFLOAT3SE</code> 
 ## -remarks
 
 The values of the three components of the current instance of <code>XMFLOAT3SE</code> are
-	returned in the following format: the <b>e</b> member of the <code>XMFLOAT3SE</code>structure -- the exponent shared by the mantissas of the floating point values of all
+	returned in the following format: the <b>e</b> member of the <code>XMFLOAT3SE</code> structure -- the exponent shared by the mantissas of the floating point values of all
 	three components of <code>XMFLOAT3SE</code> -- is stored in the highest order bits of the
 	return value, and the mantissa of the x component stored in the least significant bits.
  

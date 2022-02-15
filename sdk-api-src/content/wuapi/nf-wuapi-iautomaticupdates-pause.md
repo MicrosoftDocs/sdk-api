@@ -57,7 +57,7 @@ api_name:
 
 Pauses automatic updates.
 
-## -parameters
+
 
 ## -returns
 

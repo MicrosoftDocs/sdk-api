@@ -13,8 +13,8 @@ req.header: d3d12.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -39,15 +39,15 @@ Defines constants that specify the shading rate (for variable-rate shading, or V
 
 ## -enum-fields
 
-### -field D3D12_AXIS_SHADING_RATE_1X
+### -field D3D12_AXIS_SHADING_RATE_1X:0
 
 Specifies a 1x shading rate for the axis.
 
-### -field D3D12_AXIS_SHADING_RATE_2X
+### -field D3D12_AXIS_SHADING_RATE_2X:0x1
 
 Specifies a 2x shading rate for the axis.
 
-### -field D3D12_AXIS_SHADING_RATE_4X
+### -field D3D12_AXIS_SHADING_RATE_4X:0x2
 
 Specifies a 4x shading rate for the axis.
 

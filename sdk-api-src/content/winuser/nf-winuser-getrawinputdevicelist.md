@@ -101,13 +101,25 @@ To get more detailed information about the attached devices, call <a href="/wind
 The following sample code shows a typical call to <b>GetRawInputDeviceList</b>:
 
 
-```
-UINT nDevices;
+```cpp
+UINT nDevices, nStored, i;
 PRAWINPUTDEVICELIST pRawInputDeviceList;
-if (GetRawInputDeviceList(NULL, &nDevices, sizeof(RAWINPUTDEVICELIST)) != 0) { Error();}
-if ((pRawInputDeviceList = malloc(sizeof(RAWINPUTDEVICELIST) * nDevices)) == NULL) {Error();}
-if (GetRawInputDeviceList(pRawInputDeviceList, &nDevices, sizeof(RAWINPUTDEVICELIST)) == (<dtype rid="UINT"/>)-1) {Error();}
-// do the job...
+if (GetRawInputDeviceList(NULL, &nDevices, sizeof(RAWINPUTDEVICELIST)) != 0) { Error(); }
+
+// The list of devices can change between calls to GetRawInputDeviceList,
+// so call it again if the function returns ERROR_INSUFFICIENT_BUFFER
+do
+{
+    if ((pRawInputDeviceList = realloc(sizeof(RAWINPUTDEVICELIST) * nDevices)) == NULL) { Error(); }
+    nStored = GetRawInputDeviceList(pRawInputDeviceList, &nDevices, sizeof(RAWINPUTDEVICELIST));
+} while (nStored == (UINT)-1 && GetLastError() == ERROR_INSUFFICIENT_BUFFER);
+
+if (nStored == (UINT)-1) { Error(); }
+
+for (i = 0; i < nStored; ++i)
+{
+    // do the job with each pRawInputDeviceList[i] element...
+}
 
 // after the job, free the RAWINPUTDEVICELIST
 free(pRawInputDeviceList);

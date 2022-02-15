@@ -74,11 +74,9 @@ The size of the output buffer, in bytes.
 
 ### -in-out-buffer
 
-<text></text>
 
 ### -inout-buffer-length
 
-<text></text>
 
 ### -status-block
 

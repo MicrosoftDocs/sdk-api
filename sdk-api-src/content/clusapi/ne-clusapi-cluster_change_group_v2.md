@@ -55,43 +55,43 @@ Defines the list of notifications that are generated for a group.
 
 ## -enum-fields
 
-### -field CLUSTER_CHANGE_GROUP_DELETED_V2
+### -field CLUSTER_CHANGE_GROUP_DELETED_V2:0x00000001
 
 Indicates that a group was deleted.
 
-### -field CLUSTER_CHANGE_GROUP_COMMON_PROPERTY_V2
+### -field CLUSTER_CHANGE_GROUP_COMMON_PROPERTY_V2:0x00000002
 
 Indicates that a group's common property changed.
 
-### -field CLUSTER_CHANGE_GROUP_PRIVATE_PROPERTY_V2
+### -field CLUSTER_CHANGE_GROUP_PRIVATE_PROPERTY_V2:0x00000004
 
 Indicates that a group's private property changed.
 
-### -field CLUSTER_CHANGE_GROUP_STATE_V2
+### -field CLUSTER_CHANGE_GROUP_STATE_V2:0x00000008
 
 Indicates that the group's state changed.
 
-### -field CLUSTER_CHANGE_GROUP_OWNER_NODE_V2
+### -field CLUSTER_CHANGE_GROUP_OWNER_NODE_V2:0x00000010
 
 Indicates that the group's owner node has changed.
 
-### -field CLUSTER_CHANGE_GROUP_PREFERRED_OWNERS_V2
+### -field CLUSTER_CHANGE_GROUP_PREFERRED_OWNERS_V2:0x00000020
 
 Indicates that the group's preferred owners have changed.
 
-### -field CLUSTER_CHANGE_GROUP_RESOURCE_ADDED_V2
+### -field CLUSTER_CHANGE_GROUP_RESOURCE_ADDED_V2:0x00000040
 
 Indicates that a resource was added to the group.
 
-### -field CLUSTER_CHANGE_GROUP_RESOURCE_GAINED_V2
+### -field CLUSTER_CHANGE_GROUP_RESOURCE_GAINED_V2:0x00000080
 
 Indicates that the group gained a resource.
 
-### -field CLUSTER_CHANGE_GROUP_RESOURCE_LOST_V2
+### -field CLUSTER_CHANGE_GROUP_RESOURCE_LOST_V2:0x00000100
 
 Indicates that a resource is no longer part of the group.
 
-### -field CLUSTER_CHANGE_GROUP_HANDLE_CLOSE_V2
+### -field CLUSTER_CHANGE_GROUP_HANDLE_CLOSE_V2:0x00000200
 
 Indicates that the group's context handle was closed.
 

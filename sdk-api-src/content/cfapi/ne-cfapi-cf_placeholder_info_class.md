@@ -54,10 +54,10 @@ Information classes for placeholder info.
 
 ## -enum-fields
 
-### -field CF_PLACEHOLDER_INFO_BASIC
+### -field CF_PLACEHOLDER_INFO_BASIC:0
 
 Basic placeholder information.  See <a href="/windows/desktop/api/cfapi/ns-cfapi-cf_placeholder_basic_info">CF_PLACEHOLDER_BASIC_INFO</a>.
 
-### -field CF_PLACEHOLDER_INFO_STANDARD
+### -field CF_PLACEHOLDER_INFO_STANDARD:1
 
 Standard placeholder information. See <a href="/windows/desktop/api/cfapi/ns-cfapi-cf_placeholder_standard_info">CF_PLACEHOLDER_STANDARD_INFO</a>.

@@ -56,7 +56,7 @@ The <b>DataFlow</b> enumeration indicates the data-flow direction of an audio st
 
 ## -enum-fields
 
-### -field In
+### -field In:0
 
 Input stream. The audio stream flows into the device through the connector.
 

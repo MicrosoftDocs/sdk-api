@@ -56,7 +56,7 @@ Defines values that describe the state of the similarity traits table, similarit
 
 ## -enum-fields
 
-### -field RDCTABLE_InvalidOrUnknown
+### -field RDCTABLE_InvalidOrUnknown:0
 
 The table contains data that is not valid.
 

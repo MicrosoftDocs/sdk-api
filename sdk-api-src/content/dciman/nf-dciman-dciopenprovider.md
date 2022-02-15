@@ -54,7 +54,7 @@ api_name:
 
 Obtains a device context handle of display.
 
-## -parameters
+
 
 ## -returns
 

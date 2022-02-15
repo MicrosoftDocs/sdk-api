@@ -53,7 +53,7 @@ api_name:
 
 Removes the Group Policy object (GPO) backup from the backup directory and from the file system.
 
-## -parameters
+
 
 ## -returns
 

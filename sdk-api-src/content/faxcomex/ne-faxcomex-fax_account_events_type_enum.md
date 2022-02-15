@@ -54,27 +54,27 @@ Specifies the types of event notifications, on a particular account, that the se
 
 ## -enum-fields
 
-### -field faetNONE
+### -field faetNONE:0
 
 No notifications are sent.
 
-### -field faetIN_QUEUE
+### -field faetIN_QUEUE:0x1
 
 Notifications of changes to the state of any fax in the incoming queue are sent.
 
-### -field faetOUT_QUEUE
+### -field faetOUT_QUEUE:0x2
 
 Notifications of changes to the state of any fax in the outgoing queue are sent.
 
-### -field faetIN_ARCHIVE
+### -field faetIN_ARCHIVE:0x4
 
 A notification is sent whenever a message is removed from the incoming fax archive.
 
-### -field faetOUT_ARCHIVE
+### -field faetOUT_ARCHIVE:0x8
 
 A notification is sent whenever a message is removed from the outgoing fax archive.
 
-### -field faetFXSSVC_ENDED
+### -field faetFXSSVC_ENDED:0x10
 
 A notification is sent whenever the fax service stops executing.
 

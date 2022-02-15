@@ -58,27 +58,27 @@ Defines the set of the valid address types of a physical interconnect.
 
 ## -enum-fields
 
-### -field VDS_IA_UNKNOWN
+### -field VDS_IA_UNKNOWN:0
 
 This value is reserved.
 
-### -field VDS_IA_FCFS
+### -field VDS_IA_FCFS:1
 
 The address type is FCFS.
 
-### -field VDS_IA_FCPH
+### -field VDS_IA_FCPH:2
 
 The address type is FCPH.
 
-### -field VDS_IA_FCPH3
+### -field VDS_IA_FCPH3:3
 
 The address type is FCPH3.
 
-### -field VDS_IA_MAC
+### -field VDS_IA_MAC:4
 
 The address type is MAC.
 
-### -field VDS_IA_SCSI
+### -field VDS_IA_SCSI:5
 
 The address type is SCSI.
 

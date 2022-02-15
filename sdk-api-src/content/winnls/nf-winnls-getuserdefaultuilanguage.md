@@ -58,7 +58,7 @@ api_name:
 
 Returns the language identifier for the user UI language for the current user. If the current user has not set a language, <b>GetUserDefaultUILanguage</b> returns the preferred language set for the system. If there is no preferred language set for the system, then the system default UI language (also known as "install language") is returned. For more information about the user UI language, see <a href="/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>.
 
-## -parameters
+
 
 ## -returns
 

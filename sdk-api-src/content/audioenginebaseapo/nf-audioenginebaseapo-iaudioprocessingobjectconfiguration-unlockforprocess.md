@@ -50,7 +50,7 @@ api_name:
 
 The <code>UnlockForProcess</code> method releases the lock that was imposed on the APO by the LockForProcess method.
 
-## -parameters
+
 
 ## -returns
 

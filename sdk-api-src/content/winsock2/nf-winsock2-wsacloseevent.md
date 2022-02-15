@@ -121,7 +121,7 @@ The <i>hEvent</i> is not a valid event object handle.
 ## -remarks
 
 The 
-<b>WSACloseEvent</b> function closes the handle to an event object and frees resources associated with the event object. This function is used to close a handle created by the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsacreateevent">WSACreateEvent</a>function. Once the handle to the  event object is closed, further references to this handle will fail with the error 
+<b>WSACloseEvent</b> function closes the handle to an event object and frees resources associated with the event object. This function is used to close a handle created by the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsacreateevent">WSACreateEvent</a> function. Once the handle to the  event object is closed, further references to this handle will fail with the error 
 <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_INVALID_HANDLE</a>.
 
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.

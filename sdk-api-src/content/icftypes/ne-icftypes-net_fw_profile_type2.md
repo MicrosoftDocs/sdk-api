@@ -57,19 +57,19 @@ The
 
 ## -enum-fields
 
-### -field NET_FW_PROFILE2_DOMAIN
+### -field NET_FW_PROFILE2_DOMAIN:0x1
 
 Profile type is domain.
 
-### -field NET_FW_PROFILE2_PRIVATE
+### -field NET_FW_PROFILE2_PRIVATE:0x2
 
 Profile type is private. This profile type is used for home and other private network types.
 
-### -field NET_FW_PROFILE2_PUBLIC
+### -field NET_FW_PROFILE2_PUBLIC:0x4
 
 Profile type is public. This profile type is used for public Internet access points.
 
-### -field NET_FW_PROFILE2_ALL
+### -field NET_FW_PROFILE2_ALL:0x7fffffff
 
 ## -see-also
 

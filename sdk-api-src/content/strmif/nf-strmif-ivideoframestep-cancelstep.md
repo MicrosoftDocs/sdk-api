@@ -53,7 +53,7 @@ api_name:
 
 The <code>CancelStep</code> method cancels the previous <a href="/windows/desktop/api/strmif/nf-strmif-ivideoframestep-step">IVideoFrameStep::Step</a> operation.
 
-## -parameters
+
 
 ## -returns
 

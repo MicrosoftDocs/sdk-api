@@ -54,15 +54,12 @@ api_name:
 The <b>ID3D10EffectVariable</b> interface is the base class for all effect variables.
 
 The lifetime of an <b>ID3D10EffectVariable</b> object is equal to the lifetime of its parent <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effect">ID3D10Effect</a> object.
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul><h3><a id="methods"></a>Methods</h3>The <b>ID3D10EffectVariable</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asblend">AsBlend</a>
 </td>
@@ -71,7 +68,7 @@ Get a effect-blend variable.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asconstantbuffer">AsConstantBuffer</a>
 </td>
@@ -80,7 +77,7 @@ Get a constant buffer.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asdepthstencil">AsDepthStencil</a>
 </td>
@@ -89,7 +86,7 @@ Get a depth-stencil variable.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asdepthstencilview">AsDepthStencilView</a>
 </td>
@@ -98,7 +95,7 @@ Get a depth-stencil-view variable.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asmatrix">AsMatrix</a>
 </td>
@@ -107,7 +104,7 @@ Get a matrix variable.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asrasterizer">AsRasterizer</a>
 </td>
@@ -116,7 +113,7 @@ Get a rasterizer variable.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asrendertargetview">AsRenderTargetView</a>
 </td>
@@ -125,7 +122,7 @@ Get a render-target-view variable.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-assampler">AsSampler</a>
 </td>
@@ -134,7 +131,7 @@ Get a sampler variable.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asscalar">AsScalar</a>
 </td>
@@ -143,7 +140,7 @@ Get a scalar variable.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asshader">AsShader</a>
 </td>
@@ -152,7 +149,7 @@ Get a shader variable.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asshaderresource">AsShaderResource</a>
 </td>
@@ -161,7 +158,7 @@ Get a shader-resource variable.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asstring">AsString</a>
 </td>
@@ -170,7 +167,7 @@ Get a string variable.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-asvector">AsVector</a>
 </td>
@@ -179,7 +176,7 @@ Get a vector variable.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getannotationbyindex">GetAnnotationByIndex</a>
 </td>
@@ -188,7 +185,7 @@ Get an annotation by index.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getannotationbyname">GetAnnotationByName</a>
 </td>
@@ -197,7 +194,7 @@ Get an annotation by name.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getdesc">GetDesc</a>
 </td>
@@ -206,7 +203,7 @@ Get a description.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getelement">GetElement</a>
 </td>
@@ -215,7 +212,7 @@ Get an array element.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getmemberbyindex">GetMemberByIndex</a>
 </td>
@@ -224,7 +221,7 @@ Get a structure member by index.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getmemberbyname">GetMemberByName</a>
 </td>
@@ -233,7 +230,7 @@ Get a structure member by name.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getmemberbysemantic">GetMemberBySemantic</a>
 </td>
@@ -242,7 +239,7 @@ Get a structure member by semantic.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getparentconstantbuffer">GetParentConstantBuffer</a>
 </td>
@@ -251,7 +248,7 @@ Get a constant buffer.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-getrawvalue">GetRawValue</a>
 </td>
@@ -260,7 +257,7 @@ Get data.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-gettype">GetType</a>
 </td>
@@ -269,7 +266,7 @@ Get type information.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-isvalid">IsValid</a>
 </td>
@@ -278,7 +275,7 @@ Compare the data type with the data stored.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-setrawvalue">SetRawValue</a>
 </td>

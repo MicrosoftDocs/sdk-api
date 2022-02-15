@@ -54,27 +54,27 @@ Specifies the type of a command list.
 
 ## -enum-fields
 
-### -field D3D12_COMMAND_LIST_TYPE_DIRECT
+### -field D3D12_COMMAND_LIST_TYPE_DIRECT:0
 
 Specifies a command buffer that the GPU can execute. A direct command list doesn't inherit any GPU state.
 
-### -field D3D12_COMMAND_LIST_TYPE_BUNDLE
+### -field D3D12_COMMAND_LIST_TYPE_BUNDLE:1
 
 Specifies a command buffer that can be executed only directly via a direct command list. A bundle command list inherits all GPU state (except for the currently set pipeline state object and primitive topology).
 
-### -field D3D12_COMMAND_LIST_TYPE_COMPUTE
+### -field D3D12_COMMAND_LIST_TYPE_COMPUTE:2
 
 Specifies a command buffer for computing.
 
-### -field D3D12_COMMAND_LIST_TYPE_COPY
+### -field D3D12_COMMAND_LIST_TYPE_COPY:3
 
 Specifies a command buffer for copying.
 
-### -field D3D12_COMMAND_LIST_TYPE_VIDEO_DECODE
+### -field D3D12_COMMAND_LIST_TYPE_VIDEO_DECODE:4
 
 Specifies a command buffer for video decoding.
 
-### -field D3D12_COMMAND_LIST_TYPE_VIDEO_PROCESS
+### -field D3D12_COMMAND_LIST_TYPE_VIDEO_PROCESS:5
 
 Specifies a command buffer for video processing.
 

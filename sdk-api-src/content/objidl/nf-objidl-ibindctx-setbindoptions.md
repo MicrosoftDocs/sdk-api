@@ -73,11 +73,15 @@ This method can be called by moniker clients (those who use monikers to acquire 
 
 When you first create a bind context by using the <a href="/windows/desktop/api/objbase/nf-objbase-createbindctx">CreateBindCtx</a> function, the fields of the <a href="/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a> structure are initialized to the following values:
 
-<pre class="syntax" xml:space="preserve"><code>    cbStruct = sizeof(BIND_OPTS); 
+
+``` syntax
+    cbStruct = sizeof(BIND_OPTS); 
     grfFlags = 0; 
     grfMode = STGM_READWRITE; 
     dwTickCountDeadline = 0; 
-</code></pre>
+
+```
+
 You can use the <b>IBindCtx::SetBindOptions</b> method to modify these values before using the bind context, if you want values other than the defaults.
 
 <b>SetBindOptions</b> copies the members of the specified structure, but not the <a href="/windows/desktop/api/objidl/ns-objidl-coserverinfo">COSERVERINFO</a> structure and the pointers it contains. Callers may not free these pointers until the bind context is released.

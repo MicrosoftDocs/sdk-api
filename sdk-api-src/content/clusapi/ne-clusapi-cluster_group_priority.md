@@ -55,19 +55,19 @@ Specifies the priority level of a group.
 
 ## -enum-fields
 
-### -field PriorityDisabled
+### -field PriorityDisabled:0
 
 Disabled priority. A group that has a disabled priority does not start automatically.
 
-### -field PriorityLow
+### -field PriorityLow:1000
 
 Low priority.
 
-### -field PriorityMedium
+### -field PriorityMedium:2000
 
 Medium priority.
 
-### -field PriorityHigh
+### -field PriorityHigh:3000
 
 High priority.
 

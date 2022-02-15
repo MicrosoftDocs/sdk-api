@@ -55,7 +55,7 @@ The <b>Font::Clone</b> method creates a new
 			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object based on this 
 			<b>Font</b> object.
 
-## -parameters
+
 
 ## -returns
 

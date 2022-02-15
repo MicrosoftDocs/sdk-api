@@ -58,15 +58,15 @@ Indicates the type of IP address.
 
 ## -enum-fields
 
-### -field WdsTptIpAddressUnknown
+### -field WdsTptIpAddressUnknown:0
 
 Default value that indicates that the IP address type has not yet been determined.
 
-### -field WdsTptIpAddressIpv4
+### -field WdsTptIpAddressIpv4:1
 
 Indicates an IPv4 address.
 
-### -field WdsTptIpAddressIpv6
+### -field WdsTptIpAddressIpv6:2
 
 Indicates an IPv6 address.
 

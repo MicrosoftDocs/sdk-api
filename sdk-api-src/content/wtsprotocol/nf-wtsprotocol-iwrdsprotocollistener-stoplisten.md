@@ -52,7 +52,7 @@ api_name:
 
 Notifies the protocol to stop listening for client connection requests.
 
-## -parameters
+
 
 ## -returns
 

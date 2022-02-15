@@ -52,7 +52,7 @@ api_name:
 
 Get the effect that created the effect pool.
 
-## -parameters
+
 
 ## -returns
 

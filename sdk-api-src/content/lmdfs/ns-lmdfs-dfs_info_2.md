@@ -146,7 +146,9 @@ The DFS functions use the <b>DFS_INFO_2</b> structure to
 Following is an example that describes interpretation of the flags that can be returned in the 
     <b>State</b> member:
 
-<pre class="syntax" xml:space="preserve"><code>FlavorBits = (Flags &amp; DFS_VOLUME_FLAVORS)
+
+``` syntax
+FlavorBits = (Flags &amp; DFS_VOLUME_FLAVORS)
 If (FlavorBits == DFS_VOLUME_FLAVOR_STANDALONE)   // namespace is stand-alone DFS
 else if (FlavorBits == DFS_VOLUME_FLAVOR_AD_BLOB) // namespace is AD blob
 else                                              // unknown flavor
@@ -154,7 +156,9 @@ else                                              // unknown flavor
 StateBits = (Flags &amp; DFS_VOLUME_STATES)
 // StateBits can be one of the following: 
 //  (DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_INCONSISTENT, 
-//   DFS_VOLUME_STATE_OFFLINE or DFS_VOLUME_STATE_ONLINE)</code></pre>
+//   DFS_VOLUME_STATE_OFFLINE or DFS_VOLUME_STATE_ONLINE)
+```
+
 
 ## -see-also
 

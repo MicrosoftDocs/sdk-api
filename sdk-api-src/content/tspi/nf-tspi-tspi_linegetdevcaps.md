@@ -99,11 +99,15 @@ After the service provider returns from the
 <b>TSPI_lineGetDevCaps</b> function, TAPI sets the <b>dwLinesStates</b> member of the 
 <a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure as follows:
 
-<pre class="syntax" xml:space="preserve"><code>LINEDEVCAPS.dwLineStates |=
+
+``` syntax
+LINEDEVCAPS.dwLineStates |=
     LINEDEVSTATE_OPEN |
     LINEDEVSTATE_CLOSE |
     LINEDEVSTATE_REINIT |
-    LINEDEVSTATE_TRANSLATECHANGE;</code></pre>
+    LINEDEVSTATE_TRANSLATECHANGE;
+```
+
 
 ## -see-also
 

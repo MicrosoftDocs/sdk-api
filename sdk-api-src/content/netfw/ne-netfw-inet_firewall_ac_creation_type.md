@@ -56,19 +56,19 @@ The <b>INET_FIREWALL_AC_CREATION_TYPE</b> enumeration specifies the type of app 
 
 ## -enum-fields
 
-### -field INET_FIREWALL_AC_NONE
+### -field INET_FIREWALL_AC_NONE:0x00
 
 This value is reserved for system use.
 
-### -field INET_FIREWALL_AC_PACKAGE_ID_ONLY
+### -field INET_FIREWALL_AC_PACKAGE_ID_ONLY:0x01
 
 Notifications will be delivered when an app container is created with a package identifier.
 
-### -field INET_FIREWALL_AC_BINARY
+### -field INET_FIREWALL_AC_BINARY:0x02
 
 Notifications will be delivered when an app container is created with a binary path.
 
-### -field INET_FIREWALL_AC_MAX
+### -field INET_FIREWALL_AC_MAX:0x04
 
 Maximum value for testing purposes.
 

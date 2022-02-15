@@ -57,7 +57,7 @@ api_name:
 
 The <b>MonitorLicenseAcquisition</b> method, in nonsilent license acquisition, informs the application when a license has been successfully acquired.
 
-## -parameters
+
 
 ## -returns
 

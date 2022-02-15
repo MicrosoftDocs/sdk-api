@@ -52,7 +52,7 @@ api_name:
 
 Test a technique to see if it contains valid syntax.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,10 +54,7 @@ Represents a producer of pixels that can fill an arbitrary 2D plane.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1ImageSource</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>. <b>ID2D1ImageSource</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID2D1ImageSource</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>. <b>ID2D1ImageSource</b> also has these types of members:
 
 ## -see-also
 

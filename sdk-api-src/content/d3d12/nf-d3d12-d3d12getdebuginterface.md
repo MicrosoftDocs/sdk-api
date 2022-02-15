@@ -52,6 +52,8 @@ api_name:
 
 Gets a debug interface.
 
+Use [D3D12GetInterface](nf-d3d12-d3d12getinterface.md) to directly access newer interfaces, especially downlevel.
+
 ## -parameters
 
 ### -param riid [in]
@@ -68,7 +70,7 @@ Type: <b>void**</b>
 
 The debug interface, as a pointer to pointer to void.
             See
-            <a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug">ID3D12Debug</a>and
+            <a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug">ID3D12Debug</a> and
             <a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debugdevice">ID3D12DebugDevice</a>.
 
 ## -returns

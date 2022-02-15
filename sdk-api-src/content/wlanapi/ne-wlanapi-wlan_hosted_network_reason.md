@@ -58,7 +58,7 @@ The <b>WLAN_HOSTED_NETWORK_REASON</b> enumerated type specifies the possible val
 
 ## -enum-fields
 
-### -field wlan_hosted_network_reason_success
+### -field wlan_hosted_network_reason_success:0
 
 The operation was successful.
 

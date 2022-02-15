@@ -56,7 +56,7 @@ The <code>CameraControlProperty</code> enumeration specifies a setting on a came
 
 ## -enum-fields
 
-### -field CameraControl_Pan
+### -field CameraControl_Pan:0
 
 Specifies the camera's pan setting, in degrees. Values range from –180 to +180, with the default set to zero. Positive values are clockwise from the origin (the camera rotates clockwise when viewed from above), and negative values are counterclockwise from the origin.
 

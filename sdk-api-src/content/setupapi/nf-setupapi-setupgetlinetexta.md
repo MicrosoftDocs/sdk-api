@@ -105,12 +105,20 @@ If this function is called with a <i>ReturnBuffer</i> of <b>NULL</b> and a <i>Re
 
 This function returns the contents of a line in a compact format. All extraneous white space is removed and multi-line values are converted into a single contiguous string. For example, this line:
 
-<pre class="syntax" xml:space="preserve"><code>HKLM, , PointerClass0, 1 \
+
+``` syntax
+HKLM, , PointerClass0, 1 \
 ; This is a comment
-01, 02, 03</code></pre>
+01, 02, 03
+```
+
 would be returned as:
 
-<pre class="syntax" xml:space="preserve"><code>HKLM,,PointerClass0,1,01,02,03</code></pre>
+
+``` syntax
+HKLM,,PointerClass0,1,01,02,03
+```
+
 
 
 

@@ -56,19 +56,19 @@ The
 
 ## -enum-fields
 
-### -field QE_NOQOS
+### -field QE_NOQOS:1
 
 QOS is not available.
 
-### -field QE_ADMISSIONFAILURE
+### -field QE_ADMISSIONFAILURE:2
 
 The QOS request could not be met.
 
-### -field QE_POLICYFAILURE
+### -field QE_POLICYFAILURE:3
 
 The type of QOS requested is not supported.
 
-### -field QE_GENERICERROR
+### -field QE_GENERICERROR:4
 
 Unspecified QOS error.
 

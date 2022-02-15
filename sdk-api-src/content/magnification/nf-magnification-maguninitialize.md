@@ -52,7 +52,7 @@ api_name:
 
 Destroys the magnifier run-time objects.
 
-## -parameters
+
 
 ## -returns
 

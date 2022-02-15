@@ -55,90 +55,90 @@ Enumerates characteristics of resource types and resources.
 
 ## -enum-fields
 
-### -field CLUS_CHAR_UNKNOWN
+### -field CLUS_CHAR_UNKNOWN:0x00000000
 
 Resources of this type have no known characteristics.
 
-### -field CLUS_CHAR_QUORUM
+### -field CLUS_CHAR_QUORUM:0x00000001
 
 Resources of this type are capable of being the 
        <a href="/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource type</a> for a cluster.
 
-### -field CLUS_CHAR_DELETE_REQUIRES_ALL_NODES
+### -field CLUS_CHAR_DELETE_REQUIRES_ALL_NODES:0x00000002
 
 Resources of this type cannot be deleted unless all nodes are active.
 
-### -field CLUS_CHAR_LOCAL_QUORUM
+### -field CLUS_CHAR_LOCAL_QUORUM:0x00000004
 
 Not supported.
 
-### -field CLUS_CHAR_LOCAL_QUORUM_DEBUG
+### -field CLUS_CHAR_LOCAL_QUORUM_DEBUG:0x00000008
 
 Not supported.
 
-### -field CLUS_CHAR_REQUIRES_STATE_CHANGE_REASON
+### -field CLUS_CHAR_REQUIRES_STATE_CHANGE_REASON:0x00000010
 
 The <a href="/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a> will receive the 
        <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-state-change-reason">CLUSCTL_RESOURCE_STATE_CHANGE_REASON</a> 
        control code.
 
-### -field CLUS_CHAR_BROADCAST_DELETE
+### -field CLUS_CHAR_BROADCAST_DELETE:0x00000020
 
 Not supported.
 
-### -field CLUS_CHAR_SINGLE_CLUSTER_INSTANCE
+### -field CLUS_CHAR_SINGLE_CLUSTER_INSTANCE:0x00000040
 
 Only one instance of this resource type is allowed in a cluster.
 
-### -field CLUS_CHAR_SINGLE_GROUP_INSTANCE
+### -field CLUS_CHAR_SINGLE_GROUP_INSTANCE:0x00000080
 
 Only one instance of this resource type is allowed in a group.
 
-### -field CLUS_CHAR_COEXIST_IN_SHARED_VOLUME_GROUP
+### -field CLUS_CHAR_COEXIST_IN_SHARED_VOLUME_GROUP:0x00000100
 
 The resource can be made part of a special group. Protocol version 2.0 servers do not support this value.
 
-### -field CLUS_CHAR_PLACEMENT_DATA
+### -field CLUS_CHAR_PLACEMENT_DATA:0x00000200
 
 The resource type can be queried to get more information about how many resources it uses. For example, in the <a href="/previous-versions/windows/desktop/mscs/virtual-machine">virtual machine</a> resource type, information is returned about how much memory is required for the virtual machine to be started.
 
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported before Windows Server 2012.
 
-### -field CLUS_CHAR_MONITOR_DETACH
+### -field CLUS_CHAR_MONITOR_DETACH:0x00000400
 
 The resource can be deleted without being taken offline. Protocol version 2.0 servers do not support this value.
 
-### -field CLUS_CHAR_MONITOR_REATTACH
+### -field CLUS_CHAR_MONITOR_REATTACH:0x00000800
 
 This value is reserved for local use and must be ignored by the client. Protocol version 2.0 servers do not support this value.
 
-### -field CLUS_CHAR_OPERATION_CONTEXT
+### -field CLUS_CHAR_OPERATION_CONTEXT:0x00001000
 
 This value is reserved for local use and must be ignored by the client. Protocol version 2.0 servers do not support this value.
 
-### -field CLUS_CHAR_CLONES
+### -field CLUS_CHAR_CLONES:0x00002000
 
 This value is reserved for local use and must be ignored by the client. Protocol version 2.0 servers do not support this value.
 
-### -field CLUS_CHAR_NOT_PREEMPTABLE
+### -field CLUS_CHAR_NOT_PREEMPTABLE:0x00004000
 
 The resource should not be preempted, even if the whole group is being preempted.
 
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported before Windows Server 2012.
 
-### -field CLUS_CHAR_NOTIFY_NEW_OWNER
+### -field CLUS_CHAR_NOTIFY_NEW_OWNER:0x00008000
 
 The resource can receive a new owner.
 
 <b>Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported before Windows Server 2012 R2.
 
-### -field CLUS_CHAR_SUPPORTS_UNMONITORED_STATE
+### -field CLUS_CHAR_SUPPORTS_UNMONITORED_STATE:0x00010000
 
 The resource can continue run in an unmonitored state when it losses cluster membership.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported before Windows Server 2016.
 
-### -field CLUS_CHAR_INFRASTRUCTURE
+### -field CLUS_CHAR_INFRASTRUCTURE:0x00020000
 
 This value is reserved for infrastructure.
 

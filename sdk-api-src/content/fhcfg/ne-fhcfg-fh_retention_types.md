@@ -56,7 +56,7 @@ Specifies under what conditions previous versions of files and folders can be de
 
 ## -enum-fields
 
-### -field FH_RETENTION_DISABLED
+### -field FH_RETENTION_DISABLED:0
 
 Previous versions are never deleted from the backup target.
 

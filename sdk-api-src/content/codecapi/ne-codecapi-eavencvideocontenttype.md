@@ -54,11 +54,11 @@ Specifies the type of video content. This enumeration is used with the <a href="
 
 ## -enum-fields
 
-### -field eAVEncVideoContentType_Unknown
+### -field eAVEncVideoContentType_Unknown:0
 
 Unknown or normal content. (Default.)
 
-### -field eAVEncVideoContentType_FixedCameraAngle
+### -field eAVEncVideoContentType_FixedCameraAngle:1
 
 The content was captured with a fixed camera, such as a webcam.
 

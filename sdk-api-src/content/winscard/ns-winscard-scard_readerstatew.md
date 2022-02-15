@@ -172,6 +172,17 @@ The application expects that there is an unresponsive card in the reader.
 
 </td>
 </tr>
+	
+<tr>
+<td width="40%"><a id="SCARD_STATE_UNPOWERED"></a><a id="scard_state_unpowered"></a><dl>
+<dt><b>SCARD_STATE_UNPOWERED</b></dt>
+</dl>
+</td>
+<td width="60%">
+This implies that the card in the reader has not been powered up.
+
+</td>
+</tr>
 </table>
 
 ### -field dwEventState
@@ -288,6 +299,17 @@ There is an unresponsive card in the reader.
 
 </td>
 </tr>
+<tr>
+<td width="40%"><a id="SCARD_STATE_UNPOWERED"></a><a id="scard_state_unpowered"></a><dl>
+<dt><b>SCARD_STATE_UNPOWERED</b></dt>
+</dl>
+</td>
+<td width="60%">
+This implies that the card in the reader has not been powered up.
+
+</td>
+</tr>
+	
 </table>
 
 ### -field cbAtr

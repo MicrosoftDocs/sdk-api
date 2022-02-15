@@ -60,11 +60,11 @@ For more information about the stream settings that an application can specify, 
 
 ## -enum-fields
 
-### -field MF_TRANSCODE_ADJUST_PROFILE_DEFAULT
+### -field MF_TRANSCODE_ADJUST_PROFILE_DEFAULT:0
 
 Media Foundation uses the application-specified settings for audio and video streams. If the required settings are not provided by the application, the topology is created but the encoding session fails. For the video stream, the frame rate and the interlace mode settings are modified. For more information, see Remarks.
 
-### -field MF_TRANSCODE_ADJUST_PROFILE_USE_SOURCE_ATTRIBUTES
+### -field MF_TRANSCODE_ADJUST_PROFILE_USE_SOURCE_ATTRIBUTES:1
 
 For both audio and video streams, the missing stream settings are filled by copying the input source attributes. This flag ensures the transcoded output file is the closest match to the input file.
 

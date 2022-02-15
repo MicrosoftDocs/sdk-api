@@ -54,7 +54,7 @@ Specifies the formats that are available to interpret extension data.
 
 ## -enum-fields
 
-### -field TOKENBINDING_EXTENSION_FORMAT_UNDEFINED
+### -field TOKENBINDING_EXTENSION_FORMAT_UNDEFINED:0
 
 The format for interpreting the extension data is undefined.
 

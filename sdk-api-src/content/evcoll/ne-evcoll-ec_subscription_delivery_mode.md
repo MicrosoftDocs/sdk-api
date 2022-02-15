@@ -56,7 +56,7 @@ The <b>EC_SUBSCRIPTION_DELIVERY_MODE</b> enumeration defines values that indicat
 
 ## -enum-fields
 
-### -field EcDeliveryModePull
+### -field EcDeliveryModePull:1
 
 Events are delivered through the subscription using the pull model.
 

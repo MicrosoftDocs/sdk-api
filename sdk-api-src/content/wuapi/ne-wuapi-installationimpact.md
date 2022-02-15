@@ -56,11 +56,11 @@ Defines the possible levels of impact that can be caused by installing or uninst
 
 ## -enum-fields
 
-### -field iiNormal
+### -field iiNormal:0
 
 Installing or uninstalling an update results in a level of impact on the target computer that is typical of most updates. Therefore, the update does not qualify for any of the special impact ratings that are defined in this topic.
 
-### -field iiMinor
+### -field iiMinor:1
 
 Installing or uninstalling an update results in an insignificant impact on the target computer.
 
@@ -73,6 +73,6 @@ The update must meet strict requirements to qualify for this rating. The require
 </ul>
  Updates that qualify for this rating may be eligible for special handling in Windows Update Agent (WUA). For example, they may be eligible for accelerated distribution.
 
-### -field iiRequiresExclusiveHandling
+### -field iiRequiresExclusiveHandling:2
 
 This update cannot be installed in the same <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-install">IUpdateInstaller::Install</a> or <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-begininstall">IUpdateInstaller::BeginInstall</a> call as any other update.  If you make an <b>IUpdateInstaller::Install</b> or <b>IUpdateInstaller::BeginInstall</b> call that includes an exclusive update along with one or more other updates, the call will return <b>WU_E_EXCLUSIVE_INSTALL_CONFLICT</b>, and no updates will be installed.

@@ -65,7 +65,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -remarks
 
-<b>UpdateDownloadPosition</b> can be requested for any download job that also meets the requirements for B<b>ITS_JOB_PROPERTY_ON_DEMAND_MODE</b> jobs.
+<b>UpdateDownloadPosition</b> can be requested for any download job that also meets the requirements for <b>BITS_JOB_PROPERTY_ON_DEMAND_MODE</b> jobs.
 
   
 The requirements for a <b>BITS_JOB_PROPERTY_ON_DEMAND_MODE</b> job is that the transfer must be a <b>DOWNLOAD</b> job.  The job must not be <b>DYNAMIC</b> and the server must be an HTTP or HTTPS server and the server requirements for range support must all be met.

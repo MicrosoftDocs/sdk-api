@@ -60,7 +60,7 @@ api_name:
 Retrieves the current Windows ANSI code page identifier for the operating system.<div class="alert"><b>Caution</b>  The ANSI API functions, for example, the ANSI version of <a href="/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>, implicitly use <b>GetACP</b> to translate text to or from Unicode. For the Multilingual User Interface (MUI) edition of Windows, the system ACP might not cover all code points in the user's selected logon language identifier. For compatibility with this edition, your application should avoid calls that depend on <b>GetACP</b> either implicitly or explicitly, as this function can cause some locales to display text as question marks. Instead, the application should use the Unicode API functions directly, for example, the Unicode version of <a href="/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>.</div>
 <div> </div>
 
-## -parameters
+
 
 ## -returns
 

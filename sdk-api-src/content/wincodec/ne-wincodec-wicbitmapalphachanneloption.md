@@ -54,19 +54,19 @@ Specifies the desired alpha channel usage.
 
 ## -enum-fields
 
-### -field WICBitmapUseAlpha
+### -field WICBitmapUseAlpha:0
 
 Use alpha channel.
 
-### -field WICBitmapUsePremultipliedAlpha
+### -field WICBitmapUsePremultipliedAlpha:0x1
 
 Use a pre-multiplied alpha channel.
 
-### -field WICBitmapIgnoreAlpha
+### -field WICBitmapIgnoreAlpha:0x2
 
 Ignore alpha channel.
 
-### -field WICBITMAPALPHACHANNELOPTIONS_FORCE_DWORD
+### -field WICBITMAPALPHACHANNELOPTIONS_FORCE_DWORD:0x7fffffff
 
 Sentinel value.
 

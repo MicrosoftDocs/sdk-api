@@ -56,43 +56,43 @@ The <b>ADS_SYSTEMFLAG_ENUM</b> enumeration defines some of the values that can b
 
 ## -enum-fields
 
-### -field ADS_SYSTEMFLAG_DISALLOW_DELETE
+### -field ADS_SYSTEMFLAG_DISALLOW_DELETE:0x80000000
 
 Identifies an object that cannot be deleted.
 
-### -field ADS_SYSTEMFLAG_CONFIG_ALLOW_RENAME
+### -field ADS_SYSTEMFLAG_CONFIG_ALLOW_RENAME:0x40000000
 
 For objects in the configuration partition, if this flag is set, the object can be renamed; otherwise, the object cannot be renamed. By default, this flag is not set on new objects created under the configuration partition, and you can set this flag only during object creation.
 
-### -field ADS_SYSTEMFLAG_CONFIG_ALLOW_MOVE
+### -field ADS_SYSTEMFLAG_CONFIG_ALLOW_MOVE:0x20000000
 
 For objects in the configuration partition, if this flag is set, the object can be moved; otherwise, the object cannot be moved. By default, this flag is not set on new objects created under the configuration partition, and you can set this flag only during object creation.
 
-### -field ADS_SYSTEMFLAG_CONFIG_ALLOW_LIMITED_MOVE
+### -field ADS_SYSTEMFLAG_CONFIG_ALLOW_LIMITED_MOVE:0x10000000
 
 For objects in the configuration partition, if this flag is set, the object can be moved with restrictions; otherwise, the object cannot be moved. By default, this flag is not set on new objects created under the configuration partition, and you can set this flag only during object creation.
 
-### -field ADS_SYSTEMFLAG_DOMAIN_DISALLOW_RENAME
+### -field ADS_SYSTEMFLAG_DOMAIN_DISALLOW_RENAME:0x8000000
 
 Identifies a domain object that cannot be renamed.
 
-### -field ADS_SYSTEMFLAG_DOMAIN_DISALLOW_MOVE
+### -field ADS_SYSTEMFLAG_DOMAIN_DISALLOW_MOVE:0x4000000
 
 Identifies a domain object that cannot be moved.
 
-### -field ADS_SYSTEMFLAG_CR_NTDS_NC
+### -field ADS_SYSTEMFLAG_CR_NTDS_NC:0x1
 
 Naming context is in NTDS.
 
-### -field ADS_SYSTEMFLAG_CR_NTDS_DOMAIN
+### -field ADS_SYSTEMFLAG_CR_NTDS_DOMAIN:0x2
 
 Naming context is a domain.
 
-### -field ADS_SYSTEMFLAG_ATTR_NOT_REPLICATED
+### -field ADS_SYSTEMFLAG_ATTR_NOT_REPLICATED:0x1
 
 If this flag is set in the <b>systemFlags</b> attribute of an <b>attributeSchema</b> object, the attribute is not to be replicated.
 
-### -field ADS_SYSTEMFLAG_ATTR_IS_CONSTRUCTED
+### -field ADS_SYSTEMFLAG_ATTR_IS_CONSTRUCTED:0x4
 
 If this flag is set in the <b>systemFlags</b> attribute of an <b>attributeSchema</b> object, the attribute is a constructed property.
 

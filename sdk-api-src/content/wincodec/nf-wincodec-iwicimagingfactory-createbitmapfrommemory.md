@@ -100,12 +100,12 @@ A pointer that receives a pointer to the new bitmap.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
 The size of the <a href="/windows/desktop/wic/-wic-imp-iwicbitmapdecoder">IWICBitmap</a> to be created must be smaller than or equal to the size of the image in <i>pbBuffer</i>.
 
-The <a href="https://docs.microsoft.com/">stride</a> of the destination bitmap will equal the <i>stride</i> of the source data, regardless of the width and height specified.
+The stride of the destination bitmap will equal the <i>stride</i> of the source data, regardless of the width and height specified.
 
 The <i>pixelFormat</i> parameter defines the pixel format for both the input data and the output bitmap.

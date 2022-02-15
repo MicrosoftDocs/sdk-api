@@ -56,65 +56,65 @@ Specifies a file's perceived type. This set of constants is used in the <a href=
 
 ## -enum-fields
 
-### -field PERCEIVED_TYPE_FIRST
+### -field PERCEIVED_TYPE_FIRST:-3
 
-### -field PERCEIVED_TYPE_CUSTOM
+### -field PERCEIVED_TYPE_CUSTOM:-3
 
 The file's perceived type as defined in the registry is not a known type.
 
-### -field PERCEIVED_TYPE_UNSPECIFIED
+### -field PERCEIVED_TYPE_UNSPECIFIED:-2
 
 The file does not have a perceived type.
 
-### -field PERCEIVED_TYPE_FOLDER
+### -field PERCEIVED_TYPE_FOLDER:-1
 
 Not used.
 
-### -field PERCEIVED_TYPE_UNKNOWN
+### -field PERCEIVED_TYPE_UNKNOWN:0
 
 The file's perceived type hasn't yet been requested. This is the cached type of the object when it is created. This value is never returned by <a href="/windows/desktop/api/shlwapi/nf-shlwapi-assocgetperceivedtype">AssocGetPerceivedType</a>.
 
-### -field PERCEIVED_TYPE_TEXT
+### -field PERCEIVED_TYPE_TEXT:1
 
 The file's perceived type is "text".
 
-### -field PERCEIVED_TYPE_IMAGE
+### -field PERCEIVED_TYPE_IMAGE:2
 
 The file's perceived type is "image".
 
-### -field PERCEIVED_TYPE_AUDIO
+### -field PERCEIVED_TYPE_AUDIO:3
 
 The file's perceived type is "audio".
 
-### -field PERCEIVED_TYPE_VIDEO
+### -field PERCEIVED_TYPE_VIDEO:4
 
 The file's perceived type is "video".
 
-### -field PERCEIVED_TYPE_COMPRESSED
+### -field PERCEIVED_TYPE_COMPRESSED:5
 
 The file's perceived type is "compressed".
 
-### -field PERCEIVED_TYPE_DOCUMENT
+### -field PERCEIVED_TYPE_DOCUMENT:6
 
 The file's perceived type is "document".
 
-### -field PERCEIVED_TYPE_SYSTEM
+### -field PERCEIVED_TYPE_SYSTEM:7
 
 The file's perceived type is "system".
 
-### -field PERCEIVED_TYPE_APPLICATION
+### -field PERCEIVED_TYPE_APPLICATION:8
 
 The file's perceived type is "application".
 
-### -field PERCEIVED_TYPE_GAMEMEDIA
+### -field PERCEIVED_TYPE_GAMEMEDIA:9
 
 <b>Windows Vista and later</b>. The file's perceived type is "gamemedia".
 
-### -field PERCEIVED_TYPE_CONTACTS
+### -field PERCEIVED_TYPE_CONTACTS:10
 
 <b>Windows Vista and later</b>.The file's perceived type is "contacts"
 
-### -field PERCEIVED_TYPE_LAST
+### -field PERCEIVED_TYPE_LAST:10
 
 ## -remarks
 

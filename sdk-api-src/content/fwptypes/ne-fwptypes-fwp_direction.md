@@ -56,7 +56,7 @@ The <b>FWP_DIRECTION</b> enumerated type specifies direction of network traffic.
 
 ## -enum-fields
 
-### -field FWP_DIRECTION_OUTBOUND
+### -field FWP_DIRECTION_OUTBOUND:0
 
 Specifies outbound traffic.
 

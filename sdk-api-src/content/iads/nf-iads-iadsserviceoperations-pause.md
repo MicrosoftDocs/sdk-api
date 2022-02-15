@@ -52,7 +52,7 @@ api_name:
 
 The <b>IADsServiceOperations::Pause</b> method pauses a service started with the  <a href="/windows/desktop/api/iads/nf-iads-iadsserviceoperations-start">IADsServiceOperations::Start</a> method.
 
-## -parameters
+
 
 ## -returns
 

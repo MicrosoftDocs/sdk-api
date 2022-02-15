@@ -56,7 +56,7 @@ The <b>AUTHZ_CONTEXT_INFORMATION_CLASS</b> enumeration specifies the type of inf
 
 ## -enum-fields
 
-### -field AuthzContextInfoUserSid
+### -field AuthzContextInfoUserSid:1
 
 Retrieves a <a href="/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a> structure that contains a user <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) and its attribute.
 

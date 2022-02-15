@@ -56,15 +56,15 @@ Indicates what kind of content the subpicture stream contains.
 
 ## -enum-fields
 
-### -field DVD_SPCoding_RunLength
+### -field DVD_SPCoding_RunLength:0
 
 Indicates that the subpicture uses run length encoding.
 
-### -field DVD_SPCoding_Extended
+### -field DVD_SPCoding_Extended:1
 
 Indicates that subpicture uses extended encoding.
 
-### -field DVD_SPCoding_Other
+### -field DVD_SPCoding_Other:2
 
 Indicates that the subpicture uses some other encoding scheme.
 

@@ -59,31 +59,31 @@ Specifies the replicated disk types for the <a href="/windows/desktop/api/clusap
 
 ## -enum-fields
 
-### -field SrReplicatedDiskTypeNone
+### -field SrReplicatedDiskTypeNone:0
 
 None.
 
-### -field SrReplicatedDiskTypeSource
+### -field SrReplicatedDiskTypeSource:1
 
 The source of replication.
 
-### -field SrReplicatedDiskTypeLogSource
+### -field SrReplicatedDiskTypeLogSource:2
 
 A log disk that is the source of replication.
 
-### -field SrReplicatedDiskTypeDestination
+### -field SrReplicatedDiskTypeDestination:3
 
 The destination of replication.
 
-### -field SrReplicatedDiskTypeLogDestination
+### -field SrReplicatedDiskTypeLogDestination:4
 
 A log disk that is the destination of replication.
 
-### -field SrReplicatedDiskTypeNotInParthership
+### -field SrReplicatedDiskTypeNotInParthership:5
 
 The disk is not in a replication partnership.
 
-### -field SrReplicatedDiskTypeLogNotInParthership
+### -field SrReplicatedDiskTypeLogNotInParthership:6
 
 A log disk that is not in a replication partnership.
 

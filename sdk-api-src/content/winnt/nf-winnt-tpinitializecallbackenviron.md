@@ -92,6 +92,6 @@ The thread pool callback environment is subject to default behaviors that can be
 </li>
 </ul>
 Call
-<b>TpInitializeCallbackEnviron</b>to create a callback environment that can be modified. Call <a href="/windows/desktop/api/winnt/nf-winnt-tpdestroycallbackenviron">TpDestroyCallbackEnviron</a> to destroy the callback environment.
+<b>TpInitializeCallbackEnviron</b> to create a callback environment that can be modified. Call <a href="/windows/desktop/api/winnt/nf-winnt-tpdestroycallbackenviron">TpDestroyCallbackEnviron</a> to destroy the callback environment.
 
 This function is implemented as an inline function.

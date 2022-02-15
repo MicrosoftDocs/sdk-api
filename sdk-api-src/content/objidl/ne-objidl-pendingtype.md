@@ -56,11 +56,11 @@ Indicates the level of nesting in the <a href="/windows/desktop/api/objidl/nf-ob
 
 ## -enum-fields
 
-### -field PENDINGTYPE_TOPLEVEL
+### -field PENDINGTYPE_TOPLEVEL:1
 
 Top-level call.
 
-### -field PENDINGTYPE_NESTED
+### -field PENDINGTYPE_NESTED:2
 
 Nested call.
 

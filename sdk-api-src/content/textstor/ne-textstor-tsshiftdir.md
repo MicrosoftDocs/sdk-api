@@ -56,11 +56,11 @@ Elements of the <b>TsShiftDir</b> enumeration specify which direction an anchor 
 
 ## -enum-fields
 
-### -field TS_SD_BACKWARD
+### -field TS_SD_BACKWARD:0
 
 Specifies that the anchor will be moved to the region immediately preceding a range of text.
 
-### -field TS_SD_FORWARD
+### -field TS_SD_FORWARD:1
 
 Specifies that the anchor will be moved to the region immediately following a range of text.
 

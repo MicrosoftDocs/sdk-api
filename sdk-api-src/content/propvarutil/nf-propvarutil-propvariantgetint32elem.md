@@ -76,7 +76,7 @@ When this function, contains the extracted Int32 value.
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -89,12 +89,12 @@ This helper function works for <a href="/windows/desktop/api/propidl/ns-propidl-
 <li>VT_VECTTOR | VT_I4</li>
 <li>VT_ARRAY | VT_I4</li>
 </ul>
-If the source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> has type VT_I4, iElem must be 0. Otherwise, <i>iElem</i>  must be less than the number of elements in the vector or array. You can use <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetelementcount">PropVariantGetElementCount</a>  to obtain the number of elements in the vector or array.
+If the source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> has type VT_I4, iElem must be 0. Otherwise, <i>iElem</i> must be less than the number of elements in the vector or array. You can use <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetelementcount">PropVariantGetElementCount</a>  to obtain the number of elements in the vector or array.
 
 
 #### Examples
 
-The following example uses this <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetint32elem">PropVariantGetInt32Elem</a> with an interation statement to access the values in a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+The following example uses this <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetint32elem">PropVariantGetInt32Elem</a> with an iteration statement to access the values in a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 
 ```cpp

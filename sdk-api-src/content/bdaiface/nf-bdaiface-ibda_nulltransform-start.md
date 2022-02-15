@@ -52,7 +52,7 @@ api_name:
 
 The <b>Start</b> method restarts the transforms on data flowing through the control node.
 
-## -parameters
+
 
 ## -returns
 

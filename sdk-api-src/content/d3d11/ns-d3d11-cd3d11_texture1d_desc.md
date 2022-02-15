@@ -58,7 +58,7 @@ Represents a 1D texture and provides convenience methods for creating 1D texture
 
 Here is how D3D11.h defines <b>CD3D11_TEXTURE1D_DESC</b>:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span><table>
 <tr>
 <th></th>
 </tr>

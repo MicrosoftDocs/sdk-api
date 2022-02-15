@@ -52,7 +52,7 @@ api_name:
 
  Obtains the number of glyphs in the font face.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_FAULT_DESCRIPTION
 title: WS_FAULT_DESCRIPTION (webservices.h)
-description: Information about a mapping between an WS_FAULT and an XML element.
+description: Information about a mapping between a WS_FAULT and an XML element.
 helpviewer_keywords: ["WS_FAULT_DESCRIPTION","WS_FAULT_DESCRIPTION structure [Web Services for Windows]","webservices/WS_FAULT_DESCRIPTION","wsw.ws_fault_description"]
 old-location: wsw\ws_fault_description.htm
 tech.root: wsw

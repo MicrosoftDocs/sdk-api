@@ -56,55 +56,55 @@ Flags to use when importing a PFX certificate.
 
 ## -enum-fields
 
-### -field ImportNone
+### -field ImportNone:0
 
 None
 
-### -field ImportMachineContext
+### -field ImportMachineContext:0x1
 
 Import the PFX certificate into the machine certificate store; otherwise install to the user certificate store.
 
-### -field ImportForceOverwrite
+### -field ImportForceOverwrite:0x2
 
 Overwrite existing certificate, if exists.
 
-### -field ImportSilent
+### -field ImportSilent:0x4
 
 Silently perform the operation (do not show a user interface).
 
-### -field ImportSaveProperties
+### -field ImportSaveProperties:0x8
 
 Save Properties on the imported PFX file.
 
-### -field ImportExportable
+### -field ImportExportable:0x10
 
 Import the PFX certificate’s private key as exportable
 
-### -field ImportExportableEncrypted
+### -field ImportExportableEncrypted:0x20
 
 Import the PFX certificate’s private key as exportable and encrypted.
 
-### -field ImportNoUserProtected
+### -field ImportNoUserProtected:0x40
 
 Import the PFX certificate’s private key to not require consent.
 
-### -field ImportUserProtected
+### -field ImportUserProtected:0x80
 
 Import the PFX certificate’s private key to require consent without a password.
 
-### -field ImportUserProtectedHigh
+### -field ImportUserProtectedHigh:0x100
 
 Import the PFX certificate’s private key to require consent with a password.
 
-### -field ImportInstallCertificate
+### -field ImportInstallCertificate:0x200
 
 Install the PFX certificate to the certificate store.
 
-### -field ImportInstallChain
+### -field ImportInstallChain:0x400
 
 Install the PFX certificate’s chain to the certificate store.
 
-### -field ImportInstallChainAndRoot
+### -field ImportInstallChainAndRoot:0x800
 
 Install the PFX certificate’s chain and root to the certificate store.
 

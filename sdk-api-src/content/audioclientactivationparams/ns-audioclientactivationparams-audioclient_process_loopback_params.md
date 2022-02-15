@@ -51,7 +51,7 @@ The ID of the process for which the render streams, and the render streams of it
 
 ### -field ProcessLoopbackMode
 
-A value from the [PROCESS_LOOPBACK_MODE](ne-audioclientactivationparams-process_loopback_mode.md) enumeration specifying whether the render streams for the process and child processes specified in the *TargetProcessId* field should be included or excluded when activating the audio interface.
+A value from the [PROCESS_LOOPBACK_MODE](ne-audioclientactivationparams-process_loopback_mode.md) enumeration specifying whether the render streams for the process and child processes specified in the *TargetProcessId* field should be included or excluded when activating the audio interface. For sample code that demonstrates the process loopback capture scenario, see the [Application Loopback API Capture Sample](https://docs.microsoft.com/en-us/samples/microsoft/windows-classic-samples/applicationloopbackaudio-sample/).
 
 ## -remarks
 

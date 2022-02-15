@@ -56,25 +56,25 @@ The <b>CREDSPP_SUBMIT_TYPE</b> enumeration specifies the type of credentials spe
 
 ## -enum-fields
 
-### -field CredsspPasswordCreds
+### -field CredsspPasswordCreds:2
 
 The credentials are a user name and password.
 
-### -field CredsspSchannelCreds
+### -field CredsspSchannelCreds:4
 
 The credentials are Schannel credentials.
 
-### -field CredsspCertificateCreds
+### -field CredsspCertificateCreds:13
 
 The credentials are in a certificate.
 
-### -field CredsspSubmitBufferBoth
+### -field CredsspSubmitBufferBoth:50
 
 The credentials contain both certificate and Schannel credentials.
 
-### -field CredsspSubmitBufferBothOld
+### -field CredsspSubmitBufferBothOld:51
 
-### -field CredsspCredEx
+### -field CredsspCredEx:100
 
 ## -see-also
 

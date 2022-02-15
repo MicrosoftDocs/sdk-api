@@ -52,7 +52,7 @@ api_name:
 
 Called when a context cleanup operation is about to begin.
 
-## -parameters
+
 
 ## -returns
 

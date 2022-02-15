@@ -39,7 +39,9 @@
     "mfmediacapture.h",
     "mfspatialaudio.h",
     "mfidl.idl",
-    "mfcontentdecryptionmodule.h"
+    "mfcontentdecryptionmodule.h",
+    "mfvirtualcamera.h",
+    "mfd3d12.h"
   ],
   "displayName": "Microsoft Media Foundation"
 }

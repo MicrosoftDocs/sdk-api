@@ -125,7 +125,9 @@ If you  created the resource as shared and did not specify that it uses NT handl
 
 #### Examples
 
-<pre class="syntax" xml:space="preserve"><code>ID3D11Texture2D* pTexture2D;
+
+``` syntax
+ID3D11Texture2D* pTexture2D;
 ID3D11Device* pDevice;
 
 pDevice-&gt;CreateTexture2D(…, &amp;pTexture2D); // Create the texture as shared with NT HANDLEs.
@@ -139,7 +141,9 @@ pResource-&gt;CreateSharedHandle(NULL,
          &amp;handle);
 
 // Pass the handle to another process to share the resource.
-</code></pre>
+
+```
+
 
 ## -see-also
 

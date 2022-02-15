@@ -58,7 +58,7 @@ Defines the set of valid types for a volume plex.
 
 ## -enum-fields
 
-### -field VDS_VPT_UNKNOWN
+### -field VDS_VPT_UNKNOWN:0
 
 This value is reserved.
 

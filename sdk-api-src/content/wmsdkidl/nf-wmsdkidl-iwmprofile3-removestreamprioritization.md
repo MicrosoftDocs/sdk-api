@@ -55,7 +55,7 @@ api_name:
 
 The <b>RemoveStreamPrioritization</b> method removes the stream prioritization object from the profile.
 
-## -parameters
+
 
 ## -returns
 

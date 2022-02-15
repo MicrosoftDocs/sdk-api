@@ -145,7 +145,7 @@ The initialization method has not been called.
 The returned object enumerates all subsystems currently connected to the network. Use the 
    <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate">IVdsHwProvider::Reenumerate</a> method to 
     discover new subsystems. Use the 
-    <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">IVdsHwProvider::Refresh</a>method to refresh the 
+    <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">IVdsHwProvider::Refresh</a> method to refresh the 
     internally-cached provider data for existing subsystems.
 
 ## -see-also

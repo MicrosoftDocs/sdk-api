@@ -414,13 +414,17 @@ The transport providers allow an application to invoke send and receive operatio
 
 The following C++ code example is a prototype of the completion routine.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 void CALLBACK CompletionROUTINE(
   IN DWORD dwError,
   IN DWORD cbTransferred,
   IN LPWSAOVERLAPPED lpOverlapped,
   IN DWORD dwFlags
-);</code></pre>
+);
+```
+
 The CompletionRoutine function is a placeholder for an application-defined or library-defined function name. The <i>dwError</i> parameter specifies the completion status for the overlapped operation as indicated by <i>lpOverlapped</i>. <i>cbTransferred</i> specifies the number of bytes sent. Currently there are no flag values defined and <i>dwFlags</i> will be zero. This function does not return a value.
 
 Returning from this function allows invocation of another pending completion routine for this socket. All waiting completion routines are called before the alertable thread's wait is satisfied with a return code of <b>WSA_IO_COMPLETION</b>. The completion routines can be called in any order, not necessarily in the same order the overlapped operations are completed. However, the posted buffers are guaranteed to be sent in the same order they are specified.

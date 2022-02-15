@@ -224,7 +224,7 @@ A source voice includes a variable-rate sample rate conversion, to convert data 
 
 
 
-You cannot create any source or submix voices until a mastering voice exists, and you cannot destory a mastering voice if any source or submix voices still exist.
+You cannot create any source or submix voices until a mastering voice exists, and you cannot destroy a mastering voice if any source or submix voices still exist.
 
 
 

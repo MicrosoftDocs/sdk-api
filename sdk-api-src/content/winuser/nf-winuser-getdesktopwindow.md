@@ -63,7 +63,7 @@ req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 
 Retrieves a handle to the desktop window. The desktop window covers the entire screen. The desktop window is the area on top of which other windows are painted.
 
-## -parameters
+
 
 ## -returns
 

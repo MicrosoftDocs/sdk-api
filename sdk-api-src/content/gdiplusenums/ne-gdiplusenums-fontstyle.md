@@ -55,27 +55,27 @@ The <b>FontStyle</b> enumeration specifies the style of the typeface of a font. 
 
 ## -enum-fields
 
-### -field FontStyleRegular
+### -field FontStyleRegular:0
 
 Specifies normal weight or thickness of the typeface.
 
-### -field FontStyleBold
+### -field FontStyleBold:1
 
 Specifies bold typeface. Bold is a heavier weight or thickness.
 
-### -field FontStyleItalic
+### -field FontStyleItalic:2
 
 Specifies italic typeface, which produces a noticeable slant to the vertical stems of the characters.
 
-### -field FontStyleBoldItalic
+### -field FontStyleBoldItalic:3
 
 Specifies the typeface as both bold and italic.
 
-### -field FontStyleUnderline
+### -field FontStyleUnderline:4
 
 Specifies underline, which displays a line underneath the baseline of the characters.
 
-### -field FontStyleStrikeout
+### -field FontStyleStrikeout:8
 
 Specifies strikeout, which displays a horizontal line drawn through the middle of the characters.
 

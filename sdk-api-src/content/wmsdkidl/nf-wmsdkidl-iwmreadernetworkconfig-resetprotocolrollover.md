@@ -55,7 +55,7 @@ api_name:
 
 The <b>ResetProtocolRollover</b> method forces the reader object to use the normal protocol rollover algorithm.
 
-## -parameters
+
 
 ## -returns
 

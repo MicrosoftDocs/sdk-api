@@ -52,7 +52,7 @@ api_name:
 
 Notifies the plug-in that the Remote Desktop Connection (RDC) client has terminated. After a call is made to <b>IWTSPlugin::Terminated</b>, no other calls to the plug-in are expected. Any plug-in cleanup should be done here.
 
-## -parameters
+
 
 ## -returns
 

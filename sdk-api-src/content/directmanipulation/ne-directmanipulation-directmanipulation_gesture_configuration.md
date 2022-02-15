@@ -54,23 +54,23 @@ Defines the gestures that can be passed to <a href="/previous-versions/windows/d
 
 ## -enum-fields
 
-### -field DIRECTMANIPULATION_GESTURE_NONE
+### -field DIRECTMANIPULATION_GESTURE_NONE:0
 
 No gestures are defined.
 
-### -field DIRECTMANIPULATION_GESTURE_DEFAULT
+### -field DIRECTMANIPULATION_GESTURE_DEFAULT:0
 
 Only default gestures are supported. This is the default value.
 
-### -field DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_VERTICAL
+### -field DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_VERTICAL:0x8
 
 Vertical slide and swipe gestures are supported through the cross-slide interaction. For more information, see <a href="/windows/uwp/input-and-devices/guidelines-for-cross-slide">Guidelines for cross-slide</a>.
 
-### -field DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_HORIZONTAL
+### -field DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_HORIZONTAL:0x10
 
 Horizontal slide and swipe gestures are supported through the cross-slide interaction. For more information, see <a href="/windows/uwp/input-and-devices/guidelines-for-cross-slide">Guidelines for cross-slide</a>.
 
-### -field DIRECTMANIPULATION_GESTURE_PINCH_ZOOM
+### -field DIRECTMANIPULATION_GESTURE_PINCH_ZOOM:0x20
 
 Pinch and stretch gestures for zooming.
 

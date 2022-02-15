@@ -54,17 +54,17 @@ Describes how a render target behaves when it presents its content. This enumera
 
 ## -enum-fields
 
-### -field D2D1_PRESENT_OPTIONS_NONE
+### -field D2D1_PRESENT_OPTIONS_NONE:0x00000000
 
 The render target waits until the display refreshes to present and discards the frame upon presenting.
 
-### -field D2D1_PRESENT_OPTIONS_RETAIN_CONTENTS
+### -field D2D1_PRESENT_OPTIONS_RETAIN_CONTENTS:0x00000001
 
 The render target does not discard the frame upon presenting.
 
-### -field D2D1_PRESENT_OPTIONS_IMMEDIATELY
+### -field D2D1_PRESENT_OPTIONS_IMMEDIATELY:0x00000002
 
 The render target does not wait until the display refreshes to present.
 
-### -field D2D1_PRESENT_OPTIONS_FORCE_DWORD
+### -field D2D1_PRESENT_OPTIONS_FORCE_DWORD:0xffffffff
 

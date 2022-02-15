@@ -52,7 +52,7 @@ api_name:
 
 Removes this property condition from the collection of property conditions specified for the file management job.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Closes a file mapping object for a similarity traits table file.
 
-## -parameters
+
 
 ## -remarks
 

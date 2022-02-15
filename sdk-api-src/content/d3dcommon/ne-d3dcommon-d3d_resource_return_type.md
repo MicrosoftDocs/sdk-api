@@ -58,21 +58,21 @@ Indicates return value type.
 
 ## -enum-fields
 
-### -field D3D_RETURN_TYPE_UNORM
+### -field D3D_RETURN_TYPE_UNORM:1
 
-### -field D3D_RETURN_TYPE_SNORM
+### -field D3D_RETURN_TYPE_SNORM:2
 
-### -field D3D_RETURN_TYPE_SINT
+### -field D3D_RETURN_TYPE_SINT:3
 
-### -field D3D_RETURN_TYPE_UINT
+### -field D3D_RETURN_TYPE_UINT:4
 
-### -field D3D_RETURN_TYPE_FLOAT
+### -field D3D_RETURN_TYPE_FLOAT:5
 
-### -field D3D_RETURN_TYPE_MIXED
+### -field D3D_RETURN_TYPE_MIXED:6
 
-### -field D3D_RETURN_TYPE_DOUBLE
+### -field D3D_RETURN_TYPE_DOUBLE:7
 
-### -field D3D_RETURN_TYPE_CONTINUED
+### -field D3D_RETURN_TYPE_CONTINUED:8
 
 ### -field D3D10_RETURN_TYPE_UNORM
 

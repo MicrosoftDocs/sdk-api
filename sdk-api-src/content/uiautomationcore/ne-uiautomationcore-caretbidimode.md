@@ -54,10 +54,10 @@ Contains possible values for the <a href="/windows/desktop/WinAuto/uiauto-textat
 
 ## -enum-fields
 
-### -field CaretBidiMode_LTR
+### -field CaretBidiMode_LTR:0
 
 The caret is in text that flows from left to right.
 
-### -field CaretBidiMode_RTL
+### -field CaretBidiMode_RTL:1
 
 The caret is in text that flows from right to left.

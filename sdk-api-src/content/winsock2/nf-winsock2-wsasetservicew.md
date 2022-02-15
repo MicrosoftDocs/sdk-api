@@ -108,7 +108,7 @@ Delete the service from dynamic name and persistent spaces. For services represe
 
 ### -param dwControlFlags [in]
 
-Service install flags value that further controls the operation performed of the <b>WSASetService</b>function. The possible values for this parameter are defined in the <i>Winsock2.h</i> header file.
+Service install flags value that further controls the operation performed of the <b>WSASetService</b> function. The possible values for this parameter are defined in the <i>Winsock2.h</i> header file.
 
 <table>
 <tr>

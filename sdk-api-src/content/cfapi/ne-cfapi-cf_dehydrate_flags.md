@@ -54,11 +54,11 @@ Placeholder dehydration flags.
 
 ## -enum-fields
 
-### -field CF_DEHYDRATE_FLAG_NONE
+### -field CF_DEHYDRATE_FLAG_NONE:0x00000000
 
 No dehydration flags.
 
-### -field CF_DEHYDRATE_FLAG_BACKGROUND
+### -field CF_DEHYDRATE_FLAG_BACKGROUND:0x00000001
 
 If specified, the caller is a system process running in the background. Otherwise, the caller is performing this operation on behalf of a logged-in user.
 

@@ -56,10 +56,7 @@ The <a href="/previous-versions/windows/desktop/automat/out">ICreateTypeInfo::La
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateTypeInfo2</b> interface inherits from <b>ICreateTypeInfo</b>. <b>ICreateTypeInfo2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ICreateTypeInfo2</b> interface inherits from <b>ICreateTypeInfo</b>. <b>ICreateTypeInfo2</b> also has these types of members:
 
 ## -see-also
 

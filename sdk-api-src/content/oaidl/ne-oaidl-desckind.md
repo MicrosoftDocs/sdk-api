@@ -56,7 +56,7 @@ Identifies the type description being bound to.
 
 ## -enum-fields
 
-### -field DESCKIND_NONE
+### -field DESCKIND_NONE:0
 
 No match was found.
 

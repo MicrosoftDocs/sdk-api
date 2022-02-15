@@ -59,26 +59,26 @@ The <b>VSS_PROVIDER_TYPE</b> enumeration specifies
 
 ## -enum-fields
 
-### -field VSS_PROV_UNKNOWN
+### -field VSS_PROV_UNKNOWN:0
 
 The provider type is unknown. 
      
 
 This indicates an error in the application or the VSS service, or that no provider is available.
 
-### -field VSS_PROV_SYSTEM
+### -field VSS_PROV_SYSTEM:1
 
 The default provider that ships with Windows.
 
-### -field VSS_PROV_SOFTWARE
+### -field VSS_PROV_SOFTWARE:2
 
 A software provider.
 
-### -field VSS_PROV_HARDWARE
+### -field VSS_PROV_HARDWARE:3
 
 A hardware provider.
 
-### -field VSS_PROV_FILESHARE
+### -field VSS_PROV_FILESHARE:4
 
 A file share provider.
 

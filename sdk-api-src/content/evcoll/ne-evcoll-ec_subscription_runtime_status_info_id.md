@@ -58,7 +58,7 @@ The <b>EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID</b> enumeration specifies the valu
 
 ## -enum-fields
 
-### -field EcSubscriptionRunTimeStatusActive
+### -field EcSubscriptionRunTimeStatusActive:0
 
 Get the status of an active or inactive subscription or an event source. This will return an unsigned 32-bit integer value from the <a href="/windows/win32/api/evcoll/ne-evcoll-ec_subscription_runtime_status_active_status">EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS</a> enumeration.
 

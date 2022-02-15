@@ -57,7 +57,7 @@ Specifies various types of storage media. Parameters and members of type **STORA
 
 ## -enum-fields
 
-### -field DDS_4mm
+### -field DDS_4mm:0x20
 
 One of the following tape types: DAT, DDS1, DDS2, and so on.
 

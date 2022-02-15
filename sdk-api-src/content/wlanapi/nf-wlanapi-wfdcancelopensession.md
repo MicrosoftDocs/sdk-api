@@ -116,7 +116,7 @@ The <b>WFDCancelOpenSession</b> function is part of Wi-Fi Direct, a new feature 
 
 A call to the <b>WFDCancelOpenSession</b> function notifies the Wi-Fi Direct service that the client requests a cancellation of this session. The <b>WFDCancelOpenSession</b> function does not modify the expected <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wfdstartopensession">WFDStartOpenSession</a> behavior. The  callback function specified to the <b>WFDStartOpenSession</b> function will still be called, and the <b>WFDStartOpenSession</b> function may not be completed immediately.
 
-It is the responsibility of the caller to pass the <b>WFDCancelOpenSession</b> function a handle in the <i>hSessionHandle </i>parameter that was returned from call to the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wfdstartopensession">WFDStartOpenSession</a> function.
+It is the responsibility of the caller to pass the <b>WFDCancelOpenSession</b> function a handle in the <i>hSessionHandle </i> parameter that was returned from call to the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wfdstartopensession">WFDStartOpenSession</a> function.
 
 ## -see-also
 

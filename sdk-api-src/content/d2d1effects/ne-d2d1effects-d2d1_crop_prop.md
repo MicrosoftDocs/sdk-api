@@ -54,7 +54,7 @@ Identifiers for properties of the <a href="/windows/desktop/Direct2D/crop">Crop 
 
 ## -enum-fields
 
-### -field D2D1_CROP_PROP_RECT
+### -field D2D1_CROP_PROP_RECT:0
 
 The region to be cropped specified as a vector in the form (left, top, width, height). Units are in DIPs.
             
@@ -66,7 +66,7 @@ Type is <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_4f">D2D1_VEC
 
 Default value is {-FLT_MAX, -FLT_MAX, FLT_MAX, FLT_MAX}
 
-### -field D2D1_CROP_PROP_BORDER_MODE
+### -field D2D1_CROP_PROP_BORDER_MODE:1
 
 Indicates how the effect handles the crop rectangle falling on fractional pixel coordinates.
           
@@ -75,4 +75,4 @@ Type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border_mod
 
 Default value is D2D1_BORDER_MODE_SOFT.
 
-### -field D2D1_CROP_PROP_FORCE_DWORD
+### -field D2D1_CROP_PROP_FORCE_DWORD:0xffffffff

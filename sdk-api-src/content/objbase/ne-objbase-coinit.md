@@ -56,7 +56,7 @@ Determines the concurrency model used for incoming calls to objects created by t
 
 ## -enum-fields
 
-### -field COINIT_APARTMENTTHREADED
+### -field COINIT_APARTMENTTHREADED:0x2
 
 Initializes the thread for apartment-threaded object concurrency (see Remarks).
 
@@ -64,11 +64,11 @@ Initializes the thread for apartment-threaded object concurrency (see Remarks).
 
 Initializes the thread for multithreaded object concurrency (see Remarks).
 
-### -field COINIT_DISABLE_OLE1DDE
+### -field COINIT_DISABLE_OLE1DDE:0x4
 
 Disables DDE for OLE1 support.
 
-### -field COINIT_SPEED_OVER_MEMORY
+### -field COINIT_SPEED_OVER_MEMORY:0x8
 
 Increase memory usage in an attempt to increase performance.
 

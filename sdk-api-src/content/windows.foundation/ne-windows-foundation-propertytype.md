@@ -54,167 +54,167 @@ Identifies the type that is stored in a Windows Runtime object that implements t
 
 ## -enum-fields
 
-### -field PropertyType_Empty
+### -field PropertyType_Empty:0
 
 The object does not contain a value.
 
-### -field PropertyType_UInt8
+### -field PropertyType_UInt8:1
 
 The object contains an unsigned 8-bit integer.
 
-### -field PropertyType_Int16
+### -field PropertyType_Int16:2
 
 The object contains a signed 16-bit integer.
 
-### -field PropertyType_UInt16
+### -field PropertyType_UInt16:3
 
 The object contains an unsigned 16-bit integer.
 
-### -field PropertyType_Int32
+### -field PropertyType_Int32:4
 
 The object contains a signed 32-bit integer.
 
-### -field PropertyType_UInt32
+### -field PropertyType_UInt32:5
 
 The object contains an unsigned 32-bit integer.
 
-### -field PropertyType_Int64
+### -field PropertyType_Int64:6
 
 The object contains a signed 64-bit integer.
 
-### -field PropertyType_UInt64
+### -field PropertyType_UInt64:7
 
 The object contains an unsigned 64-bit integer.
 
-### -field PropertyType_Single
+### -field PropertyType_Single:8
 
 The object contains a 32-bit floating point value. This value conforms to the IEEE 754 standard.
 
-### -field PropertyType_Double
+### -field PropertyType_Double:9
 
 The object contains a 64-bit floating point value. This value conforms to the IEEE 754 standard.
 
-### -field PropertyType_Char16
+### -field PropertyType_Char16:10
 
 The object contains a 16-bit character. This character represents a UTF-16 (Unicode) code unit.
 
-### -field PropertyType_Boolean
+### -field PropertyType_Boolean:11
 
 The object contains an 8-bit Boolean value.
 
-### -field PropertyType_String
+### -field PropertyType_String:12
 
 The object contains an <a href="/windows/desktop/WinRT/hstring">HSTRING</a>.
 
-### -field PropertyType_Inspectable
+### -field PropertyType_Inspectable:13
 
 The object contains an object that implements the <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> interface.
 
-### -field PropertyType_DateTime
+### -field PropertyType_DateTime:14
 
 The object contains a <a href="/windows/desktop/api/windows.foundation/ns-windows-foundation-datetime">DateTime</a>.
 
-### -field PropertyType_TimeSpan
+### -field PropertyType_TimeSpan:15
 
 The object contains a <a href="/windows/desktop/api/windows.foundation/ns-windows-foundation-timespan">TimeSpan</a>.
 
-### -field PropertyType_Guid
+### -field PropertyType_Guid:16
 
 The object contains a GUID.
 
-### -field PropertyType_Point
+### -field PropertyType_Point:17
 
 The object contains a <a href="/windows/desktop/api/windows.foundation/ns-windows-foundation-point">Point</a>.
 
-### -field PropertyType_Size
+### -field PropertyType_Size:18
 
 The object contains a <a href="/windows/desktop/api/windows.foundation/ns-windows-foundation-size">Size</a>.
 
-### -field PropertyType_Rect
+### -field PropertyType_Rect:19
 
 The object contains a <a href="/windows/desktop/api/windows.foundation/ns-windows-foundation-rect">Rect</a>.
 
-### -field PropertyType_OtherType
+### -field PropertyType_OtherType:20
 
 The object contains an unspecified type.
 
-### -field PropertyType_UInt8Array
+### -field PropertyType_UInt8Array:1025
 
 The object contains an array of unsigned 8-bit integers.
 
-### -field PropertyType_Int16Array
+### -field PropertyType_Int16Array:1026
 
 The object contains an array of signed 16-bit integers.
 
-### -field PropertyType_UInt16Array
+### -field PropertyType_UInt16Array:1027
 
 The object contains an array of unsigned 16-bit integers.
 
-### -field PropertyType_Int32Array
+### -field PropertyType_Int32Array:1028
 
 The object contains an array of signed 32-bit integers.
 
-### -field PropertyType_UInt32Array
+### -field PropertyType_UInt32Array:1029
 
 The object contains an array of unsigned 32-bit integers.
 
-### -field PropertyType_Int64Array
+### -field PropertyType_Int64Array:1030
 
 The object contains an array of signed 64-bit integers.
 
-### -field PropertyType_UInt64Array
+### -field PropertyType_UInt64Array:1031
 
 The object contains an array of unsigned 64-bit integers.
 
-### -field PropertyType_SingleArray
+### -field PropertyType_SingleArray:1032
 
 The object contains an array of 32-bit floating point values.
 
-### -field PropertyType_DoubleArray
+### -field PropertyType_DoubleArray:1033
 
 The object contains an array of 64-bit floating point values.
 
-### -field PropertyType_Char16Array
+### -field PropertyType_Char16Array:1034
 
 The object contains an array of 16-bit characters.
 
-### -field PropertyType_BooleanArray
+### -field PropertyType_BooleanArray:1035
 
 The object contains an array of 8-bit Boolean values.
 
-### -field PropertyType_StringArray
+### -field PropertyType_StringArray:1036
 
 The object contains an array of <a href="/windows/desktop/WinRT/hstring">HSTRING</a>.
 
-### -field PropertyType_InspectableArray
+### -field PropertyType_InspectableArray:1037
 
 The object contains an array of objects that implement the <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> interface.
 
-### -field PropertyType_DateTimeArray
+### -field PropertyType_DateTimeArray:1038
 
 The object contains an array of <a href="/windows/desktop/api/windows.foundation/ns-windows-foundation-datetime">DateTime</a>.
 
-### -field PropertyType_TimeSpanArray
+### -field PropertyType_TimeSpanArray:1039
 
 The object contains an array of <a href="/windows/desktop/api/windows.foundation/ns-windows-foundation-timespan">TimeSpan</a>.
 
-### -field PropertyType_GuidArray
+### -field PropertyType_GuidArray:1040
 
 The object contains an array of GUIDs.
 
-### -field PropertyType_PointArray
+### -field PropertyType_PointArray:1041
 
 The object contains an array of <a href="/windows/desktop/api/windows.foundation/ns-windows-foundation-point">Point</a>.
 
-### -field PropertyType_SizeArray
+### -field PropertyType_SizeArray:1042
 
 The object contains an array of <a href="/windows/desktop/api/windows.foundation/ns-windows-foundation-size">Size</a>.
 
-### -field PropertyType_RectArray
+### -field PropertyType_RectArray:1043
 
 The object contains an array of <a href="/windows/desktop/api/windows.foundation/ns-windows-foundation-rect">Rect</a>.
 
-### -field PropertyType_OtherTypeArray
+### -field PropertyType_OtherTypeArray:1044
 
 The object contains an array of an unspecified type.
 

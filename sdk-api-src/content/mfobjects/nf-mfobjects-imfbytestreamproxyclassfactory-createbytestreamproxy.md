@@ -64,7 +64,7 @@ Reserved. Set to <b>NULL</b>.
 
 ### -param riid [in]
 
-The interface identifer (IID) of the interface being requested.
+The interface identifier (IID) of the interface being requested.
 
 ### -param ppvObject [out]
 
@@ -72,7 +72,7 @@ Receives a pointer to the interface. The caller must release the interface.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

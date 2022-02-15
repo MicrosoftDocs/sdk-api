@@ -57,7 +57,7 @@ The
 
 ## -enum-fields
 
-### -field NTMS_UNKNOWN
+### -field NTMS_UNKNOWN:0
 
 Unknown  object.
 

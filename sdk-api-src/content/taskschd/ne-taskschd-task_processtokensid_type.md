@@ -56,15 +56,15 @@ Defines the types of process security identifier (SID) that can be used by tasks
 
 ## -enum-fields
 
-### -field TASK_PROCESSTOKENSID_NONE
+### -field TASK_PROCESSTOKENSID_NONE:0
 
 No changes will be made to the process token groups list.
 
-### -field TASK_PROCESSTOKENSID_UNRESTRICTED
+### -field TASK_PROCESSTOKENSID_UNRESTRICTED:1
 
 A task SID that is derived from the task name will be added to the process token groups list, and  the token default discretionary access control list (DACL) will be modified to allow only the task SID and local system full control and the account SID read control.
 
-### -field TASK_PROCESSTOKENSID_DEFAULT
+### -field TASK_PROCESSTOKENSID_DEFAULT:2
 
 A Task Scheduler will apply default settings to the task process.
 

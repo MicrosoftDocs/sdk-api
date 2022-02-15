@@ -66,7 +66,7 @@ A pointer to the <i>DDInstall</i> section name (as specified in an <a href="/win
 
 ### -param AlternatePlatformInfo [in, optional]
 
-A pointer, if non-<b>NULL</b>, to an <a href="/previous-versions/windows/hardware/previsioning-framework/ff552338(v=vs.85)">SP_ALTPLATFORM_INFO</a> structure. This structure is used to specify an operating system and processor architecture that is different from that on the local computer. To return the <i>DDInstall </i>section name for the local computer, set this parameter to <b>NULL</b>. Otherwise, provide an SP_ALTPLATFORM structure and set its members as follows:
+A pointer, if non-<b>NULL</b>, to an <a href="/windows/win32/api/setupapi/ns-setupapi-sp_altplatform_info_v2">SP_ALTPLATFORM_INFO</a> structure. This structure is used to specify an operating system and processor architecture that is different from that on the local computer. To return the <i>DDInstall</i> section name for the local computer, set this parameter to <b>NULL</b>. Otherwise, provide an SP_ALTPLATFORM structure and set its members as follows:
 
 
 

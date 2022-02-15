@@ -52,7 +52,7 @@ api_name:
 
 Returns the number of objects in a rich edit control that are links.
 
-## -parameters
+
 
 ## -returns
 

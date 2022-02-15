@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[The <b>StgOpenAsyncDocfileOnIFillLockBytes</b> function is obsolete. The following information is provided to support  versions of Windows prior to Windows 2000.]
 
-The <b>StgOpenAsyncDocfileOnIFillLockBytes</b>opens an existing root asynchronous storage object on a byte-array wrapper object provided by the caller.
+The <b>StgOpenAsyncDocfileOnIFillLockBytes</b> opens an existing root asynchronous storage object on a byte-array wrapper object provided by the caller.
 
 ## -parameters
 

@@ -56,7 +56,7 @@ The <b>IKEEXT_CERT_CRITERIA_NAME_TYPE</b> enumerated type specifies the type of 
 
 ## -enum-fields
 
-### -field IKEEXT_CERT_CRITERIA_DNS
+### -field IKEEXT_CERT_CRITERIA_DNS:0
 
 DNS name in the Subject Alternative Name of the certificate.
 

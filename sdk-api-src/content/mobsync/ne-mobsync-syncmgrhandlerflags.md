@@ -56,19 +56,19 @@ Used in the <a href="/windows/desktop/api/mobsync/ns-mobsync-syncmgrhandlerinfo"
 
 ## -enum-fields
 
-### -field SYNCMGRHANDLER_HASPROPERTIES
+### -field SYNCMGRHANDLER_HASPROPERTIES:0x1
 
 The current handler provides a property sheet dialog.
 
-### -field SYNCMGRHANDLER_MAYESTABLISHCONNECTION
+### -field SYNCMGRHANDLER_MAYESTABLISHCONNECTION:0x2
 
 May call back the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-establishconnection">ISyncMgrSynchronizeCallback::EstablishConnection</a> method. This value is ignored in <b>Windows Vista and later</b>.
 
-### -field SYNCMGRHANDLER_ALWAYSLISTHANDLER
+### -field SYNCMGRHANDLER_ALWAYSLISTHANDLER:0x4
 
 Indicates Show Handler in Choice even if items are not shown. This value is ignored in <b>Windows Vista and later</b>.
 
-### -field SYNCMGRHANDLER_HIDDEN
+### -field SYNCMGRHANDLER_HIDDEN:0x8
 
 <b>Windows Vista and later</b>. Do not display handler or item.  This value is ignored by <b>Windows Vista</b>.
 

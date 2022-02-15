@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>LsaSetDomainInformationPolicy</b> function sets domain information to the  <a href="/windows/desktop/SecMgmt/policy-object">Policy</a>object.
+The <b>LsaSetDomainInformationPolicy</b> function sets domain information to the  <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> object.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ A handle to the <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> obje
 
 ### -param InformationClass [in]
 
-<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_domain_information_class">POLICY_DOMAIN_INFORMATION_CLASS</a> enumeration that specifies the information to be set to the  <a href="/windows/desktop/SecMgmt/policy-object">Policy</a>object. The following table shows the possible values.
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_domain_information_class">POLICY_DOMAIN_INFORMATION_CLASS</a> enumeration that specifies the information to be set to the  <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> object. The following table shows the possible values.
 
 <table>
 <tr>
@@ -91,7 +91,7 @@ The information is for a Kerberos ticket.
 
 ### -param Buffer [in]
 
-Pointer to a buffer that contains  the  information to set to the  <a href="/windows/desktop/SecMgmt/policy-object">Policy</a>object.
+Pointer to a buffer that contains  the  information to set to the  <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> object.
 
 ## -returns
 
@@ -122,4 +122,4 @@ The policy database is
 
 ## -remarks
 
-The POLICY_TRUST_ADMIN access type is required to set domain information to the  <a href="/windows/desktop/SecMgmt/policy-object">Policy</a>object. For more information, see <a href="/windows/desktop/SecMgmt/policy-object-access-rights">Policy Object Access Rights</a>.
+The POLICY_TRUST_ADMIN access type is required to set domain information to the  <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> object. For more information, see <a href="/windows/desktop/SecMgmt/policy-object-access-rights">Policy Object Access Rights</a>.

@@ -142,8 +142,12 @@ Include <a href="/windows/desktop/SecGloss/c-gly">certificate revocation lists</
 
 For example, to retrieve a binary certificate with complete certificate chain in C++ you would write the following.
 
-<pre class="syntax" xml:space="preserve"><code>hResult = pCertReq-&gt;GetCACertificate(FALSE, bstrConfig,
-     CR_OUT_BINARY | CR_OUT_CHAIN, &amp;bstrCert);</code></pre>
+
+``` syntax
+hResult = pCertReq-&gt;GetCACertificate(FALSE, bstrConfig,
+     CR_OUT_BINARY | CR_OUT_CHAIN, &amp;bstrCert);
+```
+
 
 ### -param pstrCertificate [out]
 

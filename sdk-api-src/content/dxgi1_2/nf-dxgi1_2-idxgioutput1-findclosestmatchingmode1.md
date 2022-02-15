@@ -60,7 +60,7 @@ Finds the display mode that most closely matches the requested display mode.
 A pointer to the <a href="/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_mode_desc1">DXGI_MODE_DESC1</a> structure that describes the display mode to match. Members of <b>DXGI_MODE_DESC1</b> can be unspecified, which indicates no preference for 
         that member.  A value of 0 for <b>Width</b> or <b>Height</b> indicates that the value is unspecified.  If either <b>Width</b> or 
         <b>Height</b> is 0, both must be 0.  A numerator and denominator of 0 in <b>RefreshRate</b> indicate it is unspecified. Other members 
-        of <b>DXGI_MODE_DESC1</b> have enumeration values that indicate that the member is unspecified.  If <i>pConcernedDevice</i> is <b>NULL</b>, the <b>Format</b>member of <b>DXGI_MODE_DESC1</b> cannot be <b>DXGI_FORMAT_UNKNOWN</b>.
+        of <b>DXGI_MODE_DESC1</b> have enumeration values that indicate that the member is unspecified.  If <i>pConcernedDevice</i> is <b>NULL</b>, the <b>Format</b> member of <b>DXGI_MODE_DESC1</b> cannot be <b>DXGI_FORMAT_UNKNOWN</b>.
 
 ### -param pClosestMatch [out]
 

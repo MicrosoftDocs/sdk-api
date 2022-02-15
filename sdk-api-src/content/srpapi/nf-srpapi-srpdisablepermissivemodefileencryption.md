@@ -59,7 +59,7 @@ Use <a href="/previous-versions/windows/desktop/api/srpapi/nf-srpapi-srpenablepe
 
 This API does not attempt to handle nested calls by reference counting or such. The first call to <b>SrpDisablePermissiveModeFileEncryption</b> will disable the permissive mode.
 
-## -parameters
+
 
 ## -returns
 

@@ -56,15 +56,15 @@ Specifies the requested access mode for opening a file.
 
 ## -enum-fields
 
-### -field MF_ACCESSMODE_READ
+### -field MF_ACCESSMODE_READ:1
 
 Read mode.
 
-### -field MF_ACCESSMODE_WRITE
+### -field MF_ACCESSMODE_WRITE:2
 
 Write mode.
 
-### -field MF_ACCESSMODE_READWRITE
+### -field MF_ACCESSMODE_READWRITE:3
 
 Read and write mode.
 

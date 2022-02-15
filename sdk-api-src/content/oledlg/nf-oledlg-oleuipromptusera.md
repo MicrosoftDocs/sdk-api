@@ -366,11 +366,15 @@ Errors common to all dialog boxes lie in the range OLEUI_ERR_STANDARDMIN to OLEU
 
 The following dialog box templates are defined in Windows Interface Guidelines--A Guide for Designing Software. The nTemplate parameter must be a currently defined resource, however, additional templates can be added to prompt.dlg.
 
-<pre class="syntax" xml:space="preserve"><code>IDD_LINKSOURCEUNAVAILABLE 
+
+``` syntax
+IDD_LINKSOURCEUNAVAILABLE 
 IDD_CANNOTUPDATELINK 
 IDD_SERVERNOTREG 
 IDD_CANNOTRESPONDVERB 
-IDD_SERVERNOTFOUND </code></pre>
+IDD_SERVERNOTFOUND 
+```
+
 
 
 

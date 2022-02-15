@@ -52,7 +52,7 @@ api_name:
 
 Clears the handler for timer client status change events.
 
-## -parameters
+
 
 ## -returns
 

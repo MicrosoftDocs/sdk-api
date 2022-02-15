@@ -52,7 +52,7 @@ api_name:
 
 The <b>EngCreateClip</b> function creates a <a href="/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure that the driver uses in callbacks.
 
-## -parameters
+
 
 ## -returns
 

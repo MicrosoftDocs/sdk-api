@@ -58,7 +58,7 @@ Defines the details of file-system compression.
 
 ## -enum-fields
 
-### -field VDS_FPF_COMPRESSED
+### -field VDS_FPF_COMPRESSED:0x1
 
 If set, the file system supports file compression.
 

@@ -52,7 +52,7 @@ api_name:
 
 Disconnects a server stub from any interface to which it is connected.
 
-## -parameters
+
 
 ## -see-also
 

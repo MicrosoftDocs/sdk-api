@@ -54,10 +54,7 @@ The <b>IWMDMStorage4</b> interface extends <b>IWMDMStorage3</b> by providing met
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMStorage4</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage3">IWMDMStorage3</a>. <b>IWMDMStorage4</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWMDMStorage4</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage3">IWMDMStorage3</a>. <b>IWMDMStorage4</b> also has these types of members:
 
 ## -see-also
 

@@ -54,14 +54,14 @@ The <b>IX509NameValuePair</b> interface represents a generic name-value pair. Al
 
 
 <dl>
-<dt><a id="name-value_pairs_and_the_enrollment_object_"></a><a id="NAME-VALUE_PAIRS_AND_THE_ENROLLMENT_OBJECT_"></a>name-value pairs and the enrollment object:</dt>
+<dt><a id="name-value_pairs_and_the_enrollment_object_"></a><a id="NAME-VALUE_PAIRS_AND_THE_ENROLLMENT_OBJECT_"></a> name-value pairs and the enrollment object:</dt>
 <dd>
 Before an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a> object submits a certificate request to a certification authority (CA), the name-value collection is encoded as a concatenated  attribute string that has the format <i>Name1</i>:<i>Value1</i>&#92;<i>Name2</i>:<i>Value2</i>\. You can retrieve the collection by calling the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment-get_namevaluepairs">NameValuePairs</a> property. You can use the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509namevaluepairs">IX509NameValuePairs</a> object to add name-value pairs to the collection.
 
 </dd>
 </dl>
 <dl>
-<dt><a id="name-value_pairs_and_the_CMC_request_object_"></a><a id="name-value_pairs_and_the_cmc_request_object_"></a><a id="NAME-VALUE_PAIRS_AND_THE_CMC_REQUEST_OBJECT_"></a>name-value pairs and the CMC request object:</dt>
+<dt><a id="name-value_pairs_and_the_CMC_request_object_"></a><a id="name-value_pairs_and_the_cmc_request_object_"></a><a id="NAME-VALUE_PAIRS_AND_THE_CMC_REQUEST_OBJECT_"></a> name-value pairs and the CMC request object:</dt>
 <dd>
 A CMC request object (<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>) contains sequences of <b>TaggedAttribute</b>, <b>TaggedRequest</b>, and <b>TaggedContentInfo</b> ASN.1 structures. For more information,  see <a href="/windows/desktop/SecCertEnroll/cmc-attributes">CMC Attributes</a>
 
@@ -76,7 +76,9 @@ The <b>TaggedAttribute</b> structure can contain a <b>RegInfo</b> attribute. Thi
 
 The following example shows the ASN.1 output for a CMC certificate that contains a <b>RegInfo</b> attribute that contains a single name-value pair of "RequesterName=Domain\TargetUser".
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 ...
 30 33              ; SEQUENCE (33 Bytes)
    02 01                            ; INTEGER (1 Bytes)
@@ -90,17 +92,15 @@ The following example shows the ASN.1 output for a CMC certificate that contains
       6d 61 69 6e 25 35 43 54  61 72 67 65 74 55 73 65  ; main%5CTargetUse
       72 26                                             ; r&amp; 
 ...
-</code></pre>
+
+```
+
 </dd>
 </dl>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509NameValuePair</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509NameValuePair</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IX509NameValuePair</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509NameValuePair</b> also has these types of members:
 
 ## -see-also
 

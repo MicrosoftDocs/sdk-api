@@ -54,6 +54,6 @@ Defines the population policy modifiers. This is a modifier that can be used wit
 
 ## -enum-fields
 
-### -field CF_POPULATION_POLICY_MODIFIER_NONE
+### -field CF_POPULATION_POLICY_MODIFIER_NONE:0x0000
 
 No policy modifier.

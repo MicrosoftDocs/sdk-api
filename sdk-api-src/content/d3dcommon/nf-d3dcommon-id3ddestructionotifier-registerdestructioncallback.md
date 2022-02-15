@@ -68,7 +68,7 @@ Pointer to a **UINT** used to identify the callback, and to pass to <a href="./n
 
 Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
 
-If this function suceeds, it returns **S_OK**.
+If this function succeeds, it returns **S_OK**.
 
 ## -remarks
 

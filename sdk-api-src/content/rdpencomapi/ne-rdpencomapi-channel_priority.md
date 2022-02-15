@@ -56,7 +56,7 @@ Defines values for the priority used to send packets on the channel.
 
 ## -enum-fields
 
-### -field CHANNEL_PRIORITY_LO
+### -field CHANNEL_PRIORITY_LO:0
 
 Send the packets at a low priority.
 

@@ -10,8 +10,8 @@ req.header: wlanapi.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -44,7 +44,7 @@ The <b>WLAN_ADHOC_NETWORK_STATE</b>  enumerated type specifies the connection st
 
 ## -enum-fields
 
-### -field wlan_adhoc_network_state_formed
+### -field wlan_adhoc_network_state_formed:0
 
 The ad hoc network has been formed, but no client or host is connected to the network.
 

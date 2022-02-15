@@ -58,15 +58,15 @@ Defines the failure types for cluster resources.
 
 ## -enum-fields
 
-### -field FAILURE_TYPE_GENERAL
+### -field FAILURE_TYPE_GENERAL:0
 
 A general failure.
 
-### -field FAILURE_TYPE_EMBEDDED
+### -field FAILURE_TYPE_EMBEDDED:1
 
 An embedded failure.
 
-### -field FAILURE_TYPE_NETWORK_LOSS
+### -field FAILURE_TYPE_NETWORK_LOSS:2
 
 A network failure.
 

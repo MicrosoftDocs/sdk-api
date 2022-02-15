@@ -53,7 +53,7 @@ api_name:
 
 Removes all nodes from the topology.
 
-## -parameters
+
 
 ## -returns
 

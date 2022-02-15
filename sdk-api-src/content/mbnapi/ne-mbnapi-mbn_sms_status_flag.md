@@ -59,14 +59,14 @@ These enumerated values are used in a bitfield by the <a href="/windows/desktop/
 
 ## -enum-fields
 
-### -field MBN_SMS_FLAG_NONE
+### -field MBN_SMS_FLAG_NONE:0
 
 There is no SMS status information to report.
 
-### -field MBN_SMS_FLAG_MESSAGE_STORE_FULL
+### -field MBN_SMS_FLAG_MESSAGE_STORE_FULL:0x1
 
 The message store is full.
 
-### -field MBN_SMS_FLAG_NEW_MESSAGE
+### -field MBN_SMS_FLAG_NEW_MESSAGE:0x2
 
 A new non-class 0 message has been received by the interface.

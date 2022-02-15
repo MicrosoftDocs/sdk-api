@@ -54,23 +54,23 @@ Specifies the context in which a query occurs.
 
 ## -enum-fields
 
-### -field D3D11_CONTEXT_TYPE_ALL
+### -field D3D11_CONTEXT_TYPE_ALL:0
 
 The query can occur in all contexts.
 
-### -field D3D11_CONTEXT_TYPE_3D
+### -field D3D11_CONTEXT_TYPE_3D:1
 
 The query occurs in the context of a 3D command queue.
 
-### -field D3D11_CONTEXT_TYPE_COMPUTE
+### -field D3D11_CONTEXT_TYPE_COMPUTE:2
 
 The query occurs in the context of a 3D compute queue.
 
-### -field D3D11_CONTEXT_TYPE_COPY
+### -field D3D11_CONTEXT_TYPE_COPY:3
 
 The query occurs in the context of a 3D copy queue.
 
-### -field D3D11_CONTEXT_TYPE_VIDEO
+### -field D3D11_CONTEXT_TYPE_VIDEO:4
 
 The query occurs in the context of video.
 

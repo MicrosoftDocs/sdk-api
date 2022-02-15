@@ -53,7 +53,7 @@ api_name:
 Closes a currently open audio track. All audio tracks must be closed before the 
 <a href="/windows/desktop/api/imapi/nf-imapi-idiscmaster-recorddisc">IDiscMaster::RecordDisc</a> method can be called.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Determines whether any printers connected to this computer are shared.
 
-## -parameters
+
 
 ## -returns
 

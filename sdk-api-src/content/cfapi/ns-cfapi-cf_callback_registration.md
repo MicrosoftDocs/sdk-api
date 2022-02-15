@@ -56,7 +56,7 @@ The callbacks to be registered by the sync provider.
 
 ### -field Type
 
-The type of callback to be registered.
+The type of callback to be registered. See: [CF_CALLBACK_TYPE](./ne-cfapi-cf_callback_type.md).
 
 ### -field Callback
 

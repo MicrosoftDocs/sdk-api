@@ -54,7 +54,7 @@ The <b>FAX_PROVIDER_STATUS_ENUM</b> enumeration defines the status values for a 
 
 ## -enum-fields
 
-### -field fpsSUCCESS
+### -field fpsSUCCESS:0
 
 The extension loaded, linked, and initialized successfully.
 

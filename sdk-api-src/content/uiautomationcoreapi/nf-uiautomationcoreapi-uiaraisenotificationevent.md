@@ -48,7 +48,6 @@ api_name:
 
 # UiaRaiseNotificationEvent function
 
-
 ## -description
 
 Called by providers to initiate a notification event.
@@ -79,3 +78,6 @@ A unique non-localized string to identify an action or group of actions. Use thi
 
 If this function succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 
+## -remarks
+
+If your window uses the [`WS_POPUP`](/windows/win32/winmsg/window-styles) style, it must also implement the [Window Control Pattern](/windows/win32/winauto/uiauto-implementingwindow) and handle the [WM_GETOBJECT](/windows/win32/winauto/wm-getobject) message (see [How to Expose a Server-Side UI Automation Provider](/windows/win32/winauto/uiauto-howto-expose-serverside-uiautomation-provider) for more details).

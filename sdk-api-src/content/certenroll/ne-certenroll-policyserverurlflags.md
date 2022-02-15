@@ -54,29 +54,29 @@ The <b>PolicyServerUrlFlags</b> enumeration contains certificate enrollment poli
 
 ## -enum-fields
 
-### -field PsfNone
+### -field PsfNone:0
 
 No flags are specified.
 
-### -field PsfLocationGroupPolicy
+### -field PsfLocationGroupPolicy:1
 
 Policy information is specified in group policy by an administrator.
 
-### -field PsfLocationRegistry
+### -field PsfLocationRegistry:2
 
 Policy information is specified in the registry.
 
-### -field PsfUseClientId
+### -field PsfUseClientId:4
 
 Specifies that certificate enrollments and renewals include client specific data in a <b>ClientId</b> attribute. Examples include the name of the cryptographic service provider, the Windows version number, the user name, the computer DNS name, and the domain controller DNS name. This flag can be set by group policy.
 
 This flag has been included to address privacy concerns that can arise during enrollment to servers that are managed by administrators other than those who manage the forest in which the user resides. By not setting this flag, you can prevent sending personal information to non-local administrators.
 
-### -field PsfAutoEnrollmentEnabled
+### -field PsfAutoEnrollmentEnabled:16
 
 Automatic certificate enrollment is enabled.
 
-### -field PsfAllowUnTrustedCA
+### -field PsfAllowUnTrustedCA:32
 
 Specifies that the certificate of the issuing CA need not be trusted by the client to install a certificate signed by the CA.
 

@@ -47,7 +47,7 @@ Default activation.
 
 ### -field AUDIOCLIENT_ACTIVATION_TYPE_PROCESS_LOOPBACK
 
-Process loopback activation, allowing for the inclusion or exclusion of audio rendered by the specified process and its child processes.
+Process loopback activation, allowing for the inclusion or exclusion of audio rendered by the specified process and its child processes. For sample code that demonstrates the process loopback capture scenario, see the [Application Loopback API Capture Sample](https://docs.microsoft.com/en-us/samples/microsoft/windows-classic-samples/applicationloopbackaudio-sample/).
 
 ## -remarks
 

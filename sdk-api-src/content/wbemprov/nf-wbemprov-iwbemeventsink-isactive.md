@@ -54,8 +54,8 @@ The
 <b>IWbemEventSink::IsActive</b> method is used by the provider to determine if there is interest in the events that the sink is filtering. In the case of a restricted sink, these events are defined by the queries passed to 
 <a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventsink-getrestrictedsink">GetRestrictedSink</a>. In the case where it is not a restricted sink, these events are defined by the queries in the event provider's registration. In the latter, the sink is always active.
 
-## -parameters
+
 
 ## -returns
 
-This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained withinan <b>HRESULT</b>.
+This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.

@@ -52,7 +52,7 @@ api_name:
 
 Closes a word wheel.
 
-## -parameters
+
 
 ## -returns
 

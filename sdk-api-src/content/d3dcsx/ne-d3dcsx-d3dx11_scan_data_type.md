@@ -54,7 +54,7 @@ Type for scan data.
 
 ## -enum-fields
 
-### -field D3DX11_SCAN_DATA_TYPE_FLOAT
+### -field D3DX11_SCAN_DATA_TYPE_FLOAT:1
 
 FLOAT data.
 

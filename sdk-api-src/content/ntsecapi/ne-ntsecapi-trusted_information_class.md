@@ -62,7 +62,7 @@ Each value has an associated structure that the
 
 ## -enum-fields
 
-### -field TrustedDomainNameInformation
+### -field TrustedDomainNameInformation:1
 
 Query or set the name of a trusted domain. Use the 
 <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_name_info">TRUSTED_DOMAIN_NAME_INFO</a> structure.

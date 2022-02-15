@@ -59,11 +59,11 @@ Defines the set of valid flags for specifying iSCSI target login options.
 
 ## -enum-fields
 
-### -field VDS_ILF_REQUIRE_IPSEC
+### -field VDS_ILF_REQUIRE_IPSEC:0x1
 
 Reserved for future use.
 
-### -field VDS_ILF_MULTIPATH_ENABLED
+### -field VDS_ILF_MULTIPATH_ENABLED:0x2
 
 If this flag is set, the login is allowed to proceed and create a new login session even if there is already a login session to the target.
       

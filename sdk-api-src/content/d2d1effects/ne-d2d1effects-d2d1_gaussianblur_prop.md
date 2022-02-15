@@ -54,7 +54,7 @@ Identifiers for properties of the <a href="/windows/desktop/Direct2D/gaussian-bl
 
 ## -enum-fields
 
-### -field D2D1_GAUSSIANBLUR_PROP_STANDARD_DEVIATION
+### -field D2D1_GAUSSIANBLUR_PROP_STANDARD_DEVIATION:0
 
 The amount of blur to be applied to the image. You can compute the blur radius of the kernel by multiplying the standard deviation by 3.
             The units of both the standard deviation and blur radius are DIPs. A value of zero DIPs disables this effect entirely.
@@ -64,7 +64,7 @@ The type is FLOAT.
 
 The default value is 3.0f.
 
-### -field D2D1_GAUSSIANBLUR_PROP_OPTIMIZATION
+### -field D2D1_GAUSSIANBLUR_PROP_OPTIMIZATION:1
 
 The optimization mode.
             
@@ -73,7 +73,7 @@ The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_gaussi
 
 The default value is D2D1_GAUSSIANBLUR_OPTIMIZATION_BALANCED.
 
-### -field D2D1_GAUSSIANBLUR_PROP_BORDER_MODE
+### -field D2D1_GAUSSIANBLUR_PROP_BORDER_MODE:2
 
 The mode used to calculate the border of the image, soft or hard.
             
@@ -82,4 +82,4 @@ The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_gaussi
 
 The default value is D2D1_BORDER_MODE_SOFT.
 
-### -field D2D1_GAUSSIANBLUR_PROP_FORCE_DWORD
+### -field D2D1_GAUSSIANBLUR_PROP_FORCE_DWORD:0xffffffff

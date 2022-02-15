@@ -54,10 +54,7 @@ Represents a basic image-processing construct in Direct2D.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Effect</b> interface inherits from <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>. <b>ID2D1Effect</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID2D1Effect</b> interface inherits from <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>. <b>ID2D1Effect</b> also has these types of members:
 
 ## -remarks
 

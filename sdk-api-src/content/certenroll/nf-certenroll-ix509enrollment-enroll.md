@@ -52,7 +52,7 @@ api_name:
 
 The <b>Enroll</b> method encodes a request, submits it to an appropriate certification authority (CA), and installs the response.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,7 +54,7 @@ The <b>WMT_STREAM_SELECTION</b> enumeration type defines the types of protocols 
 
 ## -enum-fields
 
-### -field WMT_PROTOCOL_HTTP
+### -field WMT_PROTOCOL_HTTP:0
 
 The network sink supports hypertext transfer protocol (HTTP).
 

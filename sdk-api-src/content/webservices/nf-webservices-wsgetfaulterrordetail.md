@@ -168,14 +168,14 @@ This functions supports the following scenarios, based on the contents
 
 Since different faults with different detail formats may be expected
                 from a service, this function can be called in succession to try to
-                read each type of detail.  In this case, the <a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTIONAL_POINTER</a>value can be specified, which will return a <b>NULL</b> pointer if the element name
+                read each type of detail.  In this case, the <a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTIONAL_POINTER</a> value can be specified, which will return a <b>NULL</b> pointer if the element name
                 in the fault detail does not match the expected value.
             
 
 </li>
 <li>Reading multiple elements as a single value.  
                 In this case, the elementLocalName and elementNs
-                fields of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_element_description">WS_ELEMENT_DESCRIPTION</a> should be set to <b>NULL</b>, and a <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRUCT_TYPE</a>and <a href="/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a> should be specified.  Each field of the
+                fields of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_element_description">WS_ELEMENT_DESCRIPTION</a> should be set to <b>NULL</b>, and a <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRUCT_TYPE</a> and <a href="/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a> should be specified.  Each field of the
                 structure value being deserialized should correspond to element(s) to read within the body.
                 The readOption parameter must be <a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_REQUIRED_VALUE</a> or <b>WS_READ_REQUIRED_POINTER</b>. 
                 

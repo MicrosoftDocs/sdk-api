@@ -54,39 +54,39 @@ Specifies the conversion function from R'G'B' to RGB. This enumeration is used w
 
 ## -enum-fields
 
-### -field eAVEncVideoColorTransferFunction_SameAsSource
+### -field eAVEncVideoColorTransferFunction_SameAsSource:0
 
 Use the same function as the input video. This flag applies to the <b>AVEncVideoOutputColorTransferFunction</b> property only.
 
-### -field eAVEncVideoColorTransferFunction_10
+### -field eAVEncVideoColorTransferFunction_10:1
 
 Linear RGB (gamma = 1.0).
 
-### -field eAVEncVideoColorTransferFunction_18
+### -field eAVEncVideoColorTransferFunction_18:2
 
 True 1.8 gamma. L' = L^1/1.8.
 
-### -field eAVEncVideoColorTransferFunction_20
+### -field eAVEncVideoColorTransferFunction_20:3
 
 True 2.0 gamma. L' = L^1/2.0..
 
-### -field eAVEncVideoColorTransferFunction_22
+### -field eAVEncVideoColorTransferFunction_22:4
 
 True 2.2 gamma. L' = L^1/2.2..
 
-### -field eAVEncVideoColorTransferFunction_22_709
+### -field eAVEncVideoColorTransferFunction_22_709:5
 
 Gamma 2.2 curve with a linear segment in the lower range. L' = 4.5L, for L &lt; 0.018; L' = 1.099L^0.45.- 0.099, for L &gt;= 0.018. This transfer function is used in BT-709, SMPTE 296M, SMPTE 170M, BT-470, and SPMTE 274M.
 
-### -field eAVEncVideoColorTransferFunction_22_240M
+### -field eAVEncVideoColorTransferFunction_22_240M:6
 
 Gamma 2.2 curve with a linear segment in the lower range. L' = 4.0L, for L &lt; 0.0228; L' = 1.1115^L0.45.- 0.01115, for L &gt;= 0.0228. This transfer function is used in SPMTE 240M.
 
-### -field eAVEncVideoColorTransferFunction_22_8bit_sRGB
+### -field eAVEncVideoColorTransferFunction_22_8bit_sRGB:7
 
 Gamma 2.4 curve with a linear segment in the lower range. L' = L/12.92, for L &lt; 0.03928; L' = ((L + 0.055) / 1.055)^2.4., for L &gt;= 0.03928.
 
-### -field eAVEncVideoColorTransferFunction_28
+### -field eAVEncVideoColorTransferFunction_28:8
 
 True 2.8 gamma. L' = L^1/2.8..
 

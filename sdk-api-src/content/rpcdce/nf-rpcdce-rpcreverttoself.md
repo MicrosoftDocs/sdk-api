@@ -54,7 +54,7 @@ After calling
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcimpersonateclient">RpcImpersonateClient</a> and completing any tasks that require client impersonation, the server calls 
 <b>RpcRevertToSelf</b> to end impersonation and to reestablish its own security identity.
 
-## -parameters
+
 
 ## -returns
 

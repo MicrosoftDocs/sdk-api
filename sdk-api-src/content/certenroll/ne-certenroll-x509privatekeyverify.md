@@ -54,23 +54,23 @@ The <b>X509PrivateKeyVerify</b> enumeration specifies whether a user interface i
 
 ## -enum-fields
 
-### -field VerifyNone
+### -field VerifyNone:0
 
 No option is identified.
 
-### -field VerifySilent
+### -field VerifySilent:1
 
 The method does not display a user interface.
 
-### -field VerifySmartCardNone
+### -field VerifySmartCardNone:2
 
 No verification occurs if the key is stored on a smart card (the CSP or KSP is a smart card provider).
 
-### -field VerifySmartCardSilent
+### -field VerifySmartCardSilent:3
 
 The method does not display a user interface if the key is stored on a smart card (the CSP or KSP is a smart card provider).
 
-### -field VerifyAllowUI
+### -field VerifyAllowUI:4
 
 The method displays a user interface.
 

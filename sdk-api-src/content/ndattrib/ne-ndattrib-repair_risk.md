@@ -56,7 +56,7 @@ The <b>REPAIR_RISK</b> enumeration specifies whether repair changes are persiste
 
 ## -enum-fields
 
-### -field RR_NOROLLBACK
+### -field RR_NOROLLBACK:0
 
 The repair performs persistent changes that cannot be undone.
 

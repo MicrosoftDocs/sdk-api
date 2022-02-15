@@ -57,7 +57,7 @@ The values of the
 
 ## -enum-fields
 
-### -field SERVICE_TYPE_IAS
+### -field SERVICE_TYPE_IAS:0
 
 The service is Internet Authentication Service (IAS) or Network Policy Server (NPS).
 

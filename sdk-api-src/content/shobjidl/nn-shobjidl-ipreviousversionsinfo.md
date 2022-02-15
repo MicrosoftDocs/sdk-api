@@ -54,10 +54,7 @@ Exposes a method that checks for previous versions of server files or folders, s
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPreviousVersionsInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPreviousVersionsInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPreviousVersionsInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPreviousVersionsInfo</b> also has these types of members:
 
 ## -remarks
 
@@ -65,7 +62,9 @@ The CLSID, IID, and definition for this interface are shown in the following exa
 
                 
 
-<pre class="syntax" xml:space="preserve"><code>// {596AB062-B4D2-4215-9F74-E9109B0A8153}
+
+``` syntax
+// {596AB062-B4D2-4215-9F74-E9109B0A8153}
 const CLSID CLSID_PreviousVersions = {0x596AB062, 0xB4D2, 0x4215, 
                              {0x9F, 0x74, 0xE9, 0x10, 0x9B, 0x0A, 0x81, 0x53}};
 
@@ -81,5 +80,7 @@ public:
         /* [string][in] */ LPCWSTR pszPath,
         /* [in] */ BOOL fOkToBeSlow,
         /* [retval][out] */ BOOL *pfAvailable) = 0;
-};</code></pre>
+};
+```
+
 Note that the shadow copies technology does not store entire copies of older versions unless they are deleted; only the changed bits are stored.

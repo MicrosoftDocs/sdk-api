@@ -52,7 +52,7 @@ api_name:
 
 The <b>Close</b> method releases the handle of the cryptographic service provider (CSP) or the handle of the Cryptography API: Next Generation (CNG) key storage provider (KSP).
 
-## -parameters
+
 
 ## -returns
 

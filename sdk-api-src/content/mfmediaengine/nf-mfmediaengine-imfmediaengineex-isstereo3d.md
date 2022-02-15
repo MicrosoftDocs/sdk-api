@@ -52,7 +52,7 @@ api_name:
 
 Queries whether the media resource contains stereoscopic 3D video.
 
-## -parameters
+
 
 ## -returns
 

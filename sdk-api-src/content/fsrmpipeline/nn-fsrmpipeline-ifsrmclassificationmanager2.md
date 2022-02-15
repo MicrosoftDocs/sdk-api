@@ -66,11 +66,7 @@ To get this interface, call the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmClassificationManager2</b> interface inherits from <b>IFsrmClassificationManager</b>. <b>IFsrmClassificationManager2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IFsrmClassificationManager2</b> interface inherits from <b>IFsrmClassificationManager</b>. <b>IFsrmClassificationManager2</b> also has these types of members:
 
 ## -see-also
 

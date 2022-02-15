@@ -82,7 +82,7 @@ If this parameter is <b>TRUE</b>, the key data array is to be stored and reused 
 
 ### -param pFailReason [out, optional]
 
-An optional pointer to a value that receives the failure reason,  if the call to the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanhostednetworksetsecondarykey">WlanHostedNetworkSetSecondaryKey</a> function fails. Possible values for the failure reason are from the <a href="/windows/desktop/api/wlanapi/ne-wlanapi-wlan_hosted_network_reason">WLAN_HOSTED_NETWORK_REASON</a> enumeration type defined in the <i>Wlanapi.h </i>header file.
+An optional pointer to a value that receives the failure reason,  if the call to the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanhostednetworksetsecondarykey">WlanHostedNetworkSetSecondaryKey</a> function fails. Possible values for the failure reason are from the <a href="/windows/desktop/api/wlanapi/ne-wlanapi-wlan_hosted_network_reason">WLAN_HOSTED_NETWORK_REASON</a> enumeration type defined in the <i>Wlanapi.h </i> header file.
 
 ### -param pvReserved
 
@@ -187,7 +187,7 @@ The secondary security key is a passphrase if the value pointed to by the <i>pbI
 
 The secondary security key returned in the buffer pointed to by the <i>ppucKeyData</i> parameter is used with WPA2-Personal authentication and is in one of the following formats:<ul>
 <li>A key passphrase that consists of an array of ASCII characters from 8 to 63 characters. The value pointed to by the <i>pdwKeyLength</i> parameter includes the terminating ‘\0’ in the passphrase. The value pointed to by the <i>pdwKeyLength</i> parameter should be in the range of 9 to 64. </li>
-<li>A	binary key that conists of 32 bytes of binary key data. The value pointed to by the <i>pdwKeyLength</i> parameter should be 32 for binary key.</li>
+<li>A binary key that consists of 32 bytes of binary key data. The value pointed to by the <i>pdwKeyLength</i> parameter should be 32 for binary key.</li>
 </ul>
 
 

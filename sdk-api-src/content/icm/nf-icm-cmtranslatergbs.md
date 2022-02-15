@@ -84,8 +84,8 @@ Specifies the direction of the transform being used for the translation. This pa
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -53,7 +53,7 @@ api_name:
 
 The <b>Reset</b> method moves to the beginning of the row-enumeration sequence.
 
-## -parameters
+
 
 ## -returns
 

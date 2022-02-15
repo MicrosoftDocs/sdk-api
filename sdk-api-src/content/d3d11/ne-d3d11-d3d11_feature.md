@@ -51,7 +51,7 @@ Direct3D 11 feature options.
 
 ## -enum-fields
 
-### -field D3D11_FEATURE_THREADING
+### -field D3D11_FEATURE_THREADING:0
 
 The driver supports <a href="/windows/win32/direct3d11/overviews-direct3d-11-render-multi-thread-intro">multithreading</a>. To see an example of testing a driver for multithread support, see <a href="/windows/win32/direct3d11/overviews-direct3d-11-render-multi-thread-support">How To: Check for Driver Support</a>. Refer to <a href="/windows/win32/api/d3d11/ns-d3d11-d3d11_feature_data_threading">D3D11_FEATURE_DATA_THREADING</a>.
 

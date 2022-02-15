@@ -54,19 +54,19 @@ The <b>WMT_IMAGE_TYPE</b> enumeration type defines the types of images that can 
 
 ## -enum-fields
 
-### -field WMT_IT_NONE
+### -field WMT_IT_NONE:0
 
 There is no image. If a <a href="/windows/desktop/wmformat/bannerimagedata">BannerImageData</a> attribute in the file, it will be ignored.
 
-### -field WMT_IT_BITMAP
+### -field WMT_IT_BITMAP:1
 
 The banner image is an uncompressed bitmap.
 
-### -field WMT_IT_JPEG
+### -field WMT_IT_JPEG:2
 
 The banner image uses JPEG encoding.
 
-### -field WMT_IT_GIF
+### -field WMT_IT_GIF:3
 
 The banner image uses GIF encoding.
 

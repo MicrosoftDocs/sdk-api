@@ -54,15 +54,15 @@ Specifies the state of a tree item. These values are used by methods of the <a h
 
 ## -enum-fields
 
-### -field NSTCFC_NONE
+### -field NSTCFC_NONE:0
 
 The property does not exist. Filtering is not supported.
 
-### -field NSTCFC_PINNEDITEMFILTERING
+### -field NSTCFC_PINNEDITEMFILTERING:0x1
 
 Property exists. Supports filtering based on the value specified in <a href="/windows/desktop/properties/props-system-ispinnedtonamespacetree">System.IsPinnedToNameSpaceTree</a>.
 
-### -field NSTCFC_DELAY_REGISTER_NOTIFY
+### -field NSTCFC_DELAY_REGISTER_NOTIFY:0x2
 
 Delays registration for change notifications until the tree is expanded in the navigation pane.
 

@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the DXGI color space of this context. Returns DXGI_COLOR_SPACE_CUSTOM when color context type is ICC.
 
-## -parameters
+
 
 ## -returns
 

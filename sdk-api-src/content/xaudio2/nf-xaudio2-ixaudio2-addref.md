@@ -52,7 +52,7 @@ api_name:
 
 Adds a reference to the XAudio2 object.
 
-## -parameters
+
 
 ## -returns
 

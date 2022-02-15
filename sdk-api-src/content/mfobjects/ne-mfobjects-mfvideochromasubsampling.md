@@ -56,23 +56,23 @@ Contains flags that define the chroma encoding scheme for Y'Cb'Cr' data.
 
 ## -enum-fields
 
-### -field MFVideoChromaSubsampling_Unknown
+### -field MFVideoChromaSubsampling_Unknown:0
 
 Unknown encoding scheme.
 
-### -field MFVideoChromaSubsampling_ProgressiveChroma
+### -field MFVideoChromaSubsampling_ProgressiveChroma:0x8
 
 Chroma should be reconstructed as if the underlying video was progressive content, rather than skipping fields or applying chroma filtering to minimize artifacts from reconstructing 4:2:0 interlaced chroma.
 
-### -field MFVideoChromaSubsampling_Horizontally_Cosited
+### -field MFVideoChromaSubsampling_Horizontally_Cosited:0x4
 
 Chroma samples are aligned horizontally with the luma samples, or with multiples of the luma samples. If this flag is not set, chroma samples are located 1/2 pixel to the right of the corresponding luma sample.
 
-### -field MFVideoChromaSubsampling_Vertically_Cosited
+### -field MFVideoChromaSubsampling_Vertically_Cosited:0x2
 
 Chroma samples are aligned vertically with the luma samples, or with multiples of the luma samples. If this flag is not set, chroma samples are located 1/2 pixel down from the corresponding luma sample.
 
-### -field MFVideoChromaSubsampling_Vertically_AlignedChromaPlanes
+### -field MFVideoChromaSubsampling_Vertically_AlignedChromaPlanes:0x1
 
 The U and V planes are aligned vertically. If this flag is not set, the chroma planes are assumed to be out of phase by 1/2 chroma sample, alternating between a line of U followed by a line of V.
 
@@ -96,7 +96,7 @@ Chroma samples are aligned vertically and horizontally with the luma samples. YU
 
 Reserved.
 
-### -field MFVideoChromaSubsampling_ForceDWORD
+### -field MFVideoChromaSubsampling_ForceDWORD:0x7fffffff
 
 Reserved. This member forces the enumeration type to compile as a <b>DWORD</b> value.
 

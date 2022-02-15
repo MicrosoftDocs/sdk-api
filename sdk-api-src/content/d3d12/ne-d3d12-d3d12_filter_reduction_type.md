@@ -54,19 +54,19 @@ Specifies the type of filter reduction.
 
 ## -enum-fields
 
-### -field D3D12_FILTER_REDUCTION_TYPE_STANDARD
+### -field D3D12_FILTER_REDUCTION_TYPE_STANDARD:0
 
 The filter type is standard.
 
-### -field D3D12_FILTER_REDUCTION_TYPE_COMPARISON
+### -field D3D12_FILTER_REDUCTION_TYPE_COMPARISON:1
 
 The filter type is comparison.
 
-### -field D3D12_FILTER_REDUCTION_TYPE_MINIMUM
+### -field D3D12_FILTER_REDUCTION_TYPE_MINIMUM:2
 
 The filter type is minimum.
 
-### -field D3D12_FILTER_REDUCTION_TYPE_MAXIMUM
+### -field D3D12_FILTER_REDUCTION_TYPE_MAXIMUM:3
 
 The filter type is maximum.
 

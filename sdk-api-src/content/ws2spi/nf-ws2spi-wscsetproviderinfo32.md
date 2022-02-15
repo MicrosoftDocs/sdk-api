@@ -70,7 +70,7 @@ A pointer to a buffer that contains the information class data to set for the LS
 
 ### -param InfoSize [in]
 
-The size, in bytes, of the buffer pointed to by the <i>Info </i>parameter.
+The size, in bytes, of the buffer pointed to by the <i>Info</i> parameter.
 
 ### -param Flags [in]
 
@@ -249,4 +249,3 @@ The **WSCSetProviderInfo32** function can only be called by a user logged on as 
 
 
 <a href="/windows/desktop/api/ws2spi/ne-ws2spi-wsc_provider_info_type">WSC_PROVIDER_INFO_TYPE</a>
-

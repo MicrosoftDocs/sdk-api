@@ -56,11 +56,11 @@ Defines values for how data is sent on the channel.
 
 ## -enum-fields
 
-### -field CHANNEL_FLAGS_LEGACY
+### -field CHANNEL_FLAGS_LEGACY:0x1
 
 Reserved.
 
-### -field CHANNEL_FLAGS_UNCOMPRESSED
+### -field CHANNEL_FLAGS_UNCOMPRESSED:0x2
 
 Data sent on the channel is not compressed. Use this option if the data is already compressed.
 

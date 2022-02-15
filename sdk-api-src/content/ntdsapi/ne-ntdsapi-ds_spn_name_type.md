@@ -54,7 +54,7 @@ The <b>DS_SPN_NAME_TYPE</b> enumeration is used by the <a href="/windows/desktop
 
 ## -enum-fields
 
-### -field DS_SPN_DNS_HOST
+### -field DS_SPN_DNS_HOST:0
 
 The SPN format for the distinguished name service of the host-based service, which provides services identified with its host computer. This SPN uses the following format:
 
@@ -63,7 +63,7 @@ The SPN format for the distinguished name service of the host-based service, whi
 jeffsmith.fabrikam.com
 ```
 
-### -field DS_SPN_DN_HOST
+### -field DS_SPN_DN_HOST:1
 
 The SPN format for the distinguished name of the host-based service, which provides services identified with its host computer. This SPN uses the following format:
 
@@ -72,7 +72,7 @@ The SPN format for the distinguished name of the host-based service, which provi
 cn=jeffsmith,ou=computers,dc=fabrikam,dc=com
 ```
 
-### -field DS_SPN_NB_HOST
+### -field DS_SPN_NB_HOST:2
 
 The SPN format for the NetBIOS service of the host-based service, which provides services identified with its host computer. This SPN uses the following format:
 
@@ -81,7 +81,7 @@ The SPN format for the NetBIOS service of the host-based service, which provides
 jeffsmith-nec
 ```
 
-### -field DS_SPN_DOMAIN
+### -field DS_SPN_DOMAIN:3
 
 The SPN format for a replicable service that provides services to the specified domain. This SPN uses the following format:
 
@@ -90,7 +90,7 @@ The SPN format for a replicable service that provides services to the specified 
 fabrikam.com
 ```
 
-### -field DS_SPN_NB_DOMAIN
+### -field DS_SPN_NB_DOMAIN:4
 
 The SPN format for a replicable service that provides services to the specified NetBIOS domain. This SPN uses the following format:
 
@@ -99,7 +99,7 @@ The SPN format for a replicable service that provides services to the specified 
 fabrikam
 ```
 
-### -field DS_SPN_SERVICE
+### -field DS_SPN_SERVICE:5
 
 The SPN format for a specified service. This SPN uses the following formats, depending on which service is used:
 

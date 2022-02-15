@@ -56,7 +56,7 @@ The <b>NET_ADDRESS_FORMAT</b> enumeration specifies the format of a network addr
 
 ## -enum-fields
 
-### -field NET_ADDRESS_FORMAT_UNSPECIFIED
+### -field NET_ADDRESS_FORMAT_UNSPECIFIED:0
 
 The format of the network address is unspecified.
 

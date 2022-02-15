@@ -59,7 +59,7 @@ Defines the set of the valid target types (subjects) of a VDS notification.
 
 ## -enum-fields
 
-### -field VDS_NTT_UNKNOWN
+### -field VDS_NTT_UNKNOWN:0
 
 This value is reserved.
 
@@ -75,19 +75,19 @@ The target is a volume. This value corresponds to the <b>VDS_OT_VOLUME</b> value
 
 The target is a disk. This value corresponds to the <b>VDS_OT_DISK</b> value in the  <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_object_type">VDS_OBJECT_TYPE</a> enumeration.
 
-### -field VDS_NTT_PARTITION
+### -field VDS_NTT_PARTITION:60
 
 The target is a partition.
 
-### -field VDS_NTT_DRIVE_LETTER
+### -field VDS_NTT_DRIVE_LETTER:61
 
 The target is a drive letter.
 
-### -field VDS_NTT_FILE_SYSTEM
+### -field VDS_NTT_FILE_SYSTEM:62
 
 The target is a file system.
 
-### -field VDS_NTT_MOUNT_POINT
+### -field VDS_NTT_MOUNT_POINT:63
 
 The target is a drive letter  or volume GUID path.
 
@@ -103,7 +103,7 @@ The target is a controller. This value corresponds to the <b>VDS_OT_CONTROLLER</
 
 The target is a drive. This value corresponds to the <b>VDS_OT_DRIVE</b> value in the  <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_object_type">VDS_OBJECT_TYPE</a> enumeration.
 
-### -field VDS_NTT_LUN
+### -field VDS_NTT_LUN:VDS_OT_LUN
 
 The target is a LUN. This value corresponds to the <b>VDS_OT_LUN</b> value in the  <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_object_type">VDS_OBJECT_TYPE</a> enumeration.
 
@@ -139,7 +139,7 @@ The target is an iSCSI portal group.
 <div class="alert"><b>Note</b>  This value is not supported on VDS 1.0.</div>
 <div> </div>
 
-### -field VDS_NTT_SERVICE
+### -field VDS_NTT_SERVICE:200
 
 This member is not currently used.
 

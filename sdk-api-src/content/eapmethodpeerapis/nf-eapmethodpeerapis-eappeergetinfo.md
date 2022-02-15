@@ -56,7 +56,7 @@ Obtains a set of function pointers for an implementation of the EAP peer method 
 
 ### -param pEapType [in]
 
-A pointer to an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_type">EAP_TYPE</a> structure that contains the vendor data on the implementor of the APIs pointed to by the members of this structure.
+A pointer to an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_type">EAP_TYPE</a> structure that contains the vendor data on the implementer of the APIs pointed to by the members of this structure.
 
 ### -param pEapInfo [out]
 

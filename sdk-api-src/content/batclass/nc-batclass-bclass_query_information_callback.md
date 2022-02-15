@@ -160,11 +160,11 @@ The number of bytes returned in the buffer pointed to by <i>Buffer</i>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b>STATUS_SUCCESS </b></dt>
+<dt><b>STATUS_SUCCESS</b></dt>
 </dl>
 </td>
 <td width="60%">
-The battery designated by <i>BatteryTag </i>is currently installed and the requested information has been returned. 
+The battery designated by <i>BatteryTag</i> is currently installed and the requested information has been returned. 
 
 </td>
 </tr>
@@ -175,14 +175,14 @@ The battery designated by <i>BatteryTag </i>is currently installed and the reque
 </dl>
 </td>
 <td width="60%">
-The battery designated by <i>BatteryTag </i>is not present.
+The battery designated by <i>BatteryTag</i> is not present.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b>STATUS_INVALID_DEVICE_REQUEST </b></dt>
+<dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -197,7 +197,7 @@ The <i>Level</i> parameter specifies information that this battery does not supp
 </dl>
 </td>
 <td width="60%">
-The <i>Level </i>parameter is not one of the enumerators listed.
+The <i>Level </i> parameter is not one of the enumerators listed.
 
 </td>
 </tr>
@@ -205,15 +205,15 @@ The <i>Level </i>parameter is not one of the enumerators listed.
 
 ## -remarks
 
-The battery class driver calls a miniclass driver's <i>BatteryMiniQueryInformation</i> routine to get various types of information about the battery. The information returned depends upon the <i>Level </i>parameter. Not all batteries support all the possible types of information that the class driver might request. Miniclass drivers should return STATUS_INVALID_DEVICE_REQUEST for any such requests.
+The battery class driver calls a miniclass driver's <i>BatteryMiniQueryInformation</i> routine to get various types of information about the battery. The information returned depends upon the <i>Level </i> parameter. Not all batteries support all the possible types of information that the class driver might request. Miniclass drivers should return STATUS_INVALID_DEVICE_REQUEST for any such requests.
 
-If <i>Level </i>specifies <b>BatteryInformation</b>, the miniclass driver must return a BATTERY_INFORMATION structure in the buffer pointed to by <i>Buffer</i>. This structure contains status information about the battery, including its capabilities, technology (whether the battery is rechargeable), and chemistry; theoretical and actual full-charged capacity; critical bias; number of charge/discharge cycles; and the capacity levels at which warning alerts occur.
+If <i>Level </i> specifies <b>BatteryInformation</b>, the miniclass driver must return a BATTERY_INFORMATION structure in the buffer pointed to by <i>Buffer</i>. This structure contains status information about the battery, including its capabilities, technology (whether the battery is rechargeable), and chemistry; theoretical and actual full-charged capacity; critical bias; number of charge/discharge cycles; and the capacity levels at which warning alerts occur.
 
-If <i>Level </i>specifies <b>BatteryGranularityInformation</b>, the miniclass driver can return an array of one to four elements, formatted as BATTERY_REPORTING_SCALE structures. Each element of the array consists of a granularity value and a remaining capacity value, in milliwatt-hours. The granularity indicates the precision of measurement and thus is an indicator of the accuracy of the capacity. 
+If <i>Level </i> specifies <b>BatteryGranularityInformation</b>, the miniclass driver can return an array of one to four elements, formatted as BATTERY_REPORTING_SCALE structures. Each element of the array consists of a granularity value and a remaining capacity value, in milliwatt-hours. The granularity indicates the precision of measurement and thus is an indicator of the accuracy of the capacity. 
 
 Most types of batteries report capacity on a single scale. Miniclass drivers for these batteries return only one entry, giving the remaining capacity and the precision of the scale. Some batteries, however, have two scales: a gross scale that measures whether capacity is greater or less than fifty percent, and a finer scale that applies as capacity approaches zero. Miniclass drivers for such batteries should return two entries describing the two scales.
 
-If <i>Level</i> specifies <b>BatteryEstimatedTime</b>, the miniclass driver must use the optional <i>AtRate </i>parameter to estimate the amount of time remaining to use the battery. The <i>AtRate</i> parameter specifies a drain rate, in negative milliwatts. 
+If <i>Level</i> specifies <b>BatteryEstimatedTime</b>, the miniclass driver must use the optional <i>AtRate </i> parameter to estimate the amount of time remaining to use the battery. The <i>AtRate</i> parameter specifies a drain rate, in negative milliwatts. 
 
 If <i>Level</i> specifies <b>BatteryUniqueId</b>, the miniclass driver must return a string that uniquely identifies this particular battery. For control method and smart batteries, the unique ID is the concatenation of the manufacture name, the device name, the manufacture date, and the ASCII representation of the battery's serial number. This value is not meant to be displayed.
 

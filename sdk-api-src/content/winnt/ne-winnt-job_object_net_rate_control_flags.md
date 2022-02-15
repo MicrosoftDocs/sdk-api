@@ -54,17 +54,17 @@ Specifies types of scheduling policies for network rate control.
 
 ## -enum-fields
 
-### -field JOB_OBJECT_NET_RATE_CONTROL_ENABLE
+### -field JOB_OBJECT_NET_RATE_CONTROL_ENABLE:0x1
 
 Turns on the control of the network traffic. You must set this value if you also set either <b>JOB_OBJECT_NET_RATE_CONTROL_MAX_BANDWIDTH</b> or <b>JOB_OBJECT_NET_RATE_CONTROL_DSCP_TAG</b>.
 
-### -field JOB_OBJECT_NET_RATE_CONTROL_MAX_BANDWIDTH
+### -field JOB_OBJECT_NET_RATE_CONTROL_MAX_BANDWIDTH:0x2
 
-### -field JOB_OBJECT_NET_RATE_CONTROL_DSCP_TAG
+### -field JOB_OBJECT_NET_RATE_CONTROL_DSCP_TAG:0x4
 
 Sets the DSCP field in the packet header to the value of the <b>DscpTag</b> member of the <a href="/windows/desktop/api/winnt/ns-winnt-jobobject_net_rate_control_information">JOBOBJECT_NET_RATE_CONTROL_INFORMATION</a> structure. For information about DSCP, see <a href="/previous-versions/windows/desktop/qos/differentiated-services">Differentiated Services</a>.
 
-### -field JOB_OBJECT_NET_RATE_CONTROL_VALID_FLAGS
+### -field JOB_OBJECT_NET_RATE_CONTROL_VALID_FLAGS:=
 
 The combination of all of the valid flags for the <a href="/windows/desktop/api/winnt/ne-winnt-job_object_net_rate_control_flags">JOB_OBJECT_NET_RATE_CONTROL_FLAGS</a> enumeration.
 

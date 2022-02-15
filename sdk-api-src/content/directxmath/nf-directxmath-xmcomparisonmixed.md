@@ -56,7 +56,7 @@ Tests the comparison value to determine if the compared components had mixed res
 
 ### -param CR [in]
 
-Comparison value to test. The comparison value is typically retrieved using a recording version of an DirectXMath
+Comparison value to test. The comparison value is typically retrieved using a recording version of a DirectXMath
         function such as <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvector4equalr">XMVector4EqualR</a>. The names of the recording functions
         end with an "R".
 

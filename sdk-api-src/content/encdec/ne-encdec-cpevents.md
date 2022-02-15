@@ -59,7 +59,7 @@ The <b>CPEvents</b> enumeration defines copy protection events for the Decrypter
 
 ## -enum-fields
 
-### -field CPEVENT_NONE
+### -field CPEVENT_NONE:0
 
 No content protection issues.
 

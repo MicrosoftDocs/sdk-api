@@ -54,10 +54,7 @@ Represents a buffer that contains a two-dimensional surface, such as a video fra
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMF2DBuffer2</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>. <b>IMF2DBuffer2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMF2DBuffer2</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>. <b>IMF2DBuffer2</b> also has these types of members:
 
 ## -remarks
 

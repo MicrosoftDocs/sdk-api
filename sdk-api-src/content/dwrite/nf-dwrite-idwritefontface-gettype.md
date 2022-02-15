@@ -52,7 +52,7 @@ api_name:
 
  Obtains the file format type of a font face.
 
-## -parameters
+
 
 ## -returns
 

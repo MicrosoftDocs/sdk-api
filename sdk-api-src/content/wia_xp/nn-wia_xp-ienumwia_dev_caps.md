@@ -55,10 +55,7 @@ The <b>IEnumWIA_DEV_CAPS</b> interface enumerates the currently available Window
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumWIA_DEV_CAPS</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumWIA_DEV_CAPS</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IEnumWIA_DEV_CAPS</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumWIA_DEV_CAPS</b> also has these types of members:
 
 ## -remarks
 

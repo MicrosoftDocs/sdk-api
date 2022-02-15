@@ -53,7 +53,7 @@ api_name:
 The 
 <b>WSAGetLastError</b> function returns the error status for the last Windows Sockets operation that failed.
 
-## -parameters
+
 
 ## -returns
 

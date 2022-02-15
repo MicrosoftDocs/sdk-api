@@ -52,7 +52,7 @@ api_name:
 
 The <b>stopRip</b> method stops the CD ripping process.
 
-## -parameters
+
 
 ## -returns
 

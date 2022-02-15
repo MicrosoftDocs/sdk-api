@@ -56,7 +56,7 @@ Contains values that specify common video formats.
 
 ## -enum-fields
 
-### -field MFStdVideoFormat_reserved
+### -field MFStdVideoFormat_reserved:0
 
 Reserved; do not use.
 

@@ -56,7 +56,7 @@ api_name:
 
 Displays a dialog box that contains settings for Automatic Updates.
 
-## -parameters
+
 
 ## -returns
 

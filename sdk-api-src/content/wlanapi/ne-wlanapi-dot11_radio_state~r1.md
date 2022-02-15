@@ -10,8 +10,8 @@ req.header: wlanapi.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -44,7 +44,7 @@ The <b>DOT11_RADIO_STATE</b> enumeration specifies an 802.11 radio state.
 
 ## -enum-fields
 
-### -field dot11_radio_state_unknown
+### -field dot11_radio_state_unknown:0
 
 The radio state is unknown.
 

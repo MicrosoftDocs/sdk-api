@@ -69,7 +69,7 @@ Boolean value indicating whether an exact match is required. See Remarks for mor
 
 ### -param dwMerit [in]
 
-Minimum merit value. The enumeration exludes filters with a lesser merit value. For a list of merit values, see <a href="/windows/desktop/DirectShow/merit">Merit</a>. If <i>dwMerit</i> is higher than MERIT_DO_NOT_USE, the enumeration also excludes filters whose category has a merit less than or equal to MERIT_DO_NOT_USE. (See <a href="/windows/desktop/DirectShow/filter-categories">Filter Categories</a>.)
+Minimum merit value. The enumeration excludes filters with a lesser merit value. For a list of merit values, see <a href="/windows/desktop/DirectShow/merit">Merit</a>. If <i>dwMerit</i> is higher than MERIT_DO_NOT_USE, the enumeration also excludes filters whose category has a merit less than or equal to MERIT_DO_NOT_USE. (See <a href="/windows/desktop/DirectShow/filter-categories">Filter Categories</a>.)
 
 ### -param bInputNeeded [in]
 
@@ -174,7 +174,7 @@ Insufficient memory
 
 To find filters whose input pins match a given set of media types, declare an array with major-type GUIDs and subtype GUIDs ordered in pairs. Pass the array address in the <i>pInputTypes</i> parameter, and set the <i>cInputTypes</i> parameter equal to the number of pairs (that is, half the array size):
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

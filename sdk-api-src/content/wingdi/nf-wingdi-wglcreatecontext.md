@@ -72,7 +72,9 @@ To use OpenGL, you create a rendering context, select it as a thread's current r
 
 The following code example shows <b>wglCreateContext</b> usage.
 
-<pre class="syntax" xml:space="preserve"><code>HDC    hdc; 
+
+``` syntax
+HDC    hdc; 
 HGLRC  hglrc; 
  
 // create a rendering context  
@@ -89,7 +91,9 @@ wglMakeCurrent (hdc, hglrc);
 wglMakeCurrent (NULL, NULL) ; 
  
 // delete the rendering context  
-wglDeleteContext (hglrc);</code></pre>
+wglDeleteContext (hglrc);
+```
+
 
 ## -see-also
 

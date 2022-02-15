@@ -54,21 +54,21 @@ Defines the available transport states as defined by the UPnP Guidelines.
 
 ## -enum-fields
 
-### -field TransportState_Unknown
+### -field TransportState_Unknown:0
 
-### -field TransportState_Stopped
+### -field TransportState_Stopped:1
 
-### -field TransportState_Playing
+### -field TransportState_Playing:2
 
-### -field TransportState_Transitioning
+### -field TransportState_Transitioning:3
 
-### -field TransportState_Paused
+### -field TransportState_Paused:4
 
-### -field TransportState_Recording
+### -field TransportState_Recording:5
 
-### -field TransportState_NoMediaPresent
+### -field TransportState_NoMediaPresent:6
 
-### -field TransportState_Last
+### -field TransportState_Last:7
 
 #### - Last
 

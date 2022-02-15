@@ -52,7 +52,7 @@ api_name:
 
 Causes the speech text service to register its active profiles.
 
-## -parameters
+
 
 ## -returns
 

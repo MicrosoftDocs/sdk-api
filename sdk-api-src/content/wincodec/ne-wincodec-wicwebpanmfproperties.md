@@ -56,9 +56,9 @@ Specifies the animation frame properties of a WebP image.
 
 ## -enum-fields
 
-### -field WICWebpAnmfFrameDuration
+### -field WICWebpAnmfFrameDuration:0x1
 
 The time to wait before displaying the next frame, in milliseconds.
 
-### -field WICWebpAnmfProperties_FORCE_DWORD
+### -field WICWebpAnmfProperties_FORCE_DWORD:0x7fffffff
 

@@ -56,31 +56,31 @@ Describes the conversion matrices between Y'PbPr (component video) and studio R'
 
 ## -enum-fields
 
-### -field MFVideoTransferMatrix_Unknown
+### -field MFVideoTransferMatrix_Unknown:0
 
 Unknown transfer matrix. Treat as MFVideoTransferMatrix_BT709.
 
-### -field MFVideoTransferMatrix_BT709
+### -field MFVideoTransferMatrix_BT709:1
 
 ITU-R BT.709 transfer matrix.
 
-### -field MFVideoTransferMatrix_BT601
+### -field MFVideoTransferMatrix_BT601:2
 
 ITU-R BT.601 transfer matrix. Also used for SMPTE 170 and ITU-R BT.470-2 System B,G.
 
-### -field MFVideoTransferMatrix_SMPTE240M
+### -field MFVideoTransferMatrix_SMPTE240M:3
 
 SMPTE 240M transfer matrix.
 
-### -field MFVideoTransferMatrix_BT2020_10
+### -field MFVideoTransferMatrix_BT2020_10:4
 
-### -field MFVideoTransferMatrix_BT2020_12
+### -field MFVideoTransferMatrix_BT2020_12:5
 
 ### -field MFVideoTransferMatrix_Last
 
 Reserved.
 
-### -field MFVideoTransferMatrix_ForceDWORD
+### -field MFVideoTransferMatrix_ForceDWORD:0x7fffffff
 
 Reserved. This member forces the enumeration type to compile as a <b>DWORD</b> value.
 

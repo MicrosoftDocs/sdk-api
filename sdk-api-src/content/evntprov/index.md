@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Event Tracing. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [Driver Development Tools Reference](../_devtest/index.md)
 - [Event Tracing](../_etw/index.md)
 

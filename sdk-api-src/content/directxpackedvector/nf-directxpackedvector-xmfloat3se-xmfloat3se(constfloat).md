@@ -66,7 +66,7 @@ Three element floating point array containing the values used to initialize the 
 
 Values contained in *pArray[0]*, *pArray[1]* and *pArray[2]* are stored, respectively, in the x-component, the y-component, and the z-component of the new instance of **XMFLOAT3SE**.
 
-The values obtained from the members of *pArray* are transformed from the standard 32 bit floating point format (sign bit, 8 bit exponent, 23 bit mantissa), and stored as an 14 bit floating point format (5 bit exponent, 9 bit mantissa).
+The values obtained from the members of *pArray* are transformed from the standard 32 bit floating point format (sign bit, 8 bit exponent, 23 bit mantissa), and stored as a 14 bit floating point format (5 bit exponent, 9 bit mantissa).
 
 As no target formats do not support a sign bit, all member of *pArray* must be greater than zero.
 

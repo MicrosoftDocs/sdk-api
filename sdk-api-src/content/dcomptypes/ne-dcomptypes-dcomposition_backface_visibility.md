@@ -51,15 +51,15 @@ Specifies the backface visibility to be applied to a visual.
 
 ## -enum-fields
 
-### -field DCOMPOSITION_BACKFACE_VISIBILITY_VISIBLE
+### -field DCOMPOSITION_BACKFACE_VISIBILITY_VISIBLE:0
 
 Surfaces in this visual's sub-tree are visible regardless of transformation.
 
-### -field DCOMPOSITION_BACKFACE_VISIBILITY_HIDDEN
+### -field DCOMPOSITION_BACKFACE_VISIBILITY_HIDDEN:1
 
 Surfaces in this visual's sub-tree are only visible when facing the observer.
 
-### -field DCOMPOSITION_BACKFACE_VISIBILITY_INHERIT
+### -field DCOMPOSITION_BACKFACE_VISIBILITY_INHERIT:0xffffffff
 
 The back face visibility is the same as that of the target visual's parent visual.
 

@@ -59,7 +59,7 @@ The values of the
 
 ## -enum-fields
 
-### -field DOMAIN_TYPE_NONE
+### -field DOMAIN_TYPE_NONE:0
 
 The SDO computer is running in stand-alone mode.
 

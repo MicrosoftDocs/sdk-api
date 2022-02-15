@@ -53,7 +53,7 @@ api_name:
 
 Destroys an instance of a <a href="/windows/desktop/api/d3d11/ns-d3d11-cd3d11_blend_desc">CD3D11_BLEND_DESC</a> structure.
 
-## -parameters
+
 
 ## -see-also
 

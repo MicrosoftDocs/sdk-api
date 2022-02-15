@@ -54,10 +54,7 @@ Exposes methods that either create or merge a shortcut (context) menu associated
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContextMenu2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a>. <b>IContextMenu2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IContextMenu2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a>. <b>IContextMenu2</b> also has these types of members:
 
 ## -remarks
 

@@ -53,7 +53,7 @@ api_name:
 
 Unlocks a box on a volume resource.
 
-## -parameters
+
 
 ## -returns
 

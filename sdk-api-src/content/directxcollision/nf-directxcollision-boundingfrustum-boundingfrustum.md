@@ -52,7 +52,7 @@ api_name:
 
 Creates an instance of [BoundingFrustum](./ns-directxcollision-boundingfrustum.md).
 
-## -parameters
+
 
 ## -remarks
 

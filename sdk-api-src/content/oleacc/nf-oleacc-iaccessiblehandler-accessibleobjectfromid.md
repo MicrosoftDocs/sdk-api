@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>AccessibleObjectFromID</b> method retrieves an <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>interface pointer for the interface associated with the given object ID. Oleacc.dll uses this method to obtain an <b>IAccessible</b> interface pointer for proxies that are supplied by other code.
+The <b>AccessibleObjectFromID</b> method retrieves an <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface pointer for the interface associated with the given object ID. Oleacc.dll uses this method to obtain an <b>IAccessible</b> interface pointer for proxies that are supplied by other code.
 <div class="alert"><b>Note</b>  <b>IAccessibleHandler::AccessibleObjectFromID</b> is deprecated and should not be used.</div><div> </div>
 
 ## -parameters

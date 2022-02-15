@@ -54,11 +54,11 @@ Specifies how text appears when the parent element is scrolled.
 
 ## -enum-fields
 
-### -field MF_TIMED_TEXT_SCROLL_MODE_POP_ON
+### -field MF_TIMED_TEXT_SCROLL_MODE_POP_ON:0
 
 Text pops on when the parent element is scrolled.
 
-### -field MF_TIMED_TEXT_SCROLL_MODE_ROLL_UP
+### -field MF_TIMED_TEXT_SCROLL_MODE_ROLL_UP:1
 
 Text rolls up when the parent element is scrolled.
 

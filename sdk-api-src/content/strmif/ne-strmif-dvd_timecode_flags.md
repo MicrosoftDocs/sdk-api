@@ -56,19 +56,19 @@ Indicates the frame rate at which a DVD has been authored to play.
 
 ## -enum-fields
 
-### -field DVD_TC_FLAG_25fps
+### -field DVD_TC_FLAG_25fps:0x1
 
 Disc is authored to play at 25 frames per second.
 
-### -field DVD_TC_FLAG_30fps
+### -field DVD_TC_FLAG_30fps:0x2
 
 Disc is authored to play at 30 frames per second.
 
-### -field DVD_TC_FLAG_DropFrame
+### -field DVD_TC_FLAG_DropFrame:0x4
 
 Disc is authored to play at 29.97 frames per second.
 
-### -field DVD_TC_FLAG_Interpolated
+### -field DVD_TC_FLAG_Interpolated:0x8
 
 Value representing the <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator Filter</a> filter's best estimate of the disc's frame rate.
 

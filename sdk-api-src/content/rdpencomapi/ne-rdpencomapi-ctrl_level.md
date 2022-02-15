@@ -56,34 +56,34 @@ Defines the level of control that an attendee has on a session.
 
 ## -enum-fields
 
-### -field CTRL_LEVEL_MIN
+### -field CTRL_LEVEL_MIN:0
 
 Minimum enumeration value.
 
-### -field CTRL_LEVEL_INVALID
+### -field CTRL_LEVEL_INVALID:0
 
 The control level is not valid.
 
-### -field CTRL_LEVEL_NONE
+### -field CTRL_LEVEL_NONE:1
 
 The attendee cannot view or interact with the session. This is the default.
 
-### -field CTRL_LEVEL_VIEW
+### -field CTRL_LEVEL_VIEW:2
 
 The attendee can view the session.
 
-### -field CTRL_LEVEL_INTERACTIVE
+### -field CTRL_LEVEL_INTERACTIVE:3
 
 The attendee can view and interact with the session. The local keyboard and mouse input is redirected to 
       the session.
 
-### -field CTRL_LEVEL_REQCTRL_VIEW
+### -field CTRL_LEVEL_REQCTRL_VIEW:4
 
 The attendee can view the session.
 
 <b>Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:  </b>This enumeration value is not supported.
 
-### -field CTRL_LEVEL_REQCTRL_INTERACTIVE
+### -field CTRL_LEVEL_REQCTRL_INTERACTIVE:5
 
 The attendee can view and interact with the session. The local keyboard and mouse input is redirected to the 
        session. Hosting applications that want to allow users to control the shared session must either define 
@@ -93,7 +93,7 @@ The attendee can view and interact with the session. The local keyboard and mous
 
 <b>Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:  </b>This enumeration value is not supported.
 
-### -field CTRL_LEVEL_MAX
+### -field CTRL_LEVEL_MAX:5
 
 Maximum enumeration value.
 

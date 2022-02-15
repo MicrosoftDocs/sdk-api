@@ -58,87 +58,87 @@ Defines values for the currently known media types supported by IMAPI.
 
 ## -enum-fields
 
-### -field IMAPI_MEDIA_TYPE_UNKNOWN
+### -field IMAPI_MEDIA_TYPE_UNKNOWN:0
 
 The disc recorder contains an unknown media type or the recorder is empty.
 
-### -field IMAPI_MEDIA_TYPE_CDROM
+### -field IMAPI_MEDIA_TYPE_CDROM:0x1
 
 The drive contains CD-ROM or CD-R/RW media.
 
-### -field IMAPI_MEDIA_TYPE_CDR
+### -field IMAPI_MEDIA_TYPE_CDR:0x2
 
 The drive contains write once (CD-R) media.
 
-### -field IMAPI_MEDIA_TYPE_CDRW
+### -field IMAPI_MEDIA_TYPE_CDRW:0x3
 
 The drive contains rewritable (CD-RW) media.
 
-### -field IMAPI_MEDIA_TYPE_DVDROM
+### -field IMAPI_MEDIA_TYPE_DVDROM:0x4
 
 Either the DVD drive or DVD media is read-only.
 
-### -field IMAPI_MEDIA_TYPE_DVDRAM
+### -field IMAPI_MEDIA_TYPE_DVDRAM:0x5
 
 The drive contains DVD-RAM media.
 
-### -field IMAPI_MEDIA_TYPE_DVDPLUSR
+### -field IMAPI_MEDIA_TYPE_DVDPLUSR:0x6
 
 The drive contains write once media that supports the DVD plus format (DVD+R) .
 
-### -field IMAPI_MEDIA_TYPE_DVDPLUSRW
+### -field IMAPI_MEDIA_TYPE_DVDPLUSRW:0x7
 
 The drive contains rewritable media that supports the DVD plus format (DVD+RW).
 
-### -field IMAPI_MEDIA_TYPE_DVDPLUSR_DUALLAYER
+### -field IMAPI_MEDIA_TYPE_DVDPLUSR_DUALLAYER:0x8
 
 The drive contains write once dual layer media that supports the DVD plus format (DVD+R DL).
 
-### -field IMAPI_MEDIA_TYPE_DVDDASHR
+### -field IMAPI_MEDIA_TYPE_DVDDASHR:0x9
 
 The drive contains write once media that supports the DVD dash format (DVD-R).
 
-### -field IMAPI_MEDIA_TYPE_DVDDASHRW
+### -field IMAPI_MEDIA_TYPE_DVDDASHRW:0xa
 
 The drive contains rewritable media that supports the DVD dash format (DVD-RW).
 
-### -field IMAPI_MEDIA_TYPE_DVDDASHR_DUALLAYER
+### -field IMAPI_MEDIA_TYPE_DVDDASHR_DUALLAYER:0xb
 
 The drive contains write once dual layer media that supports the DVD dash format (DVD-R DL).
 
-### -field IMAPI_MEDIA_TYPE_DISK
+### -field IMAPI_MEDIA_TYPE_DISK:0xc
 
 The drive contains a media type that supports random-access writes. This media type supports hardware defect management that identifies and avoids using damaged tracks.
 
-### -field IMAPI_MEDIA_TYPE_DVDPLUSRW_DUALLAYER
+### -field IMAPI_MEDIA_TYPE_DVDPLUSRW_DUALLAYER:0xd
 
 The drive contains rewritable dual layer media that supports the DVD plus format (DVD+RW DL).
 
-### -field IMAPI_MEDIA_TYPE_HDDVDROM
+### -field IMAPI_MEDIA_TYPE_HDDVDROM:0xe
 
 The drive contains high definition read only DVD media (HD DVD-ROM).
 
-### -field IMAPI_MEDIA_TYPE_HDDVDR
+### -field IMAPI_MEDIA_TYPE_HDDVDR:0xf
 
 The drive contains write once high definition media (HD DVD-R).
 
-### -field IMAPI_MEDIA_TYPE_HDDVDRAM
+### -field IMAPI_MEDIA_TYPE_HDDVDRAM:0x10
 
 The drive contains random access high definition media (HD DVD-RAM).
 
-### -field IMAPI_MEDIA_TYPE_BDROM
+### -field IMAPI_MEDIA_TYPE_BDROM:0x11
 
 The drive contains read only Blu-ray media (BD-ROM).
 
-### -field IMAPI_MEDIA_TYPE_BDR
+### -field IMAPI_MEDIA_TYPE_BDR:0x12
 
 The drive contains write once Blu-ray media (BD-R).
 
-### -field IMAPI_MEDIA_TYPE_BDRE
+### -field IMAPI_MEDIA_TYPE_BDRE:0x13
 
 The drive contains rewritable Blu-ray media (BD-RE) media.
 
-### -field IMAPI_MEDIA_TYPE_MAX
+### -field IMAPI_MEDIA_TYPE_MAX:0x13
 
 This value is the maximum value defined in IMAPI_MEDIA_PHYSICAL_TYPE.
 

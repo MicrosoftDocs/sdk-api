@@ -56,15 +56,15 @@ The <b>WMT_FILESINK_MODE</b> enumeration type defines the types of input accepte
 
 ## -enum-fields
 
-### -field WMT_FM_SINGLE_BUFFERS
+### -field WMT_FM_SINGLE_BUFFERS:0x1
 
 The file sink accepts normal buffers through calls to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwritersink-ondataunit">IWMWriterSink::OnDataUnit</a>. This is the default behavior.
 
-### -field WMT_FM_FILESINK_DATA_UNITS
+### -field WMT_FM_FILESINK_DATA_UNITS:0x2
 
 The file sink accepts data as <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_filesink_data_unit">WMT_FILESINK_DATA_UNIT</a> structures delivered by <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink3-ondataunitex">IWMWriterFileSink3::OnDataUnitEx</a>.
 
-### -field WMT_FM_FILESINK_UNBUFFERED
+### -field WMT_FM_FILESINK_UNBUFFERED:0x4
 
 The file sink accepts unbuffered data. A call to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink3-setunbufferedio">IWMWriterFileSink3::SetUnbufferedIO</a> will succeed.
 

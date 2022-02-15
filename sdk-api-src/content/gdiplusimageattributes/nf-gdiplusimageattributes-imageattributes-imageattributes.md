@@ -53,5 +53,5 @@ api_name:
 
 Creates an <b>ImageAttributes::ImageAttributes</b> object. This is the default constructor.
 
-## -parameters
+
 

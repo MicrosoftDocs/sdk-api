@@ -70,15 +70,19 @@ Receives the address of a pointer to a SQL query string based on the query in th
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
 This method generates SQL in the following form:
 
-<pre class="syntax" xml:space="preserve"><code>SELECT &lt;QuerySelectColumns&gt; FROM &lt;CatalogName that created query helper&gt;
+
+``` syntax
+SELECT &lt;QuerySelectColumns&gt; FROM &lt;CatalogName that created query helper&gt;
     WHERE &lt;Result of interpreting the User query passed into this function according to QuerySyntax&gt;
-          [ AND|OR &lt;QueryWhereRestrictions&gt;]</code></pre>
+          [ AND|OR &lt;QueryWhereRestrictions&gt;]
+```
+
 The SQL generation uses the settings specified in <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querytermexpansion">ISearchQueryHelper::put_QueryTermExpansion</a>, <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querycontentproperties">ISearchQueryHelper::put_QueryContentProperties</a>, and <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querycontentlocale">ISearchQueryHelper::put_QueryContentLocale</a>.
 
 <b>ISearchQueryHelper::GenerateSQLFromUserQuery</b> uses regional locale settings. However, <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a> does not use the regional locale settings. As a result, there are inconsistencies in the SQL returned from <b>ISearchQueryHelper::GenerateSQLFromUserQuery</b> and <b>ISearchQueryHelper</b> for region specific settings such as  date formats. For example, if you set the locale for date/time to something other than the system locale, such as en-CA if the system locale is en-US, and enter <code>Toybox -m -i "date:3/7/2008" -Y -s</code>, the SQL returned will differ. The SQL from <b>ISearchQueryHelper::GenerateSQLFromUserQuery</b> will have parsed 3/7/2008 according to en-CA (seeking items dated 3rd of July, 2008) while the SQL from <b>ISearchQueryHelper</b> will have parsed 3/7/2008 according to en-US (seeking items dated 7th of March, 2008).

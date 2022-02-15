@@ -296,10 +296,18 @@ Finds updates that require a computer to be restarted to complete an installatio
 
 The default search criteria for a search are as follows:
 
-<pre class="syntax" xml:space="preserve"><code>( IsInstalled = 0 and IsHidden = 0 )</code></pre>
+
+``` syntax
+( IsInstalled = 0 and IsHidden = 0 )
+```
+
 To find all the hidden updates (by using the  <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_includepotentiallysupersededupdates">UpdateSearcher.IncludePotentiallySupersededUpdates</a> property set to <b>VARIANT_TRUE</b>), use the following criterion:
 
-<pre class="syntax" xml:space="preserve"><code> ( IsHidden = 1 )</code></pre>
+
+``` syntax
+ ( IsHidden = 1 )
+```
+
 
 ## -see-also
 

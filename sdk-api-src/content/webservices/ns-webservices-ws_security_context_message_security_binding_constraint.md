@@ -64,7 +64,7 @@ The base binding constraint that this binding constraint derives from.
 
 The following binding constraints are supported at this point: <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_SECURE_CONVERSATION_VERSION</a> 
           and <b>WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_KEY_ENTROPY_MODE</b>. 
-           Currently only <a href="/windows/desktop/api/webservices/ne-webservices-ws_secure_conversation_version">WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005</a>is supported in policy, so a binding constraint containing the
+           Currently only <a href="/windows/desktop/api/webservices/ne-webservices-ws_secure_conversation_version">WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005</a> is supported in policy, so a binding constraint containing the
           value <b>WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005</b> must be specified in
           order for the policy to match.
 

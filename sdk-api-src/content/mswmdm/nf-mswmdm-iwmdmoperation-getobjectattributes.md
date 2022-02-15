@@ -109,7 +109,7 @@ An unspecified error occurred, and the read operation should be cancelled withou
 
 ## -remarks
 
-When transferring data to the device, you should provide object attributes for optimal transferrence.
+When transferring data to the device, you should provide object attributes for optimal transference.
 
 
 #### Examples

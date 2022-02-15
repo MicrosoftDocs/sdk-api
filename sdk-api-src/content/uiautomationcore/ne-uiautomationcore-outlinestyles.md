@@ -54,23 +54,23 @@ Contains values for the OutlineStyle text attribute.
 
 ## -enum-fields
 
-### -field OutlineStyles_None
+### -field OutlineStyles_None:0
 
 No outline style.
 
-### -field OutlineStyles_Outline
+### -field OutlineStyles_Outline:1
 
 A simple outline.
 
-### -field OutlineStyles_Shadow
+### -field OutlineStyles_Shadow:2
 
 A shadow.
 
-### -field OutlineStyles_Engraved
+### -field OutlineStyles_Engraved:4
 
 An engraved appearance.
 
-### -field OutlineStyles_Embossed
+### -field OutlineStyles_Embossed:8
 
 An embossed appearance.
 

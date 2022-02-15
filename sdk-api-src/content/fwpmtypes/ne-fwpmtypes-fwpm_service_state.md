@@ -56,7 +56,7 @@ The <b>FWPM_SERVICE_STATE</b> enumeration specifies the current state of the fil
 
 ## -enum-fields
 
-### -field FWPM_SERVICE_STOPPED
+### -field FWPM_SERVICE_STOPPED:0
 
 The filter engine is not running.
 

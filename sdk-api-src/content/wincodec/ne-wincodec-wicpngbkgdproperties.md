@@ -54,7 +54,7 @@ Specifies the Portable Network Graphics (PNG) background (bKGD) chunk metadata p
 
 ## -enum-fields
 
-### -field WICPngBkgdBackgroundColor
+### -field WICPngBkgdBackgroundColor:0x1
 
 Indicates the background color. There are three possible types, depending on the image's pixel format.
 
@@ -78,5 +78,5 @@ Specifies the background color in a grayscale image.
 
 Specifies the background color in an RGB image as three USHORT values: {0x<i>RRRR</i>, 0x<i>GGGG</i>, 0x<i>BBBB</i>}.
 
-### -field WICPngBkgdProperties_FORCE_DWORD
+### -field WICPngBkgdProperties_FORCE_DWORD:0x7fffffff
 

@@ -54,7 +54,7 @@ Identifiers for properties of the <a href="/windows/desktop/Direct2D/tile">Tile 
 
 ## -enum-fields
 
-### -field D2D1_TILE_PROP_RECT
+### -field D2D1_TILE_PROP_RECT:0
 
 The region of the image to be tiled. This property is a <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_4f">D2D1_VECTOR_4F</a> defined as: (left, top, right, bottom). The units are in DIPs.
             
@@ -63,4 +63,4 @@ The type is <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_4f">D2D1
 
 The default is {0.0f, 0.0f, 100.0f, 100.0f}.
 
-### -field D2D1_TILE_PROP_FORCE_DWORD
+### -field D2D1_TILE_PROP_FORCE_DWORD:0xffffffff

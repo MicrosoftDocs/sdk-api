@@ -122,7 +122,7 @@ Returns one of the following values:
 <td width="60%">
 No data for this value. Either the property has been present in the past 
 					but its value has been removed or the property is a container of other properties 
-					(toplevel/secondlevel[3]). The buffer at <i>pszContentType</i> has been zero'ed. 
+					(toplevel/secondlevel[3]). The buffer at <i>pszContentType</i> has been zeroed. 
 
 </td>
 </tr>
