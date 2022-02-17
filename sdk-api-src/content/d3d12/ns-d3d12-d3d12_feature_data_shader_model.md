@@ -65,6 +65,8 @@ Refer to  the enumeration constant D3D12_FEATURE_SHADER_MODEL in the <a href="/w
 
 When used with the <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">ID3D12Device::CheckFeatureSupport</a> function, before calling the function initialize the <b>HighestShaderModel</b> field to the highest shader model that your  application understands.  After the function completes successfully, the <b>HighestShaderModel</b> field contains the highest shader model that is both supported by the device and no higher than the shader model passed in.
 
+Note that <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">ID3D12Device::CheckFeatureSupport</a> will return E_INVALIDARG if HighestShaderModel is not known by the current runtime. For this reason, it is recommended that this is called in a loop with decreasing shader models to determine the highest supported shader model. Alternatively, use the caps checking helper to simplify this: https://devblogs.microsoft.com/directx/introducing-a-new-api-for-checking-feature-support-in-direct3d-12.
+
 ## -see-also
 
 <a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
