@@ -81,7 +81,7 @@ If the function fails, the return value is zero. To get extended error informati
 All pages in the specified region must be committed. Memory protected with <b>PAGE_NOACCESS</b> cannot be locked.
 
 Locking pages into memory may degrade the performance of the system by reducing the available RAM and forcing the system to swap out other critical pages to the paging file. Each version of Windows has a limit on the maximum number of pages a process can lock. This limit is intentionally small to avoid severe performance degradation. Applications that need to lock larger numbers of pages must first call the 
-<a href="/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a> function to increase their minimum and maximum working set sizes. The maximum number of pages that a process can lock is equal to the number of pages in its minimum working set minus a small overhead.
+<a href="/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsize">SetProcessWorkingSetSize</a> function to increase their minimum and maximum working set sizes. The maximum number of pages that a process can lock is equal to the number of pages in its minimum working set minus a small overhead.
 
 Pages that a process has locked remain in physical memory until the process unlocks them or terminates. These pages are guaranteed not to be written to the pagefile while they are locked.
 
