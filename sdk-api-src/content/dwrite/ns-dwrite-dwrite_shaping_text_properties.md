@@ -45,9 +45,6 @@ api_name:
  - DWRITE_SHAPING_TEXT_PROPERTIES
 ---
 
-# DWRITE_SHAPING_TEXT_PROPERTIES structure
-
-
 ## -description
 
 Shaping output properties per input character.
@@ -66,13 +63,12 @@ Reserved for use by shaping engine.
 
 ### -field canBreakShapingAfter
 
-Glyph shaping can be safely cut after this point without affecting shaping before or after it. Otherwise, splitting a call to GetGlyphs would cause a reflow of glyph advances and shapes.
+Glyph shaping can be safely cut after this point without affecting shaping before or after it. Otherwise, splitting a call to [GetGlyphs](/windows/win32/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs) would cause a reflow of glyph advances and shapes.
 
 ### -field reserved
 
-Reserved for use by shaping engine.
+Reserved for use by the shaping engine.
 
 Type: <b>UINT16</b>
 
 Reserved for future use.
-
