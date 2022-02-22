@@ -77,7 +77,7 @@ The y-coordinate, in logical coordinates, of the reference point that the system
 
 A pointer to the string to be drawn. The string does not need to be zero-terminated, because <i>cchString</i> specifies the length of the string.
 
-### -param c [in]
+### -param cchString [in]
 
 The <a href="/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> pointed to by <i>lpString</i>, in characters.
 
