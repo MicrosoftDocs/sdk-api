@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Indicates whether <a href="/windows/desktop/api/winuser/nf-winuser-enablemouseinpointer">EnableMouseInPointer</a> is set for the mouse to  act as a pointer input device and send <a href="/previous-versions/windows/desktop/inputmsg/messages">WM_POINTER</a> messages.
+Indicates whether <a href="/windows/desktop/api/winuser/nf-winuser-enablemouseinpointer">EnableMouseInPointer</a> is set for the mouse to  act as a pointer input device and send <a href="/windows/win32/inputmsg/messages">WM_POINTER</a> messages.
 
 
 
@@ -81,8 +81,8 @@ Call <b>IsMouseInPointerEnabled</b> to verify the mouse-in-pointer state.
 
 
 
-<a href="/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
+<a href="/windows/win32/inputmsg/functions">Functions</a>
 
 
 
-<a href="/previous-versions/windows/desktop/inputmsg/messages">WM_POINTER</a>
+<a href="/windows/win32/inputmsg/messages">WM_POINTER</a>

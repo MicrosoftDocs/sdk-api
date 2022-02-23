@@ -85,4 +85,4 @@ An application can use the <b>GetPointerType</b> function to determine the point
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
+<a href="/windows/win32/inputmsg/functions">Functions</a>

@@ -66,9 +66,9 @@ The pointer input device.
 
 ### -field DUMMYUNIONNAME.touchInfo
 
-Basic touch information common to all pointer types.
+A [POINTER_TOUCH_INFO](ns-winuser-pointer_touch_info.md) structure representing basic touch information common to all pointer types.
 
 ### -field DUMMYUNIONNAME.penInfo
 
-Basic pen information common to all pointer types.
+A [POINTER_PEN_INFO](ns-winuser-pointer_pen_info.md) structure representing basic pen information common to all pointer types.
 

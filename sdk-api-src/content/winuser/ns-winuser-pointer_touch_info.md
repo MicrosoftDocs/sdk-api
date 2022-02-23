@@ -63,15 +63,15 @@ An embedded [POINTER_INFO](ns-winuser-pointer_info.md) header structure.
 
 ### -field touchFlags
 
-Type: **[Touch Flags](/previous-versions/windows/desktop/inputmsg/touch-flags-constants)**
+Type: **[Touch Flags](/windows/win32/inputmsg/touch-flags-constants)**
 
 Currently none.
 
 ### -field touchMask
 
-Type: **[Touch Mask](/previous-versions/windows/desktop/inputmsg/touch-mask-constants)**
+Type: **[Touch Mask](/windows/win32/inputmsg/touch-mask-constants)**
 
-Indicates which of the optional fields contain valid values. The member can be zero or any combination of the values from the [Touch Mask](/previous-versions/windows/desktop/inputmsg/touch-mask-constants) constants.
+Indicates which of the optional fields contain valid values. The member can be zero or any combination of the values from the [Touch Mask](/windows/win32/inputmsg/touch-mask-constants) constants.
 
 ### -field rcContact
 
@@ -107,4 +107,4 @@ Type: **UINT32**
 
 ## -see-also
 
-[Structures](/previous-versions/windows/desktop/inputmsg/structures)
+[Structures](/win32/desktop/inputmsg/structures)

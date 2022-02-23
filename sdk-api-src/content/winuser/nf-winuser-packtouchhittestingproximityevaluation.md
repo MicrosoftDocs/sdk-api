@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Returns the proximity evaluation score and the adjusted touch-point coordinates as a packed value for the <a href="/previous-versions/windows/desktop/inputmsg/wm-touchhittesting">WM_TOUCHHITTESTING</a> callback.
+Returns the proximity evaluation score and the adjusted touch-point coordinates as a packed value for the <a href="/windows/win32/inputmsg/wm-touchhittesting">WM_TOUCHHITTESTING</a> callback.
 
 ## -parameters
 
@@ -70,7 +70,7 @@ If this function succeeds, it returns the <b>score</b> and <b>adjustedPoint</b> 
 
 ## -remarks
 
-Usually, this is the last function that's called in a <a href="/previous-versions/windows/desktop/inputmsg/wm-touchhittesting">WM_TOUCHHITTESTING</a>  handler.
+Usually, this is the last function that's called in a <a href="/windows/win32/inputmsg/wm-touchhittesting">WM_TOUCHHITTESTING</a>  handler.
 
 ## -see-also
 

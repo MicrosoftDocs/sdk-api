@@ -60,19 +60,19 @@ Defines basic pen information common to all pointer types.
 
 Type: <b>POINTER_INFO</b>
 
-An embedded <a href="/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a> structure.
+An embedded <a href="/windows/win32/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a> structure.
 
 ### -field penFlags
 
 Type: <b>PEN_FLAGS</b>
 
-The pen flag. This member can be zero or any reasonable combination of the values from the <a href="/previous-versions/windows/desktop/inputmsg/pen-flags-constants">Pen Flags</a> constants.
+The pen flag. This member can be zero or any reasonable combination of the values from the <a href="/windows/win32/inputmsg/pen-flags-constants">Pen Flags</a> constants.
 
 ### -field penMask
 
 Type: <b>PEN_MASK</b>
 
-The pen mask. This member can be zero or any reasonable combination of the values from the <a href="/previous-versions/windows/desktop/inputmsg/pen-mask-constants">Pen Mask</a> constants.
+The pen mask. This member can be zero or any reasonable combination of the values from the <a href="/windows/win32/inputmsg/pen-mask-constants">Pen Mask</a> constants.
 
 ### -field pressure
 
@@ -106,4 +106,4 @@ Applications can retrieve this information using the <a href="/windows/desktop/a
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/inputmsg/structures">Structures</a>
+<a href="/windows/win32/inputmsg/structures">Structures</a>

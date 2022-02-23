@@ -60,4 +60,4 @@ The value to be converted.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/inputmsg/macros">Macros</a>
+<a href="/windows/win32/inputmsg/macros">Macros</a>
