@@ -58,25 +58,23 @@ The <b>ISpatialAudioClient</b> interface inherits from the <a href="/windows/des
 
 ## -remarks
 
-Get an instance of this interface by calling <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync">ActivateAudioInterfaceAsync</a>, using the  <a href="/cpp/cpp/uuidof-operator">__uuidof</a> operator to get the class ID of the <b>ISpatialAudioClient</b> interface. The following example code shows how to initialize this interface.
+The following example code illustrates how to initialize this interface using **IMMDevice**.
 
 
 ```cpp
-PROPVARIANT var; 
-PropVariantInit(&var);  
-auto p = reinterpret_cast<SpatialAudioClientActivationParams *>(CoTaskMemAlloc(sizeof(SpatialAudioClientActivationParams)));  
-if (nullptr == p) { ... } 
-p->tracingContextId = /* context identifier */;  
-p->appId = /* app identifier */;  
-p->majorVersion = /* app version info */;  
-p->majorVersionN = /* app version info */;
-var.vt = VT_BLOB;
-var.blob.cbSize = sizeof(*p);
-var.blob.pBlobData = reinterpret_cast<BYTE *>(p); 
-hr = ActivateAudioInterfaceAsync(device, __uuidof(ISpatialAudioClient), &var, ...);
-// ...
-ropVariantClear(&var);
+HRESULT hr;
+Microsoft::WRL::ComPtr<IMMDeviceEnumerator> deviceEnum;
+Microsoft::WRL::ComPtr<IMMDevice> defaultDevice;
+
+hr = CoCreateInstance(__uuidof(MMDeviceEnumerator), nullptr, CLSCTX_ALL, __uuidof(IMMDeviceEnumerator), (void**)&deviceEnum);
+hr = deviceEnum->GetDefaultAudioEndpoint(EDataFlow::eRender, eMultimedia, &defaultDevice);
+
+Microsoft::WRL::ComPtr<ISpatialAudioClient> spatialAudioClient;
+hr = defaultDevice->Activate(__uuidof(ISpatialAudioClient), CLSCTX_INPROC_SERVER, nullptr, (void**)&spatialAudioClient);
+
 ```
+
+For UWP apps that do not have access to **IMMDevice**, you should get an instance of **ISpatialAudioClient** by calling <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync">ActivateAudioInterfaceAsync</a>. For an example, see the [WindowsAudioSession sample](https://github.com/microsoft/Windows-universal-samples/tree/b1cb20f191d3fd99ce89df50c5b7d1a6e2382c01/Samples/WindowsAudioSession).
 
 
 <div class="alert"><b>Note</b>  When using the <b>ISpatialAudioClient</b> interfaces on an Xbox One Development Kit (XDK) title, you must first call <b>EnableSpatialAudio</b> before calling <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-enumaudioendpoints">IMMDeviceEnumerator::EnumAudioEndpoints</a> or <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint">IMMDeviceEnumerator::GetDefaultAudioEndpoint</a>. Failure to do so will result in an E_NOINTERFACE error being returned from the call to Activate. <b>EnableSpatialAudio</b> is only available for XDK titles, and does not need to be called for Universal Windows Platform apps running on Xbox One, nor for any non-Xbox One devices.</div>
