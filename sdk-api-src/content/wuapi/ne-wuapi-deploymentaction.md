@@ -72,3 +72,6 @@ The update should be uninstalled from the computer and/or for the specified user
 
 The update is deployed only to determine the applicability of the update. The update will not be installed.
 
+### -field daOptionalInstallation:4
+
+The update may be installed on the computer and/or for the specified user.
