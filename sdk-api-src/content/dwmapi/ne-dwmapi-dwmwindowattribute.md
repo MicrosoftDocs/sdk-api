@@ -141,6 +141,19 @@ Use with [DwmSetWindowAttribute](/windows/win32/api/dwmapi/nf-dwmapi-dwmsetwindo
 
 The maximum recognized <b>DWMWINDOWATTRIBUTE</b> value, used for validation purposes.
 
+### -field DWMWA_USE_IMMERSIVE_DARK_MODE:20
+
+Use with [DwmSetWindowAttribute](/windows/win32/api/dwmapi/nf-dwmapi-dwmsetwindowattribute). Allows the window frame for this window to be drawn in dark mode colors when the dark mode system setting is enabled. For compatibility reasons, all windows default to light mode regardless of the system setting. The <i>pvAttribute</i> parameter points to a value of type **BOOL**. <b>TRUE</b> to honor dark mode for the window, <b>FALSE</b> to always use light mode.
+
+This value is supported starting with Windows 11 Build 22000.
+
+### -field DWMWA_WINDOW_CORNER_PREFERENCE:33
+
+Use with [DwmSetWindowAttribute](/windows/win32/api/dwmapi/nf-dwmapi-dwmsetwindowattribute). Specifies the rounded corner preference for a window. The <i>pvAttribute</i> parameter points to a value of type [DWM_WINDOW_CORNER_PREFERENCE](ne-dwmapi-dwm_window_corner_preference.md).
+
+This value is supported starting with Windows 11 Build 22000.
+
+
 ## -see-also
 
 * [DwmGetWindowAttribute function](/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetwindowattribute)
