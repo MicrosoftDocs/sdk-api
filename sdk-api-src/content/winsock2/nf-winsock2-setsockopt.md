@@ -327,7 +327,7 @@ For more complete and detailed information about socket options for <i>level</i>
 </tr>
 <tr>
 <td>TCP_NODELAY</td>
-<td>BOOL</td>
+<td>BOOLEAN</td>
 <td>Disables the Nagle algorithm for send coalescing.This socket option is included for backward compatibility with Windows Sockets 1.1
 
 </td>

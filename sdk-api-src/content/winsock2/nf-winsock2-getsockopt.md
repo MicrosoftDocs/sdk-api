@@ -341,7 +341,7 @@ The following table of value for the <i>optname</i> parameter are valid when the
 </tr>
 <tr>
 <td>TCP_NODELAY</td>
-<td>BOOL</td>
+<td>BOOLEAN</td>
 <td>Disables the Nagle algorithm for send coalescing.</td>
 </tr>
 </table>
