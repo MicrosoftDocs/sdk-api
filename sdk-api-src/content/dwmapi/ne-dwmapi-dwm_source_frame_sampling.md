@@ -1,5 +1,5 @@
 ---
-UID: NE:dwmapi.__unnamed_enum_0
+UID: NE:dwmapi.__unnamed_enum_1
 title: DWM_SOURCE_FRAME_SAMPLING (dwmapi.h)
 description: Flags used by the DwmSetPresentParameters function to specify the frame sampling type.
 helpviewer_keywords: ["DWM_SOURCE_FRAME_SAMPLING","DWM_SOURCE_FRAME_SAMPLING enumeration [Desktop Window Manager]","DWM_SOURCE_FRAME_SAMPLING_COVERAGE","DWM_SOURCE_FRAME_SAMPLING_LAST","DWM_SOURCE_FRAME_SAMPLING_POINT","_udwm_dwm_source_frame_sampling","_udwm_dwm_source_frame_sampling_cpp","dwm.dwm_source_frame_sampling","dwmapi/DWM_SOURCE_FRAME_SAMPLING","dwmapi/DWM_SOURCE_FRAME_SAMPLING_COVERAGE","dwmapi/DWM_SOURCE_FRAME_SAMPLING_LAST","dwmapi/DWM_SOURCE_FRAME_SAMPLING_POINT","winui._udwm_dwm_source_frame_sampling"]
