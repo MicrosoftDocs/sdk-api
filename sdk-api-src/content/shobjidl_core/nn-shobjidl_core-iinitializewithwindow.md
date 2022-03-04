@@ -61,7 +61,7 @@ Implement this interface if your object needs to be provided with an owner windo
 
 ### When to use
 
-For info, and code examples, see [Display Windows.\*-namespace UI objects](/windows/apps/develop/ui-input/display-ui-objects).
+For info, and code examples, see [Display Windows.\*-namespace UI objects](/windows/apps/develop/ui-input/display-ui-objects). As well as the types listed in that topic, [**Shell data object**](/windows/win32/shell/dataobject) is also associated with needing to call this API.
 
 ## -see-also
 

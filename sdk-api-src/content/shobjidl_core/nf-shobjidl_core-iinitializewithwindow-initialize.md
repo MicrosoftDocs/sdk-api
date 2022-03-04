@@ -61,7 +61,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -remarks
 
-For info, and code examples, see [Display Windows.\*-namespace UI objects](/windows/apps/develop/ui-input/display-ui-objects).
+For info, and code examples, see [Display Windows.\*-namespace UI objects](/windows/apps/develop/ui-input/display-ui-objects). As well as the types listed in that topic, [**Shell data object**](/windows/win32/shell/dataobject) is also associated with needing to call this API.
 
 ## -see-also
 
