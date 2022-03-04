@@ -45,9 +45,6 @@ api_name:
  - IInitializeWithWindow.Initialize
 ---
 
-# IInitializeWithWindow::Initialize
-
-
 ## -description
 
 Specifies an owner window to be used by a Windows Runtime (WinRT) object that is used in a desktop app.
@@ -64,10 +61,9 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -remarks
 
-For more information about using this method to specify the owner window for a WinRT object, see <a href="/windows/apps/desktop/modernize/desktop-to-uwp-supported-api#classes-that-use-iinitializewithwindow">Classes that use IInitializeWithWindow</a>.
+For info, and code examples, see [Display Windows.\*-namespace UI objects](/windows/apps/develop/ui-input/display-ui-objects).
 
 ## -see-also
 
-<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow">IInitializeWithWindow</a>
-
-<a href="/windows/apps/desktop/modernize/desktop-to-uwp-supported-api#classes-that-use-iinitializewithwindow">Classes that use IInitializeWithWindow</a>
+* [IInitializeWithWindow interface](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow)
+* [Display Windows.\*-namespace UI objects](/windows/apps/develop/ui-input/display-ui-objects)
