@@ -74,10 +74,10 @@ The type of buffer represented by this structure. This can be one of the followi
 | **KDF_PARTYVINFO** 10 | The buffer is a KDF parameter that contains the byte array to use as the **PartyVInfo** subfield of the *OtherInfo* parameter to the SP 800-56A KDF. |
 | **KDF_SUPPPUBINFO** 11 | The buffer is a KDF parameter that contains the byte array to use as the **SuppPubInfo** subfield of the *OtherInfo* parameter to the SP 800-56A KDF. |
 | **KDF_SUPPPRIVINFO** 12 | The buffer is a KDF parameter that contains the byte array to use as the **SuppPrivInfo** subfield of the *OtherInfo* parameter to the SP 800-56A KDF. |
-| **KDF_LABEL** 13 |  |
-| **KDF_CONTEXT** 14 |  |
-| **KDF_SALT** 15 |  |
-| **KDF_ITERATION_COUNT** 16 |  |
+| **KDF_LABEL** 13 | See [BCryptKeyDerivation function](nf-bcrypt-bcryptkeyderivation.md) for more info. |
+| **KDF_CONTEXT** 14 | See [BCryptKeyDerivation function](nf-bcrypt-bcryptkeyderivation.md) for more info. |
+| **KDF_SALT** 15 | See [BCryptKeyDerivation function](nf-bcrypt-bcryptkeyderivation.md) for more info. |
+| **KDF_ITERATION_COUNT** 16 | See [BCryptKeyDerivation function](nf-bcrypt-bcryptkeyderivation.md) for more info. |
 
 ### -field pvBuffer
 
