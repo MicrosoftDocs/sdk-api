@@ -49,19 +49,15 @@ api_name:
 
 Exposes a method through which a client can provide an owner window to a Windows Runtime (WinRT) object used in a desktop application.
 
+For info and code examples about this interface, see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects). In addition to the types listed in that topic, [**Shell data object**](/windows/win32/shell/dataobject) is also associated with this API.
+
 ## -inheritance
 
 The **IInitializeWithWindow** interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInitializeWithWindow</b> also has these types of members:
 
 ## -remarks
 
-### When to implement
-
 Implement this interface if your object needs to be provided with an owner window, generally to display UI. Most third-party applications will not need to implement this interface.
-
-### When to use
-
-For info, and code examples, see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects). As well as the types listed in that topic, [**Shell data object**](/windows/win32/shell/dataobject) is also associated with needing to call this API.
 
 ## -see-also
 
