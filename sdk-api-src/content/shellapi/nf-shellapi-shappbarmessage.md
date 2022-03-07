@@ -153,6 +153,10 @@ Type: <b>UINT_PTR</b>
 
 This function returns a message-dependent value. For more information, see the Windows SDK documentation for the specific appbar message sent. Links to those documents are given in the See Also section.
 
+## -remarks
+
+SHAppBarMessage runs its own message loop internally; any pending window messages may be received and processed through its message loop and dispatched, potentially resulting in re-entrant behaviors.
+
 ## -see-also
 
 <a href="/windows/desktop/shell/abm-activate">ABM_ACTIVATE</a>
