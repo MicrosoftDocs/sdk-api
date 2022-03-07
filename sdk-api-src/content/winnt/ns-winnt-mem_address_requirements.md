@@ -60,11 +60,11 @@ Specifies a lowest and highest base address and alignment as part of an extended
 
 ### -field LowestStartingAddress
 
-Specifies the lowest acceptable address. Calling <a href=" and specifying <b>NULL</b> for <i>LowestStartingAddress</i>, and specifying <b>NULL</b> for <i>LowestStartingAddress</i>, gives the same behavior as calling <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>/<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>.
+Specifies the lowest acceptable address. Calling <a href="https://docs.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc2">VirtualAlloc2</a> or <a href="https://docs.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile3">MapViewOfFile3</a> and specifying <b>NULL</b> for <i>LowestStartingAddress</i>, and specifying <b>NULL</b> for <i>LowestStartingAddress</i>, gives the same behavior as calling <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>/<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>.
 
 ### -field HighestEndingAddress
 
-Specifies the highest acceptable address (inclusive). This address must not exceed <b>lpMaximumApplicationAddress</b> returned by <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>. Calling <a href=" and specifying <b>NULL</b> for <i>LowestStartingAddress</i>, and specifying <b>NULL</b> for <i>HighestEndingAddress</i>, gives the same behavior as calling <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>/<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>.
+Specifies the highest acceptable address (inclusive). This address must not exceed <b>lpMaximumApplicationAddress</b> returned by <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>. Calling <a href="https://docs.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc2">VirtualAlloc2</a> or <a href="https://docs.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile3">MapViewOfFile3</a> and specifying <b>NULL</b> for <i>LowestStartingAddress</i>, and specifying <b>NULL</b> for <i>HighestEndingAddress</i>, gives the same behavior as calling <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>/<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>.
 
 ### -field Alignment
 
