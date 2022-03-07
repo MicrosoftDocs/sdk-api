@@ -245,7 +245,7 @@ This value is not supported until Windows 11 and Windows Server 2022.
 
 ### -param lpValue [in]
 
-A pointer to the attribute value. This value should persist until the attribute is destroyed using the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-deleteprocthreadattributelist">DeleteProcThreadAttributeList</a> function.
+A pointer to the attribute value. This value must persist until the attribute list is destroyed using the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-deleteprocthreadattributelist">DeleteProcThreadAttributeList</a> function.
 
 ### -param cbSize [in]
 
