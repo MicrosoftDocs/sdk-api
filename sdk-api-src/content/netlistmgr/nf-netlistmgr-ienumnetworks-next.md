@@ -60,11 +60,11 @@ Number of elements requested in the enumeration.
 
 ### -param rgelt [out]
 
-Pointer to  the enumerated list of pointers returned by <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>.
+Pointer to the enumerated list of pointers returned by <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>.
 
 ### -param pceltFetched [out]
 
-Pointer to the number of elements supplied. This parameter is set to  <b>NULL</b> if <i>celt</i> has the value of 1.
+Pointer to the number of elements returned.
 
 ## -returns
 
@@ -82,7 +82,7 @@ Returns S_OK if the method succeeds. Otherwise, the method returns one of the fo
 </dl>
 </td>
 <td width="60%">
-The number of elements skipped was not equal to <i>celt</i>.
+The number of elements returned was not equal to <i>celt</i>.
 
 </td>
 </tr>
