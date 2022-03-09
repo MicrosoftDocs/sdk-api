@@ -49,7 +49,7 @@ api_name:
 
 Specifies an owner window to be used by a Windows Runtime (WinRT) object that is used in a desktop app.
 
-For info and code examples about this method, see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects). In addition to the types listed in that topic, [**Shell data object**](/windows/win32/shell/dataobject) is also associated with this API.
+For info and code examples about this method, see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects#winui-3-with-c). In addition to the types listed in that topic, [**Shell data object**](/windows/win32/shell/dataobject) is also associated with this API.
 
 ## -parameters
 
