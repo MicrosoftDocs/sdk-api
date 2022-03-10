@@ -222,6 +222,31 @@ The specified volume supports reparse points.
 
 </td>
 </tr>
+
+<tr>
+  <td width="40%"><a id="FILE_SUPPORTS_REMOTE_STORAGE"></a><a id="file_supports_remote_storage"></a>
+    <dl><dt><b>FILE_SUPPORTS_REMOTE_STORAGE</b></dt><dt>0x00000100</dt></dl>
+  </td>
+  <td width="60%">
+  </td>
+</tr>
+
+<tr>
+  <td width="40%"><a id="FILE_RETURNS_CLEANUP_RESULT_INFO"></a><a id="file_supports_remote_storage"></a>
+    <dl><dt><b>FILE_RETURNS_CLEANUP_RESULT_INFO</b></dt><dt>0x00000200</dt></dl>
+  </td>
+  <td width="60%">
+  </td>
+</tr>
+
+<tr>
+  <td width="40%"><a id="FILE_SUPPORTS_POSIX_UNLINK_RENAME"></a><a id="file_supports_remote_storage"></a>
+    <dl><dt><b>FILE_SUPPORTS_POSIX_UNLINK_RENAME</b></dt><dt>0x04000000</dt></dl>
+  </td>
+  <td width="60%">
+  </td>
+</tr>
+
 <tr>
 <td width="40%"><a id="FILE_VOLUME_IS_COMPRESSED"></a><a id="file_volume_is_compressed"></a><dl>
 <dt><b>FILE_VOLUME_IS_COMPRESSED</b></dt>
@@ -357,6 +382,15 @@ The specified volume supports update sequence number (USN) journals. For more in
 
 </td>
 </tr>
+
+<tr>
+  <td width="40%"><a id="FILE_SUPPORTS_INTEGRITY_STREAMS"></a><a id="file_supports_remote_storage"></a>
+    <dl><dt><b>FILE_SUPPORTS_INTEGRITY_STREAMS</b></dt><dt>0x04000000</dt></dl>
+  </td>
+  <td width="60%">
+  </td>
+</tr>
+
 <tr>
 <td width="40%"><a id="FILE_SUPPORTS_BLOCK_REFCOUNTING"></a><a id="file_supports_block_refcounting"></a><dl>
 <dt><b>FILE_SUPPORTS_BLOCK_REFCOUNTING</b></dt>
@@ -368,6 +402,15 @@ The specified volume supports sharing logical clusters between files on the same
 
 </td>
 </tr>
+
+<tr>
+  <td width="40%"><a id="FILE_SUPPORTS_SPARSE_VDL"></a><a id="file_supports_remote_storage"></a>
+    <dl><dt><b>FILE_SUPPORTS_SPARSE_VDL</b></dt><dt>0x10000000</dt></dl>
+  </td>
+  <td width="60%">
+  </td>
+</tr>
+
 <tr>
 <td width="40%"><a id="FILE_DAX_VOLUME"></a><a id="file_dax_volume"></a><dl>
 <dt><b>FILE_DAX_VOLUME</b></dt>
@@ -381,6 +424,15 @@ The specified volume is a direct access (DAX) volume.
 <div> </div>
 </td>
 </tr>
+
+<tr>
+  <td width="40%"><a id="FILE_SUPPORTS_GHOSTING"></a><a id="file_supports_remote_storage"></a>
+    <dl><dt><b>FILE_SUPPORTS_GHOSTING</b></dt><dt>0x00000200</dt></dl>
+  </td>
+  <td width="60%">
+  </td>
+</tr>
+
 </table>
 
 ### -param lpFileSystemNameBuffer [out, optional]
