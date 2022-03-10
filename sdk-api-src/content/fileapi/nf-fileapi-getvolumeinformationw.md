@@ -369,8 +369,8 @@ The specified volume supports sharing logical clusters between files on the same
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="FILE_DAX_VOLUME________"></a><a id="file_dax_volume________"></a><dl>
-<dt><b>FILE_DAX_VOLUME        </b></dt>
+<td width="40%"><a id="FILE_DAX_VOLUME"></a><a id="file_dax_volume"></a><dl>
+<dt><b>FILE_DAX_VOLUME</b></dt>
 <dt>0x20000000</dt>
 </dl>
 </td>
