@@ -62,8 +62,9 @@ A pointer to a
 
 ### -param ImageConfigInformation [out]
 
-A pointer to an 
-<a href="/windows/desktop/api/winnt/ns-winnt-image_load_config_directory32">IMAGE_LOAD_CONFIG_DIRECTORY64</a> structure that receives the configuration information.
+A pointer to an IMAGE_LOAD_CONFIG_DIRECTORY structure that receives the configuration information.
+
+If \_WIN64 is defined, then IMAGE_LOAD_CONFIG_DIRECTORY is defined as [IMAGE_LOAD_CONFIG_DIRECTORY64](/windows/desktop/api/winnt/ns-winnt-image_load_config_directory64). However, if \_WIN64 is not defined, then IMAGE_LOAD_CONFIG_DIRECTORY is defined as [IMAGE_LOAD_CONFIG_DIRECTORY32](/windows/desktop/api/winnt/ns-winnt-image_load_config_directory32).
 
 ## -returns
 
@@ -81,16 +82,6 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 ## -see-also
 
-<a href="/windows/desktop/api/winnt/ns-winnt-image_load_config_directory32">IMAGE_LOAD_CONFIG_DIRECTORY64</a>
-
-
-
 <a href="/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
-
-
-
 <a href="/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a>
-
-
-
 <a href="/windows/desktop/api/imagehlp/nf-imagehlp-setimageconfiginformation">SetImageConfigInformation</a>
