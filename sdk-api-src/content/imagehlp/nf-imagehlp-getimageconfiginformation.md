@@ -63,7 +63,7 @@ A pointer to a
 ### -param ImageConfigInformation [out]
 
 A pointer to an 
-<a href="/windows/desktop/api/winnt/ns-winnt-image_load_config_directory32">IMAGE_LOAD_CONFIG_DIRECTORY64</a> structure that receives the configuration information.
+<a href="/windows/desktop/api/winnt/ns-winnt-image_load_config_directory64">IMAGE_LOAD_CONFIG_DIRECTORY</a> structure that receives the configuration information.
 
 ## -returns
 
@@ -81,7 +81,11 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 ## -see-also
 
-<a href="/windows/desktop/api/winnt/ns-winnt-image_load_config_directory32">IMAGE_LOAD_CONFIG_DIRECTORY64</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-image_load_config_directory32">IMAGE_LOAD_CONFIG_DIRECTORY32</a>
+
+
+
+<a href="/windows/desktop/api/winnt/ns-winnt-image_load_config_directory64">IMAGE_LOAD_CONFIG_DIRECTORY64</a>
 
 
 
