@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathIsFileSpecW
 title: PathIsFileSpecW function (shlwapi.h)
-description: Searches a path for any path-delimiting characters (for example, ':' or '\' ). If there are no path-delimiting characters present, the path is considered to be a File Spec path.
+description: Searches a path for any path-delimiting characters (for example, ':' or '\\' ). If there are no path-delimiting characters present, the path is considered to be a File Spec path.
 helpviewer_keywords: ["PathIsFileSpec","PathIsFileSpec function [Windows Shell]","PathIsFileSpecA","PathIsFileSpecW","_win32_PathIsFileSpec","shell.PathIsFileSpec","shlwapi/PathIsFileSpec","shlwapi/PathIsFileSpecA","shlwapi/PathIsFileSpecW"]
 old-location: shell\PathIsFileSpec.htm
 tech.root: shell
@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-Searches a path for any path-delimiting characters (for example, ':' or '\' ). If there are no path-delimiting characters present, the path is considered to be a File Spec path.
+Searches a path for any path-delimiting characters (for example, ':' or '\\' ). If there are no path-delimiting characters present, the path is considered to be a File Spec path.
 
 ## -parameters
 
