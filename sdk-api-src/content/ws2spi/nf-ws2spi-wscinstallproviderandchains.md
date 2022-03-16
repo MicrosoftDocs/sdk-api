@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<div class="alert">**Note**  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The **WSCInstallProviderAndChains** function installs the specified 32-bit transport provider as well as its specific protocol chains into the Winsock 2 system configuration database on a 32-bit computer. This function ensures that the protocol chains are ordered at the beginning of the transport provider configuration information, ensuring that a separate call to <a href="/windows/desktop/api/sporder/nf-sporder-wscwriteproviderorder">WSCWriteProviderOrder</a> is not necessary.
+**Note**  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The **WSCInstallProviderAndChains** function installs the specified 32-bit transport provider as well as its specific protocol chains into the Winsock 2 system configuration database on a 32-bit computer. This function ensures that the protocol chains are ordered at the beginning of the transport provider configuration information, ensuring that a separate call to <a href="/windows/desktop/api/sporder/nf-sporder-wscwriteproviderorder">WSCWriteProviderOrder</a> is not necessary.
 
 ## -parameters
 
