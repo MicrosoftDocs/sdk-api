@@ -90,7 +90,7 @@ If the function cannot find the  module, the function fails. When specifying a p
 
 If the string specifies a module name without a path and the file name extension is omitted, the function
        appends the default library extension ".DLL" to the module name. To prevent the function from appending
-       .dll to the module name, include a trailing point character (.) in the module name string.
+       ".DLL" to the module name, include a trailing point character (.) in the module name string.
 
 ## -returns
 

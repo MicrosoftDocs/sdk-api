@@ -78,7 +78,7 @@ The module can be a library module (a .dll file) or an executable module (an .ex
 
 If the string specifies a module name without a path and the file name extension is omitted, and the module name does
        not contain any point character (.), then the function appends the default library extension ".DLL" to the module name.
-       To prevent the function from appending .dll to the module name, include a trailing point character (.) in the module
+       To prevent the function from appending ".DLL" to the module name, include a trailing point character (.) in the module
        name string.
 
 If the string specifies a fully qualified path, the function searches only that path for the module. When
