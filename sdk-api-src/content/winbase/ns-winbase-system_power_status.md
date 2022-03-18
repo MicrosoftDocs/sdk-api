@@ -94,6 +94,17 @@ Online
 <tr>
 <td width="40%">
 <dl>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+Backup Power
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
 <dt>255</dt>
 </dl>
 </td>
