@@ -125,6 +125,8 @@ Points to a structure that contains the information about the user process that 
 
 ### -field RequestKey
 
+An opaque id that uniquely identifies a cloud file operation on a particular cloud file.
+
 ## -remarks
 
 A file name is considered normalized if all of the following are true:

@@ -56,7 +56,7 @@ An opaque handle to the placeholder.
 
 ### -param RequestKey
 
-Specifies operation other than hydratio
+Specifies operation other than hydration.
 
 ### -param ProviderProgressTotal
 

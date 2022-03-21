@@ -92,5 +92,9 @@ Clears the flags of the sync provider.
 
 ### -field CF_PROVIDER_STATUS_TERMINATED:0xC0000001
 
+The sync provider has been terminated.
+
 ### -field CF_PROVIDER_STATUS_ERROR:0xC0000002
+
+There was an error with the sync provider.
 

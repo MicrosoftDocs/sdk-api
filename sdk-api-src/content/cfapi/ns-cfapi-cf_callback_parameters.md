@@ -100,7 +100,11 @@ Length, in bytes, of a broader piece of data to provide to a sync provider. This
 
 ### -field DUMMYUNIONNAME.FetchData.LastDehydrationTime
 
+The system time when the cloud file in question was dehydrated. It is a count of 100-nanosecond intervals since January 1, 1601.
+
 ### -field DUMMYUNIONNAME.FetchData.LastDehydrationReason
+
+A member of the [CF_CALLBACK_DEHYDRATION_REASON](ne-cfapi-cf_callback_dehydration_reason.md) enumeration specifying the reason that the file was last dehydrated.
 
 ### -field DUMMYUNIONNAME.ValidateData
 
@@ -146,11 +150,17 @@ Placeholder dehydration flags.
 
 ### -field DUMMYUNIONNAME.Dehydrate.Reason
 
+A member of the [CF_CALLBACK_DEHYDRATION_REASON](ne-cfapi-cf_callback_dehydration_reason.md) enumeration specifying the reason why the placeholder is being dehydrated.
+
 ### -field DUMMYUNIONNAME.DehydrateCompletion
 
 ### -field DUMMYUNIONNAME.DehydrateCompletion.Flags
 
+Placeholder dehydration completion flags.
+
 ### -field DUMMYUNIONNAME.DehydrateCompletion.Reason
+
+A member of the [CF_CALLBACK_DEHYDRATION_REASON](ne-cfapi-cf_callback_dehydration_reason.md) enumeration specifying the reason why the placeholder was dehydrated.
 
 ### -field DUMMYUNIONNAME.Delete
 
