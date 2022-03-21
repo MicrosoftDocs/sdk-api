@@ -64,9 +64,11 @@ The name of the TraceLogging provider. This must be a string literal--do not use
 
 ### -param providerId [in]
 
-The GUID for the provider. This value is the result of applying the RFC 4122 algorithm to the provider's name. 
+The GUID for the provider. 
+This can be any GUID, e.g. a GUID generated using the `guidgen` SDK tool or https://uuidgen.org.
+However, Microsoft has established a convention for generating the GUID using a hash of the provider name. This enables several benefits: it's easier to remember just the name, it works with tools like tracelog, traceview, EventSource, and WPR.
 
-You can obtain the provider Id in PowerShell:
+You can obtain the provider Id in PowerShell as follows:
 ```powershell
 [System.Diagnostics.Tracing.EventSource]::new("MyProvider").Guid
 ```
