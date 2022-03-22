@@ -89,4 +89,3 @@ As of Windows 10, no  flags are defined. This parameter should be set to 0.
 ## -returns
 
 Returns a status code that indicates the success or failure of the function.
-

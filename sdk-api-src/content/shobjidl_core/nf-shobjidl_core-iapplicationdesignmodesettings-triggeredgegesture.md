@@ -52,7 +52,7 @@ api_name:
 
 Sends a spoofed edge gesture event to the proxy core window on the caller's thread. This gesture toggles the app's app bar, if the app supports one. The caller can specify the type of input that triggered the edge gesture.
 
-You must call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize">IInitializeWithWindow::Initialize</a> to set a proxy core window before calling this method.
+You must call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize">IInitializeWithWindow::Initialize</a> to set a proxy core window before calling this method. For a code example, see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects#winui-3-with-c).
 
 ## -parameters
 
