@@ -78,6 +78,8 @@ A value from the <a href="/windows/desktop/api/wingdi/ne-wingdi-displayconfig_vi
 
 The one-based instance number of this particular target only when the adapter has multiple targets of this type. The connector instance is a consecutive one-based number that is unique within each adapter. If this is the only target of this type on the adapter, this value is zero.
 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 ### -field monitorFriendlyDeviceName
 
 A NULL-terminated WCHAR string that is the  device name for the monitor. This name can be used with <i>SetupAPI.dll</i> to obtain the device name that is contained in the installation package.
