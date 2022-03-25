@@ -130,15 +130,15 @@ If you  created the resource as shared and did not specify that it uses NT handl
 ID3D11Texture2D* pTexture2D;
 ID3D11Device* pDevice;
 
-pDevice-&gt;CreateTexture2D(…, &amp;pTexture2D); // Create the texture as shared with NT HANDLEs.
+pDevice->CreateTexture2D(…, &pTexture2D); // Create the texture as shared with NT HANDLEs.
 
 HANDLE handle;
 IDXGIResource1* pResource;
-pTexture2D-&gt;QueryInterface(__uuidof(IDXGIResource1), (void**) &amp;pResource);
-pResource-&gt;CreateSharedHandle(NULL, 
+pTexture2D->QueryInterface(__uuidof(IDXGIResource1), (void**) &pResource);
+pResource->CreateSharedHandle(NULL, 
          DXGI_SHARED_RESOURCE_READ | DXGI_SHARED_RESOURCE_WRITE, 
          NULL,
-         &amp;handle);
+         &handle);
 
 // Pass the handle to another process to share the resource.
 
