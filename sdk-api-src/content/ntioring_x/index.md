@@ -54,6 +54,3 @@ This header is used by Data Access and Storage. For more information, see:
 The core APIs for creating and managing I/O rings are defined in the [ioringapi.h](../ioringapi/index.md) header.
 
 ## -see-also
-
-## -examples
-

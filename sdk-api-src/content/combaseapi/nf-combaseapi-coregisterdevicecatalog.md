@@ -1,9 +1,9 @@
 ---
 UID: NF:combaseapi.CoRegisterDeviceCatalog
 title: CoRegisterDeviceCatalog
-description: TBD
+description: Enables a downloaded DLL to register its device catalog interfaces within its running process so that the marshaling code will be able to marshal those interfaces.
 tech.root: com
-ms.date: 03/22/2022
+ms.date: 03/25/2022
 helpviewer_keywords:
  - CoRegisterDeviceCatalog
 req.construct-type: function
@@ -39,10 +39,8 @@ api_type:
  - DllExport
 api_location:
  - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
+ - API-MS-Win-Core-Com-l1-1-3.dll
  - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
  - CoRegisterDeviceCatalog
 prerelease: false
@@ -50,7 +48,7 @@ prerelease: false
 
 ## -description
 
-Enables a downloaded DLL to register its device catalog interfaces within its running process so that the marshaling code will be able to marshal those interfaces.
+Enables a downloaded DLL to register its Media Foundation Transform (MFT) device catalog interfaces within its running process so that the marshaling code will be able to marshal those interfaces.
 
 ## -parameters
 
@@ -64,7 +62,7 @@ A null-terminated string containing the instance identifier of the device to reg
 
 Type: \_Out\_ **CO_DEVICE_CATALOG_COOKIE\***
 
-Returns an instance of **CO_DEVICE_CATALOG_COOKIE**. You can use this value to revoke the device catalog using **CoRegisterDeviceCatalog**.
+Returns an instance of **CO_DEVICE_CATALOG_COOKIE**. You can use this value to revoke the device catalog using [CoRevokeDeviceCatalog](nf-combaseapi-corevokedevicecatalog.md).
 
 ## -returns
 
@@ -72,4 +70,37 @@ This function can return the standard return values **E_INVALIDARG**, **E_OUTOFM
 
 ## -remarks
 
+## -examples
+
+```cpp
+std::vector<CO_DEVICE_CATALOG_COOKIE> g_deviceCatalogsCookies;
+
+HRESULT MFStartup(ULONG Version, DWORD dwFlags)
+{
+    // current MFStartup code elided.
+    std::wstring devices{ /* set of device IDs of interest */ };
+    for (const auto& device : devices)
+    {
+        CO_DEVICE_CATALOG_COOKIE cookie{};
+        RETURN_IF_FAILED(CoRegisterDeviceCatalog(device.c_str(), &cookie));
+        g_deviceCatalogsCookies.push_back(cookie);
+    }
+
+    return S_OK;
+}
+
+HRESULT STDMETHODCALLTYPE MFShutdown()
+{
+    // current MFShutdown code elided
+    for (auto catalogCookie : g_deviceCatalogsCookies)
+    {
+        CoRevokeDeviceCatalog(catalogCookie);
+    }
+
+    return S_OK;
+}
+```
+
 ## -see-also
+
+* [CoRevokeDeviceCatalog](nf-combaseapi-corevokedevicecatalog.md)

@@ -45,6 +45,3 @@ This set of APIs contains resources that describe diagnostic data records and pr
 ## -remarks
 
 ## -see-also
-
-## -examples
-

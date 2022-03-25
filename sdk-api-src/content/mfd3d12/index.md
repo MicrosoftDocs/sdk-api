@@ -52,6 +52,3 @@ This header is used by Microsoft Media Foundation. For more information, see:
 ## -remarks
 
 ## -see-also
-
-## -examples
-

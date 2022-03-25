@@ -51,5 +51,3 @@ This header is used by Windows Runtime C++ reference. For more information, see:
 - [Windows Runtime C++ reference](../_winrt/index.md)
 
 ## -see-also
-
-## -examples
