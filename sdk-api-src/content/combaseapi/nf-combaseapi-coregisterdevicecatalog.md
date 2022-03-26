@@ -70,7 +70,7 @@ This function can return the standard return values **E_INVALIDARG**, **E_OUTOFM
 
 ## -remarks
 
-## -examples
+## Examples
 
 ```cpp
 std::vector<CO_DEVICE_CATALOG_COOKIE> g_deviceCatalogsCookies;
