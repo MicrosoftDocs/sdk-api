@@ -23,7 +23,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Bthprops.lib
-req.dll: Bthprops.dll
+req.dll: bthprops.cpl
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -40,7 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - Bthprops.dll
+ - bthprops.cpl
 api_name:
  - BluetoothAuthenticateDevice
 ---
