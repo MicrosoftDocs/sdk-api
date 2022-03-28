@@ -89,8 +89,9 @@ If an HRESULT_FROM_WIN32(ERROR_FILE_SYSTEM_VIRTUALIZATION_INVALID_OPERATION) err
 
 ## -remarks
 
-The provider uses this routine to update an item in the local file system if the item's information has changed in the provider’s backing store and the updates should be reflected in the items cached in the local file system. 
+The provider uses this routine to update an item in the local file system if the item's information has changed in the provider’s backing store and the updates should be reflected in the items cached in the local file system.
 
+When called on directories, the directory needs to be empty for this function to succeed.
 
 This routine cannot be called on a virtual file/directory. 
 If the file/directory to be updated is in any state other than "placeholder", the provider must specify an appropriate combination of PRJ_UPDATE_TYPES values in the updateFlags parameter. This helps guard against accidental loss of data, since upon successful return from this routine the item becomes a placeholder with the updated metadata; any metadata that had been changed since the placeholder was created, or any file data it contained is discarded. 
