@@ -54,6 +54,9 @@ api_name:
 
 The <b>CM_Get_Child</b> function is used to retrieve a device instance handle to the first child node of a specified device node (<a href="/windows-hardware/drivers/">devnode</a>) in the local machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.
 
+> [!NOTE]
+> In Windows Vista and later versions of Windows, the [unified device property model](/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-) uses the [**DEVPKEY_Device_Children**](/windows-hardware/drivers/install/devpkey-device-children) [property key](/windows-hardware/drivers/install/property-keys) to represent device children. See [Retrieving Device Relations](/windows-hardware/drivers/install/retrieving-device-relations) for details.
+
 ## -parameters
 
 ### -param pdnDevInst [out]
