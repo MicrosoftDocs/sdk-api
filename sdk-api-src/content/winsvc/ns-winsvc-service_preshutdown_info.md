@@ -64,7 +64,7 @@ The time-out value, in milliseconds.
 
 ## -remarks
 
-The default preshutdown time-out value is 180,000 milliseconds (three minutes).
+Starting with the Windows Creator’s Update (build 15063) the default preshutdown time-out value is 10,000 milliseconds (10 seconds). In prior releases, the default preshutdown time-out value is 180,000 milliseconds (three minutes).
 
 After the service control manager sends the SERVICE_CONTROL_PRESHUTDOWN notification to the <a href="/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a> function, it waits for one of the following to occur before proceeding with other shutdown actions: the specified time elapses or the service enters the SERVICE_STOPPED state. The service can continue to update its status for as long as it is in the SERVICE_STOP_PENDING state.
 
