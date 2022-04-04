@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains information associated with an <a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a> notification code. A rich edit control sends this notification when the user attempts to edit protected text.
+Contains information associated with an [EN_PROTECTED](https://docs.microsoft.com/en-us/windows/win32/controls/en-protected) notification code. A rich edit control sends this notification when the user attempts to edit protected text.
 
 ## -struct-fields
 
@@ -89,4 +89,4 @@ The current selection.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a>
+[EN_PROTECTED](https://docs.microsoft.com/en-us/windows/win32/controls/en-protected)
