@@ -74,11 +74,11 @@ Contains the name to which the file should be renamed. Use only when calling
 
 ### -field RootDirectory
 
-A handle to the root directory in which the file to be renamed is located.
+Should be set to NULL.
 
 ### -field FileNameLength
 
-The size of <b>FileName</b> in bytes.
+The size of <b>FileName</b> in bytes, including the terminating null byte.
 
 ### -field FileName
 
