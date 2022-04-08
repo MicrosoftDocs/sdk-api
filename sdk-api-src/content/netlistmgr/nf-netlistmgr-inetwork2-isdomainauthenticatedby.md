@@ -65,8 +65,6 @@ The function dereferences *pValue*, and assigns `TRUE` if this network has the s
 
 Returns **S_OK** if successful.
 
-## -remarks
-
 ## Example
 
 In this example, a hypothetical networking diagnostic tool seeks to ensure that connections to a corporate network have correct authentication properties.
