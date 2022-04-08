@@ -67,8 +67,6 @@ Returns **S_OK** if successful.
 
 ## -remarks
 
-Enterprises often need to apply Domain firewall profile for devices connected to their physical corporate network. This API allows Azure Active Directory (AAD)-joined devices&mdash;via Transport Layer Security (TLS) protocol&mdash;to also detect a corporate network as a Domain profile. [NLM_DOMAIN_AUTHENTICATION_KIND](ne-netlistmgr-nlm_domain_authentication_kind.md) expresses which method was used&mdash;traditional domain authentication via Lightweight Directory Access Protocol (LDAP), or Transport Layer Security (TLS) authentication.
-
 ## Example
 
 In this example, a hypothetical networking diagnostic tool seeks to ensure that connections to a corporate network have correct authentication properties.
