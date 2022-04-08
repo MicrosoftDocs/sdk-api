@@ -131,12 +131,6 @@ When a swapchain is created on a multi-GPU adapter, the backbuffers are all crea
           See <a href="/windows/win32/direct3d12/multi-engine">Multi-adapter systems</a>.
         
 
-The only difference between <a href="/windows/win32/api/dxgi/nf-dxgi-idxgiswapchain-resizebuffers">IDXGISwapChain::ResizeBuffers</a> in Windows 8 versus Windows 7 is with
-          flip presentation model swap chains that you create with the <a href="/windows/win32/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> or DXGI_SWAP_EFFECT_FLIP_DISCARD value set.
-          In Windows 8, you must call <b>ResizeBuffers</b> to realize a transition between full-screen mode and windowed mode;
-          otherwise, your next call to the <a href="/windows/win32/api/dxgi/nf-dxgi-idxgiswapchain-present">IDXGISwapChain::Present</a> method fails.
-        
-
 Also see the Remarks section in <a href="/windows/win32/api/dxgi/nf-dxgi-idxgiswapchain-resizebuffers">IDXGISwapChain::ResizeBuffers</a>, all of which is relevant to <b>ResizeBuffers1</b>.
 
 ## -see-also
