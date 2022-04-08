@@ -59,37 +59,37 @@ Creates and initializes a <b>Matrix::Matrix</b> object based on six numbers that
 
 Type: <b>REAL</b>
 
-Real number that specifies the element in the first row, first column.
+Real number that specifies the element in the first row, first column - horizontal scaling component or cosine of rotation angle.
 
 ### -param m12 [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the element in the first row, second column.
+Real number that specifies the element in the first row, second column - horizontal shear component or sine of rotation angle.
 
 ### -param m21 [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the element in the second row, first column.
+Real number that specifies the element in the second row, first column - vertical shear component or negative sine of rotation angle.
 
 ### -param m22 [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the element in the second row, second column.
+Real number that specifies the element in the second row, second column - vertical scaling component or cosine of rotation angle.
 
 ### -param dx [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the element in the third row, first column.
+Real number that specifies the element in the third row, first column - horizontal translation component.
 
 ### -param dy [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the element in the third row, second column.
+Real number that specifies the element in the third row, second column - vertical translation component.
 
 ## -see-also
 
