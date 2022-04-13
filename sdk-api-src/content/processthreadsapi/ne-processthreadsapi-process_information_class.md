@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# PROCESS_INFORMATION_CLASS enumeration
+
 ## -description
 
 Indicates a specific class of process information. Values from this enumeration are passed into the [GetProcessInformation](./nf-processthreadsapi-getprocessinformation.md) and [SetProcessInformation](./nf-processthreadsapi-setprocessinformation.md) functions to specify the type of process information passed in the void pointer argument of the function call.
