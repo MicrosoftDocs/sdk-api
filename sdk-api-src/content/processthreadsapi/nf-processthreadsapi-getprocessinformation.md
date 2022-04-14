@@ -102,10 +102,6 @@ If the <i>ProcessInformationClass</i> parameter is
       <code>sizeof(MEMORY_PRIORITY_INFORMATION)</code>.
 
 If the <i>ProcessInformationClass</i> parameter is 
-       <b>ProcessPowerThrottling</b>, this parameter must be 
-       <code>sizeof(PROCESS_POWER_THROTTLING_STATE)</code>.
-
-If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessProtectionLevelInfo</b>, this parameter must be 
        <code>sizeof(PROCESS_PROTECTION_LEVEL_INFORMATION)</code>.
 
