@@ -220,7 +220,7 @@ You must allocate the memory for <b>pstrVal</b> by using the <a href="/windows/d
 
 #### PROPERTY_TYPE_ENABLE_UNIVERSAL_APPS_FOR_CUSTOM_SHELL (ed2c3fda-338d-4d3f-81a3-e767310d908e)
 
-Used by the Remote Desktop Services service determine if ShellAppRuntime.exe will be launched before any Custom Shells during session creation. ShellAppRuntime.exe implements Universal App support for Custom Shells. This is not enabled by default (equivalent to passing zero).
+Used by the Remote Desktop Services service determine if ShellAppRuntime.exe will be launched before any Custom Shells during session creation. ShellAppRuntime.exe implements Universal App support for Custom Shells. This is not enabled by default (equivalent to passing zero). This is available in Windows versions that are Server 2019 and above or Windows 10 multi-session Build 18950 and above.
 
 The <i>pPropertyEntriesIn</i> parameter will be <b>NULL</b>.
 
