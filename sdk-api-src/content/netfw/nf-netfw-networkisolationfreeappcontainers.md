@@ -48,9 +48,6 @@ api_name:
  - NetworkIsolationFreeAppContainers
 ---
 
-# NetworkIsolationFreeAppContainers function
-
-
 ## -description
 
 The <b>NetworkIsolationFreeAppContainers</b> function is used to release memory resources allocated to one or more app containers
@@ -67,7 +64,7 @@ The app container memory resources to be freed.
 
 Type: <b>DWORD</b>
 
-Always returns ERROR_SUCCESS.
+Returns **ERROR_SUCCESS**.
 
 ## -see-also
 
