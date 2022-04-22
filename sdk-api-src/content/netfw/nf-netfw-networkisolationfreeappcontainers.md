@@ -67,7 +67,7 @@ The app container memory resources to be freed.
 
 Type: <b>DWORD</b>
 
-Returns ERROR_SUCCESS if successful, or an error value otherwise.
+Always returns ERROR_SUCCESS.
 
 ## -see-also
 
