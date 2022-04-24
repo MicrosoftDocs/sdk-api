@@ -103,36 +103,34 @@ To help improve system performance, applications should use the <b>SetThreadInfo
 The following example shows how to call <b>SetThreadInformation</b> with <b>ThreadMemoryPriority</b> to set low memory priority on the current thread.
 
 
-``` syntax
+```c
 DWORD ErrorCode;
-    BOOL Success;
-    MEMORY_PRIORITY_INFORMATION MemPrio;
+BOOL Success;
+MEMORY_PRIORITY_INFORMATION MemPrio;
 
-    //
-    // Set low memory priority on the current thread.
-    //
+//
+// Set low memory priority on the current thread.
+//
 
-    ZeroMemory(&amp;MemPrio, sizeof(MemPrio));
-    MemPrio.MemoryPriority = MEMORY_PRIORITY_LOW;
+ZeroMemory(&MemPrio, sizeof(MemPrio));
+MemPrio.MemoryPriority = MEMORY_PRIORITY_LOW;
 
-    Success = SetThreadInformation(GetCurrentThread(),
-                                   ThreadMemoryPriority,
-                                   &amp;MemPrio,
-                                   sizeof(MemPrio));
+Success = SetThreadInformation(GetCurrentThread(),
+                               ThreadMemoryPriority,
+                               &MemPrio,
+                               sizeof(MemPrio));
 
-    if (!Success) {
-        ErrorCode = GetLastError();
-        fprintf(stderr, "Set thread memory priority failed: %d\n", ErrorCode);
-        goto cleanup;
-    }
+if (!Success) {
+    ErrorCode = GetLastError();
+    fprintf(stderr, "Set thread memory priority failed: %d\n", ErrorCode);
+}
 ```
 
 The following example shows how to call <b>SetThreadInformation</b> with <b>ThreadPowerThrottling</b> to control the Quality of Service of a thread.
 
-
-``` syntax
+```c
 THREAD_POWER_THROTTLING_STATE PowerThrottling;
-RtlZeroMemory(&amp;PowerThrottling, sizeof(PowerThrottling));
+ZeroMemory(&PowerThrottling, sizeof(PowerThrottling));
 PowerThrottling.Version = THREAD_POWER_THROTTLING_CURRENT_VERSION;
 
 //
@@ -146,7 +144,7 @@ PowerThrottling.StateMask = THREAD_POWER_THROTTLING_EXECUTION_SPEED;
 
 SetThreadInformation(GetCurrentThread(), 
                      ThreadPowerThrottling, 
-                     &amp;PowerThrottling, 
+                     &PowerThrottling, 
                      sizeof(PowerThrottling));
 
 //
@@ -160,7 +158,7 @@ PowerThrottling.StateMask = 0;
 
 SetThreadInformation(GetCurrentThread(), 
                      ThreadPowerThrottling, 
-                     &amp;PowerThrottling, 
+                     &PowerThrottling, 
                      sizeof(PowerThrottling));
 
 //
@@ -173,16 +171,13 @@ PowerThrottling.StateMask = 0;
 
 SetThreadInformation(GetCurrentThread(), 
                      ThreadPowerThrottling, 
-                     &amp;PowerThrottling, 
+                     &PowerThrottling, 
                      sizeof(PowerThrottling));
-
 ```
 
 
 ## -see-also
 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadinformation">GetThreadInformation</a>
-
-
 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation">SetProcessInformation</a>
