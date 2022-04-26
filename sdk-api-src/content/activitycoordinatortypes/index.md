@@ -1,0 +1,58 @@
+---
+UID: NA:activitycoordinatortypes
+tech.root: activity_coordinator
+title: activitycoordinatortypes
+ms.date: 04/26/2022
+targetos: Windows
+description: This header is used by System Services C++ reference.
+prerelease: false
+req.assembly: 
+req.construct-type: apiset
+req.ddi-compliance: 
+req.dll: 
+req.header: activitycoordinatortypes.h
+req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.namespace: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.typenames: 
+req.type-library: 
+req.umdf-ver: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - activitycoordinatortypes.h
+api_name:
+ - activitycoordinatortypes
+f1_keywords:
+ - activitycoordinatortypes
+ - activitycoordinatortypes/activitycoordinatortypes
+dev_langs:
+ - c++
+helpviewer_keywords:
+ - activitycoordinatortypes
+---
+
+## -description
+
+This header is used by System Services C++ reference. For more information, see:
+
+- [System Services C++ reference](../_base/index.md)
+
+## -remarks
+
+## -see-also
+
+[activitycoordinator.h](../activitycoordinator/index.md)
+
+## -examples
