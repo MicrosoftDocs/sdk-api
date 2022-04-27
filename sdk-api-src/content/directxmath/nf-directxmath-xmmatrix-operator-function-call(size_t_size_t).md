@@ -72,6 +72,8 @@ A <code>reference</code> to the matrix element specified by the operator's <b>Ro
 
 ## -remarks
 
+This operator is only available when building with ``_XM_NO_INTRINSICS_``.
+
 As a <code>reference</code> to the matrix element is returned, this operator can be used to update the value of an element
    of an instance of <code>XMMATRIX</code>.
 

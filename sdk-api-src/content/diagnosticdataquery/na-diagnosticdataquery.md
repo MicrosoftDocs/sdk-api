@@ -50,6 +50,3 @@ WinRT apps are required to have the telemetry data capability to use the DDQ API
 ## -remarks
 
 ## -see-also
-
-## -examples
-

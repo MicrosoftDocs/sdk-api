@@ -98,7 +98,7 @@ Alternatively, your program may call
 
 
 ``` syntax
-"&lt;section&gt; &lt;mode&gt; &lt;path&gt;"
+"<section> <mode> <path>"
 ```
 
 Where <i>path</i> is the full path to the .inf file, <i>mode</i> is the reboot mode parameter, and <i>section</i> is any <b>Install</b> section in the .inf file. The comma separator between SETUPAPI.DLL and 

@@ -76,4 +76,4 @@ Touchpad pointer type (Windows 8.1 and later).
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/inputmsg/enums">Enumerations</a>
+<a href="/windows/win32/inputmsg/enums">Enumerations</a>

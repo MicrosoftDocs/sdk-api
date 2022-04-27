@@ -58,7 +58,7 @@ The <b>ID3D12InfoQueue</b> interface inherits from the <a href="/windows/desktop
 
 ## -remarks
 
-This interface is obtained by querying it from the <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a> using <code>IUnknown::QueryInterface</code>.
+This interface is obtained by querying it from the <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a> using <code>IUnknown::QueryInterface</code>. The <code>ID3D12Debug</code> layer must be enabled through <code>ID3D12Debug::EnableDebugLayer</code> for that operation to succeed.
 
 ## -see-also
 

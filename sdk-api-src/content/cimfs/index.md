@@ -54,5 +54,3 @@ This header is used by CimFS. For more information, see:
 - [CimFS](../_cimfs/index.md)
 
 ## -see-also
-
-## -examples

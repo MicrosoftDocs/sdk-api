@@ -104,7 +104,7 @@ The following table lists the possible named property values and their data type
 <td>DWORD</td>
 </tr>
 <tr>
-<td>IssuedSerialNumberDirectories</td>
+<td>IssuedSerialNumbersDirectories</td>
 <td>REG_MULTI_SZ</td>
 </tr>
 </table>

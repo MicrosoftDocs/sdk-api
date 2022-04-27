@@ -65,6 +65,7 @@ This interface is acquired by cocreating CLSID_ApplicationDesignModeSettings. It
 
 In this example, Visual Studio is launching an application in design mode that has overridden the minimum width on a display of size 1366x768. It is then enabling a slider control that allows the user to dynamically change the applications width. To do this, it needs to use the new <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-setapplicationviewminwidth">SetApplicationViewMinWidth</a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-getapplicationsizebounds">GetApplicationSizeBounds</a> APIs to compute the minimum and maximum sizes allowed for this type of application.
 
+For more info about **IInitializeWithWindow::Initialize**, see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects#winui-3-with-c).
 
 ```cpp
 ComPtr<IApplicationDesignModeSettings> spDesignModeSettings;

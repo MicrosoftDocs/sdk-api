@@ -70,3 +70,8 @@ The newly created placeholder is marked as in-sync. Applicable to both placehold
 
 ### -field CF_PLACEHOLDER_CREATE_FLAG_SUPERSEDE:0x00000004
 
+The newly created placeholder will supercede/overwrite the an existing placeholder.
+
+### -field CF_PLACEHOLDER_CREATE_FLAG_ALWAYS_FULL:0x00000008
+
+When this flag is present, the newly created placeholder will be marked as always full. Once hydrated, any attempt to dehydrate such a (file) placeholder will fail with error code ERROR_CLOUD_FILE_DEHYDRATION_DISALLOWED. This flag is enforced on a placeholder file only. It can be set on a placeholder directory, but it has no effect.
