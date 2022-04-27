@@ -44,11 +44,11 @@ helpviewer_keywords:
 
 ## -description
 
-Checks if [UnsubscribeActivityCoordinatorPolicy](nf-activitycoordinator-unsubscribeactivitycoordinatorpolicy.md) is available.
+Determines whether or not it's safe to call the [UnsubscribeActivityCoordinatorPolicy](nf-activitycoordinator-unsubscribeactivitycoordinatorpolicy.md) function on the target system. Guard every call to **UnsubscribeActivityCoordinatorPolicy** with a call to **IsUnsubscribeActivityCoordinatorPolicyPresent**.
 
 ## -returns
 
-Returns a boolean indicating whether the function is available.
+Returns a boolean indicating whether the function is safe to call.
 
 ## -remarks
 

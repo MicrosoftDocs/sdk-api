@@ -44,11 +44,11 @@ helpviewer_keywords:
 
 ## -description
 
-Checks if [CreateActivityCoordinatorPolicy](nf-activitycoordinator-createactivitycoordinatorpolicy.md) is available.
+Determines whether or not it's safe to call the [CreateActivityCoordinatorPolicy](nf-activitycoordinator-createactivitycoordinatorpolicy.md) function on the target system. Guard every call to **CreateActivityCoordinatorPolicy** with a call to **IsCreateActivityCoordinatorPolicyPresent**.
 
 ## -returns
 
-Returns a boolean indicating whether the function is available.
+Returns a boolean indicating whether the function is safe to call.
 
 ## -remarks
 

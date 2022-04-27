@@ -44,11 +44,11 @@ helpviewer_keywords:
 
 ## -description
 
-Checks if [DestroyActivityCoordinatorPolicy](nf-activitycoordinator-destroyactivitycoordinatorpolicy.md) is available.
+Determines whether or not it's safe to call the [DestroyActivityCoordinatorPolicy](nf-activitycoordinator-destroyactivitycoordinatorpolicy.md) function on the target system. Guard every call to **DestroyActivityCoordinatorPolicy** with a call to **IsDestroyActivityCoordinatorPolicyPresent**.
 
 ## -returns
 
-Returns a boolean indicating whether the function is available.
+Returns a boolean indicating whether the function is safe to call.
 
 ## -remarks
 

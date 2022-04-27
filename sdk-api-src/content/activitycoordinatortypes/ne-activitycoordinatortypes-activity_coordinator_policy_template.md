@@ -64,3 +64,7 @@ This template represents an empty policy that is used as the basis for a complet
 ## -see-also
 
 [CreateActivityCoordinatorPolicy](../activitycoordinator/nf-activitycoordinator-createactivitycoordinatorpolicy.md)
+
+[ACTIVITY_COORDINATOR_CONDITION](../activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_condition.md)
+
+[ACTIVITY_COORDINATOR_RESOURCE](../activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_resource.md)

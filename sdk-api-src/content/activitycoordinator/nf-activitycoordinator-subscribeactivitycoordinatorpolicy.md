@@ -62,11 +62,11 @@ Context to be passed to callback routine.
 
 ### -param subscription
 
-Supplies a pointer to an ACTIVITY_COORDINATOR_SUBSCRIPTION handle that receives the created subscription handle.
+Supplies a pointer to an **ACTIVITY_COORDINATOR_SUBSCRIPTION** handle that receives the created subscription handle.
 
 ## -returns
 
-HRESULT
+Returns an **HRESULT**.
 
 ## -remarks
 

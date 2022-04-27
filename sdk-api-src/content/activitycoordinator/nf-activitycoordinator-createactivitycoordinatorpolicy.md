@@ -54,11 +54,11 @@ Supplies a policy template enumeration value.
 
 ### -param policy
 
-Supplies a pointer to an ACTIVITY_COORDINATOR_POLICY handle that receives the created policy handle.
+Supplies a pointer to an **ACTIVITY_COORDINATOR_POLICY** handle that receives the created policy handle.
 
 ## -returns
 
-HRESULT
+Returns an **HRESULT**.
 
 ## -remarks
 

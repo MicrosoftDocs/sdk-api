@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Gets a resource’s desired condition for a policy. Unmonitored resources in a policy are indicated by ACTIVITY_COORDINATOR_CONDITION_NOT_SET.
+Gets a resource’s desired condition for a policy. Unmonitored resources in a policy are indicated by **ACTIVITY_COORDINATOR_CONDITION_NOT_SET**.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ Supplies a pointer to a buffer that receives the resource’s configured conditi
 
 ## -returns
 
-HRESULT
+Returns an **HRESULT**.
 
 ## -remarks
 

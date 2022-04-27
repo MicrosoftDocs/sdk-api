@@ -44,11 +44,11 @@ helpviewer_keywords:
 
 ## -description
 
-Checks if [SetActivityCoordinatorPolicyResourceCondition](nf-activitycoordinator-setactivitycoordinatorpolicyresourcecondition.md) is available.
+Determines whether or not it's safe to call the [SetActivityCoordinatorPolicyResourceCondition](nf-activitycoordinator-setactivitycoordinatorpolicyresourcecondition.md) function on the target system. Guard every call to **SetActivityCoordinatorPolicyResourceCondition** with a call to **IsSetActivityCoordinatorPolicyResourceConditionPresent**.
 
 ## -returns
 
-Returns a boolean indicating whether the function is available.
+Returns a boolean indicating whether the function is safe to call.
 
 ## -remarks
 

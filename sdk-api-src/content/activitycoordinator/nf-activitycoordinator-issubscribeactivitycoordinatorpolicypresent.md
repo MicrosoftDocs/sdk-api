@@ -44,11 +44,11 @@ helpviewer_keywords:
 
 ## -description
 
-Checks if [SubscribeActivityCoordinatorPolicy](nf-activitycoordinator-subscribeactivitycoordinatorpolicy.md) is available.
+Determines whether or not it's safe to call the [SubscribeActivityCoordinatorPolicy](nf-activitycoordinator-subscribeactivitycoordinatorpolicy.md) function on the target system. Guard every call to **SubscribeActivityCoordinatorPolicy** with a call to **IsSubscribeActivityCoordinatorPolicyPresent**.
 
 ## -returns
 
-Returns a boolean indicating whether the function is available.
+Returns a boolean indicating whether the function is safe to call.
 
 ## -remarks
 

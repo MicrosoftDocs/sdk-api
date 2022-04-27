@@ -54,7 +54,7 @@ Supplies a handle to the target subscription to be destroyed.
 
 ## -returns
 
-HRESULT
+Returns an **HRESULT**.
 
 ## -remarks
 

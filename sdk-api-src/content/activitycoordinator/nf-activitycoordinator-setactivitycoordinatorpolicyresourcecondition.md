@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Sets a resource’s desired condition for a policy. For resources the developer does not want their policy to monitor, they can set the resource’s condition to ACTIVITY_COORDINATOR_CONDITION_NOT_SET.
+Sets a resource’s desired condition for a policy. For resources the developer does not want their policy to monitor, they can set the resource’s condition to **ACTIVITY_COORDINATOR_CONDITION_NOT_SET**.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ Supplies the desired condition.
 
 ## -returns
 
-HRESULT
+Returns an **HRESULT**.
 
 ## -remarks
 
