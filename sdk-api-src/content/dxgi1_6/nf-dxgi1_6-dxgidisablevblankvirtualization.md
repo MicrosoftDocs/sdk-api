@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_6.DXGIDisableVBlankVirtualization
 title: DXGIDisableVBlankVirtualization
-description: TBD
+description: Disables v-blank virtualization for the process. This virtualization is used by the dynamic refresh rate (DRR) feature by default for all swap chains to maintain a steady virtualized present rate and v-blank cadence from [IDXGIOutput::WaitForVBlank](/windows/win32/api/dxgi/nf-dxgi-idxgioutput-waitforvblank). By disabling virtualization, these APIs will see the changing refresh rate.
 tech.root: direct3ddxgi
 ms.date: 04/26/2022
 req.construct-type: function
