@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Callback to be called for all notifications for an activity subscription.
+A callback to be called for all notifications for an activity subscription.
 
 ## -parameters
 

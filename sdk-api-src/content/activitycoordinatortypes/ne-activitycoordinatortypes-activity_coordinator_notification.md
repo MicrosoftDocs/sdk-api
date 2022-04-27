@@ -39,7 +39,7 @@ helpviewer_keywords:
 
 ## -description
 
-An enumeration of the possible notification types for the subscription callback. RUN indicates that the policy is open (it’s resource conditions are satisfied) and the activity should execute; STOP indicates that the policy is closed and the activity should pause execution
+An enumeration of the possible notification types for the subscription callback.
 
 ## -enum-fields
 
@@ -52,6 +52,11 @@ Indicates that it is a good time to do work and therefore, any work that needs t
 Indicates that it is a bad time to do work and therefore, any work that is running should be stopped now.
 
 ## -remarks
+
+|Policy|Indication|
+|-|-|
+|**ACTIVITY_COORDINATOR_NOTIFICATION_RUN**|Indicates that the policy is open (it’s resource conditions are satisfied), and the activity should execute.|
+|**ACTIVITY_COORDINATOR_NOTIFICATION_STOP**|Indicates that the policy is closed, and the activity should pause execution.|
 
 ## -see-also
 

@@ -54,11 +54,11 @@ Supplies a handle to the target policy.
 
 ### -param callback
 
-Callback to be called for all notifications for this activity.
+A callback to be called for all notifications for this activity.
 
 ### -param callbackContext
 
-Context to be passed to callback routine.
+The context to be passed to callback routine.
 
 ### -param subscription
 
@@ -72,7 +72,7 @@ Returns an **HRESULT**.
 
 >**Note** Do not perform your primary workload in this callback, since it will block delivery of future policy notifications for this subscription. This callback should be used to coordinate the starting and stopping of your workload in response to RUN/STOP notifications from the API.
 
->**Note** Do not block this callback for extended periods of time, since it will block [UnsubscribeActivityCoordinatorPolicy](nf-activitycoordinator-unsubscribeactivitycoordinatorpolicy.md), and may contribute to thread pool exhaustion.
+>**Note** Do not block this callback for extended periods of time, since it will block [UnsubscribeActivityCoordinatorPolicy](nf-activitycoordinator-unsubscribeactivitycoordinatorpolicy.md) and may contribute to thread pool exhaustion.
 
 >**Note** Calls to [UnsubscribeActivityCoordinatorPolicy](nf-activitycoordinator-unsubscribeactivitycoordinatorpolicy.md) from this callback will fail. Unsubscribing must occur outside the callback.
 

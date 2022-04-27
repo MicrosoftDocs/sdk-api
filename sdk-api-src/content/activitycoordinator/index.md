@@ -2,9 +2,9 @@
 UID: NA:activitycoordinator
 tech.root: activity_coordinator
 title: activitycoordinator
-ms.date: 04/26/2022
+ms.date: 04/27/2022
 targetos: Windows
-description: This header is used by System Services C++ reference.
+description: This header is used by Activity Coordinator C++ reference.
 prerelease: false
 req.assembly: 
 req.construct-type: apiset
@@ -45,9 +45,9 @@ helpviewer_keywords:
 
 ## -description
 
-This header is used by System Services C++ reference. For more information, see:
+This header is used by Activity Coordinator C++ reference. For more information, see:
 
-- [System Services C++ reference](../_base/index.md)
+- [Activity Coordinator C++ reference](../_activity_coordinator/index.md)
 
 ## -remarks
 

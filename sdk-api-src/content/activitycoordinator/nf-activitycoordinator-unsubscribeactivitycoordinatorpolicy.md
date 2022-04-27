@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Destroys a subscription. Note that this routine waits for any in-progress callbacks issued for the subscription and so it must not be called from this subscription’s callback.
+Destroys a subscription. Note that this routine waits for any in-progress callbacks issued for the subscription. So it must not be called from this subscription’s callback.
 
 ## -parameters
 
