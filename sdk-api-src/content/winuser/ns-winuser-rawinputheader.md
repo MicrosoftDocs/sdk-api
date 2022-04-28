@@ -90,7 +90,7 @@ The value passed in the <i>wParam</i> parameter of the [WM_INPUT](/windows/win32
 
 ## -remarks
 
-To get more information on the device, use <b>hDevice</b> in a call to [GetRawInputDeviceInfo](nf-winuser-getrawinputdeviceinfoa.md).
+To get more information on the device, use <b>hDevice</b> in a call to [GetRawInputDeviceInfo](nf-winuser-getrawinputdeviceinfoa.md). <b>hDevice</b> can be zero if an input is received from a precision touchpad.
 
 ## -see-also
 
