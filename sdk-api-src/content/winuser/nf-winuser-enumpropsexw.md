@@ -69,7 +69,7 @@ A handle to the window whose property list is to be enumerated.
 
 Type: <b>PROPENUMPROCEX</b>
 
-A pointer to the callback function. For more information about the callback function, see the <a href="/windows/desktop/api/winuser/nc-winuser-propenumprocexa">PropEnumProcEx</a> function.
+A pointer to the callback function. For more information about the callback function, see the <a href="/windows/desktop/api/winuser/nc-winuser-propenumprocexw">PropEnumProcEx</a> function.
 
 ### -param lParam [in]
 
