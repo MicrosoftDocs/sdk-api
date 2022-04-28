@@ -12,7 +12,7 @@ req.ddi-compliance:
 req.dll: User32.dll
 req.header: Winuser.h
 req.idl: 
-req.include-header: 
+req.include-header: Windows.h
 req.irql: 
 req.kmdf-ver: 
 req.lib: User32.lib
@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DLLExport
 api_location:
  - winuser.h
 api_name:
@@ -79,7 +79,7 @@ If you have two top level windows, you need to call this function for each one.
 
 If the passed-in top level HWND is already in the foreground when **SetAdditionalForegroundBoostProcesses** is called, all of the processes in the **processHandleArray** are immediately boosted.
 
-A process whose handle is in the **processHandleArray** will get a foreground boost only when the top level HWND becomes the foreground window..
+A process whose handle is in the **processHandleArray** will get a foreground boost only when the top level HWND becomes the foreground window.
 
 Additional foreground boost is applied only when:
 
