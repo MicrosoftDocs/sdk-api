@@ -185,7 +185,7 @@ When this option is specified the call runs synchronously on the calling thread.
 
 Type: <b>HWND</b>
 
-Optional. A handle to the parent window, used to display any message boxes that the system might produce while executing this function. This value can be <b>NULL</b>.
+Optional. A handle to the owner window, used to display and position any UI that the system might produce while executing this function.
 
 ### -field lpVerb
 
