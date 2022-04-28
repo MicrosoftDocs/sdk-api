@@ -90,5 +90,29 @@ When the process owning the top level HWND exits or terminates, the additional b
 
 The primary process's top level HWND will continue to hold references to secondary processes until either the primary process's top level HWND clears its grouped boost state, or the HWND is destroyed.
 
+## Example
+
+In this simple scenario, the application sets up its foreground process boost configuration when the top level window is created. When WM_CREATE is handled, the function is called with handles in the *lParam* and the count of handles in the *wParam*. These processes will get foreground or background priority boosted as *m_AppWindow* moves in and out of being the foreground window. If the *m_AppWindow* is the foreground window when the function is called, the processes will also get an immediate foreground priority boost.
+
+```C++
+case WM_CREATE:   
+
+    // 
+    // Configure the passed in worker processes (handles) in lParam, to get foreground priority boost when m_AppWindow moves in and 
+    // out of the foreground. 
+    //  
+
+    HANDLE *pMyHandles = retinterpret_cast<HANDLE*>(lParam); 
+    DWORD cHandles = reinterpret_cast<DWORD>(wParam);  
+
+    If (!SetAdditionalForegroundBoostProcesses(m_AppWindow, cHandles, pMyHandles)) 
+    { 
+        printf(“SetAdditionalForegroundBoostProcesses() setup failed with error code : %d\n”, GetLastError()); 
+    } 
+
+    break;
+```
+
 ## -see-also
 
+[**SetForegroundWindow**](nf-winuser-setforegroundwindow.md)
