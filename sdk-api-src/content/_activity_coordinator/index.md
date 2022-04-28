@@ -11,16 +11,23 @@ ms.topic: conceptual
 
 ## -description
 
-Overview of the Activity Coordinator technology.
+The Activity Coordinator API coordinates execution of deferrable tasks on a system.
 
 To develop for Activity Coordinator, you need these headers:
 
- * [activitycoordinator.h](../activitycoordinator/index.md)
- * [activitycoordinatortypes.h](../activitycoordinatortypes/index.md)
+* [activitycoordinator.h](../activitycoordinator/index.md)
+* [activitycoordinatortypes.h](../activitycoordinatortypes/index.md)
 
 For programming guidance for this technology, see:
-* [Error Handling](/windows/desktop/debug)
-* [Debug Help Library](/windows/desktop/debug)
-* [Dynamic-Link Libraries](/windows/desktop/dlls)
-* [Event Logging](/windows/desktop/eventlog)
-* [Processes and Threads](/windows/desktop/procthread)
+
+* [Activity Coordinator overview](/windows/win32/activity_coordinator/activity-coordinator-api-overview.md)
+* [Activity Coordinator API and terminology](/windows/win32/activity_coordinator/activity-coordinator-api-and-terminology.md)
+* [Choosing the right Activity Coordinator policy](/windows/win32/activity_coordinator/choosing-the-right-activity-coordinator-policy.md)
+
+For general Win32 programming guidance, see:
+
+* [Error handling](/windows/win32/debug)
+* [Debug help library](/windows/win32/debug)
+* [Dynamic-link libraries](/windows/win32/dlls)
+* [Event logging](/windows/win32/eventlog)
+* [Processes and threads](/windows/win32/procthread)
