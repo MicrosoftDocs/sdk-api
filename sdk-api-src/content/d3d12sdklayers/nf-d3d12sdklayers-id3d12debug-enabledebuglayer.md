@@ -64,13 +64,13 @@ To enable the debug layers using this API, it must be called before the D3D12 de
  Enable the D3D12 debug layer.
 
 
-``` syntax
+```C++
 // Enable the D3D12 debug layer.
 {
-    ComPtr&lt;ID3D12Debug&gt; debugController;
-    if (SUCCEEDED(D3D12GetDebugInterface(IID_PPV_ARGS(&amp;debugController))))
+    ComPtr<ID3D12Debug> debugController;
+    if (SUCCEEDED(D3D12GetDebugInterface(IID_PPV_ARGS(&debugController))))
     {
-        debugController-&gt;EnableDebugLayer();
+        debugController->EnableDebugLayer();
     }
 }
 ```
