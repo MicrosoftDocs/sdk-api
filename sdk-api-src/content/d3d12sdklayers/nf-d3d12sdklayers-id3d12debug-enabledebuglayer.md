@@ -45,26 +45,19 @@ api_name:
  - ID3D12Debug.EnableDebugLayer
 ---
 
-# ID3D12Debug::EnableDebugLayer
-
-
 ## -description
 
 Enables the debug layer.
-
-
 
 ## -remarks
 
 To enable the debug layers using this API, it must be called before the D3D12 device is created. Calling this API after creating the D3D12 device will cause the D3D12 runtime to remove the device.
 
+## Examples
 
-#### Examples
+Enable the D3D12 debug layer.
 
- Enable the D3D12 debug layer.
-
-
-```C++
+```cpp
 // Enable the D3D12 debug layer.
 {
     ComPtr<ID3D12Debug> debugController;
