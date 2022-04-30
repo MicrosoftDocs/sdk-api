@@ -237,7 +237,7 @@ int wmain()
        wprintf(L"WSAEnumNameSpaceProviders succeeded with provider data count = %d\n\n",
            iNuminfo);
        for (i= 0; i < iNuminfo; i++) {
-            iRet = StringFromGUID2(lpProviderInfo[i].NSProviderId, (LPOLESTR) &GuidString, 39); 
+            iRet = StringFromGUID2(&lpProviderInfo[i].NSProviderId, (LPOLESTR) &GuidString, 39); 
             if (iRet == 0)
                 wprintf(L"StringFromGUID2 failed\n");
             else 
