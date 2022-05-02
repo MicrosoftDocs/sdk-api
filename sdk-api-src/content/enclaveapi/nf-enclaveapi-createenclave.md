@@ -6,7 +6,7 @@ helpviewer_keywords: ["CreateEnclave","CreateEnclave function","ENCLAVE_TYPE_SGX
 old-location: base\createenclave.htm
 tech.root: base
 ms.assetid: 2193AE42-D9CC-4A9C-8676-7DE432ED58C3
-ms.date: 12/05/2018
+ms.date: 05/02/2022
 ms.keywords: CreateEnclave, CreateEnclave function, ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_VBS, base.createenclave, enclaveapi/CreateEnclave
 req.header: enclaveapi.h
 req.include-header: Winbase.h
@@ -100,6 +100,17 @@ An enclave for the Intel Software Guard Extensions (SGX) architecture extension.
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="ENCLAVE_TYPE_SGX"></a><a id="enclave_type_sgx"></a><dl>
+<dt><b><b>ENCLAVE_TYPE_SGX2</b></b></dt>
+<dt>0x00000002</dt>
+</dl>
+</td>
+<td width="60%">
+Supports SGX2 and SGX1 enclaves. The platform and OS support SGX2 instructions with EDMM on this platform (in addition to other SGX2 constructs).
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="ENCLAVE_TYPE_VBS"></a><a id="enclave_type_vbs"></a><dl>
 <dt><b>ENCLAVE_TYPE_VBS</b></dt>
 <dt>0x00000010</dt>
@@ -114,7 +125,7 @@ A  VBS enclave.
 
 ### -param lpEnclaveInformation [in]
 
-A pointer to the architecture-specific information to use to create the enclave. 
+A pointer to the architecture-specific information to use to create the enclave.
 
 For the <b>ENCLAVE_TYPE_SGX</b> enclave type, you must specify a pointer to an <a href="/windows/desktop/api/winnt/ns-winnt-enclave_create_info_sgx">ENCLAVE_CREATE_INFO_SGX</a> structure.
 
