@@ -47,10 +47,9 @@ api_name:
 
 # GetMonitorDisplayAreaPosition function
 
-[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
-
-
 ## -description
+
+[!include[MCCS Warning](../includes/mccs-warning.md)]
 
 Retrieves a monitor's minimum, maximum, and current horizontal or vertical position.
 

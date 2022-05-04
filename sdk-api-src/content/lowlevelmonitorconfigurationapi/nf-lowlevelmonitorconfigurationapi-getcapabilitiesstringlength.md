@@ -47,10 +47,9 @@ api_name:
 
 # GetCapabilitiesStringLength function
 
-[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
-
-
 ## -description
+
+[!include[MCCS Warning](../includes/mccs-warning.md)]
 
 Retrieves the length of a monitor's capabilities string.
 

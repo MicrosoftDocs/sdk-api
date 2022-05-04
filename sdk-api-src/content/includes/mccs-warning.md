@@ -1,6 +1,4 @@
 ---
-description: "MCCS warning"
-title: MCCS warning
 ms.topic: include
 author: zhuman
 ms.author: zanor
