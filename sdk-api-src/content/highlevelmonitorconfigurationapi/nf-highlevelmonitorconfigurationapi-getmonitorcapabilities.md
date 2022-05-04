@@ -47,9 +47,10 @@ api_name:
 
 # GetMonitorCapabilities function
 
-## -description
+[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
 
-[!include[MCCS Warning](../includes/mccs-warning.md)]
+
+## -description
 
 Retrieves the configuration capabilities of a monitor. Call this function to find out which high-level monitor configuration functions are supported by the monitor.
 

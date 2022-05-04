@@ -47,9 +47,10 @@ api_name:
 
 # GetVCPFeatureAndVCPFeatureReply function
 
-## -description
+[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
 
-[!include[MCCS Warning](../includes/mccs-warning.md)]
+
+## -description
 
 Retrieves the current value, maximum value, and code type of a Virtual Control Panel (VCP) code for a monitor.
 

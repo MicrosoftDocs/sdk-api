@@ -47,9 +47,10 @@ api_name:
 
 # GetMonitorColorTemperature function
 
-## -description
+[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
 
-[!include[MCCS Warning](../includes/mccs-warning.md)]
+
+## -description
 
 Retrieves a monitor's current color temperature.
 

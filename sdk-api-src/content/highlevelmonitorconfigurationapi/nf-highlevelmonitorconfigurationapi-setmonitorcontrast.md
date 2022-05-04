@@ -47,9 +47,10 @@ api_name:
 
 # SetMonitorContrast function
 
-## -description
+[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
 
-[!include[MCCS Warning](../includes/mccs-warning.md)]
+
+## -description
 
 Sets a monitor's contrast value.
 

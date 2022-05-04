@@ -47,9 +47,10 @@ api_name:
 
 # RestoreMonitorFactoryDefaults function
 
-## -description
+[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
 
-[!include[MCCS Warning](../includes/mccs-warning.md)]
+
+## -description
 
 Restores a monitor's settings to their factory defaults.
 

@@ -47,9 +47,10 @@ api_name:
 
 # SetVCPFeature function
 
-## -description
+[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
 
-[!include[MCCS Warning](../includes/mccs-warning.md)]
+
+## -description
 
 Sets the value of a Virtual Control Panel (VCP) code for a monitor.
 

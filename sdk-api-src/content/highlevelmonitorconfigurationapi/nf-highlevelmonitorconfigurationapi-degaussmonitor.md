@@ -47,9 +47,10 @@ api_name:
 
 # DegaussMonitor function
 
-## -description
+[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
 
-[!include[MCCS Warning](../includes/mccs-warning.md)]
+
+## -description
 
 Degausses a monitor. Degaussing improves a monitor's image quality and color fidelity by demagnetizing the monitor.
 

@@ -47,9 +47,10 @@ api_name:
 
 # SetMonitorDisplayAreaSize function
 
-## -description
+[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
 
-[!include[MCCS Warning](../includes/mccs-warning.md)]
+
+## -description
 
 Sets the width or height of a monitor's display area.
 
