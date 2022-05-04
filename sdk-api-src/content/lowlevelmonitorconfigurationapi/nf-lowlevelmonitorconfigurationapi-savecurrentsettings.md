@@ -47,10 +47,9 @@ api_name:
 
 # SaveCurrentSettings function
 
-[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
-
-
 ## -description
+
+[!include[MCCS Warning](../includes/mccs-warning.md)]
 
 Saves the current monitor settings to the display's nonvolatile storage.
 

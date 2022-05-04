@@ -47,10 +47,9 @@ api_name:
 
 # GetMonitorTechnologyType function
 
-[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
-
-
 ## -description
+
+[!include[MCCS Warning](../includes/mccs-warning.md)]
 
 Retrieves the type of technology used by a monitor.
 

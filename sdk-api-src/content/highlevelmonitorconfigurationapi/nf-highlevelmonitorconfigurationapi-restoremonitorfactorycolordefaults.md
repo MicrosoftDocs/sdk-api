@@ -47,10 +47,9 @@ api_name:
 
 # RestoreMonitorFactoryColorDefaults function
 
-[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
-
-
 ## -description
+
+[!include[MCCS Warning](../includes/mccs-warning.md)]
 
 Restores a monitor's color settings to their factory defaults.
 

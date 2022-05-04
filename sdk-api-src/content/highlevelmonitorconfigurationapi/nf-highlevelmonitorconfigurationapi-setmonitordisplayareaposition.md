@@ -47,10 +47,9 @@ api_name:
 
 # SetMonitorDisplayAreaPosition function
 
-[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
-
-
 ## -description
+
+[!include[MCCS Warning](../includes/mccs-warning.md)]
 
 Sets the horizontal or vertical position of a monitor's display area.
 

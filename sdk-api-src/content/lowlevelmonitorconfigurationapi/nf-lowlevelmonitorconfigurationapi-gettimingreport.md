@@ -47,10 +47,9 @@ api_name:
 
 # GetTimingReport function
 
-[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
-
-
 ## -description
+
+[!include[MCCS Warning](../includes/mccs-warning.md)]
 
 Retrieves a monitor's horizontal and vertical synchronization frequencies.
 

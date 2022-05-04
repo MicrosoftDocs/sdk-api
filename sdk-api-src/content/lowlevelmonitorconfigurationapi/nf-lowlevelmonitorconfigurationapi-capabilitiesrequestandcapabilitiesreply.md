@@ -47,10 +47,9 @@ api_name:
 
 # CapabilitiesRequestAndCapabilitiesReply function
 
-[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
-
-
 ## -description
+
+[!include[MCCS Warning](../includes/mccs-warning.md)]
 
 Retrieves a string describing a monitor's capabilities.
 
