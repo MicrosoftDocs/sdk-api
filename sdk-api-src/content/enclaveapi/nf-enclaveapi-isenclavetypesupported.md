@@ -77,7 +77,7 @@ An enclave for the Intel Software Guard Extensions (SGX) architecture extension.
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="ENCLAVE_TYPE_VBS"></a><a id="enclave_type_vbs"></a><dl>
+<td width="40%"><a id="ENCLAVE_TYPE_SGX2"></a><a id="enclave_type_sgx2"></a><dl>
 <dt><b>ENCLAVE_TYPE_SGX2</b></dt>
 <dt>0x00000002</dt>
 </dl>
