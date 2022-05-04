@@ -47,9 +47,10 @@ api_name:
 
 # GetMonitorDisplayAreaSize function
 
-## -description
+[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
 
-[!include[MCCS Warning](../includes/mccs-warning.md)]
+
+## -description
 
 Retrieves a monitor's minimum, maximum, and current width or height.
 

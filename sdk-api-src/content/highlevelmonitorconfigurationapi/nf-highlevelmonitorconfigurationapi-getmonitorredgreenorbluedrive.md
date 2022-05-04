@@ -47,9 +47,10 @@ api_name:
 
 # GetMonitorRedGreenOrBlueDrive function
 
-## -description
+[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
 
-[!include[MCCS Warning](../includes/mccs-warning.md)]
+
+## -description
 
 Retrieves a monitor's red, green, or blue drive value.
 

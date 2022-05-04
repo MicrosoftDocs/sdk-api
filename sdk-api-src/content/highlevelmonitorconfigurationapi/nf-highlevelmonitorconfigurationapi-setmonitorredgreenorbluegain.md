@@ -47,9 +47,10 @@ api_name:
 
 # SetMonitorRedGreenOrBlueGain function
 
-## -description
+[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
 
-[!include[MCCS Warning](../includes/mccs-warning.md)]
+
+## -description
 
 Sets a monitor's red, green, or blue gain value.
 
