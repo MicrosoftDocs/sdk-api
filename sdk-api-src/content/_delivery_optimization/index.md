@@ -16,7 +16,6 @@ Overview of the Delivery Optimization technology.
 To develop Delivery Optimization, you need these headers:
 
  * [deliveryoptimization.h](../deliveryoptimization/index.md)
- * [deliveryoptimizationerrors.h](../deliveryoptimizationerrors/index.md)
 
 For programming guidance for this technology, see:
 * [Delivery Optimization](/windows/win32/delivery_optimization)

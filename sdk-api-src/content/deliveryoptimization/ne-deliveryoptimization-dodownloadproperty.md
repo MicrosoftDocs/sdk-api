@@ -140,11 +140,19 @@ Optional. Specifies the total download size in bytes. VARIANT type is VT_UI8.
 
 ### -field DODownloadProperty_DisallowOnCellular
 
+Don't download when on a cellular connection.
+
 ### -field DODownloadProperty_HttpCustomAuthHeaders
+
+Custom HTTPS headers are used when challenged.
 
 ### -field DODownloadProperty_HttpAllowSecureToNonSecureRedirect
 
+Https-to-http redirection. Default is `FALSE`.
+
 ### -field DODownloadProperty_NonVolatile
+
+Save download info to the Windows Registry. Default is `FALSE` for Delivery Optimization download jobs; `TRUE` for BITS-style jobs.
 
 ## -remarks
 

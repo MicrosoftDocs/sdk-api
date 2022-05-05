@@ -1,8 +1,7 @@
 {
   "tech": "delivery_optimization",
   "headers": [
-    "deliveryoptimization.h",
-    "deliveryoptimizationerrors.h"
+    "deliveryoptimization.h"
   ],
   "displayName": "Delivery Optimization"
 }
