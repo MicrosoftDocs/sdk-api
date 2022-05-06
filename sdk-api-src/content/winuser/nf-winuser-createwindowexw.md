@@ -166,7 +166,7 @@ This function typically fails for one of the following reasons:
 
 ## -remarks
 
-The <b>CreateWindowEx</b> function sends <a href="/windows/desktop/winmsg/wm-nccreate">WM_NCCREATE</a>, <a href="/windows/desktop/winmsg/wm-nccalcsize">WM_NCCALCSIZE</a>, and <a href="/windows/desktop/winmsg/wm-create">WM_CREATE</a> messages to the window being created. 
+The <b>CreateWindowEx</b> function sends <a href="/windows/desktop/winmsg/wm-nccreate">WM_NCCREATE</a>, <a href="/windows/desktop/winmsg/wm-nccalcsize">WM_NCCALCSIZE</a>, and <a href="/windows/desktop/winmsg/wm-create">WM_CREATE</a> messages to the window being created, in this order.
 
 If the created window is a child window, its default position is at the bottom of the Z-order. If the created window is a top-level window, its default position is at the top of the Z-order (but beneath all topmost windows unless the created window is itself topmost).
 
