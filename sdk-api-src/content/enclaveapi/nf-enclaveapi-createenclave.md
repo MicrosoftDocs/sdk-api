@@ -2,12 +2,12 @@
 UID: NF:enclaveapi.CreateEnclave
 title: CreateEnclave function (enclaveapi.h)
 description: Creates a new uninitialized enclave. An enclave is an isolated region of code and data within the address space for an application. Only code that runs within the enclave can access data within the same enclave.
-helpviewer_keywords: ["CreateEnclave","CreateEnclave function","ENCLAVE_TYPE_SGX","ENCLAVE_TYPE_VBS","base.createenclave","enclaveapi/CreateEnclave"]
+helpviewer_keywords: ["CreateEnclave","CreateEnclave function","ENCLAVE_TYPE_SGX","ENCLAVE_TYPE_SGX2","ENCLAVE_TYPE_VBS","base.createenclave","enclaveapi/CreateEnclave"]
 old-location: base\createenclave.htm
 tech.root: base
 ms.assetid: 2193AE42-D9CC-4A9C-8676-7DE432ED58C3
-ms.date: 05/02/2022
-ms.keywords: CreateEnclave, CreateEnclave function, ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_VBS, base.createenclave, enclaveapi/CreateEnclave
+ms.date: 05/06/2022
+ms.keywords: CreateEnclave, CreateEnclave function, ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_SGX2, ENCLAVE_TYPE_VBS, base.createenclave, enclaveapi/CreateEnclave
 req.header: enclaveapi.h
 req.include-header: Winbase.h
 req.target-type: Windows
@@ -50,7 +50,6 @@ api_name:
 
 # CreateEnclave function
 
-
 ## -description
 
 Creates a new uninitialized enclave. An enclave  is an isolated region of code and data within the address space for an application. Only code that runs within the enclave can access data within the same enclave.
@@ -63,7 +62,7 @@ A handle to the process for which you want to create an enclave.
 
 ### -param lpAddress [in, optional]
 
-The preferred base address of the enclave. Specify <b>NULL</b> to have the operating system assign the base address.
+The preferred base address of the enclave. Specify **NULL** to have the operating system assign the base address.
 
 ### -param dwSize [in]
 
@@ -127,26 +126,25 @@ A  VBS enclave.
 
 A pointer to the architecture-specific information to use to create the enclave.
 
-For the <b>ENCLAVE_TYPE_SGX</b> enclave type, you must specify a pointer to an <a href="/windows/desktop/api/winnt/ns-winnt-enclave_create_info_sgx">ENCLAVE_CREATE_INFO_SGX</a> structure.
+For the **ENCLAVE_TYPE_SGX** and **ENCLAVE_TYPE_SGX2** enclave types, you must specify a pointer to an [ENCLAVE_CREATE_INFO_SGX](/windows/win32/api/winnt/ns-winnt-enclave_create_info_sgx) structure.
 
-For the <b>ENCLAVE_TYPE_VBS</b> enclave type, you must specify a pointer to an <a href="/windows/desktop/api/winnt/ns-winnt-enclave_create_info_vbs">ENCLAVE_CREATE_INFO_VBS</a> structure.
+For the **ENCLAVE_TYPE_VBS** enclave type, you must specify a pointer to an [ENCLAVE_CREATE_INFO_VBS](/windows/win32/api/winnt/ns-winnt-enclave_create_info_vbs) structure.
 
 ### -param dwInfoLength [in]
 
-The length of the structure that the <i>lpEnclaveInformation</i> parameter points to, in bytes. For the <b>ENCLAVE_TYPE_SGX</b> enclave type, this value must be 4096.  For the <b>ENCLAVE_TYPE_VBS</b> enclave type, this value must be <code>sizeof(ENCLAVE_CREATE_INFO_VBS)</code>, which is 36 bytes.
+The length of the structure that the _lpEnclaveInformation_ parameter points to, in bytes. For the **ENCLAVE_TYPE_SGX** and **ENCLAVE_TYPE_SGX2** enclave types, this value must be 4096.  For the **ENCLAVE_TYPE_VBS** enclave type, this value must be `sizeof(ENCLAVE_CREATE_INFO_VBS)`, which is 36 bytes.
 
 ### -param lpEnclaveError [out, optional]
 
-An optional pointer to  a variable that receives an enclave error code that is architecture-specific. For the <b>ENCLAVE_TYPE_SGX</b> and <b>ENCLAVE_TYPE_VBS</b>  enclave types, the <i>lpEnclaveError</i> parameter is not used.
+An optional pointer to  a variable that receives an enclave error code that is architecture-specific. For the **ENCLAVE_TYPE_SGX**, **ENCLAVE_TYPE_SGX2** and **ENCLAVE_TYPE_VBS**  enclave types, the _lpEnclaveError_ parameter is not used.
 
 ## -returns
 
 If the function succeeds, the return value is the base address of the created enclave.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, 
-       call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
+If the function fails, the return value is **NULL**. To get extended error information, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-For a list of common error codes, see <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>. The following error codes also apply for this function.
+For a list of common error codes, see [System Error Codes](/windows/win32/Debug/system-error-codes). The following error codes also apply for this function.
 
 <table>
 <tr>
