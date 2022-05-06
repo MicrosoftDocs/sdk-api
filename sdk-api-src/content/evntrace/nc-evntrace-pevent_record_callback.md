@@ -94,7 +94,8 @@ structure that you pass to the
   use **EventRecordCallback**, you must include
   **PROCESS_TRACE_MODE_EVENT_RECORD** in the **ProcessTraceMode** value.
 
-> [!Note] If your **EventRecordCallback** function is receiving garbled data
+> [!Note]
+> If your **EventRecordCallback** function is receiving garbled data
 > from **ProcessTrace**, double-check the flags specified in the
 > `ProcessTraceMode` field of the `EVENT_TRACE_LOGFILE` structure that was
 > provided to **OpenTrace**. `EVENT_TRACE_LOGFILE`'s **EventCallback** and
@@ -187,7 +188,8 @@ connects to the same trace collection session, it will receive the synthetic
 events and the newly-generated real-time events (the second trace processing
 session will not receive older events).
 
-> [!Important] When processing events from a real-time session, if the
+> [!Important]
+> When processing events from a real-time session, if the
 > processing callback takes too much time to process each event and events
 > arrive too quickly, it will get behind. The system will buffer events to
 > prevent data loss but this increases system resource usage (e.g. memory and

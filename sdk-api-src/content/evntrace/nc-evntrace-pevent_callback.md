@@ -81,7 +81,8 @@ structure that contains the event information.
 
 ## -remarks
 
-> [!Note] This callback is obsolete because it receives incomplete information
+> [!Note]
+> This callback is obsolete because it receives incomplete information
 > about the event and is not compatible with event decoding helper APIs such as
 > [TdhGetEventInformation](/windows/win32/api/tdh/nf-tdh-tdhgeteventinformation).
 > Instead of implementing **EventCallback**, implement
@@ -93,7 +94,8 @@ To specify the function that ETW calls to deliver the events, set the
 structure that you pass to the
 [OpenTrace](/windows/win32/api/evntrace/nf-evntrace-opentracea) function.
 
-> [!Note] If your **EventCallback** function is receiving garbled data from
+> [!Note]
+> If your **EventCallback** function is receiving garbled data from
 > **ProcessTrace**, double-check the flags specified in the `ProcessTraceMode`
 > field of the `EVENT_TRACE_LOGFILE` structure that was provided to
 > **OpenTrace**. `EVENT_TRACE_LOGFILE`'s **EventCallback** and

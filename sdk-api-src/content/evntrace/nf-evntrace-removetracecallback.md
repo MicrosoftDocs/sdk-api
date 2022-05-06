@@ -72,7 +72,8 @@ api_name:
 
 ## -description
 
-> [!Important] Do not use this function. It may be unavailable in subsequent
+> [!Important]
+> Do not use this function. It may be unavailable in subsequent
 > versions.
 
 The **RemoveTraceCallback** function stops an

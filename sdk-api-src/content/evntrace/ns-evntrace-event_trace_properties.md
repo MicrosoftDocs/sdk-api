@@ -120,7 +120,8 @@ tracing session. You use this structure with APIs such as
 [ControlTrace](/windows/win32/api/evntrace/nf-evntrace-controltracea) when
 defining, updating, or querying the properties of a session.
 
-> [!Note] This is a version-1 structure. Additional options are supported by
+> [!Note]
+> This is a version-1 structure. Additional options are supported by
 > [EVENT_TRACE_PROPERTIES_V2](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties_v2)
 > (e.g. **FilterDesc** and **V2Options**).
 
@@ -155,18 +156,21 @@ throughput, larger buffer sizes can also reduce CPU overhead.
   diagnostic trace with hundreds of megabytes of data per second, a huge buffer
   size (256KB to 1024KB) can reduce CPU overhead.
 
-> [!Note] Regardless of buffer size, ETW cannot collect events larger than 64KB.
+> [!Note]
+> Regardless of buffer size, ETW cannot collect events larger than 64KB.
 
 ETW may adjust the requested **BufferSize** upwards in certain scenarios. For
 example, when writing a trace file to a disk, ETW may increase the buffer size
 to a multiple of the disk's physical block size.
 
-> [!Important] **BufferSize** is one of the most important parameters for a
+> [!Important]
+> **BufferSize** is one of the most important parameters for a
 > trace session. Large buffers usually waste memory and disk space. Trace
 > sessions with large buffers (256KB or larger) should be used only for
 > diagnostic investigations or testing, not for production tracing.
 
-> [!Tip] Do not use **BufferSize** to control the trace session's memory usage.
+> [!Tip]
+> Do not use **BufferSize** to control the trace session's memory usage.
 > Instead, select the buffer size based on your session's event size and event
 > rate, then use the **MinimumBuffers** and **MaximumBuffers** parameters to
 > adjust session memory usage.
@@ -225,7 +229,8 @@ running at high IRQL. If your trace session needs to record events from
 high-IRQL kernel-mode providers, it may need to use a higher value of
 **MinimumBuffers** to force the buffers to be preallocated.
 
-> [!Note] ETW ignores **MaximumBuffers** for buffering-mode sessions (sessions
+> [!Note]
+> ETW ignores **MaximumBuffers** for buffering-mode sessions (sessions
 > that include logging mode `EVENT_TRACE_BUFFERING_MODE`). Buffering-mode
 > sessions always allocate **MinimumBuffers** at the start of the trace
 > collection and never allocate additional buffers.
@@ -295,7 +300,8 @@ flush time is 1 second.
 A _system_ logger session may set **EnableFlags** to indicate which
 SystemTraceProvider events should be included in the trace.
 
-> [!Note] **EnableFlags** is only valid for system loggers, i.e. trace sessions
+> [!Note]
+> **EnableFlags** is only valid for system loggers, i.e. trace sessions
 > that are started using the `EVENT_TRACE_SYSTEM_LOGGER_MODE` logger mode flag,
 > the `KERNEL_LOGGER_NAME` session name, the `SystemTraceControlGuid` session
 > GUID, or the `GlobalLoggerGuid` session GUID.
@@ -580,7 +586,8 @@ the files restricted, create a parent directory with the appropriate ACLs.
 Offset (in bytes) from the start of the structure's allocated memory to the
 beginning of the nul-terminated string that contains the session name.
 
-> [!Important] Use a descriptive name for your session so that the session's
+> [!Important]
+> Use a descriptive name for your session so that the session's
 > ownership and usage can be determined from the session name. Do not use a GUID
 > or other non-descriptive value. Do not append random digits to make your
 > session name unique. ETW sessions are a limited resource so your component

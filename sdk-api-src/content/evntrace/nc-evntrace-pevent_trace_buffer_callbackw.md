@@ -102,7 +102,8 @@ structure that you pass to the
 For an example implementation of a **BufferCallback** function, see
 [Retrieving Event Data Using MOF](/windows/desktop/ETW/retrieving-event-data-using-mof).
 
-> [!NOTE] The evntrace.h header defines PEVENT_TRACE_BUFFER_CALLBACK as an alias
+> [!NOTE]
+> The evntrace.h header defines PEVENT_TRACE_BUFFER_CALLBACK as an alias
 > which automatically selects the ANSI or Unicode version of this function based
 > on the definition of the UNICODE preprocessor constant. Mixing usage of the
 > encoding-neutral alias with code that not encoding-neutral can lead to
