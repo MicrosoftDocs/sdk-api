@@ -175,4 +175,4 @@ The constant XINPUT_GAMEPAD_TRIGGER_THRESHOLD may be used as the value which <i>
 
 
 
-<a href="/windows/desktop/api/xinput/nf-xinput-xinputgetstate">XInputGetfState</a>
+<a href="/windows/desktop/api/xinput/nf-xinput-xinputgetstate">XInputGetState</a>
