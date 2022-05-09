@@ -14,8 +14,8 @@ dev_langs:
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
