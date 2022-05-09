@@ -103,7 +103,8 @@ should be closed using
 If the function fails, it returns **INVALID_PROCESSTRACE_HANDLE**.
 (**INVALID_PROCESSTRACE_HANDLE** is equivalent to `(UINT64)UINTPTR_MAX`.)
 
-> [!Note] Prior to Windows Vista, OpenTrace returned `UINT64_MAX` in case of
+> [!Note]
+> Prior to Windows Vista, OpenTrace returned `UINT64_MAX` in case of
 > failure. If your code supports both older operating systems (Windows XP or
 > Windows Server 2003) and newer versions of Windows (Windows Vista and later),
 > you must determine the operating system on which you are running and compare
@@ -154,7 +155,8 @@ close the trace processing handle.
 For an example that uses **OpenTrace**, see
 [Using TdhFormatProperty to Consume Event Data](/windows/win32/etw/using-tdhformatproperty-to-consume-event-data).
 
-> [!NOTE] The evntrace.h header defines OpenTrace as an alias which
+> [!NOTE]
+> The evntrace.h header defines OpenTrace as an alias which
 > automatically selects the ANSI or Unicode version of this function based on
 > the definition of the UNICODE preprocessor constant. Mixing usage of the
 > encoding-neutral alias with code that not encoding-neutral can lead to

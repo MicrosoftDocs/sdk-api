@@ -67,7 +67,8 @@ api_name:
 The **EnumerateTraceGuids** function retrieves information about event trace
 providers that are currently running on the computer.
 
-> [!Important] This function has been superseded by
+> [!Important]
+> This function has been superseded by
 > [EnumerateTraceGuidsEx](/windows/win32/api/evntrace/nf-evntrace-enumeratetraceguidsex).
 
 ## -parameters

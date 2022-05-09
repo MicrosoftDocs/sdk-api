@@ -240,7 +240,8 @@ int main()
 }
 ```
 
-> [!NOTE] The evntrace.h header defines QueryAllTraces as an alias which
+> [!NOTE]
+> The evntrace.h header defines QueryAllTraces as an alias which
 > automatically selects the ANSI or Unicode version of this function based on
 > the definition of the UNICODE preprocessor constant. Mixing usage of the
 > encoding-neutral alias with code that not encoding-neutral can lead to

@@ -98,7 +98,8 @@ Providers call this function.
 The event trace provider must have been registered previously by calling the
 [RegisterTraceGuids](/windows/desktop/ETW/registertraceguids) function.
 
-> [!Important] All registration handles created by a DLL or driver must be
+> [!Important]
+> All registration handles created by a DLL or driver must be
 > unregistered before the DLL or driver unloads. If the provider is not
 > unregistered, a crash will occur when ETW tries to invoke the provider's
 > callback.

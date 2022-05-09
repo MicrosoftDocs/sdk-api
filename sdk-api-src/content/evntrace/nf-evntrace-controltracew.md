@@ -211,7 +211,8 @@ Requested control function. You can specify one of the following values:
   real-time session (enables real-time delivery and disables writing events to
   the ETL file). Supported starting with Windows 10 October 2020 Update.
 
-> [!NOTE] It is not safe to flush buffers or stop a trace session from DllMain
+> [!NOTE]
+> It is not safe to flush buffers or stop a trace session from DllMain
 > (may cause deadlock).
 
 ## -returns
@@ -283,7 +284,8 @@ This function supersedes the
 [StopTrace](/windows/win32/api/evntrace/nf-evntrace-stoptracew), and
 [UpdateTrace](/windows/win32/api/evntrace/nf-evntrace-updatetracew) functions.
 
-> [!NOTE] The evntrace.h header defines ControlTrace as an alias which
+> [!NOTE]
+> The evntrace.h header defines ControlTrace as an alias which
 > automatically selects the ANSI or Unicode version of this function based on
 > the definition of the UNICODE preprocessor constant. Mixing usage of the
 > encoding-neutral alias with code that not encoding-neutral can lead to

@@ -117,7 +117,8 @@ must be **NULL**.
 When calling **OpenTrace**, the user consuming the events must have permissions
 to read the file.
 
-> [!Note] The filename provided to OpenTrace via the _LogFileName_ field must be
+> [!Note]
+The filename provided to OpenTrace via the _LogFileName_ field must be
 > the full file name, including any suffixes. Some trace file creation APIs can
 > silently add a suffix to the user-specified filename. For example, if the
 > controller logged events to a private session (the controller set the
@@ -247,13 +248,15 @@ function that ETW calls for each event in the buffer. This field is used only if
 the _ProcessTraceMode_ field does not include the
 `PROCESS_TRACE_MODE_EVENT_RECORD` flag.
 
-> [!Note] The _EventCallback_ field will treated as an **EventRecordCallback**
+> [!Note]
+> The _EventCallback_ field will treated as an **EventRecordCallback**
 > if the _ProcessTraceMode_ field includes the `PROCESS_TRACE_MODE_EVENT_RECORD`
 > flag. If your _EventCallback_ is receiving garbled data from **ProcessTrace**,
 > verify that the _ProcessTraceMode_ field does not include the
 > `PROCESS_TRACE_MODE_EVENT_RECORD` flag.
 
-> [!Tip] New code should use _EventRecordCallback_ instead of _EventCallback_.
+> [!Tip]
+> New code should use _EventRecordCallback_ instead of _EventCallback_.
 > The _EventRecordCallback_ receives an **EVENT_RECORD** which contains more
 > complete event information, can be used with decoding APIs such as
 > [TdhGetEventInformation](/windows/win32/api/tdh/nf-tdh-tdhgeteventinformation),
@@ -267,7 +270,8 @@ function that ETW calls for each event in the buffer. This field is used only if
 the _ProcessTraceMode_ field includes the `PROCESS_TRACE_MODE_EVENT_RECORD`
 flag.
 
-> [!Note] The _EventRecordCallback_ field will treated as an **EventCallback**
+> [!Note]
+> The _EventRecordCallback_ field will treated as an **EventCallback**
 > if the _ProcessTraceMode_ field does not include the
 > `PROCESS_TRACE_MODE_EVENT_RECORD` flag. If your _EventRecordCallback_ is
 > receiving garbled data from **ProcessTrace**, verify that the
@@ -326,7 +330,8 @@ Event consumers should:
    [CloseTrace](/windows/win32/api/evntrace/nf-evntrace-closetrace) to close the
    handle that was returned by **OpenTrace**.
 
-> [!NOTE] The evntrace.h header defines EVENT_TRACE_LOGFILE as an alias which
+> [!NOTE]
+> The evntrace.h header defines EVENT_TRACE_LOGFILE as an alias which
 > automatically selects the ANSI or Unicode version of this function based on
 > the definition of the UNICODE preprocessor constant. Mixing usage of the
 > encoding-neutral alias with code that not encoding-neutral can lead to
