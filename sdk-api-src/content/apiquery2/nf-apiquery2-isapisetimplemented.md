@@ -24,7 +24,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: onecore.lib
-req.dll: Kernel32.dll
+req.dll: api-ms-win-core-apiquery-l2-1-0.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -41,7 +41,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - Kernel32.dll
+ - api-ms-win-core-apiquery-l2-1-0.dll
 api_name:
  - IsApiSetImplemented
 ---
