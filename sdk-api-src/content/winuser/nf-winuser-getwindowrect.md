@@ -97,7 +97,7 @@ Calling GetWindowRect will have different behavior depending on whether the wind
 
 To get the window bounds excluding the drop shadow, use <a href="/windows/win32/api/dwmapi/nf-dwmapi-dwmgetwindowattribute">DwmGetWindowAttribute</a>, specifying <b>DWMWA_EXTENDED_FRAME_BOUNDS</b>.  Note that unlike the Window Rect, the DWM Extended Frame Bounds are not adjusted for DPI.  Getting the extended frame bounds can only be done after the window has been shown at least once.
 
-If the window is minimized (iconic), GetWindowRect will return a nonzero value, and the top left corner of the rect will be (-32000, -32000).
+GetWindowRect may return a non-zero value for minimized (iconic) windows, and it is common - though not guaranteed - for the Windows shell to move minimized windows off-screen. Programs should be careful not to apply minimized windows coordinates to restored or maximized windows.
 
 
 #### Examples
