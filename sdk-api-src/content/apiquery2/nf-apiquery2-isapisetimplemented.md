@@ -8,6 +8,7 @@ tech.root: winprog
 ms.assetid: DF177716-9F33-4E39-BD63-D1B8E39CD67C
 ms.date: 10/23/2020
 ms.keywords: IsApiSetImplemented, IsApiSetImplemented function [Windows API], apiquery2/IsApiSetImplemented, winprog.isapisetimplemented
+req.construct-type: function
 req.header: apiquery2.h
 req.include-header: 
 req.target-type: Windows
@@ -23,7 +24,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: onecore.lib
-req.dll: 
+req.dll: api-ms-win-core-apiquery-l2-1-0.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -38,9 +39,9 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - DllExport
 api_location:
- - apiquery2.h
+ - api-ms-win-core-apiquery-l2-1-0.dll
 api_name:
  - IsApiSetImplemented
 ---
