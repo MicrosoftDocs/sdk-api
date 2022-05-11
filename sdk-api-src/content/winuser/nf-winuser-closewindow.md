@@ -48,6 +48,8 @@ req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 1
 
 # CloseWindow function
 
+> [!IMPORTANT]
+> This API is deprecated and its use is discouraged. Use <a href="/windows/win32/api/winuser/nf-winuser-showwindow">ShowWindow</a> with <b>SW_SHOWMINIMIZED</b> parameter instead.
 
 ## -description
 
