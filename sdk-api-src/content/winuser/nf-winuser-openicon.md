@@ -47,6 +47,8 @@ api_name:
 
 # OpenIcon function
 
+> [!IMPORTANT]
+> This API is deprecated and its use is discouraged. Use <a href="/windows/win32/api/winuser/nf-winuser-showwindow">ShowWindow</a> with <b>SW_NORMAL</b> parameter instead.
 
 ## -description
 
