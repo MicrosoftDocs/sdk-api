@@ -38,6 +38,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - _DO_DOWNLOAD_ENUM_CATEGORY
+prerelease: true
 ---
 
 ## -description

@@ -33,6 +33,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - IDWriteFontSet4
+prerelease: true
 ---
 
 ## -description

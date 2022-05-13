@@ -34,6 +34,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - _DODownloadCostPolicy
+prerelease: true
 ---
 
 ## -description

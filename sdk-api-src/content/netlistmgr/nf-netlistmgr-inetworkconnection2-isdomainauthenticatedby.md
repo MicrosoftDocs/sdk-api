@@ -4,7 +4,6 @@ title: INetworkConnection2::IsDomainAuthenticatedBy
 description: Queries whether the specified domain authentication method succeeded for this network connection.
 tech.root: nla
 ms.date: 04/07/2022
-prerelease: false
 req.construct-type: function
 req.header: netlistmgr.h
 req.include-header: 
@@ -41,6 +40,7 @@ api_name:
  - INetworkConnection2::IsDomainAuthenticatedBy
 helpviewer_keywords:
  - IsDomainAuthenticatedBy
+prerelease: true
 ---
 
 ## -description

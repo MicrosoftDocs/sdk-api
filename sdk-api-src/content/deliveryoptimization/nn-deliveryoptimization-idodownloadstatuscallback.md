@@ -33,6 +33,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - IDODownloadStatusCallback
+prerelease: true
 ---
 
 ## -description

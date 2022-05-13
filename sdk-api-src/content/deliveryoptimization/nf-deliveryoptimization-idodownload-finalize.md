@@ -39,6 +39,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - Finalize
+prerelease: true
 ---
 
 ## -description

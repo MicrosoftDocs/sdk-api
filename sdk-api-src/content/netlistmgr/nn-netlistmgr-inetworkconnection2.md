@@ -3,7 +3,6 @@ UID: NN:netlistmgr.INetworkConnection2
 title: INetworkConnection2
 description: The **INetworkConnection2** interface represents a single network connection.
 tech.root: nla
-prerelease: false
 ms.date: 04/07/2022
 req.construct-type: iface
 req.header: netlistmgr.h
@@ -41,6 +40,7 @@ api_name:
  - INetworkConnection2
 helpviewer_keywords:
  - INetworkConnection2
+prerelease: true
 ---
 
 ## -description

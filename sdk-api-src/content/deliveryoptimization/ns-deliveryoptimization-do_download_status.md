@@ -38,6 +38,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - _DO_DOWNLOAD_STATUS
+prerelease: true
 ---
 
 ## -description

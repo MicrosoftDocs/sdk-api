@@ -33,6 +33,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - IDOManager
+prerelease: true
 ---
 
 ## -description

@@ -3,7 +3,6 @@ UID: NN:netlistmgr.INetwork2
 title: INetwork2
 description: The **INetwork2** interface represents a network on the local machine. It can also represent a collection of network connections with a similar network signature.
 tech.root: nla
-prerelease: false
 ms.date: 04/07/2022
 req.construct-type: iface
 req.header: netlistmgr.h
@@ -41,6 +40,7 @@ api_name:
  - INetwork2
 helpviewer_keywords:
  - INetwork2
+prerelease: true
 ---
 
 ## -description

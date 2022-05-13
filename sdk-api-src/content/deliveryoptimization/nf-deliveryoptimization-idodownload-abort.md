@@ -39,6 +39,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - Abort
+prerelease: true
 ---
 
 ## -description

@@ -4,7 +4,6 @@ title: NLM_DOMAIN_AUTHENTICATION_KIND
 description: Defines constants that specify a domain authentication method.
 tech.root: nla
 ms.date: 04/07/2022
-prerelease: false
 req.construct-type: enumeration
 req.header: netlistmgr.h
 req.include-header: 
@@ -42,6 +41,7 @@ api_name:
  - NLM_DOMAIN_AUTHENTICATION_KIND
 helpviewer_keywords:
  - NLM_DOMAIN_AUTHENTICATION_KIND
+prerelease: true
 ---
 
 ## -description
