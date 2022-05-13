@@ -253,6 +253,6 @@ To cancel outstanding notifications, close the service handle using the <a href=
 
 <a href="/windows/desktop/api/winsvc/ns-winsvc-service_notify_2a">SERVICE_NOTIFY</a>
 
-
+<a href="/windows/desktop/services/subscribeservicechangenotifications">SubscribeServiceChangeNotifications</a>
 
 <a href="/windows/desktop/Services/service-functions">Service Functions</a>
