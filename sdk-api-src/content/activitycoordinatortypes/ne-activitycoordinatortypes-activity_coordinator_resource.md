@@ -2,7 +2,7 @@
 UID: NE:activitycoordinatortypes._ACTIVITY_COORDINATOR_RESOURCE
 tech.root: activity_coordinator
 title: ACTIVITY_COORDINATOR_RESOURCE
-ms.date: 04/25/2022
+ms.date: 05/13/2022
 targetos: Windows
 description: An enumeration of the set of supported resources.
 prerelease: false
@@ -72,6 +72,18 @@ Represents system drive bandwidth availability. Includes drive utilization.
 Represents GPU availability. Includes GPU utilization.
 
 ## -remarks
+
+### Condition information for resources
+
+| Resource | Good Condition | Medium Condition |
+|-----|-----|-----|
+| USER_IDLE | User is inactive and the system is not in game-mode. | The system isn't in game-mode. |
+| POWER | The machine is plugged in with sufficient battery power (for applicable systems), and power savings mode is not active. | The machine is plugged in or has sufficient battery reserves. |
+| NETWORK | Internet access on a non-metered connection. | Internet access is available. |
+| CPU | CPU usage is relatively low. | CPU usage isn't excessively high. |
+| MEMORY | The system has low memory pressure. | The system isn't under high memory pressure. |
+| SYSTEM_DISK | System-disk usage is relatively low. | System-disk usage isn't excessively high. |
+| GPU | GPU usage is relatively low. | GPU usage isn't excessively high. |
 
 ## -see-also
 

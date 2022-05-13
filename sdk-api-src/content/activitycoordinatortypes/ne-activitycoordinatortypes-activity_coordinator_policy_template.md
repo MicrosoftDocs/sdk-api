@@ -47,7 +47,29 @@ An enumeration of the set of supported template policies. The configuration for 
 
 This template policy represents an overall good state of the system and a good time to run an activity, but is not necessarily limited to only good conditions for resources.
 
-Activities run using this policy minimize the likelihood of interference with other programs and user scenarios. Includes, but is not limited to resources such as user-idle, power, CPU, memory, and system disk, but does not consider network or GPU.
+Activities that run using this policy minimize the likelihood of interference with other programs and user scenarios. Includes, but is not limited to resources such as user-idle, power, CPU, memory, and system disk, but does not consider network or GPU.
+
+### -field ACTIVITY_COORDINATOR_POLICY_TEMPLATE_MEDIUM
+
+This template policy represents an overall moderate state of the system and a moderate time to run an activity, but is not necessarily limited to only medium conditions for resources.
+
+Activities that run using this policy have a moderate likelihood of interference with other programs and user scenarios. Includes, but is not limited to resources such as user-idle, power, CPU, memory, and system disk. It does not consider network or GPU.
+
+The resource conditions for this template configuration are more likely to be satisfied than the GOOD template, but the potential to impact other applications is also greater.
+
+### -field ACTIVITY_COORDINATOR_POLICY_TEMPLATE_BASE
+
+This template represents the minimum recommended resource conditions: good user-idle and power with medium CPU, memory, and system disk.
+
+### -field ACTIVITY_COORDINATOR_POLICY_TEMPLATE_EMPTY
+
+This template represents an empty policy. It's used as the basis for a completely custom policy implementation.
+
+## -remarks
+
+### Available conditions for resources
+
+#### ACTIVITY_COORDINATOR_CONDITION_GOOD
 
 | Resource | Available value |
 |-----|-----|
@@ -59,11 +81,7 @@ Activities run using this policy minimize the likelihood of interference with ot
 | System-Disk | ACTIVITY_COORDINATOR_CONDITION_GOOD |
 | GPU | ACTIVITY_COORDINATOR_CONDITION_NOT_SET |
 
-### -field ACTIVITY_COORDINATOR_POLICY_TEMPLATE_MEDIUM
-
-This template policy represents an overall moderate state of the system and a moderate time to run an activity, but is not necessarily limited to only medium conditions for resources.
-
-Activities run using this policy have a moderate likelihood of interference with other programs and user scenarios. Includes, but is not limited to resources such as user-idle, power, CPU, memory, and system disk. It does not consider network or GPU.
+#### ACTIVITY_COORDINATOR_CONDITION_MEDIUM
 
 | Resource | Available value |
 |-----|-----|
@@ -75,11 +93,7 @@ Activities run using this policy have a moderate likelihood of interference with
 | System-Disk | ACTIVITY_COORDINATOR_CONDITION_MEDIUM |
 | GPU | ACTIVITY_COORDINATOR_CONDITION_NOT_SET |
 
-The resource conditions for this template configuration are more likely to be satisfied than the GOOD template, but the potential to impact other applications is also greater.
-
-### -field ACTIVITY_COORDINATOR_POLICY_TEMPLATE_BASE
-
-This template represents the minimum recommended resource conditions: good user-idle and power with medium CPU, memory, and system disk.
+#### ACTIVITY_COORDINATOR_POLICY_TEMPLATE_BASE
 
 | Resource | Available value |
 |-----|-----|
@@ -91,9 +105,7 @@ This template represents the minimum recommended resource conditions: good user-
 | System-Disk | ACTIVITY_COORDINATOR_CONDITION_MEDIUM |
 | GPU | ACTIVITY_COORDINATOR_CONDITION_NOT_SET |
 
-### -field ACTIVITY_COORDINATOR_POLICY_TEMPLATE_EMPTY
-
-This template represents an empty policy. It is used as the basis for a completely custom policy implementation.
+#### ACTIVITY_COORDINATOR_POLICY_TEMPLATE_EMPTY
 
 | Resource | Available value |
 |-----|-----|
@@ -105,12 +117,10 @@ This template represents an empty policy. It is used as the basis for a complete
 | System-Disk | ACTIVITY_COORDINATOR_CONDITION_NOT_SET |
 | GPU | ACTIVITY_COORDINATOR_CONDITION_NOT_SET |
 
-## -remarks
-
 ## -see-also
 
 [CreateActivityCoordinatorPolicy](../activitycoordinator/nf-activitycoordinator-createactivitycoordinatorpolicy.md)
 
-[ACTIVITY_COORDINATOR_CONDITION](../activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_condition.md)
+[ACTIVITY_COORDINATOR_CONDITION](ne-activitycoordinatortypes-activity_coordinator_condition.md)
 
-[ACTIVITY_COORDINATOR_RESOURCE](../activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_resource.md)
+[ACTIVITY_COORDINATOR_RESOURCE](ne-activitycoordinatortypes-activity_coordinator_resource.md)
