@@ -25,9 +25,6 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-f1_keywords:
- - DWMWINDOWATTRIBUTE
- - dwmapi/DWMWINDOWATTRIBUTE
 dev_langs:
  - c++
 topic_type:
