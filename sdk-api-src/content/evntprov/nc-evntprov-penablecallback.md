@@ -84,7 +84,8 @@ _SourceId_ field of the
 that is passed to
 [EnableTraceEx2](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2).
 
-> Note that the _SourceId_ is the value the session specified in the call to the
+> [!Note]
+> The _SourceId_ is the value the session specified in the call to the
 > EnableTraceEx or EnableTraceEx2 API. It may or may not be the same as the
 > session's GUID.
 
@@ -105,11 +106,12 @@ the following values:
 | **EVENT_CONTROL_CODE_ENABLE_PROVIDER** (1)  | One or more sessions have enabled the provider.                                                                                                       |
 | **EVENT_CONTROL_CODE_CAPTURE_STATE** (2)    | A session is requesting that the provider log its state information. The provider will typically respond by writing events containing provider state. |
 
-> Note that the value of _IsEnabled_ may not be the same as the _ControlCode_
-> passed to the **EnableTrace** API that triggered this event. For example, if
-> two sessions have enabled this provider and one session disables this provider
-> by calling `EnableTraceEx2(..., EVENT_CONTROL_CODE_DISABLE_PROVIDER, ...)`,
-> the provider would receive a notification with _IsEnabled_ set to
+> [!Note]
+> The value of _IsEnabled_ may not be the same as the _ControlCode_ passed to
+> the **EnableTrace** API that triggered this event. For example, if two
+> sessions have enabled this provider and one session disables this provider by
+> calling `EnableTraceEx2(..., EVENT_CONTROL_CODE_DISABLE_PROVIDER, ...)`, the
+> provider would receive a notification with _IsEnabled_ set to
 > `EVENT_CONTROL_CODE_ENABLE_PROVIDER` because the provider is still enabled by
 > the other session.
 

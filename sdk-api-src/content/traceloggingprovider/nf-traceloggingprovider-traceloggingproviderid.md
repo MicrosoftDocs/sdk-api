@@ -4,42 +4,43 @@ title: TraceLoggingProviderId
 ms.date: 5/7/2019
 ms.keywords: TraceLoggingProviderId
 targetos: Windows
-req.assembly: 
+req.assembly:
 req.construct-type: function
-req.ddi-compliance: 
-req.dll: 
+req.ddi-compliance:
+req.dll:
 req.header: traceloggingprovider.h
-req.idl: 
-req.include-header: 
-req.irql: 
-req.kmdf-ver: 
-req.lib: 
-req.max-support: 
-req.namespace: 
-req.redist: 
+req.idl:
+req.include-header:
+req.irql:
+req.kmdf-ver:
+req.lib:
+req.max-support:
+req.namespace:
+req.redist:
 req.target-min-winverclnt: Windows 10 Build 20348
 req.target-min-winversvr: Windows 10 Build 20348
-req.target-type: 
-req.type-library: 
-req.umdf-ver: 
-req.unicode-ansi: 
+req.target-type:
+req.type-library:
+req.umdf-ver:
+req.unicode-ansi:
 f1_keywords:
- - TraceLoggingProviderId
- - traceloggingprovider/TraceLoggingProviderId
+  - TraceLoggingProviderId
+  - traceloggingprovider/TraceLoggingProviderId
 dev_langs:
- - c++
+  - c++
 topic_type:
- - apiref
+  - apiref
 api_type:
 api_location:
- - traceloggingprovider.h
+  - traceloggingprovider.h
 api_name:
- - TraceLoggingProviderId
+  - TraceLoggingProviderId
 ---
 
 ## -description
 
-Returns the provider ID that was specified in [**TRACELOGGING\_DEFINE\_PROVIDER**](./nf-traceloggingprovider-tracelogging_define_provider.md).
+Returns the provider ID that was specified in
+[TRACELOGGING_DEFINE_PROVIDER](./nf-traceloggingprovider-tracelogging_define_provider.md).
 
 ## -parameters
 
@@ -49,7 +50,8 @@ The handle of the TraceLogging provider.
 
 ## -returns
 
-The GUID of the provider ID specified in [**TRACELOGGING\_DEFINE\_PROVIDER**](./nf-traceloggingprovider-tracelogging_define_provider.md).
+The GUID of the provider ID specified in
+[TRACELOGGING_DEFINE_PROVIDER](./nf-traceloggingprovider-tracelogging_define_provider.md).
 
 ## -remarks
 

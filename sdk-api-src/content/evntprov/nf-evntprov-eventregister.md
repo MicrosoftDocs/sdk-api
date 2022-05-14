@@ -118,7 +118,8 @@ ignore the error code returned by **EventRegister**.
 [EventWriteTransfer](/windows/win32/api/evntprov/nf-evntprov-eventwritetransfer),
 or [EventWriteEx](/windows/win32/api/evntprov/nf-evntprov-eventwriteex).
 
-> **Note:** Most event providers will not call **EventRegister** directly.
+> [!Note]
+> Most event providers will not call **EventRegister** directly.
 > Instead, most event providers are implemented using an ETW framework that
 > wraps the calls to **EventRegister**, **EventWrite**, and **EventUnregister**.
 > For example, you might
