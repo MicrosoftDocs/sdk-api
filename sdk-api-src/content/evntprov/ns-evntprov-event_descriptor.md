@@ -121,6 +121,7 @@ semantics.
 
 An 8-bit number used to describe an event's severity or importance.
 
+> [!Important]
 > Event level is a primary means for filtering events. Always assign a
 > meaningful (non-zero) level to every event.
 
@@ -178,6 +179,7 @@ to simply associate a localized "task" string with each event.
 A 64-bit bitmask used to indicate an event's membership in a set of event
 categories.
 
+> [!Important]
 > Event keyword is a primary means for filtering events. Always assign a
 > meaningful (non-zero) keyword to every event.
 
