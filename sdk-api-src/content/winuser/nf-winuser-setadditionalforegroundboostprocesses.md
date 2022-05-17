@@ -45,7 +45,7 @@ helpviewer_keywords:
 ## -description
 
 > [!WARNING]
-> **SetAdditionalForegroundBoostProcesses** is a [**limited access feature**](https://docs.microsoft.com/uwp/api/windows.applicationmodel.limitedaccessfeatures). Contact XYZ at microsoft.com for more information.
+> **SetAdditionalForegroundBoostProcesses** is a [**limited access feature**](https://docs.microsoft.com/uwp/api/windows.applicationmodel.limitedaccessfeatures). Contact [foregroundboostprocs@microsoft.com](mailto:foregroundboostprocs@microsoft.com) for more information.
 
 **SetAdditionalForegroundBoostProcesses** is a performance assist API to help applications with a multi-process application model where multiple processes contribute to a foreground experience, either as data or rendering. Examples include browsers (with the browser manager or frame, tabs, plugins, etc. hosted in different processes) and IDEs (which spawn processes for compilation and other tasks). 
 
