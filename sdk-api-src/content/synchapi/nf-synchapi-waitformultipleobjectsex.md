@@ -195,7 +195,10 @@ To wait on more than <b>MAXIMUM_WAIT_OBJECTS</b> handles, use one of the followi
 
 <ul>
 <li>Create a thread to wait on <b>MAXIMUM_WAIT_OBJECTS</b> handles, then wait on that thread plus the other handles. Use this technique to break the handles into groups of <b>MAXIMUM_WAIT_OBJECTS</b>.</li>
-<li>Call <a href="/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject">RegisterWaitForSingleObject</a> to wait on each handle. A wait thread from the thread pool waits on <b>MAXIMUM_WAIT_OBJECTS</b> registered objects and assigns a worker thread after the object is signaled or the time-out interval expires.</li>
+<li>Call <a href="/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject">RegisterWaitForSingleObject</a> or
+<a href="/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwait">SetThreadpoolWait</a>
+to wait on each handle.
+The thread pool waits efficiently on the handles and assigns a worker thread after the object is signaled or the time-out interval expires.</li>
 </ul>
 The 
 <b>WaitForMultipleObjectsEx</b> function can specify handles of any of the following object types in the <i>lpHandles</i> array:

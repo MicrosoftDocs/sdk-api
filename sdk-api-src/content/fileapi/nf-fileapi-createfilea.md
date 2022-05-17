@@ -6,7 +6,7 @@ helpviewer_keywords: ["0","CREATE_ALWAYS","CREATE_NEW","CreateFile","CreateFile 
 old-location: fs\createfile.htm
 tech.root: fs
 ms.assetid: 80a96083-4de9-4422-9705-b8ad2b6cbd1b
-ms.date: 12/05/2018
+ms.date: 04/14/2022
 ms.keywords: 0, CREATE_ALWAYS, CREATE_NEW, CreateFile, CreateFile function [Files], CreateFileA, CreateFileW, FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_ENCRYPTED, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, FILE_FLAG_BACKUP_SEMANTICS, FILE_FLAG_DELETE_ON_CLOSE, FILE_FLAG_NO_BUFFERING, FILE_FLAG_OPEN_NO_RECALL, FILE_FLAG_OPEN_REPARSE_POINT, FILE_FLAG_OVERLAPPED, FILE_FLAG_POSIX_SEMANTICS, FILE_FLAG_RANDOM_ACCESS, FILE_FLAG_SEQUENTIAL_SCAN, FILE_FLAG_SESSION_AWARE, FILE_FLAG_WRITE_THROUGH, FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, OPEN_ALWAYS, OPEN_EXISTING, SECURITY_ANONYMOUS, SECURITY_CONTEXT_TRACKING, SECURITY_DELEGATION, SECURITY_EFFECTIVE_ONLY, SECURITY_IDENTIFICATION, SECURITY_IMPERSONATION, TRUNCATE_EXISTING, _win32_createfile, base.createfile, fileapi/CreateFile, fileapi/CreateFileA, fileapi/CreateFileW, fs.createfile, winbase/CreateFile, winbase/CreateFileA, winbase/CreateFileW
 req.header: fileapi.h
 req.include-header: Windows.h
@@ -89,7 +89,7 @@ To create a file stream, specify the name of the file, a colon, and then the nam
 
 ### -param dwDesiredAccess [in]
 
-The requested access to the file or device, which can be summarized as read, write, both or neither zero).
+The requested access to the file or device, which can be summarized as read, write, both or 0 to indicate neither).
 
 The most commonly used values are <b>GENERIC_READ</b>, 
        <b>GENERIC_WRITE</b>, or both 
@@ -335,12 +335,12 @@ The file or device attributes and flags, <b>FILE_ATTRIBUTE_NORMAL</b> being the 
        common default value for files.
 
 This parameter can include any combination of the available file attributes 
-       (<b>FILE_ATTRIBUTE_*</b>). All other file attributes override 
+       (<b>FILE_ATTRIBUTE_\*</b>). All other file attributes override 
        <b>FILE_ATTRIBUTE_NORMAL</b>.
 
-This parameter can also contain combinations of flags (<b>FILE_FLAG_*</b>) for control of 
+This parameter can also contain combinations of flags (<b>FILE_FLAG_\*</b>) for control of 
        file or device caching behavior, access modes, and other special-purpose flags. These combine with any 
-       <b>FILE_ATTRIBUTE_*</b> values.
+       <b>FILE_ATTRIBUTE_\*</b> values.
 
 This parameter can also contain Security Quality of Service (SQOS) information by specifying the 
        <b>SECURITY_SQOS_PRESENT</b> flag. Additional SQOS-related flags information is presented in 
@@ -576,7 +576,7 @@ If this flag is not specified, then I/O operations are serialized, even if the c
          functions specify an <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
 
 For information about considerations when using a file handle created with this flag, see the 
-         <a href="https://docs.microsoft.com/">Synchronous and Asynchronous I/O Handles</a> 
+         <a href="#synchronous-and-asynchronous-i-o-handles">Synchronous and Asynchronous I/O Handles</a> 
          section of this topic.
 
 </td>
@@ -1405,10 +1405,10 @@ Example file operations are shown in the following topics:
 <a href="/windows/desktop/FileIO/walking-a-buffer-of-change-journal-records">Walking a Buffer of Change Journal Records</a>
 </li>
 <li>
-<a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a>
+<a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a>
 </li>
 <li>
-<a href="/windows/desktop/api/winbase/nf-winbase-wow64enablewow64fsredirection">Wow64EnableWow64FsRedirection</a>
+<a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64enablewow64fsredirection">Wow64EnableWow64FsRedirection</a>
 </li>
 </ul>
 Physical device I/O is demonstrated in the following topics:

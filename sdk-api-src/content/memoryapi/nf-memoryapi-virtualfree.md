@@ -151,7 +151,7 @@ When using <b>MEM_RELEASE</b>, this parameter can additionally specify one of th
 </dl>
 </td>
 <td width="60%">
-To coalesce two adjacent placeholders, specify <code>MEM_RELEASE | MEM_COALESCE_PLACEHOLDERS</code>. When you coalesce placeholders, <i>lpAddress</i> and <i>dwSize</i> must exactly match those of the placeholder.
+To coalesce two adjacent placeholders, specify <code>MEM_RELEASE | MEM_COALESCE_PLACEHOLDERS</code>. When you coalesce placeholders, <i>lpAddress</i> and <i>dwSize</i> must exactly match the overall range of the placeholders to be merged.
 
 </td>
 </tr>

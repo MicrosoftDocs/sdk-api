@@ -190,6 +190,7 @@ The <i>lpValue</i> parameter is a pointer to a <a href="/windows/desktop/api/win
 <td width="60%">
 The <i>lpValue</i> parameter is a pointer to a <b>DWORD</b> value of <b>PROTECTION_LEVEL_SAME</b>. This specifies the protection level of the child process to be the same as the protection level of its parent process.
 
+<b>Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 and Windows Vista: </b>This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 </td>
 </tr>
 <tr>
@@ -202,6 +203,7 @@ The <i>lpValue</i> parameter is a pointer to a <b>DWORD</b> value that specifies
 
 For information on the possible values for the <b>DWORD</b> to which <i>lpValue</i> points, see Remarks.
 
+<b>Windows 8.1, Windows 8, Windows 7, Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 and Windows Vista: </b>This value is not supported until Windows 10 and Windows Server 2016.
 </td>
 </tr>
 <tr>
@@ -216,6 +218,7 @@ The <i>lpValue</i> parameter is a pointer to a <b>DWORD</b> value that specifies
 
 For information about the possible values for the <b>DWORD</b> to which <i>lpValue</i> points, see Remarks.
 
+This value is not supported until Windows 10 Version 1703 and Windows Server Version 1709.
 </td>
 </tr>
 <tr>
@@ -226,6 +229,7 @@ For information about the possible values for the <b>DWORD</b> to which <i>lpVal
 <td width="60%">
 The <i>lpValue</i> parameter is a pointer to a list of job handles to be assigned to the child process, in the order specified.
 
+<b>Windows 8.1, Windows 8, Windows 7, Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 and Windows Vista: </b>This value is not supported until Windows 10 and Windows Server 2016.
 </td>
 </tr>
 <tr>
@@ -245,7 +249,7 @@ This value is not supported until Windows 11 and Windows Server 2022.
 
 ### -param lpValue [in]
 
-A pointer to the attribute value. This value should persist until the attribute is destroyed using the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-deleteprocthreadattributelist">DeleteProcThreadAttributeList</a> function.
+A pointer to the attribute value. This value must persist until the attribute list is destroyed using the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-deleteprocthreadattributelist">DeleteProcThreadAttributeList</a> function.
 
 ### -param cbSize [in]
 

@@ -46,13 +46,9 @@ api_name:
  - getsockopt
 ---
 
-# getsockopt function
-
-
 ## -description
 
-The 
-<b>getsockopt</b> function retrieves a socket option.
+The <b>getsockopt</b> function retrieves a socket option.
 
 ## -parameters
 
@@ -187,7 +183,6 @@ The following options are supported for
 For more information on socket options, see <a href="/windows/desktop/WinSock/socket-options">Socket Options</a>.
 
 The following table of value for the <i>optname</i> parameter are valid when the <i>level</i> parameter is set to <b>SOL_SOCKET</b>.
-
 
 <table>
 <tr>
@@ -330,21 +325,9 @@ The following table of value for the <i>optname</i> parameter are valid when the
 
 
 
-The following table of value for the <i>optname</i> parameter are valid when the <i>level</i> parameter is set to <b>IPPROTO_TCP</b>.
+<i>level</i> = <b>IPPROTO_TCP</b>
 
-
-<table>
-<tr>
-<th>Value</th>
-<th>Type</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>TCP_NODELAY</td>
-<td>BOOL</td>
-<td>Disables the Nagle algorithm for send coalescing.</td>
-</tr>
-</table>
+See **TCP_NODELAY** in [IPPROTO_TCP socket options](/windows/desktop/WinSock/ipproto-tcp-socket-options). Also see that topic for more complete and detailed information about socket options for <i>level</i> = <b>IPPROTO_TCP</b>.
  
 
 

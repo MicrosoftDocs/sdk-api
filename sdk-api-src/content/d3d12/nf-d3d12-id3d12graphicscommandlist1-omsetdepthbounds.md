@@ -76,7 +76,7 @@ Depth-bounds testing allows pixels and samples to be discarded if the currently-
 
 To use depth-bounds testing, the application must use the new <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device2-createpipelinestate">CreatePipelineState</a> method to enable depth-bounds testing on the PSO and then can use this command list method to change the depth-bounds dynamically.
 
-OMSetDepthBounds is an optional feature. Use the <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">CheckFeatureSupport</a> method to determine whether or not this feature is supported by the user-mode driver. Support for this feature is reported through the [D3D12_FEATURE_D3D12_OPTIONS1](./ne-d3d12-d3d12_feature.md) structure.
+OMSetDepthBounds is an optional feature. Use the <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">CheckFeatureSupport</a> method to determine whether or not this feature is supported by the user-mode driver. Support for this feature is reported through the [D3D12_FEATURE_D3D12_OPTIONS2](./ne-d3d12-d3d12_feature.md) structure.
 
 ## -see-also
 

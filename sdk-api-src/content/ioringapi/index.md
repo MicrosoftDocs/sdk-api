@@ -52,6 +52,3 @@ This header is used by Data Access and Storage. For more information, see:
 ## -remarks
 
 ## -see-also
-
-## -examples
-
