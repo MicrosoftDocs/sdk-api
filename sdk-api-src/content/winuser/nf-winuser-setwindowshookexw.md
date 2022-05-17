@@ -148,6 +148,10 @@ Installs a hook procedure that monitors messages posted to a message queue. For 
 </dl>
 </td>
 <td width="60%">
+
+> [!WARNING]
+> Journaling Hooks APIs are unsupported starting in Windows 11 and will be removed in a future release. Because of this, we highly recommend calling the [**SendInput**](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-sendinput) TextInput API instead.
+
 Installs a hook procedure that posts messages previously recorded by a <a href="/windows/desktop/winmsg/about-hooks">WH_JOURNALRECORD</a> hook procedure. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644982(v=vs.85)">JournalPlaybackProc</a> hook procedure.
 
 </td>
@@ -159,6 +163,10 @@ Installs a hook procedure that posts messages previously recorded by a <a href="
 </dl>
 </td>
 <td width="60%">
+
+> [!WARNING]
+> Journaling Hooks APIs are unsupported starting in Windows 11 and will be removed in a future release. Because of this, we highly recommend calling the [**SendInput**](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-sendinput) TextInput API instead.
+
 Installs a hook procedure that records input messages posted to the system message queue. This hook is useful for recording macros. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644983(v=vs.85)">JournalRecordProc</a> hook procedure.
 
 </td>
