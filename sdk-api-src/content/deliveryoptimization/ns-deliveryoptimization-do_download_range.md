@@ -14,7 +14,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows Insider Preview Build 22621
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: DO_DOWNLOAD_RANGE

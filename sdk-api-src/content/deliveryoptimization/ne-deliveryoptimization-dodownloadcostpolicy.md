@@ -11,7 +11,7 @@ req.header: deliveryoptimization.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows Insider Preview Build 22621
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 

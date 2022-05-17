@@ -8,8 +8,8 @@ req.construct-type: iface
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps only]
-req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.target-min-winverclnt: Windows Insider Preview Build 22621
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

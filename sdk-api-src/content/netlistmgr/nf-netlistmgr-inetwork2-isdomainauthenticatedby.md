@@ -8,7 +8,7 @@ req.construct-type: function
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows Insider Preview Build 22621
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
