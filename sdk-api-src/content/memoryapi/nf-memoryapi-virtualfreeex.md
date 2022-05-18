@@ -6,7 +6,7 @@ helpviewer_keywords: ["MEM_COALESCE_PLACEHOLDERS","MEM_DECOMMIT","MEM_PRESERVE_P
 old-location: base\virtualfreeex.htm
 tech.root: base
 ms.assetid: 2e5c862c-1251-49da-9c3a-90b09e488d89
-ms.date: 12/05/2018
+ms.date: 5/18/2022
 ms.keywords: MEM_COALESCE_PLACEHOLDERS, MEM_DECOMMIT, MEM_PRESERVE_PLACEHOLDER, MEM_RELEASE, VirtualFreeEx, VirtualFreeEx function, _win32_virtualfreeex, base.virtualfreeex, winbase/VirtualFreeEx
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
@@ -64,20 +64,13 @@ Releases, decommits, or releases and decommits a region of memory within the vir
 
 ### -param hProcess [in]
 
-A handle to a process. The function frees memory within the virtual address space of the process. 
+A handle to a process. The function frees memory within the virtual address space of the process.
 
-
-
-
-The handle must have the <b>PROCESS_VM_OPERATION</b> access right. For more information, see 
-<a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+The handle must have the <b>PROCESS_VM_OPERATION</b> access right. For more information, see <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 ### -param lpAddress [in]
 
 A pointer to the starting address of the region of memory to be freed. 
-
-
-
 
 If the <i>dwFreeType</i> parameter is <b>MEM_RELEASE</b>, <i>lpAddress</i> must be the base address returned by the 
 <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocex">VirtualAllocEx</a> function when the region is reserved.
@@ -112,11 +105,11 @@ The type of free operation. This parameter must be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Decommits the specified region of committed pages. After the operation, the pages are in the reserved state. 
+Decommits the specified region of committed pages. After the operation, the pages are in the reserved state.
 
 The function does not fail if you attempt to decommit an uncommitted page. This means that you can decommit a range of pages without first determining the current commitment state.
 
-The <b>MEM_DECOMMIT</b> value is not supported when the <i>lpAddress</i> parameter provides the base address for an enclave.
+The <b>MEM_DECOMMIT</b> value is not supported when the <i>lpAddress</i> parameter provides the base address for an enclave. This is true for enclaves that do not support dynamic memory management (i.e. SGX1). SGX2 enclaves permit MEM_DECOMMIT anywhere in the enclave.
 
 </td>
 </tr>

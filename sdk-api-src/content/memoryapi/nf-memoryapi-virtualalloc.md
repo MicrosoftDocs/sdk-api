@@ -217,16 +217,14 @@ To retrieve the addresses of the pages that have been written to since the regio
 
 The memory protection for the region of pages to be allocated. If the pages are being committed, you can specify any one of the [memory protection constants](/windows/win32/Memory/memory-protection-constants).
 
-If <i>lpAddress</i> specifies an address within an enclave, <i>flProtect</i> cannot be any of the following values:
+If _lpAddress_ specifies an address within an enclave, _flProtect_ cannot be any of the following values:
 
-<ul>
-<li>PAGE_NOACCESS</li>
-<li>PAGE_GUARD</li>
-<li>PAGE_NOCACHE</li>
-<li>PAGE_WRITECOMBINE</li>
-</ul>
+- PAGE_NOACCESS
+- PAGE_GUARD
+- PAGE_NOCACHE
+- PAGE_WRITECOMBINE
 
-When allocating dynamic memory for an enclave, the **flProtect** parameter must be **PAGE_READWRITE** or **PAGE_EXECUTE_READWRITE**.
+When allocating dynamic memory for an enclave, the _flProtect_ parameter must be **PAGE_READWRITE** or **PAGE_EXECUTE_READWRITE**.
 
 ## -returns
 

@@ -2,12 +2,12 @@
 UID: NF:enclaveapi.IsEnclaveTypeSupported
 title: IsEnclaveTypeSupported function (enclaveapi.h)
 description: Retrieves whether the specified type of enclave is supported.
-helpviewer_keywords: ["ENCLAVE_TYPE_SGX","ENCLAVE_TYPE_VBS","IsEnclaveTypeSupported","IsEnclaveTypeSupported function","base.isenclavetypesupported","base.isenclavetypesypported","enclaveapi/IsEnclaveTypeSupported"]
+helpviewer_keywords: ["ENCLAVE_TYPE_SGX", "ENCLAVE_TYPE_SGX2","ENCLAVE_TYPE_VBS","IsEnclaveTypeSupported","IsEnclaveTypeSupported function","base.isenclavetypesupported","base.isenclavetypesypported","enclaveapi/IsEnclaveTypeSupported"]
 old-location: base\isenclavetypesupported.htm
 tech.root: base
 ms.assetid: E46AF02B-324F-43A8-8C73-9FE1E8E771E9
 ms.date: 05/02/2022
-ms.keywords: ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_VBS, IsEnclaveTypeSupported, IsEnclaveTypeSupported function, base.isenclavetypesupported, base.isenclavetypesypported, enclaveapi/IsEnclaveTypeSupported
+ms.keywords: ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_SGX2, ENCLAVE_TYPE_VBS, IsEnclaveTypeSupported, IsEnclaveTypeSupported function, base.isenclavetypesupported, base.isenclavetypesypported, enclaveapi/IsEnclaveTypeSupported
 req.header: enclaveapi.h
 req.include-header: Winbase.h
 req.target-type: Windows
