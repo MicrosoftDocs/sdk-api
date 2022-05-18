@@ -76,9 +76,9 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 
 Considerations:
 
-• Window movements are not tracked, since there is no window.
-• Any scale factor returned by the [DisplayInformation](/uwp/api/windows.graphics.display.displayinformation) is the current scale factor for the entire monitor. DPI virtualization acts in the same way as for [GetScaleFactorForMonitor](/windows/win32/api/shellscalingapi/nf-shellscalingapi-getscalefactorformonitor), which is the underlying API used to read scale in this case.
-• If you wish to register for events, then the current thread must have a [Windows.System.DispatcherQueue](/uwp/api/windows.system.dispatcherqueue) running, in order to receive events. That **DispatcherQueue** will be snapped upon the call to **GetForMonitor**. If there is no **DispatcherQueue**, then an exception (at the application binary interface level, a **HRESULT**) is returned in the event handler registration methods.
+* Window movements are not tracked, since there is no window.
+* Any scale factor returned by the [DisplayInformation](/uwp/api/windows.graphics.display.displayinformation) is the current scale factor for the entire monitor. DPI virtualization acts in the same way as for [GetScaleFactorForMonitor](/windows/win32/api/shellscalingapi/nf-shellscalingapi-getscalefactorformonitor), which is the underlying API used to read scale in this case.
+* If you wish to register for events, then the current thread must have a [Windows.System.DispatcherQueue](/uwp/api/windows.system.dispatcherqueue) running, in order to receive events. That **DispatcherQueue** will be snapped upon the call to **GetForMonitor**. If there is no **DispatcherQueue**, then an exception (at the application binary interface level, a **HRESULT**) is returned in the event handler registration methods.
 * The current thread can be MTA or STA.
 
 You're responsible for: caching the created **DisplayInformation** for as long as the argument of *monitor* is relevant; de-registering event handlers; and dropping the last reference in order to destroy the **DisplayInformation** instance.
