@@ -186,33 +186,24 @@ If a page is decommitted but not released, its state changes to reserved. Subseq
 <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocex">VirtualAllocEx</a> to commit it, or 
 <b>VirtualFreeEx</b> to release it. Attempting to read from or write to a reserved page results in an access violation exception.
 
-The 
-<b>VirtualFreeEx</b> function can release a range of pages that are in different states, some reserved and some committed. This means that you can release a range of pages without first determining the current commitment state of each page. The entire range of pages originally reserved by 
-<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocex">VirtualAllocEx</a> must be released at the same time.
+The **VirtualFreeEx** function can release a range of pages that are in different states, some reserved and some committed. This means that you can release a range of pages without first determining the current commitment state of each page. The entire range of pages originally reserved by [VirtualAllocEx](nf-memoryapi-virtualallocex.md) must be released at the same time.
 
 If a page is released, its state changes to free, and it is available for subsequent allocation operations. After memory is released or decommitted, you can never refer to the memory again. Any information that may have been in that memory is gone forever. Attempts to read from or write to a free page results in an access violation exception. If you need to keep information, do not decommit or free memory that  contains the information.
 
-The 
-<b>VirtualFreeEx</b> function can be used on an AWE region of memory and it invalidates any physical page mappings in the region when freeing the address space. However, the physical pages are not deleted, and the application can use them. The application must explicitly call 
-<a href="/windows/desktop/api/memoryapi/nf-memoryapi-freeuserphysicalpages">FreeUserPhysicalPages</a> to free the physical pages. When the  process is terminated, all resources are automatically cleaned up.
+The **VirtualFreeEx** function can be used on an AWE region of memory and it invalidates any physical page mappings in the region when freeing the address space. However, the physical pages are not deleted, and the application can use them. The application must explicitly call [FreeUserPhysicalPages](nf-memoryapi-freeuserphysicalpages.md) to free the physical pages. When the  process is terminated, all resources are automatically cleaned up.
 
-To delete an enclave when you finish using it, specify the following values:
+**Windows 10, version 1709 and later and Windows 11:** To delete the enclave when you finish using it, call [DeleteEnclave](../enclaveapi/nf-enclaveapi-deleteenclave.md). You cannot delete a VBS enclave by calling the [VirtualFree](nf-memoryapi-virtualfree.md) or **VirtualFreeEx** function. You can still delete an SGX enclave by calling **VirtualFree** or **VirtualFreeEx**.
 
-<ul>
-<li>The base address of the enclave for the <i>lpAddress</i> parameter.</li>
-<li>0 for the <i>dwSize</i> parameter.</li>
-<li><b>MEM_RELEASE</b> for the <i>dwFreeType</i> parameter. The <b>MEM_DECOMMIT</b> value is not supported for enclaves.</li>
-</ul>
+**Windows 10, version 1507, Windows 10, version 1511, Windows 10, version 1607 and Windows 10, version 1703:** To delete the enclave when you finish using it, call the [VirtualFree](nf-memoryapi-virtualfree.md) or **VirtualFreeEx** function and specify the following values:
+
+- The base address of the enclave for the _lpAddress_ parameter.
+- 0 for the _dwSize_ parameter.
+- **MEM_RELEASE** for the _dwFreeType_ parameter.
 
 ## -see-also
 
-<a href="/windows/desktop/Memory/memory-management-functions">Memory
-    Management Functions</a>
+[Memory Management Functions](/windows/win32/Memory/memory-management-functions)
 
+[Virtual Memory Functions](/windows/win32/Memory/virtual-memory-functions)
 
-
-<a href="/windows/desktop/Memory/virtual-memory-functions">Virtual Memory Functions</a>
-
-
-
-<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocex">VirtualAllocEx</a>
+[VirtualAllocEx](nf-memoryapi-virtualallocex.md)

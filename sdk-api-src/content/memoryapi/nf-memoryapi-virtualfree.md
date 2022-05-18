@@ -165,17 +165,19 @@ Each page of memory in a process virtual address space has a [Page State](/windo
 
 If a page is decommitted but not released, its state changes to reserved. Subsequently, you can call [VirtualAlloc](/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc) to commit it, or **VirtualFree** to release it. Attempts to read from or write to a reserved page results in an access violation exception.
 
-The **VirtualFree** function can release a range of pages that are in different states, some reserved and some committed. This means that you can release a range of pages without first determining the current commitment state of each page. The entire range of pages originally reserved by the [VirtualAlloc](/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc) function must be released at the same time.
+The **VirtualFree** function can release a range of pages that are in different states, some reserved and some committed. This means that you can release a range of pages without first determining the current commitment state of each page. The entire range of pages originally reserved by the [VirtualAlloc](nf-memoryapi-virtualalloc.md) function must be released at the same time.
 
 If a page is released, its state changes to free, and it is available for subsequent allocation operations. After memory is released or decommited, you can never refer to the memory again. Any information that may have been in that memory is gone forever. Attempting to read from or write to a free page results in an access violation exception. If you need to keep information, do not decommit or free memory that contains the information.
 
-The **VirtualFree** function can be used on an AWE region of memory, and it invalidates any physical page mappings in the region when freeing the address space. However, the physical page is not deleted, and the application can use them. The application must explicitly call [FreeUserPhysicalPages](/windows/win32/api/memoryapi/nf-memoryapi-freeuserphysicalpages) to free the physical pages. When the process is terminated, all resources are cleaned up automatically.
+The **VirtualFree** function can be used on an AWE region of memory, and it invalidates any physical page mappings in the region when freeing the address space. However, the physical page is not deleted, and the application can use them. The application must explicitly call [FreeUserPhysicalPages](nf-memoryapi-freeuserphysicalpages.md) to free the physical pages. When the process is terminated, all resources are cleaned up automatically.
 
-To delete an enclave when you finish using it, specify the following values:
+**Windows 10, version 1709 and later and Windows 11:** To delete the enclave when you finish using it, call [DeleteEnclave](../enclaveapi/nf-enclaveapi-deleteenclave.md). You cannot delete a VBS enclave by calling the **VirtualFree** or [VirtualFreeEx](nf-memoryapi-virtualfreeex.md) function. You can still delete an SGX enclave by calling **VirtualFree** or **VirtualFreeEx**.
+
+**Windows 10, version 1507, Windows 10, version 1511, Windows 10, version 1607 and Windows 10, version 1703:** To delete the enclave when you finish using it, call the **VirtualFree** or [VirtualFreeEx](nf-memoryapi-virtualfreeex.md) function and specify the following values:
 
 - The base address of the enclave for the _lpAddress_ parameter.
 - 0 for the _dwSize_ parameter.
-- **MEM_RELEASE** for the _dwFreeType_ parameter. The **MEM_DECOMMIT** value is not supported for enclaves.
+- **MEM_RELEASE** for the _dwFreeType_ parameter.
 
 ### Examples
 
@@ -187,4 +189,4 @@ For an example, see [Reserving and Committing Memory](/windows/win32/Memory/rese
 
 [Virtual Memory Functions](/windows/win32/Memory/virtual-memory-functions)
 
-[VirtualFreeEx](/windows/win32/api/memoryapi/nf-memoryapi-virtualfreeex)
+[VirtualFreeEx](nf-memoryapi-virtualfreeex.md)

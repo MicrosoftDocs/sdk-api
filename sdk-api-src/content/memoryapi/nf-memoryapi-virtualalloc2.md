@@ -287,18 +287,16 @@ Allocates memory at the highest possible address. This can be slower than regula
 
 ### -param PageProtection [in]
 
-The memory protection for the region of pages to be allocated. If the pages are being committed, you can 
-      specify any one of the 
-      <a href="/windows/desktop/Memory/memory-protection-constants">memory protection constants</a>.
+The memory protection for the region of pages to be allocated. If the pages are being committed, you can specify any one of the [memory protection constants](/windows/win32/Memory/memory-protection-constants).
 
-If <i>BaseAddress</i> specifies an address within an enclave, <i>PageProtection</i> cannot be any of the following values:
+If _BaseAddress_ specifies an address within an enclave, _PageProtection_ cannot be any of the following values:
 
-<ul>
-<li>PAGE_NOACCESS</li>
-<li>PAGE_GUARD</li>
-<li>PAGE_NOCACHE</li>
-<li>PAGE_WRITECOMBINE</li>
-</ul>
+- PAGE_NOACCESS
+- PAGE_GUARD
+- PAGE_NOCACHE
+- PAGE_WRITECOMBINE
+
+When allocating dynamic memory for an enclave, the _PageProtection_ parameter must be **PAGE_READWRITE** or **PAGE_EXECUTE_READWRITE**.
 
 ### -param ExtendedParameters [in, out, optional]
 

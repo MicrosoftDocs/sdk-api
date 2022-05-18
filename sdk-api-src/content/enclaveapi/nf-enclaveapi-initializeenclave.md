@@ -134,26 +134,24 @@ The processor was not able to initialize the enclave in a timely fashion. Try  t
 
 ## -remarks
 
-To create an enclave, use the [CreateEnclave](/windows/win32/api/enclaveapi/nf-enclaveapi-createenclave) function. To load data into the enclave before you initialize it, use the [LoadEnclaveData](/windows/win32/api/enclaveapi/nf-enclaveapi-loadenclavedata) function.
+To create an enclave, use the [CreateEnclave](nf-enclaveapi-createenclave.md) function. To load data into the enclave before you initialize it, use the [LoadEnclaveData](nf-enclaveapi-loadenclavedata.md) function.
 
-**Windows 10, version 1709:** To delete the enclave when you finish using it, call [DeleteEnclave](/windows/win32/api/enclaveapi/nf-enclaveapi-deleteenclave). You cannot delete a VBS enclave by calling the [VirtualFree](/windows/win32/api/memoryapi/nf-memoryapi-virtualfree) or [VirtualFreeEx](/windows/win32/api/memoryapi/nf-memoryapi-virtualfreeex) function. You can still delete an SGX enclave by calling **VirtualFree** or **VirtualFreeEx**.
+**Windows 10, version 1709 and later and Windows 11:** To delete the enclave when you finish using it, call [DeleteEnclave](nf-enclaveapi-deleteenclave.md). You cannot delete a VBS enclave by calling the [VirtualFree](../memoryapi/nf-memoryapi-virtualfree.md) or [VirtualFreeEx](../memoryapi/nf-memoryapi-virtualfreeex.md) function. You can still delete an SGX enclave by calling **VirtualFree** or **VirtualFreeEx**.
 
-**Windows 10, version 1507, Windows 10, version 1511, Windows 10, version 1607 and Windows 10, version 1703:** To delete the enclave when you finish using it, call the [VirtualFree](/windows/win32/api/memoryapi/nf-memoryapi-virtualfree) or [VirtualFreeEx](/windows/win32/api/memoryapi/nf-memoryapi-virtualfreeex) function and specify the following values:
+**Windows 10, version 1507, Windows 10, version 1511, Windows 10, version 1607 and Windows 10, version 1703:** To delete the enclave when you finish using it, call the [VirtualFree](../memoryapi/nf-memoryapi-virtualfree.md) or [VirtualFreeEx](../memoryapi/nf-memoryapi-virtualfreeex.md) function and specify the following values:
 
-<ul>
-<li>The base address of the enclave for the <i>lpAddress</i> parameter.</li>
-<li>0 for the <i>dwSize</i> parameter.</li>
-<li><b>MEM_RELEASE</b> for the <i>dwFreeType</i> parameter. The <b>MEM_DECOMMIT</b> value is not supported for enclaves.</li>
-</ul>
+- The base address of the enclave for the _lpAddress_ parameter.
+- 0 for the _dwSize_ parameter.
+- **MEM_RELEASE** for the _dwFreeType_ parameter.
 
 ## -see-also
 
-<a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave">CreateEnclave</a>
+[CreateEnclave](nf-enclaveapi-createenclave.md)
 
-<a href="/windows/desktop/api/winnt/ns-winnt-enclave_init_info_sgx">ENCLAVE_INIT_INFO_SGX</a>
+[ENCLAVE_INIT_INFO_SGX](../winnt/ns-winnt-enclave_init_info_sgx.md)
 
-<a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-loadenclavedata">LoadEnclaveData</a>
+[LoadEnclaveData](nf-enclaveapi-loadenclavedata.md)
 
-<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a>
+[VirtualFree](../memoryapi/nf-memoryapi-virtualfree.md)
 
-<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a>
+[VirtualFreeEx](../memoryapi/nf-memoryapi-virtualfreeex.md)
