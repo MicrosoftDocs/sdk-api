@@ -73,7 +73,7 @@ Reserved. Do not use this enumeration value.
 The stream contains thread information. For more information, see 
 <a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_thread_list">MINIDUMP_THREAD_LIST</a>.
 
-### -field ModuleListStream:14
+### -field ModuleListStream:4
 
 The stream contains module information. For more information, see 
 <a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_module_list">MINIDUMP_MODULE_LIST</a>.
