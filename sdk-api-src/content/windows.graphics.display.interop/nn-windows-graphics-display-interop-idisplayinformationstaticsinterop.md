@@ -1,7 +1,7 @@
 ---
 UID: NN:windows.graphics.display.interop.IDisplayInformationStaticsInterop
 title: IDisplayInformationStaticsInterop
-description: TBD
+description: Desktop interop interface for the [DisplayInformation](/uwp/api/windows.graphics.display.displayinformation) activation factory.
 tech.root: winrt
 ms.date: 05/17/2022
 targetos: Windows
