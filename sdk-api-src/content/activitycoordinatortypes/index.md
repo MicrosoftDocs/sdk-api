@@ -45,9 +45,9 @@ helpviewer_keywords:
 
 ## -description
 
-This header is used by Activity Coordinator C++ reference. For more information, see:
+This header is used by the Activity Coordinator C/C++ API. For more information, see:
 
-- [Activity Coordinator C++ reference](../_activity_coordinator/index.md)
+- [Activity Coordinator](../_activity_coordinator/index.md)
 
 ## -remarks
 
