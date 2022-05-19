@@ -65,7 +65,9 @@ Represents Memory availability. Includes Memory utilization, and may include fac
 
 ### -field ACTIVITY_COORDINATOR_RESOURCE_SYSTEM_DISK
 
-Represents system drive bandwidth availability. Includes drive utilization.
+Represents system-disk bandwidth availability. Includes drive utilization.
+
+System-disk refers to the drive where the operating system is installed.
 
 ### -field ACTIVITY_COORDINATOR_RESOURCE_GPU
 
@@ -77,13 +79,13 @@ Represents GPU availability. Includes GPU utilization.
 
 | Resource | Good Condition | Medium Condition |
 |-----|-----|-----|
-| USER_IDLE | User is inactive and the system is not in game-mode. | The system isn't in game-mode. |
-| POWER | The machine is plugged in with sufficient battery power (for applicable systems), and power savings mode is not active. | The machine is plugged in or has sufficient battery reserves. |
-| NETWORK | Internet access on a non-metered connection. | Internet access is available. |
-| CPU | CPU usage is relatively low. | CPU usage isn't excessively high. |
-| MEMORY | The system has low memory pressure. | The system isn't under high memory pressure. |
-| SYSTEM_DISK | System-disk usage is relatively low. | System-disk usage isn't excessively high. |
-| GPU | GPU usage is relatively low. | GPU usage isn't excessively high. |
+| USER_IDLE | User is inactive and/or background activities are highly unlikely to interfere with user experiences. | User may be active. Background activities are unlikely to interfere with highly sensitive experiences. |
+| POWER | Energy consumption is highly unlikely to impact user experience. | Energy consumption may impact user experience but will not critically degrade it. Potential impacts may include battery life. |
+| NETWORK | Internet access is available; activities highly unlikely to impact user experience. | Internet access is available, but consumption may impact the user. Potential impacts may include consuming limited and/or paid bandwidth. |
+| CPU | Additional CPU usage is highly unlikely to interfere with user experiences. | Additional CPU usage may interfere with system performance but will not critically degrade it. |
+| MEMORY | Additional memory usage is highly unlikely to interfere with user experiences. | Additional memory usage may interfere with system performance but will not critically degrade it. |
+| SYSTEM_DISK | Additional system-disk usage is highly unlikely to interfere with user experiences. | Additional system-disk usage may interfere with system performance but will not critically degrade it. |
+| GPU | Additional GPU usage is highly unlikely to interfere with user experiences. | Additional GPU usage may interfere with resource-intensive, visual user experiences such as gaming, video streaming, etc. |
 
 ## -see-also
 
