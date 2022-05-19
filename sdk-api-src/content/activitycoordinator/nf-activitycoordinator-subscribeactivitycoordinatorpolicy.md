@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Creates a subscription that receives notifications for the policy's opening and closing. Upon notification, the supplied callback is executed with the supplied context. A notification with the current state will be delivered immediately on a separate thread and may be delivered before this call returns. Changes made to the policy after subscribing do not affect a subscription. A single policy can be used to create many subscriptions with unique policy configurations. Notifications are serialized.
+Creates a subscription that delivers coordination notifications to the supplied callback based on the policy's configuration. Upon notification, the supplied callback is executed with the supplied context. A notification with the current state will be delivered immediately on a separate thread and may be delivered before this call returns. Changes made to the policy after subscribing do not affect the subscription. A single policy can be used to create many subscriptions with unique policy configurations. Notifications are serialized.
 
 ## -parameters
 
