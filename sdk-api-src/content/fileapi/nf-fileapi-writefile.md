@@ -439,46 +439,25 @@ The following C++ example shows how to align sectors for unbuffered file writes.
 
 #define ROUND_UP_PTR(Ptr,Pow2)  ((void *) ((((ULONG_PTR)(Ptr)) + (Pow2) - 1) & (~(((LONG_PTR)(Pow2)) - 1))))
 
-
-void main()
+int main()
 {
-// Function code
-
-    DWORD BytesPerSector = 0; // obtained from the GetFreeDiskSpace function.
-    DWORD Size = 0; // buffer size of your data to write
-
-// ... obtain data here
-// sample data
-    BytesPerSector = 65536;
-    Size = 15536;
-//
-
+   // Sample data
+   unsigned long bytesPerSector = 65536; // obtained from the GetFreeDiskSpace function.
+   unsigned long size = 15536; // Buffer size of your data to write.
+   
    // Ensure you have one more sector than Size would require.
-   SIZE_T SizeNeeded = BytesPerSector + ROUND_UP_SIZE(Size, BytesPerSector);
+   size_t sizeNeeded = bytesPerSector + ROUND_UP_SIZE(size, bytesPerSector);
    
    // Replace this statement with any allocation routine.
-   LPBYTE Buffer = (LPBYTE) malloc(SizeNeeded);
-
-   // Error checking of your choice.
-   if ( !Buffer ) 
-   {
-     goto cleanup;
-   }
-
+   auto buffer = new uint8_t[SizeNeeded];
+   
    // Actual alignment happens here.
-   void * BufferAligned = ROUND_UP_PTR(Buffer, BytesPerSector);
+   auto bufferAligned = ROUND_UP_PTR(buffer, bytesPerSector);
 
-   // Add code using BufferAligned here.
- 
-
-cleanup:
-
-   if ( Buffer ) 
-   {
-      // Replace with corresponding free routine.
-      free(Buffer);
-   }
-
+   // ... Add code using bufferAligned here.
+   
+   // Replace with corresponding free routine.
+   delete buffer;
 }
 
 ```
