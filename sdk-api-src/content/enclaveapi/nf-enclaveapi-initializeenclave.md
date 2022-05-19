@@ -80,7 +80,7 @@ The length of the structure that the _lpEnclaveInformation_ parameter points to,
 
 An optional pointer to  a variable that receives an enclave error code that is architecture-specific.
 
-For the **ENCLAVE_TYPE_SGX** and **ENCLAVE_TYPE_SGX2** enclave types, the _lpEnclaveError_ parameter contains the error that the EINIT instruction generated if the function fails and .[GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns **ERROR_ENCLAVE_FAILURE**.
+For the **ENCLAVE_TYPE_SGX** and **ENCLAVE_TYPE_SGX2** enclave types, the _lpEnclaveError_ parameter contains the error that the EINIT instruction generated if the function fails and [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns **ERROR_ENCLAVE_FAILURE**.
 
 For the **ENCLAVE_TYPE_VBS** enclave type, the _lpEnclaveError_ parameter  is not used.
 
