@@ -54,7 +54,7 @@ Supplies a handle to the target policy.
 
 ### -param callback
 
-A callback to be called for all notifications for this activity.
+Supplies the callback to be executed for all coordination notifications from this subscription.
 
 ### -param callbackContext
 
@@ -70,7 +70,7 @@ Returns an **HRESULT**.
 
 ## -remarks
 
->**Note** Do not perform your primary workload in this callback, since it will block delivery of future policy notifications for this subscription. This callback should be used to coordinate the starting and stopping of your workload in response to RUN/STOP notifications from the API.
+>**Note** Do not perform your activity in this callback, since it will block delivery of future policy notifications for this subscription. This callback should be used to coordinate the starting and stopping of your activity in response to RUN/STOP notifications from the API.
 
 >**Note** Do not block this callback for extended periods of time, since it will block [UnsubscribeActivityCoordinatorPolicy](nf-activitycoordinator-unsubscribeactivitycoordinatorpolicy.md) and may contribute to thread pool exhaustion.
 
