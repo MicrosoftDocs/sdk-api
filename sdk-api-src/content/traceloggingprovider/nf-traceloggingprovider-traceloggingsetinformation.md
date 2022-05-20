@@ -4,42 +4,43 @@ title: TraceLoggingSetInformation
 ms.date: 5/7/2019
 ms.keywords: TraceLoggingSetInformation
 targetos: Windows
-req.assembly: 
+req.assembly:
 req.construct-type: function
-req.ddi-compliance: 
-req.dll: 
+req.ddi-compliance:
+req.dll:
 req.header: traceloggingprovider.h
-req.idl: 
-req.include-header: 
-req.irql: 
-req.kmdf-ver: 
-req.lib: 
-req.max-support: 
-req.namespace: 
-req.redist: 
+req.idl:
+req.include-header:
+req.irql:
+req.kmdf-ver:
+req.lib:
+req.max-support:
+req.namespace:
+req.redist:
 req.target-min-winverclnt: Windows 10 Build 20348
 req.target-min-winversvr: Windows 10 Build 20348
-req.target-type: 
-req.type-library: 
-req.umdf-ver: 
-req.unicode-ansi: 
+req.target-type:
+req.type-library:
+req.umdf-ver:
+req.unicode-ansi:
 f1_keywords:
- - TraceLoggingSetInformation
- - traceloggingprovider/TraceLoggingSetInformation
+  - TraceLoggingSetInformation
+  - traceloggingprovider/TraceLoggingSetInformation
 dev_langs:
- - c++
+  - c++
 topic_type:
- - apiref
+  - apiref
 api_type:
 api_location:
- - traceloggingprovider.h
+  - traceloggingprovider.h
 api_name:
- - TraceLoggingSetInformation
+  - TraceLoggingSetInformation
 ---
 
 ## -description
 
-Provides special-purpose information to the Event Tracing for Windows (ETW) runtime.
+Provides special-purpose information to the Event Tracing for Windows (ETW)
+runtime.
 
 ## -parameters
 
@@ -61,14 +62,18 @@ The size of the input buffer.
 
 ## -returns
 
-If you call this function from user mode code, the function returns a HRESULT. Use the SUCCEEDED() macro to determine if the function succeeds.
+If you call this function from user mode code, the function returns a HRESULT.
+Use the SUCCEEDED() macro to determine if the function succeeds.
 
-If you call this function from kernel mode code, the function returns a NTSTATUS. Use the NT\_SUCCESS() macro to determine if the function succeeds.
+If you call this function from kernel mode code, the function returns a
+NTSTATUS. Use the NT_SUCCESS() macro to determine if the function succeeds.
 
 ## -remarks
 
-This function serves as a wrapper around the [**EventSetInformation**](../evntprov/nf-evntprov-eventsetinformation.md) function.
+This function serves as a wrapper around the
+[EventSetInformation](../evntprov/nf-evntprov-eventsetinformation.md) function.
 
-To control the behavior of this function, use macros TLG\_EVENT\_SET\_INFORMATION and TLG\_HAVE\_EVENT\_SET\_INFORMATION.
+To control the behavior of this function, use macros `TLG_EVENT_SET_INFORMATION`
+and `TLG_HAVE_EVENT_SET_INFORMATION`.
 
 ## -see-also

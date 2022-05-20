@@ -154,7 +154,8 @@ ID for all events written by **EventWrite** and for all events written by
 **EventWriteTransfer** or **EventWriteEx** where the _ActivityId_ parameter is
 **NULL**.
 
-> **Important:** A function that alters a thread's activity ID should be careful
+> [!Important]
+> A function that alters a thread's activity ID should be careful
 > to restore the original activity ID before exiting. Otherwise, the function's
 > activity ID will interfere with the activities of components that call the
 > function.
