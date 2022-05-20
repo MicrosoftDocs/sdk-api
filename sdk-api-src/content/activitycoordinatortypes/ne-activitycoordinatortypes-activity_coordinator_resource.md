@@ -39,33 +39,33 @@ helpviewer_keywords:
 
 ## -description
 
-An enumeration of the set of supported resources. While the spirit of each resource will remain consistent, the implementation details may change from release to release.
+An enumeration of the set of supported resources.
 
 ## -enum-fields
 
 ### -field ACTIVITY_COORDINATOR_RESOURCE_USER_IDLE
 
-Represents how actively the user is engaged with the device, and hence how likely activity is to interfere with that use. Includes, but isn’t limited to, settings such as game mode, user interactivity, etc.
+Represents how actively the user is engaged with the device, and hence how likely activity is to interfere with that use.
 
 ### -field ACTIVITY_COORDINATOR_RESOURCE_POWER
 
-Represents the current power state of the machine. Includes, but isn’t limited to, battery charge, charging state, thermal constraints, etc.
+Represents the current energy state of the system.
 
 ### -field ACTIVITY_COORDINATOR_RESOURCE_NETWORK
 
-Represents the quality and availability of network connectivity. Includes, but isn’t limited to, internet availability, non-metered network, etc.
+Represents the current network state of the system.
 
 ### -field ACTIVITY_COORDINATOR_RESOURCE_CPU
 
-Represents CPU availability. Includes CPU utilization, but may also include thermal CPU throttling, etc.
+Represents the current CPU state of the system.
 
 ### -field ACTIVITY_COORDINATOR_RESOURCE_MEMORY
 
-Represents Memory availability. Includes Memory utilization, and may include factors like commit charge.
+Represents the current memory state of the system.
 
 ### -field ACTIVITY_COORDINATOR_RESOURCE_SYSTEM_DISK
 
-Represents system-disk bandwidth availability. Includes drive utilization.
+Represents the current system-disk state of the system.
 
 System-disk refers to the drive where the operating system is installed.
 
