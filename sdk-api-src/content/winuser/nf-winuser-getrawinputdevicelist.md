@@ -72,6 +72,7 @@ An array of <a href="/windows/desktop/api/winuser/ns-winuser-rawinputdevicelist"
 Type: <b>PUINT</b>
 
 If <i>pRawInputDeviceList</i> is <b>NULL</b>, the function populates this variable with the number of devices attached to the system; otherwise, this variable specifies the number of <a href="/windows/desktop/api/winuser/ns-winuser-rawinputdevicelist">RAWINPUTDEVICELIST</a> structures that can be contained in the buffer to which <i>pRawInputDeviceList</i> points. If this value is less than the number of devices attached to the system, the function returns the actual number of devices in this variable and fails with <b>ERROR_INSUFFICIENT_BUFFER</b>.
+If this value is greater than or equal to the number of devices attached to the system, then the value is unchanged, and the number of devices is reported as the return value.
 
 ### -param cbSize [in]
 
@@ -100,27 +101,23 @@ To get more detailed information about the attached devices, call <a href="/wind
 
 The following sample code shows a typical call to <b>GetRawInputDeviceList</b>:
 
-
 ```cpp
-UINT nDevices, nStored, i;
-PRAWINPUTDEVICELIST pRawInputDeviceList;
-if (GetRawInputDeviceList(NULL, &nDevices, sizeof(RAWINPUTDEVICELIST)) != 0) { Error(); }
-
-// The list of devices can change between calls to GetRawInputDeviceList,
-// so call it again if the function returns ERROR_INSUFFICIENT_BUFFER
-do
-{
-    if ((pRawInputDeviceList = realloc(sizeof(RAWINPUTDEVICELIST) * nDevices)) == NULL) { Error(); }
-    nStored = GetRawInputDeviceList(pRawInputDeviceList, &nDevices, sizeof(RAWINPUTDEVICELIST));
-} while (nStored == (UINT)-1 && GetLastError() == ERROR_INSUFFICIENT_BUFFER);
-
-if (nStored == (UINT)-1) { Error(); }
-
-for (i = 0; i < nStored; ++i)
-{
-    // do the job with each pRawInputDeviceList[i] element...
+UINT nDevices;
+PRAWINPUTDEVICELIST pRawInputDeviceList = NULL;
+while (true) {
+    if (GetRawInputDeviceList(NULL, &nDevices, sizeof(RAWINPUTDEVICELIST)) != 0) { Error();}
+    if (nDevices == 0) { break; }
+    if ((pRawInputDeviceList = malloc(sizeof(RAWINPUTDEVICELIST) * nDevices)) == NULL) {Error();}
+    nDevices = GetRawInputDeviceList(pRawInputDeviceList, &nDevices, sizeof(RAWINPUTDEVICELIST));
+    if (nDevices == (UINT)-1) {
+        if (GetLastError() != ERROR_INSUFFICIENT_BUFFER) { Error(); }
+        // Devices were added.
+        free(pRawInputDeviceList);
+        continue;
+    }
+    break;
 }
-
+// do the job...
 // after the job, free the RAWINPUTDEVICELIST
 free(pRawInputDeviceList);
 ```
