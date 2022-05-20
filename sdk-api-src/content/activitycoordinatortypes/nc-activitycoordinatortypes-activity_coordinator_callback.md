@@ -44,17 +44,17 @@ helpviewer_keywords:
 
 ## -description
 
-A callback to be called for all notifications for an activity subscription.
+A callback for all notifications from a subscription that are used to coordinate execution of an activity.
 
 ## -parameters
 
 ### -param notification
 
-Specifies the type of notification for the subscription callback, indicating if the activity should stop or run.
+The notification type indicating if the activity should stop or run. This is used to coordinate execution of an activity that wants to run while the policy conditions are satisfied.
 
 ### -param callbackContext
 
-Provides the context that was given when subscribing to the activity.
+Provides the context that was given when creating the subscription.
 
 ## -remarks
 

@@ -39,7 +39,7 @@ helpviewer_keywords:
 
 ## -description
 
-An enumeration of the set of supported template policies. The configuration for a given template is an internal implementation detail and is subject to change. However, any changes will be carefully considered and would not include changes with the potential to cause significant impact, such as adding major resources like GPU to templates they were previously excluded from. Most changes can be expected to be the careful inclusion of new resource types.
+An enumeration of the set of supported template policies. Template configurations may be updated to include conditions for new resource types in the future. While these templates cover the needs of most activities, developers should customize their policies where needed to ensure that all resources are configured appropriately for their activity.
 
 ## -enum-fields
 
@@ -47,19 +47,19 @@ An enumeration of the set of supported template policies. The configuration for 
 
 This template policy represents an overall good state of the system and a good time to run an activity, but is not necessarily limited to only good conditions for resources.
 
-Activities that run using this policy minimize the likelihood of interference with other programs and user scenarios. Includes, but is not limited to resources such as user-idle, power, CPU, memory, and system disk, but does not consider network or GPU.
+Activities that run using this policy as configured are highly unlikely to interfere with most user experiences and system performance as long as unconfigured resources are not consumed.
 
 ### -field ACTIVITY_COORDINATOR_POLICY_TEMPLATE_MEDIUM
 
 This template policy represents an overall moderate state of the system and a moderate time to run an activity, but is not necessarily limited to only medium conditions for resources.
 
-Activities that run using this policy have a moderate likelihood of interference with other programs and user scenarios. Includes, but is not limited to resources such as user-idle, power, CPU, memory, and system disk. It does not consider network or GPU.
+Activities that run using this policy as configured may interfere with user experiences and system performance, but will not critically degrade them as long as unconfigured resources are not consumed.
 
-The resource conditions for this template configuration are more likely to be satisfied than the GOOD template, but the potential to impact other applications is also greater.
+The resource conditions for this template configuration are more likely to be satisfied than the GOOD template, but the potential to impact user-experiences and system performance is also greater.
 
 ### -field ACTIVITY_COORDINATOR_POLICY_TEMPLATE_BASE
 
-This template represents the minimum recommended resource conditions: good user-idle and power with medium CPU, memory, and system disk.
+This template represents the minimum recommended resource conditions. This helps ensure that, at a minimum, activities do not critically degrade most user experiences and system performance for the most common resources needed by all activities.
 
 ### -field ACTIVITY_COORDINATOR_POLICY_TEMPLATE_EMPTY
 

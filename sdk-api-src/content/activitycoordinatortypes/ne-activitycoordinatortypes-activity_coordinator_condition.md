@@ -47,19 +47,19 @@ An enumeration of the set of supported conditions.
 
 The condition of the resource is good.
 
-Increases in use are unlikely to interfere with other work or the resource is highly available.
+Background activities consuming a resource in this condition are highly unlikely to interfere with user experiences dependent on this resource.Increases in use are unlikely to interfere with other work or the resource is highly available.
 
 ### -field ACTIVITY_COORDINATOR_CONDITION_MEDIUM
 
 The condition of the resource is acceptable.
 
-Increases in use may interfere with other work or the availability may be subject to constraints. Depending on the use, consumption of the resource may or may not be acceptable. Consuming a resource in medium condition can potentially cause modest impact on other applications leveraging the same resource for high-priority work
+Background activities consuming a resource in this condition may interfere with user experiences and/or system performance, but will not critically degrade them.
 
 ### -field ACTIVITY_COORDINATOR_CONDITION_NOT_SET
 
 The condition of the resource is not monitored.
 
-Policies should only use this condition for resources **not** consumed by their associated activities. Consuming a resource whose condition is not monitored can potentially cause a proportionally bad impact on other applications leveraging the same resource for high-priority work. It may also have unintended consequences, such as consuming network on a metered connection (potential financial cost to the user) or running in a low battery state (reduced battery life for the user).
+Policies should only use this condition for resources **not** consumed by their associated activities. Consuming a resource whose condition is not monitored can cause severe impact to the user experience and/or system performance, and may critically degrade them. Potential impacts may also not be transitory, such as consuming network on a metered connection (potential financial cost to the user) or running in a low battery state (reduced battery life for the user who may not have charging access).
 
 ## -remarks
 

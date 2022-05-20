@@ -45,11 +45,11 @@ An enumeration of the possible notification types for the subscription callback.
 
 ### -field ACTIVITY_COORDINATOR_NOTIFICATION_RUN
 
-Indicates that it is a good time to do work and therefore, any work that needs to be started or resumed can happen now.
+Indicates that the conditions of the policy are met, and the associated activity can be started or resumed now.
 
 ### -field ACTIVITY_COORDINATOR_NOTIFICATION_STOP
 
-Indicates that it is a bad time to do work and therefore, any work that is running should be stopped now.
+Indicates that the conditions of the policy are **not** met, and the associated activity should be stopped or paused now.
 
 ## -remarks
 
