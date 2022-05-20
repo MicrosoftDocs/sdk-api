@@ -119,7 +119,7 @@ The name of the file. If a full path is not specified, the function uses the sea
 
 Type: <b>DWORD</b>
 
-This parameter is ignored.
+This parameter is reserved, and expected to be zero (0).
 
 ### -param dwLen [in]
 
