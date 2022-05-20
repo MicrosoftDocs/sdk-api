@@ -62,9 +62,11 @@ Returns an **HRESULT**.
 
 ## -remarks
 
-The caller should subscribe to notifications for the policy opening and closing using [SubscribeActivityCoordinatorPolicy](nf-activitycoordinator-subscribeactivitycoordinatorpolicy.md). Subscriptions listen with an immutable copy of the policy with which they were created. This allows the original policy to be safely modified and re-used to create further subscriptions without altering the previous ones. When no longer needed, the caller should destroy the policy using [DestroyActivityCoordinatorPolicy](nf-activitycoordinator-destroyactivitycoordinatorpolicy.md).
+The caller should subscribe to the policy to receive coordination notifications using [SubscribeActivityCoordinatorPolicy](nf-activitycoordinator-subscribeactivitycoordinatorpolicy.md). When no longer needed, the caller should destroy the policy using [DestroyActivityCoordinatorPolicy](nf-activitycoordinator-destroyactivitycoordinatorpolicy.md).
 
 ## -see-also
+
+[GetActivityCoordinatorPolicyResourceCondition](nf-activitycoordinator-getactivitycoordinatorpolicyresourcecondition.md)
 
 [SetActivityCoordinatorPolicyResourceCondition](nf-activitycoordinator-setactivitycoordinatorpolicyresourcecondition.md)
 

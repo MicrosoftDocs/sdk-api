@@ -53,11 +53,6 @@ Indicates that the conditions of the policy are **not** met, and the associated 
 
 ## -remarks
 
-|Policy|Indication|
-|-|-|
-|**ACTIVITY_COORDINATOR_NOTIFICATION_RUN**|Indicates that the policy is open (it’s resource conditions are satisfied), and the activity should execute.|
-|**ACTIVITY_COORDINATOR_NOTIFICATION_STOP**|Indicates that the policy is closed, and the activity should pause execution.|
-
 ## -see-also
 
 [ACTIVITY_COORDINATOR_CALLBACK](../activitycoordinatortypes/nc-activitycoordinatortypes-activity_coordinator_callback.md)

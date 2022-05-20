@@ -58,7 +58,7 @@ Supplies the callback to be executed for all coordination notifications from thi
 
 ### -param callbackContext
 
-The context to be passed to callback routine.
+Supplies the context to be passed to callback routine.
 
 ### -param subscription
 
@@ -81,3 +81,5 @@ Returns an **HRESULT**.
 [UnsubscribeActivityCoordinatorPolicy](nf-activitycoordinator-unsubscribeactivitycoordinatorpolicy.md)
 
 [ACTIVITY_COORDINATOR_CALLBACK](../activitycoordinatortypes/nc-activitycoordinatortypes-activity_coordinator_callback.md)
+
+[ACTIVITY_COORDINATOR_NOTIFICATION](../activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_notification.md)

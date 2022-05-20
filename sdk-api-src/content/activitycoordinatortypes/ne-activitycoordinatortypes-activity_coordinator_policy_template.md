@@ -45,13 +45,9 @@ An enumeration of the set of supported template policies. Template configuration
 
 ### -field ACTIVITY_COORDINATOR_POLICY_TEMPLATE_GOOD
 
-This template policy represents an overall good state of the system and a good time to run an activity, but is not necessarily limited to only good conditions for resources.
-
 Activities that run using this policy as configured are highly unlikely to interfere with most user experiences and system performance as long as unconfigured resources are not consumed.
 
 ### -field ACTIVITY_COORDINATOR_POLICY_TEMPLATE_MEDIUM
-
-This template policy represents an overall moderate state of the system and a moderate time to run an activity, but is not necessarily limited to only medium conditions for resources.
 
 Activities that run using this policy as configured may interfere with user experiences and system performance, but will not critically degrade them as long as unconfigured resources are not consumed.
 
