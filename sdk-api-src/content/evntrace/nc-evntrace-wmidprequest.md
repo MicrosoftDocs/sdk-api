@@ -119,7 +119,7 @@ This function is specified using the
 function. When the controller calls the
 [EnableTrace](/windows/desktop/ETW/enabletrace) function to enable, disable, or
 change the enable flags or level, ETW calls this callback. The provider enables
-or disables itself based the _RequestCode_ value. Typically, the provider uses
+or disables itself based on the _RequestCode_ value. Typically, the provider uses
 this value to set a global flag to indicate its enabled state.
 
 The provider defines its interpretation of being enabled or disabled. Generally,
