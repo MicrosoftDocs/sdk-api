@@ -66,7 +66,7 @@ A pointer to the critical section object.
 
 This function does not return a value.
 
-This function can raise <b>EXCEPTION_POSSIBLE_DEADLOCK</b> if a wait operation on the critical section times out. The timeout interval is specified by the following registry value: <b>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager</b>&#92;<b>CriticalSectionTimeout</b>. Do not handle a possible deadlock exception; instead, debug the application.
+This function can raise <b>EXCEPTION_POSSIBLE_DEADLOCK</b>, also known as <b>STATUS_POSSIBLE_DEADLOCK</b>, if a wait operation on the critical section times out. The timeout interval is specified by the following registry value: <b>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager</b>&#92;<b>CriticalSectionTimeout</b>. Do not handle a possible deadlock exception; instead, debug the application.
 
 ## -remarks
 
