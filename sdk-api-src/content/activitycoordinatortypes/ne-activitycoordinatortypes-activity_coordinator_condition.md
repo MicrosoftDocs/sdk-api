@@ -47,7 +47,7 @@ An enumeration of the set of supported conditions.
 
 The condition of the resource is good.
 
-Background activities consuming a resource in this condition are highly unlikely to interfere with user experiences dependent on this resource.Increases in use are unlikely to interfere with other work or the resource is highly available.
+Background activities consuming a resource in this condition are highly unlikely to interfere with user experiences dependent on this resource.
 
 ### -field ACTIVITY_COORDINATOR_CONDITION_MEDIUM
 
