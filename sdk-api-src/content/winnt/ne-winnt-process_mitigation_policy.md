@@ -51,7 +51,6 @@ api_name:
 
 # PROCESS_MITIGATION_POLICY enumeration
 
-
 ## -description
 
 Represents the different process mitigation policies.
@@ -114,7 +113,12 @@ The policy that turns off the ability of the process to load images from some lo
 
 Windows 10, version 2004 and above: The policy regarding user-mode Hardware-enforced Stack Protection for the process.
 
+### -field ProcessRedirectionTrustPolicy
+
+### -field ProcessUserPointerAuthPolicy
+
+### -field ProcessSEHOPPolicy
+
 ### -field MaxProcessMitigationPolicy
 
 Ends the enumeration.
-
