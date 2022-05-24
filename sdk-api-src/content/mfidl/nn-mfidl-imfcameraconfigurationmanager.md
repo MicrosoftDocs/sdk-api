@@ -5,7 +5,7 @@ title: IMFCameraConfigurationManager
 ms.date: 
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

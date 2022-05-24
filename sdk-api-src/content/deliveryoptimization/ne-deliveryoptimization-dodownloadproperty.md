@@ -11,7 +11,7 @@ req.header: deliveryoptimization.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows Insider Preview Build 22621
+req.target-min-winverclnt: Windows 11 Build 22621
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -34,7 +34,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - _DODownloadProperty
-prerelease: true
+prerelease: false
 ---
 
 ## -description

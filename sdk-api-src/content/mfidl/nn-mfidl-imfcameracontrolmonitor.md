@@ -5,7 +5,7 @@ title: IMFCameraControlMonitor
 ms.date: 05/03/2022
 targetos: Windows
 description: Represents a camera control monitor that is used to subscribe and unsubscribe to notifications when the state of a camera control changes.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 
@@ -15,8 +15,8 @@ req.include-header:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows Insider Preview Build 22621
-req.target-min-winversvr: Windows Insider Preview Build 22621
+req.target-min-winverclnt: Windows 11 Build 22621
+req.target-min-winversvr: Windows 11 Build 22621
 req.target-type: 
 req.unicode-ansi: 
 topic_type:

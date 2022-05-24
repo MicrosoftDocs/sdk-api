@@ -5,7 +5,7 @@ title: MF_CAMERA_CONTROL_RANGE_INFO
 ms.date: 05/05/2022
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,8 +15,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows Insider Preview Build 22621
-req.target-min-winversvr: Windows Insider Preview Build 22621
+req.target-min-winverclnt: Windows 11 Build 22621
+req.target-min-winversvr: Windows 11 Build 22621
 req.target-type: 
 req.typenames: MF_CAMERA_CONTROL_RANGE_INFO
 req.umdf-ver: 

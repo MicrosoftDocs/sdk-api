@@ -5,7 +5,7 @@ title: IMFCameraControlMonitor::RemoveControlSubscription
 ms.date: 05/03/2022
 targetos: Windows
 description: Removes a camera control from the list of controls for which IMFCameraControlNotify::OnChange notifications will be raised.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -19,8 +19,8 @@ req.lib: mfsensorgroup.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows Insider Preview Build 22621
-req.target-min-winversvr: Windows Insider Preview Build 22621
+req.target-min-winverclnt: Windows 11 Build 22621
+req.target-min-winversvr: Windows 11 Build 22621
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

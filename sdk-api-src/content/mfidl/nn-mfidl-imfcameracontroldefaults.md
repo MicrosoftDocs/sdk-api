@@ -5,7 +5,7 @@ title: IMFCameraControlDefaults
 ms.date: 05/06/2022
 targetos: Windows
 description: Provides methods for specifying camera control default values. 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

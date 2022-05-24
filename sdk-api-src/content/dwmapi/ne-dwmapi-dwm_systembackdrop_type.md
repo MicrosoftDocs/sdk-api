@@ -8,7 +8,7 @@ req.construct-type: enumeration
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Insider Preview Build 22621
+req.target-min-winverclnt: Windows 11 Build 22621
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -41,7 +41,7 @@ f1_keywords:
  - dwmapi/DWM_SYSTEMBACKDROP_TYPE
 helpviewer_keywords:
  - DWM_SYSTEMBACKDROP_TYPE
-prerelease: true
+prerelease: false
 ---
 
 ## -description

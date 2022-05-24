@@ -5,7 +5,7 @@ title: SetAdditionalForegroundBoostProcesses
 ms.date: 04/27/2022
 targetos: Windows
 description: SetAdditionalForegroundBoostProcesses is a performance assist API to help applications with a multi-process application model where multiple processes contribute to a foreground experience, either as data or rendering.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -19,7 +19,7 @@ req.lib: User32.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows Insider Preview Build 22621
+req.target-min-winverclnt: Windows 11 Build 22621
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 

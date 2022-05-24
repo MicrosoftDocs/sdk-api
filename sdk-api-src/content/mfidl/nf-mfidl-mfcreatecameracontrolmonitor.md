@@ -5,7 +5,7 @@ title: MFCreateCameraControlMonitor
 ms.date: 05/03/2022
 targetos: Windows
 description: Creates an instance of IMFCameraControlMonitor.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -8,7 +8,7 @@ req.construct-type: iface
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Insider Preview Build 22621
+req.target-min-winverclnt: Windows 11 Build 22621
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,7 +40,7 @@ api_name:
  - INetwork2
 helpviewer_keywords:
  - INetwork2
-prerelease: true
+prerelease: false
 ---
 
 ## -description

@@ -14,7 +14,7 @@ req.include-header:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows Insider Preview Build 22621
+req.target-min-winverclnt: Windows 11 Build 22621
 req.target-min-winversvr: 
 req.target-type: 
 req.unicode-ansi: 
@@ -33,7 +33,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - IDODownload
-prerelease: true
+prerelease: false
 ---
 
 ## -description

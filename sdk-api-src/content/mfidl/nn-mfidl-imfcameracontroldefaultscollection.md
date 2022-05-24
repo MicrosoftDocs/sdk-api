@@ -5,7 +5,7 @@ title: IMFCameraControlDefaultsCollection
 ms.date: 05/06/2022
 targetos: Windows
 description: Represents a collection of camera controls.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

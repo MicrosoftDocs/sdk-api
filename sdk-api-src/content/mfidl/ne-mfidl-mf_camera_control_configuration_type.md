@@ -5,15 +5,15 @@ title: MF_CAMERA_CONTROL_CONFIGURATION_TYPE
 ms.date: 05/05/2022
 targetos: Windows
 description: Specifies the configuration type of a camera control.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: mfidl.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows Insider Preview Build 22621
-req.target-min-winversvr: Windows Insider Preview Build 22621
+req.target-min-winverclnt: Windows 11 Build 22621
+req.target-min-winversvr: Windows 11 Build 22621
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
