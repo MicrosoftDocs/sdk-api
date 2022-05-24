@@ -6,7 +6,7 @@ helpviewer_keywords: ["MEM_COMMIT","MEM_LARGE_PAGES","MEM_PHYSICAL","MEM_RESERVE
 old-location: base\virtualallocex.htm
 tech.root: base
 ms.assetid: ff0b6b79-40f5-499c-b797-b66797654164
-ms.date: 12/05/2018
+ms.date: 5/18/2022
 ms.keywords: MEM_COMMIT, MEM_LARGE_PAGES, MEM_PHYSICAL, MEM_RESERVE, MEM_RESET, MEM_RESET_UNDO, MEM_TOP_DOWN, VirtualAllocEx, VirtualAllocEx function, _win32_virtualallocex, base.virtualallocex, winbase/VirtualAllocEx
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -90,7 +90,7 @@ If <i>lpAddress</i> is <b>NULL</b>, the function determines where to
 
 If this address is within an enclave that you have not initialized by calling <a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a>, <b>VirtualAllocEx</b> allocates a page of zeros for the enclave at that address. The page must be previously uncommitted, and will not be measured with the EEXTEND instruction of the Intel Software Guard Extensions programming model. 
 
-If the address in within an enclave that you initialized, then the allocation operation fails with the <b>ERROR_INVALID_ADDRESS</b> error.
+If the address in within an enclave that you initialized, then the allocation operation fails with the <b>ERROR_INVALID_ADDRESS</b> error. That is true for enclaves that do not support dynamic memory management (i.e. SGX1).  SGX2 enclaves will permit allocation, and the page must be accepted by the enclave after it has been allocated.
 
 ### -param dwSize [in]
 
@@ -262,8 +262,7 @@ This value must be used with <b>MEM_RESERVE</b> and no other values.
 </dl>
 </td>
 <td width="60%">
-Allocates memory at the highest possible address. This can be slower than regular allocations, especially 
-        when there are many allocations.
+Allocates memory at the highest possible address. This can be slower than regular allocations, especially when there are many allocations.
 
 </td>
 </tr>
@@ -271,18 +270,16 @@ Allocates memory at the highest possible address. This can be slower than regula
 
 ### -param flProtect [in]
 
-The memory protection for the region of pages to be allocated. If the pages are being committed, you can 
-      specify any one of the 
-      <a href="/windows/desktop/Memory/memory-protection-constants">memory protection constants</a>.
+The memory protection for the region of pages to be allocated. If the pages are being committed, you can specify any one of the [memory protection constants](/windows/win32/Memory/memory-protection-constants).
 
-If <i>lpAddress</i> specifies an address within an enclave, <i>flProtect</i> cannot be any of the following values:
+If _lpAddress_ specifies an address within an enclave, _flProtect_ cannot be any of the following values:
 
-<ul>
-<li>PAGE_NOACCESS</li>
-<li>PAGE_GUARD</li>
-<li>PAGE_NOCACHE</li>
-<li>PAGE_WRITECOMBINE</li>
-</ul>
+- PAGE_NOACCESS
+- PAGE_GUARD
+- PAGE_NOCACHE
+- PAGE_WRITECOMBINE
+
+When allocating dynamic memory for an enclave, the _flProtect_ parameter must be **PAGE_READWRITE** or **PAGE_EXECUTE_READWRITE**.
 
 ## -returns
 
@@ -345,34 +342,18 @@ When creating a region that will be executable, the calling program bears respon
 
 <a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
-
-
 <a href="/windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory">ReadProcessMemory</a>
-
-
 
 <a href="/windows/desktop/Memory/virtual-memory-functions">Virtual Memory Functions</a>
 
-
-
 <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocexnuma">VirtualAllocExNuma</a>
-
-
 
 <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a>
 
-
-
 <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a>
-
-
 
 <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualprotect">VirtualProtect</a>
 
-
-
 <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a>
-
-
 
 <a href="/windows/desktop/api/memoryapi/nf-memoryapi-writeprocessmemory">WriteProcessMemory</a>

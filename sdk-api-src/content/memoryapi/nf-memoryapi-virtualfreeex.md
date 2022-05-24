@@ -6,7 +6,7 @@ helpviewer_keywords: ["MEM_COALESCE_PLACEHOLDERS","MEM_DECOMMIT","MEM_PRESERVE_P
 old-location: base\virtualfreeex.htm
 tech.root: base
 ms.assetid: 2e5c862c-1251-49da-9c3a-90b09e488d89
-ms.date: 12/05/2018
+ms.date: 5/18/2022
 ms.keywords: MEM_COALESCE_PLACEHOLDERS, MEM_DECOMMIT, MEM_PRESERVE_PLACEHOLDER, MEM_RELEASE, VirtualFreeEx, VirtualFreeEx function, _win32_virtualfreeex, base.virtualfreeex, winbase/VirtualFreeEx
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -64,20 +64,13 @@ Releases, decommits, or releases and decommits a region of memory within the vir
 
 ### -param hProcess [in]
 
-A handle to a process. The function frees memory within the virtual address space of the process. 
+A handle to a process. The function frees memory within the virtual address space of the process.
 
-
-
-
-The handle must have the <b>PROCESS_VM_OPERATION</b> access right. For more information, see 
-<a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+The handle must have the <b>PROCESS_VM_OPERATION</b> access right. For more information, see <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 ### -param lpAddress [in]
 
 A pointer to the starting address of the region of memory to be freed. 
-
-
-
 
 If the <i>dwFreeType</i> parameter is <b>MEM_RELEASE</b>, <i>lpAddress</i> must be the base address returned by the 
 <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocex">VirtualAllocEx</a> function when the region is reserved.
@@ -112,11 +105,11 @@ The type of free operation. This parameter must be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Decommits the specified region of committed pages. After the operation, the pages are in the reserved state. 
+Decommits the specified region of committed pages. After the operation, the pages are in the reserved state.
 
 The function does not fail if you attempt to decommit an uncommitted page. This means that you can decommit a range of pages without first determining the current commitment state.
 
-The <b>MEM_DECOMMIT</b> value is not supported when the <i>lpAddress</i> parameter provides the base address for an enclave.
+The <b>MEM_DECOMMIT</b> value is not supported when the <i>lpAddress</i> parameter provides the base address for an enclave. This is true for enclaves that do not support dynamic memory management (i.e. SGX1). SGX2 enclaves permit MEM_DECOMMIT anywhere in the enclave.
 
 </td>
 </tr>
@@ -157,7 +150,7 @@ When using <b>MEM_RELEASE</b>, this parameter can additionally specify one of th
 </dl>
 </td>
 <td width="60%">
-To coalesce two adjacent placeholders, specify <code>MEM_RELEASE | MEM_COALESCE_PLACEHOLDERS</code>. When you coalesce placeholders, <i>lpAddress</i> and <i>dwSize</i> must exactly match those of the placeholder.
+To coalesce two adjacent placeholders, specify <code>MEM_RELEASE | MEM_COALESCE_PLACEHOLDERS</code>. When you coalesce placeholders, <i>lpAddress</i> and <i>dwSize</i> must exactly match the overall range of the placeholders to be merged.
 
 </td>
 </tr>
@@ -193,33 +186,24 @@ If a page is decommitted but not released, its state changes to reserved. Subseq
 <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocex">VirtualAllocEx</a> to commit it, or 
 <b>VirtualFreeEx</b> to release it. Attempting to read from or write to a reserved page results in an access violation exception.
 
-The 
-<b>VirtualFreeEx</b> function can release a range of pages that are in different states, some reserved and some committed. This means that you can release a range of pages without first determining the current commitment state of each page. The entire range of pages originally reserved by 
-<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocex">VirtualAllocEx</a> must be released at the same time.
+The **VirtualFreeEx** function can release a range of pages that are in different states, some reserved and some committed. This means that you can release a range of pages without first determining the current commitment state of each page. The entire range of pages originally reserved by [VirtualAllocEx](nf-memoryapi-virtualallocex.md) must be released at the same time.
 
 If a page is released, its state changes to free, and it is available for subsequent allocation operations. After memory is released or decommitted, you can never refer to the memory again. Any information that may have been in that memory is gone forever. Attempts to read from or write to a free page results in an access violation exception. If you need to keep information, do not decommit or free memory that  contains the information.
 
-The 
-<b>VirtualFreeEx</b> function can be used on an AWE region of memory and it invalidates any physical page mappings in the region when freeing the address space. However, the physical pages are not deleted, and the application can use them. The application must explicitly call 
-<a href="/windows/desktop/api/memoryapi/nf-memoryapi-freeuserphysicalpages">FreeUserPhysicalPages</a> to free the physical pages. When the  process is terminated, all resources are automatically cleaned up.
+The **VirtualFreeEx** function can be used on an AWE region of memory and it invalidates any physical page mappings in the region when freeing the address space. However, the physical pages are not deleted, and the application can use them. The application must explicitly call [FreeUserPhysicalPages](nf-memoryapi-freeuserphysicalpages.md) to free the physical pages. When the  process is terminated, all resources are automatically cleaned up.
 
-To delete an enclave when you finish using it, specify the following values:
+**Windows 10, version 1709 and later and Windows 11:** To delete the enclave when you finish using it, call [DeleteEnclave](../enclaveapi/nf-enclaveapi-deleteenclave.md). You cannot delete a VBS enclave by calling the [VirtualFree](nf-memoryapi-virtualfree.md) or **VirtualFreeEx** function. You can still delete an SGX enclave by calling **VirtualFree** or **VirtualFreeEx**.
 
-<ul>
-<li>The base address of the enclave for the <i>lpAddress</i> parameter.</li>
-<li>0 for the <i>dwSize</i> parameter.</li>
-<li><b>MEM_RELEASE</b> for the <i>dwFreeType</i> parameter. The <b>MEM_DECOMMIT</b> value is not supported for enclaves.</li>
-</ul>
+**Windows 10, version 1507, Windows 10, version 1511, Windows 10, version 1607 and Windows 10, version 1703:** To delete the enclave when you finish using it, call the [VirtualFree](nf-memoryapi-virtualfree.md) or **VirtualFreeEx** function and specify the following values:
+
+- The base address of the enclave for the _lpAddress_ parameter.
+- 0 for the _dwSize_ parameter.
+- **MEM_RELEASE** for the _dwFreeType_ parameter.
 
 ## -see-also
 
-<a href="/windows/desktop/Memory/memory-management-functions">Memory
-    Management Functions</a>
+[Memory Management Functions](/windows/win32/Memory/memory-management-functions)
 
+[Virtual Memory Functions](/windows/win32/Memory/virtual-memory-functions)
 
-
-<a href="/windows/desktop/Memory/virtual-memory-functions">Virtual Memory Functions</a>
-
-
-
-<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocex">VirtualAllocEx</a>
+[VirtualAllocEx](nf-memoryapi-virtualallocex.md)

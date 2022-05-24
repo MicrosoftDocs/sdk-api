@@ -46,9 +46,6 @@ api_name:
  - setsockopt
 ---
 
-# setsockopt function
-
-
 ## -description
 
 The 
@@ -319,23 +316,8 @@ For more complete and detailed information about socket options for <i>level</i>
 
 <i>level</i> = <b>IPPROTO_TCP</b>
 
-<table>
-<tr>
-<th>Value</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>TCP_NODELAY</td>
-<td>BOOL</td>
-<td>Disables the Nagle algorithm for send coalescing.This socket option is included for backward compatibility with Windows Sockets 1.1
+See **TCP_NODELAY** in [IPPROTO_TCP socket options](/windows/desktop/WinSock/ipproto-tcp-socket-options). Also see that topic for more complete and detailed information about socket options for <i>level</i> = <b>IPPROTO_TCP</b>.
 
-</td>
-</tr>
-</table>
- 
-
-For more complete and detailed information about socket options for <i>level</i> = <b>IPPROTO_TCP</b>, see <a href="/windows/desktop/WinSock/ipproto-tcp-socket-options">IPPROTO_TCP Socket Options</a>.
 
 <i>level</i> = <b>NSPROTO_IPX</b>
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["DWMWA_ALLOW_NCPAINT","DWMWA_CAPTION_BUTTON_BOUNDS","DWMWA
 old-location: dwm\dwmwindowattribute.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\enums\dwmwindowattribute.htm
-ms.date: 05/30/2019
+ms.date: 05/13/2022
 ms.keywords: DWMWA_ALLOW_NCPAINT, DWMWA_CAPTION_BUTTON_BOUNDS, DWMWA_CLOAK, DWMWA_CLOAKED, DWMWA_DISALLOW_PEEK, DWMWA_EXCLUDED_FROM_PEEK, DWMWA_EXTENDED_FRAME_BOUNDS, DWMWA_FLIP3D_POLICY, DWMWA_FORCE_ICONIC_REPRESENTATION, DWMWA_FREEZE_REPRESENTATION, DWMWA_HAS_ICONIC_BITMAP, DWMWA_LAST, DWMWA_NCRENDERING_ENABLED, DWMWA_NCRENDERING_POLICY, DWMWA_NONCLIENT_RTL_LAYOUT, DWMWA_TRANSITIONS_FORCEDISABLED, DWMWINDOWATTRIBUTE, DWMWINDOWATTRIBUTE enumeration [Desktop Window Manager], _udwm_dwmwindowattribute, _udwm_dwmwindowattribute_cpp, dwm.dwmwindowattribute, dwmapi/DWMWA_ALLOW_NCPAINT, dwmapi/DWMWA_CAPTION_BUTTON_BOUNDS, dwmapi/DWMWA_CLOAK, dwmapi/DWMWA_CLOAKED, dwmapi/DWMWA_DISALLOW_PEEK, dwmapi/DWMWA_EXCLUDED_FROM_PEEK, dwmapi/DWMWA_EXTENDED_FRAME_BOUNDS, dwmapi/DWMWA_FLIP3D_POLICY, dwmapi/DWMWA_FORCE_ICONIC_REPRESENTATION, dwmapi/DWMWA_FREEZE_REPRESENTATION, dwmapi/DWMWA_HAS_ICONIC_BITMAP, dwmapi/DWMWA_LAST, dwmapi/DWMWA_NCRENDERING_ENABLED, dwmapi/DWMWA_NCRENDERING_POLICY, dwmapi/DWMWA_NONCLIENT_RTL_LAYOUT, dwmapi/DWMWA_TRANSITIONS_FORCEDISABLED, dwmapi/DWMWINDOWATTRIBUTE, winui._udwm_dwmwindowattribute
 req.header: dwmapi.h
 req.include-header: 
@@ -43,6 +43,7 @@ api_location:
  - Dwmapi.h
 api_name:
  - DWMWINDOWATTRIBUTE
+prerelease: true
 ---
 
 ## -description
@@ -172,6 +173,14 @@ This value is supported starting with Windows 11 Build 22000.
 Use with [DwmGetWindowAttribute](/windows/win32/api/dwmapi/nf-dwmapi-dwmgetwindowattribute). Retrieves the width of the outer border that the DWM would draw around this window. The value can vary depending on the DPI of the window. The <i>pvAttribute</i> parameter points to a value of type **UINT**. 
 
 This value is supported starting with Windows 11 Build 22000.
+
+### -field DWMWA_SYSTEMBACKDROP_TYPE
+
+**IMPORTANT**. This value is available in pre-release versions of the [Windows Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
+
+Use with [DwmGetWindowAttribute](/windows/win32/api/dwmapi/nf-dwmapi-dwmgetwindowattribute) or [DwmSetWindowAttribute](/windows/win32/api/dwmapi/nf-dwmapi-dwmsetwindowattribute). Retrieves or specifies the system-drawn backdrop material of a window, including behind the non-client area. The *pvAttribute* parameter points to a value of type [DWM_SYSTEMBACKDROP_TYPE](ne-dwmapi-dwm_systembackdrop_type.md). 
+
+This value is supported starting with Windows Insider Preview Build 22621.
 
 ### -field DWMWA_LAST
 
