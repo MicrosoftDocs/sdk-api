@@ -64,7 +64,6 @@ api_name:
 
 # GetStartupInfoW function
 
-
 ## -description
 
 Retrieves the contents of the 
@@ -77,16 +76,9 @@ Retrieves the contents of the
 A pointer to a 
 <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure that receives the startup information.
 
-## -returns
-
-This function does not return a value.
-
-If an error occurs, the ANSI version of this function (<b>GetStartupInfoA</b>) can raise an exception. The Unicode version (<b>GetStartupInfoW</b>) does not fail.
-
 ## -remarks
 
-The 
-<a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure was specified by the process that created the calling process. It can be used to specify properties associated with the main window of the calling process.
+The <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure was specified by the process that created the calling process. It can be used to specify properties associated with the main window of the calling process.
 
 ## -see-also
 
