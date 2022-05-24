@@ -6,7 +6,7 @@ helpviewer_keywords: ["ProcessASLRPolicy","ProcessControlFlowGuardPolicy","Proce
 old-location: base\setprocessmitigationpolicy.htm
 tech.root: backup
 ms.assetid: 57f364f8-58d7-447a-91c3-51fc1fe1a481
-ms.date: 12/05/2018
+ms.date: 05/24/2022
 ms.keywords: ProcessASLRPolicy, ProcessControlFlowGuardPolicy, ProcessDEPPolicy, ProcessDynamicCodePolicy, ProcessExtensionPointDisablePolicy, ProcessFontDisablePolicy, ProcessImageLoadPolicy, ProcessMitigationOptionsMask, ProcessSignaturePolicy, ProcessStrictHandleCheckPolicy, ProcessSystemCallDisablePolicy, ProcessUserShadowStackPolicy, SetProcessMitigationPolicy, SetProcessMitigationPolicy function, base.setprocessmitigationpolicy, processthreadsapi/SetProcessMitigationPolicy
 req.header: processthreadsapi.h
 req.include-header: 
