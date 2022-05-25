@@ -50,7 +50,7 @@ A callback for all notifications from a subscription that are used to coordinate
 
 ### -param notification
 
-The notification type indicating if the activity should stop or run. This is used to coordinate execution of an activity that wants to run while the policy conditions are satisfied.
+An [ACTIVITY_COORDINATOR_NOTIFICATION](ne-activitycoordinatortypes-activity_coordinator_notification.md) indicating whether the activity should stop/pause or start/resume.
 
 ### -param callbackContext
 
