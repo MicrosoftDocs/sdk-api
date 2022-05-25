@@ -1,7 +1,7 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingDescription
 title: TraceLoggingDescription macro (traceloggingprovider.h)
-description: Wrapper macro for setting a description for an event.
+description: TraceLogging wrapper macro that sets the description for the event.
 helpviewer_keywords:
   [
     "TraceLoggingDescription",
@@ -58,7 +58,8 @@ api_name:
 
 ## -description
 
-Wrapper macro for setting a description for an event.
+[TraceLogging wrapper macro](/windows/desktop/tracelogging/tracelogging-wrapper-macros)
+that sets the description for the event.
 
 ## -parameters
 
@@ -68,7 +69,17 @@ The description of the event. This value must be a string literal.
 
 ## -remarks
 
+`TraceLoggingDescription("event description")` can be used as a parameter to an
+invocation of a
+[TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md) macro.
+
 If multiple description args are provided, they are concatenated together into a
 single string.
 
 Event descriptions are stored in the PDB. They are not available at runtime.
+
+## -see-also
+
+[TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md)
+
+[TraceLogging wrapper macros](/windows/desktop/tracelogging/tracelogging-wrapper-macros)

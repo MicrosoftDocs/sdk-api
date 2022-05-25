@@ -1,7 +1,9 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingStruct
 title: TraceLoggingStruct macro (traceloggingprovider.h)
-description: Wrapper macro for defining a group of related fields in an event.
+description:
+  TraceLogging wrapper macro that adds a field that contains other fields to the
+  event.
 helpviewer_keywords:
   [
     "TraceLoggingStruct",
@@ -57,26 +59,75 @@ api_name:
 
 ## -description
 
-Wrapper macro for defining a group of related fields in an event.
+[TraceLogging wrapper macro](/windows/desktop/tracelogging/tracelogging-wrapper-macros)
+that adds a field that contains other fields to the event.
 
 ## -parameters
 
 ### -param fieldCount [in]
 
-The number of fields that will be considered to be part of the structure. This
+The number of fields that will be considered part of the structure. This
 parameter must be a compile-time constant.
 
 ### -param name [in]
 
-The name of the structure. The name parameter must be a string literal (not a
-variable) and must not contain any '\0' characters.
+The name to use for the structure in the event. The name parameter must be a
+string literal (not a variable) and must not contain any '\0' characters.
 
 #### - description [in, optional]
 
-The description of the structure. If provided, the description parameter must be
-a string literal, and will be included in the PDB.
+The description of the event structure. If provided, the description parameter
+must be a string literal and will be included in the PDB.
 
 #### - tags [in, optional]
 
-An integer value. The low 28 bits of the value will be included in the field's
-metadata and can be used by the event consumer for any purpose.
+A compile-time constant integer value. The low 28 bits of the value will be
+included in the field's metadata. The semantics of this value are defined by the
+event consumer. During event processing, this value can be retrieved from the
+[EVENT_PROPERTY_INFO](../tdh/ns-tdh-event_property_info.md) Tags field.
+
+## -remarks
+
+`TraceLoggingStruct(fieldCount, name, ...)` can be used as a parameter to an
+invocation of a
+[TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md) macro. Each
+TraceLoggingStruct parameter adds one logical field to the event. The field is a
+structure or group that contains the subsequent _fieldCount_ logical fields as
+its value.
+
+TraceLoggingStruct can be specified with 2, 3, or 4 parameters. If a parameter
+is not specified, a default will be used. For example,
+`TraceLoggingStruct(3, "MyStruct")` is equivalent to
+`TraceLoggingBinary(3, "MyStruct", "", 0)`.
+
+### Examples
+
+```c
+TraceLoggingWrite(
+    g_hProvider,
+    "MyEventWithStruct",
+    TraceLoggingInt32(num1, "BeforeStruct"),
+    TraceLoggingStruct(3, "StructWith3Fields"),
+        TraceLoggingInt32(num2, "StructField1"),
+        TraceLoggingInt32(num3, "StructField2"),
+        TraceLoggingInt32(num4, "StructField3"),
+    TraceLoggingInt32(num5, "AfterStruct));
+
+TraceLoggingWrite(
+    g_hProvider,
+    "MyEventWithNestedStruct",
+    TraceLoggingInt32(num1, "BeforeStruct"),
+    TraceLoggingStruct(3, "StructWith3Fields"),
+        TraceLoggingInt32(num2, "StructField1"),
+        TraceLoggingStruct(2, "StructField2"),
+            TraceLoggingInt32(num3, "StructField2NestedField1"),
+            TraceLoggingInt32(num4, "StructField2NestedField2"),
+        TraceLoggingInt32(num5, "StructField3"),
+    TraceLoggingInt32(num6, "AfterStruct));
+```
+
+## -see-also
+
+[TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md)
+
+[TraceLogging wrapper macros](/windows/desktop/tracelogging/tracelogging-wrapper-macros)

@@ -2,7 +2,8 @@
 UID: NF:traceloggingprovider.TraceLoggingCustomAttribute
 title: TraceLoggingCustomAttribute macro (traceloggingprovider.h)
 description:
-  Wrapper macro for adding custom information about an event to the PDB.
+  TraceLogging wrapper macro that adds custom information about the event into
+  the PDB.
 helpviewer_keywords:
   [
     "TraceLoggingCustomAttribute",
@@ -59,22 +60,31 @@ api_name:
 
 ## -description
 
-Wrapper macro for adding custom information about an event to the PDB.
+[TraceLogging wrapper macro](/windows/desktop/tracelogging/tracelogging-wrapper-macros)
+that adds custom information about the event into the PDB.
 
 ## -parameters
 
 ### -param key [in]
 
-The key for the custom attribute.
+A string literal with the key for the custom attribute.
 
 ### -param value [in]
 
-The value of the custom attribute.
+A string literal with the value of the custom attribute.
 
 ## -remarks
 
-Both parameters must be string literals. This information will appear under the
-CustomAttributes array for the event. If no custom attributes are specified the
-array will not appear. Multiple custom attributes can be specified per event.
+`TraceLoggingCustomAttribute("key", "value")` can be used as a parameter to an
+invocation of a
+[TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md) macro. Most
+TraceLogging events do not need custom attributes and should not use
+TraceLoggingCustomAttribute.
 
 Custom attributes are stored in the PDB. They are not available at runtime.
+
+## -see-also
+
+[TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md)
+
+[TraceLogging wrapper macros](/windows/desktop/tracelogging/tracelogging-wrapper-macros)

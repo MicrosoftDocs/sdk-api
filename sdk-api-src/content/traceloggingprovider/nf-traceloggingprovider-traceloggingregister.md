@@ -1,6 +1,8 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingRegister
 title: TraceLoggingRegister
+description:
+  Registers a TraceLogging provider so that it can be used to log events.
 ms.date: 5/7/2019
 ms.keywords: TraceLoggingRegister
 targetos: Windows
@@ -39,31 +41,87 @@ api_name:
 
 ## -description
 
-Registers a TraceLogging provider so that it can be used for to log events.
+Registers a TraceLogging provider so that it can be used to log events. The
+registration is valid until the provider is unregistered or the process exits.
 
 ## -parameters
 
 ### -param hProvider
 
-The handle of the provider to register.
+The handle of the provider to register. The handle must not already be
+registered.
 
 ## -returns
 
-If you call this function from user mode code, the function returns a HRESULT.
-Use the `SUCCEEDED()` macro to determine if the function succeeds.
+If you call this function from user-mode code, the function returns an
+`HRESULT`. Use the `SUCCEEDED()` macro to determine whether the function
+succeeds.
 
-If you call this function from kernel mode code, the function returns a
-NTSTATUS. Use the `NT_SUCCESS()` macro to determine if the function succeeds.
+If you call this function from kernel-mode code, the function returns an
+`NTSTATUS`. Use the `NT_SUCCESS()` macro to determine whether the function
+succeeds.
+
+> [!Note]
+> The error code returned by TraceLoggingRegister is primarily intended
+> for use in debugging and diagnostic scenarios. Most production code should
+> continue to run even if an ETW provider failed to register, so release builds
+> should usually ignore the error code returned by TraceLoggingRegister.
 
 ## -remarks
 
-Call this function to register your provider. You need to register before you
-can use it. If you attempt to register a provider that is already registered,
-the results are unpredictable. You can unregister a handler and then register it
-again if necessary. If registration does fail, all write and unregister commands
-will have no effect.
+When a component starts running, any TraceLogging provider handle in the
+component will be in an unregistered state and any attempts to use the
+provider's handle to generate events will be silently ignored. Before the
+provider can write any events, you need to register the provider using
+**TraceLoggingRegister**. You will typically do this during component startup,
+e.g. in `main`, `wmain`, `WinMain`, `DllMain(DLL_PROCESS_ATTACH)`, or
+`DriverEntry`. At component shutdown, unregister the provider by calling
+[TraceLoggingUnregister](./nf-traceloggingprovider-traceloggingunregister.md).
 
-Use the `SUCCEEDED` (user-mode) or `NT_SUCCESS` (kernel-mode) macro to see if
-registration was successful.
+Do not call **TraceLoggingRegister** on a provider handle that is already
+registered. You can unregister a handle and then register it again if necessary,
+though repeatedly registering and unregistering the handle can cause performance
+issues and should be avoided (i.e. do not register, write a few events, and then
+unregister; instead, register once at component startup and unregister at
+component shutdown).
+
+**TraceLoggingRegister** is not thread-safe with regards to other calls to
+**TraceLoggingRegister** or **TraceLoggingUnregister** on the same handle. Do
+not call **TraceLoggingRegister** if it is possible that another thread might
+call **TraceLoggingRegister** or **TraceLoggingUnregister** on the same handle
+at the same time.
+
+If **TraceLoggingRegister** fails, the provider handle will remain unregistered
+and all uses of the provider handle will be safe no-ops. In particular, it is a
+safe no-op to call **TraceLoggingWrite** or **TraceLoggingUnregister** with an
+unregistered provider handle.
+
+> [!Important]
+> If your DLL or driver calls `TraceLoggingRegister` on a provider
+> handle, it **must** call `TraceLoggingUnregister` on that provider handle
+> before the DLL or driver unloads. If a DLL unloads without calling
+> `TraceLoggingUnregister`, the process may subsequently crash. If a driver
+> unloads without calling `TraceLoggingUnregister`, the system may subsequently
+> crash. The `TraceLoggingRegister` function establishes an ETW configuration
+> callback, and `TraceLoggingUnregister` cancels the callback. If the callback
+> is not cancelled and the module unloads, a crash will occur the next time ETW
+> tries to invoke the callback.
+
+A call to **TraceLoggingRegister** is the same as a call to
+[**TraceLoggingRegisterEx**](./nf-traceloggingprovider-traceloggingregisterex.md)
+with NULL for the _callback_ and _context_ parameters. Use
+**TraceLoggingRegisterEx** if you need to receive an
+[ETW Enable Callback](../evntprov/nc-evntprov-penablecallback.md) when sessions
+enable or disable your provider.
 
 ## -see-also
+
+[EventRegister](../evntprov/nf-evntprov-eventregister.md)
+
+[TraceLoggingRegisterEx](./nf-traceloggingprovider-traceloggingregisterex.md)
+
+[TraceLoggingUnregister](./nf-traceloggingprovider-traceloggingunregister.md)
+
+[TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md)
+
+[TRACELOGGING_DEFINE_PROVIDER](./nf-traceloggingprovider-tracelogging_define_provider.md)

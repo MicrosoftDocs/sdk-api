@@ -1,7 +1,7 @@
 ---
 UID: NF:traceloggingprovider.TRACELOGGING_DECLARE_PROVIDER
 title: TRACELOGGING_DECLARE_PROVIDER macro (traceloggingprovider.h)
-description: Forward declares a global TraceLogging provider handle.
+description: Forward-declares a handle for a TraceLogging provider.
 helpviewer_keywords:
   [
     "TRACELOGGING_DECLARE_PROVIDER",
@@ -60,18 +60,44 @@ api_name:
 
 ## -description
 
-Forward declares a global TraceLogging provider handle.
+Forward-declares a handle for a TraceLogging provider.
 
 ## -parameters
 
 ### -param handleVariable [in]
 
-The handle variable name to forward declare.
+The handle name to forward-declare. This should be the name of a handle that has
+been defined in a .c or .cpp file using
+[TRACELOGGING_DEFINE_PROVIDER](./nf-traceloggingprovider-tracelogging_define_provider.md).
 
 ## -remarks
 
-Use this macro in a shared header file to forward declare your TraceLogging
-provider handle. This macro does not allocate storage for the provider. In order
-to use the provider, you will need to use
+Use this macro as needed in a header file of your component to forward-declare
+your TraceLogging provider handle. This macro does not allocate storage for the
+provider handle. In order to use the provider, you will need to use
 [TRACELOGGING_DEFINE_PROVIDER](./nf-traceloggingprovider-tracelogging_define_provider.md)
-to define the variable.
+to define the handle and
+[TraceLoggingRegister](./nf-traceloggingprovider-traceloggingregister.md) to
+register it.
+
+An invocation like `TRACELOGGING_DECLARE_PROVIDER(MyProviderHandle)` can be
+thought of as similar to code like:
+
+```c
+extern "C" const TraceLoggingHProvider MyProviderHandle;
+```
+
+> [!Note]
+> The provider handle declared by `TRACELOGGING_DECLARE_PROVIDER` has
+> module scope. It can be used as needed within the EXE, DLL, or SYS file but
+> should not be shared with other DLLs in the same process. Each EXE, DLL, or
+> SYS file should use its own provider handle and should perform its own
+> Register and Unregister.
+
+## -see-also
+
+[TRACELOGGING_DEFINE_PROVIDER](./nf-traceloggingprovider-tracelogging_define_provider.md)
+
+[TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md)
+
+[TraceLogging wrapper macros](/windows/desktop/tracelogging/tracelogging-wrapper-macros)

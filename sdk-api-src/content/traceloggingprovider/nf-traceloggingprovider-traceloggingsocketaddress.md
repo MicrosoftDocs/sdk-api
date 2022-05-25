@@ -1,7 +1,9 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingSocketAddress
 title: TraceLoggingSocketAddress macro (traceloggingprovider.h)
-description: A wrapper macro that provides trace logging for socket addresses.
+description:
+  TraceLogging wrapper macro that adds a field with a socket address to the
+  event.
 helpviewer_keywords:
   [
     "TraceLoggingSocketAddress",
@@ -58,7 +60,8 @@ api_name:
 
 ## -description
 
-A wrapper macro that provides trace logging for socket addresses.
+[TraceLogging wrapper macro](/windows/desktop/tracelogging/tracelogging-wrapper-macros)
+that adds a field with a socket address to the event.
 
 ## -parameters
 
@@ -68,19 +71,59 @@ A pointer to a sockaddr structure.
 
 ### -param cbSockAddr [in]
 
-The length, in bytes, of the value pointed to by the pSocketAddr parameter.
+The size, in bytes, of the value pointed to by the _pSockAddr_ parameter.
 
-#### - description [in, optional]
-
-Description of the socket address. This parameter must be a literal string and
-will be included in the PDB.
+> [!Note]
+> The amount of data needed for a sockaddr field varies depending on the
+> type of address. If the data is stored in a union variable, be sure to set the
+> cbSockAddr parameter to the size of the correct union member (or to the size
+> of the union) to avoid truncating the data.
 
 #### - name [in, optional]
 
-The name of the socket address. This parameter must be a literal string and
-cannot contain any escape ('/0') characters.
+The name to use for the event field. If provided, the name parameter must be a
+string literal (not a variable) and must not contain any '\0' characters. If not
+provided, the event field name will be based on _pSockAddr_.
+
+#### - description [in, optional]
+
+The description of the event field's value. If provided, the description
+parameter must be a string literal and will be included in the PDB.
 
 #### - tags [in, optional]
 
-An integer value. The low 28 bits of the value will be included in the field's
-metadata and can be used by the event consumer for any purpose.
+A compile-time constant integer value. The low 28 bits of the value will be
+included in the field's metadata. The semantics of this value are defined by the
+event consumer. During event processing, this value can be retrieved from the
+[EVENT_PROPERTY_INFO](../tdh/ns-tdh-event_property_info.md) Tags field.
+
+## -remarks
+
+`TraceLoggingSocketAddress(pSockAddr, cbSockAddr, ...)` can be used as a
+parameter to an invocation of a
+[TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md) macro. Each
+TraceLoggingSocketAddress parameter adds one field to the event.
+
+TraceLoggingSocketAddress can be specified with 2, 3, 4, or 5 parameters. If a
+parameter is not specified, a default will be used. For example,
+`TraceLoggingSocketAddress(&x.sockAddr, sizeof(x.sockAddr))` is equivalent to
+`TraceLoggingSocketAddress(&x.sockAddr, sizeof(x.sockAddr), "&x.sockAddr", "", 0)`.
+
+The value may be any Windows sockaddr type, e.g.
+[SOCKADDR](../ws2def/ns-ws2def-sockaddr.md),
+[SOCKADDR_IN](../ws2def/ns-ws2def-sockaddr_in.md),
+[SOCKADDR_IN6](../ws2ipdef/ns-ws2ipdef-sockaddr_in6_lh.md),
+[SOCKADDR_STORAGE](../ws2def/ns-ws2def-sockaddr_storage_lh.md), etc. The event
+will record the raw binary data and the data size. The event decoder will use
+the `sa_family` field to determine the actual type of the socket address.
+
+> [!Note]
+> Not all decoders will support all sockaddr family types. If an
+> unsupported sockaddr is encountered, the decoder might decode the field as raw
+> binary data instead of formatting it as an address.
+
+## -see-also
+
+[TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md)
+
+[TraceLogging wrapper macros](/windows/desktop/tracelogging/tracelogging-wrapper-macros)
