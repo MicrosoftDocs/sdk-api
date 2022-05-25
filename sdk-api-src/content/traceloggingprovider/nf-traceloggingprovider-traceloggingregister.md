@@ -62,10 +62,11 @@ If you call this function from kernel-mode code, the function returns an
 succeeds.
 
 > [!Note]
-> The error code returned by TraceLoggingRegister is primarily intended
-> for use in debugging and diagnostic scenarios. Most production code should
-> continue to run even if an ETW provider failed to register, so release builds
-> should usually ignore the error code returned by TraceLoggingRegister.
+> The error code returned by **TraceLoggingRegister** is primarily
+> intended for use in debugging and diagnostic scenarios. Most production code
+> should continue to run even if an ETW provider failed to register, so release
+> builds should usually ignore the error code returned by
+> **TraceLoggingRegister**.
 
 ## -remarks
 
@@ -97,15 +98,22 @@ safe no-op to call **TraceLoggingWrite** or **TraceLoggingUnregister** with an
 unregistered provider handle.
 
 > [!Important]
-> If your DLL or driver calls `TraceLoggingRegister` on a provider
-> handle, it **must** call `TraceLoggingUnregister` on that provider handle
-> before the DLL or driver unloads. If a DLL unloads without calling
-> `TraceLoggingUnregister`, the process may subsequently crash. If a driver
-> unloads without calling `TraceLoggingUnregister`, the system may subsequently
-> crash. The `TraceLoggingRegister` function establishes an ETW configuration
-> callback, and `TraceLoggingUnregister` cancels the callback. If the callback
-> is not cancelled and the module unloads, a crash will occur the next time ETW
-> tries to invoke the callback.
+> If your DLL or driver calls **TraceLoggingRegister** on a
+> provider handle, it **must** call **TraceLoggingUnregister** on that provider
+> handle before the DLL or driver unloads. If a DLL unloads without calling
+> **TraceLoggingUnregister**, the process may subsequently crash. If a driver
+> unloads without calling **TraceLoggingUnregister**, the system may
+> subsequently crash. The **TraceLoggingRegister** function establishes an ETW
+> configuration callback, and **TraceLoggingUnregister** cancels the callback.
+> If the callback is not cancelled and the module unloads, a crash will occur
+> the next time ETW tries to invoke the callback.
+
+> [!Warning]
+> If your driver calls **TraceLoggingRegister** and then encounters
+> an error during _DriverEntry_, it must call **TraceLoggingUnregister** before
+> returning the error from _DriverEntry_. Normal driver cleanup routines will
+> not be called if the driver returns an error from _DriverEntry_, and failure
+> to call **TraceLoggingUnregister** will cause the system to crash.
 
 A call to **TraceLoggingRegister** is the same as a call to
 [**TraceLoggingRegisterEx**](./nf-traceloggingprovider-traceloggingregisterex.md)

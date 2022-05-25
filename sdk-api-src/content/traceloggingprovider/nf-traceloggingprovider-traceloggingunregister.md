@@ -55,9 +55,10 @@ component will be in an unregistered state and any attempts to use the
 provider's handle to generate events will be silently ignored. Before the
 provider can write any events, you need to register the provider using
 [**TraceLoggingRegister**](./nf-traceloggingprovider-traceloggingregister.md).
-You will typically do this during component startup, e.g. in `main`, `wmain`,
-`WinMain`, `DllMain(DLL_PROCESS_ATTACH)`, or `DriverEntry`. At component
-shutdown, unregister the provider by calling **TraceLoggingUnregister**.
+You will typically do this during component startup. At component shutdown,
+unregister the provider by calling **TraceLoggingUnregister**, e.g. before
+returning from `main`, `wmain`, or `WinMain`, in `DllMain(DLL_PROCESS_DETACH)`,
+before returning from a failed `DriverEntry`, or in the driver Unload routine.
 
 **TraceLoggingRegister** is not thread-safe with regards to other calls to
 **TraceLoggingRegister** or **TraceLoggingUnregister** on the same handle. Do
