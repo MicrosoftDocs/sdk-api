@@ -119,7 +119,7 @@ ID2D1Factory* m_pDirect2dFactory;
 
 
 
-<a href="/windows/win32/Direct2D/direct2d-quickstart">Direct2D QuickStart</a>
+[Create a simple Direct2D application](/windows/win32/Direct2D/direct2d-quickstart)
 
 
 
