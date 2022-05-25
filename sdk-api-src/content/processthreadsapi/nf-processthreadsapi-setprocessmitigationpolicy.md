@@ -62,8 +62,6 @@ Sets a mitigation policy for the calling process. Mitigation policies enable a p
 
 The mitigation policy to apply. This parameter can be one of the following values.
 
-
-
 |Value  |Meaning  |
 |---------|---------|
 |**ProcessDEPPolicy**     | The data execution prevention (DEP) policy of the process.<br/>The *lpBuffer* parameter points to a <a href="/windows/desktop/api/winnt/ns-winnt-process_mitigation_dep_policy">PROCESS_MITIGATION_DEP_POLICY</a> structure that specifies the DEP policy flags.        |
@@ -77,7 +75,8 @@ The mitigation policy to apply. This parameter can be one of the following value
 |**ProcessSignaturePolicy**     | The policy of a process that can restrict image loading to those images that are either signed by Microsoft, by the Windows Store, or by Microsoft, the Windows Store and the Windows Hardware Quality Labs (WHQL).<br/>he *lpBuffer* parameter points to a <a href="/windows/win32/api/winnt/ns-winnt-process_mitigation_binary_signature_policy">PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY</a> structure that specifies the signature policy flags.       |
 |**ProcessFontDisablePolicy**     | The policy regarding font loading for the process. When turned on, the process cannot load non-system fonts.<br/>The *lpBuffer* parameter points to a <a href="/windows/desktop/api/winnt/ns-winnt-process_mitigation_font_disable_policy">PROCESS_MITIGATION_FONT_DISABLE_POLICY</a> structure that specifies the policy flags for font loading.|
 |**ProcessImageLoadPolicy**     | The policy regarding image loading for the process, which determines the types of executable images that are allowed to be mapped into the process. When turned on, images cannot be loaded from some locations, such a remote devices or files that have the low mandatory label.<br/>The *lpBuffer* parameter points to a <a href="/windows/desktop/api/winnt/ns-winnt-process_mitigation_image_load_policy">PROCESS_MITIGATION_IMAGE_LOAD_POLICY</a> structure that specifies the policy flags for image loading.|
-| **ProcessRedirectionTrustPolicy** | |
+| **ProcessRedirectionTrustPolicy** | The RedirectionGuard policy of a process. The *lpBuffer* parameter points to a PROCESS_MITIGATION_REDIRECTION_TRUST_POLICY structure that specifies the mitigation mode. |
+| **ProcessSideChannelIsolationPolicy** | Windows 10, version 1809 and above: The policy regarding isolation of side channels for the specified process.<br/>The *lpBuffer* parameter points to a <a href="../winnt/ns-winnt-process_mitigation_side_channel_isolation_policy.md">PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY</a> structure that specifies the policy flags for side channel isolation. |
 |**ProcessUserShadowStackPolicy**     | Windows 10, version 2004 and above: The policy regarding user-mode Hardware-enforced Stack Protection for the process.<br/>The *lpBuffer* parameter points to a <a href="/windows/win32/api/winnt/ns-winnt-process_mitigation_user_shadow_stack_policy">PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY</a> structure that specifies the policy flags for user-mode Hardware-enforced Stack Protection.|
 
 ### -param lpBuffer [in]
@@ -103,6 +102,8 @@ If the *MitigationPolicy* parameter is **ProcessSignaturePolicy**, this paramete
 If the *MitigationPolicy* parameter is **ProcessFontDisablePolicy**, this parameter points to a <a href="/windows/desktop/api/winnt/ns-winnt-process_mitigation_font_disable_policy">PROCESS_MITIGATION_FONT_DISABLE_POLICY</a> structure that specifies the policy flags for font loading.
 
 If the *MitigationPolicy* parameter is **ProcessImageLoadPolicy**, this parameter points to a <a href="/windows/desktop/api/winnt/ns-winnt-process_mitigation_image_load_policy">PROCESS_MITIGATION_IMAGE_LOAD_POLICY</a> structure that specifies the policy flags for image loading.
+
+If the *MitigationPolicy* parameter is **ProcessRedirectionTrustPolicy**, this parameter points to a [PROCESS_MITIGATION_REDIRECTION_TRUST_POLICY structure](../winnt/ns-winnt-process-mitigation-redirection-trust-policy.md) that specifies the mitigation mode.
 
 If the *MitigationPolicy* parameter is **ProcessUserShadowStackPolicy**, this parameter points to a <a href="/windows/win32/api/winnt/ns-winnt-process_mitigation_user_shadow_stack_policy">PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY</a> structure that specifies the policy flags for user-mode Hardware-enforced Stack Protection.
 

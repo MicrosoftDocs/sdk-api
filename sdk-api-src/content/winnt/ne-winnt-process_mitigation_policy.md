@@ -103,11 +103,19 @@ The policy that turns off the ability of the process to load images from some lo
 
 ### -field ProcessSystemCallFilterPolicy
 
+The system call filter policy of the process.
+
 ### -field ProcessPayloadRestrictionPolicy
+
+The payload restriction policy of the process.
 
 ### -field ProcessChildProcessPolicy
 
+The child process policy of the process.
+
 ### -field ProcessSideChannelIsolationPolicy
+
+The side channel isolation policy of the process.
 
 ### -field ProcessUserShadowStackPolicy
 
@@ -115,9 +123,15 @@ Windows 10, version 2004 and above: The policy regarding user-mode Hardware-enf
 
 ### -field ProcessRedirectionTrustPolicy
 
+The RedirectionGuard policy of the process.
+
 ### -field ProcessUserPointerAuthPolicy
 
+The user pointer authentication policy of the process.
+
 ### -field ProcessSEHOPPolicy
+
+The Structured Exception Handling Overwrite Protection (SEHOP) policy of the process.
 
 ### -field MaxProcessMitigationPolicy
 
