@@ -1,7 +1,7 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingKeyword
 title: TraceLoggingKeyword macro (traceloggingprovider.h)
-description: Wrapper macro for setting the event's keyword(s).
+description: TraceLogging wrapper macro that sets the keyword for the event.
 helpviewer_keywords:
   [
     "TraceLoggingKeyword",
@@ -19,8 +19,8 @@ ms.keywords:
 req.header: traceloggingprovider.h
 req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
@@ -57,17 +57,47 @@ api_name:
 
 ## -description
 
-Wrapper macro for setting the event's keyword(s).
+[TraceLogging wrapper macro](/windows/desktop/tracelogging/tracelogging-wrapper-macros)
+that sets the keyword for the event.
 
 ## -parameters
 
 ### -param eventKeyword [in]
 
-The numerical keyword for the event. The value parameter must be a compile-time
-constant from 0 to UINT64_MAX.
+A 64-bit bitmask used to indicate an event's membership in a set of event
+categories. This value must be a compile-time constant.
+
+> [!Important]
+> ProviderId, Level and Keyword are the primary means for filtering
+> events. Other kinds of filtering are possible but have much higher overhead.
+> Always assign a meaningful non-zero level and keyword to every event.
+
+See [EVENT_DESCRIPTOR](../evntprov/ns-evntprov-event_descriptor.md) for details
+about the event keyword.
 
 ## -remarks
 
+`TraceLoggingKeyword(eventKeyword)` can be used as a parameter to an invocation
+of a [TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md) macro
+to set the event's keyword. Event keyword is a primary means for filtering
+events. Always assign a meaningful (non-zero) keyword to every event.
+
 If no **TraceLoggingKeyword** macros are provided to a **TraceLoggingWrite**
-call, the event’s default keyword is 0. If multiple **TraceLoggingKeyword**
-macros are provided, they are OR’d together.
+call, the event's default keyword is 0. If multiple **TraceLoggingKeyword**
+macros are provided, they are OR'ed together.
+
+The top 16 bits of the keyword (bitmask 0xFFFF000000000000) are defined by
+Microsoft. The low 48 bits of the keyword (bitmask 0x0000FFFFFFFFFFFF) are
+defined by the event provider. For example, the event provider might define bit
+0 (bitmask 0x1) to be the "I/O" category, bit 1 (bitmask 0x2) to be the "UI"
+category, and bit 2 (bitmask 0x4) to be the "performance measurement" category.
+In this scenario, an event might have its keyword set to 0x5, indicating that
+the event is in both the "I/O" and "performance measurement" categories.
+
+## -see-also
+
+[EVENT_DESCRIPTOR](../evntprov/ns-evntprov-event_descriptor.md)
+
+[TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md)
+
+[TraceLogging wrapper macros](/windows/desktop/tracelogging/tracelogging-wrapper-macros)

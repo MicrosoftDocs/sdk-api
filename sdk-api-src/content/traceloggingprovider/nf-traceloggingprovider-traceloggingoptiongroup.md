@@ -2,8 +2,8 @@
 UID: NF:traceloggingprovider.TraceLoggingOptionGroup
 title: TraceLoggingOptionGroup macro (traceloggingprovider.h)
 description:
-  Wrapper macro for use in TRACELOGGING_DEFINE_PROVIDER to declare the GUID of
-  the provider group that the provider is a member of.
+  TraceLogging macro for use in TRACELOGGING_DEFINE_PROVIDER to specify a
+  provider group.
 helpviewer_keywords:
   [
     "TraceLoggingOptionGroup",
@@ -22,8 +22,8 @@ ms.keywords:
 req.header: traceloggingprovider.h
 req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
@@ -60,9 +60,12 @@ api_name:
 
 ## -description
 
-Wrapper macro for use in
+TraceLogging macro for use in
 [TRACELOGGING_DEFINE_PROVIDER](./nf-traceloggingprovider-tracelogging_define_provider.md)
-to declare the GUID of the provider group that the provider is a member of.
+to specify a provider group.
+
+Most TraceLogging providers are not associated with a provider group and do not
+need to use TraceLoggingOptionGroup.
 
 ## -parameters
 
@@ -112,12 +115,35 @@ The next byte of the GUID.
 
 ## -remarks
 
-A provider can be a member of no more than one group. The semantics of group
-membership are determined by ETW controllers that subscribe a session to a
-group.
+If you want your provider to be associated with an
+[ETW provider group](/windows/win32/etw/provider-traits), use the
+[TraceLoggingOptionGroup](./nf-traceloggingprovider-traceloggingoptiongroup.md)
+macro to specify the provider's group GUID. Otherwise, do not specify an option
+parameter.
 
-The following code sample shows how to construct the GUID:
+A provider can be a member of no more than one group. The semantics of group
+membership are determined by ETW controllers that subscribe a session to a group
+via [EnableTraceEx2](../evntrace/nf-evntrace-enabletraceex2.md) with
+EVENT_ENABLE_PROPERTY_PROVIDER_GROUP.
+
+### Examples
 
 ```c
-TraceLoggingOptionGroup(0x3970f9cf, 0x2c0c, 0x4f11, 0xb1, 0xcc, 0xe3, 0xa1, 0xe9, 0x95, 0x88, 0x33);
+TRACELOGGING_DEFINE_PROVIDER(
+    g_hMyProvider,
+    "MyProvider",
+    // {b3864c38-4273-58c5-545b-8b3608343471}
+    (0xb3864c38, 0x4273, 0x58c5, 0x54, 0x5b, 0x8b, 0x36, 0x08, 0x34, 0x34, 0x71),
+    // {798d0c76-4209-5932-a2af-2d94a2e66c45}
+    TraceLoggingOptionGroup(0x798d0c76,0x4209,0x5932,0xa2,0xaf,0x2d,0x94,0xa2,0xe6,0x6c,0x45));
 ```
+
+## -see-also
+
+[TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md)
+
+[TraceLogging wrapper macros](/windows/desktop/tracelogging/tracelogging-wrapper-macros)
+
+[EnableTraceEx2](../evntrace/nf-evntrace-enabletraceex2.md)
+
+[Provider Traits](/windows/win32/etw/provider-traits)

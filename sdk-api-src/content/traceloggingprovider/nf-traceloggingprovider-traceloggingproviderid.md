@@ -1,6 +1,7 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingProviderId
 title: TraceLoggingProviderId
+description: Gets the provider ID of a TraceLogging provider.
 ms.date: 5/7/2019
 ms.keywords: TraceLoggingProviderId
 targetos: Windows
@@ -17,8 +18,8 @@ req.lib:
 req.max-support:
 req.namespace:
 req.redist:
-req.target-min-winverclnt: Windows 10 Build 20348
-req.target-min-winversvr: Windows 10 Build 20348
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.target-type:
 req.type-library:
 req.umdf-ver:
@@ -39,20 +40,20 @@ api_name:
 
 ## -description
 
-Returns the provider ID that was specified in
-[TRACELOGGING_DEFINE_PROVIDER](./nf-traceloggingprovider-tracelogging_define_provider.md).
+Gets the provider ID of a TraceLogging provider.
 
 ## -parameters
 
 ### -param hProvider
 
-The handle of the TraceLogging provider.
+The handle of the TraceLogging provider for which the provider ID is needed.
 
 ## -returns
 
-The GUID of the provider ID specified in
-[TRACELOGGING_DEFINE_PROVIDER](./nf-traceloggingprovider-tracelogging_define_provider.md).
-
-## -remarks
+The provider ID (GUID) that was specified in the
+[TRACELOGGING_DEFINE_PROVIDER](./nf-traceloggingprovider-tracelogging_define_provider.md)
+that defined the specified handle.
 
 ## -see-also
+
+[TRACELOGGING_DEFINE_PROVIDER](./nf-traceloggingprovider-tracelogging_define_provider.md)

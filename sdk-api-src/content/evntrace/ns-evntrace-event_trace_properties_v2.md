@@ -116,7 +116,8 @@ tracing session. You use this structure with APIs such as
 [ControlTrace](/windows/win32/api/evntrace/nf-evntrace-controltracea) when
 defining, updating, or querying the properties of a session.
 
-> [!Note] This is a version-2 structure, extended from the
+> [!Note]
+> This is a version-2 structure, extended from the
 > [EVENT_TRACE_PROPERTIES](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties)
 > structure. This structure is supported starting with **Windows 10 version
 > 1703**. When used with earlier versions of Windows, the additional fields

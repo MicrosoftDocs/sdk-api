@@ -1,7 +1,7 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingEventTag
 title: TraceLoggingEventTag macro (traceloggingprovider.h)
-description: Wrapper macro for setting the event's tag(s).
+description: TraceLogging wrapper macro that sets the event tag for the event.
 helpviewer_keywords:
   [
     "TraceLoggingEventTag",
@@ -19,8 +19,8 @@ ms.keywords:
 req.header: traceloggingprovider.h
 req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
@@ -57,26 +57,45 @@ api_name:
 
 ## -description
 
-Wrapper macro for setting the event's tag(s).
+[TraceLogging wrapper macro](/windows/desktop/tracelogging/tracelogging-wrapper-macros)
+that sets the event tag for the event.
 
 ## -parameters
 
 ### -param eventTag [in]
 
-A compile-time constant in the range of 0x00200000-0x0FE00000.
+This is a compile-time constant specifying the event tag value.
+
+In C++, this can be any value in the range 0 through 0x0FFFFFFF.
+
+In C, this can be any value in the range 0 through 0x0FFFA000 with the low 14
+bits set to 0.
 
 ## -remarks
 
-The semantics of the tags are defined by the event consumer. During event
-processing, this tag can be retrieved from the
+`TraceLoggingEventTag(eventTag)` can be used as a parameter to an invocation of
+a [TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md) macro to
+set the event's tag.
+
+The semantics of the tag are defined by the event consumer. During event
+processing, the tag value can be retrieved from the
 [TRACE_EVENT_INFO](../tdh/ns-tdh-trace_event_info.md) Tags field.
 
-The TraceLogging schema convention encodes tags as 28-bit fields by using a
-chain of up to four bytes with the upper-most bit used as a 'chain' bit (4\*7 =
-28). Data is encoded most-significant byte first.
-[TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md) and
-TraceLoggingEventTag only supports encoding a single byte of tag data, which
-must then contain the upper-most range of seven bits, thus 0x0FE00000.
+The TraceLogging schema convention encodes tags as 28-bit field by using a chain
+of up to four bytes with the upper-most bit used as a 'chain' bit (4 bytes \* 7
+usable bits per byte = 28 bits). Data is encoded most-significant byte first. In
+C, [TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md) is
+limited to a 2-byte encoding for the tag, so the low 14 bits of the tag must
+be 0.
 
-If no parameters are provided, no tag is transmitted for the event. If multiple
-args are provided, they are OR'ed together.
+If no TraceLoggingEventTag parameters are provided for an event, no tag is
+transmitted for the event and the event will have a tag of 0. If multiple
+TraceLoggingEventTag parameters are provided, the tag values are OR'ed together.
+
+## -see-also
+
+[TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md)
+
+[TraceLogging wrapper macros](/windows/desktop/tracelogging/tracelogging-wrapper-macros)
+
+[TRACE_EVENT_INFO](../tdh/ns-tdh-trace_event_info.md)
