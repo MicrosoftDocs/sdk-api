@@ -63,6 +63,9 @@ This template represents an empty policy. It's used as the basis for a completel
 
 ## -remarks
 
+[!IMPORTANT]
+Template configurations are provided below for reference only. *Configurations may be updated in the future to meet user needs as common workflows and system configurations evolve.* However, such updates will not break the reasonable expectations these policies provide. Updates will primarily be limited to new conditions for previously unconfigured resources, particularly when adding new resource types. Updates will not remove configurations for already configured resources in a template.
+
 ### Available conditions for resources
 
 #### ACTIVITY_COORDINATOR_CONDITION_GOOD
