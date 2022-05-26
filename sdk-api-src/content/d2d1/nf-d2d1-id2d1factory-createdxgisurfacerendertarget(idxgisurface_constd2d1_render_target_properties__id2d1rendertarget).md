@@ -93,39 +93,7 @@ When you create a render target and hardware acceleration is available, you allo
 
 ## Examples
 
-The following example obtains a DXGI surface (<i>pBackBuffer</i>) from an <a href="/windows/win32/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a> and uses it to create a DXGI surface render target.
-
-```cpp
-// Get a surface in the swap chain
-hr = m_pSwapChain->GetBuffer(
-    0,
-    IID_PPV_ARGS(&pBackBuffer)
-    );
-
-    if (SUCCEEDED(hr))
-    {
-        // Create the DXGI Surface Render Target.
-        FLOAT dpiX;
-        FLOAT dpiY;
-        m_pD2DFactory->GetDesktopDpi(&dpiX, &dpiY);
-
-        D2D1_RENDER_TARGET_PROPERTIES props =
-            D2D1::RenderTargetProperties(
-                D2D1_RENDER_TARGET_TYPE_DEFAULT,
-                D2D1::PixelFormat(DXGI_FORMAT_UNKNOWN, D2D1_ALPHA_MODE_PREMULTIPLIED),
-                dpiX,
-                dpiY
-                );
-
-        // Create a Direct2D render target that can draw into the surface in the swap chain.
-
-        hr = m_pD2DFactory->CreateDxgiSurfaceRenderTarget(
-            pBackBuffer,
-            props,
-            &m_pBackBufferRT
-            );
-    }
-```
+See the code example in [ID2D1Factory::CreateDxgiSurfaceRenderTarget](./nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties_id2d1rendertarget).md).
 
 ## -see-also
 
