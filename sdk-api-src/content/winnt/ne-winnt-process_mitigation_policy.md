@@ -136,3 +136,9 @@ The Structured Exception Handling Overwrite Protection (SEHOP) policy of the pro
 ### -field MaxProcessMitigationPolicy
 
 Ends the enumeration.
+
+## -remarks
+
+## -see-also
+
+[GetProcessMitigationPolicy function](../processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy.md), [SetProcessMitigationPolicy function](../processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy.md)
