@@ -8,8 +8,8 @@ ms.date: 05/25/2022
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10 [desktop apps only]
-req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-???
+Contains process mitigation policy settings for RedirectionGuard.
 
 ## -struct-fields
 
@@ -64,17 +64,18 @@ Reserved for system use.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.EnforceRedirectionTrust
 
-???
+Set (0x1) to prevent the process from following filesystem junctions created by non-admin users and log the attempt; otherwise leave unset (0x0).
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.AuditRedirectionTrust
 
-???
+Set (0x1) to log when the process follows filesystem junctions created by non-admin users, but still allow the operation; otherwise leave unset (0x0).
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags
 
 Reserved for system use.
 
-## -see-also
+## -remarks
 
-[GetProcessMitigationPolicy function](../processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy.md)
-[SetProcessMitigationPolicy function](../processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy.md)
+The [GetProcessMitigationPolicy](../processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy.md)  and [SetProcessMitigationPolicy](../processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy.md)  functions use this structure.
+
+## -see-also
