@@ -14,12 +14,12 @@ req.idl:
 req.include-header:
 req.irql:
 req.kmdf-ver:
-req.lib:
+req.lib: Advapi32.lib
 req.max-support:
 req.namespace:
 req.redist:
-req.target-min-winverclnt: Windows 10 Build 20348
-req.target-min-winversvr: Windows 10 Build 20348
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.target-type:
 req.type-library:
 req.umdf-ver:
@@ -80,15 +80,36 @@ This function serves as a wrapper around the
 [EventSetInformation](../evntprov/nf-evntprov-eventsetinformation.md) function.
 
 The **EventSetInformation** function is not available on all versions of
-Windows. The default behavior of **TraceLoggingSetInformation** varies depending
-on the target version of Windows (as controlled by compile-time WINVER and
-NTDDI_VERSION macros): if the target version of Windows supports
-**EventSetInformation** then **TraceLoggingSetInformation** will call the
-function directly; otherwise, **TraceLoggingSetInformation** will attempt to
-invoke **EventSetInformation** via GetProcAddress. To override the default
-behavior of this function, set the `TLG_EVENT_SET_INFORMATION` and
-`TLG_HAVE_EVENT_SET_INFORMATION` macros. Refer to the comments in the
-TraceLoggingProvider.h header for details.
+Windows. The default behavior of **TraceLoggingSetInformation** depends on the
+compile-time values of the `WINVER` (user-mode) or `NTDDI_VERSION` (kernel-mode)
+macros:
+
+- If the target version of Windows (as specified by `WINVER` or `NTDDI_VERSION`)
+  is known to support **EventSetInformation** then
+  **TraceLoggingSetInformation** will directly invoke **EventSetInformation**.
+- Otherwise, **TraceLoggingSetInformation** will use **GetProcAddress**
+  (user-mode) or **MmGetSystemRoutineAddress** (kernel-mode) to locate and
+  invoke **EventSetInformation**. If this fails, **TraceLoggingSetInformation**
+  will return `HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)` (user-mode) or
+  `STATUS_NOT_SUPPORTED` (kernel-mode).
+
+To override the default behavior of this function, define the
+`TLG_HAVE_EVENT_SET_INFORMATION` macro before you
+`#include <TraceLoggingProvider.h>`:
+
+- If you `#define TLG_HAVE_EVENT_SET_INFORMATION 0` then
+  **TraceLoggingSetInformation** will do nothing and return
+  `HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)` (user-mode) or
+  `STATUS_ENTRYPOINT_NOT_FOUND` (kernel-mode).
+- If you `#define TLG_HAVE_EVENT_SET_INFORMATION 1` then
+  **TraceLoggingSetInformation** will directly invoke **EventSetInformation**.
+- If you `#define TLG_HAVE_EVENT_SET_INFORMATION 2` then
+  **TraceLoggingSetInformation** will invoke **EventSetInformation** via
+  **GetProcAddress** (user-mode) or **MmGetSystemRoutineAddress** (kernel-mode).
+
+For additional information, refer to the comments in the
+`TraceLoggingProvider.h` header regarding the `TLG_HAVE_EVENT_SET_INFORMATION`
+macro.
 
 ## -see-also
 

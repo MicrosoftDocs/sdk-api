@@ -21,8 +21,8 @@ ms.keywords:
 req.header: traceloggingprovider.h
 req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
@@ -77,7 +77,8 @@ provided, the event field name will be based on _value_.
 #### - description [in, optional]
 
 The description of the event field's value. If provided, the description
-parameter must be a string literal and will be included in the PDB.
+parameter must be a string literal and will be included in the
+[PDB](/windows-hardware/drivers/debugger/symbols).
 
 #### - tags [in, optional]
 
@@ -102,24 +103,24 @@ the _value_ expression. Based on the type of _value_,
 `TraceLoggingValue(value, ...)` is equivalent to one of the standard
 TraceLogging wrapper macros as follows:
 
-| Type of _value_ | Equivalent to          | Notes                                                   |
-| --------------- | ---------------------- | ------------------------------------------------------- |
+| Type of _value_ | Equivalent to          | Notes                                                    |
+| --------------- | ---------------------- | -------------------------------------------------------- |
 | `bool`          | TraceLoggingBoolean    |
-| `char`          | TraceLoggingChar       | Only for char, not for signed char or unsigned char.    |
+| `char`          | TraceLoggingChar       | Only for char, not for signed char or unsigned char.     |
 | `char16_t`      | TraceLoggingChar16     |
-| `wchar_t`       | TraceLoggingWChar      | Only for native wchar_t, not for USHORT.                |
-| `intNN_t`       | TraceLoggingIntNN      | For signed char, short, int, long, and long long.       |
-| `uintNN_t`      | TraceLoggingUIntNN     | For unsigned char, short, int, long, and long long.     |
+| `wchar_t`       | TraceLoggingWChar      | Only for native wchar_t, not for USHORT.                 |
+| `intNN_t`       | TraceLoggingIntNN      | For signed char, short, int, long, and long long.        |
+| `uintNN_t`      | TraceLoggingUIntNN     | For unsigned char, short, int, long, and long long.      |
 | `float`         | TraceLoggingFloat32    |
 | `double`        | TraceLoggingFloat64    |
 | `GUID`          | TraceLoggingGuid       |
 | `FILETIME`      | TraceLoggingFileTime   |
 | `SYSTEMTIME`    | TraceLoggingSystemTime |
-| `SID*`          | TraceLoggingSid        | Requires non-NULL and valid `SID`.                      |
-| `void*`         | TraceLoggingPointer    | Logs the pointer value, not the referenced data.        |
-| `char*`         | TraceLoggingString     | Nul-terminated CP_ACP string. NULL is treated as `""`.  |
-| `char16_t*`     | TraceLoggingString16   | Nul-terminated UTF-16 string. NULL is treated as `u""`. |
-| `wchar_t*`      | TraceLoggingWideString | Nul-terminated UTF-16 string. NULL is treated as `L""`. |
+| `SID*`          | TraceLoggingSid        | Requires non-NULL and valid `SID`.                       |
+| `void*`         | TraceLoggingPointer    | Logs the pointer value, not the referenced data.         |
+| `char*`         | TraceLoggingString     | Zero-terminated CP_ACP string. NULL is treated as `""`.  |
+| `char16_t*`     | TraceLoggingString16   | Zero-terminated UTF-16 string. NULL is treated as `u""`. |
+| `wchar_t*`      | TraceLoggingWideString | Zero-terminated UTF-16 string. NULL is treated as `L""`. |
 
 ## -see-also
 

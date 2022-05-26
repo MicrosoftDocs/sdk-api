@@ -22,8 +22,8 @@ ms.keywords:
 req.header: traceloggingprovider.h
 req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
@@ -88,7 +88,8 @@ provided, the event field name will be based on _pSockAddr_.
 #### - description [in, optional]
 
 The description of the event field's value. If provided, the description
-parameter must be a string literal and will be included in the PDB.
+parameter must be a string literal and will be included in the
+[PDB](/windows-hardware/drivers/debugger/symbols).
 
 #### - tags [in, optional]
 

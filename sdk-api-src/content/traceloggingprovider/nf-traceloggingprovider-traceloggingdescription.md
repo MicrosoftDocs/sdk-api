@@ -20,8 +20,8 @@ ms.keywords:
 req.header: traceloggingprovider.h
 req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
@@ -76,7 +76,9 @@ invocation of a
 If multiple description args are provided, they are concatenated together into a
 single string.
 
-Event descriptions are stored in the PDB. They are not available at runtime.
+Event descriptions are stored in the
+[PDB](/windows-hardware/drivers/debugger/symbols). They are not available at
+runtime.
 
 ## -see-also
 

@@ -19,8 +19,8 @@ ms.keywords:
 req.header: traceloggingprovider.h
 req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
@@ -79,7 +79,7 @@ a [TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md) macro to
 set the event's opcode.
 
 If no **TraceLoggingOpcode** macros are provided to a **TraceLoggingWrite**
-call, the event’s default opcode is 0 (WINEVENT_OPCODE_INFO). If multiple
+call, the event's default opcode is 0 (WINEVENT_OPCODE_INFO). If multiple
 **TraceLoggingOpcode** macros are provided, the last value is used.
 
 Opcodes WINEVENT_OPCODE_START (1) and WINEVENT_OPCODE_STOP (2) are used to

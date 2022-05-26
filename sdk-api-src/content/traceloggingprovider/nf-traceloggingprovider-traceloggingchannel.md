@@ -19,8 +19,8 @@ ms.keywords:
 req.header: traceloggingprovider.h
 req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
@@ -58,7 +58,7 @@ api_name:
 ## -description
 
 [TraceLogging wrapper macro](/windows/desktop/tracelogging/tracelogging-wrapper-macros)
-that sets the event's channel.
+that sets the channel for the event.
 
 Most TraceLogging events do not need to change the event's default channel and
 should not use TraceLoggingChannel.

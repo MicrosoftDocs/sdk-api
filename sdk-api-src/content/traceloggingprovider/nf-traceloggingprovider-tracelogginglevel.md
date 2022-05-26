@@ -19,8 +19,8 @@ ms.keywords:
 req.header: traceloggingprovider.h
 req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
@@ -65,12 +65,14 @@ that sets the level for the event.
 ### -param eventLevel [in]
 
 An 8-bit number used to describe an event's severity or importance. This value
-must be a compile-time constant in the range 0 to 255.
+must be a compile-time constant in the range 0 to 255. If no
+**TraceLoggingLevel** arguments are provided to a **TraceLoggingWrite** call,
+the event's level will default to 5 (WINEVENT_LEVEL_VERBOSE).
 
 > [!Important]
 > ProviderId, Level and Keyword are the primary means for filtering
 > events. Other kinds of filtering are possible but have much higher overhead.
-> Always assign a non-zero level and keyword to every event.
+> Always assign a meaningful non-zero level and keyword to every event.
 
 See [EVENT_DESCRIPTOR](../evntprov/ns-evntprov-event_descriptor.md) for details
 about the event level.
@@ -83,12 +85,12 @@ the event's level. Event level is a primary means for filtering events. Always
 assign a meaningful (non-zero) level to every event.
 
 If no **TraceLoggingLevel** macros are provided to a **TraceLoggingWrite** call,
-the event’s default level is 5 (WINEVENT_LEVEL_VERBOSE). If multiple
+the event's default level is 5 (WINEVENT_LEVEL_VERBOSE). If multiple
 **TraceLoggingLevel** macros are provided, the last value is used.
 
 Level values 0 through 5 are defined by Microsoft (see `evntrace.h` and
-`winmeta.h`). Level values 6 through 15 are reserved. Level values 16 through
-255 can be defined by the event provider.
+`winmeta.h`). Level values 6 through 15 are reserved for future definition by
+Microsoft. Level values 16 through 255 can be defined by the event provider.
 
 | Value              | Semantics                                                                     |
 | ------------------ | ----------------------------------------------------------------------------- |

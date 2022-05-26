@@ -19,8 +19,8 @@ ms.keywords:
 req.header: traceloggingprovider.h
 req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
@@ -70,7 +70,7 @@ categories. This value must be a compile-time constant.
 > [!Important]
 > ProviderId, Level and Keyword are the primary means for filtering
 > events. Other kinds of filtering are possible but have much higher overhead.
-> Always assign a non-zero level and keyword to every event.
+> Always assign a meaningful non-zero level and keyword to every event.
 
 See [EVENT_DESCRIPTOR](../evntprov/ns-evntprov-event_descriptor.md) for details
 about the event keyword.
@@ -83,7 +83,7 @@ to set the event's keyword. Event keyword is a primary means for filtering
 events. Always assign a meaningful (non-zero) keyword to every event.
 
 If no **TraceLoggingKeyword** macros are provided to a **TraceLoggingWrite**
-call, the event’s default keyword is 0. If multiple **TraceLoggingKeyword**
+call, the event's default keyword is 0. If multiple **TraceLoggingKeyword**
 macros are provided, they are OR'ed together.
 
 The top 16 bits of the keyword (bitmask 0xFFFF000000000000) are defined by

@@ -22,8 +22,8 @@ ms.keywords:
 req.header: traceloggingprovider.h
 req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
@@ -81,7 +81,9 @@ invocation of a
 TraceLogging events do not need custom attributes and should not use
 TraceLoggingCustomAttribute.
 
-Custom attributes are stored in the PDB. They are not available at runtime.
+Custom attributes are stored in the
+[PDB](/windows-hardware/drivers/debugger/symbols). They are not available at
+runtime.
 
 ## -see-also
 

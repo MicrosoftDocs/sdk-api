@@ -21,8 +21,8 @@ ms.keywords:
 req.header: traceloggingprovider.h
 req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
@@ -103,7 +103,8 @@ provided, the event field name will be based on _pbValue_.
 #### - description [in, optional]
 
 The description of the event field's value. If provided, the description
-parameter must be a string literal and will be included in the PDB.
+parameter must be a string literal and will be included in the
+[PDB](/windows-hardware/drivers/debugger/symbols).
 
 #### - tags [in, optional]
 
@@ -131,7 +132,7 @@ equivalent to
 Decoders should access TraceLoggingCustom serialized fields using the TDH APIs.
 The TRACE_EVENT_INFO structure returned by TdhGetEventInformation will contain
 two EVENT_PROPERTY_INFO structures related to a logged TraceLoggingCustom field.
-These correlate in the typical fashion with the data found in the EVENT_RECORD’s
+These correlate in the typical fashion with the data found in the EVENT_RECORD's
 UserData blob for a binary field (TDH_INTYPE_BINARY).
 
 - The first of the two EVENT_PROPERTY_INFO structures is the "Length" property

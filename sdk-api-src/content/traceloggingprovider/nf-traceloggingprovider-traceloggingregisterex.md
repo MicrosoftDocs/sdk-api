@@ -22,8 +22,8 @@ ms.keywords:
 req.header: traceloggingprovider.h
 req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
@@ -68,8 +68,8 @@ is unregistered or the process exits.
 
 ### -param hProvider [in, out]
 
-The handle of the provider to register. The handle must not already be
-registered.
+The handle of the TraceLogging provider to register. The handle must not already
+be registered.
 
 ### -param pEnableCallback [in, optional]
 
@@ -103,6 +103,15 @@ See [TraceLoggingRegister](./nf-traceloggingprovider-traceloggingregister.md)
 for details on registering providers. See
 [ETW Enable Callback](../evntprov/nc-evntprov-penablecallback.md) for details on
 the callback behavior.
+
+**TraceLoggingRegisterEx** does the following:
+
+- Calls **EventRegister** to open the connection to ETW.
+- If **EventRegister** succeeds, calls
+  [TraceLoggingSetInformation](./nf-traceloggingprovider-traceloggingsetinformation.md)
+  with _InformationClass_
+  [EventProviderSetTraits](../evntprov/ne-evntprov-event_info_class.md) to
+  configure the provider for TraceLogging support.
 
 A call to
 [**TraceLoggingRegister**](./nf-traceloggingprovider-traceloggingregister.md) is

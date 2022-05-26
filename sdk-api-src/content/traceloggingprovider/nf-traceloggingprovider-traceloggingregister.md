@@ -15,12 +15,12 @@ req.idl:
 req.include-header:
 req.irql:
 req.kmdf-ver:
-req.lib:
+req.lib: Advapi32.lib
 req.max-support:
 req.namespace:
 req.redist:
-req.target-min-winverclnt: Windows 10 Build 20348
-req.target-min-winversvr: Windows 10 Build 20348
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.target-type:
 req.type-library:
 req.umdf-ver:
@@ -48,8 +48,8 @@ registration is valid until the provider is unregistered or the process exits.
 
 ### -param hProvider
 
-The handle of the provider to register. The handle must not already be
-registered.
+The handle of the TraceLogging provider to register. The handle must not already
+be registered.
 
 ## -returns
 
@@ -114,6 +114,15 @@ unregistered provider handle.
 > returning the error from _DriverEntry_. Normal driver cleanup routines will
 > not be called if the driver returns an error from _DriverEntry_, and failure
 > to call **TraceLoggingUnregister** will cause the system to crash.
+
+**TraceLoggingRegister** does the following:
+
+- Calls **EventRegister** to open the connection to ETW.
+- If **EventRegister** succeeds, calls
+  [TraceLoggingSetInformation](./nf-traceloggingprovider-traceloggingsetinformation.md)
+  with _InformationClass_
+  [EventProviderSetTraits](../evntprov/ne-evntprov-event_info_class.md) to
+  configure the provider for TraceLogging support.
 
 A call to **TraceLoggingRegister** is the same as a call to
 [**TraceLoggingRegisterEx**](./nf-traceloggingprovider-traceloggingregisterex.md)

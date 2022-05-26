@@ -19,8 +19,8 @@ ms.keywords:
 req.header: traceloggingprovider.h
 req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
@@ -30,7 +30,7 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-req.lib:
+req.lib: Advapi32.lib
 req.dll:
 req.irql:
 targetos: Windows
@@ -64,13 +64,13 @@ Emits a TraceLogging event.
 ### -param hProvider [in]
 
 The handle of the
-[provider](./nf-traceloggingprovider-tracelogging_define_provider.md) to use for
-writing the event.
+[TraceLogging provider](./nf-traceloggingprovider-tracelogging_define_provider.md)
+to use for writing the event.
 
 ### -param eventName [in]
 
 A short and unique name to use for identifying the event. This must be a string
-literal and not a variable. It cannot have any embedded nul characters.
+literal and not a variable. It cannot have any embedded `'\0'` characters.
 
 #### - args [in, optional]
 
