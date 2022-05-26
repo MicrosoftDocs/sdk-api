@@ -39,7 +39,7 @@ helpviewer_keywords:
 
 ## -description
 
-An enumeration of the set of supported template policies. Template configurations may be updated to include conditions for new resource types in the future. While these templates cover the needs of most activities, developers should customize their policies where needed to ensure that all resources are configured appropriately for their activity.
+An enumeration of the set of supported template policies. These templates cover the needs of most activities, but developers should customize their policies where needed to ensure that all resources are configured appropriately for their activity.
 
 ## -enum-fields
 
@@ -63,8 +63,8 @@ This template represents an empty policy. It's used as the basis for a completel
 
 ## -remarks
 
-> [!IMPORTANT]
-> Template configurations are provided below for reference only. *Configurations may be updated in the future to meet user needs as common workflows and system configurations evolve.* However, such updates will not break the reasonable expectations these policies provide. Updates will primarily be limited to new conditions for previously unconfigured resources, particularly when adding new resource types. Updates will not remove configurations for already configured resources in a template.
+[!IMPORTANT]
+Template configurations are provided below for reference only. *Configurations may be updated in the future to meet user needs as common workflows and system configurations evolve.* However, such updates will not break the reasonable expectations these policies provide. Updates will primarily be limited to new conditions for previously unconfigured resources, particularly when adding new resource types. Updates will not remove configurations for already configured resources in a template.
 
 ### Available conditions for resources
 
