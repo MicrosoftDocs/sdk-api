@@ -46,19 +46,26 @@ helpviewer_keywords:
 
 ## -description
 
-tbd
+Specifies the data for a user-mode asynchronous procedure call (APC) object.
 
 ## -struct-fields
 
 ### -field Parameter
 
+The data passed to the function using the dwData parameter of the [QueueUserAPC](nf-processthreadsapi-queueuserapc.md) function.
+
 ### -field ContextRecord
+
+The processor context that was interrupted when the thread was directed to call the APC function.
 
 ### -field Reserved0
 
+Reserved for future use; must be zero.
+
 ### -field Reserved1
+
+Reserved for future use; must be zero.
 
 ## -remarks
 
 ## -see-also
-
