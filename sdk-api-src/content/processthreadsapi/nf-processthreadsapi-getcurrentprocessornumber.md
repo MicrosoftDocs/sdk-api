@@ -60,8 +60,6 @@ api_name:
 
 Retrieves the number of the processor the current thread was running on during the call to this function.
 
-
-
 ## -returns
 
 The function returns the current processor number.
