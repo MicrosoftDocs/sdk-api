@@ -218,6 +218,19 @@ On output, pass the following <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-w
 </ul>
 You must allocate the memory for <b>pstrVal</b> by using the <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> function.
 
+#### PROPERTY_TYPE_ENABLE_UNIVERSAL_APPS_FOR_CUSTOM_SHELL (ed2c3fda-338d-4d3f-81a3-e767310d908e)
+
+Used by the Remote Desktop Services service determine if ShellAppRuntime.exe will be launched before any Custom Shells during session creation. ShellAppRuntime.exe implements Universal App support for Custom Shells. This is not enabled by default (equivalent to passing zero). This is available in Windows versions that are Server 2019 and above or Windows 10 multi-session Build 18950 and above.
+
+The <i>pPropertyEntriesIn</i> parameter will be <b>NULL</b>.
+
+On output, pass the following <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WRDS_PROPERTY_VALUE</a> structure in the <i>pPropertyEntriesOut</i> parameter:
+
+<ul>
+<li><code>pPropertyEntriesOut[0].Type = </code><b>WRDS_VALUE_TYPE_ULONG</b></li>
+<li><code>pPropertyEntriesOut[0].u.ulVal = </code><i>0 to not enable Universal Apps Support for Custom Shells, 1 Enable Universal Apps Support for Custom Shells</i></li>
+</ul>
+
 #### CONNECTION_PROPERTY_IDLE_TIME_WARNING (693f7ff5-0c4e-4d17-b8e0-1f70325e5d58)
 
 Used to determine whether a logoff warning prompt is displayed when the idle timer expires.
