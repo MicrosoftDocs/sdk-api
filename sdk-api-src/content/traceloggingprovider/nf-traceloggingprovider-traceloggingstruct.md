@@ -76,23 +76,25 @@ string literal (not a variable) and must not contain any '\0' characters.
 
 ### -param __VA_ARGS__ [in, optional]
 
-TraceLoggingStruct can be specified with 2, 3, or 4 parameters. The description
-and tags parameters are optional. If a parameter is not specified, a default
-will be used. For example, `TraceLoggingStruct(3, "MyStruct")` is equivalent to
+Optional _description_ and _tags_ parameters for the field definition.
+
+TraceLoggingStruct can be specified with 2, 3, or 4 parameters. If a parameter
+is not specified, a default will be used. For example,
+`TraceLoggingStruct(3, "MyStruct")` is equivalent to
 `TraceLoggingStruct(3, "MyStruct", "", 0)`.
 
-#### description [in, optional]
+- **description**
 
-The description of the event field's value. If provided, the description
-parameter must be a string literal and will be included in the
-[PDB](/windows-hardware/drivers/debugger/symbols).
+  The description of the event field's value. If provided, the description
+  parameter must be a string literal and will be included in the
+  [PDB](/windows-hardware/drivers/debugger/symbols).
 
-#### tags [in, optional]
+- **tags**
 
-A compile-time constant integer value. The low 28 bits of the value will be
-included in the field's metadata. The semantics of this value are defined by the
-event consumer. During event processing, this value can be retrieved from the
-[EVENT_PROPERTY_INFO](../tdh/ns-tdh-event_property_info.md) Tags field.
+  A compile-time constant integer value. The low 28 bits of the value will be
+  included in the field's metadata. The semantics of this value are defined by
+  the event consumer. During event processing, this value can be retrieved from
+  the [EVENT_PROPERTY_INFO](../tdh/ns-tdh-event_property_info.md) Tags field.
 
 ## -remarks
 

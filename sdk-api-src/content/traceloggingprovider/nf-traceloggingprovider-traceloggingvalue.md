@@ -70,29 +70,30 @@ The event field value.
 
 ### -param __VA_ARGS__ [in, optional]
 
-TraceLoggingValue can be specified with 1, 2, 3, or 4 parameters. The name,
-description, and tags parameters are optional. If a parameter is not specified,
-a default will be used. For example, `TraceLoggingValue(a+b)` is equivalent to
-`TraceLoggingValue(a+b, "a+b", "", 0)`.
+Optional _name_, _description_, and _tags_ parameters for the field definition.
 
-#### name [in, optional]
+TraceLoggingValue can be specified with 1, 2, 3, or 4 parameters. If a parameter
+is not specified, a default will be used. For example, `TraceLoggingValue(a+b)`
+is equivalent to `TraceLoggingValue(a+b, "a+b", "", 0)`.
 
-The name to use for the event field. If provided, the name parameter must be a
-string literal (not a variable) and must not contain any '\0' characters. If not
-provided, the event field name will be based on _value_.
+- **name**
 
-#### description [in, optional]
+  The name to use for the event field. If provided, the name parameter must be a
+  string literal (not a variable) and must not contain any '\0' characters. If
+  not provided, the event field name will be based on _value_.
 
-The description of the event field's value. If provided, the description
-parameter must be a string literal and will be included in the
-[PDB](/windows-hardware/drivers/debugger/symbols).
+- **description**
 
-#### tags [in, optional]
+  The description of the event field's value. If provided, the description
+  parameter must be a string literal and will be included in the
+  [PDB](/windows-hardware/drivers/debugger/symbols).
 
-A compile-time constant integer value. The low 28 bits of the value will be
-included in the field's metadata. The semantics of this value are defined by the
-event consumer. During event processing, this value can be retrieved from the
-[EVENT_PROPERTY_INFO](../tdh/ns-tdh-event_property_info.md) Tags field.
+- **tags**
+
+  A compile-time constant integer value. The low 28 bits of the value will be
+  included in the field's metadata. The semantics of this value are defined by
+  the event consumer. During event processing, this value can be retrieved from
+  the [EVENT_PROPERTY_INFO](../tdh/ns-tdh-event_property_info.md) Tags field.
 
 ## -remarks
 

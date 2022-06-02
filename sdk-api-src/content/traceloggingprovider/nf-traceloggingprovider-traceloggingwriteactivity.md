@@ -90,7 +90,7 @@ such as [TraceLoggingLevel](./nf-traceloggingprovider-tracelogginglevel.md),
 [TraceLoggingKeyword](./nf-traceloggingprovider-traceloggingkeyword.md), or
 [TraceLoggingValue](./nf-traceloggingprovider-traceloggingvalue.md).
 
-> [!Important]
+> [!IMPORTANT]
 > ProviderId, Level and Keyword are the primary means for filtering
 > events. Other kinds of filtering are possible but have much higher overhead.
 > Always assign a non-zero level and keyword to every event.
@@ -177,7 +177,7 @@ if (TraceLoggingProviderEnabled(hProvider, eventLevel, eventKeyword))
 }
 ```
 
-> [!Note]
+> [!NOTE]
 > Each **TraceLoggingWriteActivity** macro automatically checks
 > [**TraceLoggingProviderEnabled**](./nf-traceloggingprovider-traceloggingproviderenabled.md)
 > so the event will only be written if a consumer is listening for events from
@@ -198,7 +198,7 @@ Since each parameter may require the use of 0, 1, or 2 descriptors, it is
 possible to hit the data descriptor limit (128) before hitting the argument
 limit (99).
 
-> [!Important]
+> [!IMPORTANT]
 > Try to avoid large events. ETW is primarily designed for handling
 > small events. **TraceLoggingWriteActivity** will silently drop any event that
 > is too large. The event's size is based on the total of the event's headers

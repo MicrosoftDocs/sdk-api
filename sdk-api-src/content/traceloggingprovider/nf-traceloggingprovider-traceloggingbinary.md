@@ -73,34 +73,35 @@ The size, in bytes, of the data to be included in the event.
 
 ### -param __VA_ARGS__ [in, optional]
 
-TraceLoggingBinary can be specified with 2, 3, 4, or 5 parameters. The name,
-description, and tags parameters are optional. If an optional parameter is not
-specified, a default will be used. For example,
+Optional _name_, _description_, and _tags_ parameters for the field definition.
+
+TraceLoggingBinary can be specified with 2, 3, 4, or 5 parameters. If an
+optional parameter is not specified, a default will be used. For example,
 `TraceLoggingBinary(&x.data, sizeof(x.data))` is equivalent to
 `TraceLoggingBinary(&x.data, sizeof(x.data), "&x.data", "", 0)`.
 
-#### name [in, optional]
+- **name**
 
-The name to use for the event field. If provided, the name parameter must be a
-string literal (not a variable) and must not contain any '\0' characters. If not
-provided, the event field name will be based on _pbData_.
+  The name to use for the event field. If provided, the name parameter must be a
+  string literal (not a variable) and must not contain any '\0' characters. If
+  not provided, the event field name will be based on _pValue_.
 
-#### description [in, optional]
+- **description**
 
-The description of the event field's value. If provided, the description
-parameter must be a string literal and will be included in the
-[PDB](/windows-hardware/drivers/debugger/symbols).
+  The description of the event field's value. If provided, the description
+  parameter must be a string literal and will be included in the
+  [PDB](/windows-hardware/drivers/debugger/symbols).
 
-#### tags [in, optional]
+- **tags**
 
-A compile-time constant integer value. The low 28 bits of the value will be
-included in the field's metadata. The semantics of this value are defined by the
-event consumer. During event processing, this value can be retrieved from the
-[EVENT_PROPERTY_INFO](../tdh/ns-tdh-event_property_info.md) Tags field.
+  A compile-time constant integer value. The low 28 bits of the value will be
+  included in the field's metadata. The semantics of this value are defined by
+  the event consumer. During event processing, this value can be retrieved from
+  the [EVENT_PROPERTY_INFO](../tdh/ns-tdh-event_property_info.md) Tags field.
 
 ## -remarks
 
-`TraceLoggingBinary(pbData, cbData, ...)` can be used as a parameter to an
+`TraceLoggingBinary(pValue, cbValue, ...)` can be used as a parameter to an
 invocation of a
 [TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md) macro. Each
 TraceLoggingBinary parameter adds one field to the event.
