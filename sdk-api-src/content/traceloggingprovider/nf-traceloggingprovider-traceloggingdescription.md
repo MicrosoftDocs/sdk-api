@@ -63,7 +63,7 @@ that sets the description for the event.
 
 ## -parameters
 
-### -param description [in]
+### -param eventDescription [in]
 
 The description of the event. This value must be a string literal.
 

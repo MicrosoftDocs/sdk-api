@@ -69,12 +69,49 @@ need to use TraceLoggingOptionGroup.
 
 ## -parameters
 
-### -param g1... [in]
+### -param g1 [in]
 
-A comma-separated list of 11 integers providing the provider group GUID. For
-example, to specify provider group GUID
-`{798d0c76-4209-5932-a2af-2d94a2e66c45}`, use
-`TraceLoggingOptionGroup(0x798d0c76,0x4209,0x5932,0xa2,0xaf,0x2d,0x94,0xa2,0xe6,0x6c,0x45)`.
+The first 4 bytes of the GUID.
+
+### -param g2 [in]
+
+The next 2 bytes of the GUID.
+
+### -param g3 [in]
+
+The next 2 bytes of the GUID.
+
+### -param g4 [in]
+
+The next byte of the GUID.
+
+### -param g5 [in]
+
+The next byte of the GUID.
+
+### -param g6 [in]
+
+The next byte of the GUID.
+
+### -param g7 [in]
+
+The next byte of the GUID.
+
+### -param g8 [in]
+
+The next byte of the GUID.
+
+### -param g9 [in]
+
+The next byte of the GUID.
+
+### -param g10 [in]
+
+The next byte of the GUID.
+
+### -param g11 [in]
+
+The next byte of the GUID.
 
 ## -remarks
 

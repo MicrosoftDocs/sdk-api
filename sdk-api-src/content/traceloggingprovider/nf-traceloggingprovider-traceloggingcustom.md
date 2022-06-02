@@ -67,7 +67,7 @@ use TraceLoggingCustom.
 
 ## -parameters
 
-### -param pbValue [in]
+### -param pValue [in]
 
 A pointer to the field's payload, serialized at runtime by a serializer from the
 specified protocol family.
@@ -94,19 +94,28 @@ in this list must be compile-time constant. Example: (0x12, 0x23, 0x34)
 The number of byte values provided in **bSchema**. This value must be a
 compile-time constant.
 
-### -param name [in, optional]
+### -param __VA_ARGS__ [in, optional]
+
+TraceLoggingCustom can be specified with 5, 6, 7, or 8 parameters. The name,
+description, and tags parameters are optional. If a parameter is not specified,
+a default will be used. For example,
+`TraceLoggingCustom(&x.data, sizeof(x.data), p, (schema), cbSchema)` is
+equivalent to
+`TraceLoggingCustom(&x.data, sizeof(x.data), p, (schema), cbSchema, "&x.data", "", 0)`.
+
+#### name [in, optional]
 
 The name to use for the event field. If provided, the name parameter must be a
 string literal (not a variable) and must not contain any '\0' characters. If not
 provided, the event field name will be based on _pbValue_.
 
-### -param description [in, optional]
+#### description [in, optional]
 
 The description of the event field's value. If provided, the description
 parameter must be a string literal and will be included in the
 [PDB](/windows-hardware/drivers/debugger/symbols).
 
-### -param tags [in, optional]
+#### tags [in, optional]
 
 A compile-time constant integer value. The low 28 bits of the value will be
 included in the field's metadata. The semantics of this value are defined by the
@@ -122,12 +131,6 @@ TraceLoggingCustom parameter adds a custom-serialized field to the event. Most
 TraceLogging events do not use custom serializers and should not use
 TraceLoggingCustom. General-purpose ETW decoders do not support fields that use
 custom serialization and will typically treat the fields as TDH_INTYPE_BINARY.
-
-TraceLoggingCustom can be specified with 5, 6, 7, or 8 parameters. If a
-parameter is not specified, a default will be used. For example,
-`TraceLoggingCustom(&x.data, sizeof(x.data), p, (schema), cbSchema)` is
-equivalent to
-`TraceLoggingBinary(&x.data, sizeof(x.data), p, (schema), cbSchema, "&x.data", "", 0)`.
 
 Decoders should access TraceLoggingCustom serialized fields using the TDH APIs.
 The TRACE_EVENT_INFO structure returned by TdhGetEventInformation will contain

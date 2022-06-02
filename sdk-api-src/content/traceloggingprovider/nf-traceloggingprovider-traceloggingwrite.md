@@ -72,7 +72,7 @@ to use for writing the event.
 A short and unique name to use for identifying the event. This must be a string
 literal and not a variable. It cannot have any embedded `'\0'` characters.
 
-### -param VA_ARGS [in, optional]
+### -param __VA_ARGS__ [in, optional]
 
 Up to 99 additional parameters to configure or add fields to the event. Each
 parameter must be one of the

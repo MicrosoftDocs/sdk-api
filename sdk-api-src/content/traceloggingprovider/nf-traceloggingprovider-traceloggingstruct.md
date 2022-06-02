@@ -74,13 +74,20 @@ parameter must be a compile-time constant.
 The name to use for the structure in the event. The name parameter must be a
 string literal (not a variable) and must not contain any '\0' characters.
 
-### -param description [in, optional]
+### -param __VA_ARGS__ [in, optional]
+
+TraceLoggingStruct can be specified with 2, 3, or 4 parameters. The description
+and tags parameters are optional. If a parameter is not specified, a default
+will be used. For example, `TraceLoggingStruct(3, "MyStruct")` is equivalent to
+`TraceLoggingStruct(3, "MyStruct", "", 0)`.
+
+#### description [in, optional]
 
 The description of the event field's value. If provided, the description
 parameter must be a string literal and will be included in the
 [PDB](/windows-hardware/drivers/debugger/symbols).
 
-### -param tags [in, optional]
+#### tags [in, optional]
 
 A compile-time constant integer value. The low 28 bits of the value will be
 included in the field's metadata. The semantics of this value are defined by the
@@ -95,11 +102,6 @@ invocation of a
 TraceLoggingStruct parameter adds one logical field to the event. The field is a
 structure or group that contains the subsequent _fieldCount_ logical fields as
 its value.
-
-TraceLoggingStruct can be specified with 2, 3, or 4 parameters. If a parameter
-is not specified, a default will be used. For example,
-`TraceLoggingStruct(3, "MyStruct")` is equivalent to
-`TraceLoggingBinary(3, "MyStruct", "", 0)`.
 
 ### Examples
 

@@ -65,33 +65,41 @@ that adds a field with a socket address to the event.
 
 ## -parameters
 
-### -param pSockAddr [in]
+### -param pValue [in]
 
 A pointer to a sockaddr structure.
 
-### -param cbSockAddr [in]
+### -param cbValue [in]
 
-The size, in bytes, of the value pointed to by the _pSockAddr_ parameter.
+The size, in bytes, of the value pointed to by the _pValue_ parameter.
 
-> [!Note]
+> [!NOTE]
 > The amount of data needed for a sockaddr field varies depending on the
 > type of address. If the data is stored in a union variable, be sure to set the
-> cbSockAddr parameter to the size of the correct union member (or to the size
-> of the union) to avoid truncating the data.
+> cbValue parameter to the size of the correct union member (or to the size of
+> the union) to avoid truncating the data.
 
-### -param name [in, optional]
+### -param __VA_ARGS__ [in, optional]
+
+TraceLoggingSocketAddress can be specified with 2, 3, 4, or 5 parameters. The
+name, description, and tags parameters are optional. If a parameter is not
+specified, a default will be used. For example,
+`TraceLoggingSocketAddress(&x.sockAddr, sizeof(x.sockAddr))` is equivalent to
+`TraceLoggingSocketAddress(&x.sockAddr, sizeof(x.sockAddr), "&x.sockAddr", "", 0)`.
+
+#### name [in, optional]
 
 The name to use for the event field. If provided, the name parameter must be a
 string literal (not a variable) and must not contain any '\0' characters. If not
-provided, the event field name will be based on _pSockAddr_.
+provided, the event field name will be based on _pValue_.
 
-### -param description [in, optional]
+#### description [in, optional]
 
 The description of the event field's value. If provided, the description
 parameter must be a string literal and will be included in the
 [PDB](/windows-hardware/drivers/debugger/symbols).
 
-### -param tags [in, optional]
+#### tags [in, optional]
 
 A compile-time constant integer value. The low 28 bits of the value will be
 included in the field's metadata. The semantics of this value are defined by the
@@ -100,15 +108,10 @@ event consumer. During event processing, this value can be retrieved from the
 
 ## -remarks
 
-`TraceLoggingSocketAddress(pSockAddr, cbSockAddr, ...)` can be used as a
-parameter to an invocation of a
+`TraceLoggingSocketAddress(pValue, cbValue, ...)` can be used as a parameter to
+an invocation of a
 [TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md) macro. Each
 TraceLoggingSocketAddress parameter adds one field to the event.
-
-TraceLoggingSocketAddress can be specified with 2, 3, 4, or 5 parameters. If a
-parameter is not specified, a default will be used. For example,
-`TraceLoggingSocketAddress(&x.sockAddr, sizeof(x.sockAddr))` is equivalent to
-`TraceLoggingSocketAddress(&x.sockAddr, sizeof(x.sockAddr), "&x.sockAddr", "", 0)`.
 
 The value may be any Windows sockaddr type, e.g.
 [SOCKADDR](../ws2def/ns-ws2def-sockaddr.md),
@@ -118,8 +121,7 @@ The value may be any Windows sockaddr type, e.g.
 will record the raw binary data and the data size. The event decoder will use
 the `sa_family` field to determine the actual type of the socket address.
 
-> [!Note]
-> Not all decoders will support all sockaddr family types. If an
+> [!Note] Not all decoders will support all sockaddr family types. If an
 > unsupported sockaddr is encountered, the decoder might decode the field as raw
 > binary data instead of formatting it as an address.
 

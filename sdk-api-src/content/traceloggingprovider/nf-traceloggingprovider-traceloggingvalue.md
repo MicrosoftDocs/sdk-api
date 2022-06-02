@@ -68,19 +68,26 @@ for C++ that adds a field with an automatically-deduced type to the event.
 
 The event field value.
 
-### -param name [in, optional]
+### -param __VA_ARGS__ [in, optional]
+
+TraceLoggingValue can be specified with 1, 2, 3, or 4 parameters. The name,
+description, and tags parameters are optional. If a parameter is not specified,
+a default will be used. For example, `TraceLoggingValue(a+b)` is equivalent to
+`TraceLoggingValue(a+b, "a+b", "", 0)`.
+
+#### name [in, optional]
 
 The name to use for the event field. If provided, the name parameter must be a
 string literal (not a variable) and must not contain any '\0' characters. If not
 provided, the event field name will be based on _value_.
 
-### -param description [in, optional]
+#### description [in, optional]
 
 The description of the event field's value. If provided, the description
 parameter must be a string literal and will be included in the
 [PDB](/windows-hardware/drivers/debugger/symbols).
 
-### -param tags [in, optional]
+#### tags [in, optional]
 
 A compile-time constant integer value. The low 28 bits of the value will be
 included in the field's metadata. The semantics of this value are defined by the
@@ -93,10 +100,6 @@ In C++ code, `TraceLoggingValue(value, ...)` can be used as a parameter to an
 invocation of a
 [TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md) macro. Each
 TraceLoggingValue parameter adds one field to the event.
-
-TraceLoggingValue can be specified with 1, 2, 3, or 4 parameters. If a parameter
-is not specified, a default will be used. For example, `TraceLoggingValue(a+b)`
-is equivalent to `TraceLoggingValue(a+b, "a+b", "", 0)`.
 
 The type of the field in the ETW event is automatically deduced from the type of
 the _value_ expression. Based on the type of _value_,
