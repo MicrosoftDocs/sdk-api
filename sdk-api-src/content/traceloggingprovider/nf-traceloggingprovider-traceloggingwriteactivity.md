@@ -81,7 +81,7 @@ The activity ID for the event, or NULL to use the default.
 
 The related activity ID for the event, or NULL for no related activity ID.
 
-#### - args [in, optional]
+### -param VA_ARGS [in, optional]
 
 Up to 99 additional parameters to configure or add fields to the event. Each
 parameter must be one of the

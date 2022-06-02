@@ -74,13 +74,13 @@ parameter must be a compile-time constant.
 The name to use for the structure in the event. The name parameter must be a
 string literal (not a variable) and must not contain any '\0' characters.
 
-#### - description [in, optional]
+### -param description [in, optional]
 
 The description of the event field's value. If provided, the description
 parameter must be a string literal and will be included in the
 [PDB](/windows-hardware/drivers/debugger/symbols).
 
-#### - tags [in, optional]
+### -param tags [in, optional]
 
 A compile-time constant integer value. The low 28 bits of the value will be
 included in the field's metadata. The semantics of this value are defined by the
