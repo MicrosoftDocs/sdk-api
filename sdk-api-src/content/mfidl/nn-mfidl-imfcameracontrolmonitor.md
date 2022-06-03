@@ -42,7 +42,7 @@ Represents a camera control monitor that is used to subscribe and unsubscribe to
 
 ## -remarks
 
-Get an instance of this interface by calling [MFCreateCameraOcclusionStateMonitor](nn-mfidl-imfcameracontrolmonitor.md). Clients implement the [IMFCameraControlNotify](nn-mfidl-imfcameracontrolnotify.md) interface to receive notifications.
+Get an instance of this interface by calling [MFCreateCameraControlMonitor](nf-mfidl-mfcreatecameracontrolmonitor.md). Clients implement the [IMFCameraControlNotify](nn-mfidl-imfcameracontrolnotify.md) interface to receive notifications.
 
 ## -see-also
 
