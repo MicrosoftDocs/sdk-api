@@ -104,19 +104,19 @@ parameter is not specified, a default will be used. For example,
 equivalent to
 `TraceLoggingCustom(&x.data, sizeof(x.data), p, (schema), cbSchema, "&x.data", "", 0)`.
 
-- **name**
+- `[in, optional] name`
 
   The name to use for the event field. If provided, the name parameter must be a
   string literal (not a variable) and must not contain any '\0' characters. If
   not provided, the event field name will be based on _pValue_.
 
-- **description**
+- `[in, optional] description`
 
   The description of the event field's value. If provided, the description
   parameter must be a string literal and will be included in the
   [PDB](/windows-hardware/drivers/debugger/symbols).
 
-- **tags**
+- `[in, optional] tags`
 
   A compile-time constant integer value. The low 28 bits of the value will be
   included in the field's metadata. The semantics of this value are defined by
@@ -179,8 +179,9 @@ TraceLoggingWrite(
       TRACELOGGING_PROTOCOL_MYPROTOCOL,
       ( 0x0, 0x1, 0x2 ), // Generated at compile-time
       3,
-      "MyCustomField"
-   ));
+      "MyCustomField"),
+   TraceLoggingLevel(WINEVENT_LEVEL_WARNING), // Levels defined in <winmeta.h>
+   TraceLoggingKeyword(MyEventCategories)); // Provider-defined categories
 ```
 
 ## -see-also

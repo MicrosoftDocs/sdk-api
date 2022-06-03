@@ -72,9 +72,9 @@ been defined in a .c or .cpp file using
 
 ## -remarks
 
-Use this macro as needed in a header file of your component to forward-declare
-your TraceLogging provider handle. This macro does not allocate storage for the
-provider handle. In order to use the provider, you will need to use
+Use this macro as needed to forward-declare your TraceLogging provider handle,
+e.g. in a header file of your component. This macro does not allocate storage
+for the provider handle. In order to use the provider, you will need to use
 [TRACELOGGING_DEFINE_PROVIDER](./nf-traceloggingprovider-tracelogging_define_provider.md)
 to define the handle and
 [TraceLoggingRegister](./nf-traceloggingprovider-traceloggingregister.md) to
@@ -87,11 +87,11 @@ thought of as similar to code like:
 extern "C" const TraceLoggingHProvider MyProviderHandle;
 ```
 
-> [!Note]
+> [!NOTE]
 > The provider handle declared by `TRACELOGGING_DECLARE_PROVIDER` has
 > module scope. It can be used as needed within the EXE, DLL, or SYS file but
 > should not be shared with other DLLs in the same process. Each EXE, DLL, or
-> SYS file should use its own provider handle and should perform its own
+> SYS file should define its own provider handle and should perform its own
 > Register and Unregister.
 
 ## -see-also

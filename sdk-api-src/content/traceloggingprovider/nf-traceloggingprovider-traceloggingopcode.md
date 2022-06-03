@@ -68,9 +68,12 @@ An 8-bit number used to mark events with special semantics. This value must be a
 compile-time constant in the range 0 to 255.
 
 The opcode will be used by trace decoders to organize and correlate events.
-Globally-recognized opcode values are defined in winmeta.h. Most events use 0
+Globally-recognized opcode values are defined in `winmeta.h`. Most events use 0
 (WINEVENT_OPCODE_INFO) to indicate that the event has no special semantics.
 Opcode values 10 through 239 can be given user-defined semantics.
+
+See [EVENT_DESCRIPTOR](../evntprov/ns-evntprov-event_descriptor.md) for details
+about the event opcode.
 
 ## -remarks
 

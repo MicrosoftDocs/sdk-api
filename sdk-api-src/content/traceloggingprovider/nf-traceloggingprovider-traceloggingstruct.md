@@ -83,13 +83,13 @@ is not specified, a default will be used. For example,
 `TraceLoggingStruct(3, "MyStruct")` is equivalent to
 `TraceLoggingStruct(3, "MyStruct", "", 0)`.
 
-- **description**
+- `[in, optional] description`
 
   The description of the event field's value. If provided, the description
   parameter must be a string literal and will be included in the
   [PDB](/windows-hardware/drivers/debugger/symbols).
 
-- **tags**
+- `[in, optional] tags`
 
   A compile-time constant integer value. The low 28 bits of the value will be
   included in the field's metadata. The semantics of this value are defined by
@@ -111,6 +111,8 @@ its value.
 TraceLoggingWrite(
     g_hProvider,
     "MyEventWithStruct",
+    TraceLoggingLevel(WINEVENT_LEVEL_WARNING), // Levels defined in <winmeta.h>
+    TraceLoggingKeyword(MyEventCategories), // Provider-defined categories
     TraceLoggingInt32(num1, "BeforeStruct"),
     TraceLoggingStruct(3, "StructWith3Fields"),
         TraceLoggingInt32(num2, "StructField1"),
@@ -121,6 +123,8 @@ TraceLoggingWrite(
 TraceLoggingWrite(
     g_hProvider,
     "MyEventWithNestedStruct",
+    TraceLoggingLevel(WINEVENT_LEVEL_VERBOSE), // Levels defined in <winmeta.h>
+    TraceLoggingKeyword(MyEventCategories), // Provider-defined categories
     TraceLoggingInt32(num1, "BeforeStruct"),
     TraceLoggingStruct(3, "StructWith3Fields"),
         TraceLoggingInt32(num2, "StructField1"),

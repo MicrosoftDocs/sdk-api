@@ -105,6 +105,17 @@ Event collection sessions can set a level filter, meaning that the session will
 only accept events where `eventDescriptor.Level <= session.LevelFilter`. Note
 that events with a level of 0 will bypass level-based filtering.
 
+### Examples
+
+```c
+TraceLoggingWrite(
+    g_hMyProvider,
+    "MyWarningEventName",
+    TraceLoggingLevel(WINEVENT_LEVEL_WARNING), // Levels defined in <winmeta.h>
+    TraceLoggingKeyword(MyNetworkingKeyword), // Provider-defined keyword
+    TraceLoggingHResult(errorCode, "Error"));
+```
+
 ## -see-also
 
 [EVENT_DESCRIPTOR](../evntprov/ns-evntprov-event_descriptor.md)

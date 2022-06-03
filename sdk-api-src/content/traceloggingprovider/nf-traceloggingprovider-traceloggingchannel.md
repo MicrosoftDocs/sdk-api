@@ -70,6 +70,9 @@ should not use TraceLoggingChannel.
 The channel to which the event should be logged. This is an integer value from 0
 to 255.
 
+See [EVENT_DESCRIPTOR](../evntprov/ns-evntprov-event_descriptor.md) for details
+about the event channel.
+
 ## -remarks
 
 `TraceLoggingChannel(eventChannel)` can be used as a parameter to an invocation
@@ -110,15 +113,14 @@ events (all events for the component are described in one manifest file) and
 because it supports localizable message strings that can help the administrator
 know how to react to the event.
 
-Although TraceLogging events do not have message strings and are typically not
-centrally-curated (typically scattered over many C/C++ source code files),
-TraceLogging can still be appropriate for some Event Log scenarios. For example,
-while events that go to the Windows Logs (Application, Security, Setup and
-System) should always have localized message strings and should always be
-directed at the system administrator, events recorded in the Applications and
-Services Logs can be more technical and can record diagnostic information. When
-writing to the Applications and Services Logs, you might want to use
-TraceLogging to simplify management of the logged events.
+Although TraceLogging events do not have message strings and are generally not
+centrally-curated, TraceLogging can still be appropriate for some Event Log
+scenarios. For example, while events that go to the Windows Logs (Application,
+Security, Setup and System) should always have localized message strings and
+should always be useful to the system administrator, events recorded in the
+Applications and Services Logs can be more technical and can record diagnostic
+information. When writing to the Applications and Services Logs, you might want
+to use TraceLogging to simplify management of the logged events.
 
 Using TraceLogging events with Windows Event Log is similar to using normal
 manifest-based events with Event Log. You still need to create and register a
@@ -193,9 +195,10 @@ Example of a TraceLogging event for Event Log:
 TraceLoggingWrite(
     g_hMyProvider,
     "MyWarningEventName",
-    TraceLoggingLevel(TRACE_LEVEL_WARNING),
     TraceLoggingChannel(MY_CHANNEL),         // constant from the MC-generated header
     TraceLoggingKeyword(MY_CHANNEL_KEYWORD), // constant from the MC-generated header
+    TraceLoggingLevel(WINEVENT_LEVEL_WARNING), // Levels defined in <winmeta.h>
+    TraceLoggingKeyword(MyEventCategories), // Additional keywords are ok.
     TraceLoggingHResult(errorCode, "Error"));
 ```
 

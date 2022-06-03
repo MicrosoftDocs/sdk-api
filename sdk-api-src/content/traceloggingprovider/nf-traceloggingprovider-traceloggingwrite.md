@@ -115,7 +115,7 @@ The generated event will be constructed as follows:
 - The event's level will come from the
   [TraceLoggingLevel](./nf-traceloggingprovider-tracelogginglevel.md) argument.
   If no TraceLoggingLevel argument is present, the event's level will be 5
-  (TRACE_LEVEL_VERBOSE). If more than one TraceLoggingLevel argument is present,
+  (WINEVENT_LEVEL_VERBOSE). If more than one TraceLoggingLevel argument is present,
   the last argument will be used. To enable effective event filtering, always
   assign a meaningful non-zero level to every event.
 - The event's keyword will come from the
@@ -143,7 +143,7 @@ For example:
 TraceLoggingWrite(
     g_hProvider,
     "MyEvent1",
-    TraceLoggingLevel(TRACE_LEVEL_WARNING),
+    TraceLoggingLevel(WINEVENT_LEVEL_WARNING), // Levels defined in <winmeta.h>
     TraceLoggingKeyword(MyNetworkingKeyword),
     TraceLoggingString(operationName), // Adds an "operationName" field.
     TraceLoggingHResult(hr, "NetStatus")); // Adds a "NetStatus" field.
@@ -200,6 +200,7 @@ with NULL for the _pActivityId_ and _pRelatedActivityId_ parameters. Use
 
 ```c
 #include <windows.h> // or <wdm.h> for kernel-mode.
+#include <winmeta.h> // For event level definitions.
 #include <TraceLoggingProvider.h>
 
 TRACELOGGING_DEFINE_PROVIDER( // defines g_hProvider
@@ -215,6 +216,8 @@ int main(int argc, char* argv[]) // or DriverEntry for kernel-mode.
     TraceLoggingWrite(
         g_hProvider,
         "MyEvent1",
+        TraceLoggingLevel(WINEVENT_LEVEL_WARNING), // Levels defined in <winmeta.h>
+        TraceLoggingKeyword(MyEventCategories), // Provider-defined categories
         TraceLoggingString(argv[0], "arg0"), // field name is "arg0"
         TraceLoggingInt32(argc)); // field name is implicitly "argc"
 

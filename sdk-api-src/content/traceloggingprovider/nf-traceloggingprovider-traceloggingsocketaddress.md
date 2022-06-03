@@ -88,19 +88,19 @@ parameter is not specified, a default will be used. For example,
 `TraceLoggingSocketAddress(&x.sockAddr, sizeof(x.sockAddr))` is equivalent to
 `TraceLoggingSocketAddress(&x.sockAddr, sizeof(x.sockAddr), "&x.sockAddr", "", 0)`.
 
-- **name**
+- `[in, optional] name`
 
   The name to use for the event field. If provided, the name parameter must be a
   string literal (not a variable) and must not contain any '\0' characters. If
   not provided, the event field name will be based on _pValue_.
 
-- **description**
+- `[in, optional] description`
 
   The description of the event field's value. If provided, the description
   parameter must be a string literal and will be included in the
   [PDB](/windows-hardware/drivers/debugger/symbols).
 
-- **tags**
+- `[in, optional] tags`
 
   A compile-time constant integer value. The low 28 bits of the value will be
   included in the field's metadata. The semantics of this value are defined by

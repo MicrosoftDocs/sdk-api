@@ -57,6 +57,7 @@ code using C or C++.
 
 ```c
 #include <windows.h> // or <wdm.h> for kernel-mode.
+#include <winmeta.h> // For event level definitions.
 #include <TraceLoggingProvider.h>
 
 TRACELOGGING_DEFINE_PROVIDER( // defines g_hProvider
@@ -72,6 +73,8 @@ int main(int argc, char* argv[]) // or DriverEntry for kernel-mode.
     TraceLoggingWrite(
         g_hProvider,
         "MyEvent1",
+        TraceLoggingLevel(WINEVENT_LEVEL_WARNING), // Levels defined in <winmeta.h>
+        TraceLoggingKeyword(MyEventCategories), // Provider-defined categories
         TraceLoggingString(argv[0], "arg0"), // field name is "arg0"
         TraceLoggingInt32(argc)); // field name is implicitly "argc"
 
