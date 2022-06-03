@@ -25,6 +25,15 @@ The **TraceLoggingProvider.h** header in the Windows SDK has macros and inline
 functions to generate TraceLogging-encoded ETW events for kernel and user-mode
 code using C or C++.
 
+> [!NOTE]
+> **TraceLoggingProvider.h** requires the event attributes (provider
+> name, event name, field names, field types, etc.) to be defined at
+> compile-time. To minimize runtime overhead, **TraceLoggingProvider.h** builds
+> its data structures at compile-time and stores the information in read-only
+> memory. If you need to generate runtime-dynamic, you will need to use a
+> different TraceLogging implementation such as
+> [TraceLoggingDynamic](https://github.com/microsoft/tracelogging/tree/main/etw).
+
 ## Quick Start
 
 - In a .c or .cpp file, use the
