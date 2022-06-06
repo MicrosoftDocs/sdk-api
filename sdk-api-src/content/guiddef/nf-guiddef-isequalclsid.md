@@ -1,7 +1,7 @@
 ---
-UID: NF:guiddef.IsEqualGUID
-title: IsEqualGUID
-description: Evaluates to a Boolean value that indicates whether two GUIDs are equal.
+UID: NF:guiddef.IsEqualCLSID
+title: IsEqualCLSID
+description: Evaluates to a Boolean value that indicates whether two CLSIDs are equal.
 tech.root: com
 ms.date: 06/06/2022
 targetos: Windows
@@ -32,39 +32,34 @@ api_type:
 api_location:
  - guiddef.h
 api_name:
- - IsEqualGUID
+ - IsEqualCLSID
 f1_keywords:
- - IsEqualGUID
- - guiddef/IsEqualGUID
+ - IsEqualCLSID
+ - guiddef/IsEqualCLSID
 dev_langs:
  - c++
 helpviewer_keywords:
- - IsEqualGUID
+ - IsEqualCLSID
 ---
 
 ## -description
 
-Evaluates to a Boolean value that indicates whether two GUIDs are equal.
+Evaluates to a Boolean value that indicates whether two CLSIDs are equal.
 
 ## -parameters
 
-### -param rguid1
+### -param rclsid1
 
-The first GUID.
+The first CLSID.
 
-### -param rguid2
+### -param rclsid2
 
-The second GUID.
+The second CLSID.
 
 ## -returns
 
-`TRUE` if the two GUIDs are equal; otherwise, `FALSE`.
+`TRUE` if the two CLSIDs are equal; otherwise, `FALSE`.
 
 ## -remarks
 
-**IsEqualGUID** is used by the [IsEqualCLSID](/windows/win32/api/guiddef/nf-guiddef-isequalclsid) and [IsEqualIID](/windows/win32/api/guiddef/nf-guiddef-isequaliid) macros.
-
 ## -see-also
-
-* [IsEqualCLSID](/windows/win32/api/guiddef/nf-guiddef-isequalclsid)
-* [IsEqualIID](/windows/win32/api/guiddef/nf-guiddef-isequaliid)
