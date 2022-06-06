@@ -12,7 +12,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingwrite.htm
 tech.root: tracelogging
 ms.assetid: BFBC6802-64DC-478E-B09D-F550135994AB
-ms.date: 12/05/2018
+ms.date: 06/06/2022
 ms.keywords:
   TraceLoggingWrite, TraceLoggingWrite macro, tracelogging.traceloggingwrite,
   traceloggingprovider/TraceLoggingWrite

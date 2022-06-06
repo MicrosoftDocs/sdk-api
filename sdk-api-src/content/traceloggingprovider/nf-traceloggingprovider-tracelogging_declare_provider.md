@@ -13,7 +13,7 @@ helpviewer_keywords:
 old-location: tracelogging\TRACELOGGING_DECLARE_PROVIDER.htm
 tech.root: tracelogging
 ms.assetid: E9C0B622-77A5-498F-BB28-C6C181271276
-ms.date: 12/05/2018
+ms.date: 06/06/2022
 ms.keywords:
   TRACELOGGING_DECLARE_PROVIDER, TRACELOGGING_DECLARE_PROVIDER macro,
   tracelogging.TRACELOGGING_DECLARE_PROVIDER,

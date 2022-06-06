@@ -12,7 +12,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingopcode.htm
 tech.root: tracelogging
 ms.assetid: 8D1459CE-51A8-49A8-A30B-EA8D87E822C3
-ms.date: 12/05/2018
+ms.date: 06/06/2022
 ms.keywords:
   TraceLoggingOpcode, TraceLoggingOpcode macro, tracelogging.traceloggingopcode,
   traceloggingprovider/TraceLoggingOpcode

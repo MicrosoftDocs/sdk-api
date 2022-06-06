@@ -14,7 +14,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingstruct.htm
 tech.root: tracelogging
 ms.assetid: 9F681D04-98DF-4B27-9A40-740B2F0B287D
-ms.date: 12/05/2018
+ms.date: 06/06/2022
 ms.keywords:
   TraceLoggingStruct, TraceLoggingStruct macro, tracelogging.traceloggingstruct,
   traceloggingprovider/TraceLoggingStruct

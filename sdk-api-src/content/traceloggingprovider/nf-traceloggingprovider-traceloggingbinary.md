@@ -13,7 +13,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingbinary.htm
 tech.root: tracelogging
 ms.assetid: A1CE1481-7319-41BE-9639-E688365D4628
-ms.date: 12/05/2018
+ms.date: 06/06/2022
 ms.keywords:
   TraceLoggingBinary, TraceLoggingBinary macro, tracelogging.traceloggingbinary,
   traceloggingprovider/TraceLoggingBinary
