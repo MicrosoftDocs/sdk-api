@@ -56,8 +56,11 @@ api_name:
 
 ## -description
 
-Converts a <a href="/windows/desktop/Intl/locale-identifiers">locale identifier</a> to a <a href="/windows/desktop/Intl/locale-names">locale name</a>. <div class="alert"><b>Note</b>  For custom locales, including those created by Microsoft, your applications should prefer locale names over locale identifiers.</div>
-<div> </div>
+Converts a <a href="/windows/desktop/Intl/locale-identifiers">locale identifier</a> to a <a href="/windows/desktop/Intl/locale-names">locale name</a>.
+
+<div class="alert"><b>Note</b>  For custom locales, including those created by Microsoft, your applications should prefer locale names over locale identifiers.</div> 
+
+Function will not succeed for <a href="/globalization/locale/locale-names#the-deprecation-of-lcids">transient LCID values</a>. Use <a href="">GetLocaleInfo</a> with LOCALE_SNAME param in this case.
 
 ## -parameters
 
