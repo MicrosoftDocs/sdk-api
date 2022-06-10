@@ -13,7 +13,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingbinary.htm
 tech.root: tracelogging
 ms.assetid: A1CE1481-7319-41BE-9639-E688365D4628
-ms.date: 12/05/2018
+ms.date: 06/06/2022
 ms.keywords:
   TraceLoggingBinary, TraceLoggingBinary macro, tracelogging.traceloggingbinary,
   traceloggingprovider/TraceLoggingBinary
@@ -63,44 +63,48 @@ that adds a field with binary data to the event.
 
 ## -parameters
 
-### -param pbData [in]
+### -param pValue [in]
 
 A pointer to the data to be included in the event.
 
-### -param cbData [in]
+### -param cbValue [in]
 
 The size, in bytes, of the data to be included in the event.
 
-#### - name [in, optional]
+### -param __VA_ARGS__ [in, optional]
 
-The name to use for the event field. If provided, the name parameter must be a
-string literal (not a variable) and must not contain any '\0' characters. If not
-provided, the event field name will be based on _pbData_.
+Optional _name_, _description_, and _tags_ parameters for the field definition.
 
-#### - description [in, optional]
+TraceLoggingBinary can be specified with 2, 3, 4, or 5 parameters. If an
+optional parameter is not specified, a default will be used. For example,
+`TraceLoggingBinary(&x.data, sizeof(x.data))` is equivalent to
+`TraceLoggingBinary(&x.data, sizeof(x.data), "&x.data", "", 0)`.
 
-The description of the event field's value. If provided, the description
-parameter must be a string literal and will be included in the
-[PDB](/windows-hardware/drivers/debugger/symbols).
+- `[in, optional] name`
 
-#### - tags [in, optional]
+  The name to use for the event field. If provided, the name parameter must be a
+  string literal (not a variable) and must not contain any '\0' characters. If
+  not provided, the event field name will be based on _pValue_.
 
-A compile-time constant integer value. The low 28 bits of the value will be
-included in the field's metadata. The semantics of this value are defined by the
-event consumer. During event processing, this value can be retrieved from the
-[EVENT_PROPERTY_INFO](../tdh/ns-tdh-event_property_info.md) Tags field.
+- `[in, optional] description`
+
+  The description of the event field's value. If provided, the description
+  parameter must be a string literal and will be included in the
+  [PDB](/windows-hardware/drivers/debugger/symbols).
+
+- `[in, optional] tags`
+
+  A compile-time constant integer value. The low 28 bits of the value will be
+  included in the field's metadata. The semantics of this value are defined by
+  the event consumer. During event processing, this value can be retrieved from
+  the [EVENT_PROPERTY_INFO](../tdh/ns-tdh-event_property_info.md) Tags field.
 
 ## -remarks
 
-`TraceLoggingBinary(pbData, cbData, ...)` can be used as a parameter to an
+`TraceLoggingBinary(pValue, cbValue, ...)` can be used as a parameter to an
 invocation of a
 [TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md) macro. Each
 TraceLoggingBinary parameter adds one field to the event.
-
-TraceLoggingBinary can be specified with 2, 3, 4, or 5 parameters. If a
-parameter is not specified, a default will be used. For example,
-`TraceLoggingBinary(&x.data, sizeof(x.data))` is equivalent to
-`TraceLoggingBinary(&x.data, sizeof(x.data), "&x.data", "", 0)`.
 
 ## -see-also
 

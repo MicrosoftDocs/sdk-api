@@ -14,7 +14,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingregisterex.htm
 tech.root: tracelogging
 ms.assetid: E64B3855-A43B-489B-8A73-930D65FA5F79
-ms.date: 12/05/2018
+ms.date: 06/06/2022
 ms.keywords:
   TraceLoggingRegisterEx, TraceLoggingRegisterEx function,
   tracelogging.traceloggingregisterex,
@@ -90,7 +90,7 @@ If you call this function from kernel-mode code, the function returns an
 `NTSTATUS`. Use the `NT_SUCCESS()` macro to determine whether the function
 succeeds.
 
-> [!Note]
+> [!NOTE]
 > The error code returned by TraceLoggingRegisterEx is primarily
 > intended for use in debugging and diagnostic scenarios. Most production code
 > should continue to run even if an ETW provider failed to register, so release

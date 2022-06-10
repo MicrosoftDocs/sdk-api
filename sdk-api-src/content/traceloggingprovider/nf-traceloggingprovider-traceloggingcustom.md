@@ -14,7 +14,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingcustom.htm
 tech.root: tracelogging
 ms.assetid: 617B5EFF-DB4F-493E-841B-14BBA312E26B
-ms.date: 12/05/2018
+ms.date: 06/06/2022
 ms.keywords:
   TraceLoggingCustom, TraceLoggingCustom macro, tracelogging.traceloggingcustom,
   traceloggingprovider/TraceLoggingCustom
@@ -67,7 +67,7 @@ use TraceLoggingCustom.
 
 ## -parameters
 
-### -param pbValue [in]
+### -param pValue [in]
 
 A pointer to the field's payload, serialized at runtime by a serializer from the
 specified protocol family.
@@ -91,43 +91,47 @@ in this list must be compile-time constant. Example: (0x12, 0x23, 0x34)
 
 ### -param cbSchema [in]
 
-The number of byte values provided in **bSchema**. This value must be a
+The number of byte values provided in _bSchema_. This value must be a
 compile-time constant.
 
-#### - name [in, optional]
+### -param __VA_ARGS__ [in, optional]
 
-The name to use for the event field. If provided, the name parameter must be a
-string literal (not a variable) and must not contain any '\0' characters. If not
-provided, the event field name will be based on _pbValue_.
+Optional _name_, _description_, and _tags_ parameters for the field definition.
 
-#### - description [in, optional]
+TraceLoggingCustom can be specified with 5, 6, 7, or 8 parameters. If a
+parameter is not specified, a default will be used. For example,
+`TraceLoggingCustom(&x.data, sizeof(x.data), p, (schema), cbSchema)` is
+equivalent to
+`TraceLoggingCustom(&x.data, sizeof(x.data), p, (schema), cbSchema, "&x.data", "", 0)`.
 
-The description of the event field's value. If provided, the description
-parameter must be a string literal and will be included in the
-[PDB](/windows-hardware/drivers/debugger/symbols).
+- `[in, optional] name`
 
-#### - tags [in, optional]
+  The name to use for the event field. If provided, the name parameter must be a
+  string literal (not a variable) and must not contain any '\0' characters. If
+  not provided, the event field name will be based on _pValue_.
 
-A compile-time constant integer value. The low 28 bits of the value will be
-included in the field's metadata. The semantics of this value are defined by the
-event consumer. During event processing, this value can be retrieved from the
-[EVENT_PROPERTY_INFO](../tdh/ns-tdh-event_property_info.md) Tags field.
+- `[in, optional] description`
+
+  The description of the event field's value. If provided, the description
+  parameter must be a string literal and will be included in the
+  [PDB](/windows-hardware/drivers/debugger/symbols).
+
+- `[in, optional] tags`
+
+  A compile-time constant integer value. The low 28 bits of the value will be
+  included in the field's metadata. The semantics of this value are defined by
+  the event consumer. During event processing, this value can be retrieved from
+  the [EVENT_PROPERTY_INFO](../tdh/ns-tdh-event_property_info.md) Tags field.
 
 ## -remarks
 
-`TraceLoggingCustom(pbValue, cbValue, protocol, (schema...), cbSchema, ...)` can
+`TraceLoggingCustom(pValue, cbValue, protocol, (schema...), cbSchema, ...)` can
 be used as a parameter to an invocation of a
 [TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md) macro. Each
 TraceLoggingCustom parameter adds a custom-serialized field to the event. Most
 TraceLogging events do not use custom serializers and should not use
 TraceLoggingCustom. General-purpose ETW decoders do not support fields that use
 custom serialization and will typically treat the fields as TDH_INTYPE_BINARY.
-
-TraceLoggingCustom can be specified with 5, 6, 7, or 8 parameters. If a
-parameter is not specified, a default will be used. For example,
-`TraceLoggingCustom(&x.data, sizeof(x.data), p, (schema), cbSchema)` is
-equivalent to
-`TraceLoggingBinary(&x.data, sizeof(x.data), p, (schema), cbSchema, "&x.data", "", 0)`.
 
 Decoders should access TraceLoggingCustom serialized fields using the TDH APIs.
 The TRACE_EVENT_INFO structure returned by TdhGetEventInformation will contain
@@ -175,8 +179,9 @@ TraceLoggingWrite(
       TRACELOGGING_PROTOCOL_MYPROTOCOL,
       ( 0x0, 0x1, 0x2 ), // Generated at compile-time
       3,
-      "MyCustomField"
-   ));
+      "MyCustomField"),
+   TraceLoggingLevel(WINEVENT_LEVEL_WARNING), // Levels defined in <winmeta.h>
+   TraceLoggingKeyword(MyEventCategories)); // Provider-defined categories
 ```
 
 ## -see-also

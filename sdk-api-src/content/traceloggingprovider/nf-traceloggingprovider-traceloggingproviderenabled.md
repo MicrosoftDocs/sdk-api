@@ -4,7 +4,7 @@ title: TraceLoggingProviderEnabled
 description:
   TraceLogging macro to determine whether a any trace consumer is listening for
   an event from this provider.
-ms.date: 5/7/2019
+ms.date: 06/06/2022
 ms.keywords: TraceLoggingProviderEnabled
 targetos: Windows
 req.assembly:
@@ -72,7 +72,7 @@ This API provides a simple way to determine whether an event is enabled, i.e.
 whether any event consumer sessions would be interested in receiving an event
 from the specified provider with the specified level and keyword.
 
-> [!Note]
+> [!NOTE]
 > This API performs a conservative quick test. It is possible for this
 > API to return true in certain cases where subsequent in-depth filtering would
 > determine that no sessions actually need to record the event.
