@@ -93,4 +93,3 @@ This structure is a member of the <a href="/windows/desktop/api/d3d12/ns-d3d12-d
 ## -see-also
 
 <a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
-<a href="/windows/win32/direct3dhlsl/dx-graphics-hlsl-semantics">HLSL Semantics</a>
