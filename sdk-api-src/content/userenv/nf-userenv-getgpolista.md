@@ -77,7 +77,7 @@ If the <i>hToken</i> parameter is not <b>NULL</b>, this parameter must be <b>NUL
 
 ### -param lpHostName [in]
 
-A DNS domain name or domain controller name. Domain controller name can be retrieved using the 
+A DNS domain name (preferred) or domain controller name. Domain controller name can be retrieved using the 
 <a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function, specifying <b>DS_DIRECTORY_SERVICE_REQUIRED</b> in the <i>flags</i> parameter.
 
 If the <i>hToken</i> parameter is not <b>NULL</b>, this parameter must be <b>NULL</b>.
