@@ -39,6 +39,7 @@ helpviewer_keywords:
 ## -description
 
 ## -remarks
+An instance of the IMFCameraConfigurationManager can be created by calling the COM function CoCreateInstance, and passing the **CLSID_CameraConfigurationManager** as the CLSID parameter.
 
 ## -see-also
 
