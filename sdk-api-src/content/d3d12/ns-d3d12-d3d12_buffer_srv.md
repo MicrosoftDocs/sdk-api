@@ -72,7 +72,9 @@ A <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_buffer_srv_flags">D3D12_BUF
 
 ## -remarks
 
-This structure is used by <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_shader_resource_view_desc">D3D12_SHADER_RESOURCE_VIEW_DESC</a> to create a view of a buffer.
+This structure is used by <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_shader_resource_view_desc">D3D12_SHADER_RESOURCE_VIEW_DESC</a> to create a view of a buffer. 
+
+If StructureByteStride value is not 0, a view of a structured buffer is created and the D3D12_SHADER_RESOURCE_VIEW_DESC::Format field must be DXGI_FORMAT_UNKNOWN. If StructureByteStride is 0, a typed view of a buffer is created and a format must be supplied. The specified format for the typed view must be supported by the hardware.
 
 ## -see-also
 
