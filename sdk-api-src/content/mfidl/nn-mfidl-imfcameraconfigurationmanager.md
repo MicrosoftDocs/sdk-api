@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFCameraConfigurationManager
-tech.root: 
+tech.root: mf
 title: IMFCameraConfigurationManager
 ms.date: 
 targetos: Windows
