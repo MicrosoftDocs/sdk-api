@@ -3,7 +3,9 @@ UID: NF:bcrypt.BCryptUnregisterConfigChangeNotify~r1
 title: BCryptUnregisterConfigChangeNotify
 ms.date: 01/30/2019
 ms.keywords: BCryptUnregisterConfigChangeNotify
-targetos: Windows
+ms.topic: language-reference
+f1_keywords: 
+ - "bcrypt/BCryptUnregisterConfigChangeNotify"
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -37,6 +39,9 @@ api_location:
  - bcrypt.h
 api_name:
  - BCryptUnregisterConfigChangeNotify
+product: Windows
+targetos: Windows
+req.typenames: 
 ---
 
 # BCryptUnregisterConfigChangeNotify function
