@@ -60,7 +60,7 @@ The blocked control to add.
 
 ## -returns
 
-This method does not return a value.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
