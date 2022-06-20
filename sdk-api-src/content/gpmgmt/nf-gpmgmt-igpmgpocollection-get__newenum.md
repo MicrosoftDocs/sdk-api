@@ -1,12 +1,12 @@
 ---
 UID: NF:gpmgmt.IGPMGPOCollection.get__NewEnum
 title: IGPMGPOCollection::get__NewEnum (gpmgmt.h)
-description: Retrieves an enumerator for the collection.
+description: Learn how to use the get__NewEnum method to retrieve an enumerator for an IGPMGPOCollection collection.
 helpviewer_keywords: ["IGPMGPOCollection interface [GPMC]","get__NewEnum method","IGPMGPOCollection.get__NewEnum","IGPMGPOCollection::get__NewEnum","_win32_igpmgpocollection_get__newenum","get__NewEnum","get__NewEnum method [GPMC]","get__NewEnum method [GPMC]","IGPMGPOCollection interface","gpmc.igpmgpocollection_get__newenum","gpmgmt/IGPMGPOCollection::get__NewEnum"]
 old-location: gpmc\igpmgpocollection_get__newenum.htm
 tech.root: gpmc
 ms.assetid: 7db1ec65-9850-4f14-b223-a7decc7648a6
-ms.date: 12/05/2018
+ms.date: 02/20/2022
 ms.keywords: IGPMGPOCollection interface [GPMC],get__NewEnum method, IGPMGPOCollection.get__NewEnum, IGPMGPOCollection::get__NewEnum, _win32_igpmgpocollection_get__newenum, get__NewEnum, get__NewEnum method [GPMC], get__NewEnum method [GPMC],IGPMGPOCollection interface, gpmc.igpmgpocollection_get__newenum, gpmgmt/IGPMGPOCollection::get__NewEnum
 req.header: gpmgmt.h
 req.include-header: 

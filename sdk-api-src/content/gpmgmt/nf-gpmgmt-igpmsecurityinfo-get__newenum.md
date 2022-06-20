@@ -1,12 +1,12 @@
 ---
 UID: NF:gpmgmt.IGPMSecurityInfo.get__NewEnum
 title: IGPMSecurityInfo::get__NewEnum (gpmgmt.h)
-description: Retrieves an enumerator for the collection.
+description: Learn how to use the get__NewEnum method to retrieve an enumerator for an IGPMSecurityInfo collection.
 helpviewer_keywords: ["IGPMSecurityInfo interface [GPMC]","get__NewEnum method","IGPMSecurityInfo.get__NewEnum","IGPMSecurityInfo::get__NewEnum","_win32_igpmsecurityinfo_get__newenum","get__NewEnum","get__NewEnum method [GPMC]","get__NewEnum method [GPMC]","IGPMSecurityInfo interface","gpmc.igpmsecurityinfo_get__newenum","gpmgmt/IGPMSecurityInfo::get__NewEnum"]
 old-location: gpmc\igpmsecurityinfo_get__newenum.htm
 tech.root: gpmc
 ms.assetid: f8dc2ee1-d1cb-4e7a-abf4-1a388320b681
-ms.date: 12/05/2018
+ms.date: 02/20/2022
 ms.keywords: IGPMSecurityInfo interface [GPMC],get__NewEnum method, IGPMSecurityInfo.get__NewEnum, IGPMSecurityInfo::get__NewEnum, _win32_igpmsecurityinfo_get__newenum, get__NewEnum, get__NewEnum method [GPMC], get__NewEnum method [GPMC],IGPMSecurityInfo interface, gpmc.igpmsecurityinfo_get__newenum, gpmgmt/IGPMSecurityInfo::get__NewEnum
 req.header: gpmgmt.h
 req.include-header: 
