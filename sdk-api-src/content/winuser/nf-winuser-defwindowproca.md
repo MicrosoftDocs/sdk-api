@@ -100,7 +100,7 @@ The return value is the result of the message processing and depends on the mess
 ## -syntax
 
 ```cpp
-LRESULT DefWindowProcW(
+LRESULT DefWindowProcA(
   [in] HWND   hWnd,
   [in] UINT   Msg,
   [in] WPARAM wParam,

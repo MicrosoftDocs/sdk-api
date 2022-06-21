@@ -85,4 +85,5 @@ For more information, see:
 - [TraceLogging](../_tracelogging/index.md)
 - [TraceLogging wrapper macros](/windows/desktop/tracelogging/tracelogging-wrapper-macros)
 - [TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md)
-- [TRACELOGGING_DEFINE_PROVIDER](./nf-traceloggingprovider-tracelogging_declare_provider.md)
+- [TRACELOGGING_DECLARE_PROVIDER](./nf-traceloggingprovider-tracelogging_declare_provider.md)
+- [TRACELOGGING_DEFINE_PROVIDER](./nf-traceloggingprovider-tracelogging_define_provider.md)
