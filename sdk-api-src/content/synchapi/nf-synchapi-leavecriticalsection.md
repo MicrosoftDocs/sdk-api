@@ -80,6 +80,8 @@ If a thread calls
 <b>LeaveCriticalSection</b> when it does not have ownership of the specified critical section object, an error occurs that may cause another thread using 
 <a href="/windows/desktop/api/synchapi/nf-synchapi-entercriticalsection">EnterCriticalSection</a> to wait indefinitely.
 
+It is guaranteed that the specified CRITICAL_SECTION structure is not accessed by <b>LeaveCriticalSection</b> after the ownership of a critical section object was released.
+
 Any thread of the process can use the 
 <a href="/windows/desktop/api/synchapi/nf-synchapi-deletecriticalsection">DeleteCriticalSection</a> function to release the system resources that were allocated when the critical section object was initialized. After this function has been called, the critical section object can no longer be used for synchronization.
 
