@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateRotateTransform3D
 title: IDCompositionDevice::CreateRotateTransform3D (dcomp.h)
-description: The IDCompositionDevice::CreateRotateTransform3D method creates a 3D rotation transform object.
+description: The CreateRotateTransform3D method in the IDCompositionDevice interface creates a 3D rotation transform object.
 helpviewer_keywords: ["CreateRotateTransform3D","CreateRotateTransform3D method [DirectComposition]","CreateRotateTransform3D method [DirectComposition]","IDCompositionDevice interface","IDCompositionDevice interface [DirectComposition]","CreateRotateTransform3D method","IDCompositionDevice.CreateRotateTransform3D","IDCompositionDevice::CreateRotateTransform3D","dcomp/IDCompositionDevice::CreateRotateTransform3D","directcomp.idcompositiondevice_createrotatetransform3d"]
 old-location: directcomp\idcompositiondevice_createrotatetransform3d.htm
 tech.root: directcomp
