@@ -1,7 +1,7 @@
 ---
 UID: NF:cfgmgr32.CM_Register_Notification
 title: CM_Register_Notification function (cfgmgr32.h)
-description: Use RegisterDeviceNotification instead of CM_Register_Notification if your code targets Windows 7 or earlier versions of Windows. Kernel mode callers should use IoRegisterPlugPlayNotification instead.
+description: The CM_Register_Notification function registers an application callback routine to be called when a PnP event of the specified type occurs.
 helpviewer_keywords: ["CM_Register_Notification","CM_Register_Notification function [Device and Driver Installation]","cfgmgr32/CM_Register_Notification","devinst.cm_register_notification"]
 old-location: devinst\cm_register_notification.htm
 tech.root: devinst
@@ -49,12 +49,11 @@ api_name:
 
 # CM_Register_Notification function
 
-
 ## -description
 
-Use <a href="/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a> instead of <b>CM_Register_Notification</b> if your code targets Windows 7 or earlier versions of Windows. Kernel mode callers should use <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioregisterplugplaynotification">IoRegisterPlugPlayNotification</a> instead.
-
 The <b>CM_Register_Notification</b> function registers an application callback routine to be called when a PnP event of the specified type occurs.
+
+Use <a href="/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a> instead of <b>CM_Register_Notification</b> if your code targets Windows 7 or earlier versions of Windows. Kernel mode callers should use <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioregisterplugplaynotification">IoRegisterPlugPlayNotification</a> instead.
 
 ## -parameters
 
@@ -74,21 +73,13 @@ The callback routine’s <i>Action</i> parameter will be a value from the <a hre
 
 Upon receiving a notification, how the callback examines the notification will depend on the <b>FilterType</b> member of the callback routine's <i>EventData</i> parameter:
 
-
-
-
-
 #### CM_NOTIFY_FILTER_TYPE_DEVICEINTERFACE
 
 The callback should examine <b>EventData-&gt;u.DeviceInterface</b>.
 
-
-
 #### CM_NOTIFY_FILTER_TYPE_DEVICEHANDLE
 
 The callback should examine <b>EventData-&gt;u.DeviceHandle</b>.
-
-
 
 #### CM_NOTIFY_FILTER_TYPE_DEVICEINSTANCE
 
@@ -111,10 +102,8 @@ The <b>CM_Register_Notification</b> function does not provide notification of ex
 HCMNOTIFICATION handles returned by <b>CM_Register_Notification</b> must be closed by calling the <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_unregister_notification">CM_Unregister_Notification</a> function when they are no longer needed.
 
 A callback routine uses the following function prototype:
-		  
 
-
-```
+```cpp
 typedef __callback DWORD (CALLBACK *PCM_NOTIFY_CALLBACK)(
     _In_ HCMNOTIFICATION       hNotify,
     _In_opt_ PVOID             Context,
@@ -124,37 +113,22 @@ typedef __callback DWORD (CALLBACK *PCM_NOTIFY_CALLBACK)(
     );
 ```
 
-
 If responding to a <b>CM_NOTIFY_ACTION_DEVICEQUERYREMOVE</b> notification, the PCM_NOTIFY_CALLBACK callback should return either ERROR_SUCCESS or ERROR_CANCELLED, as appropriate.  Otherwise, the callback should return ERROR_SUCCESS. The callback should not return any other values. For a description of other actions, please refer to the <a href="/windows/desktop/api/cfgmgr32/ne-cfgmgr32-cm_notify_action">CM_NOTIFY_ACTION</a> documentation.  Also see <a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cm_notify_event_data">CM_NOTIFY_EVENT_DATA</a> for information about the structure that this callback receives in the <i>EventData</i> parameter.
-
 
 #### Examples
 
-For an example, see 
-     <a href="/windows-hardware/drivers/install/registering-for-notification-of-device-interface-arrival-and-device-removal">Registering for Notification of Device Interface Arrival and Device Removal</a>.
-
-<div class="code"></div>
+For an example, see <a href="/windows-hardware/drivers/install/registering-for-notification-of-device-interface-arrival-and-device-removal">Registering for Notification of Device Interface Arrival and Device Removal</a>.
 
 ## -see-also
 
 <a href="/windows/desktop/api/cfgmgr32/ne-cfgmgr32-cm_notify_action">CM_NOTIFY_ACTION</a>
 
-
-
 <a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cm_notify_filter">CM_NOTIFY_FILTER</a>
-
-
 
 <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_unregister_notification">CM_Unregister_Notification</a>
 
-
-
 <a href="/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a>
 
-
-
 <a href="/windows-hardware/drivers/install/registering-for-notification-of-device-interface-arrival-and-device-removal">Registering for Notification of Device Interface Arrival and Device Removal</a>
-
-
 
 <a href="/windows-hardware/drivers/wdf/using-device-interfaces">Using Device Interfaces</a>
