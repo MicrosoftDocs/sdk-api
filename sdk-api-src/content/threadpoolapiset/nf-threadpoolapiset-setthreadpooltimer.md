@@ -75,9 +75,9 @@ The timer is set if the <i>pftDueTime</i> parameter is non-NULL.
 
 The timer period, in milliseconds. If this parameter is zero, the timer is signaled once. If this parameter is greater than zero, the timer is periodic. A periodic timer automatically reactivates each time the period elapses, until the timer is canceled.
 
-### -param msWindowLength [in, optional]
+### -param msWindowLength [in]
 
-The maximum amount of time the system can delay before calling the timer callback. If this parameter is set, the system can batch calls to conserve power.
+The maximum amount of time the system can delay before calling the timer callback. If this parameter is not set to zero, the system can batch calls to conserve power.
 
 ## -remarks
 
