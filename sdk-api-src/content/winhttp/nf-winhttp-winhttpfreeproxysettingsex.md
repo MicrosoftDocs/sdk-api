@@ -1,58 +1,66 @@
 ---
 UID: NF:winhttp.WinHttpFreeProxySettingsEx
-tech.root: http
 title: WinHttpFreeProxySettingsEx
-ms.date: 
-targetos: Windows
-description: 
-prerelease: false
-req.assembly: 
+description: TBD
+tech.root: http
+ms.date: 06/28/2022
 req.construct-type: function
-req.ddi-compliance: 
-req.lib: Winhttp.lib
-req.dll: Winhttp.dll
 req.header: winhttp.h
-req.idl: 
 req.include-header: 
-req.irql: 
-req.kmdf-ver: 
-req.max-support: 
-req.namespace: 
-req.redist: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
-req.target-type: 
-req.type-library: 
+req.kmdf-ver: 
 req.umdf-ver: 
+req.ddi-compliance: 
 req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Winhttp.lib
+req.dll: Winhttp.dll
+req.irql: 
+targetos: Windows
+req.typenames: 
+req.redist: 
+f1_keywords:
+ - WinHttpFreeProxyResult
+ - winhttp/WinHttpFreeProxyResult
+dev_langs:
+ - c++
 topic_type:
- - apiref
+ - APIRef
+ - kbSyntax
 api_type:
  - DllExport
 api_location:
  - Winhttp.dll
 api_name:
- - WinHttpFreeProxySettingsEx
-f1_keywords:
- - WinHttpFreeProxySettingsEx
- - winhttp/WinHttpFreeProxySettingsEx
-dev_langs:
- - c++
+ - WinHttpFreeProxyResult
 helpviewer_keywords:
  - WinHttpFreeProxySettingsEx
 ---
 
 ## -description
 
+TBD
+
 ## -parameters
 
 ### -param ProxySettingsType
 
+TBD
+
 ### -param pProxySettingsEx
 
+TBD
+
 ## -returns
+
+TBD
 
 ## -remarks
 
 ## -see-also
-
