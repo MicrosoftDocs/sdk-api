@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMGeometryFigure interface
 
-
 ## -description
 
 Describes one portion of the path or clipping region that is specified by an <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometry">IXpsOMGeometry</a> interface.

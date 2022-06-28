@@ -1,7 +1,7 @@
 ---
 UID: NF:commdlg.CommDlgExtendedError
 title: CommDlgExtendedError function (commdlg.h)
-description: Returns a common dialog box error code. This code indicates the most recent error to occur during the execution of one of the common dialog box functions.
+ Returns a common dialog box error code. This code indicates the most recent error to occur during the execution of one of the common dialog box functions.
 helpviewer_keywords: ["CommDlgExtendedError","CommDlgExtendedError function [Dialog Boxes]","_win32_CommDlgExtendedError","_win32_commdlgextendederror_cpp","commdlg/CommDlgExtendedError","dlgbox.commdlgextendederror","winui._win32_commdlgextendederror"]
 old-location: dlgbox\commdlgextendederror.htm
 tech.root: dlgbox
@@ -30,7 +30,6 @@ req.typenames:
 req.redist: 
 ms.custom: 19H1
 f1_keywords:
- - CommDlgExtendedError
  - commdlg/CommDlgExtendedError
 dev_langs:
  - c++
@@ -50,12 +49,9 @@ req.apiset: ext-ms-win-shell-comdlg32-l1-1-0 (introduced in Windows 10, version 
 
 # CommDlgExtendedError function
 
-
 ## -description
 
 Returns a common dialog box error code. This code indicates the most recent error to occur during the execution of one of the common dialog box functions.
-
-
 
 ## -returns
 

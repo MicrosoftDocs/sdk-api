@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMGradientBrush interface
 
-
 ## -description
 
 This interface describes a gradient that is made up of gradient stops. Classes that inherit from <b>IXpsOMGradientBrush</b> specify different ways of interpreting gradient stops.
