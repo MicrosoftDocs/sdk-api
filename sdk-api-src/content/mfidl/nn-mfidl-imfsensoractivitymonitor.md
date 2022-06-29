@@ -65,120 +65,141 @@ Get an instance of this class by calling <a href="/windows/desktop/api/mfidl/nf-
 
 
 #### Examples
+The examples below are using [C++/WinRT to author COM callback class](/windows/uwp/cpp-and-winrt-apis/author-coclasses) and [Windows Implementation Libraries (WIL)](https://github.com/Microsoft/wil). Full sample Visual Studio project can be found from the [Windows-Camera GitHub repository](https://github.com/microsoft/Windows-Camera)
+
 
 The following example shows a class declaration that implements  <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitiesreportcallback">IMFSensorActivitiesReportCallback</a>.
 
 
 ```cpp
-class MyCameraNotificationCallback : public RuntimeClass<RuntimeClassFlags<ClassicCom>,
-    IMFSensorActivitiesReportCallback,
-    FtmBase>
+class MyCameraNotificationCallback : public winrt::implements <MyCameraNotificationCallback, IMFSensorActivitiesReportCallback>
 {
 public:
-    MyCameraNotificationCallback() {};
-    //MyCameraNotificationCallback();
-    virtual ~MyCameraNotificationCallback();
-
-    HRESULT RuntimeClassInitialize(_In_z_ LPCWSTR SymbolicName)
-    {
-        return wcscpy_s(_symbolicName, SymbolicName);
-    }
+    MyCameraNotificationCallback() = default;
+    virtual ~MyCameraNotificationCallback() = default;
 
     // IMFSensorActivitiesReportCallback
-    IFACEMETHOD(OnActivitiesReport)(_In_ IMFSensorActivitiesReport* sensorActivitiesReport) override;
+    IFACEMETHODIMP OnActivitiesReport(_In_ IMFSensorActivitiesReport* sensorActivitiesReport) override;
 
-    HRESULT IsInUse(_Out_ BOOL* pinUse);
+    HRESULT Initialize(_In_z_ LPCWSTR symbolicName);
+
+    bool IsInUse();
 
 private:
 
-    WCHAR _symbolicName[MAX_PATH];
-    BOOL _inUse;
-    HANDLE _hEvent;
-    HRESULT _hrStatus;
+    WCHAR   _symbolicName[MAX_PATH] = {};
+    bool    _inUse = false;
+    HANDLE  _event = nullptr;
 };
 
 ```
 
+The next example shows the implementation of the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivitiesreportcallback-onactivitiesreport">OnActivitiesReport</a> callback and the Initialize function.
 
-The next example shows the implementation of the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivitiesreportcallback-onactivitiesreport">OnActivitiesReport</a> callback that updates a boolean class member to indicate whether the queried sensor device is currently in use and then sets an event to signal that the status has been obtained.
+The OnActivitiesReport function updates a boolean class member to indicate whether the queried sensor device is currently in use and then sets an event to signal that the status has been obtained. 
 
+**Note** that The callback can be called multiple times and may not contain any reports hence the event is only set when reports were found.
 
 ```cpp
-IFACEMETHODIMP MyCameraNotificationCallback::OnActivitiesReport(
-    _In_ IMFSensorActivitiesReport* sensorActivitiesReport
-)
+HRESULT MyCameraNotificationCallback::Initialize(_In_z_ LPCWSTR symbolicName)
 {
-    HRESULT hr = S_OK;
-    ULONG cCount = 0;
-    BOOL inUse = FALSE;
-    ComPtr<IMFSensorActivityReport> sensorActivity;
+    _event = ::CreateEvent(nullptr, FALSE, FALSE, nullptr);
+    RETURN_LAST_ERROR_IF_NULL(_event);
 
-    if (SUCCEEDED(sensorActivitiesReport->GetActivityReportByDeviceName(_symbolicName, &sensorActivity)))
+    return StringCchCopy(_symbolicName, MAX_PATH, symbolicName);
+}
+
+IFACEMETHODIMP MyCameraNotificationCallback::OnActivitiesReport(_In_ IMFSensorActivitiesReport* sensorActivitiesReport)
+{
+    bool inUse = false;
+    wil::com_ptr_nothrow<IMFSensorActivityReport> sensorActivity;
+    ULONG totalReportCount = 0;
+
+    // There's two ways to look the activity reports.
+    // option 1. One can ask all the reports and iterate through them, and filter the results if wanted
+    //
+    // option 2. Get only the report for specific device by using the symbolic link name.
+
+    // option 1:
+
+    RETURN_IF_FAILED(sensorActivitiesReport->GetCount(&totalReportCount));
+
+    for (ULONG idx = 0; idx < totalReportCount; idx++)
     {
-        ULONG cProcCount = 0;
+        WCHAR symbolicName[MAX_PATH] = {};
+        ULONG count = 0;
+        wil::com_ptr_nothrow<IMFSensorActivityReport> activityReport;
+        RETURN_IF_FAILED(sensorActivitiesReport->GetActivityReport(idx, &activityReport));
 
-        hr = sensorActivity->GetProcessCount(&cProcCount);
-        for (ULONG i = 0; i < cProcCount && SUCCEEDED(hr); i++)
+        RETURN_IF_FAILED(activityReport->GetSymbolicLink(symbolicName, MAX_PATH, &count));
+        RETURN_IF_FAILED(activityReport->GetProcessCount(&count));
+
+        for (ULONG i = 0; i < count; i++)
         {
             BOOL fStreaming = FALSE;
-            ComPtr<IMFSensorProcessActivity> processActivity;
+            wil::com_ptr_nothrow<IMFSensorProcessActivity> processActivity;
 
-            hr = sensorActivity->GetProcessActivity(i, &processActivity);
-            if (SUCCEEDED(hr))
-            {
-                hr = processActivity->GetStreamingState(&fStreaming);
-            }
+            RETURN_IF_FAILED(activityReport->GetProcessActivity(i, &processActivity));
+            RETURN_IF_FAILED(processActivity->GetStreamingState(&fStreaming));
 
-            if (SUCCEEDED(hr) && fStreaming)
+            if (fStreaming)
             {
-                inUse = TRUE;
+                inUse = true;
                 break;
             }
         }
     }
 
+    // option 2:
+    RETURN_IF_FAILED(sensorActivitiesReport->GetActivityReportByDeviceName(_symbolicName, &sensorActivity));
+    
+    ULONG cProcCount = 0;
+
+    RETURN_IF_FAILED(sensorActivity->GetProcessCount(&cProcCount));
+    for (ULONG i = 0; i < cProcCount; i++)
+    {
+        BOOL fStreaming = FALSE;
+        wil::com_ptr_nothrow<IMFSensorProcessActivity> processActivity;
+
+        RETURN_IF_FAILED(sensorActivity->GetProcessActivity(i, &processActivity));
+        RETURN_IF_FAILED(processActivity->GetStreamingState(&fStreaming));
+
+        if (fStreaming)
+        {
+            inUse = true;
+            break;
+        }
+    }
+
     // Set flag that the device is in use and then signal event
     _inUse = inUse;
-    _hrStatus = hr;
-    SetEvent(_hEvent);
+    if (totalReportCount > 0)
+    {
+        SetEvent(_event);
+    }
 
-    return hr;
+    return S_OK;
 }
 
 ```
 
 
 This example shows a class method that waits for the event to be signaled by the <b>OnActivitiesReport</b> callback.
-
+As the OnActivitiesReport will only SetEvent when activities where found, we want to use some reasonable timeout value for WaitForSingleObject, this example uses 500ms and any timeout cases will be translated to "camera not in use".
 
 ```cpp
-HRESULT MyCameraNotificationCallback::IsInUse(
-    _Out_ BOOL* pfInUse
-)
+bool MyCameraNotificationCallback::IsInUse( )
 {
-    HRESULT hr = S_OK;
     DWORD   dwWait = 0;
 
-    *pfInUse = FALSE;
-
-    dwWait = WaitForSingleObject(_hEvent, INFINITE);
+    dwWait = WaitForSingleObject(_event, 500);
     switch (dwWait)
     {
     case WAIT_OBJECT_0:
-        *pfInUse = _inUse;
-        hr = _hrStatus;
-        break;
-    case WAIT_TIMEOUT:
-    case WAIT_ABANDONED:
-        hr = MF_E_UNEXPECTED;
-        break;
-    case WAIT_FAILED:
+        return _inUse;
     default:
-        hr = HRESULT_FROM_WIN32(GetLastError());
-        break;
+        return false;
     }
-
-    return hr;
 }
 
 ```
@@ -186,59 +207,37 @@ HRESULT MyCameraNotificationCallback::IsInUse(
 
 The following example shows an implementation that calls <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatesensoractivitymonitor">MFCreateSensorActivityMonitor</a> to create the activity monitor and then calls the <b>IsInUse</b> class method shown above to determine if the specified sensor is currently in use.
 
-
 ```cpp
 HRESULT IsCameraInUse(
     _In_z_ LPCWSTR symbolicName,
-    _Out_ BOOL* pfInUse
+    bool& inUse
 )
 {
-    HRESULT hr = S_OK;
-    ComPtr<MyCameraNotificationCallback> cameraNotificationCallback;
-    ComPtr<IMFSensorActivityMonitor> activityMonitor;
-    ComPtr<IMFShutdown> spShutdown;
+    winrt::com_ptr<MyCameraNotificationCallback> cameraNotificationCallback;
+    wil::com_ptr_nothrow<IMFSensorActivityMonitor> activityMonitor;
+    wil::com_ptr_nothrow<IMFShutdown> spShutdown;
 
-
-    MakeAndInitialize<MyCameraNotificationCallback>(&cameraNotificationCallback, symbolicName);
+    cameraNotificationCallback = winrt::make_self<MyCameraNotificationCallback>();
+    RETURN_IF_FAILED(cameraNotificationCallback->Initialize(symbolicName));
 
     // Create the IMFSensorActivityMonitor, passing in the IMFSensorActivitiesReportCallback.
-    hr = MFCreateSensorActivityMonitor(cameraNotificationCallback.Get(), &activityMonitor);
-    if (FAILED(hr))
-    {
-        return hr;
-    }
+    RETURN_IF_FAILED(MFCreateSensorActivityMonitor(cameraNotificationCallback.get(), &activityMonitor));
 
     // Start the monitor
-    hr = activityMonitor->Start();
-    if (FAILED(hr))
-    {
-        return hr;
-    }
+    RETURN_IF_FAILED(activityMonitor->Start());
 
     // Call the method that checks to if the monitored device is in use.
-    cameraNotificationCallback->IsInUse(pfInUse);
+    inUse = cameraNotificationCallback->IsInUse();
 
     // Stop the activity monitor.
-    hr = activityMonitor->Stop();
-    if (FAILED(hr))
-    {
-        return hr;
-    }
+    RETURN_IF_FAILED(activityMonitor->Stop());
 
     // Shutdown the monitor.
-    hr = activityMonitor.As(&spShutdown);
-    if (FAILED(hr))
-    {
-        return hr;
-    }
+    RETURN_IF_FAILED(activityMonitor.query_to(&spShutdown));
 
-    hr = spShutdown->Shutdown();
-    if (FAILED(hr))
-    {
-        return hr;
-    }
+    RETURN_IF_FAILED(spShutdown->Shutdown());
 
-    return hr;
+    return S_OK;;
 }
 
 ```
