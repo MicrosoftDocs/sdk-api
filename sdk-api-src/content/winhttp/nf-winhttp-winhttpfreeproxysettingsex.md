@@ -1,9 +1,9 @@
 ---
 UID: NF:winhttp.WinHttpFreeProxySettingsEx
 title: WinHttpFreeProxySettingsEx
-description: TBD
+description: Frees the data retrieved from a previous call to [WinHttpGetProxySettingsResultEx](nf-winhttp-winhttpgetproxysettingsresultex.md).
 tech.root: http
-ms.date: 06/28/2022
+ms.date: 06/29/2022
 req.construct-type: function
 req.header: winhttp.h
 req.include-header: 
@@ -45,21 +45,25 @@ helpviewer_keywords:
 
 ## -description
 
-TBD
+Frees the data retrieved from a previous call to [WinHttpGetProxySettingsResultEx](nf-winhttp-winhttpgetproxysettingsresultex.md).
 
 ## -parameters
 
 ### -param ProxySettingsType
 
-TBD
+Type: \_In\_ **[WINHTTP_PROXY_SETTINGS_TYPE](ne-winhttp-proxy_settings_type.md)**
+
+A proxy settings type.
 
 ### -param pProxySettingsEx
 
-TBD
+Type: \_In\_ **[PVOID](/windows/win32/winprog/windows-data-types)**
+
+A pointer to a [WINHTTP_PROXY_SETTINGS_EX](ns-winhttp-winhttp_proxy_settings_ex.md) structure that was retrieved from a previous call to [WinHttpGetProxySettingsResultEx](nf-winhttp-winhttpgetproxysettingsresultex.md).
 
 ## -returns
 
-TBD
+This function does not return a value.
 
 ## -remarks
 

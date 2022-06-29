@@ -2,9 +2,9 @@
 UID: NF:winhttp.WinHttpUnregisterProxyChangeNotification
 tech.root: http
 title: WinHttpUnregisterProxyChangeNotification
-ms.date: 
+ms.date: 06/29/2022
 targetos: Windows
-description: 
+description: Unregisters a callback function that was registered by calling [WinHttpRegisterProxyChangeNotification](nf-winhttp-winhttpregisterproxychangenotification.md).
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,13 +44,20 @@ helpviewer_keywords:
 
 ## -description
 
+Unregisters a callback function that was registered by calling [WinHttpRegisterProxyChangeNotification](nf-winhttp-winhttpregisterproxychangenotification.md).
+
 ## -parameters
 
 ### -param hRegistration
 
+Type: \_In\_ **WINHTTP_PROXY_CHANGE_REGISTRATION_HANDLE\***
+
+The handle that was returned from [WinHttpRegisterProxyChangeNotification](nf-winhttp-winhttpregisterproxychangenotification.md).
+
 ## -returns
+
+A **[DWORD](/windows/win32/winprog/windows-data-types)** containing a status code indicating the result of the operation.
 
 ## -remarks
 
 ## -see-also
-

@@ -2,9 +2,9 @@
 UID: NF:winhttp.WinHttpGetProxySettingsResultEx
 tech.root: http
 title: WinHttpGetProxySettingsResultEx
-ms.date: 
+ms.date: 06/29/2022
 targetos: Windows
-description: 
+description: Retrieves the results of a call to [WinHttpGetProxySettingsEx](nf-winhttp-winhttpgetproxysettingsex.md).
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,15 +44,22 @@ helpviewer_keywords:
 
 ## -description
 
+Retrieves the results of a call to [WinHttpGetProxySettingsEx](nf-winhttp-winhttpgetproxysettingsex.md).
+
 ## -parameters
 
 ### -param hResolver
 
+Type: \_In\_ **[HINTERNET](/windows/win32/winprog/windows-data-types)**
+
+The resolver handle used to issue a previously completed call to [WinHttpGetProxySettingsEx](nf-winhttp-winhttpgetproxysettingsex.md).
+
 ### -param pProxySettingsEx
+
+A pointer to a [WINHTTP_PROXY_SETTINGS_EX](ns-winhttp-winhttp_proxy_settings_ex.md) structure. The memory occupied by the structure is allocated by **WinHttpGetProxySettingsResultEx**, so you need to free that memory by passing this pointer to [WinHttpFreeProxySettingsEx](nf-winhttp-winhttpfreeproxysettingsex.md).
 
 ## -returns
 
 ## -remarks
 
 ## -see-also
-
