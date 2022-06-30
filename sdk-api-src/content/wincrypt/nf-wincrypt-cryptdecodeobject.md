@@ -130,7 +130,7 @@ By default, the contents of the buffer pointed to by <i>pbEncoded</i> included t
 </dl>
 </td>
 <td width="60%">
-When this flag is set, the OID stings are allocated in Crypt32.dll and shared instead of being copied into the returned data structure. This flag can be set if Crypt32.dll is not unloaded before the caller is unloaded.
+When this flag is set, the OID strings are allocated in Crypt32.dll and shared instead of being copied into the returned data structure. This flag can be set if Crypt32.dll is not unloaded before the caller is unloaded.
 
 </td>
 </tr>
