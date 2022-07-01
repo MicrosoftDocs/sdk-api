@@ -146,12 +146,12 @@ The following example shows how to call
     // Set low memory priority on the current process.
     //
 
-    ZeroMemory(&amp;MemPrio, sizeof(MemPrio));
+    ZeroMemory(&MemPrio, sizeof(MemPrio));
     MemPrio.MemoryPriority = MEMORY_PRIORITY_LOW;
 
     Success = SetProcessInformation(GetCurrentProcess(),
                                    ProcessMemoryPriority,
-                                   &amp;MemPrio,
+                                   &MemPrio,
                                    sizeof(MemPrio));
 
     if (!Success) {
@@ -168,7 +168,7 @@ The following example shows how to call
 
 ``` syntax
 PROCESS_POWER_THROTTLING_STATE PowerThrottling;
-RtlZeroMemory(&amp;PowerThrottling, sizeof(PowerThrottling));
+RtlZeroMemory(&PowerThrottling, sizeof(PowerThrottling));
 PowerThrottling.Version = PROCESS_POWER_THROTTLING_CURRENT_VERSION;
 
 //
@@ -182,7 +182,7 @@ PowerThrottling.StateMask = PROCESS_POWER_THROTTLING_EXECUTION_SPEED;
 
 SetProcessInformation(GetCurrentProcess(), 
                       ProcessPowerThrottling, 
-                      &amp;PowerThrottling, 
+                      &PowerThrottling,
                       sizeof(PowerThrottling));
 
 //
@@ -196,7 +196,7 @@ PowerThrottling.StateMask = 0;
 
 SetProcessInformation(GetCurrentProcess(), 
                       ProcessPowerThrottling, 
-                      &amp;PowerThrottling, 
+                      &PowerThrottling,
                       sizeof(PowerThrottling));
 
 ```
@@ -209,7 +209,7 @@ The following example shows how to call
 
 ``` syntax
 PROCESS_POWER_THROTTLING_STATE PowerThrottling;
-RtlZeroMemory(&amp;PowerThrottling, sizeof(PowerThrottling));
+RtlZeroMemory(&PowerThrottling, sizeof(PowerThrottling));
 PowerThrottling.Version = PROCESS_POWER_THROTTLING_CURRENT_VERSION;
 
 //
@@ -223,7 +223,7 @@ PowerThrottling.StateMask = PROCESS_POWER_THROTTLING_IGNORE_TIMER_RESOLUTION;
 
 SetProcessInformation(GetCurrentProcess(), 
                       ProcessPowerThrottling, 
-                      &amp;PowerThrottling, 
+                      &PowerThrottling,
                       sizeof(PowerThrottling));
 
 //
@@ -237,7 +237,7 @@ PowerThrottling.StateMask = 0;
 
 SetProcessInformation(GetCurrentProcess(), 
                       ProcessPowerThrottling, 
-                      &amp;PowerThrottling, 
+                      &PowerThrottling,
                       sizeof(PowerThrottling));
 
 ```
@@ -251,7 +251,7 @@ The following example shows how to call
 
 ``` syntax
 PROCESS_POWER_THROTTLING_STATE PowerThrottling;
-RtlZeroMemory(&amp;PowerThrottling, sizeof(PowerThrottling));
+RtlZeroMemory(&PowerThrottling, sizeof(PowerThrottling));
 PowerThrottling.Version = PROCESS_POWER_THROTTLING_CURRENT_VERSION;
 
 //
@@ -264,7 +264,7 @@ PowerThrottling.StateMask = 0;
 
 SetProcessInformation(GetCurrentProcess(), 
                       ProcessPowerThrottling, 
-                      &amp;PowerThrottling, 
+                      &PowerThrottling,
                       sizeof(PowerThrottling));
  
 ```
