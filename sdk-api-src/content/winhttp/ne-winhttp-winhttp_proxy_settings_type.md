@@ -51,11 +51,11 @@ Specifies an unknown type.
 
 ### -field WinHttpProxySettingsTypeWsl
 
-Specifies settings for WSL.
+Specifies settings for Windows Subsystem for Linux (WSL).
 
 ### -field WinHttpProxySettingsTypeWsa
 
-Specifies settings for WSA.
+Specifies settings for Windows Subsystem for Android (WSA).
 
 ## -remarks
 
