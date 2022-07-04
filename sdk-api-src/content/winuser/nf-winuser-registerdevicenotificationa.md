@@ -62,6 +62,9 @@ req.apiset: ext-ms-win-ntuser-misc-l1-1-0 (introduced in Windows 8)
 
 Registers the device or type of device for which a window will receive notifications.
 
+> [!NOTE]
+> You can use <a href="/windows/win32/api/cfgmgr32/nf-cfgmgr32-cm_register_notification">CM_Register_Notification</a> instead of <b>RegisterDeviceNotification</b> if your code targets Windows 8 or newer versions of Windows. The advantage of <b>CM_Register_Notification</b> is that it does not require a window handle to work.
+
 ## -parameters
 
 ### -param hRecipient [in]
