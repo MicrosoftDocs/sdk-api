@@ -142,8 +142,7 @@ To enable a process to share a file or device while another process has the file
 </dl>
 </td>
 <td width="60%">
-Prevents any process from opening a file or device if it requests delete, read, or write access.
-
+Prevents subsequent open operations on a file or device if they request delete, read, or write access.
 </td>
 </tr>
 <tr>
