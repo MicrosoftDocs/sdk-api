@@ -126,15 +126,15 @@ Use the illustration to determine the character position returned based on the f
 
 <ul>
 <li>Default-- <i>pacp = 0</i> --The screen coordinates of the point is inside the character bounding box of Character Position 0.</li>
-<li>GXPF_ROUND_NEAREST-- <i>pacp = 1</i> --The screen coordinates of the point is closest to Range Position 1 which is the starting range position of Character Position 1.</li>
-<li>GXPF_NEAREST-- <i>pacp = 0</i> --The default behavior occurs because the point lies within the character bounding box of Character Position 0.</li>
+<li>GXFPF_ROUND_NEAREST-- <i>pacp = 1</i> --The screen coordinates of the point is closest to Range Position 1 which is the starting range position of Character Position 1.</li>
+<li>GXFPF_NEAREST-- <i>pacp = 0</i> --The default behavior occurs because the point lies within the character bounding box of Character Position 0.</li>
 </ul>
 <b>Point 2</b>
 
 <ul>
 <li>Default-- <i>hr = TF_E_INVALIDPOINT</i> --The screen coordinates of the point is outside a character bounding box.</li>
-<li>GXPF_ROUND_NEAREST-- <i>hr = TF_E_INVALIDPOINT</i> --The default behavior occurs because the screen coordinates of the point is outside a character bounding box.</li>
-<li>GXPF_NEAREST-- <i>pacp = 1</i> --The closest character position to the screen coordinates of the point is Character Position 1.</li>
+<li>GXFPF_ROUND_NEAREST-- <i>hr = TF_E_INVALIDPOINT</i> --The default behavior occurs because the screen coordinates of the point is outside a character bounding box.</li>
+<li>GXFPF_NEAREST-- <i>pacp = 1</i> --The closest character position to the screen coordinates of the point is Character Position 1.</li>
 </ul>
 
 ## -see-also
