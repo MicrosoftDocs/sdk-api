@@ -64,7 +64,7 @@ Specifies whether the retrieved help information belongs to the object or one of
 
 Type: <b>BSTR*</b>
 
-Address of a <b>BSTR</b> that receives the localized string that contains the help information for the specified object, or <b>NULL</b> if no help information is available.
+Address of a <b>BSTR</b> that receives the localized string containing the help information for the specified object, or <b>NULL</b> if no help information is available.
 
 ## -returns
 
