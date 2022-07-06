@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-Describes the level of displayable surfaces supported in the current graphics driver.
+Describes the level of displayable surfaces supported in the current graphics driver. See [Displayable surfaces](/windows/win32/direct3d11/displayable-surfaces).
 
 ## -struct-fields
 
@@ -64,3 +64,5 @@ A shared resource support tier.
 ## -remarks
 
 ## -see-also
+
+* [Displayable surfaces](/windows/win32/direct3d11/displayable-surfaces)
