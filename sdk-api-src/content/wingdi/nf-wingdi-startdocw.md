@@ -64,7 +64,7 @@ A handle to the device context for the print job.
 
 ### -param lpdi [in]
 
-A pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-docinfoa">DOCINFO</a> structure containing the name of the document file and the name of the output file.
+A pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-docinfow">DOCINFO</a> structure containing the name of the document file and the name of the output file.
 
 ## -returns
 
