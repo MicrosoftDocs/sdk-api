@@ -59,7 +59,7 @@ Type: **[BOOL](/windows/win32/winprog/windows-data-types)**
 
 Type: **[D3D11_SHARED_RESOURCE_TIER](/windows/win32/api/d3d11/ne-d3d11-d3d11_shared_resource_tier)**
 
-A shared resource support tier.
+The level of support for shared resources in the current graphics driver.
 
 ## -remarks
 

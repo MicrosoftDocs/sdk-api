@@ -153,7 +153,7 @@ Supports shader cache, described in <a href="/windows/win32/api/d3d11/ns-d3d11-d
 
 ### -field D3D11_FEATURE_D3D11_OPTIONS5
 
-Supports a <a href="/windows/win32/api/d3d11/ne-d3d11-d3d11_shared_resource_tier">D3D11_SHARED_RESOURCE_TIER</a> to indicate a tier for shared resource support. Refer to <a href="/windows/win32/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options5">D3D11_FEATURE_DATA_D3D11_OPTIONS5</a>.
+Supports a <a href="/windows/win32/api/d3d11/ne-d3d11-d3d11_shared_resource_tier">D3D11_SHARED_RESOURCE_TIER</a> to indicate the level of support for shared resources in the current graphics driver. Refer to <a href="/windows/win32/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options5">D3D11_FEATURE_DATA_D3D11_OPTIONS5</a>.
 
 ### -field D3D11_FEATURE_DISPLAYABLE
 
