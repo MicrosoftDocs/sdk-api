@@ -100,7 +100,7 @@ The next example shows the implementation of the <a href="/windows/desktop/api/m
 
 The OnActivitiesReport function updates a boolean class member to indicate whether the queried sensor device is currently in use and then sets an event to signal that the status has been obtained.
 
-**Note** that The callback can be called multiple times and may not contain any reports hence the event is only set when reports were found.
+**Note** that the callback can be called multiple times and may not contain any reports, so the event is only set when reports were found.
 
 ```cpp
 
