@@ -169,7 +169,7 @@ HRESULT IsCameraInUse(
     bool& inUse
 )
 {
-    wil::com_ptr<MyCameraNotificationCallback> cameraNotificationCallback;
+    wil::com_ptr_nothrow<MyCameraNotificationCallback> cameraNotificationCallback;
     wil::com_ptr_nothrow<IMFSensorActivityMonitor> activityMonitor;
     wil::com_ptr_nothrow<IMFShutdown> spShutdown;
 
