@@ -273,6 +273,11 @@ are some common errors and their causes.
 - **ERROR_WMI_INSTANCE_NOT_FOUND**
 
   The given session is not running.
+  
+- **ERROR_ACTIVE_CONNECTIONS**
+
+  When returned from a EVENT_TRACE_CONTROL_STOP call, this indicates that
+  the session is already in the process of stopping.
 
 ## -remarks
 
