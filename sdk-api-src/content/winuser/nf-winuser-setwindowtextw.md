@@ -75,7 +75,7 @@ A handle to the window or control whose text is to be changed.
 
 ### -param lpString [in, optional]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCWSTR</b>
 
 The new title or control text.
 
