@@ -66,7 +66,7 @@ When this function returns, contains a pointer to the [SupportedTextSelection](.
 ## -syntax
 
 ```cpp
-HRESULT SupportedTextSelection (SupportedTextSelection *pRetVal);
+HRESULT get_SupportedTextSelection (SupportedTextSelection *pRetVal);
 ```
 
 ## -remarks
