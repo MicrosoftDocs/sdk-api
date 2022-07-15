@@ -72,5 +72,6 @@ This extended parameter type is used to specify the preferred NUMA node for new 
 
 ### -field MemExtendedParameterAttributeFlags
 
-### -field MemExtendedParameterMax
+This extended parameter type is used to specify additional flags for new memory allocations created by <a href="../memoryapi/nf-memoryapi-virtualalloc2.md">VirtualAlloc2</a> and <a href="../memoryapi/nf-memoryapi-mapviewoffile3.md">MapViewOfFile3</a>.
 
+### -field MemExtendedParameterMax
