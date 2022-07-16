@@ -69,7 +69,7 @@ The preferred base address of the enclave. Specify <b>NULL</b> to have the opera
 
 The size of the enclave that you want to create, including the size of the code that you will load into the enclave, in bytes.
 
-It has a minimum size, as well as only working on even amounts of MB like 2MB, 4MB, 6MB.
+The size must be a multiple of 2 MB.
 
 ### -param dwInitialCommitment [in]
 
