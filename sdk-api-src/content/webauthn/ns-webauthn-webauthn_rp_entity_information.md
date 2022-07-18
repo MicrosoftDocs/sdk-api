@@ -52,6 +52,8 @@ helpviewer_keywords:
 
 ### -field pwszId
 
+Identifier for the relying party. This field is required.
+
 ### -field pwszName
 
 ### -field pwszIcon

@@ -60,5 +60,7 @@ helpviewer_keywords:
 
 ## -remarks
 
-## -see-also
+> Note:
+> Before performing this operation, all other operations in progress in the authenticator session MUST be aborted by running the **WebAuthNCancelCurrentOperation** operation.
 
+## -see-also

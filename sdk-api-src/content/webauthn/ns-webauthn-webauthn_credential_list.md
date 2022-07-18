@@ -54,5 +54,7 @@ helpviewer_keywords:
 
 ## -remarks
 
+Returns **NTE_NOT_FOUND** when credentials are not found.
+
 ## -see-also
 
