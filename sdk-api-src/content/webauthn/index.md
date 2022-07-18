@@ -2,7 +2,7 @@
 UID: NA:webauthn
 tech.root: winnt
 title: webauthn.h header
-ms.date: 07/15/2022
+ms.date: 07/18/2022
 targetos: Windows
 description: APIs for communicating to Windows Hello and external security keys.
 prerelease: false
@@ -45,7 +45,7 @@ helpviewer_keywords:
 
 ## -description
 
-Provides Win32 apps with APIs for communicating to Windows Hello and external secruity keys as part of WebAuthn and CTAP specification.
+Provides Win32 apps with APIs for communicating to Windows Hello and external security keys as part of WebAuthn and CTAP specifications.
 
 ## -remarks
 
