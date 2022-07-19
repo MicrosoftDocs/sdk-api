@@ -1,8 +1,8 @@
 ---
 UID: NS:webauthn._WEBAUTHN_CREDENTIAL_LIST
-tech.root: 
+tech.root: webauthn
 title: WEBAUTHN_CREDENTIAL_LIST
-ms.date: 
+ms.date: 07/18/2022
 targetos: Windows
 description: 
 prerelease: false

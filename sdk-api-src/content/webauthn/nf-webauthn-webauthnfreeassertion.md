@@ -1,10 +1,10 @@
 ---
 UID: NF:webauthn.WebAuthNFreeAssertion
-tech.root: 
+tech.root: webauthn
 title: WebAuthNFreeAssertion
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: Frees a previously allocated WebAuthN assertion.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,11 +44,14 @@ helpviewer_keywords:
 
 ## -description
 
+Frees an assertion previously allocated by calling [WebAuthNAuthenticatorGetAssertion](./nf-webauthn-webauthnauthenticatorgetassertion.md).
+
 ## -parameters
 
 ### -param pWebAuthNAssertion
 
+The **WEBAUTHN_ASSERTION** to be freed.
+
 ## -remarks
 
 ## -see-also
-

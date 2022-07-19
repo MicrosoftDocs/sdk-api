@@ -1,10 +1,10 @@
 ---
 UID: NF:webauthn.WebAuthNGetErrorName
-tech.root: 
+tech.root: webauthn
 title: WebAuthNGetErrorName
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: Gets the error name for an error code.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,13 +44,29 @@ helpviewer_keywords:
 
 ## -description
 
+Gets the error name for the specified error code.
+
 ## -parameters
 
 ### -param hr
 
+The **HRESULT** to get the error name for.
+
 ## -returns
+
+An error name string.
 
 ## -remarks
 
-## -see-also
+Returns the following error codes:
 
+| Error Code | Error Name |
+|------------|------------|
+| **S_OK** | Success |
+| **NTE_EXISTS** | InvalidStateError |
+| **HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)**<br>**NTE_NOT_SUPPORTED**<br>**NTE_TOKEN_KEYSET_STORAGE_FULL** | ConstraintError |
+| **NTE_INVALID_PARAMETER** | NotSupporedError |
+| **NTE_DEVICE_NOT_FOUND**<br>**NTE_NOT_FOUND**<br>**HRESULT_FROM_WIN32(ERROR_CANCELLED)**<br>**NTE_USER_CANCELLED**<br>**HRESULT_FROM_WIN32(ERROR_TIMEOUT)** | NotAllowedError |
+| All other **HRESULT** values | UnknownError |
+
+## -see-also

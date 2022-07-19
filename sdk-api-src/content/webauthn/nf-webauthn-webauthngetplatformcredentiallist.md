@@ -1,10 +1,10 @@
 ---
 UID: NF:webauthn.WebAuthNGetPlatformCredentialList
-tech.root: 
+tech.root: webauthn
 title: WebAuthNGetPlatformCredentialList
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: Gets the list of stored credentials.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,15 +44,22 @@ helpviewer_keywords:
 
 ## -description
 
+Gets the list of **WEBAUTHN_CREDENTIAL_DETAILS_LIST** currently stored for the user.
+
 ## -parameters
 
 ### -param pGetCredentialsOptions
 
+The options for the operation.
+
 ### -param ppCredentialDetailsList
 
+The credentials list returned by the operation.
+
 ## -returns
+
+An **HRESULT** indicating success or failure.
 
 ## -remarks
 
 ## -see-also
-

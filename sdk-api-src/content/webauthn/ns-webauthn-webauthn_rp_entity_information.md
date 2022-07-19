@@ -1,8 +1,8 @@
 ---
 UID: NS:webauthn._WEBAUTHN_RP_ENTITY_INFORMATION
-tech.root: 
+tech.root: webauthn
 title: WEBAUTHN_RP_ENTITY_INFORMATION
-ms.date: 
+ms.date: 07/18/2022
 targetos: Windows
 description: 
 prerelease: false

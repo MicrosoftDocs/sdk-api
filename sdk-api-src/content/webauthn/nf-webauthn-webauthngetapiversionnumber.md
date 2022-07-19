@@ -1,10 +1,10 @@
 ---
 UID: NF:webauthn.WebAuthNGetApiVersionNumber
-tech.root: 
+tech.root: webauthn
 title: WebAuthNGetApiVersionNumber
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: Gets the API version number.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,9 +44,12 @@ helpviewer_keywords:
 
 ## -description
 
+Gets the version number of the WebAuthN API.
+
 ## -returns
+
+The WebAuthN API version number.
 
 ## -remarks
 
 ## -see-also
-

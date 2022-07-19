@@ -1,10 +1,10 @@
 ---
 UID: NF:webauthn.WebAuthNGetCancellationId
-tech.root: 
+tech.root: webauthn
 title: WebAuthNGetCancellationId
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: Gets the cancellation ID for a canceled operation.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,13 +44,18 @@ helpviewer_keywords:
 
 ## -description
 
+Gets the cancellation ID for the canceled operation.
+
 ## -parameters
 
 ### -param pCancellationId
 
+The **GUID** returned, representing the ID of the cancelled operation.
+
 ## -returns
+
+An **HRESULT** indicating success or failure.
 
 ## -remarks
 
 ## -see-also
-

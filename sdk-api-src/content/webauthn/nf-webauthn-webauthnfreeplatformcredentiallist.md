@@ -1,10 +1,10 @@
 ---
 UID: NF:webauthn.WebAuthNFreePlatformCredentialList
-tech.root: 
+tech.root: webauthn
 title: WebAuthNFreePlatformCredentialList
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: Frees the allocation for the platform credential list.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,11 +44,14 @@ helpviewer_keywords:
 
 ## -description
 
+Frees the allocation for the **WEBAUTHN_CREDENTIAL_DETAILS_LIST**.
+
 ## -parameters
 
 ### -param pCredentialDetailsList
 
+The platform credential list to be freed.
+
 ## -remarks
 
 ## -see-also
-

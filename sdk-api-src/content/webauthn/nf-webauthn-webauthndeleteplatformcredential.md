@@ -1,10 +1,10 @@
 ---
 UID: NF:webauthn.WebAuthNDeletePlatformCredential
-tech.root: 
+tech.root: webauthn
 title: WebAuthNDeletePlatformCredential
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: Removes a credential source stored on an authenticator.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,15 +44,22 @@ helpviewer_keywords:
 
 ## -description
 
+Removes a Public Key Credential Source stored on a Virtual Authenticator.
+
 ## -parameters
 
 ### -param cbCredentialId
 
+The ID of the credential to be removed.
+
 ### -param pbCredentialId
 
+A pointer to the credential ID to be removed.
+
 ## -returns
+
+Returns an **HRESULT** indicating success or failure.
 
 ## -remarks
 
 ## -see-also
-

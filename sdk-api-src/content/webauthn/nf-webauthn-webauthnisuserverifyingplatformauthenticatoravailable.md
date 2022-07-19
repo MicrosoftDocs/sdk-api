@@ -1,10 +1,10 @@
 ---
 UID: NF:webauthn.WebAuthNIsUserVerifyingPlatformAuthenticatorAvailable
-tech.root: 
+tech.root: webauthn
 title: WebAuthNIsUserVerifyingPlatformAuthenticatorAvailable
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: Determines if the platform authenticator service is available.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,13 +44,18 @@ helpviewer_keywords:
 
 ## -description
 
+Determines whether the platform authenticator service is available.
+
 ## -parameters
 
 ### -param pbIsUserVerifyingPlatformAuthenticatorAvailable
 
+A pointer to a **BOOL** that is set to **TRUE** if the authenticator service is available, or **FALSE** otherwise.
+
 ## -returns
+
+AN **HRESULT** indicating success or failure of the operation.
 
 ## -remarks
 
 ## -see-also
-

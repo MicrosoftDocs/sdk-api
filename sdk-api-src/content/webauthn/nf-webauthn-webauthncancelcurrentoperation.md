@@ -1,10 +1,10 @@
 ---
 UID: NF:webauthn.WebAuthNCancelCurrentOperation
-tech.root: 
+tech.root: webauthn
 title: WebAuthNCancelCurrentOperation
-ms.date: 
+ms.date: 07/18/2022
 targetos: Windows
-description: 
+description: Terminates operation currently in progress in the authenticator session.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -50,11 +50,14 @@ When this operation is invoked by the client in an authenticator session, it has
 
 ### -param pCancellationId
 
+The **GUID** returned, representing the ID of the cancelled operation.
+
 ## -returns
+
+Returns an **HRESULT** indicating success or failure.
 
 ## -remarks
 
 This operation is ignored if it is invoked in an authenticator session which does not have an **WebAuthNAuthenticatorMakeCredential** or **WebAuthNAuthenticatorGetAssertion** operation currently in progress.
 
 ## -see-also
-

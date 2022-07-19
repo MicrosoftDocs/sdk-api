@@ -11,9 +11,9 @@ ms.topic: conceptual
 
 ## -description
 
-Overview of the WebAuthn API technology, which provides Win32 apps with APIs for communicating to Windows Hello and external security keys as part of WebAuthn and CTAP specifications.
+Overview of the WebAuthn technology, which provides Win32 apps with APIs for communicating to Windows Hello and external security keys as part of WebAuthn and CTAP specifications.
 
-To develop WebAuthn API, you need these headers:
+To develop with the WebAuthn API, you need these headers:
 
 - [webauthn.h](../webauthn/index.md)
 

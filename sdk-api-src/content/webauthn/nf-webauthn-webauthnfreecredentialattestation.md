@@ -1,10 +1,10 @@
 ---
 UID: NF:webauthn.WebAuthNFreeCredentialAttestation
-tech.root: 
+tech.root: webauthn
 title: WebAuthNFreeCredentialAttestation
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: Frees a previously allocated credential attestation.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,11 +44,14 @@ helpviewer_keywords:
 
 ## -description
 
+Frees a **WEBAUTHN_CREDENTIAL_ATTESTATION** previously allocated by calling [WebAuthNAuthenticatorGetCredential](./nf-webauthn-webauthnauthenticatorgetcredential.md).
+
 ## -parameters
 
 ### -param pWebAuthNCredentialAttestation
 
+The credential attestation to be freed.
+
 ## -remarks
 
 ## -see-also
-

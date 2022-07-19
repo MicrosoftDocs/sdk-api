@@ -3,5 +3,5 @@
     "headers": [
       "webauthn.h"
     ],
-    "displayName": "WebAuthn API"
+    "displayName": "WebAuthn"
   }

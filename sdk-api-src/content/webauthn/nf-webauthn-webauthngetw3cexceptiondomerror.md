@@ -1,10 +1,10 @@
 ---
 UID: NF:webauthn.WebAuthNGetW3CExceptionDOMError
-tech.root: 
+tech.root: webauthn
 title: WebAuthNGetW3CExceptionDOMError
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: Gets the W3C DOM error code for the last failed operation.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,13 +44,18 @@ helpviewer_keywords:
 
 ## -description
 
+Gets the W3C DOM error code for the last failed operation in the authenticator session.
+
 ## -parameters
 
 ### -param hr
 
+The **HRESULT** returned by the last failed operation in the session.
+
 ## -returns
+
+An **HRESULT** with the failure status.
 
 ## -remarks
 
 ## -see-also
-

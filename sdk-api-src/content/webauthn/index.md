@@ -1,6 +1,6 @@
 ---
 UID: NA:webauthn
-tech.root: winnt
+tech.root: webauthn
 title: webauthn.h header
 ms.date: 07/18/2022
 targetos: Windows
