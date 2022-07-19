@@ -1,10 +1,10 @@
 ---
 UID: NS:webauthn._WEBAUTHN_CRED_WITH_HMAC_SECRET_SALT
-tech.root: 
+tech.root: webauthn
 title: WEBAUTHN_CRED_WITH_HMAC_SECRET_SALT
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: The structure containing the credential with SALT values.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,15 +46,22 @@ helpviewer_keywords:
 
 ## -description
 
+The structure containing the credential with SALT values.
+
 ## -struct-fields
 
 ### -field cbCredID
 
+The size of **pbCredID**.
+
 ### -field pbCredID
 
+The credential Id.
+
 ### -field pHmacSecretSalt
+
+PRF Values for the credential.
 
 ## -remarks
 
 ## -see-also
-

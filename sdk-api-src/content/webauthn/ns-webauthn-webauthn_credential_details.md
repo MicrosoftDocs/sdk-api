@@ -1,10 +1,10 @@
 ---
 UID: NS:webauthn._WEBAUTHN_CREDENTIAL_DETAILS
-tech.root: 
+tech.root: webauthn
 title: WEBAUTHN_CREDENTIAL_DETAILS
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: Contains the data for a credential.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,21 +46,34 @@ helpviewer_keywords:
 
 ## -description
 
+The structure containing the credential data.
+
 ## -struct-fields
 
 ### -field dwVersion
 
+Version of this structure, to allow for modifications in the future. This field is required and should be set to **CURRENT_VERSION**.
+
 ### -field cbCredentialID
+
+The size of pbCredentialID.
 
 ### -field pbCredentialID
 
+The credential Id.
+
 ### -field pRpInformation
+
+The relying party information.
 
 ### -field pUserInformation
 
+The user information.
+
 ### -field bRemovable
+
+Indicates if the credential is removable or not.
 
 ## -remarks
 
 ## -see-also
-

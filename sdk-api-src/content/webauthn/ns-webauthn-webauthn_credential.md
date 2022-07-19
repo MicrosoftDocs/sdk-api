@@ -1,10 +1,10 @@
 ---
 UID: NS:webauthn._WEBAUTHN_CREDENTIAL
-tech.root: 
+tech.root: webauthn
 title: WEBAUTHN_CREDENTIAL
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: Contains information about a credential.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,17 +46,26 @@ helpviewer_keywords:
 
 ## -description
 
+Contains information about a credential.
+
 ## -struct-fields
 
 ### -field dwVersion
 
+Version of this structure, to allow for modifications in the future. This field is required and should be set to **CURRENT_VERSION**.
+
 ### -field cbId
+
+The size of **pbId**.
 
 ### -field pbId
 
+Unique ID for this particular credential.
+
 ### -field pwszCredentialType
+
+Well-known credential type specifying the type of this particular credential.
 
 ## -remarks
 
 ## -see-also
-

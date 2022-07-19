@@ -1,10 +1,10 @@
 ---
 UID: NS:webauthn._WEBAUTHN_EXTENSION
-tech.root: 
+tech.root: webauthn
 title: WEBAUTHN_EXTENSION
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: Contains information about an extension.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,15 +46,22 @@ helpviewer_keywords:
 
 ## -description
 
+Contains information about an extension.
+
 ## -struct-fields
 
 ### -field pwszExtensionIdentifier
 
+The extension identifier.
+
 ### -field cbExtension
 
+The size of **pvExtension**.
+
 ### -field pvExtension
+
+The extension data.
 
 ## -remarks
 
 ## -see-also
-

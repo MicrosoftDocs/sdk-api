@@ -1,10 +1,10 @@
 ---
 UID: NS:webauthn._WEBAUTHN_CRED_PROTECT_EXTENSION_IN
-tech.root: 
+tech.root: webauthn
 title: WEBAUTHN_CRED_PROTECT_EXTENSION_IN
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: Contains the credential protect extension information.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,13 +46,18 @@ helpviewer_keywords:
 
 ## -description
 
+The structure containing the credential protect extension information.
+
 ## -struct-fields
 
 ### -field dwCredProtect
 
+One of the **WEBAUTHN_USER_VERIFICATION** values.
+
 ### -field bRequireCredProtect
+
+Set the this to **TRUE** to require authenticator support for the **credProtect** extension.
 
 ## -remarks
 
 ## -see-also
-

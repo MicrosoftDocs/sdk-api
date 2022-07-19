@@ -1,10 +1,10 @@
 ---
 UID: NS:webauthn._WEBAUTHN_CRED_BLOB_EXTENSION
-tech.root: 
+tech.root: webauthn
 title: WEBAUTHN_CRED_BLOB_EXTENSION
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: The blob extension data for a credential.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,13 +46,18 @@ helpviewer_keywords:
 
 ## -description
 
+The structure containing the blob extension data for a credential.
+
 ## -struct-fields
 
 ### -field cbCredBlob
 
+Size of **pbCredBlob**.
+
 ### -field pbCredBlob
+
+The credential blob.
 
 ## -remarks
 
 ## -see-also
-

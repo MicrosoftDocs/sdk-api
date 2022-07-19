@@ -1,10 +1,10 @@
 ---
 UID: NS:webauthn._WEBAUTHN_EXTENSIONS
-tech.root: 
+tech.root: webauthn
 title: WEBAUTHN_EXTENSIONS
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: Contains a list of extensions.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,13 +46,18 @@ helpviewer_keywords:
 
 ## -description
 
+Contains a list of extensions.
+
 ## -struct-fields
 
 ### -field cExtensions
 
+The size of **pExtensions**.
+
 ### -field pExtensions
+
+The list of extensions.
 
 ## -remarks
 
 ## -see-also
-

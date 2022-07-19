@@ -1,10 +1,10 @@
 ---
 UID: NS:webauthn._WEBAUTHN_CLIENT_DATA
-tech.root: 
+tech.root: webauthn
 title: WEBAUTHN_CLIENT_DATA
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: A structure containing the client data that is sent to the authenticator.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,15 +46,25 @@ helpviewer_keywords:
 
 ## -description
 
+A structure containing the client data that is sent to the authenticator.
+
 ## -struct-fields
 
 ### -field dwVersion
 
+Version of this structure, to allow for modifications in the future. This field is required and should be set to **CURRENT_VERSION**.
+
 ### -field cbClientDataJSON
+
+The size of the **pbClientDataJSON** field.
 
 ### -field pbClientDataJSON
 
+UTF-8 encoded JSON serialization of the client data.
+
 ### -field pwszHashAlgId
+
+Hash algorithm ID used to hash the **pbClientDataJSON** field.
 
 ## -remarks
 

@@ -2,9 +2,9 @@
 UID: NS:webauthn._WEBAUTHN_RP_ENTITY_INFORMATION
 tech.root: webauthn
 title: WEBAUTHN_RP_ENTITY_INFORMATION
-ms.date: 07/18/2022
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: Information about the Relying Party.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,19 +46,26 @@ helpviewer_keywords:
 
 ## -description
 
+Information about the Relying Party entity.
+
 ## -struct-fields
 
 ### -field dwVersion
 
+Version of this structure, to allow for modifications in the future. This field is required and should be set to **CURRENT_VERSION**.
+
 ### -field pwszId
 
-Identifier for the relying party. This field is required.
+Identifier for the Relying Party. This field is required.
 
 ### -field pwszName
 
+Contains the friendly name of the Relying Party, such as "Acme Corporation", "Widgets Inc", or "Contoso". This field is required.
+
 ### -field pwszIcon
+
+Optional URL pointing to the Relying Party's logo.
 
 ## -remarks
 
 ## -see-also
-

@@ -2,9 +2,9 @@
 UID: NS:webauthn._WEBAUTHN_CREDENTIAL_LIST
 tech.root: webauthn
 title: WEBAUTHN_CREDENTIAL_LIST
-ms.date: 07/18/2022
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: The list of credentials that the user has registered with the authenticator.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,15 +46,18 @@ helpviewer_keywords:
 
 ## -description
 
+The list of credentials that the user has registered with the authenticator.
+
 ## -struct-fields
 
 ### -field cCredentials
 
+The size of **ppCredentials**.
+
 ### -field ppCredentials
+
+The array of credentials.
 
 ## -remarks
 
-Returns **NTE_NOT_FOUND** when credentials are not found.
-
 ## -see-also
-

@@ -1,10 +1,10 @@
 ---
 UID: NS:webauthn._WEBAUTHN_COSE_CREDENTIAL_PARAMETERS
-tech.root: 
+tech.root: webauthn
 title: WEBAUTHN_COSE_CREDENTIAL_PARAMETERS
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: The structure containing the COSE parameters for a credential.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,13 +46,18 @@ helpviewer_keywords:
 
 ## -description
 
+The structure containing the COSE parameters for a credential.
+
 ## -struct-fields
 
 ### -field cCredentialParameters
 
+The COSE parameters for the credential.
+
 ### -field pCredentialParameters
+
+A pointer to the COSE parameters for the credential.
 
 ## -remarks
 
 ## -see-also
-

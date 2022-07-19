@@ -1,10 +1,10 @@
 ---
 UID: NS:webauthn._WEBAUTHN_COMMON_ATTESTATION
-tech.root: 
+tech.root: webauthn
 title: WEBAUTHN_COMMON_ATTESTATION
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: The structure containing the common data for an attestation.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,33 +46,58 @@ helpviewer_keywords:
 
 ## -description
 
+The structure containing the common data for an attestation.
+
 ## -struct-fields
 
 ### -field dwVersion
 
+Version of this structure, to allow for modifications in the future. This field is required and should be set to **CURRENT_VERSION**.
+
 ### -field pwszAlg
+
+The hash and padding algorithm. This won't be set for _fido-u2f_ which assumes **"ES256"**.
 
 ### -field lAlg
 
+The COSE algorithm identifier. This value is a number identifying a cryptographic algorithm. The algorithm identifiers _should_ be values registered in the [IANA COSE Algorithms registry](https://w3c.github.io/webauthn/#biblio-iana-cose-algs-reg), for instance, -7 for "ES256" and -257 for "RS256".
+
 ### -field cbSignature
+
+The signature that was generated for this attestation.
 
 ### -field pbSignature
 
+A pointer to the signature that was generated for this attestation.
+
 ### -field cX5c
+
+Array of X.509 DER encoded certificates. The first certificate is the signer, leaf certificate. This is set for **Full Basic Attestation**. If not set, then this is a **Self Attestation**.
 
 ### -field pX5c
 
+A pointer to the array of X.509 certificates.
+
 ### -field pwszVer
+
+A pointer to the version of the attestation statement. (This is set for tpm.)
 
 ### -field cbCertInfo
 
+The size of the certificate information. (This is set for tpm.)
+
 ### -field pbCertInfo
+
+A pointer to the certificate information. (This is set for tpm.)
 
 ### -field cbPubArea
 
+The size of the public key area. (This is set for tpm.)
+
 ### -field pbPubArea
+
+A pointer to the public key area. (This is set for tpm.)
 
 ## -remarks
 
 ## -see-also
-

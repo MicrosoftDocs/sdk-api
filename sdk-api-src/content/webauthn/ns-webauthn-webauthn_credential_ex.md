@@ -1,10 +1,10 @@
 ---
 UID: NS:webauthn._WEBAUTHN_CREDENTIAL_EX
-tech.root: 
+tech.root: webauthn
 title: WEBAUTHN_CREDENTIAL_EX
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: Data about a credential with extra information.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,19 +46,30 @@ helpviewer_keywords:
 
 ## -description
 
+Data about a credential with extra information, such as *dwTransports**.
+
 ## -struct-fields
 
 ### -field dwVersion
 
+Version of this structure, to allow for modifications in the future. This field is required and should be set to **CURRENT_VERSION**.
+
 ### -field cbId
+
+The size of **pbID**.
 
 ### -field pbId
 
+Unique ID for this particular credential.
+
 ### -field pwszCredentialType
 
+Well-known credential type specifying the type of this particular credential.
+
 ### -field dwTransports
+
+The transports. **0** implies no transport restrictions.
 
 ## -remarks
 
 ## -see-also
-

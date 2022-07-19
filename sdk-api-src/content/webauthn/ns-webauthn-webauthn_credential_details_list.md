@@ -1,10 +1,10 @@
 ---
 UID: NS:webauthn._WEBAUTHN_CREDENTIAL_DETAILS_LIST
-tech.root: 
+tech.root: webauthn
 title: WEBAUTHN_CREDENTIAL_DETAILS_LIST
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: The list of credentials.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,13 +46,18 @@ helpviewer_keywords:
 
 ## -description
 
+The list of credentials.
+
 ## -struct-fields
 
 ### -field cCredentialDetails
 
+The size of the credential details array.
+
 ### -field ppCredentialDetails
+
+The credential details array.
 
 ## -remarks
 
 ## -see-also
-

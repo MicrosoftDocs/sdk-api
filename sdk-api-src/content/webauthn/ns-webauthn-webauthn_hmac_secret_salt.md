@@ -1,10 +1,10 @@
 ---
 UID: NS:webauthn._WEBAUTHN_HMAC_SECRET_SALT
-tech.root: 
+tech.root: webauthn
 title: WEBAUTHN_HMAC_SECRET_SALT
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: Contains the SALT values for the Hmac-Secret.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,17 +46,28 @@ helpviewer_keywords:
 
 ## -description
 
+Contains the SALT values for the Hmac-Secret.
+
 ## -struct-fields
 
 ### -field cbFirst
 
+The size of pbFirst.
+
 ### -field pbFirst
+
+The first SALT value.
 
 ### -field cbSecond
 
+THe size of pbSecond.
+
 ### -field pbSecond
+
+The second SALT value.
 
 ## -remarks
 
-## -see-also
+SALT values, by default, are converted into RAW Hmac-Secret values as per PRF extension.
 
+## -see-also

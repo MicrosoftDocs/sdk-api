@@ -1,10 +1,10 @@
 ---
 UID: NS:webauthn._WEBAUTHN_CREDENTIALS
-tech.root: 
+tech.root: webauthn
 title: WEBAUTHN_CREDENTIALS
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: The array of credentials that the user has registered with the authenticator.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,13 +46,18 @@ helpviewer_keywords:
 
 ## -description
 
+The array of credentials that the user has registered with the authenticator. with the authenticator.
+
 ## -struct-fields
 
 ### -field cCredentials
 
+The size of **pCredentials**.
+
 ### -field pCredentials
+
+The array of credentials.
 
 ## -remarks
 
 ## -see-also
-

@@ -1,10 +1,10 @@
 ---
 UID: NS:webauthn._WEBAUTHN_COSE_CREDENTIAL_PARAMETER
-tech.root: 
+tech.root: webauthn
 title: WEBAUTHN_COSE_CREDENTIAL_PARAMETER
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: The structure containing the COSE credential parameter information.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,15 +46,22 @@ helpviewer_keywords:
 
 ## -description
 
+The structure containing the COSE credential parameter that is sent to the authenticator.
+
 ## -struct-fields
 
 ### -field dwVersion
 
+Version of this structure, to allow for modifications in the future. This field is required and should be set to **CURRENT_VERSION**.
+
 ### -field pwszCredentialType
 
+Well-known credential type specifying a credential to create.
+
 ### -field lAlg
+
+Well-known COSE algorithm specifying the algorithm to use for the credential.
 
 ## -remarks
 
 ## -see-also
-

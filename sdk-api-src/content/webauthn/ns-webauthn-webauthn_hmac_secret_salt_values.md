@@ -1,10 +1,10 @@
 ---
 UID: NS:webauthn._WEBAUTHN_HMAC_SECRET_SALT_VALUES
-tech.root: 
+tech.root: webauthn
 title: WEBAUTHN_HMAC_SECRET_SALT_VALUES
-ms.date: 
+ms.date: 07/19/2022
 targetos: Windows
-description: 
+description: Contains the SALT values for the HMAC secret.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,15 +46,22 @@ helpviewer_keywords:
 
 ## -description
 
+The structure that contains the SALT values for the HMAC secret.
+
 ## -struct-fields
 
 ### -field pGlobalHmacSalt
 
+The global HMAC SALT.
+
 ### -field cCredWithHmacSecretSaltList
 
+The size of **pCredWithHmacSecretSaltList**.
+
 ### -field pCredWithHmacSecretSaltList
+
+The list of credentials with HMAC secret SALT.
 
 ## -remarks
 
 ## -see-also
-
