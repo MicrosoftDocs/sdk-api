@@ -6,7 +6,7 @@ helpviewer_keywords: ["DML_ELEMENT_WISE_ADD_OPERATOR_DESC","DML_ELEMENT_WISE_ADD
 old-location: direct3d12\dml_element_wise_add_operator_desc.htm
 tech.root: directml
 ms.assetid: 0F541A9C-12A0-4105-AF92-E5CEAA0B6F00
-ms.date: 10/29/2020
+ms.date: 07/20/2022
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -84,6 +84,12 @@ This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 *ATensor*, *BTensor*, and *OutputTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_5_1 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| ATensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| BTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
 
 ### DML_FEATURE_LEVEL_4_1 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
