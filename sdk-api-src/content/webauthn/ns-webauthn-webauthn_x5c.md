@@ -61,3 +61,5 @@ The X.509 encoded certificate bytes.
 ## -remarks
 
 ## -see-also
+
+[WEBAUTHN_COMMON_ATTESTATION](./ns-webauthn-webauthn_common_attestation.md)

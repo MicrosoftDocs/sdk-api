@@ -65,3 +65,5 @@ Well-known COSE algorithm specifying the algorithm to use for the credential.
 ## -remarks
 
 ## -see-also
+
+[WEBAUTHN_COSE_CREDENTIAL_PARAMETERS](./ns-webauthn-webauthn_cose_credential_parameters.md)

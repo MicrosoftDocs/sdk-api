@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Frees a **WEBAUTHN_CREDENTIAL_ATTESTATION** previously allocated by calling [WebAuthNAuthenticatorGetCredential](./nf-webauthn-webauthnauthenticatorgetcredential.md).
+Frees a **WEBAUTHN_CREDENTIAL_ATTESTATION** previously allocated by calling [WebAuthNAuthenticatorMakeCredential](./nf-webauthn-webauthnauthenticatormakecredential.md).
 
 ## -parameters
 
@@ -56,6 +56,6 @@ The credential attestation to be freed.
 
 ## -see-also
 
-[WebAuthNAuthenticatorGetCredential](./nf-webauthn-webauthnauthenticatorgetcredential.md)
+[WebAuthNAuthenticatorMakeCredential](./nf-webauthn-webauthnauthenticatormakecredential.md)
 
 [WEBAUTHN_CREDENTIAL_ATTESTATION](./ns-webauthn-webauthn_credential_attestation.md)

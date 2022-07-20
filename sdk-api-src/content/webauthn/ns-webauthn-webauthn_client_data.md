@@ -69,3 +69,5 @@ Hash algorithm ID used to hash the **pbClientDataJSON** field.
 ## -remarks
 
 ## -see-also
+
+[WebAuthNAuthenticatorMakeCredential](./nf-webauthn-webauthnauthenticatormakecredential.md)

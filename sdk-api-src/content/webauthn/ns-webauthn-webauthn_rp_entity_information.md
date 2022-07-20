@@ -69,3 +69,5 @@ Optional URL pointing to the Relying Party's logo.
 ## -remarks
 
 ## -see-also
+
+[WEBAUTHN_CREDENTIAL_DETAILS](./ns-webauthn-webauthn_credential_details.md)

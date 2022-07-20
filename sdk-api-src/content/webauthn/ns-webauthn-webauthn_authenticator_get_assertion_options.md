@@ -117,3 +117,7 @@ Indicates whether the client is using in-private mode in the browser. An _option
 ## -remarks
 
 ## -see-also
+
+[WebAuthNAuthenticatorGetAssertion](./nf-webauthn-webauthnauthenticatorgetassertion.md)
+
+[WEBAUTHN_HMAC_SECRET_SALT_VALUES](./ns-webauthn-webauthn_hmac_secret_salt_values.md)

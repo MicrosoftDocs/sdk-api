@@ -61,3 +61,5 @@ Set the this to **TRUE** to require authenticator support for the **credProtect*
 ## -remarks
 
 ## -see-also
+
+[WEBAUTHN_CREDENTIAL](./ns-webauthn-webauthn_credential.md)

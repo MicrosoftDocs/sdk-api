@@ -65,3 +65,5 @@ The extension data.
 ## -remarks
 
 ## -see-also
+
+[WEBAUTHN_EXTENSIONS](./ns-webauthn-webauthn_extensions.md)

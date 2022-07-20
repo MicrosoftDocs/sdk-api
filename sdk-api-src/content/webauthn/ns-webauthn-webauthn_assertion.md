@@ -105,3 +105,7 @@ A salt used to generate the HMAC secret.
 ## -remarks
 
 ## -see-also
+
+[WebAuthNFreeAssertion](./nf-webauthn-webauthnfreeassertion.md)
+
+[WebAuthNAuthenticatorGetAssertion](./nf-webauthn-webauthnauthenticatorgetassertion.md)

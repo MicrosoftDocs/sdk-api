@@ -65,3 +65,7 @@ PRF Values for the credential.
 ## -remarks
 
 ## -see-also
+
+[WEBAUTHN_CREDENTIAL](./ns-webauthn-webauthn_credential.md)
+
+[WEBAUTHN_HMAC_SECRET_SALT](./ns-webauthn-webauthn_hmac_secret_salt.md)

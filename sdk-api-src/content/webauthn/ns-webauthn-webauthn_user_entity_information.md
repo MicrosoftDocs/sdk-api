@@ -77,3 +77,5 @@ Contains the friendly name associated with the user account by the Relying Party
 ## -remarks
 
 ## -see-also
+
+[WEBAUTHN_CREDENTIAL_DETAILS](./ns-webauthn-webauthn_credential_details.md)

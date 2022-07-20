@@ -113,3 +113,7 @@ Indicates whether the client is using in-private mode in the browser. An _option
 ## -remarks
 
 ## -see-also
+
+[WebAuthNAuthenticatorMakeCredential](./nf-webauthn-webauthnauthenticatormakecredential.md)
+
+[WebAuthNGetCancellationId](./nf-webauthn-webauthngetcancellationid.md)

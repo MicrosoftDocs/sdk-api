@@ -101,3 +101,7 @@ A pointer to the public key area. (This is set for tpm.)
 ## -remarks
 
 ## -see-also
+
+[WEBAUTHN_CREDENTIAL_ATTESTATION](./ns-webauthn-webauthn_credential_attestation.md)
+
+[WEBAUTHN_X5C](./ns-webauthn-webauthn_x5c.md)

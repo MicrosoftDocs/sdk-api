@@ -69,3 +69,5 @@ Well-known credential type specifying the type of this particular credential.
 ## -remarks
 
 ## -see-also
+
+[WEBAUTHN_CREDENTIALS](./ns-webauthn-webauthn_credentials.md)

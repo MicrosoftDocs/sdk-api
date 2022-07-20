@@ -73,3 +73,5 @@ The transports. **0** implies no transport restrictions.
 ## -remarks
 
 ## -see-also
+
+[WEBAUTHN_CREDENTIAL](./ns-webauthn-webauthn_credential.md)

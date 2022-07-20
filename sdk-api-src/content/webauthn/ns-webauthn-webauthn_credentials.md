@@ -61,3 +61,5 @@ The array of credentials.
 ## -remarks
 
 ## -see-also
+
+[WEBAUTHN_CREDENTIAL](./ns-webauthn-webauthn_credential.md)

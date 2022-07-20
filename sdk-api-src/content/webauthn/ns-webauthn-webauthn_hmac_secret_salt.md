@@ -71,3 +71,7 @@ The second SALT value.
 SALT values, by default, are converted into RAW Hmac-Secret values as per PRF extension.
 
 ## -see-also
+
+[WEBAUTHN_CRED_WITH_HMAC_SECRET_SALT](./ns-webauthn-webauthn_cred_with_hmac_secret_salt.md)
+
+[WEBAUTHN_HMAC_SECRET_SALT_VALUES](./ns-webauthn-webauthn_hmac_secret_salt_values.md)

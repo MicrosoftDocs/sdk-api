@@ -61,3 +61,5 @@ The list of extensions.
 ## -remarks
 
 ## -see-also
+
+[WEBAUTHN_EXTENSION](./ns-webauthn-webauthn_extension.md)

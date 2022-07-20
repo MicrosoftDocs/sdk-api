@@ -65,3 +65,5 @@ The list of credentials with HMAC secret SALT.
 ## -remarks
 
 ## -see-also
+
+[WEBAUTHN_HMAC_SECRET_SALT](./ns-webauthn-webauthn_hmac_secret_salt.md)

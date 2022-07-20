@@ -128,3 +128,5 @@ The **pvAttestationDecode** depends on the **dwAttestationDecodeType**:
 | **WEBAUTHN_ATTESTATION_DECODE_COMMON** | **PWEBAUTHN_COMMON_ATTESTATION** |
 
 ## -see-also
+
+[WebAuthNAuthenticatorMakeCredential](./nf-webauthn-webauthnauthenticatormakecredential.md)

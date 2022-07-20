@@ -77,3 +77,7 @@ Indicates if the credential is removable or not.
 ## -remarks
 
 ## -see-also
+
+[WEBAUTHN_CREDENTIAL](./ns-webauthn-webauthn_credential.md)
+
+[WEBAUTHN_CREDENTIAL_DETAILS_LIST](./ns-webauthn-webauthn_credential_details_list.md)

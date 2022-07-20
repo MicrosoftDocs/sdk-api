@@ -65,3 +65,5 @@ Is browser in-private mode. This field is _optional_ and defaults to **FALSE**.
 ## -remarks
 
 ## -see-also
+
+[WebAuthNGetPlatformCredentialsList](./nf-webauthn-webauthngetplatformcredentiallist.md)

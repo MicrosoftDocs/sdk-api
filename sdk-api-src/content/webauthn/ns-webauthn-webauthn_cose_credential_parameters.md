@@ -61,3 +61,5 @@ A pointer to the COSE parameters for the credential.
 ## -remarks
 
 ## -see-also
+
+[WEBAUTHN_COSE_CREDENTIAL_PARAMETER](./ns-webauthn-webauthn_cose_credential_parameter.md)

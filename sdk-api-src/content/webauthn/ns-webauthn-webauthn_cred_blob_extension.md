@@ -61,3 +61,5 @@ The credential blob.
 ## -remarks
 
 ## -see-also
+
+[WEBAUTHN_EXTENSION](./ns-webauthn-webauthn_extension.md)
