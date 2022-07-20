@@ -53,3 +53,5 @@ The WebAuthN API version number.
 ## -remarks
 
 ## -see-also
+
+[WebAuthNGetErrorName](./nf-webauthn-webauthngeterrorname.md)

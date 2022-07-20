@@ -63,3 +63,7 @@ An **HRESULT** indicating success or failure.
 ## -remarks
 
 ## -see-also
+
+[WEBAUTHN_CREDENTIAL_DETAILS_LIST](./ns-webauthn-webauthn_credential_details_list.md)
+
+[WebAuthNFreePlatformCredentialList](./nf-webauthn-webauthnfreeplatformcredentiallist.md)

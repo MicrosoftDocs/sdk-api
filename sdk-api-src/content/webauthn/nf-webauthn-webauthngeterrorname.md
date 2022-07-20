@@ -70,3 +70,5 @@ Returns the following error codes:
 | All other **HRESULT** values | UnknownError |
 
 ## -see-also
+
+[WebAuthNGetW3CExceptionDOMError](./nf-webauthn-webauthngetw3cexceptiondomerror.md)

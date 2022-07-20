@@ -59,3 +59,7 @@ An **HRESULT** indicating success or failure.
 ## -remarks
 
 ## -see-also
+
+[WebAuthNCancelCurrentOperation](./nf-webauthn-webauthncancelcurrentoperation.md)
+
+[WebAuthNGetErrorName](./nf-webauthn-webauthngeterrorname.md)

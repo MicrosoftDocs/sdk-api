@@ -55,3 +55,7 @@ The **WEBAUTHN_ASSERTION** to be freed.
 ## -remarks
 
 ## -see-also
+
+[WebAuthNAuthenticatorGetAssertion](./nf-webauthn-webauthnauthenticatorgetassertion.md)
+
+[WEBAUTHN_ASSERTION](./ns-webauthn-webauthn_assertion.md)

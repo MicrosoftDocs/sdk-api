@@ -83,3 +83,7 @@ Returns an **HRESULT** indicating success or failure.
 ## -remarks
 
 ## -see-also
+
+[WEBAUTHN_USER_ENTITY_INFORMATION](./ns-webauthn-webauthn_user_entity_information.md)
+
+[WebAuthNGetPlatformCredentialList](./nf-webauthn-webauthngetplatformcredentiallist.md)

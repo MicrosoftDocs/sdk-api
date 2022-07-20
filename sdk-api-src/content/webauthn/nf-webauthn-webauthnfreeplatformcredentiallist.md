@@ -55,3 +55,7 @@ The platform credential list to be freed.
 ## -remarks
 
 ## -see-also
+
+[WebAuthNGetPlatformCredentialList](./nf-webauthn-webauthngetplatformcredentiallist.md)
+
+[WEBAUTHN_CREDENTIAL_DETAILS_LIST](./ns-webauthn-webauthn_credential_details_list.md)

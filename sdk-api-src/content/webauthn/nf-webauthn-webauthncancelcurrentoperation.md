@@ -61,3 +61,9 @@ Returns an **HRESULT** indicating success or failure.
 This operation is ignored if it is invoked in an authenticator session which does not have an **WebAuthNAuthenticatorMakeCredential** or **WebAuthNAuthenticatorGetAssertion** operation currently in progress.
 
 ## -see-also
+
+[WebAuthNGetCancellationId](./nf-webauthn-webauthngetcancellationid.md)
+
+[WebAuthNAuthenticatorMakeCredential](./nf-webauthn-webauthnauthenticatormakecredential.md)
+
+[WebAuthNAuthenticatorGetAssertion](./nf-webauthn-webauthnauthenticatorgetassertion.md)

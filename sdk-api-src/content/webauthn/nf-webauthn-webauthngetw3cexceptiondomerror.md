@@ -59,3 +59,5 @@ An **HRESULT** with the failure status.
 ## -remarks
 
 ## -see-also
+
+[WebAuthNGetErrorName](./nf-webauthn-webauthngeterrorname.md)

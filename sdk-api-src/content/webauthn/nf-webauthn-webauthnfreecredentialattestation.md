@@ -55,3 +55,7 @@ The credential attestation to be freed.
 ## -remarks
 
 ## -see-also
+
+[WebAuthNAuthenticatorGetCredential](./nf-webauthn-webauthnauthenticatorgetcredential.md)
+
+[WEBAUTHN_CREDENTIAL_ATTESTATION](./ns-webauthn-webauthn_credential_attestation.md)

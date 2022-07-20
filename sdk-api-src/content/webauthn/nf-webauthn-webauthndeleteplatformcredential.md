@@ -63,3 +63,5 @@ Returns an **HRESULT** indicating success or failure.
 ## -remarks
 
 ## -see-also
+
+[WebAuthNGetPlatformCredentialList](./nf-webauthn-webauthngetplatformcredentiallist.md)

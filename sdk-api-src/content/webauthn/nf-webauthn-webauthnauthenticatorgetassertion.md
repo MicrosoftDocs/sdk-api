@@ -75,8 +75,12 @@ Returns an **HRESULT** indicating success or failure.
 ## -remarks
 
 > Note:
-> Before performing this operation, all other operations in progress in the authenticator session MUST be aborted by running the **WebAuthNCancelCurrentOperation** operation.
+> Before performing this operation, all other operations in progress in the authenticator session MUST be aborted by running the [WebAuthNCancelCurrentOperation](./nf-webauthn-webauthncancelcurrentoperation.md) operation.
 
 If the authenticator cannot find any credential corresponding to the specified Relying Party that matches the specified criteria, it terminates the operation and returns an error.
 
 ## -see-also
+
+[WebAuthNCancelCurrentOperation](./nf-webauthn-webauthncancelcurrentoperation.md)
+
+[WEBAUTHN_ASSERTION](./ns-webauthn-webauthn_assertion.md)
