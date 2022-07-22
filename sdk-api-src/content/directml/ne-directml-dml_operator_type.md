@@ -654,6 +654,38 @@ Indicates the operator described by the [DML_ROI_ALIGN1_OPERATOR_DESC](/windows/
 
 ## -remarks
 
+### DML_FEATURE_LEVEL_5_1
+
+DirectML [feature level 5_1](/windows/ai/directml/dml-feature-level-history#dml_feature_level_5_1) introduces the following operator types.
+
+#### DML_OPERATOR_ACTIVATION_GELU
+
+Indicates the operator described by the [DML_ACTIVATION_GELU_OPERATOR_DESC](/windows/ai/directml/api/ns-directml-dml_activation_gelu_operator_desc) structure.
+
+#### DML_OPERATOR_ACTIVATION_HARDMAX1
+
+Indicates the operator described by the [DML_ACTIVATION_HARDMAX1_OPERATOR_DESC](/windows/ai/directml/api/ns-directml-dml_activation_hardmax1_operator_desc) structure.
+
+#### DML_OPERATOR_ACTIVATION_LOG_SOFTMAX1
+
+Indicates the operator described by the [DML_ACTIVATION_LOG_SOFTMAX1_OPERATOR_DESC](/windows/ai/directml/api/ns-directml-dml_activation_log_softmax1_operator_desc) structure.
+
+#### DML_OPERATOR_ACTIVATION_SOFTMAX1
+
+Indicates the operator described by the [DML_ACTIVATION_SOFTMAX1_OPERATOR_DESC](/windows/ai/directml/api/ns-directml-dml_activation_softmax1_operator_desc) structure.
+
+#### DML_OPERATOR_DIAGONAL_MATRIX1
+
+Indicates the operator described by the [DML_DIAGONAL_MATRIX1_OPERATOR_DESC structure](/windows/ai/directml/api/ns-directml-dml_diagonal_matrix1_operator_desc) structure.
+
+#### DML_OPERATOR_RESAMPLE_GRAD1
+
+Indicates the operator described by the [DML_RESAMPLE_GRAD1_OPERATOR_DESC](/windows/ai/directml/api/ns-directml-dml_resample_grad1_operator_desc) structure.
+
+#### DML_OPERATOR_RESAMPLE2
+
+Indicates the operator described by the [DML_RESAMPLE2_OPERATOR_DESC](/windows/ai/directml/api/ns-directml-dml_resample2_operator_desc) structure.
+
 ### DML_FEATURE_LEVEL_5_0
 
 DirectML [feature level 5_0](/windows/ai/directml/dml-feature-level-history#dml_feature_level_5_0) introduces the following operator types.
