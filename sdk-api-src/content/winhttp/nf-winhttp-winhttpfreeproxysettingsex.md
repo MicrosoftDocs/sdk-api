@@ -26,8 +26,8 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 f1_keywords:
- - WinHttpFreeProxyResult
- - winhttp/WinHttpFreeProxyResult
+ - WinHttpFreeProxySettingsEx
+ - winhttp/WinHttpFreeProxySettingsEx
 dev_langs:
  - c++
 topic_type:
@@ -38,7 +38,7 @@ api_type:
 api_location:
  - Winhttp.dll
 api_name:
- - WinHttpFreeProxyResult
+ - WinHttpFreeProxySettingsEx
 helpviewer_keywords:
  - WinHttpFreeProxySettingsEx
 ---
