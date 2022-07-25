@@ -50,13 +50,13 @@ Retrieves a [DisplayInformation](/uwp/api/windows.graphics.display.displayinform
 
 ### -param window
 
-Type: \[in]\ **[HWND](/windows/win32/winprog/windows-data-types)**
+Type: \[in\] **[HWND](/windows/win32/winprog/windows-data-types)**
 
 The window's handle.
 
 ### -param riid
 
-Type: \[in]\ **[REFIID](/openspecs/windows_protocols/ms-oaut/bbde795f-5398-42d8-9f59-3613da03c318)**
+Type: \[in\] **[REFIID](/openspecs/windows_protocols/ms-oaut/bbde795f-5398-42d8-9f59-3613da03c318)**
 
 The **GUID** of the [DisplayInformation](/uwp/api/windows.graphics.display.displayinformation) class.
 
