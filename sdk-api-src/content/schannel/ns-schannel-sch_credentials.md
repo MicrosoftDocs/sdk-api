@@ -1,7 +1,7 @@
 ---
 UID: NS:schannel._SCH_CREDENTIALS
 title: SCH_CREDENTIALS
-ms.date: 11/4/2019
+ms.date: 7/25/2022
 targetos: Windows
 description: Contains the data for an Schannel credential.
 tech.root: security
@@ -338,9 +338,9 @@ It is an error to specify more than SCH_CRED_MAX_SUPPORTED_PARAMETERS.
 
 ### -field pTlsParameters
 
-Array of pointers to the TLS_PARAMETERS structures that indicate TLS parameter restrictions, if any. If no restrictions are specified, the system defaults are used. It is recommended that applications rely on the system defaults.
+Array of pointers to the [TLS_PARAMETERS](/windows/win32/api/schannel/ns-schannel-tls_parameters) structures that indicate TLS parameter restrictions, if any. If no restrictions are specified, the system defaults are used. It is recommended that applications rely on the system defaults.
 
-It is an error to include more than one TLS_PARAMETERS structure with cAlpnIds == 0 and rgstrAlpnIds == NULL.
+It is an error to include more than one [TLS_PARAMETERS](/windows/win32/api/schannel/ns-schannel-tls_parameters) structure with cAlpnIds == 0 and rgstrAlpnIds == NULL.
 
 ## -remarks
 
