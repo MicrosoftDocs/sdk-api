@@ -1,12 +1,12 @@
 ---
 UID: NS:digitalv.__unnamed_struct_15
 title: MCI_DGV_QUALITY_PARMSA (digitalv.h)
-description: Learn how the MCI_DGV_QUALITY_PARMS (ANSI) structure contains parameters for the MCI_QUALITY command for digital-video devices.
+description: The MCI_DGV_QUALITY_PARMS structure contains parameters for the MCI_QUALITY command for digital-video devices.
 helpviewer_keywords: ["*LPMCI_DGV_QUALITY_PARMSA","MCI_DGV_QUALITY_PARMS","MCI_DGV_QUALITY_PARMS structure [Windows Multimedia]","MCI_DGV_QUALITY_PARMSA","MCI_QUALITY_ITEM_AUDIO","MCI_QUALITY_ITEM_STILL","MCI_QUALITY_ITEM_VIDEO","_win32_MCI_DGV_QUALITY_PARMS_str","digitalv/MCI_DGV_QUALITY_PARMS","multimedia.mci_dgv_quality_parms"]
 old-location: multimedia\mci_dgv_quality_parms.htm
 tech.root: Multimedia
 ms.assetid: 0a150c37-9699-4b9e-b539-bdeb980b2f28
-ms.date: 06/23/2022
+ms.date: 12/05/2018
 ms.keywords: '*LPMCI_DGV_QUALITY_PARMSA, MCI_DGV_QUALITY_PARMS, MCI_DGV_QUALITY_PARMS structure [Windows Multimedia], MCI_DGV_QUALITY_PARMSA, MCI_QUALITY_ITEM_AUDIO, MCI_QUALITY_ITEM_STILL, MCI_QUALITY_ITEM_VIDEO, _win32_MCI_DGV_QUALITY_PARMS_str, digitalv/MCI_DGV_QUALITY_PARMS, multimedia.mci_dgv_quality_parms'
 req.header: digitalv.h
 req.include-header: 
