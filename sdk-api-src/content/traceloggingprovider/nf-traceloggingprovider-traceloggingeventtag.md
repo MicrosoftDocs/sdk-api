@@ -12,7 +12,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingeventtag.htm
 tech.root: tracelogging
 ms.assetid: D7BD0AC7-2330-4DE7-8C46-CF210B102704
-ms.date: 12/05/2018
+ms.date: 06/06/2022
 ms.keywords:
   TraceLoggingEventTag, TraceLoggingEventTag macro,
   tracelogging.traceloggingeventtag, traceloggingprovider/TraceLoggingEventTag

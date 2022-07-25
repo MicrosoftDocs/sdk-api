@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMBrush interface
 
-
 ## -description
 
 Defines objects that are used to paint graphical objects. Classes that derive from <b>IXpsOMBrush</b> describe how the area is painted.

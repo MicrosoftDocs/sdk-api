@@ -12,7 +12,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingdescription.htm
 tech.root: tracelogging
 ms.assetid: 90521B97-2651-46C9-8292-925F53F88CE7
-ms.date: 12/05/2018
+ms.date: 06/06/2022
 ms.keywords:
   TraceLoggingDescription, TraceLoggingDescription macro,
   tracelogging.traceloggingdescription,
@@ -63,7 +63,7 @@ that sets the description for the event.
 
 ## -parameters
 
-### -param description [in]
+### -param eventDescription [in]
 
 The description of the event. This value must be a string literal.
 

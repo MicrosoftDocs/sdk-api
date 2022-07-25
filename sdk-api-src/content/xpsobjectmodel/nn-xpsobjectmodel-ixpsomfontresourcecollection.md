@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMFontResourceCollection interface
 
-
 ## -description
 
 A collection of <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomfontresource">IXpsOMFontResource</a> interface pointers.

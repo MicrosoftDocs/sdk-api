@@ -14,7 +14,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingstruct.htm
 tech.root: tracelogging
 ms.assetid: 9F681D04-98DF-4B27-9A40-740B2F0B287D
-ms.date: 12/05/2018
+ms.date: 06/06/2022
 ms.keywords:
   TraceLoggingStruct, TraceLoggingStruct macro, tracelogging.traceloggingstruct,
   traceloggingprovider/TraceLoggingStruct
@@ -74,18 +74,27 @@ parameter must be a compile-time constant.
 The name to use for the structure in the event. The name parameter must be a
 string literal (not a variable) and must not contain any '\0' characters.
 
-#### - description [in, optional]
+### -param __VA_ARGS__ [in, optional]
 
-The description of the event field's value. If provided, the description
-parameter must be a string literal and will be included in the
-[PDB](/windows-hardware/drivers/debugger/symbols).
+Optional _description_ and _tags_ parameters for the field definition.
 
-#### - tags [in, optional]
+TraceLoggingStruct can be specified with 2, 3, or 4 parameters. If a parameter
+is not specified, a default will be used. For example,
+`TraceLoggingStruct(3, "MyStruct")` is equivalent to
+`TraceLoggingStruct(3, "MyStruct", "", 0)`.
 
-A compile-time constant integer value. The low 28 bits of the value will be
-included in the field's metadata. The semantics of this value are defined by the
-event consumer. During event processing, this value can be retrieved from the
-[EVENT_PROPERTY_INFO](../tdh/ns-tdh-event_property_info.md) Tags field.
+- `[in, optional] description`
+
+  The description of the event field's value. If provided, the description
+  parameter must be a string literal and will be included in the
+  [PDB](/windows-hardware/drivers/debugger/symbols).
+
+- `[in, optional] tags`
+
+  A compile-time constant integer value. The low 28 bits of the value will be
+  included in the field's metadata. The semantics of this value are defined by
+  the event consumer. During event processing, this value can be retrieved from
+  the [EVENT_PROPERTY_INFO](../tdh/ns-tdh-event_property_info.md) Tags field.
 
 ## -remarks
 
@@ -96,17 +105,14 @@ TraceLoggingStruct parameter adds one logical field to the event. The field is a
 structure or group that contains the subsequent _fieldCount_ logical fields as
 its value.
 
-TraceLoggingStruct can be specified with 2, 3, or 4 parameters. If a parameter
-is not specified, a default will be used. For example,
-`TraceLoggingStruct(3, "MyStruct")` is equivalent to
-`TraceLoggingBinary(3, "MyStruct", "", 0)`.
-
 ### Examples
 
 ```c
 TraceLoggingWrite(
     g_hProvider,
     "MyEventWithStruct",
+    TraceLoggingLevel(WINEVENT_LEVEL_WARNING), // Levels defined in <winmeta.h>
+    TraceLoggingKeyword(MyEventCategories), // Provider-defined categories
     TraceLoggingInt32(num1, "BeforeStruct"),
     TraceLoggingStruct(3, "StructWith3Fields"),
         TraceLoggingInt32(num2, "StructField1"),
@@ -117,6 +123,8 @@ TraceLoggingWrite(
 TraceLoggingWrite(
     g_hProvider,
     "MyEventWithNestedStruct",
+    TraceLoggingLevel(WINEVENT_LEVEL_VERBOSE), // Levels defined in <winmeta.h>
+    TraceLoggingKeyword(MyEventCategories), // Provider-defined categories
     TraceLoggingInt32(num1, "BeforeStruct"),
     TraceLoggingStruct(3, "StructWith3Fields"),
         TraceLoggingInt32(num2, "StructField1"),

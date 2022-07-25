@@ -57,7 +57,7 @@ A [BCP-47](https://tools.ietf.org/html/bcp47) language tag.
 
 ## -remarks
 
-If this function returns `true`, an application can safely construct a language by using this tag. If it returns `false`, attempting to construct a language for the given tag will throw an exception.
+If this function returns `true`, an application can safely construct a Windows Runtime [Language](https://docs.microsoft.com/uwp/api/Windows.Globalization.Language) by using this tag. If it returns `false`, attempting to construct a Language for the given tag will throw an exception.
 
 ## -see-also
 

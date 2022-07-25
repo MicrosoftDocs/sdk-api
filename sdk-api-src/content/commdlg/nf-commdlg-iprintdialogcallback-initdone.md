@@ -30,8 +30,7 @@ req.typenames:
 req.redist: 
 ms.custom: 19H1
 f1_keywords:
- - IPrintDialogCallback::InitDone
- - commdlg/IPrintDialogCallback::InitDone
+ - commdlg/IPrintDialogCallback.InitDone
 dev_langs:
  - c++
 topic_type:
@@ -46,7 +45,6 @@ api_name:
 ---
 
 # IPrintDialogCallback::InitDone
-
 
 ## -description
 

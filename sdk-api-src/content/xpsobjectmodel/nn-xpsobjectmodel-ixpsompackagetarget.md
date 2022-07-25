@@ -48,7 +48,6 @@ api_name:
 
 # IXpsOMPackageTarget interface
 
-
 ## -description
 
 Provides the method to create an <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a> that can be used by a print job that was created by the  <a href="/windows/desktop/api/xpsprint/nf-xpsprint-startxpsprintjob1">StartXpsPrintJob1</a> function.

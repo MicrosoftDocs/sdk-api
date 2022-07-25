@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMDocument interface
 
-
 ## -description
 
 An ordered sequence of fixed pages and document-level resources that make up the document.

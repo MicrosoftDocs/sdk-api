@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateTranslateTransform3D
 title: IDCompositionDevice::CreateTranslateTransform3D (dcomp.h)
-description: Creates a 3D translation transform object.
+description: The IDCompositionDevice::CreateTranslateTransform3D method creates a 3D translation transform object.
 helpviewer_keywords: ["CreateTranslateTransform3D","CreateTranslateTransform3D method [DirectComposition]","CreateTranslateTransform3D method [DirectComposition]","IDCompositionDevice interface","IDCompositionDevice interface [DirectComposition]","CreateTranslateTransform3D method","IDCompositionDevice.CreateTranslateTransform3D","IDCompositionDevice::CreateTranslateTransform3D","dcomp/IDCompositionDevice::CreateTranslateTransform3D","directcomp.idcompositiondevice_createtranslatetransform3d"]
 old-location: directcomp\idcompositiondevice_createtranslatetransform3d.htm
 tech.root: directcomp
 ms.assetid: FCB518EA-B36C-4740-9191-0BEB13AB5F06
-ms.date: 12/05/2018
+ms.date: 06/23/2022
 ms.keywords: CreateTranslateTransform3D, CreateTranslateTransform3D method [DirectComposition], CreateTranslateTransform3D method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateTranslateTransform3D method, IDCompositionDevice.CreateTranslateTransform3D, IDCompositionDevice::CreateTranslateTransform3D, dcomp/IDCompositionDevice::CreateTranslateTransform3D, directcomp.idcompositiondevice_createtranslatetransform3d
 req.header: dcomp.h
 req.include-header: 
