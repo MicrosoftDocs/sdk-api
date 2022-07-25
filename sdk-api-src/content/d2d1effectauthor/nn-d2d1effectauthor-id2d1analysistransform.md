@@ -55,29 +55,7 @@ Supplies data to an analysis effect.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1AnalysisTransform</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1AnalysisTransform</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID2D1AnalysisTransform</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1analysistransform-processanalysisresults">ProcessAnalysisResults</a>
-</td>
-<td align="left" width="63%">
-Supplies the analysis data to an analysis transform.
-
-</td>
-</tr>
-</table>
+The <b>ID2D1AnalysisTransform</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1AnalysisTransform</b> also has these types of members:
 
 ## -remarks
 

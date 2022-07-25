@@ -51,7 +51,7 @@ The <b>DdFlip</b> callback function causes the surface memory associated with th
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_flipdata">DD_FLIPDATA</a> structure that contains the information required to perform the flip.
 

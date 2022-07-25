@@ -50,7 +50,7 @@ Attaches a palette object to (or detaches one from) a surface. The surface uses 
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to the <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawpalette">IDirectDrawPalette</a> interface for the palette object to be used with this surface. If NULL, the current palette is detached.
 

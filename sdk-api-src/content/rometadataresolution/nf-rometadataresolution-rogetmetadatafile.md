@@ -6,7 +6,7 @@ helpviewer_keywords: ["RoGetMetaDataFile","RoGetMetaDataFile function [Windows R
 old-location: winrt\rogetmetadatafile.htm
 tech.root: WinRT
 ms.assetid: FF4FEA9F-3FB0-4D56-BE9A-E8E2CB13D718
-ms.date: 12/05/2018
+ms.date: 11/19/2021
 ms.keywords: RoGetMetaDataFile, RoGetMetaDataFile function [Windows Runtime], rometadataresolution/RoGetMetaDataFile, winrt.rogetmetadatafile
 req.header: rometadataresolution.h
 req.include-header: 
@@ -66,7 +66,7 @@ The name to resolve, either a typename or a namespace. The name input string mus
 
 Type: <b>IMetaDataDispenserEx*</b>
 
-A metadata dispenser that the caller can optionally pass in for the <b>RoGetMetaDataFile</b> function to be able to open the metadata files through the provided <b>IMetaDataDispenserEx::OpenScope</b> method. If the metadata dispenser parameter is set to <b>nullptr</b>, the function creates an internal instance of the refactored metadata reader (RoMetadata.dll) and uses its <b>IMetaDataDispenserEx::OpenScope</b> method.
+A metadata dispenser that the caller can optionally pass in for the <b>RoGetMetaDataFile</b> function to be able to open the metadata files through the provided <b>IMetaDataDispenserEx::OpenScope</b> method. If the metadata dispenser parameter is set to <b>nullptr</b>, the function creates an internal instance of the refactored metadata reader (RoMetadata.dll) and uses its <b>IMetaDataDispenserEx::OpenScope</b> method. You can create a metadata dispenser using the <a href="/windows/win32/api/rometadata/nf-rometadata-metadatagetdispenser">MetaDataGetDispenser</a> function.
 
 ### -param metaDataFilePath [out, optional]
 
@@ -145,17 +145,6 @@ The input string is not a type defined in any examined .winmd file.
 </td>
 <td width="60%">
 The input string is an existing namespace rather than a typename.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HR_RESULT_FROM_WIN32(ERROR_NO_PACKAGE)</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function was called from a process that is not in a Windows Store app.
 
 </td>
 </tr>
@@ -365,7 +354,7 @@ HRESULT PrintMetaDataFilePathForTypeName(PCWSTR pszTypename)
     }
     else
     {
-        wprintf(L"Error %x occured while trying to resolve %s!\n", hr, pszTypename);
+        wprintf(L"Error %x occurred while trying to resolve %s!\n", hr, pszTypename);
     }
 
     // Clean up resources.

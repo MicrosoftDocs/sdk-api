@@ -1,10 +1,11 @@
 ---
 UID: NA:windows.graphics.holographic.interop
+title: Windows.Graphics.Holographic.Interop.h header
 ms.author: windowssdkdev
 ms.date: 12/12/2019
 ms.keywords: 
 ms.prod: windows
-ms.technology: windows-sdk
+ms.technology: windows
 ms.topic: portal
 tech.root: direct3d12
 f1_keywords:

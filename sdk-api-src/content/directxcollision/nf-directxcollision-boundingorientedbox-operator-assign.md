@@ -53,7 +53,7 @@ Copies values from another <a href="/windows/win32/api/directxcollision/ns-direc
 
 ## -parameters
 
-### -param arg1 [in, ref]
+### -param unnamedParam1 [in, ref]
 
 The <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a> to copy values from.
 

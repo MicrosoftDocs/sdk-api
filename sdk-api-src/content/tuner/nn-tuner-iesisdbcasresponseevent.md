@@ -54,56 +54,10 @@ Implements methods that get information from a Protected Broadcast Driver Archit
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IESIsdbCasResponseEvent</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a>. <b>IESIsdbCasResponseEvent</b> also has these types of members:
+The <b>IESIsdbCasResponseEvent</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a>. <b>IESIsdbCasResponseEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IESIsdbCasResponseEvent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesisdbcasresponseevent-getdatalength">GetDataLength</a>
-</td>
-<td align="left" width="63%">
-Gets the length of the response data from the response.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesisdbcasresponseevent-getrequestid">GetRequestId</a>
-</td>
-<td align="left" width="63%">
-Gets the request identifier for the MSD that originated the CAS request.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesisdbcasresponseevent-getresponsedata">GetResponseData</a>
-</td>
-<td align="left" width="63%">
-Gets the response data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesisdbcasresponseevent-getstatus">GetStatus</a>
-</td>
-<td align="left" width="63%">
-Gets the status code from the response.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

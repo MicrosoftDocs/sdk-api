@@ -84,7 +84,7 @@ Provides the address of the authentication information within the client process
 
 Indicates the length, in bytes, of the <i>AuthenticationInformation</i> buffer.
 
-### -param *ProfileBuffer [out]
+### -param ProfileBuffer [out]
 
 Pointer that receives the address of the profile buffer in the client process. The authentication package is responsible for allocating the <i>ProfileBuffer</i> buffer within the client process by calling the 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_client_buffer">AllocateClientBuffer</a> function. However, if the LSA subsequently encounters an error that prevents a successful logon, the LSA will free this buffer. 
@@ -171,16 +171,16 @@ The
 Pointer that receives the address of an 
 <a href="/windows/desktop/api/ntsecpkg/ne-ntsecpkg-lsa_token_information_type">LSA_TOKEN_INFORMATION_TYPE</a> value that indicates the type of information returned for inclusion in the token to be created. The information is returned in the <i>TokenInformation</i> buffer.
 
-### -param *TokenInformation [out]
+### -param TokenInformation [out]
 
 Pointer that receives information to be included in the token. The format and content of the <i>TokenInformation</i> buffer are indicated by the <i>TokenInformationType</i> parameter. Your authentication package is responsible for allocating the memory used by <i>TokenInformation</i>; however, this memory will be freed by the LSA.
 
-### -param *AccountName [out]
+### -param AccountName [out]
 
 Pointer to an 
 <a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that receives the name of the user account. <i>AccountName</i> must always be returned regardless of the success or failure of the call; its string is included in the audit record for an authentication attempt. Your authentication package is responsible for allocating the memory used by <i>AccountName</i>; however, this memory will be freed by the LSA.
 
-### -param *AuthenticatingAuthority [out]
+### -param AuthenticatingAuthority [out]
 
 Optional. Pointer to an 
 <a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that receives the description of the authenticating authority for the logon. This parameter may be <b>NULL</b>. This string is included in the audit record for an authentication attempt. Your authentication package is responsible for allocating the memory used by <i>AuthenticatingAuthority</i>; however, this memory will be freed by the LSA. 

@@ -39,7 +39,6 @@ topic_type:
 api_type:
  - <TBD>
 api_location:
- - 
 api_name:
  - IWbemObjectSinkEx
 ---
@@ -55,80 +54,5 @@ Creates a sink interface that can receive all types of notifications within the 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemObjectSinkEx</b> interface inherits from <b>IWbemObjectSink</b>. <b>IWbemObjectSinkEx</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWbemObjectSinkEx</b> interface inherits from <b>IWbemObjectSink</b>. <b>IWbemObjectSinkEx</b> also has these types of members:
 
-## -members
-
-The <b>IWbemObjectSinkEx</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">Indicate</a>
-</td>
-<td align="left" width="63%">
-Receives notification objects. Inherited from <a href="/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsinkex-promptuser">PromptUser</a>
-</td>
-<td align="left" width="63%">
-TBD
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">SetStatus</a>
-</td>
-<td align="left" width="63%">
-Called by sources  to indicate the end of a notification sequence, or to send other status codes to the sink. Inherited from <a href="/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsinkex-writeerror">WriteError</a>
-</td>
-<td align="left" width="63%">
-TBD
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsinkex-writemessage">WriteMessage</a>
-</td>
-<td align="left" width="63%">
-TBD
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsinkex-writeprogress">WriteProgress</a>
-</td>
-<td align="left" width="63%">
-TBD
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsinkex-writestreamparameter">WriteStreamParameter</a>
-</td>
-<td align="left" width="63%">
-TBD
-
-</td>
-</tr>
-</table>

@@ -54,53 +54,5 @@ Retrieves property information for file based queries.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IColumnMapper</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IColumnMapper</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IColumnMapper</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IColumnMapper</b> also has these types of members:
 
-## -members
-
-The <b>IColumnMapper</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/indexsrv/nf-indexsrv-icolumnmapper-enumpropinfo">EnumPropInfo</a>
-</td>
-<td align="left" width="63%">
-Gets the i-th entry from the list of properties.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/indexsrv/nf-indexsrv-icolumnmapper-getpropinfofromid">GetPropInfoFromId</a>
-</td>
-<td align="left" width="63%">
-Gets the property information from the DBID.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/indexsrv/nf-indexsrv-icolumnmapper-getpropinfofromname">GetPropInfoFromName</a>
-</td>
-<td align="left" width="63%">
-Gets property information from a name. This will return a DBID pointer in parameter <i>ppPropId</i> which now has to be freed by the caller and not by the callee (this class).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/indexsrv/nf-indexsrv-icolumnmapper-ismapuptodate">IsMapUpToDate</a>
-</td>
-<td align="left" width="63%">
-Determines if the map is up to date.
-
-</td>
-</tr>
-</table>

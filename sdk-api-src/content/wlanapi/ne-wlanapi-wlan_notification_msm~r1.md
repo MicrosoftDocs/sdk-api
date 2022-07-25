@@ -1,7 +1,7 @@
 ---
 UID: NE:wlanapi._WLAN_NOTIFICATION_MSM~r1
 title: WLAN_NOTIFICATION_MSM
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: _WLAN_NOTIFICATION_MSM, WLAN_NOTIFICATION_MSM
 targetos: Windows
 req.construct-type: enumeration
@@ -10,8 +10,8 @@ req.header: wlanapi.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 

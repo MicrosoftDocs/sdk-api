@@ -55,47 +55,7 @@ Applications use the methods of the IDirect3DVertexBuffer9 interface to manipula
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DVertexBuffer9</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>. <b>IDirect3DVertexBuffer9</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDirect3DVertexBuffer9</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvertexbuffer9-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Retrieves a description of the vertex buffer resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvertexbuffer9-lock">Lock</a>
-</td>
-<td align="left" width="63%">
-Locks a range of vertex data and obtains a pointer to the vertex buffer memory.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvertexbuffer9-unlock">Unlock</a>
-</td>
-<td align="left" width="63%">
-Unlocks vertex data.
-
-</td>
-</tr>
-</table>
+The <b>IDirect3DVertexBuffer9</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>. <b>IDirect3DVertexBuffer9</b> also has these types of members:
 
 ## -remarks
 

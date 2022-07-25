@@ -2,7 +2,6 @@
 UID: NF:sspi.SspiFreeCredentialsHandleAsync
 title: SspiFreeCredentialsHandleAsync function
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Frees up a credential handle.
 tech.root: security
@@ -28,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - sspi.h
 api_name:

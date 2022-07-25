@@ -46,13 +46,9 @@ api_name:
  - getsockopt
 ---
 
-# getsockopt function
-
-
 ## -description
 
-The 
-<b>getsockopt</b> function retrieves a socket option.
+The <b>getsockopt</b> function retrieves a socket option.
 
 ## -parameters
 
@@ -329,22 +325,9 @@ The following table of value for the <i>optname</i> parameter are valid when the
  
 
 
+<i>level</i> = <b>IPPROTO_TCP</b>
 
-The following table of value for the <i>optname</i> parameter are valid when the <i>level</i> parameter is set to <b>IPPROTO_TCP</b>.
-
-
-<table>
-<tr>
-<th>Value</th>
-<th>Type</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>TCP_NODELAY</td>
-<td>BOOL</td>
-<td>Disables the Nagle algorithm for send coalescing.</td>
-</tr>
-</table>
+See **TCP_NODELAY** in [IPPROTO_TCP socket options](/windows/desktop/WinSock/ipproto-tcp-socket-options). Also see that topic for more complete and detailed information about socket options for <i>level</i> = <b>IPPROTO_TCP</b>.
  
 
 
@@ -596,7 +579,7 @@ By default, a socket cannot be bound (see
 <b>bind</b> on a socket should not be disallowed because the desired address is already in use by another socket, the application should set the SO_REUSEADDR socket option for the socket before issuing the 
 <b>bind</b>. Note that the option is interpreted only at the time of the 
 <b>bind</b>: it is therefore unnecessary (but harmless) to set the option on a socket that is not to be bound to an existing address, and setting or resetting the option after the 
-<b>bind</b> has no effect on this or any other socket. SO_REUSEADDR is not applicable for ATM sockets, and although requests to reuse and address do not result in an error, they have no affect on when an ATM socket is in use.
+<b>bind</b> has no effect on this or any other socket. SO_REUSEADDR is not applicable for ATM sockets, and although requests to reuse and address do not result in an error, they have no effect on when an ATM socket is in use.
 
 </dd>
 <dt><a id="PVD_CONFIG"></a><a id="pvd_config"></a>PVD_CONFIG</dt>

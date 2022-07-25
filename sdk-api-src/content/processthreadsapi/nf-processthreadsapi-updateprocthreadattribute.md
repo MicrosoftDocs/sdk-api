@@ -2,12 +2,12 @@
 UID: NF:processthreadsapi.UpdateProcThreadAttribute
 title: UpdateProcThreadAttribute function (processthreadsapi.h)
 description: Updates the specified attribute in a list of attributes for process and thread creation.
-helpviewer_keywords: ["PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY","PROC_THREAD_ATTRIBUTE_DESKTOP_APP_POLICY","PROC_THREAD_ATTRIBUTE_GROUP_AFFINITY","PROC_THREAD_ATTRIBUTE_HANDLE_LIST","PROC_THREAD_ATTRIBUTE_IDEAL_PROCESSOR","PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY","PROC_THREAD_ATTRIBUTE_PARENT_PROCESS","PROC_THREAD_ATTRIBUTE_PREFERRED_NODE","PROC_THREAD_ATTRIBUTE_PROTECTION_LEVEL","PROC_THREAD_ATTRIBUTE_SECURITY_CAPABILITIES","PROC_THREAD_ATTRIBUTE_UMS_THREAD","UpdateProcThreadAttribute","UpdateProcThreadAttribute function","base.updateprocthreadattribute","processthreadsapi/UpdateProcThreadAttribute","winbase/UpdateProcThreadAttribute"]
+helpviewer_keywords: ["PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY","PROC_THREAD_ATTRIBUTE_DESKTOP_APP_POLICY","PROC_THREAD_ATTRIBUTE_GROUP_AFFINITY","PROC_THREAD_ATTRIBUTE_HANDLE_LIST","PROC_THREAD_ATTRIBUTE_IDEAL_PROCESSOR","PROC_THREAD_ATTRIBUTE_MACHINE_TYPE","PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY","PROC_THREAD_ATTRIBUTE_PARENT_PROCESS","PROC_THREAD_ATTRIBUTE_PREFERRED_NODE","PROC_THREAD_ATTRIBUTE_PROTECTION_LEVEL","PROC_THREAD_ATTRIBUTE_SECURITY_CAPABILITIES","PROC_THREAD_ATTRIBUTE_UMS_THREAD","PROC_THREAD_ATTRIBUTE_JOB_LIST","UpdateProcThreadAttribute","UpdateProcThreadAttribute function","base.updateprocthreadattribute","processthreadsapi/UpdateProcThreadAttribute","winbase/UpdateProcThreadAttribute"]
 old-location: base\updateprocthreadattribute.htm
 tech.root: backup
 ms.assetid: 5fc3e04f-9b2a-440c-a9aa-d78d9b25b341
-ms.date: 12/05/2018
-ms.keywords: PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY, PROC_THREAD_ATTRIBUTE_DESKTOP_APP_POLICY, PROC_THREAD_ATTRIBUTE_GROUP_AFFINITY, PROC_THREAD_ATTRIBUTE_HANDLE_LIST, PROC_THREAD_ATTRIBUTE_IDEAL_PROCESSOR, PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY, PROC_THREAD_ATTRIBUTE_PARENT_PROCESS, PROC_THREAD_ATTRIBUTE_PREFERRED_NODE, PROC_THREAD_ATTRIBUTE_PROTECTION_LEVEL, PROC_THREAD_ATTRIBUTE_SECURITY_CAPABILITIES, PROC_THREAD_ATTRIBUTE_UMS_THREAD, UpdateProcThreadAttribute, UpdateProcThreadAttribute function, base.updateprocthreadattribute, processthreadsapi/UpdateProcThreadAttribute, winbase/UpdateProcThreadAttribute
+ms.date: 02/02/2021
+ms.keywords: PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY, PROC_THREAD_ATTRIBUTE_DESKTOP_APP_POLICY, PROC_THREAD_ATTRIBUTE_GROUP_AFFINITY, PROC_THREAD_ATTRIBUTE_HANDLE_LIST, PROC_THREAD_ATTRIBUTE_IDEAL_PROCESSOR, PROC_THREAD_ATTRIBUTE_MACHINE_TYPE, PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY, PROC_THREAD_ATTRIBUTE_PARENT_PROCESS, PROC_THREAD_ATTRIBUTE_PREFERRED_NODE, PROC_THREAD_ATTRIBUTE_PROTECTION_LEVEL, PROC_THREAD_ATTRIBUTE_SECURITY_CAPABILITIES, PROC_THREAD_ATTRIBUTE_UMS_THREAD, PROC_THREAD_ATTRIBUTE_JOB_LIST, UpdateProcThreadAttribute, UpdateProcThreadAttribute function, base.updateprocthreadattribute, processthreadsapi/UpdateProcThreadAttribute, winbase/UpdateProcThreadAttribute
 req.header: processthreadsapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -116,6 +116,21 @@ The <i>lpValue</i> parameter is a pointer to a  <a href="/windows/desktop/api/wi
 
 </td>
 </tr>
+ 
+<tr>
+<td width="40%"><a id="PROC_THREAD_ATTRIBUTE_MACHINE_TYPE"></a><a id="proc_thread_attribute_machine_type"></a><dl>
+<dt><b>PROC_THREAD_ATTRIBUTE_MACHINE_TYPE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>lpValue</i> parameter is a pointer to a <b>WORD</b> that specifies the machine architecture of the child process.
+
+This value is not supported until <b>Windows 11</b>.
+
+The  <b>WORD</b> pointed to by <i>lpValue</i> can be a value listed on <a href="/windows/win32/sysinfo/image-file-machine-constants">IMAGE FILE MACHINE CONSTANTS</a>.
+</td>
+</tr>
+
 <tr>
 <td width="40%"><a id="PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY"></a><a id="proc_thread_attribute_mitigation_policy"></a><dl>
 <dt><b>PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY</b></dt>
@@ -190,6 +205,7 @@ The <i>lpValue</i> parameter is a pointer to a <a href="/windows/desktop/api/win
 <td width="60%">
 The <i>lpValue</i> parameter is a pointer to a <b>DWORD</b> value of <b>PROTECTION_LEVEL_SAME</b>. This specifies the protection level of the child process to be the same as the protection level of its parent process.
 
+<b>Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 and Windows Vista: </b>This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 </td>
 </tr>
 <tr>
@@ -198,10 +214,11 @@ The <i>lpValue</i> parameter is a pointer to a <b>DWORD</b> value of <b>PROTECTI
 </dl>
 </td>
 <td width="60%">
-The <i>lpValue</i> parameter is a pointer to a <b>DWORD</b> or <b>DWORD64</b> value that specifies the child process policy. The policy specifies whether to allow a child process to be created.
+The <i>lpValue</i> parameter is a pointer to a <b>DWORD</b> value that specifies the child process policy. The policy specifies whether to allow a child process to be created.
 
-For information on the possible values for the  <b>DWORD</b> or <b>DWORD64</b> to which <i>lpValue</i> points, see Remarks.
+For information on the possible values for the <b>DWORD</b> to which <i>lpValue</i> points, see Remarks.
 
+<b>Windows 8.1, Windows 8, Windows 7, Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 and Windows Vista: </b>This value is not supported until Windows 10 and Windows Server 2016.
 </td>
 </tr>
 <tr>
@@ -216,13 +233,38 @@ The <i>lpValue</i> parameter is a pointer to a <b>DWORD</b> value that specifies
 
 For information about the possible values for the <b>DWORD</b> to which <i>lpValue</i> points, see Remarks.
 
+This value is not supported until Windows 10 Version 1703 and Windows Server Version 1709.
 </td>
 </tr>
+<tr>
+<td width="40%"><a id="PROC_THREAD_ATTRIBUTE_JOB_LIST"></a><a id="proc_thread_attribute_job_list"></a><dl>
+<dt><b>PROC_THREAD_ATTRIBUTE_JOB_LIST</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>lpValue</i> parameter is a pointer to a list of job handles to be assigned to the child process, in the order specified.
+
+<b>Windows 8.1, Windows 8, Windows 7, Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 and Windows Vista: </b>This value is not supported until Windows 10 and Windows Server 2016.
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PROC_THREAD_ATTRIBUTE_ENABLE_OPTIONAL_XSTATE_FEATURES"></a><a id="proc_thread_attribute_enable_optional_xstate_features"></a><dl>
+<dt><b>PROC_THREAD_ATTRIBUTE_ENABLE_OPTIONAL_XSTATE_FEATURES</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>lpValue</i> parameter is a pointer to a <b>DWORD64</b> value that specifies the set of optional XState features to enable for the new thread.
+
+This value is not supported until Windows 11 and Windows Server 2022.
+
+</td>
+</tr>
+
 </table>
 
 ### -param lpValue [in]
 
-A pointer to the attribute value. This value should persist until the attribute is destroyed using the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-deleteprocthreadattributelist">DeleteProcThreadAttributeList</a> function.
+A pointer to the attribute value. <b>This value must persist until the attribute list is destroyed using the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-deleteprocthreadattributelist">DeleteProcThreadAttributeList</a> function</b>.
 
 ### -param cbSize [in]
 
@@ -524,18 +566,34 @@ The following mitigation options are available for the image loading policy:
 <b>Windows 10, version 2004:  </b>The following values are available only in  Windows 10, version 2004 or later.
 
 Hardware-enforced Stack Protection (HSP) is a hardware-based security feature where the CPU verifies function return addresses at runtime by employing a shadow stack mechanism.
-For user-mode HSP, the default mode is compatibility mode, where only shadow stack violations occurring in modules compiled with <a href="/cpp/build/reference/cetcompat">CETCOMPAT</a> are fatal.
+For user-mode HSP, the default mode is compatibility mode, where only shadow stack violations occurring in modules that are considered compatible with shadow stacks (CETCOMPAT) are fatal.
 In strict mode, all shadow stack violations are fatal.
 
-The following mitigation options are available for user-mode Hardware-enforced Stack Protection:
+The following mitigation options are available for user-mode Hardware-enforced Stack Protection and related features:
 
 <dl>
 <dd><b>PROCESS_CREATION_MITIGATION_POLICY2_CET_USER_SHADOW_STACKS_ALWAYS_ON </b> (0x00000001ui64 &lt;&lt; 28)</dd>
 <dd><b>PROCESS_CREATION_MITIGATION_POLICY2_CET_USER_SHADOW_STACKS_ALWAYS_OFF </b> (0x00000002ui64 &lt;&lt; 28)</dd>
 <dd><b>PROCESS_CREATION_MITIGATION_POLICY2_CET_USER_SHADOW_STACKS_STRICT_MODE </b> (0x00000003ui64 &lt;&lt; 28)</dd>
 
+Instruction Pointer validation:
 
-The  <b>DWORD</b> or <b>DWORD64</b> pointed to by <i>lpValue</i> can be one or more of the following values when you specify <b>PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY</b> for the <i>Attribute</i> parameter:
+<dd><b>PROCESS_CREATION_MITIGATION_POLICY2_USER_CET_SET_CONTEXT_IP_VALIDATION_ALWAYS_ON </b>     (0x00000001ui64 &lt;&lt; 32)</dd>
+<dd><b>PROCESS_CREATION_MITIGATION_POLICY2_USER_CET_SET_CONTEXT_IP_VALIDATION_ALWAYS_OFF </b>    (0x00000002ui64 &lt;&lt; 32)</dd>
+<dd><b>PROCESS_CREATION_MITIGATION_POLICY2_USER_CET_SET_CONTEXT_IP_VALIDATION_RELAXED_MODE </b>  (0x00000003ui64 &lt;&lt; 32)</dd>
+
+Blocking the load of non-CETCOMPAT/non-EHCONT binaries:
+
+<dd><b>PROCESS_CREATION_MITIGATION_POLICY2_BLOCK_NON_CET_BINARIES_ALWAYS_ON  </b>               (0x00000001ui64 &lt;&lt; 36)</dd>
+<dd><b>PROCESS_CREATION_MITIGATION_POLICY2_BLOCK_NON_CET_BINARIES_ALWAYS_OFF </b>               (0x00000002ui64 &lt;&lt; 36)</dd>
+<dd><b>PROCESS_CREATION_MITIGATION_POLICY2_BLOCK_NON_CET_BINARIES_NON_EHCONT </b>               (0x00000003ui64 &lt;&lt; 36)</dd>
+
+Restricting certain HSP APIs used to specify security properties of dynamic code to only be callable from outside of the process:
+
+<dd><b>PROCESS_CREATION_MITIGATION_POLICY2_CET_DYNAMIC_APIS_OUT_OF_PROC_ONLY_ALWAYS_ON </b>     (0x00000001ui64 &lt;&lt; 48)</dd>
+<dd><b>PROCESS_CREATION_MITIGATION_POLICY2_CET_DYNAMIC_APIS_OUT_OF_PROC_ONLY_ALWAYS_OFF </b>    (0x00000002ui64 &lt;&lt; 48)</dd>
+
+The <b>DWORD</b> pointed to by <i>lpValue</i> can be one or more of the following values when you specify <b>PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY</b> for the <i>Attribute</i> parameter:
 
 <b>PROCESS_CREATION_CHILD_PROCESS_RESTRICTED</b>                                         0x01
 

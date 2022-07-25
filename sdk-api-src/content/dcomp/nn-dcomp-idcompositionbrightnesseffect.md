@@ -54,70 +54,7 @@ The brightness effect controls the brightness of the image.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionBrightnessEffect</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>. <b>IDCompositionBrightnessEffect</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDCompositionBrightnessEffect</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionbrightnesseffect-setblackpoint">SetBlackPoint</a>
-</td>
-<td align="left" width="63%">
-Specifies the lower portion of the brightness transfer curve for the brightness effect.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-setblackpointx">SetBlackPointX</a>
-</td>
-<td align="left" width="63%">Overloaded. Sets the x value of the black point.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-setblackpointy">SetBlackPointY</a>
-</td>
-<td align="left" width="63%">Overloaded. Sets the y value of the black point.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionbrightnesseffect-setwhitepoint">SetWhitePoint</a>
-</td>
-<td align="left" width="63%">
-Sets the upper portion of the brightness transfer curve. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-setwhitepointx">SetWhitePointX</a>
-</td>
-<td align="left" width="63%">Overloaded. Sets the x value of the white point.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-setwhitepointy">SetWhitePointY</a>
-</td>
-<td align="left" width="63%">Overloaded. Sets the y value of the white point.
-
-</td>
-</tr>
-</table>
+The <b>IDCompositionBrightnessEffect</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>. <b>IDCompositionBrightnessEffect</b> also has these types of members:
 
 ## -see-also
 

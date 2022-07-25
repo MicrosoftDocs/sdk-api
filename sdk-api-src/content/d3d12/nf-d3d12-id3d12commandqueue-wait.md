@@ -73,7 +73,7 @@ This method returns one of the <a href="/windows/win32/direct3d12/d3d12-graphics
 
 Because a wait is being queued, the API returns immediately. It's the command queue that waits (during which time no work is executed) until the fence specified reaches the requested value.
 	
-If you want to perform a CPU-side wait (where the calling thread blocks until a fence reaches a particular value), then you should use the [**ID3D12Fence::SetEventOnCompletion**](./nf-d3d12-id3d12fence-seteventoncompletion.md) API in conjuction with [**WaitForSingleObject**](../synchapi/nf-synchapi-waitforsingleobject.md) (or a similiar API).
+If you want to perform a CPU-side wait (where the calling thread blocks until a fence reaches a particular value), then you should use the [**ID3D12Fence::SetEventOnCompletion**](./nf-d3d12-id3d12fence-seteventoncompletion.md) API in conjunction with [**WaitForSingleObject**](../synchapi/nf-synchapi-waitforsingleobject.md) (or a similar API).
 
 ## -see-also
 

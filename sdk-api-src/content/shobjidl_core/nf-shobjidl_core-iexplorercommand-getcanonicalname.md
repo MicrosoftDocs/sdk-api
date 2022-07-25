@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommand.GetCanonicalName
 title: IExplorerCommand::GetCanonicalName (shobjidl_core.h)
-description: Gets the GUID of an Windows Explorer command.
+description: Gets the GUID of a Windows Explorer command.
 helpviewer_keywords: ["GetCanonicalName","GetCanonicalName method [Windows Shell]","GetCanonicalName method [Windows Shell]","IExplorerCommand interface","IExplorerCommand interface [Windows Shell]","GetCanonicalName method","IExplorerCommand.GetCanonicalName","IExplorerCommand::GetCanonicalName","_shell_IExplorerCommand_GetCanonicalName","shell.IExplorerCommand_GetCanonicalName","shobjidl_core/IExplorerCommand::GetCanonicalName"]
 old-location: shell\IExplorerCommand_GetCanonicalName.htm
 tech.root: shell
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the GUID of an Windows Explorer command.
+Gets the GUID of a Windows Explorer command.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ A pointer to a value that, when this method returns successfully, receives the c
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

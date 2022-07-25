@@ -1,15 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_READ_FILE_USN_DATA
 title: FSCTL_READ_FILE_USN_DATA
-author: windows-sdk-content
 description: Retrieves the update sequence number (USN) change-journal information for the specified file or directory.
 old-location: fs\fsctl_read_file_usn_data.htm
 tech.root: FileIO
 ms.assetid: 22c797c8-87c8-4d45-b163-4573e6ed17e1
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_READ_FILE_USN_DATA, FSCTL_READ_FILE_USN_DATA control, FSCTL_READ_FILE_USN_DATA control code [Files], base.fsctl_read_file_usn_data, fs.fsctl_read_file_usn_data, winioctl/FSCTL_READ_FILE_USN_DATA
-ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -27,7 +24,6 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -56,7 +52,7 @@ Retrieves the update sequence number (USN) change-journal information for the sp
 To perform this operation, call the 
     <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following 
     parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -79,27 +75,21 @@ DeviceIoControl( (HANDLE)       hDevice,         // handle to device
 
 ### -input-buffer
 
-<text></text>
 
 ### -input-buffer-length
 
-<text></text>
 
 ### -output-buffer
 
-<text></text>
 
 ### -output-buffer-length
 
-<text></text>
 
 ### -in-out-buffer
 
-<text></text>
 
 ### -inout-buffer-length
 
-<text></text>
 
 ### -status-block
 

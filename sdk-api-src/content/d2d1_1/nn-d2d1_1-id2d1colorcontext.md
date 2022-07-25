@@ -54,47 +54,7 @@ Represents a color context that can be used with an <a href="/windows/desktop/ap
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1ColorContext</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1ColorContext</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID2D1ColorContext</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1colorcontext-getcolorspace">GetColorSpace</a>
-</td>
-<td align="left" width="63%">
-Gets the color space  of the color context.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1colorcontext-getprofile">GetProfile</a>
-</td>
-<td align="left" width="63%">
-Gets the color profile bytes for an <b>ID2D1ColorContext</b>. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1colorcontext-getprofilesize">GetProfileSize</a>
-</td>
-<td align="left" width="63%">
-Gets the size of the color profile associated with the bitmap. 	
-
-</td>
-</tr>
-</table>
+The <b>ID2D1ColorContext</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1ColorContext</b> also has these types of members:
 
 ## -see-also
 

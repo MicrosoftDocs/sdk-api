@@ -63,7 +63,7 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846807(v=VS.85).aspx">IInkTablets</a>
+<a href="../msinkaut/nn-msinkaut-iinktablets.md">IInkTablets</a>
 
 
 

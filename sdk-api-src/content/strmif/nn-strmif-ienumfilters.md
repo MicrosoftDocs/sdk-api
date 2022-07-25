@@ -59,53 +59,5 @@ If the set of filters in the graph changes, some methods on this interface retur
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumFilters</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumFilters</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IEnumFilters</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumFilters</b> also has these types of members:
 
-## -members
-
-The <b>IEnumFilters</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ienumfilters-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Makes a copy of the enumerator object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ienumfilters-next">Next</a>
-</td>
-<td align="left" width="63%">
-Retrieves the specified number of filters in the enumeration sequence.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ienumfilters-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumeration sequence to the beginning.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ienumfilters-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips over a specified number of filters.
-
-</td>
-</tr>
-</table>

@@ -56,7 +56,7 @@ Gets a task at a specified location in a folder.
 
 ### -param path [in]
 
-The path (location) to the task in a folder. The root task folder is specified with a backslash (\). An example of a task folder path, under the root task folder,
+The path (location) to the task in a folder. The root task folder is specified with a backslash (\\). An example of a task folder path, under the root task folder,
  is \MyTaskFolder. The '.' character  cannot be used to specify the current task folder  and the '..' characters cannot be used to specify the parent task folder in the path.
 
 ### -param ppTask [out]
@@ -67,7 +67,7 @@ Pass in a reference to a <b>NULL</b> <a href="/windows/desktop/api/taskschd/nn-t
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

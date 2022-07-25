@@ -58,50 +58,7 @@ COM+ applications that do not use role-based security and base COM applications 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityIdentityColl</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISecurityIdentityColl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISecurityIdentityColl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-isecurityidentitycoll-get__newenum">get__NewEnum</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumerator for the security identity collection.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-isecurityidentitycoll-get_count">get_Count</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of properties in the security identity collection.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-isecurityidentitycoll-get_item">get_Item</a>
-</td>
-<td align="left" width="63%">
-Retrieves a specified property in the security identity collection.
-
-
-</td>
-</tr>
-</table>
+The <b>ISecurityIdentityColl</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISecurityIdentityColl</b> also has these types of members:
 
 ## -see-also
 

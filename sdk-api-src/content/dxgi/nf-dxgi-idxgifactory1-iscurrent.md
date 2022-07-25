@@ -46,14 +46,9 @@ api_name:
  - IDXGIFactory1.IsCurrent
 ---
 
-# IDXGIFactory1::IsCurrent
-
-
 ## -description
 
-Informs an application of the possible need to re-enumerate adapters.
-
-## -parameters
+Informs an application of the possible need to re-create the factory and re-enumerate adapters.
 
 ## -returns
 

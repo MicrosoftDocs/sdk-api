@@ -101,7 +101,7 @@ Indicates that the interface is obtained.
 </dl>
 </td>
 <td width="60%">
-Indicates <i>pszCanonicalName</i>is <b>NULL</b>.
+Indicates <i>pszCanonicalName</i> is <b>NULL</b>.
 
 </td>
 </tr>

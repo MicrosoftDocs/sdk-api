@@ -605,7 +605,7 @@ Here is a summary of events and conditions for each asynchronous notification me
 <b>send</b> or 
 <b>sendto</b> are likely to succeed.</li>
 <li>After 
-<a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a> on a connectionless socket. <b>FD_WRITE</b> may or may not occur at this time (implementation-dependent). In any case, a connectionless socket is always writeable immediately after a 
+<a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a> on a connectionless socket. <b>FD_WRITE</b> may or may not occur at this time (implementation-dependent). In any case, a connectionless socket is always writable immediately after a 
 <b>bind</b> operation.</li>
 </ol>
 </li>

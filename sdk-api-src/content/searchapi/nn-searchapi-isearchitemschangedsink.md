@@ -54,49 +54,7 @@ Provides notifications for changes to indexed items. Also provides notification 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchItemsChangedSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchItemsChangedSink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISearchItemsChangedSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchitemschangedsink-onitemschanged">OnItemsChanged</a>
-</td>
-<td align="left" width="63%">
-   
-            Call this method to notify an indexer to re-index some changed items.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchitemschangedsink-startedmonitoringscope">StartedMonitoringScope</a>
-</td>
-<td align="left" width="63%">
-Permits an index-managed notification source to add itself to a list of "monitored scopes".
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchitemschangedsink-stoppedmonitoringscope">StoppedMonitoringScope</a>
-</td>
-<td align="left" width="63%">
-Not implemented.
-
-</td>
-</tr>
-</table>
+The <b>ISearchItemsChangedSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchItemsChangedSink</b> also has these types of members:
 
 ## -see-also
 

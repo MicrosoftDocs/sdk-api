@@ -60,94 +60,10 @@ This interface can be obtained from a reader object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDRMReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDRMReader</b> also has these types of members:
+The <b>IWMDRMReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDRMReader</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMDRMReader</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-acquirelicense">AcquireLicense</a>
-</td>
-<td align="left" width="63%">
-Begins the license acquisition process for a DRM version 7 license.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-cancelindividualization">CancelIndividualization</a>
-</td>
-<td align="left" width="63%">
-Cancels a current call to the <b>Individualize</b> method.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-cancellicenseacquisition">CancelLicenseAcquisition</a>
-</td>
-<td align="left" width="63%">
-Cancels a current call to the <b>AcquireLicense</b> method.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-cancelmonitorlicenseacquisition">CancelMonitorLicenseAcquisition</a>
-</td>
-<td align="left" width="63%">
-Cancels a current call to the <b>MonitorLicenseAcquisition</b> method.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty">GetDRMProperty</a>
-</td>
-<td align="left" width="63%">
-Retrieves <a href="/windows/desktop/wmformat/wmformat-glossary">DRM</a>-specific file attributes or run-time properties.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-individualize">Individualize</a>
-</td>
-<td align="left" width="63%">
-Individualizes the client.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-monitorlicenseacquisition">MonitorLicenseAcquisition</a>
-</td>
-<td align="left" width="63%">
-In nonsilent license acquisition, informs the application when a license has been successfully acquired.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-setdrmproperty">SetDRMProperty</a>
-</td>
-<td align="left" width="63%">
-Sets the DRM_Rights that will be requested for the next file that is opened.
-
-</td>
-</tr>
-</table> 
-
-For information on other interfaces that can be obtained by using the QueryInterface method of this interface, see <a href="/windows/desktop/wmformat/reader-object">Reader Object</a>.
 
 ## -see-also
 

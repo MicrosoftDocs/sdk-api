@@ -63,29 +63,7 @@ When releasing an <b>IAudioClock2</b> interface instance, the client must call t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioClock2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioClock2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAudioClock2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclock2-getdeviceposition">GetDevicePosition</a>
-</td>
-<td align="left" width="63%">
-Gets the current device position, in frames, directly from  the hardware.
-
-</td>
-</tr>
-</table>
+The <b>IAudioClock2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioClock2</b> also has these types of members:
 
 ## -see-also
 

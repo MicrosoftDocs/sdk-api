@@ -59,7 +59,7 @@ Do not use. This API is only supported for Xbox developers.
 
 To learn more about becoming a Xbox developer, see <a href="https://www.xbox.com/Developers">Developing Games for Xbox One and Windows 10</a>.
 
-## -parameters
+
 
 ## -returns
 

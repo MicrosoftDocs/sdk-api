@@ -53,7 +53,7 @@ api_name:
 
 The <code>DisplayModeChanged</code> method informs the VMR that a WM_DISPLAYCHANGE message has been received by the application.
 
-## -parameters
+
 
 ## -returns
 

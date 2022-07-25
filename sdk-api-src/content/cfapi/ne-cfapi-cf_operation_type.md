@@ -45,12 +45,11 @@ api_name:
  - CF_OPERATION_TYPE
 ---
 
-# CF_OPERATION_TYPE enumeration
-
-
 ## -description
 
 The types of operations that can be performed on placeholder files and directories.
+
+Also see [Cloud Mirror sample](/windows/win32/cfapi/build-a-cloud-file-sync-engine#cloud-mirror-sample).
 
 ## -enum-fields
 
@@ -86,3 +85,6 @@ Acknowledge and delete a placeholder.
 
 Acknowledge and rename a placeholder.
 
+## -see-also
+
+[Cloud Mirror sample](/windows/win32/cfapi/build-a-cloud-file-sync-engine#cloud-mirror-sample)

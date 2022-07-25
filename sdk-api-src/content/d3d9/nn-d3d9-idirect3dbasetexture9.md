@@ -55,74 +55,7 @@ Applications use the methods of the IDirect3DBaseTexture9 interface to manipulat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DBaseTexture9</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>. <b>IDirect3DBaseTexture9</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDirect3DBaseTexture9</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dbasetexture9-generatemipsublevels">GenerateMipSubLevels</a>
-</td>
-<td align="left" width="63%">
-Generate mipmap sublevels.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dbasetexture9-getautogenfiltertype">GetAutoGenFilterType</a>
-</td>
-<td align="left" width="63%">
-Get the filter type that is used for automatically generated mipmap sublevels.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dbasetexture9-getlevelcount">GetLevelCount</a>
-</td>
-<td align="left" width="63%">
-Returns the number of texture levels in a multilevel texture.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dbasetexture9-getlod">GetLOD</a>
-</td>
-<td align="left" width="63%">
-Returns a value clamped to the maximum level-of-detail set for a managed texture (this method is not supported for an unmanaged texture).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dbasetexture9-setautogenfiltertype">SetAutoGenFilterType</a>
-</td>
-<td align="left" width="63%">
-Set the filter type that is used for automatically generated mipmap sublevels.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dbasetexture9-setlod">SetLOD</a>
-</td>
-<td align="left" width="63%">
-Sets the most detailed level-of-detail for a managed texture. 
-
-</td>
-</tr>
-</table>
+The <b>IDirect3DBaseTexture9</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>. <b>IDirect3DBaseTexture9</b> also has these types of members:
 
 ## -remarks
 

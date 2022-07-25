@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Clone</b> method duplicates the current I<b>EnumPortableDeviceObjectIDs</b> interface.
+The <b>Clone</b> method duplicates the current <b>IEnumPortableDeviceObjectIDs</b> interface.
       
 
 <b>Not implemented in this release.</b>

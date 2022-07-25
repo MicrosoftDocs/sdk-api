@@ -58,7 +58,7 @@ Retrieves the render target's current text rendering options.
 
 Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>**</b>
 
- When this method returns, <i>textRenderingParams</i>contains the address  of a pointer to the render target's current text rendering options.
+ When this method returns, <i>textRenderingParams</i> contains the address  of a pointer to the render target's current text rendering options.
 
 ## -remarks
 

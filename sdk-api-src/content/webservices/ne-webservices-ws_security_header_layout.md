@@ -56,22 +56,22 @@ bindings and mixed-mode security bindings.
 
 ## -enum-fields
 
-### -field WS_SECURITY_HEADER_LAYOUT_STRICT
+### -field WS_SECURITY_HEADER_LAYOUT_STRICT:1
 
 The elements of the security header must follow a 'declare before use'
 layout.  All security tokens must appear before their usage.
 
-### -field WS_SECURITY_HEADER_LAYOUT_LAX
+### -field WS_SECURITY_HEADER_LAYOUT_LAX:2
 
 The elements of the security header can be in arbitrary order,
 including security tokens appearing after usage.
 
-### -field WS_SECURITY_HEADER_LAYOUT_LAX_WITH_TIMESTAMP_FIRST
+### -field WS_SECURITY_HEADER_LAYOUT_LAX_WITH_TIMESTAMP_FIRST:3
 
 The elements of the security header can be in arbitrary order as in <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_header_layout">WS_SECURITY_HEADER_LAYOUT_LAX</a>, but the timestamp element must
 be the first element.
 
-### -field WS_SECURITY_HEADER_LAYOUT_LAX_WITH_TIMESTAMP_LAST
+### -field WS_SECURITY_HEADER_LAYOUT_LAX_WITH_TIMESTAMP_LAST:4
 
 The elements of the security header can be in arbitrary order as in <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_header_layout">WS_SECURITY_HEADER_LAYOUT_LAX</a>, but the timestamp element must
 be the last element.

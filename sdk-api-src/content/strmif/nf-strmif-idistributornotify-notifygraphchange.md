@@ -53,7 +53,7 @@ api_name:
 
 The <code>NotifyGraphChange</code> method is called when the set of filters in the filter graph changes or any pin connections change.
 
-## -parameters
+
 
 ## -returns
 

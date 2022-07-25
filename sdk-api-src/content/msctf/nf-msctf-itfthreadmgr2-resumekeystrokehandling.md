@@ -52,7 +52,7 @@ api_name:
 
 Resumes suspended keystroke handling.
 
-## -parameters
+
 
 ## -returns
 

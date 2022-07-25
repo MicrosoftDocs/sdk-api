@@ -6,7 +6,7 @@ helpviewer_keywords: ["DML_TOP_K_OPERATOR_DESC","DML_TOP_K_OPERATOR_DESC structu
 old-location: direct3d12\dml_top_k_operator_desc.htm
 tech.root: directml
 ms.assetid: BB0FD5F7-BCD8-42E0-A037-4411AFF386C2
-ms.date: 11/04/2020
+ms.date: 01/19/2022
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -160,20 +160,37 @@ A newer version of this operator, [DML_TOP_K1_OPERATOR_DESC](/windows/win32/api/
 This operator was introduced in `DML_FEATURE_LEVEL_2_0`.
 
 ## Tensor constraints
-* *InputTensor* and `OutputValueTensor` must have the same *DataType*.
-* `OutputIndexTensor` and `OutputValueTensor` must have the same *Sizes*.
+* *InputTensor*, *OutputIndexTensor*, and *OutputValueTensor* must have the same *DimensionCount*.
+* *InputTensor* and *OutputValueTensor* must have the same *DataType*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_5_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputValueTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputIndexTensor | Output | 1 to 8 | UINT64, UINT32 |
+
+### DML_FEATURE_LEVEL_3_1 and above
+
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+| OutputValueTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+| OutputIndexTensor | Output | 1 to 8 | UINT32 |
+
 ### DML_FEATURE_LEVEL_2_1 and above
-| Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
-| ------ | ---- | ---------- | -------------------------- | -------------------- |
-| InputTensor | Input | { In0, In1, In2, In3 } | 4 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
-| OutputValueTensor | Output | { Out0, Out1, Out2, Out3 } | 4 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
-| OutputIndexTensor | Output | { Out0, Out1, Out2, Out3 } | 4 | UINT32 |
+
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+| OutputValueTensor | Output | 4 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+| OutputIndexTensor | Output | 4 | UINT32 |
 
 ### DML_FEATURE_LEVEL_2_0 and above
-| Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
-| ------ | ---- | ---------- | -------------------------- | -------------------- |
-| InputTensor | Input | { In0, In1, In2, In3 } | 4 | FLOAT32, FLOAT16 |
-| OutputValueTensor | Output | { Out0, Out1, Out2, Out3 } | 4 | FLOAT32, FLOAT16 |
-| OutputIndexTensor | Output | { Out0, Out1, Out2, Out3 } | 4 | UINT32 |
+
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 | FLOAT32, FLOAT16 |
+| OutputValueTensor | Output | 4 | FLOAT32, FLOAT16 |
+| OutputIndexTensor | Output | 4 | UINT32 |

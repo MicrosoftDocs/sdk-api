@@ -59,65 +59,10 @@ The <b>IDvbLogicalChannelDescriptor</b> interface enables the client to get a lo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbLogicalChannelDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbLogicalChannelDescriptor</b> also has these types of members:
+The <b>IDvbLogicalChannelDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbLogicalChannelDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IDvbLogicalChannelDescriptor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchanneldescriptor-getcountofrecords">GetCountOfRecords</a>
-</td>
-<td align="left" width="63%">
-Returns the number of records in the logical channel descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchanneldescriptor-getlength">GetLength</a>
-</td>
-<td align="left" width="63%">
-Returns the length of the descriptor body.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchanneldescriptor-getrecordlogicalchannelnumber">GetRecordLogicalChannelNumber</a>
-</td>
-<td align="left" width="63%">
-Returns the logical channel number at a specified index in the channel list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchanneldescriptor-getrecordserviceid">GetRecordServiceId</a>
-</td>
-<td align="left" width="63%">
-Returns the service identifier at a specified index in the channel list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchanneldescriptor-gettag">GetTag</a>
-</td>
-<td align="left" width="63%">
-Returns the descriptor tag.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

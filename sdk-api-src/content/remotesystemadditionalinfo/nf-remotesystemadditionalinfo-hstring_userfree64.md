@@ -56,11 +56,11 @@ Frees resources on the server side when called by RPC stub files.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The data used by RPC.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 The string.
 

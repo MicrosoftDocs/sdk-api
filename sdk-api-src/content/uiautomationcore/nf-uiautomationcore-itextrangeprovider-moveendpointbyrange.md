@@ -54,7 +54,7 @@ Moves one endpoint of the current text range to the specified endpoint of a seco
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Type: <b>TextPatternRangeEndpoint</b>
 
@@ -66,7 +66,7 @@ Type: <b><a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itex
 
 A second text range from the same text provider as the current text range.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Type: <b>TextPatternRangeEndpoint</b>
 
@@ -76,7 +76,7 @@ An endpoint (either start or end) of the second text range.   The <i>endpoint</i
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

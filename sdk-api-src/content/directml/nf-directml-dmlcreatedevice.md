@@ -90,6 +90,6 @@ A newer version of this function, [DMLCreateDevice1](/windows/win32/api/directml
 
 ## -see-also
 
-[DMLCreateDevice1 function](/windows/win32/api/directml/nf-directml-dmlcreatedevice1)
-[DirectML version history](/windows/win32/direct3d12/dml-version-history)
-[Using the DirectML debug layer](/windows/win32/direct3d12/dml-debug-layer)
+* [DMLCreateDevice1 function](/windows/win32/api/directml/nf-directml-dmlcreatedevice1)
+* [DirectML version history](/windows/ai/directml/dml-version-history)
+* [Using the DirectML debug layer](/windows/ai/directml/dml-debug-layer)

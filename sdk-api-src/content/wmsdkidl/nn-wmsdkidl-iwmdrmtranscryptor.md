@@ -60,56 +60,10 @@ The <b>IWMDRMTranscryptor</b> interface transforms a DRM-protected ASF file into
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDRMTranscryptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDRMTranscryptor</b> also has these types of members:
+The <b>IWMDRMTranscryptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDRMTranscryptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMDRMTranscryptor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmtranscryptor-close">Close</a>
-</td>
-<td align="left" width="63%">
-Removes the file from the transcryptor and releases all associated resources.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmtranscryptor-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Loads a file into the transcryptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmtranscryptor-read">Read</a>
-</td>
-<td align="left" width="63%">
-Generates encrypted data for streaming to devices that support Windows Media DRM 10 for Network Devices from the file loaded in the transcryptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmtranscryptor-seek">Seek</a>
-</td>
-<td align="left" width="63%">
-Sets the transcryptor to a point in the data stream of the loaded ASF file. Subsequent reads will begin from this point in the file.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

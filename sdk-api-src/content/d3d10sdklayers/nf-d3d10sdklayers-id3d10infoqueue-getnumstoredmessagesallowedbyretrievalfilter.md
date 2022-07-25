@@ -52,7 +52,7 @@ api_name:
 
 Get the number of messages that are able to pass through a retrieval filter.
 
-## -parameters
+
 
 ## -returns
 

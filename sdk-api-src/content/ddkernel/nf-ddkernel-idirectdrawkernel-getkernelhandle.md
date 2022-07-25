@@ -59,7 +59,7 @@ The <b>IDirectDrawKernel::GetKernelHandle</b> method returns a kernel-mode handl
 
 
 
-#### -param arg1
+#### -param unnamedParam1
 
 Caller-supplied pointer into which the kernel-mode handle of the DirectDraw object is returned.
 

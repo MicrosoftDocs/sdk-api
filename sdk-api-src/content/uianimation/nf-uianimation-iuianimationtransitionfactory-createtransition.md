@@ -58,8 +58,7 @@ Creates a transition from a custom interpolator.
 
 The interpolator from which a transition is to be created.  
                
-               The specified object must implement the
-               <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationinterpolator">IUIAnimationInterpolator</a> interface.
+The specified object must implement the <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationinterpolator">IUIAnimationInterpolator</a> interface.
 
 ### -param transition [out]
 

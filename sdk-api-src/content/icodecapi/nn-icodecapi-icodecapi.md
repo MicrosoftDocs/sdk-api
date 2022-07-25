@@ -2,7 +2,6 @@
 UID: NN:icodecapi.ICodecAPI
 title: ICodecAPI
 ms.date: 09/22/2020
-ms.topic: language-reference
 targetos: Windows
 description:  The ICodecAPI interface sets and retrieves settings on an encoder or decoder filter.
 helpviewer_keywords: ["ICodecAPI","ICodecAPI interface [DirectShow]","ICodecAPI interface [DirectShow]","described","ICodecAPIInterface","dshow.icodecapi","icodecapi/ICodecAPI"]
@@ -16,8 +15,8 @@ req.include-header:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.unicode-ansi: 
 topic_type:
@@ -45,14 +44,14 @@ The <b>ICodecAPI</b> interface sets and retrieves settings on an encoder or deco
 This interface defines a generic mechanism for setting properties on a codec (encoder or decoder). A <i>codec property</i> is a key/value pair, where the key is a GUID and the value is a <b>VARIANT</b>. The interpretation of the <b>VARIANT</b> data depends on the property GUID. For a list of codec property GUIDs, see <a href="/windows/desktop/DirectShow/codec-api-properties">Codec API Properties</a>.
 
 <h3><a id="Codec_Profiles"></a><a id="codec_profiles"></a><a id="CODEC_PROFILES"></a>Codec Profiles</h3>
-Codecs can optionally store profile and capability information in the system registry. This information enables applications to query the device during device enumeration. Default profiles are stored in the following registry key:<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+Codecs can optionally store profile and capability information in the system registry. This information enables applications to query the device during device enumeration. Default profiles are stored in the following registry key:<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>Software</b>
       <b>Classes</b>
          <b>CLSID</b>
             <b><i>Category</i></b>
                <b>Profiles</b></pre>Each profile is a registry key whose default string is a text description of the profile. Each value has a GUID name, followed by a string value containing the numeric GUID value. For example:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -71,7 +70,7 @@ where {...} is a property GUID that the application can map into its user interf
 
 Default codec capabilities are stored under HLKM\Software\Classes\CLSID\&lt;category&gt;\Instance\&lt;Filter CLSID&gt;\Capabilities. Each value has a GUID name, followed by a string value containing the numeric GUID value. For example:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

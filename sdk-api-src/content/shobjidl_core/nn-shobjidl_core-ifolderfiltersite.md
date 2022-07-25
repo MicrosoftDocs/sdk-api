@@ -54,29 +54,7 @@ Exported by a host to allow clients to specify how to filter a Shell folder enum
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFolderFilterSite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFolderFilterSite</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IFolderFilterSite</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderfiltersite-setfilter">SetFilter</a>
-</td>
-<td align="left" width="63%">
-Exposed by a host to allow clients to pass the host their <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointers.
-
-</td>
-</tr>
-</table>
+The <b>IFolderFilterSite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFolderFilterSite</b> also has these types of members:
 
 ## -remarks
 

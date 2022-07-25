@@ -141,9 +141,13 @@ An unspecified error occurred.
 
 ## -remarks
 
-Use the <b>DisplayConfigGetDeviceInfo</b>function to obtain additional information about a source or target for an adapter, such as the display name, the preferred display mode, and source device name.
+Use the <b>DisplayConfigGetDeviceInfo</b> function to obtain additional information about a source or target for an adapter, such as the display name, the preferred display mode, and source device name.
 
-The caller can call <b>DisplayConfigGetDeviceInfo</b>to obtain more friendly names to display in the user interface. The caller can obtain names for the adapter, the source, and the target. The caller can also call <b>DisplayConfigGetDeviceInfo</b>to obtain the best resolution of the connected display device.
+The caller can call <b>DisplayConfigGetDeviceInfo</b> to obtain more friendly names to display in the user interface. The caller can obtain names for the adapter, the source, and the target. The caller can also call <b>DisplayConfigGetDeviceInfo</b> to obtain the best resolution of the connected display device.
+
+## Examples
+
+See <a href="/windows/desktop/api/winuser/nf-winuser-querydisplayconfig#examples">__QueryDisplayConfig__</a> for an example of __DisplayConfigGetDeviceInfo__.
 
 ## -see-also
 

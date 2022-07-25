@@ -54,29 +54,7 @@ Enables the host container of a windowless rich edit control to obtain the Micro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRicheditWindowlessAccessibility</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRicheditWindowlessAccessibility</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IRicheditWindowlessAccessibility</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/textserv/nf-textserv-iricheditwindowlessaccessibility-createprovider">CreateProvider</a>
-</td>
-<td align="left" width="63%">
-Obtains a UI Automation provider object for the parent of a windowless rich edit control.
-
-</td>
-</tr>
-</table>
+The <b>IRicheditWindowlessAccessibility</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRicheditWindowlessAccessibility</b> also has these types of members:
 
 ## -see-also
 

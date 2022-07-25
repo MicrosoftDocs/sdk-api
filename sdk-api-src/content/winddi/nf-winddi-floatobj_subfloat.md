@@ -54,11 +54,11 @@ The <b>FLOATOBJ_SubFloat</b> function subtracts the value of type FLOATL from th
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to the FLOATOBJ operand. When the function returns, *<i>pf</i> will be reset to the value (*<i>pf</i> - <i>f</i>).
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Specifies the FLOATL operand. This value is converted to a FLOATOBJ for the subtraction.
 

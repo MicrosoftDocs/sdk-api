@@ -59,27 +59,27 @@ The <b>WIAVIDEO_STATE</b> enumeration is used to specify the current state of a 
 
 ## -enum-fields
 
-### -field WIAVIDEO_NO_VIDEO
+### -field WIAVIDEO_NO_VIDEO:1
 
 No video stream exists. Call <a href="/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-createvideobywiadevid">IWiaVideo::CreateVideoByWiaDevID</a>, <a href="/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-createvideobydevnum">IWiaVideo::CreateVideoByDevNum</a>, or <a href="/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-createvideobyname">IWiaVideo::CreateVideoByName</a> to create a video.
 
-### -field WIAVIDEO_CREATING_VIDEO
+### -field WIAVIDEO_CREATING_VIDEO:2
 
 One of the <a href="/windows/desktop/api/wiavideo/nn-wiavideo-iwiavideo">IWiaVideo</a> CreateVideo methods was called and WIA is in the process of creating the video stream.
 
-### -field WIAVIDEO_VIDEO_CREATED
+### -field WIAVIDEO_VIDEO_CREATED:3
 
 A video stream has been successfully created, but playback has not yet started.
 
-### -field WIAVIDEO_VIDEO_PLAYING
+### -field WIAVIDEO_VIDEO_PLAYING:4
 
 A video stream has been successfully created, and the video is playing. The application can now call the <a href="/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-takepicture">IWiaVideo::TakePicture</a> method.
 
-### -field WIAVIDEO_VIDEO_PAUSED
+### -field WIAVIDEO_VIDEO_PAUSED:5
 
 A video stream has been successfully created, and the video is paused. The application can now call the <a href="/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-takepicture">IWiaVideo::TakePicture</a> method.
 
-### -field WIAVIDEO_DESTROYING_VIDEO
+### -field WIAVIDEO_DESTROYING_VIDEO:6
 
 The application called <a href="/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-destroyvideo">IWiaVideo::DestroyVideo</a> method, and WIA is in the process of destroying the video stream.
 

@@ -70,7 +70,7 @@ A pointer that receives a pointer to the top left pixel in the locked rectangle.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -81,7 +81,7 @@ The pointer provided by this method should not be used outside of the lifetime o
 
 #### Examples
 
-In the following example, the data pointed to by the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmaplock">IWICBitmapLock</a> is zero'd.
+In the following example, the data pointed to by the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmaplock">IWICBitmapLock</a> is zeroed.
 
 
 ```cpp

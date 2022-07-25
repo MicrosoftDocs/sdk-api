@@ -52,7 +52,7 @@ api_name:
 
 The <b>ResetForEncode</b> method restores the state of the request object to that which existed before the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-encode">Encode</a> method was called.
 
-## -parameters
+
 
 ## -returns
 

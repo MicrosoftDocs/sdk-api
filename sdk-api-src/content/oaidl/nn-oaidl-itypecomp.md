@@ -54,38 +54,7 @@ The <b>ITypeComp</b> interface provides a fast way to access information that co
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITypeComp</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITypeComp</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITypeComp</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oaidl/nf-oaidl-itypecomp-bind">Bind</a>
-</td>
-<td align="left" width="63%">
-Maps a name to a member of a type, or binds global variables and functions contained in a type library.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypecomp-bindtype">BindType</a>
-</td>
-<td align="left" width="63%">
-Binds to the type descriptions contained within a type library.
-
-</td>
-</tr>
-</table>
+The <b>ITypeComp</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITypeComp</b> also has these types of members:
 
 ## -see-also
 

@@ -58,75 +58,7 @@ To create the transcode profile object, call <a href="/windows/desktop/api/mfidl
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTranscodeProfile</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTranscodeProfile</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFTranscodeProfile</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imftranscodeprofile-getaudioattributes">GetAudioAttributes</a>
-</td>
-<td align="left" width="63%">
-Gets the audio stream settings that are currently set in the transcode profile.
-  
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imftranscodeprofile-getcontainerattributes">GetContainerAttributes</a>
-</td>
-<td align="left" width="63%">
-Gets the container settings that are currently set in the transcode profile.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imftranscodeprofile-getvideoattributes">GetVideoAttributes</a>
-</td>
-<td align="left" width="63%">
-Gets the video stream settings that are currently set in the transcode profile.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imftranscodeprofile-setaudioattributes">SetAudioAttributes</a>
-</td>
-<td align="left" width="63%">
-Sets audio stream configuration settings  in the transcode profile.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imftranscodeprofile-setcontainerattributes">SetContainerAttributes</a>
-</td>
-<td align="left" width="63%">
-Sets container configuration settings  in the transcode profile.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imftranscodeprofile-setvideoattributes">SetVideoAttributes</a>
-</td>
-<td align="left" width="63%">
-Sets video stream configuration settings  in the transcode profile. 
-
-</td>
-</tr>
-</table>
+The <b>IMFTranscodeProfile</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTranscodeProfile</b> also has these types of members:
 
 ## -see-also
 

@@ -219,7 +219,7 @@ The default button displayed by the message box should agree with your <i>iDefau
 
 <b>SHMessageBoxCheck</b> records the message boxes that the user has chosen to suppress under the following registry key.
                 
-                <pre xml:space="preserve"><b>HKEY_CURRENT_USER</b>
+<pre><b>HKEY_CURRENT_USER</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Windows</b>

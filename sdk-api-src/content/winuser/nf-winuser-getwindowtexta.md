@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - GetWindowTextA
  - winuser/GetWindowTextA
@@ -102,7 +102,23 @@ To retrieve the text of a control in another process, send a <a href="/windows/d
 
 #### Examples
 
- For an example, see <a href="/windows/desktop/winmsg/using-messages-and-message-queues">Sending a Message</a>.
+The following example code demonstrates a call to **GetWindowTextA**.
+
+```cpp
+hwndCombo = GetDlgItem(hwndDlg, IDD_COMBO); 
+cTxtLen = GetWindowTextLength(hwndCombo); 
+
+// Allocate memory for the string and copy 
+// the string into the memory. 
+
+pszMem = (PSTR) VirtualAlloc((LPVOID) NULL, 
+    (DWORD) (cTxtLen + 1), MEM_COMMIT, 
+    PAGE_READWRITE); 
+GetWindowText(hwndCombo, pszMem, 
+    cTxtLen + 1); 
+```
+
+ To see this example in context, see <a href="/windows/desktop/winmsg/using-messages-and-message-queues">Sending a Message</a>.
 
 <div class="code"></div>
 

@@ -121,4 +121,5 @@ This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 | OutputTensor | Output | { BatchCount, ChannelCount, Height, Width } | 4 | FLOAT32, FLOAT16 |
 
 ## -see-also
-[Using fused operators for improved performance](/windows/win32/direct3d12/dml-fused-activations)
+
+[Using fused operators for improved performance](/windows/ai/directml/dml-fused-activations)

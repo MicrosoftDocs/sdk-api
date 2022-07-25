@@ -54,35 +54,5 @@ Exposes methods that add and remove references to custom clients in RemoteApp an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspaceRegistration</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWorkspaceRegistration</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWorkspaceRegistration</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWorkspaceRegistration</b> also has these types of members:
 
-## -members
-
-The <b>IWorkspaceRegistration</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspaceregistration-addresource">AddResource</a>
-</td>
-<td align="left" width="63%">
-Adds a resource to the connection in RemoteApp and Desktop Connection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspaceregistration-removeresource">RemoveResource</a>
-</td>
-<td align="left" width="63%">
-Notifies the RemoteApp and Desktop Connection runtime that  the client is disconnecting the connection.
-
-</td>
-</tr>
-</table>

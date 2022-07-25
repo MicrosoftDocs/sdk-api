@@ -56,7 +56,7 @@ Contains data about a UI Automation change that occurred.
 
 ### -field uiaId
 
-Identifies the type of change info. Possible values are all the values of <b>Change Indentifiers</b>, <a href="/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>, <a href="/windows/desktop/WinAuto/uiauto-textattribute-ids">Text Attribute Identifiers</a>, <a href="/windows/desktop/WinAuto/uiauto-annotation-type-identifiers">Annotation Type Identifiers</a> and <a href="/windows/desktop/WinAuto/uiauto-style-identifiers">Style Identifiers</a>.
+Identifies the type of change info. Possible values are all the values of <b>Change Identifiers</b>, <a href="/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>, <a href="/windows/desktop/WinAuto/uiauto-textattribute-ids">Text Attribute Identifiers</a>, <a href="/windows/desktop/WinAuto/uiauto-annotation-type-identifiers">Annotation Type Identifiers</a> and <a href="/windows/desktop/WinAuto/uiauto-style-identifiers">Style Identifiers</a>.
 
 ### -field payload
 

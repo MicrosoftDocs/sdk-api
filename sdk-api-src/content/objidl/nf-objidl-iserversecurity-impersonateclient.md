@@ -52,7 +52,7 @@ api_name:
 
 Enables a server to impersonate a client for the duration of a call.
 
-## -parameters
+
 
 ## -returns
 
@@ -68,7 +68,7 @@ The identity presented to a server called during impersonation depends on the ty
 
 At the end of each method call, COM will call <a href="/windows/desktop/api/objidl/nf-objidl-iserversecurity-reverttoself">RevertToSelf</a> if the application does not.
 
-Traditionally, impersonation information is not nested â€“ the last call to any impersonation mechanism overrides any previous impersonation. However, in the apartment model, impersonation is maintained during nested calls. Thus if the server A receives a call from B, impersonates, calls C, receives a call from D, impersonates, reverts, and receives the reply from C, the impersonation token will be set back to B, not A.
+Traditionally, impersonation information is not nested: The last call to any impersonation mechanism overrides any previous impersonation. However, in the apartment model, impersonation is maintained during nested calls. Thus if the server A receives a call from B, impersonates, calls C, receives a call from D, impersonates, reverts, and receives the reply from C, the impersonation token will be set back to B, not A.
 
 For information on using impersonation with asynchronous calls, see <a href="/windows/desktop/com/impersonation-and-asynchronous-calls">Impersonation and Asynchronous Calls</a>.
 

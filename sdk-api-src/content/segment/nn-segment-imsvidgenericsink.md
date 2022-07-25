@@ -59,47 +59,10 @@ The <b>IMSVidGenericSink</b> interface represents a generic output device that s
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidGenericSink</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidoutputdevice">IMSVidOutputDevice</a>. <b>IMSVidGenericSink</b> also has these types of members:
+The <b>IMSVidGenericSink</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidoutputdevice">IMSVidOutputDevice</a>. <b>IMSVidGenericSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMSVidGenericSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidgenericsink-get_sinkstreams">get_SinkStreams</a>
-</td>
-<td align="left" width="63%">
-Not implemented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidgenericsink-put_sinkstreams">put_SinkStreams</a>
-</td>
-<td align="left" width="63%">
-Not implemented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidgenericsink-setsinkfilter">SetSinkFilter</a>
-</td>
-<td align="left" width="63%">
-Sets the filter for the sink.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

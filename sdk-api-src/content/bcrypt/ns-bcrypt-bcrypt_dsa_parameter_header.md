@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>BCRYPT_DSA_PARAMETER_HEADER</b> structure is used to contain parameter header information for a <a href="/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA) key. This structure is used with the <a href="/windows/desktop/SecCNG/cng-property-identifiers">BCRYPT_DSA_PARAMETERS</a> property in the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsetproperty">BCryptSetProperty</a> function.
+The <b>BCRYPT_DSA_PARAMETER_HEADER</b> structure is used as a header for a <a href="/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA) parameters <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> containing information for generating a DSA key. This structure is used with the <a href="/windows/desktop/SecCNG/cng-property-identifiers">BCRYPT_DSA_PARAMETERS</a> property in the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsetproperty">BCryptSetProperty</a> function.
 
 ## -struct-fields
 
@@ -91,19 +91,26 @@ The 160-bit prime factor, in big-endian format.
 
 ## -remarks
 
-This structure is used as a header for a larger buffer. 
+When using this structure in a <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsetproperty">BCryptSetProperty</a> call, to set the parameters for a DSA key created in a <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptgeneratekeypair">BCryptGenerateKeyPair</a> call, (cbKeyLength*8) must equal the previously set dwLength.
 
-The single memory block consists of the following items:
+The structure applies to DSA keys that equal or exceed 512 bits in length but are less than or equal to 1024 bits.
 
-<ul>
-<li>This structure followed by a buffer of <b>cbKeyLength</b> size that contains the DSA prime number, in big-endian format.</li>
-<li>Another buffer of <b>cbKeyLength</b> size that contains the DSA generator number, in big-endian format.</li>
-</ul>
+This structure is used as a header for a larger buffer. The DSA parameters blob has the following format in contiguous memory. The Modulus and Generator are in big-endian format.
+
+
+``` syntax
+
+BCRYPT_DSA_PARAMETER_HEADER
+Modulus[cbKeyLength]    // Big-endian.
+Generator[cbKeyLength]  // Big-endian.
+
+```
+
 
 ## -see-also
 
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptgeneratekeypair">BCryptGenerateKeyPair</a>
+
 <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsetproperty">BCryptSetProperty</a>
-
-
 
 <a href="/windows/desktop/SecCNG/cng-property-identifiers">Cryptography Primitive Property Identifiers</a>

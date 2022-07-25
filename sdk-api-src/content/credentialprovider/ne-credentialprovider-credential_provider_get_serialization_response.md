@@ -56,7 +56,7 @@ Describes the response when a credential provider attempts to serialize credenti
 
 ## -enum-fields
 
-### -field CPGSR_NO_CREDENTIAL_NOT_FINISHED
+### -field CPGSR_NO_CREDENTIAL_NOT_FINISHED:0
 
 No credential was serialized because more information is needed. One example of this would be if a credential requires both a PIN and an answer to a secret question, but the user has only provided the PIN. This signals the caller should be given a chance to alter its response.
 

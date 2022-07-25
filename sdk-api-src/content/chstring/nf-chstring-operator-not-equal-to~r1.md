@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.operator-not-equal-to~r1
-title: operator!=
+title: operator!= (not equal to)
 description: 
 tech.root: wmi
 helpviewer_keywords: ["operator!="]
@@ -35,7 +35,6 @@ dev_langs:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - chstring.h
 api_name:

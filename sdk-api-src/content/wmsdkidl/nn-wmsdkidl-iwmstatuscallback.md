@@ -54,29 +54,10 @@ The <b>IWMStatusCallback</b> interface is implemented by the application to rece
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMStatusCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMStatusCallback</b> also has these types of members:
+The <b>IWMStatusCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMStatusCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMStatusCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">OnStatus</a>
-</td>
-<td align="left" width="63%">
-Called when status information must be communicated to the host application. This happens routinely when an ASF file is being opened and read, and when errors occur during reading.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

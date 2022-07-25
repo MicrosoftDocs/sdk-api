@@ -90,7 +90,7 @@ Returns the handle to the status window if successful, or <b>NULL</b> otherwise.
 
 ## -remarks
 
-The <b>CreateStatusWindow</b> function calls the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> function to create the window. It passes the parameters to  without modification and sets the position, width, and height parameters to <b>CreateWindow</b>default values. 
+The <b>CreateStatusWindow</b> function calls the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> function to create the window. It passes the parameters to  without modification and sets the position, width, and height parameters to <b>CreateWindow</b> default values. 
 
 
 

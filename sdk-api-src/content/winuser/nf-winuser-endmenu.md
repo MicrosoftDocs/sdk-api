@@ -57,7 +57,7 @@ req.apiset: ext-ms-win-ntuser-menu-l1-1-0 (introduced in Windows 8)
 
 Ends the calling thread's active menu.
 
-## -parameters
+
 
 ## -returns
 

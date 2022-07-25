@@ -56,56 +56,10 @@ Ripping a CD by using the <b>IWMPCdromRip</b> interface has the same effect as r
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPCdromRip</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPCdromRip</b> also has these types of members:
+The <b>IWMPCdromRip</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPCdromRip</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMPCdromRip</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-get_ripprogress">get_ripProgress</a>
-</td>
-<td align="left" width="63%">
-Retrieves the CD ripping progress as percent complete.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-get_ripstate">get_ripState</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumeration value that indicates the current state of the ripping process.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-startrip">startRip</a>
-</td>
-<td align="left" width="63%">
-Rips the CD.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-stoprip">stopRip</a>
-</td>
-<td align="left" width="63%">
-Stops the CD ripping process.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

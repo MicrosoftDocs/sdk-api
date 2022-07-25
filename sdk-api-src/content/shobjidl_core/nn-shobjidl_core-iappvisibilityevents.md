@@ -55,38 +55,7 @@ Enables applications to receive notifications of state changes in a display and 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppVisibilityEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppVisibilityEvents</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAppVisibilityEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iappvisibilityevents-appvisibilityonmonitorchanged">AppVisibilityOnMonitorChanged</a>
-</td>
-<td align="left" width="63%">
-Notifies a client that the mode of a display has changed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iappvisibilityevents-launchervisibilitychange">LauncherVisibilityChange</a>
-</td>
-<td align="left" width="63%">
-Notifies a client that visibility of the Start screen has changed.
-
-</td>
-</tr>
-</table>
+The <b>IAppVisibilityEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppVisibilityEvents</b> also has these types of members:
 
 ## -see-also
 

@@ -39,7 +39,6 @@ topic_type:
 api_type:
  - <TBD>
 api_location:
- - 
 api_name:
  - CLUSTER_CHANGE_SPACEPORT_V2
 ---
@@ -53,7 +52,7 @@ TBD
 
 ## -enum-fields
 
-### -field CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2
+### -field CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2:0x00000001
 
 TBD
 

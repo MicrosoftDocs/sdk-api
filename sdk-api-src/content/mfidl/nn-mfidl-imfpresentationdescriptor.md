@@ -55,65 +55,7 @@ Describes the details of a presentation. A <i>presentation</i> is a set of relat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPresentationDescriptor</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFPresentationDescriptor</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFPresentationDescriptor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a copy of this presentation descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-deselectstream">DeselectStream</a>
-</td>
-<td align="left" width="63%">
-Deselects a stream in the presentation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorbyindex">GetStreamDescriptorByIndex</a>
-</td>
-<td align="left" width="63%">
-Retrieves a stream descriptor for a specified stream in the presentation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorcount">GetStreamDescriptorCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of stream descriptors in the presentation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-selectstream">SelectStream</a>
-</td>
-<td align="left" width="63%">
-Selects a stream in the presentation.
-
-</td>
-</tr>
-</table>
+The <b>IMFPresentationDescriptor</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFPresentationDescriptor</b> also has these types of members:
 
 ## -remarks
 

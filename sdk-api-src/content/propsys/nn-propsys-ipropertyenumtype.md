@@ -54,65 +54,7 @@ Exposes methods that extract data from enumeration information. <a href="/window
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyEnumType</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyEnumType</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPropertyEnumType</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getdisplaytext">GetDisplayText</a>
-</td>
-<td align="left" width="63%">
-Gets display text from an enumeration information structure.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getenumtype">GetEnumType</a>
-</td>
-<td align="left" width="63%">
-Gets an enumeration type from an enumeration information structure.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getrangeminvalue">GetRangeMinValue</a>
-</td>
-<td align="left" width="63%">
-Gets a minimum value from an enumeration information structure.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getrangesetvalue">GetRangeSetValue</a>
-</td>
-<td align="left" width="63%">
-Gets a set value from an enumeration information structure.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getvalue">GetValue</a>
-</td>
-<td align="left" width="63%">
-Gets a value from an enumeration information structure.
-
-</td>
-</tr>
-</table>
+The <b>IPropertyEnumType</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyEnumType</b> also has these types of members:
 
 ## -remarks
 

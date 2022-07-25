@@ -57,83 +57,10 @@ The <b>IDvbCableDeliverySystemDescriptor</b> interface enables the client to get
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbCableDeliverySystemDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbCableDeliverySystemDescriptor</b> also has these types of members:
+The <b>IDvbCableDeliverySystemDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbCableDeliverySystemDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IDvbCableDeliverySystemDescriptor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcabledeliverysystemdescriptor-getfecinner">GetFECInner</a>
-</td>
-<td align="left" width="63%">
-Returns the inner forward error correction (FEC) scheme.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcabledeliverysystemdescriptor-getfecouter">GetFECOuter</a>
-</td>
-<td align="left" width="63%">
-Returns the output FEC scheme.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcabledeliverysystemdescriptor-getfrequency">GetFrequency</a>
-</td>
-<td align="left" width="63%">
-Returns the frequency.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcabledeliverysystemdescriptor-getlength">GetLength</a>
-</td>
-<td align="left" width="63%">
-Returns the length of the descriptor body.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcabledeliverysystemdescriptor-getmodulation">GetModulation</a>
-</td>
-<td align="left" width="63%">
-Returns the modulation scheme.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcabledeliverysystemdescriptor-getsymbolrate">GetSymbolRate</a>
-</td>
-<td align="left" width="63%">
-Returns the symbol rate.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcabledeliverysystemdescriptor-gettag">GetTag</a>
-</td>
-<td align="left" width="63%">
-Returns the descriptor tag.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

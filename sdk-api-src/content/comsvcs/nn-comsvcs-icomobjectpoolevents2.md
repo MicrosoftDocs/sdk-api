@@ -54,65 +54,7 @@ Notifies the subscriber when a new object is created for or removed from the poo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComObjectPoolEvents2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComObjectPoolEvents2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IComObjectPoolEvents2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents2-onobjpoolcreatedecision">OnObjPoolCreateDecision</a>
-</td>
-<td align="left" width="63%">
-Generated when a pool provides a requesting client with an existing object or creates a new one.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents2-onobjpoolcreateobject">OnObjPoolCreateObject</a>
-</td>
-<td align="left" width="63%">
-Generated when an object is created for the pool.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents2-onobjpoolcreatepool">OnObjPoolCreatePool</a>
-</td>
-<td align="left" width="63%">
-Generated when a new pool is created.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents2-onobjpooldestroyobject">OnObjPoolDestroyObject</a>
-</td>
-<td align="left" width="63%">
-Generated when an object is permanently removed from the pool.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpoolevents2-onobjpooltimeout">OnObjPoolTimeout</a>
-</td>
-<td align="left" width="63%">
-Generated when the request for a pooled object times out.
-
-</td>
-</tr>
-</table>
+The <b>IComObjectPoolEvents2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComObjectPoolEvents2</b> also has these types of members:
 
 ## -see-also
 

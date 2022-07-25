@@ -54,31 +54,10 @@ The <b>IWMPTranscodePolicy</b> interface provides a method implemented by Direct
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPTranscodePolicy</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPTranscodePolicy</b> also has these types of members:
+The <b>IWMPTranscodePolicy</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPTranscodePolicy</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMPTranscodePolicy</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmptranscodepolicy-allowtranscode">allowTranscode</a>
-</td>
-<td align="left" width="63%">
-Retrieves a value specifying whether Windows Media Player is permitted to change the format of the digital media content to Windows Media Format.
-
-</td>
-</tr>
-</table> 
-
-To retrieve a pointer to the <b>IWMPTranscodePolicy</b> interface, Windows Media Player calls the <b>QueryInterface</b> method of the DirectShow source filter.
 
 ## -see-also
 

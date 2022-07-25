@@ -54,11 +54,11 @@ the <b>CryptXmlDllCreateKey</b> function parses the <b>KeyValue</b> element and 
 
 ## -parameters
 
-### -param *pEncoded [in]
+### -param pEncoded [in]
 
 A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains the <b>KeyValue</b> element.
 
-### -param *phKey [out]
+### -param phKey [out]
 
 A pointer to a <b>BCRYPT_KEY_HANDLE</b> variable that receives the handle of the key used to verify the signature.
 

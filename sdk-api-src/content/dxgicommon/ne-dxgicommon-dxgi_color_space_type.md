@@ -54,7 +54,7 @@ Specifies color space types.
 
 ## -enum-fields
 
-### -field DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+### -field DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709:0
 
 <table>
 <tr>
@@ -62,23 +62,23 @@ Specifies color space types.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>RGB</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>0-255</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Image</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.709</td>
 </tr>
 </table>
@@ -90,7 +90,7 @@ This is the standard definition for sRGB.
 
 	  This is usually used with 8 or 10 bit color channels.
 
-### -field DXGI_COLOR_SPACE_RGB_FULL_G10_NONE_P709
+### -field DXGI_COLOR_SPACE_RGB_FULL_G10_NONE_P709:1
 
 <table>
 <tr>
@@ -98,23 +98,23 @@ This is the standard definition for sRGB.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>RGB</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>0-255</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>1.0</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Image</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.709</td>
 </tr>
 </table>
@@ -122,7 +122,7 @@ This is the standard definition for sRGB.
 
 This is the standard definition for scRGB, and is usually used with 16 bit integer, 16 bit floating point, or 32 bit floating point color channels.
 
-### -field DXGI_COLOR_SPACE_RGB_STUDIO_G22_NONE_P709
+### -field DXGI_COLOR_SPACE_RGB_STUDIO_G22_NONE_P709:2
 
 <table>
 <tr>
@@ -130,23 +130,23 @@ This is the standard definition for scRGB, and is usually used with 16 bit integ
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>RGB</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Image</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.709</td>
 </tr>
 </table>
@@ -156,7 +156,7 @@ This is the standard definition for ITU-R Recommendation BT.709. Note that due t
 
 	  This is usually used with 8 or 10 bit color channels.
 
-### -field DXGI_COLOR_SPACE_RGB_STUDIO_G22_NONE_P2020
+### -field DXGI_COLOR_SPACE_RGB_STUDIO_G22_NONE_P2020:3
 
 <table>
 <tr>
@@ -164,23 +164,23 @@ This is the standard definition for ITU-R Recommendation BT.709. Note that due t
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>RGB</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Image</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -188,11 +188,11 @@ This is the standard definition for ITU-R Recommendation BT.709. Note that due t
 
 This is usually used with 10 or 12 bit color channels.
 
-### -field DXGI_COLOR_SPACE_RESERVED
+### -field DXGI_COLOR_SPACE_RESERVED:4
 
 Reserved.
 
-### -field DXGI_COLOR_SPACE_YCBCR_FULL_G22_NONE_P709_X601
+### -field DXGI_COLOR_SPACE_YCBCR_FULL_G22_NONE_P709_X601:5
 
 <table>
 <tr>
@@ -200,27 +200,27 @@ Reserved.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCbCr</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>0-255</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Image</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.709</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Transfer Matrix</a></td>
+<td>Transfer Matrix</td>
 <td>BT.601</td>
 </tr>
 </table>
@@ -228,7 +228,7 @@ Reserved.
 
 This definition is commonly used for JPG, and is usually used with 8, 10, or 12 bit color channels.
 
-### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_LEFT_P601
+### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_LEFT_P601:6
 
 <table>
 <tr>
@@ -236,23 +236,23 @@ This definition is commonly used for JPG, and is usually used with 8, 10, or 12 
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCbCr</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.601</td>
 </tr>
 </table>
@@ -260,7 +260,7 @@ This definition is commonly used for JPG, and is usually used with 8, 10, or 12 
 
 This definition is commonly used for MPEG2, and  is usually used with 8, 10, or 12 bit color channels.
 
-### -field DXGI_COLOR_SPACE_YCBCR_FULL_G22_LEFT_P601
+### -field DXGI_COLOR_SPACE_YCBCR_FULL_G22_LEFT_P601:7
 
 <table>
 <tr>
@@ -268,23 +268,23 @@ This definition is commonly used for MPEG2, and  is usually used with 8, 10, or 
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCbCr</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>0-255</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.601</td>
 </tr>
 </table>
@@ -292,7 +292,7 @@ This definition is commonly used for MPEG2, and  is usually used with 8, 10, or 
 
 This is sometimes used for H.264 camera capture, and is usually used with 8, 10, or 12 bit color channels.
 
-### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_LEFT_P709
+### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_LEFT_P709:8
 
 <table>
 <tr>
@@ -300,23 +300,23 @@ This is sometimes used for H.264 camera capture, and is usually used with 8, 10,
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCbCr</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.709</td>
 </tr>
 </table>
@@ -324,7 +324,7 @@ This is sometimes used for H.264 camera capture, and is usually used with 8, 10,
 
 This definition is commonly used for H.264 and HEVC, and is usually used with 8, 10, or 12 bit color channels.
 
-### -field DXGI_COLOR_SPACE_YCBCR_FULL_G22_LEFT_P709
+### -field DXGI_COLOR_SPACE_YCBCR_FULL_G22_LEFT_P709:9
 
 <table>
 <tr>
@@ -332,23 +332,23 @@ This definition is commonly used for H.264 and HEVC, and is usually used with 8,
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCbCr</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>0-255</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.709</td>
 </tr>
 </table>
@@ -356,7 +356,7 @@ This definition is commonly used for H.264 and HEVC, and is usually used with 8,
 
 This is sometimes used for H.264 camera capture, and is usually used with 8, 10, or 12 bit color channels.
 
-### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_LEFT_P2020
+### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_LEFT_P2020:10
 
 <table>
 <tr>
@@ -364,23 +364,23 @@ This is sometimes used for H.264 camera capture, and is usually used with 8, 10,
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCbCr</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -388,7 +388,7 @@ This is sometimes used for H.264 camera capture, and is usually used with 8, 10,
 
 This definition may be used by HEVC, and is usually used with 10 or 12 bit color channels.
 
-### -field DXGI_COLOR_SPACE_YCBCR_FULL_G22_LEFT_P2020
+### -field DXGI_COLOR_SPACE_YCBCR_FULL_G22_LEFT_P2020:11
 
 <table>
 <tr>
@@ -396,23 +396,23 @@ This definition may be used by HEVC, and is usually used with 10 or 12 bit color
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCbCr</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>0-255</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -420,7 +420,7 @@ This definition may be used by HEVC, and is usually used with 10 or 12 bit color
 
 This is usually used with 10 or 12 bit color channels.
 
-### -field DXGI_COLOR_SPACE_RGB_FULL_G2084_NONE_P2020
+### -field DXGI_COLOR_SPACE_RGB_FULL_G2084_NONE_P2020:12
 
 <table>
 <tr>
@@ -428,23 +428,23 @@ This is usually used with 10 or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>RGB</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>0-255</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2084</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Image</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -452,7 +452,7 @@ This is usually used with 10 or 12 bit color channels.
 
 This is usually used with 10 or 12 bit color channels.
 
-### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G2084_LEFT_P2020
+### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G2084_LEFT_P2020:13
 
 <table>
 <tr>
@@ -460,23 +460,23 @@ This is usually used with 10 or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCbCr</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2084</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -484,7 +484,7 @@ This is usually used with 10 or 12 bit color channels.
 
 This is usually used with 10 or 12 bit color channels.
 
-### -field DXGI_COLOR_SPACE_RGB_STUDIO_G2084_NONE_P2020
+### -field DXGI_COLOR_SPACE_RGB_STUDIO_G2084_NONE_P2020:14
 
 <table>
 <tr>
@@ -492,23 +492,23 @@ This is usually used with 10 or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>RGB</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2084</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Image</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -516,7 +516,7 @@ This is usually used with 10 or 12 bit color channels.
 
 This is usually used with 10 or 12 bit color channels.
 
-### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_TOPLEFT_P2020
+### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_TOPLEFT_P2020:15
 
 <table>
 <tr>
@@ -524,23 +524,23 @@ This is usually used with 10 or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCbCr</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -548,7 +548,7 @@ This is usually used with 10 or 12 bit color channels.
 
 This is usually used with 10 or 12 bit color channels.
 
-### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G2084_TOPLEFT_P2020
+### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G2084_TOPLEFT_P2020:16
 
 <table>
 <tr>
@@ -556,23 +556,23 @@ This is usually used with 10 or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCbCr</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2084</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -580,7 +580,7 @@ This is usually used with 10 or 12 bit color channels.
 
 This is usually used with 10 or 12 bit color channels.
 
-### -field DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P2020
+### -field DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P2020:17
 
 <table>
 <tr>
@@ -588,23 +588,23 @@ This is usually used with 10 or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>RGB</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>0-255</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Image</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -612,7 +612,7 @@ This is usually used with 10 or 12 bit color channels.
 
 This is usually used with 10 or 12 bit color channels.
 
-### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_GHLG_TOPLEFT_P2020
+### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_GHLG_TOPLEFT_P2020:18
 
 <table>
 <tr>
@@ -620,23 +620,23 @@ This is usually used with 10 or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCBCR</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>HLG</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -644,7 +644,7 @@ This is usually used with 10 or 12 bit color channels.
 
 This is usually used with 10 or 12 bit color channels.
 
-### -field DXGI_COLOR_SPACE_YCBCR_FULL_GHLG_TOPLEFT_P2020
+### -field DXGI_COLOR_SPACE_YCBCR_FULL_GHLG_TOPLEFT_P2020:19
 
 <table>
 <tr>
@@ -652,23 +652,23 @@ This is usually used with 10 or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCBCR</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>0-255</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>HLG</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -676,7 +676,7 @@ This is usually used with 10 or 12 bit color channels.
 
 This is usually used with 10 or 12 bit color channels.
 
-### -field DXGI_COLOR_SPACE_RGB_STUDIO_G24_NONE_P709
+### -field DXGI_COLOR_SPACE_RGB_STUDIO_G24_NONE_P709:20
 
 <table>
 <tr>
@@ -684,23 +684,23 @@ This is usually used with 10 or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>RGB</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.4</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Image</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.709</td>
 </tr>
 </table>
@@ -708,7 +708,7 @@ This is usually used with 10 or 12 bit color channels.
 
 This is usually used with 8, 10, or 12 bit color channels.
 
-### -field DXGI_COLOR_SPACE_RGB_STUDIO_G24_NONE_P2020
+### -field DXGI_COLOR_SPACE_RGB_STUDIO_G24_NONE_P2020:21
 
 <table>
 <tr>
@@ -716,23 +716,23 @@ This is usually used with 8, 10, or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>RGB</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.4</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Image</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -740,7 +740,7 @@ This is usually used with 8, 10, or 12 bit color channels.
 
 This is usually used with 10 or 12 bit color channels.
 
-### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G24_LEFT_P709
+### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G24_LEFT_P709:22
 
 <table>
 <tr>
@@ -748,23 +748,23 @@ This is usually used with 10 or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCBCR</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.4</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.709</td>
 </tr>
 </table>
@@ -772,7 +772,7 @@ This is usually used with 10 or 12 bit color channels.
 
 This is usually used with 8, 10, or 12 bit color channels.
 
-### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G24_LEFT_P2020
+### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G24_LEFT_P2020:23
 
 <table>
 <tr>
@@ -780,23 +780,23 @@ This is usually used with 8, 10, or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCBCR</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.4</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -804,7 +804,7 @@ This is usually used with 8, 10, or 12 bit color channels.
 
 This is usually used with 10 or 12 bit color channels.
 
-### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G24_TOPLEFT_P2020
+### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G24_TOPLEFT_P2020:24
 
 <table>
 <tr>
@@ -812,23 +812,23 @@ This is usually used with 10 or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCBCR</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.4</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -836,7 +836,7 @@ This is usually used with 10 or 12 bit color channels.
 
 This is usually used with 10 or 12 bit color channels.
 
-### -field DXGI_COLOR_SPACE_CUSTOM
+### -field DXGI_COLOR_SPACE_CUSTOM:0xFFFFFFFF
 
 A custom color definition is used.
 

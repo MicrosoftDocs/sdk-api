@@ -55,23 +55,23 @@ Defines the notifications that are generated for a registry key.
 
 ## -enum-fields
 
-### -field CLUSTER_CHANGE_REGISTRY_ATTRIBUTES_V2
+### -field CLUSTER_CHANGE_REGISTRY_ATTRIBUTES_V2:0x00000001
 
 Indicates that the registry attributes changed.
 
-### -field CLUSTER_CHANGE_REGISTRY_NAME_V2
+### -field CLUSTER_CHANGE_REGISTRY_NAME_V2:0x00000002
 
 Indicates that the registry key name has changed.
 
-### -field CLUSTER_CHANGE_REGISTRY_SUBTREE_V2
+### -field CLUSTER_CHANGE_REGISTRY_SUBTREE_V2:0x00000004
 
 Indicates that the registry subtree has changed.
 
-### -field CLUSTER_CHANGE_REGISTRY_VALUE_V2
+### -field CLUSTER_CHANGE_REGISTRY_VALUE_V2:0x00000008
 
 Indicates that the registry value has changed.
 
-### -field CLUSTER_CHANGE_REGISTRY_HANDLE_CLOSE_V2
+### -field CLUSTER_CHANGE_REGISTRY_HANDLE_CLOSE_V2:0x00000010
 
 Indicates that the registry's context handle was closed.
 

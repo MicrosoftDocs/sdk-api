@@ -61,7 +61,7 @@ Describes the format for an entry in an event notification list.
 ### -field Change
 
 Describes a change event. This value is taken from the 
-       <a href="/windows/desktop/api/clusapi/ne-clusapi-fileshare_change_enum">FILESHARE_CHANGE_ENUM</a>enumeration. The following 
+       <a href="/windows/desktop/api/clusapi/ne-clusapi-fileshare_change_enum">FILESHARE_CHANGE_ENUM</a> enumeration. The following 
        are the possible values for this member.
 
 

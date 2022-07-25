@@ -65,5 +65,4 @@ Indicates reflection mode for padding.
 
 ## -see-also
 
-[DML_PADDING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_padding_operator_desc)
-
+* [DML_PADDING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_padding_operator_desc)

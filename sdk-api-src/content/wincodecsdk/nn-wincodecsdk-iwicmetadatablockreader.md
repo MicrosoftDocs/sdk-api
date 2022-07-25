@@ -54,56 +54,7 @@ Exposes methods that provide access to all of the codec's top level metadata blo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataBlockReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICMetadataBlockReader</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWICMetadataBlockReader</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatablockreader-getcontainerformat">GetContainerFormat</a>
-</td>
-<td align="left" width="63%">
-Retrieves the container format of the decoder.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatablockreader-getcount">GetCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of top level metadata blocks.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatablockreader-getenumerator">GetEnumerator</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumeration of each of the top level metadata blocks.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatablockreader-getreaderbyindex">GetReaderByIndex</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatareader">IWICMetadataReader</a> for a specified top level metadata block, providing access to the embedded metadata blocks.
-
-</td>
-</tr>
-</table>
+The <b>IWICMetadataBlockReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICMetadataBlockReader</b> also has these types of members:
 
 ## -remarks
 

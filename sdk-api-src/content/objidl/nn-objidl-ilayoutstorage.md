@@ -57,45 +57,5 @@ To optimize a compound file, an application  calls <a href="/windows/desktop/api
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILayoutStorage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILayoutStorage</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ILayoutStorage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILayoutStorage</b> also has these types of members:
 
-## -members
-
-The <b>ILayoutStorage</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-beginmonitor">BeginMonitor</a>
-</td>
-<td align="left" width="63%">
-Monitors data access to a file.</p> (Inherited from <b>ILayoutStorage</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-endmonitor">EndMonitor</a>
-</td>
-<td align="left" width="63%">
-Ends monitoring of data access.</p> (Inherited from <b>ILayoutStorage</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-layoutscript">LayoutScript</a>
-</td>
-<td align="left" width="63%">
-Provides explicit layout instructions.</p> (Inherited from <b>ILayoutStorage</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-relayoutdocfile">ReLayoutDocfile</a>
-</td>
-<td align="left" width="63%">
-Rewrites file using layout information.</p> (Inherited from <b>ILayoutStorage</b>)</td>
-</tr>
-</table>

@@ -114,10 +114,14 @@ When
 
 The following shows the syntax if calling this function from Visual Basic.
 
-<pre class="syntax" xml:space="preserve"><code>PdhCollectQueryData(
+
+``` syntax
+PdhCollectQueryData(
   ByVal QueryHandle as Long  
 )
-as Long</code></pre>
+as Long
+```
+
 
 
 

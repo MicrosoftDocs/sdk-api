@@ -27,7 +27,10 @@
     "ktmtypes.h",
     "lmshare.h",
     "lmstats.h",
-    "wow64apiset.h"
+    "wow64apiset.h",
+    "fileapifromapp.h",
+    "ioringapi.h",
+    "ntioring_x.h"
   ],
   "displayName": "Data Access and Storage"
 }

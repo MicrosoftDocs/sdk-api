@@ -54,15 +54,15 @@ The <b>WMT_CODEC_INFO_TYPE</b> enumeration type defines the broad categories of 
 
 ## -enum-fields
 
-### -field WMT_CODECINFO_AUDIO
+### -field WMT_CODECINFO_AUDIO:0
 
 Audio codec.
 
-### -field WMT_CODECINFO_VIDEO
+### -field WMT_CODECINFO_VIDEO:1
 
 Video codec.
 
-### -field WMT_CODECINFO_UNKNOWN
+### -field WMT_CODECINFO_UNKNOWN:0xffffffff
 
 Codec of an unknown type.
 

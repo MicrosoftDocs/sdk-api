@@ -75,7 +75,7 @@ If <b>WBEM_S_NO_ERROR</b> returns in the HRESULT to this method, this parameter 
 
 ## -returns
 
-This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained withinan <b>HRESULT</b>.
+This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
 ## -remarks
 

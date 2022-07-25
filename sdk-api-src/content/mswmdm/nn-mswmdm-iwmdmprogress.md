@@ -56,47 +56,7 @@ These methods do not provide a way for the application to know which operation i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMProgress</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMProgress</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWMDMProgress</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-begin">Begin</a>
-</td>
-<td align="left" width="63%">
-Indicates that an operation is beginning. An estimate of the duration of the operation is provided when possible.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-end">End</a>
-</td>
-<td align="left" width="63%">
-Indicates that an operation is finished.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-progress">Progress</a>
-</td>
-<td align="left" width="63%">
-Indicates that an operation is still in progress.
-
-</td>
-</tr>
-</table>
+The <b>IWMDMProgress</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMProgress</b> also has these types of members:
 
 ## -see-also
 

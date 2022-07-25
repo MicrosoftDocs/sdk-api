@@ -57,38 +57,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITTerminalManager2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITTerminalManager2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITTerminalManager2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/termmgr/nf-termmgr-itterminalmanager2-getpluggablesuperclasses">GetPluggableSuperclasses</a>
-</td>
-<td align="left" width="63%">
-Gets the public CLSIDs for all pluggable terminal superclasses in the registry.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/termmgr/nf-termmgr-itterminalmanager2-getpluggableterminalclasses">GetPluggableTerminalClasses</a>
-</td>
-<td align="left" width="63%">
-Gets the terminal classes for all pluggable terminals registered under a terminal superclass.
-
-</td>
-</tr>
-</table>
+The <b>ITTerminalManager2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITTerminalManager2</b> also has these types of members:
 
 ## -see-also
 

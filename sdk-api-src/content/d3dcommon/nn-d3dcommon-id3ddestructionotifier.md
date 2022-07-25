@@ -1,7 +1,7 @@
 ---
 UID: NN:d3dcommon.ID3DDestructionNotifier
 title: ID3DDestructionNotifier (d3dcommon.h)
-description: **ID3DDestructionNotifier** is an interface that you can use to register for callbacks when a Direct3D nano-COM object is destroyed.
+description: "**ID3DDestructionNotifier** is an interface that you can use to register for callbacks when a Direct3D nano-COM object is destroyed."
 helpviewer_keywords: ["ID3DDestructionNotifier","ID3DDestructionNotifier interface [Direct3D]","ID3DDestructionNotifier interface [Direct3D]","described","d3dcommon/ID3DDestructionNotifier","direct3d.id3ddestructionnotifier"]
 tech.root: direct3d11
 ms.date: 10/06/2020

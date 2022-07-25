@@ -54,62 +54,10 @@ Describes a geometric path that can contain lines, arcs, cubic Bezier curves, an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1GeometrySink</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>. <b>ID2D1GeometrySink</b> also has these types of members:
+The <b>ID2D1GeometrySink</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>. <b>ID2D1GeometrySink</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ID2D1GeometrySink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-addarc">AddArc</a>
-</td>
-<td align="left" width="63%">Overloaded. Creates a single arc and adds it to the path geometry.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-addbezier">AddBezier</a>
-</td>
-<td align="left" width="63%">Overloaded. Creates  a cubic Bezier curve between the current point and the specified end point and adds it to the geometry sink.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1geometrysink-addline">AddLine</a>
-</td>
-<td align="left" width="63%">
-Creates a line segment between the current point and the specified end point and adds it to the geometry sink. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-addquadraticbezier">AddQuadraticBezier</a>
-</td>
-<td align="left" width="63%">Overloaded. Creates  a quadratic Bezier curve between the current point and the specified end point and adds it to the geometry sink.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1geometrysink-addquadraticbeziers">AddQuadraticBeziers</a>
-</td>
-<td align="left" width="63%">
-Adds a sequence of quadratic Bezier segments as an array in a single call.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

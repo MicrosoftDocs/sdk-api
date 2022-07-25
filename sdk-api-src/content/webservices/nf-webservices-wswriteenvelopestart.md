@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsWriteEnvelopeStart
 title: WsWriteEnvelopeStart function (webservices.h)
-description: Writes the start of the message including the current set of headers of the message and prepares to write the body elementss.
+description: Writes the start of the message including the current set of headers of the message and prepares to write the body elements.
 helpviewer_keywords: ["WsWriteEnvelopeStart","WsWriteEnvelopeStart function [Web Services for Windows]","webservices/WsWriteEnvelopeStart","wsw.wswriteenvelopestart"]
 old-location: wsw\wswriteenvelopestart.htm
 tech.root: wsw
@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-Writes the start of the message including the current set of headers of the message and prepares to write the body elementss.
-            This function is designed  for writing messages to destinations other than channels.  To write
-                a message to a channel use <a href="/windows/desktop/api/webservices/nf-webservices-wswritemessagestart">WsWriteMessageStart</a>.
+Writes the start of the message including the current set of headers of the message and prepares to write the body elements.
+
+This function is designed  for writing messages to destinations other than channels.  To write a message to a channel use <a href="/windows/desktop/api/webservices/nf-webservices-wswritemessagestart">WsWriteMessageStart</a>.
 
 ## -parameters
 
@@ -62,25 +62,18 @@ A pointer to the <b>Message</b> object to write.  The pointer must reference a v
 
 ### -param writer [in]
 
-A pointer to the <b>XML Writer</b> object to write the Message.  The Message object uses the Writer in subsequent
-                    calls to write the message.  The caller must keep the writer valid until <a href="/windows/desktop/api/webservices/nf-webservices-wsresetmessage">WsResetMessage</a> 
-                    or <a href="/windows/desktop/api/webservices/nf-webservices-wsfreemessage">WsFreeMessage</a> is called.
+A pointer to the <b>XML Writer</b> object to write the Message.  The Message object uses the Writer in subsequent calls to write the message.  The caller must keep the writer valid until <a href="/windows/desktop/api/webservices/nf-webservices-wsresetmessage">WsResetMessage</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsfreemessage">WsFreeMessage</a> is called.
                 
-                    The <a href="/windows/desktop/api/webservices/nc-webservices-ws_message_done_callback">WS_MESSAGE_DONE_CALLBACK</a> parameter can be used to determine that the <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> is no longer in use.
+The <a href="/windows/desktop/api/webservices/nc-webservices-ws_message_done_callback">WS_MESSAGE_DONE_CALLBACK</a> parameter can be used to determine that the <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> is no longer in use.
 
 ### -param doneCallback [in, optional]
 
-The callback function invoked when the Message is
-                    released or reset.  This callback 
-                    can be used to indicate that the <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object is no longer
-                    in use by this message.  If this function fails the callback is not called.
-                    If the function succeeds the callback is invoked one time only.
+The callback function invoked when the Message is released or reset. This callback can be used to indicate that the <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object is no longer
+ in use by this message. If this function fails the callback is not called. If the function succeeds the callback is invoked one time only.
 
 ### -param doneCallbackState [in, optional]
 
-A void pointer to a user-defined state that will be passed
-                    to the specified callback.
-                    This parameter may be <b>NULL</b>.
+A void pointer to a user-defined state that will be passed to the specified callback. This parameter may be <b>NULL</b>.
 
 ### -param error [in, optional]
 

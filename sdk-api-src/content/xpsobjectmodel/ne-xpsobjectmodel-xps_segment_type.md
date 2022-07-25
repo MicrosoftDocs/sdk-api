@@ -56,7 +56,7 @@ Describes a line segment.
 
 ## -enum-fields
 
-### -field XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE
+### -field XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE:1
 
 The line segment is an arc that covers more than 180 degrees and is drawn in a clockwise direction from the start point to the end point.
 

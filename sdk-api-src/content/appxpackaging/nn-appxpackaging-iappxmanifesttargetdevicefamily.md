@@ -54,44 +54,5 @@ Retrieves information about the target device family from the AppxManifest.xml.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestTargetDeviceFamily</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestTargetDeviceFamily</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppxManifestTargetDeviceFamily</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestTargetDeviceFamily</b> also has these types of members:
 
-## -members
-
-The <b>IAppxManifestTargetDeviceFamily</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifesttargetdevicefamily-getmaxversiontested">GetMaxVersionTested</a>
-</td>
-<td align="left" width="63%">
-Gets the maximum version tested from the AppxManifest.xml.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifesttargetdevicefamily-getminversion">GetMinVersion</a>
-</td>
-<td align="left" width="63%">
-Gets the minimum version of the target device family from the AppxManifest.xml.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifesttargetdevicefamily-getname">GetName</a>
-</td>
-<td align="left" width="63%">
-Gets the name of the target device family from the AppxManifest.xml..
-
-</td>
-</tr>
-</table>

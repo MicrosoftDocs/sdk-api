@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::SetConfig </b>method creates or redefines configuration information about a joystick.
+The <b>IDirectInputJoyConfig8::SetConfig </b> method creates or redefines configuration information about a joystick.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Indicates a zero-based joystick identification number.
 
-### -param arg2
+### -param unnamedParam2
 
 Contains information about the joystick.
 
-### -param arg3
+### -param unnamedParam3
 
 Specifies the parts of the <a href="/windows/desktop/api/dinputd/ns-dinputd-dijoyconfig">DIJOYCONFIG</a> structure pointed to by <i>pcfg</i> that contain information to be set. There may be zero, one, or more of the following: 
 

@@ -54,10 +54,10 @@ The type of <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_read
 
 ## -enum-fields
 
-### -field WS_XML_READER_ENCODING_TYPE_TEXT
+### -field WS_XML_READER_ENCODING_TYPE_TEXT:1
 
-### -field WS_XML_READER_ENCODING_TYPE_BINARY
+### -field WS_XML_READER_ENCODING_TYPE_BINARY:2
 
-### -field WS_XML_READER_ENCODING_TYPE_MTOM
+### -field WS_XML_READER_ENCODING_TYPE_MTOM:3
 
-### -field WS_XML_READER_ENCODING_TYPE_RAW
+### -field WS_XML_READER_ENCODING_TYPE_RAW:4

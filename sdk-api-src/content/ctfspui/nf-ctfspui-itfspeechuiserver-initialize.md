@@ -52,7 +52,7 @@ api_name:
 
 Initializes the speech-related user interface elements on the TSF language bar.
 
-## -parameters
+
 
 ## -returns
 

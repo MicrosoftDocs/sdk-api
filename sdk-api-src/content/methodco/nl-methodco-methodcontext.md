@@ -58,16 +58,13 @@ api_name:
 
 The <b>MethodContext</b> class is the pointer to a structure used in a provider to get or set <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> information. WMI does not implement any functionality based on the pointer.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">MethodContext</b> has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul><h3><a id="methods"></a>Methods</h3>The <b>MethodContext</b> class has these methods.
+<b>MethodContext</b> has these types of members:
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/methodco/nf-methodco-methodcontext-getstatusobject">GetStatusObject</a>
 </td>
@@ -76,7 +73,7 @@ Gets an internal pointer to <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwb
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/methodco/nf-methodco-methodcontext-setstatusobject">SetStatusObject</a>
 </td>

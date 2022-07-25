@@ -54,47 +54,7 @@ Exposes methods that request that the protocol start and stop listening for clie
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsProtocolListener</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsProtocolListener</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWRdsProtocolListener</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollistener-getsettings">GetSettings</a>
-</td>
-<td align="left" width="63%">
-Gets the listener setting information for client connection requests.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollistener-startlisten">StartListen</a>
-</td>
-<td align="left" width="63%">
-Notifies the protocol to start listening for client connection requests.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollistener-stoplisten">StopListen</a>
-</td>
-<td align="left" width="63%">
-Notifies the protocol to stop listening for client connection requests.
-
-</td>
-</tr>
-</table>
+The <b>IWRdsProtocolListener</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsProtocolListener</b> also has these types of members:
 
 ## -remarks
 

@@ -3,12 +3,10 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticReport
 title: DdqGetDiagnosticReport
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticReport
-ms.topic: language-reference
 description: Fetches error reports uploaded or enqueued for upload from this PC via HDIAGNOSTIC_REPORT_DATA handle.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -31,7 +29,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - diagnosticdataquery.h
 api_name:
@@ -69,7 +66,7 @@ Returns S_OK on successful completion.
 
 ## -remarks
 
-For report store types, see the [**WER APIs**]("/windows/win32/api/werapi/nf-werapi-werstoreopen").
+For report store types, see the [**WER APIs**](/windows/win32/api/werapi/nf-werapi-werstoreopen).
 
 ## -see-also
 

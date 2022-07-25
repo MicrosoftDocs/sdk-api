@@ -55,65 +55,7 @@ Applications use the methods of the IDirect3DCubeTexture9 interface to manipulat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DCubeTexture9</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a>. <b>IDirect3DCubeTexture9</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDirect3DCubeTexture9</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-adddirtyrect">AddDirtyRect</a>
-</td>
-<td align="left" width="63%">
-Adds a dirty region to a cube texture resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-getcubemapsurface">GetCubeMapSurface</a>
-</td>
-<td align="left" width="63%">
-Retrieves a cube texture map surface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-getleveldesc">GetLevelDesc</a>
-</td>
-<td align="left" width="63%">
-Retrieves a description of one face of the specified cube texture level.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-lockrect">LockRect</a>
-</td>
-<td align="left" width="63%">
-Locks a rectangle on a cube texture resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-unlockrect">UnlockRect</a>
-</td>
-<td align="left" width="63%">
-Unlocks a rectangle on a cube texture resource.
-
-</td>
-</tr>
-</table>
+The <b>IDirect3DCubeTexture9</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a>. <b>IDirect3DCubeTexture9</b> also has these types of members:
 
 ## -remarks
 

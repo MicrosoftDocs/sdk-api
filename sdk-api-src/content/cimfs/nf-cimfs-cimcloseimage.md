@@ -2,10 +2,9 @@
 UID: NF:cimfs.CimCloseImage
 title: CimCloseImage
 ms.date: 9/9/2019
+tech.root: cimfs
 ms.keywords: CimCloseImage
-ms.topic: language-reference
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -28,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - cimfs.h
 api_name:
@@ -55,4 +53,3 @@ An opaque handle that represents a writer for the image. This handle is created 
 If the image handle is closed before it is committed, any modifications performed on the image using the image handle are discarded. If a stream handle exists for the image, the image resources will not be freed until the stream handle is closed.
 
 ## -see-also
-

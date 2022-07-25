@@ -54,74 +54,10 @@ The <b>IMpeg2TableFilter</b> interface controls which tables are parsed by the <
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMpeg2TableFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMpeg2TableFilter</b> also has these types of members:
+The <b>IMpeg2TableFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMpeg2TableFilter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMpeg2TableFilter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2tablefilter-addextension">AddExtension</a>
-</td>
-<td align="left" width="63%">
-Adds a table extension to the list of MPEG-2 table sections that the filter sends.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2tablefilter-addpid">AddPID</a>
-</td>
-<td align="left" width="63%">
-Adds a packet identifier (PID) to the list of PIDs that the filter sends.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2tablefilter-addtable">AddTable</a>
-</td>
-<td align="left" width="63%">
-Adds a table identifier (TID) to the list of MPEG-2 table sections that the filter sends.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2tablefilter-removeextension">RemoveExtension</a>
-</td>
-<td align="left" width="63%">
-Removes a table extension from the list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2tablefilter-removepid">RemovePID</a>
-</td>
-<td align="left" width="63%">
-Removes a PID from the list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2tablefilter-removetable">RemoveTable</a>
-</td>
-<td align="left" width="63%">
-Removes a TID from the list.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

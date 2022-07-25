@@ -167,7 +167,7 @@ A drive can contribute extents to any number of LUNs, and these LUNs can be unma
     the extents of a LUN plex.
 
 The <b>LunId</b> member of each 
-     <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_extent">VDS_DRIVE_EXTENT</a>structure specifies the GUID for the LUN to which each allocated extent contributes. Consequently, you can use 
+     <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_extent">VDS_DRIVE_EXTENT</a> structure specifies the GUID for the LUN to which each allocated extent contributes. Consequently, you can use 
      the result of this method to determine the number of LUNs to which the drive contributes by counting the number 
      of distinct <b>LunId</b> values returned in <i>ppExtentArray</i>.
 

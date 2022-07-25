@@ -58,9 +58,7 @@ Sets the priority comparison handler that determines whether  a scheduled storyb
 
 The priority comparison handler for cancelation.  
                
-               The specified object must implement the
-               <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationprioritycomparison2">IUIAnimationPriorityComparison2</a> interface or be <b>NULL</b>.
-            See Remarks for more info.
+The specified object must implement the <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationprioritycomparison2">IUIAnimationPriorityComparison2</a> interface or be <b>NULL</b>. See Remarks for more info.
 
 ## -returns
 
@@ -68,8 +66,7 @@ Returns <b>S_OK</b> if successful; otherwise an <b>HRESULT</b> error code. See <
 
 ## -remarks
 
-Setting a priority comparison handler with this method
-         enables the application to indicate when scheduling conflicts can be resolved by canceling storyboards.
+Setting a priority comparison handler with this method enables the application to indicate when scheduling conflicts can be resolved by canceling storyboards.
 
 A scheduled storyboard can be canceled only if it hasn't started playing and the priority comparison object registered with this method returns <b>S_OK</b>. Canceled storyboards are completely removed from the schedule.
 

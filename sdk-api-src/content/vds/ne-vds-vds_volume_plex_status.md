@@ -58,25 +58,25 @@ Defines the set of object status values for a volume plex.
 
 ## -enum-fields
 
-### -field VDS_VPS_UNKNOWN
+### -field VDS_VPS_UNKNOWN:0
 
 This value is reserved.
 
-### -field VDS_VPS_ONLINE
+### -field VDS_VPS_ONLINE:1
 
 The volume plex is available.
 
-### -field VDS_VPS_NO_MEDIA
+### -field VDS_VPS_NO_MEDIA:3
 
 The volume plex has no media.
 
-### -field VDS_VPS_FAILED
+### -field VDS_VPS_FAILED:5
 
 The volume plex is unavailable.
 
 ## -remarks
 
-The  <a href="/windows/desktop/api/vds/ns-vds-vds_volume_plex_prop">VDS_VOLUME_PLEX_PROP</a>structure includes a <b>VDS_VOLUME_PLEX_STATUS</b> value as a member to indicate the status of a volume plex.
+The  <a href="/windows/desktop/api/vds/ns-vds-vds_volume_plex_prop">VDS_VOLUME_PLEX_PROP</a> structure includes a <b>VDS_VOLUME_PLEX_STATUS</b> value as a member to indicate the status of a volume plex.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_VOLUME_PLEX_STATUS</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_VOLUME_PLEX_STATUS</b> enumeration constant.</div>
 <div> </div>

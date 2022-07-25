@@ -55,13 +55,13 @@ Determines which resource monitor a given resource will be assigned to.
 
 ## -enum-fields
 
-### -field CLUSTER_RESOURCE_DEFAULT_MONITOR
+### -field CLUSTER_RESOURCE_DEFAULT_MONITOR:0
 
 The <a href="/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a> determines the 
       <a href="/previous-versions/windows/desktop/mscs/resource-monitor">Resource Monitor</a> to which the new resource will be 
       assigned.
 
-### -field CLUSTER_RESOURCE_SEPARATE_MONITOR
+### -field CLUSTER_RESOURCE_SEPARATE_MONITOR:1
 
 Causes the Cluster service to create a separate Resource Monitor dedicated exclusively to the new 
       resource.

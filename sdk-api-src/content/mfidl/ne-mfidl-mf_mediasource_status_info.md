@@ -54,11 +54,11 @@ Specifies the status of a media source.
 
 ## -enum-fields
 
-### -field MF_MEDIASOURCE_STATUS_INFO_FULLYSUPPORTED
+### -field MF_MEDIASOURCE_STATUS_INFO_FULLYSUPPORTED:0
 
 The media source is fully supported.
 
-### -field MF_MEDIASOURCE_STATUS_INFO_UNKNOWN
+### -field MF_MEDIASOURCE_STATUS_INFO_UNKNOWN:1
 
 The status is unknown.
 

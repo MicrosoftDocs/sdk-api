@@ -45,9 +45,6 @@ api_name:
  - IDMLPageable
 ---
 
-# IDMLPageable interface
-
-
 ## -description
 
 Implemented by objects that can be evicted from GPU memory, and hence that can be supplied to [IDMLDevice::Evict](/windows/win32/api/directml/nf-directml-idmldevice-evict) and [IDMLDevice::MakeResident](/windows/win32/api/directml/nf-directml-idmldevice-makeresident). The **IDMLOperator** interface inherits from [IDMLDeviceChild](/windows/win32/api/directml/nn-directml-idmldevicechild).
@@ -55,4 +52,3 @@ Implemented by objects that can be evicted from GPU memory, and hence that can b
 ## -see-also
 
 [IDMLDeviceChild](/windows/win32/api/directml/nn-directml-idmldevicechild)
-

@@ -64,7 +64,7 @@ A reference to the <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID<
 
 Type: <b>HWND</b>
 
-The handle of the parent window used to display copy engine progress UI dialogs when <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_kf_redirect_flags">KF_REDIRECT_WITH_UI</a> i passed in the <i>flags</i> parameter. If no progress dialog is needed, this value can be <b>NULL</b>.
+The handle of the parent window used to display copy engine progress UI dialogs when <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_kf_redirect_flags">KF_REDIRECT_WITH_UI</a> is passed in the <i>flags</i> parameter. If no progress dialog is needed, this value can be <b>NULL</b>.
 
 ### -param flags [in]
 

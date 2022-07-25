@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[This function is retained only for backward compatibility. Use <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a> instead.]
+<p class="CCE_Message">[This function is retained only for backward compatibility. Use <a href="/windows/win32/api/processenv/nf-processenv-expandenvironmentstringsa">ExpandEnvironmentStrings</a> instead.]
 
 Parses an input string that contains references to one or more environment variables and replaces them with their fully expanded values.
 
@@ -66,7 +66,11 @@ A pointer to a null-terminated string that contains references to one or more en
     					
                         
 
-<pre class="syntax" xml:space="preserve"><code>%VariableName%</code></pre>
+
+``` syntax
+%VariableName%
+```
+
 Any character in the string that is not enclosed in '%' characters is ignored and returned unchanged. Therefore, if your string contains multiple environment variables, you can use any character other than '%' as a separator, including spaces or no separator.
 
 When this function returns successfully, each %<i>VariableName</i>% is replaced with its expanded value. The replacement rules are the same as those used by the command interpreter. If the variable name is not found on the system, the %<i>variableName</i>% is left as it was submitted on entry.
@@ -127,7 +131,7 @@ The following are only available to interactive applications.
 <li>USERDOMAIN</li>
 <li>USERNAME</li>
 </ul>
-The environment variables that correspond to file system folders can be mapped to an equivalent <a href="/windows/desktop/shell/csidl">CSIDL</a> or <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>value can be obtained through <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation">SHGetFolderLocation</a> or <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a>. CSIDLs and KNOWNFOLDERIDs are more reliable than environment variable names and should be used whenever possible.
+The environment variables that correspond to file system folders can be mapped to an equivalent <a href="/windows/desktop/shell/csidl">CSIDL</a> or <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> value can be obtained through <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation">SHGetFolderLocation</a> or <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a>. CSIDLs and KNOWNFOLDERIDs are more reliable than environment variable names and should be used whenever possible.
 
 
 #### Examples

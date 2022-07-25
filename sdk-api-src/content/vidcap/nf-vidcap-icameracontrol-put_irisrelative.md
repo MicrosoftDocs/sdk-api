@@ -71,7 +71,7 @@ Specifies the relative aperture setting. To get the range of possible values, ca
 <td>Set the default aperture setting, which is implementation dependent.</td>
 </tr>
 <tr>
-<td>Postive value</td>
+<td>Positive value</td>
 <td>Open the iris one step.</td>
 </tr>
 <tr>

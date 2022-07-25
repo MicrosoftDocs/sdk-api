@@ -60,58 +60,10 @@ An <b>IWMDRMWriter</b> interface exists for every writer object. You can obtain 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDRMWriter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDRMWriter</b> also has these types of members:
+The <b>IWMDRMWriter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDRMWriter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMDRMWriter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmwriter-generatekeyid">GenerateKeyID</a>
-</td>
-<td align="left" width="63%">
-Generates a DRM <a href="/windows/desktop/wmformat/wmformat-glossary">key ID</a> that will be used in conjunction with a key seed to encrypt and decrypt files.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmwriter-generatekeyseed">GenerateKeySeed</a>
-</td>
-<td align="left" width="63%">
-Generates a DRM key seed that will be used in conjunction with a key ID to create protected files.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmwriter-generatesigningkeypair">GenerateSigningKeyPair</a>
-</td>
-<td align="left" width="63%">
-Generates a public and a private key that will be used to sign the ASF header object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute">SetDRMAttribute</a>
-</td>
-<td align="left" width="63%">
-Sets DRM header attributes as well as other DRM run-time properties.
-
-</td>
-</tr>
-</table> 
-
-For information on other interfaces that can be obtained by using the QueryInterface method of this interface, see <a href="/windows/desktop/wmformat/writer-object">Writer Object</a>.
 
 ## -see-also
 

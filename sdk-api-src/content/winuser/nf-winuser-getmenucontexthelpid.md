@@ -54,7 +54,7 @@ Retrieves the Help context identifier associated with the specified menu.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Type: <b>HMENU</b>
 

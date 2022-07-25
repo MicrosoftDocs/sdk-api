@@ -65,10 +65,18 @@ This property is read/write.
 
 The following is an example of a proper path for  <b>ResourceURI</b>.
 
-<pre class="syntax" xml:space="preserve"><code>"http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service"</code></pre>
+
+``` syntax
+"http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service"
+```
+
 The following path does not work because it  contains a key for a specific instance. Use the <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanresourcelocator-addselector">IWSManResourceLocator::AddSelector</a> method to specify a particular instance.
 
-<pre class="syntax" xml:space="preserve"><code>"http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=winmgmt"</code></pre>
+
+``` syntax
+"http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=winmgmt"
+```
+
 The corresponding scripting method is <a href="/windows/desktop/WinRM/resourcelocator-resourceuri">ResourceLocator.ResourceURI</a>.
 
 ## -see-also

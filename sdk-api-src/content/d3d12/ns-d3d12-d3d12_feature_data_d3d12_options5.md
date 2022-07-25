@@ -60,13 +60,13 @@ A boolean value indicating whether the options require shader-resource view tier
 
 ### -field RenderPassesTier
 
-The extent to which a device driver and/or the hardware efficiently supports render passes.
+The extent to which a device driver and/or the hardware efficiently supports render passes. See <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_render_pass_tier">D3D12_RENDERPASS_TIER</a>.
 
 
 
 #### RaytracingTier
 
-Specifies the level of ray tracing support on the graphics device.
+Specifies the level of ray tracing support on the graphics device. See <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_raytracing_tier">D3D12_RAYTRACING_TIER</a>.
 
 ### -field RaytracingTier
 

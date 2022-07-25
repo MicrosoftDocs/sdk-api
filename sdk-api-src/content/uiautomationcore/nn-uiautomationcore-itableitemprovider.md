@@ -55,42 +55,7 @@ Provides access
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITableItemProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITableItemProvider</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITableItemProvider</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itableitemprovider-getcolumnheaderitems">GetColumnHeaderItems</a>
-</td>
-<td align="left" width="63%">
-Retrieves a collection of UI Automation provider 
-        representing all the column headers associated with a table item or cell.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itableitemprovider-getrowheaderitems">GetRowHeaderItems</a>
-</td>
-<td align="left" width="63%">
-Retrieves a collection of UI Automation provider 
-        representing all the row headers associated with a table item or cell.
-        
-
-</td>
-</tr>
-</table>
+The <b>ITableItemProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITableItemProvider</b> also has these types of members:
 
 ## -remarks
 

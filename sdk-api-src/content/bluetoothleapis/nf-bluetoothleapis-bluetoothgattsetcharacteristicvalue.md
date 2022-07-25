@@ -69,7 +69,7 @@ Pointer to <a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_charac
 
 ### -param ReliableWriteContext [in, optional]
 
-BTH_LE_GATT_RELIABLE_WRITE_CONTEXT structure containint the context describing the reliable write operation returned from a previous call to <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattbeginreliablewrite">BluetoothGATTBeginReliableWrite</a>.
+BTH_LE_GATT_RELIABLE_WRITE_CONTEXT structure containing the context describing the reliable write operation returned from a previous call to <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattbeginreliablewrite">BluetoothGATTBeginReliableWrite</a>.
 
 ### -param Flags [in]
 

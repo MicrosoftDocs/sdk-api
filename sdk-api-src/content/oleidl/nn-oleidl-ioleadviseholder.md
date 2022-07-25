@@ -54,74 +54,7 @@ Manages advisory connections and compound document notifications in an object se
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleAdviseHolder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleAdviseHolder</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IOleAdviseHolder</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleadviseholder-advise">Advise</a>
-</td>
-<td align="left" width="63%">
-Establishes an advisory connection between an OLE object and the calling object's advise sink.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleadviseholder-enumadvise">EnumAdvise</a>
-</td>
-<td align="left" width="63%">
-Creates an enumerator that can be used to enumerate the advisory connections currently established for an object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleadviseholder-sendonclose">SendOnClose</a>
-</td>
-<td align="left" width="63%">
-Sends notification to all advisory sinks currently registered with the advise holder that the object has closed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleadviseholder-sendonrename">SendOnRename</a>
-</td>
-<td align="left" width="63%">
-Sends notification to all advisory sinks currently registered with the advise holder that the name of object has changed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleadviseholder-sendonsave">SendOnSave</a>
-</td>
-<td align="left" width="63%">
-Sends notification to all advisory sinks currently registered with the advise holder that the object has been saved.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleadviseholder-unadvise">Unadvise</a>
-</td>
-<td align="left" width="63%">
-Deletes a previously established advisory connection.
-
-</td>
-</tr>
-</table>
+The <b>IOleAdviseHolder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleAdviseHolder</b> also has these types of members:
 
 ## -see-also
 

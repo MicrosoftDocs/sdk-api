@@ -54,56 +54,7 @@ Exposes methods for retrieving metadata blocks and items from a decoder or its i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataQueryReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICMetadataQueryReader</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWICMetadataQueryReader</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataqueryreader-getcontainerformat">GetContainerFormat</a>
-</td>
-<td align="left" width="63%">
-Gets the metadata query readers container format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataqueryreader-getenumerator">GetEnumerator</a>
-</td>
-<td align="left" width="63%">
-Gets an enumerator of all metadata items at the current relative location within the metadata hierarchy.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataqueryreader-getlocation">GetLocation</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current path relative to the root metadata block.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataqueryreader-getmetadatabyname">GetMetadataByName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the metadata block or item identified by a metadata query expression. 
-
-</td>
-</tr>
-</table>
+The <b>IWICMetadataQueryReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICMetadataQueryReader</b> also has these types of members:
 
 ## -remarks
 

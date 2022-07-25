@@ -53,7 +53,7 @@ api_name:
 
 Creates an empty <b>FontCollection::FontCollection</b> object.
 
-## -parameters
+
 
 ## -see-also
 

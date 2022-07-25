@@ -76,10 +76,7 @@ Specifies the revision level of the output <i>StringSecurityDescriptor</i> strin
 Specifies a combination of the 
 <a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> bit flags to indicate the components of the security descriptor to include in the output string. 
 
-
-
-
-					The BACKUP_SECURITY_INFORMATION 	flag is not applicable to this function. If the BACKUP_SECURITY_INFORMATION 	flag is passed in, the <i>SecurityInformation</i> parameter returns TRUE with <b>null</b> string output.
+The BACKUP_SECURITY_INFORMATION flag is not applicable to this function. If the BACKUP_SECURITY_INFORMATION flag is passed in, the <i>SecurityInformation</i> parameter returns TRUE with <b>null</b> string output.
 
 ### -param StringSecurityDescriptor [out]
 

@@ -2,7 +2,6 @@
 UID: NS:dxvahd._DXVAHD_COLOR
 title: DXVAHD_COLOR
 ms.date: 
-ms.topic: language-reference
 targetos: Windows
 description: Defines a color value for DXVA-HD.
 helpviewer_keywords: ["DXVAHD_COLOR", "dxvahd/DXVAHD_COLOR"]
@@ -16,8 +15,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: DXVAHD_COLOR
 req.umdf-ver: 

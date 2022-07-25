@@ -55,9 +55,6 @@ api_name:
  - GetComputerNameExW
 ---
 
-# GetComputerNameExW function
-
-
 ## -description
 
 Retrieves a NetBIOS or DNS name associated with the local computer. The names are established at system startup, when the system reads them from the registry.
@@ -247,7 +244,7 @@ void _tmain(void)
         TEXT("Physical DNS domain"), 
         TEXT("Physical DNS fully-qualified")};
     int cnf = 0;
-    DWORD dwSize = sizeof(buffer);
+    DWORD dwSize = _countof(buffer);
     
     for (cnf = 0; cnf < ComputerNameMax; cnf++)
     {
@@ -307,5 +304,4 @@ void _tmain(void)
 
 
 
-<a href="/windows/desktop/SysInfo/system-information-functions">System
-		  Information Functions</a>
+<a href="/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>

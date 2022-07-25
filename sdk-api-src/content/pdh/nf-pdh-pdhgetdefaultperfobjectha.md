@@ -64,9 +64,7 @@ the <a href="/windows/desktop/api/pdh/nf-pdh-pdhgetdefaultperfobjecta">PdhGetDef
 
 Should be <b>NULL</b>. 
 
-
-
-					If you specify a log file handle, <i>szDefaultObjectName</i> will be a <b>null</b> string.
+If you specify a log file handle, <i>szDefaultObjectName</i> will be a <b>null</b> string.
 
 ### -param szMachineName [in]
 

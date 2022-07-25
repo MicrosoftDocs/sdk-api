@@ -54,29 +54,7 @@ Exposes methods that provide a standard mechanism for credential providers to ca
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueryContinueWithStatus</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iquerycontinue">IQueryContinue</a>. <b>IQueryContinueWithStatus</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IQueryContinueWithStatus</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-iquerycontinuewithstatus-setstatusmessage">SetStatusMessage</a>
-</td>
-<td align="left" width="63%">
-Enables the credential provider to pass status messages to the Logon UI as it attempts to complete <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-iconnectablecredentialprovidercredential-connect">IConnectableCredentialProviderCredential::Connect</a>.
-
-</td>
-</tr>
-</table>
+The <b>IQueryContinueWithStatus</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iquerycontinue">IQueryContinue</a>. <b>IQueryContinueWithStatus</b> also has these types of members:
 
 ## -remarks
 

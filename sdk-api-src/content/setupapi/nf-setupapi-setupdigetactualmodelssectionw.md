@@ -62,7 +62,7 @@ A pointer to an INF file context that specifies a <i>manufacturer-identifier</i>
 
 ### -param AlternatePlatformInfo [in, optional]
 
-A pointer to an <a href="/previous-versions/windows/hardware/previsioning-framework/ff552338(v=vs.85)">SP_ALTPLATFORM_INFO</a> structure that supplies information about a Windows version and processor architecture. The <b>cbSize</b> member of this structure must be set to <b>sizeof(</b>SP_ALTPLATFORM_INFO_V2<b>)</b>. This parameter is optional and can be set to <b>NULL</b>.
+A pointer to an <a href="/windows/win32/api/setupapi/ns-setupapi-sp_altplatform_info_v2">SP_ALTPLATFORM_INFO</a> structure that supplies information about a Windows version and processor architecture. The <b>cbSize</b> member of this structure must be set to <b>sizeof(</b>SP_ALTPLATFORM_INFO_V2<b>)</b>. This parameter is optional and can be set to <b>NULL</b>.
 
 ### -param InfSectionWithExt [out, optional]
 
@@ -70,7 +70,7 @@ A pointer to a buffer that receives a string that contains the decorated INF <i>
 
 ### -param InfSectionWithExtSize [in]
 
- The size, in characters, of the <i>DecoratedModelsSection </i>buffer. If <i>DecoratedModelsSection</i> is <b>NULL</b>, this parameter must be set to zero.
+ The size, in characters, of the <i>DecoratedModelsSection </i> buffer. If <i>DecoratedModelsSection</i> is <b>NULL</b>, this parameter must be set to zero.
 
 ### -param RequiredSize [out, optional]
 
@@ -103,7 +103,7 @@ For information about retrieving an <a href="/windows-hardware/drivers/install/i
 
 
 
-<a href="/previous-versions/windows/hardware/previsioning-framework/ff552338(v=vs.85)">SP_ALTPLATFORM_INFO</a>
+<a href="/windows/win32/api/setupapi/ns-setupapi-sp_altplatform_info_v2">SP_ALTPLATFORM_INFO</a>
 
 
 

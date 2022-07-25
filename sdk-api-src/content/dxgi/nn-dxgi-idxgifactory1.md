@@ -55,38 +55,7 @@ The <b>IDXGIFactory1</b> interface implements methods for generating DXGI object
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIFactory1</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a>. <b>IDXGIFactory1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDXGIFactory1</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgifactory1-enumadapters1">EnumAdapters1</a>
-</td>
-<td align="left" width="63%">
-Enumerates both adapters (video cards) with or without outputs.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgifactory1-iscurrent">IsCurrent</a>
-</td>
-<td align="left" width="63%">
-Informs an application of the possible need to re-enumerate adapters.
-
-</td>
-</tr>
-</table>
+The <b>IDXGIFactory1</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a>. <b>IDXGIFactory1</b> also has these types of members:
 
 ## -remarks
 

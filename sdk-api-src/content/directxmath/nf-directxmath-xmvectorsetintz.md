@@ -65,7 +65,7 @@ A unsigned integer value to be assigned to <code>z</code> of <i>V</i>.
 ## -returns
 
 An instance of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> whose <i>z</i> component has been set to the integer value provided by
-       the argument <i>z</i> to <code>XMVectorSetIntZ</code>. All other components of the returned <b>XMVECTOR Data Type</b>instance have the same value as those of the input vector <i>V</i>.
+       the argument <i>z</i> to <code>XMVectorSetIntZ</code>. All other components of the returned <b>XMVECTOR Data Type</b> instance have the same value as those of the input vector <i>V</i>.
 
 ## -remarks
 

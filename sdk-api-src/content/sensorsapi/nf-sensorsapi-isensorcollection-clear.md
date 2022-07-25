@@ -52,7 +52,7 @@ api_name:
 
 Empties the sensor collection.
 
-## -parameters
+
 
 ## -returns
 

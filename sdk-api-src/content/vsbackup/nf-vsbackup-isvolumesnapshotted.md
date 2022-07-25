@@ -60,7 +60,7 @@ The <b>IsVolumeSnapshotted</b> function determines
 
 ### -param pwszVolumeName [in]
 
-Name of the volume. The name of the volume to be checked must be in one of the following formats and must include a trailing backslash (\):
+Name of the volume. The name of the volume to be checked must be in one of the following formats and must include a trailing backslash (\\):
 
 <ul>
 <li>The path of a mounted folder, for example, Y:\MountX\</li>

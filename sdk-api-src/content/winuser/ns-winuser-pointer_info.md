@@ -78,9 +78,9 @@ Note that frame identifier is assigned as input is reported to the system for al
 
 ### -field pointerFlags
 
-Type: <b><a href="/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAGS</a></b>
+Type: <b><a href="/windows/win32/inputmsg/pointer-flags-contants">POINTER_FLAGS</a></b>
 
-May be any reasonable combination of flags from the <a href="/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">Pointer Flags</a> constants.
+May be any reasonable combination of flags from the <a href="/windows/win32/inputmsg/pointer-flags-contants">Pointer Flags</a> constants.
 
 ### -field sourceDevice
 
@@ -189,4 +189,4 @@ When flags indicate <b>POINTER_FLAG_HWHEEL,</b> this value indicates the distanc
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/inputmsg/structures">Structures</a>
+<a href="/windows/win32/inputmsg/structures">Structures</a>

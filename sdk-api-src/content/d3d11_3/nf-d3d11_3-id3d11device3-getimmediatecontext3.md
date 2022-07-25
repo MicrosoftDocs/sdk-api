@@ -64,8 +64,8 @@ Upon completion of the method, the passed pointer to an <a href="/windows/deskto
 ## -remarks
 
 The
-          <b>GetImmediateContext3</b>method outputs an
-          <a href="/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11devicecontext3">ID3D11DeviceContext3</a>object that represents an immediate context, which is used to perform rendering that you want immediately submitted to a device.
+         <b>GetImmediateContext3</b> method outputs an
+          <a href="/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11devicecontext3">ID3D11DeviceContext3</a> object that represents an immediate context, which is used to perform rendering that you want immediately submitted to a device.
           For most apps, an immediate context is the primary object that is used to draw your scene.
         
 

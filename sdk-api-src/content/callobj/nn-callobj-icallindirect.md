@@ -54,56 +54,7 @@ Invokes an object with an indirect reference to the invocations arguments, rathe
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICallIndirect</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICallIndirect</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ICallIndirect</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/callobj/nf-callobj-icallindirect-callindirect">CallIndirect</a>
-</td>
-<td align="left" width="63%">
-Invokes one of the methods in the interface with an indirect reference to the arguments of the invocation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/callobj/nf-callobj-icallindirect-getiid">GetIID</a>
-</td>
-<td align="left" width="63%">
-Retrieves the interface id supported by this <b>ICallIndirect</b> implementation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/callobj/nf-callobj-icallindirect-getmethodinfo">GetMethodInfo</a>
-</td>
-<td align="left" width="63%">
-Retrieves information about the interface method from the call frame.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/callobj/nf-callobj-icallindirect-getstacksize">GetStackSize</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of bytes that should be popped from the stack in order to return from an invocation of the method.
-
-</td>
-</tr>
-</table>
+The <b>ICallIndirect</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICallIndirect</b> also has these types of members:
 
 ## -remarks
 

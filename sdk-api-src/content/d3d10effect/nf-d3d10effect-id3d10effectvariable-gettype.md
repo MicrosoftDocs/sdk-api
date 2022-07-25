@@ -52,7 +52,7 @@ api_name:
 
 Get type information.
 
-## -parameters
+
 
 ## -returns
 

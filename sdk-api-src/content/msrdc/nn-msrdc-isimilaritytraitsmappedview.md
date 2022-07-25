@@ -60,53 +60,5 @@ There can be multiple overlapping read-only mapped views of the same area of a f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISimilarityTraitsMappedView</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISimilarityTraitsMappedView</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ISimilarityTraitsMappedView</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISimilarityTraitsMappedView</b> also has these types of members:
 
-## -members
-
-The <b>ISimilarityTraitsMappedView</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitsmappedview-flush">Flush</a>
-</td>
-<td align="left" width="63%">
-Writes to the disk any dirty pages within a mapped view of a similarity traits table file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitsmappedview-get">Get</a>
-</td>
-<td align="left" width="63%">
-Returns information about the mapped view of a similarity traits table file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitsmappedview-getview">GetView</a>
-</td>
-<td align="left" width="63%">
-Returns the beginning and ending addresses for the mapped view of a similarity traits table file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitsmappedview-unmap">Unmap</a>
-</td>
-<td align="left" width="63%">
-Un-maps a mapped view of a similarity traits table file.
-
-</td>
-</tr>
-</table>

@@ -59,7 +59,7 @@ api_name:
 
 Allocates a thread local storage (TLS) index. Any thread of the process can subsequently use this index to store and retrieve values that are local to the thread, because each thread receives its own slot for the index.
 
-## -parameters
+
 
 ## -returns
 

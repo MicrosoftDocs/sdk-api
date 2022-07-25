@@ -52,16 +52,15 @@ api_name:
 
 Removes a custom header from the message.
             
-                This function is designed to handle types of headers that appear once in the
-                message and are targeted at the ultimate receiver.  Headers targeted
-                with a role other than ultimate receiver are ignored.
+This function is designed to handle types of headers that appear once in the message and are targeted at the ultimate receiver. Headers targeted with a role other than ultimate receiver are ignored.
 
 ## -parameters
 
 ### -param message [in]
 
 A pointer to the <b>Message</b> object with the header  to be removed.  
-                    The message can be in any state except <b>WS_MESSAGE_STATE_EMPTY</b>.
+
+The message can be in any state except <b>WS_MESSAGE_STATE_EMPTY</b>.
 
 ### -param headerName [in]
 

@@ -61,31 +61,31 @@ This enumeration is reserved for future use.
 
 ## -enum-fields
 
-### -field VDS_IIF_VALID
+### -field VDS_IIF_VALID:0x1
 
 This bit must be set for the field to contain significant information.
 
-### -field VDS_IIF_IKE
+### -field VDS_IIF_IKE:0x2
 
 If set, IKE/IPSEC is enabled.
 
-### -field VDS_IIF_MAIN_MODE
+### -field VDS_IIF_MAIN_MODE:0x4
 
 If set, negotiate through main mode is enabled.
 
-### -field VDS_IIF_AGGRESSIVE_MODE
+### -field VDS_IIF_AGGRESSIVE_MODE:0x8
 
 If set, negotiate through aggressive mode is enabled.
 
-### -field VDS_IIF_PFS_ENABLE
+### -field VDS_IIF_PFS_ENABLE:0x10
 
 If set, perfect forward secrecy is enabled.
 
-### -field VDS_IIF_TRANSPORT_MODE_PREFERRED
+### -field VDS_IIF_TRANSPORT_MODE_PREFERRED:0x20
 
 If set, transport mode is preferred.
 
-### -field VDS_IIF_TUNNEL_MODE_PREFERRED
+### -field VDS_IIF_TUNNEL_MODE_PREFERRED:0x40
 
 If set, tunnel mode is preferred.
 

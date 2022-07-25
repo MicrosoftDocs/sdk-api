@@ -53,7 +53,7 @@ api_name:
 
 Get a boolean that turns the debug output on or off.
 
-## -parameters
+
 
 ## -returns
 

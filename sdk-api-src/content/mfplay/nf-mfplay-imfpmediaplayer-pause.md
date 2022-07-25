@@ -56,7 +56,7 @@ api_name:
 
 Pauses playback. While playback is paused, the most recent video frame is displayed, and audio is silent.
 
-## -parameters
+
 
 ## -returns
 

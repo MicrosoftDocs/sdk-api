@@ -1,7 +1,7 @@
 ---
 UID: NN:bdaiface.IBDA_DiseqCommand
 title: IBDA_DiseqCommand (bdaiface.h)
-description: Controls cable television satelite equipment, using Digital Satellite Equipment Control (DiSEqC) commands.
+description: Controls cable television satellite equipment, using Digital Satellite Equipment Control (DiSEqC) commands.
 helpviewer_keywords: ["IBDA_DiseqCommand","IBDA_DiseqCommand interface [Microsoft TV Technologies]","IBDA_DiseqCommand interface [Microsoft TV Technologies]","described","bdaiface/IBDA_DiseqCommand","mstv.ibda_diseqcommand"]
 old-location: mstv\ibda_diseqcommand.htm
 tech.root: mstv
@@ -50,83 +50,14 @@ api_name:
 
 ## -description
 
-Controls cable television satelite equipment, using Digital Satellite Equipment Control (DiSEqC) commands.
+Controls cable television satellite equipment, using Digital Satellite Equipment Control (DiSEqC) commands.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_DiseqCommand</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_DiseqCommand</b> also has these types of members:
+The <b>IBDA_DiseqCommand</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_DiseqCommand</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IBDA_DiseqCommand</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_diseqcommand-get_diseqresponse">get_DiseqResponse</a>
-</td>
-<td align="left" width="63%">
-Gets the driver's response to a DiSEqC command.
-          
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_diseqcommand-put_diseqlnbsource">put_DiseqLNBSource</a>
-</td>
-<td align="left" width="63%">
-Sets the low-noise block (LNB) converter source.
-          
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_diseqcommand-put_diseqrepeats">put_DiseqRepeats</a>
-</td>
-<td align="left" width="63%">
-Enables or disables repeated DiSEqC commands.
-          
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_diseqcommand-put_diseqsendcommand">put_DiseqSendCommand</a>
-</td>
-<td align="left" width="63%">
-Sends a DiSEqC command.
-          
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_diseqcommand-put_disequsetoneburst">put_DiseqUseToneBurst</a>
-</td>
-<td align="left" width="63%">
-Enables or disables Tone-Burst commands.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_diseqcommand-put_enablediseqcommands">put_EnableDiseqCommands</a>
-</td>
-<td align="left" width="63%">
-Enables or disables the use of DiSEqC commands.
-          
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

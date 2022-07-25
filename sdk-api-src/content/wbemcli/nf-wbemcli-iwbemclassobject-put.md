@@ -143,7 +143,7 @@ However, passing in a <b>VT_ARRAY</b>|<b>VT_R8</b> to a property of type <b>uint
  
 
 The 
-<a href="/windows/desktop/WmiSdk/wmi-system-properties">__CLASS</a> system property is only writeable during class creation, when it may not be left blank. All other system properties are read-only.
+<a href="/windows/desktop/WmiSdk/wmi-system-properties">__CLASS</a> system property is only writable during class creation, when it may not be left blank. All other system properties are read-only.
 
 
 #### Examples

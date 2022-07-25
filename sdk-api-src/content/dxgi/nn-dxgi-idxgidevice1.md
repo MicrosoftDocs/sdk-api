@@ -55,38 +55,7 @@ An <b>IDXGIDevice1</b> interface implements a derived class for DXGI objects tha
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDevice1</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgidevice">IDXGIDevice</a>. <b>IDXGIDevice1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDXGIDevice1</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgidevice1-getmaximumframelatency">GetMaximumFrameLatency</a>
-</td>
-<td align="left" width="63%">
-Gets the number of frames that the system is allowed to queue for rendering.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgidevice1-setmaximumframelatency">SetMaximumFrameLatency</a>
-</td>
-<td align="left" width="63%">
-Sets the number of frames that the system is allowed to queue for rendering.
-
-</td>
-</tr>
-</table>
+The <b>IDXGIDevice1</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgidevice">IDXGIDevice</a>. <b>IDXGIDevice1</b> also has these types of members:
 
 ## -remarks
 

@@ -54,47 +54,7 @@ The <b>ITfSpeechUIServer</b> interface manages the speech-related user interface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfSpeechUIServer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfSpeechUIServer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfSpeechUIServer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfspui/nf-ctfspui-itfspeechuiserver-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the speech-related user interface elements on the TSF language bar.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfspui/nf-ctfspui-itfspeechuiserver-showui">ShowUI</a>
-</td>
-<td align="left" width="63%">
-Sets the visibility state of the speech-related user interface elements on the TSF language bar.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfspui/nf-ctfspui-itfspeechuiserver-updateballoon">UpdateBalloon</a>
-</td>
-<td align="left" width="63%">
-Sets the style and text of the speech balloon on the TSF language bar.
-
-</td>
-</tr>
-</table>
+The <b>ITfSpeechUIServer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfSpeechUIServer</b> also has these types of members:
 
 ## -remarks
 

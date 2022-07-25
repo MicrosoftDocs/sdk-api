@@ -57,7 +57,7 @@ Disables handle caching of the predefined registry handle for <b>HKEY_CURRENT_US
 
 To disables handle caching of all predefined registry handles, use the <a href="/windows/desktop/api/winreg/nf-winreg-regdisablepredefinedcacheex">RegDisablePredefinedCacheEx</a> function.
 
-## -parameters
+
 
 ## -returns
 

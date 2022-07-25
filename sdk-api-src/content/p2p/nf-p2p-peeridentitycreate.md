@@ -71,7 +71,7 @@ Handle to the cryptographic service provider (CSP) that contains an AT_KEYEXCHAN
 
 ### -param ppwzIdentity [out]
 
-Receives a pointer to the name of an peer identity that is created. This name must be used in all subsequent calls to  the Peer Identity Manager, Peer Grouping, or PNRP functions that operate on behalf of the peer identity. Returns <b>NULL</b> if the peer identity cannot be created.
+Receives a pointer to the name of a peer identity that is created. This name must be used in all subsequent calls to  the Peer Identity Manager, Peer Grouping, or PNRP functions that operate on behalf of the peer identity. Returns <b>NULL</b> if the peer identity cannot be created.
 
 ## -returns
 
@@ -123,7 +123,7 @@ There is not enough memory to perform the specified operation.
 </dl>
 </td>
 <td width="60%">
-The peer identity already exists. Only occurs if an peer identity  based on the specified key and classifier already exists.
+The peer identity already exists. Only occurs if a peer identity  based on the specified key and classifier already exists.
 
 </td>
 </tr>
@@ -153,7 +153,7 @@ The peer identity cannot be created because there are too many peer identities.
 
 ## -remarks
 
-The key pair and the classifier are used to generate the peer name of a new peer identity.  After an peer identity is created, it is automatically stored on the disk.
+The key pair and the classifier are used to generate the peer name of a new peer identity.  After a peer identity is created, it is automatically stored on the disk.
 
 The name of the identity should be freed by using <a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.  This does not delete the peer identity.  To delete the identity, use <a href="/windows/desktop/api/p2p/nf-p2p-peeridentitydelete">PeerIdentityDelete</a> function.
 

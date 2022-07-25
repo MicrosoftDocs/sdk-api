@@ -54,7 +54,7 @@ An application-defined callback function used with the <a href="/windows/desktop
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Type: <b>HWND</b>
 
@@ -62,19 +62,19 @@ A handle to the window whose window procedure received the message.
 
 If the <a href="/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a> function was called with its <i>hwnd</i> parameter set to <b>HWND_BROADCAST</b>, the system calls the <i>SendAsyncProc</i> function once for each top-level window.
 
-### -param Arg2
+### -param unnamedParam2
 
 Type: <b>UINT</b>
 
 The message.
 
-### -param Arg3
+### -param unnamedParam3
 
 Type: <b>ULONG_PTR</b>
 
 An application-defined value sent from the <a href="/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a> function.
 
-### -param Arg4
+### -param unnamedParam4
 
 Type: <b>LRESULT</b>
 

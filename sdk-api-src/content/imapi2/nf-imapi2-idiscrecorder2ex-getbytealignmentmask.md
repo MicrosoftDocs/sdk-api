@@ -99,10 +99,14 @@ Value: 0x80004005
 
 The data buffer for <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-sendcommandsenddatatodevice">IDiscRecorder2Ex::SendCommandSendDataToDevice</a> and <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-sendcommandgetdatafromdevice">IDiscRecorder2Ex::SendCommandGetDataFromDevice</a> must aligned to the correct byte boundary. To determine if the buffer is on the correct byte boundary, perform a bitwise logical AND of the bitmask with  the address of the data buffer. For example, if the address of the buffer is 0x3840958, you can test for correct alignment using the following statement:
 
-<pre class="syntax" xml:space="preserve"><code>if (0x3840958 &amp; (value - 1) == 0)
+
+``` syntax
+if (0x3840958 &amp; (value - 1) == 0)
 {
     // The alignment is correct
-}</code></pre>
+}
+```
+
 
 ## -see-also
 

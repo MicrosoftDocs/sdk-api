@@ -296,7 +296,7 @@ Retrieves the state of the Mouse Vanish feature. The <i>pvParam</i> parameter mu
 <td width="60%">
 Determines whether a screen reviewer utility is running. A screen reviewer utility directs textual information to an output device, such as a speech synthesizer or Braille display. When this flag is set, an application should provide textual information in situations where it would otherwise present the information  graphically.
 
-The <i>pvParam</i> parameter is a pointer to a <b>BOOL</b>variable that receives <b>TRUE</b> if a screen reviewer utility is running, or <b>FALSE</b> otherwise.
+The <i>pvParam</i> parameter is a pointer to a <b>BOOL</b> variable that receives <b>TRUE</b> if a screen reviewer utility is running, or <b>FALSE</b> otherwise.
 
 <div class="alert"><b>Note</b>  Narrator, the screen reader that is included with Windows, does not set the <b>SPI_SETSCREENREADER</b> or <b>SPI_GETSCREENREADER</b> flags.</div>
 <div> </div>
@@ -1476,11 +1476,11 @@ Sets the height, in pixels, of the rectangle within which the mouse pointer has 
 </dl>
 </td>
 <td width="60%">
-Sets the time, in milliseconds, that the mouse pointer has to stay in the hover rectangle for <a href="/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a> to generate a <a href="/windows/desktop/inputdev/wm-mousehover">WM_MOUSEHOVER</a> message. This is used only if you pass <b>HOVER_DEFAULT</b> in the <i>dwHoverTime</i> parameter in the call to <b>TrackMouseEvent</b>. Set the <i>uiParam</i>parameter to the new time.
+Sets the time, in milliseconds, that the mouse pointer has to stay in the hover rectangle for <a href="/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a> to generate a <a href="/windows/desktop/inputdev/wm-mousehover">WM_MOUSEHOVER</a> message. This is used only if you pass <b>HOVER_DEFAULT</b> in the <i>dwHoverTime</i> parameter in the call to <b>TrackMouseEvent</b>. Set the <i>uiParam</i> parameter to the new time.
 
 The time specified should be between <b>USER_TIMER_MAXIMUM</b> and <b>USER_TIMER_MINIMUM</b>. If <i>uiParam</i> is less than <b>USER_TIMER_MINIMUM</b>, the function will use <b>USER_TIMER_MINIMUM</b>. If <i>uiParam</i> is greater than <b>USER_TIMER_MAXIMUM</b>, the function will be <b>USER_TIMER_MAXIMUM</b>.               
 
-                                    <b>Windows Server 2003 and Windows XP:  </b>The operating system does not enforce the use of <b>USER_TIMER_MAXIMUM</b> and <b>USER_TIMER_MINIMUM</b> until Windows Server 2003 with SP1 and Windows XP with SP2.
+<b>Windows Server 2003 and Windows XP:  </b>The operating system does not enforce the use of <b>USER_TIMER_MAXIMUM</b> and <b>USER_TIMER_MINIMUM</b> until Windows Server 2003 with SP1 and Windows XP with SP2.
 
 
 
@@ -1578,7 +1578,7 @@ Enables or disables the snap-to-default-button feature. If enabled, the mouse cu
 </dl>
 </td>
 <td width="60%">
-<b>Starting with Windows 8:</b> Determines whether the active input settings have Local (per-thread, <b>TRUE</b>) or Global (session, <b>FALSE</b>) scope. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable, casted by PVOID.
+<b>Starting with Windows 8:</b> Determines whether the active input settings have Local (per-thread, <b>TRUE</b>) or Global (session, <b>FALSE</b>) scope. The <i>pvParam</i> parameter must be a <b>BOOL</b> variable, casted by PVOID.
 
 </td>
 </tr>
@@ -2247,7 +2247,7 @@ Set <i>pvParam</i> to <b>TRUE</b> to enable ToolTip animation or <b>FALSE</b> to
 </dl>
 </td>
 <td width="60%">
-If the <b>SPI_SETTOOLTIPANIMATION</b> flag is enabled, use <b>SPI_SETTOOLTIPFADE</b> to indicate whether ToolTip animation uses a fade effect or a slide effect. Set <i>pvParam</i> to <b>TRUE</b> for fade animation or <b>FALSE</b> for slide animation. The tooltip fade effect is possible only if the system has a color depth of more than 256 colors. For more information on the slide and fade effects, see the <a href="/windows/desktop/api/winuser/nf-winuser-animatewindow">AnimateWindow</a>function.
+If the <b>SPI_SETTOOLTIPANIMATION</b> flag is enabled, use <b>SPI_SETTOOLTIPFADE</b> to indicate whether ToolTip animation uses a fade effect or a slide effect. Set <i>pvParam</i> to <b>TRUE</b> for fade animation or <b>FALSE</b> for slide animation. The tooltip fade effect is possible only if the system has a color depth of more than 256 colors. For more information on the slide and fade effects, see the <a href="/windows/desktop/api/winuser/nf-winuser-animatewindow">AnimateWindow</a> function.
 
 </td>
 </tr>
@@ -2323,7 +2323,7 @@ Retrieves the animation effects associated with user actions. The <i>pvParam</i>
 </dl>
 </td>
 <td width="60%">
-Retrieves the border multiplier factor that determines the width of a window's sizing border. The <i>pvParam</i>parameter must point to an integer variable that receives this value.
+Retrieves the border multiplier factor that determines the width of a window's sizing border. The <i>pvParam</i> parameter must point to an integer variable that receives this value.
 
 </td>
 </tr>

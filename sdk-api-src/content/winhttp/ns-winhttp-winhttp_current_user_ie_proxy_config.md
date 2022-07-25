@@ -1,5 +1,5 @@
 ---
-UID: NS:winhttp.__unnamed_struct_6
+UID: NS:winhttp._WINHTTP_CURRENT_USER_IE_PROXY_CONFIG
 title: WINHTTP_CURRENT_USER_IE_PROXY_CONFIG (winhttp.h)
 description: The WINHTTP_CURRENT_USER_IE_PROXY_CONFIG structure contains the Internet Explorer proxy configuration information.
 helpviewer_keywords: ["WINHTTP_CURRENT_USER_IE_PROXY_CONFIG","WINHTTP_CURRENT_USER_IE_PROXY_CONFIG structure [HTTP]","http.winhttp_current_user_ie_proxy_config","winhttp/WINHTTP_CURRENT_USER_IE_PROXY_CONFIG"]

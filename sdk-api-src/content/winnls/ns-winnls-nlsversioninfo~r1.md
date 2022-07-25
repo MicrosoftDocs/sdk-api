@@ -1,7 +1,7 @@
 ---
 UID: NS:winnls._nlsversioninfo~r1
 title: NLSVERSIONINFO
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: _nlsversioninfo, NLSVERSIONINFO
 targetos: Windows
 req.construct-type: structure
@@ -13,8 +13,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: NLSVERSIONINFO, *LPNLSVERSIONINFO
 req.umdf-ver: 

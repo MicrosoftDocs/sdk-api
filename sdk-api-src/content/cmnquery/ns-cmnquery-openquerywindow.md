@@ -117,7 +117,7 @@ Causes the query dialog box to display the <b>OK</b> and
 #### OQWF_PARAMISPROPERTYBAG
 
 Indicates that the <b>ppbFormParameters</b> member contains an 
-        <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> interface.
+        <a href="../oaidl/nn-oaidl-ipropertybag.md">IPropertyBag</a> interface.
 
 
 
@@ -245,7 +245,7 @@ Identifies the <b>Shared Folders</b> query form.
 
 #### CLSID_DsFindWriteableDomainController
 
-Identifies the <b>Domain Controllers</b> query form and displays writeable Domain 
+Identifies the <b>Domain Controllers</b> query form and displays writable Domain 
         Controllers.
 
 ### -field pPersistQuery
@@ -264,7 +264,7 @@ Reserved. Pointer to a structure or interface that provides parameter initializa
 
 ### -field ppbFormParameters
 
-Pointer to an <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> interface that 
+Pointer to an <a href="../oaidl/nn-oaidl-ipropertybag.md">IPropertyBag</a> interface that 
        provides parameter initialization data for the form. The contents of this property bag are defined by the form 
        class specified by the <b>clsidDefaultForm</b> member. The following system-supplied forms 
        support this member.

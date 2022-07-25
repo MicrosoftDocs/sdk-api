@@ -55,29 +55,7 @@ The <b>IMediaSample2Config</b> interface returns a pointer to a Direct3D surface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaSample2Config</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaSample2Config</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMediaSample2Config</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-imediasample2config-getsurface">GetSurface</a>
-</td>
-<td align="left" width="63%">
-Returns a pointer to the Direct3D surface managed by this media sample.
-
-</td>
-</tr>
-</table>
+The <b>IMediaSample2Config</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaSample2Config</b> also has these types of members:
 
 ## -remarks
 

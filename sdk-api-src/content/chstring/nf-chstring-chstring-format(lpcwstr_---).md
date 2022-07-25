@@ -58,7 +58,7 @@ The **Format** method formats and stores a series of characters and values in a 
 
 Format-control string.
 
-### -param arg2
+### -param ...
 
 Argument list.
 
@@ -97,3 +97,4 @@ A **NULL** character is appended to the end of the written characters.
 <a href="/windows/desktop/WmiSdk/chstring">CHString</a>
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-getbuffer">CHString::GetBuffer</a>
+

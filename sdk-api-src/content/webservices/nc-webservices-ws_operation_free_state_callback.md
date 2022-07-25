@@ -50,14 +50,13 @@ api_name:
 
 ## -description
 
-Allows an application to cleanup 
-                state information that was registered with cancellation callback. 
+Allows an application to cleanup state information that was registered with cancellation callback. 
              
-                This callback is invoked by service model.
+This callback is invoked by service model.
 
 ## -parameters
 
-### -param *state [in]
+### -param state [in]
 
 A reference to the application defined state registered with the callback.
 

@@ -57,7 +57,7 @@ Returns an <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> int
 
 ### -param pwszVolume [in]
 
-Null-terminated wide character string containing the volume name. The name must be in one of the following formats and must include a trailing backslash (\): 
+Null-terminated wide character string containing the volume name. The name must be in one of the following formats and must include a trailing backslash (\\): 
 
 
 

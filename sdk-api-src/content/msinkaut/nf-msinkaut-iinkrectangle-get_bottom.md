@@ -69,7 +69,7 @@ The default value of this property is 0.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846804(v=VS.85).aspx">IInkRectangle</a>
+<a href="../msinkaut/nn-msinkaut-iinkrectangle.md">IInkRectangle</a>
 
 
 

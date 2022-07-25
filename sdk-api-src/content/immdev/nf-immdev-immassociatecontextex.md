@@ -56,15 +56,15 @@ Changes the association between the input method context and the specified windo
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Handle to the window to associate with the input context.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Handle to the input method context.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Flags specifying the type of association between the window and the input method context. This parameter can have one of the following values.
 

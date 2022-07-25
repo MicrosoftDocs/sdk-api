@@ -62,56 +62,7 @@ For more information about how the COM compound document implementation of <a hr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumSTATPROPSETSTG</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumSTATPROPSETSTG</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IEnumSTATPROPSETSTG</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ienumstatpropsetstg-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates an enumerator that contains the same enumeration state as the current <a href="/windows/desktop/api/propidl/ns-propidl-statpropsetstg">STATPROPSETSTG</a> structure enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ienumstatpropsetstg-next">Next</a>
-</td>
-<td align="left" width="63%">
-Gets a specified number of <a href="/windows/desktop/api/propidl/ns-propidl-statpropsetstg">STATPROPSETSTG</a> structures.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ienumstatpropsetstg-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumeration sequence to the beginning of the <a href="/windows/desktop/api/propidl/ns-propidl-statpropsetstg">STATPROPSETSTG</a> structure array.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ienumstatpropsetstg-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips a specified number of <a href="/windows/desktop/api/propidl/ns-propidl-statpropsetstg">STATPROPSETSTG</a> structures in the enumeration sequence.
-
-</td>
-</tr>
-</table>
+The <b>IEnumSTATPROPSETSTG</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumSTATPROPSETSTG</b> also has these types of members:
 
 ## -see-also
 

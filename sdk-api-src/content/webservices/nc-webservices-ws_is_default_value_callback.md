@@ -57,16 +57,16 @@ Determines if a value is the default value. This callback is used  before a valu
 
 ## -parameters
 
-### -param *descriptionData [in]
+### -param descriptionData [in]
 
 This is the value of the descriptionData field from <a href="/windows/desktop/api/webservices/ns-webservices-ws_custom_type_description">WS_CUSTOM_TYPE_DESCRIPTION</a>.
                     The callback can use this to access any additional information about the type.
 
-### -param *value
+### -param value
 
 A pointer to the value being serialized.
 
-### -param *defaultValue
+### -param defaultValue
 
 A pointer to the default value.  If no default value was specified
                     for the field, this parameter will be <b>NULL</b>.
@@ -85,11 +85,11 @@ If the parameter is <b>NULL</b>, the callback should compare the fields
 
 The size, in bytes, of the value being serialized.
 
-### -param *isDefault [out]
+### -param isDefault [out]
 
 Whether or not the value is the default value.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 

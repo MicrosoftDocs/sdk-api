@@ -11,23 +11,23 @@ ms.keywords: Use DirectX..XMVectorExp2, XMVectorExp2, XMVectorExp2 method [Direc
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
 req.namespace: Use DirectX.
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 ms.custom: 19H1
 f1_keywords:
  - XMVectorExp2
@@ -65,24 +65,28 @@ Returns a vector whose components are two raised to the power of the correspondi
 ## -remarks
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
-Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8.1. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
+Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
-<b>XMVectorExp2</b> is new for DirectXMath version 3.05, but it's just a renamed version of the existing <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorexp">XMVectorExp</a> function for Windows 8. 
+<b>XMVectorExp2</b> is new for DirectXMath version 3.05, but it's just a renamed version of the existing <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorexp">XMVectorExp</a> function for Windows 8.
 
 
 
 <b>XMVectorExp2</b> is implemented like this:
 
-<pre class="syntax" xml:space="preserve"><code>
-XMVECTOR Result; 
 
-Result.x = powf(2.0f, V.x);
-Result.y = powf(2.0f, V.y);
-Result.z = powf(2.0f, V.z);
-Result.w = powf(2.0f, V.w);
+``` syntax
+
+XMVECTOR Result;
+
+Result.x = exp2f(V.x);
+Result.y = exp2f(V.y);
+Result.z = exp2f(V.z);
+Result.w = exp2f(V.w);
 
 return Result;
-</code></pre>
+
+```
+
 
 ## -see-also
 
@@ -92,6 +96,6 @@ return Result;
 
 <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorexpe">XMVectorExpE</a>
 
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorexp10">XMVectorExp10</a>
 
 <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorlog2">XMVectorLog2</a>

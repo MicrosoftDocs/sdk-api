@@ -50,7 +50,7 @@ The <b>IDirectDrawSurface7::AddOverlayDirtyRect</b> method is not currently impl
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to a <b>RECT</b> structure for the rectangle to update.
 

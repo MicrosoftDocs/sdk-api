@@ -57,11 +57,11 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Specifies the identifier of a TAPI dialing location.
 
-### -param arg2 [out]
+### -param unnamedParam2 [out]
 
 Pointer to a BOOL variable that receives a nonzero value if AutoDial is enabled for the specified dialing location, or zero if it is not enabled.
 

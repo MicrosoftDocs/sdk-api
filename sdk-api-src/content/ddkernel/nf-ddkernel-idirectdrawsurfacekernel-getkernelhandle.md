@@ -58,7 +58,7 @@ The <b>IDirectDrawSurfaceKernel::GetKernelHandle</b> method returns a kernel-mod
 
 
 
-#### -param arg1
+#### -param unnamedParam1
 
 Caller-supplied pointer into which the kernel-mode handle of the DirectDraw surface is returned.
 

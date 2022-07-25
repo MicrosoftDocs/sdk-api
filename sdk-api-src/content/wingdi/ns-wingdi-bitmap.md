@@ -92,7 +92,9 @@ The bitmap formats currently used are monochrome and color. The monochrome bitma
 
 Scans are organized as follows for a monochrome bitmap of height <i>n</i>:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
     Scan 0 
     Scan 1 
     . 
@@ -100,7 +102,9 @@ Scans are organized as follows for a monochrome bitmap of height <i>n</i>:
     . 
     Scan n-2 
     Scan n-1 
-</code></pre>
+
+```
+
 The pixels on a monochrome device are either black or white. If the corresponding bit in the bitmap is 1, the pixel is set to the foreground color; if the corresponding bit in the bitmap is zero, the pixel is set to the background color.
 
 All devices that have the RC_BITBLT device capability support bitmaps. For more information, see <a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>.

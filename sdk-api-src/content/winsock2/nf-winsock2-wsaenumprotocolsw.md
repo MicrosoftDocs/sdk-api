@@ -59,7 +59,7 @@ The
 
 ### -param lpiProtocols [in]
 
-A <b>NULLl</b>-terminated array of iProtocol values. This parameter is optional; if <i>lpiProtocols</i> is <b>NULL</b>, information on all available protocols is returned. Otherwise, information is retrieved only for those protocols listed in the array.
+A <b>NULL</b>-terminated array of iProtocol values. This parameter is optional; if <i>lpiProtocols</i> is <b>NULL</b>, information on all available protocols is returned. Otherwise, information is retrieved only for those protocols listed in the array.
 
 ### -param lpProtocolBuffer [out]
 

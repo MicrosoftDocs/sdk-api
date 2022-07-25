@@ -182,7 +182,7 @@ If this flag is specified, an application can pass the result of the
 </dl>
 </td>
 <td width="60%">
-Insert sequences in the message definition are to be ignored and passed through to the output buffer 
+Insert sequences in the message definition such as %1 are to be ignored and passed through to the output buffer 
         unchanged. This flag is useful for fetching a message for later formatting. If this flag is set, the 
         <i>Arguments</i> parameter is ignored.
 
@@ -370,7 +370,7 @@ Within the message text, several escape sequences are supported for dynamically 
 <tr>
 <td>%<i>n</i>!<i>format string</i>!</td>
 <td>
-Identifies an insert. The value of <i>n</i> can be in the range from 1 through 99. The 
+Identifies an insert sequence. The value of <i>n</i> can be in the range from 1 through 99. The 
         format string (which must be surrounded by exclamation marks) is optional and defaults to !s! if not 
         specified. For more information, see 
         <a href="/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">Format Specification Fields</a>.

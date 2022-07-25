@@ -55,70 +55,7 @@ Represents the ability to query particular properties of a gesture returned from
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkGesture</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkGesture</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
-
-## -members
-
-The <b>IInkGesture</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-gethotpoint">GetHotPoint</a>
-</td>
-<td align="left" width="63%">
-Retrieves the hot point of the gesture in ink space coordinates.
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkGesture</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="10%">Access type</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-get_confidence">Confidence</a>
-
-
-</td>
-<td align="left" width="10%">
-Read-only
-
-</td>
-<td align="left" width="63%">
-Gets the level of confidence (strong, intermediate, or poor) that a recognizer has in a gesture.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkgesture-get_id">Id</a>
-
-
-</td>
-<td align="left" width="10%">
-Read-only
-
-</td>
-<td align="left" width="63%">
-Gets the value of the application gesture.
-
-</td>
-</tr>
-</table>
+The <b>IInkGesture</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkGesture</b> also has these types of members:
 
 ## -remarks
 

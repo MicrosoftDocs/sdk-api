@@ -106,7 +106,9 @@ The user mode display driver might not immediately offer the resources that you 
 A UWP based application is being suspended to the background and wishes to offer its graphics resources back to the system, in case another application wants them. The application will reclaim these resources when it gets resumed. The application also realizes that the total available system commit is small on this platform, and is willing to allow its resources to be removed from the system commit. If the reclaim process fails because the system is out of memory, the application handles the error condition.  
 
 
-<pre class="syntax" xml:space="preserve"><code>struct Texture 
+
+``` syntax
+struct Texture 
 { 
     UINT32 Width; 
     UINT32 Height; 
@@ -158,7 +160,9 @@ void Application::ReclaimInterfaceResources (ID3D11Device* pD3D11Device)
         } 
     } 
 } 
-</code></pre>
+
+```
+
 
 ## -see-also
 

@@ -82,7 +82,7 @@ If the <i>szDataSource</i> parameter is <b>NULL</b>, you can set <i>szMachineNam
 
 ### -param mszCounterList [out]
 
-Caller-allocated buffer that receives a list of <b>null</b>-terminated counter names provided by the specified object. The list contains unique counter names. The list is terminated by two <b>NULL</b> characters. Set to <b>NULL</b> if the <i>pcchCounterListLength</i>parameter is zero.
+Caller-allocated buffer that receives a list of <b>null</b>-terminated counter names provided by the specified object. The list contains unique counter names. The list is terminated by two <b>NULL</b> characters. Set to <b>NULL</b> if the <i>pcchCounterListLength</i> parameter is zero.
 
 ### -param pcchCounterListLength [in, out]
 

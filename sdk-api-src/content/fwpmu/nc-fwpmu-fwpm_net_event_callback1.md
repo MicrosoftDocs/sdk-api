@@ -55,13 +55,13 @@ The <b>FWPM_NET_EVENT_CALLBACK1</b> function is used to add custom behavior to t
 
 ## -parameters
 
-### -param *context [in, out]
+### -param context [in, out]
 
 Type: <b>void*</b>
 
 Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmneteventsubscribe1">FwpmNetEventSubscribe1</a> function.
 
-### -param *event [in]
+### -param event [in]
 
 Type: <b>const <a href="/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event2_">FWPM_NET_EVENT2</a>*</b>
 

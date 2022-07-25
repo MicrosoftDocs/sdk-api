@@ -54,56 +54,10 @@ Represents a complex shape that may be composed of arcs, curves, and lines.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1PathGeometry</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>. <b>ID2D1PathGeometry</b> also has these types of members:
+The <b>ID2D1PathGeometry</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>. <b>ID2D1PathGeometry</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ID2D1PathGeometry</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1pathgeometry-getfigurecount">GetFigureCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of figures in the path geometry.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1pathgeometry-getsegmentcount">GetSegmentCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of segments in the path geometry.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1pathgeometry-open">Open</a>
-</td>
-<td align="left" width="63%">
-Retrieves the geometry sink that is used to populate the path geometry with figures and segments. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1pathgeometry-stream">Stream</a>
-</td>
-<td align="left" width="63%">
-Copies the contents of the path geometry to the specified <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink">ID2D1GeometrySink</a>.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

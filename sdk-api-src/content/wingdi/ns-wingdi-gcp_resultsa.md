@@ -80,9 +80,13 @@ A pointer to the array that receives the distances between adjacent character ce
 
 The distances in this array are in display order. To find the distance for the <i>i</i><sup>th</sup> character in the original string, use the <b>lpOrder</b> array as follows:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 width = lpDx[lpOrder[i]];
-</code></pre>
+
+```
+
 
 ### -field lpCaretPos
 
@@ -90,9 +94,13 @@ A pointer to the array that receives the caret position values or is <b>NULL</b>
 
 The values in this array are in input order. To find the caret position value for the <i>i</i><sup>th</sup> character in the original string, use the array as follows:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 position = lpCaretPos[i];
-</code></pre>
+
+```
+
 
 ### -field lpClass
 

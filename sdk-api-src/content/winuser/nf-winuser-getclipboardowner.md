@@ -59,7 +59,7 @@ req.apiset: ext-ms-win-ntuser-misc-l1-2-0 (introduced in Windows 8.1)
 
 Retrieves the window handle of the current owner of the clipboard.
 
-## -parameters
+
 
 ## -returns
 

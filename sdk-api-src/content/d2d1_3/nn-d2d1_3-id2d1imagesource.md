@@ -54,39 +54,7 @@ Represents a producer of pixels that can fill an arbitrary 2D plane.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1ImageSource</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>. <b>ID2D1ImageSource</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID2D1ImageSource</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1imagesource-offerresources">OfferResources</a>
-</td>
-<td align="left" width="63%">
-Allows the operating system to free the video memory of resources by discarding their content.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1imagesource-tryreclaimresources">TryReclaimResources</a>
-</td>
-<td align="left" width="63%">
-Restores access to resources that were previously offered by calling <a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1imagesource-offerresources">OfferResources</a>.
-        
-
-</td>
-</tr>
-</table>
+The <b>ID2D1ImageSource</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>. <b>ID2D1ImageSource</b> also has these types of members:
 
 ## -see-also
 

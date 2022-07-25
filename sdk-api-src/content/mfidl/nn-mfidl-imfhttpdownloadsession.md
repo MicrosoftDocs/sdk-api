@@ -57,44 +57,5 @@ Applications implement this interface to override the default implementation of 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFHttpDownloadSession</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFHttpDownloadSession</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFHttpDownloadSession</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFHttpDownloadSession</b> also has these types of members:
 
-## -members
-
-The <b>IMFHttpDownloadSession</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadsession-close">Close</a>
-</td>
-<td align="left" width="63%">
-Invoked by Microsoft Media Foundation to specify that no more HTTP requests will be created, and allows <b>IMFHttpDownloadSession</b> to free any internal resources.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadsession-createrequest">CreateRequest</a>
-</td>
-<td align="left" width="63%">
-Invoked by Microsoft Media Foundation to create an object that implements the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a> interface, which is used to send a single HTTP, or HTTPS request. Since multiple requests may be needed to fully download a resource, Media Foundation may invoke <b>CreateRequest</b> multiple times on the same <b>IMFHttpDownloadSession</b> instance. Media Foundation will use each <b>IMFHttpDownloadRequest</b> instance for only a single request. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadsession-setserver">SetServer</a>
-</td>
-<td align="left" width="63%">
-Called  by Microsoft Media Foundation to specify parameters common to all requests created by this instance of <b>IMFHttpDownloadSession</b>.
-
-</td>
-</tr>
-</table>

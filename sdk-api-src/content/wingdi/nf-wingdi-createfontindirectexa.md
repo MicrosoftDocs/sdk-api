@@ -58,7 +58,7 @@ The <b>CreateFontIndirectEx</b> function specifies a logical font that has the c
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to an <a href="/windows/desktop/api/wingdi/ns-wingdi-enumlogfontexdva">ENUMLOGFONTEXDV</a> structure that defines the characteristics of a multiple master font.
 

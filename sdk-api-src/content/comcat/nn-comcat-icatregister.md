@@ -54,74 +54,7 @@ Provides methods for registering and unregistering component category informatio
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICatRegister</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICatRegister</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ICatRegister</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comcat/nf-comcat-icatregister-registercategories">RegisterCategories</a>
-</td>
-<td align="left" width="63%">
-Registers one or more component categories.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comcat/nf-comcat-icatregister-registerclassimplcategories">RegisterClassImplCategories</a>
-</td>
-<td align="left" width="63%">
-Registers the class as implementing one or more component categories.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comcat/nf-comcat-icatregister-registerclassreqcategories">RegisterClassReqCategories</a>
-</td>
-<td align="left" width="63%">
-Registers the class as requiring one or more component categories.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comcat/nf-comcat-icatregister-unregistercategories">UnRegisterCategories</a>
-</td>
-<td align="left" width="63%">
-Removes the registration of one or more component categories.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comcat/nf-comcat-icatregister-unregisterclassimplcategories">UnRegisterClassImplCategories</a>
-</td>
-<td align="left" width="63%">
-Removes one or more implemented category identifiers from a class.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comcat/nf-comcat-icatregister-unregisterclassreqcategories">UnRegisterClassReqCategories</a>
-</td>
-<td align="left" width="63%">
-Removes one or more required category identifiers from a class.
-
-</td>
-</tr>
-</table>
+The <b>ICatRegister</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICatRegister</b> also has these types of members:
 
 ## -see-also
 

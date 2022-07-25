@@ -54,56 +54,7 @@ Represents additional capabilities of an <a href="/previous-versions/windows/des
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVisualTreeService3</b> interface inherits from <a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService2</a>. <b>IVisualTreeService3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVisualTreeService3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-adddictionaryitem">AddDictionaryItem</a>
-</td>
-<td align="left" width="63%">
-	Adds an item to a <a href="/dotnet/api/system.windows.resourcedictionary?view=netframework-4.8">ResourceDictionary</a>, and re-resolves all elements in the tree that reference a resource with the specified key.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-getdictionaryitem">GetDictionaryItem</a>
-</td>
-<td align="left" width="63%">
-Gets an item from a <a href="/dotnet/api/system.windows.resourcedictionary?view=netframework-4.8">ResourceDictionary</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-removedictionaryitem">RemoveDictionaryItem</a>
-</td>
-<td align="left" width="63%">
-	Removes an item from a <a href="/dotnet/api/system.windows.resourcedictionary?view=netframework-4.8">ResourceDictionary</a>, and re-resolves all elements in the tree that reference a resource with the specified key.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-resolveresource">ResolveResource</a>
-</td>
-<td align="left" width="63%">
-Resolves a resource for an element in the tree and applies the resource to the property provided by the specified property index.
-
-</td>
-</tr>
-</table>
+The <b>IVisualTreeService3</b> interface inherits from <a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService2</a>. <b>IVisualTreeService3</b> also has these types of members:
 
 ## -see-also
 

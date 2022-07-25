@@ -58,75 +58,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetSharingManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetSharingManager</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>INetSharingManager</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_enumeveryconnection">get_EnumEveryConnection</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumeration interface for all connections in the connections folder.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_enumprivateconnections">get_EnumPrivateConnections</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumeration interface for connections that are privately shared.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_enumpublicconnections">get_EnumPublicConnections</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumeration interface for connections that are publicly shared.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_inetsharingconfigurationforinetconnection">get_INetSharingConfigurationForINetConnection</a>
-</td>
-<td align="left" width="63%">
-Retrieves an 
-<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingconfiguration">INetSharingConfiguration</a> interface for a specified connection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_netconnectionprops">get_NetConnectionProps</a>
-</td>
-<td align="left" width="63%">
-Returns a properties interface for a connection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_sharinginstalled">get_SharingInstalled</a>
-</td>
-<td align="left" width="63%">
-Reports whether the operating system supports connection sharing.
-
-</td>
-</tr>
-</table>
+The <b>INetSharingManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetSharingManager</b> also has these types of members:
 
 ## -remarks
 

@@ -54,83 +54,10 @@ Represents a bitmap that has been bound to an <a href="/windows/win32/api/d2d1/n
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Bitmap</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>. <b>ID2D1Bitmap</b> also has these types of members:
+The <b>ID2D1Bitmap</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>. <b>ID2D1Bitmap</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ID2D1Bitmap</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmap-copyfrombitmap">CopyFromBitmap</a>
-</td>
-<td align="left" width="63%">
-Copies the specified region from the specified bitmap into the current bitmap.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmap-copyfrommemory">CopyFromMemory</a>
-</td>
-<td align="left" width="63%">
-Copies the specified region from memory into the current bitmap.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmap-copyfromrendertarget">CopyFromRenderTarget</a>
-</td>
-<td align="left" width="63%">
-Copies the specified region from the specified render target into the current bitmap.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmap-getdpi">GetDpi</a>
-</td>
-<td align="left" width="63%">
-Return the dots per inch (DPI) of the bitmap.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmap-getpixelformat">GetPixelFormat</a>
-</td>
-<td align="left" width="63%">
-Retrieves the pixel format and alpha mode of the bitmap.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmap-getpixelsize">GetPixelSize</a>
-</td>
-<td align="left" width="63%">
-Returns the size, in device-dependent units (pixels), of the bitmap.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmap-getsize">GetSize</a>
-</td>
-<td align="left" width="63%">
-Returns the size, in device-independent pixels (DIPs), of the bitmap.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

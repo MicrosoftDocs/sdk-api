@@ -56,6 +56,9 @@ Gets and sets a Boolean value that indicates whether the search results  include
 
 This property is read/write.
 
+> [!NOTE]
+> This property is no longer supported in Windows 10, version 1709 (build 16299), and later OS releases.
+
 ## -parameters
 
 ## -see-also

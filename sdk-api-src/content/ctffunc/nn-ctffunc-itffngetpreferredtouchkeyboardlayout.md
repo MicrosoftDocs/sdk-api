@@ -58,29 +58,7 @@ If the function is not supported by the IME, then the touch keyboard will show t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnGetPreferredTouchKeyboardLayout</b> interface inherits from <a href="/windows/desktop/api/msctf/nn-msctf-itffunction">ITfFunction</a>. <b>ITfFnGetPreferredTouchKeyboardLayout</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfFnGetPreferredTouchKeyboardLayout</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffngetpreferredtouchkeyboardlayout-getlayout">GetLayout</a>
-</td>
-<td align="left" width="63%">
-Obtains the touch keyboard layout identifier of the layout that the IME directs the touch keyboard to show while the IME is active.
-
-</td>
-</tr>
-</table>
+The <b>ITfFnGetPreferredTouchKeyboardLayout</b> interface inherits from <a href="/windows/desktop/api/msctf/nn-msctf-itffunction">ITfFunction</a>. <b>ITfFnGetPreferredTouchKeyboardLayout</b> also has these types of members:
 
 ## -remarks
 

@@ -72,7 +72,7 @@ Pointer to a <b>null</b>-terminated string that specifies the name of the phone-
 If you are editing or copying an entry, this parameter is the name of an existing phone-book entry. If you are copying an entry, set the <b>RASEDFLAG_CloneEntry</b> flag in the <b>dwFlags</b> member of the 
 <a href="/previous-versions/windows/desktop/legacy/aa377023(v=vs.85)">RASENTRYDLG</a> structure.
 
-<div class="alert"><b>Note</b>  The R<b>RASEDFLAG_CloneEntry</b> flag has been deprecated, as of 
+<div class="alert"><b>Note</b>  The <b>RASEDFLAG_CloneEntry</b> flag has been deprecated, as of 
   Windows Vista and Windows Server 2008. It may be altered or unavailable in subsequent versions. Instead, copy an entry by calling <a href="/windows/desktop/api/ras/nf-ras-rasgetentrypropertiesa">RasGetEntryProperties</a> to get the entry and then calling <a href="/windows/desktop/api/ras/nf-ras-rassetentrypropertiesa">RasSetEntryProperties</a> to save the entry with a new name.</div>
 <div> </div>
 If you are creating an entry, this parameter is a default new entry name that the user can change. If this parameter is <b>NULL</b>, the function provides a default name. If you are creating an entry, set the <b>RASEDFLAG_NewEntry</b> flag in the <b>dwFlags</b> member of the 

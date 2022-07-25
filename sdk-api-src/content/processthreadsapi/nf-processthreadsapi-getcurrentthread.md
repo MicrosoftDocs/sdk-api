@@ -59,7 +59,7 @@ api_name:
 
 Retrieves a pseudo handle for the calling thread.
 
-## -parameters
+
 
 ## -returns
 

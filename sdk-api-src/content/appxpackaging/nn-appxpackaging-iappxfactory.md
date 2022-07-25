@@ -54,65 +54,7 @@ Creates objects for reading and writing app packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxFactory</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAppxFactory</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfactory-createblockmapreader">CreateBlockMapReader</a>
-</td>
-<td align="left" width="63%">
-Creates a read-only block map object model from contents provided by an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfactory-createmanifestreader">CreateManifestReader</a>
-</td>
-<td align="left" width="63%">
-Creates a read-only manifest object model from contents provided by an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfactory-createpackagereader">CreatePackageReader</a>
-</td>
-<td align="left" width="63%">
-Creates a read-only package reader from the contents provided by an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>. This method does not validate the <a href="/previous-versions/windows/hh464986(v=win.10)">digital signature</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfactory-createpackagewriter">CreatePackageWriter</a>
-</td>
-<td align="left" width="63%">
-Creates a write-only package object to which  files can be added.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfactory-createvalidatedblockmapreader">CreateValidatedBlockMapReader</a>
-</td>
-<td align="left" width="63%">
-Creates a read-only block map object model from contents provided by an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> and a digital signature.
-
-</td>
-</tr>
-</table>
+The <b>IAppxFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxFactory</b> also has these types of members:
 
 ## -remarks
 

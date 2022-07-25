@@ -52,7 +52,7 @@ api_name:
 
 Gets the feature level of the hardware device.
 
-## -parameters
+
 
 ## -returns
 

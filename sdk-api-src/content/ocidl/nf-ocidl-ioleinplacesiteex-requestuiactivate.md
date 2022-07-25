@@ -53,7 +53,7 @@ api_name:
 
 Notifies the container that the object is about to enter the UI-active state.
 
-## -parameters
+
 
 ## -returns
 

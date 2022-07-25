@@ -52,7 +52,7 @@ api_name:
 
 Refreshes the object.
 
-## -parameters
+
 
 ## -returns
 

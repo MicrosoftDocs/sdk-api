@@ -54,47 +54,7 @@ The <b>IAudioEndpointOffloadStreamVolume</b> interface allows the client applica
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpointOffloadStreamVolume</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpointOffloadStreamVolume</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAudioEndpointOffloadStreamVolume</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreamvolume-getchannelvolumes">GetChannelVolumes</a>
-</td>
-<td align="left" width="63%">
-Retrieves the volume levels for the various audio channels in the offloaded stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreamvolume-getvolumechannelcount">GetVolumeChannelCount</a>
-</td>
-<td align="left" width="63%">
-Returns the number of available audio channels in the offloaded stream for which the volume levels can be manipulated by the client.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreamvolume-setchannelvolumes">SetChannelVolumes</a>
-</td>
-<td align="left" width="63%">
-Sets the volume levels for the various audio channels in the offloaded stream.
-
-</td>
-</tr>
-</table>
+The <b>IAudioEndpointOffloadStreamVolume</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpointOffloadStreamVolume</b> also has these types of members:
 
 ## -see-also
 

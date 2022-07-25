@@ -70,7 +70,7 @@ Number of elements in the <b>rgSigners</b> array.
 ### -field rgSigners
 
 Array of pointers to 
-			   <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a>structures each holding signer information.
+			   <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a> structures each holding signer information.
 
 ### -field cCertEncoded
 

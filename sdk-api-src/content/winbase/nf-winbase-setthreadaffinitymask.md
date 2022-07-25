@@ -90,6 +90,8 @@ Setting an affinity mask for a process or thread can result in threads receiving
 
 If the new thread affinity mask does not specify the processor that is currently running the thread, the thread is rescheduled on one of the allowable processors.
 
+Starting with Windows 11 and Windows Server 2022, on a system with more than 64 processors, process and thread affinities span all processors in the system, across all <a href="/windows/desktop/ProcThread/processor-groups">processor groups</a>, by default. The <i>dwThreadAffinityMask</i> must specify processors in the thread's current primary group.
+
 ## -see-also
 
 <a href="/windows/desktop/api/winbase/nf-winbase-getprocessaffinitymask">GetProcessAffinityMask</a>

@@ -54,45 +54,5 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFile</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontFile</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDWriteFontFile</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontfile-analyze">Analyze</a>
-</td>
-<td align="left" width="63%">
- Analyzes a file and returns whether it represents a font, and whether the font type is supported by the font system.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontfile-getloader">GetLoader</a>
-</td>
-<td align="left" width="63%">
- Obtains the file loader associated with a font file object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontfile-getreferencekey">GetReferenceKey</a>
-</td>
-<td align="left" width="63%">
- Obtains the pointer to the reference key of a font file. The returned pointer is valid until the font file object is released. 
-
-</td>
-</tr>
-</table>
+The <b>IDWriteFontFile</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontFile</b> also has these types of members:
 

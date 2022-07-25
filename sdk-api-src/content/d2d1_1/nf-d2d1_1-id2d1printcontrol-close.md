@@ -53,7 +53,7 @@ api_name:
 
 Passes all remaining resources to the print sub-system, then clean up and close the current print job.
 
-## -parameters
+
 
 ## -returns
 

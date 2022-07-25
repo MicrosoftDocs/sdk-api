@@ -52,7 +52,7 @@ api_name:
 
 Makes the surface that the GDI writes to the primary surface.
 
-## -parameters
+
 
 ## -returns
 

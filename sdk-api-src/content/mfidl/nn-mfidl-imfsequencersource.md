@@ -55,65 +55,7 @@ Implemented by the <a href="/windows/desktop/medfound/sequencer-source">Sequence
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSequencerSource</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSequencerSource</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFSequencerSource</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-appendtopology">AppendTopology</a>
-</td>
-<td align="left" width="63%">
-Adds a topology to the end of the queue of topologies.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-deletetopology">DeleteTopology</a>
-</td>
-<td align="left" width="63%">
-Deletes a topology from the queue.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-getpresentationcontext">GetPresentationContext</a>
-</td>
-<td align="left" width="63%">
-Maps a presentation descriptor to its associated sequencer element identifier and topology.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-updatetopology">UpdateTopology</a>
-</td>
-<td align="left" width="63%">
-Updates a topology in the queue.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-updatetopologyflags">UpdateTopologyFlags</a>
-</td>
-<td align="left" width="63%">
-Updates the flags for a topology in the queue.
-
-</td>
-</tr>
-</table>
+The <b>IMFSequencerSource</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSequencerSource</b> also has these types of members:
 
 ## -see-also
 

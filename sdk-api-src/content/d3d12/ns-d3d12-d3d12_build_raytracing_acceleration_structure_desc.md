@@ -60,7 +60,8 @@ Location to store resulting acceleration structure.  <a href="/windows/desktop/a
 
 The address must be aligned to 256 bytes, defined as <a href="/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BYTE_ALIGNMENT</a>.
 
-The memory pointed to must be in state <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE</a>.
+> [!IMPORTANT]
+> The memory must be in state [**D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states).
 
 ### -field Inputs
 
@@ -74,12 +75,14 @@ If this address is the same as <i>DestAccelerationStructureData</i>, the update 
 
 The address must be aligned to 256 bytes, defined as <a href="/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BYTE_ALIGNMENT</a>, which should automatically be the case because any existing acceleration structure passed in here would have already been required to be placed with such alignment.
 
-The memory pointed to must be in state <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE</a>. 
-
-
+> [!IMPORTANT]
+> The memory must be in state [**D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states).
 
 #### ScratchAccelerationStructureData
 
 Location where the build will store temporary data.  <b>GetRaytracingAccelerationStructurePrebuildInfo</b> reports the amount of scratch memory the implementation will need for a given set of acceleration structure build parameters.
+
+> [!IMPORTANT]
+> The memory must be in state [**D3D12_RESOURCE_STATE_UNORDERED_ACCESS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states).
 
 ### -field ScratchAccelerationStructureData

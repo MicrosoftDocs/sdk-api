@@ -66,7 +66,7 @@ Pointer to a value that receives the number of algorithm OID strings in the buff
 
 Pointer to a value that contains the size, in bytes, of the buffer specified by the <i>AlgorithmBuffer</i> parameter. The size includes the two <b>NULL</b> values that terminate the buffer.
 
-### -param *AlgorithmBuffer [out]
+### -param AlgorithmBuffer [out]
 
 Address of a variable that receives a pointer to a buffer that contains packed, <b>NULL</b>-terminated ANSI strings. Each string represents an OID for a hash algorithm. The final string in the buffer must be terminated by two successive <b>NULL</b> values.
 

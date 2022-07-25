@@ -54,7 +54,7 @@ Represents the types of information that can be queried with the <a href="/windo
 
 ## -enum-fields
 
-### -field SL_REFERRALTYPE_SKUID
+### -field SL_REFERRALTYPE_SKUID:0
 
 ### -field SL_REFERRALTYPE_APPID
 

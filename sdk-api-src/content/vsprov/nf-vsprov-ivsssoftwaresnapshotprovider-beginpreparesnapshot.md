@@ -65,7 +65,7 @@ Identifier of the shadow copy to be created.
 
 ### -param pwszVolumeName [in]
 
-Null-terminated wide character string containing the volume name. The name must be in one of the following formats and must include a trailing backslash (\): 
+Null-terminated wide character string containing the volume name. The name must be in one of the following formats and must include a trailing backslash (\\): 
 
 
 

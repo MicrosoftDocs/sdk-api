@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -371,7 +371,7 @@ If the <i>lpName</i> parameter matches the name of an existing event, semaphore,
 
 The name can have a "Global\" or "Local\" prefix to explicitly create the 
         object in the global or session namespace. The remainder of the name can contain any character except the 
-        backslash character (\). Creating a file mapping object in the global namespace requires the 
+        backslash character (\\). Creating a file mapping object in the global namespace requires the 
         <a href="/windows/desktop/SecAuthZ/authorization-constants">SeCreateGlobalPrivilege</a> 
         privilege. For more information, see 
         <a href="/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>.
@@ -409,7 +409,7 @@ If the function succeeds, the return value is a handle to the file mapping objec
 
 If the object exists 
        before the function call, the function returns a handle to the existing object (with its current size, not the 
-       specified size) and the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>function returns <b>ERROR_ALREADY_EXISTS</b>.
+       specified size) and the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns <b>ERROR_ALREADY_EXISTS</b>.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, 
        call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.

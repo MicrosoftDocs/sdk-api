@@ -58,7 +58,7 @@ Updates the credentials associated with the specified context.
 
 A handle to the context to update.
 
-### -param *CredType [in]
+### -param CredType [in]
 
 The type of credential specified by the <i>ContextHandle</i> parameter. This can be one of the following values.
 

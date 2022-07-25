@@ -52,7 +52,7 @@ api_name:
 
  Obtains the algorithmic style simulation flags of a font face.
 
-## -parameters
+
 
 ## -returns
 

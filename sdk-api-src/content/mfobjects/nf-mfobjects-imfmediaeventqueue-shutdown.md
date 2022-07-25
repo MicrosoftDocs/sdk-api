@@ -53,7 +53,7 @@ api_name:
 
 Shuts down the event queue.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ Copies values from another [BoundingFrustum](./ns-directxcollision-boundingfrust
 
 ## -parameters
 
-### -param arg1 [in, ref]
+### -param unnamedParam1 [in, ref]
 
 The [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) to copy values from.
 

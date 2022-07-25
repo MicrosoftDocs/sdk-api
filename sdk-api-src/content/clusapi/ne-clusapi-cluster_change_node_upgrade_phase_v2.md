@@ -55,15 +55,15 @@ Defines the notifications that are generated for the upgrade of a cluster node.
 
 ## -enum-fields
 
-### -field CLUSTER_CHANGE_UPGRADE_NODE_PREPARE
+### -field CLUSTER_CHANGE_UPGRADE_NODE_PREPARE:0x00000001
 
 Indicates that the upgrade is being prepared.
 
-### -field CLUSTER_CHANGE_UPGRADE_NODE_COMMIT
+### -field CLUSTER_CHANGE_UPGRADE_NODE_COMMIT:0x00000002
 
 Indicates that the upgrade is in progress.
 
-### -field CLUSTER_CHANGE_UPGRADE_NODE_POSTCOMMIT
+### -field CLUSTER_CHANGE_UPGRADE_NODE_POSTCOMMIT:0x00000004
 
 Indicates that the upgrade is finished.
 

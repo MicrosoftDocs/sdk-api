@@ -55,7 +55,7 @@ api_name:
 
 The <b>enumPendingRequest</b> method enumerates pending <a href="/windows/desktop/SecGloss/c-gly">certificate requests</a> and retrieves a specified property from each.
 			
-		This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
+This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
 
 ## -parameters
 

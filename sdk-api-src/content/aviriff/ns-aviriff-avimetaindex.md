@@ -58,7 +58,7 @@ The base structure for an AVI 2.0 index ('indx' format).
 
 ### -field fcc
 
-A <b>FOURCC</b> code. The value is either  'indx' or '<i>nn</i>ix', where <i>nn</i> is the stream number.
+A <b>FOURCC</b> code. The value is either 'indx' or '<i>nn</i>ix', where <i>nn</i> is the stream number.
 
 ### -field cb
 

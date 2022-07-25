@@ -52,7 +52,7 @@ api_name:
 
 Restores a surface that has been lost. This occurs when the surface memory that is associated with the DirectDrawSurface object has been freed.
 
-## -parameters
+
 
 ## -returns
 

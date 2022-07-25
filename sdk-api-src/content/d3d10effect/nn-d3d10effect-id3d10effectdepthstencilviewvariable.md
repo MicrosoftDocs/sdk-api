@@ -55,56 +55,7 @@ A depth-stencil-view-variable interface accesses a depth-stencil view.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectDepthStencilViewVariable</b> interface inherits from <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable</a>. <b>ID3D10EffectDepthStencilViewVariable</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D10EffectDepthStencilViewVariable</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectdepthstencilviewvariable-getdepthstencil">GetDepthStencil</a>
-</td>
-<td align="left" width="63%">
-Get a depth-stencil-view resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectdepthstencilviewvariable-getdepthstencilarray">GetDepthStencilArray</a>
-</td>
-<td align="left" width="63%">
-Get an array of depth-stencil-view resources.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectdepthstencilviewvariable-setdepthstencil">SetDepthStencil</a>
-</td>
-<td align="left" width="63%">
-Set a depth-stencil-view resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectdepthstencilviewvariable-setdepthstencilarray">SetDepthStencilArray</a>
-</td>
-<td align="left" width="63%">
-Set an array of depth-stencil-view resources.
-
-</td>
-</tr>
-</table>
+The <b>ID3D10EffectDepthStencilViewVariable</b> interface inherits from <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable</a>. <b>ID3D10EffectDepthStencilViewVariable</b> also has these types of members:
 
 ## -see-also
 

@@ -60,4 +60,3 @@ Used to query a DirectML device for its support for a particular data type withi
 Type: [**DML_TENSOR_DATA_TYPE**](/windows/win32/api/directml/ne-directml-dml_tensor_data_type)
 
 The data type about which you're querying for support.
-

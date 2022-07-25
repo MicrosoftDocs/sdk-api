@@ -52,7 +52,7 @@ api_name:
 
 Shuts down the animation manager and all its associated objects.
 
-## -parameters
+
 
 ## -returns
 

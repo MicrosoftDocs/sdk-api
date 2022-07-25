@@ -61,7 +61,7 @@ Contains extended information about a drive's partitions.
 
 The style of the partitions on the drive enumerated by the [**PARTITION_STYLE**](ne-winioctl-partition_style.md) enumeration.
 
-| Value | | Meaning |
+| Style | Value | Meaning |
 | --- | --- | --- |
 | **PARTITION_STYLE_MBR** | 0 | Master boot record (MBR) format.|
 | **PARTITION_STYLE_GPT** | 1 | GUID Partition Table (GPT) format. |

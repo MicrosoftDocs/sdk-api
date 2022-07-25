@@ -59,15 +59,15 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Handle to the parent window of the dialog box.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the<b> Dial-Up Networking</b> dialog box.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Pointer to a null-terminated string that specifies the name of an existing entry in the phone-book file.
 

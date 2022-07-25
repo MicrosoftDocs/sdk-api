@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: WindowsApp.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -168,7 +168,7 @@ A placeholder is a type of reserved memory region.
 </td>
 <td width="60%">
  To create a placeholder, call 
-         <a href="https://msdn.microsoft.com/en-us/library/Mt832849(v=VS.85).aspx">VirtualAlloc2</a> with 
+         <a href="../memoryapi/nf-memoryapi-virtualalloc2.md">VirtualAlloc2</a> with 
          <code>MEM_RESERVE | MEM_RESERVE_PLACEHOLDER</code> and <i>PageProtection</i> set to <b>PAGE_NOACCESS</b>. To free/split/coalesce a placeholder, see the <i>dwFreeType</i> parameter of <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a> and <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a>.
 
 A placeholder is a type of reserved memory region.

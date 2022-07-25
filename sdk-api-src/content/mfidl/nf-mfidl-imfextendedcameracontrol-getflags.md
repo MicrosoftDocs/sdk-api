@@ -2,7 +2,6 @@
 UID: NF:mfidl.IMFExtendedCameraControl.GetFlags
 title: IMFExtendedCameraControl::GetFlags
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Queries for property flags on the capture device.
 tech.root: mf
@@ -19,8 +18,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -43,6 +42,8 @@ dev_langs:
 ## -description
 
 Queries for property flags on the capture device.
+
+
 
 ## -returns
 

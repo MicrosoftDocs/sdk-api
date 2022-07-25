@@ -56,29 +56,7 @@ Object constructor strings should not be used to store security-sensitive inform
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectConstructString</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IObjectConstructString</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IObjectConstructString</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectconstructstring-get_constructstring">get_ConstructString</a>
-</td>
-<td align="left" width="63%">
-Retrieves the constructor string for the object.
-
-</td>
-</tr>
-</table>
+The <b>IObjectConstructString</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IObjectConstructString</b> also has these types of members:
 
 ## -see-also
 

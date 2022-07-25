@@ -54,29 +54,7 @@ Provides a method for interacting with back references held by an object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectWithBackReferences</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectWithBackReferences</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IObjectWithBackReferences</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iobjectwithbackreferences-removebackreferences">RemoveBackReferences</a>
-</td>
-<td align="left" width="63%">
-Removes all back references held by an object.
-
-</td>
-</tr>
-</table>
+The <b>IObjectWithBackReferences</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectWithBackReferences</b> also has these types of members:
 
 ## -remarks
 

@@ -71,7 +71,7 @@ This property is different from the <a href="/windows/desktop/api/msinkaut/nf-ms
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="../inked/nn-inked-iinkedit.md">IInkEdit</a>
 
 
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>back</b> method returns the display from a submenu to its parent menu.
 
-## -parameters
+
 
 ## -returns
 

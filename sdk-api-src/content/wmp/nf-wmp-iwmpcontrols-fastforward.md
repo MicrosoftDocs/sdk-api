@@ -52,7 +52,7 @@ api_name:
 
 The <b>fastForward</b> method starts fast play of the media item in the forward direction.
 
-## -parameters
+
 
 ## -returns
 

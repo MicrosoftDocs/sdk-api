@@ -57,23 +57,23 @@ Invoked by service model to delegate to the service
 
 ## -parameters
 
-### -param *context [in]
+### -param context [in]
 
 The <a href="/windows/desktop/wsw/ws-operation-context">context</a> within which this callback is being invoked.
 
-### -param *frame [in]
+### -param frame [in]
 
 Pointer to the method frame.
 
-### -param *callback [in]
+### -param callback [in]
 
 Pointer to the callback function to which the stub function corresponds to.
 
-### -param *asyncContext [in, optional]
+### -param asyncContext [in, optional]
 
 Specifies whether the callback can run asynchronously.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 

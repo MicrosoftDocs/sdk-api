@@ -54,29 +54,7 @@ Enables Windows Store apps to opt out of the automatic invocation behavior.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInputPanelInvocationConfiguration</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInputPanelInvocationConfiguration</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IInputPanelInvocationConfiguration</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/inputpanelconfiguration/nf-inputpanelconfiguration-iinputpanelinvocationconfiguration-requiretouchineditcontrol">RequireTouchInEditControl</a>
-</td>
-<td align="left" width="63%">
-Requires an explicit user tap in an edit field before the touch keyboard invokes.
-
-</td>
-</tr>
-</table>
+The <b>IInputPanelInvocationConfiguration</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInputPanelInvocationConfiguration</b> also has these types of members:
 
 ## -remarks
 

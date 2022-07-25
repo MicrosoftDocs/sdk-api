@@ -54,47 +54,7 @@ Represents a family of related fonts.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFamily</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontlist">IDWriteFontList</a>. <b>IDWriteFontFamily</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDWriteFontFamily</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontfamily-getfamilynames">GetFamilyNames</a>
-</td>
-<td align="left" width="63%">
- Creates a localized strings object that contains the family names for the font family, indexed by locale name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontfamily-getfirstmatchingfont">GetFirstMatchingFont</a>
-</td>
-<td align="left" width="63%">
- Gets the font that best matches the specified properties.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontfamily-getmatchingfonts">GetMatchingFonts</a>
-</td>
-<td align="left" width="63%">
- Gets a list of fonts in the font family ranked in order of how well they match the specified properties.
-
-</td>
-</tr>
-</table>
+The <b>IDWriteFontFamily</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontlist">IDWriteFontList</a>. <b>IDWriteFontFamily</b> also has these types of members:
 
 ## -remarks
 

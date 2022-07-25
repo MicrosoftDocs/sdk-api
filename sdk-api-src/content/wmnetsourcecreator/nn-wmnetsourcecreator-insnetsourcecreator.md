@@ -61,82 +61,10 @@ To get a pointer to the <b>INSNetSourceCreator</b> interface, call <a href="/win
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INSNetSourceCreator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INSNetSourceCreator</b> also has these types of members:
+The <b>INSNetSourceCreator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INSNetSourceCreator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>INSNetSourceCreator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>CreateNetSource</b></td>
-<td align="left" width="63%">
-Reserved.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmnetsourcecreator/nf-wmnetsourcecreator-insnetsourcecreator-getnetsourceadmininterface">GetNetSourceAdminInterface</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to an administrative network source object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>GetNetSourceProperties</b></td>
-<td align="left" width="63%">
-Reserved.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>GetNetSourceSharedNamespace</b></td>
-<td align="left" width="63%">
-Reserved.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>GetNumProtocolsSupported</b></td>
-<td align="left" width="63%">
-Reserved.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>GetProtocolName</b></td>
-<td align="left" width="63%">
-Reserved.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmnetsourcecreator/nf-wmnetsourcecreator-insnetsourcecreator-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the network source creator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmnetsourcecreator/nf-wmnetsourcecreator-insnetsourcecreator-shutdown">Shutdown</a>
-</td>
-<td align="left" width="63%">
-Shuts down the network source creator.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

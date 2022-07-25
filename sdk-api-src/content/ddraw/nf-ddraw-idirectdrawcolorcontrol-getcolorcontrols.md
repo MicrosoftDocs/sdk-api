@@ -50,7 +50,7 @@ Retrieves the current color-control settings that are associated with an overlay
 
 ## -parameters
 
-### -param arg1 [in, out]
+### -param unnamedParam1 [in, out]
 
 A pointer to a <a href="/previous-versions/windows/hardware/drivers/ff549237(v=vs.85)">DDCOLORCONTROL</a> structure that receives the current control settings.
 

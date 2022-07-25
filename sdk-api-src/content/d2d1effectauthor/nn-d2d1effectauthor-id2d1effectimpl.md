@@ -55,47 +55,7 @@ Allows a custom effect's interface and behavior to be specified by the effect au
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1EffectImpl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1EffectImpl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID2D1EffectImpl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectimpl-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-The effect can use this method to do one time initialization tasks.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectimpl-prepareforrender">PrepareForRender</a>
-</td>
-<td align="left" width="63%">
-Prepares an effect for the rendering process.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectimpl-setgraph">SetGraph</a>
-</td>
-<td align="left" width="63%">
-The renderer calls this method to provide the effect implementation with a way to specify  its transform graph and transform graph changes. 
-
-</td>
-</tr>
-</table>
+The <b>ID2D1EffectImpl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1EffectImpl</b> also has these types of members:
 
 ## -remarks
 

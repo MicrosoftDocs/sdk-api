@@ -3,7 +3,7 @@
   "headers": [
     "httpserv.h",
     "http.h",
-    "httpp.h",
+    "httpp.h"
   ],
   "displayName": "HTTP Server API"
 }

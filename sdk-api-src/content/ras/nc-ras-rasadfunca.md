@@ -57,13 +57,13 @@ The
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
-### -param Arg2
+### -param unnamedParam2
 
-### -param Arg3
+### -param unnamedParam3
 
-### -param Arg4
+### -param unnamedParam4
 
 #### - lpAutoDialParams [in]
 

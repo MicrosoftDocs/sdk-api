@@ -59,7 +59,7 @@ api_name:
 
 Retrieves the process identifier of the calling process.
 
-## -parameters
+
 
 ## -returns
 

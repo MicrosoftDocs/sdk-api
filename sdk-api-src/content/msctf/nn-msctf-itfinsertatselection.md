@@ -54,35 +54,5 @@ The <b>ITfInsertAtSelection</b> interface is implemented by the manager and is u
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfInsertAtSelection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfInsertAtSelection</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITfInsertAtSelection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfInsertAtSelection</b> also has these types of members:
 
-## -members
-
-The <b>ITfInsertAtSelection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-insertembeddedatselection">InsertEmbeddedAtSelection</a>
-</td>
-<td align="left" width="63%">
-Inserts an IDataObject object at the selection or insertion point.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-inserttextatselection">InsertTextAtSelection</a>
-</td>
-<td align="left" width="63%">
-Inserts text at the selection or insertion point.
-
-</td>
-</tr>
-</table>

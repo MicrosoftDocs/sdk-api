@@ -48,7 +48,7 @@ api_name:
 
 Gets the [D3D12_VIDEO_DECODER_DESC](ns-d3d12video-d3d12_video_decoder_desc.md) structure that was passed into [ID3D12VideoDevice::CreateVideoDecoder](nf-d3d12video-id3d12videodevice-createvideodecoder.md) when the [ID3D12VideoDecoder](nn-d3d12video-id3d12videodecoder.md) was created.
 
-## -parameters
+
 
 ## -returns
 

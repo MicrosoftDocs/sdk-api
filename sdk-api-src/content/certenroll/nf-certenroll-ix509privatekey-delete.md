@@ -52,7 +52,7 @@ api_name:
 
 The <b>Delete</b> method releases the handle of the cryptographic service provider (CSP) or the handle of the Cryptography API: Next Generation (CNG) key storage provider (KSP) and deletes the key from disk or smart card.
 
-## -parameters
+
 
 ## -returns
 

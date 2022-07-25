@@ -57,7 +57,7 @@ Retrieves the binding properties for a dispatchable object (an operator initiali
 When called on an operator initializer, the binding properties of the object may be different if retrieved both before and after a call
         to [IDMLOperatorInitializer::Reset](/windows/win32/api/directml/nf-directml-idmloperatorinitializer-reset).
 
-## -parameters
+
 
 ## -returns
 
@@ -67,9 +67,6 @@ A [DML_BINDING_PROPERTIES](/windows/win32/api/directml/ns-directml-dml_binding_p
 
 ## -see-also
 
-<a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
-
-
+<a href="/windows/ai/directml/dml-binding">Binding in DirectML</a>
 
 [IDMLDispatchable](/windows/win32/api/directml/nn-directml-idmldispatchable)
-

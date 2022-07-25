@@ -56,7 +56,7 @@ Retrieves information about errors. Applications use the information for user no
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Handle to the input context.
 

@@ -65,7 +65,7 @@ Number of indices to draw.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Index of the first index to use when accesssing the vertex buffer; begin at <i>StartIndexLocation</i> to index vertices from the vertex buffer.
+Index of the first index to use when accessing the vertex buffer; begin at <i>StartIndexLocation</i> to index vertices from the vertex buffer.
 
 ### -param BaseVertexLocation [in]
 

@@ -58,47 +58,10 @@ The <code>IAMExtendedErrorInfo</code> interface is used to obtain error informat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMExtendedErrorInfo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMExtendedErrorInfo</b> also has these types of members:
+The <b>IAMExtendedErrorInfo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMExtendedErrorInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IAMExtendedErrorInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamextendederrorinfo-get_errorcode">get_ErrorCode</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current error code.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamextendederrorinfo-get_errordescription">get_ErrorDescription</a>
-</td>
-<td align="left" width="63%">
-Retrieves the error description.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamextendederrorinfo-get_haserror">get_HasError</a>
-</td>
-<td align="left" width="63%">
-Queries whether an error occurred.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

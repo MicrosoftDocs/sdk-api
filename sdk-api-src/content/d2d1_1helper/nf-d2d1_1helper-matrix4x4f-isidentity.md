@@ -52,7 +52,7 @@ api_name:
 
 Indicates whether this matrix is the identity matrix.
 
-## -parameters
+
 
 ## -returns
 

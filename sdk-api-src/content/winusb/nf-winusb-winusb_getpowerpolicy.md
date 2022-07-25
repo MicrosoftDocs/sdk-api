@@ -105,7 +105,7 @@ The suspend delay policy parameter specifies the minimum amount of time, in mill
 
 ### -param ValueLength [in, out]
 
-A pointer to the size of the buffer that <i>Value</i>. On output, <i>ValueLength</i> receives the size of the data that was copied into the <i>Value </i>buffer.
+A pointer to the size of the buffer that <i>Value</i>. On output, <i>ValueLength</i> receives the size of the data that was copied into the <i>Value </i> buffer.
 
 ### -param Value [out]
 

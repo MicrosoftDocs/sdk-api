@@ -57,65 +57,10 @@ The <b>IDVB_TOT</b> interface enables the client to get information from a time 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVB_TOT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDVB_TOT</b> also has these types of members:
+The <b>IDVB_TOT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDVB_TOT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IDVB_TOT</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_tot-getcountoftabledescriptors">GetCountOfTableDescriptors</a>
-</td>
-<td align="left" width="63%">
-Returns the number of descriptors in the TOT.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/dd389886(v=vs.85)">GetTableDescriptorByIndex</a>
-</td>
-<td align="left" width="63%">
-Retrieves a descriptor for the TOT.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_tot-gettabledescriptorbytag">GetTableDescriptorByTag</a>
-</td>
-<td align="left" width="63%">
-Searches the TOT for a descriptor with the specified descriptor tag.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_tot-getutctime">GetUTCTime</a>
-</td>
-<td align="left" width="63%">
-Returns the current UTC time and date.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_tot-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the object.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

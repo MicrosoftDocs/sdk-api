@@ -77,7 +77,7 @@ If the function fails, the return value is a
 ## -remarks
 
 Note that the dialog
-   box can return PDH_DIALOG_CANCELLED if <b>bSingleCounterPerDialog</b>is <b>FALSE</b> and the user clicks the <b>Close</b> button, so your error handling would have to account for this.
+   box can return PDH_DIALOG_CANCELLED if <b>bSingleCounterPerDialog</b> is <b>FALSE</b> and the user clicks the <b>Close</b> button, so your error handling would have to account for this.
 
 
 

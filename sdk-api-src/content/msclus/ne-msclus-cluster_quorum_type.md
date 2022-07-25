@@ -39,7 +39,6 @@ topic_type:
 api_type:
  - <TBD>
 api_location:
- - 
 api_name:
  - CLUSTER_QUORUM_TYPE
 ---
@@ -53,7 +52,7 @@ The type of quorum resource to be created.
 
 ## -enum-fields
 
-### -field OperationalQuorum
+### -field OperationalQuorum:0
 
 TBD
 

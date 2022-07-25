@@ -54,38 +54,7 @@ Extends the  <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextEditProvider</b> interface inherits from <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider">ITextProvider</a>. <b>ITextEditProvider</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITextEditProvider</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itexteditprovider-getactivecomposition">GetActiveComposition</a>
-</td>
-<td align="left" width="63%">
-Returns the active composition.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itexteditprovider-getconversiontarget">GetConversionTarget</a>
-</td>
-<td align="left" width="63%">
-Returns the current conversion target range.
-
-</td>
-</tr>
-</table>
+The <b>ITextEditProvider</b> interface inherits from <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider">ITextProvider</a>. <b>ITextEditProvider</b> also has these types of members:
 
 ## -remarks
 

@@ -54,38 +54,10 @@ The <b>IWMPServices</b> interface is implemented by Windows Media Player. It pro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPServices</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPServices</b> also has these types of members:
+The <b>IWMPServices</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPServices</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMPServices</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmpservices-getstreamstate">GetStreamState</a>
-</td>
-<td align="left" width="63%">
-Returns a value that represents the current stream state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmpservices-getstreamtime">GetStreamTime</a>
-</td>
-<td align="left" width="63%">
-Returns a value that indicates the current stream time.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

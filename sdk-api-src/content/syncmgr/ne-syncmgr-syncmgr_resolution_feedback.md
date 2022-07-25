@@ -54,7 +54,7 @@ Describes Sync Manager resolution feedback. Used by <a href="/windows/desktop/ap
 
 ## -enum-fields
 
-### -field SYNCMGR_RF_CONTINUE
+### -field SYNCMGR_RF_CONTINUE:0
 
 Proceed to the next conflict.
 

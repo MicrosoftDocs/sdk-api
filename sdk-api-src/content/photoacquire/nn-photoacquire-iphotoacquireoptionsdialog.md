@@ -54,65 +54,7 @@ The <code>IPhotoAcquireOptionsDialog</code> interface is used to display an opti
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPhotoAcquireOptionsDialog</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPhotoAcquireOptionsDialog</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPhotoAcquireOptionsDialog</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireoptionsdialog-create">Create</a>
-</td>
-<td align="left" width="63%">
-Creates and displays a modeless instance of the photo options dialog box, hosted within a parent window.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireoptionsdialog-destroy">Destroy</a>
-</td>
-<td align="left" width="63%">
-Closes and destroys the modeless dialog box created with the <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireoptionsdialog-create">Create</a> method.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireoptionsdialog-domodal">DoModal</a>
-</td>
-<td align="left" width="63%">
-Creates and displays the options dialog box as a modal dialog box.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireoptionsdialog-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the options dialog box and reads any saved options from the registry.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireoptionsdialog-savedata">SaveData</a>
-</td>
-<td align="left" width="63%">
-Saves the acquisition settings from the options dialog box to the registry, so that a subsequent instance of the dialog can be initialized with the same settings.
-
-</td>
-</tr>
-</table>
+The <b>IPhotoAcquireOptionsDialog</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPhotoAcquireOptionsDialog</b> also has these types of members:
 
 ## -see-also
 

@@ -111,7 +111,7 @@ Not implemented.
 
 This method returns information about the filter's internal mapping of input pins to output pins. In other words, it describes how the input pins deliver data to the output pins.
 
-In most filters, every input pin connects to every output pin. For example, in a transform filter, one input connects to one output; in a splitter filter, one input connects to multiple ouputs. In these cases, the method should simply return E_NOTIMPL.
+In most filters, every input pin connects to every output pin. For example, in a transform filter, one input connects to one output; in a splitter filter, one input connects to multiple outputs. In these cases, the method should simply return E_NOTIMPL.
 
 Otherwise, the method returns an array of <b>IPin</b> pointers, one for each pin that is mapped internally to the pin you have queried. If you call the method on an input pin, the array contains pointers to output pins, and vice versa.
 

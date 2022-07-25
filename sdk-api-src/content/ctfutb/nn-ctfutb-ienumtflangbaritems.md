@@ -1,7 +1,7 @@
 ---
 UID: NN:ctfutb.IEnumTfLangBarItems
 title: IEnumTfLangBarItems (ctfutb.h)
-description: The IEnumTfLangBarItems interface is implemented by the TSF manager to provide an enumeration of langauge bar item objects.
+description: The IEnumTfLangBarItems interface is implemented by the TSF manager to provide an enumeration of language bar item objects.
 helpviewer_keywords: ["IEnumTfLangBarItems","IEnumTfLangBarItems interface [Text Services Framework]","IEnumTfLangBarItems interface [Text Services Framework]","described","_tsf_ienumtflangbaritems_ref","ctfutb/IEnumTfLangBarItems","tsf.ienumtflangbaritems"]
 old-location: tsf\ienumtflangbaritems.htm
 tech.root: TSF
@@ -50,57 +50,9 @@ api_name:
 
 ## -description
 
-The <b>IEnumTfLangBarItems</b> interface is implemented by the TSF manager to provide an enumeration of langauge bar item objects.
+The <b>IEnumTfLangBarItems</b> interface is implemented by the TSF manager to provide an enumeration of language bar item objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTfLangBarItems</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTfLangBarItems</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IEnumTfLangBarItems</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTfLangBarItems</b> also has these types of members:
 
-## -members
-
-The <b>IEnumTfLangBarItems</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfutb/nf-ctfutb-ienumtflangbaritems-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a copy of the enumerator object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfutb/nf-ctfutb-ienumtflangbaritems-next">Next</a>
-</td>
-<td align="left" width="63%">
-Obtains the specified number of elements in the enumeration sequence from the current position.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfutb/nf-ctfutb-ienumtflangbaritems-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfutb/nf-ctfutb-ienumtflangbaritems-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Moves the current position forward in the enumeration sequence by the specified number of elements.
-
-</td>
-</tr>
-</table>

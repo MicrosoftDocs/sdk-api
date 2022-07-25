@@ -56,7 +56,7 @@ Invokes the <b>Object Properties</b> dialog box, which displays <b>General</b>, 
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to the <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuiobjectpropsa">OLEUIOBJECTPROPS</a> structure.
 

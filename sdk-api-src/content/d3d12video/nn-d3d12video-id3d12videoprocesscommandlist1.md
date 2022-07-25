@@ -45,21 +45,7 @@ Encapsulates a list of graphics commands for video processing. Adds the [ID3D12V
 
 ## -inheritance
 
-ID3D12VideoProcessCommandList1 interits from [ID3D12VideoProcessCommandList](nn-d3d12video-id3d12videoprocesscommandlist.md).
-
-## -members
-
-<p>ID3D12VideoProcessCommandList1 has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>ProcessFrames1</td>
-		<td>TBD</td>
-	</tr>
-</table>
+ID3D12VideoProcessCommandList1 inherits from [ID3D12VideoProcessCommandList](nn-d3d12video-id3d12videoprocesscommandlist.md).
 
 ## -remarks
 

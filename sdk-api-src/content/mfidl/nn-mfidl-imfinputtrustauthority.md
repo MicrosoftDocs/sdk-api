@@ -59,74 +59,7 @@ The topology contains one ITA instance for every protected stream in the media s
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFInputTrustAuthority</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFInputTrustAuthority</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFInputTrustAuthority</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-bindaccess">BindAccess</a>
-</td>
-<td align="left" width="63%">
-Notifies the ITA that a requested action is about to be performed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-getdecrypter">GetDecrypter</a>
-</td>
-<td align="left" width="63%">
-Retrieves a decrypter transform.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-getpolicy">GetPolicy</a>
-</td>
-<td align="left" width="63%">
-Retrieves the policy that defines which output protection systems are allowed for this stream, and the configuration data for each protection system.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-requestaccess">RequestAccess</a>
-</td>
-<td align="left" width="63%">
-Requests permission to perform a specified action on the stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the ITA to its initial state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-updateaccess">UpdateAccess</a>
-</td>
-<td align="left" width="63%">
-Notifies the ITA when the number of output trust authorities (OTAs) that will perform a specified action has changed.
-
-</td>
-</tr>
-</table>
+The <b>IMFInputTrustAuthority</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFInputTrustAuthority</b> also has these types of members:
 
 ## -see-also
 

@@ -54,45 +54,5 @@ Allows you to create Unicode font fallback mappings and create a font fall back 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFallbackBuilder</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontFallbackBuilder</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDWriteFontFallbackBuilder</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/DirectWrite/idwritefontfallbackbuilder-addmapping">AddMapping</a>
-</td>
-<td align="left" width="63%">
-Appends a single mapping to the list. Call this once for each additional mapping.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritefontfallbackbuilder-addmappings">AddMappings</a>
-</td>
-<td align="left" width="63%">
-Add all the mappings from an existing font fallback object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritefontfallbackbuilder-createfontfallback">CreateFontFallback</a>
-</td>
-<td align="left" width="63%">
-Creates the finalized fallback object from the mappings added.
-
-</td>
-</tr>
-</table>
+The <b>IDWriteFontFallbackBuilder</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontFallbackBuilder</b> also has these types of members:
 

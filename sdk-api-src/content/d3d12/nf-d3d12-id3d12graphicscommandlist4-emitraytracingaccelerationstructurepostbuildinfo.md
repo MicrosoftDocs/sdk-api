@@ -56,7 +56,7 @@ Emits post-build properties for a set of acceleration structures.  This enables 
 
 ### -param pDesc [in]
 
-Description of pos-tbuild information to generate.
+Description of post-build information to generate.
 
 ### -param NumSourceAccelerationStructures [in]
 
@@ -76,4 +76,4 @@ This method can be called from graphics or compute command lists but not from bu
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt847460(v=VS.85).aspx">ID3D12GraphicsCommandList4</a>
+<a href="../d3d12/nn-d3d12-id3d12graphicscommandlist4.md">ID3D12GraphicsCommandList4</a>

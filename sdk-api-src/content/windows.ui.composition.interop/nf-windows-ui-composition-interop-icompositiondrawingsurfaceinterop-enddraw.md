@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositionDrawingSurfaceInterop.EndDraw
-title: ICompositionDrawingSurfaceInterop::composition (windows.ui.composition.interop.h)
+title: ICompositionDrawingSurfaceInterop::EndDraw (windows.ui.composition.interop.h)
 description: Marks the end of drawing on the surface object.
 helpviewer_keywords: ["EndDraw","EndDraw method","EndDraw method","ICompositionDrawingSurfaceInterop interface","ICompositionDrawingSurfaceInterop interface","EndDraw method","ICompositionDrawingSurfaceInterop.EndDraw","ICompositionDrawingSurfaceInterop.composition","ICompositionDrawingSurfaceInterop::EndDraw","ICompositionDrawingSurfaceInterop::composition","w_ui_comp.icompositiondrawingsurfaceinterop_enddraw","windows/ICompositionDrawingSurfaceInterop::EndDraw"]
 old-location: w_ui_comp\icompositiondrawingsurfaceinterop_enddraw.htm
@@ -45,14 +45,14 @@ api_name:
  - ICompositionDrawingSurfaceInterop.EndDraw
 ---
 
-# ICompositionDrawingSurfaceInterop::composition
+# ICompositionDrawingSurfaceInterop::EndDraw (windows.ui.composition.interop.h)
 
 
 ## -description
 
 Marks the end of drawing on the surface object.
 
-## -parameters
+
 
 ## -returns
 

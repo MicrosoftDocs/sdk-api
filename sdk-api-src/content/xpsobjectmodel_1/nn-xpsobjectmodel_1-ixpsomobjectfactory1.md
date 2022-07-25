@@ -65,117 +65,14 @@ Converting HDPhoto resources into JpegXR resources.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMObjectFactory1</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomobjectfactory">IXpsOMObjectFactory</a>. <b>IXpsOMObjectFactory1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IXpsOMObjectFactory1</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsomobjectfactory1-converthdphototojpegxr">IXpsOMObjectFactory1::ConvertHDPhotoToJpegXR</a>
-</td>
-<td align="left" width="63%">
-Converts an image resource from an HD Photo to a JpegXR.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsomobjectfactory1-convertjpegxrtohdphoto">IXpsOMObjectFactory1::ConvertJpegXRToHDPhoto</a>
-</td>
-<td align="left" width="63%">
-Converts an image resource from a JpegXR to an HD Photo.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsomobjectfactory1-createpackagefromfile1">IXpsOMObjectFactory1::CreatePackageFromFile1</a>
-</td>
-<td align="left" width="63%">
-Opens an XPS package file and returns an instantiated XPS document object tree. This method will read a file that contains an XPS document that is of type XPS_DOCUMENT_TYPE_ XPS or XPS_DOCUMENT_TYPE_ OPENXPS
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsomobjectfactory1-createpackagefromstream1">IXpsOMObjectFactory1::CreatePackageFromStream1</a>
-</td>
-<td align="left" width="63%">
-Opens a stream that contains an XPS package and returns an instantiated XPS document object tree.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsomobjectfactory1-createpackagewriteronfile1">IXpsOMObjectFactory1::CreatePackageWriterOnFile1</a>
-</td>
-<td align="left" width="63%">
-Opens a file for writing the contents of an XPS OM to an XPS package of a specified type. This method produces a package writer for either an MSXPS document or an OpenXPS document.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsomobjectfactory1-createpackagewriteronstream1">IXpsOMObjectFactory1::CreatePackageWriterOnStream1</a>
-</td>
-<td align="left" width="63%">
-Opens a stream for writing the contents of an XPS OM to an XPS package of a specified type. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsomobjectfactory1-createpagefromstream1">IXpsOMObjectFactory1::CreatePageFromStream1</a>
-</td>
-<td align="left" width="63%">
-Reads the page markup from the specified stream to create and populate an IXpsOMPage1 interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsomobjectfactory1-createremotedictionaryresourcefromstream1">IXpsOMObjectFactory1::CreateRemoteDictionaryResourceFromStream1</a>
-</td>
-<td align="left" width="63%">
-Loads the remote resource dictionary markup into an unrooted IXpsOMRemoteDictionaryResource interface. The dictionary referenced by the dictionaryMarkupStream parameter can contain markup from either the OpenXPS or the MSXPS namespace. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsomobjectfactory1-getdocumenttypefromfile">IXpsOMObjectFactory1::GetDocumentTypeFromFile</a>
-</td>
-<td align="left" width="63%">
-Detects the type of XPS document that is stored in the specified file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsomobjectfactory1-getdocumenttypefromstream">IXpsOMObjectFactory1::GetDocumentTypeFromStream</a>
-</td>
-<td align="left" width="63%">
-Detects the type of XPS document that is stored in the specified stream.
-
-</td>
-</tr>
-</table>
+The <b>IXpsOMObjectFactory1</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomobjectfactory">IXpsOMObjectFactory</a>. <b>IXpsOMObjectFactory1</b> also has these types of members:
 
 ## -remarks
 
 <h3><a id="Additional_References"></a><a id="additional_references"></a><a id="ADDITIONAL_REFERENCES"></a>Additional References</h3>
 The base interface is defined and documented in Windows 7 SDK.
 
-http://msdn.microsoft.com/en-us/library/dd372509(VS.85).aspx
+[IXpsOMObjectFactory interface](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomobjectfactory)
 
 ## -see-also
 

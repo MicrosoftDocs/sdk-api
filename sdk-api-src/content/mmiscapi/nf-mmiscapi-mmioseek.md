@@ -108,7 +108,7 @@ Seeks to <i>lOffset</i> bytes from the beginning of the file.
 
 ## -returns
 
-Returns the new file position, in bytes, relative to the beginning of the file. If there is an error, the return value is â€“ 1.
+Returns the new file position, in bytes, relative to the beginning of the file. If there is an error, the return value is –1.
 
 ## -remarks
 

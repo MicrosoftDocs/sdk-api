@@ -55,47 +55,7 @@ Represents a virtual adapter, and expands on the range of methods provided by <a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Device1</b> interface inherits from <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>. <b>ID3D12Device1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D12Device1</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device1-createpipelinelibrary">CreatePipelineLibrary</a>
-</td>
-<td align="left" width="63%">
-Creates a cached pipeline library. By grouping PSOs that are expected to share data together into a library before serializing, there’s less overhead due to metadata, as well as opportunity to avoid redundant or duplicated data from being written to disk.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device1-seteventonmultiplefencecompletion">SetEventOnMultipleFenceCompletion</a>
-</td>
-<td align="left" width="63%">
-Specifies an event that should be fired when one or more of a collection of fences reach specific values.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device1-setresidencypriority">SetResidencyPriority</a>
-</td>
-<td align="left" width="63%">
-This method sets residency priorities of a specified list of objects.
-
-</td>
-</tr>
-</table>
+The <b>ID3D12Device1</b> interface inherits from <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>. <b>ID3D12Device1</b> also has these types of members:
 
 ## -remarks
 

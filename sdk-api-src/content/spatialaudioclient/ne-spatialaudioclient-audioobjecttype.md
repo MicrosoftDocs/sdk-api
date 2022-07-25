@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Specifies the type of an <a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject">ISpatialAudioObject</a>. A spatial audio object can be dynamic, meaning that it's spatial properties can change over time, or static, which means that its spatial properties are fixed. There are 17 audio channels to which a static spatial audio object can be assigned, each representing a real or virtualized speaker. The static channel values of the enumeration can be combined as a mask to assign a spatial audio object to multiple channels. All of the enumeration values except for <b>AudioObjectType_None</b> and <b>AudioObjectType_Dynamic</b> represent static channels.
+Specifies the type of an <a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject">ISpatialAudioObject</a>. A spatial audio object can be dynamic, meaning that its spatial properties can change over time, or static, which means that its spatial properties are fixed. There are 17 audio channels to which a static spatial audio object can be assigned, each representing a real or virtualized speaker. The static channel values of the enumeration can be combined as a mask to assign a spatial audio object to multiple channels. All of the enumeration values except for <b>AudioObjectType_None</b> and <b>AudioObjectType_Dynamic</b> represent static channels.
 
 ## -enum-fields
 
-### -field AudioObjectType_None
+### -field AudioObjectType_None:0
 
 The spatial audio object is not spatialized.
 

@@ -73,7 +73,7 @@ You can use the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="../msinkaut/nn-msinkaut-iinkoverlay.md">IInkOverlay</a>
 
 
 

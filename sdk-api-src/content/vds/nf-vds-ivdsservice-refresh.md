@@ -55,7 +55,7 @@ api_name:
 
 Refreshes disk-ownership and disk-layout information.
 
-## -parameters
+
 
 ## -returns
 

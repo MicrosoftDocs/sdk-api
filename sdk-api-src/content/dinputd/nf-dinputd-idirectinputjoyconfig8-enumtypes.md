@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::EnumTypes </b>method enumerates the joystick types currently supported by DirectInput. A joystick type describes how DirectInput should communicate with a joystick device. It includes information such as the presence and location of each of the axes and the number of buttons supported by the device.
+The <b>IDirectInputJoyConfig8::EnumTypes </b> method enumerates the joystick types currently supported by DirectInput. A joystick type describes how DirectInput should communicate with a joystick device. It includes information such as the presence and location of each of the axes and the number of buttons supported by the device.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Points to an application-defined callback function that receives the DirectInput joystick types. See the Remarks section for the function prototype.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies a 32-bit application-defined value to be passed to the callback function. This value can be any 32-bit value; it is prototyped as an LPVOID for convenience.
 
@@ -88,7 +88,9 @@ One or more parameters was invalid.
 
 This callback receives DirectInput joystick types as a result of a call to the IDirectInputJoyConfig8::EnumTypes method.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 
 /*
 Parameters
@@ -111,5 +113,7 @@ BOOL DIEnumJoyTypeProc(
  
 
 
-</code></pre>
+
+```
+
 

@@ -72,53 +72,5 @@ To increase the chances that a non-rendering filter will be selected by the Filt
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IReferenceClock</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IReferenceClock</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IReferenceClock</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IReferenceClock</b> also has these types of members:
 
-## -members
-
-The <b>IReferenceClock</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ireferenceclock-adviseperiodic">AdvisePeriodic</a>
-</td>
-<td align="left" width="63%">
-Creates a periodic advise request.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ireferenceclock-advisetime">AdviseTime</a>
-</td>
-<td align="left" width="63%">
-Creates a one-shot advise request.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ireferenceclock-gettime">GetTime</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current reference time.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ireferenceclock-unadvise">Unadvise</a>
-</td>
-<td align="left" width="63%">
-Removes a pending advise request.
-
-</td>
-</tr>
-</table>

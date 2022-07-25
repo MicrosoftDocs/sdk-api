@@ -58,7 +58,7 @@ The <b>FilterVolumeInstanceFindFirst</b> function returns information about a mi
 
 Pointer to a null-terminated wide-character string that contains the name of the volume to which the minifilter instance or legacy filter is attached.
 
-The <i>lpVolumeName</i> input string can be any of the following. The trailing backslash (\) is optional. 
+The <i>lpVolumeName</i> input string can be any of the following. The trailing backslash (\\) is optional. 
 
 <ul>
 <li>

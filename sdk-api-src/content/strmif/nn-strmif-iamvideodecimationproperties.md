@@ -64,35 +64,5 @@ An application can call methods on this interface to select a particular decimat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMVideoDecimationProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVideoDecimationProperties</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAMVideoDecimationProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVideoDecimationProperties</b> also has these types of members:
 
-## -members
-
-The <b>IAMVideoDecimationProperties</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamvideodecimationproperties-querydecimationusage">QueryDecimationUsage</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current decimation strategy.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamvideodecimationproperties-setdecimationusage">SetDecimationUsage</a>
-</td>
-<td align="left" width="63%">
-Sets the decimation strategy.
-
-</td>
-</tr>
-</table>

@@ -54,7 +54,7 @@ The <b>PulseEndpoint</b> method is  reserved.
 
 This method is called by the audio engine at the end of a processing pass. The event handle is set by calling the <a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-seteventhandle">IAudioEndpoint::SetEventHandle</a> method.
 
-## -parameters
+
 
 ## -remarks
 

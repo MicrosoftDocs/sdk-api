@@ -118,7 +118,11 @@ In-place objects should be given first chance at translating accelerator message
 
 You should define accelerator tables for containers so they will work properly with object applications that do their own accelerator keystroke translations. Tables should be defined as follows.
 
-<pre class="syntax" xml:space="preserve"><code>"char", wID, VIRTKEY, CONTROL</code></pre>
+
+``` syntax
+"char", wID, VIRTKEY, CONTROL
+```
+
 This is the most common way to describe keyboard accelerators. Failure to do so can result in keystrokes being lost or sent to the wrong object during an in-place session.
 
 ## -see-also

@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 The <code>EndOfStream</code> method signals the end of a stream. The Media Stream filter's input pins call this method on the filter.
 
-## -parameters
+
 
 ## -returns
 

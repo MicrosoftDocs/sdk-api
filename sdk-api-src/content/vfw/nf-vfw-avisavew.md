@@ -80,7 +80,7 @@ Pointer to an AVI stream. This parameter is paired with <i>lpOptions</i>. The pa
 
 Pointer to an application-defined <a href="/windows/desktop/api/vfw/ns-vfw-avicompressoptions">AVICOMPRESSOPTIONS</a> structure containing the compression options for the stream referenced by <i>pavi</i>. This parameter is paired with pavi. The parameter pair can be repeated as a variable number of arguments.
 
-### -param arg7
+### -param ...
 
 ## -returns
 
@@ -120,3 +120,4 @@ The argument <i>pavi</i> is a pointer to an <a href="/windows/desktop/api/vfw/nn
 
 
 <a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
+

@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputEffectDriver::GetEffectStatus </b>method obtains information about the status of an effect.
+The <b>IDirectInputEffectDriver::GetEffectStatus </b> method obtains information about the status of an effect.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Indicates the external joystick number being addressed.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies the effect to be queried.
 
-### -param arg3
+### -param unnamedParam3
 
-Points to a <b>DWORD </b>that receives the effect status. The <b>DWORD</b> should be filled in with one of the following values: 
+Points to a <b>DWORD </b> that receives the effect status. The <b>DWORD</b> should be filled in with one of the following values: 
 
 
 

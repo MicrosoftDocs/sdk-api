@@ -54,44 +54,5 @@ Enumerates &lt;MainPackageDependency&gt; elements from an app manifest.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestMainPackageDependenciesEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestMainPackageDependenciesEnumerator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppxManifestMainPackageDependenciesEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestMainPackageDependenciesEnumerator</b> also has these types of members:
 
-## -members
-
-The <b>IAppxManifestMainPackageDependenciesEnumerator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestmainpackagedependenciesenumerator-getcurrent">GetCurrent</a>
-</td>
-<td align="left" width="63%">
-Gets the &lt;MainPackageDependency&gt; element at the current position of the enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestmainpackagedependenciesenumerator-gethascurrent">GetHasCurrent</a>
-</td>
-<td align="left" width="63%">
-Determines whether there is a &lt;MainPackageDependency&gt; element at the current position of the enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestmainpackagedependenciesenumerator-movenext">MoveNext</a>
-</td>
-<td align="left" width="63%">
-Advances the position of the enumerator to the next &lt;MainPackageDependency&gt; element.
-
-</td>
-</tr>
-</table>

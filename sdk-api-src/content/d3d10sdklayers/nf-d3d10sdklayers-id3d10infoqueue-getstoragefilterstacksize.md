@@ -52,7 +52,7 @@ api_name:
 
 Get the size of the storage-filter stack in bytes.
 
-## -parameters
+
 
 ## -returns
 

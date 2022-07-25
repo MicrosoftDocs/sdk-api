@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1.ID2D1GradientStopCollection
 title: ID2D1GradientStopCollection (d2d1.h)
-description: Represents an collection of D2D1_GRADIENT_STOP objects for linear and radial gradient brushes.
+description: Represents a collection of D2D1_GRADIENT_STOP objects for linear and radial gradient brushes.
 helpviewer_keywords: ["ID2D1GradientStopCollection","ID2D1GradientStopCollection interface [Direct2D]","ID2D1GradientStopCollection interface [Direct2D]","described","d2d1/ID2D1GradientStopCollection","direct2d.ID2D1GradientStopCollection"]
 old-location: direct2d\ID2D1GradientStopCollection.htm
 tech.root: Direct2D
@@ -50,60 +50,14 @@ api_name:
 
 ## -description
 
-Represents an collection of <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_gradient_stop">D2D1_GRADIENT_STOP</a> objects for linear and radial gradient brushes.
+Represents a collection of <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_gradient_stop">D2D1_GRADIENT_STOP</a> objects for linear and radial gradient brushes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1GradientStopCollection</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1GradientStopCollection</b> also has these types of members:
+The <b>ID2D1GradientStopCollection</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1GradientStopCollection</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ID2D1GradientStopCollection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1gradientstopcollection-getcolorinterpolationgamma">GetColorInterpolationGamma</a>
-</td>
-<td align="left" width="63%">
-Indicates the gamma space in which the gradient stops are interpolated. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1gradientstopcollection-getextendmode">GetExtendMode</a>
-</td>
-<td align="left" width="63%">
-Indicates the behavior of the gradient outside the normalized gradient range.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1gradientstopcollection-getgradientstopcount">GetGradientStopCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of gradient stops in the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1gradientstopcollection-getgradientstops">GetGradientStops</a>
-</td>
-<td align="left" width="63%">
-Copies the gradient stops from the collection into an array of <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_gradient_stop">D2D1_GRADIENT_STOP</a> structures.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

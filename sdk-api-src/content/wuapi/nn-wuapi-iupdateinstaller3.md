@@ -57,38 +57,7 @@ Installs or uninstalls updates on a computer. This property is only used when in
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateInstaller3</b> interface inherits from <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller2">IUpdateInstaller2</a>. <b>IUpdateInstaller3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IUpdateInstaller3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt829693(v=VS.85).aspx">get_AttemptCloseAppsIfNecessary</a>
-</td>
-<td align="left" width="63%">
-Gets a value indicating whether the update installer will attempt to close applications, blocking immediate installation of updates.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt829694(v=VS.85).aspx">put_AttemptCloseAppsIfNecessary</a>
-</td>
-<td align="left" width="63%">
-Sets a value indicating whether the update installer will attempt to close applications, blocking immediate installation of updates.
-
-</td>
-</tr>
-</table>
+The <b>IUpdateInstaller3</b> interface inherits from <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller2">IUpdateInstaller2</a>. <b>IUpdateInstaller3</b> also has these types of members:
 
 ## -see-also
 

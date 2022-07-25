@@ -53,7 +53,7 @@ api_name:
 
 Preloads a managed resource.
 
-## -parameters
+
 
 ## -remarks
 

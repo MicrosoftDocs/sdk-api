@@ -45,9 +45,6 @@ api_name:
  - IDMLDebugDevice
 ---
 
-# IDMLDebugDevice interface
-
-
 ## -description
 
 Controls the DirectML debug layers. The <b>IDMLDebugDevice</b> interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.

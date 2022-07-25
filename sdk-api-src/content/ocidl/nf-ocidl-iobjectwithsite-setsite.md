@@ -66,7 +66,7 @@ This method returns S_OK on success.
 
 The object should hold onto this pointer, calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> in doing so. If the object already has a site, it should call that existing site's <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a>, save the new site pointer, and call the new site's <b>IUnknown::AddRef</b>.
 
-E_NOTIMPL is not allowedâ€”without implementation of the <b>SetSite</b> method, the <a href="/windows/desktop/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a> interface is unnecessary.
+E_NOTIMPL is not allowed. Without implementation of the <b>SetSite</b> method, the <a href="/windows/desktop/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a> interface is unnecessary.
 
 ## -see-also
 

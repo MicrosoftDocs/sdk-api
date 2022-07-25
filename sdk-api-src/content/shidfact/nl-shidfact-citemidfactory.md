@@ -54,86 +54,11 @@ Exposes methods for interacting with Shell data sources.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">CItemIDFactory</b> class inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idelegatefolder">IDelegateFolder</a>. <b>CItemIDFactory</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>CItemIDFactory</b> class has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shidfact/nf-shidfact-citemidfactory-createitemid">CreateItemID</a>
-</td>
-<td align="left" width="63%">
-Creates an ItemID from the supplied data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shidfact/nf-shidfact-citemidfactory-getdatafromidlist(pcuidlist_relative)">GetDataFromIDList</a>
-</td>
-<td align="left" width="63%">
-Gets a read only pointer to the client provided structure in the first ItemID in the IDList.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/hh289343(v=vs.85)">GetPropertyFromIDList</a>
-</td>
-<td align="left" width="63%">Overloaded. Returns a property from the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> within the IDList.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shidfact/nf-shidfact-citemidfactory-getpropertystorage">GetPropertyStorage</a>
-</td>
-<td align="left" width="63%">
-Gets  a read only pointer to the serialized property storage that is used for storing metadata.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shidfact/nf-shidfact-citemidfactory-getpropertystoragefromidlist">GetPropertyStorageFromIDList</a>
-</td>
-<td align="left" width="63%">
-create an instance of the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> based on the serialized property storage associated with the first ItemID.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shidfact/nf-shidfact-citemidfactory-isdelegatefolder">IsDelegateFolder</a>
-</td>
-<td align="left" width="63%">
-Gets a Boolean value specifying whether the factory is a delegate folder.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shidfact/nf-shidfact-citemidfactory-setitemalloc">SetItemAlloc</a>
-</td>
-<td align="left" width="63%">
-Provides the <b>CItemIDFactory</b> an <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> interface used to allocate and free item IDs.
-
-</td>
-</tr>
-</table>
+The <b>CItemIDFactory</b> class inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idelegatefolder">IDelegateFolder</a>. <b>CItemIDFactory</b> also has these types of members:
 
 ## -remarks
 
-it is recomended that all data sources use this as it manages an important issue of security when  dealing with IDList parsing.
+it is recommended that all data sources use this as it manages an important issue of security when dealing with IDList parsing.
 
 ## -see-also
 

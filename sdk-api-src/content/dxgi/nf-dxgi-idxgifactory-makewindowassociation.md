@@ -46,9 +46,6 @@ api_name:
  - IDXGIFactory.MakeWindowAssociation
 ---
 
-# IDXGIFactory::MakeWindowAssociation
-
-
 ## -description
 
 Allows DXGI to monitor an application's message queue for the alt-enter key sequence (which causes the application to switch from windowed to full screen or vice versa).
@@ -59,14 +56,13 @@ Allows DXGI to monitor an application's message queue for the alt-enter key sequ
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-The handle of the window that is to be monitored. This parameter can be <b>NULL</b>; but only if the flags are also 0.
+The handle of the window that is to be monitored. This parameter can be <b>NULL</b>; but only if *Flags* is also 0.
 
 ### -param Flags
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-One or more of the following values:
-
+One or more of the following values.
 
 <ul>
 <li>DXGI_MWA_NO_WINDOW_CHANGES - Prevent DXGI from monitoring an applications message queue; this makes DXGI unable to respond to mode changes.</li>
@@ -77,7 +73,6 @@ One or more of the following values:
 ## -returns
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
-
 
 <a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_INVALID_CALL</a> if <i>WindowHandle</i> is invalid, or E_OUTOFMEMORY.
 
@@ -95,6 +90,20 @@ While windowed, the application can, if it chooses, restrict the size of its win
 
 Applications that want to handle mode changes or Alt+Enter themselves should call <b>MakeWindowAssociation</b> with the DXGI_MWA_NO_WINDOW_CHANGES flag after swap chain creation. The <i>WindowHandle</i> argument, if non-<b>NULL</b>, specifies that the application message queues will not be handled by the DXGI runtime for all swap chains of a particular target <a href="/windows/desktop/WinProg/windows-data-types">HWND</a>.  Calling <b>MakeWindowAssociation</b> with the DXGI_MWA_NO_WINDOW_CHANGES flag after swapchain creation ensures that DXGI will not interfere with application's handling of window mode changes or Alt+Enter.
 
+You must call the **MakeWindowAssociation** method on the factory object associated with the target HWND swap chain(s). You can guarantee that by calling the [IDXGIObject::GetParent](/windows/win32/api/dxgi/nf-dxgi-idxgiobject-getparent) method on the swap chain(s) to locate the factory. Here's a code example of doing that.
+
+```cppwinrt
+void MakeWindowAssociationWithLocatedFactory(
+    winrt::com_ptr<IDXGISwapChain> const& swapChain,
+    HWND hWnd,
+    UINT flags)
+{
+    winrt::com_ptr<IDXGIFactory1> factory;
+    factory.capture(swapChain, &IDXGISwapChain::GetParent);
+    factory->MakeWindowAssociation(hWnd, flags);
+}
+```
+
 <h3><a id="Notes_for_Windows_Store_apps"></a><a id="notes_for_windows_store_apps"></a><a id="NOTES_FOR_WINDOWS_STORE_APPS"></a>Notes for Windows Store apps</h3>
 If a Windows Store app calls <b>MakeWindowAssociation</b>, it fails with <a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.
 
@@ -102,8 +111,6 @@ A Microsoft Win32 application can use <b>MakeWindowAssociation</b> to control fu
 
 ## -see-also
 
-<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
-
-
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI interfaces</a>
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a>

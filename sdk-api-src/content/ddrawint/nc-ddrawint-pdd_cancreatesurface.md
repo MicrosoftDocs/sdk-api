@@ -51,7 +51,7 @@ The <b>CanCreateD3DBuffer</b> callback function determines whether the driver ca
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_cancreatesurfacedata">DD_CANCREATESURFACEDATA</a> structure. This structure contains the information required for the driver to determine whether a command or vertex buffer can be created.
 

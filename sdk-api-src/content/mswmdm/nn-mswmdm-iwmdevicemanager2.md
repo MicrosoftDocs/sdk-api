@@ -54,47 +54,7 @@ The <b>IWMDeviceManager2</b> interface extends <a href="/windows/desktop/api/msw
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDeviceManager2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager">IWMDeviceManager</a>. <b>IWMDeviceManager2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWMDeviceManager2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-enumdevices2">EnumDevices2</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumeration interface that is used to enumerate portable devices connected to the computer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-getdevicefromcanonicalname">GetDeviceFromCanonicalName</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <b>IWMDMDevice</b> interface for a device with a specified canonical name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-reinitialize">Reinitialize</a>
-</td>
-<td align="left" width="63%">
-Forces Windows Media Device Manager to rediscover all the Windows Media Device Manager devices
-
-</td>
-</tr>
-</table>
+The <b>IWMDeviceManager2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager">IWMDeviceManager</a>. <b>IWMDeviceManager2</b> also has these types of members:
 
 ## -see-also
 

@@ -54,65 +54,7 @@ Enables text services and Input Method Editors (IMEs) to adjust UI-less mode beh
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfIntegratableCandidateListUIElement</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfIntegratableCandidateListUIElement</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfIntegratableCandidateListUIElement</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-finalizeexactcompositionstring">FinalizeExactCompositionString</a>
-</td>
-<td align="left" width="63%">
-Finalizes the current composition with the value currently shown to the user.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-getselectionstyle">GetSelectionStyle</a>
-</td>
-<td align="left" width="63%">
-Retrieves the selection style.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-onkeydown">OnKeyDown</a>
-</td>
-<td align="left" width="63%">
-Processes a key press.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-setintegrationstyle">SetIntegrationStyle</a>
-</td>
-<td align="left" width="63%">
-Sets the integration style.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-showcandidatenumbers">ShowCandidateNumbers</a>
-</td>
-<td align="left" width="63%">
-Specifies whether candidate numbers should be shown.
-
-</td>
-</tr>
-</table>
+The <b>ITfIntegratableCandidateListUIElement</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfIntegratableCandidateListUIElement</b> also has these types of members:
 
 ## -remarks
 

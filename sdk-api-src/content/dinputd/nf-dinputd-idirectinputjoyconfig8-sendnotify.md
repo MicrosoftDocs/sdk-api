@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::SendNotify </b>method notifies device drivers and applications that changes to the device configuration have been made. An application that changes device configurations must invoke this method after the changes have been made (and before unacquiring the device).
+The <b>IDirectInputJoyConfig8::SendNotify </b> method notifies device drivers and applications that changes to the device configuration have been made. An application that changes device configurations must invoke this method after the changes have been made (and before unacquiring the device).
 
-## -parameters
+
 
 ## -returns
 

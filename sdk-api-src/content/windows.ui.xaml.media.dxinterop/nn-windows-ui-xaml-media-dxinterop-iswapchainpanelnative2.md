@@ -57,29 +57,7 @@ Provides interoperation between XAML and a DirectX swap chain.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISwapChainPanelNative2</b> interface inherits from <b>ISwapChainPanelNative</b>. <b>ISwapChainPanelNative2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISwapChainPanelNative2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-iswapchainpanelnative2-setswapchainhandle">SetSwapChainHandle</a>
-</td>
-<td align="left" width="63%">
-Sets the DirectX swap chain for <a href="/uwp/api/windows.ui.xaml.controls.swapchainpanel">SwapChainPanel</a> using a handle to the swap chain.
-
-</td>
-</tr>
-</table>
+The <b>ISwapChainPanelNative2</b> interface inherits from <b>ISwapChainPanelNative</b>. <b>ISwapChainPanelNative2</b> also has these types of members:
 
 ## -remarks
 

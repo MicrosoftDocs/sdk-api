@@ -57,53 +57,5 @@ Provides methods to perform file system management operations on partitions.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsDiskPartitionMF</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsDiskPartitionMF</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVdsDiskPartitionMF</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsDiskPartitionMF</b> also has these types of members:
 
-## -members
-
-The <b>IVdsDiskPartitionMF</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsdiskpartitionmf-formatpartitionex">FormatPartitionEx</a>
-</td>
-<td align="left" width="63%">
-Formats an existing OEM, ESP, or unknown partition.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsdiskpartitionmf-getpartitionfilesystemproperties">GetPartitionFileSystemProperties</a>
-</td>
-<td align="left" width="63%">
-Returns property details about the file system on a partition on the disk at a specified byte offset.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsdiskpartitionmf-getpartitionfilesystemtypename">GetPartitionFileSystemTypeName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the name of the file system on a partition on the disk at a specified byte offset.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsdiskpartitionmf-querypartitionfilesystemformatsupport">QueryPartitionFileSystemFormatSupport</a>
-</td>
-<td align="left" width="63%">
-Retrieves the properties of the file systems that are supported for formatting a partition on the disk at a specified byte offset.
-
-</td>
-</tr>
-</table>

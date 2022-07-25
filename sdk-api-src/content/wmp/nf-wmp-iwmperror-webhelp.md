@@ -52,7 +52,7 @@ api_name:
 
 The <b>webHelp</b> method launches the Windows Media Player Web Help page to display further information about the first error in the error queue (index zero).
 
-## -parameters
+
 
 ## -returns
 

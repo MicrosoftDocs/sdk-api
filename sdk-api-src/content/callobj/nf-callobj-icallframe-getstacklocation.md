@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the stack location onto which this call frame is bound.
 
-## -parameters
+
 
 ## -returns
 

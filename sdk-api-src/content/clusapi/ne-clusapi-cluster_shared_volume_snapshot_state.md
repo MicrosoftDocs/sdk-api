@@ -39,7 +39,6 @@ topic_type:
 api_type:
  - <TBD>
 api_location:
- - 
 api_name:
  - CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
 ---
@@ -55,7 +54,7 @@ Specifies the various snapshot states for a shared volume.
 
 ### -field ClusterSharedVolumeSnapshotStateUnknown
 
-Indicates that the snapshot state is unknow.
+Indicates that the snapshot state is unknown.
 
 ### -field ClusterSharedVolumePrepareForHWSnapshot
 

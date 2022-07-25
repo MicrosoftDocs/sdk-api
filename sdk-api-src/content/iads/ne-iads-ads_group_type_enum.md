@@ -56,25 +56,25 @@ The <b>ADS_GROUP_TYPE_ENUM</b> enumeration specifies the type of group objects i
 
 ## -enum-fields
 
-### -field ADS_GROUP_TYPE_GLOBAL_GROUP
+### -field ADS_GROUP_TYPE_GLOBAL_GROUP:0x2
 
 Specifies a group that can contain accounts from the same domain and other global groups from the same domain. This type of group can be exported to a different domain.
 
-### -field ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP
+### -field ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP:0x4
 
 Specifies a group that can contain accounts from any domain, other domain local groups from the same domain, global groups from any domain, and universal groups. This type of group should not be included in access-control lists of resources in other domains.
 
 This type of group is intended for use with the LDAP provider.
 
-### -field ADS_GROUP_TYPE_LOCAL_GROUP
+### -field ADS_GROUP_TYPE_LOCAL_GROUP:0x4
 
 Specifies a group that is identical to the <b>ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP</b> group, but is intended for use with the WinNT  provider.
 
-### -field ADS_GROUP_TYPE_UNIVERSAL_GROUP
+### -field ADS_GROUP_TYPE_UNIVERSAL_GROUP:0x8
 
 Specifies a group that can contain accounts from any domain, global groups from any domain,  and other universal groups. This type of group cannot contain domain local groups.
 
-### -field ADS_GROUP_TYPE_SECURITY_ENABLED
+### -field ADS_GROUP_TYPE_SECURITY_ENABLED:0x80000000
 
 Specifies a group that is security enabled. This group can be used to apply an access-control list on an ADSI object or a file system.
 

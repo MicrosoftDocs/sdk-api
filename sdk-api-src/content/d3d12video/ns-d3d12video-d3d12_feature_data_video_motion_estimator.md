@@ -2,7 +2,6 @@
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_MOTION_ESTIMATOR
 title: D3D12_FEATURE_DATA_VIDEO_MOTION_ESTIMATOR
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Provides data for calls to ID3D12VideoDevice::CheckFeatureSupport when the feature specified is D3D12_FEATURE_VIDEO_MOTION_ESTIMATOR. Retrieves the motion estimation capabilities for a video encoder.
 tech.root: mf

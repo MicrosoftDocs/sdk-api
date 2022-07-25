@@ -54,7 +54,7 @@ api_name:
 The <b>LinearGradientBrush::GetBlendCount</b> method gets the number of blend factors currently set for this 
 			<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a> object.
 
-## -parameters
+
 
 ## -returns
 

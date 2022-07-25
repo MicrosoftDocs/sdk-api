@@ -59,7 +59,7 @@ api_name:
 
 The <b>MakeLower</b> method converts a <a href="/windows/desktop/WmiSdk/chstring">CHString</a> string to a lowercase string.
 
-## -parameters
+
 
 ## -returns
 

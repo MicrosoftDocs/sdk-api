@@ -56,7 +56,7 @@ Specifies the data type of a property value in a
 
 ## -enum-fields
 
-### -field CLUSPROP_FORMAT_UNKNOWN
+### -field CLUSPROP_FORMAT_UNKNOWN:0
 
 Data is in an unknown format.
 
@@ -86,7 +86,7 @@ Data is an <b>ULARGE_INTEGER</b>.
 
 ### -field CLUSPROP_FORMAT_LONG
 
-Data is an signed <b>LONG</b> value.
+Data is a signed <b>LONG</b> value.
 
 ### -field CLUSPROP_FORMAT_EXPANDED_SZ
 
@@ -115,7 +115,7 @@ Data is a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILET
 
 ### -field CLUSPROP_FORMAT_PROPERTY_LIST
 
-### -field CLUSPROP_FORMAT_USER
+### -field CLUSPROP_FORMAT_USER:32768
 
 Reserved for future use.
 

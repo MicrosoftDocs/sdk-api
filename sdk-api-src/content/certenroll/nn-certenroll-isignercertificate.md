@@ -86,7 +86,9 @@ The <b>ISignerCertificate</b> interface represents a signing <a href="/windows/d
 
 
 When signing a CMC request, the data to be signed consists of a <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded <b>CmcData</b> object wrapped in a CMS <b>SignedData</b> object. The <b>encryptedDigest</b> field of the <b>SignerInfo</b> object contains a signature, and multiple <b>SignerInfo</b> objects can be associated with the request.
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 ---------------------------------------------------------------------
 -- CMC request data
 ---------------------------------------------------------------------
@@ -128,125 +130,13 @@ SignerInfo ::= SEQUENCE
     encryptedDigest             EncryptedDigest,
     unauthenticatedAttributes   [1] IMPLICIT Attributes OPTIONAL
 }
-</code></pre>Each <b>ISignerCertificate</b> object is associated with one <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a> object that identifies the hashing and public key algorithms used. This object is created and initialized when the <b>ISignerCertificate</b> object is initialized.
+
+```
+Each <b>ISignerCertificate</b> object is associated with one <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a> object that identifies the hashing and public key algorithms used. This object is created and initialized when the <b>ISignerCertificate</b> object is initialized.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISignerCertificate</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISignerCertificate</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
-
-## -members
-
-The <b>ISignerCertificate</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the object from a signing certificate.
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISignerCertificate</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_certificate">Certificate</a>
-
-
-</td>
-<td align="left" width="63%">
-Retrieves a DER-encoded byte array that contains the certificate.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_parentwindow">ParentWindow</a>
-
-
-</td>
-<td align="left" width="63%">
-Specifies or retrieves the ID of the window used to display the signing certificate information.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-put_pin">Pin</a>
-
-
-</td>
-<td align="left" width="63%">
-Specifies a personal identification number that authenticates smart card users.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_privatekey">PrivateKey</a>
-
-
-</td>
-<td align="left" width="63%">
-Retrieves the private key associated with the <b>ISignerCertificate</b> object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_signatureinformation">SignatureInformation</a>
-
-
-</td>
-<td align="left" width="63%">
-Retrieves an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a> object that contains information about the certificate signature.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_silent">Silent</a>
-
-
-</td>
-<td align="left" width="63%">
-Specifies or retrieves a Boolean value that indicates whether the user is notified when the private key is used to sign a certificate request.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_uicontextmessage">UIContextMessage</a>
-
-
-</td>
-<td align="left" width="63%">
-Specifies or retrieves a string that contains user interface text associated with the  signing certificate.
-
-</td>
-</tr>
-</table>
+The <b>ISignerCertificate</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISignerCertificate</b> also has these types of members:
 
 ## -see-also
 

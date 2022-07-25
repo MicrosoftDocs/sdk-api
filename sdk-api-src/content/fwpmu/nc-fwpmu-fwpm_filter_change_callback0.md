@@ -54,13 +54,13 @@ The <b>FWPM_FILTER_CHANGE_CALLBACK0</b> function is used to added custom behavio
 
 ## -parameters
 
-### -param *context [in]
+### -param context [in]
 
 Type: <b>void*</b>
 
 Optional context pointer. It contains the value of the <i>context</i> parameter passed to the <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfiltersubscribechanges0">FwpmFilterSubscribeChanges0</a> function.
 
-### -param *change [in]
+### -param change [in]
 
 Type: [FWPM_FILTER_CHANGE0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_change0)*</b>
 

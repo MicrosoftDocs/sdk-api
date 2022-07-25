@@ -51,7 +51,6 @@ api_name:
 
 # MOUSEINPUT structure
 
-
 ## -description
 
 Contains information about a simulated mouse event.
@@ -60,282 +59,96 @@ Contains information about a simulated mouse event.
 
 ### -field dx
 
-Type: <b>LONG</b>
+Type: **LONG**
 
-The absolute position of the mouse, or the amount of motion since the last mouse event was generated, depending on the value of the <b>dwFlags</b> member. Absolute data is specified as the x coordinate of the mouse; relative data is specified as the number of pixels moved.
+The absolute position of the mouse, or the amount of motion since the last mouse event was generated, depending on the value of the **dwFlags** member. Absolute data is specified as the x coordinate of the mouse; relative data is specified as the number of pixels moved.
 
 ### -field dy
 
-Type: <b>LONG</b>
+Type: **LONG**
 
-The absolute position of the mouse, or the amount of motion since the last mouse event was generated, depending on the value of the <b>dwFlags</b> member. Absolute data is specified as the y coordinate of the mouse; relative data is specified as the number of pixels moved.
+The absolute position of the mouse, or the amount of motion since the last mouse event was generated, depending on the value of the **dwFlags** member. Absolute data is specified as the y coordinate of the mouse; relative data is specified as the number of pixels moved.
 
 ### -field mouseData
 
-Type: <b>DWORD</b>
+Type: **DWORD**
 
-If <b>dwFlags</b> contains <b>MOUSEEVENTF_WHEEL</b>, then <b>mouseData</b> specifies the amount of wheel movement. A positive value indicates that the wheel was rotated forward, away from the user; a negative value indicates that the wheel was rotated backward, toward the user. One wheel click is defined as <b>WHEEL_DELTA</b>, which is 120.
+If **dwFlags** contains **MOUSEEVENTF_WHEEL**, then **mouseData** specifies the amount of wheel movement. A positive value indicates that the wheel was rotated forward, away from the user; a negative value indicates that the wheel was rotated backward, toward the user. One wheel click is defined as **WHEEL_DELTA**, which is 120.
 
-Windows Vista: If <i>dwFlags</i> contains <b>MOUSEEVENTF_HWHEEL</b>, then 
-			  <i>dwData</i> specifies the amount of wheel movement. A positive value indicates that the wheel was rotated to the right; a negative value indicates that the wheel was rotated to the left. One wheel click is defined as <b>WHEEL_DELTA</b>, which is 120.
+**Windows Vista**: If *dwFlags* contains **MOUSEEVENTF_HWHEEL**, then *dwData* specifies the amount of wheel movement. A positive value indicates that the wheel was rotated to the right; a negative value indicates that the wheel was rotated to the left. One wheel click is defined as **WHEEL_DELTA**, which is 120.
 
- If <b>dwFlags</b> does not contain <b>MOUSEEVENTF_WHEEL</b>, <b>MOUSEEVENTF_XDOWN</b>, or <b>MOUSEEVENTF_XUP</b>, then <b>mouseData</b> should be zero. 
+ If **dwFlags** does not contain **MOUSEEVENTF_WHEEL**, **MOUSEEVENTF_XDOWN**, or **MOUSEEVENTF_XUP**, then **mouseData** should be zero.
 
-If <b>dwFlags</b> contains <b>MOUSEEVENTF_XDOWN</b> or <b>MOUSEEVENTF_XUP</b>, then <b>mouseData</b> specifies which X buttons were pressed or released. This value may be any combination of the following flags. 
+If **dwFlags** contains **MOUSEEVENTF_XDOWN** or **MOUSEEVENTF_XUP**, then **mouseData** specifies which X buttons were pressed or released. This value may be any combination of the following flags.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="XBUTTON1"></a><a id="xbutton1"></a><dl>
-<dt><b>XBUTTON1</b></dt>
-<dt>0x0001</dt>
-</dl>
-</td>
-<td width="60%">
-Set if the first X button is pressed or released.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="XBUTTON2"></a><a id="xbutton2"></a><dl>
-<dt><b>XBUTTON2</b></dt>
-<dt>0x0002</dt>
-</dl>
-</td>
-<td width="60%">
-Set if the second X button is pressed or released.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+|-|-|
+| **XBUTTON1**<br>0x0001 | Set if the first X button is pressed or released. |
+| **XBUTTON2**<br>0x0002 | Set if the second X button is pressed or released. |
 
 ### -field dwFlags
 
-Type: <b>DWORD</b>
+Type: **DWORD**
 
 A set of bit flags that specify various aspects of mouse motion and button clicks. The bits in this member can be any reasonable combination of the following values.
 
-The bit flags that specify mouse button status are set to indicate changes in status, not ongoing conditions. For example, if the left mouse button is pressed and held down, <b>MOUSEEVENTF_LEFTDOWN</b> is set when the left button is first pressed, but not for subsequent motions. Similarly, <b>MOUSEEVENTF_LEFTUP</b> is set only when the button is first released. 
+The bit flags that specify mouse button status are set to indicate changes in status, not ongoing conditions. For example, if the left mouse button is pressed and held down, **MOUSEEVENTF_LEFTDOWN** is set when the left button is first pressed, but not for subsequent motions. Similarly **MOUSEEVENTF_LEFTUP** is set only when the button is first released. 
 
-You cannot specify both the <b>MOUSEEVENTF_WHEEL</b> flag and either <b>MOUSEEVENTF_XDOWN</b> or <b>MOUSEEVENTF_XUP</b> flags simultaneously in the <b>dwFlags</b> parameter, because they both require use of the <b>mouseData</b> field. 
+You cannot specify both the **MOUSEEVENTF_WHEEL** flag and either **MOUSEEVENTF_XDOWN** or **MOUSEEVENTF_XUP** flags simultaneously in the **dwFlags** parameter, because they both require use of the **mouseData** field. 
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="MOUSEEVENTF_ABSOLUTE"></a><a id="mouseeventf_absolute"></a><dl>
-<dt><b>MOUSEEVENTF_ABSOLUTE</b></dt>
-<dt>0x8000</dt>
-</dl>
-</td>
-<td width="60%">
-The <b>dx</b> and <b>dy</b> members contain normalized absolute coordinates. If the flag is not set, <b>dx</b>and <b>dy</b> contain relative data (the change in position since the last reported position). This flag can be set, or not set, regardless of what kind of mouse or other pointing device, if any, is connected to the system. For further information about relative mouse motion, see the following Remarks section.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MOUSEEVENTF_HWHEEL"></a><a id="mouseeventf_hwheel"></a><dl>
-<dt><b>MOUSEEVENTF_HWHEEL</b></dt>
-<dt>0x01000</dt>
-</dl>
-</td>
-<td width="60%">
- The wheel was moved horizontally, if the mouse has a wheel. The amount of movement is specified in <b>mouseData</b>.
-					
-
-<b>Windows XP/2000:  </b>This value is not supported.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MOUSEEVENTF_MOVE"></a><a id="mouseeventf_move"></a><dl>
-<dt><b>MOUSEEVENTF_MOVE</b></dt>
-<dt>0x0001</dt>
-</dl>
-</td>
-<td width="60%">
-Movement occurred.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MOUSEEVENTF_MOVE_NOCOALESCE"></a><a id="mouseeventf_move_nocoalesce"></a><dl>
-<dt><b>MOUSEEVENTF_MOVE_NOCOALESCE</b></dt>
-<dt>0x2000</dt>
-</dl>
-</td>
-<td width="60%">
-The <a href="/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> messages will not be coalesced. The default behavior is to coalesce <b>WM_MOUSEMOVE</b> messages.
-					
-
-<b>Windows XP/2000:  </b>This value is not supported.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MOUSEEVENTF_LEFTDOWN"></a><a id="mouseeventf_leftdown"></a><dl>
-<dt><b>MOUSEEVENTF_LEFTDOWN</b></dt>
-<dt>0x0002</dt>
-</dl>
-</td>
-<td width="60%">
-The left button was pressed.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MOUSEEVENTF_LEFTUP"></a><a id="mouseeventf_leftup"></a><dl>
-<dt><b>MOUSEEVENTF_LEFTUP</b></dt>
-<dt>0x0004</dt>
-</dl>
-</td>
-<td width="60%">
-The left button was released.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MOUSEEVENTF_RIGHTDOWN"></a><a id="mouseeventf_rightdown"></a><dl>
-<dt><b>MOUSEEVENTF_RIGHTDOWN</b></dt>
-<dt>0x0008</dt>
-</dl>
-</td>
-<td width="60%">
-The right button was pressed.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MOUSEEVENTF_RIGHTUP"></a><a id="mouseeventf_rightup"></a><dl>
-<dt><b>MOUSEEVENTF_RIGHTUP</b></dt>
-<dt>0x0010</dt>
-</dl>
-</td>
-<td width="60%">
-The right button was released.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MOUSEEVENTF_MIDDLEDOWN"></a><a id="mouseeventf_middledown"></a><dl>
-<dt><b>MOUSEEVENTF_MIDDLEDOWN</b></dt>
-<dt>0x0020</dt>
-</dl>
-</td>
-<td width="60%">
-The middle button was pressed.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MOUSEEVENTF_MIDDLEUP"></a><a id="mouseeventf_middleup"></a><dl>
-<dt><b>MOUSEEVENTF_MIDDLEUP</b></dt>
-<dt>0x0040</dt>
-</dl>
-</td>
-<td width="60%">
-The middle button was released.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MOUSEEVENTF_VIRTUALDESK"></a><a id="mouseeventf_virtualdesk"></a><dl>
-<dt><b>MOUSEEVENTF_VIRTUALDESK</b></dt>
-<dt>0x4000</dt>
-</dl>
-</td>
-<td width="60%">
-Maps coordinates to the entire desktop. Must be used with <b>MOUSEEVENTF_ABSOLUTE</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MOUSEEVENTF_WHEEL"></a><a id="mouseeventf_wheel"></a><dl>
-<dt><b>MOUSEEVENTF_WHEEL</b></dt>
-<dt>0x0800</dt>
-</dl>
-</td>
-<td width="60%">
- The wheel was moved, if the mouse has a wheel. The amount of movement is specified in <b>mouseData</b>.
-					
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MOUSEEVENTF_XDOWN"></a><a id="mouseeventf_xdown"></a><dl>
-<dt><b>MOUSEEVENTF_XDOWN</b></dt>
-<dt>0x0080</dt>
-</dl>
-</td>
-<td width="60%">
- An X button was pressed.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MOUSEEVENTF_XUP"></a><a id="mouseeventf_xup"></a><dl>
-<dt><b>MOUSEEVENTF_XUP</b></dt>
-<dt>0x0100</dt>
-</dl>
-</td>
-<td width="60%">
- An X button was released.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+|-|-|
+| **MOUSEEVENTF_MOVE**<br>0x0001 | Movement occurred. |
+| **MOUSEEVENTF_LEFTDOWN**<br>0x0002 | The left button was pressed. |
+| **MOUSEEVENTF_LEFTUP**<br>0x0004 | The left button was released. |
+| **MOUSEEVENTF_RIGHTDOWN**<br>0x0008 | The right button was pressed. |
+| **MOUSEEVENTF_RIGHTUP**<br>0x0010 | The right button was released. |
+| **MOUSEEVENTF_MIDDLEDOWN**<br>0x0020 | The middle button was pressed. |
+| **MOUSEEVENTF_MIDDLEUP**<br>0x0040 | The middle button was released. |
+| **MOUSEEVENTF_XDOWN**<br>0x0080 | An X button was pressed. |
+| **MOUSEEVENTF_XUP**<br>0x0100 | An X button was released. |
+| **MOUSEEVENTF_WHEEL**<br>0x0800 | The wheel was moved, if the mouse has a wheel. The amount of movement is specified in **mouseData**. |
+| **MOUSEEVENTF_HWHEEL**<br>0x1000 | The wheel was moved horizontally, if the mouse has a wheel. The amount of movement is specified in **mouseData**. <br>**Windows XP/2000**: This value is not supported. |
+| **MOUSEEVENTF_MOVE_NOCOALESCE**<br>0x2000 | The [WM_MOUSEMOVE](/windows/desktop/inputdev/wm-mousemove) messages will not be coalesced. The default behavior is to coalesce **WM_MOUSEMOVE** messages. <br>**Windows XP/2000**: This value is not supported. |
+| **MOUSEEVENTF_VIRTUALDESK**<br>0x4000 | Maps coordinates to the entire desktop. Must be used with **MOUSEEVENTF_ABSOLUTE**. |
+| **MOUSEEVENTF_ABSOLUTE**<br>0x8000 | The **dx** and **dy** members contain normalized absolute coordinates. If the flag is not set, **dx**and **dy** contain relative data (the change in position since the last reported position). This flag can be set, or not set, regardless of what kind of mouse or other pointing device, if any, is connected to the system. For further information about relative mouse motion, see the following Remarks section. |
 
 ### -field time
 
-Type: <b>DWORD</b>
+Type: **DWORD**
 
 The time stamp for the event, in milliseconds. If this parameter is 0, the system will provide its own time stamp.
 
 ### -field dwExtraInfo
 
-Type: <b>ULONG_PTR</b>
+Type: **ULONG_PTR**
 
-An additional value associated with the mouse event. An application calls <a href="/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a> to obtain this extra information.
+An additional value associated with the mouse event. An application calls [GetMessageExtraInfo](/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo) to obtain this extra information.
 
 ## -remarks
 
-If the mouse has moved, indicated by <b>MOUSEEVENTF_MOVE</b>, <b>dx</b>and <b>dy</b> specify information about that movement. The information is specified as absolute or relative integer values. 
+If the mouse has moved, indicated by **MOUSEEVENTF_MOVE**, **dx** and **dy** specify information about that movement. The information is specified as absolute or relative integer values. 
 
-If <b>MOUSEEVENTF_ABSOLUTE</b> value is specified, <b>dx</b> and <b>dy</b> contain normalized absolute coordinates between 0 and 65,535. The event procedure maps these coordinates onto the display surface. Coordinate (0,0) maps onto the upper-left corner of the display surface; coordinate (65535,65535) maps onto the lower-right corner. In a multimonitor system, the coordinates map to the primary monitor. 
+If **MOUSEEVENTF_ABSOLUTE** value is specified, **dx** and **dy** contain normalized absolute coordinates between 0 and 65,535. The event procedure maps these coordinates onto the display surface. Coordinate (0,0) maps onto the upper-left corner of the display surface; coordinate (65535,65535) maps onto the lower-right corner. In a multimonitor system, the coordinates map to the primary monitor. 
 
- If <b>MOUSEEVENTF_VIRTUALDESK</b> is specified, the coordinates map to the entire virtual desktop.
+If **MOUSEEVENTF_VIRTUALDESK** is specified, the coordinates map to the entire virtual desktop.
 
-If the <b>MOUSEEVENTF_ABSOLUTE</b> value is not specified, <b>dx</b>and <b>dy</b> specify movement relative to the previous mouse event (the last reported position). Positive values mean the mouse moved right (or down); negative values mean the mouse moved left (or up). 
+If the **MOUSEEVENTF_ABSOLUTE** value is not specified, **dx**and **dy** specify movement relative to the previous mouse event (the last reported position). Positive values mean the mouse moved right (or down); negative values mean the mouse moved left (or up). 
 
-Relative mouse motion is subject to the effects of the mouse speed and the two-mouse threshold values. A user sets these three values with the <b>Pointer Speed</b> slider of the Control Panel's <b>Mouse Properties</b> sheet. You can obtain and set these values using the <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function. 
+Relative mouse motion is subject to the effects of the mouse speed and the two-mouse threshold values. A user sets these three values with the **Pointer Speed** slider of the Control Panel's **Mouse Properties** sheet. You can obtain and set these values using the [SystemParametersInfo](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function. 
 
 The system applies two tests to the specified relative mouse movement. If the specified distance along either the x or y axis is greater than the first mouse threshold value, and the mouse speed is not zero, the system doubles the distance. If the specified distance along either the x or y axis is greater than the second mouse threshold value, and the mouse speed is equal to two, the system doubles the distance that resulted from applying the first threshold test. It is thus possible for the system to multiply specified relative mouse movement along the x or y axis by up to four times.
 
 ## -see-also
 
-<b>Conceptual</b>
+**Conceptual**
 
+[GetMessageExtraInfo](/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo)
 
+[INPUT](/windows/desktop/api/winuser/ns-winuser-input)
 
-<a href="/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a>
+[Keyboard Input](/windows/desktop/inputdev/keyboard-input)
 
+**Reference**
 
-
-<a href="/windows/desktop/api/winuser/ns-winuser-input">INPUT</a>
-
-
-
-<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
-
-
-
-<b>Reference</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a>
+[SendInput](/windows/desktop/api/winuser/nf-winuser-sendinput)

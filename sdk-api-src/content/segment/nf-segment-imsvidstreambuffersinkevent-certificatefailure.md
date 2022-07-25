@@ -57,7 +57,7 @@ This topic applies to Windows XP Service Pack 1 or later.
 
 The <b>CertificateFailure</b> method is called when the object fails to get an encryption/decryption license.
 
-## -parameters
+
 
 ## -returns
 

@@ -55,13 +55,13 @@ req.apiset: ext-ms-win-shell-comdlg32-l1-1-1 (introduced in Windows 10, version 
 
 ## -description
 
-<p class="CCE_Message">[Starting with Windows Vista, the <b>Open</b> and <b>Save As</b> common dialog boxes have been superseded by the <a href="/previous-versions/windows/desktop/legacy/bb776913(v=vs.85)">Common Item Dialog</a>. We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.]
+<p class="CCE_Message">[Starting with Windows Vista, the <b>Open</b> and <b>Save As</b> common dialog boxes have been superseded by the <a href="/windows/win32/shell/common-file-dialog">Common Item Dialog</a>. We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.]
 
 Creates a <b>Save</b> dialog box that lets the user specify the drive, directory, and name of a file to save.
 
 ## -parameters
 
-### -param Arg1 [in, out]
+### -param unnamedParam1 [in, out]
 
 Type: <b>LPOPENFILENAME</b>
 

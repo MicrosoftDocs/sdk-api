@@ -158,16 +158,17 @@ As stated previously, you cannot use a trailing backslash (\\) in the <i>lpFileN
 <div class="alert"><b>Note</b>  Prepending the string "\\?\" does not allow access to the root 
      directory.</div>
 <div> </div>
+
 On network shares, you can use an <i>lpFileName</i> in the form of the following: 
-    "\\Server\Share\*". However, you cannot use an <i>lpFileName</i> 
-    that points to the share itself; for example, "\\Server\Share" is not valid.
+    "\\\\Server\\Share\\*". However, you cannot use an <i>lpFileName</i> 
+    that points to the share itself; for example, "\\\\Server\\Share" is not valid.
 
 To examine a directory that is not a root directory, use the path to that directory, without a trailing 
-    backslash. For example, an argument of "C:\Windows" returns information about the 
-    directory "C:\Windows", not about a directory or file in 
-    "C:\Windows". To examine the files and directories in 
-    "C:\Windows", use an <i>lpFileName</i> of 
-    "C:\Windows\*".
+    backslash. For example, an argument of "C:\\Windows" returns information about the 
+    directory "C:\\Windows", not about a directory or file in 
+    "C:\\Windows". To examine the files and directories in 
+    "C:\\Windows", use an <i>lpFileName</i> of 
+    "C:\\Windows\\*".
 
 Be aware that some other thread or process could create or delete a file with this name between the time you 
     query for the result and the time you act on the information. If this is a potential concern for your application, 
@@ -177,7 +178,7 @@ Be aware that some other thread or process could create or delete a file with th
 
 If you are writing a 32-bit application to list all the files in a directory and the application may be  run 
     on a 64-bit computer, you should call the 
-    <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a>function 
+    <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> function 
     before calling <b>FindFirstFile</b> and call 
     <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection">Wow64RevertWow64FsRedirection</a> after the 
     last call to <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a>. For more information, see 

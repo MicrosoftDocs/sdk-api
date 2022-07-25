@@ -56,83 +56,10 @@ If the TIF is not able to provide the locator data for the transport stream, it 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITuneRequestInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITuneRequestInfo</b> also has these types of members:
+The <b>ITuneRequestInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITuneRequestInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ITuneRequestInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-itunerequestinfo-createcomponentlist">CreateComponentList</a>
-</td>
-<td align="left" width="63%">
-Creates a new <a href="/previous-versions/windows/desktop/mstv/components-object">Components</a> collection for the tune request, and fills it in with all network-specific data after the receiver has tuned to the service.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-itunerequestinfo-getcomponentdata">GetComponentData</a>
-</td>
-<td align="left" width="63%">
-Fills in all network-specific component data for the existing <a href="/previous-versions/windows/desktop/mstv/components-object">Components</a> collection on the specified tune request.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-itunerequestinfo-getlocatordata">GetLocatorData</a>
-</td>
-<td align="left" width="63%">
-Provides channel/program locator information for the specified tune request.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-itunerequestinfo-getnextlocator">GetNextLocator</a>
-</td>
-<td align="left" width="63%">
-Creates a new tune request with locator information for the next transport stream on the network.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-itunerequestinfo-getnextprogram">GetNextProgram</a>
-</td>
-<td align="left" width="63%">
-Creates a new tune request with channel/program locator information for the next service on the current transport stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-itunerequestinfo-getpreviouslocator">GetPreviousLocator</a>
-</td>
-<td align="left" width="63%">
-Creates a new tune request with locator information for the previous transport stream on the network.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-itunerequestinfo-getpreviousprogram">GetPreviousProgram</a>
-</td>
-<td align="left" width="63%">
-Creates a new tune request with locator information for the previous service on the current transport stream.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

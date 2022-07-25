@@ -59,53 +59,8 @@ This interface implements a standard Component Object Model (COM) collection obj
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumPIDMap</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumPIDMap</b> also has these types of members:
+The <b>IEnumPIDMap</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumPIDMap</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IEnumPIDMap</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ienumpidmap-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a copy of the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ienumpidmap-next">Next</a>
-</td>
-<td align="left" width="63%">
-Retrieves the next <i>n</i> elements in the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ienumpidmap-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Moves the iterator to the beginning of the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ienumpidmap-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips over the specified number of elements in the collection.
-
-</td>
-</tr>
-</table>

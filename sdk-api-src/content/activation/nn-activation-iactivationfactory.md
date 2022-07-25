@@ -54,33 +54,11 @@ Enables classes to be activated by the Windows Runtime.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IActivationFactory</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IActivationFactory</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IActivationFactory</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/activation/nf-activation-iactivationfactory-activateinstance">ActivateInstance</a>
-</td>
-<td align="left" width="63%">
-Creates a new instance of the Windows Runtime class that is associated with the current activation factory.
-
-</td>
-</tr>
-</table>
+The <b>IActivationFactory</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IActivationFactory</b> also has these types of members:
 
 ## -remarks
 
-Implement the <b>IActivationFactory</b> interface when you create a class that you want Windows Runtime  applications to use. Clients call the <a href="/windows/desktop/api/activation/nf-activation-iactivationfactory-activateinstance">ActivateInstance</a>method to use an instance of your class. 
+Implement the <b>IActivationFactory</b> interface when you create a class that you want Windows Runtime  applications to use. Clients call the <a href="/windows/desktop/api/activation/nf-activation-iactivationfactory-activateinstance">ActivateInstance</a> method to use an instance of your class. 
 
 You can get an <b>IActivationFactory</b> pointer by calling the <a href="/windows/desktop/api/roapi/nf-roapi-rogetactivationfactory">RoGetActivationFactory</a> function.  
 

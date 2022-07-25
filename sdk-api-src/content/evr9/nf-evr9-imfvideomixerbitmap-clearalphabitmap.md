@@ -53,7 +53,7 @@ api_name:
 
 Removes the current bitmap and releases any resources associated with it.
 
-## -parameters
+
 
 ## -returns
 

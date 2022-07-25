@@ -55,26 +55,26 @@ Invoked when the headers of the input message are
 
 ## -parameters
 
-### -param *message [in]
+### -param message [in]
 
 The input or output message.
 
-### -param *heap [in]
+### -param heap [in]
 
 The heap associated with the call. This is the heap which is passed to call for which this 
                     callback is being called.
 
-### -param *state [in]
+### -param state [in]
 
 The 'state' as specified as part of <a href="/windows/win32/api/webservices/ns-webservices-ws_proxy_message_callback_context">WS_PROXY_MESSAGE_CALLBACK_CONTEXT</a> 'state' field.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 
 ## -returns
 
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this callback function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

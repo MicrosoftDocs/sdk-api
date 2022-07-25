@@ -55,7 +55,7 @@ Provides a read-only object model for app packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxPackageReader2</b> interface inherits from <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagereader">IAppxPackageReader</a>. <b>IAppxPackageReader2</b> also has these types of members:
+The <b>IAppxPackageReader2</b> interface inherits from <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagereader">IAppxPackageReader</a>. <b>IAppxPackageReader2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -68,7 +68,7 @@ The <b>IAppxPackageReader2</b> interface has these methods.
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackagereader2-getcontentgroupmap">GetContentGroupMap</a>
 </td>

@@ -58,44 +58,5 @@ The <code>IVideoFrameStep</code> interface steps through a video stream. This in
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVideoFrameStep</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVideoFrameStep</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVideoFrameStep</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVideoFrameStep</b> also has these types of members:
 
-## -members
-
-The <b>IVideoFrameStep</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivideoframestep-cancelstep">CancelStep</a>
-</td>
-<td align="left" width="63%">
-Cancels the previous step operation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivideoframestep-canstep">CanStep</a>
-</td>
-<td align="left" width="63%">
-Determines the stepping capabilities of the specified filter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivideoframestep-step">Step</a>
-</td>
-<td align="left" width="63%">
-Causes the filter graph to step forward by the specified number of frames.
-
-</td>
-</tr>
-</table>

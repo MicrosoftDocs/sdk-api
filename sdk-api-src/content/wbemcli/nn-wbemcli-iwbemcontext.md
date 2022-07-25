@@ -65,107 +65,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemContext</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemContext</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWbemContext</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-beginenumeration">BeginEnumeration</a>
-</td>
-<td align="left" width="63%">
-Begins an enumeration of all context values in the 
-<b>IWbemContext</b> object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a complete copy of the current 
-<b>IWbemContext</b> object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-deleteall">DeleteAll</a>
-</td>
-<td align="left" width="63%">
-Removes all context values, emptying the 
-<b>IWbemContext</b> object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-deletevalue">DeleteValue</a>
-</td>
-<td align="left" width="63%">
-Removes the specified context value.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-endenumeration">EndEnumeration</a>
-</td>
-<td align="left" width="63%">
-Ends an enumeration begun with 
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-beginenumeration">BeginEnumeration</a> and 
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-next">Next</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-getnames">GetNames</a>
-</td>
-<td align="left" width="63%">
-Retrieves the names of all of the context values available.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-getvalue">GetValue</a>
-</td>
-<td align="left" width="63%">
-Retrieves the specified context value by name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-next">Next</a>
-</td>
-<td align="left" width="63%">
-Retrieves the next value in an enumeration of all context values beginning with 
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-beginenumeration">BeginEnumeration</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-setvalue">SetValue</a>
-</td>
-<td align="left" width="63%">
-Sets a specific named context value.
-
-</td>
-</tr>
-</table>
+The <b>IWbemContext</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemContext</b> also has these types of members:
 
 ## -remarks
 
@@ -184,7 +84,7 @@ Providers that support the use of
 <li><b>VT_R8</b></li>
 <li><b>VT_BOOL</b></li>
 <li><b>VT_BSTR</b></li>
-<li><b>VT_UNKNOW</b>N</li>
+<li><b>VT_UNKNOWN</b></li>
 <li>Any of the above combined with <b>VT_ARRAY</b></li>
 </ul>
 <div class="alert"><b>Note</b>  Only objects that support 

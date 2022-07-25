@@ -54,47 +54,7 @@ Provides methods that enable an application using the <a href="/previous-version
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintDialogServices</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintDialogServices</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPrintDialogServices</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/commdlg/nf-commdlg-getcurrentdevmode">GetCurrentDevMode</a>
-</td>
-<td align="left" width="63%">
-Fills a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure with information about the currently selected printer for use with <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/commdlg/nf-commdlg-getcurrentportname">GetCurrentPortName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the name of the current port for use with <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/commdlg/nf-commdlg-getcurrentprintername">GetCurrentPrinterName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the name of the currently selected printer, for use with <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>.
-
-</td>
-</tr>
-</table>
+The <b>IPrintDialogServices</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintDialogServices</b> also has these types of members:
 
 ## -remarks
 

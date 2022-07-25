@@ -53,7 +53,7 @@ api_name:
 The 
 <b>StopStream</b> method stops the stream.
 
-## -parameters
+
 
 ## -returns
 

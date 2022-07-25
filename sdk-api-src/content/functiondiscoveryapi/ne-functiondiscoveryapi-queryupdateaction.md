@@ -58,15 +58,15 @@ Represents the type of action Function Discovery is performing on the specified 
 
 ## -enum-fields
 
-### -field QUA_ADD
+### -field QUA_ADD:0
 
 Function Discovery is adding the specified function instance.
 
-### -field QUA_REMOVE
+### -field QUA_REMOVE:1
 
 Function Discovery is removing the specified function instance.
 
-### -field QUA_CHANGE
+### -field QUA_CHANGE:2
 
 Function Discovery is modifying the specified function instance.
 

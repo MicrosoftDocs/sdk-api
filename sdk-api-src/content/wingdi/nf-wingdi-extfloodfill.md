@@ -70,7 +70,7 @@ The y-coordinate, in logical units, of the point where filling is to start.
 
 ### -param color [in]
 
-The color of the boundary or of the area to be filled. The interpretation of <i>crColor</i> depends on the value of the <i>fuFillType</i> parameter. To create a <a href="/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
+The color of the boundary or of the area to be filled. The interpretation of <i>color</i> depends on the value of the <i>fuFillType</i> parameter. To create a <a href="/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 ### -param type [in]
 
@@ -87,7 +87,7 @@ The type of fill operation to be performed. This parameter must be one of the fo
 </dl>
 </td>
 <td width="60%">
-The fill area is bounded by the color specified by the <i>crColor</i> parameter. This style is identical to the filling performed by the <a href="/windows/desktop/api/wingdi/nf-wingdi-floodfill">FloodFill</a> function.
+The fill area is bounded by the color specified by the <i>color</i> parameter. This style is identical to the filling performed by the <a href="/windows/desktop/api/wingdi/nf-wingdi-floodfill">FloodFill</a> function.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ The fill area is bounded by the color specified by the <i>crColor</i> parameter.
 </dl>
 </td>
 <td width="60%">
-The fill area is defined by the color that is specified by <i>crColor</i>. Filling continues outward in all directions as long as the color is encountered. This style is useful for filling areas with multicolored boundaries.
+The fill area is defined by the color that is specified by <i>color</i>. Filling continues outward in all directions as long as the color is encountered. This style is useful for filling areas with multicolored boundaries.
 
 </td>
 </tr>
@@ -115,13 +115,13 @@ The following are some of the reasons this function might fail:
 
 <ul>
 <li>The filling could not be completed.</li>
-<li>The specified point has the boundary color specified by the <i>crColor</i> parameter (if FLOODFILLBORDER was requested).</li>
-<li>The specified point does not have the color specified by <i>crColor</i> (if FLOODFILLSURFACE was requested).</li>
-<li>The point is outside the clipping regionthat is, it is not visible on the device.</li>
+<li>The specified point has the boundary color specified by the <i>color</i> parameter (if FLOODFILLBORDER was requested).</li>
+<li>The specified point does not have the color specified by <i>color</i> (if FLOODFILLSURFACE was requested).</li>
+<li>The point is outside the clipping region, that is, it is not visible on the device.</li>
 </ul>
-If the <i>fuFillType</i> parameter is FLOODFILLBORDER, the system assumes that the area to be filled is completely bounded by the color specified by the <i>crColor</i> parameter. The function begins filling at the point specified by the <i>nXStart</i> and <i>nYStart</i> parameters and continues in all directions until it reaches the boundary.
+If the <i>fuFillType</i> parameter is FLOODFILLBORDER, the system assumes that the area to be filled is completely bounded by the color specified by the <i>color</i> parameter. The function begins filling at the point specified by the <i>nXStart</i> and <i>nYStart</i> parameters and continues in all directions until it reaches the boundary.
 
-If <i>fuFillType</i> is FLOODFILLSURFACE, the system assumes that the area to be filled is a single color. The function begins to fill the area at the point specified by <i>nXStart</i> and <i>nYStart</i> and continues in all directions, filling all adjacent regions containing the color specified by <i>crColor</i>.
+If <i>fuFillType</i> is FLOODFILLSURFACE, the system assumes that the area to be filled is a single color. The function begins to fill the area at the point specified by <i>nXStart</i> and <i>nYStart</i> and continues in all directions, filling all adjacent regions containing the color specified by <i>color</i>.
 
 Only memory device contexts and devices that support raster-display operations support the <b>ExtFloodFill</b> function. To determine whether a device supports this technology, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function.
 

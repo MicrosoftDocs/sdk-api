@@ -159,7 +159,7 @@ Note that
 The 
 <b>CreateRemoteThread</b> function causes a new thread of execution to begin in the address space of the specified process. The thread has access to all objects that the process opens.
 
-Terminal Services isolates each terminal session by design. Therefore, 
+Prior to Windows 8, Terminal Services isolates each terminal session by design. Therefore, 
 <b>CreateRemoteThread</b> fails if the target process is in a different session than the calling process.
 
 The new thread handle is created with full access to the new thread. If a security descriptor is not provided, the handle may be used in any function that requires a thread object handle. When a security descriptor is provided, an access check is performed on all subsequent uses of the handle before access is granted. If the access check denies access, the requesting process cannot use the handle to gain access to the thread.

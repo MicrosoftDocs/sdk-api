@@ -88,9 +88,11 @@ The name of the registry subkey to be opened.
 
 Key names are not case sensitive.
 
-The <i>lpSubKey</i> parameter can be a pointer to an empty string. If <i>lpSubKey</i> is a pointer to an empty string and <i>hKey</i> is HKEY_CLASSES_ROOT, <i>phkResult</i> receives the same <i>hKey</i> handle passed into the function. Otherwise, <i>phkResult</i> receives a new handle to the key specified by <i>hKey</i>.
-
-The <i>lpSubKey</i> parameter can be <b>NULL</b> only if <i>hKey</i> is one of the predefined keys. If <i>lpSubKey</i> is <b>NULL</b> and <i>hKey</i> is HKEY_CLASSES_ROOT, <i>phkResult</i> receives a new handle to the key specified by <i>hKey</i>. Otherwise, <i>phkResult</i> receives the same <i>hKey</i> handle passed in to the function.
+If the <i>lpSubKey</i> parameter is <b>NULL</b> or a pointer to an empty string,
+and if <i>hKey</i> is a predefined key,
+then the system refreshes the predefined key,
+and <i>phkResult</i> receives the same <i>hKey</i> handle passed into the function.
+Otherwise, <i>phkResult</i> receives a new handle to the opened key.
 
 For more information, see 
 <a href="/windows/desktop/SysInfo/registry-element-size-limits">Registry Element Size Limits</a>.

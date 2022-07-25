@@ -59,48 +59,7 @@ The <b>IGetClusterResourceInfo</b> interface is
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetClusterResourceInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGetClusterResourceInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IGetClusterResourceInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterresourceinfo-getresourcehandle">GetResourceHandle</a>
-</td>
-<td align="left" width="63%">
-Returns a handle to a resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterresourceinfo-getresourcenetworkname">GetResourceNetworkName</a>
-</td>
-<td align="left" width="63%">
-Returns the name of the network managed by the 
-      <a href="/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resource on which a resource depends.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterresourceinfo-getresourcetypename">GetResourceTypeName</a>
-</td>
-<td align="left" width="63%">
-Returns the <a href="/previous-versions/windows/desktop/mscs/resource-types">resource type</a> of a resource.
-
-</td>
-</tr>
-</table>
+The <b>IGetClusterResourceInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGetClusterResourceInfo</b> also has these types of members:
 
 ## -remarks
 

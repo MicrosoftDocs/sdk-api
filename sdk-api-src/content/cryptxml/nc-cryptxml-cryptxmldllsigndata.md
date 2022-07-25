@@ -56,7 +56,7 @@ The <i>CryptXmlDllSignData</i> function is exposed through the exported <a href=
 
 ## -parameters
 
-### -param *pSignatureMethod [in]
+### -param pSignatureMethod [in]
 
 A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the algorithm.
 
@@ -68,7 +68,7 @@ The handle of the <a href="/windows/desktop/SecGloss/c-gly">cryptographic servic
 
 The private key to use from the provider's container. This key can be AT_KEYEXCHANGE or AT_SIGNATURE. This parameter is ignored if an <b>NCRYPT_KEY_HANDLE</b> handle is used in the <i>hCryptProvOrNCryptKey</i> parameter.
 
-### -param *pbInput [in]
+### -param pbInput [in]
 
 A pointer to a buffer that contains the digest value to sign. The <i>cbInput</i> parameter contains the size of this buffer.
 
@@ -76,7 +76,7 @@ A pointer to a buffer that contains the digest value to sign. The <i>cbInput</i>
 
 The size, in bytes, of the buffer pointed to by the <i>pbInput</i> parameter.
 
-### -param *pbOutput [out, optional]
+### -param pbOutput [out, optional]
 
 The address of a buffer to receive the signature produced by this function. The <i>cbOutput</i> parameter contains the size of this buffer.
 
@@ -86,7 +86,7 @@ If this parameter is <b>NULL</b>, this function will calculate the size needed f
 
 The size, in bytes, of the buffer pointed to by the <i>pbOutput</i> parameter.
 
-### -param *pcbResult [out]
+### -param pcbResult [out]
 
 A pointer to a <b>DWORD</b> variable that receives the number of bytes copied to the <i>pbOutput</i> buffer. 
 If <i>pbOutput</i> is <b>NULL</b>, this receives the size, in bytes, required for the signature.

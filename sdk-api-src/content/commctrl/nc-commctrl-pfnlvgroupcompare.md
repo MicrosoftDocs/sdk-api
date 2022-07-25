@@ -52,19 +52,19 @@ The <b>LVGroupCompare</b> function is an application-defined callback function u
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 The ID of the first group.
 
-### -param Arg2
+### -param unnamedParam2
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 The ID of the second group.
 
-### -param Arg3
+### -param unnamedParam3
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">VOID</a>*</b>
 

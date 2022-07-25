@@ -56,29 +56,7 @@ A module interface creates an instance of a module that is used for resource reb
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Module</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11Module</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D11Module</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11module-createinstance">CreateInstance</a>
-</td>
-<td align="left" width="63%">
-Initializes an instance of a shader module that is used for resource rebinding.
-
-</td>
-</tr>
-</table>
+The <b>ID3D11Module</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11Module</b> also has these types of members:
 
 ## -remarks
 

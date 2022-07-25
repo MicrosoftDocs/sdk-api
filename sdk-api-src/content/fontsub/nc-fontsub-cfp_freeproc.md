@@ -51,7 +51,7 @@ Client-provided callback function, used by <a href="/windows/desktop/api/fontsub
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Previously allocated memory block to be freed.
 

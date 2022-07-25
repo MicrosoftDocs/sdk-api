@@ -54,65 +54,7 @@ Exposes memory-efficient methods for accessing bitmaps. This interface is used a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISharedBitmap</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISharedBitmap</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISharedBitmap</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/thumbcache/nf-thumbcache-isharedbitmap-detach">Detach</a>
-</td>
-<td align="left" width="63%">
-Retrieves the bitmap contained in an <b>ISharedBitmap</b> object, and returns a copy if the contained bitmap resides in shared memory. After calling this method the bitmap is no longer associated with this <b>ISharedBitmap</b> and you cannot call <a href="/windows/desktop/api/thumbcache/nf-thumbcache-isharedbitmap-getsharedbitmap">ISharedBitmap::GetSharedBitmap</a> or <a href="/windows/desktop/api/thumbcache/nf-thumbcache-isharedbitmap-detach">ISharedBitmap::Detach</a> on it again.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/thumbcache/nf-thumbcache-isharedbitmap-getformat">GetFormat</a>
-</td>
-<td align="left" width="63%">
-Retrieves the alpha type of the bitmap image.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/thumbcache/nf-thumbcache-isharedbitmap-getsharedbitmap">GetSharedBitmap</a>
-</td>
-<td align="left" width="63%">
-Retrieves the bitmap contained in an <b>ISharedBitmap</b> object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/thumbcache/nf-thumbcache-isharedbitmap-getsize">GetSize</a>
-</td>
-<td align="left" width="63%">
-Retrieves the size of the bitmap contained in an <b>ISharedBitmap</b> object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/thumbcache/nf-thumbcache-isharedbitmap-initializebitmap">InitializeBitmap</a>
-</td>
-<td align="left" width="63%">
-Initializes a new <b>ISharedBitmap</b> object with a given bitmap.
-
-</td>
-</tr>
-</table>
+The <b>ISharedBitmap</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISharedBitmap</b> also has these types of members:
 
 ## -remarks
 

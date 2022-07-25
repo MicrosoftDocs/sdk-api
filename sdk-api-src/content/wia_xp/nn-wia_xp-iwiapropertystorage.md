@@ -54,56 +54,7 @@ The <b>IWiaPropertyStorage</b> interface is used to access information about the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaPropertyStorage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaPropertyStorage</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWiaPropertyStorage</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getcount">GetCount</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getcount">IWiaPropertyStorage::GetCount</a> method returns the number of properties stored in the property storage.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getpropertyattributes">GetPropertyAttributes</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getpropertyattributes">IWiaPropertyStorage::GetPropertyAttributes</a> method retrieves access rights and legal value information for a specified set of properties.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getpropertystream">GetPropertyStream</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getpropertystream">IWiaPropertyStorage::GetPropertyStream</a> method retrieves the property stream of an item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-setpropertystream">SetPropertyStream</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-setpropertystream">IWiaPropertyStorage::SetPropertyStream</a> sets the property stream of an item in the tree of <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects of a WIA hardware device.
-
-</td>
-</tr>
-</table>
+The <b>IWiaPropertyStorage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaPropertyStorage</b> also has these types of members:
 
 ## -remarks
 

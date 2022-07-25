@@ -59,12 +59,12 @@ api_name:
 
 Causes the calling thread to yield execution to another thread that is ready to run on the current processor. The operating system selects the next thread to be executed.
 
-## -parameters
+
 
 ## -returns
 
 If calling the 
-<b>SwitchToThread</b> function causes the operating system to switch execution to another thread, the return value is nonzero.
+<b>SwitchToThread</b> function caused the operating system to switch execution to another thread, the return value is nonzero.
 
 If there are no other threads ready to execute, the operating system does not switch execution to another thread, and the return value is zero.
 

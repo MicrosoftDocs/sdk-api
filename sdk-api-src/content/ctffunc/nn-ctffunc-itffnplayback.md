@@ -58,38 +58,7 @@ A client obtains an instance of this interface by obtaining the <a href="/window
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnPlayBack</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnPlayBack</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfFnPlayBack</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnplayback-play">Play</a>
-</td>
-<td align="left" width="63%">
-Causes the audio data for a range of text to be played.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnplayback-queryrange">QueryRange</a>
-</td>
-<td align="left" width="63%">
-Obtains the range of text for a word or phrase that contains audio data.
-
-</td>
-</tr>
-</table>
+The <b>ITfFnPlayBack</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnPlayBack</b> also has these types of members:
 
 ## -see-also
 

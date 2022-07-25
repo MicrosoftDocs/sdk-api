@@ -58,35 +58,7 @@ Provides
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsLunIscsi</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsLunIscsi</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVdsLunIscsi</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsluniscsi-associatetargets">AssociateTargets</a>
-</td>
-<td align="left" width="63%">
-Associates LUNs with subsystem iSCSI targets.</p> (Inherited from <b>IVdsLunIscsi</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsluniscsi-queryassociatedtargets">QueryAssociatedTargets</a>
-</td>
-<td align="left" width="63%">
-Returns an enumeration of currently associated iSCSI targets—the targets 
-   through which the LUN is accessible.</p> (Inherited from <b>IVdsLunIscsi</b>)</td>
-</tr>
-</table>
+The <b>IVdsLunIscsi</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsLunIscsi</b> also has these types of members:
 
 ## -see-also
 

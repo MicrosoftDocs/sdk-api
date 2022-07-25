@@ -52,55 +52,55 @@ api_name:
 
 ## -description
 
-The <b>FWPM_NET_EVENT1</b> structure contains information about all event types.
-[FWPM_NET_EVENT0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event0) is available.</div><div> </div>
+The **FWPM_NET_EVENT1** structure contains information about all event types.
+[FWPM_NET_EVENT0](ns-fwpmtypes-fwpm_net_event0.md) is available.
 
 ## -struct-fields
 
 ### -field header
 
-An [FWPM_NET_EVENT_HEADER1](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header1) structure that contains information common to all events.
+An [FWPM_NET_EVENT_HEADER1](ns-fwpmtypes-fwpm_net_event_header1.md) structure that contains information common to all events.
 
 ### -field type
 
-An [FWPM_NET_EVENT_TYPE](/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_net_event_type) value that specifies the type of event.
+An [FWPM_NET_EVENT_TYPE](ne-fwpmtypes-fwpm_net_event_type.md) value that specifies the type of event.
 
 ### -field ikeMmFailure
 
-Address of an <a href="/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ikeext_mm_failure1">FWPM_NET_EVENT_IKEEXT_MM_FAILURE1</a> structure that contains information about  an IKE main mode failure.
+Address of an [FWPM_NET_EVENT_IKEEXT_MM_FAILURE1](ns-fwpmtypes-fwpm_net_event_ikeext_mm_failure1.md) structure that contains information about  an IKE main mode failure.
 
-Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_MM_FAILURE</b>.
+Available when **type** is **FWPM_NET_EVENT_TYPE_IKEEXT_MM_FAILURE**.
 
 ### -field ikeQmFailure
 
-Address of an <a href="/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ikeext_qm_failure0">FWPM_NET_EVENT_IKEEXT_QM_FAILURE0</a> structure that contains information about  an IKE quick mode failure.
+Address of an [FWPM_NET_EVENT_IKEEXT_QM_FAILURE0](ns-fwpmtypes-fwpm_net_event_ikeext_qm_failure0.md) structure that contains information about  an IKE quick mode failure.
 
-Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_QM_FAILURE</b>.
+Available when **type** is **FWPM_NET_EVENT_TYPE_IKEEXT_QM_FAILURE**.
 
 ### -field ikeEmFailure
 
-Address of an <a href="/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ikeext_em_failure1">FWPM_NET_EVENT_IKEEXT_EM_FAILURE1</a> structure that contains information about  an IKE user mode failure.
+Address of an [FWPM_NET_EVENT_IKEEXT_EM_FAILURE1](ns-fwpmtypes-fwpm_net_event_ikeext_em_failure1.md) structure that contains information about  an IKE user mode failure.
 
-Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_EM_FAILURE</b>.
+Available when **type** is **FWPM_NET_EVENT_TYPE_IKEEXT_EM_FAILURE**.
 
 ### -field classifyDrop
 
-Address of an [FWPM_NET_EVENT_CLASSIFY_DROP1](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop1) structure that contains information about  a drop event.
+Address of an [FWPM_NET_EVENT_CLASSIFY_DROP1](ns-fwpmtypes-fwpm_net_event_classify_drop1.md) structure that contains information about  a drop event.
 
-Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_CLASSIFY_DROP</b>.
+Available when **type** is **FWPM_NET_EVENT_TYPE_CLASSIFY_DROP**.
 
 ### -field ipsecDrop
 
-Address of an <a href="/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ipsec_kernel_drop0">FWPM_NET_EVENT_IPSEC_KERNEL_DROP0</a> structure that contains information about an IPsec kernel drop event.
+Address of an [FWPM_NET_EVENT_IPSEC_KERNEL_DROP0](ns-fwpmtypes-fwpm_net_event_ipsec_kernel_drop0.md) structure that contains information about an IPsec kernel drop event.
 
-Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IPSEC_KERNEL_DROP</b>.
+Available when **type** is **FWPM_NET_EVENT_TYPE_IPSEC_KERNEL_DROP**.
 
 ### -field idpDrop
 
-Address of an <a href="/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ipsec_dosp_drop0">FWPM_NET_EVENT_IPSEC_DOSP_DROP0</a> structure that contains information about an IPsec DoS Protection event.
+Address of an [FWPM_NET_EVENT_IPSEC_DOSP_DROP0](ns-fwpmtypes-fwpm_net_event_ipsec_dosp_drop0.md) structure that contains information about an IPsec DoS Protection event.
 
-Available when <b>type</b> is <b>FWPM_NET_EVENT_IPSEC_DOSP_DROP</b>.
+Available when **type** is **FWPM_NET_EVENT_IPSEC_DOSP_DROP**.
 
 ## -see-also
 
-<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+[Windows Filtering Platform  API Structures](/windows/desktop/FWP/fwp-structs)

@@ -54,7 +54,7 @@ api_name:
 The <b>StringFormat::GetLastStatus</b> method returns a value that indicates the nature of this 
 			<a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object's most recent method failure.
 
-## -parameters
+
 
 ## -returns
 

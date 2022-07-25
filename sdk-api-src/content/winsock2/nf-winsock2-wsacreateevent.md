@@ -53,7 +53,7 @@ api_name:
 The 
 <b>WSACreateEvent</b> function creates a new event object.
 
-## -parameters
+
 
 ## -returns
 

@@ -56,23 +56,23 @@ The <b>NETISO_ERROR_TYPE</b> enumerated type specifies the type of error related
 
 ## -enum-fields
 
-### -field NETISO_ERROR_TYPE_NONE
+### -field NETISO_ERROR_TYPE_NONE:0x00
 
 No error.
 
-### -field NETISO_ERROR_TYPE_PRIVATE_NETWORK
+### -field NETISO_ERROR_TYPE_PRIVATE_NETWORK:0x01
 
 The failure was caused because the privateNetworkClientServer capability is missing.
 
-### -field NETISO_ERROR_TYPE_INTERNET_CLIENT
+### -field NETISO_ERROR_TYPE_INTERNET_CLIENT:0x02
 
 The failure was caused because the internetClient capability is missing.
 
-### -field NETISO_ERROR_TYPE_INTERNET_CLIENT_SERVER
+### -field NETISO_ERROR_TYPE_INTERNET_CLIENT_SERVER:0x03
 
 The failure was caused because the internetClientServer capability is missing.
 
-### -field NETISO_ERROR_TYPE_MAX
+### -field NETISO_ERROR_TYPE_MAX:0x04
 
 Maximum value for testing purposes.
 

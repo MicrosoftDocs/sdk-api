@@ -54,56 +54,7 @@ The <b>IMDSPDevice2</b> interface extends <a href="/windows/desktop/api/mswmdm/n
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPDevice2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice</a>. <b>IMDSPDevice2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMDSPDevice2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice2-getcanonicalname">GetCanonicalName</a>
-</td>
-<td align="left" width="63%">
-Gets the name of a Plug and Play device. This method can return E_NOTIMPL.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice2-getformatsupport2">GetFormatSupport2</a>
-</td>
-<td align="left" width="63%">
-Gets the formats supported by a device, including audio and video formats, codecs, and MIME file formats.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice2-getspecifypropertypages">GetSpecifyPropertyPages</a>
-</td>
-<td align="left" width="63%">
-Gets property pages of the portable device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice2-getstorage">GetStorage</a>
-</td>
-<td align="left" width="63%">
-Returns a storage object from a storage name.
-
-</td>
-</tr>
-</table>
+The <b>IMDSPDevice2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice</a>. <b>IMDSPDevice2</b> also has these types of members:
 
 ## -see-also
 

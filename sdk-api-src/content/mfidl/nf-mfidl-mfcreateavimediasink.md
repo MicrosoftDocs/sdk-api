@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Mf.lib
-req.dll: Mf.dll
+req.lib: mfsrcsnk.lib
+req.dll: mfsrcsnk.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -40,7 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - mf.dll
+ - mfsrcsnk.dll
 api_name:
  - MFCreateAVIMediaSink
 ---
@@ -72,7 +72,7 @@ Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmedias
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

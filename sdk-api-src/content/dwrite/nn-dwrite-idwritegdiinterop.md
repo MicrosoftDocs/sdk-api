@@ -54,65 +54,7 @@ Provides interoperability with GDI, such as methods to convert a font face to a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteGdiInterop</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteGdiInterop</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDWriteGdiInterop</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-convertfontfacetologfont">ConvertFontFaceToLOGFONT</a>
-</td>
-<td align="left" width="63%">
- Initializes a LOGFONT structure based on the GDI-compatible properties of the specified font.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-convertfonttologfont">ConvertFontToLOGFONT</a>
-</td>
-<td align="left" width="63%">
- Initializes a <b>LOGFONT</b> structure based on the GDI-compatible properties of the specified font.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createbitmaprendertarget">CreateBitmapRenderTarget</a>
-</td>
-<td align="left" width="63%">
- Creates an object that encapsulates a bitmap and memory DC (device context) which can be used for rendering glyphs.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfacefromhdc">CreateFontFaceFromHdc</a>
-</td>
-<td align="left" width="63%">
- Creates an <b>IDWriteFontFace</b> object that corresponds to the currently selected <b>HFONT</b> of the specified <b>HDC</b>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfromlogfont">CreateFontFromLOGFONT</a>
-</td>
-<td align="left" width="63%">
- Creates a font object that matches the properties specified by the <b>LOGFONT</b> structure.
-
-</td>
-</tr>
-</table>
+The <b>IDWriteGdiInterop</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteGdiInterop</b> also has these types of members:
 
 ## -see-also
 

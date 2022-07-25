@@ -118,7 +118,7 @@ The object does not support this property.
 
 An access key is an underlined character in the text of a menu, menu item, or label of a button or some other control. For example, a user can display a menu by pressing the ALT key while also pressing the indicated underlined key, such as ALT+F to open the <u>F</u>ile menu. To use the access key of a menu item, the menu that contains the item must be active.
 
-Controls such as toolbar buttons and menu items often have an associated shortcut key, also known as a keyboard accelerator. Some menu items may have both an access key and a shortcut key, and some may have only one. For example, a menu item called <u>N</u>ew has an access key N and a shortcut key CTRL+N.The menu does not have to be active for the shortcut key to work.
+Controls such as toolbar buttons and menu items often have an associated shortcut key, also known as a keyboard accelerator. Some menu items may have both an access key and a shortcut key, and some may have only one. For example, a menu item called <u>N</u>ew has an access key N and a shortcut key CTRL+N. The menu does not have to be active for the shortcut key to work.
 
 <b>Note to client developers:  </b><p class="note">If this property returns a single character, you cannot assume it is an access key or a keyboard shortcut. With standard menu items, the access key is returned by <b>IAccessible::get_accKeyboardShortcut</b>, and the shortcut key is returned as part of the menu item name returned from <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accname">IAccessible::get_accName</a>. In general, access keys tend to be defined as ALT + &lt;letter&gt;, and keyboard shortcuts tend to be CTRL + &lt;letter&gt;.
 

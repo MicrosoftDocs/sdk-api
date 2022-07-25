@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -234,7 +234,7 @@ If <b>SEC_LARGE_PAGES</b> is specified, <b>SEC_COMMIT</b> must also
 </dl>
 </td>
 <td width="60%">
-Sets all pages to be non-cachable.
+Sets all pages to be non-cacheable.
 
 Applications should not use this attribute except when 
          explicitly required for a device. Using the interlocked functions with memory that is mapped with 
@@ -314,7 +314,7 @@ If <i>lpName</i> matches the name of an existing event, semaphore, mutex, waitab
        <b>ERROR_INVALID_HANDLE</b>. This occurs because these objects share the same namespace.
 
 The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session 
-       namespace. The remainder of the name can contain any character except the backslash character (\). Creating a 
+       namespace. The remainder of the name can contain any character except the backslash character (\\). Creating a 
        file mapping object in the global namespace from a session other than session zero requires the 
        <a href="/windows/desktop/SecAuthZ/authorization-constants">SeCreateGlobalPrivilege</a> 
        privilege. For more information, see 

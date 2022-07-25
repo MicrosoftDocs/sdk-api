@@ -66,7 +66,7 @@ Represents the configuration string for the Certificate Services server in the f
 A registry key that denotes the storage location in the <b>HKEY_LOCAL_MACHINE</b> hive for the property values. This value is in the following form:
 
 
-<pre xml:space="preserve"><b>SYSTEM</b>
+<pre><b>SYSTEM</b>
    <b>CurrentControlSet</b>
       <b>Services</b>
          <b>CertSvc</b>

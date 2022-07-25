@@ -54,74 +54,7 @@ The <b>ITfDocumentMgr</b> interface is implemented by the TSF manager and used b
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfDocumentMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfDocumentMgr</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfDocumentMgr</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">CreateContext</a>
-</td>
-<td align="left" width="63%">
-Creates a context object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-enumcontexts">EnumContexts</a>
-</td>
-<td align="left" width="63%">
-Obtains a context enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-getbase">GetBase</a>
-</td>
-<td align="left" width="63%">
-Obtains the context at the base of the context stack.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-gettop">GetTop</a>
-</td>
-<td align="left" width="63%">
-Obtains the context at the top of the context stack.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-pop">Pop</a>
-</td>
-<td align="left" width="63%">
-Removes the context from the top of the context stack.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-push">Push</a>
-</td>
-<td align="left" width="63%">
-Adds a context to the top of the context stack.
-
-</td>
-</tr>
-</table>
+The <b>ITfDocumentMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfDocumentMgr</b> also has these types of members:
 
 ## -see-also
 

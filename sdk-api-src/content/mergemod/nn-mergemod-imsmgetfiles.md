@@ -55,31 +55,7 @@ The <b>IMsmGetFiles</b> interface enables the client to retrieve the files neede
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmGetFiles</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMsmGetFiles</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMsmGetFiles</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmgetfiles-get_modulefiles">get_ModuleFiles</a>
-</td>
-<td align="left" width="63%">
-Retrieves the 
-<a href="/windows/desktop/Msi/getfiles-modulefiles">ModuleFiles</a> property of the 
-<a href="/windows/desktop/Msi/getfiles-object">GetFiles</a> object.
-
-</td>
-</tr>
-</table>
+The <b>IMsmGetFiles</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMsmGetFiles</b> also has these types of members:
 
 ## -see-also
 

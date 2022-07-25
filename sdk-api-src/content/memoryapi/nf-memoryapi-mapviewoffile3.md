@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -122,6 +122,7 @@ After you replace a placeholder with a mapped view, to free that mapped view bac
 
 A placeholder is a type of reserved memory region.
 
+The 64k alignment requirements on <i>Offset</i> and <i>BaseAddress</i> do not apply when this flag is specified.
 </td>
 </tr>
 <tr>

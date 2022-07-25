@@ -58,7 +58,7 @@ Loads and executes an application or creates a new instance of an existing appli
 
 ### -param lpModuleName [in]
 
-The file name of the application to be run. When specifying a path, be sure to use backslashes (\), not forward slashes (/). If the <i>lpModuleName</i> parameter does not contain a directory path, the system searches for the executable file in this order: 
+The file name of the application to be run. When specifying a path, be sure to use backslashes (\\), not forward slashes (/). If the <i>lpModuleName</i> parameter does not contain a directory path, the system searches for the executable file in this order: 
 
 
 
@@ -149,12 +149,16 @@ The specified path was not found.
 The <b>LOADPARMS32</b> structure has the following form:
 						
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct tagLOADPARMS32 { 
+
+``` syntax
+typedef struct tagLOADPARMS32 { 
   LPSTR lpEnvAddress;  // address of environment strings 
   LPSTR lpCmdLine;     // address of command line 
   LPSTR lpCmdShow;     // how to show new program 
   DWORD dwReserved;    // must be zero 
-} LOADPARMS32;</code></pre>
+} LOADPARMS32;
+```
+
 <table>
 <tr>
 <th>Member</th>

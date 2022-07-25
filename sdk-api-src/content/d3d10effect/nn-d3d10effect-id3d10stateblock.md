@@ -55,56 +55,7 @@ A state-block interface encapsulates render states.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10StateBlock</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10StateBlock</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D10StateBlock</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10stateblock-apply">Apply</a>
-</td>
-<td align="left" width="63%">
-Apply the state block to the current device state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10stateblock-capture">Capture</a>
-</td>
-<td align="left" width="63%">
-Capture the current value of states that are included in a stateblock.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10stateblock-getdevice">GetDevice</a>
-</td>
-<td align="left" width="63%">
-Get the device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10stateblock-releasealldeviceobjects">ReleaseAllDeviceObjects</a>
-</td>
-<td align="left" width="63%">
-Release all references to device objects.
-
-</td>
-</tr>
-</table>
+The <b>ID3D10StateBlock</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10StateBlock</b> also has these types of members:
 
 ## -remarks
 

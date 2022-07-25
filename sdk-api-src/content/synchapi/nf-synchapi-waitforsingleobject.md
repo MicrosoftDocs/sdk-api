@@ -4,7 +4,7 @@ title: WaitForSingleObject function (synchapi.h)
 description: Waits until the specified object is in the signaled state or the time-out interval elapses.
 helpviewer_keywords: ["WaitForSingleObject","WaitForSingleObject function","_win32_waitforsingleobject","base.waitforsingleobject","synchapi/WaitForSingleObject","winbase/WaitForSingleObject"]
 old-location: base\waitforsingleobject.htm
-tech.root: backup
+tech.root: base
 ms.assetid: e37ebff7-b44e-469d-81ab-7a6bd1a0c822
 ms.date: 12/05/2018
 ms.keywords: WaitForSingleObject, WaitForSingleObject function, _win32_waitforsingleobject, base.waitforsingleobject, synchapi/WaitForSingleObject, winbase/WaitForSingleObject

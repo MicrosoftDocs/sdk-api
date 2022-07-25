@@ -56,29 +56,7 @@ A write-only stream interface into which an application writes print job data.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsPrintJobStream</b> interface inherits from <a href="/windows/desktop/api/objidl/nn-objidl-isequentialstream">ISequentialStream</a>. <b>IXpsPrintJobStream</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IXpsPrintJobStream</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjobstream-close">Close</a>
-</td>
-<td align="left" width="63%">
-Closes the stream and indicates that the entire document has been written.
-
-</td>
-</tr>
-</table>
+The <b>IXpsPrintJobStream</b> interface inherits from <a href="/windows/desktop/api/objidl/nn-objidl-isequentialstream">ISequentialStream</a>. <b>IXpsPrintJobStream</b> also has these types of members:
 
 ## -remarks
 

@@ -54,38 +54,7 @@ Used to dynamically load new DLL servers into an existing surrogate and free the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISurrogate</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISurrogate</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISurrogate</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-isurrogate-freesurrogate">FreeSurrogate</a>
-</td>
-<td align="left" width="63%">
-Unloads a DLL server.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-isurrogate-loaddllserver">LoadDllServer</a>
-</td>
-<td align="left" width="63%">
-Loads a DLL server into the implementing surrogate.
-
-</td>
-</tr>
-</table>
+The <b>ISurrogate</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISurrogate</b> also has these types of members:
 
 ## -remarks
 

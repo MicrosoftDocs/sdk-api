@@ -54,35 +54,35 @@ Comparison options.
 
 ## -enum-fields
 
-### -field D3D10_COMPARISON_NEVER
+### -field D3D10_COMPARISON_NEVER:1
 
 Never pass the comparison.
 
-### -field D3D10_COMPARISON_LESS
+### -field D3D10_COMPARISON_LESS:2
 
 If the source data is less than the destination data, the comparison passes.
 
-### -field D3D10_COMPARISON_EQUAL
+### -field D3D10_COMPARISON_EQUAL:3
 
 If the source data is equal to the destination data, the comparison passes.
 
-### -field D3D10_COMPARISON_LESS_EQUAL
+### -field D3D10_COMPARISON_LESS_EQUAL:4
 
 If the source data is less than or equal to the destination data, the comparison passes.
 
-### -field D3D10_COMPARISON_GREATER
+### -field D3D10_COMPARISON_GREATER:5
 
 If the source data is greater than the destination data, the comparison passes.
 
-### -field D3D10_COMPARISON_NOT_EQUAL
+### -field D3D10_COMPARISON_NOT_EQUAL:6
 
 If the source data is not equal to the destination data, the comparison passes.
 
-### -field D3D10_COMPARISON_GREATER_EQUAL
+### -field D3D10_COMPARISON_GREATER_EQUAL:7
 
 If the source data is greater than or equal to the destination data, the comparison passes.
 
-### -field D3D10_COMPARISON_ALWAYS
+### -field D3D10_COMPARISON_ALWAYS:8
 
 Always pass the comparison.
 

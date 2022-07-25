@@ -57,7 +57,7 @@ Used by the <a href="/previous-versions/windows/desktop/mscs/resources-restartac
 
 ## -enum-fields
 
-### -field ClusterResourceDontRestart
+### -field ClusterResourceDontRestart:0
 
 Do not restart the resource after a failure.
 

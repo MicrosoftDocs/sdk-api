@@ -54,65 +54,7 @@ Marshals data between a COM client proxy and a COM server stub.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRpcChannelBuffer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRpcChannelBuffer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IRpcChannelBuffer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-freebuffer">FreeBuffer</a>
-</td>
-<td align="left" width="63%">
-Frees a previously allocated RPC channel buffer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-getbuffer">GetBuffer</a>
-</td>
-<td align="left" width="63%">
-Retrieves a buffer into which data can be marshaled for transmission.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-getdestctx">GetDestCtx</a>
-</td>
-<td align="left" width="63%">
-Retrieves the destination context for the RPC channel.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-isconnected">IsConnected</a>
-</td>
-<td align="left" width="63%">
-Determines whether the RPC channel is connected.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-sendreceive">SendReceive</a>
-</td>
-<td align="left" width="63%">
-Sends a method invocation across an RPC channel to the server stub.
-
-</td>
-</tr>
-</table>
+The <b>IRpcChannelBuffer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRpcChannelBuffer</b> also has these types of members:
 
 ## -see-also
 

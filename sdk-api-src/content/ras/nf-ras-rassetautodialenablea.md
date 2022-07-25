@@ -57,11 +57,11 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Specifies the identifier of a TAPI dialing location.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Specifies <b>TRUE</b> to enable AutoDial for the dialing location indicated by the <i>dwDialingLocation</i> parameter. Specifies <b>FALSE</b> to disable it.
 

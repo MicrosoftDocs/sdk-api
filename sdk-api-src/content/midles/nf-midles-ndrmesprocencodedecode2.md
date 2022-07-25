@@ -68,7 +68,7 @@ Reserved.
 
 Reserved.
 
-### -param arg4
+### -param ...
 
 Reserved.
 

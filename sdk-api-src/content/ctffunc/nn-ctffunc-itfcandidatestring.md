@@ -58,35 +58,5 @@ To obtain an instance of this interface, the TSF manager or client can call <a h
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCandidateString</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCandidateString</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITfCandidateString</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCandidateString</b> also has these types of members:
 
-## -members
-
-The <b>ITfCandidateString</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatestring-getindex">GetIndex</a>
-</td>
-<td align="left" width="63%">
-Obtains the index of the candidate string object within the candidate list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatestring-getstring">GetString</a>
-</td>
-<td align="left" width="63%">
-Obtains the text of the candidate string object.
-
-</td>
-</tr>
-</table>

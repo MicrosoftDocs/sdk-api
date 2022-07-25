@@ -77,7 +77,7 @@ In Automation, this property is called <a href="/windows/desktop/api/msinkaut/nf
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="../msinkaut/nn-msinkaut-iinkpicture.md">IInkPicture</a>
 
 
 

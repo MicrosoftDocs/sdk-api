@@ -60,65 +60,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMcastScope</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMcastScope</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMcastScope</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastscope-get_interfaceid">get_InterfaceID</a>
-</td>
-<td align="left" width="63%">
-Obtains the interface ID associated with this scope.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastscope-get_scopedescription">get_ScopeDescription</a>
-</td>
-<td align="left" width="63%">
-Obtains a textual description associated with this scope.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastscope-get_scopeid">get_ScopeID</a>
-</td>
-<td align="left" width="63%">
-Obtains the scope ID associated with this scope
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastscope-get_serverid">get_ServerID</a>
-</td>
-<td align="left" width="63%">
-Obtains the server ID associated with this scope.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastscope-get_ttl">get_TTL</a>
-</td>
-<td align="left" width="63%">
-Obtains time to live information for the multicast server.
-
-</td>
-</tr>
-</table>
+The <b>IMcastScope</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMcastScope</b> also has these types of members:
 
 ## -see-also
 

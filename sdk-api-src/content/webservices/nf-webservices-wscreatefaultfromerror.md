@@ -79,7 +79,7 @@ Pointer to a <a href="/windows/desktop/wsw/ws-heap">WS_HEAP</a> structure repres
 ### -param fault [out]
 
 Pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a> structure representing the returned fault object.  The fields of the fault object are good until
-                    <a href="/windows/desktop/api/webservices/nf-webservices-wsfreeheap">WsFreeHeap</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsresetheap">WsResetHeap</a>is called to release the specified heap resources.
+                    <a href="/windows/desktop/api/webservices/nf-webservices-wsfreeheap">WsFreeHeap</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsresetheap">WsResetHeap</a> is called to release the specified heap resources.
 
 ## -returns
 

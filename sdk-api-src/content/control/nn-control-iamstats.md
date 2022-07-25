@@ -57,74 +57,7 @@ The <code>IAMStats</code> interface retrieves performance data from the Filter G
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMStats</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMStats</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAMStats</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/control/nf-control-iamstats-addvalue">AddValue</a>
-</td>
-<td align="left" width="63%">
-Records a new value.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/control/nf-control-iamstats-get_count">get_Count</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of statistics.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/control/nf-control-iamstats-getindex">GetIndex</a>
-</td>
-<td align="left" width="63%">
-Retrieves the index for a named statistic, or creates a new statistic.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/control/nf-control-iamstats-getvaluebyindex">GetValueByIndex</a>
-</td>
-<td align="left" width="63%">
-Retrieves a statistic by index.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/control/nf-control-iamstats-getvaluebyname">GetValueByName</a>
-</td>
-<td align="left" width="63%">
-Retrieves a statistic by name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/control/nf-control-iamstats-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets all statistics to zero.
-
-</td>
-</tr>
-</table>
+The <b>IAMStats</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMStats</b> also has these types of members:
 
 ## -remarks
 

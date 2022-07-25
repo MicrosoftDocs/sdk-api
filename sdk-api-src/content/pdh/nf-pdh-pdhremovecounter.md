@@ -97,10 +97,14 @@ Do not use the counter handle after removing the counter from the query.
 
 The following shows the syntax if calling this function from Visual Basic.
 
-<pre class="syntax" xml:space="preserve"><code>PdhRemoveCounter(
+
+``` syntax
+PdhRemoveCounter(
   ByVal CounterHandle as Long  
 )
-as Long</code></pre>
+as Long
+```
+
 
 ## -see-also
 

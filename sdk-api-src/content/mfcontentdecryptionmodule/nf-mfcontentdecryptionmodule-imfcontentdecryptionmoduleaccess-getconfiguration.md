@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleAccess.GetConfiguration
 title: IMFContentDecryptionModuleAccess::GetConfiguration
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Returns the supported combination of configuration options.
 tech.root: mf
@@ -48,7 +47,7 @@ Returns the supported combination of configuration options.
 
 ### -param configuration
 
-Recevices a referebce to an [IPropertyStore](../propsys/nn-propsys-ipropertystore.md) object containing the configuration options for the CDM.
+Receives a reference to an [IPropertyStore](../propsys/nn-propsys-ipropertystore.md) object containing the configuration options for the CDM.
 
 ## -returns
 

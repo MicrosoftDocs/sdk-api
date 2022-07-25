@@ -59,53 +59,5 @@ Provides the methods for enumerating the tasks in the <a href="/windows/desktop/
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumWorkItems</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumWorkItems</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IEnumWorkItems</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumWorkItems</b> also has these types of members:
 
-## -members
-
-The <b>IEnumWorkItems</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mstask/nf-mstask-ienumworkitems-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a new enumeration object in the same state as the current enumeration object: the new object points to the same place in the enumeration sequence.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mstask/nf-mstask-ienumworkitems-next">Next</a>
-</td>
-<td align="left" width="63%">
-Retrieves the next set of tasks in the enumeration sequence.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mstask/nf-mstask-ienumworkitems-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumeration sequence to the beginning.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mstask/nf-mstask-ienumworkitems-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips the next set of tasks in the enumeration sequence.
-
-</td>
-</tr>
-</table>

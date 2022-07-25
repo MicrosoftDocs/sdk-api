@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceNative.EndDraw
-title: ISurfaceImageSourceNative::xaml (windows.ui.xaml.media.dxinterop.h)
+title: ISurfaceImageSourceNative::EndDraw (windows.ui.xaml.media.dxinterop.h)
 description: Closes the surface draw operation.
 helpviewer_keywords: ["EndDraw","EndDraw method [Windows Runtime]","EndDraw method [Windows Runtime]","ISurfaceImageSourceNative interface","ISurfaceImageSourceNative interface [Windows Runtime]","EndDraw method","ISurfaceImageSourceNative.EndDraw","ISurfaceImageSourceNative.xaml","ISurfaceImageSourceNative::EndDraw","ISurfaceImageSourceNative::xaml","windows/ISurfaceImageSourceNative::EndDraw","winrt.isurfaceimagesourcenative_enddraw"]
 old-location: winrt\isurfaceimagesourcenative_enddraw.htm
@@ -45,18 +45,18 @@ api_name:
  - ISurfaceImageSourceNative.EndDraw
 ---
 
-# ISurfaceImageSourceNative::xaml
+# ISurfaceImageSourceNative::EndDraw (windows.ui.xaml.media.dxinterop.h)
 
 
 ## -description
 
 Closes the surface draw operation.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

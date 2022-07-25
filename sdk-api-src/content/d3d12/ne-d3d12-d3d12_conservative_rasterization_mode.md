@@ -54,11 +54,11 @@ Identifies whether conservative rasterization is on or off.
 
 ## -enum-fields
 
-### -field D3D12_CONSERVATIVE_RASTERIZATION_MODE_OFF
+### -field D3D12_CONSERVATIVE_RASTERIZATION_MODE_OFF:0
 
 Conservative rasterization is off.
 
-### -field D3D12_CONSERVATIVE_RASTERIZATION_MODE_ON
+### -field D3D12_CONSERVATIVE_RASTERIZATION_MODE_ON:1
 
 Conservative rasterization is on.
 

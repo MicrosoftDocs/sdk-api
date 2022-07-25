@@ -54,7 +54,7 @@ The <b>FWPM_CONNECTION_CALLBACK0</b> function is used to add custom behavior to 
 
 ## -parameters
 
-### -param *context [in, out]
+### -param context [in, out]
 
 Type: <b>void*</b>
 
@@ -66,7 +66,7 @@ Type: [FWPM_CONNECTION_EVENT_TYPE](/windows/desktop/api/fwpmtypes/ne-fwpmtypes-f
 
 The type of connection object change event.
 
-### -param *connection [in]
+### -param connection [in]
 
 Type: [FWPM_CONNECTION0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0)*</b>
 

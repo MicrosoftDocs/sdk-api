@@ -53,7 +53,7 @@ api_name:
 
 The <code>BeginFlush</code> method begins a flush operation.
 
-## -parameters
+
 
 ## -returns
 
@@ -72,7 +72,7 @@ For more information, see <a href="/windows/desktop/DirectShow/flushing">Flushin
 
 The following example shows how a downstream input pin should call this method:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

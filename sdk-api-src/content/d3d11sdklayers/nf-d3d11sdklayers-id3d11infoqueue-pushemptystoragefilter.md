@@ -53,7 +53,7 @@ api_name:
 
 Push an empty storage filter onto the storage-filter stack.
 
-## -parameters
+
 
 ## -returns
 

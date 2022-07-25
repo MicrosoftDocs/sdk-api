@@ -59,56 +59,7 @@ Called by a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetClusterUIInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGetClusterUIInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IGetClusterUIInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusteruiinfo-getclustername">GetClusterName</a>
-</td>
-<td align="left" width="63%">
-Returns the name of the <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusteruiinfo-getfont">GetFont</a>
-</td>
-<td align="left" width="63%">
-Returns a handle to the font to be displayed on property and wizard pages.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusteruiinfo-geticon">GetIcon</a>
-</td>
-<td align="left" width="63%">
-Returns a handle to the icon to use in the upper-left corner of property and wizard pages.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusteruiinfo-getlocale">GetLocale</a>
-</td>
-<td align="left" width="63%">
-Returns the locale identifier to be used with property and wizard pages.
-
-</td>
-</tr>
-</table>
+The <b>IGetClusterUIInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGetClusterUIInfo</b> also has these types of members:
 
 ## -remarks
 

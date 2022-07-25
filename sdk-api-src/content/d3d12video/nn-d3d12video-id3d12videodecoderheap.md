@@ -45,21 +45,7 @@ Represents a Direct3D 12 video decoder heap that contains resolution-dependent r
 
 ## -inheritance
 
-ID3D12VideoDecoderHeap interits from ID3D12Pageable.
-
-## -members
-
-<p>ID3D12VideoDecoderHeap has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>GetDesc</td>
-		<td>TBD</td>
-	</tr>
-</table>
+ID3D12VideoDecoderHeap inherits from ID3D12Pageable.
 
 ## -remarks
 

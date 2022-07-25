@@ -105,7 +105,7 @@ A page is being destroyed. The return value is ignored.
 </tr>
 </table>
 
-### -param *ppsp [in, out]
+### -param ppsp [in, out]
 
 Type: <b>LPPROPSHEETPAGE</b>
 

@@ -54,74 +54,7 @@ Enumerates the video processor capabilities of a Microsoft Direct3D 11 device.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11VideoProcessorEnumerator</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>. <b>ID3D11VideoProcessorEnumerator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D11VideoProcessorEnumerator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-checkvideoprocessorformat">CheckVideoProcessorFormat</a>
-</td>
-<td align="left" width="63%">
-Queries whether the video processor supports a specified video format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorcaps">GetVideoProcessorCaps</a>
-</td>
-<td align="left" width="63%">
-Gets the capabilities of the video processor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorcontentdesc">GetVideoProcessorContentDesc</a>
-</td>
-<td align="left" width="63%">
-Gets the content description that was used to create this enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorcustomrate">GetVideoProcessorCustomRate</a>
-</td>
-<td align="left" width="63%">
-Gets a list of custom frame rates that a video processor supports.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorfilterrange">GetVideoProcessorFilterRange</a>
-</td>
-<td align="left" width="63%">
-Gets the range of values for an image filter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorrateconversioncaps">GetVideoProcessorRateConversionCaps</a>
-</td>
-<td align="left" width="63%">
-Returns a group of video processor capabilities that are associated with frame-rate conversion, including deinterlacing and inverse telecine.
-
-</td>
-</tr>
-</table>
+The <b>ID3D11VideoProcessorEnumerator</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>. <b>ID3D11VideoProcessorEnumerator</b> also has these types of members:
 
 ## -remarks
 

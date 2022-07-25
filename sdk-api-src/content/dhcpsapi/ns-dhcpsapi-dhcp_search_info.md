@@ -74,13 +74,9 @@ The <b>DHCP_SEARCH_INFO</b> structure defines the DHCP client record data used t
 
 ### -field SearchInfo.ClientName.case.DhcpClientName
 
-### -field SearchInfo.switch_is
 
-### -field SearchInfo.switch_is.SearchType
 
-### -field SearchInfo.switch_type
 
-### -field SearchInfo.switch_type.DHCP_SEARCH_INFO_TYPE
 
 ### -field SearchInfo
 

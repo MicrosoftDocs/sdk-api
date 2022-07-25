@@ -58,38 +58,7 @@ This interface is implemented by the video decoder objects. You can obtain a poi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMVideoDecoderHurryup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMVideoDecoderHurryup</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWMVideoDecoderHurryup</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmvideodecoderhurryup-gethurryup">GetHurryup</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current speed mode of the video decoder.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmvideodecoderhurryup-sethurryup">SetHurryup</a>
-</td>
-<td align="left" width="63%">
-Sets the speed mode of the video decoder.
-
-</td>
-</tr>
-</table>
+The <b>IWMVideoDecoderHurryup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMVideoDecoderHurryup</b> also has these types of members:
 
 ## -see-also
 

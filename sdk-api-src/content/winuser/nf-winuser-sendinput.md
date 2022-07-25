@@ -109,12 +109,12 @@ An accessibility application can use <b>SendInput</b> to inject keystrokes corre
 void ShowDesktop()
 {
     OutputString(L"Sending 'Win-D'\r\n");
-    INPUT inputs[4];
+    INPUT inputs[4] = {};
     ZeroMemory(inputs, sizeof(inputs));
 
     inputs[0].type = INPUT_KEYBOARD;
     inputs[0].ki.wVk = VK_LWIN;
-    
+   
     inputs[1].type = INPUT_KEYBOARD;
     inputs[1].ki.wVk = VK_D;
 
@@ -130,7 +130,7 @@ void ShowDesktop()
     if (uSent != ARRAYSIZE(inputs))
     {
         OutputString(L"SendInput failed: 0x%x\n", HRESULT_FROM_WIN32(GetLastError()));
-    }
+    } 
 }
 ```
 

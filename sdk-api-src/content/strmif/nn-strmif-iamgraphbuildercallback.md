@@ -59,38 +59,7 @@ The primary use for this interface is to configure the Video Mixing Renderer fil
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMGraphBuilderCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMGraphBuilderCallback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAMGraphBuilderCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamgraphbuildercallback-createdfilter">CreatedFilter</a>
-</td>
-<td align="left" width="63%">
-Called after the Filter Graph Manager creates a filter, but before it tries to connect the filter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamgraphbuildercallback-selectedfilter">SelectedFilter</a>
-</td>
-<td align="left" width="63%">
-Called when the Filter Graph Manager finds a candidate filter, but before it creates the filter.
-
-</td>
-</tr>
-</table>
+The <b>IAMGraphBuilderCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMGraphBuilderCallback</b> also has these types of members:
 
 ## -see-also
 

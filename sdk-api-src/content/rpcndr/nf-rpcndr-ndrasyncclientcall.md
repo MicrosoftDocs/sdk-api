@@ -62,7 +62,7 @@ Pointer to the MIDL-generated <a href="/windows/desktop/api/rpcndr/ns-rpcndr-mid
 
 Pointer to the MIDL-generated procedure format string that describes the method and parameters.
 
-### -param arg3 [in, out]
+### -param ...
 
 Pointer to the client-side calling stack.
 
@@ -71,3 +71,4 @@ Pointer to the client-side calling stack.
 Return value of the remote call. The maximum size of a return value is equivalent to the register size of the system. MIDL switches to the <a href="/windows/desktop/Midl/-os">/Os</a> mode stub if the return value size is larger than the register size.
 
 Depending on the method definition, this function can throw an exception if there is a network or server failure.
+

@@ -55,74 +55,7 @@ A shader-reflection interface accesses shader information.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10ShaderReflection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10ShaderReflection</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D10ShaderReflection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflection-getconstantbufferbyindex">GetConstantBufferByIndex</a>
-</td>
-<td align="left" width="63%">
-Get a constant buffer by index.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflection-getconstantbufferbyname">GetConstantBufferByName</a>
-</td>
-<td align="left" width="63%">
-Get a constant buffer by name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflection-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Get a shader description.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflection-getinputparameterdesc">GetInputParameterDesc</a>
-</td>
-<td align="left" width="63%">
-Get an input-parameter description for a shader.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflection-getoutputparameterdesc">GetOutputParameterDesc</a>
-</td>
-<td align="left" width="63%">
-Get an output-parameter description for a shader.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflection-getresourcebindingdesc">GetResourceBindingDesc</a>
-</td>
-<td align="left" width="63%">
-Get a description of the resources bound to a shader.
-
-</td>
-</tr>
-</table>
+The <b>ID3D10ShaderReflection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10ShaderReflection</b> also has these types of members:
 
 ## -remarks
 

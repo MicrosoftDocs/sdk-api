@@ -2,7 +2,6 @@
 UID: NE:mfidl.MF_MEDIAKEYSESSION_TYPE
 title: MF_MEDIAKEYSESSION_TYPE
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Specifies the type of a Content Decryption Module (CDM) session, represented by an IMFContentDecryptionModuleSession object.
 tech.root: mf
@@ -38,7 +37,7 @@ Specifies the type of a Content Decryption Module (CDM) session, represented by 
 
 ## -enum-fields
 
-### -field MF_MEDIAKEYSESSION_TYPE_TEMPORARY
+### -field MF_MEDIAKEYSESSION_TYPE_TEMPORARY:0
 
 A session for which the license, key(s) and record of or data related to the session are not persisted.
 

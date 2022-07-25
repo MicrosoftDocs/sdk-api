@@ -165,6 +165,15 @@ If the function fails and you have specified <b>HEAP_GENERATE_EXCEPTIONS</b>, th
 </tr>
 </table>
  
+ The alignment of memory returned by <b>HeapReAlloc</b> is <b>MEMORY_ALLOCATION_ALIGNMENT</b> in WinNT.h:
+
+```
+#if defined(_WIN64) || defined(_M_ALPHA)
+#define MEMORY_ALLOCATION_ALIGNMENT 16
+#else
+#define MEMORY_ALLOCATION_ALIGNMENT 8
+#endif
+```
 
 If the function fails, it does not call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a>. An application cannot call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
 

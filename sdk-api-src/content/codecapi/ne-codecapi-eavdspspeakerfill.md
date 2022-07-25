@@ -54,15 +54,15 @@ Specifies whether speaker fill is enabled in an audio decoder or digital signal 
 
 ## -enum-fields
 
-### -field eAVDSPSpeakerFill_OFF
+### -field eAVDSPSpeakerFill_OFF:0
 
 Speaker fill is disabled.
 
-### -field eAVDSPSpeakerFill_ON
+### -field eAVDSPSpeakerFill_ON:1
 
 Speaker fill is enabled.
 
-### -field eAVDSPSpeakerFill_AUTO
+### -field eAVDSPSpeakerFill_AUTO:2
 
 The decoder or DSP automatically selects the speaker fill mode.
 

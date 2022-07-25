@@ -54,65 +54,7 @@ Represents a single group of sprites with their associated drawing properties.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SpriteBatch</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1SpriteBatch</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID2D1SpriteBatch</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1spritebatch-addsprites">AddSprites</a>
-</td>
-<td align="left" width="63%">
-Adds the given sprites to the end of this sprite batch.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1spritebatch-clear">Clear</a>
-</td>
-<td align="left" width="63%">
-Removes all sprites from this sprite batch.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1spritebatch-getspritecount">GetSpriteCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of sprites in this sprite batch.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1spritebatch-getsprites">GetSprites</a>
-</td>
-<td align="left" width="63%">
-Retrieves the specified subset of sprites from this sprite batch. For the best performance, use nullptr for properties that you do not need to retrieve.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1spritebatch-setsprites">SetSprites</a>
-</td>
-<td align="left" width="63%">
-Updates the properties of the specified sprites in this sprite batch.
-
-</td>
-</tr>
-</table>
+The <b>ID2D1SpriteBatch</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1SpriteBatch</b> also has these types of members:
 
 ## -remarks
 

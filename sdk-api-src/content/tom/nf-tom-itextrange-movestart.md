@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange.MoveStart
 title: ITextRange::MoveStart (tom.h)
-description: Moves the start postion of the range the specified number of units in the specified direction.
+description: Moves the start position of the range the specified number of units in the specified direction.
 helpviewer_keywords: ["ITextRange interface [Windows Controls]","MoveStart method","ITextRange.MoveStart","ITextRange::MoveStart","MoveStart","MoveStart method [Windows Controls]","MoveStart method [Windows Controls]","ITextRange interface","_win32_ITextRange_MoveStart","_win32_ITextRange_MoveStart_cpp","controls.ITextRange_MoveStart","controls._win32_ITextRange_MoveStart","tom/ITextRange::MoveStart"]
 old-location: controls\ITextRange_MoveStart.htm
 tech.root: Controls
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Moves the start postion of the range the specified number of units in the specified direction.
+Moves the start position of the range the specified number of units in the specified direction.
 
 ## -parameters
 

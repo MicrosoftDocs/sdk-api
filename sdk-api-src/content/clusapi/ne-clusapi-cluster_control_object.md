@@ -57,7 +57,7 @@ The 8-bit object component of a control code that indicates the type of cluster 
 
 ## -enum-fields
 
-### -field CLUS_OBJECT_INVALID
+### -field CLUS_OBJECT_INVALID:0
 
 Zero is not a valid object code value.
 
@@ -107,7 +107,7 @@ Object code part of <a href="/previous-versions/windows/desktop/mscs/cluster-con
 
 <b>Windows Server 2012 R2 and Windows Server 2012:  </b>This constant is not supported prior to Windows Server 2016.
 
-### -field CLUS_OBJECT_USER
+### -field CLUS_OBJECT_USER:128
 
 Object code part of <a href="/previous-versions/windows/desktop/mscs/control-codes">control codes</a> that identifies 
        cluster object types not defined by Windows Clustering.

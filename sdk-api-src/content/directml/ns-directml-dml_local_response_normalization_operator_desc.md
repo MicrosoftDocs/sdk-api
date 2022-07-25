@@ -78,7 +78,7 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Type: [**UINT**](/windows/desktop/winprog/windows-data-types)
 
-The number of elements to sum over per dimension: Width, Height, and and optionally Channel (if *CrossChannel* is set).
+The number of elements to sum over per dimension: Width, Height, and optionally Channel (if *CrossChannel* is set). This value must be at least 1.
 
 ### -field Alpha
 

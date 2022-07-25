@@ -55,7 +55,7 @@ Handles the <a href="/windows/desktop/api/webservices/nf-webservices-wssetchanne
 
 ## -parameters
 
-### -param *channelInstance [in]
+### -param channelInstance [in]
 
 The pointer to the state specific to this channel instance,
                     as created by the <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_channel_callback">WS_CREATE_CHANNEL_CALLBACK</a>.
@@ -64,7 +64,7 @@ The pointer to the state specific to this channel instance,
 
 The id of the property to set.
 
-### -param *value
+### -param value
 
 The pointer to the property value to set.
                     The pointer must have an alignment compatible with the type
@@ -74,7 +74,7 @@ The pointer to the property value to set.
 
 The size of of the property value.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 
@@ -132,5 +132,5 @@ It is up to the custom channel implementation to determine the
                 set of properties it wishes to support.
             
 
-If a property is not supported, the <b>E_INVALIDARG </b>should be returned.
+If a property is not supported, the <b>E_INVALIDARG </b> should be returned.
             (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)

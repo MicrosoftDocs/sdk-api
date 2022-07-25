@@ -57,56 +57,7 @@ For information on how to create an instance of this interface, see
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBackgroundCopyManager</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IBackgroundCopyManager</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-createjob">CreateJob</a>
-</td>
-<td align="left" width="63%">
-Creates a transfer job.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-enumjobs">EnumJobs</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumerator object that you use to enumerate jobs in the queue.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-geterrordescription">GetErrorDescription</a>
-</td>
-<td align="left" width="63%">
-Retrieves a description for the specified error code.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-getjob">GetJob</a>
-</td>
-<td align="left" width="63%">
-Retrieves a specified job from the queue.
-
-</td>
-</tr>
-</table>
+The <b>IBackgroundCopyManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBackgroundCopyManager</b> also has these types of members:
 
 ## -remarks
 

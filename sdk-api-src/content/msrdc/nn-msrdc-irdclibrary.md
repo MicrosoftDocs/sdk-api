@@ -55,76 +55,7 @@ The <b>IRdcLibrary</b> interface is the primary interface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcLibrary</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRdcLibrary</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IRdcLibrary</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-computedefaultrecursiondepth">ComputeDefaultRecursionDepth</a>
-</td>
-<td align="left" width="63%">
-Computes the maximum level of recursion for the specified file size.</p> (Inherited from <b>IRdcLibrary</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-createcomparator">CreateComparator</a>
-</td>
-<td align="left" width="63%">
-Creates a signature comparator. The caller must create a separate signature comparator for each 
-    level of recursion.</p> (Inherited from <b>IRdcLibrary</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-creategenerator">CreateGenerator</a>
-</td>
-<td align="left" width="63%">
-Creates a signature generator that will generate the specified levels of 
-     signatures.</p> (Inherited from <b>IRdcLibrary</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-creategeneratorparameters">CreateGeneratorParameters</a>
-</td>
-<td align="left" width="63%">
-Returns an <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a> 
-     interface pointer initialized with the  parameters necessary for a signature generator.</p> (Inherited from <b>IRdcLibrary</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-createsignaturereader">CreateSignatureReader</a>
-</td>
-<td align="left" width="63%">
-Creates a signature reader to allow an application to decode the contents of a signature 
-     file.</p> (Inherited from <b>IRdcLibrary</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-getrdcversion">GetRDCVersion</a>
-</td>
-<td align="left" width="63%">
-Returns the version of the installed RDC runtime and the oldest version of the RDC interfaces 
-     supported by the installed runtime.</p> (Inherited from <b>IRdcLibrary</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-opengeneratorparameters">OpenGeneratorParameters</a>
-</td>
-<td align="left" width="63%">
-Opens an existing serialized parameter block and returns an 
-     <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a> interface pointer 
-     initialized with the data.</p> (Inherited from <b>IRdcLibrary</b>)</td>
-</tr>
-</table>
+The <b>IRdcLibrary</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRdcLibrary</b> also has these types of members:
 
 ## -see-also
 

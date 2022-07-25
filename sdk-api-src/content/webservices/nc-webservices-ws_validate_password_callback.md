@@ -66,27 +66,27 @@ but it will never be invoked when a channel is not open.  In the
 current drop, this callback is always invoked synchronously.  In the
 next drop, this callback will be invoked synchronously for synchronous
 message receives and asynchronously for asynchronous message receives,
-but it will always be invoked <a href="/windows/desktop/api/webservices/ne-webservices-ws_callback_model">short</a>when it is invoked asynchronously.
+but it will always be invoked <a href="/windows/desktop/api/webservices/ne-webservices-ws_callback_model">short</a> when it is invoked asynchronously.
 
 ## -parameters
 
-### -param *passwordValidatorCallbackState [in, optional]
+### -param passwordValidatorCallbackState [in, optional]
 
 The state to be passed back when invoking this callback.
 
-### -param *username [in]
+### -param username [in]
 
 Received username.
 
-### -param *password [in]
+### -param password [in]
 
 Received password.
 
-### -param *asyncContext [in, optional]
+### -param asyncContext [in, optional]
 
 Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 

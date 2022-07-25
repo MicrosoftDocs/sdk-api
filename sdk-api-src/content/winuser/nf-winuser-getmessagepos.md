@@ -65,7 +65,7 @@ Retrieves the cursor position for the last message retrieved by the <a href="/wi
 
 To determine the current position of the cursor, use the <a href="/windows/desktop/api/winuser/nf-winuser-getcursorpos">GetCursorPos</a> function.
 
-## -parameters
+
 
 ## -returns
 

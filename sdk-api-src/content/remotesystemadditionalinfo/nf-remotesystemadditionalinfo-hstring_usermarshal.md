@@ -56,15 +56,15 @@ Marshals an <a href="/windows/desktop/WinRT/hstring">HSTRING</a> object into the
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 TBD
 
-### -param arg2
+### -param unnamedParam2
 
 TBD
 
-### -param arg3
+### -param unnamedParam3
 
 TBD
 

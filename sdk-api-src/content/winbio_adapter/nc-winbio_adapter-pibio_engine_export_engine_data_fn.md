@@ -73,7 +73,7 @@ The data is digitally signed or protected by a message authentication code (MAC)
             
             
 * **WINBIO_DATA_FLAG_SIGNED**
-If this flag and the <mark type="const">WINBIO_DATA_FLAG_INTEGRITY</mark> flag are set, the data is signed. If this flag is not set but the <mark type="const">WINBIO_DATA_FLAG_INTEGRITY</mark> flag is set, a MAC is computed.
+If this flag and the <mark>WINBIO_DATA_FLAG_INTEGRITY</mark> flag are set, the data is signed. If this flag is not set but the <mark>WINBIO_DATA_FLAG_INTEGRITY</mark> flag is set, a MAC is computed.
             
             
 * **WINBIO_DATA_FLAG_RAW**
@@ -87,7 +87,7 @@ The data is not raw but has not been completely processed.
 * **WINBIO_DATA_FLAG_PROCESSED**
 The data has been processed.
 
-### -param *SampleBuffer [out]
+### -param SampleBuffer [out]
 
 Address of a variable that receives a pointer to a <a href="/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure that contains the feature set or template.
 

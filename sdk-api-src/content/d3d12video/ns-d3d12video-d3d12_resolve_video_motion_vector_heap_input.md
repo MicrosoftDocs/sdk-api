@@ -2,7 +2,6 @@
 UID: NS:d3d12video.D3D12_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_INPUT
 title: D3D12_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_INPUT
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Provides input data for calls to ID3D12VideoEncodeCommandList::ResolveMotionVectorHeap.
 tech.root: mf

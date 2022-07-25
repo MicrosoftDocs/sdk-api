@@ -59,7 +59,7 @@ api_name:
 
 Flushes the write queue of each processor that is running a thread of the current process.
 
-## -parameters
+
 
 ## -remarks
 

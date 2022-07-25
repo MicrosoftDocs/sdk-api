@@ -19,8 +19,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -75,12 +75,11 @@ This method returns HRESULT.
 Video extension commands executed through this method must complete before this method returns. For efficiency, extension implementations should schedule work in command lists instead of using this method, whenever possible. Each video command list type provides an **ExecuteExtensionCommand** for scheduled work. These include:
 
 - [ID3D12VideoDecodeComandlist2::ExecuteExtensionCommand](nf-d3d12video-id3d12videodecodecommandlist2-executeextensioncommand.md)
-- [ID3D12VideoEncodeComandlist1::ExecuteExtensionCommand](nf-d3d12video-id3d12videoencodecommandlist1-executeextensioncommand.md)
+- [ID3D12VideoEncodeComandlist1::ExecuteExtensionCommand](/windows/win32/api/d3d12video/nf-d3d12video-id3d12videodevice2-executeextensioncommand)
 - [ID3D12VideoProcessComandlist2::ExecuteExtensionCommand](nf-d3d12video-id3d12videoprocesscommandlist2-executeextensioncommand.md)
 
 ## -see-also
 
-[ID3D12VideoDecodeComandlist2::ExecuteExtensionCommand](nf-d3d12video-id3d12videodecodecommandlist2-executeextensioncommand.md)
-[ID3D12VideoEncodeComandlist1::ExecuteExtensionCommand](nf-d3d12video-id3d12videoencodecommandlist1-executeextensioncommand.md)
-[ID3D12VideoProcessComandlist2::ExecuteExtensionCommand](nf-d3d12video-id3d12videoprocesscommandlist2-executeextensioncommand.md)
-
+- [ID3D12VideoDecodeComandlist2::ExecuteExtensionCommand](nf-d3d12video-id3d12videodecodecommandlist2-executeextensioncommand.md)
+- [ID3D12VideoEncodeComandlist1::ExecuteExtensionCommand](/windows/win32/api/d3d12video/nf-d3d12video-id3d12videodevice2-executeextensioncommand)
+- [ID3D12VideoProcessComandlist2::ExecuteExtensionCommand](nf-d3d12video-id3d12videoprocesscommandlist2-executeextensioncommand.md)

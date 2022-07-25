@@ -63,7 +63,7 @@ Returns the
 The address of the <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_provider_prop">VDS_PROVIDER_PROP</a> 
       structure allocated and passed in by the caller. VDS allocates memory for the 
       <b>pwszName</b> and <b>pwszVersion</b> member strings. Callers must free 
-      the strings by using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>function.
+      the strings by using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ## -returns
 

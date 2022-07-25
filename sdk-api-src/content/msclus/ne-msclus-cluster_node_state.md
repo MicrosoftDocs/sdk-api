@@ -57,7 +57,7 @@ Describes the state of a cluster node. The
 
 ## -enum-fields
 
-### -field ClusterNodeStateUnknown
+### -field ClusterNodeStateUnknown:-1
 
 The operation was not successful. For more information about the error, call the function 
        <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.

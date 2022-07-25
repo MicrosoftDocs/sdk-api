@@ -70,7 +70,7 @@ Client network address. The format of the field of <b>Address</b> depends on the
 For an address family <b>AF_INET</b>: <b>Address </b> contains the IPV4 address of the client as a null-terminated string.
 
 
-For an family <b>AF_INET6</b>: <b>Address </b> contains the IPV6 address of the client as raw byte values. (For example, the address "FFFF::1" would be represented as the following series of byte values: "0xFF 0xFF 0x00 0x00  0x00 0x00  0x00 0x00  0x00 0x00  0x00 0x00  0x00 0x00  0x00 0x01")
+For a family <b>AF_INET6</b>: <b>Address </b> contains the IPV6 address of the client as raw byte values. (For example, the address "FFFF::1" would be represented as the following series of byte values: "0xFF 0xFF 0x00 0x00  0x00 0x00  0x00 0x00  0x00 0x00  0x00 0x00  0x00 0x00  0x00 0x01")
 
 ## -remarks
 

@@ -52,7 +52,7 @@ api_name:
 
 Removes all the elements from the collection.
 
-## -parameters
+
 
 ## -returns
 

@@ -71,7 +71,7 @@ Pointer to the input buffer.
 
 Size of <i>ProtocolSubmitBuffer</i>, in bytes.
 
-### -param *ProtocolReturnBuffer [out]
+### -param ProtocolReturnBuffer [out]
 
 Pointer that receives the address of the output buffer.
 

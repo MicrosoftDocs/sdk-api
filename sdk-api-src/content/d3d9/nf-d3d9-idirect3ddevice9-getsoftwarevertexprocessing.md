@@ -53,7 +53,7 @@ api_name:
 
 Gets the vertex processing (hardware or software) mode.
 
-## -parameters
+
 
 ## -returns
 

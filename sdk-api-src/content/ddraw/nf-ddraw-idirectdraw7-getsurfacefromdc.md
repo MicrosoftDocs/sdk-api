@@ -54,11 +54,11 @@ Retrieves the <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Handle of a display device context.
 
-### -param arg2 [out]
+### -param unnamedParam2 [out]
 
 Address of a variable to be filled with a pointer to the <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface for the surface if the call succeeds.
 

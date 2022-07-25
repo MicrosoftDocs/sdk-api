@@ -55,29 +55,7 @@ Provides the clock times for the presentation clock.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPresentationTimeSource</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfclock">IMFClock</a>. <b>IMFPresentationTimeSource</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFPresentationTimeSource</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationtimesource-getunderlyingclock">GetUnderlyingClock</a>
-</td>
-<td align="left" width="63%">
-Retrieves the underlying clock that the presentation time source uses to generate its clock times.
-
-</td>
-</tr>
-</table>
+The <b>IMFPresentationTimeSource</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfclock">IMFClock</a>. <b>IMFPresentationTimeSource</b> also has these types of members:
 
 ## -remarks
 

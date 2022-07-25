@@ -53,7 +53,7 @@ api_name:
 
 Invalidate the pointer to the surface retrieved by <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgisurface-map">IDXGISurface::Map</a> and re-enable GPU access to the resource.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,15 +54,11 @@ api_name:
 
 ## -description
 
-The <b>VSS_MGMT_OBJECT_TYPE</b> enumeration type is a 
-
-    discriminant for the <a href="/openspecs/windows_protocols/ms-scmp/63b53947-2649-4eac-a883-498f77361396">VSS_MGMT_OBJECT_UNION</a> 
-    union within the <a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_mgmt_object_prop">VSS_MGMT_OBJECT_PROP</a> 
-    structure.
+The <b>VSS_MGMT_OBJECT_TYPE</b> enumeration type is a discriminant for the <a href="/openspecs/windows_protocols/ms-scmp/63b53947-2649-4eac-a883-498f77361396">VSS_MGMT_OBJECT_UNION</a> union within the <a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_mgmt_object_prop">VSS_MGMT_OBJECT_PROP</a> structure.
 
 ## -enum-fields
 
-### -field VSS_MGMT_OBJECT_UNKNOWN
+### -field VSS_MGMT_OBJECT_UNKNOWN:0
 
 The object type is unknown.
 
@@ -76,8 +72,7 @@ The object is a volume to hold a shadow copy storage area.
 
 ### -field VSS_MGMT_OBJECT_DIFF_AREA
 
-The object is an association between a volume to be shadow copied and a volume to hold the shadow copy 
-      storage area.
+The object is an association between a volume to be shadow copied and a volume to hold the shadow copy storage area.
 
 ## -see-also
 

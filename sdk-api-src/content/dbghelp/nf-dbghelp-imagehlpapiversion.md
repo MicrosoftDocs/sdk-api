@@ -55,7 +55,7 @@ Retrieves the version information of the DbgHelp library installed on the system
 To indicate the version of the library with which the application was built, use the 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-imagehlpapiversionex">ImagehlpApiVersionEx</a> function.
 
-## -parameters
+
 
 ## -returns
 

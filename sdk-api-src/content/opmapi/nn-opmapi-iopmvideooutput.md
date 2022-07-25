@@ -64,69 +64,7 @@ To get a pointer to this interface, call one of the following functions:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOPMVideoOutput</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOPMVideoOutput</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IOPMVideoOutput</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-configure">Configure</a>
-</td>
-<td align="left" width="63%">
-Configures a video output.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-coppcompatiblegetinformation">COPPCompatibleGetInformation</a>
-</td>
-<td align="left" width="63%">
-Sends a status request to the display driver. Use this method when OPM is emulating Certified Output Protection Manager (COPP).
-
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-finishinitialization">FinishIntialization</a>
-</td>
-<td align="left" width="63%">
-Completes the initialization sequence for an OPM session.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-getinformation">GetInformation</a>
-</td>
-<td align="left" width="63%">
-Sends a status request to the display driver.
-
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-startinitialization">StartInitialization</a>
-</td>
-<td align="left" width="63%">
-Begins the initialization sequence for an OPM session.
-
-</td>
-</tr>
-</table>
+The <b>IOPMVideoOutput</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOPMVideoOutput</b> also has these types of members:
 
 ## -see-also
 

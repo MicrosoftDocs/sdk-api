@@ -61,47 +61,47 @@ Defines the set of valid flags for a LUN object.
 
 ## -enum-fields
 
-### -field VDS_LF_LBN_REMAP_ENABLED
+### -field VDS_LF_LBN_REMAP_ENABLED:0x1
 
 The provider remaps LUN extents to drive extents automatically.
 
-### -field VDS_LF_READ_BACK_VERIFY_ENABLED
+### -field VDS_LF_READ_BACK_VERIFY_ENABLED:0x2
 
 The provider verifies writes by readback.
 
-### -field VDS_LF_WRITE_THROUGH_CACHING_ENABLED
+### -field VDS_LF_WRITE_THROUGH_CACHING_ENABLED:0x4
 
 The provider enables write-through caching on the LUN.
 
-### -field VDS_LF_HARDWARE_CHECKSUM_ENABLED
+### -field VDS_LF_HARDWARE_CHECKSUM_ENABLED:0x8
 
 The provider verifies the integrity of the read and write data using a checksum.
 
-### -field VDS_LF_READ_CACHE_ENABLED
+### -field VDS_LF_READ_CACHE_ENABLED:0x10
 
 Read caching is enabled on the LUN.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_LF_WRITE_CACHE_ENABLED
+### -field VDS_LF_WRITE_CACHE_ENABLED:0x20
 
 Write caching is enabled on the LUN.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_LF_MEDIA_SCAN_ENABLED
+### -field VDS_LF_MEDIA_SCAN_ENABLED:0x40
 
 Media scanning is enabled on the LUN.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_LF_CONSISTENCY_CHECK_ENABLED
+### -field VDS_LF_CONSISTENCY_CHECK_ENABLED:0x80
 
 Consistency checking is enabled on the LUN.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_LF_SNAPSHOT
+### -field VDS_LF_SNAPSHOT:0x100
 
 The LUN is a volume shadow copy LUN.
 

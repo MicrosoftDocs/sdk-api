@@ -87,65 +87,7 @@ When an event occurs that applies to a registered notification type, the object 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAdviseSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAdviseSink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAdviseSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-onclose">OnClose</a>
-</td>
-<td align="left" width="63%">
-Advises that the object has been closed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-ondatachange">OnDataChange</a>
-</td>
-<td align="left" width="63%">
-Advises that the data has changed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-onrename">OnRename</a>
-</td>
-<td align="left" width="63%">
-Advises that the name of object has changed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-onsave">OnSave</a>
-</td>
-<td align="left" width="63%">
-Advises that the object has been saved to disk.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-onviewchange">OnViewChange</a>
-</td>
-<td align="left" width="63%">
-Advises that the view of object has changed.
-
-</td>
-</tr>
-</table>
+The <b>IAdviseSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAdviseSink</b> also has these types of members:
 
 ## -see-also
 

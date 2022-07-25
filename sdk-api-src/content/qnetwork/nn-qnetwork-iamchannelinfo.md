@@ -56,74 +56,10 @@ This interface is exposed by the <a href="/windows/desktop/DirectShow/windows-me
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMChannelInfo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMChannelInfo</b> also has these types of members:
+The <b>IAMChannelInfo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMChannelInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IAMChannelInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_channeldescription">get_ChannelDescription</a>
-</td>
-<td align="left" width="63%">
-Gets the description of the channel.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_channelname">get_ChannelName</a>
-</td>
-<td align="left" width="63%">
-Gets the channel name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_channelurl">get_ChannelURL</a>
-</td>
-<td align="left" width="63%">
-Gets the channel URL.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_contactaddress">get_ContactAddress</a>
-</td>
-<td align="left" width="63%">
-Gets the contact address.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_contactemail">get_ContactEmail</a>
-</td>
-<td align="left" width="63%">
-Gets the contact email address.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_contactphone">get_ContactPhone</a>
-</td>
-<td align="left" width="63%">
-Gets the contact phone number.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

@@ -54,65 +54,7 @@ Provides functionality for raising events associated with <a href="/windows/desk
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSourceBufferNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSourceBufferNotify</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFSourceBufferNotify</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/medfound/imfsourcebuffernotify-onabort">OnAbort</a>
-</td>
-<td align="left" width="63%">
-Used to indicate that the source buffer has been aborted.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/medfound/imfsourcebuffernotify-onerror">OnError</a>
-</td>
-<td align="left" width="63%">
-Used to indicate that an error has occurred with the  source buffer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/medfound/imfsourcebuffernotify-onupdate">OnUpdate</a>
-</td>
-<td align="left" width="63%">
-Used to indicate that the source buffer is updating.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffernotify-onupdateend">OnUpdateEnd</a>
-</td>
-<td align="left" width="63%">
-Used to indicate that the source buffer has finished updating.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffernotify-onupdatestart">OnUpdateStart</a>
-</td>
-<td align="left" width="63%">
-Used to indicate that the source buffer has started updating.
-
-</td>
-</tr>
-</table>
+The <b>IMFSourceBufferNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSourceBufferNotify</b> also has these types of members:
 
 ## -see-also
 

@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputEffectDriver::GetForceFeedbackState </b>method retrieves the force-feedback state for the device.
+The <b>IDirectInputEffectDriver::GetForceFeedbackState </b> method retrieves the force-feedback state for the device.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Indicates the external joystick number being addressed.
 
-### -param arg2
+### -param unnamedParam2
 
 Points to a <a href="/windows/desktop/api/dinputd/ns-dinputd-didevicestate">DIDEVICESTATE</a> structure that receives the device state. DirectInput sets the <b>dwSize</b> member of the DIDEVICESTATE structure to <b>sizeof</b>(DIDEVICESTATE) before calling this method.
 

@@ -73,54 +73,7 @@ To retrieve this interface to an existing automatic quota, call one of the follo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmAutoApplyQuota</b> interface inherits from <a href="/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquotaobject">IFsrmQuotaObject</a>. <b>IFsrmAutoApplyQuota</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
-
-## -members
-
-The <b>IFsrmAutoApplyQuota</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmautoapplyquota-commitandupdatederived">CommitAndUpdateDerived</a>
-</td>
-<td align="left" width="63%">
-Saves the quota and then applies any changes to the derived quota objects.
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmAutoApplyQuota</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="10%">Access type</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmautoapplyquota-get_excludefolders">ExcludeFolders</a>
-
-
-</td>
-<td align="left" width="10%">
-Read/write
-
-</td>
-<td align="left" width="63%">
-Retrieves or sets an array of subdirectories to exclude from the automatic quota.
-
-</td>
-</tr>
-</table>
+The <b>IFsrmAutoApplyQuota</b> interface inherits from <a href="/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquotaobject">IFsrmQuotaObject</a>. <b>IFsrmAutoApplyQuota</b> also has these types of members:
 
 ## -remarks
 

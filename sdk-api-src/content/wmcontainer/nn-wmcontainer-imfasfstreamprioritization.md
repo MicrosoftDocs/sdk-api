@@ -57,70 +57,7 @@ The ASF stream prioritization object exposes this interface. The stream prioriti
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFASFStreamPrioritization</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFASFStreamPrioritization</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFASFStreamPrioritization</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamprioritization-addstream">AddStream</a>
-</td>
-<td align="left" width="63%">
-Adds a stream to the stream priority list.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamprioritization-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a copy of the stream prioritization object.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamprioritization-getstream">GetStream</a>
-</td>
-<td align="left" width="63%">
-Retrieves the stream number of a stream in the stream priority list.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamprioritization-getstreamcount">GetStreamCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of entries in the stream priority list.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamprioritization-removestream">RemoveStream</a>
-</td>
-<td align="left" width="63%">
-Removes a stream from the stream priority list.
-        
-
-</td>
-</tr>
-</table>
+The <b>IMFASFStreamPrioritization</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFASFStreamPrioritization</b> also has these types of members:
 
 ## -see-also
 

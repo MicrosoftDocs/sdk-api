@@ -76,7 +76,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -remarks
 
- A long time ago, all PC computers shared a common 8254 programable interval timer chip for the generation of primitive sounds.  The <b>Beep</b> function was written specifically to emit a beep on that piece of hardware.  
+ A long time ago, all PC computers shared a common 8254 programmable interval timer chip for the generation of primitive sounds.  The <b>Beep</b> function was written specifically to emit a beep on that piece of hardware.  
 
 On these older systems, muting and volume controls have no effect on <b>Beep</b>; you would still hear the tone. To silence the tone, you used the following commands:
 

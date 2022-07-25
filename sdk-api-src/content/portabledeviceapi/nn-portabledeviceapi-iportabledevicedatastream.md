@@ -55,35 +55,5 @@ The <b>IPortableDeviceDataStream</b> interface exposes additional methods on an 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceDataStream</b> interface inherits from <b>IStream</b>. <b>IPortableDeviceDataStream</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPortableDeviceDataStream</b> interface inherits from <b>IStream</b>. <b>IPortableDeviceDataStream</b> also has these types of members:
 
-## -members
-
-The <b>IPortableDeviceDataStream</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicedatastream-cancel">Cancel</a>
-</td>
-<td align="left" width="63%">
-Cancels a call in progress on this interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicedatastream-getobjectid">GetObjectID</a>
-</td>
-<td align="left" width="63%">
-Retrieves the object ID of the resource that was written to the device.
-
-</td>
-</tr>
-</table>

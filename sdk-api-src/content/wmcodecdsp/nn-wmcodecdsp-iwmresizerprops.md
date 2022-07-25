@@ -54,65 +54,7 @@ Sets properties on the video resizer DSP.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMResizerProps</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMResizerProps</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWMResizerProps</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresizerprops-getfullcropregion">GetFullCropRegion</a>
-</td>
-<td align="left" width="63%">
-Retrieves the source and destination rectangles.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresizerprops-setclipregion">SetClipRegion</a>
-</td>
-<td align="left" width="63%">
-Sets the source rectangle.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresizerprops-setfullcropregion">SetFullCropRegion</a>
-</td>
-<td align="left" width="63%">
-Sets the source and destination rectangles.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresizerprops-setinterlacemode">SetInterlaceMode</a>
-</td>
-<td align="left" width="63%">
-Specifies whether the input video stream is interlaced.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresizerprops-setresizerquality">SetResizerQuality</a>
-</td>
-<td align="left" width="63%">
-Specifies whether to use an algorithm that produces higher-quality video, or a faster algorithm.
-
-</td>
-</tr>
-</table>
+The <b>IWMResizerProps</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMResizerProps</b> also has these types of members:
 
 ## -see-also
 

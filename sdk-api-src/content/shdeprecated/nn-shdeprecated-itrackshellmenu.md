@@ -54,38 +54,7 @@ Exposes methods that extend the <a href="/windows/desktop/api/shobjidl_core/nn-s
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITrackShellMenu</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenu">IShellMenu</a>. <b>ITrackShellMenu</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITrackShellMenu</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-itrackshellmenu-popup">Popup</a>
-</td>
-<td align="left" width="63%">
-Displays a modal pop-up menu at a specific location.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-itrackshellmenu-setobscured">SetObscured</a>
-</td>
-<td align="left" width="63%">
-Coordinates obscured items on a toolbar with items in a menu.
-
-</td>
-</tr>
-</table>
+The <b>ITrackShellMenu</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenu">IShellMenu</a>. <b>ITrackShellMenu</b> also has these types of members:
 
 ## -remarks
 

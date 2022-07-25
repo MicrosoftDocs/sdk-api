@@ -54,7 +54,7 @@ Initializes the <a href="/windows/desktop/api/msime/nn-msime-ifelanguage">IFELan
 
 This method must be called before any use of the <a href="/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a> object.
 
-## -parameters
+
 
 ## -returns
 

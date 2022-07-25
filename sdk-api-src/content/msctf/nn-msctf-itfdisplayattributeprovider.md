@@ -56,38 +56,7 @@ The TSF manager obtains an instance of this interface by calling <a href="/windo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfDisplayAttributeProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfDisplayAttributeProvider</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfDisplayAttributeProvider</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeprovider-enumdisplayattributeinfo">EnumDisplayAttributeInfo</a>
-</td>
-<td align="left" width="63%">
-Obtains an enumerator that contains all display attribute info objects supported by the display attribute provider.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeprovider-getdisplayattributeinfo">GetDisplayAttributeInfo</a>
-</td>
-<td align="left" width="63%">
-Obtains a display attribute provider object for a particular display attribute.
-
-</td>
-</tr>
-</table>
+The <b>ITfDisplayAttributeProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfDisplayAttributeProvider</b> also has these types of members:
 
 ## -see-also
 

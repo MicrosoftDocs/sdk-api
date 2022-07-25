@@ -54,101 +54,10 @@ The <b>IComponent</b> interface a base class for all derived interfaces such as 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComponent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IComponent</b> also has these types of members:
+The <b>IComponent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IComponent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IComponent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a copy of the component.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-get_desclangid">get_DescLangID</a>
-</td>
-<td align="left" width="63%">
-Retrieves the language for presentation of the description.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-get_description">get_Description</a>
-</td>
-<td align="left" width="63%">
-Retrieves the description of the component.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-get_status">get_Status</a>
-</td>
-<td align="left" width="63%">
-Retrieves the requested or actual status of the component.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-get_type">get_Type</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType</a> interface describing the general characteristics of the component.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-put_desclangid">put_DescLangID</a>
-</td>
-<td align="left" width="63%">
-Sets the language for presentation of the description.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-put_description">put_Description</a>
-</td>
-<td align="left" width="63%">
-Sets the description of the component.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-put_status">put_Status</a>
-</td>
-<td align="left" width="63%">
-Sets the requested or actual status of the component.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-put_type">put_Type</a>
-</td>
-<td align="left" width="63%">
-Sets an <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType</a> object describing the general characteristics of the Component.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

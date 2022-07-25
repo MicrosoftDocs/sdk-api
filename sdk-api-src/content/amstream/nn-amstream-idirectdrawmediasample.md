@@ -61,35 +61,8 @@ The Overlay Mixer's allocator exposes the <a href="/windows/desktop/api/amstream
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectDrawMediaSample</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectDrawMediaSample</b> also has these types of members:
+The <b>IDirectDrawMediaSample</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectDrawMediaSample</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDirectDrawMediaSample</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amstream/nf-amstream-idirectdrawmediasample-getsurfaceandreleaselock">GetSurfaceAndReleaseLock</a>
-</td>
-<td align="left" width="63%">
-Retrieves and unlocks the surface that the sample represents.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amstream/nf-amstream-idirectdrawmediasample-lockmediasamplepointer">LockMediaSamplePointer</a>
-</td>
-<td align="left" width="63%">
-Locks the surface that the sample represents.
-
-</td>
-</tr>
-</table>

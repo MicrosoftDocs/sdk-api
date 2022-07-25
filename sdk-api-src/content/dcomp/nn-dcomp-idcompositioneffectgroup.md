@@ -54,37 +54,7 @@ Represents a group of bitmap effects that are applied together to modify the ras
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionEffectGroup</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositioneffect">IDCompositionEffect</a>. <b>IDCompositionEffectGroup</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDCompositionEffectGroup</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-setopacity">SetOpacity</a>
-</td>
-<td align="left" width="63%">Overloaded. Animates or changes the value of the Opacity property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositioneffectgroup-settransform3d">SetTransform3D</a>
-</td>
-<td align="left" width="63%">
-Sets the 3D transformation effect object that modifies the rasterization of the visuals that this effect group is applied to.
-
-</td>
-</tr>
-</table>
+The <b>IDCompositionEffectGroup</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositioneffect">IDCompositionEffect</a>. <b>IDCompositionEffectGroup</b> also has these types of members:
 
 ## -see-also
 

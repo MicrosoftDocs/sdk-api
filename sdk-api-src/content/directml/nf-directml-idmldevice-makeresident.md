@@ -76,7 +76,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 [IDMLDevice](/windows/win32/api/directml/nn-directml-idmldevice)
 
-
-
 [IDMLDevice::Evict](/windows/win32/api/directml/nf-directml-idmldevice-evict)
-

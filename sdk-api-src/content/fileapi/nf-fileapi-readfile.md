@@ -101,6 +101,8 @@ A pointer to the variable that receives the number of bytes read when using a sy
 This parameter can be <b>NULL</b> only when the <i>lpOverlapped</i> 
        parameter is not <b>NULL</b>.
 
+<b>Windows 7:  </b>This parameter can not be <b>NULL</b>.
+
 For more information, see the Remarks section.
 
 ### -param lpOverlapped [in, out, optional]
@@ -123,7 +125,7 @@ For an <i>hFile</i> that supports byte offsets, if you use this parameter you mu
 
 For more information about different combinations of <i>lpOverlapped</i> and 
        <b>FILE_FLAG_OVERLAPPED</b>, see the Remarks section and the 
-       <a href="https://docs.microsoft.com/">Synchronization and File Position</a> section.
+       **Synchronization and File Position** section.
 
 ## -returns
 
@@ -307,7 +309,7 @@ If a named pipe is being read in message mode and the next message is longer tha
       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
       <b>ERROR_MORE_DATA</b>. The remainder of the message can be read by a subsequent call to the 
       <b>ReadFile</b> or 
-      <a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-peeknamedpipe">PeekNamedPipe</a>function.
+      <a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-peeknamedpipe">PeekNamedPipe</a> function.
 
 If the <i>lpNumberOfBytesRead</i> parameter is zero when 
       <b>ReadFile</b> returns <b>TRUE</b> on a pipe, 

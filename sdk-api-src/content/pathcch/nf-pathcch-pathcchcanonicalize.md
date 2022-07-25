@@ -112,7 +112,7 @@ A path segment exceeds the standard path segment length limit of 256 characters.
 </dl>
 </td>
 <td width="60%">
-The function could not allocate a buffer of the neccessary size.
+The function could not allocate a buffer of the necessary size.
 </td>
 </tr>
 </table>

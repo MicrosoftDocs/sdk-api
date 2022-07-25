@@ -88,9 +88,9 @@ The key size must be greater than or equal to 512 bits, less than or equal to 40
 </dl>
 </td>
 <td width="60%">
-Prior to Windows 8, the key size must be greater than or equal to 512 bits, less than or equal to 1024 bits, and must be a multiple of 64. 
+Prior to Windows 8, the key size must be greater than or equal to 512 bits, less than or equal to 1024 bits, and must be a multiple of 64.
 
-Beginning with Windows 8, the key size must be greater than or equal to 512 bits, less than or equal to 3072 bits, and must be a multiple of 64. Processing for key sizes less than or equal to 1024 bits adheres to FIPS-186-2. Processing for key sizes greater than 1024 and less than or equal to 3072 adheres to FIPS 186-3.
+Beginning with Windows 8, the key size must be greater than or equal to 512 bits, less than or equal to 3072 bits, and must be a multiple of 64. Processing for key sizes less than or equal to 1024 bits adheres to FIPS 186-2. Processing for key sizes greater than 1024 and less than or equal to 3072 adheres to FIPS 186-3.
 
 </td>
 </tr>

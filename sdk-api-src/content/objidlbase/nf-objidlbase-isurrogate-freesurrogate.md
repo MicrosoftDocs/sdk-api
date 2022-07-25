@@ -52,7 +52,7 @@ api_name:
 
 Unloads a DLL server.
 
-## -parameters
+
 
 ## -returns
 

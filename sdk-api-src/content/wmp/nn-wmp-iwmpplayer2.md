@@ -56,58 +56,10 @@ The <b>IWMPPlayer2</b> interface duplicates the methods of <b>IWMPPlayer</b>, in
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlayer2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPPlayer2</b> also has these types of members:
+The <b>IWMPPlayer2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPPlayer2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMPPlayer2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer2-get_stretchtofit">get_stretchToFit</a>
-</td>
-<td align="left" width="63%">
-Retrieves a value indicating whether video will stretch to fit size of the Windows Media Player control video display.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer2-get_windowlessvideo">get_windowlessVideo</a>
-</td>
-<td align="left" width="63%">
-Retrieves a value indicating whether the Windows Media Player control renders video in windowless mode.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer2-put_stretchtofit">put_stretchToFit</a>
-</td>
-<td align="left" width="63%">
-Specifies whether video will stretch to fit the size of the Windows Media Player control video display.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer2-put_windowlessvideo">put_windowlessVideo</a>
-</td>
-<td align="left" width="63%">
-Specifies whether the Windows Media Player control renders video in windowless mode.
-
-</td>
-</tr>
-</table> 
-
-Retrieve a pointer to an <b>IWMPPlayer2</b> interface either by calling the <b>QueryInterface</b> method of the <a href="/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer</a> interface or by calling the COM <b>CoCreateInstance</b> method.
 
 ## -see-also
 

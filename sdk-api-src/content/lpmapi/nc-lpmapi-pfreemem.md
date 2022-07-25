@@ -61,11 +61,11 @@ The
 
 ## -parameters
 
-### -param *pv [in]
+### -param pv [in]
 
 Pointer to the memory buffer to free.
 
-### -param *szFileName
+### -param szFileName
 
 ### -param nLine
 

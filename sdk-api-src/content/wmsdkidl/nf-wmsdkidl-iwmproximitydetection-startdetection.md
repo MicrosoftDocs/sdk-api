@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMProximityDetection.StartDetection
 title: IWMProximityDetection::StartDetection (wmsdkidl.h)
-description: The StartDetection method begins the proximity detection process. After calling this method, do not release the IWMProximityDetection until you recieve the WMT_PROXIMITY_COMPLETED message.
+description: The StartDetection method begins the proximity detection process. After calling this method, do not release the IWMProximityDetection until you receive the WMT_PROXIMITY_COMPLETED message.
 helpviewer_keywords: ["IWMProximityDetection interface [windows Media Format]","StartDetection method","IWMProximityDetection.StartDetection","IWMProximityDetection::StartDetection","IWMProximityDetectionStartDetection","StartDetection","StartDetection method [windows Media Format]","StartDetection method [windows Media Format]","IWMProximityDetection interface","wmformat.iwmproximitydetection_startdetection","wmsdkidl/IWMProximityDetection::StartDetection"]
 old-location: wmformat\iwmproximitydetection_startdetection.htm
 tech.root: wmformat
@@ -55,7 +55,7 @@ api_name:
 ]
 
 
-The <b>StartDetection</b> method begins the proximity detection process. After calling this method, do not release the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmproximitydetection">IWMProximityDetection</a> until you recieve the WMT_PROXIMITY_COMPLETED message.
+The <b>StartDetection</b> method begins the proximity detection process. After calling this method, do not release the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmproximitydetection">IWMProximityDetection</a> until you receive the WMT_PROXIMITY_COMPLETED message.
 
 ## -parameters
 

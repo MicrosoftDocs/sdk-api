@@ -55,74 +55,7 @@ The <b>IAVIFile</b> interface supports opening and manipulating files and file h
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAVIFile</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAVIFile</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAVIFile</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vfw/nf-vfw-iavifile-createstream">CreateStream</a>
-</td>
-<td align="left" width="63%">
-Creates a stream for writing.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vfw/nf-vfw-iavifile-endrecord">EndRecord</a>
-</td>
-<td align="left" width="63%">
-Writes the "REC" chunk in a tightly interleaved AVI file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vfw/nf-vfw-iavifile-getstream">GetStream</a>
-</td>
-<td align="left" width="63%">
-Opens a stream by accessing it in a file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vfw/nf-vfw-iavifile-info">Info</a>
-</td>
-<td align="left" width="63%">
-Fills and returns an <a href="/windows/desktop/api/vfw/nf-vfw-avifileinfo">AVIFileInfo</a> structure with information about a file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vfw/nf-vfw-iavifile-readdata">ReadData</a>
-</td>
-<td align="left" width="63%">
-Reads file headers data, format data, or nonaudio and nonvideo data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vfw/nf-vfw-iavifile-writedata">WriteData</a>
-</td>
-<td align="left" width="63%">
-Writes file headers data, format data, or nonaudio and nonvideo data.
-
-</td>
-</tr>
-</table>
+The <b>IAVIFile</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAVIFile</b> also has these types of members:
 
 ## -see-also
 

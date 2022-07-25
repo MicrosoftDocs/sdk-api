@@ -54,35 +54,5 @@ Exposes configuration methods that are implemented by third parties. Parental Co
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWPCProviderConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWPCProviderConfig</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWPCProviderConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWPCProviderConfig</b> also has these types of members:
 
-## -members
-
-The <b>IWPCProviderConfig</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwpcproviderconfig-configure">Configure</a>
-</td>
-<td align="left" width="63%">
-Called for the current provider when you click a user tile in the Parental Controls Control Panel. This method allows for changes to the configuration.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwpcproviderconfig-getusersummary">GetUserSummary</a>
-</td>
-<td align="left" width="63%">
-Retrieves the information for each user by using the Parental Controls Control Panel.
-
-</td>
-</tr>
-</table>

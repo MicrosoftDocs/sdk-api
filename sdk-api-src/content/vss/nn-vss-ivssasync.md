@@ -92,44 +92,5 @@ The following methods return an <b>IVssAsync</b> interface:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssAsync</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssAsync</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVssAsync</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssAsync</b> also has these types of members:
 
-## -members
-
-The <b>IVssAsync</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vss/nf-vss-ivssasync-cancel">Cancel</a>
-</td>
-<td align="left" width="63%">
-Cancels an incomplete asynchronous operation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">QueryStatus</a>
-</td>
-<td align="left" width="63%">
-Queries the status of an asynchronous operation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vss/nf-vss-ivssasync-wait">Wait</a>
-</td>
-<td align="left" width="63%">
-Waits until an incomplete asynchronous operation will be finished, and the operation's completion status.
-
-</td>
-</tr>
-</table>

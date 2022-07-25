@@ -58,15 +58,15 @@ Transforms a marshaled string back into its original form, and decrypts the unma
 
 The marshaled, encrypted string.
 
-### -param *Blob [out]
+### -param Blob [out]
 
 A pointer to the unmarshaled, decrypted string.
 
-### -param *BlobSize [out]
+### -param BlobSize [out]
 
 A pointer to the size, in bytes, of the buffer pointed to by the <i>Blob</i> parameter.
 
-### -param *IsFailureFatal [out]
+### -param IsFailureFatal [out]
 
 A pointer to a <b>BOOLEAN</b> variable to receive a value that indicates whether the caller should complete the operation. If the value of this parameter is <b>TRUE</b>, the caller should not complete the operation.
 

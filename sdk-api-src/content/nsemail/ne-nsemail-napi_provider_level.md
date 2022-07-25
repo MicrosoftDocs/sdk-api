@@ -56,7 +56,7 @@ The <b>NAPI_PROVIDER_LEVEL</b> enumeration specifies the provider authority leve
 
 ## -enum-fields
 
-### -field ProviderLevel_None
+### -field ProviderLevel_None:0
 
 The namespace provider does not support the current domain. This value can be used to temporarily turn off the support for a domain without removing it from the list of supported domains. 
 
@@ -81,7 +81,7 @@ There should be only a single primary NS_EMAIL namespace provider for a domain r
 
 ## -remarks
 
-This enumeration is supported on Windows Vistaand later.
+This enumeration is supported on Windows Vista and later.
 
 The <b>NAPI_PROVIDER_LEVEL</b> enumeration is used by the <a href="/windows/desktop/api/nsemail/ns-nsemail-napi_domain_description_blob">NAPI_DOMAIN_DESCRIPTION_BLOB</a> structure to specify the authority level of  a NS_EMAIL namespace provider for a domain. Each namespace provider registered in the NS_EMAIL namespace can support multiple domains. The list of supported domains is specified in the provider registration blob as a list of <b>NAPI_DOMAIN_DESCRIPTION_BLOB</b> structures. Each supported domain specification contains a <b>NAPI_PROVIDER_LEVEL</b> value in the <b>AuthLevel</b> member of the <b>NAPI_DOMAIN_DESCRIPTION_BLOB</b> that describes the type of support provided by the provider for that domain. 
 

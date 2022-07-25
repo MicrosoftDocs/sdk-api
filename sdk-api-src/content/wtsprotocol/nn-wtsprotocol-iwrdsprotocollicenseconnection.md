@@ -54,56 +54,7 @@ Exposes methods used by the Remote Desktop Services service to perform the licen
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsProtocolLicenseConnection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsProtocolLicenseConnection</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWRdsProtocolLicenseConnection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollicenseconnection-protocolcomplete">ProtocolComplete</a>
-</td>
-<td align="left" width="63%">
-Notifies the protocol whether the licensing process completed successfully.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollicenseconnection-requestclientlicense">RequestClientLicense</a>
-</td>
-<td align="left" width="63%">
-Requests a license from the client.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollicenseconnection-requestlicensingcapabilities">RequestLicensingCapabilities</a>
-</td>
-<td align="left" width="63%">
-Requests license capabilities from the client.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollicenseconnection-sendclientlicense">SendClientLicense</a>
-</td>
-<td align="left" width="63%">
-Sends a license to the client.
-
-</td>
-</tr>
-</table>
+The <b>IWRdsProtocolLicenseConnection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsProtocolLicenseConnection</b> also has these types of members:
 
 ## -remarks
 

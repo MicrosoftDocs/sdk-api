@@ -60,74 +60,10 @@ You can create a device registration object and retrieve a pointer to its <b>IWM
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDeviceRegistration</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDeviceRegistration</b> also has these types of members:
+The <b>IWMDeviceRegistration</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDeviceRegistration</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMDeviceRegistration</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdeviceregistration-getfirstregistereddevice">GetFirstRegisteredDevice</a>
-</td>
-<td align="left" width="63%">
-Retrieves information for the first device in the device registration database.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdeviceregistration-getnextregistereddevice">GetNextRegisteredDevice</a>
-</td>
-<td align="left" width="63%">
-Retrieves information for the second and subsequent devices in the device registration database.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdeviceregistration-getregistereddevicebyid">GetRegisteredDeviceByID</a>
-</td>
-<td align="left" width="63%">
-Retrieves information about a device specified by the device identifier.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdeviceregistration-getregistrationstats">GetRegistrationStats</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of devices of a specified type that exist in the device registration database.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdeviceregistration-registerdevice">RegisterDevice</a>
-</td>
-<td align="left" width="63%">
-Adds a device to the device registration database.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdeviceregistration-unregisterdevice">UnregisterDevice</a>
-</td>
-<td align="left" width="63%">
-Removes a device from the device registration database.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

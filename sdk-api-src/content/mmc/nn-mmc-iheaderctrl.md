@@ -61,74 +61,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHeaderCtrl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHeaderCtrl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IHeaderCtrl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-iheaderctrl-deletecolumn">DeleteColumn</a>
-</td>
-<td align="left" width="63%">
-Removes a column.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-iheaderctrl-getcolumntext">GetColumnText</a>
-</td>
-<td align="left" width="63%">
-Retrieves the text from a specified column.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-iheaderctrl-getcolumnwidth">GetColumnWidth</a>
-</td>
-<td align="left" width="63%">
-Retrieves the width of a specified column.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-iheaderctrl-insertcolumn">InsertColumn</a>
-</td>
-<td align="left" width="63%">
-Adds a column to a default result view.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-iheaderctrl-setcolumntext">SetColumnText</a>
-</td>
-<td align="left" width="63%">
-Sets the text in a specified column.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-iheaderctrl-setcolumnwidth">SetColumnWidth</a>
-</td>
-<td align="left" width="63%">
-Sets the width of a specified column.
-
-</td>
-</tr>
-</table>
+The <b>IHeaderCtrl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHeaderCtrl</b> also has these types of members:
 
 ## -see-also
 

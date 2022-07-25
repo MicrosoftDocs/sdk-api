@@ -56,56 +56,10 @@ An <b>IWMReaderPlaylistBurn</b> interface exists for every instance of the reade
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMReaderPlaylistBurn</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMReaderPlaylistBurn</b> also has these types of members:
+The <b>IWMReaderPlaylistBurn</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMReaderPlaylistBurn</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMReaderPlaylistBurn</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderplaylistburn-cancel">Cancel</a>
-</td>
-<td align="left" width="63%">
-Cancels an initiated playlist burn.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderplaylistburn-endplaylistburn">EndPlaylistBurn</a>
-</td>
-<td align="left" width="63%">
-Ends the playlist burning process, releasing any resources and updating counts for any DRM licenses involved.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderplaylistburn-getinitresults">GetInitResults</a>
-</td>
-<td align="left" width="63%">
-Retrieves the results of the playlist file check. This check is initiated by the <b>InitPlaylistBurn</b> method.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderplaylistburn-initplaylistburn">InitPlaylistBurn</a>
-</td>
-<td align="left" width="63%">
-Starts the playlist file check.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

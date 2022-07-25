@@ -7,8 +7,8 @@ ms.date: 10/30/2020
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -67,6 +67,9 @@ Using this query, you can then also retrieve an *upper* bound for the feature le
 This API was introduced in DirectML version `1.1.0`.
 
 ## -see-also
+
 [IDMLDevice::CheckFeatureSupport method](/windows/win32/api/directml/nf-directml-idmldevice-checkfeaturesupport)
+
 [DML_FEATURE enumeration](/windows/win32/direct3d12/ne-directml-dml_feature)
+
 [DML_FEATURE_DATA_FEATURE_LEVELS structure](/windows/win32/api/directml/ns-directml-dml_feature_data_feature_levels)

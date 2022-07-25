@@ -59,7 +59,7 @@ Defines the set of valid types for a LUN plex.
 
 ## -enum-fields
 
-### -field VDS_LPT_UNKNOWN
+### -field VDS_LPT_UNKNOWN:0
 
 This value is reserved.
 
@@ -159,7 +159,7 @@ The plex type is RAID level 6+0.
 
 ## -remarks
 
-The  <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_plex_prop">VDS_LUN_PLEX_PROP</a>structure includes a <b>VDS_LUN_PLEX_TYPE</b> value as a member to indicate the existing plex type.
+The  <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_plex_prop">VDS_LUN_PLEX_PROP</a> structure includes a <b>VDS_LUN_PLEX_TYPE</b> value as a member to indicate the existing plex type.
 
 If your application encounters a <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hwprovider_type">VDS_HWPROVIDER_TYPE</a> value that it does not recognize, it should display the provider type as unknown. It should not attempt to map the unrecognized provider type to another provider type.
 

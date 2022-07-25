@@ -185,11 +185,15 @@ Containers of linked objects can set up advisory connections directly with the b
 
 The OLE default link object creates a "wildcard advise" with the link source so OLE can maintain the time of last change. This advise is specifically used to note the time that anything changed. OLE ignores all data formats that may have changed, noting only the time of last change. To allow wildcard advises, set the <a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> members as follows before calling <b>DAdvise</b>:
 
-<pre class="syntax" xml:space="preserve"><code>cf == 0; 
+
+``` syntax
+cf == 0; 
 ptd == NULL; 
 dwAspect == -1; 
 lindex == -1 
-tymed == -1;</code></pre>
+tymed == -1;
+```
+
 The advise flags should also include ADVF_NODATA. Wildcard advises from OLE should always be accepted by applications.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>

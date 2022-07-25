@@ -112,10 +112,19 @@ An optional fused activation layer to apply after the GEMM.
 This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 
 ## Tensor constraints
-* *ATensor*, *BTensor*, *CTensor*, and *OutputTensor* must have the same *DataType*.
+* *ATensor*, *BTensor*, *CTensor*, and *OutputTensor* must have the same *DataType* and *DimensionCount*.
 * *CTensor* and *OutputTensor* must have the same *Sizes*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_4_0 and above
+| Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
+| ------ | ---- | ---------- | -------------------------- | -------------------- |
+| ATensor | Input | { [BatchCount], [ChannelCount], M, K } | 2 to 4 | FLOAT32, FLOAT16 |
+| BTensor | Input | { [BatchCount], [ChannelCount], K, N } | 2 to 4 | FLOAT32, FLOAT16 |
+| CTensor | Optional input | { [BatchCount], [ChannelCount], M, N } | 2 to 4 | FLOAT32, FLOAT16 |
+| OutputTensor | Output | { [BatchCount], [ChannelCount], M, N } | 2 to 4 | FLOAT32, FLOAT16 |
+
+### DML_FEATURE_LEVEL_1_0 and above
 | Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
 | ------ | ---- | ---------- | -------------------------- | -------------------- |
 | ATensor | Input | { BatchCount, ChannelCount, M, K } | 4 | FLOAT32, FLOAT16 |
@@ -124,4 +133,5 @@ This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 | OutputTensor | Output | { BatchCount, ChannelCount, M, N } | 4 | FLOAT32, FLOAT16 |
 
 ## -see-also
-[Using fused operators for improved performance](/windows/win32/direct3d12/dml-fused-activations)
+
+[Using fused operators for improved performance](/windows/ai/directml/dml-fused-activations)

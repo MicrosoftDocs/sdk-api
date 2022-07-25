@@ -54,56 +54,7 @@ A callback interface exposing methods used with <a href="/windows/desktop/api/sh
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INamespaceWalkCB</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INamespaceWalkCB</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>INamespaceWalkCB</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalkcb-enterfolder">EnterFolder</a>
-</td>
-<td align="left" width="63%">
-Called when a folder is about to be entered during a namespace walk. Use this method for any initialization of the retrieved item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalkcb-founditem">FoundItem</a>
-</td>
-<td align="left" width="63%">
-Called when an object is found in the namespace during a namespace walk. Use this method as the main action function for the class implementing it. Perform your actions as needed inside this method.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalkcb-initializeprogressdialog">InitializeProgressDialog</a>
-</td>
-<td align="left" width="63%">
-Initializes the window title and cancel button text of the progress dialog box displayed during the namespace walk.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalkcb-leavefolder">LeaveFolder</a>
-</td>
-<td align="left" width="63%">
-Called after a namespace walk through a folder. Use this method to perform any necessary cleanup following the actions performed by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalkcb-enterfolder">INamespaceWalkCB::EnterFolder</a> or <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalkcb-founditem">INamespaceWalkCB::FoundItem</a>.
-
-</td>
-</tr>
-</table>
+The <b>INamespaceWalkCB</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INamespaceWalkCB</b> also has these types of members:
 
 ## -remarks
 

@@ -4,7 +4,7 @@ title: PINIT_ONCE_FN (synchapi.h)
 description: An application-defined callback function. Specify a pointer to this function when calling the InitOnceExecuteOnce function.
 helpviewer_keywords: ["PINIT_ONCE_FN","PINIT_ONCE_FN callback","PINIT_ONCE_FN callback function","base.initoncecallback","synchapi/PINIT_ONCE_FN"]
 old-location: base\initoncecallback.htm
-tech.root: backup
+tech.root: base
 ms.assetid: e4a73572-e477-4518-87fe-b9b74234e8ec
 ms.date: 12/05/2018
 ms.keywords: PINIT_ONCE_FN, PINIT_ONCE_FN callback, PINIT_ONCE_FN callback function, base.initoncecallback, synchapi/PINIT_ONCE_FN
@@ -64,7 +64,7 @@ A pointer to the one-time initialization structure.
 
 An optional parameter that was passed to the callback function.
 
-### -param *Context [out, optional]
+### -param Context [out, optional]
 
 The data to be stored with the one-time initialization structure. If  <i>Context</i>  references a value, the low-order <b>INIT_ONCE_CTX_RESERVED_BITS</b> of the value must be zero. If  <i>Context</i>  points to a data structure, the data structure must be <b>DWORD</b>-aligned.
 

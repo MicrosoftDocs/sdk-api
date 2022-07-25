@@ -53,7 +53,7 @@ api_name:
 
 Returns the number of texture levels in a multilevel texture.
 
-## -parameters
+
 
 ## -returns
 

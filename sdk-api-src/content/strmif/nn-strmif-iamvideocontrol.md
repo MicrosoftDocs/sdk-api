@@ -55,74 +55,7 @@ The <b>IAMVideoControl</b> interface controls certain video capture operations s
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMVideoControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVideoControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAMVideoControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamvideocontrol-getcaps">GetCaps</a>
-</td>
-<td align="left" width="63%">
-Retrieves the capabilities of the underlying hardware.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamvideocontrol-getcurrentactualframerate">GetCurrentActualFrameRate</a>
-</td>
-<td align="left" width="63%">
-Retrieves the actual frame rate at which the device is streaming. This method is used with devices, such as the Universal Serial Bus (USB) or cameras that use the IEEE 1394 serial standard, where the maximum frame rate can be limited by bandwidth availability. This is only available during video streaming.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamvideocontrol-getframeratelist">GetFrameRateList</a>
-</td>
-<td align="left" width="63%">
-Retrieves a list of available frame rates.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamvideocontrol-getmaxavailableframerate">GetMaxAvailableFrameRate</a>
-</td>
-<td align="left" width="63%">
-Retrieves the maximum frame rate currently available based on bus bandwidth usage for connections such as USB and IEEE 1394 camera devices where the maximum frame rate can be limited by bandwidth availability.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamvideocontrol-getmode">GetMode</a>
-</td>
-<td align="left" width="63%">
-Retrieves the video control mode of operation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamvideocontrol-setmode">SetMode</a>
-</td>
-<td align="left" width="63%">
-Sets the video control mode of operation.
-
-</td>
-</tr>
-</table>
+The <b>IAMVideoControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVideoControl</b> also has these types of members:
 
 ## -remarks
 

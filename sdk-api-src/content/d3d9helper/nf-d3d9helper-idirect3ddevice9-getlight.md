@@ -61,7 +61,7 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Zero-based index of the lighting property set to retrieve. This method will fail if a lighting property has not been set for this index by calling the <a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setlight">IDirect3DDevice9::SetLight</a> method.
 
-### -param arg2 [out]
+### -param unnamedParam2 [out]
 
 Type: <b><a href="/windows/desktop/direct3d9/d3dlight9">D3DLight9</a>*</b>
 

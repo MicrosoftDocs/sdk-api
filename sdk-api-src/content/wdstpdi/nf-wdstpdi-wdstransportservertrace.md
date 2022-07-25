@@ -86,10 +86,11 @@ Severity level of the message.
 
 A pointer to a null-terminated string value that contains a formatted string.
 
-### -param arg4
+### -param ...
 
 Additional arguments.
 
 ## -returns
 
 If the function succeeds, the return is <b>S_OK</b>.
+

@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleSession.GenerateRequest
 title: IMFContentDecryptionModuleSession::GenerateRequest
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Generates a license request based on the provided data.
 tech.root: mf
@@ -60,7 +59,7 @@ The size of the **BYTE** array provided in the *initData* parameter.
 
 ## -returns
 
-Rerturns S_OK on success.
+Returns S_OK on success.
 
 ## -remarks
 

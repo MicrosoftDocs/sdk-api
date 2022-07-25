@@ -54,25 +54,6 @@ Represents a specialized object whose purpose is to initialize compiled operator
 
 An operator initializer is associated with one or more compiled operators, which are the targets for initialization. You can record operator initialization onto a command list using [IDMLCommandRecorder::RecordDispatch](/windows/win32/api/directml/nf-directml-idmlcommandrecorder-recorddispatch). When the initialization completes execution on the GPU, all of the target operators enter the initialized state. You must initialize all operators exactly once before they can be executed.
 
-## -members
-
-The <b>IDMLOperatorInitializer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/directml/nf-directml-idmloperatorinitializer-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the initializer to handle initialization of a new set of operators.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Operator initializers are reusable: once an instance has been used to initialize a set of operators, you can reset it with a different set of compiled operators as targets.
@@ -88,6 +69,6 @@ The operator initializer itself doesn't need to be initialized—GPU initializat
 
 ## -see-also
 
-[Binding in DirectML](/windows/desktop/direct3d12/dml-binding)
+[Binding in DirectML](/windows/ai/directml/dml-binding)
 
 [IDMLDispatchable](/windows/win32/api/directml/nn-directml-idmldispatchable)

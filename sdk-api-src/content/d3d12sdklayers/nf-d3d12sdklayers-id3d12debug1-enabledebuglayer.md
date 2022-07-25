@@ -52,7 +52,7 @@ api_name:
 
 Enables the debug layer.
 
-## -parameters
+
 
 ## -remarks
 

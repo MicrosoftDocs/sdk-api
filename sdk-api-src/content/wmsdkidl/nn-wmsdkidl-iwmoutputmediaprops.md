@@ -56,40 +56,10 @@ An <b>IWMOutputMediaProps</b> object is created by a call to <a href="/windows/d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMOutputMediaProps</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a>. <b>IWMOutputMediaProps</b> also has these types of members:
+The <b>IWMOutputMediaProps</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a>. <b>IWMOutputMediaProps</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMOutputMediaProps</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmoutputmediaprops-getconnectionname">GetConnectionName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the name of the connection to be used for output.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmoutputmediaprops-getstreamgroupname">GetStreamGroupName</a>
-</td>
-<td align="left" width="63%">
-Returns an empty string.
-
-</td>
-</tr>
-</table> 
-
-For information on which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="/windows/desktop/wmformat/output-media-properties-object">Output Media Properties Object</a>.
 
 ## -see-also
 

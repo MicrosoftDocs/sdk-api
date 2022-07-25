@@ -2,7 +2,6 @@
 UID: NS:mfobjects._MFPaletteEntry
 title: MFPaletteEntry
 ms.date: 10/16/2020
-ms.topic: language-reference
 targetos: Windows
 helpviewer_keywords: ["MFPaletteEntry","mfobjects/MFPaletteEntry"]
 description: Contains one palette entry in a color table.
@@ -16,8 +15,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: MFPaletteEntry
 req.umdf-ver: 

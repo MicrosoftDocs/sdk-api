@@ -54,70 +54,7 @@ Represents the collection of fax accounts on the fax server. It provides methods
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccounts</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxAccounts</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
-
-## -members
-
-The <b>IFaxAccounts</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxaccounts-get_item">get_Item</a>
-</td>
-<td align="left" width="63%">
-Returns a <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccount">FaxAccount</a> object from a <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccounts">FaxAccounts</a> collection. 
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccounts</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="10%">Access type</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/previous-versions/windows/desktop/fax/-mfax-faxaccounts-count-vb">Count</a>
-
-
-</td>
-<td align="left" width="10%">
-Read-only
-
-</td>
-<td align="left" width="63%">
-Holds the number of items in the <b>IFaxAccounts</b> collection. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/previous-versions/windows/desktop/fax/-mfax-faxaccounts-newenum-vb">NewEnum</a>
-
-
-</td>
-<td align="left" width="10%">
-Read-only
-
-</td>
-<td align="left" width="63%">
-Holds the enumerator for the <b>IFaxAccounts</b> object. 
-
-</td>
-</tr>
-</table>
+The <b>IFaxAccounts</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxAccounts</b> also has these types of members:
 
 ## -remarks
 

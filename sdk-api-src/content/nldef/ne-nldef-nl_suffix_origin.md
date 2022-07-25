@@ -55,7 +55,7 @@ The <b>IP_SUFFIX_ORIGIN</b> enumeration specifies the origin of an IPv4 or IPv6 
 
 ## -enum-fields
 
-### -field NlsoOther
+### -field NlsoOther:0
 
 ### -field NlsoManual
 
@@ -67,7 +67,7 @@ The <b>IP_SUFFIX_ORIGIN</b> enumeration specifies the origin of an IPv4 or IPv6 
 
 ### -field NlsoRandom
 
-### -field IpSuffixOriginOther
+### -field IpSuffixOriginOther:0
 
 The IP address suffix was provided by a source other than those defined in this enumeration.
 
@@ -91,7 +91,7 @@ The IP address suffix was obtained from the link-layer address.
 
 The IP address suffix was obtained from a random source.
 
-### -field IpSuffixOriginUnchanged
+### -field IpSuffixOriginUnchanged:1 << 4
 
 The IP address suffix should be unchanged. This value is used when setting the properties for a unicast IP interface when the value for the IP suffix origin should be left unchanged.
 

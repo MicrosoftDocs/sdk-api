@@ -56,11 +56,11 @@ Enumerates the possible states of a
 
 ## -enum-fields
 
-### -field ClusterGroupStateUnknown
+### -field ClusterGroupStateUnknown:-1
 
 The state of the group is unknown.
 
-### -field ClusterGroupOnline
+### -field ClusterGroupOnline:206
 
 All of the resources in the group are <a href="/previous-versions/windows/desktop/mscs/o-gly">online</a>.
 

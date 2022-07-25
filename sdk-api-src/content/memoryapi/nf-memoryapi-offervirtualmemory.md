@@ -13,21 +13,21 @@ req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 Update [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 Update [desktop apps \| UWP apps]
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: Kernel32.lib
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib: onecore.lib
 req.dll: Kernel32.dll
-req.irql: 
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 ms.custom: 19H1
 f1_keywords:
  - OfferVirtualMemory
@@ -84,49 +84,41 @@ Size, in bytes, of the memory region to offer.  <i>Size</i> must be an integer m
 <th>Meaning</th>
 </tr>
 <tr>
-<td width="40%"><a id="VMOfferPriorityVeryLow"></a><a id="vmofferpriorityverylow"></a><a id="VMOFFERPRIORITYVERYLOW"></a><dl>
-<dt><b>VMOfferPriorityVeryLow</b></dt>
-<dt>0x00001000</dt>
-</dl>
+<td width="40%"><a id="VMOfferPriorityVeryLow"></a><a id="vmofferpriorityverylow"></a><a id="VMOFFERPRIORITYVERYLOW"></a>
+<dl><dt>VMOfferPriorityVeryLow</dt> 0x00000001</dl>
 </td>
 <td width="60%">
 The offered memory is very low priority, and should be the first discarded.
-
 </td>
 </tr>
+
 <tr>
-<td width="40%"><a id="VMOfferPriorityLow"></a><a id="vmofferprioritylow"></a><a id="VMOFFERPRIORITYLOW"></a><dl>
-<dt><b>VMOfferPriorityLow</b></dt>
-<dt>0x00002000</dt>
-</dl>
+<td width="40%"><a id="VMOfferPriorityLow"></a><a id="vmofferprioritylow"></a><a id="VMOFFERPRIORITYLOW"></a>
+<dl><dt>VMOfferPriorityLow</dt> 0x00000002</dl>
 </td>
 <td width="60%">
 The offered memory is low priority.
-
 </td>
 </tr>
+
 <tr>
-<td width="40%"><a id="VMOfferPriorityBelowNormal"></a><a id="vmofferprioritybelownormal"></a><a id="VMOFFERPRIORITYBELOWNORMAL"></a><dl>
-<dt><b>VMOfferPriorityBelowNormal</b></dt>
-<dt>0x00002000</dt>
-</dl>
+<td width="40%"><a id="VMOfferPriorityBelowNormal"></a><a id="vmofferprioritybelownormal"></a><a id="VMOFFERPRIORITYBELOWNORMAL"></a>
+<dl><dt>VMOfferPriorityBelowNormal</dt> 0x00000003</dl>
 </td>
 <td width="60%">
 The offered memory is below normal priority.
-
 </td>
 </tr>
+
 <tr>
-<td width="40%"><a id="VMOfferPriorityNormal"></a><a id="vmofferprioritynormal"></a><a id="VMOFFERPRIORITYNORMAL"></a><dl>
-<dt><b>VMOfferPriorityNormal</b></dt>
-<dt>0x00002000</dt>
-</dl>
+<td width="40%"><a id="VMOfferPriorityNormal"></a><a id="vmofferprioritynormal"></a><a id="VMOFFERPRIORITYNORMAL"></a>
+<dl><dt>VMOfferPriorityNormal</dt> 0x00000004</dl>
 </td>
 <td width="60%">
 The offered memory is of normal priority to the application, and should be the last discarded.
-
 </td>
 </tr>
+
 </table>
 
 ## -returns

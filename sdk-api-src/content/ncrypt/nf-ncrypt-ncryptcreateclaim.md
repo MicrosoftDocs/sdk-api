@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Creates a key attestation claim.
 
@@ -89,4 +89,3 @@ As of Windows 10, no  flags are defined. This parameter should be set to 0.
 ## -returns
 
 Returns a status code that indicates the success or failure of the function.
-

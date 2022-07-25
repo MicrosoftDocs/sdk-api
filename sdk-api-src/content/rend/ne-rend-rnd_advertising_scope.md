@@ -59,19 +59,19 @@ Members of the
 
 ## -enum-fields
 
-### -field RAS_LOCAL
+### -field RAS_LOCAL:1
 
 Advertising scope is local.
 
-### -field RAS_SITE
+### -field RAS_SITE:2
 
 Advertising scope is site.
 
-### -field RAS_REGION
+### -field RAS_REGION:3
 
 Advertising scope is country or region.
 
-### -field RAS_WORLD
+### -field RAS_WORLD:4
 
 Advertising scope is the world.
 

@@ -59,29 +59,29 @@ Defines the set of object status values for a LUN plex.
 
 ## -enum-fields
 
-### -field VDS_LPS_UNKNOWN
+### -field VDS_LPS_UNKNOWN:0
 
 This value is reserved.
 
-### -field VDS_LPS_ONLINE
+### -field VDS_LPS_ONLINE:1
 
 The plex is available.
 
-### -field VDS_LPS_NOT_READY
+### -field VDS_LPS_NOT_READY:2
 
 The plex is busy.
 
-### -field VDS_LPS_OFFLINE
+### -field VDS_LPS_OFFLINE:4
 
 The plex is unavailable.
 
-### -field VDS_LPS_FAILED
+### -field VDS_LPS_FAILED:5
 
 The plex has failed.
 
 ## -remarks
 
-The <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_plex_prop">VDS_LUN_PLEX_PROP</a>structure includes a <b>VDS_LUN_PLEX_STATUS</b> value as a member to indicate the current status of the LUN plex.
+The <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_plex_prop">VDS_LUN_PLEX_PROP</a> structure includes a <b>VDS_LUN_PLEX_STATUS</b> value as a member to indicate the current status of the LUN plex.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_LUN_PLEX_STATUS</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_LUN_PLEX_STATUS</b> enumeration constant.</div>
 <div> </div>

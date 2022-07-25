@@ -56,7 +56,7 @@ Provides predefined status codes to represent the progress of the TPM virtual sm
 
 ## -enum-fields
 
-### -field TPMVSCMGR_STATUS_VTPMSMARTCARD_INITIALIZING
+### -field TPMVSCMGR_STATUS_VTPMSMARTCARD_INITIALIZING:0
 
 Initializing the virtual smart card 	manager.
 

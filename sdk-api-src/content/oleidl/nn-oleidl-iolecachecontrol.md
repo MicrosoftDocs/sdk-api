@@ -54,35 +54,5 @@ Provides proper maintenance of caches. It maintains the caches by connecting the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleCacheControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleCacheControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IOleCacheControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleCacheControl</b> also has these types of members:
 
-## -members
-
-The <b>IOleCacheControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-iolecachecontrol-onrun">OnRun</a>
-</td>
-<td align="left" width="63%">
-Notifies the cache that the data source object has entered the running state so that the cache object can establish advise sinks as needed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-iolecachecontrol-onstop">OnStop</a>
-</td>
-<td align="left" width="63%">
-Notifies the cache that it should terminate any existing advise sinks.
-
-</td>
-</tr>
-</table>

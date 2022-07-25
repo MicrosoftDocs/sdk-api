@@ -53,7 +53,7 @@ api_name:
 
 Gets the query type.
 
-## -parameters
+
 
 ## -returns
 

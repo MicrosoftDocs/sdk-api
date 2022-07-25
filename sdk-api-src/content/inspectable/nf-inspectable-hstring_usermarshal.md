@@ -53,15 +53,15 @@ Marshals an <a href="/windows/desktop/WinRT/hstring">HSTRING</a> object into the
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 The data used by RPC.
 
-### -param arg2
+### -param unnamedParam2
 
 The current buffer. This pointer may or may not be aligned on entry.
 
-### -param arg3
+### -param unnamedParam3
 
 The string.
 

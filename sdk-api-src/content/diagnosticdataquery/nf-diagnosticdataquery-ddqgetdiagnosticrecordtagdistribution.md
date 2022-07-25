@@ -3,12 +3,11 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticRecordTagDistribution
 title: DdqGetDiagnosticRecordTagDistribution
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticRecordTagDistribution
-ms.topic: language-reference
 description: Fetches Diagnostic Data Events per privacy tag event distribution statistics based on the specified producer names.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -31,7 +30,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - diagnosticdataquery.h
 api_name:
@@ -79,8 +77,8 @@ Returns S_OK on successful completion.
 
 ## -remarks
 
-See our [**privacy statement**]("/windows/privacy/windows-diagnostic-data") for information about diagnostic data privacy tags.
-For more details about the tag description data type, see our [**DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION**]("/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_tag_description").
+See our [**privacy statement**](/windows/privacy/windows-diagnostic-data) for information about diagnostic data privacy tags.
+For more details about the tag description data type, see our [**DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION**](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_tag_description).
 
 ## -see-also
 

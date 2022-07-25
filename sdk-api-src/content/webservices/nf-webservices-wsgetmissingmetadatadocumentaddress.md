@@ -53,18 +53,14 @@ api_name:
 This function returns the address of a missing document that is referenced by the metadata object.
             
 
-Each document that is added to the metadata object may contain references to
-                other documents.    After a document has been added
-                back to the Metadata the function can be used to find the next missing document.
+Each document that is added to the metadata object may contain references to other documents. After a document has been added back to the Metadata the function can be used to find the next missing document.
             
-<div class="alert"><b>Note</b>  This function will fail if the host name of the URL of the missing address 
-                being returned cannot be verified as being one of the host names expected.
-                The expected host names are a union of the following:
-            <ul>
+<div class="alert"><b>Note</b>  This function will fail if the host name of the URL of the missing address being returned cannot be verified as being one of the host names expected. The expected host names are a union of the following:
+<ul>
 <li>The host name of any URL previously passed to <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmetadata">WsReadMetadata</a>.
-                </li>
+</li>
 <li>The list of host names specified using the <a href="/windows/desktop/api/webservices/ne-webservices-ws_metadata_property_id">WS_METADATA_PROPERTY_HOST_NAMES</a> property.
-            </li>
+</li>
 </ul>
 </div><div> </div>
 
@@ -76,16 +72,12 @@ This parameter is a pointer to a <b>Metadata</b> object that should have the doc
 
 ### -param address
 
-On success this parameter is populated with either a pointer to the 
-                    address of a missing metadata document, or <b>NULL</b> if there are no missing 
-                    metadata documents.
+On success this parameter is populated with either a pointer to the address of a missing metadata document, or <b>NULL</b> if there are no missing metadata documents.
                 
-                    The returned address URL is fully qualified.
+The returned address URL is fully qualified.
                 
 
-<div class="alert"><b>Note</b>  The data returned by this function is valid until the metadata
-                    object is freed or reset.  The data should not be modified.
-                </div>
+<div class="alert"><b>Note</b>  The data returned by this function is valid until the metadata object is freed or reset.  The data should not be modified.</div>
 <div> </div>
 
 ### -param error [in, optional]

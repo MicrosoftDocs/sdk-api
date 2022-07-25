@@ -61,26 +61,5 @@ The <b>IMemAllocatorNotifyCallbackTemp</b> interface enables a filter to receive
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMemAllocatorNotifyCallbackTemp</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMemAllocatorNotifyCallbackTemp</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMemAllocatorNotifyCallbackTemp</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMemAllocatorNotifyCallbackTemp</b> also has these types of members:
 
-## -members
-
-The <b>IMemAllocatorNotifyCallbackTemp</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-imemallocatornotifycallbacktemp-notifyrelease">NotifyRelease</a>
-</td>
-<td align="left" width="63%">
-Called when a sample returns to the allocator's free list.
-
-</td>
-</tr>
-</table>

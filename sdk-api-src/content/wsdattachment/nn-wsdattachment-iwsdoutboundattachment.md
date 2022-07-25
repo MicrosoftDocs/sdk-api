@@ -54,47 +54,7 @@ Enables applications to send attachment data in a message using a MIME container
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDOutboundAttachment</b> interface inherits from <a href="/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdattachment">IWSDAttachment</a>. <b>IWSDOutboundAttachment</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWSDOutboundAttachment</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-abort">Abort</a>
-</td>
-<td align="left" width="63%">
-Aborts the transfer of data on the attachment MIME data stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-close">Close</a>
-</td>
-<td align="left" width="63%">
-Closes current attachment MIME data stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-write">Write</a>
-</td>
-<td align="left" width="63%">
-Sends attachment data to the remote host.
-
-</td>
-</tr>
-</table>
+The <b>IWSDOutboundAttachment</b> interface inherits from <a href="/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdattachment">IWSDAttachment</a>. <b>IWSDOutboundAttachment</b> also has these types of members:
 
 ## -see-also
 

@@ -58,69 +58,7 @@ Provides
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsIscsiPortal</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsIscsiPortal</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVdsIscsiPortal</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportal-getipsecsecurity">GetIpsecSecurity</a>
-</td>
-<td align="left" width="63%">
-This method is reserved for future use.</p> (Inherited from <b>IVdsIscsiPortal</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportal-getproperties">GetProperties</a>
-</td>
-<td align="left" width="63%">
-Returns the properties of a portal.</p> (Inherited from <b>IVdsIscsiPortal</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportal-getsubsystem">GetSubSystem</a>
-</td>
-<td align="left" width="63%">
-Returns the subsystem to which the portal belongs.</p> (Inherited from <b>IVdsIscsiPortal</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportal-queryassociatedportalgroups">QueryAssociatedPortalGroups</a>
-</td>
-<td align="left" width="63%">
-Returns an enumeration of the portal groups with which the portal is associated.</p> (Inherited from <b>IVdsIscsiPortal</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportal-setipsecsecurity">SetIpsecSecurity</a>
-</td>
-<td align="left" width="63%">
-This method is reserved for future use.</p> (Inherited from <b>IVdsIscsiPortal</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportal-setipsectunneladdress">SetIpsecTunnelAddress</a>
-</td>
-<td align="left" width="63%">
-This method is reserved for future use.</p> (Inherited from <b>IVdsIscsiPortal</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportal-setstatus">SetStatus</a>
-</td>
-<td align="left" width="63%">
-Sets the status of a portal to the specified value.</p> (Inherited from <b>IVdsIscsiPortal</b>)</td>
-</tr>
-</table>
+The <b>IVdsIscsiPortal</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsIscsiPortal</b> also has these types of members:
 
 ## -see-also
 

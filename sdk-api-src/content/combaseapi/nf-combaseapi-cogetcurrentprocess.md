@@ -56,7 +56,7 @@ api_name:
 
 Returns a value that is unique to the current thread. <b>CoGetCurrentProcess</b> can be used to avoid thread ID reuse problems.
 
-## -parameters
+
 
 ## -returns
 

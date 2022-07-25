@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreatePoint
-title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
+title: IPropertyValueStatics::CreatePoint (windows.foundation.h)
 description: Creates a new IPropertyValue object that contains the specified Point value.
 helpviewer_keywords: ["CreatePoint","CreatePoint method [Windows Runtime]","CreatePoint method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreatePoint method","IPropertyValueStatics.CreatePoint","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreatePoint","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreatePoint","winrt.ipropertyvaluefactory_createpoint","winrt.ipropertyvaluestatics_createpoint"]
 old-location: winrt\ipropertyvaluestatics_createpoint.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValueStatics.CreatePoint
 ---
 
-# IPropertyValueStatics::IPropertyValueStatics
+# IPropertyValueStatics::CreatePoint (windows.foundation.h)
 
 
 ## -description
@@ -70,7 +70,7 @@ A pointer to a new object that contains <i>value</i>. Use the <a href="/windows/
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

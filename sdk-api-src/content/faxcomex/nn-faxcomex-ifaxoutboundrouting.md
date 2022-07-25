@@ -54,38 +54,7 @@ The <b>IFaxOutboundRouting</b> interface defines a configuration object that is 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutboundRouting</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxOutboundRouting</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IFaxOutboundRouting</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxoutboundrouting-getgroups">GetGroups</a>
-</td>
-<td align="left" width="63%">
-The <a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxoutboundrouting-getgroups">IFaxOutboundRouting::GetGroups</a> method retrieves an interface that represents a collection of outbound routing groups.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxoutboundrouting-getrules">GetRules</a>
-</td>
-<td align="left" width="63%">
-The <a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxoutboundrouting-getrules">IFaxOutboundRouting::GetRules</a> method retrieves an interface that represents a collection of outbound routing groups.
-
-</td>
-</tr>
-</table>
+The <b>IFaxOutboundRouting</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxOutboundRouting</b> also has these types of members:
 
 ## -remarks
 

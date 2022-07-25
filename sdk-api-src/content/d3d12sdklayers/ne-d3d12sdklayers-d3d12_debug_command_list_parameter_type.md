@@ -54,7 +54,7 @@ Indicates the debug parameter type used by <a href="/windows/desktop/api/d3d12sd
 
 ## -enum-fields
 
-### -field D3D12_DEBUG_COMMAND_LIST_PARAMETER_GPU_BASED_VALIDATION_SETTINGS
+### -field D3D12_DEBUG_COMMAND_LIST_PARAMETER_GPU_BASED_VALIDATION_SETTINGS:0
 
 Indicates the parameter is type <a href="/windows/desktop/api/d3d12sdklayers/ns-d3d12sdklayers-d3d12_debug_command_list_gpu_based_validation_settings">D3D12_DEBUG_COMMAND_LIST_GPU_BASED_VALIDATION_SETTINGS</a>.
 

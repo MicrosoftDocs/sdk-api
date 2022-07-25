@@ -58,7 +58,7 @@ Defines the set of valid flags for a drive letter.
 
 ## -enum-fields
 
-### -field VDS_DLF_NON_PERSISTENT
+### -field VDS_DLF_NON_PERSISTENT:0x1
 
 If set, the drive letter disappears after the computer reboots.
 

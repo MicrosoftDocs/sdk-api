@@ -54,7 +54,7 @@ api_name:
 
 The <b>joyGetNumDevs</b> function queries the joystick driver for the number of joysticks it supports.
 
-## -parameters
+
 
 ## -returns
 

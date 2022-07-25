@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the current rendering priority of the device.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,11 +54,11 @@ The <b>wglShareLists</b> function enables multiple OpenGL rendering contexts to 
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Specifies the OpenGL rendering context with which to share display lists.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies the OpenGL rendering context to share display lists with <i>hglrc1</i>. The <i>hglrc2</i> parameter should not contain any existing display lists when <b>wglShareLists</b> is called.
 

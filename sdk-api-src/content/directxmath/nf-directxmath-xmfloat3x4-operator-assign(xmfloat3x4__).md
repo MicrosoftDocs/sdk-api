@@ -8,8 +8,8 @@ req.construct-type: function
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -47,7 +47,7 @@ Move assignment operator for **XMFLOAT3X4**. Moves the argument's vector compone
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Type: **XMFLOAT3X4 &&**
 

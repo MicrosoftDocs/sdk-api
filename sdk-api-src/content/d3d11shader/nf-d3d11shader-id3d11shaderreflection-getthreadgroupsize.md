@@ -79,7 +79,11 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 Returns the total size, in threads, of the thread-group grid by calculating the product of the size of each dimension.
 
 
-<pre class="syntax" xml:space="preserve"><code>*pSizeX * *pSizeY * *pSizeZ;</code></pre>
+
+``` syntax
+*pSizeX * *pSizeY * *pSizeZ;
+```
+
 
 ## -remarks
 

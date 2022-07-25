@@ -49,6 +49,8 @@ api_name:
 
 The <code>Close</code> method closes a DirectMusic "port", which is a DirectMusic term for a device that sends or receives music data.
 
+
+
 ## -returns
 
 <code>Close</code> returns S_OK if the call was successful. Otherwise, the method returns an appropriate error code. The following table shows some of the possible return status codes.

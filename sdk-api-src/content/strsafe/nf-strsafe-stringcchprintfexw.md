@@ -168,7 +168,7 @@ Type: <b>LPCTSTR</b>
 
 The format string. This string must be null-terminated. For more information, see <a href="/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">Format Specification Syntax</a>.
 
-### -param arg7 [in]
+### -param ...
 
 The Arguments to be inserted into the <i>pszFormat</i> string.
 
@@ -223,7 +223,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-Compared to  the functions it replaces, <b>StringCchPrintfEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchPrintfEx</b>always null-terminates a nonzero-length destination buffer.
+Compared to  the functions it replaces, <b>StringCchPrintfEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchPrintfEx</b> always null-terminates a nonzero-length destination buffer.
 
 Behavior is undefined if the strings pointed to by <i>pszDest</i>, <i>pszFormat</i>, or any argument strings overlap.
 
@@ -277,3 +277,4 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>
 
 
 <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfexa">StringCchVPrintfEx</a>
+

@@ -57,47 +57,7 @@ For the VMR-9, use the <a href="/previous-versions/windows/desktop/api/vmr9/nn-v
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRImagePresenter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRImagePresenter</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVMRImagePresenter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrimagepresenter-presentimage">PresentImage</a>
-</td>
-<td align="left" width="63%">
-Called at precisely the moment this video frame should be presented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrimagepresenter-startpresenting">StartPresenting</a>
-</td>
-<td align="left" width="63%">
-Called just before the video starts playing.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrimagepresenter-stoppresenting">StopPresenting</a>
-</td>
-<td align="left" width="63%">
-Called just after the video stops playing.
-
-</td>
-</tr>
-</table>
+The <b>IVMRImagePresenter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRImagePresenter</b> also has these types of members:
 
 ## -see-also
 

@@ -58,56 +58,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumSTATSTG</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumSTATSTG</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IEnumSTATSTG</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ienumstatstg-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a new enumerator that contains the same enumeration state as the current <a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ienumstatstg-next">Next</a>
-</td>
-<td align="left" width="63%">
-Gets a specified number of <a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ienumstatstg-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumeration sequence to the beginning of the <a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure array.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ienumstatstg-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips a specified number of <a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures in the enumeration sequence.
-
-</td>
-</tr>
-</table>
+The <b>IEnumSTATSTG</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumSTATSTG</b> also has these types of members:
 
 ## -see-also
 

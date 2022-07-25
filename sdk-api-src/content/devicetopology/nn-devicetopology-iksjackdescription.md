@@ -56,38 +56,7 @@ Most Windows audio adapter drivers support the Windows Driver Model (WDM) and us
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsJackDescription</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsJackDescription</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IKsJackDescription</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription-getjackcount">GetJackCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of jacks required to connect to an endpoint device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription-getjackdescription">GetJackDescription</a>
-</td>
-<td align="left" width="63%">
-Gets a description of an audio jack.
-
-</td>
-</tr>
-</table>
+The <b>IKsJackDescription</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsJackDescription</b> also has these types of members:
 
 ## -remarks
 

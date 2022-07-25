@@ -54,29 +54,7 @@ Provides a method that enables the credential provider framework to determine wh
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICredentialProviderCredentialWithFieldOptions</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICredentialProviderCredentialWithFieldOptions</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ICredentialProviderCredentialWithFieldOptions</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialwithfieldoptions-getfieldoptions">GetFieldOptions</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current option set for a specified field in a logon or credential UI. Called by the credential provider framework.
-
-</td>
-</tr>
-</table>
+The <b>ICredentialProviderCredentialWithFieldOptions</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICredentialProviderCredentialWithFieldOptions</b> also has these types of members:
 
 ## -remarks
 

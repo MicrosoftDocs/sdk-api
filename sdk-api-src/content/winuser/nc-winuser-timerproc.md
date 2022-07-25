@@ -55,25 +55,25 @@ An application-defined callback function that processes <a href="/windows/deskto
 
 ## -parameters
 
-### -param Arg1
+### -param hWnd
 
 Type: <b>HWND</b>
 
 A handle to the window associated with the timer.
 
-### -param Arg2
+### -param uMsg
 
 Type: <b>UINT</b>
 
 The <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message.
 
-### -param Arg3
+### -param nIDEvent
 
 Type: <b>UINT_PTR</b>
 
 The timer's identifier.
 
-### -param Arg4
+### -param dwTime
 
 Type: <b>DWORD</b>
 

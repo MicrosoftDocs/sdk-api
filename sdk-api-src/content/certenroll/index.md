@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Security and Identity. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [Mobile Device Management Settings Provider](../_mdmsettingsprov/index.md)
 - [Security and Identity](../_security/index.md)
 

@@ -56,56 +56,7 @@ To get a pointer to this interface, call <a href="/windows/desktop/api/dxva2api/
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectXVideoDecoderService</b> interface inherits from <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoaccelerationservice">IDirectXVideoAccelerationService</a>. <b>IDirectXVideoDecoderService</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDirectXVideoDecoderService</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoderservice-createvideodecoder">CreateVideoDecoder</a>
-</td>
-<td align="left" width="63%">
-Creates a video decoder device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoderservice-getdecoderconfigurations">GetDecoderConfigurations</a>
-</td>
-<td align="left" width="63%">
-Retrieves the configurations that are available for a decoder device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoderservice-getdecoderdeviceguids">GetDecoderDeviceGuids</a>
-</td>
-<td align="left" width="63%">
-Retrieves an array of GUIDs that identifies the decoder devices supported by the graphics hardware.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoderservice-getdecoderrendertargets">GetDecoderRenderTargets</a>
-</td>
-<td align="left" width="63%">
-Retrieves the supported render targets for a specified decoder device.
-
-</td>
-</tr>
-</table>
+The <b>IDirectXVideoDecoderService</b> interface inherits from <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoaccelerationservice">IDirectXVideoAccelerationService</a>. <b>IDirectXVideoDecoderService</b> also has these types of members:
 
 ## -see-also
 

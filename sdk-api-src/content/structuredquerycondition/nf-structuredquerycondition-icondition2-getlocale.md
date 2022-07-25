@@ -64,7 +64,7 @@ Receives the name of the locale of the leaf condition as a Unicode string. This 
 
 Type: <b>HRESULT</b>
 
-                    Returns S_OK if successful, E_FAIL if this is not a leaf node, or an error value otherwise.
+Returns S_OK if successful, E_FAIL if this is not a leaf node, or an error value otherwise.
 
 ## -see-also
 

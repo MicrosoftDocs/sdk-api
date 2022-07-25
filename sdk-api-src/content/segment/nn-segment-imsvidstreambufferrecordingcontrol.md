@@ -63,92 +63,10 @@ The <b>IMSVidStreamBufferRecordingControl</b> interface enables an application t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferRecordingControl</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMSVidStreamBufferRecordingControl</b> also has these types of members:
+The <b>IMSVidStreamBufferRecordingControl</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMSVidStreamBufferRecordingControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMSVidStreamBufferRecordingControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambufferrecordingcontrol-get_recordingattribute">get_RecordingAttribute</a>
-</td>
-<td align="left" width="63%">
-Retrieves the recording object that is controlled by this interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambufferrecordingcontrol-get_recordingstarted">get_RecordingStarted</a>
-</td>
-<td align="left" width="63%">
-Queries whether the recording has started.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambufferrecordingcontrol-get_recordingstopped">get_RecordingStopped</a>
-</td>
-<td align="left" width="63%">
-Queries whether the recording has stopped.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambufferrecordingcontrol-get_recordingtype">get_RecordingType</a>
-</td>
-<td align="left" width="63%">
-Retrieves the type of recording, either content recording or reference recording.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambufferrecordingcontrol-get_starttime">get_StartTime</a>
-</td>
-<td align="left" width="63%">
-Retrieves the start time of the recording.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambufferrecordingcontrol-get_stoptime">get_StopTime</a>
-</td>
-<td align="left" width="63%">
-Retrieves the stop time of the recording.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambufferrecordingcontrol-put_starttime">put_StartTime</a>
-</td>
-<td align="left" width="63%">
-Sets the start time for the recording.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambufferrecordingcontrol-put_stoptime">put_StopTime</a>
-</td>
-<td align="left" width="63%">
-Sets the stop time for the recording.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

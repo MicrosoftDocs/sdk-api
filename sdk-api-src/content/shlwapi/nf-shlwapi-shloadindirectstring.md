@@ -87,7 +87,7 @@ Not used; set to <b>NULL</b>.
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -96,15 +96,27 @@ An indirect string can be provided in several forms, each of which has its own i
 			    
 
 <ul>
-<li><b>File name and resource ID</b><pre class="syntax" xml:space="preserve"><code>@filename,resource</code></pre>
+<li><b>File name and resource ID</b>
+``` syntax
+@filename,resource
+```
+
 The string is extracted from the file named, using the <i>resource</i> value as a locator. If the resource value is zero or greater, the number becomes the index of the string in the binary file. If the number is negative, it becomes a resource ID. The retrieved string is copied to the output buffer and the function returns S_OK.
 
 </li>
-<li><b>File name and resource ID with a version modifier</b><pre class="syntax" xml:space="preserve"><code>@filename,resource;v2</code></pre>
+<li><b>File name and resource ID with a version modifier</b>
+``` syntax
+@filename,resource;v2
+```
+
 This form can be used when a resource is changed but still uses the same index or ID as the old resource. Without a version modifier, the Multilingual User Interface (MUI) cache will not recognize that the resource has changed and will not refresh. By appending the version modifier, the value is seen as a new resource and is added to the cache. Note that it is recommended that you use a new ID or index for a new resource, and use a version modifier only when that is not possible.
 
 </li>
-<li><b>PRI file path and resource ID</b><pre class="syntax" xml:space="preserve"><code>@{PRIFilepath?resource}</code></pre>
+<li><b>PRI file path and resource ID</b>
+``` syntax
+@{PRIFilepath?resource}
+```
+
 The Package Resource Index (PRI) is a binary format introduced in Windows 8 that contains indexed resources or references to resources. The .pri file is bundled as part of an app's package. For more information on .pri files, see <a href="/previous-versions/hh694557(v=vs.110)">Creating and retrieving resources in Windows Store apps</a>.
 
 The string is extracted from the .pri file named, using the <i>resource</i> as a locator. The retrieved string is copied to the output buffer and the function returns S_OK. The string is extracted based on the current Shell environment or <a href="/uwp/api/windows.applicationmodel.resources.core.resourcecontext">ResourceContext</a>.
@@ -123,7 +135,11 @@ An example of this type of indirect string is shown here.
 
 
 </li>
-<li><b>Package name and resource ID</b><pre class="syntax" xml:space="preserve"><code>@{PackageFullName?resource}</code></pre>
+<li><b>Package name and resource ID</b>
+``` syntax
+@{PackageFullName?resource}
+```
+
 The string is extracted from the Resources.pri file stored in the app's root directory of the package identified by <i>PackageFullName</i>, using the <i>resource</i> as a locator. The retrieved string is copied to the output buffer and the function returns S_OK. The string is extracted based on the app's environment or <a href="/uwp/api/windows.applicationmodel.resources.core.resourcecontext">ResourceContext</a>.
 
 <div class="alert"><b>Note</b>  This string must refer to a package installed for the current user. If it does not, the call will fail.</div>

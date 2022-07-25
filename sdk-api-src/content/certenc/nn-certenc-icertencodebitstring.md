@@ -60,53 +60,5 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertEncodeBitString</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertEncodeBitString</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ICertEncodeBitString</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertEncodeBitString</b> also has these types of members:
 
-## -members
-
-The <b>ICertEncodeBitString</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenc/nf-certenc-icertencodebitstring-decode">Decode</a>
-</td>
-<td align="left" width="63%">
-Decodes an <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1)-encoded bit string and stores the resulting bit string in the COM object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenc/nf-certenc-icertencodebitstring-encode">Encode</a>
-</td>
-<td align="left" width="63%">
-Performs ASN.1 encoding on a bit string and returns the ASN.1-encoded bit string.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenc/nf-certenc-icertencodebitstring-getbitcount">GetBitCount</a>
-</td>
-<td align="left" width="63%">
-Returns the number of bits in a bit string.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenc/nf-certenc-icertencodebitstring-getbitstring">GetBitString</a>
-</td>
-<td align="left" width="63%">
-Returns the bit string.
-
-</td>
-</tr>
-</table>

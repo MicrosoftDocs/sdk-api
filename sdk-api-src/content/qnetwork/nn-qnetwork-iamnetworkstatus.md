@@ -54,83 +54,10 @@ The <code>IAMNetworkStatus</code> interface reports the quality of the network c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMNetworkStatus</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMNetworkStatus</b> also has these types of members:
+The <b>IAMNetworkStatus</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMNetworkStatus</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IAMNetworkStatus</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetworkstatus-get_bufferingcount">get_BufferingCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of times the network source has buffered the data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetworkstatus-get_bufferingprogress">get_BufferingProgress</a>
-</td>
-<td align="left" width="63%">
-Retrieves the buffering progress.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetworkstatus-get_isbroadcast">get_IsBroadcast</a>
-</td>
-<td align="left" width="63%">
-Retrieves a value indicating whether the current clip is a broadcast clip.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetworkstatus-get_lostpackets">get_LostPackets</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of lost packets.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetworkstatus-get_receivedpackets">get_ReceivedPackets</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of received packets.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetworkstatus-get_receptionquality">get_ReceptionQuality</a>
-</td>
-<td align="left" width="63%">
-Retrieves a value indicating the reception quality.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetworkstatus-get_recoveredpackets">get_RecoveredPackets</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of recovered packets.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

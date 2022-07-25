@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Hyper-V WMI Provider. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [DirectShow](../_dshow/index.md)
 - [Hyper-V WMI Provider](../_virtual/index.md)
 

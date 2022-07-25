@@ -60,7 +60,7 @@ The friendly name of the device.
 
 ### -field pUniqueDeviceName
 
-A string that uniquely identifes the device.
+A string that uniquely identifies the device.
 
 ### -field pManufacturerName
 

@@ -51,7 +51,7 @@ The <i>DdUnLock</i> callback function releases the lock held on the specified su
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_unlockdata">DD_UNLOCKDATA</a> structure that contains the information required to perform the lock release.
 

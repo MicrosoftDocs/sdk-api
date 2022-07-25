@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.operator-less-than~r1
-title: operator<
+title: operator< (less than)
 description: 
 tech.root: wmi
 helpviewer_keywords: ["operator<"]
@@ -34,8 +34,7 @@ dev_langs:
  - c++
 topic_type:
  - apiref
-api_type:
- - 
+api_type: 
 api_location:
  - chstring.h
 api_name:

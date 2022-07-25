@@ -2,7 +2,6 @@
 UID: NN:mfcontentdecryptionmodule.IMFContentDecryptionModule
 title: IMFContentDecryptionModule
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Represents a Content Decryption Module (CDM) for a DRM key system.
 tech.root: mf

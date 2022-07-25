@@ -52,7 +52,7 @@ api_name:
 
 The <b>IWCNDevice::Unadvise</b> method removes any callback previously set via <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>.
 
-## -parameters
+
 
 ## -returns
 

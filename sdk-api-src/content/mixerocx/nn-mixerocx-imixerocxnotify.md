@@ -55,47 +55,10 @@ The <code>IMixerOCXNotify</code> interface is implemented by clients and called 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMixerOCXNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMixerOCXNotify</b> also has these types of members:
+The <b>IMixerOCXNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMixerOCXNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMixerOCXNotify</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mixerocx/nf-mixerocx-imixerocxnotify-ondatachange">OnDataChange</a>
-</td>
-<td align="left" width="63%">
-Notifies the client when the video rectangle's aspect ratio or size, or the display palette, has changed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mixerocx/nf-mixerocx-imixerocxnotify-oninvalidaterect">OnInvalidateRect</a>
-</td>
-<td align="left" width="63%">
-Notifies the client that the video rectangle has been invalidated.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mixerocx/nf-mixerocx-imixerocxnotify-onstatuschange">OnStatusChange</a>
-</td>
-<td align="left" width="63%">
-Notifies the client that a status change has occurred.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

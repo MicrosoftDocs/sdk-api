@@ -53,7 +53,7 @@ api_name:
 
 The <b>PathGradientBrush::GetGammaCorrection</b> method determines whether gamma correction is enabled for this path gradient brush.
 
-## -parameters
+
 
 ## -returns
 

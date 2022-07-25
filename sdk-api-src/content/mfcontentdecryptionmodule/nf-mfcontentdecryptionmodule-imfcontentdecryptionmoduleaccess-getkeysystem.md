@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleAccess.GetKeySystem
 title: IMFContentDecryptionModuleAccess::GetKeySystem
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Gets a string identifying the Key System being used by the Content Decryption Module (CDM).
 tech.root: mf

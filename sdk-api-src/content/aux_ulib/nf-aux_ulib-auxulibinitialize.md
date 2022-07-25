@@ -53,7 +53,7 @@ api_name:
 Initializes the Aux_ulib library. This function must be called before any
     other function in the library can be called.
 
-## -parameters
+
 
 ## -returns
 

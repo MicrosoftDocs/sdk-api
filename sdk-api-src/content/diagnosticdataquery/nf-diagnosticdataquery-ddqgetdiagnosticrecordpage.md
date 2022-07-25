@@ -3,12 +3,10 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticRecordPage
 title: DdqGetDiagnosticRecordPage
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticRecordPage
-ms.topic: language-reference
 description: Fetches a page (batch) of filtered records. The filtering on records returned is performed internally using the input parameters DIAGNOSTIC_DATA_SEARCH_CRITERIA searchCriteria, pageRecordCount, offset and baseRowId.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -31,7 +29,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - diagnosticdataquery.h
 api_name:

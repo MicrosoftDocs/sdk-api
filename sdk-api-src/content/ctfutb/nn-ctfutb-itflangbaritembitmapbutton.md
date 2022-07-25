@@ -56,74 +56,7 @@ The language bar manager obtains an instance of this interface by calling QueryI
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLangBarItemBitmapButton</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfLangBarItemBitmapButton</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfLangBarItemBitmapButton</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-drawbitmap">DrawBitmap</a>
-</td>
-<td align="left" width="63%">
-Obtains the bitmap and mask for the bitmap button item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-getpreferredsize">GetPreferredSize</a>
-</td>
-<td align="left" width="63%">
-Obtains the preferred size, in pixels, of the bitmap.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-gettext">GetText</a>
-</td>
-<td align="left" width="63%">
-Obtains the text to be displayed for the bitmap button in the language bar.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-initmenu">InitMenu</a>
-</td>
-<td align="left" width="63%">
-Called to enable a language bar bitmap button, that has the TF_LBI_STYLE_BTN_MENU style, to add items to the menu that the language bar will display for the button.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-onclick">OnClick</a>
-</td>
-<td align="left" width="63%">
-Called when the user clicks a language bar bitmap button that has the TF_LBI_STYLE_BTN_BUTTON or TF_LBI_STYLE_BTN_TOGGLE style.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-onmenuselect">OnMenuSelect</a>
-</td>
-<td align="left" width="63%">
-Called when the user selects an item in the menu that the language bar displays for the button.
-
-</td>
-</tr>
-</table>
+The <b>ITfLangBarItemBitmapButton</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfLangBarItemBitmapButton</b> also has these types of members:
 
 ## -remarks
 

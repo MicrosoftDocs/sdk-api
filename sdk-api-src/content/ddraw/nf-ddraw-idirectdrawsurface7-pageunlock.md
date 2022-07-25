@@ -50,7 +50,7 @@ Unlocks a system-memory surface, which then allows it to be paged out.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Currently not used and must be set to 0.
 

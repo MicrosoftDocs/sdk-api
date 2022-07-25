@@ -55,65 +55,7 @@ Applications use the methods of the IDirect3DQuery9 interface to perform asynchr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DQuery9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DQuery9</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDirect3DQuery9</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata">GetData</a>
-</td>
-<td align="left" width="63%">
-Polls a queried resource to get the query state or a query result. For more information about queries, see <a href="/windows/desktop/direct3d9/queries">Queries (Direct3D 9)</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdatasize">GetDataSize</a>
-</td>
-<td align="left" width="63%">
-Gets the number of bytes in the query data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdevice">GetDevice</a>
-</td>
-<td align="left" width="63%">
-Gets the device that is being queried.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dquery9-gettype">GetType</a>
-</td>
-<td align="left" width="63%">
-Gets the query type.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dquery9-issue">Issue</a>
-</td>
-<td align="left" width="63%">
-Issue a query.
-
-</td>
-</tr>
-</table>
+The <b>IDirect3DQuery9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DQuery9</b> also has these types of members:
 
 ## -remarks
 

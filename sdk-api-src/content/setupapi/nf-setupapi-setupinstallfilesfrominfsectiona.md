@@ -122,7 +122,7 @@ If the source file is not a newer or equal version, the function notifies the ca
 
 
 
-The file version information that is used during version checks is specified in the <b>dwFileVersionMS </b>and <b>dwFileVersionLS</b> members of a 
+The file version information that is used during version checks is specified in the <b>dwFileVersionMS </b> and <b>dwFileVersionLS</b> members of a 
 <a href="/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure, as filled in by the Win32 version functions.
 
  If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.

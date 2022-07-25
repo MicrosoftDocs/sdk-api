@@ -56,29 +56,7 @@ The <a href="/windows/desktop/medfound/sink-writer">Sink Writer</a> implements t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSinkWriterEx</b> interface inherits from <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a>. <b>IMFSinkWriterEx</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFSinkWriterEx</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriterex-gettransformforstream">GetTransformForStream</a>
-</td>
-<td align="left" width="63%">
-Gets a pointer to a Media Foundation transform (MFT) for a specified stream.
-
-</td>
-</tr>
-</table>
+The <b>IMFSinkWriterEx</b> interface inherits from <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a>. <b>IMFSinkWriterEx</b> also has these types of members:
 
 ## -see-also
 

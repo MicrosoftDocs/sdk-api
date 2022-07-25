@@ -59,7 +59,7 @@ the <a href="/windows/desktop/api/winuser/nf-winuser-setprocesswindowstation">Se
 
 ### -param lpszDesktop [in]
 
-The name of the desktop to be created. Desktop names are case-insensitive and may not contain backslash characters (\).
+The name of the desktop to be created. Desktop names are case-insensitive and may not contain backslash characters (\\).
 
 ### -param lpszDevice
 

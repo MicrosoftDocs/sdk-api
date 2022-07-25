@@ -88,7 +88,7 @@ If the method fails, it returns one of the other elements of the
 ## -remarks
 
 A 
-				<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object has a boundary path and a center point. When you fill an area with a path gradient brush, the color changes gradually as you move from the boundary path to the center point. By default, the color is linearly related to the distance, but you can customize the relationship between color and distance by calling the <b>PathGradientBrush::SetBlend</b> method.
+				<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object has a boundary path and a center point. When you fill an area with a path gradient brush, the color changes gradually as you move from the boundary path to the center point. By default, the color is linearly related to the distance, but you can customize the relationship between color and distance by calling the <b>PathGradientBrush::SetBlend</b> method.
 
 
 #### Examples
@@ -96,8 +96,8 @@ A
 
 
 The following example creates a 
-						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object based on an ellipse. The code calls the <b>PathGradientBrush::SetBlend</b> method of the 
-						<b>PathGradientBrush</b>object to establish a set of blend factors and blend positions for the brush. Then the code uses the path gradient brush to fill the ellipse.
+						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object based on an ellipse. The code calls the <b>PathGradientBrush::SetBlend</b> method of the 
+						<b>PathGradientBrush</b> object to establish a set of blend factors and blend positions for the brush. Then the code uses the path gradient brush to fill the ellipse.
 
 
 ```cpp

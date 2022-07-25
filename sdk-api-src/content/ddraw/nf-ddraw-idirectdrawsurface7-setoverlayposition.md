@@ -54,11 +54,11 @@ Changes the display coordinates of an overlay surface.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The new x- display coordinate of this surface.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 The new y-display coordinate of this surface.
 

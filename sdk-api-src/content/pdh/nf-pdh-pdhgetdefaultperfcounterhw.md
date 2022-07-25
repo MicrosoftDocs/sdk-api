@@ -64,9 +64,7 @@ This function is identical to
 
 Should be <b>NULL</b>. 
 
-
-
-					If you specify a log file handle, <i>szDefaultCounterName</i> will be a <b>null</b> string.
+If you specify a log file handle, <i>szDefaultCounterName</i> will be a <b>null</b> string.
 
 ### -param szMachineName [in]
 

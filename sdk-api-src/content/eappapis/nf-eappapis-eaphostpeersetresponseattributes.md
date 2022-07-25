@@ -77,13 +77,17 @@ returned from <b>EapHostPeerGetResponseAttributes</b>.
 
 The following example shows a  <b>EapHostPeerSetResponseAttributes</b> call that is made solely to progress to the next state in the state machine. 
 
-<pre class="syntax" xml:space="preserve"><code>EapHostPeerGetResponseAttributes(session_id, &amp;eapAttributes, ppEapError);
+
+``` syntax
+EapHostPeerGetResponseAttributes(session_id, &amp;eapAttributes, ppEapError);
 
 // overwrite attributes returned by EapHostPeerGetResponseAttributes
 EapAttributes eapAttributes={0,NULL};
 
 // progress to the next state in the state machine
-EapHostPeerSetResponseAttributes(session_id, &amp;eapAttributes, pEapOutput, ppEapError);</code></pre>
+EapHostPeerSetResponseAttributes(session_id, &amp;eapAttributes, pEapOutput, ppEapError);
+```
+
 
 ## -see-also
 

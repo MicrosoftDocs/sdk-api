@@ -56,74 +56,10 @@ The Stream Buffer <a href="/previous-versions/windows/desktop/mstv/reccomp-objec
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferRecComp</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamBufferRecComp</b> also has these types of members:
+The <b>IStreamBufferRecComp</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamBufferRecComp</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IStreamBufferRecComp</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferreccomp-append">Append</a>
-</td>
-<td align="left" width="63%">
-Appends an entire recording to the target file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferreccomp-appendex">AppendEx</a>
-</td>
-<td align="left" width="63%">
-Appends part of a recording to the target file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferreccomp-cancel">Cancel</a>
-</td>
-<td align="left" width="63%">
-Cancels an append operation, if one is in progress.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferreccomp-close">Close</a>
-</td>
-<td align="left" width="63%">
-Closes the target file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferreccomp-getcurrentlength">GetCurrentLength</a>
-</td>
-<td align="left" width="63%">
-Retrieves the length of the target file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferreccomp-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Sets the file name and the profile for the new recording.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

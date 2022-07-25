@@ -57,56 +57,7 @@ For the VMR-9, use the <a href="/previous-versions/windows/desktop/api/vmr9/nn-v
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRSurfaceAllocator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRSurfaceAllocator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVMRSurfaceAllocator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocator-advisenotify">AdviseNotify</a>
-</td>
-<td align="left" width="63%">
-Called by the VMR to provide the allocator-presenter with an interface pointer for notification callbacks.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocator-allocatesurface">AllocateSurface</a>
-</td>
-<td align="left" width="63%">
-Allocates a DirectDraw surface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocator-freesurface">FreeSurface</a>
-</td>
-<td align="left" width="63%">
-Frees the allocated DirectDraw surface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocator-preparesurface">PrepareSurface</a>
-</td>
-<td align="left" width="63%">
-Prepares the DirectDraw surface to have the next video frame decoded into it.
-
-</td>
-</tr>
-</table>
+The <b>IVMRSurfaceAllocator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRSurfaceAllocator</b> also has these types of members:
 
 ## -see-also
 

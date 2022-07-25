@@ -50,7 +50,7 @@ Initializes a DirectDraw object that was created by using the <a href="/windows/
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to the globally unique identifier (GUID) that this method uses as the DirectDraw interface identifier. 
 

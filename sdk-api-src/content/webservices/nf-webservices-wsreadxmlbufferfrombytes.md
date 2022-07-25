@@ -140,5 +140,5 @@ A quota was exceeded.
 The function will parse the entire contents according to the specified encoding and store it into a <a href="/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a>.
       
 
-The reader will be left in an undefined state after calling this function.  However, <b>WsReadXmlBufferFromBytes</b>may be used again with such a reader.  Otherwise, <a href="/windows/desktop/api/webservices/nf-webservices-wssetinput">WsSetInput</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wssetinputtobuffer">WsSetInputToBuffer</a> should be
+The reader will be left in an undefined state after calling this function.  However, <b>WsReadXmlBufferFromBytes</b> may be used again with such a reader.  Otherwise, <a href="/windows/desktop/api/webservices/nf-webservices-wssetinput">WsSetInput</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wssetinputtobuffer">WsSetInputToBuffer</a> should be
         used to bring the reader back to a known state, or the reader should be freed using <a href="/windows/desktop/api/webservices/nf-webservices-wsfreereader">WsFreeReader</a>.

@@ -54,55 +54,10 @@ Represents the drawing state of a render target: the antialiasing mode, transfor
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1DrawingStateBlock</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1DrawingStateBlock</b> also has these types of members:
+The <b>ID2D1DrawingStateBlock</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1DrawingStateBlock</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ID2D1DrawingStateBlock</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1drawingstateblock-getdescription">GetDescription</a>
-</td>
-<td align="left" width="63%">
-Retrieves the antialiasing mode, transform, and tags portion of the drawing state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1drawingstateblock-gettextrenderingparams">GetTextRenderingParams</a>
-</td>
-<td align="left" width="63%">
-Retrieves the text-rendering configuration of the drawing state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/Direct2D/id2d1drawingstateblock-setdescription">SetDescription</a>
-</td>
-<td align="left" width="63%">Overloaded. Specifies the antialiasing mode, transform, and tags portion of the drawing state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1drawingstateblock-settextrenderingparams">SetTextRenderingParams</a>
-</td>
-<td align="left" width="63%">
-Specifies the text-rendering configuration of the drawing state.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

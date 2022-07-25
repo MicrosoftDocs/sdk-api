@@ -69,7 +69,7 @@ A pointer to a handle of a CSP. When you have finished using the CSP, release th
 
 ### -param szContainer [in]
 
-The key container name. This is a null-terminated string that identifies the key container to the CSP. This name is independent of the method used to store the keys. Some CSPs store their key containers internally (in hardware), some use the system registry, and others use the file system. In most cases, when <i>dwFlags</i> is set to CRYPT_VERIFYCONTEXT, <i>pszContainer</i> must be set to <b>NULL</b>. However, for hardware-based CSPs, such as a smart card CSP, can be access publically available information in the specfied container.
+The key container name. This is a null-terminated string that identifies the key container to the CSP. This name is independent of the method used to store the keys. Some CSPs store their key containers internally (in hardware), some use the system registry, and others use the file system. In most cases, when <i>dwFlags</i> is set to CRYPT_VERIFYCONTEXT, <i>pszContainer</i> must be set to <b>NULL</b>. However, for hardware-based CSPs, such as a smart card CSP, can be access publicly available information in the specfied container.
 
 For more information about the usage of the <i>pszContainer</i> parameter, see Remarks.
 

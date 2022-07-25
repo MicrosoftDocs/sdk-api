@@ -72,6 +72,14 @@ Specifies the type of restrictions being requested on accessing the range. This 
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The specified range of bytes was locked.|
+|STG_E_INVALIDFUNCTION | Locking is not supported at all or the specific type of lock requested is not supported.|
+|STG_E_ACCESSDENIED | Access denied because the caller has insufficient permission, or another caller has the file open and locked.|
+|STG_E_LOCKVIOLATION | Access denied because another caller has the file open and locked.|
+|STG_E_INVALIDHANDLE | An underlying file has been prematurely closed, or the correct floppy disk has been replaced by an invalid one.|
+
 ## -remarks
 
 <b>ILockBytes::LockRegion</b> restricts access to the specified range of bytes. Once a region is locked, attempts by others to gain access to the restricted range must fail with the STG_E_ACCESSDENIED error.

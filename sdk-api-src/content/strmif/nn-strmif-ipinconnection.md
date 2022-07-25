@@ -57,56 +57,7 @@ This interface provides methods for reconnecting an input pin while the filter i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPinConnection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPinConnection</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPinConnection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ipinconnection-dynamicdisconnect">DynamicDisconnect</a>
-</td>
-<td align="left" width="63%">
-Disconnects the pin when the filter is running.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ipinconnection-dynamicqueryaccept">DynamicQueryAccept</a>
-</td>
-<td align="left" width="63%">
-Queries whether the pin can accept the specified media type while the graph is running with the current connection to this pin.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ipinconnection-isendpin">IsEndPin</a>
-</td>
-<td align="left" width="63%">
-Indicates whether a reconnection search should end at this pin.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ipinconnection-notifyendofstream">NotifyEndOfStream</a>
-</td>
-<td align="left" width="63%">
-Requests notification from the pin when the next end-of-stream condition occurs.
-
-</td>
-</tr>
-</table>
+The <b>IPinConnection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPinConnection</b> also has these types of members:
 
 ## -see-also
 

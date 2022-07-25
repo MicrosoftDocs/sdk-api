@@ -55,13 +55,13 @@ Retrieves information about a specified menu.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Type: <b>HMENU</b>
 
 A handle on a menu.
 
-### -param arg2 [in, out]
+### -param unnamedParam2 [in, out]
 
 Type: <b>LPMENUINFO</b>
 

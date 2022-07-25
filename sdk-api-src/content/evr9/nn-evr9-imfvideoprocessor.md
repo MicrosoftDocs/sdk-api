@@ -55,7 +55,7 @@ Controls video processing in the <a href="/windows/desktop/medfound/enhanced-vid
 
 The EVR mixer implements this interface. To get a pointer to the interface, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a>. The service identifier is GUID MR_VIDEO_MIXER_SERVICE. Call <b>GetService</b> on any of the following objects:
 <ul>
-<li>The media sesson (if the topology contains an instance of the EVR).
+<li>The media session (if the topology contains an instance of the EVR).
             </li>
 <li>The EVR media sink.
             </li>
@@ -67,128 +67,7 @@ The EVR mixer implements this interface. To get a pointer to the interface, call
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoProcessor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoProcessor</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFVideoProcessor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getavailablevideoprocessormodes">GetAvailableVideoProcessorModes</a>
-</td>
-<td align="left" width="63%">
-Retrieves the video processor modes that the video driver supports.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getbackgroundcolor">GetBackgroundColor</a>
-</td>
-<td align="left" width="63%">
-Retrieves the background color that is used for the composition rectangle.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getfilteringrange">GetFilteringRange</a>
-</td>
-<td align="left" width="63%">
-Retrieves the range of values for a specified image filter setting.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getfilteringvalue">GetFilteringValue</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current setting for an image filter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getprocamprange">GetProcAmpRange</a>
-</td>
-<td align="left" width="63%">
-Retrieves the range of values for a ProcAmp setting.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getprocampvalues">GetProcAmpValues</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current settings for one or more ProcAmp settings.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getvideoprocessorcaps">GetVideoProcessorCaps</a>
-</td>
-<td align="left" width="63%">
-Retrieves the capabilities of a video processor mode.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getvideoprocessormode">GetVideoProcessorMode</a>
-</td>
-<td align="left" width="63%">
-Retrieves the application's preferred video processor mode.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-setbackgroundcolor">SetBackgroundColor</a>
-</td>
-<td align="left" width="63%">
-Sets the background color for the composition rectangle.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-setfilteringvalue">SetFilteringValue</a>
-</td>
-<td align="left" width="63%">
-Sets a parameter for an image filter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-setprocampvalues">SetProcAmpValues</a>
-</td>
-<td align="left" width="63%">
-Sets one or more ProcAmp settings.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-setvideoprocessormode">SetVideoProcessorMode</a>
-</td>
-<td align="left" width="63%">
-Sets the preferred video processor mode.
-
-</td>
-</tr>
-</table>
+The <b>IMFVideoProcessor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoProcessor</b> also has these types of members:
 
 ## -remarks
 

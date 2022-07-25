@@ -60,53 +60,5 @@ Implementation should not block these calls because this may block other incomin
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSPlugin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSPlugin</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWTSPlugin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSPlugin</b> also has these types of members:
 
-## -members
-
-The <b>IWTSPlugin</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsplugin-connected">Connected</a>
-</td>
-<td align="left" width="63%">
-Notifies the plug-in that the Remote Desktop Connection (RDC) client has successfully connected to the RD Session Host server.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsplugin-disconnected">Disconnected</a>
-</td>
-<td align="left" width="63%">
-Notifies the plug-in that the Remote Desktop Connection (RDC) client has disconnected from the RD Session Host server.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsplugin-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Used for the first call that is made from the client to the plug-in.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsplugin-terminated">Terminated</a>
-</td>
-<td align="left" width="63%">
-Notifies the plug-in that the Remote Desktop Connection (RDC) client has terminated.
-
-</td>
-</tr>
-</table>

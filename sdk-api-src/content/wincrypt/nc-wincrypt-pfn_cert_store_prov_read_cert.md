@@ -69,7 +69,7 @@ A pointer to the
 
 Reserved for future use and is set to zero.
 
-### -param *ppProvCertContext [out]
+### -param ppProvCertContext [out]
 
 A pointer to a pointer to provider's copy of the <a href="/windows/desktop/SecGloss/c-gly">certificate context</a>. The context will be freed by calling 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>.

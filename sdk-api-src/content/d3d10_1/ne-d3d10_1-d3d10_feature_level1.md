@@ -54,23 +54,23 @@ The version of hardware acceleration requested.
 
 ## -enum-fields
 
-### -field D3D10_FEATURE_LEVEL_10_0
+### -field D3D10_FEATURE_LEVEL_10_0:0xa000
 
 The hardware supports Direct3D 10.0 features.
 
-### -field D3D10_FEATURE_LEVEL_10_1
+### -field D3D10_FEATURE_LEVEL_10_1:0xa100
 
 The hardware supports Direct3D 10.1 features.
 
-### -field D3D10_FEATURE_LEVEL_9_1
+### -field D3D10_FEATURE_LEVEL_9_1:0x9100
 
 The hardware supports 9.1 <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a>.
 
-### -field D3D10_FEATURE_LEVEL_9_2
+### -field D3D10_FEATURE_LEVEL_9_2:0x9200
 
 The hardware supports 9.2 <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a>.
 
-### -field D3D10_FEATURE_LEVEL_9_3
+### -field D3D10_FEATURE_LEVEL_9_3:0x9300
 
 The hardware supports 9.3 <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a>.
 

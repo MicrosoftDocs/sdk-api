@@ -53,7 +53,7 @@ api_name:
 
 Send queued-up commands in the command buffer to the GPU.
 
-## -parameters
+
 
 ## -remarks
 

@@ -100,7 +100,7 @@ The progress indicator turns yellow to show that progress is currently stopped i
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -150,7 +150,7 @@ In the case of a priority collision between two windows that are broadcasting de
 
 Based on this priority, the indeterminate progress indicator can be displayed in the taskbar button only in these cases:
                 
-                    <ul>
+<ul>
 <li>The taskbar button does not represent a group and the single window that it represents has set TBPF_INDETERMINATE.</li>
 <li>The taskbar button represents a group, only one window in that group is broadcasting progress information, and that window has set <b>TBPF_INDETERMINATE</b>.</li>
 <li>The taskbar button represents a group, multiple windows in that group are broadcasting progress information, and all of those windows have set <b>TBPF_INDETERMINATE</b>.</li>
@@ -159,7 +159,7 @@ Based on this priority, the indeterminate progress indicator can be displayed in
 
 A determinate progress indicator can be displayed in these cases:
                     
-                    <ul>
+<ul>
 <li>The taskbar button does not represent a group and the single window that it represents is broadcasting determinate progress information.</li>
 <li>The taskbar button represents a group, only one window in that group is broadcasting progress information, and that window is broadcasting determinate progress information.</li>
 <li>The taskbar button represents a group, multiple windows in that group are broadcasting progress information, at least one of those windows is broadcasting determinate progress information, and no window has set <b>TBPF_ERROR</b> or <b>TBPF_PAUSED</b>.</li>

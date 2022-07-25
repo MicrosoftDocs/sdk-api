@@ -50,7 +50,7 @@ Retrieves the status of the clip list if a window handle is associated with a Di
 
 ## -parameters
 
-### -param arg1 [out]
+### -param unnamedParam1 [out]
 
 A pointer to a variable that receives the status of the clip list. This parameter is TRUE if the clip list has changed, and FALSE otherwise.
 

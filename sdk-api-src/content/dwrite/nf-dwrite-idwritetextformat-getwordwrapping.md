@@ -52,7 +52,7 @@ api_name:
 
  Gets the word wrapping option.
 
-## -parameters
+
 
 ## -returns
 

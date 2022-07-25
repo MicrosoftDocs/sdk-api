@@ -59,7 +59,7 @@ api_name:
 
 The <b>MakeReverse</b> method reverses the order of the characters in a <a href="/windows/desktop/WmiSdk/chstring">CHString</a> string.
 
-## -parameters
+
 
 ## -returns
 

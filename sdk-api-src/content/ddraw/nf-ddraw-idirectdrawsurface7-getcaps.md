@@ -50,7 +50,7 @@ Retrieves the capabilities of this surface. These capabilities are not necessari
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to a <a href="/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure that receives the hardware capabilities of this surface.
 

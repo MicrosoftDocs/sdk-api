@@ -53,11 +53,11 @@ Retrieves the menu items that are registered in the IME menu of a specified inpu
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Handle to the input context for the specified menu items.
 
-### -param Arg2 [in]
+### -param unnamedParam2 [in]
 
 Flag specifying menu information options. The following value is defined.
 
@@ -78,7 +78,7 @@ Retrieve the menu items for the context menu, obtained by a right mouse click.
 </tr>
 </table>
 
-### -param Arg3 [in]
+### -param unnamedParam3 [in]
 
 Type of menu to retrieve. This parameter can have one or more of the following values.
 

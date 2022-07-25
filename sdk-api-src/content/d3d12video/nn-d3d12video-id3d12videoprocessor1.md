@@ -15,8 +15,8 @@ req.include-header:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.unicode-ansi: 
 f1_keywords:
@@ -36,15 +36,14 @@ api_name:
 
 ## -description
 
-Provides methods for getting information about the parameters to the call to [ID3D12VideoDevice2::CreateVideoProcessor1](nf-d3d12video-id3d12videodevice2-createvideoprocessor1) that created the video processor.
+Provides methods for getting information about the parameters to the call to [ID3D12VideoDevice2::CreateVideoProcessor1](nf-d3d12video-id3d12videodevice2-createvideoprocessor1.md) that created the video processor.
 
 ## -inheritance
 
-**ID3D12VideoProcessor1** inherits from [ID3D12VideoProcessor](nn-d3d12video-id3d12videoprocessor) and provides support for protected resources.
+**ID3D12VideoProcessor1** inherits from [ID3D12VideoProcessor](nn-d3d12video-id3d12videoprocessor.md) and provides support for protected resources.
 
 ## -remarks
 
 ## -see-also
 
-[ID3D12VideoProcessor](nn-d3d12video-id3d12videoprocessor)
-
+[ID3D12VideoProcessor](nn-d3d12video-id3d12videoprocessor.md)

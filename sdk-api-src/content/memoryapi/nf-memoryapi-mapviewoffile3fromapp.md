@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: WindowsApp.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -200,7 +200,7 @@ For a code example, see Scenario 1 in <a href="https://msdn.microsoft.com/en-us/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt832844(v=VS.85).aspx">MapViewOfFile3</a>
+<a href="../memoryapi/nf-memoryapi-mapviewoffile3.md">MapViewOfFile3</a>
 
 
 

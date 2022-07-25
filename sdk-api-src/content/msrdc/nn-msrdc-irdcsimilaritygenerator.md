@@ -54,38 +54,7 @@ Defines methods for enabling the signature generator to generate similarity data
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcSimilarityGenerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRdcSimilarityGenerator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IRdcSimilarityGenerator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcsimilaritygenerator-enablesimilarity">EnableSimilarity</a>
-</td>
-<td align="left" width="63%">
-Enables the signature generator to generate similarity data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcsimilaritygenerator-results">Results</a>
-</td>
-<td align="left" width="63%">
-Retrieves the similarity data that was generated for a file by the signature generator.
-
-</td>
-</tr>
-</table>
+The <b>IRdcSimilarityGenerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRdcSimilarityGenerator</b> also has these types of members:
 
 ## -see-also
 

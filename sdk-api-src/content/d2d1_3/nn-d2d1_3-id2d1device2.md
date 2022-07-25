@@ -56,44 +56,5 @@ Represents a resource domain whose objects and device contexts can be used toget
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Device2</b> interface inherits from <a href="/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1device1">ID2D1Device1</a>. <b>ID2D1Device2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID2D1Device2</b> interface inherits from <a href="/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1device1">ID2D1Device1</a>. <b>ID2D1Device2</b> also has these types of members:
 
-## -members
-
-The <b>ID2D1Device2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1device2-createdevicecontext">CreateDeviceContext</a>
-</td>
-<td align="left" width="63%">
-Creates a new <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a> from a Direct2D device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1device2-flushdevicecontexts">FlushDeviceContexts</a>
-</td>
-<td align="left" width="63%">
-Flush all device contexts that reference a given bitmap.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1device2-getdxgidevice">GetDxgiDevice</a>
-</td>
-<td align="left" width="63%">
-Returns the DXGI device associated with this Direct2D device.
-
-</td>
-</tr>
-</table>

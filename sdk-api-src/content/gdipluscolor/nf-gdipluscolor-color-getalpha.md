@@ -53,7 +53,7 @@ api_name:
 
 The <b>Color::GetAlpha</b> method gets the alpha component of this <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object.
 
-## -parameters
+
 
 ## -returns
 

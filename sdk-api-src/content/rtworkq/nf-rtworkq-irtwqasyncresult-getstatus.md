@@ -52,7 +52,7 @@ api_name:
 
 Returns the status of the asynchronous operation.
 
-## -parameters
+
 
 ## -returns
 

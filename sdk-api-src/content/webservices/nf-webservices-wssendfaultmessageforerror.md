@@ -78,7 +78,7 @@ The error code associated with the fault.  This cannot
                 
 
 This error code is never included in the fault message directly, but 
-                    instead is used as a fallback mechanism for creating an fault string in the case that
+                    instead is used as a fallback mechanism for creating a fault string in the case that
                     the <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object does not contain any error strings.
 
 ### -param faultDisclosure [in]
@@ -262,7 +262,7 @@ The value of the <a href="/windows/desktop/api/webservices/ne-webservices-ws_hea
                 version does not permit an action value for faults.
                 </li>
 <li>If the error object contains an action string (the
-                length of the string returned by <a href="/windows/desktop/api/webservices/ne-webservices-ws_fault_error_property_id">WS_FAULT_ERROR_PROPERTY_ACTION</a>is greater than zero), then the action string is used.
+                length of the string returned by <a href="/windows/desktop/api/webservices/ne-webservices-ws_fault_error_property_id">WS_FAULT_ERROR_PROPERTY_ACTION</a> is greater than zero), then the action string is used.
                 </li>
 <li>If the error object does not contain an action, then 
                 a default action value is supplied.
@@ -274,12 +274,12 @@ If the error object contains a header used to describe the
             
 
 The fault message will include correlation information as appropriate
-                to the <a href="/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION</a>.  See <a href="/windows/desktop/wsw/channel-layer-overview">Channel Layer Overview</a>for more information about correlating request reply messages.
+                to the <a href="/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION</a>.  See <a href="/windows/desktop/wsw/channel-layer-overview">Channel Layer Overview</a> for more information about correlating request reply messages.
             
 
 If sending a fault without a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object, use
                 <a href="/windows/desktop/api/webservices/nf-webservices-wssendreplymessage">WsSendReplyMessage</a>.
             
 
-To add custom headers to the message, initialize the message <a href="/windows/desktop/api/webservices/nf-webservices-wsinitializemessage">WsInitializeMessage</a>with <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_initialization">WS_FAULT_MESSAGE</a> and then add the headers using 
+To add custom headers to the message, initialize the message <a href="/windows/desktop/api/webservices/nf-webservices-wsinitializemessage">WsInitializeMessage</a> with <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_initialization">WS_FAULT_MESSAGE</a> and then add the headers using 
                 <a href="/windows/desktop/api/webservices/nf-webservices-wsaddcustomheader">WsAddCustomHeader</a> before calling this function.

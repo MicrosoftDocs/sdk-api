@@ -2,7 +2,6 @@
 UID: NF:sspi.SspiInitializeSecurityContextAsyncA
 title: SspiInitializeSecurityContextAsyncA function
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Initializes an async security context.
 tech.root: security
@@ -28,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - sspi.h
 api_name:
@@ -118,7 +116,7 @@ Returns **SEC_E_OK** if the async request to establish a security context was su
 
 If the security context received from the server was accepted, SspiGetAsyncCallStatus returns **SEC_E_OK** or one of the SSPI codes in the table below. Otherwise, it may return **SEC_I_ASYNC_CALL_PENDING** if the call is still in progress, or any of the following fatal error codes in the second table below.
 
-|<div style="width:40%">Return code</div>|<div style="width:60%">Description</div>|
+|<div>Return code</div>|<div>Description</div>|
 |---|---|
 |**SEC_I_COMPLETE_AND_CONTINUE**<br>0x00090314L| The client must call [CompleteAuthToken](/windows/desktop/api/sspi/nf-sspi-completeauthtoken) and pass the output token to the server. The client then waits for a returned token and passes it, in another call, to SspiInitializeSecurityContextAsyncA. |
 |**SEC_I_COMPLETE_NEEDED**<br>0x00090313L |  The client must finish building the message from the server before calling [CompleteAuthToken](/windows/desktop/api/sspi/nf-sspi-completeauthtoken).|
@@ -129,7 +127,7 @@ If the security context received from the server was accepted, SspiGetAsyncCallS
 
 ### Fatal error codes
 
-|<div style="width:40%">Return code</div>|<div style="width:60%">Description</div>|
+|<div>Return code</div>|<div>Description</div>|
 |---|---|
 |**SEC_E_INSUFFICIENT_MEMORY**<br>0x80090300L|There is not enough memory available to complete the requested action.|
 |**SEC_E_INTERNAL_ERROR**<br>0x80090304L| An error occurred that did not map to an SSPI error code.|

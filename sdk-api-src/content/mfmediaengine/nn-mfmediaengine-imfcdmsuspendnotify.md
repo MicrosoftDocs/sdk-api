@@ -54,38 +54,7 @@ Used to enable the client to notify the Content Decryption Module (CDM) when glo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCdmSuspendNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFCdmSuspendNotify</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFCdmSuspendNotify</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/medfound/imfcdmsuspendnotify-begin">Begin</a>
-</td>
-<td align="left" width="63%">
-Indicates that the suspend process is starting and  resources should be brought into a consistent state.  
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/medfound/imfcdmsuspendnotify-end">End</a>
-</td>
-<td align="left" width="63%">
-The actual suspend is about to occur and no more calls will be made into the Content Decryption Module (CDM).
-
-</td>
-</tr>
-</table>
+The <b>IMFCdmSuspendNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFCdmSuspendNotify</b> also has these types of members:
 
 ## -see-also
 

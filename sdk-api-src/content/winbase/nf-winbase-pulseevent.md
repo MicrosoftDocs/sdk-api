@@ -101,7 +101,7 @@ Note that for a thread using the multiple-object
 <a href="/windows/desktop/Sync/wait-functions">wait functions</a> to wait for all specified objects to be signaled, 
 <b>PulseEvent</b> can set the event object's state to signaled and reset it to nonsignaled without causing the wait function to return. This happens if not all of the specified objects are simultaneously signaled.
 
-Use extreme caution when using  [SignalObjectAndWait](/win32/api/synchapi/nf-synchapi-signalobjectandwait)  and <b>PulseEvent</b> with Windows 7, since using these APIs among multiple threads can cause an application to deadlock. Threads that are signaled by <b>SignalObjectAndWait</b>  call <b>PulseEvent</b> to signal the waiting object of the <b>SignalObjectAndWait</b> call. In some circumstances, the caller of <b>SignalObjectAndWait</b> can't receive signal state of the waiting object in time, causing a deadlock.
+Use extreme caution when using  [SignalObjectAndWait](/windows/win32/api/synchapi/nf-synchapi-signalobjectandwait)  and <b>PulseEvent</b> with Windows 7, since using these APIs among multiple threads can cause an application to deadlock. Threads that are signaled by <b>SignalObjectAndWait</b>  call <b>PulseEvent</b> to signal the waiting object of the <b>SignalObjectAndWait</b> call. In some circumstances, the caller of <b>SignalObjectAndWait</b> can't receive signal state of the waiting object in time, causing a deadlock.
 
 ## -see-also
 

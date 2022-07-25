@@ -50,7 +50,7 @@ Retrieves the status of the vertical blank.
 
 ## -parameters
 
-### -param arg1 [out]
+### -param unnamedParam1 [out]
 
 A pointer to a variable that receives the status of the vertical blank. This parameter is TRUE if a vertical blank is occurring, and FALSE otherwise.
 

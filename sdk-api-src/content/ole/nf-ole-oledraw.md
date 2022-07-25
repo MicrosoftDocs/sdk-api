@@ -57,23 +57,23 @@ Enables drawing objects more easily. You can use it instead of calling <a href="
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 TBD
 
-### -param arg2
+### -param unnamedParam2
 
 TBD
 
-### -param arg3
+### -param unnamedParam3
 
 TBD
 
-### -param arg4
+### -param unnamedParam4
 
 TBD
 
-### -param arg5
+### -param unnamedParam5
 
 TBD
 
@@ -191,7 +191,11 @@ The object doesn't support the <a href="/windows/desktop/api/oleidl/nn-oleidl-iv
 
 The OleDraw helper function calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method for the object specified (pUnk), asking for an <a href="/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a> interface on that object. Then, <b>OleDraw</b> converts the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure to a <a href="/previous-versions/dd162907(v=vs.85)">RECTL</a> structure, and calls <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a> as follows:
 
-<pre class="syntax" xml:space="preserve"><code>lpViewObj-&gt;Draw(dwAspect,-1,0,0,0,hdcDraw,&amp;rectl,0,0,0);</code></pre>
+
+``` syntax
+lpViewObj-&gt;Draw(dwAspect,-1,0,0,0,hdcDraw,&amp;rectl,0,0,0);
+```
+
 Do not use this function to draw into a metafile because it does not specify the parameter required for drawing into metafiles.
 
 ## -see-also

@@ -54,7 +54,7 @@ api_name:
 
 Determines whether the current user has sufficient privilege to write a power scheme.
 
-## -parameters
+
 
 ## -returns
 

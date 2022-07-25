@@ -54,38 +54,7 @@ Used to dynamically filter credential providers based on information available a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICredentialProviderFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICredentialProviderFilter</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ICredentialProviderFilter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialproviderfilter-filter">Filter</a>
-</td>
-<td align="left" width="63%">
-Evaluates whether a list of credential providers should be allowed to provide credential tiles.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialproviderfilter-updateremotecredential">UpdateRemoteCredential</a>
-</td>
-<td align="left" width="63%">
-Updates a credential from a remote session.
-
-</td>
-</tr>
-</table>
+The <b>ICredentialProviderFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICredentialProviderFilter</b> also has these types of members:
 
 ## -remarks
 

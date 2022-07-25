@@ -52,7 +52,7 @@ api_name:
 
 Stops a running audio stream.
 
-## -parameters
+
 
 ## -returns
 

@@ -56,74 +56,7 @@ To get a pointer to this interface, call <a href="/windows/desktop/api/mfapi/nf-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPluginControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFPluginControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFPluginControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfplugincontrol-getdisabledbyindex">GetDisabledByIndex</a>
-</td>
-<td align="left" width="63%">
-Gets a class identifier (CLSID) from the blocked list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfplugincontrol-getpreferredclsid">GetPreferredClsid</a>
-</td>
-<td align="left" width="63%">
-Searches the preferred list for a CLSID that matches a specified key name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfplugincontrol-getpreferredclsidbyindex">GetPreferredClsidByIndex</a>
-</td>
-<td align="left" width="63%">
-Gets a CLSID from the preferred list, specified by index value.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfplugincontrol-isdisabled">IsDisabled</a>
-</td>
-<td align="left" width="63%">
-Queries whether a CLSID appears in the blocked list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfplugincontrol-setdisabled">SetDisabled</a>
-</td>
-<td align="left" width="63%">
-Adds a CLSID to the blocked list or removes a CLSID from the list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfplugincontrol-setpreferredclsid">SetPreferredClsid</a>
-</td>
-<td align="left" width="63%">
-Adds a CLSID to the preferred list or removes a CLSID from the list.
-
-</td>
-</tr>
-</table>
+The <b>IMFPluginControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFPluginControl</b> also has these types of members:
 
 ## -remarks
 

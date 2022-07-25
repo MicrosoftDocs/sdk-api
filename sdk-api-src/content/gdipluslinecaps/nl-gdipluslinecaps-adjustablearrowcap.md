@@ -57,4 +57,4 @@ The <b>AdjustableArrowCap</b> class is a subclass of the <a href="/windows/deskt
 A line cap is the shape on the end of a line. Use the 
 				<a href="/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setcustomstartcap">Pen::SetCustomStartCap</a> and 
 				<a href="/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setcustomendcap">Pen::SetCustomEndCap</a> methods to associate an <b>AdjustableArrowCap</b> object with a 
-				<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>object.
+				<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.

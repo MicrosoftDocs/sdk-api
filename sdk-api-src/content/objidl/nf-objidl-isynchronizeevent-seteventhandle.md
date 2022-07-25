@@ -62,6 +62,12 @@ A pointer to the event handle.
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_FAIL, and S_OK.
 
+## -remarks
+
+If the method is successful,
+the object assumes ownership of the event handle,
+and the caller should not close the handle.
+
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-isynchronizeevent">ISynchronizeEvent</a>

@@ -54,47 +54,7 @@ Used by wizards such as the Web Publishing Wizard and Online Print Ordering Wiza
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWizardExtension</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWizardExtension</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWizardExtension</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iwizardextension-addpages">AddPages</a>
-</td>
-<td align="left" width="63%">
-Adds extension pages to the wizard by filling an array with handles to <a href="/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structures representing those pages.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iwizardextension-getfirstpage">GetFirstPage</a>
-</td>
-<td align="left" width="63%">
-Gets a handle to the first page of the wizard extension.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iwizardextension-getlastpage">GetLastPage</a>
-</td>
-<td align="left" width="63%">
-Gets a handle to the final page of the wizard extension pages.
-
-</td>
-</tr>
-</table>
+The <b>IWizardExtension</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWizardExtension</b> also has these types of members:
 
 ## -see-also
 

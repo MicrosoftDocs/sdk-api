@@ -55,75 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemHiPerfProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemHiPerfProvider</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWbemHiPerfProvider</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefreshableenum">CreateRefreshableEnum</a>
-</td>
-<td align="left" width="63%">
-Creates a refreshable enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefreshableobject">CreateRefreshableObject</a>
-</td>
-<td align="left" width="63%">
-Creates a refreshable instance object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefresher">CreateRefresher</a>
-</td>
-<td align="left" width="63%">
-Creates a refresher.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-getobjects">GetObjects</a>
-</td>
-<td align="left" width="63%">
-Retrieves the specified objects.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-queryinstances">QueryInstances</a>
-</td>
-<td align="left" width="63%">
-Returns instances of the specified class by using the supplied 
-<a href="/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-stoprefreshing">StopRefreshing</a>
-</td>
-<td align="left" width="63%">
-Stops refreshing an enumerator or instance object.
-
-</td>
-</tr>
-</table>
+The <b>IWbemHiPerfProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemHiPerfProvider</b> also has these types of members:
 
 ## -see-also
 

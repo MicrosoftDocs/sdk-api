@@ -53,7 +53,7 @@ api_name:
 
 Returns the type of the resource.
 
-## -parameters
+
 
 ## -returns
 

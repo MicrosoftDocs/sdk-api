@@ -272,7 +272,7 @@ This member is only valid when the <b>DhcpEnabled</b> member is nonzero.
 
 The 
 <b>IP_ADAPTER_INFO</b> structure is limited to IPv4 information about a particular network adapter on the local computer. The 
-<b>IP_ADAPTER_INFO</b> structure is retrieved by calling the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersinfo">GetAdaptersInfo</a>function.
+<b>IP_ADAPTER_INFO</b> structure is retrieved by calling the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersinfo">GetAdaptersInfo</a> function.
 
 When using Visual Studio 2005 and later, the <b>time_t</b> datatype defaults to an 8-byte datatype, not the 4-byte datatype used for the <b>LeaseObtained</b> and <b>LeaseExpires</b> members on a 32-bit platform. To properly use the <b>IP_ADAPTER_INFO</b> structure on a 32-bit platform, define <b>_USE_32BIT_TIME_T</b> (use <code>-D _USE_32BIT_TIME_T</code> as an option, for example) when compiling the application to force the <b>time_t</b> datatype to a 4-byte datatype.
 
@@ -339,7 +339,7 @@ int __cdecl main()
     if ((dwRetVal = GetAdaptersInfo(pAdapterInfo, &ulOutBufLen)) == NO_ERROR) {
         pAdapter = pAdapterInfo;
         while (pAdapter) {
-            printf("\tComboIndex: \t5d\n", pAdapter->ComboIndex);
+            printf("\tComboIndex: \t%d\n", pAdapter->ComboIndex);
             printf("\tAdapter Name: \t%s\n", pAdapter->AdapterName);
             printf("\tAdapter Desc: \t%s\n", pAdapter->Description);
             printf("\tAdapter Addr: \t");

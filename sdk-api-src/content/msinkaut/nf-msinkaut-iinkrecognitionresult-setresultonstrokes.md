@@ -53,7 +53,7 @@ api_name:
 
 Assigns the recognition results to the strokes that were used to create the results.
 
-## -parameters
+
 
 ## -returns
 

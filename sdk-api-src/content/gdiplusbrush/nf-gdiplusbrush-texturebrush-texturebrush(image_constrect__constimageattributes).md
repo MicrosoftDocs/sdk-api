@@ -81,7 +81,7 @@ The width and height of the
 <h3><a id="How_this_constructor_uses_the_______dstRect_rectangle_with_nonmetafile_images"></a><a id="how_this_constructor_uses_the_______dstrect_rectangle_with_nonmetafile_images"></a><a id="HOW_THIS_CONSTRUCTOR_USES_THE_______DSTRECT_RECTANGLE_WITH_NONMETAFILE_IMAGES"></a>How this constructor uses the 
 					dstRect rectangle with nonmetafile images</h3>
 If the dimensions of the 
-				<i>dstRect</i>rectangle are smaller than those of the image on which the brush is based, the brush's image is cropped — it is a portion of the image. If the dimensions of the 
+				<i>dstRect</i> rectangle are smaller than those of the image on which the brush is based, the brush's image is cropped — it is a portion of the image. If the dimensions of the 
 				<i>dstRect</i> rectangle are equal to those of the image, the brush's image is identical to the image. The 
 				<i>dstRect</i> rectangle must not include areas outside the dimensions of the image. Doing so will either produce unpredictable behavior or generate a run-time error. For example, suppose you have an image that is 256
 				×256 pixels and you create a <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush">TextureBrush</a> object based on this image, passing  as the 

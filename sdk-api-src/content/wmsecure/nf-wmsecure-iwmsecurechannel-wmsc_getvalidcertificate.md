@@ -67,11 +67,11 @@ The <b>WMSC_GetValidCertificate</b> method returns a copy of the certificate tha
 
 ### -param pdwSignature [out]
 
-<i>pdwSignature</i>can be 0xFFFFFFFF if no signature was used to validate the cert.
+<i>pdwSignature</i> can be 0xFFFFFFFF if no signature was used to validate the cert.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

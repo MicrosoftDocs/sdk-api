@@ -54,47 +54,7 @@ Use this interface to request file ranges for On Demand download jobs.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyFile6</b> interface inherits from <a href="/windows/desktop/api/bits5_0/nn-bits5_0-ibackgroundcopyfile5">IBackgroundCopyFile5</a>. <b>IBackgroundCopyFile6</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IBackgroundCopyFile6</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits10_1/nf-bits10_1-ibackgroundcopyfile6-getfilledfileranges">GetFilledFileRanges</a>
-</td>
-<td align="left" width="63%">
-Returns the set of file ranges that have been downloaded.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits10_1/nf-bits10_1-ibackgroundcopyfile6-requestfileranges">RequestFileRanges</a>
-</td>
-<td align="left" width="63%">
-Adds a new set of file ranges to be prioritized for download. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits10_1/nf-bits10_1-ibackgroundcopyfile6-updatedownloadposition">UpdateDownloadPosition</a>
-</td>
-<td align="left" width="63%">
-Specifies a position to prioritize downloading missing data from.  
-
-</td>
-</tr>
-</table>
+The <b>IBackgroundCopyFile6</b> interface inherits from <a href="/windows/desktop/api/bits5_0/nn-bits5_0-ibackgroundcopyfile5">IBackgroundCopyFile5</a>. <b>IBackgroundCopyFile6</b> also has these types of members:
 
 ## -remarks
 

@@ -41,7 +41,6 @@ topic_type:
 api_type:
  - <TBD>
 api_location:
- - 
 api_name:
  - GET_OPERATION_CONTEXT_PARAMS
 ---

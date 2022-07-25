@@ -2,7 +2,6 @@
 UID: NF:mdmregistration.RegisterDeviceWithManagementUsingAADDeviceCredentials
 title: RegisterDeviceWithManagementUsingAADDeviceCredentials
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Registers a device with a MDM service, using Azure Active Directory (AAD) device credentials.
 helpviewer_keywords: ["RegisterDeviceWithManagementUsingAADDeviceCredentials"]
@@ -45,6 +44,8 @@ dev_langs:
 ## -description
 
 Registers a device with a MDM service, using Azure Active Directory (AAD) device credentials.
+
+
 
 ## -returns
 

@@ -61,65 +61,7 @@ For the VMR-9, use the <a href="/previous-versions/windows/desktop/api/vmr9/nn-v
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRMonitorConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRMonitorConfig</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVMRMonitorConfig</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmonitorconfig-getavailablemonitors">GetAvailableMonitors</a>
-</td>
-<td align="left" width="63%">
-Retrieves information about the monitors currently available on the system.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmonitorconfig-getdefaultmonitor">GetDefaultMonitor</a>
-</td>
-<td align="left" width="63%">
-Retrieves the default monitor that all future instances of the VMR will use for video playback.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmonitorconfig-getmonitor">GetMonitor</a>
-</td>
-<td align="left" width="63%">
-Retrieves the monitor that this instance of the VMR is using for video playback.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmonitorconfig-setdefaultmonitor">SetDefaultMonitor</a>
-</td>
-<td align="left" width="63%">
-Specifies the default monitor that all future instances of the VMR should use for video playback.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmonitorconfig-setmonitor">SetMonitor</a>
-</td>
-<td align="left" width="63%">
-On a multi-monitor system, specifies the monitor that this instance of the VMR should use for video playback.
-
-</td>
-</tr>
-</table>
+The <b>IVMRMonitorConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRMonitorConfig</b> also has these types of members:
 
 ## -see-also
 

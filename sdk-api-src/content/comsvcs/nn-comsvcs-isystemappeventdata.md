@@ -54,38 +54,7 @@ Notifies the subscriber when a COM+ application instance is created or reconfigu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISystemAppEventData</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISystemAppEventData</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISystemAppEventData</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-isystemappeventdata-ondatachanged">OnDataChanged</a>
-</td>
-<td align="left" width="63%">
-Generated when the configuration of a COM+ application instance is changed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-isystemappeventdata-startup">Startup</a>
-</td>
-<td align="left" width="63%">
-Invoked when a COM+ application instance is created.
-
-</td>
-</tr>
-</table>
+The <b>ISystemAppEventData</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISystemAppEventData</b> also has these types of members:
 
 ## -see-also
 

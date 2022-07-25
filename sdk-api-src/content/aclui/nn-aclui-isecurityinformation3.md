@@ -54,38 +54,7 @@ The <b>ISecurityInformation3</b> interface provides methods necessary for displa
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityInformation3</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISecurityInformation3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISecurityInformation3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation3-getfullresourcename">GetFullResourceName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the full path and file name of the object associated with the access control editor that is displayed by calling the <a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation3-openelevatededitor">OpenElevatedEditor</a> function.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation3-openelevatededitor">OpenElevatedEditor</a>
-</td>
-<td align="left" width="63%">
-Opens an access control editor when a user clicks the <b>Edit</b> button on an access control editor page that displays an image of a shield on that <b>Edit</b> button.
-
-</td>
-</tr>
-</table>
+The <b>ISecurityInformation3</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISecurityInformation3</b> also has these types of members:
 
 ## -see-also
 

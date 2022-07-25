@@ -59,7 +59,7 @@ api_name:
 
 Retrieves the environment variables for the current process.
 
-## -parameters
+
 
 ## -returns
 
@@ -72,14 +72,14 @@ If the function fails, the return value is NULL.
 The 
 <b>GetEnvironmentStrings</b> function returns a pointer to a block of memory that contains the environment variables of the calling process (both the system and the user environment variables). Each environment block contains the environment variables in the following format:
 
-<i>Var1</i>
-<i>Value1</i>
-<i>Var2</i>
-<i>Value2</i>
-<i>Var3</i>
-<i>Value3</i>
-<i>VarN</i>
-<i>ValueN</i>
+*Var1*=*Value1*\0<br/>
+*Var2*=*Value2*\0<br/>
+*Var3*=*Value3*\0<br/>
+...<br/>
+*VarN*=*ValueN*\0\0
+
+The name of an environment variable cannot include an equal sign (=).
+
 Treat this memory as read-only; do not modify it directly. To add or change an environment variable, use the 
 <a href="/windows/desktop/api/winbase/nf-winbase-getenvironmentvariable">GetEnvironmentVariable</a> and 
 <a href="/windows/desktop/api/winbase/nf-winbase-setenvironmentvariable">SetEnvironmentVariable</a> functions.

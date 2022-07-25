@@ -4,7 +4,7 @@ title: CreateMutexExA function (synchapi.h)
 description: Creates or opens a named or unnamed mutex object and returns a handle to the object.
 helpviewer_keywords: ["CREATE_MUTEX_INITIAL_OWNER","CreateMutexEx","CreateMutexEx function","CreateMutexExA","CreateMutexExW","base.createmutexex","synchapi/CreateMutexEx","synchapi/CreateMutexExA","synchapi/CreateMutexExW","winbase/CreateMutexEx","winbase/CreateMutexExA","winbase/CreateMutexExW"]
 old-location: base\createmutexex.htm
-tech.root: backup
+tech.root: base
 ms.assetid: c22ec98a-29c0-444e-afa4-fa2ad131a086
 ms.date: 12/05/2018
 ms.keywords: CREATE_MUTEX_INITIAL_OWNER, CreateMutexEx, CreateMutexEx function, CreateMutexExA, CreateMutexExW, base.createmutexex, synchapi/CreateMutexEx, synchapi/CreateMutexExA, synchapi/CreateMutexExW, winbase/CreateMutexEx, winbase/CreateMutexExA, winbase/CreateMutexExW
@@ -85,7 +85,7 @@ If <i>lpName</i> is <b>NULL</b>, the mutex object is created without a name.
 If <i>lpName</i> matches the name of an existing event, semaphore, waitable timer, job, or file-mapping object, the function fails and the 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns <b>ERROR_INVALID_HANDLE</b>. This occurs because these objects share the same namespace.
 
-The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\). For more information, see 
+The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\\). For more information, see 
 <a href="/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>. Fast user switching is implemented using Terminal Services sessions. Kernel object names must follow the guidelines outlined for Terminal Services so that applications can support multiple users.
 
 The object can be created in a private namespace. For more information, see <a href="/windows/desktop/Sync/object-namespaces">Object Namespaces</a>.
@@ -123,8 +123,7 @@ If the function succeeds, the return value is a handle to the newly created mute
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-If the mutex is a named mutex and the object existed before this function call, the return value is a handle to the existing object, 
-[OpenMutex](./nf-synchapi-openmutexw.md) function.
+If the mutex is a named mutex and the object existed before this function call, the return value is a handle to the existing object, and the [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function returns **ERROR_ALREADY_EXISTS**.
 
 ## -remarks
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IOCTL_EMI_GET_MEASUREMENT","IOCTL_EMI_GET_MEASUREMENT con
 old-location: powermeter\ioctl_emi_get_measurement.htm
 tech.root: powermeter
 ms.assetid: E23B1ED2-A87D-419A-8BEB-136AA77258AE
-ms.date: 12/05/2018
+ms.date: 11/19/2021
 ms.keywords: IOCTL_EMI_GET_MEASUREMENT, IOCTL_EMI_GET_MEASUREMENT control, IOCTL_EMI_GET_MEASUREMENT control code [Power Metering and Budgeting Devices], emi/IOCTL_EMI_GET_MEASUREMENT, powermeter.ioctl_emi_get_measurement
 req.header: emi.h
 req.include-header: Emi.h
@@ -57,36 +57,62 @@ The <b>IOCTL_EMI_GET_MEASUREMENT</b>
 
 ### -input-buffer
 
-<text></text>
+
+<text> None. </text>
 
 ### -input-buffer-length
 
-<text></text>
+<text> None. </text>
 
 ### -output-buffer
 
-<text></text>
+<text> The  <b>AssociatedIrp.SystemBuffer</b> member specifies the address of a caller-allocated buffer that contains the measurement data from provider device driver. </text>
 
 ### -output-buffer-length
 
-<text></text>
+<text> The length of output buffer should be the size of [EMI_MEASUREMENT_DATA_V1](ns-emi-emi_channel_measurement_data.md) or [EMI_MEASUREMENT_DATA_V2](ns-emi-emi_measurement_data_v2.md) multiply by number of channels, it is specified in the <b> Parameters.DeviceIoControl.OutputBufferLength</b> member.  </text>
 
-### -in-out-buffer
-
-<text></text>
-
-### -inout-buffer-length
-
-<text></text>
 
 ### -status-block
 
-Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
+Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
-## -see-also
 
+### -remarks
+For EMI version 1 and 2, the EMI measurement data reported from each channel should be accumulated and translated to the unit specified by the channel on each request, as the EMI interface of any device should be shared across the system, therefore how freqeunt the counters are being sampled and accumulated depends on how often each of its consumer requests and also the driver implementation.
+
+
+For the EMI version 2, Multiple channels are exposed by the same device should be sampled at once on each request, hence the caller should use the <b> ChannelCount </b> in the [EMI_METADATA_V2](ns-emi-emi_metadata_v2.md) to traverse the channels, for example:
+
+```
+
+  status = DeviceIoControl(DeviceHandle,
+                           IOCTL_EMI_GET_MEASUREMENT,
+                           NULL,
+                           NULL,
+                           Data,
+                           ChannelDataSize,
+                           BytesReturned,
+                           NULL);
+
+  EMI_CHANNEL_V2* Channel = &MetaData->Channels[0];
+  for (int i = 0 ; i < MetaData->ChannelCount && status ; i++) {
+      
+      //
+      // Get energy measurement for each energy counter.
+      //
+
+      AbsoluteEnergy = Measurement->ChannelData[i].AbsoluteEnergy;
+      AbsoluteTime = Measurement->ChannelData[i].AbsoluteTime;
+  }
+
+```
+
+
+## -see-also
+[EMI_METADATA_V2](ns-emi-emi_metadata_v2.md) <br>
+[EMI_MEASUREMENT_DATA_V2](ns-emi-emi_measurement_data_v2.md) <br>
 <a href="/windows-hardware/drivers/powermeter/energy-meter-interface">Energy Metering Interface</a>

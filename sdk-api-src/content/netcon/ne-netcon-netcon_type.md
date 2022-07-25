@@ -59,11 +59,11 @@ The
 
 ## -enum-fields
 
-### -field NCT_DIRECT_CONNECT
+### -field NCT_DIRECT_CONNECT:0
 
 Direct serial connection through a serial port.
 
-### -field NCT_INBOUND
+### -field NCT_INBOUND:1
 
 Another computer dials in to the local computer through this connection.
 

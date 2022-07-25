@@ -53,7 +53,7 @@ api_name:
 
 Clear all messages from the message queue.
 
-## -parameters
+
 
 ## -see-also
 

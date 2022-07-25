@@ -55,7 +55,7 @@ Gets a pointer to the shader data.
 
 ## -parameters
 
-### -param arg1 [in, out]
+### -param unnamedParam1 [in, out]
 
 Type: <b>void*</b>
 

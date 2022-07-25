@@ -530,9 +530,9 @@ The following requirements must be met for such a call to succeed:
 <li>The caller must have administrative privileges. For more information, see 
        <a href="/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.</li>
 <li>The <i>dwCreationDisposition</i> parameter must have the 
-       <b>OPEN_EXISTING</b>flag.</li>
+      <b>OPEN_EXISTING</b> flag.</li>
 <li>When opening a volume or floppy disk, the <i>dwShareMode</i> parameter must have the 
-       <b>FILE_SHARE_WRITE</b>flag.</li>
+      <b>FILE_SHARE_WRITE</b> flag.</li>
 </ul>
 <div class="alert"><b>Note</b>  The <i>dwDesiredAccess</i> parameter can be zero, allowing the application to query 
       device attributes without accessing a device. This is useful for an application to determine the size of a 
@@ -572,7 +572,7 @@ For an example of opening a physical drive, see
 When opening a volume or removable media drive (for example, a floppy disk drive or flash memory thumb drive), 
       the <i>lpFileName</i> string should be the following form: 
       "\\.&#92;<i>X</i>:". Do not use a trailing backslash 
-      (\), which indicates the root directory of a drive. The following table shows some examples of drive strings.
+      (\\), which indicates the root directory of a drive. The following table shows some examples of drive strings.
 
 <table>
 <tr>
@@ -673,10 +673,10 @@ Use the CONOUT$ value to specify console output.
 CONIN$ gets a handle to the console input buffer, even if the 
          <a href="/windows/console/setstdhandle">SetStdHandle</a> function redirects the standard input 
          handle. To get the standard input handle, use the 
-         <a href="/windows/console/getstdhandle">GetStdHandle</a>function.
+         <a href="/windows/console/getstdhandle">GetStdHandle</a> function.
 
 CONOUT$ gets a handle to the active screen buffer, even if 
-         <a href="/windows/console/setstdhandle">SetStdHandle</a>redirects the standard output handle. To 
+         <a href="/windows/console/setstdhandle">SetStdHandle</a> redirects the standard output handle. To 
          get the standard output handle, use <a href="/windows/console/getstdhandle">GetStdHandle</a>.
 
 </td>
@@ -803,7 +803,7 @@ If <b>CreateFile2</b> opens the client end of a named pipe, the
       function uses any instance of the named pipe that is in the listening state. The opening process can duplicate 
       the handle as many times as required, but after it is opened, the named pipe instance cannot be opened by 
       another client. The access that is specified when a pipe is opened must be compatible with the access that is 
-      specified in the <i>dwOpenMode</i>parameter of the 
+      specified in the <i>dwOpenMode</i> parameter of the 
       <a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function.
 
 If the <a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function was not 

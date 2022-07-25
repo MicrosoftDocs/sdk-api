@@ -60,13 +60,13 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Specifies the remote access connection for which to retrieve the status. This handle must have been obtained from 
 <a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> or 
 <a href="/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a>.
 
-### -param arg2 [in, out]
+### -param unnamedParam2 [in, out]
 
 Pointer to the 
 <a href="/previous-versions/windows/desktop/legacy/aa376728(v=vs.85)">RASCONNSTATUS</a> structure that, on output, receives the status information. 

@@ -67,7 +67,7 @@ Passed from the call to <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certc
 
 Control action to be taken. Passed from the call to <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcontrolstore">CertControlStore</a>.
 
-### -param *pvCtrlPara [in, optional]
+### -param pvCtrlPara [in, optional]
 
 A pointer to a buffer whose structure and content is determined by the values of <i>dwFlags</i> and <i>dwCtrlType</i>. Passed from the call to <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcontrolstore">CertControlStore</a>.
 

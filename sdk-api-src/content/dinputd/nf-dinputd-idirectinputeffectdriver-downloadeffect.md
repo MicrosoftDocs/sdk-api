@@ -54,19 +54,19 @@ The <b>IDirectInputEffectDriver::DownloadEffect</b> method sends an effect to th
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Specifies the external joystick number being addressed.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies the <b>dwEffectId</b> member of the <a href="/windows/desktop/api/dinputd/ns-dinputd-dieffectattributes">DIEFFECTATTRIBUTES</a> structure associated with the effect the application is attempting to create. The DIEFFECTATTRIBUTES structure is stored in the registry under the corresponding effect registry key and can be any 32-bit value. DirectInput passes the 32-bit value to the driver with no interpretation.
 
-### -param arg3
+### -param unnamedParam3
 
-On entry, this parameter is a pointer to the handle of the effect being downloaded. If this parameter points to a zero, then a new effect is downloaded. On exit, this parameter is a pointer to a <b>DWORD </b>that contains the new effect handle. On failure, the <b>DWORD</b> pointed to by this parameter is set to zero if the effect is lost, or left alone if the effect is still valid with its old parameters. Note that zero is never a valid effect handle.
+On entry, this parameter is a pointer to the handle of the effect being downloaded. If this parameter points to a zero, then a new effect is downloaded. On exit, this parameter is a pointer to a <b>DWORD </b> that contains the new effect handle. On failure, the <b>DWORD</b> pointed to by this parameter is set to zero if the effect is lost, or left alone if the effect is still valid with its old parameters. Note that zero is never a valid effect handle.
 
-### -param arg4
+### -param unnamedParam4
 
 Points to a DIEFFECT structure that describes the new effect. The axis and button values have been converted to object identifiers, which consist of the following: 
 
@@ -110,7 +110,7 @@ For example, 0x02000104 = DIDFT_PSHBUTTON | DIDFT_MAKEINSTANCE(1) | other stuff
 
 This value indicates that the effect uses button 1.
 
-### -param arg5
+### -param unnamedParam5
 
 Specifies which portions of the effect information have changed from the effect already applied to the device. This information is passed to drivers to allow for the optimization of effect modification. If an effect is being modified, a driver may be able to update the effect in its original position and transmit to the device only the information that has changed. Drivers are not, however, required to implement this optimization. All members in the DIEFFECT structure pointed to by the <i>peff</i> parameter are valid, and a driver may choose simply to update all parameters of the effect at each download. (For information about the DIEFFECT structure, see the DirectInput section of the stand alone DirectX SDK.) 
 

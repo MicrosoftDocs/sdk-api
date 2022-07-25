@@ -55,26 +55,5 @@ Deprecated. <b>IShellService</b> Exposes one method that declares ownership when
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellService</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IShellService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellService</b> also has these types of members:
 
-## -members
-
-The <b>IShellService</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ishellservice-setowner">SetOwner</a>
-</td>
-<td align="left" width="63%">
-Deprecated. Declares an owner reference to the service object.
-
-</td>
-</tr>
-</table>

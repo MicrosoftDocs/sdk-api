@@ -64,7 +64,7 @@ Type: <b>HMODULE</b>
 
 A handle to a module to be searched. This handle must be obtained through <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> or <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>.
 					
-                    See Remarks for more information.
+See Remarks for more information.
 
 If this parameter is <b>NULL</b>, that is equivalent to passing in a handle to the module used to create the current process.
 

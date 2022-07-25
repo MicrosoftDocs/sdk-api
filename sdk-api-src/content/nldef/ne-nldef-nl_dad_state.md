@@ -65,7 +65,7 @@ The <b>IP_DAD_STATE</b> enumeration specifies information about the duplicate ad
 
 ### -field NldsPreferred
 
-### -field IpDadStateInvalid
+### -field IpDadStateInvalid:0
 
 The DAD state is invalid.
 

@@ -147,12 +147,16 @@ This method returns E_NOTIMPL.
 <td>
 This method parses the display name by binding to itself for <a href="/windows/desktop/api/oleidl/nn-oleidl-iparsedisplayname">IParseDisplayName</a> and asking the bound object to parse the display name into a moniker, as follows.
 
-<pre class="syntax" xml:space="preserve"><code>  hr = BindToObject(pbc, pmkToLeft, IID_IParseDisplayName, (void**)&amp;ppdn);
+
+``` syntax
+  hr = BindToObject(pbc, pmkToLeft, IID_IParseDisplayName, (void**)&amp;ppdn);
   if (SUCCEEDED(hr)) {
     hr = ppdn-&gt;ParseDisplayName(pbc, lpszDisplayName, pchEaten, ppmkOut);
     ppdn-&gt;Release();
   }
-  return hr;</code></pre>
+  return hr;
+```
+
 This method tries to acquire an <a href="/windows/desktop/api/oleidl/nn-oleidl-iparsedisplayname">IParseDisplayName</a> pointer, first by binding to the class factory for the object identified by the moniker and then by binding to the object itself. If either of these binding operations is successful, the file moniker passes the unparsed portion of the display name to the <a href="/windows/desktop/api/oleidl/nf-oleidl-iparsedisplayname-parsedisplayname">IParseDisplayName::ParseDisplayName</a> method.
 
 This method returns MK_E_SYNTAX if <i>pmkToLeft</i> is non-<b>NULL</b>.

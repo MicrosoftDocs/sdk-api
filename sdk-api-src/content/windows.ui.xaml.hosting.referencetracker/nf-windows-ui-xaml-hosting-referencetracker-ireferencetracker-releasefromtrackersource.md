@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.ReleaseFromTrackerSource
-title: IReferenceTracker::xaml (windows.ui.xaml.hosting.referencetracker.h)
+title: IReferenceTracker::ReleaseFromTrackerSource (windows.ui.xaml.hosting.referencetracker.h)
 description: Indicates each time that a tracker source calls IUnknown::Release on the reference tracker; must be called before the Release call.
 helpviewer_keywords: ["IReferenceTracker interface [Windows Runtime]","ReleaseFromTrackerSource method","IReferenceTracker.ReleaseFromTrackerSource","IReferenceTracker.xaml","IReferenceTracker::ReleaseFromTrackerSource","IReferenceTracker::xaml","ReleaseFromTrackerSource","ReleaseFromTrackerSource method [Windows Runtime]","ReleaseFromTrackerSource method [Windows Runtime]","IReferenceTracker interface","windows/IReferenceTracker::ReleaseFromTrackerSource","winrt.ireferencetracker_releasefromtrackersource"]
 old-location: winrt\ireferencetracker_releasefromtrackersource.htm
@@ -45,18 +45,18 @@ api_name:
  - IReferenceTracker.ReleaseFromTrackerSource
 ---
 
-# IReferenceTracker::xaml
+# IReferenceTracker::ReleaseFromTrackerSource (windows.ui.xaml.hosting.referencetracker.h)
 
 
 ## -description
 
 Indicates each time that a tracker source calls <b>IUnknown::Release</b> on the reference tracker; must be called before the <b>Release</b> call.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

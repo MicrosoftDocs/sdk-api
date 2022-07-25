@@ -72,7 +72,7 @@ The
 The 
 <b>htonl</b> function can be used to convert an IPv4 address in host byte order to the IPv4 address in network byte order. This function does not do any checking to determine if the <i>hostlong</i> parameter is a valid IPv4 address.
 
-The <b>htonl</b>function does not require that the Winsock DLL has previously been loaded with a successful 
+The <b>htonl</b> function does not require that the Winsock DLL has previously been loaded with a successful 
 call to the <a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> function.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

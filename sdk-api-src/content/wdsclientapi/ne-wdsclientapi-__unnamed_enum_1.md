@@ -54,7 +54,7 @@ This enumeration is used by the <a href="/windows/desktop/api/wdsclientapi/nf-wd
 
 ## -enum-fields
 
-### -field WDS_LOG_TYPE_CLIENT_ERROR
+### -field WDS_LOG_TYPE_CLIENT_ERROR:1
 
 A client error message.
 

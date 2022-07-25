@@ -71,7 +71,7 @@ If the function fails, the return value is an <b>HRESULT</b> that denotes the er
 
 ## -remarks
 
-GetThreadDescription is only available through [Run Time Dynamic Linking](/windows/win32/dlls/using-run-time-dynamic-linking) on Windows Server 2016, 1607.
+<b>Windows Server 2016</b>, <b>Windows 10 LTSB 2016</b> and <b>Windows 10 version 1607</b>: GetThreadDescription is only available by [Run Time Dynamic Linking](/windows/win32/dlls/using-run-time-dynamic-linking) in KernelBase.dll.
 
 The description for a thread can change at any time. For example, a different thread can change the description of a thread of interest while you try to retrieve that description.
 
@@ -89,7 +89,7 @@ The following example gets the description for a thread,  prints the description
 HRESULT hr = GetThreadDescription(ThreadHandle, &data);
 if (SUCCEEDED(hr))
 {   
-    wprintf(“%ls\m”, data);
+    wprintf(“%ls\n”, data);
     LocalFree(data);
 }
 ```

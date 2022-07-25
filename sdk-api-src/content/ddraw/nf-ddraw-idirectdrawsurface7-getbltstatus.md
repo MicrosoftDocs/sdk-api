@@ -50,7 +50,7 @@ Obtains status about a bit block transfer (bitblt) operation.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A value that can be set to one of the following flags.
 

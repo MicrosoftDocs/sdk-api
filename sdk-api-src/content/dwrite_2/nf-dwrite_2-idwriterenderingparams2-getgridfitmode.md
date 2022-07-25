@@ -52,7 +52,7 @@ api_name:
 
 Gets the grid fitting mode.
 
-## -parameters
+
 
 ## -returns
 

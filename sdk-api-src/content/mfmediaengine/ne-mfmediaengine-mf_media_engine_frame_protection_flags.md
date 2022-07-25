@@ -54,15 +54,15 @@ Specifies the content protection requirements for a video frame.
 
 ## -enum-fields
 
-### -field MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAG_PROTECTED
+### -field MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAG_PROTECTED:0x1
 
 The video frame should be protected.
 
-### -field MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAG_REQUIRES_SURFACE_PROTECTION
+### -field MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAG_REQUIRES_SURFACE_PROTECTION:0x2
 
 Direct3D surface protection must be applied to any surface that contains the frame.
 
-### -field MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAG_REQUIRES_ANTI_SCREEN_SCRAPE_PROTECTION
+### -field MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAG_REQUIRES_ANTI_SCREEN_SCRAPE_PROTECTION:0x4
 
 Direct3D anti-screen-scrape protection must be applied to any surface that contains the frame.
 

@@ -15,10 +15,11 @@ Overview of the Windows Update Agent API technology.
 
 To develop Windows Update Agent API, you need these headers:
 
- * [wuapi.h](../wuapi/index.md)
- * [wuapicommon.h](../wuapicommon/index.md)
+* [wuapi.h](../wuapi/index.md)
+* wuapicommon.h
 
 For programming guidance for this technology, see:
+
 * [Windows Update Agent API](/windows/desktop/Wua_Sdk/portal-client)
 * [Windows Update Agent (WUA) API Reference](/windows/desktop/Wua_Sdk/portal-client)
 * [Using the Windows Update Agent API](/windows/desktop/Wua_Sdk/portal-client)

@@ -51,51 +51,12 @@ api_name:
 ## -description
 
 <p class="CCE_Message">[Active Accessibility Text Services is deprecated. Please see     
-<a href="/windows/win32/tsf/text-services-framework">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="/windows/win32/tsf/text-services-framework">Microsoft Windows Text Services Framework</a> for more information on advanced text input and natural language technologies.
 		]
 
 Exposes methods that make documents accessible to client applications.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccServerDocMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccServerDocMgr</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAccServerDocMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccServerDocMgr</b> also has these types of members:
 
-## -members
-
-The <b>IAccServerDocMgr</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msaatext/nf-msaatext-iaccserverdocmgr-newdocument">NewDocument</a>
-</td>
-<td align="left" width="63%">
-Creates a wrapped document and registers it with the store.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msaatext/nf-msaatext-iaccserverdocmgr-ondocumentfocus">OnDocumentFocus</a>
-</td>
-<td align="left" width="63%">
-Notifies the Microsoft Active Accessibility run time when a document gets or loses focus.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msaatext/nf-msaatext-iaccserverdocmgr-revokedocument">RevokeDocument</a>
-</td>
-<td align="left" width="63%">
-Notifies the Microsoft Active Accessibility run time that a document is no longer available.
-
-</td>
-</tr>
-</table>

@@ -56,9 +56,9 @@ The <b>EnumICMProfilesProcCallback</b> callback is an application-defined callba
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
-### -param Arg2
+### -param unnamedParam2
 
 #### - lParam
 
@@ -73,19 +73,13 @@ Pointer to the file name of the color profile.
 
 This function must return a positive value to continue enumeration, or zero to stop enumeration. It may not return a negative value.
 
-## -see-also
-
-<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
-
-
-
-<a href="/windows/desktop/api/wingdi/nf-wingdi-enumicmprofilesa">EnumICMProfiles</a>
-
-
-
-<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>
-
 ## -remarks
 
 > [!NOTE]
 > The wingdi.h header defines ICMENUMPROC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
+## -see-also
+
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Functions](/windows/win32/wcs/functions)
+* [EnumICMProfilesW](/windows/win32/api/wingdi/nf-wingdi-enumicmprofilesw)

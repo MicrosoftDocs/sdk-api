@@ -52,7 +52,7 @@ api_name:
 
 Requests that the app commit all pending    Microsoft DirectComposition commands to the app's  <a href="/windows/desktop/directcomp/directcomposition-portal">DirectComposition</a> visual tree.
 
-## -parameters
+
 
 ## -returns
 

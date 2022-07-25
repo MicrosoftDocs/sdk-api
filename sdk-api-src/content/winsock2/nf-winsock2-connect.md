@@ -84,7 +84,7 @@ With a nonblocking socket, the connection attempt cannot be completed immediatel
 
 <ul>
 <li>Use the 
-<a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a> function to determine the completion of the connection request by checking to see if the socket is writeable.</li>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a> function to determine the completion of the connection request by checking to see if the socket is writable.</li>
 <li>If the application is using 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a> to indicate interest in connection events, then the application will receive an FD_CONNECT notification indicating that the 
 <b>connect</b> operation is complete (successfully or not).</li>
@@ -501,6 +501,10 @@ IrDA implements the connect function with addresses of the form sockaddr_irda. T
 
 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a>
+
+
+
+<a href="/windows/desktop/api/mswsock/nc-mswsock-lpfn_connectex">ConnectEx</a>
 
 
 

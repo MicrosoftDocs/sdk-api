@@ -54,55 +54,55 @@ The <b>DWRITE_PANOSE_SYMBOL_KIND</b> enumeration contains values that specify th
 
 ## -enum-fields
 
-### -field DWRITE_PANOSE_SYMBOL_KIND_ANY
+### -field DWRITE_PANOSE_SYMBOL_KIND_ANY:0
 
 Any kind of symbol set.
 
-### -field DWRITE_PANOSE_SYMBOL_KIND_NO_FIT
+### -field DWRITE_PANOSE_SYMBOL_KIND_NO_FIT:1
 
 No fit for the kind of symbol set.
 
-### -field DWRITE_PANOSE_SYMBOL_KIND_MONTAGES
+### -field DWRITE_PANOSE_SYMBOL_KIND_MONTAGES:2
 
 The kind of symbol set is montages.
 
-### -field DWRITE_PANOSE_SYMBOL_KIND_PICTURES
+### -field DWRITE_PANOSE_SYMBOL_KIND_PICTURES:3
 
 The kind of symbol set is pictures.
 
-### -field DWRITE_PANOSE_SYMBOL_KIND_SHAPES
+### -field DWRITE_PANOSE_SYMBOL_KIND_SHAPES:4
 
 The kind of symbol set is shapes.
 
-### -field DWRITE_PANOSE_SYMBOL_KIND_SCIENTIFIC
+### -field DWRITE_PANOSE_SYMBOL_KIND_SCIENTIFIC:5
 
 The kind of symbol set is scientific symbols.
 
-### -field DWRITE_PANOSE_SYMBOL_KIND_MUSIC
+### -field DWRITE_PANOSE_SYMBOL_KIND_MUSIC:6
 
 The kind of symbol set is music symbols.
 
-### -field DWRITE_PANOSE_SYMBOL_KIND_EXPERT
+### -field DWRITE_PANOSE_SYMBOL_KIND_EXPERT:7
 
 The kind of symbol set is expert symbols.
 
-### -field DWRITE_PANOSE_SYMBOL_KIND_PATTERNS
+### -field DWRITE_PANOSE_SYMBOL_KIND_PATTERNS:8
 
 The kind of symbol set is patterns.
 
-### -field DWRITE_PANOSE_SYMBOL_KIND_BOARDERS
+### -field DWRITE_PANOSE_SYMBOL_KIND_BOARDERS:9
 
 The kind of symbol set is boarders.
 
-### -field DWRITE_PANOSE_SYMBOL_KIND_ICONS
+### -field DWRITE_PANOSE_SYMBOL_KIND_ICONS:10
 
 The kind of symbol set is icons.
 
-### -field DWRITE_PANOSE_SYMBOL_KIND_LOGOS
+### -field DWRITE_PANOSE_SYMBOL_KIND_LOGOS:11
 
 The kind of symbol set is logos.
 
-### -field DWRITE_PANOSE_SYMBOL_KIND_INDUSTRY_SPECIFIC
+### -field DWRITE_PANOSE_SYMBOL_KIND_INDUSTRY_SPECIFIC:12
 
 The kind of symbol set is industry specific.
 

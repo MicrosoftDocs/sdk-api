@@ -84,17 +84,15 @@ The method succeeded.
 
 This method retrieves the base HTTP URL that is passed as the command parameter by the <b>ScriptCommand</b> event. The base URL is concatenated with the relative URL as follows:
 
-<ol>
-<li>A trailing forward slash (/) is added to the value retrieved by the <b>get_baseURL</b> method.</li>
-<li>A leading period, backward slash, or forward slash character (., \, and /) is deleted from the relative URL.</li>
-<li>The relative URL is added to the end of the base URL.</li>
-<li>All slash characters in the resulting fully qualified URL are pointed in the same direction (converted to forward or backward slashes) based on the direction of the first slash character encountered in the new URL.</li>
-</ol>
-<b>Note</b>
+1. A trailing forward slash (/) is added to the value retrieved by the <b>get_baseURL</b> method.
+1. A leading period, backward slash, or forward slash character (., \\, and /) is deleted from the relative URL.
+1. The relative URL is added to the end of the base URL.
+1. All slash characters in the resulting fully qualified URL are pointed in the same direction (converted to forward or backward slashes) based on the direction of the first slash character encountered in the new URL.
 
-The Windows Media Player control does not support the use of two periods (..) in the relative URL to indicate the parent of the current location.
+> [!NOTE]
+> The Windows Media Player control does not support the use of two periods (..) in the relative URL to indicate the parent of the current location.
 
-<b>Windows Media Player 10 Mobile: </b>This method always retrieves a <b>BSTR</b> containing an empty string.
+**Windows Media Player 10 Mobile:** This method always retrieves a `BSTR` containing an empty string.
 
 ## -see-also
 

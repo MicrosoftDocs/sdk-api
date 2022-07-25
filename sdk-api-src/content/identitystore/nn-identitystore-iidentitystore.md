@@ -55,74 +55,7 @@ provides methods to enumerate and manage identities and identity providers.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIdentityStore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIdentityStore</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IIdentityStore</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/identitystore/nf-identitystore-iidentitystore-addtocache">AddtoCache</a>
-</td>
-<td align="left" width="63%">
-Caches the specified identity in the registry.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/identitystore/nf-identitystore-iidentitystore-converttosid">ConvertToSid</a>
-</td>
-<td align="left" width="63%">
-Retrieves the <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) associated with the specified identity and identity provider.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/identitystore/nf-identitystore-iidentitystore-enumerateidentities">EnumerateIdentities</a>
-</td>
-<td align="left" width="63%">
-Gets a pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a> interface pointer that can be used to enumerate identities across identity providers.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/identitystore/nf-identitystore-iidentitystore-getat">GetAt</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <a href="/windows/desktop/api/identityprovider/nn-identityprovider-iidentityprovider">IIdentityProvider</a> interface pointer for the specified identity provider.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/identitystore/nf-identitystore-iidentitystore-getcount">GetCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of identity providers registered on the system.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/identitystore/nf-identitystore-iidentitystore-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Sets the current index of the identity enumeration to zero.
-
-</td>
-</tr>
-</table>
+The <b>IIdentityStore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIdentityStore</b> also has these types of members:
 
 ## -see-also
 

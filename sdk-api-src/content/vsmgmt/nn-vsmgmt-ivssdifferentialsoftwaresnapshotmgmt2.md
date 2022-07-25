@@ -60,57 +60,7 @@ To obtain an instance of the <b>IVssDifferentialSoftwareSnapshotMgmt2</b>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssDifferentialSoftwareSnapshotMgmt2</b> interface inherits from <a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt">IVssDifferentialSoftwareSnapshotMgmt</a>. <b>IVssDifferentialSoftwareSnapshotMgmt2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVssDifferentialSoftwareSnapshotMgmt2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2-changediffareamaximumsizeex">ChangeDiffAreaMaximumSizeEx</a>
-</td>
-<td align="left" width="63%">
-Updates the shadow copy storage area maximum size for a certain volume. This may not 
-    have an immediate effect. If the <i>bVolatile</i> parameter is <b>FALSE</b>, the change continues even if the computer is rebooted.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2-migratediffareas">MigrateDiffAreas</a>
-</td>
-<td align="left" width="63%">
-This method is reserved for future use.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2-querymigrationstatus">QueryMigrationStatus</a>
-</td>
-<td align="left" width="63%">
-This method is reserved for future use.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2-setsnapshotpriority">SetSnapshotPriority</a>
-</td>
-<td align="left" width="63%">
-This method is reserved for future use.
-
-</td>
-</tr>
-</table>
+The <b>IVssDifferentialSoftwareSnapshotMgmt2</b> interface inherits from <a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt">IVssDifferentialSoftwareSnapshotMgmt</a>. <b>IVssDifferentialSoftwareSnapshotMgmt2</b> also has these types of members:
 
 ## -see-also
 

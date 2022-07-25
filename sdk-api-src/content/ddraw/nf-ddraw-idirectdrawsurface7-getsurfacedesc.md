@@ -50,7 +50,7 @@ Retrieves a description of this surface in its current condition.
 
 ## -parameters
 
-### -param arg1 [in, out]
+### -param unnamedParam1 [in, out]
 
 A pointer to a <a href="/previous-versions/windows/hardware/drivers/ff550340(v=vs.85)">DDSURFACEDESC2</a> structure that receives the current description of this surface. You need only initialize this structure's <b>dwSize</b> member to the size, in bytes, of the structure prior to the call; no other preparation is required.
 

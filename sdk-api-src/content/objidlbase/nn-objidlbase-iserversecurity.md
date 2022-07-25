@@ -54,56 +54,7 @@ Used by a server to help authenticate the client and to manage impersonation of 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServerSecurity</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServerSecurity</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IServerSecurity</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-iserversecurity-impersonateclient">ImpersonateClient</a>
-</td>
-<td align="left" width="63%">
-Enables a server to impersonate a client for the duration of a call.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-iserversecurity-isimpersonating">IsImpersonating</a>
-</td>
-<td align="left" width="63%">
-Indicates whether the server is currently impersonating the client.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-iserversecurity-queryblanket">QueryBlanket</a>
-</td>
-<td align="left" width="63%">
-Retrieves information about the client that invoked one of the server's methods.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-iserversecurity-reverttoself">RevertToSelf</a>
-</td>
-<td align="left" width="63%">
-Restores the authentication information of a thread to what it was before impersonation began.
-
-</td>
-</tr>
-</table>
+The <b>IServerSecurity</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServerSecurity</b> also has these types of members:
 
 ## -see-also
 

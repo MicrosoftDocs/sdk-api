@@ -54,19 +54,19 @@ The different parameter types.
 
 ## -enum-fields
 
-### -field WS_PARAMETER_TYPE_NORMAL
+### -field WS_PARAMETER_TYPE_NORMAL:0
 
 Not an array type.
 
-### -field WS_PARAMETER_TYPE_ARRAY
+### -field WS_PARAMETER_TYPE_ARRAY:1
 
 An array type.
 
-### -field WS_PARAMETER_TYPE_ARRAY_COUNT
+### -field WS_PARAMETER_TYPE_ARRAY_COUNT:2
 
 The array count.
 
-### -field WS_PARAMETER_TYPE_MESSAGES
+### -field WS_PARAMETER_TYPE_MESSAGES:3
 
 Parameter is a WSDL message element.
 

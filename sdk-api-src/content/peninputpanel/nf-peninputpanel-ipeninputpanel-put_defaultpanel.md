@@ -85,7 +85,7 @@ If you re-attach the <a href="/windows/desktop/tablet/peninputpanel-class">PenIn
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846809(v=VS.85).aspx">IPenInputPanel</a>
+<a href="../peninputpanel/nn-peninputpanel-ipeninputpanel.md">IPenInputPanel</a>
 
 
 

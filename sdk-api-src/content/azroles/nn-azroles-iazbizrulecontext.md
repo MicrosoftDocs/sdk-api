@@ -54,70 +54,7 @@ The <b>AzBizRuleContext</b> object contains information about a Business Rule (B
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzBizRuleContext</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAzBizRuleContext</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
-
-## -members
-
-The <b>IAzBizRuleContext</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/azroles/nf-azroles-iazbizrulecontext-getparameter">GetParameter</a>
-</td>
-<td align="left" width="63%">
-Gets the specified value from the <i>varParameterValues</i> parameter of the <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">IAzClientContext::AccessCheck</a> method.
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzBizRuleContext</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="10%">Access type</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/azroles/nf-azroles-iazbizrulecontext-put_businessruleresult">BusinessRuleResult</a>
-
-
-</td>
-<td align="left" width="10%">
-Write-only
-
-</td>
-<td align="left" width="63%">
-Sets a value that indicates whether the BizRule allows the user to perform the requested task.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/azroles/nf-azroles-iazbizrulecontext-get_businessrulestring">BusinessRuleString</a>
-
-
-</td>
-<td align="left" width="10%">
-Read/write
-
-</td>
-<td align="left" width="63%">
-Sets or retrieves an application-specific string for the BizRule.
-
-</td>
-</tr>
-</table>
+The <b>IAzBizRuleContext</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAzBizRuleContext</b> also has these types of members:
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.recvfrom
 title: recvfrom function (winsock2.h)
-description: The recvfrom function receives a datagram and stores the source address.
+description: The recvfrom function receives a datagram, and stores the source address.
 helpviewer_keywords: ["_win32_recvfrom_2","recvfrom","recvfrom function [Winsock]","winsock.recvfrom_2","winsock/recvfrom"]
 old-location: winsock\recvfrom_2.htm
 tech.root: WinSock
@@ -45,13 +45,9 @@ api_name:
  - recvfrom
 ---
 
-# recvfrom function
-
-
 ## -description
 
-The 
-<b>recvfrom</b> function receives a datagram and stores the source address.
+The <b>recvfrom</b> function receives a datagram, and stores the source address.
 
 ## -parameters
 
@@ -73,8 +69,7 @@ A set of options that modify the behavior of the function call beyond the option
 
 ### -param from [out]
 
-An optional pointer to a buffer in a 
-<a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure that will hold the source address upon return.
+An optional pointer to a buffer in a <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure that will hold the source address upon return.
 
 ### -param fromlen [in, out, optional]
 
@@ -307,7 +302,7 @@ The <i>flags</i> parameter can be used to influence the behavior of the function
 </tr>
 <tr>
 <td>MSG_PEEK</td>
-<td>Peeks at the incoming data. The data is copied into the buffer but is not removed from the input queue. The function subsequently returns the amount of data that can be read in a single call to the <b>recvfrom</b> (or <a href="/windows/desktop/api/winsock/nf-winsock-recv">recv</a>) function, which may not be the same as the total amount of data queued on the socket.  The amount of data that can actually be read in a single call to the <b>recvfrom</b> (or <b>recv</b>) function is limited to the data size written in the <a href="/windows/desktop/api/winsock2/nf-winsock2-send">send</a> or <a href="/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a> function call.</td>
+<td>Peeks at the incoming data. The data is copied into the buffer but is not removed from the input queue.</td>
 </tr>
 <tr>
 <td>MSG_OOB</td>
@@ -404,10 +399,7 @@ int main()
     WSACleanup();
     return 0;
 }
-
-
 ```
-
 
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
@@ -417,30 +409,16 @@ int main()
 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
 
-
-
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaeventselect">WSAEventSelect</a>
-
-
 
 <a href="/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
-
-
 <a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
-
-
 
 <a href="/windows/desktop/api/winsock/nf-winsock-recv">recv</a>
 
-
-
 <a href="/windows/desktop/api/winsock2/nf-winsock2-send">send</a>
 
-
-
 <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
-
-
 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>

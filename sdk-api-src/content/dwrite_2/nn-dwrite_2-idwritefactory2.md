@@ -54,65 +54,7 @@ The root factory interface for all <a href="/windows/win32/DirectWrite/direct-wr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFactory1</b> interface inherits from <a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefactory1">IDWriteFactory1</a>. <b>IDWriteFactory2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDWriteFactory1</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/DirectWrite/idwritefactory2-createcustomrenderingparams">CreateCustomRenderingParams</a>
-</td>
-<td align="left" width="63%">
-Creates a rendering parameters object with the specified properties.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritefactory2-createfontfallbackbuilder">CreateFontFallbackBuilder</a>
-</td>
-<td align="left" width="63%">
-Creates a font fallback builder object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/DirectWrite/idwritefactory2-createglyphrunanalysis">CreateGlyphRunAnalysis</a>
-</td>
-<td align="left" width="63%">
-Creates a glyph run analysis object, which encapsulates information used to render a glyph run.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/DirectWrite/idwritefactory2-getsystemfontfallback">GetSystemFontFallback</a>
-</td>
-<td align="left" width="63%">
-Creates a font fallback object from the system font fallback list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritefactory2-translatecolorglyphrun">TranslateColorGlyphRun</a>
-</td>
-<td align="left" width="63%">
-This method is called on a glyph run to translate it in to multiple color glyph runs.
-
-</td>
-</tr>
-</table>
+The <b>IDWriteFactory1</b> interface inherits from <a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefactory1">IDWriteFactory1</a>. <b>IDWriteFactory2</b> also has these types of members:
 
 ## -see-also
 

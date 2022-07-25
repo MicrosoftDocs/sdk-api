@@ -51,7 +51,7 @@ The <b>DdVideoPortCreate</b> callback function notifies the driver that DirectDr
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_createvportdata">DD_CREATEVPORTDATA</a> structure that describes the created VPE object.
 

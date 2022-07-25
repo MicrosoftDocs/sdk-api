@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IUpdateIDList
 title: IUpdateIDList (shobjidl_core.h)
-description: Provides a method to update the ITEMIDLIST of the child of an folder object.
+description: Provides a method to update the ITEMIDLIST of the child of a folder object.
 helpviewer_keywords: ["IUpdateIDList","IUpdateIDList interface [Windows Shell]","IUpdateIDList interface [Windows Shell]","described","_shell_IUpdateIDList","shell.IUpdateIDList","shobjidl_core/IUpdateIDList"]
 old-location: shell\IUpdateIDList.htm
 tech.root: shell
@@ -50,33 +50,11 @@ api_name:
 
 ## -description
 
-Provides a method to update the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> of the child of an folder object.
+Provides a method to update the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> of the child of a folder object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateIDList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUpdateIDList</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IUpdateIDList</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iupdateidlist-update">Update</a>
-</td>
-<td align="left" width="63%">
-Updates the provided child <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> based on the parameters specified by the provided <a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>.
-
-</td>
-</tr>
-</table>
+The <b>IUpdateIDList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUpdateIDList</b> also has these types of members:
 
 ## -remarks
 

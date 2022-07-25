@@ -52,7 +52,7 @@ api_name:
 
 Aborts the work of all COM objects participating in the current transaction. The transaction ends on return from this method.
 
-## -parameters
+
 
 ## -returns
 

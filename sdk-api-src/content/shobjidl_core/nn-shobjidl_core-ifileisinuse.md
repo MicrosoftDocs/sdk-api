@@ -54,65 +54,7 @@ Exposes methods that can be called to get information on or close a file that is
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileIsInUse</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFileIsInUse</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IFileIsInUse</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileisinuse-closefile">CloseFile</a>
-</td>
-<td align="left" width="63%">
-Closes the file currently in use.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileisinuse-getappname">GetAppName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the name of the application that is using the file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileisinuse-getcapabilities">GetCapabilities</a>
-</td>
-<td align="left" width="63%">
-Determines whether the file can be closed and whether the UI is capable of switching to the window of the application that is using the file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileisinuse-getswitchtohwnd">GetSwitchToHWND</a>
-</td>
-<td align="left" width="63%">
-Retrieves the handle of the top-level window of the application that is using the file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileisinuse-getusage">GetUsage</a>
-</td>
-<td align="left" width="63%">
-Gets a value that indicates how the file in use is being used.
-
-</td>
-</tr>
-</table>
+The <b>IFileIsInUse</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFileIsInUse</b> also has these types of members:
 
 ## -remarks
 

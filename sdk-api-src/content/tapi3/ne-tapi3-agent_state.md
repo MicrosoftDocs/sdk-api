@@ -57,7 +57,7 @@ The
 
 ## -enum-fields
 
-### -field AS_NOT_READY
+### -field AS_NOT_READY:0
 
 Agent is not ready
 

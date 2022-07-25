@@ -82,9 +82,10 @@ Each <a href="/windows/desktop/api/wingdi/ns-wingdi-polytexta">POLYTEXT</a> stru
 
 To draw a single string of text, the application should call the <a href="/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a> function.
 
+**PolyTextOut** will not handle international scripting support automatically. To get international scripting support, use **ExtTextOut** instead. **ExtTextOut** will use [Uniscribe](/windows/win32/intl/uniscribe) when necessary resulting in font fallback. Additionally, **ExtTextOut** will perform internal batching of calls before transitioning to kernel mode, mitigating some of the performance concerns when weighing usage of **PolyTextOut** versus **ExtTextOut**.
 
-
-
+> [!TIP]
+>  **ExtTextOut** is strongly recommended over **PolyTextOut** for modern development due to its ability to handle display of different languages.
 
 > [!NOTE]
 > The wingdi.h header defines PolyTextOut as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

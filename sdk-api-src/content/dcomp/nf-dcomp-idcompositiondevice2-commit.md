@@ -52,7 +52,7 @@ api_name:
 
 Commits all DirectComposition commands that are pending on this device.
 
-## -parameters
+
 
 ## -returns
 

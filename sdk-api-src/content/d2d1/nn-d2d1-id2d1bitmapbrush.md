@@ -54,92 +54,10 @@ Paints an area with a bitmap.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1BitmapBrush</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>. <b>ID2D1BitmapBrush</b> also has these types of members:
+The <b>ID2D1BitmapBrush</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>. <b>ID2D1BitmapBrush</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ID2D1BitmapBrush</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmapbrush-getbitmap">GetBitmap</a>
-</td>
-<td align="left" width="63%">
-Gets the bitmap source that this brush uses to paint.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmapbrush-getextendmodex">GetExtendModeX</a>
-</td>
-<td align="left" width="63%">
-  Gets the method by which the brush horizontally tiles those areas that extend past its bitmap.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmapbrush-getextendmodey">GetExtendModeY</a>
-</td>
-<td align="left" width="63%">
-  Gets the method by which the brush vertically tiles those areas that extend past its bitmap.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmapbrush-getinterpolationmode">GetInterpolationMode</a>
-</td>
-<td align="left" width="63%">
-Gets the interpolation method used when the brush bitmap is scaled or rotated.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmapbrush-setbitmap">SetBitmap</a>
-</td>
-<td align="left" width="63%">
-Specifies the bitmap source that this brush uses to paint. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmapbrush-setextendmodex">SetExtendModeX</a>
-</td>
-<td align="left" width="63%">
-Specifies how the brush horizontally tiles those areas that extend past its bitmap. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmapbrush-setextendmodey">SetExtendModeY</a>
-</td>
-<td align="left" width="63%">
-Specifies how the brush vertically tiles those areas that extend past its bitmap.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmapbrush-setinterpolationmode">SetInterpolationMode</a>
-</td>
-<td align="left" width="63%">
-Specifies the interpolation mode used when the brush bitmap is scaled or rotated.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

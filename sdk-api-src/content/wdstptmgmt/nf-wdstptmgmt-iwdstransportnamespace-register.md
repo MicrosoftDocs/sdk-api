@@ -52,7 +52,7 @@ api_name:
 
 Registers the namespace on the server.
 
-## -parameters
+
 
 ## -returns
 

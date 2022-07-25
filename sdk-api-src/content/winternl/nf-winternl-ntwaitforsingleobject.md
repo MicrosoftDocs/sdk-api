@@ -2,7 +2,7 @@
 UID: NF:winternl.NtWaitForSingleObject
 title: NtWaitForSingleObject function (winternl.h)
 description: Deprecated. Waits until the specified object attains a state of signaled. NtWaitForSingleObject is superseded by WaitForSingleObject.
-helpviewer_keywords: [""NtWaitForSingleObject","FALSE","NtWaitForSingleObject","NtWaitForSingleObject function [Windows API]","TRUE","winprog.ntwaitforsingleobject","winternl/NtWaitForSingleObject","winui.ntwaitforsingleobject""]
+helpviewer_keywords: ["NtWaitForSingleObject","FALSE","NtWaitForSingleObject","NtWaitForSingleObject function [Windows API]","TRUE","winprog.ntwaitforsingleobject","winternl/NtWaitForSingleObject","winui.ntwaitforsingleobject"]
 old-location: winprog\ntwaitforsingleobject.htm
 tech.root: winprog
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\ntwaitforsingleobject.htm

@@ -55,7 +55,7 @@ req.apiset: ext-ms-win-ntuser-window-l1-1-1 (introduced in Windows 8.1)
 
 ## -description
 
-Stores the display affinity setting in kernel mode on the hWnd associated with the window.
+Specifies where the content of the window can be displayed.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ Stores the display affinity setting in kernel mode on the hWnd associated with t
 
 Type: <b>HWND</b>
 
-A handle to the window.
+A handle to the top-level window. The window must belong to the current process.
 
 ### -param dwAffinity [in]
 
@@ -71,17 +71,56 @@ Type: <b>DWORD</b>
 
 The display affinity setting that specifies where the content of the window can be displayed. 
 
-Set this value to WDA_MONITOR to display the content only on a monitor. 
+This parameter can be one of the following values.
 
-Set this value to WDA_NONE to remove the monitor-only affinity.
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="WDA_NONE"></a><a id="wda_none"></a><dl>
+<dt><b>WDA_NONE</b></dt>
+<dt>0x00000000</dt>
+</dl>
+</td>
+<td width="60%">
+Imposes no restrictions on where the window can be displayed.
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="WDA_MONITOR"></a><a id="wda_monitor"></a><dl>
+<dt><b>WDA_MONITOR</b></dt>
+<dt>0x00000001</dt>
+</dl>
+</td>
+<td width="60%">
+The window content is displayed only on a monitor.
+Everywhere else, the window appears with no content.
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="WDA_EXCLUDEFROMCAPTURE"></a><a id="wda_excludefromcapture"></a><dl>
+<dt><b>WDA_EXCLUDEFROMCAPTURE</b></dt>
+<dt>0x00000011</dt>
+</dl>
+</td>
+<td width="60%">
+The window is displayed only on a monitor.
+Everywhere else, the window does not appear at all.
 
-Set this value to WDA_EXCLUDEFROMCAPTURE to display the content only on a monitor and excluded everywhere else. Introduced in Windows 10 Version 2004. See remarks about compatibility regarding previous versions of Windows.
+One use for this affinity is for windows that show video recording controls, so that the controls are not included in the capture.
+
+Introduced in Windows 10 Version 2004. See remarks about compatibility regarding previous versions of Windows.
+</td>
+</tr>
+</table>
 
 ## -returns
 
 Type: <b>BOOL</b>
 
-If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b> when, for example,  the function call is made on a non top-level window. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b> when, for example, the function call is made on a non top-level window. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 

@@ -57,74 +57,10 @@ The <b>ICaptionServiceDescriptor</b> interface enables the client to get caption
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICaptionServiceDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICaptionServiceDescriptor</b> also has these types of members:
+The <b>ICaptionServiceDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICaptionServiceDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ICaptionServiceDescriptor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-icaptionservicedescriptor-getcaptionservicenumber">GetCaptionServiceNumber</a>
-</td>
-<td align="left" width="63%">
-Returns the Service Number for a specified caption service.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-icaptionservicedescriptor-getcctype">GetCCType</a>
-</td>
-<td align="left" width="63%">
-Queries whether a caption service contains Digital Television Closed Captioning (DTVCC) or line-21 closed captioning.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-icaptionservicedescriptor-geteasyreader">GetEasyReader</a>
-</td>
-<td align="left" width="63%">
-Queries whether a caption service contains "Easy Reader" captions.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-icaptionservicedescriptor-getlanguagecode">GetLanguageCode</a>
-</td>
-<td align="left" width="63%">
-Returns the language code for a specified caption service.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-icaptionservicedescriptor-getnumberofservices">GetNumberOfServices</a>
-</td>
-<td align="left" width="63%">
-Returns the number of caption services.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-icaptionservicedescriptor-getwideaspectratio">GetWideAspectRatio</a>
-</td>
-<td align="left" width="63%">
-Queries whether a caption service is formatted for wide-screen displays.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

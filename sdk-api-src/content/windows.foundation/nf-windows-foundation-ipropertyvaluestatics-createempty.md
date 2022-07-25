@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateEmpty
-title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
+title: IPropertyValueStatics::CreateEmpty (windows.foundation.h)
 description: Creates a new IPropertyValue object that represents an empty value.
 helpviewer_keywords: ["CreateEmpty","CreateEmpty method [Windows Runtime]","CreateEmpty method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateEmpty method","IPropertyValueStatics.CreateEmpty","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateEmpty","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateEmpty","winrt.ipropertyvaluefactory_createempty","winrt.ipropertyvaluestatics_createempty"]
 old-location: winrt\ipropertyvaluestatics_createempty.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValueStatics.CreateEmpty
 ---
 
-# IPropertyValueStatics::IPropertyValueStatics
+# IPropertyValueStatics::CreateEmpty (windows.foundation.h)
 
 
 ## -description

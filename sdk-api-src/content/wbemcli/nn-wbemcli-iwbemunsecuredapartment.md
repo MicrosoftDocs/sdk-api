@@ -58,33 +58,7 @@ The <b>IWbemUnsecuredApartment</b> interface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemUnsecuredApartment</b> interface inherits from <b>IUnsecuredApartment</b>. <b>IWbemUnsecuredApartment</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWbemUnsecuredApartment</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemunsecuredapartment-createsinkstub">CreateSinkStub</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemunsecuredapartment-createsinkstub">CreateSinkStub</a> method is 
-     similar to the 
-     <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iunsecuredapartment-createobjectstub">IUnsecuredApartment::CreateObjectStub</a> 
-     method. It creates an object forwarder sink and performs access checks for receiving asynchronous calls from 
-     WMI.
-
-</td>
-</tr>
-</table>
+The <b>IWbemUnsecuredApartment</b> interface inherits from <b>IUnsecuredApartment</b>. <b>IWbemUnsecuredApartment</b> also has these types of members:
 
 ## -remarks
 

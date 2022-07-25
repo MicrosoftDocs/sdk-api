@@ -53,7 +53,7 @@ api_name:
 
 Creates and initializes a <b>Matrix::Matrix</b> object that represents the identity matrix.
 
-## -parameters
+
 
 ## -see-also
 

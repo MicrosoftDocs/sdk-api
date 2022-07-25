@@ -64,47 +64,7 @@ Internally, the VMR uses its mixer component to perform the blending operation. 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRMixerBitmap</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRMixerBitmap</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVMRMixerBitmap</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixerbitmap-getalphabitmapparameters">GetAlphaBitmapParameters</a>
-</td>
-<td align="left" width="63%">
-Retrieves a copy of the current image and related blending parameters.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixerbitmap-setalphabitmap">SetAlphaBitmap</a>
-</td>
-<td align="left" width="63%">
-Specifies a new bitmap image and the source location of the bitmap and how and where it should be rendered on the destination rectangle.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixerbitmap-updatealphabitmapparameters">UpdateAlphaBitmapParameters</a>
-</td>
-<td align="left" width="63%">
-Changes the bitmap location, size and blending value.
-
-</td>
-</tr>
-</table>
+The <b>IVMRMixerBitmap</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRMixerBitmap</b> also has these types of members:
 
 ## -see-also
 

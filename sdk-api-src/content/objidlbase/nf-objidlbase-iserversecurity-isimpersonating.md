@@ -52,7 +52,7 @@ api_name:
 
 Indicates whether the server is currently impersonating the client.
 
-## -parameters
+
 
 ## -returns
 

@@ -63,13 +63,6 @@ Frees a block of environment strings.
 
 ### -param penv
 
-TBD
-
-
-
-
-#### - lpszEnvironmentBlock [in]
-
 A pointer to a block of environment strings. The pointer to the block must be obtained by calling the 
 <a href="/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a> function.
 

@@ -54,74 +54,7 @@ Exposes methods that create a bitmap effect's output. This interface must be imp
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectPrimitive</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectPrimitive</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMILBitmapEffectPrimitive</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectprimitive-getaffinematrix">GetAffineMatrix</a>
-</td>
-<td align="left" width="63%">
-Retrieves the affine transormation matrix for the effect.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectprimitive-getoutput">GetOutput</a>
-</td>
-<td align="left" width="63%">
-Performs pixel processing for the bitmap effect.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectprimitive-hasaffinetransform">HasAffineTransform</a>
-</td>
-<td align="left" width="63%">
-Determines whether the effect has an affine transform.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectprimitive-hasinversetransform">HasInverseTransform</a>
-</td>
-<td align="left" width="63%">
-Determines whether the effect has an inverse transform.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectprimitive-transformpoint">TransformPoint</a>
-</td>
-<td align="left" width="63%">
-Transforms the given point.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectprimitive-transformrect">TransformRect</a>
-</td>
-<td align="left" width="63%">
-Transforms the output of the given rectangle.
-
-</td>
-</tr>
-</table>
+The <b>IMILBitmapEffectPrimitive</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectPrimitive</b> also has these types of members:
 
 ## -remarks
 

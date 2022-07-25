@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputEffectDriver::StopEffect </b>method halts the playback of an effect.
+The <b>IDirectInputEffectDriver::StopEffect </b> method halts the playback of an effect.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Indicates the external joystick number being addressed.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies the effect to be stopped.
 

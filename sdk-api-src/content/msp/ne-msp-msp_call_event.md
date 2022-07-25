@@ -59,7 +59,7 @@ The <b>MSP_CALL_EVENT</b> constant is returned within the
 
 ## -enum-fields
 
-### -field CALL_NEW_STREAM
+### -field CALL_NEW_STREAM:0
 
 A new stream is created by the call. The application can choose to select a terminal or delete the stream from the call.
 

@@ -4,7 +4,6 @@ title: IHolographicCameraRenderingParametersInterop::CommitDirect3D12Resource
 description: Commits a Direct3D 12 buffer for presentation on outputs associated with the [HolographicCamera](/uwp/api/windows.graphics.holographic.holographiccamera).
 tech.root: direct3d12
 ms.date: 12/12/2019
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

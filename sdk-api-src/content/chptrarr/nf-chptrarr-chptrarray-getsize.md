@@ -60,7 +60,7 @@ api_name:
 
 The <b>GetSize</b> function obtains the pointer array size. Because indexes are zero-based, the size is one greater than the largest index.
 
-## -parameters
+
 
 ## -returns
 

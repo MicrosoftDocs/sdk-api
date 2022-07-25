@@ -58,49 +58,7 @@ Provides methods for performing
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsLunMpio</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsLunMpio</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVdsLunMpio</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunmpio-getloadbalancepolicy">GetLoadBalancePolicy</a>
-</td>
-<td align="left" width="63%">
-Returns the current load balance policy on the LUN.</p> (Inherited from <b>IVdsLunMpio</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunmpio-getpathinfo">GetPathInfo</a>
-</td>
-<td align="left" width="63%">
-Returns an array of <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_path_info">VDS_PATH_INFO</a> structures, 
-     one for each path to the LUN.</p> (Inherited from <b>IVdsLunMpio</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunmpio-getsupportedlbpolicies">GetSupportedLbPolicies</a>
-</td>
-<td align="left" width="63%">
-Retrieves the load balance policies that are supported by the hardware provider.</p> (Inherited from <b>IVdsLunMpio</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunmpio-setloadbalancepolicy">SetLoadBalancePolicy</a>
-</td>
-<td align="left" width="63%">
-Sets the load balance policy on the LUN.</p> (Inherited from <b>IVdsLunMpio</b>)</td>
-</tr>
-</table>
+The <b>IVdsLunMpio</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsLunMpio</b> also has these types of members:
 
 ## -remarks
 

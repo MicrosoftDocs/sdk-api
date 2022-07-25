@@ -84,8 +84,8 @@ The output tensor to write the results to.
 This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 
 ## Tensor constraints
-* *InputTensor* and `ZeroPointTensor` must have the same *DataType*.
-* *InputTensor*, *OutputTensor*, *ScaleTensor*, and `ZeroPointTensor` must have the same *DimensionCount* and *Sizes*.
+* *InputTensor*, *OutputTensor*, *ScaleTensor*, and *ZeroPointTensor* must have the same *DimensionCount* and *Sizes*.
+* *InputTensor* and *ZeroPointTensor* must have the same *DataType*.
 
 ## Tensor support
 ### DML_FEATURE_LEVEL_3_0 and above
@@ -113,4 +113,5 @@ This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 | OutputTensor | Output | 4 | FLOAT32 |
 
 ## -see-also
+
 [DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_element_wise_quantize_linear_operator_desc)

@@ -52,7 +52,7 @@ api_name:
 
 Finalizes the bundle package by writing footprint files at the end of the package, and closes the writer’s output stream.
 
-## -parameters
+
 
 ## -returns
 

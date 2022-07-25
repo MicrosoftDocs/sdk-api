@@ -1426,8 +1426,10 @@ The following example uses the
 <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function to determine whether a mouse is installed and whether the mouse buttons are swapped. The example also uses the 
 <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function to retrieve the mouse threshold and speed. It displays the information in the console.
 
-<pre class="syntax" xml:space="preserve"><code>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
+
+``` syntax
+#include <windows.h>
+#include <stdio.h>
 #pragma comment(lib, "user32.lib")
 
 void main()
@@ -1456,7 +1458,7 @@ void main()
       fResult = SystemParametersInfo(
          SPI_GETMOUSE,  // get mouse information 
          0,             // not used 
-         &amp;aMouseInfo,   // holds mouse information 
+         &aMouseInfo,   // holds mouse information 
          0);            // not used 
 
       if( fResult )
@@ -1466,7 +1468,9 @@ void main()
             aMouseInfo[0], aMouseInfo[1]); 
       }
    } 
-}</code></pre>
+}
+```
+
 
 ## -see-also
 

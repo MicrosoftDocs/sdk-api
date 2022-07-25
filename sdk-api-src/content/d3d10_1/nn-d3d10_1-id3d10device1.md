@@ -55,47 +55,7 @@ The device interface represents a virtual adapter for Direct3D 10.1; it is used 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Device1</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device</a>. <b>ID3D10Device1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D10Device1</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10_1/nf-d3d10_1-id3d10device1-createblendstate1">CreateBlendState1</a>
-</td>
-<td align="left" width="63%">
-Create a blend-state object that encapsules blend state for the output-merger stage.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10_1/nf-d3d10_1-id3d10device1-createshaderresourceview1">CreateShaderResourceView1</a>
-</td>
-<td align="left" width="63%">
-Create a shader-resource <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-access-views">view</a> for accessing data in a resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10_1/nf-d3d10_1-id3d10device1-getfeaturelevel">GetFeatureLevel</a>
-</td>
-<td align="left" width="63%">
-Gets the feature level of the hardware device.
-
-</td>
-</tr>
-</table>
+The <b>ID3D10Device1</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device</a>. <b>ID3D10Device1</b> also has these types of members:
 
 ## -remarks
 

@@ -60,7 +60,7 @@ Null-terminated string that contains the name of the file on the server. For inf
 
 
 
-					Starting with BITS 3.0, the SMB protocol is not supported for ranges.
+Starting with BITS 3.0, the SMB protocol is not supported for ranges.
 
 <b>BITS 2.5 and 2.0:  </b>BITS supports the SMB protocol for ranges.
 

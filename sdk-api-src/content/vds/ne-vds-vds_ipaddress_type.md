@@ -59,20 +59,20 @@ Defines the set of valid types for an IP address. These values are used in the
 
 ## -enum-fields
 
-### -field VDS_IPT_TEXT
+### -field VDS_IPT_TEXT:0
 
 The address is a text address that is either a DNS address, an IPv4 dotted address, or an IPv6 hex 
       address.
 
-### -field VDS_IPT_IPV4
+### -field VDS_IPT_IPV4:1
 
 The address is an IPv4 address in binary format.
 
-### -field VDS_IPT_IPV6
+### -field VDS_IPT_IPV6:2
 
 The address is an IPv6 address in binary format.
 
-### -field VDS_IPT_EMPTY
+### -field VDS_IPT_EMPTY:3
 
 The address is empty.
 

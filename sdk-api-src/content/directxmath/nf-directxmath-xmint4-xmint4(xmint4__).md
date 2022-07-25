@@ -11,8 +11,8 @@ ms.keywords: XMINT4, XMINT4 constructor [DirectX Math Support APIs], XMINT4 cons
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -58,7 +58,7 @@ A constructor for <a href="/windows/desktop/direct3dhlsl/xmint4">XMINT4</a>.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A value.
 

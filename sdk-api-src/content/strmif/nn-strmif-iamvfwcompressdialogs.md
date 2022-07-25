@@ -55,53 +55,5 @@ The <code>IAMVfwCompressDialogs</code> interface displays a dialog box provided 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMVfwCompressDialogs</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVfwCompressDialogs</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAMVfwCompressDialogs</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVfwCompressDialogs</b> also has these types of members:
 
-## -members
-
-The <b>IAMVfwCompressDialogs</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamvfwcompressdialogs-getstate">GetState</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current configuration settings for the VCM codec currently being used.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamvfwcompressdialogs-senddrivermessage">SendDriverMessage</a>
-</td>
-<td align="left" width="63%">
-Sends a driver-specific message.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamvfwcompressdialogs-setstate">SetState</a>
-</td>
-<td align="left" width="63%">
-Sets configuration for the VCM codec.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamvfwcompressdialogs-showdialog">ShowDialog</a>
-</td>
-<td align="left" width="63%">
-Displays the specified dialog box.
-
-</td>
-</tr>
-</table>

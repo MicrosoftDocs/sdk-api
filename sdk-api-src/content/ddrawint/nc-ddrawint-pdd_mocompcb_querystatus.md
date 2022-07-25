@@ -51,7 +51,7 @@ The <b>DdMoCompQueryStatus</b> callback function queries the status of the most 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_querymocompstatusdata">DD_QUERYMOCOMPSTATUSDATA</a> structure that contains the information needed to query the status.
 

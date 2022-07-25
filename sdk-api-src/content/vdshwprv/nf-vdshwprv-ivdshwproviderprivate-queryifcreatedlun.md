@@ -63,7 +63,7 @@ A pointer to the path to the LUN on the local computer; a zero-terminated, human
 
 ### -param pVdsLunInformation [in]
 
-A pointer to the identification data of the specified LUN. See the <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>structure.
+A pointer to the identification data of the specified LUN. See the <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure.
 
 ### -param pLunId [out]
 

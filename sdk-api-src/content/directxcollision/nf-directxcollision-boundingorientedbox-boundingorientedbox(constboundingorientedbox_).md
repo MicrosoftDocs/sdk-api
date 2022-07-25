@@ -51,7 +51,7 @@ Creates an instance of <a href="/windows/win32/api/directxcollision/ns-directxco
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a> object to copy.
 

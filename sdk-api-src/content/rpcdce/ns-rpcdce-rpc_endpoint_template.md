@@ -76,7 +76,7 @@ Pointer to an optional parameter provided for the security subsystem. Used only 
 
 ### -field Backlog
 
-Backlog queue length for the <a href="/windows/desktop/Rpc/protocol-sequence-constants">ncacn_ip_tcp</a> protocol sequence. All other protocol sequences ignore this parameter. Use <b>RPC_C_PROTSEQ_MAX_REQS_DEFAULT</b> to specify the default value.  See Remarks for more informatation.
+Backlog queue length for the <a href="/windows/desktop/Rpc/protocol-sequence-constants">ncacn_ip_tcp</a> protocol sequence. All other protocol sequences ignore this parameter. Use <b>RPC_C_PROTSEQ_MAX_REQS_DEFAULT</b> to specify the default value.  See Remarks for more information.
 
 ## -remarks
 

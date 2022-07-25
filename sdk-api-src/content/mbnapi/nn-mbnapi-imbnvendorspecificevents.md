@@ -57,38 +57,7 @@ This notification interface signals an application of the completion status of v
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnVendorSpecificEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnVendorSpecificEvents</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMbnVendorSpecificEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnvendorspecificevents-oneventnotification">OnEventNotification</a>
-</td>
-<td align="left" width="63%">
-A event has occurred in the miniport driver.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnvendorspecificevents-onsetvendorspecificcomplete">OnSetVendorSpecificComplete</a>
-</td>
-<td align="left" width="63%">
-A vendor-specific operation call has completed.
-
-</td>
-</tr>
-</table>
+The <b>IMbnVendorSpecificEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnVendorSpecificEvents</b> also has these types of members:
 
 ## -remarks
 

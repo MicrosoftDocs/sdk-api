@@ -54,29 +54,7 @@ Notifies the subscriber about an activity that is part of an Internet Informatio
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComIdentityEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComIdentityEvents</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IComIdentityEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomidentityevents-oniisrequestinfo">OnIISRequestInfo</a>
-</td>
-<td align="left" width="63%">
-Generated when an activity is part of an ASP page.
-
-</td>
-</tr>
-</table>
+The <b>IComIdentityEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComIdentityEvents</b> also has these types of members:
 
 ## -see-also
 

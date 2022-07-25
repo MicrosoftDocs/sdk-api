@@ -54,38 +54,7 @@ Exposes methods that the Shell uses to retrieve flags and info tip information f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueryInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQueryInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IQueryInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iqueryinfo-getinfoflags">GetInfoFlags</a>
-</td>
-<td align="left" width="63%">
-Gets the information flags for an item. This method is not currently used.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iqueryinfo-getinfotip">GetInfoTip</a>
-</td>
-<td align="left" width="63%">
-Gets the info tip text for an item.
-
-</td>
-</tr>
-</table>
+The <b>IQueryInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQueryInfo</b> also has these types of members:
 
 ## -remarks
 

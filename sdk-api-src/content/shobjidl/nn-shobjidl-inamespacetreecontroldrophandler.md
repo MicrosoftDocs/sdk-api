@@ -54,74 +54,7 @@ Exposes handler methods for drag-and-drop. Used by the namespace tree control to
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INameSpaceTreeControlDropHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INameSpaceTreeControlDropHandler</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>INameSpaceTreeControlDropHandler</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontroldrophandler-ondragenter">OnDragEnter</a>
-</td>
-<td align="left" width="63%">
-Called on drag enter to set drag effect, as specified.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontroldrophandler-ondragleave">OnDragLeave</a>
-</td>
-<td align="left" width="63%">
-Called on drag leave for a specified item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontroldrophandler-ondragover">OnDragOver</a>
-</td>
-<td align="left" width="63%">
-Called on drag over to set drag effect, as specified.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontroldrophandler-ondragposition">OnDragPosition</a>
-</td>
-<td align="left" width="63%">
-Called when the item is being dragged within the same level (within the same parent folder) in the tree.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontroldrophandler-ondrop">OnDrop</a>
-</td>
-<td align="left" width="63%">
-Called on drop to set drop effect, as specified.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontroldrophandler-ondropposition">OnDropPosition</a>
-</td>
-<td align="left" width="63%">
-Called when the item is being dropped within the same level (within the same parent folder) in the tree.
-
-</td>
-</tr>
-</table>
+The <b>INameSpaceTreeControlDropHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INameSpaceTreeControlDropHandler</b> also has these types of members:
 
 ## -see-also
 

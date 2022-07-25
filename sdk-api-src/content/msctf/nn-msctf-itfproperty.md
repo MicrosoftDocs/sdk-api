@@ -54,56 +54,7 @@ The <b>ITfProperty</b> interface is implemented by the TSF manager and used by a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfProperty</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfProperty</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfProperty</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfproperty-clear">Clear</a>
-</td>
-<td align="left" width="63%">
-Empties the property value over the specified range.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfproperty-findrange">FindRange</a>
-</td>
-<td align="left" width="63%">
-Obtains a range that covers the text that contains a non-empty value for the property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfproperty-setvalue">SetValue</a>
-</td>
-<td align="left" width="63%">
-Sets the value of the property for a range.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfproperty-setvaluestore">SetValueStore</a>
-</td>
-<td align="left" width="63%">
-Sets the value of the property for a range of text using a property store object.
-
-</td>
-</tr>
-</table>
+The <b>ITfProperty</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfProperty</b> also has these types of members:
 
 ## -remarks
 

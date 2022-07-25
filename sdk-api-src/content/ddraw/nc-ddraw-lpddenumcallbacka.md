@@ -59,19 +59,19 @@ The <i>DDEnumCallback</i> function is an application-defined callback function f
 ## -parameters
 
 
-### -param Arg1
+### -param unnamedParam1
 
 A pointer to the unique identifier of the DirectDraw object.
 
-### -param Arg2
+### -param unnamedParam2
 
 Address of a string that contains the driver name.
 
-### -param Arg3
+### -param unnamedParam3
 
 Address of a string that contains the driver description.
 
-### -param Arg4
+### -param unnamedParam4
 
 A pointer to an application-defined structure to be passed to the callback function each time the function is called.
 

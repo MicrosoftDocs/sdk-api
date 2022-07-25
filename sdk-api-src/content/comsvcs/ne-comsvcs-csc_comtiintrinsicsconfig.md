@@ -56,7 +56,7 @@ Indicates whether the current COM Transaction Integrator (COMTI) intrinsics are 
 
 ## -enum-fields
 
-### -field CSC_NoCOMTIIntrinsics
+### -field CSC_NoCOMTIIntrinsics:0
 
 The current COMTI intrinsics do not propagate to the new context. This is the default setting for <a href="/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> when <a href="/windows/desktop/api/comsvcs/ne-comsvcs-csc_inheritanceconfig">CSC_InheritanceConfig</a> is set to CSC_Ignore.
 

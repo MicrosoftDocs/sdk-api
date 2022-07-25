@@ -118,7 +118,7 @@ The strings are Unicode strings.
 COM does not persist the user's password information. For applications that use passwords, please see the documentation on <a href="/windows/desktop/SecCrypto/cryptography-portal">Cryptography</a> (CryptoAPI). 
 
 
-This structure is equivalenet to the <a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure.
+This structure is equivalent to the <a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure.
 
 ## -see-also
 

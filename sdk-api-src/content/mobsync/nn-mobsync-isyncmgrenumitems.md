@@ -54,56 +54,7 @@ Exposes methods that enumerate through an array of <a href="/windows/desktop/api
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrEnumItems</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrEnumItems</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISyncMgrEnumItems</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates another items enumerator with the same state as the current enumerator to iterate over the same list. This method makes it possible to record a point in the enumeration sequence in order to return to that point at a later time.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-next">Next</a>
-</td>
-<td align="left" width="63%">
-Enumerates the next <i>celt</i> elements in the enumerator's list, returning them in <i>rgelt</i> along with the actual number of enumerated elements in <i>pceltFetched</i>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Instructs the enumerator to position itself at the beginning of the list of elements.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Instructs the enumerator to skip the next <i>celt</i> elements in the enumeration so that the next call to <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-next">ISyncMgrEnumItems::Next</a> does not return those elements.
-
-</td>
-</tr>
-</table>
+The <b>ISyncMgrEnumItems</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrEnumItems</b> also has these types of members:
 
 ## -remarks
 

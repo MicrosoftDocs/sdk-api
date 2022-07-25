@@ -102,7 +102,7 @@ An existing LUN has been deleted.
 <td width="60%">
 A member was changed in the <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_prop">VDS_LUN_PROP</a> 
        structure for an external LUN. Examples of changes that trigger this notification include changes to the 
-        <b>VDS_LUN_PROP</b>structure and the addition of a plex to 
+       <b>VDS_LUN_PROP</b> structure and the addition of a plex to 
         the LUN. Applications are responsible for determining the precise nature of the change.
 
 </td>

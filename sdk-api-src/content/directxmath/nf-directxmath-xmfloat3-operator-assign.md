@@ -9,25 +9,25 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3.operator = (const XMFLOAT
 ms.date: 05/13/2019
 ms.keywords: Use DirectX..XMFLOAT3.operator =, Use DirectX::::XMFLOAT3::operator =, XMFLOAT3 structure [DirectX Math Support APIs],operator = method, XMFLOAT3.operator =, XMFLOAT3.operator-assign, XMFLOAT3.operator=, XMFLOAT3::operator-assign, XMFLOAT3::operator=, dxmath.xmfloat3_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMFLOAT3 structure, operator=
 req.header: directxmath.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
 req.namespace: Use DirectX.
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 f1_keywords:
  - XMFLOAT3::operator=
  - directxmath/XMFLOAT3::operator=
@@ -57,7 +57,7 @@ This operator assigns the vector component data from one instance of <a href="/w
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Instance of <code>XMFLOAT3</code> used to update the current <code>XMFLOAT3</code> structure.
 
@@ -69,5 +69,4 @@ The current instance of <code>XMFLOAT3</code> whose vector component data has be
 
 <a href="/windows/win32/api/directxmath/ns-directxmath-xmfloat3">XMFLOAT3</a>
 
-<a href="https://msdn.microsoft.com/dc98a2ed-da87-4ba3-8394-682143b378b8">XMFLOAT3 Operators</a>
-
+<a href="/windows/win32/dxmath/ovw-xmfloat3-operators">XMFLOAT3 Operators</a>

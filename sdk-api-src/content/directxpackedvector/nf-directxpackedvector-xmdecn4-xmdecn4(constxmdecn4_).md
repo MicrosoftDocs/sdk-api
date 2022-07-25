@@ -58,7 +58,7 @@ A constructor for <a href="/windows/desktop/api/directxpackedvector/ns-directxpa
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A value.
 

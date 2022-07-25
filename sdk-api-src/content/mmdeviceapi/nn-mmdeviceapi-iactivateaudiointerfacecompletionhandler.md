@@ -54,29 +54,7 @@ Provides a callback to indicate that activation of a <a href="/windows/desktop/C
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IActivateAudioInterfaceCompletionHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IActivateAudioInterfaceCompletionHandler</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IActivateAudioInterfaceCompletionHandler</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-iactivateaudiointerfacecompletionhandler-activatecompleted">ActivateCompleted</a>
-</td>
-<td align="left" width="63%">
-Indicates that activation of a <a href="/windows/desktop/CoreAudio/wasapi">WASAPI</a> interface is complete and results are available.
-
-</td>
-</tr>
-</table>
+The <b>IActivateAudioInterfaceCompletionHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IActivateAudioInterfaceCompletionHandler</b> also has these types of members:
 
 ## -remarks
 

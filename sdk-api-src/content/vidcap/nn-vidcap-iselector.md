@@ -54,47 +54,10 @@ The <code>ISelector</code> interface is used to select source nodes in a stream 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISelector</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISelector</b> also has these types of members:
+The <b>ISelector</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISelector</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ISelector</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vidcap/nf-vidcap-iselector-get_numsources">get_NumSources</a>
-</td>
-<td align="left" width="63%">
-Returns the number of source nodes connected to the selector node.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vidcap/nf-vidcap-iselector-get_sourcenodeid">get_SourceNodeId</a>
-</td>
-<td align="left" width="63%">
-Returns the index of the active source node.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vidcap/nf-vidcap-iselector-put_sourcenodeid">put_SourceNodeId</a>
-</td>
-<td align="left" width="63%">
-Activates a source node.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

@@ -54,29 +54,7 @@ Provides a method that allows content protection systems to perform a handshake 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFProtectedEnvironmentAccess</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFProtectedEnvironmentAccess</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFProtectedEnvironmentAccess</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfprotectedenvironmentaccess-call">Call</a>
-</td>
-<td align="left" width="63%">
-Allows content protection systems to access the protected environment.
-
-</td>
-</tr>
-</table>
+The <b>IMFProtectedEnvironmentAccess</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFProtectedEnvironmentAccess</b> also has these types of members:
 
 ## -remarks
 

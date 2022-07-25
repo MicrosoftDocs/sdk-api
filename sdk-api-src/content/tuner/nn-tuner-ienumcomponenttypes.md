@@ -54,56 +54,10 @@ The <b>IEnumComponentTypes</b> interface is implemented on a standard COM collec
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumComponentTypes</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumComponentTypes</b> also has these types of members:
+The <b>IEnumComponentTypes</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumComponentTypes</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IEnumComponentTypes</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ienumcomponenttypes-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a new copy of the entire collection and all its sub-objects.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ienumcomponenttypes-next">Next</a>
-</td>
-<td align="left" width="63%">
-Retrieves the next <i>n</i> elements in the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ienumcomponenttypes-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Moves the iterator to the beginning of the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ienumcomponenttypes-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips the element at the specified index.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

@@ -55,15 +55,15 @@ Enumerates the start settings for a cluster group.
 
 ## -enum-fields
 
-### -field CLUS_GROUP_START_ALWAYS
+### -field CLUS_GROUP_START_ALWAYS:0
 
 Always start the cluster.
 
-### -field CLUS_GROUP_DO_NOT_START
+### -field CLUS_GROUP_DO_NOT_START:1
 
 Do not start the cluster.
 
-### -field CLUS_GROUP_START_ALLOWED
+### -field CLUS_GROUP_START_ALLOWED:2
 
 The cluster can be started.
 

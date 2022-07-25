@@ -54,44 +54,5 @@ Manages namespaces on a WDS transport server.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportNamespaceManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWdsTransportNamespaceManager</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWdsTransportNamespaceManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWdsTransportNamespaceManager</b> also has these types of members:
 
-## -members
-
-The <b>IWdsTransportNamespaceManager</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespacemanager-createnamespace">CreateNamespace</a>
-</td>
-<td align="left" width="63%">
-Creates a namespace object that can be registered on the WDS transport server.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespacemanager-retrievenamespace">RetrieveNamespace</a>
-</td>
-<td align="left" width="63%">
-Retrieves,  by name, a namespace object that is registered with the WDS transport server.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespacemanager-retrievenamespaces">RetrieveNamespaces</a>
-</td>
-<td align="left" width="63%">
-Retrieves a collection of namespace objects that represent namespaces on the server that match specified criteria.
-
-</td>
-</tr>
-</table>

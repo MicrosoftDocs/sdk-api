@@ -52,7 +52,7 @@ api_name:
 
 Instructs the transport provider to reread any relevant settings.
 
-## -parameters
+
 
 ## -returns
 

@@ -55,7 +55,7 @@ api_name:
 The 
 <b>SetupOpenMasterInf</b> function opens the master INF file that contains file and layout information for files shipped with Windows.
 
-## -parameters
+
 
 ## -returns
 

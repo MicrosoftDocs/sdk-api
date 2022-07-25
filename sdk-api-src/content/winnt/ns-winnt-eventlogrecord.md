@@ -200,13 +200,17 @@ The offset of the event-specific information within this event log record, in by
 
 The defined members are followed by the replacement strings for the message identified by the event identifier, the binary information, some pad bytes to make sure the full entry is on a <b>DWORD</b> boundary, and finally the length of the log entry again. Because the strings and the binary information can be of any length, no structure members are defined to reference them. The declaration of this structure in Winnt.h describes these members as follows:
 
-<pre class="syntax" xml:space="preserve"><code>    // WCHAR SourceName[]
+
+``` syntax
+    // WCHAR SourceName[]
     // WCHAR Computername[]
     // SID   UserSid
     // WCHAR Strings[]
     // BYTE  Data[]
     // CHAR  Pad[]
-    // DWORD Length;</code></pre>
+    // DWORD Length;
+```
+
 The source name is a variable-length string that specifies the name of the event source. The computer name is the name of the computer that generated the event. It may be followed with some padding bytes so that the user SID is aligned on a <b>DWORD</b> boundary. The user SID identifies the active user at the time this event was logged. If <b>UserSidLength</b> is zero, this field may be empty.
 
 The event identifier together with source name and a language identifier identify a string that describes the event in more detail. The strings are used as replacement strings and are merged into the message string to make a complete message. The message strings are contained in a message file specified in the source entry in the registry. To obtain the appropriate message string from the message file, load the message file with the 

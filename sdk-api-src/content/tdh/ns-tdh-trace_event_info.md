@@ -70,7 +70,7 @@ A <a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DES
 
 ### -field DecodingSource
 
-A <a href="/windows/desktop/api/tdh/ne-tdh-decoding_source">DECODING_SOURCE</a> enumeration value that identifies the source used to parse the event's data (for example, an instrumenation manifest of WMI MOF class).
+A <a href="/windows/desktop/api/tdh/ne-tdh-decoding_source">DECODING_SOURCE</a> enumeration value that identifies the source used to parse the event's data (for example, an instrumentation manifest of WMI MOF class).
 
 ### -field ProviderNameOffset
 

@@ -68,7 +68,7 @@ The
 Type: <b>DWORD</b>
 
 Size of the information structure, in bytes. This member must be set to the correct size of the structure prior to using either the 
-<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectinformation">GetNtmsObjectInformation</a>function or the 
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectinformation">GetNtmsObjectInformation</a> function or the 
 <a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a> function.
 
 ### -field dwType
@@ -408,9 +408,7 @@ Description of the device or system control object. The description of device an
 
 ### -field Info.Computer.case.NTMS_COMPUTER
 
-### -field Info.switch_is
 
-### -field Info.switch_is.dwType
 
 ### -field Info
 

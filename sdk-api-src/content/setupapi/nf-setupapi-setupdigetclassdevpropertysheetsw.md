@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>SetupDiGetClassDevPropertySheets</b> function retrieves handles to the property sheets of a device information element or of the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> of a device information set.
+The <b>SetupDiGetClassDevPropertySheets</b> function retrieves handles to the property sheets of a device information element or of the <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> of a device information set.
 
 ## -parameters
 

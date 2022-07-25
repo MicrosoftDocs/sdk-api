@@ -71,13 +71,14 @@ Returns an <b>HRESULT</b> value. A return code of S_OK indicates to the graph bu
 
 The following example shows how a filter would reverse the steps that are shown in the code example for the <b>IStreamBuilder::Render</b> method:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
 <tr>
 <td>
-<pre>
+
+```
 STDMETHODIMP CMyOutputPin::BackOut(IPin *pPin, IGraphBuilder *pGraph)
 {
     CheckPointer(pPin, E_POINTER);
@@ -108,7 +109,7 @@ STDMETHODIMP CMyOutputPin::BackOut(IPin *pPin, IGraphBuilder *pGraph)
     }
     return hr;
 }
-</pre>
+```
 </td>
 </tr>
 </table></span></div>

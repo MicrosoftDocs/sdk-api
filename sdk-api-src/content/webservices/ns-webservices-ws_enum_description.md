@@ -105,7 +105,9 @@ The following examples illustrates initializing an enum description.  This
                 be <b>NULL</b> instead.
             
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 enum
 {
     Red = 10,
@@ -138,4 +140,6 @@ enumDescription.maxByteCount = 5; // "green"
 enumDescription.values = valueArray;
 enumDescription.valueCount = 3;
 enumDescription.nameIndices = nameIndices;
-</code></pre>
+
+```
+

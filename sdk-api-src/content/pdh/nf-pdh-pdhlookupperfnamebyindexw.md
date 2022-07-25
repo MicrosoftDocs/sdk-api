@@ -116,7 +116,7 @@ You should call this function twice, the first time to get the required buffer s
 
 <b>Windows XP:  </b>You must specify a buffer and buffer size. The function sets <i>pcchNameBufferSize</i> to either the required size or the size of the buffer that was used. If the buffer is too small, the function returns PDH_INSUFFICIENT_BUFFER instead of PDH_MORE_DATA. The maximum string size in bytes is PDH_MAX_COUNTER_NAME * sizeof(TCHAR).
 
-The index value that you specify must match one of the index values associated with the objects or counters that were loaded on the computer. The index/name value pairs are stored in the <b>Counters</b> registry value in the following registry location.<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+The index value that you specify must match one of the index values associated with the objects or counters that were loaded on the computer. The index/name value pairs are stored in the <b>Counters</b> registry value in the following registry location.<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>\SOFTWARE</b>
       <b>\Microsoft</b>
          <b>\Windows NT</b>

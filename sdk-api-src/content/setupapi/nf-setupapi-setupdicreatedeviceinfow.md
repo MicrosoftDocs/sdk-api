@@ -65,7 +65,7 @@ A pointer to a NULL-terminated string that supplies either a full <a href="/wind
 
 ### -param ClassGuid [in]
 
-A pointer to the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> GUID for the device. If the device setup class of the device is not known, set *<i>ClassGuid</i> to a GUID_NULL structure.
+A pointer to the <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> GUID for the device. If the device setup class of the device is not known, set *<i>ClassGuid</i> to a GUID_NULL structure.
 
 ### -param DeviceDescription [in, optional]
 

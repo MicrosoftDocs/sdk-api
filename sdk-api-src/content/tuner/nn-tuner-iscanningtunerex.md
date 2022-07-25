@@ -57,92 +57,10 @@ The <b>IScanningTunerEx</b> interface is an extended version of <a href="/previo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IScanningTunerEx</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtuner">IScanningTuner</a>. <b>IScanningTunerEx</b> also has these types of members:
+The <b>IScanningTunerEx</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtuner">IScanningTuner</a>. <b>IScanningTunerEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IScanningTunerEx</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtunerex-getcurrentlocator">GetCurrentLocator</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current locator object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtunerex-getcurrenttunerstandardcapability">GetCurrentTunerStandardCapability</a>
-</td>
-<td align="left" width="63%">
-Retrieves the tuner's capabilities for a specified broadcast standard.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtunerex-gettunerscanningcapability">GetTunerScanningCapability</a>
-</td>
-<td align="left" width="63%">
-Retrieves the set of broadcast standards supported by the tuner and the tuner's scanning capability.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtunerex-gettunerstatus">GetTunerStatus</a>
-</td>
-<td align="left" width="63%">
-Returns the current status of the most recent call to <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtunerex-performexhaustivescan">PerformExhaustiveScan</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtunerex-performexhaustivescan">PerformExhaustiveScan</a>
-</td>
-<td align="left" width="63%">
-Scans a range of frequencies until the tuner locks onto a signal.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtunerex-resumecurrentscan">ResumeCurrentScan</a>
-</td>
-<td align="left" width="63%">
-Resumes scanning the range of frequencies specified in <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtunerex-performexhaustivescan">PerformExhaustiveScan</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtunerex-setscansignaltypefilter">SetScanSignalTypeFilter</a>
-</td>
-<td align="left" width="63%">
-Specifies the type of signal for which to scan.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtunerex-terminatecurrentscan">TerminateCurrentScan</a>
-</td>
-<td align="left" width="63%">
-Interrupts the current scan, if a scan is in progress.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

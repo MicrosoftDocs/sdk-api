@@ -60,56 +60,10 @@ Enumerates a collection of streams. This is a utility interface, which you can u
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISBE2EnumStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISBE2EnumStream</b> also has these types of members:
+The <b>ISBE2EnumStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISBE2EnumStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ISBE2EnumStream</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2enumstream-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a copy of the enumerator object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2enumstream-next">Next</a>
-</td>
-<td align="left" width="63%">
-Retrieves the next <i>n</i> streams in the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2enumstream-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumeration sequence to the beginning.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2enumstream-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips a specified number of streams in the enumeration sequence.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

@@ -59,11 +59,11 @@ The <b>CopyMetaFile</b> function copies the content of a Windows-format metafile
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A handle to the source Windows-format metafile.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 A pointer to the name of the destination file. If this parameter is <b>NULL</b>, the source metafile is copied to memory.
 

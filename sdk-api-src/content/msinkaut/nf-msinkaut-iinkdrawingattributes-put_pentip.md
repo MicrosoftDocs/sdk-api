@@ -77,7 +77,7 @@ To create a square pen tip, set the <b>PenTip</b> property to <a href="/windows/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846798(v=VS.85).aspx">IInkDrawingAttributes</a>
+<a href="../msinkaut/nn-msinkaut-iinkdrawingattributes.md">IInkDrawingAttributes</a>
 
 
 

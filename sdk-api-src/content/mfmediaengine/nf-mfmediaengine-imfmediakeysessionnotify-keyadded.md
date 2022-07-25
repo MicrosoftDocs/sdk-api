@@ -52,7 +52,7 @@ api_name:
 
 Notifies the application that the key has been added.
 
-## -parameters
+
 
 ## -remarks
 

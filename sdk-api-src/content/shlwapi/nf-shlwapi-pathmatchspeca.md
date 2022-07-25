@@ -63,13 +63,13 @@ Searches a string using a Microsoft MS-DOS wildcard match type.
 
 Type: <b>LPCSTR</b>
 
-A pointer to a null-terminated string of maximum length MAX_PATH that contains the path to be searched.
+A pointer to a null-terminated string that contains the path to be searched.
 
 ### -param pszSpec [in]
 
 Type: <b>LPCSTR</b>
 
-A pointer to a null-terminated string of maximum length MAX_PATH that contains the file type for which to search. For example, to test whether <i>pszFile</i> is a .doc file, <i>pszSpec</i> should be set to "*.doc".
+A pointer to a null-terminated string that contains the file type for which to search. For example, to test whether <i>pszFile</i> is a .doc file, <i>pszSpec</i> should be set to "*.doc".
 
 ## -returns
 

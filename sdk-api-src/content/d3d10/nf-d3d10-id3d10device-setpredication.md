@@ -59,7 +59,7 @@ Set a rendering predicate.
 
 Type: <b><a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10predicate">ID3D10Predicate</a>*</b>
 
-Pointer to a predicate (see <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10predicate">ID3D10Predicate</a>). A <b>NULL</b> value indicates "no" predication; in this case, the value of PredicateValue is irrelevent but will be preserved for <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-getpredication">ID3D10Device::GetPredication</a>.
+Pointer to a predicate (see <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10predicate">ID3D10Predicate</a>). A <b>NULL</b> value indicates "no" predication; in this case, the value of PredicateValue is irrelevant but will be preserved for <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-getpredication">ID3D10Device::GetPredication</a>.
 
 ### -param PredicateValue [in]
 
@@ -73,7 +73,7 @@ The predicate must be in the "issued" or "signaled" state to be used for predica
 
 This method is used to denote that subsequent rendering and resource manipulation commands are not actually performed if the resulting Predicate data of the Predicate is equal to the PredicateValue. However, some Predicates are only hints, so they may not actually prevent operations from being performed. 
 
-The primary usefulness of Predication is to allow an application to issue graphics commands without taking the performance hit of spinning, waiting for <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a> to return. So, Predication can occur while <b>ID3D10Asynchronous::GetData</b> returns S_FALSE. Another way to think of it: an application can also use Predication as a fallback, if it is possible that <b>ID3D10Asynchronous::GetData</b> returns S_FALSE. If <b>ID3D10Asynchronous::GetData</b> returns S_OK, the application can skip calling the graphics commands manually with it's own application logic.
+The primary usefulness of Predication is to allow an application to issue graphics commands without taking the performance hit of spinning, waiting for <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a> to return. So, Predication can occur while <b>ID3D10Asynchronous::GetData</b> returns S_FALSE. Another way to think of it: an application can also use Predication as a fallback, if it is possible that <b>ID3D10Asynchronous::GetData</b> returns S_FALSE. If <b>ID3D10Asynchronous::GetData</b> returns S_OK, the application can skip calling the graphics commands manually with its own application logic.
 
 ## -see-also
 

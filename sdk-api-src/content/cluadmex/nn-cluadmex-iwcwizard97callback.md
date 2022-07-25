@@ -59,39 +59,7 @@ The <b>IWCWizard97Callback</b> interface is called by a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWCWizard97Callback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWCWizard97Callback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWCWizard97Callback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iwcwizard97callback-addwizard97page">AddWizard97Page</a>
-</td>
-<td align="left" width="63%">
-Adds a property page to a Wizard97 wizard.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iwcwizard97callback-enablenext">EnableNext</a>
-</td>
-<td align="left" width="63%">
-Enables or disables the <b>Next</b> or <b>Finish</b> button on a 
-      Wizard97 page, depending on whether the current page is last.
-
-</td>
-</tr>
-</table>
+The <b>IWCWizard97Callback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWCWizard97Callback</b> also has these types of members:
 
 ## -remarks
 

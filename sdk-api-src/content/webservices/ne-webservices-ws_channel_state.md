@@ -54,26 +54,26 @@ The different states that a channel can be in.
 
 ## -enum-fields
 
-### -field WS_CHANNEL_STATE_CREATED
+### -field WS_CHANNEL_STATE_CREATED:0
 
-### -field WS_CHANNEL_STATE_OPENING
+### -field WS_CHANNEL_STATE_OPENING:1
 
-### -field WS_CHANNEL_STATE_ACCEPTING
+### -field WS_CHANNEL_STATE_ACCEPTING:2
 
-### -field WS_CHANNEL_STATE_OPEN
+### -field WS_CHANNEL_STATE_OPEN:3
 
-### -field WS_CHANNEL_STATE_FAULTED
+### -field WS_CHANNEL_STATE_FAULTED:4
 
-### -field WS_CHANNEL_STATE_CLOSING
+### -field WS_CHANNEL_STATE_CLOSING:5
 
-### -field WS_CHANNEL_STATE_CLOSED
+### -field WS_CHANNEL_STATE_CLOSED:6
 
 ## -remarks
 
 The following are the state transitions for a channel.
             
 
-<img alt="" src="./images/ChannelStates.png"/>
+:::image type="content" source="./images/ChannelStates.png" border="false" alt-text="Diagram of the state transitions for a Channel object. A second diagram shows the Sub-states for the Channel's Open state.":::
 
 A channel may move to the <b>WS_CHANNEL_STATE_FAULTED</b> 
                 state even if <a href="/windows/desktop/api/webservices/nf-webservices-wsabortchannel">WsAbortChannel</a> was never called.

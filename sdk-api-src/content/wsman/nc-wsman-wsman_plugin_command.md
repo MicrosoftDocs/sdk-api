@@ -56,7 +56,7 @@ The DLL entry point name must be <b>WSManPluginCommand</b>.
 
 ## -parameters
 
-### -param *requestDetails
+### -param requestDetails
 
 A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
 
@@ -72,7 +72,7 @@ Specifies the context returned from creating the shell for which this command ne
 
 Specifies the command line to be run.
 
-### -param *arguments
+### -param arguments
 
 A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_command_arg_set">WSMAN_COMMAND_ARG_SET</a> structure that specifies  the command-line arguments to be passed to the command.
 

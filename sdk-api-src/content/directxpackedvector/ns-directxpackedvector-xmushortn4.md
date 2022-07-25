@@ -108,7 +108,7 @@ You can use <code>XMUSHORTN4</code> to load instances of <a href="/windows/deskt
 	    <code>XMVECTOR</code> instance.
 	
 
-You can store <code>XMVECTOR</code> instances containing normalized values into <code>XMUSHORTN4</code>using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstoreushortn4">XMStoreUShortN4</a>, which multiplies each component by 65535.0f,
+You can store <code>XMVECTOR</code> instances containing normalized values into <code>XMUSHORTN4</code> using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstoreushortn4">XMStoreUShortN4</a>, which multiplies each component by 65535.0f,
 	    and then rounds the result before assigning the values to the appropriate <code>XMUSHORTN4</code> members.
 	
 

@@ -54,29 +54,7 @@ The <b>ITfEditSession</b> interface is implemented by a text service and used by
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfEditSession</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfEditSession</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfEditSession</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">DoEditSession</a>
-</td>
-<td align="left" width="63%">
-Called to enable a text service to read and/or modify the contents of a context.
-
-</td>
-</tr>
-</table>
+The <b>ITfEditSession</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfEditSession</b> also has these types of members:
 
 ## -remarks
 

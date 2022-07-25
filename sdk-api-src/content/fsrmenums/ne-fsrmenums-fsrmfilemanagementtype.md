@@ -56,19 +56,19 @@ Defines the file management job types.
 
 ## -enum-fields
 
-### -field FsrmFileManagementType_Unknown
+### -field FsrmFileManagementType_Unknown:0
 
 The file management type is unknown; do not use this value.
 
-### -field FsrmFileManagementType_Expiration
+### -field FsrmFileManagementType_Expiration:1
 
 The file management job expires files meeting the specified criteria.
 
-### -field FsrmFileManagementType_Custom
+### -field FsrmFileManagementType_Custom:2
 
 This file management job runs a custom action on files meeting the specified criteria.
 
-### -field FsrmFileManagementType_Rms
+### -field FsrmFileManagementType_Rms:3
 
 The file management jobs runs an RMS action on files meeting the specified criteria.
 

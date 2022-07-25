@@ -54,19 +54,19 @@ Specifies what information the <a href="/previous-versions/windows/desktop/api/p
 
 ## -enum-fields
 
-### -field PSS_WALK_AUXILIARY_PAGES
+### -field PSS_WALK_AUXILIARY_PAGES:0
 
 Returns a <a href="/previous-versions/windows/desktop/api/processsnapshot/ns-processsnapshot-pss_auxiliary_page_entry">PSS_AUXILIARY_PAGE_ENTRY</a> structure, which contains the address, page attributes and contents of an auxiliary copied page.
 
-### -field PSS_WALK_VA_SPACE
+### -field PSS_WALK_VA_SPACE:1
 
 Returns a <a href="/previous-versions/windows/desktop/api/processsnapshot/ns-processsnapshot-pss_va_space_entry">PSS_VA_SPACE_ENTRY</a> structure, which contains the <a href="/windows/desktop/api/winnt/ns-winnt-memory_basic_information">MEMORY_BASIC_INFORMATION</a> structure for every distinct VA region.
 
-### -field PSS_WALK_HANDLES
+### -field PSS_WALK_HANDLES:2
 
 Returns a <a href="/previous-versions/windows/desktop/api/processsnapshot/ns-processsnapshot-pss_handle_entry">PSS_HANDLE_ENTRY</a> structure, with information specifying the handle value, its type name, object name (if captured), basic information (if captured), and type-specific information (if captured).
 
-### -field PSS_WALK_THREADS
+### -field PSS_WALK_THREADS:3
 
 Returns a <a href="/previous-versions/windows/desktop/api/processsnapshot/ns-processsnapshot-pss_thread_entry">PSS_THREAD_ENTRY</a> structure, with basic information about the thread, as well as its termination state, suspend count and Win32 start address.
 

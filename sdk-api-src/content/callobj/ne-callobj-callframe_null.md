@@ -54,19 +54,19 @@ Determines the parameter type to be freed.
 
 ## -enum-fields
 
-### -field CALLFRAME_NULL_NONE
+### -field CALLFRAME_NULL_NONE:0
 
 No values are freed.
 
-### -field CALLFRAME_NULL_INOUT
+### -field CALLFRAME_NULL_INOUT:2
 
 The data referenced by [in, out] parameters are freed.
 
-### -field CALLFRAME_NULL_OUT
+### -field CALLFRAME_NULL_OUT:4
 
 The data referenced by [out] parameters are freed.
 
-### -field CALLFRAME_NULL_ALL
+### -field CALLFRAME_NULL_ALL:6
 
 All [out] and [in, out] parameters are freed.
 

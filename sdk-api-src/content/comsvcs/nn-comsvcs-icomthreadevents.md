@@ -54,74 +54,7 @@ Notifies the subscriber if a single-threaded apartment (STA) is created or termi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComThreadEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComThreadEvents</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IComThreadEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomthreadevents-onthreadassignapartment">OnThreadAssignApartment</a>
-</td>
-<td align="left" width="63%">
-Generated when an activity is assigned to an apartment thread.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomthreadevents-onthreadbindtoapartment">OnThreadBindToApartment</a>
-</td>
-<td align="left" width="63%">
-Generated when an apartment thread is allocated for a single-thread apartment (STA) thread that does not have an apartment thread to run in.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomthreadevents-onthreadstart">OnThreadStart</a>
-</td>
-<td align="left" width="63%">
-Generated when a single-threaded apartment (STA) thread is started.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomthreadevents-onthreadterminate">OnThreadTerminate</a>
-</td>
-<td align="left" width="63%">
-Generated when a single-threaded apartment (STA) thread is terminated.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomthreadevents-onthreadunassignapartment">OnThreadUnassignApartment</a>
-</td>
-<td align="left" width="63%">
-Generated when an activity is unassigned from an apartment thread.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomthreadevents-onthreadunbind">OnThreadUnBind</a>
-</td>
-<td align="left" width="63%">
-Generated when the lifetime of the configured component is over and the activity count on the apartment thread can be decremented.
-
-</td>
-</tr>
-</table>
+The <b>IComThreadEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComThreadEvents</b> also has these types of members:
 
 ## -see-also
 

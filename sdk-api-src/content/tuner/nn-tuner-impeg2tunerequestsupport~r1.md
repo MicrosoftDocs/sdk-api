@@ -58,11 +58,7 @@ The following tuning space objects support the <b>IMPEG2TuneRequestSupport</b> i
 
 ## -inheritance
 
-IMPEG2TuneRequestSupport interits from .
-
-## -members
-
-	The IMPEG2TuneRequestSupport has no additional methods.
+IMPEG2TuneRequestSupport inherits from .
 
 ## -remarks
 

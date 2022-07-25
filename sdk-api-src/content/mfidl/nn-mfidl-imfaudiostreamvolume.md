@@ -57,70 +57,7 @@ The streaming audio renderer (SAR) exposes this interface as a service. To get a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFAudioStreamVolume</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFAudioStreamVolume</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFAudioStreamVolume</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfaudiostreamvolume-getallvolumes">GetAllVolumes</a>
-</td>
-<td align="left" width="63%">
-Retrieves the volume levels for all of the channels in the audio stream.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfaudiostreamvolume-getchannelcount">GetChannelCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of channels in the audio stream.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfaudiostreamvolume-getchannelvolume">GetChannelVolume</a>
-</td>
-<td align="left" width="63%">
-Retrieves the volume level for a specified channel in the audio stream.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfaudiostreamvolume-setallvolumes">SetAllVolumes</a>
-</td>
-<td align="left" width="63%">
-Sets the individual volume levels for all of the channels in the audio stream.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfaudiostreamvolume-setchannelvolume">SetChannelVolume</a>
-</td>
-<td align="left" width="63%">
-Sets the volume level for a specified channel in the audio stream.
-        
-
-</td>
-</tr>
-</table>
+The <b>IMFAudioStreamVolume</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFAudioStreamVolume</b> also has these types of members:
 
 ## -remarks
 

@@ -54,11 +54,11 @@ Duplication flags for use by <a href="/previous-versions/windows/desktop/api/pro
 
 ## -enum-fields
 
-### -field PSS_DUPLICATE_NONE
+### -field PSS_DUPLICATE_NONE:0x00
 
 No flag.
 
-### -field PSS_DUPLICATE_CLOSE_SOURCE
+### -field PSS_DUPLICATE_CLOSE_SOURCE:0x01
 
 Free the source handle. This will only succeed if you set the  <b>PSS_CREATE_USE_VM_ALLOCATIONS</b> flag when you called <a href="/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psscapturesnapshot">PssCaptureSnapshot</a> to create the snapshot and handle. The handle will be freed  even if duplication fails.
 The close operation does not protect against concurrent access to the same descriptor.

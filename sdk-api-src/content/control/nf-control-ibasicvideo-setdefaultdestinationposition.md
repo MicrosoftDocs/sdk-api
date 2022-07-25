@@ -53,7 +53,7 @@ api_name:
 
 The <code>SetDefaultDestinationPosition</code> method reverts to the default destination rectangle. After this method is called, the video renderer uses the entire window for playback.
 
-## -parameters
+
 
 ## -returns
 

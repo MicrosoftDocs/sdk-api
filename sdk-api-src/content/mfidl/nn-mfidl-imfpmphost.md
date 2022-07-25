@@ -55,60 +55,7 @@ Enables a media source in the application process to create objects in the prote
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPMPHost</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFPMPHost</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFPMPHost</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfpmphost-createobjectbyclsid">CreateObjectByCLSID</a>
-</td>
-<td align="left" width="63%">
-Creates an object in the PMP process, from a CLSID.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfpmphost-lockprocess">LockProcess</a>
-</td>
-<td align="left" width="63%">
-Blocks the PMP process from ending.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/medfound/imfpmphost-remotecreateobjectbyclsid">RemoteCreateObjectByCLSID</a>
-</td>
-<td align="left" width="63%">
-Remotable version of <a href="/windows/desktop/api/mfidl/nf-mfidl-imfpmphost-createobjectbyclsid">CreateObjectByCLSID</a>. (Not used by applications.)
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfpmphost-unlockprocess">UnlockProcess</a>
-</td>
-<td align="left" width="63%">
-Decrements the lock count on the PMP process.
-        
-
-</td>
-</tr>
-</table>
+The <b>IMFPMPHost</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFPMPHost</b> also has these types of members:
 
 ## -remarks
 

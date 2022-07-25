@@ -84,7 +84,9 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 ## -remarks
 
-The return type of <b>LoadResource</b> is <b>HGLOBAL</b> for backward compatibility, not because the function returns a handle to a global memory block. Do not pass this handle to the <a href="/windows/desktop/api/winbase/nf-winbase-globallock">GlobalLock</a> or <a href="/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function. To obtain a pointer to the first byte of the resource data, call the <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-lockresource">LockResource</a> function; to obtain the size of the resource, call <a href="https://msdn.microsoft.com/e3eb82a3-15b6-4874-81d3-955d38d42383">SizeofResource</a>. 
+The return type of <b>LoadResource</b> is <b>HGLOBAL</b> for backward compatibility, not because the function returns a handle to a global memory block. Do not pass this handle to the <a href="/windows/desktop/api/winbase/nf-winbase-globallock">GlobalLock</a> or <a href="/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function. To obtain a pointer to the first byte of the resource data, call the <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-lockresource">LockResource</a> function; to obtain the size of the resource, call <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-sizeofresource">SizeofResource</a>. 
+
+[GlobalSize](/windows/desktop/api/winbase/nf-winbase-globalsize) returns 0 for a resource HGLOBAL. As a result, any APIs that depend on GlobalSize to determine the size of the HGLOBAL will not function correctly. For example, use [SHCreateMemStream](/windows/win32/api/shlwapi/nf-shlwapi-shcreatememstream) instead of [CreateStreamOnHGlobal](/windows/win32/api/combaseapi/nf-combaseapi-createstreamonhglobal).
 
 To use a resource immediately, an application should use the following resource-specific functions to find and load the resource in one call.
 
@@ -161,7 +163,7 @@ For example, an application can use the <a href="/windows/win32/api/winuser/nf-w
 
 #### Examples
 
-For an example see <a href="/windows-hardware/drivers/wdf/creating-a-resource-requirements-list">Updating Resources</a>.
+For an example see <a href="/windows/win32/menurc/using-resources#updating-resources">Updating Resources</a>.
 
 <div class="code"></div>
 

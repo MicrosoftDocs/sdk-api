@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - GetPrivateProfileStringA
  - winbase/GetPrivateProfileStringA
@@ -109,11 +109,15 @@ The
 				
 			
 
-<pre class="syntax" xml:space="preserve"><code>[section]
+
+``` syntax
+[section]
 key=string
       .
       .
-      .</code></pre>
+      .
+```
+
 If <i>lpAppName</i> is <b>NULL</b>, 
 <b>GetPrivateProfileString</b> copies all section names in the specified file to the supplied buffer. If <i>lpKeyName</i> is <b>NULL</b>, the function copies all key names in the specified section to the supplied buffer. An application can use this method to enumerate all of the sections and keys in a file. In either case, each string is followed by a <b>null</b> character and the final string is followed by a second <b>null</b> character. If the supplied destination buffer is too small to hold all the strings, the last string is truncated and followed by two <b>null</b> characters.
 
@@ -154,7 +158,31 @@ When looking at values in the registry that specify other registry locations, th
 </ul>
 
 
+## Example
 
+The following example demonstrates the use of **GetPrivateProfileString**.
+
+```cpp
+// Gets a profile string called "Preferred line" and converts it to an int.
+GetPrivateProfileString (
+      "Preference",
+      "Preferred Line",
+      gszNULL, 
+      szBuffer,
+      MAXBUFSIZE,
+      gszINIfilename
+);
+
+// if szBuffer is not empty.
+if ( lstrcmp ( gszNULL, szBuffer ) )
+{
+      dwPreferredPLID = (DWORD) atoi( szBuffer );	
+}
+else	
+{
+      dwPreferredPLID = (DWORD) -1;
+}
+```
 
 > [!NOTE]
 > The winbase.h header defines GetPrivateProfileString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -54,67 +54,7 @@ The <b>INetFwServiceRestriction</b> interface provides access to the Windows Ser
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwServiceRestriction</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwServiceRestriction</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
-
-## -members
-
-The <b>INetFwServiceRestriction</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservicerestriction-get_rules">get_Rules</a>
-</td>
-<td align="left" width="63%">
-Retrieves the collection of Windows Service Hardening network rules.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/netfw/nf-netfw-inetfwservicerestriction-restrictservice">RestrictService</a>
-</td>
-<td align="left" width="63%">
-Turns service restriction on or off for a given service.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservicerestriction-servicerestricted">ServiceRestricted</a>
-</td>
-<td align="left" width="63%">
-Queries the service restriction state of a given service.
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwServiceRestriction</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservicerestriction-get_rules">Rules</a>
-
-
-</td>
-<td align="left" width="63%">
-Retrieves the collection of Windows Service Hardening network rules
-
-</td>
-</tr>
-</table>
+The <b>INetFwServiceRestriction</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwServiceRestriction</b> also has these types of members:
 
 ## -remarks
 

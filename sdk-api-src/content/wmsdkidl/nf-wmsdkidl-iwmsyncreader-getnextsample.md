@@ -59,7 +59,7 @@ The <b>GetNextSample</b> method retrieves the next sample from the file.
 
 ### -param wStreamNum [in]
 
-<b>WORD </b>containing the stream number for which you would like a sample. If you pass zero, the next sample in the file is returned, regardless of stream number.
+<b>WORD</b> containing the stream number for which you would like a sample. If you pass zero, the next sample in the file is returned, regardless of stream number.
 
 ### -param ppSample [out]
 

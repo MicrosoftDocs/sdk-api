@@ -52,7 +52,7 @@ api_name:
 
 Gets the number of bitwise instructions.
 
-## -parameters
+
 
 ## -returns
 

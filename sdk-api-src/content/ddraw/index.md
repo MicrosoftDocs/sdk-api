@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by DirectDraw. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [DirectDraw](../_directdraw/index.md)
+- [DirectShow](../_dshow/index.md)
 

@@ -827,7 +827,7 @@ Specifies the Macintosh descender value for the font. This number is typically l
 
 ### -field fwdMacLineGap
 
-Specifies the Macintosh line gap for the font. The suggested Macintosh interline spacing is equal to <b>fwdMacLineGap</b> + <b>fwdMacAscender</b> âˆ’ <b>fwdMacDescender</b>.
+Specifies the Macintosh line gap for the font. The suggested Macintosh interline spacing is equal to <b>fwdMacLineGap</b> + <b>fwdMacAscender</b> − <b>fwdMacDescender</b>.
 
 ### -field fwdTypoAscender
 

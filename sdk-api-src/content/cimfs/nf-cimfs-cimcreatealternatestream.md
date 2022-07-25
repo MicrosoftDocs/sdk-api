@@ -3,9 +3,8 @@ UID: NF:cimfs.CimCreateAlternateStream
 title: CimCreateAlternateStream
 ms.date: 9/9/2019
 ms.keywords: CimCreateAlternateStream
-ms.topic: language-reference
+tech.root: cimfs
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -28,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - cimfs.h
 api_name:
@@ -58,7 +56,7 @@ A path relative to the image root where the new stream will be created. The path
 ### -param streamSize
 
 Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
-The size of the stream in bytes. The stream may be written only up to this size. Once the stream is created its size cannot be extended. To extend the stream it must be re-created. The stream will be sparsely allocated in the image such that ranges that are never written contains zeros when read.
+The size of the stream in bytes. The stream may be written only up to this size. Once the stream is created its size cannot be extended. To extend the stream it must be re-created. The stream will be sparsely allocated in the image such that ranges that are never written contains zeros when read. 
 
 ### -param cimStreamHandle
 
@@ -75,4 +73,3 @@ HRESULT_FROM_WIN32(ERROR_SHARING_VIOLATION) – The image handle is in use by an
 ## -remarks
 
 ## -see-also
-

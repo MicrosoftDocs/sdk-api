@@ -56,7 +56,7 @@ The <b>SCardUIDlgSelectCard</b> function displays the <a href="/windows/desktop/
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to the 
 <a href="/windows/desktop/api/winscard/ns-winscard-opencardname_exa">OPENCARDNAME_EX</a> structure for the <b>Select Card</b> dialog box.

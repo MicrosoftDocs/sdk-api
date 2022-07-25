@@ -103,4 +103,5 @@ This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 | OutputTensor | Output | 4 | FLOAT32, FLOAT16 |
 
 ## -see-also
+
 [DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC structure](/windows/win32/api/directml/ns-directml-dml_activation_parametric_softplus_operator_desc)

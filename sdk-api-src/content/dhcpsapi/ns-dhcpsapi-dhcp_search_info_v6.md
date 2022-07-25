@@ -107,9 +107,7 @@ LPWSTRUnicode string that specifies the client name to search for.
 
 ### -field SearchInfo.ClientName.case.Dhcpv6ClientName
 
-### -field SearchInfo.switch_is
 
-### -field SearchInfo.switch_is.SearchType
 
 ### -field SearchInfo.switch_type
 

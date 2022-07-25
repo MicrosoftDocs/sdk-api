@@ -58,7 +58,7 @@ The <b>__WSAFDIsSet</b> function specifies whether a socket is included in a set
 
 Descriptor identifying a socket.
 
-### -param arg2
+### -param unnamedParam2
 
 Pointer to an <a href="/windows/desktop/api/winsock/nf-winsock-fd_set">fd_set</a> structure containing the set of socket descriptors. The <b>__WSAFDIsSet</b> function determines whether the socket specified in the <i>fd</i> parameter is a member of that set.
 

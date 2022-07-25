@@ -55,65 +55,7 @@ The <b>IPortableDeviceResources</b> interface provides access to an object's raw
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceResources</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceResources</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPortableDeviceResources</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceresources-cancel">Cancel</a>
-</td>
-<td align="left" width="63%">
-Cancels a pending operation on this interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceresources-delete">Delete</a>
-</td>
-<td align="left" width="63%">
-Deletes one or more resources from an object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceresources-getresourceattributes">GetResourceAttributes</a>
-</td>
-<td align="left" width="63%">
-Retrieves all attributes from a specified resource in an object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceresources-getstream">GetStream</a>
-</td>
-<td align="left" width="63%">
-Gets an <b>IStream</b> interface with which to read or write the content data in an object on a device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceresources-getsupportedresources">GetSupportedResources</a>
-</td>
-<td align="left" width="63%">
-Retrieves a list of resources supported by a specific object.
-
-</td>
-</tr>
-</table>
+The <b>IPortableDeviceResources</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceResources</b> also has these types of members:
 
 ## -see-also
 

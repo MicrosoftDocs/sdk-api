@@ -54,15 +54,15 @@ Contains possible values for the <a href="/windows/desktop/WinAuto/uiauto-textat
 
 ## -enum-fields
 
-### -field CaretPosition_Unknown
+### -field CaretPosition_Unknown:0
 
 The caret is not at the beginning or the end of a line.
 
-### -field CaretPosition_EndOfLine
+### -field CaretPosition_EndOfLine:1
 
 The caret is at the end of a line.
 
-### -field CaretPosition_BeginningOfLine
+### -field CaretPosition_BeginningOfLine:2
 
 The caret is at the beginning of a line.
 

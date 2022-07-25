@@ -54,92 +54,10 @@ The <code>IKsTopologyInfo</code> interface enumerates the nodes in a stream clas
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsTopologyInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsTopologyInfo</b> also has these types of members:
+The <b>IKsTopologyInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsTopologyInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IKsTopologyInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-createnodeinstance">CreateNodeInstance</a>
-</td>
-<td align="left" width="63%">
-Creates a COM object that represents a node in the filter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_category">get_Category</a>
-</td>
-<td align="left" width="63%">
-Returns one of the filter categories for this stream class driver.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_connectioninfo">get_ConnectionInfo</a>
-</td>
-<td align="left" width="63%">
-Returns information about one node connection in the filter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_nodename">get_NodeName</a>
-</td>
-<td align="left" width="63%">
-Returns the name of the node.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_nodetype">get_NodeType</a>
-</td>
-<td align="left" width="63%">
-Returns the node type for a given node.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_numcategories">get_NumCategories</a>
-</td>
-<td align="left" width="63%">
-Returns the number of categories for this filter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_numconnections">get_NumConnections</a>
-</td>
-<td align="left" width="63%">
-Returns the number of node connections within the filter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_numnodes">get_NumNodes</a>
-</td>
-<td align="left" width="63%">
-Returns the number of nodes in the filter.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

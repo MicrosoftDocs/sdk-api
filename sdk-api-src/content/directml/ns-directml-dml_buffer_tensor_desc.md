@@ -88,7 +88,7 @@ If <i>Strides</i> is not specified, each dimension in the tensor is considered t
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
-Defines a minimum size in bytes for the buffer that will contain this tensor. <i>TotalTensorSizeInBytes</i> must be at least as large as the minimum implied size given the sizes, strides, and data type of the tensor. You can calculate the minimum implied size by calling the [DMLCalcBufferTensorSize](/windows/desktop/direct3d12/dml-helper-functions#dmlcalcbuffertensorsize) utility free function.
+Defines a minimum size in bytes for the buffer that will contain this tensor. <i>TotalTensorSizeInBytes</i> must be at least as large as the minimum implied size given the sizes, strides, and data type of the tensor. You can calculate the minimum implied size by calling the [DMLCalcBufferTensorSize](/windows/ai/directml/dml-helper-functions#dmlcalcbuffertensorsize) utility free function.
 
 Providing a <i>TotalTensorSizeInBytes</i> that is larger than the minimum implied size may enable additional optimizations by allowing DirectML to elide bounds checking in some cases if the <i>TotalTensorSizeInBytes</i> defines sufficient padding beyond the end of the tensor data.
 
@@ -110,4 +110,4 @@ Although this member is optional, for best performance we recommend that you ali
 
 ## -see-also
 
-[Binding in DirectML](/windows/desktop/direct3d12/dml-binding)
+[Binding in DirectML](/windows/ai/directml/dml-binding)

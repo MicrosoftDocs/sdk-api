@@ -166,7 +166,7 @@ Returned if cookie data retrieved is larger than the buffer size pointed to by t
 </dl>
 </td>
 <td width="60%">
-Returned if either the  <i>pchURL</i> or the <i>pcchCookieData</i> parameter is <b>NULL</b>.
+Returned if either the <i>pchURL</i> or the <i>pcchCookieData</i> parameter is <b>NULL</b>.
 
 </td>
 </tr>

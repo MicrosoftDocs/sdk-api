@@ -55,7 +55,7 @@ The <i>EditWordBreakProcEx</i> function is an application defined  callback func
 
 ## -parameters
 
-### -param *pchText [in]
+### -param pchText [in]
 
 Type: <b>char*</b>
 

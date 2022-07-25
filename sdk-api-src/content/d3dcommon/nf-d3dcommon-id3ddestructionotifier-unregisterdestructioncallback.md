@@ -56,7 +56,7 @@ The **UINT** that was created by the *pCallbackID* argument to <b><a href="/wind
 
 Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
 
-If this function suceeds, it returns **S_OK**.
+If this function succeeds, it returns **S_OK**.
 
 ## -see-also
 

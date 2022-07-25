@@ -54,56 +54,7 @@ Exposes methods that create <a href="/windows/desktop/api/shimgdata/nn-shimgdata
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellImageDataFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellImageDataFactory</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IShellImageDataFactory</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedatafactory-createimagefromfile">CreateImageFromFile</a>
-</td>
-<td align="left" width="63%">
-Creates an instance of the <a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> interface based on a given file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedatafactory-createimagefromstream">CreateImageFromStream</a>
-</td>
-<td align="left" width="63%">
-Creates an instance of the <a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> interface based on a given file stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedatafactory-createishellimagedata">CreateIShellImageData</a>
-</td>
-<td align="left" width="63%">
-Creates an instance of the <a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedatafactory-getdataformatfrompath">GetDataFormatFromPath</a>
-</td>
-<td align="left" width="63%">
-Determines a file's format based on its extension.
-
-</td>
-</tr>
-</table>
+The <b>IShellImageDataFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellImageDataFactory</b> also has these types of members:
 
 ## -remarks
 

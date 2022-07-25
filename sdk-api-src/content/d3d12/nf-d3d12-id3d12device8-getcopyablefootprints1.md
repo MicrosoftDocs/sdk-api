@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device8.GetCopyableFootprints1
 title: ID3D12Device8::GetCopyableFootprints1
-description: Gets a resource layout that can be copied. Helps your app fill in [D3D12_PLACED_SUBRESOURCE_FOOTPRINT](./ns-d3d12-d3d12_placed_subresource_footprint.md) and [D3D12_SUBRESOURCE_FOOTPRINT](./ns-d3d12-d3d12_subresource_footprint.md) when suballocating space in upload heaps.
+description: Gets a resource layout that can be copied. Helps your app fill in [D3D12_PLACED_SUBRESOURCE_FOOTPRINT](../d3d12/ns-d3d12-d3d12_placed_subresource_footprint.md) and [D3D12_SUBRESOURCE_FOOTPRINT](../d3d12/ns-d3d12-d3d12_subresource_footprint.md) when suballocating space in upload heaps.
 helpviewer_keywords: ["ID3D12Device8 interface","GetCopyableFootprints1 method","ID3D12Device8.GetCopyableFootprints1","ID3D12Device8::GetCopyableFootprints1","GetCopyableFootprints1","GetCopyableFootprints1 method","GetCopyableFootprints1 method","ID3D12Device8 interface","direct3d12.id3d12device7_getcopyablefootprints1","d3d12/ID3D12Device8::GetCopyableFootprints1"]
 tech.root: direct3d12
 ms.date: 09/16/2020
@@ -19,8 +19,8 @@ req.lib: d3d12.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Gets a resource layout that can be copied. Helps your app fill in [D3D12_PLACED_SUBRESOURCE_FOOTPRINT](./ns-d3d12-d3d12_placed_subresource_footprint.md) and [D3D12_SUBRESOURCE_FOOTPRINT](./ns-d3d12-d3d12_subresource_footprint.md) when suballocating space in upload heaps.
+Gets a resource layout that can be copied. Helps your app fill in [D3D12_PLACED_SUBRESOURCE_FOOTPRINT](/windows/win32/api/d3d12/ns-d3d12-d3d12_placed_subresource_footprint) and [D3D12_SUBRESOURCE_FOOTPRINT](/windows/win32/api/d3d12/ns-d3d12-d3d12_subresource_footprint) when suballocating space in upload heaps.
 
 ## -parameters
 

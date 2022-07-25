@@ -57,74 +57,7 @@ Provides methods to query information and enumerate related objects for a <a hre
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsStoragePool</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsStoragePool</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVdsStoragePool</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsstoragepool-getattributes">GetAttributes</a>
-</td>
-<td align="left" width="63%">
-Returns the attributes of a storage pool.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsstoragepool-getproperties">GetProperties</a>
-</td>
-<td align="left" width="63%">
-Returns the properties of a storage pool.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsstoragepool-getprovider">GetProvider</a>
-</td>
-<td align="left" width="63%">
-Returns the hardware provider that manages the storage pool.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsstoragepool-queryallocatedluns">QueryAllocatedLuns</a>
-</td>
-<td align="left" width="63%">
-Returns an object that enumerates the allocated LUNs for a storage pool.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsstoragepool-queryallocatedstoragepools">QueryAllocatedStoragePools</a>
-</td>
-<td align="left" width="63%">
-Returns an object that enumerates the allocated storage pools that are managed by the provider.BD
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsstoragepool-querydriveextents">QueryDriveExtents</a>
-</td>
-<td align="left" width="63%">
-Returns an array of the drive extents that are used by a storage pool.
-
-</td>
-</tr>
-</table>
+The <b>IVdsStoragePool</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsStoragePool</b> also has these types of members:
 
 ## -see-also
 

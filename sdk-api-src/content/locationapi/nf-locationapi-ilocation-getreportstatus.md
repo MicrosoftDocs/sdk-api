@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a> API.
 ]
 
 Retrieves the status for the specified report type.
@@ -61,7 +61,7 @@ Retrieves the status for the specified report type.
 
 <b>REFIID</b> that specifies the report type for which to get the interval.
 
-### -param arg2 [out]
+### -param pStatus [out]
 
 Address of a <a href="/windows/desktop/api/locationapi/ne-locationapi-location_report_status">LOCATION_REPORT_STATUS</a> that receives the current status for the specified report.
 
@@ -173,7 +173,7 @@ int wmain()
 
             // Request permissions for this user account to receive location data for all the
             // types defined in REPORT_TYPES (which is currently just one report)
-            // TRUE means an synchronous request.
+            // TRUE means a synchronous request.
             if (FAILED(pLocation->RequestPermissions(NULL, REPORT_TYPES, ARRAYSIZE(REPORT_TYPES), TRUE))) 
             {
                 wprintf_s(L"Warning: Unable to request permissions.\n");
@@ -184,7 +184,7 @@ int wmain()
             hr = ::WaitForLocationReport(pLocation, IID_ILatLongReport, dwTimeToWait, &pLocationReport);
             if (SUCCEEDED(hr))
             {
-                wprintf_s(L"Succesfully received data via GetReport().\n");
+                wprintf_s(L"Successfully received data via GetReport().\n");
                 pLocationReport->Release();
             }
             else if (RPC_S_CALLPENDING == hr)

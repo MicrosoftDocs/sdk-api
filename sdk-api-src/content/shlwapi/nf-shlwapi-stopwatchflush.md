@@ -54,7 +54,7 @@ api_name:
 
 Writes out performance statistics if performance logging is enabled.
 
-## -parameters
+
 
 ## -returns
 

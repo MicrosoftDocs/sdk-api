@@ -55,53 +55,5 @@ The <code>IEnumStreamIdMap</code> interface is implemented on a standard COM col
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumStreamIdMap</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumStreamIdMap</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IEnumStreamIdMap</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumStreamIdMap</b> also has these types of members:
 
-## -members
-
-The <b>IEnumStreamIdMap</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ienumstreamidmap-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a new copy of the collection and all its sub-objects.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ienumstreamidmap-next">Next</a>
-</td>
-<td align="left" width="63%">
-Retrieves the next <i>n</i> elements in the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ienumstreamidmap-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Moves the iterator to the beginning of the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ienumstreamidmap-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips over the specified element in the collection.
-
-</td>
-</tr>
-</table>

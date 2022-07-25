@@ -71,7 +71,7 @@ A handle to the service control manager database. The
 
 The name of the service to be opened. This is the name specified by the <i>lpServiceName</i> parameter of the <a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function when the service object was created, not the service display name that is shown by user interface applications to identify the service. 
 
-The maximum string length is 256 characters. The service control manager database preserves the case of the characters, but service name comparisons are always case insensitive. Forward-slash (/) and backslash (\) are invalid service name characters.
+The maximum string length is 256 characters. The service control manager database preserves the case of the characters, but service name comparisons are always case insensitive. Forward-slash (/) and backslash (\\) are invalid service name characters.
 
 ### -param dwDesiredAccess [in]
 

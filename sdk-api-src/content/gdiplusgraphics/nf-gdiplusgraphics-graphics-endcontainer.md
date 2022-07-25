@@ -74,12 +74,12 @@ If the method fails, it returns one of the other elements of the
 ## -remarks
 
 When you call the <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit)">Graphics::BeginContainer</a> method of a 
-				<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>object, an information block that holds the state of the 
-				<b>Graphics</b>object is put on a stack. The <b>Graphics::BeginContainer</b> method returns a value that identifies that information block. When you pass the identifying value to the <b>Graphics::EndContainer</b> method, the information block is removed from the stack and is used to restore the 
-				<b>Graphics</b>object to the state it was in at the time of the <b>Graphics::BeginContainer</b> call.
+				<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object, an information block that holds the state of the 
+				<b>Graphics</b> object is put on a stack. The <b>Graphics::BeginContainer</b> method returns a value that identifies that information block. When you pass the identifying value to the <b>Graphics::EndContainer</b> method, the information block is removed from the stack and is used to restore the 
+				<b>Graphics</b> object to the state it was in at the time of the <b>Graphics::BeginContainer</b> call.
 
 Containers can be nested; that is, you can call the <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit)">Graphics::BeginContainer</a> method several times before you call the <b>Graphics::EndContainer</b> method. Each time you call the <b>Graphics::BeginContainer</b> method, an information block is put on the stack, and you receive an identifier for the information block. When you pass one of those identifiers to the <b>Graphics::EndContainer</b> method, the 
-				<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>object is returned to the state it was in at the time of the <b>Graphics::BeginContainer</b> call that returned that particular identifier. The information block placed on the stack by that <b>Graphics::BeginContainer</b> call is removed from the stack, and all information blocks placed on that stack after that <b>Graphics::BeginContainer</b> call are also removed.
+				<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object is returned to the state it was in at the time of the <b>Graphics::BeginContainer</b> call that returned that particular identifier. The information block placed on the stack by that <b>Graphics::BeginContainer</b> call is removed from the stack, and all information blocks placed on that stack after that <b>Graphics::BeginContainer</b> call are also removed.
 
 Calls to the <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-save">Graphics::Save</a> method place information blocks on the same stack as calls to the <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit)">Graphics::BeginContainer</a> method. Just as an <b>Graphics::EndContainer</b> call is paired with a <b>Graphics::BeginContainer</b> call, a <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-restore">Graphics::Restore</a> call is paired with a <b>Graphics::Save</b> call.
 
@@ -91,7 +91,7 @@ Calls to the <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-gr
 
 
 The following example creates a 
-						<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>object and sets its clipping region. The code begins a container and sets an additional clipping region for the container. The code fills a rectangle twice: once inside the container, and once outside the container (after the call to <b>Graphics::EndContainer</b>).
+						<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object and sets its clipping region. The code begins a container and sets an additional clipping region for the container. The code fills a rectangle twice: once inside the container, and once outside the container (after the call to <b>Graphics::EndContainer</b>).
 
 
 ```cpp

@@ -134,7 +134,7 @@ This operation or combination of parameters is not supported by this provider.
 
 ## -remarks
 
-Use <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-setflags">IVdsDrive::SetFlags</a>to set drive flags and <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-getproperties">IVdsDrive::GetProperties</a>to get currently set flags.
+Use <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-setflags">IVdsDrive::SetFlags</a> to set drive flags and <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-getproperties">IVdsDrive::GetProperties</a> to get currently set flags.
 
 ## -see-also
 

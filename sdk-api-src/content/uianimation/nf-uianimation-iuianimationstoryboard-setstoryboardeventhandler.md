@@ -58,8 +58,7 @@ Specifies a handler for storyboard events.
 
 The handler to be called whenever storyboard status and update events occur.
             
-            The specified object must implement the
-            <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboardeventhandler">IUIAnimationStoryboardEventHandler</a> interface or be <b>NULL</b>. See Remarks.
+The specified object must implement the <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboardeventhandler">IUIAnimationStoryboardEventHandler</a> interface or be <b>NULL</b>. See Remarks.
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Determines whether the socket is in exclusive mode.
 
-## -parameters
+
 
 ## -returns
 

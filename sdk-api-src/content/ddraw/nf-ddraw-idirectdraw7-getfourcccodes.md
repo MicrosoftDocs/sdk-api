@@ -54,11 +54,11 @@ Retrieves the four-character codes (FOURCC) that are supported by the DirectDraw
 
 ## -parameters
 
-### -param arg1 [in, out]
+### -param unnamedParam1 [in, out]
 
 A pointer to a variable that contains the number of entries that the array specified by <i>lpCodes</i> can hold. If the number of entries is too small to accommodate all the codes, <i>lpNumCodes</i> is set to the required number, and the array specified by <i>lpCodes</i> is filled with all that fits.
 
-### -param arg2 [in, out]
+### -param unnamedParam2 [in, out]
 
 An array of variables to be filled with FOURCCs that are supported by this DirectDraw object. If you specify NULL, <i>lpNumCodes</i> is set to the number of supported FOURCCs, and the method returns.
 

@@ -56,7 +56,7 @@ Identifies the type of UDP message.
 
 ## -enum-fields
 
-### -field ONE_WAY
+### -field ONE_WAY:0
 
 The message is a one-way UDP message without a corresponding response. Hello and Bye messages are one-way messages.
 

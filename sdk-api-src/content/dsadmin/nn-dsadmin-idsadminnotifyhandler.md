@@ -54,56 +54,7 @@ The <b>IDsAdminNotifyHandler</b> interface is implemented by an Active Directory
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsAdminNotifyHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsAdminNotifyHandler</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDsAdminNotifyHandler</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-begin">Begin</a>
-</td>
-<td align="left" width="63%">
-Called when an event, that the notification handler has requested, occurs.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-end">End</a>
-</td>
-<td align="left" width="63%">
-Called after the notification event has occurred. This method is called even if the notification process is canceled.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Called to initialize the  notification  handler.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-notify">Notify</a>
-</td>
-<td align="left" width="63%">
-Called once for each object after the confirmation dialog box has been displayed and the notification handler was selected in the confirmation dialog box.
-
-</td>
-</tr>
-</table>
+The <b>IDsAdminNotifyHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsAdminNotifyHandler</b> also has these types of members:
 
 ## -see-also
 

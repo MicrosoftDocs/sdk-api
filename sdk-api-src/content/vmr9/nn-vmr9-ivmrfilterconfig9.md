@@ -55,83 +55,10 @@ The <code>IVMRFilterConfig9</code> interface is implemented by the <a href="/win
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRFilterConfig9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRFilterConfig9</b> also has these types of members:
+The <b>IVMRFilterConfig9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRFilterConfig9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IVMRFilterConfig9</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-getnumberofstreams">GetNumberOfStreams</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of input streams being mixed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-getrenderingmode">GetRenderingMode</a>
-</td>
-<td align="left" width="63%">
-Retrieves the rendering mode currently being used by the VMR.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-getrenderingprefs">GetRenderingPrefs</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current set of rendering preferences being used by the VMR.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setimagecompositor">SetImageCompositor</a>
-</td>
-<td align="left" width="63%">
-Installs an application-provided image compositor object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setnumberofstreams">SetNumberOfStreams</a>
-</td>
-<td align="left" width="63%">
-Sets the number of streams to be mixed and instructs the VMR to go into mixer mode.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingmode">SetRenderingMode</a>
-</td>
-<td align="left" width="63%">
-Sets the rendering mode used by the VMR.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingprefs">SetRenderingPrefs</a>
-</td>
-<td align="left" width="63%">
-Sets various application preferences related to video rendering.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

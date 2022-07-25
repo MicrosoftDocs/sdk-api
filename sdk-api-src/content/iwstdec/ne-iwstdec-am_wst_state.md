@@ -58,7 +58,7 @@ The <b>AM_WST_STATE</b> enumeration specifies whether WST closed captioning is e
 
 ## -enum-fields
 
-### -field AM_WST_STATE_Off
+### -field AM_WST_STATE_Off:0
 
 Specifies that WST closed captioning is enabled.
 

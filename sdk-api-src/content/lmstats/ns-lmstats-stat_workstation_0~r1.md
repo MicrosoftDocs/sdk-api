@@ -1,7 +1,7 @@
 ---
 UID: NS:lmstats._STAT_WORKSTATION_0~r1
 title: STAT_WORKSTATION_0
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: _STAT_WORKSTATION_0, STAT_WORKSTATION_0
 targetos: Windows
 req.construct-type: structure
@@ -13,8 +13,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: STAT_WORKSTATION_0, *PSTAT_WORKSTATION_0, *LPSTAT_WORKSTATION_0
 req.umdf-ver: 

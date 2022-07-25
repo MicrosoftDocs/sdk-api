@@ -106,7 +106,7 @@ If no point is specified, the rotation is centered around the origin.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846805(v=VS.85).aspx">IInkRenderer</a>
+<a href="../msinkaut/nn-msinkaut-iinkrenderer.md">IInkRenderer</a>
 
 
 

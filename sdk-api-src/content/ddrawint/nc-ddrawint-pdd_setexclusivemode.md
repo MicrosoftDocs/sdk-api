@@ -51,7 +51,7 @@ The <i>DdSetExclusiveMode</i> callback function notifies the driver when a Direc
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_setexclusivemodedata">DD_SETEXCLUSIVEMODEDATA</a> structure that contains the notification information.
 

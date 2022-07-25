@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>WritePropertyNames</b> method
-			assigns string <a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>names to a specified array of property IDs in the current property set.
+			assigns string <a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> names to a specified array of property IDs in the current property set.
 
 ## -parameters
 

@@ -60,7 +60,7 @@ Pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure t
 
 ### -param psz [out]
 
-Pointer to a SIZE structure that recevies the preferred size, in pixels, of the bitmap. The <b>cy</b> member of this structure is ignored.
+Pointer to a SIZE structure that receives the preferred size, in pixels, of the bitmap. The <b>cy</b> member of this structure is ignored.
 
 ## -returns
 

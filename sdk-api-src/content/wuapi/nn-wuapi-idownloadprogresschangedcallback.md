@@ -54,26 +54,5 @@ Handles the notification that indicates a change in the progress of an asynchron
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDownloadProgressChangedCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDownloadProgressChangedCallback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDownloadProgressChangedCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDownloadProgressChangedCallback</b> also has these types of members:
 
-## -members
-
-The <b>IDownloadProgressChangedCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wuapi/nf-wuapi-idownloadprogresschangedcallback-invoke">Invoke</a>
-</td>
-<td align="left" width="63%">
-Handles the notification of a change in the progress of an asynchronous download that was  initiated by calling <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-begindownload">IUpdateDownloader.BeginDownload</a>.
-
-</td>
-</tr>
-</table>

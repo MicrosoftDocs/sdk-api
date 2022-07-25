@@ -56,7 +56,7 @@ provides similar functionality.]
 The 
 <b>Reset</b> method resets to the beginning of the enumeration sequence.
 
-## -parameters
+
 
 ## -returns
 

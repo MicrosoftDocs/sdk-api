@@ -52,7 +52,7 @@ api_name:
 
 Abandons all active storyboards.
 
-## -parameters
+
 
 ## -returns
 
@@ -60,10 +60,9 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 ## -remarks
 
-Calling this method is equivalent to calling the <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-abandon">IUIAnimationStoryboard::Abandon</a>method for each active storyboard.
+Calling this method is equivalent to calling the <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-abandon">IUIAnimationStoryboard::Abandon</a> method for each active storyboard.
          
-         A storyboard is considered active if its status is <b>UI_ANIMATION_STORYBOARD_PLAYING</b> 
-         or <b>UI_ANIMATION_STORYBOARD_SCHEDULED</b>.
+A storyboard is considered active if its status is <b>UI_ANIMATION_STORYBOARD_PLAYING</b> or <b>UI_ANIMATION_STORYBOARD_SCHEDULED</b>.
 
 ## -see-also
 

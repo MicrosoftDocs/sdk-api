@@ -67,7 +67,7 @@ An identifier of the pointer for which to retrieve information.
 
 ### -param entriesCount [in, out]
 
-A pointer to a variable that specifies the count of structures in the buffer to which pointerInfo points. If <b>GetPointerInfoHistory</b> succceeds, <i>entriesCount</i>  is updated with the total count of structures available. The total count of structures available is the same as the <b>historyCount</b> field of the <a href="/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a> structure returned by a call to <a href="/windows/desktop/api/winuser/nf-winuser-getpointerinfo">GetPointerInfo</a>.
+A pointer to a variable that specifies the count of structures in the buffer to which pointerInfo points. If <b>GetPointerInfoHistory</b> succeeds, <i>entriesCount</i>  is updated with the total count of structures available. The total count of structures available is the same as the <b>historyCount</b> field of the <a href="/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a> structure returned by a call to <a href="/windows/desktop/api/winuser/nf-winuser-getpointerinfo">GetPointerInfo</a>.
 
 ### -param pointerInfo [out, optional]
 
@@ -96,7 +96,7 @@ If the calling thread does not own the window (where the input was originally de
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
+<a href="/windows/win32/inputmsg/functions">Functions</a>
 
 
 

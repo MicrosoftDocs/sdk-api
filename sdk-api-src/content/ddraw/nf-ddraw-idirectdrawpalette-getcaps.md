@@ -50,7 +50,7 @@ Retrieves the capabilities of the palette object.
 
 ## -parameters
 
-### -param arg1 [out]
+### -param unnamedParam1 [out]
 
 A pointer to a variable that receives a value from the <b>dwPalCaps</b> member of the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddcaps_dx3">DDCAPS</a> structure that defines palette capabilities. This value consists of one or more of the following flags.
 

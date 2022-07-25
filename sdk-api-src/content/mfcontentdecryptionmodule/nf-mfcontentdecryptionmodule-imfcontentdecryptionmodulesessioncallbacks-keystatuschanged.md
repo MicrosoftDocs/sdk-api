@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleSessionCallbacks.KeyStatusChanged
 title: IMFContentDecryptionModuleSessionCallbacks::KeyStatusChanged
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: 
 tech.root: mf
@@ -44,13 +43,15 @@ dev_langs:
 
 Called when there has been a change in the keys in the Content Decryption Module (CDM) session or their status.
 
+
+
 ## -returns
 
 Returns S_OK.
 
 ## -remarks
 
-Get the current status of the CDM session keys by calling [IMFContentDecryptionModuleSession::GetKeyStatuses](nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-getkeystatuses). 
+Get the current status of the CDM session keys by calling [IMFContentDecryptionModuleSession::GetKeyStatuses](nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-getkeystatuses.md). 
 
 **KeyStatusChanged** is based on the Encrypted Media Extension specification's [keystatuseschange](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#dom-evt-keystatuseschange).
 

@@ -59,38 +59,10 @@ Applications do not use this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_TIF_REGISTRATION</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_TIF_REGISTRATION</b> also has these types of members:
+The <b>IBDA_TIF_REGISTRATION</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_TIF_REGISTRATION</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IBDA_TIF_REGISTRATION</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ibda_tif_registration-registertifex">RegisterTIFEx</a>
-</td>
-<td align="left" width="63%">
-Registers the TIF with the Network Provider.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ibda_tif_registration-unregistertif">UnregisterTIF</a>
-</td>
-<td align="left" width="63%">
-Unregisters the TIF with the Network Provider.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

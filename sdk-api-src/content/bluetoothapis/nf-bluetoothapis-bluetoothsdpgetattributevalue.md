@@ -23,7 +23,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Bthprops.lib
-req.dll: Bthprops.dll
+req.dll: bthprops.cpl
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -40,7 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - Bthprops.dll
+ - bthprops.cpl
  - BluetoothAPIs.dll
  - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
@@ -107,7 +107,7 @@ The identifier provided in <i>usAttributeId</i> was not found in the record.
 
 ## -remarks
 
-The record stream in <i>pRecordStream</i>must be an SDP stream formatted as an SDP record, a SEQUENCE
+The record stream in <i>pRecordStream</i> must be an SDP stream formatted as an SDP record, a SEQUENCE
 containing attribute ID (UINT16) plus attribute value (any SDP element type) pairs.
 
 The attribute identifier provided in the <i>usAttributeId</i> parameter can be one of the many SDP_ATTRIB_Xxx universal attribute identifiers provided in the bthdef.h file, or a custom attribute value defined by a Bluetooth profile. All values greater than or equal to 0x200 are profile-specific attribute identifiers, and are specific to the profile. See the bthdef.h header file for a list of universal SDP attribute identifiers.

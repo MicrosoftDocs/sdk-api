@@ -70,7 +70,7 @@ A pointer to a valid <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_cor
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -82,7 +82,7 @@ Multiple <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> values
 
 You can suppress the display of the <b>Customize</b> page of your known folder's Properties window. To do so, set the following registry REG_DWORD value:
 
-                <pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Windows</b>

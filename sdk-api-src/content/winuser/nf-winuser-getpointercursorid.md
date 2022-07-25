@@ -83,4 +83,4 @@ For pointer types that derive from these cursor objects, an application can use 
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
+<a href="/windows/win32/inputmsg/functions">Functions</a>

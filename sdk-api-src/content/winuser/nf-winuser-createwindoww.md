@@ -56,6 +56,24 @@ Creates an overlapped, pop-up, or child window. It specifies the window class, w
 
 To use extended window styles in addition to the styles supported by <b>CreateWindow</b>, use the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function.
 
+## -syntax
+
+```cpp
+HWND CreateWindowW(
+  [in, optional]  lpClassName,
+  [in, optional]  lpWindowName,
+  [in]            dwStyle,
+  [in]            x,
+  [in]            y,
+  [in]            nWidth,
+  [in]            nHeight,
+  [in, optional]  hWndParent,
+  [in, optional]  hMenu,
+  [in, optional]  hInstance,
+  [in, optional]  lpParam
+);
+```
+
 ## -parameters
 
 ### -param lpClassName [in, optional]
@@ -130,6 +148,14 @@ Type: <b>LPVOID</b>
 A pointer to a value to be passed to the window through the <a href="/windows/desktop/api/winuser/ns-winuser-createstructa">CREATESTRUCT</a> structure (<b>lpCreateParams</b> member) pointed to by the <i>lParam</i> param of the <a href="/windows/desktop/winmsg/wm-create">WM_CREATE</a> message.  This message is sent to the created window by this function before it returns.
 
 If an application calls <b>CreateWindow</b> to create a MDI client window, <i>lpParam</i> should point to a <a href="/windows/desktop/api/winuser/ns-winuser-clientcreatestruct">CLIENTCREATESTRUCT</a> structure. If an MDI client window calls <b>CreateWindow</b> to create an MDI child window, <i>lpParam</i> should point to a <a href="/windows/desktop/api/winuser/ns-winuser-mdicreatestructa">MDICREATESTRUCT</a> structure. <i>lpParam</i> may be <b>NULL</b> if no additional data is needed.
+
+## Returns
+
+Type: <b>HWND</b>
+
+If the function succeeds, the return value is a handle to the new window.
+
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -238,7 +264,9 @@ For a table of the static control styles you can specify in the <i>dwStyle</i> p
 
 <b>CreateWindow</b> is implemented as a call to the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function, as shown below.
 
-<pre class="syntax" xml:space="preserve"><code>#define CreateWindowA(lpClassName, lpWindowName, dwStyle, x, y, nWidth, nHeight, hWndParent, hMenu, hInstance, lpParam)\
+
+``` syntax
+#define CreateWindowA(lpClassName, lpWindowName, dwStyle, x, y, nWidth, nHeight, hWndParent, hMenu, hInstance, lpParam)\
 CreateWindowExA(0L, lpClassName, lpWindowName, dwStyle, x, y, nWidth, nHeight, hWndParent, hMenu, hInstance, lpParam)
 
 #define CreateWindowW(lpClassName, lpWindowName, dwStyle, x, y, nWidth, nHeight, hWndParent, hMenu, hInstance, lpParam)\
@@ -248,7 +276,9 @@ CreateWindowExW(0L, lpClassName, lpWindowName, dwStyle, x, y, nWidth, nHeight, h
 #define CreateWindow  CreateWindowW
 #else
 #define CreateWindow  CreateWindowA
-#endif</code></pre>
+#endif
+```
+
 
 #### Examples
 

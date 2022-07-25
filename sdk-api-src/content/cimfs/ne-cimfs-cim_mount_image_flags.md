@@ -2,10 +2,9 @@
 UID: NE:cimfs.CIM_MOUNT_IMAGE_FLAGS
 title: CIM_MOUNT_IMAGE_FLAGS
 ms.date: 9/9/2019
+tech.root: cimfs
 ms.keywords: CIM_MOUNT_IMAGE_FLAGS
-ms.topic: language-reference
 targetos: Windows
-product: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: cimfs.h
@@ -36,15 +35,14 @@ Flags that can be used to modify the behavior of CimMountImage.
 
 ## -enum-fields
 
-### -field CIM_MOUNT_IMAGE_NONE
+### -field CIM_MOUNT_IMAGE_NONE:0x00000000
 
 When no flags are specified the mounted image will contain the entire contents of the image.
 
-### -field CIM_MOUNT_CHILD_ONLY
+### -field CIM_MOUNT_CHILD_ONLY:0x00000001
 
-Specifies that the mounted image should contain only the contents of the leaf node child of a forked image. The parent image contents are masked in the mounted image.
+This flag is ignored.
 
 ## -remarks
 
 ## -see-also
-

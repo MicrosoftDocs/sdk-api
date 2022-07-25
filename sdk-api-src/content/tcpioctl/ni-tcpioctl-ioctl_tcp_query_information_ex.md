@@ -75,27 +75,21 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-<text></text>
 
 ### -input-buffer-length
 
-<text></text>
 
 ### -output-buffer
 
-<text></text>
 
 ### -output-buffer-length
 
-<text></text>
 
 ### -in-out-buffer
 
-<text></text>
 
 ### -inout-buffer-length
 
-<text></text>
 
 ### -status-block
 
@@ -183,7 +177,7 @@ If the <b>ID.toi_entity</b> member of the input
 				structures returned by the enumeration request above), then setting the <b>ID.toi_class</b> to 
 				<b>INFO_CLASS_GENERIC</b>, the <b>ID.toi_type</b> to 
 				<b>INFO_TYPE_PROVIDER</b>, and the <b>ID.toi_id</b> to 
-				<b>ENTITY_TYPE_ID</b> causes one or more flag values to be returned into an <b>unsigned long</b>pointed to by the <i>lpOutBuffer</i> parameter. These flag values identify the type of the specified entity. Once again, the 
+				<b>ENTITY_TYPE_ID</b> causes one or more flag values to be returned into an <b>unsigned long</b> pointed to by the <i>lpOutBuffer</i> parameter. These flag values identify the type of the specified entity. Once again, the 
 				<b>Context</b> member of the input structure is ignored.
 
 The possible type-flag values that can be returned are shown in the following table.

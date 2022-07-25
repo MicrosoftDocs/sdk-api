@@ -56,46 +56,46 @@ Used by <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcatalogmanag
 
 ## -enum-fields
 
-### -field CATALOG_PAUSED_REASON_NONE
+### -field CATALOG_PAUSED_REASON_NONE:0
 
 Not paused.
 
-### -field CATALOG_PAUSED_REASON_HIGH_IO
+### -field CATALOG_PAUSED_REASON_HIGH_IO:1
 
 Paused due to high I/O.
 
-### -field CATALOG_PAUSED_REASON_HIGH_CPU
+### -field CATALOG_PAUSED_REASON_HIGH_CPU:2
 
 Paused due to high CPU usage.
 
-### -field CATALOG_PAUSED_REASON_HIGH_NTF_RATE
+### -field CATALOG_PAUSED_REASON_HIGH_NTF_RATE:3
 
 Paused due to high NTF rate.
 
-### -field CATALOG_PAUSED_REASON_LOW_BATTERY
+### -field CATALOG_PAUSED_REASON_LOW_BATTERY:4
 
 Paused due to low battery.
 
-### -field CATALOG_PAUSED_REASON_LOW_MEMORY
+### -field CATALOG_PAUSED_REASON_LOW_MEMORY:5
 
 Paused due to low memory.
 
-### -field CATALOG_PAUSED_REASON_LOW_DISK
+### -field CATALOG_PAUSED_REASON_LOW_DISK:6
 
 Paused due to low disk space.
 
-### -field CATALOG_PAUSED_REASON_DELAYED_RECOVERY
+### -field CATALOG_PAUSED_REASON_DELAYED_RECOVERY:7
 
 Paused due to need for delayed recovery.
 
-### -field CATALOG_PAUSED_REASON_USER_ACTIVE
+### -field CATALOG_PAUSED_REASON_USER_ACTIVE:8
 
 Paused due to user activity.
 
-### -field CATALOG_PAUSED_REASON_EXTERNAL
+### -field CATALOG_PAUSED_REASON_EXTERNAL:9
 
 Paused by external request.
 
-### -field CATALOG_PAUSED_REASON_UPGRADING
+### -field CATALOG_PAUSED_REASON_UPGRADING:10
 
 Paused by upgrading.

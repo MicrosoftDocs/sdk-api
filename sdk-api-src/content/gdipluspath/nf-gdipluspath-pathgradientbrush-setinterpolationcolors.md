@@ -97,7 +97,7 @@ A simple path gradient brush has two colors: a boundary color and a center color
 
 
 The following example creates a 
-						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object based on a triangular path. The 
+						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object based on a triangular path. The 
 						<b>PathGradientBrush::SetInterpolationColors</b> method sets the brush's preset colors to red, blue, and aqua and sets the blend positions to 0, 0, 4, and 1. The 
 						<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillrectangle(inconstbrush_inconstrect_)">Graphics::FillRectangle</a> method uses the path gradient brush to paint a rectangle that contains the triangular path.
 

@@ -54,47 +54,7 @@ Extends the capabilities of <a href="/windows/desktop/api/shobjidl_core/nn-shobj
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICommDlgBrowser2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser">ICommDlgBrowser</a>. <b>ICommDlgBrowser2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ICommDlgBrowser2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icommdlgbrowser2-getdefaultmenutext">GetDefaultMenuText</a>
-</td>
-<td align="left" width="63%">
-Called by the Shell view to get the default shortcut menu text.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icommdlgbrowser2-getviewflags">GetViewFlags</a>
-</td>
-<td align="left" width="63%">
-Called when the view must determine if special customization needs to be made for the common dialog browser.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icommdlgbrowser2-notify">Notify</a>
-</td>
-<td align="left" width="63%">
-Called by a Shell view to notify the common dialog box hosting it that an event has occurred.
-
-</td>
-</tr>
-</table>
+The <b>ICommDlgBrowser2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser">ICommDlgBrowser</a>. <b>ICommDlgBrowser2</b> also has these types of members:
 
 ## -remarks
 

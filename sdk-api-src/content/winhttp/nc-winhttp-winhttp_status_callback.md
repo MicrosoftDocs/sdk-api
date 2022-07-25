@@ -393,7 +393,7 @@ Because callbacks are made during the processing of the request, the application
 
 The callback function can be called in a thread context different from the thread that initiated the request.
 
-Similarly, there is no callback thread afinity when you call WinHttp asynchronously: a call might start from one thread, but any other thread can receive the callback.
+Similarly, there is no callback thread affinity when you call WinHttp asynchronously: a call might start from one thread, but any other thread can receive the callback.
 
 
 <div class="alert"><b>Note</b>  For more information about implementation in Windows XP and Windows 2000, see <a href="/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a>.</div>

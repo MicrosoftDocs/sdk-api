@@ -56,6 +56,8 @@ Gets or sets whether an accessible technology client receives all events, or a s
 
 This property is read/write.
 
+## -parameters
+
 ## -remarks
 
 > ### Parameters

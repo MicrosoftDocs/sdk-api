@@ -56,7 +56,7 @@ Creates one or more new placeholder files or directories under a sync root tree.
 
 ### -param BaseDirectoryPath [in]
 
-Local directory path under which placeholders are created.
+Path to the local directory in which the placeholders are created. This path must be under the sync root of the provider.
 
 ### -param PlaceholderArray [in, out]
 
@@ -76,7 +76,7 @@ The number of entries processed, including failed entries.
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

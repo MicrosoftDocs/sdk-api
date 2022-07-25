@@ -54,38 +54,10 @@ The <code>IAMNetShowPreroll</code> interface sets and retrieves the preroll sett
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMNetShowPreroll</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMNetShowPreroll</b> also has these types of members:
+The <b>IAMNetShowPreroll</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMNetShowPreroll</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IAMNetShowPreroll</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowpreroll-get_preroll">get_Preroll</a>
-</td>
-<td align="left" width="63%">
-Queries whether the filter is currently prerolling.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowpreroll-put_preroll">put_Preroll</a>
-</td>
-<td align="left" width="63%">
-Specifies whether the filter should start prerolling.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

@@ -50,7 +50,7 @@ Sets the maximum level of detail (LOD) for a managed mipmap surface. This method
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The maximum LOD value to be set for the mipmap chain if the call succeeds.
 

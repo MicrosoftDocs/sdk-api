@@ -13,8 +13,8 @@ req.header: d3d12.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -39,11 +39,11 @@ Defines constants that specify protected session status.
 
 ## -enum-fields
 
-### -field D3D12_PROTECTED_SESSION_STATUS_OK
+### -field D3D12_PROTECTED_SESSION_STATUS_OK:0
 
 Indicates that the protected session is in a valid state.
 
-### -field D3D12_PROTECTED_SESSION_STATUS_INVALID
+### -field D3D12_PROTECTED_SESSION_STATUS_INVALID:1
 
 Indicates that the protected session is not in a valid state.
 

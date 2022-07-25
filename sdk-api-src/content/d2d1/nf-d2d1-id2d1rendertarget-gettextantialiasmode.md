@@ -52,7 +52,7 @@ api_name:
 
 Gets the current antialiasing mode for text and glyph drawing operations.
 
-## -parameters
+
 
 ## -returns
 

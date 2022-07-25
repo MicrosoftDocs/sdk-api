@@ -213,7 +213,11 @@ For the purposes of this document, a typical URL is divided into three sections:
 
                 
 
-<pre class="syntax" xml:space="preserve"><code>http://microsoft.com/test.asp?url=/example/abc.asp?frame=true#fragment</code></pre>
+
+``` syntax
+http://microsoft.com/test.asp?url=/example/abc.asp?frame=true#fragment
+```
+
 The server portion is "http://microsoft.com/". The trailing forward slash is considered part of the server portion.
                 
                 

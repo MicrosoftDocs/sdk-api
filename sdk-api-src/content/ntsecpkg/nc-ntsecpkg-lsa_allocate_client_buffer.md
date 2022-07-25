@@ -65,7 +65,7 @@ Pointer to an opaque
 
 Length of the buffer needed, in bytes.
 
-### -param *ClientBaseAddress [out]
+### -param ClientBaseAddress [out]
 
 Pointer that receives the address of the buffer. This address is the virtual address of the buffer within the client process, not in the current process.
 

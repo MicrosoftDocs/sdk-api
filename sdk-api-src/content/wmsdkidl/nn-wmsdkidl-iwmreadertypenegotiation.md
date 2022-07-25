@@ -56,31 +56,10 @@ An <b>IWMReaderTypeNegotiation</b> interface exists for every reader object. You
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMReaderTypeNegotiation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMReaderTypeNegotiation</b> also has these types of members:
+The <b>IWMReaderTypeNegotiation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMReaderTypeNegotiation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMReaderTypeNegotiation</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadertypenegotiation-tryoutputprops">TryOutputProps</a>
-</td>
-<td align="left" width="63%">
-Determines whether certain changes to the properties of an output are possible.
-
-</td>
-</tr>
-</table> 
-
-For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="/windows/desktop/wmformat/reader-object">Reader Object</a>.
 
 ## -see-also
 

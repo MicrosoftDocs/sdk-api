@@ -53,7 +53,7 @@ req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 1
 
 Disables the window ghosting feature for the calling GUI process. Window ghosting is a Windows Manager feature that lets the user minimize, move, or close the main window of an application that is not responding.
 
-## -parameters
+
 
 ## -remarks
 

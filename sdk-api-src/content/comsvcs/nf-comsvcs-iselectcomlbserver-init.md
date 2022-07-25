@@ -52,7 +52,7 @@ api_name:
 
 Initializes the load balancing server object.
 
-## -parameters
+
 
 ## -returns
 

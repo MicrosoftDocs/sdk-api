@@ -56,65 +56,7 @@ An instance of this interface is associated with a specific instance of the <a h
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsProtocolConnectionCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsProtocolConnectionCallback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWRdsProtocolConnectionCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnectioncallback-brokenconnection">BrokenConnection</a>
-</td>
-<td align="left" width="63%">
-Informs the Remote Desktop Services service that the client connection has been lost.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnectioncallback-getconnectionid">GetConnectionId</a>
-</td>
-<td align="left" width="63%">
-Retrieves the connection identifier.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnectioncallback-onready">OnReady</a>
-</td>
-<td align="left" width="63%">
-Requests that the Remote Desktop Services service continue the connection process for that client.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnectioncallback-redrawwindow">RedrawWindow</a>
-</td>
-<td align="left" width="63%">
-Requests that the Remote Desktop Services service redraw the client window.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnectioncallback-stopscreenupdates">StopScreenUpdates</a>
-</td>
-<td align="left" width="63%">
-Requests that the Remote Desktop Services service stop updating the client screen.
-
-</td>
-</tr>
-</table>
+The <b>IWRdsProtocolConnectionCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsProtocolConnectionCallback</b> also has these types of members:
 
 ## -remarks
 

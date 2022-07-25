@@ -56,7 +56,7 @@ Creates a write-only bundle object to which encrypted Windows app packages can b
 
 ### -param outputStream [in]
 
-A writeable stream for writing the resulting encrypted app bundle.
+A writable stream for writing the resulting encrypted app bundle.
 
 ### -param bundleVersion [in]
 

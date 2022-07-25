@@ -61,7 +61,7 @@ The
 Name of the volume that contains shadow copy storage areas.
       
 
-The name of the volume must be in one of the following formats and must include a trailing backslash (\):
+The name of the volume must be in one of the following formats and must include a trailing backslash (\\):
        <ul>
 <li>The path of a mounted folder, for example, Y:\MountX\</li>
 <li>A drive letter, for example, 

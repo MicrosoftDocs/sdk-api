@@ -3,12 +3,11 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticRecordLocaleTags
 title: DdqGetDiagnosticRecordLocaleTags
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticRecordLocaleTags
-ms.topic: language-reference
-description: Fetches information for all known tags under the specified locale and provides a handle, HDIAGNOSTIC_EVENT_TAG_DESCRIPTION, to the data. An example locale would be “en-US”. An example return value is a DIAGNOSTIC_EVENT_TAG_DESCRIPTION resource that contains the following data: tag: 11, name: “Device Connectivity and Configuration” and description: “Data that describes the connections and configuration of the devices connected to the service and the network, including device identifiers (e.g IP addresses) configuration, setting and performance”.
+description: "Fetches information for all known tags under the specified locale and provides a handle, HDIAGNOSTIC_EVENT_TAG_DESCRIPTION, to the data. An example locale would be “en-US”. An example return value is a DIAGNOSTIC_EVENT_TAG_DESCRIPTION resource that contains the following data: tag: 11, name: “Device Connectivity and Configuration” and description: “Data that describes the connections and configuration of the devices connected to the service and the network, including device identifiers (e.g IP addresses) configuration, setting and performance”."
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -31,7 +30,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - diagnosticdataquery.h
 api_name:

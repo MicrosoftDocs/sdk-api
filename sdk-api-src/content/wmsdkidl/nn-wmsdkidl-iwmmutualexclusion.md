@@ -58,59 +58,10 @@ You can manage the streams in a mutual exclusion object using the methods of the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMMutualExclusion</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamlist">IWMStreamList</a>. <b>IWMMutualExclusion</b> also has these types of members:
+The <b>IWMMutualExclusion</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamlist">IWMStreamList</a>. <b>IWMMutualExclusion</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMMutualExclusion</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion-gettype">GetType</a>
-</td>
-<td align="left" width="63%">
-Retrieves the GUID of the type of mutual exclusion required.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion-settype">SetType</a>
-</td>
-<td align="left" width="63%">
-Specifies the GUID of the type of mutual exclusion required.
-
-</td>
-</tr>
-</table> 
-
-The following interface can be obtained by using the QueryInterface method of this interface.
-
-<table>
-<tr>
-<th>Interface</th>
-<th>IID</th>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamlist">IWMStreamList</a>
-</td>
-<td>IID_IWMStreamList</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion2">IWMMutualExclusion2</a>
-</td>
-<td>IID_IWMMutualExclusion2</td>
-</tr>
-</table>
 
 ## -see-also
 

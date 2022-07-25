@@ -66,16 +66,16 @@ parameter 'cert'.
 
 ## -parameters
 
-### -param *getCertCallbackState [in]
+### -param getCertCallbackState [in]
 
 State that was specified along with this callback in the certificate credential.
 
-### -param *targetAddress [in, optional]
+### -param targetAddress [in, optional]
 
 The target address to whom this certificate is to be presented, in
 case this certificate credential is specified for a client.
 
-### -param *viaUri [in, optional]
+### -param viaUri [in, optional]
 
 The via address to whom this certificate is to be presented.
                 
@@ -85,7 +85,7 @@ The via address to whom this certificate is to be presented.
 
 The location to return the certificate.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 

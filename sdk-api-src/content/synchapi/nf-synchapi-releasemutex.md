@@ -4,7 +4,7 @@ title: ReleaseMutex function (synchapi.h)
 description: Releases ownership of the specified mutex object.
 helpviewer_keywords: ["ReleaseMutex","ReleaseMutex function","_win32_releasemutex","base.releasemutex","synchapi/ReleaseMutex","winbase/ReleaseMutex"]
 old-location: base\releasemutex.htm
-tech.root: backup
+tech.root: base
 ms.assetid: c3e4daa8-92de-455c-847c-ea59225b3aa2
 ms.date: 12/05/2018
 ms.keywords: ReleaseMutex, ReleaseMutex function, _win32_releasemutex, base.releasemutex, synchapi/ReleaseMutex, winbase/ReleaseMutex

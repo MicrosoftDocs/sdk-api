@@ -52,7 +52,7 @@ api_name:
 
 Gets the duration of the media source in 100-nanosecond units.
 
-## -parameters
+
 
 ## -returns
 

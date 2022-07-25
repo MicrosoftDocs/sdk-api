@@ -54,83 +54,7 @@ Enables development tool applications to dynamically control system and user sta
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IApplicationDesignModeSettings2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings">IApplicationDesignModeSettings</a>. <b>IApplicationDesignModeSettings2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IApplicationDesignModeSettings2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-getapplicationsizebounds">GetApplicationSizeBounds</a>
-</td>
-<td align="left" width="63%">
-This methods retrieves the size bounds supported by the application.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-getapplicationvieworientation">GetApplicationViewOrientation</a>
-</td>
-<td align="left" width="63%">
-Gets the orientation of the application design mode window.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-setadjacentdisplayedges">SetAdjacentDisplayEdges</a>
-</td>
-<td align="left" width="63%">
-Sets whether the application window will be  adjacent to the edge of the emulated display.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-setapplicationviewminwidth">SetApplicationViewMinWidth</a>
-</td>
-<td align="left" width="63%">
-Sets the desired minimum width of the application design mode window.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-setapplicationvieworientation">SetApplicationViewOrientation</a>
-</td>
-<td align="left" width="63%">
-Sets the window orientation used for the design mode window.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-setisonlockscreen">SetIsOnLockScreen</a>
-</td>
-<td align="left" width="63%">
-This method determines whether or not the application, in design mode, can display information on the Windows 8 lock screen.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-setnativedisplayorientation">SetNativeDisplayOrientation</a>
-</td>
-<td align="left" width="63%">
-Sets the orientation of the emulated display for the design mode window.
-
-</td>
-</tr>
-</table>
+The <b>IApplicationDesignModeSettings2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings">IApplicationDesignModeSettings</a>. <b>IApplicationDesignModeSettings2</b> also has these types of members:
 
 ## -remarks
 
@@ -139,8 +63,9 @@ This interface is acquired by cocreating CLSID_ApplicationDesignModeSettings. It
 
 #### Examples
 
-In this example, Visual Studio is launching an application in design mode that has overridden the minimum width on a display of size 1366x768. It is then enabling a slider control that allows the user to dynamically change the applications width. To do this, it needs to use the new <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-setapplicationviewminwidth">SetApplicationViewMinWidth</a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-getapplicationsizebounds">GetApplicationSizeBounds</a>APIs to compute the minimum and maximum sizes allowed for this type of application.
+In this example, Visual Studio is launching an application in design mode that has overridden the minimum width on a display of size 1366x768. It is then enabling a slider control that allows the user to dynamically change the applications width. To do this, it needs to use the new <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-setapplicationviewminwidth">SetApplicationViewMinWidth</a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-getapplicationsizebounds">GetApplicationSizeBounds</a> APIs to compute the minimum and maximum sizes allowed for this type of application.
 
+For more info about **IInitializeWithWindow::Initialize**, see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects#winui-3-with-c).
 
 ```cpp
 ComPtr<IApplicationDesignModeSettings> spDesignModeSettings;

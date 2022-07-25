@@ -54,38 +54,7 @@ Represents a buffer that contains a two-dimensional surface, such as a video fra
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMF2DBuffer2</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>. <b>IMF2DBuffer2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMF2DBuffer2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer2-copy2dto">Copy2DTo</a>
-</td>
-<td align="left" width="63%">
-Copies the buffer to another 2D buffer object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer2-lock2dsize">Lock2DSize</a>
-</td>
-<td align="left" width="63%">
-Gives the caller access to the memory in the buffer.
-
-</td>
-</tr>
-</table>
+The <b>IMF2DBuffer2</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>. <b>IMF2DBuffer2</b> also has these types of members:
 
 ## -remarks
 

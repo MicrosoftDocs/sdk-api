@@ -69,7 +69,7 @@ When handling certain window messages, changing the <b>Renderer</b> associated w
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="../msinkaut/nn-msinkaut-iinkpicture.md">IInkPicture</a>
 
 
 

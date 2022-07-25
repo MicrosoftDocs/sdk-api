@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 <b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
 
@@ -58,6 +58,6 @@ Specifies the different types of WinML runtimes.
 
 ## -enum-fields
 
-### -field WINML_RUNTIME_CNTK
+### -field WINML_RUNTIME_CNTK:0
 
 Runtime type of CNTK.

@@ -55,7 +55,7 @@ api_name:
 
 The <b>SendLogParams</b> method sends log entries to the originating server. Call this method after calling <b>AddLogParam</b>.
 
-## -parameters
+
 
 ## -returns
 

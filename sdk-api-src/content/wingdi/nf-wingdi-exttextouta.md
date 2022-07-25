@@ -305,6 +305,13 @@ For the ANSI version of <b>ExtTextOut</b>, the <i>lpDx</i> array has the same nu
 Note, the <i>alpDx</i> values from <a href="/windows/desktop/api/wingdi/nf-wingdi-gettextextentexpointa">GetTextExtentExPoint</a> are not the same as the <i>lpDx</i> values for <b>ExtTextOut</b>. To use the <i>alpDx</i> values in <i>lpDx</i>, you must first process them.
 
 
+**ExtTextOut** will use [Uniscribe](/windows/win32/intl/uniscribe) when necessary resulting in font fallback. The ETO_IGNORELANGUAGE flag will inhibit this behavior and should not be passed.
+
+Additionally, **ExtTextOut** will perform internal batching of calls before transitioning to kernel mode, mitigating some of the performance concerns when weighing usage of **PolyTextOut** versus **ExtTextOut**.
+
+> [!TIP]
+>  **ExtTextOut** is strongly recommended over **PolyTextOut** for modern development due to its ability to handle display of different languages.
+
 #### Examples
 
 For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="/windows/desktop/menurc/using-menus">Using Menus</a>.

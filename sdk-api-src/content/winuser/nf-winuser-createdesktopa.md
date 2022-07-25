@@ -66,7 +66,7 @@ To specify the size of the heap for the desktop, use the <a href="/windows/deskt
 
 ### -param lpszDesktop [in]
 
-The name of the desktop to be created. Desktop names are case-insensitive and may not contain backslash characters (\).
+The name of the desktop to be created. Desktop names are case-insensitive and may not contain backslash characters (\\).
 
 ### -param lpszDevice
 

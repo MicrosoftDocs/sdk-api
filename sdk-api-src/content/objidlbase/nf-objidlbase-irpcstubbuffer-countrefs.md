@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the total number of references that a stub has on the server object to which it is connected.
 
-## -parameters
+
 
 ## -returns
 

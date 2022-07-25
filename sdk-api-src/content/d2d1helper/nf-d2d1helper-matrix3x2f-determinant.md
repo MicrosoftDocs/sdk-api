@@ -52,7 +52,7 @@ api_name:
 
 Calculates the determinant of the matrix.
 
-## -parameters
+
 
 ## -returns
 

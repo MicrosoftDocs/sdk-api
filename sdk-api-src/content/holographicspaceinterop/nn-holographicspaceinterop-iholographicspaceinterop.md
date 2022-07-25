@@ -1,7 +1,7 @@
 ---
 UID: NN:holographicspaceinterop.IHolographicSpaceInterop
 title: IHolographicSpaceInterop (holographicspaceinterop.h)
-description: Enables interoperability with a Universal Windows Platform (UWP) HolographicSpace object and provides access to HolographicSpace members for representing a holographic scene.
+description: Enables interoperability with a WinRT HolographicSpace object and provides access to HolographicSpace members for representing a holographic scene.
 helpviewer_keywords: ["IHolographicSpaceInterop","IHolographicSpaceInterop interface","IHolographicSpaceInterop interface","described","MixedReality.iholographicspaceinterop","holographicspaceinterop/IHolographicSpaceInterop"]
 old-location: mixedreality\iholographicspaceinterop.htm
 tech.root: MixedReality
@@ -49,15 +49,7 @@ api_name:
 
 ## -description
 
-Enables interoperability with a Univeral Windows Platform (UWP) [HolographicSpace](/uwp/api/windows.graphics.holographic.holographicspace) object, and provides access to **HolographicSpace** members for representing a holographic scene.
-
-## -members
-
-The **ISpatialInteractionManagerInterop** interface has these methods.
-
-|Method|Description|
-|-|-|
-|[CreateForWindow](nf-holographicspaceinterop-iholographicspaceinterop-createforwindow.md)|Instantiates a [HolographicSpace](/uwp/api/windows.graphics.holographic.holographicspace) object, and binds it to the current application.|
+Enables interoperability with a WinRT [HolographicSpace](/uwp/api/windows.graphics.holographic.holographicspace) object, and provides access to **HolographicSpace** members for representing a holographic scene.
 
 ## -see-also
 

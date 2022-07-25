@@ -50,15 +50,15 @@ Do not use. This callback function is superseded by the <a href="/windows/deskto
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to the <b>IDirectDrawSurface4</b> interface of the attached surface.
 
-### -param Arg2 [in]
+### -param unnamedParam2 [in]
 
 A pointer to a <a href="/previous-versions/windows/hardware/drivers/ff550340(v=vs.85)">DDSURFACEDESC2</a> structure that describes the attached surface.
 
-### -param Arg3 [in]
+### -param unnamedParam3 [in]
 
 A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
 

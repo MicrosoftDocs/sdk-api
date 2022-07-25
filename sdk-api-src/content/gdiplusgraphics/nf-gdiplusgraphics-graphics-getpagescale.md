@@ -54,7 +54,7 @@ api_name:
 The <b>Graphics::GetPageScale</b> method gets the scaling factor currently set for the page transformation of this 
 			<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object. The page transformation converts page coordinates to device coordinates.
 
-## -parameters
+
 
 ## -returns
 

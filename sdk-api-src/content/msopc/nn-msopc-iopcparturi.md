@@ -54,48 +54,7 @@ Represents the part name of a part.  If the part is a Relationships part, it is 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpcPartUri</b> interface inherits from <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcuri">IOpcUri</a>. <b>IOpcPartUri</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IOpcPartUri</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcparturi-compareparturi">ComparePartUri</a>
-</td>
-<td align="left" width="63%">
-Returns an integer that indicates whether the URIs represented by the current part URI object and a specified part URI object are equivalent.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcparturi-getsourceuri">GetSourceUri</a>
-</td>
-<td align="left" width="63%">
-              Gets  the source URI of the relationships that are stored in a  Relationships part. The  current part URI object represents the part name of that Relationships part.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcparturi-isrelationshipsparturi">IsRelationshipsPartUri</a>
-</td>
-<td align="left" width="63%">
-Returns a value that indicates whether the current part URI object represents the part name of a Relationships part.
-
-</td>
-</tr>
-</table>
+The <b>IOpcPartUri</b> interface inherits from <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcuri">IOpcUri</a>. <b>IOpcPartUri</b> also has these types of members:
 
 ## -remarks
 

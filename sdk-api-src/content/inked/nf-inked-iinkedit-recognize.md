@@ -53,7 +53,7 @@ api_name:
 
 Performs recognition on an <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection and returns recognition results.
 
-## -parameters
+
 
 ## -returns
 
@@ -90,7 +90,7 @@ An exception occurred inside the method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="../inked/nn-inked-iinkedit.md">IInkEdit</a>
 
 
 

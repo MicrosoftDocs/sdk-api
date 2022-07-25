@@ -57,56 +57,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetSharingPortMapping</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetSharingPortMapping</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>INetSharingPortMapping</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingportmapping-delete">Delete</a>
-</td>
-<td align="left" width="63%">
-Deletes the port mapping.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingportmapping-disable">Disable</a>
-</td>
-<td align="left" width="63%">
-Disables the port mapping.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingportmapping-enable">Enable</a>
-</td>
-<td align="left" width="63%">
-Enables the port mapping.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingportmapping-get_properties">get_Properties</a>
-</td>
-<td align="left" width="63%">
-Retrieves the properties for the port mapping.
-
-</td>
-</tr>
-</table>
+The <b>INetSharingPortMapping</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetSharingPortMapping</b> also has these types of members:
 
 ## -remarks
 

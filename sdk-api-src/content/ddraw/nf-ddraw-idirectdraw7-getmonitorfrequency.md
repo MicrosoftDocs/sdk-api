@@ -50,7 +50,7 @@ Retrieves the frequency of the monitor that the DirectDraw object controls.
 
 ## -parameters
 
-### -param arg1 [out]
+### -param unnamedParam1 [out]
 
 A pointer to a variable that receives the monitor frequency, in Hertz (Hz).
 

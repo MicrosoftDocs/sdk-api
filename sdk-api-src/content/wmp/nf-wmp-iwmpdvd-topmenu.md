@@ -52,7 +52,7 @@ api_name:
 
 The <b>topMenu</b> method stops playback and displays the top (or root) menu for the current title.
 
-## -parameters
+
 
 ## -returns
 

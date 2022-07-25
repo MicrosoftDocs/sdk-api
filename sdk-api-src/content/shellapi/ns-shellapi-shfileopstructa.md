@@ -269,7 +269,7 @@ A pointer to the title of a progress dialog box. This is a null-terminated strin
 
 <div class="alert"><b>Important</b>  You must ensure that the source and destination paths are double-null terminated. A normal string ends in just a single null character. If you pass that value in either the source or destination members, the function will not realize when it has reached the end of the string and will continue to read on in memory until it comes to a random double null value. This can at least lead to a buffer overrun, and possibly the unintended deletion of unrelated data.
 
-                </div>
+</div>
 <div> </div>
 
 ```cpp
@@ -290,7 +290,7 @@ It cannot be overstated that your paths should always be full paths. If the <b>p
 
 If you do not provide a full path, the following facts become pertinent:
                 
-                    <ul>
+<ul>
 <li>The lack of a path before a file name does not indicate to <a href="/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> that this file resides in the root of the current directory.</li>
 <li>The PATH environment variable is not used by <a href="/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> to determine a valid path.</li>
 <li>

@@ -111,7 +111,7 @@ The destination address specified by <i>destIPAddr</i> is invalid.
 </dl>
 </td>
 <td width="60%">
-The request is not supported. This error is returned if either an IPv4 or IPv6 stack is not present on the local computer but  either an IPv4 or IPv6 address was specified by<i>destIPAddr</i>.
+The request is not supported. This error is returned if either an IPv4 or IPv6 stack is not present on the local computer but either an IPv4 or IPv6 address was specified by <i>destIPAddr</i>.
 
 </td>
 </tr>

@@ -49,6 +49,8 @@ api_name:
 
 Retrieves a description of the protected resource session.
 
+
+
 ## -returns
 
 A [D3D12_PROTECTED_RESOURCE_SESSION_DESC](./ns-d3d12-d3d12_protected_resource_session_desc.md) that describes the protected resource session.

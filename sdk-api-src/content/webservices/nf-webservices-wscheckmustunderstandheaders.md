@@ -141,9 +141,9 @@ Standard addressing headers, such as the ones defined in <a href="/windows/deskt
 
 Custom, application-defined headers that are read by <a href="/windows/desktop/api/webservices/nf-webservices-wsgetcustomheader">WsGetCustomHeader</a> are also assumed to be understood. Calling <b>WsGetCustomHeader</b> will automatically mark the particular header as understood.
 
-For any  other header processed by the application, the application must explicity mark the header as understood by calling <a href="/windows/desktop/api/webservices/nf-webservices-wsmarkheaderasunderstood">WsMarkHeaderAsUnderstood</a>. Otherwise, the header is considered to not be understood.
+For any  other header processed by the application, the application must explicitly mark the header as understood by calling <a href="/windows/desktop/api/webservices/nf-webservices-wsmarkheaderasunderstood">WsMarkHeaderAsUnderstood</a>. Otherwise, the header is considered to not be understood.
 
-This function should be called after all headers have been read for a received message. An exception to having to call this function is the case of an intermediary that forwards the message to another node without changing it's identity (message ID), since the final node will do the check. 
+This function should be called after all headers have been read for a received message. An exception to having to call this function is the case of an intermediary that forwards the message to another node without changing its identity (message ID), since the final node will do the check. 
 
 
 

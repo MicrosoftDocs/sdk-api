@@ -54,65 +54,7 @@ Retrieves information about a payload or footprint file in a package.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxFile</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxFile</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAppxFile</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfile-getcompressionoption">GetCompressionOption</a>
-</td>
-<td align="left" width="63%">
-Retrieves the compression option that is used to store the file in the package.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfile-getcontenttype">GetContentType</a>
-</td>
-<td align="left" width="63%">
-Retrieves the content type of the file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfile-getname">GetName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the name of the file, including its path relative to the package root directory.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfile-getsize">GetSize</a>
-</td>
-<td align="left" width="63%">
-Retrieves the uncompressed size of the file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfile-getstream">GetStream</a>
-</td>
-<td align="left" width="63%">
-Gets a read-only stream that contains the uncompressed content of the file.
-
-</td>
-</tr>
-</table>
+The <b>IAppxFile</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxFile</b> also has these types of members:
 
 ## -see-also
 

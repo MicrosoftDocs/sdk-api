@@ -58,29 +58,10 @@ The <b>IWMDRMReader3</b> interface enables content transcription by providing a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDRMReader3</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader2">IWMDRMReader2</a>. <b>IWMDRMReader3</b> also has these types of members:
+The <b>IWMDRMReader3</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader2">IWMDRMReader2</a>. <b>IWMDRMReader3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMDRMReader3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader3-getinclusionlist">GetInclusionList</a>
-</td>
-<td align="left" width="63%">
-Retrieves a list of identifiers specifying approved protection systems.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

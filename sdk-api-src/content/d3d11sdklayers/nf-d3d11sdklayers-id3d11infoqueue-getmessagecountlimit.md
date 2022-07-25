@@ -53,7 +53,7 @@ api_name:
 
 Get the maximum number of messages that can be added to the message queue.
 
-## -parameters
+
 
 ## -returns
 

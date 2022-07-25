@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CreateColorSpace</b> function creates a logical <a href="/previous-versions/windows/desktop/wcs/c">color space</a>.
+The <b>CreateColorSpace</b> function creates a logical [color space](/windows/win32/wcs/c#color-space).
 
 ## -parameters
 
@@ -74,21 +74,11 @@ When the color space is no longer needed, use <b>DeleteColorSpace</b> to delete 
 
 <b>Windows 95/98/Me: </b><b>CreateColorSpaceW</b> is supported by the Microsoft Layer for Unicode. To use this, you must add certain files to your application, as outlined in <a href="https://msdn.microsoft.com/library?url=/library/mslu/winprog/microsoft_layer_for_unicode_on_windows_95_98_me_systems.asp">Microsoft Layer for Unicode on Windows 95/98/Me Systems</a>.
 
-
-
-
-
 > [!NOTE]
 > The wingdi.h header defines CreateColorSpace as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
-
-
-
-<a href="/windows/desktop/api/wingdi/nf-wingdi-deletecolorspace">DeleteColorSpace</a>
-
-
-
-<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Functions](/windows/win32/wcs/functions)
+* [DeleteColorSpaceW](/windows/win32/api/wingdi/nf-wingdi-deletecolorspace)

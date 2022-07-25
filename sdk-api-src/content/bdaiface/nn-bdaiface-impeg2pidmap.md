@@ -59,47 +59,10 @@ For program streams, use the <a href="/windows/desktop/api/strmif/nn-strmif-impe
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMPEG2PIDMap</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMPEG2PIDMap</b> also has these types of members:
+The <b>IMPEG2PIDMap</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMPEG2PIDMap</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMPEG2PIDMap</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-impeg2pidmap-enumpidmap">EnumPIDMap</a>
-</td>
-<td align="left" width="63%">
-Returns a collection of all the currently mapped PIDs on this pin.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdaiface/nf-bdaiface-impeg2pidmap-mappid">MapPID</a>
-</td>
-<td align="left" width="63%">
-Maps the packets of a specified PID to the pin.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-impeg2pidmap-unmappid">UnmapPID</a>
-</td>
-<td align="left" width="63%">
-Unmaps the PID mapping created in a previous call to <a href="/previous-versions/windows/desktop/api/bdaiface/nf-bdaiface-impeg2pidmap-mappid">MapPID</a>.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

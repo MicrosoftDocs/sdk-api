@@ -124,7 +124,7 @@ The video renderer filter is not connected.
 
 ## -remarks
 
-If <i>BackgroundPalette</i> is <b>OATRUE</b> and the video image requires a pallette, the video renderer will realize that palette in the background. Any colors that the palette uses will change to their closest match in the display palette prior to drawing. This ensures that an application will not have its palette disturbed. However, it imposes severe performance penalties on the video.
+If <i>BackgroundPalette</i> is <b>OATRUE</b> and the video image requires a palette, the video renderer will realize that palette in the background. Any colors that the palette uses will change to their closest match in the display palette prior to drawing. This ensures that an application will not have its palette disturbed. However, it imposes severe performance penalties on the video.
 
 ## -see-also
 

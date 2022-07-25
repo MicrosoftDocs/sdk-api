@@ -52,7 +52,7 @@ api_name:
 
 The <b>Clear</b> method removes all objects from the collection.
 
-## -parameters
+
 
 ## -returns
 

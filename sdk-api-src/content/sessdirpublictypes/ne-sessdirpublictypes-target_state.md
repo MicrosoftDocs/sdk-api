@@ -56,7 +56,7 @@ Indicates the state of a target.
 
 ## -enum-fields
 
-### -field TARGET_UNKNOWN
+### -field TARGET_UNKNOWN:0x1
 
 The target state is unknown.
 

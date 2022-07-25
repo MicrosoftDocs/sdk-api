@@ -66,59 +66,10 @@ The <b>ISBE2Crossbar</b> interface is implemented by the <a href="/previous-vers
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISBE2Crossbar</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISBE2Crossbar</b> also has these types of members:
+The <b>ISBE2Crossbar</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISBE2Crossbar</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ISBE2Crossbar</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-enabledefaultmode">EnableDefaultMode</a>
-</td>
-<td align="left" width="63%">
-Enables or disables profile default mode and stream default mode for the crossbar.
-          
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-enumstreams">EnumStreams</a>
-</td>
-<td align="left" width="63%">
-Gets an enumeration object for all streams that are discovered within the currently loaded WTV file.
-          
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-getinitialprofile">GetInitialProfile</a>
-</td>
-<td align="left" width="63%">
-Gets the initial profile, which lists media types for the default set of <a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter output pins that are specific to the loaded WTV file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-setoutputprofile">SetOutputProfile</a>
-</td>
-<td align="left" width="63%">
-Replaces the default profile with a custom profile.
-          
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

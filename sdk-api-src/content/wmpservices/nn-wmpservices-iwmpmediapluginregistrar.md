@@ -54,38 +54,10 @@ The <b>IWMPMediaPluginRegistrar</b> interface manages plug-in registration.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMediaPluginRegistrar</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPMediaPluginRegistrar</b> also has these types of members:
+The <b>IWMPMediaPluginRegistrar</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPMediaPluginRegistrar</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMPMediaPluginRegistrar</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmpmediapluginregistrar-wmpregisterplayerplugin">WMPRegisterPlayerPlugin</a>
-</td>
-<td align="left" width="63%">
-Adds information to the registry that identifies a Windows Media Player plug-in.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmpmediapluginregistrar-wmpunregisterplayerplugin">WMPUnRegisterPlayerPlugin</a>
-</td>
-<td align="left" width="63%">
-Removes information from the registry about a Windows Media Player plug-in.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

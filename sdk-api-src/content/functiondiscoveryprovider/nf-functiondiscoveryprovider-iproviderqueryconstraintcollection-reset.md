@@ -54,7 +54,7 @@ api_name:
 
 Resets the current index to the start of the collection.
 
-## -parameters
+
 
 ## -returns
 

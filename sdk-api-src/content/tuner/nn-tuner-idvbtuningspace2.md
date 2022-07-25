@@ -54,38 +54,10 @@ The <b>IDVBTuningSpace2</b> interface is implemented on the DVBTuningSpace objec
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVBTuningSpace2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtuningspace">IDVBTuningSpace</a>. <b>IDVBTuningSpace2</b> also has these types of members:
+The <b>IDVBTuningSpace2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtuningspace">IDVBTuningSpace</a>. <b>IDVBTuningSpace2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IDVBTuningSpace2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtuningspace2-get_networkid">get_NetworkID</a>
-</td>
-<td align="left" width="63%">
-Gets the network ID of the DVB system.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtuningspace2-put_networkid">put_NetworkID</a>
-</td>
-<td align="left" width="63%">
-Sets the network ID of the DVB system
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

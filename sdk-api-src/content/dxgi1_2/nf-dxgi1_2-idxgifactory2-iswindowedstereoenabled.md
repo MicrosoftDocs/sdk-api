@@ -50,7 +50,7 @@ api_name:
 
 Determines whether to use stereo mode.
 
-## -parameters
+
 
 ## -returns
 

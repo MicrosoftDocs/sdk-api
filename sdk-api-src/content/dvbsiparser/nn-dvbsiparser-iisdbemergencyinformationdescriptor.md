@@ -54,80 +54,8 @@ Implements methods that get data from an Integrated Services Digital Broadcastin
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbEmergencyInformationDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbEmergencyInformationDescriptor</b> also has these types of members:
+The <b>IIsdbEmergencyInformationDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbEmergencyInformationDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IIsdbEmergencyInformationDescriptor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbemergencyinformationdescriptor-getareacode">GetAreaCode</a>
-</td>
-<td align="left" width="63%">
-Gets area codes from  an ISDB emergency information descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbemergencyinformationdescriptor-getcountofrecords">GetCountOfRecords</a>
-</td>
-<td align="left" width="63%">
-Gets the number of area code records from an ISDB emergency information descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbemergencyinformationdescriptor-getlength">GetLength</a>
-</td>
-<td align="left" width="63%">
-Gets the body length of an ISDB emergency information descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbemergencyinformationdescriptor-getserviceid">GetServiceId</a>
-</td>
-<td align="left" width="63%">
-Gets  the identifier for a broadcasting event from an  ISDB emergency information descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbemergencyinformationdescriptor-getsignallevel">GetSignalLevel</a>
-</td>
-<td align="left" width="63%">
-Gets a flag that indicates the emergency alarm signal type from an ISDB emergency information descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbemergencyinformationdescriptor-getstartendflag">GetStartEndFlag</a>
-</td>
-<td align="left" width="63%">
-Gets a flag from an ISDB emergency information descriptor that indicates whether an emergency alarm signal has started or finished broadcasting.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbemergencyinformationdescriptor-gettag">GetTag</a>
-</td>
-<td align="left" width="63%">
-Gets the tag that identifies an ISDB emergency information descriptor.
-
-</td>
-</tr>
-</table>

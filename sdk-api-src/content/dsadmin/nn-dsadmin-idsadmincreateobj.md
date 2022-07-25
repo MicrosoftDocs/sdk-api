@@ -68,39 +68,7 @@ hr = ::CoCreateInstance(CLSID_DsAdminCreateObj,
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsAdminCreateObj</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsAdminCreateObj</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDsAdminCreateObj</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadmincreateobj-createmodal">CreateModal</a>
-</td>
-<td align="left" width="63%">
-Displays the creation wizard and returns the newly created object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadmincreateobj-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the 
-<b>IDsAdminCreateObj</b> object with data about the container where the object will be created, the class of the object to be created and, possibly, the source object from which to copy.
-
-</td>
-</tr>
-</table>
+The <b>IDsAdminCreateObj</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsAdminCreateObj</b> also has these types of members:
 
 ## -see-also
 

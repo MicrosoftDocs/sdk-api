@@ -53,7 +53,7 @@ api_name:
 
 Returns the number of adapters on the system.
 
-## -parameters
+
 
 ## -returns
 

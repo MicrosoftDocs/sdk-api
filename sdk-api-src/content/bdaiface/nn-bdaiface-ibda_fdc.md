@@ -54,83 +54,10 @@ Provides access to a device's Forward Data Channel (FDC) Service. The FDC is an 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_FDC</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_FDC</b> also has these types of members:
+The <b>IBDA_FDC</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_FDC</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IBDA_FDC</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-addpid">AddPid</a>
-</td>
-<td align="left" width="63%">
-Adds one or more packet identifiers (PIDs) to the MPEG flow.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-addtid">AddTid</a>
-</td>
-<td align="left" width="63%">
-Adds one or more table identifiers (TIDs) to the MPEG flow.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-getstatus">GetStatus</a>
-</td>
-<td align="left" width="63%">
-Gets the tuning status of the FDC stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-gettablesection">GetTableSection</a>
-</td>
-<td align="left" width="63%">
-Gets the latest table section.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-removepid">RemovePid</a>
-</td>
-<td align="left" width="63%">
-Removes one or more PIDs from the MPEG flow.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-removetid">RemoveTid</a>
-</td>
-<td align="left" width="63%">
-Removes one or more TIDs from the MPEG flow.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_fdc-requesttables">RequestTables</a>
-</td>
-<td align="left" width="63%">
-Requests MPEG-2 table sections, filtered by TID.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

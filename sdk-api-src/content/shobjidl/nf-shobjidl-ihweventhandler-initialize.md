@@ -62,7 +62,7 @@ A pointer to a string buffer that contains the string from the following registr
           
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Windows</b>
@@ -77,10 +77,10 @@ A pointer to a string buffer that contains the string from the following registr
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
 This method receives the registry string stored in the InitCmdLine value under the
         
-         <b>AutoPlayHandlers</b>&#92;<b>Handlers</b>&#92;<i>HandlerName</i>key. Applications that have registered with AutoPlay as event handlers place this string into the registry as part of the registration process.
+<b>AutoPlayHandlers</b>&#92;<b>Handlers</b>&#92;<i>HandlerName</i> key. Applications that have registered with AutoPlay as event handlers place this string into the registry as part of the registration process.

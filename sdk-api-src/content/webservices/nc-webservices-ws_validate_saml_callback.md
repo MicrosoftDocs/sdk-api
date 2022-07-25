@@ -68,15 +68,15 @@ will never be invoked when a listener is not open.
 
 ## -parameters
 
-### -param *samlValidatorCallbackState [in, optional]
+### -param samlValidatorCallbackState [in, optional]
 
 The state to be passed back when invoking this callback.
 
-### -param *samlAssertion [in]
+### -param samlAssertion [in]
 
 The received SAML assertion that has undergone a successful signature check.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 

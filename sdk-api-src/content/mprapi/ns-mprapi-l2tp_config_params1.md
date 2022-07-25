@@ -1,7 +1,7 @@
 ---
 UID: NS:mprapi._L2TP_CONFIG_PARAMS1
 title: L2TP_CONFIG_PARAMS1 (mprapi.h)
-description: Used to get and set the device configuration for Layer 2 Tunneling Protocool (L2TP) on a RAS Server.
+description: Used to get and set the device configuration for Layer 2 Tunneling Protocol (L2TP) on a RAS Server.
 helpviewer_keywords: ["*PL2TP_CONFIG_PARAMS1","L2TP_CONFIG_PARAMS","L2TP_CONFIG_PARAMS structure [RAS]","L2TP_CONFIG_PARAMS0","L2TP_CONFIG_PARAMS1","MPR_ENABLE_RAS_ON_DEVICE","MPR_ENABLE_ROUTING_ON_DEVICE","_L2TP_CONFIG_PARAMS0","_L2TP_CONFIG_PARAMS1","mprapi/L2TP_CONFIG_PARAMS","rras.l2tp_config_params"]
 old-location: rras\l2tp_config_params.htm
 tech.root: RRAS
@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-The <b>L2TP_CONFIG_PARAMS</b> structure is used to get and set the device configuration for Layer 2 Tunneling Protocool (L2TP) on a RAS Server.
+The <b>L2TP_CONFIG_PARAMS</b> structure is used to get and set the device configuration for Layer 2 Tunneling Protocol (L2TP) on a RAS Server.
 
 ## -struct-fields
 
@@ -98,7 +98,7 @@ Windows Server 2008 Standard
 </dl>
 </td>
 <td width="60%">
-Windows Server 2008 Datacenterand Windows Server 2008 Enterprise
+Windows Server 2008 Datacenter and Windows Server 2008 Enterprise
 
 </td>
 </tr>

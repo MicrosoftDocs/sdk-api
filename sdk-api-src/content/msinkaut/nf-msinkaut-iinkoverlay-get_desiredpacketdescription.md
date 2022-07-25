@@ -77,7 +77,7 @@ Changes to this property do not affect incoming packet data until the <a href="/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="../msinkaut/nn-msinkaut-iinkoverlay.md">IInkOverlay</a>
 
 
 

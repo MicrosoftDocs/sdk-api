@@ -57,29 +57,10 @@ The <b>IMSVidStreamBufferSink2</b> interface represents the Stream Buffer Sink f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSink2</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersink">IMSVidStreamBufferSink</a>. <b>IMSVidStreamBufferSink2</b> also has these types of members:
+The <b>IMSVidStreamBufferSink2</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersink">IMSVidStreamBufferSink</a>. <b>IMSVidStreamBufferSink2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMSVidStreamBufferSink2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink2-unlockprofile">UnlockProfile</a>
-</td>
-<td align="left" width="63%">
-Unlocks the stream buffer profile.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

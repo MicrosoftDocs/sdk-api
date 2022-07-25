@@ -54,35 +54,5 @@ The <b>ITfMouseTrackerACP</b> interface is implemented by an application to supp
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfMouseTrackerACP</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfMouseTrackerACP</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITfMouseTrackerACP</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfMouseTrackerACP</b> also has these types of members:
 
-## -members
-
-The <b>ITfMouseTrackerACP</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfmousetrackeracp-advisemousesink">AdviseMouseSink</a>
-</td>
-<td align="left" width="63%">
-Called to install a mouse event sink.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfmousetrackeracp-unadvisemousesink">UnadviseMouseSink</a>
-</td>
-<td align="left" width="63%">
-Called to remove a mouse event sink.
-
-</td>
-</tr>
-</table>

@@ -70,6 +70,10 @@ An index of the item to delete.
 
 The <b>Header_DeleteItem</b> macro is defined as follows. 
 
-<pre class="syntax" xml:space="preserve"><code>#define Header_DeleteItem(hwndHD, index)     \
 
-      (BOOL)SendMessage((hwndHD), HDM_DELETEITEM, (WPARAM)(int)(index), 0L)</code></pre>
+``` syntax
+#define Header_DeleteItem(hwndHD, index)     \
+
+      (BOOL)SendMessage((hwndHD), HDM_DELETEITEM, (WPARAM)(int)(index), 0L)
+```
+

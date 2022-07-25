@@ -91,7 +91,7 @@ A draw API submits work to the rendering pipeline.
 
 Instancing may extend performance by reusing the same geometry to draw multiple objects in a scene. One example of instancing could be to draw the same object with different positions and colors. Instancing requires multiple vertex buffers: at least one for per-vertex data and a second buffer for per-instance data.
 
-The second buffer is needed only if the input layout that you use has elements that use [D3D11_INPUT_PER_INSTANCE_DATA](./ne-d3d11-d3d11_input_classification.md) as the input element classification.uffer for per-instance data.
+The second buffer is needed only if the input layout that you use has elements that use [D3D11_INPUT_PER_INSTANCE_DATA](./ne-d3d11-d3d11_input_classification.md) as the input element classification buffer for per-instance data.
 
 ## -see-also
 

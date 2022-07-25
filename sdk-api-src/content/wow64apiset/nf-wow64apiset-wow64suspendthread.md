@@ -2,7 +2,6 @@
 UID: NF:wow64apiset.Wow64SuspendThread
 title: Wow64SuspendThread
 ms.date: 08/19/2020
-ms.topic: language-reference
 targetos: Windows
 description: Suspends the specified WOW64 thread.
 tech.root: fs
@@ -64,7 +63,7 @@ This function is primarily designed for use by debuggers. It is not intended to 
 Each thread has a suspend count (with a maximum value of MAXIMUM_SUSPEND_COUNT). If the suspend count is greater than zero, the thread is suspended; otherwise, the thread is not suspended and is eligible for execution. Calling 
 **Wow64SuspendThread** causes the target thread's suspend count to be incremented. Attempting to increment past the maximum suspend count causes an error without incrementing the count.
 
-The [ResumeThread](../processthreadsapi/nf-processthreadsapi-resumethread.md) function decrements the suspend count of a suspended thread.</rem><rem>
+The [ResumeThread](../processthreadsapi/nf-processthreadsapi-resumethread.md) function decrements the suspend count of a suspended thread.
 
 This function is intended for 64-bit applications. It is not supported on 32-bit Windows; such calls fail and set the last error code to ERROR_INVALID_FUNCTION. A 32-bit application can call this function on a WOW64 thread; the result is the same as calling the [SuspendThread](../processthreadsapi/nf-processthreadsapi-suspendthread.md) function.
 

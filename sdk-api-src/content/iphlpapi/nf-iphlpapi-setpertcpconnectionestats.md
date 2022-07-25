@@ -228,7 +228,7 @@ The structure pointed to by the <i>Rw</i> parameter passed this function depends
 
 The <i>Offset</i> parameter is currently unused and must be set to 0. The possible structures pointed to by the <i>Rw</i> parameter all have a single member except for the <a href="/windows/win32/api/tcpestats/ns-tcpestats-tcp_estats_bandwidth_rw_v0">TCP_ESTATS_BANDWIDTH_RW_v0</a> structure.  When the <i>EstatsType</i> parameter is set to <b>TcpConnectionEstatsBandwidth</b>, the <b>TCP_ESTATS_BANDWIDTH_RW_v0</b> structure pointed to by the <i>Rw</i> parameter must have both structure members set  to the preferred values in a single call to the  <b>SetPerTcpConnectionEStats</b> function.
 
-If the <i>RwSize</i> parameter is set to 0, the <b>SetPerTcpConnectionEStats</b> function  returns NO_ERROR and makes no changes tothe extended statistics status.
+If the <i>RwSize</i> parameter is set to 0, the <b>SetPerTcpConnectionEStats</b> function  returns NO_ERROR and makes no changes to the extended statistics status.
 
 The <a href="/windows/win32/api/iphlpapi/nf-iphlpapi-gettcptable">GetTcpTable</a> function is used to retrieve the IPv4 TCP connection table on the local computer. This function returns a <a href="/windows/win32/api/tcpmib/ns-tcpmib-mib_tcptable">MIB_TCPTABLE</a> structure that contain an array of <a href="/windows/win32/api/tcpmib/ns-tcpmib-mib_tcprow_lh">MIB_TCPROW</a> entries. The <i>Row</i> parameter passed to the <b>SetPerTcpConnectionEStats</b> function must be an entry for an existing IPv4 TCP connection.
 

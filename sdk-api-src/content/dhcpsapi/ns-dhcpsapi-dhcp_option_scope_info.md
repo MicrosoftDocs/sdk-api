@@ -74,13 +74,9 @@ The <b>DHCP_OPTION_SCOPE_INFO</b> structure defines information about the option
 
 ### -field ScopeInfo.MScopeInfo.case.DhcpMScopeOptions
 
-### -field ScopeInfo.switch_is
 
-### -field ScopeInfo.switch_is.ScopeType
 
-### -field ScopeInfo.switch_type
 
-### -field ScopeInfo.switch_type.DHCP_OPTION_SCOPE_TYPE
 
 ### -field ScopeInfo
 

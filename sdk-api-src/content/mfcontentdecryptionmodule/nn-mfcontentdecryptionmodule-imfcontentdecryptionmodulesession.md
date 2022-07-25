@@ -2,7 +2,6 @@
 UID: NN:mfcontentdecryptionmodule.IMFContentDecryptionModuleSession
 title: IMFContentDecryptionModuleSession
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Provides access to the Content Decryption Module (CDM) for encrypted media extensions support.
 tech.root: mf

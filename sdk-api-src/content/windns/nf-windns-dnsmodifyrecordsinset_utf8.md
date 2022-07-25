@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 The 
-<b>DnsModifyRecordsInSet</b>function adds, modifies or removes a Resource Record (RR) set that may have been previously registered with DNS servers.
+<b>DnsModifyRecordsInSet</b> function adds, modifies or removes a Resource Record (RR) set that may have been previously registered with DNS servers.
 
 Like many DNS functions, the 
 <b>DnsModifyRecordsInSet</b> function type is implemented in multiple forms to facilitate different character encoding. Based on the character encoding involved, use one of the following functions:

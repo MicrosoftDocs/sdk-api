@@ -44,7 +44,7 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# EAP_UI_DATA_FORMAT structure
+# EAP_UI_DATA_FORMAT structure overview
 
 
 ## -description
@@ -91,7 +91,7 @@ If [EAP_CRED_RESP](/windows/win32/eaphost/eap-cred-resp) structure
 
 case(<i>eapCredExpiryReq</i>)
 
-If <i>dwDataType</i> specifies a credential expiry request (<i>eapCredExpiryReq</i>), then the data pointed to by this parameter is defined by <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_cred_expiry_req">EAP_CRED_EXPIRY_REQ </a>structure.
+If <i>dwDataType</i> specifies a credential expiry request (<i>eapCredExpiryReq</i>), then the data pointed to by this parameter is defined by <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_cred_expiry_req">EAP_CRED_EXPIRY_REQ </a> structure.
 
 case(<i>eapCredExpiryResp</i>)
 
@@ -131,7 +131,6 @@ If [EAP_CRED_LOGON_RESP](/windows/win32/eaphost/eap-cred-logon-resp) structure
  
 
 
-### -field switch_type
 
  
 

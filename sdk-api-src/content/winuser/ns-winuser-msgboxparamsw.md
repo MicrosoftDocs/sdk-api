@@ -125,15 +125,13 @@ Identifies a help context. If a help event occurs, this value is specified in th
 
 ### -field lpfnMsgBoxCallback
 
-Type: <b>MSGBOXCALLBACK</b>
+Type: **[MSGBOXCALLBACK](/windows/win32/api/winuser/nc-winuser-msgboxcallback)**
 
 A pointer to the callback function that processes help events for the message box. The callback function has the following form:
-		
 
 <code>VOID CALLBACK MsgBoxCallback(LPHELPINFO lpHelpInfo);</code>
 
-If this member is <b>NULL</b>, the message box sends 
-					<a href="/windows/desktop/shell/wm-help">WM_HELP</a> messages to the owner window when help events occur.
+If this member is <b>NULL</b>, then the message box sends <a href="/windows/desktop/shell/wm-help">WM_HELP</a> messages to the owner window when help events occur.
 
 ### -field dwLanguageId
 

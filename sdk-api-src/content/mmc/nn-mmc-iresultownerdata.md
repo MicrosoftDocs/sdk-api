@@ -55,47 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IResultOwnerData</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IResultOwnerData</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IResultOwnerData</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-iresultownerdata-cachehint">CacheHint</a>
-</td>
-<td align="left" width="63%">
-Allows the snap-in to collect the display information for a range of items ahead of time in cases where an optimization can be made.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-iresultownerdata-finditem">FindItem</a>
-</td>
-<td align="left" width="63%">
-Finds result items matching the specified string.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-iresultownerdata-sortitems">SortItems</a>
-</td>
-<td align="left" width="63%">
-Sorts the items in a virtual list.
-
-</td>
-</tr>
-</table>
+The <b>IResultOwnerData</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IResultOwnerData</b> also has these types of members:
 
 ## -see-also
 

@@ -64,7 +64,7 @@ The identifier of the stylus object.
 
 ### -param cPktBuffLength [in]
 
-The number of LONGs in the <i>pPackets</i> array not the size in bytes. Valid values are betwwen 0 and 0x7FFF, inclusive.
+The number of LONGs in the <i>pPackets</i> array not the size in bytes. Valid values are between 0 and 0x7FFF, inclusive.
 
 ### -param pPackets [in]
 

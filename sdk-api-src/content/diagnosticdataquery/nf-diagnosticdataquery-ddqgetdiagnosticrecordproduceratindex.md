@@ -3,12 +3,11 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticRecordProducerAtIndex
 title: DdqGetDiagnosticRecordProducerAtIndex
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticRecordProducerAtIndex
-ms.topic: language-reference
 description: Fetches the description of a producer at the specified index in the resource pointed to by the HDIAGNOSTIC_EVENT_PRODUCER_DESCRIPTION handle.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -31,7 +30,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - diagnosticdataquery.h
 api_name:

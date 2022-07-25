@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleAccess.CreateContentDecryptionModule
 title: IMFContentDecryptionModuleAccess::CreateContentDecryptionModule
 ms.date: 10/15/2020
-ms.topic: language-reference
 targetos: Windows
 description: 
 tech.root: mf
@@ -42,7 +41,7 @@ dev_langs:
 
 ## -description
 
-Creates a [IMFContentDecryptionModule](nn-mfcontentdecryptionmodule-imfcontentdecryptionmodule) that represents a Content Decryption Module (CDM) for a DRM key system.
+Creates a [IMFContentDecryptionModule](nn-mfcontentdecryptionmodule-imfcontentdecryptionmodule.md) that represents a Content Decryption Module (CDM) for a DRM key system.
 
 ## -parameters
 

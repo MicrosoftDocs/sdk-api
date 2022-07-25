@@ -54,38 +54,7 @@ The <b>IDsAdminNewObjPrimarySite</b> interface is implemented by the system and 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsAdminNewObjPrimarySite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsAdminNewObjPrimarySite</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDsAdminNewObjPrimarySite</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjprimarysite-commit">Commit</a>
-</td>
-<td align="left" width="63%">
-Writes a temporary object to persistent memory.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjprimarysite-createnew">CreateNew</a>
-</td>
-<td align="left" width="63%">
-Enables a primary object creation extension to create a temporary object.
-
-</td>
-</tr>
-</table>
+The <b>IDsAdminNewObjPrimarySite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsAdminNewObjPrimarySite</b> also has these types of members:
 
 ## -see-also
 

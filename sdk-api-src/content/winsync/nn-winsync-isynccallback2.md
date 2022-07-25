@@ -54,38 +54,7 @@ Represents additional application callbacks that are used to notify the applicat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncCallback2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback</a>. <b>ISyncCallback2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISyncCallback2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isynccallback2-onchangeapplied">OnChangeApplied</a>
-</td>
-<td align="left" width="63%">
-Occurs after a change is successfully applied.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isynccallback2-onchangefailed">OnChangeFailed</a>
-</td>
-<td align="left" width="63%">
-Occurs after a change fails to apply.
-
-</td>
-</tr>
-</table>
+The <b>ISyncCallback2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback</a>. <b>ISyncCallback2</b> also has these types of members:
 
 ## -see-also
 

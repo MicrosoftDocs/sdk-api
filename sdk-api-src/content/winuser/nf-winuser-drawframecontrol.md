@@ -56,15 +56,15 @@ The <b>DrawFrameControl</b> function draws a frame control of the specified type
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A handle to the device context of the window in which to draw the control.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
  A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the logical coordinates of the bounding rectangle for frame control.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 The type of frame control to draw. This parameter can be one of the following values.
 
@@ -125,7 +125,7 @@ Scroll bar
 </tr>
 </table>
 
-### -param arg4 [in]
+### -param unnamedParam4 [in]
 
 The initial state of the frame control. If <i>uType</i> is DFC_BUTTON, <i>uState</i> can be one of the following values.
 

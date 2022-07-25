@@ -80,7 +80,7 @@ The length, in bytes, of <b>Data</b>. For fixed-length data types, this value is
 
 					
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

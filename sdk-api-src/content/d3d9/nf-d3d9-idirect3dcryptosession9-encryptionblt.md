@@ -76,11 +76,11 @@ For other encryption types, a different structure might be used, or the encrypti
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-If the driver supports this method, it sets the <b>D3DCPCAPS_ENCRYPTEDREADBACK</b>flag in the capabilities structure returned by the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a> method.
+If the driver supports this method, it sets the <b>D3DCPCAPS_ENCRYPTEDREADBACK</b> flag in the capabilities structure returned by the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a> method.
 
 If the driver sets the <b>D3DCPCAPS_ENCRYPTEDREADBACKKEY</b> capabilities flag, it means the driver uses a separate key to encrypt the data. To get this key, call the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-getencryptionbltkey">IDirect3DCryptoSession9::GetEncryptionBltKey</a> method. Otherwise, the driver uses the session key to encrypt the data.
 

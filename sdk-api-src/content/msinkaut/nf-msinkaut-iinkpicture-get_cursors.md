@@ -84,7 +84,7 @@ The <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors">IInkCursors<
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="../msinkaut/nn-msinkaut-iinkpicture.md">IInkPicture</a>
 
 
 

@@ -165,7 +165,7 @@ The coercion is performed in four steps, as follows:
 <ul>
 <li>Each string in the vector must adhere to the rules for <code>VT_LPWSTR</code> listed above. In addition, the vector must have no duplicates and have no null pointers.</li>
 <li>If this is a tree property, then no value can be the ancestor of another value. For example, <code>L"Friend"</code> is an ancestor of L"Friend/Bob".</li>
-<li>If there is not contenct, coercion removes duplicate and ancestor characters and will result in <code>VT_EMPTY</code>.</li>
+<li>If there is no content, coercion removes duplicate and ancestor characters and will result in <code>VT_EMPTY</code>.</li>
 </ul>
 </td>
 </tr>

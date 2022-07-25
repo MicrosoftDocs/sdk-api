@@ -52,7 +52,7 @@ api_name:
 
 Returns a value indicating whether DVD codecs are enabled on the current device.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,101 +54,10 @@ The <code>IAMNetShowExProps</code> interface configures the legacy Windows Media
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMNetShowExProps</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMNetShowExProps</b> also has these types of members:
+The <b>IAMNetShowExProps</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMNetShowExProps</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IAMNetShowExProps</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_bandwidth">get_Bandwidth</a>
-</td>
-<td align="left" width="63%">
-Retrieves the bandwidth.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_codeccount">get_CodecCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number codecs needed to play the file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_creationdate">get_CreationDate</a>
-</td>
-<td align="left" width="63%">
-Retrieves the creation date.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_errorcorrection">get_ErrorCorrection</a>
-</td>
-<td align="left" width="63%">
-Retrieves the error correction method.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_sourcelink">get_SourceLink</a>
-</td>
-<td align="left" width="63%">
-Retrieves the source link.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_sourceprotocol">get_SourceProtocol</a>
-</td>
-<td align="left" width="63%">
-Retrieves the source protocol.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-getcodecdescription">GetCodecDescription</a>
-</td>
-<td align="left" width="63%">
-Retrieves the user-friendly description of a codec.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-getcodecinstalled">GetCodecInstalled</a>
-</td>
-<td align="left" width="63%">
-Queries whether a specified codec is installed on the local system.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-getcodecurl">GetCodecURL</a>
-</td>
-<td align="left" width="63%">
-Retrieves the URL from which the codec may be downloaded.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

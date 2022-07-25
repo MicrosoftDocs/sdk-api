@@ -38,9 +38,9 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - DllExport
 api_location:
- - mfidl.h
+ - mfsensorgroup.dll
 api_name:
  - MFCreateSensorGroup
 ---

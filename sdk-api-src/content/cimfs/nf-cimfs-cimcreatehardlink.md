@@ -2,10 +2,9 @@
 UID: NF:cimfs.CimCreateHardLink
 title: CimCreateHardLink
 ms.date: 9/9/2019
+tech.root: cimfs
 ms.keywords: CimCreateHardLink
-ms.topic: language-reference
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -28,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - cimfs.h
 api_name:
@@ -72,4 +70,3 @@ E_ACCESSDENIED – The existingImageRelativePath is a directory.
 Internally CimCreateHardLink opens and closes a stream handle and only one stream handle can be opened for a given image at a given time. It is an error to call CimCreateHardLink while a stream handle is opened on the image. Close any open stream handle before adding a hard link.
 
 ## -see-also
-

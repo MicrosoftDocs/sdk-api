@@ -2,7 +2,6 @@
 UID: NF:d3d12video.ID3D12VideoEncodeCommandList.BeginQuery
 title: ID3D12VideoEncodeCommandList::BeginQuery
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Starts a query running.
 tech.root: mf

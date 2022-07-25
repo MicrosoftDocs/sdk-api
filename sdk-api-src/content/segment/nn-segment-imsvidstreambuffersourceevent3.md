@@ -59,65 +59,10 @@ This interface is an outgoing connection-point interface. To receive events from
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSourceEvent3</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent2">IMSVidStreamBufferSourceEvent2</a>. <b>IMSVidStreamBufferSourceEvent3</b> also has these types of members:
+The <b>IMSVidStreamBufferSourceEvent3</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent2">IMSVidStreamBufferSourceEvent2</a>. <b>IMSVidStreamBufferSourceEvent3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMSVidStreamBufferSourceEvent3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent3-broadcastevent">BroadcastEvent</a>
-</td>
-<td align="left" width="63%">
-Called when the object receives a broadcast event through the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a> interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent3-broadcasteventex">BroadcastEventEx</a>
-</td>
-<td align="left" width="63%">
-Called when the object receives a broadcast event through the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcasteventex">IBroadcastEventEx</a> interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent3-contentprimarilyaudio">ContentPrimarilyAudio</a>
-</td>
-<td align="left" width="63%">
-Called when the Stream Buffer Engine is processing primarily audio data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent3-coppblocked">COPPBlocked</a>
-</td>
-<td align="left" width="63%">
-Called when the content is blocked because of the Certified Output Protection Protocol (COPP) status.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent3-coppunblocked">COPPUnblocked</a>
-</td>
-<td align="left" width="63%">
-Called when the content is unblocked after a <b>COPPBlocked</b> event.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

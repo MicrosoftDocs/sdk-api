@@ -54,15 +54,15 @@ Specifies whether the input frames for an encoder are progressive or interlaced.
 
 ## -enum-fields
 
-### -field eAVEncVideoSourceScan_Automatic
+### -field eAVEncVideoSourceScan_Automatic:0
 
 Use the media type on the encoder's input pin to determine whether the frames are progressive or interlaced.
 
-### -field eAVEncVideoSourceScan_Interlaced
+### -field eAVEncVideoSourceScan_Interlaced:1
 
 Input frames are interlaced.
 
-### -field eAVEncVideoSourceScan_Progressive
+### -field eAVEncVideoSourceScan_Progressive:2
 
 Input frames are progressive.
 

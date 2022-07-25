@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.CreateFileMapping2
 title: CreateFileMapping2
-description: Creates or opens a named or unnamed file mapping object for a specified file. You can specify specify a preferred NUMA node for the physical memory as an extended parameter; see the *ExtendedParameters* parameter.
+description: Creates or opens a named or unnamed file mapping object for a specified file. You can specify a preferred NUMA node for the physical memory as an extended parameter; see the *ExtendedParameters* parameter.
 ms.date: 10/22/2020
 tech.root: base
 targetos: Windows
@@ -14,12 +14,12 @@ req.idl:
 req.include-header: Windows.h, Memoryapi.h
 req.irql: 
 req.kmdf-ver: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: Windows
 req.type-library: 
 req.umdf-ver: 
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Creates or opens a named or unnamed file mapping object for a specified file. You can specify specify a preferred NUMA node for the physical memory as an extended parameter; see the *ExtendedParameters* parameter.
+Creates or opens a named or unnamed file mapping object for a specified file. You can specify a preferred NUMA node for the physical memory as an extended parameter; see the *ExtendedParameters* parameter.
 
 ## -parameters
 
@@ -296,7 +296,7 @@ If <b>SEC_LARGE_PAGES</b> is specified, <b>SEC_COMMIT</b> must also
 </dl>
 </td>
 <td width="60%">
-Sets all pages to be non-cachable.
+Sets all pages to be non-cacheable.
 
 Applications should not use this attribute except when 
          explicitly required for a device. Using the interlocked functions with memory that is mapped with 
@@ -377,7 +377,7 @@ If this parameter is <b>NULL</b>, then the file mapping object is created withou
 
 If <i>lpName</i> matches the name of an existing event, semaphore, mutex, waitable timer, or job object, the function fails, and the <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns <b>ERROR_INVALID_HANDLE</b>. This occurs because these objects share the same namespace.
 
-The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\). Creating a file mapping object in the global namespace from a session other than session zero requires the <a href="/windows/win32/SecAuthZ/authorization-constants">SeCreateGlobalPrivilege</a> privilege. For more information, see <a href="/windows/win32/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>.
+The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\\). Creating a file mapping object in the global namespace from a session other than session zero requires the <a href="/windows/win32/SecAuthZ/authorization-constants">SeCreateGlobalPrivilege</a> privilege. For more information, see <a href="/windows/win32/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>.
 
 Fast user switching is implemented by using Terminal Services sessions. The first user to log on uses session 0 (zero), the next user to log on uses session 1 (one), and so on. Kernel object names must follow the guidelines that are outlined for Terminal Services so that applications can support multiple users.
 
@@ -397,7 +397,7 @@ The number of extended parameters pointed to by *ExtendedParameters*.
 
 If the function succeeds, the return value is a handle to the newly created file mapping object.
 
-If the object exists before the function call, the function returns a handle to the existing object (with its current size, not the specified size), and <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>returns <b>ERROR_ALREADY_EXISTS</b>.
+If the object exists before the function call, the function returns a handle to the existing object (with its current size, not the specified size), and <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_ALREADY_EXISTS</b>.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 

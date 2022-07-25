@@ -52,7 +52,7 @@ api_name:
 
 The <b>AutoProgram</b> method scans for all channels with valid programming.
 
-## -parameters
+
 
 ## -returns
 

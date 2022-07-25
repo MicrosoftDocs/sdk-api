@@ -54,62 +54,8 @@ Gets information from the Service Location Descriptor in an Advanced Television 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceLocationDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceLocationDescriptor</b> also has these types of members:
+The <b>IServiceLocationDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceLocationDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IServiceLocationDescriptor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iservicelocationdescriptor-getelementlanguagecode">GetElementLanguageCode</a>
-</td>
-<td align="left" width="63%">
-Gets a code that identifies the language used for an elementary stream in the transport stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iservicelocationdescriptor-getelementpid">GetElementPID</a>
-</td>
-<td align="left" width="63%">
-Gets the PID that identifies an elementary stream in the transport stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iservicelocationdescriptor-getelementstreamtype">GetElementStreamType</a>
-</td>
-<td align="left" width="63%">
-Gets a code that identifies the type of the elementary stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iservicelocationdescriptor-getnumberofelements">GetNumberOfElements</a>
-</td>
-<td align="left" width="63%">
-Gets the number of PIDs used for a program.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iservicelocationdescriptor-getpcr_pid">GetPCR_PID</a>
-</td>
-<td align="left" width="63%">
-Gets the program ID (PID) for the packets that contain the Program Clock Reference (PCR) in the transport stream. 
-
-</td>
-</tr>
-</table>

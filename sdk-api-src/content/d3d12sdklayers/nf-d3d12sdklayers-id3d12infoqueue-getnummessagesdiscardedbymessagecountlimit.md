@@ -52,7 +52,7 @@ api_name:
 
 Get the number of messages that were discarded due to the message count limit.
 
-## -parameters
+
 
 ## -returns
 

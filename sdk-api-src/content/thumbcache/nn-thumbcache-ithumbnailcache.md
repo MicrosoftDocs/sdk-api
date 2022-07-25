@@ -54,38 +54,7 @@ Exposes methods for a system thumbnail cache that is shared across applications.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IThumbnailCache</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IThumbnailCache</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IThumbnailCache</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailcache-getthumbnail">GetThumbnail</a>
-</td>
-<td align="left" width="63%">
-Gets a cached thumbnail for a given Shell item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailcache-getthumbnailbyid">GetThumbnailByID</a>
-</td>
-<td align="left" width="63%">
-Gets a thumbnail from the thumbnail cache, given its ID.
-
-</td>
-</tr>
-</table>
+The <b>IThumbnailCache</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IThumbnailCache</b> also has these types of members:
 
 ## -remarks
 

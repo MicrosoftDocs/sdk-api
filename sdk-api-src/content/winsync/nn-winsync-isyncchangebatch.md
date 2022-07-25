@@ -54,50 +54,7 @@ Represents metadata for a set of changes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncChangeBatch</b> interface inherits from <b>ISyncChangeBatchBase</b>. <b>ISyncChangeBatch</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISyncChangeBatch</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatch-addloggedconflict">AddLoggedConflict</a>
-</td>
-<td align="left" width="63%">
-Adds metadata that represents a conflict to the change batch.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatch-beginunorderedgroup">BeginUnorderedGroup</a>
-</td>
-<td align="left" width="63%">
-Opens an unordered group in the change batch. Item changes in this group can be in any order.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatch-endunorderedgroup">EndUnorderedGroup</a>
-</td>
-<td align="left" width="63%">
-Closes a previously opened unordered group in the change batch.
-
-
-</td>
-</tr>
-</table>
+The <b>ISyncChangeBatch</b> interface inherits from <b>ISyncChangeBatchBase</b>. <b>ISyncChangeBatch</b> also has these types of members:
 
 ## -remarks
 

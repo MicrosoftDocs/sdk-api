@@ -60,38 +60,7 @@ To obtain an instance of the <b>IVssBackupComponentsEx</b>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssBackupComponentsEx</b> interface inherits from <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>. <b>IVssBackupComponentsEx</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVssBackupComponentsEx</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex-getwritermetadataex">GetWriterMetadataEx</a>
-</td>
-<td align="left" width="63%">
-Returns writer metadata for a specific writer instance.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex-setselectedforrestoreex">SetSelectedForRestoreEx</a>
-</td>
-<td align="left" width="63%">
-Indicates whether the specified component has been selected for restoration to a specified writer instance.
-
-</td>
-</tr>
-</table>
+The <b>IVssBackupComponentsEx</b> interface inherits from <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>. <b>IVssBackupComponentsEx</b> also has these types of members:
 
 ## -see-also
 

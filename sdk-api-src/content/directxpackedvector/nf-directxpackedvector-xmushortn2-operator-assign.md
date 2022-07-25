@@ -58,7 +58,7 @@ This operator assigns the vector component data from one instance of <code>XMUSH
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Instance of <code>XMUSHORTN2</code> used to update the current <code>XMUSHORTN2</code> structure.
 

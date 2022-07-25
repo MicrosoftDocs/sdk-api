@@ -56,29 +56,7 @@ This interface enables an application or filter to retrieve information about a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMPhysicalPinInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMPhysicalPinInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAMPhysicalPinInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamphysicalpininfo-getphysicaltype">GetPhysicalType</a>
-</td>
-<td align="left" width="63%">
-Retrieves the type and name of the physical pin.
-
-</td>
-</tr>
-</table>
+The <b>IAMPhysicalPinInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMPhysicalPinInfo</b> also has these types of members:
 
 ## -see-also
 

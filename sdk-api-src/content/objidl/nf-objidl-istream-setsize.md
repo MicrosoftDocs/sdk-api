@@ -62,6 +62,14 @@ Specifies the new size, in bytes, of the stream.
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The size of the stream object was successfully changed.|
+|E_PENDING | Asynchronous Storage only: Part or all of the stream's data is currently unavailable.|
+|STG_E_MEDIUMFULL | The stream size is not changed because there is no space left on the storage device.|
+|STG_E_INVALIDFUNCTION | The value of the *libNewSize* parameter is not supported by the implementation. Not all streams support greater than 232 bytes. If a stream does not support more than 232 bytes, the high DWORD data type of *libNewSize* must be zero. If it is nonzero, the implementation may return STG_E_INVALIDFUNCTION. In general, COM-based implementations of the IStream interface do not support streams larger than 232 bytes.|
+|STG_E_REVERTED | The object has been invalidated by a revert operation above it in the transaction tree.|
+
 ## -remarks
 
 <b>IStream::SetSize</b> changes the size of the stream object. Call this method to preallocate space for the stream. If the <i>libNewSize</i> parameter is larger than the current stream size, the stream is extended to the indicated size by filling the intervening space with bytes of undefined value. This operation is similar to the 

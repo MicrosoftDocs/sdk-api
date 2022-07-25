@@ -57,74 +57,7 @@ Provides methods for performing query and configuration operations on a drive.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsDrive</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsDrive</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVdsDrive</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-clearflags">ClearFlags</a>
-</td>
-<td align="left" width="63%">
-Clears all flags.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-getproperties">GetProperties</a>
-</td>
-<td align="left" width="63%">
-Returns the properties of the drive.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-getsubsystem">GetSubSystem</a>
-</td>
-<td align="left" width="63%">
-Returns the subsystem to which the drive belongs.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-queryextents">QueryExtents</a>
-</td>
-<td align="left" width="63%">
-Returns an array of extents on a drive, including both allocated and unallocated extents.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-setflags">SetFlags</a>
-</td>
-<td align="left" width="63%">
-Sets flags on a drive object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-setstatus">SetStatus</a>
-</td>
-<td align="left" width="63%">
-Sets the status of the drive to the specified value.
-
-</td>
-</tr>
-</table>
+The <b>IVdsDrive</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsDrive</b> also has these types of members:
 
 ## -see-also
 

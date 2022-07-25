@@ -168,12 +168,11 @@ Any two of <i>readfds</i>, <i>writefds</i>, or <i>exceptfds</i> can be given as 
 Summary: A socket will be identified in a particular set when **LPWSPSelect** returns according to the following.
 
 
-
-|              |                                                                                                                                                                                                                                                      |
-|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <i>readfds</i>:   | If <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwsplisten">LPWSPListen</a></b> is called, a connection is pending, **[LPWSPAccept](nc-ws2spi-lpwspaccept.md)** will succeed.Data is available for reading (includes OOB data if SO_OOBINLINE is enabled).The connection has been closed/reset/terminated. |
-| <i>writefds</i>:  | If <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b> (nonblocking), connection has succeeded.Data can be sent.                                                                                                                                                      |
-| <i>exceptfds</i>: | If <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b> (nonblocking), connection attempt failed.OOB data is available for reading (only if SO_OOBINLINE is disabled).                                                                                                |
+| Parameter | Description |
+|---|---|
+| <i>readfds</i>: | If <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwsplisten">LPWSPListen</a></b> is called, a connection is pending, **[LPWSPAccept](nc-ws2spi-lpwspaccept.md)** will succeed.Data is available for reading (includes OOB data if SO_OOBINLINE is enabled).The connection has been closed/reset/terminated. |
+| <i>writefds</i>:  | If <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b> (nonblocking), connection has succeeded.Data can be sent.|
+| <i>exceptfds</i>: | If <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b> (nonblocking), connection attempt failed.OOB data is available for reading (only if SO_OOBINLINE is disabled). |
 
 
 

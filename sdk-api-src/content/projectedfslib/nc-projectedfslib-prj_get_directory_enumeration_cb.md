@@ -57,13 +57,13 @@ Requests directory enumeration information from the provider.
 ### -param callbackData [in]
 
 Information about the operation. The following <i>callbackData</i> members are necessary to implement this callback:<dl>
-<dd><b>FilePathName</b>Identifies the directory to be enumerated.
+<dd><b>FilePathName</b> Identifies the directory to be enumerated.
 
 </dd>
-<dd><b>VersionInfo</b>Provides version information for the directory to be enumerated.
+<dd><b>VersionInfo</b> Provides version information for the directory to be enumerated.
 
 </dd>
-<dd><b>Flags</b>Flags to control what is returned in the enumeration.  Valid values are:
+<dd><b>Flags</b> Flags to control what is returned in the enumeration.  Valid values are:
 
 <table>
 <tr>

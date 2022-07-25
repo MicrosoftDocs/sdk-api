@@ -46,7 +46,7 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# CHARFORMAT2W structure
+# CHARFORMAT2W structure overview
 
 
 ## -description

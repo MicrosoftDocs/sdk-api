@@ -56,47 +56,7 @@ If you implement this interface in your component, the COM+ run-time environment
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ObjectControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ObjectControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ObjectControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-objectcontrol-activate">Activate</a>
-</td>
-<td align="left" width="63%">
-Enables a COM+ object to perform context-specific initialization whenever it is activated.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-objectcontrol-canbepooled">CanBePooled</a>
-</td>
-<td align="left" width="63%">
-Indicates whether the object can be pooled for reuse when it is deactivated.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-objectcontrol-deactivate">Deactivate</a>
-</td>
-<td align="left" width="63%">
-Enables a COM+ object to perform cleanup required before it is recycled or destroyed.
-
-</td>
-</tr>
-</table>
+The <b>ObjectControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ObjectControl</b> also has these types of members:
 
 ## -see-also
 

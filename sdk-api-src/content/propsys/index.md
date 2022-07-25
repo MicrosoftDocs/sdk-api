@@ -16,7 +16,9 @@ f1_keywords:
 
 ## -description
 
-This header is used by Windows Property System. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [Audio Devices DDI Reference](../_audio/index.md)
+- [The Windows Shell](../_shell/index.md)
 - [Windows Property System](../_properties/index.md)
 

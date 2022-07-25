@@ -80,7 +80,7 @@ Returned combination of the following values.
 
 
 
-#### MI_FLAG_NULL (0x2000000)
+#### MI_FLAG_NULL (0x20000000)
 
 Element value is <b>Null</b>.
 

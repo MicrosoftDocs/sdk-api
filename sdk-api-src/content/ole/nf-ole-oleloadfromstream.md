@@ -56,27 +56,27 @@ Loads an object from the stream.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 TBD
 
-### -param arg2
+### -param unnamedParam2
 
 TBD
 
-### -param arg3
+### -param unnamedParam3
 
 TBD
 
-### -param arg4
+### -param unnamedParam4
 
 TBD
 
-### -param arg5
+### -param unnamedParam5
 
 TBD
 
-### -param arg6
+### -param unnamedParam6
 
 TBD
 
@@ -135,7 +135,7 @@ This function can also return any of the error values returned by the <a href="/
 
 ## -remarks
 
-<div class="alert"><b>Important</b>  <p class="note">Security Note: Calling this method with untrusted data is a security risk. Call this method only with trusted data. For more information, see <a href="https://docs.microsoft.com/">Untrusted Data Security Risks</a>.
+<div class="alert"><b>Important</b>  <p class="note">Security Note: Calling this method with untrusted data is a security risk. Call this method only with trusted data.
 
 </div>
 <div> </div>

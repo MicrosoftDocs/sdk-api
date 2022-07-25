@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The<b>PathGradientBrush::MultiplyTransform</b> method updates the brush's transformation matrix with the product of itself and another matrix.
+The <b>PathGradientBrush::MultiplyTransform</b> method updates the brush's transformation matrix with the product of itself and another matrix.
 
 ## -parameters
 
@@ -92,9 +92,9 @@ The order of matrix multiplication is important. In general, the matrix product 
 
 
 The following example creates a 
-						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object based on a triangular path. The code calls the <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-scaletransform">PathGradientBrush::ScaleTransform</a> method of the 
-						<b>PathGradientBrush</b>object to fill the brush's transformation matrix with the elements that represent a horizontal scaling by a factor of 3. Then the code calls the <b>PathGradientBrush::MultiplyTransform</b> method of that same 
-						<b>PathGradientBrush</b>object to multiply the brush's existing transformation matrix by a matrix that represents a translation (10 right, 30 down). The MatrixOrderAppend argument indicates that the multiplication is performed with the translation matrix on the right.
+						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object based on a triangular path. The code calls the <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-scaletransform">PathGradientBrush::ScaleTransform</a> method of the 
+						<b>PathGradientBrush</b> object to fill the brush's transformation matrix with the elements that represent a horizontal scaling by a factor of 3. Then the code calls the <b>PathGradientBrush::MultiplyTransform</b> method of that same 
+						<b>PathGradientBrush</b> object to multiply the brush's existing transformation matrix by a matrix that represents a translation (10 right, 30 down). The MatrixOrderAppend argument indicates that the multiplication is performed with the translation matrix on the right.
 
 After the multiplication, the brush's transformation matrix represents a composite transformation: first scale, then translate. That composite transformation is applied to the brush's boundary path during the call to 
 						<a href="/previous-versions/ms535957(v=vs.85)">FillRectangle</a>, so it is the area inside the transformed path that gets painted.

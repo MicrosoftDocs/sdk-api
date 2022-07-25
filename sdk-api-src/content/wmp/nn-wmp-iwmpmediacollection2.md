@@ -54,56 +54,10 @@ The <b>IWMPMediaCollection2</b> interface provides methods that supplement the <
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMediaCollection2</b> interface inherits from <a href="/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection">IWMPMediaCollection</a>. <b>IWMPMediaCollection2</b> also has these types of members:
+The <b>IWMPMediaCollection2</b> interface inherits from <a href="/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection">IWMPMediaCollection</a>. <b>IWMPMediaCollection2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMPMediaCollection2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-createquery">createQuery</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to an <b>IWMPQuery</b> interface that represents a new query.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-getbyattributeandmediatype">getByAttributeAndMediaType</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to an <b>IWMPPlaylist</b> interface that contains media items that have a specified attribute and media type.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-getplaylistbyquery">getPlaylistByQuery</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to an <b>IWMPPlaylist</b> interface that contains media items that match the query conditions.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-getstringcollectionbyquery">getStringCollectionByQuery</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to an <b>IWMPStringCollection</b> interface that contains the set of all string values for a specified attribute that match the query conditions.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

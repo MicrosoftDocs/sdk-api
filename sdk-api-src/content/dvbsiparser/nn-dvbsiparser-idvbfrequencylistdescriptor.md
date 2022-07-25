@@ -57,65 +57,10 @@ The <b>IDvbFrequencyListDescriptor</b> interface enables the client to get a fre
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbFrequencyListDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbFrequencyListDescriptor</b> also has these types of members:
+The <b>IDvbFrequencyListDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbFrequencyListDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IDvbFrequencyListDescriptor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbfrequencylistdescriptor-getcodingtype">GetCodingType</a>
-</td>
-<td align="left" width="63%">
-Returns a flag that specifies how the frequency is coded.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbfrequencylistdescriptor-getcountofrecords">GetCountOfRecords</a>
-</td>
-<td align="left" width="63%">
-Returns the number of records in the frequency list descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbfrequencylistdescriptor-getlength">GetLength</a>
-</td>
-<td align="left" width="63%">
-Returns the length of the descriptor body.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbfrequencylistdescriptor-getrecordcentrefrequency">GetRecordCentreFrequency</a>
-</td>
-<td align="left" width="63%">
-Returns the frequency at a specified index in the frequency list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbfrequencylistdescriptor-gettag">GetTag</a>
-</td>
-<td align="left" width="63%">
-Returns the descriptor tag.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

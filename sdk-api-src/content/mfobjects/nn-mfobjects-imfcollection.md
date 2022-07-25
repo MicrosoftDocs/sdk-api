@@ -55,74 +55,7 @@ Represents a generic collection of <b>IUnknown</b> pointers.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFCollection</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFCollection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-addelement">AddElement</a>
-</td>
-<td align="left" width="63%">
-Adds an object to the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-getelement">GetElement</a>
-</td>
-<td align="left" width="63%">
-Retrieves an object in the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-getelementcount">GetElementCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of objects in the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-insertelementat">InsertElementAt</a>
-</td>
-<td align="left" width="63%">
-Adds an object at the specified index in the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-removeallelements">RemoveAllElements</a>
-</td>
-<td align="left" width="63%">
-Removes all items from the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-removeelement">RemoveElement</a>
-</td>
-<td align="left" width="63%">
-Removes an object from the collection.
-
-</td>
-</tr>
-</table>
+The <b>IMFCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFCollection</b> also has these types of members:
 
 ## -remarks
 

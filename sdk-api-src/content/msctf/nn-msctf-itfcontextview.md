@@ -54,62 +54,11 @@ The <b>ITfContextView</b> interface is implemented by the TSF manager and used b
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfContextView</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfContextView</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfContextView</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextview-getrangefrompoint">GetRangeFromPoint</a>
-</td>
-<td align="left" width="63%">
-Converts a point, in screen coordinates, to an empty range positioned at a corresponding location.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextview-getscreenext">GetScreenExt</a>
-</td>
-<td align="left" width="63%">
-Returns the bounding box of the display surface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextview-gettextext">GetTextExt</a>
-</td>
-<td align="left" width="63%">
-Returns the bounding box, in screen coordinates, of a range of text.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextview-getwnd">GetWnd</a>
-</td>
-<td align="left" width="63%">
-Returns an HWND that corresponds to the document, if one exists.
-
-</td>
-</tr>
-</table>
+The <b>ITfContextView</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfContextView</b> also has these types of members:
 
 ## -see-also
 
-<a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
-        
-      </a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
 
 
 

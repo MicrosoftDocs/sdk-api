@@ -52,7 +52,7 @@ api_name:
 
 Locks the current media for exclusive access.
 
-## -parameters
+
 
 ## -returns
 

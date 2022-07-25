@@ -4,7 +4,7 @@ title: InitOnceComplete function (synchapi.h)
 description: Completes one-time initialization started with the InitOnceBeginInitialize function.
 helpviewer_keywords: ["INIT_ONCE_ASYNC","INIT_ONCE_INIT_FAILED","InitOnceComplete","InitOnceComplete function","base.initoncecomplete","synchapi/InitOnceComplete","winbase/InitOnceComplete"]
 old-location: base\initoncecomplete.htm
-tech.root: backup
+tech.root: base
 ms.assetid: aad1d1f6-5415-443a-94d2-f4a4d9b68750
 ms.date: 12/05/2018
 ms.keywords: INIT_ONCE_ASYNC, INIT_ONCE_INIT_FAILED, InitOnceComplete, InitOnceComplete function, base.initoncecomplete, synchapi/InitOnceComplete, winbase/InitOnceComplete

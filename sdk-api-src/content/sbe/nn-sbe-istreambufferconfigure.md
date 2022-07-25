@@ -58,74 +58,10 @@ Before calling any of the <b>Set</b> methods on this interface, you must specify
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferConfigure</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamBufferConfigure</b> also has these types of members:
+The <b>IStreamBufferConfigure</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamBufferConfigure</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IStreamBufferConfigure</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-getbackingfilecount">GetBackingFileCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the maximum and minimum number of backing files.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-getbackingfileduration">GetBackingFileDuration</a>
-</td>
-<td align="left" width="63%">
-Retrieves the backing file size, in seconds.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-getdirectory">GetDirectory</a>
-</td>
-<td align="left" width="63%">
-Retrieves the directory where backing files are saved.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-setbackingfilecount">SetBackingFileCount</a>
-</td>
-<td align="left" width="63%">
-Sets the maximum and minimum number of backing files.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-setbackingfileduration">SetBackingFileDuration</a>
-</td>
-<td align="left" width="63%">
-Sets the backing file size, in seconds.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-setdirectory">SetDirectory</a>
-</td>
-<td align="left" width="63%">
-Sets the directory where backing files are saved.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

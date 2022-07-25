@@ -1,7 +1,7 @@
 ---
 UID: NS:audioclient.AudioClientProperties~r1
 title: AudioClientProperties
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: AudioClientProperties
 targetos: Windows
 req.construct-type: structure
@@ -13,7 +13,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows Build 22000
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: AudioClientProperties

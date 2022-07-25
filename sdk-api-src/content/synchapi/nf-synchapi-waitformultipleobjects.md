@@ -4,7 +4,7 @@ title: WaitForMultipleObjects function (synchapi.h)
 description: Waits until one or all of the specified objects are in the signaled state or the time-out interval elapses.
 helpviewer_keywords: ["WaitForMultipleObjects","WaitForMultipleObjects function","_win32_waitformultipleobjects","base.waitformultipleobjects","synchapi/WaitForMultipleObjects"]
 old-location: base\waitformultipleobjects.htm
-tech.root: backup
+tech.root: base
 ms.assetid: 51afb13c-ea7a-407a-9f21-345d84f3b96b
 ms.date: 12/05/2018
 ms.keywords: WaitForMultipleObjects, WaitForMultipleObjects function, _win32_waitformultipleobjects, base.waitformultipleobjects, synchapi/WaitForMultipleObjects
@@ -108,7 +108,7 @@ If the function succeeds, the return value indicates the event that caused the f
 </dl>
 </td>
 <td width="60%">
-If <i>bWaitAll</i> is <b>TRUE</b>, the return value indicates that the state of all specified objects is signaled. 
+If <i>bWaitAll</i> is <b>TRUE</b>, a return value within the specified range indicates that the state of all specified objects is signaled. 
 
 
 
@@ -124,7 +124,7 @@ If <i>bWaitAll</i> is <b>FALSE</b>, the return value minus <b>WAIT_OBJECT_0</b> 
 </dl>
 </td>
 <td width="60%">
-If <i>bWaitAll</i> is <b>TRUE</b>, the return value indicates that the state of all specified objects is signaled and at least one of the objects is an abandoned mutex object. 
+If <i>bWaitAll</i> is <b>TRUE</b>, a return value within the specified range indicates that the state of all specified objects is signaled and at least one of the objects is an abandoned mutex object. 
 
 
 
@@ -177,7 +177,10 @@ To wait on more than <b>MAXIMUM_WAIT_OBJECTS</b> handles, use one of the followi
 
 <ul>
 <li>Create a thread to wait on <b>MAXIMUM_WAIT_OBJECTS</b> handles, then wait on that thread plus the other handles. Use this technique to break the handles into groups of <b>MAXIMUM_WAIT_OBJECTS</b>.</li>
-<li>Call <a href="/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject">RegisterWaitForSingleObject</a> to wait on each handle. A wait thread from the thread pool waits on <b>MAXIMUM_WAIT_OBJECTS</b> registered objects and assigns a worker thread after the object is signaled or the time-out interval expires.</li>
+<li>Call <a href="/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject">RegisterWaitForSingleObject</a> or
+<a href="/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwait">SetThreadpoolWait</a>
+to wait on each handle.
+The thread pool waits efficiently on the handles and assigns a worker thread after the object is signaled or the time-out interval expires.</li>
 </ul>
 The 
 <b>WaitForMultipleObjects</b> function can specify handles of any of the following object types in the <i>lpHandles</i> array:

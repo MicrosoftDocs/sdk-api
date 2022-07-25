@@ -1,6 +1,6 @@
 ---
 UID: NA:icodecapi
-title: Strmif.h header
+title: icodecapi.h header
 ms.date: 05/22/2020
 ms.keywords: 
 ms.topic: conceptual

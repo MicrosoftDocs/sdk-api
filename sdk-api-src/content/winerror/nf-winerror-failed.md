@@ -62,7 +62,11 @@ The status code. This value can be an <b>HRESULT</b> or an <b>SCODE</b>. A negat
 
 This macro is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>#define FAILED(hr) (((HRESULT)(hr)) &lt; 0)</code></pre>
+
+``` syntax
+#define FAILED(hr) (((HRESULT)(hr)) < 0)
+```
+
 
 ## -see-also
 

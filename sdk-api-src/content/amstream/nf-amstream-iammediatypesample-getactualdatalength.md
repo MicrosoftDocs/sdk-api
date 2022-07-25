@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 The <code>GetActualDataLength</code> method retrieves the data length of the sample, in bytes.
 
-## -parameters
+
 
 ## -returns
 

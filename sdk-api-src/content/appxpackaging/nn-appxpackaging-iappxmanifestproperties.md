@@ -54,38 +54,7 @@ Provides read-only access to the properties section of a package manifest.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestProperties</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAppxManifestProperties</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestproperties-getboolvalue">GetBoolValue</a>
-</td>
-<td align="left" width="63%">
-Gets the value of the specified Boolean element in the properties section.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestproperties-getstringvalue">GetStringValue</a>
-</td>
-<td align="left" width="63%">
-Gets the value of the specified string element in the properties section.
-
-</td>
-</tr>
-</table>
+The <b>IAppxManifestProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestProperties</b> also has these types of members:
 
 ## -remarks
 

@@ -80,7 +80,7 @@ If the <b>ICON</b> value is positive, it represents an icon in the class install
 
 When a caller is finished using the icon, the caller must call <b>DestroyIcon</b> (which is described in the Microsoft Windows SDK documentation).
 
-If the <i>LargeIcon </i>parameter is specified, but the <i>ClassGuid</i> parameter does not supply a valid class GUID or the <b>Icon</b> registry value of the class is not valid, <b>SetupDiLoadClassIcon</b> loads the default large icon, returns the handle for the large icon, and, if the <i>MiniIconIndex</i> parameter is specified, returns the index of the default mini-icon.
+If the <i>LargeIcon </i> parameter is specified, but the <i>ClassGuid</i> parameter does not supply a valid class GUID or the <b>Icon</b> registry value of the class is not valid, <b>SetupDiLoadClassIcon</b> loads the default large icon, returns the handle for the large icon, and, if the <i>MiniIconIndex</i> parameter is specified, returns the index of the default mini-icon.
 
 ## -see-also
 

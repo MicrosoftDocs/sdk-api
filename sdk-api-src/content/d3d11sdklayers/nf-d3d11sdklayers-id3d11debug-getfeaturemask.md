@@ -53,7 +53,7 @@ api_name:
 
 Get a bitfield of flags that indicates which debug features are on or off.
 
-## -parameters
+
 
 ## -returns
 

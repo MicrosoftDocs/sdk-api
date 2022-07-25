@@ -50,105 +50,11 @@ api_name:
 
 ## -description
 
-Exposes methods that allow an application to retrieve information about a known folder's category, type, GUID, pointer to an item identifier list (PIDL) value, redirection capabilities, and definition. It provides a method for the retrival of a known folder's <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object. It also provides methods to get or set the path of the known folder.
+Exposes methods that allow an application to retrieve information about a known folder's category, type, GUID, pointer to an item identifier list (PIDL) value, redirection capabilities, and definition. It provides a method for the retrieval of a known folder's <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object. It also provides methods to get or set the path of the known folder.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKnownFolder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKnownFolder</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IKnownFolder</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getcategory">GetCategory</a>
-</td>
-<td align="left" width="63%">
-Retrieves the category—virtual, fixed, common, or per-user—of the selected folder.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getfolderdefinition">GetFolderDefinition</a>
-</td>
-<td align="left" width="63%">
-Retrieves a structure that contains the defining elements of a known folder, which includes the folder's category, name, path, description, tooltip, icon, and other properties.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getfoldertype">GetFolderType</a>
-</td>
-<td align="left" width="63%">
-Retrieves the folder type.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getid">GetId</a>
-</td>
-<td align="left" width="63%">
-Gets the ID of the selected folder.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getidlist">GetIDList</a>
-</td>
-<td align="left" width="63%">
-Gets the location of the Shell namespace folder in the IDList (<a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a>) form.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getpath">GetPath</a>
-</td>
-<td align="left" width="63%">
-Retrieves the path of a known folder as a string.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getredirectioncapabilities">GetRedirectionCapabilities</a>
-</td>
-<td align="left" width="63%">
-Gets a value that states whether the known folder can have its path set to a new value or what specific restrictions or prohibitions are placed on that redirection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getshellitem">GetShellItem</a>
-</td>
-<td align="left" width="63%">
-Retrieves the location of a known folder in the Shell namespace in the form of a Shell item (<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> or derived interface).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-setpath">SetPath</a>
-</td>
-<td align="left" width="63%">
-Assigns a new path to a known folder.
-
-</td>
-</tr>
-</table>
+The <b>IKnownFolder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKnownFolder</b> also has these types of members:
 
 ## -remarks
 

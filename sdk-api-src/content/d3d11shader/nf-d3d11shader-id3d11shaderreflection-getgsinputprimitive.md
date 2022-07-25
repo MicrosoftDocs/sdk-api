@@ -52,7 +52,7 @@ api_name:
 
 Gets the geometry-shader input-primitive description.
 
-## -parameters
+
 
 ## -returns
 

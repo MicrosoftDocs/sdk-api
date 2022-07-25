@@ -50,57 +50,9 @@ api_name:
 
 ## -description
 
-Provides methods for getting and setting the properties of an <a href="https://msdn.microsoft.com/en-us/library/Mt815591(v=VS.85).aspx">ID3D12StateObject</a>.
+Provides methods for getting and setting the properties of an [**ID3D12StateObject**](/windows/win32/api/d3d12/nn-d3d12-id3d12stateobject). To retrieve an instance of this type, call [**ID3D12StateObject::QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface%28refiid_void%29) with the IID of **ID3D12StateObjectProperties**.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12StateObjectProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12StateObjectProperties</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID3D12StateObjectProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12StateObjectProperties</b> also has these types of members:
 
-## -members
-
-The <b>ID3D12StateObjectProperties</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt815592(v=VS.85).aspx">GetPipelineStackSize</a>
-</td>
-<td align="left" width="63%">
-Gets the current pipeline stack size.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt847467(v=VS.85).aspx">GetShaderIdentifier</a>
-</td>
-<td align="left" width="63%">
-Retrieves the unique identifier for a shader that can be used in a shader record.  
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt847468(v=VS.85).aspx">GetShaderStackSize</a>
-</td>
-<td align="left" width="63%">
-Gets the amount of stack memory required to invoke a raytracing shader in HLSL.  
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt815593(v=VS.85).aspx">SetPipelineStackSize</a>
-</td>
-<td align="left" width="63%">
-Set the current pipeline stack size.  
-
-</td>
-</tr>
-</table>

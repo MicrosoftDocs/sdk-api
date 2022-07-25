@@ -2,7 +2,6 @@
 UID: NS:d3d12video.D3D12_RESOURCE_COORDINATE
 title: D3D12_RESOURCE_COORDINATE
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Describes the coordinates of a resource.
 tech.root: mf

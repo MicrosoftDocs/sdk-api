@@ -56,7 +56,7 @@ api_name:
 
 The <b>CM_Get_Device_Interface_List_Size</b> function retrieves the buffer size 
      that must be passed to the 
-     <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista">CM_Get_Device_Interface_List</a> 
+     <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_listw">CM_Get_Device_Interface_List</a> 
      function.
 
 ## -parameters
@@ -70,7 +70,7 @@ Caller-supplied pointer to a location that receives the required length, in char
 ### -param InterfaceClassGuid [in]
 
 Supplies a GUID that identifies a 
-           <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>.
+           <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a>.
 
 ### -param pDeviceID [in, optional]
 
@@ -122,7 +122,7 @@ If the operation succeeds, the function returns <b>CR_SUCCESS</b>. Otherwise, it
 
 ## -see-also
 
-<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista">CM_Get_Device_Interface_List</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_listw">CM_Get_Device_Interface_List</a>
 
 ## -remarks
 

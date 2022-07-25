@@ -2,7 +2,6 @@
 UID: NE:processthreadsapi._PROCESS_INFORMATION_CLASS
 title: PROCESS_INFORMATION_CLASS
 ms.date: 05/05/2020
-ms.topic: language-reference
 targetos: Windows
 description: Indicates a specific class of process information.
 tech.root: security
@@ -12,8 +11,8 @@ req.header: processthreadsapi.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Build 22000
+req.target-min-winversvr: Windows Build 22000
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -34,6 +33,8 @@ f1_keywords:
 dev_langs:
  - c++
 ---
+
+# PROCESS_INFORMATION_CLASS enumeration
 
 ## -description
 
@@ -75,7 +76,11 @@ The process information is represented by a <a href="/windows/desktop/api/proces
 
 ### -field ProcessLeapSecondInfo
 
-The process information is represented by a <a href="https://msdn.microsoft.com/en-us/library/Mt829716(v=VS.85).aspx">PROCESS_LEAP_SECOND_INFO</a> structure.
+The process information is represented by a <a href="../processthreadsapi/ns-processthreadsapi-process_leap_second_info.md">PROCESS_LEAP_SECOND_INFO</a> structure.
+
+### -field ProcessMachineTypeInfo
+
+The process is represented by a [PROCESS_MACHINE_INFORMATION](ns-processthreadsapi-process_machine_information.md) structure.
 
 ### -field ProcessInformationClassMax
 

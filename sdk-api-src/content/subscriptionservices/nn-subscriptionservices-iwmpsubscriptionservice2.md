@@ -56,56 +56,10 @@ The <b>IWMPSubscriptionService2</b> interface extends <b>IWMPSubscriptionService
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSubscriptionService2</b> interface inherits from <a href="/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice">IWMPSubscriptionService</a>. <b>IWMPSubscriptionService2</b> also has these types of members:
+The <b>IWMPSubscriptionService2</b> interface inherits from <a href="/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice">IWMPSubscriptionService</a>. <b>IWMPSubscriptionService2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMPSubscriptionService2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice2-deviceavailable">deviceAvailable</a>
-</td>
-<td align="left" width="63%">
-Initiates device-specific processing tasks.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice2-prepareforsync">prepareForSync</a>
-</td>
-<td align="left" width="63%">
-Initiates tasks related to synchronizing a digital media file to a device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice2-serviceevent">serviceEvent</a>
-</td>
-<td align="left" width="63%">
-Called when the online store is activated or deactivated.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice2-stopbackgroundprocessing">stopBackgroundProcessing</a>
-</td>
-<td align="left" width="63%">
-Terminates background processing tasks.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

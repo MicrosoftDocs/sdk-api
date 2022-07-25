@@ -205,7 +205,7 @@ The file is part of or used exclusively by an operating system.
 <td width="60%">
 The file is being used for temporary storage.
 
-For more information, see the <a href="https://docs.microsoft.com/">Caching Behavior</a> section of this 
+For more information, see the **Caching Behavior** section of this 
          topic.
 
 </td>
@@ -343,7 +343,7 @@ If this flag is not specified, then I/O operations are serialized, even if the c
          functions specify an <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
 
 For information about considerations when using a file handle created with this flag, see the 
-         <a href="https://docs.microsoft.com/">Synchronous and Asynchronous I/O Handles</a> 
+         **Synchronous and Asynchronous I/O Handles**
          section of this topic.
 
 </td>
@@ -374,7 +374,7 @@ Access is intended to be random. The system can use this as a hint to optimize f
 This flag has no effect if the file system does not support cached I/O and 
          <b>FILE_FLAG_NO_BUFFERING</b>.
 
-For more information, see the <a href="https://docs.microsoft.com/">Caching Behavior</a> section of this 
+For more information, see the **Caching Behavior** section of this 
          topic.
 
 </td>
@@ -410,7 +410,7 @@ This flag should not be used if read-behind (that is, backwards scans) will be u
 This flag has no effect if the file system does not support cached I/O and 
          <b>FILE_FLAG_NO_BUFFERING</b>.
 
-For more information, see the <a href="https://docs.microsoft.com/">Caching Behavior</a> section of this 
+For more information, see the **Caching Behavior** section of this 
          topic.
 
 </td>
@@ -424,7 +424,7 @@ For more information, see the <a href="https://docs.microsoft.com/">Caching Beha
 <td width="60%">
 Write operations will not go through any intermediate cache, they will go directly to disk.
 
-For additional information, see the <a href="https://docs.microsoft.com/">Caching Behavior</a> section of this 
+For additional information, see the **Caching Behavior** section of this 
          topic.
 
 </td>
@@ -533,7 +533,7 @@ The <b>lpSecurityDescriptor</b> member of the structure specifies a
        <b>lpSecurityDescriptor</b> member when opening an existing file or device, but continues 
        to use the <b>bInheritHandle</b> member.
 
-The <b>bInheritHandle</b>member of the structure specifies whether the returned handle 
+The <b>bInheritHandle</b> member of the structure specifies whether the returned handle 
        can be inherited.
 
 For more information, see the Remarks section of the 

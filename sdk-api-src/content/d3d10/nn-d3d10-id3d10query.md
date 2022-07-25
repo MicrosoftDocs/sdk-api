@@ -55,29 +55,7 @@ A query interface queries information from the GPU.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Query</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10asynchronous">ID3D10Asynchronous</a>. <b>ID3D10Query</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D10Query</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10query-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Get a query description.
-
-</td>
-</tr>
-</table>
+The <b>ID3D10Query</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10asynchronous">ID3D10Asynchronous</a>. <b>ID3D10Query</b> also has these types of members:
 
 ## -remarks
 
@@ -102,7 +80,7 @@ pDevice->CreateQuery(&queryDesc, &pQuery);
 
 pQuery->Begin();
 
-... // Issue graphis commands, do whatever
+... // Issue graphics commands, do whatever
 
 pQuery->End();
 

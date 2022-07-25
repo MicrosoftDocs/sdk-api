@@ -50,7 +50,7 @@ Retrieves the DirectDrawSurface object that currently represents the surface mem
 
 ## -parameters
 
-### -param arg1 [out]
+### -param unnamedParam1 [out]
 
 Address of a variable to be filled with a pointer to the <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface for the surface that currently controls the GDI's primary surface memory.
 

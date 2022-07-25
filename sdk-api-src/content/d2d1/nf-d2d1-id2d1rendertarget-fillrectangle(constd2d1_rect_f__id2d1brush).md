@@ -75,7 +75,7 @@ The following example uses an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1hwnd
 
 ```cpp
 // This method discards device-specific
-// resources if the Direct3D device dissapears during execution and
+// resources if the Direct3D device disappears during execution and
 // recreates the resources the next time it's invoked.
 HRESULT DemoApp::OnRender()
 {
@@ -152,11 +152,11 @@ HRESULT DemoApp::OnRender()
 }
 ```
 
-For a related tutorial, see <a href="/windows/win32/Direct2D/direct2d-quickstart">Creating a Simple Direct2D Application</a>.
+For a related tutorial, see [Create a simple Direct2D application](/windows/win32/Direct2D/direct2d-quickstart).
 
 ## -see-also
 
-<a href="/windows/win32/Direct2D/direct2d-quickstart">Creating a Simple Direct2D Application</a>
+[Create a simple Direct2D application](/windows/win32/Direct2D/direct2d-quickstart)
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
 

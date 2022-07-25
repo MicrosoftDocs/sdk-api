@@ -51,7 +51,7 @@ Gets the minimum feature level.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Type: [out] <b><a href="/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level">D3D_FEATURE_LEVEL</a>*</b>
 

@@ -59,56 +59,7 @@ Enumerates through a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumVdsObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumVdsObject</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IEnumVdsObject</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ienumvdsobject-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates an enumeration with the same state as the current enumeration.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ienumvdsobject-next">Next</a>
-</td>
-<td align="left" width="63%">
-Returns the next object in the enumeration, beginning from the current point.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ienumvdsobject-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets to the beginning of the enumeration.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ienumvdsobject-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips a specified number of objects in the enumeration.
-
-</td>
-</tr>
-</table>
+The <b>IEnumVdsObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumVdsObject</b> also has these types of members:
 
 ## -see-also
 

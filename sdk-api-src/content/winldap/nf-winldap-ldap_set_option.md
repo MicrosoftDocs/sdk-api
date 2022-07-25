@@ -82,7 +82,7 @@ Call <b>ldap_set_option</b> to access the
 <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> structure that represents an LDAP session. Do not attempt to modify the LDAP data structure directly.
 
 For more information and  a description of optional settings that apply to an LDAP session, see 
-<a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">Session Options</a>. For more information about flags, see 
+<a href="/previous-versions/windows/desktop/ldap/session-options">Session Options</a>. For more information about flags, see 
 <a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a>.
 
 It is now possible to digitally sign or encrypt all of your LDAP traffic to and from a Windows LDAP server using the Kerberos authentication protocol. This new feature provides integrity and confidentiality required by some applications. Be aware that using Secure Sockets Layer (SSL) will give you the same benefits, but requires extensive certificate enrollments for the server and, sometimes, for the client.

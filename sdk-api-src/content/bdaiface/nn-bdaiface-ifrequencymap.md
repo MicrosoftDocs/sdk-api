@@ -61,74 +61,10 @@ Frequencies used by this interface are measured in units of kilohertz (kHz), and
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFrequencyMap</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFrequencyMap</b> also has these types of members:
+The <b>IFrequencyMap</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFrequencyMap</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IFrequencyMap</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ifrequencymap-get_countrycode">get_CountryCode</a>
-</td>
-<td align="left" width="63%">
-Returns the country/region code that the Network Provider is currently using.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ifrequencymap-get_countrycodelist">get_CountryCodeList</a>
-</td>
-<td align="left" width="63%">
-Returns a list of all the country/region codes for which the Network Provider has a frequency table.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ifrequencymap-get_defaultfrequencymapping">get_DefaultFrequencyMapping</a>
-</td>
-<td align="left" width="63%">
-Returns the default frequency table for a given country/region code.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ifrequencymap-get_frequencymapping">get_FrequencyMapping</a>
-</td>
-<td align="left" width="63%">
-Returns the Network Provider filter's current frequency table.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ifrequencymap-put_countrycode">put_CountryCode</a>
-</td>
-<td align="left" width="63%">
-Sets the country/region code.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ifrequencymap-put_frequencymapping">put_FrequencyMapping</a>
-</td>
-<td align="left" width="63%">
-Sets the frequency table.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

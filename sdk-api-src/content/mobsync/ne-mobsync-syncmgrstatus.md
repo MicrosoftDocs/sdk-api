@@ -56,43 +56,43 @@ Used in the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize
 
 ## -enum-fields
 
-### -field SYNCMGRSTATUS_STOPPED
+### -field SYNCMGRSTATUS_STOPPED:0
 
 Synchronization has been stopped.
 
-### -field SYNCMGRSTATUS_SKIPPED
+### -field SYNCMGRSTATUS_SKIPPED:0x1
 
 Indicates that this item should be skipped.
 
-### -field SYNCMGRSTATUS_PENDING
+### -field SYNCMGRSTATUS_PENDING:0x2
 
 Synchronization for the item is pending.
 
-### -field SYNCMGRSTATUS_UPDATING
+### -field SYNCMGRSTATUS_UPDATING:0x3
 
 The item is currently being synchronized.
 
-### -field SYNCMGRSTATUS_SUCCEEDED
+### -field SYNCMGRSTATUS_SUCCEEDED:0x4
 
 The synchronization for the item succeeded.
 
-### -field SYNCMGRSTATUS_FAILED
+### -field SYNCMGRSTATUS_FAILED:0x5
 
 Synchronization for the item failed.
 
-### -field SYNCMGRSTATUS_PAUSED
+### -field SYNCMGRSTATUS_PAUSED:0x6
 
 Synchronization for the item paused.
 
-### -field SYNCMGRSTATUS_RESUMING
+### -field SYNCMGRSTATUS_RESUMING:0x7
 
 Synchronization for the item is resuming.
 
-### -field SYNCMGRSTATUS_UPDATING_INDETERMINATE
+### -field SYNCMGRSTATUS_UPDATING_INDETERMINATE:0x8
 
 <b>Windows Vista and later</b>. Shows marquee progress for the synchronized item. Sets the progress bar in the folder to marquee the synchronization progress.
 
-### -field SYNCMGRSTATUS_DELETED
+### -field SYNCMGRSTATUS_DELETED:0x100
 
 The item has been deleted. This value has been deprecated for Windows Vista and later.
 

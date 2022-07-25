@@ -55,74 +55,7 @@ Provides the primary means by which an embedded object obtains information about
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleClientSite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleClientSite</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IOleClientSite</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-getcontainer">GetContainer</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to the object's container.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-getmoniker">GetMoniker</a>
-</td>
-<td align="left" width="63%">
-Retrieves a moniker for the object's client site.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-onshowwindow">OnShowWindow</a>
-</td>
-<td align="left" width="63%">
-Notifies a container when an embedded object's window is about to become visible or invisible.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-requestnewobjectlayout">RequestNewObjectLayout</a>
-</td>
-<td align="left" width="63%">
-Asks a container to resize the display site for embedded objects.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-saveobject">SaveObject</a>
-</td>
-<td align="left" width="63%">
-Saves the embedded object associated with the client site.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-showobject">ShowObject</a>
-</td>
-<td align="left" width="63%">
-Asks a container to display its object to the user.
-
-</td>
-</tr>
-</table>
+The <b>IOleClientSite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleClientSite</b> also has these types of members:
 
 ## -see-also
 

@@ -55,65 +55,7 @@ Use the <b>IEnumWIA_FORMAT_INFO</b> interface to enumerate the format and media 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumWIA_FORMAT_INFO</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumWIA_FORMAT_INFO</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IEnumWIA_FORMAT_INFO</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-clone">IEnumWIA_FORMAT_INFO::Clone</a> method creates an additional instance of the <b>IEnumWIA_FORMAT_INFO</b> interface and returns an interface pointer to the new interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-getcount">GetCount</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-getcount">IEnumWIA_FORMAT_INFO::GetCount</a> method returns the number of elements stored by this enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-next">Next</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-next">IEnumWIA_FORMAT_INFO::Next</a> method returns an array of <a href="/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a> structures.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-reset">IEnumWIA_FORMAT_INFO::Reset</a> method sets the enumeration back to the first <a href="/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a> structure.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-skip">IEnumWIA_FORMAT_INFO::Skip</a> method skips the specified number of structures in the enumeration.
-
-</td>
-</tr>
-</table>
+The <b>IEnumWIA_FORMAT_INFO</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumWIA_FORMAT_INFO</b> also has these types of members:
 
 ## -remarks
 

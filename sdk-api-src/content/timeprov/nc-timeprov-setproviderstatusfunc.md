@@ -54,7 +54,7 @@ Sets the time provider's status information.
 
 ## -parameters
 
-### -param *pspsi [in]
+### -param pspsi [in]
 
 A pointer to a 
 <a href="/windows/desktop/api/timeprov/ns-timeprov-setproviderstatusinfo">SetProviderStatusInfo</a> structure that provides the status information.

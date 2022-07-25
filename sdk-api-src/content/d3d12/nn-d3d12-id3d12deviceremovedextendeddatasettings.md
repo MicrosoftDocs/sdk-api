@@ -9,8 +9,8 @@ ms.keywords: ID3D12DeviceRemovedExtendedDataSettings, ID3D12DeviceRemovedExtende
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -53,16 +53,6 @@ This interface controls Device Removed Extended Data (DRED) settings. You should
 ## Inheritance
 
 The **ID3D12DeviceRemovedExtendedDataSettings** interface inherits from the [IUnknown](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.
-
-## -members
-
-The **ID3D12DeviceRemovedExtendedDataSettings** interface has these methods.
-
-|Method|Description|
-|-|-|
-|[SetAutoBreadcrumbsEnablement](nf-d3d12-id3d12deviceremovedextendeddatasettings-setautobreadcrumbsenablement.md)|Configures the enablement settings for Device Removed Extended Data (DRED) auto-breadcrumbs.|
-|[SetPageFaultEnablement](nf-d3d12-id3d12deviceremovedextendeddatasettings-setpagefaultenablement.md)|Configures the enablement settings for Device Removed Extended Data (DRED) page fault reporting.|
-|[SetWatsonDumpEnablement](nf-d3d12-id3d12deviceremovedextendeddatasettings-setwatsondumpenablement.md)|Configures the enablement settings for Device Removed Extended Data (DRED) Watson dumps.|
 
 ## -remarks
 

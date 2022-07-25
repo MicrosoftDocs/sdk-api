@@ -54,50 +54,10 @@ Implements methods for serializing tuning model objects. All serializable tuning
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistTuneXml</b> interface inherits from <b>IPersist</b>. <b>IPersistTuneXml</b> also has these types of members:
+The <b>IPersistTuneXml</b> interface inherits from <b>IPersist</b>. <b>IPersistTuneXml</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IPersistTuneXml</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ipersisttunexml-initnew">InitNew</a>
-</td>
-<td align="left" width="63%">
-Not implemented in the current release.
-          
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ipersisttunexml-load">Load</a>
-</td>
-<td align="left" width="63%">
-Deserializes a tuning model object from an XML node.
-          
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ipersisttunexml-save">Save</a>
-</td>
-<td align="left" width="63%">
-Serializes a tuning model object to an XML node.
-          
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

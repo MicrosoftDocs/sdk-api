@@ -173,7 +173,7 @@ Whereas the debug layer attempts to validate the runtime rules, it operates cons
 The debug layer will issue warnings in the following cases:
 
 <ul>
-<li>All of the cases where the D3D11 debug layer would issues warnings for <a href="/windows/win32/api/d3d11_2/nf-d3d11_2-id3d11devicecontext2-tiledresourcebarrier">ID3D11DeviceContext2::TiledResourceBarrier</a>.
+<li>All of the cases where the D3D12 debug layer would issues warnings for <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier">ID3D12GraphicsCommandList::ResourceBarrier</a>.
             </li>
 <li>If a depth buffer is used in a non-read-only mode while the resource has the D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE usage bit set.</li>
 </ul>

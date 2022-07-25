@@ -50,7 +50,7 @@ Frees the specified private data that is associated with this surface.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Reference to (C++) or address of (C) the globally unique identifier that identifies the private data to be freed.
 

@@ -51,11 +51,11 @@ An application-defined callback function that processes input contexts provided 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Handle to the input context.
 
-### -param Arg2
+### -param unnamedParam2
 
 Application-supplied data.
 

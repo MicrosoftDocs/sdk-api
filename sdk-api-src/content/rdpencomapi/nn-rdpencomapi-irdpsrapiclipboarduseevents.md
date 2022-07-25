@@ -57,29 +57,7 @@ This interface is available starting with Windows 10, version 1511.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIClipboardUseEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRDPSRAPIClipboardUseEvents</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IRDPSRAPIClipboardUseEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiclipboarduseevents-onpastefromclipboard">OnPasteFromClipboard</a>
-</td>
-<td align="left" width="63%">
-This callback is issued when an attempt to copy data from the sharer computer is made.
-
-</td>
-</tr>
-</table>
+The <b>IRDPSRAPIClipboardUseEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRDPSRAPIClipboardUseEvents</b> also has these types of members:
 
 ## -see-also
 

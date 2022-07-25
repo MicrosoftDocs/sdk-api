@@ -57,38 +57,7 @@ Windows Media Device Manager uses <b>IMDSPObject2</b> to enable more efficient f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPObject2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspobject">IMDSPObject</a>. <b>IMDSPObject2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMDSPObject2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject2-readonclearchannel">ReadOnClearChannel</a>
-</td>
-<td align="left" width="63%">
-Reads data from the object at the current position without secure authenticated channel (SAC).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject2-writeonclearchannel">WriteOnClearChannel</a>
-</td>
-<td align="left" width="63%">
-Writes data to the object at the current position without SAC.
-
-</td>
-</tr>
-</table>
+The <b>IMDSPObject2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspobject">IMDSPObject</a>. <b>IMDSPObject2</b> also has these types of members:
 
 ## -see-also
 

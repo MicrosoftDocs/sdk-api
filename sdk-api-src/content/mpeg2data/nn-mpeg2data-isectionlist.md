@@ -54,83 +54,10 @@ The <b>ISectionList</b> interface represents a list of MPEG-2 table sections.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISectionList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISectionList</b> also has these types of members:
+The <b>ISectionList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISectionList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ISectionList</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-isectionlist-cancelpendingrequest">CancelPendingRequest</a>
-</td>
-<td align="left" width="63%">
-Cancels any pending asynchronous request.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-isectionlist-getnumberofsections">GetNumberOfSections</a>
-</td>
-<td align="left" width="63%">
-Returns the number of MPEG-2 sections that were received.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-isectionlist-getprogramidentifier">GetProgramIdentifier</a>
-</td>
-<td align="left" width="63%">
-Retrieves the program identifier (PID) of the packets that this object is receiving.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-isectionlist-getsectiondata">GetSectionData</a>
-</td>
-<td align="left" width="63%">
-Retrieves a section.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-isectionlist-gettableidentifier">GetTableIdentifier</a>
-</td>
-<td align="left" width="63%">
-Returns the table identifier (TID) of the packets that this object is receiving.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-isectionlist-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-isectionlist-initializewithrawsections">InitializeWithRawSections</a>
-</td>
-<td align="left" width="63%">
-Initializes the object with raw section data.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

@@ -58,7 +58,7 @@ The <b>SID_NAME_USE</b> enumeration contains values that specify the type of a <
 
 ## -enum-fields
 
-### -field SidTypeUser
+### -field SidTypeUser:1
 
 A user SID.
 

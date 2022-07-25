@@ -54,92 +54,10 @@ The <b>IAnalogTVTuningSpace</b> interface provides methods for getting and setti
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAnalogTVTuningSpace</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a>. <b>IAnalogTVTuningSpace</b> also has these types of members:
+The <b>IAnalogTVTuningSpace</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a>. <b>IAnalogTVTuningSpace</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IAnalogTVTuningSpace</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogtvtuningspace-get_countrycode">get_CountryCode</a>
-</td>
-<td align="left" width="63%">
-Gets the country/region code of the tuning space (based on TAPI country/region codes).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogtvtuningspace-get_inputtype">get_InputType</a>
-</td>
-<td align="left" width="63%">
-Gets the input type (antenna or cable) intended for the tuning space.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogtvtuningspace-get_maxchannel">get_MaxChannel</a>
-</td>
-<td align="left" width="63%">
-Gets the highest channel number for this tuning space.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogtvtuningspace-get_minchannel">get_MinChannel</a>
-</td>
-<td align="left" width="63%">
-Gets the lowest channel number for this tuning space.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogtvtuningspace-put_countrycode">put_CountryCode</a>
-</td>
-<td align="left" width="63%">
-Sets the country/region code of the tuning space (based on TAPI country/region codes).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogtvtuningspace-put_inputtype">put_InputType</a>
-</td>
-<td align="left" width="63%">
-Sets the input type (antenna or cable) intended for the tuning space.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogtvtuningspace-put_maxchannel">put_MaxChannel</a>
-</td>
-<td align="left" width="63%">
-Sets the highest channel number for this tuning space.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogtvtuningspace-put_minchannel">put_MinChannel</a>
-</td>
-<td align="left" width="63%">
-Sets the lowest channel number for this tuning space.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

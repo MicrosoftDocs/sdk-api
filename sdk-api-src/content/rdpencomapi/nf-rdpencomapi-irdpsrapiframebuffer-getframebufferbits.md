@@ -66,7 +66,7 @@ The y coordinate of the requested area of the frame.
 
 The width of the requested area of the frame.
 
-### -param Heigth [in]
+### -param Height [in]
 
 The height of the requested area of the frame.
 

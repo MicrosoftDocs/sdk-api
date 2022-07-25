@@ -50,7 +50,7 @@ Retrieves the scan line that is currently being drawn on the monitor.
 
 ## -parameters
 
-### -param arg1 [out]
+### -param unnamedParam1 [out]
 
 A pointer to a variable that receives the scan line that the display is currently drawing.
 

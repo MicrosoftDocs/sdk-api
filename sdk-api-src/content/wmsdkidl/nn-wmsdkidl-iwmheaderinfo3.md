@@ -63,85 +63,10 @@ The <b>IWMHeaderInfo3</b> interface is implemented by the metadata editor object
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMHeaderInfo3</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2</a>. <b>IWMHeaderInfo3</b> also has these types of members:
+The <b>IWMHeaderInfo3</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2</a>. <b>IWMHeaderInfo3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMHeaderInfo3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-addattribute">AddAttribute</a>
-</td>
-<td align="left" width="63%">
-Adds an attribute for a specified language.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-addcodecinfo">AddCodecInfo</a>
-</td>
-<td align="left" width="63%">
-Adds information about a codec that was used to compress data in the file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-deleteattribute">DeleteAttribute</a>
-</td>
-<td align="left" width="63%">
-Deletes an attribute using the attribute index.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributebyindexex">GetAttributeByIndexEx</a>
-</td>
-<td align="left" width="63%">
-Retrieves an attribute by its index.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributecountex">GetAttributeCountEx</a>
-</td>
-<td align="left" width="63%">
-Retrieves the total number of attributes in the file header.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributeindices">GetAttributeIndices</a>
-</td>
-<td align="left" width="63%">
-Retrieves a list of all the indices of attributes for a specified language.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-modifyattribute">ModifyAttribute</a>
-</td>
-<td align="left" width="63%">
-Changes the settings of an existing attribute.
-
-</td>
-</tr>
-</table> 
-
-For information about which interfaces can be obtained by using the QueryInterface method of this interface, see the topic for the object on which this interface is implemented.
 
 ## -remarks
 

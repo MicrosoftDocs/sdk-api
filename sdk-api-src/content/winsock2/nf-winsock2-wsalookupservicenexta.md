@@ -69,7 +69,7 @@ A handle returned from the previous call to
 
 ### -param dwControlFlags [in]
 
-A set of flags that controls the operation. The values passed in the <i>dwControlFlags</i> parameter to the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a>function determine the possible criteria. Any values passed in the <i>dwControlFlags</i> parameter to the <b>WSALookupServiceNext</b> function further restrict the criteria for the service lookup. 
+A set of flags that controls the operation. The values passed in the <i>dwControlFlags</i> parameter to the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a> function determine the possible criteria. Any values passed in the <i>dwControlFlags</i> parameter to the <b>WSALookupServiceNext</b> function further restrict the criteria for the service lookup. 
 
 Currently, LUP_FLUSHPREVIOUS is defined as a means to cope with a result set that is too large. If an application does not (or cannot) supply a large enough buffer, setting LUP_FLUSHPREVIOUS instructs the provider to discard the last result set—which was too large—and move on to the next set for this call.
 

@@ -54,24 +54,23 @@ The different states that a listener can be in.
 
 ## -enum-fields
 
-### -field WS_LISTENER_STATE_CREATED
+### -field WS_LISTENER_STATE_CREATED:0
 
-### -field WS_LISTENER_STATE_OPENING
+### -field WS_LISTENER_STATE_OPENING:1
 
-### -field WS_LISTENER_STATE_OPEN
+### -field WS_LISTENER_STATE_OPEN:2
 
-### -field WS_LISTENER_STATE_FAULTED
+### -field WS_LISTENER_STATE_FAULTED:3
 
-### -field WS_LISTENER_STATE_CLOSING
+### -field WS_LISTENER_STATE_CLOSING:4
 
-### -field WS_LISTENER_STATE_CLOSED
+### -field WS_LISTENER_STATE_CLOSED:5
 
 ## -remarks
 
 The following are the state transitions for a Listener.
-            
 
-<img alt="" src="./images/ListenerStates.png"/>
+:::image type="content" source="./images/ListenerStates.png" border="false" alt-text="Diagram showing the possible states of a Listener object and the transitions between them.":::
 
 A listener will only move to <b>WS_LISTENER_STATE_FAULTED</b> 
                 state if <a href="/windows/desktop/api/webservices/nf-webservices-wsabortlistener">WsAbortListener</a> is called.

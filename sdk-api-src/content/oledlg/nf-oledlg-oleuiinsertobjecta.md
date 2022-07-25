@@ -56,7 +56,7 @@ Invokes the standard <b>Insert Object</b> dialog box, which allows the user to s
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
  Pointer to the in-out <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuiinsertobjecta">OLEUIINSERTOBJECT</a> structure for this dialog box.
 
@@ -445,7 +445,9 @@ By default, <b>OleUIInsertObject</b> does not validate object servers, however, 
 
 To free an <b>HMETAFILEPICT</b> returned from the <b>Insert Object</b> or <b>Paste Special</b> dialog box, delete the attached metafile on the handle, as follows:
 
-<pre class="syntax" xml:space="preserve"><code>void FreeHmetafilepict(HMETAFILEPICT hmfp) 
+
+``` syntax
+void FreeHmetafilepict(HMETAFILEPICT hmfp) 
 { 
     if (hmfp != NULL) 
         { 
@@ -461,7 +463,9 @@ To free an <b>HMETAFILEPICT</b> returned from the <b>Insert Object</b> or <b>Pas
         exit(0);
         }
 } 
-</code></pre>
+
+```
+
 
 
 

@@ -64,7 +64,7 @@ The size of the <i>wzSpecVersion</i> buffer.
 
 Type: <b>WCHAR*</b>
 
-When this method returns, contain a culture invarient string of the component's specification version. The version form is NN.NN.NN.NN.
+When this method returns, contain a culture invariant string of the component's specification version. The version form is NN.NN.NN.NN.
 
 ### -param pcchActual [out]
 
@@ -76,7 +76,7 @@ A pointer that receives the actual length of the component's specification versi
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

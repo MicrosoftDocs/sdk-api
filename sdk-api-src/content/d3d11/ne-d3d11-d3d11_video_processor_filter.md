@@ -54,35 +54,35 @@ Identifies a video processor filter.
 
 ## -enum-fields
 
-### -field D3D11_VIDEO_PROCESSOR_FILTER_BRIGHTNESS
+### -field D3D11_VIDEO_PROCESSOR_FILTER_BRIGHTNESS:0
 
 Brightness filter.
 
-### -field D3D11_VIDEO_PROCESSOR_FILTER_CONTRAST
+### -field D3D11_VIDEO_PROCESSOR_FILTER_CONTRAST:1
 
 Contrast filter.
 
-### -field D3D11_VIDEO_PROCESSOR_FILTER_HUE
+### -field D3D11_VIDEO_PROCESSOR_FILTER_HUE:2
 
 Hue filter.
 
-### -field D3D11_VIDEO_PROCESSOR_FILTER_SATURATION
+### -field D3D11_VIDEO_PROCESSOR_FILTER_SATURATION:3
 
 Saturation filter.
 
-### -field D3D11_VIDEO_PROCESSOR_FILTER_NOISE_REDUCTION
+### -field D3D11_VIDEO_PROCESSOR_FILTER_NOISE_REDUCTION:4
 
 Noise reduction filter.
 
-### -field D3D11_VIDEO_PROCESSOR_FILTER_EDGE_ENHANCEMENT
+### -field D3D11_VIDEO_PROCESSOR_FILTER_EDGE_ENHANCEMENT:5
 
 Edge enhancement filter.
 
-### -field D3D11_VIDEO_PROCESSOR_FILTER_ANAMORPHIC_SCALING
+### -field D3D11_VIDEO_PROCESSOR_FILTER_ANAMORPHIC_SCALING:6
 
 Anamorphic scaling filter.
 
-### -field D3D11_VIDEO_PROCESSOR_FILTER_STEREO_ADJUSTMENT
+### -field D3D11_VIDEO_PROCESSOR_FILTER_STEREO_ADJUSTMENT:7
 
 Stereo adjustment filter. When stereo 3D video is enabled, this filter adjusts the offset between the left and right views, allowing the user to reduce potential eye strain. 
 

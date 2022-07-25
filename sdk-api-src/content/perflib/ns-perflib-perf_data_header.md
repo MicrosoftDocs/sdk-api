@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Provides information about the <b>PERF_DATA_HEADER</b> block that contains the structure. A <b>PERF_DATA_HEADER</b> block corresponds to one query specification in a query, and consists of a <b>PERF_DATA_HEADER</b>structure followed by a sequence of <a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_header">PERF_COUNTER_HEADER</a> blocks.
+Provides information about the <b>PERF_DATA_HEADER</b> block that contains the structure. A <b>PERF_DATA_HEADER</b> block corresponds to one query specification in a query, and consists of a <b>PERF_DATA_HEADER</b> structure followed by a sequence of <a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_header">PERF_COUNTER_HEADER</a> blocks.
 
 ## -struct-fields
 

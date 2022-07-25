@@ -56,7 +56,7 @@ Retrieves the system's dialog base units, which are the average width and height
 
 For either type of dialog box, it is easier to use the <a href="/windows/desktop/api/winuser/nf-winuser-mapdialogrect">MapDialogRect</a> function to perform the conversion. <b>MapDialogRect</b> takes the font into account and correctly converts a rectangle from dialog template units into pixels.
 
-## -parameters
+
 
 ## -returns
 

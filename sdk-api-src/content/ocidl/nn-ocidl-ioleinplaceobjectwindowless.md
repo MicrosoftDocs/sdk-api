@@ -56,38 +56,7 @@ A small object, such as a control, does not need a window of its own. Instead, i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleInPlaceObjectWindowless</b> interface inherits from <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceobject">IOleInPlaceObject</a>. <b>IOleInPlaceObjectWindowless</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IOleInPlaceObjectWindowless</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleinplaceobjectwindowless-getdroptarget">GetDropTarget</a>
-</td>
-<td align="left" width="63%">
-Retrieves the <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> interface for an in-place active, windowless object that supports drag and drop.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleinplaceobjectwindowless-onwindowmessage">OnWindowMessage</a>
-</td>
-<td align="left" width="63%">
-Dispatches a message from a container to a windowless object that is in-place active.
-
-</td>
-</tr>
-</table>
+The <b>IOleInPlaceObjectWindowless</b> interface inherits from <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceobject">IOleInPlaceObject</a>. <b>IOleInPlaceObjectWindowless</b> also has these types of members:
 
 ## -see-also
 

@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Kernel-Mode Driver Reference. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [Installable file systems DDI reference](../_ifsk/index.md)
 - [Kernel-Mode Driver Reference](../_kernel/index.md)
 

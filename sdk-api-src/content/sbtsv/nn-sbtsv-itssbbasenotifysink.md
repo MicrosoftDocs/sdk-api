@@ -54,39 +54,7 @@ Exposes methods that report status and error messages to Remote Desktop Connecti
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbBaseNotifySink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbBaseNotifySink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITsSbBaseNotifySink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbbasenotifysink-onerror">OnError</a>
-</td>
-<td align="left" width="63%">
-Reports an error condition to RD Connection Broker. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbbasenotifysink-onreportstatus">OnReportStatus</a>
-</td>
-<td align="left" width="63%">
-Sends status messages to the Remote Desktop Connection (RDC) client regarding the processing of a client 
-       connection.
-
-</td>
-</tr>
-</table>
+The <b>ITsSbBaseNotifySink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbBaseNotifySink</b> also has these types of members:
 
 ## -remarks
 

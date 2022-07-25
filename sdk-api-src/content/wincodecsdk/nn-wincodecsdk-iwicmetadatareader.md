@@ -54,74 +54,7 @@ Exposes methods that provide access to underlining metadata content. This interf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICMetadataReader</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWICMetadataReader</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getcount">GetCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of metadata items within the reader.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getenumerator">GetEnumerator</a>
-</td>
-<td align="left" width="63%">
-Gets an enumerator of all the metadata items.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getmetadataformat">GetMetadataFormat</a>
-</td>
-<td align="left" width="63%">
-Gets the metadata format associated with the reader.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getmetadatahandlerinfo">GetMetadataHandlerInfo</a>
-</td>
-<td align="left" width="63%">
-Gets the metadata handler info associated with the reader.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getvalue">GetValue</a>
-</td>
-<td align="left" width="63%">
-Gets the metadata item value.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatareader-getvaluebyindex">GetValueByIndex</a>
-</td>
-<td align="left" width="63%">
-Gets the metadata item at the given index.
-
-</td>
-</tr>
-</table>
+The <b>IWICMetadataReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICMetadataReader</b> also has these types of members:
 
 ## -remarks
 

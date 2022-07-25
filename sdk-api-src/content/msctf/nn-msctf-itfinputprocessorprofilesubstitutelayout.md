@@ -54,29 +54,7 @@ This  interface is implemented by the TSF manager and is used by an application 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfInputProcessorProfileSubstituteLayout</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfInputProcessorProfileSubstituteLayout</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfInputProcessorProfileSubstituteLayout</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilesubstitutelayout-getsubstitutekeyboardlayout">GetSubstituteKeyboardLayout</a>
-</td>
-<td align="left" width="63%">
-Retrieves the input locale identifier (keyboard layout).
-
-</td>
-</tr>
-</table>
+The <b>ITfInputProcessorProfileSubstituteLayout</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfInputProcessorProfileSubstituteLayout</b> also has these types of members:
 
 ## -see-also
 

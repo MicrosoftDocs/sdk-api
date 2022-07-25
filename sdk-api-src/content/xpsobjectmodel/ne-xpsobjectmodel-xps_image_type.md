@@ -56,7 +56,7 @@ Describes the image type.
 
 ## -enum-fields
 
-### -field XPS_IMAGE_TYPE_JPEG
+### -field XPS_IMAGE_TYPE_JPEG:1
 
 A JPEG (Joint Photographic Experts Group) image.
 

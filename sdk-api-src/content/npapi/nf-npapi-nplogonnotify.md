@@ -47,11 +47,13 @@ api_name:
 
 # NPLogonNotify function
 
-> [!NOTE]
-> This API has been deprecated and will be removed in a future release.
+
 
 
 ## -description
+
+> [!NOTE]
+> This API has been deprecated and will be removed in a future release.
 
 MPR calls this function to notify the credential manager that a logon event has occurred, allowing the credential manager to return a logon script. The <b>NPLogonNotify</b> function is implemented by a credential manager DLL (see Remarks).
 
@@ -70,9 +72,13 @@ Pointer to a string that identifies the type of structure pointed to by <i>lpAut
 
 When Microsoft is the primary authenticator, one of the following strings is specified for interactive and service controller logons.
 
-<pre class="syntax" xml:space="preserve"><code>MSV1_0:Interactive
+
+``` syntax
+MSV1_0:Interactive
 Kerberos:Interactive
-</code></pre>
+
+```
+
 
 ### -param lpAuthentInfo [in]
 

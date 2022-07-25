@@ -54,19 +54,19 @@ Defines the prototype for the callback function used by <a href="/windows/deskto
 
 ## -parameters
 
-### -param *pinfo [in]
+### -param pinfo [in]
 
 Type: <b>DPASTREAMINFO*</b>
 
 A pointer to a <a href="/windows/desktop/api/dpa_dsa/ns-dpa_dsa-dpastreaminfo">DPASTREAMINFO</a> structure.
 
-### -param *pstream [in]
+### -param pstream [in]
 
 Type: <b>struct IStream*</b>
 
 An <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object to read from or write to.
 
-### -param *pvInstData [in, optional]
+### -param pvInstData [in, optional]
 
 Type: <b>void*</b>
 
@@ -76,4 +76,4 @@ A void pointer to callback data that the client passed to <a href="/windows/desk
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this callback function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

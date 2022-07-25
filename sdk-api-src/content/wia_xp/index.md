@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Automation. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Automation](../_automat/index.md)
+- [WIA](../_wia/index.md)
 

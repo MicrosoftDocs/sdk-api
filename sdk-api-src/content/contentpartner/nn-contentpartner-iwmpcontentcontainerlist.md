@@ -56,47 +56,10 @@ The <b>IWMPContentContainerList</b> interface represents a list of one or more c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPContentContainerList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPContentContainerList</b> also has these types of members:
+The <b>IWMPContentContainerList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPContentContainerList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMPContentContainerList</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentcontainerlist-getcontainer">GetContainer</a>
-</td>
-<td align="left" width="63%">
-Retrieves the content container at the specified index.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentcontainerlist-getcontainercount">GetContainerCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the count of content containers in the container list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentcontainerlist-gettransactiontype">GetTransactionType</a>
-</td>
-<td align="left" width="63%">
-Retrieves the type of the current transaction.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

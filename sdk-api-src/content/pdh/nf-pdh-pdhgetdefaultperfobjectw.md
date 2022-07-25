@@ -64,9 +64,7 @@ To use handles to data sources, use the
 
 Should be <b>NULL</b>. 
 
-
-
-					If you specify a log file, the <i>szDefaultObjectName</i> parameter will be a <b>null</b> string.
+If you specify a log file, the <i>szDefaultObjectName</i> parameter will be a <b>null</b> string.
 
 ### -param szMachineName [in]
 

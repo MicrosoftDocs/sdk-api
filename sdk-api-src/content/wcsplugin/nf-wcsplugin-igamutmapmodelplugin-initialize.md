@@ -82,8 +82,5 @@ If this function fails, the return value is E_FAIL.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
-
-
-
-<a href="/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-igamutmapmodelplugin">IGamutMapModelPlugIn</a>
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [IGamutMapModelPlugIn](/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-igamutmapmodelplugin")

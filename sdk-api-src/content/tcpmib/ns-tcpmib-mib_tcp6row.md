@@ -265,7 +265,7 @@ The remote port number in network byte order for the TCP connection on the remot
 
 The <b>MIB_TCP6ROW</b> structure is defined on Windows Vista and later. 
 
-The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table">GetTcp6Table</a>function retrieves the IPv6 TCP connection table on the local computer and returns this information in a <a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6table">MIB_TCP6TABLE</a> structure. 
+The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table">GetTcp6Table</a> function retrieves the IPv6 TCP connection table on the local computer and returns this information in a <a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6table">MIB_TCP6TABLE</a> structure. 
 
 An array of <b>MIB_TCP6ROW</b> structures are contained in the <b>MIB_TCP6TABLE</b> structure.  
 

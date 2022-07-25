@@ -54,7 +54,7 @@ api_name:
 
 An <b>EncoderParameter</b> object holds a parameter that can be passed to an image encoder. An <b>EncoderParameter</b> object can also be used to receive a list of possible values supported by a particular parameter of a particular image encoder.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">EncoderParameter</b> has these types of members:
+<b>EncoderParameter</b> has these types of members:
 
 ## -see-also
 

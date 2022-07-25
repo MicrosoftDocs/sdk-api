@@ -3,11 +3,9 @@ UID: NS:diagnosticdataquerytypes.tagDIAGNOSTIC_REPORT_DATA
 title: DIAGNOSTIC_REPORT_DATA
 ms.date: 8/19/2019
 ms.keywords: tagDIAGNOSTIC_REPORT_DATA, DIAGNOSTIC_REPORT_DATA
-ms.topic: language-reference
 description: This resource contains information about a diagnostic report.
 tech.root: security
 targetos: Windows
-product: Windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -132,7 +130,7 @@ The report key.
 
 ## -remarks
 
-For general questions about Windows Error Reporting, see the [**WER APIS**]("https://docs.microsoft.com/en-us/windows/win32/api/_wer/").
-For report keys, see the [**WER APIs**]("/windows/win32/api/werapi/nf-werapi-werstoregetnextreportkey").
+For general questions about Windows Error Reporting, see the [**WER APIS**](/windows/win32/api/_wer/).
+For report keys, see the [**WER APIs**](/windows/win32/api/werapi/nf-werapi-werstoregetnextreportkey).
 
 ## -see-also

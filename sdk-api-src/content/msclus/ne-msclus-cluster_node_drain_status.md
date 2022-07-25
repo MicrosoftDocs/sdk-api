@@ -56,7 +56,7 @@ Enumerates the possible values of the status of a node drain. This enumeration i
 
 ## -enum-fields
 
-### -field NodeDrainStatusNotInitiated
+### -field NodeDrainStatusNotInitiated:0
 
 Indicates that node draining has not started.
 

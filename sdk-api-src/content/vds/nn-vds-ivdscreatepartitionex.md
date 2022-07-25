@@ -57,34 +57,7 @@ Creates a partition on a basic disk.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsCreatePartitionEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsCreatePartitionEx</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVdsCreatePartitionEx</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdscreatepartitionex-createpartitionex">CreatePartitionEx</a>
-</td>
-<td align="left" width="63%">
-Creates a partition on a basic disk.
-     
-
-This method supersedes the 
-      <a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-createpartition">IVdsAdvancedDisk::CreatePartition</a> 
-      method.
-
-</td>
-</tr>
-</table>
+The <b>IVdsCreatePartitionEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsCreatePartitionEx</b> also has these types of members:
 
 ## -see-also
 

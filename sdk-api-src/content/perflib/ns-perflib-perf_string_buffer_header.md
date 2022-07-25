@@ -55,8 +55,8 @@ api_name:
 ## -description
 
 Provides information about the <b>PERF_STRING_BUFFER_HEADER</b> block that contains the structure. The <b>PERF_STRING_BUFFER_HEADER</b> block provides the names or help strings for the performance counters in a counter set, amd consists of the following items in order:<ol>
-<li>A <b>PERF_STRING_BUFFER_HEADER</b>structure</li>
-<li>A number of <a href="/windows/win32/api/perflib/ns-perflib-perf_string_counter_header">PERF_STRING_COUNTER_HEADER</a>structures. The <b>dwCounters</b> member of the <b>PERF_STRING_BUFFER_HEADER</b> structure specifies how many <b>PERF_STRING_COUNTER_HEADER</b>structures the <b>PERF_STRING_BUFFER_HEADER</b> block contains.</li>
+<li>A <b>PERF_STRING_BUFFER_HEADER</b> structure</li>
+<li>A number of <a href="/windows/win32/api/perflib/ns-perflib-perf_string_counter_header">PERF_STRING_COUNTER_HEADER</a> structures. The <b>dwCounters</b> member of the <b>PERF_STRING_BUFFER_HEADER</b> structure specifies how many <b>PERF_STRING_COUNTER_HEADER</b> structures the <b>PERF_STRING_BUFFER_HEADER</b> block contains.</li>
 <li>A block of string data.</li>
 </ol>
 

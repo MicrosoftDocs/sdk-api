@@ -54,7 +54,7 @@ Identifiers for properties of the <a href="/windows/desktop/Direct2D/blend">Blen
 
 ## -enum-fields
 
-### -field D2D1_BLEND_PROP_MODE
+### -field D2D1_BLEND_PROP_MODE:0
 
 The blend mode used for the effect.
           
@@ -63,4 +63,4 @@ The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_blend_
 
 The default value is D2D1_BLEND_MODE_MULTIPLY.
 
-### -field D2D1_BLEND_PROP_FORCE_DWORD
+### -field D2D1_BLEND_PROP_FORCE_DWORD:0xffffffff

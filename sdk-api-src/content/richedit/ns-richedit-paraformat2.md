@@ -44,7 +44,7 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# PARAFORMAT2 structure
+# PARAFORMAT2 structure overview
 
 
 ## -description

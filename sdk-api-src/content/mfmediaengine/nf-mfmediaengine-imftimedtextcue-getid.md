@@ -52,7 +52,7 @@ api_name:
 
 Gets the identifier of a timed-text cue.
 
-## -parameters
+
 
 ## -returns
 

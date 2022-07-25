@@ -59,7 +59,7 @@ Remote Desktop Services provides a pointer to a <b>VirtualChannelInit</b> functi
 
 ## -parameters
 
-### -param *ppInitHandle [in]
+### -param ppInitHandle [in]
 
 Pointer to a variable that receives a handle that identifies the client connection. Use this handle to 
       identify the client in subsequent calls to the 

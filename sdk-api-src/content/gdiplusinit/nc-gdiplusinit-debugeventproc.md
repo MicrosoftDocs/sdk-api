@@ -2,9 +2,8 @@
 UID: NC:gdiplusinit.DebugEventProc
 title: DebugEventProc
 ms.date: 05/07/2020
-ms.topic: language-reference
 targetos: Windows
-description: \**DebugEventProc** is the signature of a callback function that you implement in your application, and pass to the constructor of [**GdiplusStartupInput**](./nf-gdiplusinit-gdiplusstartupinput-gdiplusstartupinput.md).
+description: \**DebugEventProc** is the signature of a callback function that you implement in your application, and pass to the constructor of [**GdiplusStartupInput**](../gdiplusinit/nf-gdiplusinit-gdiplusstartupinput-gdiplusstartupinput.md).
 tech.root: gdiplus
 req.assembly: 
 req.construct-type: function
@@ -19,8 +18,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

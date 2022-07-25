@@ -54,38 +54,7 @@ Manages a group of unsignaled synchronization objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISynchronizeContainer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISynchronizeContainer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISynchronizeContainer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-isynchronizecontainer-addsynchronize">AddSynchronize</a>
-</td>
-<td align="left" width="63%">
-Adds a synchronization object to the container.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-isynchronizecontainer-waitmultiple">WaitMultiple</a>
-</td>
-<td align="left" width="63%">
-Waits for any synchronization object in the container to be signaled or for a specified timeout period to elapse, whichever comes first.
-
-</td>
-</tr>
-</table>
+The <b>ISynchronizeContainer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISynchronizeContainer</b> also has these types of members:
 
 ## -see-also
 

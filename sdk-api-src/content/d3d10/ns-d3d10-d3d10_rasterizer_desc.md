@@ -99,12 +99,16 @@ Enables or disables clipping based on distance.  The default value is <b>TRUE</b
 The hardware always performs x and y clipping of rasterized coordinates. When <b>DepthClipEnable</b> is set to the default value, the hardware also clips the z value (that is, the hardware performs the last step of the following algorithm).
 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 0 &lt; w
 -w &lt;= x &lt;= w (or arbitrarily wider range if implementation uses a guard band to reduce clipping burden)
 -w &lt;= y &lt;= w (or arbitrarily wider range if implementation uses a guard band to reduce clipping burden)
 0 &lt;= z &lt;= w
-</code></pre>
+
+```
+
 When you set <b>DepthClipEnable</b> to FALSE, the hardware skips the z clipping (that is, the last step in the preceding algorithm). However, the hardware still performs the "0 &lt; w" clipping. When z clipping is disabled, improper depth ordering at the pixel level might result. However, when z clipping is disabled, stencil shadow implementations are simplified. In other words, you can avoid complex special-case handling for geometry that goes beyond the back clipping plane.
 
 ### -field ScissorEnable

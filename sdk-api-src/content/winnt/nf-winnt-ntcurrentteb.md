@@ -52,7 +52,7 @@ api_name:
 
 The <b>NtCurrentTeb</b> routine returns a pointer to the Thread Environment Block (<a href="/windows/desktop/api/winternl/ns-winternl-teb">TEB</a>) of the current thread.
 
-## -parameters
+
 
 ## -returns
 

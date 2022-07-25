@@ -52,7 +52,7 @@ api_name:
 
 Creates a rectangle that has its upper-left corner set to (negative infinity, negative infinity) and its lower-right corner set to (infinity, infinity).
 
-## -parameters
+
 
 ## -returns
 

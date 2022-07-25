@@ -54,29 +54,7 @@ Exposes a method that notifies a Shell namespace extension when the ID of an ite
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellChangeNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellChangeNotify</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IShellChangeNotify</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellchangenotify-onchange">OnChange</a>
-</td>
-<td align="left" width="63%">
-Informs a namespace extension that an event has taken place that affects its items.
-
-</td>
-</tr>
-</table>
+The <b>IShellChangeNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellChangeNotify</b> also has these types of members:
 
 ## -remarks
 

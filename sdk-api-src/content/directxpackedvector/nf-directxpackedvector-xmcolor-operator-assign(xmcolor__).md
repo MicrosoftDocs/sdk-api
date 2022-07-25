@@ -56,13 +56,13 @@ This operator assigns the vector component data from one instance of <a href="/w
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a> used to update the current <b>XMCOLOR</b> structure.
 
 ## -returns
 
- The current instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>whose vector component data has been updated to match those of the <b>XMCOLOR</b>instance specified by the <i>Color</i> argument.
+ The current instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a> whose vector component data has been updated to match those of the <b>XMCOLOR</b> instance specified by the <i>Color</i> argument.
 
 ## -see-also
 

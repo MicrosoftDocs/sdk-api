@@ -54,49 +54,7 @@ The <b>IAzObjectPicker</b> interface displays a dialog box that allows users to 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzObjectPicker</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzObjectPicker</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
-
-## -members
-
-The <b>IAzObjectPicker</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/azroles/nf-azroles-iazobjectpicker-getprincipals">GetPrincipals</a>
-</td>
-<td align="left" width="63%">
-Displays a dialog box from which users can choose one or more principals, and then returns the chosen list of principals and their corresponding <a href="/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs).
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzObjectPicker</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/azroles/nf-azroles-iazobjectpicker-get_name">Name</a>
-
-
-</td>
-<td align="left" width="63%">
-Gets the name of the <b>IAzObjectPicker</b> object.
-
-</td>
-</tr>
-</table>
+The <b>IAzObjectPicker</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzObjectPicker</b> also has these types of members:
 
 ## -remarks
 

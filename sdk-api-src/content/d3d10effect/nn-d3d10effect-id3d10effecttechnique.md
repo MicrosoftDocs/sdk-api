@@ -54,15 +54,12 @@ api_name:
 An <b>ID3D10EffectTechnique</b> interface is a collection of passes.
 
 The lifetime of an <b>ID3D10EffectTechnique</b> object is equal to the lifetime of its parent <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effect">ID3D10Effect</a> object.
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul><h3><a id="methods"></a>Methods</h3>The <b>ID3D10EffectTechnique</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-computestateblockmask">ComputeStateBlockMask</a>
 </td>
@@ -71,7 +68,7 @@ Compute a state-block mask to allow/prevent state changes.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-getannotationbyindex">GetAnnotationByIndex</a>
 </td>
@@ -80,7 +77,7 @@ Get an annotation by index.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-getannotationbyname">GetAnnotationByName</a>
 </td>
@@ -89,7 +86,7 @@ Get an annotation by name.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-getdesc">GetDesc</a>
 </td>
@@ -98,7 +95,7 @@ Get a technique description.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-getpassbyindex">GetPassByIndex</a>
 </td>
@@ -107,7 +104,7 @@ Get a pass by index.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-getpassbyname">GetPassByName</a>
 </td>
@@ -116,7 +113,7 @@ Get a pass by name.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-isvalid">IsValid</a>
 </td>
@@ -126,91 +123,6 @@ Test a technique to see if it contains valid syntax.
 </td>
 </tr>
 </table>
-
-## -members
-
-The <b>ID3D10EffectTechnique</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-computestateblockmask">ComputeStateBlockMask</a>
-</td>
-<td align="left" width="63%">
-Compute a state-block mask to allow/prevent state changes.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-getannotationbyindex">GetAnnotationByIndex</a>
-</td>
-<td align="left" width="63%">
-Get an annotation by index.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-getannotationbyname">GetAnnotationByName</a>
-</td>
-<td align="left" width="63%">
-Get an annotation by name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Get a technique description.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-getpassbyindex">GetPassByIndex</a>
-</td>
-<td align="left" width="63%">
-Get a pass by index.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-getpassbyname">GetPassByName</a>
-</td>
-<td align="left" width="63%">
-Get a pass by name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-isvalid">IsValid</a>
-</td>
-<td align="left" width="63%">
-Test a technique to see if it contains valid syntax.
-
-</td>
-</tr>
-</table>Compute a state-block mask to allow/prevent state changes.
-
-Get an annotation by index.
-
-Get an annotation by name.
-
-Get a technique description.
-
-Get a pass by index.
-
-Get a pass by name.
-
-Test a technique to see if it contains valid syntax.
 
 ## -remarks
 

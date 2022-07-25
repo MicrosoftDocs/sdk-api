@@ -54,65 +54,7 @@ The <b>IWMDMStorageControl</b> interface is used to insert, delete, or move file
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMStorageControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMStorageControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWMDMStorageControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-delete">Delete</a>
-</td>
-<td align="left" width="63%">
-Permanently deletes this storage.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-insert">Insert</a>
-</td>
-<td align="left" width="63%">
-Puts content into the storage on the device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-move">Move</a>
-</td>
-<td align="left" width="63%">
-Moves the storage to a new location on the device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-read">Read</a>
-</td>
-<td align="left" width="63%">
-Copies the current storage to the computer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-rename">Rename</a>
-</td>
-<td align="left" width="63%">
-Renames the current storage.
-
-</td>
-</tr>
-</table>
+The <b>IWMDMStorageControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMStorageControl</b> also has these types of members:
 
 ## -see-also
 

@@ -52,7 +52,7 @@ api_name:
 
 Releases exclusive access to a disc recorder. This restores file system access to the drive.
 
-## -parameters
+
 
 ## -returns
 

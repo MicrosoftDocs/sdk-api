@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CM_Enumerate_Classes</b> function, when called repeatedly, enumerates the local machine's installed <a href="/windows-hardware/drivers/">device classes</a> by supplying each class's GUID.
+The <b>CM_Enumerate_Classes</b> function, when called repeatedly, enumerates the local machine's installed <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device classes</a> by supplying each class's GUID.
 
 ## -parameters
 
@@ -90,7 +90,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 To enumerate the local machine's device classes, call <b>CM_Enumerate_Classes</b> repeatedly, starting with a <i>ulClassIndex</i> value of zero and incrementing the index value with each subsequent call until the function returns CR_NO_SUCH_VALUE. Some index values might represent list entries containing invalid class data, in which case the function returns CR_INVALID_DATA. This return value can be ignored.
 
-The class GUIDs obtained from this function can be used as input to the <a href="/previous-versions/ff541299(v=vs.85)">device installation functions</a>.
+The class GUIDs obtained from this function can be used as input to the <a href="/windows-hardware/drivers/install/using-device-installation-functions#ddk-update-driver-function-dg">device installation functions</a>.
 
 Beginning with Windows 8 and later operating systems, callers can use the <b>ulFlags</b> member to specify which device classes CM_Enumerate_Classes should return. Prior to Windows 8, CM_Enumerate_Classes returned only device setup classes.
 

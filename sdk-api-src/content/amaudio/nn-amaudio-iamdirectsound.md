@@ -60,92 +60,10 @@ The <code>IAMDirectSound</code> interface specifies which window has focus for c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMDirectSound</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMDirectSound</b> also has these types of members:
+The <b>IAMDirectSound</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMDirectSound</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IAMDirectSound</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-getdirectsoundinterface">GetDirectSoundInterface</a>
-</td>
-<td align="left" width="63%">
-Not implemented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-getfocuswindow">GetFocusWindow</a>
-</td>
-<td align="left" width="63%">
-Retrieves the window that is handling sound playback for the current media file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-getprimarybufferinterface">GetPrimaryBufferInterface</a>
-</td>
-<td align="left" width="63%">
-Not implemented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-getsecondarybufferinterface">GetSecondaryBufferInterface</a>
-</td>
-<td align="left" width="63%">
-Not implemented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-releasedirectsoundinterface">ReleaseDirectSoundInterface</a>
-</td>
-<td align="left" width="63%">
-Not implemented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-releaseprimarybufferinterface">ReleasePrimaryBufferInterface</a>
-</td>
-<td align="left" width="63%">
-Not implemented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-releasesecondarybufferinterface">ReleaseSecondaryBufferInterface</a>
-</td>
-<td align="left" width="63%">
-Not implemented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-setfocuswindow">SetFocusWindow</a>
-</td>
-<td align="left" width="63%">
-Sets the window that will handle sound playback for the current media file.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

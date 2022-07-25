@@ -62,7 +62,7 @@ The filter used to  limit the files listed in a report. For possible values, see
 ### -param filterValue [in]
 
 The filter value to use for the specified report filter. The filter value cannot contain the following: 
-      slash mark (/), backslash (\), greater than sign (&gt;), less than sign (&lt;), vertical bar (|), double 
+      slash mark (/), backslash (\\), greater than sign (&gt;), less than sign (&lt;), vertical bar (|), double 
       quote ("), or colon (:).
 
 ## -returns

@@ -56,7 +56,7 @@ api_name:
 
 The <b>ThumbPrintWStr</b> property sets or retrieves a <a href="/windows/desktop/SecGloss/h-gly">hash</a> of the certificate data.
 			
-		The thumbprint is used to point to the pending certificate.
+The thumbprint is used to point to the pending certificate.
 
 This property was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
 

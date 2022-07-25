@@ -78,7 +78,7 @@ For 128-bit AES-CTR encryption, <i>pIV</i> points to a <a href="/windows/desktop
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -98,9 +98,10 @@ This method has the following limitations:
 <li>The protected surface cannot be multisampled.</li>
 <li>Stretching and colorspace conversion are not supported.</li>
 </ul>
-	This function does not honor a D3D11 predicate that may have been set.
 
-	If the application uses <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_query">D3D11 quries</a>, this function may not be accounted for with <b>D3D11_QUERY_EVENT</b> and <b>D3D11_QUERY_TIMESTAMP</b> when using feature levels lower than 11.  <b>D3D11_QUERY_PIPELINE_STATISTICS</b> will not include this function for any feature level.
+This function does not honor a D3D11 predicate that may have been set.
+
+If the application uses <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_query">D3D11 queries</a>, this function may not be accounted for with <b>D3D11_QUERY_EVENT</b> and <b>D3D11_QUERY_TIMESTAMP</b> when using feature levels lower than 11.  <b>D3D11_QUERY_PIPELINE_STATISTICS</b> will not include this function for any feature level.
 
 ## -see-also
 

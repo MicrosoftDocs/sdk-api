@@ -57,83 +57,10 @@ The <b>IEncoderAPI</b> interface defines a standard way for applications and dri
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEncoderAPI</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEncoderAPI</b> also has these types of members:
+The <b>IEncoderAPI</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEncoderAPI</b> also has these types of members:
 <ul>
 <li>Methods</li>
 </ul>
-
-## -members
-
-The <b>IEncoderAPI</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iencoderapi-getdefaultvalue">GetDefaultValue</a>
-</td>
-<td align="left" width="63%">
-Retrieves the default value for a parameter, if one exists.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iencoderapi-getparameterrange">GetParameterRange</a>
-</td>
-<td align="left" width="63%">
-Retrieves the valid range of values that the parameter supports, in cases where the parameter supports a stepped range as opposed to a list of specific values.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iencoderapi-getparametervalues">GetParameterValues</a>
-</td>
-<td align="left" width="63%">
-Retrieves the list of values supported by the given parameter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iencoderapi-getvalue">GetValue</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current value of a specified parameter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iencoderapi-isavailable">IsAvailable</a>
-</td>
-<td align="left" width="63%">
-Queries whether a given parameter is available.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iencoderapi-issupported">IsSupported</a>
-</td>
-<td align="left" width="63%">
-Queries whether a given parameter is supported.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iencoderapi-setvalue">SetValue</a>
-</td>
-<td align="left" width="63%">
-Sets the current value of a parameter.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 
@@ -152,7 +79,7 @@ In the various interface methods, the following GUIDs, defined in uuids.h, are u
 </tr>
 <tr>
 <td>ENCAPIPARAM_PEAK_BITRATE</td>
-<td>Secifies the peak bit rate. This parameter is relevant only when <b>ENCAPIPARAM_BITRATE_MODE</b> has been set to <b>VariableBitRatePeak</b>.</td>
+<td>Specifies the peak bit rate. This parameter is relevant only when <b>ENCAPIPARAM_BITRATE_MODE</b> has been set to <b>VariableBitRatePeak</b>.</td>
 </tr>
 <tr>
 <td>ENCAPIPARAM_BITRATE_MODE</td>

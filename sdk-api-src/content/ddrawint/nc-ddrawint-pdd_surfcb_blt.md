@@ -51,7 +51,7 @@ The <i>DdBlt</i> callback function performs a bit-block transfer.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_bltdata">DD_BLTDATA</a> structure that contains the information required for the driver to perform the blit.
 

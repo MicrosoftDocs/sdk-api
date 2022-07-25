@@ -54,39 +54,39 @@ Creates an embedded object from the contents of a named file.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 TBD
 
-### -param arg2
+### -param unnamedParam2
 
 TBD
 
-### -param arg3
+### -param unnamedParam3
 
 TBD
 
-### -param arg4
+### -param unnamedParam4
 
 TBD
 
-### -param arg5
+### -param unnamedParam5
 
 TBD
 
-### -param arg6
+### -param unnamedParam6
 
 TBD
 
-### -param arg7
+### -param unnamedParam7
 
 TBD
 
-### -param arg8
+### -param unnamedParam8
 
 TBD
 
-### -param arg9
+### -param unnamedParam9
 
 TBD
 

@@ -3,11 +3,10 @@ UID: NS:diagnosticdataquerytypes.tagDIAGNOSTIC_DATA_EVENT_TRANSCRIPT_CONFIGURATI
 title: DIAGNOSTIC_DATA_EVENT_TRANSCRIPT_CONFIGURATION
 ms.date: 8/19/2019
 ms.keywords: tagDIAGNOSTIC_DATA_EVENT_TRANSCRIPT_CONFIGURATION, DIAGNOSTIC_DATA_EVENT_TRANSCRIPT_CONFIGURATION
-ms.topic: language-reference
 description: Event transcript configuration details such as maximum storage size and hours of data history.
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

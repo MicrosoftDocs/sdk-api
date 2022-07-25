@@ -51,7 +51,7 @@ Retrieves the maximum level of detail (LOD) currently set for a managed mipmap s
 
 ## -parameters
 
-### -param arg1 [out]
+### -param unnamedParam1 [out]
 
 A pointer to a variable that receives the maximum LOD value if the call succeeds.
 

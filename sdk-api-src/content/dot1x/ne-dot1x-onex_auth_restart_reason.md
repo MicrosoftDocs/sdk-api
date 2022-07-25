@@ -71,7 +71,7 @@ will not attempt to acquire an authenticator.
 
 ### -field OneXRestartReasonOneXAuthTimeout
 
-The 802.1X authentication restart was the result of an state timeout. The timer expiring is the authWhile timer of the 802.1X supplicant port access entity defined in IEEE 802.1X - 2004 standard for Port-Based Network Access Control. The authWhile timer is used by the supplicant port access entity to determine how long to wait for a request from
+The 802.1X authentication restart was the result of a state timeout. The timer expiring is the authWhile timer of the 802.1X supplicant port access entity defined in IEEE 802.1X - 2004 standard for Port-Based Network Access Control. The authWhile timer is used by the supplicant port access entity to determine how long to wait for a request from
 the authenticator before timing it out.
 
 ### -field OneXRestartReasonOneXConfigurationChanged

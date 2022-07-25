@@ -59,7 +59,7 @@ api_name:
 
 Retrieves a pseudo handle for the current process.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateUInt8Array
-title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
+title: IPropertyValueStatics::CreateUInt8Array (windows.foundation.h)
 description: Creates a new IPropertyValue object that contains the specified array of unsigned 8-bit integer values.
 helpviewer_keywords: ["CreateUInt8Array","CreateUInt8Array method [Windows Runtime]","CreateUInt8Array method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateUInt8Array method","IPropertyValueStatics.CreateUInt8Array","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateUInt8Array","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateUInt8Array","winrt.ipropertyvaluefactory_createuint8array","winrt.ipropertyvaluestatics_createuint8array"]
 old-location: winrt\ipropertyvaluestatics_createuint8array.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValueStatics.CreateUInt8Array
 ---
 
-# IPropertyValueStatics::IPropertyValueStatics
+# IPropertyValueStatics::CreateUInt8Array (windows.foundation.h)
 
 
 ## -description
@@ -76,7 +76,7 @@ A pointer to a new object that contains <i>value</i>. Use the <a href="/windows/
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

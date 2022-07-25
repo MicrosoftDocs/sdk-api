@@ -54,47 +54,7 @@ Enumerates the items of a collection of settings and attributes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IItemEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IItemEnumerator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IItemEnumerator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-iitemenumerator-current">Current</a>
-</td>
-<td align="left" width="63%">
-Retrieves the item from the current position of the enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-iitemenumerator-movenext">MoveNext</a>
-</td>
-<td align="left" width="63%">
-Moves the current position to the next item in the enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-iitemenumerator-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the current item pointer to an undetermined position.
-
-</td>
-</tr>
-</table>
+The <b>IItemEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IItemEnumerator</b> also has these types of members:
 
 ## -remarks
 

@@ -52,6 +52,8 @@ Describes the blend state that you use in a call to [**D3D11Device1::CreateBlend
 > [!NOTE]
 > This structure is supported by the Direct3D 11.1 runtime, which is available on Windows 8 and later operating systems.
 
+## -struct-fields
+
 ## -remarks
 
 ## -see-also

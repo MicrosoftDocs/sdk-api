@@ -54,7 +54,7 @@ api_name:
 
 The <b>Enable</b> method enables a port mapping for a particular connection.
 
-## -parameters
+
 
 ## -returns
 

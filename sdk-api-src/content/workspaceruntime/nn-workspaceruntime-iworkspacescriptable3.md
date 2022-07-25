@@ -56,26 +56,5 @@ Exposes methods that manage RemoteApp and Desktop Connection credentials and con
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspaceScriptable3</b> interface inherits from <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspacescriptable2">IWorkspaceScriptable2</a>. <b>IWorkspaceScriptable3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWorkspaceScriptable3</b> interface inherits from <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspacescriptable2">IWorkspaceScriptable2</a>. <b>IWorkspaceScriptable3</b> also has these types of members:
 
-## -members
-
-The <b>IWorkspaceScriptable3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable3-startworkspaceex2">StartWorkspaceEx2</a>
-</td>
-<td align="left" width="63%">
-Associates user credentials and certificates with a connection ID.
-
-</td>
-</tr>
-</table>

@@ -105,9 +105,7 @@ A value from the
 
 ### -field pObjectsAndName.case.TRUSTEE_IS_OBJECTS_AND_NAME
 
-### -field switch_is
 
-### -field switch_is.TrusteeForm
 
 ### -field ptstrName
 

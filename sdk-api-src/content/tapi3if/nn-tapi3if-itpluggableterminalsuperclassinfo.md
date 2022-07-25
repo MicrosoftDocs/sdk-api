@@ -58,35 +58,5 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPluggableTerminalSuperclassInfo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITPluggableTerminalSuperclassInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITPluggableTerminalSuperclassInfo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITPluggableTerminalSuperclassInfo</b> also has these types of members:
 
-## -members
-
-The <b>ITPluggableTerminalSuperclassInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itpluggableterminalsuperclassinfo-get_clsid">get_CLSID</a>
-</td>
-<td align="left" width="63%">
-Gets the CLSID used to <b>CoCreateInstance</b> the terminal.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itpluggableterminalsuperclassinfo-get_name">get_Name</a>
-</td>
-<td align="left" width="63%">
-Gets the terminal's friendly name.
-
-</td>
-</tr>
-</table>

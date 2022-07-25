@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleSessionCallbacks.KeyMessage
 title: IMFContentDecryptionModuleSessionCallbacks::KeyMessage
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Called when the Content Decryption Module (CDM) has generated a message for the session.
 tech.root: mf

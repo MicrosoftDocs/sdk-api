@@ -56,23 +56,23 @@ Controls which phases of transaction completion should be received by the CRM co
 
 ## -enum-fields
 
-### -field CRMREGFLAG_PREPAREPHASE
+### -field CRMREGFLAG_PREPAREPHASE:0x1
 
 Receive the prepare phase.
 
-### -field CRMREGFLAG_COMMITPHASE
+### -field CRMREGFLAG_COMMITPHASE:0x2
 
 Receive the commit phase.
 
-### -field CRMREGFLAG_ABORTPHASE
+### -field CRMREGFLAG_ABORTPHASE:0x4
 
 Receive the abort phase.
 
-### -field CRMREGFLAG_ALLPHASES
+### -field CRMREGFLAG_ALLPHASES:0x7
 
 Receive all phases.
 
-### -field CRMREGFLAG_FAILIFINDOUBTSREMAIN
+### -field CRMREGFLAG_FAILIFINDOUBTSREMAIN:0x10
 
 Fail if in-doubt transactions remain after recovery.
 

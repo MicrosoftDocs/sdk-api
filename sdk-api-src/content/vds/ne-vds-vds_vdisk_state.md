@@ -58,7 +58,7 @@ Defines the set of status values for a virtual disk object.
 
 ## -enum-fields
 
-### -field VDS_VST_UNKNOWN
+### -field VDS_VST_UNKNOWN:0
 
 VDS was not able to identify the virtual disk's current status.
 

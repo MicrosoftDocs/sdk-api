@@ -16,7 +16,9 @@ f1_keywords:
 
 ## -description
 
-This header is used by Windows Multimedia. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [Audio Devices DDI Reference](../_audio/index.md)
+- [DirectShow](../_dshow/index.md)
 - [Windows Multimedia](../_multimedia/index.md)
 

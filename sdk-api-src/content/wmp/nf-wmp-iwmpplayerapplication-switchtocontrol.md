@@ -52,7 +52,7 @@ api_name:
 
 The <b>switchToControl</b> method switches a remoted Windows Media Player control to the docked state.
 
-## -parameters
+
 
 ## -returns
 

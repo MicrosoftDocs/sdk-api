@@ -56,7 +56,7 @@ Creates a new visual object.
 
 ### -param visual [out]
 
-Type: <b><a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>**</b>
+Type: <b><a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual2">IDCompositionVisual2</a>**</b>
 
 The new visual object. This parameter must not be NULL.
 

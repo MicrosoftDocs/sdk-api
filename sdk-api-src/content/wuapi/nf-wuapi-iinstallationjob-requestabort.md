@@ -52,7 +52,7 @@ api_name:
 
 Makes a request to cancel the installation or uninstallation.
 
-## -parameters
+
 
 ## -returns
 

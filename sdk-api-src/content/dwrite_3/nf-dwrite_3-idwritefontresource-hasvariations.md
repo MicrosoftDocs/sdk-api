@@ -10,8 +10,8 @@ req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -47,6 +47,8 @@ api_name:
 ## -description
 
 Determines whether this font face's resource supports any variable axes. When `true`, at least one [DWRITE_FONT_AXIS_RANGE](./ns-dwrite_3-dwrite_font_axis_range.md) in the font resource has a non-empty range (*maxValue* > *minValue*).
+
+
 
 ## -returns
 

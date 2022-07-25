@@ -141,7 +141,7 @@ The <i>first associated interface</i> is the interface that immediately follows 
 
 The handle that <b>WinUsb_GetAssociatedInterface</b> returns must be released by calling <a href="/windows/desktop/api/winusb/nf-winusb-winusb_free">WinUsb_Free</a>.
 
-Callers of <b>WinUsb_GetAssociatedInterface</b>can retrieve only one handle for each interface. If a caller attempts to retrieve more than one handle for the same interface, the routine will fail with an error of ERROR_ALREADY_EXISTS.
+Callers of <b>WinUsb_GetAssociatedInterface</b> can retrieve only one handle for each interface. If a caller attempts to retrieve more than one handle for the same interface, the routine will fail with an error of ERROR_ALREADY_EXISTS.
 
 ## -see-also
 

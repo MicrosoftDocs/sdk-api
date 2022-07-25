@@ -133,7 +133,7 @@ The string specified by <i>lpPrefix</i> represents a prefix. All keys (and their
 </tr>
 </table>
 
-### -param *ppvInfo [out]
+### -param ppvInfo [out]
 
 Type: <b>PVOID*</b>
 

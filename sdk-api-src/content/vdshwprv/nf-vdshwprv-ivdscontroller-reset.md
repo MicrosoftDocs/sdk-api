@@ -55,7 +55,7 @@ api_name:
 
 Reinitializes the controller and invalidates the cache.
 
-## -parameters
+
 
 ## -returns
 

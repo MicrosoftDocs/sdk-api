@@ -54,38 +54,7 @@ Retrieves the client SSL certificate.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDSSLClientCertificate</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDSSLClientCertificate</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWSDSSLClientCertificate</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdsslclientcertificate-getclientcertificate">GetClientCertificate</a>
-</td>
-<td align="left" width="63%">
-Gets the client certificate.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdsslclientcertificate-getmappedaccesstoken">GetMappedAccessToken</a>
-</td>
-<td align="left" width="63%">
-Gets the mapped access token.
-
-</td>
-</tr>
-</table>
+The <b>IWSDSSLClientCertificate</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDSSLClientCertificate</b> also has these types of members:
 
 ## -remarks
 

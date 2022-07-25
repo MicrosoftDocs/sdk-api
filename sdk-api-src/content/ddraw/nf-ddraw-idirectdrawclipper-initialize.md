@@ -54,11 +54,11 @@ Initializes a DirectDrawClipper object that was created by using the <a href="/w
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to the DirectDraw object to associate with the DirectDrawClipper object. If this parameter is set to NULL, an independent DirectDrawClipper object is initialized; a call of this type is equivalent to using the <a href="/windows/desktop/api/ddraw/nf-ddraw-directdrawcreateclipper">DirectDrawCreateClipper</a> function.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Currently not used and must be set to 0.
 

@@ -54,7 +54,7 @@ req.apiset: ext-ms-win-ntuser-misc-l1-5-1 (introduced in Windows 10, version 10.
 
 Locks the workstation's display. Locking a workstation protects it from unauthorized use.
 
-## -parameters
+
 
 ## -returns
 

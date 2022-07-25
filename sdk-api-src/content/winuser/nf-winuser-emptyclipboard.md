@@ -63,7 +63,7 @@ req.apiset: ext-ms-win-ntuser-misc-l1-2-0 (introduced in Windows 8.1)
 
 Empties the clipboard and frees handles to data in the clipboard. The function then assigns ownership of the clipboard to the window that currently has the clipboard open.
 
-## -parameters
+
 
 ## -returns
 

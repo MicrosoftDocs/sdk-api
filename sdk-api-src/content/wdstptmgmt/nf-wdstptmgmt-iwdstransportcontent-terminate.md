@@ -52,7 +52,7 @@ api_name:
 
 Terminates the transmission of this content by terminating all active sessions under the content and disconnecting any clients that are joined to them.
 
-## -parameters
+
 
 ## -returns
 

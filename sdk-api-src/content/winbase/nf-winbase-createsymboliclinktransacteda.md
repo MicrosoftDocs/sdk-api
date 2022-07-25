@@ -131,7 +131,7 @@ Symbolic links can either be absolute or relative links. Absolute links are link
 <ul>
 <li>Dot (. and ..) conventions—for example, 
       "..\" resolves the path relative to the parent directory.</li>
-<li>Names with no slashes (\)—for example, "tmp" resolves 
+<li>Names with no slashes (\\)—for example, "tmp" resolves 
       the path relative to the current directory.</li>
 <li>Root relative—for example, "\Windows\System32" resolves 
       to "<i>current drive</i>:\Windows\System32".</li>

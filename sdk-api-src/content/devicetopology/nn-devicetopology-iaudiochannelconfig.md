@@ -62,38 +62,7 @@ Most Windows audio adapter drivers support the Windows Driver Model (WDM) and us
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioChannelConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioChannelConfig</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAudioChannelConfig</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iaudiochannelconfig-getchannelconfig">GetChannelConfig</a>
-</td>
-<td align="left" width="63%">
-Gets the current channel-configuration mask from a channel-configuration control.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iaudiochannelconfig-setchannelconfig">SetChannelConfig</a>
-</td>
-<td align="left" width="63%">
-Sets the channel-configuration mask in a channel-configuration control.
-
-</td>
-</tr>
-</table>
+The <b>IAudioChannelConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioChannelConfig</b> also has these types of members:
 
 ## -see-also
 

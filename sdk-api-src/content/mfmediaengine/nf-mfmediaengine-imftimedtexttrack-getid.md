@@ -52,7 +52,7 @@ api_name:
 
 Gets the identifier of the track of timed text.
 
-## -parameters
+
 
 ## -returns
 

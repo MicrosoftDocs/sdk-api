@@ -51,7 +51,9 @@ api_name:
 ## -description
 
 The <b>IX509AttributeExtensions</b> interface defines methods and properties that initialize and retrieve certificate extensions in a <a href="/windows/desktop/SecGloss/c-gly">certificate request</a>. For example, the  <b>CertificateRequestInfo</b> structure of a  PKCS #10 request does not contain a field for version 3 extensions. Instead, the extensions must be added to the attributes collection in the request.
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 CertificationRequestInfo ::= SEQUENCE 
 {
    version       INTEGER { v1(0) } (v1,...),
@@ -59,8 +61,12 @@ CertificationRequestInfo ::= SEQUENCE
    subjectPKInfo SubjectPublicKeyInfo{{ PKInfoAlgorithms }},
    attributes    [0] Attributes{{ CRIAttributes }}
 }
-</code></pre>Also, extensions are included in a CMC request by adding them to the <b>TaggedAttributes</b> structure shown in the following <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) syntax example. For more information, see <a href="/windows/desktop/SecCrypto/attributes">Attributes</a> and <a href="/windows/desktop/api/mmcobj/nn-mmcobj-extensions">Extensions</a>.
-<pre class="syntax" xml:space="preserve"><code>
+
+```
+Also, extensions are included in a CMC request by adding them to the <b>TaggedAttributes</b> structure shown in the following <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) syntax example. For more information, see <a href="/windows/desktop/SecCrypto/attributes">Attributes</a> and <a href="/windows/desktop/api/mmcobj/nn-mmcobj-extensions">Extensions</a>.
+
+``` syntax
+
 CmcData ::= SEQUENCE 
 {
    controlSequence         ControlSequence,
@@ -81,7 +87,9 @@ TaggedAttribute ::= SEQUENCE
 
 BodyPartID ::= INTEGER (0..4294967295)
 EncodedObjectID ::= OBJECT IDENTIFIER
-AttributeSetValue ::= SET OF ANY</code></pre>You can create one or more  version 3 extensions and include them in a certificate request in the following manner:<ul>
+AttributeSetValue ::= SET OF ANY
+```
+You can create one or more  version 3 extensions and include them in a certificate request in the following manner:<ul>
 <li>Initialize any of the following <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a> objects:<ul>
 <li>
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionalternativenames">IX509ExtensionAlternativeNames</a>
@@ -128,63 +136,7 @@ AttributeSetValue ::= SET OF ANY</code></pre>You can create one or more  version
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509AttributeExtensions</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a>. <b>IX509AttributeExtensions</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
-
-## -members
-
-The <b>IX509AttributeExtensions</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509attributeextensions-initializedecode">InitializeDecode</a>
-</td>
-<td align="left" width="63%">
-Initializes the object from a  <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded byte array that contains the attribute value.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509attributeextensions-initializeencode">InitializeEncode</a>
-</td>
-<td align="left" width="63%">
-Initializes the object from an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a> collection.
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509AttributeExtensions</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="10%">Access type</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509attributeextensions-get_x509extensions">X509Extensions</a>
-
-
-</td>
-<td align="left" width="10%">
-Read-only
-
-</td>
-<td align="left" width="63%">
-Retrieves the certificate extensions.
-
-</td>
-</tr>
-</table>
+The <b>IX509AttributeExtensions</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a>. <b>IX509AttributeExtensions</b> also has these types of members:
 
 ## -see-also
 

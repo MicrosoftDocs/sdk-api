@@ -4,7 +4,7 @@ title: InitializeCriticalSectionEx function (synchapi.h)
 description: Initializes a critical section object with a spin count and optional flags.
 helpviewer_keywords: ["CRITICAL_SECTION_NO_DEBUG_INFO","InitializeCriticalSectionEx","InitializeCriticalSectionEx function","base.initializecriticalsectionex","synchapi/InitializeCriticalSectionEx","winbase/InitializeCriticalSectionEx"]
 old-location: base\initializecriticalsectionex.htm
-tech.root: backup
+tech.root: base
 ms.assetid: da84b187-0eb7-4363-8e68-8a525586d7d9
 ms.date: 12/05/2018
 ms.keywords: CRITICAL_SECTION_NO_DEBUG_INFO, InitializeCriticalSectionEx, InitializeCriticalSectionEx function, base.initializecriticalsectionex, synchapi/InitializeCriticalSectionEx, winbase/InitializeCriticalSectionEx
@@ -112,7 +112,7 @@ A critical section object cannot be moved or copied. The process must also not m
 
 A critical section object must be deleted before it can be reinitialized. Initializing a critical section that is already  initialized results in undefined behavior.
 
-The spin count is useful for critical sections of short duration that can experience high levels of contention. Consider a worst-case scenario, in which an application on an SMP system has two or three threads constantly allocating and releasing memory from the heap. The application serializes the heap with a critical section. In the worst-case scenario, contention for the critical section is constant, and each thread makes an processing-intensive call to the 
+The spin count is useful for critical sections of short duration that can experience high levels of contention. Consider a worst-case scenario, in which an application on an SMP system has two or three threads constantly allocating and releasing memory from the heap. The application serializes the heap with a critical section. In the worst-case scenario, contention for the critical section is constant, and each thread makes a processing-intensive call to the 
 <a href="/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject">WaitForSingleObject</a> function. However, if the spin count is set properly, the calling thread does not immediately call 
 <b>WaitForSingleObject</b> when contention occurs. Instead, the calling thread can acquire ownership of the critical section if it is released during the spin operation.
 

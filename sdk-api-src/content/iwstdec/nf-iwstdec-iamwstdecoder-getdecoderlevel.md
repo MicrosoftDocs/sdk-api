@@ -57,7 +57,7 @@ Applications use the <code>GetDecoderLevel</code> method to retrieve the WST dec
 
 ### -param lpLevel [out]
 
-Receives a member of the <a href="/previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-am_wst_level">AM_WST_LEVEL</a> enumeration, indicting the decoder level.
+Receives a member of the <a href="/previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-am_wst_level">AM_WST_LEVEL</a> enumeration, indicating the decoder level.
 
 ## -returns
 

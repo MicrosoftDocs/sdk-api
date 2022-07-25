@@ -54,15 +54,15 @@ Specifies whether a display is showing desktop windows instead of Windows Store 
 
 ## -enum-fields
 
-### -field MAV_UNKNOWN
+### -field MAV_UNKNOWN:0
 
 The display state is not known.
 
-### -field MAV_NO_APP_VISIBLE
+### -field MAV_NO_APP_VISIBLE:1
 
 The display is showing desktop windows.
 
-### -field MAV_APP_VISIBLE
+### -field MAV_APP_VISIBLE:2
 
 The display is not showing desktop windows.
 

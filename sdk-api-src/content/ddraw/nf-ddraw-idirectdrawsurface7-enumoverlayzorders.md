@@ -54,7 +54,7 @@ Enumerates the overlay surfaces on the specified destination. You can enumerate 
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A value that can be set to one of the following flags:
 
@@ -70,11 +70,11 @@ Enumerates overlays back to front.
 
 Enumerates overlays front to back.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Address of the user-defined structure to be passed to the callback function for each overlay surface.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Address of the <a href="/windows/desktop/api/ddraw/nc-ddraw-lpddenumsurfacescallback7">EnumSurfacesCallback7</a> callback function to be called for each surface to be overlaid on this surface.
 

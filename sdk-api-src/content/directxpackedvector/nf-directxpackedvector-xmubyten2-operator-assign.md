@@ -58,13 +58,13 @@ This operator assigns the vector component data from one instance of <a href="/w
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Instance of <code>XMUBYTEN2</code> used to update the current <code>XMUBYTEN2</code> structure.
 
 ## -returns
 
-The current instance of <code>XMUBYTEN2</code> whose vector component data has been updated to match those of the <code>XMUBYTEN2</code> instance specified by the <b>UByte2</b>argument.
+The current instance of <code>XMUBYTEN2</code> whose vector component data has been updated to match those of the <code>XMUBYTEN2</code> instance specified by the <b>UByte2</b> argument.
 
 ## -see-also
 

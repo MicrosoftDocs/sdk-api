@@ -56,74 +56,10 @@ The <b>IMPEG2_TIF_CONTROL</b> interface is implemented by the <a href="/previous
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMPEG2_TIF_CONTROL</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMPEG2_TIF_CONTROL</b> also has these types of members:
+The <b>IMPEG2_TIF_CONTROL</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMPEG2_TIF_CONTROL</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMPEG2_TIF_CONTROL</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-impeg2_tif_control-addpids">AddPIDs</a>
-</td>
-<td align="left" width="63%">
-Notifies the Network Provider which PIDs the TIF should receive.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-impeg2_tif_control-deletepids">DeletePIDs</a>
-</td>
-<td align="left" width="63%">
-Informs the Network Provider that the TIF no longer requires the specified PID.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-impeg2_tif_control-getpidcount">GetPIDCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of MPEG-2 Packet IDs being filtered by the Demux into the TIF's input data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-impeg2_tif_control-getpids">GetPIDs</a>
-</td>
-<td align="left" width="63%">
-Retrieves the list of MPEG-2 Packet IDs being filtered into the TIF's input data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-impeg2_tif_control-registertif">RegisterTIF</a>
-</td>
-<td align="left" width="63%">
-Called by the Transport Information Filter to register itself with the Network Provider.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-impeg2_tif_control-unregistertif">UnregisterTIF</a>
-</td>
-<td align="left" width="63%">
-Called by the Transport Information Filter to unregister itself with the Network Provider.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

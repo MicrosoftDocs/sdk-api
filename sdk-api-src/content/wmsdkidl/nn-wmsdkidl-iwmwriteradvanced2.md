@@ -56,40 +56,10 @@ The <b>IWMWriterAdvanced2</b> interface provides the ability to set and retrieve
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterAdvanced2</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced">IWMWriterAdvanced</a>. <b>IWMWriterAdvanced2</b> also has these types of members:
+The <b>IWMWriterAdvanced2</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced">IWMWriterAdvanced</a>. <b>IWMWriterAdvanced2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMWriterAdvanced2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-getinputsetting">GetInputSetting</a>
-</td>
-<td align="left" width="63%">
-Retrieves a setting for a particular input by name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting">SetInputSetting</a>
-</td>
-<td align="left" width="63%">
-Specifies a named setting for a particular input.
-
-</td>
-</tr>
-</table> 
-
-For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="/windows/desktop/wmformat/writer-object">Writer Object</a>.
 
 ## -see-also
 

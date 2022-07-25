@@ -55,29 +55,7 @@ An extension of the <a href="/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcon
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUILinkInfo</b> interface inherits from <a href="/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>. <b>IOleUILinkInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IOleUILinkInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkinfoa-getlastupdate">GetLastUpdate</a>
-</td>
-<td align="left" width="63%">
-Determines the last time the object was updated.
-
-</td>
-</tr>
-</table>
+The <b>IOleUILinkInfo</b> interface inherits from <a href="/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>. <b>IOleUILinkInfo</b> also has these types of members:
 
 ## -see-also
 

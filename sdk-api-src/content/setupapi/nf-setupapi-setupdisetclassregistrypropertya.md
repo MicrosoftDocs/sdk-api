@@ -87,7 +87,7 @@ The caller supplies a DWORD value  that specifies whether users can obtain exclu
 
 #### SPCRP_LOWERFILTERS
 
-(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the lower filter drivers that are installed for the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a>. For more information about how to install a class filter driver, see <a href="/windows-hardware/drivers/install/installing-a-filter-driver">Installing a Filter Driver</a> and <a href="/windows-hardware/drivers/install/inf-classinstall32-section">INF ClassInstall32 Section</a>. 
+(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the lower filter drivers that are installed for the <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a>. For more information about how to install a class filter driver, see <a href="/windows-hardware/drivers/install/installing-a-filter-driver">Installing a Filter Driver</a> and <a href="/windows-hardware/drivers/install/inf-classinstall32-section">INF ClassInstall32 Section</a>. 
 
 
 
@@ -113,7 +113,7 @@ A pointer to a buffer that supplies the specified property. This parameter is op
 
 ### -param PropertyBufferSize [in]
 
-The size, in bytes, of the <i>PropertyBuffer </i>buffer.
+The size, in bytes, of the <i>PropertyBuffer </i> buffer.
 
 ### -param MachineName [in, optional]
 

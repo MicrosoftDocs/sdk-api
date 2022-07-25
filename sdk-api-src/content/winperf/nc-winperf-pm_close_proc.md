@@ -56,7 +56,7 @@ The <b>ClosePerformanceData</b> function is a placeholder for the application-de
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 ## -returns
 

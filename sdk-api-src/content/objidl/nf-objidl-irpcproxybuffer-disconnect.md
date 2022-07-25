@@ -52,7 +52,7 @@ api_name:
 
 Disconnects a client proxy from any RPC channel to which it is connected.
 
-## -parameters
+
 
 ## -see-also
 

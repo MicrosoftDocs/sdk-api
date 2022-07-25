@@ -6,7 +6,7 @@ helpviewer_keywords: ["0","CREATE_ALWAYS","CREATE_NEW","CreateFile","CreateFile 
 old-location: fs\createfile.htm
 tech.root: fs
 ms.assetid: 80a96083-4de9-4422-9705-b8ad2b6cbd1b
-ms.date: 12/05/2018
+ms.date: 04/14/2022
 ms.keywords: 0, CREATE_ALWAYS, CREATE_NEW, CreateFile, CreateFile function [Files], CreateFileA, CreateFileW, FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_ENCRYPTED, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, FILE_FLAG_BACKUP_SEMANTICS, FILE_FLAG_DELETE_ON_CLOSE, FILE_FLAG_NO_BUFFERING, FILE_FLAG_OPEN_NO_RECALL, FILE_FLAG_OPEN_REPARSE_POINT, FILE_FLAG_OVERLAPPED, FILE_FLAG_POSIX_SEMANTICS, FILE_FLAG_RANDOM_ACCESS, FILE_FLAG_SEQUENTIAL_SCAN, FILE_FLAG_SESSION_AWARE, FILE_FLAG_WRITE_THROUGH, FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, OPEN_ALWAYS, OPEN_EXISTING, SECURITY_ANONYMOUS, SECURITY_CONTEXT_TRACKING, SECURITY_DELEGATION, SECURITY_EFFECTIVE_ONLY, SECURITY_IDENTIFICATION, SECURITY_IMPERSONATION, TRUNCATE_EXISTING, _win32_createfile, base.createfile, fileapi/CreateFile, fileapi/CreateFileA, fileapi/CreateFileW, fs.createfile, winbase/CreateFile, winbase/CreateFileA, winbase/CreateFileW
 req.header: fileapi.h
 req.include-header: Windows.h
@@ -142,8 +142,7 @@ To enable a process to share a file or device while another process has the file
 </dl>
 </td>
 <td width="60%">
-Prevents other processes from opening a file or device if they request delete, read, or write access.
-
+Prevents subsequent open operations on a file or device if they request delete, read, or write access.
 </td>
 </tr>
 <tr>
@@ -155,7 +154,7 @@ Prevents other processes from opening a file or device if they request delete, r
 <td width="60%">
 Enables subsequent open operations on a file or device to request delete access.
 
-Otherwise, other processes cannot open the file or device if they request delete access.
+Otherwise, no process can open the file or device if it requests delete access.
 
 If this flag is not specified, but the file or device has been opened for delete access, the function 
          fails.
@@ -173,7 +172,7 @@ If this flag is not specified, but the file or device has been opened for delete
 <td width="60%">
 Enables subsequent open operations on a file or device to request read access.
 
-Otherwise, other processes cannot open the file or device if they request read access.
+Otherwise, no process can open the file or device if it requests read access.
 
 If this flag is not specified, but the file or device has been opened for read access, the function 
          fails.
@@ -189,7 +188,7 @@ If this flag is not specified, but the file or device has been opened for read a
 <td width="60%">
 Enables subsequent open operations on a file or device to request write access.
 
-Otherwise, other processes cannot open the file or device if they request write access.
+Otherwise, no process can open the file or device if it requests write access.
 
 If this flag is not specified, but the file or device has been opened for write access or has a file mapping 
          with write access, the function fails.
@@ -220,7 +219,7 @@ The <b>lpSecurityDescriptor</b> member of the structure specifies a
        <b>lpSecurityDescriptor</b> member when opening an existing file or device, but continues 
        to use the <b>bInheritHandle</b> member.
 
-The <b>bInheritHandle</b>member of the structure specifies whether the returned handle 
+The <b>bInheritHandle</b> member of the structure specifies whether the returned handle 
        can be inherited.
 
 For more information, see the Remarks section.
@@ -458,7 +457,7 @@ The file is part of or used exclusively by an operating system.
 <td width="60%">
 The file is being used for temporary storage.
 
-For more information, see the <a href="#caching-behavior">Caching Behavior</a> section of this 
+For more information, see the <a href="#caching_behavior">Caching Behavior</a> section of this 
          topic.
 
 </td>
@@ -574,7 +573,7 @@ If this flag is not specified, then I/O operations are serialized, even if the c
          functions specify an <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
 
 For information about considerations when using a file handle created with this flag, see the 
-         <a href="https://docs.microsoft.com/">Synchronous and Asynchronous I/O Handles</a> 
+         <a href="#synchronous-and-asynchronous-i-o-handles">Synchronous and Asynchronous I/O Handles</a> 
          section of this topic.
 
 </td>
@@ -605,7 +604,7 @@ Access is intended to be random. The system can use this as a hint to optimize f
 This flag has no effect if the file system does not support cached I/O and 
          <b>FILE_FLAG_NO_BUFFERING</b>.
 
-For more information, see the <a href="#caching-behavior">Caching Behavior</a> section of this 
+For more information, see the <a href="#caching_behavior">Caching Behavior</a> section of this 
          topic.
 
 </td>
@@ -641,7 +640,7 @@ This flag should not be used if read-behind (that is, reverse scans) will be use
 This flag has no effect if the file system does not support cached I/O and 
          <b>FILE_FLAG_NO_BUFFERING</b>.
 
-For more information, see the <a href="#caching-behavior">Caching Behavior</a> section of this 
+For more information, see the <a href="#caching_behavior">Caching Behavior</a> section of this 
          topic.
 
 </td>
@@ -655,7 +654,7 @@ For more information, see the <a href="#caching-behavior">Caching Behavior</a> s
 <td width="60%">
 Write operations will not go through any intermediate cache, they will go directly to disk.
 
-For additional information, see the <a href="#caching-behavior">Caching Behavior</a> section of this 
+For additional information, see the <a href="#caching_behavior">Caching Behavior</a> section of this 
          topic.
 
 </td>
@@ -1068,9 +1067,9 @@ The following requirements must be met for such a call to succeed:
 <li>The caller must have administrative privileges. For more information, see 
        <a href="/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.</li>
 <li>The <i>dwCreationDisposition</i> parameter must have the 
-       <b>OPEN_EXISTING</b>flag.</li>
+      <b>OPEN_EXISTING</b> flag.</li>
 <li>When opening a volume or floppy disk, the <i>dwShareMode</i> parameter must have the 
-       <b>FILE_SHARE_WRITE</b>flag.</li>
+      <b>FILE_SHARE_WRITE</b> flag.</li>
 </ul>
 <div class="alert"><b>Note</b>  The <i>dwDesiredAccess</i> parameter can be zero, allowing the application to query 
       device attributes without accessing a device. This is useful for an application to determine the size of a 
@@ -1110,7 +1109,7 @@ For an example of opening a physical drive, see
 When opening a volume or removable media drive (for example, a floppy disk drive or flash memory thumb drive), 
       the <i>lpFileName</i> string should be the following form: 
       "\\.&#92;<i>X</i>:". Do not use a trailing backslash 
-      (\), which indicates the root directory of a drive. The following table shows some examples of drive strings.
+      (\\), which indicates the root directory of a drive. The following table shows some examples of drive strings.
 
 <table>
 <tr>
@@ -1211,10 +1210,10 @@ Use the CONOUT$ value to specify console output.
 CONIN$ gets a handle to the console input buffer, even if the 
          <a href="/windows/console/setstdhandle">SetStdHandle</a> function redirects the standard input 
          handle. To get the standard input handle, use the 
-         <a href="/windows/console/getstdhandle">GetStdHandle</a>function.
+         <a href="/windows/console/getstdhandle">GetStdHandle</a> function.
 
 CONOUT$ gets a handle to the active screen buffer, even if 
-         <a href="/windows/console/setstdhandle">SetStdHandle</a>redirects the standard output handle. To 
+         <a href="/windows/console/setstdhandle">SetStdHandle</a> redirects the standard output handle. To 
          get the standard output handle, use <a href="/windows/console/getstdhandle">GetStdHandle</a>.
 
 </td>
@@ -1321,7 +1320,7 @@ The following table shows various settings of <i>dwDesiredAccess</i> and
  
 
 <h3><a id="Mailslots"></a><a id="mailslots"></a><a id="MAILSLOTS"></a>Mailslots</h3>
-If <b>CreateFile</b>opens the client end of a mailslot, the 
+If <b>CreateFile</b> opens the client end of a mailslot, the 
       function returns <b>INVALID_HANDLE_VALUE</b> if the mailslot client attempts to open a local 
       mailslot before the mailslot server has created it with the 
       <a href="/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailSlot</a> function.
@@ -1333,7 +1332,7 @@ If <b>CreateFile</b> opens the client end of a named pipe, the
       function uses any instance of the named pipe that is in the listening state. The opening process can duplicate 
       the handle as many times as required, but after it is opened, the named pipe instance cannot be opened by 
       another client. The access that is specified when a pipe is opened must be compatible with the access that is 
-      specified in the <i>dwOpenMode</i>parameter of the 
+      specified in the <i>dwOpenMode</i> parameter of the 
       <a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function.
 
 If the <a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function was not 
@@ -1403,10 +1402,10 @@ Example file operations are shown in the following topics:
 <a href="/windows/desktop/FileIO/walking-a-buffer-of-change-journal-records">Walking a Buffer of Change Journal Records</a>
 </li>
 <li>
-<a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a>
+<a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a>
 </li>
 <li>
-<a href="/windows/desktop/api/winbase/nf-winbase-wow64enablewow64fsredirection">Wow64EnableWow64FsRedirection</a>
+<a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64enablewow64fsredirection">Wow64EnableWow64FsRedirection</a>
 </li>
 </ul>
 Physical device I/O is demonstrated in the following topics:

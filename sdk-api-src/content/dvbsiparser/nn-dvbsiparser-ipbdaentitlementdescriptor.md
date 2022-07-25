@@ -54,44 +54,8 @@ Implements methods that retrieve data from the entitlement descriptor in a Prote
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPBDAEntitlementDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPBDAEntitlementDescriptor</b> also has these types of members:
+The <b>IPBDAEntitlementDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPBDAEntitlementDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPBDAEntitlementDescriptor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbdaentitlementdescriptor-getlength">GetLength</a>
-</td>
-<td align="left" width="63%">
-Gets the body length of the entitlement descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbdaentitlementdescriptor-gettag">GetTag</a>
-</td>
-<td align="left" width="63%">
-Gets the tag that uniquely identifies the entitlement descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbdaentitlementdescriptor-gettoken">GetToken</a>
-</td>
-<td align="left" width="63%">
-Gets the entitlement token from the entitlement descriptor.
-
-</td>
-</tr>
-</table>

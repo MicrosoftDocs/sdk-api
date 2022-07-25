@@ -57,31 +57,31 @@ The values of the
 
 ## -enum-fields
 
-### -field MULTIVALUED
+### -field MULTIVALUED:0x1
 
 Specifies whether the attribute is multivalued.
 
-### -field ALLOWEDINPROFILE
+### -field ALLOWEDINPROFILE:0x2
 
 Specifies whether the attribute is allowed in a Network Access Policy (NAP) profile.
 
-### -field ALLOWEDINCONDITION
+### -field ALLOWEDINCONDITION:0x4
 
 Specifies whether the attribute is allowed in an NAP condition.
 
-### -field ALLOWEDINPROXYPROFILE
+### -field ALLOWEDINPROXYPROFILE:0x8
 
 Specifies whether the attribute is allowed in an NAP profile for a network request proxy.
 
-### -field ALLOWEDINPROXYCONDITION
+### -field ALLOWEDINPROXYCONDITION:0x10
 
 Specifies whether the attribute is allowed in an NAP condition for a network request proxy.
 
-### -field ALLOWEDINVPNDIALUP
+### -field ALLOWEDINVPNDIALUP:0x20
 
 Specifies whether the attribute is allowed in a VPN dialup connection.
 
-### -field ALLOWEDIN8021X
+### -field ALLOWEDIN8021X:0x40
 
 Specifies whether the attribute is allowed in an 8021x connection.
 

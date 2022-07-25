@@ -54,7 +54,7 @@ Returns a value that specifies whether two text ranges have identical endpoints.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint">TextPatternRangeEndpoint</a></b>
 
@@ -66,7 +66,7 @@ Type: <b><a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itex
 
 The text range to be compared.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint">TextPatternRangeEndpoint</a></b>
 
@@ -83,7 +83,7 @@ Receives a value that indicates whether the two text ranges have identical endpo
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

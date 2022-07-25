@@ -5,7 +5,7 @@ description: Displays a file.
 helpviewer_keywords: ["IFileViewerA::Show"]
 tech.root: shell
 ms.assetid: 7555b40b-62c1-467a-b9d5-324fd1a7fd8e
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: IFileViewerA::Show
 targetos: Windows
 req.assembly: 

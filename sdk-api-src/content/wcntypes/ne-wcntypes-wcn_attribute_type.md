@@ -57,7 +57,7 @@ includes an additional 4 bytes (2 bytes of ID, 2 bytes of Length).
 
 ## -enum-fields
 
-### -field WCN_TYPE_AP_CHANNEL
+### -field WCN_TYPE_AP_CHANNEL:0
 
 This attribute value indicates that the <i>puInteger</i> parameter of the <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method is a value containing data that specifies the 802.11 channel the access point is hosting.
 
@@ -424,7 +424,7 @@ Instead of querying this attribute, applications should instead query the WCN_TY
 This attribute value indicates that the <i>puInteger</i> parameter of the <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetAttribute</a> method is    a buffer, up to 1024 bytes in size, that permits the use of vendor extensions in the Wi-Fi Protected Setup TLV framework. The Vendor
 Extension figure illustrates the implementation of vendor extensions. Vendor ID is the SMI network management private enterprise code. 
 
- Instead of querying this value, implementation of the <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getvendorextension">IWCNDevice::GetVendorExtension</a> API is recommended for convenience and flexibilty while accessing the raw vendor extension attribute directly.
+ Instead of querying this value, implementation of the <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getvendorextension">IWCNDevice::GetVendorExtension</a> API is recommended for convenience and flexibility while accessing the raw vendor extension attribute directly.
 
 ### -field WCN_TYPE_VERSION
 

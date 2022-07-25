@@ -39,7 +39,6 @@ topic_type:
 api_type:
  - <TBD>
 api_location:
- - 
 api_name:
  - IMFNetCrossOriginSupport::IsSameOrigin
 ---
@@ -49,7 +48,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Returns true when the specified URL has the same origin as the HTML5 media element.
 
@@ -69,5 +68,5 @@ Returns S_OK upon successful completion.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846740(v=VS.85).aspx">IMFNetCrossOriginSupport</a>
+<a href="../mfidl/nn-mfidl-imfnetcrossoriginsupport.md">IMFNetCrossOriginSupport</a>
 

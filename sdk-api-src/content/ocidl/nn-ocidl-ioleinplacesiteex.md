@@ -56,47 +56,7 @@ When an object is activated, it does not know if its visual display is already c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleInPlaceSiteEx</b> interface inherits from <b>IOleInPlaceSite</b>. <b>IOleInPlaceSiteEx</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IOleInPlaceSiteEx</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesiteex-oninplaceactivateex">OnInPlaceActivateEx</a>
-</td>
-<td align="left" width="63%">
-Called by the embedded object to determine whether it needs to redraw itself upon activation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesiteex-oninplacedeactivateex">OnInPlaceDeactivateEx</a>
-</td>
-<td align="left" width="63%">
-Notifies the container whether the object needs to be redrawn upon deactivation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesiteex-requestuiactivate">RequestUIActivate</a>
-</td>
-<td align="left" width="63%">
-Notifies the container that the object is about to enter the UI-active state.
-
-</td>
-</tr>
-</table>
+The <b>IOleInPlaceSiteEx</b> interface inherits from <b>IOleInPlaceSite</b>. <b>IOleInPlaceSiteEx</b> also has these types of members:
 
 ## -see-also
 

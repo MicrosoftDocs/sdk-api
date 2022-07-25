@@ -54,7 +54,7 @@ Unregisters the application-defined function that was registered with the <a hre
 
 ## -parameters
 
-### -param *host [in]
+### -param host [in]
 
 Type: <b><a href="/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationhost">IWebApplicationHost</a>*</b>
 

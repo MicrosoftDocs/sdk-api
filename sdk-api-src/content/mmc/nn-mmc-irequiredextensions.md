@@ -58,44 +58,5 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRequiredExtensions</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRequiredExtensions</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IRequiredExtensions</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRequiredExtensions</b> also has these types of members:
 
-## -members
-
-The <b>IRequiredExtensions</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-irequiredextensions-enableallextensions">EnableAllExtensions</a>
-</td>
-<td align="left" width="63%">
-Enables all extensions.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-irequiredextensions-getfirstextension">GetFirstExtension</a>
-</td>
-<td align="left" width="63%">
-Gets first required extension.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-irequiredextensions-getnextextension">GetNextExtension</a>
-</td>
-<td align="left" width="63%">
-Gets next required extension.
-
-</td>
-</tr>
-</table>

@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetNumaNodeProcessorMask","GetNumaNodeProcessorMask funct
 old-location: base\getnumanodeprocessormask.htm
 tech.root: backup
 ms.assetid: bdaecb36-9b51-4cc3-88b3-0dbd63bdc9b8
-ms.date: 12/05/2018
+ms.date: 03/15/2021
 ms.keywords: GetNumaNodeProcessorMask, GetNumaNodeProcessorMask function, _win32_getnumanodeprocessormask, base.getnumanodeprocessormask, winbase/GetNumaNodeProcessorMask
 req.header: winbase.h
 req.include-header: Windows.h
@@ -58,8 +58,6 @@ api_name:
 
 Retrieves the processor mask for the specified node. 
 
-Use the <a href="/windows/desktop/api/systemtopologyapi/nf-systemtopologyapi-getnumanodeprocessormaskex">GetNumaNodeProcessorMaskEx</a> function to retrieve the processor mask for a node in any processor group.
-
 ## -parameters
 
 ### -param Node [in]
@@ -88,6 +86,19 @@ To retrieve the highest numbered node in the system, use the
 
 To ensure that all threads for your process run on the same node, use the 
 <a href="/windows/desktop/api/winbase/nf-winbase-setprocessaffinitymask">SetProcessAffinityMask</a> function with a process affinity mask that specifies processors in the same node.
+
+Use the <a href="/windows/desktop/api/systemtopologyapi/nf-systemtopologyapi-getnumanodeprocessormaskex">GetNumaNodeProcessorMaskEx</a> function to retrieve the processor mask for a node in any processor group.
+
+> [!NOTE]
+> Starting with *TBD Release Iron*, the behavior of this and other NUMA functions has been modified to better support systems with nodes containing more that 64 processors. For more information about this change, including information about enabling the old behavior of this API, see [NUMA Support](/windows/win32/procthread/numa-support).
+
+### Behavior starting with TBD Release Iron
+
+Each node is assigned a primary group by the system. The mask returned by **GetNumaNodeProcessorMask** is for the node's primary group and is only returned if the calling thread belongs to that group.
+
+### Behavior in previous versions
+
+The mask for the specified node is returned.
 
 ## -see-also
 

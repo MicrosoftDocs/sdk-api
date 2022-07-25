@@ -54,11 +54,11 @@ Enumerates all the surfaces that are attached to this surface.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Address of the application-defined structure that is passed to the enumeration member every time that it is called.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Address of the <a href="/windows/desktop/api/ddraw/nc-ddraw-lpddenumsurfacescallback7">EnumSurfacesCallback7</a> function to be called for each surface that is attached to this surface.
 

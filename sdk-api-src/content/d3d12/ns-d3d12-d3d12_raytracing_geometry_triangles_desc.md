@@ -86,6 +86,17 @@ Format of the vertices in <i>VertexBuffer</i>.  Must be one of the following:
 <li><b>DXGI_FORMAT_R16G16B16A16_SNORM</b>   - A16 component is ignored, other data can be packed there, such as setting vertex stride to 6 bytes.</li>
 </ul>
 
+Tier 1.1 devices support the following additional formats:
+<ul>
+<li><b>DXGI_FORMAT_R16G16B16A16_UNORM</b>   - A16 component is ignored, other data can be packed there, such as setting vertex stride to 6 bytes</li>
+<li><b>DXGI_FORMAT_R16G16_UNORM</b>   - third component assumed 0</li>
+<li><b>DXGI_FORMAT_R10G10B10A2_UNORM</b>   - A2 component is ignored, stride must be 4 bytes</li>
+<li><b>DXGI_FORMAT_R8G8B8A8_UNORM</b>   - A8 component is ignored, other data can be packed there, such as setting vertex stride to 3 bytes</li>
+<li><b>DXGI_FORMAT_R8G8_UNORM</b>   - third component assumed 0</li>
+<li><b>DXGI_FORMAT_R8G8B8A8_SNORM</b>  - A8 component is ignored, other data can be packed there, such as setting vertex stride to 3 bytes</li>
+<li><b>DXGI_FORMAT_R8G8_SNORM</b>   - third component assumed 0</li>
+</ul>
+
 ### -field IndexCount
 
 Number of indices in <i>IndexBuffer</i>.  Must be 0 if <i>IndexBuffer</i> is NULL.

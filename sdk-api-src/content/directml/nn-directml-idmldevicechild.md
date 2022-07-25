@@ -55,4 +55,3 @@ An interface implemented by all objects created from the DirectML device. The **
 ## -see-also
 
 [IDMLObject](/windows/win32/api/directml/nn-directml-idmlobject)
-

@@ -53,31 +53,10 @@ api_name:
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
-Provides a method to set the SAN mode of a disk to offline  or online.<div class="alert"><b>Note</b>  Starting with Windows Vista with Service Pack 1 (SP1), this interface is supserseded by the <a href="/windows/desktop/api/vds/nn-vds-ivdsdiskonline">IVdsDiskOnline</a> interface.</div>
+Provides a method to set the SAN mode of a disk to offline or online.<div class="alert"><b>Note</b>  Starting with Windows Vista with Service Pack 1 (SP1), this interface is superseded by the <a href="/windows/desktop/api/vds/nn-vds-ivdsdiskonline">IVdsDiskOnline</a> interface.</div>
 <div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsDisk2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsDisk2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVdsDisk2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsDisk2</b> also has these types of members:
 
-## -members
-
-The <b>IVdsDisk2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsdisk2-setsanmode">SetSANMode</a>
-</td>
-<td align="left" width="63%">
-Sets the SAN mode of a disk to offline or online.
-
-</td>
-</tr>
-</table>

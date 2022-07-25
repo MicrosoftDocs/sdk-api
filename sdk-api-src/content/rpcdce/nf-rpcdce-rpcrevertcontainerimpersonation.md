@@ -54,7 +54,7 @@ api_name:
 
 RpcRevertContainerImpersonation may be altered or unavailable.
 
-## -parameters
+
 
 ## -returns
 

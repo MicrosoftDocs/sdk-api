@@ -50,7 +50,7 @@ Retrieves status about whether this surface has finished its flipping process.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A value that can be set to one of the following flags:
 

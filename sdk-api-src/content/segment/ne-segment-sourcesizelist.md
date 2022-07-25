@@ -59,7 +59,7 @@ The <b>SourceSizeList</b> enumeration is used to indicate how the VMR will clip 
 
 ## -enum-fields
 
-### -field sslFullSize
+### -field sslFullSize:0
 
 Do not clip the source video rectangle.
 

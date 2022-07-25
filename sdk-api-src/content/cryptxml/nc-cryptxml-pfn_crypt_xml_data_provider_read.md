@@ -54,11 +54,11 @@ The <i>PFN_CRYPT_XML_DATA_PROVIDER_READ</i> callback function reads XML data.
 
 ## -parameters
 
-### -param *pvCallbackState [in, out]
+### -param pvCallbackState [in, out]
 
 A pointer to an application defined argument that is passed to the calling function.
 
-### -param *pbData [out]
+### -param pbData [out]
 
 A pointer to the buffer that receives the data to be read.
 
@@ -66,7 +66,7 @@ A pointer to the buffer that receives the data to be read.
 
 The size, in bytes, of the data to be read.
 
-### -param *pcbRead [out]
+### -param pcbRead [out]
 
 A pointer to a variable that receives the number of bytes actually read.
 

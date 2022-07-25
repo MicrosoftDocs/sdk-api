@@ -70,7 +70,11 @@ Do not use the <b>CopyCursor</b> function for animated cursors. Instead, use the
 
 <b>CopyCursor</b> is implemented as a call to the <a href="/windows/desktop/api/winuser/nf-winuser-copyicon">CopyIcon</a> function.
 
-<pre class="syntax" xml:space="preserve"><code>#define CopyCursor(pcur) ((HCURSOR)CopyIcon((HICON)(pcur)))</code></pre>
+
+``` syntax
+#define CopyCursor(pcur) ((HCURSOR)CopyIcon((HICON)(pcur)))
+```
+
 
 ## -see-also
 

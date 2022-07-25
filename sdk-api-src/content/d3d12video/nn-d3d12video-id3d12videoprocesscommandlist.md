@@ -45,73 +45,7 @@ Encapsulates a list of graphics commands for video processing. This interface is
 
 ## -inheritance
 
-ID3D12VideoProcessCommandList interits from ID3D12CommandList.
-
-## -members
-
-<p>ID3D12VideoProcessCommandList has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>Close</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Reset</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>ClearState</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>ResourceBarrier</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>DiscardResource</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>BeginQuery</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>EndQuery</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>ResolveQueryData</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>SetPredication</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>SetMarker</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>BeginEvent</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>EndEvent</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>ProcessFrames</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>WriteBufferImmediate</td>
-		<td>TBD</td>
-	</tr>
-</table>
+ID3D12VideoProcessCommandList inherits from ID3D12CommandList.
 
 ## -remarks
 

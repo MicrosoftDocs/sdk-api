@@ -52,7 +52,7 @@ api_name:
 
 Creates an instance of the <code>BoundingBox</code> class.
 
-## -parameters
+
 
 ## -remarks
 

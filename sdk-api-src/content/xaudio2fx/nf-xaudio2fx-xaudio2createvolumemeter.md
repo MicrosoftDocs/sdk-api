@@ -65,7 +65,7 @@ Flags that specify the behavior of the APO. The value of this parameter must be 
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -108,19 +108,27 @@ XAudio2CreateVolumeMeter(&pVolumeMeterAPO);
 
 The xaudio2fx.h header defines the <b>AudioVolumeMeter</b> class GUID as   a cross-platform audio processing object (XAPO). 
 
-<pre class="syntax" xml:space="preserve"><code>class __declspec(uuid("4FC3B166-972A-40CF-BC37-7DB03DB2FBA3")) AudioVolumeMeter;
-</code></pre>
+
+``` syntax
+class __declspec(uuid("4FC3B166-972A-40CF-BC37-7DB03DB2FBA3")) AudioVolumeMeter;
+
+```
+
 <b>XAudio2CreateVolumeMeter</b> returns this object as a pointer to a pointer to <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> in the <i>ppApo</i> parameter. Although you can query the <a href="/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a> and <a href="/windows/desktop/api/xapo/nn-xapo-ixapoparameters">IXAPOParameters</a> interfaces from this <b>IUnknown</b>, you typically never use these interfaces directly. Instead, you use them when you create a voice to add them as part of the effects chain. 
 
 The volume meter uses the <a href="/windows/desktop/api/xaudio2fx/ns-xaudio2fx-xaudio2fx_volumemeter_levels">XAUDIO2FX_VOLUMEMETER_LEVELS</a> parameter structure that you access via the <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-geteffectparameters">IXAudio2Voice::GetEffectParameters</a> method when the XAPO is bound to the audio graph.
 
-<div class="alert"><b>Note</b>  <b>XAudio2CreateVolumeMeter</b> is an inline function in xaudio2fx.h that calls <b>CreateAudioVolumeMeter</b>: <pre class="syntax" xml:space="preserve"><code>
+<div class="alert"><b>Note</b>  <b>XAudio2CreateVolumeMeter</b> is an inline function in xaudio2fx.h that calls <b>CreateAudioVolumeMeter</b>: 
+``` syntax
+
 XAUDIO2FX_STDAPI CreateAudioVolumeMeter(_Outptr_ IUnknown** ppApo);
 __inline HRESULT XAudio2CreateVolumeMeter(_Outptr_ IUnknown** ppApo, UINT32 /*Flags*/ DEFAULT(0))
 {
     return CreateAudioVolumeMeter(ppApo);
 }
-</code></pre>
+
+```
+
 </div>
 <div> </div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

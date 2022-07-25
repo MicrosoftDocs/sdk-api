@@ -62,4 +62,3 @@ Indicates the backward pass.
 ### -field DML_RECURRENT_NETWORK_DIRECTION_BIDIRECTIONAL
 
 Indicates both passes.
-

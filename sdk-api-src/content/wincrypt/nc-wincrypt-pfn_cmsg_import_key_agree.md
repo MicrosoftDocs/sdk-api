@@ -66,11 +66,11 @@ A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_ctrl_key_
 
 This value is not used. Set it to zero.
 
-### -param *pvReserved
+### -param pvReserved
 
 This parameter is reserved and must be <b>NULL</b>.
 
-### -param *phContentEncryptKey [out]
+### -param phContentEncryptKey [out]
 
 The address of a handle to the content encryption key returned by this function.
 

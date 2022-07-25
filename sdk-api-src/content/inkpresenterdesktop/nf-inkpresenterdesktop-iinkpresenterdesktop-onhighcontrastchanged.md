@@ -52,7 +52,7 @@ api_name:
 
 Specifies a high contrast change handler. This handler is notified of changes to the high contrast system settings.
 
-## -parameters
+
 
 ## -returns
 

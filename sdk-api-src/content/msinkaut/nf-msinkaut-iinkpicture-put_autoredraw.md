@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_AutoRedraw
 title: IInkPicture::put_AutoRedraw (msinkaut.h)
-description: Gets or sets a value that specifies whether an ink collectcor repaints the ink when the window is invalidated.
+description: Gets or sets a value that specifies whether an ink collector repaints the ink when the window is invalidated.
 helpviewer_keywords: ["AutoRedraw property [Tablet PC]","AutoRedraw property [Tablet PC]","IInkPicture interface","IInkPicture interface [Tablet PC]","AutoRedraw property","IInkPicture.AutoRedraw","IInkPicture.put_AutoRedraw","IInkPicture::AutoRedraw","IInkPicture::get_AutoRedraw","IInkPicture::put_AutoRedraw","InkPicture.get_AutoRedraw","InkPicture.put_AutoRedraw","get_AutoRedraw","msinkaut/IInkPicture::AutoRedraw","msinkaut/IInkPicture::get_AutoRedraw","msinkaut/IInkPicture::put_AutoRedraw","put_AutoRedraw","tablet.inkpicture_autoredraw"]
 old-location: tablet\inkpicture_autoredraw.htm
 tech.root: tablet
@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets a value that specifies whether an ink collectcor  repaints the ink when the window is invalidated.
+Gets or sets a value that specifies whether an ink collector  repaints the ink when the window is invalidated.
 
 
 
@@ -118,7 +118,7 @@ InkPicture controls inherited Invalidated and Paint events.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="../msinkaut/nn-msinkaut-iinkpicture.md">IInkPicture</a>
 
 
 

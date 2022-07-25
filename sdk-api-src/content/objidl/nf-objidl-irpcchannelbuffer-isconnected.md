@@ -52,11 +52,20 @@ api_name:
 
 Determines whether the RPC channel is connected.
 
-## -parameters
+
 
 ## -returns
 
-If the RPC  channel exists, the return value is <b>TRUE</b>. Otherwise, it is <b>FALSE</b>.
+If the RPC channel knows that the server object has been disconnected,
+the return value is <b>S_FALSE</b>. Otherwise, it is <b>S_OK</b>.
+
+## -remarks
+
+Channel implementations typically report server connectedness based on their
+local state and are not expected to test transport-level connections or make
+any calls to the server to prove connectedness.
+It is possible for this method to return <b>S_OK</b>
+even when the server object has been disconnected.
 
 ## -see-also
 

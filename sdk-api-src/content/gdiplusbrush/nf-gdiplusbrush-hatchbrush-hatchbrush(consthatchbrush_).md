@@ -52,7 +52,7 @@ Copy constructor for **HatchBrush**.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 The **HatchBrush** object to copy into this object.
 

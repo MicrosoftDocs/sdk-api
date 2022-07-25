@@ -54,56 +54,7 @@ Defines the methods that are called by the Task Scheduler service to manage a CO
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITaskHandler</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITaskHandler</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskhandler-pause">Pause</a>
-</td>
-<td align="left" width="63%">
-Called to pause the COM handler.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskhandler-resume">Resume</a>
-</td>
-<td align="left" width="63%">
-Called to restart the COM handler.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskhandler-start">Start</a>
-</td>
-<td align="left" width="63%">
-Required. Called to start the COM handler.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskhandler-stop">Stop</a>
-</td>
-<td align="left" width="63%">
-Required. Called to stop the COM handler.
-
-</td>
-</tr>
-</table>
+The <b>ITaskHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITaskHandler</b> also has these types of members:
 
 ## -see-also
 

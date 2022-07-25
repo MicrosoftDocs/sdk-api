@@ -125,7 +125,7 @@ This method returns one of the following values or a standard COM error code:
 
 ## -remarks
 
-This method retrieves both property access rights and valid property values. Access rights report whether the property is readable, writeable, or both. Valid property values are specified as a range of values, a list of values, or a group of flag values. For more information, see <a href="/windows/desktop/wia/-wia-property-attributes">Property Attributes</a>.
+This method retrieves both property access rights and valid property values. Access rights report whether the property is readable, writable, or both. Valid property values are specified as a range of values, a list of values, or a group of flag values. For more information, see <a href="/windows/desktop/wia/-wia-property-attributes">Property Attributes</a>.
 
 If the property access rights flag has the <b>WIA_PROP_NONE</b> bit set, no legal value information is available for this property. Read only properties and properties with a binary data type are examples of properties that would have the <b>WIA_PROP_NONE</b> bit set.
 

@@ -54,29 +54,7 @@ Exposes a method that encapsulates a change to a single property.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyChange</b> interface inherits from <a href="/windows/desktop/api/propsys/nn-propsys-iobjectwithpropertykey">IObjectWithPropertyKey</a>. <b>IPropertyChange</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPropertyChange</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipropertychange-applytopropvariant">ApplyToPropVariant</a>
-</td>
-<td align="left" width="63%">
-Applies a change to a property value.
-
-</td>
-</tr>
-</table>
+The <b>IPropertyChange</b> interface inherits from <a href="/windows/desktop/api/propsys/nn-propsys-iobjectwithpropertykey">IObjectWithPropertyKey</a>. <b>IPropertyChange</b> also has these types of members:
 
 ## -see-also
 

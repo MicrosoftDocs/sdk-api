@@ -54,35 +54,5 @@ Provides a write-only object model for bundle packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleWriter3</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleWriter3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppxBundleWriter3</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleWriter3</b> also has these types of members:
 
-## -members
-
-The <b>IAppxBundleWriter3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlewriter3-addpackagereference">AddPackageReference</a>
-</td>
-<td align="left" width="63%">
-Adds a reference to an optional app package or a payload file within an app bundle.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlewriter3-close">Close</a>
-</td>
-<td align="left" width="63%">
-Finalizes the bundle package by writing footprint files at the end of the package, and closes the writer’s output stream.
-
-</td>
-</tr>
-</table>

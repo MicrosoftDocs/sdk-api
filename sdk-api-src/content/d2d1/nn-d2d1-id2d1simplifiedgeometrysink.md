@@ -54,83 +54,10 @@ Describes a geometric path that does not contain quadratic bezier curves or arcs
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SimplifiedGeometrySink</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1SimplifiedGeometrySink</b> also has these types of members:
+The <b>ID2D1SimplifiedGeometrySink</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1SimplifiedGeometrySink</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ID2D1SimplifiedGeometrySink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-addbeziers">AddBeziers</a>
-</td>
-<td align="left" width="63%">
-Creates a sequence of cubic Bezier curves and adds them to the geometry sink.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-addlines">AddLines</a>
-</td>
-<td align="left" width="63%">
-Creates a sequence of lines using the specified points and adds them to the geometry sink.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-beginfigure">BeginFigure</a>
-</td>
-<td align="left" width="63%">
-Starts a new figure at the specified point.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-close">Close</a>
-</td>
-<td align="left" width="63%">
-Closes the geometry sink, indicates whether it is in an error state, and resets the sink's error state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-endfigure">EndFigure</a>
-</td>
-<td align="left" width="63%">
-Ends the current figure; optionally, closes it.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-setfillmode">SetFillMode</a>
-</td>
-<td align="left" width="63%">
-Specifies the method used to determine which points are inside the geometry described by this geometry sink  and which points are outside. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-setsegmentflags">SetSegmentFlags</a>
-</td>
-<td align="left" width="63%">
-Specifies stroke and join options to be applied to new segments added to the geometry sink.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

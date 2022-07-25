@@ -54,56 +54,7 @@ Extends the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamesp
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INameSpaceTreeControl2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol">INameSpaceTreeControl</a>. <b>INameSpaceTreeControl2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>INameSpaceTreeControl2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrol2-getcontrolstyle">GetControlStyle</a>
-</td>
-<td align="left" width="63%">
-Gets the display styles set for the namespace object's treeview controls.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrol2-getcontrolstyle2">GetControlStyle2</a>
-</td>
-<td align="left" width="63%">
-Gets the extended display styles set for the namespace object's treeview controls.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrol2-setcontrolstyle">SetControlStyle</a>
-</td>
-<td align="left" width="63%">
-Sets the display styles for the namespace object's treeview controls.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrol2-setcontrolstyle2">SetControlStyle2</a>
-</td>
-<td align="left" width="63%">
-Sets the extended display styles for the namespace object's treeview controls.
-
-</td>
-</tr>
-</table>
+The <b>INameSpaceTreeControl2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol">INameSpaceTreeControl</a>. <b>INameSpaceTreeControl2</b> also has these types of members:
 
 ## -remarks
 

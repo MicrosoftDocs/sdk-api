@@ -54,29 +54,7 @@ Notifies the subscriber if a constructed object is created. The events are publi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComObjectConstruction2Events</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComObjectConstruction2Events</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IComObjectConstruction2Events</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectconstruction2events-onobjectconstruct2">OnObjectConstruct2</a>
-</td>
-<td align="left" width="63%">
-Generated when a constructed object is created.
-
-</td>
-</tr>
-</table>
+The <b>IComObjectConstruction2Events</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComObjectConstruction2Events</b> also has these types of members:
 
 ## -see-also
 

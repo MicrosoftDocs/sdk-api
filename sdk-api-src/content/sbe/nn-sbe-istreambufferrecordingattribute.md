@@ -56,65 +56,10 @@ This interface is exposed by the <a href="/previous-versions/windows/desktop/mst
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferRecordingAttribute</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamBufferRecordingAttribute</b> also has these types of members:
+The <b>IStreamBufferRecordingAttribute</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamBufferRecordingAttribute</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IStreamBufferRecordingAttribute</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordingattribute-enumattributes">EnumAttributes</a>
-</td>
-<td align="left" width="63%">
-Enumerates the existing attributes of the stream buffer file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/dd377126(v=vs.85)">GetAttributeByIndex</a>
-</td>
-<td align="left" width="63%">
-Retrieves an attribute, specified by index number.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordingattribute-getattributebyname">GetAttributeByName</a>
-</td>
-<td align="left" width="63%">
-Retrieves an attribute, specified by name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordingattribute-getattributecount">GetAttributeCount</a>
-</td>
-<td align="left" width="63%">
-Returns the number of attributes that are currently defined for this stream buffer file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordingattribute-setattribute">SetAttribute</a>
-</td>
-<td align="left" width="63%">
-Sets an attribute on the stream buffer file.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

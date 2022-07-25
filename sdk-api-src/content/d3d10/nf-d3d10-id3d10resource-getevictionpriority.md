@@ -53,7 +53,7 @@ api_name:
 
 Get the eviction priority of a resource.
 
-## -parameters
+
 
 ## -returns
 

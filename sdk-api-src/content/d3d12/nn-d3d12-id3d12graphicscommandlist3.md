@@ -54,29 +54,7 @@ Encapsulates a list of graphics commands for rendering.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12GraphicsCommandList3</b> interface inherits from <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist2">ID3D12GraphicsCommandList2</a>. <b>ID3D12GraphicsCommandList3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D12GraphicsCommandList3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist3-setprotectedresourcesession">SetProtectedResourceSession</a>
-</td>
-<td align="left" width="63%">
-Specifies whether or not protected resources can be accessed by subsequent commands in the command list. By default, no protected resources are enabled. After calling <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist3-setprotectedresourcesession">SetProtectedResourceSession</a> with a valid session, protected resources of the same type can refer to that session. After calling <b>SetProtectedResourceSession</b> with <b>NULL</b>, no protected resources can be accessed.
-
-</td>
-</tr>
-</table>
+The <b>ID3D12GraphicsCommandList3</b> interface inherits from <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist2">ID3D12GraphicsCommandList2</a>. <b>ID3D12GraphicsCommandList3</b> also has these types of members:
 
 ## -see-also
 

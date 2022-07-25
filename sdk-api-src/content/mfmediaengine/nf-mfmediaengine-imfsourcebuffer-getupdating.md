@@ -52,7 +52,7 @@ api_name:
 
 Gets a value that indicates  if <a href="/windows/desktop/medfound/imfsourcebuffer-append">Append</a>, <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffer-appendbytestream">AppendByteStream</a>, or <a href="/windows/desktop/medfound/imfsourcebuffer-remove">Remove</a> is in process.
 
-## -parameters
+
 
 ## -returns
 

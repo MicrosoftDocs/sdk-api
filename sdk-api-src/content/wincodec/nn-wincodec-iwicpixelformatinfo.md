@@ -55,65 +55,7 @@ Exposes methods that provide information about a pixel format.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICPixelFormatInfo</b> interface inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwiccomponentinfo">IWICComponentInfo</a>. <b>IWICPixelFormatInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWICPixelFormatInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpixelformatinfo-getbitsperpixel">GetBitsPerPixel</a>
-</td>
-<td align="left" width="63%">
-Gets the BPP of the pixel format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpixelformatinfo-getchannelcount">GetChannelCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of channels the pixel format contains.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpixelformatinfo-getchannelmask">GetChannelMask</a>
-</td>
-<td align="left" width="63%">
-Gets the pixel format's channel mask.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpixelformatinfo-getcolorcontext">GetColorContext</a>
-</td>
-<td align="left" width="63%">
-Gets the pixel format's <a href="/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpixelformatinfo-getformatguid">GetFormatGUID</a>
-</td>
-<td align="left" width="63%">
-Gets the pixel format GUID.
-
-</td>
-</tr>
-</table>
+The <b>IWICPixelFormatInfo</b> interface inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwiccomponentinfo">IWICComponentInfo</a>. <b>IWICPixelFormatInfo</b> also has these types of members:
 
 ## -see-also
 

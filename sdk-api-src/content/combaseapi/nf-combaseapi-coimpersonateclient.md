@@ -57,7 +57,7 @@ api_name:
 
 Enables the server to impersonate the client of the current call for the duration of the call.
 
-## -parameters
+
 
 ## -returns
 
@@ -67,10 +67,14 @@ This function supports the standard return values, including S_OK.
 
 This method allows the server to impersonate the client of the current call for the duration of the call. If you do not call CoRevertToSelf, COM reverts automatically for you. This function will fail unless the object is being called with RPC_C_AUTHN_LEVEL_CONNECT or higher authentication in effect (which is any authentication level except RPC_C_AUTHN_LEVEL_NONE). This function encapsulates the following sequence of common calls (error handling excluded):
 
-<pre class="syntax" xml:space="preserve"><code>    CoGetCallContext(IID_IServerSecurity, (void**)&amp;pss);
+
+``` syntax
+    CoGetCallContext(IID_IServerSecurity, (void**)&amp;pss);
     pss-&gt;ImpersonateClient();
     pss-&gt;Release();
-</code></pre>
+
+```
+
 <b>CoImpersonateClient</b> encapsulates the process of getting a pointer to an instance of <a href="/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a> that contains data about the current call, calling its <a href="/windows/desktop/api/objidl/nf-objidl-iserversecurity-impersonateclient">ImpersonateClient</a> method, and then releasing the pointer. One call to <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coreverttoself">CoRevertToSelf</a> (or <a href="/windows/desktop/api/objidl/nf-objidl-iserversecurity-reverttoself">IServerSecurity::RevertToSelf</a>) will undo any number of  calls to impersonate the client.
 
 ## -see-also

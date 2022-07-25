@@ -56,40 +56,10 @@ An input media properties object is created by a call to either the <a href="/wi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMInputMediaProps</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a>. <b>IWMInputMediaProps</b> also has these types of members:
+The <b>IWMInputMediaProps</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a>. <b>IWMInputMediaProps</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMInputMediaProps</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwminputmediaprops-getconnectionname">GetConnectionName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the connection name specified in the profile.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwminputmediaprops-getgroupname">GetGroupName</a>
-</td>
-<td align="left" width="63%">
-Not implemented in this release. Returns an empty string.
-
-</td>
-</tr>
-</table> 
-
-For information on which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="/windows/desktop/wmformat/input-media-properties-object">Input Media Properties Object</a>.
 
 ## -see-also
 

@@ -72,8 +72,12 @@ A pointer to an <a href="/windows/win32/api/commctrl/ns-commctrl-hdlayout">HDLAY
 
 The <b>Header_Layout</b> macro is defined as follows: 
 
-<pre class="syntax" xml:space="preserve"><code>#define Header_Layout(hwndHD, playout) \
+
+``` syntax
+#define Header_Layout(hwndHD, playout) \
 
     (BOOL)SendMessage((hwndHD), HDM_LAYOUT, 0, \
 
-    (LPARAM)(LPHDLAYOUT)(playout))</code></pre>
+    (LPARAM)(LPHDLAYOUT)(playout))
+```
+

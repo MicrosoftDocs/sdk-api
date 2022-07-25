@@ -141,7 +141,7 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 ## -remarks
 
-You need to point the <b>lpszText</b>  array to your own private buffer when the text used in the tooltip exceeds 80 <b>TCHAR</b><b>s</b> in length. The system automatically strips the ampersand (&amp;) accelerator <b>TCHAR</b><b>s</b> from all strings passed to a tooltip control, unless the control has the <a href="/windows/desktop/Controls/tooltip-styles">TTS_NOPREFIX</a> style.
+You need to point the <b>lpszText</b> array to your own private buffer when the text used in the tooltip exceeds 80 <b>TCHAR</b>s in length. The system automatically strips the ampersand (&amp;) accelerator <b>TCHAR</b><b>s</b> from all strings passed to a tooltip control, unless the control has the <a href="/windows/desktop/Controls/tooltip-styles">TTS_NOPREFIX</a> style.
 
 
 

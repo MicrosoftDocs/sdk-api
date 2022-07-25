@@ -54,26 +54,7 @@ Not supported.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IThumbnailCachePrimer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IThumbnailCachePrimer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IThumbnailCachePrimer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailcacheprimer-pageinthumbnail">PageInThumbnail</a>
-</td>
-<td align="left" width="63%"></td>
-</tr>
-</table>
+The <b>IThumbnailCachePrimer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IThumbnailCachePrimer</b> also has these types of members:
 
 ## -see-also
 

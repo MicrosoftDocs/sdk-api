@@ -122,7 +122,7 @@ When <b>CollectionMode</b> is set to <a href="/windows/desktop/api/msinkaut/ne-m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
+<a href="../msinkaut/nn-msinkaut-iinkcollector.md">IInkCollector</a>
 
 
 

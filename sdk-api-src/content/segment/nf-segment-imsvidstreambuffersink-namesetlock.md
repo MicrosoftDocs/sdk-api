@@ -52,7 +52,7 @@ api_name:
 
 The <b>NameSetLock</b> method locks the stream buffer profile.
 
-## -parameters
+
 
 ## -returns
 

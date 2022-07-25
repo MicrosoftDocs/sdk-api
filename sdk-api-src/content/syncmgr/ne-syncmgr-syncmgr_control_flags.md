@@ -54,22 +54,22 @@ Specifies how an operation requested on certain methods of <a href="/windows/des
 
 ## -enum-fields
 
-### -field SYNCMGR_CF_NONE
+### -field SYNCMGR_CF_NONE:0
 
 Perform the operation not using any of the other flags in this enumeration.
 
-### -field SYNCMGR_CF_NOWAIT
+### -field SYNCMGR_CF_NOWAIT:0
 
 Perform the operation asynchronously.
 
-### -field SYNCMGR_CF_WAIT
+### -field SYNCMGR_CF_WAIT:0x1
 
 Perform the operation synchronously.
 
-### -field SYNCMGR_CF_NOUI
+### -field SYNCMGR_CF_NOUI:0x2
 
 Perform the operation without asking the sync handler to display the UI during the operation.
 
-### -field SYNCMGR_CF_VALID
+### -field SYNCMGR_CF_VALID:0x3
 
 A mask used to determine valid <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_control_flags">SYNCMGR_CONTROL_FLAGS</a> flags.

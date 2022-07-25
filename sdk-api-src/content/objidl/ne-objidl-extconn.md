@@ -56,15 +56,15 @@ Specifies the type of external connection existing on an embedded object.
 
 ## -enum-fields
 
-### -field EXTCONN_STRONG
+### -field EXTCONN_STRONG:0x1
 
 The external connection is a link. If this value is specified, the external connection must keep the object alive until all strong external connections are cleared through <a href="/windows/desktop/api/objidl/nf-objidl-iexternalconnection-releaseconnection">IExternalConnection::ReleaseConnection</a>.
 
-### -field EXTCONN_WEAK
+### -field EXTCONN_WEAK:0x2
 
 This value is not used.
 
-### -field EXTCONN_CALLABLE
+### -field EXTCONN_CALLABLE:0x4
 
 This value is not used.
 

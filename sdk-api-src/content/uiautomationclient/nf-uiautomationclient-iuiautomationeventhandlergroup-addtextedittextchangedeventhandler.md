@@ -55,11 +55,11 @@ Registers a method that handles programmatic text-edit events.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 The specific change type to listen for. Clients register for each text-edit change type separately, so that the UI Automation system can check for registered listeners at run-time and avoid raising events for particular text-edit changes when there are no listeners.
 
@@ -73,7 +73,7 @@ A pointer to the object that handles the programmatic text-edit event.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

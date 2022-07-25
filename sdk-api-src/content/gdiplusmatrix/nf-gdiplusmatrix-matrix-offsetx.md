@@ -53,7 +53,7 @@ api_name:
 
 The <b>Matrix::OffsetX</b> method gets the horizontal translation value of this matrix, which is the element in row 3, column 1.
 
-## -parameters
+
 
 ## -returns
 

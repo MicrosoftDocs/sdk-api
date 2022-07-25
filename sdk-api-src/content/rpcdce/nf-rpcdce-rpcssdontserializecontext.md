@@ -53,7 +53,7 @@ api_name:
 The 
 <b>RpcSsDontSerializeContext</b> function disables run-time serialization of multiple calls dispatched to server-manager routines on the same context handle. Use of this function is not recommended. Developers should use mixed mode–content handle serialization instead. The See Also section provides links to more appropriate functions.
 
-## -parameters
+
 
 ## -remarks
 

@@ -49,6 +49,8 @@ api_name:
 
 Describes a <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">3D texture</a>.
 
+## -struct-fields
+
 ## -remarks
 
 `format`

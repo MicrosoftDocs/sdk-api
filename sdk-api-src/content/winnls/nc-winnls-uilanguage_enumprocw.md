@@ -54,9 +54,9 @@ An application-defined callback function that processes enumerated user interfac
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
-### -param Arg2
+### -param unnamedParam2
 
 #### - lParam [in]
 

@@ -55,65 +55,7 @@ Represents a description of a media format.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaType</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFMediaType</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFMediaType</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-freerepresentation">FreeRepresentation</a>
-</td>
-<td align="left" width="63%">
-Frees memory that was allocated by the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation">GetRepresentation</a> method.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getmajortype">GetMajorType</a>
-</td>
-<td align="left" width="63%">
-Retrieves the major type of the format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation">GetRepresentation</a>
-</td>
-<td align="left" width="63%">
-Retrieves an alternative representation of the media type.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-iscompressedformat">IsCompressedFormat</a>
-</td>
-<td align="left" width="63%">
-Queries whether the media type is a compressed format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-isequal">IsEqual</a>
-</td>
-<td align="left" width="63%">
-Compares two media types and determines whether they are identical.
-
-</td>
-</tr>
-</table>
+The <b>IMFMediaType</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFMediaType</b> also has these types of members:
 
 ## -remarks
 

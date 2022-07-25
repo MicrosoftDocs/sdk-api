@@ -72,7 +72,7 @@ Using the <b>IPSM_AutoSize</b> value causes the control to resize to always fit 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="../msinkaut/nn-msinkaut-iinkpicture.md">IInkPicture</a>
 
 
 

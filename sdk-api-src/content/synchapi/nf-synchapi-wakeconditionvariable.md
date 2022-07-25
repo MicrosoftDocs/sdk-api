@@ -4,7 +4,7 @@ title: WakeConditionVariable function (synchapi.h)
 description: Wake a single thread waiting on the specified condition variable.
 helpviewer_keywords: ["WakeConditionVariable","WakeConditionVariable function","base.wakeconditionvariable","synchapi/WakeConditionVariable","winbase/WakeConditionVariable"]
 old-location: base\wakeconditionvariable.htm
-tech.root: backup
+tech.root: base
 ms.assetid: e175062a-ef25-4341-8197-df7ca6b008e6
 ms.date: 12/05/2018
 ms.keywords: WakeConditionVariable, WakeConditionVariable function, base.wakeconditionvariable, synchapi/WakeConditionVariable, winbase/WakeConditionVariable

@@ -54,13 +54,13 @@ The IPSEC_KEY_MANAGER_NOTIFY_KEY0 function is used to notify Trusted Intermediar
 
 ## -parameters
 
-### -param *inboundSa [in]
+### -param inboundSa [in]
 
 Type: <b>const <a href="/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1_">IPSEC_SA_DETAILS1</a>*</b>
 
 Information about the inbound SA.
 
-### -param *outboundSa [in]
+### -param outboundSa [in]
 
 Type: <b>const <a href="/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1_">IPSEC_SA_DETAILS1</a>*</b>
 

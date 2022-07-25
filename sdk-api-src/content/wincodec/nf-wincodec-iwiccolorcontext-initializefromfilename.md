@@ -64,7 +64,7 @@ The name of the file.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -72,8 +72,5 @@ Once a color context has been initialized, it can't be re-initialized.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/wcs/getcolordirectory">GetColorDirectory</a>
-
-
-
-<a href="/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a>
+* [GetColorDirectoryW](/windows/win32/api/icm/nf-icm-getcolordirectoryw)
+* [IWICColorContext](/windows/win32/api/wincodec/nn-wincodec-iwiccolorcontext)

@@ -56,53 +56,5 @@ The methods in this interface are called by the RemoteApp and Desktop Connection
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ItsPubPlugin2</b> interface inherits from <a href="/windows/desktop/api/tspubplugincom/nn-tspubplugincom-itspubplugin">ItsPubPlugin</a>. <b>ItsPubPlugin2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ItsPubPlugin2</b> interface inherits from <a href="/windows/desktop/api/tspubplugincom/nn-tspubplugincom-itspubplugin">ItsPubPlugin</a>. <b>ItsPubPlugin2</b> also has these types of members:
 
-## -members
-
-The <b>ItsPubPlugin2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-deletepersonaldesktopassignment">DeletePersonalDesktopAssignment</a>
-</td>
-<td align="left" width="63%">
-Called to delete a mapping between the specified user and a virtual machine in a personal virtual desktop collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-getresource2">GetResource2</a>
-</td>
-<td align="left" width="63%">
-This method is reserved and should always return <b>E_NOTIMPL</b>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-getresource2list">GetResource2List</a>
-</td>
-<td align="left" width="63%">
-Retrieves a list of resources assigned to the specified user.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-resolvepersonaldesktop">ResolvePersonalDesktop</a>
-</td>
-<td align="left" width="63%">
-Called to resolve a mapping between the specified user and a virtual machine in a personal virtual desktop collection.
-
-</td>
-</tr>
-</table>

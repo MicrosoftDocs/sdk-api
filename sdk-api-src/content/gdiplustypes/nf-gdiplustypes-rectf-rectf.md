@@ -57,7 +57,7 @@ Creates a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">Rect
 			<b>Width</b>, and 
 			<b>Height</b>  data members to zero. This is the default constructor.
 
-## -parameters
+
 
 ## -see-also
 

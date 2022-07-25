@@ -1,15 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_LOCK_VOLUME
 title: FSCTL_LOCK_VOLUME
-author: windows-sdk-content
 description: Locks a volume if it is not in use.
 old-location: fs\fsctl_lock_volume.htm
 tech.root: FileIO
 ms.assetid: b59b5c5e-6719-47a8-8810-14b60204e5ed
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_LOCK_VOLUME, FSCTL_LOCK_VOLUME control, FSCTL_LOCK_VOLUME control code [Files], _win32_fsctl_lock_volume, base.fsctl_lock_volume, fs.fsctl_lock_volume, winioctl/FSCTL_LOCK_VOLUME
-ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -27,7 +24,6 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -54,48 +50,18 @@ Locks a volume if it is not in use. A locked volume can be accessed only through
 
 To perform this operation, call the 
 <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL DeviceIoControl(
-  (HANDLE) hDevice,            // handle to a volume
-  (DWORD) FSCTL_LOCK_VOLUME,   // dwIoControlCodeNULL,                        // lpInBuffer0,                           // nInBufferSizeNULL,                        // lpOutBuffer0,                           // nOutBufferSize(LPDWORD) lpBytesReturned,   // number of bytes returned
-  (LPOVERLAPPED) lpOverlapped  // OVERLAPPED structure
-);</pre>
-</td>
-</tr>
-</table></span></div>
-
-## -ioctlparameters
-
-### -input-buffer
-
-<text></text>
-
-### -input-buffer-length
-
-<text></text>
-
-### -output-buffer
-
-<text></text>
-
-### -output-buffer-length
-
-<text></text>
-
-### -in-out-buffer
-
-<text></text>
-
-### -inout-buffer-length
-
-<text></text>
-
-### -status-block
+```cpp
+BOOL DeviceIoControl(
+  (HANDLE) hVolume,            // handle to a volume
+  (DWORD) FSCTL_LOCK_VOLUME,   // dwIoControlCode
+  NULL,                        // lpInBuffer
+  0,                           // nInBufferSize
+  NULL,                        // lpOutBuffer
+  0,                           // nOutBufferSize
+  (LPDWORD) lpBytesReturned,   // number of bytes returned
+  NULL                         // OVERLAPPED structure
+);
+```
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
@@ -108,10 +74,9 @@ For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/nts
 The <i>hDevice</i> handle passed to <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> must be a handle to a volume, opened for direct access. To retrieve this handle, call 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the <i>lpFileName</i> parameter set to a string of the following form: 
 
-\\.&#92;<i>X</i>:
+\\.\\X:
 
-where <i>X</i> is a hard-drive partition letter, floppy disk drive, or CD-ROM drive. The application must also specify the <b>FILE_SHARE_READ</b> and <b>FILE_SHARE_WRITE</b> flags in the <i>dwShareMode</i> parameter of 
-<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
+where *X* is a hard-drive partition letter, floppy disk drive, or CD-ROM drive. The application must also specify the <b>FILE_SHARE_READ</b> and <b>FILE_SHARE_WRITE</b> flags in the <i>dwShareMode</i> parameter of <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
 
 If the specified volume is a system volume or contains a page file, the operation fails.
 

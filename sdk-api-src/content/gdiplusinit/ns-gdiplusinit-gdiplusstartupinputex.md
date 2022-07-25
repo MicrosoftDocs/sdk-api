@@ -2,9 +2,8 @@
 UID: NS:gdiplusinit.GdiplusStartupInputEx
 title: GdiplusStartupInputEx
 ms.date: 05/07/2020
-ms.topic: language-reference
 targetos: Windows
-description: The **GdiplusStartupInputEx** structure holds a block of arguments that are required by the [GdiplusStartup](./nf-gdiplusinit-gdiplusstartup.md) function.
+description: The **GdiplusStartupInputEx** structure holds a block of arguments that are required by the [GdiplusStartup](../gdiplusinit/nf-gdiplusinit-gdiplusstartup.md) function.
 tech.root: gdiplus
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,8 +14,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -38,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The **GdiplusStartupInputEx** structure holds a block of arguments that are required by the [GdiplusStartup](./nf-gdiplusinit-gdiplusstartup.md) function. **GdiplusStartupInputEx** derives from [**GdiplusStartupInput**](./nf-gdiplusinit-gdiplusstartupinput-gdiplusstartupinput.md).
+The **GdiplusStartupInputEx** structure holds a block of arguments that are required by the [GdiplusStartup](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup) function. **GdiplusStartupInputEx** derives from [**GdiplusStartupInput**](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartupinput-gdiplusstartupinput).
 
 ## -struct-fields
 

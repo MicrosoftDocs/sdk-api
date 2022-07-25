@@ -11,8 +11,8 @@ ms.keywords: XMUINT3, XMUINT3 constructor [DirectX Math Support APIs], XMUINT3 c
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -57,7 +57,7 @@ A constructor for <a href="/windows/desktop/api/directxmath/ns-directxmath-xmuin
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A value.
 

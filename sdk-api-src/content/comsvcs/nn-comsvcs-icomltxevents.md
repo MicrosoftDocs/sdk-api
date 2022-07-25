@@ -54,65 +54,7 @@ Notifies the subscriber of events that relate to COM+ transactions. The events a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComLTxEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComLTxEvents</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IComLTxEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomltxevents-onltxtransactionabort">OnLtxTransactionAbort</a>
-</td>
-<td align="left" width="63%">
-Generated when a transaction is aborted.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomltxevents-onltxtransactioncommit">OnLtxTransactionCommit</a>
-</td>
-<td align="left" width="63%">
-Generated when a transaction is committed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomltxevents-onltxtransactionprepare">OnLtxTransactionPrepare</a>
-</td>
-<td align="left" width="63%">
-Generated when COM+ receives a prepare notification for a transaction.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomltxevents-onltxtransactionpromote">OnLtxTransactionPromote</a>
-</td>
-<td align="left" width="63%">
-Generated when a transaction is promoted.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomltxevents-onltxtransactionstart">OnLtxTransactionStart</a>
-</td>
-<td align="left" width="63%">
-Generated when a transaction is started.
-
-</td>
-</tr>
-</table>
+The <b>IComLTxEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComLTxEvents</b> also has these types of members:
 
 ## -see-also
 

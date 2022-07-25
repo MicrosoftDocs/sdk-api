@@ -2,7 +2,6 @@
 UID: NS:d3d12video.D3D12_VIDEO_MOTION_ESTIMATOR_DESC
 title: D3D12_VIDEO_MOTION_ESTIMATOR_DESC
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Describes a ID3D12VideoMotionEstimator. Pass this structure into ID3D12VideoDevice1::CreateVideoMotionEstimator to create an instance of ID3D12VideoMotionEstimator.
 tech.root: mf

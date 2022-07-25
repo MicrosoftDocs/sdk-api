@@ -55,83 +55,10 @@ The <b>IVMRDeinterlaceControl9</b> interface supports hardware-accelerated deint
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRDeinterlaceControl9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRDeinterlaceControl9</b> also has these types of members:
+The <b>IVMRDeinterlaceControl9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRDeinterlaceControl9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IVMRDeinterlaceControl9</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getactualdeinterlacemode">GetActualDeinterlaceMode</a>
-</td>
-<td align="left" width="63%">
-Returns the deinterlacing mode that the VMR is using for a specified stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getdeinterlacemode">GetDeinterlaceMode</a>
-</td>
-<td align="left" width="63%">
-Retrieves the deinterlacing mode for the specified video stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getdeinterlacemodecaps">GetDeinterlaceModeCaps</a>
-</td>
-<td align="left" width="63%">
-Retrieves the capabilities of a specific deinterlacing mode supported by the graphics device driver.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getdeinterlaceprefs">GetDeinterlacePrefs</a>
-</td>
-<td align="left" width="63%">
-Queries how the VMR will select a deinterlacing mode if it cannot use the preferred mode.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getnumberofdeinterlacemodes">GetNumberOfDeinterlaceModes</a>
-</td>
-<td align="left" width="63%">
-Retrieves the deinterlacing modes available to the VMR for the specified video format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrdeinterlacecontrol9-setdeinterlacemode">SetDeinterlaceMode</a>
-</td>
-<td align="left" width="63%">
-Sets the deinterlacing mode for the specified video stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrdeinterlacecontrol9-setdeinterlaceprefs">SetDeinterlacePrefs</a>
-</td>
-<td align="left" width="63%">
-Specifies how the VMR will select a deinterlacing mode if it cannot use the preferred mode.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

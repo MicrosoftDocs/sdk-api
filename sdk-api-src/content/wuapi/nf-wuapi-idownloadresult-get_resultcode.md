@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets an <a href="/windows/desktop/api/wuapi/ne-wuapi-operationresultcode">OperationResultCode</a>enumeration that specifies the result of the download.
+Gets an <a href="/windows/desktop/api/wuapi/ne-wuapi-operationresultcode">OperationResultCode</a> enumeration that specifies the result of the download.
 
 This property is read-only.
 

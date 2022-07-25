@@ -1,15 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_ENUM_USN_DATA
 title: FSCTL_ENUM_USN_DATA
-author: windows-sdk-content
 description: Enumerates the update sequence number (USN) data between two specified boundaries to obtain master file table (MFT) records.
 old-location: fs\fsctl_enum_usn_data.htm
 tech.root: FileIO
 ms.assetid: 44d20401-a2ed-4756-9fda-878a24eab7c3
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_ENUM_USN_DATA, FSCTL_ENUM_USN_DATA control, FSCTL_ENUM_USN_DATA control code [Files], _win32_fsctl_enum_usn_data, base.fsctl_enum_usn_data, fs.fsctl_enum_usn_data, winioctl/FSCTL_ENUM_USN_DATA
-ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -27,7 +24,6 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -56,7 +52,7 @@ Enumerates  the update sequence number (USN) data between two specified boundari
 To perform this operation, call the 
     <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following 
     parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -79,27 +75,21 @@ DeviceIoControl( (HANDLE) hDevice,              // handle to volume
 
 ### -input-buffer
 
-<text></text>
 
 ### -input-buffer-length
 
-<text></text>
 
 ### -output-buffer
 
-<text></text>
 
 ### -output-buffer-length
 
-<text></text>
 
 ### -in-out-buffer
 
-<text></text>
 
 ### -inout-buffer-length
 
-<text></text>
 
 ### -status-block
 

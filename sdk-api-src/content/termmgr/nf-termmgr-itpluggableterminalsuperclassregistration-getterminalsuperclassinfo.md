@@ -53,7 +53,7 @@ api_name:
 The 
 <b>GetTerminalSuperclassInfo</b> method gets class information from the registry for the current terminal superclass.
 
-## -parameters
+
 
 ## -returns
 

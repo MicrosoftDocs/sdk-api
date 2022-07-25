@@ -54,29 +54,7 @@ Describes how a managed object is used in the COM+ object pool.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IManagedPooledObj</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IManagedPooledObj</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IManagedPooledObj</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-imanagedpooledobj-setheld">SetHeld</a>
-</td>
-<td align="left" width="63%">
-Sets whether the managed object should go back into the COM+ object pool.
-
-</td>
-</tr>
-</table>
+The <b>IManagedPooledObj</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IManagedPooledObj</b> also has these types of members:
 
 ## -see-also
 

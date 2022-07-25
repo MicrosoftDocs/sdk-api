@@ -58,4 +58,3 @@ Specifies that no transform is to be applied.
 ### -field DML_MATRIX_TRANSFORM_TRANSPOSE
 
 Specifies that a transpose transform is to be applied.
-

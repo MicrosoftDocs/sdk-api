@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetGuid
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetGuid (windows.foundation.h)
 description: Gets the GUID value that is stored in the current IPropertyValue object.
 helpviewer_keywords: ["GetGuid","GetGuid method [Windows Runtime]","GetGuid method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetGuid method","IPropertyValue.GetGuid","IPropertyValue.IPropertyValue","IPropertyValue::GetGuid","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetGuid","winrt.ipropertyvalue_getguid"]
 old-location: winrt\ipropertyvalue_getguid.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValue.GetGuid
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetGuid (windows.foundation.h)
 
 
 ## -description
@@ -64,7 +64,7 @@ The value.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -54,38 +54,10 @@ The <b>IMSVidFilePlayback</b> interface enables the client to specify a local fi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidFilePlayback</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidplayback">IMSVidPlayback</a>. <b>IMSVidFilePlayback</b> also has these types of members:
+The <b>IMSVidFilePlayback</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidplayback">IMSVidPlayback</a>. <b>IMSVidFilePlayback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMSVidFilePlayback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidfileplayback-get_filename">get_FileName</a>
-</td>
-<td align="left" width="63%">
-Sets the name of the file to play.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidfileplayback-put_filename">put_FileName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the name of the file to play.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

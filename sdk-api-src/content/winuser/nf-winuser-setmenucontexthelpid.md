@@ -54,13 +54,13 @@ Associates a Help context identifier with a menu.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Type: <b>HMENU</b>
 
 A handle to the menu with which to associate the Help context identifier.
 
-### -param arg2
+### -param unnamedParam2
 
 Type: <b>DWORD</b>
 

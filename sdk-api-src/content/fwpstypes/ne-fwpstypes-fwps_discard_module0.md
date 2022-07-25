@@ -58,7 +58,7 @@ The <b>FWPS_DISCARD_MODULE0</b> enumeration type specifies the type of module th
 
 ## -enum-fields
 
-### -field FWPS_DISCARD_MODULE_NETWORK
+### -field FWPS_DISCARD_MODULE_NETWORK:0
 
 The data was discarded by the network layer.
 

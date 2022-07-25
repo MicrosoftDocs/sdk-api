@@ -60,31 +60,101 @@ The <b>QueryDisplayConfig</b> function retrieves information about all possible 
 
 ### -param flags [in]
 
-The type of information to retrieve. The value for the <i>Flags</i> parameter must be one of the following values.
+The type of information to retrieve. The value for the <i>Flags</i> parameter must use one of the following values.
 
 
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="QDC_ALL_PATHS"></a><a id="qdc_all_paths"></a><dl>
+<dt><b>QDC_ALL_PATHS</b></dt>
+<dt>0x00000001</dt>
+</dl>
+</td>
+<td width="60%">
+Returns all the possible path combinations of sources to targets.
 
+> [!NOTE]
+> In the case of any temporary modes, the QDC_ALL_PATHS setting means the mode data returned may not be the same as that which is stored in the persistence database.
 
+> [!NOTE]
+> This flag may be very expensive to compute. It's not recommended to use this flag unless the caller is trying to determine the set of valid connections between sources and targets.
 
-#### QDC_ALL_PATHS
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="QDC_ONLY_ACTIVE_PATHS"></a><a id="qdc_only_active_paths"></a><dl>
+<dt><b>QDC_ONLY_ACTIVE_PATHS</b></dt>
+<dt>0x00000002</dt>
+</dl>
+</td>
+<td width="60%">
+Returns currently active paths only.    
 
-All the possible path combinations of sources to targets.   
+> [!NOTE]
+> In the case of any temporary modes, the QDC_ONLY_ACTIVE_PATHS setting means the mode data returned may not be the same as that which is stored in the persistence database.
 
-<div class="alert"><b>Note</b>  In the case of any temporary modes, the QDC_ALL_PATHS setting means the mode data returned may not be the same as that which is stored in the persistence database.</div>
-<div> </div>
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="QDC_DATABASE_CURRENT"></a><a id="qdc_database_current"></a><dl>
+<dt><b>QDC_DATABASE_CURRENT</b></dt>
+<dt>0x00000004</dt>
+</dl>
+</td>
+<td width="60%">
+Returns active paths as defined in the CCD database for the currently connected displays.
+</td>
+</tr>
+</table>
 
+The _Flags_ parameter may also be bitwise OR'ed with zero or more of the following values.
 
-#### QDC_ONLY_ACTIVE_PATHS
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="QDC_VIRTUAL_MODE_AWARE"></a><a id="qdc_virtual_mode_aware"></a><dl>
+<dt><b>QDC_VIRTUAL_MODE_AWARE</b></dt>
+<dt>0x00000010</dt>
+</dl>
+</td>
+<td width="60%">
+This flag should be bitwise OR'ed with other flags to indicate that the caller is aware of virtual mode support.
 
-Currently active paths only.    
+Supported starting in Windows 10.
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="QDC_INCLUDE_HMD"></a><a id="qdc_include_hmd"></a><dl>
+<dt><b>QDC_INCLUDE_HMD</b></dt>
+<dt>0x00000020</dt>
+</dl>
+</td>
+<td width="60%">
+This flag should be bitwise OR'ed with QDC_ONLY_ACTIVE_PATHS to indicate that the caller would like to include head-mounted displays (HMDs) in the list of active paths. See Remarks for more information.
 
-<div class="alert"><b>Note</b>  In the case of any temporary modes, the QDC_ONLY_ACTIVE_PATHS setting means the mode data returned may not be the same as that which is stored in the persistence database.</div>
-<div> </div>
+Supported starting in Windows 10 1703 Creators Update.
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="QDC_VIRTUAL_REFRESH_RATE_AWARE"></a><a id="qdc_virtual_refresh_rate_aware"></a><dl>
+<dt><b>QDC_VIRTUAL_REFRESH_RATE_AWARE</b></dt>
+<dt>0x00000040</dt>
+</dl>
+</td>
+<td width="60%">
+This flag should be bitwise OR'ed with other flags to indicate that the caller is aware of virtual refresh rate support.
 
-
-#### QDC_DATABASE_CURRENT
-
-Active path as defined in the CCD database for the currently connected displays.
+Supported starting in Windows 11.
+</td>
+</tr>
+</table>
 
 ### -param numPathArrayElements [in, out]
 
@@ -207,8 +277,103 @@ If a caller calls <b>QueryDisplayConfig</b> with the QDC_DATABASE_CURRENT flag s
 
 The DEVMODE structure that is returned by the <a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a> Win32 function (described in the Windows SDK documentation) contains information that relates to both the source and target modes. However, the <a href="/windows-hardware/drivers/display/ccd-apis">CCD APIs</a> explicitly separate the source and target mode components.
 
-<h3><a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI Virtualization</h3>
+### Head-mounted and specialized monitors
+
+__QueryDisplayConfig__ and many other Win32 display APIs have limited awareness of head-mounted and specialized monitors, since those displays do not participate in the Windows desktop environment. However, there are scenarios where it's necessary to understand the connectivity of these displays (e.g. content protection scenarios). For these limited scenarios, `(QDC_INCLUDE_HMD | QDC_ONLY_ACTIVE_PATHS)` can be used to discover the connectivity of head-mounted displays. These paths will be marked with the the DISPLAYCONFIG_TARGET_IS_HMD flag in the [DISPLAYCONFIG_PATH_TARGET_INFO.statusFlags](../wingdi/ns-wingdi-displayconfig_path_target_info) field. This support was added in the Windows 10 1703 Creators Update.
+
+### <a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI virtualization
 This API does not participate in DPI virtualization. All sizes in the DEVMODE structure are in terms of physical pixels, and are not related to the calling context.
+
+## Examples
+
+The following example enumerates active display paths with __QueryDisplayConfig__ and __GetDisplayConfigBufferSizes__ and prints out data for each path using __DisplayConfigGetDeviceInfo__.
+
+```cpp
+#include <windows.h>
+#include <vector>
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    vector<DISPLAYCONFIG_PATH_INFO> paths;
+    vector<DISPLAYCONFIG_MODE_INFO> modes;
+    UINT32 flags = QDC_ONLY_ACTIVE_PATHS | QDC_VIRTUAL_MODE_AWARE;
+    LONG result = ERROR_SUCCESS;
+
+    do
+    {
+        // Determine how many path and mode structures to allocate
+        UINT32 pathCount, modeCount;
+        result = GetDisplayConfigBufferSizes(flags, &pathCount, &modeCount);
+
+        if (result != ERROR_SUCCESS)
+        {
+            return HRESULT_FROM_WIN32(result);
+        }
+
+        // Allocate the path and mode arrays
+        paths.resize(pathCount);
+        modes.resize(modeCount);
+
+        // Get all active paths and their modes
+        result = QueryDisplayConfig(flags, &pathCount, paths.data(), &modeCount, modes.data(), nullptr);
+
+        // The function may have returned fewer paths/modes than estimated
+        paths.resize(pathCount);
+        modes.resize(modeCount);
+
+        // It's possible that between the call to GetDisplayConfigBufferSizes and QueryDisplayConfig
+        // that the display state changed, so loop on the case of ERROR_INSUFFICIENT_BUFFER.
+    } while (result == ERROR_INSUFFICIENT_BUFFER);
+
+    if (result != ERROR_SUCCESS)
+    {
+        return HRESULT_FROM_WIN32(result);
+    }
+
+    // For each active path
+    for (auto& path : paths)
+    {
+        // Find the target (monitor) friendly name
+        DISPLAYCONFIG_TARGET_DEVICE_NAME targetName = {};
+        targetName.header.adapterId = path.targetInfo.adapterId;
+        targetName.header.id = path.targetInfo.id;
+        targetName.header.type = DISPLAYCONFIG_DEVICE_INFO_GET_TARGET_NAME;
+        targetName.header.size = sizeof(targetName);
+        result = DisplayConfigGetDeviceInfo(&targetName.header);
+
+        if (result != ERROR_SUCCESS)
+        {
+            return HRESULT_FROM_WIN32(result);
+        }
+
+        // Find the adapter device name
+        DISPLAYCONFIG_ADAPTER_NAME adapterName = {};
+        adapterName.header.adapterId = path.targetInfo.adapterId;
+        adapterName.header.type = DISPLAYCONFIG_DEVICE_INFO_GET_ADAPTER_NAME;
+        adapterName.header.size = sizeof(adapterName);
+
+        result = DisplayConfigGetDeviceInfo(&adapterName.header);
+
+        if (result != ERROR_SUCCESS)
+        {
+            return HRESULT_FROM_WIN32(result);
+        }
+
+        wcout
+            << L"Monitor with name "
+            << (targetName.flags.friendlyNameFromEdid ? targetName.monitorFriendlyDeviceName : L"Unknown")
+            << L" is connected to adapter "
+            << adapterName.adapterDevicePath
+            << L" on target "
+            << path.targetInfo.id
+            << L"\n";
+    }
+}
+```
 
 ## -see-also
 

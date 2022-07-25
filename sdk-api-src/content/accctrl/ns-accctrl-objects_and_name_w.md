@@ -118,7 +118,7 @@ A pointer to a null-terminated string that identifies the type of object that ca
 
 This string must be a valid <a href="/windows/desktop/SecGloss/l-gly">LDAP</a> display name in the Active Directory schema.
 
-If the ACE_INHERITED_OBJECT_TYPE_PRESENT bit is not set in the <b>ObjectsPresent</b> member, the <b>InheritedObjectTypeName</b> member is ignored, and all types of child objects can inherit the ACE. Otherwise, only the specified object type can inherit the ACE. In either case, inheritance is also controlled by the inheritance flags in the <a href="/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a>structure as well as by any protection against inheritance placed on the child objects.
+If the ACE_INHERITED_OBJECT_TYPE_PRESENT bit is not set in the <b>ObjectsPresent</b> member, the <b>InheritedObjectTypeName</b> member is ignored, and all types of child objects can inherit the ACE. Otherwise, only the specified object type can inherit the ACE. In either case, inheritance is also controlled by the inheritance flags in the <a href="/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure as well as by any protection against inheritance placed on the child objects.
 
 ### -field ptstrName
 

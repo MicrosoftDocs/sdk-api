@@ -53,7 +53,7 @@ api_name:
 
 Begins a scene.
 
-## -parameters
+
 
 ## -returns
 

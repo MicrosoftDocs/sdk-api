@@ -54,38 +54,7 @@ The <b>IAudioSessionEnumerator</b> interface enumerates audio sessions on an aud
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioSessionEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioSessionEnumerator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAudioSessionEnumerator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionenumerator-getcount">GetCount</a>
-</td>
-<td align="left" width="63%">
-Gets the total number of audio sessions that are open on the audio device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionenumerator-getsession">GetSession</a>
-</td>
-<td align="left" width="63%">
-Gets the audio session specified by an audio session number. 
-
-</td>
-</tr>
-</table>
+The <b>IAudioSessionEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioSessionEnumerator</b> also has these types of members:
 
 ## -remarks
 

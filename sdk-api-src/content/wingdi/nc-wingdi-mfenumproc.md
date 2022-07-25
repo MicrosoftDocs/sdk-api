@@ -57,9 +57,9 @@ The <b>EnumMetaFileProc</b> function is an application-defined callback function
 
 ### -param hdc
 
-### -param *lpht
+### -param lpht
 
-### -param *lpMR
+### -param lpMR
 
 ### -param nObj [in]
 

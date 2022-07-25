@@ -4,7 +4,7 @@ title: CreateWaitableTimerExW function (synchapi.h)
 description: Creates or opens a waitable timer object and returns a handle to the object.
 helpviewer_keywords: ["CREATE_WAITABLE_TIMER_MANUAL_RESET","CreateWaitableTimerEx","CreateWaitableTimerEx function","CreateWaitableTimerExA","CreateWaitableTimerExW","base.createwaitabletimerex","synchapi/CreateWaitableTimerEx","synchapi/CreateWaitableTimerExA","synchapi/CreateWaitableTimerExW"]
 old-location: base\createwaitabletimerex.htm
-tech.root: backup
+tech.root: base
 ms.assetid: 9ef51567-7d0f-4a2e-a798-289564733410
 ms.date: 12/05/2018
 ms.keywords: CREATE_WAITABLE_TIMER_MANUAL_RESET, CreateWaitableTimerEx, CreateWaitableTimerEx function, CreateWaitableTimerExA, CreateWaitableTimerExW, base.createwaitabletimerex, synchapi/CreateWaitableTimerEx, synchapi/CreateWaitableTimerExA, synchapi/CreateWaitableTimerExW
@@ -83,7 +83,7 @@ If <i>lpTimerName</i> is <b>NULL</b>, the timer object is created without a name
 If <i>lpTimerName</i> matches the name of an existing event, semaphore, mutex, job, or file-mapping object, the function fails and 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INVALID_HANDLE</b>. This occurs because these objects share the same namespace.
 
-The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\). For more information, see 
+The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\\). For more information, see 
 <a href="/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>. Fast user switching is implemented using Terminal Services sessions. Kernel object names must follow the guidelines outlined for Terminal Services so that applications can support multiple users.
 
 The object can be created in a private namespace. For more information, see <a href="/windows/desktop/Sync/object-namespaces">Object Namespaces</a>.

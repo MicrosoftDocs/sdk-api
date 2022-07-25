@@ -59,7 +59,7 @@ The <b>SpGetExtendedInformation</b> function provides extended information about
 A value from the 
 <a href="/windows/win32/api/ntsecpkg/ne-ntsecpkg-secpkg_extended_information_class">SECPKG_EXTENDED_INFORMATION_CLASS</a> enumeration indicating the type of extended information.
 
-### -param *ppInformation [out]
+### -param ppInformation [out]
 
 Pointer to a pointer to a 
 <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_extended_information">SECPKG_EXTENDED_INFORMATION</a> structure allocated by the security package. If the function call succeeds, the returned structure contains the requested information.

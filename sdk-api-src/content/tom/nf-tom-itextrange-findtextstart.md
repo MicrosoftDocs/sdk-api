@@ -50,10 +50,7 @@ api_name:
 
 ## -description
 
-Searches up to <i>Count</i> characters for the string, <i>bstr</i>, starting at the range's Start 
-
-			<i>cp</i> (<i>cpFirst)</i>. The search is subject to the comparison parameter, <i>Flags</i>. If the string is found, the Start 
-			<i>cp</i> is changed to the matched string, and <i>pLength</i> is set equal to the length of the string. If the string is not found, the range is unchanged, and <i>pLength</i> is set equal to zero.
+Searches up to <i>Count</i> characters for the string, <i>bstr</i>, starting at the range's Start <i>cp</i> (<i>cpFirst)</i>. The search is subject to the comparison parameter, <i>Flags</i>. If the string is found, the Start <i>cp</i> is changed to the matched string, and <i>pLength</i> is set equal to the length of the string. If the string is not found, the range is unchanged, and <i>pLength</i> is set equal to zero.
 
 ## -parameters
 
@@ -77,15 +74,11 @@ Maximum number of characters to search. It can be one of the following.
 </tr>
 <tr>
 <td><i>n </i>(greater than 0)</td>
-<td>Search forward for 
-								<i>n</i> chars, starting from 
-								<i>cpLim.</i></td>
+<td>Search forward for <i>n</i> chars, starting from <i>cpLim.</i></td>
 </tr>
 <tr>
 <td><i>n </i>(less than 0)</td>
-<td>Search backward for 
-								<i>n</i> chars, starting from 
-								<i>cpLim.</i></td>
+<td>Search backward for <i>n</i> chars, starting from <i>cpLim.</i></td>
 </tr>
 </table>
 

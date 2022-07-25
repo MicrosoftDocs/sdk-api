@@ -54,49 +54,7 @@ Extends functionality of the <a href="/windows/desktop/api/searchapi/nn-searchap
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUrlAccessor2</b> interface inherits from <a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a>. <b>IUrlAccessor2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IUrlAccessor2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor2-getcodepage">GetCodePage</a>
-</td>
-<td align="left" width="63%">
-Gets the code page for properties of the URL item.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor2-getdisplayurl">GetDisplayUrl</a>
-</td>
-<td align="left" width="63%">
-Gets the user-friendly path for the URL item.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor2-isdocument">IsDocument</a>
-</td>
-<td align="left" width="63%">
-Ascertains whether an item URL is a document or directory.
-
-</td>
-</tr>
-</table>
+The <b>IUrlAccessor2</b> interface inherits from <a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a>. <b>IUrlAccessor2</b> also has these types of members:
 
 ## -see-also
 

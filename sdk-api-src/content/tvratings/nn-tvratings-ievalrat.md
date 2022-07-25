@@ -56,74 +56,10 @@ The Encrypter/Tagger filter and the Decrypter/Detagger filter use this interface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEvalRat</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IEvalRat</b> also has these types of members:
+The <b>IEvalRat</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IEvalRat</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IEvalRat</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ievalrat-get_blockedratingattributes">get_BlockedRatingAttributes</a>
-</td>
-<td align="left" width="63%">
-Determines whether content is blocked for a given rating system and rating level.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ievalrat-get_blockunrated">get_BlockUnRated</a>
-</td>
-<td align="left" width="63%">
-Indicates whether a program without rating information is blocked.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ievalrat-mostrestrictiverating">MostRestrictiveRating</a>
-</td>
-<td align="left" width="63%">
-Compares two ratings and returns the more restrictive of the two.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ievalrat-put_blockedratingattributes">put_BlockedRatingAttributes</a>
-</td>
-<td align="left" width="63%">
-Specifies whether to block content that has a specified rating.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ievalrat-put_blockunrated">put_BlockUnRated</a>
-</td>
-<td align="left" width="63%">
-Specifies whether to block a program for which rating information has not been obtained.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ievalrat-testrating">TestRating</a>
-</td>
-<td align="left" width="63%">
-Determines whether a program with the specified rating should be blocked.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

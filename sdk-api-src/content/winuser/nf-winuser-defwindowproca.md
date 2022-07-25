@@ -97,6 +97,17 @@ Type: <b>LRESULT</b>
 
 The return value is the result of the message processing and depends on the message.
 
+## -syntax
+
+```cpp
+LRESULT DefWindowProcA(
+  [in] HWND   hWnd,
+  [in] UINT   Msg,
+  [in] WPARAM wParam,
+  [in] LPARAM lParam
+);
+```
+
 ## -see-also
 
 <a href="/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a>

@@ -55,26 +55,8 @@ Do not use. This interface ndicates which Windows Address Book (WAB) object is b
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWABExtInit</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWABExtInit</b> also has these types of members:
+The <b>IWABExtInit</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWABExtInit</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWABExtInit</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/ms629473(v=vs.85)">Initialize</a>
-</td>
-<td align="left" width="63%">
-Provides a WAB module with information about the object being displayed.
-
-</td>
-</tr>
-</table>

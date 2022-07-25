@@ -119,7 +119,7 @@ Uses the system default timer coalescing.
 </dl>
 </td>
 <td width="60%">
-Uses no timer coalescing.  When this value is used, the created timer is not coalesced, no matter what  the system default timer coalescing is or the application compatiblity flags are.
+Uses no timer coalescing.  When this value is used, the created timer is not coalesced, no matter what the system default timer coalescing is or the application compatibility flags are.
 
 
 <div class="alert"><b>Note</b>  Do not use this value unless you are certain that the  timer requires no coalescing. </div>
@@ -139,7 +139,7 @@ Applications should set this value to the system default (<b>TIMERV_DEFAULT_COAL
 
 If the sum of <i>uElapse</i> and <i>uToleranceDelay</i> exceeds <b>USER_TIMER_MAXIMUM</b> (0x7FFFFFFF), an ERROR_INVALID_PARAMETER exception occurs.
 
-See <a href="http://download.microsoft.com/download/9/C/5/9C5B2167-8017-4BAE-9FDE-D599BAC8184A/TimerCoal.docx">Windows Timer Coalescing</a> for more details and best practices.
+See <a href="https://download.microsoft.com/download/9/C/5/9C5B2167-8017-4BAE-9FDE-D599BAC8184A/TimerCoal.docx">Windows Timer Coalescing</a> for more details and best practices.
 
 </td>
 </tr>
@@ -178,6 +178,8 @@ The timer identifier, <i>nIDEvent</i>, is specific to the associated window. Ano
             
 
 When <i>uToleranceDelay</i> is set to 0, the system default timer coalescing is used and   <b>SetCoalescableTimer</b>  behaves the same as <a href="/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a>.
+
+Before using **SetCoalescableTimer** or other timer-related functions, it is recommended to set the **UOI_TIMERPROC_EXCEPTION_SUPPRESSION** flag to **false** through the **SetUserObjectInformationW** function, otherwise the application could behave unpredictably and could be vulnerable to security exploits. For more info, see <a href="/windows/win32/api/winuser/nf-winuser-setuserobjectinformationw">SetUserObjectInformationW</a>.
 
 ## -see-also
 

@@ -62,44 +62,8 @@ In addition to the methods inherited from <b>IUnknown</b>, the <code>IMemoryData
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMemoryData</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMemoryData</b> also has these types of members:
+The <b>IMemoryData</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMemoryData</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMemoryData</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/austream/nf-austream-imemorydata-getinfo">GetInfo</a>
-</td>
-<td align="left" width="63%">
-Retrieves information describing an audio data object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/austream/nf-austream-imemorydata-setactual">SetActual</a>
-</td>
-<td align="left" width="63%">
-Sets the amount of audio data currently in the object, in bytes.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/austream/nf-austream-imemorydata-setbuffer">SetBuffer</a>
-</td>
-<td align="left" width="63%">
-Initializes a memory buffer with a pointer to memory and length.
-
-</td>
-</tr>
-</table>

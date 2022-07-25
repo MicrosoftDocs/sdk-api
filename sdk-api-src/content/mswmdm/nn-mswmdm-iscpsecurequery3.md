@@ -54,38 +54,7 @@ The <b>ISCPSecureQuery3</b> interface extends <a href="/windows/desktop/api/mswm
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISCPSecureQuery3</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery2">ISCPSecureQuery2</a>. <b>ISCPSecureQuery3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISCPSecureQuery3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery3-getrightsonclearchannel">GetRightsOnClearChannel</a>
-</td>
-<td align="left" width="63%">
-Retrieves the rights on a clear channel.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery3-makedecisiononclearchannel">MakeDecisionOnClearChannel</a>
-</td>
-<td align="left" width="63%">
-Makes decisions on a clear channel.
-
-</td>
-</tr>
-</table>
+The <b>ISCPSecureQuery3</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery2">ISCPSecureQuery2</a>. <b>ISCPSecureQuery3</b> also has these types of members:
 
 ## -see-also
 

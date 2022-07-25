@@ -57,7 +57,7 @@ req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 1
 
 Unlocks the window locked by the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex">DAD_DragEnterEx</a> function.
 
-## -parameters
+
 
 ## -returns
 

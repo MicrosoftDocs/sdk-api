@@ -64,8 +64,7 @@ The new storyboard that is interrupting the scheduled storyboard specified by <i
 
 ### -param priorityEffect [in]
 
- 
-					The potential effect on <i>newStoryboard</i> if <i>scheduledStoryboard</i> has a higher priority.
+ The potential effect on <i>newStoryboard</i> if <i>scheduledStoryboard</i> has a higher priority.
 
 ## -returns
 
@@ -102,12 +101,11 @@ Returns the following if successful; otherwise an <b>HRESULT</b> error code. See
 
 ## -remarks
 
-A single animation variable can be included in multiple storyboards, 
-         but multiple storyboards cannot animate the same variable at the same time.
+A single animation variable can be included in multiple storyboards, but multiple storyboards cannot animate the same variable at the same time.
          
-         If a new storyboard attempts to animate one or more variables that are currently scheduled for animation by a different storyboard, a scheduling conflict occurs.
+If a new storyboard attempts to animate one or more variables that are currently scheduled for animation by a different storyboard, a scheduling conflict occurs.
          
-         To determine which storyboard has priority, the animation manager can call the <b>HasPriority</b> method on one or more  priority comparison handlers provided by the application.
+To determine which storyboard has priority, the animation manager can call the <b>HasPriority</b> method on one or more  priority comparison handlers provided by the application.
 
 Registering priority comparison objects is optional.  By default, all storyboards can be trimmed, concluded, or compressed to prevent failure, but none can be canceled, and by default no storyboards will be canceled or trimmed to prevent a delay.
 
@@ -129,19 +127,17 @@ By default, a call made in a callback method to any other animation method resul
 </ul>
 <h3><a id="Contention_Management"></a><a id="contention_management"></a><a id="CONTENTION_MANAGEMENT"></a>Contention Management</h3>
 
-To resolve a scheduling conflict, 
-         the animation manager has the following options:
+To resolve a scheduling conflict, the animation manager has the following options:
 
 <ul>
 <li>Cancel the scheduled storyboard if it has not started playing and the priority comparison object that is registered with <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-setcancelprioritycomparison">IUIAnimationManager2::SetCancelPriorityComparison</a> returns <b>S_OK</b>. Canceled storyboards are completely removed from the schedule.</li>
 <li>Trim the scheduled storyboard if the priority comparison object that is registered with <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-settrimprioritycomparison">IUIAnimationManager2::SetTrimPriorityComparison</a> returns <b>S_OK</b>. If the new storyboard trims the scheduled storyboard, the scheduled storyboard can no longer affect a variable when the new storyboard begins to animate that variable.</li>
 <li>Conclude the scheduled storyboard if the scheduled storyboard contains a loop with a repetition count of <a href="/windows/desktop/UIAnimation/ui-animation-repeat-indefinitely">UI_ANIMATION_REPEAT_INDEFINITELY</a> and the priority comparison object that is registered with <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-setconcludeprioritycomparison">IUIAnimationManager2::SetConcludePriorityComparison</a> returns <b>S_OK</b>. If the storyboard is concluded, the current repetition of the loop completes, and the reminder of the storyboard then plays.</li>
-<li>Compress the scheduled storyboard, and any other storyboards animating the same variables, if the priority comparison object that is registered with
-            <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-setcompressprioritycomparison">IUIAnimationManager2::SetCompressPriorityComparison</a>  returns <b>S_OK</b> for all scheduled storyboards that might be affected by the compression. When the storyboards are compressed, time is temporarily accelerated for affected storyboards, so they play faster.</li>
+<li>Compress the scheduled storyboard, and any other storyboards animating the same variables, if the priority comparison object that is registered with <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-setcompressprioritycomparison">IUIAnimationManager2::SetCompressPriorityComparison</a>  returns <b>S_OK</b> for all scheduled storyboards that might be affected by the compression. When the storyboards are compressed, time is temporarily accelerated for affected storyboards, so they play faster.</li>
 </ul>
 
 
-If none of the  preceding options is allowed by the priorty comparison objects, the attempt to schedule the storyboard fails and Windows Animation returns <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_scheduling_result">UI_ANIMATION_SCHEDULING_INSUFFICIENT_PRIORITY</a> to the calling application.
+If none of the  preceding options is allowed by the priority comparison objects, the attempt to schedule the storyboard fails and Windows Animation returns <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_scheduling_result">UI_ANIMATION_SCHEDULING_INSUFFICIENT_PRIORITY</a> to the calling application.
 
 Note that for the new storyboard to be successfully scheduled, it must begin before its longest acceptable delay has elapsed.  This is determined by <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-setlongestacceptabledelay">IUIAnimationStoryboard::SetLongestAcceptableDelay</a> or <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-setdefaultlongestacceptabledelay">IUIAnimationManager2::SetDefaultLongestAcceptableDelay</a> (if neither is called, the default is 0.0 seconds).  If the longest acceptable delay is <b>UI_ANIMATION_SECONDS_EVENTUALLY</b>, any finite delay will be sufficient.
 

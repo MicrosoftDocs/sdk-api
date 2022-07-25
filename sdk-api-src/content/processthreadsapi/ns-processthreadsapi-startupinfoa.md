@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: STARTUPINFOA, *LPSTARTUPINFOA
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - _STARTUPINFOA
  - processthreadsapi/_STARTUPINFOA
@@ -395,14 +395,62 @@ If a GUI process is being started and neither STARTF_FORCEONFEEDBACK or STARTF_F
 
 If a process is launched from the taskbar or jump list, the system sets [GetStartupInfo](./nf-processthreadsapi-getstartupinfow.md) to retrieve the <b>STARTUPINFO</b> structure and check that <b>hStdOutput</b> is set. If so, use <a href="/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa">GetMonitorInfo</a> to check whether <b>hStdOutput</b> is a valid monitor handle (HMONITOR). The process can then use the handle to position its windows.
 
-If the [GetStartupInfo](./nf-processthreadsapi-getstartupinfow.md) function, then applications should be aware that the command line is untrusted. If this flag is set, applications should disable potentially dangerous features such as macros, downloaded content, and automatic printing. This flag is optional. Applications that call <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> are encouraged to set this flag when launching a program with a untrusted command line so that the created process can apply appropriate policy.
+If the <b>STARTF_UNTRUSTEDSOURCE</b> flag is specified, the application should be aware that the command line is untrusted. If this flag is set, applications should disable potentially dangerous features such as macros, downloaded content, and automatic printing. This flag is optional, but applications that call <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> are encouraged to set this flag when launching a program with untrusted command line arguments (such as those provided by web content) so that the newly created process can apply appropriate policy.
 
 The <b>STARTF_UNTRUSTEDSOURCE</b> flag is supported starting in Windows Vista, but it is not defined in the SDK header files prior to the Windows 10 SDK. To use the flag in versions prior to Windows 10, you can define it manually in your program.
 
 
 #### Examples
 
-For an example, see 
+The following code example shows the use of **StartUpInfoA**.
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <tchar.h>
+
+void _tmain( int argc, TCHAR *argv[] )
+{
+    STARTUPINFO si;
+    PROCESS_INFORMATION pi;
+
+    ZeroMemory( &si, sizeof(si) );
+    si.cb = sizeof(si);
+    ZeroMemory( &pi, sizeof(pi) );
+
+    if( argc != 2 )
+    {
+        printf("Usage: %s [cmdline]\n", argv[0]);
+        return;
+    }
+
+    // Start the child process. 
+    if( !CreateProcess( NULL,   // No module name (use command line)
+        argv[1],        // Command line
+        NULL,           // Process handle not inheritable
+        NULL,           // Thread handle not inheritable
+        FALSE,          // Set handle inheritance to FALSE
+        0,              // No creation flags
+        NULL,           // Use parent's environment block
+        NULL,           // Use parent's starting directory 
+        &si,            // Pointer to STARTUPINFO structure
+        &pi )           // Pointer to PROCESS_INFORMATION structure
+    ) 
+    {
+        printf( "CreateProcess failed (%d).\n", GetLastError() );
+        return;
+    }
+
+    // Wait until child process exits.
+    WaitForSingleObject( pi.hProcess, INFINITE );
+
+    // Close process and thread handles. 
+    CloseHandle( pi.hProcess );
+    CloseHandle( pi.hThread );
+}
+```
+
+For more information about this example, see 
 <a href="/windows/desktop/ProcThread/creating-processes">Creating Processes</a>.
 
 <div class="code"></div>

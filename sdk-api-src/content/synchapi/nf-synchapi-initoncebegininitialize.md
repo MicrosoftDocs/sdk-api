@@ -4,7 +4,7 @@ title: InitOnceBeginInitialize function (synchapi.h)
 description: Begins one-time initialization.
 helpviewer_keywords: ["INIT_ONCE_ASYNC","INIT_ONCE_CHECK_ONLY","InitOnceBeginInitialize","InitOnceBeginInitialize function","base.initoncebegininitialize","synchapi/InitOnceBeginInitialize","winbase/InitOnceBeginInitialize"]
 old-location: base\initoncebegininitialize.htm
-tech.root: backup
+tech.root: base
 ms.assetid: f342e85c-ac81-4470-89ce-a9d0fc5e8f89
 ms.date: 12/05/2018
 ms.keywords: INIT_ONCE_ASYNC, INIT_ONCE_CHECK_ONLY, InitOnceBeginInitialize, InitOnceBeginInitialize function, base.initoncebegininitialize, synchapi/InitOnceBeginInitialize, winbase/InitOnceBeginInitialize

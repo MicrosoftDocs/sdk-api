@@ -81,7 +81,7 @@ This method returns true if the resource or subresource is in the specified stat
 
 ## -remarks
 
-This method is very similar to <a href="/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugcommandlist-assertresourcestate">ID3D12DebugCommandList::AssertResourceState</a>, however there are methods on the command queue that work directly with resources that might need to be monitored (for example <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-copytilemappings">ID3D13CommandQueue::CopyTileMappings</a>).
+This method is very similar to <a href="/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugcommandlist-assertresourcestate">ID3D12DebugCommandList::AssertResourceState</a>, however there are methods on the command queue that work directly with resources that might need to be monitored (for example <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-copytilemappings">ID3D12CommandQueue::CopyTileMappings</a>).
 
 ## -see-also
 

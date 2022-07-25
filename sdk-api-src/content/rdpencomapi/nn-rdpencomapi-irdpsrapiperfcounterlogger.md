@@ -56,29 +56,7 @@ Applications obtain access to this object using the <a href="/windows/desktop/ap
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIPerfCounterLogger</b> class inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRDPSRAPIPerfCounterLogger</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IRDPSRAPIPerfCounterLogger</b> class has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiperfcounterlogger-logvalue">LogValue</a>
-</td>
-<td align="left" width="63%">
-Logs a value.
-
-</td>
-</tr>
-</table>
+The <b>IRDPSRAPIPerfCounterLogger</b> class inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRDPSRAPIPerfCounterLogger</b> also has these types of members:
 
 ## -see-also
 

@@ -68,7 +68,7 @@ Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_loca
 
 ### -field lpSurfCurr
 
-Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>structure for the current surface; that is, the surface on which data is currently being written.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure for the current surface; that is, the surface on which data is currently being written.
 
 ### -field lpSurfTarg
 

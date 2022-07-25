@@ -56,103 +56,10 @@ This interface can be obtained by calling the <b>QueryInterface</b> method of an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterFileSink2</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink">IWMWriterFileSink</a>. <b>IWMWriterFileSink2</b> also has these types of members:
+The <b>IWMWriterFileSink2</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink">IWMWriterFileSink</a>. <b>IWMWriterFileSink2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMWriterFileSink2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink2-close">Close</a>
-</td>
-<td align="left" width="63%">
-Closes the sink.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink2-getfileduration">GetFileDuration</a>
-</td>
-<td align="left" width="63%">
-Retrieves the duration of the portion of the file that has been written.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink2-getfilesize">GetFileSize</a>
-</td>
-<td align="left" width="63%">
-Retrieves the size of the file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink2-isclosed">IsClosed</a>
-</td>
-<td align="left" width="63%">
-Ascertains whether the file sink has been closed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink2-isstopped">IsStopped</a>
-</td>
-<td align="left" width="63%">
-Ascertains whether the file sink has stopped writing.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink2-start">Start</a>
-</td>
-<td align="left" width="63%">
-Starts recording at the specified time.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink2-stop">Stop</a>
-</td>
-<td align="left" width="63%">
-Stops recording at the specified time.
-
-</td>
-</tr>
-</table> 
-
-The following interfaces can be obtained by using the QueryInterface method of this interface.
-<table>
-<tr>
-<th>Interface</th>
-<th>IID</th>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink">IWMWriterFileSink</a>
-</td>
-<td>IID_IWMWriterFileSink</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink3">IWMWriterFileSink3</a>
-</td>
-<td>IID_IWMWriterFileSink3</td>
-</tr>
-</table>
 
 ## -see-also
 

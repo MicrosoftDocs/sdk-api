@@ -54,38 +54,7 @@ The <b>ITfSystemLangBarItem</b> interface is implemented by a system language ba
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfSystemLangBarItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfSystemLangBarItem</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfSystemLangBarItem</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itfsystemlangbaritem-seticon">SetIcon</a>
-</td>
-<td align="left" width="63%">
-Modifies the icon displayed for the system language bar menu.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itfsystemlangbaritem-settooltipstring">SetTooltipString</a>
-</td>
-<td align="left" width="63%">
-Modifies the tooltip text displayed for the system language bar menu.
-
-</td>
-</tr>
-</table>
+The <b>ITfSystemLangBarItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfSystemLangBarItem</b> also has these types of members:
 
 ## -remarks
 

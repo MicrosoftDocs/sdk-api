@@ -54,83 +54,10 @@ The <code>IAMExtendedSeeking</code> interface seeks to a marker in a Windows Med
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMExtendedSeeking</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMExtendedSeeking</b> also has these types of members:
+The <b>IAMExtendedSeeking</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMExtendedSeeking</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IAMExtendedSeeking</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-get_currentmarker">get_CurrentMarker</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current marker.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-get_exseekcapabilities">get_ExSeekCapabilities</a>
-</td>
-<td align="left" width="63%">
-Retrieves the extended seeking capabilities of the filter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-get_markercount">get_MarkerCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of markers in the current stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-get_playbackspeed">get_PlaybackSpeed</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current playback speed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-getmarkername">GetMarkerName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the name associated with the specified marker.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-getmarkertime">GetMarkerTime</a>
-</td>
-<td align="left" width="63%">
-Retrieves the presentation time associated with the specified marker.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-put_playbackspeed">put_PlaybackSpeed</a>
-</td>
-<td align="left" width="63%">
-Sets the playback speed.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

@@ -57,44 +57,5 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsVolumeMF2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVolumeMF2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVdsVolumeMF2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVolumeMF2</b> also has these types of members:
 
-## -members
-
-The <b>IVdsVolumeMF2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf2-formatex">FormatEx</a>
-</td>
-<td align="left" width="63%">
-Formats a file system on a volume.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf2-getfilesystemtypename">GetFileSystemTypeName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the name of the file system on a volume.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf2-queryfilesystemformatsupport">QueryFileSystemFormatSupport</a>
-</td>
-<td align="left" width="63%">
-Retrieves the properties of the file systems that are supported for formatting a volume.
-
-</td>
-</tr>
-</table>

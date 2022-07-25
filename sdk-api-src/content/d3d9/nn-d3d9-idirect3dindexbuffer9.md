@@ -55,47 +55,7 @@ Applications use the methods of the IDirect3DIndexBuffer9 interface to manipulat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DIndexBuffer9</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>. <b>IDirect3DIndexBuffer9</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDirect3DIndexBuffer9</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dindexbuffer9-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Retrieves a description of the index buffer resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dindexbuffer9-lock">Lock</a>
-</td>
-<td align="left" width="63%">
-Locks a range of index data and obtains a pointer to the index buffer memory.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dindexbuffer9-unlock">Unlock</a>
-</td>
-<td align="left" width="63%">
-Unlocks index data.
-
-</td>
-</tr>
-</table>
+The <b>IDirect3DIndexBuffer9</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>. <b>IDirect3DIndexBuffer9</b> also has these types of members:
 
 ## -remarks
 

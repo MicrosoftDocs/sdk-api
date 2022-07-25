@@ -54,15 +54,15 @@ Callback flags for fetching data for a placeholder file or folder.
 
 ## -enum-fields
 
-### -field CF_CALLBACK_FETCH_DATA_FLAG_NONE
+### -field CF_CALLBACK_FETCH_DATA_FLAG_NONE:0x00000000
 
 No data fetch flag.
 
-### -field CF_CALLBACK_FETCH_DATA_FLAG_RECOVERY
+### -field CF_CALLBACK_FETCH_DATA_FLAG_RECOVERY:0x00000001
 
 Flag to be used if the callback is invoked as a result of previously interrupted hydration process.
 
-### -field CF_CALLBACK_FETCH_DATA_FLAG_EXPLICIT_HYDRATION
+### -field CF_CALLBACK_FETCH_DATA_FLAG_EXPLICIT_HYDRATION:0x00000002
 
 <b>Note</b>  This value is new for Windows 10, version 1803.
 

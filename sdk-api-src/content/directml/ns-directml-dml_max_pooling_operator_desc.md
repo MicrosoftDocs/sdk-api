@@ -6,7 +6,7 @@ helpviewer_keywords: ["DML_MAX_POOLING_OPERATOR_DESC","DML_MAX_POOLING_OPERATOR_
 old-location: direct3d12\dml_max_pooling_operator_desc.htm
 tech.root: directml
 ms.assetid: DC500008-619C-425F-A2C4-DE17B984E4F7
-ms.date: 11/03/2020
+ms.date: 01/19/2022
 ms.keywords: DML_MAX_POOLING_OPERATOR_DESC, DML_MAX_POOLING_OPERATOR_DESC structure, direct3d12.dml_max_pooling_operator_desc, directml/DML_MAX_POOLING_OPERATOR_DESC
 req.header: directml.h
 req.include-header: 
@@ -113,6 +113,12 @@ This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 *InputTensor* and *OutputTensor* must have the same *DataType* and *DimensionCount*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_5_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 to 5 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 4 to 5 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+
 ### DML_FEATURE_LEVEL_3_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |

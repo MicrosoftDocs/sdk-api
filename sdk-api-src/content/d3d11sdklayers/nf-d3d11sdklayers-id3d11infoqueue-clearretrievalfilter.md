@@ -53,7 +53,7 @@ api_name:
 
 Remove a retrieval filter from the top of the retrieval-filter stack.
 
-## -parameters
+
 
 ## -see-also
 

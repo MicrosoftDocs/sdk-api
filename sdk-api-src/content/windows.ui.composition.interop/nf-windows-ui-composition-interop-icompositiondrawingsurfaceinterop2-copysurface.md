@@ -4,7 +4,6 @@ title: ICompositionDrawingSurfaceInterop2::CopySurface
 description: Reads back the contents of a composition drawing surface (or a composition virtual drawing surface).
 ms.date: 01/09/2020
 tech.root: winrt
-ms.topic: language-reference
 req.construct-type: function
 req.header: windows.ui.composition.interop.h
 req.include-header: 
@@ -90,17 +89,9 @@ You can call **CopySurface** only when there are no pending updates to any surfa
 > [!NOTE]
 > This interface is available on Windows 10, version 1903 (10.0; Build 18362), but it is not defined in the `windows.ui.composition.interop.h` header file for that version of the Windows Software Development Kit (SDK). If you first obtain a pointer to an [ICompositionDrawingSurfaceInterop](./nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop.md) interface, you can then query that (via [QueryInterface](../unknwn/nf-unknwn-iunknown-queryinterface(refiid_void).md)) for a pointer to an [ICompositionDrawingSurfaceInterop2](./nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop2.md) interface.
 
-## -see-also
+## Examples
 
-[ICompositionDrawingSurfaceInterop interface](./nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop.md)
-
-[ICompositionDrawingSurfaceInterop2 interface](./nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop2.md)
-
-[Composition native interoperation overview](/windows/uwp/composition/composition-native-interop)
-
-## -examples
-
-For this scenario, we envisage a framework that uses **CompositionDrawingSurface** to grant the ability to render and compose custom content into a visual tree managed by the framework. The framework implements a low resource mode (to be used, for example, during application minimize or suspend). When in this mode, the framework releases most composition objects, including all surfaces. However, before releasing each surface, the framework extracts its pixels and compresses them (for example, using the PNG codec) so that it can reconstitute them later without having to call back into application code. This code example shows a helper funciton that the framework might implement to process each surface.
+For this scenario, we envisage a framework that uses **CompositionDrawingSurface** to grant the ability to render and compose custom content into a visual tree managed by the framework. The framework implements a low resource mode (to be used, for example, during application minimize or suspend). When in this mode, the framework releases most composition objects, including all surfaces. However, before releasing each surface, the framework extracts its pixels and compresses them (for example, using the PNG codec) so that it can reconstitute them later without having to call back into application code. This code example shows a helper function that the framework might implement to process each surface.
 
 ```cpp
 HRESULT CompressSurface(_In_ ICompositionDrawingSurface* surface) 
@@ -154,3 +145,9 @@ HRESULT CompressTexturePixels(_In_ ID3D11Texture2D* texture) 
     // ... 
 } 
 ```
+
+## -see-also
+
+* [ICompositionDrawingSurfaceInterop interface](./nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop.md)
+* [ICompositionDrawingSurfaceInterop2 interface](./nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop2.md)
+* [Composition native interoperation overview](/windows/uwp/composition/composition-native-interop)

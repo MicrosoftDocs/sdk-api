@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateSharedHandle
 title: ID3D12Device::CreateSharedHandle (d3d12.h)
-description: Creates a shared handle to an heap, resource, or fence object.
+description: Creates a shared handle to a heap, resource, or fence object.
 helpviewer_keywords: ["CreateSharedHandle","CreateSharedHandle method","CreateSharedHandle method","ID3D12Device interface","ID3D12Device interface","CreateSharedHandle method","ID3D12Device.CreateSharedHandle","ID3D12Device::CreateSharedHandle","d3d12/ID3D12Device::CreateSharedHandle","direct3d12.id3d12device_createsharedhandle"]
 old-location: direct3d12\id3d12device_createsharedhandle.htm
 tech.root: direct3d12
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates a shared handle to an heap, resource, or fence object.
+Creates a shared handle to a heap, resource, or fence object.
 
 ## -parameters
 
@@ -78,7 +78,7 @@ A pointer to the <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12devicechild"
 
 Type: <b>const <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>*</b>
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>structure that contains two separate but related data members: an optional security descriptor, and a <b>Boolean</b>value that determines whether child processes can inherit the returned handle.
+A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that contains two separate but related data members: an optional security descriptor, and a <b>Boolean</b> value that determines whether child processes can inherit the returned handle.
             
 
 Set this parameter to <b>NULL</b> if you want child processes that the
@@ -113,7 +113,7 @@ If <i>Name</i> matches the name of an existing resource, <b>CreateSharedHandle</
             
 
 The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace.
-              The remainder of the name can contain any character except the backslash character (\).
+              The remainder of the name can contain any character except the backslash character (\\).
               For more information, see
               <a href="/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>.
               Fast user switching is implemented using Terminal Services sessions.

@@ -71,7 +71,7 @@ The number of errors can be retrieved using <a href="/windows/desktop/api/webser
 
 ### -param string [out]
 
-The returned string.  The string is valid until <a href="/windows/desktop/api/webservices/nf-webservices-wsreseterror">WsResetError</a>or <a href="/windows/desktop/api/webservices/nf-webservices-wsfreeerror">WsFreeError</a> is called.
+The returned string.  The string is valid until <a href="/windows/desktop/api/webservices/nf-webservices-wsreseterror">WsResetError</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsfreeerror">WsFreeError</a> is called.
                 
 
 The string is not zero terminated.
@@ -112,4 +112,4 @@ This function may return other errors not listed above.
 ## -remarks
 
 The string is in the language specified by the LANGID property of
-                the error object.  This can be retrieved using <a href="/windows/desktop/api/webservices/nf-webservices-wsgeterrorproperty">WsGetErrorProperty</a>with <a href="/windows/desktop/api/webservices/ne-webservices-ws_error_property_id">WS_ERROR_PROPERTY_LANGID</a>.
+                the error object.  This can be retrieved using <a href="/windows/desktop/api/webservices/nf-webservices-wsgeterrorproperty">WsGetErrorProperty</a> with <a href="/windows/desktop/api/webservices/ne-webservices-ws_error_property_id">WS_ERROR_PROPERTY_LANGID</a>.

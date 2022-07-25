@@ -4,7 +4,7 @@ title: SetEvent function (synchapi.h)
 description: Sets the specified event object to the signaled state.
 helpviewer_keywords: ["SetEvent","SetEvent function","_win32_setevent","base.setevent","synchapi/SetEvent","winbase/SetEvent"]
 old-location: base\setevent.htm
-tech.root: backup
+tech.root: base
 ms.assetid: b474eef1-5df9-4729-b940-0c5f201c5f31
 ms.date: 12/05/2018
 ms.keywords: SetEvent, SetEvent function, _win32_setevent, base.setevent, synchapi/SetEvent, winbase/SetEvent

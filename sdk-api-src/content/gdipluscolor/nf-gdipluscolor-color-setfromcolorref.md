@@ -56,18 +56,18 @@ The <b>Color::SetFromCOLORREF</b> method uses a Windows Graphics Device Interfac
 
 Type: <b>COLORREF</b>
 
-GDI<b>COLORREF</b> value that specifies the red, green, and blue components of this <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object's <b>ARGB</b> value. The default value of the alpha component for this <b>Color</b> object is 255.
+GDI <b>COLORREF</b> value that specifies the red, green, and blue components of this <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object's <b>ARGB</b> value. The default value of the alpha component for this <b>Color</b> object is 255.
 
 ## -remarks
 
-A 32-bit GDI<b>COLORREF</b> value contains three, 8-bit color components. The most significant 8 bits are zeros and are not used, the next 8 bits contain the blue component, the next 8 bits contain the green component, and the last 8 bits (the least significant) contain the red component. Note that the ordering (starting with the high-order bits) of the components in a <b>COLORREF</b> value is blue, green, red; whereas, the ordering of an <b>ARGB</b> value is alpha, red, green, blue. 
+A 32-bit GDI <b>COLORREF</b> value contains three, 8-bit color components. The most significant 8 bits are zeros and are not used, the next 8 bits contain the blue component, the next 8 bits contain the green component, and the last 8 bits (the least significant) contain the red component. Note that the ordering (starting with the high-order bits) of the components in a <b>COLORREF</b> value is blue, green, red; whereas, the ordering of an <b>ARGB</b> value is alpha, red, green, blue. 
 
 
 #### Examples
 
 
 
-The following example creates a <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object and sets a GDI<b>COLORREF</b> value. The code then sets the <b>Color</b> object to the value of the GDI<b>COLORREF</b> value, creates a pen, and draws a line.
+The following example creates a <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object and sets a GDI <b>COLORREF</b> value. The code then sets the <b>Color</b> object to the value of the GDI <b>COLORREF</b> value, creates a pen, and draws a line.
 
 
 ```cpp

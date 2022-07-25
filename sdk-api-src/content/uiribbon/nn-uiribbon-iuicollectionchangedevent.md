@@ -56,29 +56,7 @@ The <b>IUICollectionChangedEvent</b> interface is
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUICollectionChangedEvent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUICollectionChangedEvent</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IUICollectionChangedEvent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuicollectionchangedevent-onchanged">OnChanged</a>
-</td>
-<td align="left" width="63%">
-Called when an <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a> changes.
-
-</td>
-</tr>
-</table>
+The <b>IUICollectionChangedEvent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUICollectionChangedEvent</b> also has these types of members:
 
 ## -remarks
 

@@ -55,7 +55,7 @@ Frees a
 
 ## -parameters
 
-### -param *pspsi [in]
+### -param pspsi [in]
 
 A pointer to the 
 <a href="/windows/desktop/api/timeprov/ns-timeprov-setproviderstatusinfo">SetProviderStatusInfo</a> structure to be freed.

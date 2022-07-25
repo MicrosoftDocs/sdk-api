@@ -54,74 +54,7 @@ Enables the management of access to objects and properties on the objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccessControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAccessControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/iaccess/nf-iaccess-iaccesscontrol-getallaccessrights">GetAllAccessRights</a>
-</td>
-<td align="left" width="63%">
-Gets the entire list of access rights and/or the owner and group for the specified object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/iaccess/nf-iaccess-iaccesscontrol-grantaccessrights">GrantAccessRights</a>
-</td>
-<td align="left" width="63%">
-Merges the new list of access rights with the existing access rights on the object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/iaccess/nf-iaccess-iaccesscontrol-isaccessallowed">IsAccessAllowed</a>
-</td>
-<td align="left" width="63%">
-Determines whether the specified trustee has access rights to the object or property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/iaccess/nf-iaccess-iaccesscontrol-revokeaccessrights">RevokeAccessRights</a>
-</td>
-<td align="left" width="63%">
-Removes any explicit entries for the list of trustees.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/iaccess/nf-iaccess-iaccesscontrol-setaccessrights">SetAccessRights</a>
-</td>
-<td align="left" width="63%">
-Replaces the existing access rights on an object with the specified list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/iaccess/nf-iaccess-iaccesscontrol-setowner">SetOwner</a>
-</td>
-<td align="left" width="63%">
-Sets the owner or the group of an item.
-
-</td>
-</tr>
-</table>
+The <b>IAccessControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccessControl</b> also has these types of members:
 
 ## -see-also
 

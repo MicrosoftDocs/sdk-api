@@ -434,6 +434,17 @@ Reserved.
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="IMAGE_DLL_CHARACTERISTICS_HIGH_ENTROPY_VA"></a><a id="image_dll_characteristics_high_entropy_va"></a><dl>
+<dt><b>IMAGE_DLL_CHARACTERISTICS_HIGH_ENTROPY_VA</b></dt>
+<dt>0x0020</dt>
+</dl>
+</td>
+<td width="60%">
+ASLR with 64 bit address space.
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE"></a><a id="image_dllcharacteristics_dynamic_base"></a><dl>
 <dt><b>IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE</b></dt>
 <dt>0x0040</dt>
@@ -504,13 +515,13 @@ Do not bind the image.
 </td>
 </tr>
 <tr>
-<td width="40%">
-<dl>
+<td width="40%"><a id="IMAGE_DLL_CHARACTERISTICS_APPCONTAINER"></a><a id="image_dll_characteristics_appcontainer"></a><dl>
+<dt><b>IMAGE_DLL_CHARACTERISTICS_APPCONTAINER</b></dt>
 <dt>0x1000</dt>
 </dl>
 </td>
 <td width="60%">
-Reserved.
+Image should execute in an AppContainer.
 
 </td>
 </tr>
@@ -526,13 +537,13 @@ A WDM driver.
 </td>
 </tr>
 <tr>
-<td width="40%">
-<dl>
+<td width="40%"><a id="IMAGE_DLL_CHARACTERISTICS_GUARD_CF"></a><a id="image_dll_characteristics_guard_cf"></a><dl>
+<dt><b>IMAGE_DLL_CHARACTERISTICS_GUARD_CF</b></dt>
 <dt>0x4000</dt>
 </dl>
 </td>
 <td width="60%">
-Reserved.
+Image supports Control Flow Guard.
 
 </td>
 </tr>

@@ -54,29 +54,10 @@ The <b>IWMPlayerHook</b> interface can be implemented by a player application th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPlayerHook</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPlayerHook</b> also has these types of members:
+The <b>IWMPlayerHook</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPlayerHook</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMPlayerHook</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmplayerhook-predecode">PreDecode</a>
-</td>
-<td align="left" width="63%">
-Callback method that performs application-specific processing when called by the reader.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

@@ -3,12 +3,10 @@ UID: NF:diagnosticdataquery.DdqFreeDiagnosticReport
 title: DdqFreeDiagnosticReport
 ms.date: 8/19/2019
 ms.keywords: DdqFreeDiagnosticReport
-ms.topic: language-reference
 description: Frees memory allocated for error reports referenced by HDIAGNOSTIC_REPORT_DATA handle.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -31,7 +29,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - diagnosticdataquery.h
 api_name:

@@ -50,15 +50,15 @@ The <i>EnumSurfacesCallback7</i> function is an application-defined callback fun
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to the <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface of the attached surface.
 
-### -param Arg2 [in]
+### -param unnamedParam2 [in]
 
 A pointer to a <a href="/previous-versions/windows/hardware/drivers/ff550340(v=vs.85)">DDSURFACEDESC2</a> structure that describes the attached surface.
 
-### -param Arg3 [in]
+### -param unnamedParam3 [in]
 
 A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
 

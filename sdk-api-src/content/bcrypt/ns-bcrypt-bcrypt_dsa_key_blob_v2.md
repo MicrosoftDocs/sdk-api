@@ -68,9 +68,9 @@ Determines the type of key this structure represents. This can be one of the fol
 <th>Meaning</th>
 </tr>
 <tr>
-<td width="40%"><a id="BCRYPT_DSA_PUBLIC_MAGIC"></a><a id="bcrypt_dsa_public_magic"></a><dl>
-<dt><b>BCRYPT_DSA_PUBLIC_MAGIC</b></dt>
-<dt>0x42505344</dt>
+<td width="40%"><a id="BCRYPT_DSA_PUBLIC_MAGIC_V2"></a><a id="bcrypt_dsa_public_magic_v2"></a><dl>
+<dt><b>BCRYPT_DSA_PUBLIC_MAGIC_V2</b></dt>
+<dt>0x32425044</dt>
 </dl>
 </td>
 <td width="60%">
@@ -79,9 +79,9 @@ The structure represents a DSA public key.
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="BCRYPT_DSA_PRIVATE_MAGIC"></a><a id="bcrypt_dsa_private_magic"></a><dl>
-<dt><b>BCRYPT_DSA_PRIVATE_MAGIC</b></dt>
-<dt>0x56505344</dt>
+<td width="40%"><a id="BCRYPT_DSA_PRIVATE_MAGIC_V2"></a><a id="bcrypt_dsa_private_magic_v2"></a><dl>
+<dt><b>BCRYPT_DSA_PRIVATE_MAGIC_V2</b></dt>
+<dt>0x32565044</dt>
 </dl>
 </td>
 <td width="60%">
@@ -101,46 +101,56 @@ A <a href="/windows/desktop/api/bcrypt/ne-bcrypt-hashalgorithm_enum">HASHALGORIT
 
 ### -field standardVersion
 
-A <a href="/windows/desktop/api/bcrypt/ne-bcrypt-dsafipsversion_enum">DSAFIPSVERSION_ENUM</a> enumeration value that specifies the Federal Information Processing Standard(FIPS) to apply.
+A <a href="/windows/desktop/api/bcrypt/ne-bcrypt-dsafipsversion_enum">DSAFIPSVERSION_ENUM</a> enumeration value that specifies the Federal Information Processing Standard (FIPS) to apply.
 
 ### -field cbSeedLength
 
-Length of the seed used to generate the prime number q.
+Length of the seed used to generate the prime number <i>q</i> in bytes.
 
 ### -field cbGroupSize
 
-Size of the prime number q . Currently, if the key is less than 128 bits, q is 20 bytes long. If the key exceeds 256 bits, q is 32 bytes long.
+Size of the prime number <i>q</i> in bytes. Currently, when the key exceeds 1024 bits in length, <i>q</i> is 32 bytes long.
 
 ### -field Count
 
-The number of iterations performed to generate the prime number q from the seed. For more information, see NIST standard FIPS186-3.
+The number of iterations performed to generate the prime number <i>q</i> from the seed. For more information, see NIST standard FIPS186-3.
 
 ## -remarks
 
-The structure applies to DSA keys that exceed 1024 bits in length but are less  than or equal to 3072 bits.
+The structure applies to DSA keys that exceed 1024 bits in length but are less than or equal to 3072 bits.
 
-This structure is used as a header for a larger buffer. A DSA <a href="/windows/desktop/SecGloss/p-gly">public key BLOB</a> (BCRYPT_DSA_PUBLIC_BLOB) has the following format in contiguous memory. The Modulus, Generator, and Public numbers are in big-endian format.
+This structure is used as a header for a larger buffer. A DSA <a href="/windows/desktop/SecGloss/p-gly">public key BLOB</a> (BCRYPT_DSA_PUBLIC_BLOB) has the following format in contiguous memory. The Seed, q, Modulus, Generator, and Public numbers are in big-endian format.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 BCRYPT_DSA_KEY_BLOB_V2
-Modulus[cbKey]     // Big-endian.
-Generator[cbKey]   // Big-endian.
-Public[cbKey]      // Big-endian.
-</code></pre>
-A DSA <a href="/windows/desktop/SecGloss/p-gly">private key BLOB</a> (BCRYPT_DSA_PRIVATE_BLOB) has the following format in contiguous memory. The Modulus, Generator, Public, and PrivateExponent numbers are in big-endian format.
+Seed[cbSeedLength]  // Big-endian.
+q[cbGroupSize]      // Big-endian.
+Modulus[cbKey]      // Big-endian.
+Generator[cbKey]    // Big-endian.
+Public[cbKey]       // Big-endian.
 
-<pre class="syntax" xml:space="preserve"><code>
+```
+
+A DSA <a href="/windows/desktop/SecGloss/p-gly">private key BLOB</a> (BCRYPT_DSA_PRIVATE_BLOB) has the following format in contiguous memory. The Seed, q, Modulus, Generator, Public, and PrivateExponent numbers are in big-endian format.
+
+
+``` syntax
+
 BCRYPT_DSA_KEY_BLOB_V2
-Modulus[cbKey]         // Big-endian.
-Generator[cbKey]       // Big-endian.
-Public[cbKey]          // Big-endian.
-PrivateExponent[20]    // Big-endian.
-</code></pre>
+Seed[cbSeedLength]              // Big-endian.
+q[cbGroupSize]                  // Big-endian.
+Modulus[cbKey]                  // Big-endian.
+Generator[cbKey]                // Big-endian.
+Public[cbKey]                   // Big-endian.
+PrivateExponent[cbGroupSize]    // Big-endian.
+
+```
+
 
 ## -see-also
 
 <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptexportkey">BCryptExportKey</a>
 
-
-
-<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptimportkey">BCryptImportKey</a>
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptimportkeypair">BCryptImportKeyPair</a>

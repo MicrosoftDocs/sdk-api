@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::SetUserValues </b>method sets the user settings for the joystick.
+The <b>IDirectInputJoyConfig8::SetUserValues </b> method sets the user settings for the joystick.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Points to a structure that receives information about the new user joystick settings.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies the parts of the <a href="/windows/desktop/api/dinputd/ns-dinputd-dijoyuservalues">DIJOYUSERVALUES</a> structure that contain values to be set.  There may be zero, one, or more of the following: 
 

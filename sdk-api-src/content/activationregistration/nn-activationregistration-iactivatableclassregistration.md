@@ -54,65 +54,7 @@ Enables getting  the registration info for a class.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IActivatableClassRegistration</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IActivatableClassRegistration</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IActivatableClassRegistration</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/activationregistration/nf-activationregistration-iactivatableclassregistration-get_activatableclassid">get_ActivatableClassId</a>
-</td>
-<td align="left" width="63%">
-Gets the class identifier for the current activatable class.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/activationregistration/nf-activationregistration-iactivatableclassregistration-get_activationtype">get_ActivationType</a>
-</td>
-<td align="left" width="63%">
-Gets the kind of activation for the current activatable class.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/activationregistration/nf-activationregistration-iactivatableclassregistration-get_attributes">get_Attributes</a>
-</td>
-<td align="left" width="63%">
-Gets the attributes associated with the current activatable class.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/activationregistration/nf-activationregistration-iactivatableclassregistration-get_registeredtrustlevel">get_RegisteredTrustLevel</a>
-</td>
-<td align="left" width="63%">
-Gets the trust level of the current activatable class.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/activationregistration/nf-activationregistration-iactivatableclassregistration-get_registrationscope">get_RegistrationScope</a>
-</td>
-<td align="left" width="63%">
-Gets the deployment scope of the current activatable class.
-
-</td>
-</tr>
-</table>
+The <b>IActivatableClassRegistration</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IActivatableClassRegistration</b> also has these types of members:
 
 ## -see-also
 

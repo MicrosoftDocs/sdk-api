@@ -64,7 +64,7 @@ Four element **float** array containing the values used to initialize the four c
 
 ## -remarks
 
-| Vector Component | Array Element | Range |  |
+| Vector Component | Array Element | Range | Description |
 |------------------|---------------|-------|--|
 | x | pArray[0] | 0.0, 1.0 | During instantiation, pArray[0] is clamped between 0 and 1, multiplied by 255.0f and assigned to x. |
 | y | pArray[1] | 0.0, 1.0 | During instantiation, pArray[1] is clamped between 0 and 1, multiplied by 255.0f, and then assigned to y. |

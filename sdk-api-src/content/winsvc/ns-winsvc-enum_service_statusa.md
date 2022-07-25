@@ -64,7 +64,7 @@ Contains the name of a service in a service control manager database and informa
 
 ### -field lpServiceName
 
-The name of a service in the service control manager database. The maximum string length is 256 characters. The service control manager database preserves the case of the characters, but service name comparisons are always case insensitive. A slash (/), backslash (\), comma, and space are invalid service name characters.
+The name of a service in the service control manager database. The maximum string length is 256 characters. The service control manager database preserves the case of the characters, but service name comparisons are always case insensitive. A slash (/), backslash (\\), comma, and space are invalid service name characters.
 
 ### -field lpDisplayName
 

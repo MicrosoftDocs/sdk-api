@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::OpenTypeKey </b>method opens the registry key associated with a joystick type.
+The <b>IDirectInputJoyConfig8::OpenTypeKey </b> method opens the registry key associated with a joystick type.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Points to the name of the type. The name of the type cannot exceed MAX_PATH characters, including the terminating null character. The name cannot begin with a "#" character. Types beginning with "#" are reserved by DirectInput.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies a registry security access mask. This can be any of the values permitted by the <b>RegOpenKeyEx</b> function. If write access is requested, then joystick configuration must first have been acquired. If only read access is requested, then acquisition is not required.
 
-### -param arg3
+### -param unnamedParam3
 
 Points to the opened registry key, on success.
 

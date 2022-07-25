@@ -59,53 +59,5 @@ The methods on this interface are useful in situations where an entire stream of
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFilterChain</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFilterChain</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IFilterChain</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFilterChain</b> also has these types of members:
 
-## -members
-
-The <b>IFilterChain</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ifilterchain-pausechain">PauseChain</a>
-</td>
-<td align="left" width="63%">
-Switches all the filters in a filter chain into a paused state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ifilterchain-removechain">RemoveChain</a>
-</td>
-<td align="left" width="63%">
-Removes every filter in a filter chain from the filter graph.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ifilterchain-startchain">StartChain</a>
-</td>
-<td align="left" width="63%">
-Switches all the filters in a filter chain into a running state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ifilterchain-stopchain">StopChain</a>
-</td>
-<td align="left" width="63%">
-Switches all the filters in a filter chain into a stopped state.
-
-</td>
-</tr>
-</table>

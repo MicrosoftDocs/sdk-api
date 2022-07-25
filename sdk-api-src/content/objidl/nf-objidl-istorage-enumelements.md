@@ -75,6 +75,14 @@ Pointer to
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The enumerator object was successfully returned.|
+|E_PENDING | Asynchronous Storage only: Part or all of the element's data is currently unavailable.|
+|STG_E_INSUFFICIENTMEMORY | The enumerator object could not be created due to lack of memory.|
+|STG_E_INVALIDPARAMETER | One of the parameters was not valid.|
+|STG_E_REVERTED | The storage object has been invalidated by a revert operation above it in the transaction tree.|
+
 ## -remarks
 
 The enumerator object returned by this method implements the 

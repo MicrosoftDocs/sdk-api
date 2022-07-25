@@ -58,65 +58,10 @@ The <b>IMSVidStreamBufferSource2</b> interface represents the Stream Buffer Sour
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSource2</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource</a>. <b>IMSVidStreamBufferSource2</b> also has these types of members:
+The <b>IMSVidStreamBufferSource2</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource</a>. <b>IMSVidStreamBufferSource2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMSVidStreamBufferSource2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource2-get_audiocounter">get_AudioCounter</a>
-</td>
-<td align="left" width="63%">
-Enables the caller to get performance statistics from the Stream Buffer Source for the audio stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource2-get_cccounter">get_CCCounter</a>
-</td>
-<td align="left" width="63%">
-Enables the caller to get performance statistics from the Stream Buffer Source for the closed captioning stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource2-get_videocounter">get_VideoCounter</a>
-</td>
-<td align="left" width="63%">
-Enables the caller to get performance statistics from the Stream Buffer Source for the video stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource2-get_wstcounter">get_WSTCounter</a>
-</td>
-<td align="left" width="63%">
-Enables the caller to get performance statistics from the Stream Buffer Source for the World Standard Teletext (WST) stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource2-put_rateex">put_RateEx</a>
-</td>
-<td align="left" width="63%">
-Sets the playback rate, and sets the frame rate for fast-forward play ("trick mode").
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

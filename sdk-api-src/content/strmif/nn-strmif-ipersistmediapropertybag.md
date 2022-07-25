@@ -59,44 +59,5 @@ The <a href="/windows/desktop/DirectShow/avi-splitter-filter">AVI Splitter</a> f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistMediaPropertyBag</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPersistMediaPropertyBag</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPersistMediaPropertyBag</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPersistMediaPropertyBag</b> also has these types of members:
 
-## -members
-
-The <b>IPersistMediaPropertyBag</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ipersistmediapropertybag-initnew">InitNew</a>
-</td>
-<td align="left" width="63%">
-Initializes the object to receive new properties.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ipersistmediapropertybag-load">Load</a>
-</td>
-<td align="left" width="63%">
-Loads properties from the media property bag into the filter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ipersistmediapropertybag-save">Save</a>
-</td>
-<td align="left" width="63%">
-Saves properties from the filter into the media property bag.
-
-</td>
-</tr>
-</table>

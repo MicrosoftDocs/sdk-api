@@ -54,29 +54,7 @@ Exposes a method that launches an advanced association dialog box through which 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IApplicationAssociationRegistrationUI</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IApplicationAssociationRegistrationUI</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IApplicationAssociationRegistrationUI</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iapplicationassociationregistrationui-launchadvancedassociationui">LaunchAdvancedAssociationUI</a>
-</td>
-<td align="left" width="63%">
-Launches an advanced association dialog box through which the user can customize the associations for the application specified in <i>pszAppRegName</i>.
-
-</td>
-</tr>
-</table>
+The <b>IApplicationAssociationRegistrationUI</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IApplicationAssociationRegistrationUI</b> also has these types of members:
 
 ## -remarks
 

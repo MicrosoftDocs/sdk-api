@@ -88,8 +88,7 @@ The parsing performed by <b>ParseURL</b> is fairly rudimentary. For more sophist
 This sample console application uses <b>ParseURL</b> to parse several simple URLs.
 
 
-```cpp
-
+```c
 #include <windows.h>
 #include <shlwapi.h>
 #include <stdio.h>
@@ -117,10 +116,10 @@ int __cdecl main()
     sample(TEXT("C:\\AUTOEXEC.BAT"));
     return 0;
 }   
+```
 
-OUTPUT:
----------
-
+Output:
+```plain
 ParseURL(http://msdn.microsoft.com/vstudio/) returned 0x00000000
 Protocol = http
 Suffix   = //msdn.microsoft.com/vstudio/
@@ -137,7 +136,6 @@ Suffix   = C:\AUTOEXEC.BAT
 Scheme   = 9
 
 ParseURL(C:\AUTOEXEC.BAT) returned 0x80041001
-                
 ```
 
 

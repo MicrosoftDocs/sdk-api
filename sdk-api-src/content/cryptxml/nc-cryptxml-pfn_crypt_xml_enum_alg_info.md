@@ -55,11 +55,11 @@ The <i>PFN_CRYPT_XML_ENUM_ALG_INFO</i> callback function enumerates predefined a
 
 ## -parameters
 
-### -param *pInfo [in]
+### -param pInfo [in]
 
 A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm_info">CRYPT_XML_ALGORITHM_INFO</a> structure.
 
-### -param *pvArg [in, out, optional]
+### -param pvArg [in, out, optional]
 
 A pointer to an argument that is passed to the callback function from the calling function.
 

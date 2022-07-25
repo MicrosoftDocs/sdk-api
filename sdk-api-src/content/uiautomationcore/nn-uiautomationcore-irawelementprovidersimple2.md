@@ -54,29 +54,7 @@ Extends the <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRawElementProviderSimple2</b> interface inherits from <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>. <b>IRawElementProviderSimple2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IRawElementProviderSimple2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementprovidersimple2-showcontextmenu">ShowContextMenu</a>
-</td>
-<td align="left" width="63%">
-Programmatically invokes a context menu on the target element.
-
-</td>
-</tr>
-</table>
+The <b>IRawElementProviderSimple2</b> interface inherits from <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>. <b>IRawElementProviderSimple2</b> also has these types of members:
 
 ## -remarks
 

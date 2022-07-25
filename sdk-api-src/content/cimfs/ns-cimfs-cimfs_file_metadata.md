@@ -2,10 +2,9 @@
 UID: NS:cimfs._CIMFS_FILE_METADATA
 title: CIMFS_FILE_METADATA
 ms.date: 9/9/2019
+tech.root: cimfs
 ms.keywords: _CIMFS_FILE_METADATA, CIMFS_FILE_METADATA
-ms.topic: language-reference
 targetos: Windows
-product: Windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -69,7 +68,7 @@ Last access time
 
 ### -field SecurityDescriptorBuffer
 
-Buffer containing the file security descriptor
+Buffer containing the file security descriptor 
 
 ### -field SecurityDescriptorSize
 
@@ -94,4 +93,3 @@ Size of the EaBuffer in bytes
 ## -remarks
 
 ## -see-also
-

@@ -105,7 +105,7 @@ If both an icon and an image list are specified for a button's image, the icon i
 
 Applications must provide these button images:
             
-                    <ul>
+<ul>
 <li>The button in its default active state.</li>
 <li>Images suitable for use with high-dpi (dots per inch) displays.</li>
 </ul>

@@ -54,7 +54,7 @@ Gets the current value of the fence.
 
 This member function is equivalent to the Direct3D 12 <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12fence-getcompletedvalue">ID3D12Fence::GetCompletedValue</a> member function, and applies between Direct3D 11 and Direct3D 12 in interop scenarios.
 
-## -parameters
+
 
 ## -returns
 

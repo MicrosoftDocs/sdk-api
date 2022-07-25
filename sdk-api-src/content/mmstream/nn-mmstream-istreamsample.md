@@ -62,62 +62,8 @@ In addition to the methods inherited from <b>IUnknown</b>, the <code>IStreamSamp
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamSample</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamSample</b> also has these types of members:
+The <b>IStreamSample</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamSample</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IStreamSample</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmstream/nf-mmstream-istreamsample-completionstatus">CompletionStatus</a>
-</td>
-<td align="left" width="63%">
-Retrieves the status of the current sample's latest asynchronous update. If the update isn't complete, you can force it to complete.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmstream/nf-mmstream-istreamsample-getmediastream">GetMediaStream</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to the media stream object that created the current sample.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmstream/nf-mmstream-istreamsample-getsampletimes">GetSampleTimes</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current sample's start and end times.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmstream/nf-mmstream-istreamsample-setsampletimes">SetSampleTimes</a>
-</td>
-<td align="left" width="63%">
-Sets the current sample's start and end times.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmstream/nf-mmstream-istreamsample-update">Update</a>
-</td>
-<td align="left" width="63%">
-Performs a synchronous or an asynchronous update on the current sample.
-
-</td>
-</tr>
-</table>

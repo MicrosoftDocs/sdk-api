@@ -60,7 +60,7 @@ To mark a font as private or not enumerable, use the <a href="/windows/desktop/a
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to a null-terminated character string that contains a valid font file name. This parameter can specify any of the following files.
 

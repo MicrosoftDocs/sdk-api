@@ -65,7 +65,7 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846808(v=VS.85).aspx">IInkTransform</a>
+<a href="../msinkaut/nn-msinkaut-iinktransform.md">IInkTransform</a>
 
 
 

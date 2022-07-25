@@ -142,7 +142,7 @@ Because the Media Foundation pipeline is multithreaded, the source's <b>RequestS
 
 If the media source is paused, the method succeeds, but the stream does not deliver the sample until the source is started again.
 
-If a media source enounters an error asynchronously while processing data, it should signal the error in one of the following ways (but not both):
+If a media source encounters an error asynchronously while processing data, it should signal the error in one of the following ways (but not both):
 
 <ul>
 <li>Return an error code from the next <b>RequestSample</b> call.</li>

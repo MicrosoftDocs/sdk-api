@@ -56,7 +56,7 @@ Specifies the type of query syntax.
 
 ## -enum-fields
 
-### -field SQS_NO_SYNTAX
+### -field SQS_NO_SYNTAX:0
 
 No syntax.
 

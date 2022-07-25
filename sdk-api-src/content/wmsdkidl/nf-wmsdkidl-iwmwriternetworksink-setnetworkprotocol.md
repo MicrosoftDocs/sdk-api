@@ -59,7 +59,7 @@ The <b>SetNetworkProtocol</b> method sets the network protocol that the network 
 
 ### -param protocol [in]
 
-Specifies the procotcol, as a value from the <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_net_protocol">WMT_NET_PROTOCOL</a> enumeration type.
+Specifies the protocol, as a value from the <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_net_protocol">WMT_NET_PROTOCOL</a> enumeration type.
 
 ## -returns
 

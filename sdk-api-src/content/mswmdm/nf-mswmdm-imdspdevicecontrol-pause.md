@@ -53,7 +53,7 @@ api_name:
 
 The <b>Pause</b> method pauses the current play or record session at the current position within the content.
 
-## -parameters
+
 
 ## -returns
 

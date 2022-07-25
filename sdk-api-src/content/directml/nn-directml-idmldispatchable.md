@@ -57,4 +57,3 @@ This interface is implemented by [IDMLCompiledOperator](/windows/win32/api/direc
 ## -see-also
 
 [IDMLPageable](/windows/win32/api/directml/nn-directml-idmlpageable)
-

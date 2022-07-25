@@ -77,7 +77,7 @@ If the new position of the <a href="/windows/desktop/tablet/peninputpanel-class"
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846809(v=VS.85).aspx">IPenInputPanel</a>
+<a href="../peninputpanel/nn-peninputpanel-ipeninputpanel.md">IPenInputPanel</a>
 
 
 

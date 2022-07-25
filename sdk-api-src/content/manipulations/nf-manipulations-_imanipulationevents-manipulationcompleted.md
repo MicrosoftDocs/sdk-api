@@ -92,7 +92,7 @@ Manipulation events are generated for both the <a href="/windows/desktop/api/man
     If you are using the values from the <a href="/windows/desktop/api/winuser/ns-winuser-touchinput">TOUCHINPUT</a> structure in calls to <a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processup">ProcessUp</a>, the coordinates will be in 
     hundredths of a pixel.
 
-<div class="alert"><b>Note</b>  When using inertia, calls to <a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-complete">IInertiaProcessor::Complete</a>can force the current manipulation to be extrapolated resulting in large deltas being passed to the ManipulationCompleted event.
+<div class="alert"><b>Note</b>  When using inertia, calls to <a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-complete">IInertiaProcessor::Complete</a> can force the current manipulation to be extrapolated resulting in large deltas being passed to the ManipulationCompleted event.
 	 To address this issue, perform updates on the completed event in addition to the delta event.
 	 </div>
 <div> </div>

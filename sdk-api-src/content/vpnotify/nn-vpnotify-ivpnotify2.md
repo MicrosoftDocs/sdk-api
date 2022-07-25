@@ -57,38 +57,10 @@ Applications should never use this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVPNotify2</b> interface inherits from <a href="/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a>. <b>IVPNotify2</b> also has these types of members:
+The <b>IVPNotify2</b> interface inherits from <a href="/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a>. <b>IVPNotify2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IVPNotify2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vpnotify/nf-vpnotify-ivpnotify2-getvpsyncmaster">GetVPSyncMaster</a>
-</td>
-<td align="left" width="63%">
-Checks whether the video port controls the synchronization of the VGA.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vpnotify/nf-vpnotify-ivpnotify2-setvpsyncmaster">SetVPSyncMaster</a>
-</td>
-<td align="left" width="63%">
-Sets whether the video port controls vertical synchronization of the VGA.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

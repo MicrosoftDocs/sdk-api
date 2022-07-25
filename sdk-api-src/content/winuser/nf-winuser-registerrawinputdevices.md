@@ -92,6 +92,8 @@ To receive <a href="/windows/desktop/inputdev/wm-input-device-change">WM_INPUT_D
 
 If a <a href="/windows/desktop/api/winuser/ns-winuser-rawinputdevice">RAWINPUTDEVICE</a> structure has the RIDEV_REMOVE flag set and the hwndTarget parameter is not set to NULL, then parameter validation will fail.
 
+Only one window per raw input device class may be registered to receive raw input within a process (the window passed in the last call to RegisterRawInputDevices). Because of this, RegisterRawInputDevices should not be used from a library, as it may interfere with any raw input processing logic already present in applications that load it.
+
 ## -see-also
 
 <b>Conceptual</b>

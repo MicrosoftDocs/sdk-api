@@ -3,7 +3,6 @@ UID: NA:windows.devices.display.core.interop
 title: windows.devices.display.core.interop.h header
 ms.date: 04/30/2020
 ms.keywords: windows.devices.display.core.interop
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: apiset
@@ -53,5 +52,3 @@ This header is used by Windows Runtime C++ reference. For more information, see:
 - [Windows Runtime C++ reference](../_winrt/index.md)
 
 ## -see-also
-
-## -examples

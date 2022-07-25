@@ -55,7 +55,7 @@ The custom-scripting DLL calls
 
 ## -parameters
 
-### -param *ppBuffer
+### -param ppBuffer
 
 Pointer to a pointer that receives the address of the returned buffer.
 

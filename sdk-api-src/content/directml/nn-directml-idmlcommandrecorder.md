@@ -63,4 +63,3 @@ This object is thread-safe.
 ## -see-also
 
 [IDMLDeviceChild](/windows/win32/api/directml/nn-directml-idmldevicechild)
-

@@ -53,7 +53,7 @@ api_name:
 
 The <code>AbortOperation</code> method cancels the file-open operation.
 
-## -parameters
+
 
 ## -returns
 

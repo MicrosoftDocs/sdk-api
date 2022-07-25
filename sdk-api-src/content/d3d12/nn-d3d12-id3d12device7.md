@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12.ID3D12Device7
 title: ID3D12Device7
-description: Represents a virtual adapter. This interface extends [ID3D12Device6](./nn-d3d12-id3d12device6.md).
+description: Represents a virtual adapter. This interface extends [ID3D12Device6](../d3d12/nn-d3d12-id3d12device6.md).
 helpviewer_keywords: ["ID3D12Device7","ID3D12Device7 interface","ID3D12Device7 interface","described","d3d12/ID3D12Device7","direct3d12.id3d12device7"]
 tech.root: direct3d12
 ms.date: 09/16/2020
@@ -9,8 +9,8 @@ ms.keywords: ID3D12Device7, ID3D12Device7 interface, ID3D12Device7 interface,des
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -46,7 +46,7 @@ api_name:
 
 Represents a virtual adapter.
 
-This interface extends [ID3D12Device6](./nn-d3d12-id3d12device6.md).
+This interface extends [ID3D12Device6](/windows/win32/api/d3d12/nn-d3d12-id3d12device6).
 
 ## -remarks
 

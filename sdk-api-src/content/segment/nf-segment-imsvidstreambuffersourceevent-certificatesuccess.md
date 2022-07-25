@@ -57,7 +57,7 @@ This topic applies to Windows XP Service Pack 1 or later.
 
 The <b>CertificateSuccess</b> method is called when the object succeeds in getting an encryption/decryption license. The method is called only if an earlier failure occurred.
 
-## -parameters
+
 
 ## -returns
 

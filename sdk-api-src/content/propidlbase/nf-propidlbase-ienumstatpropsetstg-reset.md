@@ -52,7 +52,7 @@ api_name:
 
 The <b>Reset</b> method resets the enumeration sequence to the beginning of the <a href="/windows/desktop/api/propidl/ns-propidl-statpropsetstg">STATPROPSETSTG</a> structure array.
 
-## -parameters
+
 
 ## -returns
 

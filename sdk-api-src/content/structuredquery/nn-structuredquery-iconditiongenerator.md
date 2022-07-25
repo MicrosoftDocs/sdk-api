@@ -54,59 +54,7 @@ Provides methods for handling named entities and generating special conditions.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConditionGenerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConditionGenerator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IConditionGenerator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditiongenerator-defaultphrase">DefaultPhrase</a>
-</td>
-<td align="left" width="63%">
-This method attempts to produce a phrase that, when recognized by this instance of <b>IConditionGenerator</b>, represents the type and value pair for an entity, relationship, or named entity.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditiongenerator-generateforleaf">GenerateForLeaf</a>
-</td>
-<td align="left" width="63%">
-Generates a special query expression for what would otherwise become a leaf query expression.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditiongenerator-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Resets all states of the interface to default values and retrieves any necessary information from the schema.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditiongenerator-recognizenamedentities">RecognizeNamedEntities</a>
-</td>
-<td align="left" width="63%">
-Identifies named entities in an input string, and creates a collection containing them. The value of each named entity is expressed as a string, which is then used by <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditiongenerator-generateforleaf">IConditionGenerator::GenerateForLeaf</a>. The string can contain any data and be in any format, because it is not examined by any other components.
-	    
-
-</td>
-</tr>
-</table>
+The <b>IConditionGenerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConditionGenerator</b> also has these types of members:
 
 ## -remarks
 

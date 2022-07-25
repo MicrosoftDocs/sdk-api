@@ -57,56 +57,7 @@ To get a pointer to this interface, call <a href="/windows/desktop/api/mfobjects
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEvent</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFMediaEvent</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFMediaEvent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getextendedtype">GetExtendedType</a>
-</td>
-<td align="left" width="63%">
-Retrieves the extended type of the event.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getstatus">GetStatus</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <b>HRESULT</b> that specifies the event status.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-gettype">GetType</a>
-</td>
-<td align="left" width="63%">
-Retrieves the event type.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue">GetValue</a>
-</td>
-<td align="left" width="63%">
-Retrieves the value associated with the event.
-
-</td>
-</tr>
-</table>
+The <b>IMFMediaEvent</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFMediaEvent</b> also has these types of members:
 
 ## -remarks
 

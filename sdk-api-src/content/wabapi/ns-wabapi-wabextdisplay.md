@@ -93,7 +93,7 @@ If your application uses named properties, and you want to get the named propert
 
 Type: <b>BOOL</b>
 
-Variable of type <b>BOOL</b> that specifies the read-only property on certain kinds of objects, such as the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference">VCARD_NAME</a> attribute, <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> search results, and <a href="https://docs.microsoft.com/">one-off</a> MailUser. This member is relevant only for <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellpropsheetext">IShellPropSheetExt Interface</a>. If this flag is set to true, one's property sheet must set all its controls to a read-only or disabled mode, typically in response to the <a href="/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message. Setting  controls to a read-only state makes the user experience more consistent.
+Variable of type <b>BOOL</b> that specifies the read-only property on certain kinds of objects, such as the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference">VCARD_NAME</a> attribute, <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> search results, and one-off MailUser. This member is relevant only for <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellpropsheetext">IShellPropSheetExt Interface</a>. If this flag is set to true, one's property sheet must set all its controls to a read-only or disabled mode, typically in response to the <a href="/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message. Setting  controls to a read-only state makes the user experience more consistent.
 
 ### -field fDataChanged
 

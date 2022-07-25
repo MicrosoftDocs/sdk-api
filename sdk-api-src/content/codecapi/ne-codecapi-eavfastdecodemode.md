@@ -54,19 +54,19 @@ Specifies the video decoding speed. This enumeration is used with the <a href="/
 
 ## -enum-fields
 
-### -field eVideoDecodeCompliant
+### -field eVideoDecodeCompliant:0
 
 Use normal decoding.
 
-### -field eVideoDecodeOptimalLF
+### -field eVideoDecodeOptimalLF:1
 
 Use the optimal loop filter.
 
-### -field eVideoDecodeDisableLF
+### -field eVideoDecodeDisableLF:2
 
 Disable the loop filter.
 
-### -field eVideoDecodeFastest
+### -field eVideoDecodeFastest:32
 
 Use the fastest decoding mode.
 

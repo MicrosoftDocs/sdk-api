@@ -96,7 +96,11 @@ This passes "<i>&lt;section&gt;</i><i>&lt;mode&gt;</i><i>&lt;path&gt;</i>" to <i
 Alternatively, your program may call 
 <b>InstallHinfSection</b>, <b>InstallHinfSectionA</b>, or <b>InstallHinfSectionW</b> directly, setting the <i>CmdLineBuffer</i> parameter to the following.
 
-<pre class="syntax" xml:space="preserve"><code>"&lt;section&gt; &lt;mode&gt; &lt;path&gt;"</code></pre>
+
+``` syntax
+"<section> <mode> <path>"
+```
+
 Where <i>path</i> is the full path to the .inf file, <i>mode</i> is the reboot mode parameter, and <i>section</i> is any <b>Install</b> section in the .inf file. The comma separator between SETUPAPI.DLL and 
 <b>InstallHinfSection</b> on the command line is required. Note that there cannot be any white space on the command line between the comma and SETUPAPI.DLL or 
 <b>InstallHinfSection</b>.

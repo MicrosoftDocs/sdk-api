@@ -52,9 +52,7 @@ api_name:
 
 Resets a metadata object state to <b>WS_METADATA_STATE_CREATED</b>.
             
-                In this state the Metadata object can be reused.
-            <a href="/windows/desktop/wsw/ws-policy">WS_POLICY</a> objects that
-                were retrieved using the Metadata object will be released.
+In this state the Metadata object can be reused. <a href="/windows/desktop/wsw/ws-policy">WS_POLICY</a> objects that were retrieved using the Metadata object will be released.
 
 ## -parameters
 

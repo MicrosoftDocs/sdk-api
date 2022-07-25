@@ -54,13 +54,13 @@ The <b>FWPM_SYSTEM_PORTS_CALLBACK0</b> function is used to add custom behavior t
 
 ## -parameters
 
-### -param *context [in, out]
+### -param context [in, out]
 
 Type: <b>void*</b>
 
 Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmsystemportssubscribe0">FwpmSystemPortsSubscribe0</a> function.
 
-### -param *sysPorts [in]
+### -param sysPorts [in]
 
 Type: [FWPM_SYSTEM_PORTS0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_system_ports0)*</b>
 

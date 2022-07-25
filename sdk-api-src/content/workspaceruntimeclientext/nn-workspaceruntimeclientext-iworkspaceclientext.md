@@ -54,44 +54,5 @@ Exposes methods that allow the runtime to disconnect a custom client in RemoteAp
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspaceClientExt</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWorkspaceClientExt</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWorkspaceClientExt</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWorkspaceClientExt</b> also has these types of members:
 
-## -members
-
-The <b>IWorkspaceClientExt</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/workspaceruntimeclientext/nf-workspaceruntimeclientext-iworkspaceclientext-getresourcedisplayname">GetResourceDisplayName</a>
-</td>
-<td align="left" width="63%">
-Returns the display name of the custom client in RemoteApp and Desktop Connection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/workspaceruntimeclientext/nf-workspaceruntimeclientext-iworkspaceclientext-getresourceid">GetResourceId</a>
-</td>
-<td align="left" width="63%">
-Returns the ID of the custom client in RemoteApp and Desktop Connection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/workspaceruntimeclientext/nf-workspaceruntimeclientext-iworkspaceclientext-issuedisconnect">IssueDisconnect</a>
-</td>
-<td align="left" width="63%">
-Disconnects the custom client in RemoteApp and Desktop Connection.
-
-</td>
-</tr>
-</table>

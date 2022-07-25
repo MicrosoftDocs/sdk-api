@@ -54,59 +54,10 @@ Contains methods that enable a Protected Broadcast Driver Architecture (PBDA)-su
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IESRequestTunerEvent</b> interface inherits from <b>IESEvent</b>. <b>IESRequestTunerEvent</b> also has these types of members:
+The <b>IESRequestTunerEvent</b> interface inherits from <b>IESEvent</b>. <b>IESRequestTunerEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IESRequestTunerEvent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getconsequences">GetConsequences</a>
-</td>
-<td align="left" width="63%">
-Gets a code that indicates consquences of a device request for exclusive access to a tuner and its CAS.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getestimatedtime">GetEstimatedTime</a>
-</td>
-<td align="left" width="63%">
-Gets the amount of time a device estimates it  needs exclusive access to a tuner and its CAS.
-          
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getpriority">GetPriority</a>
-</td>
-<td align="left" width="63%">
-Gets a code that indicates the the priority of a device request for exclusive access to a tuner and its Conditional Access Services (CAS).
-          
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getreason">GetReason</a>
-</td>
-<td align="left" width="63%">
-Gets a code that indicates the reason a device is requesting exclusive access to a tuner and its CAS.
-          
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

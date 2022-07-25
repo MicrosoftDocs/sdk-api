@@ -54,65 +54,10 @@ The <b>IMSVidAudioRendererDevices</b> interface represents a collection of audio
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidAudioRendererDevices</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMSVidAudioRendererDevices</b> also has these types of members:
+The <b>IMSVidAudioRendererDevices</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMSVidAudioRendererDevices</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMSVidAudioRendererDevices</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererdevices-add">Add</a>
-</td>
-<td align="left" width="63%">
-Adds an audio renderer to the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererdevices-get__newenum">get__NewEnum</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumerator for the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererdevices-get_count">get_Count</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of items in the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererdevices-get_item">get_Item</a>
-</td>
-<td align="left" width="63%">
-Retrieves the specified item from the collection
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererdevices-remove">Remove</a>
-</td>
-<td align="left" width="63%">
-Removes an item from the collection.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

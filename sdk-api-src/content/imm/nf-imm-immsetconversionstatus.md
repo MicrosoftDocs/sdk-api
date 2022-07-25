@@ -53,15 +53,15 @@ Sets the current conversion status.
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Handle to the input context.
 
-### -param Arg2 [in]
+### -param unnamedParam2 [in]
 
 Conversion mode values. For more information, see <a href="/windows/desktop/Intl/ime-conversion-mode-values">IME Conversion Mode Values</a>.
 
-### -param Arg3 [in]
+### -param unnamedParam3 [in]
 
 Sentence mode values. For more information, see <a href="/windows/desktop/Intl/ime-sentence-mode-values">IME Sentence Mode Values</a>.
 

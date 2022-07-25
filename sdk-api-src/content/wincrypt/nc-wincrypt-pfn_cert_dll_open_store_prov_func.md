@@ -276,7 +276,7 @@ A pointer to a null-terminated Unicode string that contains a system store name,
 <td>
 Initializes the store with certificates, CRLs, and CTLs from a specified physical store that is a member of a logical system store.
 
-Two names are separated with an intervening backslash (\), for example "Root\.LocalMachine". Here, "Root" is the name of the system store and ".LocalMachine" is the name of the physical store. The system and physical store names cannot contain any backslashes. The high word of <i>dwFlags</i> indicates the system store location, usually CERT_SYSTEM_STORE_CURRENT_USER. For more information, see <i>dwFlags</i> later in this topic. Some physical store locations can be opened remotely.
+Two names are separated with an intervening backslash (\\), for example "Root\.LocalMachine". Here, "Root" is the name of the system store and ".LocalMachine" is the name of the physical store. The system and physical store names cannot contain any backslashes. The high word of <i>dwFlags</i> indicates the system store location, usually CERT_SYSTEM_STORE_CURRENT_USER. For more information, see <i>dwFlags</i> later in this topic. Some physical store locations can be opened remotely.
 
 </td>
 <td>
@@ -781,7 +781,7 @@ Use this flag with the <b>CERT_LDAP_STORE_OPENED_FLAG</b> flag to cause the LDAP
 </tr>
 </table>
 
-### -param *pvPara [in]
+### -param pvPara [in]
 
 A 32-bit value that can contain additional information for this function. The contents of this parameter depends on the value of the <i>lpszStoreProvider</i> and other parameters.
 

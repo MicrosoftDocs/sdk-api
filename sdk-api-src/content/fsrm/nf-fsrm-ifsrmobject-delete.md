@@ -52,7 +52,7 @@ api_name:
 
 Removes the object from the server's list of objects.
 
-## -parameters
+
 
 ## -returns
 

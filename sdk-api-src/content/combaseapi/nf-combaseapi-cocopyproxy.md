@@ -108,10 +108,13 @@ This helper function encapsulates the following sequence of common calls (error 
 
 
 
-<pre class="syntax" xml:space="preserve"><code>    pProxy-&gt;QueryInterface(IID_IClientSecurity, (void**)&amp;pcs);
-    pcs-&gt;CopyProxy(punkProxy, ppunkCopy);
-    pcs-&gt;Release();
-</code></pre>
+
+``` syntax
+    pProxy->QueryInterface(IID_IClientSecurity, (void**)&pcs);
+    pcs->CopyProxy(punkProxy, ppunkCopy);
+    pcs->Release();
+```
+
 Local interfaces may not be copied. <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and <a href="/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a> are examples of existing local interfaces.
 
 Copies of the same proxy have a special relationship with respect to <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>. Given a proxy, a, of the IA interface of a remote object, suppose a copy of a is created, called b. In this case, calling <b>QueryInterface</b> from the b proxy for IID_IA will not retrieve the IA interface on b, but the one on a, the original proxy with the "default" security settings for the IA interface.

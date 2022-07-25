@@ -52,7 +52,7 @@ api_name:
 
 Enters the Direct2D API critical section, if it exists.
 
-## -parameters
+
 
 ## -see-also
 

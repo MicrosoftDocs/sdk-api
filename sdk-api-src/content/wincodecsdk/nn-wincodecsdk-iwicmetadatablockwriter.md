@@ -54,65 +54,7 @@ Exposes methods that enable the encoding of metadata. This interface is implemen
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataBlockWriter</b> interface inherits from <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader">IWICMetadataBlockReader</a>. <b>IWICMetadataBlockWriter</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWICMetadataBlockWriter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatablockwriter-addwriter">AddWriter</a>
-</td>
-<td align="left" width="63%">
-Adds a top-level metadata block by adding a <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatawriter">IWICMetadataWriter</a> for it.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatablockwriter-getwriterbyindex">GetWriterByIndex</a>
-</td>
-<td align="left" width="63%">
-Retrieves the <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatawriter">IWICMetadataWriter</a> that resides at the specified index.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatablockwriter-initializefromblockreader">InitializeFromBlockReader</a>
-</td>
-<td align="left" width="63%">
-Initializes an <b>IWICMetadataBlockWriter</b> from the given <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader">IWICMetadataBlockReader</a>. This will prepopulate the metadata block writer with all the metadata in the metadata block reader.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatablockwriter-removewriterbyindex">RemoveWriterByIndex</a>
-</td>
-<td align="left" width="63%">
-Removes the metadata writer from the specified index location.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatablockwriter-setwriterbyindex">SetWriterByIndex</a>
-</td>
-<td align="left" width="63%">
-Replaces the metadata writer at the specified index location.
-
-</td>
-</tr>
-</table>
+The <b>IWICMetadataBlockWriter</b> interface inherits from <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader">IWICMetadataBlockReader</a>. <b>IWICMetadataBlockWriter</b> also has these types of members:
 
 ## -remarks
 

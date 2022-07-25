@@ -55,7 +55,7 @@ api_name:
 
 The <b>Close</b> method deletes all outputs on the reader and releases the file resources.
 
-## -parameters
+
 
 ## -returns
 

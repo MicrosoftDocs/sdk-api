@@ -52,37 +52,30 @@ api_name:
 
 This operation begins the process  of putting the specified XML Reader in a standard or "canonized" form.
       
-
 The usage pattern for canonicalization is:
 
-        <ul>
+<ul>
 <li> Move the Reader to the element where canonicalization begins.
-          </li>
+</li>
 <li> Call <b>WsStartReaderCanonicalization</b>.
-          </li>
+</li>
 <li> Move the Reader forward to the end position.</li>
 <li> Call <a href="/windows/desktop/api/webservices/nf-webservices-wsendreadercanonicalization">WsEndReaderCanonicalization</a>.
-        </li>
-</ul>During this process the canonical bytes are written to the
-        specified writeCallback.  <div class="alert"><b>Note</b>  Nodes advanced over
-        are canonicalized including nodes of child elements skipped using <a href="/windows/desktop/api/webservices/nf-webservices-wsskipnode">WsSkipNode</a>. This is beneficial because it means that canonicalization and parsing can be done in one pass over
-        the XML content regardless of what functions are used to read
-        the data.
-      </div>
+</li>
+</ul>During this process the canonical bytes are written to the specified writeCallback.
+
+<div class="alert"><b>Note</b> Nodes advanced over
+are canonicalized including nodes of child elements skipped using <a href="/windows/desktop/api/webservices/nf-webservices-wsskipnode">WsSkipNode</a>. This is beneficial because it means that canonicalization and parsing can be done in one pass over the XML content regardless of what functions are used to read the data.
+</div>
 <div> </div>
 
 
-In order to use the XML Reader solely
-        for canonicalizing an XML element node the application can
-        call <b>WsStartReaderCanonicalization</b>, <a href="/windows/desktop/api/webservices/nf-webservices-wsskipnode">WsSkipNode</a>and <a href="/windows/desktop/api/webservices/nf-webservices-wsendreadercanonicalization">WsEndReaderCanonicalization</a> when the Reader is positioned
-        on the element.
-      <b>WsEndReaderCanonicalization</b> must be called in order to ensure that all
-        canonicalized bytes are written to the specified callback.
-      <div class="alert"><b>Note</b>  <code>WsEndReaderCanonicalization</code> must be called at the same depth at
-        which <b>WsStartReaderCanonicalization</b>.  Other reader functions
-        return an error if moved to a depth lower than where
-        <b>WsStartReaderCanonicalization</b> was called.
-      </div>
+In order to use the XML Reader solely for canonicalizing an XML element node the application can call <b>WsStartReaderCanonicalization</b>, <a href="/windows/desktop/api/webservices/nf-webservices-wsskipnode">WsSkipNode</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wsendreadercanonicalization">WsEndReaderCanonicalization</a> when the Reader is positioned on the element.
+      
+<b>WsEndReaderCanonicalization</b> must be called in order to ensure that all canonicalized bytes are written to the specified callback.
+
+<div class="alert"><b>Note</b>  <code>WsEndReaderCanonicalization</code> must be called at the same depth at which <b>WsStartReaderCanonicalization</b>. Other reader functions return an error if moved to a depth lower than where <b>WsStartReaderCanonicalization</b> was called.
+d</div>
 <div> </div>
 
 

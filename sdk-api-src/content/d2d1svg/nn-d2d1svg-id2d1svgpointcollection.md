@@ -54,53 +54,5 @@ Interface describing an SVG points value in a polyline or polygon element.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SvgPointCollection</b> interface inherits from <a href="/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgattribute">ID2D1SvgAttribute</a>. <b>ID2D1SvgPointCollection</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID2D1SvgPointCollection</b> interface inherits from <a href="/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgattribute">ID2D1SvgAttribute</a>. <b>ID2D1SvgPointCollection</b> also has these types of members:
 
-## -members
-
-The <b>ID2D1SvgPointCollection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgpointcollection-getpoints">GetPoints</a>
-</td>
-<td align="left" width="63%">
-Gets points from the points array.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgpointcollection-getpointscount">GetPointsCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of points in the array.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgpointcollection-removepointsatend">RemovePointsAtEnd</a>
-</td>
-<td align="left" width="63%">
-Removes points from the end of the array.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgpointcollection-updatepoints">UpdatePoints</a>
-</td>
-<td align="left" width="63%">
-Updates the points array. Existing points not updated by this method are preserved. The array is resized larger if necessary to accomodate the new points.
-
-</td>
-</tr>
-</table>

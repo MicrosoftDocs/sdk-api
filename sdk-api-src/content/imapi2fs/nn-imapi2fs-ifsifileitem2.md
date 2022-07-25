@@ -54,74 +54,7 @@ Use this interface to add, remove and enumerate named streams associated with a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsiFileItem2</b> interface inherits from <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem">IFsiFileItem</a>. <b>IFsiFileItem2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IFsiFileItem2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-addstream">AddStream</a>
-</td>
-<td align="left" width="63%">
-Associates a named stream with a file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-get_fsinamedstreams">get_FsiNamedStreams</a>
-</td>
-<td align="left" width="63%">
-Retrieves the named streams associated with a file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-get_isnamedstream">get_IsNamedStream</a>
-</td>
-<td align="left" width="63%">
-Determines if the item is a named stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-get_isrealtime">get_IsRealTime</a>
-</td>
-<td align="left" width="63%">
-Determines if a file item is a 'Real-Time' or a standard file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-put_isrealtime">put_IsRealTime</a>
-</td>
-<td align="left" width="63%">
-Sets the 'Real-Time' attribute of a file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-removestream">RemoveStream</a>
-</td>
-<td align="left" width="63%">
-Removes a named stream association with a file.
-
-</td>
-</tr>
-</table>
+The <b>IFsiFileItem2</b> interface inherits from <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem">IFsiFileItem</a>. <b>IFsiFileItem2</b> also has these types of members:
 
 ## -remarks
 

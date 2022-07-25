@@ -54,11 +54,11 @@ Identify the portion of a <a href="/windows/desktop/direct3d11/d3d10-graphics-pr
 
 ## -enum-fields
 
-### -field D3D10_DEPTH_WRITE_MASK_ZERO
+### -field D3D10_DEPTH_WRITE_MASK_ZERO:0
 
 Turn off writes to the depth-stencil buffer.
 
-### -field D3D10_DEPTH_WRITE_MASK_ALL
+### -field D3D10_DEPTH_WRITE_MASK_ALL:1
 
 Turn on writes to the depth-stencil buffer.
 

@@ -54,7 +54,7 @@ Gets the properties for a flat scroll bar. This function can also be used to det
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
@@ -228,7 +228,7 @@ A normal, nonflat scroll bar is displayed. No special visual effects are applied
 </tr>
 </table>
 
-### -param arg3
+### -param unnamedParam3
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPINT</a></b>
 

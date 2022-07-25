@@ -54,56 +54,7 @@ The <b>IWMDMEnumDevice</b> interface enumerates portable devices attached to a c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMEnumDevice</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMEnumDevice</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWMDMEnumDevice</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumdevice-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Returns a copy of the <b>IWMDMEnumDevice</b> interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumdevice-next">Next</a>
-</td>
-<td align="left" width="63%">
-Returns a pointer to the next device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumdevice-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumeration so that <b>Next</b> returns a pointer to the first device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumdevice-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips over a specified number of devices in the enumeration sequence.
-
-</td>
-</tr>
-</table>
+The <b>IWMDMEnumDevice</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMEnumDevice</b> also has these types of members:
 
 ## -see-also
 

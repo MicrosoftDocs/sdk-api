@@ -54,56 +54,7 @@ Exposes methods for writing compressed JPEG scan data directly to the WIC encode
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICJpegFrameEncode</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICJpegFrameEncode</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWICJpegFrameEncode</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframeencode-getachuffmantable">GetAcHuffmanTable</a>
-</td>
-<td align="left" width="63%">
-Retrieves a copy of the AC Huffman table for the specified scan and table.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframeencode-getdchuffmantable">GetDcHuffmanTable</a>
-</td>
-<td align="left" width="63%">
-Retrieves a copy of the DC Huffman table for the specified scan and table.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframeencode-getquantizationtable">GetQuantizationTable</a>
-</td>
-<td align="left" width="63%">
-Retrieves a copy of the quantization table.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframeencode-writescan">WriteScan</a>
-</td>
-<td align="left" width="63%">
-Writes scan data to a JPEG frame.
-
-</td>
-</tr>
-</table>
+The <b>IWICJpegFrameEncode</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICJpegFrameEncode</b> also has these types of members:
 
 ## -remarks
 
@@ -115,6 +66,6 @@ The WIC JPEG encoder supports a smaller subset of JPEG features than the decoder
 <li>The encoder is limited to a single scan. It does not support encoding images that are multi-scan, either for progressive encoding or planar component data.</li>
 <li>The encoder supports two quantization tables, two AC Huffman tables, and two DC Huffman tables. The luma tables are used for the Y channel and, in the case of YCCK, the black channel.  The chroma tables are used for the CbCr channels. </li>
 <li>The encoder supports encoding gray, YCbCr (RGB), and YCCK (CMYK).</li>
-<li>The encoder supports 4 fixed compontent subsampling, 4:2:0, 4:2:2, 4:4:0, and 4:4:4.  This subsamples chroma only.</li>
-<li>The encoder does not support  restart markers.</li>
+<li>The encoder supports 4 fixed component subsampling, 4:2:0, 4:2:2, 4:4:0, and 4:4:4.  This subsamples chroma only.</li>
+<li>The encoder does not support restart markers.</li>
 </ul>

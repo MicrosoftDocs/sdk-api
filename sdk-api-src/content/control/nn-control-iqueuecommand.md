@@ -62,35 +62,5 @@ When the command is queued, the filter graph manager returns a pointer to the <a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueueCommand</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQueueCommand</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IQueueCommand</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQueueCommand</b> also has these types of members:
 
-## -members
-
-The <b>IQueueCommand</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/control/nf-control-iqueuecommand-invokeatpresentationtime">InvokeAtPresentationTime</a>
-</td>
-<td align="left" width="63%">
-Queues a method to be invoked at the specified presentation time.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/control/nf-control-iqueuecommand-invokeatstreamtime">InvokeAtStreamTime</a>
-</td>
-<td align="left" width="63%">
-Queues a method to be invoked at the specified stream time.
-
-</td>
-</tr>
-</table>

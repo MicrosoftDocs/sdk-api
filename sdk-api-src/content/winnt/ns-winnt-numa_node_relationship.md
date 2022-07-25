@@ -6,7 +6,7 @@ helpviewer_keywords: ["*PNUMA_NODE_RELATIONSHIP","NUMA_NODE_RELATIONSHIP","NUMA_
 old-location: base\numa_node_relationship.htm
 tech.root: backup
 ms.assetid: a4e4c994-c4af-4b4f-8684-6037bcba35a9
-ms.date: 12/05/2018
+ms.date: 03/15/2021
 ms.keywords: '*PNUMA_NODE_RELATIONSHIP, NUMA_NODE_RELATIONSHIP, NUMA_NODE_RELATIONSHIP structure, PNUMA_NODE_RELATIONSHIP, PNUMA_NODE_RELATIONSHIP structure pointer, _NUMA_NODE_RELATIONSHIP, base.numa_node_relationship, winnt/NUMA_NODE_RELATIONSHIP, winnt/PNUMA_NODE_RELATIONSHIP'
 req.header: winnt.h
 req.include-header: 
@@ -66,9 +66,21 @@ The number of the NUMA node.
 
 This member is reserved.
 
-### -field GroupMask
+### -field GroupCount
+
+The number of groups included in the *GroupMasks* array. This field was introduced in TBD Release Iron. On earlier versions, this value is always 0.
+
+### -field DUMMYUNIONNAME
+
+### -field DUMMYUNIONNAME.GroupMask
 
 A <a href="/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a> structure that specifies a  group number and processor affinity within the group.
+
+### -field DUMMYUNIONNAME.GroupMasks
+
+An array of <a href="/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a> structure that specifies a  group number and processor affinity within the group.
+
+
 
 ## -see-also
 

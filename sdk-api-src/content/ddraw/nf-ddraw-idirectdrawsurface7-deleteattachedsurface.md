@@ -54,11 +54,11 @@ Detaches one or more attached surfaces.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Currently not used and must be set to 0.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 A pointer to the <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface for the DirectDrawSurface object to be detached. If this parameter is NULL, all attached surfaces become detached.
 

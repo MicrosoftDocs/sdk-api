@@ -155,7 +155,7 @@ To set the interest of the <a href="/windows/desktop/tablet/inkpicture-control-r
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="../msinkaut/nn-msinkaut-iinkpicture.md">IInkPicture</a>
 
 
 

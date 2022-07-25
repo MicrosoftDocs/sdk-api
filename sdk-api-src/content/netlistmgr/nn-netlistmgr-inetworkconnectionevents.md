@@ -54,35 +54,5 @@ The <b>INetworkConnectionEvents</b> interface is a message sink interface that a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetworkConnectionEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetworkConnectionEvents</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>INetworkConnectionEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetworkConnectionEvents</b> also has these types of members:
 
-## -members
-
-The <b>INetworkConnectionEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnectionevents-networkconnectionconnectivitychanged">NetworkConnectionConnectivityChanged</a>
-</td>
-<td align="left" width="63%">
-Notifies a client when connectivity change events occur on a network connection level.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnectionevents-networkconnectionpropertychanged">NetworkConnectionPropertyChange</a>
-</td>
-<td align="left" width="63%">
-Notifies a client when property change events related to a specific network connection occur.
-
-</td>
-</tr>
-</table>

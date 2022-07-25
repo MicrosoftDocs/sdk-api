@@ -6,7 +6,7 @@ helpviewer_keywords: ["LPFN_RIONOTIFY"]
 old-location: 
 tech.root: WinSock
 ms.assetid: 02264DAC-A3A1-4F7D-9728-17BE7F10E859
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: LPFN_RIONOTIFY
 targetos: Windows
 req.assembly: 

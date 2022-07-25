@@ -6,7 +6,7 @@ helpviewer_keywords: ["IOCSPCAConfiguration interface [Security]","ProviderPrope
 old-location: security\iocspcaconfiguration_providerproperties_method.htm
 tech.root: security
 ms.assetid: 60ac0123-9696-4893-ae2a-278b4e70c098
-ms.date: 12/05/2018
+ms.date: 3/17/2021
 ms.keywords: IOCSPCAConfiguration interface [Security],ProviderProperties property, IOCSPCAConfiguration.ProviderProperties, IOCSPCAConfiguration.get_ProviderProperties, IOCSPCAConfiguration::ProviderProperties, IOCSPCAConfiguration::get_ProviderProperties, IOCSPCAConfiguration::put_ProviderProperties, ProviderProperties property [Security], ProviderProperties property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::ProviderProperties, certadm/IOCSPCAConfiguration::get_ProviderProperties, certadm/IOCSPCAConfiguration::put_ProviderProperties, get_ProviderProperties, security.iocspcaconfiguration_providerproperties_method
 req.header: certadm.h
 req.include-header: Certserv.h
@@ -60,16 +60,15 @@ This property is read/write.
 
 ## -remarks
 
-The <b>VARIANT</b> returned in <i>pVal</i> is an <a href="/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a> interface.
 
-To work with revocation-information provider properties:
+The <b>VARIANT</b> returned in <i>pVal</i> is a pointer to a safe array that contains the properties as name-value pairs.
 
-<ol>
-<li>Create an <a href="/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a> object.</li>
-<li>Call <a href="/windows/desktop/api/certadm/nf-certadm-iocsppropertycollection-initializefromproperties">InitializeFromProperties</a> and pass in the <b>VARIANT</b>, <i>pVal</i>, returned by the <b>ProviderProperties</b> property.</li>
-<li>Use the <a href="/windows/desktop/SecCrypto/methods-of-iocsppropertycollection">Methods</a> and <a href="/windows/desktop/SecCrypto/properties-of-iocsppropertycollection">Properties</a> of the <a href="/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a> interface.</li>
-</ol>
-The following table lists the possible <a href="/windows/desktop/api/certadm/nn-certadm-iocspproperty">IOCSPProperty</a> <a href="/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_name">Name</a> values and their data types for the default revocation-information provider.
+
+This array is a two-dimensional array of elements, each of type VARIANT. The array contains one row for each named property in the collection. Each row contains two columns: the property name and the property value.
+
+
+The following table lists the possible named property values and their data types for the default revocation provider:
+
 
 <table>
 <tr>
@@ -78,7 +77,7 @@ The following table lists the possible <a href="/windows/desktop/api/certadm/nn-
 </tr>
 <tr>
 <td>BaseCrl</td>
-<td>Depends on BaseCrlUrl</td>
+<td>REG_BINARY</td>
 </tr>
 <tr>
 <td>BaseCrlUrls </td>
@@ -90,7 +89,7 @@ The following table lists the possible <a href="/windows/desktop/api/certadm/nn-
 </tr>
 <tr>
 <td>DeltaCrl</td>
-<td>Depends on BaseCrlUrl or DeltaCrlUrl</td>
+<td>REG_BINARY</td>
 </tr>
 <tr>
 <td>DeltaCrlUrls</td>
@@ -104,7 +103,14 @@ The following table lists the possible <a href="/windows/desktop/api/certadm/nn-
 <td>RevocationErrorCode</td>
 <td>DWORD</td>
 </tr>
+<tr>
+<td>IssuedSerialNumbersDirectories</td>
+<td>REG_MULTI_SZ</td>
+</tr>
 </table>
+
+Note: IssuedSerialNumberDirectories is not supported on Windows Server 2008.
+
 
 ## -see-also
 

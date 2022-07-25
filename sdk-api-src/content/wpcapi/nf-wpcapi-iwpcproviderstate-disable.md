@@ -52,7 +52,7 @@ api_name:
 
 Notifies the third-party application that it is not the current provider.
 
-## -parameters
+
 
 ## -returns
 

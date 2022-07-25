@@ -52,7 +52,7 @@ api_name:
 
 The <b>next</b> method sets the next item in the playlist as the current item.
 
-## -parameters
+
 
 ## -returns
 

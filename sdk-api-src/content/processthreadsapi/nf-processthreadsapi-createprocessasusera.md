@@ -154,11 +154,15 @@ For additional discussion of inheritable handles, see Remarks.
 The flags that control the priority class and the creation of the process. For a list of values, see 
 <a href="/windows/desktop/ProcThread/process-creation-flags">Process Creation Flags</a>. 
 
-
-
-
 This parameter also controls the new process's priority class, which is used to determine the scheduling priorities of the process's threads. For a list of values, see 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getpriorityclass">GetPriorityClass</a>. If none of the priority class flags is specified, the priority class defaults to <b>NORMAL_PRIORITY_CLASS</b> unless the priority class of the creating process is <b>IDLE_PRIORITY_CLASS</b> or <b>BELOW_NORMAL_PRIORITY_CLASS</b>. In this case, the child process receives the default priority class of the calling process.
+
+
+If the dwCreationFlags parameter has a value of 0:
+
+- The process inherits both the error mode of the caller and the parent's console. 
+- The environment block for the new process is assumed to contain ANSI characters (see *lpEnvironment* parameter for additional information).
+- A 16-bit Windows-based application runs in a shared Virtual DOS machine (VDM).
 
 ### -param lpEnvironment [in, optional]
 
@@ -282,15 +286,23 @@ to provide a list of handles to be inherited by a particular process.
 <h3><a id="Security_Remarks"></a><a id="security_remarks"></a><a id="SECURITY_REMARKS"></a>Security Remarks</h3>
 The <i>lpApplicationName</i> parameter can be NULL, in which case the executable name must be the first white space–delimited string in <i>lpCommandLine</i>. If the executable or path name has a space in it, there is a risk that a different executable could be run because of the way the function parses spaces. The following example is dangerous because the function will attempt to run "Program.exe", if it exists, instead of "MyApp.exe".
 
-<pre class="syntax" xml:space="preserve"><code>	LPTSTR szCmdline[] = _tcsdup(TEXT("C:\\Program Files\\MyApp"));
-	CreateProcessAsUser(hToken, NULL, szCmdline, /*...*/ );</code></pre>
+
+``` syntax
+	LPTSTR szCmdline[] = _tcsdup(TEXT("C:\\Program Files\\MyApp"));
+	CreateProcessAsUser(hToken, NULL, szCmdline, /*...*/ );
+```
+
 If a malicious user were to create an application called "Program.exe" on a system, any program that incorrectly calls 
 <b>CreateProcessAsUser</b> using the Program Files directory will run this application instead of the intended application.
 
 To avoid this problem, do not pass NULL for <i>lpApplicationName</i>. If you do pass <b>NULL</b> for <i>lpApplicationName</i>, use quotation marks around the executable path in <i>lpCommandLine</i>, as shown in the example below.
 
-<pre class="syntax" xml:space="preserve"><code>	LPTSTR szCmdline[] = _tcsdup(TEXT("\"C:\\Program Files\\MyApp\""));
-	CreateProcessAsUser(hToken, NULL, szCmdline, /*...*/);</code></pre>
+
+``` syntax
+	LPTSTR szCmdline[] = _tcsdup(TEXT("\"C:\\Program Files\\MyApp\""));
+	CreateProcessAsUser(hToken, NULL, szCmdline, /*...*/);
+```
+
 <b>PowerShell:  </b>When the <b>CreateProcessAsUser</b> function is used to implement a cmdlet in PowerShell version 2.0, the cmdlet operates correctly for both fan-in and fan-out remote sessions. Because of certain security scenarios, however, a cmdlet implemented with <b>CreateProcessAsUser</b> only operates correctly in PowerShell version 3.0 for fan-in remote sessions; fan-out remote sessions will fail because of insufficient client security privileges. To implement a cmdlet that works for both fan-in and fan-out remote sessions in PowerShell version 3.0, use the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function.
 
 

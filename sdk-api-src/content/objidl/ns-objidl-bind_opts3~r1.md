@@ -1,7 +1,7 @@
 ---
 UID: NS:objidl.tagBIND_OPTS3~r1
 title: BIND_OPTS3
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: tagBIND_OPTS3, BIND_OPTS3
 targetos: Windows
 req.construct-type: structure
@@ -13,8 +13,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: BIND_OPTS3, *LPBIND_OPTS3
 req.umdf-ver: 

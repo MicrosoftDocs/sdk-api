@@ -58,7 +58,7 @@ The <b>pfnIsFileSupported</b> callback function queries the <a href="/windows/de
 
 A handle to the file.
 
-### -param *pgSubject [out]
+### -param pgSubject [out]
 
 The GUID that identifies the SIP that handles the file type.
 
