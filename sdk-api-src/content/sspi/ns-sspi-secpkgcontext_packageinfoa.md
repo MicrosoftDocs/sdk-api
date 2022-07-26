@@ -1,10 +1,10 @@
 ---
 UID: NS:sspi._SecPkgContext_PackageInfoA
-tech.root: 
+tech.root: sspi
 title: SecPkgContext_PackageInfoA
-ms.date: 
+ms.date: 07/26/2022
 targetos: Windows
-description: 
+description: Holds application package information.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

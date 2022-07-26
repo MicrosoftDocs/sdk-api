@@ -1,10 +1,10 @@
 ---
 UID: NS:sspi._SecPkgContext_NegoKeys
-tech.root: 
+tech.root: sspi
 title: SecPkgContext_NegoKeys
-ms.date: 
+ms.date: 07/26/2022
 targetos: Windows
-description: 
+description: Holds the negotiated security package keys.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

@@ -1,10 +1,10 @@
 ---
 UID: NS:sspi._SecPkgContext_Target
-tech.root: 
+tech.root: sspi
 title: SecPkgContext_Target
-ms.date: 
+ms.date: 07/26/2022
 targetos: Windows
-description: 
+description: Holds target information.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

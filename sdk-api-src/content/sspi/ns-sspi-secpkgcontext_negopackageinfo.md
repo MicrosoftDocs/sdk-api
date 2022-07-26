@@ -1,10 +1,10 @@
 ---
 UID: NS:sspi._SecPkgContext_NegoPackageInfo
-tech.root: 
+tech.root: sspi
 title: SecPkgContext_NegoPackageInfo
-ms.date: 
+ms.date: 07/26/2022
 targetos: Windows
-description: 
+description: Holds information about the negotiated application package.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
