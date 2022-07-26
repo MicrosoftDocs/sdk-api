@@ -1,6 +1,6 @@
 ---
 UID: NF:unknwn.IUnknown.QueryInterface(REFIID,void)
-title: IUnknown::QueryInterface(REFIID,void)
+title: IUnknown::QueryInterface(REFIID,void**)
 description: Retrieves pointers to the supported interfaces on an object.
 helpviewer_keywords: ["IUnknown interface [COM]","QueryInterface method","IUnknown.QueryInterface","IUnknown.QueryInterface(REFIID","void)","IUnknown::QueryInterface","IUnknown::QueryInterface(REFIID","void)","QueryInterface","QueryInterface method [COM]","QueryInterface method [COM]","IUnknown interface","_com_iunknown_queryinterface","com.iunknown_queryinterface","unknwn/IUnknown::QueryInterface"]
 old-location: com\iunknown_queryinterface.htm
