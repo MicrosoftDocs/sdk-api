@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IServerSecurity.ImpersonateClient
 title: IServerSecurity::ImpersonateClient (objidl.h)
-description: Enables a server to impersonate a client for the duration of a call.
+description: Enables a server to impersonate a client for the duration of a call. (IServerSecurity.ImpersonateClient)
 helpviewer_keywords: ["IServerSecurity interface [COM]","ImpersonateClient method","IServerSecurity.ImpersonateClient","IServerSecurity::ImpersonateClient","ImpersonateClient","ImpersonateClient method [COM]","ImpersonateClient method [COM]","IServerSecurity interface","_com_iserversecurity_impersonateclient","com.iserversecurity_impersonateclient","objidlbase/IServerSecurity::ImpersonateClient"]
 old-location: com\iserversecurity_impersonateclient.htm
 tech.root: com

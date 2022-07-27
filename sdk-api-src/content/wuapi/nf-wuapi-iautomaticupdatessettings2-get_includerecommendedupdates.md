@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings2.get_IncludeRecommendedUpdates
 title: IAutomaticUpdatesSettings2::get_IncludeRecommendedUpdates (wuapi.h)
-description: Gets and sets a Boolean value that indicates whether to include optional or recommended updates when a search for updates and installation of updates is performed.
+description: Gets and sets a Boolean value that indicates whether to include optional or recommended updates when a search for updates and installation of updates is performed. (Get)
 helpviewer_keywords: ["IAutomaticUpdatesSettings2 interface [Windows Update Agent]","IncludeRecommendedUpdates property","IAutomaticUpdatesSettings2.IncludeRecommendedUpdates","IAutomaticUpdatesSettings2.get_IncludeRecommendedUpdates","IAutomaticUpdatesSettings2::IncludeRecommendedUpdates","IAutomaticUpdatesSettings2::get_IncludeRecommendedUpdates","IAutomaticUpdatesSettings2::put_IncludeRecommendedUpdates","IncludeRecommendedUpdates property [Windows Update Agent]","IncludeRecommendedUpdates property [Windows Update Agent]","IAutomaticUpdatesSettings2 interface","get_IncludeRecommendedUpdates","wua.iautomaticupdatessettings2_includerecommendedupdates","wuapi/IAutomaticUpdatesSettings2::IncludeRecommendedUpdates","wuapi/IAutomaticUpdatesSettings2::get_IncludeRecommendedUpdates","wuapi/IAutomaticUpdatesSettings2::put_IncludeRecommendedUpdates"]
 old-location: wua\iautomaticupdatessettings2_includerecommendedupdates.htm
 tech.root: wua

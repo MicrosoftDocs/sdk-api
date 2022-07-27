@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsHwProvider.Reenumerate
 title: IVdsHwProvider::Reenumerate (vds.h)
-description: Discovers newly connected and disconnected subsystems.
+description: Discovers newly connected and disconnected subsystems. (IVdsHwProvider.Reenumerate)
 helpviewer_keywords: ["IVdsHwProvider interface [VDS]","Reenumerate method","IVdsHwProvider.Reenumerate","IVdsHwProvider::Reenumerate","Reenumerate","Reenumerate method [VDS]","Reenumerate method [VDS]","IVdsHwProvider interface","base.ivdshwprovider_reenumerate","vds/IVdsHwProvider::Reenumerate","vdshwprv/IVdsHwProvider::Reenumerate"]
 old-location: base\ivdshwprovider_reenumerate.htm
 tech.root: base

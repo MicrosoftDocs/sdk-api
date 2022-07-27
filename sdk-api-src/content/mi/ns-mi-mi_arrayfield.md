@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_ArrayField
 title: MI_ArrayField (mi.h)
-description: Represents a property inside an MI_Instance structure.
+description: Represents a property inside an MI_Instance structure. (MI_ArrayField)
 helpviewer_keywords: ["MI_ArrayField","MI_ArrayField structure [Windows Management Infrastructure (MI)]","MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","mi/MI_ArrayField","wmi._mi_arrayfield","wmi_v2.mi_arrayfield"]
 old-location: wmi_v2\mi_arrayfield.htm
 tech.root: wmi_v2

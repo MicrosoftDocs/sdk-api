@@ -1,7 +1,7 @@
 ---
 UID: NS:winnetwk._REMOTE_NAME_INFOW
 title: REMOTE_NAME_INFOW (winnetwk.h)
-description: The REMOTE_NAME_INFO structure contains information about the remote form of a universal name. It is used by the NPGetUniversalName function.
+description: The REMOTE_NAME_INFO structure contains information about the remote form of a universal name. It is used by the NPGetUniversalName function. (Unicode)
 helpviewer_keywords: ["*LPREMOTE_NAME_INFOW","LPREMOTE_NAME_INFO","LPREMOTE_NAME_INFO structure pointer [Security]","REMOTE_NAME_INFO","REMOTE_NAME_INFO structure [Security]","REMOTE_NAME_INFOA","REMOTE_NAME_INFOW","_mnp_remote_name_info","security.remote_name_info","winnetwk/LPREMOTE_NAME_INFO","winnetwk/REMOTE_NAME_INFO","winnetwk/REMOTE_NAME_INFOA","winnetwk/REMOTE_NAME_INFOW"]
 old-location: security\remote_name_info.htm
 tech.root: security

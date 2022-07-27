@@ -4,7 +4,7 @@ tech.root: IpHlp
 title: RtlIpv4AddressToStringExA
 ms.date: 04/14/2021
 targetos: Windows
-description: Converts an IPv4 address and port number to a string in Internet standard format.
+description: Converts an IPv4 address and port number to a string in Internet standard format. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

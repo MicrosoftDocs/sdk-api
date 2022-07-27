@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext4.DrawText(constWCHAR,UINT32,IDWriteTextFormat,constD2D1_RECT_F,ID2D1Brush,ID2D1SvgGlyphStyle,UINT32,D2D1_DRAW_TEXT_OPTIONS,DWRITE_MEASURING_MODE)
 title: ID2D1DeviceContext4::DrawText(const WCHAR,UINT32,IDWriteTextFormat,const D2D1_RECT_F,ID2D1Brush,ID2D1SvgGlyphStyle,UINT32,D2D1_DRAW_TEXT_OPTIONS,DWRITE_MEASURING_MODE) (d2d1_3.h)
-description: Draws the text within the given layout rectangle.
+description: Draws the text within the given layout rectangle. (overload 1/2)
 helpviewer_keywords: ["DrawText","DrawText method [Direct2D]","DrawText method [Direct2D]","ID2D1DeviceContext4 interface","ID2D1DeviceContext4 interface [Direct2D]","DrawText method","ID2D1DeviceContext4.DrawText","ID2D1DeviceContext4.DrawText(const WCHAR","UINT32","IDWriteTextFormat","const D2D1_RECT_F","ID2D1Brush","ID2D1SvgGlyphStyle","UINT32","D2D1_DRAW_TEXT_OPTIONS","DWRITE_MEASURING_MODE)","ID2D1DeviceContext4::DrawText","ID2D1DeviceContext4::DrawText(const WCHAR","UINT32","IDWriteTextFormat","const D2D1_RECT_F","ID2D1Brush","ID2D1SvgGlyphStyle","UINT32","D2D1_DRAW_TEXT_OPTIONS","DWRITE_MEASURING_MODE)","d2d1_3/ID2D1DeviceContext4::DrawText","direct2d.id2d1devicecontext4_drawtext"]
 old-location: direct2d\id2d1devicecontext4_drawtext.htm
 tech.root: Direct2D

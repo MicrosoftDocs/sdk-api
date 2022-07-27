@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509PolicyServerUrl.put_Default
 title: IX509PolicyServerUrl::put_Default (certenroll.h)
-description: Specifies and retrieves a Boolean value that indicates whether this is the default certificate enrollment policy (CEP) server.
+description: Specifies and retrieves a Boolean value that indicates whether this is the default certificate enrollment policy (CEP) server. (Put)
 helpviewer_keywords: ["Default property [Security]","Default property [Security]","IX509PolicyServerUrl interface","IX509PolicyServerUrl interface [Security]","Default property","IX509PolicyServerUrl.Default","IX509PolicyServerUrl.put_Default","IX509PolicyServerUrl::Default","IX509PolicyServerUrl::get_Default","IX509PolicyServerUrl::put_Default","certenroll/IX509PolicyServerUrl::Default","certenroll/IX509PolicyServerUrl::get_Default","certenroll/IX509PolicyServerUrl::put_Default","put_Default","security.ix509policyserverurl_default"]
 old-location: security\ix509policyserverurl_default.htm
 tech.root: security

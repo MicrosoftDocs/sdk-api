@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.SspiPromptForCredentialsA
 title: SspiPromptForCredentialsA function (sspi.h)
-description: Allows a Security Support Provider Interface (SSPI) application to prompt a user to enter credentials.
+description: Allows a Security Support Provider Interface (SSPI) application to prompt a user to enter credentials. (ANSI)
 helpviewer_keywords: ["SSPIPFC_CREDPROV_DO_NOT_SAVE","SSPIPFC_NO_CHECKBOX","SspiPromptForCredentials","SspiPromptForCredentials function [Security]","SspiPromptForCredentialsA","SspiPromptForCredentialsW","security.sspipromptforcredentials","sspi/SspiPromptForCredentials","sspi/SspiPromptForCredentialsA","sspi/SspiPromptForCredentialsW"]
 old-location: security\sspipromptforcredentials.htm
 tech.root: security

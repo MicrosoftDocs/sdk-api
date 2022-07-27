@@ -1,7 +1,7 @@
 ---
 UID: NS:ntmsapi._NTMS_DRIVEINFORMATIONW
 title: NTMS_DRIVEINFORMATIONW (ntmsapi.h)
-description: The NTMS_DRIVEINFORMATION structure defines properties specific to a drive object.
+description: The NTMS_DRIVEINFORMATION structure defines properties specific to a drive object. (Unicode)
 helpviewer_keywords: ["NTMS_DRIVEINFORMATION","NTMS_DRIVEINFORMATION structure [Files]","NTMS_DRIVEINFORMATIONA","NTMS_DRIVEINFORMATIONW","NTMS_DRIVESTATE_BEING_CLEANED","NTMS_DRIVESTATE_DISMOUNTABLE","NTMS_DRIVESTATE_DISMOUNTED","NTMS_DRIVESTATE_LOADED","NTMS_DRIVESTATE_MOUNTED","NTMS_DRIVESTATE_UNLOADED","_NTMS_DRIVEINFORMATIONA","_NTMS_DRIVEINFORMATIONW","_zaw_ntms_driveinformation","base.ntms_driveinformation","fs.ntms_driveinformation","ntmsapi/NTMS_DRIVEINFORMATION"]
 old-location: fs\ntms_driveinformation.htm
 tech.root: fs

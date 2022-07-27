@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarDecFix
 title: VarDecFix function (oleauto.h)
-description: Retrieves the integer portion of a variant of type decimal.
+description: Retrieves the integer portion of a variant of type decimal. (VarDecFix)
 helpviewer_keywords: ["VarDecFix","VarDecFix function [Automation]","_oa96_VarDecFix","automat.vardecfix","oleauto/VarDecFix"]
 old-location: automat\vardecfix.htm
 tech.root: automat

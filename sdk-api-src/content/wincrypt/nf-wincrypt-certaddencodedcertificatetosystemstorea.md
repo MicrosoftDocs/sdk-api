@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CertAddEncodedCertificateToSystemStoreA
 title: CertAddEncodedCertificateToSystemStoreA function (wincrypt.h)
-description: Opens the specified system store and adds the encoded certificate to it.
+description: Opens the specified system store and adds the encoded certificate to it. (ANSI)
 helpviewer_keywords: ["CertAddEncodedCertificateToSystemStore","CertAddEncodedCertificateToSystemStore function [Security]","CertAddEncodedCertificateToSystemStoreA","CertAddEncodedCertificateToSystemStoreW","security.certaddencodedcertificatetosystemstore","wincrypt/CertAddEncodedCertificateToSystemStore","wincrypt/CertAddEncodedCertificateToSystemStoreA","wincrypt/CertAddEncodedCertificateToSystemStoreW"]
 old-location: security\certaddencodedcertificatetosystemstore.htm
 tech.root: security

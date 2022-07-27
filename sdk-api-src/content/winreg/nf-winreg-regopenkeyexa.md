@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegOpenKeyExA
 title: RegOpenKeyExA function (winreg.h)
-description: Opens the specified registry key. Note that key names are not case sensitive.
+description: Opens the specified registry key. Note that key names are not case sensitive. (ANSI)
 helpviewer_keywords: ["REG_OPTION_OPEN_LINK","RegOpenKeyEx","RegOpenKeyEx function","RegOpenKeyExA","RegOpenKeyExW","_win32_regopenkeyex","base.regopenkeyex","winreg/RegOpenKeyEx","winreg/RegOpenKeyExA","winreg/RegOpenKeyExW"]
 old-location: base\regopenkeyex.htm
 tech.root: winprog

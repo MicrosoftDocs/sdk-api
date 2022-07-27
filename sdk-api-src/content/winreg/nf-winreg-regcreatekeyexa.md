@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegCreateKeyExA
 title: RegCreateKeyExA function (winreg.h)
-description: Creates the specified registry key. If the key already exists, the function opens it. Note that key names are not case sensitive.
+description: Creates the specified registry key. If the key already exists, the function opens it. Note that key names are not case sensitive. (ANSI)
 helpviewer_keywords: ["REG_CREATED_NEW_KEY","REG_OPENED_EXISTING_KEY","REG_OPTION_BACKUP_RESTORE","REG_OPTION_CREATE_LINK","REG_OPTION_NON_VOLATILE","REG_OPTION_VOLATILE","RegCreateKeyEx","RegCreateKeyEx function","RegCreateKeyExA","RegCreateKeyExW","_win32_regcreatekeyex","base.regcreatekeyex","winreg/RegCreateKeyEx","winreg/RegCreateKeyExA","winreg/RegCreateKeyExW"]
 old-location: base\regcreatekeyex.htm
 tech.root: winprog

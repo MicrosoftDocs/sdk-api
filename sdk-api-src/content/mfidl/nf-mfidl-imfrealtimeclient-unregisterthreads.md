@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFRealTimeClient.UnregisterThreads
 title: IMFRealTimeClient::UnregisterThreads (mfidl.h)
-description: Notifies the object to unregister its worker threads from the Multimedia Class Scheduler Service (MMCSS).
+description: Notifies the object to unregister its worker threads from the Multimedia Class Scheduler Service (MMCSS). (IMFRealTimeClient.UnregisterThreads)
 helpviewer_keywords: ["9bd65ff1-c283-47b8-8299-383b2b773c18","IMFRealTimeClient interface [Media Foundation]","UnregisterThreads method","IMFRealTimeClient.UnregisterThreads","IMFRealTimeClient::UnregisterThreads","UnregisterThreads","UnregisterThreads method [Media Foundation]","UnregisterThreads method [Media Foundation]","IMFRealTimeClient interface","mf.imfrealtimeclient_unregisterthreads","mfidl/IMFRealTimeClient::UnregisterThreads"]
 old-location: mf\imfrealtimeclient_unregisterthreads.htm
 tech.root: mf

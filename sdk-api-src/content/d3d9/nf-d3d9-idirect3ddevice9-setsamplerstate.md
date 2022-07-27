@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetSamplerState
 title: IDirect3DDevice9::SetSamplerState (d3d9.h)
-description: Sets the sampler state value.
+description: Sets the sampler state value. (IDirect3DDevice9.SetSamplerState)
 helpviewer_keywords: ["IDirect3DDevice9 interface [Direct3D 9]","SetSamplerState method","IDirect3DDevice9.SetSamplerState","IDirect3DDevice9::SetSamplerState","SetSamplerState","SetSamplerState method [Direct3D 9]","SetSamplerState method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::SetSamplerState","direct3d9.idirect3ddevice9__setsamplerstate","ea91fb0c-0668-d552-ee6a-25d1288ffe7f"]
 old-location: direct3d9\idirect3ddevice9__setsamplerstate.htm
 tech.root: direct3d9

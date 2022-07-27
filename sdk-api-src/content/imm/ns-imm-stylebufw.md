@@ -1,7 +1,7 @@
 ---
 UID: NS:imm.tagSTYLEBUFW
 title: STYLEBUFW (imm.h)
-description: Contains the identifier and name of a style.
+description: Contains the identifier and name of a style. (STYLEBUFW)
 helpviewer_keywords: ["*LPSTYLEBUFW","*NPSTYLEBUFW","*PSTYLEBUFW","PSTYLEBUF","PSTYLEBUF structure pointer [Internationalization for Windows Applications]","STYLEBUF","STYLEBUF structure [Internationalization for Windows Applications]","STYLEBUFA","STYLEBUFW","_win32_STYLEBUF_str","imm/PSTYLEBUF","imm/STYLEBUF","imm/STYLEBUFA","imm/STYLEBUFW","intl.stylebuf","tagSTYLEBUFA","tagSTYLEBUFW"]
 old-location: intl\stylebuf.htm
 tech.root: Intl

@@ -1,7 +1,7 @@
 ---
 UID: NF:sensapi.IsDestinationReachableA
 title: IsDestinationReachableA function (sensapi.h)
-description: The IsDestinationReachable function determines whether or not a specified destination can be reached, and provides Quality of Connection (QOC) information for a destination.
+description: The IsDestinationReachable function determines whether or not a specified destination can be reached, and provides Quality of Connection (QOC) information for a destination. (ANSI)
 helpviewer_keywords: ["IsDestinationReachable","IsDestinationReachable function [SENS]","IsDestinationReachableA","IsDestinationReachableW","_zaw_isdestinationreachable","sens.isdestinationreachable","sensapi/IsDestinationReachable","sensapi/IsDestinationReachableA","sensapi/IsDestinationReachableW","syncmgr.isdestinationreachable"]
 old-location: sens\isdestinationreachable.htm
 tech.root: Sens

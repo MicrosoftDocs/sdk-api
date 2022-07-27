@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.StrPBrkA
 title: StrPBrkA function (shlwapi.h)
-description: Searches a string for the first occurrence of a character contained in a specified buffer. This search does not include the terminating null character.
+description: Searches a string for the first occurrence of a character contained in a specified buffer. This search does not include the terminating null character. (ANSI)
 helpviewer_keywords: ["StrPBrk","StrPBrk function [Windows Shell]","StrPBrkA","StrPBrkW","_win32_StrPBrk","shell.StrPBrk","shlwapi/StrPBrk","shlwapi/StrPBrkA","shlwapi/StrPBrkW"]
 old-location: shell\StrPBrk.htm
 tech.root: shell

@@ -1,7 +1,7 @@
 ---
 UID: NS:nspapi._SERVICE_INFOW
 title: SERVICE_INFOW (nspapi.h)
-description: Contains information about a network service or a network service type.
+description: Contains information about a network service or a network service type. (Unicode)
 helpviewer_keywords: ["*LPSERVICE_INFOW","*PSERVICE_INFOW","RESOURCEDISPLAYTYPE_DOMAIN","RESOURCEDISPLAYTYPE_FILE","RESOURCEDISPLAYTYPE_GENERIC","RESOURCEDISPLAYTYPE_GROUP","RESOURCEDISPLAYTYPE_SERVER","RESOURCEDISPLAYTYPE_SHARE","RESOURCEDISPLAYTYPE_TREE","SERVICE_INFO","SERVICE_INFO structure [Winsock]","SERVICE_INFOA","SERVICE_INFOW","_win32_service_info_2","nspapi/SERVICE_INFO","nspapi/SERVICE_INFOA","nspapi/SERVICE_INFOW","winsock.service_info_2"]
 old-location: winsock\service_info_2.htm
 tech.root: WinSock

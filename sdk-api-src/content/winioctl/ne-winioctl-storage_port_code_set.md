@@ -1,7 +1,7 @@
 ---
 UID: NE:winioctl._STORAGE_PORT_CODE_SET
 title: STORAGE_PORT_CODE_SET
-description: Reserved for system use.
+description: Reserved for system use. (STORAGE_PORT_CODE_SET)
 helpviewer_keywords: ["*PSTORAGE_PORT_CODE_SET","PSTORAGE_PORT_CODE_SET","PSTORAGE_PORT_CODE_SET enumeration pointer [Files]","STORAGE_PORT_CODE_SET","STORAGE_PORT_CODE_SET enumeration [Files]","StoragePortCodeSetATAport","StoragePortCodeSetReserved","StoragePortCodeSetSBP2port","StoragePortCodeSetSCSIport","StoragePortCodeSetSDport","StoragePortCodeSetSpaceport","StoragePortCodeSetStorport","StoragePortCodeSetUSBport","fs.storage_port_code_set","winioctl/PSTORAGE_PORT_CODE_SET","winioctl/STORAGE_PORT_CODE_SET","winioctl/StoragePortCodeSetATAport","winioctl/StoragePortCodeSetReserved","winioctl/StoragePortCodeSetSBP2port","winioctl/StoragePortCodeSetSCSIport","winioctl/StoragePortCodeSetSDport","winioctl/StoragePortCodeSetSpaceport","winioctl/StoragePortCodeSetStorport","winioctl/StoragePortCodeSetUSBport"]
 old-location: fs\storage_port_code_set.htm
 tech.root: fs

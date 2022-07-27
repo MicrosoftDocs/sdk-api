@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.IEnumUnknown.Clone
 title: IEnumUnknown::Clone (objidlbase.h)
-description: Creates a new enumerator that contains the same enumeration state as the current one.
+description: Creates a new enumerator that contains the same enumeration state as the current one. (IEnumUnknown.Clone)
 helpviewer_keywords: ["Clone","Clone method [COM]","Clone method [COM]","IEnumUnknown interface","IEnumUnknown interface [COM]","Clone method","IEnumUnknown.Clone","IEnumUnknown::Clone","_com_ienumunknown_clone","com.ienumunknown_clone","objidlbase/IEnumUnknown::Clone"]
 old-location: com\ienumunknown_clone.htm
 tech.root: com

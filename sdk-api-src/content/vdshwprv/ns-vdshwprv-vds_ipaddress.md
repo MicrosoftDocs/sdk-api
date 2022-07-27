@@ -1,7 +1,7 @@
 ---
 UID: NS:vdshwprv._VDS_IPADDRESS
 title: VDS_IPADDRESS (vdshwprv.h)
-description: Defines an IP address and port.
+description: Defines an IP address and port. (VDS_IPADDRESS)
 helpviewer_keywords: ["VDS_IPADDRESS","VDS_IPADDRESS structure [VDS]","_VDS_IPADDRESS","base.vds_ipaddress","vds/VDS_IPADDRESS","vdshwprv/VDS_IPADDRESS"]
 old-location: base\vds_ipaddress.htm
 tech.root: base

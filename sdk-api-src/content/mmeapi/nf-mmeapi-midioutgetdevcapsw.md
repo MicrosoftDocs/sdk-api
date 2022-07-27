@@ -1,7 +1,7 @@
 ---
 UID: NF:mmeapi.midiOutGetDevCapsW
 title: midiOutGetDevCapsW function (mmeapi.h)
-description: The midiOutGetDevCaps function queries a specified MIDI output device to determine its capabilities.
+description: The midiOutGetDevCaps function queries a specified MIDI output device to determine its capabilities. (midiOutGetDevCapsW)
 helpviewer_keywords: ["_win32_midiOutGetDevCaps","midiOutGetDevCaps","midiOutGetDevCaps function [Windows Multimedia]","midiOutGetDevCapsA","midiOutGetDevCapsW","mmeapi/midiOutGetDevCaps","mmeapi/midiOutGetDevCapsA","mmeapi/midiOutGetDevCapsW","multimedia.midioutgetdevcaps"]
 old-location: multimedia\midioutgetdevcaps.htm
 tech.root: Multimedia

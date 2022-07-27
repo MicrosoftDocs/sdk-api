@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.ISynchronizeHandle.GetHandle
 title: ISynchronizeHandle::GetHandle (objidlbase.h)
-description: Retrieves a handle to the synchronization object.
+description: Retrieves a handle to the synchronization object. (ISynchronizeHandle.GetHandle)
 helpviewer_keywords: ["GetHandle","GetHandle method [COM]","GetHandle method [COM]","ISynchronizeHandle interface","ISynchronizeHandle interface [COM]","GetHandle method","ISynchronizeHandle.GetHandle","ISynchronizeHandle::GetHandle","_com_isynchronizehandle_gethandle","com.isynchronizehandle_gethandle","objidlbase/ISynchronizeHandle::GetHandle"]
 old-location: com\isynchronizehandle_gethandle.htm
 tech.root: com

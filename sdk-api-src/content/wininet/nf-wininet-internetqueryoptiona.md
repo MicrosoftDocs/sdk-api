@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.InternetQueryOptionA
 title: InternetQueryOptionA function (wininet.h)
-description: Queries an Internet option on the specified handle.
+description: Queries an Internet option on the specified handle. (ANSI)
 helpviewer_keywords: ["InternetQueryOption","InternetQueryOption function [WinINet]","InternetQueryOptionA","InternetQueryOptionW","_inet_internetqueryoption_function","wininet.internetqueryoption","wininet/InternetQueryOption","wininet/InternetQueryOptionA","wininet/InternetQueryOptionW"]
 old-location: wininet\internetqueryoption.htm
 tech.root: wininet

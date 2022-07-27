@@ -1,7 +1,7 @@
 ---
 UID: NF:dsclient.DsBrowseForContainerW
 title: DsBrowseForContainerW function (dsclient.h)
-description: Displays a dialog box used to browse for container objects in Active Directory Domain Services.
+description: Displays a dialog box used to browse for container objects in Active Directory Domain Services. (Unicode)
 helpviewer_keywords: ["DsBrowseForContainer","DsBrowseForContainer function [Active Directory]","DsBrowseForContainerA","DsBrowseForContainerW","_glines_dsbrowseforcontainer","ad.dsbrowseforcontainer","dsclient/DsBrowseForContainer","dsclient/DsBrowseForContainerA","dsclient/DsBrowseForContainerW"]
 old-location: ad\dsbrowseforcontainer.htm
 tech.root: ad

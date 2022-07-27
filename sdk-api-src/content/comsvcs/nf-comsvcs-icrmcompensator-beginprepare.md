@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.BeginPrepare
 title: ICrmCompensator::BeginPrepare (comsvcs.h)
-description: Notifies the CRM Compensator of the prepare phase of the transaction completion and that records are about to be delivered.
+description: Notifies the CRM Compensator of the prepare phase of the transaction completion and that records are about to be delivered. (ICrmCompensator.BeginPrepare)
 helpviewer_keywords: ["BeginPrepare","BeginPrepare method [COM+]","BeginPrepare method [COM+]","ICrmCompensator interface","ICrmCompensator interface [COM+]","BeginPrepare method","ICrmCompensator.BeginPrepare","ICrmCompensator::BeginPrepare","_dtc_ICrmCompensator_BeginPrepare","comsvcs/ICrmCompensator::BeginPrepare","cos.icrmcompensator_beginprepare"]
 old-location: cos\icrmcompensator_beginprepare.htm
 tech.root: cos

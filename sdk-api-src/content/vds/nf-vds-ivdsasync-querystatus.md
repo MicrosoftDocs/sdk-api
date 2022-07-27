@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsAsync.QueryStatus
 title: IVdsAsync::QueryStatus (vds.h)
-description: Returns when the asynchronous operation is in progress, or has either finished successfully or failed.
+description: Returns when the asynchronous operation is in progress, or has either finished successfully or failed. (IVdsAsync.QueryStatus)
 helpviewer_keywords: ["IVdsAsync interface [VDS]","QueryStatus method","IVdsAsync.QueryStatus","IVdsAsync::QueryStatus","QueryStatus","QueryStatus method [VDS]","QueryStatus method [VDS]","IVdsAsync interface","base.ivdsasync_querystatus","vds/IVdsAsync::QueryStatus","vdshwprv/IVdsAsync::QueryStatus"]
 old-location: base\ivdsasync_querystatus.htm
 tech.root: base

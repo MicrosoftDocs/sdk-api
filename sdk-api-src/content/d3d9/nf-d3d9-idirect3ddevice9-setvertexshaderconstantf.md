@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetVertexShaderConstantF
 title: IDirect3DDevice9::SetVertexShaderConstantF (d3d9.h)
-description: Sets a floating-point vertex shader constant.
+description: Sets a floating-point vertex shader constant. (IDirect3DDevice9.SetVertexShaderConstantF)
 helpviewer_keywords: ["IDirect3DDevice9 interface [Direct3D 9]","SetVertexShaderConstantF method","IDirect3DDevice9.SetVertexShaderConstantF","IDirect3DDevice9::SetVertexShaderConstantF","SetVertexShaderConstantF","SetVertexShaderConstantF method [Direct3D 9]","SetVertexShaderConstantF method [Direct3D 9]","IDirect3DDevice9 interface","c6cef8bb-7ab4-497c-1aa2-2ca745f6bf1b","d3d9helper/IDirect3DDevice9::SetVertexShaderConstantF","direct3d9.idirect3ddevice9__setvertexshaderconstantf"]
 old-location: direct3d9\idirect3ddevice9__setvertexshaderconstantf.htm
 tech.root: direct3d9

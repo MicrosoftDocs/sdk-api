@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DVertexDeclaration9.GetDeclaration
 title: IDirect3DVertexDeclaration9::GetDeclaration (d3d9helper.h)
-description: Gets the vertex shader declaration.
+description: Gets the vertex shader declaration. (IDirect3DVertexDeclaration9.GetDeclaration)
 helpviewer_keywords: ["GetDeclaration","GetDeclaration method [Direct3D 9]","GetDeclaration method [Direct3D 9]","IDirect3DVertexDeclaration9 interface","IDirect3DVertexDeclaration9 interface [Direct3D 9]","GetDeclaration method","IDirect3DVertexDeclaration9.GetDeclaration","IDirect3DVertexDeclaration9::GetDeclaration","bd1cb4cd-85cf-525d-1ac3-ebd3eb527b1a","d3d9helper/IDirect3DVertexDeclaration9::GetDeclaration","direct3d9.idirect3dvertexdeclaration9__getdeclaration"]
 old-location: direct3d9\idirect3dvertexdeclaration9__getdeclaration.htm
 tech.root: direct3d9

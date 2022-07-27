@@ -1,7 +1,7 @@
 ---
 UID: NS:objidlbase.tagSOLE_AUTHENTICATION_LIST
 title: SOLE_AUTHENTICATION_LIST (objidlbase.h)
-description: Indicates the default authentication information to use with each authentication service.
+description: Indicates the default authentication information to use with each authentication service. (SOLE_AUTHENTICATION_LIST)
 helpviewer_keywords: ["*PSOLE_AUTHENTICATION_LIST","PSOLE_AUTHENTICATION_LIST","PSOLE_AUTHENTICATION_LIST structure pointer [COM]","SOLE_AUTHENTICATION_LIST","SOLE_AUTHENTICATION_LIST structure [COM]","_com_SOLE_AUTHENTICATION_LIST","com.sole_authentication_list","objidlbase/PSOLE_AUTHENTICATION_LIST","objidlbase/SOLE_AUTHENTICATION_LIST","tagSOLE_AUTHENTICATION_LIST"]
 old-location: com\sole_authentication_list.htm
 tech.root: com

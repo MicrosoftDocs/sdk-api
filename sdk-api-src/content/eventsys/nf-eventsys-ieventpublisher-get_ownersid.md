@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventPublisher.get_OwnerSID
 title: IEventPublisher::get_OwnerSID (eventsys.h)
-description: The security identifier of the creator of the event publisher.
+description: The security identifier of the creator of the event publisher. (Get)
 helpviewer_keywords: ["IEventPublisher interface [COM]","OwnerSID property","IEventPublisher.OwnerSID","IEventPublisher.get_OwnerSID","IEventPublisher::OwnerSID","IEventPublisher::get_OwnerSID","IEventPublisher::put_OwnerSID","OwnerSID property [COM]","OwnerSID property [COM]","IEventPublisher interface","_com_ieventpublisher_ownersid","com.ieventpublisher_ownersid","eventsys/IEventPublisher::OwnerSID","eventsys/IEventPublisher::get_OwnerSID","eventsys/IEventPublisher::put_OwnerSID","get_OwnerSID"]
 old-location: com\ieventpublisher_ownersid.htm
 tech.root: com

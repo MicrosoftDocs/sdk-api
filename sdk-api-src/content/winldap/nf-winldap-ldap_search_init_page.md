@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_search_init_page
 title: ldap_search_init_page function (winldap.h)
-description: Initializes a search block for a simple paged-results search.
+description: Initializes a search block for a simple paged-results search. (ldap_search_init_pageW)
 helpviewer_keywords: ["LDAP_SCOPE_BASE","LDAP_SCOPE_ONELEVEL","LDAP_SCOPE_SUBTREE","_ldap_ldap_search_init_page","ldap.ldap__search__init__page","ldap.ldap_search_init_page","ldap_search_init_page","ldap_search_init_page function [LDAP]","ldap_search_init_pageA","ldap_search_init_pageW","winldap/ldap_search_init_page","winldap/ldap_search_init_pageA","winldap/ldap_search_init_pageW"]
 old-location: ldap\ldap_search_init_page.htm
 tech.root: ldap

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFAllocateWorkQueueEx
 title: MFAllocateWorkQueueEx function (mfapi.h)
-description: Creates a new work queue.
+description: Creates a new work queue. (MFAllocateWorkQueueEx)
 helpviewer_keywords: ["MFAllocateWorkQueueEx","MFAllocateWorkQueueEx function [Media Foundation]","MF_MULTITHREADED_WORKQUEUE","MF_STANDARD_WORKQUEUE","MF_WINDOW_WORKQUEUE","mf.mfallocateworkqueueex","mfapi/MFAllocateWorkQueueEx"]
 old-location: mf\mfallocateworkqueueex.htm
 tech.root: mf

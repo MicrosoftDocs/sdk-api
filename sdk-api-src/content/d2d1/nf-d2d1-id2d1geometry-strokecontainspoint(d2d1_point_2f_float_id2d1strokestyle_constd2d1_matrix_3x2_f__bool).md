@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.StrokeContainsPoint(D2D1_POINT_2F,FLOAT,ID2D1StrokeStyle,constD2D1_MATRIX_3X2_F&,BOOL)
 title: ID2D1Geometry::StrokeContainsPoint(D2D1_POINT_2F,FLOAT,ID2D1StrokeStyle,const D2D1_MATRIX_3X2_F &,BOOL) (d2d1.h)
-description: Determines whether the geometry's stroke contains the specified point given the specified stroke thickness, style, and transform.
+description: Determines whether the geometry's stroke contains the specified point given the specified stroke thickness, style, and transform. (overload 4/4)
 helpviewer_keywords: ["ID2D1Geometry interface [Direct2D]","StrokeContainsPoint method","ID2D1Geometry.StrokeContainsPoint","ID2D1Geometry.StrokeContainsPoint(D2D1_POINT_2F","FLOAT","ID2D1StrokeStyle","const D2D1_MATRIX_3X2_F &","BOOL)","ID2D1Geometry::StrokeContainsPoint","ID2D1Geometry::StrokeContainsPoint(D2D1_POINT_2F","FLOAT","ID2D1StrokeStyle","const D2D1_MATRIX_3X2_F &","BOOL)","StrokeContainsPoint","StrokeContainsPoint method [Direct2D]","StrokeContainsPoint method [Direct2D]","ID2D1Geometry interface","d2d1/ID2D1Geometry::StrokeContainsPoint","direct2d.ID2D1Geometry_StrokeContainsPoint_D2D_POINT_2F_FLOAT_ptr_ID2D1StrokeStyle_ptr_D2D_MATRIX_3X2_F_ptr_BOOL"]
 old-location: direct2d\ID2D1Geometry_StrokeContainsPoint_D2D_POINT_2F_FLOAT_ptr_ID2D1StrokeStyle_ptr_D2D_MATRIX_3X2_F_ptr_BOOL.htm
 tech.root: Direct2D

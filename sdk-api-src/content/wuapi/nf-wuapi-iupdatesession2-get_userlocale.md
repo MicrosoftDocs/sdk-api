@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateSession2.get_UserLocale
 title: IUpdateSession2::get_UserLocale (wuapi.h)
-description: Gets and sets the preferred locale for which update information is retrieved..
+description: Gets and sets the preferred locale for which update information is retrieved.. (Get)
 helpviewer_keywords: ["IUpdateSession2 interface [Windows Update Agent]","UserLocale property","IUpdateSession2.UserLocale","IUpdateSession2.get_UserLocale","IUpdateSession2::UserLocale","IUpdateSession2::get_UserLocale","IUpdateSession2::put_UserLocale","UserLocale property [Windows Update Agent]","UserLocale property [Windows Update Agent]","IUpdateSession2 interface","get_UserLocale","wua.iupdatesession2_userlocale","wuapi/IUpdateSession2::UserLocale","wuapi/IUpdateSession2::get_UserLocale","wuapi/IUpdateSession2::put_UserLocale"]
 old-location: wua\iupdatesession2_userlocale.htm
 tech.root: wua

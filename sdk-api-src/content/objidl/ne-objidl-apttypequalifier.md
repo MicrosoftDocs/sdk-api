@@ -1,7 +1,7 @@
 ---
 UID: NE:objidl._APTTYPEQUALIFIER
 title: APTTYPEQUALIFIER (objidl.h)
-description: Specifies the set of possible COM apartment type qualifiers.
+description: Specifies the set of possible COM apartment type qualifiers. (APTTYPEQUALIFIER)
 helpviewer_keywords: ["APTTYPEQUALIFIER","APTTYPEQUALIFIER enumeration [COM]","APTTYPEQUALIFIER_IMPLICIT_MTA","APTTYPEQUALIFIER_NA_ON_IMPLICIT_MTA","APTTYPEQUALIFIER_NA_ON_MAINSTA","APTTYPEQUALIFIER_NA_ON_MTA","APTTYPEQUALIFIER_NA_ON_STA","APTTYPEQUALIFIER_NONE","com.apttypequalifier","objidlbase/APTTYPEQUALIFIER","objidlbase/APTTYPEQUALIFIER_IMPLICIT_MTA","objidlbase/APTTYPEQUALIFIER_NA_ON_IMPLICIT_MTA","objidlbase/APTTYPEQUALIFIER_NA_ON_MAINSTA","objidlbase/APTTYPEQUALIFIER_NA_ON_MTA","objidlbase/APTTYPEQUALIFIER_NA_ON_STA","objidlbase/APTTYPEQUALIFIER_NONE"]
 old-location: com\apttypequalifier.htm
 tech.root: com

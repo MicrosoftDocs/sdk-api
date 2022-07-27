@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock.WSAAsyncGetHostByAddr
 title: WSAAsyncGetHostByAddr function (winsock.h)
-description: The WSAAsyncGetHostByAddr function asynchronously retrieves host information that corresponds to an address.Note  The WSAAsyncGetHostByAddr function is not designed to provide parallel resolution of several addresses.
+description: The WSAAsyncGetHostByAddr function asynchronously retrieves host information that corresponds to an address.Note  The WSAAsyncGetHostByAddr function is not designed to provide parallel resolution of several addresses. (WSAAsyncGetHostByAddr)
 helpviewer_keywords: ["WSAAsyncGetHostByAddr","WSAAsyncGetHostByAddr function [Winsock]","_win32_wsaasyncgethostbyaddr_2","winsock.wsaasyncgethostbyaddr_2","wsipv6ok/WSAAsyncGetHostByAddr"]
 old-location: winsock\wsaasyncgethostbyaddr_2.htm
 tech.root: WinSock

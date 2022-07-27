@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DQuery9.Issue
 title: IDirect3DQuery9::Issue (d3d9helper.h)
-description: Issue a query.
+description: Issue a query. (IDirect3DQuery9.Issue)
 helpviewer_keywords: ["7cfc335e-94a2-b744-65d5-5e6014ce4ff5","IDirect3DQuery9 interface [Direct3D 9]","Issue method","IDirect3DQuery9.Issue","IDirect3DQuery9::Issue","Issue","Issue method [Direct3D 9]","Issue method [Direct3D 9]","IDirect3DQuery9 interface","d3d9helper/IDirect3DQuery9::Issue","direct3d9.idirect3dquery9__issue"]
 old-location: direct3d9\idirect3dquery9__issue.htm
 tech.root: direct3d9

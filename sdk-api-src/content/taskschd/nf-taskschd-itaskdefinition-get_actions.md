@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskDefinition.get_Actions
 title: ITaskDefinition::get_Actions (taskschd.h)
-description: Gets or sets a collection of actions performed by the task.
+description: Gets or sets a collection of actions performed by the task. (Get)
 helpviewer_keywords: ["Actions property [Task Scheduler]","Actions property [Task Scheduler]","ITaskDefinition interface","ITaskDefinition interface [Task Scheduler]","Actions property","ITaskDefinition.Actions","ITaskDefinition.get_Actions","ITaskDefinition::Actions","ITaskDefinition::get_Actions","ITaskDefinition::put_Actions","get_Actions","taskschd.itaskdefinition_actions","taskschd/ITaskDefinition::Actions","taskschd/ITaskDefinition::get_Actions","taskschd/ITaskDefinition::put_Actions"]
 old-location: taskschd\itaskdefinition_actions.htm
 tech.root: taskschd

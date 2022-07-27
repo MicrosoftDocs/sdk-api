@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.ISurrogate.LoadDllServer
 title: ISurrogate::LoadDllServer (objidlbase.h)
-description: Loads a DLL server into the implementing surrogate. COM calls this method when there is an activation request for the DLL server's class, if the class is registered as DllSurrogate.
+description: Loads a DLL server into the implementing surrogate. COM calls this method when there is an activation request for the DLL server's class, if the class is registered as DllSurrogate. (ISurrogate.LoadDllServer)
 helpviewer_keywords: ["ISurrogate interface [COM]","LoadDllServer method","ISurrogate.LoadDllServer","ISurrogate::LoadDllServer","LoadDllServer","LoadDllServer method [COM]","LoadDllServer method [COM]","ISurrogate interface","_com_isurrogate_loaddllserver","com.isurrogate_loaddllserver","objidlbase/ISurrogate::LoadDllServer"]
 old-location: com\isurrogate_loaddllserver.htm
 tech.root: com

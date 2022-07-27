@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IContext.SetProperty
 title: IContext::SetProperty (objidl.h)
-description: Adds the specified context property to the object context.
+description: Adds the specified context property to the object context. (IContext.SetProperty)
 helpviewer_keywords: ["IContext interface [COM]","SetProperty method","IContext.SetProperty","IContext::SetProperty","SetProperty","SetProperty method [COM]","SetProperty method [COM]","IContext interface","_com_icontext_setproperty","com.icontext_setproperty","objidlbase/IContext::SetProperty"]
 old-location: com\icontext_setproperty.htm
 tech.root: com

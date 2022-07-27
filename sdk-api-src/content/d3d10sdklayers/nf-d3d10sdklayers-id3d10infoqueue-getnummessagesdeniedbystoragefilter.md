@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.GetNumMessagesDeniedByStorageFilter
 title: ID3D10InfoQueue::GetNumMessagesDeniedByStorageFilter (d3d10sdklayers.h)
-description: Get the number of messages that were denied passage through a storage filter.
+description: Get the number of messages that were denied passage through a storage filter. (ID3D10InfoQueue.GetNumMessagesDeniedByStorageFilter)
 helpviewer_keywords: ["69405d72-8819-4b6e-275b-bd5f8909527a","GetNumMessagesDeniedByStorageFilter","GetNumMessagesDeniedByStorageFilter method [Direct3D 10]","GetNumMessagesDeniedByStorageFilter method [Direct3D 10]","ID3D10InfoQueue interface","ID3D10InfoQueue interface [Direct3D 10]","GetNumMessagesDeniedByStorageFilter method","ID3D10InfoQueue.GetNumMessagesDeniedByStorageFilter","ID3D10InfoQueue::GetNumMessagesDeniedByStorageFilter","d3d10sdklayers/ID3D10InfoQueue::GetNumMessagesDeniedByStorageFilter","direct3d10.id3d10infoqueue_getnummessagesdeniedbystoragefilter"]
 old-location: direct3d10\id3d10infoqueue_getnummessagesdeniedbystoragefilter.htm
 tech.root: direct3d10

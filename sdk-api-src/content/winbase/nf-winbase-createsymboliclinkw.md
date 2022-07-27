@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CreateSymbolicLinkW
 title: CreateSymbolicLinkW function (winbase.h)
-description: Creates a symbolic link.
+description: Creates a symbolic link. (Unicode)
 helpviewer_keywords: ["CreateSymbolicLink","CreateSymbolicLink function [Files]","CreateSymbolicLinkA","CreateSymbolicLinkW","SYMBOLIC_LINK_FLAG_ALLOW_UNPRIVILEGED_CREATE","SYMBOLIC_LINK_FLAG_DIRECTORY","fs.createsymboliclink","winbase/CreateSymbolicLink","winbase/CreateSymbolicLinkA","winbase/CreateSymbolicLinkW"]
 old-location: fs\createsymboliclink.htm
 tech.root: fs

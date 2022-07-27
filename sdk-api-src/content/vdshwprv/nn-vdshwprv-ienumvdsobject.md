@@ -1,7 +1,7 @@
 ---
 UID: NN:vdshwprv.IEnumVdsObject
 title: IEnumVdsObject (vdshwprv.h)
-description: Enumerates through a set of VDS objects of a given type. Objects can be providers, subsystems, controllers, LUNs, LUN plexes, drives, disk packs, disks, volumes, or volume plexes.
+description: Enumerates through a set of VDS objects of a given type. Objects can be providers, subsystems, controllers, LUNs, LUN plexes, drives, disk packs, disks, volumes, or volume plexes. (IEnumVdsObject)
 helpviewer_keywords: ["IEnumVdsObject","IEnumVdsObject interface [VDS]","IEnumVdsObject interface [VDS]","described","base.ienumvdsobject","vds/IEnumVdsObject","vdshwprv/IEnumVdsObject"]
 old-location: base\ienumvdsobject.htm
 tech.root: base

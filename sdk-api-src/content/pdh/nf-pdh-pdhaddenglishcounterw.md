@@ -1,7 +1,7 @@
 ---
 UID: NF:pdh.PdhAddEnglishCounterW
 title: PdhAddEnglishCounterW function (pdh.h)
-description: Adds the specified language-neutral counter to the query.
+description: Adds the specified language-neutral counter to the query. (Unicode)
 helpviewer_keywords: ["PdhAddEnglishCounter","PdhAddEnglishCounter function [Perf]","PdhAddEnglishCounterA","PdhAddEnglishCounterW","pdh/PdhAddEnglishCounter","pdh/PdhAddEnglishCounterA","pdh/PdhAddEnglishCounterW","perf.pdhaddenglishcounter"]
 old-location: perf\pdhaddenglishcounter.htm
 tech.root: perf

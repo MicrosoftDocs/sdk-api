@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.OMSetBlendState
 title: ID3D10Device::OMSetBlendState (d3d10.h)
-description: Set the blend state of the output-merger stage.
+description: Set the blend state of the output-merger stage. (ID3D10Device.OMSetBlendState)
 helpviewer_keywords: ["9b71ab4c-dc5e-607f-4d02-0f408a6d4f30","ID3D10Device interface [Direct3D 10]","OMSetBlendState method","ID3D10Device.OMSetBlendState","ID3D10Device::OMSetBlendState","OMSetBlendState","OMSetBlendState method [Direct3D 10]","OMSetBlendState method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::OMSetBlendState","direct3d10.id3d10device_omsetblendstate"]
 old-location: direct3d10\id3d10device_omsetblendstate.htm
 tech.root: direct3d10

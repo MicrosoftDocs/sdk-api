@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock.WSAAsyncGetProtoByNumber
 title: WSAAsyncGetProtoByNumber function (winsock.h)
-description: The WSAAsyncGetProtoByNumber function asynchronously retrieves protocol information that corresponds to a protocol number.
+description: The WSAAsyncGetProtoByNumber function asynchronously retrieves protocol information that corresponds to a protocol number. (WSAAsyncGetProtoByNumber)
 helpviewer_keywords: ["WSAAsyncGetProtoByNumber","WSAAsyncGetProtoByNumber function [Winsock]","_win32_wsaasyncgetprotobynumber_2","winsock.wsaasyncgetprotobynumber_2","winsock/WSAAsyncGetProtoByNumber"]
 old-location: winsock\wsaasyncgetprotobynumber_2.htm
 tech.root: WinSock

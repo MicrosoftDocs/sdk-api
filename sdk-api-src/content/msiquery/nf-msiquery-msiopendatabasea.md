@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiOpenDatabaseA
 title: MsiOpenDatabaseA function (msiquery.h)
-description: The MsiOpenDatabase function opens a database file for data access. This function returns a handle that should be closed using MsiCloseHandle.
+description: The MsiOpenDatabase function opens a database file for data access. This function returns a handle that should be closed using MsiCloseHandle. (ANSI)
 helpviewer_keywords: ["MSIDBOPEN_CREATE","MSIDBOPEN_CREATEDIRECT","MSIDBOPEN_DIRECT","MSIDBOPEN_PATCHFILE","MSIDBOPEN_READONLY","MSIDBOPEN_TRANSACT","MsiOpenDatabase","MsiOpenDatabase function","MsiOpenDatabaseA","MsiOpenDatabaseW","_msi_msiopendatabase","msiquery/MsiOpenDatabase","msiquery/MsiOpenDatabaseA","msiquery/MsiOpenDatabaseW","setup.msiopendatabase"]
 old-location: setup\msiopendatabase.htm
 tech.root: setup

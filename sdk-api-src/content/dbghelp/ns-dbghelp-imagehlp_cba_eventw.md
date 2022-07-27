@@ -1,7 +1,7 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_CBA_EVENTW
 title: IMAGEHLP_CBA_EVENTW (dbghelp.h)
-description: Contains information about a debugging event.
+description: Contains information about a debugging event. (IMAGEHLP_CBA_EVENTW)
 helpviewer_keywords: ["*PIMAGEHLP_CBA_EVENTW","IMAGEHLP_CBA_EVENT","IMAGEHLP_CBA_EVENT structure","IMAGEHLP_CBA_EVENTW","PIMAGEHLP_CBA_EVENT","PIMAGEHLP_CBA_EVENT structure pointer","_IMAGEHLP_CBA_EVENT","_IMAGEHLP_CBA_EVENTW","base.imagehlp_cba_event_str","dbghelp/IMAGEHLP_CBA_EVENT","dbghelp/IMAGEHLP_CBA_EVENTW","dbghelp/PIMAGEHLP_CBA_EVENT","sevAttn","sevFatal","sevInfo","sevProblem"]
 old-location: base\imagehlp_cba_event_str.htm
 tech.root: Debug

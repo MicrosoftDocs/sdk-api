@@ -1,7 +1,7 @@
 ---
 UID: NS:opmapi._OPM_RANDOM_NUMBER
 title: OPM_RANDOM_NUMBER (opmapi.h)
-description: Contains a 128-bit random number for use with Output Protection Manager (OPM).
+description: Contains a 128-bit random number for use with Output Protection Manager (OPM). (OPM_RANDOM_NUMBER)
 helpviewer_keywords: ["OPM_RANDOM_NUMBER","OPM_RANDOM_NUMBER structure [Media Foundation]","_OPM_RANDOM_NUMBER","ksopmapi/OPM_RANDOM_NUMBER","mf.opm_random_number"]
 old-location: mf\opm_random_number.htm
 tech.root: mf

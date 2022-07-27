@@ -4,7 +4,7 @@ tech.root: security
 title: AccessCheckByTypeAndAuditAlarmW
 ms.date: 04/20/2021
 targetos: Windows
-description: Determines whether a security descriptor grants a specified set of access rights to the client being impersonated by the calling thread.
+description: Determines whether a security descriptor grants a specified set of access rights to the client being impersonated by the calling thread. (AccessCheckByTypeAndAuditAlarmW)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

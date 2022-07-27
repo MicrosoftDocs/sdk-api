@@ -1,7 +1,7 @@
 ---
 UID: NF:pdh.PdhParseInstanceNameW
 title: PdhParseInstanceNameW function (pdh.h)
-description: Parses the elements of an instance string.
+description: Parses the elements of an instance string. (Unicode)
 helpviewer_keywords: ["PdhParseInstanceName","PdhParseInstanceName function [Perf]","PdhParseInstanceNameA","PdhParseInstanceNameW","_win32_pdhparseinstancename","base.pdhparseinstancename","pdh/PdhParseInstanceName","pdh/PdhParseInstanceNameA","pdh/PdhParseInstanceNameW","perf.pdhparseinstancename"]
 old-location: perf\pdhparseinstancename.htm
 tech.root: perf

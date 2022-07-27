@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.FtpCreateDirectoryA
 title: FtpCreateDirectoryA function (wininet.h)
-description: Creates a new directory on the FTP server.
+description: Creates a new directory on the FTP server. (ANSI)
 helpviewer_keywords: ["FtpCreateDirectory","FtpCreateDirectory function [WinINet]","FtpCreateDirectoryA","FtpCreateDirectoryW","_inet_ftpcreatedirectory_function","wininet.ftpcreatedirectory","wininet/FtpCreateDirectory","wininet/FtpCreateDirectoryA","wininet/FtpCreateDirectoryW"]
 old-location: wininet\ftpcreatedirectory.htm
 tech.root: wininet

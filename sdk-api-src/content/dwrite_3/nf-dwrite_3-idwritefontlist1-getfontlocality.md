@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontList1.GetFontLocality
 title: IDWriteFontList1::GetFontLocality (dwrite_3.h)
-description: Gets the current location of a font given its zero-based index.
+description: Gets the current location of a font given its zero-based index. (IDWriteFontList1.GetFontLocality)
 helpviewer_keywords: ["GetFontLocality","GetFontLocality method [Direct Write]","GetFontLocality method [Direct Write]","IDWriteFontList1 interface","IDWriteFontList1 interface [Direct Write]","GetFontLocality method","IDWriteFontList1.GetFontLocality","IDWriteFontList1::GetFontLocality","directwrite.idwritefontlist1_getfontlocality","dwrite_3/IDWriteFontList1::GetFontLocality"]
 old-location: directwrite\idwritefontlist1_getfontlocality.htm
 tech.root: DirectWrite

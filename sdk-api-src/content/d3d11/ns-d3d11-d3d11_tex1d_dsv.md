@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_TEX1D_DSV
 title: D3D11_TEX1D_DSV (d3d11.h)
-description: Specifies the subresource from a 1D texture that is accessible to a depth-stencil view.
+description: Specifies the subresource from a 1D texture that is accessible to a depth-stencil view. (D3D11_TEX1D_DSV)
 helpviewer_keywords: ["52fb74db-7253-5122-a349-5c58ded9ca7e","D3D11_TEX1D_DSV","D3D11_TEX1D_DSV structure [Direct3D 11]","d3d11/D3D11_TEX1D_DSV","direct3d11.d3d11_tex1d_dsv"]
 old-location: direct3d11\d3d11_tex1d_dsv.htm
 tech.root: direct3d11

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathIsContentTypeA
 title: PathIsContentTypeA function (shlwapi.h)
-description: Determines if a file's registered content type matches the specified content type. This function obtains the content type for the specified file type and compares that string with the pszContentType. The comparison is not case-sensitive.
+description: Determines if a file's registered content type matches the specified content type. This function obtains the content type for the specified file type and compares that string with the pszContentType. The comparison is not case-sensitive. (ANSI)
 helpviewer_keywords: ["PathIsContentType","PathIsContentType function [Windows Shell]","PathIsContentTypeA","PathIsContentTypeW","_win32_PathIsContentType","shell.PathIsContentType","shlwapi/PathIsContentType","shlwapi/PathIsContentTypeA","shlwapi/PathIsContentTypeW"]
 old-location: shell\PathIsContentType.htm
 tech.root: shell

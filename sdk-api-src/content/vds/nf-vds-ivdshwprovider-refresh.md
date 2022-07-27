@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsHwProvider.Refresh
 title: IVdsHwProvider::Refresh (vds.h)
-description: Refreshes VDS's internally cached data about existing subsystems that are managed by VDS providers.
+description: Refreshes VDS's internally cached data about existing subsystems that are managed by VDS providers. (IVdsHwProvider.Refresh)
 helpviewer_keywords: ["IVdsHwProvider interface [VDS]","Refresh method","IVdsHwProvider.Refresh","IVdsHwProvider::Refresh","Refresh","Refresh method [VDS]","Refresh method [VDS]","IVdsHwProvider interface","base.ivdshwprovider_refresh","vds/IVdsHwProvider::Refresh","vdshwprv/IVdsHwProvider::Refresh"]
 old-location: base\ivdshwprovider_refresh.htm
 tech.root: base

@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsapi32._WTSLISTENERCONFIGA
 title: WTSLISTENERCONFIGA (wtsapi32.h)
-description: Contains information about a Remote Desktop Services listener.
+description: Contains information about a Remote Desktop Services listener. (ANSI)
 helpviewer_keywords: ["*PWTSLISTENERCONFIGA","1","2","3","4","5","PWTSLISTENERCONFIG","PWTSLISTENERCONFIG structure pointer [Remote Desktop Services]","WTSLISTENERCONFIG","WTSLISTENERCONFIG structure [Remote Desktop Services]","WTSLISTENERCONFIGA","WTSLISTENERCONFIGW","termserv.wtslistenerconfig","wtsapi32/PWTSLISTENERCONFIG","wtsapi32/WTSLISTENERCONFIG","wtsapi32/WTSLISTENERCONFIGA","wtsapi32/WTSLISTENERCONFIGW"]
 old-location: termserv\wtslistenerconfig.htm
 tech.root: TermServ

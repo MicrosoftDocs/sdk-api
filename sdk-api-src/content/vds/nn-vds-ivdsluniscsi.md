@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsLunIscsi
 title: IVdsLunIscsi (vds.h)
-description: Provides methods for performing query and configuration operations on an iSCSI LUN.
+description: Provides methods for performing query and configuration operations on an iSCSI LUN. (IVdsLunIscsi)
 helpviewer_keywords: ["IVdsLunIscsi","IVdsLunIscsi interface [VDS]","IVdsLunIscsi interface [VDS]","described","base.ivdsluniscsi","vds/IVdsLunIscsi","vdshwprv/IVdsLunIscsi"]
 old-location: base\ivdsluniscsi.htm
 tech.root: base

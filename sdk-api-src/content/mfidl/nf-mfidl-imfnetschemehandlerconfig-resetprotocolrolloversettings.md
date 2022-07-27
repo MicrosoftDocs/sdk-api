@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFNetSchemeHandlerConfig.ResetProtocolRolloverSettings
 title: IMFNetSchemeHandlerConfig::ResetProtocolRolloverSettings (mfidl.h)
-description: Not implemented in this release.
+description: Not implemented in this release. (IMFNetSchemeHandlerConfig.ResetProtocolRolloverSettings)
 helpviewer_keywords: ["IMFNetSchemeHandlerConfig interface [Media Foundation]","ResetProtocolRolloverSettings method","IMFNetSchemeHandlerConfig.ResetProtocolRolloverSettings","IMFNetSchemeHandlerConfig::ResetProtocolRolloverSettings","ResetProtocolRolloverSettings","ResetProtocolRolloverSettings method [Media Foundation]","ResetProtocolRolloverSettings method [Media Foundation]","IMFNetSchemeHandlerConfig interface","f2f792a4-811b-4eec-849b-bdd22774c4a8","mf.imfnetschemehandlerconfig_resetprotocolrolloversettings","mfidl/IMFNetSchemeHandlerConfig::ResetProtocolRolloverSettings"]
 old-location: mf\imfnetschemehandlerconfig_resetprotocolrolloversettings.htm
 tech.root: mf

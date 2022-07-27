@@ -1,7 +1,7 @@
 ---
 UID: NS:mmeapi.tagAUXCAPSA
 title: AUXCAPSA (mmeapi.h)
-description: The AUXCAPS structure describes the capabilities of an auxiliary output device.
+description: The AUXCAPS structure describes the capabilities of an auxiliary output device. (AUXCAPSA)
 helpviewer_keywords: ["*LPAUXCAPSA","*NPAUXCAPSA","*PAUXCAPSA","AUXCAPS","AUXCAPS structure [Windows Multimedia]","AUXCAPSA","AUXCAPSW","AUXCAPS_AUXIN","AUXCAPS_CDAUDIO","AUXCAPS_LRVOLUME","AUXCAPS_VOLUME","_win32_AUXCAPS_str","auxcaps_tag","mmeapi/AUXCAPS","multimedia.auxcaps"]
 old-location: multimedia\auxcaps.htm
 tech.root: Multimedia

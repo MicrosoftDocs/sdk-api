@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymEnumSourceLines
 title: SymEnumSourceLines function (dbghelp.h)
-description: Enumerates all source lines in a module.
+description: Enumerates all source lines in a module. (SymEnumSourceLinesW)
 helpviewer_keywords: ["SymEnumSourceLines","SymEnumSourceLines function","SymEnumSourceLinesW","base.symenumsourcelines","dbghelp/SymEnumSourceLines","dbghelp/SymEnumSourceLinesW"]
 old-location: base\symenumsourcelines.htm
 tech.root: Debug

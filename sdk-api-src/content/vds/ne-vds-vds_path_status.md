@@ -1,7 +1,7 @@
 ---
 UID: NE:vds._VDS_PATH_STATUS
 title: VDS_PATH_STATUS (vds.h)
-description: Defines the set of valid status values for a port.
+description: Defines the set of valid status values for a port. (VDS_PATH_STATUS)
 helpviewer_keywords: ["VDS_MPS_FAILED","VDS_MPS_ONLINE","VDS_MPS_STANDBY","VDS_MPS_UNKNOWN","VDS_PATH_STATUS","VDS_PATH_STATUS enumeration [VDS]","base.vds_path_status","vds/VDS_MPS_FAILED","vds/VDS_MPS_ONLINE","vds/VDS_MPS_STANDBY","vds/VDS_MPS_UNKNOWN","vds/VDS_PATH_STATUS","vdshwprv/VDS_MPS_FAILED","vdshwprv/VDS_MPS_ONLINE","vdshwprv/VDS_MPS_STANDBY","vdshwprv/VDS_MPS_UNKNOWN","vdshwprv/VDS_PATH_STATUS"]
 old-location: base\vds_path_status.htm
 tech.root: base

@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.IEnumLocation.Clone
 title: IEnumLocation::Clone (tapi3if.h)
-description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.
+description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages. (IEnumLocation.Clone)
 helpviewer_keywords: ["Clone","Clone method [TAPI 2.2]","Clone method [TAPI 2.2]","IEnumLocation interface","IEnumLocation interface [TAPI 2.2]","Clone method","IEnumLocation.Clone","IEnumLocation::Clone","_tapi3_ienumlocation_clone","tapi3.ienumlocation_clone","tapi3if/IEnumLocation::Clone"]
 old-location: tapi3\ienumlocation_clone.htm
 tech.root: tapi3

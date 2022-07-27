@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_Selection
 title: IInkPicture::put_Selection (msinkaut.h)
-description: Gets or sets theInkStrokes collection that is currently selected inside the InkOverlay object or the InkPicture control.
+description: Gets or sets theInkStrokes collection that is currently selected inside the InkOverlay object or the InkPicture control. (Put)
 helpviewer_keywords: ["29d54781-b83b-4733-95fe-86577958e0d1","IInkPicture interface [Tablet PC]","Selection property","IInkPicture.Selection","IInkPicture.put_Selection","IInkPicture::Selection","IInkPicture::get_Selection","IInkPicture::put_Selection","InkPicture.get_Selection","InkPicture.put_Selection","Selection property [Tablet PC]","Selection property [Tablet PC]","IInkPicture interface","msinkaut/IInkPicture::Selection","msinkaut/IInkPicture::get_Selection","msinkaut/IInkPicture::put_Selection","put_Selection","tablet.inkpicture_selection"]
 old-location: tablet\inkpicture_selection.htm
 tech.root: tablet

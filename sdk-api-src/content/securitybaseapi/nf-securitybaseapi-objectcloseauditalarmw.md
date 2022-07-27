@@ -4,7 +4,7 @@ tech.root: security
 title: ObjectCloseAuditAlarmW
 ms.date: 04/20/2021
 targetos: Windows
-description: Generates an audit message in the security event log when a handle to a private object is deleted.
+description: Generates an audit message in the security event log when a handle to a private object is deleted. (ObjectCloseAuditAlarmW)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

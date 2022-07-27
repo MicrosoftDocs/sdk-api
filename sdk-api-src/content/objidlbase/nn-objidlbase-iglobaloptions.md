@@ -1,7 +1,7 @@
 ---
 UID: NN:objidlbase.IGlobalOptions
 title: IGlobalOptions (objidlbase.h)
-description: Sets and queries global properties of the Component Object Model (COM) runtime.
+description: Sets and queries global properties of the Component Object Model (COM) runtime. (IGlobalOptions)
 helpviewer_keywords: ["IGlobalOptions","IGlobalOptions interface [COM]","IGlobalOptions interface [COM]","described","_com_iglobaloptions","com.iglobaloptions","objidlbase/IGlobalOptions"]
 old-location: com\iglobaloptions.htm
 tech.root: com

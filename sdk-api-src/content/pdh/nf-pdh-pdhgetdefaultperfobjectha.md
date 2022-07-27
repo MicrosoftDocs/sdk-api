@@ -1,7 +1,7 @@
 ---
 UID: NF:pdh.PdhGetDefaultPerfObjectHA
 title: PdhGetDefaultPerfObjectHA function (pdh.h)
-description: Retrieves the name of the default object.
+description: Retrieves the name of the default object. (ANSI)
 helpviewer_keywords: ["PdhGetDefaultPerfObjectH","PdhGetDefaultPerfObjectH function [Perf]","PdhGetDefaultPerfObjectHA","PdhGetDefaultPerfObjectHW","_win32_pdhgetdefaultperfobjecth","base.pdhgetdefaultperfobjecth","pdh/PdhGetDefaultPerfObjectH","pdh/PdhGetDefaultPerfObjectHA","pdh/PdhGetDefaultPerfObjectHW","perf.pdhgetdefaultperfobjecth"]
 old-location: perf\pdhgetdefaultperfobjecth.htm
 tech.root: perf

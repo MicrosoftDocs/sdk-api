@@ -1,7 +1,7 @@
 ---
 UID: NN:objidlbase.IStdMarshalInfo
 title: IStdMarshalInfo (objidlbase.h)
-description: Retrieves the CLSID identifying the handler to be used in the destination process during standard marshaling.
+description: Retrieves the CLSID identifying the handler to be used in the destination process during standard marshaling. (IStdMarshalInfo)
 helpviewer_keywords: ["IStdMarshalInfo","IStdMarshalInfo interface [COM]","IStdMarshalInfo interface [COM]","described","_com_istdmarshalinfo","com.istdmarshalinfo","objidlbase/IStdMarshalInfo"]
 old-location: com\istdmarshalinfo.htm
 tech.root: com

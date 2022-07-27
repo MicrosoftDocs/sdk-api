@@ -1,7 +1,7 @@
 ---
 UID: NS:vdshwprv._VDS_STORAGE_POOL_DRIVE_EXTENT
 title: VDS_STORAGE_POOL_DRIVE_EXTENT (vdshwprv.h)
-description: Defines a drive extent that could be used by a storage pool.
+description: Defines a drive extent that could be used by a storage pool. (VDS_STORAGE_POOL_DRIVE_EXTENT)
 helpviewer_keywords: ["*PVDS_STORAGE_POOL_DRIVE_EXTENT","PVDS_STORAGE_POOL_DRIVE_EXTENT","PVDS_STORAGE_POOL_DRIVE_EXTENT structure pointer","VDS_STORAGE_POOL_DRIVE_EXTENT","VDS_STORAGE_POOL_DRIVE_EXTENT structure","base.vds_storage_pool_drive_extent","vds/PVDS_STORAGE_POOL_DRIVE_EXTENT","vds/VDS_STORAGE_POOL_DRIVE_EXTENT","vdshwprv/PVDS_STORAGE_POOL_DRIVE_EXTENT","vdshwprv/VDS_STORAGE_POOL_DRIVE_EXTENT"]
 old-location: base\vds_storage_pool_drive_extent.htm
 tech.root: base

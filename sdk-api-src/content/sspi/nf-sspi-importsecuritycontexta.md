@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.ImportSecurityContextA
 title: ImportSecurityContextA function (sspi.h)
-description: Imports a security context. The security context must have been exported to the process calling ImportSecurityContext by a previous call to ExportSecurityContext.
+description: Imports a security context. The security context must have been exported to the process calling ImportSecurityContext by a previous call to ExportSecurityContext. (ANSI)
 helpviewer_keywords: ["ImportSecurityContext","ImportSecurityContext function [Security]","ImportSecurityContextA","ImportSecurityContextW","_ssp_importsecuritycontext","security.importsecuritycontext","sspi/ImportSecurityContext","sspi/ImportSecurityContextA","sspi/ImportSecurityContextW"]
 old-location: security\importsecuritycontext.htm
 tech.root: security

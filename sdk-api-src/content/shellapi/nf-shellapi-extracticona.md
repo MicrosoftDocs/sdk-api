@@ -1,7 +1,7 @@
 ---
 UID: NF:shellapi.ExtractIconA
 title: ExtractIconA function (shellapi.h)
-description: Gets a handle to an icon from the specified executable file, DLL, or icon file. To retrieve an array of handles to large or small icons, use the ExtractIconEx function.
+description: Gets a handle to an icon from the specified executable file, DLL, or icon file. To retrieve an array of handles to large or small icons, use the ExtractIconEx function. (ANSI)
 helpviewer_keywords: ["ExtractIcon","ExtractIcon function [Windows Shell]","ExtractIconA","ExtractIconW","_shell_ExtractIcon","shell.ExtractIcon","shellapi/ExtractIcon","shellapi/ExtractIconA","shellapi/ExtractIconW"]
 old-location: shell\ExtractIcon.htm
 tech.root: shell

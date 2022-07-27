@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiSourceListGetInfoA
 title: MsiSourceListGetInfoA function (msi.h)
-description: The MsiSourceListGetInfo function retrieves information about the source list for a product or patch in a specific context.
+description: The MsiSourceListGetInfo function retrieves information about the source list for a product or patch in a specific context. (ANSI)
 helpviewer_keywords: ["INSTALLPROPERTY_DISKPROMPT","INSTALLPROPERTY_LASTUSEDSOURCE","INSTALLPROPERTY_LASTUSEDTYPE","INSTALLPROPERTY_MEDIAPACKAGEPATH","INSTALLPROPERTY_PACKAGENAME","MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiSourceListGetInfo","MsiSourceListGetInfo function","MsiSourceListGetInfoA","MsiSourceListGetInfoW","NULL","User SID","msi/MsiSourceListGetInfo","msi/MsiSourceListGetInfoA","msi/MsiSourceListGetInfoW","setup.msisourcelistgetinfo"]
 old-location: setup\msisourcelistgetinfo.htm
 tech.root: setup

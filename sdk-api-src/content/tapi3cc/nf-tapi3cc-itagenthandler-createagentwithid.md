@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3cc.ITAgentHandler.CreateAgentWithID
 title: ITAgentHandler::CreateAgentWithID (tapi3cc.h)
-description: The CreateAgentWithID method creates an Agent object based on an agent identifier.
+description: The CreateAgentWithID method creates an Agent object based on an agent identifier. (ITAgentHandler.CreateAgentWithID)
 helpviewer_keywords: ["CreateAgentWithID","CreateAgentWithID method [TAPI 2.2]","CreateAgentWithID method [TAPI 2.2]","ITAgentHandler interface","ITAgentHandler interface [TAPI 2.2]","CreateAgentWithID method","ITAgentHandler.CreateAgentWithID","ITAgentHandler::CreateAgentWithID","_tapi3_itagenthandler_createagentwithid","tapi3.itagenthandler_createagentwithid","tapi3cc/ITAgentHandler::CreateAgentWithID"]
 old-location: tapi3\itagenthandler_createagentwithid.htm
 tech.root: tapi3

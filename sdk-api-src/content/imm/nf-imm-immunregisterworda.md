@@ -1,7 +1,7 @@
 ---
 UID: NF:imm.ImmUnregisterWordA
 title: ImmUnregisterWordA function (imm.h)
-description: Removes a register string from the dictionary of the IME associated with the specified input locale.
+description: Removes a register string from the dictionary of the IME associated with the specified input locale. (ImmUnregisterWordA)
 helpviewer_keywords: ["Any value from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_USER_LAST","IME_REGWORD_STYLE_EUDC","ImmUnregisterWord","ImmUnregisterWord function [Internationalization for Windows Applications]","ImmUnregisterWordA","ImmUnregisterWordW","_win32_ImmUnregisterWord","imm/ImmUnregisterWord","imm/ImmUnregisterWordA","imm/ImmUnregisterWordW","intl.immunregisterword"]
 old-location: intl\immunregisterword.htm
 tech.root: Intl

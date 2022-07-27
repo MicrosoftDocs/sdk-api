@@ -1,7 +1,7 @@
 ---
 UID: NS:ksopmapi._OPM_OMAC
 title: OPM_OMAC (ksopmapi.h)
-description: Contains a Message Authentication Code (MAC) for an Output Protection Manager (OPM) message.
+description: Contains a Message Authentication Code (MAC) for an Output Protection Manager (OPM) message. (OPM_OMAC)
 helpviewer_keywords: ["OPM_OMAC","OPM_OMAC structure [Media Foundation]","_OPM_OMAC","ksopmapi/OPM_OMAC","mf.opm_omac"]
 old-location: mf\opm_omac.htm
 tech.root: mf

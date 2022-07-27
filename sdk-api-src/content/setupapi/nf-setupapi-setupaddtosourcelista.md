@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupAddToSourceListA
 title: SetupAddToSourceListA function (setupapi.h)
-description: The SetupAddToSourceList function appends a value to the list of installation sources for either the current user or the system. If the value already exists, it is removed first, so that duplicate entries are not created.
+description: The SetupAddToSourceList function appends a value to the list of installation sources for either the current user or the system. If the value already exists, it is removed first, so that duplicate entries are not created. (ANSI)
 helpviewer_keywords: ["SetupAddToSourceList","SetupAddToSourceList function [Setup API]","SetupAddToSourceListA","SetupAddToSourceListW","_setupapi_setupaddtosourcelist","setup.setupaddtosourcelist","setupapi/SetupAddToSourceList","setupapi/SetupAddToSourceListA","setupapi/SetupAddToSourceListW"]
 old-location: setup\setupaddtosourcelist.htm
 tech.root: setup

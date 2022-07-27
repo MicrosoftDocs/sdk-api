@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IComThreadingInfo.GetCurrentThreadType
 title: IComThreadingInfo::GetCurrentThreadType (objidl.h)
-description: Retrieves the type of thread in which the caller is executing.
+description: Retrieves the type of thread in which the caller is executing. (IComThreadingInfo.GetCurrentThreadType)
 helpviewer_keywords: ["GetCurrentThreadType","GetCurrentThreadType method [COM]","GetCurrentThreadType method [COM]","IComThreadingInfo interface","IComThreadingInfo interface [COM]","GetCurrentThreadType method","IComThreadingInfo.GetCurrentThreadType","IComThreadingInfo::GetCurrentThreadType","_com_icomthreadinginfo_getcurrentthreadtype","com.icomthreadinginfo_getcurrentthreadtype","objidlbase/IComThreadingInfo::GetCurrentThreadType"]
 old-location: com\icomthreadinginfo_getcurrentthreadtype.htm
 tech.root: com

@@ -1,7 +1,7 @@
 ---
 UID: NF:directml.DMLCreateDevice
 title: DMLCreateDevice function
-description: Creates a DirectML device for a given Direct3D 12 device.
+description: Creates a DirectML device for a given Direct3D 12 device. (DMLCreateDevice)
 helpviewer_keywords: ["DMLCreateDevice","DMLCreateDevice function","direct3d12.dmlcreatedevice","directml/DMLCreateDevice"]
 old-location: direct3d12\dmlcreatedevice.htm
 tech.root: directml

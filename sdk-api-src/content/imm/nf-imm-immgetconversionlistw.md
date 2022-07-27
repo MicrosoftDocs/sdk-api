@@ -1,7 +1,7 @@
 ---
 UID: NF:imm.ImmGetConversionListW
 title: ImmGetConversionListW function (imm.h)
-description: Retrieves the conversion result list of characters or words without generating any IME-related messages.
+description: Retrieves the conversion result list of characters or words without generating any IME-related messages. (ImmGetConversionListW)
 helpviewer_keywords: ["GCL_CONVERSION","GCL_REVERSECONVERSION","GCL_REVERSE_LENGTH","ImmGetConversionList","ImmGetConversionList function [Internationalization for Windows Applications]","ImmGetConversionListA","ImmGetConversionListW","_win32_ImmGetConversionList","imm/ImmGetConversionList","imm/ImmGetConversionListA","imm/ImmGetConversionListW","intl.immgetconversionlist"]
 old-location: intl\immgetconversionlist.htm
 tech.root: Intl

@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.PrivacySetZonePreferenceW
 title: PrivacySetZonePreferenceW function (wininet.h)
-description: Sets the privacy settings for a given URLZONE and PrivacyType.
+description: Sets the privacy settings for a given URLZONE and PrivacyType. (PrivacySetZonePreferenceW)
 helpviewer_keywords: ["PrivacySetZonePreferenceW","PrivacySetZonePreferenceW function [WinINet]","wininet.privacysetzonepreferencew","winineti/PrivacySetZonePreferenceW"]
 old-location: wininet\privacysetzonepreferencew.htm
 tech.root: wininet

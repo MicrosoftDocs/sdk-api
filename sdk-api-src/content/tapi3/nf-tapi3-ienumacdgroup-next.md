@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3.IEnumACDGroup.Next
 title: IEnumACDGroup::Next (tapi3.h)
-description: The Next method gets the next specified number of elements in the enumeration sequence.
+description: The Next method gets the next specified number of elements in the enumeration sequence. (IEnumACDGroup.Next)
 helpviewer_keywords: ["IEnumACDGroup interface [TAPI 2.2]","Next method","IEnumACDGroup.Next","IEnumACDGroup::Next","Next","Next method [TAPI 2.2]","Next method [TAPI 2.2]","IEnumACDGroup interface","_tapi3_ienumacdgroup_next","tapi3.ienumacdgroup_next","tapi3cc/IEnumACDGroup::Next"]
 old-location: tapi3\ienumacdgroup_next.htm
 tech.root: tapi3

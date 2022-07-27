@@ -1,7 +1,7 @@
 ---
 UID: NS:ipmib._MIB_IPMCAST_OIF_W2K
 title: MIB_IPMCAST_OIF_W2K (ipmib.h)
-description: Stores the information required to send an outgoing IP multicast packet.
+description: Stores the information required to send an outgoing IP multicast packet.M
 helpviewer_keywords: ["*PMIB_IPMCAST_OIF","*PMIB_IPMCAST_OIF_W2K","MIB_IPMCAST_OIF","MIB_IPMCAST_OIF structure [MIB]","MIB_IPMCAST_OIF_W2K","PMIB_IPMCAST_OIF","PMIB_IPMCAST_OIF structure pointer [MIB]","_mpr_mib_ipmcast_oif","ipmib/MIB_IPMCAST_OIF","ipmib/PMIB_IPMCAST_OIF","iprtrmib/MIB_IPMCAST_OIF","iprtrmib/PMIB_IPMCAST_OIF","mib.mib_ipmcast_oif","rras.mib_ipmcast_oif"]
 old-location: mib\mib_ipmcast_oif.htm
 tech.root: MIB

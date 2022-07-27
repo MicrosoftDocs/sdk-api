@@ -1,7 +1,7 @@
 ---
 UID: NF:advpub.RegInstallW
 title: RegInstallW function (advpub.h)
-description: Updates the string registry values in the provided table.
+description: Updates the string registry values in the provided table. (Unicode)
 helpviewer_keywords: ["RegInstallW","RegInstallW function [Windows API]","advpub/RegInstallW","winprog.reginstallw"]
 old-location: winprog\reginstallw.htm
 tech.root: winprog

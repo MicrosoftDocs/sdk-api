@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsHwProviderType2.GetProviderType2
 title: IVdsHwProviderType2::GetProviderType2 (vdshwprv.h)
-description: Retrieves the type of the hardware provider.
+description: Retrieves the type of the hardware provider. (IVdsHwProviderType2.GetProviderType2)
 helpviewer_keywords: ["GetProviderType2","GetProviderType2 method","GetProviderType2 method","IVdsHwProviderType2 interface","IVdsHwProviderType2 interface","GetProviderType2 method","IVdsHwProviderType2.GetProviderType2","IVdsHwProviderType2::GetProviderType2","base.ivdshwprovidertype2_getprovidertype2","vds/IVdsHwProviderType2::GetProviderType2","vdshwprv/IVdsHwProviderType2::GetProviderType2"]
 old-location: base\ivdshwprovidertype2_getprovidertype2.htm
 tech.root: base

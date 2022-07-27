@@ -1,7 +1,7 @@
 ---
 UID: NN:vdshwprv.IVdsIscsiTarget
 title: IVdsIscsiTarget (vdshwprv.h)
-description: Provides methods for performing query and configuration operations on an iSCSI target.
+description: Provides methods for performing query and configuration operations on an iSCSI target. (IVdsIscsiTarget)
 helpviewer_keywords: ["IVdsIscsiTarget","IVdsIscsiTarget interface [VDS]","IVdsIscsiTarget interface [VDS]","described","base.ivdsiscsitarget","vds/IVdsIscsiTarget","vdshwprv/IVdsIscsiTarget"]
 old-location: base\ivdsiscsitarget.htm
 tech.root: base

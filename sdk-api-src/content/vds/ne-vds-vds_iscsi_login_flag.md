@@ -1,7 +1,7 @@
 ---
 UID: NE:vds._VDS_ISCSI_LOGIN_FLAG
 title: VDS_ISCSI_LOGIN_FLAG (vds.h)
-description: Defines the set of valid flags for specifying iSCSI target login options.
+description: Defines the set of valid flags for specifying iSCSI target login options. (VDS_ISCSI_LOGIN_FLAG)
 helpviewer_keywords: ["VDS_ILF_MULTIPATH_ENABLED","VDS_ILF_REQUIRE_IPSEC","VDS_ISCSI_LOGIN_FLAG","VDS_ISCSI_LOGIN_FLAG enumeration [VDS]","base.vds_iscsi_login_flag","vds/VDS_ILF_MULTIPATH_ENABLED","vds/VDS_ILF_REQUIRE_IPSEC","vds/VDS_ISCSI_LOGIN_FLAG","vdshwprv/VDS_ILF_MULTIPATH_ENABLED","vdshwprv/VDS_ILF_REQUIRE_IPSEC","vdshwprv/VDS_ISCSI_LOGIN_FLAG"]
 old-location: base\vds_iscsi_login_flag.htm
 tech.root: base

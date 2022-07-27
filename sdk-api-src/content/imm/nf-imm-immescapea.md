@@ -1,7 +1,7 @@
 ---
 UID: NF:imm.ImmEscapeA
 title: ImmEscapeA function (imm.h)
-description: Accesses capabilities of particular IMEs that are not available through other IME API functions. This function is used mainly for country-specific operations.
+description: Accesses capabilities of particular IMEs that are not available through other IME API functions. This function is used mainly for country-specific operations. (ImmEscapeA)
 helpviewer_keywords: ["ImmEscape","ImmEscape function [Internationalization for Windows Applications]","ImmEscapeA","ImmEscapeW","_win32_ImmEscape","imm/ImmEscape","imm/ImmEscapeA","imm/ImmEscapeW","intl.immescape"]
 old-location: intl\immescape.htm
 tech.root: Intl

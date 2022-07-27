@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.IAGetPrimitiveTopology
 title: ID3D10Device::IAGetPrimitiveTopology (d3d10.h)
-description: Get information about the primitive type, and data order that describes input data for the input assembler stage.
+description: Get information about the primitive type, and data order that describes input data for the input assembler stage. (ID3D10Device.IAGetPrimitiveTopology)
 helpviewer_keywords: ["00286006-d7cd-22c0-fbe8-077a333cce09","IAGetPrimitiveTopology","IAGetPrimitiveTopology method [Direct3D 10]","IAGetPrimitiveTopology method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","IAGetPrimitiveTopology method","ID3D10Device.IAGetPrimitiveTopology","ID3D10Device::IAGetPrimitiveTopology","d3d10/ID3D10Device::IAGetPrimitiveTopology","direct3d10.id3d10device_iagetprimitivetopology"]
 old-location: direct3d10\id3d10device_iagetprimitivetopology.htm
 tech.root: direct3d10

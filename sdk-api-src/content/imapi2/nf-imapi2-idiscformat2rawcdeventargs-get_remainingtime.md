@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCDEventArgs.get_RemainingTime
 title: IDiscFormat2RawCDEventArgs::get_RemainingTime (imapi2.h)
-description: Retrieves the estimated remaining time of the write operation.
+description: Retrieves the estimated remaining time of the write operation. (IDiscFormat2RawCDEventArgs.get_RemainingTime)
 helpviewer_keywords: ["IDiscFormat2RawCDEventArgs interface [IMAPI]","get_RemainingTime method","IDiscFormat2RawCDEventArgs.get_RemainingTime","IDiscFormat2RawCDEventArgs::get_RemainingTime","get_RemainingTime","get_RemainingTime method [IMAPI]","get_RemainingTime method [IMAPI]","IDiscFormat2RawCDEventArgs interface","imapi.idiscformat2rawcdeventargs_get_remainingtime","imapi2/IDiscFormat2RawCDEventArgs::get_RemainingTime"]
 old-location: imapi\idiscformat2rawcdeventargs_get_remainingtime.htm
 tech.root: imapi

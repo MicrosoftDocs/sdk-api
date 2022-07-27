@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_SubdirectoryFormatPattern
 title: IDataCollectorSet::put_SubdirectoryFormatPattern (pla.h)
-description: Retrieves or sets a format pattern to use when decorating the folder name.
+description: Retrieves or sets a format pattern to use when decorating the folder name. (Put)
 helpviewer_keywords: ["IDataCollectorSet interface [PLA]","SubdirectoryFormatPattern property","IDataCollectorSet.SubdirectoryFormatPattern","IDataCollectorSet.put_SubdirectoryFormatPattern","IDataCollectorSet::SubdirectoryFormatPattern","IDataCollectorSet::get_SubdirectoryFormatPattern","IDataCollectorSet::put_SubdirectoryFormatPattern","SubdirectoryFormatPattern property [PLA]","SubdirectoryFormatPattern property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_subdirectoryformatpattern","pla.idatacollectorset_get_subdirectoryformatpattern","pla/IDataCollectorSet::SubdirectoryFormatPattern","pla/IDataCollectorSet::get_SubdirectoryFormatPattern","pla/IDataCollectorSet::put_SubdirectoryFormatPattern","put_SubdirectoryFormatPattern"]
 old-location: pla\idatacollectorset_get_subdirectoryformatpattern.htm
 tech.root: PLA

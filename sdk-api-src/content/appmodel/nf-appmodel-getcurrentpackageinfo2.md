@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.GetCurrentPackageInfo2
 title: GetCurrentPackageInfo2
-description: Gets the package information for the calling process.
+description: Gets the package information for the calling process. (GetCurrentPackageInfo2)
 helpviewer_keywords: ["GetCurrentPackageInfo2"]
 tech.root: appxpkg
 ms.date: 01/31/2019

@@ -1,7 +1,7 @@
 ---
 UID: NE:vdshwprv._VDS_ISCSI_LOGIN_TYPE
 title: VDS_ISCSI_LOGIN_TYPE (vdshwprv.h)
-description: Defines the set of valid types for logging into an iSCSI target.
+description: Defines the set of valid types for logging into an iSCSI target. (VDS_ISCSI_LOGIN_TYPE)
 helpviewer_keywords: ["VDS_ILT_BOOT","VDS_ILT_MANUAL","VDS_ILT_PERSISTENT","VDS_ISCSI_LOGIN_TYPE","VDS_ISCSI_LOGIN_TYPE enumeration [VDS]","base.vds_iscsi_login_type","vds/VDS_ILT_BOOT","vds/VDS_ILT_MANUAL","vds/VDS_ILT_PERSISTENT","vds/VDS_ISCSI_LOGIN_TYPE","vdshwprv/VDS_ILT_BOOT","vdshwprv/VDS_ILT_MANUAL","vdshwprv/VDS_ILT_PERSISTENT","vdshwprv/VDS_ISCSI_LOGIN_TYPE"]
 old-location: base\vds_iscsi_login_type.htm
 tech.root: base

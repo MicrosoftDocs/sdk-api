@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.Shutdown
 title: IUIAnimationManager::Shutdown (uianimation.h)
-description: Shuts down the animation manager and all its associated objects.
+description: Shuts down the animation manager and all its associated objects. (IUIAnimationManager.Shutdown)
 helpviewer_keywords: ["IUIAnimationManager interface [Windows Animation]","Shutdown method","IUIAnimationManager.Shutdown","IUIAnimationManager::Shutdown","Shutdown","Shutdown method [Windows Animation]","Shutdown method [Windows Animation]","IUIAnimationManager interface","uianimation.iuianimationmanager_shutdown","uianimation/IUIAnimationManager::Shutdown"]
 old-location: uianimation\iuianimationmanager_shutdown.htm
 tech.root: UIAnimation

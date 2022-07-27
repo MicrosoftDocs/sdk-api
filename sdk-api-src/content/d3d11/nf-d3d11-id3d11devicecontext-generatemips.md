@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GenerateMips
 title: ID3D11DeviceContext::GenerateMips (d3d11.h)
-description: Generates mipmaps for the given shader resource.
+description: Generates mipmaps for the given shader resource. (ID3D11DeviceContext.GenerateMips)
 helpviewer_keywords: ["79d02fdb-42ae-9bb1-5d10-7110c77d29f9","GenerateMips","GenerateMips method [Direct3D 11]","GenerateMips method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","GenerateMips method","ID3D11DeviceContext.GenerateMips","ID3D11DeviceContext::GenerateMips","d3d11/ID3D11DeviceContext::GenerateMips","direct3d11.id3d11devicecontext_generatemips"]
 old-location: direct3d11\id3d11devicecontext_generatemips.htm
 tech.root: direct3d11

@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiGetHwProfileFriendlyNameExA
 title: SetupDiGetHwProfileFriendlyNameExA function (setupapi.h)
-description: The SetupDiGetHwProfileFriendlyNameEx function retrieves the friendly name associated with a hardware profile ID on a local or remote computer.
+description: The SetupDiGetHwProfileFriendlyNameEx function retrieves the friendly name associated with a hardware profile ID on a local or remote computer. (ANSI)
 helpviewer_keywords: ["SetupDiGetHwProfileFriendlyNameEx","SetupDiGetHwProfileFriendlyNameEx function [Device and Driver Installation]","SetupDiGetHwProfileFriendlyNameExA","SetupDiGetHwProfileFriendlyNameExW","devinst.setupdigethwprofilefriendlynameex","di-rtns_43d54c1e-047c-491c-93a1-cd5eff918a58.xml","setupapi/SetupDiGetHwProfileFriendlyNameEx"]
 old-location: devinst\setupdigethwprofilefriendlynameex.htm
 tech.root: devinst

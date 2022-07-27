@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsLunControllerPorts
 title: IVdsLunControllerPorts (vds.h)
-description: Provides methods for performing controller port configuration operations on a LUN.
+description: Provides methods for performing controller port configuration operations on a LUN. (IVdsLunControllerPorts)
 helpviewer_keywords: ["IVdsLunControllerPorts","IVdsLunControllerPorts interface [VDS]","IVdsLunControllerPorts interface [VDS]","described","base.ivdsluncontrollerports","vds/IVdsLunControllerPorts","vdshwprv/IVdsLunControllerPorts"]
 old-location: base\ivdsluncontrollerports.htm
 tech.root: base

@@ -1,7 +1,7 @@
 ---
 UID: NF:bits.IEnumBackgroundCopyFiles.Reset
 title: IEnumBackgroundCopyFiles::Reset (bits.h)
-description: Resets the enumeration sequence to the beginning.
+description: Resets the enumeration sequence to the beginning. (IEnumBackgroundCopyFiles.Reset)
 helpviewer_keywords: ["IEnumBackgroundCopyFiles interface [BITS]","Reset method","IEnumBackgroundCopyFiles.Reset","IEnumBackgroundCopyFiles::Reset","Reset","Reset method [BITS]","Reset method [BITS]","IEnumBackgroundCopyFiles interface","_drz_ienumbackgroundcopyfiles_reset","bits.ienumbackgroundcopyfiles_reset","bits/IEnumBackgroundCopyFiles::Reset"]
 old-location: bits\ienumbackgroundcopyfiles_reset.htm
 tech.root: Bits

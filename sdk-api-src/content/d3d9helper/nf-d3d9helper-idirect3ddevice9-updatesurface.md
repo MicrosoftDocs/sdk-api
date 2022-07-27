@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.UpdateSurface
 title: IDirect3DDevice9::UpdateSurface (d3d9helper.h)
-description: Copies rectangular subsets of pixels from one surface to another.
+description: Copies rectangular subsets of pixels from one surface to another. (IDirect3DDevice9.UpdateSurface)
 helpviewer_keywords: ["IDirect3DDevice9 interface [Direct3D 9]","UpdateSurface method","IDirect3DDevice9.UpdateSurface","IDirect3DDevice9::UpdateSurface","UpdateSurface","UpdateSurface method [Direct3D 9]","UpdateSurface method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::UpdateSurface","df5d6a49-ae43-30a0-f148-f2df8e51de81","direct3d9.idirect3ddevice9__updatesurface"]
 old-location: direct3d9\idirect3ddevice9__updatesurface.htm
 tech.root: direct3d9

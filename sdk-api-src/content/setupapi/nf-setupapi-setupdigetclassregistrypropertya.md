@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiGetClassRegistryPropertyA
 title: SetupDiGetClassRegistryPropertyA function (setupapi.h)
-description: The SetupDiGetClassRegistryProperty function retrieves a property for a specified device setup class from the registry.
+description: The SetupDiGetClassRegistryProperty function retrieves a property for a specified device setup class from the registry. (ANSI)
 helpviewer_keywords: ["SetupDiGetClassRegistryProperty","SetupDiGetClassRegistryProperty function [Device and Driver Installation]","SetupDiGetClassRegistryPropertyA","SetupDiGetClassRegistryPropertyW","devinst.setupdigetclassregistryproperty","di-rtns_98a6c47a-6fb5-4752-9f0e-23ad00f4e5f2.xml","setupapi/SetupDiGetClassRegistryProperty"]
 old-location: devinst\setupdigetclassregistryproperty.htm
 tech.root: devinst

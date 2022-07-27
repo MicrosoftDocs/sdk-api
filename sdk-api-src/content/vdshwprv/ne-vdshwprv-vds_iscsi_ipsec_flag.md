@@ -1,7 +1,7 @@
 ---
 UID: NE:vdshwprv._VDS_ISCSI_IPSEC_FLAG
 title: VDS_ISCSI_IPSEC_FLAG (vdshwprv.h)
-description: Not supported.This enumeration is reserved for future use.
+description: Not supported.This enumeration is reserved for future use. (VDS_ISCSI_IPSEC_FLAG)
 helpviewer_keywords: ["VDS_IIF_AGGRESSIVE_MODE","VDS_IIF_IKE","VDS_IIF_MAIN_MODE","VDS_IIF_PFS_ENABLE","VDS_IIF_TRANSPORT_MODE_PREFERRED","VDS_IIF_TUNNEL_MODE_PREFERRED","VDS_IIF_VALID","VDS_ISCSI_IPSEC_FLAG","VDS_ISCSI_IPSEC_FLAG enumeration [VDS]","base.vds_iscsi_ipsec_flag","vds/VDS_IIF_AGGRESSIVE_MODE","vds/VDS_IIF_IKE","vds/VDS_IIF_MAIN_MODE","vds/VDS_IIF_PFS_ENABLE","vds/VDS_IIF_TRANSPORT_MODE_PREFERRED","vds/VDS_IIF_TUNNEL_MODE_PREFERRED","vds/VDS_IIF_VALID","vds/VDS_ISCSI_IPSEC_FLAG","vdshwprv/VDS_IIF_AGGRESSIVE_MODE","vdshwprv/VDS_IIF_IKE","vdshwprv/VDS_IIF_MAIN_MODE","vdshwprv/VDS_IIF_PFS_ENABLE","vdshwprv/VDS_IIF_TRANSPORT_MODE_PREFERRED","vdshwprv/VDS_IIF_TUNNEL_MODE_PREFERRED","vdshwprv/VDS_IIF_VALID","vdshwprv/VDS_ISCSI_IPSEC_FLAG"]
 old-location: base\vds_iscsi_ipsec_flag.htm
 tech.root: base

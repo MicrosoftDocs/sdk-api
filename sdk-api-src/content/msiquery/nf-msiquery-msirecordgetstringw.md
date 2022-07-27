@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiRecordGetStringW
 title: MsiRecordGetStringW function (msiquery.h)
-description: The MsiRecordGetString function returns the string value of a record field.
+description: The MsiRecordGetString function returns the string value of a record field. (Unicode)
 helpviewer_keywords: ["MsiRecordGetString","MsiRecordGetString function","MsiRecordGetStringA","MsiRecordGetStringW","_msi_msirecordgetstring","msiquery/MsiRecordGetString","msiquery/MsiRecordGetStringA","msiquery/MsiRecordGetStringW","setup.msirecordgetstring"]
 old-location: setup\msirecordgetstring.htm
 tech.root: setup

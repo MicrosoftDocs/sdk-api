@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetDisplayMode
 title: IDirect3DDevice9::GetDisplayMode (d3d9.h)
-description: Retrieves the display mode's spatial resolution, color resolution, and refresh frequency.
+description: Retrieves the display mode's spatial resolution, color resolution, and refresh frequency. (IDirect3DDevice9.GetDisplayMode)
 helpviewer_keywords: ["9b212895-5a3c-2630-7af4-0caee7db56cb","GetDisplayMode","GetDisplayMode method [Direct3D 9]","GetDisplayMode method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetDisplayMode method","IDirect3DDevice9.GetDisplayMode","IDirect3DDevice9::GetDisplayMode","d3d9helper/IDirect3DDevice9::GetDisplayMode","direct3d9.idirect3ddevice9__getdisplaymode"]
 old-location: direct3d9\idirect3ddevice9__getdisplaymode.htm
 tech.root: direct3d9

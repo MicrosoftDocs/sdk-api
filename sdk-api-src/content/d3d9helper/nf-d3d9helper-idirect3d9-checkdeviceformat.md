@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3D9.CheckDeviceFormat
 title: IDirect3D9::CheckDeviceFormat (d3d9helper.h)
-description: Determines whether a surface format is available as a specified resource type and can be used as a texture, depth-stencil buffer, or render target, or any combination of the three, on a device representing this adapter.
+description: Determines whether a surface format is available as a specified resource type and can be used as a texture, depth-stencil buffer, or render target, or any combination of the three, on a device representing this adapter. (IDirect3D9.CheckDeviceFormat)
 helpviewer_keywords: ["CheckDeviceFormat","CheckDeviceFormat method [Direct3D 9]","CheckDeviceFormat method [Direct3D 9]","IDirect3D9 interface","IDirect3D9 interface [Direct3D 9]","CheckDeviceFormat method","IDirect3D9.CheckDeviceFormat","IDirect3D9::CheckDeviceFormat","d3d9helper/IDirect3D9::CheckDeviceFormat","daa5cafd-0b8b-a747-98fe-eb9db7acde6d","direct3d9.idirect3d9__checkdeviceformat"]
 old-location: direct3d9\idirect3d9__checkdeviceformat.htm
 tech.root: direct3d9

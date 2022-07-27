@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3.ITAgent.put_MeasurementPeriod
 title: ITAgent::put_MeasurementPeriod (tapi3.h)
-description: The put_MeasurementPeriod method sets the period (in seconds) for which the switch and/or implementation stores and calculates information. This also resets any cumulative counts to zero.
+description: The put_MeasurementPeriod method sets the period (in seconds) for which the switch and/or implementation stores and calculates information. This also resets any cumulative counts to zero. (ITAgent.put_MeasurementPeriod)
 helpviewer_keywords: ["ITAgent interface [TAPI 2.2]","put_MeasurementPeriod method","ITAgent.put_MeasurementPeriod","ITAgent::put_MeasurementPeriod","_tapi3_itagent_put_measurementperiod","put_MeasurementPeriod","put_MeasurementPeriod method [TAPI 2.2]","put_MeasurementPeriod method [TAPI 2.2]","ITAgent interface","tapi3.itagent_put_measurementperiod","tapi3cc/ITAgent::put_MeasurementPeriod"]
 old-location: tapi3\itagent_put_measurementperiod.htm
 tech.root: tapi3

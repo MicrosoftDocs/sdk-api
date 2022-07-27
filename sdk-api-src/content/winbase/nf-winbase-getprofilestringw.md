@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetProfileStringW
 title: GetProfileStringW function (winbase.h)
-description: Retrieves the string associated with a key in the specified section of the Win.ini file.
+description: Retrieves the string associated with a key in the specified section of the Win.ini file. (Unicode)
 helpviewer_keywords: ["GetProfileString","GetProfileString function","GetProfileStringA","GetProfileStringW","_win32_getprofilestring","base.getprofilestring","winbase/GetProfileString","winbase/GetProfileStringA","winbase/GetProfileStringW"]
 old-location: base\getprofilestring.htm
 tech.root: winprog

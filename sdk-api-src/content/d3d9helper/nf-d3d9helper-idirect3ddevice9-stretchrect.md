@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.StretchRect
 title: IDirect3DDevice9::StretchRect (d3d9helper.h)
-description: Copy the contents of the source rectangle to the destination rectangle. The source rectangle can be stretched and filtered by the copy. This function is often used to change the aspect ratio of a video stream.
+description: Copy the contents of the source rectangle to the destination rectangle. The source rectangle can be stretched and filtered by the copy. This function is often used to change the aspect ratio of a video stream. (IDirect3DDevice9.StretchRect)
 helpviewer_keywords: ["IDirect3DDevice9 interface [Direct3D 9]","StretchRect method","IDirect3DDevice9.StretchRect","IDirect3DDevice9::StretchRect","StretchRect","StretchRect method [Direct3D 9]","StretchRect method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::StretchRect","direct3d9.idirect3ddevice9__stretchrect","fef1baf8-c226-1e9b-4d7e-3fad08fc1652"]
 old-location: direct3d9\idirect3ddevice9__stretchrect.htm
 tech.root: direct3d9

@@ -1,7 +1,7 @@
 ---
 UID: NS:mmeapi.tMIXERCONTROLDETAILS_UNSIGNED
 title: MIXERCONTROLDETAILS_UNSIGNED (mmeapi.h)
-description: The MIXERCONTROLDETAILS structure refers to control-detail structures, retrieving or setting state information of an audio mixer control.
+description: The MIXERCONTROLDETAILS structure refers to control-detail structures, retrieving or setting state information of an audio mixer control.M
 helpviewer_keywords: ["*LPMIXERCONTROLDETAILS_UNSIGNED","*PMIXERCONTROLDETAILS_UNSIGNED","0","1","MIXERCONTROL cMultipleItems member","MIXERCONTROLDETAILS","MIXERCONTROLDETAILS hwndOwner member","MIXERCONTROLDETAILS structure [Windows Multimedia]","MIXERCONTROLDETAILS_BOOLEAN","MIXERCONTROLDETAILS_LISTTEXT","MIXERCONTROLDETAILS_SIGNED","MIXERCONTROLDETAILS_UNSIGNED","MIXERLINE cChannels","_win32_MIXERCONTROLDETAILS_str","mmeapi/MIXERCONTROLDETAILS","multimedia.mixercontroldetails","tMIXERCONTROLDETAILS"]
 old-location: multimedia\mixercontroldetails.htm
 tech.root: Multimedia

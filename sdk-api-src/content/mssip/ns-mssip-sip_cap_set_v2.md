@@ -1,7 +1,7 @@
 ---
 UID: NS:mssip._SIP_CAP_SET_V2
 title: SIP_CAP_SET_V2 (mssip.h)
-description: Defines the capabilities of a subject interface package (SIP).
+description: Defines the capabilities of a subject interface package (SIP).S
 helpviewer_keywords: ["*PSIP_CAP_SET_V2","PSIP_CAP_SET","PSIP_CAP_SET structure pointer [Security]","SIP_CAP_SET","SIP_CAP_SET structure [Security]","SIP_CAP_SET_V2","mssip/PSIP_CAP_SET","mssip/SIP_CAP_SET","security.sip_cap_set"]
 old-location: security\sip_cap_set.htm
 tech.root: security

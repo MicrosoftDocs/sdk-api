@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.CMCreateTransformW
 title: CMCreateTransformW
-description: Deprecated. There is no replacement API because this one was no longer being used. Developers of alternate CMM modules are not required to implement it.
+description: Deprecated. There is no replacement API because this one was no longer being used. Developers of alternate CMM modules are not required to implement it. (CMCreateTransformW)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

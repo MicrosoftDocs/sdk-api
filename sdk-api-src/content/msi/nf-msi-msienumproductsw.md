@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiEnumProductsW
 title: MsiEnumProductsW function (msi.h)
-description: The MsiEnumProducts function enumerates through all the products currently advertised or installed. Products that are installed in both the per-user and per-machine installation context and advertisements are enumerated.
+description: The MsiEnumProducts function enumerates through all the products currently advertised or installed. Products that are installed in both the per-user and per-machine installation context and advertisements are enumerated. (Unicode)
 helpviewer_keywords: ["MsiEnumProducts","MsiEnumProducts function","MsiEnumProductsA","MsiEnumProductsW","_msi_msienumproducts","msi/MsiEnumProducts","msi/MsiEnumProductsA","msi/MsiEnumProductsW","setup.msienumproducts"]
 old-location: setup\msienumproducts.htm
 tech.root: setup

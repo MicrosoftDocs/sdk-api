@@ -1,7 +1,7 @@
 ---
 UID: NF:remotesystemadditionalinfo.HSTRING_UserSize64
 title: HSTRING_UserSize64 function (remotesystemadditionalinfo.h)
-description: Calculates the wire size of the HSTRING object, and gets its handle and data.
+description: Calculates the wire size of the HSTRING object, and gets its handle and data. (HSTRING_UserSize64)
 helpviewer_keywords: ["HSTRING_UserSize64","HSTRING_UserSize64 function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserSize64","winrt.hstring_usersize64"]
 old-location: winrt\hstring_usersize64.htm
 tech.root: WinRT

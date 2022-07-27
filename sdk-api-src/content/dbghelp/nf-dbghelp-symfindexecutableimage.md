@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymFindExecutableImage
 title: SymFindExecutableImage function (dbghelp.h)
-description: Locates an executable file in the process search path.
+description: Locates an executable file in the process search path. (SymFindExecutableImageW)
 helpviewer_keywords: ["SymFindExecutableImage","SymFindExecutableImage function","SymFindExecutableImageW","base.symfindexecutableimage","dbghelp/SymFindExecutableImage","dbghelp/SymFindExecutableImageW"]
 old-location: base\symfindexecutableimage.htm
 tech.root: Debug

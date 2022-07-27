@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem2.GetDrive2
 title: IVdsSubSystem2::GetDrive2 (vdshwprv.h)
-description: Returns the specified drive. This method is identical to the IVdsSubSystem::GetDrive method, except that it includes the enclosure number as a parameter.
+description: Returns the specified drive. This method is identical to the IVdsSubSystem::GetDrive method, except that it includes the enclosure number as a parameter. (IVdsSubSystem2.GetDrive2)
 helpviewer_keywords: ["GetDrive2","GetDrive2 method","GetDrive2 method","IVdsSubSystem2 interface","IVdsSubSystem2 interface","GetDrive2 method","IVdsSubSystem2.GetDrive2","IVdsSubSystem2::GetDrive2","base.ivdssubsystem2_getdrive2","vds/IVdsSubSystem2::GetDrive2","vdshwprv/IVdsSubSystem2::GetDrive2"]
 old-location: base\ivdssubsystem2_getdrive2.htm
 tech.root: base

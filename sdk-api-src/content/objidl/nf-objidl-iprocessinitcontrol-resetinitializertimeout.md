@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IProcessInitControl.ResetInitializerTimeout
 title: IProcessInitControl::ResetInitializerTimeout (objidl.h)
-description: Sets the process initialization time-out.
+description: Sets the process initialization time-out. (IProcessInitControl.ResetInitializerTimeout)
 helpviewer_keywords: ["IProcessInitControl interface [COM]","ResetInitializerTimeout method","IProcessInitControl.ResetInitializerTimeout","IProcessInitControl::ResetInitializerTimeout","ResetInitializerTimeout","ResetInitializerTimeout method [COM]","ResetInitializerTimeout method [COM]","IProcessInitControl interface","_com_iprocessinitcontrol_resetinitializertimeout","com.iprocessinitcontrol_resetinitializertimeout","objidlbase/IProcessInitControl::ResetInitializerTimeout"]
 old-location: com\iprocessinitcontrol_resetinitializertimeout.htm
 tech.root: com

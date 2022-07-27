@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.IPipeByte.Push
 title: IPipeByte::Push (objidlbase.h)
-description: Sends data of the byte type to the pipe source.
+description: Sends data of the byte type to the pipe source. (IPipeByte.Push)
 helpviewer_keywords: ["IPipeByte interface [COM]","Push method","IPipeByte.Push","IPipeByte::Push","Push","Push method [COM]","Push method [COM]","IPipeByte interface","_com_ipipebyte_push","com.ipipebyte_push","objidlbase/IPipeByte::Push"]
 old-location: com\ipipebyte_push.htm
 tech.root: com

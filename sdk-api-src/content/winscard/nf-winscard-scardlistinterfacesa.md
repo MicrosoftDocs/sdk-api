@@ -1,7 +1,7 @@
 ---
 UID: NF:winscard.SCardListInterfacesA
 title: SCardListInterfacesA function (winscard.h)
-description: Provides a list of interfaces supplied by a given card.
+description: Provides a list of interfaces supplied by a given card. (ANSI)
 helpviewer_keywords: ["SCardListInterfaces","SCardListInterfaces function [Security]","SCardListInterfacesA","SCardListInterfacesW","_smart_scardlistinterfaces","security.scardlistinterfaces","winscard/SCardListInterfaces","winscard/SCardListInterfacesA","winscard/SCardListInterfacesW"]
 old-location: security\scardlistinterfaces.htm
 tech.root: security

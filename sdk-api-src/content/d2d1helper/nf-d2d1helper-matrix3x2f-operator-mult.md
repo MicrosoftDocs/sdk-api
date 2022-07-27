@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.operator-mult
 title: Matrix3x2F::operator-mult (d2d1helper.h)
-description: Multiplies this matrix with the specified matrix and returns the result.
+description: Multiplies this matrix with the specified matrix and returns the result.M
 helpviewer_keywords: ["D2D1.Matrix3x2F.operator*","D2D1::Matrix3x2F::operator*","Matrix3x2F interface [Direct2D]","operator* method","Matrix3x2F.operator*","Matrix3x2F.operator-mult","Matrix3x2F::operator*","Matrix3x2F::operator-mult","d2d1helper/Matrix3x2F::operator*","direct2d.matrix3x2f_operator_","operator*","operator* method [Direct2D]","operator* method [Direct2D]","Matrix3x2F interface"]
 old-location: direct2d\matrix3x2f_operator_.htm
 tech.root: Direct2D

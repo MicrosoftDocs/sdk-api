@@ -1,7 +1,7 @@
 ---
 UID: NF:comcat.IEnumCATEGORYINFO.Reset
 title: IEnumCATEGORYINFO::Reset (comcat.h)
-description: Resets the enumeration sequence to the beginning.
+description: Resets the enumeration sequence to the beginning. (IEnumCATEGORYINFO.Reset)
 helpviewer_keywords: ["IEnumCATEGORYINFO interface [COM]","Reset method","IEnumCATEGORYINFO.Reset","IEnumCATEGORYINFO::Reset","Reset","Reset method [COM]","Reset method [COM]","IEnumCATEGORYINFO interface","_com_ienumcategoryinfo_reset","com.ienumcategoryinfo_reset","comcat/IEnumCATEGORYINFO::Reset"]
 old-location: com\ienumcategoryinfo_reset.htm
 tech.root: com

@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.CreateColorTransformW
 title: CreateColorTransformW
-description: Creates a color transform that applications can use to perform color management.
+description: Creates a color transform that applications can use to perform color management. (Unicode)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

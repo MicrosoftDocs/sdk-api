@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IEnumProgressItems.Reset
 title: IEnumProgressItems::Reset (imapi2fs.h)
-description: Resets the enumeration sequence to the beginning.
+description: Resets the enumeration sequence to the beginning. (IEnumProgressItems.Reset)
 helpviewer_keywords: ["IEnumProgressItems interface [IMAPI]","Reset method","IEnumProgressItems.Reset","IEnumProgressItems::Reset","Reset","Reset method [IMAPI]","Reset method [IMAPI]","IEnumProgressItems interface","imapi.ienumprogressitems_reset","imapi2fs/IEnumProgressItems::Reset"]
 old-location: imapi\ienumprogressitems_reset.htm
 tech.root: imapi

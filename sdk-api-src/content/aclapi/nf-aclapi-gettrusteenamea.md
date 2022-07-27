@@ -1,7 +1,7 @@
 ---
 UID: NF:aclapi.GetTrusteeNameA
 title: GetTrusteeNameA function (aclapi.h)
-description: Retrieves the trustee name from the specified TRUSTEE structure.
+description: Retrieves the trustee name from the specified TRUSTEE structure. (ANSI)
 helpviewer_keywords: ["GetTrusteeName","GetTrusteeName function [Security]","GetTrusteeNameA","GetTrusteeNameW","_win32_gettrusteename","aclapi/GetTrusteeName","aclapi/GetTrusteeNameA","aclapi/GetTrusteeNameW","security.gettrusteename"]
 old-location: security\gettrusteename.htm
 tech.root: security

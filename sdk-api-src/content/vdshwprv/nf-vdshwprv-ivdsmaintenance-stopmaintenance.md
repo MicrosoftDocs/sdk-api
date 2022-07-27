@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsMaintenance.StopMaintenance
 title: IVdsMaintenance::StopMaintenance (vdshwprv.h)
-description: Stops a maintenance operation.
+description: Stops a maintenance operation. (IVdsMaintenance.StopMaintenance)
 helpviewer_keywords: ["IVdsMaintenance interface [VDS]","StopMaintenance method","IVdsMaintenance.StopMaintenance","IVdsMaintenance::StopMaintenance","StopMaintenance","StopMaintenance method [VDS]","StopMaintenance method [VDS]","IVdsMaintenance interface","base.ivdsmaintenance_stopmaintenance","vds/IVdsMaintenance::StopMaintenance","vdshwprv/IVdsMaintenance::StopMaintenance"]
 old-location: base\ivdsmaintenance_stopmaintenance.htm
 tech.root: base

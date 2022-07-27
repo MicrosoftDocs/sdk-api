@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.BuildCommDCBW
 title: BuildCommDCBW function (winbase.h)
-description: Fills a specified DCB structure with values specified in a device-control string.
+description: Fills a specified DCB structure with values specified in a device-control string. (Unicode)
 helpviewer_keywords: ["BuildCommDCB","BuildCommDCB function","BuildCommDCBA","BuildCommDCBW","_win32_buildcommdcb","base.buildcommdcb","winbase/BuildCommDCB","winbase/BuildCommDCBA","winbase/BuildCommDCBW"]
 old-location: base\buildcommdcb.htm
 tech.root: base

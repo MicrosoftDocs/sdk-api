@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d9helper.IDirect3DVertexShader9
 title: IDirect3DVertexShader9 (d3d9helper.h)
-description: Applications use the methods of the IDirect3DVertexShader9 interface to encapsulate the functionality of a vertex shader.
+description: Applications use the methods of the IDirect3DVertexShader9 interface to encapsulate the functionality of a vertex shader. (IDirect3DVertexShader9)
 helpviewer_keywords: ["09169d01-44dc-55c7-a6bd-28349bbc3b06","IDirect3DVertexShader9","IDirect3DVertexShader9 interface [Direct3D 9]","IDirect3DVertexShader9 interface [Direct3D 9]","described","d3d9helper/IDirect3DVertexShader9","direct3d9.idirect3dvertexshader9"]
 old-location: direct3d9\idirect3dvertexshader9.htm
 tech.root: direct3d9

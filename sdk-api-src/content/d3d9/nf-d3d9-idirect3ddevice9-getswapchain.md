@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetSwapChain
 title: IDirect3DDevice9::GetSwapChain (d3d9.h)
-description: Gets a pointer to a swap chain.
+description: Gets a pointer to a swap chain. (IDirect3DDevice9.GetSwapChain)
 helpviewer_keywords: ["141571bf-172b-c679-109b-248388ab3cc3","GetSwapChain","GetSwapChain method [Direct3D 9]","GetSwapChain method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetSwapChain method","IDirect3DDevice9.GetSwapChain","IDirect3DDevice9::GetSwapChain","d3d9helper/IDirect3DDevice9::GetSwapChain","direct3d9.idirect3ddevice9__getswapchain"]
 old-location: direct3d9\idirect3ddevice9__getswapchain.htm
 tech.root: direct3d9

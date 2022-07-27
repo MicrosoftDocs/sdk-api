@@ -1,7 +1,7 @@
 ---
 UID: NN:objidlbase.ISynchronizeContainer
 title: ISynchronizeContainer (objidlbase.h)
-description: Manages a group of unsignaled synchronization objects.
+description: Manages a group of unsignaled synchronization objects. (ISynchronizeContainer)
 helpviewer_keywords: ["ISynchronizeContainer","ISynchronizeContainer interface [COM]","ISynchronizeContainer interface [COM]","described","_com_isynchronizecontainer","com.isynchronizecontainer","objidlbase/ISynchronizeContainer"]
 old-location: com\isynchronizecontainer.htm
 tech.root: com

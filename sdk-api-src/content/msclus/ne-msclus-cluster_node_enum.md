@@ -1,7 +1,7 @@
 ---
 UID: NE:msclus.CLUSTER_NODE_ENUM
 title: CLUSTER_NODE_ENUM (msclus.h)
-description: Describes the types of cluster objects that are enumerated by the ClusterNodeEnum and ClusterNodeOpenEnum functions.
+description: Describes the types of cluster objects that are enumerated by the ClusterNodeEnum and ClusterNodeOpenEnum functions. (CLUSTER_NODE_ENUM)
 helpviewer_keywords: ["CLUSTER_NODE_ENUM","CLUSTER_NODE_ENUM enumeration [Failover Cluster]","CLUSTER_NODE_ENUM_ALL","CLUSTER_NODE_ENUM_GROUPS","CLUSTER_NODE_ENUM_NETINTERFACES","CLUSTER_NODE_ENUM_PREFERRED_GROUPS","_CLUSTER_NODE_ENUM","_CLUSTER_NODE_ENUM enumeration [Failover Cluster]","clusapi/CLUSTER_NODE_ENUM","clusapi/CLUSTER_NODE_ENUM_ALL","clusapi/CLUSTER_NODE_ENUM_GROUPS","clusapi/CLUSTER_NODE_ENUM_NETINTERFACES","clusapi/CLUSTER_NODE_ENUM_PREFERRED_GROUPS","clusapi/_CLUSTER_NODE_ENUM","msclus/CLUSTER_NODE_ENUM","msclus/CLUSTER_NODE_ENUM_ALL","msclus/CLUSTER_NODE_ENUM_GROUPS","msclus/CLUSTER_NODE_ENUM_NETINTERFACES","msclus/CLUSTER_NODE_ENUM_PREFERRED_GROUPS","msclus/_CLUSTER_NODE_ENUM","mscs.cluster_node_enum"]
 old-location: mscs\cluster_node_enum.htm
 tech.root: MsCS

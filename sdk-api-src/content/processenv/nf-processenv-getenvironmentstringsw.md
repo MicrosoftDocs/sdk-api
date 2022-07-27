@@ -1,7 +1,7 @@
 ---
 UID: NF:processenv.GetEnvironmentStringsW
 title: GetEnvironmentStringsW function (processenv.h)
-description: Retrieves the environment variables for the current process.
+description: Retrieves the environment variables for the current process. (GetEnvironmentStringsW)
 helpviewer_keywords: ["GetEnvironmentStrings","GetEnvironmentStrings function","GetEnvironmentStringsA","GetEnvironmentStringsW","_win32_getenvironmentstrings","base.getenvironmentstrings","processenv/GetEnvironmentStrings","processenv/GetEnvironmentStringsA","processenv/GetEnvironmentStringsW","winbase/GetEnvironmentStrings","winbase/GetEnvironmentStringsA","winbase/GetEnvironmentStringsW"]
 old-location: base\getenvironmentstrings.htm
 tech.root: backup

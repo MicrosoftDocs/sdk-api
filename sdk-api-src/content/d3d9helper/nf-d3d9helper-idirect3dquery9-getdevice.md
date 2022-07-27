@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DQuery9.GetDevice
 title: IDirect3DQuery9::GetDevice (d3d9helper.h)
-description: Gets the device that is being queried.
+description: Gets the device that is being queried. (IDirect3DQuery9.GetDevice)
 helpviewer_keywords: ["8dd8379e-a2cd-b722-e3cd-771da54e3b51","GetDevice","GetDevice method [Direct3D 9]","GetDevice method [Direct3D 9]","IDirect3DQuery9 interface","IDirect3DQuery9 interface [Direct3D 9]","GetDevice method","IDirect3DQuery9.GetDevice","IDirect3DQuery9::GetDevice","d3d9helper/IDirect3DQuery9::GetDevice","direct3d9.idirect3dquery9__getdevice"]
 old-location: direct3d9\idirect3dquery9__getdevice.htm
 tech.root: direct3d9

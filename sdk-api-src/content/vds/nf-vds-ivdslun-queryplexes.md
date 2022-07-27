@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsLun.QueryPlexes
 title: IVdsLun::QueryPlexes (vds.h)
-description: Returns an enumeration of the plexes in a LUN.
+description: Returns an enumeration of the plexes in a LUN. (IVdsLun.QueryPlexes)
 helpviewer_keywords: ["IVdsLun interface [VDS]","QueryPlexes method","IVdsLun.QueryPlexes","IVdsLun::QueryPlexes","QueryPlexes","QueryPlexes method [VDS]","QueryPlexes method [VDS]","IVdsLun interface","base.ivdslun_queryplexes","vds/IVdsLun::QueryPlexes","vdshwprv/IVdsLun::QueryPlexes"]
 old-location: base\ivdslun_queryplexes.htm
 tech.root: base

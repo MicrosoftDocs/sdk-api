@@ -1,7 +1,7 @@
 ---
 UID: NS:setupapi._SP_DEVINSTALL_PARAMS_A
 title: SP_DEVINSTALL_PARAMS_A (setupapi.h)
-description: An SP_DEVINSTALL_PARAMS structure contains device installation parameters associated with a particular device information element or associated globally with a device information set.
+description: An SP_DEVINSTALL_PARAMS structure contains device installation parameters associated with a particular device information element or associated globally with a device information set. (ANSI)
 helpviewer_keywords: ["*PSP_DEVINSTALL_PARAMS_A","PSP_DEVINSTALL_PARAMS","PSP_DEVINSTALL_PARAMS structure pointer [Device and Driver Installation]","SP_DEVINSTALL_PARAMS","SP_DEVINSTALL_PARAMS structure [Device and Driver Installation]","SP_DEVINSTALL_PARAMS_A","devinst.sp_devinstall_params","di-struct_ef7906d1-6416-41fc-8844-53f2f594a913.xml","setupapi/PSP_DEVINSTALL_PARAMS","setupapi/SP_DEVINSTALL_PARAMS"]
 old-location: devinst\sp_devinstall_params.htm
 tech.root: devinst

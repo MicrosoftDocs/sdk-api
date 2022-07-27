@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_REASSIGN_BLOCKS_EX
 title: IOCTL_DISK_REASSIGN_BLOCKS_EX
-description: Directs the disk device to map one or more blocks to its spare-block pool.
+description: Directs the disk device to map one or more blocks to its spare-block pool. (IOCTL_DISK_REASSIGN_BLOCKS_EX)
 helpviewer_keywords: ["IOCTL_DISK_REASSIGN_BLOCKS_EX","IOCTL_DISK_REASSIGN_BLOCKS_EX control","IOCTL_DISK_REASSIGN_BLOCKS_EX control code [Files]","base.ioctl_disk_reassign_blocks_ex","fs.ioctl_disk_reassign_blocks_ex","winioctl/IOCTL_DISK_REASSIGN_BLOCKS_EX"]
 old-location: fs\ioctl_disk_reassign_blocks_ex.htm
 tech.root: fs

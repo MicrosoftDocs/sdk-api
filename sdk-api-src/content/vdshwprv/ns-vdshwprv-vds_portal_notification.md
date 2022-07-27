@@ -1,7 +1,7 @@
 ---
 UID: NS:vdshwprv._VDS_PORTAL_NOTIFICATION
 title: VDS_PORTAL_NOTIFICATION (vdshwprv.h)
-description: Defines the details of iSCSI portal events.
+description: Defines the details of iSCSI portal events. (VDS_PORTAL_NOTIFICATION)
 helpviewer_keywords: ["VDS_NF_PORTAL_ARRIVE","VDS_NF_PORTAL_DEPART","VDS_NF_PORTAL_MODIFY","VDS_PORTAL_NOTIFICATION","VDS_PORTAL_NOTIFICATION structure [VDS]","base.vds_portal_notification","vds/_VDS_PORTAL_NOTIFICATION","vdshwprv/_VDS_PORTAL_NOTIFICATION"]
 old-location: base\vds_portal_notification.htm
 tech.root: base

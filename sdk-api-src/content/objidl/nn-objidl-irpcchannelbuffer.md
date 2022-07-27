@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IRpcChannelBuffer
 title: IRpcChannelBuffer (objidl.h)
-description: Marshals data between a COM client proxy and a COM server stub.
+description: Marshals data between a COM client proxy and a COM server stub. (IRpcChannelBuffer)
 helpviewer_keywords: ["IRpcChannelBuffer","IRpcChannelBuffer interface [COM]","IRpcChannelBuffer interface [COM]","described","_com_irpcchannelbuffer","com.irpcchannelbuffer","objidlbase/IRpcChannelBuffer"]
 old-location: com\irpcchannelbuffer.htm
 tech.root: com

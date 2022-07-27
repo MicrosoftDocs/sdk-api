@@ -1,7 +1,7 @@
 ---
 UID: NS:vds._VDS_DRIVE_PROP
 title: VDS_DRIVE_PROP (vds.h)
-description: Defines the properties of a drive object.
+description: Defines the properties of a drive object. (VDS_DRIVE_PROP)
 helpviewer_keywords: ["*PVDS_DRIVE_PROP","VDS_DRIVE_PROP","VDS_DRIVE_PROP structure [VDS]","VDS_H_FAILED","VDS_H_HEALTHY","VDS_H_PENDING_FAILURE","VDS_H_REPLACED","VDS_H_UNKNOWN","base.vds_drive_prop","vds/_VDS_DRIVE_PROP","vdshwprv/_VDS_DRIVE_PROP"]
 old-location: base\vds_drive_prop.htm
 tech.root: base

@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.SaslEnumerateProfilesA
 title: SaslEnumerateProfilesA function (sspi.h)
-description: Lists the packages that provide a SASL interface.
+description: Lists the packages that provide a SASL interface. (ANSI)
 helpviewer_keywords: ["SaslEnumerateProfiles","SaslEnumerateProfiles function [Security]","SaslEnumerateProfilesA","SaslEnumerateProfilesW","security.saslenumerateprofiles","sspi/SaslEnumerateProfiles","sspi/SaslEnumerateProfilesA","sspi/SaslEnumerateProfilesW"]
 old-location: security\saslenumerateprofiles.htm
 tech.root: security

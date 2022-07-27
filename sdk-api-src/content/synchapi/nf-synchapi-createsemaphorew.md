@@ -1,7 +1,7 @@
 ---
 UID: NF:synchapi.CreateSemaphoreW
 title: CreateSemaphoreW function (synchapi.h)
-description: Creates or opens a named or unnamed semaphore object.
+description: Creates or opens a named or unnamed semaphore object. (CreateSemaphoreW)
 helpviewer_keywords: ["CreateSemaphoreA","CreateSemaphoreW","CreateSemaphoreW function","_win32_createsemaphore","base.createsemaphore","synchapi/CreateSemaphoreA","synchapi/CreateSemaphoreW"]
 old-location: base\createsemaphore.htm
 tech.root: base

@@ -1,7 +1,7 @@
 ---
 UID: NS:vdshwprv._VDS_ISCSI_INITIATOR_ADAPTER_PROP
 title: VDS_ISCSI_INITIATOR_ADAPTER_PROP (vdshwprv.h)
-description: Defines the properties of an iSCSI initiator adapter.
+description: Defines the properties of an iSCSI initiator adapter. (VDS_ISCSI_INITIATOR_ADAPTER_PROP)
 helpviewer_keywords: ["VDS_ISCSI_INITIATOR_ADAPTER_PROP","VDS_ISCSI_INITIATOR_ADAPTER_PROP structure [VDS]","_VDS_ISCSI_INITIATOR_ADAPTER_PROP","base.vds_iscsi_initiator_adapter_prop","vds/VDS_ISCSI_INITIATOR_ADAPTER_PROP","vdshwprv/VDS_ISCSI_INITIATOR_ADAPTER_PROP"]
 old-location: base\vds_iscsi_initiator_adapter_prop.htm
 tech.root: base

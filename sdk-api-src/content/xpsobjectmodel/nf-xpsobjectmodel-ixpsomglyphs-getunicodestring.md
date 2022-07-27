@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetUnicodeString
 title: IXpsOMGlyphs::GetUnicodeString (xpsobjectmodel.h)
-description: Gets the text in unescaped UTF-16 scalar values.
+description: Gets the text in unescaped UTF-16 scalar values. (IXpsOMGlyphs.GetUnicodeString)
 helpviewer_keywords: ["GetUnicodeString","GetUnicodeString method [XPS Documents and Packaging]","GetUnicodeString method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetUnicodeString method","IXpsOMGlyphs.GetUnicodeString","IXpsOMGlyphs::GetUnicodeString","xps.ixpsomglyphs_getunicodestring","xpsobjectmodel/IXpsOMGlyphs::GetUnicodeString"]
 old-location: xps\ixpsomglyphs_getunicodestring.htm
 tech.root: xps

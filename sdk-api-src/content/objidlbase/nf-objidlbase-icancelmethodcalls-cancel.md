@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.ICancelMethodCalls.Cancel
 title: ICancelMethodCalls::Cancel (objidlbase.h)
-description: Requests that a method call be canceled.
+description: Requests that a method call be canceled. (ICancelMethodCalls.Cancel)
 helpviewer_keywords: ["Cancel","Cancel method [COM]","Cancel method [COM]","ICancelMethodCalls interface","ICancelMethodCalls interface [COM]","Cancel method","ICancelMethodCalls.Cancel","ICancelMethodCalls::Cancel","_com_icancelmethodcalls_cancel","com.icancelmethodcalls_cancel","objidlbase/ICancelMethodCalls::Cancel"]
 old-location: com\icancelmethodcalls_cancel.htm
 tech.root: com

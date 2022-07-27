@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsLunControllerPorts.QueryActiveControllerPorts
 title: IVdsLunControllerPorts::QueryActiveControllerPorts (vdshwprv.h)
-description: Returns an enumeration of currently active controller ports.
+description: Returns an enumeration of currently active controller ports. (IVdsLunControllerPorts.QueryActiveControllerPorts)
 helpviewer_keywords: ["IVdsLunControllerPorts interface","QueryActiveControllerPorts method","IVdsLunControllerPorts.QueryActiveControllerPorts","IVdsLunControllerPorts::QueryActiveControllerPorts","QueryActiveControllerPorts","QueryActiveControllerPorts method","QueryActiveControllerPorts method","IVdsLunControllerPorts interface","base.ivdsluncontrollerports_queryactivecontrollerports","vds/IVdsLunControllerPorts::QueryActiveControllerPorts","vdshwprv/IVdsLunControllerPorts::QueryActiveControllerPorts"]
 old-location: base\ivdsluncontrollerports_queryactivecontrollerports.htm
 tech.root: base

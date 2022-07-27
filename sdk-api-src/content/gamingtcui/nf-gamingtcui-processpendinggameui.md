@@ -1,7 +1,7 @@
 ---
 UID: NF:gamingtcui.ProcessPendingGameUI
 title: ProcessPendingGameUI function (gamingtcui.h)
-description: Do not use. This API is only supported for Xbox developers.
+description: Do not use. This API is only supported for Xbox developers. (ProcessPendingGameUI)
 helpviewer_keywords: ["ProcessPendingGameUI","ProcessPendingGameUI function","gamingtcui/ProcessPendingGameUI","tcui.processpendinggameui"]
 old-location: tcui\processpendinggameui.htm
 tech.root: tcui

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1Device.GetMaximumTextureMemory
 title: ID2D1Device::GetMaximumTextureMemory (d2d1_1.h)
-description: Sets the maximum amount of texture memory Direct2D accumulates before it purges the image caches and cached texture allocations.
+description: Sets the maximum amount of texture memory Direct2D accumulates before it purges the image caches and cached texture allocations. (ID2D1Device.GetMaximumTextureMemory)
 helpviewer_keywords: ["GetMaximumTextureMemory","GetMaximumTextureMemory method [Direct2D]","GetMaximumTextureMemory method [Direct2D]","ID2D1Device interface","ID2D1Device interface [Direct2D]","GetMaximumTextureMemory method","ID2D1Device.GetMaximumTextureMemory","ID2D1Device::GetMaximumTextureMemory","d2d1_1/ID2D1Device::GetMaximumTextureMemory","direct2d.id2d1device_getmaximumtexturememory"]
 old-location: direct2d\id2d1device_getmaximumtexturememory.htm
 tech.root: Direct2D

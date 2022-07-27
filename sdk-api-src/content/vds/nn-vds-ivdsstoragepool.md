@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsStoragePool
 title: IVdsStoragePool (vds.h)
-description: Provides methods to query information and enumerate related objects for a storage pool.
+description: Provides methods to query information and enumerate related objects for a storage pool. (IVdsStoragePool)
 helpviewer_keywords: ["IVdsStoragePool","IVdsStoragePool interface","IVdsStoragePool interface","described","base.ivdsstoragepool","vds/IVdsStoragePool","vdshwprv/IVdsStoragePool"]
 old-location: base\ivdsstoragepool.htm
 tech.root: base

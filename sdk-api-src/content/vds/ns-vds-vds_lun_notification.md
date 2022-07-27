@@ -1,7 +1,7 @@
 ---
 UID: NS:vds._VDS_LUN_NOTIFICATION
 title: VDS_LUN_NOTIFICATION (vds.h)
-description: Defines the details of a LUN notification.
+description: Defines the details of a LUN notification. (VDS_LUN_NOTIFICATION)
 helpviewer_keywords: ["VDS_LUN_NOTIFICATION","VDS_LUN_NOTIFICATION structure [VDS]","VDS_NF_LUN_ARRIVE","VDS_NF_LUN_DEPART","VDS_NF_LUN_MODIFY","base.vds_lun_notification","vds/_VDS_LUN_NOTIFICATION","vdshwprv/_VDS_LUN_NOTIFICATION"]
 old-location: base\vds_lun_notification.htm
 tech.root: base

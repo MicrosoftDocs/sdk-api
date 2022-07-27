@@ -1,7 +1,7 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_Interface_AliasW
 title: CM_Get_Device_Interface_AliasW function (cfgmgr32.h)
-description: The CM_Get_Device_Interface_Alias function returns the alias of the specified device interface instance, if the alias exists.
+description: The CM_Get_Device_Interface_Alias function returns the alias of the specified device interface instance, if the alias exists. (Unicode)
 helpviewer_keywords: ["CM_Get_Device_Interface_Alias","CM_Get_Device_Interface_Alias function [Device and Driver Installation]","CM_Get_Device_Interface_AliasW","cfgmgr32/CM_Get_Device_Interface_Alias","cfgmgr32/CM_Get_Device_Interface_AliasW","cfgmgrfn_7650eacc-4b5e-4f88-81f2-a7f75462dfc1.xml","devinst.cm_get_device_interface_alias"]
 old-location: devinst\cm_get_device_interface_alias.htm
 tech.root: devinst

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFBeginRegisterWorkQueueWithMMCSSEx
 title: MFBeginRegisterWorkQueueWithMMCSSEx function (mfapi.h)
-description: Associates a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
+description: Associates a work queue with a Multimedia Class Scheduler Service (MMCSS) task. (MFBeginRegisterWorkQueueWithMMCSSEx)
 helpviewer_keywords: ["MFBeginRegisterWorkQueueWithMMCSSEx","MFBeginRegisterWorkQueueWithMMCSSEx function [Media Foundation]","mf.mfbeginregisterworkqueuewithmmcssex","mfapi/MFBeginRegisterWorkQueueWithMMCSSEx"]
 old-location: mf\mfbeginregisterworkqueuewithmmcssex.htm
 tech.root: mf

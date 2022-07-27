@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasSetEntryPropertiesA
 title: RasSetEntryPropertiesA function (ras.h)
-description: The RasSetEntryProperties function changes the connection information for an entry in the phone book or creates a new phone-book entry.
+description: The RasSetEntryProperties function changes the connection information for an entry in the phone book or creates a new phone-book entry. (ANSI)
 helpviewer_keywords: ["RasSetEntryProperties","RasSetEntryProperties function [RAS]","RasSetEntryPropertiesA","RasSetEntryPropertiesW","_ras_rassetentryproperties","ras/RasSetEntryProperties","ras/RasSetEntryPropertiesA","ras/RasSetEntryPropertiesW","rras.rassetentryproperties"]
 old-location: rras\rassetentryproperties.htm
 tech.root: RRAS

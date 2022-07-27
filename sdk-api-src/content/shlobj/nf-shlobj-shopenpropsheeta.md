@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj.SHOpenPropSheetA
 title: SHOpenPropSheetA function (shlobj.h)
-description: SHOpenPropSheet may be altered or unavailable.
+description: SHOpenPropSheet may be altered or unavailable. (ANSI)
 helpviewer_keywords: ["SHOpenPropSheet","SHOpenPropSheet function [Windows Shell]","SHOpenPropSheetA","SHOpenPropSheetW","_win32_SHOpenPropSheetW","shell.SHOpenPropSheetW","shlobj/SHOpenPropSheet","shlobj/SHOpenPropSheetA","shlobj/SHOpenPropSheetW"]
 old-location: shell\SHOpenPropSheetW.htm
 tech.root: shell

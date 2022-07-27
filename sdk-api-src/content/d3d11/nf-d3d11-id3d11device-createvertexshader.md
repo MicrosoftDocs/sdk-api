@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateVertexShader
 title: ID3D11Device::CreateVertexShader (d3d11.h)
-description: Create a vertex-shader object from a compiled shader.
+description: Create a vertex-shader object from a compiled shader. (ID3D11Device.CreateVertexShader)
 helpviewer_keywords: ["545fe23c-2bcc-cecf-736c-9a42dd10ee2f","CreateVertexShader","CreateVertexShader method [Direct3D 11]","CreateVertexShader method [Direct3D 11]","ID3D11Device interface","ID3D11Device interface [Direct3D 11]","CreateVertexShader method","ID3D11Device.CreateVertexShader","ID3D11Device::CreateVertexShader","d3d11/ID3D11Device::CreateVertexShader","direct3d11.id3d11device_createvertexshader"]
 old-location: direct3d11\id3d11device_createvertexshader.htm
 tech.root: direct3d11

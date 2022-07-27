@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetLightEnable
 title: IDirect3DDevice9::GetLightEnable (d3d9.h)
-description: Retrieves the activity status - enabled or disabled - for a set of lighting parameters within a device.
+description: Retrieves the activity status - enabled or disabled - for a set of lighting parameters within a device. (IDirect3DDevice9.GetLightEnable)
 helpviewer_keywords: ["2d73c9f9-8cdd-b499-9dc6-930ac19d6977","GetLightEnable","GetLightEnable method [Direct3D 9]","GetLightEnable method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetLightEnable method","IDirect3DDevice9.GetLightEnable","IDirect3DDevice9::GetLightEnable","d3d9helper/IDirect3DDevice9::GetLightEnable","direct3d9.idirect3ddevice9__getlightenable"]
 old-location: direct3d9\idirect3ddevice9__getlightenable.htm
 tech.root: direct3d9

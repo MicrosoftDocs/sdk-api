@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IEmailAction.put_Body
 title: IEmailAction::put_Body (taskschd.h)
-description: Gets or sets the body of the email that contains the email message.
+description: Gets or sets the body of the email that contains the email message. (Put)
 helpviewer_keywords: ["Body property [Task Scheduler]","Body property [Task Scheduler]","IEmailAction interface","IEmailAction interface [Task Scheduler]","Body property","IEmailAction.Body","IEmailAction.put_Body","IEmailAction::Body","IEmailAction::get_Body","IEmailAction::put_Body","put_Body","taskschd.iemailaction_body","taskschd/IEmailAction::Body","taskschd/IEmailAction::get_Body","taskschd/IEmailAction::put_Body"]
 old-location: taskschd\iemailaction_body.htm
 tech.root: taskschd

@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegSaveKeyExW
 title: RegSaveKeyExW function (winreg.h)
-description: Saves the specified key and all of its subkeys and values to a registry file, in the specified format.
+description: Saves the specified key and all of its subkeys and values to a registry file, in the specified format. (Unicode)
 helpviewer_keywords: ["REG_LATEST_FORMAT","REG_NO_COMPRESSION","REG_STANDARD_FORMAT","RegSaveKeyEx","RegSaveKeyEx function","RegSaveKeyExA","RegSaveKeyExW","_win32_regsavekeyex","base.regsavekeyex","winreg/RegSaveKeyEx","winreg/RegSaveKeyExA","winreg/RegSaveKeyExW"]
 old-location: base\regsavekeyex.htm
 tech.root: winprog

@@ -1,7 +1,7 @@
 ---
 UID: NF:dsgetdc.DsValidateSubnetNameA
 title: DsValidateSubnetNameA function (dsgetdc.h)
-description: The DsValidateSubnetName function validates a subnet name in the form xxx.xxx.xxx.xxx/YY.
+description: The DsValidateSubnetName function validates a subnet name in the form xxx.xxx.xxx.xxx/YY. (ANSI)
 helpviewer_keywords: ["DsValidateSubnetName","DsValidateSubnetName function [Active Directory]","DsValidateSubnetNameA","DsValidateSubnetNameW","_glines_dsvalidatesubnetname","ad.dsvalidatesubnetname","dsgetdc/DsValidateSubnetName","dsgetdc/DsValidateSubnetNameA","dsgetdc/DsValidateSubnetNameW"]
 old-location: ad\dsvalidatesubnetname.htm
 tech.root: ad

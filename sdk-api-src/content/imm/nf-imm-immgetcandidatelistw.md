@@ -1,7 +1,7 @@
 ---
 UID: NF:imm.ImmGetCandidateListW
 title: ImmGetCandidateListW function (imm.h)
-description: Retrieves a candidate list.
+description: Retrieves a candidate list. (ImmGetCandidateListW)
 helpviewer_keywords: ["ImmGetCandidateList","ImmGetCandidateList function [Internationalization for Windows Applications]","ImmGetCandidateListA","ImmGetCandidateListW","_win32_ImmGetCandidateList","imm/ImmGetCandidateList","imm/ImmGetCandidateListA","imm/ImmGetCandidateListW","intl.immgetcandidatelist"]
 old-location: intl\immgetcandidatelist.htm
 tech.root: Intl

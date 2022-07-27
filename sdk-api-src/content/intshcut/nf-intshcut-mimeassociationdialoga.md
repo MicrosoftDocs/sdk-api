@@ -1,7 +1,7 @@
 ---
 UID: NF:intshcut.MIMEAssociationDialogA
 title: MIMEAssociationDialogA function (intshcut.h)
-description: Runs the unregistered MIME content type dialog box.Note  Windows XP Service Pack 2 (SP2) or later:\_This function is no longer supported.
+description: Runs the unregistered MIME content type dialog box.Note  Windows XP Service Pack 2 (SP2) or later:\_This function is no longer supported. (ANSI)
 helpviewer_keywords: ["MIMEAssociationDialog","MIMEAssociationDialog function [Windows Shell]","MIMEAssociationDialogA","MIMEAssociationDialogW","_win32_MIMEAssociationDialog","intshcut/MIMEAssociationDialog","intshcut/MIMEAssociationDialogA","intshcut/MIMEAssociationDialogW","shell.MIMEAssociationDialog"]
 old-location: shell\MIMEAssociationDialog.htm
 tech.root: shell

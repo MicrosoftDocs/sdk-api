@@ -1,7 +1,7 @@
 ---
 UID: NF:strsafe.StringCbLengthA
 title: StringCbLengthA function (strsafe.h)
-description: Determines whether a string exceeds the specified length, in bytes.
+description: Determines whether a string exceeds the specified length, in bytes. (ANSI)
 helpviewer_keywords: ["StringCbLength","StringCbLength function [Menus and Other Resources]","StringCbLengthA","StringCbLengthW","UnalignedStringCbLength","_shell_StringCbLength","_shell_stringcblength_cpp","menurc.stringcblength","strsafe/StringCbLength","strsafe/StringCbLengthA","strsafe/StringCbLengthW","winui._shell_stringcblength"]
 old-location: menurc\stringcblength.htm
 tech.root: menurc

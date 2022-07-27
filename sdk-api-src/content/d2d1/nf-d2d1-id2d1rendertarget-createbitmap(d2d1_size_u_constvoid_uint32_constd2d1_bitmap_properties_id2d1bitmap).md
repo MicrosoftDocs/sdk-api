@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateBitmap(D2D1_SIZE_U,constvoid,UINT32,constD2D1_BITMAP_PROPERTIES,ID2D1Bitmap)
 title: ID2D1RenderTarget::CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_BITMAP_PROPERTIES,ID2D1Bitmap) (d2d1.h)
-description: Creates an ID2D1BitmapBrush from the specified bitmap.
+description: Creates an ID2D1BitmapBrush from the specified bitmap. (overload 2/3)
 helpviewer_keywords: ["CreateBitmap","CreateBitmapBrush method [Direct2D]","CreateBitmapBrush method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","CreateBitmapBrush method","ID2D1RenderTarget.CreateBitmap","ID2D1RenderTarget.CreateBitmap(D2D1_SIZE_U","const void","UINT32","const D2D1_BITMAP_PROPERTIES","ID2D1Bitmap)","ID2D1RenderTarget::CreateBitmap","ID2D1RenderTarget::CreateBitmap(D2D1_SIZE_U","const void","UINT32","const D2D1_BITMAP_PROPERTIES","ID2D1Bitmap)","ID2D1RenderTarget::CreateBitmapBrush","d2d1/ID2D1RenderTarget::CreateBitmapBrush","direct2d.ID2D1RenderTarget_CreateBitmapBrush_ptr_ID2D1Bitmap_ref_D2D1_BITMAP_BRUSH_PROPERTIES_ref_D2D1_BRUSH_PROPERTIES_ptr_ptr_ID2D1BitmapBrush"]
 old-location: direct2d\ID2D1RenderTarget_CreateBitmapBrush_ptr_ID2D1Bitmap_ref_D2D1_BITMAP_BRUSH_PROPERTIES_ref_D2D1_BRUSH_PROPERTIES_ptr_ptr_ID2D1BitmapBrush.htm
 tech.root: Direct2D

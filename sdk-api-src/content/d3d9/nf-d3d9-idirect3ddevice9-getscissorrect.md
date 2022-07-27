@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetScissorRect
 title: IDirect3DDevice9::GetScissorRect (d3d9.h)
-description: Gets the scissor rectangle.
+description: Gets the scissor rectangle. (IDirect3DDevice9.GetScissorRect)
 helpviewer_keywords: ["7de78b9b-0918-15ce-f2b5-f1b433033d52","GetScissorRect","GetScissorRect method [Direct3D 9]","GetScissorRect method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetScissorRect method","IDirect3DDevice9.GetScissorRect","IDirect3DDevice9::GetScissorRect","d3d9helper/IDirect3DDevice9::GetScissorRect","direct3d9.idirect3ddevice9__getscissorrect"]
 old-location: direct3d9\idirect3ddevice9__getscissorrect.htm
 tech.root: direct3d9

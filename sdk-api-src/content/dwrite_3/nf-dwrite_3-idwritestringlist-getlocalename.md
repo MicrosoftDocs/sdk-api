@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteStringList.GetLocaleName
 title: IDWriteStringList::GetLocaleName (dwrite_3.h)
-description: Copies the locale name with the specified index to the specified array.
+description: Copies the locale name with the specified index to the specified array. (IDWriteStringList.GetLocaleName)
 helpviewer_keywords: ["GetLocaleName","GetLocaleName method [Direct Write]","GetLocaleName method [Direct Write]","IDWriteStringList interface","IDWriteStringList interface [Direct Write]","GetLocaleName method","IDWriteStringList.GetLocaleName","IDWriteStringList::GetLocaleName","directwrite.idwritestringlist_getlocalename","dwrite_3/IDWriteStringList::GetLocaleName"]
 old-location: directwrite\idwritestringlist_getlocalename.htm
 tech.root: DirectWrite

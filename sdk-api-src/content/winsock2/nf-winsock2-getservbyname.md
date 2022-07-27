@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.getservbyname
 title: getservbyname function (winsock2.h)
-description: The getservbyname function retrieves service information corresponding to a service name and protocol.
+description: The getservbyname function retrieves service information corresponding to a service name and protocol. (getservbyname)
 helpviewer_keywords: ["_win32_getservbyname_2","getservbyname","getservbyname function [Winsock]","winsock.getservbyname_2","winsock/getservbyname"]
 old-location: winsock\getservbyname_2.htm
 tech.root: WinSock

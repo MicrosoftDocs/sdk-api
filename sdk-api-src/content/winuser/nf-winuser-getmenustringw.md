@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetMenuStringW
 title: GetMenuStringW function (winuser.h)
-description: Copies the text string of the specified menu item into the specified buffer.
+description: Copies the text string of the specified menu item into the specified buffer. (Unicode)
 helpviewer_keywords: ["GetMenuString","GetMenuString function [Menus and Other Resources]","GetMenuStringA","GetMenuStringW","MF_BYCOMMAND","MF_BYPOSITION","_win32_GetMenuString","_win32_getmenustring_cpp","menurc.getmenustring","winui._win32_getmenustring","winuser/GetMenuString","winuser/GetMenuStringA","winuser/GetMenuStringW"]
 old-location: menurc\getmenustring.htm
 tech.root: menurc

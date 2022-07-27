@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3.ITAgentHandler.get_UsableAddresses
 title: ITAgentHandler::get_UsableAddresses (tapi3.h)
-description: The get_UsableAddresses method creates a collection of addresses available for receiving ACD calls on this agent handler.
+description: The get_UsableAddresses method creates a collection of addresses available for receiving ACD calls on this agent handler. (ITAgentHandler.get_UsableAddresses)
 helpviewer_keywords: ["ITAgentHandler interface [TAPI 2.2]","get_UsableAddresses method","ITAgentHandler.get_UsableAddresses","ITAgentHandler::get_UsableAddresses","_tapi3_itagenthandler_get_usableaddresses","get_UsableAddresses","get_UsableAddresses method [TAPI 2.2]","get_UsableAddresses method [TAPI 2.2]","ITAgentHandler interface","tapi3.itagenthandler_get_usableaddresses","tapi3cc/ITAgentHandler::get_UsableAddresses"]
 old-location: tapi3\itagenthandler_get_usableaddresses.htm
 tech.root: tapi3

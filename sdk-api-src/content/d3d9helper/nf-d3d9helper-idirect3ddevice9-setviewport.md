@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetViewport
 title: IDirect3DDevice9::SetViewport (d3d9helper.h)
-description: Sets the viewport parameters for the device.
+description: Sets the viewport parameters for the device. (IDirect3DDevice9.SetViewport)
 helpviewer_keywords: ["69ed7b86-4dee-fd8c-4647-7e95842d559a","IDirect3DDevice9 interface [Direct3D 9]","SetViewport method","IDirect3DDevice9.SetViewport","IDirect3DDevice9::SetViewport","SetViewport","SetViewport method [Direct3D 9]","SetViewport method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::SetViewport","direct3d9.idirect3ddevice9__setviewport"]
 old-location: direct3d9\idirect3ddevice9__setviewport.htm
 tech.root: direct3d9

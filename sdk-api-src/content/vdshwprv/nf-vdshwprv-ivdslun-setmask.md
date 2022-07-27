@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsLun.SetMask
 title: IVdsLun::SetMask (vdshwprv.h)
-description: Specifies the unmasking list, which is the list of computers to be granted access to the LUN.
+description: Specifies the unmasking list, which is the list of computers to be granted access to the LUN. (IVdsLun.SetMask)
 helpviewer_keywords: ["IVdsLun interface [VDS]","SetMask method","IVdsLun.SetMask","IVdsLun::SetMask","SetMask","SetMask method [VDS]","SetMask method [VDS]","IVdsLun interface","base.ivdslun_setmask","vds/IVdsLun::SetMask","vdshwprv/IVdsLun::SetMask"]
 old-location: base\ivdslun_setmask.htm
 tech.root: base

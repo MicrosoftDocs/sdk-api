@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.UrlUnescapeW
 title: UrlUnescapeW function (shlwapi.h)
-description: Converts escape sequences back into ordinary characters.
+description: Converts escape sequences back into ordinary characters. (Unicode)
 helpviewer_keywords: ["URL_DONT_UNESCAPE_EXTRA_INFO","URL_UNESCAPE_AS_UTF8","URL_UNESCAPE_INPLACE","UrlUnescape","UrlUnescape function [Windows Shell]","UrlUnescapeA","UrlUnescapeW","_win32_UrlUnescape","shell.UrlUnescape","shlwapi/UrlUnescape","shlwapi/UrlUnescapeA","shlwapi/UrlUnescapeW"]
 old-location: shell\UrlUnescape.htm
 tech.root: shell

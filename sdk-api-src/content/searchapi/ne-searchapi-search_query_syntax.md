@@ -1,7 +1,7 @@
 ---
 UID: NE:searchapi._SEARCH_QUERY_SYNTAX
 title: SEARCH_QUERY_SYNTAX (searchapi.h)
-description: Specifies the type of query syntax.
+description: Specifies the type of query syntax. (SEARCH_QUERY_SYNTAX)
 helpviewer_keywords: ["SEARCH_ADVANCED_QUERY_SYNTAX","SEARCH_NATURAL_QUERY_SYNTAX","SEARCH_NO_QUERY_SYNTAX","SEARCH_QUERY_SYNTAX","SEARCH_QUERY_SYNTAX enumeration [search]","_search_SEARCH_QUERY_SYNTAX","search._search_SEARCH_QUERY_SYNTAX","searchapi/SEARCH_ADVANCED_QUERY_SYNTAX","searchapi/SEARCH_NATURAL_QUERY_SYNTAX","searchapi/SEARCH_NO_QUERY_SYNTAX","searchapi/SEARCH_QUERY_SYNTAX"]
 old-location: search\_search_SEARCH_QUERY_SYNTAX.htm
 tech.root: search

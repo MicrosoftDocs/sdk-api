@@ -1,7 +1,7 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.RevertToSnapshot
 title: IVssSoftwareSnapshotProvider::RevertToSnapshot (vsprov.h)
-description: Reverts a volume to a previous shadow copy.
+description: Reverts a volume to a previous shadow copy. (IVssSoftwareSnapshotProvider.RevertToSnapshot)
 helpviewer_keywords: ["IVssSoftwareSnapshotProvider interface","RevertToSnapshot method","IVssSoftwareSnapshotProvider.RevertToSnapshot","IVssSoftwareSnapshotProvider::RevertToSnapshot","RevertToSnapshot","RevertToSnapshot method","RevertToSnapshot method","IVssSoftwareSnapshotProvider interface","base.ivsssoftwaresnapshotprovider_reverttosnapshot","vsprov/IVssSoftwareSnapshotProvider::RevertToSnapshot"]
 old-location: base\ivsssoftwaresnapshotprovider_reverttosnapshot.htm
 tech.root: base

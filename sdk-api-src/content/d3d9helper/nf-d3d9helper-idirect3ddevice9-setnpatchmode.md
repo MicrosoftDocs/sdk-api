@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetNPatchMode
 title: IDirect3DDevice9::SetNPatchMode (d3d9helper.h)
-description: Enable or disable N-patches.
+description: Enable or disable N-patches. (IDirect3DDevice9.SetNPatchMode)
 helpviewer_keywords: ["IDirect3DDevice9 interface [Direct3D 9]","SetNPatchMode method","IDirect3DDevice9.SetNPatchMode","IDirect3DDevice9::SetNPatchMode","SetNPatchMode","SetNPatchMode method [Direct3D 9]","SetNPatchMode method [Direct3D 9]","IDirect3DDevice9 interface","a1559401-14f3-1ada-91cb-f26fd6d19851","d3d9helper/IDirect3DDevice9::SetNPatchMode","direct3d9.idirect3ddevice9__setnpatchmode"]
 old-location: direct3d9\idirect3ddevice9__setnpatchmode.htm
 tech.root: direct3d9

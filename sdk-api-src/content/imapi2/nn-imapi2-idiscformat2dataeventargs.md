@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2.IDiscFormat2DataEventArgs
 title: IDiscFormat2DataEventArgs (imapi2.h)
-description: Use this interface to retrieve information about the current write operation.
+description: Use this interface to retrieve information about the current write operation. (IDiscFormat2DataEventArgs)
 helpviewer_keywords: ["IDiscFormat2DataEventArgs","IDiscFormat2DataEventArgs interface [IMAPI]","IDiscFormat2DataEventArgs interface [IMAPI]","described","imapi.idiscformat2dataeventargs","imapi2/IDiscFormat2DataEventArgs"]
 old-location: imapi\idiscformat2dataeventargs.htm
 tech.root: imapi

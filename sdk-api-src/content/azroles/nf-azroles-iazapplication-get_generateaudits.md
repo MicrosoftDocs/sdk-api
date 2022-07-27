@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication.get_GenerateAudits
 title: IAzApplication::get_GenerateAudits (azroles.h)
-description: The GenerateAudits property of IAzApplication sets or retrieves a value that indicates whether run-time audits should be generated.
+description: The GenerateAudits property of IAzApplication sets or retrieves a value that indicates whether run-time audits should be generated. (Get)
 helpviewer_keywords: ["AzApplication object [Security]","GenerateAudits property","GenerateAudits property [Security]","GenerateAudits property [Security]","AzApplication object","GenerateAudits property [Security]","IAzApplication interface","IAzApplication interface [Security]","GenerateAudits property","IAzApplication.GenerateAudits","IAzApplication.get_GenerateAudits","IAzApplication::GenerateAudits","IAzApplication::get_GenerateAudits","IAzApplication::put_GenerateAudits","azroles/IAzApplication::GenerateAudits","azroles/IAzApplication::get_GenerateAudits","azroles/IAzApplication::put_GenerateAudits","get_GenerateAudits","security.iazapplication_generateaudits"]
 old-location: security\iazapplication_generateaudits.htm
 tech.root: security

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHRegQueryUSValueW
 title: SHRegQueryUSValueW function (shlwapi.h)
-description: Retrieves the type and data for a specified name associated with an open registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
+description: Retrieves the type and data for a specified name associated with an open registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). (Unicode)
 helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHRegQueryUSValue","SHRegQueryUSValue function [Windows Shell]","SHRegQueryUSValueA","SHRegQueryUSValueW","_win32_SHRegQueryUSValue","shell.SHRegQueryUSValue","shlwapi/SHRegQueryUSValue","shlwapi/SHRegQueryUSValueA","shlwapi/SHRegQueryUSValueW"]
 old-location: shell\SHRegQueryUSValue.htm
 tech.root: shell

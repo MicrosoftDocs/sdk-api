@@ -1,7 +1,7 @@
 ---
 UID: NF:immdev.ImmGetVirtualKey
 title: ImmGetVirtualKey function (immdev.h)
-description: Retrieves the original virtual key value associated with a key input message that the IME has already processed.
+description: Retrieves the original virtual key value associated with a key input message that the IME has already processed. (ImmGetVirtualKey)
 helpviewer_keywords: ["ImmGetVirtualKey","ImmGetVirtualKey function [Internationalization for Windows Applications]","_win32_ImmGetVirtualKey","imm/ImmGetVirtualKey","intl.immgetvirtualkey"]
 old-location: intl\immgetvirtualkey.htm
 tech.root: Intl

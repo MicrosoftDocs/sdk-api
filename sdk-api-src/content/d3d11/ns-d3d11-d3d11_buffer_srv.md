@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_BUFFER_SRV
 title: D3D11_BUFFER_SRV (d3d11.h)
-description: Specifies the elements in a buffer resource to use in a shader-resource view.
+description: Specifies the elements in a buffer resource to use in a shader-resource view. (D3D11_BUFFER_SRV)
 helpviewer_keywords: ["D3D11_BUFFER_SRV","D3D11_BUFFER_SRV structure [Direct3D 11]","d3d11/D3D11_BUFFER_SRV","direct3d11.d3d11_buffer_srv","f51a8ea2-ef96-9fea-a1b6-75c15fd9f42e"]
 old-location: direct3d11\d3d11_buffer_srv.htm
 tech.root: direct3d11

@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IRpcChannelBuffer.IsConnected
 title: IRpcChannelBuffer::IsConnected (objidl.h)
-description: Determines whether the RPC channel is connected.
+description: Determines whether the RPC channel is connected. (IRpcChannelBuffer.IsConnected)
 helpviewer_keywords: ["IRpcChannelBuffer interface [COM]","IsConnected method","IRpcChannelBuffer.IsConnected","IRpcChannelBuffer::IsConnected","IsConnected","IsConnected method [COM]","IsConnected method [COM]","IRpcChannelBuffer interface","_com_irpcchannelbuffer_isconnected","com.irpcchannelbuffer_isconnected","objidlbase/IRpcChannelBuffer::IsConnected"]
 old-location: com\irpcchannelbuffer_isconnected.htm
 tech.root: com

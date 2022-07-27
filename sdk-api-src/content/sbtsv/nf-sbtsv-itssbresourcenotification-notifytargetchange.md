@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbResourceNotification.NotifyTargetChange
 title: ITsSbResourceNotification::NotifyTargetChange (sbtsv.h)
-description: Notifies registered plug-ins about state changes in a target object.
+description: Notifies registered plug-ins about state changes in a target object. (ITsSbResourceNotification.NotifyTargetChange)
 helpviewer_keywords: ["ITsSbResourceNotification interface [Remote Desktop Services]","NotifyTargetChange method","ITsSbResourceNotification.NotifyTargetChange","ITsSbResourceNotification::NotifyTargetChange","NotifyTargetChange","NotifyTargetChange method [Remote Desktop Services]","NotifyTargetChange method [Remote Desktop Services]","ITsSbResourceNotification interface","sbtsv/ITsSbResourceNotification::NotifyTargetChange","termserv.itssbresourcenotification_notifytargetchange"]
 old-location: termserv\itssbresourcenotification_notifytargetchange.htm
 tech.root: TermServ

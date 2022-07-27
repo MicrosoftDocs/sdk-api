@@ -1,7 +1,7 @@
 ---
 UID: NF:ntdsapi.DsAddSidHistoryA
 title: DsAddSidHistoryA function (ntdsapi.h)
-description: Retrieves the primary account security identifier (SID) of a security principal from one domain and adds it to the sIDHistory attribute of a security principal in another domain in a different forest.
+description: Retrieves the primary account security identifier (SID) of a security principal from one domain and adds it to the sIDHistory attribute of a security principal in another domain in a different forest. (ANSI)
 helpviewer_keywords: ["DsAddSidHistory","DsAddSidHistory function [Active Directory]","DsAddSidHistoryA","DsAddSidHistoryW","_glines_dsaddsidhistory","ad.dsaddsidhistory","ntdsapi/DsAddSidHistory","ntdsapi/DsAddSidHistoryA","ntdsapi/DsAddSidHistoryW"]
 old-location: ad\dsaddsidhistory.htm
 tech.root: ad

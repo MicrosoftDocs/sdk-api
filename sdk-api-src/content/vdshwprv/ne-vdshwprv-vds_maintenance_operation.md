@@ -1,7 +1,7 @@
 ---
 UID: NE:vdshwprv._VDS_MAINTENANCE_OPERATION
 title: VDS_MAINTENANCE_OPERATION (vdshwprv.h)
-description: Defines the set of valid subsystem maintenance operations.
+description: Defines the set of valid subsystem maintenance operations. (VDS_MAINTENANCE_OPERATION)
 helpviewer_keywords: ["BeepAlarm","BlinkLight","Ping","SpinDown","SpinUp","VDS_MAINTENANCE_OPERATION","VDS_MAINTENANCE_OPERATION enumeration [VDS]","base.vds_maintenance_operation","vds/BeepAlarm","vds/BlinkLight","vds/Ping","vds/SpinDown","vds/SpinUp","vds/VDS_MAINTENANCE_OPERATION","vdshwprv/BeepAlarm","vdshwprv/BlinkLight","vdshwprv/Ping","vdshwprv/SpinDown","vdshwprv/SpinUp","vdshwprv/VDS_MAINTENANCE_OPERATION"]
 old-location: base\vds_maintenance_operation.htm
 tech.root: base

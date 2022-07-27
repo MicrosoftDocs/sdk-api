@@ -1,7 +1,7 @@
 ---
 UID: NF:libloaderapi.GetModuleHandleW
 title: GetModuleHandleW function (libloaderapi.h)
-description: Retrieves a module handle for the specified module. The module must have been loaded by the calling process.
+description: Retrieves a module handle for the specified module. The module must have been loaded by the calling process. (Unicode)
 helpviewer_keywords: ["GetModuleHandle","GetModuleHandle function","GetModuleHandleA","GetModuleHandleW","_win32_getmodulehandle","base.getmodulehandle","libloaderapi/GetModuleHandle","libloaderapi/GetModuleHandleA","libloaderapi/GetModuleHandleW","winbase/GetModuleHandle","winbase/GetModuleHandleA","winbase/GetModuleHandleW"]
 old-location: base\getmodulehandle.htm
 tech.root: base

@@ -1,7 +1,7 @@
 ---
 UID: NN:objidlbase.IFastRundown
 title: IFastRundown (objidlbase.h)
-description: Marks an interface as eligible for fast rundown behavior.
+description: Marks an interface as eligible for fast rundown behavior. (IFastRundown)
 helpviewer_keywords: ["IFastRundown","IFastRundown interface [COM]","IFastRundown interface [COM]","described","com.ifastrundown","objidl/IFastRundown"]
 old-location: com\ifastrundown.htm
 tech.root: com

@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.get_Text
 title: IInkEdit::get_Text (inked.h)
-description: Gets or sets the current text in the InkEdit control.
+description: Gets or sets the current text in the InkEdit control. (Get)
 helpviewer_keywords: ["IInkEdit interface [Tablet PC]","Text property","IInkEdit.Text","IInkEdit.get_Text","IInkEdit::Text","IInkEdit::get_Text","IInkEdit::put_Text","InkEdit.get_Text","InkEdit.put_Text","Text property [Tablet PC]","Text property [Tablet PC]","IInkEdit interface","get_Text","inked/IInkEdit::Text","inked/IInkEdit::get_Text","inked/IInkEdit::put_Text","put_Text","tablet.inkedit_text"]
 old-location: tablet\inkedit_text.htm
 tech.root: tablet

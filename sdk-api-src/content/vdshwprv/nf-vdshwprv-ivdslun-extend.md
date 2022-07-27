@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsLun.Extend
 title: IVdsLun::Extend (vdshwprv.h)
-description: Extends a LUN by a specified number of bytes.
+description: Extends a LUN by a specified number of bytes. (IVdsLun.Extend)
 helpviewer_keywords: ["Extend","Extend method [VDS]","Extend method [VDS]","IVdsLun interface","IVdsLun interface [VDS]","Extend method","IVdsLun.Extend","IVdsLun::Extend","base.ivdslun_extend","vds/IVdsLun::Extend","vdshwprv/IVdsLun::Extend"]
 old-location: base\ivdslun_extend.htm
 tech.root: base

@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.GetLogColorSpaceW
 title: GetLogColorSpaceW function (wingdi.h)
-description: The GetLogColorSpace function retrieves the color space definition identified by a specified handle.
+description: The GetLogColorSpace function retrieves the color space definition identified by a specified handle. (Unicode)
 helpviewer_keywords: ["GetLogColorSpace","GetLogColorSpace function [Windows Color System]","GetLogColorSpaceA","GetLogColorSpaceW","_color_GetLogColorSpace","wcs.getlogcolorspace","wingdi/GetLogColorSpace","wingdi/GetLogColorSpaceA","wingdi/GetLogColorSpaceW"]
 old-location: wcs\getlogcolorspace.htm
 tech.root: WCS

@@ -1,7 +1,7 @@
 ---
 UID: NE:clusapi.CLUSTER_CHANGE_QUORUM_V2
 title: CLUSTER_CHANGE_QUORUM_V2 (clusapi.h)
-description: Defines the notifications that are generated for quorum-specific information.
+description: Defines the notifications that are generated for quorum-specific information. (CLUSTER_CHANGE_QUORUM_V2)
 helpviewer_keywords: ["CLUSTER_CHANGE_QUORUM_ALL_V2","CLUSTER_CHANGE_QUORUM_STATE_V2","CLUSTER_CHANGE_QUORUM_V2","CLUSTER_CHANGE_QUORUM_V2 enumeration [Failover Cluster]","clusapi/CLUSTER_CHANGE_QUORUM_ALL_V2","clusapi/CLUSTER_CHANGE_QUORUM_STATE_V2","clusapi/CLUSTER_CHANGE_QUORUM_V2","msclus/CLUSTER_CHANGE_QUORUM_ALL_V2","msclus/CLUSTER_CHANGE_QUORUM_STATE_V2","msclus/CLUSTER_CHANGE_QUORUM_V2","mscs.cluster_change_quorum_v2"]
 old-location: mscs\cluster_change_quorum_v2.htm
 tech.root: MsCS

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet.GetPropertyValues(DWRITE_FONT_PROPERTY_ID,WCHARconst,IDWriteStringList)
 title: IDWriteFontSet::GetPropertyValues(DWRITE_FONT_PROPERTY_ID,WCHAR const,IDWriteStringList) (dwrite_3.h)
-description: Returns the property values of a specific font item index.
+description: Returns the property values of a specific font item index. (overload 1/3)
 helpviewer_keywords: ["GetPropertyValues","GetPropertyValues method [Direct Write]","GetPropertyValues method [Direct Write]","IDWriteFontSet interface","IDWriteFontSet interface [Direct Write]","GetPropertyValues method","IDWriteFontSet.GetPropertyValues","IDWriteFontSet.GetPropertyValues(DWRITE_FONT_PROPERTY_ID","WCHAR const","IDWriteStringList)","IDWriteFontSet::GetPropertyValues","IDWriteFontSet::GetPropertyValues(DWRITE_FONT_PROPERTY_ID","WCHAR const","IDWriteStringList)","directwrite.idwritefontset_getpropertyvalues_1","dwrite_3/IDWriteFontSet::GetPropertyValues"]
 old-location: directwrite\idwritefontset_getpropertyvalues_1.htm
 tech.root: DirectWrite

@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsLun.ApplyHints
 title: IVdsLun::ApplyHints (vds.h)
-description: Applies a new set of hints to the LUN. Hints that are applied to a LUN are simultaneously applied to all plexes.
+description: Applies a new set of hints to the LUN. Hints that are applied to a LUN are simultaneously applied to all plexes. (IVdsLun.ApplyHints)
 helpviewer_keywords: ["ApplyHints","ApplyHints method [VDS]","ApplyHints method [VDS]","IVdsLun interface","IVdsLun interface [VDS]","ApplyHints method","IVdsLun.ApplyHints","IVdsLun::ApplyHints","base.ivdslun_applyhints","vds/IVdsLun::ApplyHints","vdshwprv/IVdsLun::ApplyHints"]
 old-location: base\ivdslun_applyhints.htm
 tech.root: base

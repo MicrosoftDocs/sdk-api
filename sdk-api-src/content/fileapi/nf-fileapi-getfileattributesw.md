@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.GetFileAttributesW
 title: GetFileAttributesW function (fileapi.h)
-description: Retrieves file system attributes for a specified file or directory.
+description: Retrieves file system attributes for a specified file or directory. (Unicode)
 helpviewer_keywords: ["GetFileAttributes","GetFileAttributes function [Files]","GetFileAttributesA","GetFileAttributesW","_win32_getfileattributes","base.getfileattributes","fileapi/GetFileAttributes","fileapi/GetFileAttributesA","fileapi/GetFileAttributesW","fs.getfileattributes","winbase/GetFileAttributes","winbase/GetFileAttributesA","winbase/GetFileAttributesW"]
 old-location: fs\getfileattributes.htm
 tech.root: fs

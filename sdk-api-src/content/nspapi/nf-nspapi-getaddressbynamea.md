@@ -1,7 +1,7 @@
 ---
 UID: NF:nspapi.GetAddressByNameA
 title: GetAddressByNameA function (nspapi.h)
-description: GetAddressByName is no longer available for use as of Windows Sockets 2.
+description: GetAddressByName is no longer available for use as of Windows Sockets 2. (ANSI)
 helpviewer_keywords: ["GetAddressByName","GetAddressByName function [Winsock]","GetAddressByNameA","GetAddressByNameW","NS_DEFAULT","NS_DNS","NS_NETBT","NS_SAP","NS_TCPIP_HOSTS","NS_TCPIP_LOCAL","RES_FIND_MULTIPLE","RES_SERVICE","RES_SOFT_SEARCH","_win32_getaddressbyname_2","nspapi/GetAddressByName","nspapi/GetAddressByNameA","nspapi/GetAddressByNameW","winsock.getaddressbyname_2"]
 old-location: winsock\getaddressbyname_2.htm
 tech.root: WinSock

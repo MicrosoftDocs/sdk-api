@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IRpcChannelBuffer.FreeBuffer
 title: IRpcChannelBuffer::FreeBuffer (objidl.h)
-description: Frees a previously allocated RPC channel buffer.
+description: Frees a previously allocated RPC channel buffer. (IRpcChannelBuffer.FreeBuffer)
 helpviewer_keywords: ["FreeBuffer","FreeBuffer method [COM]","FreeBuffer method [COM]","IRpcChannelBuffer interface","IRpcChannelBuffer interface [COM]","FreeBuffer method","IRpcChannelBuffer.FreeBuffer","IRpcChannelBuffer::FreeBuffer","_com_irpcchannelbuffer_freebuffer","com.irpcchannelbuffer_freebuffer","objidlbase/IRpcChannelBuffer::FreeBuffer"]
 old-location: com\irpcchannelbuffer_freebuffer.htm
 tech.root: com

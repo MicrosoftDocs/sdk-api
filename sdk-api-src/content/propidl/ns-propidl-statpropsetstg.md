@@ -1,7 +1,7 @@
 ---
 UID: NS:propidl.tagSTATPROPSETSTG
 title: STATPROPSETSTG (propidl.h)
-description: The STATPROPSETSTG structure contains information about a property set.
+description: The STATPROPSETSTG structure contains information about a property set. (STATPROPSETSTG)
 helpviewer_keywords: ["STATPROPSETSTG","STATPROPSETSTG structure [Structured Storage]","_stg_statpropsetstg","propidlbase/STATPROPSETSTG","stg.statpropsetstg","tagSTATPROPSETSTG"]
 old-location: stg\statpropsetstg.htm
 tech.root: Stg

@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiSetDeviceInstallParamsW
 title: SetupDiSetDeviceInstallParamsW function (setupapi.h)
-description: The SetupDiSetDeviceInstallParams function sets device installation parameters for a device information set or a particular device information element.
+description: The SetupDiSetDeviceInstallParams function sets device installation parameters for a device information set or a particular device information element. (Unicode)
 helpviewer_keywords: ["SetupDiSetDeviceInstallParams","SetupDiSetDeviceInstallParams function [Device and Driver Installation]","SetupDiSetDeviceInstallParamsA","SetupDiSetDeviceInstallParamsW","devinst.setupdisetdeviceinstallparams","di-rtns_4d977738-ea9e-4bb7-b0a6-37099647b8c8.xml","setupapi/SetupDiSetDeviceInstallParams"]
 old-location: devinst\setupdisetdeviceinstallparams.htm
 tech.root: devinst

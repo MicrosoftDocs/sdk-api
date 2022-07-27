@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.InsertMenuA
 title: InsertMenuA function (winuser.h)
-description: Inserts a new menu item into a menu, moving other items down the menu.
+description: Inserts a new menu item into a menu, moving other items down the menu. (ANSI)
 helpviewer_keywords: ["InsertMenu","InsertMenu function [Menus and Other Resources]","InsertMenuA","InsertMenuW","MF_BITMAP","MF_BYCOMMAND","MF_BYPOSITION","MF_CHECKED","MF_DISABLED","MF_ENABLED","MF_GRAYED","MF_MENUBARBREAK","MF_MENUBREAK","MF_OWNERDRAW","MF_POPUP","MF_SEPARATOR","MF_STRING","MF_UNCHECKED","_win32_InsertMenu","_win32_insertmenu_cpp","menurc.insertmenu","winui._win32_insertmenu","winuser/InsertMenu","winuser/InsertMenuA","winuser/InsertMenuW"]
 old-location: menurc\insertmenu.htm
 tech.root: menurc

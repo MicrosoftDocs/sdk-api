@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.ISynchronizeContainer.AddSynchronize
 title: ISynchronizeContainer::AddSynchronize (objidl.h)
-description: Adds a synchronization object to the container.
+description: Adds a synchronization object to the container. (ISynchronizeContainer.AddSynchronize)
 helpviewer_keywords: ["AddSynchronize","AddSynchronize method [COM]","AddSynchronize method [COM]","ISynchronizeContainer interface","ISynchronizeContainer interface [COM]","AddSynchronize method","ISynchronizeContainer.AddSynchronize","ISynchronizeContainer::AddSynchronize","_com_isynchronizecontainer_addsynchronize","com.isynchronizecontainer_addsynchronize","objidlbase/ISynchronizeContainer::AddSynchronize"]
 old-location: com\isynchronizecontainer_addsynchronize.htm
 tech.root: com

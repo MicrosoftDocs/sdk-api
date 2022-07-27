@@ -1,7 +1,7 @@
 ---
 UID: NN:sbtsv.ITsSbResourceNotificationEx
 title: ITsSbResourceNotificationEx (sbtsv.h)
-description: Exposes methods that Remote Desktop Connection Broker (RD Connection Broker) uses to notify plug-ins of any state changes that occur in the session, target, and client connection objects.
+description: Exposes methods that Remote Desktop Connection Broker (RD Connection Broker) uses to notify plug-ins of any state changes that occur in the session, target, and client connection objects. (ITsSbResourceNotificationEx)
 helpviewer_keywords: ["ITsSbResourceNotificationEx","ITsSbResourceNotificationEx interface [Remote Desktop Services]","ITsSbResourceNotificationEx interface [Remote Desktop Services]","described","sbtsv/ITsSbResourceNotificationEx","termserv.itssbresourcenotificationex"]
 old-location: termserv\itssbresourcenotificationex.htm
 tech.root: TermServ

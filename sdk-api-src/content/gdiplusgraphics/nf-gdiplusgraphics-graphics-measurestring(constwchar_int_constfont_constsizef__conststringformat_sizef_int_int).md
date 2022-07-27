@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.MeasureString(constWCHAR,INT,constFont,constSizeF&,constStringFormat,SizeF,INT,INT)
 title: Graphics::MeasureString(IN const WCHAR,IN INT,IN const Font,IN const SizeF &,IN const StringFormat,OUT SizeF,OUT INT,OUT INT) (gdiplusgraphics.h)
-description: The Graphics::MeasureString method measures the extent of the string in the specified font, format, and layout rectangle.
+description: The Graphics::MeasureString method measures the extent of the string in the specified font, format, and layout rectangle. (overload 1/3)
 helpviewer_keywords: ["Graphics class [GDI+]","MeasureString method","Graphics.MeasureString","Graphics.MeasureString(IN const WCHAR","IN INT","IN const Font","IN const SizeF &","IN const StringFormat","OUT SizeF","OUT INT","OUT INT)","Graphics.MeasureString(const WCHAR*","INT","const Font*","const SizeF&","const StringFormat*","SizeF*","INT*","INT*)","Graphics::MeasureString","Graphics::MeasureString(IN const WCHAR","IN INT","IN const Font","IN const SizeF &","IN const StringFormat","OUT SizeF","OUT INT","OUT INT)","MeasureString","MeasureString method [GDI+]","MeasureString method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_MeasureString_string_length_font_layoutRectSize_stringFormat_size_codepoints","gdiplus._gdiplus_CLASS_Graphics_MeasureString_string_length_font_layoutRectSize_stringFormat_size_codepoints"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_MeasureString_string_length_font_layoutRectSize_stringFormat_size_codepoints.htm
 tech.root: gdiplus

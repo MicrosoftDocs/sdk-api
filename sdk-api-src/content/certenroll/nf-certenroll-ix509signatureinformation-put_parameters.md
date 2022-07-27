@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.put_Parameters
 title: IX509SignatureInformation::put_Parameters (certenroll.h)
-description: Retrieves a byte array that contains the parameters associated with the signature algorithm.
+description: Retrieves a byte array that contains the parameters associated with the signature algorithm. (Put)
 helpviewer_keywords: ["IX509SignatureInformation interface [Security]","Parameters property","IX509SignatureInformation.Parameters","IX509SignatureInformation.put_Parameters","IX509SignatureInformation::Parameters","IX509SignatureInformation::get_Parameters","IX509SignatureInformation::put_Parameters","Parameters property [Security]","Parameters property [Security]","IX509SignatureInformation interface","certenroll/IX509SignatureInformation::Parameters","certenroll/IX509SignatureInformation::get_Parameters","certenroll/IX509SignatureInformation::put_Parameters","put_Parameters","security.ix509signatureinformation_parameters_property"]
 old-location: security\ix509signatureinformation_parameters_property.htm
 tech.root: security

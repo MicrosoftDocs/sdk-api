@@ -1,7 +1,7 @@
 ---
 UID: NS:cpl.tagNEWCPLINFOW
 title: NEWCPLINFOW (cpl.h)
-description: Contains resource information and an application-defined value for a dialog box supported by a Control Panel application.
+description: Contains resource information and an application-defined value for a dialog box supported by a Control Panel application. (NEWCPLINFOW)
 helpviewer_keywords: ["*LPNEWCPLINFOW","LPNEWCPLINFO","LPNEWCPLINFO structure pointer [Windows Shell]","NEWCPLINFO","NEWCPLINFO structure [Windows Shell]","NEWCPLINFOW","_win32_NEWCPLINFO","cpl/LPNEWCPLINFO","cpl/NEWCPLINFO","shell.NEWCPLINFO"]
 old-location: shell\NEWCPLINFO.htm
 tech.root: shell

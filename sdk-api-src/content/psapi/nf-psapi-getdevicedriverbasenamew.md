@@ -1,7 +1,7 @@
 ---
 UID: NF:psapi.GetDeviceDriverBaseNameW
 title: GetDeviceDriverBaseNameW function (psapi.h)
-description: Retrieves the base name of the specified device driver.
+description: Retrieves the base name of the specified device driver. (Unicode)
 helpviewer_keywords: ["GetDeviceDriverBaseName","GetDeviceDriverBaseName function [PSAPI]","GetDeviceDriverBaseNameA","GetDeviceDriverBaseNameW","K32GetDeviceDriverBaseName","K32GetDeviceDriverBaseNameA","K32GetDeviceDriverBaseNameW","_win32_getdevicedriverbasename","base.getdevicedriverbasename","psapi.getdevicedriverbasename","psapi/GetDeviceDriverBaseName","psapi/GetDeviceDriverBaseNameA","psapi/GetDeviceDriverBaseNameW","psapi/K32GetDeviceDriverBaseName","psapi/K32GetDeviceDriverBaseNameA","psapi/K32GetDeviceDriverBaseNameW"]
 old-location: psapi\getdevicedriverbasename.htm
 tech.root: psapi

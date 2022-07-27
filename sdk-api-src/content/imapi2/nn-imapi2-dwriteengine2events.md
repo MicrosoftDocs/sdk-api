@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2.DWriteEngine2Events
 title: DWriteEngine2Events (imapi2.h)
-description: Implement this interface to receive notifications of the current write operation.
+description: Implement this interface to receive notifications of the current write operation. (DWriteEngine2Events)
 helpviewer_keywords: ["DWriteEngine2Events","DWriteEngine2Events interface [IMAPI]","DWriteEngine2Events interface [IMAPI]","described","imapi.dwriteengine2events","imapi2/DWriteEngine2Events"]
 old-location: imapi\dwriteengine2events.htm
 tech.root: imapi

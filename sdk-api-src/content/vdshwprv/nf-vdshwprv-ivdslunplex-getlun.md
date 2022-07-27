@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsLunPlex.GetLun
 title: IVdsLunPlex::GetLun (vdshwprv.h)
-description: Returns the LUN to which the plex belongs.
+description: Returns the LUN to which the plex belongs. (IVdsLunPlex.GetLun)
 helpviewer_keywords: ["GetLun","GetLun method [VDS]","GetLun method [VDS]","IVdsLunPlex interface","IVdsLunPlex interface [VDS]","GetLun method","IVdsLunPlex.GetLun","IVdsLunPlex::GetLun","base.ivdslunplex_getlun","vds/IVdsLunPlex::GetLun","vdshwprv/IVdsLunPlex::GetLun"]
 old-location: base\ivdslunplex_getlun.htm
 tech.root: base

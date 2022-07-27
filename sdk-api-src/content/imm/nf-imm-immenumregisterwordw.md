@@ -1,7 +1,7 @@
 ---
 UID: NF:imm.ImmEnumRegisterWordW
 title: ImmEnumRegisterWordW function (imm.h)
-description: Enumerates the register strings having the specified reading string, style, and register string.
+description: Enumerates the register strings having the specified reading string, style, and register string. (ImmEnumRegisterWordW)
 helpviewer_keywords: ["ImmEnumRegisterWord","ImmEnumRegisterWord function [Internationalization for Windows Applications]","ImmEnumRegisterWordA","ImmEnumRegisterWordW","_win32_ImmEnumRegisterWord","imm/ImmEnumRegisterWord","imm/ImmEnumRegisterWordA","imm/ImmEnumRegisterWordW","intl.immenumregisterword"]
 old-location: intl\immenumregisterword.htm
 tech.root: Intl

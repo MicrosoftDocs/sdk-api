@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystemIscsi.QueryTargets
 title: IVdsSubSystemIscsi::QueryTargets (vdshwprv.h)
-description: Returns an object that enumerates the iSCSI targets of the subsystem.
+description: Returns an object that enumerates the iSCSI targets of the subsystem. (IVdsSubSystemIscsi.QueryTargets)
 helpviewer_keywords: ["IVdsSubSystemIscsi interface [VDS]","QueryTargets method","IVdsSubSystemIscsi.QueryTargets","IVdsSubSystemIscsi::QueryTargets","QueryTargets","QueryTargets method [VDS]","QueryTargets method [VDS]","IVdsSubSystemIscsi interface","base.ivdssubsystemiscsi_querytargets","vds/IVdsSubSystemIscsi::QueryTargets","vdshwprv/IVdsSubSystemIscsi::QueryTargets"]
 old-location: base\ivdssubsystemiscsi_querytargets.htm
 tech.root: base

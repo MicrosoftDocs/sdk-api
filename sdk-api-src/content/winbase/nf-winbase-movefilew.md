@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.MoveFileW
 title: MoveFileW function (winbase.h)
-description: Moves an existing file or a directory, including its children.
+description: Moves an existing file or a directory, including its children. (MoveFileW)
 helpviewer_keywords: ["MoveFile","MoveFile function [Files]","MoveFileA","MoveFileW","_win32_movefile","base.movefile","fs.movefile","rename file [Files]","winbase/MoveFile","winbase/MoveFileA","winbase/MoveFileW"]
 old-location: fs\movefile.htm
 tech.root: fs

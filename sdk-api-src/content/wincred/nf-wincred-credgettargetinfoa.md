@@ -1,7 +1,7 @@
 ---
 UID: NF:wincred.CredGetTargetInfoA
 title: CredGetTargetInfoA function (wincred.h)
-description: The CredGetTargetInfo function retrieves all known target name information for the named target computer.
+description: The CredGetTargetInfo function retrieves all known target name information for the named target computer. (ANSI)
 helpviewer_keywords: ["CredGetTargetInfo","CredGetTargetInfo function [Security]","CredGetTargetInfoA","CredGetTargetInfoW","_cred_credgettargetinfo","security.credgettargetinfo","wincred/CredGetTargetInfo","wincred/CredGetTargetInfoA","wincred/CredGetTargetInfoW"]
 old-location: security\credgettargetinfo.htm
 tech.root: security

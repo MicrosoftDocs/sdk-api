@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiCreateDeviceInterfaceRegKeyA
 title: SetupDiCreateDeviceInterfaceRegKeyA function (setupapi.h)
-description: The SetupDiCreateDeviceInterfaceRegKey function creates a registry key for storing information about a device interface and returns a handle to the key.
+description: The SetupDiCreateDeviceInterfaceRegKey function creates a registry key for storing information about a device interface and returns a handle to the key. (ANSI)
 helpviewer_keywords: ["SetupDiCreateDeviceInterfaceRegKey","SetupDiCreateDeviceInterfaceRegKey function [Device and Driver Installation]","SetupDiCreateDeviceInterfaceRegKeyA","SetupDiCreateDeviceInterfaceRegKeyW","devinst.setupdicreatedeviceinterfaceregkey","di-rtns_4b18b81a-e8ae-4d04-ae67-26cb21472e23.xml","setupapi/SetupDiCreateDeviceInterfaceRegKey"]
 old-location: devinst\setupdicreatedeviceinterfaceregkey.htm
 tech.root: devinst

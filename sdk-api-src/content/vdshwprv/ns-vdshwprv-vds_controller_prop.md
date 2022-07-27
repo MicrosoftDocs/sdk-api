@@ -1,7 +1,7 @@
 ---
 UID: NS:vdshwprv._VDS_CONTROLLER_PROP
 title: VDS_CONTROLLER_PROP (vdshwprv.h)
-description: Defines the properties of a controller object.
+description: Defines the properties of a controller object. (VDS_CONTROLLER_PROP)
 helpviewer_keywords: ["*PVDS_CONTROLLER_PROP","VDS_CONTROLLER_PROP","VDS_CONTROLLER_PROP structure [VDS]","VDS_H_DEGRADED","VDS_H_FAILED","VDS_H_HEALTHY","VDS_H_REPLACED","VDS_H_UNKNOWN","base.vds_controller_prop","vds/_VDS_CONTROLLER_PROP","vdshwprv/_VDS_CONTROLLER_PROP"]
 old-location: base\vds_controller_prop.htm
 tech.root: base

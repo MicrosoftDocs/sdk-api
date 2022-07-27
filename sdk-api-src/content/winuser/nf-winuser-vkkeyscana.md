@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.VkKeyScanA
 title: VkKeyScanA function (winuser.h)
-description: Translates a character to the corresponding virtual-key code and shift state for the current keyboard.
+description: Translates a character to the corresponding virtual-key code and shift state for the current keyboard. (ANSI)
 helpviewer_keywords: ["VkKeyScan","VkKeyScan function [Keyboard and Mouse Input]","VkKeyScanA","VkKeyScanW","_win32_VkKeyScan","_win32_vkkeyscan_cpp","inputdev.vkkeyscan","winui._win32_vkkeyscan","winuser/VkKeyScan","winuser/VkKeyScanA","winuser/VkKeyScanW"]
 old-location: inputdev\vkkeyscan.htm
 tech.root: inputdev

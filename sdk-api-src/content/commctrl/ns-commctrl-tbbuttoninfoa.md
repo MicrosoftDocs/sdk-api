@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.__unnamed_struct_2
 title: TBBUTTONINFOA (commctrl.h)
-description: Contains or receives information for a specific button in a toolbar.
+description: Contains or receives information for a specific button in a toolbar. (ANSI)
 helpviewer_keywords: ["*LPTBBUTTONINFOA","LPTBBUTTONINFO","LPTBBUTTONINFO structure pointer [Windows Controls]","TBBUTTONINFO","TBBUTTONINFO structure [Windows Controls]","TBBUTTONINFOA","TBBUTTONINFOW","TBIF_BYINDEX","TBIF_COMMAND","TBIF_IMAGE","TBIF_LPARAM","TBIF_SIZE","TBIF_STATE","TBIF_STYLE","TBIF_TEXT","_win32_TBBUTTONINFO","_win32_TBBUTTONINFO_cpp","commctrl/LPTBBUTTONINFO","commctrl/TBBUTTONINFO","commctrl/TBBUTTONINFOA","commctrl/TBBUTTONINFOW","controls.TBBUTTONINFO","controls._win32_TBBUTTONINFO"]
 old-location: controls\TBBUTTONINFO.htm
 tech.root: Controls

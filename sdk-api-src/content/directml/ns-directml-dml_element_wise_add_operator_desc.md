@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_ADD_OPERATOR_DESC
 title: DML_ELEMENT_WISE_ADD_OPERATOR_DESC
-description: Adds every element in *ATensor* to its corresponding element in *BTensor*, placing the result into the corresponding element of *OutputTensor*.
+description: Adds every element in *ATensor* to its corresponding element in *BTensor*, placing the result into the corresponding element of *OutputTensor*. (DML_ELEMENT_WISE_ADD_OPERATOR_DESC)
 helpviewer_keywords: ["DML_ELEMENT_WISE_ADD_OPERATOR_DESC","DML_ELEMENT_WISE_ADD_OPERATOR_DESC structure","direct3d12.dml_element_wise_add_operator_desc","directml/DML_ELEMENT_WISE_ADD_OPERATOR_DESC"]
 old-location: direct3d12\dml_element_wise_add_operator_desc.htm
 tech.root: directml

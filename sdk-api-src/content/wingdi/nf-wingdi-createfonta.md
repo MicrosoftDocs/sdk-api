@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.CreateFontA
 title: CreateFontA function (wingdi.h)
-description: The CreateFont function creates a logical font with the specified characteristics. The logical font can subsequently be selected as the font for any device.
+description: The CreateFont function creates a logical font with the specified characteristics. The logical font can subsequently be selected as the font for any device. (ANSI)
 helpviewer_keywords: ["ANTIALIASED_QUALITY","CLEARTYPE_QUALITY","CLIP_CHARACTER_PRECIS","CLIP_DEFAULT_PRECIS","CLIP_DFA_DISABLE","CLIP_DFA_OVERRIDE","CLIP_EMBEDDED","CLIP_LH_ANGLES","CLIP_MASK","CLIP_STROKE_PRECIS","CLIP_TT_ALWAYS","CreateFont","CreateFont function [Windows GDI]","CreateFontA","CreateFontW","DEFAULT_QUALITY","DRAFT_QUALITY","FF_DECORATIVE","FF_DONTCARE","FF_MODERN","FF_ROMAN","FF_SCRIPT","FF_SWISS","FW_BLACK","FW_BOLD","FW_DEMIBOLD","FW_DONTCARE","FW_EXTRABOLD","FW_EXTRALIGHT","FW_HEAVY","FW_LIGHT","FW_MEDIUM","FW_NORMAL","FW_REGULAR","FW_SEMIBOLD","FW_THIN","FW_ULTRABOLD","FW_ULTRALIGHT","NONANTIALIASED_QUALITY","OUT_CHARACTER_PRECIS","OUT_DEFAULT_PRECIS","OUT_DEVICE_PRECIS","OUT_OUTLINE_PRECIS","OUT_PS_ONLY_PRECIS","OUT_RASTER_PRECIS","OUT_STRING_PRECIS","OUT_STROKE_PRECIS","OUT_TT_ONLY_PRECIS","OUT_TT_PRECIS","PROOF_QUALITY","_win32_CreateFont","gdi.createfont","wingdi/CreateFont","wingdi/CreateFontA","wingdi/CreateFontW"]
 old-location: gdi\createfont.htm
 tech.root: gdi

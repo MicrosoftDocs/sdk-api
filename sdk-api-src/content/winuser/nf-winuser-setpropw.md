@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SetPropW
 title: SetPropW function (winuser.h)
-description: Adds a new entry or changes an existing entry in the property list of the specified window.
+description: Adds a new entry or changes an existing entry in the property list of the specified window. (Unicode)
 helpviewer_keywords: ["SetProp","SetProp function [Windows and Messages]","SetPropA","SetPropW","_win32_SetProp","_win32_setprop_cpp","winmsg.setprop","winui._win32_setprop","winuser/SetProp","winuser/SetPropA","winuser/SetPropW"]
 old-location: winmsg\setprop.htm
 tech.root: winmsg

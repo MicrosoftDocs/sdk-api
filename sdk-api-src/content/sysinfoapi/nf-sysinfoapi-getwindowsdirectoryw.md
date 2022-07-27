@@ -1,7 +1,7 @@
 ---
 UID: NF:sysinfoapi.GetWindowsDirectoryW
 title: GetWindowsDirectoryW function (sysinfoapi.h)
-description: Retrieves the path of the Windows directory.
+description: Retrieves the path of the Windows directory. (Unicode)
 helpviewer_keywords: ["GetWindowsDirectory","GetWindowsDirectory function","GetWindowsDirectoryA","GetWindowsDirectoryW","_win32_getwindowsdirectory","base.getwindowsdirectory","sysinfoapi/GetWindowsDirectory","sysinfoapi/GetWindowsDirectoryA","sysinfoapi/GetWindowsDirectoryW"]
 old-location: base\getwindowsdirectory.htm
 tech.root: winprog

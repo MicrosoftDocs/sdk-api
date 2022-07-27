@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.FtpGetCurrentDirectoryW
 title: FtpGetCurrentDirectoryW function (wininet.h)
-description: Retrieves the current directory for the specified FTP session.
+description: Retrieves the current directory for the specified FTP session. (Unicode)
 helpviewer_keywords: ["FtpGetCurrentDirectory","FtpGetCurrentDirectory function [WinINet]","FtpGetCurrentDirectoryA","FtpGetCurrentDirectoryW","_inet_ftpgetcurrentdirectory_function","wininet.ftpgetcurrentdirectory","wininet/FtpGetCurrentDirectory","wininet/FtpGetCurrentDirectoryA","wininet/FtpGetCurrentDirectoryW"]
 old-location: wininet\ftpgetcurrentdirectory.htm
 tech.root: wininet

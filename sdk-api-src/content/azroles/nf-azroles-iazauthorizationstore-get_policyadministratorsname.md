@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_PolicyAdministratorsName
 title: IAzAuthorizationStore::get_PolicyAdministratorsName (azroles.h)
-description: Retrieves the account names of principals that act as policy administrators.
+description: Retrieves the account names of principals that act as policy administrators. (IAzAuthorizationStore.get_PolicyAdministratorsName)
 helpviewer_keywords: ["AzAuthorizationStore object [Security]","PolicyAdministratorsName property","IAzAuthorizationStore interface [Security]","PolicyAdministratorsName property","IAzAuthorizationStore.PolicyAdministratorsName","IAzAuthorizationStore.get_PolicyAdministratorsName","IAzAuthorizationStore::PolicyAdministratorsName","IAzAuthorizationStore::get_PolicyAdministratorsName","PolicyAdministratorsName property [Security]","PolicyAdministratorsName property [Security]","AzAuthorizationStore object","PolicyAdministratorsName property [Security]","IAzAuthorizationStore interface","azroles/IAzAuthorizationStore::PolicyAdministratorsName","azroles/IAzAuthorizationStore::get_PolicyAdministratorsName","get_PolicyAdministratorsName","security.azauthorizationstore_policyadministratorsname"]
 old-location: security\azauthorizationstore_policyadministratorsname.htm
 tech.root: security

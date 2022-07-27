@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometry.SetTransformLocal
 title: IXpsOMGeometry::SetTransformLocal (xpsobjectmodel.h)
-description: Sets the local, unshared matrix transform.
+description: Sets the local, unshared matrix transform. (IXpsOMGeometry.SetTransformLocal)
 helpviewer_keywords: ["IXpsOMGeometry interface [XPS Documents and Packaging]","SetTransformLocal method","IXpsOMGeometry.SetTransformLocal","IXpsOMGeometry::SetTransformLocal","SetTransformLocal","SetTransformLocal method [XPS Documents and Packaging]","SetTransformLocal method [XPS Documents and Packaging]","IXpsOMGeometry interface","xps.ixpsomgeometry_settransformlocal","xpsobjectmodel/IXpsOMGeometry::SetTransformLocal"]
 old-location: xps\ixpsomgeometry_settransformlocal.htm
 tech.root: xps

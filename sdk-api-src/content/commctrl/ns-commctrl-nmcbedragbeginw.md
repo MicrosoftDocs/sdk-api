@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.__unnamed_struct_11
 title: NMCBEDRAGBEGINW (commctrl.h)
-description: Contains information used with the CBEN_DRAGBEGIN notification code.
+description: Contains information used with the CBEN_DRAGBEGIN notification code. (Unicode)
 helpviewer_keywords: ["*LPNMCBEDRAGBEGINW","*PNMCBEDRAGBEGINW","LPNMCBEDRAGBEGIN","LPNMCBEDRAGBEGIN structure pointer [Windows Controls]","NMCBEDRAGBEGIN","NMCBEDRAGBEGIN structure [Windows Controls]","NMCBEDRAGBEGINA","NMCBEDRAGBEGINW","_win32_NMCBEDRAGBEGIN","_win32_NMCBEDRAGBEGIN_cpp","commctrl/LPNMCBEDRAGBEGIN","commctrl/NMCBEDRAGBEGIN","commctrl/NMCBEDRAGBEGINA","commctrl/NMCBEDRAGBEGINW","controls.NMCBEDRAGBEGIN","controls._win32_NMCBEDRAGBEGIN"]
 old-location: controls\NMCBEDRAGBEGIN.htm
 tech.root: Controls

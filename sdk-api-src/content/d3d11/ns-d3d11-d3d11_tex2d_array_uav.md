@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_TEX2D_ARRAY_UAV
 title: D3D11_TEX2D_ARRAY_UAV (d3d11.h)
-description: Describes an array of unordered-access 2D texture resources.
+description: Describes an array of unordered-access 2D texture resources. (D3D11_TEX2D_ARRAY_UAV)
 helpviewer_keywords: ["26d8bf40-b7ed-fcb8-08bc-a6c774d2441d","D3D11_TEX2D_ARRAY_UAV","D3D11_TEX2D_ARRAY_UAV structure [Direct3D 11]","d3d11/D3D11_TEX2D_ARRAY_UAV","direct3d11.d3d11_tex2d_array_uav"]
 old-location: direct3d11\d3d11_tex2d_array_uav.htm
 tech.root: direct3d11

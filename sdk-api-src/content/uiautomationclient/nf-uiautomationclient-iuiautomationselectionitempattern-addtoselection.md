@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionItemPattern.AddToSelection
 title: IUIAutomationSelectionItemPattern::AddToSelection (uiautomationclient.h)
-description: Adds the current element to the collection of selected items.
+description: Adds the current element to the collection of selected items. (IUIAutomationSelectionItemPattern.AddToSelection)
 helpviewer_keywords: ["AddToSelection","AddToSelection method [Windows Accessibility]","AddToSelection method [Windows Accessibility]","IUIAutomationSelectionItemPattern interface","IUIAutomationSelectionItemPattern interface [Windows Accessibility]","AddToSelection method","IUIAutomationSelectionItemPattern.AddToSelection","IUIAutomationSelectionItemPattern::AddToSelection","uiauto.uiauto_IUIAutomationSelectionItemPattern_AddToSelection","uiauto_IUIAutomationSelectionItemPattern_AddToSelection","uiautomationclient/IUIAutomationSelectionItemPattern::AddToSelection","winauto.uiauto_IUIAutomationSelectionItemPattern_AddToSelection"]
 old-location: winauto\uiauto_IUIAutomationSelectionItemPattern_AddToSelection.htm
 tech.root: WinAuto

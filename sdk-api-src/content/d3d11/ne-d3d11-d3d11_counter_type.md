@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11.D3D11_COUNTER_TYPE
 title: D3D11_COUNTER_TYPE (d3d11.h)
-description: Data type of a performance counter.
+description: Data type of a performance counter. (D3D11_COUNTER_TYPE)
 helpviewer_keywords: ["D3D11_COUNTER_TYPE","D3D11_COUNTER_TYPE enumeration [Direct3D 11]","D3D11_COUNTER_TYPE_FLOAT32","D3D11_COUNTER_TYPE_UINT16","D3D11_COUNTER_TYPE_UINT32","D3D11_COUNTER_TYPE_UINT64","d3d11/D3D11_COUNTER_TYPE","d3d11/D3D11_COUNTER_TYPE_FLOAT32","d3d11/D3D11_COUNTER_TYPE_UINT16","d3d11/D3D11_COUNTER_TYPE_UINT32","d3d11/D3D11_COUNTER_TYPE_UINT64","direct3d11.d3d11_counter_type","e65eb816-2056-25d0-88d3-3d082588c48d"]
 old-location: direct3d11\d3d11_counter_type.htm
 tech.root: direct3d11

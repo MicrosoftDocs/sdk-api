@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFSimpleAudioVolume.SetMute
 title: IMFSimpleAudioVolume::SetMute (mfidl.h)
-description: Mutes or unmutes the audio.
+description: Mutes or unmutes the audio. (IMFSimpleAudioVolume.SetMute)
 helpviewer_keywords: ["IMFSimpleAudioVolume interface [Media Foundation]","SetMute method","IMFSimpleAudioVolume.SetMute","IMFSimpleAudioVolume::SetMute","SetMute","SetMute method [Media Foundation]","SetMute method [Media Foundation]","IMFSimpleAudioVolume interface","d8840d15-d4d5-481e-9002-54fdbf323c9c","mf.imfsimpleaudiovolume_setmute","mfidl/IMFSimpleAudioVolume::SetMute"]
 old-location: mf\imfsimpleaudiovolume_setmute.htm
 tech.root: mf

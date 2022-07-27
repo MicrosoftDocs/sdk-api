@@ -1,7 +1,7 @@
 ---
 UID: NF:oledlg.OleUIChangeIconA
 title: OleUIChangeIconA function (oledlg.h)
-description: Invokes the standard Change Icon dialog box, which allows the user to select an icon from an icon file, executable, or DLL.
+description: Invokes the standard Change Icon dialog box, which allows the user to select an icon from an icon file, executable, or DLL. (ANSI)
 helpviewer_keywords: ["OleUIChangeIcon","OleUIChangeIcon function [COM]","OleUIChangeIconA","OleUIChangeIconW","_ole_OleUIChangeIcon","com.oleuichangeicon","oledlg/OleUIChangeIcon","oledlg/OleUIChangeIconA","oledlg/OleUIChangeIconW"]
 old-location: com\oleuichangeicon.htm
 tech.root: com

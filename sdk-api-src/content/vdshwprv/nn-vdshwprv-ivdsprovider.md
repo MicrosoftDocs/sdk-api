@@ -1,7 +1,7 @@
 ---
 UID: NN:vdshwprv.IVdsProvider
 title: IVdsProvider (vdshwprv.h)
-description: Returns the properties of a hardware or software provider.
+description: Returns the properties of a hardware or software provider. (IVdsProvider)
 helpviewer_keywords: ["IVdsProvider","IVdsProvider interface [VDS]","IVdsProvider interface [VDS]","described","base.ivdsprovider","vds/IVdsProvider","vdshwprv/IVdsProvider"]
 old-location: base\ivdsprovider.htm
 tech.root: base

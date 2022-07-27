@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupDeleteW
 title: RpcNsGroupDeleteW function (rpcnsi.h)
-description: The RpcNsGroupDelete function deletes a group attribute.
+description: The RpcNsGroupDelete function deletes a group attribute. (Unicode)
 helpviewer_keywords: ["RPC_C_NS_SYNTAX_DCE","RPC_C_NS_SYNTAX_DEFAULT","RpcNsGroupDelete","RpcNsGroupDelete function [RPC]","RpcNsGroupDeleteA","RpcNsGroupDeleteW","_rpc_rpcnsgroupdelete","rpc.rpcnsgroupdelete","rpcnsi/RpcNsGroupDelete","rpcnsi/RpcNsGroupDeleteA","rpcnsi/RpcNsGroupDeleteW"]
 old-location: rpc\rpcnsgroupdelete.htm
 tech.root: Rpc

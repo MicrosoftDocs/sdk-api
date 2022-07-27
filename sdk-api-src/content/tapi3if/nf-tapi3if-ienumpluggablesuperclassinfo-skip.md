@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.IEnumPluggableSuperclassInfo.Skip
 title: IEnumPluggableSuperclassInfo::Skip (tapi3if.h)
-description: The Skip method skips over the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
+description: The Skip method skips over the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages. (IEnumPluggableSuperclassInfo.Skip)
 helpviewer_keywords: ["IEnumPluggableSuperclassInfo interface [TAPI 2.2]","Skip method","IEnumPluggableSuperclassInfo.Skip","IEnumPluggableSuperclassInfo::Skip","Skip","Skip method [TAPI 2.2]","Skip method [TAPI 2.2]","IEnumPluggableSuperclassInfo interface","_tapi3_ienumpluggablesuperclassinfo_skip","tapi3.ienumpluggablesuperclassinfo_skip","tapi3if/IEnumPluggableSuperclassInfo::Skip"]
 old-location: tapi3\ienumpluggablesuperclassinfo_skip.htm
 tech.root: tapi3

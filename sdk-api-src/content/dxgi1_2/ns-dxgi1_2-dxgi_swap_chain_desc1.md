@@ -1,7 +1,7 @@
 ---
 UID: NS:dxgi1_2.DXGI_SWAP_CHAIN_DESC1
 title: DXGI_SWAP_CHAIN_DESC1 (dxgi1_2.h)
-description: Describes a swap chain.
+description: Describes a swap chain. (DXGI_SWAP_CHAIN_DESC1)
 helpviewer_keywords: ["DXGI_SWAP_CHAIN_DESC1","DXGI_SWAP_CHAIN_DESC1 structure [DXGI]","direct3ddxgi.dxgi_swap_chain_desc1","dxgi1_2/DXGI_SWAP_CHAIN_DESC1"]
 old-location: direct3ddxgi\dxgi_swap_chain_desc1.htm
 tech.root: direct3ddxgi

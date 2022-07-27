@@ -1,7 +1,7 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_13
 title: ISCSI_TARGET_PORTAL_GROUPA (iscsidsc.h)
-description: ISCSI_TARGET_PORTAL_GROUP.
+description: ISCSI_TARGET_PORTAL_GROUP. (ANSI)
 helpviewer_keywords: ["*PISCSI_TARGET_PORTAL_GROUPA","ISCSI_TARGET_PORTAL_GROUP","ISCSI_TARGET_PORTAL_GROUP structure [iSCSI Discovery Library API]","ISCSI_TARGET_PORTAL_GROUPA","ISCSI_TARGET_PORTAL_GROUPW","PISCSI_TARGET_PORTAL_GROUP","PISCSI_TARGET_PORTAL_GROUP structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_target_portal_group","iscsidsc/ISCSI_TARGET_PORTAL_GROUP","iscsidsc/ISCSI_TARGET_PORTAL_GROUPA","iscsidsc/ISCSI_TARGET_PORTAL_GROUPW","iscsidsc/PISCSI_TARGET_PORTAL_GROUP"]
 old-location: iscsidisc\iscsi_target_portal_group.htm
 tech.root: iSCSIDisc

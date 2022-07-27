@@ -1,7 +1,7 @@
 ---
 UID: NN:tapi3cc.ITQueueEvent
 title: ITQueueEvent (tapi3cc.h)
-description: The ITQueueEvent interface contains methods that retrieve the description of Automatic Call Distribution (ACD) queue events.
+description: The ITQueueEvent interface contains methods that retrieve the description of Automatic Call Distribution (ACD) queue events. (ITQueueEvent)
 helpviewer_keywords: ["ITQueueEvent","ITQueueEvent interface [TAPI 2.2]","ITQueueEvent interface [TAPI 2.2]","described","_tapi3_itqueueevent","tapi3.itqueueevent","tapi3cc/ITQueueEvent"]
 old-location: tapi3\itqueueevent.htm
 tech.root: tapi3

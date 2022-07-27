@@ -1,7 +1,7 @@
 ---
 UID: NF:imm.ImmRegisterWordW
 title: ImmRegisterWordW function (imm.h)
-description: Registers a string with the dictionary of the IME associated with the specified input locale.
+description: Registers a string with the dictionary of the IME associated with the specified input locale. (ImmRegisterWordW)
 helpviewer_keywords: ["Any value in the range from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_USER_LAST","IME_REGWORD_STYLE_EUDC","ImmRegisterWord","ImmRegisterWord function [Internationalization for Windows Applications]","ImmRegisterWordA","ImmRegisterWordW","_win32_ImmRegisterWord","imm/ImmRegisterWord","imm/ImmRegisterWordA","imm/ImmRegisterWordW","intl.immregisterword"]
 old-location: intl\immregisterword.htm
 tech.root: Intl

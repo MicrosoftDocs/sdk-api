@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.UrlIsOpaqueA
 title: UrlIsOpaqueA function (shlwapi.h)
-description: Returns whether a URL is opaque.
+description: Returns whether a URL is opaque. (ANSI)
 helpviewer_keywords: ["UrlIsOpaque","UrlIsOpaque function [Windows Shell]","UrlIsOpaqueA","UrlIsOpaqueW","_win32_UrlIsOpaque","shell.UrlIsOpaque","shlwapi/UrlIsOpaque","shlwapi/UrlIsOpaqueA","shlwapi/UrlIsOpaqueW"]
 old-location: shell\UrlIsOpaque.htm
 tech.root: shell

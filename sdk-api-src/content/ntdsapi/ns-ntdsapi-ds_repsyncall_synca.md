@@ -1,7 +1,7 @@
 ---
 UID: NS:ntdsapi.__unnamed_struct_4
 title: DS_REPSYNCALL_SYNCA (ntdsapi.h)
-description: The DS_REPSYNCALL_SYNC structure identifies a single replication operation performed between a source, and destination, server by the DsReplicaSyncAll function.
+description: The DS_REPSYNCALL_SYNC structure identifies a single replication operation performed between a source, and destination, server by the DsReplicaSyncAll function. (ANSI)
 helpviewer_keywords: ["*PDS_REPSYNCALL_SYNCA","DS_REPSYNCALL_SYNC","DS_REPSYNCALL_SYNC structure [Active Directory]","DS_REPSYNCALL_SYNCA","DS_REPSYNCALL_SYNCW","PDS_REPSYNCALL_SYNC","PDS_REPSYNCALL_SYNC structure pointer [Active Directory]","_glines_ds_repsyncall_sync","ad.ds__repsyncall__sync","ad.ds_repsyncall_sync","ntdsapi/DS_REPSYNCALL_SYNC","ntdsapi/DS_REPSYNCALL_SYNCA","ntdsapi/DS_REPSYNCALL_SYNCW","ntdsapi/PDS_REPSYNCALL_SYNC"]
 old-location: ad\ds_repsyncall_sync.htm
 tech.root: ad

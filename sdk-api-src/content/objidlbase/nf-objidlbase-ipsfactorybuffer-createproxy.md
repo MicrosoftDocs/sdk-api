@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.IPSFactoryBuffer.CreateProxy
 title: IPSFactoryBuffer::CreateProxy (objidlbase.h)
-description: Creates a proxy for the specified remote interface.
+description: Creates a proxy for the specified remote interface. (IPSFactoryBuffer.CreateProxy)
 helpviewer_keywords: ["CreateProxy","CreateProxy method [COM]","CreateProxy method [COM]","IPSFactoryBuffer interface","IPSFactoryBuffer interface [COM]","CreateProxy method","IPSFactoryBuffer.CreateProxy","IPSFactoryBuffer::CreateProxy","_com_ipsfactorybuffer_createproxy","com.ipsfactorybuffer_createproxy","objidlbase/IPSFactoryBuffer::CreateProxy"]
 old-location: com\ipsfactorybuffer_createproxy.htm
 tech.root: com

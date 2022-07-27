@@ -1,7 +1,7 @@
 ---
 UID: NF:debugapi.OutputDebugStringW
 title: OutputDebugStringW function (debugapi.h)
-description: Sends a string to the debugger for display.
+description: Sends a string to the debugger for display. (Unicode)
 helpviewer_keywords: ["OutputDebugString","OutputDebugString function","OutputDebugStringA","OutputDebugStringW","_win32_outputdebugstring","base.outputdebugstring","debugapi/OutputDebugString","debugapi/OutputDebugStringA","debugapi/OutputDebugStringW"]
 old-location: base\outputdebugstring.htm
 tech.root: Debug

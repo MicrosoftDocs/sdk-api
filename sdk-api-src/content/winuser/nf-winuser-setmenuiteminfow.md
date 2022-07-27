@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SetMenuItemInfoW
 title: SetMenuItemInfoW function (winuser.h)
-description: Changes information about a menu item.
+description: Changes information about a menu item. (Unicode)
 helpviewer_keywords: ["SetMenuItemInfo","SetMenuItemInfo function [Menus and Other Resources]","SetMenuItemInfoA","SetMenuItemInfoW","_win32_SetMenuItemInfo","_win32_setmenuiteminfo_cpp","menurc.setmenuiteminfo","winui._win32_setmenuiteminfo","winuser/SetMenuItemInfo","winuser/SetMenuItemInfoA","winuser/SetMenuItemInfoW"]
 old-location: menurc\setmenuiteminfo.htm
 tech.root: menurc

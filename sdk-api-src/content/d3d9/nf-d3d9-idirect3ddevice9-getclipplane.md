@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetClipPlane
 title: IDirect3DDevice9::GetClipPlane (d3d9.h)
-description: Retrieves the coefficients of a user-defined clipping plane for the device.
+description: Retrieves the coefficients of a user-defined clipping plane for the device. (IDirect3DDevice9.GetClipPlane)
 helpviewer_keywords: ["4ee4abff-6964-013c-ead5-e1d4da1fe84b","GetClipPlane","GetClipPlane method [Direct3D 9]","GetClipPlane method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetClipPlane method","IDirect3DDevice9.GetClipPlane","IDirect3DDevice9::GetClipPlane","d3d9helper/IDirect3DDevice9::GetClipPlane","direct3d9.idirect3ddevice9__getclipplane"]
 old-location: direct3d9\idirect3ddevice9__getclipplane.htm
 tech.root: direct3d9

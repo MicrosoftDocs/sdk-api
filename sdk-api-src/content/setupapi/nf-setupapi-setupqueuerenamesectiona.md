@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupQueueRenameSectionA
 title: SetupQueueRenameSectionA function (setupapi.h)
-description: The SetupQueueRenameSection function queues a section in an INF file for renaming. The section must be in the correct rename list section format and the INF file must contain a DestinationDirs section.
+description: The SetupQueueRenameSection function queues a section in an INF file for renaming. The section must be in the correct rename list section format and the INF file must contain a DestinationDirs section. (ANSI)
 helpviewer_keywords: ["SetupQueueRenameSection","SetupQueueRenameSection function [Setup API]","SetupQueueRenameSectionA","SetupQueueRenameSectionW","_setupapi_setupqueuerenamesection","setup.setupqueuerenamesection","setupapi/SetupQueueRenameSection","setupapi/SetupQueueRenameSectionA","setupapi/SetupQueueRenameSectionW"]
 old-location: setup\setupqueuerenamesection.htm
 tech.root: setup

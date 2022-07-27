@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IWeeklyTrigger.put_DaysOfWeek
 title: IWeeklyTrigger::put_DaysOfWeek (taskschd.h)
-description: Gets or sets the days of the week in which the task runs.
+description: Gets or sets the days of the week in which the task runs. (Put)
 helpviewer_keywords: ["DaysOfWeek property [Task Scheduler]","DaysOfWeek property [Task Scheduler]","IWeeklyTrigger interface","IWeeklyTrigger interface [Task Scheduler]","DaysOfWeek property","IWeeklyTrigger.DaysOfWeek","IWeeklyTrigger.put_DaysOfWeek","IWeeklyTrigger::DaysOfWeek","IWeeklyTrigger::get_DaysOfWeek","IWeeklyTrigger::put_DaysOfWeek","put_DaysOfWeek","taskschd.iweeklytrigger_daysofweek","taskschd/IWeeklyTrigger::DaysOfWeek","taskschd/IWeeklyTrigger::get_DaysOfWeek","taskschd/IWeeklyTrigger::put_DaysOfWeek"]
 old-location: taskschd\iweeklytrigger_daysofweek.htm
 tech.root: taskschd

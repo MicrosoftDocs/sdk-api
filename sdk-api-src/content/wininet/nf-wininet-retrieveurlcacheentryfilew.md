@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.RetrieveUrlCacheEntryFileW
 title: RetrieveUrlCacheEntryFileW function (wininet.h)
-description: Locks the cache entry file associated with the specified URL.
+description: Locks the cache entry file associated with the specified URL. (Unicode)
 helpviewer_keywords: ["RetrieveUrlCacheEntryFile","RetrieveUrlCacheEntryFile function [WinINet]","RetrieveUrlCacheEntryFileA","RetrieveUrlCacheEntryFileW","_inet_retrieveurlcacheentryfile_function","wininet.retrieveurlcacheentryfile","wininet/RetrieveUrlCacheEntryFile","wininet/RetrieveUrlCacheEntryFileA","wininet/RetrieveUrlCacheEntryFileW"]
 old-location: wininet\retrieveurlcacheentryfile.htm
 tech.root: wininet

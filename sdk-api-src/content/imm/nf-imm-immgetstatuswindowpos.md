@@ -1,7 +1,7 @@
 ---
 UID: NF:imm.ImmGetStatusWindowPos
 title: ImmGetStatusWindowPos function (imm.h)
-description: Retrieves the position of the status window.
+description: Retrieves the position of the status window. (ImmGetStatusWindowPos)
 helpviewer_keywords: ["ImmGetStatusWindowPos","ImmGetStatusWindowPos function [Internationalization for Windows Applications]","_win32_ImmGetStatusWindowPos","imm/ImmGetStatusWindowPos","intl.immgetstatuswindowpos"]
 old-location: intl\immgetstatuswindowpos.htm
 tech.root: Intl

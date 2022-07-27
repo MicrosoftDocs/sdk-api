@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemtime.WBEMTime.operator-greater-than-equal-to
 title: WBEMTime::operator-greater-than-equal-to (wbemtime.h)
-description: The WBEMTime comparison operators (== != &lt; &lt;= &gt; &gt;=) have been overloaded to compare two WBEMTime objects.
+description: The WBEMTime comparison operators (== != &lt; &lt;= &gt; &gt;=) have been overloaded to compare two WBEMTime objects.W
 helpviewer_keywords: ["WBEMTime interface [Windows Management Instrumentation]","operator>= method","WBEMTime.operator-greater-than-equal-to","WBEMTime.operator>=","WBEMTime::operator-greater-than-equal-to","WBEMTime::operator>=","operator>=","operator>= method [Windows Management Instrumentation]","operator>= method [Windows Management Instrumentation]","WBEMTime interface","wbemtime/WBEMTime::operator>=","wmi.wbemtime_comparison_operators_greaterthanorequal"]
 old-location: wmi\wbemtime_comparison_operators_greaterthanorequal.htm
 tech.root: wmi

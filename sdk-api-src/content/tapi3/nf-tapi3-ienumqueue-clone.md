@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3.IEnumQueue.Clone
 title: IEnumQueue::Clone (tapi3.h)
-description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
+description: The Clone method creates another enumerator that contains the same enumeration state as the current one. (IEnumQueue.Clone)
 helpviewer_keywords: ["Clone","Clone method [TAPI 2.2]","Clone method [TAPI 2.2]","IEnumQueue interface","IEnumQueue interface [TAPI 2.2]","Clone method","IEnumQueue.Clone","IEnumQueue::Clone","_tapi3_ienumqueue_clone","tapi3.ienumqueue_clone","tapi3cc/IEnumQueue::Clone"]
 old-location: tapi3\ienumqueue_clone.htm
 tech.root: tapi3

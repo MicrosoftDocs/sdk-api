@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock.gethostname
 title: gethostname function (winsock.h)
-description: The gethostname function retrieves the standard host name for the local computer.
+description: The gethostname function retrieves the standard host name for the local computer. (gethostname)
 helpviewer_keywords: ["_win32_gethostname_2","gethostname","gethostname function [Winsock]","winsock.gethostname_2","winsock/gethostname"]
 old-location: winsock\gethostname_2.htm
 tech.root: WinSock

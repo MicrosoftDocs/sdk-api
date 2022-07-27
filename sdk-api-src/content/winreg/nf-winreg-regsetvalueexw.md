@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegSetValueExW
 title: RegSetValueExW function (winreg.h)
-description: Sets the data and type of a specified value under a registry key.
+description: Sets the data and type of a specified value under a registry key. (Unicode)
 helpviewer_keywords: ["RegSetValueEx","RegSetValueEx function","RegSetValueExA","RegSetValueExW","_win32_regsetvalueex","base.regsetvalueex","winreg/RegSetValueEx","winreg/RegSetValueExA","winreg/RegSetValueExW"]
 old-location: base\regsetvalueex.htm
 tech.root: winprog

@@ -1,7 +1,7 @@
 ---
 UID: NS:pdh._PDH_RAW_COUNTER_ITEM_A
 title: PDH_RAW_COUNTER_ITEM_A (pdh.h)
-description: The PDH_RAW_COUNTER_ITEM structure contains the instance name and raw value of a counter.
+description: The PDH_RAW_COUNTER_ITEM structure contains the instance name and raw value of a counter. (ANSI)
 helpviewer_keywords: ["*PPDH_RAW_COUNTER_ITEM_A","PDH_RAW_COUNTER_ITEM","PDH_RAW_COUNTER_ITEM structure [Perf]","PDH_RAW_COUNTER_ITEM","*PPDH_RAW_COUNTER_ITEM","PDH_RAW_COUNTER_ITEM","*PPDH_RAW_COUNTER_ITEM structure [Perf]","PDH_RAW_COUNTER_ITEM_A","PDH_RAW_COUNTER_ITEM_W","_win32_pdh_raw_counter_item_str","base.pdh_raw_counter_item_str","pdh/PDH_RAW_COUNTER_ITEM","pdh/PDH_RAW_COUNTER_ITEM_A","pdh/PDH_RAW_COUNTER_ITEM_W","perf.pdh_raw_counter_item_str"]
 old-location: perf\pdh_raw_counter_item_str.htm
 tech.root: perf

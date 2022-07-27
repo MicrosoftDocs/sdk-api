@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem2.QueryMaxLunCreateSize2
 title: IVdsSubSystem2::QueryMaxLunCreateSize2 (vdshwprv.h)
-description: Returns the size of the maximum LUN that can be created using the specified LUN type and hints.
+description: Returns the size of the maximum LUN that can be created using the specified LUN type and hints. (IVdsSubSystem2.QueryMaxLunCreateSize2)
 helpviewer_keywords: ["IVdsSubSystem2 interface","QueryMaxLunCreateSize2 method","IVdsSubSystem2.QueryMaxLunCreateSize2","IVdsSubSystem2::QueryMaxLunCreateSize2","QueryMaxLunCreateSize2","QueryMaxLunCreateSize2 method","QueryMaxLunCreateSize2 method","IVdsSubSystem2 interface","base.ivdssubsystem2_querymaxluncreatesize2","vds/IVdsSubSystem2::QueryMaxLunCreateSize2","vdshwprv/IVdsSubSystem2::QueryMaxLunCreateSize2"]
 old-location: base\ivdssubsystem2_querymaxluncreatesize2.htm
 tech.root: base

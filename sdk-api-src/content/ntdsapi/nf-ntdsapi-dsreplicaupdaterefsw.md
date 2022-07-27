@@ -1,7 +1,7 @@
 ---
 UID: NF:ntdsapi.DsReplicaUpdateRefsW
 title: DsReplicaUpdateRefsW function (ntdsapi.h)
-description: Adds or removes a replication reference for a destination from a source naming context.
+description: Adds or removes a replication reference for a destination from a source naming context. (Unicode)
 helpviewer_keywords: ["DS_REPUPD_ADD_REFERENCE","DS_REPUPD_ASYNCHRONOUS_OPERATION","DS_REPUPD_DELETE_REFERENCE","DS_REPUPD_WRITEABLE","DsReplicaUpdateRefs","DsReplicaUpdateRefs function [Active Directory]","DsReplicaUpdateRefsA","DsReplicaUpdateRefsW","_glines_dsreplicaupdaterefs","ad.dsreplicaupdaterefs","ntdsapi/DsReplicaUpdateRefs","ntdsapi/DsReplicaUpdateRefsA","ntdsapi/DsReplicaUpdateRefsW"]
 old-location: ad\dsreplicaupdaterefs.htm
 tech.root: ad

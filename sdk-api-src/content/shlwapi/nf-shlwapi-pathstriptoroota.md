@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathStripToRootA
 title: PathStripToRootA function (shlwapi.h)
-description: Removes all file and directory elements in a path except for the root information.
+description: Removes all file and directory elements in a path except for the root information. (ANSI)
 helpviewer_keywords: ["PathStripToRoot","PathStripToRoot function [Windows Shell]","PathStripToRootA","PathStripToRootW","_win32_PathStripToRoot","shell.PathStripToRoot","shlwapi/PathStripToRoot","shlwapi/PathStripToRootA","shlwapi/PathStripToRootW"]
 old-location: shell\PathStripToRoot.htm
 tech.root: shell

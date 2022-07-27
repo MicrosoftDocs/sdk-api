@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.EnumerateLoadedModulesEx
 title: EnumerateLoadedModulesEx function (dbghelp.h)
-description: Enumerates the loaded modules for the specified process.
+description: Enumerates the loaded modules for the specified process. (EnumerateLoadedModulesExW)
 helpviewer_keywords: ["EnumerateLoadedModulesEx","EnumerateLoadedModulesEx function","EnumerateLoadedModulesExW","base.enumerateloadedmodulesex","dbghelp/EnumerateLoadedModulesEx","dbghelp/EnumerateLoadedModulesExW"]
 old-location: base\enumerateloadedmodulesex.htm
 tech.root: Debug

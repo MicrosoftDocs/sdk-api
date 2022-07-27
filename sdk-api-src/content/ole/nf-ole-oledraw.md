@@ -1,7 +1,7 @@
 ---
 UID: NF:ole.OleDraw
 title: OleDraw function (ole.h)
-description: Enables drawing objects more easily. You can use it instead of calling IViewObject::Draw directly.
+description: Enables drawing objects more easily. You can use it instead of calling IViewObject::Draw directly. (OleDraw)
 helpviewer_keywords: ["OleDraw","OleDraw function [COM]","_ole_OleDraw","com.oledraw","ole/OleDraw"]
 old-location: com\oledraw.htm
 tech.root: com

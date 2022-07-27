@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.IEnumCall.Reset
 title: IEnumCall::Reset (tapi3if.h)
-description: The Reset method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
+description: The Reset method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages. (IEnumCall.Reset)
 helpviewer_keywords: ["IEnumCall interface [TAPI 2.2]","Reset method","IEnumCall.Reset","IEnumCall::Reset","Reset","Reset method [TAPI 2.2]","Reset method [TAPI 2.2]","IEnumCall interface","_tapi3_ienumcall_reset","tapi3.ienumcall_reset","tapi3if/IEnumCall::Reset"]
 old-location: tapi3\ienumcall_reset.htm
 tech.root: tapi3

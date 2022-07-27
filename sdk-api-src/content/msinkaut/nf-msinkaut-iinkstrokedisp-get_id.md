@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_ID
 title: IInkStrokeDisp::get_ID (msinkaut.h)
-description: Gets the identifier of an object.
+description: Gets the identifier of an object. (IInkStrokeDisp.get_Id)
 helpviewer_keywords: ["ID property [Tablet PC]","ID property [Tablet PC]","IInkStrokeDisp interface","IInkStrokeDisp interface [Tablet PC]","ID property","IInkStrokeDisp.ID","IInkStrokeDisp.get_ID","IInkStrokeDisp.get_Id","IInkStrokeDisp::ID","IInkStrokeDisp::get_ID","get_ID","msinkaut/IInkStrokeDisp::ID","msinkaut/IInkStrokeDisp::get_ID","tablet.iinkstrokedisp_id"]
 old-location: tablet\iinkstrokedisp_id.htm
 tech.root: tablet

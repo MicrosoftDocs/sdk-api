@@ -1,7 +1,7 @@
 ---
 UID: NC:netfw.PAC_CHANGES_CALLBACK_FN
 title: PAC_CHANGES_CALLBACK_FN (netfw.h)
-description: Used to add custom behavior to the app container change notification process.
+description: Used to add custom behavior to the app container change notification process. (PAC_CHANGES_CALLBACK_FN)
 helpviewer_keywords: ["PAC_CHANGES_CALLBACK_FN","PAC_CHANGES_CALLBACK_FN callback","PAC_CHANGES_CALLBACK_FN callback function [ICS/ICF]","ics.pac_changes_callback_fn","networkisolation/PAC_CHANGES_CALLBACK_FN"]
 old-location: ics\pac_changes_callback_fn.htm
 tech.root: ics

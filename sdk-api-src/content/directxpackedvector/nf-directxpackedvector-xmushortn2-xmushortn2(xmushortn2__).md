@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMUSHORTN2.XMUSHORTN2(XMUSHORTN2&&)
 title: XMUSHORTN2::XMUSHORTN2(XMUSHORTN2 &&) (directxpackedvector.h)
-description: A constructor for XMUSHORTN2.
+description: A constructor for XMUSHORTN2. (overload 3/4)
 helpviewer_keywords: ["XMUSHORTN2","XMUSHORTN2 constructor [DirectX Math Support APIs]","XMUSHORTN2 constructor [DirectX Math Support APIs]","XMUSHORTN2 structure","XMUSHORTN2 structure [DirectX Math Support APIs]","XMUSHORTN2 constructor","XMUSHORTN2.XMUSHORTN2","XMUSHORTN2.XMUSHORTN2()","XMUSHORTN2.XMUSHORTN2(XMUSHORTN2 &&)","XMUSHORTN2::XMUSHORTN2","XMUSHORTN2::XMUSHORTN2(XMUSHORTN2 &&)","dxmath.xmushortn2_ctor_1"]
 old-location: 
 tech.root: dxmath

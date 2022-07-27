@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHCreateStreamOnFileW
 title: SHCreateStreamOnFileW function (shlwapi.h)
-description: SHCreateStreamOnFile may be altered or unavailable. Instead, use SHCreateStreamOnFileEx.
+description: SHCreateStreamOnFile may be altered or unavailable. Instead, use SHCreateStreamOnFileEx. (Unicode)
 helpviewer_keywords: ["SHCreateStreamOnFile","SHCreateStreamOnFile function [Windows Shell]","SHCreateStreamOnFileA","SHCreateStreamOnFileW","_win32_SHCreateStreamOnFile","shell.SHCreateStreamOnFile","shlwapi/SHCreateStreamOnFile","shlwapi/SHCreateStreamOnFileA","shlwapi/SHCreateStreamOnFileW"]
 old-location: shell\SHCreateStreamOnFile.htm
 tech.root: shell

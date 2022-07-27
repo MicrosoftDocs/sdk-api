@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.OMSetBlendState
 title: ID3D11DeviceContext::OMSetBlendState (d3d11.h)
-description: Set the blend state of the output-merger stage.
+description: Set the blend state of the output-merger stage. (ID3D11DeviceContext.OMSetBlendState)
 helpviewer_keywords: ["1f1e71f6-6b9d-3137-ba6e-8c5e5e8079ac","ID3D11DeviceContext interface [Direct3D 11]","OMSetBlendState method","ID3D11DeviceContext.OMSetBlendState","ID3D11DeviceContext::OMSetBlendState","OMSetBlendState","OMSetBlendState method [Direct3D 11]","OMSetBlendState method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::OMSetBlendState","direct3d11.id3d11devicecontext_omsetblendstate"]
 old-location: direct3d11\id3d11devicecontext_omsetblendstate.htm
 tech.root: direct3d11

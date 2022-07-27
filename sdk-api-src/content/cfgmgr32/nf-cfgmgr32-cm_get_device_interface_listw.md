@@ -1,7 +1,7 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_Interface_ListW
 title: CM_Get_Device_Interface_ListW function (cfgmgr32.h)
-description: The CM_Get_Device_Interface_List function retrieves a list of device interface instances that belong to a specified device interface class.
+description: The CM_Get_Device_Interface_List function retrieves a list of device interface instances that belong to a specified device interface class. (Unicode)
 helpviewer_keywords: ["CM_Get_Device_Interface_List","CM_Get_Device_Interface_List function [Device and Driver Installation]","CM_Get_Device_Interface_ListA","CM_Get_Device_Interface_ListW","cfgmgr32/CM_Get_Device_Interface_List","cfgmgr32/CM_Get_Device_Interface_ListA","cfgmgr32/CM_Get_Device_Interface_ListW","cfgmgrfn_8729dc17-f9a0-4ebe-ad56-35c63f9299f0.xml","devinst.cm_get_device_interface_list"]
 old-location: devinst\cm_get_device_interface_list.htm
 tech.root: devinst

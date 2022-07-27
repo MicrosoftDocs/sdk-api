@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.CreatePixelShader
 title: IDirect3DDevice9::CreatePixelShader (d3d9helper.h)
-description: Creates a pixel shader.
+description: Creates a pixel shader. (IDirect3DDevice9.CreatePixelShader)
 helpviewer_keywords: ["CreatePixelShader","CreatePixelShader method [Direct3D 9]","CreatePixelShader method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","CreatePixelShader method","IDirect3DDevice9.CreatePixelShader","IDirect3DDevice9::CreatePixelShader","d3d9helper/IDirect3DDevice9::CreatePixelShader","dbb7453e-679d-3725-52e6-92748cf274cc","direct3d9.idirect3ddevice9__createpixelshader"]
 old-location: direct3d9\idirect3ddevice9__createpixelshader.htm
 tech.root: direct3d9

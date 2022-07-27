@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetPixelShaderConstantI
 title: IDirect3DDevice9::SetPixelShaderConstantI (d3d9helper.h)
-description: Sets an integer shader constant.
+description: Sets an integer shader constant. (IDirect3DDevice9.SetPixelShaderConstantI)
 helpviewer_keywords: ["IDirect3DDevice9 interface [Direct3D 9]","SetPixelShaderConstantI method","IDirect3DDevice9.SetPixelShaderConstantI","IDirect3DDevice9::SetPixelShaderConstantI","SetPixelShaderConstantI","SetPixelShaderConstantI method [Direct3D 9]","SetPixelShaderConstantI method [Direct3D 9]","IDirect3DDevice9 interface","c9149cc8-7c91-43d6-390a-f416b94deaea","d3d9helper/IDirect3DDevice9::SetPixelShaderConstantI","direct3d9.idirect3ddevice9__setpixelshaderconstanti"]
 old-location: direct3d9\idirect3ddevice9__setpixelshaderconstanti.htm
 tech.root: direct3d9

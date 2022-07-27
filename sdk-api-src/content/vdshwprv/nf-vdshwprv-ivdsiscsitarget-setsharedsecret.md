@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiTarget.SetSharedSecret
 title: IVdsIscsiTarget::SetSharedSecret (vdshwprv.h)
-description: Sets the target CHAP shared secret that is used for CHAP authentication when the target authenticates the initiator.
+description: Sets the target CHAP shared secret that is used for CHAP authentication when the target authenticates the initiator. (IVdsIscsiTarget.SetSharedSecret)
 helpviewer_keywords: ["IVdsIscsiTarget interface [VDS]","SetSharedSecret method","IVdsIscsiTarget.SetSharedSecret","IVdsIscsiTarget::SetSharedSecret","SetSharedSecret","SetSharedSecret method [VDS]","SetSharedSecret method [VDS]","IVdsIscsiTarget interface","base.ivdsiscsitarget_setsharedsecret","vds/IVdsIscsiTarget::SetSharedSecret","vdshwprv/IVdsIscsiTarget::SetSharedSecret"]
 old-location: base\ivdsiscsitarget_setsharedsecret.htm
 tech.root: base

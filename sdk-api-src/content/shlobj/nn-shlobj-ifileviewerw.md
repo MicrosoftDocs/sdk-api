@@ -1,7 +1,7 @@
 ---
 UID: NN:shlobj.IFileViewerW
 title: IFileViewerW
-description: Exposes methods that designate an interface that allows a registered file viewer to be notified when it must show or print a file.
+description: Exposes methods that designate an interface that allows a registered file viewer to be notified when it must show or print a file. (Unicode)
 helpviewer_keywords: ["IFileViewerW"]
 old-location: 
 tech.root: shell

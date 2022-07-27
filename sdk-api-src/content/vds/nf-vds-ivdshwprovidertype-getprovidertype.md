@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsHwProviderType.GetProviderType
 title: IVdsHwProviderType::GetProviderType (vds.h)
-description: Retrieves the type of the hardware provider.
+description: Retrieves the type of the hardware provider. (IVdsHwProviderType.GetProviderType)
 helpviewer_keywords: ["GetProviderType","GetProviderType method [VDS]","GetProviderType method [VDS]","IVdsHwProviderType interface","IVdsHwProviderType interface [VDS]","GetProviderType method","IVdsHwProviderType.GetProviderType","IVdsHwProviderType::GetProviderType","base.ivdshwprovidertype_getprovidertype","vds/IVdsHwProviderType::GetProviderType","vdshwprv/IVdsHwProviderType::GetProviderType"]
 old-location: base\ivdshwprovidertype_getprovidertype.htm
 tech.root: base

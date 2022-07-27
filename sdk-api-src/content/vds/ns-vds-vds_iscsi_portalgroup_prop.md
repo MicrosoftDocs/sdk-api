@@ -1,7 +1,7 @@
 ---
 UID: NS:vds._VDS_ISCSI_PORTALGROUP_PROP
 title: VDS_ISCSI_PORTALGROUP_PROP (vds.h)
-description: Defines the properties of an iSCSI portal group.
+description: Defines the properties of an iSCSI portal group. (VDS_ISCSI_PORTALGROUP_PROP)
 helpviewer_keywords: ["*PVDS_ISCSI_PORTALGROUP_PROP","VDS_ISCSI_PORTALGROUP_PROP","VDS_ISCSI_PORTALGROUP_PROP structure [VDS]","base.vds_iscsi_portalgroup_prop","vds/VDS_ISCSI_PORTALGROUP_PROP","vdshwprv/VDS_ISCSI_PORTALGROUP_PROP"]
 old-location: base\vds_iscsi_portalgroup_prop.htm
 tech.root: base

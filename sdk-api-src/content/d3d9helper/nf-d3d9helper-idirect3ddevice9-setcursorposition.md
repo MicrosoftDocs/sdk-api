@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetCursorPosition
 title: IDirect3DDevice9::SetCursorPosition (d3d9helper.h)
-description: Sets the cursor position and update options.
+description: Sets the cursor position and update options. (IDirect3DDevice9.SetCursorPosition)
 helpviewer_keywords: ["40c9d24c-baf1-aaaf-5f7b-a462b05b36b5","D3DCURSOR_IMMEDIATE_UPDATE","IDirect3DDevice9 interface [Direct3D 9]","SetCursorPosition method","IDirect3DDevice9.SetCursorPosition","IDirect3DDevice9::SetCursorPosition","SetCursorPosition","SetCursorPosition method [Direct3D 9]","SetCursorPosition method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::SetCursorPosition","direct3d9.idirect3ddevice9__setcursorposition"]
 old-location: direct3d9\idirect3ddevice9__setcursorposition.htm
 tech.root: direct3d9

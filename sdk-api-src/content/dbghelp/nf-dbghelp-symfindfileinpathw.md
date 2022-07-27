@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymFindFileInPathW
 title: SymFindFileInPathW function (dbghelp.h)
-description: Locates a symbol file or executable image.
+description: Locates a symbol file or executable image. (SymFindFileInPathW)
 helpviewer_keywords: ["SSRVOPT_DWORD","SSRVOPT_DWORDPTR","SSRVOPT_GUIDPTR","SymFindFileInPath","SymFindFileInPath function","SymFindFileInPathW","_win32_symfindfileinpath","base.symfindfileinpath","dbghelp/SymFindFileInPath","dbghelp/SymFindFileInPathW"]
 old-location: base\symfindfileinpath.htm
 tech.root: Debug

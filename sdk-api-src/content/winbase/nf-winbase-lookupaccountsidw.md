@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.LookupAccountSidW
 title: LookupAccountSidW function (winbase.h)
-description: Accepts a security identifier (SID) as input. It retrieves the name of the account for this SID and the name of the first domain on which this SID is found.
+description: Accepts a security identifier (SID) as input. It retrieves the name of the account for this SID and the name of the first domain on which this SID is found. (Unicode)
 helpviewer_keywords: ["LookupAccountSid","LookupAccountSid function [Security]","LookupAccountSidA","LookupAccountSidW","_win32_lookupaccountsid","security.lookupaccountsid","winbase/LookupAccountSid","winbase/LookupAccountSidA","winbase/LookupAccountSidW"]
 old-location: security\lookupaccountsid.htm
 tech.root: security

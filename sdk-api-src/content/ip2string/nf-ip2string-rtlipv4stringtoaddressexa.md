@@ -4,7 +4,7 @@ tech.root: IpHlp
 title: RtlIpv4StringToAddressExA
 ms.date: 04/14/2021
 targetos: Windows
-description: Converts a string representation of an IPv4 address and port number to a binary IPv4 address and port.
+description: Converts a string representation of an IPv4 address and port number to a binary IPv4 address and port. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

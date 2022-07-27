@@ -1,7 +1,7 @@
 ---
 UID: NF:pdh.PdhConnectMachineW
 title: PdhConnectMachineW function (pdh.h)
-description: Connects to the specified computer.
+description: Connects to the specified computer. (Unicode)
 helpviewer_keywords: ["PdhConnectMachine","PdhConnectMachine function [Perf]","PdhConnectMachineA","PdhConnectMachineW","_win32_pdhconnectmachine","base.pdhconnectmachine","pdh/PdhConnectMachine","pdh/PdhConnectMachineA","pdh/PdhConnectMachineW","perf.pdhconnectmachine"]
 old-location: perf\pdhconnectmachine.htm
 tech.root: perf

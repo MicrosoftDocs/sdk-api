@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1helper.Matrix4x4F.operator-mult
 title: Matrix4x4F::operator-mult (d2d1_1helper.h)
-description: Multiplies this matrix with the specified matrix and returns the result.
+description: Multiplies this matrix with the specified matrix and returns the result.M
 helpviewer_keywords: ["Matrix4x4F interface [Direct2D]","operator* method","Matrix4x4F.operator*","Matrix4x4F.operator-mult","Matrix4x4F::operator*","Matrix4x4F::operator-mult","d2d1_1helper/Matrix4x4F::operator*","direct2d.matrix4x4f_operator_","operator*","operator* method [Direct2D]","operator* method [Direct2D]","Matrix4x4F interface"]
 old-location: direct2d\matrix4x4f_operator_.htm
 tech.root: Direct2D

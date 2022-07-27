@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SendNotifyMessageW
 title: SendNotifyMessageW function (winuser.h)
-description: Sends the specified message to a window or windows.
+description: Sends the specified message to a window or windows. (SendNotifyMessageW)
 helpviewer_keywords: ["SendNotifyMessage","SendNotifyMessage function [Windows and Messages]","SendNotifyMessageA","SendNotifyMessageW","_win32_SendNotifyMessage","_win32_sendnotifymessage_cpp","winmsg.sendnotifymessage","winui._win32_sendnotifymessage","winuser/SendNotifyMessage","winuser/SendNotifyMessageA","winuser/SendNotifyMessageW"]
 old-location: winmsg\sendnotifymessage.htm
 tech.root: winmsg

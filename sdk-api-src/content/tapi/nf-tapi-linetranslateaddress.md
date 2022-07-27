@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineTranslateAddress
 title: lineTranslateAddress function (tapi.h)
-description: The lineTranslateAddress function translates the specified address into another format.
+description: The lineTranslateAddress function translates the specified address into another format. (lineTranslateAddressW)
 helpviewer_keywords: ["_tapi2_linetranslateaddress","lineTranslateAddress","lineTranslateAddress function [TAPI 2.2]","lineTranslateAddressA","lineTranslateAddressW","tapi/lineTranslateAddress","tapi/lineTranslateAddressA","tapi/lineTranslateAddressW","tapi2.linetranslateaddress"]
 old-location: tapi2\linetranslateaddress.htm
 tech.root: tapi3

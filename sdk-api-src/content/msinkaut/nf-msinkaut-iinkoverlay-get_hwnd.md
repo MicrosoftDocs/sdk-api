@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_hWnd
 title: IInkOverlay::get_hWnd (msinkaut.h)
-description: Gets or sets the handle value of the window on which ink is drawn.
+description: Gets or sets the handle value of the window on which ink is drawn. (IInkOverlay.get_hWnd)
 helpviewer_keywords: ["IInkOverlay interface [Tablet PC]","hWnd property","IInkOverlay.get_hWnd","IInkOverlay.hWnd","IInkOverlay::get_hWnd","IInkOverlay::hWnd","IInkOverlay::put_hWnd","InkOverlay.get_hWnd","InkOverlay.put_hWnd","get_hWnd","hWnd property [Tablet PC]","hWnd property [Tablet PC]","IInkOverlay interface","msinkaut/IInkOverlay::get_hWnd","msinkaut/IInkOverlay::hWnd","msinkaut/IInkOverlay::put_hWnd","put_hWnd","tablet.inkoverlay_hwnd"]
 old-location: tablet\inkoverlay_hwnd.htm
 tech.root: tablet

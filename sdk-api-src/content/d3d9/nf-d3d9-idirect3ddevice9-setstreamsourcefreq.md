@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetStreamSourceFreq
 title: IDirect3DDevice9::SetStreamSourceFreq (d3d9.h)
-description: Sets the stream source frequency divider value. This may be used to draw several instances of geometry.
+description: Sets the stream source frequency divider value. This may be used to draw several instances of geometry. (IDirect3DDevice9.SetStreamSourceFreq)
 helpviewer_keywords: ["IDirect3DDevice9 interface [Direct3D 9]","SetStreamSourceFreq method","IDirect3DDevice9.SetStreamSourceFreq","IDirect3DDevice9::SetStreamSourceFreq","SetStreamSourceFreq","SetStreamSourceFreq method [Direct3D 9]","SetStreamSourceFreq method [Direct3D 9]","IDirect3DDevice9 interface","c801693e-69ab-254b-92c2-993cfa9ec78a","d3d9helper/IDirect3DDevice9::SetStreamSourceFreq","direct3d9.idirect3ddevice9__setstreamsourcefreq"]
 old-location: direct3d9\idirect3ddevice9__setstreamsourcefreq.htm
 tech.root: direct3d9

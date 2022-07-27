@@ -1,7 +1,7 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_16
 title: ISCSI_CONNECTION_INFOA (iscsidsc.h)
-description: ISCSI_CONNECTION_INFO structure contains information about a connection.
+description: ISCSI_CONNECTION_INFO structure contains information about a connection. (ANSI)
 helpviewer_keywords: ["*PISCSI_CONNECTION_INFOA","ISCSI_CONNECTION_INFO","ISCSI_CONNECTION_INFO structure [iSCSI Discovery Library API]","ISCSI_CONNECTION_INFOA","ISCSI_CONNECTION_INFOW","PISCSI_CONNECTION_INFO","PISCSI_CONNECTION_INFO structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_connection_info","iscsidsc/ISCSI_CONNECTION_INFO","iscsidsc/ISCSI_CONNECTION_INFOA","iscsidsc/ISCSI_CONNECTION_INFOW","iscsidsc/PISCSI_CONNECTION_INFO"]
 old-location: iscsidisc\iscsi_connection_info.htm
 tech.root: iSCSIDisc

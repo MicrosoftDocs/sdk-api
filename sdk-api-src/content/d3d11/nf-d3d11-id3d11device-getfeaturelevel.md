@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Device.GetFeatureLevel
 title: ID3D11Device::GetFeatureLevel (d3d11.h)
-description: Gets the feature level of the hardware device.
+description: Gets the feature level of the hardware device. (ID3D11Device.GetFeatureLevel)
 helpviewer_keywords: ["956236c4-681b-5005-2e10-fa583bce3b30","GetFeatureLevel","GetFeatureLevel method [Direct3D 11]","GetFeatureLevel method [Direct3D 11]","ID3D11Device interface","ID3D11Device interface [Direct3D 11]","GetFeatureLevel method","ID3D11Device.GetFeatureLevel","ID3D11Device::GetFeatureLevel","d3d11/ID3D11Device::GetFeatureLevel","direct3d11.id3d11device_getfeaturelevel"]
 old-location: direct3d11\id3d11device_getfeaturelevel.htm
 tech.root: direct3d11

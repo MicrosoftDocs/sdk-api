@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3ds.ITAMMediaFormat.put_MediaFormat
 title: ITAMMediaFormat::put_MediaFormat (tapi3ds.h)
-description: The put_MediaFormat method sets the media format.
+description: The put_MediaFormat method sets the media format. (ITAMMediaFormat.put_MediaFormat)
 helpviewer_keywords: ["ITAMMediaFormat interface [TAPI 2.2]","put_MediaFormat method","ITAMMediaFormat.put_MediaFormat","ITAMMediaFormat::put_MediaFormat","_tapi3_itammediaformat_put_mediaformat","put_MediaFormat","put_MediaFormat method [TAPI 2.2]","put_MediaFormat method [TAPI 2.2]","ITAMMediaFormat interface","tapi3.itammediaformat_put_mediaformat","tapi3ds/ITAMMediaFormat::put_MediaFormat"]
 old-location: tapi3\itammediaformat_put_mediaformat.htm
 tech.root: tapi3

@@ -1,7 +1,7 @@
 ---
 UID: NF:dmerror.MAKE_HRESULT
 title: MAKE_HRESULT macro (dmerror.h)
-description: Creates an HRESULT value from its component pieces.
+description: Creates an HRESULT value from its component pieces. (MAKE_HRESULT)
 helpviewer_keywords: ["MAKE_HRESULT","MAKE_HRESULT macro [COM]","_com_MAKE_HRESULT","com.make_hresult","com.make_hresult_macro","dmerror/MAKE_HRESULT"]
 old-location: com\make_hresult_macro.htm
 tech.root: com

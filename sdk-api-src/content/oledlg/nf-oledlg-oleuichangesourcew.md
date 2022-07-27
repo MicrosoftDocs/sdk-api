@@ -1,7 +1,7 @@
 ---
 UID: NF:oledlg.OleUIChangeSourceW
 title: OleUIChangeSourceW function (oledlg.h)
-description: Invokes the Change Source dialog box, allowing the user to change the source of a link.
+description: Invokes the Change Source dialog box, allowing the user to change the source of a link. (Unicode)
 helpviewer_keywords: ["OleUIChangeSource","OleUIChangeSource function [COM]","OleUIChangeSourceA","OleUIChangeSourceW","_ole_OleUIChangeSource","com.oleuichangesource","oledlg/OleUIChangeSource","oledlg/OleUIChangeSourceA","oledlg/OleUIChangeSourceW"]
 old-location: com\oleuichangesource.htm
 tech.root: com

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Fence.SetEventOnCompletion
 title: ID3D12Fence::SetEventOnCompletion (d3d12.h)
-description: Specifies an event that should be fired when the fence reaches a certain value.
+description: Specifies an event that should be fired when the fence reaches a certain value. (ID3D12Fence.SetEventOnCompletion)
 helpviewer_keywords: ["ID3D12Fence interface","SetEventOnCompletion method","ID3D12Fence.SetEventOnCompletion","ID3D12Fence::SetEventOnCompletion","SetEventOnCompletion","SetEventOnCompletion method","SetEventOnCompletion method","ID3D12Fence interface","d3d12/ID3D12Fence::SetEventOnCompletion","direct3d12.id3d12fence_seteventoncompletion"]
 old-location: direct3d12\id3d12fence_seteventoncompletion.htm
 tech.root: direct3d12

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateDxgiSurfaceRenderTarget(IDXGISurface,constD2D1_RENDER_TARGET_PROPERTIES&,ID2D1RenderTarget)
 title: ID2D1Factory::CreateDxgiSurfaceRenderTarget(IDXGISurface,const D2D1_RENDER_TARGET_PROPERTIES &,ID2D1RenderTarget) (d2d1.h)
-description: Creates a render target that draws to a DirectX Graphics Infrastructure (DXGI) surface.
+description: Creates a render target that draws to a DirectX Graphics Infrastructure (DXGI) surface. (overload 1/2)
 helpviewer_keywords: ["CreateDxgiSurfaceRenderTarget","CreateDxgiSurfaceRenderTarget method [Direct2D]","CreateDxgiSurfaceRenderTarget method [Direct2D]","ID2D1Factory interface","ID2D1Factory interface [Direct2D]","CreateDxgiSurfaceRenderTarget method","ID2D1Factory.CreateDxgiSurfaceRenderTarget","ID2D1Factory.CreateDxgiSurfaceRenderTarget(IDXGISurface","const D2D1_RENDER_TARGET_PROPERTIES &","ID2D1RenderTarget)","ID2D1Factory::CreateDxgiSurfaceRenderTarget","ID2D1Factory::CreateDxgiSurfaceRenderTarget(IDXGISurface","const D2D1_RENDER_TARGET_PROPERTIES &","ID2D1RenderTarget)","d2d1/ID2D1Factory::CreateDxgiSurfaceRenderTarget","direct2d.ID2D1Factory_CreateDxgiSurfaceRenderTarget_ptr_IDXGISurface_ref_D2D1_RENDER_TARGET_PROPERTIES_ptr_ptr_ID2D1RenderTarget"]
 old-location: direct2d\ID2D1Factory_CreateDxgiSurfaceRenderTarget_ptr_IDXGISurface_ref_D2D1_RENDER_TARGET_PROPERTIES_ptr_ptr_ID2D1RenderTarget.htm
 tech.root: Direct2D

@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CreateSemaphoreExA
 title: CreateSemaphoreExA function (winbase.h)
-description: Creates or opens a named or unnamed semaphore object and returns a handle to the object.
+description: Creates or opens a named or unnamed semaphore object and returns a handle to the object. (CreateSemaphoreExA)
 helpviewer_keywords: ["CreateSemaphoreExA","CreateSemaphoreExA function","CreateSemaphoreExW","base.createsemaphoreexa","winbase/CreateSemaphoreExA","winbase/CreateSemaphoreExW"]
 old-location: base\createsemaphoreexa.htm
 tech.root: backup

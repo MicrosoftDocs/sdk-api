@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.SetTextFilterSize
 title: ID3D10Device::SetTextFilterSize (d3d10.h)
-description: This method is not implemented.
+description: This method is not implemented. (ID3D10Device.SetTextFilterSize)
 helpviewer_keywords: ["212dab36-4bb8-c796-336c-b8a6e4d0b9e4","ID3D10Device interface [Direct3D 10]","SetTextFilterSize method","ID3D10Device.SetTextFilterSize","ID3D10Device::SetTextFilterSize","SetTextFilterSize","SetTextFilterSize method [Direct3D 10]","SetTextFilterSize method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::SetTextFilterSize","direct3d10.id3d10device_settextfiltersize"]
 old-location: direct3d10\id3d10device_settextfiltersize.htm
 tech.root: direct3d10

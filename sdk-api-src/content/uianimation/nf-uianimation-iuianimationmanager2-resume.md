@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.Resume
 title: IUIAnimationManager2::Resume (uianimation.h)
-description: Resumes all animations.
+description: Resumes all animations. (IUIAnimationManager2.Resume)
 helpviewer_keywords: ["IUIAnimationManager2 interface [Windows Animation]","Resume method","IUIAnimationManager2.Resume","IUIAnimationManager2::Resume","Resume","Resume method [Windows Animation]","Resume method [Windows Animation]","IUIAnimationManager2 interface","uianimation.iuianimationmanager2_resume","uianimation/IUIAnimationManager2::Resume"]
 old-location: uianimation\iuianimationmanager2_resume.htm
 tech.root: UIAnimation

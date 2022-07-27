@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiSetDeviceRegistryPropertyW
 title: SetupDiSetDeviceRegistryPropertyW function (setupapi.h)
-description: The SetupDiSetDeviceRegistryProperty function sets a Plug and Play device property for a device.
+description: The SetupDiSetDeviceRegistryProperty function sets a Plug and Play device property for a device. (Unicode)
 helpviewer_keywords: ["SetupDiSetDeviceRegistryProperty","SetupDiSetDeviceRegistryProperty function [Device and Driver Installation]","SetupDiSetDeviceRegistryPropertyA","SetupDiSetDeviceRegistryPropertyW","devinst.setupdisetdeviceregistryproperty","di-rtns_c3fa27e1-fbc6-4f82-ab1b-cbf3581c54e4.xml","setupapi/SetupDiSetDeviceRegistryProperty"]
 old-location: devinst\setupdisetdeviceregistryproperty.htm
 tech.root: devinst

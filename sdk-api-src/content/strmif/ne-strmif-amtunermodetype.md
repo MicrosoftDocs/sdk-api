@@ -1,7 +1,7 @@
 ---
 UID: NE:strmif.tagAMTunerModeType
 title: AMTunerModeType (strmif.h)
-description: Specifies the frequency of a TV tuner (cable or antenna).
+description: Specifies the frequency of a TV tuner (cable or antenna). (AMTunerModeType)
 helpviewer_keywords: ["AMTUNER_MODE_AM_RADIO","AMTUNER_MODE_DEFAULT","AMTUNER_MODE_DSS","AMTUNER_MODE_FM_RADIO","AMTUNER_MODE_TV","AMTunerModeType","AMTunerModeType enumeration [DirectShow]","AMTunerModeTypeEnumeration","dshow.amtunermodetype","strmif/AMTUNER_MODE_AM_RADIO","strmif/AMTUNER_MODE_DEFAULT","strmif/AMTUNER_MODE_DSS","strmif/AMTUNER_MODE_FM_RADIO","strmif/AMTUNER_MODE_TV","strmif/AMTunerModeType"]
 old-location: dshow\amtunermodetype.htm
 tech.root: dshow

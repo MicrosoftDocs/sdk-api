@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3cc.ITAgentHandler.EnumerateUsableAddresses
 title: ITAgentHandler::EnumerateUsableAddresses (tapi3cc.h)
-description: The EnumerateUsableAddresses method enumerates addresses available for receiving ACD calls on this agent handler.
+description: The EnumerateUsableAddresses method enumerates addresses available for receiving ACD calls on this agent handler. (ITAgentHandler.EnumerateUsableAddresses)
 helpviewer_keywords: ["EnumerateUsableAddresses","EnumerateUsableAddresses method [TAPI 2.2]","EnumerateUsableAddresses method [TAPI 2.2]","ITAgentHandler interface","ITAgentHandler interface [TAPI 2.2]","EnumerateUsableAddresses method","ITAgentHandler.EnumerateUsableAddresses","ITAgentHandler::EnumerateUsableAddresses","_tapi3_itagenthandler_enumerateusableaddresses","tapi3.itagenthandler_enumerateusableaddresses","tapi3cc/ITAgentHandler::EnumerateUsableAddresses"]
 old-location: tapi3\itagenthandler_enumerateusableaddresses.htm
 tech.root: tapi3

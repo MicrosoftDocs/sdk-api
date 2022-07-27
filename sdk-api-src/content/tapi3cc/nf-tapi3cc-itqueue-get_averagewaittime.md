@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3cc.ITQueue.get_AverageWaitTime
 title: ITQueue::get_AverageWaitTime (tapi3cc.h)
-description: The get_AverageWaitTime method gets the average time in the queue (in seconds) for a call during the current measurement period.
+description: The get_AverageWaitTime method gets the average time in the queue (in seconds) for a call during the current measurement period. (ITQueue.get_AverageWaitTime)
 helpviewer_keywords: ["ITQueue interface [TAPI 2.2]","get_AverageWaitTime method","ITQueue.get_AverageWaitTime","ITQueue::get_AverageWaitTime","_tapi3_itqueue_get_averagewaittime","get_AverageWaitTime","get_AverageWaitTime method [TAPI 2.2]","get_AverageWaitTime method [TAPI 2.2]","ITQueue interface","tapi3.itqueue_get_averagewaittime","tapi3cc/ITQueue::get_AverageWaitTime"]
 old-location: tapi3\itqueue_get_averagewaittime.htm
 tech.root: tapi3

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IEmailAction.get_Subject
 title: IEmailAction::get_Subject (taskschd.h)
-description: Gets or sets the subject of the email message.
+description: Gets or sets the subject of the email message. (Get)
 helpviewer_keywords: ["IEmailAction interface [Task Scheduler]","Subject property","IEmailAction.Subject","IEmailAction.get_Subject","IEmailAction::Subject","IEmailAction::get_Subject","IEmailAction::put_Subject","Subject property [Task Scheduler]","Subject property [Task Scheduler]","IEmailAction interface","get_Subject","taskschd.iemailaction_subject","taskschd/IEmailAction::Subject","taskschd/IEmailAction::get_Subject","taskschd/IEmailAction::put_Subject"]
 old-location: taskschd\iemailaction_subject.htm
 tech.root: taskschd

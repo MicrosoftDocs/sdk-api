@@ -1,7 +1,7 @@
 ---
 UID: NN:tapi3cc.IEnumAgent
 title: IEnumAgent (tapi3cc.h)
-description: Enumerator interface for ITAgent.
+description: Enumerator interface for ITAgent. (IEnumAgent)
 helpviewer_keywords: ["IEnumAgent","IEnumAgent interface [TAPI 2.2]","IEnumAgent interface [TAPI 2.2]","described","_tapi3_ienumagent","tapi3.ienumagent","tapi3cc/IEnumAgent"]
 old-location: tapi3\ienumagent.htm
 tech.root: tapi3

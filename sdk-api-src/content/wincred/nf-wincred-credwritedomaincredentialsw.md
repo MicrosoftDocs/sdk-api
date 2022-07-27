@@ -1,7 +1,7 @@
 ---
 UID: NF:wincred.CredWriteDomainCredentialsW
 title: CredWriteDomainCredentialsW function (wincred.h)
-description: Writes domain credentials to the user's credential set.
+description: Writes domain credentials to the user's credential set. (Unicode)
 helpviewer_keywords: ["CRED_PRESERVE_CREDENTIAL_BLOB","CredWriteDomainCredentials","CredWriteDomainCredentials function [Security]","CredWriteDomainCredentialsA","CredWriteDomainCredentialsW","_cred_credwritedomaincredentials","security.credwritedomaincredentials","wincred/CredWriteDomainCredentials","wincred/CredWriteDomainCredentialsA","wincred/CredWriteDomainCredentialsW"]
 old-location: security\credwritedomaincredentials.htm
 tech.root: security

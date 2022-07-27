@@ -1,7 +1,7 @@
 ---
 UID: NF:ip2string.RtlIpv4AddressToStringW
 title: RtlIpv4AddressToStringW function (ip2string.h)
-description: Converts an IPv4 address to a string in Internet standard dotted-decimal format.
+description: Converts an IPv4 address to a string in Internet standard dotted-decimal format. (Unicode)
 helpviewer_keywords: ["RtlIpv4AddressToString","RtlIpv4AddressToString function [IP Helper]","RtlIpv4AddressToStringA","RtlIpv4AddressToStringW","ip2string/RtlIpv4AddressToString","ip2string/RtlIpv4AddressToStringA","ip2string/RtlIpv4AddressToStringW","iphlp.rtlipv4addresstostring"]
 old-location: iphlp\rtlipv4addresstostring.htm
 tech.root: IpHlp

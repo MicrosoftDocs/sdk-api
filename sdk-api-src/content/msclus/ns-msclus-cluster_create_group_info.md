@@ -1,7 +1,7 @@
 ---
 UID: NS:msclus._CLUSTER_CREATE_GROUP_INFO
 title: CLUSTER_CREATE_GROUP_INFO (msclus.h)
-description: Allows the caller to provide additional properties when creating a new group.
+description: Allows the caller to provide additional properties when creating a new group. (CLUSTER_CREATE_GROUP_INFO)
 helpviewer_keywords: ["*PCLUSTER_CREATE_GROUP_INFO","CLUSTER_CREATE_GROUP_INFO","CLUSTER_CREATE_GROUP_INFO structure [Failover Cluster]","PCLUSTER_CREATE_GROUP_INFO","PCLUSTER_CREATE_GROUP_INFO structure pointer [Failover Cluster]","_CLUSTER_CREATE_GROUP_INFO","_CLUSTER_CREATE_GROUP_INFO structure [Failover Cluster]","clusapi/CLUSTER_CREATE_GROUP_INFO","clusapi/PCLUSTER_CREATE_GROUP_INFO","clusapi/_CLUSTER_CREATE_GROUP_INFO","msclus/CLUSTER_CREATE_GROUP_INFO","msclus/PCLUSTER_CREATE_GROUP_INFO","msclus/_CLUSTER_CREATE_GROUP_INFO","mscs.cluster_create_group_info"]
 old-location: mscs\cluster_create_group_info.htm
 tech.root: MsCS

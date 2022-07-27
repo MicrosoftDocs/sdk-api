@@ -1,7 +1,7 @@
 ---
 UID: NF:strsafe.StringCbCatExW
 title: StringCbCatExW function (strsafe.h)
-description: Concatenates one string to another string.
+description: Concatenates one string to another string. (StringCbCatExW)
 helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCbCatEx","StringCbCatEx function [Menus and Other Resources]","StringCbCatExA","StringCbCatExW","_shell_StringCbCatEx","_shell_stringcbcatex_cpp","menurc.stringcbcatex","strsafe/StringCbCatEx","strsafe/StringCbCatExA","strsafe/StringCbCatExW","winui._shell_stringcbcatex"]
 old-location: menurc\stringcbcatex.htm
 tech.root: menurc

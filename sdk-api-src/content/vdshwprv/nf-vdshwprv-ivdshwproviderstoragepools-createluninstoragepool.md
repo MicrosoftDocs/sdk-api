@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsHwProviderStoragePools.CreateLunInStoragePool
 title: IVdsHwProviderStoragePools::CreateLunInStoragePool (vdshwprv.h)
-description: Creates a LUN in a storage pool.
+description: Creates a LUN in a storage pool. (IVdsHwProviderStoragePools.CreateLunInStoragePool)
 helpviewer_keywords: ["CreateLunInStoragePool","CreateLunInStoragePool method","CreateLunInStoragePool method","IVdsHwProviderStoragePools interface","IVdsHwProviderStoragePools interface","CreateLunInStoragePool method","IVdsHwProviderStoragePools.CreateLunInStoragePool","IVdsHwProviderStoragePools::CreateLunInStoragePool","base.ivdshwproviderstoragepools_createluninstoragepool","vds/IVdsHwProviderStoragePools::CreateLunInStoragePool","vdshwprv/IVdsHwProviderStoragePools::CreateLunInStoragePool"]
 old-location: base\ivdshwproviderstoragepools_createluninstoragepool.htm
 tech.root: base

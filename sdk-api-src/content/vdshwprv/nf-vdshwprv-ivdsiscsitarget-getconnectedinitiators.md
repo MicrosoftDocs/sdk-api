@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiTarget.GetConnectedInitiators
 title: IVdsIscsiTarget::GetConnectedInitiators (vdshwprv.h)
-description: Returns the list of iSCSI names of the initiators currently logged into the target.
+description: Returns the list of iSCSI names of the initiators currently logged into the target. (IVdsIscsiTarget.GetConnectedInitiators)
 helpviewer_keywords: ["GetConnectedInitiators","GetConnectedInitiators method [VDS]","GetConnectedInitiators method [VDS]","IVdsIscsiTarget interface","IVdsIscsiTarget interface [VDS]","GetConnectedInitiators method","IVdsIscsiTarget.GetConnectedInitiators","IVdsIscsiTarget::GetConnectedInitiators","base.ivdsiscsitarget_getconnectedinitiators","vds/IVdsIscsiTarget::GetConnectedInitiators","vdshwprv/IVdsIscsiTarget::GetConnectedInitiators"]
 old-location: base\ivdsiscsitarget_getconnectedinitiators.htm
 tech.root: base

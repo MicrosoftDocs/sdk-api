@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.FindDebugInfoFileExW
 title: FindDebugInfoFileExW function (dbghelp.h)
-description: Locates the specified debug (.dbg) file.
+description: Locates the specified debug (.dbg) file. (FindDebugInfoFileExW)
 helpviewer_keywords: ["FindDebugInfoFileEx","FindDebugInfoFileEx function","FindDebugInfoFileExW","_win32_finddebuginfofileex","base.finddebuginfofileex","dbghelp/FindDebugInfoFileEx","dbghelp/FindDebugInfoFileExW"]
 old-location: base\finddebuginfofileex.htm
 tech.root: Debug

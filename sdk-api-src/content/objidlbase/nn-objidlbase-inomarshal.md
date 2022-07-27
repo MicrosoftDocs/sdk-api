@@ -1,7 +1,7 @@
 ---
 UID: NN:objidlbase.INoMarshal
 title: INoMarshal (objidlbase.h)
-description: Marks an object that doesn't support being marshaled or stored in the Global Interface Table.
+description: Marks an object that doesn't support being marshaled or stored in the Global Interface Table. (INoMarshal)
 helpviewer_keywords: ["INoMarshal","INoMarshal interface [COM]","INoMarshal interface [COM]","described","com.inomarshal","objidl/INoMarshal"]
 old-location: com\inomarshal.htm
 tech.root: com

@@ -1,7 +1,7 @@
 ---
 UID: NF:winsvc.RegisterServiceCtrlHandlerExA
 title: RegisterServiceCtrlHandlerExA function (winsvc.h)
-description: Registers a function to handle extended service control requests.
+description: Registers a function to handle extended service control requests. (ANSI)
 helpviewer_keywords: ["RegisterServiceCtrlHandlerEx","RegisterServiceCtrlHandlerEx function","RegisterServiceCtrlHandlerExA","RegisterServiceCtrlHandlerExW","_win32_registerservicectrlhandlerex","base.registerservicectrlhandlerex","winsvc/RegisterServiceCtrlHandlerEx","winsvc/RegisterServiceCtrlHandlerExA","winsvc/RegisterServiceCtrlHandlerExW"]
 old-location: base\registerservicectrlhandlerex.htm
 tech.root: security

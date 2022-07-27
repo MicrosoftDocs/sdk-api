@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiReinstallFeatureW
 title: MsiReinstallFeatureW function (msi.h)
-description: Reinstalls features.
+description: Reinstalls features. (Unicode)
 helpviewer_keywords: ["MsiReinstallFeature","MsiReinstallFeature function","MsiReinstallFeatureA","MsiReinstallFeatureW","REINSTALLMODE_FILEEQUALVERSION","REINSTALLMODE_FILEEXACT","REINSTALLMODE_FILEMISSING","REINSTALLMODE_FILEOLDERVERSION","REINSTALLMODE_FILEREPLACE","REINSTALLMODE_FILEVERIFY","REINSTALLMODE_MACHINEDATA","REINSTALLMODE_PACKAGE","REINSTALLMODE_SHORTCUT","REINSTALLMODE_USERDATA","_msi_msireinstallfeature","msi/MsiReinstallFeature","msi/MsiReinstallFeatureA","msi/MsiReinstallFeatureW","setup.msireinstallfeature"]
 old-location: setup\msireinstallfeature.htm
 tech.root: setup

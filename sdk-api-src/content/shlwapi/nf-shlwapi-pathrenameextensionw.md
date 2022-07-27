@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathRenameExtensionW
 title: PathRenameExtensionW function (shlwapi.h)
-description: Replaces the extension of a file name with a new extension. If the file name does not contain an extension, the extension will be attached to the end of the string.
+description: Replaces the extension of a file name with a new extension. If the file name does not contain an extension, the extension will be attached to the end of the string. (Unicode)
 helpviewer_keywords: ["PathRenameExtension","PathRenameExtension function [Windows Shell]","PathRenameExtensionA","PathRenameExtensionW","_win32_PathRenameExtension","shell.PathRenameExtension","shlwapi/PathRenameExtension","shlwapi/PathRenameExtensionA","shlwapi/PathRenameExtensionW"]
 old-location: shell\PathRenameExtension.htm
 tech.root: shell

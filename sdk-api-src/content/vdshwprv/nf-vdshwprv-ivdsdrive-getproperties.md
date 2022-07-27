@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsDrive.GetProperties
 title: IVdsDrive::GetProperties (vdshwprv.h)
-description: Returns the properties of a drive object.
+description: Returns the properties of a drive object. (IVdsDrive.GetProperties)
 helpviewer_keywords: ["GetProperties","GetProperties method [VDS]","GetProperties method [VDS]","IVdsDrive interface","IVdsDrive interface [VDS]","GetProperties method","IVdsDrive.GetProperties","IVdsDrive::GetProperties","base.ivdsdrive_getproperties","vds/IVdsDrive::GetProperties","vdshwprv/IVdsDrive::GetProperties"]
 old-location: base\ivdsdrive_getproperties.htm
 tech.root: base

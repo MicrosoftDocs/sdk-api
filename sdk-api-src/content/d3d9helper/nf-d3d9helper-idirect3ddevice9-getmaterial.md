@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetMaterial
 title: IDirect3DDevice9::GetMaterial (d3d9helper.h)
-description: Retrieves the current material properties for the device.
+description: Retrieves the current material properties for the device. (IDirect3DDevice9.GetMaterial)
 helpviewer_keywords: ["47d4ab4d-62cb-0012-9d9d-20e1cadba8c4","GetMaterial","GetMaterial method [Direct3D 9]","GetMaterial method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetMaterial method","IDirect3DDevice9.GetMaterial","IDirect3DDevice9::GetMaterial","d3d9helper/IDirect3DDevice9::GetMaterial","direct3d9.idirect3ddevice9__getmaterial"]
 old-location: direct3d9\idirect3ddevice9__getmaterial.htm
 tech.root: direct3d9

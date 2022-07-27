@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IAlertDataCollector.get_Task
 title: IAlertDataCollector::get_Task (pla.h)
-description: Retrieves or sets the name of a Task Scheduler job to start each time the counter value crosses the threshold.
+description: Retrieves or sets the name of a Task Scheduler job to start each time the counter value crosses the threshold. (Get)
 helpviewer_keywords: ["IAlertDataCollector interface [PLA]","Task property","IAlertDataCollector.Task","IAlertDataCollector.get_Task","IAlertDataCollector::Task","IAlertDataCollector::get_Task","IAlertDataCollector::put_Task","Task property [PLA]","Task property [PLA]","IAlertDataCollector interface","base.ialertdatacollector_task","get_Task","pla.ialertdatacollector_task","pla/IAlertDataCollector::Task","pla/IAlertDataCollector::get_Task","pla/IAlertDataCollector::put_Task"]
 old-location: pla\ialertdatacollector_task.htm
 tech.root: PLA

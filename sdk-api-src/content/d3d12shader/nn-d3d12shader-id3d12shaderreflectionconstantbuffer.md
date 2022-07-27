@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12shader.ID3D12ShaderReflectionConstantBuffer
 title: ID3D12ShaderReflectionConstantBuffer (d3d12shader.h)
-description: This shader-reflection interface provides access to a constant buffer.
+description: This shader-reflection interface provides access to a constant buffer. (ID3D12ShaderReflectionConstantBuffer)
 helpviewer_keywords: ["ID3D12ShaderReflectionConstantBuffer","ID3D12ShaderReflectionConstantBuffer interface","ID3D12ShaderReflectionConstantBuffer interface","described","d3d12shader/ID3D12ShaderReflectionConstantBuffer","direct3d12.id3d12shaderreflectionconstantbuffer"]
 old-location: direct3d12\id3d12shaderreflectionconstantbuffer.htm
 tech.root: direct3d12

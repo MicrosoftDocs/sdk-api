@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxSecurity2.get_InformationType
 title: IFaxSecurity2::get_InformationType (faxcomex.h)
-description: Retrieves the security information type.
+description: Retrieves the security information type. (Get)
 helpviewer_keywords: ["IFaxSecurity2 interface [Fax Service]","InformationType property","IFaxSecurity2.InformationType","IFaxSecurity2.get_InformationType","IFaxSecurity2.put_InformationType","IFaxSecurity2::InformationType","IFaxSecurity2::get_InformationType","IFaxSecurity2::put_InformationType","InformationType property [Fax Service]","InformationType property [Fax Service]","IFaxSecurity2 interface","_mfax_faxsecurity2.informationtype","fax._mfax_faxsecurity2_cpp_mfax_faxsecurity2_informationtype_cpp","fax._mfax_faxsecurity2_informationtype","faxcomex/IFaxSecurity2::InformationType","faxcomex/IFaxSecurity2::get_InformationType","faxcomex/IFaxSecurity2::put_InformationType","get_InformationType"]
 old-location: fax\_mfax_faxsecurity2_cpp_mfax_faxsecurity2_informationtype_cpp.htm
 tech.root: Fax

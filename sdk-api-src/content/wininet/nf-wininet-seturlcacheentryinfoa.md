@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.SetUrlCacheEntryInfoA
 title: SetUrlCacheEntryInfoA function (wininet.h)
-description: Sets the specified members of the INTERNET_CACHE_ENTRY_INFO structure.
+description: Sets the specified members of the INTERNET_CACHE_ENTRY_INFO structure. (ANSI)
 helpviewer_keywords: ["SetUrlCacheEntryInfo","SetUrlCacheEntryInfo function [WinINet]","SetUrlCacheEntryInfoA","SetUrlCacheEntryInfoW","_inet_seturlcacheentryinfo_function","wininet.seturlcacheentryinfo","wininet/SetUrlCacheEntryInfo","wininet/SetUrlCacheEntryInfoA","wininet/SetUrlCacheEntryInfoW"]
 old-location: wininet\seturlcacheentryinfo.htm
 tech.root: wininet

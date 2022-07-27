@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.graphics.holographic.interop.IHolographicQuadLayerInterop.AcquireDirect3D12BufferResourceWithTimeout
 title: IHolographicQuadLayerInterop::AcquireDirect3D12BufferResourceWithTimeout
-description: Acquires a Direct3D 12 buffer resource, with an optional timeout.
+description: Acquires a Direct3D 12 buffer resource, with an optional timeout.I
 tech.root: direct3d12
 ms.date: 12/12/2019
 targetos: Windows

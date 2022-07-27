@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzTask.put_BizRule
 title: IAzTask::put_BizRule (azroles.h)
-description: Sets or retrieves the text of the script that implements the business rule (BizRule).
+description: Sets or retrieves the text of the script that implements the business rule (BizRule). (Put)
 helpviewer_keywords: ["AzTask object [Security]","BizRule property","BizRule property [Security]","BizRule property [Security]","AzTask object","BizRule property [Security]","IAzTask interface","IAzTask interface [Security]","BizRule property","IAzTask.BizRule","IAzTask.put_BizRule","IAzTask::BizRule","IAzTask::get_BizRule","IAzTask::put_BizRule","azroles/IAzTask::BizRule","azroles/IAzTask::get_BizRule","azroles/IAzTask::put_BizRule","put_BizRule","security.iaztask_bizrule"]
 old-location: security\iaztask_bizrule.htm
 tech.root: security

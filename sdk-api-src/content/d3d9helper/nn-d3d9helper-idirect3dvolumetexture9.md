@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d9helper.IDirect3DVolumeTexture9
 title: IDirect3DVolumeTexture9 (d3d9helper.h)
-description: Applications use the methods of the IDirect3DVolumeTexture9 interface to manipulate a volume texture resource.
+description: Applications use the methods of the IDirect3DVolumeTexture9 interface to manipulate a volume texture resource. (IDirect3DVolumeTexture9)
 helpviewer_keywords: ["IDirect3DVolumeTexture9","IDirect3DVolumeTexture9 interface [Direct3D 9]","IDirect3DVolumeTexture9 interface [Direct3D 9]","described","ac7e332f-4255-e077-7804-d9a2e2476d37","d3d9helper/IDirect3DVolumeTexture9","direct3d9.idirect3dvolumetexture9"]
 old-location: direct3d9\idirect3dvolumetexture9.htm
 tech.root: direct3d9

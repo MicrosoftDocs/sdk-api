@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.MoveEndpointByRange
 title: ITextRangeProvider::MoveEndpointByRange (uiautomationcore.h)
-description: Moves one endpoint of the current text range to the specified endpoint of a second text range.
+description: Moves one endpoint of the current text range to the specified endpoint of a second text range. (ITextRangeProvider.MoveEndpointByRange)
 helpviewer_keywords: ["ITextRangeProvider interface [Windows Accessibility]","MoveEndpointByRange method","ITextRangeProvider.MoveEndpointByRange","ITextRangeProvider::MoveEndpointByRange","MoveEndpointByRange","MoveEndpointByRange method [Windows Accessibility]","MoveEndpointByRange method [Windows Accessibility]","ITextRangeProvider interface","uiauto.uiauto_ITextRangeProvider_MoveEndpointByRange","uiauto_ITextRangeProvider_MoveEndpointByRange","uiautomationcore/ITextRangeProvider::MoveEndpointByRange","winauto.uiauto_ITextRangeProvider_MoveEndpointByRange"]
 old-location: winauto\uiauto_ITextRangeProvider_MoveEndpointByRange.htm
 tech.root: WinAuto

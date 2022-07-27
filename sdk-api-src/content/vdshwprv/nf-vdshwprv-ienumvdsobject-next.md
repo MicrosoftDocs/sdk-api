@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IEnumVdsObject.Next
 title: IEnumVdsObject::Next (vdshwprv.h)
-description: Returns a specified number of objects in the enumeration, beginning from the current point. For more information, see Working with Enumeration Objects.
+description: Returns a specified number of objects in the enumeration, beginning from the current point. For more information, see Working with Enumeration Objects. (IEnumVdsObject.Next)
 helpviewer_keywords: ["IEnumVdsObject interface [VDS]","Next method","IEnumVdsObject.Next","IEnumVdsObject::Next","Next","Next method [VDS]","Next method [VDS]","IEnumVdsObject interface","base.ienumvdsobject_next","vds/IEnumVdsObject::Next","vdshwprv/IEnumVdsObject::Next"]
 old-location: base\ienumvdsobject_next.htm
 tech.root: base

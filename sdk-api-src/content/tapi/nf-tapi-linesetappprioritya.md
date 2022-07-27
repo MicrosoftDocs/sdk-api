@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineSetAppPriorityA
 title: lineSetAppPriorityA function (tapi.h)
-description: Enables an application to set its priority in the handoff priority list for a particular media type or Assisted Telephony request mode, or to remove itself from the priority list.
+description: Enables an application to set its priority in the handoff priority list for a particular media type or Assisted Telephony request mode, or to remove itself from the priority list. (lineSetAppPriorityA)
 helpviewer_keywords: ["_tapi2_linesetapppriority","lineSetAppPriority","lineSetAppPriority function [TAPI 2.2]","lineSetAppPriorityA","lineSetAppPriorityW","tapi/lineSetAppPriority","tapi/lineSetAppPriorityA","tapi/lineSetAppPriorityW","tapi2.linesetapppriority"]
 old-location: tapi2\linesetapppriority.htm
 tech.root: tapi3

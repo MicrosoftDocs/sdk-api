@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.RSSetViewports
 title: ID3D12GraphicsCommandList::RSSetViewports (d3d12.h)
-description: Bind an array of viewports to the rasterizer stage of the pipeline.
+description: Bind an array of viewports to the rasterizer stage of the pipeline. (ID3D12GraphicsCommandList.RSSetViewports)
 helpviewer_keywords: ["ID3D12GraphicsCommandList interface","RSSetViewports method","ID3D12GraphicsCommandList.RSSetViewports","ID3D12GraphicsCommandList::RSSetViewports","RSSetViewports","RSSetViewports method","RSSetViewports method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::RSSetViewports","direct3d12.id3d12graphicscommandlist_rssetviewports"]
 old-location: direct3d12\id3d12graphicscommandlist_rssetviewports.htm
 tech.root: direct3d12

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHFormatDateTimeW
 title: SHFormatDateTimeW function (shlwapi.h)
-description: SHFormatDateTime may be altered or unavailable.
+description: SHFormatDateTime may be altered or unavailable. (Unicode)
 helpviewer_keywords: ["FDTF_DEFAULT","FDTF_LONGDATE","FDTF_LONGTIME","FDTF_LTRDATE","FDTF_NOAUTOREADINGORDER","FDTF_RELATIVE","FDTF_RTLDATE","FDTF_SHORTDATE","FDTF_SHORTTIME","SHFormatDateTime","SHFormatDateTime function [Windows Shell]","SHFormatDateTimeA","SHFormatDateTimeW","_win32_SHFormatDateTime","shell.SHFormatDateTime","shlwapi/SHFormatDateTime","shlwapi/SHFormatDateTimeA","shlwapi/SHFormatDateTimeW"]
 old-location: shell\SHFormatDateTime.htm
 tech.root: shell

@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.AbortSystemShutdownA
 title: AbortSystemShutdownA function (winreg.h)
-description: Stops a system shutdown that has been initiated.
+description: Stops a system shutdown that has been initiated. (ANSI)
 helpviewer_keywords: ["AbortSystemShutdown","AbortSystemShutdown function","AbortSystemShutdownA","AbortSystemShutdownW","_win32_abortsystemshutdown","base.abortsystemshutdown","winreg/AbortSystemShutdown","winreg/AbortSystemShutdownA","winreg/AbortSystemShutdownW"]
 old-location: base\abortsystemshutdown.htm
 tech.root: base

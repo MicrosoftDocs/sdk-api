@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortal.SetIpsecSecurity
 title: IVdsIscsiPortal::SetIpsecSecurity (vdshwprv.h)
-description: Not supported.This method is reserved for future use.
+description: Not supported.This method is reserved for future use. (IVdsIscsiPortal.SetIpsecSecurity)
 helpviewer_keywords: ["IVdsIscsiPortal interface [VDS]","SetIpsecSecurity method","IVdsIscsiPortal.SetIpsecSecurity","IVdsIscsiPortal::SetIpsecSecurity","SetIpsecSecurity","SetIpsecSecurity method [VDS]","SetIpsecSecurity method [VDS]","IVdsIscsiPortal interface","base.ivdsiscsiportal_setipsecsecurity","vds/IVdsIscsiPortal::SetIpsecSecurity","vdshwprv/IVdsIscsiPortal::SetIpsecSecurity"]
 old-location: base\ivdsiscsiportal_setipsecsecurity.htm
 tech.root: base

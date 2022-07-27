@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.IsBadStringPtrW
 title: IsBadStringPtrW function (winbase.h)
-description: Verifies that the calling process has read access to the specified range of memory.
+description: Verifies that the calling process has read access to the specified range of memory. (IsBadStringPtrW)
 helpviewer_keywords: ["IsBadStringPtr","IsBadStringPtr function","IsBadStringPtrA","IsBadStringPtrW","_win32_isbadstringptr","base.isbadstringptr","winbase/IsBadStringPtr","winbase/IsBadStringPtrA","winbase/IsBadStringPtrW"]
 old-location: base\isbadstringptr.htm
 tech.root: base

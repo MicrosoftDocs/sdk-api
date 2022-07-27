@@ -1,7 +1,7 @@
 ---
 UID: NF:ntmsapi.CreateNtmsMediaPoolW
 title: CreateNtmsMediaPoolW function (ntmsapi.h)
-description: The CreateNtmsMediaPool function creates a new application media pool.
+description: The CreateNtmsMediaPool function creates a new application media pool. (CreateNtmsMediaPoolW)
 helpviewer_keywords: ["CreateNtmsMediaPool","CreateNtmsMediaPool function [Files]","CreateNtmsMediaPoolA","CreateNtmsMediaPoolW","NTMS_CREATE_NEW","NTMS_OPEN_ALWAYS","NTMS_OPEN_EXISTING","_zaw_createntmsmediapool","base.createntmsmediapool","fs.createntmsmediapool","ntmsapi/CreateNtmsMediaPool","ntmsapi/CreateNtmsMediaPoolA","ntmsapi/CreateNtmsMediaPoolW"]
 old-location: fs\createntmsmediapool.htm
 tech.root: fs

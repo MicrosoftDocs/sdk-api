@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.get_Source
 title: IRegistrationInfo::get_Source (taskschd.h)
-description: Gets or sets where the task originated from. For example, a task may originate from a component, service, application, or user.
+description: Gets or sets where the task originated from. For example, a task may originate from a component, service, application, or user. (Get)
 helpviewer_keywords: ["IRegistrationInfo interface [Task Scheduler]","Source property","IRegistrationInfo.Source","IRegistrationInfo.get_Source","IRegistrationInfo::Source","IRegistrationInfo::get_Source","IRegistrationInfo::put_Source","Source property [Task Scheduler]","Source property [Task Scheduler]","IRegistrationInfo interface","get_Source","taskschd.iregistrationinfo_source","taskschd/IRegistrationInfo::Source","taskschd/IRegistrationInfo::get_Source","taskschd/IRegistrationInfo::put_Source"]
 old-location: taskschd\iregistrationinfo_source.htm
 tech.root: taskschd

@@ -1,7 +1,7 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_LocalRevocationInformation
 title: IOCSPCAConfiguration::get_LocalRevocationInformation (certadm.h)
-description: Gets or sets the certificate revocation list (CRL) of the local machine.
+description: Gets or sets the certificate revocation list (CRL) of the local machine. (Get)
 helpviewer_keywords: ["IOCSPCAConfiguration interface [Security]","LocalRevocationInformation property","IOCSPCAConfiguration.LocalRevocationInformation","IOCSPCAConfiguration.get_LocalRevocationInformation","IOCSPCAConfiguration::LocalRevocationInformation","IOCSPCAConfiguration::get_LocalRevocationInformation","IOCSPCAConfiguration::put_LocalRevocationInformation","LocalRevocationInformation property [Security]","LocalRevocationInformation property [Security]","IOCSPCAConfiguration interface","certadm/IOCSPCAConfiguration::LocalRevocationInformation","certadm/IOCSPCAConfiguration::get_LocalRevocationInformation","certadm/IOCSPCAConfiguration::put_LocalRevocationInformation","get_LocalRevocationInformation","security.iocspcaconfiguration_localrevocationinformation"]
 old-location: security\iocspcaconfiguration_localrevocationinformation.htm
 tech.root: security

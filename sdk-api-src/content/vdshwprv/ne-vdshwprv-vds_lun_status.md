@@ -1,7 +1,7 @@
 ---
 UID: NE:vdshwprv._VDS_LUN_STATUS
 title: VDS_LUN_STATUS (vdshwprv.h)
-description: Defines the set of object status values for a LUN.
+description: Defines the set of object status values for a LUN. (VDS_LUN_STATUS)
 helpviewer_keywords: ["*PVDS_LUN_STATUS","VDS_LS_FAILED","VDS_LS_NOT_READY","VDS_LS_OFFLINE","VDS_LS_ONLINE","VDS_LS_UNKNOWN","VDS_LUN_STATUS","VDS_LUN_STATUS enumeration [VDS]","base.vds_lun_status","vds/VDS_LS_FAILED","vds/VDS_LS_NOT_READY","vds/VDS_LS_OFFLINE","vds/VDS_LS_ONLINE","vds/VDS_LS_UNKNOWN","vds/VDS_LUN_STATUS","vdshwprv/VDS_LS_FAILED","vdshwprv/VDS_LS_NOT_READY","vdshwprv/VDS_LS_OFFLINE","vdshwprv/VDS_LS_ONLINE","vdshwprv/VDS_LS_UNKNOWN","vdshwprv/VDS_LUN_STATUS"]
 old-location: base\vds_lun_status.htm
 tech.root: base

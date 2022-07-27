@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsControllerPort.QueryAssociatedLuns
 title: IVdsControllerPort::QueryAssociatedLuns (vds.h)
-description: Returns an enumeration of the LUNs with which the controller port is associated�the LUNs for which the controller is active. This method replaces IVdsController::QueryAssociatedLuns.
+description: Returns an enumeration of the LUNs with which the controller port is associated�the LUNs for which the controller is active. This method replaces IVdsController::QueryAssociatedLuns. (IVdsControllerPort.QueryAssociatedLuns)
 helpviewer_keywords: ["IVdsControllerPort interface [VDS]","QueryAssociatedLuns method","IVdsControllerPort.QueryAssociatedLuns","IVdsControllerPort::QueryAssociatedLuns","QueryAssociatedLuns","QueryAssociatedLuns method [VDS]","QueryAssociatedLuns method [VDS]","IVdsControllerPort interface","base.ivdscontrollerport_queryassociatedluns","vds/IVdsControllerPort::QueryAssociatedLuns","vdshwprv/IVdsControllerPort::QueryAssociatedLuns"]
 old-location: base\ivdscontrollerport_queryassociatedluns.htm
 tech.root: base

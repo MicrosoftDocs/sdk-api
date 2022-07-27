@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CreateActCtxW
 title: CreateActCtxW function (winbase.h)
-description: The CreateActCtx function creates an activation context.
+description: The CreateActCtx function creates an activation context. (Unicode)
 helpviewer_keywords: ["CreateActCtx","CreateActCtx function [Side-by-side Assemblies]","CreateActCtxA","CreateActCtxW","_win32_createactctx","setup.createactctx","winbase/CreateActCtx","winbase/CreateActCtxA","winbase/CreateActCtxW"]
 old-location: setup\createactctx.htm
 tech.root: setup

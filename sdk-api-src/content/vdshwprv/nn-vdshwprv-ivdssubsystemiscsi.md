@@ -1,7 +1,7 @@
 ---
 UID: NN:vdshwprv.IVdsSubSystemIscsi
 title: IVdsSubSystemIscsi (vdshwprv.h)
-description: Provides methods to query and configure iSCSI targets and portals on a subsystem.
+description: Provides methods to query and configure iSCSI targets and portals on a subsystem. (IVdsSubSystemIscsi)
 helpviewer_keywords: ["IVdsSubSystemIscsi","IVdsSubSystemIscsi interface [VDS]","IVdsSubSystemIscsi interface [VDS]","described","base.ivdssubsystemiscsi","vds/IVdsSubSystemIscsi","vdshwprv/IVdsSubSystemIscsi"]
 old-location: base\ivdssubsystemiscsi.htm
 tech.root: base

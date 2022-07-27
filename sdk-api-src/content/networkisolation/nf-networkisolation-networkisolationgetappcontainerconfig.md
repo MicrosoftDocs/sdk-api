@@ -1,7 +1,7 @@
 ---
 UID: NF:networkisolation.NetworkIsolationGetAppContainerConfig
 title: NetworkIsolationGetAppContainerConfig function (networkisolation.h)
-description: Is used to retrieve configuration information about one or more app containers.
+description: Is used to retrieve configuration information about one or more app containers. (NetworkIsolationGetAppContainerConfig)
 helpviewer_keywords: ["NetworkIsolationGetAppContainerConfig","NetworkIsolationGetAppContainerConfig function [ICS/ICF]","ics.networkisolationgetappcontainerconfig","networkisolation/NetworkIsolationGetAppContainerConfig"]
 old-location: ics\networkisolationgetappcontainerconfig.htm
 tech.root: ics

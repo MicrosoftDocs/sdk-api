@@ -1,7 +1,7 @@
 ---
 UID: NS:immdev.tagIMEMENUITEMINFOW
 title: IMEMENUITEMINFOW (immdev.h)
-description: Contains information about IME menu items.
+description: Contains information about IME menu items. (IMEMENUITEMINFOW)
 helpviewer_keywords: ["*LPIMEMENUITEMINFOW","*NPIMEMENUITEMINFOW","*PIMEMENUITEMINFOW","IMEMENUITEMINFO","IMEMENUITEMINFO structure [Internationalization for Windows Applications]","IMEMENUITEMINFOA","IMEMENUITEMINFOW","PIMEMENUITEMINFO","PIMEMENUITEMINFO structure pointer [Internationalization for Windows Applications]","_win32_IMEMENUITEMINFO_str","imm/IMEMENUITEMINFO","imm/IMEMENUITEMINFOA","imm/IMEMENUITEMINFOW","imm/PIMEMENUITEMINFO","intl.imemenuiteminfo","tagIMEMENUITEMINFOA","tagIMEMENUITEMINFOW"]
 old-location: intl\imemenuiteminfo.htm
 tech.root: Intl

@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.IEnumContextProps.Next
 title: IEnumContextProps::Next (objidlbase.h)
-description: Retrieves the specified number of items in the enumeration sequence.
+description: Retrieves the specified number of items in the enumeration sequence. (IEnumContextProps.Next)
 helpviewer_keywords: ["IEnumContextProps interface [COM]","Next method","IEnumContextProps.Next","IEnumContextProps::Next","Next","Next method [COM]","Next method [COM]","IEnumContextProps interface","_com_ienumcontextprops_next","com.ienumcontextprops_next","objidlbase/IEnumContextProps::Next"]
 old-location: com\ienumcontextprops_next.htm
 tech.root: com

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_RASTERIZER_DESC
 title: D3D12_RASTERIZER_DESC (d3d12.h)
-description: Describes rasterizer state.
+description: Describes rasterizer state. (D3D12_RASTERIZER_DESC)
 helpviewer_keywords: ["D3D12_RASTERIZER_DESC","D3D12_RASTERIZER_DESC structure","d3d12/D3D12_RASTERIZER_DESC","direct3d12.d3d12_rasterizer_desc"]
 old-location: direct3d12\d3d12_rasterizer_desc.htm
 tech.root: direct3d12

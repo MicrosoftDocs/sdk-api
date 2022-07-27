@@ -1,7 +1,7 @@
 ---
 UID: NE:msclus.CLUSTER_GROUP_STATE
 title: CLUSTER_GROUP_STATE (msclus.h)
-description: Enumerates the possible states of a group.
+description: Enumerates the possible states of a group. (CLUSTER_GROUP_STATE)
 helpviewer_keywords: ["CLUSTER_GROUP_STATE","CLUSTER_GROUP_STATE enumeration [Failover Cluster]","ClusterGroupFailed","ClusterGroupOffline","ClusterGroupOnline","ClusterGroupPartialOnline","ClusterGroupPending","ClusterGroupStateUnknown","_CLUSTER_GROUP_STATE","_CLUSTER_GROUP_STATE enumeration [Failover Cluster]","clusapi/CLUSTER_GROUP_STATE","clusapi/ClusterGroupFailed","clusapi/ClusterGroupOffline","clusapi/ClusterGroupOnline","clusapi/ClusterGroupPartialOnline","clusapi/ClusterGroupPending","clusapi/ClusterGroupStateUnknown","clusapi/_CLUSTER_GROUP_STATE","msclus/CLUSTER_GROUP_STATE","msclus/ClusterGroupFailed","msclus/ClusterGroupOffline","msclus/ClusterGroupOnline","msclus/ClusterGroupPartialOnline","msclus/ClusterGroupPending","msclus/ClusterGroupStateUnknown","msclus/_CLUSTER_GROUP_STATE","mscs.cluster_group_state"]
 old-location: mscs\cluster_group_state.htm
 tech.root: MsCS

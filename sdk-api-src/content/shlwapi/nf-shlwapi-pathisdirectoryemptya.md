@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathIsDirectoryEmptyA
 title: PathIsDirectoryEmptyA function (shlwapi.h)
-description: Determines whether a specified path is an empty directory.
+description: Determines whether a specified path is an empty directory. (ANSI)
 helpviewer_keywords: ["PathIsDirectoryEmpty","PathIsDirectoryEmpty function [Windows Shell]","PathIsDirectoryEmptyA","PathIsDirectoryEmptyW","_win32_PathIsDirectoryEmpty","shell.PathIsDirectoryEmpty","shlwapi/PathIsDirectoryEmpty","shlwapi/PathIsDirectoryEmptyA","shlwapi/PathIsDirectoryEmptyW"]
 old-location: shell\PathIsDirectoryEmpty.htm
 tech.root: shell

@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.QueryContextAttributesW
 title: QueryContextAttributesW function (sspi.h)
-description: Lets a transport application query the Credential Security Support Provider (CredSSP) security package for certain attributes of a security context.
+description: Lets a transport application query the Credential Security Support Provider (CredSSP) security package for certain attributes of a security context. (Unicode)
 helpviewer_keywords: ["QueryContextAttributes","QueryContextAttributes (CredSSP)","QueryContextAttributes function [Security]","QueryContextAttributesA","QueryContextAttributesW","SECPKG_ATTR_CERT_TRUST_STATUS","SECPKG_ATTR_CREDS","SECPKG_ATTR_CREDS_2","SECPKG_ATTR_C_ACCESS_TOKEN","SECPKG_ATTR_C_FULL_ACCESS_TOKEN","SECPKG_ATTR_NEGOTIATION_PACKAGE","SECPKG_ATTR_PACKAGE_INFO","SECPKG_ATTR_SERVER_AUTH_FLAGS","SECPKG_ATTR_SIZES","SECPKG_ATTR_SUBJECT_SECURITY_ATTRIBUTES","security.querycontextattributes__credssp_","sspi/QueryContextAttributes","sspi/QueryContextAttributesA","sspi/QueryContextAttributesW"]
 old-location: security\querycontextattributes__credssp_.htm
 tech.root: security

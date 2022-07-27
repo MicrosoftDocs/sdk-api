@@ -1,7 +1,7 @@
 ---
 UID: NE:vdshwprv._VDS_FILE_SYSTEM_TYPE
 title: VDS_FILE_SYSTEM_TYPE (vdshwprv.h)
-description: Defines the set of valid types for a file system.
+description: Defines the set of valid types for a file system. (VDS_FILE_SYSTEM_TYPE)
 helpviewer_keywords: ["VDS_FILE_SYSTEM_TYPE","VDS_FILE_SYSTEM_TYPE enumeration [VDS]","VDS_FST_CDFS","VDS_FST_EXFAT","VDS_FST_FAT","VDS_FST_FAT32","VDS_FST_NTFS","VDS_FST_RAW","VDS_FST_UDF","VDS_FST_UNKNOWN","base.vds_file_system_type","vds/VDS_FILE_SYSTEM_TYPE","vds/VDS_FST_CDFS","vds/VDS_FST_EXFAT","vds/VDS_FST_FAT","vds/VDS_FST_FAT32","vds/VDS_FST_NTFS","vds/VDS_FST_RAW","vds/VDS_FST_UDF","vds/VDS_FST_UNKNOWN","vdshwprv/VDS_FILE_SYSTEM_TYPE","vdshwprv/VDS_FST_CDFS","vdshwprv/VDS_FST_EXFAT","vdshwprv/VDS_FST_FAT","vdshwprv/VDS_FST_FAT32","vdshwprv/VDS_FST_NTFS","vdshwprv/VDS_FST_RAW","vdshwprv/VDS_FST_UDF","vdshwprv/VDS_FST_UNKNOWN"]
 old-location: base\vds_file_system_type.htm
 tech.root: base

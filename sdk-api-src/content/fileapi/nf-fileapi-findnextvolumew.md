@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.FindNextVolumeW
 title: FindNextVolumeW function (fileapi.h)
-description: Continues a volume search started by a call to the FindFirstVolume function.
+description: Continues a volume search started by a call to the FindFirstVolume function. (FindNextVolumeW)
 helpviewer_keywords: ["FindNextVolume","FindNextVolume function [Files]","FindNextVolumeA","FindNextVolumeW","_win32_findnextvolume","base.findnextvolume","fileapi/FindNextVolume","fileapi/FindNextVolumeA","fileapi/FindNextVolumeW","fs.findnextvolume","winbase/FindNextVolume","winbase/FindNextVolumeA","winbase/FindNextVolumeW"]
 old-location: fs\findnextvolume.htm
 tech.root: fs

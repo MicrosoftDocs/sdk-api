@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3cc.ITAgentHandlerEvent.get_Event
 title: ITAgentHandlerEvent::get_Event (tapi3cc.h)
-description: The get_Event method gets the description for the event that has occurred.
+description: The get_Event method gets the description for the event that has occurred. (ITAgentHandlerEvent.get_Event)
 helpviewer_keywords: ["ITAgentHandlerEvent interface [TAPI 2.2]","get_Event method","ITAgentHandlerEvent.get_Event","ITAgentHandlerEvent::get_Event","_tapi3_itagenthandlerevent_get_event","get_Event","get_Event method [TAPI 2.2]","get_Event method [TAPI 2.2]","ITAgentHandlerEvent interface","tapi3.itagenthandlerevent_get_event","tapi3cc/ITAgentHandlerEvent::get_Event"]
 old-location: tapi3\itagenthandlerevent_get_event.htm
 tech.root: tapi3

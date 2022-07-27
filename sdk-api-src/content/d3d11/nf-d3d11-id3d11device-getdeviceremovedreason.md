@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Device.GetDeviceRemovedReason
 title: ID3D11Device::GetDeviceRemovedReason (d3d11.h)
-description: Get the reason why the device was removed.
+description: Get the reason why the device was removed. (ID3D11Device.GetDeviceRemovedReason)
 helpviewer_keywords: ["09615373-9ecd-296a-1d5f-ef9f2b085826","GetDeviceRemovedReason","GetDeviceRemovedReason method [Direct3D 11]","GetDeviceRemovedReason method [Direct3D 11]","ID3D11Device interface","ID3D11Device interface [Direct3D 11]","GetDeviceRemovedReason method","ID3D11Device.GetDeviceRemovedReason","ID3D11Device::GetDeviceRemovedReason","d3d11/ID3D11Device::GetDeviceRemovedReason","direct3d11.id3d11device_getdeviceremovedreason"]
 old-location: direct3d11\id3d11device_getdeviceremovedreason.htm
 tech.root: direct3d11

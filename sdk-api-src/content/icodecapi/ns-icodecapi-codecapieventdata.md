@@ -3,7 +3,7 @@ UID: NS:icodecapi.CodecAPIEventData
 title: CodecAPIEventData
 ms.date: 09/22/2020
 targetos: Windows
-description: The CodecAPIEventData structure contains event data for the EC_CODECAPI_EVENT event. This event is sent by codecs that support the ICodecAPI interface.
+description: The CodecAPIEventData structure contains event data for the EC_CODECAPI_EVENT event. This event is sent by codecs that support the ICodecAPI interface. (CodecAPIEventData)
 helpviewer_keywords: ["CodecAPIEventData","CodecAPIEventData structure [DirectShow]","CodecAPIEventDataStructure","dshow.codecapieventdata","icodecapi/CodecAPIEventData"]
 tech.root: mf
 req.construct-type: structure

@@ -1,7 +1,7 @@
 ---
 UID: NE:msclus.CLUSTER_NETWORK_ROLE
 title: CLUSTER_NETWORK_ROLE (msclus.h)
-description: Describes the role a network plays in the cluster.
+description: Describes the role a network plays in the cluster. (CLUSTER_NETWORK_ROLE)
 helpviewer_keywords: ["CLUSTER_NETWORK_ROLE","CLUSTER_NETWORK_ROLE enumeration [Failover Cluster]","ClusterNetworkRoleClientAccess","ClusterNetworkRoleInternalAndClient","ClusterNetworkRoleInternalUse","ClusterNetworkRoleNone","_CLUSTER_NETWORK_ROLE","_CLUSTER_NETWORK_ROLE enumeration [Failover Cluster]","clusapi/CLUSTER_NETWORK_ROLE","clusapi/ClusterNetworkRoleClientAccess","clusapi/ClusterNetworkRoleInternalAndClient","clusapi/ClusterNetworkRoleInternalUse","clusapi/ClusterNetworkRoleNone","clusapi/_CLUSTER_NETWORK_ROLE","msclus/CLUSTER_NETWORK_ROLE","msclus/ClusterNetworkRoleClientAccess","msclus/ClusterNetworkRoleInternalAndClient","msclus/ClusterNetworkRoleInternalUse","msclus/ClusterNetworkRoleNone","msclus/_CLUSTER_NETWORK_ROLE","mscs.cluster_network_role"]
 old-location: mscs\cluster_network_role.htm
 tech.root: MsCS

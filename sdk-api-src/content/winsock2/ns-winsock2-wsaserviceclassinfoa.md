@@ -1,7 +1,7 @@
 ---
 UID: NS:winsock2._WSAServiceClassInfoA
 title: WSASERVICECLASSINFOA (winsock2.h)
-description: The WSASERVICECLASSINFO structure contains information about a specified service class. For each service class in Windows Sockets 2, there is a single WSASERVICECLASSINFO structure.
+description: The WSASERVICECLASSINFO structure contains information about a specified service class. For each service class in Windows Sockets 2, there is a single WSASERVICECLASSINFO structure. (ANSI)
 helpviewer_keywords: ["*LPWSASERVICECLASSINFOA","*PWSASERVICECLASSINFOA","PWSASERVICECLASSINFOW","PWSASERVICECLASSINFOW structure pointer [Winsock]","WSASERVICECLASSINFO","WSASERVICECLASSINFO structure [Winsock]","WSASERVICECLASSINFOA","WSASERVICECLASSINFOW","_win32_wsaserviceclassinfo_2","winsock.wsaserviceclassinfo_2","winsock2/PWSASERVICECLASSINFOW","winsock2/WSASERVICECLASSINFO","winsock2/WSASERVICECLASSINFOA","winsock2/WSASERVICECLASSINFOW"]
 old-location: winsock\wsaserviceclassinfo_2.htm
 tech.root: WinSock

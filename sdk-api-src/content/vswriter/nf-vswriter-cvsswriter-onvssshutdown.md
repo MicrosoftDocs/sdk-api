@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.CVssWriter.OnVSSShutdown
 title: CVssWriter::OnVSSShutdown (vswriter.h)
-description: Not supported.
+description: Not supported. (CVssWriter.OnVssShutdown)
 helpviewer_keywords: ["CVssWriter interface [VSS]","OnVssShutdown method","CVssWriter.OnVSSShutdown","CVssWriter::OnVSSShutdown","CVssWriter::OnVssShutdown","OnVSSShutdown","OnVssShutdown method [VSS]","OnVssShutdown method [VSS]","CVssWriter interface","_win32_cvsswriter_onvssshutdown","base.cvsswriter_onvssshutdown","vswriter/CVssWriter::OnVssShutdown"]
 old-location: base\cvsswriter_onvssshutdown.htm
 tech.root: base

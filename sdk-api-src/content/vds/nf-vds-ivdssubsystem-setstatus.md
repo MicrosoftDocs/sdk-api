@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsSubSystem.SetStatus
 title: IVdsSubSystem::SetStatus (vds.h)
-description: Sets the status of the subsystem to the specified value.
+description: Sets the status of the subsystem to the specified value. (IVdsSubSystem.SetStatus)
 helpviewer_keywords: ["IVdsSubSystem interface [VDS]","SetStatus method","IVdsSubSystem.SetStatus","IVdsSubSystem::SetStatus","SetStatus","SetStatus method [VDS]","SetStatus method [VDS]","IVdsSubSystem interface","base.ivdssubsystem_setstatus","vds/IVdsSubSystem::SetStatus","vdshwprv/IVdsSubSystem::SetStatus"]
 old-location: base\ivdssubsystem_setstatus.htm
 tech.root: base

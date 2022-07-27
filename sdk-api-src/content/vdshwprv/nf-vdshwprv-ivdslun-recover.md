@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsLun.Recover
 title: IVdsLun::Recover (vdshwprv.h)
-description: Starts a recovery operation on a LUN.
+description: Starts a recovery operation on a LUN. (IVdsLun.Recover)
 helpviewer_keywords: ["IVdsLun interface [VDS]","Recover method","IVdsLun.Recover","IVdsLun::Recover","Recover","Recover method [VDS]","Recover method [VDS]","IVdsLun interface","base.ivdslun_recover","vds/IVdsLun::Recover","vdshwprv/IVdsLun::Recover"]
 old-location: base\ivdslun_recover.htm
 tech.root: base

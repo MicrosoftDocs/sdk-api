@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMSHORT2.XMSHORT2(constXMSHORT2&)
 title: XMSHORT2::XMSHORT2(const XMSHORT2 &) (directxpackedvector.h)
-description: A constructor for XMSHORT2.
+description: A constructor for XMSHORT2. (overload 1/3)
 helpviewer_keywords: ["XMSHORT2","XMSHORT2 constructor [DirectX Math Support APIs]","XMSHORT2 constructor [DirectX Math Support APIs]","XMSHORT2 structure","XMSHORT2 structure [DirectX Math Support APIs]","XMSHORT2 constructor","XMSHORT2.XMSHORT2","XMSHORT2.XMSHORT2()","XMSHORT2.XMSHORT2(const XMSHORT2 &)","XMSHORT2::XMSHORT2","XMSHORT2::XMSHORT2(const XMSHORT2 &)","dxmath.xmshort2_ctor_1"]
 old-location: 
 tech.root: dxmath

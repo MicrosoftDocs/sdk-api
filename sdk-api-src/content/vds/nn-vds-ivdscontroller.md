@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsController
 title: IVdsController (vds.h)
-description: Provides methods for performing query and configuration operations on a controller.
+description: Provides methods for performing query and configuration operations on a controller. (IVdsController)
 helpviewer_keywords: ["IVdsController","IVdsController interface [VDS]","IVdsController interface [VDS]","described","base.ivdscontroller","vds/IVdsController","vdshwprv/IVdsController"]
 old-location: base\ivdscontroller.htm
 tech.root: base

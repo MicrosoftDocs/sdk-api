@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_InterfaceID
 title: IEventSubscription::put_InterfaceID (eventsys.h)
-description: The identifier for a particular interface for which the subscriber wants to receive events.
+description: The identifier for a particular interface for which the subscriber wants to receive events. (Put)
 helpviewer_keywords: ["IEventSubscription interface [COM+]","InterfaceID property","IEventSubscription.InterfaceID","IEventSubscription.put_InterfaceID","IEventSubscription::InterfaceID","IEventSubscription::get_InterfaceID","IEventSubscription::put_InterfaceID","InterfaceID property [COM+]","InterfaceID property [COM+]","IEventSubscription interface","cos.ieventsubscription_interfaceid","eventsys/IEventSubscription::InterfaceID","eventsys/IEventSubscription::get_InterfaceID","eventsys/IEventSubscription::put_InterfaceID","put_InterfaceID"]
 old-location: cos\ieventsubscription_interfaceid.htm
 tech.root: cos

@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.SetUrlCacheEntryGroup
 title: SetUrlCacheEntryGroup function (wininet.h)
-description: Adds entries to or removes entries from a cache group.
+description: Adds entries to or removes entries from a cache group. (SetUrlCacheEntryGroupW)
 helpviewer_keywords: ["SetUrlCacheEntryGroup","SetUrlCacheEntryGroup function [WinINet]","SetUrlCacheEntryGroupA","SetUrlCacheEntryGroupW","_inet_seturlcacheentrygroup_function","wininet.seturlcacheentrygroup","wininet/SetUrlCacheEntryGroup","wininet/SetUrlCacheEntryGroupA","wininet/SetUrlCacheEntryGroupW"]
 old-location: wininet\seturlcacheentrygroup.htm
 tech.root: wininet

@@ -1,7 +1,7 @@
 ---
 UID: NF:mmeapi.midiInGetErrorTextW
 title: midiInGetErrorTextW function (mmeapi.h)
-description: The midiInGetErrorText function retrieves a textual description for an error identified by the specified error code.
+description: The midiInGetErrorText function retrieves a textual description for an error identified by the specified error code. (midiInGetErrorTextW)
 helpviewer_keywords: ["_win32_midiInGetErrorText","midiInGetErrorText","midiInGetErrorText function [Windows Multimedia]","midiInGetErrorTextA","midiInGetErrorTextW","mmeapi/midiInGetErrorText","mmeapi/midiInGetErrorTextA","mmeapi/midiInGetErrorTextW","multimedia.midiingeterrortext"]
 old-location: multimedia\midiingeterrortext.htm
 tech.root: Multimedia

@@ -1,7 +1,7 @@
 ---
 UID: NF:winnls.GetStringTypeA
 title: GetStringTypeA function (winnls.h)
-description: Deprecated.
+description: Deprecated. (GetStringTypeA)
 helpviewer_keywords: ["GetStringTypeA","GetStringTypeA function [Internationalization for Windows Applications]","_win32_GetStringTypeA","_win32_GetStringTypeA_cpp","intl.getstringtypea","winnls/GetStringTypeA","winui._win32_GetStringTypeA"]
 old-location: intl\getstringtypea.htm
 tech.root: Intl

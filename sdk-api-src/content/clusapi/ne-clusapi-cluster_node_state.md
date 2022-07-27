@@ -1,7 +1,7 @@
 ---
 UID: NE:clusapi.CLUSTER_NODE_STATE
 title: CLUSTER_NODE_STATE (clusapi.h)
-description: Describes the state of a cluster node.
+description: Describes the state of a cluster node. (CLUSTER_NODE_STATE)
 helpviewer_keywords: ["CLUSTER_NODE_STATE","CLUSTER_NODE_STATE enumeration [Failover Cluster]","ClusterNodeDown","ClusterNodeJoining","ClusterNodePaused","ClusterNodeStateUnknown","ClusterNodeUp","_CLUSTER_NODE_STATE","_CLUSTER_NODE_STATE enumeration [Failover Cluster]","clusapi/CLUSTER_NODE_STATE","clusapi/ClusterNodeDown","clusapi/ClusterNodeJoining","clusapi/ClusterNodePaused","clusapi/ClusterNodeStateUnknown","clusapi/ClusterNodeUp","clusapi/_CLUSTER_NODE_STATE","msclus/CLUSTER_NODE_STATE","msclus/ClusterNodeDown","msclus/ClusterNodeJoining","msclus/ClusterNodePaused","msclus/ClusterNodeStateUnknown","msclus/ClusterNodeUp","msclus/_CLUSTER_NODE_STATE","mscs.cluster_node_state"]
 old-location: mscs\cluster_node_state.htm
 tech.root: MsCS

@@ -1,7 +1,7 @@
 ---
 UID: NS:dbghelp._SYMBOL_INFO
 title: SYMBOL_INFO (dbghelp.h)
-description: Contains symbol information.
+description: Contains symbol information. (SYMBOL_INFOW)
 helpviewer_keywords: ["*PSYMBOL_INFO","PSYMBOL_INFO","PSYMBOL_INFO structure pointer","SYMBOL_INFO","SYMBOL_INFO structure","SYMBOL_INFOW","SYMFLAG_CLR_TOKEN","SYMFLAG_CONSTANT","SYMFLAG_EXPORT","SYMFLAG_FORWARDER","SYMFLAG_FRAMEREL","SYMFLAG_FUNCTION","SYMFLAG_ILREL","SYMFLAG_LOCAL","SYMFLAG_METADATA","SYMFLAG_PARAMETER","SYMFLAG_REGISTER","SYMFLAG_REGREL","SYMFLAG_SLOT","SYMFLAG_THUNK","SYMFLAG_TLSREL","SYMFLAG_VALUEPRESENT","SYMFLAG_VIRTUAL","_SYMBOL_INFO","_SYMBOL_INFOW","_win32_symbol_info_str","base.symbol_info_str","dbghelp/PSYMBOL_INFO","dbghelp/SYMBOL_INFO","dbghelp/SYMBOL_INFOW"]
 old-location: base\symbol_info_str.htm
 tech.root: Debug

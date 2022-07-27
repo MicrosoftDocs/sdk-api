@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3D9.GetAdapterModeCount
 title: IDirect3D9::GetAdapterModeCount (d3d9helper.h)
-description: Returns the number of display modes available on this adapter.
+description: Returns the number of display modes available on this adapter. (IDirect3D9.GetAdapterModeCount)
 helpviewer_keywords: ["8c15b401-a18e-3d6f-8b01-fd6833879d87","GetAdapterModeCount","GetAdapterModeCount method [Direct3D 9]","GetAdapterModeCount method [Direct3D 9]","IDirect3D9 interface","IDirect3D9 interface [Direct3D 9]","GetAdapterModeCount method","IDirect3D9.GetAdapterModeCount","IDirect3D9::GetAdapterModeCount","d3d9helper/IDirect3D9::GetAdapterModeCount","direct3d9.idirect3d9__getadaptermodecount"]
 old-location: direct3d9\idirect3d9__getadaptermodecount.htm
 tech.root: direct3d9

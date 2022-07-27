@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineGetAgentActivityListW
 title: lineGetAgentActivityListW function (tapi.h)
-description: The lineGetAgentActivityList function obtains the identities of activities that the application can select using lineSetAgentActivity to indicate what function the agent is actually performing at the moment.
+description: The lineGetAgentActivityList function obtains the identities of activities that the application can select using lineSetAgentActivity to indicate what function the agent is actually performing at the moment. (Unicode)
 helpviewer_keywords: ["_tapi2_linegetagentactivitylist","lineGetAgentActivityList","lineGetAgentActivityList function [TAPI 2.2]","lineGetAgentActivityListA","lineGetAgentActivityListW","tapi/lineGetAgentActivityList","tapi/lineGetAgentActivityListA","tapi/lineGetAgentActivityListW","tapi2.linegetagentactivitylist"]
 old-location: tapi2\linegetagentactivitylist.htm
 tech.root: tapi3

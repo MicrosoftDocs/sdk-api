@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsStoragePool.QueryDriveExtents
 title: IVdsStoragePool::QueryDriveExtents (vds.h)
-description: Returns an array of the drive extents that are used by a storage pool.
+description: Returns an array of the drive extents that are used by a storage pool. (IVdsStoragePool.QueryDriveExtents)
 helpviewer_keywords: ["IVdsStoragePool interface","QueryDriveExtents method","IVdsStoragePool.QueryDriveExtents","IVdsStoragePool::QueryDriveExtents","QueryDriveExtents","QueryDriveExtents method","QueryDriveExtents method","IVdsStoragePool interface","base.ivdsstoragepool_querydriveextents","vds/IVdsStoragePool::QueryDriveExtents","vdshwprv/IVdsStoragePool::QueryDriveExtents"]
 old-location: base\ivdsstoragepool_querydriveextents.htm
 tech.root: base

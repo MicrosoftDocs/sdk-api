@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagLVFINDINFOA
 title: LVFINDINFOA (commctrl.h)
-description: Contains information used when searching for a list-view item. This structure is identical to LV_FINDINFO but has been renamed to fit standard naming conventions.
+description: Contains information used when searching for a list-view item. This structure is identical to LV_FINDINFO but has been renamed to fit standard naming conventions. (ANSI)
 helpviewer_keywords: ["*LPFINDINFOA","LPFINDINFO","LPFINDINFO structure pointer [Windows Controls]","LVFINDINFO","LVFINDINFO structure [Windows Controls]","LVFINDINFOA","LVFINDINFOW","LVFI_NEARESTXY","LVFI_PARAM","LVFI_PARTIAL","LVFI_STRING","LVFI_SUBSTRING","LVFI_WRAP","_win32_LVFINDINFO","_win32_LVFINDINFO_cpp","commctrl/LPFINDINFO","commctrl/LVFINDINFO","commctrl/LVFINDINFOA","commctrl/LVFINDINFOW","controls.LVFINDINFO","controls._win32_LVFINDINFO"]
 old-location: controls\LVFINDINFO.htm
 tech.root: Controls

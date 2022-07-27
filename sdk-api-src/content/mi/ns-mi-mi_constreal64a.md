@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_ConstReal64A
 title: MI_ConstReal64A (mi.h)
-description: Represents an array of MI_Real64 types.
+description: Represents an array of MI_Real64 types. (MI_ConstReal64A)
 helpviewer_keywords: ["MI_ConstReal64A","MI_ConstReal64A structure [Windows Management Infrastructure (MI)]","mi/MI_ConstReal64A","wmi._mi_constreal64a","wmi_v2.mi_constreal64a"]
 old-location: wmi_v2\mi_constreal64a.htm
 tech.root: wmi_v2

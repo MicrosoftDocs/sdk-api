@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.AddApplicationMessage
 title: ID3D10InfoQueue::AddApplicationMessage (d3d10sdklayers.h)
-description: Add a user-defined message to the message queue and send that message to debug output.
+description: Add a user-defined message to the message queue and send that message to debug output. (ID3D10InfoQueue.AddApplicationMessage)
 helpviewer_keywords: ["1d152bbb-d6ef-f0f3-d61f-2156408503ce","AddApplicationMessage","AddApplicationMessage method [Direct3D 10]","AddApplicationMessage method [Direct3D 10]","ID3D10InfoQueue interface","ID3D10InfoQueue interface [Direct3D 10]","AddApplicationMessage method","ID3D10InfoQueue.AddApplicationMessage","ID3D10InfoQueue::AddApplicationMessage","d3d10sdklayers/ID3D10InfoQueue::AddApplicationMessage","direct3d10.id3d10infoqueue_addapplicationmessage"]
 old-location: direct3d10\id3d10infoqueue_addapplicationmessage.htm
 tech.root: direct3d10

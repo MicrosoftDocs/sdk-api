@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDefaultQueueCallbackA
 title: SetupDefaultQueueCallbackA function (setupapi.h)
-description: The SetupDefaultQueueCallback function is the default queue callback routine included with the Setup API. You can use it to process notifications sent by the SetupCommitFileQueue function.
+description: The SetupDefaultQueueCallback function is the default queue callback routine included with the Setup API. You can use it to process notifications sent by the SetupCommitFileQueue function. (ANSI)
 helpviewer_keywords: ["SPFILENOTIFY_COPYERROR","SPFILENOTIFY_DELETEERROR","SPFILENOTIFY_ENDCOPY","SPFILENOTIFY_ENDDELETE","SPFILENOTIFY_ENDQUEUE","SPFILENOTIFY_ENDRENAME","SPFILENOTIFY_ENDSUBQUEUE","SPFILENOTIFY_LANGMISMATCH","SPFILENOTIFY_NEEDMEDIA","SPFILENOTIFY_RENAMEERROR","SPFILENOTIFY_STARTCOPY","SPFILENOTIFY_STARTDELETE","SPFILENOTIFY_STARTQUEUE","SPFILENOTIFY_STARTRENAME","SPFILENOTIFY_STARTSUBQUEUE","SPFILENOTIFY_TARGETEXISTS","SPFILENOTIFY_TARGETNEWER","SetupDefaultQueueCallback","SetupDefaultQueueCallback function [Setup API]","SetupDefaultQueueCallbackA","SetupDefaultQueueCallbackW","_setupapi_setupdefaultqueuecallback","setup.setupdefaultqueuecallback","setupapi/SetupDefaultQueueCallback","setupapi/SetupDefaultQueueCallbackA","setupapi/SetupDefaultQueueCallbackW"]
 old-location: setup\setupdefaultqueuecallback.htm
 tech.root: setup

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetCreationParameters
 title: IDirect3DDevice9::GetCreationParameters (d3d9.h)
-description: Retrieves the creation parameters of the device.
+description: Retrieves the creation parameters of the device. (IDirect3DDevice9.GetCreationParameters)
 helpviewer_keywords: ["54c41207-f279-d889-1545-426a901cafd7","GetCreationParameters","GetCreationParameters method [Direct3D 9]","GetCreationParameters method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetCreationParameters method","IDirect3DDevice9.GetCreationParameters","IDirect3DDevice9::GetCreationParameters","d3d9helper/IDirect3DDevice9::GetCreationParameters","direct3d9.idirect3ddevice9__getcreationparameters"]
 old-location: direct3d9\idirect3ddevice9__getcreationparameters.htm
 tech.root: direct3d9

@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CopyFileA
 title: CopyFileA function (winbase.h)
-description: Copies an existing file to a new file.
+description: Copies an existing file to a new file. (CopyFileA)
 helpviewer_keywords: ["CopyFile","CopyFile function [Files]","CopyFileA","CopyFileW","_win32_copyfile","base.copyfile","fs.copyfile","winbase/CopyFile","winbase/CopyFileA","winbase/CopyFileW"]
 old-location: fs\copyfile.htm
 tech.root: fs

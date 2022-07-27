@@ -1,7 +1,7 @@
 ---
 UID: NS:ntdsapi.__unnamed_struct_15
 title: DS_DOMAIN_CONTROLLER_INFO_2A (ntdsapi.h)
-description: The DS_DOMAIN_CONTROLLER_INFO_2 structure contains data about a domain controller. This structure is returned by the DsGetDomainControllerInfo function.
+description: The DS_DOMAIN_CONTROLLER_INFO_2 structure contains data about a domain controller. This structure is returned by the DsGetDomainControllerInfo function. (ANSI)
 helpviewer_keywords: ["*PDS_DOMAIN_CONTROLLER_INFO_2A","DS_DOMAIN_CONTROLLER_INFO_2","DS_DOMAIN_CONTROLLER_INFO_2 structure [Active Directory]","DS_DOMAIN_CONTROLLER_INFO_2A","DS_DOMAIN_CONTROLLER_INFO_2W","PDS_DOMAIN_CONTROLLER_INFO_2","PDS_DOMAIN_CONTROLLER_INFO_2 structure pointer [Active Directory]","ad.ds_domain_controller_info_2","ntdsapi/DS_DOMAIN_CONTROLLER_INFO_2","ntdsapi/DS_DOMAIN_CONTROLLER_INFO_2A","ntdsapi/DS_DOMAIN_CONTROLLER_INFO_2W","ntdsapi/PDS_DOMAIN_CONTROLLER_INFO_2"]
 old-location: ad\ds_domain_controller_info_2.htm
 tech.root: ad

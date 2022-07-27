@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SearchTreeForFileW
 title: SearchTreeForFileW function (dbghelp.h)
-description: Searches a directory tree for a specified file.
+description: Searches a directory tree for a specified file. (SearchTreeForFileW)
 helpviewer_keywords: ["SearchTreeForFile","SearchTreeForFile function","SearchTreeForFileW","_win32_searchtreeforfile","base.searchtreeforfile","dbghelp/SearchTreeForFile","dbghelp/SearchTreeForFileW"]
 old-location: base\searchtreeforfile.htm
 tech.root: Debug

@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory.EncryptBundle
 title: IAppxEncryptionFactory::EncryptBundle (appxpackaging.h)
-description: Creates an encrypted Windows app bundle from an unencrypted one.
+description: Creates an encrypted Windows app bundle from an unencrypted one. (IAppxEncryptionFactory.EncryptBundle)
 helpviewer_keywords: ["EncryptBundle","EncryptBundle method [App packaging and management]","EncryptBundle method [App packaging and management]","IAppxEncryptionFactory interface","IAppxEncryptionFactory interface [App packaging and management]","EncryptBundle method","IAppxEncryptionFactory.EncryptBundle","IAppxEncryptionFactory::EncryptBundle","appxpackaging/IAppxEncryptionFactory::EncryptBundle","appxpkg.iappxencryptionfactory_encryptbundle"]
 old-location: appxpkg\iappxencryptionfactory_encryptbundle.htm
 tech.root: appxpkg

@@ -1,7 +1,7 @@
 ---
 UID: NF:winineti.InternetSetDialStateA
 title: InternetSetDialStateA function (winineti.h)
-description: Not supported.This function is obsolete. Do not use.
+description: Not supported.This function is obsolete. Do not use. (InternetSetDialStateA)
 helpviewer_keywords: ["InternetSetDialState","InternetSetDialState function [WinINet]","InternetSetDialStateA","InternetSetDialStateW","_inet_internetsetdialstate_function","wininet.internetsetdialstate","wininet/InternetSetDialState","wininet/InternetSetDialStateA","wininet/InternetSetDialStateW","winineti/InternetSetDialState","winineti/InternetSetDialStateA","winineti/InternetSetDialStateW"]
 old-location: wininet\internetsetdialstate.htm
 tech.root: wininet

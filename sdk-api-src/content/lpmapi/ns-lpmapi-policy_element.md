@@ -1,7 +1,7 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_14
 title: POLICY_ELEMENT (lpmapi.h)
-description: The POLICY_ELEMENT structure contains an RSVP policy element.
+description: The POLICY_ELEMENT structure contains an RSVP policy element. (POLICY_ELEMENT)
 helpviewer_keywords: ["POLICY_ELEMENT","POLICY_ELEMENT structure [QOS]","_POLICY_ELEMENT","infocard/POLICY_ELEMENT","qos.policy_element"]
 old-location: qos\policy_element.htm
 tech.root: QOS

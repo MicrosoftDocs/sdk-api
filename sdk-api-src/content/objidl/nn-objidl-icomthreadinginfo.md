@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IComThreadingInfo
 title: IComThreadingInfo (objidl.h)
-description: Enables you to obtain the following information about the apartment and thread that the caller is executing in:\_apartment type, thread type, and thread GUID. It also allows you to specify a thread GUID.
+description: Enables you to obtain the following information about the apartment and thread that the caller is executing in:\_apartment type, thread type, and thread GUID. It also allows you to specify a thread GUID. (IComThreadingInfo)
 helpviewer_keywords: ["IComThreadingInfo","IComThreadingInfo interface [COM]","IComThreadingInfo interface [COM]","described","_com_icomthreadinginfo_interface","com.icomthreadinginfo","objidlbase/IComThreadingInfo"]
 old-location: com\icomthreadinginfo.htm
 tech.root: com

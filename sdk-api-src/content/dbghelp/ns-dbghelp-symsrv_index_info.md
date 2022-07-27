@@ -1,7 +1,7 @@
 ---
 UID: NS:dbghelp.__unnamed_struct_0
 title: SYMSRV_INDEX_INFO (dbghelp.h)
-description: Contains symbol server index information.
+description: Contains symbol server index information. (SYMSRV_INDEX_INFOW)
 helpviewer_keywords: ["*PSYMSRV_INDEX_INFO","PSYMSRV_INDEX_INFO","PSYMSRV_INDEX_INFO structure pointer","SYMSRV_INDEX_INFO","SYMSRV_INDEX_INFO structure","SYMSRV_INDEX_INFOW","base.symsrv_index_info","dbghelp/PSYMSRV_INDEX_INFO","dbghelp/SYMSRV_INDEX_INFO","dbghelp/SYMSRV_INDEX_INFOW"]
 old-location: base\symsrv_index_info.htm
 tech.root: Debug

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.BoundingFrustum(constXMFLOAT3&,constXMFLOAT4&,float,float,float,float,float,float)
 title: BoundingFrustum::BoundingFrustum(const XMFLOAT3 &,const XMFLOAT4 &,float,float,float,float,float,float)
-description: Creates an instance of BoundingFrustum.
+description: Creates an instance of BoundingFrustum. (overload 2/4)
 helpviewer_keywords: ["BoundingFrustum","BoundingFrustum constructor [DirectX Math Support APIs]","BoundingFrustum constructor [DirectX Math Support APIs]","BoundingFrustum interface","BoundingFrustum interface [DirectX Math Support APIs]","BoundingFrustum constructor","BoundingFrustum.BoundingFrustum","BoundingFrustum.BoundingFrustum(const XMFLOAT3 &","const XMFLOAT4 &","float","float","float","float","float","float)","BoundingFrustum.BoundingFrustum(const XMFLOAT3&","const XMFLOAT4&","float","float","float","float","float","float)","BoundingFrustum::BoundingFrustum","BoundingFrustum::BoundingFrustum(const XMFLOAT3 &","const XMFLOAT4 &","float","float","float","float","float","float)","dxmath.boundingfrustum_ctor_2"]
 old-location: dxmath\boundingfrustum_ctor_2.htm
 tech.root: dxmath

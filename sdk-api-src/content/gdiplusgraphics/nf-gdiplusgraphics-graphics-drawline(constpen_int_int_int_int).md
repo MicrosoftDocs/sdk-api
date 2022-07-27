@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawLine(constPen,INT,INT,INT,INT)
 title: Graphics::DrawLine(IN const Pen,IN INT,IN INT,IN INT,IN INT) (gdiplusgraphics.h)
-description: The Graphics::DrawLine method draws a line that connects two points.
+description: The Graphics::DrawLine method draws a line that connects two points. (overload 2/4)
 helpviewer_keywords: ["DrawLine","DrawLine method [GDI+]","DrawLine method [GDI+]","Graphics class","Graphics class [GDI+]","DrawLine method","Graphics.DrawLine","Graphics.DrawLine(IN const Pen","IN INT","IN INT","IN INT","IN INT)","Graphics.DrawLine(const Pen*","INT","INT","INT","INT)","Graphics::DrawLine","Graphics::DrawLine(IN const Pen","IN INT","IN INT","IN INT","IN INT)","_gdiplus_CLASS_Graphics_DrawLine_Pen_pen_INT_x1_INT_y1_INT_x2_INT_y2_","gdiplus._gdiplus_CLASS_Graphics_DrawLine_Pen_pen_INT_x1_INT_y1_INT_x2_INT_y2_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawLine_Pen_pen_INT_x1_INT_y1_INT_x2_INT_y2_.htm
 tech.root: gdiplus

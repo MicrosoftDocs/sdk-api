@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.IComThreadingInfo.GetCurrentApartmentType
 title: IComThreadingInfo::GetCurrentApartmentType (objidlbase.h)
-description: Retrieves the type of apartment in which the caller is executing.
+description: Retrieves the type of apartment in which the caller is executing. (IComThreadingInfo.GetCurrentApartmentType)
 helpviewer_keywords: ["GetCurrentApartmentType","GetCurrentApartmentType method [COM]","GetCurrentApartmentType method [COM]","IComThreadingInfo interface","IComThreadingInfo interface [COM]","GetCurrentApartmentType method","IComThreadingInfo.GetCurrentApartmentType","IComThreadingInfo::GetCurrentApartmentType","_com_icomthreadinginfo_getcurrentapartmenttype","com.icomthreadinginfo_getcurrentapartmenttype","objidlbase/IComThreadingInfo::GetCurrentApartmentType"]
 old-location: com\icomthreadinginfo_getcurrentapartmenttype.htm
 tech.root: com

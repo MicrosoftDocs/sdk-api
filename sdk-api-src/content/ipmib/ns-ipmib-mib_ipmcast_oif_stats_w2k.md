@@ -1,7 +1,7 @@
 ---
 UID: NS:ipmib._MIB_IPMCAST_OIF_STATS_W2K
 title: MIB_IPMCAST_OIF_STATS_W2K (ipmib.h)
-description: Stores the statistics that are associated with an outgoing multicast interface.
+description: Stores the statistics that are associated with an outgoing multicast interface.M
 helpviewer_keywords: ["*PMIB_IPMCAST_OIF_STATS","*PMIB_IPMCAST_OIF_STATS_W2K","MIB_IPMCAST_OIF_STATS","MIB_IPMCAST_OIF_STATS structure [MIB]","MIB_IPMCAST_OIF_STATS_W2K","PMIB_IPMCAST_OIF_STATS","PMIB_IPMCAST_OIF_STATS structure pointer [MIB]","_mpr_mib_ipmcast_oif_stats","ipmib/MIB_IPMCAST_OIF_STATS","ipmib/PMIB_IPMCAST_OIF_STATS","iprtrmib/MIB_IPMCAST_OIF_STATS","iprtrmib/PMIB_IPMCAST_OIF_STATS","mib.mib_ipmcast_oif_stats","rras.mib_ipmcast_oif_stats"]
 old-location: mib\mib_ipmcast_oif_stats.htm
 tech.root: MIB

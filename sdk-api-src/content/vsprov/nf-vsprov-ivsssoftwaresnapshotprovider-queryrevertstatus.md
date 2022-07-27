@@ -1,7 +1,7 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.QueryRevertStatus
 title: IVssSoftwareSnapshotProvider::QueryRevertStatus (vsprov.h)
-description: Returns an IVssAsync interface pointer that can be used to determine the status of the revert operation.
+description: Returns an IVssAsync interface pointer that can be used to determine the status of the revert operation. (IVssSoftwareSnapshotProvider.QueryRevertStatus)
 helpviewer_keywords: ["IVssSoftwareSnapshotProvider interface","QueryRevertStatus method","IVssSoftwareSnapshotProvider.QueryRevertStatus","IVssSoftwareSnapshotProvider::QueryRevertStatus","QueryRevertStatus","QueryRevertStatus method","QueryRevertStatus method","IVssSoftwareSnapshotProvider interface","base.ivsssoftwaresnapshotprovider_queryrevertstatus","vsprov/IVssSoftwareSnapshotProvider::QueryRevertStatus"]
 old-location: base\ivsssoftwaresnapshotprovider_queryrevertstatus.htm
 tech.root: base

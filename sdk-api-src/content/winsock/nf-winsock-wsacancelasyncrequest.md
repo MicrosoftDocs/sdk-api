@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock.WSACancelAsyncRequest
 title: WSACancelAsyncRequest function (winsock.h)
-description: The WSACancelAsyncRequest function cancels an incomplete asynchronous operation.
+description: The WSACancelAsyncRequest function cancels an incomplete asynchronous operation. (WSACancelAsyncRequest)
 helpviewer_keywords: ["WSACancelAsyncRequest","WSACancelAsyncRequest function [Winsock]","_win32_wsacancelasyncrequest_2","winsock.wsacancelasyncrequest_2","winsock/WSACancelAsyncRequest"]
 old-location: winsock\wsacancelasyncrequest_2.htm
 tech.root: WinSock

@@ -1,7 +1,7 @@
 ---
 UID: NS:vdshwprv._VDS_LUN_PLEX_PROP
 title: VDS_LUN_PLEX_PROP (vdshwprv.h)
-description: Defines the properties of a LUN plex object.
+description: Defines the properties of a LUN plex object. (VDS_LUN_PLEX_PROP)
 helpviewer_keywords: ["*PVDS_LUN_PLEX_PROP","VDS_H_FAILED","VDS_H_FAILED_REDUNDANCY","VDS_H_FAILED_REDUNDANCY_FAILING","VDS_H_FAILING","VDS_H_FAILING_REDUNDANCY","VDS_H_HEALTHY","VDS_H_REBUILDING","VDS_H_UNKNOWN","VDS_LUN_PLEX_PROP","VDS_LUN_PLEX_PROP structure [VDS]","base.vds_lun_plex_prop","vds/_VDS_LUN_PLEX_PROP","vdshwprv/_VDS_LUN_PLEX_PROP"]
 old-location: base\vds_lun_plex_prop.htm
 tech.root: base

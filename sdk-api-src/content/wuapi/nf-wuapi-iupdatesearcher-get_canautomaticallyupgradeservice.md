@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.get_CanAutomaticallyUpgradeService
 title: IUpdateSearcher::get_CanAutomaticallyUpgradeService (wuapi.h)
-description: Gets and sets a Boolean value that indicates whether future calls to the BeginSearch and Search methods result in an automatic upgrade to Windows Update Agent (WUA).
+description: Gets and sets a Boolean value that indicates whether future calls to the BeginSearch and Search methods result in an automatic upgrade to Windows Update Agent (WUA). (Get)
 helpviewer_keywords: ["CanAutomaticallyUpgradeService property [Windows Update Agent]","CanAutomaticallyUpgradeService property [Windows Update Agent]","IUpdateSearcher interface","IUpdateSearcher interface [Windows Update Agent]","CanAutomaticallyUpgradeService property","IUpdateSearcher.CanAutomaticallyUpgradeService","IUpdateSearcher.get_CanAutomaticallyUpgradeService","IUpdateSearcher::CanAutomaticallyUpgradeService","IUpdateSearcher::get_CanAutomaticallyUpgradeService","IUpdateSearcher::put_CanAutomaticallyUpgradeService","get_CanAutomaticallyUpgradeService","wua.iupdatesearchercanautomaticallyupgradeservice","wuapi/IUpdateSearcher::CanAutomaticallyUpgradeService","wuapi/IUpdateSearcher::get_CanAutomaticallyUpgradeService","wuapi/IUpdateSearcher::put_CanAutomaticallyUpgradeService"]
 old-location: wua\iupdatesearchercanautomaticallyupgradeservice.htm
 tech.root: wua

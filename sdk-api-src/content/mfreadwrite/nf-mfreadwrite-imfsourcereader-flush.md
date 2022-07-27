@@ -1,7 +1,7 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.Flush
 title: IMFSourceReader::Flush (mfreadwrite.h)
-description: Flushes one or more streams.
+description: Flushes one or more streams. (IMFSourceReader.Flush)
 helpviewer_keywords: ["Flush","Flush method [Media Foundation]","Flush method [Media Foundation]","IMFSourceReader interface","IMFSourceReader interface [Media Foundation]","Flush method","IMFSourceReader.Flush","IMFSourceReader::Flush","MF_SOURCE_READER_ALL_STREAMS","MF_SOURCE_READER_FIRST_AUDIO_STREAM","MF_SOURCE_READER_FIRST_VIDEO_STREAM","mf.imfsourcereader_flush","mfreadwrite/IMFSourceReader::Flush"]
 old-location: mf\imfsourcereader_flush.htm
 tech.root: mf

@@ -1,7 +1,7 @@
 ---
 UID: NC:resapi.PSET_RESOURCE_STATUS_ROUTINE
 title: PSET_RESOURCE_STATUS_ROUTINE (resapi.h)
-description: Called to update the status of a resource.
+description: Called to update the status of a resource.S
 helpviewer_keywords: ["PSET_RESOURCE_STATUS_ROUTINE","PSET_RESOURCE_STATUS_ROUTINE callback function [Failover Cluster]","SetResourceStatus","SetResourceStatus callback","SetResourceStatus callback function [Failover Cluster]","_wolf_setresourcestatus","mscs.setresourcestatus","resapi/PSET_RESOURCE_STATUS_ROUTINE","resapi/SetResourceStatus"]
 old-location: mscs\setresourcestatus.htm
 tech.root: MsCS

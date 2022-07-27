@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsStoragePool.GetProperties
 title: IVdsStoragePool::GetProperties (vdshwprv.h)
-description: Returns the properties of a storage pool.
+description: Returns the properties of a storage pool. (IVdsStoragePool.GetProperties)
 helpviewer_keywords: ["GetProperties","GetProperties method","GetProperties method","IVdsStoragePool interface","IVdsStoragePool interface","GetProperties method","IVdsStoragePool.GetProperties","IVdsStoragePool::GetProperties","base.ivdsstoragepool_getproperties","vds/IVdsStoragePool::GetProperties","vdshwprv/IVdsStoragePool::GetProperties"]
 old-location: base\ivdsstoragepool_getproperties.htm
 tech.root: base

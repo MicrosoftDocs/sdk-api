@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.FindFirstUrlCacheEntryExW
 title: FindFirstUrlCacheEntryExW function (wininet.h)
-description: Starts a filtered enumeration of the Internet cache.
+description: Starts a filtered enumeration of the Internet cache. (Unicode)
 helpviewer_keywords: ["FindFirstUrlCacheEntryEx","FindFirstUrlCacheEntryEx function [WinINet]","FindFirstUrlCacheEntryExA","FindFirstUrlCacheEntryExW","_inet_findfirsturlcacheentryex_function","wininet.findfirsturlcacheentryex","wininet/FindFirstUrlCacheEntryEx","wininet/FindFirstUrlCacheEntryExA","wininet/FindFirstUrlCacheEntryExW"]
 old-location: wininet\findfirsturlcacheentryex.htm
 tech.root: wininet

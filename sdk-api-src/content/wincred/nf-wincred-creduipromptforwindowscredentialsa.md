@@ -1,7 +1,7 @@
 ---
 UID: NF:wincred.CredUIPromptForWindowsCredentialsA
 title: CredUIPromptForWindowsCredentialsA function (wincred.h)
-description: Creates and displays a configurable dialog box that allows users to supply credential information by using any credential provider installed on the local computer.
+description: Creates and displays a configurable dialog box that allows users to supply credential information by using any credential provider installed on the local computer. (ANSI)
 helpviewer_keywords: ["CREDUIWIN_AUTHPACKAGE_ONLY","CREDUIWIN_CHECKBOX","CREDUIWIN_ENUMERATE_ADMINS","CREDUIWIN_ENUMERATE_CURRENT_USER","CREDUIWIN_GENERIC","CREDUIWIN_IN_CRED_ONLY","CREDUIWIN_PACK_32_WOW","CREDUIWIN_PREPROMPTING","CREDUIWIN_SECURE_PROMPT","CredUIPromptForWindowsCredentials","CredUIPromptForWindowsCredentials function [Security]","CredUIPromptForWindowsCredentialsA","CredUIPromptForWindowsCredentialsW","security.creduipromptforwindowscredentials","wincred/CredUIPromptForWindowsCredentials","wincred/CredUIPromptForWindowsCredentialsA","wincred/CredUIPromptForWindowsCredentialsW"]
 old-location: security\creduipromptforwindowscredentials.htm
 tech.root: security

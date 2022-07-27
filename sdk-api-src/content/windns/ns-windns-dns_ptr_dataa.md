@@ -1,7 +1,7 @@
 ---
 UID: NS:windns.__unnamed_struct_4
 title: DNS_PTR_DATAA (windns.h)
-description: The DNS_PTR_DATA structure represents a DNS pointer (PTR) record as specified in section 3.3.12 of RFC 1035.
+description: The DNS_PTR_DATA structure represents a DNS pointer (PTR) record as specified in section 3.3.12 of RFC 1035. (ANSI)
 helpviewer_keywords: ["*PDNS_PTR_DATA","*PDNS_PTR_DATAA","DNS_PTR_DATA","DNS_PTR_DATA structure [DNS]","DNS_PTR_DATAA","PDNS_PTR_DATA","PDNS_PTR_DATA structure pointer [DNS]","_dns_dns_ptr_data","dns.dns_ptr_data","windns/DNS_PTR_DATA","windns/PDNS_PTR_DATA"]
 old-location: dns\dns_ptr_data.htm
 tech.root: DNS

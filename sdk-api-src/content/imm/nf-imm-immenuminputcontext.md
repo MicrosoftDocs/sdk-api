@@ -1,7 +1,7 @@
 ---
 UID: NF:imm.ImmEnumInputContext
 title: ImmEnumInputContext function (imm.h)
-description: Retrieves the input context for the specified thread.
+description: Retrieves the input context for the specified thread. (ImmEnumInputContext)
 helpviewer_keywords: ["0","1","ImmEnumInputContext","ImmEnumInputContext function [Internationalization for Windows Applications]","Thread ID","_win32_ImmEnumInputContext","imm/ImmEnumInputContext","intl.immenuminputcontext"]
 old-location: intl\immenuminputcontext.htm
 tech.root: Intl

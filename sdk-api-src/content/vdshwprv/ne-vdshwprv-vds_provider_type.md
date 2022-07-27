@@ -1,7 +1,7 @@
 ---
 UID: NE:vdshwprv._VDS_PROVIDER_TYPE
 title: VDS_PROVIDER_TYPE (vdshwprv.h)
-description: Defines the set of valid types for a provider.
+description: Defines the set of valid types for a provider. (VDS_PROVIDER_TYPE)
 helpviewer_keywords: ["VDS_PROVIDER_TYPE","VDS_PROVIDER_TYPE enumeration [VDS]","VDS_PT_HARDWARE","VDS_PT_MAX","VDS_PT_SOFTWARE","VDS_PT_UNKNOWN","VDS_PT_VIRTUALDISK","base.vds_provider_type","vds/VDS_PROVIDER_TYPE","vds/VDS_PT_HARDWARE","vds/VDS_PT_MAX","vds/VDS_PT_SOFTWARE","vds/VDS_PT_UNKNOWN","vds/VDS_PT_VIRTUALDISK","vdshwprv/VDS_PROVIDER_TYPE","vdshwprv/VDS_PT_HARDWARE","vdshwprv/VDS_PT_MAX","vdshwprv/VDS_PT_SOFTWARE","vdshwprv/VDS_PT_UNKNOWN","vdshwprv/VDS_PT_VIRTUALDISK"]
 old-location: base\vds_provider_type.htm
 tech.root: base

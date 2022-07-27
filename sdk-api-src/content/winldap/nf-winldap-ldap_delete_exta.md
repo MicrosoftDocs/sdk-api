@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_delete_extA
 title: ldap_delete_extA function (winldap.h)
-description: The ldap_delete_ext function is an extended routine that removes a leaf entry from the directory tree.
+description: The ldap_delete_ext function is an extended routine that removes a leaf entry from the directory tree. (ldap_delete_extA)
 helpviewer_keywords: ["_ldap_ldap_delete_ext","ldap.ldap__delete__ext","ldap.ldap_delete_ext","ldap_delete_ext","ldap_delete_ext function [LDAP]","ldap_delete_extA","ldap_delete_extW","winldap/ldap_delete_ext","winldap/ldap_delete_extA","winldap/ldap_delete_extW"]
 old-location: ldap\ldap_delete_ext.htm
 tech.root: ldap

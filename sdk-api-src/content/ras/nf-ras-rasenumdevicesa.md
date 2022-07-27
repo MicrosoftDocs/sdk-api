@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasEnumDevicesA
 title: RasEnumDevicesA function (ras.h)
-description: The RasEnumDevices function returns the name and type of all available RAS-capable devices.
+description: The RasEnumDevices function returns the name and type of all available RAS-capable devices. (ANSI)
 helpviewer_keywords: ["RasEnumDevices","RasEnumDevices function [RAS]","RasEnumDevicesA","RasEnumDevicesW","_ras_rasenumdevices","ras/RasEnumDevices","ras/RasEnumDevicesA","ras/RasEnumDevicesW","rras.rasenumdevices"]
 old-location: rras\rasenumdevices.htm
 tech.root: RRAS

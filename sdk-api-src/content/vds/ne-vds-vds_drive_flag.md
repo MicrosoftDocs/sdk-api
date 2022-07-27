@@ -1,7 +1,7 @@
 ---
 UID: NE:vds._VDS_DRIVE_FLAG
 title: VDS_DRIVE_FLAG (vds.h)
-description: Defines the set of valid flags for a drive object.
+description: Defines the set of valid flags for a drive object. (VDS_DRIVE_FLAG)
 helpviewer_keywords: ["*PVDS_DRIVE_FLAG","VDS_DRF_ASSIGNED","VDS_DRF_HOTSPARE","VDS_DRF_HOTSPARE_IN_USE","VDS_DRF_HOTSPARE_STANDBY","VDS_DRF_UNASSIGNED","VDS_DRIVE_FLAG","VDS_DRIVE_FLAG enumeration [VDS]","base.vds_drive_flag","vds/VDS_DRF_ASSIGNED","vds/VDS_DRF_HOTSPARE","vds/VDS_DRF_HOTSPARE_IN_USE","vds/VDS_DRF_HOTSPARE_STANDBY","vds/VDS_DRF_UNASSIGNED","vds/VDS_DRIVE_FLAG","vdshwprv/VDS_DRF_ASSIGNED","vdshwprv/VDS_DRF_HOTSPARE","vdshwprv/VDS_DRF_HOTSPARE_IN_USE","vdshwprv/VDS_DRF_HOTSPARE_STANDBY","vdshwprv/VDS_DRF_UNASSIGNED","vdshwprv/VDS_DRIVE_FLAG"]
 old-location: base\vds_drive_flag.htm
 tech.root: base

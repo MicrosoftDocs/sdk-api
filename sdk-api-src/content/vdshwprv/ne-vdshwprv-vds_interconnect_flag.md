@@ -1,7 +1,7 @@
 ---
 UID: NE:vdshwprv._VDS_INTERCONNECT_FLAG
 title: VDS_INTERCONNECT_FLAG (vdshwprv.h)
-description: Defines the set of interconnect types that subsystems can support.
+description: Defines the set of interconnect types that subsystems can support. (VDS_INTERCONNECT_FLAG)
 helpviewer_keywords: ["*PVDS_INTERCONNECT_FLAG","VDS_INTERCONNECT_FLAG","VDS_INTERCONNECT_FLAG enumeration","VDS_ITF_FIBRE_CHANNEL","VDS_ITF_ISCSI","VDS_ITF_PCI_RAID","VDS_ITF_SAS","base.vds_interconnect_flag","vds/VDS_INTERCONNECT_FLAG","vds/VDS_ITF_FIBRE_CHANNEL","vds/VDS_ITF_ISCSI","vds/VDS_ITF_PCI_RAID","vds/VDS_ITF_SAS","vdshwprv/VDS_INTERCONNECT_FLAG","vdshwprv/VDS_ITF_FIBRE_CHANNEL","vdshwprv/VDS_ITF_ISCSI","vdshwprv/VDS_ITF_PCI_RAID","vdshwprv/VDS_ITF_SAS"]
 old-location: base\vds_interconnect_flag.htm
 tech.root: base

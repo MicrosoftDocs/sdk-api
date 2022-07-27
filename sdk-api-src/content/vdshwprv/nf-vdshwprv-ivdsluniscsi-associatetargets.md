@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsLunIscsi.AssociateTargets
 title: IVdsLunIscsi::AssociateTargets (vdshwprv.h)
-description: Associates LUNs with subsystem iSCSI targets.
+description: Associates LUNs with subsystem iSCSI targets. (IVdsLunIscsi.AssociateTargets)
 helpviewer_keywords: ["AssociateTargets","AssociateTargets method [VDS]","AssociateTargets method [VDS]","IVdsLunIscsi interface","IVdsLunIscsi interface [VDS]","AssociateTargets method","IVdsLunIscsi.AssociateTargets","IVdsLunIscsi::AssociateTargets","base.ivdsluniscsi_associatetargets","vds/IVdsLunIscsi::AssociateTargets","vdshwprv/IVdsLunIscsi::AssociateTargets"]
 old-location: base\ivdsluniscsi_associatetargets.htm
 tech.root: base

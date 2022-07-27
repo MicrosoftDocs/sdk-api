@@ -1,7 +1,7 @@
 ---
 UID: NF:winnetwk.WNetGetLastErrorA
 title: WNetGetLastErrorA function (winnetwk.h)
-description: The WNetGetLastError function retrieves the most recent extended error code set by a WNet function. The network provider reported this error code; it will not generally be one of the errors included in the SDK header file WinError.h.
+description: The WNetGetLastError function retrieves the most recent extended error code set by a WNet function. The network provider reported this error code; it will not generally be one of the errors included in the SDK header file WinError.h. (ANSI)
 helpviewer_keywords: ["WNetGetLastError","WNetGetLastError function [Windows Networking (WNet)]","WNetGetLastErrorA","WNetGetLastErrorW","_win32_wnetgetlasterror","winnetwk/WNetGetLastError","winnetwk/WNetGetLastErrorA","winnetwk/WNetGetLastErrorW","wnet.wnetgetlasterror"]
 old-location: wnet\wnetgetlasterror.htm
 tech.root: WNet

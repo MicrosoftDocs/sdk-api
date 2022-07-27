@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DBaseTexture9.GetLOD
 title: IDirect3DBaseTexture9::GetLOD (d3d9helper.h)
-description: Returns a value clamped to the maximum level-of-detail set for a managed texture (this method is not supported for an unmanaged texture).
+description: Returns a value clamped to the maximum level-of-detail set for a managed texture (this method is not supported for an unmanaged texture). (IDirect3DBaseTexture9.GetLOD)
 helpviewer_keywords: ["GetLOD","GetLOD method [Direct3D 9]","GetLOD method [Direct3D 9]","IDirect3DBaseTexture9 interface","IDirect3DBaseTexture9 interface [Direct3D 9]","GetLOD method","IDirect3DBaseTexture9.GetLOD","IDirect3DBaseTexture9::GetLOD","a04e1586-ff6d-b7ed-c4b5-175ecbe9e41c","d3d9helper/IDirect3DBaseTexture9::GetLOD","direct3d9.idirect3dbasetexture9__getlod"]
 old-location: direct3d9\idirect3dbasetexture9__getlod.htm
 tech.root: direct3d9

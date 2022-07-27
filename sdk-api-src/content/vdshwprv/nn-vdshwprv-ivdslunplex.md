@@ -1,7 +1,7 @@
 ---
 UID: NN:vdshwprv.IVdsLunPlex
 title: IVdsLunPlex (vdshwprv.h)
-description: Provides methods for performing query and configuration operations on a LUN plex.
+description: Provides methods for performing query and configuration operations on a LUN plex. (IVdsLunPlex)
 helpviewer_keywords: ["IVdsLunPlex","IVdsLunPlex interface [VDS]","IVdsLunPlex interface [VDS]","described","base.ivdslunplex","vds/IVdsLunPlex","vdshwprv/IVdsLunPlex"]
 old-location: base\ivdslunplex.htm
 tech.root: base

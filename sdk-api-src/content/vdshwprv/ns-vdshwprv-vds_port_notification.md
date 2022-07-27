@@ -1,7 +1,7 @@
 ---
 UID: NS:vdshwprv._VDS_PORT_NOTIFICATION
 title: VDS_PORT_NOTIFICATION (vdshwprv.h)
-description: Defines the details of controller port events.
+description: Defines the details of controller port events. (VDS_PORT_NOTIFICATION)
 helpviewer_keywords: ["VDS_NF_PORT_ARRIVE","VDS_NF_PORT_DEPART","VDS_NF_PORT_MODIFY","VDS_NF_PORT_REMOVED","VDS_PORT_NOTIFICATION","VDS_PORT_NOTIFICATION structure [VDS]","base.vds_port_notification","vds/_VDS_PORT_NOTIFICATION","vdshwprv/_VDS_PORT_NOTIFICATION"]
 old-location: base\vds_port_notification.htm
 tech.root: base

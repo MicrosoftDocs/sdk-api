@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITTAPIObjectEvent.get_CallbackInstance
 title: ITTAPIObjectEvent::get_CallbackInstance (tapi3if.h)
-description: The get_CallbackInstance method gets a pointer to the callback instance associated with the event.
+description: The get_CallbackInstance method gets a pointer to the callback instance associated with the event. (ITTAPIObjectEvent.get_CallbackInstance)
 helpviewer_keywords: ["ITTAPIObjectEvent interface [TAPI 2.2]","get_CallbackInstance method","ITTAPIObjectEvent.get_CallbackInstance","ITTAPIObjectEvent::get_CallbackInstance","_tapi3_ittapiobjectevent_get_callbackinstance","get_CallbackInstance","get_CallbackInstance method [TAPI 2.2]","get_CallbackInstance method [TAPI 2.2]","ITTAPIObjectEvent interface","tapi3.ittapiobjectevent_get_callbackinstance","tapi3if/ITTAPIObjectEvent::get_CallbackInstance"]
 old-location: tapi3\ittapiobjectevent_get_callbackinstance.htm
 tech.root: tapi3

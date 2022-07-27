@@ -1,7 +1,7 @@
 ---
 UID: NF:winfax.FaxSetRoutingInfoA
 title: FaxSetRoutingInfoA function (winfax.h)
-description: A fax management application calls the FaxSetRoutingInfo function to modify the routing information for a fax routing method that is associated with a specific fax device.
+description: A fax management application calls the FaxSetRoutingInfo function to modify the routing information for a fax routing method that is associated with a specific fax device. (ANSI)
 helpviewer_keywords: ["FaxSetRoutingInfo","FaxSetRoutingInfo function [Fax Service]","FaxSetRoutingInfoA","FaxSetRoutingInfoW","_mfax_faxsetroutinginfo","fax._mfax_faxsetroutinginfo","winfax/FaxSetRoutingInfo","winfax/FaxSetRoutingInfoA","winfax/FaxSetRoutingInfoW"]
 old-location: fax\_mfax_faxsetroutinginfo.htm
 tech.root: Fax

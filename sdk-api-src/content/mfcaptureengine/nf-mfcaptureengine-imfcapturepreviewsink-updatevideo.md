@@ -1,7 +1,7 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.UpdateVideo
 title: IMFCapturePreviewSink::UpdateVideo (mfcaptureengine.h)
-description: Updates the video frame.
+description: Updates the video frame. (IMFCapturePreviewSink.UpdateVideo)
 helpviewer_keywords: ["IMFCapturePreviewSink interface [Media Foundation]","UpdateVideo method","IMFCapturePreviewSink.UpdateVideo","IMFCapturePreviewSink::UpdateVideo","UpdateVideo","UpdateVideo method [Media Foundation]","UpdateVideo method [Media Foundation]","IMFCapturePreviewSink interface","mf.imfcapturepreviewsink_updatevideo","mfcaptureengine/IMFCapturePreviewSink::UpdateVideo"]
 old-location: mf\imfcapturepreviewsink_updatevideo.htm
 tech.root: mf

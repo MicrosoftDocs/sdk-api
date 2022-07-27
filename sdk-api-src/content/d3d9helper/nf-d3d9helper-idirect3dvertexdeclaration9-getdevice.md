@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DVertexDeclaration9.GetDevice
 title: IDirect3DVertexDeclaration9::GetDevice (d3d9helper.h)
-description: Gets the current device.
+description: Gets the current device. (IDirect3DVertexDeclaration9.GetDevice)
 helpviewer_keywords: ["06ae2ca9-697f-c95d-8f0b-7e78f6bb21dd","GetDevice","GetDevice method [Direct3D 9]","GetDevice method [Direct3D 9]","IDirect3DVertexDeclaration9 interface","IDirect3DVertexDeclaration9 interface [Direct3D 9]","GetDevice method","IDirect3DVertexDeclaration9.GetDevice","IDirect3DVertexDeclaration9::GetDevice","d3d9helper/IDirect3DVertexDeclaration9::GetDevice","direct3d9.idirect3dvertexdeclaration9__getdevice"]
 old-location: direct3d9\idirect3dvertexdeclaration9__getdevice.htm
 tech.root: direct3d9

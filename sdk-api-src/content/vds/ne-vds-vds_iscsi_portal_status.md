@@ -1,7 +1,7 @@
 ---
 UID: NE:vds._VDS_ISCSI_PORTAL_STATUS
 title: VDS_ISCSI_PORTAL_STATUS (vds.h)
-description: Defines the set of valid status values for an iSCSI portal.
+description: Defines the set of valid status values for an iSCSI portal. (VDS_ISCSI_PORTAL_STATUS)
 helpviewer_keywords: ["VDS_IPS_FAILED","VDS_IPS_NOT_READY","VDS_IPS_OFFLINE","VDS_IPS_ONLINE","VDS_IPS_UNKNOWN","VDS_ISCSI_PORTAL_STATUS","VDS_ISCSI_PORTAL_STATUS enumeration [VDS]","base.vds_iscsi_portal_status","vds/VDS_IPS_FAILED","vds/VDS_IPS_NOT_READY","vds/VDS_IPS_OFFLINE","vds/VDS_IPS_ONLINE","vds/VDS_IPS_UNKNOWN","vds/VDS_ISCSI_PORTAL_STATUS","vdshwprv/VDS_IPS_FAILED","vdshwprv/VDS_IPS_NOT_READY","vdshwprv/VDS_IPS_OFFLINE","vdshwprv/VDS_IPS_ONLINE","vdshwprv/VDS_IPS_UNKNOWN","vdshwprv/VDS_ISCSI_PORTAL_STATUS"]
 old-location: base\vds_iscsi_portal_status.htm
 tech.root: base

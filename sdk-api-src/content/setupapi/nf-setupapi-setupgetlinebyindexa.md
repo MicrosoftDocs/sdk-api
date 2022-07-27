@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupGetLineByIndexA
 title: SetupGetLineByIndexA function (setupapi.h)
-description: The SetupGetLineByIndex function locates a line by its index value in the specified section in the INF file.
+description: The SetupGetLineByIndex function locates a line by its index value in the specified section in the INF file. (ANSI)
 helpviewer_keywords: ["SetupGetLineByIndex","SetupGetLineByIndex function [Setup API]","SetupGetLineByIndexA","SetupGetLineByIndexW","_setupapi_setupgetlinebyindex","setup.setupgetlinebyindex","setupapi/SetupGetLineByIndex","setupapi/SetupGetLineByIndexA","setupapi/SetupGetLineByIndexW"]
 old-location: setup\setupgetlinebyindex.htm
 tech.root: setup

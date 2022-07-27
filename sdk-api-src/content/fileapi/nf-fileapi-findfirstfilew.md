@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.FindFirstFileW
 title: FindFirstFileW function (fileapi.h)
-description: Searches a directory for a file or subdirectory with a name that matches a specific name (or partial name if wildcards are used).
+description: Searches a directory for a file or subdirectory with a name that matches a specific name (or partial name if wildcards are used). (Unicode)
 helpviewer_keywords: ["FindFirstFile","FindFirstFile function [Files]","FindFirstFileA","FindFirstFileW","_win32_findfirstfile","base.findfirstfile","fileapi/FindFirstFile","fileapi/FindFirstFileA","fileapi/FindFirstFileW","fs.findfirstfile","winbase/FindFirstFile","winbase/FindFirstFileA","winbase/FindFirstFileW"]
 old-location: fs\findfirstfile.htm
 tech.root: fs

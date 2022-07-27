@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathGetDriveNumberW
 title: PathGetDriveNumberW function (shlwapi.h)
-description: Searches a path for a drive letter within the range of 'A' to 'Z' and returns the corresponding drive number.
+description: Searches a path for a drive letter within the range of 'A' to 'Z' and returns the corresponding drive number. (Unicode)
 helpviewer_keywords: ["PathGetDriveNumber","PathGetDriveNumber function [Windows Shell]","PathGetDriveNumberA","PathGetDriveNumberW","_win32_PathGetDriveNumber","shell.PathGetDriveNumber","shlwapi/PathGetDriveNumber","shlwapi/PathGetDriveNumberA","shlwapi/PathGetDriveNumberW"]
 old-location: shell\PathGetDriveNumber.htm
 tech.root: shell

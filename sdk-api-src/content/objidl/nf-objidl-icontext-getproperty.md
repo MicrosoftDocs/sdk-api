@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IContext.GetProperty
 title: IContext::GetProperty (objidl.h)
-description: Retrieves the specified context property from the context.
+description: Retrieves the specified context property from the context. (IContext.GetProperty)
 helpviewer_keywords: ["GetProperty","GetProperty method [COM]","GetProperty method [COM]","IContext interface","IContext interface [COM]","GetProperty method","IContext.GetProperty","IContext::GetProperty","_com_icontext_getproperty","com.icontext_getproperty","objidlbase/IContext::GetProperty"]
 old-location: com\icontext_getproperty.htm
 tech.root: com

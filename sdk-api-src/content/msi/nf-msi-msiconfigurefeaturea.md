@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiConfigureFeatureA
 title: MsiConfigureFeatureA function (msi.h)
-description: The MsiConfigureFeature function configures the installed state for a product feature.
+description: The MsiConfigureFeature function configures the installed state for a product feature. (ANSI)
 helpviewer_keywords: ["INSTALLSTATE_ABSENT","INSTALLSTATE_ADVERTISED","INSTALLSTATE_DEFAULT","INSTALLSTATE_LOCAL","INSTALLSTATE_SOURCE","MsiConfigureFeature","MsiConfigureFeature function","MsiConfigureFeatureA","MsiConfigureFeatureW","_msi_msiconfigurefeature","msi/MsiConfigureFeature","msi/MsiConfigureFeatureA","msi/MsiConfigureFeatureW","setup.msiconfigurefeature"]
 old-location: setup\msiconfigurefeature.htm
 tech.root: setup

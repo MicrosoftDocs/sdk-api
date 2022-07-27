@@ -1,7 +1,7 @@
 ---
 UID: NE:msclus.CLUSTER_NETWORK_ENUM
 title: CLUSTER_NETWORK_ENUM (msclus.h)
-description: Describes the type of cluster object being enumerated by the ClusterNetworkEnum and ClusterNetworkOpenEnum functions.
+description: Describes the type of cluster object being enumerated by the ClusterNetworkEnum and ClusterNetworkOpenEnum functions. (CLUSTER_NETWORK_ENUM)
 helpviewer_keywords: ["CLUSTER_NETWORK_ENUM","CLUSTER_NETWORK_ENUM enumeration [Failover Cluster]","CLUSTER_NETWORK_ENUM_ALL","CLUSTER_NETWORK_ENUM_NETINTERFACES","_CLUSTER_NETWORK_ENUM","_CLUSTER_NETWORK_ENUM enumeration [Failover Cluster]","clusapi/CLUSTER_NETWORK_ENUM","clusapi/CLUSTER_NETWORK_ENUM_ALL","clusapi/CLUSTER_NETWORK_ENUM_NETINTERFACES","clusapi/_CLUSTER_NETWORK_ENUM","msclus/CLUSTER_NETWORK_ENUM","msclus/CLUSTER_NETWORK_ENUM_ALL","msclus/CLUSTER_NETWORK_ENUM_NETINTERFACES","msclus/_CLUSTER_NETWORK_ENUM","mscs.cluster_network_enum"]
 old-location: mscs\cluster_network_enum.htm
 tech.root: MsCS

@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsIscsiPortalLocal.SetIpsecSecurityLocal
 title: IVdsIscsiPortalLocal::SetIpsecSecurityLocal (vds.h)
-description: Not supported.This method is reserved for future use.
+description: Not supported.This method is reserved for future use. (IVdsIscsiPortalLocal.SetIpsecSecurityLocal)
 helpviewer_keywords: ["IVdsIscsiPortalLocal interface [VDS]","SetIpsecSecurityLocal method","IVdsIscsiPortalLocal.SetIpsecSecurityLocal","IVdsIscsiPortalLocal::SetIpsecSecurityLocal","SetIpsecSecurityLocal","SetIpsecSecurityLocal method [VDS]","SetIpsecSecurityLocal method [VDS]","IVdsIscsiPortalLocal interface","base.ivdsiscsiportallocal_setipsecsecuritylocal","vds/IVdsIscsiPortalLocal::SetIpsecSecurityLocal"]
 old-location: base\ivdsiscsiportallocal_setipsecsecuritylocal.htm
 tech.root: base

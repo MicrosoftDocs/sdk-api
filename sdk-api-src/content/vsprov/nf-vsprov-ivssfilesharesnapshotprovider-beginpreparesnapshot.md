@@ -1,7 +1,7 @@
 ---
 UID: NF:vsprov.IVssFileShareSnapshotProvider.BeginPrepareSnapshot
 title: IVssFileShareSnapshotProvider::BeginPrepareSnapshot (vsprov.h)
-description: VSS calls this method for each shadow copy that is added to the shadow copy set.
+description: VSS calls this method for each shadow copy that is added to the shadow copy set. (IVssFileShareSnapshotProvider.BeginPrepareSnapshot)
 helpviewer_keywords: ["BeginPrepareSnapshot","BeginPrepareSnapshot method [VSS]","BeginPrepareSnapshot method [VSS]","IVssFileShareSnapshotProvider interface","IVssFileShareSnapshotProvider interface [VSS]","BeginPrepareSnapshot method","IVssFileShareSnapshotProvider.BeginPrepareSnapshot","IVssFileShareSnapshotProvider::BeginPrepareSnapshot","base.ivssfilesharesnapshotprovider_beginpreparesnapshot","vsprov/IVssFileShareSnapshotProvider::BeginPrepareSnapshot"]
 old-location: base\ivssfilesharesnapshotprovider_beginpreparesnapshot.htm
 tech.root: base

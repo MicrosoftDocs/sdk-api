@@ -1,7 +1,7 @@
 ---
 UID: NF:pdh.PdhEnumLogSetNamesA
 title: PdhEnumLogSetNamesA function (pdh.h)
-description: Enumerates the names of the log sets within the DSN.
+description: Enumerates the names of the log sets within the DSN. (ANSI)
 helpviewer_keywords: ["PdhEnumLogSetNames","PdhEnumLogSetNames function [Perf]","PdhEnumLogSetNamesA","PdhEnumLogSetNamesW","_win32_pdhenumlogsetnames","base.pdhenumlogsetnames","pdh/PdhEnumLogSetNames","pdh/PdhEnumLogSetNamesA","pdh/PdhEnumLogSetNamesW","perf.pdhenumlogsetnames"]
 old-location: perf\pdhenumlogsetnames.htm
 tech.root: perf

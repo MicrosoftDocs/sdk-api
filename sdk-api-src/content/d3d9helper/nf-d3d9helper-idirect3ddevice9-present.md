@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.Present
 title: IDirect3DDevice9::Present (d3d9helper.h)
-description: Presents the contents of the next buffer in the sequence of back buffers owned by the device.
+description: Presents the contents of the next buffer in the sequence of back buffers owned by the device. (IDirect3DDevice9.Present)
 helpviewer_keywords: ["IDirect3DDevice9 interface [Direct3D 9]","Present method","IDirect3DDevice9.Present","IDirect3DDevice9::Present","Present","Present method [Direct3D 9]","Present method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::Present","dec6b9d2-0577-093b-3855-599ed58adc87","direct3d9.idirect3ddevice9__present"]
 old-location: direct3d9\idirect3ddevice9__present.htm
 tech.root: direct3d9

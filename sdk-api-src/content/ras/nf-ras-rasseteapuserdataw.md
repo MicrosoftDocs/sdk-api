@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasSetEapUserDataW
 title: RasSetEapUserDataW function (ras.h)
-description: Use the RasSetEapUserData function to store user-specific Extensible Authentication Protocol (EAP) information for the specified phone-book entry in the registry.
+description: Use the RasSetEapUserData function to store user-specific Extensible Authentication Protocol (EAP) information for the specified phone-book entry in the registry. (Unicode)
 helpviewer_keywords: ["RasSetEapUserData","RasSetEapUserData function [RAS]","RasSetEapUserDataA","RasSetEapUserDataW","_ras_rasseteapuserdata","ras/RasSetEapUserData","ras/RasSetEapUserDataA","ras/RasSetEapUserDataW","rras.rasseteapuserdata"]
 old-location: rras\rasseteapuserdata.htm
 tech.root: RRAS

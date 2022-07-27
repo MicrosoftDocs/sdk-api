@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiGetTargetPathW
 title: MsiGetTargetPathW function (msiquery.h)
-description: The MsiGetTargetPath function returns the full target path for a folder in the Directory table.
+description: The MsiGetTargetPath function returns the full target path for a folder in the Directory table. (Unicode)
 helpviewer_keywords: ["MsiGetTargetPath","MsiGetTargetPath function","MsiGetTargetPathA","MsiGetTargetPathW","_msi_msigettargetpath","msiquery/MsiGetTargetPath","msiquery/MsiGetTargetPathA","msiquery/MsiGetTargetPathW","setup.msigettargetpath"]
 old-location: setup\msigettargetpath.htm
 tech.root: setup

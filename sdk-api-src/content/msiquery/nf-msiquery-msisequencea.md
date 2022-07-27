@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiSequenceA
 title: MsiSequenceA function (msiquery.h)
-description: The MsiSequence function executes another action sequence, as described in the specified table.
+description: The MsiSequence function executes another action sequence, as described in the specified table. (ANSI)
 helpviewer_keywords: ["MsiSequence","MsiSequence function","MsiSequenceA","MsiSequenceW","_msi_msisequence","msiquery/MsiSequence","msiquery/MsiSequenceA","msiquery/MsiSequenceW","setup.msisequence"]
 old-location: setup\msisequence.htm
 tech.root: setup

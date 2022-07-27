@@ -1,7 +1,7 @@
 ---
 UID: NF:ole2.OleCreate
 title: OleCreate function (ole2.h)
-description: Creates an embedded object identified by a CLSID. You use it typically to implement the menu item that allows the end user to insert a new object.
+description: Creates an embedded object identified by a CLSID. You use it typically to implement the menu item that allows the end user to insert a new object. (OleCreate)
 helpviewer_keywords: ["OleCreate","OleCreate function [COM]","_ole_OleCreate","com.olecreate","ole/OleCreate"]
 old-location: com\olecreate.htm
 tech.root: com

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetRasterStatus
 title: IDirect3DDevice9::GetRasterStatus (d3d9helper.h)
-description: Returns information describing the raster of the monitor on which the swap chain is presented.
+description: Returns information describing the raster of the monitor on which the swap chain is presented. (IDirect3DDevice9.GetRasterStatus)
 helpviewer_keywords: ["GetRasterStatus","GetRasterStatus method [Direct3D 9]","GetRasterStatus method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetRasterStatus method","IDirect3DDevice9.GetRasterStatus","IDirect3DDevice9::GetRasterStatus","a1fc6bf1-1e43-8a94-f293-1f38f3147f02","d3d9helper/IDirect3DDevice9::GetRasterStatus","direct3d9.idirect3ddevice9__getrasterstatus"]
 old-location: direct3d9\idirect3ddevice9__getrasterstatus.htm
 tech.root: direct3d9

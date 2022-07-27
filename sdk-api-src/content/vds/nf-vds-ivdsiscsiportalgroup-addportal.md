@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsIscsiPortalGroup.AddPortal
 title: IVdsIscsiPortalGroup::AddPortal (vds.h)
-description: Adds a portal to a portal group.
+description: Adds a portal to a portal group. (IVdsIscsiPortalGroup.AddPortal)
 helpviewer_keywords: ["AddPortal","AddPortal method [VDS]","AddPortal method [VDS]","IVdsIscsiPortalGroup interface","IVdsIscsiPortalGroup interface [VDS]","AddPortal method","IVdsIscsiPortalGroup.AddPortal","IVdsIscsiPortalGroup::AddPortal","base.ivdsiscsiportalgroup_addportal","vds/IVdsIscsiPortalGroup::AddPortal","vdshwprv/IVdsIscsiPortalGroup::AddPortal"]
 old-location: base\ivdsiscsiportalgroup_addportal.htm
 tech.root: base

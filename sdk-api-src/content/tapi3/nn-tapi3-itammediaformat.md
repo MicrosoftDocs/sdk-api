@@ -1,7 +1,7 @@
 ---
 UID: NN:tapi3.ITAMMediaFormat
 title: ITAMMediaFormat (tapi3.h)
-description: The ITAMMediaFormat interface sets and gets DirectShow media format.
+description: The ITAMMediaFormat interface sets and gets DirectShow media format. (ITAMMediaFormat)
 helpviewer_keywords: ["ITAMMediaFormat","ITAMMediaFormat interface [TAPI 2.2]","ITAMMediaFormat interface [TAPI 2.2]","described","_tapi3_itammediaformat","tapi3.itammediaformat","tapi3ds/ITAMMediaFormat"]
 old-location: tapi3\itammediaformat.htm
 tech.root: tapi3

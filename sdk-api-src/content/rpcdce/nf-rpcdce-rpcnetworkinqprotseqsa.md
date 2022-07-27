@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcNetworkInqProtseqsA
 title: RpcNetworkInqProtseqsA function (rpcdce.h)
-description: The RpcNetworkInqProtseqs function returns all protocol sequences supported by both the RPC run-time library and the operating system.
+description: The RpcNetworkInqProtseqs function returns all protocol sequences supported by both the RPC run-time library and the operating system. (RpcNetworkInqProtseqsA)
 helpviewer_keywords: ["RpcNetworkInqProtseqs","RpcNetworkInqProtseqs function [RPC]","RpcNetworkInqProtseqsA","RpcNetworkInqProtseqsW","_rpc_rpcnetworkinqprotseqs","rpc.rpcnetworkinqprotseqs","rpcdce/RpcNetworkInqProtseqs","rpcdce/RpcNetworkInqProtseqsA","rpcdce/RpcNetworkInqProtseqsW"]
 old-location: rpc\rpcnetworkinqprotseqs.htm
 tech.root: Rpc

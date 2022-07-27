@@ -1,7 +1,7 @@
 ---
 UID: NS:dbghelp._SRCCODEINFOW
 title: SRCCODEINFOW (dbghelp.h)
-description: Contains line information.
+description: Contains line information. (SRCCODEINFOW)
 helpviewer_keywords: ["*PSRCCODEINFOW","PSRCCODEINFO","PSRCCODEINFO structure pointer","SRCCODEINFO","SRCCODEINFO structure","SRCCODEINFOW","_SRCCODEINFO","_SRCCODEINFOW","base.srccodeinfo_str","dbghelp/PSRCCODEINFO","dbghelp/SRCCODEINFO","dbghelp/SRCCODEINFOW"]
 old-location: base\srccodeinfo_str.htm
 tech.root: Debug

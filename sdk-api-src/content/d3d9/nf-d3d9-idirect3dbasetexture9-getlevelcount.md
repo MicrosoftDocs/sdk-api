@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DBaseTexture9.GetLevelCount
 title: IDirect3DBaseTexture9::GetLevelCount (d3d9.h)
-description: Returns the number of texture levels in a multilevel texture.
+description: Returns the number of texture levels in a multilevel texture. (IDirect3DBaseTexture9.GetLevelCount)
 helpviewer_keywords: ["GetLevelCount","GetLevelCount method [Direct3D 9]","GetLevelCount method [Direct3D 9]","IDirect3DBaseTexture9 interface","IDirect3DBaseTexture9 interface [Direct3D 9]","GetLevelCount method","IDirect3DBaseTexture9.GetLevelCount","IDirect3DBaseTexture9::GetLevelCount","d1e2b647-f3f4-ac84-e24e-feeb8e0c6bf8","d3d9helper/IDirect3DBaseTexture9::GetLevelCount","direct3d9.idirect3dbasetexture9__getlevelcount"]
 old-location: direct3d9\idirect3dbasetexture9__getlevelcount.htm
 tech.root: direct3d9

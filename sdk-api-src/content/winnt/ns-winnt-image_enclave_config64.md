@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._IMAGE_ENCLAVE_CONFIG64
 title: IMAGE_ENCLAVE_CONFIG64 (winnt.h)
-description: Defines the format of the enclave configuration for systems running 32-bit Windows.
+description: Defines the format of the enclave configuration for systems running 32-bit Windows. (64 bit)
 helpviewer_keywords: ["*PIMAGE_ENCLAVE_CONFIG64","IMAGE_ENCLAVE_CONFIG","IMAGE_ENCLAVE_CONFIG32","IMAGE_ENCLAVE_CONFIG32 structure","IMAGE_ENCLAVE_CONFIG64","IMAGE_ENCLAVE_FLAG_PRIMARY_IMAGE","IMAGE_ENCLAVE_POLICY_DEBUGGABLE","PIMAGE_ENCLAVE_CONFIG32","PIMAGE_ENCLAVE_CONFIG32 structure pointer","_IMAGE_ENCLAVE_CONFIG32","base.image_enclave_config","base.image_enclave_config32","winnt/IMAGE_ENCLAVE_CONFIG32","winnt/PIMAGE_ENCLAVE_CONFIG32"]
 old-location: base\image_enclave_config32.htm
 tech.root: base

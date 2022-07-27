@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.CreateIconFromResource
 title: CreateIconFromResource function (winuser.h)
-description: Creates an icon or cursor from resource bits describing the icon.
+description: Creates an icon or cursor from resource bits describing the icon. (CreateIconFromResource)
 helpviewer_keywords: ["CreateIconFromResource","CreateIconFromResource function [Menus and Other Resources]","_win32_CreateIconFromResource","_win32_createiconfromresource_cpp","menurc.createiconfromresource","winui._win32_createiconfromresource","winuser/CreateIconFromResource"]
 old-location: menurc\createiconfromresource.htm
 tech.root: menurc

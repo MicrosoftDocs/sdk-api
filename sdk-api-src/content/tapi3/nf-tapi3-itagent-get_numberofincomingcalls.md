@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3.ITAgent.get_NumberOfIncomingCalls
 title: ITAgent::get_NumberOfIncomingCalls (tapi3.h)
-description: The get_NumberOfIncomingCalls method gets the number of incoming non-ACD calls handled by this agent.
+description: The get_NumberOfIncomingCalls method gets the number of incoming non-ACD calls handled by this agent. (ITAgent.get_NumberOfIncomingCalls)
 helpviewer_keywords: ["ITAgent interface [TAPI 2.2]","get_NumberOfIncomingCalls method","ITAgent.get_NumberOfIncomingCalls","ITAgent::get_NumberOfIncomingCalls","_tapi3_itagent_get_numberofincomingcalls","get_NumberOfIncomingCalls","get_NumberOfIncomingCalls method [TAPI 2.2]","get_NumberOfIncomingCalls method [TAPI 2.2]","ITAgent interface","tapi3.itagent_get_numberofincomingcalls","tapi3cc/ITAgent::get_NumberOfIncomingCalls"]
 old-location: tapi3\itagent_get_numberofincomingcalls.htm
 tech.root: tapi3

@@ -1,7 +1,7 @@
 ---
 UID: NC:dbghelp.PFIND_DEBUG_FILE_CALLBACK
 title: PFIND_DEBUG_FILE_CALLBACK (dbghelp.h)
-description: An application-defined callback function used with the FindDebugInfoFileEx function. It verifies whether the symbol file located by FindDebugInfoFileEx is the correct symbol file.
+description: An application-defined callback function used with the FindDebugInfoFileEx function. It verifies whether the symbol file located by FindDebugInfoFileEx is the correct symbol file.F
 helpviewer_keywords: ["FindDebugInfoFileProc","FindDebugInfoFileProc callback","FindDebugInfoFileProc callback function","PFIND_DEBUG_FILE_CALLBACK","PFIND_DEBUG_FILE_CALLBACKW","_win32_finddebuginfofileproc","base.finddebuginfofileproc","dbghelp/FindDebugInfoFileProc"]
 old-location: base\finddebuginfofileproc.htm
 tech.root: Debug

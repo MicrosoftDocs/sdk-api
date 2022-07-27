@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetUserObjectInformationA
 title: GetUserObjectInformationA function (winuser.h)
-description: Retrieves information about the specified window station or desktop object.
+description: Retrieves information about the specified window station or desktop object. (ANSI)
 helpviewer_keywords: ["GetUserObjectInformation","GetUserObjectInformation function [Windows Stations and Desktops]","GetUserObjectInformationA","GetUserObjectInformationW","UOI_FLAGS","UOI_HEAPSIZE","UOI_IO","UOI_NAME","UOI_TYPE","UOI_USER_SID","_win32_getuserobjectinformation","base.getuserobjectinformation","winstation.getuserobjectinformation","winuser/GetUserObjectInformation","winuser/GetUserObjectInformationA","winuser/GetUserObjectInformationW"]
 old-location: winstation\getuserobjectinformation.htm
 tech.root: winstation

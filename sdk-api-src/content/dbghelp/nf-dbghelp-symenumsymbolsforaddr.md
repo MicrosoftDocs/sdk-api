@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymEnumSymbolsForAddr
 title: SymEnumSymbolsForAddr function (dbghelp.h)
-description: Enumerates the symbols for the specified address.
+description: Enumerates the symbols for the specified address. (SymEnumSymbolsForAddrW)
 helpviewer_keywords: ["SymEnumSymbolsForAddr","SymEnumSymbolsForAddr function","SymEnumSymbolsForAddrW","_win32_symenumsymbolsforaddr","base.symenumsymbolsforaddr","dbghelp/SymEnumSymbolsForAddr","dbghelp/SymEnumSymbolsForAddrW"]
 old-location: base\symenumsymbolsforaddr.htm
 tech.root: Debug

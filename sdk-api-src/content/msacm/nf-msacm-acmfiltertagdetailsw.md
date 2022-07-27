@@ -1,7 +1,7 @@
 ---
 UID: NF:msacm.acmFilterTagDetailsW
 title: acmFilterTagDetailsW function (msacm.h)
-description: The acmFilterTagDetails function queries the ACM for details about a specific waveform-audio filter tag.
+description: The acmFilterTagDetails function queries the ACM for details about a specific waveform-audio filter tag. (acmFilterTagDetailsW)
 helpviewer_keywords: ["_win32_acmFilterTagDetails","acmFilterTagDetails","acmFilterTagDetails function [Windows Multimedia]","acmFilterTagDetailsA","acmFilterTagDetailsW","msacm/acmFilterTagDetails","msacm/acmFilterTagDetailsA","msacm/acmFilterTagDetailsW","multimedia.acmfiltertagdetails"]
 old-location: multimedia\acmfiltertagdetails.htm
 tech.root: Multimedia

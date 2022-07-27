@@ -1,7 +1,7 @@
 ---
 UID: NS:vdshwprv._VDS_PATH_INFO
 title: VDS_PATH_INFO (vdshwprv.h)
-description: Defines the information for a LUN path. This structure is returned in the ppPaths parameter of the IVdsLunMpio::GetPathInfo method.
+description: Defines the information for a LUN path. This structure is returned in the ppPaths parameter of the IVdsLunMpio::GetPathInfo method. (VDS_PATH_INFO)
 helpviewer_keywords: ["VDS_PATH_INFO","VDS_PATH_INFO structure","base.vds_path_info","vds/VDS_PATH_INFO","vdshwprv/VDS_PATH_INFO"]
 old-location: base\vds_path_info.htm
 tech.root: base

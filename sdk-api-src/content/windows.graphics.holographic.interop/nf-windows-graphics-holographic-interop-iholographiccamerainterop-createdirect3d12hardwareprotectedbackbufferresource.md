@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.graphics.holographic.interop.IHolographicCameraInterop.CreateDirect3D12HardwareProtectedBackBufferResource
 title: IHolographicCameraInterop::CreateDirect3D12HardwareProtectedBackBufferResource
-description: Creates a Direct3D 12 resource for use as a content buffer for the camera, with optional hardware protection.
+description: Creates a Direct3D 12 resource for use as a content buffer for the camera, with optional hardware protection.I
 tech.root: direct3d12
 ms.date: 12/12/2019
 targetos: Windows

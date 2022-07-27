@@ -1,7 +1,7 @@
 ---
 UID: NS:imm.tagIMECHARPOSITION
 title: IMECHARPOSITION (imm.h)
-description: Contains information about the character position in the composition window.
+description: Contains information about the character position in the composition window. (IMECHARPOSITION)
 helpviewer_keywords: ["*LPIMECHARPOSITION","*NPIMECHARPOSITION","*PIMECHARPOSITION","IMECHARPOSITION","IMECHARPOSITION structure [Internationalization for Windows Applications]","PIMECHARPOSITION","PIMECHARPOSITION structure pointer [Internationalization for Windows Applications]","_win32_IMECHARPOSITION_str","imm/IMECHARPOSITION","imm/PIMECHARPOSITION","intl.imecharposition","tagIMECHARPOSITION"]
 old-location: intl\imecharposition.htm
 tech.root: Intl

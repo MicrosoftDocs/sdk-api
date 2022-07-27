@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock.sendto
 title: sendto function (winsock.h)
-description: The sendto function sends data to a specific destination.
+description: The sendto function sends data to a specific destination. (sendto)
 helpviewer_keywords: ["_win32_sendto_2","sendto","sendto function [Winsock]","winsock.sendto_2","winsock/sendto"]
 old-location: winsock\sendto_2.htm
 tech.root: WinSock

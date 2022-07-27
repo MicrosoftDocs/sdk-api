@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_first_attributeA
 title: ldap_first_attributeA function (winldap.h)
-description: Returns the first attribute.
+description: Returns the first attribute. (ldap_first_attributeA)
 helpviewer_keywords: ["_ldap_ldap_first_attribute","ldap.ldap__first__attribute","ldap.ldap_first_attribute","ldap_first_attribute","ldap_first_attribute function [LDAP]","ldap_first_attributeA","ldap_first_attributeW","winldap/ldap_first_attribute","winldap/ldap_first_attributeA","winldap/ldap_first_attributeW"]
 old-location: ldap\ldap_first_attribute.htm
 tech.root: ldap

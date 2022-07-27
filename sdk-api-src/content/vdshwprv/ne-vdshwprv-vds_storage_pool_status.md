@@ -1,7 +1,7 @@
 ---
 UID: NE:vdshwprv._VDS_STORAGE_POOL_STATUS
 title: VDS_STORAGE_POOL_STATUS (vdshwprv.h)
-description: Defines the set of object status values for a storage pool.
+description: Defines the set of object status values for a storage pool. (VDS_STORAGE_POOL_STATUS)
 helpviewer_keywords: ["VDS_SPS_NOT_READY","VDS_SPS_OFFLINE","VDS_SPS_ONLINE","VDS_SPS_UNKNOWN","VDS_STORAGE_POOL_STATUS","VDS_STORAGE_POOL_STATUS enumeration","base.vds_storage_pool_status","vds/VDS_SPS_NOT_READY","vds/VDS_SPS_OFFLINE","vds/VDS_SPS_ONLINE","vds/VDS_SPS_UNKNOWN","vds/VDS_STORAGE_POOL_STATUS","vdshwprv/VDS_SPS_NOT_READY","vdshwprv/VDS_SPS_OFFLINE","vdshwprv/VDS_SPS_ONLINE","vdshwprv/VDS_SPS_UNKNOWN","vdshwprv/VDS_STORAGE_POOL_STATUS"]
 old-location: base\vds_storage_pool_status.htm
 tech.root: base

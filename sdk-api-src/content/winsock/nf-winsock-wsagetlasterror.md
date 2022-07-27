@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock.WSAGetLastError
 title: WSAGetLastError function (winsock.h)
-description: Returns the error status for the last Windows Sockets operation that failed.
+description: Returns the error status for the last Windows Sockets operation that failed. (WSAGetLastError)
 helpviewer_keywords: ["WSAGetLastError","WSAGetLastError function [Winsock]","_win32_wsagetlasterror_2","winsock.wsagetlasterror_2","winsock/WSAGetLastError"]
 old-location: winsock\wsagetlasterror_2.htm
 tech.root: WinSock

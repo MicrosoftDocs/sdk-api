@@ -1,7 +1,7 @@
 ---
 UID: NF:winineti.InternetGetConnectedStateEx
 title: InternetGetConnectedStateEx function (winineti.h)
-description: Note  Using this API is not recommended, use the INetworkListManager::GetConnectivity method instead. Retrieves the connected state of the specified Internet connection.
+description: Note  Using this API is not recommended, use the INetworkListManager::GetConnectivity method instead. Retrieves the connected state of the specified Internet connection. (InternetGetConnectedStateExW)
 helpviewer_keywords: ["INTERNET_CONNECTION_CONFIGURED","INTERNET_CONNECTION_LAN","INTERNET_CONNECTION_MODEM","INTERNET_CONNECTION_MODEM_BUSY","INTERNET_CONNECTION_OFFLINE","INTERNET_CONNECTION_PROXY","InternetGetConnectedStateEx","InternetGetConnectedStateEx function [WinINet]","InternetGetConnectedStateExA","InternetGetConnectedStateExW","_inet_internetgetconnectedstateex_function","wininet.internetgetconnectedstateex","winineti/InternetGetConnectedStateEx","winineti/InternetGetConnectedStateExA","winineti/InternetGetConnectedStateExW"]
 old-location: wininet\internetgetconnectedstateex.htm
 tech.root: wininet

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12Debug.EnableDebugLayer
 title: ID3D12Debug::EnableDebugLayer (d3d12sdklayers.h)
-description: Enables the debug layer.
+description: Enables the debug layer. (ID3D12Debug.EnableDebugLayer)
 helpviewer_keywords: ["EnableDebugLayer","EnableDebugLayer method","EnableDebugLayer method","ID3D12Debug interface","ID3D12Debug interface","EnableDebugLayer method","ID3D12Debug.EnableDebugLayer","ID3D12Debug::EnableDebugLayer","d3d12sdklayers/ID3D12Debug::EnableDebugLayer","direct3d12.id3d12debug_enabledebuglayer"]
 old-location: direct3d12\id3d12debug_enabledebuglayer.htm
 tech.root: direct3d12

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IEmailAction.put_Cc
 title: IEmailAction::put_Cc (taskschd.h)
-description: Gets or sets the email address or addresses that you want to Cc in the email message.
+description: Gets or sets the email address or addresses that you want to Cc in the email message. (Put)
 helpviewer_keywords: ["Cc property [Task Scheduler]","Cc property [Task Scheduler]","IEmailAction interface","IEmailAction interface [Task Scheduler]","Cc property","IEmailAction.Cc","IEmailAction.put_Cc","IEmailAction::Cc","IEmailAction::get_Cc","IEmailAction::put_Cc","put_Cc","taskschd.iemailaction_cc","taskschd/IEmailAction::Cc","taskschd/IEmailAction::get_Cc","taskschd/IEmailAction::put_Cc"]
 old-location: taskschd\iemailaction_cc.htm
 tech.root: taskschd

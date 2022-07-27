@@ -1,7 +1,7 @@
 ---
 UID: NF:winineti.DeleteUrlCacheContainerA
 title: DeleteUrlCacheContainerA function (winineti.h)
-description: Deletes a cache container (which contains cache entries) based on the specified name.
+description: Deletes a cache container (which contains cache entries) based on the specified name. (ANSI)
 helpviewer_keywords: ["DeleteUrlCacheContainer","DeleteUrlCacheContainer function [WinINet]","DeleteUrlCacheContainerA","DeleteUrlCacheContainerW","wininet.deleteurlcachecontainer","winineti/DeleteUrlCacheContainer","winineti/DeleteUrlCacheContainerA","winineti/DeleteUrlCacheContainerW"]
 old-location: wininet\deleteurlcachecontainer.htm
 tech.root: wininet

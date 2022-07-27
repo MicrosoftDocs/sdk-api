@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.AsConstantBuffer
 title: ID3D10EffectVariable::AsConstantBuffer (d3d10effect.h)
-description: Get a constant buffer.
+description: Get a constant buffer. (ID3D10EffectVariable.AsConstantBuffer)
 helpviewer_keywords: ["477c624a-b604-228f-bba0-0e26ed2d49e1","AsConstantBuffer","AsConstantBuffer method [Direct3D 10]","AsConstantBuffer method [Direct3D 10]","ID3D10EffectVariable interface","ID3D10EffectVariable interface [Direct3D 10]","AsConstantBuffer method","ID3D10EffectVariable.AsConstantBuffer","ID3D10EffectVariable::AsConstantBuffer","d3d10effect/ID3D10EffectVariable::AsConstantBuffer","direct3d10.id3d10effectvariable_asconstantbuffer"]
 old-location: direct3d10\id3d10effectvariable_asconstantbuffer.htm
 tech.root: direct3d10

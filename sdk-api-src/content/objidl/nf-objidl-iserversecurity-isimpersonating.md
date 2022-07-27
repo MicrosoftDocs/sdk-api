@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IServerSecurity.IsImpersonating
 title: IServerSecurity::IsImpersonating (objidl.h)
-description: Indicates whether the server is currently impersonating the client.
+description: Indicates whether the server is currently impersonating the client. (IServerSecurity.IsImpersonating)
 helpviewer_keywords: ["IServerSecurity interface [COM]","IsImpersonating method","IServerSecurity.IsImpersonating","IServerSecurity::IsImpersonating","IsImpersonating","IsImpersonating method [COM]","IsImpersonating method [COM]","IServerSecurity interface","_com_iserversecurity_isimpersonating","com.iserversecurity_isimpersonating","objidlbase/IServerSecurity::IsImpersonating"]
 old-location: com\iserversecurity_isimpersonating.htm
 tech.root: com

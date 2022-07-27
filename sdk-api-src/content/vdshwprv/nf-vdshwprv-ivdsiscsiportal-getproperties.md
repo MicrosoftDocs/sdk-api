@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortal.GetProperties
 title: IVdsIscsiPortal::GetProperties (vdshwprv.h)
-description: Returns the properties of a portal.
+description: Returns the properties of a portal. (IVdsIscsiPortal.GetProperties)
 helpviewer_keywords: ["GetProperties","GetProperties method [VDS]","GetProperties method [VDS]","IVdsIscsiPortal interface","IVdsIscsiPortal interface [VDS]","GetProperties method","IVdsIscsiPortal.GetProperties","IVdsIscsiPortal::GetProperties","base.ivdsiscsiportal_getproperties","vds/IVdsIscsiPortal::GetProperties","vdshwprv/IVdsIscsiPortal::GetProperties"]
 old-location: base\ivdsiscsiportal_getproperties.htm
 tech.root: base

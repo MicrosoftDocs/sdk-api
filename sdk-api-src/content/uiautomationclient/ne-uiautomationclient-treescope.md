@@ -1,7 +1,7 @@
 ---
 UID: NE:uiautomationclient.TreeScope
 title: TreeScope (uiautomationclient.h)
-description: Contains values that specify the scope of various operations in the Microsoft UI Automation tree.
+description: Contains values that specify the scope of various operations in the Microsoft UI Automation tree. (TreeScope)
 helpviewer_keywords: ["TreeScope","TreeScope enumeration [Windows Accessibility]","TreeScope_Ancestors","TreeScope_Children","TreeScope_Descendants","TreeScope_Element","TreeScope_None","TreeScope_Parent","TreeScope_Subtree","uiauto.uiauto_TreeScopeEnum","uiauto_TreeScopeEnum","uiautomationclient/TreeScope","uiautomationclient/TreeScope_Ancestors","uiautomationclient/TreeScope_Children","uiautomationclient/TreeScope_Descendants","uiautomationclient/TreeScope_Element","uiautomationclient/TreeScope_None","uiautomationclient/TreeScope_Parent","uiautomationclient/TreeScope_Subtree","winauto.uiauto_TreeScopeEnum"]
 old-location: winauto\uiauto_TreeScopeEnum.htm
 tech.root: WinAuto

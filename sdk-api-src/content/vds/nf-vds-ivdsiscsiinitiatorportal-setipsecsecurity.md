@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsIscsiInitiatorPortal.SetIpsecSecurity
 title: IVdsIscsiInitiatorPortal::SetIpsecSecurity (vds.h)
-description: Not supported.This method is reserved for future use.
+description: Not supported.This method is reserved for future use. (IVdsIscsiInitiatorPortal.SetIpsecSecurity)
 helpviewer_keywords: ["IVdsIscsiInitiatorPortal interface [VDS]","SetIpsecSecurity method","IVdsIscsiInitiatorPortal.SetIpsecSecurity","IVdsIscsiInitiatorPortal::SetIpsecSecurity","SetIpsecSecurity","SetIpsecSecurity method [VDS]","SetIpsecSecurity method [VDS]","IVdsIscsiInitiatorPortal interface","base.ivdsiscsiinitiatorportal_setipsecsecurity","vds/IVdsIscsiInitiatorPortal::SetIpsecSecurity"]
 old-location: base\ivdsiscsiinitiatorportal_setipsecsecurity.htm
 tech.root: base

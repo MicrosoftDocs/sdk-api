@@ -1,7 +1,7 @@
 ---
 UID: NE:p2p.peer_issue_credential_flags_tag
 title: PEER_GROUP_ISSUE_CREDENTIAL_FLAGS (p2p.h)
-description: .
+description: . (PEER_GROUP_ISSUE_CREDENTIAL_FLAGS)
 helpviewer_keywords: ["PEER_GROUP_ISSUE_CREDENTIAL_FLAGS","PEER_GROUP_ISSUE_CREDENTIAL_FLAGS enumeration [Peer Networking]","PEER_GROUP_STORE_CREDENTIALS","p2p.peer_group_issue_credential_flags","p2p/PEER_GROUP_ISSUE_CREDENTIAL_FLAGS","p2p/PEER_GROUP_STORE_CREDENTIALS"]
 old-location: p2p\peer_group_issue_credential_flags.htm
 tech.root: p2p

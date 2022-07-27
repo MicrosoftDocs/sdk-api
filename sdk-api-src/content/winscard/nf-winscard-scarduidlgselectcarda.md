@@ -1,7 +1,7 @@
 ---
 UID: NF:winscard.SCardUIDlgSelectCardA
 title: SCardUIDlgSelectCardA function (winscard.h)
-description: Displays the smart card Select Card dialog box.
+description: Displays the smart card Select Card dialog box. (ANSI)
 helpviewer_keywords: ["SCardUIDlgSelectCard","SCardUIDlgSelectCard function [Security]","SCardUIDlgSelectCardA","SCardUIDlgSelectCardW","_smart_scarduidlgselectcard","security.scarduidlgselectcard","winscard/SCardUIDlgSelectCard","winscard/SCardUIDlgSelectCardA","winscard/SCardUIDlgSelectCardW"]
 old-location: security\scarduidlgselectcard.htm
 tech.root: security

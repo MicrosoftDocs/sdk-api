@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcStringBindingComposeA
 title: RpcStringBindingComposeA function (rpcdce.h)
-description: The RpcStringBindingCompose function creates a string binding handle.
+description: The RpcStringBindingCompose function creates a string binding handle. (RpcStringBindingComposeA)
 helpviewer_keywords: ["RpcStringBindingCompose","RpcStringBindingCompose function [RPC]","RpcStringBindingComposeA","RpcStringBindingComposeW","_rpc_rpcstringbindingcompose","rpc.rpcstringbindingcompose","rpcdce/RpcStringBindingCompose","rpcdce/RpcStringBindingComposeA","rpcdce/RpcStringBindingComposeW"]
 old-location: rpc\rpcstringbindingcompose.htm
 tech.root: Rpc

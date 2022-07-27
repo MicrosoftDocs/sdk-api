@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.get_Task
 title: IFsrmReportJob::get_Task (fsrmreports.h)
-description: Retrieves or sets the name of the report job.
+description: Retrieves or sets the name of the report job. (Get)
 helpviewer_keywords: ["IFsrmReportJob interface [File Server Resource Manager]","Task property","IFsrmReportJob.Task","IFsrmReportJob.get_Task","IFsrmReportJob::Task","IFsrmReportJob::get_Task","IFsrmReportJob::put_Task","Task property [File Server Resource Manager]","Task property [File Server Resource Manager]","IFsrmReportJob interface","fs.ifsrmreportjob_task","fsrm.ifsrmreportjob_task","fsrmreports/IFsrmReportJob::Task","fsrmreports/IFsrmReportJob::get_Task","fsrmreports/IFsrmReportJob::put_Task","get_Task"]
 old-location: fsrm\ifsrmreportjob_task.htm
 tech.root: fsrm

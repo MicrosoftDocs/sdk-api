@@ -1,7 +1,7 @@
 ---
 UID: NF:psapi.GetModuleFileNameExW
 title: GetModuleFileNameExW function (psapi.h)
-description: Retrieves the fully qualified path for the file containing the specified module.
+description: Retrieves the fully qualified path for the file containing the specified module. (Unicode)
 helpviewer_keywords: ["GetModuleFileNameEx","GetModuleFileNameEx function [PSAPI]","GetModuleFileNameExA","GetModuleFileNameExW","K32GetModuleFileNameEx","K32GetModuleFileNameExA","K32GetModuleFileNameExW","_win32_getmodulefilenameex","base.getmodulefilenameex","psapi.getmodulefilenameex","psapi/GetModuleFileNameEx","psapi/GetModuleFileNameExA","psapi/GetModuleFileNameExW","psapi/K32GetModuleFileNameEx","psapi/K32GetModuleFileNameExA","psapi/K32GetModuleFileNameExW"]
 old-location: psapi\getmodulefilenameex.htm
 tech.root: psapi

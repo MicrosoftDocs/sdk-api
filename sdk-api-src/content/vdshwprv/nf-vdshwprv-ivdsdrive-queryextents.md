@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsDrive.QueryExtents
 title: IVdsDrive::QueryExtents (vdshwprv.h)
-description: Returns an array of the extents on a drive, including both allocated and unallocated extents.
+description: Returns an array of the extents on a drive, including both allocated and unallocated extents. (IVdsDrive.QueryExtents)
 helpviewer_keywords: ["IVdsDrive interface [VDS]","QueryExtents method","IVdsDrive.QueryExtents","IVdsDrive::QueryExtents","QueryExtents","QueryExtents method [VDS]","QueryExtents method [VDS]","IVdsDrive interface","base.ivdsdrive_queryextents","vds/IVdsDrive::QueryExtents","vdshwprv/IVdsDrive::QueryExtents"]
 old-location: base\ivdsdrive_queryextents.htm
 tech.root: base

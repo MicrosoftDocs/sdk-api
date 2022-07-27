@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.CreateDialogW
 title: CreateDialogW macro (winuser.h)
-description: Creates a modeless dialog box from a dialog box template resource. The CreateDialog macro uses the CreateDialogParam function.
+description: Creates a modeless dialog box from a dialog box template resource. The CreateDialog macro uses the CreateDialogParam function. (Unicode)
 helpviewer_keywords: ["CreateDialog","CreateDialog function [Dialog Boxes]","CreateDialogA","CreateDialogW","_win32_CreateDialog","_win32_createdialog_cpp","dlgbox.createdialog","winui._win32_createdialog","winuser/CreateDialog","winuser/CreateDialogA","winuser/CreateDialogW"]
 old-location: dlgbox\createdialog.htm
 tech.root: dlgbox

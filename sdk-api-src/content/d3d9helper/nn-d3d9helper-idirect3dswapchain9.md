@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d9helper.IDirect3DSwapChain9
 title: IDirect3DSwapChain9 (d3d9helper.h)
-description: Applications use the methods of the IDirect3DSwapChain9 interface to manipulate a swap chain.
+description: Applications use the methods of the IDirect3DSwapChain9 interface to manipulate a swap chain. (IDirect3DSwapChain9)
 helpviewer_keywords: ["9b1ef0f9-2688-f6ec-ae04-d0dc94b7d8b9","IDirect3DSwapChain9","IDirect3DSwapChain9 interface [Direct3D 9]","IDirect3DSwapChain9 interface [Direct3D 9]","described","d3d9helper/IDirect3DSwapChain9","direct3d9.idirect3dswapchain9"]
 old-location: direct3d9\idirect3dswapchain9.htm
 tech.root: direct3d9

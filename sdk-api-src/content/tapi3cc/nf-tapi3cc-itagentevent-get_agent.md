@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3cc.ITAgentEvent.get_Agent
 title: ITAgentEvent::get_Agent (tapi3cc.h)
-description: The get_Agent method gets the interface for the agent on which the event occurred.
+description: The get_Agent method gets the interface for the agent on which the event occurred. (ITAgentEvent.get_Agent)
 helpviewer_keywords: ["ITAgentEvent interface [TAPI 2.2]","get_Agent method","ITAgentEvent.get_Agent","ITAgentEvent::get_Agent","_tapi3_itagentevent_get_agent","get_Agent","get_Agent method [TAPI 2.2]","get_Agent method [TAPI 2.2]","ITAgentEvent interface","tapi3.itagentevent_get_agent","tapi3cc/ITAgentEvent::get_Agent"]
 old-location: tapi3\itagentevent_get_agent.htm
 tech.root: tapi3

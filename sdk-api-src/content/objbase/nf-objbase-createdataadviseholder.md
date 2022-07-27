@@ -1,7 +1,7 @@
 ---
 UID: NF:objbase.CreateDataAdviseHolder
 title: CreateDataAdviseHolder function (objbase.h)
-description: Retrieves a pointer to the OLE implementation of IDataAdviseHolder on the data advise holder object.
+description: Retrieves a pointer to the OLE implementation of IDataAdviseHolder on the data advise holder object. (CreateDataAdviseHolder)
 helpviewer_keywords: ["CreateDataAdviseHolder","CreateDataAdviseHolder function [COM]","_ole_CreateDataAdviseHolder","com.createdataadviseholder","ole2/CreateDataAdviseHolder"]
 old-location: com\createdataadviseholder.htm
 tech.root: com

@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasEnumEntriesA
 title: RasEnumEntriesA function (ras.h)
-description: The RasEnumEntries function lists all entry names in a remote access phone book.
+description: The RasEnumEntries function lists all entry names in a remote access phone book. (ANSI)
 helpviewer_keywords: ["RasEnumEntries","RasEnumEntries function [RAS]","RasEnumEntriesA","RasEnumEntriesW","_ras_rasenumentries","ras/RasEnumEntries","ras/RasEnumEntriesA","ras/RasEnumEntriesW","rras.rasenumentries"]
 old-location: rras\rasenumentries.htm
 tech.root: RRAS

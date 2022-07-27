@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineGetDevCapsA
 title: lineGetDevCapsA function (tapi.h)
-description: The lineGetDevCaps function queries a specified line device to determine its telephony capabilities. The returned information is valid for all addresses on the line device.
+description: The lineGetDevCaps function queries a specified line device to determine its telephony capabilities. The returned information is valid for all addresses on the line device. (lineGetDevCapsA)
 helpviewer_keywords: ["_tapi2_linegetdevcaps","lineGetDevCaps","lineGetDevCaps function [TAPI 2.2]","lineGetDevCapsA","lineGetDevCapsW","tapi/lineGetDevCaps","tapi/lineGetDevCapsA","tapi/lineGetDevCapsW","tapi2.linegetdevcaps"]
 old-location: tapi2\linegetdevcaps.htm
 tech.root: tapi3

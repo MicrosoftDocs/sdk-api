@@ -1,7 +1,7 @@
 ---
 UID: NE:winsvc.SERVICE_REGISTRY_STATE_TYPE
 title: SERVICE_REGISTRY_STATE_TYPE
-description: Specifies a state type for a service registry key.
+description: Specifies a state type for a service registry key. (SERVICE_REGISTRY_STATE_TYPE)
 tech.root: security
 ms.date: 4/26/2019
 ms.keywords: SERVICE_REGISTRY_STATE_TYPE

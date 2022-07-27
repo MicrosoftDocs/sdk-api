@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineTranslateDialogW
 title: lineTranslateDialogW function (tapi.h)
-description: The lineTranslateDialog function displays an application-modal dialog box that allows the user to change the current location of a phone number about to be dialed, adjust location and calling card parameters, and see the effect.
+description: The lineTranslateDialog function displays an application-modal dialog box that allows the user to change the current location of a phone number about to be dialed, adjust location and calling card parameters, and see the effect. (lineTranslateDialogW)
 helpviewer_keywords: ["_tapi2_linetranslatedialog","lineTranslateDialog","lineTranslateDialog function [TAPI 2.2]","lineTranslateDialogA","lineTranslateDialogW","tapi/lineTranslateDialog","tapi/lineTranslateDialogA","tapi/lineTranslateDialogW","tapi2.linetranslatedialog"]
 old-location: tapi2\linetranslatedialog.htm
 tech.root: tapi3

@@ -1,7 +1,7 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetToken
 title: IXblIdpAuthTokenResult::GetToken (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use. (IXblIdpAuthTokenResult.GetToken)
 helpviewer_keywords: ["GetToken","GetToken method","GetToken method","IXblIdpAuthTokenResult interface","IXblIdpAuthTokenResult interface","GetToken method","IXblIdpAuthTokenResult.GetToken","IXblIdpAuthTokenResult::GetToken","xblidp.ixblidpauthtokenresult_gettoken","xblidpauthmanager/IXblIdpAuthTokenResult::GetToken"]
 old-location: xblidp\ixblidpauthtokenresult_gettoken.htm
 tech.root: xblidp

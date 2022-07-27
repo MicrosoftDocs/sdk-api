@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11_1.CD3D11_RASTERIZER_DESC1
 title: CD3D11_RASTERIZER_DESC1 (d3d11_1.h)
-description: Describes rasterizer state.
+description: Describes rasterizer state.D
 helpviewer_keywords: ["CD3D11_RASTERIZER_DESC1","D3D11_RASTERIZER_DESC1","D3D11_RASTERIZER_DESC1 structure [Direct3D 11]","d3d11_1/D3D11_RASTERIZER_DESC1","direct3d11.d3d11_rasterizer_desc1"]
 old-location: direct3d11\d3d11_rasterizer_desc1.htm
 tech.root: direct3d11

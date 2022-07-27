@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11AuthenticatedChannel.GetCertificateSize
 title: ID3D11AuthenticatedChannel::GetCertificateSize (d3d11.h)
-description: Gets the size of the driver's certificate chain.
+description: Gets the size of the driver's certificate chain. (ID3D11AuthenticatedChannel.GetCertificateSize)
 helpviewer_keywords: ["GetCertificateSize","GetCertificateSize method [Media Foundation]","GetCertificateSize method [Media Foundation]","ID3D11AuthenticatedChannel interface","ID3D11AuthenticatedChannel interface [Media Foundation]","GetCertificateSize method","ID3D11AuthenticatedChannel.GetCertificateSize","ID3D11AuthenticatedChannel::GetCertificateSize","d3d11/ID3D11AuthenticatedChannel::GetCertificateSize","mf.id3d11authenticatedchannel_getcertificatesize"]
 old-location: mf\id3d11authenticatedchannel_getcertificatesize.htm
 tech.root: mf

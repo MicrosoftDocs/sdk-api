@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagGCP_RESULTSA
 title: GCP_RESULTSA (wingdi.h)
-description: The GCP_RESULTS structure contains information about characters in a string. This structure receives the results of the GetCharacterPlacement function. For some languages, the first element in the arrays may contain more, language-dependent information.
+description: The GCP_RESULTS structure contains information about characters in a string. This structure receives the results of the GetCharacterPlacement function. For some languages, the first element in the arrays may contain more, language-dependent information. (ANSI)
 helpviewer_keywords: ["*LPGCP_RESULTSA","GCPCLASS_ARABIC","GCPCLASS_HEBREW","GCPCLASS_LATIN","GCPCLASS_LATINNUMBER","GCPCLASS_LATINNUMERICSEPARATOR","GCPCLASS_LATINNUMERICTERMINATOR","GCPCLASS_LOCALNUMBER","GCPCLASS_NEUTRAL","GCPCLASS_NUMERICSEPARATOR","GCPCLASS_POSTBOUNDLTR","GCPCLASS_POSTBOUNDRTL","GCPCLASS_PREBOUNDLTR","GCPCLASS_PREBOUNDRTL","GCP_RESULTS","GCP_RESULTS structure [Windows GDI]","GCP_RESULTSA","GCP_RESULTSW","LPGCP_RESULTS","LPGCP_RESULTS structure pointer [Windows GDI]","_win32_GCP_RESULTS_str","gdi.gcp_results","wingdi/GCP_RESULTS","wingdi/GCP_RESULTSA","wingdi/GCP_RESULTSW","wingdi/LPGCP_RESULTS"]
 old-location: gdi\gcp_results.htm
 tech.root: gdi

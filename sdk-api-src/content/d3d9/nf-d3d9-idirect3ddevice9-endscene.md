@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.EndScene
 title: IDirect3DDevice9::EndScene (d3d9.h)
-description: Ends a scene that was begun by calling IDirect3DDevice9::BeginScene.
+description: Ends a scene that was begun by calling IDirect3DDevice9::BeginScene. (IDirect3DDevice9.EndScene)
 helpviewer_keywords: ["5a0213d4-1bba-e7fc-0a90-704668833b85","EndScene","EndScene method [Direct3D 9]","EndScene method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","EndScene method","IDirect3DDevice9.EndScene","IDirect3DDevice9::EndScene","d3d9helper/IDirect3DDevice9::EndScene","direct3d9.idirect3ddevice9__endscene"]
 old-location: direct3d9\idirect3ddevice9__endscene.htm
 tech.root: direct3d9

@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsController.InvalidateCache
 title: IVdsController::InvalidateCache (vdshwprv.h)
-description: Invalidates the cache of the controller. All data in the cache is lost.
+description: Invalidates the cache of the controller. All data in the cache is lost. (IVdsController.InvalidateCache)
 helpviewer_keywords: ["IVdsController interface [VDS]","InvalidateCache method","IVdsController.InvalidateCache","IVdsController::InvalidateCache","InvalidateCache","InvalidateCache method [VDS]","InvalidateCache method [VDS]","IVdsController interface","base.ivdscontroller_invalidatecache","vds/IVdsController::InvalidateCache","vdshwprv/IVdsController::InvalidateCache"]
 old-location: base\ivdscontroller_invalidatecache.htm
 tech.root: base

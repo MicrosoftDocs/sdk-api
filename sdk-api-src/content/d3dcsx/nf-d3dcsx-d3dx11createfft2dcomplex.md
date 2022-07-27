@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dcsx.D3DX11CreateFFT2DComplex
 title: D3DX11CreateFFT2DComplex function (d3dcsx.h)
-description: Creates an ID3DX11FFT COM interface object.
+description: Creates an ID3DX11FFT COM interface object. (D3DX11CreateFFT2DComplex)
 helpviewer_keywords: ["D3DX11CreateFFT2DComplex","D3DX11CreateFFT2DComplex function [Direct3D 11]","d3dcsx/D3DX11CreateFFT2DComplex","direct3d11.d3dx11createfft2dcomplex","e9fbe1ea-bf00-d77c-3122-3d49a21b4ab7"]
 old-location: direct3d11\d3dx11createfft2dcomplex.htm
 tech.root: direct3d11

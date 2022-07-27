@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsDrive.SetStatus
 title: IVdsDrive::SetStatus (vds.h)
-description: Sets the status of the drive to the specified value.
+description: Sets the status of the drive to the specified value. (IVdsDrive.SetStatus)
 helpviewer_keywords: ["IVdsDrive interface [VDS]","SetStatus method","IVdsDrive.SetStatus","IVdsDrive::SetStatus","SetStatus","SetStatus method [VDS]","SetStatus method [VDS]","IVdsDrive interface","base.ivdsdrive_setstatus","vds/IVdsDrive::SetStatus","vdshwprv/IVdsDrive::SetStatus"]
 old-location: base\ivdsdrive_setstatus.htm
 tech.root: base

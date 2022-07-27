@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3.ITAgent.put_State
 title: ITAgent::put_State (tapi3.h)
-description: The put_State method sets the state of an agent session.
+description: The put_State method sets the state of an agent session. (ITAgent.put_State)
 helpviewer_keywords: ["ITAgent interface [TAPI 2.2]","put_State method","ITAgent.put_State","ITAgent::put_State","_tapi3_itagent_put_state","put_State","put_State method [TAPI 2.2]","put_State method [TAPI 2.2]","ITAgent interface","tapi3.itagent_put_state","tapi3cc/ITAgent::put_State"]
 old-location: tapi3\itagent_put_state.htm
 tech.root: tapi3

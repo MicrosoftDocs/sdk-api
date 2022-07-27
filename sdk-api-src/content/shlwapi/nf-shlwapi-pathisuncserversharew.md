@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathIsUNCServerShareW
 title: PathIsUNCServerShareW function (shlwapi.h)
-description: Determines if a string is a valid Universal Naming Convention (UNC) share path, \\server\share.
+description: Determines if a string is a valid Universal Naming Convention (UNC) share path, \\server\share. (Unicode)
 helpviewer_keywords: ["PathIsUNCServerShare","PathIsUNCServerShare function [Windows Shell]","PathIsUNCServerShareA","PathIsUNCServerShareW","_win32_PathIsUNCServerShare","shell.PathIsUNCServerShare","shlwapi/PathIsUNCServerShare","shlwapi/PathIsUNCServerShareA","shlwapi/PathIsUNCServerShareW"]
 old-location: shell\PathIsUNCServerShare.htm
 tech.root: shell

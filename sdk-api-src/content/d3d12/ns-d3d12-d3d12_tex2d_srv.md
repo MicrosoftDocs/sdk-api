@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_TEX2D_SRV
 title: D3D12_TEX2D_SRV (d3d12.h)
-description: Describes the subresource from a 2D texture to use in a shader-resource view.
+description: Describes the subresource from a 2D texture to use in a shader-resource view. (D3D12_TEX2D_SRV)
 helpviewer_keywords: ["D3D12_TEX2D_SRV","D3D12_TEX2D_SRV structure","d3d12/D3D12_TEX2D_SRV","direct3d12.d3d12_tex2d_srv"]
 old-location: direct3d12\d3d12_tex2d_srv.htm
 tech.root: direct3d12

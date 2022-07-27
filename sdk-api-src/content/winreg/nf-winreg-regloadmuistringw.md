@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegLoadMUIStringW
 title: RegLoadMUIStringW function (winreg.h)
-description: Loads the specified string from the specified key and subkey.
+description: Loads the specified string from the specified key and subkey. (Unicode)
 helpviewer_keywords: ["REG_MUI_STRING_TRUNCATE","RegLoadMUIString","RegLoadMUIString function","RegLoadMUIStringA","RegLoadMUIStringW","base.regloadmuistring","winreg/RegLoadMUIString","winreg/RegLoadMUIStringA","winreg/RegLoadMUIStringW"]
 old-location: base\regloadmuistring.htm
 tech.root: winprog

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkCursors.get_Count
 title: IInkCursors::get_Count (msinkaut.h)
-description: Gets the number of objects or collections contained in a collection.
+description: Gets the number of objects or collections contained in a collection. (IInkCursors.get_Count)
 helpviewer_keywords: ["Count property [Tablet PC]","Count property [Tablet PC]","IInkCursors interface","IInkCursors interface [Tablet PC]","Count property","IInkCursors.Count","IInkCursors.get_Count","IInkCursors::Count","IInkCursors::get_Count","get_Count","msinkaut/IInkCursors::Count","msinkaut/IInkCursors::get_Count","tablet.iinkcursors_count"]
 old-location: tablet\iinkcursors_count.htm
 tech.root: tablet

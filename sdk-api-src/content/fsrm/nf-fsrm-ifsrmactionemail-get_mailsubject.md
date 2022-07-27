@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmActionEmail.get_MailSubject
 title: IFsrmActionEmail::get_MailSubject (fsrm.h)
-description: Retrieves or sets the subject of the email that is sent when this action generates email.
+description: Retrieves or sets the subject of the email that is sent when this action generates email. (Get)
 helpviewer_keywords: ["IFsrmActionEmail interface [File Server Resource Manager]","MailSubject property","IFsrmActionEmail.MailSubject","IFsrmActionEmail.get_MailSubject","IFsrmActionEmail2 interface [File Server Resource Manager]","MailSubject property","IFsrmActionEmail2.MailSubject","IFsrmActionEmail2::MailSubject","IFsrmActionEmail2::get_MailSubject","IFsrmActionEmail2::put_MailSubject","IFsrmActionEmail::get_MailSubject","IFsrmActionEmail::put_MailSubject","MailSubject property [File Server Resource Manager]","MailSubject property [File Server Resource Manager]","IFsrmActionEmail interface","MailSubject property [File Server Resource Manager]","IFsrmActionEmail2 interface","fs.ifsrmactionemail_mailsubject","fsrm.ifsrmactionemail_mailsubject","fsrm/IFsrmActionEmail2::MailSubject","fsrm/IFsrmActionEmail2::get_MailSubject","fsrm/IFsrmActionEmail2::put_MailSubject","fsrm/IFsrmActionEmail::MailSubject","fsrm/IFsrmActionEmail::get_MailSubject","fsrm/IFsrmActionEmail::put_MailSubject","get_MailSubject"]
 old-location: fsrm\ifsrmactionemail_mailsubject.htm
 tech.root: fsrm

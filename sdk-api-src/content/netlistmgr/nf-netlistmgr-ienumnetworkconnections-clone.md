@@ -1,7 +1,7 @@
 ---
 UID: NF:netlistmgr.IEnumNetworkConnections.Clone
 title: IEnumNetworkConnections::Clone (netlistmgr.h)
-description: The Clone method creates an enumerator that contains the same enumeration state as the enumerator currently in use.
+description: The Clone method creates an enumerator that contains the same enumeration state as the enumerator currently in use. (IEnumNetworkConnections.Clone)
 helpviewer_keywords: ["Clone","Clone method [Network Awareness]","Clone method [Network Awareness]","IEnumNetworkConnections interface","IEnumNetworkConnections interface [Network Awareness]","Clone method","IEnumNetworkConnections.Clone","IEnumNetworkConnections::Clone","netlistmgr/IEnumNetworkConnections::Clone","nla.ienumnetworkconnections_clone"]
 old-location: nla\ienumnetworkconnections_clone.htm
 tech.root: nla

@@ -1,7 +1,7 @@
 ---
 UID: NF:immdev.ImmAssociateContext
 title: ImmAssociateContext function (immdev.h)
-description: Associates the specified input context with the specified window. By default, the operating system associates the default input context with each window as it is created.
+description: Associates the specified input context with the specified window. By default, the operating system associates the default input context with each window as it is created. (ImmAssociateContext)
 helpviewer_keywords: ["ImmAssociateContext","ImmAssociateContext function [Internationalization for Windows Applications]","_win32_ImmAssociateContext","imm/ImmAssociateContext","intl.immassociatecontext"]
 old-location: intl\immassociatecontext.htm
 tech.root: Intl

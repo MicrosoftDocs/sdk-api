@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DCubeTexture9.GetLevelDesc
 title: IDirect3DCubeTexture9::GetLevelDesc (d3d9helper.h)
-description: Retrieves a description of one face of the specified cube texture level.
+description: Retrieves a description of one face of the specified cube texture level. (IDirect3DCubeTexture9.GetLevelDesc)
 helpviewer_keywords: ["GetLevelDesc","GetLevelDesc method [Direct3D 9]","GetLevelDesc method [Direct3D 9]","IDirect3DCubeTexture9 interface","IDirect3DCubeTexture9 interface [Direct3D 9]","GetLevelDesc method","IDirect3DCubeTexture9.GetLevelDesc","IDirect3DCubeTexture9::GetLevelDesc","d3d9helper/IDirect3DCubeTexture9::GetLevelDesc","direct3d9.idirect3dcubetexture9__getleveldesc","f3b033c9-6f8e-47a9-8c20-08c7e254bd9c"]
 old-location: direct3d9\idirect3dcubetexture9__getleveldesc.htm
 tech.root: direct3d9

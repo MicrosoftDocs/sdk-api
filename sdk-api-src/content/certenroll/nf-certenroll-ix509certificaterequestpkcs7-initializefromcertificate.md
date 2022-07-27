@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs7.InitializeFromCertificate
 title: IX509CertificateRequestPkcs7::InitializeFromCertificate (certenroll.h)
-description: Initializes the certificate request by using an existing certificate.
+description: Initializes the certificate request by using an existing certificate. (IX509CertificateRequestPkcs7.InitializeFromCertificate)
 helpviewer_keywords: ["IX509CertificateRequestPkcs7 interface [Security]","InitializeFromCertificate method","IX509CertificateRequestPkcs7.InitializeFromCertificate","IX509CertificateRequestPkcs7::InitializeFromCertificate","InheritDefault","InheritExtensionsFlag","InheritNewDefaultKey","InheritNewSimilarKey","InheritPrivateKey","InheritPublicKey","InheritRenewalCertificateFlag","InheritSubjectAltNameFlag","InheritSubjectFlag","InheritTemplateFlag","InheritValidityPeriodFlag","InitializeFromCertificate","InitializeFromCertificate method [Security]","InitializeFromCertificate method [Security]","IX509CertificateRequestPkcs7 interface","certenroll/IX509CertificateRequestPkcs7::InitializeFromCertificate","security.ix509certificaterequestpkcs7_initializefromcertificate_method"]
 old-location: security\ix509certificaterequestpkcs7_initializefromcertificate_method.htm
 tech.root: security

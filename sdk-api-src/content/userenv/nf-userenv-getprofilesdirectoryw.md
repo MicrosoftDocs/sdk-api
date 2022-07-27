@@ -1,7 +1,7 @@
 ---
 UID: NF:userenv.GetProfilesDirectoryW
 title: GetProfilesDirectoryW function (userenv.h)
-description: Retrieves the path to the root directory where user profiles are stored.
+description: Retrieves the path to the root directory where user profiles are stored. (Unicode)
 helpviewer_keywords: ["GetProfilesDirectory","GetProfilesDirectory function [Windows Shell]","GetProfilesDirectoryA","GetProfilesDirectoryW","_shell_GetProfilesDirectory","shell.GetProfilesDirectory","userenv/GetProfilesDirectory","userenv/GetProfilesDirectoryA","userenv/GetProfilesDirectoryW"]
 old-location: shell\GetProfilesDirectory.htm
 tech.root: shell

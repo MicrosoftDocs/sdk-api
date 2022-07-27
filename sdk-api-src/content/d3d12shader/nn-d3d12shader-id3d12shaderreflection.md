@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12shader.ID3D12ShaderReflection
 title: ID3D12ShaderReflection (d3d12shader.h)
-description: A shader-reflection interface accesses shader information.
+description: A shader-reflection interface accesses shader information. (ID3D12ShaderReflection)
 helpviewer_keywords: ["ID3D12ShaderReflection","ID3D12ShaderReflection interface","ID3D12ShaderReflection interface","described","d3d12shader/ID3D12ShaderReflection","direct3d12.id3d12shaderreflection"]
 old-location: direct3d12\id3d12shaderreflection.htm
 tech.root: direct3d12

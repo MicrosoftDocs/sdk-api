@@ -1,7 +1,7 @@
 ---
 UID: NS:dbghelp._SOURCEFILEW
 title: SOURCEFILEW (dbghelp.h)
-description: Contains source file information.
+description: Contains source file information. (SOURCEFILEW)
 helpviewer_keywords: ["*PSOURCEFILEW","PSOURCEFILE","PSOURCEFILE structure pointer","SOURCEFILE","SOURCEFILE structure","SOURCEFILEW","_SOURCEFILE","_SOURCEFILEW","base.sourcefile_str","dbghelp/PSOURCEFILE","dbghelp/SOURCEFILE","dbghelp/SOURCEFILEW"]
 old-location: base\sourcefile_str.htm
 tech.root: Debug

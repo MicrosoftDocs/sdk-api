@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3cc.ITTAPICallCenter.EnumerateAgentHandlers
 title: ITTAPICallCenter::EnumerateAgentHandlers (tapi3cc.h)
-description: The EnumerateAgentHandlers method enumerates agent handlers that are currently associated with the call center.
+description: The EnumerateAgentHandlers method enumerates agent handlers that are currently associated with the call center. (ITTAPICallCenter.EnumerateAgentHandlers)
 helpviewer_keywords: ["EnumerateAgentHandlers","EnumerateAgentHandlers method [TAPI 2.2]","EnumerateAgentHandlers method [TAPI 2.2]","ITTAPICallCenter interface","ITTAPICallCenter interface [TAPI 2.2]","EnumerateAgentHandlers method","ITTAPICallCenter.EnumerateAgentHandlers","ITTAPICallCenter::EnumerateAgentHandlers","_tapi3_ittapicallcenter_enumerateagenthandlers","tapi3.ittapicallcenter_enumerateagenthandlers","tapi3cc/ITTAPICallCenter::EnumerateAgentHandlers"]
 old-location: tapi3\ittapicallcenter_enumerateagenthandlers.htm
 tech.root: tapi3

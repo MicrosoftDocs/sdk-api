@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.IRtwqAsyncResult.GetStatus
 title: IRtwqAsyncResult::GetStatus (rtworkq.h)
-description: Returns the status of the asynchronous operation.
+description: Returns the status of the asynchronous operation. (IRtwqAsyncResult.GetStatus)
 helpviewer_keywords: ["GetStatus","GetStatus method","GetStatus method","IRtwqAsyncResult interface","IRtwqAsyncResult interface","GetStatus method","IRtwqAsyncResult.GetStatus","IRtwqAsyncResult::GetStatus","base.irtwqasyncresult_getstatus","rtworkq/IRtwqAsyncResult::GetStatus"]
 old-location: base\irtwqasyncresult_getstatus.htm
 tech.root: backup

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetClipStatus
 title: IDirect3DDevice9::GetClipStatus (d3d9.h)
-description: Retrieves the clip status.
+description: Retrieves the clip status. (IDirect3DDevice9.GetClipStatus)
 helpviewer_keywords: ["GetClipStatus","GetClipStatus method [Direct3D 9]","GetClipStatus method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetClipStatus method","IDirect3DDevice9.GetClipStatus","IDirect3DDevice9::GetClipStatus","d3d9helper/IDirect3DDevice9::GetClipStatus","df453492-e7c5-c7f3-db0d-498aa59e68b8","direct3d9.idirect3ddevice9__getclipstatus"]
 old-location: direct3d9\idirect3ddevice9__getclipstatus.htm
 tech.root: direct3d9

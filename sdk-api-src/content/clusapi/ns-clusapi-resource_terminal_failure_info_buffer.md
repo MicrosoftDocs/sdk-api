@@ -1,7 +1,7 @@
 ---
 UID: NS:clusapi.RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
 title: RESOURCE_TERMINAL_FAILURE_INFO_BUFFER (clusapi.h)
-description: Represents a buffer for a terminal failure for a resource.
+description: Represents a buffer for a terminal failure for a resource. (RESOURCE_TERMINAL_FAILURE_INFO_BUFFER)
 helpviewer_keywords: ["*PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER","PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER","PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER structure pointer [Failover Cluster]","RESOURCE_TERMINAL_FAILURE_INFO_BUFFER","RESOURCE_TERMINAL_FAILURE_INFO_BUFFER structure [Failover Cluster]","clusapi/PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER","clusapi/RESOURCE_TERMINAL_FAILURE_INFO_BUFFER","msclus/PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER","msclus/RESOURCE_TERMINAL_FAILURE_INFO_BUFFER","mscs.resource_terminal_failure_info_buffer"]
 old-location: mscs\resource_terminal_failure_info_buffer.htm
 tech.root: MsCS

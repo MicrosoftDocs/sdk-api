@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.IMalloc.GetSize
 title: IMalloc::GetSize (objidlbase.h)
-description: Retrieves the size of a previously allocated block of memory.
+description: Retrieves the size of a previously allocated block of memory. (IMalloc.GetSize)
 helpviewer_keywords: ["GetSize","GetSize method [COM]","GetSize method [COM]","IMalloc interface","IMalloc interface [COM]","GetSize method","IMalloc.GetSize","IMalloc::GetSize","_com_imalloc_getsize","com.imalloc_getsize","objidlbase/IMalloc::GetSize"]
 old-location: com\imalloc_getsize.htm
 tech.root: com

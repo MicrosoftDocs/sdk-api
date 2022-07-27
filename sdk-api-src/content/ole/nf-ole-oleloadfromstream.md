@@ -1,7 +1,7 @@
 ---
 UID: NF:ole.OleLoadFromStream
 title: OleLoadFromStream function (ole.h)
-description: Loads an object from the stream.
+description: Loads an object from the stream. (OleLoadFromStream)
 helpviewer_keywords: ["OleLoadFromStream","OleLoadFromStream function [COM]","_ole_OleLoadFromStream","com.oleloadfromstream","ole/OleLoadFromStream"]
 old-location: com\oleloadfromstream.htm
 tech.root: com

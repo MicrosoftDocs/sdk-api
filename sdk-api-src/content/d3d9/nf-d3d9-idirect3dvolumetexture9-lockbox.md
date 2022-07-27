@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DVolumeTexture9.LockBox
 title: IDirect3DVolumeTexture9::LockBox (d3d9.h)
-description: Locks a box on a volume texture resource.
+description: Locks a box on a volume texture resource. (IDirect3DVolumeTexture9.LockBox)
 helpviewer_keywords: ["9be8529a-2a7d-01f2-cddd-e44589e88cfe","IDirect3DVolumeTexture9 interface [Direct3D 9]","LockBox method","IDirect3DVolumeTexture9.LockBox","IDirect3DVolumeTexture9::LockBox","LockBox","LockBox method [Direct3D 9]","LockBox method [Direct3D 9]","IDirect3DVolumeTexture9 interface","d3d9helper/IDirect3DVolumeTexture9::LockBox","direct3d9.idirect3dvolumetexture9__lockbox"]
 old-location: direct3d9\idirect3dvolumetexture9__lockbox.htm
 tech.root: direct3d9

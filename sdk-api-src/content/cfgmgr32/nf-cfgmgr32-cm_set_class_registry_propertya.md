@@ -4,7 +4,7 @@ tech.root: devinst
 title: CM_Set_Class_Registry_PropertyA
 ms.date: 04/14/2021
 targetos: Windows
-description: The CM_Set_Class_Registry_Property function sets or deletes a property of a device setup class.
+description: The CM_Set_Class_Registry_Property function sets or deletes a property of a device setup class. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

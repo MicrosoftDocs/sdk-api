@@ -1,7 +1,7 @@
 ---
 UID: NS:ipmib._MIB_IPADDRROW_XP
 title: MIB_IPADDRROW_XP (ipmib.h)
-description: Specifies information for a particular IPv4 address in the MIB_IPADDRTABLE structure.
+description: Specifies information for a particular IPv4 address in the MIB_IPADDRTABLE structure.M
 helpviewer_keywords: ["*PMIB_IPADDRROW","*PMIB_IPADDRROW_XP","MIB_IPADDRROW","MIB_IPADDRROW structure [MIB]","MIB_IPADDRROW_XP","MIB_IPADDR_DELETED","MIB_IPADDR_DISCONNECTED","MIB_IPADDR_DYNAMIC","MIB_IPADDR_PRIMARY","MIB_IPADDR_TRANSIENT","PMIB_IPADDRROW","PMIB_IPADDRROW structure pointer [MIB]","_mpr_mib_ipaddrrow","ipmib/MIB_IPADDRROW","ipmib/PMIB_IPADDRROW","iprtrmib/MIB_IPADDRROW","iprtrmib/PMIB_IPADDRROW","mib.mib_ipaddrrow","rras.mib_ipaddrrow"]
 old-location: mib\mib_ipaddrrow.htm
 tech.root: MIB

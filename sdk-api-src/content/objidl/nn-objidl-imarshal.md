@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IMarshal
 title: IMarshal (objidl.h)
-description: Enables a COM object to define and manage the marshaling of its interface pointers.
+description: Enables a COM object to define and manage the marshaling of its interface pointers. (IMarshal)
 helpviewer_keywords: ["IMarshal","IMarshal interface [COM]","IMarshal interface [COM]","described","_com_imarshal","com.imarshal","objidlbase/IMarshal"]
 old-location: com\imarshal.htm
 tech.root: com

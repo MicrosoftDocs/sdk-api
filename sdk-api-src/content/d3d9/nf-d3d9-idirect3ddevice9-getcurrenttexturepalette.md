@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetCurrentTexturePalette
 title: IDirect3DDevice9::GetCurrentTexturePalette (d3d9.h)
-description: Retrieves the current texture palette.
+description: Retrieves the current texture palette. (IDirect3DDevice9.GetCurrentTexturePalette)
 helpviewer_keywords: ["GetCurrentTexturePalette","GetCurrentTexturePalette method [Direct3D 9]","GetCurrentTexturePalette method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetCurrentTexturePalette method","IDirect3DDevice9.GetCurrentTexturePalette","IDirect3DDevice9::GetCurrentTexturePalette","d3d9helper/IDirect3DDevice9::GetCurrentTexturePalette","direct3d9.idirect3ddevice9__getcurrenttexturepalette","e2c8a5f6-1d2a-0371-2db7-743fbfb6531b"]
 old-location: direct3d9\idirect3ddevice9__getcurrenttexturepalette.htm
 tech.root: direct3d9

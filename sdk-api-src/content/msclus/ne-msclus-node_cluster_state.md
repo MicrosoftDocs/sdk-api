@@ -1,7 +1,7 @@
 ---
 UID: NE:msclus.NODE_CLUSTER_STATE
 title: NODE_CLUSTER_STATE (msclus.h)
-description: Indicates the state of the cluster.
+description: Indicates the state of the cluster. (NODE_CLUSTER_STATE)
 helpviewer_keywords: ["CLUSTER_CONFIGURED","CLUSTER_INSTALLED","CLUSTER_RUNNING","ClusterStateNotConfigured","ClusterStateNotInstalled","ClusterStateNotRunning","ClusterStateRunning","NODE_CLUSTER_STATE","NODE_CLUSTER_STATE enumeration [Failover Cluster]","_NODE_CLUSTER_STATE","_NODE_CLUSTER_STATE enumeration [Failover Cluster]","clusapi/ClusterStateNotConfigured","clusapi/ClusterStateNotInstalled","clusapi/ClusterStateNotRunning","clusapi/ClusterStateRunning","clusapi/NODE_CLUSTER_STATE","clusapi/_NODE_CLUSTER_STATE","msclus/ClusterStateNotConfigured","msclus/ClusterStateNotInstalled","msclus/ClusterStateNotRunning","msclus/ClusterStateRunning","msclus/NODE_CLUSTER_STATE","msclus/_NODE_CLUSTER_STATE","mscs.node_cluster_state"]
 old-location: mscs\node_cluster_state.htm
 tech.root: MsCS

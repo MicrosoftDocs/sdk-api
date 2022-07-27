@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsIscsiPortalGroup.RemovePortal
 title: IVdsIscsiPortalGroup::RemovePortal (vds.h)
-description: Removes a portal from a portal group.
+description: Removes a portal from a portal group. (IVdsIscsiPortalGroup.RemovePortal)
 helpviewer_keywords: ["IVdsIscsiPortalGroup interface [VDS]","RemovePortal method","IVdsIscsiPortalGroup.RemovePortal","IVdsIscsiPortalGroup::RemovePortal","RemovePortal","RemovePortal method [VDS]","RemovePortal method [VDS]","IVdsIscsiPortalGroup interface","base.ivdsiscsiportalgroup_removeportal","vds/IVdsIscsiPortalGroup::RemovePortal","vdshwprv/IVdsIscsiPortalGroup::RemovePortal"]
 old-location: base\ivdsiscsiportalgroup_removeportal.htm
 tech.root: base

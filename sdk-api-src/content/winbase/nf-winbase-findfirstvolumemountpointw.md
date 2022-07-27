@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.FindFirstVolumeMountPointW
 title: FindFirstVolumeMountPointW function (winbase.h)
-description: Retrieves the name of a mounted folder on the specified volume.
+description: Retrieves the name of a mounted folder on the specified volume. (Unicode)
 helpviewer_keywords: ["FindFirstVolumeMountPoint","FindFirstVolumeMountPoint function [Files]","FindFirstVolumeMountPointA","FindFirstVolumeMountPointW","_win32_findfirstvolumemountpoint","base.findfirstvolumemountpoint","fs.findfirstvolumemountpoint","winbase/FindFirstVolumeMountPoint","winbase/FindFirstVolumeMountPointA","winbase/FindFirstVolumeMountPointW"]
 old-location: fs\findfirstvolumemountpoint.htm
 tech.root: fs

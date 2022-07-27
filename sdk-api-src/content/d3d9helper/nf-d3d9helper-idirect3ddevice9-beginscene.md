@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.BeginScene
 title: IDirect3DDevice9::BeginScene (d3d9helper.h)
-description: Begins a scene.
+description: Begins a scene. (IDirect3DDevice9.BeginScene)
 helpviewer_keywords: ["0d9bef66-554d-4515-e088-ddeeef8f07b9","BeginScene","BeginScene method [Direct3D 9]","BeginScene method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","BeginScene method","IDirect3DDevice9.BeginScene","IDirect3DDevice9::BeginScene","d3d9helper/IDirect3DDevice9::BeginScene","direct3d9.idirect3ddevice9__beginscene"]
 old-location: direct3d9\idirect3ddevice9__beginscene.htm
 tech.root: direct3d9

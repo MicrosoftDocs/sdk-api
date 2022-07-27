@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem2.CreateLun2
 title: IVdsSubSystem2::CreateLun2 (vdshwprv.h)
-description: Creates a LUN. This method is identical to the IVdsSubSystem::CreateLun method, except that automagic hints are provided using a VDS_HINTS2 structure instead of a VDS_HINTS structure.
+description: Creates a LUN. This method is identical to the IVdsSubSystem::CreateLun method, except that automagic hints are provided using a VDS_HINTS2 structure instead of a VDS_HINTS structure. (IVdsSubSystem2.CreateLun2)
 helpviewer_keywords: ["CreateLun2","CreateLun2 method","CreateLun2 method","IVdsSubSystem2 interface","IVdsSubSystem2 interface","CreateLun2 method","IVdsSubSystem2.CreateLun2","IVdsSubSystem2::CreateLun2","base.ivdssubsystem2_createlun2","vds/IVdsSubSystem2::CreateLun2","vdshwprv/IVdsSubSystem2::CreateLun2"]
 old-location: base\ivdssubsystem2_createlun2.htm
 tech.root: base

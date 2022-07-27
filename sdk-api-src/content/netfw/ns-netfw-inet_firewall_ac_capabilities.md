@@ -1,7 +1,7 @@
 ---
 UID: NS:netfw._INET_FIREWALL_AC_CAPABILITIES
 title: INET_FIREWALL_AC_CAPABILITIES (netfw.h)
-description: Contains information about the capabilities of an app container.
+description: Contains information about the capabilities of an app container. (INET_FIREWALL_AC_CAPABILITIES)
 helpviewer_keywords: ["*PINET_FIREWALL_AC_CAPABILITIES","INET_FIREWALL_AC_CAPABILITIES","INET_FIREWALL_AC_CAPABILITIES structure [ICS/ICF]","PINET_FIREWALL_AC_CAPABILITIES","PINET_FIREWALL_AC_CAPABILITIES structure pointer [ICS/ICF]","_INET_FIREWALL_AC_CAPABILITIES","ics.inet_firewall_ac_capabilities","networkisolation/INET_FIREWALL_AC_CAPABILITIES","networkisolation/PINET_FIREWALL_AC_CAPABILITIES"]
 old-location: ics\inet_firewall_ac_capabilities.htm
 tech.root: ics

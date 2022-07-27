@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.IsEqualGUID
 title: IsEqualGUID macro (winddi.h)
-description: Determines whether two GUIDs are equal.
+description: Determines whether two GUIDs are equal. (IsEqualGUID)
 helpviewer_keywords: ["IsEqualGUID","IsEqualGUID function [COM]","_com_IsEqualGUID","com.isequalguid","winddi/IsEqualGUID"]
 old-location: com\isequalguid.htm
 tech.root: com

@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiTarget.GetSubSystem
 title: IVdsIscsiTarget::GetSubSystem (vdshwprv.h)
-description: Returns the subsystem to which the target belongs.
+description: Returns the subsystem to which the target belongs. (IVdsIscsiTarget.GetSubSystem)
 helpviewer_keywords: ["GetSubSystem","GetSubSystem method [VDS]","GetSubSystem method [VDS]","IVdsIscsiTarget interface","IVdsIscsiTarget interface [VDS]","GetSubSystem method","IVdsIscsiTarget.GetSubSystem","IVdsIscsiTarget::GetSubSystem","base.ivdsiscsitarget_getsubsystem","vds/IVdsIscsiTarget::GetSubSystem","vdshwprv/IVdsIscsiTarget::GetSubSystem"]
 old-location: base\ivdsiscsitarget_getsubsystem.htm
 tech.root: base

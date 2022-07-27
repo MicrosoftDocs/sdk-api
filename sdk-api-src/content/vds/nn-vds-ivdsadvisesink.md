@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsAdviseSink
 title: IVdsAdviseSink (vds.h)
-description: Receives VDS notifications.
+description: Receives VDS notifications. (IVdsAdviseSink)
 helpviewer_keywords: ["IVdsAdviseSink","IVdsAdviseSink interface [VDS]","IVdsAdviseSink interface [VDS]","described","base.ivdsadvisesink","vds/IVdsAdviseSink","vdshwprv/IVdsAdviseSink"]
 old-location: base\ivdsadvisesink.htm
 tech.root: base

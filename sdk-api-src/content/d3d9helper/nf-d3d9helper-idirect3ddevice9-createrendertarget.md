@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.CreateRenderTarget
 title: IDirect3DDevice9::CreateRenderTarget (d3d9helper.h)
-description: Creates a render-target surface.
+description: Creates a render-target surface. (IDirect3DDevice9.CreateRenderTarget)
 helpviewer_keywords: ["CreateRenderTarget","CreateRenderTarget method [Direct3D 9]","CreateRenderTarget method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","CreateRenderTarget method","IDirect3DDevice9.CreateRenderTarget","IDirect3DDevice9::CreateRenderTarget","d3d9helper/IDirect3DDevice9::CreateRenderTarget","direct3d9.idirect3ddevice9__createrendertarget","f8f172a7-3890-99e5-8a2b-5de407ffecf4"]
 old-location: direct3d9\idirect3ddevice9__createrendertarget.htm
 tech.root: direct3d9

@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitation.put_AttendeeLimit
 title: IRDPSRAPIInvitation::put_AttendeeLimit (rdpencomapi.h)
-description: The maximum number of attendees that can connect to the session.
+description: The maximum number of attendees that can connect to the session. (Put)
 helpviewer_keywords: ["AttendeeLimit property [RDP]","AttendeeLimit property [RDP]","IRDPSRAPIInvitation interface","AttendeeLimit property [RDP]","RDPSRAPIInvitation object","IRDPSRAPIInvitation interface [RDP]","AttendeeLimit property","IRDPSRAPIInvitation.AttendeeLimit","IRDPSRAPIInvitation.put_AttendeeLimit","IRDPSRAPIInvitation::AttendeeLimit","IRDPSRAPIInvitation::get_AttendeeLimit","IRDPSRAPIInvitation::put_AttendeeLimit","RDPSRAPIInvitation object [RDP]","AttendeeLimit property","put_AttendeeLimit","rdp.irdpsrapiinvitation_attendeelimit","rdpencomapi/IRDPSRAPIInvitation::AttendeeLimit","rdpencomapi/IRDPSRAPIInvitation::get_AttendeeLimit","rdpencomapi/IRDPSRAPIInvitation::put_AttendeeLimit"]
 old-location: rdp\irdpsrapiinvitation_attendeelimit.htm
 tech.root: rdp

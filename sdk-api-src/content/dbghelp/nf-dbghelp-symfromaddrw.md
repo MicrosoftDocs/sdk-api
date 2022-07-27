@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymFromAddrW
 title: SymFromAddrW function (dbghelp.h)
-description: Retrieves symbol information for the specified address.
+description: Retrieves symbol information for the specified address. (SymFromAddrW)
 helpviewer_keywords: ["SymFromAddr","SymFromAddr function","SymFromAddrW","_win32_symfromaddr","base.symfromaddr","dbghelp/SymFromAddr","dbghelp/SymFromAddrW"]
 old-location: base\symfromaddr.htm
 tech.root: Debug

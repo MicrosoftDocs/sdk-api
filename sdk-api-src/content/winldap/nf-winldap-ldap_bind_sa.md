@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_bind_sA
 title: ldap_bind_sA function (winldap.h)
-description: Synchronously authenticates a client to the LDAP server.
+description: Synchronously authenticates a client to the LDAP server. (ldap_bind_sA)
 helpviewer_keywords: ["_ldap_ldap_bind_s","ldap.ldap__bind__s","ldap.ldap_bind_s","ldap_bind_s","ldap_bind_s function [LDAP]","ldap_bind_sA","ldap_bind_sW","winldap/ldap_bind_s","winldap/ldap_bind_sA","winldap/ldap_bind_sW"]
 old-location: ldap\ldap_bind_s.htm
 tech.root: ldap

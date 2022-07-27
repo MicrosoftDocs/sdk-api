@@ -1,7 +1,7 @@
 ---
 UID: NC:libloaderapi.ENUMRESNAMEPROCW
 title: ENUMRESNAMEPROCW (libloaderapi.h)
-description: An application-defined callback function used with the EnumResourceNames and EnumResourceNamesEx functions.
+description: An application-defined callback function used with the EnumResourceNames and EnumResourceNamesEx functions. (Unicode)
 helpviewer_keywords: ["EnumResNameProc","EnumResNameProc callback","EnumResNameProc callback function [Menus and Other Resources]","EnumResNameProcA","EnumResNameProcW","_win32_EnumResNameProc","_win32_enumresnameproc_cpp","libloaderapi/EnumResNameProc","libloaderapi/EnumResNameProcA","libloaderapi/EnumResNameProcW","menurc.enumresnameproc","winui._win32_enumresnameproc"]
 old-location: menurc\enumresnameproc.htm
 tech.root: menurc

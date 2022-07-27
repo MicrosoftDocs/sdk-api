@@ -1,7 +1,7 @@
 ---
 UID: NN:directml.IDMLDevice1
 title: IDMLDevice1
-description: Represents a DirectML device, which is used to create operators, binding tables, command recorders, and other objects.
+description: Represents a DirectML device, which is used to create operators, binding tables, command recorders, and other objects. (IDMLDevice1)
 helpviewer_keywords: ["IDMLDevice1","IDMLDevice1 interface","IDMLDevice1 interface","described","direct3d12.idmldevice1","directml/IDMLDevice1"]
 tech.root: directml
 ms.date: 11/04/2020

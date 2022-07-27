@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.GetProvider
 title: IVdsSubSystem::GetProvider (vdshwprv.h)
-description: Returns the provider that manages the subsystem.
+description: Returns the provider that manages the subsystem. (IVdsSubSystem.GetProvider)
 helpviewer_keywords: ["GetProvider","GetProvider method [VDS]","GetProvider method [VDS]","IVdsSubSystem interface","IVdsSubSystem interface [VDS]","GetProvider method","IVdsSubSystem.GetProvider","IVdsSubSystem::GetProvider","base.ivdssubsystem_getprovider","vds/IVdsSubSystem::GetProvider","vdshwprv/IVdsSubSystem::GetProvider"]
 old-location: base\ivdssubsystem_getprovider.htm
 tech.root: base

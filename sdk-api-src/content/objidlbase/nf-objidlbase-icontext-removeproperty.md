@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.IContext.RemoveProperty
 title: IContext::RemoveProperty (objidlbase.h)
-description: Removes the specified context property from the context.
+description: Removes the specified context property from the context. (IContext.RemoveProperty)
 helpviewer_keywords: ["IContext interface [COM]","RemoveProperty method","IContext.RemoveProperty","IContext::RemoveProperty","RemoveProperty","RemoveProperty method [COM]","RemoveProperty method [COM]","IContext interface","_com_icontext_removeproperty","com.icontext_removeproperty","objidlbase/IContext::RemoveProperty"]
 old-location: com\icontext_removeproperty.htm
 tech.root: com

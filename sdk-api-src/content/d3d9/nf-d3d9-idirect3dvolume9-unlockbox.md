@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DVolume9.UnlockBox
 title: IDirect3DVolume9::UnlockBox (d3d9.h)
-description: Unlocks a box on a volume resource.
+description: Unlocks a box on a volume resource. (IDirect3DVolume9.UnlockBox)
 helpviewer_keywords: ["69485f47-b13d-cd47-c467-bbbd1e9f6113","IDirect3DVolume9 interface [Direct3D 9]","UnlockBox method","IDirect3DVolume9.UnlockBox","IDirect3DVolume9::UnlockBox","UnlockBox","UnlockBox method [Direct3D 9]","UnlockBox method [Direct3D 9]","IDirect3DVolume9 interface","d3d9helper/IDirect3DVolume9::UnlockBox","direct3d9.idirect3dvolume9__unlockbox"]
 old-location: direct3d9\idirect3dvolume9__unlockbox.htm
 tech.root: direct3d9

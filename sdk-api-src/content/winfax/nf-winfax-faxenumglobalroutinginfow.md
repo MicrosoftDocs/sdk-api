@@ -1,7 +1,7 @@
 ---
 UID: NF:winfax.FaxEnumGlobalRoutingInfoW
 title: FaxEnumGlobalRoutingInfoW function (winfax.h)
-description: The FaxEnumGlobalRoutingInfo function enumerates all fax routing methods associated with a specific fax server.
+description: The FaxEnumGlobalRoutingInfo function enumerates all fax routing methods associated with a specific fax server. (Unicode)
 helpviewer_keywords: ["FaxEnumGlobalRoutingInfo","FaxEnumGlobalRoutingInfo function [Fax Service]","FaxEnumGlobalRoutingInfoA","FaxEnumGlobalRoutingInfoW","_mfax_faxenumglobalroutinginfo","fax._mfax_faxenumglobalroutinginfo","winfax/FaxEnumGlobalRoutingInfo","winfax/FaxEnumGlobalRoutingInfoA","winfax/FaxEnumGlobalRoutingInfoW"]
 old-location: fax\_mfax_faxenumglobalroutinginfo.htm
 tech.root: Fax

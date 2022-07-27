@@ -1,7 +1,7 @@
 ---
 UID: NF:immdev.ImmGetDescriptionW
 title: ImmGetDescriptionW function (immdev.h)
-description: Copies the description of the IME to the specified buffer.
+description: Copies the description of the IME to the specified buffer. (ImmGetDescriptionW)
 helpviewer_keywords: ["ImmGetDescription","ImmGetDescription function [Internationalization for Windows Applications]","ImmGetDescriptionA","ImmGetDescriptionW","_win32_ImmGetDescription","imm/ImmGetDescription","imm/ImmGetDescriptionA","imm/ImmGetDescriptionW","intl.immgetdescription"]
 old-location: intl\immgetdescription.htm
 tech.root: Intl

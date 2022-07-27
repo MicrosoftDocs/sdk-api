@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymAddSymbolW
 title: SymAddSymbolW function (dbghelp.h)
-description: Adds a virtual symbol to the specified module.
+description: Adds a virtual symbol to the specified module. (SymAddSymbolW)
 helpviewer_keywords: ["SymAddSymbol","SymAddSymbol function","SymAddSymbolW","_win32_symaddsymbol","base.symaddsymbol","dbghelp/SymAddSymbol","dbghelp/SymAddSymbolW"]
 old-location: base\symaddsymbol.htm
 tech.root: Debug

@@ -1,7 +1,7 @@
 ---
 UID: NS:ipmib._MIB_IPNETROW_LH
 title: MIB_IPNETROW_LH (ipmib.h)
-description: Contains information for an Address Resolution Protocol (ARP) table entry for an IPv4 address.
+description: Contains information for an Address Resolution Protocol (ARP) table entry for an IPv4 address.M
 helpviewer_keywords: ["*PMIB_IPNETROW","*PMIB_IPNETROW_LH","MIB_IPNETROW","MIB_IPNETROW structure [MIB]","MIB_IPNETROW_LH","MIB_IPNET_TYPE_DYNAMIC","MIB_IPNET_TYPE_INVALID","MIB_IPNET_TYPE_OTHER","MIB_IPNET_TYPE_STATIC","PMIB_IPNETROW","PMIB_IPNETROW structure pointer [MIB]","_mpr_mib_ipnetrow","ipmib/MIB_IPNETROW","ipmib/PMIB_IPNETROW","iprtrmib/MIB_IPNETROW","iprtrmib/PMIB_IPNETROW","mib.mib_ipnetrow","rras.mib_ipnetrow"]
 old-location: mib\mib_ipnetrow.htm
 tech.root: MIB

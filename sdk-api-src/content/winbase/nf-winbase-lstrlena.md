@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.lstrlenA
 title: lstrlenA function (winbase.h)
-description: Determines the length of the specified string (not including the terminating null character).
+description: Determines the length of the specified string (not including the terminating null character). (ANSI)
 helpviewer_keywords: ["_win32_lstrlen","_win32_lstrlen_cpp","lstrlen","lstrlen function [Menus and Other Resources]","lstrlenA","lstrlenW","menurc.lstrlen","winbase/lstrlen","winbase/lstrlenA","winbase/lstrlenW","winui._win32_lstrlen"]
 old-location: menurc\lstrlen.htm
 tech.root: menurc

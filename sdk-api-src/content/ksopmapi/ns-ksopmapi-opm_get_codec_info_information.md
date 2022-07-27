@@ -1,7 +1,7 @@
 ---
 UID: NS:ksopmapi._OPM_GET_CODEC_INFO_INFORMATION
 title: OPM_GET_CODEC_INFO_INFORMATION (ksopmapi.h)
-description: Contains the result from an OPM_GET_CODEC_INFO query.
+description: Contains the result from an OPM_GET_CODEC_INFO query. (OPM_GET_CODEC_INFO_INFORMATION)
 helpviewer_keywords: ["OPM_GET_CODEC_INFO_INFORMATION","OPM_GET_CODEC_INFO_INFORMATION structure [Media Foundation]","_OPM_GET_CODEC_INFO_INFORMATION","ksopmapi/OPM_GET_CODEC_INFO_INFORMATION","mf.opm_get_codec_info_information"]
 old-location: mf\opm_get_codec_info_information.htm
 tech.root: mf

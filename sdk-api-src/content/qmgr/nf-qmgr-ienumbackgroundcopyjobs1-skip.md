@@ -1,7 +1,7 @@
 ---
 UID: NF:qmgr.IEnumBackgroundCopyJobs1.Skip
 title: IEnumBackgroundCopyJobs1::Skip (qmgr.h)
-description: Use the Skip method to skip the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
+description: Use the Skip method to skip the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence. (IEnumBackgroundCopyJobs1.Skip)
 helpviewer_keywords: ["IEnumBackgroundCopyJobs1 interface [BITS]","Skip method","IEnumBackgroundCopyJobs1.Skip","IEnumBackgroundCopyJobs1::Skip","Skip","Skip method [BITS]","Skip method [BITS]","IEnumBackgroundCopyJobs1 interface","bits.ienumbackgroundcopyjobs1_skip","qmgr/IEnumBackgroundCopyJobs1::Skip"]
 old-location: bits\ienumbackgroundcopyjobs1_skip.htm
 tech.root: Bits

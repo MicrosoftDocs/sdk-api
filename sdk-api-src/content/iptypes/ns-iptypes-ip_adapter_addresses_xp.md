@@ -1,7 +1,7 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_ADDRESSES_XP
 title: IP_ADAPTER_ADDRESSES_XP (iptypes.h)
-description: The header node for a linked list of addresses for a particular adapter.
+description: The header node for a linked list of addresses for a particular adapter.I
 old-location: iphlp\ip_adapter_addresses.htm
 tech.root: IpHlp
 ms.assetid: a2df3749-6c75-40c0-8952-1656bbe639a6

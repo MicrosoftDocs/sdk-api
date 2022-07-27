@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupGetTargetPathW
 title: SetupGetTargetPathW function (setupapi.h)
-description: The SetupGetTargetPath function determines the target directory for a file list section.
+description: The SetupGetTargetPath function determines the target directory for a file list section. (Unicode)
 helpviewer_keywords: ["SetupGetTargetPath","SetupGetTargetPath function [Setup API]","SetupGetTargetPathA","SetupGetTargetPathW","_setupapi_setupgettargetpath","setup.setupgettargetpath","setupapi/SetupGetTargetPath","setupapi/SetupGetTargetPathA","setupapi/SetupGetTargetPathW"]
 old-location: setup\setupgettargetpath.htm
 tech.root: setup

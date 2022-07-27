@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.SetupColorMatchingW
 title: SetupColorMatchingW
-description: Creates a Color Management dialog box that lets the user choose whether to enable color management and, if so, provides control over the color profiles used and over the [rendering intent](/windows/win32/wcs/r).
+description: Creates a Color Management dialog box that lets the user choose whether to enable color management and, if so, provides control over the color profiles used and over the [rendering intent](/windows/win32/wcs/r). (Unicode)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

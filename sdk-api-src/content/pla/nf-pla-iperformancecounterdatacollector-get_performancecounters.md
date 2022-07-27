@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IPerformanceCounterDataCollector.get_PerformanceCounters
 title: IPerformanceCounterDataCollector::get_PerformanceCounters (pla.h)
-description: Retrieves or sets the performance counters to query.
+description: Retrieves or sets the performance counters to query. (Get)
 helpviewer_keywords: ["IPerformanceCounterDataCollector interface [PLA]","PerformanceCounters property","IPerformanceCounterDataCollector.PerformanceCounters","IPerformanceCounterDataCollector.get_PerformanceCounters","IPerformanceCounterDataCollector::PerformanceCounters","IPerformanceCounterDataCollector::get_PerformanceCounters","IPerformanceCounterDataCollector::put_PerformanceCounters","PerformanceCounters property [PLA]","PerformanceCounters property [PLA]","IPerformanceCounterDataCollector interface","base.iperformancecounterdatacollector_performancecounters","get_PerformanceCounters","pla.iperformancecounterdatacollector_performancecounters","pla/IPerformanceCounterDataCollector::PerformanceCounters","pla/IPerformanceCounterDataCollector::get_PerformanceCounters","pla/IPerformanceCounterDataCollector::put_PerformanceCounters"]
 old-location: pla\iperformancecounterdatacollector_performancecounters.htm
 tech.root: PLA

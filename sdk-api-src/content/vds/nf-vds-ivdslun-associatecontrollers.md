@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsLun.AssociateControllers
 title: IVdsLun::AssociateControllers (vds.h)
-description: Sets the subsystem controllers to active or inactive with respect to the LUN.
+description: Sets the subsystem controllers to active or inactive with respect to the LUN. (IVdsLun.AssociateControllers)
 helpviewer_keywords: ["AssociateControllers","AssociateControllers method [VDS]","AssociateControllers method [VDS]","IVdsLun interface","IVdsLun interface [VDS]","AssociateControllers method","IVdsLun.AssociateControllers","IVdsLun::AssociateControllers","base.ivdslun_associatecontrollers","vds/IVdsLun::AssociateControllers","vdshwprv/IVdsLun::AssociateControllers"]
 old-location: base\ivdslun_associatecontrollers.htm
 tech.root: base

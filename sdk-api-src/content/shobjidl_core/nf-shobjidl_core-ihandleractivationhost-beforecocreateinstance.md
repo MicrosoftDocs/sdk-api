@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IHandlerActivationHost.BeforeCoCreateInstance
 title: IHandlerActivationHost::BeforeCoCreateInstance (shobjidl_core.h)
-description: .
+description: . (IHandlerActivationHost.BeforeCoCreateInstance)
 helpviewer_keywords: ["BeforeCoCreateInstance","BeforeCoCreateInstance method [Windows Shell]","BeforeCoCreateInstance method [Windows Shell]","IHandlerActivationHost interface","IHandlerActivationHost interface [Windows Shell]","BeforeCoCreateInstance method","IHandlerActivationHost.BeforeCoCreateInstance","IHandlerActivationHost::BeforeCoCreateInstance","shell.IHandlerActivationHost_BeforeCoCreateInstance","shobjidl_core/IHandlerActivationHost::BeforeCoCreateInstance"]
 old-location: shell\IHandlerActivationHost_BeforeCoCreateInstance.htm
 tech.root: shell

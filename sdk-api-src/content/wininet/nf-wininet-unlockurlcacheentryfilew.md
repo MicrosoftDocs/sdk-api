@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.UnlockUrlCacheEntryFileW
 title: UnlockUrlCacheEntryFileW function (wininet.h)
-description: Unlocks the cache entry that was locked while the file was retrieved for use from the cache.
+description: Unlocks the cache entry that was locked while the file was retrieved for use from the cache. (UnlockUrlCacheEntryFileW)
 helpviewer_keywords: ["UnlockUrlCacheEntryFile","UnlockUrlCacheEntryFile function [WinINet]","UnlockUrlCacheEntryFileA","UnlockUrlCacheEntryFileW","_inet_unlockurlcacheentryfile_function","wininet.unlockurlcacheentryfile","wininet/UnlockUrlCacheEntryFile","wininet/UnlockUrlCacheEntryFileA","wininet/UnlockUrlCacheEntryFileW"]
 old-location: wininet\unlockurlcacheentryfile.htm
 tech.root: wininet

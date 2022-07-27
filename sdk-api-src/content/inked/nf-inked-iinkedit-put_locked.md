@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.put_Locked
 title: IInkEdit::put_Locked (inked.h)
-description: Gets or sets a value indicating whether the contents of the InkEdit control can be edited.
+description: Gets or sets a value indicating whether the contents of the InkEdit control can be edited. (Put)
 helpviewer_keywords: ["IInkEdit interface [Tablet PC]","Locked property","IInkEdit.Locked","IInkEdit.put_Locked","IInkEdit::Locked","IInkEdit::get_Locked","IInkEdit::put_Locked","InkEdit.get_Locked","InkEdit.put_Locked","Locked property [Tablet PC]","Locked property [Tablet PC]","IInkEdit interface","get_Locked","inked/IInkEdit::Locked","inked/IInkEdit::get_Locked","inked/IInkEdit::put_Locked","put_Locked","tablet.inkedit_locked"]
 old-location: tablet\inkedit_locked.htm
 tech.root: tablet

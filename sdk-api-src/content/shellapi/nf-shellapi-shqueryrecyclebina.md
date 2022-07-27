@@ -1,7 +1,7 @@
 ---
 UID: NF:shellapi.SHQueryRecycleBinA
 title: SHQueryRecycleBinA function (shellapi.h)
-description: Retrieves the size of the Recycle Bin and the number of items in it, for a specified drive.
+description: Retrieves the size of the Recycle Bin and the number of items in it, for a specified drive. (ANSI)
 helpviewer_keywords: ["SHQueryRecycleBin","SHQueryRecycleBin function [Windows Shell]","SHQueryRecycleBinA","SHQueryRecycleBinW","_win32_SHQueryRecycleBin","shell.SHQueryRecycleBin","shellapi/SHQueryRecycleBin","shellapi/SHQueryRecycleBinA","shellapi/SHQueryRecycleBinW"]
 old-location: shell\SHQueryRecycleBin.htm
 tech.root: shell

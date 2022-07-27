@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiQueryFeatureStateExW
 title: MsiQueryFeatureStateExW function (msi.h)
-description: The MsiQueryFeatureStateEx function returns the installed state for a product feature.
+description: The MsiQueryFeatureStateEx function returns the installed state for a product feature. (Unicode)
 helpviewer_keywords: ["INSTALLSTATE_ADVERTISED","INSTALLSTATE_LOCAL","INSTALLSTATE_SOURCE","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiQueryFeatureStateEx","MsiQueryFeatureStateEx function","MsiQueryFeatureStateExA","MsiQueryFeatureStateExW","NULL","User SID","msi/MsiQueryFeatureStateEx","msi/MsiQueryFeatureStateExA","msi/MsiQueryFeatureStateExW","setup.msiqueryfeaturestateex"]
 old-location: setup\msiqueryfeaturestateex.htm
 tech.root: setup

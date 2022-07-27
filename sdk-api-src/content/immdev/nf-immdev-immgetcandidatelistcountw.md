@@ -1,7 +1,7 @@
 ---
 UID: NF:immdev.ImmGetCandidateListCountW
 title: ImmGetCandidateListCountW function (immdev.h)
-description: Retrieves the size of the candidate lists.
+description: Retrieves the size of the candidate lists. (ImmGetCandidateListCountW)
 helpviewer_keywords: ["ImmGetCandidateListCount","ImmGetCandidateListCount function [Internationalization for Windows Applications]","ImmGetCandidateListCountA","ImmGetCandidateListCountW","_win32_ImmGetCandidateListCount","imm/ImmGetCandidateListCount","imm/ImmGetCandidateListCountA","imm/ImmGetCandidateListCountW","intl.immgetcandidatelistcount"]
 old-location: intl\immgetcandidatelistcount.htm
 tech.root: Intl

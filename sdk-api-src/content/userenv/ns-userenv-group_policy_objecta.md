@@ -1,7 +1,7 @@
 ---
 UID: NS:userenv._GROUP_POLICY_OBJECTA
 title: GROUP_POLICY_OBJECTA (userenv.h)
-description: The GROUP_POLICY_OBJECT structure provides information about a GPO in a GPO list.
+description: The GROUP_POLICY_OBJECT structure provides information about a GPO in a GPO list. (ANSI)
 helpviewer_keywords: ["*PGROUP_POLICY_OBJECTA","GPLinkDomain","GPLinkMachine","GPLinkOrganizationalUnit","GPLinkSite","GPLinkUnknown","GPO_FLAG_DISABLE","GPO_FLAG_FORCE","GROUP_POLICY_OBJECT","GROUP_POLICY_OBJECT structure [Group Policy]","GROUP_POLICY_OBJECTA","GROUP_POLICY_OBJECTW","PGROUP_POLICY_OBJECT","PGROUP_POLICY_OBJECT structure pointer [Group Policy]","_win32_group_policy_object_str","policy.group_policy_object_str","userenv/GROUP_POLICY_OBJECT","userenv/GROUP_POLICY_OBJECTA","userenv/GROUP_POLICY_OBJECTW","userenv/PGROUP_POLICY_OBJECT"]
 old-location: policy\group_policy_object_str.htm
 tech.root: Policy

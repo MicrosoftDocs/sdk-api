@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathIsLFNFileSpecA
 title: PathIsLFNFileSpecA function (shlwapi.h)
-description: Determines whether a file name is in long format.
+description: Determines whether a file name is in long format. (ANSI)
 helpviewer_keywords: ["PathIsLFNFileSpec","PathIsLFNFileSpec function [Windows Shell]","PathIsLFNFileSpecA","PathIsLFNFileSpecW","_win32_PathIsLFNFileSpec","shell.PathIsLFNFileSpec","shlwapi/PathIsLFNFileSpec","shlwapi/PathIsLFNFileSpecA","shlwapi/PathIsLFNFileSpecW"]
 old-location: shell\PathIsLFNFileSpec.htm
 tech.root: shell

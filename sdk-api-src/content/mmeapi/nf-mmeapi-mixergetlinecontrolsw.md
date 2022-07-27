@@ -1,7 +1,7 @@
 ---
 UID: NF:mmeapi.mixerGetLineControlsW
 title: mixerGetLineControlsW function (mmeapi.h)
-description: The mixerGetLineControls function retrieves one or more controls associated with an audio line.
+description: The mixerGetLineControls function retrieves one or more controls associated with an audio line. (mixerGetLineControlsW)
 helpviewer_keywords: ["_win32_mixerGetLineControls","mixerGetLineControls","mixerGetLineControls function [Windows Multimedia]","mixerGetLineControlsA","mixerGetLineControlsW","mmeapi/mixerGetLineControls","mmeapi/mixerGetLineControlsA","mmeapi/mixerGetLineControlsW","multimedia.mixergetlinecontrols"]
 old-location: multimedia\mixergetlinecontrols.htm
 tech.root: Multimedia

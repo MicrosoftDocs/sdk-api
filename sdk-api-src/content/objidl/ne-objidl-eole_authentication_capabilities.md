@@ -1,7 +1,7 @@
 ---
 UID: NE:objidl.tagEOLE_AUTHENTICATION_CAPABILITIES
 title: EOLE_AUTHENTICATION_CAPABILITIES (objidl.h)
-description: Specifies various capabilities in CoInitializeSecurity and IClientSecurity::SetBlanket (or its helper function CoSetProxyBlanket).
+description: Specifies various capabilities in CoInitializeSecurity and IClientSecurity::SetBlanket (or its helper function CoSetProxyBlanket). (EOLE_AUTHENTICATION_CAPABILITIES)
 helpviewer_keywords: ["EOAC_ACCESS_CONTROL","EOAC_ANY_AUTHORITY","EOAC_APPID","EOAC_AUTO_IMPERSONATE","EOAC_DEFAULT","EOAC_DISABLE_AAA","EOAC_DYNAMIC","EOAC_DYNAMIC_CLOAKING","EOAC_MAKE_FULLSIC","EOAC_MUTUAL_AUTH","EOAC_NONE","EOAC_NO_CUSTOM_MARSHAL","EOAC_REQUIRE_FULLSIC","EOAC_SECURE_REFS","EOAC_STATIC_CLOAKING","EOLE_AUTHENTICATION_CAPABILITIES","EOLE_AUTHENTICATION_CAPABILITIES enumeration [COM]","_com_EOLE_AUTHENTICATION_CAPABILITIES","com.eole_authentication_capabilities","objidlbase/EOAC_ACCESS_CONTROL","objidlbase/EOAC_ANY_AUTHORITY","objidlbase/EOAC_APPID","objidlbase/EOAC_AUTO_IMPERSONATE","objidlbase/EOAC_DEFAULT","objidlbase/EOAC_DISABLE_AAA","objidlbase/EOAC_DYNAMIC","objidlbase/EOAC_DYNAMIC_CLOAKING","objidlbase/EOAC_MAKE_FULLSIC","objidlbase/EOAC_MUTUAL_AUTH","objidlbase/EOAC_NONE","objidlbase/EOAC_NO_CUSTOM_MARSHAL","objidlbase/EOAC_REQUIRE_FULLSIC","objidlbase/EOAC_SECURE_REFS","objidlbase/EOAC_STATIC_CLOAKING","objidlbase/EOLE_AUTHENTICATION_CAPABILITIES"]
 old-location: com\eole_authentication_capabilities.htm
 tech.root: com

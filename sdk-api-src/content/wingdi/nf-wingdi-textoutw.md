@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.TextOutW
 title: TextOutW function (wingdi.h)
-description: The TextOut function writes a character string at the specified location, using the currently selected font, background color, and text color.
+description: The TextOut function writes a character string at the specified location, using the currently selected font, background color, and text color. (Unicode)
 helpviewer_keywords: ["TextOut","TextOut function [Windows GDI]","TextOutA","TextOutW","_win32_TextOut","gdi.textout","wingdi/TextOut","wingdi/TextOutA","wingdi/TextOutW"]
 old-location: gdi\textout.htm
 tech.root: gdi

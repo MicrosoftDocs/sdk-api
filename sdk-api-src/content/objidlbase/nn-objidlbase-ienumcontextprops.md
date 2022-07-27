@@ -1,7 +1,7 @@
 ---
 UID: NN:objidlbase.IEnumContextProps
 title: IEnumContextProps (objidlbase.h)
-description: Provides a mechanism for enumerating the context properties associated with a COM+ object context.
+description: Provides a mechanism for enumerating the context properties associated with a COM+ object context. (IEnumContextProps)
 helpviewer_keywords: ["IEnumContextProps","IEnumContextProps interface [COM]","IEnumContextProps interface [COM]","described","_com_ienumcontextprops","com.ienumcontextprops","objidlbase/IEnumContextProps"]
 old-location: com\ienumcontextprops.htm
 tech.root: com

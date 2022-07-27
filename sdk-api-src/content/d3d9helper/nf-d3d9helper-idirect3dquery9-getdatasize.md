@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DQuery9.GetDataSize
 title: IDirect3DQuery9::GetDataSize (d3d9helper.h)
-description: Gets the number of bytes in the query data.
+description: Gets the number of bytes in the query data. (IDirect3DQuery9.GetDataSize)
 helpviewer_keywords: ["8d949a30-6300-593d-bb1b-afa380c4dca1","GetDataSize","GetDataSize method [Direct3D 9]","GetDataSize method [Direct3D 9]","IDirect3DQuery9 interface","IDirect3DQuery9 interface [Direct3D 9]","GetDataSize method","IDirect3DQuery9.GetDataSize","IDirect3DQuery9::GetDataSize","d3d9helper/IDirect3DQuery9::GetDataSize","direct3d9.idirect3dquery9__getdatasize"]
 old-location: direct3d9\idirect3dquery9__getdatasize.htm
 tech.root: direct3d9

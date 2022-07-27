@@ -1,7 +1,7 @@
 ---
 UID: NN:msp.ITPluggableTerminalEventSinkRegistration
 title: ITPluggableTerminalEventSinkRegistration (msp.h)
-description: The ITPluggableTerminalEventSinkRegistration interface registers and unregisters a client application for pluggable terminal events. The ITPluggableTerminalEventSinkRegistration interface is created by calling QueryInterface on ITTerminal.
+description: The ITPluggableTerminalEventSinkRegistration interface registers and unregisters a client application for pluggable terminal events. The ITPluggableTerminalEventSinkRegistration interface is created by calling QueryInterface on ITTerminal. (ITPluggableTerminalEventSinkRegistration)
 helpviewer_keywords: ["ITPluggableTerminalEventSinkRegistration","ITPluggableTerminalEventSinkRegistration interface [TAPI 2.2]","ITPluggableTerminalEventSinkRegistration interface [TAPI 2.2]","described","_tapi3_itpluggableterminaleventsinkregistration","msp/ITPluggableTerminalEventSinkRegistration","tapi3.itpluggableterminaleventsinkregistration"]
 old-location: tapi3\itpluggableterminaleventsinkregistration.htm
 tech.root: tapi3

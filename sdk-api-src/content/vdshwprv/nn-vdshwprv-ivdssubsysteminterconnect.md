@@ -1,7 +1,7 @@
 ---
 UID: NN:vdshwprv.IVdsSubSystemInterconnect
 title: IVdsSubSystemInterconnect (vdshwprv.h)
-description: Provides a method to query the interconnect types that are supported by a subsystem.
+description: Provides a method to query the interconnect types that are supported by a subsystem. (IVdsSubSystemInterconnect)
 helpviewer_keywords: ["IVdsSubSystemInterconnect","IVdsSubSystemInterconnect interface","IVdsSubSystemInterconnect interface","described","base.ivdssubsysteminterconnect","vds/IVdsSubSystemInterconnect","vdshwprv/IVdsSubSystemInterconnect"]
 old-location: base\ivdssubsysteminterconnect.htm
 tech.root: base

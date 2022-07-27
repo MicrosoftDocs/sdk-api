@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsOpenVDisk
 title: IVdsOpenVDisk (vds.h)
-description: Defines methods for managing a virtual disk.
+description: Defines methods for managing a virtual disk. (IVdsOpenVDisk)
 helpviewer_keywords: ["IVdsOpenVDisk","IVdsOpenVDisk interface","IVdsOpenVDisk interface","described","base.ivdsopenvdisk","vds/IVdsOpenVDisk"]
 old-location: base\ivdsopenvdisk.htm
 tech.root: base

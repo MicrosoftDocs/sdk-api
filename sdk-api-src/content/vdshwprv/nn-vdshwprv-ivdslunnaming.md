@@ -1,7 +1,7 @@
 ---
 UID: NN:vdshwprv.IVdsLunNaming
 title: IVdsLunNaming (vdshwprv.h)
-description: Provides a method to name LUNs for a class implementing the IVdsLun interface.
+description: Provides a method to name LUNs for a class implementing the IVdsLun interface. (IVdsLunNaming)
 helpviewer_keywords: ["IVdsLunNaming","IVdsLunNaming interface [VDS]","IVdsLunNaming interface [VDS]","described","base.ivdslunnaming","vds/IVdsLunNaming","vdshwprv/IVdsLunNaming"]
 old-location: base\ivdslunnaming.htm
 tech.root: base

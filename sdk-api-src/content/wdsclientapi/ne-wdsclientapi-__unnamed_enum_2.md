@@ -1,7 +1,7 @@
 ---
 UID: NE:wdsclientapi.__unnamed_enum_2
 title: __unnamed_enum_2 (wdsclientapi.h)
-description: This enumeration is used by the WdsCliLog function.
+description: This enumeration is used by the WdsCliLog function.W
 helpviewer_keywords: ["WDS_LOG_LEVEL","WDS_LOG_LEVEL_DISABLED","WDS_LOG_LEVEL_ERROR","WDS_LOG_LEVEL_INFO","WDS_LOG_LEVEL_WARNING","__unnamed_enum_2","enumeration [Windows Deployment Services]","wds.wds_log_level","wdsclientapi/","wdsclientapi/WDS_LOG_LEVEL_DISABLED","wdsclientapi/WDS_LOG_LEVEL_ERROR","wdsclientapi/WDS_LOG_LEVEL_INFO","wdsclientapi/WDS_LOG_LEVEL_WARNING"]
 old-location: wds\wds_log_level.htm
 tech.root: wds

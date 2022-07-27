@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateHwndRenderTarget(constD2D1_RENDER_TARGET_PROPERTIES&,constD2D1_HWND_RENDER_TARGET_PROPERTIES&,ID2D1HwndRenderTarget)
 title: ID2D1Factory::CreateHwndRenderTarget(const D2D1_RENDER_TARGET_PROPERTIES &,const D2D1_HWND_RENDER_TARGET_PROPERTIES &,ID2D1HwndRenderTarget) (d2d1.h)
-description: Creates an ID2D1HwndRenderTarget, a render target that renders to a window.
+description: Creates an ID2D1HwndRenderTarget, a render target that renders to a window. (overload 2/2)
 helpviewer_keywords: ["CreateHwndRenderTarget","CreateHwndRenderTarget method [Direct2D]","CreateHwndRenderTarget method [Direct2D]","ID2D1Factory interface","ID2D1Factory interface [Direct2D]","CreateHwndRenderTarget method","ID2D1Factory.CreateHwndRenderTarget","ID2D1Factory.CreateHwndRenderTarget(const D2D1_RENDER_TARGET_PROPERTIES &","const D2D1_HWND_RENDER_TARGET_PROPERTIES &","ID2D1HwndRenderTarget)","ID2D1Factory::CreateHwndRenderTarget","ID2D1Factory::CreateHwndRenderTarget(const D2D1_RENDER_TARGET_PROPERTIES &","const D2D1_HWND_RENDER_TARGET_PROPERTIES &","ID2D1HwndRenderTarget)","d2d1/ID2D1Factory::CreateHwndRenderTarget","direct2d.ID2D1Factory_CreateHwndRenderTarget_ref_D2D1_RENDER_TARGET_PROPERTIES_ref_D2D1_HWND_RENDER_TARGET_PROPERTIES_ptr_ptr_ID2D1HwndRenderTarget"]
 old-location: direct2d\ID2D1Factory_CreateHwndRenderTarget_ref_D2D1_RENDER_TARGET_PROPERTIES_ref_D2D1_HWND_RENDER_TARGET_PROPERTIES_ptr_ptr_ID2D1HwndRenderTarget.htm
 tech.root: Direct2D

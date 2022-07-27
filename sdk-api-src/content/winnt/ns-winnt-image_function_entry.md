@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._IMAGE_FUNCTION_ENTRY
 title: IMAGE_FUNCTION_ENTRY (winnt.h)
-description: Represents an entry in the function table.
+description: Represents an entry in the function table. (IMAGE_FUNCTION_ENTRY)
 helpviewer_keywords: ["*PIMAGE_FUNCTION_ENTRY","IMAGE_FUNCTION_ENTRY","IMAGE_FUNCTION_ENTRY structure","IMAGE_FUNCTION_ENTRY64","PIMAGE_FUNCTION_ENTRY","PIMAGE_FUNCTION_ENTRY structure pointer","_IMAGE_FUNCTION_ENTRY","_win32_image_function_entry_str","base.image_function_entry_str","winnt/IMAGE_FUNCTION_ENTRY","winnt/PIMAGE_FUNCTION_ENTRY"]
 old-location: base\image_function_entry_str.htm
 tech.root: Debug

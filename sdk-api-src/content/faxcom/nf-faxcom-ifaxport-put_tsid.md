@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxPort.put_Tsid
 title: IFaxPort::put_Tsid (faxcom.h)
-description: The IFaxPort::get_Tsid property is a null-terminated string that contains the transmitting station identifier (TSID) associated with the fax port.
+description: The IFaxPort::get_Tsid property is a null-terminated string that contains the transmitting station identifier (TSID) associated with the fax port. (Put)
 helpviewer_keywords: ["IFaxPort interface [Fax Service]","Tsid property","IFaxPort.Tsid","IFaxPort.put_Tsid","IFaxPort::Tsid","IFaxPort::get_Tsid","IFaxPort::put_Tsid","Tsid property [Fax Service]","Tsid property [Fax Service]","IFaxPort interface","_mfax_ifaxport_get_tsid","fax._mfax_ifaxport_get_tsid","fax._mfax_ifaxport_mfax_ifaxport_get_tsid_cpp","faxcom/IFaxPort::Tsid","faxcom/IFaxPort::get_Tsid","faxcom/IFaxPort::put_Tsid","put_Tsid"]
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_tsid_cpp.htm
 tech.root: Fax

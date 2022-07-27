@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.DrawTriPatch
 title: IDirect3DDevice9::DrawTriPatch (d3d9.h)
-description: Draws a triangular patch using the currently set streams.
+description: Draws a triangular patch using the currently set streams. (IDirect3DDevice9.DrawTriPatch)
 helpviewer_keywords: ["4db7630f-e9d1-c5ec-df98-7a2f4cde37cc","DrawTriPatch","DrawTriPatch method [Direct3D 9]","DrawTriPatch method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","DrawTriPatch method","IDirect3DDevice9.DrawTriPatch","IDirect3DDevice9::DrawTriPatch","d3d9helper/IDirect3DDevice9::DrawTriPatch","direct3d9.idirect3ddevice9__drawtripatch"]
 old-location: direct3d9\idirect3ddevice9__drawtripatch.htm
 tech.root: direct3d9

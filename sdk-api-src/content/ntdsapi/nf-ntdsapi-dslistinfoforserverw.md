@@ -1,7 +1,7 @@
 ---
 UID: NF:ntdsapi.DsListInfoForServerW
 title: DsListInfoForServerW function (ntdsapi.h)
-description: The DsListInfoForServer function lists miscellaneous data for a server.
+description: The DsListInfoForServer function lists miscellaneous data for a server. (Unicode)
 helpviewer_keywords: ["DS_LIST_ACCOUNT_OBJECT_FOR_SERVER","DS_LIST_DNS_HOST_NAME_FOR_SERVER","DS_LIST_DSA_OBJECT_FOR_SERVER","DsListInfoForServer","DsListInfoForServer function [Active Directory]","DsListInfoForServerA","DsListInfoForServerW","_glines_dslistinfoforserver","ad.dslistinfoforserver","ntdsapi/DsListInfoForServer","ntdsapi/DsListInfoForServerA","ntdsapi/DsListInfoForServerW"]
 old-location: ad\dslistinfoforserver.htm
 tech.root: ad

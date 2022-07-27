@@ -1,7 +1,7 @@
 ---
 UID: NF:imm.ImmDisableTextFrameService
 title: ImmDisableTextFrameService function (imm.h)
-description: ImmDisableTextFrameService is no longer available for use as of Windows Vista.
+description: ImmDisableTextFrameService is no longer available for use as of Windows Vista. (ImmDisableTextFrameService)
 helpviewer_keywords: ["ImmDisableTextFrameService","ImmDisableTextFrameService function [Internationalization for Windows Applications]","_win32_ImmDisableTextFrameService","imm/ImmDisableTextFrameService","intl.immdisabletextframeservice"]
 old-location: intl\immdisabletextframeservice.htm
 tech.root: Intl

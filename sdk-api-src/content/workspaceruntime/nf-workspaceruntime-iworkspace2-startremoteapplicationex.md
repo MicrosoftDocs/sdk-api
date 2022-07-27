@@ -1,7 +1,7 @@
 ---
 UID: NF:workspaceruntime.IWorkspace2.StartRemoteApplicationEx
 title: IWorkspace2::StartRemoteApplicationEx (workspaceruntime.h)
-description: Not supported.
+description: Not supported. (IWorkspace2.StartRemoteApplicationEx)
 helpviewer_keywords: ["IWorkspace2 interface [Remote Desktop Services]","StartRemoteApplicationEx method","IWorkspace2.StartRemoteApplicationEx","IWorkspace2::StartRemoteApplicationEx","IWorkspace3 interface [Remote Desktop Services]","StartRemoteApplicationEx method","IWorkspace3::StartRemoteApplicationEx","StartRemoteApplicationEx","StartRemoteApplicationEx method [Remote Desktop Services]","StartRemoteApplicationEx method [Remote Desktop Services]","IWorkspace2 interface","StartRemoteApplicationEx method [Remote Desktop Services]","IWorkspace3 interface","StartRemoteApplicationEx method [Remote Desktop Services]","Workspace object","Workspace object [Remote Desktop Services]","StartRemoteApplicationEx method","termserv.iworkspace2_startremoteapplicationex","workspaceruntime/IWorkspace2::StartRemoteApplicationEx","workspaceruntime/IWorkspace3::StartRemoteApplicationEx"]
 old-location: termserv\iworkspace2_startremoteapplicationex.htm
 tech.root: TermServ

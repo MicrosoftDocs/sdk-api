@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_Formats
 title: IFsrmFileManagementJob::get_Formats (fsrmreports.h)
-description: The formats of the report to generate when the job is run.
+description: The formats of the report to generate when the job is run. (Get)
 helpviewer_keywords: ["Formats property [File Server Resource Manager]","Formats property [File Server Resource Manager]","IFsrmFileManagementJob interface","IFsrmFileManagementJob interface [File Server Resource Manager]","Formats property","IFsrmFileManagementJob.Formats","IFsrmFileManagementJob.get_Formats","IFsrmFileManagementJob::Formats","IFsrmFileManagementJob::get_Formats","IFsrmFileManagementJob::put_Formats","fs.ifsrmfilemanagementjob_formats","fsrm.ifsrmfilemanagementjob_formats","fsrmreports/IFsrmFileManagementJob::Formats","fsrmreports/IFsrmFileManagementJob::get_Formats","fsrmreports/IFsrmFileManagementJob::put_Formats","get_Formats"]
 old-location: fsrm\ifsrmfilemanagementjob_formats.htm
 tech.root: fsrm

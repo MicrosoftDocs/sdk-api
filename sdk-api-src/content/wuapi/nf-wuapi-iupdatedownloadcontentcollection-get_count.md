@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateDownloadContentCollection.get_Count
 title: IUpdateDownloadContentCollection::get_Count (wuapi.h)
-description: Gets the number of elements in the collection.
+description: Gets the number of elements in the collection. (IUpdateDownloadContentCollection.get_Count)
 helpviewer_keywords: ["Count property [Windows Update Agent]","Count property [Windows Update Agent]","IUpdateDownloadContentCollection interface","IUpdateDownloadContentCollection interface [Windows Update Agent]","Count property","IUpdateDownloadContentCollection.Count","IUpdateDownloadContentCollection.get_Count","IUpdateDownloadContentCollection::Count","IUpdateDownloadContentCollection::get_Count","get_Count","wua.iupdatedownloadcontentcollection_count","wuapi/IUpdateDownloadContentCollection::Count","wuapi/IUpdateDownloadContentCollection::get_Count"]
 old-location: wua\iupdatedownloadcontentcollection_count.htm
 tech.root: wua

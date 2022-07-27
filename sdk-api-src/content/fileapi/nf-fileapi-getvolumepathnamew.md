@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.GetVolumePathNameW
 title: GetVolumePathNameW function (fileapi.h)
-description: Retrieves the volume mount point where the specified path is mounted.
+description: Retrieves the volume mount point where the specified path is mounted. (GetVolumePathNameW)
 helpviewer_keywords: ["GetVolumePathName","GetVolumePathName function [Files]","GetVolumePathNameA","GetVolumePathNameW","_win32_getvolumepathname","base.getvolumepathname","fileapi/GetVolumePathName","fileapi/GetVolumePathNameA","fileapi/GetVolumePathNameW","fs.getvolumepathname","winbase/GetVolumePathName","winbase/GetVolumePathNameA","winbase/GetVolumePathNameW"]
 old-location: fs\getvolumepathname.htm
 tech.root: fs

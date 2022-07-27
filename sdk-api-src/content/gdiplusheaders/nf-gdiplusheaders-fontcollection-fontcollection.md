@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.FontCollection.FontCollection
 title: FontCollection::FontCollection (gdiplusheaders.h)
-description: Creates an empty FontCollection::FontCollection object.
+description: Creates an empty FontCollection::FontCollection object. (FontCollection.FontCollection)
 helpviewer_keywords: ["FontCollection","FontCollection class [GDI+]","FontCollection constructor","FontCollection constructor [GDI+]","FontCollection constructor [GDI+]","FontCollection class","FontCollection.FontCollection","FontCollection::FontCollection","_gdiplus_CLASS_FontCollection_FontCollection_","gdiplus._gdiplus_CLASS_FontCollection_FontCollection_"]
 old-location: gdiplus\_gdiplus_CLASS_FontCollection_FontCollection_.htm
 tech.root: gdiplus

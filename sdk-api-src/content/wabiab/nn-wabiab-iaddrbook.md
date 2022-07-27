@@ -1,7 +1,7 @@
 ---
 UID: NN:wabiab.IAddrBook
 title: IAddrBook (wabiab.h)
-description: Do not use.
+description: Do not use. (IAddrBook)
 helpviewer_keywords: ["IAddrBook","IAddrBook interface [Windows Address Book]","IAddrBook interface [Windows Address Book]","described","_wab_IAddrBook","wab._wab_IAddrBook","wabiab/IAddrBook"]
 old-location: wab\_wab_IAddrBook.htm
 tech.root: wab wab
