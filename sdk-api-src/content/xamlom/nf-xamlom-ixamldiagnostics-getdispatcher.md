@@ -56,7 +56,7 @@ Gets the core dispatcher used to access elements on the UI thread.
 
 ### -param ppDispatcher [out, retval]
 
-The core dispatcher.
+The <a href="/uwp/api/windows.ui.core.coredispatcher">CoreDispatcher</a> instance used to access the UI thread.
 
 ## -returns
 
