@@ -101,6 +101,8 @@ The COM class that the tap DLL exposes is given an <a href="/windows/win32/api/x
 
 If calling **InitializeXamlDiagnosticsEx** does not initially return <b>S_OK</b>, subsequent calls may be successful.
 
+If the target process is a low IL packaged AppContainer UWP app, you have to allow both DLLs (XamlDiagnostics.dll and the tap DLL) to be loaded and read by the process by right clicking them > Properties > Security > Edit > Add > type `ALL APPLICATION PACKAGES` in the text box > OK > check `Allow` for `Read & execute` and `Read` > OK > OK.
+
 
 ## Example
 
