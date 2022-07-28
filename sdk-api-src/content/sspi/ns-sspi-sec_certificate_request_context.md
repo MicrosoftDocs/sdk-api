@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SEC_CERTIFICATE_REQUEST_CONTEXT
-tech.root: sspi
+tech.root: security
 title: SEC_CERTIFICATE_REQUEST_CONTEXT
 ms.date: 07/20/2022
 targetos: Windows

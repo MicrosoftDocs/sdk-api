@@ -1,6 +1,6 @@
 ---
 UID: NE:sspi._SEC_TRAFFIC_SECRET_TYPE
-tech.root: sspi
+tech.root: security
 title: SEC_TRAFFIC_SECRET_TYPE
 ms.date: 07/20/2022
 targetos: Windows

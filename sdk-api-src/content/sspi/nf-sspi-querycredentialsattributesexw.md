@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.QueryCredentialsAttributesExW
-tech.root: sspi
+tech.root: security
 title: QueryCredentialsAttributesExW
 ms.date: 07/20/2022
 targetos: Windows

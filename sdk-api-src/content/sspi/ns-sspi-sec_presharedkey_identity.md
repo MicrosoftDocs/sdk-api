@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SEC_PRESHAREDKEY_IDENTITY
-tech.root: sspi
+tech.root: security
 title: SEC_PRESHAREDKEY_IDENTITY
 ms.date: 07/20/2022
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SEC_WINNT_AUTH_DATA_TYPE_SMARTCARD_CONTEXTS_DATA
-tech.root: sspi
+tech.root: security
 title: SEC_WINNT_AUTH_DATA_TYPE_SMARTCARD_CONTEXTS_DATA
 ms.date: 07/20/2022
 targetos: Windows

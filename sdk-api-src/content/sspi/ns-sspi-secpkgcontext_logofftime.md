@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgContext_LogoffTime
-tech.root: sspi
+tech.root: security
 title: SecPkgContext_LogoffTime
 ms.date: 07/20/2022
 targetos: Windows

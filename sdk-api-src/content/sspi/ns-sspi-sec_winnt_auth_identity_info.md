@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SEC_WINNT_AUTH_IDENTITY_INFO
-tech.root: sspi
+tech.root: security
 title: SEC_WINNT_AUTH_IDENTITY_INFO
 ms.date: 07/20/2022
 targetos: Windows

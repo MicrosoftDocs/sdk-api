@@ -1,6 +1,6 @@
 ---
 UID: NE:sspi._SecDelegationType
-tech.root: sspi
+tech.root: security
 title: SecDelegationType
 ms.date: 07/20/2022
 targetos: Windows

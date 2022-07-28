@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.AddCredentialsA
-tech.root: sspi
+tech.root: security
 title: AddCredentialsA
 ms.date: 07/20/2022
 targetos: Windows

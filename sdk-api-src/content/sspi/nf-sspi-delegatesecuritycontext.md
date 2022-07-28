@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.DelegateSecurityContext
-tech.root: sspi
+tech.root: security
 title: DelegateSecurityContext
 ms.date: 07/20/2022
 targetos: Windows

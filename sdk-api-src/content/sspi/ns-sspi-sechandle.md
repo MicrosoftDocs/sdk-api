@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecHandle
-tech.root: sspi
+tech.root: security
 title: SecHandle
 ms.date: 07/20/2022
 targetos: Windows

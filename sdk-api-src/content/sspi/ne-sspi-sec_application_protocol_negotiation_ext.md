@@ -1,6 +1,6 @@
 ---
 UID: NE:sspi._SEC_APPLICATION_PROTOCOL_NEGOTIATION_EXT
-tech.root: sspi
+tech.root: security
 title: SEC_APPLICATION_PROTOCOL_NEGOTIATION_EXT
 ms.date: 07/20/2022
 targetos: Windows

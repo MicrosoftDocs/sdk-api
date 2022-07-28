@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SEC_TOKEN_BINDING
-tech.root: sspi
+tech.root: security
 title: SEC_TOKEN_BINDING
 ms.date: 07/20/2022
 targetos: Windows

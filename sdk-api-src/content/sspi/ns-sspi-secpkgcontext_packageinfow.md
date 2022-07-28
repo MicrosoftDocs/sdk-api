@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgContext_PackageInfoW
-tech.root: sspi
+tech.root: security
 title: SecPkgContext_PackageInfoW
 ms.date: 07/26/2022
 targetos: Windows

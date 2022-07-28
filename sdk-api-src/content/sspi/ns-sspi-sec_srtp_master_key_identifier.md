@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SEC_SRTP_MASTER_KEY_IDENTIFIER
-tech.root: sspi
+tech.root: security
 title: SEC_SRTP_MASTER_KEY_IDENTIFIER
 ms.date: 07/20/2022
 targetos: Windows

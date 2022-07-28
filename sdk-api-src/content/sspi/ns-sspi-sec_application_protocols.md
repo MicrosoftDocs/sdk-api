@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SEC_APPLICATION_PROTOCOLS
-tech.root: sspi
+tech.root: security
 title: SEC_APPLICATION_PROTOCOLS
 ms.date: 07/20/2022
 targetos: Windows

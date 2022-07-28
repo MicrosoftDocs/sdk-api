@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SEC_DTLS_MTU
-tech.root: sspi
+tech.root: security
 title: SEC_DTLS_MTU
 ms.date: 07/20/2022
 targetos: Windows

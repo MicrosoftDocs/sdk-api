@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgContext_CredentialNameW
-tech.root: sspi
+tech.root: security
 title: SecPkgContext_CredentialNameW
 ms.date: 07/20/2022
 targetos: Windows
