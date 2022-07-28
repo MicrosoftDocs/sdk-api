@@ -113,18 +113,10 @@ These left- and right-distinguishing constants are available to an application o
 
 ## -see-also
 
-**Conceptual**
-
-[GetAsyncKeyState](nf-winuser-getasynckeystate.md)
-
-[GetKeyState](nf-winuser-getkeystate.md)
-
-[GetKeyboardState](nf-winuser-getkeyboardstate.md)
-
-[Keyboard Input](/windows/win32/inputdev/keyboard-input)
-
-[MapVirtualKeyEx](nf-winuser-mapvirtualkeyexa.md)
-
-**Reference**
-
-[SetKeyboardState](nf-winuser-setkeyboardstate.md)
+- <a href="/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-mapvirtualkeya">MapVirtualKey</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>
+- <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>

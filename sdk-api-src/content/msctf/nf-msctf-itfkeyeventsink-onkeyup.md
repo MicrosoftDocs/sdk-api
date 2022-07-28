@@ -91,3 +91,7 @@ The method was successful.
 </td>
 </tr>
 </table>
+
+## -see-also
+
+<a href="/windows/desktop/api/msctf/nn-msctf-itfkeyeventsink">ITfKeyEventSink</a>, <a href="/windows/desktop/inputdev/wm-keyupn">WM_KEYUP</a>, <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>

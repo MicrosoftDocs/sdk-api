@@ -74,8 +74,6 @@ message loop.
 
 ## -see-also
 
-<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
-
-
-
-<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
+- <a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
+- <a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+- <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>

@@ -131,64 +131,18 @@ For an example, see <a href="/windows/desktop/menurc/using-keyboard-accelerators
 
 ## -see-also
 
-<b>Conceptual</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-createacceleratortablea">CreateAcceleratorTable</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
-
-
-
-<a href="/windows/desktop/menurc/keyboard-accelerators">Keyboard Accelerators</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-loadacceleratorsa">LoadAccelerators</a>
-
-
-
-<a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
-
-
-
-<b>Reference</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-setcapture">SetCapture</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a>
-
-
-
-<a href="/windows/desktop/menurc/wm-command">WM_COMMAND</a>
-
-
-
-<a href="/windows/desktop/menurc/wm-initmenu">WM_INITMENU</a>
-
-
-
-<a href="/windows/desktop/menurc/wm-initmenupopup">WM_INITMENUPOPUP</a>
-
-
-
-<a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>
-
-
-
-<a href="/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a>
-
-
-
-<a href="/windows/desktop/inputdev/wm-syskeydown">WM_SYSKEYDOWN</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-createacceleratortablea">CreateAcceleratorTable</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
+- <a href="/windows/desktop/menurc/keyboard-accelerators">Keyboard Accelerators</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-loadacceleratorsa">LoadAccelerators</a>
+- <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-setcapture">SetCapture</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a>
+- <a href="/windows/desktop/menurc/wm-command">WM_COMMAND</a>
+- <a href="/windows/desktop/menurc/wm-initmenu">WM_INITMENU</a>
+- <a href="/windows/desktop/menurc/wm-initmenupopup">WM_INITMENUPOPUP</a>
+- <a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>
+- <a href="/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a>
+- <a href="/windows/desktop/inputdev/wm-syskeydown">WM_SYSKEYDOWN</a>
+- <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
