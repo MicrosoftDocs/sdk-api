@@ -95,7 +95,7 @@ Returns <b>S_OK</b> on successful completion.
 To start a XAML Diagnostics session with **InitializeXamlDiagnosticsEx**, create a tap DLL that exposes a COM class that implements the <a href="/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a> interface.
 The dll will be injected into the target process if the call is successful.
 
-The COM class that the tap DLL exposes is given an <a href="/windows/win32/api/xamlom/nn-xamlom-ixamldiagnostics">IXamlDiagnostics</a> instance via the <a href="/windows/win32/api/ocidl/nf-ocidl-iobjectwithsite-setsite">IObjectWithSite::SetSite</a> function.
+The COM class that the tap DLL exposes is given an **XamlDiagnostics** object (that implements <a href="/windows/win32/api/xamlom/nn-xamlom-ixamldiagnostics">IXamlDiagnostics</a>, <a href="/windows/win32/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService</a>, <a href="/windows/win32/api/xamlom/nn-xamlom-ivisualtreeservice2">IVisualTreeService2</a>, and <a href="/windows/win32/api/xamlom/nn-xamlom-ivisualtreeservice3">IVisualTreeService3</a>) via the <a href="/windows/win32/api/ocidl/nf-ocidl-iobjectwithsite-setsite">IObjectWithSite::SetSite</a> function.
 
 **InitializeXamlDiagnosticsEx** isn't defined in any static library (.lib) yet but can be dynamically loaded from `Windows.UI.Xaml.dll`.
 
