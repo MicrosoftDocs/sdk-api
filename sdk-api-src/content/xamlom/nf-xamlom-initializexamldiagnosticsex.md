@@ -70,7 +70,7 @@ The path to XamlDiagnostics.dll from the Windows SDK.
 
 ### -param wszTAPDllName [in]
 
-The name of the tap DLL to be injected in the process.
+The full path to the TAP DLL to be injected in the process.
 
 The DLL must expose a COM class that implements the <a href="/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a> interface.
 
@@ -92,16 +92,16 @@ Returns <b>S_OK</b> on successful completion.
 
 ## -remarks
 
-To start a XAML Diagnostics session with **InitializeXamlDiagnosticsEx**, create a tap DLL that exposes a COM class that implements the <a href="/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a> interface.
+To start a XAML Diagnostics session with **InitializeXamlDiagnosticsEx**, create a TAP DLL that exposes a COM class that implements the <a href="/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a> interface.
 The dll will be injected into the target process if the call is successful.
 
-The COM class that the tap DLL exposes is given an **XamlDiagnostics** object (that implements <a href="/windows/win32/api/xamlom/nn-xamlom-ixamldiagnostics">IXamlDiagnostics</a>, <a href="/windows/win32/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService</a>, <a href="/windows/win32/api/xamlom/nn-xamlom-ivisualtreeservice2">IVisualTreeService2</a>, and <a href="/windows/win32/api/xamlom/nn-xamlom-ivisualtreeservice3">IVisualTreeService3</a>) via the <a href="/windows/win32/api/ocidl/nf-ocidl-iobjectwithsite-setsite">IObjectWithSite::SetSite</a> function.
+The COM class that the TAP DLL exposes is given an **XamlDiagnostics** object (that implements <a href="/windows/win32/api/xamlom/nn-xamlom-ixamldiagnostics">IXamlDiagnostics</a>, <a href="/windows/win32/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService</a>, <a href="/windows/win32/api/xamlom/nn-xamlom-ivisualtreeservice2">IVisualTreeService2</a>, and <a href="/windows/win32/api/xamlom/nn-xamlom-ivisualtreeservice3">IVisualTreeService3</a>) via the <a href="/windows/win32/api/ocidl/nf-ocidl-iobjectwithsite-setsite">IObjectWithSite::SetSite</a> function.
 
 **InitializeXamlDiagnosticsEx** isn't defined in any static library (.lib) yet but can be dynamically loaded from `Windows.UI.Xaml.dll`.
 
 If calling **InitializeXamlDiagnosticsEx** does not initially return <b>S_OK</b>, subsequent calls may be successful.
 
-If the target process is a low IL packaged AppContainer UWP app, you have to allow both DLLs (XamlDiagnostics.dll and the tap DLL) to be loaded and read by the process by right clicking them > Properties > Security > Edit > Add > type `ALL APPLICATION PACKAGES` in the text box > OK > check `Allow` for `Read & execute` and `Read` > OK > OK.
+If the target process is a low IL packaged AppContainer UWP app, you have to allow both DLLs (XamlDiagnostics.dll and the TAP DLL) to be loaded and read by the process by right clicking them > Properties > Security > Edit > Add > type `ALL APPLICATION PACKAGES` in the text box > OK > check `Allow` for `Read & execute` and `Read` > OK > OK.
 
 
 ## Example
@@ -114,6 +114,6 @@ typedef HRESULT (*InitializeXamlDiagnosticsExProto)(_In_ LPCWSTR endPointName, _
 ...
 
 InitializeXamlDiagnosticsExProto InitializeXamlDiagnosticsExFn = (InitializeXamlDiagnosticsExProto)GetProcAddress(LoadLibraryW(L"Windows.UI.Xaml.dll"), "InitializeXamlDiagnosticsEx");
-HRESULT hr = InitializeXamlDiagnosticsExFn(L"VisualDiagConnection1", 12345, L"C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64\\XamlDiagnostics\\xamldiagnostics.dll", L"MyXamlTap.dll", CLSID_myTAP, L"86c 874 9f0 410 478 47c 9ec a08 ");
+HRESULT hr = InitializeXamlDiagnosticsExFn(L"VisualDiagConnection1", 12345, L"C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64\\XamlDiagnostics\\xamldiagnostics.dll", L"C:\\MyXamlTap\\MyXamlTap.dll", CLSID_myTAP, L"86c 874 9f0 410 478 47c 9ec a08 ");
 ```
 
