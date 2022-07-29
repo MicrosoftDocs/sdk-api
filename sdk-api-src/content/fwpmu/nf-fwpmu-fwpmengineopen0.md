@@ -68,7 +68,7 @@ Specifies the authentication service to use. Allowed services are RPC_C_AUTHN_WI
 
 ### -param authIdentity [in, optional]
 
-Type: <b><a href="/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY_W</a>*</b>
+Type: <b><a href="/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_w">SEC_WINNT_AUTH_IDENTITY_W</a>*</b>
 
 The authentication and authorization credentials for accessing the filter engine. This pointer is optional and can be <b>NULL</b>. If this pointer is <b>NULL</b>, the calling thread's credentials are used.
 
