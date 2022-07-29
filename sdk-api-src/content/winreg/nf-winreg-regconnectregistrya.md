@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegConnectRegistryA
 title: RegConnectRegistryA function (winreg.h)
-description: Establishes a connection to a predefined registry key on another computer.
+description: Establishes a connection to a predefined registry key on another computer. (ANSI)
 helpviewer_keywords: ["RegConnectRegistry","RegConnectRegistry function","RegConnectRegistryA","RegConnectRegistryW","_win32_regconnectregistry","base.regconnectregistry","winreg/RegConnectRegistry","winreg/RegConnectRegistryA","winreg/RegConnectRegistryW"]
 old-location: base\regconnectregistry.htm
 tech.root: winprog

@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcServerInterfaceGroupCreateA
 title: RpcServerInterfaceGroupCreateA function (rpcdce.h)
-description: The RpcServerInterfaceGroupCreate function creates an RPC server interface group for the server application.
+description: The RpcServerInterfaceGroupCreate function creates an RPC server interface group for the server application. (RpcServerInterfaceGroupCreateA)
 helpviewer_keywords: ["RpcServerInterfaceGroupCreate","RpcServerInterfaceGroupCreate function [RPC]","RpcServerInterfaceGroupCreateA","RpcServerInterfaceGroupCreateW","rpc.rpcserverinterfacegroupcreate","rpcdce/RpcServerInterfaceGroupCreate","rpcdce/RpcServerInterfaceGroupCreateA","rpcdce/RpcServerInterfaceGroupCreateW"]
 old-location: rpc\rpcserverinterfacegroupcreate.htm
 tech.root: Rpc

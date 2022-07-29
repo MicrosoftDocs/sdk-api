@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DSwapChain9.GetDisplayMode
 title: IDirect3DSwapChain9::GetDisplayMode (d3d9helper.h)
-description: Retrieves the display mode's spatial resolution, color resolution, and refresh frequency.
+description: Retrieves the display mode's spatial resolution, color resolution, and refresh frequency. (IDirect3DSwapChain9.GetDisplayMode)
 helpviewer_keywords: ["GetDisplayMode","GetDisplayMode method [Direct3D 9]","GetDisplayMode method [Direct3D 9]","IDirect3DSwapChain9 interface","IDirect3DSwapChain9 interface [Direct3D 9]","GetDisplayMode method","IDirect3DSwapChain9.GetDisplayMode","IDirect3DSwapChain9::GetDisplayMode","b01c04d0-2b7a-e281-bf1a-9932194412c6","d3d9helper/IDirect3DSwapChain9::GetDisplayMode","direct3d9.idirect3dswapchain9__getdisplaymode"]
 old-location: direct3d9\idirect3dswapchain9__getdisplaymode.htm
 tech.root: direct3d9

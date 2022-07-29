@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupSetPlatformPathOverrideA
 title: SetupSetPlatformPathOverrideA function (setupapi.h)
-description: The SetupSetPlatformPathOverride function is used to set a platform path override for a target machine when working with INFs from a different machine.
+description: The SetupSetPlatformPathOverride function is used to set a platform path override for a target machine when working with INFs from a different machine. (ANSI)
 helpviewer_keywords: ["SetupSetPlatformPathOverride","SetupSetPlatformPathOverride function [Setup API]","SetupSetPlatformPathOverrideA","SetupSetPlatformPathOverrideW","_setupapi_setupsetplatformpathoverride","setup.setupsetplatformpathoverride","setupapi/SetupSetPlatformPathOverride","setupapi/SetupSetPlatformPathOverrideA","setupapi/SetupSetPlatformPathOverrideW"]
 old-location: setup\setupsetplatformpathoverride.htm
 tech.root: setup

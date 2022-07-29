@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetWindowInfo
 title: GetWindowInfo function (winuser.h)
-description: Retrieves information about the specified window.
+description: Retrieves information about the specified window. (GetWindowInfo)
 helpviewer_keywords: ["GetWindowInfo","GetWindowInfo function [Windows and Messages]","_win32_GetWindowInfo","_win32_getwindowinfo_cpp","winmsg.getwindowinfo","winui._win32_getwindowinfo","winuser/GetWindowInfo"]
 old-location: winmsg\getwindowinfo.htm
 tech.root: winmsg

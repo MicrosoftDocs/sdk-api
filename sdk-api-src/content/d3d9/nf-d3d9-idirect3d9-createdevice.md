@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3D9.CreateDevice
 title: IDirect3D9::CreateDevice (d3d9.h)
-description: Creates a device to represent the display adapter.
+description: Creates a device to represent the display adapter. (IDirect3D9.CreateDevice)
 helpviewer_keywords: ["CreateDevice","CreateDevice method [Direct3D 9]","CreateDevice method [Direct3D 9]","IDirect3D9 interface","IDirect3D9 interface [Direct3D 9]","CreateDevice method","IDirect3D9.CreateDevice","IDirect3D9::CreateDevice","d3d9helper/IDirect3D9::CreateDevice","direct3d9.idirect3d9__createdevice","f1a706e0-42fb-ed6e-c0c8-07fa6aef658a"]
 old-location: direct3d9\idirect3d9__createdevice.htm
 tech.root: direct3d9

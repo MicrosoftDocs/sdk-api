@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DVolumeTexture9.AddDirtyBox
 title: IDirect3DVolumeTexture9::AddDirtyBox (d3d9.h)
-description: Adds a dirty region to a volume texture resource.
+description: Adds a dirty region to a volume texture resource. (IDirect3DVolumeTexture9.AddDirtyBox)
 helpviewer_keywords: ["30c24ae6-fb69-6d6d-b5db-8af47fa9f97c","AddDirtyBox","AddDirtyBox method [Direct3D 9]","AddDirtyBox method [Direct3D 9]","IDirect3DVolumeTexture9 interface","IDirect3DVolumeTexture9 interface [Direct3D 9]","AddDirtyBox method","IDirect3DVolumeTexture9.AddDirtyBox","IDirect3DVolumeTexture9::AddDirtyBox","d3d9helper/IDirect3DVolumeTexture9::AddDirtyBox","direct3d9.idirect3dvolumetexture9__adddirtybox"]
 old-location: direct3d9\idirect3dvolumetexture9__adddirtybox.htm
 tech.root: direct3d9

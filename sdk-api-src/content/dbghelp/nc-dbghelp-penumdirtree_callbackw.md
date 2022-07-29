@@ -1,7 +1,7 @@
 ---
 UID: NC:dbghelp.PENUMDIRTREE_CALLBACKW
 title: PENUMDIRTREE_CALLBACKW (dbghelp.h)
-description: An application-defined callback function used with the EnumDirTree function. It is called every time a match is found.
+description: An application-defined callback function used with the EnumDirTree function. It is called every time a match is found.E
 helpviewer_keywords: ["EnumDirTreeProc","EnumDirTreeProc callback","EnumDirTreeProc callback function","PENUMDIRTREE_CALLBACK","PENUMDIRTREE_CALLBACKW","_win32_enumdirtreeproc","base.enumdirtreeproc","dbghelp/EnumDirTreeProc"]
 old-location: base\enumdirtreeproc.htm
 tech.root: Debug

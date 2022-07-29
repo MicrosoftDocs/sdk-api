@@ -1,7 +1,7 @@
 ---
 UID: NS:msclus._CLUSTER_ENUM_ITEM
 title: CLUSTER_ENUM_ITEM (msclus.h)
-description: Contains the properties of a cluster object. This structure is used to enumerate clusters in the ClusterEnumEx and ClusterNodeEnumEx functions.
+description: Contains the properties of a cluster object. This structure is used to enumerate clusters in the ClusterEnumEx and ClusterNodeEnumEx functions. (CLUSTER_ENUM_ITEM)
 helpviewer_keywords: ["*PCLUSTER_ENUM_ITEM","CLUSTER_ENUM_ITEM","CLUSTER_ENUM_ITEM structure [Failover Cluster]","PCLUSTER_ENUM_ITEM","PCLUSTER_ENUM_ITEM structure pointer [Failover Cluster]","_CLUSTER_ENUM_ITEM","_CLUSTER_ENUM_ITEM structure [Failover Cluster]","clusapi/CLUSTER_ENUM_ITEM","clusapi/PCLUSTER_ENUM_ITEM","clusapi/_CLUSTER_ENUM_ITEM","msclus/CLUSTER_ENUM_ITEM","msclus/PCLUSTER_ENUM_ITEM","msclus/_CLUSTER_ENUM_ITEM","mscs.cluster_enum_item"]
 old-location: mscs\cluster_enum_item.htm
 tech.root: MsCS

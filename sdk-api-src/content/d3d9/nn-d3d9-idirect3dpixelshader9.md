@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d9.IDirect3DPixelShader9
 title: IDirect3DPixelShader9 (d3d9.h)
-description: Applications use the methods of the IDirect3DPixelShader9 interface to encapsulate the functionality of a pixel shader.
+description: Applications use the methods of the IDirect3DPixelShader9 interface to encapsulate the functionality of a pixel shader. (IDirect3DPixelShader9)
 helpviewer_keywords: ["1b9d322d-ffbe-622f-e100-b394c60f0d5d","IDirect3DPixelShader9","IDirect3DPixelShader9 interface [Direct3D 9]","IDirect3DPixelShader9 interface [Direct3D 9]","described","d3d9helper/IDirect3DPixelShader9","direct3d9.idirect3dpixelshader9"]
 old-location: direct3d9\idirect3dpixelshader9.htm
 tech.root: direct3d9

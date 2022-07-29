@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzRole.DeletePropertyItem
 title: IAzRole::DeletePropertyItem (azroles.h)
-description: Removes the specified entity from the specified list.
+description: Removes the specified entity from the specified list. (IAzRole.DeletePropertyItem)
 helpviewer_keywords: ["AZ_PROP_ROLE_APP_MEMBERS","AZ_PROP_ROLE_MEMBERS","AZ_PROP_ROLE_MEMBERS_NAME","AZ_PROP_ROLE_OPERATIONS","AZ_PROP_ROLE_TASKS","AzRole object [Security]","DeletePropertyItem method","DeletePropertyItem","DeletePropertyItem method [Security]","DeletePropertyItem method [Security]","AzRole object","DeletePropertyItem method [Security]","IAzRole interface","IAzRole interface [Security]","DeletePropertyItem method","IAzRole.DeletePropertyItem","IAzRole::DeletePropertyItem","azroles/IAzRole::DeletePropertyItem","security.iazrole_deletepropertyitem"]
 old-location: security\iazrole_deletepropertyitem.htm
 tech.root: security

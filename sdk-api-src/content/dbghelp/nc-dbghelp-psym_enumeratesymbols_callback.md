@@ -1,7 +1,7 @@
 ---
 UID: NC:dbghelp.PSYM_ENUMERATESYMBOLS_CALLBACK
 title: PSYM_ENUMERATESYMBOLS_CALLBACK (dbghelp.h)
-description: An application-defined callback function used with the SymEnumSymbols, SymEnumTypes, and SymEnumTypesByName functions.
+description: An application-defined callback function used with the SymEnumSymbols, SymEnumTypes, and SymEnumTypesByName functions. (PSYM_ENUMERATESYMBOLS_CALLBACKW)
 helpviewer_keywords: ["PSYM_ENUMERATESYMBOLS_CALLBACK","PSYM_ENUMERATESYMBOLS_CALLBACKW","PSYM_ENUMERATESYMBOLS_CALLBACKW callback function","SymEnumSymbolsProc","SymEnumSymbolsProc callback","SymEnumSymbolsProc callback function","_win32_symenumsymbolsproc","base.symenumsymbolsproc","dbghelp/PSYM_ENUMERATESYMBOLS_CALLBACK","dbghelp/PSYM_ENUMERATESYMBOLS_CALLBACKW","dbghelp/SymEnumSymbolsProc"]
 old-location: base\symenumsymbolsproc.htm
 tech.root: Debug

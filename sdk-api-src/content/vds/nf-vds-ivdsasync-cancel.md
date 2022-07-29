@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsAsync.Cancel
 title: IVdsAsync::Cancel (vds.h)
-description: Cancels the asynchronous operation.
+description: Cancels the asynchronous operation. (IVdsAsync.Cancel)
 helpviewer_keywords: ["Cancel","Cancel method [VDS]","Cancel method [VDS]","IVdsAsync interface","IVdsAsync interface [VDS]","Cancel method","IVdsAsync.Cancel","IVdsAsync::Cancel","base.ivdsasync_cancel","vds/IVdsAsync::Cancel","vdshwprv/IVdsAsync::Cancel"]
 old-location: base\ivdsasync_cancel.htm
 tech.root: base

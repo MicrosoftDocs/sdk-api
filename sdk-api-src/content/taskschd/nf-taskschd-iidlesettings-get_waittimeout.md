@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IIdleSettings.get_WaitTimeout
 title: IIdleSettings::get_WaitTimeout (taskschd.h)
-description: Gets or sets a value that indicates the amount of time that the Task Scheduler will wait for an idle condition to occur.
+description: Gets or sets a value that indicates the amount of time that the Task Scheduler will wait for an idle condition to occur. (Get)
 helpviewer_keywords: ["IIdleSettings interface [Task Scheduler]","WaitTimeout property","IIdleSettings.WaitTimeout","IIdleSettings.get_WaitTimeout","IIdleSettings::WaitTimeout","IIdleSettings::get_WaitTimeout","IIdleSettings::put_WaitTimeout","WaitTimeout property [Task Scheduler]","WaitTimeout property [Task Scheduler]","IIdleSettings interface","get_WaitTimeout","taskschd.iidlesettings_waittimeout","taskschd/IIdleSettings::WaitTimeout","taskschd/IIdleSettings::get_WaitTimeout","taskschd/IIdleSettings::put_WaitTimeout"]
 old-location: taskschd\iidlesettings_waittimeout.htm
 tech.root: taskschd

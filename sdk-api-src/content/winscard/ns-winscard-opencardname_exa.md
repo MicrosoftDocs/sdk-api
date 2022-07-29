@@ -1,7 +1,7 @@
 ---
 UID: NS:winscard.__unnamed_struct_4
 title: OPENCARDNAME_EXA (winscard.h)
-description: The OPENCARDNAME_EX structure contains the information that the SCardUIDlgSelectCard function uses to initialize a smart card Select Card dialog box.
+description: The OPENCARDNAME_EX structure contains the information that the SCardUIDlgSelectCard function uses to initialize a smart card Select Card dialog box. (ANSI)
 helpviewer_keywords: ["*LPOPENCARDNAME_EXA","*POPENCARDNAME_EXA","LPOPENCARDNAME_EX","LPOPENCARDNAME_EX structure pointer [Security]","OPENCARDNAME_EX","OPENCARDNAME_EX structure [Security]","OPENCARDNAME_EXA","OPENCARDNAME_EXW","POPENCARDNAME_EX","POPENCARDNAME_EX structure pointer [Security]","SC_DLG_FORCE_UI","SC_DLG_MINIMAL_UI","SC_DLG_NO_UI","_smart_opencardname_ex","security.opencardname_ex","winscard/LPOPENCARDNAME_EX","winscard/OPENCARDNAME_EX","winscard/OPENCARDNAME_EXA","winscard/OPENCARDNAME_EXW","winscard/POPENCARDNAME_EX"]
 old-location: security\opencardname_ex.htm
 tech.root: security

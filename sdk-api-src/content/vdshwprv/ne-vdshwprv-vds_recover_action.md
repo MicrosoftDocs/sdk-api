@@ -1,7 +1,7 @@
 ---
 UID: NE:vdshwprv._VDS_RECOVER_ACTION
 title: VDS_RECOVER_ACTION (vdshwprv.h)
-description: This enumeration is reserved for system use.
+description: This enumeration is reserved for system use. (VDS_RECOVER_ACTION)
 helpviewer_keywords: ["VDS_RECOVER_ACTION","VDS_RECOVER_ACTION enumeration","base.vds_recover_action","vds/VDS_RECOVER_ACTION","vdshwprv/VDS_RECOVER_ACTION"]
 old-location: base\vds_recover_action.htm
 tech.root: base

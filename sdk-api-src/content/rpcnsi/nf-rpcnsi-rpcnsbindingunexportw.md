@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingUnexportW
 title: RpcNsBindingUnexportW function (rpcnsi.h)
-description: The RpcNsBindingUnexport function removes the binding handles for an interface and objects from an entry in the name-service database.
+description: The RpcNsBindingUnexport function removes the binding handles for an interface and objects from an entry in the name-service database. (Unicode)
 helpviewer_keywords: ["RpcNsBindingUnexport","RpcNsBindingUnexport function [RPC]","RpcNsBindingUnexportA","RpcNsBindingUnexportW","_rpc_rpcnsbindingunexport","rpc.rpcnsbindingunexport","rpcnsi/RpcNsBindingUnexport","rpcnsi/RpcNsBindingUnexportA","rpcnsi/RpcNsBindingUnexportW"]
 old-location: rpc\rpcnsbindingunexport.htm
 tech.root: Rpc

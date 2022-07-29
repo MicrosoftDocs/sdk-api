@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHQueryInfoKeyW
 title: SHQueryInfoKeyW function (shlwapi.h)
-description: Retrieves information about a specified registry key.
+description: Retrieves information about a specified registry key. (Unicode)
 helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHQueryInfoKey","SHQueryInfoKey function [Windows Shell]","SHQueryInfoKeyA","SHQueryInfoKeyW","_win32_SHQueryInfoKey","shell.SHQueryInfoKey","shlwapi/SHQueryInfoKey","shlwapi/SHQueryInfoKeyA","shlwapi/SHQueryInfoKeyW"]
 old-location: shell\SHQueryInfoKey.htm
 tech.root: shell

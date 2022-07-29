@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptSetProviderExW
 title: CryptSetProviderExW function (wincrypt.h)
-description: Specifies the default cryptographic service provider (CSP) of a specified provider type for the local computer or current user.
+description: Specifies the default cryptographic service provider (CSP) of a specified provider type for the local computer or current user. (Unicode)
 helpviewer_keywords: ["CRYPT_DELETE_DEFAULT","CRYPT_MACHINE_DEFAULT","CRYPT_USER_DEFAULT","CryptSetProviderEx","CryptSetProviderEx function [Security]","CryptSetProviderExA","CryptSetProviderExW","_crypto2_cryptsetproviderex","security.cryptsetproviderex","wincrypt/CryptSetProviderEx","wincrypt/CryptSetProviderExA","wincrypt/CryptSetProviderExW"]
 old-location: security\cryptsetproviderex.htm
 tech.root: security

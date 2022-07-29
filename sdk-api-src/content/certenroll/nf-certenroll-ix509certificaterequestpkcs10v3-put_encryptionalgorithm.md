@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10V3.put_EncryptionAlgorithm
 title: IX509CertificateRequestPkcs10V3::put_EncryptionAlgorithm (certenroll.h)
-description: The encryption algorithm used to encrypt the EKPUB and EKCERT values from the client.
+description: The encryption algorithm used to encrypt the EKPUB and EKCERT values from the client. (Put)
 helpviewer_keywords: ["EncryptionAlgorithm property [Security]","EncryptionAlgorithm property [Security]","IX509CertificateRequestPkcs10V3 interface","IX509CertificateRequestPkcs10V3 interface [Security]","EncryptionAlgorithm property","IX509CertificateRequestPkcs10V3.EncryptionAlgorithm","IX509CertificateRequestPkcs10V3.put_EncryptionAlgorithm","IX509CertificateRequestPkcs10V3::EncryptionAlgorithm","IX509CertificateRequestPkcs10V3::get_EncryptionAlgorithm","IX509CertificateRequestPkcs10V3::put_EncryptionAlgorithm","certenroll/IX509CertificateRequestPkcs10V3::EncryptionAlgorithm","certenroll/IX509CertificateRequestPkcs10V3::get_EncryptionAlgorithm","certenroll/IX509CertificateRequestPkcs10V3::put_EncryptionAlgorithm","put_EncryptionAlgorithm","security.ix509certificaterequestpkcs10v3_encryptionalgorithm"]
 old-location: security\ix509certificaterequestpkcs10v3_encryptionalgorithm.htm
 tech.root: security

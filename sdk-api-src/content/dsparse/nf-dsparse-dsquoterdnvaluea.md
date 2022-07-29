@@ -1,7 +1,7 @@
 ---
 UID: NF:dsparse.DsQuoteRdnValueA
 title: DsQuoteRdnValueA function (dsparse.h)
-description: Converts an RDN into a quoted RDN value, if the RDN value contains characters that require quotes.
+description: Converts an RDN into a quoted RDN value, if the RDN value contains characters that require quotes. (ANSI)
 helpviewer_keywords: ["DsQuoteRdnValue","DsQuoteRdnValue function [Active Directory]","DsQuoteRdnValueA","DsQuoteRdnValueW","ERROR_BUFFER_OVERFLOW","ERROR_SUCCESS","_glines_dsquoterdnvalue","ad.dsquoterdnvalue","dsparse/DsQuoteRdnValue","dsparse/DsQuoteRdnValueA","dsparse/DsQuoteRdnValueW"]
 old-location: ad\dsquoterdnvalue.htm
 tech.root: ad

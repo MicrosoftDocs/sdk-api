@@ -1,7 +1,7 @@
 ---
 UID: NF:avrt.AvSetMmMaxThreadCharacteristicsA
 title: AvSetMmMaxThreadCharacteristicsA function (avrt.h)
-description: Associates the calling thread with the specified tasks.
+description: Associates the calling thread with the specified tasks. (ANSI)
 helpviewer_keywords: ["AvSetMmMaxThreadCharacteristics","AvSetMmMaxThreadCharacteristics function","AvSetMmMaxThreadCharacteristicsA","AvSetMmMaxThreadCharacteristicsW","avrt/AvSetMmMaxThreadCharacteristics","avrt/AvSetMmMaxThreadCharacteristicsA","avrt/AvSetMmMaxThreadCharacteristicsW","base.avsetmmmaxthreadcharacteristics"]
 old-location: base\avsetmmmaxthreadcharacteristics.htm
 tech.root: backup

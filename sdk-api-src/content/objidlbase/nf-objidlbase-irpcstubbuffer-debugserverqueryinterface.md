@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.IRpcStubBuffer.DebugServerQueryInterface
 title: IRpcStubBuffer::DebugServerQueryInterface (objidlbase.h)
-description: Retrieves a pointer to the interface that a stub represents.
+description: Retrieves a pointer to the interface that a stub represents. (IRpcStubBuffer.DebugServerQueryInterface)
 helpviewer_keywords: ["DebugServerQueryInterface","DebugServerQueryInterface method [COM]","DebugServerQueryInterface method [COM]","IRpcStubBuffer interface","IRpcStubBuffer interface [COM]","DebugServerQueryInterface method","IRpcStubBuffer.DebugServerQueryInterface","IRpcStubBuffer::DebugServerQueryInterface","_com_irpcstubbuffer_debugserverqueryinterface","com.irpcstubbuffer_debugserverqueryinterface","objidlbase/IRpcStubBuffer::DebugServerQueryInterface"]
 old-location: com\irpcstubbuffer_debugserverqueryinterface.htm
 tech.root: com

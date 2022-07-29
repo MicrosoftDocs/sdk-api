@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymMatchString
 title: SymMatchString function (dbghelp.h)
-description: Compares the specified string to the specified wildcard expression.
+description: Compares the specified string to the specified wildcard expression. (SymMatchStringW)
 helpviewer_keywords: ["SymMatchString","SymMatchString function","SymMatchStringW","base.symmatchstring","dbghelp/SymMatchString","dbghelp/SymMatchStringW"]
 old-location: base\symmatchstring.htm
 tech.root: Debug

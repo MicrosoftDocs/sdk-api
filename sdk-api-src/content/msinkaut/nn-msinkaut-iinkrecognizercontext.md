@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkRecognizerContext
 title: IInkRecognizerContext (msinkaut.h)
-description: .
+description: . (IInkRecognizerContext)
 helpviewer_keywords: ["IInkRecognizerContext","IInkRecognizerContext interface [Tablet PC]","IInkRecognizerContext interface [Tablet PC]","described","msinkaut/IInkRecognizerContext","tablet.iinkrecognizercontext"]
 old-location: tablet\iinkrecognizercontext.htm
 tech.root: tablet

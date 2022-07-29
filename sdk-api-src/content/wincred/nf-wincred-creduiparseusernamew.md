@@ -1,7 +1,7 @@
 ---
 UID: NF:wincred.CredUIParseUserNameW
 title: CredUIParseUserNameW function (wincred.h)
-description: The CredUIParseUserName function extracts the domain and user account name from a fully qualified user name.
+description: The CredUIParseUserName function extracts the domain and user account name from a fully qualified user name. (Unicode)
 helpviewer_keywords: ["CredUIParseUserName","CredUIParseUserName function [Security]","CredUIParseUserNameA","CredUIParseUserNameW","_cred_creduiparseusername","security.creduiparseusername","wincred/CredUIParseUserName","wincred/CredUIParseUserNameA","wincred/CredUIParseUserNameW"]
 old-location: security\creduiparseusername.htm
 tech.root: security

@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiSummaryInfoSetPropertyA
 title: MsiSummaryInfoSetPropertyA function (msiquery.h)
-description: The MsiSummaryInfoSetProperty function sets a single summary information property.
+description: The MsiSummaryInfoSetProperty function sets a single summary information property. (ANSI)
 helpviewer_keywords: ["MsiSummaryInfoSetProperty","MsiSummaryInfoSetProperty function","MsiSummaryInfoSetPropertyA","MsiSummaryInfoSetPropertyW","_msi_msisummaryinfosetproperty","msiquery/MsiSummaryInfoSetProperty","msiquery/MsiSummaryInfoSetPropertyA","msiquery/MsiSummaryInfoSetPropertyW","setup.msisummaryinfosetproperty"]
 old-location: setup\msisummaryinfosetproperty.htm
 tech.root: setup

@@ -1,7 +1,7 @@
 ---
 UID: NF:winnetwk.WNetDisconnectDialog1A
 title: WNetDisconnectDialog1A function (winnetwk.h)
-description: The WNetDisconnectDialog1 function attempts to disconnect a network resource.
+description: The WNetDisconnectDialog1 function attempts to disconnect a network resource. (ANSI)
 helpviewer_keywords: ["WNetDisconnectDialog1","WNetDisconnectDialog1 function [Windows Networking (WNet)]","WNetDisconnectDialog1A","WNetDisconnectDialog1W","_win32_wnetdisconnectdialog1","winnetwk/WNetDisconnectDialog1","winnetwk/WNetDisconnectDialog1A","winnetwk/WNetDisconnectDialog1W","wnet.wnetdisconnectdialog1"]
 old-location: wnet\wnetdisconnectdialog1.htm
 tech.root: WNet

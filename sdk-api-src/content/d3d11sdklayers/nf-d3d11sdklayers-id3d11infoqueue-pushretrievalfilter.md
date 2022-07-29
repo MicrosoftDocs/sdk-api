@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.PushRetrievalFilter
 title: ID3D11InfoQueue::PushRetrievalFilter (d3d11sdklayers.h)
-description: Push a retrieval filter onto the retrieval-filter stack.
+description: Push a retrieval filter onto the retrieval-filter stack. (ID3D11InfoQueue.PushRetrievalFilter)
 helpviewer_keywords: ["227e4e96-44d1-fd15-2776-9f57074da42a","ID3D11InfoQueue interface [Direct3D 11]","PushRetrievalFilter method","ID3D11InfoQueue.PushRetrievalFilter","ID3D11InfoQueue::PushRetrievalFilter","PushRetrievalFilter","PushRetrievalFilter method [Direct3D 11]","PushRetrievalFilter method [Direct3D 11]","ID3D11InfoQueue interface","d3d11sdklayers/ID3D11InfoQueue::PushRetrievalFilter","direct3d11.id3d11infoqueue_pushretrievalfilter"]
 old-location: direct3d11\id3d11infoqueue_pushretrievalfilter.htm
 tech.root: direct3d11

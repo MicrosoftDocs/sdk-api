@@ -4,7 +4,7 @@ tech.root: IpHlp
 title: RtlIpv6AddressToStringExA
 ms.date: 04/14/2021
 targetos: Windows
-description: Converts an IPv6 address, scope ID, and port number to a string.
+description: Converts an IPv6 address, scope ID, and port number to a string. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

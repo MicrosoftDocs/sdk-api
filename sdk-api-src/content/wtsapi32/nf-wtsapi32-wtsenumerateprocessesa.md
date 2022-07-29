@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsapi32.WTSEnumerateProcessesA
 title: WTSEnumerateProcessesA function (wtsapi32.h)
-description: Retrieves information about the active processes on a specified Remote Desktop Session Host (RD Session Host) server.
+description: Retrieves information about the active processes on a specified Remote Desktop Session Host (RD Session Host) server. (ANSI)
 helpviewer_keywords: ["WTSEnumerateProcesses","WTSEnumerateProcesses function [Remote Desktop Services]","WTSEnumerateProcessesA","WTSEnumerateProcessesW","_win32_wtsenumerateprocesses","termserv.wtsenumerateprocesses","wtsapi32/WTSEnumerateProcesses","wtsapi32/WTSEnumerateProcessesA","wtsapi32/WTSEnumerateProcessesW"]
 old-location: termserv\wtsenumerateprocesses.htm
 tech.root: TermServ

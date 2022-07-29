@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.InternetCheckConnectionW
 title: InternetCheckConnectionW function (wininet.h)
-description: Allows an application to check if a connection to the Internet can be established.
+description: Allows an application to check if a connection to the Internet can be established. (Unicode)
 helpviewer_keywords: ["InternetCheckConnection","InternetCheckConnection function [WinINet]","InternetCheckConnectionA","InternetCheckConnectionW","_inet_internetcheckconnection_function","wininet.internetcheckconnection","wininet/InternetCheckConnection","wininet/InternetCheckConnectionA","wininet/InternetCheckConnectionW"]
 old-location: wininet\internetcheckconnection.htm
 tech.root: wininet

@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxReceiptOptions.get_SMTPPassword
 title: IFaxReceiptOptions::get_SMTPPassword (faxcomex.h)
-description: The IFaxReceiptOptions::get_SMTPPassword property is a null-terminated string that contains the Simple Mail Transport Protocol (SMTP) password used for authenticated connections.
+description: The IFaxReceiptOptions::get_SMTPPassword property is a null-terminated string that contains the Simple Mail Transport Protocol (SMTP) password used for authenticated connections. (Get)
 helpviewer_keywords: ["IFaxReceiptOptions interface [Fax Service]","SMTPPassword property","IFaxReceiptOptions.SMTPPassword","IFaxReceiptOptions.get_SMTPPassword","IFaxReceiptOptions.put_SMTPPassword","IFaxReceiptOptions::SMTPPassword","IFaxReceiptOptions::get_SMTPPassword","IFaxReceiptOptions::put_SMTPPassword","SMTPPassword property [Fax Service]","SMTPPassword property [Fax Service]","IFaxReceiptOptions interface","_mfax_faxreceiptoptions.smtppassword","fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtppassword_cpp","fax._mfax_faxreceiptoptions_smtppassword","faxcomex/IFaxReceiptOptions::SMTPPassword","faxcomex/IFaxReceiptOptions::get_SMTPPassword","faxcomex/IFaxReceiptOptions::put_SMTPPassword","get_SMTPPassword"]
 old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtppassword_cpp.htm
 tech.root: Fax

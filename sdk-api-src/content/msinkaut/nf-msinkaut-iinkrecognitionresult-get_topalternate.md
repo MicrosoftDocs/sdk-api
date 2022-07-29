@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognitionResult.get_TopAlternate
 title: IInkRecognitionResult::get_TopAlternate (msinkaut.h)
-description: Gets the top alternate of the recognition result.
+description: Gets the top alternate of the recognition result. (IInkRecognitionResult.get_TopAlternate)
 helpviewer_keywords: ["6be3d9d1-8c59-48c5-a6a5-10d93b47cd5d","IInkRecognitionResult interface [Tablet PC]","TopAlternate property","IInkRecognitionResult.TopAlternate","IInkRecognitionResult.get_TopAlternate","IInkRecognitionResult::TopAlternate","IInkRecognitionResult::get_TopAlternate","TopAlternate property [Tablet PC]","TopAlternate property [Tablet PC]","IInkRecognitionResult interface","get_TopAlternate","msinkaut/IInkRecognitionResult::TopAlternate","msinkaut/IInkRecognitionResult::get_TopAlternate","tablet.iinkrecognitionresult_topalternate"]
 old-location: tablet\iinkrecognitionresult_topalternate.htm
 tech.root: tablet

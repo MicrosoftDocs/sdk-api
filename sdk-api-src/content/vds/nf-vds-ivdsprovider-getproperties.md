@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsProvider.GetProperties
 title: IVdsProvider::GetProperties (vds.h)
-description: Returns the properties of a provider.
+description: Returns the properties of a provider. (IVdsProvider.GetProperties)
 helpviewer_keywords: ["GetProperties","GetProperties method [VDS]","GetProperties method [VDS]","IVdsProvider interface","IVdsProvider interface [VDS]","GetProperties method","IVdsProvider.GetProperties","IVdsProvider::GetProperties","base.ivdsprovider_getproperties","vds/IVdsProvider::GetProperties","vdshwprv/IVdsProvider::GetProperties"]
 old-location: base\ivdsprovider_getproperties.htm
 tech.root: base

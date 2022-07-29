@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateTextFormat
 title: IDWriteFactory::CreateTextFormat (dwrite.h)
-description: Creates a text format object used for text layout.
+description: Creates a text format object used for text layout. (IDWriteFactory.CreateTextFormat)
 helpviewer_keywords: ["CreateTextFormat","CreateTextFormat method [Direct Write]","CreateTextFormat method [Direct Write]","IDWriteFactory interface","IDWriteFactory interface [Direct Write]","CreateTextFormat method","IDWriteFactory.CreateTextFormat","IDWriteFactory::CreateTextFormat","directwrite.IDWriteFactory_CreateTextFormat","dwrite/IDWriteFactory::CreateTextFormat"]
 old-location: directwrite\IDWriteFactory_CreateTextFormat.htm
 tech.root: DirectWrite

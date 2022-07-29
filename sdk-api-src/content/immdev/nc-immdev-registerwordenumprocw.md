@@ -1,7 +1,7 @@
 ---
 UID: NC:immdev.REGISTERWORDENUMPROCW
 title: REGISTERWORDENUMPROCW (immdev.h)
-description: An application-defined callback function used with the ImmEnumRegisterWord function.
+description: An application-defined callback function used with the ImmEnumRegisterWord function. (registerwordenumprocw)
 helpviewer_keywords: ["EnumRegisterWordProc","EnumRegisterWordProc callback function [Internationalization for Windows Applications]","EnumRegisterWordProcA","EnumRegisterWordProcW","REGISTERWORDENUMPROC","REGISTERWORDENUMPROC callback","REGISTERWORDENUMPROCA","REGISTERWORDENUMPROCW","_win32_EnumRegisterWordProc","imm/EnumRegisterWordProc","imm/EnumRegisterWordProcA","imm/EnumRegisterWordProcW","intl.enumregisterwordproc"]
 old-location: intl\enumregisterwordproc.htm
 tech.root: Intl

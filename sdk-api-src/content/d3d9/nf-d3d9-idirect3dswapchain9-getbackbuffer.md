@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DSwapChain9.GetBackBuffer
 title: IDirect3DSwapChain9::GetBackBuffer (d3d9.h)
-description: Retrieves a back buffer from the swap chain of the device.
+description: Retrieves a back buffer from the swap chain of the device. (IDirect3DSwapChain9.GetBackBuffer)
 helpviewer_keywords: ["138c5b9c-c0c2-7051-6dd4-c5933f8d32fa","GetBackBuffer","GetBackBuffer method [Direct3D 9]","GetBackBuffer method [Direct3D 9]","IDirect3DSwapChain9 interface","IDirect3DSwapChain9 interface [Direct3D 9]","GetBackBuffer method","IDirect3DSwapChain9.GetBackBuffer","IDirect3DSwapChain9::GetBackBuffer","d3d9helper/IDirect3DSwapChain9::GetBackBuffer","direct3d9.idirect3dswapchain9__getbackbuffer"]
 old-location: direct3d9\idirect3dswapchain9__getbackbuffer.htm
 tech.root: direct3d9

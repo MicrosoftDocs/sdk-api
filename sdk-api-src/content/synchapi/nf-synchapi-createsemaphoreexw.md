@@ -1,7 +1,7 @@
 ---
 UID: NF:synchapi.CreateSemaphoreExW
 title: CreateSemaphoreExW function (synchapi.h)
-description: Creates or opens a named or unnamed semaphore object and returns a handle to the object.
+description: Creates or opens a named or unnamed semaphore object and returns a handle to the object. (CreateSemaphoreExW)
 helpviewer_keywords: ["CreateSemaphoreExA","CreateSemaphoreExW","CreateSemaphoreExW function","base.createsemaphoreex","synchapi/CreateSemaphoreExA","synchapi/CreateSemaphoreExW"]
 old-location: base\createsemaphoreex.htm
 tech.root: base

@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_modrdn2_sW
 title: ldap_modrdn2_sW function (winldap.h)
-description: The ldap_modrdn2_s function changes the relative distinguished name of an LDAP entry.
+description: The ldap_modrdn2_s function changes the relative distinguished name of an LDAP entry. (ldap_modrdn2_sW)
 helpviewer_keywords: ["_ldap_ldap_modrdn2_s","ldap.ldap__modrdn2__s","ldap.ldap_modrdn2_s","ldap_modrdn2_s","ldap_modrdn2_s function [LDAP]","ldap_modrdn2_sA","ldap_modrdn2_sW","winldap/ldap_modrdn2_s","winldap/ldap_modrdn2_sA","winldap/ldap_modrdn2_sW"]
 old-location: ldap\ldap_modrdn2_s.htm
 tech.root: ldap

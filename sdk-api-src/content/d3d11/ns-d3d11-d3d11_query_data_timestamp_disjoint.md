@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_QUERY_DATA_TIMESTAMP_DISJOINT
 title: D3D11_QUERY_DATA_TIMESTAMP_DISJOINT (d3d11.h)
-description: Query information about the reliability of a timestamp query.
+description: Query information about the reliability of a timestamp query. (D3D11_QUERY_DATA_TIMESTAMP_DISJOINT)
 helpviewer_keywords: ["D3D11_QUERY_DATA_TIMESTAMP_DISJOINT","D3D11_QUERY_DATA_TIMESTAMP_DISJOINT structure [Direct3D 11]","d3d11/D3D11_QUERY_DATA_TIMESTAMP_DISJOINT","direct3d11.d3d11_query_data_timestamp_disjoint","f6339efd-3b83-c410-71de-6ecde51119d9"]
 old-location: direct3d11\d3d11_query_data_timestamp_disjoint.htm
 tech.root: direct3d11

@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.IPipeByte.Pull
 title: IPipeByte::Pull (objidlbase.h)
-description: Retrieves data of the byte type from the pipe source.
+description: Retrieves data of the byte type from the pipe source. (IPipeByte.Pull)
 helpviewer_keywords: ["IPipeByte interface [COM]","Pull method","IPipeByte.Pull","IPipeByte::Pull","Pull","Pull method [COM]","Pull method [COM]","IPipeByte interface","_com_ipipebyte_pull","com.ipipebyte_pull","objidlbase/IPipeByte::Pull"]
 old-location: com\ipipebyte_pull.htm
 tech.root: com

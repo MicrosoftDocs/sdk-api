@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3cc.ITAgentSession.get_ACDGroup
 title: ITAgentSession::get_ACDGroup (tapi3cc.h)
-description: The get_ACDGroup method gets the ACD group associated with this session.
+description: The get_ACDGroup method gets the ACD group associated with this session. (ITAgentSession.get_ACDGroup)
 helpviewer_keywords: ["ITAgentSession interface [TAPI 2.2]","get_ACDGroup method","ITAgentSession.get_ACDGroup","ITAgentSession::get_ACDGroup","_tapi3_itagentsession_get_acdgroup","get_ACDGroup","get_ACDGroup method [TAPI 2.2]","get_ACDGroup method [TAPI 2.2]","ITAgentSession interface","tapi3.itagentsession_get_acdgroup","tapi3cc/ITAgentSession::get_ACDGroup"]
 old-location: tapi3\itagentsession_get_acdgroup.htm
 tech.root: tapi3

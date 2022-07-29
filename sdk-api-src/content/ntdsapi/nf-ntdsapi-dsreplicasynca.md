@@ -1,7 +1,7 @@
 ---
 UID: NF:ntdsapi.DsReplicaSyncA
 title: DsReplicaSyncA function (ntdsapi.h)
-description: Synchronizes a destination naming context (NC) with one of its sources.
+description: Synchronizes a destination naming context (NC) with one of its sources. (ANSI)
 helpviewer_keywords: ["DS_REPSYNC_ADD_REFERENCE","DS_REPSYNC_ALL_SOURCES","DS_REPSYNC_ASYNCHRONOUS_OPERATION","DS_REPSYNC_FORCE","DS_REPSYNC_FULL","DS_REPSYNC_INTERSITE_MESSAGING","DS_REPSYNC_NO_DISCARD","DS_REPSYNC_PERIODIC","DS_REPSYNC_URGENT","DS_REPSYNC_WRITEABLE","DsReplicaSync","DsReplicaSync function [Active Directory]","DsReplicaSyncA","DsReplicaSyncW","_glines_dsreplicasync","ad.dsreplicasync","ntdsapi/DsReplicaSync","ntdsapi/DsReplicaSyncA","ntdsapi/DsReplicaSyncW"]
 old-location: ad\dsreplicasync.htm
 tech.root: ad

@@ -1,7 +1,7 @@
 ---
 UID: NE:vdshwprv._VDS_HEALTH
 title: VDS_HEALTH (vdshwprv.h)
-description: Defines the set of health state values for a VDS object.
+description: Defines the set of health state values for a VDS object. (VDS_HEALTH)
 helpviewer_keywords: ["VDS_HEALTH","VDS_HEALTH enumeration [VDS]","VDS_H_DEGRADED","VDS_H_FAILED","VDS_H_FAILED_REDUNDANCY","VDS_H_FAILED_REDUNDANCY_FAILING","VDS_H_FAILING","VDS_H_FAILING_REDUNDANCY","VDS_H_HEALTHY","VDS_H_PENDING_FAILURE","VDS_H_REBUILDING","VDS_H_REPLACED","VDS_H_STALE","VDS_H_UNKNOWN","base.vds_health","vds/VDS_HEALTH","vds/VDS_H_DEGRADED","vds/VDS_H_FAILED","vds/VDS_H_FAILED_REDUNDANCY","vds/VDS_H_FAILED_REDUNDANCY_FAILING","vds/VDS_H_FAILING","vds/VDS_H_FAILING_REDUNDANCY","vds/VDS_H_HEALTHY","vds/VDS_H_PENDING_FAILURE","vds/VDS_H_REBUILDING","vds/VDS_H_REPLACED","vds/VDS_H_STALE","vds/VDS_H_UNKNOWN","vdshwprv/VDS_HEALTH","vdshwprv/VDS_H_DEGRADED","vdshwprv/VDS_H_FAILED","vdshwprv/VDS_H_FAILED_REDUNDANCY","vdshwprv/VDS_H_FAILED_REDUNDANCY_FAILING","vdshwprv/VDS_H_FAILING","vdshwprv/VDS_H_FAILING_REDUNDANCY","vdshwprv/VDS_H_HEALTHY","vdshwprv/VDS_H_PENDING_FAILURE","vdshwprv/VDS_H_REBUILDING","vdshwprv/VDS_H_REPLACED","vdshwprv/VDS_H_STALE","vdshwprv/VDS_H_UNKNOWN"]
 old-location: base\vds_health.htm
 tech.root: base

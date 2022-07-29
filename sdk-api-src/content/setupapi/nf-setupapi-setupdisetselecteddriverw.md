@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiSetSelectedDriverW
 title: SetupDiSetSelectedDriverW function (setupapi.h)
-description: The SetupDiSetSelectedDriver function sets, or resets, the selected driver for a device information element or the selected class driver for a device information set.
+description: The SetupDiSetSelectedDriver function sets, or resets, the selected driver for a device information element or the selected class driver for a device information set. (Unicode)
 helpviewer_keywords: ["SetupDiSetSelectedDriver","SetupDiSetSelectedDriver function [Device and Driver Installation]","SetupDiSetSelectedDriverA","SetupDiSetSelectedDriverW","devinst.setupdisetselecteddriver","di-rtns_823d52e2-7c55-4c52-bccc-809135f28251.xml","setupapi/SetupDiSetSelectedDriver"]
 old-location: devinst\setupdisetselecteddriver.htm
 tech.root: devinst

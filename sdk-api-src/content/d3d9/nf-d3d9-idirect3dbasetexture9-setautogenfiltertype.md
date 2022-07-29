@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DBaseTexture9.SetAutoGenFilterType
 title: IDirect3DBaseTexture9::SetAutoGenFilterType (d3d9.h)
-description: Set the filter type that is used for automatically generated mipmap sublevels.
+description: Set the filter type that is used for automatically generated mipmap sublevels. (IDirect3DBaseTexture9.SetAutoGenFilterType)
 helpviewer_keywords: ["9d229d50-5ad7-e9ba-b0c4-0bf1f4d7f591","IDirect3DBaseTexture9 interface [Direct3D 9]","SetAutoGenFilterType method","IDirect3DBaseTexture9.SetAutoGenFilterType","IDirect3DBaseTexture9::SetAutoGenFilterType","SetAutoGenFilterType","SetAutoGenFilterType method [Direct3D 9]","SetAutoGenFilterType method [Direct3D 9]","IDirect3DBaseTexture9 interface","d3d9helper/IDirect3DBaseTexture9::SetAutoGenFilterType","direct3d9.idirect3dbasetexture9__setautogenfiltertype"]
 old-location: direct3d9\idirect3dbasetexture9__setautogenfiltertype.htm
 tech.root: direct3d9

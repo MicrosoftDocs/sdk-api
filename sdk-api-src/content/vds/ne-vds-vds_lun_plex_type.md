@@ -1,7 +1,7 @@
 ---
 UID: NE:vds._VDS_LUN_PLEX_TYPE
 title: VDS_LUN_PLEX_TYPE (vds.h)
-description: Defines the set of valid types for a LUN plex.
+description: Defines the set of valid types for a LUN plex. (VDS_LUN_PLEX_TYPE)
 helpviewer_keywords: ["VDS_LPT_PARITY","VDS_LPT_RAID03","VDS_LPT_RAID05","VDS_LPT_RAID10","VDS_LPT_RAID15","VDS_LPT_RAID2","VDS_LPT_RAID3","VDS_LPT_RAID30","VDS_LPT_RAID4","VDS_LPT_RAID5","VDS_LPT_RAID50","VDS_LPT_RAID53","VDS_LPT_RAID6","VDS_LPT_RAID60","VDS_LPT_SIMPLE","VDS_LPT_SPAN","VDS_LPT_STRIPE","VDS_LPT_UNKNOWN","VDS_LUN_PLEX_TYPE","VDS_LUN_PLEX_TYPE enumeration [VDS]","base.vds_lun_plex_type","vds/VDS_LPT_PARITY","vds/VDS_LPT_RAID03","vds/VDS_LPT_RAID05","vds/VDS_LPT_RAID10","vds/VDS_LPT_RAID15","vds/VDS_LPT_RAID2","vds/VDS_LPT_RAID3","vds/VDS_LPT_RAID30","vds/VDS_LPT_RAID4","vds/VDS_LPT_RAID5","vds/VDS_LPT_RAID50","vds/VDS_LPT_RAID53","vds/VDS_LPT_RAID6","vds/VDS_LPT_RAID60","vds/VDS_LPT_SIMPLE","vds/VDS_LPT_SPAN","vds/VDS_LPT_STRIPE","vds/VDS_LPT_UNKNOWN","vds/VDS_LUN_PLEX_TYPE","vdshwprv/VDS_LPT_PARITY","vdshwprv/VDS_LPT_RAID03","vdshwprv/VDS_LPT_RAID05","vdshwprv/VDS_LPT_RAID10","vdshwprv/VDS_LPT_RAID15","vdshwprv/VDS_LPT_RAID2","vdshwprv/VDS_LPT_RAID3","vdshwprv/VDS_LPT_RAID30","vdshwprv/VDS_LPT_RAID4","vdshwprv/VDS_LPT_RAID5","vdshwprv/VDS_LPT_RAID50","vdshwprv/VDS_LPT_RAID53","vdshwprv/VDS_LPT_RAID6","vdshwprv/VDS_LPT_RAID60","vdshwprv/VDS_LPT_SIMPLE","vdshwprv/VDS_LPT_SPAN","vdshwprv/VDS_LPT_STRIPE","vdshwprv/VDS_LPT_UNKNOWN","vdshwprv/VDS_LUN_PLEX_TYPE"]
 old-location: base\vds_lun_plex_type.htm
 tech.root: base

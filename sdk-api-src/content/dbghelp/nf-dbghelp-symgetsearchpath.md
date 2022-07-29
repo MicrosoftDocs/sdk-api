@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymGetSearchPath
 title: SymGetSearchPath function (dbghelp.h)
-description: Retrieves the symbol search path for the specified process.
+description: Retrieves the symbol search path for the specified process. (SymGetSearchPathW)
 helpviewer_keywords: ["SymGetSearchPath","SymGetSearchPath function","SymGetSearchPathW","_win32_symgetsearchpath","base.symgetsearchpath","dbghelp/SymGetSearchPath","dbghelp/SymGetSearchPathW"]
 old-location: base\symgetsearchpath.htm
 tech.root: Debug

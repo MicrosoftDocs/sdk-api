@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.ChrCmpIW
 title: ChrCmpIW function (shlwapi.h)
-description: Performs a comparison between two characters. The comparison is not case-sensitive.
+description: Performs a comparison between two characters. The comparison is not case-sensitive. (Unicode)
 helpviewer_keywords: ["ChrCmpI","ChrCmpI function [Windows Shell]","ChrCmpIA","ChrCmpIW","_win32_ChrCmpI","shell.ChrCmpI","shlwapi/ChrCmpI","shlwapi/ChrCmpIA","shlwapi/ChrCmpIW"]
 old-location: shell\ChrCmpI.htm
 tech.root: shell

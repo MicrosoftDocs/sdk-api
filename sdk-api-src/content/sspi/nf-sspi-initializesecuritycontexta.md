@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.InitializeSecurityContextA
 title: InitializeSecurityContextA function (sspi.h)
-description: Initiates the client side, outbound security context from a credential handle.
+description: Initiates the client side, outbound security context from a credential handle. (ANSI)
 helpviewer_keywords: ["Digest","ISC_REQ_ALLOCATE_MEMORY","ISC_REQ_CONFIDENTIALITY","ISC_REQ_CONNECTION","ISC_REQ_DELEGATE","ISC_REQ_EXTENDED_ERROR","ISC_REQ_HTTP","ISC_REQ_INTEGRITY","ISC_REQ_MANUAL_CRED_VALIDATION","ISC_REQ_MUTUAL_AUTH","ISC_REQ_NO_INTEGRITY","ISC_REQ_REPLAY_DETECT","ISC_REQ_SEQUENCE_DETECT","ISC_REQ_STREAM","ISC_REQ_USE_SESSION_KEY","ISC_REQ_USE_SUPPLIED_CREDS","InitializeSecurityContext","InitializeSecurityContext (General)","InitializeSecurityContext function [Security]","InitializeSecurityContextA","InitializeSecurityContextW","Kerberos or Negotiate","NTLM","Schannel/SSL","_ssp_initializesecuritycontext","security.initializesecuritycontext","security.initializesecuritycontext__general_","sspi/InitializeSecurityContext","sspi/InitializeSecurityContextA","sspi/InitializeSecurityContextW"]
 old-location: security\initializesecuritycontext__general_.htm
 tech.root: security

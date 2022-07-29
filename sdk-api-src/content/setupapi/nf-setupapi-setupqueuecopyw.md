@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupQueueCopyW
 title: SetupQueueCopyW function (setupapi.h)
-description: The SetupQueueCopy function adds a single file copy operation to a setup file queue.
+description: The SetupQueueCopy function adds a single file copy operation to a setup file queue. (Unicode)
 helpviewer_keywords: ["SetupQueueCopy","SetupQueueCopy function [Setup API]","SetupQueueCopyA","SetupQueueCopyW","_setupapi_setupqueuecopy","setup.setupqueuecopy","setupapi/SetupQueueCopy","setupapi/SetupQueueCopyA","setupapi/SetupQueueCopyW"]
 old-location: setup\setupqueuecopy.htm
 tech.root: setup

@@ -1,7 +1,7 @@
 ---
 UID: NS:networkisolation._INET_FIREWALL_AC_BINARIES
 title: INET_FIREWALL_AC_BINARIES (networkisolation.h)
-description: Contains the binary paths to applications running in an app container.
+description: Contains the binary paths to applications running in an app container. (INET_FIREWALL_AC_BINARIES)
 helpviewer_keywords: ["*PINET_FIREWALL_AC_BINARIES","INET_FIREWALL_AC_BINARIES","INET_FIREWALL_AC_BINARIES structure [ICS/ICF]","PINET_FIREWALL_AC_BINARIES","PINET_FIREWALL_AC_BINARIES structure pointer [ICS/ICF]","_INET_FIREWALL_AC_BINARIES","ics.inet_firewall_ac_binaries","networkisolation/INET_FIREWALL_AC_BINARIES","networkisolation/PINET_FIREWALL_AC_BINARIES"]
 old-location: ics\inet_firewall_ac_binaries.htm
 tech.root: ics

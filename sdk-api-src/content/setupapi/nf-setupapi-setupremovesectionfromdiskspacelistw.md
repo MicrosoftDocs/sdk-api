@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupRemoveSectionFromDiskSpaceListW
 title: SetupRemoveSectionFromDiskSpaceListW function (setupapi.h)
-description: The SetupRemoveSectionFromDiskSpaceList function removes the file delete or copy operations listed in a Copy Files section of an INF file from a disk-space list.
+description: The SetupRemoveSectionFromDiskSpaceList function removes the file delete or copy operations listed in a Copy Files section of an INF file from a disk-space list. (Unicode)
 helpviewer_keywords: ["FILEOP_COPY","FILEOP_DELETE","SetupRemoveSectionFromDiskSpaceList","SetupRemoveSectionFromDiskSpaceList function [Setup API]","SetupRemoveSectionFromDiskSpaceListA","SetupRemoveSectionFromDiskSpaceListW","_setupapi_setupremovesectionfromdiskspacelist","setup.setupremovesectionfromdiskspacelist","setupapi/SetupRemoveSectionFromDiskSpaceList","setupapi/SetupRemoveSectionFromDiskSpaceListA","setupapi/SetupRemoveSectionFromDiskSpaceListW"]
 old-location: setup\setupremovesectionfromdiskspacelist.htm
 tech.root: setup

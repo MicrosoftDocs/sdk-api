@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.DlgDirListComboBoxA
 title: DlgDirListComboBoxA function (winuser.h)
-description: Replaces the contents of a combo box with the names of the subdirectories and files in a specified directory. You can filter the list of names by specifying a set of file attributes. The list of names can include mapped drive letters.
+description: Replaces the contents of a combo box with the names of the subdirectories and files in a specified directory. You can filter the list of names by specifying a set of file attributes. The list of names can include mapped drive letters. (ANSI)
 helpviewer_keywords: ["DDL_ARCHIVE","DDL_DIRECTORY","DDL_DRIVES","DDL_EXCLUSIVE","DDL_HIDDEN","DDL_POSTMSGS","DDL_READONLY","DDL_READWRITE","DDL_SYSTEM","DlgDirListComboBox","DlgDirListComboBox function [Windows Controls]","DlgDirListComboBoxA","DlgDirListComboBoxW","_win32_DlgDirListComboBox","_win32_DlgDirListComboBox_cpp","controls.DlgDirListComboBox","controls._win32_DlgDirListComboBox","winuser/DlgDirListComboBox","winuser/DlgDirListComboBoxA","winuser/DlgDirListComboBoxW"]
 old-location: controls\DlgDirListComboBox.htm
 tech.root: Controls

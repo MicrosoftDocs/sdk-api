@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.ISynchronize
 title: ISynchronize (objidl.h)
-description: Provides asynchronous communication between objects about the occurrence of an event.
+description: Provides asynchronous communication between objects about the occurrence of an event. (ISynchronize)
 helpviewer_keywords: ["ISynchronize","ISynchronize interface [COM]","ISynchronize interface [COM]","described","_com_isynchronize","com.isynchronize","objidlbase/ISynchronize"]
 old-location: com\isynchronize.htm
 tech.root: com

@@ -1,7 +1,7 @@
 ---
 UID: NS:transportsettingcommon.TRANSPORT_SETTING_ID
 title: TRANSPORT_SETTING_ID (transportsettingcommon.h)
-description: Specifies the transport setting ID used by the SIO_APPLY_TRANSPORT_SETTING and SIO_QUERY_TRANSPORT_SETTING IOCTLs to apply or query the transport setting for a socket.
+description: Specifies the transport setting ID used by the SIO_APPLY_TRANSPORT_SETTING and SIO_QUERY_TRANSPORT_SETTING IOCTLs to apply or query the transport setting for a socket. (TRANSPORT_SETTING_ID)
 helpviewer_keywords: ["*PTRANSPORT_SETTING_ID","PTRANSPORT_SETTING_ID","PTRANSPORT_SETTING_ID structure pointer [Winsock]","TRANSPORT_SETTING_ID","TRANSPORT_SETTING_ID structure [Winsock]","transportsettingcommon/PTRANSPORT_SETTING_ID","transportsettingcommon/TRANSPORT_SETTING_ID","winsock.transport_setting_id"]
 old-location: winsock\transport_setting_id.htm
 tech.root: WinSock

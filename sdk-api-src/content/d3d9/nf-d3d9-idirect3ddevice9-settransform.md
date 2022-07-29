@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetTransform
 title: IDirect3DDevice9::SetTransform (d3d9.h)
-description: Sets a single device transformation-related state.
+description: Sets a single device transformation-related state. (IDirect3DDevice9.SetTransform)
 helpviewer_keywords: ["25042e52-3212-5250-0bac-ab23f76aaeb1","IDirect3DDevice9 interface [Direct3D 9]","SetTransform method","IDirect3DDevice9.SetTransform","IDirect3DDevice9::SetTransform","SetTransform","SetTransform method [Direct3D 9]","SetTransform method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::SetTransform","direct3d9.idirect3ddevice9__settransform"]
 old-location: direct3d9\idirect3ddevice9__settransform.htm
 tech.root: direct3d9

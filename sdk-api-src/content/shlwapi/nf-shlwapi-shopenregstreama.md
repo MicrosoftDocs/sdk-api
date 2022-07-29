@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHOpenRegStreamA
 title: SHOpenRegStreamA function (shlwapi.h)
-description: Deprecated.
+description: Deprecated. (SHOpenRegStreamA)
 helpviewer_keywords: ["SHOpenRegStream","SHOpenRegStream function [Windows Shell]","SHOpenRegStreamA","SHOpenRegStreamW","STGM_READ","STGM_READWRITE","STGM_WRITE","_win32_SHOpenRegStream","shell.SHOpenRegStream","shlwapi/SHOpenRegStream","shlwapi/SHOpenRegStreamA","shlwapi/SHOpenRegStreamW"]
 old-location: shell\SHOpenRegStream.htm
 tech.root: shell

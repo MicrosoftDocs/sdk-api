@@ -1,7 +1,7 @@
 ---
 UID: NF:winineti.FreeUrlCacheSpaceA
 title: FreeUrlCacheSpaceA function (winineti.h)
-description: Frees space in the cache.
+description: Frees space in the cache. (ANSI)
 helpviewer_keywords: ["FreeUrlCacheSpace","FreeUrlCacheSpace function [WinINet]","FreeUrlCacheSpaceA","FreeUrlCacheSpaceW","wininet.freeurlcachespace","winineti/FreeUrlCacheSpace","winineti/FreeUrlCacheSpaceA","winineti/FreeUrlCacheSpaceW"]
 old-location: wininet\freeurlcachespace.htm
 tech.root: wininet

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstci.WdsTransportClientInitializeSession
 title: WdsTransportClientInitializeSession function (wdstci.h)
-description: Initiates a multicast file transfer.
+description: Initiates a multicast file transfer. (WdsTransportClientInitializeSession)
 helpviewer_keywords: ["WdsTransportClientInitializeSession","WdsTransportClientInitializeSession function [Windows Deployment Services]","wds.wdstransportclientinitializesession","wdstci/WdsTransportClientInitializeSession"]
 old-location: wds\wdstransportclientinitializesession.htm
 tech.root: wds

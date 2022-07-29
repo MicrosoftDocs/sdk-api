@@ -1,7 +1,7 @@
 ---
 UID: NF:interlockedapi.InterlockedFlushSList
 title: InterlockedFlushSList function (interlockedapi.h)
-description: Removes all items from a singly linked list. Access to the list is synchronized on a multiprocessor system.
+description: Removes all items from a singly linked list. Access to the list is synchronized on a multiprocessor system. (InterlockedFlushSList)
 helpviewer_keywords: ["InterlockedFlushSList","InterlockedFlushSList function","_win32_interlockedflushslist","base.interlockedflushslist","interlockedapi/InterlockedFlushSList","winbase/InterlockedFlushSList"]
 old-location: base\interlockedflushslist.htm
 tech.root: backup

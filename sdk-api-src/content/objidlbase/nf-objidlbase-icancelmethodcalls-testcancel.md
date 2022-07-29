@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.ICancelMethodCalls.TestCancel
 title: ICancelMethodCalls::TestCancel (objidlbase.h)
-description: Determines whether a call has been canceled.
+description: Determines whether a call has been canceled. (ICancelMethodCalls.TestCancel)
 helpviewer_keywords: ["ICancelMethodCalls interface [COM]","TestCancel method","ICancelMethodCalls.TestCancel","ICancelMethodCalls::TestCancel","TestCancel","TestCancel method [COM]","TestCancel method [COM]","ICancelMethodCalls interface","_com_icancelmethodcalls_testcancel","com.icancelmethodcalls_testcancel","objidlbase/ICancelMethodCalls::TestCancel"]
 old-location: com\icancelmethodcalls_testcancel.htm
 tech.root: com

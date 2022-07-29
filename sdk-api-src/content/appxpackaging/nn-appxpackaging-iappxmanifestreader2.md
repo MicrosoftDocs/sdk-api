@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxManifestReader2
 title: IAppxManifestReader2 (appxpackaging.h)
-description: Represents an object model of the package manifest that provides methods to access manifest elements and attributes.
+description: Represents an object model of the package manifest that provides methods to access manifest elements and attributes. (IAppxManifestReader2)
 helpviewer_keywords: ["IAppxManifestReader2","IAppxManifestReader2 interface [App packaging and management]","IAppxManifestReader2 interface [App packaging and management]","described","appxpackaging/IAppxManifestReader2","appxpkg.iappxmanifestreader2"]
 old-location: appxpkg\iappxmanifestreader2.htm
 tech.root: appxpkg

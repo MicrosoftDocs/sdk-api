@@ -1,7 +1,7 @@
 ---
 UID: NF:winsvc.GetServiceKeyNameW
 title: GetServiceKeyNameW function (winsvc.h)
-description: Retrieves the service name of the specified service.
+description: Retrieves the service name of the specified service. (Unicode)
 helpviewer_keywords: ["GetServiceKeyName","GetServiceKeyName function","GetServiceKeyNameA","GetServiceKeyNameW","_win32_getservicekeyname","base.getservicekeyname","winsvc/GetServiceKeyName","winsvc/GetServiceKeyNameA","winsvc/GetServiceKeyNameW"]
 old-location: base\getservicekeyname.htm
 tech.root: security

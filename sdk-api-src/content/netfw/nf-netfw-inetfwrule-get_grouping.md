@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule.get_Grouping
 title: INetFwRule::get_Grouping (netfw.h)
-description: Specifies the group to which an individual rule belongs.
+description: Specifies the group to which an individual rule belongs. (Get)
 helpviewer_keywords: ["Grouping property [ICS/ICF]","Grouping property [ICS/ICF]","INetFwRule interface","INetFwRule interface [ICS/ICF]","Grouping property","INetFwRule.Grouping","INetFwRule.get_Grouping","INetFwRule::Grouping","INetFwRule::get_Grouping","INetFwRule::put_Grouping","get_Grouping","ics.inetfwrule_grouping","netfw/INetFwRule::Grouping","netfw/INetFwRule::get_Grouping","netfw/INetFwRule::put_Grouping"]
 old-location: ics\inetfwrule_grouping.htm
 tech.root: ics

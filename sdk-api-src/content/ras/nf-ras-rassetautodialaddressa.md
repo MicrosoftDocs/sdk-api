@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasSetAutodialAddressA
 title: RasSetAutodialAddressA function (ras.h)
-description: The RasSetAutodialAddress function can add an address to the AutoDial mapping database. Alternatively, the function can delete or modify the data associated with an existing address in the database.
+description: The RasSetAutodialAddress function can add an address to the AutoDial mapping database. Alternatively, the function can delete or modify the data associated with an existing address in the database. (ANSI)
 helpviewer_keywords: ["RasSetAutodialAddress","RasSetAutodialAddress function [RAS]","RasSetAutodialAddressA","RasSetAutodialAddressW","_ras_rassetautodialaddress","ras/RasSetAutodialAddress","ras/RasSetAutodialAddressA","ras/RasSetAutodialAddressW","rras.rassetautodialaddress"]
 old-location: rras\rassetautodialaddress.htm
 tech.root: RRAS

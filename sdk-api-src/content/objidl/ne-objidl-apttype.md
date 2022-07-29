@@ -1,7 +1,7 @@
 ---
 UID: NE:objidl._APTTYPE
 title: APTTYPE (objidl.h)
-description: Specifies different types of apartments.
+description: Specifies different types of apartments. (APTTYPE)
 helpviewer_keywords: ["APTTYPE","APTTYPE enumeration [COM]","APTTYPE_CURRENT","APTTYPE_MAINSTA","APTTYPE_MTA","APTTYPE_NA","APTTYPE_STA","_com_APTTYPE","com.apttype","objidlbase/APTTYPE","objidlbase/APTTYPE_CURRENT","objidlbase/APTTYPE_MAINSTA","objidlbase/APTTYPE_MTA","objidlbase/APTTYPE_NA","objidlbase/APTTYPE_STA"]
 old-location: com\apttype.htm
 tech.root: com

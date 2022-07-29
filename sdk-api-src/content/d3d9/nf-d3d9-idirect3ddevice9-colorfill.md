@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.ColorFill
 title: IDirect3DDevice9::ColorFill (d3d9.h)
-description: Allows an application to fill a rectangular area of a D3DPOOL_DEFAULT surface with a specified color.
+description: Allows an application to fill a rectangular area of a D3DPOOL_DEFAULT surface with a specified color. (IDirect3DDevice9.ColorFill)
 helpviewer_keywords: ["ColorFill","ColorFill method [Direct3D 9]","ColorFill method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","ColorFill method","IDirect3DDevice9.ColorFill","IDirect3DDevice9::ColorFill","b637fa24-0e80-8d43-dece-17fb81ac14e4","d3d9helper/IDirect3DDevice9::ColorFill","direct3d9.idirect3ddevice9__colorfill"]
 old-location: direct3d9\idirect3ddevice9__colorfill.htm
 tech.root: direct3d9

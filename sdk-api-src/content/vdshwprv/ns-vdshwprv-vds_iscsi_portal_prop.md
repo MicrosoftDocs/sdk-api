@@ -1,7 +1,7 @@
 ---
 UID: NS:vdshwprv._VDS_ISCSI_PORTAL_PROP
 title: VDS_ISCSI_PORTAL_PROP (vdshwprv.h)
-description: Defines the properties of an iSCSI portal.
+description: Defines the properties of an iSCSI portal. (VDS_ISCSI_PORTAL_PROP)
 helpviewer_keywords: ["*PVDS_ISCSI_PORTAL_PROP","VDS_ISCSI_PORTAL_PROP","VDS_ISCSI_PORTAL_PROP structure [VDS]","base.vds_iscsi_portal_prop","vds/VDS_ISCSI_PORTAL_PROP","vdshwprv/VDS_ISCSI_PORTAL_PROP"]
 old-location: base\vds_iscsi_portal_prop.htm
 tech.root: base

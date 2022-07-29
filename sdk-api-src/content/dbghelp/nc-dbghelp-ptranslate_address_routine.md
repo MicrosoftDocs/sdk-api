@@ -1,7 +1,7 @@
 ---
 UID: NC:dbghelp.PTRANSLATE_ADDRESS_ROUTINE
 title: PTRANSLATE_ADDRESS_ROUTINE (dbghelp.h)
-description: An application-defined callback function used with the StackWalk64 function. It provides address translation for 16-bit addresses.
+description: An application-defined callback function used with the StackWalk64 function. It provides address translation for 16-bit addresses.T
 helpviewer_keywords: ["PTRANSLATE_ADDRESS_ROUTINE","PTRANSLATE_ADDRESS_ROUTINE64","TranslateAddressProc64","TranslateAddressProc64 callback","TranslateAddressProc64 callback function","_win32_translateaddressproc64","base.translateaddressproc64","dbghelp/TranslateAddressProc64"]
 old-location: base\translateaddressproc64.htm
 tech.root: Debug

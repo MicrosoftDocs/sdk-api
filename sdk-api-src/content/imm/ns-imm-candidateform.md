@@ -1,7 +1,7 @@
 ---
 UID: NS:imm.tagCANDIDATEFORM
 title: CANDIDATEFORM (imm.h)
-description: Contains position information for the candidate window.
+description: Contains position information for the candidate window. (CANDIDATEFORM)
 helpviewer_keywords: ["*LPCANDIDATEFORM","*NPCANDIDATEFORM","*PCANDIDATEFORM","CANDIDATEFORM","CANDIDATEFORM structure [Internationalization for Windows Applications]","PCANDIDATEFORM","PCANDIDATEFORM structure pointer [Internationalization for Windows Applications]","_win32_CANDIDATEFORM_str","imm/CANDIDATEFORM","imm/PCANDIDATEFORM","intl.candidateform","tagCANDIDATEFORM"]
 old-location: intl\candidateform.htm
 tech.root: Intl

@@ -1,7 +1,7 @@
 ---
 UID: NF:shellapi.SHEmptyRecycleBinA
 title: SHEmptyRecycleBinA function (shellapi.h)
-description: Empties the Recycle Bin on the specified drive.
+description: Empties the Recycle Bin on the specified drive. (ANSI)
 helpviewer_keywords: ["SHERB_NOCONFIRMATION","SHERB_NOPROGRESSUI","SHERB_NOSOUND","SHEmptyRecycleBin","SHEmptyRecycleBin function [Windows Shell]","SHEmptyRecycleBinA","SHEmptyRecycleBinW","_win32_SHEmptyRecycleBin","shell.SHEmptyRecycleBin","shellapi/SHEmptyRecycleBin","shellapi/SHEmptyRecycleBinA","shellapi/SHEmptyRecycleBinW"]
 old-location: shell\SHEmptyRecycleBin.htm
 tech.root: shell

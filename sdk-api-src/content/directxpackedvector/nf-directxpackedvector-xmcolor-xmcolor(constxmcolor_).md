@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMCOLOR.XMCOLOR(constXMCOLOR&)
 title: XMCOLOR::XMCOLOR(const XMCOLOR &) (directxpackedvector.h)
-description: A constructor for XMCOLOR.
+description: A constructor for XMCOLOR. (overload 2/2)
 helpviewer_keywords: ["XMCOLOR","XMCOLOR constructor [DirectX Math Support APIs]","XMCOLOR constructor [DirectX Math Support APIs]","XMCOLOR structure","XMCOLOR structure [DirectX Math Support APIs]","XMCOLOR constructor","XMCOLOR.XMCOLOR","XMCOLOR.XMCOLOR()","XMCOLOR.XMCOLOR(const XMCOLOR &)","XMCOLOR::XMCOLOR","XMCOLOR::XMCOLOR(const XMCOLOR &)","dxmath.xmcolor_ctor_1"]
 old-location: 
 tech.root: dxmath

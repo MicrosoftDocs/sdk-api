@@ -1,7 +1,7 @@
 ---
 UID: NS:vds._VDS_LUN_PROP
 title: VDS_LUN_PROP (vds.h)
-description: Defines the properties of a LUN object.
+description: Defines the properties of a LUN object. (VDS_LUN_PROP)
 helpviewer_keywords: ["*PVDS_LUN_PROP","PVDS_LUN_PROP","PVDS_LUN_PROP structure pointer [VDS]","VDS_H_FAILED","VDS_H_FAILED_REDUNDANCY","VDS_H_FAILED_REDUNDANCY_FAILING","VDS_H_FAILING","VDS_H_FAILING_REDUNDANCY","VDS_H_HEALTHY","VDS_H_REBUILDING","VDS_H_UNKNOWN","VDS_LUN_PROP","VDS_LUN_PROP structure [VDS]","base.vds_lun_prop","vds/PVDS_LUN_PROP","vds/_VDS_LUN_PROP","vdshwprv/PVDS_LUN_PROP","vdshwprv/_VDS_LUN_PROP"]
 old-location: base\vds_lun_prop.htm
 tech.root: base

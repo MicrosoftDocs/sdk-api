@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineBlindTransfer
 title: lineBlindTransfer function (tapi.h)
-description: The lineBlindTransfer function performs a blind or single-step transfer of the specified call to the specified destination address.
+description: The lineBlindTransfer function performs a blind or single-step transfer of the specified call to the specified destination address. (lineBlindTransferW)
 helpviewer_keywords: ["_tapi2_lineblindtransfer","lineBlindTransfer","lineBlindTransfer function [TAPI 2.2]","lineBlindTransferA","lineBlindTransferW","tapi/lineBlindTransfer","tapi/lineBlindTransferA","tapi/lineBlindTransferW","tapi2.lineblindtransfer"]
 old-location: tapi2\lineblindtransfer.htm
 tech.root: tapi3

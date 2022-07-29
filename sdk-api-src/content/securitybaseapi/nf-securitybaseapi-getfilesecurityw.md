@@ -4,7 +4,7 @@ tech.root: security
 title: GetFileSecurityW
 ms.date: 04/20/2021 
 targetos: Windows
-description: Obtains specified information about the security of a file or directory. The information obtained is constrained by the caller's access rights and privileges.
+description: Obtains specified information about the security of a file or directory. The information obtained is constrained by the caller's access rights and privileges. (GetFileSecurityW)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

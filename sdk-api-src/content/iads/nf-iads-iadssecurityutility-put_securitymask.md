@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsSecurityUtility.put_SecurityMask
 title: IADsSecurityUtility::put_SecurityMask (iads.h)
-description: Determines which elements of the security descriptor to retrieve or set.
+description: Determines which elements of the security descriptor to retrieve or set. (Put)
 helpviewer_keywords: ["IADsSecurityUtility interface [ADSI]","SecurityMask property","IADsSecurityUtility.SecurityMask","IADsSecurityUtility.put_SecurityMask","IADsSecurityUtility::SecurityMask","IADsSecurityUtility::get_SecurityMask","IADsSecurityUtility::put_SecurityMask","SecurityMask property [ADSI]","SecurityMask property [ADSI]","IADsSecurityUtility interface","adsi.iadssecurityutility_securitymask","iads/IADsSecurityUtility::SecurityMask","iads/IADsSecurityUtility::get_SecurityMask","iads/IADsSecurityUtility::put_SecurityMask","put_SecurityMask"]
 old-location: adsi\iadssecurityutility_securitymask.htm
 tech.root: adsi

@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateTrueFalse
 title: IConditionFactory2::CreateTrueFalse (structuredquery.h)
-description: Creates a search condition that is either TRUE or FALSE.
+description: Creates a search condition that is either TRUE or FALSE. (IConditionFactory2.CreateTrueFalse)
 helpviewer_keywords: ["CreateTrueFalse","CreateTrueFalse method [search]","CreateTrueFalse method [search]","IConditionFactory2 interface","IConditionFactory2 interface [search]","CreateTrueFalse method","IConditionFactory2.CreateTrueFalse","IConditionFactory2::CreateTrueFalse","_search_IConditionFactory2_CreateTrueFalse","search._search_IConditionFactory2_CreateTrueFalse","structuredquery/IConditionFactory2::CreateTrueFalse"]
 old-location: search\_search_IConditionFactory2_CreateTrueFalse.htm
 tech.root: search

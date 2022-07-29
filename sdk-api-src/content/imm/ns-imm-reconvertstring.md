@@ -1,7 +1,7 @@
 ---
 UID: NS:imm.tagRECONVERTSTRING
 title: RECONVERTSTRING (imm.h)
-description: Defines the strings for IME reconversion. It is the first item in a memory block that contains the strings for reconversion.
+description: Defines the strings for IME reconversion. It is the first item in a memory block that contains the strings for reconversion. (RECONVERTSTRING)
 helpviewer_keywords: ["*LPRECONVERTSTRING","*NPRECONVERTSTRING","*PRECONVERTSTRING","PRECONVERTSTRING","PRECONVERTSTRING structure pointer [Internationalization for Windows Applications]","RECONVERTSTRING","RECONVERTSTRING structure [Internationalization for Windows Applications]","_win32_RECONVERTSTRING_str","imm/PRECONVERTSTRING","imm/RECONVERTSTRING","intl.reconvertstring","tagRECONVERTSTRING"]
 old-location: intl\reconvertstring.htm
 tech.root: Intl

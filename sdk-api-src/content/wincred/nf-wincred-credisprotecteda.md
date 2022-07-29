@@ -1,7 +1,7 @@
 ---
 UID: NF:wincred.CredIsProtectedA
 title: CredIsProtectedA function (wincred.h)
-description: Specifies whether the specified credentials are encrypted by a previous call to the CredProtect function.
+description: Specifies whether the specified credentials are encrypted by a previous call to the CredProtect function. (ANSI)
 helpviewer_keywords: ["CredIsProtected","CredIsProtected function [Security]","CredIsProtectedA","CredIsProtectedW","security.credisprotected","wincred/CredIsProtected","wincred/CredIsProtectedA","wincred/CredIsProtectedW"]
 old-location: security\credisprotected.htm
 tech.root: security

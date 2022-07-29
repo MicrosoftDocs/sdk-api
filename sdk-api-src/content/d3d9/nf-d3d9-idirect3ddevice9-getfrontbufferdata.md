@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetFrontBufferData
 title: IDirect3DDevice9::GetFrontBufferData (d3d9.h)
-description: Generates a copy of the device's front buffer and places that copy in a system memory buffer provided by the application.
+description: Generates a copy of the device's front buffer and places that copy in a system memory buffer provided by the application. (IDirect3DDevice9.GetFrontBufferData)
 helpviewer_keywords: ["GetFrontBufferData","GetFrontBufferData method [Direct3D 9]","GetFrontBufferData method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetFrontBufferData method","IDirect3DDevice9.GetFrontBufferData","IDirect3DDevice9::GetFrontBufferData","b122af3c-c0ea-2cbb-1c39-139ab45eff11","d3d9helper/IDirect3DDevice9::GetFrontBufferData","direct3d9.idirect3ddevice9__getfrontbufferdata"]
 old-location: direct3d9\idirect3ddevice9__getfrontbufferdata.htm
 tech.root: direct3d9

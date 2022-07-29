@@ -1,7 +1,7 @@
 ---
 UID: NF:ntmsapi.GetNtmsUIOptionsW
 title: GetNtmsUIOptionsW function (ntmsapi.h)
-description: The GetNtmsUIOptions function obtains the list of computer names to which the specified type of user interface is being directed for the given object.
+description: The GetNtmsUIOptions function obtains the list of computer names to which the specified type of user interface is being directed for the given object. (Unicode)
 helpviewer_keywords: ["GetNtmsUIOptions","GetNtmsUIOptions function [Files]","GetNtmsUIOptionsA","GetNtmsUIOptionsW","NTMS_UITYPE_ERR","NTMS_UITYPE_INFO","NTMS_UITYPE_REQ","_zaw_getntmsuioptions","base.getntmsuioptions","fs.getntmsuioptions","ntmsapi/GetNtmsUIOptions","ntmsapi/GetNtmsUIOptionsA","ntmsapi/GetNtmsUIOptionsW"]
 old-location: fs\getntmsuioptions.htm
 tech.root: fs

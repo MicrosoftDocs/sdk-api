@@ -1,7 +1,7 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceWebControl.GetDeviceFromId
 title: IPortableDeviceWebControl::GetDeviceFromId (portabledeviceapi.h)
-description: Instantiates a WPD Automation Device object for a given WPD device identifier.
+description: Instantiates a WPD Automation Device object for a given WPD device identifier. (IPortableDeviceWebControl.GetDeviceFromId)
 helpviewer_keywords: ["GetDeviceFromId","GetDeviceFromId method [WPD Automation]","GetDeviceFromId method [WPD Automation]","IPortableDeviceWebControl interface","IPortableDeviceWebControl interface [WPD Automation]","GetDeviceFromId method","IPortableDeviceWebControl.GetDeviceFromId","IPortableDeviceWebControl::GetDeviceFromId","portabledeviceapi/IPortableDeviceWebControl::GetDeviceFromId","wpdauto.iportabledevicewebcontrol_getdevicefromid"]
 old-location: wpdauto\iportabledevicewebcontrol_getdevicefromid.htm
 tech.root: wpdauto

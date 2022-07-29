@@ -1,7 +1,7 @@
 ---
 UID: NS:rpcdce.__unnamed_struct_5
 title: RPC_ENDPOINT_TEMPLATE (rpcdce.h)
-description: Specifies the properties of an RPC interface group server endpoint, including protocol sequence and name.
+description: Specifies the properties of an RPC interface group server endpoint, including protocol sequence and name. (RPC_ENDPOINT_TEMPLATEW)
 helpviewer_keywords: ["*PRPC_ENDPOINT_TEMPLATE","PRPC_ENDPOINT_TEMPLATE","PRPC_ENDPOINT_TEMPLATE structure pointer [RPC]","RPC_ENDPOINT_TEMPLATE","RPC_ENDPOINT_TEMPLATE structure [RPC]","RPC_ENDPOINT_TEMPLATEA","RPC_ENDPOINT_TEMPLATEW","rpc.rpc_endpoint_template","rpcdce/PRPC_ENDPOINT_TEMPLATE","rpcdce/RPC_ENDPOINT_TEMPLATE","rpcdce/RPC_ENDPOINT_TEMPLATEA","rpcdce/RPC_ENDPOINT_TEMPLATEW"]
 old-location: rpc\rpc_endpoint_template.htm
 tech.root: Rpc

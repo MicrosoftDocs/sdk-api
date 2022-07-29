@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkStrokes.Clip
 title: IInkStrokes::Clip (msinkaut.h)
-description: Removes portions of an IInkStrokeDisp object or InkStrokes collection that are outside a rectangle.
+description: Removes portions of an IInkStrokeDisp object or InkStrokes collection that are outside a rectangle. (IInkStrokes.Clip)
 helpviewer_keywords: ["Clip","Clip method [Tablet PC]","Clip method [Tablet PC]","IInkStrokes interface","IInkStrokes interface [Tablet PC]","Clip method","IInkStrokes.Clip","IInkStrokes::Clip","d3733613-fc8e-41f2-9172-07b61fc133dd","msinkaut/IInkStrokes::Clip","tablet.inkstrokes_clip"]
 old-location: tablet\inkstrokes_clip.htm
 tech.root: tablet

@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.ReportEventA
 title: ReportEventA function (winbase.h)
-description: Writes an entry at the end of the specified event log.
+description: Writes an entry at the end of the specified event log. (ANSI)
 helpviewer_keywords: ["EVENTLOG_AUDIT_FAILURE","EVENTLOG_AUDIT_SUCCESS","EVENTLOG_ERROR_TYPE","EVENTLOG_INFORMATION_TYPE","EVENTLOG_SUCCESS","EVENTLOG_WARNING_TYPE","ReportEvent","ReportEvent function","ReportEventA","ReportEventW","_win32_reportevent","base.reportevent","winbase/ReportEvent","winbase/ReportEventA","winbase/ReportEventW"]
 old-location: base\reportevent.htm
 tech.root: base

@@ -1,7 +1,7 @@
 ---
 UID: NF:tlhelp32.Module32FirstW
 title: Module32FirstW function (tlhelp32.h)
-description: Retrieves information about the first module associated with a process.
+description: Retrieves information about the first module associated with a process. (Module32FirstW)
 helpviewer_keywords: ["Module32First","Module32First function [ToolHelp]","Module32FirstW","_win32_module32first","base.module32first","tlhelp32/Module32First","tlhelp32/Module32FirstW","toolhelp.module32first"]
 old-location: toolhelp\module32first.htm
 tech.root: ToolHelp

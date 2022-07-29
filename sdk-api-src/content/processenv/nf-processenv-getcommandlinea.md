@@ -1,7 +1,7 @@
 ---
 UID: NF:processenv.GetCommandLineA
 title: GetCommandLineA function (processenv.h)
-description: Retrieves the command-line string for the current process.
+description: Retrieves the command-line string for the current process. (ANSI)
 helpviewer_keywords: ["GetCommandLine","GetCommandLine function","GetCommandLineA","GetCommandLineW","_win32_getcommandline","base.getcommandline","processenv/GetCommandLine","processenv/GetCommandLineA","processenv/GetCommandLineW","winbase/GetCommandLine","winbase/GetCommandLineA","winbase/GetCommandLineW"]
 old-location: base\getcommandline.htm
 tech.root: backup

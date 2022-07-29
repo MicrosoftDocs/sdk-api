@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.RememberInitiatorSharedSecret
 title: IVdsIscsiTarget::RememberInitiatorSharedSecret (vds.h)
-description: Communicates the initiator CHAP secret that is used for mutual CHAP authentication when the initiator authenticates the target.
+description: Communicates the initiator CHAP secret that is used for mutual CHAP authentication when the initiator authenticates the target. (IVdsIscsiTarget.RememberInitiatorSharedSecret)
 helpviewer_keywords: ["IVdsIscsiTarget interface [VDS]","RememberInitiatorSharedSecret method","IVdsIscsiTarget.RememberInitiatorSharedSecret","IVdsIscsiTarget::RememberInitiatorSharedSecret","RememberInitiatorSharedSecret","RememberInitiatorSharedSecret method [VDS]","RememberInitiatorSharedSecret method [VDS]","IVdsIscsiTarget interface","base.ivdsiscsitarget_rememberinitiatorsharedsecret","vds/IVdsIscsiTarget::RememberInitiatorSharedSecret","vdshwprv/IVdsIscsiTarget::RememberInitiatorSharedSecret"]
 old-location: base\ivdsiscsitarget_rememberinitiatorsharedsecret.htm
 tech.root: base

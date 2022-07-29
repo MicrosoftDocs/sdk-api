@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.HttpQueryInfoA
 title: HttpQueryInfoA function (wininet.h)
-description: Retrieves header information associated with an HTTP request.
+description: Retrieves header information associated with an HTTP request. (ANSI)
 helpviewer_keywords: ["HttpQueryInfo","HttpQueryInfo function [WinINet]","HttpQueryInfoA","HttpQueryInfoW","_inet_httpqueryinfo_function","wininet.httpqueryinfo","wininet/HttpQueryInfo","wininet/HttpQueryInfoA","wininet/HttpQueryInfoW"]
 old-location: wininet\httpqueryinfo.htm
 tech.root: wininet

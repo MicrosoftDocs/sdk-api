@@ -1,7 +1,7 @@
 ---
 UID: NS:vds._VDS_PATH_ID
 title: VDS_PATH_ID (vds.h)
-description: Defines a unique identification for a path.
+description: Defines a unique identification for a path. (VDS_PATH_ID)
 helpviewer_keywords: ["VDS_PATH_ID","VDS_PATH_ID structure [VDS]","base.vds_path_id","vds/VDS_PATH_ID","vdshwprv/VDS_PATH_ID"]
 old-location: base\vds_path_id.htm
 tech.root: base

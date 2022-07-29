@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystemIscsi.SetIpsecGroupPresharedKey
 title: IVdsSubSystemIscsi::SetIpsecGroupPresharedKey (vdshwprv.h)
-description: Not supported.This method is reserved for future use.
+description: Not supported.This method is reserved for future use. (IVdsSubSystemIscsi.SetIpsecGroupPresharedKey)
 helpviewer_keywords: ["IVdsSubSystemIscsi interface","SetIpsecGroupPresharedKey method","IVdsSubSystemIscsi.SetIpsecGroupPresharedKey","IVdsSubSystemIscsi::SetIpsecGroupPresharedKey","SetIpsecGroupPresharedKey","SetIpsecGroupPresharedKey method","SetIpsecGroupPresharedKey method","IVdsSubSystemIscsi interface","base.ivdssubsystemiscsi_setipsecgrouppresharedkey","vds/IVdsSubSystemIscsi::SetIpsecGroupPresharedKey","vdshwprv/IVdsSubSystemIscsi::SetIpsecGroupPresharedKey"]
 old-location: base\ivdssubsystemiscsi_setipsecgrouppresharedkey.htm
 tech.root: base

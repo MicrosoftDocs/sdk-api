@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetDeviceFontName
 title: IXpsOMGlyphs::GetDeviceFontName (xpsobjectmodel.h)
-description: Gets the name of the device font.
+description: Gets the name of the device font. (IXpsOMGlyphs.GetDeviceFontName)
 helpviewer_keywords: ["GetDeviceFontName","GetDeviceFontName method [XPS Documents and Packaging]","GetDeviceFontName method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetDeviceFontName method","IXpsOMGlyphs.GetDeviceFontName","IXpsOMGlyphs::GetDeviceFontName","xps.ixpsomglyphs_getdevicefontname","xpsobjectmodel/IXpsOMGlyphs::GetDeviceFontName"]
 old-location: xps\ixpsomglyphs_getdevicefontname.htm
 tech.root: xps

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_BUFFER_UAV
 title: D3D12_BUFFER_UAV (d3d12.h)
-description: Describes the elements in a buffer to use in a unordered-access view.
+description: Describes the elements in a buffer to use in a unordered-access view. (D3D12_BUFFER_UAV)
 helpviewer_keywords: ["D3D12_BUFFER_UAV","D3D12_BUFFER_UAV structure","d3d12/D3D12_BUFFER_UAV","direct3d12.d3d12_buffer_uav"]
 old-location: direct3d12\d3d12_buffer_uav.htm
 tech.root: direct3d12

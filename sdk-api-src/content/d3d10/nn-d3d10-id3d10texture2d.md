@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10.ID3D10Texture2D
 title: ID3D10Texture2D (d3d10.h)
-description: A 2D texture interface manages texel data, which is structured memory.
+description: A 2D texture interface manages texel data, which is structured memory. (ID3D10Texture2D)
 helpviewer_keywords: ["9a2f06c7-c0b0-a077-da90-1fba199f3a88","ID3D10Texture2D","ID3D10Texture2D interface [Direct3D 10]","ID3D10Texture2D interface [Direct3D 10]","described","d3d10/ID3D10Texture2D","direct3d10.id3d10texture2d"]
 old-location: direct3d10\id3d10texture2d.htm
 tech.root: direct3d10

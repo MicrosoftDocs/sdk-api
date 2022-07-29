@@ -1,7 +1,7 @@
 ---
 UID: NS:vdshwprv._VDS_ISCSI_INITIATOR_PORTAL_PROP
 title: VDS_ISCSI_INITIATOR_PORTAL_PROP (vdshwprv.h)
-description: Defines the properties of an iSCSI initiator portal.
+description: Defines the properties of an iSCSI initiator portal. (VDS_ISCSI_INITIATOR_PORTAL_PROP)
 helpviewer_keywords: ["VDS_ISCSI_INITIATOR_PORTAL_PROP","VDS_ISCSI_INITIATOR_PORTAL_PROP structure [VDS]","_VDS_ISCSI_INITIATOR_PORTAL_PROP","base.vds_iscsi_initiator_portal_prop","vds/VDS_ISCSI_INITIATOR_PORTAL_PROP","vdshwprv/VDS_ISCSI_INITIATOR_PORTAL_PROP"]
 old-location: base\vds_iscsi_initiator_portal_prop.htm
 tech.root: base

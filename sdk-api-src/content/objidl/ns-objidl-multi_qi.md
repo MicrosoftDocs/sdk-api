@@ -1,7 +1,7 @@
 ---
 UID: NS:objidl.tagMULTI_QI
 title: MULTI_QI (objidl.h)
-description: Represents an interface in a query for multiple interfaces.
+description: Represents an interface in a query for multiple interfaces. (MULTI_QI)
 helpviewer_keywords: ["MULTI_QI","MULTI_QI structure [COM]","_com_MULTI_QI","com.multi_qi","objidlbase/MULTI_QI","tagMULTI_QI"]
 old-location: com\multi_qi.htm
 tech.root: com

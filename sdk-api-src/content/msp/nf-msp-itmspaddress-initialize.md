@@ -1,7 +1,7 @@
 ---
 UID: NF:msp.ITMSPAddress.Initialize
 title: ITMSPAddress::Initialize (msp.h)
-description: The Initialize method is called when the MSP is loaded.
+description: The Initialize method is called when the MSP is loaded. (ITMSPAddress.Initialize)
 helpviewer_keywords: ["ITMSPAddress interface [TAPI 2.2]","Initialize method","ITMSPAddress.Initialize","ITMSPAddress::Initialize","Initialize","Initialize method [TAPI 2.2]","Initialize method [TAPI 2.2]","ITMSPAddress interface","_tapi3_itmspaddress_initialize","msp/ITMSPAddress::Initialize","tapi3.itmspaddress_initialize"]
 old-location: tapi3\itmspaddress_initialize.htm
 tech.root: tapi3

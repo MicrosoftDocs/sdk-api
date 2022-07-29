@@ -1,7 +1,7 @@
 ---
 UID: NE:msclus.CLUSTER_NODE_DRAIN_STATUS
 title: CLUSTER_NODE_DRAIN_STATUS (msclus.h)
-description: Enumerates the possible values of the status of a node drain.
+description: Enumerates the possible values of the status of a node drain. (CLUSTER_NODE_DRAIN_STATUS)
 helpviewer_keywords: ["CLUSTER_NODE_DRAIN_STATUS","CLUSTER_NODE_DRAIN_STATUS enumeration [Failover Cluster]","ClusterNodeDrainStatusCount","NodeDrainStatusCompleted","NodeDrainStatusFailed","NodeDrainStatusInProgress","NodeDrainStatusNotInitiated","clusapi/CLUSTER_NODE_DRAIN_STATUS","clusapi/ClusterNodeDrainStatusCount","clusapi/NodeDrainStatusCompleted","clusapi/NodeDrainStatusFailed","clusapi/NodeDrainStatusInProgress","clusapi/NodeDrainStatusNotInitiated","msclus/CLUSTER_NODE_DRAIN_STATUS","msclus/ClusterNodeDrainStatusCount","msclus/NodeDrainStatusCompleted","msclus/NodeDrainStatusFailed","msclus/NodeDrainStatusInProgress","msclus/NodeDrainStatusNotInitiated","mscs.cluster_node_drain_status"]
 old-location: mscs\cluster_node_drain_status.htm
 tech.root: MsCS

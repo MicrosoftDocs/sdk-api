@@ -1,7 +1,7 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthManager.SetGamerAccount
 title: IXblIdpAuthManager::SetGamerAccount (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use. (IXblIdpAuthManager.SetGamerAccount)
 helpviewer_keywords: ["IXblIdpAuthManager interface","SetGamerAccount method","IXblIdpAuthManager.SetGamerAccount","IXblIdpAuthManager::SetGamerAccount","SetGamerAccount","SetGamerAccount method","SetGamerAccount method","IXblIdpAuthManager interface","xblidp.ixblidpauthmanager_setgameraccount","xblidpauthmanager/IXblIdpAuthManager::SetGamerAccount"]
 old-location: xblidp\ixblidpauthmanager_setgameraccount.htm
 tech.root: xblidp

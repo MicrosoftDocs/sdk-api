@@ -1,7 +1,7 @@
 ---
 UID: NE:fwpmtypes.__MIDL___MIDL_itf_fwpmtypes_0000_0000_0001
 title: DL_ADDRESS_TYPE (fwpmtypes.h)
-description: The DL_ADDRESS_TYPE enumerated type.
+description: The DL_ADDRESS_TYPE enumerated type. (DL_ADDRESS_TYPE)
 helpviewer_keywords: ["*PDL_ADDRESS_TYPE","DL_ADDRESS_TYPE","DL_ADDRESS_TYPE enumeration [Filtering]","DlBroadcast","DlMulticast","DlUnicast","PDL_ADDRESS_TYPE","PDL_ADDRESS_TYPE enumeration pointer [Filtering]","fwp.dl_address_type","netiodef/DL_ADDRESS_TYPE","netiodef/DlBroadcast","netiodef/DlMulticast","netiodef/DlUnicast","netiodef/PDL_ADDRESS_TYPE"]
 old-location: fwp\dl_address_type.htm
 tech.root: fwp

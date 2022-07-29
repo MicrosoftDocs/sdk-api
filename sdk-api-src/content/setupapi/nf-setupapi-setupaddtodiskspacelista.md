@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupAddToDiskSpaceListA
 title: SetupAddToDiskSpaceListA function (setupapi.h)
-description: The SetupAddToDiskSpaceList function adds a single delete or copy operation to a disk-space list. To add all the file operations in a section of an INF file, use either SetupAddSectionToDiskSpaceList, or SetupAddInstallSectionToDiskSpaceList.
+description: The SetupAddToDiskSpaceList function adds a single delete or copy operation to a disk-space list. To add all the file operations in a section of an INF file, use either SetupAddSectionToDiskSpaceList, or SetupAddInstallSectionToDiskSpaceList. (ANSI)
 helpviewer_keywords: ["FILEOP_COPY.","FILEOP_DELETE","SetupAddToDiskSpaceList","SetupAddToDiskSpaceList function [Setup API]","SetupAddToDiskSpaceListA","SetupAddToDiskSpaceListW","_setupapi_setupaddtodiskspacelist","setup.setupaddtodiskspacelist","setupapi/SetupAddToDiskSpaceList","setupapi/SetupAddToDiskSpaceListA","setupapi/SetupAddToDiskSpaceListW"]
 old-location: setup\setupaddtodiskspacelist.htm
 tech.root: setup

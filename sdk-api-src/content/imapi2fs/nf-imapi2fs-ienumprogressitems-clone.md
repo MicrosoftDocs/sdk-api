@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IEnumProgressItems.Clone
 title: IEnumProgressItems::Clone (imapi2fs.h)
-description: Creates another enumerator that contains the same enumeration state as the current one.
+description: Creates another enumerator that contains the same enumeration state as the current one. (IEnumProgressItems.Clone)
 helpviewer_keywords: ["Clone","Clone method [IMAPI]","Clone method [IMAPI]","IEnumProgressItems interface","IEnumProgressItems interface [IMAPI]","Clone method","IEnumProgressItems.Clone","IEnumProgressItems::Clone","imapi.ienumprogressitems_clone","imapi2fs/IEnumProgressItems::Clone"]
 old-location: imapi\ienumprogressitems_clone.htm
 tech.root: imapi

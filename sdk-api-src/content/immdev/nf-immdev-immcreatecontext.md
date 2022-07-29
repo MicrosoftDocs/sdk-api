@@ -1,7 +1,7 @@
 ---
 UID: NF:immdev.ImmCreateContext
 title: ImmCreateContext function (immdev.h)
-description: Creates a new input context, allocating memory for the context and initializing it. An application calls this function to prepare its own input context.
+description: Creates a new input context, allocating memory for the context and initializing it. An application calls this function to prepare its own input context. (ImmCreateContext)
 helpviewer_keywords: ["ImmCreateContext","ImmCreateContext function [Internationalization for Windows Applications]","_win32_ImmCreateContext","imm/ImmCreateContext","intl.immcreatecontext"]
 old-location: intl\immcreatecontext.htm
 tech.root: Intl

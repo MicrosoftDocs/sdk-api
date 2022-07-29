@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.SetContextAttributesA
 title: SetContextAttributesA function (sspi.h)
-description: Enables a transport application to set attributes of a security context for a security package. This function is supported only by the Schannel security package.
+description: Enables a transport application to set attributes of a security context for a security package. This function is supported only by the Schannel security package. (ANSI)
 helpviewer_keywords: ["SECPKG_ATTR_APP_DATA","SECPKG_ATTR_DTLS_MTU","SECPKG_ATTR_EAP_PRF_INFO","SECPKG_ATTR_EARLY_START","SECPKG_ATTR_KEYING_MATERIAL_INFO","SetContextAttributes","SetContextAttributes function [Security]","SetContextAttributesA","SetContextAttributesW","security.setcontextattributes","sspi/SetContextAttributes","sspi/SetContextAttributesA","sspi/SetContextAttributesW"]
 old-location: security\setcontextattributes.htm
 tech.root: security

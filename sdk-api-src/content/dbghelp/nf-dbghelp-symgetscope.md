@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymGetScope
 title: SymGetScope function (dbghelp.h)
-description: Retrieves the scope for the specified index.
+description: Retrieves the scope for the specified index. (SymGetScopeW)
 helpviewer_keywords: ["SymGetScope","SymGetScope function","SymGetScopeW","base.symgetscope","dbghelp/SymGetScope","dbghelp/SymGetScopeW"]
 old-location: base\symgetscope.htm
 tech.root: Debug

@@ -1,7 +1,7 @@
 ---
 UID: NF:remotesystemadditionalinfo.HSTRING_UserMarshal
 title: HSTRING_UserMarshal function (remotesystemadditionalinfo.h)
-description: Marshals an HSTRING object into the RPC buffer.
+description: Marshals an HSTRING object into the RPC buffer. (HSTRING_UserMarshal)
 helpviewer_keywords: ["HSTRING_UserMarshal","HSTRING_UserMarshal function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserMarshal","winrt.hstring_usermarshal"]
 old-location: winrt\hstring_usermarshal.htm
 tech.root: WinRT

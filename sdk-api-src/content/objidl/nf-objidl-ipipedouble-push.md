@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IPipeDouble.Push
 title: IPipeDouble::Push (objidl.h)
-description: Sends data of the double integer type to the pipe source.
+description: Sends data of the double integer type to the pipe source. (IPipeDouble.Push)
 helpviewer_keywords: ["IPipeDouble interface [COM]","Push method","IPipeDouble.Push","IPipeDouble::Push","Push","Push method [COM]","Push method [COM]","IPipeDouble interface","_com_ipipedouble_push","com.ipipedouble_push","objidlbase/IPipeDouble::Push"]
 old-location: com\ipipedouble_push.htm
 tech.root: com

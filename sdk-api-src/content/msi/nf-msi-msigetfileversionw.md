@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiGetFileVersionW
 title: MsiGetFileVersionW function (msi.h)
-description: The MsiGetFileVersion returns the version string and language string in the format that the installer expects to find them in the database.
+description: The MsiGetFileVersion returns the version string and language string in the format that the installer expects to find them in the database. (Unicode)
 helpviewer_keywords: ["MsiGetFileVersion","MsiGetFileVersion function","MsiGetFileVersionA","MsiGetFileVersionW","_msi_msigetfileversion","msi/MsiGetFileVersion","msi/MsiGetFileVersionA","msi/MsiGetFileVersionW","setup.msigetfileversion"]
 old-location: setup\msigetfileversion.htm
 tech.root: setup

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.DrawRectPatch
 title: IDirect3DDevice9::DrawRectPatch (d3d9.h)
-description: Draws a rectangular patch using the currently set streams.
+description: Draws a rectangular patch using the currently set streams. (IDirect3DDevice9.DrawRectPatch)
 helpviewer_keywords: ["9f04b48b-012e-3487-432e-10ce6b33782a","DrawRectPatch","DrawRectPatch method [Direct3D 9]","DrawRectPatch method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","DrawRectPatch method","IDirect3DDevice9.DrawRectPatch","IDirect3DDevice9::DrawRectPatch","d3d9helper/IDirect3DDevice9::DrawRectPatch","direct3d9.idirect3ddevice9__drawrectpatch"]
 old-location: direct3d9\idirect3ddevice9__drawrectpatch.htm
 tech.root: direct3d9

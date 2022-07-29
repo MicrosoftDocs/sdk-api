@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DPixelShader9.GetDevice
 title: IDirect3DPixelShader9::GetDevice (d3d9.h)
-description: Gets the device.
+description: Gets the device. (IDirect3DPixelShader9.GetDevice)
 helpviewer_keywords: ["GetDevice","GetDevice method [Direct3D 9]","GetDevice method [Direct3D 9]","IDirect3DPixelShader9 interface","IDirect3DPixelShader9 interface [Direct3D 9]","GetDevice method","IDirect3DPixelShader9.GetDevice","IDirect3DPixelShader9::GetDevice","b94cd32b-31ba-18c7-6d62-ede96034285a","d3d9helper/IDirect3DPixelShader9::GetDevice","direct3d9.idirect3dpixelshader9__getdevice"]
 old-location: direct3d9\idirect3dpixelshader9__getdevice.htm
 tech.root: direct3d9

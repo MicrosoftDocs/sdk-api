@@ -13,10 +13,8 @@ f1_keywords:
 
 # Sspi.h header
 
-
 ## -description
 
 This header is used by Security and Identity. For more information, see:
 
 - [Security and Identity](../_security/index.md)
-

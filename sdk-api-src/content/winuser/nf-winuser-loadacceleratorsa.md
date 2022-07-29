@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.LoadAcceleratorsA
 title: LoadAcceleratorsA function (winuser.h)
-description: Loads the specified accelerator table.
+description: Loads the specified accelerator table. (ANSI)
 helpviewer_keywords: ["LoadAccelerators","LoadAccelerators function [Menus and Other Resources]","LoadAcceleratorsA","LoadAcceleratorsW","_win32_LoadAccelerators","_win32_loadaccelerators_cpp","menurc.loadaccelerators","winui._win32_loadaccelerators","winuser/LoadAccelerators","winuser/LoadAcceleratorsA","winuser/LoadAcceleratorsW"]
 old-location: menurc\loadaccelerators.htm
 tech.root: menurc

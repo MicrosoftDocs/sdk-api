@@ -1,7 +1,7 @@
 ---
 UID: NF:iscsidsc.RemoveIScsiStaticTargetA
 title: RemoveIScsiStaticTargetA function (iscsidsc.h)
-description: RemoveIscsiStaticTarget function removes a target from the list of static targets made available to the machine.
+description: RemoveIscsiStaticTarget function removes a target from the list of static targets made available to the machine. (ANSI)
 helpviewer_keywords: ["RemoveIScsiStaticTargetA","RemoveIscsiStaticTarget","RemoveIscsiStaticTarget function [iSCSI Discovery Library API]","RemoveIscsiStaticTargetA","RemoveIscsiStaticTargetW","iscsidisc.removeiscsistatictarget","iscsidsc/RemoveIscsiStaticTarget","iscsidsc/RemoveIscsiStaticTargetA","iscsidsc/RemoveIscsiStaticTargetW"]
 old-location: iscsidisc\removeiscsistatictarget.htm
 tech.root: iSCSIDisc

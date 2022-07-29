@@ -1,7 +1,7 @@
 ---
 UID: NF:wincred.CredMarshalCredentialW
 title: CredMarshalCredentialW function (wincred.h)
-description: The CredMarshalCredential function transforms a credential into a text string.
+description: The CredMarshalCredential function transforms a credential into a text string. (Unicode)
 helpviewer_keywords: ["CredMarshalCredential","CredMarshalCredential function [Security]","CredMarshalCredentialA","CredMarshalCredentialW","_cred_credmarshalcredential","security.credmarshalcredential","wincred/CredMarshalCredential","wincred/CredMarshalCredentialA","wincred/CredMarshalCredentialW"]
 old-location: security\credmarshalcredential.htm
 tech.root: security

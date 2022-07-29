@@ -1,7 +1,7 @@
 ---
 UID: NS:nspapi._PROTOCOL_INFOA
 title: PROTOCOL_INFOA (nspapi.h)
-description: Contains information about a protocol.
+description: Contains information about a protocol. (ANSI)
 helpviewer_keywords: ["*LPPROTOCOL_INFOA","*PPROTOCOL_INFOA","0","0xFFFFFFFF","PROTOCOL_INFO","PROTOCOL_INFO structure [Winsock]","PROTOCOL_INFOA","PROTOCOL_INFOW","XP_BANDWIDTH_ALLOCATION","XP_CONNECTIONLESS","XP_CONNECT_DATA","XP_DISCONNECT_DATA","XP_ENCRYPTS","XP_EXPEDITED_DATA","XP_FRAGMENTATION","XP_GRACEFUL_CLOSE","XP_GUARANTEED_DELIVERY","XP_GUARANTEED_ORDER","XP_MESSAGE_ORIENTED","XP_PSEUDO_STREAM","XP_SUPPORTS_BROADCAST","XP_SUPPORTS_MULTICAST","_win32_protocol_info_2","nspapi/PROTOCOL_INFO","nspapi/PROTOCOL_INFOA","nspapi/PROTOCOL_INFOW","winsock.protocol_info_2"]
 old-location: winsock\protocol_info_2.htm
 tech.root: WinSock

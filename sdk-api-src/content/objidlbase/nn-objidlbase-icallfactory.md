@@ -1,7 +1,7 @@
 ---
 UID: NN:objidlbase.ICallFactory
 title: ICallFactory (objidlbase.h)
-description: Creates a call object for processing calls to the methods of an asynchronous interface.
+description: Creates a call object for processing calls to the methods of an asynchronous interface. (ICallFactory)
 helpviewer_keywords: ["ICallFactory","ICallFactory interface [COM]","ICallFactory interface [COM]","described","_com_icallfactory","com.icallfactory","objidlbase/ICallFactory"]
 old-location: com\icallfactory.htm
 tech.root: com

@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11_4.D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT
 title: D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT
-description: Specifies indices for arrays of per component histogram information.
+description: Specifies indices for arrays of per component histogram information. (D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT)
 tech.root: direct3d11
 helpviewer_keywords: ["D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT"]
 ms.date: 4/26/2019

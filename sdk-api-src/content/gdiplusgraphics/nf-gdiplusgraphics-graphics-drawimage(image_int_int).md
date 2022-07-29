@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawImage(Image,INT,INT)
 title: Graphics::DrawImage(IN Image,IN INT,IN INT) (gdiplusgraphics.h)
-description: The Graphics::DrawImage method draws an image at a specified location.
+description: The Graphics::DrawImage method draws an image at a specified location. (overload 2/2)
 helpviewer_keywords: ["DrawImage","DrawImage method [GDI+]","DrawImage method [GDI+]","Graphics class","Graphics class [GDI+]","DrawImage method","Graphics.DrawImage","Graphics.DrawImage(IN Image","IN INT","IN INT)","Graphics.DrawImage(Image*","INT","INT)","Graphics::DrawImage","Graphics::DrawImage(IN Image","IN INT","IN INT)","_gdiplus_CLASS_Graphics_DrawImage_Image_image_INT_x_INT_y_","gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_INT_x_INT_y_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Image_image_INT_x_INT_y_.htm
 tech.root: gdiplus

@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.GetTransform
 title: IXpsOMGradientBrush::GetTransform (xpsobjectmodel.h)
-description: Gets a pointer to the IXpsOMMatrixTransform interface that contains the resolved matrix transform for the brush.
+description: Gets a pointer to the IXpsOMMatrixTransform interface that contains the resolved matrix transform for the brush. (IXpsOMGradientBrush.GetTransform)
 helpviewer_keywords: ["GetTransform","GetTransform method [XPS Documents and Packaging]","GetTransform method [XPS Documents and Packaging]","IXpsOMGradientBrush interface","IXpsOMGradientBrush interface [XPS Documents and Packaging]","GetTransform method","IXpsOMGradientBrush.GetTransform","IXpsOMGradientBrush::GetTransform","xps.ixpsomgradientbrush_gettransform","xpsobjectmodel/IXpsOMGradientBrush::GetTransform"]
 old-location: xps\ixpsomgradientbrush_gettransform.htm
 tech.root: xps

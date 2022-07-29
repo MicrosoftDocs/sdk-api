@@ -1,7 +1,7 @@
 ---
 UID: NN:objidlbase.ISynchronizeHandle
 title: ISynchronizeHandle (objidlbase.h)
-description: Retrieves a handle associated with a synchronization object.
+description: Retrieves a handle associated with a synchronization object. (ISynchronizeHandle)
 helpviewer_keywords: ["ISynchronizeHandle","ISynchronizeHandle interface [COM]","ISynchronizeHandle interface [COM]","described","_com_isynchronizehandle","com.isynchronizehandle","objidlbase/ISynchronizeHandle"]
 old-location: com\isynchronizehandle.htm
 tech.root: com

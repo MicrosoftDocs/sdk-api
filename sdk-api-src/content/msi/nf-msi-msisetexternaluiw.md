@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiSetExternalUIW
 title: MsiSetExternalUIW function (msi.h)
-description: The MsiSetExternalUI function enables an external user-interface handler.
+description: The MsiSetExternalUI function enables an external user-interface handler. (Unicode)
 helpviewer_keywords: ["INSTALLLOGMODE_ACTIONDATA","INSTALLLOGMODE_ACTIONSTART","INSTALLLOGMODE_COMMONDATA","INSTALLLOGMODE_ERROR","INSTALLLOGMODE_FATALEXIT","INSTALLLOGMODE_FILESINUSE","INSTALLLOGMODE_INFO","INSTALLLOGMODE_INITIALIZE","INSTALLLOGMODE_INSTALLEND","INSTALLLOGMODE_INSTALLSTART","INSTALLLOGMODE_OUTOFDISKSPACE","INSTALLLOGMODE_PROGRESS","INSTALLLOGMODE_RESOLVESOURCE","INSTALLLOGMODE_RMFILESINUSE","INSTALLLOGMODE_SHOWDIALOG","INSTALLLOGMODE_TERMINATE","INSTALLLOGMODE_USER","INSTALLLOGMODE_WARNING","MsiSetExternalUI","MsiSetExternalUI function","MsiSetExternalUIA","MsiSetExternalUIW","_msi_msisetexternalui","msi/MsiSetExternalUI","msi/MsiSetExternalUIA","msi/MsiSetExternalUIW","setup.msisetexternalui"]
 old-location: setup\msisetexternalui.htm
 tech.root: setup

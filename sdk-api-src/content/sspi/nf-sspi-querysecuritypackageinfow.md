@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.QuerySecurityPackageInfoW
 title: QuerySecurityPackageInfoW function (sspi.h)
-description: Retrieves information about a specified security package. This information includes the bounds on sizes of authentication information, credentials, and contexts.
+description: Retrieves information about a specified security package. This information includes the bounds on sizes of authentication information, credentials, and contexts. (Unicode)
 helpviewer_keywords: ["QuerySecurityPackageInfo","QuerySecurityPackageInfo function [Security]","QuerySecurityPackageInfoA","QuerySecurityPackageInfoW","_ssp_querysecuritypackageinfo","security.querysecuritypackageinfo","sspi/QuerySecurityPackageInfo","sspi/QuerySecurityPackageInfoA","sspi/QuerySecurityPackageInfoW"]
 old-location: security\querysecuritypackageinfo.htm
 tech.root: security

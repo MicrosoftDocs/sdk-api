@@ -1,7 +1,7 @@
 ---
 UID: NF:loadperf.InstallPerfDllA
 title: InstallPerfDllA function (loadperf.h)
-description: Installs performance counter strings, as defined in an input .ini file, into the system registry.
+description: Installs performance counter strings, as defined in an input .ini file, into the system registry. (ANSI)
 helpviewer_keywords: ["InstallPerfDll","InstallPerfDll function [Windows API]","InstallPerfDllA","InstallPerfDllW","loadperf/InstallPerfDll","winprog.installperfdll"]
 old-location: winprog\installperfdll.htm
 tech.root: winprog

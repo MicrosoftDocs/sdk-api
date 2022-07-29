@@ -1,7 +1,7 @@
 ---
 UID: NF:pdh.PdhEnumMachinesA
 title: PdhEnumMachinesA function (pdh.h)
-description: Returns a list of the computer names associated with counters in a log file.
+description: Returns a list of the computer names associated with counters in a log file. (PdhEnumMachinesA)
 helpviewer_keywords: ["PdhEnumMachines","PdhEnumMachines function [Perf]","PdhEnumMachinesA","PdhEnumMachinesW","_win32_pdhenummachines","base.pdhenummachines","pdh/PdhEnumMachines","pdh/PdhEnumMachinesA","pdh/PdhEnumMachinesW","perf.pdhenummachines"]
 old-location: perf\pdhenummachines.htm
 tech.root: perf

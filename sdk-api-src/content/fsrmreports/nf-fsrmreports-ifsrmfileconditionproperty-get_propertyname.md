@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileConditionProperty.get_PropertyName
 title: IFsrmFileConditionProperty::get_PropertyName (fsrmreports.h)
-description: Specifies the name of the file condition property.
+description: Specifies the name of the file condition property. (Get)
 helpviewer_keywords: ["IFsrmFileConditionProperty interface [File Server Resource Manager]","PropertyName property","IFsrmFileConditionProperty.PropertyName","IFsrmFileConditionProperty.get_PropertyName","IFsrmFileConditionProperty::PropertyName","IFsrmFileConditionProperty::get_PropertyName","IFsrmFileConditionProperty::put_PropertyName","PropertyName property [File Server Resource Manager]","PropertyName property [File Server Resource Manager]","IFsrmFileConditionProperty interface","fs.ifsrmfileconditionproperty_propertyname","fsrm.ifsrmfileconditionproperty_propertyname","fsrmreports/IFsrmFileConditionProperty::PropertyName","fsrmreports/IFsrmFileConditionProperty::get_PropertyName","fsrmreports/IFsrmFileConditionProperty::put_PropertyName","get_PropertyName"]
 old-location: fsrm\ifsrmfileconditionproperty_propertyname.htm
 tech.root: fsrm

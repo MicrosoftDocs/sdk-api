@@ -4,7 +4,7 @@ tech.root: menurc
 title: EnumResourceNamesW
 ms.date: 04/19/2021
 targetos: Windows
-description: Enumerates resources of a specified type within a binary module.
+description: Enumerates resources of a specified type within a binary module. (Unicode)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

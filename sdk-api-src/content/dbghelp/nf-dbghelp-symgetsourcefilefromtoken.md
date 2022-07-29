@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymGetSourceFileFromToken
 title: SymGetSourceFileFromToken function (dbghelp.h)
-description: Retrieves the source file associated with the specified token from the source server.
+description: Retrieves the source file associated with the specified token from the source server. (SymGetSourceFileFromTokenW)
 helpviewer_keywords: ["SymGetSourceFileFromToken","SymGetSourceFileFromToken function","SymGetSourceFileFromTokenW","base.symgetsourcefilefromtoken","dbghelp/SymGetSourceFileFromToken","dbghelp/SymGetSourceFileFromTokenW"]
 old-location: base\symgetsourcefilefromtoken.htm
 tech.root: Debug

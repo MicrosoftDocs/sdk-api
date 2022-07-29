@@ -1,7 +1,7 @@
 ---
 UID: NF:imm.ImmGetImeMenuItemsW
 title: ImmGetImeMenuItemsW function (imm.h)
-description: Retrieves the menu items that are registered in the IME menu of a specified input context.
+description: Retrieves the menu items that are registered in the IME menu of a specified input context. (ImmGetImeMenuItemsW)
 helpviewer_keywords: ["IGIMIF_RIGHTMENU","IGIMII_CMODE","IGIMII_CONFIGURE","IGIMII_HELP","IGIMII_INPUTTOOLS","IGIMII_OTHER","IGIMII_SMODE","IGIMII_TOOLS","ImmGetImeMenuItems","ImmGetImeMenuItems function [Internationalization for Windows Applications]","ImmGetImeMenuItemsA","ImmGetImeMenuItemsW","_win32_ImmGetImeMenuItems","imm/ImmGetImeMenuItems","imm/ImmGetImeMenuItemsA","imm/ImmGetImeMenuItemsW","intl.immgetimemenuitems"]
 old-location: intl\immgetimemenuitems.htm
 tech.root: Intl

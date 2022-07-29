@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.IkeextSaGetById2
 title: IkeextSaGetById2 function (fwpmu.h)
-description: Retrieves an IKE/AuthIP security association (SA) from the database.
+description: Retrieves an IKE/AuthIP security association (SA) from the database. (IkeextSaGetById2)
 helpviewer_keywords: ["IkeextSaGetById2","IkeextSaGetById2 function [Filtering]","fwp.ikeextsagetbyid2","fwpmu/IkeextSaGetById2"]
 old-location: fwp\ikeextsagetbyid2.htm
 tech.root: fwp

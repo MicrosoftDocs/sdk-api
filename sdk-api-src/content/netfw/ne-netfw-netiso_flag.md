@@ -1,7 +1,7 @@
 ---
 UID: NE:netfw.NETISO_FLAG
 title: NETISO_FLAG (netfw.h)
-description: Specifies whether binaries should be returned for app containers.
+description: Specifies whether binaries should be returned for app containers. (NETISO_FLAG)
 helpviewer_keywords: ["NETISO_FLAG","NETISO_FLAG enumeration [ICS/ICF]","NETISO_FLAG_FORCE_COMPUTE_BINARIES","NETISO_FLAG_MAX","ics.netiso_flag","networkisolation/NETISO_FLAG","networkisolation/NETISO_FLAG_FORCE_COMPUTE_BINARIES","networkisolation/NETISO_FLAG_MAX"]
 old-location: ics\netiso_flag.htm
 tech.root: ics

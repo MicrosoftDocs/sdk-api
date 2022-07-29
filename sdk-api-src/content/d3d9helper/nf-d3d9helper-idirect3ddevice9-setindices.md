@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetIndices
 title: IDirect3DDevice9::SetIndices (d3d9helper.h)
-description: Sets index data.
+description: Sets index data. (IDirect3DDevice9.SetIndices)
 helpviewer_keywords: ["IDirect3DDevice9 interface [Direct3D 9]","SetIndices method","IDirect3DDevice9.SetIndices","IDirect3DDevice9::SetIndices","SetIndices","SetIndices method [Direct3D 9]","SetIndices method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::SetIndices","direct3d9.idirect3ddevice9__setindices","f1b39c78-eab2-fb54-c553-da8d9f26d06b"]
 old-location: direct3d9\idirect3ddevice9__setindices.htm
 tech.root: direct3d9

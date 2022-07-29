@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateSamplerState
 title: ID3D11Device::CreateSamplerState (d3d11.h)
-description: Create a sampler-state object that encapsulates sampling information for a texture.
+description: Create a sampler-state object that encapsulates sampling information for a texture. (ID3D11Device.CreateSamplerState)
 helpviewer_keywords: ["845db980-5abf-c948-258d-62903feec271","CreateSamplerState","CreateSamplerState method [Direct3D 11]","CreateSamplerState method [Direct3D 11]","ID3D11Device interface","ID3D11Device interface [Direct3D 11]","CreateSamplerState method","ID3D11Device.CreateSamplerState","ID3D11Device::CreateSamplerState","d3d11/ID3D11Device::CreateSamplerState","direct3d11.id3d11device_createsamplerstate"]
 old-location: direct3d11\id3d11device_createsamplerstate.htm
 tech.root: direct3d11

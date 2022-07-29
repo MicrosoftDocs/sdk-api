@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineCreateAgentA
 title: lineCreateAgentA function (tapi.h)
-description: The lineCreateAgent function creates a new Agent object. It generates a LINE_PROXYREQUEST message to be sent to a registered proxy function handler, referencing a LINEPROXYREQUEST structure of type LINEPROXYREQUEST_CREATEAGENT.
+description: The lineCreateAgent function creates a new Agent object. It generates a LINE_PROXYREQUEST message to be sent to a registered proxy function handler, referencing a LINEPROXYREQUEST structure of type LINEPROXYREQUEST_CREATEAGENT. (ANSI)
 helpviewer_keywords: ["_tapi2_linecreateagent","lineCreateAgent","lineCreateAgent function [TAPI 2.2]","lineCreateAgentA","lineCreateAgentW","tapi/lineCreateAgent","tapi/lineCreateAgentA","tapi/lineCreateAgentW","tapi2.linecreateagent"]
 old-location: tapi2\linecreateagent.htm
 tech.root: tapi3

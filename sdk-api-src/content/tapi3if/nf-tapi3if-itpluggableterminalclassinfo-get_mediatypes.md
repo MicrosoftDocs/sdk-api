@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITPluggableTerminalClassInfo.get_MediaTypes
 title: ITPluggableTerminalClassInfo::get_MediaTypes (tapi3if.h)
-description: The get_MediaTypes method gets the media types supported by the terminal.
+description: The get_MediaTypes method gets the media types supported by the terminal. (ITPluggableTerminalClassInfo.get_MediaTypes)
 helpviewer_keywords: ["ITPluggableTerminalClassInfo interface [TAPI 2.2]","get_MediaTypes method","ITPluggableTerminalClassInfo.get_MediaTypes","ITPluggableTerminalClassInfo::get_MediaTypes","_tapi3_itpluggableterminalclassinfo_get_mediatypes","get_MediaTypes","get_MediaTypes method [TAPI 2.2]","get_MediaTypes method [TAPI 2.2]","ITPluggableTerminalClassInfo interface","tapi3.itpluggableterminalclassinfo_get_mediatypes","tapi3if/ITPluggableTerminalClassInfo::get_MediaTypes"]
 old-location: tapi3\itpluggableterminalclassinfo_get_mediatypes.htm
 tech.root: tapi3

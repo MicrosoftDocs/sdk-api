@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3cc.ITAgent.get_NumberOfOutgoingCalls
 title: ITAgent::get_NumberOfOutgoingCalls (tapi3cc.h)
-description: The get_NumberOfOutgoingCalls method gets the number of outgoing non-ACD calls handled during by this agent.
+description: The get_NumberOfOutgoingCalls method gets the number of outgoing non-ACD calls handled during by this agent. (ITAgent.get_NumberOfOutgoingCalls)
 helpviewer_keywords: ["ITAgent interface [TAPI 2.2]","get_NumberOfOutgoingCalls method","ITAgent.get_NumberOfOutgoingCalls","ITAgent::get_NumberOfOutgoingCalls","_tapi3_itagent_get_numberofoutgoingcalls","get_NumberOfOutgoingCalls","get_NumberOfOutgoingCalls method [TAPI 2.2]","get_NumberOfOutgoingCalls method [TAPI 2.2]","ITAgent interface","tapi3.itagent_get_numberofoutgoingcalls","tapi3cc/ITAgent::get_NumberOfOutgoingCalls"]
 old-location: tapi3\itagent_get_numberofoutgoingcalls.htm
 tech.root: tapi3

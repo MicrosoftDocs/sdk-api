@@ -1,7 +1,7 @@
 ---
 UID: NS:winsvc._SERVICE_DESCRIPTIONA
 title: SERVICE_DESCRIPTIONA (winsvc.h)
-description: Contains a service description.
+description: Contains a service description. (ANSI)
 helpviewer_keywords: ["*LPSERVICE_DESCRIPTIONA","LPSERVICE_DESCRIPTION","LPSERVICE_DESCRIPTION structure pointer","SERVICE_DESCRIPTION","SERVICE_DESCRIPTION structure","SERVICE_DESCRIPTIONA","SERVICE_DESCRIPTIONW","_win32_service_description_str","base.service_description_str","winsvc/LPSERVICE_DESCRIPTION","winsvc/SERVICE_DESCRIPTION","winsvc/SERVICE_DESCRIPTIONA","winsvc/SERVICE_DESCRIPTIONW"]
 old-location: base\service_description_str.htm
 tech.root: security

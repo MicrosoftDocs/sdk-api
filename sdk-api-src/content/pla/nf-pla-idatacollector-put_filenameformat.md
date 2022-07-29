@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollector.put_FileNameFormat
 title: IDataCollector::put_FileNameFormat (pla.h)
-description: Retrieves or sets flags that describe how to decorate the file name.
+description: Retrieves or sets flags that describe how to decorate the file name. (Put)
 helpviewer_keywords: ["FileNameFormat property [PLA]","FileNameFormat property [PLA]","IDataCollector interface","IDataCollector interface [PLA]","FileNameFormat property","IDataCollector.FileNameFormat","IDataCollector.put_FileNameFormat","IDataCollector::FileNameFormat","IDataCollector::get_FileNameFormat","IDataCollector::put_FileNameFormat","base.idatacollector_filenameformat","pla.idatacollector_filenameformat","pla/IDataCollector::FileNameFormat","pla/IDataCollector::get_FileNameFormat","pla/IDataCollector::put_FileNameFormat","put_FileNameFormat"]
 old-location: pla\idatacollector_filenameformat.htm
 tech.root: PLA

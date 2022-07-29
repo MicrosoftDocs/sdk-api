@@ -1,7 +1,7 @@
 ---
 UID: NS:vdshwprv._VDS_PARTITION_NOTIFICATION
 title: VDS_PARTITION_NOTIFICATION (vdshwprv.h)
-description: Defines the details of partition events.
+description: Defines the details of partition events. (VDS_PARTITION_NOTIFICATION)
 helpviewer_keywords: ["VDS_NF_PARTITION_ARRIVE","VDS_NF_PARTITION_DEPART","VDS_NF_PARTITION_MODIFY","VDS_PARTITION_NOTIFICATION","VDS_PARTITION_NOTIFICATION structure [VDS]","base.vds_partition_notification","vds/_VDS_PARTITION_NOTIFICATION","vdshwprv/_VDS_PARTITION_NOTIFICATION"]
 old-location: base\vds_partition_notification.htm
 tech.root: base

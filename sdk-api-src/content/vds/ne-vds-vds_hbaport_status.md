@@ -1,7 +1,7 @@
 ---
 UID: NE:vds._VDS_HBAPORT_STATUS
 title: VDS_HBAPORT_STATUS (vds.h)
-description: Defines the set of valid statuses for an HBA port.
+description: Defines the set of valid statuses for an HBA port. (VDS_HBAPORT_STATUS)
 helpviewer_keywords: ["VDS_HBAPORT_STATUS","VDS_HBAPORT_STATUS enumeration [VDS]","VDS_HPS_BYPASSED","VDS_HPS_DIAGNOSTICS","VDS_HPS_ERROR","VDS_HPS_LINKDOWN","VDS_HPS_LOOPBACK","VDS_HPS_OFFLINE","VDS_HPS_ONLINE","VDS_HPS_UNKNOWN","base.vds_hbaport_status","vds/VDS_HBAPORT_STATUS","vds/VDS_HPS_BYPASSED","vds/VDS_HPS_DIAGNOSTICS","vds/VDS_HPS_ERROR","vds/VDS_HPS_LINKDOWN","vds/VDS_HPS_LOOPBACK","vds/VDS_HPS_OFFLINE","vds/VDS_HPS_ONLINE","vds/VDS_HPS_UNKNOWN","vdshwprv/VDS_HBAPORT_STATUS","vdshwprv/VDS_HPS_BYPASSED","vdshwprv/VDS_HPS_DIAGNOSTICS","vdshwprv/VDS_HPS_ERROR","vdshwprv/VDS_HPS_LINKDOWN","vdshwprv/VDS_HPS_LOOPBACK","vdshwprv/VDS_HPS_OFFLINE","vdshwprv/VDS_HPS_ONLINE","vdshwprv/VDS_HPS_UNKNOWN"]
 old-location: base\vds_hbaport_status.htm
 tech.root: base

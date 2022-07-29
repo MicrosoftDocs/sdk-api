@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.LoadKeyboardLayoutA
 title: LoadKeyboardLayoutA function (winuser.h)
-description: Loads a new input locale identifier (formerly called the keyboard layout) into the system.
+description: Loads a new input locale identifier (formerly called the keyboard layout) into the system. (ANSI)
 helpviewer_keywords: ["KLF_ACTIVATE","KLF_NOTELLSHELL","KLF_REORDER","KLF_REPLACELANG","KLF_SETFORPROCESS","KLF_SUBSTITUTE_OK","KLF_UNLOADPREVIOUS","LoadKeyboardLayout","LoadKeyboardLayout function [Keyboard and Mouse Input]","LoadKeyboardLayoutA","LoadKeyboardLayoutW","_win32_LoadKeyboardLayout","_win32_loadkeyboardlayout_cpp","inputdev.loadkeyboardlayout","winui._win32_loadkeyboardlayout","winuser/LoadKeyboardLayout","winuser/LoadKeyboardLayoutA","winuser/LoadKeyboardLayoutW"]
 old-location: inputdev\loadkeyboardlayout.htm
 tech.root: inputdev

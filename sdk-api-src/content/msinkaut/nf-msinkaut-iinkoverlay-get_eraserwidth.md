@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_EraserWidth
 title: IInkOverlay::get_EraserWidth (msinkaut.h)
-description: Gets or sets the value that specifies the width of the eraser pen tip.
+description: Gets or sets the value that specifies the width of the eraser pen tip. (Get)
 helpviewer_keywords: ["EraserWidth property [Tablet PC]","EraserWidth property [Tablet PC]","IInkOverlay interface","IInkOverlay interface [Tablet PC]","EraserWidth property","IInkOverlay.EraserWidth","IInkOverlay.get_EraserWidth","IInkOverlay::EraserWidth","IInkOverlay::get_EraserWidth","IInkOverlay::put_EraserWidth","InkOverlay.get_EraserWidth","InkOverlay.put_EraserWidth","d6200640-cf51-44d8-be5a-9dfa5ac36dbc","get_EraserWidth","msinkaut/IInkOverlay::EraserWidth","msinkaut/IInkOverlay::get_EraserWidth","msinkaut/IInkOverlay::put_EraserWidth","put_EraserWidth","tablet.inkoverlay_eraserwidth"]
 old-location: tablet\inkoverlay_eraserwidth.htm
 tech.root: tablet

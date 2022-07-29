@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.StrToIntExW
 title: StrToIntExW function (shlwapi.h)
-description: Converts a string representing a decimal or hexadecimal number to an integer.
+description: Converts a string representing a decimal or hexadecimal number to an integer. (Unicode)
 helpviewer_keywords: ["STIF_DEFAULT","STIF_SUPPORT_HEX","StrToIntEx","StrToIntEx function [Windows Shell]","StrToIntExA","StrToIntExW","_win32_StrToIntEx","shell.StrToIntEx","shlwapi/StrToIntEx","shlwapi/StrToIntExA","shlwapi/StrToIntExW"]
 old-location: shell\StrToIntEx.htm
 tech.root: shell

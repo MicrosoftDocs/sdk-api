@@ -3,7 +3,7 @@ UID: NF:traceloggingactivity.TraceLoggingThreadActivity.TraceLoggingThreadActivi
 title:
   TraceLoggingThreadActivity::TraceLoggingThreadActivity
   (traceloggingactivity.h)
-description: Initializes a new instance of the TraceLoggingThreadActivity class.
+description: Initializes a new instance of the TraceLoggingThreadActivity class. (overload 2/2)
 helpviewer_keywords:
   [
     "TraceLoggingThreadActivity",

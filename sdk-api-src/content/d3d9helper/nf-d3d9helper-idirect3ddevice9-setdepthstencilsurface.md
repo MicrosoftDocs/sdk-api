@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetDepthStencilSurface
 title: IDirect3DDevice9::SetDepthStencilSurface (d3d9helper.h)
-description: Sets the depth stencil surface.
+description: Sets the depth stencil surface. (IDirect3DDevice9.SetDepthStencilSurface)
 helpviewer_keywords: ["IDirect3DDevice9 interface [Direct3D 9]","SetDepthStencilSurface method","IDirect3DDevice9.SetDepthStencilSurface","IDirect3DDevice9::SetDepthStencilSurface","SetDepthStencilSurface","SetDepthStencilSurface method [Direct3D 9]","SetDepthStencilSurface method [Direct3D 9]","IDirect3DDevice9 interface","c973ddb0-10a2-26b2-bf86-57867238343e","d3d9helper/IDirect3DDevice9::SetDepthStencilSurface","direct3d9.idirect3ddevice9__setdepthstencilsurface"]
 old-location: direct3d9\idirect3ddevice9__setdepthstencilsurface.htm
 tech.root: direct3d9

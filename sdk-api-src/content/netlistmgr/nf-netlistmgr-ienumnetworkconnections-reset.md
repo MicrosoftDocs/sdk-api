@@ -1,7 +1,7 @@
 ---
 UID: NF:netlistmgr.IEnumNetworkConnections.Reset
 title: IEnumNetworkConnections::Reset (netlistmgr.h)
-description: The Reset method resets the enumeration sequence to the beginning.
+description: The Reset method resets the enumeration sequence to the beginning. (IEnumNetworkConnections.Reset)
 helpviewer_keywords: ["IEnumNetworkConnections interface [Network Awareness]","Reset method","IEnumNetworkConnections.Reset","IEnumNetworkConnections::Reset","Reset","Reset method [Network Awareness]","Reset method [Network Awareness]","IEnumNetworkConnections interface","netlistmgr/IEnumNetworkConnections::Reset","nla.ienumnetworkconnections_reset"]
 old-location: nla\ienumnetworkconnections_reset.htm
 tech.root: nla

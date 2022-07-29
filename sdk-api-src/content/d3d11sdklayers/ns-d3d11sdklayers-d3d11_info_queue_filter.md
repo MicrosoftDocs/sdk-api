@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11sdklayers.D3D11_INFO_QUEUE_FILTER
 title: D3D11_INFO_QUEUE_FILTER (d3d11sdklayers.h)
-description: Debug message filter; contains a lists of message types to allow or deny.
+description: Debug message filter; contains a lists of message types to allow or deny. (D3D11_INFO_QUEUE_FILTER)
 helpviewer_keywords: ["9211ecf7-c9cd-c8c2-618a-e4909600a06e","D3D11_INFO_QUEUE_FILTER","D3D11_INFO_QUEUE_FILTER structure [Direct3D 11]","d3d11sdklayers/D3D11_INFO_QUEUE_FILTER","direct3d11.d3d11_info_queue_filter"]
 old-location: direct3d11\d3d11_info_queue_filter.htm
 tech.root: direct3d11

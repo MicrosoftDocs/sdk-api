@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemButton.OnMenuSelect
 title: ITfLangBarItemButton::OnMenuSelect (ctfutb.h)
-description: This method is not used if the button item does not have the TF_LBI_STYLE_BTN_MENU style.
+description: This method is not used if the button item does not have the TF_LBI_STYLE_BTN_MENU style. (ITfLangBarItemButton.OnMenuSelect)
 helpviewer_keywords: ["ITfLangBarItemButton interface [Text Services Framework]","OnMenuSelect method","ITfLangBarItemButton.OnMenuSelect","ITfLangBarItemButton::OnMenuSelect","OnMenuSelect","OnMenuSelect method [Text Services Framework]","OnMenuSelect method [Text Services Framework]","ITfLangBarItemButton interface","_tsf_itflangbaritembutton_onmenuselect_ref","ctfutb/ITfLangBarItemButton::OnMenuSelect","tsf.itflangbaritembutton_onmenuselect"]
 old-location: tsf\itflangbaritembutton_onmenuselect.htm
 tech.root: TSF

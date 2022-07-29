@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmActionReport.get_MailTo
 title: IFsrmActionReport::get_MailTo (fsrm.h)
-description: Retrieves or sets the email address to which the reports are sent.
+description: Retrieves or sets the email address to which the reports are sent. (Get)
 helpviewer_keywords: ["IFsrmActionReport interface [File Server Resource Manager]","MailTo property","IFsrmActionReport.MailTo","IFsrmActionReport.get_MailTo","IFsrmActionReport::MailTo","IFsrmActionReport::get_MailTo","IFsrmActionReport::put_MailTo","MailTo property [File Server Resource Manager]","MailTo property [File Server Resource Manager]","IFsrmActionReport interface","fs.ifsrmactionreport_mailto","fsrm.ifsrmactionreport_mailto","fsrm/IFsrmActionReport::MailTo","fsrm/IFsrmActionReport::get_MailTo","fsrm/IFsrmActionReport::put_MailTo","get_MailTo"]
 old-location: fsrm\ifsrmactionreport_mailto.htm
 tech.root: fsrm

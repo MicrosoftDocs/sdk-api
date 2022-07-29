@@ -1,7 +1,7 @@
 ---
 UID: NC:ntsecpkg.LSA_AP_LOGON_USER_EX
 title: LSA_AP_LOGON_USER_EX (ntsecpkg.h)
-description: Authenticates a user's logon credentials.
+description: Authenticates a user's logon credentials.L
 helpviewer_keywords: ["LSA_AP_LOGON_USER_EX","LSA_AP_LOGON_USER_EX callback","LsaApLogonUserEx","LsaApLogonUserEx callback function [Security]","STATUS_ACCOUNT_DISABLED","STATUS_INVALID_LOGON_HOURS","STATUS_INVALID_WORKSTATION","STATUS_PASSWORD_EXPIRED","_lsa_lsaaplogonuserex","ntsecpkg/LsaApLogonUserEx","security.lsaaplogonuserex"]
 old-location: security\lsaaplogonuserex.htm
 tech.root: security

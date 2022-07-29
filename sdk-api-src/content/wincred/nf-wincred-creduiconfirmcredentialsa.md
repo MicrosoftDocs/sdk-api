@@ -1,7 +1,7 @@
 ---
 UID: NF:wincred.CredUIConfirmCredentialsA
 title: CredUIConfirmCredentialsA function (wincred.h)
-description: Is called after CredUIPromptForCredentials or CredUICmdLinePromptForCredentials, to confirm the validity of the credential harvested.
+description: Is called after CredUIPromptForCredentials or CredUICmdLinePromptForCredentials, to confirm the validity of the credential harvested. (ANSI)
 helpviewer_keywords: ["CredUIConfirmCredentials","CredUIConfirmCredentials function [Security]","CredUIConfirmCredentialsA","CredUIConfirmCredentialsW","_cred_creduiconfirmcredentials","security.creduiconfirmcredentials","wincred/CredUIConfirmCredentials","wincred/CredUIConfirmCredentialsA","wincred/CredUIConfirmCredentialsW"]
 old-location: security\creduiconfirmcredentials.htm
 tech.root: security

@@ -1,7 +1,7 @@
 ---
 UID: NF:imm.ImmGetIMEFileNameA
 title: ImmGetIMEFileNameA function (imm.h)
-description: Retrieves the file name of the IME associated with the specified input locale.
+description: Retrieves the file name of the IME associated with the specified input locale. (ImmGetIMEFileNameA)
 helpviewer_keywords: ["ImmGetIMEFileName","ImmGetIMEFileName function [Internationalization for Windows Applications]","ImmGetIMEFileNameA","ImmGetIMEFileNameW","_win32_ImmGetIMEFileName","imm/ImmGetIMEFileName","imm/ImmGetIMEFileNameA","imm/ImmGetIMEFileNameW","intl.immgetimefilename"]
 old-location: intl\immgetimefilename.htm
 tech.root: Intl

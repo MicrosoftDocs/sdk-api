@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathFindExtensionA
 title: PathFindExtensionA function (shlwapi.h)
-description: Searches a path for an extension.
+description: Searches a path for an extension. (ANSI)
 helpviewer_keywords: ["PathFindExtension","PathFindExtension function [Windows Shell]","PathFindExtensionA","PathFindExtensionW","_win32_PathFindExtension","shell.PathFindExtension","shlwapi/PathFindExtension","shlwapi/PathFindExtensionA","shlwapi/PathFindExtensionW"]
 old-location: shell\PathFindExtension.htm
 tech.root: shell

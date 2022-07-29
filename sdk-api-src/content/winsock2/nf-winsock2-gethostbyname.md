@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.gethostbyname
 title: gethostbyname function (winsock2.h)
-description: The gethostbyname function retrieves host information corresponding to a host name from a host database.
+description: The gethostbyname function retrieves host information corresponding to a host name from a host database. (gethostbyname)
 helpviewer_keywords: ["_win32_gethostbyname_2","gethostbyname","gethostbyname function [Winsock]","winsock.gethostbyname_2","wsipv6ok/gethostbyname"]
 old-location: winsock\gethostbyname_2.htm
 tech.root: WinSock

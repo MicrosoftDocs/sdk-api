@@ -1,7 +1,7 @@
 ---
 UID: NS:imm.tagREGISTERWORDA
 title: REGISTERWORDA (imm.h)
-description: Contains reading information or a word to register.
+description: Contains reading information or a word to register. (REGISTERWORDA)
 helpviewer_keywords: ["*LPREGISTERWORDA","*NPREGISTERWORDA","*PREGISTERWORDA","PREGISTERWORD","PREGISTERWORD structure pointer [Internationalization for Windows Applications]","REGISTERWORD","REGISTERWORD structure [Internationalization for Windows Applications]","REGISTERWORDA","REGISTERWORDW","_win32_REGISTERWORD_str","imm/PREGISTERWORD","imm/REGISTERWORD","imm/REGISTERWORDA","imm/REGISTERWORDW","intl.registerword","tagREGISTERWORDA","tagREGISTERWORDW"]
 old-location: intl\registerword.htm
 tech.root: Intl

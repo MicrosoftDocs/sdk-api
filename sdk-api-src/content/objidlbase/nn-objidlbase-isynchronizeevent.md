@@ -1,7 +1,7 @@
 ---
 UID: NN:objidlbase.ISynchronizeEvent
 title: ISynchronizeEvent (objidlbase.h)
-description: Assigns an event handle to a synchronization object.
+description: Assigns an event handle to a synchronization object. (ISynchronizeEvent)
 helpviewer_keywords: ["ISynchronizeEvent","ISynchronizeEvent interface [COM]","ISynchronizeEvent interface [COM]","described","_com_isynchronizeevent","com.isynchronizeevent","objidlbase/ISynchronizeEvent"]
 old-location: com\isynchronizeevent.htm
 tech.root: com

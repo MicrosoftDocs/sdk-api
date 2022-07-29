@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IMarshal.DisconnectObject
 title: IMarshal::DisconnectObject (objidl.h)
-description: Releases all connections to an object. The object's server calls the object's implementation of this method prior to shutting down.
+description: Releases all connections to an object. The object's server calls the object's implementation of this method prior to shutting down. (IMarshal.DisconnectObject)
 helpviewer_keywords: ["DisconnectObject","DisconnectObject method [COM]","DisconnectObject method [COM]","IMarshal interface","IMarshal interface [COM]","DisconnectObject method","IMarshal.DisconnectObject","IMarshal::DisconnectObject","_com_imarshal_disconnectobject","com.imarshal_disconnectobject","objidlbase/IMarshal::DisconnectObject"]
 old-location: com\imarshal_disconnectobject.htm
 tech.root: com

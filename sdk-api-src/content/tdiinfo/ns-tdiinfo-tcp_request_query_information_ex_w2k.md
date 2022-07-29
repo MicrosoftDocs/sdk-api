@@ -1,7 +1,7 @@
 ---
 UID: NS:tdiinfo.tcp_request_query_information_ex_w2k
 title: TCP_REQUEST_QUERY_INFORMATION_EX_W2K (tdiinfo.h)
-description: Contains the input for the IOCTL_TCP_QUERY_INFORMATION_EX control code.
+description: Contains the input for the IOCTL_TCP_QUERY_INFORMATION_EX control code.T
 helpviewer_keywords: ["*PTCP_REQUEST_QUERY_INFORMATION_EX","*PTCP_REQUEST_QUERY_INFORMATION_EX_W2K","PTCP_REQUEST_QUERY_INFORMATION_EX","PTCP_REQUEST_QUERY_INFORMATION_EX structure pointer [Windows API]","TCP_REQUEST_QUERY_INFORMATION_EX","TCP_REQUEST_QUERY_INFORMATION_EX structure [Windows API]","TCP_REQUEST_QUERY_INFORMATION_EX_W2K","tdiinfo/PTCP_REQUEST_QUERY_INFORMATION_EX","tdiinfo/TCP_REQUEST_QUERY_INFORMATION_EX","winprog.tcp_request_query_information_ex"]
 old-location: winprog\tcp_request_query_information_ex.htm
 tech.root: winprog

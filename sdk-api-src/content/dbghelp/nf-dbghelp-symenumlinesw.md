@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymEnumLinesW
 title: SymEnumLinesW function (dbghelp.h)
-description: Enumerates all lines in the specified module.
+description: Enumerates all lines in the specified module. (SymEnumLinesW)
 helpviewer_keywords: ["SymEnumLines","SymEnumLines function","SymEnumLinesW","base.symenumlines","dbghelp/SymEnumLines","dbghelp/SymEnumLinesW"]
 old-location: base\symenumlines.htm
 tech.root: Debug

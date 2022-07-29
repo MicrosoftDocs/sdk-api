@@ -1,7 +1,7 @@
 ---
 UID: NS:dsclient.__unnamed_struct_5
 title: DSBROWSEINFOW (dsclient.h)
-description: The DSBROWSEINFO structure is used with the DsBrowseForContainer function to supply and return data about the Active Directory container browser dialog box.
+description: The DSBROWSEINFO structure is used with the DsBrowseForContainer function to supply and return data about the Active Directory container browser dialog box. (Unicode)
 helpviewer_keywords: ["*PDSBROWSEINFOW","DSBI_CHECKBOXES","DSBI_DONTSIGNSEAL","DSBI_ENTIREDIRECTORY","DSBI_EXPANDONOPEN","DSBI_HASCREDENTIALS","DSBI_IGNORETREATASLEAF","DSBI_INCLUDEHIDDEN","DSBI_NOBUTTONS","DSBI_NOLINES","DSBI_NOLINESATROOT","DSBI_NOROOT","DSBI_RETURNOBJECTCLASS","DSBI_RETURN_FORMAT","DSBI_SIMPLEAUTHENTICATE","DSBROWSEINFO","DSBROWSEINFO structure [Active Directory]","DSBROWSEINFOA","DSBROWSEINFOW","DSBROWSEINFOW structure [Active Directory]","PDSBROWSEINFOW","PDSBROWSEINFOW structure pointer [Active Directory]","_glines_dsbrowseinfo","ad.dsbrowseinfo","dsclient/DSBROWSEINFO","dsclient/DSBROWSEINFOA","dsclient/DSBROWSEINFOW","dsclient/PDSBROWSEINFOW"]
 old-location: ad\dsbrowseinfo.htm
 tech.root: ad

@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsSubSystemNaming.SetFriendlyName
 title: IVdsSubSystemNaming::SetFriendlyName (vds.h)
-description: Sets the friendly name of a subsystem.
+description: Sets the friendly name of a subsystem. (IVdsSubSystemNaming.SetFriendlyName)
 helpviewer_keywords: ["IVdsSubSystemNaming interface","SetFriendlyName method","IVdsSubSystemNaming.SetFriendlyName","IVdsSubSystemNaming::SetFriendlyName","SetFriendlyName","SetFriendlyName method","SetFriendlyName method","IVdsSubSystemNaming interface","base.ivdssubsystemnaming_setfriendlyname","vds/IVdsSubSystemNaming::SetFriendlyName","vdshwprv/IVdsSubSystemNaming::SetFriendlyName"]
 old-location: base\ivdssubsystemnaming_setfriendlyname.htm
 tech.root: base

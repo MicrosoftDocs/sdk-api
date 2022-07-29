@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortalGroup.GetProperties
 title: IVdsIscsiPortalGroup::GetProperties (vdshwprv.h)
-description: Returns the properties of a portal group.
+description: Returns the properties of a portal group. (IVdsIscsiPortalGroup.GetProperties)
 helpviewer_keywords: ["GetProperties","GetProperties method [VDS]","GetProperties method [VDS]","IVdsIscsiPortalGroup interface","IVdsIscsiPortalGroup interface [VDS]","GetProperties method","IVdsIscsiPortalGroup.GetProperties","IVdsIscsiPortalGroup::GetProperties","base.ivdsiscsiportalgroup_getproperties","vds/IVdsIscsiPortalGroup::GetProperties","vdshwprv/IVdsIscsiPortalGroup::GetProperties"]
 old-location: base\ivdsiscsiportalgroup_getproperties.htm
 tech.root: base

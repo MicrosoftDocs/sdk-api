@@ -1,7 +1,7 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_15
 title: ISCSI_SESSION_INFOW (iscsidsc.h)
-description: ISCSI_SESSION_INFO.
+description: ISCSI_SESSION_INFO. (Unicode)
 helpviewer_keywords: ["*PISCSI_SESSION_INFOW","ISCSI_SESSION_INFO","ISCSI_SESSION_INFO structure [iSCSI Discovery Library API]","ISCSI_SESSION_INFOA","ISCSI_SESSION_INFOW","PISCSI_SESSION_INFO","PISCSI_SESSION_INFO structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_session_info","iscsidsc/ISCSI_SESSION_INFO","iscsidsc/ISCSI_SESSION_INFOA","iscsidsc/ISCSI_SESSION_INFOW","iscsidsc/PISCSI_SESSION_INFO"]
 old-location: iscsidisc\iscsi_session_info.htm
 tech.root: iSCSIDisc

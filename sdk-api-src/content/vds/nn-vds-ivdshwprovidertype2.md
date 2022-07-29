@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsHwProviderType2
 title: IVdsHwProviderType2 (vds.h)
-description: This interface is not implemented. Use IVdsHwProviderType instead.
+description: This interface is not implemented. Use IVdsHwProviderType instead. (IVdsHwProviderType2)
 helpviewer_keywords: ["IVdsHwProviderType2","IVdsHwProviderType2 interface","IVdsHwProviderType2 interface","described","base.ivdshwprovidertype2","vds/IVdsHwProviderType2","vdshwprv/IVdsHwProviderType2"]
 old-location: base\ivdshwprovidertype2.htm
 tech.root: base

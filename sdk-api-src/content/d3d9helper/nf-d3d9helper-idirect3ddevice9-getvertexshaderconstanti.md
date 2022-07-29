@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetVertexShaderConstantI
 title: IDirect3DDevice9::GetVertexShaderConstantI (d3d9helper.h)
-description: Gets an integer vertex shader constant.
+description: Gets an integer vertex shader constant. (IDirect3DDevice9.GetVertexShaderConstantI)
 helpviewer_keywords: ["8454f8b9-4e73-7aec-d345-456fe7633eb5","GetVertexShaderConstantI","GetVertexShaderConstantI method [Direct3D 9]","GetVertexShaderConstantI method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetVertexShaderConstantI method","IDirect3DDevice9.GetVertexShaderConstantI","IDirect3DDevice9::GetVertexShaderConstantI","d3d9helper/IDirect3DDevice9::GetVertexShaderConstantI","direct3d9.idirect3ddevice9__getvertexshaderconstanti"]
 old-location: direct3d9\idirect3ddevice9__getvertexshaderconstanti.htm
 tech.root: direct3d9

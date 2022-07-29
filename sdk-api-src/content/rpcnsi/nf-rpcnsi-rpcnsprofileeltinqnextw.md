@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcnsi.RpcNsProfileEltInqNextW
 title: RpcNsProfileEltInqNextW function (rpcnsi.h)
-description: The RpcNsProfileEltInqNext function returns one element at a time from a profile.
+description: The RpcNsProfileEltInqNext function returns one element at a time from a profile. (Unicode)
 helpviewer_keywords: ["RpcNsProfileEltInqNext","RpcNsProfileEltInqNext function [RPC]","RpcNsProfileEltInqNextA","RpcNsProfileEltInqNextW","_rpc_rpcnsprofileeltinqnext","rpc.rpcnsprofileeltinqnext","rpcnsi/RpcNsProfileEltInqNext","rpcnsi/RpcNsProfileEltInqNextA","rpcnsi/RpcNsProfileEltInqNextW"]
 old-location: rpc\rpcnsprofileeltinqnext.htm
 tech.root: Rpc

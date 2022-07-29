@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsapi32.WTSSendMessageA
 title: WTSSendMessageA function (wtsapi32.h)
-description: Displays a message box on the client desktop of a specified Remote Desktop Services session.
+description: Displays a message box on the client desktop of a specified Remote Desktop Services session. (ANSI)
 helpviewer_keywords: ["IDABORT","IDASYNC","IDCANCEL","IDCONTINUE","IDIGNORE","IDNO","IDOK","IDRETRY","IDTIMEOUT","IDTRYAGAIN","IDYES","WTSSendMessage","WTSSendMessage function [Remote Desktop Services]","WTSSendMessageA","WTSSendMessageW","_win32_wtssendmessage","termserv.wtssendmessage","wtsapi32/WTSSendMessage","wtsapi32/WTSSendMessageA","wtsapi32/WTSSendMessageW"]
 old-location: termserv\wtssendmessage.htm
 tech.root: TermServ

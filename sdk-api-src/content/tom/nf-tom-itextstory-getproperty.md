@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextStory.GetProperty
 title: ITextStory::GetProperty (tom.h)
-description: Gets the value of the specified property.
+description: Gets the value of the specified property. (ITextStory.GetProperty)
 helpviewer_keywords: ["GetProperty","GetProperty method [Windows Controls]","GetProperty method [Windows Controls]","ITextStory interface","ITextStory interface [Windows Controls]","GetProperty method","ITextStory.GetProperty","ITextStory::GetProperty","controls.itextstory_getproperty","tom/ITextStory::GetProperty"]
 old-location: controls\itextstory_getproperty.htm
 tech.root: Controls

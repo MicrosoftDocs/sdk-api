@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3cc.ITAgentSession.get_AverageTalkTime
 title: ITAgentSession::get_AverageTalkTime (tapi3cc.h)
-description: The get_AverageTalkTime method gets the average time (in seconds) spent talking per ACD call, during this agent session (by this agent).
+description: The get_AverageTalkTime method gets the average time (in seconds) spent talking per ACD call, during this agent session (by this agent). (ITAgentSession.get_AverageTalkTime)
 helpviewer_keywords: ["ITAgentSession interface [TAPI 2.2]","get_AverageTalkTime method","ITAgentSession.get_AverageTalkTime","ITAgentSession::get_AverageTalkTime","_tapi3_itagentsession_get_averagetalktime","get_AverageTalkTime","get_AverageTalkTime method [TAPI 2.2]","get_AverageTalkTime method [TAPI 2.2]","ITAgentSession interface","tapi3.itagentsession_get_averagetalktime","tapi3cc/ITAgentSession::get_AverageTalkTime"]
 old-location: tapi3\itagentsession_get_averagetalktime.htm
 tech.root: tapi3

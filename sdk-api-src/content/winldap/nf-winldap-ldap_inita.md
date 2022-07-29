@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_initA
 title: ldap_initA function (winldap.h)
-description: Initializes a session with an LDAP server.
+description: Initializes a session with an LDAP server. (ldap_initA)
 helpviewer_keywords: ["_ldap_ldap_init","ldap.ldap__init","ldap.ldap_init","ldap_init","ldap_init function [LDAP]","ldap_initA","ldap_initW","winldap/ldap_init","winldap/ldap_initA","winldap/ldap_initW"]
 old-location: ldap\ldap_init.htm
 tech.root: ldap

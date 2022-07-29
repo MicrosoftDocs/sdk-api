@@ -1,7 +1,7 @@
 ---
 UID: NE:msclus.CLUSTER_GROUP_PRIORITY
 title: CLUSTER_GROUP_PRIORITY (msclus.h)
-description: Specifies the priority level of a group.
+description: Specifies the priority level of a group. (CLUSTER_GROUP_PRIORITY)
 helpviewer_keywords: ["CLUSTER_GROUP_PRIORITY","CLUSTER_GROUP_PRIORITY enumeration [Failover Cluster]","PriorityDisabled","PriorityHigh","PriorityLow","PriorityMedium","clusapi/CLUSTER_GROUP_PRIORITY","clusapi/PriorityDisabled","clusapi/PriorityHigh","clusapi/PriorityLow","clusapi/PriorityMedium","msclus/CLUSTER_GROUP_PRIORITY","msclus/PriorityDisabled","msclus/PriorityHigh","msclus/PriorityLow","msclus/PriorityMedium","mscs.cluster_group_priority"]
 old-location: mscs\cluster_group_priority.htm
 tech.root: MsCS

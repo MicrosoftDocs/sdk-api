@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DSurface9.LockRect
 title: IDirect3DSurface9::LockRect (d3d9.h)
-description: Locks a rectangle on a surface.
+description: Locks a rectangle on a surface. (IDirect3DSurface9.LockRect)
 helpviewer_keywords: ["95e6910d-b701-2649-b38f-7c2f4fe99c47","IDirect3DSurface9 interface [Direct3D 9]","LockRect method","IDirect3DSurface9.LockRect","IDirect3DSurface9::LockRect","LockRect","LockRect method [Direct3D 9]","LockRect method [Direct3D 9]","IDirect3DSurface9 interface","d3d9helper/IDirect3DSurface9::LockRect","direct3d9.idirect3dsurface9__lockrect"]
 old-location: direct3d9\idirect3dsurface9__lockrect.htm
 tech.root: direct3d9

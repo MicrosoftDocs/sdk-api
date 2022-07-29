@@ -1,7 +1,7 @@
 ---
 UID: NS:objidlbase.tagRPCOLEMESSAGE
 title: RPCOLEMESSAGE (objidlbase.h)
-description: Contains marshaling invocation arguments and return values between COM components.
+description: Contains marshaling invocation arguments and return values between COM components. (RPCOLEMESSAGE)
 helpviewer_keywords: ["*PRPCOLEMESSAGE","PRPCOLEMESSAGE","PRPCOLEMESSAGE structure pointer [COM]","RPCOLEMESSAGE","RPCOLEMESSAGE structure [COM]","_com_RPCOLEMESSAGE","com.rpcolemessage","objidlbase/PRPCOLEMESSAGE","objidlbase/RPCOLEMESSAGE","tagRPCOLEMESSAGE"]
 old-location: com\rpcolemessage.htm
 tech.root: com

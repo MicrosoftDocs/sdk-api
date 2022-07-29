@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsDrive.GetSubSystem
 title: IVdsDrive::GetSubSystem (vdshwprv.h)
-description: Returns the subsystem to which the drive belongs.
+description: Returns the subsystem to which the drive belongs. (IVdsDrive.GetSubSystem)
 helpviewer_keywords: ["GetSubSystem","GetSubSystem method [VDS]","GetSubSystem method [VDS]","IVdsDrive interface","IVdsDrive interface [VDS]","GetSubSystem method","IVdsDrive.GetSubSystem","IVdsDrive::GetSubSystem","base.ivdsdrive_getsubsystem","vds/IVdsDrive::GetSubSystem","vdshwprv/IVdsDrive::GetSubSystem"]
 old-location: base\ivdsdrive_getsubsystem.htm
 tech.root: base

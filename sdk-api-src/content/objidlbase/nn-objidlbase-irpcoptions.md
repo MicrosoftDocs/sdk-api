@@ -1,7 +1,7 @@
 ---
 UID: NN:objidlbase.IRpcOptions
 title: IRpcOptions (objidlbase.h)
-description: Enables callers to set or query the values of various properties that control how COM handles remote procedure calls (RPC).
+description: Enables callers to set or query the values of various properties that control how COM handles remote procedure calls (RPC). (IRpcOptions)
 helpviewer_keywords: ["IRpcOptions","IRpcOptions interface [COM]","IRpcOptions interface [COM]","described","_com_irpcoptions","com.irpcoptions","objidlbase/IRpcOptions"]
 old-location: com\irpcoptions.htm
 tech.root: com

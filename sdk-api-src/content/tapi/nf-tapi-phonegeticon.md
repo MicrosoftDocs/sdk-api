@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.phoneGetIcon
 title: phoneGetIcon function (tapi.h)
-description: The phoneGetIcon function allows an application to retrieve a service phone device-specific (or provider-specific) icon that can be displayed to the user.
+description: The phoneGetIcon function allows an application to retrieve a service phone device-specific (or provider-specific) icon that can be displayed to the user. (phoneGetIconW)
 helpviewer_keywords: ["_tapi2_phonegeticon","phoneGetIcon","phoneGetIcon function [TAPI 2.2]","phoneGetIconA","phoneGetIconW","tapi/phoneGetIcon","tapi/phoneGetIconA","tapi/phoneGetIconW","tapi2.phonegeticon"]
 old-location: tapi2\phonegeticon.htm
 tech.root: tapi3

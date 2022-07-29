@@ -1,7 +1,7 @@
 ---
 UID: NF:joystickapi.joyGetDevCaps
 title: joyGetDevCaps function (joystickapi.h)
-description: The joyGetDevCaps function queries a joystick to determine its capabilities.
+description: The joyGetDevCaps function queries a joystick to determine its capabilities. (joyGetDevCapsW)
 helpviewer_keywords: ["_win32_joyGetDevCaps","joGetDevCapsA","joyGetDevCaps","joyGetDevCaps function [Windows Multimedia]","joyGetDevCapsW","joystickapi/joGetDevCapsA","joystickapi/joyGetDevCaps","joystickapi/joyGetDevCapsW","multimedia.joygetdevcaps"]
 old-location: multimedia\joygetdevcaps.htm
 tech.root: Multimedia

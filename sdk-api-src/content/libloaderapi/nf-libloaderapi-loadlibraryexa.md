@@ -1,7 +1,7 @@
 ---
 UID: NF:libloaderapi.LoadLibraryExA
 title: LoadLibraryExA function (libloaderapi.h)
-description: Loads the specified module into the address space of the calling process.
+description: Loads the specified module into the address space of the calling process. (LoadLibraryExA)
 helpviewer_keywords: ["DONT_RESOLVE_DLL_REFERENCES","LDR_IS_DATAFILE","LDR_IS_IMAGEMAPPING","LDR_IS_RESOURCE","LOAD_IGNORE_CODE_AUTHZ_LEVEL","LOAD_LIBRARY_AS_DATAFILE","LOAD_LIBRARY_AS_DATAFILE_EXCLUSIVE","LOAD_LIBRARY_AS_IMAGE_RESOURCE","LOAD_LIBRARY_SEARCH_APPLICATION_DIR","LOAD_LIBRARY_SEARCH_DEFAULT_DIRS","LOAD_LIBRARY_SEARCH_DLL_LOAD_DIR","LOAD_LIBRARY_SEARCH_SYSTEM32","LOAD_LIBRARY_SEARCH_USER_DIRS","LOAD_WITH_ALTERED_SEARCH_PATH","LoadLibraryEx","LoadLibraryEx function","LoadLibraryExA","LoadLibraryExW","_win32_loadlibraryex","base.loadlibraryex","libloaderapi/LoadLibraryEx","libloaderapi/LoadLibraryExA","libloaderapi/LoadLibraryExW","winbase/LoadLibraryEx","winbase/LoadLibraryExA","winbase/LoadLibraryExW"]
 old-location: base\loadlibraryex.htm
 tech.root: base

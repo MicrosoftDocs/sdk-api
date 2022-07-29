@@ -1,7 +1,7 @@
 ---
 UID: NF:lzexpand.GetExpandedNameA
 title: GetExpandedNameA function (lzexpand.h)
-description: Retrieves the original name of a compressed file, if the file was compressed by the Lempel-Ziv algorithm.
+description: Retrieves the original name of a compressed file, if the file was compressed by the Lempel-Ziv algorithm. (ANSI)
 helpviewer_keywords: ["GetExpandedName","GetExpandedName function [Files]","GetExpandedNameA","GetExpandedNameW","_win32_getexpandedname","base.getexpandedname","fs.getexpandedname","lzexpand/GetExpandedName","lzexpand/GetExpandedNameA","lzexpand/GetExpandedNameW"]
 old-location: fs\getexpandedname.htm
 tech.root: fs

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateGeometryShaderWithStreamOutput
 title: ID3D10Device::CreateGeometryShaderWithStreamOutput (d3d10.h)
-description: Creates a geometry shader that can write to streaming output buffers.
+description: Creates a geometry shader that can write to streaming output buffers. (ID3D10Device.CreateGeometryShaderWithStreamOutput)
 helpviewer_keywords: ["1ef110f5-f95f-ec17-1f56-6f491a0ffac4","CreateGeometryShaderWithStreamOutput","CreateGeometryShaderWithStreamOutput method [Direct3D 10]","CreateGeometryShaderWithStreamOutput method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","CreateGeometryShaderWithStreamOutput method","ID3D10Device.CreateGeometryShaderWithStreamOutput","ID3D10Device::CreateGeometryShaderWithStreamOutput","d3d10/ID3D10Device::CreateGeometryShaderWithStreamOutput","direct3d10.id3d10device_creategeometryshaderwithstreamoutput"]
 old-location: direct3d10\id3d10device_creategeometryshaderwithstreamoutput.htm
 tech.root: direct3d10

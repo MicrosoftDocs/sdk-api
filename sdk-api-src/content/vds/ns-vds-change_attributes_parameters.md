@@ -1,7 +1,7 @@
 ---
 UID: NS:vds._CHANGE_ATTRIBUTES_PARAMETERS
 title: CHANGE_ATTRIBUTES_PARAMETERS (vds.h)
-description: Defines the partition parameters of a partition style.
+description: Defines the partition parameters of a partition style. (CHANGE_ATTRIBUTES_PARAMETERS)
 helpviewer_keywords: ["CHANGE_ATTRIBUTES_PARAMETERS","CHANGE_ATTRIBUTES_PARAMETERS structure [VDS]","GPT_ATTRIBUTE_PLATFORM_REQUIRED","GPT_BASIC_DATA_ATTRIBUTE_HIDDEN","GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER","GPT_BASIC_DATA_ATTRIBUTE_READ_ONLY","GPT_BASIC_DATA_ATTRIBUTE_SHADOW_COPY","base.change_attributes_parameters","vds/CHANGE_ATTRIBUTES_PARAMETERS"]
 old-location: base\change_attributes_parameters.htm
 tech.root: base

@@ -1,7 +1,7 @@
 ---
 UID: NS:shellapi._SHNAMEMAPPINGW
 title: SHNAMEMAPPINGW (shellapi.h)
-description: Contains the old and new path names for each file that was moved, copied, or renamed by the SHFileOperation function.
+description: Contains the old and new path names for each file that was moved, copied, or renamed by the SHFileOperation function. (Unicode)
 helpviewer_keywords: ["*LPSHNAMEMAPPINGW","LPSHNAMEMAPPING","LPSHNAMEMAPPING structure pointer [Windows Shell]","SHNAMEMAPPING","SHNAMEMAPPING structure [Windows Shell]","SHNAMEMAPPINGW","_win32_SHNAMEMAPPING","shell.SHNAMEMAPPING","shellapi/LPSHNAMEMAPPING","shellapi/SHNAMEMAPPING"]
 old-location: shell\SHNAMEMAPPING.htm
 tech.root: shell

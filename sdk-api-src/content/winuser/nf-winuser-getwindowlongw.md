@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetWindowLongW
 title: GetWindowLongW function (winuser.h)
-description: Retrieves information about the specified window.
+description: Retrieves information about the specified window. (GetWindowLongW)
 helpviewer_keywords: ["DWL_DLGPROC","DWL_MSGRESULT","DWL_USER","GWL_EXSTYLE","GWL_HINSTANCE","GWL_HWNDPARENT","GWL_ID","GWL_STYLE","GWL_USERDATA","GWL_WNDPROC","GetWindowLong","GetWindowLong function [Windows and Messages]","GetWindowLongA","GetWindowLongW","_win32_GetWindowLong","_win32_getwindowlong_cpp","winmsg.getwindowlong","winui._win32_getwindowlong","winuser/GetWindowLong","winuser/GetWindowLongA","winuser/GetWindowLongW"]
 old-location: winmsg\getwindowlong.htm
 tech.root: winmsg

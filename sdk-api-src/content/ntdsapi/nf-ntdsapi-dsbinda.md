@@ -1,7 +1,7 @@
 ---
 UID: NF:ntdsapi.DsBindA
 title: DsBindA function (ntdsapi.h)
-description: Binds to a domain controller.
+description: Binds to a domain controller. (ANSI)
 helpviewer_keywords: ["DsBind","DsBind function [Active Directory]","DsBindA","DsBindW","_glines_dsbind","ad.dsbind","ntdsapi/DsBind","ntdsapi/DsBindA","ntdsapi/DsBindW"]
 old-location: ad\dsbind.htm
 tech.root: ad

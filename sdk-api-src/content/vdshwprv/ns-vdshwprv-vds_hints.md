@@ -1,7 +1,7 @@
 ---
 UID: NS:vdshwprv._VDS_HINTS
 title: VDS_HINTS (vdshwprv.h)
-description: Defines the automagic hints for a LUN or LUN plex.
+description: Defines the automagic hints for a LUN or LUN plex. (VDS_HINTS)
 helpviewer_keywords: ["*PVDS_HINTS","PVDS_HINTS","PVDS_HINTS structure pointer [VDS]","VDS_HINTS","VDS_HINTS structure [VDS]","VDS_HINT_FASTCRASHRECOVERYREQUIRED","VDS_HINT_HARDWARECHECKSUMENABLED","VDS_HINT_ISYANKABLE","VDS_HINT_MOSTLYREADS","VDS_HINT_OPTIMIZEFORSEQUENTIALREADS","VDS_HINT_OPTIMIZEFORSEQUENTIALWRITES","VDS_HINT_READBACKVERIFYENABLED","VDS_HINT_REMAPENABLED","VDS_HINT_WRITETHROUGHCACHINGENABLED","base.vds_hints","vds/PVDS_HINTS","vds/_VDS_HINTS","vdshwprv/PVDS_HINTS","vdshwprv/_VDS_HINTS"]
 old-location: base\vds_hints.htm
 tech.root: base

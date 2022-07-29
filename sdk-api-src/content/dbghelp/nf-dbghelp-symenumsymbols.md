@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymEnumSymbols
 title: SymEnumSymbols function (dbghelp.h)
-description: Enumerates all symbols in a process.
+description: Enumerates all symbols in a process. (SymEnumSymbolsW)
 helpviewer_keywords: ["*!*","SymEnumSymbols","SymEnumSymbols function","SymEnumSymbolsW","_win32_symenumsymbols","base.symenumsymbols","dbghelp/SymEnumSymbols","dbghelp/SymEnumSymbolsW","foo","foo*!bar","foo?"]
 old-location: base\symenumsymbols.htm
 tech.root: Debug

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymPrevW
 title: SymPrevW function (dbghelp.h)
-description: Retrieves symbol information for the previous symbol.
+description: Retrieves symbol information for the previous symbol. (SymPrevW)
 helpviewer_keywords: ["SymPrev","SymPrev function","SymPrevW","base.symprev","dbghelp/SymPrev","dbghelp/SymPrevW"]
 old-location: base\symprev.htm
 tech.root: Debug

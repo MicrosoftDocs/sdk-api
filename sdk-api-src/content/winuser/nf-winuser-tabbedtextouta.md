@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.TabbedTextOutA
 title: TabbedTextOutA function (winuser.h)
-description: The TabbedTextOut function writes a character string at a specified location, expanding tabs to the values specified in an array of tab-stop positions. Text is written in the currently selected font, background color, and text color.
+description: The TabbedTextOut function writes a character string at a specified location, expanding tabs to the values specified in an array of tab-stop positions. Text is written in the currently selected font, background color, and text color. (ANSI)
 helpviewer_keywords: ["TabbedTextOut","TabbedTextOut function [Windows GDI]","TabbedTextOutA","TabbedTextOutW","_win32_TabbedTextOut","gdi.tabbedtextout","winuser/TabbedTextOut","winuser/TabbedTextOutA","winuser/TabbedTextOutW"]
 old-location: gdi\tabbedtextout.htm
 tech.root: gdi

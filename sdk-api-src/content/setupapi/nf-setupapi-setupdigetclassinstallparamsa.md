@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiGetClassInstallParamsA
 title: SetupDiGetClassInstallParamsA function (setupapi.h)
-description: The SetupDiGetClassInstallParams function retrieves class installation parameters for a device information set or a particular device information element.
+description: The SetupDiGetClassInstallParams function retrieves class installation parameters for a device information set or a particular device information element. (ANSI)
 helpviewer_keywords: ["SetupDiGetClassInstallParams","SetupDiGetClassInstallParams function [Device and Driver Installation]","SetupDiGetClassInstallParamsA","SetupDiGetClassInstallParamsW","devinst.setupdigetclassinstallparams","di-rtns_2f7d5019-6b09-4dc0-8640-8a452d01e6da.xml","setupapi/SetupDiGetClassInstallParams"]
 old-location: devinst\setupdigetclassinstallparams.htm
 tech.root: devinst

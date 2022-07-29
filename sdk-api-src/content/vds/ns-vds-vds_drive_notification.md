@@ -1,7 +1,7 @@
 ---
 UID: NS:vds._VDS_DRIVE_NOTIFICATION
 title: VDS_DRIVE_NOTIFICATION (vds.h)
-description: Defines the details of drive events.
+description: Defines the details of drive events. (VDS_DRIVE_NOTIFICATION)
 helpviewer_keywords: ["VDS_DRIVE_NOTIFICATION","VDS_DRIVE_NOTIFICATION structure [VDS]","VDS_NF_DRIVE_ARRIVE","VDS_NF_DRIVE_DEPART","VDS_NF_DRIVE_MODIFY","VDS_NF_DRIVE_REMOVED","base.vds_drive_notification","vds/_VDS_DRIVE_NOTIFICATION","vdshwprv/_VDS_DRIVE_NOTIFICATION"]
 old-location: base\vds_drive_notification.htm
 tech.root: base

@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsLunNumber
 title: IVdsLunNumber (vds.h)
-description: Provides a method to query the LUN number for a LUN.
+description: Provides a method to query the LUN number for a LUN. (IVdsLunNumber)
 helpviewer_keywords: ["IVdsLunNumber","IVdsLunNumber interface","IVdsLunNumber interface","described","base.ivdslunnumber","vds/IVdsLunNumber","vdshwprv/IVdsLunNumber"]
 old-location: base\ivdslunnumber.htm
 tech.root: base

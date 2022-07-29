@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetBlueYIntercept(IDCompositionAnimation)
 title: IDCompositionLinearTransferEffect::SetBlueYIntercept(IDCompositionAnimation) (dcomp.h)
-description: Sets the Y-intercept of the linear function for the blue channel.
+description: The IDCompositionLinearTransferEffect::SetBlueYIntercept(IDCompositionAnimation) method sets the Y-intercept of the linear function for the blue channel.
 helpviewer_keywords: ["IDCompositionLinearTransferEffect interface [DirectComposition]","SetBlueYIntercept method","IDCompositionLinearTransferEffect.SetBlueYIntercept","IDCompositionLinearTransferEffect.SetBlueYIntercept(IDCompositionAnimation)","IDCompositionLinearTransferEffect::SetBlueYIntercept","IDCompositionLinearTransferEffect::SetBlueYIntercept(IDCompositionAnimation)","SetBlueYIntercept","SetBlueYIntercept method [DirectComposition]","SetBlueYIntercept method [DirectComposition]","IDCompositionLinearTransferEffect interface","dcomp/IDCompositionLinearTransferEffect::SetBlueYIntercept","directcomp.idcompositionlineartransfereffect_setblueyintercept_2"]
 old-location: directcomp\idcompositionlineartransfereffect_setblueyintercept_2.htm
 tech.root: directcomp
 ms.assetid: A75B26EB-CEA2-45E3-999D-9A49A261AA54
-ms.date: 12/05/2018
+ms.date: 06/23/2022
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetBlueYIntercept method, IDCompositionLinearTransferEffect.SetBlueYIntercept, IDCompositionLinearTransferEffect.SetBlueYIntercept(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetBlueYIntercept, IDCompositionLinearTransferEffect::SetBlueYIntercept(IDCompositionAnimation), SetBlueYIntercept, SetBlueYIntercept method [DirectComposition], SetBlueYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetBlueYIntercept, directcomp.idcompositionlineartransfereffect_setblueyintercept_2
 req.header: dcomp.h
 req.include-header: 

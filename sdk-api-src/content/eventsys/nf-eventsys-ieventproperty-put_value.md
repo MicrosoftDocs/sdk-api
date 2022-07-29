@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventProperty.put_Value
 title: IEventProperty::put_Value (eventsys.h)
-description: The value of the event property.
+description: The value of the event property. (Put)
 helpviewer_keywords: ["IEventProperty interface [COM]","Value property","IEventProperty.Value","IEventProperty.put_Value","IEventProperty::Value","IEventProperty::get_Value","IEventProperty::put_Value","Value property [COM]","Value property [COM]","IEventProperty interface","_com_ieventproperty_value","com.ieventproperty_value","eventsys/IEventProperty::Value","eventsys/IEventProperty::get_Value","eventsys/IEventProperty::put_Value","put_Value"]
 old-location: com\ieventproperty_value.htm
 tech.root: com

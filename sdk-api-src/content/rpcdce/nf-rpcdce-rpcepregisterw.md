@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcEpRegisterW
 title: RpcEpRegisterW function (rpcdce.h)
-description: The RpcEpRegister function adds to or replaces server address information in the local endpoint-map database.
+description: The RpcEpRegister function adds to or replaces server address information in the local endpoint-map database. (RpcEpRegisterW)
 helpviewer_keywords: ["RpcEpRegister","RpcEpRegister function [RPC]","RpcEpRegisterA","RpcEpRegisterW","_rpc_rpcepregister","rpc.rpcepregister","rpcdce/RpcEpRegister","rpcdce/RpcEpRegisterA","rpcdce/RpcEpRegisterW"]
 old-location: rpc\rpcepregister.htm
 tech.root: Rpc

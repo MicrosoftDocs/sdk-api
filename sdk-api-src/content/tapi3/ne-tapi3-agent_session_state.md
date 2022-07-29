@@ -1,7 +1,7 @@
 ---
 UID: NE:tapi3.AGENT_SESSION_STATE
 title: AGENT_SESSION_STATE (tapi3.h)
-description: This AGENT_SESSION_STATE enum defines the agent session indicators used by the ITAgentSession::get_State and the ITAgentSession::put_State methods.
+description: This AGENT_SESSION_STATE enum defines the agent session indicators used by the ITAgentSession::get_State and the ITAgentSession::put_State methods. (AGENT_SESSION_STATE)
 helpviewer_keywords: ["AGENT_SESSION_STATE","AGENT_SESSION_STATE enumeration [TAPI 2.2]","ASST_BUSY_ON_CALL","ASST_BUSY_WRAPUP","ASST_NOT_READY","ASST_READY","ASST_SESSION_ENDED","_tapi3_agent_session_state","tapi3.agent_session_state","tapi3cc/AGENT_SESSION_STATE","tapi3cc/ASST_BUSY_ON_CALL","tapi3cc/ASST_BUSY_WRAPUP","tapi3cc/ASST_NOT_READY","tapi3cc/ASST_READY","tapi3cc/ASST_SESSION_ENDED"]
 old-location: tapi3\agent_session_state.htm
 tech.root: tapi3

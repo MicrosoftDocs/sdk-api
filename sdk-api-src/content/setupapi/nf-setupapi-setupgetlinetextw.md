@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupGetLineTextW
 title: SetupGetLineTextW function (setupapi.h)
-description: The SetupGetLineText function returns the contents of a line in an INF file in a compact form.
+description: The SetupGetLineText function returns the contents of a line in an INF file in a compact form. (Unicode)
 helpviewer_keywords: ["SetupGetLineText","SetupGetLineText function [Setup API]","SetupGetLineTextA","SetupGetLineTextW","_setupapi_setupgetlinetext","setup.setupgetlinetext","setupapi/SetupGetLineText","setupapi/SetupGetLineTextA","setupapi/SetupGetLineTextW"]
 old-location: setup\setupgetlinetext.htm
 tech.root: setup

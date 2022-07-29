@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemtime.WBEMTime.operator-less-than
 title: WBEMTime::operator-less-than (wbemtime.h)
-description: The WBEMTime comparison operators (== != &lt; &lt;= &gt; &gt;=) have been overloaded to compare two WBEMTime objects.
+description: The WBEMTime comparison operators (== != &lt; &lt;= &gt; &gt;=) have been overloaded to compare two WBEMTime objects.W
 helpviewer_keywords: ["WBEMTime interface [Windows Management Instrumentation]","operator< method","WBEMTime.operator-less-than","WBEMTime.operator<","WBEMTime::operator-less-than","WBEMTime::operator<","operator<","operator< method [Windows Management Instrumentation]","operator< method [Windows Management Instrumentation]","WBEMTime interface","wbemtime/WBEMTime::operator<","wmi.wbemtime_comparison_operators_lessthan"]
 old-location: wmi\wbemtime_comparison_operators_lessthan.htm
 tech.root: wmi

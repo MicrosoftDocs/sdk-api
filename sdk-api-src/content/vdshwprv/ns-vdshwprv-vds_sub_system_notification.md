@@ -1,7 +1,7 @@
 ---
 UID: NS:vdshwprv._VDS_SUB_SYSTEM_NOTIFICATION
 title: VDS_SUB_SYSTEM_NOTIFICATION (vdshwprv.h)
-description: Defines the details of subsystem events.
+description: Defines the details of subsystem events. (VDS_SUB_SYSTEM_NOTIFICATION)
 helpviewer_keywords: ["VDS_NF_SUB_SYSTEM_ARRIVE","VDS_NF_SUB_SYSTEM_DEPART","VDS_NF_SUB_SYSTEM_MODIFY","VDS_SUB_SYSTEM_NOTIFICATION","VDS_SUB_SYSTEM_NOTIFICATION structure [VDS]","base.vds_sub_system_notification","vds/_VDS_SUB_SYSTEM_NOTIFICATION","vdshwprv/_VDS_SUB_SYSTEM_NOTIFICATION"]
 old-location: base\vds_sub_system_notification.htm
 tech.root: base

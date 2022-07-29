@@ -1,7 +1,7 @@
 ---
 UID: NS:winsock.sockaddr_in
 title: SOCKADDR_IN (winsock.h)
-description: The sockaddr structure varies depending on the protocol selected.
+description: The sockaddr structure varies depending on the protocol selected.s
 helpviewer_keywords: ["*LPSOCKADDR_IN","*PSOCKADDR_IN","SOCKADDR","SOCKADDR_IN","SOCKADDR_IN6","_win32_sockaddr_2","sockaddr","sockaddr structure [Winsock]","sockaddr_in","sockaddr_in6","sockaddr_in6_old","winsock.sockaddr_2","winsock/sockaddr"]
 old-location: winsock\sockaddr_2.htm
 tech.root: WinSock

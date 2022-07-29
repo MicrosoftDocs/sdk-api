@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_err2stringW
 title: ldap_err2stringW function (winldap.h)
-description: Converts a numeric LDAP error code into a null-terminated character string that describes the error.
+description: Converts a numeric LDAP error code into a null-terminated character string that describes the error. (ldap_err2stringW)
 helpviewer_keywords: ["_ldap_ldap_err2string","ldap.ldap__err2string","ldap.ldap_err2string","ldap_err2string","ldap_err2string function [LDAP]","ldap_err2stringA","ldap_err2stringW","winldap/ldap_err2string","winldap/ldap_err2stringA","winldap/ldap_err2stringW"]
 old-location: ldap\ldap_err2string.htm
 tech.root: ldap

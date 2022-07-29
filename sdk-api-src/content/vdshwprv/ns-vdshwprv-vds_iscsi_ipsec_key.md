@@ -1,7 +1,7 @@
 ---
 UID: NS:vdshwprv._VDS_ISCSI_IPSEC_KEY
 title: VDS_ISCSI_IPSEC_KEY (vdshwprv.h)
-description: Not supported.This structure is reserved for future use.
+description: Not supported.This structure is reserved for future use. (VDS_ISCSI_IPSEC_KEY)
 helpviewer_keywords: ["VDS_ISCSI_IPSEC_KEY","VDS_ISCSI_IPSEC_KEY structure [VDS]","base.vds_iscsi_ipsec_key","vds/VDS_ISCSI_IPSEC_KEY","vdshwprv/VDS_ISCSI_IPSEC_KEY"]
 old-location: base\vds_iscsi_ipsec_key.htm
 tech.root: base

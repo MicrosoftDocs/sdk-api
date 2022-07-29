@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IRepetitionPattern.put_Duration
 title: IRepetitionPattern::put_Duration (taskschd.h)
-description: Gets or sets how long the pattern is repeated.
+description: Gets or sets how long the pattern is repeated. (Put)
 helpviewer_keywords: ["Duration property [Task Scheduler]","Duration property [Task Scheduler]","IRepetitionPattern interface","IRepetitionPattern interface [Task Scheduler]","Duration property","IRepetitionPattern.Duration","IRepetitionPattern.put_Duration","IRepetitionPattern::Duration","IRepetitionPattern::get_Duration","IRepetitionPattern::put_Duration","put_Duration","taskschd.irepetitionpattern_duration","taskschd/IRepetitionPattern::Duration","taskschd/IRepetitionPattern::get_Duration","taskschd/IRepetitionPattern::put_Duration"]
 old-location: taskschd\irepetitionpattern_duration.htm
 tech.root: taskschd

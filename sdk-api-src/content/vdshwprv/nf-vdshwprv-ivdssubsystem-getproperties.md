@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.GetProperties
 title: IVdsSubSystem::GetProperties (vdshwprv.h)
-description: Returns the properties of a subsystem.
+description: Returns the properties of a subsystem. (IVdsSubSystem.GetProperties)
 helpviewer_keywords: ["GetProperties","GetProperties method [VDS]","GetProperties method [VDS]","IVdsSubSystem interface","IVdsSubSystem interface [VDS]","GetProperties method","IVdsSubSystem.GetProperties","IVdsSubSystem::GetProperties","base.ivdssubsystem_getproperties","vds/IVdsSubSystem::GetProperties","vdshwprv/IVdsSubSystem::GetProperties"]
 old-location: base\ivdssubsystem_getproperties.htm
 tech.root: base

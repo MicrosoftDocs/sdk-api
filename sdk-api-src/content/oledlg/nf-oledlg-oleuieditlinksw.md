@@ -1,7 +1,7 @@
 ---
 UID: NF:oledlg.OleUIEditLinksW
 title: OleUIEditLinksW function (oledlg.h)
-description: Invokes the standard Links dialog box, allowing the user to make modifications to a container's linked objects.
+description: Invokes the standard Links dialog box, allowing the user to make modifications to a container's linked objects. (Unicode)
 helpviewer_keywords: ["OleUIEditLinks","OleUIEditLinks function [COM]","OleUIEditLinksA","OleUIEditLinksW","_ole_OleUIEditLinks","com.oleuieditlinks","oledlg/OleUIEditLinks","oledlg/OleUIEditLinksA","oledlg/OleUIEditLinksW"]
 old-location: com\oleuieditlinks.htm
 tech.root: com

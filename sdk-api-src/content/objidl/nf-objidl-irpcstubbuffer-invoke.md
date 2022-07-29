@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IRpcStubBuffer.Invoke
 title: IRpcStubBuffer::Invoke (objidl.h)
-description: Invokes the interface that a stub represents.
+description: Invokes the interface that a stub represents. (IRpcStubBuffer.Invoke)
 helpviewer_keywords: ["IRpcStubBuffer interface [COM]","Invoke method","IRpcStubBuffer.Invoke","IRpcStubBuffer::Invoke","Invoke","Invoke method [COM]","Invoke method [COM]","IRpcStubBuffer interface","_com_irpcstubbuffer_invoke","com.irpcstubbuffer_invoke","objidlbase/IRpcStubBuffer::Invoke"]
 old-location: com\irpcstubbuffer_invoke.htm
 tech.root: com

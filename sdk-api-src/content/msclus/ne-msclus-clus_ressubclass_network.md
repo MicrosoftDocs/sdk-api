@@ -1,7 +1,7 @@
 ---
 UID: NE:msclus.CLUS_RESSUBCLASS_NETWORK
 title: CLUS_RESSUBCLASS_NETWORK (msclus.h)
-description: Identifies a resource subclass that manages an IP address provider.
+description: Identifies a resource subclass that manages an IP address provider. (CLUS_RESSUBCLASS_NETWORK)
 helpviewer_keywords: ["CLUS_RESSUBCLASS_NETWORK","CLUS_RESSUBCLASS_NETWORK enumeration [Failover Cluster]","CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL","clusapi/CLUS_RESSUBCLASS_NETWORK","clusapi/CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL","msclus/CLUS_RESSUBCLASS_NETWORK","msclus/CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL","mscs.clus_ressubclass_network"]
 old-location: mscs\clus_ressubclass_network.htm
 tech.root: MsCS

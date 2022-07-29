@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IEmailAction.put_From
 title: IEmailAction::put_From (taskschd.h)
-description: Gets or sets the email address that you want to send the email from.
+description: Gets or sets the email address that you want to send the email from. (Put)
 helpviewer_keywords: ["From property [Task Scheduler]","From property [Task Scheduler]","IEmailAction interface","IEmailAction interface [Task Scheduler]","From property","IEmailAction.From","IEmailAction.put_From","IEmailAction::From","IEmailAction::get_From","IEmailAction::put_From","put_From","taskschd.iemailaction_from","taskschd/IEmailAction::From","taskschd/IEmailAction::get_From","taskschd/IEmailAction::put_From"]
 old-location: taskschd\iemailaction_from.htm
 tech.root: taskschd

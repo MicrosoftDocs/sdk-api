@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsLunMpio
 title: IVdsLunMpio (vds.h)
-description: Provides methods for performing query and configuration operations on a LUN with MPIO extensions.
+description: Provides methods for performing query and configuration operations on a LUN with MPIO extensions. (IVdsLunMpio)
 helpviewer_keywords: ["IVdsLunMpio","IVdsLunMpio interface [VDS]","IVdsLunMpio interface [VDS]","described","base.ivdslunmpio","vds/IVdsLunMpio","vdshwprv/IVdsLunMpio"]
 old-location: base\ivdslunmpio.htm
 tech.root: base

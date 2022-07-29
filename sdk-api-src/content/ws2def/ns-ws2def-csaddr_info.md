@@ -1,7 +1,7 @@
 ---
 UID: NS:ws2def._CSADDR_INFO
 title: CSADDR_INFO (ws2def.h)
-description: Contains Windows Sockets address information for a socket, network service, or namespace provider.
+description: Contains Windows Sockets address information for a socket, network service, or namespace provider. (CSADDR_INFO)
 helpviewer_keywords: ["*LPCSADDR_INFO","*PCSADDR_INFO","CSADDR_INFO","CSADDR_INFO structure [Winsock]","IPPROTO_RM","IPPROTO_TCP","IPPROTO_UDP","SOCK_DGRAM","SOCK_RDM","SOCK_SEQPACKET","SOCK_STREAM","_CSADDR_INFO","_win32_csaddr_info_2","winsock.csaddr_info_2","ws2def/CSADDR_INFO"]
 old-location: winsock\csaddr_info_2.htm
 tech.root: WinSock

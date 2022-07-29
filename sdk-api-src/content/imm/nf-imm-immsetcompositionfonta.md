@@ -1,7 +1,7 @@
 ---
 UID: NF:imm.ImmSetCompositionFontA
 title: ImmSetCompositionFontA function (imm.h)
-description: Sets the logical font to use to display characters in the composition window.
+description: Sets the logical font to use to display characters in the composition window. (ImmSetCompositionFontA)
 helpviewer_keywords: ["ImmSetCompositionFont","ImmSetCompositionFont function [Internationalization for Windows Applications]","ImmSetCompositionFontA","ImmSetCompositionFontW","_win32_ImmSetCompositionFont","imm/ImmSetCompositionFont","imm/ImmSetCompositionFontA","imm/ImmSetCompositionFontW","intl.immsetcompositionfont"]
 old-location: intl\immsetcompositionfont.htm
 tech.root: Intl

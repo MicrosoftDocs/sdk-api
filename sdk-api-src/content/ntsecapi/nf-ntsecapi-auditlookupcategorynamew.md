@@ -1,7 +1,7 @@
 ---
 UID: NF:ntsecapi.AuditLookupCategoryNameW
 title: AuditLookupCategoryNameW function (ntsecapi.h)
-description: Retrieves the display name of the specified audit-policy category.
+description: Retrieves the display name of the specified audit-policy category. (Unicode)
 helpviewer_keywords: ["AuditLookupCategoryName","AuditLookupCategoryName function [Security]","AuditLookupCategoryNameA","AuditLookupCategoryNameW","ntsecapi/AuditLookupCategoryName","ntsecapi/AuditLookupCategoryNameA","ntsecapi/AuditLookupCategoryNameW","security.auditlookupcategoryname_func"]
 old-location: security\auditlookupcategoryname_func.htm
 tech.root: security

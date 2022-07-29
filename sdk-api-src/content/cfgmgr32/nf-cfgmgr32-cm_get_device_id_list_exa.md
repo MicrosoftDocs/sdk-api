@@ -4,7 +4,7 @@ tech.root: devinst
 title: CM_Get_Device_ID_List_ExA
 ms.date: 04/12/2021
 targetos: Windows
-description: The CM_Get_Device_ID_List_Ex function retrieves a list of device instance IDs for the device instances on a local or a remote machine.
+description: The CM_Get_Device_ID_List_Ex function retrieves a list of device instance IDs for the device instances on a local or a remote machine. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

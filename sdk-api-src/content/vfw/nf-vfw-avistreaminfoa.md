@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.AVIStreamInfoA
 title: AVIStreamInfoA function (vfw.h)
-description: The AVIStreamInfo function obtains stream header information.
+description: The AVIStreamInfo function obtains stream header information. (ANSI)
 helpviewer_keywords: ["AVIStreamInfo","AVIStreamInfo function [Windows Multimedia]","AVIStreamInfoA","AVIStreamInfoW","_win32_AVIStreamInfo","multimedia.avistreaminfo","vfw/AVIStreamInfo","vfw/AVIStreamInfoA","vfw/AVIStreamInfoW"]
 old-location: multimedia\avistreaminfo.htm
 tech.root: Multimedia

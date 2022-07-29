@@ -1,7 +1,7 @@
 ---
 UID: NE:clusapi.__unnamed_enum_1
 title: CLUSTER_MGMT_POINT_TYPE (clusapi.h)
-description: Specifies the type of the management point for the cluster.
+description: Specifies the type of the management point for the cluster. (CLUSTER_MGMT_POINT_TYPE)
 helpviewer_keywords: ["CLUSTER_MGMT_POINT_TYPE","CLUSTER_MGMT_POINT_TYPE enumeration [Failover Cluster]","CLUSTER_MGMT_POINT_TYPE_CNO","CLUSTER_MGMT_POINT_TYPE_CNO_ONLY","CLUSTER_MGMT_POINT_TYPE_DNS_ONLY","CLUSTER_MGMT_POINT_TYPE_NONE","clusapi/CLUSTER_MGMT_POINT_TYPE","clusapi/CLUSTER_MGMT_POINT_TYPE_CNO","clusapi/CLUSTER_MGMT_POINT_TYPE_CNO_ONLY","clusapi/CLUSTER_MGMT_POINT_TYPE_DNS_ONLY","clusapi/CLUSTER_MGMT_POINT_TYPE_NONE","msclus/CLUSTER_MGMT_POINT_TYPE","msclus/CLUSTER_MGMT_POINT_TYPE_CNO","msclus/CLUSTER_MGMT_POINT_TYPE_CNO_ONLY","msclus/CLUSTER_MGMT_POINT_TYPE_DNS_ONLY","msclus/CLUSTER_MGMT_POINT_TYPE_NONE","mscs.cluster_mgmt_point_type"]
 old-location: mscs\cluster_mgmt_point_type.htm
 tech.root: MsCS

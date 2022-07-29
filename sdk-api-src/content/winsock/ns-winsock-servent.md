@@ -1,7 +1,7 @@
 ---
 UID: NS:winsock.servent
 title: SERVENT (winsock.h)
-description: The servent structure is used to store or return the name and service number for a given service name.
+description: The servent structure is used to store or return the name and service number for a given service name. (SERVENT)
 helpviewer_keywords: ["*LPSERVENT","*PSERVENT","FAR *LPSERVENT","FAR *LPSERVENT structure [Winsock]","PSERVENT","PSERVENT structure pointer [Winsock]","SERVENT","SERVENT structure [Winsock]","_win32_servent_2","servent","servent structure [Winsock]","winsock.servent_2","winsock/FAR *LPSERVENT","winsock/PSERVENT","winsock/servent"]
 old-location: winsock\servent_2.htm
 tech.root: WinSock

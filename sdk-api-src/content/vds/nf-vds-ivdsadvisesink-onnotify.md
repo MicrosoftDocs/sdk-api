@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsAdviseSink.OnNotify
 title: IVdsAdviseSink::OnNotify (vds.h)
-description: Passes notifications from providers to VDS, and from VDS to applications.
+description: Passes notifications from providers to VDS, and from VDS to applications. (IVdsAdviseSink.OnNotify)
 helpviewer_keywords: ["IVdsAdviseSink interface [VDS]","OnNotify method","IVdsAdviseSink.OnNotify","IVdsAdviseSink::OnNotify","OnNotify","OnNotify method [VDS]","OnNotify method [VDS]","IVdsAdviseSink interface","base.ivdsadvisesink_onnotify","vds/IVdsAdviseSink::OnNotify","vdshwprv/IVdsAdviseSink::OnNotify"]
 old-location: base\ivdsadvisesink_onnotify.htm
 tech.root: base

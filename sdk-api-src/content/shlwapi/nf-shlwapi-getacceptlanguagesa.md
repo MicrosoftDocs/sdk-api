@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.GetAcceptLanguagesA
 title: GetAcceptLanguagesA function (shlwapi.h)
-description: Retrieves a string used with websites when specifying language preferences.
+description: Retrieves a string used with websites when specifying language preferences. (ANSI)
 helpviewer_keywords: ["GetAcceptLanguages","GetAcceptLanguages function [Windows Shell]","GetAcceptLanguagesA","GetAcceptLanguagesW","_shell_GetAcceptLanguages","shell.GetAcceptLanguages","shlwapi/GetAcceptLanguages","shlwapi/GetAcceptLanguagesA","shlwapi/GetAcceptLanguagesW"]
 old-location: shell\GetAcceptLanguages.htm
 tech.root: shell

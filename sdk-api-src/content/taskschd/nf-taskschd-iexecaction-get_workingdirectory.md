@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IExecAction.get_WorkingDirectory
 title: IExecAction::get_WorkingDirectory (taskschd.h)
-description: Gets or sets the directory that contains either the executable file or the files that are used by the executable file.
+description: Gets or sets the directory that contains either the executable file or the files that are used by the executable file. (Get)
 helpviewer_keywords: ["IExecAction interface [Task Scheduler]","WorkingDirectory property","IExecAction.WorkingDirectory","IExecAction.get_WorkingDirectory","IExecAction::WorkingDirectory","IExecAction::get_WorkingDirectory","IExecAction::put_WorkingDirectory","WorkingDirectory property [Task Scheduler]","WorkingDirectory property [Task Scheduler]","IExecAction interface","get_WorkingDirectory","taskschd.iexecaction_workingdirectory","taskschd/IExecAction::WorkingDirectory","taskschd/IExecAction::get_WorkingDirectory","taskschd/IExecAction::put_WorkingDirectory"]
 old-location: taskschd\iexecaction_workingdirectory.htm
 tech.root: taskschd

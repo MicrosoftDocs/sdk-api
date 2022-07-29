@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Metafile.Metafile(IStream,HDC,constRectF&,MetafileFrameUnit,EmfType,constWCHAR)
 title: Metafile::Metafile(IN IStream,IN HDC,IN const RectF &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR) (gdiplusheaders.h)
-description: Creates a Metafile::Metafile object for recording to an IStream interface.
+description: Creates a Metafile::Metafile object for recording to an IStream interface. (overload 3/3)
 helpviewer_keywords: ["Metafile","Metafile class [GDI+]","Metafile constructor","Metafile constructor [GDI+]","Metafile constructor [GDI+]","Metafile class","Metafile.Metafile","Metafile.Metafile(IN IStream","IN HDC","IN const RectF &","IN MetafileFrameUnit","IN EmfType","IN const WCHAR)","Metafile.Metafile(IStream*","HDC","const RectF&","MetafileFrameUnit","EmfType","const WCHAR*)","Metafile::Metafile","Metafile::Metafile(IN IStream","IN HDC","IN const RectF &","IN MetafileFrameUnit","IN EmfType","IN const WCHAR)","_gdiplus_CLASS_Metafile_Metafile_IStream_stream_HDC_referenceHdc_RectF_frameRect_MetafileFrameUnit_f","gdiplus._gdiplus_CLASS_Metafile_Metafile_IStream_stream_HDC_referenceHdc_RectF_frameRect_MetafileFrameUnit_f"]
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_IStream_stream_HDC_referenceHdc_RectF_frameRect_MetafileFrameUnit_f.htm
 tech.root: gdiplus

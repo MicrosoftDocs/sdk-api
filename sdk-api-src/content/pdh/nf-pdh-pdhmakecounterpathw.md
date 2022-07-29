@@ -1,7 +1,7 @@
 ---
 UID: NF:pdh.PdhMakeCounterPathW
 title: PdhMakeCounterPathW function (pdh.h)
-description: Creates a full counter path using the members specified in the PDH_COUNTER_PATH_ELEMENTS structure.
+description: Creates a full counter path using the members specified in the PDH_COUNTER_PATH_ELEMENTS structure. (Unicode)
 helpviewer_keywords: ["0","PDH_PATH_WBEM_INPUT","PDH_PATH_WBEM_RESULT","PdhMakeCounterPath","PdhMakeCounterPath function [Perf]","PdhMakeCounterPathA","PdhMakeCounterPathW","_win32_pdhmakecounterpath","base.pdhmakecounterpath","pdh/PdhMakeCounterPath","pdh/PdhMakeCounterPathA","pdh/PdhMakeCounterPathW","perf.pdhmakecounterpath"]
 old-location: perf\pdhmakecounterpath.htm
 tech.root: perf

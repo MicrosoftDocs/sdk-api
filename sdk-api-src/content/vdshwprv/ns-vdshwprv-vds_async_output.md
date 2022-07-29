@@ -1,7 +1,7 @@
 ---
 UID: NS:vdshwprv._VDS_ASYNC_OUTPUT
 title: VDS_ASYNC_OUTPUT (vdshwprv.h)
-description: Defines the output of an async object. Output elements vary depending on the operation type.
+description: Defines the output of an async object. Output elements vary depending on the operation type. (VDS_ASYNC_OUTPUT)
 helpviewer_keywords: ["VDS_ASYNCOUT_BREAKVOLUMEPLEX","VDS_ASYNCOUT_CREATELUN","VDS_ASYNCOUT_CREATEPARTITION","VDS_ASYNCOUT_CREATEPORTALGROUP","VDS_ASYNCOUT_CREATETARGET","VDS_ASYNCOUT_CREATEVOLUME","VDS_ASYNCOUT_CREATE_VDISK","VDS_ASYNC_OUTPUT","VDS_ASYNC_OUTPUT structure [VDS]","base.vds_async_output","vds/_VDS_ASYNC_OUTPUT","vdshwprv/_VDS_ASYNC_OUTPUT"]
 old-location: base\vds_async_output.htm
 tech.root: base

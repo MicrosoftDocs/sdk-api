@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10.ID3D10Buffer
 title: ID3D10Buffer (d3d10.h)
-description: A buffer interface accesses a buffer resource, which is unstructured memory. Buffers typically store vertex or index data.
+description: A buffer interface accesses a buffer resource, which is unstructured memory. Buffers typically store vertex or index data. (ID3D10Buffer)
 helpviewer_keywords: ["8a6172fe-deac-4b70-fb31-07255d702e32","ID3D10Buffer","ID3D10Buffer interface [Direct3D 10]","ID3D10Buffer interface [Direct3D 10]","described","d3d10/ID3D10Buffer","direct3d10.id3d10buffer"]
 old-location: direct3d10\id3d10buffer.htm
 tech.root: direct3d10

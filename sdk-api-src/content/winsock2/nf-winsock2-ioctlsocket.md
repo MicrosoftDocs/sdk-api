@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.ioctlsocket
 title: ioctlsocket function (winsock2.h)
-description: The ioctlsocket function controls the I/O mode of a socket.
+description: The ioctlsocket function controls the I/O mode of a socket. (ioctlsocket)
 helpviewer_keywords: ["_win32_ioctlsocket_2","ioctlsocket","ioctlsocket function [Winsock]","winsock.ioctlsocket_2","winsock/ioctlsocket"]
 old-location: winsock\ioctlsocket_2.htm
 tech.root: WinSock

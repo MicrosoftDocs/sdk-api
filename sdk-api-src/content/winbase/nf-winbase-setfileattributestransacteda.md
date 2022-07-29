@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.SetFileAttributesTransactedA
 title: SetFileAttributesTransactedA function (winbase.h)
-description: Sets the attributes for a file or directory as a transacted operation.
+description: Sets the attributes for a file or directory as a transacted operation. (ANSI)
 helpviewer_keywords: ["FILE_ATTRIBUTE_ARCHIVE","FILE_ATTRIBUTE_HIDDEN","FILE_ATTRIBUTE_NORMAL","FILE_ATTRIBUTE_NOT_CONTENT_INDEXED","FILE_ATTRIBUTE_OFFLINE","FILE_ATTRIBUTE_READONLY","FILE_ATTRIBUTE_SYSTEM","FILE_ATTRIBUTE_TEMPORARY","SetFileAttributesTransacted","SetFileAttributesTransacted function [Files]","SetFileAttributesTransactedA","SetFileAttributesTransactedW","fs.setfileattributestransacted","winbase/SetFileAttributesTransacted","winbase/SetFileAttributesTransactedA","winbase/SetFileAttributesTransactedW"]
 old-location: fs\setfileattributestransacted.htm
 tech.root: fs

@@ -1,7 +1,7 @@
 ---
 UID: NS:imm.tagCOMPOSITIONFORM
 title: COMPOSITIONFORM (imm.h)
-description: Contains style and position information for a composition window.
+description: Contains style and position information for a composition window. (COMPOSITIONFORM)
 helpviewer_keywords: ["*LPCOMPOSITIONFORM","*NPCOMPOSITIONFORM","*PCOMPOSITIONFORM","COMPOSITIONFORM","COMPOSITIONFORM structure [Internationalization for Windows Applications]","PCOMPOSITIONFORM","PCOMPOSITIONFORM structure pointer [Internationalization for Windows Applications]","_win32_COMPOSITIONFORM_str","imm/COMPOSITIONFORM","imm/PCOMPOSITIONFORM","intl.compositionform","tagCOMPOSITIONFORM"]
 old-location: intl\compositionform.htm
 tech.root: Intl

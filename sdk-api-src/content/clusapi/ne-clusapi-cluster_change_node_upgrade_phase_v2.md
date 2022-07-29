@@ -1,7 +1,7 @@
 ---
 UID: NE:clusapi.CLUSTER_CHANGE_NODE_UPGRADE_PHASE_V2
 title: CLUSTER_CHANGE_NODE_UPGRADE_PHASE_V2 (clusapi.h)
-description: Defines the notifications that are generated for the upgrade of a cluster node.
+description: Defines the notifications that are generated for the upgrade of a cluster node. (CLUSTER_CHANGE_NODE_UPGRADE_PHASE_V2)
 helpviewer_keywords: ["CLUSTER_CHANGE_NODE_UPGRADE_PHASE_V2","CLUSTER_CHANGE_NODE_UPGRADE_PHASE_V2 enumeration [Failover Cluster]","CLUSTER_CHANGE_UPGRADE_ALL","CLUSTER_CHANGE_UPGRADE_NODE_COMMIT","CLUSTER_CHANGE_UPGRADE_NODE_POSTCOMMIT","CLUSTER_CHANGE_UPGRADE_NODE_PREPARE","clusapi/CLUSTER_CHANGE_NODE_UPGRADE_PHASE_V2","clusapi/CLUSTER_CHANGE_UPGRADE_ALL","clusapi/CLUSTER_CHANGE_UPGRADE_NODE_COMMIT","clusapi/CLUSTER_CHANGE_UPGRADE_NODE_POSTCOMMIT","clusapi/CLUSTER_CHANGE_UPGRADE_NODE_PREPARE","msclus/CLUSTER_CHANGE_NODE_UPGRADE_PHASE_V2","msclus/CLUSTER_CHANGE_UPGRADE_ALL","msclus/CLUSTER_CHANGE_UPGRADE_NODE_COMMIT","msclus/CLUSTER_CHANGE_UPGRADE_NODE_POSTCOMMIT","msclus/CLUSTER_CHANGE_UPGRADE_NODE_PREPARE","mscs.cluster_change_node_upgrade_phase_v2"]
 old-location: mscs\cluster_change_node_upgrade_phase_v2.htm
 tech.root: MsCS

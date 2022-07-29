@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupQueueDefaultCopyW
 title: SetupQueueDefaultCopyW function (setupapi.h)
-description: The SetupQueueDefaultCopy function adds a single file to a setup file queue for copying, using the default source media and destination as specified in an INF file.
+description: The SetupQueueDefaultCopy function adds a single file to a setup file queue for copying, using the default source media and destination as specified in an INF file. (Unicode)
 helpviewer_keywords: ["SetupQueueDefaultCopy","SetupQueueDefaultCopy function [Setup API]","SetupQueueDefaultCopyA","SetupQueueDefaultCopyW","_setupapi_setupqueuedefaultcopy","setup.setupqueuedefaultcopy","setupapi/SetupQueueDefaultCopy","setupapi/SetupQueueDefaultCopyA","setupapi/SetupQueueDefaultCopyW"]
 old-location: setup\setupqueuedefaultcopy.htm
 tech.root: setup

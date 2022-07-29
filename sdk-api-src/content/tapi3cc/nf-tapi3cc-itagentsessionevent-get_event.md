@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3cc.ITAgentSessionEvent.get_Event
 title: ITAgentSessionEvent::get_Event (tapi3cc.h)
-description: The get_Event method gets an AGENT_SESSION_EVENT descriptor of the event that occurred.
+description: The get_Event method gets an AGENT_SESSION_EVENT descriptor of the event that occurred. (ITAgentSessionEvent.get_Event)
 helpviewer_keywords: ["ITAgentSessionEvent interface [TAPI 2.2]","get_Event method","ITAgentSessionEvent.get_Event","ITAgentSessionEvent::get_Event","_tapi3_itagentsessionevent_get_event","get_Event","get_Event method [TAPI 2.2]","get_Event method [TAPI 2.2]","ITAgentSessionEvent interface","tapi3.itagentsessionevent_get_event","tapi3cc/ITAgentSessionEvent::get_Event"]
 old-location: tapi3\itagentsessionevent_get_event.htm
 tech.root: tapi3

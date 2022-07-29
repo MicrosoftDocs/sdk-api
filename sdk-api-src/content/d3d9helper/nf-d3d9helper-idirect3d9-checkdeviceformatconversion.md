@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3D9.CheckDeviceFormatConversion
 title: IDirect3D9::CheckDeviceFormatConversion (d3d9helper.h)
-description: Tests the device to see if it supports conversion from one display format to another.
+description: Tests the device to see if it supports conversion from one display format to another. (IDirect3D9.CheckDeviceFormatConversion)
 helpviewer_keywords: ["CheckDeviceFormatConversion","CheckDeviceFormatConversion method [Direct3D 9]","CheckDeviceFormatConversion method [Direct3D 9]","IDirect3D9 interface","IDirect3D9 interface [Direct3D 9]","CheckDeviceFormatConversion method","IDirect3D9.CheckDeviceFormatConversion","IDirect3D9::CheckDeviceFormatConversion","a6fe9dd6-8eae-cbfc-8047-efc7175e6688","d3d9helper/IDirect3D9::CheckDeviceFormatConversion","direct3d9.idirect3d9__checkdeviceformatconversion"]
 old-location: direct3d9\idirect3d9__checkdeviceformatconversion.htm
 tech.root: direct3d9

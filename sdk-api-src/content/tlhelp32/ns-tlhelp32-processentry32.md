@@ -1,7 +1,7 @@
 ---
 UID: NS:tlhelp32.tagPROCESSENTRY32
 title: PROCESSENTRY32 (tlhelp32.h)
-description: Describes an entry from a list of the processes residing in the system address space when a snapshot was taken.
+description: Describes an entry from a list of the processes residing in the system address space when a snapshot was taken. (PROCESSENTRY32W)
 helpviewer_keywords: ["*LPPROCESSENTRY32","*PPROCESSENTRY32","PPROCESSENTRY32","PPROCESSENTRY32 structure pointer [ToolHelp]","PROCESSENTRY32","PROCESSENTRY32 structure [ToolHelp]","PROCESSENTRY32W","_win32_processentry32_str","base.processentry32_str","tlhelp32/PPROCESSENTRY32","tlhelp32/PROCESSENTRY32","tlhelp32/PROCESSENTRY32W","toolhelp.processentry32_str"]
 old-location: toolhelp\processentry32_str.htm
 tech.root: ToolHelp

@@ -1,7 +1,7 @@
 ---
 UID: NF:aclapi.GetExplicitEntriesFromAclA
 title: GetExplicitEntriesFromAclA function (aclapi.h)
-description: Retrieves an array of structures that describe the access control entries (ACEs) in an access control list (ACL).
+description: Retrieves an array of structures that describe the access control entries (ACEs) in an access control list (ACL). (ANSI)
 helpviewer_keywords: ["GetExplicitEntriesFromAcl","GetExplicitEntriesFromAcl function [Security]","GetExplicitEntriesFromAclA","GetExplicitEntriesFromAclW","_win32_getexplicitentriesfromacl","aclapi/GetExplicitEntriesFromAcl","aclapi/GetExplicitEntriesFromAclA","aclapi/GetExplicitEntriesFromAclW","security.getexplicitentriesfromacl"]
 old-location: security\getexplicitentriesfromacl.htm
 tech.root: security

@@ -1,7 +1,7 @@
 ---
 UID: NS:objidlbase._COSERVERINFO
 title: COSERVERINFO (objidlbase.h)
-description: Identifies a remote computer resource to the activation functions.
+description: Identifies a remote computer resource to the activation functions. (COSERVERINFO)
 helpviewer_keywords: ["COSERVERINFO","COSERVERINFO structure [COM]","_COSERVERINFO","_com_COSERVERINFO","com.coserverinfo","objidlbase/COSERVERINFO"]
 old-location: com\coserverinfo.htm
 tech.root: com

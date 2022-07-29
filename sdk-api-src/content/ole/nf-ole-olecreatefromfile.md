@@ -1,7 +1,7 @@
 ---
 UID: NF:ole.OleCreateFromFile
 title: OleCreateFromFile function (ole.h)
-description: Creates an embedded object from the contents of a named file.
+description: Creates an embedded object from the contents of a named file. (OleCreateFromFile)
 helpviewer_keywords: ["OleCreateFromFile","OleCreateFromFile function [COM]","_ole_OleCreateFromFile","com.olecreatefromfile","ole/OleCreateFromFile"]
 old-location: com\olecreatefromfile.htm
 tech.root: com

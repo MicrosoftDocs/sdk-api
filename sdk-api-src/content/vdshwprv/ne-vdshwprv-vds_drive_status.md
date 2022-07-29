@@ -1,7 +1,7 @@
 ---
 UID: NE:vdshwprv._VDS_DRIVE_STATUS
 title: VDS_DRIVE_STATUS (vdshwprv.h)
-description: Defines the set of object status values for a drive.
+description: Defines the set of object status values for a drive. (VDS_DRIVE_STATUS)
 helpviewer_keywords: ["*PVDS_DRIVE_STATUS","VDS_DRIVE_STATUS","VDS_DRIVE_STATUS enumeration [VDS]","VDS_DRS_FAILED","VDS_DRS_NOT_READY","VDS_DRS_OFFLINE","VDS_DRS_ONLINE","VDS_DRS_REMOVED","VDS_DRS_UNKNOWN","base.vds_drive_status","vds/VDS_DRIVE_STATUS","vds/VDS_DRS_FAILED","vds/VDS_DRS_NOT_READY","vds/VDS_DRS_OFFLINE","vds/VDS_DRS_ONLINE","vds/VDS_DRS_REMOVED","vds/VDS_DRS_UNKNOWN","vdshwprv/VDS_DRIVE_STATUS","vdshwprv/VDS_DRS_FAILED","vdshwprv/VDS_DRS_NOT_READY","vdshwprv/VDS_DRS_OFFLINE","vdshwprv/VDS_DRS_ONLINE","vdshwprv/VDS_DRS_REMOVED","vdshwprv/VDS_DRS_UNKNOWN"]
 old-location: base\vds_drive_status.htm
 tech.root: base

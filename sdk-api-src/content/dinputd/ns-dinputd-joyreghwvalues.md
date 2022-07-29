@@ -1,7 +1,7 @@
 ---
 UID: NS:dinputd.joyreghwvalues_tag
 title: JOYREGHWVALUES (dinputd.h)
-description: The JOYREGHWVALUES structure contains the range of values returned by the hardware (filled in by calibration).
+description: The JOYREGHWVALUES structure contains the range of values returned by the hardware (filled in by calibration). (JOYREGHWVALUES)
 helpviewer_keywords: ["*LPJOYREGHWVALUES","FAR *LPJOYREGHWVALUES","FAR *LPJOYREGHWVALUES structure [Human Input Devices]","JOYREGHWVALUES","JOYREGHWVALUES structure [Human Input Devices]","di_ref_bd51a1ee-82e2-417f-81a1-9732931706a3.xml","hid.joyreghwvalues","mmddk/FAR *LPJOYREGHWVALUES","mmddk/JOYREGHWVALUES"]
 old-location: hid\joyreghwvalues.htm
 tech.root: hid

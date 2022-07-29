@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMGlyphsEditor::ApplyEdits
 
-
 ## -description
 
 Performs cross-property validation and then copies the changes to the parent <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs">IXpsOMGlyphs</a> interface.

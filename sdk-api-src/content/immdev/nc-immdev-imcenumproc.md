@@ -1,7 +1,7 @@
 ---
 UID: NC:immdev.IMCENUMPROC
 title: IMCENUMPROC (immdev.h)
-description: An application-defined callback function that processes input contexts provided by the ImmEnumInputContext function.
+description: An application-defined callback function that processes input contexts provided by the ImmEnumInputContext function.E
 helpviewer_keywords: ["EnumInputContext","EnumInputContext callback function [Internationalization for Windows Applications]","IMCENUMPROC","IMCENUMPROC callback","_win32_EnumInputContext","imm/EnumInputContext","intl.enuminputcontext"]
 old-location: intl\enuminputcontext.htm
 tech.root: Intl

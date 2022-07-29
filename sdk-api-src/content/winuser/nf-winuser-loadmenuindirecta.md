@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.LoadMenuIndirectA
 title: LoadMenuIndirectA function (winuser.h)
-description: Loads the specified menu template in memory.
+description: Loads the specified menu template in memory. (ANSI)
 helpviewer_keywords: ["LoadMenuIndirect","LoadMenuIndirect function [Menus and Other Resources]","LoadMenuIndirectA","LoadMenuIndirectW","_win32_LoadMenuIndirect","_win32_loadmenuindirect_cpp","menurc.loadmenuindirect","winui._win32_loadmenuindirect","winuser/LoadMenuIndirect","winuser/LoadMenuIndirectA","winuser/LoadMenuIndirectW"]
 old-location: menurc\loadmenuindirect.htm
 tech.root: menurc

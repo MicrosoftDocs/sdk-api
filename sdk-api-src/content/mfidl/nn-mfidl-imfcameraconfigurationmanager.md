@@ -39,6 +39,7 @@ helpviewer_keywords:
 ## -description
 
 ## -remarks
+An instance of the **IMFCameraConfigurationManager** interface can be created by calling the COM function [CoCreateInstance](../combaseapi/nf-combaseapi-cocreateinstance.md), and passing the **CLSID_CameraConfigurationManager** as the CLSID parameter.
 
 ## -see-also
 

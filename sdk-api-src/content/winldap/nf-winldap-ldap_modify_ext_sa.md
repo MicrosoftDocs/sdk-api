@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_modify_ext_sA
 title: ldap_modify_ext_sA function (winldap.h)
-description: The ldap_modify_ext_s function changes an existing entry.
+description: The ldap_modify_ext_s function changes an existing entry. (ldap_modify_ext_sA)
 helpviewer_keywords: ["_ldap_ldap_modify_ext_s","ldap.ldap__modify__ext__s","ldap.ldap_modify_ext_s","ldap_modify_ext_s","ldap_modify_ext_s function [LDAP]","ldap_modify_ext_sA","ldap_modify_ext_sW","winldap/ldap_modify_ext_s","winldap/ldap_modify_ext_sA","winldap/ldap_modify_ext_sW"]
 old-location: ldap\ldap_modify_ext_s.htm
 tech.root: ldap

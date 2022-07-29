@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IMDSPRevoked.GetRevocationURL
 title: IMDSPRevoked::GetRevocationURL (mswmdm.h)
-description: The GetRevocationURL method retrieves the URL from which updated components can be downloaded.
+description: The GetRevocationURL method retrieves the URL from which updated components can be downloaded. (IMDSPRevoked.GetRevocationURL)
 helpviewer_keywords: ["GetRevocationURL","GetRevocationURL method [windows Media Device Manager]","GetRevocationURL method [windows Media Device Manager]","IMDSPRevoked interface","IMDSPRevoked interface [windows Media Device Manager]","GetRevocationURL method","IMDSPRevoked.GetRevocationURL","IMDSPRevoked::GetRevocationURL","IMDSPRevokedGetRevocationURL","mswmdm/IMDSPRevoked::GetRevocationURL","wmdm.imdsprevoked_getrevocationurl"]
 old-location: wmdm\imdsprevoked_getrevocationurl.htm
 tech.root: WMDM

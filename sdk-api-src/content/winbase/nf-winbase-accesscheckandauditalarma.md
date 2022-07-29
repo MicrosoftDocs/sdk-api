@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.AccessCheckAndAuditAlarmA
 title: AccessCheckAndAuditAlarmA function (winbase.h)
-description: Determines whether a security descriptor grants a specified set of access rights to the client being impersonated by the calling thread.
+description: Determines whether a security descriptor grants a specified set of access rights to the client being impersonated by the calling thread. (AccessCheckAndAuditAlarmA)
 helpviewer_keywords: ["AccessCheckAndAuditAlarm","AccessCheckAndAuditAlarm function [Security]","AccessCheckAndAuditAlarmA","AccessCheckAndAuditAlarmW","_win32_accesscheckandauditalarm","security.accesscheckandauditalarm","winbase/AccessCheckAndAuditAlarm","winbase/AccessCheckAndAuditAlarmA","winbase/AccessCheckAndAuditAlarmW"]
 old-location: security\accesscheckandauditalarm.htm
 tech.root: security

@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.OnlineClusterResource
 title: OnlineClusterResource function (clusapi.h)
-description: Brings an offline or failed resource online.
+description: Brings an offline or failed resource online. (OnlineClusterResource)
 helpviewer_keywords: ["OnlineClusterResource","OnlineClusterResource function [Failover Cluster]","PCLUSAPI_ONLINE_CLUSTER_RESOURCE","PCLUSAPI_ONLINE_CLUSTER_RESOURCE function [Failover Cluster]","_wolf_onlineclusterresource","clusapi/OnlineClusterResource","clusapi/PCLUSAPI_ONLINE_CLUSTER_RESOURCE","mscs.onlineclusterresource"]
 old-location: mscs\onlineclusterresource.htm
 tech.root: MsCS

@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptSignHashW
 title: CryptSignHashW function (wincrypt.h)
-description: Signs data.
+description: Signs data. (CryptSignHashW)
 helpviewer_keywords: ["CRYPT_NOHASHOID","CRYPT_TYPE2_FORMAT","CRYPT_X931_FORMAT","CryptSignHash","CryptSignHash function [Security]","CryptSignHashA","CryptSignHashW","_crypto2_cryptsignhash","security.cryptsignhash","wincrypt/CryptSignHash","wincrypt/CryptSignHashA","wincrypt/CryptSignHashW"]
 old-location: security\cryptsignhash.htm
 tech.root: security

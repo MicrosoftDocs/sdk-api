@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IEnumVdsObject.Skip
 title: IEnumVdsObject::Skip (vds.h)
-description: Skips a specified number of objects in the enumeration.
+description: Skips a specified number of objects in the enumeration. (IEnumVdsObject.Skip)
 helpviewer_keywords: ["IEnumVdsObject interface [VDS]","Skip method","IEnumVdsObject.Skip","IEnumVdsObject::Skip","Skip","Skip method [VDS]","Skip method [VDS]","IEnumVdsObject interface","base.ienumvdsobject_skip","vds/IEnumVdsObject::Skip","vdshwprv/IEnumVdsObject::Skip"]
 old-location: base\ienumvdsobject_skip.htm
 tech.root: base

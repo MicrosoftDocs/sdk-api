@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.ISurrogate.FreeSurrogate
 title: ISurrogate::FreeSurrogate (objidlbase.h)
-description: Unloads a DLL server.
+description: Unloads a DLL server. (ISurrogate.FreeSurrogate)
 helpviewer_keywords: ["FreeSurrogate","FreeSurrogate method [COM]","FreeSurrogate method [COM]","ISurrogate interface","ISurrogate interface [COM]","FreeSurrogate method","ISurrogate.FreeSurrogate","ISurrogate::FreeSurrogate","_com_isurrogate_freesurrogate","com.isurrogate_freesurrogate","objidlbase/ISurrogate::FreeSurrogate"]
 old-location: com\isurrogate_freesurrogate.htm
 tech.root: com

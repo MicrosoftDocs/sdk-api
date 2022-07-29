@@ -1,7 +1,7 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.put_MaxIdleTime
 title: IADsTSUserEx::put_MaxIdleTime (tsuserex.h)
-description: The maximum amount of time that the Remote Desktop Services session can remain idle. After the specified number of minutes has elapsed, the session can be disconnected or terminated.
+description: The maximum amount of time that the Remote Desktop Services session can remain idle. After the specified number of minutes has elapsed, the session can be disconnected or terminated. (Put)
 helpviewer_keywords: ["IADsTSUserEx interface [Remote Desktop Services]","MaxIdleTime property","IADsTSUserEx.MaxIdleTime","IADsTSUserEx.put_MaxIdleTime","IADsTSUserEx::MaxIdleTime","IADsTSUserEx::get_MaxIdleTime","IADsTSUserEx::put_MaxIdleTime","MaxIdleTime property [Remote Desktop Services]","MaxIdleTime property [Remote Desktop Services]","IADsTSUserEx interface","put_MaxIdleTime","termserv.iadstsuserex_maxidletime","tsuserex/IADsTSUserEx::MaxIdleTime","tsuserex/IADsTSUserEx::get_MaxIdleTime","tsuserex/IADsTSUserEx::put_MaxIdleTime"]
 old-location: termserv\iadstsuserex_maxidletime.htm
 tech.root: TermServ

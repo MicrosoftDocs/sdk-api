@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.CreateOffscreenPlainSurface
 title: IDirect3DDevice9::CreateOffscreenPlainSurface (d3d9.h)
-description: Create an off-screen surface.
+description: Create an off-screen surface. (IDirect3DDevice9.CreateOffscreenPlainSurface)
 helpviewer_keywords: ["CreateOffscreenPlainSurface","CreateOffscreenPlainSurface method [Direct3D 9]","CreateOffscreenPlainSurface method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","CreateOffscreenPlainSurface method","IDirect3DDevice9.CreateOffscreenPlainSurface","IDirect3DDevice9::CreateOffscreenPlainSurface","d3d9helper/IDirect3DDevice9::CreateOffscreenPlainSurface","direct3d9.idirect3ddevice9__createoffscreenplainsurface","f714d72c-a698-e4b2-14cb-1951e38364a8"]
 old-location: direct3d9\idirect3ddevice9__createoffscreenplainsurface.htm
 tech.root: direct3d9

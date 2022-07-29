@@ -4,7 +4,7 @@ tech.root: base
 title: CallNamedPipeW
 ms.date: 04/19/2021
 targetos: Windows
-description: Connects to a message-type pipe (and waits if an instance of the pipe is not available), writes to and reads from the pipe, and then closes the pipe.
+description: Connects to a message-type pipe (and waits if an instance of the pipe is not available), writes to and reads from the pipe, and then closes the pipe. (CallNamedPipeW)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

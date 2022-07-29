@@ -4,7 +4,7 @@ tech.root: menurc
 title: FindResourceExW
 ms.date: 04/19/2021
 targetos: Windows
-description: Determines the location of the resource with the specified type, name, and language in the specified module.
+description: Determines the location of the resource with the specified type, name, and language in the specified module. (FindResourceExW)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

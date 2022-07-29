@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_SubItemHitTestEx
 title: ListView_SubItemHitTestEx macro (commctrl.h)
-description: Determines which list-view item or subitem is located at a given position. You can use this macro or send the LVM_SUBITEMHITTEST message explicitly.
+description: Determines which list-view item or subitem is located at a given position. You can use this macro or send the LVM_SUBITEMHITTEST message explicitly. (ListView_SubItemHitTestEx)
 helpviewer_keywords: ["ListView_SubItemHitTestEx","ListView_SubItemHitTestEx macro [Windows Controls]","_shell_ListView_SubItemHitTestEx","_shell_ListView_SubItemHitTestEx_cpp","commctrl/ListView_SubItemHitTestEx","controls.ListView_SubItemHitTestEx","controls._shell_ListView_SubItemHitTestEx"]
 old-location: controls\ListView_SubItemHitTestEx.htm
 tech.root: Controls

@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawRectangle(constPen,constRectF&)
 title: Graphics::DrawRectangle
-description: The Graphics::DrawRectangle method draws a rectangle.
+description: The Graphics::DrawRectangle method draws a rectangle. (overload 4/4)
 tech.root: gdiplus
 helpviewer_keywords: ["Graphics::DrawRectangle"]
 ms.assetid: cf3f26ad-2aec-4986-a884-95763e63013e

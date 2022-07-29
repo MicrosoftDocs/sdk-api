@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.Reset
 title: IDirect3DDevice9::Reset (d3d9helper.h)
-description: Resets the type, size, and format of the swap chain.
+description: Resets the type, size, and format of the swap chain. (IDirect3DDevice9.Reset)
 helpviewer_keywords: ["IDirect3DDevice9 interface [Direct3D 9]","Reset method","IDirect3DDevice9.Reset","IDirect3DDevice9::Reset","Reset","Reset method [Direct3D 9]","Reset method [Direct3D 9]","IDirect3DDevice9 interface","b7f53ca7-1a26-5bf8-890b-5a4f26b3c249","d3d9helper/IDirect3DDevice9::Reset","direct3d9.idirect3ddevice9__reset"]
 old-location: direct3d9\idirect3ddevice9__reset.htm
 tech.root: direct3d9

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.UpdateTexture
 title: IDirect3DDevice9::UpdateTexture (d3d9helper.h)
-description: Updates the dirty portions of a texture.
+description: Updates the dirty portions of a texture. (IDirect3DDevice9.UpdateTexture)
 helpviewer_keywords: ["29cd384a-27b9-87ac-3d77-7fb734d0afbe","IDirect3DDevice9 interface [Direct3D 9]","UpdateTexture method","IDirect3DDevice9.UpdateTexture","IDirect3DDevice9::UpdateTexture","UpdateTexture","UpdateTexture method [Direct3D 9]","UpdateTexture method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::UpdateTexture","direct3d9.idirect3ddevice9__updatetexture"]
 old-location: direct3d9\idirect3ddevice9__updatetexture.htm
 tech.root: direct3d9

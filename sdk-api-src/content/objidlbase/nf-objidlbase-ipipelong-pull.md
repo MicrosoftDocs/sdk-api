@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.IPipeLong.Pull
 title: IPipeLong::Pull (objidlbase.h)
-description: Retrieves data of the long integer type from the pipe source.
+description: Retrieves data of the long integer type from the pipe source. (IPipeLong.Pull)
 helpviewer_keywords: ["IPipeLong interface [COM]","Pull method","IPipeLong.Pull","IPipeLong::Pull","Pull","Pull method [COM]","Pull method [COM]","IPipeLong interface","_com_ipipelong_pull","com.ipipelong_pull","objidlbase/IPipeLong::Pull"]
 old-location: com\ipipelong_pull.htm
 tech.root: com

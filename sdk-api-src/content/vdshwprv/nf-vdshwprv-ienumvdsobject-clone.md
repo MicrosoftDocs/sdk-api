@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IEnumVdsObject.Clone
 title: IEnumVdsObject::Clone (vdshwprv.h)
-description: Creates an enumeration with the same state as the current enumeration.
+description: Creates an enumeration with the same state as the current enumeration. (IEnumVdsObject.Clone)
 helpviewer_keywords: ["Clone","Clone method [VDS]","Clone method [VDS]","IEnumVdsObject interface","IEnumVdsObject interface [VDS]","Clone method","IEnumVdsObject.Clone","IEnumVdsObject::Clone","base.ienumvdsobject_clone","vds/IEnumVdsObject::Clone","vdshwprv/IEnumVdsObject::Clone"]
 old-location: base\ienumvdsobject_clone.htm
 tech.root: base

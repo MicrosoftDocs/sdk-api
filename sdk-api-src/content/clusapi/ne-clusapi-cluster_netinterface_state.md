@@ -1,7 +1,7 @@
 ---
 UID: NE:clusapi.CLUSTER_NETINTERFACE_STATE
 title: CLUSTER_NETINTERFACE_STATE (clusapi.h)
-description: Enumerates the possible values of the state of a network interface.
+description: Enumerates the possible values of the state of a network interface. (CLUSTER_NETINTERFACE_STATE)
 helpviewer_keywords: ["CLUSTER_NETINTERFACE_STATE","CLUSTER_NETINTERFACE_STATE enumeration [Failover Cluster]","ClusterNetInterfaceFailed","ClusterNetInterfaceStateUnknown","ClusterNetInterfaceUnavailable","ClusterNetInterfaceUnreachable","ClusterNetInterfaceUp","_CLUSTER_NETINTERFACE_STATE","_CLUSTER_NETINTERFACE_STATE enumeration [Failover Cluster]","clusapi/CLUSTER_NETINTERFACE_STATE","clusapi/ClusterNetInterfaceFailed","clusapi/ClusterNetInterfaceStateUnknown","clusapi/ClusterNetInterfaceUnavailable","clusapi/ClusterNetInterfaceUnreachable","clusapi/ClusterNetInterfaceUp","clusapi/_CLUSTER_NETINTERFACE_STATE","msclus/CLUSTER_NETINTERFACE_STATE","msclus/ClusterNetInterfaceFailed","msclus/ClusterNetInterfaceStateUnknown","msclus/ClusterNetInterfaceUnavailable","msclus/ClusterNetInterfaceUnreachable","msclus/ClusterNetInterfaceUp","msclus/_CLUSTER_NETINTERFACE_STATE","mscs.cluster_netinterface_state"]
 old-location: mscs\cluster_netinterface_state.htm
 tech.root: MsCS

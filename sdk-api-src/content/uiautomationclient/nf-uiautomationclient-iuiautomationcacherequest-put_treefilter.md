@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationCacheRequest.put_TreeFilter
 title: IUIAutomationCacheRequest::put_TreeFilter (uiautomationclient.h)
-description: Specifies the view of the UI Automation element tree that is used when caching.
+description: Specifies the view of the UI Automation element tree that is used when caching. (Put)
 helpviewer_keywords: ["IUIAutomationCacheRequest interface [Windows Accessibility]","TreeFilter property","IUIAutomationCacheRequest.TreeFilter","IUIAutomationCacheRequest.put_TreeFilter","IUIAutomationCacheRequest::TreeFilter","IUIAutomationCacheRequest::get_TreeFilter","IUIAutomationCacheRequest::put_TreeFilter","TreeFilter property [Windows Accessibility]","TreeFilter property [Windows Accessibility]","IUIAutomationCacheRequest interface","put_TreeFilter","uiauto.uiauto_IUIAutomationCacheRequest_TreeFilter","uiauto_IUIAutomationCacheRequest_TreeFilter","uiautomationclient/IUIAutomationCacheRequest::TreeFilter","uiautomationclient/IUIAutomationCacheRequest::get_TreeFilter","uiautomationclient/IUIAutomationCacheRequest::put_TreeFilter","winauto.uiauto_IUIAutomationCacheRequest_TreeFilter"]
 old-location: winauto\uiauto_IUIAutomationCacheRequest_TreeFilter.htm
 tech.root: WinAuto

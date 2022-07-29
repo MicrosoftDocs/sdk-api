@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymFindDebugInfoFile
 title: SymFindDebugInfoFile function (dbghelp.h)
-description: Locates a .dbg file in the process search path.
+description: Locates a .dbg file in the process search path. (SymFindDebugInfoFileW)
 helpviewer_keywords: ["SymFindDebugInfoFile","SymFindDebugInfoFile function","SymFindDebugInfoFileW","base.symfinddebuginfofile","dbghelp/SymFindDebugInfoFile","dbghelp/SymFindDebugInfoFileW"]
 old-location: base\symfinddebuginfofile.htm
 tech.root: Debug

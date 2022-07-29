@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IRepetitionPattern.get_Duration
 title: IRepetitionPattern::get_Duration (taskschd.h)
-description: Gets or sets how long the pattern is repeated.
+description: Gets or sets how long the pattern is repeated. (Get)
 helpviewer_keywords: ["Duration property [Task Scheduler]","Duration property [Task Scheduler]","IRepetitionPattern interface","IRepetitionPattern interface [Task Scheduler]","Duration property","IRepetitionPattern.Duration","IRepetitionPattern.get_Duration","IRepetitionPattern::Duration","IRepetitionPattern::get_Duration","IRepetitionPattern::put_Duration","get_Duration","taskschd.irepetitionpattern_duration","taskschd/IRepetitionPattern::Duration","taskschd/IRepetitionPattern::get_Duration","taskschd/IRepetitionPattern::put_Duration"]
 old-location: taskschd\irepetitionpattern_duration.htm
 tech.root: taskschd

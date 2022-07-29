@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkDisp
 title: IInkDisp (msinkaut.h)
-description: .
+description: . (IInkDisp)
 helpviewer_keywords: ["IInkDisp","IInkDisp interface [Tablet PC]","IInkDisp interface [Tablet PC]","described","msinkaut/IInkDisp","tablet.iinkdisp"]
 old-location: tablet\iinkdisp.htm
 tech.root: tablet

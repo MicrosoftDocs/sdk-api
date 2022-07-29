@@ -1,7 +1,7 @@
 ---
 UID: NF:gamingtcui.ShowTitleAchievementsUI
 title: ShowTitleAchievementsUI function (gamingtcui.h)
-description: Do not use. This API is only supported for Xbox developers.
+description: Do not use. This API is only supported for Xbox developers. (ShowTitleAchievementsUI)
 helpviewer_keywords: ["ShowTitleAchievementsUI","ShowTitleAchievementsUI function","gamingtcui/ShowTitleAchievementsUI","tcui.showtitleachievementsui"]
 old-location: tcui\showtitleachievementsui.htm
 tech.root: tcui

@@ -1,7 +1,7 @@
 ---
 UID: NS:imm.tagCANDIDATELIST
 title: CANDIDATELIST (imm.h)
-description: Contains information about a candidate list.
+description: Contains information about a candidate list. (CANDIDATELIST)
 helpviewer_keywords: ["*LPCANDIDATELIST","*NPCANDIDATELIST","*PCANDIDATELIST","CANDIDATELIST","CANDIDATELIST structure [Internationalization for Windows Applications]","PCANDIDATELIST","PCANDIDATELIST structure pointer [Internationalization for Windows Applications]","_win32_CANDIDATELIST_str","imm/CANDIDATELIST","imm/PCANDIDATELIST","intl.candidatelist","tagCANDIDATELIST"]
 old-location: intl\candidatelist.htm
 tech.root: Intl

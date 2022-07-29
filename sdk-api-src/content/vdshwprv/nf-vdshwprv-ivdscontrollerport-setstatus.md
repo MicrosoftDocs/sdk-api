@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsControllerPort.SetStatus
 title: IVdsControllerPort::SetStatus (vdshwprv.h)
-description: Sets the status of a controller port to the specified value.
+description: Sets the status of a controller port to the specified value. (IVdsControllerPort.SetStatus)
 helpviewer_keywords: ["IVdsControllerPort interface [VDS]","SetStatus method","IVdsControllerPort.SetStatus","IVdsControllerPort::SetStatus","SetStatus","SetStatus method [VDS]","SetStatus method [VDS]","IVdsControllerPort interface","base.ivdscontrollerport_setstatus","vds/IVdsControllerPort::SetStatus","vdshwprv/IVdsControllerPort::SetStatus"]
 old-location: base\ivdscontrollerport_setstatus.htm
 tech.root: base

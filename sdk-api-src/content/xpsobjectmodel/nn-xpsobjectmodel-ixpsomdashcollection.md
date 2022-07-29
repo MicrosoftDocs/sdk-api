@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMDashCollection interface
 
-
 ## -description
 
 A collection of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structures.

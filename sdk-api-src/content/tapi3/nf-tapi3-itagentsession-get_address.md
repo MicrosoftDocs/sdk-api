@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3.ITAgentSession.get_Address
 title: ITAgentSession::get_Address (tapi3.h)
-description: The get_Address method gets a pointer to the ITAddress interface associated with this session.
+description: The get_Address method gets a pointer to the ITAddress interface associated with this session. (ITAgentSession.get_Address)
 helpviewer_keywords: ["ITAgentSession interface [TAPI 2.2]","get_Address method","ITAgentSession.get_Address","ITAgentSession::get_Address","_tapi3_itagentsession_get_address","get_Address","get_Address method [TAPI 2.2]","get_Address method [TAPI 2.2]","ITAgentSession interface","tapi3.itagentsession_get_address","tapi3cc/ITAgentSession::get_Address"]
 old-location: tapi3\itagentsession_get_address.htm
 tech.root: tapi3

@@ -1,7 +1,7 @@
 ---
 UID: NF:vsbackup.VssFreeSnapshotPropertiesInternal
 title: VssFreeSnapshotPropertiesInternal function (vsbackup.h)
-description: The VssFreeSnapshotProperties function is used to free the contents of a VSS_SNAPSHOT_PROP structure as part of managing its life cycle.
+description: The VssFreeSnapshotProperties function is used to free the contents of a VSS_SNAPSHOT_PROP structure as part of managing its life cycle. (VssFreeSnapshotPropertiesInternal)
 helpviewer_keywords: ["VssFreeSnapshotProperties","VssFreeSnapshotProperties function [VSS]","VssFreeSnapshotPropertiesInternal","_win32_vssfreesnapshotproperties","base.vssfreesnapshotproperties","vsbackup/VssFreeSnapshotProperties","vsbackup/VssFreeSnapshotPropertiesInternal"]
 old-location: base\vssfreesnapshotproperties.htm
 tech.root: base

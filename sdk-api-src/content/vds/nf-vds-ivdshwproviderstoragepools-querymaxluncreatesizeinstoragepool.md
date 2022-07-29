@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsHwProviderStoragePools.QueryMaxLunCreateSizeInStoragePool
 title: IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool (vds.h)
-description: Returns the maximum size of the LUN that can be created in the storage pool based on the specified LUN type and hints.
+description: Returns the maximum size of the LUN that can be created in the storage pool based on the specified LUN type and hints. (IVdsHwProviderStoragePools.QueryMaxLunCreateSizeInStoragePool)
 helpviewer_keywords: ["IVdsHwProviderStoragePools interface","QueryMaxLunCreateSizeInStoragePool method","IVdsHwProviderStoragePools.QueryMaxLunCreateSizeInStoragePool","IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool","QueryMaxLunCreateSizeInStoragePool","QueryMaxLunCreateSizeInStoragePool method","QueryMaxLunCreateSizeInStoragePool method","IVdsHwProviderStoragePools interface","base.ivdshwproviderstoragepools_querymaxluncreatesizeinstoragepool","vds/IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool","vdshwprv/IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool"]
 old-location: base\ivdshwproviderstoragepools_querymaxluncreatesizeinstoragepool.htm
 tech.root: base

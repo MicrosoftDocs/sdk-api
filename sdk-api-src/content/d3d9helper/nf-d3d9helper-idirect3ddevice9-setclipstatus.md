@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetClipStatus
 title: IDirect3DDevice9::SetClipStatus (d3d9helper.h)
-description: Sets the clip status.
+description: Sets the clip status. (IDirect3DDevice9.SetClipStatus)
 helpviewer_keywords: ["7c296c17-f98d-8458-efa7-95bbfde39651","IDirect3DDevice9 interface [Direct3D 9]","SetClipStatus method","IDirect3DDevice9.SetClipStatus","IDirect3DDevice9::SetClipStatus","SetClipStatus","SetClipStatus method [Direct3D 9]","SetClipStatus method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::SetClipStatus","direct3d9.idirect3ddevice9__setclipstatus"]
 old-location: direct3d9\idirect3ddevice9__setclipstatus.htm
 tech.root: direct3d9

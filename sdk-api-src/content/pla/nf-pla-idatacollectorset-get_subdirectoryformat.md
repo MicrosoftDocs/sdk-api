@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_SubdirectoryFormat
 title: IDataCollectorSet::get_SubdirectoryFormat (pla.h)
-description: Retrieves or sets flags that describe how to decorate the subdirectory name.
+description: Retrieves or sets flags that describe how to decorate the subdirectory name. (Get)
 helpviewer_keywords: ["IDataCollectorSet interface [PLA]","SubdirectoryFormat property","IDataCollectorSet.SubdirectoryFormat","IDataCollectorSet.get_SubdirectoryFormat","IDataCollectorSet::SubdirectoryFormat","IDataCollectorSet::get_SubdirectoryFormat","IDataCollectorSet::put_SubdirectoryFormat","SubdirectoryFormat property [PLA]","SubdirectoryFormat property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_subdirectoryformat","get_SubdirectoryFormat","pla.idatacollectorset_get_subdirectoryformat","pla/IDataCollectorSet::SubdirectoryFormat","pla/IDataCollectorSet::get_SubdirectoryFormat","pla/IDataCollectorSet::put_SubdirectoryFormat"]
 old-location: pla\idatacollectorset_get_subdirectoryformat.htm
 tech.root: PLA

@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12shader.ID3D12FunctionReflection
 title: ID3D12FunctionReflection (d3d12shader.h)
-description: A function-reflection interface accesses function info.
+description: A function-reflection interface accesses function info. (ID3D12FunctionReflection)
 helpviewer_keywords: ["ID3D12FunctionReflection","ID3D12FunctionReflection interface","ID3D12FunctionReflection interface","described","d3d12shader/ID3D12FunctionReflection","direct3d12.id3d12functionreflection"]
 old-location: direct3d12\id3d12functionreflection.htm
 tech.root: direct3d12

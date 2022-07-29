@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiEnumComponentQualifiersW
 title: MsiEnumComponentQualifiersW function (msi.h)
-description: The MsiEnumComponentQualifiers function enumerates the advertised qualifiers for the given component. This function retrieves one qualifier each time it is called.
+description: The MsiEnumComponentQualifiers function enumerates the advertised qualifiers for the given component. This function retrieves one qualifier each time it is called. (Unicode)
 helpviewer_keywords: ["MsiEnumComponentQualifiers","MsiEnumComponentQualifiers function","MsiEnumComponentQualifiersA","MsiEnumComponentQualifiersW","_msi_msienumcomponentqualifiers","msi/MsiEnumComponentQualifiers","msi/MsiEnumComponentQualifiersA","msi/MsiEnumComponentQualifiersW","setup.msienumcomponentqualifiers"]
 old-location: setup\msienumcomponentqualifiers.htm
 tech.root: setup

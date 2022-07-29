@@ -64,7 +64,7 @@ Reserved.
 
 ### -field TimeDateStamp
 
-The ime and date the debugging information was created.
+The time and date the debugging information was created.
 
 ### -field MajorVersion
 

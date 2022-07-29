@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.IsCharAlphaA
 title: IsCharAlphaA function (winuser.h)
-description: Determines whether a character is an alphabetical character. This determination is based on the semantics of the language selected by the user during setup or through Control Panel.
+description: Determines whether a character is an alphabetical character. This determination is based on the semantics of the language selected by the user during setup or through Control Panel. (ANSI)
 helpviewer_keywords: ["IsCharAlpha","IsCharAlpha function [Menus and Other Resources]","IsCharAlphaA","IsCharAlphaW","_win32_IsCharAlpha","_win32_ischaralpha_cpp","menurc.ischaralpha","winui._win32_ischaralpha","winuser/IsCharAlpha","winuser/IsCharAlphaA","winuser/IsCharAlphaW"]
 old-location: menurc\ischaralpha.htm
 tech.root: menurc

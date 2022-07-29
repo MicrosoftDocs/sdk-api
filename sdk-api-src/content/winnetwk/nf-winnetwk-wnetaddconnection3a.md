@@ -1,7 +1,7 @@
 ---
 UID: NF:winnetwk.WNetAddConnection3A
 title: WNetAddConnection3A function (winnetwk.h)
-description: The WNetAddConnection3 function makes a connection to a network resource. The function can redirect a local device to the network resource.
+description: The WNetAddConnection3 function makes a connection to a network resource. The function can redirect a local device to the network resource. (ANSI)
 helpviewer_keywords: ["CONNECT_CMD_SAVECRED","CONNECT_COMMANDLINE","CONNECT_INTERACTIVE","CONNECT_PROMPT","CONNECT_REDIRECT","CONNECT_UPDATE_PROFILE","WNetAddConnection3","WNetAddConnection3 function [Windows Networking (WNet)]","WNetAddConnection3A","WNetAddConnection3W","_win32_wnetaddconnection3","dwType","lpLocalName","lpProvider","lpRemoteName","winnetwk/WNetAddConnection3","winnetwk/WNetAddConnection3A","winnetwk/WNetAddConnection3W","wnet.wnetaddconnection3"]
 old-location: wnet\wnetaddconnection3.htm
 tech.root: WNet

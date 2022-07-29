@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3.ITQueue.get_TotalCallsFlowedIn
 title: ITQueue::get_TotalCallsFlowedIn (tapi3.h)
-description: The get_TotalCallsFlowedIn method gets the total number of calls that flowed into this queue (passed down from another queue or ACD group) during the current measurement period.
+description: The get_TotalCallsFlowedIn method gets the total number of calls that flowed into this queue (passed down from another queue or ACD group) during the current measurement period. (ITQueue.get_TotalCallsFlowedIn)
 helpviewer_keywords: ["ITQueue interface [TAPI 2.2]","get_TotalCallsFlowedIn method","ITQueue.get_TotalCallsFlowedIn","ITQueue::get_TotalCallsFlowedIn","_tapi3_itqueue_get_totalcallsflowedin","get_TotalCallsFlowedIn","get_TotalCallsFlowedIn method [TAPI 2.2]","get_TotalCallsFlowedIn method [TAPI 2.2]","ITQueue interface","tapi3.itqueue_get_totalcallsflowedin","tapi3cc/ITQueue::get_TotalCallsFlowedIn"]
 old-location: tapi3\itqueue_get_totalcallsflowedin.htm
 tech.root: tapi3

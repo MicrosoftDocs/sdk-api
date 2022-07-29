@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcProtseqVectorFree
 title: RpcProtseqVectorFree function (rpcdce.h)
-description: The RpcProtseqVectorFree function frees the protocol sequences contained in the vector and the vector itself.
+description: The RpcProtseqVectorFree function frees the protocol sequences contained in the vector and the vector itself. (RpcProtseqVectorFreeW)
 helpviewer_keywords: ["RpcProtseqVectorFree","RpcProtseqVectorFree function [RPC]","RpcProtseqVectorFreeA","RpcProtseqVectorFreeW","_rpc_rpcprotseqvectorfree","rpc.rpcprotseqvectorfree","rpcdce/RpcProtseqVectorFree","rpcdce/RpcProtseqVectorFreeA","rpcdce/RpcProtseqVectorFreeW"]
 old-location: rpc\rpcprotseqvectorfree.htm
 tech.root: Rpc

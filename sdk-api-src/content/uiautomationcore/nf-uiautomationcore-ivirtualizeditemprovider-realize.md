@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IVirtualizedItemProvider.Realize
 title: IVirtualizedItemProvider::Realize (uiautomationcore.h)
-description: Makes the virtual item fully accessible as a UI Automation element.
+description: Makes the virtual item fully accessible as a UI Automation element. (IVirtualizedItemProvider.Realize)
 helpviewer_keywords: ["IVirtualizedItemProvider interface [Windows Accessibility]","Realize method","IVirtualizedItemProvider.Realize","IVirtualizedItemProvider::Realize","Realize","Realize method [Windows Accessibility]","Realize method [Windows Accessibility]","IVirtualizedItemProvider interface","uiauto.uiauto_IVirtualizedItemProvider_Realize","uiauto_IVirtualizedItemProvider_Realize","uiautomationcore/IVirtualizedItemProvider::Realize","winauto.uiauto_IVirtualizedItemProvider_Realize"]
 old-location: winauto\uiauto_IVirtualizedItemProvider_Realize.htm
 tech.root: WinAuto

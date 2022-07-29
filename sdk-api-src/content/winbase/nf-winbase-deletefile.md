@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.DeleteFile
 title: DeleteFile function (winbase.h)
-description: Deletes an existing file.
+description: Deletes an existing file. (DeleteFileW)
 helpviewer_keywords: ["DeleteFile","DeleteFile function [Files]","DeleteFileA","DeleteFileW","_win32_deletefile","base.deletefile","fileapi/DeleteFile","fileapi/DeleteFileA","fileapi/DeleteFileW","fs.deletefile","winbase/DeleteFile","winbase/DeleteFileA","winbase/DeleteFileW"]
 old-location: fs\deletefile.htm
 tech.root: fs

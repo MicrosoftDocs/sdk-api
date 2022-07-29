@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.ICaptureGraphBuilder
 title: ICaptureGraphBuilder (strmif.h)
-description: Note  This interface has been deprecated.
+description: Note  This interface has been deprecated. (ICaptureGraphBuilder)
 helpviewer_keywords: ["ICaptureGraphBuilder","ICaptureGraphBuilder interface [DirectShow]","ICaptureGraphBuilder interface [DirectShow]","described","ICaptureGraphBuilderInterface","dshow.icapturegraphbuilder","strmif/ICaptureGraphBuilder"]
 old-location: dshow\icapturegraphbuilder.htm
 tech.root: dshow

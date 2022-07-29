@@ -1,7 +1,7 @@
 ---
 UID: NN:vdshwprv.IVdsLun2
 title: IVdsLun2 (vdshwprv.h)
-description: Provides methods for applying and querying logical unit number (LUN) hints.
+description: Provides methods for applying and querying logical unit number (LUN) hints. (IVdsLun2)
 helpviewer_keywords: ["IVdsLun2","IVdsLun2 interface","IVdsLun2 interface","described","base.ivdslun2","vds/IVdsLun2","vdshwprv/IVdsLun2"]
 old-location: base\ivdslun2.htm
 tech.root: base

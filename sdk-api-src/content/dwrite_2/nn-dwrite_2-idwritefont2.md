@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_2.IDWriteFont2
 title: IDWriteFont2 (dwrite_2.h)
-description: Represents a physical font in a font collection.
+description: Represents a physical font in a font collection. (IDWriteFont2)
 helpviewer_keywords: ["IDWriteFont2","IDWriteFont2 interface [Direct Write]","IDWriteFont2 interface [Direct Write]","described","directwrite.idwritefont2","dwrite_2/IDWriteFont2"]
 old-location: directwrite\idwritefont2.htm
 tech.root: DirectWrite

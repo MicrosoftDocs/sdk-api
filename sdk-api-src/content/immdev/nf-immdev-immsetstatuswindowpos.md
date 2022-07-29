@@ -1,7 +1,7 @@
 ---
 UID: NF:immdev.ImmSetStatusWindowPos
 title: ImmSetStatusWindowPos function (immdev.h)
-description: Sets the position of the status window.
+description: Sets the position of the status window. (ImmSetStatusWindowPos)
 helpviewer_keywords: ["ImmSetStatusWindowPos","ImmSetStatusWindowPos function [Internationalization for Windows Applications]","_win32_ImmSetStatusWindowPos","imm/ImmSetStatusWindowPos","intl.immsetstatuswindowpos"]
 old-location: intl\immsetstatuswindowpos.htm
 tech.root: Intl

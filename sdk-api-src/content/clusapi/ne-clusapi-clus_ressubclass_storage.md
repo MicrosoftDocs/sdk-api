@@ -1,7 +1,7 @@
 ---
 UID: NE:clusapi.CLUS_RESSUBCLASS_STORAGE
 title: CLUS_RESSUBCLASS_STORAGE (clusapi.h)
-description: Identifies a resource subclass that manages a shared bus.
+description: Identifies a resource subclass that manages a shared bus. (CLUS_RESSUBCLASS_STORAGE)
 helpviewer_keywords: ["CLUS_RESSUBCLASS_STORAGE","CLUS_RESSUBCLASS_STORAGE enumeration [Failover Cluster]","CLUS_RESSUBCLASS_STORAGE_DISK","CLUS_RESSUBCLASS_STORAGE_REPLICATION","CLUS_RESSUBCLASS_STORAGE_SHARED_BUS","clusapi/CLUS_RESSUBCLASS_STORAGE","clusapi/CLUS_RESSUBCLASS_STORAGE_DISK","clusapi/CLUS_RESSUBCLASS_STORAGE_REPLICATION","clusapi/CLUS_RESSUBCLASS_STORAGE_SHARED_BUS","msclus/CLUS_RESSUBCLASS_STORAGE","msclus/CLUS_RESSUBCLASS_STORAGE_DISK","msclus/CLUS_RESSUBCLASS_STORAGE_REPLICATION","msclus/CLUS_RESSUBCLASS_STORAGE_SHARED_BUS","mscs.clus_ressubclass_storage"]
 old-location: mscs\clus_ressubclass_storage.htm
 tech.root: MsCS

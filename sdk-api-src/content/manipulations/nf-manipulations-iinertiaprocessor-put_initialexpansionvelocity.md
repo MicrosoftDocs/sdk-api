@@ -1,7 +1,7 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_InitialExpansionVelocity
 title: IInertiaProcessor::put_InitialExpansionVelocity (manipulations.h)
-description: The InitialExpansionVelocity property specifies the rate of radius expansion for a target when the target was affected by inertia.
+description: The InitialExpansionVelocity property specifies the rate of radius expansion for a target when the target was affected by inertia. (Put)
 helpviewer_keywords: ["IInertiaProcessor interface [Windows Touch]","InitialExpansionVelocity property","IInertiaProcessor.InitialExpansionVelocity","IInertiaProcessor.put_InitialExpansionVelocity","IInertiaProcessor::InitialExpansionVelocity","IInertiaProcessor::get_InitialExpansionVelocity","IInertiaProcessor::put_InitialExpansionVelocity","InitialExpansionVelocity property [Windows Touch]","InitialExpansionVelocity property [Windows Touch]","IInertiaProcessor interface","manipulations/IInertiaProcessor::InitialExpansionVelocity","manipulations/IInertiaProcessor::get_InitialExpansionVelocity","manipulations/IInertiaProcessor::put_InitialExpansionVelocity","put_InitialExpansionVelocity","wintouch.iinertiaprocessor_initialexpansionvelocity"]
 old-location: wintouch\iinertiaprocessor_initialexpansionvelocity.htm
 tech.root: wintouch

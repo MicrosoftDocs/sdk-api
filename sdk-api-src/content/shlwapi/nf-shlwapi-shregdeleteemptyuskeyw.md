@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHRegDeleteEmptyUSKeyW
 title: SHRegDeleteEmptyUSKeyW function (shlwapi.h)
-description: Deletes an empty registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
+description: Deletes an empty registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). (Unicode)
 helpviewer_keywords: ["SHRegDeleteEmptyUSKey","SHRegDeleteEmptyUSKey function [Windows Shell]","SHRegDeleteEmptyUSKeyA","SHRegDeleteEmptyUSKeyW","_win32_SHRegDeleteEmptyUSKey","shell.SHRegDeleteEmptyUSKey","shlwapi/SHRegDeleteEmptyUSKey","shlwapi/SHRegDeleteEmptyUSKeyA","shlwapi/SHRegDeleteEmptyUSKeyW"]
 old-location: shell\SHRegDeleteEmptyUSKey.htm
 tech.root: shell

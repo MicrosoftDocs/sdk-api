@@ -1,7 +1,7 @@
 ---
 UID: NF:winsvc.OpenSCManagerW
 title: OpenSCManagerW function (winsvc.h)
-description: Establishes a connection to the service control manager on the specified computer and opens the specified service control manager database.
+description: Establishes a connection to the service control manager on the specified computer and opens the specified service control manager database. (Unicode)
 helpviewer_keywords: ["OpenSCManager","OpenSCManager function","OpenSCManagerA","OpenSCManagerW","_win32_openscmanager","base.openscmanager","winsvc/OpenSCManager","winsvc/OpenSCManagerA","winsvc/OpenSCManagerW"]
 old-location: base\openscmanager.htm
 tech.root: security

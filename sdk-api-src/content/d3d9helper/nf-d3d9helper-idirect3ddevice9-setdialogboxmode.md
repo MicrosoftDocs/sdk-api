@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetDialogBoxMode
 title: IDirect3DDevice9::SetDialogBoxMode (d3d9helper.h)
-description: This method allows the use of GDI dialog boxes in full-screen mode applications.
+description: This method allows the use of GDI dialog boxes in full-screen mode applications. (IDirect3DDevice9.SetDialogBoxMode)
 helpviewer_keywords: ["IDirect3DDevice9 interface [Direct3D 9]","SetDialogBoxMode method","IDirect3DDevice9.SetDialogBoxMode","IDirect3DDevice9::SetDialogBoxMode","SetDialogBoxMode","SetDialogBoxMode method [Direct3D 9]","SetDialogBoxMode method [Direct3D 9]","IDirect3DDevice9 interface","a69d309f-e5c7-493a-e434-7700251e99ec","d3d9helper/IDirect3DDevice9::SetDialogBoxMode","direct3d9.idirect3ddevice9__setdialogboxmode"]
 old-location: direct3d9\idirect3ddevice9__setdialogboxmode.htm
 tech.root: direct3d9

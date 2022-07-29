@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsController.Reset
 title: IVdsController::Reset (vds.h)
-description: Reinitializes the controller and invalidates the cache.
+description: Reinitializes the controller and invalidates the cache. (IVdsController.Reset)
 helpviewer_keywords: ["IVdsController interface [VDS]","Reset method","IVdsController.Reset","IVdsController::Reset","Reset","Reset method [VDS]","Reset method [VDS]","IVdsController interface","base.ivdscontroller_reset","vds/IVdsController::Reset","vdshwprv/IVdsController::Reset"]
 old-location: base\ivdscontroller_reset.htm
 tech.root: base

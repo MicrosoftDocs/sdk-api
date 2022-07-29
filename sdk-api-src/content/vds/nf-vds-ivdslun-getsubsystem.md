@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsLun.GetSubSystem
 title: IVdsLun::GetSubSystem (vds.h)
-description: Returns the subsystem that surfaces the LUN.
+description: Returns the subsystem that surfaces the LUN. (IVdsLun.GetSubSystem)
 helpviewer_keywords: ["GetSubSystem","GetSubSystem method [VDS]","GetSubSystem method [VDS]","IVdsLun interface","IVdsLun interface [VDS]","GetSubSystem method","IVdsLun.GetSubSystem","IVdsLun::GetSubSystem","base.ivdslun_getsubsystem","vds/IVdsLun::GetSubSystem","vdshwprv/IVdsLun::GetSubSystem"]
 old-location: base\ivdslun_getsubsystem.htm
 tech.root: base

@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqLockSharedWorkQueue
 title: RtwqLockSharedWorkQueue function (rtworkq.h)
-description: Obtains and locks a shared work queue.
+description: Obtains and locks a shared work queue. (RtwqLockSharedWorkQueue)
 helpviewer_keywords: ["RtwqLockSharedWorkQueue","RtwqLockSharedWorkQueue function","base.rtwqlocksharedworkqueue","rtworkq/RtwqLockSharedWorkQueue"]
 old-location: base\rtwqlocksharedworkqueue.htm
 tech.root: backup

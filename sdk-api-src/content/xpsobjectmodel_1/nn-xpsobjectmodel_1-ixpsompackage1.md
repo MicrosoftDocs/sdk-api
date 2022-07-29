@@ -48,7 +48,6 @@ api_name:
 
 # IXpsOMPackage1 interface
 
-
 ## -description
 
 Inherits from IXpsOMPackage. 
@@ -62,6 +61,80 @@ Saving an in-memory XPS OM package to an MSXPS or OpenXPS package byte stream or
 ## -inheritance
 
 The <b>IXpsOMPackage1</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackage">IXpsOMPackage</a>. <b>IXpsOMPackage1</b> also has these types of members:
+
+## -members
+
+The <b>IXpsOMPackage1</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsompackage1-getdocumenttype">IXpsOMPackage1::GetDocumentType</a>
+</td>
+<td align="left" width="63%">
+Gets the document type of the data that was used to initialize this package. This method is used to determine whether a document is the XPS or OpenXPS type. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316975(v=vs.85)">XPS Documents</a>.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsompackage1-writetofile1">IXpsOMPackage1::WriteToFile1</a>
+</td>
+<td align="left" width="63%">
+Writes an XPS OM to a file as an XPS package of a specified type.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsompackage1-writetostream1">IXpsOMPackage1::WriteToStream1</a>
+</td>
+<td align="left" width="63%">
+Writes an XPS OM to a stream as an XPS package of a specified type.
+
+</td>
+</tr>
+</table>
+
+## -members
+
+The <b>IXpsOMPackage1</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsompackage1-getdocumenttype">IXpsOMPackage1::GetDocumentType</a>
+</td>
+<td align="left" width="63%">
+Gets the document type of the data that was used to initialize this package. This method is used to determine whether a document is the XPS or OpenXPS type. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316975(v=vs.85)">XPS Documents</a>.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsompackage1-writetofile1">IXpsOMPackage1::WriteToFile1</a>
+</td>
+<td align="left" width="63%">
+Writes an XPS OM to a file as an XPS package of a specified type.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsompackage1-writetostream1">IXpsOMPackage1::WriteToStream1</a>
+</td>
+<td align="left" width="63%">
+Writes an XPS OM to a stream as an XPS package of a specified type.
+
+</td>
+</tr>
+</table>
 
 ## -remarks
 

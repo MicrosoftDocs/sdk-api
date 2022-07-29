@@ -1,7 +1,7 @@
 ---
 UID: NF:shdeprecated.IBrowserService.IEParseDisplayName
 title: IBrowserService::IEParseDisplayName (shdeprecated.h)
-description: Deprecated. Parses a URL into a pointer to an item identifier list (PIDL).
+description: Deprecated. Parses a URL into a pointer to an item identifier list (PIDL). (IBrowserService.IEParseDisplayName)
 helpviewer_keywords: ["IBrowserService interface [Windows Shell]","IEParseDisplayName method","IBrowserService.IEParseDisplayName","IBrowserService::IEParseDisplayName","IEParseDisplayName","IEParseDisplayName method [Windows Shell]","IEParseDisplayName method [Windows Shell]","IBrowserService interface","shdeprecated/IBrowserService::IEParseDisplayName","shell.IBrowserService_IEParseDisplayName","zone_IBrowserService_IEParseDisplayName"]
 old-location: shell\IBrowserService_IEParseDisplayName.htm
 tech.root: shell

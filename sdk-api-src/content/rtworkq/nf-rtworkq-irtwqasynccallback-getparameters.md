@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.IRtwqAsyncCallback.GetParameters
 title: IRtwqAsyncCallback::GetParameters (rtworkq.h)
-description: Provides configuration information to the dispatching thread for a callback.
+description: Provides configuration information to the dispatching thread for a callback. (IRtwqAsyncCallback.GetParameters)
 helpviewer_keywords: ["GetParameters","GetParameters method","GetParameters method","IRtwqAsyncCallback interface","IRtwqAsyncCallback interface","GetParameters method","IRtwqAsyncCallback.GetParameters","IRtwqAsyncCallback::GetParameters","Zero","base.irtwqasynccallback_getparameters","rtworkq/IRtwqAsyncCallback::GetParameters"]
 old-location: base\irtwqasynccallback_getparameters.htm
 tech.root: backup

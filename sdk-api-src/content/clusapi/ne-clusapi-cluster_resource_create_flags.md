@@ -1,7 +1,7 @@
 ---
 UID: NE:clusapi.CLUSTER_RESOURCE_CREATE_FLAGS
 title: CLUSTER_RESOURCE_CREATE_FLAGS (clusapi.h)
-description: Determines which resource monitor a given resource will be assigned to.
+description: Determines which resource monitor a given resource will be assigned to. (CLUSTER_RESOURCE_CREATE_FLAGS)
 helpviewer_keywords: ["CLUSTER_RESOURCE_CREATE_FLAGS","CLUSTER_RESOURCE_CREATE_FLAGS enumeration [Failover Cluster]","CLUSTER_RESOURCE_DEFAULT_MONITOR","CLUSTER_RESOURCE_SEPARATE_MONITOR","CLUSTER_RESOURCE_VALID_FLAGS","_CLUSTER_RESOURCE_CREATE_FLAGS","_CLUSTER_RESOURCE_CREATE_FLAGS enumeration [Failover Cluster]","clusapi/CLUSTER_RESOURCE_CREATE_FLAGS","clusapi/CLUSTER_RESOURCE_DEFAULT_MONITOR","clusapi/CLUSTER_RESOURCE_SEPARATE_MONITOR","clusapi/CLUSTER_RESOURCE_VALID_FLAGS","clusapi/_CLUSTER_RESOURCE_CREATE_FLAGS","msclus/CLUSTER_RESOURCE_CREATE_FLAGS","msclus/CLUSTER_RESOURCE_DEFAULT_MONITOR","msclus/CLUSTER_RESOURCE_SEPARATE_MONITOR","msclus/CLUSTER_RESOURCE_VALID_FLAGS","msclus/_CLUSTER_RESOURCE_CREATE_FLAGS","mscs.cluster_resource_create_flags"]
 old-location: mscs\cluster_resource_create_flags.htm
 tech.root: MsCS

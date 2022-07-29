@@ -4,7 +4,7 @@ title: NdrProxyForwardingFunction28
 tech.root: Rpc
 ms.date: 07/14/2020
 targetos: Windows
-description: Stub function for COM proxies.
+description: Stub function for COM proxies. (NdrProxyForwardingFunction28)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

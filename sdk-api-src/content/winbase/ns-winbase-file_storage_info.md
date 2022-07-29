@@ -1,7 +1,7 @@
 ---
 UID: NS:winbase._FILE_STORAGE_INFO
 title: FILE_STORAGE_INFO (winbase.h)
-description: Contains directory information for a file.
+description: Contains directory information for a file. (FILE_STORAGE_INFO)
 helpviewer_keywords: ["*PFILE_STORAGE_INFO","FILE_STORAGE_INFO","FILE_STORAGE_INFO structure [Files]","PFILE_STORAGE_INFO","PFILE_STORAGE_INFO structure pointer [Files]","STORAGE_INFO_FLAGS_ALIGNED_DEVICE","STORAGE_INFO_FLAGS_PARTITION_ALIGNED_ON_DEVICE","_FILE_STORAGE_INFO","fs.file_storage_info","winbase/FILE_STORAGE_INFO","winbase/PFILE_STORAGE_INFO"]
 old-location: fs\file_storage_info.htm
 tech.root: fs

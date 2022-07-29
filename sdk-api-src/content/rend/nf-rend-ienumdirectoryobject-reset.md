@@ -1,7 +1,7 @@
 ---
 UID: NF:rend.IEnumDirectoryObject.Reset
 title: IEnumDirectoryObject::Reset (rend.h)
-description: The Reset method resets to the beginning of enumeration sequence.
+description: The Reset method resets to the beginning of enumeration sequence. (IEnumDirectoryObject.Reset)
 helpviewer_keywords: ["IEnumDirectoryObject interface [TAPI 2.2]","Reset method","IEnumDirectoryObject.Reset","IEnumDirectoryObject::Reset","Reset","Reset method [TAPI 2.2]","Reset method [TAPI 2.2]","IEnumDirectoryObject interface","_tapi3_ienumdirectoryobject_reset","rend/IEnumDirectoryObject::Reset","tapi3.ienumdirectoryobject_reset"]
 old-location: tapi3\ienumdirectoryobject_reset.htm
 tech.root: tapi3

@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IMalloc.DidAlloc
 title: IMalloc::DidAlloc (objidl.h)
-description: Determines whether this allocator was used to allocate the specified block of memory.
+description: Determines whether this allocator was used to allocate the specified block of memory. (IMalloc.DidAlloc)
 helpviewer_keywords: ["DidAlloc","DidAlloc method [COM]","DidAlloc method [COM]","IMalloc interface","IMalloc interface [COM]","DidAlloc method","IMalloc.DidAlloc","IMalloc::DidAlloc","_com_imalloc_didalloc","com.imalloc_didalloc","objidlbase/IMalloc::DidAlloc"]
 old-location: com\imalloc_didalloc.htm
 tech.root: com

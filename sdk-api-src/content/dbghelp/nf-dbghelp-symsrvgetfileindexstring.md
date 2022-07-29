@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymSrvGetFileIndexString
 title: SymSrvGetFileIndexString function (dbghelp.h)
-description: Retrieves the index string for the specified .pdb, .dbg, or image file.
+description: Retrieves the index string for the specified .pdb, .dbg, or image file. (SymSrvGetFileIndexStringW)
 helpviewer_keywords: ["SymSrvGetFileIndexString","SymSrvGetFileIndexString function","SymSrvGetFileIndexStringW","base.symsrvgetfileindexstring","dbghelp/SymSrvGetFileIndexString","dbghelp/SymSrvGetFileIndexStringW"]
 old-location: base\symsrvgetfileindexstring.htm
 tech.root: Debug

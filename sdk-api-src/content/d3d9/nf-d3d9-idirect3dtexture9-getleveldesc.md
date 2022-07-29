@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DTexture9.GetLevelDesc
 title: IDirect3DTexture9::GetLevelDesc (d3d9.h)
-description: Retrieves a level description of a texture resource.
+description: Retrieves a level description of a texture resource. (IDirect3DTexture9.GetLevelDesc)
 helpviewer_keywords: ["56fc4d84-d125-0b2e-6670-ecb45faa49cd","GetLevelDesc","GetLevelDesc method [Direct3D 9]","GetLevelDesc method [Direct3D 9]","IDirect3DTexture9 interface","IDirect3DTexture9 interface [Direct3D 9]","GetLevelDesc method","IDirect3DTexture9.GetLevelDesc","IDirect3DTexture9::GetLevelDesc","d3d9helper/IDirect3DTexture9::GetLevelDesc","direct3d9.idirect3dtexture9__getleveldesc"]
 old-location: direct3d9\idirect3dtexture9__getleveldesc.htm
 tech.root: direct3d9

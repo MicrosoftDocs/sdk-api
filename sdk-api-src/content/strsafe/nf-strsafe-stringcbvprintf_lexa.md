@@ -1,7 +1,7 @@
 ---
 UID: NF:strsafe.StringCbVPrintf_lExA
 title: StringCbVPrintf_lExA function (strsafe.h)
-description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
+description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer. (StringCbVPrintf_lExA)
 helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCbVPrintf_lEx","StringCbVPrintf_lEx function [Menus and Other Resources]","StringCbVPrintf_lExA","StringCbVPrintf_lExW","menurc.stringcbvprintf_lex","strsafe/StringCbVPrintf_lEx","strsafe/StringCbVPrintf_lExA","strsafe/StringCbVPrintf_lExW"]
 old-location: menurc\stringcbvprintf_lex.htm
 tech.root: menurc

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_Cursors
 title: IInkCollector::get_Cursors (msinkaut.h)
-description: Gets the collection of cursors that are available for use in the inking region. Each cursor corresponds to the tip of a pen or other ink input device.
+description: Gets the collection of cursors that are available for use in the inking region. Each cursor corresponds to the tip of a pen or other ink input device. (IInkCollector.get_Cursors)
 helpviewer_keywords: ["6a939fd0-1e0c-4df6-bcd0-b58fb7bac5e4","Cursors property [Tablet PC]","Cursors property [Tablet PC]","IInkCollector interface","IInkCollector interface [Tablet PC]","Cursors property","IInkCollector.Cursors","IInkCollector.get_Cursors","IInkCollector::Cursors","IInkCollector::get_Cursors","InkCollector.get_Cursors","get_Cursors","msinkaut/IInkCollector::Cursors","msinkaut/IInkCollector::get_Cursors","put_Cursors","tablet.inkcollector_cursors"]
 old-location: tablet\inkcollector_cursors.htm
 tech.root: tablet

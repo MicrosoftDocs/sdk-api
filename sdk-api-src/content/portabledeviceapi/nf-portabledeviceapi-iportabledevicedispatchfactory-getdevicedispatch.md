@@ -1,7 +1,7 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceDispatchFactory.GetDeviceDispatch
 title: IPortableDeviceDispatchFactory::GetDeviceDispatch (portabledeviceapi.h)
-description: Instantiates a WPD Automation Device object for a given WPD device identifier.
+description: Instantiates a WPD Automation Device object for a given WPD device identifier. (IPortableDeviceDispatchFactory.GetDeviceDispatch)
 helpviewer_keywords: ["GetDeviceDispatch","GetDeviceDispatch method [WPD Automation]","GetDeviceDispatch method [WPD Automation]","IPortableDeviceDispatchFactory interface","IPortableDeviceDispatchFactory interface [WPD Automation]","GetDeviceDispatch method","IPortableDeviceDispatchFactory.GetDeviceDispatch","IPortableDeviceDispatchFactory::GetDeviceDispatch","portabledeviceapi/IPortableDeviceDispatchFactory::GetDeviceDispatch","wpdauto.iportabledevicedispatchfactory_getdevicedispatch"]
 old-location: wpdauto\iportabledevicedispatchfactory_getdevicedispatch.htm
 tech.root: wpdauto

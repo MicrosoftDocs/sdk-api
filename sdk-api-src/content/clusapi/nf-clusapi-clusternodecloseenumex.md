@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterNodeCloseEnumEx
 title: ClusterNodeCloseEnumEx function (clusapi.h)
-description: Closes a node enumeration handle.
+description: Closes a node enumeration handle. (ClusterNodeCloseEnumEx)
 helpviewer_keywords: ["ClusterNodeCloseEnumEx","ClusterNodeCloseEnumEx function [Failover Cluster]","PCLUSAPI_CLUSTER_NODE_CLOSE_ENUM_EX","PCLUSAPI_CLUSTER_NODE_CLOSE_ENUM_EX function [Failover Cluster]","clusapi/ClusterNodeCloseEnumEx","clusapi/PCLUSAPI_CLUSTER_NODE_CLOSE_ENUM_EX","mscs.clusternodecloseenumex"]
 old-location: mscs\clusternodecloseenumex.htm
 tech.root: MsCS

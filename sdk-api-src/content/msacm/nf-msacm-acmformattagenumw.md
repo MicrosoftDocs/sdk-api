@@ -1,7 +1,7 @@
 ---
 UID: NF:msacm.acmFormatTagEnumW
 title: acmFormatTagEnumW function (msacm.h)
-description: The acmFormatTagEnum function enumerates waveform-audio format tags available from an ACM driver. This function continues enumerating until there are no more suitable format tags or the callback function returns FALSE.
+description: The acmFormatTagEnum function enumerates waveform-audio format tags available from an ACM driver. This function continues enumerating until there are no more suitable format tags or the callback function returns FALSE. (acmFormatTagEnumW)
 helpviewer_keywords: ["_win32_acmFormatTagEnum","acmFormatTagEnum","acmFormatTagEnum function [Windows Multimedia]","acmFormatTagEnumA","acmFormatTagEnumW","msacm/acmFormatTagEnum","msacm/acmFormatTagEnumA","msacm/acmFormatTagEnumW","multimedia.acmformattagenum"]
 old-location: multimedia\acmformattagenum.htm
 tech.root: Multimedia

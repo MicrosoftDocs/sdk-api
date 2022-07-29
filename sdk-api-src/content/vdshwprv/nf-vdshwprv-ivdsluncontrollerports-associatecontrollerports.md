@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsLunControllerPorts.AssociateControllerPorts
 title: IVdsLunControllerPorts::AssociateControllerPorts (vdshwprv.h)
-description: Sets the subsystem controller ports to active or inactive with respect to the LUN. This method replaces IVdsLun::AssociateControllers.
+description: Sets the subsystem controller ports to active or inactive with respect to the LUN. This method replaces IVdsLun::AssociateControllers. (IVdsLunControllerPorts.AssociateControllerPorts)
 helpviewer_keywords: ["AssociateControllerPorts","AssociateControllerPorts method [VDS]","AssociateControllerPorts method [VDS]","IVdsLunControllerPorts interface","IVdsLunControllerPorts interface [VDS]","AssociateControllerPorts method","IVdsLunControllerPorts.AssociateControllerPorts","IVdsLunControllerPorts::AssociateControllerPorts","base.ivdsluncontrollerports_associatecontrollerports","vds/IVdsLunControllerPorts::AssociateControllerPorts","vdshwprv/IVdsLunControllerPorts::AssociateControllerPorts"]
 old-location: base\ivdsluncontrollerports_associatecontrollerports.htm
 tech.root: base

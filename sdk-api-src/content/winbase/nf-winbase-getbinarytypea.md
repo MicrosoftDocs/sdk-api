@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetBinaryTypeA
 title: GetBinaryTypeA function (winbase.h)
-description: Determines whether a file is an executable (.exe) file, and if so, which subsystem runs the executable file.
+description: Determines whether a file is an executable (.exe) file, and if so, which subsystem runs the executable file. (ANSI)
 helpviewer_keywords: ["GetBinaryType","GetBinaryType function [Files]","GetBinaryTypeA","GetBinaryTypeW","SCS_32BIT_BINARY","SCS_64BIT_BINARY","SCS_DOS_BINARY","SCS_OS216_BINARY","SCS_PIF_BINARY","SCS_POSIX_BINARY","SCS_WOW_BINARY","_win32_getbinarytype","base.getbinarytype","fs.getbinarytype","winbase/GetBinaryType","winbase/GetBinaryTypeA","winbase/GetBinaryTypeW"]
 old-location: fs\getbinarytype.htm
 tech.root: fs

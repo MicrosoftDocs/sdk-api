@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineForward
 title: lineForward function (tapi.h)
-description: The lineForward function forwards calls destined for the specified address on the specified line, according to the specified forwarding instructions.
+description: The lineForward function forwards calls destined for the specified address on the specified line, according to the specified forwarding instructions. (lineForwardW)
 helpviewer_keywords: ["_tapi2_lineforward","lineForward","lineForward function [TAPI 2.2]","lineForwardA","lineForwardW","tapi/lineForward","tapi/lineForwardA","tapi/lineForwardW","tapi2.lineforward"]
 old-location: tapi2\lineforward.htm
 tech.root: tapi3

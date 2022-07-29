@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsSubSystem.ReplaceDrive
 title: IVdsSubSystem::ReplaceDrive (vds.h)
-description: Replaces or migrates one drive with another in the subsystem.
+description: Replaces or migrates one drive with another in the subsystem. (IVdsSubSystem.ReplaceDrive)
 helpviewer_keywords: ["IVdsSubSystem interface [VDS]","ReplaceDrive method","IVdsSubSystem.ReplaceDrive","IVdsSubSystem::ReplaceDrive","ReplaceDrive","ReplaceDrive method [VDS]","ReplaceDrive method [VDS]","IVdsSubSystem interface","base.ivdssubsystem_replacedrive","vds/IVdsSubSystem::ReplaceDrive","vdshwprv/IVdsSubSystem::ReplaceDrive"]
 old-location: base\ivdssubsystem_replacedrive.htm
 tech.root: base

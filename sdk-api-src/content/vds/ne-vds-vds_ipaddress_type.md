@@ -1,7 +1,7 @@
 ---
 UID: NE:vds.VDS_IPADDRESS_TYPE
 title: VDS_IPADDRESS_TYPE (vds.h)
-description: Defines the set of valid types for an IP address.
+description: Defines the set of valid types for an IP address. (VDS_IPADDRESS_TYPE)
 helpviewer_keywords: ["VDS_IPADDRESS_TYPE","VDS_IPADDRESS_TYPE enumeration [VDS]","VDS_IPT_EMPTY","VDS_IPT_IPV4","VDS_IPT_IPV6","VDS_IPT_TEXT","base.vds_ipaddress_type","vds/VDS_IPADDRESS_TYPE","vds/VDS_IPT_EMPTY","vds/VDS_IPT_IPV4","vds/VDS_IPT_IPV6","vds/VDS_IPT_TEXT","vdshwprv/VDS_IPADDRESS_TYPE","vdshwprv/VDS_IPT_EMPTY","vdshwprv/VDS_IPT_IPV4","vdshwprv/VDS_IPT_IPV6","vdshwprv/VDS_IPT_TEXT"]
 old-location: base\vds_ipaddress_type.htm
 tech.root: base

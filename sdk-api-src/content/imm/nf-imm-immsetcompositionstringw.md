@@ -1,7 +1,7 @@
 ---
 UID: NF:imm.ImmSetCompositionStringW
 title: ImmSetCompositionStringW function (imm.h)
-description: Sets the characters, attributes, and clauses of the composition and reading strings.
+description: Sets the characters, attributes, and clauses of the composition and reading strings. (ImmSetCompositionStringW)
 helpviewer_keywords: ["ImmSetCompositionString","ImmSetCompositionString function [Internationalization for Windows Applications]","ImmSetCompositionStringA","ImmSetCompositionStringW","SCS_CHANGEATTR","SCS_CHANGECLAUSE","SCS_QUERYRECONVERTSTRING","SCS_SETRECONVERTSTRING","SCS_SETSTR","_win32_ImmSetCompositionString","imm/ImmSetCompositionString","imm/ImmSetCompositionStringA","imm/ImmSetCompositionStringW","intl.immsetcompositionstring"]
 old-location: intl\immsetcompositionstring.htm
 tech.root: Intl

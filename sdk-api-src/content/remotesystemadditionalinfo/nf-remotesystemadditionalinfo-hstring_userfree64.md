@@ -1,7 +1,7 @@
 ---
 UID: NF:remotesystemadditionalinfo.HSTRING_UserFree64
 title: HSTRING_UserFree64 function (remotesystemadditionalinfo.h)
-description: Frees resources on the server side when called by RPC stub files.
+description: Frees resources on the server side when called by RPC stub files. (HSTRING_UserFree64)
 helpviewer_keywords: ["HSTRING_UserFree64","HSTRING_UserFree64 function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserFree64","winrt.hstring_userfree64"]
 old-location: winrt\hstring_userfree64.htm
 tech.root: WinRT

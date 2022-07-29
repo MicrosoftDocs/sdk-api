@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.Clone(constRect&,PixelFormat)
 title: Bitmap::Clone
-description: The Bitmap::Clone method creates a new Bitmap object by copying a portion of this bitmap.
+description: The Bitmap::Clone method creates a new Bitmap object by copying a portion of this bitmap. (overload 1/2)
 tech.root: gdiplus
 helpviewer_keywords: ["Bitmap::Clone"]
 ms.assetid: 68c03673-ad3c-43b7-a21d-23192de7ad19

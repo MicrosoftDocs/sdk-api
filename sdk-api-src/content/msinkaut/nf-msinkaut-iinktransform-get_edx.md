@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkTransform.get_eDx
 title: IInkTransform::get_eDx (msinkaut.h)
-description: Gets or sets the element in the third row, first column of the affine transform matrix that is represented by an InkTransform object.
+description: Gets or sets the element in the third row, first column of the affine transform matrix that is represented by an InkTransform object. (Get)
 helpviewer_keywords: ["IInkTransform interface [Tablet PC]","eDx property","IInkTransform.eDx","IInkTransform.get_eDx","IInkTransform::eDx","IInkTransform::get_eDx","IInkTransform::put_eDx","InkTransform.get_eDx","InkTransform.put_eDx","eDx property [Tablet PC]","eDx property [Tablet PC]","IInkTransform interface","f2e6fabc-4a8a-4225-b518-438e1d0ca196","get_eDx","msinkaut/IInkTransform::eDx","msinkaut/IInkTransform::get_eDx","msinkaut/IInkTransform::put_eDx","put_eDx","tablet.inktransform_edx"]
 old-location: tablet\inktransform_edx.htm
 tech.root: tablet

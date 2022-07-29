@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsLunNumber.GetLunNumber
 title: IVdsLunNumber::GetLunNumber (vdshwprv.h)
-description: Retrieves the LUN number for a LUN.
+description: Retrieves the LUN number for a LUN. (IVdsLunNumber.GetLunNumber)
 helpviewer_keywords: ["GetLunNumber","GetLunNumber method","GetLunNumber method","IVdsLunNumber interface","IVdsLunNumber interface","GetLunNumber method","IVdsLunNumber.GetLunNumber","IVdsLunNumber::GetLunNumber","base.ivdslunnumber_getlunnumber","vds/IVdsLunNumber::GetLunNumber","vdshwprv/IVdsLunNumber::GetLunNumber"]
 old-location: base\ivdslunnumber_getlunnumber.htm
 tech.root: base

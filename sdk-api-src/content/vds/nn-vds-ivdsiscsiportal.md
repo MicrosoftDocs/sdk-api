@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsIscsiPortal
 title: IVdsIscsiPortal (vds.h)
-description: Provides methods for performing query and configuration operations on an iSCSI portal.
+description: Provides methods for performing query and configuration operations on an iSCSI portal. (IVdsIscsiPortal)
 helpviewer_keywords: ["IVdsIscsiPortal","IVdsIscsiPortal interface [VDS]","IVdsIscsiPortal interface [VDS]","described","base.ivdsiscsiportal","vds/IVdsIscsiPortal","vdshwprv/IVdsIscsiPortal"]
 old-location: base\ivdsiscsiportal.htm
 tech.root: base

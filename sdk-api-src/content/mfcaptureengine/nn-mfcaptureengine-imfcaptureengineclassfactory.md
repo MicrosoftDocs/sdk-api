@@ -1,7 +1,7 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureEngineClassFactory
 title: IMFCaptureEngineClassFactory (mfcaptureengine.h)
-description: Creates an instance of the capture engine.
+description: Creates an instance of the capture engine. (IMFCaptureEngineClassFactory)
 helpviewer_keywords: ["IMFCaptureEngineClassFactory","IMFCaptureEngineClassFactory interface [Media Foundation]","IMFCaptureEngineClassFactory interface [Media Foundation]","described","mf.imfcaptureengineclassfactory","mfcaptureengine/IMFCaptureEngineClassFactory"]
 old-location: mf\imfcaptureengineclassfactory.htm
 tech.root: mf

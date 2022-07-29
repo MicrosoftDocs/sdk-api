@@ -1,7 +1,7 @@
 ---
 UID: NE:clusapi.CLUSTER_QUORUM_VALUE
 title: CLUSTER_QUORUM_VALUE (clusapi.h)
-description: Enumerates values returned by the ClusterControl function with the CLUSCTL_CLUSTER_CHECK_VOTER_DOWN or the CLUSCTL_CLUSTER_CHECK_VOTER_EVICT control codes.
+description: Enumerates values returned by the ClusterControl function with the CLUSCTL_CLUSTER_CHECK_VOTER_DOWN or the CLUSCTL_CLUSTER_CHECK_VOTER_EVICT control codes. (CLUSTER_QUORUM_VALUE)
 helpviewer_keywords: ["CLUSTER_QUORUM_LOST","CLUSTER_QUORUM_MAINTAINED","CLUSTER_QUORUM_VALUE","CLUSTER_QUORUM_VALUE enumeration [Failover Cluster]","msclus/CLUSTER_QUORUM_LOST","msclus/CLUSTER_QUORUM_MAINTAINED","msclus/CLUSTER_QUORUM_VALUE","mscs.cluster_quorum_value"]
 old-location: mscs\cluster_quorum_value.htm
 tech.root: MsCS

@@ -1,7 +1,7 @@
 ---
 UID: NF:mswsock.GetAcceptExSockaddrs
 title: GetAcceptExSockaddrs function (mswsock.h)
-description: Parses the data obtained from a call to the AcceptEx function and passes the local and remote addresses to a sockaddr structure.Note  This function is a Microsoft-specific extension to the Windows Sockets specification. .
+description: Parses the data obtained from a call to the AcceptEx function and passes the local and remote addresses to a sockaddr structure.Note  This function is a Microsoft-specific extension to the Windows Sockets specification. . (GetAcceptExSockaddrs)
 helpviewer_keywords: ["GetAcceptExSockaddrs","GetAcceptExSockaddrs function [Winsock]","_win32_getacceptexsockaddrs_2","winsock.getacceptexsockaddrs_2","winsock/GetAcceptExSockaddrs"]
 old-location: winsock\getacceptexsockaddrs_2.htm
 tech.root: WinSock

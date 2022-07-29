@@ -1,7 +1,7 @@
 ---
 UID: NF:schannel.SslEmptyCacheW
 title: SslEmptyCacheW function (schannel.h)
-description: Removes the specified string from the Schannel cache.
+description: Removes the specified string from the Schannel cache. (Unicode)
 helpviewer_keywords: ["SslEmptyCache","SslEmptyCache function [Security]","SslEmptyCacheA","SslEmptyCacheW","schannel/SslEmptyCache","schannel/SslEmptyCacheA","schannel/SslEmptyCacheW","security.sslemptycache"]
 old-location: security\sslemptycache.htm
 tech.root: security

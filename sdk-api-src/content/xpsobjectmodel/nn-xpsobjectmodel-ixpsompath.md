@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMPath interface
 
-
 ## -description
 
 Describes a non-text visual item.

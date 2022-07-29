@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymEnumSymbolsExW
 title: SymEnumSymbolsExW function (dbghelp.h)
-description: Enumerates all symbols in a process.
+description: Enumerates all symbols in a process. (SymEnumSymbolsExW)
 helpviewer_keywords: ["*!*","SYMENUM_OPTIONS_DEFAULT","SYMENUM_OPTIONS_INLINE","SymEnumSymbolsEx","SymEnumSymbolsEx function","SymEnumSymbolsExW","base.symenumsymbolsex","dbghelp/SymEnumSymbolsEx","dbghelp/SymEnumSymbolsExW","foo","foo*!bar","foo?"]
 old-location: base\symenumsymbolsex.htm
 tech.root: Debug

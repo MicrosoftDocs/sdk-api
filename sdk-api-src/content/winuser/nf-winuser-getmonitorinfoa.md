@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetMonitorInfoA
 title: GetMonitorInfoA function (winuser.h)
-description: The GetMonitorInfo function retrieves information about a display monitor.
+description: The GetMonitorInfo function retrieves information about a display monitor. (ANSI)
 helpviewer_keywords: ["GetMonitorInfo","GetMonitorInfo function [Windows GDI]","GetMonitorInfoA","GetMonitorInfoW","_win32_GetMonitorInfo","gdi.getmonitorinfo","winuser/GetMonitorInfo","winuser/GetMonitorInfoA","winuser/GetMonitorInfoW"]
 old-location: gdi\getmonitorinfo.htm
 tech.root: gdi

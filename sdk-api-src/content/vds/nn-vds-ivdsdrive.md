@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsDrive
 title: IVdsDrive (vds.h)
-description: Provides methods for performing query and configuration operations on a drive.
+description: Provides methods for performing query and configuration operations on a drive. (IVdsDrive)
 helpviewer_keywords: ["IVdsDrive","IVdsDrive interface [VDS]","IVdsDrive interface [VDS]","described","base.ivdsdrive","vds/IVdsDrive","vdshwprv/IVdsDrive"]
 old-location: base\ivdsdrive.htm
 tech.root: base

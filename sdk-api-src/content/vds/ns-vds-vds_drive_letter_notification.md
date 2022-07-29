@@ -1,7 +1,7 @@
 ---
 UID: NS:vds._VDS_DRIVE_LETTER_NOTIFICATION
 title: VDS_DRIVE_LETTER_NOTIFICATION (vds.h)
-description: Defines the details of drive-letter events.
+description: Defines the details of drive-letter events. (VDS_DRIVE_LETTER_NOTIFICATION)
 helpviewer_keywords: ["VDS_DRIVE_LETTER_NOTIFICATION","VDS_DRIVE_LETTER_NOTIFICATION structure [VDS]","VDS_NF_DRIVE_LETTER_ASSIGN","VDS_NF_DRIVE_LETTER_FREE","base.vds_drive_letter_notification","vds/_VDS_DRIVE_LETTER_NOTIFICATION","vdshwprv/_VDS_DRIVE_LETTER_NOTIFICATION"]
 old-location: base\vds_drive_letter_notification.htm
 tech.root: base

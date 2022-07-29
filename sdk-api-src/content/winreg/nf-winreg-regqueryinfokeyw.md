@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegQueryInfoKeyW
 title: RegQueryInfoKeyW function (winreg.h)
-description: Retrieves information about the specified registry key.
+description: Retrieves information about the specified registry key. (Unicode)
 helpviewer_keywords: ["RegQueryInfoKey","RegQueryInfoKey function","RegQueryInfoKeyA","RegQueryInfoKeyW","_win32_regqueryinfokey","base.regqueryinfokey","winreg/RegQueryInfoKey","winreg/RegQueryInfoKeyA","winreg/RegQueryInfoKeyW"]
 old-location: base\regqueryinfokey.htm
 tech.root: winprog

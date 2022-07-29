@@ -1,7 +1,7 @@
 ---
 UID: NN:vdshwprv.IVdsSubSystem2
 title: IVdsSubSystem2 (vdshwprv.h)
-description: Provides methods for performing query and configuration operations on a subsystem using the VDS_HINTS2 and VDS_SUB_SYSTEM_PROP2 structures.
+description: Provides methods for performing query and configuration operations on a subsystem using the VDS_HINTS2 and VDS_SUB_SYSTEM_PROP2 structures. (IVdsSubSystem2)
 helpviewer_keywords: ["IVdsSubSystem2","IVdsSubSystem2 interface","IVdsSubSystem2 interface","described","base.ivdssubsystem2","vds/IVdsSubSystem2","vdshwprv/IVdsSubSystem2"]
 old-location: base\ivdssubsystem2.htm
 tech.root: base

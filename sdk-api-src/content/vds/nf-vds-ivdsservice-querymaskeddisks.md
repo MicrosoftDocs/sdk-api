@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsService.QueryMaskedDisks
 title: IVdsService::QueryMaskedDisks (vds.h)
-description: Not supported.This method is reserved for future use.
+description: Not supported.This method is reserved for future use. (IVdsService.QueryMaskedDisks)
 helpviewer_keywords: ["IVdsService interface [VDS]","QueryMaskedDisks method","IVdsService.QueryMaskedDisks","IVdsService::QueryMaskedDisks","QueryMaskedDisks","QueryMaskedDisks method [VDS]","QueryMaskedDisks method [VDS]","IVdsService interface","base.ivdsservice_querymaskeddisks","vds/IVdsService::QueryMaskedDisks"]
 old-location: base\ivdsservice_querymaskeddisks.htm
 tech.root: base

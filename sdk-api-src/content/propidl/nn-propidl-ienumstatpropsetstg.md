@@ -1,7 +1,7 @@
 ---
 UID: NN:propidl.IEnumSTATPROPSETSTG
 title: IEnumSTATPROPSETSTG (propidl.h)
-description: Iterates through an array of STATPROPSETSTG structures. The STATPROPSETSTG structures contain statistical data about the property sets managed by the current IPropertySetStorage instance.
+description: Iterates through an array of STATPROPSETSTG structures. The STATPROPSETSTG structures contain statistical data about the property sets managed by the current IPropertySetStorage instance. (IEnumSTATPROPSETSTG)
 helpviewer_keywords: ["IEnumSTATPROPSETSTG","IEnumSTATPROPSETSTG interface [Structured Storage]","IEnumSTATPROPSETSTG interface [Structured Storage]","described","_stg_ienumstatpropsetstg","propidlbase/IEnumSTATPROPSETSTG","stg.ienumstatpropsetstg"]
 old-location: stg\ienumstatpropsetstg.htm
 tech.root: Stg

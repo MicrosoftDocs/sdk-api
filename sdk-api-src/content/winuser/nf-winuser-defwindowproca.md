@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.DefWindowProcA
 title: DefWindowProcA function (winuser.h)
-description: Calls the default window procedure to provide default processing for any window messages that an application does not process.
+description: Calls the default window procedure to provide default processing for any window messages that an application does not process. (ANSI)
 helpviewer_keywords: ["DefWindowProc","DefWindowProc function [Windows and Messages]","DefWindowProcA","DefWindowProcW","_win32_DefWindowProc","_win32_defwindowproc_cpp","winmsg.defwindowproc","winui._win32_defwindowproc","winuser/DefWindowProc","winuser/DefWindowProcA","winuser/DefWindowProcW"]
 old-location: winmsg\defwindowproc.htm
 tech.root: winmsg
@@ -100,7 +100,7 @@ The return value is the result of the message processing and depends on the mess
 ## -syntax
 
 ```cpp
-LRESULT DefWindowProcW(
+LRESULT DefWindowProcA(
   [in] HWND   hWnd,
   [in] UINT   Msg,
   [in] WPARAM wParam,

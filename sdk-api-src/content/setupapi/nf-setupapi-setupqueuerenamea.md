@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupQueueRenameA
 title: SetupQueueRenameA function (setupapi.h)
-description: The SetupQueueRename function places an individual file rename operation on a setup file queue.
+description: The SetupQueueRename function places an individual file rename operation on a setup file queue. (ANSI)
 helpviewer_keywords: ["SetupQueueRename","SetupQueueRename function [Setup API]","SetupQueueRenameA","SetupQueueRenameW","_setupapi_setupqueuerename","setup.setupqueuerename","setupapi/SetupQueueRename","setupapi/SetupQueueRenameA","setupapi/SetupQueueRenameW"]
 old-location: setup\setupqueuerename.htm
 tech.root: setup

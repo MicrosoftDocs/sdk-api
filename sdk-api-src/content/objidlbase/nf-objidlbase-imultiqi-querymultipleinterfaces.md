@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.IMultiQI.QueryMultipleInterfaces
 title: IMultiQI::QueryMultipleInterfaces (objidlbase.h)
-description: Retrieves pointers to multiple supported interfaces on an object.
+description: Retrieves pointers to multiple supported interfaces on an object. (IMultiQI.QueryMultipleInterfaces)
 helpviewer_keywords: ["IMultiQI interface [COM]","QueryMultipleInterfaces method","IMultiQI.QueryMultipleInterfaces","IMultiQI::QueryMultipleInterfaces","QueryMultipleInterfaces","QueryMultipleInterfaces method [COM]","QueryMultipleInterfaces method [COM]","IMultiQI interface","_com_imultiqi_querymultipleinterfaces","com.imultiqi_querymultipleinterfaces","objidlbase/IMultiQI::QueryMultipleInterfaces"]
 old-location: com\imultiqi_querymultipleinterfaces.htm
 tech.root: com

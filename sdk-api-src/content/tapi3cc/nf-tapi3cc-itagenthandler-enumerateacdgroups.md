@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3cc.ITAgentHandler.EnumerateACDGroups
 title: ITAgentHandler::EnumerateACDGroups (tapi3cc.h)
-description: The EnumerateACDGroups method enumerates ACD groups currently associated with the agent handler.
+description: The EnumerateACDGroups method enumerates ACD groups currently associated with the agent handler. (ITAgentHandler.EnumerateACDGroups)
 helpviewer_keywords: ["EnumerateACDGroups","EnumerateACDGroups method [TAPI 2.2]","EnumerateACDGroups method [TAPI 2.2]","ITAgentHandler interface","ITAgentHandler interface [TAPI 2.2]","EnumerateACDGroups method","ITAgentHandler.EnumerateACDGroups","ITAgentHandler::EnumerateACDGroups","_tapi3_itagenthandler_enumerateacdgroups","tapi3.itagenthandler_enumerateacdgroups","tapi3cc/ITAgentHandler::EnumerateACDGroups"]
 old-location: tapi3\itagenthandler_enumerateacdgroups.htm
 tech.root: tapi3

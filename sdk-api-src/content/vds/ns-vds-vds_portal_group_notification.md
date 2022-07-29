@@ -1,7 +1,7 @@
 ---
 UID: NS:vds._VDS_PORTAL_GROUP_NOTIFICATION
 title: VDS_PORTAL_GROUP_NOTIFICATION (vds.h)
-description: Defines the details of iSCSI portal events.
+description: Defines the details of iSCSI portal events. (VDS_PORTAL_GROUP_NOTIFICATION)
 helpviewer_keywords: ["VDS_NF_PORTAL_GROUP_ARRIVE","VDS_NF_PORTAL_GROUP_DEPART","VDS_NF_PORTAL_GROUP_MODIFY","VDS_PORTAL_GROUP_NOTIFICATION","VDS_PORTAL_GROUP_NOTIFICATION structure [VDS]","base.vds_portal_group_notification","vds/_VDS_PORTAL_GROUP_NOTIFICATION","vdshwprv/_VDS_PORTAL_GROUP_NOTIFICATION"]
 old-location: base\vds_portal_group_notification.htm
 tech.root: base

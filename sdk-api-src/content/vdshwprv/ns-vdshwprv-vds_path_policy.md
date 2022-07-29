@@ -1,7 +1,7 @@
 ---
 UID: NS:vdshwprv._VDS_PATH_POLICY
 title: VDS_PATH_POLICY (vdshwprv.h)
-description: Defines the load balance policy as it applies to a particular path.
+description: Defines the load balance policy as it applies to a particular path. (VDS_PATH_POLICY)
 helpviewer_keywords: ["VDS_PATH_POLICY","VDS_PATH_POLICY structure [VDS]","base.vds_path_policy","vds/VDS_PATH_POLICY","vdshwprv/VDS_PATH_POLICY"]
 old-location: base\vds_path_policy.htm
 tech.root: base

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.ModifyMenuW
 title: ModifyMenuW function (winuser.h)
-description: Changes an existing menu item.
+description: Changes an existing menu item. (Unicode)
 helpviewer_keywords: ["MF_BITMAP","MF_BYCOMMAND","MF_BYPOSITION","MF_CHECKED","MF_DISABLED","MF_ENABLED","MF_GRAYED","MF_MENUBARBREAK","MF_MENUBREAK","MF_OWNERDRAW","MF_POPUP","MF_SEPARATOR","MF_STRING","MF_UNCHECKED","ModifyMenu","ModifyMenu function [Menus and Other Resources]","ModifyMenuA","ModifyMenuW","_win32_ModifyMenu","_win32_modifymenu_cpp","menurc.modifymenu","winui._win32_modifymenu","winuser/ModifyMenu","winuser/ModifyMenuA","winuser/ModifyMenuW"]
 old-location: menurc\modifymenu.htm
 tech.root: menurc

@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IEnumProgressItems.Next
 title: IEnumProgressItems::Next (imapi2fs.h)
-description: Retrieves a specified number of items in the enumeration sequence.
+description: Retrieves a specified number of items in the enumeration sequence. (IEnumProgressItems.Next)
 helpviewer_keywords: ["IEnumProgressItems interface [IMAPI]","Next method","IEnumProgressItems.Next","IEnumProgressItems::Next","Next","Next method [IMAPI]","Next method [IMAPI]","IEnumProgressItems interface","imapi.ienumprogressitems_next","imapi2fs/IEnumProgressItems::Next"]
 old-location: imapi\ienumprogressitems_next.htm
 tech.root: imapi

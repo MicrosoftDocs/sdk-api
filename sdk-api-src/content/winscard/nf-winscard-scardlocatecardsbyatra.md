@@ -1,7 +1,7 @@
 ---
 UID: NF:winscard.SCardLocateCardsByATRA
 title: SCardLocateCardsByATRA function (winscard.h)
-description: Searches the readers listed in the rgReaderStates parameter for a card with a name that matches one of the card names contained in one of the SCARD_ATRMASK structures specified by the rgAtrMasks parameter.
+description: Searches the readers listed in the rgReaderStates parameter for a card with a name that matches one of the card names contained in one of the SCARD_ATRMASK structures specified by the rgAtrMasks parameter. (ANSI)
 helpviewer_keywords: ["SCardLocateCardsByATR","SCardLocateCardsByATR function [Security]","SCardLocateCardsByATRA","SCardLocateCardsByATRW","_smart_scardlocatecardsbyatr","security.scardlocatecardsbyatr","winscard/SCardLocateCardsByATR","winscard/SCardLocateCardsByATRA","winscard/SCardLocateCardsByATRW"]
 old-location: security\scardlocatecardsbyatr.htm
 tech.root: security

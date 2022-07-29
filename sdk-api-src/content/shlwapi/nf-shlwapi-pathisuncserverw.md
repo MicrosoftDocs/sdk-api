@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathIsUNCServerW
 title: PathIsUNCServerW function (shlwapi.h)
-description: Determines if a string is a valid Universal Naming Convention (UNC) for a server path only.
+description: Determines if a string is a valid Universal Naming Convention (UNC) for a server path only. (Unicode)
 helpviewer_keywords: ["PathIsUNCServer","PathIsUNCServer function [Windows Shell]","PathIsUNCServerA","PathIsUNCServerW","_win32_PathIsUNCServer","shell.PathIsUNCServer","shlwapi/PathIsUNCServer","shlwapi/PathIsUNCServerA","shlwapi/PathIsUNCServerW"]
 old-location: shell\PathIsUNCServer.htm
 tech.root: shell

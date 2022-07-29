@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiViewGetErrorA
 title: MsiViewGetErrorA function (msiquery.h)
-description: The MsiViewGetError function returns the error that occurred in the MsiViewModify function.
+description: The MsiViewGetError function returns the error that occurred in the MsiViewModify function. (ANSI)
 helpviewer_keywords: ["MsiViewGetError","MsiViewGetError function","MsiViewGetErrorA","MsiViewGetErrorW","_msi_msiviewgeterror","msiquery/MsiViewGetError","msiquery/MsiViewGetErrorA","msiquery/MsiViewGetErrorW","setup.msiviewgeterror"]
 old-location: setup\msiviewgeterror.htm
 tech.root: setup

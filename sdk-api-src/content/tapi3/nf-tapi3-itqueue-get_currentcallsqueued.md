@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3.ITQueue.get_CurrentCallsQueued
 title: ITQueue::get_CurrentCallsQueued (tapi3.h)
-description: The get_CurrentCallsQueued method gets the number of incoming calls currently waiting.
+description: The get_CurrentCallsQueued method gets the number of incoming calls currently waiting. (ITQueue.get_CurrentCallsQueued)
 helpviewer_keywords: ["ITQueue interface [TAPI 2.2]","get_CurrentCallsQueued method","ITQueue.get_CurrentCallsQueued","ITQueue::get_CurrentCallsQueued","_tapi3_itqueue_get_currentcallsqueued","get_CurrentCallsQueued","get_CurrentCallsQueued method [TAPI 2.2]","get_CurrentCallsQueued method [TAPI 2.2]","ITQueue interface","tapi3.itqueue_get_currentcallsqueued","tapi3cc/ITQueue::get_CurrentCallsQueued"]
 old-location: tapi3\itqueue_get_currentcallsqueued.htm
 tech.root: tapi3

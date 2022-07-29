@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3cc.IEnumAgentHandler.Skip
 title: IEnumAgentHandler::Skip (tapi3cc.h)
-description: The Skip method skips over the next specified number of elements in the enumeration sequence.
+description: The Skip method skips over the next specified number of elements in the enumeration sequence. (IEnumAgentHandler.Skip)
 helpviewer_keywords: ["IEnumAgentHandler interface [TAPI 2.2]","Skip method","IEnumAgentHandler.Skip","IEnumAgentHandler::Skip","Skip","Skip method [TAPI 2.2]","Skip method [TAPI 2.2]","IEnumAgentHandler interface","_tapi3_ienumagenthandler_skip","tapi3.ienumagenthandler_skip","tapi3cc/IEnumAgentHandler::Skip"]
 old-location: tapi3\ienumagenthandler_skip.htm
 tech.root: tapi3

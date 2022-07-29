@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DVertexShader9.GetDevice
 title: IDirect3DVertexShader9::GetDevice (d3d9helper.h)
-description: Gets the device.
+description: Gets the device. (IDirect3DVertexShader9.GetDevice)
 helpviewer_keywords: ["536585c6-a856-5863-9168-9c42256bfb53","GetDevice","GetDevice method [Direct3D 9]","GetDevice method [Direct3D 9]","IDirect3DVertexShader9 interface","IDirect3DVertexShader9 interface [Direct3D 9]","GetDevice method","IDirect3DVertexShader9.GetDevice","IDirect3DVertexShader9::GetDevice","d3d9helper/IDirect3DVertexShader9::GetDevice","direct3d9.idirect3dvertexshader9__getdevice"]
 old-location: direct3d9\idirect3dvertexshader9__getdevice.htm
 tech.root: direct3d9

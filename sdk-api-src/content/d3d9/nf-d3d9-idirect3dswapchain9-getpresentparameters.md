@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DSwapChain9.GetPresentParameters
 title: IDirect3DSwapChain9::GetPresentParameters (d3d9.h)
-description: Retrieves the presentation parameters associated with a swap chain.
+description: Retrieves the presentation parameters associated with a swap chain. (IDirect3DSwapChain9.GetPresentParameters)
 helpviewer_keywords: ["GetPresentParameters","GetPresentParameters method [Direct3D 9]","GetPresentParameters method [Direct3D 9]","IDirect3DSwapChain9 interface","IDirect3DSwapChain9 interface [Direct3D 9]","GetPresentParameters method","IDirect3DSwapChain9.GetPresentParameters","IDirect3DSwapChain9::GetPresentParameters","ac85b9e4-b5da-4efa-cb76-254ef41c07cb","d3d9helper/IDirect3DSwapChain9::GetPresentParameters","direct3d9.idirect3dswapchain9__getpresentparameters"]
 old-location: direct3d9\idirect3dswapchain9__getpresentparameters.htm
 tech.root: direct3d9

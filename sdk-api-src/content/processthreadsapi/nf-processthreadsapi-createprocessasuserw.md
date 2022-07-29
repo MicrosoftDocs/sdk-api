@@ -1,7 +1,7 @@
 ---
 UID: NF:processthreadsapi.CreateProcessAsUserW
 title: CreateProcessAsUserW function (processthreadsapi.h)
-description: Creates a new process and its primary thread. The new process runs in the security context of the user represented by the specified token.
+description: Creates a new process and its primary thread. The new process runs in the security context of the user represented by the specified token. (Unicode)
 helpviewer_keywords: ["CreateProcessAsUser","CreateProcessAsUser function","CreateProcessAsUserA","CreateProcessAsUserW","_win32_createprocessasuser","base.createprocessasuser","processthreadsapi/CreateProcessAsUser","processthreadsapi/CreateProcessAsUserA","processthreadsapi/CreateProcessAsUserW"]
 old-location: base\createprocessasuser.htm
 tech.root: backup

@@ -1,7 +1,7 @@
 ---
 UID: NF:intshcut.TranslateURLW
 title: TranslateURLW function (intshcut.h)
-description: Applies common translations to a given URL string, creating a new URL string.
+description: Applies common translations to a given URL string, creating a new URL string. (Unicode)
 helpviewer_keywords: ["TRANSLATEURL_FL_GUESS_PROTOCOL","TRANSLATEURL_FL_USE_DEFAULT_PROTOCOL","TranslateURL","TranslateURL function [Windows Shell]","TranslateURLA","TranslateURLW","_win32_TranslateURL","intshcut/TranslateURL","intshcut/TranslateURLA","intshcut/TranslateURLW","shell.TranslateURL"]
 old-location: shell\TranslateURL.htm
 tech.root: shell

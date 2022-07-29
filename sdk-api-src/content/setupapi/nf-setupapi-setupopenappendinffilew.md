@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupOpenAppendInfFileW
 title: SetupOpenAppendInfFileW function (setupapi.h)
-description: The SetupOpenAppendInfFile function appends the information in an INF file to an INF file previously opened by SetupOpenInfFile.
+description: The SetupOpenAppendInfFile function appends the information in an INF file to an INF file previously opened by SetupOpenInfFile. (Unicode)
 helpviewer_keywords: ["SetupOpenAppendInfFile","SetupOpenAppendInfFile function [Setup API]","SetupOpenAppendInfFileA","SetupOpenAppendInfFileW","_setupapi_setupopenappendinffile","setup.setupopenappendinffile","setupapi/SetupOpenAppendInfFile","setupapi/SetupOpenAppendInfFileA","setupapi/SetupOpenAppendInfFileW"]
 old-location: setup\setupopenappendinffile.htm
 tech.root: setup

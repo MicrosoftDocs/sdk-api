@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.GetProperties
 title: IVdsIscsiTarget::GetProperties (vds.h)
-description: Returns the properties of an iSCSI target.
+description: Returns the properties of an iSCSI target. (IVdsIscsiTarget.GetProperties)
 helpviewer_keywords: ["GetProperties","GetProperties method [VDS]","GetProperties method [VDS]","IVdsIscsiTarget interface","IVdsIscsiTarget interface [VDS]","GetProperties method","IVdsIscsiTarget.GetProperties","IVdsIscsiTarget::GetProperties","base.ivdsiscsitarget_getproperties","vds/IVdsIscsiTarget::GetProperties","vdshwprv/IVdsIscsiTarget::GetProperties"]
 old-location: base\ivdsiscsitarget_getproperties.htm
 tech.root: base

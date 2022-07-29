@@ -1,7 +1,7 @@
 ---
 UID: NF:immdev.ImmGetRegisterWordStyleW
 title: ImmGetRegisterWordStyleW function (immdev.h)
-description: Retrieves a list of the styles supported by the IME associated with the specified input locale.
+description: Retrieves a list of the styles supported by the IME associated with the specified input locale. (ImmGetRegisterWordStyleW)
 helpviewer_keywords: ["ImmGetRegisterWordStyle","ImmGetRegisterWordStyle function [Internationalization for Windows Applications]","ImmGetRegisterWordStyleA","ImmGetRegisterWordStyleW","_win32_ImmGetRegisterWordStyle","imm/ImmGetRegisterWordStyle","imm/ImmGetRegisterWordStyleA","imm/ImmGetRegisterWordStyleW","intl.immgetregisterwordstyle"]
 old-location: intl\immgetregisterwordstyle.htm
 tech.root: Intl

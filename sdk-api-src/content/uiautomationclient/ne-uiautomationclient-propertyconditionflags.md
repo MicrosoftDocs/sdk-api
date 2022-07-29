@@ -1,7 +1,7 @@
 ---
 UID: NE:uiautomationclient.PropertyConditionFlags
 title: PropertyConditionFlags (uiautomationclient.h)
-description: Contains values used in creating property conditions.
+description: Contains values used in creating property conditions. (PropertyConditionFlags)
 helpviewer_keywords: ["PropertyConditionFlags","PropertyConditionFlags enumeration [Windows Accessibility]","PropertyConditionFlags_IgnoreCase","PropertyConditionFlags_MatchSubstring","PropertyConditionFlags_None","uiauto.uiauto_PropertyConditionFlagsEnum","uiauto_PropertyConditionFlagsEnum","uiautomationclient/PropertyConditionFlags","uiautomationclient/PropertyConditionFlags_IgnoreCase","uiautomationclient/PropertyConditionFlags_MatchSubstring","uiautomationclient/PropertyConditionFlags_None","winauto.uiauto_PropertyConditionFlagsEnum"]
 old-location: winauto\uiauto_PropertyConditionFlagsEnum.htm
 tech.root: WinAuto

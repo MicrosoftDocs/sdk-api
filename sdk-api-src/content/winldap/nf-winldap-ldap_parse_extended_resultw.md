@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_parse_extended_resultW
 title: ldap_parse_extended_resultW function (winldap.h)
-description: The ldap_parse_extended_result parses the results of an LDAP extended operation.
+description: The ldap_parse_extended_result parses the results of an LDAP extended operation. (Unicode)
 helpviewer_keywords: ["_ldap_ldap_parse_extended_result","ldap.ldap__parse__extended__result","ldap.ldap_parse_extended_result","ldap_parse_extended_result","ldap_parse_extended_result function [LDAP]","ldap_parse_extended_resultA","ldap_parse_extended_resultW","winldap/ldap_parse_extended_result","winldap/ldap_parse_extended_resultA","winldap/ldap_parse_extended_resultW"]
 old-location: ldap\ldap_parse_extended_result.htm
 tech.root: ldap

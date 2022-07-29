@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsPack.ReplaceDisk
 title: IVdsPack::ReplaceDisk (vds.h)
-description: Not supported.This method is reserved for future use.
+description: Not supported.This method is reserved for future use. (IVdsPack.ReplaceDisk)
 helpviewer_keywords: ["IVdsPack interface [VDS]","ReplaceDisk method","IVdsPack.ReplaceDisk","IVdsPack::ReplaceDisk","ReplaceDisk","ReplaceDisk method [VDS]","ReplaceDisk method [VDS]","IVdsPack interface","base.ivdspack_replacedisk","vds/IVdsPack::ReplaceDisk"]
 old-location: base\ivdspack_replacedisk.htm
 tech.root: base

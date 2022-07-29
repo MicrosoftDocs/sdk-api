@@ -1,7 +1,7 @@
 ---
 UID: NF:pdh.PdhEnumObjectItemsA
 title: PdhEnumObjectItemsA function (pdh.h)
-description: Returns the specified object's counter and instance names that exist on the specified computer or in the specified log file. To use handles to data sources, use the PdhEnumObjectItemsH function.
+description: Returns the specified object's counter and instance names that exist on the specified computer or in the specified log file. To use handles to data sources, use the PdhEnumObjectItemsH function. (ANSI)
 helpviewer_keywords: ["PERF_DETAIL_ADVANCED","PERF_DETAIL_EXPERT","PERF_DETAIL_NOVICE","PERF_DETAIL_WIZARD","PdhEnumObjectItems","PdhEnumObjectItems function [Perf]","PdhEnumObjectItemsA","PdhEnumObjectItemsW","_win32_pdhenumobjectitems","base.pdhenumobjectitems","pdh/PdhEnumObjectItems","pdh/PdhEnumObjectItemsA","pdh/PdhEnumObjectItemsW","perf.pdhenumobjectitems"]
 old-location: perf\pdhenumobjectitems.htm
 tech.root: perf

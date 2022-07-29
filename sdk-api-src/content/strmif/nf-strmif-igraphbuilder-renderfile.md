@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IGraphBuilder.RenderFile
 title: IGraphBuilder::RenderFile (strmif.h)
-description: The RenderFile method builds a filter graph that renders the specified file.
+description: The RenderFile method builds a filter graph that renders the specified file. (IGraphBuilder.RenderFile)
 helpviewer_keywords: ["IGraphBuilder interface [DirectShow]","RenderFile method","IGraphBuilder.RenderFile","IGraphBuilder::RenderFile","IGraphBuilderRenderFile","RenderFile","RenderFile method [DirectShow]","RenderFile method [DirectShow]","IGraphBuilder interface","dshow.igraphbuilder_renderfile","strmif/IGraphBuilder::RenderFile"]
 old-location: dshow\igraphbuilder_renderfile.htm
 tech.root: dshow

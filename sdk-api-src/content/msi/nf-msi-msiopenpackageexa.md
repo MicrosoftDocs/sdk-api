@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiOpenPackageExA
 title: MsiOpenPackageExA function (msi.h)
-description: The MsiOpenPackageEx function opens a package to use with functions that access the product database.
+description: The MsiOpenPackageEx function opens a package to use with functions that access the product database. (ANSI)
 helpviewer_keywords: ["MSIOPENPACKAGEFLAGS_IGNOREMACHINESTATE","MsiOpenPackageEx","MsiOpenPackageEx function","MsiOpenPackageExA","MsiOpenPackageExW","_msi_msiopenpackageex","msi/MsiOpenPackageEx","msi/MsiOpenPackageExA","msi/MsiOpenPackageExW","setup.msiopenpackageex"]
 old-location: setup\msiopenpackageex.htm
 tech.root: setup

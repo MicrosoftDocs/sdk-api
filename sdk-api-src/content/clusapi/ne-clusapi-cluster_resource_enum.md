@@ -1,7 +1,7 @@
 ---
 UID: NE:clusapi.CLUSTER_RESOURCE_ENUM
 title: CLUSTER_RESOURCE_ENUM (clusapi.h)
-description: Describes the type of cluster object being enumerated by the ClusterResourceEnum or ClusterResourceOpenEnum functions.
+description: Describes the type of cluster object being enumerated by the ClusterResourceEnum or ClusterResourceOpenEnum functions. (CLUSTER_RESOURCE_ENUM)
 helpviewer_keywords: ["CLUSTER_RESOURCE_ENUM","CLUSTER_RESOURCE_ENUM enumeration [Failover Cluster]","CLUSTER_RESOURCE_ENUM_ALL","CLUSTER_RESOURCE_ENUM_DEPENDS","CLUSTER_RESOURCE_ENUM_NODES","CLUSTER_RESOURCE_ENUM_PROVIDES","_CLUSTER_RESOURCE_ENUM","_CLUSTER_RESOURCE_ENUM enumeration [Failover Cluster]","clusapi/CLUSTER_RESOURCE_ENUM","clusapi/CLUSTER_RESOURCE_ENUM_ALL","clusapi/CLUSTER_RESOURCE_ENUM_DEPENDS","clusapi/CLUSTER_RESOURCE_ENUM_NODES","clusapi/CLUSTER_RESOURCE_ENUM_PROVIDES","clusapi/_CLUSTER_RESOURCE_ENUM","msclus/CLUSTER_RESOURCE_ENUM","msclus/CLUSTER_RESOURCE_ENUM_ALL","msclus/CLUSTER_RESOURCE_ENUM_DEPENDS","msclus/CLUSTER_RESOURCE_ENUM_NODES","msclus/CLUSTER_RESOURCE_ENUM_PROVIDES","msclus/_CLUSTER_RESOURCE_ENUM","mscs.cluster_resource_enum"]
 old-location: mscs\cluster_resource_enum.htm
 tech.root: MsCS

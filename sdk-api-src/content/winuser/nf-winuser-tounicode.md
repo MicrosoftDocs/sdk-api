@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.ToUnicode
 title: ToUnicode function (winuser.h)
-description: Translates the specified virtual-key code and keyboard state to the corresponding Unicode character or characters.
+description: Translates the specified virtual-key code and keyboard state to the corresponding Unicode character or characters. (ToUnicode)
 helpviewer_keywords: ["ToUnicode","ToUnicode function [Keyboard and Mouse Input]","_win32_ToUnicode","_win32_tounicode_cpp","inputdev.tounicode","winui._win32_tounicode","winuser/ToUnicode"]
 old-location: inputdev\tounicode.htm
 tech.root: inputdev

@@ -1,7 +1,7 @@
 ---
 UID: NF:commdlg.GetFileTitleA
 title: GetFileTitleA function (commdlg.h)
-description: Retrieves the name of the specified file.
+description: Retrieves the name of the specified file. (ANSI)
 helpviewer_keywords: ["GetFileTitle","GetFileTitle function [Dialog Boxes]","GetFileTitleA","GetFileTitleW","_win32_GetFileTitle","_win32_getfiletitle_cpp","commdlg/GetFileTitle","commdlg/GetFileTitleA","commdlg/GetFileTitleW","dlgbox.getfiletitle","winui._win32_getfiletitle"]
 old-location: dlgbox\getfiletitle.htm
 tech.root: dlgbox

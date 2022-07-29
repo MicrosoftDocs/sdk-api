@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagLOGCOLORSPACEW
 title: LOGCOLORSPACEW (wingdi.h)
-description: The LOGCOLORSPACE structure contains information that defines a logical color space.
+description: The LOGCOLORSPACE structure contains information that defines a logical color space. (Unicode)
 helpviewer_keywords: ["*LPLOGCOLORSPACEW","LOGCOLORSPACE","LOGCOLORSPACE structure [Windows Color System]","LOGCOLORSPACEW","LPLOGCOLORSPACE","LPLOGCOLORSPACE structure pointer [Windows Color System]","_color_LOGCOLORSPACE_str","wcs.logcolorspace","wingdi/LOGCOLORSPACE","wingdi/LPLOGCOLORSPACE"]
 old-location: wcs\logcolorspace.htm
 tech.root: WCS

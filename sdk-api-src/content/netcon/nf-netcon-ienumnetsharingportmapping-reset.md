@@ -1,7 +1,7 @@
 ---
 UID: NF:netcon.IEnumNetSharingPortMapping.Reset
 title: IEnumNetSharingPortMapping::Reset (netcon.h)
-description: The Reset method causes subsequent enumeration calls to operate from the beginning of the enumeration.
+description: The Reset method causes subsequent enumeration calls to operate from the beginning of the enumeration. (IEnumNetSharingPortMapping.Reset)
 helpviewer_keywords: ["IEnumNetSharingPortMapping interface [ICS/ICF]","Reset method","IEnumNetSharingPortMapping.Reset","IEnumNetSharingPortMapping::Reset","Reset","Reset method [ICS/ICF]","Reset method [ICS/ICF]","IEnumNetSharingPortMapping interface","_ics_ienumnetsharingportmapping_reset","ics.ienumnetsharingportmapping_reset","netcon/IEnumNetSharingPortMapping::Reset"]
 old-location: ics\ienumnetsharingportmapping_reset.htm
 tech.root: ics

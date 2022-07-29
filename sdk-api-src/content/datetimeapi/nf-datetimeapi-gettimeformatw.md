@@ -1,7 +1,7 @@
 ---
 UID: NF:datetimeapi.GetTimeFormatW
 title: GetTimeFormatW function (datetimeapi.h)
-description: Formats time as a time string for a locale specified by identifier. The function formats either a specified time or the local system time.
+description: Formats time as a time string for a locale specified by identifier. The function formats either a specified time or the local system time. (Unicode)
 helpviewer_keywords: ["GetTimeFormat","GetTimeFormat function [Internationalization for Windows Applications]","GetTimeFormatA","GetTimeFormatW","_win32_GetTimeFormat","datetimeapi/GetTimeFormat","datetimeapi/GetTimeFormatA","datetimeapi/GetTimeFormatW","intl.gettimeformat"]
 old-location: intl\gettimeformat.htm
 tech.root: Intl

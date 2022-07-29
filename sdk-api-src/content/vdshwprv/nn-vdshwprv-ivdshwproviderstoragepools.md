@@ -1,7 +1,7 @@
 ---
 UID: NN:vdshwprv.IVdsHwProviderStoragePools
 title: IVdsHwProviderStoragePools (vdshwprv.h)
-description: Provides methods to create LUNs in a storage pool and enumerate the storage pools managed by a hardware provider.
+description: Provides methods to create LUNs in a storage pool and enumerate the storage pools managed by a hardware provider. (IVdsHwProviderStoragePools)
 helpviewer_keywords: ["IVdsHwProviderStoragePools","IVdsHwProviderStoragePools interface","IVdsHwProviderStoragePools interface","described","base.ivdshwproviderstoragepools","vds/IVdsHwProviderStoragePools","vdshwprv/IVdsHwProviderStoragePools"]
 old-location: base\ivdshwproviderstoragepools.htm
 tech.root: base

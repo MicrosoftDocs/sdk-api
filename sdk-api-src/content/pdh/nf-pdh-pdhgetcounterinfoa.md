@@ -1,7 +1,7 @@
 ---
 UID: NF:pdh.PdhGetCounterInfoA
 title: PdhGetCounterInfoA function (pdh.h)
-description: Retrieves information about a counter, such as data size, counter type, path, and user-supplied data values.
+description: Retrieves information about a counter, such as data size, counter type, path, and user-supplied data values. (ANSI)
 helpviewer_keywords: ["PdhGetCounterInfo","PdhGetCounterInfo function [Perf]","PdhGetCounterInfoA","PdhGetCounterInfoW","_win32_pdhgetcounterinfo","base.pdhgetcounterinfo","pdh/PdhGetCounterInfo","pdh/PdhGetCounterInfoA","pdh/PdhGetCounterInfoW","perf.pdhgetcounterinfo"]
 old-location: perf\pdhgetcounterinfo.htm
 tech.root: perf

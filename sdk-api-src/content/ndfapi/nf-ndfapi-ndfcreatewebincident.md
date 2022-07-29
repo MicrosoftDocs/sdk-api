@@ -1,7 +1,7 @@
 ---
 UID: NF:ndfapi.NdfCreateWebIncident
 title: NdfCreateWebIncident function (ndfapi.h)
-description: Diagnoses web connectivity problems.
+description: Diagnoses web connectivity problems. (NdfCreateWebIncident)
 helpviewer_keywords: ["NdfCreateWebIncident","NdfCreateWebIncident function [NDF]","ndf.ndfcreatewebincident","ndfapi/NdfCreateWebIncident"]
 old-location: ndf\ndfcreatewebincident.htm
 tech.root: NDF

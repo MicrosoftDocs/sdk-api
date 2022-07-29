@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DVolume9.GetPrivateData
 title: IDirect3DVolume9::GetPrivateData (d3d9.h)
-description: Copies the private data associated with the volume to a provided buffer.
+description: Copies the private data associated with the volume to a provided buffer. (IDirect3DVolume9.GetPrivateData)
 helpviewer_keywords: ["1b475aea-86d8-9a27-8391-6760763a593e","GetPrivateData","GetPrivateData method [Direct3D 9]","GetPrivateData method [Direct3D 9]","IDirect3DVolume9 interface","IDirect3DVolume9 interface [Direct3D 9]","GetPrivateData method","IDirect3DVolume9.GetPrivateData","IDirect3DVolume9::GetPrivateData","d3d9helper/IDirect3DVolume9::GetPrivateData","direct3d9.idirect3dvolume9__getprivatedata"]
 old-location: direct3d9\idirect3dvolume9__getprivatedata.htm
 tech.root: direct3d9

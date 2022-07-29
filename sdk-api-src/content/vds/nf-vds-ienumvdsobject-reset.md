@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IEnumVdsObject.Reset
 title: IEnumVdsObject::Reset (vds.h)
-description: Resets to the beginning of the enumeration.
+description: Resets to the beginning of the enumeration. (IEnumVdsObject.Reset)
 helpviewer_keywords: ["IEnumVdsObject interface [VDS]","Reset method","IEnumVdsObject.Reset","IEnumVdsObject::Reset","Reset","Reset method [VDS]","Reset method [VDS]","IEnumVdsObject interface","base.ienumvdsobject_reset","vds/IEnumVdsObject::Reset","vdshwprv/IEnumVdsObject::Reset"]
 old-location: base\ienumvdsobject_reset.htm
 tech.root: base

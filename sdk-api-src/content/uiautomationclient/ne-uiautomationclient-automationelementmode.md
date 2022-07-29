@@ -1,7 +1,7 @@
 ---
 UID: NE:uiautomationclient.AutomationElementMode
 title: AutomationElementMode (uiautomationclient.h)
-description: Contains values that specify the type of reference to use when returning UI Automation elements.
+description: Contains values that specify the type of reference to use when returning UI Automation elements. (AutomationElementMode)
 helpviewer_keywords: ["AutomationElementMode","AutomationElementMode enumeration [Windows Accessibility]","AutomationElementMode_Full","AutomationElementMode_None","uiauto.uiauto_AutomationElementModeEnum","uiauto_AutomationElementModeEnum","uiautomationclient/AutomationElementMode","uiautomationclient/AutomationElementMode_Full","uiautomationclient/AutomationElementMode_None","winauto.uiauto_AutomationElementModeEnum"]
 old-location: winauto\uiauto_AutomationElementModeEnum.htm
 tech.root: WinAuto

@@ -1,7 +1,7 @@
 ---
 UID: NF:winsvc.StartServiceA
 title: StartServiceA function (winsvc.h)
-description: Starts a service.
+description: Starts a service. (ANSI)
 helpviewer_keywords: ["StartService","StartService function","StartServiceA","StartServiceW","_win32_startservice","base.startservice","winsvc/StartService","winsvc/StartServiceA","winsvc/StartServiceW"]
 old-location: base\startservice.htm
 tech.root: security

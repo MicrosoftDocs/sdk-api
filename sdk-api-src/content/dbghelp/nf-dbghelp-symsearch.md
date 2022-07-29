@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymSearch
 title: SymSearch function (dbghelp.h)
-description: Searches for PDB symbols that meet the specified criteria.
+description: Searches for PDB symbols that meet the specified criteria. (SymSearchW)
 helpviewer_keywords: ["SYMSEARCH_ALLITEMS","SYMSEARCH_GLOBALSONLY","SYMSEARCH_MASKOBJS","SYMSEARCH_RECURSE","SymSearch","SymSearch function","SymSearchW","base.symsearch","dbghelp/SymSearch","dbghelp/SymSearchW"]
 old-location: base\symsearch.htm
 tech.root: Debug

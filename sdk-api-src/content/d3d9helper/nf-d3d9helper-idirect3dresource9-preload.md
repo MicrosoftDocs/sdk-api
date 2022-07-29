@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DResource9.PreLoad
 title: IDirect3DResource9::PreLoad (d3d9helper.h)
-description: Preloads a managed resource.
+description: Preloads a managed resource. (IDirect3DResource9.PreLoad)
 helpviewer_keywords: ["IDirect3DResource9 interface [Direct3D 9]","PreLoad method","IDirect3DResource9.PreLoad","IDirect3DResource9::PreLoad","PreLoad","PreLoad method [Direct3D 9]","PreLoad method [Direct3D 9]","IDirect3DResource9 interface","d3d9helper/IDirect3DResource9::PreLoad","direct3d9.idirect3dresource9__preload","eae2783a-4a7c-f994-50b0-b5b5c735921f"]
 old-location: direct3d9\idirect3dresource9__preload.htm
 tech.root: direct3d9

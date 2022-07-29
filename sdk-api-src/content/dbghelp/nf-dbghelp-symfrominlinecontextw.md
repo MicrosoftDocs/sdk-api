@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymFromInlineContextW
 title: SymFromInlineContextW function (dbghelp.h)
-description: Retrieves symbol information for the specified address and inline context.
+description: Retrieves symbol information for the specified address and inline context. (SymFromInlineContextW)
 helpviewer_keywords: ["SymFromInlineContext","SymFromInlineContext function","SymFromInlineContextW","base.symfrominlinecontext","dbghelp/SymFromInlineContext","dbghelp/SymFromInlineContextW"]
 old-location: base\symfrominlinecontext.htm
 tech.root: Debug

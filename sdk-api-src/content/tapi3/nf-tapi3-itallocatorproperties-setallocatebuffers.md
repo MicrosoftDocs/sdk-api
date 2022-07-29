@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3.ITAllocatorProperties.SetAllocateBuffers
 title: ITAllocatorProperties::SetAllocateBuffers (tapi3.h)
-description: The SetAllocateBuffers method determines whether the current allocator buffers must be set.
+description: The SetAllocateBuffers method determines whether the current allocator buffers must be set. (ITAllocatorProperties.SetAllocateBuffers)
 helpviewer_keywords: ["ITAllocatorProperties interface [TAPI 2.2]","SetAllocateBuffers method","ITAllocatorProperties.SetAllocateBuffers","ITAllocatorProperties::SetAllocateBuffers","SetAllocateBuffers","SetAllocateBuffers method [TAPI 2.2]","SetAllocateBuffers method [TAPI 2.2]","ITAllocatorProperties interface","_tapi3_itallocatorproperties_setallocatebuffers","tapi3.itallocatorproperties_setallocatebuffers","tapi3ds/ITAllocatorProperties::SetAllocateBuffers"]
 old-location: tapi3\itallocatorproperties_setallocatebuffers.htm
 tech.root: tapi3

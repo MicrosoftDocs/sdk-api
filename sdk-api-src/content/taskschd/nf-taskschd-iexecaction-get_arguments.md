@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IExecAction.get_Arguments
 title: IExecAction::get_Arguments (taskschd.h)
-description: Gets or sets the arguments associated with the command-line operation.
+description: Gets or sets the arguments associated with the command-line operation. (Get)
 helpviewer_keywords: ["Arguments property [Task Scheduler]","Arguments property [Task Scheduler]","IExecAction interface","IExecAction interface [Task Scheduler]","Arguments property","IExecAction.Arguments","IExecAction.get_Arguments","IExecAction::Arguments","IExecAction::get_Arguments","IExecAction::put_Arguments","get_Arguments","taskschd.iexecaction_arguments","taskschd/IExecAction::Arguments","taskschd/IExecAction::get_Arguments","taskschd/IExecAction::put_Arguments"]
 old-location: taskschd\iexecaction_arguments.htm
 tech.root: taskschd

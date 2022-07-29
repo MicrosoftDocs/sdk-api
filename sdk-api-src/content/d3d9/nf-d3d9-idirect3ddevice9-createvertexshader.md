@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.CreateVertexShader
 title: IDirect3DDevice9::CreateVertexShader (d3d9.h)
-description: Creates a vertex shader.
+description: Creates a vertex shader. (IDirect3DDevice9.CreateVertexShader)
 helpviewer_keywords: ["42a56eab-a68f-232a-b21e-cc24c0b7b58d","CreateVertexShader","CreateVertexShader method [Direct3D 9]","CreateVertexShader method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","CreateVertexShader method","IDirect3DDevice9.CreateVertexShader","IDirect3DDevice9::CreateVertexShader","d3d9helper/IDirect3DDevice9::CreateVertexShader","direct3d9.idirect3ddevice9__createvertexshader"]
 old-location: direct3d9\idirect3ddevice9__createvertexshader.htm
 tech.root: direct3d9

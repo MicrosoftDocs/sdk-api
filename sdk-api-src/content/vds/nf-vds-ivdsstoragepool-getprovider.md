@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsStoragePool.GetProvider
 title: IVdsStoragePool::GetProvider (vds.h)
-description: Returns the hardware provider that manages the storage pool.
+description: Returns the hardware provider that manages the storage pool. (IVdsStoragePool.GetProvider)
 helpviewer_keywords: ["GetProvider","GetProvider method","GetProvider method","IVdsStoragePool interface","IVdsStoragePool interface","GetProvider method","IVdsStoragePool.GetProvider","IVdsStoragePool::GetProvider","base.ivdsstoragepool_getprovider","vds/IVdsStoragePool::GetProvider","vdshwprv/IVdsStoragePool::GetProvider"]
 old-location: base\ivdsstoragepool_getprovider.htm
 tech.root: base

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.AddStorageFilterEntries
 title: ID3D11InfoQueue::AddStorageFilterEntries (d3d11sdklayers.h)
-description: Add storage filters to the top of the storage-filter stack.
+description: Add storage filters to the top of the storage-filter stack. (ID3D11InfoQueue.AddStorageFilterEntries)
 helpviewer_keywords: ["931a126d-863e-dd0f-39ba-9205662592db","AddStorageFilterEntries","AddStorageFilterEntries method [Direct3D 11]","AddStorageFilterEntries method [Direct3D 11]","ID3D11InfoQueue interface","ID3D11InfoQueue interface [Direct3D 11]","AddStorageFilterEntries method","ID3D11InfoQueue.AddStorageFilterEntries","ID3D11InfoQueue::AddStorageFilterEntries","d3d11sdklayers/ID3D11InfoQueue::AddStorageFilterEntries","direct3d11.id3d11infoqueue_addstoragefilterentries"]
 old-location: direct3d11\id3d11infoqueue_addstoragefilterentries.htm
 tech.root: direct3d11

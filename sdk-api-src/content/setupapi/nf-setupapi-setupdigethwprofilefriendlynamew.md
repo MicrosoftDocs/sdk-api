@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiGetHwProfileFriendlyNameW
 title: SetupDiGetHwProfileFriendlyNameW function (setupapi.h)
-description: The SetupDiGetHwProfileFriendlyName function retrieves the friendly name associated with a hardware profile ID.
+description: The SetupDiGetHwProfileFriendlyName function retrieves the friendly name associated with a hardware profile ID. (Unicode)
 helpviewer_keywords: ["SetupDiGetHwProfileFriendlyName","SetupDiGetHwProfileFriendlyName function [Device and Driver Installation]","SetupDiGetHwProfileFriendlyNameA","SetupDiGetHwProfileFriendlyNameW","devinst.setupdigethwprofilefriendlyname","di-rtns_3a055603-6e43-449a-bfd0-fbd7434bebfe.xml","setupapi/SetupDiGetHwProfileFriendlyName"]
 old-location: devinst\setupdigethwprofilefriendlyname.htm
 tech.root: devinst

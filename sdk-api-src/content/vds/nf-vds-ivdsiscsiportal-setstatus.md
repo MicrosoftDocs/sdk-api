@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsIscsiPortal.SetStatus
 title: IVdsIscsiPortal::SetStatus (vds.h)
-description: Sets the status of a portal to the specified value.
+description: Sets the status of a portal to the specified value. (IVdsIscsiPortal.SetStatus)
 helpviewer_keywords: ["IVdsIscsiPortal interface [VDS]","SetStatus method","IVdsIscsiPortal.SetStatus","IVdsIscsiPortal::SetStatus","SetStatus","SetStatus method [VDS]","SetStatus method [VDS]","IVdsIscsiPortal interface","base.ivdsiscsiportal_setstatus","vds/IVdsIscsiPortal::SetStatus","vdshwprv/IVdsIscsiPortal::SetStatus"]
 old-location: base\ivdsiscsiportal_setstatus.htm
 tech.root: base

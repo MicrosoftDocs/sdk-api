@@ -1,7 +1,7 @@
 ---
 UID: NF:imm.ImmSetCompositionWindow
 title: ImmSetCompositionWindow function (imm.h)
-description: Sets the position of the composition window.
+description: Sets the position of the composition window. (ImmSetCompositionWindow)
 helpviewer_keywords: ["ImmSetCompositionWindow","ImmSetCompositionWindow function [Internationalization for Windows Applications]","_win32_ImmSetCompositionWindow","imm/ImmSetCompositionWindow","intl.immsetcompositionwindow"]
 old-location: intl\immsetcompositionwindow.htm
 tech.root: Intl

@@ -1,7 +1,7 @@
 ---
 UID: NN:objidlbase.IEnumUnknown
 title: IEnumUnknown (objidlbase.h)
-description: Enumerates objects with the IUnknown interface. It can be used to enumerate through the objects in a component containing multiple objects.
+description: Enumerates objects with the IUnknown interface. It can be used to enumerate through the objects in a component containing multiple objects. (IEnumUnknown)
 helpviewer_keywords: ["IEnumUnknown","IEnumUnknown interface [COM]","IEnumUnknown interface [COM]","described","_com_ienumunknown","com.ienumunknown","objidlbase/IEnumUnknown"]
 old-location: com\ienumunknown.htm
 tech.root: com

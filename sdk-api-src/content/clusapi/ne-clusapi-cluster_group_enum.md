@@ -1,7 +1,7 @@
 ---
 UID: NE:clusapi.CLUSTER_GROUP_ENUM
 title: CLUSTER_GROUP_ENUM (clusapi.h)
-description: Describes the type of cluster object being enumerated by the ClusterGroupEnum and ClusterGroupOpenEnum functions.
+description: Describes the type of cluster object being enumerated by the ClusterGroupEnum and ClusterGroupOpenEnum functions. (CLUSTER_GROUP_ENUM)
 helpviewer_keywords: ["CLUSTER_GROUP_ENUM","CLUSTER_GROUP_ENUM enumeration [Failover Cluster]","CLUSTER_GROUP_ENUM_ALL","CLUSTER_GROUP_ENUM_CONTAINS","CLUSTER_GROUP_ENUM_NODES","_CLUSTER_GROUP_ENUM","_CLUSTER_GROUP_ENUM enumeration [Failover Cluster]","clusapi/CLUSTER_GROUP_ENUM","clusapi/CLUSTER_GROUP_ENUM_ALL","clusapi/CLUSTER_GROUP_ENUM_CONTAINS","clusapi/CLUSTER_GROUP_ENUM_NODES","clusapi/_CLUSTER_GROUP_ENUM","msclus/CLUSTER_GROUP_ENUM","msclus/CLUSTER_GROUP_ENUM_ALL","msclus/CLUSTER_GROUP_ENUM_CONTAINS","msclus/CLUSTER_GROUP_ENUM_NODES","msclus/_CLUSTER_GROUP_ENUM","mscs.cluster_group_enum"]
 old-location: mscs\cluster_group_enum.htm
 tech.root: MsCS

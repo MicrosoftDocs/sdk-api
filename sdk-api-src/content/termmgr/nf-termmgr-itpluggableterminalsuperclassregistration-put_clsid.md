@@ -1,7 +1,7 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.put_CLSID
 title: ITPluggableTerminalSuperclassRegistration::put_CLSID (termmgr.h)
-description: The put_CLSID method sets the CLSID used to CoCreateInstance the terminal.
+description: The put_CLSID method sets the CLSID used to CoCreateInstance the terminal. (ITPluggableTerminalSuperclassRegistration.put_CLSID)
 helpviewer_keywords: ["ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2]","put_CLSID method","ITPluggableTerminalSuperclassRegistration.put_CLSID","ITPluggableTerminalSuperclassRegistration::put_CLSID","_tapi3_itpluggableterminalsuperclassregistration_put_clsid","put_CLSID","put_CLSID method [TAPI 2.2]","put_CLSID method [TAPI 2.2]","ITPluggableTerminalSuperclassRegistration interface","tapi3.itpluggableterminalsuperclassregistration_put_clsid","termmgr/ITPluggableTerminalSuperclassRegistration::put_CLSID"]
 old-location: tapi3\itpluggableterminalsuperclassregistration_put_clsid.htm
 tech.root: tapi3

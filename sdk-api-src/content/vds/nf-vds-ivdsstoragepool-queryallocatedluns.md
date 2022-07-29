@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsStoragePool.QueryAllocatedLuns
 title: IVdsStoragePool::QueryAllocatedLuns (vds.h)
-description: Returns an object that enumerates the allocated LUNs for a storage pool.
+description: Returns an object that enumerates the allocated LUNs for a storage pool. (IVdsStoragePool.QueryAllocatedLuns)
 helpviewer_keywords: ["IVdsStoragePool interface","QueryAllocatedLuns method","IVdsStoragePool.QueryAllocatedLuns","IVdsStoragePool::QueryAllocatedLuns","QueryAllocatedLuns","QueryAllocatedLuns method","QueryAllocatedLuns method","IVdsStoragePool interface","base.ivdsstoragepool_queryallocatedluns","vds/IVdsStoragePool::QueryAllocatedLuns","vdshwprv/IVdsStoragePool::QueryAllocatedLuns"]
 old-location: base\ivdsstoragepool_queryallocatedluns.htm
 tech.root: base

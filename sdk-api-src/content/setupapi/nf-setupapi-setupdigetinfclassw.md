@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiGetINFClassW
 title: SetupDiGetINFClassW function (setupapi.h)
-description: The SetupDiGetINFClass function returns the class of a specified device INF file.
+description: The SetupDiGetINFClass function returns the class of a specified device INF file. (Unicode)
 helpviewer_keywords: ["SetupDiGetINFClass","SetupDiGetINFClass function [Device and Driver Installation]","SetupDiGetINFClassA","SetupDiGetINFClassW","devinst.setupdigetinfclass","di-rtns_10b0e077-9fb8-4d84-9c74-10b896774d40.xml","setupapi/SetupDiGetINFClass"]
 old-location: devinst\setupdigetinfclass.htm
 tech.root: devinst

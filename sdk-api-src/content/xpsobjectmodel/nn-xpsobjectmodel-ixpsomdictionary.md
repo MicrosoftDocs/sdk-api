@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMDictionary interface
 
-
 ## -description
 
 The dictionary is used by an XPS package to share resources.

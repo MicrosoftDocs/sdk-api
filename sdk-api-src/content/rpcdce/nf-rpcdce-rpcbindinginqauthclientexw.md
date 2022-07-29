@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcBindingInqAuthClientExW
 title: RpcBindingInqAuthClientExW function (rpcdce.h)
-description: A server application calls the RpcBindingInqAuthClientEx function to obtain extended information about the client program that made the remote procedure call.
+description: A server application calls the RpcBindingInqAuthClientEx function to obtain extended information about the client program that made the remote procedure call. (RpcBindingInqAuthClientExW)
 helpviewer_keywords: ["RPC_C_FULL_CERT_CHAIN","RpcBindingInqAuthClientEx","RpcBindingInqAuthClientEx function [RPC]","RpcBindingInqAuthClientExA","RpcBindingInqAuthClientExW","_rpc_rpcbindinginqauthclientex","rpc.rpcbindinginqauthclientex","rpcdce/RpcBindingInqAuthClientEx","rpcdce/RpcBindingInqAuthClientExA","rpcdce/RpcBindingInqAuthClientExW"]
 old-location: rpc\rpcbindinginqauthclientex.htm
 tech.root: Rpc

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.CharNextA
 title: CharNextA function (winuser.h)
-description: Retrieves a pointer to the next character in a string. This function can handle strings consisting of either single- or multi-byte characters.
+description: Retrieves a pointer to the next character in a string. This function can handle strings consisting of either single- or multi-byte characters. (ANSI)
 helpviewer_keywords: ["CharNext","CharNext function [Menus and Other Resources]","CharNextA","CharNextW","_win32_CharNext","_win32_charnext_cpp","menurc.charnext","winui._win32_charnext","winuser/CharNext","winuser/CharNextA","winuser/CharNextW"]
 old-location: menurc\charnext.htm
 tech.root: menurc

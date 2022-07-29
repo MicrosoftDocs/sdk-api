@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.FtpPutFileA
 title: FtpPutFileA function (wininet.h)
-description: Stores a file on the FTP server.
+description: Stores a file on the FTP server. (ANSI)
 helpviewer_keywords: ["FTP_TRANSFER_TYPE_ASCII","FTP_TRANSFER_TYPE_BINARY","FTP_TRANSFER_TYPE_UNKNOWN","FtpPutFile","FtpPutFile function [WinINet]","FtpPutFileA","FtpPutFileW","INTERNET_FLAG_HYPERLINK","INTERNET_FLAG_NEED_FILE","INTERNET_FLAG_RELOAD","INTERNET_FLAG_RESYNCHRONIZE","INTERNET_FLAG_TRANSFER_ASCII","INTERNET_FLAG_TRANSFER_BINARY","_inet_ftpputfile_function","wininet.ftpputfile","wininet/FtpPutFile","wininet/FtpPutFileA","wininet/FtpPutFileW"]
 old-location: wininet\ftpputfile.htm
 tech.root: wininet

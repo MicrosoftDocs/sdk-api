@@ -1,7 +1,7 @@
 ---
 UID: NF:inspectable.HSTRING_UserUnmarshal
 title: HSTRING_UserUnmarshal function (inspectable.h)
-description: Unmarshals an HSTRING object from the RPC buffer.
+description: Unmarshals an HSTRING object from the RPC buffer. (HSTRING_UserUnmarshal)
 helpviewer_keywords: ["HSTRING_UserUnmarshal","HSTRING_UserUnmarshal function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserUnmarshal","winrt.hstring_userunmarshal"]
 old-location: winrt\hstring_userunmarshal.htm
 tech.root: WinRT

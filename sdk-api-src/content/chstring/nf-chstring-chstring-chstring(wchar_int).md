@@ -1,7 +1,7 @@
 ---
 UID: NF:chstring.CHString.CHString(WCHAR,int)
 title: CHString::CHString(WCHAR,int) (chstring.h)
-description: Initializes a new CHString object with the specified data.
+description: Initializes a new CHString object with the specified data. (overload 3/6)
 helpviewer_keywords: ["??0CHString@@QAE@GH@Z","CHString","CHString constructor [Windows Management Instrumentation]","CHString constructor [Windows Management Instrumentation]","CHString interface","CHString interface [Windows Management Instrumentation]","CHString constructor","CHString.CHString","CHString.CHString(WCHAR","int)","CHString::CHString","CHString::CHString(WCHAR","int)","chstring/CHString::CHString","wmi.chstring_chstring_wchar_int_"]
 old-location: wmi\chstring_chstring_wchar_int_.htm
 tech.root: wmi

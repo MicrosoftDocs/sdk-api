@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.FindWindowExA
 title: FindWindowExA function (winuser.h)
-description: Retrieves a handle to a window whose class name and window name match the specified strings. The function searches child windows, beginning with the one following the specified child window. This function does not perform a case-sensitive search.
+description: Retrieves a handle to a window whose class name and window name match the specified strings. The function searches child windows, beginning with the one following the specified child window. This function does not perform a case-sensitive search. (ANSI)
 helpviewer_keywords: ["FindWindowEx","FindWindowEx function [Windows and Messages]","FindWindowExA","FindWindowExW","_win32_FindWindowEx","_win32_findwindowex_cpp","winmsg.findwindowex","winui._win32_findwindowex","winuser/FindWindowEx","winuser/FindWindowExA","winuser/FindWindowExW"]
 old-location: winmsg\findwindowex.htm
 tech.root: winmsg

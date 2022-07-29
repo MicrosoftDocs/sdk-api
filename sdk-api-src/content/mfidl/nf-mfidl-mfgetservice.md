@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.MFGetService
 title: MFGetService function (mfidl.h)
-description: Queries an object for a specified service interface.
+description: Queries an object for a specified service interface. (MFGetService)
 helpviewer_keywords: ["119e9e2f-0e26-4dfc-9c89-156b63a63640","MFGetService","MFGetService function [Media Foundation]","mf.mfgetservice","mfidl/MFGetService"]
 old-location: mf\mfgetservice.htm
 tech.root: mf

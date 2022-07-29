@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.PrivateExtractIconsA
 title: PrivateExtractIconsA function (winuser.h)
-description: Creates an array of handles to icons that are extracted from a specified file.
+description: Creates an array of handles to icons that are extracted from a specified file. (ANSI)
 helpviewer_keywords: ["PrivateExtractIcons","PrivateExtractIcons function [Menus and Other Resources]","PrivateExtractIconsA","PrivateExtractIconsW","_win32_PrivateExtractIcons","_win32_privateextracticons_cpp","menurc.privateextracticons","winui._win32_privateextracticons","winuser/PrivateExtractIcons","winuser/PrivateExtractIconsA","winuser/PrivateExtractIconsW"]
 old-location: menurc\privateextracticons.htm
 tech.root: menurc

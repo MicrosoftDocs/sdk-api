@@ -1,7 +1,7 @@
 ---
 UID: NN:xblidpauthmanager.IXblIdpAuthManager
 title: IXblIdpAuthManager (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use. (IXblIdpAuthManager)
 helpviewer_keywords: ["IXblIdpAuthManager","IXblIdpAuthManager interface","IXblIdpAuthManager interface","described","xblidp.ixblidpauthmanager","xblidpauthmanager/IXblIdpAuthManager"]
 old-location: xblidp\ixblidpauthmanager.htm
 tech.root: xblidp

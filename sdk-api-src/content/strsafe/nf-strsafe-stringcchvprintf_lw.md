@@ -1,7 +1,7 @@
 ---
 UID: NF:strsafe.StringCchVPrintf_lW
 title: StringCchVPrintf_lW function (strsafe.h)
-description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
+description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer. (StringCchVPrintf_lW)
 helpviewer_keywords: ["StringCchVPrintf_l","StringCchVPrintf_l function [Menus and Other Resources]","StringCchVPrintf_lA","StringCchVPrintf_lW","menurc.stringcchvprintf_l","strsafe/StringCchVPrintf_l","strsafe/StringCchVPrintf_lA","strsafe/StringCchVPrintf_lW"]
 old-location: menurc\stringcchvprintf_l.htm
 tech.root: menurc

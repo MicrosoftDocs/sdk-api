@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsController.GetPortProperties
 title: IVdsController::GetPortProperties (vdshwprv.h)
-description: Returns the properties of the specified controller port.
+description: Returns the properties of the specified controller port. (IVdsController.GetPortProperties)
 helpviewer_keywords: ["GetPortProperties","GetPortProperties method [VDS]","GetPortProperties method [VDS]","IVdsController interface","IVdsController interface [VDS]","GetPortProperties method","IVdsController.GetPortProperties","IVdsController::GetPortProperties","base.ivdscontroller_getportproperties","vds/IVdsController::GetPortProperties","vdshwprv/IVdsController::GetPortProperties"]
 old-location: base\ivdscontroller_getportproperties.htm
 tech.root: base

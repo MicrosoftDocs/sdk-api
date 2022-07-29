@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.GetStagedPackagePathByFullName
 title: GetStagedPackagePathByFullName function (appmodel.h)
-description: Gets the path of the specified staged package.
+description: Gets the path of the specified staged package. (GetStagedPackagePathByFullName)
 helpviewer_keywords: ["GetStagedPackagePathByFullName","GetStagedPackagePathByFullName function [App packaging and management]","appmodel/GetStagedPackagePathByFullName","appxpkg.getstagedpackagepathbyfullname"]
 old-location: appxpkg\getstagedpackagepathbyfullname.htm
 tech.root: appxpkg

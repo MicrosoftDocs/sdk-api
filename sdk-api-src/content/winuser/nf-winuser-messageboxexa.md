@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.MessageBoxExA
 title: MessageBoxExA function (winuser.h)
-description: Creates, displays, and operates a message box.
+description: Creates, displays, and operates a message box. (ANSI)
 helpviewer_keywords: ["MessageBoxEx","MessageBoxEx function [Dialog Boxes]","MessageBoxExA","MessageBoxExW","_win32_MessageBoxEx","_win32_messageboxex_cpp","dlgbox.messageboxex","winui._win32_messageboxex","winuser/MessageBoxEx","winuser/MessageBoxExA","winuser/MessageBoxExW"]
 old-location: dlgbox\messageboxex.htm
 tech.root: dlgbox

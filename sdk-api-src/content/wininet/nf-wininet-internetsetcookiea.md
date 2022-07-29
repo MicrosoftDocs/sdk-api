@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.InternetSetCookieA
 title: InternetSetCookieA function (wininet.h)
-description: Creates a cookie associated with the specified URL.
+description: Creates a cookie associated with the specified URL. (InternetSetCookieA)
 helpviewer_keywords: ["InternetSetCookie","InternetSetCookie function [WinINet]","InternetSetCookieA","InternetSetCookieW","_win32_internetsetcookie","wininet.internetsetcookie","wininet/InternetSetCookie","wininet/InternetSetCookieA","wininet/InternetSetCookieW"]
 old-location: wininet\internetsetcookie.htm
 tech.root: wininet

@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IEnumContextProps.Skip
 title: IEnumContextProps::Skip (objidl.h)
-description: Skips over the specified number of items in the enumeration sequence.
+description: Skips over the specified number of items in the enumeration sequence. (IEnumContextProps.Skip)
 helpviewer_keywords: ["IEnumContextProps interface [COM]","Skip method","IEnumContextProps.Skip","IEnumContextProps::Skip","Skip","Skip method [COM]","Skip method [COM]","IEnumContextProps interface","_com_ienumcontextprops_skip","com.ienumcontextprops_skip","objidlbase/IEnumContextProps::Skip"]
 old-location: com\ienumcontextprops_skip.htm
 tech.root: com

@@ -1,7 +1,7 @@
 ---
 UID: NF:ntdef.FIELD_OFFSET
 title: FIELD_OFFSET macro (ntdef.h)
-description: The FIELD_OFFSET macro returns the byte offset of a named field in a known structure type.
+description: The FIELD_OFFSET macro returns the byte offset of a named field in a known structure type. (FIELD_OFFSET)
 helpviewer_keywords: ["FIELD_OFFSET","FIELD_OFFSET function [Kernel-Mode Driver Architecture]","k106_d6f0b450-e99c-4dd7-94c5-f428e4b1d642.xml","kernel.field_offset","winnt/FIELD_OFFSET"]
 old-location: kernel\field_offset.htm
 tech.root: Kernel

@@ -1,7 +1,7 @@
 ---
 UID: NN:tapi3.IEnumQueue
 title: IEnumQueue (tapi3.h)
-description: The IEnumQueue interface provides COM-standard enumeration methods for the ITQueue interface. The ITACDGroup::EnumerateQueues method returns a pointer to IEnumQueue.
+description: The IEnumQueue interface provides COM-standard enumeration methods for the ITQueue interface. The ITACDGroup::EnumerateQueues method returns a pointer to IEnumQueue. (IEnumQueue)
 helpviewer_keywords: ["IEnumQueue","IEnumQueue interface [TAPI 2.2]","IEnumQueue interface [TAPI 2.2]","described","_tapi3_ienumqueue","tapi3.ienumqueue","tapi3cc/IEnumQueue"]
 old-location: tapi3\ienumqueue.htm
 tech.root: tapi3

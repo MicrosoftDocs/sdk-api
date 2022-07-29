@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiDoActionW
 title: MsiDoActionW function (msiquery.h)
-description: The MsiDoAction function executes a built-in action, custom action, or user-interface wizard action.
+description: The MsiDoAction function executes a built-in action, custom action, or user-interface wizard action. (Unicode)
 helpviewer_keywords: ["MsiDoAction","MsiDoAction function","MsiDoActionA","MsiDoActionW","_msi_msidoaction","msiquery/MsiDoAction","msiquery/MsiDoActionA","msiquery/MsiDoActionW","setup.msidoaction"]
 old-location: setup\msidoaction.htm
 tech.root: setup

@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IMalloc
 title: IMalloc (objidl.h)
-description: Allocates, frees, and manages memory.
+description: Allocates, frees, and manages memory. (IMalloc)
 helpviewer_keywords: ["IMalloc","IMalloc interface [COM]","IMalloc interface [COM]","described","_com_imalloc","com.imalloc","objidlbase/IMalloc"]
 old-location: com\imalloc.htm
 tech.root: com

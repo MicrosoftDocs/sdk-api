@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathSearchAndQualifyW
 title: PathSearchAndQualifyW function (shlwapi.h)
-description: Determines if a given path is correctly formatted and fully qualified.
+description: Determines if a given path is correctly formatted and fully qualified. (Unicode)
 helpviewer_keywords: ["PathSearchAndQualify","PathSearchAndQualify function [Windows Shell]","PathSearchAndQualifyA","PathSearchAndQualifyW","_win32_PathSearchAndQualify","shell.PathSearchAndQualify","shlwapi/PathSearchAndQualify","shlwapi/PathSearchAndQualifyA","shlwapi/PathSearchAndQualifyW"]
 old-location: shell\PathSearchAndQualify.htm
 tech.root: shell

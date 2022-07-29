@@ -1,7 +1,7 @@
-ï»¿---
+---
 UID: NF:evntrace.StartTraceW
 title: StartTraceW function (evntrace.h)
-description: The StartTrace function starts an event tracing session.
+description: The StartTrace function starts an event tracing session. (Unicode)
 helpviewer_keywords:
   [
     "StartTrace",
@@ -26,8 +26,8 @@ ms.keywords:
 req.header: evntrace.h
 req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ 2000 Professional [desktop apps \| UWP apps]
-req.target-min-winversvr: WindowsÂ 2000 Server [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
@@ -38,13 +38,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 req.lib:
-  Sechost.lib on WindowsÂ 8.1 and Windows ServerÂ 2012Â R2; Advapi32.lib on
-  WindowsÂ 8, Windows ServerÂ 2012, WindowsÂ 7, Windows ServerÂ 2008Â R2, Windows
-  ServerÂ 2008, WindowsÂ Vista and WindowsÂ XP
+  Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on
+  Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows
+  Server 2008, Windows Vista and Windows XP
 req.dll:
-  Sechost.dll on WindowsÂ 8.1 and Windows ServerÂ 2012Â R2; Advapi32.dll on
-  WindowsÂ 8, Windows ServerÂ 2012, WindowsÂ 7, Windows ServerÂ 2008Â R2, Windows
-  ServerÂ 2008, WindowsÂ Vista and WindowsÂ XP
+  Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on
+  Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows
+  Server 2008, Windows Vista and Windows XP
 req.irql:
 targetos: Windows
 req.typenames:
@@ -108,7 +108,7 @@ Null-terminated string that contains the name of the event tracing session. The
 session name is limited to 1,024 characters, is case-insensitive, and must be
 unique.
 
-**WindowsÂ 2000:** Session names are case-sensitive. As a result, duplicate
+**Windows 2000:** Session names are case-sensitive. As a result, duplicate
 session names are allowed. However, to reduce confusion, you should make sure
 your session names are unique.
 
@@ -145,7 +145,7 @@ specify a value for **MaximumFileSize**. See the Remarks section for more
 information on setting the _Properties_ parameter and the behavior of the
 session.
 
-**Starting with WindowsÂ 10, version 1703:** For better performance in cross
+**Starting with Windows 10, version 1703:** For better performance in cross
 process scenarios, you can now pass filtering in to **StartTrace** when starting
 system wide private loggers. You will need to pass in the new
 [EVENT_TRACE_PROPERTIES_V2](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties_v2)
@@ -180,7 +180,7 @@ are some common errors and their causes.
   - The **LogFileMode** member of _Properties_ specifies a combination of flags
     that is not valid.
   - The **Wnode.Guid** member is **SystemTraceControlGuid**, but the
-    _InstanceName_ parameter is not **KERNEL_LOGGER_NAME**. **WindowsÂ 2000:**
+    _InstanceName_ parameter is not **KERNEL_LOGGER_NAME**. **Windows 2000:**
     This case does not return an error.
 
 - **ERROR_ALREADY_EXISTS**
@@ -207,7 +207,7 @@ are some common errors and their causes.
   Choose a drive with more space, or decrease the size specified in
   **MaximumFileSize** (if used).
 
-  **WindowsÂ 2000:** Does not require an additional 200 MB available disk space.
+  **Windows 2000:** Does not require an additional 200 MB available disk space.
 
 - **ERROR_ACCESS_DENIED**
 
@@ -218,7 +218,7 @@ are some common errors and their causes.
   users with administrative privileges and services running as LocalSystem can
   control an NT Kernel Logger session.
 
-  **WindowsÂ XP and WindowsÂ 2000:** Anyone can control a trace session.
+  **Windows XP and Windows 2000:** Anyone can control a trace session.
 
   If the user is a member of the Performance Log Users group, they may not have
   permission to create the log file in the specified folder.
@@ -249,7 +249,7 @@ are some common errors and their causes.
     > administrator to enable specific scenarios. The EtwMaxLoggers setting must
     > not be automatically modified by a program or driver.
 
-    Prior to WindowsÂ 10, version 1709, this is a fixed cap of 64 loggers for
+    Prior to Windows 10, version 1709, this is a fixed cap of 64 loggers for
     non-private loggers.
 
 ## -remarks
@@ -267,7 +267,7 @@ by `Properties.Wnode.Guid`). In most cases, you will set `Properties.Wnode.Guid`
 to all-zero (i.e. **GUID_NULL**) to allow the ETW system to generate a new GUID
 for the session.
 
-**Windows ServerÂ 2003:** You can start more than one session with the same
+**Windows Server 2003:** You can start more than one session with the same
 session GUID.
 
 To specify a private logger session, set **Wnode.Guid** member of _Properties_
@@ -295,7 +295,7 @@ following must be true:
   to use this name).
 
 > [!NOTE]
->Â A system logger must set the **EnableFlags** member of the
+> A system logger must set the **EnableFlags** member of the
 > [EVENT_TRACE_PROPERTIES](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties)
 > structure to indicate which
 > [SystemTraceProvider](/windows/win32/etw/configuring-and-starting-a-systemtraceprovider-session)
@@ -307,7 +307,7 @@ additional restrictions:
 - There can be no more than 8 system loggers active on the same system.
 - System loggers cannot be created within a Windows Server container.
 - System loggers cannot use the **EVENT_TRACE_USE_PAGED_MEMORY** flag.
-- Prior to WindowsÂ 10, version 1703, no more than 2 distinct clock types can be
+- Prior to Windows 10, version 1703, no more than 2 distinct clock types can be
   used simultaneously by any system loggers. For example, if one active system
   logger is using the "CPU cycle counter" clock type, and another active system
   logger is using the "Query performance counter" clock type, then any attempt
@@ -315,7 +315,7 @@ additional restrictions:
   it would require the activation of a third clock type. Because of this
   limitation, Microsoft strongly recommends that system loggers do not use the
   "System time" clock type.
-- Starting with WindowsÂ 10, version 1703, the clock type restriction has been
+- Starting with Windows 10, version 1703, the clock type restriction has been
   removed. All three clock types can now be used simultaneously by system
   loggers.
 

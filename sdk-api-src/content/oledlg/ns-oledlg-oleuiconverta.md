@@ -1,7 +1,7 @@
 ---
 UID: NS:oledlg.tagOLEUICONVERTA
 title: OLEUICONVERTA (oledlg.h)
-description: Contains information that the OLE User Interface Library uses to initialize the Convert dialog box, and space for the library to return information when the dialog box is dismissed.
+description: Contains information that the OLE User Interface Library uses to initialize the Convert dialog box, and space for the library to return information when the dialog box is dismissed. (ANSI)
 helpviewer_keywords: ["*LPOLEUICONVERTA","*POLEUICONVERTA","CF_CONVERTONLY","CF_DISABLEACTIVATEAS","CF_DISABLEDISPLAYASICON","CF_HIDECHANGEICON","CF_SELECTACTIVATEAS","CF_SELECTCONVERTTO","CF_SETACTIVATEDEFAULT","CF_SETCONVERTDEFAULT","CF_SHOWHELPBUTTON","LPOLEUICONVERT","LPOLEUICONVERT structure pointer [COM]","OLEUICONVERT","OLEUICONVERT structure [COM]","OLEUICONVERTA","OLEUICONVERTW","POLEUICONVERT","POLEUICONVERT structure pointer [COM]","_ole_OLEUICONVERT_str","com.oleuiconvert_struct","oledlg/LPOLEUICONVERT","oledlg/OLEUICONVERT","oledlg/OLEUICONVERTA","oledlg/OLEUICONVERTW","oledlg/POLEUICONVERT"]
 old-location: com\oleuiconvert_struct.htm
 tech.root: com

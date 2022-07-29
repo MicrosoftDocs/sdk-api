@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupSetDirectoryIdExW
 title: SetupSetDirectoryIdExW function (setupapi.h)
-description: The SetupSetDirectoryIdEx function associates a directory identifier in an INF file with a specific directory.
+description: The SetupSetDirectoryIdEx function associates a directory identifier in an INF file with a specific directory. (Unicode)
 helpviewer_keywords: ["SetupSetDirectoryIdEx","SetupSetDirectoryIdEx function [Setup API]","SetupSetDirectoryIdExA","SetupSetDirectoryIdExW","setup.setupsetdirectoryidex","setupapi/SetupSetDirectoryIdEx","setupapi/SetupSetDirectoryIdExA","setupapi/SetupSetDirectoryIdExW"]
 old-location: setup\setupsetdirectoryidex.htm
 tech.root: setup

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.SetProgressMessage
 title: IFileOperation::SetProgressMessage (shobjidl_core.h)
-description: Not implemented.
+description: Not implemented. (IFileOperation.SetProgressMessage)
 helpviewer_keywords: ["IFileOperation interface [Windows Shell]","SetProgressMessage method","IFileOperation.SetProgressMessage","IFileOperation::SetProgressMessage","SetProgressMessage","SetProgressMessage method [Windows Shell]","SetProgressMessage method [Windows Shell]","IFileOperation interface","_shell_IFileOperation_SetProgressMessage","shell.IFileOperation_SetProgressMessage","shobjidl_core/IFileOperation::SetProgressMessage"]
 old-location: shell\IFileOperation_SetProgressMessage.htm
 tech.root: shell

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.DispatchMessageW
 title: DispatchMessageW function (winuser.h)
-description: Dispatches a message to a window procedure. It is typically used to dispatch a message retrieved by the GetMessage function.
+description: Dispatches a message to a window procedure. It is typically used to dispatch a message retrieved by the GetMessage function. (DispatchMessageW)
 helpviewer_keywords: ["DispatchMessage","DispatchMessage function [Windows and Messages]","DispatchMessageA","DispatchMessageW","_win32_DispatchMessage","_win32_dispatchmessage_cpp","winmsg.dispatchmessage","winui._win32_dispatchmessage","winuser/DispatchMessage","winuser/DispatchMessageA","winuser/DispatchMessageW"]
 old-location: winmsg\dispatchmessage.htm
 tech.root: winmsg

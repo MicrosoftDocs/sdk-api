@@ -1,7 +1,7 @@
 ---
 UID: NF:winfax.FaxEnableRoutingMethodA
 title: FaxEnableRoutingMethodA function (winfax.h)
-description: The FaxEnableRoutingMethod function enables or disables a fax routing method for a specific fax device. A fax administration application typically calls this function for device management.
+description: The FaxEnableRoutingMethod function enables or disables a fax routing method for a specific fax device. A fax administration application typically calls this function for device management. (ANSI)
 helpviewer_keywords: ["FaxEnableRoutingMethod","FaxEnableRoutingMethod function [Fax Service]","FaxEnableRoutingMethodA","FaxEnableRoutingMethodW","_mfax_faxenableroutingmethod","fax._mfax_faxenableroutingmethod","winfax/FaxEnableRoutingMethod","winfax/FaxEnableRoutingMethodA","winfax/FaxEnableRoutingMethodW"]
 old-location: fax\_mfax_faxenableroutingmethod.htm
 tech.root: Fax

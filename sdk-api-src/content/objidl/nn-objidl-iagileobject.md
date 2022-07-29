@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IAgileObject
 title: IAgileObject (objidl.h)
-description: Marks an interface as agile across apartments.
+description: Marks an interface as agile across apartments. (IAgileObject)
 helpviewer_keywords: ["IAgileObject","IAgileObject interface [COM]","IAgileObject interface [COM]","described","com.iagileobject","objidl/IAgileObject"]
 old-location: com\iagileobject.htm
 tech.root: com

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.CopyResource
 title: ID3D10Device::CopyResource (d3d10.h)
-description: Copy the entire contents of the source resource to the destination resource using the GPU.
+description: Copy the entire contents of the source resource to the destination resource using the GPU. (ID3D10Device.CopyResource)
 helpviewer_keywords: ["7cc09321-049c-23b4-3867-f1b76d332515","CopyResource","CopyResource method [Direct3D 10]","CopyResource method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","CopyResource method","ID3D10Device.CopyResource","ID3D10Device::CopyResource","d3d10/ID3D10Device::CopyResource","direct3d10.id3d10device_copyresource"]
 old-location: direct3d10\id3d10device_copyresource.htm
 tech.root: direct3d10

@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemtime.WBEMTime.operator-equal-equal-to
 title: WBEMTime::operator-equal-equal-to (wbemtime.h)
-description: The WBEMTime comparison operators (== != &lt; &lt;= &gt; &gt;=) have been overloaded to compare two WBEMTime objects.
+description: The WBEMTime comparison operators (== != &lt; &lt;= &gt; &gt;=) have been overloaded to compare two WBEMTime objects.W
 helpviewer_keywords: ["WBEMTime interface [Windows Management Instrumentation]","operator== method","WBEMTime.operator-equal-equal-to","WBEMTime.operator==","WBEMTime::operator-equal-equal-to","WBEMTime::operator==","_hmm_wbemtime_comparison_operators","operator==","operator== method [Windows Management Instrumentation]","operator== method [Windows Management Instrumentation]","WBEMTime interface","wbemtime/WBEMTime::operator==","wmi.wbemtime_comparison_operators","wmi.wbemtime_comparison_operators_equal"]
 old-location: wmi\wbemtime_comparison_operators_equal.htm
 tech.root: wmi

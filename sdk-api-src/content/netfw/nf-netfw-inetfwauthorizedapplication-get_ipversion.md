@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.get_IpVersion
 title: INetFwAuthorizedApplication::get_IpVersion (netfw.h)
-description: Specifies the IP version setting for this application.
+description: Specifies the IP version setting for this application. (Get)
 helpviewer_keywords: ["INetFwAuthorizedApplication interface [ICS/ICF]","IpVersion property","INetFwAuthorizedApplication.IpVersion","INetFwAuthorizedApplication.get_IpVersion","INetFwAuthorizedApplication::IpVersion","INetFwAuthorizedApplication::get_IpVersion","INetFwAuthorizedApplication::put_IpVersion","IpVersion property [ICS/ICF]","IpVersion property [ICS/ICF]","INetFwAuthorizedApplication interface","get_IpVersion","ics.inetfwauthorizedapplication_ipversion","netfw/INetFwAuthorizedApplication::IpVersion","netfw/INetFwAuthorizedApplication::get_IpVersion","netfw/INetFwAuthorizedApplication::put_IpVersion"]
 old-location: ics\inetfwauthorizedapplication_ipversion.htm
 tech.root: ics

@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.WriteProfileStringA
 title: WriteProfileStringA function (winbase.h)
-description: Copies a string into the specified section of the Win.ini file.
+description: Copies a string into the specified section of the Win.ini file. (ANSI)
 helpviewer_keywords: ["WriteProfileString","WriteProfileString function","WriteProfileStringA","WriteProfileStringW","_win32_writeprofilestring","base.writeprofilestring","winbase/WriteProfileString","winbase/WriteProfileStringA","winbase/WriteProfileStringW"]
 old-location: base\writeprofilestring.htm
 tech.root: winprog

@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineConfigDialogEdit
 title: lineConfigDialogEdit function (tapi.h)
-description: The lineConfigDialogEdit function causes the provider of the specified line device to display a dialog box (attached to hwndOwner of the application) to allow the user to configure parameters related to the line device.
+description: The lineConfigDialogEdit function causes the provider of the specified line device to display a dialog box (attached to hwndOwner of the application) to allow the user to configure parameters related to the line device. (lineConfigDialogEditW)
 helpviewer_keywords: ["_tapi2_lineconfigdialogedit","lineConfigDialogEdit","lineConfigDialogEdit function [TAPI 2.2]","lineConfigDialogEditA","lineConfigDialogEditW","tapi/lineConfigDialogEdit","tapi/lineConfigDialogEditA","tapi/lineConfigDialogEditW","tapi2.lineconfigdialogedit"]
 old-location: tapi2\lineconfigdialogedit.htm
 tech.root: tapi3

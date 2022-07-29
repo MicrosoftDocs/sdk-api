@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsx.ScrollBar_SetPos
 title: ScrollBar_SetPos macro (windowsx.h)
-description: Sets the position of the scroll box (thumb) in the specified scroll bar and, if requested, redraws the scroll bar to reflect the new position of the scroll box.
+description: Sets the position of the scroll box (thumb) in the specified scroll bar and, if requested, redraws the scroll bar to reflect the new position of the scroll box. (ScrollBar_SetPos)
 helpviewer_keywords: ["ScrollBar_SetPos","ScrollBar_SetPos macro [Windows Controls]","_win32_ScrollBar_SetPos","_win32_ScrollBar_SetPos_cpp","controls.ScrollBar_SetPos","controls._win32_ScrollBar_SetPos","windowsx/ScrollBar_SetPos"]
 old-location: controls\ScrollBar_SetPos.htm
 tech.root: Controls

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextPattern.get_DocumentRange
 title: IUIAutomationTextPattern::get_DocumentRange (uiautomationclient.h)
-description: Retrieves a text range that encloses the main text of a document.
+description: Retrieves a text range that encloses the main text of a document. (IUIAutomationTextPattern.get_DocumentRange)
 helpviewer_keywords: ["DocumentRange property [Windows Accessibility]","DocumentRange property [Windows Accessibility]","IUIAutomationTextPattern interface","IUIAutomationTextPattern interface [Windows Accessibility]","DocumentRange property","IUIAutomationTextPattern.DocumentRange","IUIAutomationTextPattern.get_DocumentRange","IUIAutomationTextPattern::DocumentRange","IUIAutomationTextPattern::get_DocumentRange","get_DocumentRange","uiauto.uiauto_IUIAutomationTextPattern_DocumentRange","uiauto_IUIAutomationTextPattern_DocumentRange","uiautomationclient/IUIAutomationTextPattern::DocumentRange","uiautomationclient/IUIAutomationTextPattern::get_DocumentRange","winauto.uiauto_IUIAutomationTextPattern_DocumentRange"]
 old-location: winauto\uiauto_IUIAutomationTextPattern_DocumentRange.htm
 tech.root: WinAuto

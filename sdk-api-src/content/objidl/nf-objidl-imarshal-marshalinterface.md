@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IMarshal.MarshalInterface
 title: IMarshal::MarshalInterface (objidl.h)
-description: Marshals an interface pointer.
+description: Marshals an interface pointer. (IMarshal.MarshalInterface)
 helpviewer_keywords: ["IMarshal interface [COM]","MarshalInterface method","IMarshal.MarshalInterface","IMarshal::MarshalInterface","MarshalInterface","MarshalInterface method [COM]","MarshalInterface method [COM]","IMarshal interface","_com_imarshal_marshalinterface","com.imarshal_marshalinterface","objidlbase/IMarshal::MarshalInterface"]
 old-location: com\imarshal_marshalinterface.htm
 tech.root: com

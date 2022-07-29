@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsLun2.ApplyHints2
 title: IVdsLun2::ApplyHints2 (vdshwprv.h)
-description: Applies a new set of hints to the LUN. Hints that are applied to a LUN are simultaneously applied to all plexes. This method is identical to the IVdsLun::ApplyHints method, except that it uses a VDS_HINTS2 structure instead of a VDS_HINTS structure.
+description: Applies a new set of hints to the LUN. Hints that are applied to a LUN are simultaneously applied to all plexes. This method is identical to the IVdsLun::ApplyHints method, except that it uses a VDS_HINTS2 structure instead of a VDS_HINTS structure. (IVdsLun2.ApplyHints2)
 helpviewer_keywords: ["ApplyHints2","ApplyHints2 method","ApplyHints2 method","IVdsLun2 interface","IVdsLun2 interface","ApplyHints2 method","IVdsLun2.ApplyHints2","IVdsLun2::ApplyHints2","base.ivdslun2_applyhints2","vds/IVdsLun2::ApplyHints2","vdshwprv/IVdsLun2::ApplyHints2"]
 old-location: base\ivdslun2_applyhints2.htm
 tech.root: base

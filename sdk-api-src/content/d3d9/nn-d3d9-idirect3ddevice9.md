@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d9.IDirect3DDevice9
 title: IDirect3DDevice9 (d3d9.h)
-description: Applications use the methods of the IDirect3DDevice9 interface to perform DrawPrimitive-based rendering, create resources, work with system-level variables, adjust gamma ramp levels, work with palettes, and create shaders.
+description: Applications use the methods of the IDirect3DDevice9 interface to perform DrawPrimitive-based rendering, create resources, work with system-level variables, adjust gamma ramp levels, work with palettes, and create shaders. (IDirect3DDevice9)
 helpviewer_keywords: ["28be25f8-38cf-f9e4-3aac-15cad98cac63","IDirect3DDevice9","IDirect3DDevice9 interface [Direct3D 9]","IDirect3DDevice9 interface [Direct3D 9]","described","d3d9helper/IDirect3DDevice9","direct3d9.idirect3ddevice9"]
 old-location: direct3d9\idirect3ddevice9.htm
 tech.root: direct3d9

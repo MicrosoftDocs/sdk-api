@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagMSGBOXPARAMSA
 title: MSGBOXPARAMSA (winuser.h)
-description: Contains information used to display a message box. The MessageBoxIndirect function uses this structure.
+description: Contains information used to display a message box. The MessageBoxIndirect function uses this structure. (ANSI)
 helpviewer_keywords: ["*LPMSGBOXPARAMSA","*PMSGBOXPARAMSA","MSGBOXPARAMS","MSGBOXPARAMS structure [Dialog Boxes]","MSGBOXPARAMSA","MSGBOXPARAMSW","PMSGBOXPARAMS","PMSGBOXPARAMS structure pointer [Dialog Boxes]","_win32_MSGBOXPARAMS_str","_win32_msgboxparams_str_cpp","dlgbox.msgboxparams","winui._win32_msgboxparams_str","winuser/MSGBOXPARAMS","winuser/MSGBOXPARAMSA","winuser/MSGBOXPARAMSW","winuser/PMSGBOXPARAMS"]
 old-location: dlgbox\msgboxparams.htm
 tech.root: dlgbox

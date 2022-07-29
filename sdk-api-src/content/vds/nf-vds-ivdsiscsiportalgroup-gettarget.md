@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsIscsiPortalGroup.GetTarget
 title: IVdsIscsiPortalGroup::GetTarget (vds.h)
-description: Returns the target to which the portal group belongs.
+description: Returns the target to which the portal group belongs. (IVdsIscsiPortalGroup.GetTarget)
 helpviewer_keywords: ["GetTarget","GetTarget method [VDS]","GetTarget method [VDS]","IVdsIscsiPortalGroup interface","IVdsIscsiPortalGroup interface [VDS]","GetTarget method","IVdsIscsiPortalGroup.GetTarget","IVdsIscsiPortalGroup::GetTarget","base.ivdsiscsiportalgroup_gettarget","vds/IVdsIscsiPortalGroup::GetTarget","vdshwprv/IVdsIscsiPortalGroup::GetTarget"]
 old-location: base\ivdsiscsiportalgroup_gettarget.htm
 tech.root: base

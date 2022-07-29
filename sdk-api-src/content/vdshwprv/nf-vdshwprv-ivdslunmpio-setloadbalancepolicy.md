@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsLunMpio.SetLoadBalancePolicy
 title: IVdsLunMpio::SetLoadBalancePolicy (vdshwprv.h)
-description: Sets the load balance policy on the LUN.
+description: Sets the load balance policy on the LUN. (IVdsLunMpio.SetLoadBalancePolicy)
 helpviewer_keywords: ["IVdsLunMpio interface [VDS]","SetLoadBalancePolicy method","IVdsLunMpio.SetLoadBalancePolicy","IVdsLunMpio::SetLoadBalancePolicy","SetLoadBalancePolicy","SetLoadBalancePolicy method [VDS]","SetLoadBalancePolicy method [VDS]","IVdsLunMpio interface","base.ivdslunmpio_setloadbalancepolicy","vds/IVdsLunMpio::SetLoadBalancePolicy","vdshwprv/IVdsLunMpio::SetLoadBalancePolicy"]
 old-location: base\ivdslunmpio_setloadbalancepolicy.htm
 tech.root: base

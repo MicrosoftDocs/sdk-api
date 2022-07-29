@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.Compare
 title: IUIAutomationTextRange::Compare (uiautomationclient.h)
-description: Retrieves a value that specifies whether this text range has the same endpoints as another text range.
+description: Retrieves a value that specifies whether this text range has the same endpoints as another text range. (IUIAutomationTextRange.Compare)
 helpviewer_keywords: ["Compare","Compare method [Windows Accessibility]","Compare method [Windows Accessibility]","IUIAutomationTextRange interface","IUIAutomationTextRange interface [Windows Accessibility]","Compare method","IUIAutomationTextRange.Compare","IUIAutomationTextRange::Compare","uiauto.uiauto_IUIAutomationTextRange_Compare","uiauto_IUIAutomationTextRange_Compare","uiautomationclient/IUIAutomationTextRange::Compare","winauto.uiauto_IUIAutomationTextRange_Compare"]
 old-location: winauto\uiauto_IUIAutomationTextRange_Compare.htm
 tech.root: WinAuto

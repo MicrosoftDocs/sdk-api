@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.Delete
 title: IVdsIscsiTarget::Delete (vds.h)
-description: Deletes the target and all of its portal groups if no LUNs are associated with the target.
+description: Deletes the target and all of its portal groups if no LUNs are associated with the target. (IVdsIscsiTarget.Delete)
 helpviewer_keywords: ["Delete","Delete method [VDS]","Delete method [VDS]","IVdsIscsiTarget interface","IVdsIscsiTarget interface [VDS]","Delete method","IVdsIscsiTarget.Delete","IVdsIscsiTarget::Delete","base.ivdsiscsitarget_delete","vds/IVdsIscsiTarget::Delete","vdshwprv/IVdsIscsiTarget::Delete"]
 old-location: base\ivdsiscsitarget_delete.htm
 tech.root: base

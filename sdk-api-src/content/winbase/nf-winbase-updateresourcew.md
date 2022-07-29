@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.UpdateResourceW
 title: UpdateResourceW function (winbase.h)
-description: Adds, deletes, or replaces a resource in a portable executable (PE) file.
+description: Adds, deletes, or replaces a resource in a portable executable (PE) file. (Unicode)
 helpviewer_keywords: ["UpdateResource","UpdateResource function [Menus and Other Resources]","UpdateResourceA","UpdateResourceW","_win32_UpdateResource","_win32_updateresource_cpp","menurc.updateresource","winbase/UpdateResource","winbase/UpdateResourceA","winbase/UpdateResourceW","winui._win32_updateresource"]
 old-location: menurc\updateresource.htm
 tech.root: menurc

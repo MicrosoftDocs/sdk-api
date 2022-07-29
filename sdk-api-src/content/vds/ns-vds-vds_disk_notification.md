@@ -1,7 +1,7 @@
 ---
 UID: NS:vds._VDS_DISK_NOTIFICATION
 title: VDS_DISK_NOTIFICATION (vds.h)
-description: Defines the details of disk events.
+description: Defines the details of disk events. (VDS_DISK_NOTIFICATION)
 helpviewer_keywords: ["VDS_DISK_NOTIFICATION","VDS_DISK_NOTIFICATION structure [VDS]","VDS_NF_DISK_ARRIVE","VDS_NF_DISK_DEPART","VDS_NF_DISK_MODIFY","base.vds_disk_notification","vds/_VDS_DISK_NOTIFICATION","vdshwprv/_VDS_DISK_NOTIFICATION"]
 old-location: base\vds_disk_notification.htm
 tech.root: base

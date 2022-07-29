@@ -1,7 +1,7 @@
 ---
 UID: NF:imm.ImmGetCandidateWindow
 title: ImmGetCandidateWindow function (imm.h)
-description: Retrieves information about the candidates window.
+description: Retrieves information about the candidates window. (ImmGetCandidateWindow)
 helpviewer_keywords: ["ImmGetCandidateWindow","ImmGetCandidateWindow function [Internationalization for Windows Applications]","_win32_ImmGetCandidateWindow","imm/ImmGetCandidateWindow","intl.immgetcandidatewindow"]
 old-location: intl\immgetcandidatewindow.htm
 tech.root: Intl

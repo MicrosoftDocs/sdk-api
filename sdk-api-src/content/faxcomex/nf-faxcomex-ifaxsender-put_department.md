@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxSender.put_Department
 title: IFaxSender::put_Department (faxcomex.h)
-description: The IFaxSender::get_Department property is a null-terminated string that contains the department associated with the sender.
+description: The IFaxSender::get_Department property is a null-terminated string that contains the department associated with the sender. (Put)
 helpviewer_keywords: ["Department property [Fax Service]","Department property [Fax Service]","IFaxSender interface","IFaxSender interface [Fax Service]","Department property","IFaxSender.Department","IFaxSender.get_Department","IFaxSender.put_Department","IFaxSender::Department","IFaxSender::get_Department","IFaxSender::put_Department","_mfax_faxsender.department","fax._mfax_faxsender_cpp_mfax_faxsender_department_cpp","fax._mfax_faxsender_department","faxcomex/IFaxSender::Department","faxcomex/IFaxSender::get_Department","faxcomex/IFaxSender::put_Department","put_Department"]
 old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_department_cpp.htm
 tech.root: Fax

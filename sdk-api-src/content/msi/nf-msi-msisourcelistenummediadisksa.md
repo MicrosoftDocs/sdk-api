@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiSourceListEnumMediaDisksA
 title: MsiSourceListEnumMediaDisksA function (msi.h)
-description: The MsiSourceListEnumMediaDisks function enumerates the list of disks registered for the media source for a patch or product.
+description: The MsiSourceListEnumMediaDisks function enumerates the list of disks registered for the media source for a patch or product. (ANSI)
 helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiSourceListEnumMediaDisks","MsiSourceListEnumMediaDisks function","MsiSourceListEnumMediaDisksA","MsiSourceListEnumMediaDisksW","NULL","User SID","msi/MsiSourceListEnumMediaDisks","msi/MsiSourceListEnumMediaDisksA","msi/MsiSourceListEnumMediaDisksW","s-1-1-0","setup.msisourcelistenummediadisks"]
 old-location: setup\msisourcelistenummediadisks.htm
 tech.root: setup

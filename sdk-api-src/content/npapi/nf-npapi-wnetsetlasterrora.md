@@ -1,7 +1,7 @@
 ---
 UID: NF:npapi.WNetSetLastErrorA
 title: WNetSetLastErrorA function (npapi.h)
-description: Sets extended error information. Network providers should call this function instead of SetLastError.
+description: Sets extended error information. Network providers should call this function instead of SetLastError. (ANSI)
 helpviewer_keywords: ["WNetSetLastError","WNetSetLastError function [Security]","WNetSetLastErrorA","_mnp_wnetsetlasterror","npapi/WNetSetLastError","npapi/WNetSetLastErrorA","security.wnetsetlasterror"]
 old-location: security\wnetsetlasterror.htm
 tech.root: security

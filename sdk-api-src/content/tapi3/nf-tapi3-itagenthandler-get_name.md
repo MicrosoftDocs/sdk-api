@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3.ITAgentHandler.get_Name
 title: ITAgentHandler::get_Name (tapi3.h)
-description: The get_Name method gets the agent handler name.
+description: The get_Name method gets the agent handler name. (ITAgentHandler.get_Name)
 helpviewer_keywords: ["ITAgentHandler interface [TAPI 2.2]","get_Name method","ITAgentHandler.get_Name","ITAgentHandler::get_Name","_tapi3_itagenthandler_get_name","get_Name","get_Name method [TAPI 2.2]","get_Name method [TAPI 2.2]","ITAgentHandler interface","tapi3.itagenthandler_get_name","tapi3cc/ITAgentHandler::get_Name"]
 old-location: tapi3\itagenthandler_get_name.htm
 tech.root: tapi3

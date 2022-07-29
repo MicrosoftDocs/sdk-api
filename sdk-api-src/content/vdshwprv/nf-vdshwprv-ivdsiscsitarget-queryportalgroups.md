@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiTarget.QueryPortalGroups
 title: IVdsIscsiTarget::QueryPortalGroups (vdshwprv.h)
-description: Returns an enumeration of the iSCSI portal groups within the target.
+description: Returns an enumeration of the iSCSI portal groups within the target. (IVdsIscsiTarget.QueryPortalGroups)
 helpviewer_keywords: ["IVdsIscsiTarget interface [VDS]","QueryPortalGroups method","IVdsIscsiTarget.QueryPortalGroups","IVdsIscsiTarget::QueryPortalGroups","QueryPortalGroups","QueryPortalGroups method [VDS]","QueryPortalGroups method [VDS]","IVdsIscsiTarget interface","base.ivdsiscsitarget_queryportalgroups","vds/IVdsIscsiTarget::QueryPortalGroups","vdshwprv/IVdsIscsiTarget::QueryPortalGroups"]
 old-location: base\ivdsiscsitarget_queryportalgroups.htm
 tech.root: base

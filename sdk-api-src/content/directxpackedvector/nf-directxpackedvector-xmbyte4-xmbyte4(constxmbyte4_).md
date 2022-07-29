@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMBYTE4.XMBYTE4(constXMBYTE4&)
 title: XMBYTE4::XMBYTE4(const XMBYTE4 &) (directxpackedvector.h)
-description: A constructor for XMBYTE4.
+description: A constructor for XMBYTE4. (overload 2/2)
 helpviewer_keywords: ["XMBYTE4","XMBYTE4 constructor [DirectX Math Support APIs]","XMBYTE4 constructor [DirectX Math Support APIs]","XMBYTE4 structure","XMBYTE4 structure [DirectX Math Support APIs]","XMBYTE4 constructor","XMBYTE4.XMBYTE4","XMBYTE4.XMBYTE4()","XMBYTE4.XMBYTE4(const XMBYTE4 &)","XMBYTE4::XMBYTE4","XMBYTE4::XMBYTE4(const XMBYTE4 &)","dxmath.xmbyte4_ctor_1"]
 old-location: 
 tech.root: dxmath

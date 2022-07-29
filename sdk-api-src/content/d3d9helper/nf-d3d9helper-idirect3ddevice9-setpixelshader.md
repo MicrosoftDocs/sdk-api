@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetPixelShader
 title: IDirect3DDevice9::SetPixelShader (d3d9helper.h)
-description: Sets the current pixel shader to a previously created pixel shader.
+description: Sets the current pixel shader to a previously created pixel shader. (IDirect3DDevice9.SetPixelShader)
 helpviewer_keywords: ["IDirect3DDevice9 interface [Direct3D 9]","SetPixelShader method","IDirect3DDevice9.SetPixelShader","IDirect3DDevice9::SetPixelShader","SetPixelShader","SetPixelShader method [Direct3D 9]","SetPixelShader method [Direct3D 9]","IDirect3DDevice9 interface","c65d883e-77d2-f541-2bd4-48dba090930c","d3d9helper/IDirect3DDevice9::SetPixelShader","direct3d9.idirect3ddevice9__setpixelshader"]
 old-location: direct3d9\idirect3ddevice9__setpixelshader.htm
 tech.root: direct3d9

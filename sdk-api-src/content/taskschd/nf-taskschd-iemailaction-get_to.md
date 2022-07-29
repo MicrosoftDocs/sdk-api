@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IEmailAction.get_To
 title: IEmailAction::get_To (taskschd.h)
-description: Gets or sets the email address or addresses that you want to send the email to.
+description: Gets or sets the email address or addresses that you want to send the email to. (Get)
 helpviewer_keywords: ["IEmailAction interface [Task Scheduler]","To property","IEmailAction.To","IEmailAction.get_To","IEmailAction::To","IEmailAction::get_To","IEmailAction::put_To","To property [Task Scheduler]","To property [Task Scheduler]","IEmailAction interface","get_To","taskschd.iemailaction_to","taskschd/IEmailAction::To","taskschd/IEmailAction::get_To","taskschd/IEmailAction::put_To"]
 old-location: taskschd\iemailaction_to.htm
 tech.root: taskschd

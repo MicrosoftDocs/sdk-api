@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3.ITAgentSession.get_LongestTimeToAnswer
 title: ITAgentSession::get_LongestTimeToAnswer (tapi3.h)
-description: The get_LongestTimeToAnswer method gets the longest time (in seconds) a call was waiting to be answered.
+description: The get_LongestTimeToAnswer method gets the longest time (in seconds) a call was waiting to be answered. (ITAgentSession.get_LongestTimeToAnswer)
 helpviewer_keywords: ["ITAgentSession interface [TAPI 2.2]","get_LongestTimeToAnswer method","ITAgentSession.get_LongestTimeToAnswer","ITAgentSession::get_LongestTimeToAnswer","_tapi3_itagentsession_get_longesttimetoanswer","get_LongestTimeToAnswer","get_LongestTimeToAnswer method [TAPI 2.2]","get_LongestTimeToAnswer method [TAPI 2.2]","ITAgentSession interface","tapi3.itagentsession_get_longesttimetoanswer","tapi3cc/ITAgentSession::get_LongestTimeToAnswer"]
 old-location: tapi3\itagentsession_get_longesttimetoanswer.htm
 tech.root: tapi3

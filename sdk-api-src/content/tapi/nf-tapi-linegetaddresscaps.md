@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineGetAddressCaps
 title: lineGetAddressCaps function (tapi.h)
-description: The lineGetAddressCaps function queries the specified address on the specified line device to determine its telephony capabilities.
+description: The lineGetAddressCaps function queries the specified address on the specified line device to determine its telephony capabilities. (lineGetAddressCapsW)
 helpviewer_keywords: ["_tapi2_linegetaddresscaps","lineGetAddressCaps","lineGetAddressCaps function [TAPI 2.2]","lineGetAddressCapsA","lineGetAddressCapsW","tapi/lineGetAddressCaps","tapi/lineGetAddressCapsA","tapi/lineGetAddressCapsW","tapi2.linegetaddresscaps"]
 old-location: tapi2\linegetaddresscaps.htm
 tech.root: tapi3

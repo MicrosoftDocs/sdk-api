@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CreateDirectoryExA
 title: CreateDirectoryExA function (winbase.h)
-description: Creates a new directory with the attributes of a specified template directory.
+description: Creates a new directory with the attributes of a specified template directory. (ANSI)
 helpviewer_keywords: ["CreateDirectoryEx","CreateDirectoryEx function [Files]","CreateDirectoryExA","CreateDirectoryExW","_win32_createdirectoryex","base.createdirectoryex","fs.createdirectoryex","winbase/CreateDirectoryEx","winbase/CreateDirectoryExA","winbase/CreateDirectoryExW"]
 old-location: fs\createdirectoryex.htm
 tech.root: fs

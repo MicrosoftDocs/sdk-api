@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3.ITAgentSession.get_ACDCallRate
 title: ITAgentSession::get_ACDCallRate (tapi3.h)
-description: The get_ACDCallRate method gets the all rate per agent session, in calls per hour.
+description: The get_ACDCallRate method gets the all rate per agent session, in calls per hour. (ITAgentSession.get_ACDCallRate)
 helpviewer_keywords: ["ITAgentSession interface [TAPI 2.2]","get_ACDCallRate method","ITAgentSession.get_ACDCallRate","ITAgentSession::get_ACDCallRate","_tapi3_itagentsession_get_acdcallrate","get_ACDCallRate","get_ACDCallRate method [TAPI 2.2]","get_ACDCallRate method [TAPI 2.2]","ITAgentSession interface","tapi3.itagentsession_get_acdcallrate","tapi3cc/ITAgentSession::get_ACDCallRate"]
 old-location: tapi3\itagentsession_get_acdcallrate.htm
 tech.root: tapi3

@@ -1,7 +1,7 @@
 ---
 UID: NN:vdshwprv.IVdsHwProvider
 title: IVdsHwProvider (vdshwprv.h)
-description: Provides methods for performing query, reenumeration, and refresh operations on a hardware provider.
+description: Provides methods for performing query, reenumeration, and refresh operations on a hardware provider. (IVdsHwProvider)
 helpviewer_keywords: ["IVdsHwProvider","IVdsHwProvider interface [VDS]","IVdsHwProvider interface [VDS]","described","base.ivdshwprovider","vds/IVdsHwProvider","vdshwprv/IVdsHwProvider"]
 old-location: base\ivdshwprovider.htm
 tech.root: base

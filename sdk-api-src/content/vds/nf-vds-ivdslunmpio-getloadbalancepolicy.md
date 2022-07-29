@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsLunMpio.GetLoadBalancePolicy
 title: IVdsLunMpio::GetLoadBalancePolicy (vds.h)
-description: Returns the current load balance policy on the LUN.
+description: Returns the current load balance policy on the LUN. (IVdsLunMpio.GetLoadBalancePolicy)
 helpviewer_keywords: ["GetLoadBalancePolicy","GetLoadBalancePolicy method [VDS]","GetLoadBalancePolicy method [VDS]","IVdsLunMpio interface","IVdsLunMpio interface [VDS]","GetLoadBalancePolicy method","IVdsLunMpio.GetLoadBalancePolicy","IVdsLunMpio::GetLoadBalancePolicy","base.ivdslunmpio_getloadbalancepolicy","vds/IVdsLunMpio::GetLoadBalancePolicy","vdshwprv/IVdsLunMpio::GetLoadBalancePolicy"]
 old-location: base\ivdslunmpio_getloadbalancepolicy.htm
 tech.root: base

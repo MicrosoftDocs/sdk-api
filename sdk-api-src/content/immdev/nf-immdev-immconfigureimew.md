@@ -1,7 +1,7 @@
 ---
 UID: NF:immdev.ImmConfigureIMEW
 title: ImmConfigureIMEW function (immdev.h)
-description: Displays the configuration dialog box for the IME of the specified input locale identifier.
+description: Displays the configuration dialog box for the IME of the specified input locale identifier. (ImmConfigureIMEW)
 helpviewer_keywords: ["IME_CONFIG_GENERAL","IME_CONFIG_REGISTERWORD","IME_CONFIG_SELECTDICTIONARY","ImmConfigureIME","ImmConfigureIME function [Internationalization for Windows Applications]","ImmConfigureIMEA","ImmConfigureIMEW","_win32_ImmConfigureIME","imm/ImmConfigureIME","imm/ImmConfigureIMEA","imm/ImmConfigureIMEW","intl.immconfigureime"]
 old-location: intl\immconfigureime.htm
 tech.root: Intl

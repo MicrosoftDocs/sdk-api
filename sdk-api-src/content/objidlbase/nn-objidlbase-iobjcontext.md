@@ -1,7 +1,7 @@
 ---
 UID: NN:objidlbase.IObjContext
 title: IObjContext (objidlbase.h)
-description: Performs various operations on contexts.
+description: Performs various operations on contexts. (IObjContext.Reserved7)
 helpviewer_keywords: ["IObjContext","IObjContext interface [COM]","IObjContext interface [COM]","described","_com_iobjcontext","com.iobjcontext","objidlbase/IObjContext"]
 old-location: com\iobjcontext.htm
 tech.root: com

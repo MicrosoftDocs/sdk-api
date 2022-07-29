@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IRpcStubBuffer
 title: IRpcStubBuffer (objidl.h)
-description: Controls the RPC stub used to marshal data between COM components.
+description: Controls the RPC stub used to marshal data between COM components. (IRpcStubBuffer)
 helpviewer_keywords: ["IRpcStubBuffer","IRpcStubBuffer interface [COM]","IRpcStubBuffer interface [COM]","described","_com_irpcstubbuffer","com.irpcstubbuffer","objidlbase/IRpcStubBuffer"]
 old-location: com\irpcstubbuffer.htm
 tech.root: com

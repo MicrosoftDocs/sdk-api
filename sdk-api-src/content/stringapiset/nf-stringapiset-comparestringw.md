@@ -1,7 +1,7 @@
 ---
 UID: NF:stringapiset.CompareStringW
 title: CompareStringW function (stringapiset.h)
-description: Compares two character strings, for a locale specified by identifier.Caution  Using CompareString incorrectly can compromise the security of your application.
+description: Compares two character strings, for a locale specified by identifier.Caution  Using CompareString incorrectly can compromise the security of your application. (CompareStringW)
 helpviewer_keywords: ["CompareString","CompareString function [Internationalization for Windows Applications]","CompareStringA","CompareStringW","_win32_CompareString","_win32_CompareString_cpp","intl.comparestring","stringapiset/CompareString","stringapiset/CompareStringA","stringapiset/CompareStringW","winnls/CompareString","winnls/CompareStringA","winnls/CompareStringW","winui._win32_CompareString"]
 old-location: intl\comparestring.htm
 tech.root: Intl

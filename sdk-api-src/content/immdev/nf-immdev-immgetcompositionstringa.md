@@ -1,7 +1,7 @@
 ---
 UID: NF:immdev.ImmGetCompositionStringA
 title: ImmGetCompositionStringA function (immdev.h)
-description: Retrieves information about the composition string.
+description: Retrieves information about the composition string. (ImmGetCompositionStringA)
 helpviewer_keywords: ["ImmGetCompositionString","ImmGetCompositionString function [Internationalization for Windows Applications]","ImmGetCompositionStringA","ImmGetCompositionStringW","_win32_ImmGetCompositionString","imm/ImmGetCompositionString","imm/ImmGetCompositionStringA","imm/ImmGetCompositionStringW","intl.immgetcompositionstring"]
 old-location: intl\immgetcompositionstring.htm
 tech.root: Intl

@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.HttpSendRequestExW
 title: HttpSendRequestExW function (wininet.h)
-description: Sends the specified request to the HTTP server.
+description: Sends the specified request to the HTTP server. (HttpSendRequestExW)
 helpviewer_keywords: ["HttpSendRequestEx","HttpSendRequestEx function [WinINet]","HttpSendRequestExA","HttpSendRequestExW","_win32_httpsendrequestex","wininet.httpsendrequestex","wininet/HttpSendRequestEx","wininet/HttpSendRequestExA","wininet/HttpSendRequestExW"]
 old-location: wininet\httpsendrequestex.htm
 tech.root: wininet

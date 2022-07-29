@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmFilterDestroyEnumHandle0
 title: FwpmFilterDestroyEnumHandle0 function (fwpmu.h)
-description: Frees a handle returned by FwpmFilterCreateEnumHandle0.
+description: Frees a handle returned by FwpmFilterCreateEnumHandle0. (FwpmFilterDestroyEnumHandle0)
 helpviewer_keywords: ["FwpmFilterDestroyEnumHandle0","FwpmFilterDestroyEnumHandle0 function [Filtering]","fwp.fwpmfilterdestroyenumhandle0_func","fwpmu/FwpmFilterDestroyEnumHandle0"]
 old-location: fwp\fwpmfilterdestroyenumhandle0_func.htm
 tech.root: fwp

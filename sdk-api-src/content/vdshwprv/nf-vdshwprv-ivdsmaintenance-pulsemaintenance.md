@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsMaintenance.PulseMaintenance
 title: IVdsMaintenance::PulseMaintenance (vdshwprv.h)
-description: Performs the specified operation a specified number of times.
+description: Performs the specified operation a specified number of times. (IVdsMaintenance.PulseMaintenance)
 helpviewer_keywords: ["IVdsMaintenance interface [VDS]","PulseMaintenance method","IVdsMaintenance.PulseMaintenance","IVdsMaintenance::PulseMaintenance","PulseMaintenance","PulseMaintenance method [VDS]","PulseMaintenance method [VDS]","IVdsMaintenance interface","base.ivdsmaintenance_pulsemaintenance","vds/IVdsMaintenance::PulseMaintenance","vdshwprv/IVdsMaintenance::PulseMaintenance"]
 old-location: base\ivdsmaintenance_pulsemaintenance.htm
 tech.root: base

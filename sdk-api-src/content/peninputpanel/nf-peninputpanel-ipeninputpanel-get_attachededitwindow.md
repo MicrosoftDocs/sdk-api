@@ -1,7 +1,7 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.get_AttachedEditWindow
 title: IPenInputPanel::get_AttachedEditWindow (peninputpanel.h)
-description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Sets or gets the window handle of the object that the PenInputPanel object is attached to.
+description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Sets or gets the window handle of the object that the PenInputPanel object is attached to. (Get)
 helpviewer_keywords: ["4ece9a88-dc5e-4c5c-bf75-ad22a3d3cfb5","AttachedEditWindow property [Tablet PC]","AttachedEditWindow property [Tablet PC]","IPenInputPanel interface","IPenInputPanel interface [Tablet PC]","AttachedEditWindow property","IPenInputPanel.AttachedEditWindow","IPenInputPanel.get_AttachedEditWindow","IPenInputPanel::AttachedEditWindow","IPenInputPanel::get_AttachedEditWindow","IPenInputPanel::put_AttachedEditWindow","PenInputPanel.get_AttachedEditWindow","PenInputPanel.put_AttachedEditWindow","get_AttachedEditWindow","peninputpanel/IPenInputPanel::AttachedEditWindow","peninputpanel/IPenInputPanel::get_AttachedEditWindow","peninputpanel/IPenInputPanel::put_AttachedEditWindow","put_AttachedEditWindow","tablet.peninputpanel_attachededitwindow"]
 old-location: tablet\peninputpanel_attachededitwindow.htm
 tech.root: tablet

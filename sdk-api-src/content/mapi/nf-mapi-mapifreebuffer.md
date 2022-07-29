@@ -1,7 +1,7 @@
 ---
 UID: NF:mapi.MAPIFreeBuffer
 title: MAPIFreeBuffer function (mapi.h)
-description: The MAPIFreeBuffer function frees memory allocated by the messaging system.
+description: The MAPIFreeBuffer function frees memory allocated by the messaging system. (MAPIFreeBuffer)
 helpviewer_keywords: ["MAPIFreeBuffer","MAPIFreeBuffer callback","MAPIFreeBuffer callback function","mapi.mapifreebuffer","wabmem/MAPIFreeBuffer"]
 old-location: mapi\mapifreebuffer.htm
 tech.root: mapi

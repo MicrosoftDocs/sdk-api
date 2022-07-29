@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_CLEAR_CONTEXT_FN
 title: PIBIO_SENSOR_CLEAR_CONTEXT_FN (winbio_adapter.h)
-description: Prepares the processing pipeline of the biometric unit for a new operation.
+description: Prepares the processing pipeline of the biometric unit for a new operation.S
 helpviewer_keywords: ["PIBIO_SENSOR_CLEAR_CONTEXT_FN","PIBIO_SENSOR_CLEAR_CONTEXT_FN callback","SensorAdapterClearContext","SensorAdapterClearContext callback function [Windows Biometric Framework API]","secbiomet.sensoradapterclearcontext","winbio_adapter/SensorAdapterClearContext"]
 old-location: secbiomet\sensoradapterclearcontext.htm
 tech.root: SecBioMet

@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarFix
 title: VarFix function (oleauto.h)
-description: Returns the integer portion of a variant.
+description: Returns the integer portion of a variant. (VarFix)
 helpviewer_keywords: ["VarFix","VarFix function [Automation]","_oa96_VarFix","automat.varfix","oleauto/VarFix"]
 old-location: automat\varfix.htm
 tech.root: automat

@@ -1,7 +1,7 @@
 ---
 UID: NF:libloaderapi.LoadLibraryA
 title: LoadLibraryA function (libloaderapi.h)
-description: Loads the specified module into the address space of the calling process.
+description: Loads the specified module into the address space of the calling process. (LoadLibraryA)
 helpviewer_keywords: ["LoadLibrary","LoadLibrary function","LoadLibraryA","LoadLibraryW","_win32_loadlibrary","base.loadlibrary","libloaderapi/LoadLibrary","libloaderapi/LoadLibraryA","libloaderapi/LoadLibraryW","winbase/LoadLibrary","winbase/LoadLibraryA","winbase/LoadLibraryW"]
 old-location: base\loadlibrary.htm
 tech.root: base
@@ -75,7 +75,13 @@ For additional load options, use the
 ### -param lpLibFileName [in]
 
 The name of the module. This can be either a library module (a .dll file) or an executable
-       module (an .exe file). The name specified is the file name of the module and is not related to the
+module (an .exe file).
+If the specified module is an executable module, static imports are not loaded;
+instead, the module is loaded as if by
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>
+with the `DONT_RESOLVE_DLL_REFERENCES` flag.
+
+The name specified is the file name of the module and is not related to the
        name stored in the library module itself, as specified by the <b>LIBRARY</b> keyword in
        the module-definition (.def) file.
 

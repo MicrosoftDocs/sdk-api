@@ -1,7 +1,7 @@
 ---
 UID: NF:wincred.CredUnmarshalCredentialA
 title: CredUnmarshalCredentialA function (wincred.h)
-description: The CredUnmarshalCredential function transforms a marshaled credential back into its original form.
+description: The CredUnmarshalCredential function transforms a marshaled credential back into its original form. (ANSI)
 helpviewer_keywords: ["CredUnmarshalCredential","CredUnmarshalCredential function [Security]","CredUnmarshalCredentialA","CredUnmarshalCredentialW","_cred_credunmarshalcredential","security.credunmarshalcredential","wincred/CredUnmarshalCredential","wincred/CredUnmarshalCredentialA","wincred/CredUnmarshalCredentialW"]
 old-location: security\credunmarshalcredential.htm
 tech.root: security

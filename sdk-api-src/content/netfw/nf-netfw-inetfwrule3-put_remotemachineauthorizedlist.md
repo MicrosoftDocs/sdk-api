@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule3.put_RemoteMachineAuthorizedList
 title: INetFwRule3::put_RemoteMachineAuthorizedList (netfw.h)
-description: Specifies a list of remote computers which are authorized to access an app container.
+description: Specifies a list of remote computers which are authorized to access an app container. (Put)
 helpviewer_keywords: ["INetFwRule3 interface [ICS/ICF]","RemoteMachineAuthorizedList property","INetFwRule3.RemoteMachineAuthorizedList","INetFwRule3.put_RemoteMachineAuthorizedList","INetFwRule3::RemoteMachineAuthorizedList","INetFwRule3::get_RemoteMachineAuthorizedList","INetFwRule3::put_RemoteMachineAuthorizedList","RemoteMachineAuthorizedList property [ICS/ICF]","RemoteMachineAuthorizedList property [ICS/ICF]","INetFwRule3 interface","ics.inetfwrule3_remotemachineauthorizedlist","netfw/INetFwRule3::RemoteMachineAuthorizedList","netfw/INetFwRule3::get_RemoteMachineAuthorizedList","netfw/INetFwRule3::put_RemoteMachineAuthorizedList","put_RemoteMachineAuthorizedList"]
 old-location: ics\inetfwrule3_remotemachineauthorizedlist.htm
 tech.root: ics

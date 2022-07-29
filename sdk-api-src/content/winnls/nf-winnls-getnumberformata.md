@@ -1,7 +1,7 @@
 ---
 UID: NF:winnls.GetNumberFormatA
 title: GetNumberFormatA function (winnls.h)
-description: Formats a number string as a number string customized for a locale specified by identifier.
+description: Formats a number string as a number string customized for a locale specified by identifier. (ANSI)
 helpviewer_keywords: ["GetNumberFormat","GetNumberFormat function [Internationalization for Windows Applications]","GetNumberFormatA","GetNumberFormatW","_win32_GetNumberFormat","intl.getnumberformat","winnls/GetNumberFormat","winnls/GetNumberFormatA","winnls/GetNumberFormatW"]
 old-location: intl\getnumberformat.htm
 tech.root: Intl

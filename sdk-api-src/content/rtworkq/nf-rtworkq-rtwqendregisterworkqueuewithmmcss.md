@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqEndRegisterWorkQueueWithMMCSS
 title: RtwqEndRegisterWorkQueueWithMMCSS function (rtworkq.h)
-description: Completes an asynchronous request to associate a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
+description: Completes an asynchronous request to associate a work queue with a Multimedia Class Scheduler Service (MMCSS) task. (RtwqEndRegisterWorkQueueWithMMCSS)
 helpviewer_keywords: ["RtwqEndRegisterWorkQueueWithMMCSS","RtwqEndRegisterWorkQueueWithMMCSS function","base.rtwqendregisterworkqueuewithmmcss","rtworkq/RtwqEndRegisterWorkQueueWithMMCSS"]
 old-location: base\rtwqendregisterworkqueuewithmmcss.htm
 tech.root: backup

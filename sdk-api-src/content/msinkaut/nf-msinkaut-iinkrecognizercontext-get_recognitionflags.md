@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.get_RecognitionFlags
 title: IInkRecognizerContext::get_RecognitionFlags (msinkaut.h)
-description: Gets or sets the flags that specify how the recognizer interprets the ink and determines the result string.
+description: Gets or sets the flags that specify how the recognizer interprets the ink and determines the result string. (Get)
 helpviewer_keywords: ["71b02f99-4076-4c56-b88a-4201b7033411","IInkRecognizerContext interface [Tablet PC]","RecognitionFlags property","IInkRecognizerContext.RecognitionFlags","IInkRecognizerContext.get_RecognitionFlags","IInkRecognizerContext::RecognitionFlags","IInkRecognizerContext::get_RecognitionFlags","IInkRecognizerContext::put_RecognitionFlags","InkRecognizerContext.get_RecognitionFlags","InkRecognizerContext.put_RecognitionFlags","RecognitionFlags property [Tablet PC]","RecognitionFlags property [Tablet PC]","IInkRecognizerContext interface","get_RecognitionFlags","msinkaut/IInkRecognizerContext::RecognitionFlags","msinkaut/IInkRecognizerContext::get_RecognitionFlags","msinkaut/IInkRecognizerContext::put_RecognitionFlags","put_RecognitionFlags","tablet.inkrecognizercontext_recognitionflags"]
 old-location: tablet\inkrecognizercontext_recognitionflags.htm
 tech.root: tablet

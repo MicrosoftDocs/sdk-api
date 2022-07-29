@@ -1,7 +1,7 @@
 ---
 UID: NS:commoncontrols._IMAGELISTDRAWPARAMS
 title: IMAGELISTDRAWPARAMS (commoncontrols.h)
-description: Contains information about an image list draw operation and is used with the IImageList::Draw function.
+description: Contains information about an image list draw operation and is used with the IImageList::Draw function. (IMAGELISTDRAWPARAMS)
 helpviewer_keywords: ["*LPIMAGELISTDRAWPARAMS","BLACKNESS","CLR_DEFAULT","CLR_NONE","DSTINVERT","IMAGELISTDRAWPARAMS","IMAGELISTDRAWPARAMS structure [Windows Controls]","MERGECOPY","MERGEPAINT","NOTSRCCOPY","NOTSRCERASE","PATCOPY","PATINVERT","PATPAINT","SRCAND","SRCCOPY","SRCERASE","SRCINVERT","SRCPAINT","WHITENESS","_win32_IMAGELISTDRAWPARAMS","_win32_IMAGELISTDRAWPARAMS_cpp","commoncontrols/IMAGELISTDRAWPARAMS","controls.IMAGELISTDRAWPARAMS","controls._win32_IMAGELISTDRAWPARAMS"]
 old-location: controls\IMAGELISTDRAWPARAMS.htm
 tech.root: Controls

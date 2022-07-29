@@ -1,7 +1,7 @@
 ---
 UID: NE:vds._VDS_TRANSITION_STATE
 title: VDS_TRANSITION_STATE (vds.h)
-description: Defines the set of the valid transition state values for a VDS object.
+description: Defines the set of the valid transition state values for a VDS object. (VDS_TRANSITION_STATE)
 helpviewer_keywords: ["VDS_TRANSITION_STATE","VDS_TRANSITION_STATE enumeration","VDS_TS_EXTENDING","VDS_TS_RECONFIGING","VDS_TS_RESTRIPING","VDS_TS_SHRINKING","VDS_TS_STABLE","VDS_TS_UNKNOWN","base.vds_transition_state","vds/VDS_TRANSITION_STATE","vds/VDS_TS_EXTENDING","vds/VDS_TS_RECONFIGING","vds/VDS_TS_RESTRIPING","vds/VDS_TS_SHRINKING","vds/VDS_TS_STABLE","vds/VDS_TS_UNKNOWN","vdshwprv/VDS_TRANSITION_STATE","vdshwprv/VDS_TS_EXTENDING","vdshwprv/VDS_TS_RECONFIGING","vdshwprv/VDS_TS_RESTRIPING","vdshwprv/VDS_TS_SHRINKING","vdshwprv/VDS_TS_STABLE","vdshwprv/VDS_TS_UNKNOWN"]
 old-location: base\vds_transition_state.htm
 tech.root: base

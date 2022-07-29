@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.CreatePortalGroup
 title: IVdsIscsiTarget::CreatePortalGroup (vds.h)
-description: Creates a portal group.
+description: Creates a portal group. (IVdsIscsiTarget.CreatePortalGroup)
 helpviewer_keywords: ["CreatePortalGroup","CreatePortalGroup method [VDS]","CreatePortalGroup method [VDS]","IVdsIscsiTarget interface","IVdsIscsiTarget interface [VDS]","CreatePortalGroup method","IVdsIscsiTarget.CreatePortalGroup","IVdsIscsiTarget::CreatePortalGroup","base.ivdsiscsitarget_createportalgroup","vds/IVdsIscsiTarget::CreatePortalGroup","vdshwprv/IVdsIscsiTarget::CreatePortalGroup"]
 old-location: base\ivdsiscsitarget_createportalgroup.htm
 tech.root: base

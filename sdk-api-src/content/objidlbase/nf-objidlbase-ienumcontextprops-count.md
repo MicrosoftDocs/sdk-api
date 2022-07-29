@@ -1,7 +1,7 @@
 ---
 UID: NF:objidlbase.IEnumContextProps.Count
 title: IEnumContextProps::Count (objidlbase.h)
-description: Retrieves the number of context properties in the context.
+description: Retrieves the number of context properties in the context. (IEnumContextProps.Count)
 helpviewer_keywords: ["Count","Count method [COM]","Count method [COM]","IEnumContextProps interface","IEnumContextProps interface [COM]","Count method","IEnumContextProps.Count","IEnumContextProps::Count","_com_ienumcontextprops_count","com.ienumcontextprops_count","objidlbase/IEnumContextProps::Count"]
 old-location: com\ienumcontextprops_count.htm
 tech.root: com

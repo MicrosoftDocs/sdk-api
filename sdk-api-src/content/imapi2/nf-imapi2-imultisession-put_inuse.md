@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IMultisession.put_InUse
 title: IMultisession::put_InUse (imapi2.h)
-description: Determines if this multi-session interface is the one you should use on the current media.
+description: Determines if this multi-session interface is the one you should use on the current media. (Put)
 helpviewer_keywords: ["IMultisession interface [IMAPI]","put_InUse method","IMultisession.put_InUse","IMultisession::put_InUse","imapi.imultisession_put_inuse","imapi2/IMultisession::put_InUse","put_InUse","put_InUse method [IMAPI]","put_InUse method [IMAPI]","IMultisession interface"]
 old-location: imapi\imultisession_put_inuse.htm
 tech.root: imapi

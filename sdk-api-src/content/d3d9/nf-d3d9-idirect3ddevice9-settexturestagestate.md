@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetTextureStageState
 title: IDirect3DDevice9::SetTextureStageState (d3d9.h)
-description: Sets the state value for the currently assigned texture.
+description: Sets the state value for the currently assigned texture. (IDirect3DDevice9.SetTextureStageState)
 helpviewer_keywords: ["IDirect3DDevice9 interface [Direct3D 9]","SetTextureStageState method","IDirect3DDevice9.SetTextureStageState","IDirect3DDevice9::SetTextureStageState","SetTextureStageState","SetTextureStageState method [Direct3D 9]","SetTextureStageState method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::SetTextureStageState","d527a1a7-ab83-8b59-b7eb-084188448dc6","direct3d9.idirect3ddevice9__settexturestagestate"]
 old-location: direct3d9\idirect3ddevice9__settexturestagestate.htm
 tech.root: direct3d9

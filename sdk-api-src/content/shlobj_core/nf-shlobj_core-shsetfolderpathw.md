@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHSetFolderPathW
 title: SHSetFolderPathW function (shlobj_core.h)
-description: Deprecated. Assigns a new path to a system folder identified by its CSIDL.
+description: Deprecated. Assigns a new path to a system folder identified by its CSIDL. (Unicode)
 helpviewer_keywords: ["SHSetFolderPath","SHSetFolderPath function [Windows Shell]","SHSetFolderPathA","SHSetFolderPathW","_win32_SHSetFolderPath","shell.SHSetFolderPath","shlobj_core/SHSetFolderPath","shlobj_core/SHSetFolderPathA","shlobj_core/SHSetFolderPathW"]
 old-location: shell\SHSetFolderPath.htm
 tech.root: shell

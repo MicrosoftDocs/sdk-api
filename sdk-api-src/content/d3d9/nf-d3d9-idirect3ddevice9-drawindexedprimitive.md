@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.DrawIndexedPrimitive
 title: IDirect3DDevice9::DrawIndexedPrimitive (d3d9.h)
-description: Based on indexing, renders the specified geometric primitive into an array of vertices.
+description: Based on indexing, renders the specified geometric primitive into an array of vertices. (IDirect3DDevice9.DrawIndexedPrimitive)
 helpviewer_keywords: ["DrawIndexedPrimitive","DrawIndexedPrimitive method [Direct3D 9]","DrawIndexedPrimitive method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","DrawIndexedPrimitive method","IDirect3DDevice9.DrawIndexedPrimitive","IDirect3DDevice9::DrawIndexedPrimitive","a022738b-ecda-9413-683b-50134f542560","d3d9helper/IDirect3DDevice9::DrawIndexedPrimitive","direct3d9.idirect3ddevice9__drawindexedprimitive"]
 old-location: direct3d9\idirect3ddevice9__drawindexedprimitive.htm
 tech.root: direct3d9

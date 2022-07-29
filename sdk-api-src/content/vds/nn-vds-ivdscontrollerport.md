@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsControllerPort
 title: IVdsControllerPort (vds.h)
-description: Provides methods for performing query and configuration operations on a controller port.
+description: Provides methods for performing query and configuration operations on a controller port. (IVdsControllerPort)
 helpviewer_keywords: ["IVdsControllerPort","IVdsControllerPort interface [VDS]","IVdsControllerPort interface [VDS]","described","base.ivdscontrollerport","vds/IVdsControllerPort","vdshwprv/IVdsControllerPort"]
 old-location: base\ivdscontrollerport.htm
 tech.root: base

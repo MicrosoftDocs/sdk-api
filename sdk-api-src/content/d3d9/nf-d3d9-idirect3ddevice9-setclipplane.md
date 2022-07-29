@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetClipPlane
 title: IDirect3DDevice9::SetClipPlane (d3d9.h)
-description: Sets the coefficients of a user-defined clipping plane for the device.
+description: Sets the coefficients of a user-defined clipping plane for the device. (IDirect3DDevice9.SetClipPlane)
 helpviewer_keywords: ["IDirect3DDevice9 interface [Direct3D 9]","SetClipPlane method","IDirect3DDevice9.SetClipPlane","IDirect3DDevice9::SetClipPlane","SetClipPlane","SetClipPlane method [Direct3D 9]","SetClipPlane method [Direct3D 9]","IDirect3DDevice9 interface","b1eeda9e-38a1-4dea-dab6-04754538861d","d3d9helper/IDirect3DDevice9::SetClipPlane","direct3d9.idirect3ddevice9__setclipplane"]
 old-location: direct3d9\idirect3ddevice9__setclipplane.htm
 tech.root: direct3d9

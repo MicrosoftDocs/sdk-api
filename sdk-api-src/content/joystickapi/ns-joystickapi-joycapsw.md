@@ -1,7 +1,7 @@
 ---
 UID: NS:joystickapi.tagJOYCAPSW
 title: JOYCAPSW (joystickapi.h)
-description: The JOYCAPS structure contains information about the joystick capabilities.
+description: The JOYCAPS structure contains information about the joystick capabilities. (JOYCAPSW)
 helpviewer_keywords: ["*LPJOYCAPSW","*NPJOYCAPSW","*PJOYCAPSW","JOYCAPS","JOYCAPS structure [Windows Multimedia]","JOYCAPSA","JOYCAPSW","_win32_JOYCAPS_str","joystickapi/JOYCAPS","joystickapi/JOYCAPSA","joystickapi/JOYCAPSW","multimedia.joycaps","tagJOYCAPSA","tagJOYCAPSW"]
 old-location: multimedia\joycaps.htm
 tech.root: Multimedia

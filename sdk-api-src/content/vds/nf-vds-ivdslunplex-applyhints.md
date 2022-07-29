@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsLunPlex.ApplyHints
 title: IVdsLunPlex::ApplyHints (vds.h)
-description: Applies a new set of hints to the LUN plex. Hints applied to a plex affect neither the LUN nor its other plexes.
+description: Applies a new set of hints to the LUN plex. Hints applied to a plex affect neither the LUN nor its other plexes. (IVdsLunPlex.ApplyHints)
 helpviewer_keywords: ["ApplyHints","ApplyHints method [VDS]","ApplyHints method [VDS]","IVdsLunPlex interface","IVdsLunPlex interface [VDS]","ApplyHints method","IVdsLunPlex.ApplyHints","IVdsLunPlex::ApplyHints","base.ivdslunplex_applyhints","vds/IVdsLunPlex::ApplyHints","vdshwprv/IVdsLunPlex::ApplyHints"]
 old-location: base\ivdslunplex_applyhints.htm
 tech.root: base

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.GetChildren
 title: IUIAutomationTextRange::GetChildren (uiautomationclient.h)
-description: Retrieves a collection of all embedded objects that fall within the text range.
+description: Retrieves a collection of all embedded objects that fall within the text range. (IUIAutomationTextRange.GetChildren)
 helpviewer_keywords: ["GetChildren","GetChildren method [Windows Accessibility]","GetChildren method [Windows Accessibility]","IUIAutomationTextRange interface","IUIAutomationTextRange interface [Windows Accessibility]","GetChildren method","IUIAutomationTextRange.GetChildren","IUIAutomationTextRange::GetChildren","uiauto.uiauto_IUIAutomationTextRange_GetChildren","uiauto_IUIAutomationTextRange_GetChildren","uiautomationclient/IUIAutomationTextRange::GetChildren","winauto.uiauto_IUIAutomationTextRange_GetChildren"]
 old-location: winauto\uiauto_IUIAutomationTextRange_GetChildren.htm
 tech.root: WinAuto

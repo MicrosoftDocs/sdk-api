@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IDefaultFolderMenuInitialize.Initialize
 title: IDefaultFolderMenuInitialize::Initialize (shobjidl_core.h)
-description: .
+description: . (IDefaultFolderMenuInitialize.Initialize)
 helpviewer_keywords: ["IDefaultFolderMenuInitialize interface [Windows Shell]","Initialize method","IDefaultFolderMenuInitialize.Initialize","IDefaultFolderMenuInitialize::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","IDefaultFolderMenuInitialize interface","shell.IDefaultFolderMenuInitialize_Initialize","shobjidl_core/IDefaultFolderMenuInitialize::Initialize"]
 old-location: shell\IDefaultFolderMenuInitialize_Initialize.htm
 tech.root: shell

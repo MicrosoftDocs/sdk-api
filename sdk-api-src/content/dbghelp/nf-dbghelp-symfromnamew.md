@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymFromNameW
 title: SymFromNameW function (dbghelp.h)
-description: Retrieves symbol information for the specified name.
+description: Retrieves symbol information for the specified name. (SymFromNameW)
 helpviewer_keywords: ["SymFromName","SymFromName function","SymFromNameW","_win32_symfromname","base.symfromname","dbghelp/SymFromName","dbghelp/SymFromNameW"]
 old-location: base\symfromname.htm
 tech.root: Debug

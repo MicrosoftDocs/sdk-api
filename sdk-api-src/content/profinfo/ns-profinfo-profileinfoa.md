@@ -1,7 +1,7 @@
 ---
 UID: NS:profinfo._PROFILEINFOA
 title: PROFILEINFOA (profinfo.h)
-description: Contains information used when loading or unloading a user profile.
+description: Contains information used when loading or unloading a user profile. (ANSI)
 helpviewer_keywords: ["*LPPROFILEINFOA","LPPROFILEINFO","LPPROFILEINFO structure pointer [Windows Shell]","PI_APPLYPOLICY","PI_NOUI","PROFILEINFO","PROFILEINFO structure [Windows Shell]","PROFILEINFOA","PROFILEINFOW","_shell_PROFILEINFO","profinfo/LPPROFILEINFO","profinfo/PROFILEINFO","profinfo/PROFILEINFOA","profinfo/PROFILEINFOW","shell.PROFILEINFO"]
 old-location: shell\PROFILEINFO.htm
 tech.root: shell

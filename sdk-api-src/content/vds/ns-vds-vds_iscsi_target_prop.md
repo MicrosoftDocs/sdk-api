@@ -1,7 +1,7 @@
 ---
 UID: NS:vds._VDS_ISCSI_TARGET_PROP
 title: VDS_ISCSI_TARGET_PROP (vds.h)
-description: Defines the properties of an iSCSI target.
+description: Defines the properties of an iSCSI target. (VDS_ISCSI_TARGET_PROP)
 helpviewer_keywords: ["*PVDS_ISCSI_TARGET_PROP","VDS_ISCSI_TARGET_PROP","VDS_ISCSI_TARGET_PROP structure [VDS]","base.vds_iscsi_target_prop","vds/VDS_ISCSI_TARGET_PROP","vdshwprv/VDS_ISCSI_TARGET_PROP"]
 old-location: base\vds_iscsi_target_prop.htm
 tech.root: base

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHRegEnumUSKeyA
 title: SHRegEnumUSKeyA function (shlwapi.h)
-description: Enumerates the subkeys of a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
+description: Enumerates the subkeys of a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). (ANSI)
 helpviewer_keywords: ["SHRegEnumUSKey","SHRegEnumUSKey function [Windows Shell]","SHRegEnumUSKeyA","SHRegEnumUSKeyW","_win32_SHRegEnumUSKey","shell.SHRegEnumUSKey","shlwapi/SHRegEnumUSKey","shlwapi/SHRegEnumUSKeyA","shlwapi/SHRegEnumUSKeyW"]
 old-location: shell\SHRegEnumUSKey.htm
 tech.root: shell

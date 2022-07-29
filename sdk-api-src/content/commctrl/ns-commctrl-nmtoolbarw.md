@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMTOOLBARW
 title: NMTOOLBARW (commctrl.h)
-description: Contains information used to process toolbar notification codes. This structure supersedes the TBNOTIFY structure.
+description: Contains information used to process toolbar notification codes. This structure supersedes the TBNOTIFY structure. (Unicode)
 helpviewer_keywords: ["*LPNMTOOLBARW","LPNMTOOLBAR","LPNMTOOLBAR structure pointer [Windows Controls]","NMTOOLBAR","NMTOOLBAR structure [Windows Controls]","NMTOOLBARA","NMTOOLBARW","_win32_NMTOOLBAR","_win32_NMTOOLBAR_cpp","commctrl/LPNMTOOLBAR","commctrl/NMTOOLBAR","commctrl/NMTOOLBARA","commctrl/NMTOOLBARW","controls.NMTOOLBAR","controls._win32_NMTOOLBAR"]
 old-location: controls\NMTOOLBAR.htm
 tech.root: Controls

@@ -4,7 +4,7 @@ tech.root: backup
 title: QueueUserAPC2 function (processthreadsapi.h)
 ms.date: 10/14/2021
 targetos: Windows
-description: Adds a user-mode asynchronous procedure call (APC) object to the APC queue of the specified thread.
+description: Adds a user-mode asynchronous procedure call (APC) object to the APC queue of the specified thread. (QueueUserAPC2)
 prerelease: false
 req.assembly: 
 req.construct-type: function

@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsSubSystemIscsi.CreateTarget
 title: IVdsSubSystemIscsi::CreateTarget (vds.h)
-description: Creates an iSCSI target.
+description: Creates an iSCSI target. (IVdsSubSystemIscsi.CreateTarget)
 helpviewer_keywords: ["CreateTarget","CreateTarget method [VDS]","CreateTarget method [VDS]","IVdsSubSystemIscsi interface","IVdsSubSystemIscsi interface [VDS]","CreateTarget method","IVdsSubSystemIscsi.CreateTarget","IVdsSubSystemIscsi::CreateTarget","base.ivdssubsystemiscsi_createtarget","vds/IVdsSubSystemIscsi::CreateTarget","vdshwprv/IVdsSubSystemIscsi::CreateTarget"]
 old-location: base\ivdssubsystemiscsi_createtarget.htm
 tech.root: base

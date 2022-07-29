@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.CallWindowProcA
 title: CallWindowProcA function (winuser.h)
-description: Passes message information to the specified window procedure.
+description: Passes message information to the specified window procedure. (ANSI)
 helpviewer_keywords: ["CallWindowProc","CallWindowProc function [Windows and Messages]","CallWindowProcA","CallWindowProcW","_win32_CallWindowProc","_win32_callwindowproc_cpp","winmsg.callwindowproc","winui._win32_callwindowproc","winuser/CallWindowProc","winuser/CallWindowProcA","winuser/CallWindowProcW"]
 old-location: winmsg\callwindowproc.htm
 tech.root: winmsg

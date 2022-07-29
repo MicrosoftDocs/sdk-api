@@ -1,7 +1,7 @@
 ---
 UID: NF:strsafe.StringCchCatNW
 title: StringCchCatNW function (strsafe.h)
-description: Concatenates the specified number of characters from one string to another string.
+description: Concatenates the specified number of characters from one string to another string. (StringCchCatNW)
 helpviewer_keywords: ["StringCchCatN","StringCchCatN function [Menus and Other Resources]","StringCchCatNA","StringCchCatNW","_shell_StringCchCatN","_shell_stringcchcatn_cpp","menurc.stringcchcatn","strsafe/StringCchCatN","strsafe/StringCchCatNA","strsafe/StringCchCatNW","winui._shell_stringcchcatn"]
 old-location: menurc\stringcchcatn.htm
 tech.root: menurc

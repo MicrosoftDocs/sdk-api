@@ -1,7 +1,7 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_DefaultInPlaceState
 title: ITextInputPanel::get_DefaultInPlaceState (peninputpanel.h)
-description: Gets or sets the default in-place state as specified by the InPlaceState Enumeration.
+description: Gets or sets the default in-place state as specified by the InPlaceState Enumeration. (Get)
 helpviewer_keywords: ["00778a2c-9903-46a0-a5b3-c2ac4c355462","DefaultInPlaceState property [Tablet PC]","DefaultInPlaceState property [Tablet PC]","ITextInputPanel interface","ITextInputPanel interface [Tablet PC]","DefaultInPlaceState property","ITextInputPanel.DefaultInPlaceState","ITextInputPanel.get_DefaultInPlaceState","ITextInputPanel.put_DefaultInPlaceState","ITextInputPanel::DefaultInPlaceState","ITextInputPanel::get_DefaultInPlaceState","ITextInputPanel::put_DefaultInPlaceState","get_DefaultInPlaceState","peninputpanel/ITextInputPanel::DefaultInPlaceState","peninputpanel/ITextInputPanel::get_DefaultInPlaceState","peninputpanel/ITextInputPanel::put_DefaultInPlaceState","tablet.itextinputpanel_defaultinplacestate"]
 old-location: tablet\itextinputpanel_defaultinplacestate.htm
 tech.root: tablet

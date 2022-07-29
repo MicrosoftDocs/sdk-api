@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IExternalConnection.AddConnection
 title: IExternalConnection::AddConnection (objidl.h)
-description: Increments the count of an object's strong external connections.
+description: Increments the count of an object's strong external connections. (IExternalConnection.AddConnection)
 helpviewer_keywords: ["AddConnection","AddConnection method [COM]","AddConnection method [COM]","IExternalConnection interface","IExternalConnection interface [COM]","AddConnection method","IExternalConnection.AddConnection","IExternalConnection::AddConnection","_com_iexternalconnection_addconnection","com.iexternalconnection_addconnection","objidlbase/IExternalConnection::AddConnection"]
 old-location: com\iexternalconnection_addconnection.htm
 tech.root: com

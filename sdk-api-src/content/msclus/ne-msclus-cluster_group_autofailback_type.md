@@ -1,7 +1,7 @@
 ---
 UID: NE:msclus.CLUSTER_GROUP_AUTOFAILBACK_TYPE
 title: CLUSTER_GROUP_AUTOFAILBACK_TYPE (msclus.h)
-description: Used by the AutoFailbackType group common property to specify whether the group should be failed back to the node identified as its preferred owner when that node comes back online following a failover.
+description: Used by the AutoFailbackType group common property to specify whether the group should be failed back to the node identified as its preferred owner when that node comes back online following a failover. (CLUSTER_GROUP_AUTOFAILBACK_TYPE)
 helpviewer_keywords: ["CGAFT","CGAFT enumeration [Failover Cluster]","CLUSTER_GROUP_AUTOFAILBACK_TYPE","CLUSTER_GROUP_AUTOFAILBACK_TYPE enumeration [Failover Cluster]","ClusterGroupAllowFailback","ClusterGroupFailbackTypeCount","ClusterGroupPreventFailback","_CLUSTER_GROUP_AUTOFAILBACK_TYPE","_CLUSTER_GROUP_AUTOFAILBACK_TYPE enumeration [Failover Cluster]","clusapi/CGAFT","clusapi/CLUSTER_GROUP_AUTOFAILBACK_TYPE","clusapi/ClusterGroupAllowFailback","clusapi/ClusterGroupFailbackTypeCount","clusapi/ClusterGroupPreventFailback","clusapi/_CLUSTER_GROUP_AUTOFAILBACK_TYPE","msclus/CGAFT","msclus/CLUSTER_GROUP_AUTOFAILBACK_TYPE","msclus/ClusterGroupAllowFailback","msclus/ClusterGroupFailbackTypeCount","msclus/ClusterGroupPreventFailback","msclus/_CLUSTER_GROUP_AUTOFAILBACK_TYPE","mscs.cluster_group_autofailback_type"]
 old-location: mscs\cluster_group_autofailback_type.htm
 tech.root: MsCS

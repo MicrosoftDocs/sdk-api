@@ -1,7 +1,7 @@
 ---
 UID: NE:vdshwprv._VDS_SUB_SYSTEM_STATUS
 title: VDS_SUB_SYSTEM_STATUS (vdshwprv.h)
-description: Defines the set of object status values for a subsystem.
+description: Defines the set of object status values for a subsystem. (VDS_SUB_SYSTEM_STATUS)
 helpviewer_keywords: ["*PVDS_SUB_SYSTEM_STATUS","VDS_SSS_FAILED","VDS_SSS_NOT_READY","VDS_SSS_OFFLINE","VDS_SSS_ONLINE","VDS_SSS_PARTIALLY_MANAGED","VDS_SSS_UNKNOWN","VDS_SUB_SYSTEM_STATUS","VDS_SUB_SYSTEM_STATUS enumeration [VDS]","base.vds_sub_system_status","vds/VDS_SSS_FAILED","vds/VDS_SSS_NOT_READY","vds/VDS_SSS_OFFLINE","vds/VDS_SSS_ONLINE","vds/VDS_SSS_PARTIALLY_MANAGED","vds/VDS_SSS_UNKNOWN","vds/VDS_SUB_SYSTEM_STATUS","vdshwprv/VDS_SSS_FAILED","vdshwprv/VDS_SSS_NOT_READY","vdshwprv/VDS_SSS_OFFLINE","vdshwprv/VDS_SSS_ONLINE","vdshwprv/VDS_SSS_PARTIALLY_MANAGED","vdshwprv/VDS_SSS_UNKNOWN","vdshwprv/VDS_SUB_SYSTEM_STATUS"]
 old-location: base\vds_sub_system_status.htm
 tech.root: base

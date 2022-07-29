@@ -1,7 +1,7 @@
 ---
 UID: NN:objidlbase.ISurrogate
 title: ISurrogate (objidlbase.h)
-description: Used to dynamically load new DLL servers into an existing surrogate and free the surrogate when it is no longer needed.
+description: Used to dynamically load new DLL servers into an existing surrogate and free the surrogate when it is no longer needed. (ISurrogate)
 helpviewer_keywords: ["ISurrogate","ISurrogate interface [COM]","ISurrogate interface [COM]","described","_com_isurrogate","com.isurrogate","objidlbase/ISurrogate"]
 old-location: com\isurrogate.htm
 tech.root: com

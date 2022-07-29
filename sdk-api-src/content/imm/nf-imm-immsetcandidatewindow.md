@@ -1,7 +1,7 @@
 ---
 UID: NF:imm.ImmSetCandidateWindow
 title: ImmSetCandidateWindow function (imm.h)
-description: Sets information about the candidates window.
+description: Sets information about the candidates window. (ImmSetCandidateWindow)
 helpviewer_keywords: ["ImmSetCandidateWindow","ImmSetCandidateWindow function [Internationalization for Windows Applications]","_win32_ImmSetCandidateWindow","imm/ImmSetCandidateWindow","intl.immsetcandidatewindow"]
 old-location: intl\immsetcandidatewindow.htm
 tech.root: Intl

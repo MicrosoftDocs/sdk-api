@@ -1,7 +1,7 @@
 ---
 UID: NE:msp.__MIDL___MIDL_itf_msp_0000_0000_0001
 title: MSP_ADDRESS_EVENT (msp.h)
-description: The MSP_ADDRESS_EVENT constant is returned within the MSP_EVENT_INFO struct by the GetEvent method when MSP_EVENT is ME_ADDRESS_EVENT.
+description: The MSP_ADDRESS_EVENT constant is returned within the MSP_EVENT_INFO struct by the GetEvent method when MSP_EVENT is ME_ADDRESS_EVENT. (MSP_ADDRESS_EVENT)
 helpviewer_keywords: ["ADDRESS_TERMINAL_AVAILABLE","ADDRESS_TERMINAL_UNAVAILABLE","MSP_ADDRESS_EVENT","MSP_ADDRESS_EVENT enumeration [TAPI 2.2]","_tapi3_msp_address_event","msp/ADDRESS_TERMINAL_AVAILABLE","msp/ADDRESS_TERMINAL_UNAVAILABLE","msp/MSP_ADDRESS_EVENT","tapi3.msp_address_event"]
 old-location: tapi3\msp_address_event.htm
 tech.root: tapi3

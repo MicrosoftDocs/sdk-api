@@ -1,7 +1,7 @@
 ---
 UID: NF:mswsock.TransmitFile
 title: TransmitFile function (mswsock.h)
-description: Transmits file data over a connected socket handle.
+description: Transmits file data over a connected socket handle. (TransmitFile)
 old-location: winsock\transmitfile_2.htm
 tech.root: WinSock
 ms.assetid: 45db763e-735d-48ac-a0e4-6e63b5dda7a5

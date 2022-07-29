@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.LookupIconIdFromDirectory
 title: LookupIconIdFromDirectory function (winuser.h)
-description: Searches through icon or cursor data for the icon or cursor that best fits the current display device.
+description: Searches through icon or cursor data for the icon or cursor that best fits the current display device. (LookupIconIdFromDirectory)
 helpviewer_keywords: ["LookupIconIdFromDirectory","LookupIconIdFromDirectory function [Menus and Other Resources]","_win32_LookupIconIdFromDirectory","_win32_lookupiconidfromdirectory_cpp","menurc.lookupiconidfromdirectory","winui._win32_lookupiconidfromdirectory","winuser/LookupIconIdFromDirectory"]
 old-location: menurc\lookupiconidfromdirectory.htm
 tech.root: menurc

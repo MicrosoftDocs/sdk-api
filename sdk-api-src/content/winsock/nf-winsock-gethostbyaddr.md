@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock.gethostbyaddr
 title: gethostbyaddr function (winsock.h)
-description: gethostbyaddr is no longer recommended for use as of Windows Sockets 2.
+description: gethostbyaddr is no longer recommended for use as of Windows Sockets 2. (gethostbyaddr)
 helpviewer_keywords: ["AF_INET","AF_INET6","AF_NETBIOS","_win32_gethostbyaddr_2","gethostbyaddr","gethostbyaddr function [Winsock]","winsock.gethostbyaddr_2","wsipv6ok/gethostbyaddr"]
 old-location: winsock\gethostbyaddr_2.htm
 tech.root: WinSock

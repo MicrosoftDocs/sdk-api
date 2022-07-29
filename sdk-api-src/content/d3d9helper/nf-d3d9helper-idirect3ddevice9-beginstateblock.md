@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.BeginStateBlock
 title: IDirect3DDevice9::BeginStateBlock (d3d9helper.h)
-description: Signals Direct3D to begin recording a device-state block.
+description: Signals Direct3D to begin recording a device-state block. (IDirect3DDevice9.BeginStateBlock)
 helpviewer_keywords: ["01991d00-eca6-e8db-e657-6432fe3184f2","BeginStateBlock","BeginStateBlock method [Direct3D 9]","BeginStateBlock method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","BeginStateBlock method","IDirect3DDevice9.BeginStateBlock","IDirect3DDevice9::BeginStateBlock","d3d9helper/IDirect3DDevice9::BeginStateBlock","direct3d9.idirect3ddevice9__beginstateblock"]
 old-location: direct3d9\idirect3ddevice9__beginstateblock.htm
 tech.root: direct3d9

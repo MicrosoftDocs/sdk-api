@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsLun.AddPlex
 title: IVdsLun::AddPlex (vdshwprv.h)
-description: Adds a LUN to the target LUN as a new plex.
+description: Adds a LUN to the target LUN as a new plex. (IVdsLun.AddPlex)
 helpviewer_keywords: ["AddPlex","AddPlex method [VDS]","AddPlex method [VDS]","IVdsLun interface","IVdsLun interface [VDS]","AddPlex method","IVdsLun.AddPlex","IVdsLun::AddPlex","base.ivdslun_addplex","vds/IVdsLun::AddPlex","vdshwprv/IVdsLun::AddPlex"]
 old-location: base\ivdslun_addplex.htm
 tech.root: base

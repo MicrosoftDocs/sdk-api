@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_ConstReferenceField
 title: MI_ConstReferenceField (mi.h)
-description: Represents a property inside an MI_Instance structure.
+description: Represents a property inside an MI_Instance structure. (MI_ConstReferenceField)
 helpviewer_keywords: ["MI_ConstReferenceField","MI_ConstReferenceField structure [Windows Management Infrastructure (MI)]","MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","mi/MI_ConstReferenceField","wmi._mi_constreferencefield","wmi_v2.mi_constreferencefield"]
 old-location: wmi_v2\mi_constreferencefield.htm
 tech.root: wmi_v2

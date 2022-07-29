@@ -1,7 +1,7 @@
 ---
 UID: NS:msclus.RESOURCE_FAILURE_INFO
 title: RESOURCE_FAILURE_INFO (msclus.h)
-description: Represents information about the Failover attempts for a resource. This structure is used by the RESOURCE_FAILURE_INFO_BUFFER structure.
+description: Represents information about the Failover attempts for a resource. This structure is used by the RESOURCE_FAILURE_INFO_BUFFER structure. (RESOURCE_FAILURE_INFO)
 helpviewer_keywords: ["*PRESOURCE_FAILURE_INFO","PRESOURCE_FAILURE_INFO","PRESOURCE_FAILURE_INFO structure pointer [Failover Cluster]","RESOURCE_FAILURE_INFO","RESOURCE_FAILURE_INFO structure [Failover Cluster]","clusapi/PRESOURCE_FAILURE_INFO","clusapi/RESOURCE_FAILURE_INFO","msclus/PRESOURCE_FAILURE_INFO","msclus/RESOURCE_FAILURE_INFO","mscs.resource_failure_info"]
 old-location: mscs\resource_failure_info.htm
 tech.root: MsCS

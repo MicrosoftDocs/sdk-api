@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.UrlHashA
 title: UrlHashA function (shlwapi.h)
-description: Hashes a URL string.
+description: Hashes a URL string. (ANSI)
 helpviewer_keywords: ["UrlHash","UrlHash function [Windows Shell]","UrlHashA","UrlHashW","_win32_UrlHash","shell.UrlHash","shlwapi/UrlHash","shlwapi/UrlHashA","shlwapi/UrlHashW"]
 old-location: shell\UrlHash.htm
 tech.root: shell

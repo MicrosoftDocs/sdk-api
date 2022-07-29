@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkTransform.get_eM22
 title: IInkTransform::get_eM22 (msinkaut.h)
-description: Gets or sets the element in the second row, second column of the affine transform matrix that is represented by an InkTransform object.
+description: Gets or sets the element in the second row, second column of the affine transform matrix that is represented by an InkTransform object. (Get)
 helpviewer_keywords: ["46a50a77-f834-4d75-89db-a9be6e1ed24f","IInkTransform interface [Tablet PC]","eM22 property","IInkTransform.eM22","IInkTransform.get_eM22","IInkTransform::eM22","IInkTransform::get_eM22","IInkTransform::put_eM22","InkTransform.get_eM22","InkTransform.put_eM22","eM22 property [Tablet PC]","eM22 property [Tablet PC]","IInkTransform interface","get_eM22","msinkaut/IInkTransform::eM22","msinkaut/IInkTransform::get_eM22","msinkaut/IInkTransform::put_eM22","put_eM22","tablet.inktransform_em22"]
 old-location: tablet\inktransform_em22.htm
 tech.root: tablet

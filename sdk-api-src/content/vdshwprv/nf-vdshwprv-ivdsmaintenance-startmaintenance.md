@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsMaintenance.StartMaintenance
 title: IVdsMaintenance::StartMaintenance (vdshwprv.h)
-description: Starts a maintenance operation.
+description: Starts a maintenance operation. (IVdsMaintenance.StartMaintenance)
 helpviewer_keywords: ["IVdsMaintenance interface [VDS]","StartMaintenance method","IVdsMaintenance.StartMaintenance","IVdsMaintenance::StartMaintenance","StartMaintenance","StartMaintenance method [VDS]","StartMaintenance method [VDS]","IVdsMaintenance interface","base.ivdsmaintenance_startmaintenance","vds/IVdsMaintenance::StartMaintenance","vdshwprv/IVdsMaintenance::StartMaintenance"]
 old-location: base\ivdsmaintenance_startmaintenance.htm
 tech.root: base

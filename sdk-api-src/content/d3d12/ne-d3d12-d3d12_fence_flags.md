@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12.D3D12_FENCE_FLAGS
 title: D3D12_FENCE_FLAGS (d3d12.h)
-description: Specifies fence options.
+description: Specifies fence options. (D3D12_FENCE_FLAGS)
 helpviewer_keywords: ["D3D12_FENCE_FLAGS","D3D12_FENCE_FLAGS enumeration","D3D12_FENCE_FLAG_NONE","D3D12_FENCE_FLAG_NON_MONITORED","D3D12_FENCE_FLAG_SHARED","D3D12_FENCE_FLAG_SHARED_CROSS_ADAPTER","d3d12/D3D12_FENCE_FLAGS","d3d12/D3D12_FENCE_FLAG_NONE","d3d12/D3D12_FENCE_FLAG_NON_MONITORED","d3d12/D3D12_FENCE_FLAG_SHARED","d3d12/D3D12_FENCE_FLAG_SHARED_CROSS_ADAPTER","direct3d12.d3d12_fence_flags"]
 old-location: direct3d12\d3d12_fence_flags.htm
 tech.root: direct3d12

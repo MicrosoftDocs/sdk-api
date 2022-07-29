@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock.htonl
 title: htonl function (winsock.h)
-description: The htonl function converts a u_long from host to TCP/IP network byte order (which is big-endian).
+description: The htonl function converts a u_long from host to TCP/IP network byte order (which is big-endian). (htonl)
 helpviewer_keywords: ["_win32_htonl_2","htonl","htonl function [Winsock]","winsock.htonl_2","winsock/htonl"]
 old-location: winsock\htonl_2.htm
 tech.root: WinSock

@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMGradientStop interface
 
-
 ## -description
 
 Represents a single color and location within a gradient.

@@ -1,7 +1,7 @@
 ---
 UID: NN:workspaceruntime.IWorkspaceScriptable3
 title: IWorkspaceScriptable3 (workspaceruntime.h)
-description: Exposes methods that manage RemoteApp and Desktop Connection credentials and connections.
+description: Exposes methods that manage RemoteApp and Desktop Connection credentials and connections. (IWorkspaceScriptable3)
 helpviewer_keywords: ["IWorkspaceScriptable3","IWorkspaceScriptable3 interface [Remote Desktop Services]","IWorkspaceScriptable3 interface [Remote Desktop Services]","described","termserv.iworkspacescriptable3","workspaceruntime/IWorkspaceScriptable3"]
 old-location: termserv\iworkspacescriptable3.htm
 tech.root: TermServ

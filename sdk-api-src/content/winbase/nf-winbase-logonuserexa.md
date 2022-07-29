@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.LogonUserExA
 title: LogonUserExA function (winbase.h)
-description: The LogonUserEx function attempts to log a user on to the local computer.
+description: The LogonUserEx function attempts to log a user on to the local computer. (ANSI)
 helpviewer_keywords: ["LOGON32_LOGON_BATCH","LOGON32_LOGON_INTERACTIVE","LOGON32_LOGON_NETWORK","LOGON32_LOGON_NETWORK_CLEARTEXT","LOGON32_LOGON_NEW_CREDENTIALS","LOGON32_LOGON_SERVICE","LOGON32_LOGON_UNLOCK","LOGON32_PROVIDER_DEFAULT","LOGON32_PROVIDER_WINNT40","LOGON32_PROVIDER_WINNT50","LogonUserEx","LogonUserEx function [Security]","LogonUserExA","LogonUserExW","_win32_logonuserex","security.logonuserex","winbase/LogonUserEx","winbase/LogonUserExA","winbase/LogonUserExW"]
 old-location: security\logonuserex.htm
 tech.root: security

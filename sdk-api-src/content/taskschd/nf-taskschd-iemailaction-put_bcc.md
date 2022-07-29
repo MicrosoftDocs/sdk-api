@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IEmailAction.put_Bcc
 title: IEmailAction::put_Bcc (taskschd.h)
-description: Gets or sets the email address or addresses that you want to Bcc in the email message.
+description: Gets or sets the email address or addresses that you want to Bcc in the email message. (Put)
 helpviewer_keywords: ["Bcc property [Task Scheduler]","Bcc property [Task Scheduler]","IEmailAction interface","IEmailAction interface [Task Scheduler]","Bcc property","IEmailAction.Bcc","IEmailAction.put_Bcc","IEmailAction::Bcc","IEmailAction::get_Bcc","IEmailAction::put_Bcc","put_Bcc","taskschd.iemailaction_bcc","taskschd/IEmailAction::Bcc","taskschd/IEmailAction::get_Bcc","taskschd/IEmailAction::put_Bcc"]
 old-location: taskschd\iemailaction_bcc.htm
 tech.root: taskschd

@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IExternalConnection.ReleaseConnection
 title: IExternalConnection::ReleaseConnection (objidl.h)
-description: Decrements the count of an object's strong external connections.
+description: Decrements the count of an object's strong external connections. (IExternalConnection.ReleaseConnection)
 helpviewer_keywords: ["IExternalConnection interface [COM]","ReleaseConnection method","IExternalConnection.ReleaseConnection","IExternalConnection::ReleaseConnection","ReleaseConnection","ReleaseConnection method [COM]","ReleaseConnection method [COM]","IExternalConnection interface","_com_iexternalconnection_releaseconnection","com.iexternalconnection_releaseconnection","objidlbase/IExternalConnection::ReleaseConnection"]
 old-location: com\iexternalconnection_releaseconnection.htm
 tech.root: com

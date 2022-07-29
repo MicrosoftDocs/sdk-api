@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionArithmeticCompositeEffect.SetCoefficient4(float)
 title: IDCompositionArithmeticCompositeEffect::SetCoefficient4 (dcomp.h)
-description: Sets the fourth coefficient for the equation used to composite the two input images.
+description: Sets the fourth coefficient for the equation used to composite the two input images. (overload 2/2)
 helpviewer_keywords: ["IDCompositionArithmeticCompositeEffect interface [DirectComposition]","SetCoefficient4 method","IDCompositionArithmeticCompositeEffect.SetCoefficient4","IDCompositionArithmeticCompositeEffect::SetCoefficient4","IDCompositionArithmeticCompositeEffect::SetCoefficient4(float)","SetCoefficient4","SetCoefficient4 method [DirectComposition]","SetCoefficient4 method [DirectComposition]","IDCompositionArithmeticCompositeEffect interface","dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient4","directcomp.idcompositionarithmeticcompositeeffect_setcoefficient4"]
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient4.htm
 tech.root: directcomp

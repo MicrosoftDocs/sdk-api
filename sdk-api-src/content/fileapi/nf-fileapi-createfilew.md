@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.CreateFileW
 title: CreateFileW function (fileapi.h)
-description: Creates or opens a file or I/O device. The most commonly used I/O devices are as follows:\_file, file stream, directory, physical disk, volume, console buffer, tape drive, communications resource, mailslot, and pipe.
+description: Creates or opens a file or I/O device. The most commonly used I/O devices are as follows:\_file, file stream, directory, physical disk, volume, console buffer, tape drive, communications resource, mailslot, and pipe. (Unicode)
 helpviewer_keywords: ["0","CREATE_ALWAYS","CREATE_NEW","CreateFile","CreateFile function [Files]","CreateFileA","CreateFileW","FILE_ATTRIBUTE_ARCHIVE","FILE_ATTRIBUTE_ENCRYPTED","FILE_ATTRIBUTE_HIDDEN","FILE_ATTRIBUTE_NORMAL","FILE_ATTRIBUTE_OFFLINE","FILE_ATTRIBUTE_READONLY","FILE_ATTRIBUTE_SYSTEM","FILE_ATTRIBUTE_TEMPORARY","FILE_FLAG_BACKUP_SEMANTICS","FILE_FLAG_DELETE_ON_CLOSE","FILE_FLAG_NO_BUFFERING","FILE_FLAG_OPEN_NO_RECALL","FILE_FLAG_OPEN_REPARSE_POINT","FILE_FLAG_OVERLAPPED","FILE_FLAG_POSIX_SEMANTICS","FILE_FLAG_RANDOM_ACCESS","FILE_FLAG_SEQUENTIAL_SCAN","FILE_FLAG_SESSION_AWARE","FILE_FLAG_WRITE_THROUGH","FILE_SHARE_DELETE","FILE_SHARE_READ","FILE_SHARE_WRITE","OPEN_ALWAYS","OPEN_EXISTING","SECURITY_ANONYMOUS","SECURITY_CONTEXT_TRACKING","SECURITY_DELEGATION","SECURITY_EFFECTIVE_ONLY","SECURITY_IDENTIFICATION","SECURITY_IMPERSONATION","TRUNCATE_EXISTING","_win32_createfile","base.createfile","fileapi/CreateFile","fileapi/CreateFileA","fileapi/CreateFileW","fs.createfile","winbase/CreateFile","winbase/CreateFileA","winbase/CreateFileW"]
 old-location: fs\createfile.htm
 tech.root: fs
@@ -142,8 +142,7 @@ To enable a process to share a file or device while another process has the file
 </dl>
 </td>
 <td width="60%">
-Prevents any process from opening a file or device if it requests delete, read, or write access.
-
+Prevents subsequent open operations on a file or device if they request delete, read, or write access.
 </td>
 </tr>
 <tr>

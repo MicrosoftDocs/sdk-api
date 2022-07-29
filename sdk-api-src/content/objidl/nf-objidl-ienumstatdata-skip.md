@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IEnumSTATDATA.Skip
 title: IEnumSTATDATA::Skip (objidl.h)
-description: Skips over the specified number of items in the enumeration sequence.
+description: Skips over the specified number of items in the enumeration sequence. (IEnumSTATDATA.Skip)
 helpviewer_keywords: ["IEnumSTATDATA interface [COM]","Skip method","IEnumSTATDATA.Skip","IEnumSTATDATA::Skip","Skip","Skip method [COM]","Skip method [COM]","IEnumSTATDATA interface","_ole_ienumstatdata_skip","com.ienumstatdata_skip","objidl/IEnumSTATDATA::Skip"]
 old-location: com\ienumstatdata_skip.htm
 tech.root: com

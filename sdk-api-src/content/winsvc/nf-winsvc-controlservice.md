@@ -1,7 +1,7 @@
 ---
 UID: NF:winsvc.ControlService
 title: ControlService function (winsvc.h)
-description: Sends a control code to a service.
+description: Sends a control code to a service. (ControlService)
 helpviewer_keywords: ["ControlService","ControlService function","SERVICE_CONTROL_CONTINUE","SERVICE_CONTROL_INTERROGATE","SERVICE_CONTROL_NETBINDADD","SERVICE_CONTROL_NETBINDDISABLE","SERVICE_CONTROL_NETBINDENABLE","SERVICE_CONTROL_NETBINDREMOVE","SERVICE_CONTROL_PARAMCHANGE","SERVICE_CONTROL_PAUSE","SERVICE_CONTROL_STOP","_win32_controlservice","base.controlservice","winsvc/ControlService"]
 old-location: base\controlservice.htm
 tech.root: security

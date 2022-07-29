@@ -254,7 +254,7 @@ Pointer to a buffer that receives the converted string.
 
 ### -param cbMultiByte [in]
 
-Size, in bytes, of the buffer indicated by <i>lpMultiByteStr</i>. If this parameter is set to 0, the function returns the required buffer size for <i>lpMultiByteStr</i> and makes no use of the output parameter itself.
+Size, in bytes, of the buffer indicated by <i>lpMultiByteStr</i>. If this value is 0, the function returns the required buffer size, in bytes, including any terminating null character, and makes no use of the <i>lpMultiByteStr</i> buffer.
 
 ### -param lpDefaultChar [in, optional]
 

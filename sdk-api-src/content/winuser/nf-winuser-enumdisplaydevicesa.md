@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.EnumDisplayDevicesA
 title: EnumDisplayDevicesA function (winuser.h)
-description: The EnumDisplayDevices function lets you obtain information about the display devices in the current session.
+description: The EnumDisplayDevices function lets you obtain information about the display devices in the current session. (ANSI)
 helpviewer_keywords: ["EnumDisplayDevices","EnumDisplayDevices function [Windows GDI]","EnumDisplayDevicesA","EnumDisplayDevicesW","_win32_EnumDisplayDevices","gdi.enumdisplaydevices","winuser/EnumDisplayDevices","winuser/EnumDisplayDevicesA","winuser/EnumDisplayDevicesW"]
 old-location: gdi\enumdisplaydevices.htm
 tech.root: gdi

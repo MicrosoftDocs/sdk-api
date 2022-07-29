@@ -1,7 +1,7 @@
 ---
 UID: NS:rpcdce._RPC_SECURITY_QOS_V4_A
 title: RPC_SECURITY_QOS_V4_A (rpcdce.h)
-description: The RPC_SECURITY_QOS_V4 structure defines version 4 security quality-of-service settings on a binding handle. See Remarks for version availability on Windows editions.
+description: The RPC_SECURITY_QOS_V4 structure defines version 4 security quality-of-service settings on a binding handle. See Remarks for version availability on Windows editions. (ANSI)
 helpviewer_keywords: ["*PRPC_SECURITY_QOS_V4_A","0","PRPC_SECURITY_QOS_V4","PRPC_SECURITY_QOS_V4 structure pointer [RPC]","RPC_C_AUTHN_INFO_TYPE_HTTP","RPC_C_IMP_LEVEL_ANONYMOUS","RPC_C_IMP_LEVEL_DEFAULT","RPC_C_IMP_LEVEL_DELEGATE","RPC_C_IMP_LEVEL_IDENTIFY","RPC_C_IMP_LEVEL_IMPERSONATE","RPC_C_QOS_CAPABILITIES_ANY_AUTHORITY","RPC_C_QOS_CAPABILITIES_DEFAULT","RPC_C_QOS_CAPABILITIES_IGNORE_DELEGATE_FAILURE","RPC_C_QOS_CAPABILITIES_LOCAL_MA_HINT","RPC_C_QOS_CAPABILITIES_MAKE_FULLSIC","RPC_C_QOS_CAPABILITIES_MUTUAL_AUTH","RPC_C_QOS_IDENTITY_DYNAMIC","RPC_C_QOS_IDENTITY_STATIC","RPC_SECURITY_QOS_V4","RPC_SECURITY_QOS_V4 structure [RPC]","RPC_SECURITY_QOS_V4_A","RPC_SECURITY_QOS_V4_W","_RPC_SECURITY_QOS_V4_A","_RPC_SECURITY_QOS_V4_W","rpc.rpc_security_qos_v4","rpcdce/","rpcdce/PRPC_SECURITY_QOS_V4","rpcdce/RPC_SECURITY_QOS_V4","structure [RPC]"]
 old-location: rpc\rpc_security_qos_v4.htm
 tech.root: Rpc

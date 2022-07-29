@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3cc.ITAgent.get_ID
 title: ITAgent::get_ID (tapi3cc.h)
-description: The get_ID method gets an agent's ID.
+description: The get_ID method gets an agent's ID. (ITAgent.get_ID)
 helpviewer_keywords: ["ITAgent interface [TAPI 2.2]","get_ID method","ITAgent.get_ID","ITAgent::get_ID","_tapi3_itagent_get_id","get_ID","get_ID method [TAPI 2.2]","get_ID method [TAPI 2.2]","ITAgent interface","tapi3.itagent_get_id","tapi3cc/ITAgent::get_ID"]
 old-location: tapi3\itagent_get_id.htm
 tech.root: tapi3

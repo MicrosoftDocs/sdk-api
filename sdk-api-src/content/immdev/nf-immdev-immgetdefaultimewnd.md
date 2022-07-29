@@ -1,7 +1,7 @@
 ---
 UID: NF:immdev.ImmGetDefaultIMEWnd
 title: ImmGetDefaultIMEWnd function (immdev.h)
-description: Retrieves the default window handle to the IME class.
+description: Retrieves the default window handle to the IME class. (ImmGetDefaultIMEWnd)
 helpviewer_keywords: ["ImmGetDefaultIMEWnd","ImmGetDefaultIMEWnd function [Internationalization for Windows Applications]","_win32_ImmGetDefaultIMEWnd","imm/ImmGetDefaultIMEWnd","intl.immgetdefaultimewnd"]
 old-location: intl\immgetdefaultimewnd.htm
 tech.root: Intl

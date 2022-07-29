@@ -1,7 +1,7 @@
 ---
 UID: NS:vdshwprv._VDS_WWN
 title: VDS_WWN (vdshwprv.h)
-description: Defines a world-wide name (WWN). This structure corresponds to the HBA_WWN structure defined by the ANSI HBA API.
+description: Defines a world-wide name (WWN). This structure corresponds to the HBA_WWN structure defined by the ANSI HBA API. (VDS_WWN)
 helpviewer_keywords: ["VDS_WWN","VDS_WWN structure [VDS]","base.vds_wwn","vds/VDS_WWN","vdshwprv/VDS_WWN"]
 old-location: base\vds_wwn.htm
 tech.root: base

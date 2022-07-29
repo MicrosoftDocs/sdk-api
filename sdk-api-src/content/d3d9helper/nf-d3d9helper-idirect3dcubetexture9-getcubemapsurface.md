@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9helper.IDirect3DCubeTexture9.GetCubeMapSurface
 title: IDirect3DCubeTexture9::GetCubeMapSurface (d3d9helper.h)
-description: Retrieves a cube texture map surface.
+description: Retrieves a cube texture map surface. (IDirect3DCubeTexture9.GetCubeMapSurface)
 helpviewer_keywords: ["6704f537-4e72-4fb1-e408-561e7971fd8f","GetCubeMapSurface","GetCubeMapSurface method [Direct3D 9]","GetCubeMapSurface method [Direct3D 9]","IDirect3DCubeTexture9 interface","IDirect3DCubeTexture9 interface [Direct3D 9]","GetCubeMapSurface method","IDirect3DCubeTexture9.GetCubeMapSurface","IDirect3DCubeTexture9::GetCubeMapSurface","d3d9helper/IDirect3DCubeTexture9::GetCubeMapSurface","direct3d9.idirect3dcubetexture9__getcubemapsurface"]
 old-location: direct3d9\idirect3dcubetexture9__getcubemapsurface.htm
 tech.root: direct3d9

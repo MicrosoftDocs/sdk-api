@@ -1,7 +1,7 @@
 ---
 UID: NF:windns.DnsQuery_W
 title: DnsQuery_W function (windns.h)
-description: Is the generic query interface to the DNS namespace, and provides application developers with a DNS query resolution interface.
+description: Is the generic query interface to the DNS namespace, and provides application developers with a DNS query resolution interface. (DnsQuery_W)
 helpviewer_keywords: ["DnsQuery","DnsQuery function [DNS]","DnsQuery_A","DnsQuery_UTF8","DnsQuery_W","_dns_dnsquery","dns.dnsquery","windns/DnsQuery","windns/DnsQuery_A","windns/DnsQuery_UTF8","windns/DnsQuery_W"]
 old-location: dns\dnsquery.htm
 tech.root: DNS

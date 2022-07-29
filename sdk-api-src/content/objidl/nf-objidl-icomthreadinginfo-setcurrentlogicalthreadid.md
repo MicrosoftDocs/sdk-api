@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IComThreadingInfo.SetCurrentLogicalThreadId
 title: IComThreadingInfo::SetCurrentLogicalThreadId (objidl.h)
-description: Sets the GUID of the thread in which the caller is executing.
+description: Sets the GUID of the thread in which the caller is executing. (IComThreadingInfo.SetCurrentLogicalThreadId)
 helpviewer_keywords: ["IComThreadingInfo interface [COM]","SetCurrentLogicalThreadId method","IComThreadingInfo.SetCurrentLogicalThreadId","IComThreadingInfo::SetCurrentLogicalThreadId","SetCurrentLogicalThreadId","SetCurrentLogicalThreadId method [COM]","SetCurrentLogicalThreadId method [COM]","IComThreadingInfo interface","_com_icomthreadinginfo_setcurrentlogicalthreadid","com.icomthreadinginfo_setcurrentlogicalthreadid","objidlbase/IComThreadingInfo::SetCurrentLogicalThreadId"]
 old-location: com\icomthreadinginfo_setcurrentlogicalthreadid.htm
 tech.root: com

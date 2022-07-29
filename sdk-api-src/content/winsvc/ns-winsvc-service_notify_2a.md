@@ -1,7 +1,7 @@
 ---
 UID: NS:winsvc._SERVICE_NOTIFY_2A
 title: SERVICE_NOTIFY_2A (winsvc.h)
-description: Represents service status notification information.
+description: Represents service status notification information. (ANSI)
 helpviewer_keywords: ["*PSERVICE_NOTIFYA","*PSERVICE_NOTIFY_2A","PSERVICE_NOTIFY","PSERVICE_NOTIFY structure pointer","SERVICE_NOTIFY","SERVICE_NOTIFY structure","SERVICE_NOTIFYA","SERVICE_NOTIFYW","SERVICE_NOTIFY_2","SERVICE_NOTIFY_2A","base.service_notify","winsvc/PSERVICE_NOTIFY","winsvc/SERVICE_NOTIFY","winsvc/SERVICE_NOTIFYA","winsvc/SERVICE_NOTIFYW"]
 old-location: base\service_notify.htm
 tech.root: security

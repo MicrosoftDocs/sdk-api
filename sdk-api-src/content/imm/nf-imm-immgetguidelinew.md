@@ -1,7 +1,7 @@
 ---
 UID: NF:imm.ImmGetGuideLineW
 title: ImmGetGuideLineW function (imm.h)
-description: Retrieves information about errors. Applications use the information for user notifications.
+description: Retrieves information about errors. Applications use the information for user notifications. (ImmGetGuideLineW)
 helpviewer_keywords: ["GGL_INDEX","GGL_LEVEL","GGL_PRIVATE","GGL_STRING","ImmGetGuideLine","ImmGetGuideLine function [Internationalization for Windows Applications]","ImmGetGuideLineA","ImmGetGuideLineW","_win32_ImmGetGuideLine","imm/ImmGetGuideLine","imm/ImmGetGuideLineA","imm/ImmGetGuideLineW","intl.immgetguideline"]
 old-location: intl\immgetguideline.htm
 tech.root: Intl

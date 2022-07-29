@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorSetZ
 title: XMVectorSetZ function (directxmath.h)
-description: Set the value of the z component of an XMVECTOR Data Type.
+description: Set the value of the z component of an XMVECTOR Data Type. (XMVectorSetZ)
 helpviewer_keywords: ["Use DirectX..XMVectorSetZ","XMVectorSetZ","XMVectorSetZ method [DirectX Math Support APIs]","dxmath.xmvectorsetz"]
 old-location: dxmath\xmvectorsetz.htm
 tech.root: dxmath

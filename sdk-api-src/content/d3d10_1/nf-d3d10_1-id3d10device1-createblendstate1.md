@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10_1.ID3D10Device1.CreateBlendState1
 title: ID3D10Device1::CreateBlendState1 (d3d10_1.h)
-description: Create a blend-state object that encapsulates blend state for the output-merger stage.
+description: Create a blend-state object that encapsulates blend state for the output-merger stage. (ID3D10Device1.CreateBlendState1)
 helpviewer_keywords: ["CreateBlendState1","CreateBlendState1 method [Direct3D 10]","CreateBlendState1 method [Direct3D 10]","ID3D10Device1 interface","ID3D10Device1 interface [Direct3D 10]","CreateBlendState1 method","ID3D10Device1.CreateBlendState1","ID3D10Device1::CreateBlendState1","b8ad390b-12a5-cfce-2558-a74e808c9358","d3d10_1/ID3D10Device1::CreateBlendState1","direct3d10.id3d10device1_createblendstate1"]
 old-location: direct3d10\id3d10device1_createblendstate1.htm
 tech.root: direct3d10

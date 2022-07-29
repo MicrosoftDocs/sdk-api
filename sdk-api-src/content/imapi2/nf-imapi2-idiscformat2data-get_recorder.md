@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_Recorder
 title: IDiscFormat2Data::get_Recorder (imapi2.h)
-description: Retrieves the recording device to use for the write operation.
+description: Retrieves the recording device to use for the write operation. (IDiscFormat2Data.get_Recorder)
 helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","get_Recorder method","IDiscFormat2Data.get_Recorder","IDiscFormat2Data::get_Recorder","get_Recorder","get_Recorder method [IMAPI]","get_Recorder method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_get_recorder","imapi2/IDiscFormat2Data::get_Recorder"]
 old-location: imapi\idiscformat2data_get_recorder.htm
 tech.root: imapi

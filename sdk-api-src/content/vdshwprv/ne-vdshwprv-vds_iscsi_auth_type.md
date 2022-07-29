@@ -1,7 +1,7 @@
 ---
 UID: NE:vdshwprv._VDS_ISCSI_AUTH_TYPE
 title: VDS_ISCSI_AUTH_TYPE (vdshwprv.h)
-description: Defines the set of valid types for authentication when logging into an iSCSI target.
+description: Defines the set of valid types for authentication when logging into an iSCSI target. (VDS_ISCSI_AUTH_TYPE)
 helpviewer_keywords: ["VDS_IAT_CHAP","VDS_IAT_MUTUAL_CHAP","VDS_IAT_NONE","VDS_ISCSI_AUTH_TYPE","VDS_ISCSI_AUTH_TYPE enumeration [VDS]","base.vds_iscsi_auth_type","vds/VDS_IAT_CHAP","vds/VDS_IAT_MUTUAL_CHAP","vds/VDS_IAT_NONE","vds/VDS_ISCSI_AUTH_TYPE","vdshwprv/VDS_IAT_CHAP","vdshwprv/VDS_IAT_MUTUAL_CHAP","vdshwprv/VDS_IAT_NONE","vdshwprv/VDS_ISCSI_AUTH_TYPE"]
 old-location: base\vds_iscsi_auth_type.htm
 tech.root: base

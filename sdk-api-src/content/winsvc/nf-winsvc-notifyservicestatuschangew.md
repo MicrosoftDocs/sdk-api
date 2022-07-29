@@ -1,7 +1,7 @@
 ---
 UID: NF:winsvc.NotifyServiceStatusChangeW
 title: NotifyServiceStatusChangeW function (winsvc.h)
-description: Enables an application to receive notification when the specified service is created or deleted or when its status changes.
+description: Enables an application to receive notification when the specified service is created or deleted or when its status changes. (Unicode)
 helpviewer_keywords: ["NotifyServiceStatusChange","NotifyServiceStatusChange function","NotifyServiceStatusChangeA","NotifyServiceStatusChangeW","SERVICE_NOTIFY_CONTINUE_PENDING","SERVICE_NOTIFY_CREATED","SERVICE_NOTIFY_DELETED","SERVICE_NOTIFY_DELETE_PENDING","SERVICE_NOTIFY_PAUSED","SERVICE_NOTIFY_PAUSE_PENDING","SERVICE_NOTIFY_RUNNING","SERVICE_NOTIFY_START_PENDING","SERVICE_NOTIFY_STOPPED","SERVICE_NOTIFY_STOP_PENDING","base.notifyservicestatuschange","winsvc/NotifyServiceStatusChange","winsvc/NotifyServiceStatusChangeA","winsvc/NotifyServiceStatusChangeW"]
 old-location: base\notifyservicestatuschange.htm
 tech.root: security

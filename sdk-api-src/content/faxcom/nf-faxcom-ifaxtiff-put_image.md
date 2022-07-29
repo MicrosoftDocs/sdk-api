@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxTiff.put_Image
 title: IFaxTiff::put_Image (faxcom.h)
-description: Sets or retrieves the Image property for a FaxTiff object.
+description: Sets or retrieves the Image property for a FaxTiff object. (Put)
 helpviewer_keywords: ["IFaxTiff interface [Fax Service]","Image property","IFaxTiff.Image","IFaxTiff.put_Image","IFaxTiff::Image","IFaxTiff::get_Image","IFaxTiff::put_Image","Image property [Fax Service]","Image property [Fax Service]","IFaxTiff interface","_mfax_ifaxtiff_get_image","fax._mfax_ifaxtiff_get_image","fax._mfax_ifaxtiff_mfax_ifaxtiff_get_image_cpp","faxcom/IFaxTiff::Image","faxcom/IFaxTiff::get_Image","faxcom/IFaxTiff::put_Image","put_Image"]
 old-location: fax\_mfax_ifaxtiff_mfax_ifaxtiff_get_image_cpp.htm
 tech.root: Fax

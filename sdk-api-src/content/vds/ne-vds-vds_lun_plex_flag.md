@@ -1,7 +1,7 @@
 ---
 UID: NE:vds._VDS_LUN_PLEX_FLAG
 title: VDS_LUN_PLEX_FLAG (vds.h)
-description: Defines the set of valid flags for a LUN plex object.
+description: Defines the set of valid flags for a LUN plex object. (VDS_LUN_PLEX_FLAG)
 helpviewer_keywords: ["VDS_LPF_LBN_REMAP_ENABLED","VDS_LUN_PLEX_FLAG","VDS_LUN_PLEX_FLAG enumeration [VDS]","base.vds_lun_plex_flag","vds/VDS_LPF_LBN_REMAP_ENABLED","vds/VDS_LUN_PLEX_FLAG","vdshwprv/VDS_LPF_LBN_REMAP_ENABLED","vdshwprv/VDS_LUN_PLEX_FLAG"]
 old-location: base\vds_lun_plex_flag.htm
 tech.root: base

@@ -1,7 +1,7 @@
 ---
 UID: NS:winsock2._WSAQuerySetA
 title: WSAQUERYSETA (winsock2.h)
-description: Provides relevant information about a given service, including service class ID, service name, applicable namespace identifier and protocol information, as well as a set of transport addresses at which the service listens.
+description: Provides relevant information about a given service, including service class ID, service name, applicable namespace identifier and protocol information, as well as a set of transport addresses at which the service listens. (ANSI)
 helpviewer_keywords: ["*LPWSAQUERYSETA","*PWSAQUERYSETA","LPWSAQUERYSET","LPWSAQUERYSET structure pointer [Winsock]","NS_ALL","NS_BTH","NS_DNS","NS_EMAIL","NS_NLA","NS_PNRPCLOUD","NS_PNRPNAME","PWSAQUERYSET","PWSAQUERYSET structure pointer [Winsock]","WSAQUERYSET","WSAQUERYSET structure [Winsock]","WSAQUERYSETA","WSAQUERYSETW","_win32_wsaqueryset_2","winsock.wsaqueryset_2","winsock2/LPWSAQUERYSET","winsock2/PWSAQUERYSET","winsock2/WSAQUERYSET","winsock2/WSAQUERYSETA","winsock2/WSAQUERYSETW"]
 old-location: winsock\wsaqueryset_2.htm
 tech.root: WinSock

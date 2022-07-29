@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteStringList.GetString
 title: IDWriteStringList::GetString (dwrite_3.h)
-description: Copies the string with the specified index to the specified array.
+description: Copies the string with the specified index to the specified array. (IDWriteStringList.GetString)
 helpviewer_keywords: ["GetString","GetString method [Direct Write]","GetString method [Direct Write]","IDWriteStringList interface","IDWriteStringList interface [Direct Write]","GetString method","IDWriteStringList.GetString","IDWriteStringList::GetString","directwrite.idwritestringlist_getstring","dwrite_3/IDWriteStringList::GetString"]
 old-location: directwrite\idwritestringlist_getstring.htm
 tech.root: DirectWrite

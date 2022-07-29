@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsControllerControllerPort.QueryControllerPorts
 title: IVdsControllerControllerPort::QueryControllerPorts (vdshwprv.h)
-description: Returns an IEnumVdsObject object that enumerates the ports of the controller.
+description: Returns an IEnumVdsObject object that enumerates the ports of the controller. (IVdsControllerControllerPort.QueryControllerPorts)
 helpviewer_keywords: ["IVdsControllerControllerPort interface [VDS]","QueryControllerPorts method","IVdsControllerControllerPort.QueryControllerPorts","IVdsControllerControllerPort::QueryControllerPorts","QueryControllerPorts","QueryControllerPorts method [VDS]","QueryControllerPorts method [VDS]","IVdsControllerControllerPort interface","base.ivdscontrollercontrollerport_querycontrollerports","vds/IVdsControllerControllerPort::QueryControllerPorts","vdshwprv/IVdsControllerControllerPort::QueryControllerPorts"]
 old-location: base\ivdscontrollercontrollerport_querycontrollerports.htm
 tech.root: base

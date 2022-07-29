@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.Select
 title: IUIAutomationLegacyIAccessiblePattern::Select (uiautomationclient.h)
-description: Performs a Microsoft Active Accessibility selection.
+description: Performs a Microsoft Active Accessibility selection. (IUIAutomationLegacyIAccessiblePattern.Select)
 helpviewer_keywords: ["IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility]","Select method","IUIAutomationLegacyIAccessiblePattern.Select","IUIAutomationLegacyIAccessiblePattern::Select","Select","Select method [Windows Accessibility]","Select method [Windows Accessibility]","IUIAutomationLegacyIAccessiblePattern interface","uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_Select","uiauto_IUIAutomationLegacyIAccessiblePattern_Select","uiautomationclient/IUIAutomationLegacyIAccessiblePattern::Select","winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_Select"]
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_Select.htm
 tech.root: WinAuto

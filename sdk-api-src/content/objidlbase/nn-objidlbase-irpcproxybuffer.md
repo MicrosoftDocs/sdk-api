@@ -1,7 +1,7 @@
 ---
 UID: NN:objidlbase.IRpcProxyBuffer
 title: IRpcProxyBuffer (objidlbase.h)
-description: Controls the RPC proxy used to marshal data between COM components.
+description: Controls the RPC proxy used to marshal data between COM components. (IRpcProxyBuffer)
 helpviewer_keywords: ["IRpcProxyBuffer","IRpcProxyBuffer interface [COM]","IRpcProxyBuffer interface [COM]","described","_com_irpcproxybuffer","com.irpcproxybuffer","objidlbase/IRpcProxyBuffer"]
 old-location: com\irpcproxybuffer.htm
 tech.root: com

@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsSubSystem.QueryLuns
 title: IVdsSubSystem::QueryLuns (vds.h)
-description: Returns an enumeration of LUNs surfaced in the subsystem. This method applies to hardware provider objects only.
+description: Returns an enumeration of LUNs surfaced in the subsystem. This method applies to hardware provider objects only. (IVdsSubSystem.QueryLuns)
 helpviewer_keywords: ["IVdsSubSystem interface [VDS]","QueryLuns method","IVdsSubSystem.QueryLuns","IVdsSubSystem::QueryLuns","QueryLuns","QueryLuns method [VDS]","QueryLuns method [VDS]","IVdsSubSystem interface","base.ivdssubsystem_queryluns","vds/IVdsSubSystem::QueryLuns","vdshwprv/IVdsSubSystem::QueryLuns"]
 old-location: base\ivdssubsystem_queryluns.htm
 tech.root: base
