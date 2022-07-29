@@ -113,7 +113,7 @@ typedef HRESULT (*InitializeXamlDiagnosticsExProto)(_In_ LPCWSTR endPointName, _
 
 ...
 
-InitializeXamlDiagnosticsExProto InitializeXamlDiagnosticsExFn = (InitializeXamlDiagnosticsExProto)GetProcAddress(LoadLibrary(L"Windows.UI.Xaml.dll"), "InitializeXamlDiagnosticsEx");
+InitializeXamlDiagnosticsExProto InitializeXamlDiagnosticsExFn = (InitializeXamlDiagnosticsExProto)GetProcAddress(LoadLibraryW(L"Windows.UI.Xaml.dll"), "InitializeXamlDiagnosticsEx");
 HRESULT hr = InitializeXamlDiagnosticsExFn(L"VisualDiagConnection1", 12345, L"C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64\\XamlDiagnostics\\xamldiagnostics.dll", L"MyXamlTap.dll", CLSID_myTAP, L"86c 874 9f0 410 478 47c 9ec a08 ");
 ```
 
