@@ -62,7 +62,7 @@ Handle for an open session to the filter engine. Call <a href="/windows/desktop/
 
 ### -param subscription [in]
 
-Type: [FWPM_CONNECTION_SUBSCRIPTION0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_subscription0)*</b>
+Type: <b>[FWPM_CONNECTION_SUBSCRIPTION0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_subscription0)*</b>
 
 The notifications which will be delivered.
 
