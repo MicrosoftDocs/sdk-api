@@ -1,7 +1,7 @@
 ---
 UID: NF:namedpipeapi.TransactNamedPipe
 title: TransactNamedPipe function (namedpipeapi.h)
-description: Combines the functions that write a message to and read a message from the specified named pipe into a single network operation.
+description: Combines the functions that write a message to and read a message from the specified named pipe into a single operation.
 helpviewer_keywords: ["TransactNamedPipe","TransactNamedPipe function","_win32_transactnamedpipe","base.transactnamedpipe","namedpipeapi/TransactNamedPipe"]
 old-location: base\transactnamedpipe.htm
 tech.root: base
