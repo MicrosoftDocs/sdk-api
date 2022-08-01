@@ -57,7 +57,7 @@ api_name:
 
 ## -description
 
-Combines the functions that write a message to and read a message from the specified named pipe into a single network operation.
+Combines the functions that write a message to and read a message from the specified named pipe into a single operation.
 
 ## -parameters
 
