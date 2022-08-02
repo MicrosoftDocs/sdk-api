@@ -1,7 +1,8 @@
 ---
 UID: NF:cimfs.CimDismountImage
 title: CimDismountImage
-ms.date: 9/9/2019
+description: The CimDismountImage function dismounts an image mounted with volumeId as the volume GUID.
+ms.date: 08/01/2022
 tech.root: cimfs
 ms.keywords: CimDismountImage
 targetos: Windows
