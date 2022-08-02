@@ -1,7 +1,7 @@
 ---
 UID: NF:mmiscapi.mmioStringToFOURCC
 title: mmioStringToFOURCC function (mmiscapi.h)
-description: The mmioStringToFOURCC function converts a null-terminated string to a four-character code. (mmioStringToFOURCCW)
+description: The mmioStringToFOURCC function converts a null-terminated string to a four-character code and contains parameters that modify conversion. (mmioStringToFOURCCW)
 helpviewer_keywords: ["_win32_mmioStringToFOURCC","mmioStringToFOURCC","mmioStringToFOURCC function [Windows Multimedia]","mmioStringToFOURCCA","mmioStringToFOURCCW","mmsystem/mmioStringToFOURCC","mmsystem/mmioStringToFOURCCA","mmsystem/mmioStringToFOURCCW","multimedia.mmiostringtofourcc"]
 old-location: multimedia\mmiostringtofourcc.htm
 tech.root: Multimedia

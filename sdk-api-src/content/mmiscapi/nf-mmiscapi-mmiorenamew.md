@@ -1,7 +1,7 @@
 ---
 UID: NF:mmiscapi.mmioRenameW
 title: mmioRenameW function (mmiscapi.h)
-description: The mmioRename function renames the specified file. (mmioRenameW)
+description: The mmioRenameW (Unicode) function renames the specified file and contains parameters that modify strings containing a file name. (mmioRenameW)
 helpviewer_keywords: ["_win32_mmioRename","mmioRename","mmioRename function [Windows Multimedia]","mmioRenameA","mmioRenameW","mmsystem/mmioRename","mmsystem/mmioRenameA","mmsystem/mmioRenameW","multimedia.mmiorename"]
 old-location: multimedia\mmiorename.htm
 tech.root: Multimedia

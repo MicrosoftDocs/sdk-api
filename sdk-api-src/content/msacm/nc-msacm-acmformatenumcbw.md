@@ -1,7 +1,7 @@
 ---
 UID: NC:msacm.ACMFORMATENUMCBW
 title: ACMFORMATENUMCBW (msacm.h)
-description: The acmFormatEnumCallback function specifies a callback function used with the acmFormatEnum function. The acmFormatEnumCallback name is a placeholder for the application-defined function name. (ACMFORMATENUMCBW)
+description: The ACMFORMATENUMCBW (Unicode) callback function specifies a callback function used with the acmFormatEnum function.
 helpviewer_keywords: ["ACMFORMATENUMCB","ACMFORMATENUMCB callback","ACMFORMATENUMCB callback function [Windows Multimedia]","ACMFORMATENUMCBA","ACMFORMATENUMCBW","_win32_acmFormatEnumCallback","acmFormatEnumCallback","msacm/ACMFORMATENUMCB","msacm/ACMFORMATENUMCBA","msacm/ACMFORMATENUMCBW","multimedia.acmformatenumcallback"]
 old-location: multimedia\acmformatenumcallback.htm
 tech.root: Multimedia
