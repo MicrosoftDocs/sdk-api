@@ -1,7 +1,8 @@
 ---
 UID: NF:cimfs.CimCommitImage
 title: CimCommitImage
-ms.date: 9/9/2019
+description: The CimCommitImage function commits the image represented by the image handle. 
+ms.date: 08/01/2022
 tech.root: cimfs
 ms.keywords: CimCommitImage
 targetos: Windows
