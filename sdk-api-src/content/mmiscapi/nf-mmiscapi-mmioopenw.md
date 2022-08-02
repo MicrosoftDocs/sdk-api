@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_mmioOpen","mmioOpen","mmioOpen function [Windows M
 old-location: multimedia\mmioopen.htm
 tech.root: Multimedia
 ms.assetid: 7361f0f2-1c3c-49f1-aec1-2927e05ef0f0
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: _win32_mmioOpen, mmioOpen, mmioOpen function [Windows Multimedia], mmioOpenA, mmioOpenW, mmsystem/mmioOpen, mmsystem/mmioOpenA, mmsystem/mmioOpenW, multimedia.mmioopen
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h

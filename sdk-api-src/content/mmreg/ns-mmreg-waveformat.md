@@ -6,7 +6,7 @@ helpviewer_keywords: ["*LPWAVEFORMAT","*NPWAVEFORMAT","*PWAVEFORMAT","WAVEFORMAT
 old-location: multimedia\waveformat.htm
 tech.root: Multimedia
 ms.assetid: 48871868-792a-4479-9e92-95306c25673a
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: '*LPWAVEFORMAT, *NPWAVEFORMAT, *PWAVEFORMAT, WAVEFORMAT, WAVEFORMAT structure [Windows Multimedia], WAVE_FORMAT_PCM, _win32_WAVEFORMAT_str, mmeapi/WAVEFORMAT, multimedia.waveformat, tWAVEFORMATEX'
 req.header: mmreg.h
 req.include-header: Mmreg.h
