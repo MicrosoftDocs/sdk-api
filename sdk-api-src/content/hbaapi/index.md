@@ -6,8 +6,8 @@ ms.keywords:
 ms.topic: conceptual
 tech.root: hba
 f1_keywords:
- - hba
- - hba/hba
+ - hbaapi
+ - hbaapi/hbaapi
 ---
 
 # hbaapi.h header
