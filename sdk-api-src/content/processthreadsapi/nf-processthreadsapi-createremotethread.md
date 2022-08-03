@@ -9,7 +9,7 @@ ms.assetid: f5257f78-b20f-4db5-b63e-3bb4e41a4b19
 ms.date: 12/05/2018
 ms.keywords: CREATE_SUSPENDED, CreateRemoteThread, CreateRemoteThread function, STACK_SIZE_PARAM_IS_A_RESERVATION, _win32_createremotethread, base.createremotethread, processthreadsapi/CreateRemoteThread, winbase/CreateRemoteThread
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]

@@ -9,7 +9,7 @@ ms.assetid: a442e147-0db0-4911-94de-91728a4b277a
 ms.date: 12/05/2018
 ms.keywords: GetCurrentProcessId, GetCurrentProcessId function, _win32_getcurrentprocessid, base.getcurrentprocessid, processthreadsapi/GetCurrentProcessId, winbase/GetCurrentProcessId
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]

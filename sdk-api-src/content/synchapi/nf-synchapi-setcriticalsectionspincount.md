@@ -9,7 +9,7 @@ ms.assetid: 4d435c70-2e9b-4923-8726-9c8143dceb15
 ms.date: 12/05/2018
 ms.keywords: SetCriticalSectionSpinCount, SetCriticalSectionSpinCount function, _win32_setcriticalsectionspincount, base.setcriticalsectionspincount, synchapi/SetCriticalSectionSpinCount, winbase/SetCriticalSectionSpinCount
 req.header: synchapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]

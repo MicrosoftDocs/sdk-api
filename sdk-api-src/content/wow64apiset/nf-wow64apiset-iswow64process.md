@@ -9,7 +9,7 @@ ms.assetid: 5a237542-e432-487c-aa59-2ede427dd1eb
 ms.date: 12/05/2018
 ms.keywords: IsWow64Process, IsWow64Process function, _win32_iswow64process, base.iswow64process, winbase/IsWow64Process, wow64apiset/IsWow64Process
 req.header: wow64apiset.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps \| UWP apps]
