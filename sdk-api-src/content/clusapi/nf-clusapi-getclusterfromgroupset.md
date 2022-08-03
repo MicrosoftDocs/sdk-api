@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.GetClusterFromGroupSet
 title: GetClusterFromGroupSet function (clusapi.h)
-description: TBD.
+description: GetClusterFromGroupSet function (clusapi.h) returns a handle to the cluster associated with a group set.
 helpviewer_keywords: ["GetClusterFromGroupSet","GetClusterFromGroupSet function [Failover Cluster]","PCLUSAPI_GET_CLUSTER_FROM_GROUP_GROUPSET","PCLUSAPI_GET_CLUSTER_FROM_GROUP_GROUPSET function [Failover Cluster]","clusapi/GetClusterFromGroupSet","clusapi/PCLUSAPI_GET_CLUSTER_FROM_GROUP_GROUPSET","mscs.getclusterfromgroupset"]
 old-location: mscs\getclusterfromgroupset.htm
 tech.root: MsCS
 ms.assetid: 9d0669e3-8f4a-45f3-a2cc-c118bddcd791
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: GetClusterFromGroupSet, GetClusterFromGroupSet function [Failover Cluster], PCLUSAPI_GET_CLUSTER_FROM_GROUP_GROUPSET, PCLUSAPI_GET_CLUSTER_FROM_GROUP_GROUPSET function [Failover Cluster], clusapi/GetClusterFromGroupSet, clusapi/PCLUSAPI_GET_CLUSTER_FROM_GROUP_GROUPSET, mscs.getclusterfromgroupset
 req.header: clusapi.h
 req.include-header: 

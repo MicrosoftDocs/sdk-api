@@ -1,12 +1,12 @@
 ---
 UID: NS:clusapi._CLUSTER_VALIDATE_NETNAME
 title: CLUSTER_VALIDATE_NETNAME (clusapi.h)
-description: TBD.
+description: The CLUSTER_VALIDATE_NETNAME (clusapi.h) structure passes in the network name to validate, with more information to be determined.
 helpviewer_keywords: ["*PCLUSTER_VALIDATE_NETNAME","CLUSTER_VALIDATE_NETNAME","CLUSTER_VALIDATE_NETNAME structure [Failover Cluster]","PCLUSTER_VALIDATE_NETNAME","PCLUSTER_VALIDATE_NETNAME structure pointer [Failover Cluster]","clusapi/CLUSTER_VALIDATE_NETNAME","clusapi/PCLUSTER_VALIDATE_NETNAME","mscs.cluster_validate_netname"]
 old-location: mscs\cluster_validate_netname.htm
 tech.root: MsCS
 ms.assetid: c524d6cf-85f7-451b-b7d4-9497a2c2f0b0
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: '*PCLUSTER_VALIDATE_NETNAME, CLUSTER_VALIDATE_NETNAME, CLUSTER_VALIDATE_NETNAME structure [Failover Cluster], PCLUSTER_VALIDATE_NETNAME, PCLUSTER_VALIDATE_NETNAME structure pointer [Failover Cluster], clusapi/CLUSTER_VALIDATE_NETNAME, clusapi/PCLUSTER_VALIDATE_NETNAME, mscs.cluster_validate_netname'
 req.header: clusapi.h
 req.include-header: 
