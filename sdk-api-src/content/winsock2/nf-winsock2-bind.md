@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock2.bind
 title: bind function (winsock2.h)
-description: The bind function associates a local address with a socket. (bind)
+description: The bind function associates a local address with a socket. (bind function (winsock2.h))
 helpviewer_keywords: ["_win32_bind_2","bind","bind function [Winsock]","winsock.bind_2","winsock/bind"]
 old-location: winsock\bind_2.htm
 tech.root: WinSock
 ms.assetid: 3a651daa-7404-4ef7-8cff-0d3dff41a8e8
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: _win32_bind_2, bind, bind function [Winsock], winsock.bind_2, winsock/bind
 req.header: winsock2.h
 req.include-header: Winsock2.h
