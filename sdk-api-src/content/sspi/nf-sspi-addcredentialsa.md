@@ -2,9 +2,9 @@
 UID: NF:sspi.AddCredentialsA
 tech.root: security
 title: AddCredentialsA
-ms.date: 07/20/2022
+ms.date: 08/03/2022
 targetos: Windows
-description: Adds a credential to the list of credentials.
+description: AddCredentialsA (ANSI) adds a credential to the list of credentials.
 prerelease: false
 req.assembly: 
 req.construct-type: function

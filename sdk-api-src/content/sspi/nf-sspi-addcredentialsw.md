@@ -2,9 +2,9 @@
 UID: NF:sspi.AddCredentialsW
 tech.root: security
 title: AddCredentialsW
-ms.date: 07/20/2022
+ms.date: 08/03/2022
 targetos: Windows
-description: Adds a credential to the list of credentials.
+description: AddCredentialsW (Unicode) adds a credential to the list of credentials.
 prerelease: false
 req.assembly: 
 req.construct-type: function
