@@ -6,7 +6,7 @@ helpviewer_keywords: ["HSTRING_UserUnmarshal","HSTRING_UserUnmarshal function [W
 old-location: winrt\hstring_userunmarshal.htm
 tech.root: WinRT
 ms.assetid: EFE4C76D-4219-43DA-B1F6-4A58ED763686
-ms.date: 08/05/2022
+ms.date: 08/03/2022
 ms.keywords: HSTRING_UserUnmarshal, HSTRING_UserUnmarshal function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserUnmarshal, winrt.hstring_userunmarshal
 req.header: winstring.h
 req.include-header: Winstring.h, Inspectable.h
