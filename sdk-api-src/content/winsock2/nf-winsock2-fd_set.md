@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.FD_SET
 title: FD_SET macro (winsock2.h)
-description: The FD_SET structure is used by Windows Sockets (Winsock) functions and service providers to place sockets into a set. (FD_SET macro (winsock2.h))
+description: The FD_SET macro (winsock2.h) is used by Windows Sockets (Winsock) functions and service providers to place sockets into a set. 
 helpviewer_keywords: ["FD_SET","_win32_fd_set_2","fd_set","fd_set structure [Winsock]","winsock.fd_set_2","winsock/fd_set"]
 old-location: winsock\fd_set_2.htm
 tech.root: WinSock
