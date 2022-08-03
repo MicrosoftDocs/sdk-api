@@ -1,7 +1,7 @@
 ---
 UID: NF:inspectable.HSTRING_UserMarshal64
 title: HSTRING_UserMarshal64 function (inspectable.h)
-description: HSTRING_UserMarshal64 function (inspectable.h) marshals an HSTRING object into the RPC buffer.
+description: The HSTRING_UserMarshal64 function (inspectable.h) marshals an HSTRING object into the RPC buffer.
 helpviewer_keywords: ["HSTRING_UserMarshal64","HSTRING_UserMarshal64 function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserMarshal64","winrt.hstring_usermarshal64"]
 old-location: winrt\hstring_usermarshal64.htm
 tech.root: WinRT

@@ -1,7 +1,7 @@
 ---
 UID: NF:inspectable.HSTRING_UserSize
 title: HSTRING_UserSize function (inspectable.h)
-description: HSTRING_UserSize function (inspectable.h) calculates the wire size of the HSTRING object, and gets its handle and data.
+description: The HSTRING_UserSize function (inspectable.h) calculates the wire size of the HSTRING object, and gets its handle and data.
 helpviewer_keywords: ["HSTRING_UserSize","HSTRING_UserSize function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserSize","winrt.hstring_usersize"]
 old-location: winrt\hstring_usersize.htm
 tech.root: WinRT

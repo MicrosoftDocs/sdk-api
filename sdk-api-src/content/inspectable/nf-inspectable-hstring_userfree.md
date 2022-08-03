@@ -1,7 +1,7 @@
 ---
 UID: NF:inspectable.HSTRING_UserFree
 title: HSTRING_UserFree function (inspectable.h)
-description: HSTRING_UserFree function (inspectable.h) frees resources on the server side when called by RPC stub files.
+description: The HSTRING_UserFree function (inspectable.h) frees resources on the server side when called by RPC stub files.
 helpviewer_keywords: ["HSTRING_UserFree","HSTRING_UserFree function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserFree","winrt.hstring_userfree"]
 old-location: winrt\hstring_userfree.htm
 tech.root: WinRT
