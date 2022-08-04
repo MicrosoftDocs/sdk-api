@@ -1,7 +1,7 @@
 ---
 UID: NC:dbghelp.PFINDFILEINPATHCALLBACKW
 title: PFINDFILEINPATHCALLBACKW (dbghelp.h)
-description: PFINDFILEINPATHCALLBACKW (Unicode) is an application-defined callback function used with the SymFindFileInPath function.S
+description: PFINDFILEINPATHCALLBACKW (Unicode) is an application-defined callback function used with the SymFindFileInPath function.
 helpviewer_keywords: ["PFINDFILEINPATHCALLBACK","PFINDFILEINPATHCALLBACKW","SymFindFileInPathProc","SymFindFileInPathProc callback","SymFindFileInPathProc callback function","_win32_symfindfileinpathproc","base.symfindfileinpathproc","dbghelp/SymFindFileInPathProc"]
 old-location: base\symfindfileinpathproc.htm
 tech.root: Debug
