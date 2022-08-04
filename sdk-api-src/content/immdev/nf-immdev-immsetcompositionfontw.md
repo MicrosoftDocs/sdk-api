@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmSetCompositionFontW
 title: ImmSetCompositionFontW function (immdev.h)
-description: Sets the logical font to use to display characters in the composition window. (ImmSetCompositionFontW)
+description: The ImmSetCompositionFontW (Unicode) function (immdev.h) sets the logical font to use to display characters in the composition window.
 helpviewer_keywords: ["ImmSetCompositionFont","ImmSetCompositionFont function [Internationalization for Windows Applications]","ImmSetCompositionFontA","ImmSetCompositionFontW","_win32_ImmSetCompositionFont","imm/ImmSetCompositionFont","imm/ImmSetCompositionFontA","imm/ImmSetCompositionFontW","intl.immsetcompositionfont"]
 old-location: intl\immsetcompositionfont.htm
 tech.root: Intl
 ms.assetid: 5a3a9230-0ccf-4a6e-a3e0-7a3c7dbe35cf
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: ImmSetCompositionFont, ImmSetCompositionFont function [Internationalization for Windows Applications], ImmSetCompositionFontA, ImmSetCompositionFontW, _win32_ImmSetCompositionFont, imm/ImmSetCompositionFont, imm/ImmSetCompositionFontA, imm/ImmSetCompositionFontW, intl.immsetcompositionfont
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
