@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.EnumDirTreeW
 title: EnumDirTreeW function (dbghelp.h)
-description: The EnumDirTreeW (Unicode) function numerates all occurrences of the specified file in the specified directory tree.
+description: The EnumDirTreeW (Unicode) function enumerates all occurrences of the specified file in the specified directory tree.
 helpviewer_keywords: ["EnumDirTree","EnumDirTree function","EnumDirTreeW","_win32_enumdirtree","base.enumdirtree","dbghelp/EnumDirTree","dbghelp/EnumDirTreeW"]
 old-location: base\enumdirtree.htm
 tech.root: Debug
