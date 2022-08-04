@@ -231,7 +231,7 @@ Users with visual impairments or cognitive conditions such as ADHD and dyslexia 
 </dl>
 </td>
 <td width="60%">
-Retrieves the state of the Mouse ClickLock feature. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if enabled, or <b>FALSE</b> otherwise. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a>.
+Retrieves the state of the Mouse ClickLock feature. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if enabled, or <b>FALSE</b> otherwise. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">Mouse Input Overview</a>.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -244,7 +244,7 @@ Retrieves the state of the Mouse ClickLock feature. The <i>pvParam</i> parameter
 </dl>
 </td>
 <td width="60%">
-Retrieves the time delay before the primary mouse button is locked. The <i>pvParam</i> parameter must point to <b>DWORD</b> that receives the time delay, in milliseconds. This is only enabled if <b>SPI_SETMOUSECLICKLOCK</b> is set to <b>TRUE</b>. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a>.
+Retrieves the time delay before the primary mouse button is locked. The <i>pvParam</i> parameter must point to <b>DWORD</b> that receives the time delay, in milliseconds. This is only enabled if <b>SPI_SETMOUSECLICKLOCK</b> is set to <b>TRUE</b>. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">Mouse Input Overview</a>.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -268,7 +268,7 @@ Retrieves information about the MouseKeys accessibility feature. The <i>pvParam<
 </dl>
 </td>
 <td width="60%">
-Retrieves the state of the Mouse Sonar feature. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if enabled or <b>FALSE</b> otherwise. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a>.
+Retrieves the state of the Mouse Sonar feature. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if enabled or <b>FALSE</b> otherwise. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">Mouse Input Overview</a>.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -281,7 +281,7 @@ Retrieves the state of the Mouse Sonar feature. The <i>pvParam</i> parameter mus
 </dl>
 </td>
 <td width="60%">
-Retrieves the state of the Mouse Vanish feature. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if enabled or <b>FALSE</b> otherwise. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a>.
+Retrieves the state of the Mouse Vanish feature. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if enabled or <b>FALSE</b> otherwise. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">Mouse Input Overview</a>.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -511,7 +511,7 @@ Turns the Mouse ClickLock accessibility feature on or off. This feature temporar
 </dl>
 </td>
 <td width="60%">
-Adjusts the time delay before the primary mouse button is locked. The <i>uiParam</i> parameter should be set to 0. The <i>pvParam</i> parameter points to a <b>DWORD</b> that specifies the time delay in milliseconds. For example, specify 1000 for a 1 second delay. The default is 1200. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a>.
+Adjusts the time delay before the primary mouse button is locked. The <i>uiParam</i> parameter should be set to 0. The <i>pvParam</i> parameter points to a <b>DWORD</b> that specifies the time delay in milliseconds. For example, specify 1000 for a 1 second delay. The default is 1200. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">Mouse Input Overview</a>.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -535,7 +535,7 @@ Sets the parameters of the MouseKeys accessibility feature. The <i>pvParam</i> p
 </dl>
 </td>
 <td width="60%">
-Turns the Sonar accessibility feature on or off. This feature briefly shows several concentric circles around the mouse pointer when the user presses and releases the CTRL key. The <i>pvParam</i> parameter specifies <b>TRUE</b> for on and <b>FALSE</b> for off. The default is off. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a>.
+Turns the Sonar accessibility feature on or off. This feature briefly shows several concentric circles around the mouse pointer when the user presses and releases the CTRL key. The <i>pvParam</i> parameter specifies <b>TRUE</b> for on and <b>FALSE</b> for off. The default is off. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">Mouse Input Overview</a>.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -548,7 +548,7 @@ Turns the Sonar accessibility feature on or off. This feature briefly shows seve
 </dl>
 </td>
 <td width="60%">
-Turns the Vanish feature on or off. This feature hides the mouse pointer when the user types; the pointer reappears when the user moves the mouse. The <i>pvParam</i> parameter specifies <b>TRUE</b> for on and <b>FALSE</b> for off. The default is off. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a>.
+Turns the Vanish feature on or off. This feature hides the mouse pointer when the user types; the pointer reappears when the user moves the mouse. The <i>pvParam</i> parameter specifies <b>TRUE</b> for on and <b>FALSE</b> for off. The default is off. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">Mouse Input Overview</a>.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 

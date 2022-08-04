@@ -120,3 +120,4 @@ These left- and right-distinguishing constants are available to an application o
 - <a href="/windows/desktop/api/winuser/nf-winuser-mapvirtualkeya">MapVirtualKey</a>
 - <a href="/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>
 - <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+- [Keyboard Input Overview](/windows/win32/inputdev/about-keyboard-input)
