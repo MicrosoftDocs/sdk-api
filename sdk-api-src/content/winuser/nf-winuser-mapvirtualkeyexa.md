@@ -127,3 +127,4 @@ These left- and right-distinguishing constants are available to an application o
 - <a href="/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>
 - [LoadKeyboardLayout](nf-winuser-loadkeyboardlayouta.md)
 - <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+- [Keyboard Input Overview](/windows/win32/inputdev/about-keyboard-input)
