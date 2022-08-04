@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.GetPrivateProfileSectionW
 title: GetPrivateProfileSectionW function (winbase.h)
-description: Retrieves all the keys and values for the specified section of an initialization file. (GetPrivateProfileSectionW)
+description: The GetPrivateProfileSectionW (Unicode) function (winbase.h) retrieves all the keys and values for the specified section of an initialization file.
 helpviewer_keywords: ["GetPrivateProfileSection","GetPrivateProfileSection function","GetPrivateProfileSectionA","GetPrivateProfileSectionW","_win32_getprivateprofilesection","base.getprivateprofilesection","winbase/GetPrivateProfileSection","winbase/GetPrivateProfileSectionA","winbase/GetPrivateProfileSectionW"]
 old-location: base\getprivateprofilesection.htm
 tech.root: winprog
 ms.assetid: 17e01d6b-e1de-45a5-a620-c967694c24b9
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: GetPrivateProfileSection, GetPrivateProfileSection function, GetPrivateProfileSectionA, GetPrivateProfileSectionW, _win32_getprivateprofilesection, base.getprivateprofilesection, winbase/GetPrivateProfileSection, winbase/GetPrivateProfileSectionA, winbase/GetPrivateProfileSectionW
 req.header: winbase.h
 req.include-header: Windows.h
