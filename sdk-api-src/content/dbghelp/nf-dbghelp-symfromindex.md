@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymFromIndex
 title: SymFromIndex function (dbghelp.h)
-description: Retrieves symbol information for the specified index.
+description: The SymFromIndex function (dbghelp.h) retrieves symbol information for the specified index.
 helpviewer_keywords: ["SymFromIndex","SymFromIndex function","SymFromIndexW","base.symfromindex","dbghelp/SymFromIndex","dbghelp/SymFromIndexW"]
 old-location: base\symfromindex.htm
 tech.root: Debug
 ms.assetid: 84e94edd-2874-4b57-89eb-18b01dac91f4
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymFromIndex, SymFromIndex function, SymFromIndexW, base.symfromindex, dbghelp/SymFromIndex, dbghelp/SymFromIndexW
 req.header: dbghelp.h
 req.include-header: 
