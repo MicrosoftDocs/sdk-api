@@ -2,9 +2,9 @@
 UID: NF:hbaapi.HBA_RemoveCallback
 tech.root: hba
 title: HBA_RemoveCallback
-ms.date: 
+ms.date: 08/02/2022
 targetos: Windows
-description: 
+description: De-registers a callback routine.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,13 +44,23 @@ helpviewer_keywords:
 
 ## -description
 
+De-registers a callback routine.
+
 ## -parameters
 
 ### -param callbackHandle
 
+An opaque handle (that you retrieved when you registered the callback routine) that identifies the callback routine to de-register.
+
 ## -returns
+
+A value of type [HBA_STATUS](/windows-hardware/drivers/storage/hba-status) that indicates the status of the HBA. In particular, it returns one of the following values.
+
+|Return code|Description|
+|-|-|
+|HBA_STATUS_OK|The callback routine was successfully de-registered.|
+|HBA_STATUS_ERROR|An unspecified error occurred that prevented the de-registration of the callback routine.|
 
 ## -remarks
 
 ## -see-also
-
