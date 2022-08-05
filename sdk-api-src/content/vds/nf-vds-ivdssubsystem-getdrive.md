@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsSubSystem.GetDrive
 title: IVdsSubSystem::GetDrive (vds.h)
-description: Returns the specified drive. (IVdsSubSystem.GetDrive)
+description: The IVdsSubSystem::GetDrive method (vds.h) returns the specified drive.
 helpviewer_keywords: ["GetDrive","GetDrive method [VDS]","GetDrive method [VDS]","IVdsSubSystem interface","IVdsSubSystem interface [VDS]","GetDrive method","IVdsSubSystem.GetDrive","IVdsSubSystem::GetDrive","base.ivdssubsystem_getdrive","vds/IVdsSubSystem::GetDrive","vdshwprv/IVdsSubSystem::GetDrive"]
 old-location: base\ivdssubsystem_getdrive.htm
 tech.root: base
 ms.assetid: 855e9991-606c-4fcc-ba1d-ebdb928d4c3e
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: GetDrive, GetDrive method [VDS], GetDrive method [VDS],IVdsSubSystem interface, IVdsSubSystem interface [VDS],GetDrive method, IVdsSubSystem.GetDrive, IVdsSubSystem::GetDrive, base.ivdssubsystem_getdrive, vds/IVdsSubSystem::GetDrive, vdshwprv/IVdsSubSystem::GetDrive
 req.header: vds.h
 req.include-header: 

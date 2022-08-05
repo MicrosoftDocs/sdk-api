@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsMaintenance.StartMaintenance
 title: IVdsMaintenance::StartMaintenance (vds.h)
-description: Starts a maintenance operation. (IVdsMaintenance.StartMaintenance)
+description: The IVdsMaintenance::StartMaintenance method (vds.h) starts a maintenance operation.
 helpviewer_keywords: ["IVdsMaintenance interface [VDS]","StartMaintenance method","IVdsMaintenance.StartMaintenance","IVdsMaintenance::StartMaintenance","StartMaintenance","StartMaintenance method [VDS]","StartMaintenance method [VDS]","IVdsMaintenance interface","base.ivdsmaintenance_startmaintenance","vds/IVdsMaintenance::StartMaintenance","vdshwprv/IVdsMaintenance::StartMaintenance"]
 old-location: base\ivdsmaintenance_startmaintenance.htm
 tech.root: base
 ms.assetid: 8d2e1022-ae79-4f71-a488-2c86b43b2a7f
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsMaintenance interface [VDS],StartMaintenance method, IVdsMaintenance.StartMaintenance, IVdsMaintenance::StartMaintenance, StartMaintenance, StartMaintenance method [VDS], StartMaintenance method [VDS],IVdsMaintenance interface, base.ivdsmaintenance_startmaintenance, vds/IVdsMaintenance::StartMaintenance, vdshwprv/IVdsMaintenance::StartMaintenance
 req.header: vds.h
 req.include-header: 
