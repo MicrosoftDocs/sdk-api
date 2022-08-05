@@ -6,7 +6,7 @@ helpviewer_keywords: ["SetEnvironmentVariable","SetEnvironmentVariable function"
 old-location: base\setenvironmentvariable.htm
 tech.root: backup
 ms.assetid: 95bd6fa5-886d-41dc-a5c3-ede86dbfa15d
-ms.date: 08/03/2022
+ms.date: 08/05/2022
 ms.keywords: SetEnvironmentVariable, SetEnvironmentVariable function, SetEnvironmentVariableA, SetEnvironmentVariableW, _win32_setenvironmentvariable, base.setenvironmentvariable, processenv/SetEnvironmentVariable, processenv/SetEnvironmentVariableA, processenv/SetEnvironmentVariableW, winbase/SetEnvironmentVariable, winbase/SetEnvironmentVariableA, winbase/SetEnvironmentVariableW
 req.header: processenv.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
