@@ -1,7 +1,7 @@
 ---
 UID: NE:vds._VDS_CONTROLLER_STATUS
 title: VDS_CONTROLLER_STATUS (vds.h)
-description: VDS_CONTROLLER_STATUS (vds.h) defines the set of object status values for a controller.
+description: The VDS_CONTROLLER_STATUS (vds.h) enumeration defines the set of object status values for a controller.
 helpviewer_keywords: ["*PVDS_CONTROLLER_STATUS","VDS_CONTROLLER_STATUS","VDS_CONTROLLER_STATUS enumeration [VDS]","VDS_CS_FAILED","VDS_CS_NOT_READY","VDS_CS_OFFLINE","VDS_CS_ONLINE","VDS_CS_REMOVED","VDS_CS_UNKNOWN","base.vds_controller_status","vds/VDS_CONTROLLER_STATUS","vds/VDS_CS_FAILED","vds/VDS_CS_NOT_READY","vds/VDS_CS_OFFLINE","vds/VDS_CS_ONLINE","vds/VDS_CS_REMOVED","vds/VDS_CS_UNKNOWN","vdshwprv/VDS_CONTROLLER_STATUS","vdshwprv/VDS_CS_FAILED","vdshwprv/VDS_CS_NOT_READY","vdshwprv/VDS_CS_OFFLINE","vdshwprv/VDS_CS_ONLINE","vdshwprv/VDS_CS_REMOVED","vdshwprv/VDS_CS_UNKNOWN"]
 old-location: base\vds_controller_status.htm
 tech.root: base

@@ -175,7 +175,7 @@ Flags indicating the conversion type. The application can specify a combination 
 Convert composite characters, consisting of a base character and a nonspacing character, each with different character values. Translate these characters to precomposed characters, which have a single character value for a base-nonspacing character combination. For example, in the character è, the e is the base character and the accent grave mark is the nonspacing character.<div class="alert"><b>Note</b>  Windows normally represents Unicode strings with precomposed data, making the use of the WC_COMPOSITECHECK flag unnecessary.</div>
 <div> </div>
 
-Your application can combine WC_COMPOSITECHECK with any one of the following flags, with the default being WC_SEPCHARS. These flags determine the behavior of the function when no precomposed mapping for a base-nonspacing character combination in a Unicode string is available. If none of these flags is supplied, the function behaves as if the WC_SEPCHARS flag is set. For more information, see WC_COMPOSITECHECK and related flags in the [Remarks](#remarks) section.
+Your application can combine WC_COMPOSITECHECK with any one of the following flags, with the default being WC_SEPCHARS. These flags determine the behavior of the function when no precomposed mapping for a base-nonspacing character combination in a Unicode string is available. If none of these flags is supplied, the function behaves as if the WC_SEPCHARS flag is set. For more information, see WC_COMPOSITECHECK and related flags in the [Remarks](#-remarks) section.
 
 <table>
 <tr>

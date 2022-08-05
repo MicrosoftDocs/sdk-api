@@ -1,7 +1,7 @@
 ---
 UID: NS:tlhelp32.tagMODULEENTRY32
 title: MODULEENTRY32 (tlhelp32.h)
-description: MODULEENTRY32 (tlhelp32.h) describes an entry from a list of the modules belonging to the specified process.
+description: The MODULEENTRY32 (tlhelp32.h) structure describes an entry from a list of the modules belonging to the specified process.
 helpviewer_keywords: ["*LPMODULEENTRY32","*PMODULEENTRY32","MODULEENTRY32","MODULEENTRY32 structure [ToolHelp]","MODULEENTRY32W","PMODULEENTRY32","PMODULEENTRY32 structure pointer [ToolHelp]","_win32_moduleentry32_str","base.moduleentry32_str","tlhelp32/MODULEENTRY32","tlhelp32/MODULEENTRY32W","tlhelp32/PMODULEENTRY32","toolhelp.moduleentry32_str"]
 old-location: toolhelp\moduleentry32_str.htm
 tech.root: ToolHelp
