@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsLunIscsi.QueryAssociatedTargets
 title: IVdsLunIscsi::QueryAssociatedTargets (vds.h)
-description: The IVdsLunIscsi::QueryAssociatedTargets (vds.h) returns an enumeration of currently associated iSCSI targets, which give access to the LUN.
+description: The IVdsLunIscsi::QueryAssociatedTargets method (vds.h) returns an enumeration of currently associated iSCSI targets, which give access to the LUN.
 helpviewer_keywords: ["IVdsLunIscsi interface [VDS]","QueryAssociatedTargets method","IVdsLunIscsi.QueryAssociatedTargets","IVdsLunIscsi::QueryAssociatedTargets","QueryAssociatedTargets","QueryAssociatedTargets method [VDS]","QueryAssociatedTargets method [VDS]","IVdsLunIscsi interface","base.ivdsluniscsi_queryassociatedtargets","vds/IVdsLunIscsi::QueryAssociatedTargets","vdshwprv/IVdsLunIscsi::QueryAssociatedTargets"]
 old-location: base\ivdsluniscsi_queryassociatedtargets.htm
 tech.root: base
