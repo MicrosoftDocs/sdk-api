@@ -6,7 +6,7 @@ helpviewer_keywords: ["Delete","Delete method [VDS]","Delete method [VDS]","IVds
 old-location: base\ivdsiscsitarget_delete.htm
 tech.root: base
 ms.assetid: a66077bf-7a08-49f6-9a32-da99aa1d218c
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsIscsiTarget interface, IVdsIscsiTarget interface [VDS],Delete method, IVdsIscsiTarget.Delete, IVdsIscsiTarget::Delete, base.ivdsiscsitarget_delete, vds/IVdsIscsiTarget::Delete, vdshwprv/IVdsIscsiTarget::Delete
 req.header: vds.h
 req.include-header: 

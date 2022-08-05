@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsDrive.ClearFlags
 title: IVdsDrive::ClearFlags (vds.h)
-description: Clears the flags of a drive object. (IVdsDrive.ClearFlags)
+description: The IVdsDrive::ClearFlags method (vds.h) clears the flags of a drive object.
 helpviewer_keywords: ["ClearFlags","ClearFlags method [VDS]","ClearFlags method [VDS]","IVdsDrive interface","IVdsDrive interface [VDS]","ClearFlags method","IVdsDrive.ClearFlags","IVdsDrive::ClearFlags","base.ivdsdrive_clearflags","vds/IVdsDrive::ClearFlags","vdshwprv/IVdsDrive::ClearFlags"]
 old-location: base\ivdsdrive_clearflags.htm
 tech.root: base
 ms.assetid: 195f0c13-40d7-4fad-b589-063ec4ff4efe
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: ClearFlags, ClearFlags method [VDS], ClearFlags method [VDS],IVdsDrive interface, IVdsDrive interface [VDS],ClearFlags method, IVdsDrive.ClearFlags, IVdsDrive::ClearFlags, base.ivdsdrive_clearflags, vds/IVdsDrive::ClearFlags, vdshwprv/IVdsDrive::ClearFlags
 req.header: vds.h
 req.include-header: 
