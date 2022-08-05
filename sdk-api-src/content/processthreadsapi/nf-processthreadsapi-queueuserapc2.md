@@ -52,7 +52,7 @@ Adds a user-mode [asynchronous procedure call](/windows/win32/sync/asynchronous-
 
 A pointer to the application-supplied APC function to be called when the specified thread performs an alertable wait operation. For more information, see [APCProc](/windows/desktop/api/winnt/nc-winnt-papcfunc).
 
-For special user-mode APCs, an alertable wait is not required. See [Remarks](/ns-relogger-event_header#remarks) for more information about special user-mode APCs.
+For special user-mode APCs, an alertable wait is not required. See [Remarks](#remarks) for more information about special user-mode APCs.
 
 ### -param Thread
 
