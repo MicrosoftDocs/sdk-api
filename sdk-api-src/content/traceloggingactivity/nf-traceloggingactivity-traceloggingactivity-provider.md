@@ -1,8 +1,7 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingActivity.Provider
 title: TraceLoggingActivity::Provider (traceloggingactivity.h)
-description:
-  Returns the handle to the TraceLogging provider associated with this activity.
+description: TraceLoggingActivity::Provider (traceloggingactivity.h) returns the handle to the TraceLogging provider associated with this activity.
 helpviewer_keywords:
   [
     "Provider",
@@ -16,7 +15,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingactivity_provider.htm
 tech.root: tracelogging
 ms.assetid: 14A2A516-47CB-4AE0-AD9C-046426AE60E7
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords:
   Provider, Provider method, TraceLoggingActivity interface,
   TraceLoggingActivity.Provider, TraceLoggingActivity::Provider,
