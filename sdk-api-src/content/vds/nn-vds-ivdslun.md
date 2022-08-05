@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsLun
 title: IVdsLun (vds.h)
-description: Provides methods for performing query and configuration operations on a logical unit number (LUN). (IVdsLun)
+description: The IVdsLun interface (vds.h) provides methods for performing query and configuration operations on a logical unit number (LUN).  
 helpviewer_keywords: ["IVdsLun","IVdsLun interface [VDS]","IVdsLun interface [VDS]","described","base.ivdslun","vds/IVdsLun","vdshwprv/IVdsLun"]
 old-location: base\ivdslun.htm
 tech.root: base
 ms.assetid: e2fbebc0-593e-437c-a401-80e35a43da94
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsLun, IVdsLun interface [VDS], IVdsLun interface [VDS],described, base.ivdslun, vds/IVdsLun, vdshwprv/IVdsLun
 req.header: vds.h
 req.include-header: 
