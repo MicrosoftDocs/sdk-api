@@ -2,10 +2,10 @@
 UID: NF:processthreadsapi.SetProcessDefaultCpuSets
 tech.root: ProcThread
 title: SetProcessDefaultCpuSets
-ms.date: 03/12/2021
+ms.date: 08/05/2022
 ms.topic: language-reference
 targetos: Windows
-description: Sets the default CPU Sets assignment for threads in the specified process. 
+description: The SetProcessDefaultCpuSets function (processthreadsapi.h) sets the default CPU Sets assignment for threads in the specified process. 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

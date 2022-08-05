@@ -2,7 +2,8 @@
 UID: NE:processthreadsapi._QUEUE_USER_APC_FLAGS
 tech.root: 
 title: QUEUE_USER_APC_FLAGS
-ms.date: 
+description: The QUEUE_USER_APC_FLAGS enumeration (processthreadsapi.h) specifies the modifier flags for user-mode asynchronous procedure call (APC) objects.
+ms.date: 08/05/2022
 targetos: Windows
 description: 
 prerelease: false

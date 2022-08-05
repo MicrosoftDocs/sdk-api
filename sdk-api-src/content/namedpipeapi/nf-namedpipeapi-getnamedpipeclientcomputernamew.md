@@ -2,9 +2,9 @@
 UID: NF:namedpipeapi.GetNamedPipeClientComputerNameW
 tech.root: base 
 title: GetNamedPipeClientComputerNameW
-ms.date: 04/20/2021
-targetos: Windows
-description: Retrieves the client computer name for the specified named pipe. 
+description: The GetNamedPipeClientComputerNameW (Unicode) function (winbase.h) retrieves the client computer name for the specified named pipe.
+ms.date: 08/05/2022
+targetos: Windows 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
