@@ -66,7 +66,7 @@ Copies the status of the 256 virtual keys to the specified buffer.
 
 Type: <b>PBYTE</b>
 
-The 256-byte array that receives the status data for each virtual key.
+The 256-bit array that receives the status data for each virtual key.
 
 ## -returns
 
