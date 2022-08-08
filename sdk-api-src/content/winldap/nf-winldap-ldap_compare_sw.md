@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_compare_sW
 title: ldap_compare_sW function (winldap.h)
-description: The ldap_compare_sW function (winldap.h) determines whether an attribute for a given entry holds a known value. 
+description: The ldap_compare_sW (Unicode) function (winldap.h) determines whether an attribute for a given entry holds a known value. 
 helpviewer_keywords: ["_ldap_ldap_compare_s","ldap.ldap__compare__s","ldap.ldap_compare_s","ldap_compare_s","ldap_compare_s function [LDAP]","ldap_compare_sA","ldap_compare_sW","winldap/ldap_compare_s","winldap/ldap_compare_sA","winldap/ldap_compare_sW"]
 old-location: ldap\ldap_compare_s.htm
 tech.root: ldap
