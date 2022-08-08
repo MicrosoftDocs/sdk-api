@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsLun.Shrink
 title: IVdsLun::Shrink (vdshwprv.h)
-description: Shrinks a LUN by a specified number of bytes. (IVdsLun.Shrink)
+description: The IVdsLun::Shrink (vdshwprv.h) method shrinks a LUN by a specified number of bytes.
 helpviewer_keywords: ["IVdsLun interface [VDS]","Shrink method","IVdsLun.Shrink","IVdsLun::Shrink","Shrink","Shrink method [VDS]","Shrink method [VDS]","IVdsLun interface","base.ivdslun_shrink","vds/IVdsLun::Shrink","vdshwprv/IVdsLun::Shrink"]
 old-location: base\ivdslun_shrink.htm
 tech.root: base
 ms.assetid: a02f7741-c17a-48f3-a823-292613aa287b
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsLun interface [VDS],Shrink method, IVdsLun.Shrink, IVdsLun::Shrink, Shrink, Shrink method [VDS], Shrink method [VDS],IVdsLun interface, base.ivdslun_shrink, vds/IVdsLun::Shrink, vdshwprv/IVdsLun::Shrink
 req.header: vdshwprv.h
 req.include-header: 
