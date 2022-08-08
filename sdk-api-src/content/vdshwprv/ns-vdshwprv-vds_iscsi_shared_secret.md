@@ -1,12 +1,12 @@
 ---
 UID: NS:vdshwprv._VDS_ISCSI_SHARED_SECRET
 title: VDS_ISCSI_SHARED_SECRET (vdshwprv.h)
-description: Defines a CHAP shared secret. (VDS_ISCSI_SHARED_SECRET)
+description: The VDS_ISCSI_SHARED_SECRET structure (vdshwprv.h) defines a CHAP shared secret.
 helpviewer_keywords: ["VDS_ISCSI_SHARED_SECRET","VDS_ISCSI_SHARED_SECRET structure [VDS]","_VDS_ISCSI_SHARED_SECRET","base.vds_iscsi_shared_secret","vds/VDS_ISCSI_SHARED_SECRET","vdshwprv/VDS_ISCSI_SHARED_SECRET"]
 old-location: base\vds_iscsi_shared_secret.htm
 tech.root: base
 ms.assetid: eab1e2f4-b14e-4336-9b83-5dd7089da2d8
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: VDS_ISCSI_SHARED_SECRET, VDS_ISCSI_SHARED_SECRET structure [VDS], _VDS_ISCSI_SHARED_SECRET, base.vds_iscsi_shared_secret, vds/VDS_ISCSI_SHARED_SECRET, vdshwprv/VDS_ISCSI_SHARED_SECRET
 req.header: vdshwprv.h
 req.include-header: 
