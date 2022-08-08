@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsProviderSupport.GetVersionSupport
 title: IVdsProviderSupport::GetVersionSupport (vds.h)
-description: IVdsProviderSupport::GetVersionSupport (vds.h) returns a bitmask of values enumerated by VDS_VERSION_SUPPORT_FLAG with supported versions of the VDS interfaces.
+description: IVdsProviderSupport::GetVersionSupport (vds.h) returns a bitmask of values enumerated by VDS_VERSION_SUPPORT_FLAG with supported versions of VDS interfaces.
 helpviewer_keywords: ["GetVersionSupport","GetVersionSupport method","GetVersionSupport method","IVdsProviderSupport interface","IVdsProviderSupport interface","GetVersionSupport method","IVdsProviderSupport.GetVersionSupport","IVdsProviderSupport::GetVersionSupport","base.ivdsprovidersupport_getversionsupport","vds/IVdsProviderSupport::GetVersionSupport","vdshwprv/IVdsProviderSupport::GetVersionSupport"]
 old-location: base\ivdsprovidersupport_getversionsupport.htm
 tech.root: base
