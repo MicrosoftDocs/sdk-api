@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem2.GetProperties2
 title: IVdsSubSystem2::GetProperties2 (vdshwprv.h)
-description: Returns the properties of a subsystem. This method is identical to the IVdsSubSystem::GetProperties method, except that it returns a VDS_SUB_SYSTEM_PROP2 structure instead of a VDS_SUB_SYSTEM_PROP structure. (IVdsSubSystem2.GetProperties2)
+description: The VdsSubSystem2::GetProperties2 (vdshwprv.h) method returns the properties of a subsystem.
 helpviewer_keywords: ["GetProperties2","GetProperties2 method","GetProperties2 method","IVdsSubSystem2 interface","IVdsSubSystem2 interface","GetProperties2 method","IVdsSubSystem2.GetProperties2","IVdsSubSystem2::GetProperties2","base.ivdssubsystem2_getproperties2","vds/IVdsSubSystem2::GetProperties2","vdshwprv/IVdsSubSystem2::GetProperties2"]
 old-location: base\ivdssubsystem2_getproperties2.htm
 tech.root: base
 ms.assetid: 1f2164a9-643d-4762-8a2e-31d5c277502e
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: GetProperties2, GetProperties2 method, GetProperties2 method,IVdsSubSystem2 interface, IVdsSubSystem2 interface,GetProperties2 method, IVdsSubSystem2.GetProperties2, IVdsSubSystem2::GetProperties2, base.ivdssubsystem2_getproperties2, vds/IVdsSubSystem2::GetProperties2, vdshwprv/IVdsSubSystem2::GetProperties2
 req.header: vdshwprv.h
 req.include-header: 

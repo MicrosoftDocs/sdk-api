@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.SetStatus
 title: IVdsSubSystem::SetStatus (vdshwprv.h)
-description: Sets the status of the subsystem to the specified value. (IVdsSubSystem.SetStatus)
+description: The IVdsSubSystem::SetStatus (vdshwprv.h) method sets the status of the subsystem to the specified value.
 helpviewer_keywords: ["IVdsSubSystem interface [VDS]","SetStatus method","IVdsSubSystem.SetStatus","IVdsSubSystem::SetStatus","SetStatus","SetStatus method [VDS]","SetStatus method [VDS]","IVdsSubSystem interface","base.ivdssubsystem_setstatus","vds/IVdsSubSystem::SetStatus","vdshwprv/IVdsSubSystem::SetStatus"]
 old-location: base\ivdssubsystem_setstatus.htm
 tech.root: base
 ms.assetid: 07104aac-acdc-447c-9a30-ff3318f6df09
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsSubSystem interface [VDS],SetStatus method, IVdsSubSystem.SetStatus, IVdsSubSystem::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsSubSystem interface, base.ivdssubsystem_setstatus, vds/IVdsSubSystem::SetStatus, vdshwprv/IVdsSubSystem::SetStatus
 req.header: vdshwprv.h
 req.include-header: 
