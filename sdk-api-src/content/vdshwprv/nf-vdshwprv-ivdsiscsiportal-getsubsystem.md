@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetSubSystem","GetSubSystem method [VDS]","GetSubSystem m
 old-location: base\ivdsiscsiportal_getsubsystem.htm
 tech.root: base
 ms.assetid: 9e222cdc-6399-4e28-b59b-ba912e32eb9d
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],IVdsIscsiPortal interface, IVdsIscsiPortal interface [VDS],GetSubSystem method, IVdsIscsiPortal.GetSubSystem, IVdsIscsiPortal::GetSubSystem, base.ivdsiscsiportal_getsubsystem, vds/IVdsIscsiPortal::GetSubSystem, vdshwprv/IVdsIscsiPortal::GetSubSystem
 req.header: vdshwprv.h
 req.include-header: 

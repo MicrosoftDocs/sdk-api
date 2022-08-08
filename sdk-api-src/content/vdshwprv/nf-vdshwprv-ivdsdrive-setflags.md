@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsDrive.SetFlags
 title: IVdsDrive::SetFlags (vdshwprv.h)
-description: Sets flags of a drive object. (IVdsDrive.SetFlags)
+description: The IVdsDrive::SetFlags (vdshwprv.h) method sets flags of a drive object.
 helpviewer_keywords: ["IVdsDrive interface [VDS]","SetFlags method","IVdsDrive.SetFlags","IVdsDrive::SetFlags","SetFlags","SetFlags method [VDS]","SetFlags method [VDS]","IVdsDrive interface","base.ivdsdrive_setflags","vds/IVdsDrive::SetFlags","vdshwprv/IVdsDrive::SetFlags"]
 old-location: base\ivdsdrive_setflags.htm
 tech.root: base
 ms.assetid: 73f20f2b-44ec-44f0-b4e9-2aa40e85cc7c
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsDrive interface [VDS],SetFlags method, IVdsDrive.SetFlags, IVdsDrive::SetFlags, SetFlags, SetFlags method [VDS], SetFlags method [VDS],IVdsDrive interface, base.ivdsdrive_setflags, vds/IVdsDrive::SetFlags, vdshwprv/IVdsDrive::SetFlags
 req.header: vdshwprv.h
 req.include-header: 
