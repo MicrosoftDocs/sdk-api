@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortal.GetSubSystem
 title: IVdsIscsiPortal::GetSubSystem (vdshwprv.h)
-description: Returns the subsystem to which the portal belongs. (IVdsIscsiPortal.GetSubSystem)
+description: The IVdsIscsiPortal::GetSubSystem (vdshwprv.h) method returns the subsystem to which the portal belongs.
 helpviewer_keywords: ["GetSubSystem","GetSubSystem method [VDS]","GetSubSystem method [VDS]","IVdsIscsiPortal interface","IVdsIscsiPortal interface [VDS]","GetSubSystem method","IVdsIscsiPortal.GetSubSystem","IVdsIscsiPortal::GetSubSystem","base.ivdsiscsiportal_getsubsystem","vds/IVdsIscsiPortal::GetSubSystem","vdshwprv/IVdsIscsiPortal::GetSubSystem"]
 old-location: base\ivdsiscsiportal_getsubsystem.htm
 tech.root: base
