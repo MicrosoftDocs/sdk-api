@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.GetObjectW
 title: GetObjectW function (wingdi.h)
-description: The GetObjectW function (wingdi.h) retrieves information for the specified graphics object. 
+description: The GetObjectW function (wingdi.h) retrieves information for the specified graphics object
 helpviewer_keywords: ["GetObject","GetObject function [Windows GDI]","GetObjectA","GetObjectW","HBITMAP","HBITMAP returned from a call to CreateDIBSection","HBRUSH","HFONT","HPALETTE","HPEN","HPEN returned from a call to ExtCreatePen","_win32_GetObject","gdi.getobject","wingdi/GetObject","wingdi/GetObjectA","wingdi/GetObjectW"]
 old-location: gdi\getobject.htm
 tech.root: gdi
