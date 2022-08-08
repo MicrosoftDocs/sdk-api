@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsAsync
 title: IVdsAsync (vds.h)
-description: Manages asynchronous operations. Methods that initiate asynchronous operations return a pointer to an IVdsAsync interface, allowing the caller to optionally cancel, wait for, or query the status of the asynchronous operation. (IVdsAsync)
+description: The IVdsAsync interface (vds.h) manages asynchronous operations.
 helpviewer_keywords: ["IVdsAsync","IVdsAsync interface [VDS]","IVdsAsync interface [VDS]","described","base.ivdsasync","vds/IVdsAsync","vdshwprv/IVdsAsync"]
 old-location: base\ivdsasync.htm
 tech.root: base
 ms.assetid: 7814b8ef-84b4-453e-b480-c32b67e5af93
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsAsync, IVdsAsync interface [VDS], IVdsAsync interface [VDS],described, base.ivdsasync, vds/IVdsAsync, vdshwprv/IVdsAsync
 req.header: vds.h
 req.include-header: 
