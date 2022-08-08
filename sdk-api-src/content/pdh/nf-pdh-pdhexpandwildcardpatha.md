@@ -114,6 +114,16 @@ Do not expand the instance name if the path contains a wildcard character for pa
 
 </td>
 </tr>
+	
+<tr>
+<td width="40%"><a id="PDH_REFRESHCOUNTERS"></a><a id="pdh_PDH_REFRESHCOUNTERS"></a><dl>
+<dt><b>PDH_REFRESHCOUNTERS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Refresh the counter list.
+</td>
+</tr>
 </table>
 
 ## -returns
