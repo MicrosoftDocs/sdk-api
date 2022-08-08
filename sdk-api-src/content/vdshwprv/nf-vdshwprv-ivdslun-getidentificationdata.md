@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsLun.GetIdentificationData
 title: IVdsLun::GetIdentificationData (vdshwprv.h)
-description: Returns data from the SCSI Inquiry Data and Vital Product Data pages 0x80 and 0x83. (IVdsLun.GetIdentificationData)
+description: The IVdsLun::GetIdentificationData (vdshwprv.h) method returns data from the SCSI Inquiry Data and Vital Product Data pages 0x80 and 0x83.
 helpviewer_keywords: ["GetIdentificationData","GetIdentificationData method [VDS]","GetIdentificationData method [VDS]","IVdsLun interface","IVdsLun interface [VDS]","GetIdentificationData method","IVdsLun.GetIdentificationData","IVdsLun::GetIdentificationData","base.ivdslun_getidentificationdata","vds/IVdsLun::GetIdentificationData","vdshwprv/IVdsLun::GetIdentificationData"]
 old-location: base\ivdslun_getidentificationdata.htm
 tech.root: base
 ms.assetid: ab72cbe0-d10d-49af-87a0-4da28f79b124
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: GetIdentificationData, GetIdentificationData method [VDS], GetIdentificationData method [VDS],IVdsLun interface, IVdsLun interface [VDS],GetIdentificationData method, IVdsLun.GetIdentificationData, IVdsLun::GetIdentificationData, base.ivdslun_getidentificationdata, vds/IVdsLun::GetIdentificationData, vdshwprv/IVdsLun::GetIdentificationData
 req.header: vdshwprv.h
 req.include-header: 
