@@ -1,12 +1,12 @@
 ---
 UID: NS:vdshwprv._VDS_PROVIDER_PROP
 title: VDS_PROVIDER_PROP (vdshwprv.h)
-description: Defines the properties of a provider object. (VDS_PROVIDER_PROP)
+description: The VDS_PROVIDER_PROP structure (vdshwprv.h) defines the properties of a provider object.
 helpviewer_keywords: ["VDS_PROVIDER_PROP","VDS_PROVIDER_PROP structure [VDS]","base.vds_provider_prop","vds/_VDS_PROVIDER_PROP","vdshwprv/_VDS_PROVIDER_PROP"]
 old-location: base\vds_provider_prop.htm
 tech.root: base
 ms.assetid: f41fc908-3720-4dfb-a5d3-bb1459fb7e5d
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: VDS_PROVIDER_PROP, VDS_PROVIDER_PROP structure [VDS], base.vds_provider_prop, vds/_VDS_PROVIDER_PROP, vdshwprv/_VDS_PROVIDER_PROP
 req.header: vdshwprv.h
 req.include-header: 
