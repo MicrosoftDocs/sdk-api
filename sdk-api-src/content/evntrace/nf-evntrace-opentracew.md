@@ -1,9 +1,7 @@
 ---
 UID: NF:evntrace.OpenTraceW
 title: OpenTraceW function (evntrace.h)
-description:
-  The OpenTrace function opens an ETW trace processing handle for consuming
-  events from an ETW real-time trace session or an ETW log file.
+description: The OpenTraceW (Unicode) function (evntrace.h) opens an ETW trace processing handle for consuming events from an ETW real-time trace session or an ETW log file.
 helpviewer_keywords:
   [
     "OpenTrace",
@@ -20,7 +18,7 @@ helpviewer_keywords:
 old-location: etw\opentrace.htm
 tech.root: ETW
 ms.assetid: 505e643b-6b4f-4f93-96c8-7fe8abdd6234
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords:
   OpenTrace, OpenTrace function [ETW], OpenTraceA, OpenTraceW, _evt_opentrace,
   base.opentrace, etw.opentrace, evntrace/OpenTrace, evntrace/OpenTraceA,

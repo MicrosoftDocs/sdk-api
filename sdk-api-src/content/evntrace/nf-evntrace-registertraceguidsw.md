@@ -1,10 +1,7 @@
 ---
 UID: NF:evntrace.RegisterTraceGuidsW
 title: RegisterTraceGuidsW function (evntrace.h)
-description:
-  Registers a "Classic" (Windows 2000-style) ETW event trace provider and the
-  event trace classes that it uses to generate events. This function is
-  obsolete.
+description: The RegisterTraceGuidsW (Unicode) function (evntrace.h) is an obsolete function, and new code should use the provided alternative.
 helpviewer_keywords:
   [
     "RegisterTraceGuids",
@@ -21,7 +18,7 @@ helpviewer_keywords:
 old-location: etw\registertraceguids.htm
 tech.root: ETW
 ms.assetid: c9158292-281b-4a02-b280-956e340d225c
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords:
   RegisterTraceGuids, RegisterTraceGuids function [ETW], RegisterTraceGuidsA,
   RegisterTraceGuidsW, _evt_registertraceguids, base.registertraceguids,

@@ -1,9 +1,7 @@
 ---
 UID: NC:evntrace.PEVENT_TRACE_BUFFER_CALLBACKA
 title: PEVENT_TRACE_BUFFER_CALLBACKA (evntrace.h)
-description:
-  ETW event consumers implement this function to receive statistics about each
-  buffer of events that ETW delivers during a trace processing session.
+description: The PEVENT_TRACE_BUFFER_CALLBACKA (ANSI) (evntrace.h) function gets statistics about each buffer of events that ETW sends during a trace processing session.
 helpviewer_keywords:
   [
     "BufferCallback",
@@ -20,7 +18,7 @@ helpviewer_keywords:
 old-location: etw\buffercallback.htm
 tech.root: ETW
 ms.assetid: 0cfe2f62-63dc-45a6-96ce-fb4bf458358f
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords:
   BufferCallback, BufferCallback callback function [ETW],
   PEVENT_TRACE_BUFFER_CALLBACK, PEVENT_TRACE_BUFFER_CALLBACK callback,
