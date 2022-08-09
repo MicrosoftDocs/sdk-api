@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv._VDS_PATH_STATUS
 title: VDS_PATH_STATUS (vdshwprv.h)
-description: Defines the set of valid status values for a port. (VDS_PATH_STATUS)
+description: The VDS_PATH_STATUS enumeration (vdshwprv.h) defines the set of valid status values for a port.  
 helpviewer_keywords: ["VDS_MPS_FAILED","VDS_MPS_ONLINE","VDS_MPS_STANDBY","VDS_MPS_UNKNOWN","VDS_PATH_STATUS","VDS_PATH_STATUS enumeration [VDS]","base.vds_path_status","vds/VDS_MPS_FAILED","vds/VDS_MPS_ONLINE","vds/VDS_MPS_STANDBY","vds/VDS_MPS_UNKNOWN","vds/VDS_PATH_STATUS","vdshwprv/VDS_MPS_FAILED","vdshwprv/VDS_MPS_ONLINE","vdshwprv/VDS_MPS_STANDBY","vdshwprv/VDS_MPS_UNKNOWN","vdshwprv/VDS_PATH_STATUS"]
 old-location: base\vds_path_status.htm
 tech.root: base
 ms.assetid: f0682db1-9058-4514-abb2-c10b936d4f41
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_MPS_FAILED, VDS_MPS_ONLINE, VDS_MPS_STANDBY, VDS_MPS_UNKNOWN, VDS_PATH_STATUS, VDS_PATH_STATUS enumeration [VDS], base.vds_path_status, vds/VDS_MPS_FAILED, vds/VDS_MPS_ONLINE, vds/VDS_MPS_STANDBY, vds/VDS_MPS_UNKNOWN, vds/VDS_PATH_STATUS, vdshwprv/VDS_MPS_FAILED, vdshwprv/VDS_MPS_ONLINE, vdshwprv/VDS_MPS_STANDBY, vdshwprv/VDS_MPS_UNKNOWN, vdshwprv/VDS_PATH_STATUS
 req.header: vdshwprv.h
 req.include-header: 
