@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsControllerPort.GetController
 title: IVdsControllerPort::GetController (vds.h)
-description: Returns the controller to which the controller port belongs. (IVdsControllerPort.GetController)
+description: The IVdsControllerPort::GetController (vds.h) method returns the controller to which the controller port belongs.
 helpviewer_keywords: ["GetController","GetController method [VDS]","GetController method [VDS]","IVdsControllerPort interface","IVdsControllerPort interface [VDS]","GetController method","IVdsControllerPort.GetController","IVdsControllerPort::GetController","base.ivdscontrollerport_getcontroller","vds/IVdsControllerPort::GetController","vdshwprv/IVdsControllerPort::GetController"]
 old-location: base\ivdscontrollerport_getcontroller.htm
 tech.root: base
 ms.assetid: 12532ac2-96bd-4ebf-9d09-c240e7357e20
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: GetController, GetController method [VDS], GetController method [VDS],IVdsControllerPort interface, IVdsControllerPort interface [VDS],GetController method, IVdsControllerPort.GetController, IVdsControllerPort::GetController, base.ivdscontrollerport_getcontroller, vds/IVdsControllerPort::GetController, vdshwprv/IVdsControllerPort::GetController
 req.header: vds.h
 req.include-header: 

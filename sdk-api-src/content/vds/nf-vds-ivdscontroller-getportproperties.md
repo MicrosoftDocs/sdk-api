@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsController.GetPortProperties
 title: IVdsController::GetPortProperties (vds.h)
-description: Returns the properties of the specified controller port. (IVdsController.GetPortProperties)
+description: The IVdsController::GetPortProperties (vds.h) method returns the properties of the specified controller port.
 helpviewer_keywords: ["GetPortProperties","GetPortProperties method [VDS]","GetPortProperties method [VDS]","IVdsController interface","IVdsController interface [VDS]","GetPortProperties method","IVdsController.GetPortProperties","IVdsController::GetPortProperties","base.ivdscontroller_getportproperties","vds/IVdsController::GetPortProperties","vdshwprv/IVdsController::GetPortProperties"]
 old-location: base\ivdscontroller_getportproperties.htm
 tech.root: base
 ms.assetid: 01972923-2a43-4a80-80f8-8dab4207bbc4
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: GetPortProperties, GetPortProperties method [VDS], GetPortProperties method [VDS],IVdsController interface, IVdsController interface [VDS],GetPortProperties method, IVdsController.GetPortProperties, IVdsController::GetPortProperties, base.ivdscontroller_getportproperties, vds/IVdsController::GetPortProperties, vdshwprv/IVdsController::GetPortProperties
 req.header: vds.h
 req.include-header: 
