@@ -1,12 +1,12 @@
 ---
 UID: NS:vdshwprv._VDS_ISCSI_IPSEC_KEY
 title: VDS_ISCSI_IPSEC_KEY (vdshwprv.h)
-description: Not supported.This structure is reserved for future use. (VDS_ISCSI_IPSEC_KEY)
+description: The VDS_ISCSI_IPSEC_KEY structure (vdshwprv.h) is not supported and is reserved for future use.
 helpviewer_keywords: ["VDS_ISCSI_IPSEC_KEY","VDS_ISCSI_IPSEC_KEY structure [VDS]","base.vds_iscsi_ipsec_key","vds/VDS_ISCSI_IPSEC_KEY","vdshwprv/VDS_ISCSI_IPSEC_KEY"]
 old-location: base\vds_iscsi_ipsec_key.htm
 tech.root: base
 ms.assetid: a2428142-4dd0-467d-bb7c-3d7fca31111e
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: VDS_ISCSI_IPSEC_KEY, VDS_ISCSI_IPSEC_KEY structure [VDS], base.vds_iscsi_ipsec_key, vds/VDS_ISCSI_IPSEC_KEY, vdshwprv/VDS_ISCSI_IPSEC_KEY
 req.header: vdshwprv.h
 req.include-header: 

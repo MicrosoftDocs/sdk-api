@@ -1,12 +1,12 @@
 ---
 UID: NS:vdshwprv._VDS_HBAPORT_PROP
 title: VDS_HBAPORT_PROP (vdshwprv.h)
-description: Defines the properties of an HBA port. (VDS_HBAPORT_PROP)
+description: The VDS_HBAPORT_PROP structure (vdshwprv.h) defines the properties of an HBA port.
 helpviewer_keywords: ["VDS_HBAPORT_PROP","VDS_HBAPORT_PROP structure [VDS]","base.vds_hbaport_prop","vds/VDS_HBAPORT_PROP","vdshwprv/VDS_HBAPORT_PROP"]
 old-location: base\vds_hbaport_prop.htm
 tech.root: base
 ms.assetid: 297ccb5c-3fa2-4bb0-bdd2-60d4685dc55c
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: VDS_HBAPORT_PROP, VDS_HBAPORT_PROP structure [VDS], base.vds_hbaport_prop, vds/VDS_HBAPORT_PROP, vdshwprv/VDS_HBAPORT_PROP
 req.header: vdshwprv.h
 req.include-header: 

@@ -1,12 +1,12 @@
 ---
 UID: NS:vdshwprv._VDS_PACK_NOTIFICATION
 title: VDS_PACK_NOTIFICATION (vdshwprv.h)
-description: Defines the details of pack events. (VDS_PACK_NOTIFICATION)
+description: The VDS_PACK_NOTIFICATION structure (vdshwprv.h) defines the details of pack events.
 helpviewer_keywords: ["VDS_NF_PACK_ARRIVE","VDS_NF_PACK_DEPART","VDS_NF_PACK_MODIFY","VDS_PACK_NOTIFICATION","VDS_PACK_NOTIFICATION structure [VDS]","base.vds_pack_notification","vds/_VDS_PACK_NOTIFICATION","vdshwprv/_VDS_PACK_NOTIFICATION"]
 old-location: base\vds_pack_notification.htm
 tech.root: base
 ms.assetid: 3bfdef22-e3ad-4b23-9aaa-c2d08044dd25
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: VDS_NF_PACK_ARRIVE, VDS_NF_PACK_DEPART, VDS_NF_PACK_MODIFY, VDS_PACK_NOTIFICATION, VDS_PACK_NOTIFICATION structure [VDS], base.vds_pack_notification, vds/_VDS_PACK_NOTIFICATION, vdshwprv/_VDS_PACK_NOTIFICATION
 req.header: vdshwprv.h
 req.include-header: 
