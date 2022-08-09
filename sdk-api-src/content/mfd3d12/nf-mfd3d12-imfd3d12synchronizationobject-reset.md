@@ -2,9 +2,9 @@
 UID: NF:mfd3d12.IMFD3D12SynchronizationObject.Reset
 tech.root: mf
 title: IMFD3D12SynchronizationObject::Reset
-ms.date: 07/27/2021
+ms.date: 08/05/2022
 targetos: Windows
-description: 
+description: The IMFD3D12SynchronizationObject::Reset function resets the synchronization object state, allowing the allocator to reuse the synchronization object and the associated D3D12 resource.
 prerelease: false
 req.assembly: 
 req.construct-type: function

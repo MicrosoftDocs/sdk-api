@@ -2,9 +2,9 @@
 UID: NS:mfidl.__MIDL___MIDL_itf_mfidl_0000_0136_0002
 tech.root: mf
 title: MF_CAMERA_CONTROL_RANGE_INFO
-ms.date: 05/05/2022
+ms.date: 08/05/2022
 targetos: Windows
-description: 
+description: The MF_CAMERA_CONTROL_RANGE_INFO structure represents the accepted range, step value, and default value for a camera control.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

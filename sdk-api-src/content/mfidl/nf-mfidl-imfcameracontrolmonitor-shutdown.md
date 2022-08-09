@@ -2,9 +2,9 @@
 UID: NF:mfidl.IMFCameraControlMonitor.Shutdown
 tech.root: mf
 title: IMFCameraControlMonitor::Shutdown
-ms.date: 05/03/2022
+ms.date: 08/05/2022
 targetos: Windows
-description: 
+description: The IMFCameraControlMonitor::Shutdown function shuts down the camera control monitor and cleans up associated resources.
 prerelease: false
 req.assembly: 
 req.construct-type: function
