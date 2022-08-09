@@ -2,9 +2,9 @@
 UID: NF:namespaceapi.OpenPrivateNamespaceW
 tech.root: Sync 
 title: OpenPrivateNamespaceW
-ms.date: 04/20/2021 
+ms.date: 08/05/2022
 targetos: Windows
-description: Opens a private namespace. 
+description: The OpenPrivateNamespaceW (Unicode) function (namespaceapi.h) opens a private namespace. 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
