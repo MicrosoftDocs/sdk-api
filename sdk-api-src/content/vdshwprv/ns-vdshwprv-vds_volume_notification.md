@@ -1,7 +1,7 @@
 ---
 UID: NS:vdshwprv._VDS_VOLUME_NOTIFICATION
 title: VDS_VOLUME_NOTIFICATION (vdshwprv.h)
-description: The VDS_VOLUME_NOTIFICATION (vdshwprv.h) defines the details of volume events.
+description: The VDS_VOLUME_NOTIFICATION structure (vdshwprv.h) defines the details of volume events.
 helpviewer_keywords: ["VDS_NF_VOLUME_ARRIVE","VDS_NF_VOLUME_DEPART","VDS_NF_VOLUME_MODIFY","VDS_NF_VOLUME_REBUILDING_PROGRESS","VDS_VOLUME_NOTIFICATION","VDS_VOLUME_NOTIFICATION structure [VDS]","base.vds_volume_notification","vds/_VDS_VOLUME_NOTIFICATION","vdshwprv/_VDS_VOLUME_NOTIFICATION"]
 old-location: base\vds_volume_notification.htm
 tech.root: base
