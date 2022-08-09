@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsLun.Delete
 title: IVdsLun::Delete (vdshwprv.h)
-description: Deletes the LUN and all of its plexes. Any data on the LUN is lost. VDS frees the extents allocated to the LUN. (IVdsLun.Delete)
+description: The IVdsLun::Delete (vdshwprv.h) method deletes the LUN and all of its plexes. Any data on the LUN is lost. VDS frees the extents allocated to the LUN.
 helpviewer_keywords: ["Delete","Delete method [VDS]","Delete method [VDS]","IVdsLun interface","IVdsLun interface [VDS]","Delete method","IVdsLun.Delete","IVdsLun::Delete","base.ivdslun_delete","vds/IVdsLun::Delete","vdshwprv/IVdsLun::Delete"]
 old-location: base\ivdslun_delete.htm
 tech.root: base
 ms.assetid: 21522c62-0b60-4c70-b2bd-7a33aa94d280
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsLun interface, IVdsLun interface [VDS],Delete method, IVdsLun.Delete, IVdsLun::Delete, base.ivdslun_delete, vds/IVdsLun::Delete, vdshwprv/IVdsLun::Delete
 req.header: vdshwprv.h
 req.include-header: 
