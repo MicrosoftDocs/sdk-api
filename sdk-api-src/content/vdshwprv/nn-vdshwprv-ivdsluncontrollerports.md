@@ -1,12 +1,12 @@
 ---
 UID: NN:vdshwprv.IVdsLunControllerPorts
 title: IVdsLunControllerPorts (vdshwprv.h)
-description: Provides methods for performing controller port configuration operations on a LUN. (IVdsLunControllerPorts)
+description: The IVdsLunControllerPorts interface (vdshwprv.h) provides methods for performing controller port configuration operations on a LUN. 
 helpviewer_keywords: ["IVdsLunControllerPorts","IVdsLunControllerPorts interface [VDS]","IVdsLunControllerPorts interface [VDS]","described","base.ivdsluncontrollerports","vds/IVdsLunControllerPorts","vdshwprv/IVdsLunControllerPorts"]
 old-location: base\ivdsluncontrollerports.htm
 tech.root: base
 ms.assetid: 81e48874-8bc2-4b82-bcf8-ce87f99ca3ad
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsLunControllerPorts, IVdsLunControllerPorts interface [VDS], IVdsLunControllerPorts interface [VDS],described, base.ivdsluncontrollerports, vds/IVdsLunControllerPorts, vdshwprv/IVdsLunControllerPorts
 req.header: vdshwprv.h
 req.include-header: 
