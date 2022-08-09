@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsDrive.SetStatus
 title: IVdsDrive::SetStatus (vdshwprv.h)
-description: Sets the status of the drive to the specified value. (IVdsDrive.SetStatus)
+description: The IVdsDrive::SetStatus (vdshwprv.h) method sets the status of the drive to the specified value.
 helpviewer_keywords: ["IVdsDrive interface [VDS]","SetStatus method","IVdsDrive.SetStatus","IVdsDrive::SetStatus","SetStatus","SetStatus method [VDS]","SetStatus method [VDS]","IVdsDrive interface","base.ivdsdrive_setstatus","vds/IVdsDrive::SetStatus","vdshwprv/IVdsDrive::SetStatus"]
 old-location: base\ivdsdrive_setstatus.htm
 tech.root: base
 ms.assetid: d74f045f-7b6f-4ede-827d-f7f7486495e8
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsDrive interface [VDS],SetStatus method, IVdsDrive.SetStatus, IVdsDrive::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsDrive interface, base.ivdsdrive_setstatus, vds/IVdsDrive::SetStatus, vdshwprv/IVdsDrive::SetStatus
 req.header: vdshwprv.h
 req.include-header: 
