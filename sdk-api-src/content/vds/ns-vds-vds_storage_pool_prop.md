@@ -1,12 +1,12 @@
 ---
 UID: NS:vds._VDS_STORAGE_POOL_PROP
 title: VDS_STORAGE_POOL_PROP (vds.h)
-description: Defines the properties of a storage pool object. (VDS_STORAGE_POOL_PROP)
+description: The VDS_STORAGE_POOL_PROP structure (vds.h) defines the properties of a storage pool object.
 helpviewer_keywords: ["*PVDS_STORAGE_POOL_PROP","PVDS_STORAGE_POOL_PROP","PVDS_STORAGE_POOL_PROP structure pointer","VDS_H_DEGRADED","VDS_H_HEALTHY","VDS_H_UNKNOWN","VDS_STORAGE_POOL_PROP","VDS_STORAGE_POOL_PROP structure","base.vds_storage_pool_prop","vds/PVDS_STORAGE_POOL_PROP","vds/VDS_STORAGE_POOL_PROP","vdshwprv/PVDS_STORAGE_POOL_PROP","vdshwprv/VDS_STORAGE_POOL_PROP"]
 old-location: base\vds_storage_pool_prop.htm
 tech.root: base
 ms.assetid: 2a82e872-2005-4b05-b67a-161b16c4f3aa
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: '*PVDS_STORAGE_POOL_PROP, PVDS_STORAGE_POOL_PROP, PVDS_STORAGE_POOL_PROP structure pointer, VDS_H_DEGRADED, VDS_H_HEALTHY, VDS_H_UNKNOWN, VDS_STORAGE_POOL_PROP, VDS_STORAGE_POOL_PROP structure, base.vds_storage_pool_prop, vds/PVDS_STORAGE_POOL_PROP, vds/VDS_STORAGE_POOL_PROP, vdshwprv/PVDS_STORAGE_POOL_PROP, vdshwprv/VDS_STORAGE_POOL_PROP'
 req.header: vds.h
 req.include-header: 
