@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.CreateLun
 title: IVdsSubSystem::CreateLun (vdshwprv.h)
-description: The IVdsSubSystem::CreateLun (vdshwprv.h) method creates a logical unit number (LUN).
+description: The IVdsSubSystem::CreateLun (vdshwprv.h) function creates a logical unit number (LUN).
 helpviewer_keywords: ["CreateLun","CreateLun method [VDS]","CreateLun method [VDS]","IVdsSubSystem interface","IVdsSubSystem interface [VDS]","CreateLun method","IVdsSubSystem.CreateLun","IVdsSubSystem::CreateLun","base.ivdssubsystem_createlun","vds/IVdsSubSystem::CreateLun","vdshwprv/IVdsSubSystem::CreateLun"]
 old-location: base\ivdssubsystem_createlun.htm
 tech.root: base
