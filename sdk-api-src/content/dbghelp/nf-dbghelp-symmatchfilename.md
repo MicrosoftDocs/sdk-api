@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymMatchFileName
 title: SymMatchFileName function (dbghelp.h)
-description: Compares a string to a file name and path. (SymMatchFileNameW)
+description: The SymMatchFileName function (dbghelp.h) compares a string to a file name and path.
 helpviewer_keywords: ["SymMatchFileName","SymMatchFileName function","SymMatchFileNameW","_win32_symmatchfilename","base.symmatchfilename","dbghelp/SymMatchFileName","dbghelp/SymMatchFileNameW"]
 old-location: base\symmatchfilename.htm
 tech.root: Debug
 ms.assetid: 69787cc7-db84-4c60-8d7d-f8eae18c82e9
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymMatchFileName, SymMatchFileName function, SymMatchFileNameW, _win32_symmatchfilename, base.symmatchfilename, dbghelp/SymMatchFileName, dbghelp/SymMatchFileNameW
 req.header: dbghelp.h
 req.include-header: 
