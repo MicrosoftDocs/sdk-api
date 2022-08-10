@@ -66,7 +66,7 @@ The <b>OpenProcessToken</b> function opens the <a href="/windows/desktop/SecGlos
 
 ### -param ProcessHandle [in]
 
-A handle to the process whose access token is opened. The process must have the PROCESS_QUERY_INFORMATION access permission.
+A handle to the process whose access token is opened. The process must have the PROCESS_QUERY_LIMITED_INFORMATION access permission.
 
 ### -param DesiredAccess [in]
 
