@@ -197,7 +197,7 @@ Accessing the output buffer while a write operation is using the buffer may lead
     written from that buffer. Applications must not write to, reallocate, or free the output buffer that a write 
     operation is using until the write operation completes. This can be particularly problematic when using an 
     asynchronous file handle. Additional information regarding synchronous versus asynchronous file handles can be 
-    found later in the <a href="https://docs.microsoft.com/">Synchronization and File Position</a> 
+    found later in the <a href="#synchronization-and-file-position">Synchronization and File Position</a> 
     section and 
     <a href="/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>.
 
