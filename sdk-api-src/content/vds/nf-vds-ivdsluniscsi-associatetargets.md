@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsLunIscsi.AssociateTargets
 title: IVdsLunIscsi::AssociateTargets (vds.h)
-description: Associates LUNs with subsystem iSCSI targets. (IVdsLunIscsi.AssociateTargets)
+description: The IVdsLunIscsi::AssociateTargets method (vds.h) associates LUNs with subsystem iSCSI targets.
 helpviewer_keywords: ["AssociateTargets","AssociateTargets method [VDS]","AssociateTargets method [VDS]","IVdsLunIscsi interface","IVdsLunIscsi interface [VDS]","AssociateTargets method","IVdsLunIscsi.AssociateTargets","IVdsLunIscsi::AssociateTargets","base.ivdsluniscsi_associatetargets","vds/IVdsLunIscsi::AssociateTargets","vdshwprv/IVdsLunIscsi::AssociateTargets"]
 old-location: base\ivdsluniscsi_associatetargets.htm
 tech.root: base
 ms.assetid: eb80020b-caf8-4d85-b250-d9a8738b8848
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: AssociateTargets, AssociateTargets method [VDS], AssociateTargets method [VDS],IVdsLunIscsi interface, IVdsLunIscsi interface [VDS],AssociateTargets method, IVdsLunIscsi.AssociateTargets, IVdsLunIscsi::AssociateTargets, base.ivdsluniscsi_associatetargets, vds/IVdsLunIscsi::AssociateTargets, vdshwprv/IVdsLunIscsi::AssociateTargets
 req.header: vds.h
 req.include-header: 
