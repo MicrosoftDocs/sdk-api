@@ -68,6 +68,10 @@ The preferred base address of the enclave. Specify **NULL** to have the operatin
 
 The size of the enclave that you want to create, including the size of the code that you will load into the enclave, in bytes.
 
+VBS enclaves must be a multiple of 2 MB in size.
+
+SGX enclaves must be a power of 2 in size and must have their base aligned to the same power of 2 as the size, with a minimum alignment of 2 MB. As an example, if the enclave is 128 MB, then its base must be aligned to a 128 MB boundary.
+
 ### -param dwInitialCommitment [in]
 
 The amount of memory to commit for the enclave, in bytes.

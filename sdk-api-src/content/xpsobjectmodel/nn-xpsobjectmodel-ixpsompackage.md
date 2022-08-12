@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMPackage interface
 
-
 ## -description
 
 Provides the top-level entry into the XPS object model tree.

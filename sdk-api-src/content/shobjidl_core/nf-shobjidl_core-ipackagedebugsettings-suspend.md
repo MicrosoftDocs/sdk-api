@@ -74,18 +74,18 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The operation succeeded.
+The system has successfully started suspending the package.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b>E_ILLEGAL_STATECHANGE</b></dt>
+<dt><em>A failing HRESULT value</em></dt>
 </dl>
 </td>
 <td width="60%">
-The process is not currently running.
+No process in the package is currently running, or another error occurred.
 
 </td>
 </tr>

@@ -12,7 +12,7 @@ helpviewer_keywords:
 old-location: tracelogging\tracelogginglevel.htm
 tech.root: tracelogging
 ms.assetid: 280EEFC4-EC84-4FAA-B14B-CBC5F0E0EA5D
-ms.date: 12/05/2018
+ms.date: 06/06/2022
 ms.keywords:
   TraceLoggingLevel, TraceLoggingLevel macro, tracelogging.tracelogginglevel,
   traceloggingprovider/TraceLoggingLevel
@@ -69,7 +69,7 @@ must be a compile-time constant in the range 0 to 255. If no
 **TraceLoggingLevel** arguments are provided to a **TraceLoggingWrite** call,
 the event's level will default to 5 (WINEVENT_LEVEL_VERBOSE).
 
-> [!Important]
+> [!IMPORTANT]
 > ProviderId, Level and Keyword are the primary means for filtering
 > events. Other kinds of filtering are possible but have much higher overhead.
 > Always assign a meaningful non-zero level and keyword to every event.
@@ -104,6 +104,17 @@ Microsoft. Level values 16 through 255 can be defined by the event provider.
 Event collection sessions can set a level filter, meaning that the session will
 only accept events where `eventDescriptor.Level <= session.LevelFilter`. Note
 that events with a level of 0 will bypass level-based filtering.
+
+### Examples
+
+```c
+TraceLoggingWrite(
+    g_hMyProvider,
+    "MyWarningEventName",
+    TraceLoggingLevel(WINEVENT_LEVEL_WARNING), // Levels defined in <winmeta.h>
+    TraceLoggingKeyword(MyNetworkingKeyword), // Provider-defined keyword
+    TraceLoggingHResult(errorCode, "Error"));
+```
 
 ## -see-also
 

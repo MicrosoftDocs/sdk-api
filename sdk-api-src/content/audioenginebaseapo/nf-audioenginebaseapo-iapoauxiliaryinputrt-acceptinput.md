@@ -63,10 +63,10 @@ This method may be called from a real-time processing thread. The implementation
 
 The cadence of the input endpoint may not match the cadence of the render endpoint, and therefore the cadence with which input is provided to the auxiliary input may not match the cadence with which [IAudioProcessingObjectRT::APOProcess](nf-audioenginebaseapo-iaudioprocessingobjectrt-apoprocess.md) is called on the primary input. The APO must implement appropriate non-blocking buffering to ensure that this call does not block.
 
-The [APO_CONNECTION_PROPERTY_V2](../audiotypes/ns-audioapotypes-apo_connection_property.md) includes a timestamp that can be used to synchronize the primary and secondary streams. If the **u32Signature** field of the [APO_CONNECTION_PROPERTY](../audiotypes/ns-audioapotypes-apo_connection_property.md) structure passed into **IAudioProcessingObjectRT::APOProcess** is equal to **APO_CONNECTION_PROPERTY_V2_SIGNATURE**, the structure can be safely typecast to a **APO_CONNECTION_PROPERTY_V2**.
+The [APO_CONNECTION_PROPERTY_V2](/windows/win32/api/audioapotypes/ns-audioapotypes-apo_connection_property_v2) includes a timestamp that can be used to synchronize the primary and secondary streams. If the **u32Signature** field of the [APO_CONNECTION_PROPERTY](/windows/win32/api/audioapotypes/ns-audioapotypes-apo_connection_property) structure passed into **IAudioProcessingObjectRT::APOProcess** is equal to **APO_CONNECTION_PROPERTY_V2_SIGNATURE**, the structure can be safely typecast to a **APO_CONNECTION_PROPERTY_V2**.
 
 
 ## -see-also
 [IAudioProcessingObjectRT::APOProcess](nf-audioenginebaseapo-iaudioprocessingobjectrt-apoprocess.md)
-[APO_CONNECTION_PROPERTY_V2](../audiotypes/ns-audioapotypes-apo_connection_property.md)
+[APO_CONNECTION_PROPERTY_V2](/windows/win32/api/audioapotypes/ns-audioapotypes-apo_connection_property_v2)
 

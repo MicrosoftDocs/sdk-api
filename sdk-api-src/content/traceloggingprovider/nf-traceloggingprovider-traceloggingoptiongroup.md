@@ -14,7 +14,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingoptiongroup.htm
 tech.root: tracelogging
 ms.assetid: 5D794C46-95B2-4111-AFB8-CE488B4D1A42
-ms.date: 12/05/2018
+ms.date: 06/06/2022
 ms.keywords:
   TraceLoggingOptionGroup, TraceLoggingOptionGroup macro,
   tracelogging.traceloggingoptiongroup,
@@ -116,10 +116,11 @@ The next byte of the GUID.
 ## -remarks
 
 If you want your provider to be associated with an
-[ETW provider group](/windows/win32/etw/provider-traits), use the
+[ETW provider group](/windows/win32/etw/provider-traits), add the
 [TraceLoggingOptionGroup](./nf-traceloggingprovider-traceloggingoptiongroup.md)
-macro to specify the provider's group GUID. Otherwise, do not specify an option
-parameter.
+macro to the
+[TRACELOGGING_DEFINE_PROVIDER](./nf-traceloggingprovider-tracelogging_define_provider.md)
+declaration to specify the provider's group GUID.
 
 A provider can be a member of no more than one group. The semantics of group
 membership are determined by ETW controllers that subscribe a session to a group
@@ -133,7 +134,7 @@ TRACELOGGING_DEFINE_PROVIDER(
     g_hMyProvider,
     "MyProvider",
     // {b3864c38-4273-58c5-545b-8b3608343471}
-    (0xb3864c38, 0x4273, 0x58c5, 0x54, 0x5b, 0x8b, 0x36, 0x08, 0x34, 0x34, 0x71),
+    (0xb3864c38,0x4273,0x58c5,0x54,0x5b,0x8b,0x36,0x08,0x34,0x34,0x71),
     // {798d0c76-4209-5932-a2af-2d94a2e66c45}
     TraceLoggingOptionGroup(0x798d0c76,0x4209,0x5932,0xa2,0xaf,0x2d,0x94,0xa2,0xe6,0x6c,0x45));
 ```

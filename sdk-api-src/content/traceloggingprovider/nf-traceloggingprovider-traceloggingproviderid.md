@@ -2,7 +2,7 @@
 UID: NF:traceloggingprovider.TraceLoggingProviderId
 title: TraceLoggingProviderId
 description: Gets the provider ID of a TraceLogging provider.
-ms.date: 5/7/2019
+ms.date: 06/06/2022
 ms.keywords: TraceLoggingProviderId
 targetos: Windows
 req.assembly:

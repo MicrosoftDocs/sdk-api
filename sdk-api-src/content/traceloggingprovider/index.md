@@ -2,7 +2,7 @@
 UID: NA:traceloggingprovider
 title: TraceLoggingProvider.h header
 ms.assetid: 9f0e53a0-c646-3851-b09a-e5e45c361a3c
-ms.date: 01/11/2019
+ms.date: 06/06/2022
 ms.keywords:
 ms.topic: conceptual
 tech.root: tracelogging
@@ -24,6 +24,15 @@ events.
 The **TraceLoggingProvider.h** header in the Windows SDK has macros and inline
 functions to generate TraceLogging-encoded ETW events for kernel and user-mode
 code using C or C++.
+
+> [!NOTE]
+> **TraceLoggingProvider.h** requires compile-time constant values for
+> event attributes such as provider name, event name, and field names. To
+> minimize runtime overhead, **TraceLoggingProvider.h** builds its data
+> structures at compile-time and stores the information in read-only memory. If
+> you need to generate runtime-dynamic events, you will need to use a different
+> TraceLogging implementation such as
+> [TraceLoggingDynamic](https://github.com/microsoft/tracelogging/tree/main/etw).
 
 ## Quick Start
 
@@ -57,6 +66,7 @@ code using C or C++.
 
 ```c
 #include <windows.h> // or <wdm.h> for kernel-mode.
+#include <winmeta.h> // For event level definitions.
 #include <TraceLoggingProvider.h>
 
 TRACELOGGING_DEFINE_PROVIDER( // defines g_hProvider
@@ -72,6 +82,8 @@ int main(int argc, char* argv[]) // or DriverEntry for kernel-mode.
     TraceLoggingWrite(
         g_hProvider,
         "MyEvent1",
+        TraceLoggingLevel(WINEVENT_LEVEL_WARNING), // Levels defined in <winmeta.h>
+        TraceLoggingKeyword(MyEventCategories), // Provider-defined categories
         TraceLoggingString(argv[0], "arg0"), // field name is "arg0"
         TraceLoggingInt32(argc)); // field name is implicitly "argc"
 

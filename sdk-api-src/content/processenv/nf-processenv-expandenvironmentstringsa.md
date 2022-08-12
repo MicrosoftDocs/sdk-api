@@ -95,7 +95,7 @@ The size of the <i>lpSrc</i> and <i>lpDst</i> buffers is limited to 32K.
 
 To replace folder names in a fully qualified path with their associated environment-variable strings, use the <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathunexpandenvstringsa">PathUnExpandEnvStrings</a> function.
 
-To retrieve the list of environment variables for a process, use the <a href="/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a> function.
+To retrieve the list of environment variables for a process, use the <a href="/windows/win32/api/processenv/nf-processenv-getenvironmentstrings">GetEnvironmentStrings</a> function.
 
 
 #### Examples

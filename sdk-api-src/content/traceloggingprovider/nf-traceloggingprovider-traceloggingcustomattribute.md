@@ -14,7 +14,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingcustomattribute.htm
 tech.root: tracelogging
 ms.assetid: D58950A3-105D-43C7-8B8B-61CC1F0D4DA0
-ms.date: 12/05/2018
+ms.date: 06/06/2022
 ms.keywords:
   TraceLoggingCustomAttribute, TraceLoggingCustomAttribute macro,
   tracelogging.traceloggingcustomattribute,

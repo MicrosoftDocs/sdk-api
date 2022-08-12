@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMThumbnailGenerator interface
 
-
 ## -description
 
 Generates a thumbnail image resource.

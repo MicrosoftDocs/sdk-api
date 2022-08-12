@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMPageReference interface
 
-
 ## -description
 
 Enables virtualization of pages in an XPS document.

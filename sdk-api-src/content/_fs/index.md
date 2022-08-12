@@ -31,6 +31,7 @@ To develop Data Access and Storage, you need these headers:
  * [ntioring_x.h](../ntioring_x/index.md)
  * [ntmsapi.h](../ntmsapi/index.md)
  * [ntmsmli.h](../ntmsmli/index.md)
+ * [nvme.h](../nvme/index.md)
  * [txfw32.h](../txfw32/index.md)
  * [winefs.h](../winefs/index.md)
  * [wofapi.h](../wofapi/index.md)

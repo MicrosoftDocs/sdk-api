@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMSignatureBlockResource interface
 
-
 ## -description
 
 Provides an IStream interface to a signature block resource.

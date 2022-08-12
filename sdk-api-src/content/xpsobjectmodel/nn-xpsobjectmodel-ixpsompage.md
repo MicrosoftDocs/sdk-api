@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMPage interface
 
-
 ## -description
 
 Provides the root node of a tree of objects that hold the contents of  a single page. 
