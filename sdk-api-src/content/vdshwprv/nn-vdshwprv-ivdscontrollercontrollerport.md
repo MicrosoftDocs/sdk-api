@@ -1,12 +1,12 @@
 ---
 UID: NN:vdshwprv.IVdsControllerControllerPort
 title: IVdsControllerControllerPort (vdshwprv.h)
-description: Provides a method to enumerate controller ports for a class implementing the IVdsController interface. This is needed to support MPIO. (IVdsControllerControllerPort)
+description: The IVdsControllerControllerPort (vdshwprv.h) interface provides a method to enumerate controller ports for a class implementing the IVdsController interface.
 helpviewer_keywords: ["IVdsControllerControllerPort","IVdsControllerControllerPort interface [VDS]","IVdsControllerControllerPort interface [VDS]","described","base.ivdscontrollercontrollerport","vds/IVdsControllerControllerPort","vdshwprv/IVdsControllerControllerPort"]
 old-location: base\ivdscontrollercontrollerport.htm
 tech.root: base
 ms.assetid: 15b09f97-c729-4687-a62c-dac57661f8c0
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsControllerControllerPort, IVdsControllerControllerPort interface [VDS], IVdsControllerControllerPort interface [VDS],described, base.ivdscontrollercontrollerport, vds/IVdsControllerControllerPort, vdshwprv/IVdsControllerControllerPort
 req.header: vdshwprv.h
 req.include-header: 
