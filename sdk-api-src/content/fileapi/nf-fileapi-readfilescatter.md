@@ -6,7 +6,7 @@ helpviewer_keywords: ["ReadFileScatter","ReadFileScatter function [Files]","_win
 old-location: fs\readfilescatter.htm
 tech.root: fs
 ms.assetid: 4ed7c47b-d40b-4016-8550-0af17ee9e86d
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: ReadFileScatter, ReadFileScatter function [Files], _win32_readfilescatter, base.readfilescatter, fileapi/ReadFileScatter, fs.readfilescatter, winbase/ReadFileScatter
 req.header: fileapi.h
 req.include-header: Windows.h
@@ -73,7 +73,7 @@ The file handle must be created with the **GENERIC_READ** right, and the **FILE_
 
 ### -param aSegmentArray [in]
 
-A pointer to an array of [FILE_SEGMENT_ELEMENT structure](../winnt/ns-winnt-file_segment_element.md)  buffers that receives the data. For a description of this union, see [Remarks](#-remarks).
+A pointer to an array of [FILE_SEGMENT_ELEMENT structure](../winnt/ns-winnt-file_segment_element.md)  buffers that receives the data. For a description of this union, see [Remarks](#remarks).
 
 Each element can receive one page of data.
 

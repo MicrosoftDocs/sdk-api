@@ -1,7 +1,8 @@
 ---
 UID: NS:lmstats._STAT_WORKSTATION_0~r1
 title: STAT_WORKSTATION_0
-ms.date: 01/30/2019
+description: The STAT_WORKSTATION_0 structure (lmstats.h) contains statistical information about the specified workstation.
+ms.date: 08/16/2022
 ms.keywords: _STAT_WORKSTATION_0, STAT_WORKSTATION_0
 targetos: Windows
 req.construct-type: structure
