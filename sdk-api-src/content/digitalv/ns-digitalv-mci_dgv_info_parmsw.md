@@ -1,7 +1,7 @@
 ---
 UID: NS:digitalv.__unnamed_struct_8
 title: MCI_DGV_INFO_PARMSW (digitalv.h)
-description: The MCI_DGV_INFO_PARMSW structure (digitalv.h) contains parameters for the MCI_INFO command for digital-video devices.
+description: The MCI_DGV_INFO_PARMSW (Unicode) structure (digitalv.h) contains parameters for the MCI_INFO command for digital-video devices.
 helpviewer_keywords: ["*LPMCI_DGV_INFO_PARMSW","MCI_DGV_INFO_PARMS","MCI_DGV_INFO_PARMS structure [Windows Multimedia]","MCI_DGV_INFO_PARMSW","_win32_MCI_DGV_INFO_PARMS_str","digitalv/MCI_DGV_INFO_PARMS","multimedia.mci_dgv_info_parms"]
 old-location: multimedia\mci_dgv_info_parms.htm
 tech.root: Multimedia
