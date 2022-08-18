@@ -74,15 +74,13 @@ If this function succeeds, the return value is <b>TRUE</b>.
 
 If this function fails, the return value is <b>FALSE</b>.
 
-## -example
+## Example
 
-### C++
-
-```
+```cpp
 WORD gArray[3][256];
 GetDeviceGammaRamp(handle, gArray);  
-//handle is the device context. See GetDC for more details.
-//gArray will hold the gamma array values in a 2-D array
+// `handle` is the device context. See GetDC for more details.
+// `gArray` will hold the gamma array values in a 2-D array
 ```
 
 ## -remarks
