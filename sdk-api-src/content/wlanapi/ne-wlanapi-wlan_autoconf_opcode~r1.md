@@ -1,7 +1,8 @@
 ---
 UID: NE:wlanapi._WLAN_AUTOCONF_OPCODE~r1
 title: WLAN_AUTOCONF_OPCODE
-ms.date: 01/30/2019
+description: The WLAN_AUTOCONF_OPCODE enumeration specifies an automatic configuration parameter.
+ms.date: 08/16/2022
 ms.keywords: _WLAN_AUTOCONF_OPCODE, WLAN_AUTOCONF_OPCODE
 targetos: Windows
 req.construct-type: enumeration
