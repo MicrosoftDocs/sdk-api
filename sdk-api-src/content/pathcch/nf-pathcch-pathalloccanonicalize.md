@@ -148,6 +148,17 @@ One or more of the following flags:
 <b>Note</b> This value is available starting in Windows 10, version 1703.
 </td>
 </tr>
+<tr>
+<td width="40%"><a id="____PATHCCH_CANONICALIZE_SLASHES"></a><a id="____pathcch_canonicalize_slashes"></a><dl>
+<dt><b>PATHCCH_CANONICALIZE_SLASHES</b></dt>
+<dt>0x00000040</dt>
+</dl>
+</td>
+<td width="60%">Convert forward slashes to back slashes and collapse multiple slashes.
+
+<b>Note</b> This value is available starting in Windows 10, version unknown.
+</td>
+</tr>
 </table>
 
 ### -param ppszPathOut [out]
