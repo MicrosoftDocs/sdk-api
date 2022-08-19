@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusbrush.SolidBrush.SolidBrush(constColor&)
 title: SolidBrush::SolidBrush(IN const Color &) (gdiplusbrush.h)
-description: Creates a SolidBrush object based on a color.
+description: The SolidBrush::SolidBrush(IN const Color &) constructor (gdiplusbrush.h) creates a SolidBrush object based on a color.
 helpviewer_keywords: ["SolidBrush","SolidBrush class [GDI+]","SolidBrush constructor","SolidBrush constructor [GDI+]","SolidBrush constructor [GDI+]","SolidBrush class","SolidBrush.SolidBrush","SolidBrush.SolidBrush(IN const Color &)","SolidBrush::SolidBrush","SolidBrush::SolidBrush(IN const Color &)","_gdiplus_CLASS_SolidBrush_SolidBrush_color_","gdiplus._gdiplus_CLASS_SolidBrush_SolidBrush_color_"]
 old-location: gdiplus\_gdiplus_CLASS_SolidBrush_SolidBrush_color_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\solidbrushclass\solidbrush_81color.htm
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: SolidBrush, SolidBrush class [GDI+],SolidBrush constructor, SolidBrush constructor [GDI+], SolidBrush constructor [GDI+],SolidBrush class, SolidBrush.SolidBrush, SolidBrush.SolidBrush(IN const Color &), SolidBrush::SolidBrush, SolidBrush::SolidBrush(IN const Color &), _gdiplus_CLASS_SolidBrush_SolidBrush_color_, gdiplus._gdiplus_CLASS_SolidBrush_SolidBrush_color_
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
