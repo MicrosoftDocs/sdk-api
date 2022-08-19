@@ -1,12 +1,12 @@
 ---
 UID: NF:winineti.InternetEnumPerSiteCookieDecisionA
 title: InternetEnumPerSiteCookieDecisionA function (winineti.h)
-description: Retrieves the domains and cookie settings of websites for which site-specific cookie regulations are set. (InternetEnumPerSiteCookieDecisionA)
+description: The InternetEnumPerSiteCookieDecisionA (ANSI) function (winineti.h) retrieves the domains and cookie settings of websites for which site-specific cookie regulations are set.
 helpviewer_keywords: ["InternetEnumPerSiteCookieDecision","InternetEnumPerSiteCookieDecision function [WinINet]","InternetEnumPerSiteCookieDecisionA","InternetEnumPerSiteCookieDecisionW","wininet.internetenumpersitecookiedecision","winineti/InternetEnumPerSiteCookieDecision","winineti/InternetEnumPerSiteCookieDecisionA","winineti/InternetEnumPerSiteCookieDecisionW"]
 old-location: wininet\internetenumpersitecookiedecision.htm
 tech.root: wininet
 ms.assetid: de1db7e6-21f4-4bbb-b4fc-277bbd01f32c
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: InternetEnumPerSiteCookieDecision, InternetEnumPerSiteCookieDecision function [WinINet], InternetEnumPerSiteCookieDecisionA, InternetEnumPerSiteCookieDecisionW, wininet.internetenumpersitecookiedecision, winineti/InternetEnumPerSiteCookieDecision, winineti/InternetEnumPerSiteCookieDecisionA, winineti/InternetEnumPerSiteCookieDecisionW
 req.header: winineti.h
 req.include-header: Wininet.h, Winineti.h
