@@ -1,7 +1,7 @@
 ---
 UID: NF:ntdsapi.DsListRolesA
 title: DsListRolesA function (ntdsapi.h)
-description: The DsListRoles function lists roles recognized by the server.
+description: The DsListRoles function lists roles recognized by the server. (ANSI)
 helpviewer_keywords: ["DS_ROLE_DOMAIN_OWNER","DS_ROLE_INFRASTRUCTURE_OWNER","DS_ROLE_PDC_OWNER","DS_ROLE_RID_OWNER","DS_ROLE_SCHEMA_OWNER","DsListRoles","DsListRoles function [Active Directory]","DsListRolesA","DsListRolesW","_glines_dslistroles","ad.dslistroles","ntdsapi/DsListRoles","ntdsapi/DsListRolesA","ntdsapi/DsListRolesW"]
 old-location: ad\dslistroles.htm
 tech.root: ad

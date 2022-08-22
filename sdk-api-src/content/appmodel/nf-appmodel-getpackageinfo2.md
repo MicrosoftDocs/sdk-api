@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.GetPackageInfo2
 title: GetPackageInfo2
-description: Gets the package information for the specified package.
+description: Gets the package information for the specified package. (GetPackageInfo2)
 helpviewer_keywords: ["GetPackageInfo2"]
 tech.root: appxpkg
 ms.date: 01/31/2019

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskSettings2.put_DisallowStartOnRemoteAppSession
 title: ITaskSettings2::put_DisallowStartOnRemoteAppSession (taskschd.h)
-description: Gets or sets a Boolean value that specifies that the task will not be started if triggered to run in a Remote Applications Integrated Locally (RAIL) session.
+description: Gets or sets a Boolean value that specifies that the task will not be started if triggered to run in a Remote Applications Integrated Locally (RAIL) session. (Put)
 helpviewer_keywords: ["DisallowStartOnRemoteAppSession property [Task Scheduler]","DisallowStartOnRemoteAppSession property [Task Scheduler]","ITaskSettings2 interface","ITaskSettings2 interface [Task Scheduler]","DisallowStartOnRemoteAppSession property","ITaskSettings2.DisallowStartOnRemoteAppSession","ITaskSettings2.put_DisallowStartOnRemoteAppSession","ITaskSettings2::DisallowStartOnRemoteAppSession","ITaskSettings2::get_DisallowStartOnRemoteAppSession","ITaskSettings2::put_DisallowStartOnRemoteAppSession","put_DisallowStartOnRemoteAppSession","taskschd.itasksettings2_disallowstartonremoteappsession","taskschd/ITaskSettings2::DisallowStartOnRemoteAppSession","taskschd/ITaskSettings2::get_DisallowStartOnRemoteAppSession","taskschd/ITaskSettings2::put_DisallowStartOnRemoteAppSession"]
 old-location: taskschd\itasksettings2_disallowstartonremoteappsession.htm
 tech.root: taskschd

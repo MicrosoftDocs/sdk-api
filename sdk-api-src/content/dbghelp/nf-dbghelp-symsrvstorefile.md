@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymSrvStoreFile
 title: SymSrvStoreFile function (dbghelp.h)
-description: Stores a file in the specified symbol store.
+description: The SymSrvStoreFile function (dbghelp.h) stores a file in the specified symbol store.
 helpviewer_keywords: ["SYMSTOREOPT_COMPRESS","SYMSTOREOPT_OVERWRITE","SYMSTOREOPT_PASS_IF_EXISTS","SYMSTOREOPT_POINTER","SYMSTOREOPT_RETURNINDEX","SymSrvStoreFile","SymSrvStoreFile function","SymSrvStoreFileW","base.symsrvstorefile","dbghelp/SymSrvStoreFile","dbghelp/SymSrvStoreFileW"]
 old-location: base\symsrvstorefile.htm
 tech.root: Debug
 ms.assetid: 308ce0bb-d5ff-4de0-b5b3-9e26aa7b163a
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SYMSTOREOPT_COMPRESS, SYMSTOREOPT_OVERWRITE, SYMSTOREOPT_PASS_IF_EXISTS, SYMSTOREOPT_POINTER, SYMSTOREOPT_RETURNINDEX, SymSrvStoreFile, SymSrvStoreFile function, SymSrvStoreFileW, base.symsrvstorefile, dbghelp/SymSrvStoreFile, dbghelp/SymSrvStoreFileW
 req.header: dbghelp.h
 req.include-header: 

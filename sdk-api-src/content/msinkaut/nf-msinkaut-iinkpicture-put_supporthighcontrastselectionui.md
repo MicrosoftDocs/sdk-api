@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_SupportHighContrastSelectionUI
 title: IInkPicture::put_SupportHighContrastSelectionUI (msinkaut.h)
-description: Gets or sets a value that specifies whether all selection user interface (selection bounding box and selection handles) are drawn in high contrast when the system is in High Contrast mode.
+description: Gets or sets a value that specifies whether all selection user interface (selection bounding box and selection handles) are drawn in high contrast when the system is in High Contrast mode. (Put)
 helpviewer_keywords: ["IInkPicture interface [Tablet PC]","SupportHighContrastSelectionUI property","IInkPicture.SupportHighContrastSelectionUI","IInkPicture.put_SupportHighContrastSelectionUI","IInkPicture::SupportHighContrastSelectionUI","IInkPicture::get_SupportHighContrastSelectionUI","IInkPicture::put_SupportHighContrastSelectionUI","InkPicture.get_SupportHighContrastSelectionUI","InkPicture.put_SupportHighContrastSelectionUI","SupportHighContrastSelectionUI property [Tablet PC]","SupportHighContrastSelectionUI property [Tablet PC]","IInkPicture interface","f522a998-89f0-4d8d-bb19-949d62f5a786","get_SupportHighContrastSelectionUI","msinkaut/IInkPicture::SupportHighContrastSelectionUI","msinkaut/IInkPicture::get_SupportHighContrastSelectionUI","msinkaut/IInkPicture::put_SupportHighContrastSelectionUI","put_SupportHighContrastSelectionUI","tablet.inkpicture_supporthighcontrastselectionui"]
 old-location: tablet\inkpicture_supporthighcontrastselectionui.htm
 tech.root: tablet

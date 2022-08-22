@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1ImageSource.OfferResources
 title: ID2D1ImageSource::OfferResources (d2d1_3.h)
-description: Allows the operating system to free the video memory of resources by discarding their content.
+description: Allows the operating system to free the video memory of resources by discarding their content. (ID2D1ImageSource.OfferResources)
 helpviewer_keywords: ["ID2D1ImageSource interface [Direct2D]","OfferResources method","ID2D1ImageSource.OfferResources","ID2D1ImageSource::OfferResources","OfferResources","OfferResources method [Direct2D]","OfferResources method [Direct2D]","ID2D1ImageSource interface","d2d1_3/ID2D1ImageSource::OfferResources","direct2d.id2d1imagesource_offerresources"]
 old-location: direct2d\id2d1imagesource_offerresources.htm
 tech.root: Direct2D

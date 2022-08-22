@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_StringAField
 title: MI_StringAField (mi.h)
-description: Represents a property inside an MI_Instance structure.
+description: Represents a property inside an MI_Instance structure. (MI_StringAField)
 helpviewer_keywords: ["MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","MI_StringAField","MI_StringAField structure [Windows Management Infrastructure (MI)]","mi/MI_StringAField","wmi._mi_stringafield","wmi_v2.mi_stringafield"]
 old-location: wmi_v2\mi_stringafield.htm
 tech.root: wmi_v2

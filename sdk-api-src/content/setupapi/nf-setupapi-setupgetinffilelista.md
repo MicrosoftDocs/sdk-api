@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupGetInfFileListA
 title: SetupGetInfFileListA function (setupapi.h)
-description: The SetupGetInfFileList function returns a list of INF files located in a caller-specified directory to a call-supplied buffer.
+description: The SetupGetInfFileList function returns a list of INF files located in a caller-specified directory to a call-supplied buffer. (ANSI)
 helpviewer_keywords: ["SetupGetInfFileList","SetupGetInfFileList function [Setup API]","SetupGetInfFileListA","SetupGetInfFileListW","_setupapi_setupgetinffilelist","setup.setupgetinffilelist","setupapi/SetupGetInfFileList","setupapi/SetupGetInfFileListA","setupapi/SetupGetInfFileListW"]
 old-location: setup\setupgetinffilelist.htm
 tech.root: setup

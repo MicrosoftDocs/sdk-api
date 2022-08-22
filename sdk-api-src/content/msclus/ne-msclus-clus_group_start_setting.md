@@ -1,7 +1,7 @@
 ---
 UID: NE:msclus.__MIDL___MIDL_itf_msclus_0000_0000_0005
 title: CLUS_GROUP_START_SETTING (msclus.h)
-description: Enumerates the start settings for a cluster group.
+description: Enumerates the start settings for a cluster group. (CLUS_GROUP_START_SETTING)
 helpviewer_keywords: ["CLUS_GROUP_DO_NOT_START","CLUS_GROUP_START_ALLOWED","CLUS_GROUP_START_ALWAYS","CLUS_GROUP_START_SETTING","CLUS_GROUP_START_SETTING enumeration [Failover Cluster]","clusapi/CLUS_GROUP_DO_NOT_START","clusapi/CLUS_GROUP_START_ALLOWED","clusapi/CLUS_GROUP_START_ALWAYS","clusapi/CLUS_GROUP_START_SETTING","msclus/CLUS_GROUP_DO_NOT_START","msclus/CLUS_GROUP_START_ALLOWED","msclus/CLUS_GROUP_START_ALWAYS","msclus/CLUS_GROUP_START_SETTING","mscs.clus_group_start_setting"]
 old-location: mscs\clus_group_start_setting.htm
 tech.root: MsCS

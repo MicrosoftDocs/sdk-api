@@ -1,7 +1,7 @@
 ---
 UID: NF:pathcch.PathCchCombineEx
 title: PathCchCombineEx function (pathcch.h)
-description: Combines two path fragments into a single path.
+description: Combines two path fragments into a single path. (PathCchCombineEx)
 helpviewer_keywords: ["PATHCCH_ALLOW_LONG_PATHS","PATHCCH_DO_NOT_NORMALIZE_SEGMENTS","PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH","PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS","PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS","PATHCCH_NONE","PathCchCombineEx","PathCchCombineEx function [Windows Shell]","pathcch/PathCchCombineEx","shell.PathCchCombineEx"]
 old-location: shell\PathCchCombineEx.htm
 tech.root: shell

@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IServiceCall.OnCall
 title: IServiceCall::OnCall (comsvcs.h)
-description: Triggers the execution of the batch work implemented in this method.
+description: Triggers the execution of the batch work implemented in this method. (IServiceCall.OnCall)
 helpviewer_keywords: ["IServiceCall interface [COM+]","OnCall method","IServiceCall.OnCall","IServiceCall::OnCall","OnCall","OnCall method [COM+]","OnCall method [COM+]","IServiceCall interface","_cos_IServiceCall_OnCall","comsvcs/IServiceCall::OnCall","cos.iservicecall_oncall"]
 old-location: cos\iservicecall_oncall.htm
 tech.root: cos

@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.get_MailTo
 title: IFsrmReportJob::get_MailTo (fsrmreports.h)
-description: Retrieves or sets the email addresses of those that will receive the reports via email.
+description: Retrieves or sets the email addresses of those that will receive the reports via email. (Get)
 helpviewer_keywords: ["IFsrmReportJob interface [File Server Resource Manager]","MailTo property","IFsrmReportJob.MailTo","IFsrmReportJob.get_MailTo","IFsrmReportJob::MailTo","IFsrmReportJob::get_MailTo","IFsrmReportJob::put_MailTo","MailTo property [File Server Resource Manager]","MailTo property [File Server Resource Manager]","IFsrmReportJob interface","fs.ifsrmreportjob_mailto","fsrm.ifsrmreportjob_mailto","fsrmreports/IFsrmReportJob::MailTo","fsrmreports/IFsrmReportJob::get_MailTo","fsrmreports/IFsrmReportJob::put_MailTo","get_MailTo"]
 old-location: fsrm\ifsrmreportjob_mailto.htm
 tech.root: fsrm

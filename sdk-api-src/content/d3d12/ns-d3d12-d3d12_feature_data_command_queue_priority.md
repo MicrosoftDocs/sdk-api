@@ -6,7 +6,7 @@ helpviewer_keywords: ["D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY","D3D12_FEATURE
 old-location: direct3d12\d3d12_feature_data_command_queue_priority.htm
 tech.root: direct3d12
 ms.assetid: 70DB58DB-7EE0-4E5C-8B24-22DA9347A80F
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY, D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY structure, d3d12/D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY, direct3d12.d3d12_feature_data_command_queue_priority
 req.header: d3d12.h
 req.include-header: 
@@ -56,19 +56,19 @@ Details the adapter's support for prioritization of different command queue type
 
 ### -field CommandListType
 
-<a href="/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-structs-and-classes">SAL</a>: <code>_In_</code>
 
 The type of the command list you're interested in.
 
 ### -field Priority
 
-<a href="/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-structs-and-classes">SAL</a>: <code>_In_</code>
 
 The priority level you're interested in.
 
 ### -field PriorityForTypeIsSupported
 
-<a href="/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_Out_</code>
+<a href="/visualstudio/code-quality/annotating-structs-and-classes">SAL</a>: <code>_Out_</code>
 
 On return, contains true if the specfied command list type supports the specified priority level; otherwise, false.
 

@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d9helper.IDirect3DIndexBuffer9
 title: IDirect3DIndexBuffer9 (d3d9helper.h)
-description: Applications use the methods of the IDirect3DIndexBuffer9 interface to manipulate an index buffer resource.
+description: The IDirect3DIndexBuffer9 interface (d3d9helper.h) provides methods that manipulate an index buffer resource.
 helpviewer_keywords: ["IDirect3DIndexBuffer9","IDirect3DIndexBuffer9 interface [Direct3D 9]","IDirect3DIndexBuffer9 interface [Direct3D 9]","described","bb9d32d9-1059-d4c2-6c8c-e4d5a1170082","d3d9helper/IDirect3DIndexBuffer9","direct3d9.idirect3dindexbuffer9"]
 old-location: direct3d9\idirect3dindexbuffer9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dindexbuffer9.htm
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: IDirect3DIndexBuffer9, IDirect3DIndexBuffer9 interface [Direct3D 9], IDirect3DIndexBuffer9 interface [Direct3D 9],described, bb9d32d9-1059-d4c2-6c8c-e4d5a1170082, d3d9helper/IDirect3DIndexBuffer9, direct3d9.idirect3dindexbuffer9
 req.header: d3d9helper.h
 req.include-header: D3D9.h

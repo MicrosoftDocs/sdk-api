@@ -1,12 +1,12 @@
 ---
 UID: NN:vdshwprv.IVdsHwProviderType
 title: IVdsHwProviderType (vdshwprv.h)
-description: Provides a method to retrieve the type of hardware provider.
+description: The IVdsHwProviderType interface (vdshwprv.h) provides a method to retrieve the type of hardware provider.  
 helpviewer_keywords: ["IVdsHwProviderType","IVdsHwProviderType interface [VDS]","IVdsHwProviderType interface [VDS]","described","base.ivdshwprovidertype","vds/IVdsHwProviderType","vdshwprv/IVdsHwProviderType"]
 old-location: base\ivdshwprovidertype.htm
 tech.root: base
 ms.assetid: 24bd634e-96e1-4f2a-a70b-3aae734c75f9
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsHwProviderType, IVdsHwProviderType interface [VDS], IVdsHwProviderType interface [VDS],described, base.ivdshwprovidertype, vds/IVdsHwProviderType, vdshwprv/IVdsHwProviderType
 req.header: vdshwprv.h
 req.include-header: 

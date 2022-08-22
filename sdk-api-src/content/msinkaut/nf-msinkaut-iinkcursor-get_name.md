@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkCursor.get_Name
 title: IInkCursor::get_Name (msinkaut.h)
-description: Gets the name of the object.
+description: Gets the name of the object. (IInkCursor.get_Name)
 helpviewer_keywords: ["IInkCursor interface [Tablet PC]","Name property","IInkCursor.Name","IInkCursor.get_Name","IInkCursor::Name","IInkCursor::get_Name","Name property [Tablet PC]","Name property [Tablet PC]","IInkCursor interface","get_Name","msinkaut/IInkCursor::Name","msinkaut/IInkCursor::get_Name","tablet.iinkcursor_name"]
 old-location: tablet\iinkcursor_name.htm
 tech.root: tablet

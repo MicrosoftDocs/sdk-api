@@ -1,12 +1,12 @@
 ---
 UID: NF:vswriter.CreateVssExpressWriterInternal
 title: CreateVssExpressWriterInternal function (vswriter.h)
-description: Creates an IVssExpressWriter interface object and returns a pointer to it.
+description: The CreateVssExpressWriterInternal function (vswriter.h) creates an IVssExpressWriter interface object and returns a pointer to it.
 helpviewer_keywords: ["CreateVssExpressWriter","CreateVssExpressWriter function","CreateVssExpressWriterInternal","base.createvssexpresswriter","vswriter/CreateVssExpressWriter","vswriter/CreateVssExpressWriterInternal"]
 old-location: base\createvssexpresswriter.htm
 tech.root: base
 ms.assetid: c24a1046-50b0-4fec-88f9-3bbd6970982a
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: CreateVssExpressWriter, CreateVssExpressWriter function, CreateVssExpressWriterInternal, base.createvssexpresswriter, vswriter/CreateVssExpressWriter, vswriter/CreateVssExpressWriterInternal
 req.header: vswriter.h
 req.include-header: 

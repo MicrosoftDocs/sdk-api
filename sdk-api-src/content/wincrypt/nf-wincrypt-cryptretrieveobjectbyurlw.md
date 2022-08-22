@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptRetrieveObjectByUrlW
 title: CryptRetrieveObjectByUrlW function (wincrypt.h)
-description: Retrieves the public key infrastructure (PKI) object from a location specified by a URL.
+description: Retrieves the public key infrastructure (PKI) object from a location specified by a URL. (Unicode)
 helpviewer_keywords: ["CONTEXT_OID_CAPI2_ANY","CONTEXT_OID_CERTIFICATE","CONTEXT_OID_CRL","CONTEXT_OID_CTL","CONTEXT_OID_OCSP_RESP","CONTEXT_OID_PKCS7","CRYPT_AIA_RETRIEVAL","CRYPT_ASYNC_RETRIEVAL","CRYPT_CACHE_ONLY_RETRIEVAL","CRYPT_DONT_CACHE_RESULT","CRYPT_HTTP_POST_RETRIEVAL","CRYPT_LDAP_AREC_EXCLUSIVE_RETRIEVAL","CRYPT_LDAP_INSERT_ENTRY_ATTRIBUTE","CRYPT_LDAP_SCOPE_BASE_ONLY_RETRIEVAL","CRYPT_LDAP_SIGN_RETRIEVAL","CRYPT_NOT_MODIFIED_RETRIEVAL","CRYPT_NO_AUTH_RETRIEVAL","CRYPT_OFFLINE_CHECK_RETRIEVAL","CRYPT_PROXY_CACHE_RETRIEVAL","CRYPT_RETRIEVE_MULTIPLE_OBJECTS","CRYPT_STICKY_CACHE_RETRIEVAL","CRYPT_VERIFY_CONTEXT_SIGNATURE","CRYPT_VERIFY_DATA_HASH","CRYPT_WIRE_ONLY_RETRIEVAL","CryptRetrieveObjectByUrl","CryptRetrieveObjectByUrl function [Security]","CryptRetrieveObjectByUrlA","CryptRetrieveObjectByUrlW","NULL","_crypto2_cryptretrieveobjectbyurl","security.cryptretrieveobjectbyurl","wincrypt/CryptRetrieveObjectByUrl","wincrypt/CryptRetrieveObjectByUrlA","wincrypt/CryptRetrieveObjectByUrlW"]
 old-location: security\cryptretrieveobjectbyurl.htm
 tech.root: security

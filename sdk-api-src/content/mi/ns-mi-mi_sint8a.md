@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_Sint8A
 title: MI_Sint8A (mi.h)
-description: Represents an array of MI_Sint8 types.
+description: Represents an array of MI_Sint8 types. (MI_Sint8A)
 helpviewer_keywords: ["MI_Sint8A","MI_Sint8A structure [Windows Management Infrastructure (MI)]","mi/MI_Sint8A","wmi._mi_sint8a","wmi_v2.mi_sint8a"]
 old-location: wmi_v2\mi_sint8a.htm
 tech.root: wmi_v2

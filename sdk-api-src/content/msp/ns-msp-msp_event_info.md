@@ -1,7 +1,7 @@
 ---
 UID: NS:msp.__MIDL___MIDL_itf_msp_0000_0000_0005
 title: MSP_EVENT_INFO (msp.h)
-description: The MSP_EVENT_INFO structure defines the type of event returned by the GetEvent method.
+description: The MSP_EVENT_INFO structure defines the type of event returned by the GetEvent method. (MSP_EVENT_INFO)
 helpviewer_keywords: ["MSP_EVENT_INFO","MSP_EVENT_INFO structure [TAPI 2.2]","__MIDL___MIDL_itf_tapi3_0000_0018_0005","_tapi3_msp_event_info","msp/MSP_EVENT_INFO","tapi3.msp_event_info"]
 old-location: tapi3\msp_event_info.htm
 tech.root: tapi3

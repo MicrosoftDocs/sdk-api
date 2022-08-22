@@ -1,7 +1,7 @@
 ---
 UID: NF:iscsidsc.AddISNSServerW
 title: AddISNSServerW function (iscsidsc.h)
-description: AddIsnsServer function adds a new server to the list of Internet Storage Name Service (iSNS) servers that the iSCSI initiator service uses to discover targets.
+description: AddIsnsServer function adds a new server to the list of Internet Storage Name Service (iSNS) servers that the iSCSI initiator service uses to discover targets. (Unicode)
 helpviewer_keywords: ["AddISNSServerW","AddIsnsServer","AddIsnsServer function [iSCSI Discovery Library API]","AddIsnsServerA","AddIsnsServerW","iscsidisc.addisnsserver","iscsidsc/AddIsnsServer","iscsidsc/AddIsnsServerA","iscsidsc/AddIsnsServerW"]
 old-location: iscsidisc\addisnsserver.htm
 tech.root: iSCSIDisc

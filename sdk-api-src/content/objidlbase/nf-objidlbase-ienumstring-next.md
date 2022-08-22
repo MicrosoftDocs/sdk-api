@@ -1,12 +1,12 @@
 ---
 UID: NF:objidlbase.IEnumString.Next
 title: IEnumString::Next (objidlbase.h)
-description: Retrieves the specified number of items in the enumeration sequence.
+description: The IEnumString::Next (objidlbase.h) method retrieves the specified number of items in the enumeration sequence.
 helpviewer_keywords: ["IEnumString interface [COM]","Next method","IEnumString.Next","IEnumString::Next","Next","Next method [COM]","Next method [COM]","IEnumString interface","_com_ienumstring_next","com.ienumstring_next","objidlbase/IEnumString::Next"]
 old-location: com\ienumstring_next.htm
 tech.root: com
 ms.assetid: e08edeac-92c3-4947-9f55-224aab237453
-ms.date: 12/05/2018
+ms.date: 08/13/2022
 ms.keywords: IEnumString interface [COM],Next method, IEnumString.Next, IEnumString::Next, Next, Next method [COM], Next method [COM],IEnumString interface, _com_ienumstring_next, com.ienumstring_next, objidlbase/IEnumString::Next
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

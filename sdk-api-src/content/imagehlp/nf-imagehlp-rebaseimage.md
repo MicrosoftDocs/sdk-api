@@ -1,7 +1,7 @@
 ---
 UID: NF:imagehlp.ReBaseImage
 title: ReBaseImage function (imagehlp.h)
-description: Changes the load address for the specified image, which reduces the required load time for a DLL.
+description: Changes the load address for the specified image, which reduces the required load time for a DLL. (ReBaseImage)
 helpviewer_keywords: ["ReBaseImage","ReBaseImage function","_win32_rebaseimage","base.rebaseimage","imagehlp/ReBaseImage"]
 old-location: base\rebaseimage.htm
 tech.root: Debug

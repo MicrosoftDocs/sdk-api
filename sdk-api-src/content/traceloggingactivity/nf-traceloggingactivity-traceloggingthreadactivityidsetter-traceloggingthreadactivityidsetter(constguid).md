@@ -3,7 +3,7 @@ UID: NF:traceloggingactivity.TraceLoggingThreadActivityIdSetter.TraceLoggingThre
 title:
   TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter(const
   GUID) (traceloggingactivity.h)
-description: Creates a new TraceLoggingThreadActivityIdSetter object.
+description: Creates a new TraceLoggingThreadActivityIdSetter object. (overload 1/2)
 helpviewer_keywords:
   [
     "TraceLoggingThreadActivityIdSetter",

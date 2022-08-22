@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiEnumClientsExA
 title: MsiEnumClientsExA function (msi.h)
-description: The MsiEnumClientsEx function enumerates the installed applications that use a specified component. The function retrieves a product code for an application each time it is called.
+description: The MsiEnumClientsEx function enumerates the installed applications that use a specified component. The function retrieves a product code for an application each time it is called. (ANSI)
 helpviewer_keywords: ["MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiEnumClientsEx","MsiEnumClientsEx function [Setup API]","MsiEnumClientsExA","MsiEnumClientsExW","NULL","User SID","msi/MsiEnumClientsEx","msi/MsiEnumClientsExA","msi/MsiEnumClientsExW","s-1-1-0","setup.msienumclientsex"]
 old-location: setup\msienumclientsex.htm
 tech.root: setup

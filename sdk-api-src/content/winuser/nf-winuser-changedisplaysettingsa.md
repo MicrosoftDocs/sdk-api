@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.ChangeDisplaySettingsA
 title: ChangeDisplaySettingsA function (winuser.h)
-description: The ChangeDisplaySettings function changes the settings of the default display device to the specified graphics mode.
+description: The ChangeDisplaySettings function changes the settings of the default display device to the specified graphics mode. (ANSI)
 helpviewer_keywords: ["0","CDS_FULLSCREEN","CDS_GLOBAL","CDS_NORESET","CDS_RESET","CDS_SET_PRIMARY","CDS_TEST","CDS_UPDATEREGISTRY","ChangeDisplaySettings","ChangeDisplaySettings function [Windows GDI]","ChangeDisplaySettingsA","ChangeDisplaySettingsW","_win32_ChangeDisplaySettings","gdi.changedisplaysettings","winuser/ChangeDisplaySettings","winuser/ChangeDisplaySettingsA","winuser/ChangeDisplaySettingsW"]
 old-location: gdi\changedisplaysettings.htm
 tech.root: gdi

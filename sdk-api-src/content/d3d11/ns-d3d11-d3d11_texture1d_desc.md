@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_TEXTURE1D_DESC
 title: D3D11_TEXTURE1D_DESC (d3d11.h)
-description: Describes a 1D texture.
+description: Describes a 1D texture. (D3D11_TEXTURE1D_DESC)
 helpviewer_keywords: ["D3D11_TEXTURE1D_DESC","D3D11_TEXTURE1D_DESC structure [Direct3D 11]","c0f2647b-c461-618f-f6ef-5ea6483060e8","d3d11/D3D11_TEXTURE1D_DESC","direct3d11.d3d11_texture1d_desc"]
 old-location: direct3d11\d3d11_texture1d_desc.htm
 tech.root: direct3d11

@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12.D3D12_CONSERVATIVE_RASTERIZATION_MODE
 title: D3D12_CONSERVATIVE_RASTERIZATION_MODE (d3d12.h)
-description: Identifies whether conservative rasterization is on or off.
+description: Identifies whether conservative rasterization is on or off. (D3D12_CONSERVATIVE_RASTERIZATION_MODE)
 helpviewer_keywords: ["D3D12_CONSERVATIVE_RASTERIZATION_MODE","D3D12_CONSERVATIVE_RASTERIZATION_MODE enumeration","D3D12_CONSERVATIVE_RASTERIZATION_MODE_OFF","D3D12_CONSERVATIVE_RASTERIZATION_MODE_ON","d3d12/D3D12_CONSERVATIVE_RASTERIZATION_MODE","d3d12/D3D12_CONSERVATIVE_RASTERIZATION_MODE_OFF","d3d12/D3D12_CONSERVATIVE_RASTERIZATION_MODE_ON","direct3d12.d3d12_conservative_rasterization_mode"]
 old-location: direct3d12\d3d12_conservative_rasterization_mode.htm
 tech.root: direct3d12

@@ -1,7 +1,7 @@
 ---
 UID: NF:strsafe.StringCchVPrintfExW
 title: StringCchVPrintfExW function (strsafe.h)
-description: Writes formatted data to the specified string using a pointer to a list of arguments.
+description: Writes formatted data to the specified string using a pointer to a list of arguments. (StringCchVPrintfExW)
 helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCchVPrintfEx","StringCchVPrintfEx function [Menus and Other Resources]","StringCchVPrintfExA","StringCchVPrintfExW","_shell_StringCchVPrintfEx","_shell_stringcchvprintfex_cpp","menurc.stringcchvprintfex","strsafe/StringCchVPrintfEx","strsafe/StringCchVPrintfExA","strsafe/StringCchVPrintfExW","winui._shell_stringcchvprintfex"]
 old-location: menurc\stringcchvprintfex.htm
 tech.root: menurc

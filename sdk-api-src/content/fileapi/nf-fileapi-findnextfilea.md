@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.FindNextFileA
 title: FindNextFileA function (fileapi.h)
-description: Continues a file search from a previous call to the FindFirstFile, FindFirstFileEx, or FindFirstFileTransacted functions.
+description: Continues a file search from a previous call to the FindFirstFile, FindFirstFileEx, or FindFirstFileTransacted functions. (ANSI)
 helpviewer_keywords: ["FindNextFile","FindNextFile function [Files]","FindNextFileA","FindNextFileW","_win32_findnextfile","base.findnextfile","fileapi/FindNextFile","fileapi/FindNextFileA","fileapi/FindNextFileW","fs.findnextfile","winbase/FindNextFile","winbase/FindNextFileA","winbase/FindNextFileW"]
 old-location: fs\findnextfile.htm
 tech.root: fs

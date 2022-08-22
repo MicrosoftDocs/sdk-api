@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHRegGetUSValueW
 title: SHRegGetUSValueW function (shlwapi.h)
-description: Retrieves a value from a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
+description: Retrieves a value from a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). (Unicode)
 helpviewer_keywords: ["SHRegGetUSValue","SHRegGetUSValue function [Windows Shell]","SHRegGetUSValueA","SHRegGetUSValueW","_win32_SHRegGetUSValue","shell.SHRegGetUSValue","shlwapi/SHRegGetUSValue","shlwapi/SHRegGetUSValueA","shlwapi/SHRegGetUSValueW"]
 old-location: shell\SHRegGetUSValue.htm
 tech.root: shell

@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasEnumConnectionsA
 title: RasEnumConnectionsA function (ras.h)
-description: The RasEnumConnections function lists all active RAS connections. It returns each connection's handle and phone-book entry name.
+description: The RasEnumConnections function lists all active RAS connections. It returns each connection's handle and phone-book entry name. (ANSI)
 helpviewer_keywords: ["RasEnumConnections","RasEnumConnections function [RAS]","RasEnumConnectionsA","RasEnumConnectionsW","_ras_rasenumconnections","ras/RasEnumConnections","ras/RasEnumConnectionsA","ras/RasEnumConnectionsW","rras.rasenumconnections"]
 old-location: rras\rasenumconnections.htm
 tech.root: RRAS

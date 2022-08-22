@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.OpenEventLogA
 title: OpenEventLogA function (winbase.h)
-description: Opens a handle to the specified event log.
+description: Opens a handle to the specified event log. (ANSI)
 helpviewer_keywords: ["OpenEventLog","OpenEventLog function","OpenEventLogA","OpenEventLogW","_win32_openeventlog","base.openeventlog","winbase/OpenEventLog","winbase/OpenEventLogA","winbase/OpenEventLogW"]
 old-location: base\openeventlog.htm
 tech.root: base

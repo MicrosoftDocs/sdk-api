@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHRegSetPathW
 title: SHRegSetPathW function (shlwapi.h)
-description: Takes a file path, replaces folder names with environment strings, and places the resulting string in the registry.
+description: Takes a file path, replaces folder names with environment strings, and places the resulting string in the registry. (Unicode)
 helpviewer_keywords: ["SHRegSetPath","SHRegSetPath function [Windows Shell]","SHRegSetPathA","SHRegSetPathW","_win32_SHRegSetPath","shell.SHRegSetPath","shlwapi/SHRegSetPath","shlwapi/SHRegSetPathA","shlwapi/SHRegSetPathW"]
 old-location: shell\SHRegSetPath.htm
 tech.root: shell

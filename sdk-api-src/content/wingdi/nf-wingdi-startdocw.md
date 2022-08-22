@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.StartDocW
 title: StartDocW function (wingdi.h)
-description: The StartDoc function starts a print job.
+description: The StartDoc function starts a print job. (Unicode)
 helpviewer_keywords: ["StartDoc","StartDoc function [Windows GDI]","StartDocA","StartDocW","_win32_StartDoc","gdi.startdoc","wingdi/StartDoc","wingdi/StartDocA","wingdi/StartDocW"]
 old-location: gdi\startdoc.htm
 tech.root: xps
@@ -64,7 +64,7 @@ A handle to the device context for the print job.
 
 ### -param lpdi [in]
 
-A pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-docinfoa">DOCINFO</a> structure containing the name of the document file and the name of the output file.
+A pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-docinfow">DOCINFO</a> structure containing the name of the document file and the name of the output file.
 
 ## -returns
 

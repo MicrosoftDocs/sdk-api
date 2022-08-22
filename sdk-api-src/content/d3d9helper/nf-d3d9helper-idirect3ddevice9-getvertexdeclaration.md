@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetVertexDeclaration
 title: IDirect3DDevice9::GetVertexDeclaration (d3d9helper.h)
-description: Gets a vertex shader declaration.
+description: The IDirect3DDevice9::GetVertexDeclaration method (d3d9.h) gets a vertex shader declaration.
 helpviewer_keywords: ["8b909692-06a8-7089-4aa2-4693ff481d81","GetVertexDeclaration","GetVertexDeclaration method [Direct3D 9]","GetVertexDeclaration method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetVertexDeclaration method","IDirect3DDevice9.GetVertexDeclaration","IDirect3DDevice9::GetVertexDeclaration","d3d9helper/IDirect3DDevice9::GetVertexDeclaration","direct3d9.idirect3ddevice9__getvertexdeclaration"]
 old-location: direct3d9\idirect3ddevice9__getvertexdeclaration.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getvertexdeclaration.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 8b909692-06a8-7089-4aa2-4693ff481d81, GetVertexDeclaration, GetVertexDeclaration method [Direct3D 9], GetVertexDeclaration method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetVertexDeclaration method, IDirect3DDevice9.GetVertexDeclaration, IDirect3DDevice9::GetVertexDeclaration, d3d9helper/IDirect3DDevice9::GetVertexDeclaration, direct3d9.idirect3ddevice9__getvertexdeclaration
 req.header: d3d9helper.h
 req.include-header: D3D9.h

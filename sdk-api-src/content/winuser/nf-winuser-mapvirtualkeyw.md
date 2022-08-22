@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.MapVirtualKeyW
 title: MapVirtualKeyW function (winuser.h)
-description: Translates (maps) a virtual-key code into a scan code or character value, or translates a scan code into a virtual-key code.
+description: Translates (maps) a virtual-key code into a scan code or character value, or translates a scan code into a virtual-key code. (Unicode)
 helpviewer_keywords: ["MAPVK_VK_TO_CHAR","MAPVK_VK_TO_VSC","MAPVK_VSC_TO_VK","MAPVK_VSC_TO_VK_EX","MapVirtualKey","MapVirtualKey function [Keyboard and Mouse Input]","MapVirtualKeyA","MapVirtualKeyW","_win32_MapVirtualKey","_win32_mapvirtualkey_cpp","inputdev.mapvirtualkey","winui._win32_mapvirtualkey","winuser/MapVirtualKey","winuser/MapVirtualKeyA","winuser/MapVirtualKeyW"]
 old-location: inputdev\mapvirtualkey.htm
 tech.root: inputdev
@@ -113,18 +113,12 @@ These left- and right-distinguishing constants are available to an application o
 
 ## -see-also
 
-**Conceptual**
-
-[GetAsyncKeyState](nf-winuser-getasynckeystate.md)
-
-[GetKeyState](nf-winuser-getkeystate.md)
-
-[GetKeyboardState](nf-winuser-getkeyboardstate.md)
-
-[Keyboard Input](/windows/win32/inputdev/keyboard-input)
-
-[MapVirtualKeyEx](nf-winuser-mapvirtualkeyexw.md)
-
-**Reference**
-
-[SetKeyboardState](nf-winuser-setkeyboardstate.md)
+- <a href="/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-mapvirtualkeya">MapVirtualKey</a>
+- [MapVirtualKeyEx](nf-winuser-mapvirtualkeyexw.md)
+- <a href="/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>
+- <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+- [Keyboard Input Overview](/windows/win32/inputdev/about-keyboard-input)

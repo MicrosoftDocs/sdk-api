@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextPattern.GetSelection
 title: IUIAutomationTextPattern::GetSelection (uiautomationclient.h)
-description: Retrieves a collection of text ranges that represents the currently selected text in a text-based control.
+description: Retrieves a collection of text ranges that represents the currently selected text in a text-based control. (IUIAutomationTextPattern.GetSelection)
 helpviewer_keywords: ["GetSelection","GetSelection method [Windows Accessibility]","GetSelection method [Windows Accessibility]","IUIAutomationTextPattern interface","IUIAutomationTextPattern interface [Windows Accessibility]","GetSelection method","IUIAutomationTextPattern.GetSelection","IUIAutomationTextPattern::GetSelection","uiauto.uiauto_IUIAutomationTextPattern_GetSelection","uiauto_IUIAutomationTextPattern_GetSelection","uiautomationclient/IUIAutomationTextPattern::GetSelection","winauto.uiauto_IUIAutomationTextPattern_GetSelection"]
 old-location: winauto\uiauto_IUIAutomationTextPattern_GetSelection.htm
 tech.root: WinAuto

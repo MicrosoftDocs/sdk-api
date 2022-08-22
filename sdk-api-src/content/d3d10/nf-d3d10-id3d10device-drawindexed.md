@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.DrawIndexed
 title: ID3D10Device::DrawIndexed (d3d10.h)
-description: Draw indexed, non-instanced primitives.
+description: Draw indexed, non-instanced primitives. (ID3D10Device.DrawIndexed)
 helpviewer_keywords: ["9c08e40b-b454-48b6-c9b7-35fc68d81999","DrawIndexed","DrawIndexed method [Direct3D 10]","DrawIndexed method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","DrawIndexed method","ID3D10Device.DrawIndexed","ID3D10Device::DrawIndexed","d3d10/ID3D10Device::DrawIndexed","direct3d10.id3d10device_drawindexed"]
 old-location: direct3d10\id3d10device_drawindexed.htm
 tech.root: direct3d10

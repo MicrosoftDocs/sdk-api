@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.put_SelAlignment
 title: IInkEdit::put_SelAlignment (inked.h)
-description: Gets or sets a value that controls the alignment of the paragraphs in an InkEdit control.
+description: Gets or sets a value that controls the alignment of the paragraphs in an InkEdit control. (Put)
 helpviewer_keywords: ["0","1","2","IInkEdit interface [Tablet PC]","SelAlignment property","IInkEdit.SelAlignment","IInkEdit.put_SelAlignment","IInkEdit::SelAlignment","IInkEdit::get_SelAlignment","IInkEdit::put_SelAlignment","InkEdit.get_SelAlignment","InkEdit.put_SelAlignment","NULL","SelAlignment property [Tablet PC]","SelAlignment property [Tablet PC]","IInkEdit interface","get_SelAlignment","inked/IInkEdit::SelAlignment","inked/IInkEdit::get_SelAlignment","inked/IInkEdit::put_SelAlignment","put_SelAlignment","tablet.inkedit_selalignment"]
 old-location: tablet\inkedit_selalignment.htm
 tech.root: tablet

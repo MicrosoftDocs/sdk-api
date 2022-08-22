@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgStrokeDashArray.UpdateDashes(constD2D1_SVG_LENGTH,UINT32,UINT32)
 title: ID2D1SvgStrokeDashArray::UpdateDashes(const D2D1_SVG_LENGTH,UINT32,UINT32) (d2d1svg.h)
-description: Updates the array. Existing dashes not updated by this method are preserved. The array is resized larger if necessary to accommodate the new dashes.
+description: Updates the array. Existing dashes not updated by this method are preserved. The array is resized larger if necessary to accommodate the new dashes. (overload 2/2)
 helpviewer_keywords: ["ID2D1SvgStrokeDashArray interface [Direct2D]","UpdateDashes method","ID2D1SvgStrokeDashArray.UpdateDashes","ID2D1SvgStrokeDashArray.UpdateDashes(const D2D1_SVG_LENGTH","UINT32","UINT32)","ID2D1SvgStrokeDashArray::UpdateDashes","ID2D1SvgStrokeDashArray::UpdateDashes(const D2D1_SVG_LENGTH","UINT32","UINT32)","UpdateDashes","UpdateDashes method [Direct2D]","UpdateDashes method [Direct2D]","ID2D1SvgStrokeDashArray interface","d2d1svg/ID2D1SvgStrokeDashArray::UpdateDashes","direct2d.id2d1svgstrokedasharray_updatedashes"]
 old-location: direct2d\id2d1svgstrokedasharray_updatedashes.htm
 tech.root: Direct2D

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.WinHelpA
 title: WinHelpA function (winuser.h)
-description: Launches Windows Help (Winhelp.exe) and passes additional data that indicates the nature of the help requested by the application.
+description: Launches Windows Help (Winhelp.exe) and passes additional data that indicates the nature of the help requested by the application. (ANSI)
 helpviewer_keywords: ["WinHelp","WinHelp function [Windows Shell]","WinHelpA","WinHelpW","_win32_WinHelp","shell.WinHelp","winuser/WinHelp","winuser/WinHelpA","winuser/WinHelpW"]
 old-location: shell\WinHelp.htm
 tech.root: shell

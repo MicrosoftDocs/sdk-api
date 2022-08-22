@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollector.get_FileName
 title: IDataCollector::get_FileName (pla.h)
-description: Retrieves or sets the base name of the file that will contain the data collector data.
+description: Retrieves or sets the base name of the file that will contain the data collector data. (Get)
 helpviewer_keywords: ["FileName property [PLA]","FileName property [PLA]","IDataCollector interface","IDataCollector interface [PLA]","FileName property","IDataCollector.FileName","IDataCollector.get_FileName","IDataCollector::FileName","IDataCollector::get_FileName","IDataCollector::put_FileName","base.idatacollector_filename","get_FileName","pla.idatacollector_filename","pla/IDataCollector::FileName","pla/IDataCollector::get_FileName","pla/IDataCollector::put_FileName"]
 old-location: pla\idatacollector_filename.htm
 tech.root: PLA

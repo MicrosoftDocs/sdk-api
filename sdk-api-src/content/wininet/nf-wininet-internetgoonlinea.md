@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.InternetGoOnlineA
 title: InternetGoOnlineA function (wininet.h)
-description: Prompts the user for permission to initiate connection to a URL.
+description: Prompts the user for permission to initiate connection to a URL. (InternetGoOnlineA)
 helpviewer_keywords: ["INTERNET_GOONLINE_REFRESH","InternetGoOnline","InternetGoOnline function [WinINet]","InternetGoOnlineA","InternetGoOnlineW","_inet_internetgoonline_function","wininet.internetgoonline","winineti/InternetGoOnline","winineti/InternetGoOnlineA","winineti/InternetGoOnlineW"]
 old-location: wininet\internetgoonline.htm
 tech.root: wininet

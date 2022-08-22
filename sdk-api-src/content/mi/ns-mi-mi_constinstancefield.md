@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_ConstInstanceField
 title: MI_ConstInstanceField (mi.h)
-description: Represents a property inside an MI_Instance structure.
+description: Represents a property inside an MI_Instance structure. (MI_ConstInstanceField)
 helpviewer_keywords: ["MI_ConstInstanceField","MI_ConstInstanceField structure [Windows Management Infrastructure (MI)]","MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","mi/MI_ConstInstanceField","wmi._mi_constinstancefield","wmi_v2.mi_constinstancefield"]
 old-location: wmi_v2\mi_constinstancefield.htm
 tech.root: wmi_v2

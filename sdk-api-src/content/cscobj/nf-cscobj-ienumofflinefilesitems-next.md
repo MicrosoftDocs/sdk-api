@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IEnumOfflineFilesItems.Next
 title: IEnumOfflineFilesItems::Next (cscobj.h)
-description: Retrieves the next item in the enumeration and advances the enumerator.
+description: Retrieves the next item in the enumeration and advances the enumerator. (IEnumOfflineFilesItems.Next)
 helpviewer_keywords: ["IEnumOfflineFilesItems interface [Offline Files]","Next method","IEnumOfflineFilesItems.Next","IEnumOfflineFilesItems::Next","Next","Next method [Offline Files]","Next method [Offline Files]","IEnumOfflineFilesItems interface","cscobj/IEnumOfflineFilesItems::Next","of.ienumofflinefilesitems_next"]
 old-location: of\ienumofflinefilesitems_next.htm
 tech.root: of

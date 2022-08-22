@@ -1,7 +1,7 @@
 ---
 UID: NF:remotesystemadditionalinfo.HSTRING_UserFree
 title: HSTRING_UserFree function (remotesystemadditionalinfo.h)
-description: Frees resources on the server side when called by RPC stub files.
+description: Frees resources on the server side when called by RPC stub files. (HSTRING_UserFree)
 helpviewer_keywords: ["HSTRING_UserFree","HSTRING_UserFree function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserFree","winrt.hstring_userfree"]
 old-location: winrt\hstring_userfree.htm
 tech.root: WinRT

@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11_3.ID3D11Fence
 title: ID3D11Fence (d3d11_3.h)
-description: Represents a fence, an object used for synchronization of the CPU and one or more GPUs.
+description: Represents a fence, an object used for synchronization of the CPU and one or more GPUs. (ID3D11Fence)
 helpviewer_keywords: ["ID3D11Fence","ID3D11Fence interface [Direct3D 11]","ID3D11Fence interface [Direct3D 11]","described","d3d11_3/ID3D11Fence","direct3d11.id3d11fence"]
 old-location: direct3d11\id3d11fence.htm
 tech.root: direct3d11

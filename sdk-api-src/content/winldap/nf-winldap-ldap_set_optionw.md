@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_set_optionW
 title: ldap_set_optionW function (winldap.h)
-description: Sets options on connection blocks.
+description: Sets options on connection blocks. (ldap_set_optionW)
 helpviewer_keywords: ["_ldap_ldap_set_option","ldap.ldap__set__option","ldap.ldap_set_option","ldap_set_option","ldap_set_option function [LDAP]","ldap_set_optionW","winldap/ldap_set_option","winldap/ldap_set_optionW"]
 old-location: ldap\ldap_set_option.htm
 tech.root: ldap

@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_2.IDWriteTextFormat1
 title: IDWriteTextFormat1 (dwrite_2.h)
-description: Describes the font and paragraph properties used to format text, and it describes locale information.
+description: Describes the font and paragraph properties used to format text, and it describes locale information. (IDWriteTextFormat1)
 helpviewer_keywords: ["IDWriteTextFormat1","IDWriteTextFormat1 interface [Direct Write]","IDWriteTextFormat1 interface [Direct Write]","described","directwrite.idwritetextformat1","dwrite_2/IDWriteTextFormat1"]
 old-location: directwrite\idwritetextformat1.htm
 tech.root: DirectWrite

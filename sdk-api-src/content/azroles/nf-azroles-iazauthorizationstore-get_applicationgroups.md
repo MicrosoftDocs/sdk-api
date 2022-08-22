@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_ApplicationGroups
 title: IAzAuthorizationStore::get_ApplicationGroups (azroles.h)
-description: Retrieves an IAzApplicationGroups object that is used to enumerate IAzApplicationGroup objects from the policy data.
+description: Retrieves an IAzApplicationGroups object that is used to enumerate IAzApplicationGroup objects from the policy data. (IAzAuthorizationStore.get_ApplicationGroups)
 helpviewer_keywords: ["ApplicationGroups property [Security]","ApplicationGroups property [Security]","AzAuthorizationStore object","ApplicationGroups property [Security]","IAzAuthorizationStore interface","AzAuthorizationStore object [Security]","ApplicationGroups property","IAzAuthorizationStore interface [Security]","ApplicationGroups property","IAzAuthorizationStore.ApplicationGroups","IAzAuthorizationStore.get_ApplicationGroups","IAzAuthorizationStore::ApplicationGroups","IAzAuthorizationStore::get_ApplicationGroups","azroles/IAzAuthorizationStore::ApplicationGroups","azroles/IAzAuthorizationStore::get_ApplicationGroups","get_ApplicationGroups","security.azauthorizationstore_applicationgroups"]
 old-location: security\azauthorizationstore_applicationgroups.htm
 tech.root: security

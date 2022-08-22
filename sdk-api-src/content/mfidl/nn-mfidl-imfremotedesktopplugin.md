@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFRemoteDesktopPlugin
 title: IMFRemoteDesktopPlugin (mfidl.h)
-description: Modifies a topology for use in a Terminal Services environment.
+description: Modifies a topology for use in a Terminal Services environment. (IMFRemoteDesktopPlugin)
 helpviewer_keywords: ["75bb9bf8-12a7-430f-9943-18623aff9903","IMFRemoteDesktopPlugin","IMFRemoteDesktopPlugin interface [Media Foundation]","IMFRemoteDesktopPlugin interface [Media Foundation]","described","mf.imfremotedesktopplugin","mfidl/IMFRemoteDesktopPlugin"]
 old-location: mf\imfremotedesktopplugin.htm
 tech.root: mf

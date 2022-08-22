@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.WSAInstallServiceClassW
 title: WSAInstallServiceClassW function (winsock2.h)
-description: The WSAInstallServiceClass function registers a service class schema within a namespace.
+description: The WSAInstallServiceClass function registers a service class schema within a namespace. (Unicode)
 helpviewer_keywords: ["WSAInstallServiceClass","WSAInstallServiceClass function [Winsock]","WSAInstallServiceClassA","WSAInstallServiceClassW","_win32_wsainstallserviceclass_2","winsock.wsainstallserviceclass_2","winsock2/WSAInstallServiceClass","winsock2/WSAInstallServiceClassA","winsock2/WSAInstallServiceClassW"]
 old-location: winsock\wsainstallserviceclass_2.htm
 tech.root: WinSock

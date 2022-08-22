@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmapButton.OnClick
 title: ITfLangBarItemBitmapButton::OnClick (ctfutb.h)
-description: This method is not used if the button item does not have the TF_LBI_STYLE_BTN_BUTTON style.
+description: This method is not used if the button item does not have the TF_LBI_STYLE_BTN_BUTTON style. (ITfLangBarItemBitmapButton.OnClick)
 helpviewer_keywords: ["ITfLangBarItemBitmapButton interface [Text Services Framework]","OnClick method","ITfLangBarItemBitmapButton.OnClick","ITfLangBarItemBitmapButton::OnClick","OnClick","OnClick method [Text Services Framework]","OnClick method [Text Services Framework]","ITfLangBarItemBitmapButton interface","_tsf_itflangbaritembitmapbutton_onclick_ref","ctfutb/ITfLangBarItemBitmapButton::OnClick","tsf.itflangbaritembitmapbutton_onclick"]
 old-location: tsf\itflangbaritembitmapbutton_onclick.htm
 tech.root: TSF

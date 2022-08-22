@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.lstrcmpA
 title: lstrcmpA function (winbase.h)
-description: Compares two character strings. The comparison is case-sensitive.
+description: Compares two character strings. The comparison is case-sensitive. (ANSI)
 helpviewer_keywords: ["_win32_lstrcmp","_win32_lstrcmp_cpp","lstrcmp","lstrcmp function [Menus and Other Resources]","lstrcmpA","lstrcmpW","menurc.lstrcmp","winbase/lstrcmp","winbase/lstrcmpA","winbase/lstrcmpW","winui._win32_lstrcmp"]
 old-location: menurc\lstrcmp.htm
 tech.root: menurc

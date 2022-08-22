@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellLinkW.GetShowCmd
 title: IShellLinkW::GetShowCmd (shobjidl_core.h)
-description: Gets the show command for a Shell link object.
+description: Gets the show command for a Shell link object. (Unicode)
 helpviewer_keywords: ["GetShowCmd","GetShowCmd method [Windows Shell]","GetShowCmd method [Windows Shell]","IShellLink interface","GetShowCmd method [Windows Shell]","IShellLinkA interface","GetShowCmd method [Windows Shell]","IShellLinkW interface","IShellLink interface [Windows Shell]","GetShowCmd method","IShellLink::GetShowCmd","IShellLinkA interface [Windows Shell]","GetShowCmd method","IShellLinkA::GetShowCmd","IShellLinkW interface [Windows Shell]","GetShowCmd method","IShellLinkW.GetShowCmd","IShellLinkW::GetShowCmd","SW_SHOWMAXIMIZED","SW_SHOWMINIMIZED","SW_SHOWNORMAL","_win32_IShellLink_GetShowCmd","shell.IShellLink_GetShowCmd","shobjidl_core/IShellLink::GetShowCmd","shobjidl_core/IShellLinkA::GetShowCmd","shobjidl_core/IShellLinkW::GetShowCmd"]
 old-location: shell\IShellLink_GetShowCmd.htm
 tech.root: shell

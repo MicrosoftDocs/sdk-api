@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.Pause
 title: IUIAnimationManager::Pause (uianimation.h)
-description: Pauses all animations.
+description: Pauses all animations. (IUIAnimationManager.Pause)
 helpviewer_keywords: ["IUIAnimationManager interface [Windows Animation]","Pause method","IUIAnimationManager.Pause","IUIAnimationManager::Pause","Pause","Pause method [Windows Animation]","Pause method [Windows Animation]","IUIAnimationManager interface","uianimation.iuianimationmanager_pause","uianimation/IUIAnimationManager::Pause"]
 old-location: uianimation\iuianimationmanager_pause.htm
 tech.root: UIAnimation

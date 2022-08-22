@@ -1,7 +1,7 @@
 ---
 UID: NE:tapi3.ACDQUEUE_EVENT
 title: ACDQUEUE_EVENT (tapi3.h)
-description: The ACDQUEUE_EVENT enum describes ACD queue events. The ITQueueEvent::get_Event method returns a member of this enum to indicate the type of ACD queue event that occurred.
+description: The ACDQUEUE_EVENT enum describes ACD queue events. The ITQueueEvent::get_Event method returns a member of this enum to indicate the type of ACD queue event that occurred. (ACDQUEUE_EVENT)
 helpviewer_keywords: ["ACDQE_NEW_QUEUE","ACDQE_QUEUE_REMOVED","ACDQUEUE_EVENT","ACDQUEUE_EVENT enumeration [TAPI 2.2]","_tapi3_acdqueue_event","tapi3.acdqueue_event","tapi3cc/ACDQE_NEW_QUEUE","tapi3cc/ACDQE_QUEUE_REMOVED","tapi3cc/ACDQUEUE_EVENT"]
 old-location: tapi3\acdqueue_event.htm
 tech.root: tapi3

@@ -1,7 +1,7 @@
 ---
 UID: NS:rpcasync.tagRPC_CALL_ATTRIBUTES_V2_A
 title: RPC_CALL_ATTRIBUTES_V2_A (rpcasync.h)
-description: The RPC_CALL_ATTRIBUTES_V2 structure provides parameters to the RpcServerInqCallAttributes function. Version 2 specifies support for local addresses and client process IDs.
+description: The RPC_CALL_ATTRIBUTES_V2 structure provides parameters to the RpcServerInqCallAttributes function. Version 2 specifies support for local addresses and client process IDs. (ANSI)
 helpviewer_keywords: ["RPC_CALL_ATTRIBUTES","RPC_CALL_ATTRIBUTES structure [RPC]","RPC_CALL_ATTRIBUTES_V2","RPC_CALL_ATTRIBUTES_V2 structure [RPC]","RPC_CALL_ATTRIBUTES_V2_A","RPC_CALL_ATTRIBUTES_V2_W","RPC_CALL_STATUS_CANCELLED","RPC_CALL_STATUS_DISCONNECTED","RPC_CALL_STATUS_IN_PROGRESS","RPC_QUERY_CALL_LOCAL_ADDRESS","RPC_QUERY_CLIENT_PID","RPC_QUERY_CLIENT_PRINCIPAL_NAME","RPC_QUERY_SERVER_PRINCIPAL_NAME","rpc.rpc_call_attributes_v2","rpcasync/RPC_CALL_ATTRIBUTES","rpcasync/RPC_CALL_ATTRIBUTES_V2","rpcasync/RPC_CALL_ATTRIBUTES_V2_A","rpcasync/RPC_CALL_ATTRIBUTES_V2_W"]
 old-location: rpc\rpc_call_attributes_v2.htm
 tech.root: Rpc

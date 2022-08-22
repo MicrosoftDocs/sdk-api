@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiGetActualModelsSectionW
 title: SetupDiGetActualModelsSectionW function (setupapi.h)
-description: The SetupDiGetActualModelsSection function retrieves the appropriate decorated INF Models section to use when installing a device from a device INF file.
+description: The SetupDiGetActualModelsSection function retrieves the appropriate decorated INF Models section to use when installing a device from a device INF file. (Unicode)
 helpviewer_keywords: ["SetupDiGetActualModelsSection","SetupDiGetActualModelsSection function [Device and Driver Installation]","SetupDiGetActualModelsSectionA","SetupDiGetActualModelsSectionW","devinst.setupdigetactualmodelssection","di-rtns_d008a45e-8dbe-4d59-ac12-be4ac28eebcb.xml","setupapi/SetupDiGetActualModelsSection"]
 old-location: devinst\setupdigetactualmodelssection.htm
 tech.root: devinst

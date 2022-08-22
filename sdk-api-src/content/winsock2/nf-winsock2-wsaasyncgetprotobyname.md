@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.WSAAsyncGetProtoByName
 title: WSAAsyncGetProtoByName function (winsock2.h)
-description: The WSAAsyncGetProtoByName function asynchronously retrieves protocol information that corresponds to a protocol name.
+description: The WSAAsyncGetProtoByName function asynchronously retrieves protocol information that corresponds to a protocol name. (WSAAsyncGetProtoByName)
 helpviewer_keywords: ["WSAAsyncGetProtoByName","WSAAsyncGetProtoByName function [Winsock]","_win32_wsaasyncgetprotobyname_2","winsock.wsaasyncgetprotobyname_2","winsock/WSAAsyncGetProtoByName"]
 old-location: winsock\wsaasyncgetprotobyname_2.htm
 tech.root: WinSock

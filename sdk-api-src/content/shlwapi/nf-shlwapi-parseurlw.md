@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.ParseURLW
 title: ParseURLW function (shlwapi.h)
-description: Performs rudimentary parsing of a URL.
+description: Performs rudimentary parsing of a URL. (Unicode)
 helpviewer_keywords: ["ParseURL","ParseURL function [Windows Shell]","ParseURLA","ParseURLW","_win32_ParseURL","shell.ParseURL","shlwapi/ParseURL","shlwapi/ParseURLA","shlwapi/ParseURLW"]
 old-location: shell\ParseURL.htm
 tech.root: shell

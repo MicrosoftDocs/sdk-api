@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.getservbyport
 title: getservbyport function (winsock2.h)
-description: The getservbyport function retrieves service information corresponding to a port and protocol.
+description: The getservbyport function retrieves service information corresponding to a port and protocol. (getservbyport)
 helpviewer_keywords: ["_win32_getservbyport_2","getservbyport","getservbyport function [Winsock]","winsock.getservbyport_2","winsock/getservbyport"]
 old-location: winsock\getservbyport_2.htm
 tech.root: WinSock

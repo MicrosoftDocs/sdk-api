@@ -1,7 +1,7 @@
 ---
 UID: NF:iscsidsc.RemoveIScsiPersistentTargetA
 title: RemoveIScsiPersistentTargetA function (iscsidsc.h)
-description: RemoveIscsiPersistentTarget function removes a persistent login for the specified hardware initiator Host Bus Adapter (HBA), initiator port, and target portal.
+description: RemoveIscsiPersistentTarget function removes a persistent login for the specified hardware initiator Host Bus Adapter (HBA), initiator port, and target portal. (ANSI)
 helpviewer_keywords: ["RemoveIScsiPersistentTargetA","RemoveIscsiPersistentTarget","RemoveIscsiPersistentTarget function [iSCSI Discovery Library API]","RemoveIscsiPersistentTargetA","RemoveIscsiPersistentTargetW","iscsidisc.removeiscsipersistenttarget","iscsidsc/RemoveIscsiPersistentTarget","iscsidsc/RemoveIscsiPersistentTargetA","iscsidsc/RemoveIscsiPersistentTargetW"]
 old-location: iscsidisc\removeiscsipersistenttarget.htm
 tech.root: iSCSIDisc

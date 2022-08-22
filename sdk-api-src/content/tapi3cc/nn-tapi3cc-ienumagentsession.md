@@ -1,7 +1,7 @@
 ---
 UID: NN:tapi3cc.IEnumAgentSession
 title: IEnumAgentSession (tapi3cc.h)
-description: The IEnumAgentSession interface provides COM-standard enumeration methods for the ITAgentSession interface. The ITAgent::EnumerateAgentSessions method returns a pointer to IEnumAgentSession.
+description: The IEnumAgentSession interface provides COM-standard enumeration methods for the ITAgentSession interface. The ITAgent::EnumerateAgentSessions method returns a pointer to IEnumAgentSession. (IEnumAgentSession)
 helpviewer_keywords: ["IEnumAgentSession","IEnumAgentSession interface [TAPI 2.2]","IEnumAgentSession interface [TAPI 2.2]","described","_tapi3_ienumagentsession","tapi3.ienumagentsession","tapi3cc/IEnumAgentSession"]
 old-location: tapi3\ienumagentsession.htm
 tech.root: tapi3

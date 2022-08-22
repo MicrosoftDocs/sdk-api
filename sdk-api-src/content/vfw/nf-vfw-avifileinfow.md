@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.AVIFileInfoW
 title: AVIFileInfoW function (vfw.h)
-description: The AVIFileInfo function obtains information about an AVI file.
+description: The AVIFileInfo function obtains information about an AVI file. (AVIFileInfoW)
 helpviewer_keywords: ["AVIFileInfo","AVIFileInfo function [Windows Multimedia]","AVIFileInfoA","AVIFileInfoW","_win32_AVIFileInfo","multimedia.avifileinfo","vfw/AVIFileInfo","vfw/AVIFileInfoA","vfw/AVIFileInfoW"]
 old-location: multimedia\avifileinfo.htm
 tech.root: Multimedia

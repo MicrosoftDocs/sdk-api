@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.put_AttachMode
 title: IInkOverlay::put_AttachMode (msinkaut.h)
-description: Gets or sets the value that specifies whether the InkOverlay object is attached behind or in front of the known window.
+description: Gets or sets the value that specifies whether the InkOverlay object is attached behind or in front of the known window. (Put)
 helpviewer_keywords: ["638da0e4-10cc-47e7-91ad-807be3ff8c2d","AttachMode property [Tablet PC]","AttachMode property [Tablet PC]","IInkOverlay interface","Behind","IInkOverlay interface [Tablet PC]","AttachMode property","IInkOverlay.AttachMode","IInkOverlay.put_AttachMode","IInkOverlay::AttachMode","IInkOverlay::get_AttachMode","IInkOverlay::put_AttachMode","InFront","InkOverlay.get_AttachMode","InkOverlay.put_AttachMode","get_AttachMode","msinkaut/IInkOverlay::AttachMode","msinkaut/IInkOverlay::get_AttachMode","msinkaut/IInkOverlay::put_AttachMode","put_AttachMode","tablet.inkoverlay_attachmode"]
 old-location: tablet\inkoverlay_attachmode.htm
 tech.root: tablet

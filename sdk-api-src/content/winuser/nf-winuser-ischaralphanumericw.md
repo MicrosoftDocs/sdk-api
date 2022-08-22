@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.IsCharAlphaNumericW
 title: IsCharAlphaNumericW function (winuser.h)
-description: Determines whether a character is either an alphabetical or a numeric character. This determination is based on the semantics of the language selected by the user during setup or through Control Panel.
+description: Determines whether a character is either an alphabetical or a numeric character. This determination is based on the semantics of the language selected by the user during setup or through Control Panel. (Unicode)
 helpviewer_keywords: ["IsCharAlphaNumeric","IsCharAlphaNumeric function [Menus and Other Resources]","IsCharAlphaNumericA","IsCharAlphaNumericW","_win32_IsCharAlphaNumeric","_win32_ischaralphanumeric_cpp","menurc.ischaralphanumeric","winui._win32_ischaralphanumeric","winuser/IsCharAlphaNumeric","winuser/IsCharAlphaNumericA","winuser/IsCharAlphaNumericW"]
 old-location: menurc\ischaralphanumeric.htm
 tech.root: menurc

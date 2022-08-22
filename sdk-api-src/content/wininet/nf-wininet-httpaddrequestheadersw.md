@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.HttpAddRequestHeadersW
 title: HttpAddRequestHeadersW function (wininet.h)
-description: Adds one or more HTTP request headers to the HTTP request handle.
+description: Adds one or more HTTP request headers to the HTTP request handle. (HttpAddRequestHeadersW)
 helpviewer_keywords: ["HTTP_ADDREQ_FLAG_ADD","HTTP_ADDREQ_FLAG_ADD_IF_NEW","HTTP_ADDREQ_FLAG_COALESCE","HTTP_ADDREQ_FLAG_COALESCE_WITH_COMMA","HTTP_ADDREQ_FLAG_COALESCE_WITH_SEMICOLON","HTTP_ADDREQ_FLAG_REPLACE","HttpAddRequestHeaders","HttpAddRequestHeaders function [WinINet]","HttpAddRequestHeadersA","HttpAddRequestHeadersW","_inet_httpaddrequestheaders_function","wininet.httpaddrequestheaders","wininet/HttpAddRequestHeaders","wininet/HttpAddRequestHeadersA","wininet/HttpAddRequestHeadersW"]
 old-location: wininet\httpaddrequestheaders.htm
 tech.root: wininet

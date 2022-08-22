@@ -1,7 +1,7 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetBalance
 title: IMFPMediaPlayer::SetBalance (mfplay.h)
-description: Sets the audio balance.
+description: Sets the audio balance. (IMFPMediaPlayer.SetBalance)
 helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","SetBalance method","IMFPMediaPlayer.SetBalance","IMFPMediaPlayer::SetBalance","SetBalance","SetBalance method [Media Foundation]","SetBalance method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_setbalance","mfplay/IMFPMediaPlayer::SetBalance"]
 old-location: mf\imfpmediaplayer_setbalance.htm
 tech.root: mf

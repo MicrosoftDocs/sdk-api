@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IObjectId.put_FriendlyName
 title: IObjectId::put_FriendlyName (certenroll.h)
-description: Specifies and retrieves a display name for the object identifier.
+description: Specifies and retrieves a display name for the object identifier. (Put)
 helpviewer_keywords: ["FriendlyName property [Security]","FriendlyName property [Security]","IObjectId interface","IObjectId interface [Security]","FriendlyName property","IObjectId.FriendlyName","IObjectId.put_FriendlyName","IObjectId::FriendlyName","IObjectId::get_FriendlyName","IObjectId::put_FriendlyName","certenroll/IObjectId::FriendlyName","certenroll/IObjectId::get_FriendlyName","certenroll/IObjectId::put_FriendlyName","put_FriendlyName","security.iobjectid_friendlyname_property"]
 old-location: security\iobjectid_friendlyname_property.htm
 tech.root: security

@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetRedSlope(IDCompositionAnimation)
 title: IDCompositionLinearTransferEffect::SetRedSlope(IDCompositionAnimation) (dcomp.h)
-description: Sets the slope of the linear function for the red channel.
+description: Sets the slope of the linear function for the red channel. (overload 1/2)
 helpviewer_keywords: ["IDCompositionLinearTransferEffect interface [DirectComposition]","SetRedSlope method","IDCompositionLinearTransferEffect.SetRedSlope","IDCompositionLinearTransferEffect.SetRedSlope(IDCompositionAnimation)","IDCompositionLinearTransferEffect::SetRedSlope","IDCompositionLinearTransferEffect::SetRedSlope(IDCompositionAnimation)","SetRedSlope","SetRedSlope method [DirectComposition]","SetRedSlope method [DirectComposition]","IDCompositionLinearTransferEffect interface","dcomp/IDCompositionLinearTransferEffect::SetRedSlope","directcomp.idcompositionlineartransfereffect_setredslope_2"]
 old-location: directcomp\idcompositionlineartransfereffect_setredslope_2.htm
 tech.root: directcomp

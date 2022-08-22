@@ -1,7 +1,7 @@
 ---
 UID: NS:winnls._currencyfmtA
 title: CURRENCYFMTA (winnls.h)
-description: Contains information that defines the format of a currency string. The GetCurrencyFormat function uses this information to customize a currency string for a specified locale.
+description: Contains information that defines the format of a currency string. The GetCurrencyFormat function uses this information to customize a currency string for a specified locale. (ANSI)
 helpviewer_keywords: ["*LPCURRENCYFMTA","CURRENCYFMT","CURRENCYFMT structure [Internationalization for Windows Applications]","CURRENCYFMTA","LPCURRENCYFMT","LPCURRENCYFMT structure pointer [Internationalization for Windows Applications]","_win32_CURRENCYFMT_str","intl.currencyfmt","winnls/CURRENCYFMT","winnls/LPCURRENCYFMT"]
 old-location: intl\currencyfmt.htm
 tech.root: Intl

@@ -1,7 +1,7 @@
 ---
 UID: NF:lmaccess.NetAccessAdd
 title: NetAccessAdd function (lmaccess.h)
-description: Not supported.
+description: Not supported. (NetAccessAdd)
 helpviewer_keywords: ["1","NetAccessAdd","NetAccessAdd function [Network Management]","_win32_netaccessadd","lmaccess/NetAccessAdd","netmgmt.netaccessadd"]
 old-location: netmgmt\netaccessadd.htm
 tech.root: NetMgmt

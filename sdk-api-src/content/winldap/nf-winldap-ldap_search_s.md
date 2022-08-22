@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_search_s
 title: ldap_search_s function (winldap.h)
-description: The ldap_search_s function synchronously searches the LDAP directory and returns a requested set of attributes for each matched entry.
+description: The ldap_search_s function synchronously searches the LDAP directory and returns a requested set of attributes for each matched entry. (ldap_search_sW)
 helpviewer_keywords: ["LDAP_SCOPE_BASE","LDAP_SCOPE_ONELEVEL","LDAP_SCOPE_SUBTREE","_ldap_ldap_search_s","ldap.ldap__search__s","ldap.ldap_search_s","ldap_search_s","ldap_search_s function [LDAP]","ldap_search_sA","ldap_search_sW","winldap/ldap_search_s","winldap/ldap_search_sA","winldap/ldap_search_sW"]
 old-location: ldap\ldap_search_s.htm
 tech.root: ldap

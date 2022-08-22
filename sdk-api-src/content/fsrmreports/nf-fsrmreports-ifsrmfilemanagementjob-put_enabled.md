@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.put_Enabled
 title: IFsrmFileManagementJob::put_Enabled (fsrmreports.h)
-description: Indicates whether the job enabled (can run).
+description: Indicates whether the job enabled (can run). (Put)
 helpviewer_keywords: ["Enabled property [File Server Resource Manager]","Enabled property [File Server Resource Manager]","IFsrmFileManagementJob interface","IFsrmFileManagementJob interface [File Server Resource Manager]","Enabled property","IFsrmFileManagementJob.Enabled","IFsrmFileManagementJob.put_Enabled","IFsrmFileManagementJob::Enabled","IFsrmFileManagementJob::get_Enabled","IFsrmFileManagementJob::put_Enabled","fs.ifsrmfilemanagementjob_enabled","fsrm.ifsrmfilemanagementjob_enabled","fsrmreports/IFsrmFileManagementJob::Enabled","fsrmreports/IFsrmFileManagementJob::get_Enabled","fsrmreports/IFsrmFileManagementJob::put_Enabled","put_Enabled"]
 old-location: fsrm\ifsrmfilemanagementjob_enabled.htm
 tech.root: fsrm

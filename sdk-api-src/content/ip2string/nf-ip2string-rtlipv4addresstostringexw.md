@@ -1,7 +1,7 @@
 ---
 UID: NF:ip2string.RtlIpv4AddressToStringExW
 title: RtlIpv4AddressToStringExW function (ip2string.h)
-description: Converts an IPv4 address and port number to a string in Internet standard format.
+description: Converts an IPv4 address and port number to a string in Internet standard format. (Unicode)
 helpviewer_keywords: ["RtlIpv4AddressToStringEx","RtlIpv4AddressToStringEx function [IP Helper]","RtlIpv4AddressToStringExW","ip2string/RtlIpv4AddressToStringEx","ip2string/RtlIpv4AddressToStringExW","iphlp.rtlipv4addresstostringex"]
 old-location: iphlp\rtlipv4addresstostringex.htm
 tech.root: IpHlp

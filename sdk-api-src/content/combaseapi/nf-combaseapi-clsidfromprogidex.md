@@ -1,12 +1,12 @@
 ---
 UID: NF:combaseapi.CLSIDFromProgIDEx
 title: CLSIDFromProgIDEx function (combaseapi.h)
-description: Triggers automatic installation if the COMClassStore policy is enabled.
+description: The CLSIDFromProgIDEx function (combaseapi.h) triggers automatic installation if the COMClassStore policy is enabled.
 helpviewer_keywords: ["CLSIDFromProgIDEx","CLSIDFromProgIDEx function [COM]","_com_CLSIDFromProgIDEx","com.clsidfromprogidex","combaseapi/CLSIDFromProgIDEx"]
 old-location: com\clsidfromprogidex.htm
 tech.root: com
 ms.assetid: 2f937ac1-b214-482a-af4b-8cc8c0c585c3
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: CLSIDFromProgIDEx, CLSIDFromProgIDEx function [COM], _com_CLSIDFromProgIDEx, com.clsidfromprogidex, combaseapi/CLSIDFromProgIDEx
 req.header: combaseapi.h
 req.include-header: Objbase.h

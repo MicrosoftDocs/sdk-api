@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasSetCustomAuthDataA
 title: RasSetCustomAuthDataA function (ras.h)
-description: Use the RasSetCustomAuthData function to set connection-specific authentication information. This information should not be specific to a particular user.
+description: Use the RasSetCustomAuthData function to set connection-specific authentication information. This information should not be specific to a particular user. (ANSI)
 helpviewer_keywords: ["RasSetCustomAuthData","RasSetCustomAuthData function [RAS]","RasSetCustomAuthDataA","RasSetCustomAuthDataW","_ras_rassetcustomauthdata","ras/RasSetCustomAuthData","ras/RasSetCustomAuthDataA","ras/RasSetCustomAuthDataW","rras.rassetcustomauthdata"]
 old-location: rras\rassetcustomauthdata.htm
 tech.root: RRAS

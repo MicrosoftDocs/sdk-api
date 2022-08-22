@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasGetEntryPropertiesW
 title: RasGetEntryPropertiesW function (ras.h)
-description: The RasGetEntryProperties function retrieves the properties of a phone-book entry.
+description: The RasGetEntryProperties function retrieves the properties of a phone-book entry. (Unicode)
 helpviewer_keywords: ["RasGetEntryProperties","RasGetEntryProperties function [RAS]","RasGetEntryPropertiesA","RasGetEntryPropertiesW","_ras_rasgetentryproperties","ras/RasGetEntryProperties","ras/RasGetEntryPropertiesA","ras/RasGetEntryPropertiesW","rras.rasgetentryproperties"]
 old-location: rras\rasgetentryproperties.htm
 tech.root: RRAS

@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IEnumOleUndoUnits.Skip
 title: IEnumOleUndoUnits::Skip (ocidl.h)
-description: Skips over the specified number of items in the enumeration sequence.
+description: Skips over the specified number of items in the enumeration sequence. (IEnumOleUndoUnits.Skip)
 helpviewer_keywords: ["IEnumOleUndoUnits interface [COM]","Skip method","IEnumOleUndoUnits.Skip","IEnumOleUndoUnits::Skip","Skip","Skip method [COM]","Skip method [COM]","IEnumOleUndoUnits interface","_ole_ienumoleundounits_skip","com.ienumoleundounits_skip","ocidl/IEnumOleUndoUnits::Skip"]
 old-location: com\ienumoleundounits_skip.htm
 tech.root: com

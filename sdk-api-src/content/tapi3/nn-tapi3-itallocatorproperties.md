@@ -1,7 +1,7 @@
 ---
 UID: NN:tapi3.ITAllocatorProperties
 title: ITAllocatorProperties (tapi3.h)
-description: The ITAllocatorProperties interface exposes the buffer allocator properties of the Media Streaming Terminal (MST) to an end-user or server application.
+description: The ITAllocatorProperties interface exposes the buffer allocator properties of the Media Streaming Terminal (MST) to an end-user or server application. (ITAllocatorProperties)
 helpviewer_keywords: ["ITAllocatorProperties","ITAllocatorProperties interface [TAPI 2.2]","ITAllocatorProperties interface [TAPI 2.2]","described","_tapi3_itallocatorproperties","tapi3.itallocatorproperties","tapi3ds/ITAllocatorProperties"]
 old-location: tapi3\itallocatorproperties.htm
 tech.root: tapi3

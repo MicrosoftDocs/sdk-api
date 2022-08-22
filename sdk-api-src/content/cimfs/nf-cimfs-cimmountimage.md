@@ -1,7 +1,8 @@
 ---
 UID: NF:cimfs.CimMountImage
 title: CimMountImage
-ms.date: 9/9/2019
+description: The CimMountImage function mounts the named image from the location specified by cimPath as a volume with the volume GUID specified by volumeId.
+ms.date: 08/01/2022
 tech.root: cimfs
 ms.keywords: CimMountImage
 targetos: Windows

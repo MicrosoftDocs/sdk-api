@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ImageList_ReplaceIcon
 title: ImageList_ReplaceIcon function (commctrl.h)
-description: Replaces an image with an icon or cursor.
+description: Replaces an image with an icon or cursor. (ImageList_ReplaceIcon)
 helpviewer_keywords: ["ImageList_ReplaceIcon","ImageList_ReplaceIcon function [Windows Controls]","_win32_ImageList_ReplaceIcon","_win32_ImageList_ReplaceIcon_cpp","commctrl/ImageList_ReplaceIcon","controls.ImageList_ReplaceIcon","controls._win32_ImageList_ReplaceIcon"]
 old-location: controls\ImageList_ReplaceIcon.htm
 tech.root: Controls

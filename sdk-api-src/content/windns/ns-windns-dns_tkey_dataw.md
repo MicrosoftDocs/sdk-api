@@ -1,7 +1,7 @@
 ---
 UID: NS:windns.__unnamed_struct_35
 title: DNS_TKEY_DATAW (windns.h)
-description: The DNS_TKEY_DATA structure represents a DNS TKEY resource record, used to establish and delete an algorithm's shared-secret keys between a DNS resolver and server as specified in RFC 2930.
+description: The DNS_TKEY_DATA structure represents a DNS TKEY resource record, used to establish and delete an algorithm's shared-secret keys between a DNS resolver and server as specified in RFC 2930. (Unicode)
 helpviewer_keywords: ["*PDNS_TKEY_DATA","*PDNS_TKEY_DATAW","DNS_RCODE_BADKEY","DNS_RCODE_BADSIG","DNS_RCODE_BADTIME","DNS_TKEY_DATA","DNS_TKEY_DATA structure [DNS]","DNS_TKEY_DATAW","DNS_TKEY_MODE_DIFFIE_HELLMAN","DNS_TKEY_MODE_GSS","DNS_TKEY_MODE_RESOLVER_ASSIGN","DNS_TKEY_MODE_SERVER_ASSIGN","PDNS_TKEY_DATA","PDNS_TKEY_DATA structure pointer [DNS]","_dns_dns_tkey_data","dns.dns_tkey_data","windns/DNS_TKEY_DATA","windns/PDNS_TKEY_DATA"]
 old-location: dns\dns_tkey_data.htm
 tech.root: DNS

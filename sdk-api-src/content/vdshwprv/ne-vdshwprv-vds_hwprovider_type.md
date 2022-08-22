@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv._VDS_HWPROVIDER_TYPE
 title: VDS_HWPROVIDER_TYPE (vdshwprv.h)
-description: Defines the set of valid types for a hardware provider.
+description: The VDS_HWPROVIDER_TYPE enumeration (vdshwprv.h) defines the set of valid types for a hardware provider.
 helpviewer_keywords: ["VDS_HWPROVIDER_TYPE","VDS_HWPROVIDER_TYPE enumeration [VDS]","VDS_HWT_FIBRE_CHANNEL","VDS_HWT_HYBRID","VDS_HWT_ISCSI","VDS_HWT_PCI_RAID","VDS_HWT_SAS","VDS_HWT_UNKNOWN","base.vds_hwprovider_type","vds/VDS_HWPROVIDER_TYPE","vds/VDS_HWT_FIBRE_CHANNEL","vds/VDS_HWT_HYBRID","vds/VDS_HWT_ISCSI","vds/VDS_HWT_PCI_RAID","vds/VDS_HWT_SAS","vds/VDS_HWT_UNKNOWN","vdshwprv/VDS_HWPROVIDER_TYPE","vdshwprv/VDS_HWT_FIBRE_CHANNEL","vdshwprv/VDS_HWT_HYBRID","vdshwprv/VDS_HWT_ISCSI","vdshwprv/VDS_HWT_PCI_RAID","vdshwprv/VDS_HWT_SAS","vdshwprv/VDS_HWT_UNKNOWN"]
 old-location: base\vds_hwprovider_type.htm
 tech.root: base
 ms.assetid: b16cc14b-4aef-43ec-9232-a95de06f1194
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_HWPROVIDER_TYPE, VDS_HWPROVIDER_TYPE enumeration [VDS], VDS_HWT_FIBRE_CHANNEL, VDS_HWT_HYBRID, VDS_HWT_ISCSI, VDS_HWT_PCI_RAID, VDS_HWT_SAS, VDS_HWT_UNKNOWN, base.vds_hwprovider_type, vds/VDS_HWPROVIDER_TYPE, vds/VDS_HWT_FIBRE_CHANNEL, vds/VDS_HWT_HYBRID, vds/VDS_HWT_ISCSI, vds/VDS_HWT_PCI_RAID, vds/VDS_HWT_SAS, vds/VDS_HWT_UNKNOWN, vdshwprv/VDS_HWPROVIDER_TYPE, vdshwprv/VDS_HWT_FIBRE_CHANNEL, vdshwprv/VDS_HWT_HYBRID, vdshwprv/VDS_HWT_ISCSI, vdshwprv/VDS_HWT_PCI_RAID, vdshwprv/VDS_HWT_SAS, vdshwprv/VDS_HWT_UNKNOWN
 req.header: vdshwprv.h
 req.include-header: 

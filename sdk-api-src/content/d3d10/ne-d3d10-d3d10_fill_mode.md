@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d10.D3D10_FILL_MODE
 title: D3D10_FILL_MODE (d3d10.h)
-description: Determines the fill mode to use when rendering triangles.
+description: Determines the fill mode to use when rendering triangles. (D3D10_FILL_MODE)
 helpviewer_keywords: ["0b605351-e264-0cd0-0fe1-6a7ecaa41acd","D3D10_FILL_MODE","D3D10_FILL_MODE enumeration [Direct3D 10]","D3D10_FILL_SOLID","D3D10_FILL_WIREFRAME","d3d10/D3D10_FILL_MODE","d3d10/D3D10_FILL_SOLID","d3d10/D3D10_FILL_WIREFRAME","direct3d10.d3d10_fill_mode"]
 old-location: direct3d10\d3d10_fill_mode.htm
 tech.root: direct3d10

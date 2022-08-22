@@ -1,7 +1,7 @@
 ---
 UID: NS:windns.__unnamed_struct_37
 title: DNS_TSIG_DATAW (windns.h)
-description: The DNS_TSIG_DATA structure represents a secret key transaction authentication (TSIG) resource record (RR) as specified in RFC 2845 and RFC 3645.
+description: The DNS_TSIG_DATA structure represents a secret key transaction authentication (TSIG) resource record (RR) as specified in RFC 2845 and RFC 3645. (Unicode)
 helpviewer_keywords: ["*PDNS_TSIG_DATA","*PDNS_TSIG_DATAW","DNS_RCODE_BADKEY","DNS_RCODE_BADSIG","DNS_RCODE_BADTIME","DNS_TSIG_DATA","DNS_TSIG_DATA structure [DNS]","DNS_TSIG_DATAW","PDNS_TSIG_DATA","PDNS_TSIG_DATA structure pointer [DNS]","_dns_dns_tsig_data","dns.dns_tsig_data","gss-tsig","gss.microsoft.com","windns/DNS_TSIG_DATA","windns/PDNS_TSIG_DATA"]
 old-location: dns\dns_tsig_data.htm
 tech.root: DNS

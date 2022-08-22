@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespaceScheduledCastAutoStart.get_StartTime
 title: IWdsTransportNamespaceScheduledCastAutoStart::get_StartTime (wdstptmgmt.h)
-description: Retrieves or sets a condition that starts transmission automatically. Transmission starts when the UTC time reaches the value of this property.
+description: Retrieves or sets a condition that starts transmission automatically. Transmission starts when the UTC time reaches the value of this property. (Get)
 helpviewer_keywords: ["IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services]","StartTime property","IWdsTransportNamespaceScheduledCastAutoStart.StartTime","IWdsTransportNamespaceScheduledCastAutoStart.get_StartTime","IWdsTransportNamespaceScheduledCastAutoStart::StartTime","IWdsTransportNamespaceScheduledCastAutoStart::get_StartTime","IWdsTransportNamespaceScheduledCastAutoStart::put_StartTime","StartTime property [Windows Deployment Services]","StartTime property [Windows Deployment Services]","IWdsTransportNamespaceScheduledCastAutoStart interface","get_StartTime","wds.iwdstransportnamespacescheduledcastautostart_starttime","wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::StartTime","wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::get_StartTime","wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::put_StartTime"]
 old-location: wds\iwdstransportnamespacescheduledcastautostart_starttime.htm
 tech.root: wds

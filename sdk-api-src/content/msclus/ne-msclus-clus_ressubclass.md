@@ -1,7 +1,7 @@
 ---
 UID: NE:msclus.CLUS_RESSUBCLASS
 title: CLUS_RESSUBCLASS (msclus.h)
-description: Identifies a resource subclass that manages a shared resource.
+description: Identifies a resource subclass that manages a shared resource. (CLUS_RESSUBCLASS)
 helpviewer_keywords: ["CLUS_RESSUBCLASS","CLUS_RESSUBCLASS enumeration [Failover Cluster]","CLUS_RESSUBCLASS_SHARED","_CLUS_RESSUBCLASS","_CLUS_RESSUBCLASS enumeration [Failover Cluster]","clusapi/CLUS_RESSUBCLASS","clusapi/CLUS_RESSUBCLASS_SHARED","clusapi/_CLUS_RESSUBCLASS","msclus/CLUS_RESSUBCLASS","msclus/CLUS_RESSUBCLASS_SHARED","msclus/_CLUS_RESSUBCLASS","mscs.clus_ressubclass"]
 old-location: mscs\clus_ressubclass.htm
 tech.root: MsCS

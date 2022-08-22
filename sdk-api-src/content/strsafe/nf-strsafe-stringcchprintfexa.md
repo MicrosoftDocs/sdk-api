@@ -1,7 +1,7 @@
 ---
 UID: NF:strsafe.StringCchPrintfExA
 title: StringCchPrintfExA function (strsafe.h)
-description: Writes formatted data to the specified string.
+description: Writes formatted data to the specified string. (StringCchPrintfExA)
 helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCchPrintfEx","StringCchPrintfEx function [Menus and Other Resources]","StringCchPrintfExA","StringCchPrintfExW","_shell_StringCchPrintfEx","_shell_stringcchprintfex_cpp","menurc.stringcchprintfex","strsafe/StringCchPrintfEx","strsafe/StringCchPrintfExA","strsafe/StringCchPrintfExW","winui._shell_stringcchprintfex"]
 old-location: menurc\stringcchprintfex.htm
 tech.root: menurc

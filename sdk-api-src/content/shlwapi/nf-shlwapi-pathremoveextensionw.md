@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathRemoveExtensionW
 title: PathRemoveExtensionW function (shlwapi.h)
-description: Removes the file name extension from a path, if one is present.
+description: Removes the file name extension from a path, if one is present. (Unicode)
 helpviewer_keywords: ["PathRemoveExtension","PathRemoveExtension function [Windows Shell]","PathRemoveExtensionA","PathRemoveExtensionW","_win32_PathRemoveExtension","shell.PathRemoveExtension","shlwapi/PathRemoveExtension","shlwapi/PathRemoveExtensionA","shlwapi/PathRemoveExtensionW"]
 old-location: shell\PathRemoveExtension.htm
 tech.root: shell

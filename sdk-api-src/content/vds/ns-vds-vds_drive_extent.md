@@ -1,12 +1,12 @@
 ---
 UID: NS:vds._VDS_DRIVE_EXTENT
 title: VDS_DRIVE_EXTENT (vds.h)
-description: Defines the properties of a drive extent.
+description: The VDS_DRIVE_EXTENT structure (vds.h) defines the properties of a drive extent. 
 helpviewer_keywords: ["*PVDS_DRIVE_EXTENT","VDS_DRIVE_EXTENT","VDS_DRIVE_EXTENT structure [VDS]","base.vds_drive_extent","vds/_VDS_DRIVE_EXTENT","vdshwprv/_VDS_DRIVE_EXTENT"]
 old-location: base\vds_drive_extent.htm
 tech.root: base
 ms.assetid: c155d925-e86f-4bec-9032-dae2221172a7
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: '*PVDS_DRIVE_EXTENT, VDS_DRIVE_EXTENT, VDS_DRIVE_EXTENT structure [VDS], base.vds_drive_extent, vds/_VDS_DRIVE_EXTENT, vdshwprv/_VDS_DRIVE_EXTENT'
 req.header: vds.h
 req.include-header: 

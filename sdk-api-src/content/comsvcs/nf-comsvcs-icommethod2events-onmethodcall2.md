@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComMethod2Events.OnMethodCall2
 title: IComMethod2Events::OnMethodCall2 (comsvcs.h)
-description: Generated when an object's method is called.
+description: Generated when an object's method is called. (IComMethod2Events.OnMethodCall2)
 helpviewer_keywords: ["IComMethod2Events interface [COM+]","OnMethodCall2 method","IComMethod2Events.OnMethodCall2","IComMethod2Events::OnMethodCall2","OnMethodCall2","OnMethodCall2 method [COM+]","OnMethodCall2 method [COM+]","IComMethod2Events interface","_dtc_IComMethod2Events_OnMethodCall2","comsvcs/IComMethod2Events::OnMethodCall2","cos.icommethod2events_onmethodcall2"]
 old-location: cos\icommethod2events_onmethodcall2.htm
 tech.root: cos

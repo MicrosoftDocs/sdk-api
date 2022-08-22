@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.GetTempPathA
 title: GetTempPathA function (fileapi.h)
-description: Retrieves the path of the directory designated for temporary files.
+description: Retrieves the path of the directory designated for temporary files. (ANSI)
 helpviewer_keywords: ["GetTempPath","GetTempPath function [Files]","GetTempPathA","GetTempPathW","_win32_gettemppath","base.gettemppath","fileapi/GetTempPath","fileapi/GetTempPathA","fileapi/GetTempPathW","fs.gettemppath","winbase/GetTempPath","winbase/GetTempPathA","winbase/GetTempPathW"]
 old-location: fs\gettemppath.htm
 tech.root: fs

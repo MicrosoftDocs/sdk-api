@@ -1,7 +1,7 @@
 ---
 UID: NF:wintrust.OpenPersonalTrustDBDialogEx
 title: OpenPersonalTrustDBDialogEx function (wintrust.h)
-description: Displays the Certificates dialog box.
+description: Displays the Certificates dialog box. (OpenPersonalTrustDBDialogEx)
 helpviewer_keywords: ["OpenPersonalTrustDBDialogEx","OpenPersonalTrustDBDialogEx function [Security]","WT_TRUSTDBDIALOG_ONLY_PUB_TAB_FLAG","security.openpersonaltrustdbdialogex","wintrust/OpenPersonalTrustDBDialogEx"]
 old-location: security\openpersonaltrustdbdialogex.htm
 tech.root: security

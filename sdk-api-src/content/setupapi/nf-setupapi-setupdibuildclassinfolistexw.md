@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiBuildClassInfoListExW
 title: SetupDiBuildClassInfoListExW function (setupapi.h)
-description: The SetupDiBuildClassInfoListEx function returns a list of setup class GUIDs that includes every class installed on the local system or a remote system.
+description: The SetupDiBuildClassInfoListEx function returns a list of setup class GUIDs that includes every class installed on the local system or a remote system. (Unicode)
 helpviewer_keywords: ["SetupDiBuildClassInfoListEx","SetupDiBuildClassInfoListEx function [Device and Driver Installation]","SetupDiBuildClassInfoListExA","SetupDiBuildClassInfoListExW","devinst.setupdibuildclassinfolistex","di-rtns_beaf3abb-65f5-4b7a-b0a1-5b8eab484eff.xml","setupapi/SetupDiBuildClassInfoListEx"]
 old-location: devinst\setupdibuildclassinfolistex.htm
 tech.root: devinst

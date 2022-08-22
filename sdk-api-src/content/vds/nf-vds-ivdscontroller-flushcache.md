@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsController.FlushCache
 title: IVdsController::FlushCache (vds.h)
-description: Flushes the cache of the controller to a persistent store.
+description: The IVdsController::FlushCache (vds.h) method flushes the cache of the controller to a persistent store.
 helpviewer_keywords: ["FlushCache","FlushCache method [VDS]","FlushCache method [VDS]","IVdsController interface","IVdsController interface [VDS]","FlushCache method","IVdsController.FlushCache","IVdsController::FlushCache","base.ivdscontroller_flushcache","vds/IVdsController::FlushCache","vdshwprv/IVdsController::FlushCache"]
 old-location: base\ivdscontroller_flushcache.htm
 tech.root: base
 ms.assetid: a27a887d-c254-4e50-be96-564db12a673a
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: FlushCache, FlushCache method [VDS], FlushCache method [VDS],IVdsController interface, IVdsController interface [VDS],FlushCache method, IVdsController.FlushCache, IVdsController::FlushCache, base.ivdscontroller_flushcache, vds/IVdsController::FlushCache, vdshwprv/IVdsController::FlushCache
 req.header: vds.h
 req.include-header: 

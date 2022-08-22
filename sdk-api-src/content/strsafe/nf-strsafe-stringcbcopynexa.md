@@ -1,7 +1,7 @@
 ---
 UID: NF:strsafe.StringCbCopyNExA
 title: StringCbCopyNExA function (strsafe.h)
-description: Copies the specified number of bytes from one string to another.
+description: Copies the specified number of bytes from one string to another. (StringCbCopyNExA)
 helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCbCopyNEx","StringCbCopyNEx function [Menus and Other Resources]","StringCbCopyNExA","StringCbCopyNExW","_shell_StringCbCopyNEx","_shell_stringcbcopynex_cpp","menurc.stringcbcopynex","strsafe/StringCbCopyNEx","strsafe/StringCbCopyNExA","strsafe/StringCbCopyNExW","winui._shell_stringcbcopynex"]
 old-location: menurc\stringcbcopynex.htm
 tech.root: menurc

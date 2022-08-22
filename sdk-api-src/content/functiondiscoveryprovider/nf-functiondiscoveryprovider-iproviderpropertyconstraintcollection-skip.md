@@ -1,7 +1,7 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderPropertyConstraintCollection.Skip
 title: IProviderPropertyConstraintCollection::Skip (functiondiscoveryprovider.h)
-description: Skips the next item in the collection.
+description: Skips the next item in the collection. (IProviderPropertyConstraintCollection.Skip)
 helpviewer_keywords: ["IProviderPropertyConstraintCollection interface","Skip method","IProviderPropertyConstraintCollection.Skip","IProviderPropertyConstraintCollection::Skip","Skip","Skip method","Skip method","IProviderPropertyConstraintCollection interface","functiondiscoveryprovider/IProviderPropertyConstraintCollection::Skip","ncd.iproviderpropertyconstraintcollection_skip"]
 old-location: ncd\iproviderpropertyconstraintcollection_skip.htm
 tech.root: ncd

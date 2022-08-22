@@ -4,7 +4,7 @@ title: DML_ACTIVATION_RELU_GRAD_OPERATOR_DESC
 description: Computes backpropagation gradients for a rectified linear unit (ReLU).
 helpviewer_keywords: ["DML_ACTIVATION_RELU_GRAD_OPERATOR_DESC","DML_ACTIVATION_RELU_GRAD_OPERATOR_DESC structure","direct3d12.dml_activation_relu_grad_operator_desc","directml/DML_ACTIVATION_RELU_GRAD_OPERATOR_DESC"]
 tech.root: directml
-ms.date: 10/28/2020
+ms.date: 07/20/2022
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -81,6 +81,13 @@ This operator was introduced in `DML_FEATURE_LEVEL_3_0`.
 *InputGradientTensor*, *InputTensor*, and *OutputGradientTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_5_1 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8 |
+| InputGradientTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8 |
+| OutputGradientTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8 |
+
 ### DML_FEATURE_LEVEL_4_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |

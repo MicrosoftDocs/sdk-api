@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsLun.AddPlex
 title: IVdsLun::AddPlex (vds.h)
-description: Adds a LUN to the target LUN as a new plex.
+description: The IVdsLun::AddPlex method (vds.h) adds a LUN to the target LUN as a new plex.
 helpviewer_keywords: ["AddPlex","AddPlex method [VDS]","AddPlex method [VDS]","IVdsLun interface","IVdsLun interface [VDS]","AddPlex method","IVdsLun.AddPlex","IVdsLun::AddPlex","base.ivdslun_addplex","vds/IVdsLun::AddPlex","vdshwprv/IVdsLun::AddPlex"]
 old-location: base\ivdslun_addplex.htm
 tech.root: base
 ms.assetid: a5d6d746-e740-40b0-b9e1-0c5537d00338
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: AddPlex, AddPlex method [VDS], AddPlex method [VDS],IVdsLun interface, IVdsLun interface [VDS],AddPlex method, IVdsLun.AddPlex, IVdsLun::AddPlex, base.ivdslun_addplex, vds/IVdsLun::AddPlex, vdshwprv/IVdsLun::AddPlex
 req.header: vds.h
 req.include-header: 

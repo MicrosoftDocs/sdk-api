@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetFirmwareEnvironmentVariableExA
 title: GetFirmwareEnvironmentVariableExA function (winbase.h)
-description: Retrieves the value of the specified firmware environment variable and its attributes.
+description: Retrieves the value of the specified firmware environment variable and its attributes. (ANSI)
 helpviewer_keywords: ["GetFirmwareEnvironmentVariableEx","GetFirmwareEnvironmentVariableEx function","GetFirmwareEnvironmentVariableExA","GetFirmwareEnvironmentVariableExW","base.getfirmwareenvironmentvariableex","winbase/GetFirmwareEnvironmentVariableEx","winbase/GetFirmwareEnvironmentVariableExA","winbase/GetFirmwareEnvironmentVariableExW"]
 old-location: base\getfirmwareenvironmentvariableex.htm
 tech.root: winprog

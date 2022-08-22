@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.get_RequestStoreFlags
 title: IEnroll::get_RequestStoreFlags (xenroll.h)
-description: The RequestStoreFlags property of IEnroll4 sets or retrieves the registry location used for the request store.
+description: The RequestStoreFlags property of IEnroll4 sets or retrieves the registry location used for the request store. (Get)
 helpviewer_keywords: ["IEnroll interface [Security]","RequestStoreFlags property","IEnroll.RequestStoreFlags","IEnroll.get_RequestStoreFlags","IEnroll::RequestStoreFlags","IEnroll::get_RequestStoreFlags","IEnroll::put_RequestStoreFlags","RequestStoreFlags property [Security]","RequestStoreFlags property [Security]","IEnroll interface","get_RequestStoreFlags","security.ienroll4_requeststoreflags","xenroll/IEnroll::RequestStoreFlags","xenroll/IEnroll::get_RequestStoreFlags","xenroll/IEnroll::put_RequestStoreFlags"]
 old-location: security\ienroll4_requeststoreflags.htm
 tech.root: security

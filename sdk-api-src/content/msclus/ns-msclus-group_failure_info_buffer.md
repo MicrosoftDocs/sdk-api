@@ -1,7 +1,7 @@
 ---
 UID: NS:msclus.GROUP_FAILURE_INFO_BUFFER
 title: GROUP_FAILURE_INFO_BUFFER (msclus.h)
-description: Represents a buffer for a GROUP_FAILURE_INFO structure.
+description: Represents a buffer for a GROUP_FAILURE_INFO structure. (GROUP_FAILURE_INFO_BUFFER)
 helpviewer_keywords: ["*PGROUP_FAILURE_INFO_BUFFER","GROUP_FAILURE_INFO_BUFFER","GROUP_FAILURE_INFO_BUFFER structure [Failover Cluster]","PGROUP_FAILURE_INFO_BUFFER","PGROUP_FAILURE_INFO_BUFFER structure pointer [Failover Cluster]","clusapi/GROUP_FAILURE_INFO_BUFFER","clusapi/PGROUP_FAILURE_INFO_BUFFER","msclus/GROUP_FAILURE_INFO_BUFFER","msclus/PGROUP_FAILURE_INFO_BUFFER","mscs.group_failure_info_buffer"]
 old-location: mscs\group_failure_info_buffer.htm
 tech.root: MsCS

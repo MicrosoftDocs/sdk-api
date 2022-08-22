@@ -1,12 +1,12 @@
 ---
 UID: NN:vdshwprv.IVdsHwProviderType2
 title: IVdsHwProviderType2 (vdshwprv.h)
-description: This interface is not implemented. Use IVdsHwProviderType instead.
+description: The IVdsHwProviderType2 interface (vdshwprv.h) is not implemented. Use IVdsHwProviderType interface (vds.h) instead. 
 helpviewer_keywords: ["IVdsHwProviderType2","IVdsHwProviderType2 interface","IVdsHwProviderType2 interface","described","base.ivdshwprovidertype2","vds/IVdsHwProviderType2","vdshwprv/IVdsHwProviderType2"]
 old-location: base\ivdshwprovidertype2.htm
 tech.root: base
 ms.assetid: b75b455a-0b1e-49f4-9181-5cbbf1b5d98c
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsHwProviderType2, IVdsHwProviderType2 interface, IVdsHwProviderType2 interface,described, base.ivdshwprovidertype2, vds/IVdsHwProviderType2, vdshwprv/IVdsHwProviderType2
 req.header: vdshwprv.h
 req.include-header: 

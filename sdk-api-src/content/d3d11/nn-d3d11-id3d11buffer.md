@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11.ID3D11Buffer
 title: ID3D11Buffer (d3d11.h)
-description: A buffer interface accesses a buffer resource, which is unstructured memory. Buffers typically store vertex or index data.
+description: A buffer interface accesses a buffer resource, which is unstructured memory. Buffers typically store vertex or index data. (ID3D11Buffer)
 helpviewer_keywords: ["12286442-1fa2-0c8c-14c5-6c9af4348aee","ID3D11Buffer","ID3D11Buffer interface [Direct3D 11]","ID3D11Buffer interface [Direct3D 11]","described","d3d11/ID3D11Buffer","direct3d11.id3d11buffer"]
 old-location: direct3d11\id3d11buffer.htm
 tech.root: direct3d11

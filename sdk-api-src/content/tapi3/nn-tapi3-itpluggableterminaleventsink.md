@@ -1,7 +1,7 @@
 ---
 UID: NN:tapi3.ITPluggableTerminalEventSink
 title: ITPluggableTerminalEventSink (tapi3.h)
-description: The ITPluggableTerminalEventSink interface provides a method that fires a message to notify client applications about a change in a pluggable terminal.
+description: The ITPluggableTerminalEventSink interface provides a method that fires a message to notify client applications about a change in a pluggable terminal. (ITPluggableTerminalEventSink)
 helpviewer_keywords: ["ITPluggableTerminalEventSink","ITPluggableTerminalEventSink interface [TAPI 2.2]","ITPluggableTerminalEventSink interface [TAPI 2.2]","described","_tapi3_itpluggableterminaleventsink","msp/ITPluggableTerminalEventSink","tapi3.itpluggableterminaleventsink"]
 old-location: tapi3\itpluggableterminaleventsink.htm
 tech.root: tapi3

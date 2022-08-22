@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_modify_s
 title: ldap_modify_s function (winldap.h)
-description: The ldap_modify_s function changes an existing entry.
+description: The ldap_modify_s function changes an existing entry. (ldap_modify_sW)
 helpviewer_keywords: ["_ldap_ldap_modify_s","ldap.ldap__modify__s","ldap.ldap_modify_s","ldap_modify_s","ldap_modify_s function [LDAP]","ldap_modify_sA","ldap_modify_sW","winldap/ldap_modify_s","winldap/ldap_modify_sA","winldap/ldap_modify_sW"]
 old-location: ldap\ldap_modify_s.htm
 tech.root: ldap

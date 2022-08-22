@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3.IEnumQueue.Reset
 title: IEnumQueue::Reset (tapi3.h)
-description: The Reset method resets the enumeration sequence to the beginning.
+description: The Reset method resets the enumeration sequence to the beginning. (IEnumQueue.Reset)
 helpviewer_keywords: ["IEnumQueue interface [TAPI 2.2]","Reset method","IEnumQueue.Reset","IEnumQueue::Reset","Reset","Reset method [TAPI 2.2]","Reset method [TAPI 2.2]","IEnumQueue interface","_tapi3_ienumqueue_reset","tapi3.ienumqueue_reset","tapi3cc/IEnumQueue::Reset"]
 old-location: tapi3\ienumqueue_reset.htm
 tech.root: tapi3

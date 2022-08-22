@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device8.CreatePlacedResource1
 title: ID3D12Device8::CreatePlacedResource1
-description: Creates a resource that is placed in a specific heap. Placed resources are the lightest weight resource objects available, and are the fastest to create and destroy.
+description: Creates a resource that is placed in a specific heap. Placed resources are the lightest weight resource objects available, and are the fastest to create and destroy. (ID3D12Device8::CreatePlacedResource1)
 helpviewer_keywords: ["ID3D12Device8 interface","CreatePlacedResource1 method","ID3D12Device8.CreatePlacedResource1","ID3D12Device8::CreatePlacedResource1","CreatePlacedResource1","CreatePlacedResource1 method","CreatePlacedResource1 method","ID3D12Device8 interface","direct3d12.id3d12device7_createplacedresource1","d3d12/ID3D12Device8::CreatePlacedResource1"]
 tech.root: direct3d12
 ms.date: 09/16/2020

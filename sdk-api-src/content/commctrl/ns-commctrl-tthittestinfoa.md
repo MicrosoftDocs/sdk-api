@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl._TT_HITTESTINFOA
 title: TTHITTESTINFOA (commctrl.h)
-description: Contains information that a tooltip control uses to determine whether a point is in the bounding rectangle of the specified tool. If the point is in the rectangle, the structure receives information about the tool.
+description: Contains information that a tooltip control uses to determine whether a point is in the bounding rectangle of the specified tool. If the point is in the rectangle, the structure receives information about the tool. (ANSI)
 helpviewer_keywords: ["*LPTTHITTESTINFOA","LPHITTESTINFO","LPHITTESTINFO structure pointer [Windows Controls]","TTHITTESTINFO","TTHITTESTINFO structure [Windows Controls]","TTHITTESTINFOA","TTHITTESTINFOW","_win32_TTHITTESTINFO","_win32_TTHITTESTINFO_cpp","commctrl/LPHITTESTINFO","commctrl/TTHITTESTINFO","commctrl/TTHITTESTINFOA","commctrl/TTHITTESTINFOW","controls.TTHITTESTINFO","controls._win32_TTHITTESTINFO"]
 old-location: controls\TTHITTESTINFO.htm
 tech.root: Controls

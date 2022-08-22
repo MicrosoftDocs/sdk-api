@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtEntryCreateA
 title: RpcNsMgmtEntryCreateA function (rpcnsi.h)
-description: The RpcNsMgmtEntryCreate function creates a name service�database entry.
+description: The RpcNsMgmtEntryCreate function creates a name service�database entry. (ANSI)
 helpviewer_keywords: ["RpcNsMgmtEntryCreate","RpcNsMgmtEntryCreate function [RPC]","RpcNsMgmtEntryCreateA","RpcNsMgmtEntryCreateW","_rpc_rpcnsmgmtentrycreate","rpc.rpcnsmgmtentrycreate","rpcnsi/RpcNsMgmtEntryCreate","rpcnsi/RpcNsMgmtEntryCreateA","rpcnsi/RpcNsMgmtEntryCreateW"]
 old-location: rpc\rpcnsmgmtentrycreate.htm
 tech.root: Rpc

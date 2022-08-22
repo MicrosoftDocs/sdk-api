@@ -1,7 +1,7 @@
 ---
 UID: NF:sysinfoapi.SetComputerNameA
 title: SetComputerNameA function (sysinfoapi.h)
-description: Sets a new NetBIOS name for the local computer. The name is stored in the registry and the name change takes effect the next time the user restarts the computer.
+description: Sets a new NetBIOS name for the local computer. The name is stored in the registry and the name change takes effect the next time the user restarts the computer. (ANSI)
 helpviewer_keywords: ["SetComputerName","SetComputerName function","SetComputerNameA","SetComputerNameW","_win32_setcomputername","base.setcomputername","sysinfoapi/SetComputerName","sysinfoapi/SetComputerNameA","sysinfoapi/SetComputerNameW"]
 old-location: base\setcomputername.htm
 tech.root: winprog

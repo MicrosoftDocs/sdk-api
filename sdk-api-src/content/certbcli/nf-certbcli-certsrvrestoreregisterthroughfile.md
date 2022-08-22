@@ -1,7 +1,7 @@
 ---
 UID: NF:certbcli.CertSrvRestoreRegisterThroughFile
 title: CertSrvRestoreRegisterThroughFile function (certbcli.h)
-description: Registers a Certificate Services restore.
+description: Registers a Certificate Services restore. (CertSrvRestoreRegisterThroughFile)
 helpviewer_keywords: ["CertSrvRestoreRegisterThroughFile","CertSrvRestoreRegisterThroughFile function [Security]","certbcli/CertSrvRestoreRegisterThroughFile","security.certsrvrestoreregisterthroughfile"]
 old-location: security\certsrvrestoreregisterthroughfile.htm
 tech.root: security

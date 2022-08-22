@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv._VDS_VERSION_SUPPORT_FLAG
 title: VDS_VERSION_SUPPORT_FLAG (vdshwprv.h)
-description: Indicate which versions of the VDS interfaces are supported.
+description: The VDS_VERSION_SUPPORT_FLAG enumeration (vdshwprv.h) indicates which versions of the VDS interfaces are supported.  
 helpviewer_keywords: ["VDS_VERSION_SUPPORT_FLAG","VDS_VERSION_SUPPORT_FLAG enumeration","VDS_VSF_1_0","VDS_VSF_1_1","VDS_VSF_2_0","VDS_VSF_2_1","VDS_VSF_3_0","base.vds_version_support_flag","vds/VDS_VERSION_SUPPORT_FLAG","vds/VDS_VSF_1_0","vds/VDS_VSF_1_1","vds/VDS_VSF_2_0","vds/VDS_VSF_2_1","vds/VDS_VSF_3_0","vdshwprv/VDS_VERSION_SUPPORT_FLAG","vdshwprv/VDS_VSF_1_0","vdshwprv/VDS_VSF_1_1","vdshwprv/VDS_VSF_2_0","vdshwprv/VDS_VSF_2_1","vdshwprv/VDS_VSF_3_0"]
 old-location: base\vds_version_support_flag.htm
 tech.root: base
 ms.assetid: c145070f-587f-42d7-bde9-3bf0cdba8444
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: VDS_VERSION_SUPPORT_FLAG, VDS_VERSION_SUPPORT_FLAG enumeration, VDS_VSF_1_0, VDS_VSF_1_1, VDS_VSF_2_0, VDS_VSF_2_1, VDS_VSF_3_0, base.vds_version_support_flag, vds/VDS_VERSION_SUPPORT_FLAG, vds/VDS_VSF_1_0, vds/VDS_VSF_1_1, vds/VDS_VSF_2_0, vds/VDS_VSF_2_1, vds/VDS_VSF_3_0, vdshwprv/VDS_VERSION_SUPPORT_FLAG, vdshwprv/VDS_VSF_1_0, vdshwprv/VDS_VSF_1_1, vdshwprv/VDS_VSF_2_0, vdshwprv/VDS_VSF_2_1, vdshwprv/VDS_VSF_3_0
 req.header: vdshwprv.h
 req.include-header: 

@@ -2,9 +2,9 @@
 UID: NN:servprov.IServiceProvider
 tech.root: com
 title: IServiceProvider
-ms.date: 07/01/2021
+ms.date: 08/15/2022
 targetos: Windows
-description: 
+description: The IServiceProvider interface provides a generic access mechanism to locate a GUID-identified service.
 prerelease: false
 req.assembly: 
 req.construct-type: iface

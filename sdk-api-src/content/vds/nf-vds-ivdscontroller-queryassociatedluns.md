@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsController.QueryAssociatedLuns
 title: IVdsController::QueryAssociatedLuns (vds.h)
-description: Returns an enumeration of the LUNs with which the controller is associated�in other words, the LUNs for which the controller is active.
+description: The IVdsController::QueryAssociatedLuns (vds.h) method returns an enumeration of the LUNs with which the controller is associated.
 helpviewer_keywords: ["IVdsController interface [VDS]","QueryAssociatedLuns method","IVdsController.QueryAssociatedLuns","IVdsController::QueryAssociatedLuns","QueryAssociatedLuns","QueryAssociatedLuns method [VDS]","QueryAssociatedLuns method [VDS]","IVdsController interface","base.ivdscontroller_queryassociatedluns","vds/IVdsController::QueryAssociatedLuns","vdshwprv/IVdsController::QueryAssociatedLuns"]
 old-location: base\ivdscontroller_queryassociatedluns.htm
 tech.root: base
 ms.assetid: 832b8d59-6e94-4d62-a31f-4658e9f6102b
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsController interface [VDS],QueryAssociatedLuns method, IVdsController.QueryAssociatedLuns, IVdsController::QueryAssociatedLuns, QueryAssociatedLuns, QueryAssociatedLuns method [VDS], QueryAssociatedLuns method [VDS],IVdsController interface, base.ivdscontroller_queryassociatedluns, vds/IVdsController::QueryAssociatedLuns, vdshwprv/IVdsController::QueryAssociatedLuns
 req.header: vds.h
 req.include-header: 

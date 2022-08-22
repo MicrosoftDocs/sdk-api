@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3.ITAllocatorProperties.GetAllocateBuffers
 title: ITAllocatorProperties::GetAllocateBuffers (tapi3.h)
-description: The GetAllocateBuffers method determines whether the current allocator buffers can be retrieved. If it returns FALSE, the sample that the MST allocated doesn't have any buffers and they must be supplied before Update is called on the samples.
+description: The GetAllocateBuffers method determines whether the current allocator buffers can be retrieved. If it returns FALSE, the sample that the MST allocated doesn't have any buffers and they must be supplied before Update is called on the samples. (ITAllocatorProperties.GetAllocateBuffers)
 helpviewer_keywords: ["GetAllocateBuffers","GetAllocateBuffers method [TAPI 2.2]","GetAllocateBuffers method [TAPI 2.2]","ITAllocatorProperties interface","ITAllocatorProperties interface [TAPI 2.2]","GetAllocateBuffers method","ITAllocatorProperties.GetAllocateBuffers","ITAllocatorProperties::GetAllocateBuffers","_tapi3_itallocatorproperties_getallocatebuffers","tapi3.itallocatorproperties_getallocatebuffers","tapi3ds/ITAllocatorProperties::GetAllocateBuffers"]
 old-location: tapi3\itallocatorproperties_getallocatebuffers.htm
 tech.root: tapi3

@@ -1,7 +1,7 @@
 ---
 UID: NF:iscsidsc.ReportIScsiSendTargetPortalsExA
 title: ReportIScsiSendTargetPortalsExA function (iscsidsc.h)
-description: ReportIscsiSendTargetPortalsEx function retrieves a list of static target portals that the iSCSI initiator service uses to perform automatic discovery with SendTarget requests.
+description: ReportIscsiSendTargetPortalsEx function retrieves a list of static target portals that the iSCSI initiator service uses to perform automatic discovery with SendTarget requests. (ANSI)
 helpviewer_keywords: ["ReportIScsiSendTargetPortalsExA","ReportIscsiSendTargetPortalsEx","ReportIscsiSendTargetPortalsEx function [iSCSI Discovery Library API]","ReportIscsiSendTargetPortalsExA","ReportIscsiSendTargetPortalsExW","iscsidisc.reportiscsisendtargetportalsex","iscsidsc/ReportIscsiSendTargetPortalsEx","iscsidsc/ReportIscsiSendTargetPortalsExA","iscsidsc/ReportIscsiSendTargetPortalsExW"]
 old-location: iscsidisc\reportiscsisendtargetportalsex.htm
 tech.root: iSCSIDisc

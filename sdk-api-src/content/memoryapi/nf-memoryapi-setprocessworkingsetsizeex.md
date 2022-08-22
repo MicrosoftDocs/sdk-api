@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.SetProcessWorkingSetSizeEx
 title: SetProcessWorkingSetSizeEx function (memoryapi.h)
-description: Sets the minimum and maximum working set sizes for the specified process.
+description: Sets the minimum and maximum working set sizes for the specified process. (SetProcessWorkingSetSizeEx)
 helpviewer_keywords: ["QUOTA_LIMITS_HARDWS_MAX_DISABLE","QUOTA_LIMITS_HARDWS_MAX_ENABLE","QUOTA_LIMITS_HARDWS_MIN_DISABLE","QUOTA_LIMITS_HARDWS_MIN_ENABLE","SetProcessWorkingSetSizeEx","SetProcessWorkingSetSizeEx function","base.setprocessworkingsetsizeex","memoryapi/SetProcessWorkingSetSizeEx","winbase/SetProcessWorkingSetSizeEx"]
 old-location: base\setprocessworkingsetsizeex.htm
 tech.root: backup

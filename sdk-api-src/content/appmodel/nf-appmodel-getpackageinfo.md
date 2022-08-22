@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.GetPackageInfo
 title: GetPackageInfo function (appmodel.h)
-description: Gets the package information for the specified package.
+description: Gets the package information for the specified package. (GetPackageInfo)
 helpviewer_keywords: ["GetPackageInfo","GetPackageInfo function [App packaging and management]","appmodel/GetPackageInfo","appxpkg.getpackageinfo"]
 old-location: appxpkg\getpackageinfo.htm
 tech.root: appxpkg

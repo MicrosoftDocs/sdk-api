@@ -1,7 +1,7 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.put_AutoShow
 title: IPenInputPanel::put_AutoShow (peninputpanel.h)
-description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets a value that indicates whether the pen input panel appears when focus is set on the attached control by using the pen.
+description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets a value that indicates whether the pen input panel appears when focus is set on the attached control by using the pen. (IPenInputPanel.put_AutoShow)
 helpviewer_keywords: ["AutoShow property [Tablet PC]","AutoShow property [Tablet PC]","IPenInputPanel interface","IPenInputPanel interface [Tablet PC]","AutoShow property","IPenInputPanel.AutoShow","IPenInputPanel.put_AutoShow","IPenInputPanel::AutoShow","IPenInputPanel::get_AutoShow","IPenInputPanel::put_AutoShow","PenInputPanel.get_AutoShow","PenInputPanel.put_AutoShow","c76533af-9b1d-413b-afa8-972ccfdce329","get_AutoShow","peninputpanel/IPenInputPanel::AutoShow","peninputpanel/IPenInputPanel::get_AutoShow","peninputpanel/IPenInputPanel::put_AutoShow","put_AutoShow","tablet.peninputpanel_autoshow"]
 old-location: tablet\peninputpanel_autoshow.htm
 tech.root: tablet

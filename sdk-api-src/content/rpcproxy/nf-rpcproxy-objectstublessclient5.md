@@ -2,9 +2,9 @@
 UID: NF:rpcproxy.ObjectStublessClient5
 title: ObjectStublessClient5
 tech.root: Rpc
-ms.date: 11/4/2019
+ms.date: 08/15/2022
 targetos: Windows
-description: 
+description: The ObjectStublessClient5 function is a stub function for COM proxies.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

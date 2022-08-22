@@ -1,7 +1,7 @@
 ---
 UID: NF:strsafe.StringCbCopyExW
 title: StringCbCopyExW function (strsafe.h)
-description: Copies one string to another.
+description: Copies one string to another. (StringCbCopyExW)
 helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCbCopyEx","StringCbCopyEx function [Menus and Other Resources]","StringCbCopyExA","StringCbCopyExW","_shell_StringCbCopyEx","_shell_stringcbcopyex_cpp","menurc.stringcbcopyex","strsafe/StringCbCopyEx","strsafe/StringCbCopyExA","strsafe/StringCbCopyExW","winui._shell_stringcbcopyex"]
 old-location: menurc\stringcbcopyex.htm
 tech.root: menurc

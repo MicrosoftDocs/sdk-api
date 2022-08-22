@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHDeleteEmptyKeyW
 title: SHDeleteEmptyKeyW function (shlwapi.h)
-description: Deletes an empty key.
+description: Deletes an empty key. (Unicode)
 helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHDeleteEmptyKey","SHDeleteEmptyKey function [Windows Shell]","SHDeleteEmptyKeyA","SHDeleteEmptyKeyW","_win32_SHDeleteEmptyKey","shell.SHDeleteEmptyKey","shlwapi/SHDeleteEmptyKey","shlwapi/SHDeleteEmptyKeyA","shlwapi/SHDeleteEmptyKeyW"]
 old-location: shell\SHDeleteEmptyKey.htm
 tech.root: shell

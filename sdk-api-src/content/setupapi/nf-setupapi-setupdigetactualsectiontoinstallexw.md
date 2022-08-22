@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiGetActualSectionToInstallExW
 title: SetupDiGetActualSectionToInstallExW function (setupapi.h)
-description: The SetupDiGetActualSectionToInstallEx function retrieves the name of the INF DDInstall section that installs a device for a specified operating system and processor architecture.
+description: The SetupDiGetActualSectionToInstallEx function retrieves the name of the INF DDInstall section that installs a device for a specified operating system and processor architecture. (Unicode)
 helpviewer_keywords: ["SetupDiGetActualSectionToInstallEx","SetupDiGetActualSectionToInstallEx function [Device and Driver Installation]","SetupDiGetActualSectionToInstallExA","SetupDiGetActualSectionToInstallExW","devinst.setupdigetactualsectiontoinstallex","di-rtns_d8baadc3-b6eb-49cb-a8ca-e3f877c2e8e7.xml","setupapi/SetupDiGetActualSectionToInstallEx"]
 old-location: devinst\setupdigetactualsectiontoinstallex.htm
 tech.root: devinst

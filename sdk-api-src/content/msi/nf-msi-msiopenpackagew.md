@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiOpenPackageW
 title: MsiOpenPackageW function (msi.h)
-description: The MsiOpenPackage function opens a package to use with the functions that access the product database.
+description: The MsiOpenPackage function opens a package to use with the functions that access the product database. (Unicode)
 helpviewer_keywords: ["MsiOpenPackage","MsiOpenPackage function","MsiOpenPackageA","MsiOpenPackageW","_msi_msiopenpackage","msi/MsiOpenPackage","msi/MsiOpenPackageA","msi/MsiOpenPackageW","setup.msiopenpackage"]
 old-location: setup\msiopenpackage.htm
 tech.root: setup

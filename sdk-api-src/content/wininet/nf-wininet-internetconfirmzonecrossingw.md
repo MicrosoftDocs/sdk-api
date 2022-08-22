@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.InternetConfirmZoneCrossingW
 title: InternetConfirmZoneCrossingW function (wininet.h)
-description: Checks for changes between secure and nonsecure URLs. Always inform the user when a change occurs in security between two URLs. Typically, an application should allow the user to acknowledge the change through interaction with a dialog box.
+description: Checks for changes between secure and nonsecure URLs. Always inform the user when a change occurs in security between two URLs. Typically, an application should allow the user to acknowledge the change through interaction with a dialog box. (InternetConfirmZoneCrossingW)
 helpviewer_keywords: ["InternetConfirmZoneCrossing","InternetConfirmZoneCrossing function [WinINet]","InternetConfirmZoneCrossingA","InternetConfirmZoneCrossingW","_inet_internetconfirmzonecrossing_function","wininet.internetconfirmzonecrossing","wininet/InternetConfirmZoneCrossing","wininet/InternetConfirmZoneCrossingA","wininet/InternetConfirmZoneCrossingW"]
 old-location: wininet\internetconfirmzonecrossing.htm
 tech.root: wininet

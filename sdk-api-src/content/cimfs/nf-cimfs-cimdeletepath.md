@@ -1,7 +1,8 @@
 ---
 UID: NF:cimfs.CimDeletePath
 title: CimDeletePath
-ms.date: 9/9/2019
+description: The CimDeletePath function removes the file, stream, directory or hardlink at a path relative to the image represented by the image handle.
+ms.date: 08/01/2022
 tech.root: cimfs
 ms.keywords: CimDeletePath
 targetos: Windows

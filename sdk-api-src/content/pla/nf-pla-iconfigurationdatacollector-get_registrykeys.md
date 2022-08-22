@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.get_RegistryKeys
 title: IConfigurationDataCollector::get_RegistryKeys (pla.h)
-description: Retrieves or sets a list of registry keys to collect.
+description: Retrieves or sets a list of registry keys to collect. (Get)
 helpviewer_keywords: ["IConfigurationDataCollector interface [PLA]","RegistryKeys property","IConfigurationDataCollector.RegistryKeys","IConfigurationDataCollector.get_RegistryKeys","IConfigurationDataCollector::RegistryKeys","IConfigurationDataCollector::get_RegistryKeys","IConfigurationDataCollector::put_RegistryKeys","RegistryKeys property [PLA]","RegistryKeys property [PLA]","IConfigurationDataCollector interface","base.iconfigurationdatacollector_registrykeys","get_RegistryKeys","pla.iconfigurationdatacollector_registrykeys","pla/IConfigurationDataCollector::RegistryKeys","pla/IConfigurationDataCollector::get_RegistryKeys","pla/IConfigurationDataCollector::put_RegistryKeys"]
 old-location: pla\iconfigurationdatacollector_registrykeys.htm
 tech.root: PLA

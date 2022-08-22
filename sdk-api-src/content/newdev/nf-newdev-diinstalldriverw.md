@@ -1,12 +1,12 @@
 ---
 UID: NF:newdev.DiInstallDriverW
 title: DiInstallDriverW function (newdev.h)
-description: The DiInstallDriver function preinstalls a driver in the driver store and then installs the driver on devices present in the system that the driver supports.
+description: The DiInstallDriver function preinstalls a driver in the driver store and then installs the driver on devices present in the system that the driver supports. (Unicode)
 helpviewer_keywords: ["DiInstallDriver","DiInstallDriver function [Device and Driver Installation]","DiInstallDriverA","DiInstallDriverW","devinst.diinstalldriver","di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml","newdev/DiInstallDriver"]
 old-location: devinst\diinstalldriver.htm
 tech.root: devinst
 ms.assetid: 7015d05f-235e-42d1-b4e1-9919bbebf185
-ms.date: 12/05/2018
+ms.date: 07/20/2022
 ms.keywords: DiInstallDriver, DiInstallDriver function [Device and Driver Installation], DiInstallDriverA, DiInstallDriverW, devinst.diinstalldriver, di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml, newdev/DiInstallDriver
 req.header: newdev.h
 req.include-header: Newdev.h
@@ -49,7 +49,6 @@ api_name:
 
 # DiInstallDriverW function
 
-
 ## -description
 
 The <b>DiInstallDriver</b> function preinstalls a driver in the <a href="/windows-hardware/drivers/install/driver-store">driver store</a> and then installs the driver on devices present in the system that the driver supports.
@@ -62,7 +61,7 @@ A handle to the top-level window that <b>DiInstallDriver</b> uses to display any
 
 ### -param InfPath [in]
 
-A pointer to a NULL-terminated string that supplies the fully qualified path of the INF file for the <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a>.
+A pointer to a NULL-terminated string that supplies the fully qualified path of the INF file for the [driver package](/windows-hardware/drivers/install/driver-packages).
 
 ### -param Flags [in]
 
@@ -73,6 +72,8 @@ If this flag is zero, <b>DiInstallDriver</b> only installs the specified driver 
 <div class="alert"><b>Caution</b>  Forcing the installation of the driver can result in replacing a more compatible or newer driver with a less compatible or older driver. </div>
 <div> </div>
 For information about how Windows selects a driver for a device, see <a href="/windows-hardware/drivers/install/how-setup-selects-drivers">How Windows Selects Drivers</a>.
+
+If this flag is set to DIIRFLAG_INSTALL_AS_SET (supported on Windows 10 version 1709 and later), _InfPath_ should specify a directory instead of a fully qualified path to an INF file and **DiInstallDriver** will install all INF files in that directory with special behavior.  All [driver packages](/windows-hardware/drivers/install/driver-packages) will get staged into the [Driver Store](/windows-hardware/drivers/install/driver-store) but will not be made available to be installed on devices yet.  On next shutdown of the system, these driver packages will be made available to be installed on devices going forward and they will be installed on any devices they are the best match for such that the devices are ready on next boot of the system.
 
 ### -param NeedReboot [out, optional]
 

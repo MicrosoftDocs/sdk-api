@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHEnumValueW
 title: SHEnumValueW function (shlwapi.h)
-description: Enumerates the values of the specified open registry key.
+description: Enumerates the values of the specified open registry key. (Unicode)
 helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHEnumValue","SHEnumValue function [Windows Shell]","SHEnumValueA","SHEnumValueW","_win32_SHEnumValue","shell.SHEnumValue","shlwapi/SHEnumValue","shlwapi/SHEnumValueA","shlwapi/SHEnumValueW"]
 old-location: shell\SHEnumValue.htm
 tech.root: shell

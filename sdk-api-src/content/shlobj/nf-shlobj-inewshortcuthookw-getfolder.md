@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj.INewShortcutHookW.GetFolder
 title: INewShortcutHookW::GetFolder (shlobj.h)
-description: Gets the folder name for the shortcut object.
+description: Gets the folder name for the shortcut object. (Unicode)
 helpviewer_keywords: ["GetFolder","GetFolder method [Windows Shell]","GetFolder method [Windows Shell]","INewShortcutHook interface","INewShortcutHook interface [Windows Shell]","GetFolder method","INewShortcutHook::GetFolder","INewShortcutHookA","INewShortcutHookA::GetFolder","INewShortcutHookW","INewShortcutHookW.GetFolder","INewShortcutHookW::GetFolder","_win32_INewShortcutHook_GetFolder","shell.INewShortcutHook_GetFolder","shlobj/INewShortcutHook::GetFolder"]
 old-location: shell\INewShortcutHook_GetFolder.htm
 tech.root: shell

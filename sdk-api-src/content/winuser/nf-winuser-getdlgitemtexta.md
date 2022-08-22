@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetDlgItemTextA
 title: GetDlgItemTextA function (winuser.h)
-description: Retrieves the title or text associated with a control in a dialog box.
+description: Retrieves the title or text associated with a control in a dialog box. (ANSI)
 helpviewer_keywords: ["GetDlgItemText","GetDlgItemText function [Dialog Boxes]","GetDlgItemTextA","GetDlgItemTextW","_win32_GetDlgItemText","_win32_getdlgitemtext_cpp","dlgbox.getdlgitemtext","winui._win32_getdlgitemtext","winuser/GetDlgItemText","winuser/GetDlgItemTextA","winuser/GetDlgItemTextW"]
 old-location: dlgbox\getdlgitemtext.htm
 tech.root: dlgbox

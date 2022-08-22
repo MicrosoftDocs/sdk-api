@@ -110,20 +110,11 @@ Older PS/2 keyboards actually transmit Scan Code Set 2 values down the wire from
 
 ## -see-also
 
-<b>Conceptual</b>
-
-[GetRawInputDeviceInfo](nf-winuser-getrawinputdeviceinfoa.md)
-
-[RAWINPUT](ns-winuser-rawinput.md)
-
-[Raw Input](/windows/win32/inputdev/raw-input)
-
-[Keyboard and mouse HID client drivers](/windows-hardware/drivers/hid/keyboard-and-mouse-hid-client-drivers)
-
-<b>Reference</b>
-
-[USB HID to PS/2 Scan Code Translation Table](https://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/translate.pdf)
-
-[PS/2 Keyboard Scan Code Specification](https://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/scancode.doc)
-
-[KEYBOARD_INPUT_DATA structure](../ntddkbd/ns-ntddkbd-keyboard_input_data.md)
+- [GetRawInputDeviceInfo](nf-winuser-getrawinputdeviceinfoa.md)
+- [RAWINPUT](ns-winuser-rawinput.md)
+- [Raw Input](/windows/win32/inputdev/raw-input)
+- [Keyboard and mouse HID client drivers](/windows-hardware/drivers/hid/keyboard-and-mouse-hid-client-drivers)
+- [USB HID to PS/2 Scan Code Translation Table](https://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/translate.pdf)
+- [PS/2 Keyboard Scan Code Specification](https://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/scancode.doc)
+- [KEYBOARD_INPUT_DATA structure](../ntddkbd/ns-ntddkbd-keyboard_input_data.md)
+- <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>

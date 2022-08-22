@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2.IDiscFormat2TrackAtOnceEventArgs
 title: IDiscFormat2TrackAtOnceEventArgs (imapi2.h)
-description: Use this interface to retrieve information about the current write operation.
+description: Use this interface to retrieve information about the current write operation. (IDiscFormat2TrackAtOnceEventArgs)
 helpviewer_keywords: ["IDiscFormat2TrackAtOnceEventArgs","IDiscFormat2TrackAtOnceEventArgs interface [IMAPI]","IDiscFormat2TrackAtOnceEventArgs interface [IMAPI]","described","imapi.idiscformat2trackatonceeventargs","imapi2/IDiscFormat2TrackAtOnceEventArgs"]
 old-location: imapi\idiscformat2trackatonceeventargs.htm
 tech.root: imapi

@@ -1,7 +1,7 @@
 ---
 UID: NF:shellapi.ExtractAssociatedIconExW
 title: ExtractAssociatedIconExW function (shellapi.h)
-description: ExtractAssociatedIconEx may be altered or unavailable.
+description: ExtractAssociatedIconEx may be altered or unavailable. (Unicode)
 helpviewer_keywords: ["ExtractAssociatedIconEx","ExtractAssociatedIconEx function [Windows Shell]","ExtractAssociatedIconExA","ExtractAssociatedIconExW","_win32_ExtractAssociatedIconEx","shell.ExtractAssociatedIconEx","shellapi/ExtractAssociatedIconEx","shellapi/ExtractAssociatedIconExA","shellapi/ExtractAssociatedIconExW"]
 old-location: shell\ExtractAssociatedIconEx.htm
 tech.root: shell

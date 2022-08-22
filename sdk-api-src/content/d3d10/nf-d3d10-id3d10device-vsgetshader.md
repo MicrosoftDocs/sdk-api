@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.VSGetShader
 title: ID3D10Device::VSGetShader (d3d10.h)
-description: Get the vertex shader currently set on the device.
+description: Get the vertex shader currently set on the device. (ID3D10Device.VSGetShader)
 helpviewer_keywords: ["1fa1a739-3ba0-3b6b-7587-a11f859e0693","ID3D10Device interface [Direct3D 10]","VSGetShader method","ID3D10Device.VSGetShader","ID3D10Device::VSGetShader","VSGetShader","VSGetShader method [Direct3D 10]","VSGetShader method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::VSGetShader","direct3d10.id3d10device_vsgetshader"]
 old-location: direct3d10\id3d10device_vsgetshader.htm
 tech.root: direct3d10

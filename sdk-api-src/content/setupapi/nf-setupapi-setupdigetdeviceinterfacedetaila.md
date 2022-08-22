@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceInterfaceDetailA
 title: SetupDiGetDeviceInterfaceDetailA function (setupapi.h)
-description: The SetupDiGetDeviceInterfaceDetail function returns details about a device interface.
+description: The SetupDiGetDeviceInterfaceDetail function returns details about a device interface. (ANSI)
 helpviewer_keywords: ["SetupDiGetDeviceInterfaceDetail","SetupDiGetDeviceInterfaceDetail function [Device and Driver Installation]","SetupDiGetDeviceInterfaceDetailA","SetupDiGetDeviceInterfaceDetailW","devinst.setupdigetdeviceinterfacedetail","di-rtns_5203864c-0bc7-4a59-bdb3-ddda0dbbbf98.xml","setupapi/SetupDiGetDeviceInterfaceDetail"]
 old-location: devinst\setupdigetdeviceinterfacedetail.htm
 tech.root: devinst

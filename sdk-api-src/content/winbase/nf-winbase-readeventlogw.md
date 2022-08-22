@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.ReadEventLogW
 title: ReadEventLogW function (winbase.h)
-description: Reads the specified number of entries from the specified event log.
+description: Reads the specified number of entries from the specified event log. (Unicode)
 helpviewer_keywords: ["EVENTLOG_BACKWARDS_READ","EVENTLOG_FORWARDS_READ","EVENTLOG_SEEK_READ","EVENTLOG_SEQUENTIAL_READ","ReadEventLog","ReadEventLog function","ReadEventLogA","ReadEventLogW","_win32_readeventlog","base.readeventlog","winbase/ReadEventLog","winbase/ReadEventLogA","winbase/ReadEventLogW"]
 old-location: base\readeventlog.htm
 tech.root: base

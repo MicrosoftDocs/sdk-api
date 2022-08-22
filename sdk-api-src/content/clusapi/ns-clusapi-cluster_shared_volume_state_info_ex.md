@@ -1,7 +1,7 @@
 ---
 UID: NS:clusapi._CLUSTER_SHARED_VOLUME_STATE_INFO_EX
 title: CLUSTER_SHARED_VOLUME_STATE_INFO_EX (clusapi.h)
-description: Represents information about the state of a Cluster Shared Volume (CSV).
+description: Represents information about the state of a Cluster Shared Volume (CSV). (CLUSTER_SHARED_VOLUME_STATE_INFO_EX)
 helpviewer_keywords: ["*PCLUSTER_SHARED_VOLUME_STATE_INFO_EX","CLUSTER_SHARED_VOLUME_STATE_INFO_EX","CLUSTER_SHARED_VOLUME_STATE_INFO_EX structure [Failover Cluster]","PCLUSTER_SHARED_VOLUME_STATE_INFO_EX","PCLUSTER_SHARED_VOLUME_STATE_INFO_EX structure pointer [Failover Cluster]","RedirectedIOReasonBitLockerInitializing","RedirectedIOReasonFileSystemTiering","RedirectedIOReasonMax","RedirectedIOReasonReFs","RedirectedIOReasonUnsafeFileSystemFilter","RedirectedIOReasonUnsafeVolumeFilter","RedirectedIOReasonUserRequest","VolumeRedirectedIOReasonMax","VolumeRedirectedIOReasonNoDiskConnectivity","VolumeRedirectedIOReasonStorageSpaceNotAttached","VolumeRedirectedIOReasonVolumeReplicationEnabled","clusapi/CLUSTER_SHARED_VOLUME_STATE_INFO_EX","clusapi/PCLUSTER_SHARED_VOLUME_STATE_INFO_EX","mscs.cluster_shared_volume_state_info_ex"]
 old-location: mscs\cluster_shared_volume_state_info_ex.htm
 tech.root: MsCS

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.RegisterClassExA
 title: RegisterClassExA function (winuser.h)
-description: Registers a window class for subsequent use in calls to the CreateWindow or CreateWindowEx function.
+description: Registers a window class for subsequent use in calls to the CreateWindow or CreateWindowEx function. (RegisterClassExA)
 helpviewer_keywords: ["RegisterClassEx","RegisterClassEx function [Windows and Messages]","RegisterClassExA","RegisterClassExW","_win32_RegisterClassEx","_win32_registerclassex_cpp","winmsg.registerclassex","winui._win32_registerclassex","winuser/RegisterClassEx","winuser/RegisterClassExA","winuser/RegisterClassExW"]
 old-location: winmsg\registerclassex.htm
 tech.root: winmsg

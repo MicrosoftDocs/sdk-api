@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.InternetAutodialHangup
 title: InternetAutodialHangup function (wininet.h)
-description: Disconnects an automatic dial-up connection.
+description: Disconnects an automatic dial-up connection. (InternetAutodialHangup)
 helpviewer_keywords: ["InternetAutodialHangup","InternetAutodialHangup function [WinINet]","_inet_internetautodialhangup_function","wininet.internetautodialhangup","winineti/InternetAutodialHangup"]
 old-location: wininet\internetautodialhangup.htm
 tech.root: wininet

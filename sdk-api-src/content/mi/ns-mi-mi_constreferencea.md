@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_ConstReferenceA
 title: MI_ConstReferenceA (mi.h)
-description: Represents an array of MI_Instance types.
+description: Represents an array of MI_Instance types. (MI_ConstReferenceA)
 helpviewer_keywords: ["MI_ConstReferenceA","MI_ConstReferenceA structure [Windows Management Infrastructure (MI)]","mi/MI_ConstReferenceA","wmi._mi_constreferencea","wmi_v2.mi_constreferencea"]
 old-location: wmi_v2\mi_constreferencea.htm
 tech.root: wmi_v2

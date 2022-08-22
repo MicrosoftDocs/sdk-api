@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.EnumDisplaySettingsA
 title: EnumDisplaySettingsA function (winuser.h)
-description: The EnumDisplaySettings function retrieves information about one of the graphics modes for a display device. To retrieve information for all the graphics modes of a display device, make a series of calls to this function.
+description: The EnumDisplaySettings function retrieves information about one of the graphics modes for a display device. To retrieve information for all the graphics modes of a display device, make a series of calls to this function. (ANSI)
 helpviewer_keywords: ["ENUM_CURRENT_SETTINGS","ENUM_REGISTRY_SETTINGS","EnumDisplaySettings","EnumDisplaySettings function [Windows GDI]","EnumDisplaySettingsA","EnumDisplaySettingsW","_win32_EnumDisplaySettings","gdi.enumdisplaysettings","winuser/EnumDisplaySettings","winuser/EnumDisplaySettingsA","winuser/EnumDisplaySettingsW"]
 old-location: gdi\enumdisplaysettings.htm
 tech.root: gdi

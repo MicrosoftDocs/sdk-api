@@ -1,7 +1,7 @@
 ---
 UID: NF:processenv.ExpandEnvironmentStringsA
 title: ExpandEnvironmentStringsA function (processenv.h)
-description: Expands environment-variable strings and replaces them with the values defined for the current user.
+description: Expands environment-variable strings and replaces them with the values defined for the current user. (ANSI)
 helpviewer_keywords: ["ExpandEnvironmentStrings","ExpandEnvironmentStrings function","ExpandEnvironmentStringsA","ExpandEnvironmentStringsW","_win32_expandenvironmentstrings","base.expandenvironmentstrings","processenv/ExpandEnvironmentStrings","processenv/ExpandEnvironmentStringsA","processenv/ExpandEnvironmentStringsW"]
 old-location: base\expandenvironmentstrings.htm
 tech.root: winprog
@@ -95,7 +95,7 @@ The size of the <i>lpSrc</i> and <i>lpDst</i> buffers is limited to 32K.
 
 To replace folder names in a fully qualified path with their associated environment-variable strings, use the <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathunexpandenvstringsa">PathUnExpandEnvStrings</a> function.
 
-To retrieve the list of environment variables for a process, use the <a href="/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a> function.
+To retrieve the list of environment variables for a process, use the <a href="/windows/win32/api/processenv/nf-processenv-getenvironmentstrings">GetEnvironmentStrings</a> function.
 
 
 #### Examples

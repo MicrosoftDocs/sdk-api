@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11.D3D11_DEPTH_WRITE_MASK
 title: D3D11_DEPTH_WRITE_MASK (d3d11.h)
-description: Identify the portion of a depth-stencil buffer for writing depth data.
+description: Identify the portion of a depth-stencil buffer for writing depth data. (D3D11_DEPTH_WRITE_MASK)
 helpviewer_keywords: ["9c3d009a-7018-dfd4-2e89-34daef69b3b7","D3D11_DEPTH_WRITE_MASK","D3D11_DEPTH_WRITE_MASK enumeration [Direct3D 11]","D3D11_DEPTH_WRITE_MASK_ALL","D3D11_DEPTH_WRITE_MASK_ZERO","d3d11/D3D11_DEPTH_WRITE_MASK","d3d11/D3D11_DEPTH_WRITE_MASK_ALL","d3d11/D3D11_DEPTH_WRITE_MASK_ZERO","direct3d11.d3d11_depth_write_mask"]
 old-location: direct3d11\d3d11_depth_write_mask.htm
 tech.root: direct3d11

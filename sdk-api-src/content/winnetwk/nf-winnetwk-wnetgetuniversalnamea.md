@@ -1,7 +1,7 @@
 ---
 UID: NF:winnetwk.WNetGetUniversalNameA
 title: WNetGetUniversalNameA function (winnetwk.h)
-description: The WNetGetUniversalName function takes a drive-based path for a network resource and returns an information structure that contains a more universal form of the name.
+description: The WNetGetUniversalName function takes a drive-based path for a network resource and returns an information structure that contains a more universal form of the name. (ANSI)
 helpviewer_keywords: ["REMOTE_NAME_INFO_LEVEL","UNIVERSAL_NAME_INFO_LEVEL","WNetGetUniversalName","WNetGetUniversalName function [Windows Networking (WNet)]","WNetGetUniversalNameA","WNetGetUniversalNameW","_win32_wnetgetuniversalname","winnetwk/WNetGetUniversalName","winnetwk/WNetGetUniversalNameA","winnetwk/WNetGetUniversalNameW","wnet.wnetgetuniversalname"]
 old-location: wnet\wnetgetuniversalname.htm
 tech.root: WNet

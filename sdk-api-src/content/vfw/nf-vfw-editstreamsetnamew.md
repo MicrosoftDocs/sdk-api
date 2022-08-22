@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.EditStreamSetNameW
 title: EditStreamSetNameW function (vfw.h)
-description: The EditStreamSetName function assigns a descriptive string to a stream.
+description: The EditStreamSetName function assigns a descriptive string to a stream. (Unicode)
 helpviewer_keywords: ["EditStreamSetName","EditStreamSetName function [Windows Multimedia]","EditStreamSetNameA","EditStreamSetNameW","_win32_EditStreamSetName","multimedia.editstreamsetname","vfw/EditStreamSetName","vfw/EditStreamSetNameA","vfw/EditStreamSetNameW"]
 old-location: multimedia\editstreamsetname.htm
 tech.root: Multimedia

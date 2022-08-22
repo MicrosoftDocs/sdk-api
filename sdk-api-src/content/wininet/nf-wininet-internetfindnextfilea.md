@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.InternetFindNextFileA
 title: InternetFindNextFileA function (wininet.h)
-description: Continues a file search started as a result of a previous call to FtpFindFirstFile.Windows XP and Windows Server 2003 R2 and earlier:  Or continues a file search as a result of a previous call to GopherFindFirstFile.
+description: Continues a file search started as a result of a previous call to FtpFindFirstFile.Windows XP and Windows Server 2003 R2 and earlier:  Or continues a file search as a result of a previous call to GopherFindFirstFile. (ANSI)
 helpviewer_keywords: ["InternetFindNextFile","InternetFindNextFile function [WinINet]","InternetFindNextFileA","InternetFindNextFileW","_inet_internetfindnextfile_function","wininet.internetfindnextfile","wininet/InternetFindNextFile","wininet/InternetFindNextFileA","wininet/InternetFindNextFileW"]
 old-location: wininet\internetfindnextfile.htm
 tech.root: wininet

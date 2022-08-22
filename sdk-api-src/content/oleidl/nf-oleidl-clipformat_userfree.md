@@ -2,9 +2,9 @@
 UID: NF:oleidl.CLIPFORMAT_UserFree
 tech.root: com
 title: CLIPFORMAT_UserFree function (oleidl.h)
-ms.date: 07/08/2022
+ms.date: 08/15/2022
 targetos: Windows
-description: Frees resources on the server side when called by RPC stub files.
+description: The CLIPFORMAT_UserFree function (oleidl.h) frees resources on the server side when called by RPC stub files.
 prerelease: false
 req.assembly: 
 req.construct-type: function

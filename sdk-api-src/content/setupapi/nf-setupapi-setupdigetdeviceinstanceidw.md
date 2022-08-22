@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceInstanceIdW
 title: SetupDiGetDeviceInstanceIdW function (setupapi.h)
-description: The SetupDiGetDeviceInstanceId function retrieves the device instance ID that is associated with a device information element.
+description: The SetupDiGetDeviceInstanceId function retrieves the device instance ID that is associated with a device information element. (Unicode)
 helpviewer_keywords: ["SetupDiGetDeviceInstanceId","SetupDiGetDeviceInstanceId function [Device and Driver Installation]","SetupDiGetDeviceInstanceIdA","SetupDiGetDeviceInstanceIdW","devinst.setupdigetdeviceinstanceid","di-rtns_f7f2bb12-37a0-489f-a1e7-0ca67600876c.xml","setupapi/SetupDiGetDeviceInstanceId"]
 old-location: devinst\setupdigetdeviceinstanceid.htm
 tech.root: devinst

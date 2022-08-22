@@ -1,7 +1,7 @@
 ---
 UID: NF:wincred.CredUnprotectA
 title: CredUnprotectA function (wincred.h)
-description: Decrypts credentials that were previously encrypted by using the CredProtect function.
+description: Decrypts credentials that were previously encrypted by using the CredProtect function. (ANSI)
 helpviewer_keywords: ["CredUnprotect","CredUnprotect function [Security]","CredUnprotectA","CredUnprotectW","security.credunprotect","wincred/CredUnprotect","wincred/CredUnprotectA","wincred/CredUnprotectW"]
 old-location: security\credunprotect.htm
 tech.root: security

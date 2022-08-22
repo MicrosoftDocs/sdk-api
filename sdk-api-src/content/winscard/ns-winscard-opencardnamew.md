@@ -1,7 +1,7 @@
 ---
 UID: NS:winscard.__unnamed_struct_9
 title: OPENCARDNAMEW (winscard.h)
-description: Contains the information that the GetOpenCardName function uses to initialize a smart card Select Card dialog box.
+description: Contains the information that the GetOpenCardName function uses to initialize a smart card Select Card dialog box. (Unicode)
 helpviewer_keywords: ["*LPOPENCARDNAMEW","*POPENCARDNAMEW","LPOPENCARDNAME","LPOPENCARDNAME structure pointer [Security]","OPENCARDNAME","OPENCARDNAME structure [Security]","OPENCARDNAMEA","OPENCARDNAMEW","SC_DLG_FORCE_UI","SC_DLG_MINIMAL_UI","SC_DLG_NO_UI","_smart_opencardname","security.opencardname","winscard/LPOPENCARDNAME","winscard/OPENCARDNAME","winscard/OPENCARDNAMEA","winscard/OPENCARDNAMEW"]
 old-location: security\opencardname.htm
 tech.root: security

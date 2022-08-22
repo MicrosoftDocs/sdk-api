@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_dn2ufnW
 title: ldap_dn2ufnW function (winldap.h)
-description: Converts a distinguished name to a user-friendly format.
+description: Converts a distinguished name to a user-friendly format. (ldap_dn2ufnW)
 helpviewer_keywords: ["_ldap_ldap_dn2ufn","ldap.ldap__dn2ufn","ldap.ldap_dn2ufn","ldap_dn2ufn","ldap_dn2ufn function [LDAP]","ldap_dn2ufnA","ldap_dn2ufnW","winldap/ldap_dn2ufn","winldap/ldap_dn2ufnA","winldap/ldap_dn2ufnW"]
 old-location: ldap\ldap_dn2ufn.htm
 tech.root: ldap

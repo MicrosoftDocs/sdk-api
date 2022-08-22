@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Resource.GetEvictionPriority
 title: ID3D11Resource::GetEvictionPriority (d3d11.h)
-description: Get the eviction priority of a resource.
+description: Get the eviction priority of a resource. (ID3D11Resource.GetEvictionPriority)
 helpviewer_keywords: ["6697dbf5-60e9-3ccc-6423-5ef98be8d001","GetEvictionPriority","GetEvictionPriority method [Direct3D 11]","GetEvictionPriority method [Direct3D 11]","ID3D11Resource interface","ID3D11Resource interface [Direct3D 11]","GetEvictionPriority method","ID3D11Resource.GetEvictionPriority","ID3D11Resource::GetEvictionPriority","d3d11/ID3D11Resource::GetEvictionPriority","direct3d11.id3d11resource_getevictionpriority"]
 old-location: direct3d11\id3d11resource_getevictionpriority.htm
 tech.root: direct3d11

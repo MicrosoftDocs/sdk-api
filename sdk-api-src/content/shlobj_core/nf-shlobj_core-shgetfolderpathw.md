@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHGetFolderPathW
 title: SHGetFolderPathW function (shlobj_core.h)
-description: Deprecated.
+description: Deprecated. (SHGetFolderPathW)
 helpviewer_keywords: ["SHGFP_TYPE_CURRENT","SHGFP_TYPE_DEFAULT","SHGetFolderPath","SHGetFolderPath function [Windows Shell]","SHGetFolderPathA","SHGetFolderPathW","_win32_SHGetFolderPath","_win32_SHGetFolderPath_cpp","shell.SHGetFolderPath","shlobj_core/SHGetFolderPath","shlobj_core/SHGetFolderPathA","shlobj_core/SHGetFolderPathW"]
 old-location: shell\SHGetFolderPath.htm
 tech.root: shell

@@ -1,7 +1,7 @@
 ---
 UID: NF:ntdsapi.DsBindWithCredA
 title: DsBindWithCredA function (ntdsapi.h)
-description: Binds to a domain controller using the specified credentials.
+description: Binds to a domain controller using the specified credentials. (ANSI)
 helpviewer_keywords: ["DsBindWithCred","DsBindWithCred function [Active Directory]","DsBindWithCredA","DsBindWithCredW","_glines_dsbindwithcred","ad.dsbindwithcred","ntdsapi/DsBindWithCred","ntdsapi/DsBindWithCredA","ntdsapi/DsBindWithCredW"]
 old-location: ad\dsbindwithcred.htm
 tech.root: ad

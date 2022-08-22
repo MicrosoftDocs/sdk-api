@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.IntlStrEqNW
 title: IntlStrEqNW macro (shlwapi.h)
-description: Performs a case-sensitive comparison of a specified number of characters from the beginning of two localized strings.
+description: Performs a case-sensitive comparison of a specified number of characters from the beginning of two localized strings. (Unicode)
 helpviewer_keywords: ["IntlStrEqN","IntlStrEqN function [Windows Shell]","IntlStrEqNA","IntlStrEqNW","_win32_IntlStrEqN","shell.IntlStrEqN","shlwapi/IntlStrEqN","shlwapi/IntlStrEqNA","shlwapi/IntlStrEqNW"]
 old-location: shell\IntlStrEqN.htm
 tech.root: shell

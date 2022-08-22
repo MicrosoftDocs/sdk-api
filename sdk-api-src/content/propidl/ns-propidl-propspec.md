@@ -1,7 +1,7 @@
 ---
 UID: NS:propidl.tagPROPSPEC
 title: PROPSPEC (propidl.h)
-description: The PROPSPEC structure is used by many of the methods of IPropertyStorage to specify a property either by its property identifier (ID) or the associated string name.
+description: The PROPSPEC structure is used by many of the methods of IPropertyStorage to specify a property either by its property identifier (ID) or the associated string name. (PROPSPEC)
 helpviewer_keywords: ["PROPSPEC","PROPSPEC [Strctd Stg]","PROPSPEC structure [Structured Storage]","PRSPEC_LPWSTR","PRSPEC_PROPID","_stg_propspec","propidlbase/PROPSPEC","stg.propspec","tagPROPSPEC"]
 old-location: stg\propspec.htm
 tech.root: Stg

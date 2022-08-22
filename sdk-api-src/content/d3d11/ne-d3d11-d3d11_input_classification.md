@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11.D3D11_INPUT_CLASSIFICATION
 title: D3D11_INPUT_CLASSIFICATION (d3d11.h)
-description: Type of data contained in an input slot.
+description: Type of data contained in an input slot. (D3D11_INPUT_CLASSIFICATION)
 helpviewer_keywords: ["1ba65aec-2e16-5faf-79f0-b9d032823fb7","D3D11_INPUT_CLASSIFICATION","D3D11_INPUT_CLASSIFICATION enumeration [Direct3D 11]","D3D11_INPUT_PER_INSTANCE_DATA","D3D11_INPUT_PER_VERTEX_DATA","d3d11/D3D11_INPUT_CLASSIFICATION","d3d11/D3D11_INPUT_PER_INSTANCE_DATA","d3d11/D3D11_INPUT_PER_VERTEX_DATA","direct3d11.d3d11_input_classification"]
 old-location: direct3d11\d3d11_input_classification.htm
 tech.root: direct3d11

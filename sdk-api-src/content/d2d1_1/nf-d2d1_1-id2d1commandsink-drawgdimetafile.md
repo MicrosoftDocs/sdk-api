@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.DrawGdiMetafile
 title: ID2D1CommandSink::DrawGdiMetafile (d2d1_1.h)
-description: Draw a metafile to the device context.
+description: Draw a metafile to the device context. (ID2D1CommandSink.DrawGdiMetafile)
 helpviewer_keywords: ["DrawGdiMetafile","DrawGdiMetafile method [Direct2D]","DrawGdiMetafile method [Direct2D]","ID2D1CommandSink interface","ID2D1CommandSink interface [Direct2D]","DrawGdiMetafile method","ID2D1CommandSink.DrawGdiMetafile","ID2D1CommandSink::DrawGdiMetafile","d2d1_1/ID2D1CommandSink::DrawGdiMetafile","direct2d.id2d1commandsink_drawmetafile"]
 old-location: direct2d\id2d1commandsink_drawmetafile.htm
 tech.root: Direct2D

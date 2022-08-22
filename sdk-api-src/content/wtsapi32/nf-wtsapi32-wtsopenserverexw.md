@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsapi32.WTSOpenServerExW
 title: WTSOpenServerExW function (wtsapi32.h)
-description: Opens a handle to the specified Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server.
+description: Opens a handle to the specified Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server. (Unicode)
 helpviewer_keywords: ["WTSOpenServerEx","WTSOpenServerEx function [Remote Desktop Services]","WTSOpenServerExA","WTSOpenServerExW","termserv.wtsopenserverex","wtsapi32/WTSOpenServerEx","wtsapi32/WTSOpenServerExA","wtsapi32/WTSOpenServerExW"]
 old-location: termserv\wtsopenserverex.htm
 tech.root: TermServ

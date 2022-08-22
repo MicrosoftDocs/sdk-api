@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateEllipseGeometry(constD2D1_ELLIPSE&,ID2D1EllipseGeometry)
 title: ID2D1Factory::CreateEllipseGeometry(const D2D1_ELLIPSE &,ID2D1EllipseGeometry) (d2d1.h)
-description: Creates an ID2D1EllipseGeometry.
+description: Creates an ID2D1EllipseGeometry. (overload 2/2)
 helpviewer_keywords: ["CreateEllipseGeometry","CreateEllipseGeometry method [Direct2D]","CreateEllipseGeometry method [Direct2D]","ID2D1Factory interface","ID2D1Factory interface [Direct2D]","CreateEllipseGeometry method","ID2D1Factory.CreateEllipseGeometry","ID2D1Factory.CreateEllipseGeometry(const D2D1_ELLIPSE &","ID2D1EllipseGeometry)","ID2D1Factory::CreateEllipseGeometry","ID2D1Factory::CreateEllipseGeometry(const D2D1_ELLIPSE &","ID2D1EllipseGeometry)","d2d1/ID2D1Factory::CreateEllipseGeometry","direct2d.ID2D1Factory_CreateEllipseGeometry_ref_D2D1_ELLIPSE_ptr_ptr_ID2D1EllipseGeometry"]
 old-location: direct2d\ID2D1Factory_CreateEllipseGeometry_ref_D2D1_ELLIPSE_ptr_ptr_ID2D1EllipseGeometry.htm
 tech.root: Direct2D

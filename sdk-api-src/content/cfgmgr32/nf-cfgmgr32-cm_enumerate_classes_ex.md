@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_enumerate_classes">CM_Enumerate_Classes</a> instead.]
 
-The <b>CM_Enumerate_Classes_Ex</b> function, when called repeatedly, enumerates a local or a remote machine's installed <a href="/windows-hardware/drivers/">device classes</a>, by supplying each class's GUID.
+The <b>CM_Enumerate_Classes_Ex</b> function, when called repeatedly, enumerates a local or a remote machine's installed <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device classes</a>, by supplying each class's GUID.
 
 ## -parameters
 

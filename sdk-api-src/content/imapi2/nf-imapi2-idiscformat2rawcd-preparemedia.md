@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.PrepareMedia
 title: IDiscFormat2RawCD::PrepareMedia (imapi2.h)
-description: Locks the current media for exclusive access.
+description: Locks the current media for exclusive access. (IDiscFormat2RawCD.PrepareMedia)
 helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","PrepareMedia method","IDiscFormat2RawCD.PrepareMedia","IDiscFormat2RawCD::PrepareMedia","PrepareMedia","PrepareMedia method [IMAPI]","PrepareMedia method [IMAPI]","IDiscFormat2RawCD interface","imapi.idiscformat2rawcd_preparemedia","imapi2/IDiscFormat2RawCD::PrepareMedia"]
 old-location: imapi\idiscformat2rawcd_preparemedia.htm
 tech.root: imapi

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10.D3D10_TEXTURE2D_DESC
 title: D3D10_TEXTURE2D_DESC (d3d10.h)
-description: Describes a 2D texture.
+description: Describes a 2D texture. (D3D10_TEXTURE2D_DESC)
 helpviewer_keywords: ["53736d47-a636-d91b-ae36-38e32953d08c","CD3D10_TEXTURE2D_DESC","D3D10_TEXTURE2D_DESC","D3D10_TEXTURE2D_DESC structure [Direct3D 10]","d3d10/D3D10_TEXTURE2D_DESC","direct3d10.d3d10_texture2d_desc"]
 old-location: direct3d10\d3d10_texture2d_desc.htm
 tech.root: direct3d10

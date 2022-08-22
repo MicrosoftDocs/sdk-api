@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbResourceNotification.NotifyClientConnectionStateChange
 title: ITsSbResourceNotification::NotifyClientConnectionStateChange (sbtsv.h)
-description: Notifies registered plug-ins about state changes in a client connection.
+description: Notifies registered plug-ins about state changes in a client connection. (ITsSbResourceNotification.NotifyClientConnectionStateChange)
 helpviewer_keywords: ["CONNECTION_REQUEST_CANCELLED","CONNECTION_REQUEST_FAILED","CONNECTION_REQUEST_PENDING","CONNECTION_REQUEST_SUCCEEDED","CONNECTION_REQUEST_TIMEDOUT","ITsSbResourceNotification interface [Remote Desktop Services]","NotifyClientConnectionStateChange method","ITsSbResourceNotification.NotifyClientConnectionStateChange","ITsSbResourceNotification::NotifyClientConnectionStateChange","NotifyClientConnectionStateChange","NotifyClientConnectionStateChange method [Remote Desktop Services]","NotifyClientConnectionStateChange method [Remote Desktop Services]","ITsSbResourceNotification interface","sbtsv/ITsSbResourceNotification::NotifyClientConnectionStateChange","termserv.itssbresourcenotification_notifyclientconnectionstatechange"]
 old-location: termserv\itssbresourcenotification_notifyclientconnectionstatechange.htm
 tech.root: TermServ

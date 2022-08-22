@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3cc.ITAgentSession.get_Agent
 title: ITAgentSession::get_Agent (tapi3cc.h)
-description: The get_Agent method gets a pointer to the ITAgent interface associated with this session.
+description: The get_Agent method gets a pointer to the ITAgent interface associated with this session. (ITAgentSession.get_Agent)
 helpviewer_keywords: ["ITAgentSession interface [TAPI 2.2]","get_Agent method","ITAgentSession.get_Agent","ITAgentSession::get_Agent","_tapi3_itagentsession_get_agent","get_Agent","get_Agent method [TAPI 2.2]","get_Agent method [TAPI 2.2]","ITAgentSession interface","tapi3.itagentsession_get_agent","tapi3cc/ITAgentSession::get_Agent"]
 old-location: tapi3\itagentsession_get_agent.htm
 tech.root: tapi3

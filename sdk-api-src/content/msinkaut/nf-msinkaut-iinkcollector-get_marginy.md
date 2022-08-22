@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_MarginY
 title: IInkCollector::get_MarginY (msinkaut.h)
-description: Gets or sets the y-axis margin around the window rectangle, in screen coordinates.This margin provides a buffer around the edge of the ink window.
+description: Gets or sets the y-axis margin around the window rectangle, in screen coordinates.This margin provides a buffer around the edge of the ink window. (IInkCollector.get_MarginY)
 helpviewer_keywords: ["6cba076e-6392-4f0a-a80d-3df903d0ba13","IInkCollector interface [Tablet PC]","MarginY property","IInkCollector.MarginY","IInkCollector.get_MarginY","IInkCollector::MarginY","IInkCollector::get_MarginY","IInkCollector::put_MarginY","InkCollector.get_MarginY","InkCollector.put_MarginY","MarginY property [Tablet PC]","MarginY property [Tablet PC]","IInkCollector interface","get_MarginY","msinkaut/IInkCollector::MarginY","msinkaut/IInkCollector::get_MarginY","msinkaut/IInkCollector::put_MarginY","tablet.inkcollector_marginy"]
 old-location: tablet\inkcollector_marginy.htm
 tech.root: tablet

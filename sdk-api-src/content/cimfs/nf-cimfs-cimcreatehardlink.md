@@ -1,7 +1,8 @@
 ---
 UID: NF:cimfs.CimCreateHardLink
 title: CimCreateHardLink
-ms.date: 9/9/2019
+description: The CimCreateHardLink function adds a hard link to an existing path relative to the image represented by the image handle.
+ms.date: 08/01/2022
 tech.root: cimfs
 ms.keywords: CimCreateHardLink
 targetos: Windows

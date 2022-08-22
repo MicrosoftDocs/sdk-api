@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11sdklayers.ID3D11Debug
 title: ID3D11Debug (d3d11sdklayers.h)
-description: A debug interface controls debug settings, validates pipeline state and can only be used if the debug layer is turned on.
+description: A debug interface controls debug settings, validates pipeline state and can only be used if the debug layer is turned on. (ID3D11Debug)
 helpviewer_keywords: ["ID3D11Debug","ID3D11Debug interface [Direct3D 11]","ID3D11Debug interface [Direct3D 11]","described","b037763f-251a-579c-a6cb-8e5097410d05","d3d11sdklayers/ID3D11Debug","direct3d11.id3d11debug"]
 old-location: direct3d11\id3d11debug.htm
 tech.root: direct3d11

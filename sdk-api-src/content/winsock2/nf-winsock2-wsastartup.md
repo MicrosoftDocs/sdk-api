@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.WSAStartup
 title: WSAStartup function (winsock2.h)
-description: Initiates use of the Winsock DLL by a process.
+description: Initiates use of the Winsock DLL by a process. (WSAStartup)
 helpviewer_keywords: ["WSAStartup","WSAStartup function [Winsock]","_win32_wsastartup_2","winsock.wsastartup_2","winsock/WSAStartup"]
 old-location: winsock\wsastartup_2.htm
 tech.root: WinSock

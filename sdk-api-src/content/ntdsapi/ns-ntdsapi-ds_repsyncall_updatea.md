@@ -1,7 +1,7 @@
 ---
 UID: NS:ntdsapi.__unnamed_struct_8
 title: DS_REPSYNCALL_UPDATEA (ntdsapi.h)
-description: The DS_REPSYNCALL_UPDATE structure contains status data about the replication performed by the DsReplicaSyncAll function.
+description: The DS_REPSYNCALL_UPDATE structure contains status data about the replication performed by the DsReplicaSyncAll function. (ANSI)
 helpviewer_keywords: ["*PDS_REPSYNCALL_UPDATEA","DS_REPSYNCALL_UPDATE","DS_REPSYNCALL_UPDATE structure [Active Directory]","DS_REPSYNCALL_UPDATEA","DS_REPSYNCALL_UPDATEW","PDS_REPSYNCALL_UPDATE","PDS_REPSYNCALL_UPDATE structure pointer [Active Directory]","_glines_ds_repsyncall_update","ad.ds__repsyncall__update","ad.ds_repsyncall_update","ntdsapi/DS_REPSYNCALL_UPDATE","ntdsapi/DS_REPSYNCALL_UPDATEA","ntdsapi/DS_REPSYNCALL_UPDATEW","ntdsapi/PDS_REPSYNCALL_UPDATE"]
 old-location: ad\ds_repsyncall_update.htm
 tech.root: ad

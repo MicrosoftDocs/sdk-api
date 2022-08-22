@@ -1,12 +1,12 @@
 ---
 UID: NE:vds._VDS_RECOVER_ACTION
 title: VDS_RECOVER_ACTION (vds.h)
-description: This enumeration is reserved for system use.
+description: The VDS_RECOVER_ACTION (vds.h) enumeration is reserved for system use.
 helpviewer_keywords: ["VDS_RECOVER_ACTION","VDS_RECOVER_ACTION enumeration","base.vds_recover_action","vds/VDS_RECOVER_ACTION","vdshwprv/VDS_RECOVER_ACTION"]
 old-location: base\vds_recover_action.htm
 tech.root: base
 ms.assetid: 478c133b-36f3-426c-a1b3-5691e312ce5a
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_RECOVER_ACTION, VDS_RECOVER_ACTION enumeration, base.vds_recover_action, vds/VDS_RECOVER_ACTION, vdshwprv/VDS_RECOVER_ACTION
 req.header: vds.h
 req.include-header: 

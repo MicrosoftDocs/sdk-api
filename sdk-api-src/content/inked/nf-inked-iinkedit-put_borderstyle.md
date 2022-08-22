@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.put_BorderStyle
 title: IInkEdit::put_BorderStyle (inked.h)
-description: Gets or sets a value that determines whether the InkEdit control has a border.
+description: Gets or sets a value that determines whether the InkEdit control has a border. (Put)
 helpviewer_keywords: ["BorderStyle property [Tablet PC]","BorderStyle property [Tablet PC]","IInkEdit interface","IInkEdit interface [Tablet PC]","BorderStyle property","IInkEdit.BorderStyle","IInkEdit.put_BorderStyle","IInkEdit::BorderStyle","IInkEdit::get_BorderStyle","IInkEdit::put_BorderStyle","InkEdit.get_BorderStyle","InkEdit.put_BorderStyle","get_BorderStyle","inked/IInkEdit::BorderStyle","inked/IInkEdit::get_BorderStyle","inked/IInkEdit::put_BorderStyle","put_BorderStyle","rtfFixedSingle","rtfNoBorder","tablet.inkedit_borderstyle"]
 old-location: tablet\inkedit_borderstyle.htm
 tech.root: tablet

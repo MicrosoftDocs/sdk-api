@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.EnumDisplaySettingsExW
 title: EnumDisplaySettingsExW function (winuser.h)
-description: The EnumDisplaySettingsEx function retrieves information about one of the graphics modes for a display device. To retrieve information for all the graphics modes for a display device, make a series of calls to this function.
+description: The EnumDisplaySettingsEx function retrieves information about one of the graphics modes for a display device. To retrieve information for all the graphics modes for a display device, make a series of calls to this function. (Unicode)
 helpviewer_keywords: ["EDS_RAWMODE","EDS_ROTATEDMODE","ENUM_CURRENT_SETTINGS","ENUM_REGISTRY_SETTINGS","EnumDisplaySettingsEx","EnumDisplaySettingsEx function [Windows GDI]","EnumDisplaySettingsExA","EnumDisplaySettingsExW","_win32_EnumDisplaySettingsEx","gdi.enumdisplaysettingsex","winuser/EnumDisplaySettingsEx","winuser/EnumDisplaySettingsExA","winuser/EnumDisplaySettingsExW"]
 old-location: gdi\enumdisplaysettingsex.htm
 tech.root: gdi

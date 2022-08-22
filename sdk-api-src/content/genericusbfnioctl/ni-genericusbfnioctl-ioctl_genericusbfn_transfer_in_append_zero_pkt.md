@@ -1,7 +1,7 @@
 ---
 UID: NI:genericusbfnioctl.IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT
 title: IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT (genericusbfnioctl.h)
-description: This I/O control code (IOCTL) is sent by a user-mode service or application to issue an IN direction transfer on the endpoint that corresponds to the specified pipe ID in the input buffer.
+description: This I/O control code (IOCTL) is sent by a user-mode service or application to issue an IN direction transfer on the endpoint that corresponds to the specified pipe ID in the input buffer. (IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT)
 helpviewer_keywords: ["IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT","IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT control","IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT control code [Buses]","buses.ioctl_genericusbfn_transfer_in_append_zero_pkt","genericusbfnioctl/IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT"]
 old-location: buses\ioctl_genericusbfn_transfer_in_append_zero_pkt.htm
 tech.root: buses

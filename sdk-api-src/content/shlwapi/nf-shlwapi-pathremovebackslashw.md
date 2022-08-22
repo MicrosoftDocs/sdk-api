@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathRemoveBackslashW
 title: PathRemoveBackslashW function (shlwapi.h)
-description: Removes the trailing backslash from a given path.
+description: Removes the trailing backslash from a given path. (Unicode)
 helpviewer_keywords: ["PathRemoveBackslash","PathRemoveBackslash function [Windows Shell]","PathRemoveBackslashA","PathRemoveBackslashW","_win32_PathRemoveBackslash","shell.PathRemoveBackslash","shlwapi/PathRemoveBackslash","shlwapi/PathRemoveBackslashA","shlwapi/PathRemoveBackslashW"]
 old-location: shell\PathRemoveBackslash.htm
 tech.root: shell

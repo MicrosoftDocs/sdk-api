@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.linePrepareAddToConferenceW
 title: linePrepareAddToConferenceW function (tapi.h)
-description: The linePrepareAddToConference function prepares an existing conference call for the addition of another party.
+description: The linePrepareAddToConference function prepares an existing conference call for the addition of another party. (linePrepareAddToConferenceW)
 helpviewer_keywords: ["_tapi2_lineprepareaddtoconference","linePrepareAddToConference","linePrepareAddToConference function [TAPI 2.2]","linePrepareAddToConferenceA","linePrepareAddToConferenceW","tapi/linePrepareAddToConference","tapi/linePrepareAddToConferenceA","tapi/linePrepareAddToConferenceW","tapi2.lineprepareaddtoconference"]
 old-location: tapi2\lineprepareaddtoconference.htm
 tech.root: tapi3

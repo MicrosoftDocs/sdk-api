@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasDeleteEntryW
 title: RasDeleteEntryW function (ras.h)
-description: The RasDeleteEntry function deletes an entry from a phone book.
+description: The RasDeleteEntry function deletes an entry from a phone book. (Unicode)
 helpviewer_keywords: ["RasDeleteEntry","RasDeleteEntry function [RAS]","RasDeleteEntryA","RasDeleteEntryW","_ras_rasdeleteentry","ras/RasDeleteEntry","ras/RasDeleteEntryA","ras/RasDeleteEntryW","rras.rasdeleteentry"]
 old-location: rras\rasdeleteentry.htm
 tech.root: RRAS

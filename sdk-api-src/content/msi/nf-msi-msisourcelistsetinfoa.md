@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiSourceListSetInfoA
 title: MsiSourceListSetInfoA function (msi.h)
-description: Sets information about the source list for a product or patch in a specific context.
+description: Sets information about the source list for a product or patch in a specific context. (ANSI)
 helpviewer_keywords: ["INSTALLPROPERTY_DISKPROMPT","INSTALLPROPERTY_LASTUSEDSOURCE","INSTALLPROPERTY_MEDIAPACKAGEPATH","INSTALLPROPERTY_PACKAGENAME","MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MSISOURCETYPE_NETWORK","MSISOURCETYPE_URL","MsiSourceListSetInfo","MsiSourceListSetInfo function","MsiSourceListSetInfoA","MsiSourceListSetInfoW","NULL","User SID","msi/MsiSourceListSetInfo","msi/MsiSourceListSetInfoA","msi/MsiSourceListSetInfoW","setup.msisourcelistsetinfo"]
 old-location: setup\msisourcelistsetinfo.htm
 tech.root: setup

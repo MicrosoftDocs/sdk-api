@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiClassNameFromGuidW
 title: SetupDiClassNameFromGuidW function (setupapi.h)
-description: The SetupDiClassNameFromGuid function retrieves the class name associated with a class GUID.
+description: The SetupDiClassNameFromGuid function retrieves the class name associated with a class GUID. (Unicode)
 helpviewer_keywords: ["SetupDiClassNameFromGuid","SetupDiClassNameFromGuid function [Device and Driver Installation]","SetupDiClassNameFromGuidA","SetupDiClassNameFromGuidW","devinst.setupdiclassnamefromguid","di-rtns_b17476f2-25e2-48ed-be4d-53af55541056.xml","setupapi/SetupDiClassNameFromGuid"]
 old-location: devinst\setupdiclassnamefromguid.htm
 tech.root: devinst

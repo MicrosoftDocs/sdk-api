@@ -1,7 +1,7 @@
 ---
 UID: NF:ntdsapi.DsFreeSchemaGuidMapA
 title: DsFreeSchemaGuidMapA function (ntdsapi.h)
-description: Frees memory that the DsMapSchemaGuids function has allocated for a DS_SCHEMA_GUID_MAP structure.
+description: Frees memory that the DsMapSchemaGuids function has allocated for a DS_SCHEMA_GUID_MAP structure. (ANSI)
 helpviewer_keywords: ["DsFreeSchemaGuidMap","DsFreeSchemaGuidMap function [Active Directory]","DsFreeSchemaGuidMapA","DsFreeSchemaGuidMapW","_glines_dsfreeschemaguidmap","ad.dsfreeschemaguidmap","ntdsapi/DsFreeSchemaGuidMap","ntdsapi/DsFreeSchemaGuidMapA","ntdsapi/DsFreeSchemaGuidMapW"]
 old-location: ad\dsfreeschemaguidmap.htm
 tech.root: ad

@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortal.QueryAssociatedPortalGroups
 title: IVdsIscsiPortal::QueryAssociatedPortalGroups (vdshwprv.h)
-description: Returns an enumeration of the portal groups with which the portal is associated.
+description: The IVdsIscsiPortal::QueryAssociatedPortalGroups (vdshwprv.h) method returns an enumeration of the portal groups with which the portal is associated.
 helpviewer_keywords: ["IVdsIscsiPortal interface [VDS]","QueryAssociatedPortalGroups method","IVdsIscsiPortal.QueryAssociatedPortalGroups","IVdsIscsiPortal::QueryAssociatedPortalGroups","QueryAssociatedPortalGroups","QueryAssociatedPortalGroups method [VDS]","QueryAssociatedPortalGroups method [VDS]","IVdsIscsiPortal interface","base.ivdsiscsiportal_queryassociatedportalgroups","vds/IVdsIscsiPortal::QueryAssociatedPortalGroups","vdshwprv/IVdsIscsiPortal::QueryAssociatedPortalGroups"]
 old-location: base\ivdsiscsiportal_queryassociatedportalgroups.htm
 tech.root: base
 ms.assetid: 6b8dbfc8-9112-4ca9-9976-ac3bf859588d
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsIscsiPortal interface [VDS],QueryAssociatedPortalGroups method, IVdsIscsiPortal.QueryAssociatedPortalGroups, IVdsIscsiPortal::QueryAssociatedPortalGroups, QueryAssociatedPortalGroups, QueryAssociatedPortalGroups method [VDS], QueryAssociatedPortalGroups method [VDS],IVdsIscsiPortal interface, base.ivdsiscsiportal_queryassociatedportalgroups, vds/IVdsIscsiPortal::QueryAssociatedPortalGroups, vdshwprv/IVdsIscsiPortal::QueryAssociatedPortalGroups
 req.header: vdshwprv.h
 req.include-header: 

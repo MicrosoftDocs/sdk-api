@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.FileEncryptionStatusA
 title: FileEncryptionStatusA function (winbase.h)
-description: Retrieves the encryption status of the specified file.
+description: Retrieves the encryption status of the specified file. (ANSI)
 helpviewer_keywords: ["FILE_ENCRYPTABLE","FILE_IS_ENCRYPTED","FILE_READ_ONLY","FILE_ROOT_DIR","FILE_SYSTEM_ATTR","FILE_SYSTEM_DIR","FILE_SYSTEM_NOT_SUPPORT","FILE_UNKNOWN","FILE_USER_DISALLOWED","FileEncryptionStatus","FileEncryptionStatus function [Files]","FileEncryptionStatusA","FileEncryptionStatusW","_win32_fileencryptionstatus","base.fileencryptionstatus","fs.fileencryptionstatus","winbase/FileEncryptionStatus","winbase/FileEncryptionStatusA","winbase/FileEncryptionStatusW"]
 old-location: fs\fileencryptionstatus.htm
 tech.root: fs

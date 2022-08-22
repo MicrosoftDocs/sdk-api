@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_1.IDWriteFactory1
 title: IDWriteFactory1 (dwrite_1.h)
-description: The root factory interface for all DirectWrite objects.
+description: The root factory interface for all DirectWrite objects. (IDWriteFactory1)
 helpviewer_keywords: ["IDWriteFactory1","IDWriteFactory1 interface [Direct Write]","IDWriteFactory1 interface [Direct Write]","described","directwrite.idwritefactory1","dwrite_1/IDWriteFactory1"]
 old-location: directwrite\idwritefactory1.htm
 tech.root: DirectWrite

@@ -1,12 +1,12 @@
 ---
 UID: NS:vdshwprv._VDS_CONTROLLER_NOTIFICATION
 title: VDS_CONTROLLER_NOTIFICATION (vdshwprv.h)
-description: Defines the details of controller events.
+description: The VDS_CONTROLLER_NOTIFICATION structure (vdshwprv.h) defines the details of controller events.
 helpviewer_keywords: ["VDS_CONTROLLER_NOTIFICATION","VDS_CONTROLLER_NOTIFICATION structure [VDS]","VDS_NF_CONTROLLER_ARRIVE","VDS_NF_CONTROLLER_DEPART","VDS_NF_CONTROLLER_MODIFY","VDS_NF_CONTROLLER_REMOVED","base.vds_controller_notification","vds/_VDS_CONTROLLER_NOTIFICATION","vdshwprv/_VDS_CONTROLLER_NOTIFICATION"]
 old-location: base\vds_controller_notification.htm
 tech.root: base
 ms.assetid: de2aa5d8-b9b0-4e3d-9846-e886ac1d4241
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: VDS_CONTROLLER_NOTIFICATION, VDS_CONTROLLER_NOTIFICATION structure [VDS], VDS_NF_CONTROLLER_ARRIVE, VDS_NF_CONTROLLER_DEPART, VDS_NF_CONTROLLER_MODIFY, VDS_NF_CONTROLLER_REMOVED, base.vds_controller_notification, vds/_VDS_CONTROLLER_NOTIFICATION, vdshwprv/_VDS_CONTROLLER_NOTIFICATION
 req.header: vdshwprv.h
 req.include-header: 

@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagENUMLOGFONTEXW
 title: ENUMLOGFONTEXW (wingdi.h)
-description: The ENUMLOGFONTEX structure contains information about an enumerated font.
+description: The ENUMLOGFONTEX structure contains information about an enumerated font. (Unicode)
 helpviewer_keywords: ["*LPENUMLOGFONTEXW","ENUMLOGFONTEX","ENUMLOGFONTEX structure [Windows GDI]","ENUMLOGFONTEXA","ENUMLOGFONTEXW","LPENUMLOGFONTEX","LPENUMLOGFONTEX structure pointer [Windows GDI]","_win32_ENUMLOGFONTEX_str","gdi.enumlogfontex","wingdi/ENUMLOGFONTEX","wingdi/ENUMLOGFONTEXA","wingdi/ENUMLOGFONTEXW","wingdi/LPENUMLOGFONTEX"]
 old-location: gdi\enumlogfontex.htm
 tech.root: gdi

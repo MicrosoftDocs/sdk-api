@@ -1,7 +1,7 @@
 ---
 UID: NF:processthreadsapi.CreateProcessW
 title: CreateProcessW function (processthreadsapi.h)
-description: Creates a new process and its primary thread. The new process runs in the security context of the calling process.
+description: Creates a new process and its primary thread. The new process runs in the security context of the calling process. (Unicode)
 helpviewer_keywords: ["CreateProcess","CreateProcess function","CreateProcessA","CreateProcessW","_win32_createprocess","base.createprocess","processthreadsapi/CreateProcess","processthreadsapi/CreateProcessA","processthreadsapi/CreateProcessW","winbase/CreateProcess","winbase/CreateProcessA","winbase/CreateProcessW"]
 old-location: base\createprocess.htm
 tech.root: backup

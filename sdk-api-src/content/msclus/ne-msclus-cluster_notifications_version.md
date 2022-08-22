@@ -1,7 +1,7 @@
 ---
 UID: NE:msclus.CLUSTER_NOTIFICATIONS_VERSION
 title: CLUSTER_NOTIFICATIONS_VERSION (msclus.h)
-description: Defines the various versions of cluster notification enumerations.
+description: Defines the various versions of cluster notification enumerations. (CLUSTER_NOTIFICATIONS_VERSION)
 helpviewer_keywords: ["CLUSTER_NOTIFICATIONS_V1","CLUSTER_NOTIFICATIONS_V2","CLUSTER_NOTIFICATIONS_VERSION","CLUSTER_NOTIFICATIONS_VERSION enumeration [Failover Cluster]","clusapi/CLUSTER_NOTIFICATIONS_V1","clusapi/CLUSTER_NOTIFICATIONS_V2","clusapi/CLUSTER_NOTIFICATIONS_VERSION","msclus/CLUSTER_NOTIFICATIONS_V1","msclus/CLUSTER_NOTIFICATIONS_V2","msclus/CLUSTER_NOTIFICATIONS_VERSION","mscs.cluster_notifications_version"]
 old-location: mscs\cluster_notifications_version.htm
 tech.root: MsCS

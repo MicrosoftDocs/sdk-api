@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CreateHardLinkW
 title: CreateHardLinkW function (winbase.h)
-description: Establishes a hard link between an existing file and a new file.
+description: Establishes a hard link between an existing file and a new file. (Unicode)
 helpviewer_keywords: ["CreateHardLink","CreateHardLink function [Files]","CreateHardLinkA","CreateHardLinkW","_win32_createhardlink","base.createhardlink","fs.createhardlink","winbase/CreateHardLink","winbase/CreateHardLinkA","winbase/CreateHardLinkW"]
 old-location: fs\createhardlink.htm
 tech.root: fs

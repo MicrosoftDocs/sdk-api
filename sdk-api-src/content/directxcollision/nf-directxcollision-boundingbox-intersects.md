@@ -1,10 +1,10 @@
 ---
 UID: NF:directxcollision.BoundingBox.Intersects
 title: BoundingBox::Intersects
-description: 
+description: The BoundingBox::Intersects function (directxcollision.h) tests the BoundingBox for intersection with a BoundingSphere.
 tech.root: dxmath
 helpviewer_keywords: ["BoundingBox::Intersects"]
-ms.date: 04/22/2019
+ms.date: 08/12/2022
 ms.keywords: BoundingBox::Intersects
 targetos: Windows
 req.assembly: 

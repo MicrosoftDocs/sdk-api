@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.linePickup
 title: linePickup function (tapi.h)
-description: The linePickup function picks up a call alerting at the specified destination address and returns a call handle for the picked-up call.
+description: The linePickup function picks up a call alerting at the specified destination address and returns a call handle for the picked-up call. (linePickupW)
 helpviewer_keywords: ["_tapi2_linepickup","linePickup","linePickup function [TAPI 2.2]","linePickupA","linePickupW","tapi/linePickup","tapi/linePickupA","tapi/linePickupW","tapi2.linepickup"]
 old-location: tapi2\linepickup.htm
 tech.root: tapi3

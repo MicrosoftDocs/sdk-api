@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplications.get__NewEnum
 title: IAzApplications::get__NewEnum (azroles.h)
-description: Retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
+description: Retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript). (IAzApplications.get__NewEnum)
 helpviewer_keywords: ["AzApplications object [Security]","_NewEnum property","IAzApplications interface [Security]","_NewEnum property","IAzApplications._NewEnum","IAzApplications.get__NewEnum","IAzApplications::_NewEnum","IAzApplications::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","AzApplications object","_NewEnum property [Security]","IAzApplications interface","azroles/IAzApplications::_NewEnum","azroles/IAzApplications::get__NewEnum","get__NewEnum","security.iazapplications_newenum"]
 old-location: security\iazapplications_newenum.htm
 tech.root: security

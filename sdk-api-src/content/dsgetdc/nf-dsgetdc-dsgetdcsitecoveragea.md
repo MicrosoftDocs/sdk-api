@@ -1,7 +1,7 @@
 ---
 UID: NF:dsgetdc.DsGetDcSiteCoverageA
 title: DsGetDcSiteCoverageA function (dsgetdc.h)
-description: The DsGetDcSiteCoverage function returns the site names of all sites covered by a domain controller.
+description: The DsGetDcSiteCoverage function returns the site names of all sites covered by a domain controller. (ANSI)
 helpviewer_keywords: ["DsGetDcSiteCoverage","DsGetDcSiteCoverage function [Active Directory]","DsGetDcSiteCoverageA","DsGetDcSiteCoverageW","_glines_dsgetdcsitecoverage","ad.dsgetdcsitecoverage","dsgetdc/DsGetDcSiteCoverage","dsgetdc/DsGetDcSiteCoverageA","dsgetdc/DsGetDcSiteCoverageW"]
 old-location: ad\dsgetdcsitecoverage.htm
 tech.root: ad

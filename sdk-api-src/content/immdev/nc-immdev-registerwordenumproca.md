@@ -1,12 +1,12 @@
 ---
 UID: NC:immdev.REGISTERWORDENUMPROCA
 title: REGISTERWORDENUMPROCA (immdev.h)
-description: An application-defined callback function used with the ImmEnumRegisterWord function.
+description: REGISTERWORDENUMPROCA (ANSI) is an application-defined callback function used with the ImmEnumRegisterWord function.
 helpviewer_keywords: ["EnumRegisterWordProc","EnumRegisterWordProc callback function [Internationalization for Windows Applications]","EnumRegisterWordProcA","EnumRegisterWordProcW","REGISTERWORDENUMPROC","REGISTERWORDENUMPROC callback","REGISTERWORDENUMPROCA","REGISTERWORDENUMPROCW","_win32_EnumRegisterWordProc","imm/EnumRegisterWordProc","imm/EnumRegisterWordProcA","imm/EnumRegisterWordProcW","intl.enumregisterwordproc"]
 old-location: intl\enumregisterwordproc.htm
 tech.root: Intl
 ms.assetid: 06038c87-3553-47de-ba9f-b9c65ea9920b
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: EnumRegisterWordProc, EnumRegisterWordProc callback function [Internationalization for Windows Applications], EnumRegisterWordProcA, EnumRegisterWordProcW, REGISTERWORDENUMPROC, REGISTERWORDENUMPROC callback, REGISTERWORDENUMPROCA, REGISTERWORDENUMPROCW, _win32_EnumRegisterWordProc, imm/EnumRegisterWordProc, imm/EnumRegisterWordProcA, imm/EnumRegisterWordProcW, intl.enumregisterwordproc
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h

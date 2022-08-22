@@ -1,7 +1,7 @@
 ---
 UID: NS:ipmib._MIB_IPSTATS_W2K
 title: MIB_IPSTATS_W2K (ipmib.h)
-description: Stores information about the IP protocol running on a particular computer.
+description: Stores information about the IP protocol running on a particular computer.M
 helpviewer_keywords: ["*PMIB_IPSTATS","*PMIB_IPSTATS_W2K","MIB_IPSTATS","MIB_IPSTATS structure [MIB]","MIB_IPSTATS_W2K","MIB_IP_FORWARDING","MIB_IP_NOT_FORWARDING","MIB_USE_CURRENT_FORWARDING","PMIB_IPSTATS","PMIB_IPSTATS structure pointer [MIB]","_mpr_mib_ipstats","ipmib/MIB_IPSTATS","ipmib/PMIB_IPSTATS","iprtrmib/MIB_IPSTATS","iprtrmib/PMIB_IPSTATS","mib.mib_ipstats","rras.mib_ipstats"]
 old-location: mib\mib_ipstats.htm
 tech.root: MIB

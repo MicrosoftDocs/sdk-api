@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsHwProvider.QuerySubSystems
 title: IVdsHwProvider::QuerySubSystems (vdshwprv.h)
-description: Returns an enumeration of the subsystems managed by the provider.
+description: The IVdsHwProvider::QuerySubSystems (vdshwprv.h) method returns an enumeration of the subsystems managed by the provider.
 helpviewer_keywords: ["IVdsHwProvider interface [VDS]","QuerySubSystems method","IVdsHwProvider.QuerySubSystems","IVdsHwProvider::QuerySubSystems","QuerySubSystems","QuerySubSystems method [VDS]","QuerySubSystems method [VDS]","IVdsHwProvider interface","base.ivdshwprovider_querysubsystems","vds/IVdsHwProvider::QuerySubSystems","vdshwprv/IVdsHwProvider::QuerySubSystems"]
 old-location: base\ivdshwprovider_querysubsystems.htm
 tech.root: base
 ms.assetid: ae327655-3db9-44b0-934a-458ee90b1d07
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsHwProvider interface [VDS],QuerySubSystems method, IVdsHwProvider.QuerySubSystems, IVdsHwProvider::QuerySubSystems, QuerySubSystems, QuerySubSystems method [VDS], QuerySubSystems method [VDS],IVdsHwProvider interface, base.ivdshwprovider_querysubsystems, vds/IVdsHwProvider::QuerySubSystems, vdshwprv/IVdsHwProvider::QuerySubSystems
 req.header: vdshwprv.h
 req.include-header: 

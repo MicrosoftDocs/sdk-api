@@ -1,7 +1,7 @@
 ---
 UID: NF:propidl.IPropertyStorage.Commit
 title: IPropertyStorage::Commit (propidl.h)
-description: Saves changes made to a property storage object to the parent storage object.
+description: Saves changes made to a property storage object to the parent storage object. (IPropertyStorage.Commit)
 helpviewer_keywords: ["Commit","Commit method [Structured Storage]","Commit method [Structured Storage]","IPropertyStorage interface","IPropertyStorage [Strctd Stg]","Commit","IPropertyStorage interface [Structured Storage]","Commit method","IPropertyStorage.Commit","IPropertyStorage::Commit","_stg_ipropertystorage_commit","propidl/IPropertyStorage::Commit","stg.ipropertystorage_commit"]
 old-location: stg\ipropertystorage_commit.htm
 tech.root: Stg

@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.NetworkIsolationSetAppContainerConfig
 title: NetworkIsolationSetAppContainerConfig function (netfw.h)
-description: Used to set the configuration of one or more app containers.
+description: Used to set the configuration of one or more app containers. (NetworkIsolationSetAppContainerConfig)
 helpviewer_keywords: ["NetworkIsolationSetAppContainerConfig","NetworkIsolationSetAppContainerConfig function [ICS/ICF]","ics.networkisolationsetappcontainerconfig","networkisolation/NetworkIsolationSetAppContainerConfig"]
 old-location: ics\networkisolationsetappcontainerconfig.htm
 tech.root: ics

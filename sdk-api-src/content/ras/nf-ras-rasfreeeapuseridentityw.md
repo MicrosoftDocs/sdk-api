@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasFreeEapUserIdentityW
 title: RasFreeEapUserIdentityW function (ras.h)
-description: Use the RasFreeEapUserIdentity function to free the memory buffer returned by RasGetEapUserIdentity.
+description: Use the RasFreeEapUserIdentity function to free the memory buffer returned by RasGetEapUserIdentity. (Unicode)
 helpviewer_keywords: ["RasFreeEapUserIdentity","RasFreeEapUserIdentity function [RAS]","RasFreeEapUserIdentityA","RasFreeEapUserIdentityW","_ras_rasfreeeapuseridentity","ras/RasFreeEapUserIdentity","ras/RasFreeEapUserIdentityA","ras/RasFreeEapUserIdentityW","rras.rasfreeeapuseridentity"]
 old-location: rras\rasfreeeapuseridentity.htm
 tech.root: RRAS

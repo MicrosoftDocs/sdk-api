@@ -4,7 +4,7 @@ tech.root: comp_swapchain
 title: PresentationTransform
 ms.date: 06/08/2021
 targetos: Windows
-description: Represents an arbitrary affine 2D transformation defined by a 3-by-2 matrix.
+description: Represents an arbitrary affine 2D transformation defined by a 3-by-2 matrix. (PresentationTransform)
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

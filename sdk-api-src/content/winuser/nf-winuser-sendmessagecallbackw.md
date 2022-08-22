@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SendMessageCallbackW
 title: SendMessageCallbackW function (winuser.h)
-description: Sends the specified message to a window or windows.
+description: Sends the specified message to a window or windows. (SendMessageCallbackW)
 helpviewer_keywords: ["SendMessageCallback","SendMessageCallback function [Windows and Messages]","SendMessageCallbackA","SendMessageCallbackW","_win32_SendMessageCallback","_win32_sendmessagecallback_cpp","winmsg.sendmessagecallback","winui._win32_sendmessagecallback","winuser/SendMessageCallback","winuser/SendMessageCallbackA","winuser/SendMessageCallbackW"]
 old-location: winmsg\sendmessagecallback.htm
 tech.root: winmsg

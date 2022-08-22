@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl.__unnamed_struct_2
 title: NTFS_EXTENDED_VOLUME_DATA
-description: Represents volume data.
+description: Represents volume data.N
 helpviewer_keywords: ["*PNTFS_EXTENDED_VOLUME_DATA","NTFS_EXTENDED_VOLUME_DATA","NTFS_VOLUME_DATA_BUFFER","NTFS_VOLUME_DATA_BUFFER structure [Files]","PNTFS_VOLUME_DATA_BUFFER","PNTFS_VOLUME_DATA_BUFFER structure pointer [Files]","_win32_ntfs_volume_data_buffer_str","base.ntfs_volume_data_buffer_str","fs.ntfs_volume_data_buffer_str","winioctl/NTFS_VOLUME_DATA_BUFFER","winioctl/PNTFS_VOLUME_DATA_BUFFER"]
 old-location: fs\ntfs_volume_data_buffer_str.htm
 tech.root: fs

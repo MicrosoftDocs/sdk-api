@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3cc.ITQueue.get_LongestEverWaitTime
 title: ITQueue::get_LongestEverWaitTime (tapi3cc.h)
-description: The get_LongestEverWaitTime method gets the longest time any call waited in the queue (in seconds) during the current measurement period.
+description: The get_LongestEverWaitTime method gets the longest time any call waited in the queue (in seconds) during the current measurement period. (ITQueue.get_LongestEverWaitTime)
 helpviewer_keywords: ["ITQueue interface [TAPI 2.2]","get_LongestEverWaitTime method","ITQueue.get_LongestEverWaitTime","ITQueue::get_LongestEverWaitTime","_tapi3_itqueue_get_longesteverwaittime","get_LongestEverWaitTime","get_LongestEverWaitTime method [TAPI 2.2]","get_LongestEverWaitTime method [TAPI 2.2]","ITQueue interface","tapi3.itqueue_get_longesteverwaittime","tapi3cc/ITQueue::get_LongestEverWaitTime"]
 old-location: tapi3\itqueue_get_longesteverwaittime.htm
 tech.root: tapi3

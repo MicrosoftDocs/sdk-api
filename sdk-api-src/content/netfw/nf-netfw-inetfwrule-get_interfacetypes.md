@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule.get_InterfaceTypes
 title: INetFwRule::get_InterfaceTypes (netfw.h)
-description: Specifies the list of interface types for which the rule applies.
+description: Specifies the list of interface types for which the rule applies. (Get)
 helpviewer_keywords: ["INetFwRule interface [ICS/ICF]","InterfaceTypes property","INetFwRule.InterfaceTypes","INetFwRule.get_InterfaceTypes","INetFwRule::InterfaceTypes","INetFwRule::get_InterfaceTypes","INetFwRule::put_InterfaceTypes","InterfaceTypes property [ICS/ICF]","InterfaceTypes property [ICS/ICF]","INetFwRule interface","get_InterfaceTypes","ics.inetfwrule_interfacetypes","netfw/INetFwRule::InterfaceTypes","netfw/INetFwRule::get_InterfaceTypes","netfw/INetFwRule::put_InterfaceTypes"]
 old-location: ics\inetfwrule_interfacetypes.htm
 tech.root: ics

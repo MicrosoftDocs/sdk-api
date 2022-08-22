@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList.Draw
 title: IImageList::Draw (commoncontrols.h)
-description: Draws an image list item in the specified device context.
+description: Draws an image list item in the specified device context. (IImageList.Draw)
 helpviewer_keywords: ["Draw","Draw method [Windows Controls]","Draw method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","Draw method","IImageList.Draw","IImageList::Draw","comctl_IImageList_Draw","comctl_IImageList_Draw_cpp","commoncontrols/IImageList::Draw","controls.IImageList_Draw","controls.comctl_IImageList_Draw"]
 old-location: controls\IImageList_Draw.htm
 tech.root: Controls

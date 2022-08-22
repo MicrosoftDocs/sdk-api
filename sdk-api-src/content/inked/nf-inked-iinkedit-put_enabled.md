@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.put_Enabled
 title: IInkEdit::put_Enabled (inked.h)
-description: Gets or sets a value that determines whether the InkEdit control can respond to user-generated events.
+description: Gets or sets a value that determines whether the InkEdit control can respond to user-generated events. (Put)
 helpviewer_keywords: ["Enabled property [Tablet PC]","Enabled property [Tablet PC]","IInkEdit interface","IInkEdit interface [Tablet PC]","Enabled property","IInkEdit.Enabled","IInkEdit.put_Enabled","IInkEdit::Enabled","IInkEdit::get_Enabled","IInkEdit::put_Enabled","InkEdit.get_Enabled","InkEdit.put_Enabled","get_Enabled","inked/IInkEdit::Enabled","inked/IInkEdit::get_Enabled","inked/IInkEdit::put_Enabled","put_Enabled","tablet.inkedit_enabled"]
 old-location: tablet\inkedit_enabled.htm
 tech.root: tablet

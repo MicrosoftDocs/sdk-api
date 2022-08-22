@@ -1,7 +1,7 @@
 ---
 UID: NS:cfgmgr32.IRQ_Resource_64_s
 title: IRQ_RESOURCE_64 (cfgmgr32.h)
-description: The IRQ_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance.
+description: The IRQ_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance. (64 bit)
 helpviewer_keywords: ["*PIRQ_RESOURCE_64","IRQ_RESOURCE","IRQ_RESOURCE structure [Device and Driver Installation]","IRQ_RESOURCE_64","PIRQ_RESOURCE","PIRQ_RESOURCE structure pointer [Device and Driver Installation]","cfgmgr32/IRQ_RESOURCE","cfgmgr32/PIRQ_RESOURCE","cfgmgrst_7eed527c-01ea-417a-b408-3239701cd988.xml","devinst.irq_resource"]
 old-location: devinst\irq_resource.htm
 tech.root: devinst

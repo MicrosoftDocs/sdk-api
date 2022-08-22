@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.DefineDosDeviceW
 title: DefineDosDeviceW function (fileapi.h)
-description: Defines, redefines, or deletes MS-DOS device names.
+description: Defines, redefines, or deletes MS-DOS device names. (DefineDosDeviceW)
 helpviewer_keywords: ["DDD_EXACT_MATCH_ON_REMOVE","DDD_NO_BROADCAST_SYSTEM","DDD_RAW_TARGET_PATH","DDD_REMOVE_DEFINITION","DefineDosDevice","DefineDosDevice function [Files]","DefineDosDeviceA","DefineDosDeviceW","_win32_definedosdevice","base.definedosdevice","fileapi/DefineDosDevice","fileapi/DefineDosDeviceA","fileapi/DefineDosDeviceW","fs.definedosdevice","winbase/DefineDosDevice","winbase/DefineDosDeviceA","winbase/DefineDosDeviceW"]
 old-location: fs\definedosdevice.htm
 tech.root: fs

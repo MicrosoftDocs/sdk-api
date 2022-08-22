@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionType.GetNumInterfaces
 title: ID3D11ShaderReflectionType::GetNumInterfaces (d3d11shader.h)
-description: Gets the number of interfaces.
+description: Gets the number of interfaces. (ID3D11ShaderReflectionType.GetNumInterfaces)
 helpviewer_keywords: ["79155c21-6096-6e00-a9ec-bc54062bd29f","GetNumInterfaces","GetNumInterfaces method [Direct3D 11]","GetNumInterfaces method [Direct3D 11]","ID3D11ShaderReflectionType interface","ID3D11ShaderReflectionType interface [Direct3D 11]","GetNumInterfaces method","ID3D11ShaderReflectionType.GetNumInterfaces","ID3D11ShaderReflectionType::GetNumInterfaces","d3d11shader/ID3D11ShaderReflectionType::GetNumInterfaces","direct3d11.id3d11shaderreflectiontype_getnuminterfaces"]
 old-location: direct3d11\id3d11shaderreflectiontype_getnuminterfaces.htm
 tech.root: direct3d11

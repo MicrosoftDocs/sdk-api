@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3cc.ITQueue.get_TotalCallsQueued
 title: ITQueue::get_TotalCallsQueued (tapi3cc.h)
-description: The get_TotalCallsQueued method gets the total number of incoming calls for this queue during the current measurement period.
+description: The get_TotalCallsQueued method gets the total number of incoming calls for this queue during the current measurement period. (ITQueue.get_TotalCallsQueued)
 helpviewer_keywords: ["ITQueue interface [TAPI 2.2]","get_TotalCallsQueued method","ITQueue.get_TotalCallsQueued","ITQueue::get_TotalCallsQueued","_tapi3_itqueue_get_totalcallsqueued","get_TotalCallsQueued","get_TotalCallsQueued method [TAPI 2.2]","get_TotalCallsQueued method [TAPI 2.2]","ITQueue interface","tapi3.itqueue_get_totalcallsqueued","tapi3cc/ITQueue::get_TotalCallsQueued"]
 old-location: tapi3\itqueue_get_totalcallsqueued.htm
 tech.root: tapi3

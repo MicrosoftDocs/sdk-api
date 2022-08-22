@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.UrlCompareW
 title: UrlCompareW function (shlwapi.h)
-description: Makes a case-sensitive comparison of two URL strings.
+description: Makes a case-sensitive comparison of two URL strings. (Unicode)
 helpviewer_keywords: ["UrlCompare","UrlCompare function [Windows Shell]","UrlCompareA","UrlCompareW","_win32_UrlCompare","shell.UrlCompare","shlwapi/UrlCompare","shlwapi/UrlCompareA","shlwapi/UrlCompareW"]
 old-location: shell\UrlCompare.htm
 tech.root: shell

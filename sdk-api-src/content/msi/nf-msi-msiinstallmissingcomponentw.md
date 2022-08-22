@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiInstallMissingComponentW
 title: MsiInstallMissingComponentW function (msi.h)
-description: The MsiInstallMissingComponent function installs files that are unexpectedly missing.
+description: The MsiInstallMissingComponent function installs files that are unexpectedly missing. (Unicode)
 helpviewer_keywords: ["INSTALLSTATE_DEFAULT","INSTALLSTATE_LOCAL","INSTALLSTATE_SOURCE","MsiInstallMissingComponent","MsiInstallMissingComponent function","MsiInstallMissingComponentA","MsiInstallMissingComponentW","_msi_msiinstallmissingcomponent","msi/MsiInstallMissingComponent","msi/MsiInstallMissingComponentA","msi/MsiInstallMissingComponentW","setup.msiinstallmissingcomponent"]
 old-location: setup\msiinstallmissingcomponent.htm
 tech.root: setup

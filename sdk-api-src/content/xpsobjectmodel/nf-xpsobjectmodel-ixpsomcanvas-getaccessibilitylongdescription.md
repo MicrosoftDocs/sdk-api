@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.GetAccessibilityLongDescription
 title: IXpsOMCanvas::GetAccessibilityLongDescription (xpsobjectmodel.h)
-description: Gets the long (detailed) textual description of the object's contents.
+description: Gets the long (detailed) textual description of the object's contents. (IXpsOMCanvas.GetAccessibilityLongDescription)
 helpviewer_keywords: ["GetAccessibilityLongDescription","GetAccessibilityLongDescription method [XPS Documents and Packaging]","GetAccessibilityLongDescription method [XPS Documents and Packaging]","IXpsOMCanvas interface","IXpsOMCanvas interface [XPS Documents and Packaging]","GetAccessibilityLongDescription method","IXpsOMCanvas.GetAccessibilityLongDescription","IXpsOMCanvas::GetAccessibilityLongDescription","xps.ixpsomcanvas_getaccessibilitylongdescription","xpsobjectmodel/IXpsOMCanvas::GetAccessibilityLongDescription"]
 old-location: xps\ixpsomcanvas_getaccessibilitylongdescription.htm
 tech.root: xps

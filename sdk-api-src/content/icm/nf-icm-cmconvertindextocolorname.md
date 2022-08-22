@@ -2,7 +2,7 @@
 UID: NF:icm.CMConvertIndexToColorName
 title: CMConvertIndexToColorName
 tech.root: wcs
-description: Transforms indices in a color space to an array of names in a named color space.
+description: Transforms indices in a color space to an array of names in a named color space. (CMConvertIndexToColorName)
 ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 

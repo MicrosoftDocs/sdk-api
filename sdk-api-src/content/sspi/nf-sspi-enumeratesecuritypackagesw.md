@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.EnumerateSecurityPackagesW
 title: EnumerateSecurityPackagesW function (sspi.h)
-description: Returns an array of SecPkgInfo structures that provide information about the security packages available to the client.
+description: Returns an array of SecPkgInfo structures that provide information about the security packages available to the client. (Unicode)
 helpviewer_keywords: ["EnumerateSecurityPackages","EnumerateSecurityPackages function [Security]","EnumerateSecurityPackagesA","EnumerateSecurityPackagesW","_ssp_enumeratesecuritypackages","security.enumeratesecuritypackages","sspi/EnumerateSecurityPackages","sspi/EnumerateSecurityPackagesA","sspi/EnumerateSecurityPackagesW"]
 old-location: security\enumeratesecuritypackages.htm
 tech.root: security

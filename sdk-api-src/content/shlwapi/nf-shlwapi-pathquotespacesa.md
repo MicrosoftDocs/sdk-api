@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathQuoteSpacesA
 title: PathQuoteSpacesA function (shlwapi.h)
-description: Searches a path for spaces. If spaces are found, the entire path is enclosed in quotation marks.
+description: Searches a path for spaces. If spaces are found, the entire path is enclosed in quotation marks. (ANSI)
 helpviewer_keywords: ["PathQuoteSpaces","PathQuoteSpaces function [Windows Shell]","PathQuoteSpacesA","PathQuoteSpacesW","_win32_PathQuoteSpaces","shell.PathQuoteSpaces","shlwapi/PathQuoteSpaces","shlwapi/PathQuoteSpacesA","shlwapi/PathQuoteSpacesW"]
 old-location: shell\PathQuoteSpaces.htm
 tech.root: shell

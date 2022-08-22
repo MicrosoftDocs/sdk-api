@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.NetworkIsolationSetupAppContainerBinaries
 title: NetworkIsolationSetupAppContainerBinaries function (netfw.h)
-description: Is used by software installers to provide information about the image paths of applications that are running in an app container.
+description: Is used by software installers to provide information about the image paths of applications that are running in an app container. (NetworkIsolationSetupAppContainerBinaries)
 helpviewer_keywords: ["NetworkIsolationSetupAppContainerBinaries","NetworkIsolationSetupAppContainerBinaries function [ICS/ICF]","ics.networkisolationsetupappcontainerbinaries","networkisolation/NetworkIsolationSetupAppContainerBinaries"]
 old-location: ics\networkisolationsetupappcontainerbinaries.htm
 tech.root: ics

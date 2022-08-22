@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.put_EnvironmentName
 title: ITsSbTarget::put_EnvironmentName (sbtsv.h)
-description: Retrieves or specifies the name of the environment associated with the target.
+description: Retrieves or specifies the name of the environment associated with the target. (ITsSbTargetEx.put_EnvironmentName)
 helpviewer_keywords: ["EnvironmentName property [Remote Desktop Services]","EnvironmentName property [Remote Desktop Services]","ITsSbTarget interface","EnvironmentName property [Remote Desktop Services]","ITsSbTargetEx interface","ITsSbTarget interface [Remote Desktop Services]","EnvironmentName property","ITsSbTarget.EnvironmentName","ITsSbTarget.put_EnvironmentName","ITsSbTarget::EnvironmentName","ITsSbTarget::get_EnvironmentName","ITsSbTarget::put_EnvironmentName","ITsSbTargetEx interface [Remote Desktop Services]","EnvironmentName property","ITsSbTargetEx.EnvironmentName","ITsSbTargetEx::get_EnvironmentName","ITsSbTargetEx::put_EnvironmentName","put_EnvironmentName","sbtsv/ITsSbTarget::EnvironmentName","sbtsv/ITsSbTarget::get_EnvironmentName","sbtsv/ITsSbTarget::put_EnvironmentName","sbtsv/ITsSbTargetEx::EnvironmentName","sbtsv/ITsSbTargetEx::get_EnvironmentName","sbtsv/ITsSbTargetEx::put_EnvironmentName","termserv.itssbtarget_environmentname"]
 old-location: termserv\itssbtarget_environmentname.htm
 tech.root: TermServ

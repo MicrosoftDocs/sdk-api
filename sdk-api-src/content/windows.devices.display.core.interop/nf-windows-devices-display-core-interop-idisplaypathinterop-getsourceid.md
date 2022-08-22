@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.devices.display.core.interop.IDisplayPathInterop.GetSourceId
 title: IDisplayPathInterop::GetSourceId
-description: TBD
+description: TBDI
 helpviewer_keywords: ["IDisplayPathInterop::GetSourceId"]
 ms.date: 02/10/2020
 tech.root: winrt

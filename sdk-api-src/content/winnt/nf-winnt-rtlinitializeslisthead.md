@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.RtlInitializeSListHead
 title: RtlInitializeSListHead function (winnt.h)
-description: Initializes the head of a singly linked list.
+description: Initializes the head of a singly linked list. (RtlInitializeSListHead)
 helpviewer_keywords: ["RtlInitializeSListHead","RtlInitializeSListHead function","base.rtlinitializeslisthead","winnt/RtlInitializeSListHead"]
 old-location: base\rtlinitializeslisthead.htm
 tech.root: backup

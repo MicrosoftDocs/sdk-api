@@ -1,7 +1,7 @@
 ---
 UID: NS:winldap.ldapsortkeyA
 title: LDAPSortKeyA (winldap.h)
-description: The LDAPSortKey structure stores sorting criteria for use by sort controls.
+description: The LDAPSortKey structure stores sorting criteria for use by sort controls. (ANSI)
 helpviewer_keywords: ["*PLDAPSortKeyA","LDAPSortKey","LDAPSortKey structure [LDAP]","LDAPSortKeyA","LDAPSortKeyW","PLDAPSortKey","PLDAPSortKey structure pointer [LDAP]","_ldap_ldapsortkey","ldap.ldapsortkey","winldap/LDAPSortKey","winldap/LDAPSortKeyA","winldap/LDAPSortKeyW","winldap/PLDAPSortKey"]
 old-location: ldap\ldapsortkey.htm
 tech.root: ldap

@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupLogErrorA
 title: SetupLogErrorA function (setupapi.h)
-description: The SetupLogError function writes an error message to a log file.
+description: The SetupLogError function writes an error message to a log file. (ANSI)
 helpviewer_keywords: ["SetupLogError","SetupLogError function [Setup API]","SetupLogErrorA","SetupLogErrorW","_setupapi_setuplogerror","setup.setuplogerror","setupapi/SetupLogError","setupapi/SetupLogErrorA","setupapi/SetupLogErrorW"]
 old-location: setup\setuplogerror.htm
 tech.root: setup

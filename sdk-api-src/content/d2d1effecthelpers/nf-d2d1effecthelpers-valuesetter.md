@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effecthelpers.ValueSetter
 title: ValueSetter function (d2d1effecthelpers.h)
-description: Calls a member-function property setter callback for a value-type property.
+description: Calls a member-function property setter callback for a value-type property. (ValueSetter)
 helpviewer_keywords: ["ValueSetter","ValueSetter function [Direct2D]","d2d1effecthelpers/ValueSetter","direct2d.valuesetter"]
 old-location: direct2d\valuesetter.htm
 tech.root: Direct2D

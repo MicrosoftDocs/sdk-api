@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.VSGetSamplers
 title: ID3D10Device::VSGetSamplers (d3d10.h)
-description: Get an array of sampler states from the vertex shader pipeline stage.
+description: Get an array of sampler states from the vertex shader pipeline stage. (ID3D10Device.VSGetSamplers)
 helpviewer_keywords: ["18b97598-9d43-0a9e-c706-15e272faba6b","ID3D10Device interface [Direct3D 10]","VSGetSamplers method","ID3D10Device.VSGetSamplers","ID3D10Device::VSGetSamplers","VSGetSamplers","VSGetSamplers method [Direct3D 10]","VSGetSamplers method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::VSGetSamplers","direct3d10.id3d10device_vsgetsamplers"]
 old-location: direct3d10\id3d10device_vsgetsamplers.htm
 tech.root: direct3d10

@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IEnumFORMATETC.Clone
 title: IEnumFORMATETC::Clone (objidl.h)
-description: Creates a new enumerator that contains the same enumeration state as the current one.
+description: Creates a new enumerator that contains the same enumeration state as the current one. (IEnumFORMATETC.Clone)
 helpviewer_keywords: ["Clone","Clone method [COM]","Clone method [COM]","IEnumFORMATETC interface","IEnumFORMATETC interface [COM]","Clone method","IEnumFORMATETC.Clone","IEnumFORMATETC::Clone","_ole_ienumformatetc_clone","com.ienumformatetc_clone","objidl/IEnumFORMATETC::Clone"]
 old-location: com\ienumformatetc_clone.htm
 tech.root: com

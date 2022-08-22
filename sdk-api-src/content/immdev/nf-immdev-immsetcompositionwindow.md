@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmSetCompositionWindow
 title: ImmSetCompositionWindow function (immdev.h)
-description: Sets the position of the composition window.
+description: The ImmSetCompositionWindow function (immdev.h) sets the position of the composition window.
 helpviewer_keywords: ["ImmSetCompositionWindow","ImmSetCompositionWindow function [Internationalization for Windows Applications]","_win32_ImmSetCompositionWindow","imm/ImmSetCompositionWindow","intl.immsetcompositionwindow"]
 old-location: intl\immsetcompositionwindow.htm
 tech.root: Intl
 ms.assetid: 01204f4c-4cf1-4bff-99db-fa0c66c2a8e9
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: ImmSetCompositionWindow, ImmSetCompositionWindow function [Internationalization for Windows Applications], _win32_ImmSetCompositionWindow, imm/ImmSetCompositionWindow, intl.immsetcompositionwindow
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h

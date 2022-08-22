@@ -1,7 +1,7 @@
 ---
 UID: NF:ntdsapi.DsReplicaAddW
 title: DsReplicaAddW function (ntdsapi.h)
-description: Adds a replication source reference to a destination naming context.
+description: Adds a replication source reference to a destination naming context. (Unicode)
 helpviewer_keywords: ["DS_REPADD_ASYNCHRONOUS_OPERATION","DS_REPADD_ASYNCHRONOUS_REPLICA","DS_REPADD_DISABLE_NOTIFICATION","DS_REPADD_DISABLE_PERIODIC","DS_REPADD_INITIAL","DS_REPADD_INTERSITE_MESSAGING","DS_REPADD_NEVER_NOTIFY","DS_REPADD_PERIODIC","DS_REPADD_USE_COMPRESSION","DS_REPADD_WRITEABLE","DsReplicaAdd","DsReplicaAdd function [Active Directory]","DsReplicaAddA","DsReplicaAddW","_glines_dsreplicaadd","ad.dsreplicaadd","ntdsapi/DsReplicaAdd","ntdsapi/DsReplicaAddA","ntdsapi/DsReplicaAddW"]
 old-location: ad\dsreplicaadd.htm
 tech.root: ad

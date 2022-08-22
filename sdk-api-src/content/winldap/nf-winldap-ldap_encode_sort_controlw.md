@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_encode_sort_controlW
 title: ldap_encode_sort_controlW function (winldap.h)
-description: The ldap_encode_sort_control function formats a list of sort keys into a search control. This function is obsolete. Instead, use ldap_create_sort_control.
+description: The ldap_encode_sort_control function formats a list of sort keys into a search control. This function is obsolete. Instead, use ldap_create_sort_control. (ldap_encode_sort_controlW)
 helpviewer_keywords: ["_ldap_ldap_encode_sort_control","ldap.ldap__encode__sort__control","ldap.ldap_encode_sort_control","ldap_encode_sort_control","ldap_encode_sort_control function [LDAP]","ldap_encode_sort_controlA","ldap_encode_sort_controlW","winldap/ldap_encode_sort_control","winldap/ldap_encode_sort_controlA","winldap/ldap_encode_sort_controlW"]
 old-location: ldap\ldap_encode_sort_control.htm
 tech.root: ldap

@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.__unnamed_struct_9
 title: NMCOMBOBOXEXA (commctrl.h)
-description: Contains information specific to ComboBoxEx items for use with notification codes.
+description: Contains information specific to ComboBoxEx items for use with notification codes. (ANSI)
 helpviewer_keywords: ["*PNMCOMBOBOXEXA","NMCOMBOBOXEX","NMCOMBOBOXEX structure [Windows Controls]","NMCOMBOBOXEXA","NMCOMBOBOXEXW","PNMCOMBOBOXEX","PNMCOMBOBOXEX structure pointer [Windows Controls]","_win32_NMCOMBOBOXEX","_win32_NMCOMBOBOXEX_cpp","commctrl/NMCOMBOBOXEX","commctrl/NMCOMBOBOXEXA","commctrl/NMCOMBOBOXEXW","commctrl/PNMCOMBOBOXEX","controls.NMCOMBOBOXEX","controls._win32_NMCOMBOBOXEX"]
 old-location: controls\NMCOMBOBOXEX.htm
 tech.root: Controls

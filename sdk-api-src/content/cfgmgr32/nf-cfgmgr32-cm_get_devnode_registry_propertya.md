@@ -4,7 +4,7 @@ tech.root: devinst
 title: CM_Get_DevNode_Registry_PropertyA
 ms.date: 04/13/2021
 targetos: Windows
-description: The CM_Get_DevNode_Registry_Property function retrieves a specified device property from the registry.
+description: The CM_Get_DevNode_Registry_Property function retrieves a specified device property from the registry. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

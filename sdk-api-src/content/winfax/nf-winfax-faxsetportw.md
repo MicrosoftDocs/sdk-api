@@ -1,7 +1,7 @@
 ---
 UID: NF:winfax.FaxSetPortW
 title: FaxSetPortW function (winfax.h)
-description: A fax client application calls the FaxSetPort function to change the configuration of the fax port of interest.
+description: A fax client application calls the FaxSetPort function to change the configuration of the fax port of interest. (Unicode)
 helpviewer_keywords: ["FaxSetPort","FaxSetPort function [Fax Service]","FaxSetPortA","FaxSetPortW","_mfax_faxsetport","fax._mfax_faxsetport","winfax/FaxSetPort","winfax/FaxSetPortA","winfax/FaxSetPortW"]
 old-location: fax\_mfax_faxsetport.htm
 tech.root: Fax

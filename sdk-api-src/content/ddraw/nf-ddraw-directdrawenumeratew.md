@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.DirectDrawEnumerateW
 title: DirectDrawEnumerateW function (ddraw.h)
-description: This function is superseded by the DirectDrawEnumerateEx function.
+description: This function is superseded by the DirectDrawEnumerateEx function. (Unicode)
 helpviewer_keywords: ["DirectDrawEnumerate","DirectDrawEnumerate function [DirectDraw]","DirectDrawEnumerateW","ddraw/DirectDrawEnumerate","ddraw/DirectDrawEnumerateW","directdraw.directdrawenumerate"]
 old-location: directdraw\directdrawenumerate.htm
 tech.root: directdraw

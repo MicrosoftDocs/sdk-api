@@ -1,7 +1,7 @@
 ---
 UID: NF:winsvc.OpenServiceW
 title: OpenServiceW function (winsvc.h)
-description: Opens an existing service.
+description: Opens an existing service. (Unicode)
 helpviewer_keywords: ["OpenService","OpenService function","OpenServiceA","OpenServiceW","_win32_openservice","base.openservice","winsvc/OpenService","winsvc/OpenServiceA","winsvc/OpenServiceW"]
 old-location: base\openservice.htm
 tech.root: security

@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegDeleteValueA
 title: RegDeleteValueA function (winreg.h)
-description: Removes a named value from the specified registry key.
+description: Removes a named value from the specified registry key. (ANSI)
 helpviewer_keywords: ["RegDeleteValue","RegDeleteValue function","RegDeleteValueA","RegDeleteValueW","_win32_regdeletevalue","base.regdeletevalue","winreg/RegDeleteValue","winreg/RegDeleteValueA","winreg/RegDeleteValueW"]
 old-location: base\regdeletevalue.htm
 tech.root: winprog

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IIdleSettings.put_RestartOnIdle
 title: IIdleSettings::put_RestartOnIdle (taskschd.h)
-description: Gets or sets a Boolean value that indicates whether the task is restarted when the computer cycles into an idle condition more than once.
+description: Gets or sets a Boolean value that indicates whether the task is restarted when the computer cycles into an idle condition more than once. (Put)
 helpviewer_keywords: ["IIdleSettings interface [Task Scheduler]","RestartOnIdle property","IIdleSettings.RestartOnIdle","IIdleSettings.put_RestartOnIdle","IIdleSettings::RestartOnIdle","IIdleSettings::get_RestartOnIdle","IIdleSettings::put_RestartOnIdle","RestartOnIdle property [Task Scheduler]","RestartOnIdle property [Task Scheduler]","IIdleSettings interface","put_RestartOnIdle","taskschd.iidlesettings_restartonidle","taskschd/IIdleSettings::RestartOnIdle","taskschd/IIdleSettings::get_RestartOnIdle","taskschd/IIdleSettings::put_RestartOnIdle"]
 old-location: taskschd\iidlesettings_restartonidle.htm
 tech.root: taskschd

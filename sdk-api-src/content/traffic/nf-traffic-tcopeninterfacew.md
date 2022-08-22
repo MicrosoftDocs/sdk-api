@@ -1,7 +1,7 @@
 ---
 UID: NF:traffic.TcOpenInterfaceW
 title: TcOpenInterfaceW function (traffic.h)
-description: The TcOpenInterface function opens an interface.
+description: The TcOpenInterface function opens an interface. (Unicode)
 helpviewer_keywords: ["TcOpenInterface","TcOpenInterface function [QOS]","TcOpenInterfaceA","TcOpenInterfaceW","_gqos_tcopeninterface","qos.tcopeninterface","traffic/TcOpenInterface","traffic/TcOpenInterfaceA","traffic/TcOpenInterfaceW"]
 old-location: qos\tcopeninterface.htm
 tech.root: QOS

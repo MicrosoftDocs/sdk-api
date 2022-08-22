@@ -1,7 +1,7 @@
 ---
 UID: NS:winbase._FILE_ID_INFO
 title: FILE_ID_INFO (winbase.h)
-description: Contains identification information for a file.
+description: Contains identification information for a file. (FILE_ID_INFO)
 helpviewer_keywords: ["*PFILE_ID_INFO","FILE_ID_INFO","FILE_ID_INFO structure [Files]","PFILE_ID_INFO","PFILE_ID_INFO structure pointer [Files]","_FILE_ID_INFO","fs.file_id_info","winbase/FILE_ID_INFO","winbase/PFILE_ID_INFO"]
 old-location: fs\file_id_info.htm
 tech.root: fs

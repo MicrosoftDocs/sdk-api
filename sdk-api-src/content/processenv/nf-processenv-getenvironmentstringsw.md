@@ -1,12 +1,12 @@
 ---
 UID: NF:processenv.GetEnvironmentStringsW
 title: GetEnvironmentStringsW function (processenv.h)
-description: Retrieves the environment variables for the current process.
+description: The GetEnvironmentStringsW (Unicode) function (processenv.h) retrieves the environment variables for the current process. 
 helpviewer_keywords: ["GetEnvironmentStrings","GetEnvironmentStrings function","GetEnvironmentStringsA","GetEnvironmentStringsW","_win32_getenvironmentstrings","base.getenvironmentstrings","processenv/GetEnvironmentStrings","processenv/GetEnvironmentStringsA","processenv/GetEnvironmentStringsW","winbase/GetEnvironmentStrings","winbase/GetEnvironmentStringsA","winbase/GetEnvironmentStringsW"]
 old-location: base\getenvironmentstrings.htm
 tech.root: backup
 ms.assetid: fb431d83-f3e7-4f2a-bad9-81259681c1f4
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: GetEnvironmentStrings, GetEnvironmentStrings function, GetEnvironmentStringsA, GetEnvironmentStringsW, _win32_getenvironmentstrings, base.getenvironmentstrings, processenv/GetEnvironmentStrings, processenv/GetEnvironmentStringsA, processenv/GetEnvironmentStringsW, winbase/GetEnvironmentStrings, winbase/GetEnvironmentStringsA, winbase/GetEnvironmentStringsW
 req.header: processenv.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

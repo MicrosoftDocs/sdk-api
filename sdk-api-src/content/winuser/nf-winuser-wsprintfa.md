@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.wsprintfA
 title: wsprintfA function (winuser.h)
-description: Writes formatted data to the specified buffer.
+description: Writes formatted data to the specified buffer. (ANSI)
 helpviewer_keywords: ["_win32_wsprintf","_win32_wsprintf_cpp","menurc.wsprintf","winui._win32_wsprintf","winuser/wsprintf","winuser/wsprintfA","winuser/wsprintfW","wsprintf","wsprintf function [Menus and Other Resources]","wsprintfA","wsprintfW"]
 old-location: menurc\wsprintf.htm
 tech.root: menurc
@@ -235,7 +235,7 @@ String. This value is interpreted as type <b>LPWSTR</b> when the calling applica
 String. This value is interpreted as type <b>LPSTR</b> when the calling application defines Unicode and as type <b>LPWSTR</b> otherwise.
 
 </dd>
-<dt><a id="u"></a><a id="U"></a><code></code>u</dt>
+<dt><a id="u"></a><a id="U"></a><code>u</code></dt>
 <dd>
 Unsigned integer argument.
 

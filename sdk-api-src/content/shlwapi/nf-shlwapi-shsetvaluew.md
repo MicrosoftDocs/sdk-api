@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHSetValueW
 title: SHSetValueW function (shlwapi.h)
-description: Sets the value of a registry key.
+description: Sets the value of a registry key. (Unicode)
 helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHSetValue","SHSetValue function [Windows Shell]","SHSetValueA","SHSetValueW","_win32_SHSetValue","shell.SHSetValue","shlwapi/SHSetValue","shlwapi/SHSetValueA","shlwapi/SHSetValueW"]
 old-location: shell\SHSetValue.htm
 tech.root: shell

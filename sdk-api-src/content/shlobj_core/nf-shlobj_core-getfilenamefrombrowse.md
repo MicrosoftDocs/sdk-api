@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.GetFileNameFromBrowse
 title: GetFileNameFromBrowse function (shlobj_core.h)
-description: Creates an Open dialog box so that the user can specify the drive, directory, and name of a file to open.
+description: Creates an Open dialog box so that the user can specify the drive, directory, and name of a file to open. (GetFileNameFromBrowse)
 helpviewer_keywords: ["GetFileNameFromBrowse","GetFileNameFromBrowse function [Windows Shell]","_win32_GetFileNameFromBrowse","shell.GetFileNameFromBrowse","shlobj_core/GetFileNameFromBrowse"]
 old-location: shell\GetFileNameFromBrowse.htm
 tech.root: shell

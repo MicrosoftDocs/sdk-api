@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3.ITAgent.get_TotalACDTalkTime
 title: ITAgent::get_TotalACDTalkTime (tapi3.h)
-description: The get_TotalACDTalkTime gets the number of seconds spent talking in ACD calls by this agent (across all sessions).
+description: The get_TotalACDTalkTime gets the number of seconds spent talking in ACD calls by this agent (across all sessions). (ITAgent.get_TotalACDTalkTime)
 helpviewer_keywords: ["ITAgent interface [TAPI 2.2]","get_TotalACDTalkTime method","ITAgent.get_TotalACDTalkTime","ITAgent::get_TotalACDTalkTime","_tapi3_itagent_get_totalacdtalktime","get_TotalACDTalkTime","get_TotalACDTalkTime method [TAPI 2.2]","get_TotalACDTalkTime method [TAPI 2.2]","ITAgent interface","tapi3.itagent_get_totalacdtalktime","tapi3cc/ITAgent::get_TotalACDTalkTime"]
 old-location: tapi3\itagent_get_totalacdtalktime.htm
 tech.root: tapi3

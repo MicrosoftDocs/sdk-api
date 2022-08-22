@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.GetDriveTypeW
 title: GetDriveTypeW function (fileapi.h)
-description: Determines whether a disk drive is a removable, fixed, CD-ROM, RAM disk, or network drive.
+description: Determines whether a disk drive is a removable, fixed, CD-ROM, RAM disk, or network drive. (Unicode)
 helpviewer_keywords: ["GetDriveType","GetDriveType function [Files]","GetDriveTypeA","GetDriveTypeW","_win32_getdrivetype","base.getdrivetype","fileapi/GetDriveType","fileapi/GetDriveTypeA","fileapi/GetDriveTypeW","fs.getdrivetype","winbase/GetDriveType","winbase/GetDriveTypeA","winbase/GetDriveTypeW"]
 old-location: fs\getdrivetype.htm
 tech.root: fs

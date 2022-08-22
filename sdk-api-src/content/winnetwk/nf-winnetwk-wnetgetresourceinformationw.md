@@ -1,7 +1,7 @@
 ---
 UID: NF:winnetwk.WNetGetResourceInformationW
 title: WNetGetResourceInformationW function (winnetwk.h)
-description: When provided with a remote path to a network resource, the WNetGetResourceInformation function identifies the network provider that owns the resource and obtains information about the type of the resource.
+description: When provided with a remote path to a network resource, the WNetGetResourceInformation function identifies the network provider that owns the resource and obtains information about the type of the resource. (Unicode)
 helpviewer_keywords: ["WNetGetResourceInformation","WNetGetResourceInformation function [Windows Networking (WNet)]","WNetGetResourceInformationA","WNetGetResourceInformationW","_win32_wnetgetresourceinformation","winnetwk/WNetGetResourceInformation","winnetwk/WNetGetResourceInformationA","winnetwk/WNetGetResourceInformationW","wnet.wnetgetresourceinformation"]
 old-location: wnet\wnetgetresourceinformation.htm
 tech.root: WNet

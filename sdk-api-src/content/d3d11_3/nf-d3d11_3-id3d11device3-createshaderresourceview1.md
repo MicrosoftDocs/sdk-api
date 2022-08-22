@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_3.ID3D11Device3.CreateShaderResourceView1
 title: ID3D11Device3::CreateShaderResourceView1 (d3d11_3.h)
-description: Creates a shader-resource view for accessing data in a resource.
+description: Creates a shader-resource view for accessing data in a resource. (ID3D11Device3.CreateShaderResourceView1)
 helpviewer_keywords: ["CreateShaderResourceView1","CreateShaderResourceView1 method [Direct3D 11]","CreateShaderResourceView1 method [Direct3D 11]","ID3D11Device3 interface","ID3D11Device3 interface [Direct3D 11]","CreateShaderResourceView1 method","ID3D11Device3.CreateShaderResourceView1","ID3D11Device3::CreateShaderResourceView1","d3d11_3/ID3D11Device3::CreateShaderResourceView1","direct3d11.id3d11device3_createshaderresourceview1"]
 old-location: direct3d11\id3d11device3_createshaderresourceview1.htm
 tech.root: direct3d11

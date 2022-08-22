@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.SetSignatureId
 title: IOpcSigningOptions::SetSignatureId (msopc.h)
-description: Sets the value of the Id attribute of the Signature element.
+description: Sets the value of the Id attribute of the Signature element. (IOpcSigningOptions.SetSignatureId)
 helpviewer_keywords: ["IOpcSigningOptions interface [Open Packaging Conventions]","SetSignatureId method","IOpcSigningOptions.SetSignatureId","IOpcSigningOptions::SetSignatureId","SetSignatureId","SetSignatureId method [Open Packaging Conventions]","SetSignatureId method [Open Packaging Conventions]","IOpcSigningOptions interface","msopc/IOpcSigningOptions::SetSignatureId","opc.iopcsigningoptions_setsignatureid"]
 old-location: opc\iopcsigningoptions_setsignatureid.htm
 tech.root: OPC

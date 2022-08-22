@@ -1,7 +1,7 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.get_MediaTypes
 title: ITPluggableTerminalClassRegistration::get_MediaTypes (termmgr.h)
-description: The get_MediaTypes method gets the media types supported by the terminal.
+description: The get_MediaTypes method gets the media types supported by the terminal. (ITPluggableTerminalClassRegistration.get_MediaTypes)
 helpviewer_keywords: ["ITPluggableTerminalClassRegistration interface [TAPI 2.2]","get_MediaTypes method","ITPluggableTerminalClassRegistration.get_MediaTypes","ITPluggableTerminalClassRegistration::get_MediaTypes","_tapi3_itpluggableterminalclassregistration_get_mediatypes","get_MediaTypes","get_MediaTypes method [TAPI 2.2]","get_MediaTypes method [TAPI 2.2]","ITPluggableTerminalClassRegistration interface","tapi3.itpluggableterminalclassregistration_get_mediatypes","termmgr/ITPluggableTerminalClassRegistration::get_MediaTypes"]
 old-location: tapi3\itpluggableterminalclassregistration_get_mediatypes.htm
 tech.root: tapi3

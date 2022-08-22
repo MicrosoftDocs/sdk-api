@@ -1,7 +1,7 @@
 ---
 UID: NF:ncrypt.NCryptVerifySignature
 title: NCryptVerifySignature function (ncrypt.h)
-description: Verifies that the specified signature matches the specified hash.
+description: Verifies that the specified signature matches the specified hash. (NCryptVerifySignature)
 helpviewer_keywords: ["NCRYPT_PAD_PKCS1_FLAG","NCRYPT_PAD_PSS_FLAG","NCRYPT_SILENT_FLAG","NCryptVerifySignature","NCryptVerifySignature function [Security]","ncrypt/NCryptVerifySignature","security.ncryptverifysignature_func"]
 old-location: security\ncryptverifysignature_func.htm
 tech.root: security

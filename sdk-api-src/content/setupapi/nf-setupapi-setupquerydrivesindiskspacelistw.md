@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupQueryDrivesInDiskSpaceListW
 title: SetupQueryDrivesInDiskSpaceListW function (setupapi.h)
-description: The SetupQueryDrivesInDiskSpaceList function fills a buffer with a list of the drives referenced by the file operations listed in the disk-space list.
+description: The SetupQueryDrivesInDiskSpaceList function fills a buffer with a list of the drives referenced by the file operations listed in the disk-space list. (Unicode)
 helpviewer_keywords: ["SetupQueryDrivesInDiskSpaceList","SetupQueryDrivesInDiskSpaceList function [Setup API]","SetupQueryDrivesInDiskSpaceListA","SetupQueryDrivesInDiskSpaceListW","_setupapi_setupquerydrivesindiskspacelist","setup.setupquerydrivesindiskspacelist","setupapi/SetupQueryDrivesInDiskSpaceList","setupapi/SetupQueryDrivesInDiskSpaceListA","setupapi/SetupQueryDrivesInDiskSpaceListW"]
 old-location: setup\setupquerydrivesindiskspacelist.htm
 tech.root: setup

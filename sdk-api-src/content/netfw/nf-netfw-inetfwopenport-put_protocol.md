@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwOpenPort.put_Protocol
 title: INetFwOpenPort::put_Protocol (netfw.h)
-description: Specifies the protocol type setting for this port.
+description: Specifies the protocol type setting for this port. (Put)
 helpviewer_keywords: ["INetFwOpenPort interface [ICS/ICF]","Protocol property","INetFwOpenPort.Protocol","INetFwOpenPort.put_Protocol","INetFwOpenPort::Protocol","INetFwOpenPort::get_Protocol","INetFwOpenPort::put_Protocol","Protocol property [ICS/ICF]","Protocol property [ICS/ICF]","INetFwOpenPort interface","ics.inetfwopenport_protocol","netfw/INetFwOpenPort::Protocol","netfw/INetFwOpenPort::get_Protocol","netfw/INetFwOpenPort::put_Protocol","put_Protocol"]
 old-location: ics\inetfwopenport_protocol.htm
 tech.root: ics

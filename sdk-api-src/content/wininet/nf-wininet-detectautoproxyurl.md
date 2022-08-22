@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.DetectAutoProxyUrl
 title: DetectAutoProxyUrl function (wininet.h)
-description: Attempts to determine the location of a WPAD autoproxy script.
+description: Attempts to determine the location of a WPAD autoproxy script. (DetectAutoProxyUrl)
 helpviewer_keywords: ["DetectAutoProxyUrl","DetectAutoProxyUrl function [WinINet]","PROXY_AUTO_DETECT_TYPE_DHCP","PROXY_AUTO_DETECT_TYPE_DNS_A","_inet_detectautoproxyurl_function","wininet.detectautoproxyurl","winineti/DetectAutoProxyUrl"]
 old-location: wininet\detectautoproxyurl.htm
 tech.root: wininet

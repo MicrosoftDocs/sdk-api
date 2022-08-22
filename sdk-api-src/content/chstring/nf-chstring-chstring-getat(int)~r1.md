@@ -1,12 +1,12 @@
 ---
 UID: NF:chstring.CHString.GetAt(int)~r1
 title: CHString::GetAt (chstring.h)
-description: Returns a single character specified by an index number.
+description: The CHString::GetAt (chstring.h) method returns a single character specified by an index number.
 helpviewer_keywords: ["CHString interface [Windows Management Instrumentation]","GetAt method","CHString.GetAt","CHString::GetAt","GetAt","GetAt method [Windows Management Instrumentation]","GetAt method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_getat","chstring/CHString::GetAt","wmi.chstring_getat"]
 old-location: wmi\chstring_getat.htm
 tech.root: wmi
 ms.assetid: ed038b41-211c-4483-99cd-0bc43b241761
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: CHString interface [Windows Management Instrumentation],GetAt method, CHString.GetAt, CHString::GetAt, GetAt, GetAt method [Windows Management Instrumentation], GetAt method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getat, chstring/CHString::GetAt, wmi.chstring_getat
 req.header: chstring.h
 req.include-header: FwCommon.h

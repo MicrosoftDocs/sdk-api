@@ -1,7 +1,7 @@
 ---
 UID: NE:winsvc.SERVICE_SHARED_REGISTRY_STATE_TYPE
 title: SERVICE_SHARED_REGISTRY_STATE_TYPE
-description: Specifies a state type for a service registry key.
+description: Specifies a state type for a service registry key. (SERVICE_SHARED_REGISTRY_STATE_TYPE)
 tech.root: security
 ms.date: 5/24/2021
 ms.keywords: SERVICE_SHARED_REGISTRY_STATE_TYPE

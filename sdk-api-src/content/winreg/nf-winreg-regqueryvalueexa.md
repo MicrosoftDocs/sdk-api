@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegQueryValueExA
 title: RegQueryValueExA function (winreg.h)
-description: Retrieves the type and data for the specified value name associated with an open registry key.
+description: Retrieves the type and data for the specified value name associated with an open registry key. (ANSI)
 helpviewer_keywords: ["RegQueryValueEx","RegQueryValueEx function","RegQueryValueExA","RegQueryValueExW","_win32_regqueryvalueex","base.regqueryvalueex","winreg/RegQueryValueEx","winreg/RegQueryValueExA","winreg/RegQueryValueExW"]
 old-location: base\regqueryvalueex.htm
 tech.root: winprog

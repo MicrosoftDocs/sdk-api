@@ -1,7 +1,7 @@
 ---
 UID: NS:winsock2.WSAData
 title: WSADATA (winsock2.h)
-description: Contains information about the Windows Sockets implementation.
+description: Contains information about the Windows Sockets implementation. (WSADATA)
 helpviewer_keywords: ["*LPWSADATA","LPWSADATA","LPWSADATA structure pointer [Winsock]","WSADATA","WSADATA structure [Winsock]","_win32_wsadata_2","winsock.wsadata_2","winsock/LPWSADATA","winsock/WSADATA"]
 old-location: winsock\wsadata_2.htm
 tech.root: WinSock

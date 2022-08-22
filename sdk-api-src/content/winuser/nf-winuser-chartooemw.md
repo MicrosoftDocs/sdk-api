@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.CharToOemW
 title: CharToOemW function (winuser.h)
-description: Translates a string into the OEM-defined character set.Warning  Do not use.
+description: Translates a string into the OEM-defined character set.Warning  Do not use. (Unicode)
 helpviewer_keywords: ["CharToOem","CharToOem function [Menus and Other Resources]","CharToOemA","CharToOemW","_win32_CharToOem","_win32_chartooem_cpp","menurc.chartooem","winui._win32_chartooem","winuser/CharToOem","winuser/CharToOemA","winuser/CharToOemW"]
 old-location: menurc\chartooem.htm
 tech.root: menurc

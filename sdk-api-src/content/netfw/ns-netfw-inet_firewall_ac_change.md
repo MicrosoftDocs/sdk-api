@@ -1,7 +1,7 @@
 ---
 UID: NS:netfw._INET_FIREWALL_AC_CHANGE
 title: INET_FIREWALL_AC_CHANGE (netfw.h)
-description: Contains information about a change made to an app container.
+description: Contains information about a change made to an app container. (INET_FIREWALL_AC_CHANGE)
 helpviewer_keywords: ["*PINET_FIREWALL_AC_CHANGE","INET_FIREWALL_AC_CHANGE","INET_FIREWALL_AC_CHANGE structure [ICS/ICF]","PINET_FIREWALL_AC_CHANGE","PINET_FIREWALL_AC_CHANGE structure pointer [ICS/ICF]","_INET_FIREWALL_AC_CHANGE","ics.inet_firewall_ac_change","networkisolation/INET_FIREWALL_AC_CHANGE","networkisolation/PINET_FIREWALL_AC_CHANGE"]
 old-location: ics\inet_firewall_ac_change.htm
 tech.root: ics

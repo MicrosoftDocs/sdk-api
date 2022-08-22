@@ -1,7 +1,7 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocSecuritySettings.Next
 title: IEnumDot11AdHocSecuritySettings::Next (adhoc.h)
-description: Gets the specified number of elements from the sequence and advances the current position by the number of items retrieved.
+description: Gets the specified number of elements from the sequence and advances the current position by the number of items retrieved. (IEnumDot11AdHocSecuritySettings.Next)
 helpviewer_keywords: ["IEnumDot11AdHocSecuritySettings interface [NativeWIFI]","Next method","IEnumDot11AdHocSecuritySettings.Next","IEnumDot11AdHocSecuritySettings::Next","Next","Next method [NativeWIFI]","Next method [NativeWIFI]","IEnumDot11AdHocSecuritySettings interface","adhoc/IEnumDot11AdHocSecuritySettings::Next","nwifi.ienumdot11adhocsecuritysettings_next"]
 old-location: nwifi\ienumdot11adhocsecuritysettings_next.htm
 tech.root: nwifi

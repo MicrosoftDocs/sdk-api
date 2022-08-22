@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.StrCmpCW
 title: StrCmpCW function (shlwapi.h)
-description: Compares strings using C run-time (ASCII) collation rules. The comparison is case-sensitive.
+description: Compares strings using C run-time (ASCII) collation rules. The comparison is case-sensitive. (Unicode)
 helpviewer_keywords: ["StrCmpC","StrCmpC function [Windows Shell]","StrCmpCA","StrCmpCW","_shell_StrCmpC","shell.StrCmpC","shlwapi/StrCmpC","shlwapi/StrCmpCA","shlwapi/StrCmpCW"]
 old-location: shell\StrCmpC.htm
 tech.root: shell

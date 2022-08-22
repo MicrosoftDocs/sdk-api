@@ -1,7 +1,7 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_LINE
 title: IMAGEHLP_LINE (dbghelp.h)
-description: Represents a source file line.
+description: Represents a source file line. (IMAGEHLP_LINE)
 helpviewer_keywords: ["*PIMAGEHLP_LINE","IMAGEHLP_LINE","IMAGEHLP_LINE structure","IMAGEHLP_LINE64","IMAGEHLP_LINE64 structure","IMAGEHLP_LINEW64","PIMAGEHLP_LINE64","PIMAGEHLP_LINE64 structure pointer","_IMAGEHLP_LINE64","_win32_imagehlp_line64_str","base.imagehlp_line64_str","dbghelp/IMAGEHLP_LINE64","dbghelp/IMAGEHLP_LINEW64","dbghelp/PIMAGEHLP_LINE64"]
 old-location: base\imagehlp_line64_str.htm
 tech.root: Debug

@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.SetDllDirectoryA
 title: SetDllDirectoryA function (winbase.h)
-description: Adds a directory to the search path used to locate DLLs for the application.
+description: Adds a directory to the search path used to locate DLLs for the application. (ANSI)
 helpviewer_keywords: ["SetDllDirectory","SetDllDirectory function","SetDllDirectoryA","SetDllDirectoryW","base.setdlldirectory","winbase/SetDllDirectory","winbase/SetDllDirectoryA","winbase/SetDllDirectoryW"]
 old-location: base\setdlldirectory.htm
 tech.root: base

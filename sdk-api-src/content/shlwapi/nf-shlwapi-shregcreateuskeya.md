@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHRegCreateUSKeyA
 title: SHRegCreateUSKeyA function (shlwapi.h)
-description: Creates or opens a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
+description: Creates or opens a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). (ANSI)
 helpviewer_keywords: ["SHREGSET_DEFAULT","SHREGSET_FORCE_HKCU","SHREGSET_FORCE_HKLM","SHREGSET_HKCU","SHREGSET_HKLM","SHRegCreateUSKey","SHRegCreateUSKey function [Windows Shell]","SHRegCreateUSKeyA","SHRegCreateUSKeyW","_win32_SHRegCreateUSKey","shell.SHRegCreateUSKey","shlwapi/SHRegCreateUSKey","shlwapi/SHRegCreateUSKeyA","shlwapi/SHRegCreateUSKeyW"]
 old-location: shell\SHRegCreateUSKey.htm
 tech.root: shell

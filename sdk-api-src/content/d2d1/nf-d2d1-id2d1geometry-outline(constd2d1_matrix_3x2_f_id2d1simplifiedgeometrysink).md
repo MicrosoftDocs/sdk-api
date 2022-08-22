@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.Outline(constD2D1_MATRIX_3X2_F,ID2D1SimplifiedGeometrySink)
 title: ID2D1Geometry::Outline(const D2D1_MATRIX_3X2_F,ID2D1SimplifiedGeometrySink) (d2d1.h)
-description: Computes the outline of the geometry and writes the result to an ID2D1SimplifiedGeometrySink.
+description: Computes the outline of the geometry and writes the result to an ID2D1SimplifiedGeometrySink. (overload 4/4)
 helpviewer_keywords: ["ID2D1Geometry interface [Direct2D]","Outline method","ID2D1Geometry.Outline","ID2D1Geometry.Outline(const D2D1_MATRIX_3X2_F","ID2D1SimplifiedGeometrySink)","ID2D1Geometry::Outline","ID2D1Geometry::Outline(const D2D1_MATRIX_3X2_F","ID2D1SimplifiedGeometrySink)","Outline","Outline method [Direct2D]","Outline method [Direct2D]","ID2D1Geometry interface","d2d1/ID2D1Geometry::Outline","direct2d.ID2D1Geometry_Outline_ptr_D2D_MATRIX_3X2_F_ptr_ID2D1SimplifiedGeometrySink"]
 old-location: direct2d\ID2D1Geometry_Outline_ptr_D2D_MATRIX_3X2_F_ptr_ID2D1SimplifiedGeometrySink.htm
 tech.root: Direct2D

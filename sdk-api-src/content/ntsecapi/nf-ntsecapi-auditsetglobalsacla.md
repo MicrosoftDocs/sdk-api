@@ -1,7 +1,7 @@
 ---
 UID: NF:ntsecapi.AuditSetGlobalSaclA
 title: AuditSetGlobalSaclA function (ntsecapi.h)
-description: Sets a global system access control list (SACL) that delegates access to the audit messages.
+description: Sets a global system access control list (SACL) that delegates access to the audit messages. (ANSI)
 helpviewer_keywords: ["AuditSetGlobalSacl","AuditSetGlobalSacl function [Security]","AuditSetGlobalSaclA","AuditSetGlobalSaclW","ntsecapi/AuditSetGlobalSacl","ntsecapi/AuditSetGlobalSaclA","ntsecapi/AuditSetGlobalSaclW","security.auditsetglobalsacl"]
 old-location: security\auditsetglobalsacl.htm
 tech.root: security

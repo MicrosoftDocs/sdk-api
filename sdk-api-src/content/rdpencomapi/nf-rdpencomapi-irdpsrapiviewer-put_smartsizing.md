@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.put_SmartSizing
 title: IRDPSRAPIViewer::put_SmartSizing (rdpencomapi.h)
-description: Gets or sets the smart sizing property of the viewer ActiveX control.
+description: Gets or sets the smart sizing property of the viewer ActiveX control. (Put)
 helpviewer_keywords: ["IRDPSRAPIViewer interface [RDP]","SmartSizing property","IRDPSRAPIViewer.SmartSizing","IRDPSRAPIViewer.put_SmartSizing","IRDPSRAPIViewer::SmartSizing","IRDPSRAPIViewer::get_SmartSizing","IRDPSRAPIViewer::put_SmartSizing","RDPViewer object [RDP]","SmartSizing property","SmartSizing property [RDP]","SmartSizing property [RDP]","IRDPSRAPIViewer interface","SmartSizing property [RDP]","RDPViewer object","put_SmartSizing","rdp.irdpsrapiviewer_smartsizing","rdpencomapi/IRDPSRAPIViewer::SmartSizing","rdpencomapi/IRDPSRAPIViewer::get_SmartSizing","rdpencomapi/IRDPSRAPIViewer::put_SmartSizing"]
 old-location: rdp\irdpsrapiviewer_smartsizing.htm
 tech.root: rdp

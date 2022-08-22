@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IIdleSettings.put_IdleDuration
 title: IIdleSettings::put_IdleDuration (taskschd.h)
-description: Gets or sets a value that indicates the amount of time that the computer must be in an idle state before the task is run.
+description: Gets or sets a value that indicates the amount of time that the computer must be in an idle state before the task is run. (Put)
 helpviewer_keywords: ["IIdleSettings interface [Task Scheduler]","IdleDuration property","IIdleSettings.IdleDuration","IIdleSettings.put_IdleDuration","IIdleSettings::IdleDuration","IIdleSettings::get_IdleDuration","IIdleSettings::put_IdleDuration","IdleDuration property [Task Scheduler]","IdleDuration property [Task Scheduler]","IIdleSettings interface","put_IdleDuration","taskschd.iidlesettings_idleduration","taskschd/IIdleSettings::IdleDuration","taskschd/IIdleSettings::get_IdleDuration","taskschd/IIdleSettings::put_IdleDuration"]
 old-location: taskschd\iidlesettings_idleduration.htm
 tech.root: taskschd

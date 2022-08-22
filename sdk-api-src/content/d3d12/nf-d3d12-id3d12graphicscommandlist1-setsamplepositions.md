@@ -6,7 +6,7 @@ helpviewer_keywords: ["ID3D12GraphicsCommandList1 interface","SetSamplePositions
 old-location: direct3d12\id3d12graphicscommandlist1_setsamplepositions.htm
 tech.root: direct3d12
 ms.assetid: 04627303-20C7-44B1-A62D-45003A13685B
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ID3D12GraphicsCommandList1 interface,SetSamplePositions method, ID3D12GraphicsCommandList1.SetSamplePositions, ID3D12GraphicsCommandList1::SetSamplePositions, SetSamplePositions, SetSamplePositions method, SetSamplePositions method,ID3D12GraphicsCommandList1 interface, d3d12/ID3D12GraphicsCommandList1::SetSamplePositions, direct3d12.id3d12graphicscommandlist1_setsamplepositions
 req.header: d3d12.h
 req.include-header: 
@@ -58,7 +58,7 @@ This method configures the sample positions used by subsequent draw, copy, resol
 
 Type: <b>UINT</b>
 
-<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values">SAL</a>: <code>_In_</code>
 
 Specifies the number of samples to take, per pixel. This value can be 1, 2, 4, 8, or 16, otherwise the SetSamplePosition call is dropped. The number of samples must match the sample count configured in the PSO at draw time, otherwise the behavior is undefined.
 
@@ -66,7 +66,7 @@ Specifies the number of samples to take, per pixel. This value can be 1, 2, 4, 8
 
 Type: <b>UINT</b>
 
-<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values">SAL</a>: <code>_In_</code>
 
 Specifies the number of pixels that sample patterns are being specified for. This value can be either 1 or 4, otherwise the SetSamplePosition call is dropped. A value of 1 configures a single sample pattern to be used for each pixel; a value of 4 configures separate sample patterns for each pixel in a 2x2 pixel grid which is repeated over the render-target or viewport space, aligned to even coordinates.
 
@@ -76,7 +76,7 @@ Note that the maximum number of combined samples can't exceed 16, otherwise the 
 
 Type: <b><a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_sample_position">D3D12_SAMPLE_POSITION</a>*</b>
 
-<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_reads_(NumSamplesPerPixel*NumPixels)</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values">SAL</a>: <code>_In_reads_(NumSamplesPerPixel*NumPixels)</code>
 
 Specifies an array of D3D12_SAMPLE_POSITION elements. The size of the array is NumPixels * NumSamplesPerPixel. If NumPixels is set to 4, then the first group of sample positions corresponds to the upper-left pixel in the 2x2 grid of pixels; the next group of sample positions corresponds to the upper-right pixel, the next group to the lower-left pixel, and the final group to the lower-right pixel.
 

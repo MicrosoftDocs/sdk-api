@@ -1,7 +1,7 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetEnforcementBans
 title: IXblIdpAuthTokenResult::GetEnforcementBans (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use. (IXblIdpAuthTokenResult.GetEnforcementBans)
 helpviewer_keywords: ["GetEnforcementBans","GetEnforcementBans method","GetEnforcementBans method","IXblIdpAuthTokenResult interface","IXblIdpAuthTokenResult interface","GetEnforcementBans method","IXblIdpAuthTokenResult.GetEnforcementBans","IXblIdpAuthTokenResult::GetEnforcementBans","xblidp.ixblidpauthtokenresult_getenforcementbans","xblidpauthmanager/IXblIdpAuthTokenResult::GetEnforcementBans"]
 old-location: xblidp\ixblidpauthtokenresult_getenforcementbans.htm
 tech.root: xblidp

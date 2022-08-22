@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnItemStateChanged
 title: INameSpaceTreeControlEvents::OnItemStateChanged (shobjidl.h)
-description: Not implemented.
+description: Not implemented. (INameSpaceTreeControlEvents.OnItemStateChanged)
 helpviewer_keywords: ["INameSpaceTreeControlEvents interface [Windows Shell]","OnItemStateChanged method","INameSpaceTreeControlEvents.OnItemStateChanged","INameSpaceTreeControlEvents::OnItemStateChanged","OnItemStateChanged","OnItemStateChanged method [Windows Shell]","OnItemStateChanged method [Windows Shell]","INameSpaceTreeControlEvents interface","_shell_INameSpaceTreeControlEvents_OnItemStateChanged","shell.INameSpaceTreeControlEvents_OnItemStateChanged","shobjidl/INameSpaceTreeControlEvents::OnItemStateChanged"]
 old-location: shell\INameSpaceTreeControlEvents_OnItemStateChanged.htm
 tech.root: shell

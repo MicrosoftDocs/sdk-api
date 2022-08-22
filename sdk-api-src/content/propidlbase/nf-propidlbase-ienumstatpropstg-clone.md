@@ -1,7 +1,7 @@
 ---
 UID: NF:propidlbase.IEnumSTATPROPSTG.Clone
 title: IEnumSTATPROPSTG::Clone (propidlbase.h)
-description: Creates an enumerator that contains the same enumeration state as the current STATPROPSTG structure enumerator.
+description: Creates an enumerator that contains the same enumeration state as the current STATPROPSTG structure enumerator. (IEnumSTATPROPSTG.Clone)
 helpviewer_keywords: ["Clone","Clone method [Structured Storage]","Clone method [Structured Storage]","IEnumSTATPROPSTG interface","IEnumSTATPROPSTG interface [Structured Storage]","Clone method","IEnumSTATPROPSTG.Clone","IEnumSTATPROPSTG::Clone","propidlbase/IEnumSTATPROPSTG::Clone","stg.ienumstatpropstg_clone"]
 old-location: stg\ienumstatpropstg_clone.htm
 tech.root: Stg

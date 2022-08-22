@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3.ITMSPAddress.CreateMSPCall
 title: ITMSPAddress::CreateMSPCall (tapi3.h)
-description: The CreateMSPCall method creates an MSP Call object. TAPI aggregates this onto the main Call object and exposes the ITStreamControl interface.
+description: The CreateMSPCall method creates an MSP Call object. TAPI aggregates this onto the main Call object and exposes the ITStreamControl interface. (ITMSPAddress.CreateMSPCall)
 helpviewer_keywords: ["CreateMSPCall","CreateMSPCall method [TAPI 2.2]","CreateMSPCall method [TAPI 2.2]","ITMSPAddress interface","ITMSPAddress interface [TAPI 2.2]","CreateMSPCall method","ITMSPAddress.CreateMSPCall","ITMSPAddress::CreateMSPCall","_tapi3_itmspaddress_createmspcall","msp/ITMSPAddress::CreateMSPCall","tapi3.itmspaddress_createmspcall"]
 old-location: tapi3\itmspaddress_createmspcall.htm
 tech.root: tapi3

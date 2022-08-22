@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.GopherCreateLocatorA
 title: GopherCreateLocatorA function (wininet.h)
-description: Creates a Gopher or Gopher+ locator string from the selector string's component parts.
+description: Creates a Gopher or Gopher+ locator string from the selector string's component parts. (ANSI)
 helpviewer_keywords: ["GopherCreateLocator","GopherCreateLocator function [WinINet]","GopherCreateLocatorA","GopherCreateLocatorW","_inet_gophercreatelocator_function","wininet.gophercreatelocator","wininet/GopherCreateLocator","wininet/GopherCreateLocatorA","wininet/GopherCreateLocatorW"]
 old-location: wininet\gophercreatelocator.htm
 tech.root: wininet

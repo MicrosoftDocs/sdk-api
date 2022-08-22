@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3.ITAllocatorProperties.SetBufferSize
 title: ITAllocatorProperties::SetBufferSize (tapi3.h)
-description: The SetBufferSize method sets the size of the allocator buffer.
+description: The SetBufferSize method sets the size of the allocator buffer. (ITAllocatorProperties.SetBufferSize)
 helpviewer_keywords: ["ITAllocatorProperties interface [TAPI 2.2]","SetBufferSize method","ITAllocatorProperties.SetBufferSize","ITAllocatorProperties::SetBufferSize","SetBufferSize","SetBufferSize method [TAPI 2.2]","SetBufferSize method [TAPI 2.2]","ITAllocatorProperties interface","_tapi3_itallocatorproperties_setbuffersize","tapi3.itallocatorproperties_setbuffersize","tapi3ds/ITAllocatorProperties::SetBufferSize"]
 old-location: tapi3\itallocatorproperties_setbuffersize.htm
 tech.root: tapi3

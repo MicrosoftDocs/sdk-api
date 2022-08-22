@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.InsertMenuItemA
 title: InsertMenuItemA function (winuser.h)
-description: Inserts a new menu item at the specified position in a menu.
+description: Inserts a new menu item at the specified position in a menu. (ANSI)
 helpviewer_keywords: ["InsertMenuItem","InsertMenuItem function [Menus and Other Resources]","InsertMenuItemA","InsertMenuItemW","_win32_InsertMenuItem","_win32_insertmenuitem_cpp","menurc.insertmenuitem","winui._win32_insertmenuitem","winuser/InsertMenuItem","winuser/InsertMenuItemA","winuser/InsertMenuItemW"]
 old-location: menurc\insertmenuitem.htm
 tech.root: menurc

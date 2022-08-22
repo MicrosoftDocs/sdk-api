@@ -1,7 +1,7 @@
 ---
 UID: NF:winscard.SCardGetStatusChangeA
 title: SCardGetStatusChangeA function (winscard.h)
-description: Blocks execution until the current availability of the cards in a specific set of readers changes.
+description: Blocks execution until the current availability of the cards in a specific set of readers changes. (ANSI)
 helpviewer_keywords: ["SCardGetStatusChange","SCardGetStatusChange function [Security]","SCardGetStatusChangeA","SCardGetStatusChangeW","_smart_scardgetstatuschange","security.scardgetstatuschange","winscard/SCardGetStatusChange","winscard/SCardGetStatusChangeA","winscard/SCardGetStatusChangeW"]
 old-location: security\scardgetstatuschange.htm
 tech.root: security

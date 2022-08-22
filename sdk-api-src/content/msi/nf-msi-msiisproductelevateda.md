@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiIsProductElevatedA
 title: MsiIsProductElevatedA function (msi.h)
-description: The MsiIsProductElevated function returns whether or not the product is managed.
+description: The MsiIsProductElevated function returns whether or not the product is managed. (ANSI)
 helpviewer_keywords: ["MsiIsProductElevated","MsiIsProductElevated function","MsiIsProductElevatedA","MsiIsProductElevatedW","_msi_msiisproductelevated","msi/MsiIsProductElevated","msi/MsiIsProductElevatedA","msi/MsiIsProductElevatedW","setup.msiisproductelevated"]
 old-location: setup\msiisproductelevated.htm
 tech.root: setup

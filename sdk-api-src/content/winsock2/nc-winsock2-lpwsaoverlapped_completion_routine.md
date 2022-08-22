@@ -1,7 +1,7 @@
 ---
 UID: NC:winsock2.LPWSAOVERLAPPED_COMPLETION_ROUTINE
 title: LPWSAOVERLAPPED_COMPLETION_ROUTINE
-description: TBD
+description: TBD (LPWSAOVERLAPPED_COMPLETION_ROUTINE)
 ms.date: 
 tech.root: WinSock
 targetos: Windows

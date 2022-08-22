@@ -1,7 +1,7 @@
 ---
 UID: NF:processenv.SearchPathA
 title: SearchPathA function
-description: Searches for a specified file in a specified path.
+description: Searches for a specified file in a specified path. (ANSI)
 helpviewer_keywords: ["SearchPath","SearchPath function [Files]","SearchPathA","SearchPathW","_win32_searchpath","base.searchpath","fs.searchpath","processenv/SearchPath","processenv/SearchPathA","processenv/SearchPathW"]
 old-location: fs\searchpath.htm
 tech.root: fs

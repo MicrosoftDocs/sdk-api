@@ -1,7 +1,7 @@
 ---
 UID: NF:iscsidsc.GetIScsiIKEInfoA
 title: GetIScsiIKEInfoA function (iscsidsc.h)
-description: GetIscsiIKEInfo function retrieves the IPsec policy and any established pre-shared key values associated with an initiator Host-Bus Adapter (HBA).
+description: GetIscsiIKEInfo function retrieves the IPsec policy and any established pre-shared key values associated with an initiator Host-Bus Adapter (HBA). (ANSI)
 helpviewer_keywords: ["GetIScsiIKEInfoA","GetIscsiIKEInfo","GetIscsiIKEInfo function [iSCSI Discovery Library API]","GetIscsiIKEInfoA","GetIscsiIKEInfoW","iscsidisc.getiscsiikeinfo","iscsidsc/GetIscsiIKEInfo","iscsidsc/GetIscsiIKEInfoA","iscsidsc/GetIscsiIKEInfoW"]
 old-location: iscsidisc\getiscsiikeinfo.htm
 tech.root: iSCSIDisc

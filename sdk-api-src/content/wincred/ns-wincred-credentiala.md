@@ -1,7 +1,7 @@
 ---
 UID: NS:wincred._CREDENTIALA
 title: CREDENTIALA (wincred.h)
-description: The CREDENTIAL structure contains an individual credential.
+description: The CREDENTIAL structure contains an individual credential. (ANSI)
 helpviewer_keywords: ["*PCREDENTIALA","CREDENTIAL","CREDENTIAL structure [Security]","CREDENTIALA","CREDENTIALW","CRED_FLAGS_PROMPT_NOW","CRED_FLAGS_USERNAME_TARGET","CRED_PERSIST_ENTERPRISE","CRED_PERSIST_LOCAL_MACHINE","CRED_PERSIST_SESSION","CRED_TYPE_DOMAIN_CERTIFICATE","CRED_TYPE_DOMAIN_EXTENDED","CRED_TYPE_DOMAIN_PASSWORD","CRED_TYPE_DOMAIN_VISIBLE_PASSWORD","CRED_TYPE_GENERIC","CRED_TYPE_GENERIC_CERTIFICATE","CRED_TYPE_MAXIMUM","CRED_TYPE_MAXIMUM_EX","PCREDENTIAL","PCREDENTIAL structure pointer [Security]","_cred_credential","security.credential","wincred/CREDENTIAL","wincred/CREDENTIALA","wincred/CREDENTIALW","wincred/PCREDENTIAL"]
 old-location: security\credential.htm
 tech.root: security

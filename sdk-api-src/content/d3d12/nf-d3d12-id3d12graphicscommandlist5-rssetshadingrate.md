@@ -1,8 +1,9 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList5.RSSetShadingRate
 title: ID3D12GraphicsCommandList5::RSSetShadingRate
+description: The ID3D12GraphicsCommandList5::RSSetShadingRate method (d3d12.h) sets the base shading rate, and combiners, for variable-rate shading (VRS). 
 tech.root: direct3d12
-ms.date: 01/31/2019
+ms.date: 08/10/2022
 ms.keywords: ID3D12GraphicsCommandList5::RSSetShadingRate
 targetos: Windows
 req.assembly: 

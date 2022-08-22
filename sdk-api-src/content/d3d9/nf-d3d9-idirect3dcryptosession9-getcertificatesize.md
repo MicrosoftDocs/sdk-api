@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.GetCertificateSize
 title: IDirect3DCryptoSession9::GetCertificateSize (d3d9.h)
-description: Gets the size of the driver's certificate chain.
+description: Gets the size of the driver's certificate chain. (IDirect3DCryptoSession9.GetCertificateSize)
 helpviewer_keywords: ["GetCertificateSize","GetCertificateSize method [Media Foundation]","GetCertificateSize method [Media Foundation]","IDirect3DCryptoSession9 interface","IDirect3DCryptoSession9 interface [Media Foundation]","GetCertificateSize method","IDirect3DCryptoSession9.GetCertificateSize","IDirect3DCryptoSession9::GetCertificateSize","d3d9/IDirect3DCryptoSession9::GetCertificateSize","mf.idirect3dcryptosession9_getcertificatesize"]
 old-location: mf\idirect3dcryptosession9_getcertificatesize.htm
 tech.root: mf

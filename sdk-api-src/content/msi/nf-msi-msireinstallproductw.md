@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiReinstallProductW
 title: MsiReinstallProductW function (msi.h)
-description: Reinstalls products.
+description: Reinstalls products. (Unicode)
 helpviewer_keywords: ["MsiReinstallProduct","MsiReinstallProduct function","MsiReinstallProductA","MsiReinstallProductW","REINSTALLMODE_FILEEQUALVERSION","REINSTALLMODE_FILEEXACT","REINSTALLMODE_FILEMISSING","REINSTALLMODE_FILEOLDERVERSION","REINSTALLMODE_FILEREPLACE","REINSTALLMODE_FILEVERIFY","REINSTALLMODE_MACHINEDATA","REINSTALLMODE_PACKAGE","REINSTALLMODE_SHORTCUT","REINSTALLMODE_USERDATA","_msi_msireinstallproduct","msi/MsiReinstallProduct","msi/MsiReinstallProductA","msi/MsiReinstallProductW","setup.msireinstallproduct"]
 old-location: setup\msireinstallproduct.htm
 tech.root: setup

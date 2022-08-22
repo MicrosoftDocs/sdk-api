@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.put_AllowInboundMaskRequest
 title: INetFwIcmpSettings::put_AllowInboundMaskRequest (netfw.h)
-description: Indicates whether this is allowed.
+description: Indicates whether this is allowed. (INetFwIcmpSettings.put_AllowInboundMaskRequest)
 helpviewer_keywords: ["AllowInboundMaskRequest property [ICS/ICF]","AllowInboundMaskRequest property [ICS/ICF]","INetFwIcmpSettings interface","INetFwIcmpSettings interface [ICS/ICF]","AllowInboundMaskRequest property","INetFwIcmpSettings.AllowInboundMaskRequest","INetFwIcmpSettings.put_AllowInboundMaskRequest","INetFwIcmpSettings::AllowInboundMaskRequest","INetFwIcmpSettings::get_AllowInboundMaskRequest","INetFwIcmpSettings::put_AllowInboundMaskRequest","ics.inetfwicmpsettings_allowinboundmaskrequest","netfw/INetFwIcmpSettings::AllowInboundMaskRequest","netfw/INetFwIcmpSettings::get_AllowInboundMaskRequest","netfw/INetFwIcmpSettings::put_AllowInboundMaskRequest","put_AllowInboundMaskRequest"]
 old-location: ics\inetfwicmpsettings_allowinboundmaskrequest.htm
 tech.root: ics

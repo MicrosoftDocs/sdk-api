@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dcompiler.D3DCompile2
 title: D3DCompile2 function (d3dcompiler.h)
-description: Compiles Microsoft High Level Shader Language (HLSL) code into bytecode for a given target.
+description: Compiles Microsoft High Level Shader Language (HLSL) code into bytecode for a given target. (D3DCompile2)
 helpviewer_keywords: ["D3DCompile2","D3DCompile2 function [HLSL]","d3dcompiler/D3DCompile2","direct3dhlsl.d3dcompile2"]
 old-location: direct3dhlsl\d3dcompile2.htm
 tech.root: direct3dhlsl
@@ -182,9 +182,9 @@ To compile offline shaders the recommended approach is to use the <a href="/wind
 * Now add these includes to your .cpp file:
 
    ``` syntax
-   #include &lt;ppltasks.h&gt;
-   #include &lt;d3dcompiler.h&gt;
-   #include &lt;Robuffer.h&gt;
+   #include <ppltasks.h>
+   #include <d3dcompiler.h>
+   #include <Robuffer.h>
    ```
 
 * Use the following code to call <b>D3DCompile2</b>. Note that there's no error checking or handling here, and also that this code demonstrates that you can do both I/O and compilation in the background, which leaves your UI more responsive.
@@ -192,11 +192,11 @@ To compile offline shaders the recommended approach is to use the <a href="/wind
 ```cppcx
 void App1::DirectXPage::TheButton_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-  std::shared_ptr&lt;Microsoft::WRL::ComPtr&lt;ID3DBlob&gt;&gt; blobRef = std::make_shared&lt;Microsoft::WRL::ComPtr&lt;ID3DBlob&gt;&gt;();
+  std::shared_ptr<Microsoft::WRL::ComPtr<ID3DBlob>> blobRef = std::make_shared<Microsoft::WRL::ComPtr<ID3DBlob>>();
 
   // Load a file and compile it.
-  auto fileOp = Windows::ApplicationModel::Package::Current-&gt;InstalledLocation-&gt;GetFileAsync(L"shader.hlsl");
-  create_task(fileOp).then([this](Windows::Storage::StorageFile^ file) -&gt; IAsyncOperation&lt;Windows::Storage::Streams::IBuffer^&gt;^
+  auto fileOp = Windows::ApplicationModel::Package::Current->InstalledLocation->GetFileAsync(L"shader.hlsl");
+  create_task(fileOp).then([this](Windows::Storage::StorageFile^ file) -> IAsyncOperation<Windows::Storage::Streams::IBuffer^>^
   {
     // Do file I/O in background thread (use_arbitrary).
     return Windows::Storage::FileIO::ReadBufferAsync(file);
@@ -206,27 +206,27 @@ void App1::DirectXPage::TheButton_Click(Platform::Object^ sender, Windows::UI::X
     // Do compilation in background thread (use_arbitrary).
 
     // Cast to Object^, then to its underlying IInspectable interface.
-    Microsoft::WRL::ComPtr&lt;IInspectable&gt; insp(reinterpret_cast&lt;IInspectable*&gt;(buffer));
+    Microsoft::WRL::ComPtr<IInspectable> insp(reinterpret_cast<IInspectable*>(buffer));
 
     // Query the IBufferByteAccess interface.
-    Microsoft::WRL::ComPtr&lt;Windows::Storage::Streams::IBufferByteAccess&gt; bufferByteAccess;
-    insp.As(&amp;bufferByteAccess);
+    Microsoft::WRL::ComPtr<Windows::Storage::Streams::IBufferByteAccess> bufferByteAccess;
+    insp.As(&bufferByteAccess);
 
     // Retrieve the buffer data.
     byte *pBytes = nullptr;
-    bufferByteAccess-&gt;Buffer(&amp;pBytes);
+    bufferByteAccess->Buffer(&pBytes);
 
-    Microsoft::WRL::ComPtr&lt;ID3DBlob&gt; blob;
-    Microsoft::WRL::ComPtr&lt;ID3DBlob&gt; errMsgs;
-    D3DCompile2(pBytes, buffer-&gt;Length, "shader.hlsl", nullptr, nullptr, "main", "ps_5_0", 0, 0, 0, nullptr, 0, blob.GetAddressOf(), errMsgs.GetAddressOf());
+    Microsoft::WRL::ComPtr<ID3DBlob> blob;
+    Microsoft::WRL::ComPtr<ID3DBlob> errMsgs;
+    D3DCompile2(pBytes, buffer->Length, "shader.hlsl", nullptr, nullptr, "main", "ps_5_0", 0, 0, 0, nullptr, 0, blob.GetAddressOf(), errMsgs.GetAddressOf());
     *blobRef = blob;
   }, task_continuation_context::use_arbitrary())
     .then([this, blobRef]()
   {
     // Update UI / use shader on foreground thread.
     wchar_t message[40];
-    swprintf_s(message, L"blob is %u bytes long", (unsigned)(*blobRef)-&gt;GetBufferSize());
-    this-&gt;TheButton-&gt;Content = ref new Platform::String(message);
+    swprintf_s(message, L"blob is %u bytes long", (unsigned)(*blobRef)->GetBufferSize());
+    this->TheButton->Content = ref new Platform::String(message);
   }, task_continuation_context::use_current());
 }
 ```

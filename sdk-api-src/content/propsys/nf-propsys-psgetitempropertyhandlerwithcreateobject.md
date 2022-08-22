@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.PSGetItemPropertyHandlerWithCreateObject
 title: PSGetItemPropertyHandlerWithCreateObject function (propsys.h)
-description: Retrieves a property handler for a Shell item.
+description: Retrieves a property handler for a Shell item. (PSGetItemPropertyHandlerWithCreateObject)
 helpviewer_keywords: ["PSGetItemPropertyHandlerWithCreateObject","PSGetItemPropertyHandlerWithCreateObject function [Windows Properties]","_shell_PSGetItemPropertyHandlerWithCreateObject","properties.PSGetItemPropertyHandlerWithCreateObject","propsys/PSGetItemPropertyHandlerWithCreateObject","shell.PSGetItemPropertyHandlerWithCreateObject"]
 old-location: properties\PSGetItemPropertyHandlerWithCreateObject.htm
 tech.root: properties

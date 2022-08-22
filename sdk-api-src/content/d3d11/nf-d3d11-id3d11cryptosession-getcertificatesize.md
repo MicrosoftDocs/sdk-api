@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11CryptoSession.GetCertificateSize
 title: ID3D11CryptoSession::GetCertificateSize (d3d11.h)
-description: Gets the size of the driver's certificate chain.
+description: Gets the size of the driver's certificate chain. (ID3D11CryptoSession.GetCertificateSize)
 helpviewer_keywords: ["GetCertificateSize","GetCertificateSize method [Media Foundation]","GetCertificateSize method [Media Foundation]","ID3D11CryptoSession interface","ID3D11CryptoSession interface [Media Foundation]","GetCertificateSize method","ID3D11CryptoSession.GetCertificateSize","ID3D11CryptoSession::GetCertificateSize","d3d11/ID3D11CryptoSession::GetCertificateSize","mf.id3d11cryptosession_getcertificatesize"]
 old-location: mf\id3d11cryptosession_getcertificatesize.htm
 tech.root: mf

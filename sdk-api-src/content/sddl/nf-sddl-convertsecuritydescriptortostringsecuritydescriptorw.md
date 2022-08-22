@@ -1,7 +1,7 @@
 ---
 UID: NF:sddl.ConvertSecurityDescriptorToStringSecurityDescriptorW
 title: ConvertSecurityDescriptorToStringSecurityDescriptorW function (sddl.h)
-description: Converts a security descriptor to a string format. You can use the string format to store or transmit the security descriptor.
+description: Converts a security descriptor to a string format. You can use the string format to store or transmit the security descriptor. (Unicode)
 helpviewer_keywords: ["ConvertSecurityDescriptorToStringSecurityDescriptor","ConvertSecurityDescriptorToStringSecurityDescriptor function [Security]","ConvertSecurityDescriptorToStringSecurityDescriptorA","ConvertSecurityDescriptorToStringSecurityDescriptorW","_win32_convertsecuritydescriptortostringsecuritydescriptor","sddl/ConvertSecurityDescriptorToStringSecurityDescriptor","sddl/ConvertSecurityDescriptorToStringSecurityDescriptorA","sddl/ConvertSecurityDescriptorToStringSecurityDescriptorW","security.convertsecuritydescriptortostringsecuritydescriptor"]
 old-location: security\convertsecuritydescriptortostringsecuritydescriptor.htm
 tech.root: security

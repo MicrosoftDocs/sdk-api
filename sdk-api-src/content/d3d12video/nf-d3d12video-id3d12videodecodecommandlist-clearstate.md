@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecodeCommandList.ClearState
 title: ID3D12VideoDecodeCommandList::ClearState
-description: Resets the state of a direct command list back to the state it was in when the command list was created.
+description: Resets the state of a direct command list back to the state it was in when the command list was created. (ID3D12VideoDecodeCommandList::ClearState)
 helpviewer_keywords: ["ID3D12VideoDecodeCommandList::ClearState","ClearState","ID3D12VideoDecodeCommandList.ClearState","ID3D12VideoDecodeCommandList::ClearState","ID3D12VideoDecodeCommandList.ClearState"]
 tech.root: mf
 ms.assetid: 832e8cd0-3aad-4471-b5c7-e91cd91b6cb5

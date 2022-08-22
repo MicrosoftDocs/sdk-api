@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiRecordSetStreamW
 title: MsiRecordSetStreamW function (msiquery.h)
-description: The MsiRecordSetStream function sets a record stream field from a file. Stream data cannot be inserted into temporary fields.
+description: The MsiRecordSetStream function sets a record stream field from a file. Stream data cannot be inserted into temporary fields. (Unicode)
 helpviewer_keywords: ["MsiRecordSetStream","MsiRecordSetStream function","MsiRecordSetStreamA","MsiRecordSetStreamW","_msi_msirecordsetstream","msiquery/MsiRecordSetStream","msiquery/MsiRecordSetStreamA","msiquery/MsiRecordSetStreamW","setup.msirecordsetstream"]
 old-location: setup\msirecordsetstream.htm
 tech.root: setup

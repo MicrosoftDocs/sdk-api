@@ -1,7 +1,7 @@
 ---
 UID: NF:pdh.PdhAddCounterW
 title: PdhAddCounterW function (pdh.h)
-description: Adds the specified counter to the query.
+description: Adds the specified counter to the query. (Unicode)
 helpviewer_keywords: ["PdhAddCounter","PdhAddCounter function [Perf]","PdhAddCounterA","PdhAddCounterW","_win32_pdhaddcounter","base.pdhaddcounter","pdh/PdhAddCounter","pdh/PdhAddCounterA","pdh/PdhAddCounterW","perf.pdhaddcounter"]
 old-location: perf\pdhaddcounter.htm
 tech.root: perf

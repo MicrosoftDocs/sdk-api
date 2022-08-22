@@ -2,9 +2,9 @@
 UID: NF:processthreadsapi.QueueUserAPC2
 tech.root: backup
 title: QueueUserAPC2 function (processthreadsapi.h)
-ms.date: 10/14/2021
+ms.date: 08/05/2022
 targetos: Windows
-description: Adds a user-mode asynchronous procedure call (APC) object to the APC queue of the specified thread.
+description: Adds a user-mode asynchronous procedure call (APC) object to the APC queue of the specified thread. (QueueUserAPC2)
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -52,7 +52,7 @@ Adds a user-mode [asynchronous procedure call](/windows/win32/sync/asynchronous-
 
 A pointer to the application-supplied APC function to be called when the specified thread performs an alertable wait operation. For more information, see [APCProc](/windows/desktop/api/winnt/nc-winnt-papcfunc).
 
-For special user-mode APCs, an alertable wait is not required. See [Remarks](#-remarks) for more information about special user-mode APCs.
+For special user-mode APCs, an alertable wait is not required. See [Remarks](#remarks) for more information about special user-mode APCs.
 
 ### -param Thread
 

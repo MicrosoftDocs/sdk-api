@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.EndEvent
 title: ID3D12GraphicsCommandList::EndEvent (d3d12.h)
-description: Not intended to be called directly.  Use the PIX event runtime to insert events into a command list.
+description: Not intended to be called directly.  Use the PIX event runtime to insert events into a command list. (ID3D12GraphicsCommandList.EndEvent)
 helpviewer_keywords: ["EndEvent","EndEvent method","EndEvent method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","EndEvent method","ID3D12GraphicsCommandList.EndEvent","ID3D12GraphicsCommandList::EndEvent","d3d12/ID3D12GraphicsCommandList::EndEvent","direct3d12.id3d12graphicscommandlist_endevent"]
 old-location: direct3d12\id3d12graphicscommandlist_endevent.htm
 tech.root: direct3d12

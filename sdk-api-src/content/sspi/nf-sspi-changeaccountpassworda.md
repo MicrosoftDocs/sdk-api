@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.ChangeAccountPasswordA
 title: ChangeAccountPasswordA function (sspi.h)
-description: Changes the password for a Windows domain account by using the specified Security Support Provider.
+description: Changes the password for a Windows domain account by using the specified Security Support Provider. (ANSI)
 helpviewer_keywords: ["ChangeAccountPassword","ChangeAccountPassword function [Security]","ChangeAccountPasswordA","ChangeAccountPasswordW","security.changeaccountpassword","sspi/ChangeAccountPassword","sspi/ChangeAccountPasswordA","sspi/ChangeAccountPasswordW"]
 old-location: security\changeaccountpassword.htm
 tech.root: security

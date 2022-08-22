@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkDisp.get_Strokes
 title: IInkDisp::get_Strokes (msinkaut.h)
-description: Gets the collection of strokes that are contained in an object or used to create an object.
+description: Gets the collection of strokes that are contained in an object or used to create an object. (IInkDisp.get_Strokes)
 helpviewer_keywords: ["IInkDisp interface [Tablet PC]","Strokes property","IInkDisp.Strokes","IInkDisp.get_Strokes","IInkDisp::Strokes","IInkDisp::get_Strokes","InkDisp.get_Strokes","Strokes property [Tablet PC]","Strokes property [Tablet PC]","IInkDisp interface","get_Strokes","msinkaut/IInkDisp::Strokes","msinkaut/IInkDisp::get_Strokes","tablet.inkdisp_strokes"]
 old-location: tablet\inkdisp_strokes.htm
 tech.root: tablet

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_TEX1D_SRV
 title: D3D12_TEX1D_SRV (d3d12.h)
-description: Specifies the subresource from a 1D texture to use in a shader-resource view.
+description: Specifies the subresource from a 1D texture to use in a shader-resource view. (D3D12_TEX1D_SRV)
 helpviewer_keywords: ["D3D12_TEX1D_SRV","D3D12_TEX1D_SRV structure","d3d12/D3D12_TEX1D_SRV","direct3d12.d3d12_tex1d_srv"]
 old-location: direct3d12\d3d12_tex1d_srv.htm
 tech.root: direct3d12

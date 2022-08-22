@@ -1,7 +1,7 @@
 ---
 UID: NF:ntmsapi.GetNtmsObjectInformationA
 title: GetNtmsObjectInformationA function (ntmsapi.h)
-description: The GetNtmsObjectInformation function returns an object's information structure for the specified object.
+description: The GetNtmsObjectInformation function returns an object's information structure for the specified object. (GetNtmsObjectInformationA)
 helpviewer_keywords: ["GetNtmsObjectInformation","GetNtmsObjectInformation function [Files]","GetNtmsObjectInformationA","GetNtmsObjectInformationW","_zaw_getntmsobjectinformation","base.getntmsobjectinformation","fs.getntmsobjectinformation","ntmsapi/GetNtmsObjectInformation","ntmsapi/GetNtmsObjectInformationA","ntmsapi/GetNtmsObjectInformationW"]
 old-location: fs\getntmsobjectinformation.htm
 tech.root: fs

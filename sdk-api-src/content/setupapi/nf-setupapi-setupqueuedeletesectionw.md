@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupQueueDeleteSectionW
 title: SetupQueueDeleteSectionW function (setupapi.h)
-description: The SetupQueueDeleteSection function queues all the files in a section of an INF file for deletion. The section must be in the correct Delete Files format and the INF file must contain a DestinationDirs section.
+description: The SetupQueueDeleteSection function queues all the files in a section of an INF file for deletion. The section must be in the correct Delete Files format and the INF file must contain a DestinationDirs section. (Unicode)
 helpviewer_keywords: ["SetupQueueDeleteSection","SetupQueueDeleteSection function [Setup API]","SetupQueueDeleteSectionA","SetupQueueDeleteSectionW","_setupapi_setupqueuedeletesection","setup.setupqueuedeletesection","setupapi/SetupQueueDeleteSection","setupapi/SetupQueueDeleteSectionA","setupapi/SetupQueueDeleteSectionW"]
 old-location: setup\setupqueuedeletesection.htm
 tech.root: setup

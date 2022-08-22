@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiGetFileSignatureInformationA
 title: MsiGetFileSignatureInformationA function (msi.h)
-description: The MsiGetFileSignatureInformation function takes the path to a file that has been digitally signed and returns the file's signer certificate and hash.
+description: The MsiGetFileSignatureInformation function takes the path to a file that has been digitally signed and returns the file's signer certificate and hash. (ANSI)
 helpviewer_keywords: ["MSI_INVALID_HASH_IS_FATAL","MsiGetFileSignatureInformation","MsiGetFileSignatureInformation function","MsiGetFileSignatureInformationA","MsiGetFileSignatureInformationW","_msi_msigetfilesignatureinformation","msi/MsiGetFileSignatureInformation","msi/MsiGetFileSignatureInformationA","msi/MsiGetFileSignatureInformationW","setup.msigetfilesignatureinformation"]
 old-location: setup\msigetfilesignatureinformation.htm
 tech.root: setup

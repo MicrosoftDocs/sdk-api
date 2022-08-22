@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextPattern.RangeFromPoint
 title: IUIAutomationTextPattern::RangeFromPoint (uiautomationclient.h)
-description: Retrieves the degenerate (empty) text range nearest to the specified screen coordinates.
+description: Retrieves the degenerate (empty) text range nearest to the specified screen coordinates. (IUIAutomationTextPattern.RangeFromPoint)
 helpviewer_keywords: ["IUIAutomationTextPattern interface [Windows Accessibility]","RangeFromPoint method","IUIAutomationTextPattern.RangeFromPoint","IUIAutomationTextPattern::RangeFromPoint","RangeFromPoint","RangeFromPoint method [Windows Accessibility]","RangeFromPoint method [Windows Accessibility]","IUIAutomationTextPattern interface","uiauto.uiauto_IUIAutomationTextPattern_RangeFromPoint","uiauto_IUIAutomationTextPattern_RangeFromPoint","uiautomationclient/IUIAutomationTextPattern::RangeFromPoint","winauto.uiauto_IUIAutomationTextPattern_RangeFromPoint"]
 old-location: winauto\uiauto_IUIAutomationTextPattern_RangeFromPoint.htm
 tech.root: WinAuto

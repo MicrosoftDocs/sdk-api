@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_EventClassID
 title: IEventSubscription::put_EventClassID (eventsys.h)
-description: The unique ID of the event class associated with the subscription.
+description: The unique ID of the event class associated with the subscription. (Put)
 helpviewer_keywords: ["EventClassID property [COM+]","EventClassID property [COM+]","IEventSubscription interface","IEventSubscription interface [COM+]","EventClassID property","IEventSubscription.EventClassID","IEventSubscription.put_EventClassID","IEventSubscription::EventClassID","IEventSubscription::get_EventClassID","IEventSubscription::put_EventClassID","cos.ieventsubscription_eventclassid","eventsys/IEventSubscription::EventClassID","eventsys/IEventSubscription::get_EventClassID","eventsys/IEventSubscription::put_EventClassID","put_EventClassID"]
 old-location: cos\ieventsubscription_eventclassid.htm
 tech.root: cos

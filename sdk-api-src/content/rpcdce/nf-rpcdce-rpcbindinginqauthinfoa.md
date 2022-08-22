@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcBindingInqAuthInfoA
 title: RpcBindingInqAuthInfoA function (rpcdce.h)
-description: The RpcBindingInqAuthInfo function returns authentication and authorization information from a binding handle.
+description: The RpcBindingInqAuthInfo function returns authentication and authorization information from a binding handle. (RpcBindingInqAuthInfoA)
 helpviewer_keywords: ["RpcBindingInqAuthInfo","RpcBindingInqAuthInfo function [RPC]","RpcBindingInqAuthInfoA","RpcBindingInqAuthInfoW","_rpc_rpcbindinginqauthinfo","rpc.rpcbindinginqauthinfo","rpcdce/RpcBindingInqAuthInfo","rpcdce/RpcBindingInqAuthInfoA","rpcdce/RpcBindingInqAuthInfoW"]
 old-location: rpc\rpcbindinginqauthinfo.htm
 tech.root: Rpc

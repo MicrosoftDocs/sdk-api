@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiProvideAssemblyA
 title: MsiProvideAssemblyA function (msi.h)
-description: The MsiProvideAssembly function returns the full path to a Windows Installer component that contains an assembly. The function prompts for a source and performs any necessary installation. MsiProvideAssembly increments the usage count for the feature.
+description: The MsiProvideAssembly function returns the full path to a Windows Installer component that contains an assembly. The function prompts for a source and performs any necessary installation. MsiProvideAssembly increments the usage count for the feature. (ANSI)
 helpviewer_keywords: ["INSTALLMODE_DEFAULT","INSTALLMODE_EXISTING","INSTALLMODE_NODETECTION","INSTALLMODE_NODETECTION_ANY","INSTALLMODE_NOSOURCERESOLUTION","MSIASSEMBLYINFO_NETASSEMBLY","MSIASSEMBLYINFO_WIN32ASSEMBLY","MsiProvideAssembly","MsiProvideAssembly function","MsiProvideAssemblyA","MsiProvideAssemblyW","_msi_msiprovideassembly","combination of the REINSTALLMODE flags","msi/MsiProvideAssembly","msi/MsiProvideAssemblyA","msi/MsiProvideAssemblyW","setup.msiprovideassembly"]
 old-location: setup\msiprovideassembly.htm
 tech.root: setup

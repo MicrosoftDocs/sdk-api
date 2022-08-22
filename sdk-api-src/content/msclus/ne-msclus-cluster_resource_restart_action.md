@@ -1,7 +1,7 @@
 ---
 UID: NE:msclus.CLUSTER_RESOURCE_RESTART_ACTION
 title: CLUSTER_RESOURCE_RESTART_ACTION (msclus.h)
-description: Used by the RestartAction resource common property to specify the action to be taken by the cluster service if the resource fails.
+description: Used by the RestartAction resource common property to specify the action to be taken by the cluster service if the resource fails. (CLUSTER_RESOURCE_RESTART_ACTION)
 helpviewer_keywords: ["CLUSTER_RESOURCE_RESTART_ACTION","CLUSTER_RESOURCE_RESTART_ACTION enumeration [Failover Cluster]","CRRA","CRRA enumeration [Failover Cluster]","ClusterResourceDontRestart","ClusterResourceRestartActionCount","ClusterResourceRestartNoNotify","ClusterResourceRestartNotify","_CLUSTER_RESOURCE_RESTART_ACTION","_CLUSTER_RESOURCE_RESTART_ACTION enumeration [Failover Cluster]","clusapi/CLUSTER_RESOURCE_RESTART_ACTION","clusapi/CRRA","clusapi/ClusterResourceDontRestart","clusapi/ClusterResourceRestartActionCount","clusapi/ClusterResourceRestartNoNotify","clusapi/ClusterResourceRestartNotify","clusapi/_CLUSTER_RESOURCE_RESTART_ACTION","msclus/CLUSTER_RESOURCE_RESTART_ACTION","msclus/CRRA","msclus/ClusterResourceDontRestart","msclus/ClusterResourceRestartActionCount","msclus/ClusterResourceRestartNoNotify","msclus/ClusterResourceRestartNotify","msclus/_CLUSTER_RESOURCE_RESTART_ACTION","mscs.cluster_resource_restart_action"]
 old-location: mscs\cluster_resource_restart_action.htm
 tech.root: MsCS

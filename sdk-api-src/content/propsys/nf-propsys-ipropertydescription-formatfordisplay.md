@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.IPropertyDescription.FormatForDisplay
 title: IPropertyDescription::FormatForDisplay (propsys.h)
-description: Gets a formatted, Unicode string representation of a property value.
+description: Gets a formatted, Unicode string representation of a property value. (IPropertyDescription.FormatForDisplay)
 old-location: properties\IPropertyDescription_FormatForDisplay.htm
 tech.root: properties
 ms.assetid: c900fce9-4462-4429-a5a1-9f0d1e73c681

@@ -1,7 +1,7 @@
 ---
 UID: NF:enclaveapi.LoadEnclaveImageW
 title: LoadEnclaveImageW function (enclaveapi.h)
-description: Loads an image and all of its imports into an enclave.
+description: Loads an image and all of its imports into an enclave. (Unicode)
 helpviewer_keywords: ["LoadEnclaveIUmageA","LoadEnclaveImage","LoadEnclaveImage function","LoadEnclaveImageW","base.loadenclaveimage","enclaveapi/LoadEnclaveIUmageA","enclaveapi/LoadEnclaveImage","enclaveapi/LoadEnclaveImageW"]
 old-location: base\loadenclaveimage.htm
 tech.root: base

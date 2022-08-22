@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.graphics.holographic.interop.IHolographicCameraRenderingParametersInterop.CommitDirect3D12ResourceWithDepthData
 title: IHolographicCameraRenderingParametersInterop::CommitDirect3D12ResourceWithDepthData
-description: Commits a Direct3D 12 buffer for presentation on outputs associated with the [HolographicCamera](/uwp/api/windows.graphics.holographic.holographiccamera).
+description: Commits a Direct3D 12 buffer for presentation on outputs associated with the [HolographicCamera](/uwp/api/windows.graphics.holographic.holographiccamera).I
 tech.root: direct3d12
 ms.date: 12/12/2019
 targetos: Windows

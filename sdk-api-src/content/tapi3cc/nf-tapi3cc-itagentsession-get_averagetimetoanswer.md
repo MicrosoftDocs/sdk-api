@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3cc.ITAgentSession.get_AverageTimeToAnswer
 title: ITAgentSession::get_AverageTimeToAnswer (tapi3cc.h)
-description: The get_AverageTimeToAnswer method gets the average time (in seconds) that calls waited to be answered.
+description: The get_AverageTimeToAnswer method gets the average time (in seconds) that calls waited to be answered. (ITAgentSession.get_AverageTimeToAnswer)
 helpviewer_keywords: ["ITAgentSession interface [TAPI 2.2]","get_AverageTimeToAnswer method","ITAgentSession.get_AverageTimeToAnswer","ITAgentSession::get_AverageTimeToAnswer","_tapi3_itagentsession_get_averagetimetoanswer","get_AverageTimeToAnswer","get_AverageTimeToAnswer method [TAPI 2.2]","get_AverageTimeToAnswer method [TAPI 2.2]","ITAgentSession interface","tapi3.itagentsession_get_averagetimetoanswer","tapi3cc/ITAgentSession::get_AverageTimeToAnswer"]
 old-location: tapi3\itagentsession_get_averagetimetoanswer.htm
 tech.root: tapi3

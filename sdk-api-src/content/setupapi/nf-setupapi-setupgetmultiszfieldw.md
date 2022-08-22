@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupGetMultiSzFieldW
 title: SetupGetMultiSzFieldW function (setupapi.h)
-description: The SetupGetMultiSzField function retrieves multiple strings stored in a line of an INF file, from the specified field to the end of the line.
+description: The SetupGetMultiSzField function retrieves multiple strings stored in a line of an INF file, from the specified field to the end of the line. (Unicode)
 helpviewer_keywords: ["SetupGetMultiSzField","SetupGetMultiSzField function [Setup API]","SetupGetMultiSzFieldA","SetupGetMultiSzFieldW","_setupapi_setupgetmultiszfield","setup.setupgetmultiszfield","setupapi/SetupGetMultiSzField","setupapi/SetupGetMultiSzFieldA","setupapi/SetupGetMultiSzFieldW"]
 old-location: setup\setupgetmultiszfield.htm
 tech.root: setup

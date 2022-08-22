@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.AVIStreamOpenFromFileW
 title: AVIStreamOpenFromFileW function (vfw.h)
-description: The AVIStreamOpenFromFile function opens a single stream from a file.
+description: The AVIStreamOpenFromFile function opens a single stream from a file. (Unicode)
 helpviewer_keywords: ["AVIStreamOpenFromFile","AVIStreamOpenFromFile function [Windows Multimedia]","AVIStreamOpenFromFileA","AVIStreamOpenFromFileW","_win32_AVIStreamOpenFromFile","multimedia.avistreamopenfromfile","vfw/AVIStreamOpenFromFile","vfw/AVIStreamOpenFromFileA","vfw/AVIStreamOpenFromFileW"]
 old-location: multimedia\avistreamopenfromfile.htm
 tech.root: Multimedia

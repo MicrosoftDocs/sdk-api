@@ -4,7 +4,7 @@ tech.root: Debug
 title: SymAddSourceStreamA
 ms.date: 04/14/2021
 targetos: Windows
-description: Adds the stream to the specified module for use by the Source Server.
+description: Adds the stream to the specified module for use by the Source Server. (SymAddSourceStreamA)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.SetFilePointerEx
 title: SetFilePointerEx function (fileapi.h)
-description: Moves the file pointer of the specified file.
+description: Moves the file pointer of the specified file. (SetFilePointerEx)
 helpviewer_keywords: ["FILE_BEGIN","FILE_CURRENT","FILE_END","SetFilePointerEx","SetFilePointerEx function [Files]","_win32_setfilepointerex","base.setfilepointerex","fileapi/SetFilePointerEx","fs.setfilepointerex","winbase/SetFilePointerEx"]
 old-location: fs\setfilepointerex.htm
 tech.root: fs

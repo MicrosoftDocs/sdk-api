@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetFirmwareEnvironmentVariableW
 title: GetFirmwareEnvironmentVariableW function (winbase.h)
-description: Retrieves the value of the specified firmware environment variable.
+description: Retrieves the value of the specified firmware environment variable. (Unicode)
 helpviewer_keywords: ["GetFirmwareEnvironmentVariable","GetFirmwareEnvironmentVariable function","GetFirmwareEnvironmentVariableA","GetFirmwareEnvironmentVariableW","base.getfirmwareenvironmentvariable","winbase/GetFirmwareEnvironmentVariable","winbase/GetFirmwareEnvironmentVariableA","winbase/GetFirmwareEnvironmentVariableW"]
 old-location: base\getfirmwareenvironmentvariable.htm
 tech.root: winprog

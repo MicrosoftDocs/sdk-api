@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory3.CreateFontSetBuilder
 title: IDWriteFactory3::CreateFontSetBuilder (dwrite_3.h)
-description: Creates an empty font set builder to add font face references and create a custom font set.
+description: Creates an empty font set builder to add font face references and create a custom font set. (IDWriteFactory3.CreateFontSetBuilder)
 helpviewer_keywords: ["CreateFontSetBuilder","CreateFontSetBuilder method [Direct Write]","CreateFontSetBuilder method [Direct Write]","IDWriteFactory3 interface","IDWriteFactory3 interface [Direct Write]","CreateFontSetBuilder method","IDWriteFactory3.CreateFontSetBuilder","IDWriteFactory3::CreateFontSetBuilder","directwrite.idwritefactory3_createfontsetbuilder","dwrite_3/IDWriteFactory3::CreateFontSetBuilder"]
 old-location: directwrite\idwritefactory3_createfontsetbuilder.htm
 tech.root: DirectWrite

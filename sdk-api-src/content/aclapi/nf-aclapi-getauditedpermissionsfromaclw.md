@@ -1,7 +1,7 @@
 ---
 UID: NF:aclapi.GetAuditedPermissionsFromAclW
 title: GetAuditedPermissionsFromAclW function (aclapi.h)
-description: Retrieves the audited access rights for a specified trustee.
+description: Retrieves the audited access rights for a specified trustee. (Unicode)
 helpviewer_keywords: ["GetAuditedPermissionsFromAcl","GetAuditedPermissionsFromAcl function [Security]","GetAuditedPermissionsFromAclA","GetAuditedPermissionsFromAclW","_win32_getauditedpermissionsfromacl","aclapi/GetAuditedPermissionsFromAcl","aclapi/GetAuditedPermissionsFromAclA","aclapi/GetAuditedPermissionsFromAclW","security.getauditedpermissionsfromacl"]
 old-location: security\getauditedpermissionsfromacl.htm
 tech.root: security

@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IEnumConnections.Reset
 title: IEnumConnections::Reset (ocidl.h)
-description: Resets the enumeration sequence to the beginning.
+description: Resets the enumeration sequence to the beginning. (IEnumConnections.Reset)
 helpviewer_keywords: ["IEnumConnections interface [COM]","Reset method","IEnumConnections.Reset","IEnumConnections::Reset","Reset","Reset method [COM]","Reset method [COM]","IEnumConnections interface","_com_ienumconnections_reset","com.ienumconnections_reset","ocidl/IEnumConnections::Reset"]
 old-location: com\ienumconnections_reset.htm
 tech.root: com

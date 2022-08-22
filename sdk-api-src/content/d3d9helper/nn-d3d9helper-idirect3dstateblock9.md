@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d9helper.IDirect3DStateBlock9
 title: IDirect3DStateBlock9 (d3d9helper.h)
-description: Applications use the methods of the IDirect3DStateBlock9 interface to encapsulate render states.
+description: The IDirect3DStateBlock9 interface (d3d9helper.h) provides methods that encapsulate render states.
 helpviewer_keywords: ["4d36b0db-f60c-4be1-3a29-4484c05de1bb","IDirect3DStateBlock9","IDirect3DStateBlock9 interface [Direct3D 9]","IDirect3DStateBlock9 interface [Direct3D 9]","described","d3d9helper/IDirect3DStateBlock9","direct3d9.idirect3dstateblock9"]
 old-location: direct3d9\idirect3dstateblock9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dstateblock9.htm
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: 4d36b0db-f60c-4be1-3a29-4484c05de1bb, IDirect3DStateBlock9, IDirect3DStateBlock9 interface [Direct3D 9], IDirect3DStateBlock9 interface [Direct3D 9],described, d3d9helper/IDirect3DStateBlock9, direct3d9.idirect3dstateblock9
 req.header: d3d9helper.h
 req.include-header: D3D9.h

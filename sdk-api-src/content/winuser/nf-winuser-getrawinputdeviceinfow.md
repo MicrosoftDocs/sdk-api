@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetRawInputDeviceInfoW
 title: GetRawInputDeviceInfoW function (winuser.h)
-description: Retrieves information about the raw input device.
+description: Retrieves information about the raw input device. (Unicode)
 helpviewer_keywords: ["GetRawInputDeviceInfo","GetRawInputDeviceInfo function [Keyboard and Mouse Input]","GetRawInputDeviceInfoA","GetRawInputDeviceInfoW","RIDI_DEVICEINFO","RIDI_DEVICENAME","RIDI_PREPARSEDDATA","_win32_GetRawInputDeviceInfo","_win32_getrawinputdeviceinfo_cpp","inputdev.getrawinputdeviceinfo","winui._win32_getrawinputdeviceinfo","winuser/GetRawInputDeviceInfo","winuser/GetRawInputDeviceInfoA","winuser/GetRawInputDeviceInfoW"]
 old-location: inputdev\getrawinputdeviceinfo.htm
 tech.root: inputdev

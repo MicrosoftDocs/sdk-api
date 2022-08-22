@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupRenameErrorA
 title: SetupRenameErrorA function (setupapi.h)
-description: The RenameError function generates a dialog box that informs the user of a file renaming error.
+description: The RenameError function generates a dialog box that informs the user of a file renaming error. (ANSI)
 helpviewer_keywords: ["SetupRenameError","SetupRenameError function [Setup API]","SetupRenameErrorA","SetupRenameErrorW","_setupapi_setuprenameerror","setup.setuprenameerror","setupapi/SetupRenameError","setupapi/SetupRenameErrorA","setupapi/SetupRenameErrorW"]
 old-location: setup\setuprenameerror.htm
 tech.root: setup

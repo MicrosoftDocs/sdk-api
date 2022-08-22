@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11_3.D3D11_CONSERVATIVE_RASTERIZATION_MODE
 title: D3D11_CONSERVATIVE_RASTERIZATION_MODE (d3d11_3.h)
-description: Identifies whether conservative rasterization is on or off.
+description: Identifies whether conservative rasterization is on or off. (D3D11_CONSERVATIVE_RASTERIZATION_MODE)
 helpviewer_keywords: ["D3D11_CONSERVATIVE_RASTERIZATION_MODE","D3D11_CONSERVATIVE_RASTERIZATION_MODE enumeration [Direct3D 11]","D3D11_CONSERVATIVE_RASTERIZATION_MODE_OFF","D3D11_CONSERVATIVE_RASTERIZATION_MODE_ON","d3d11_3/D3D11_CONSERVATIVE_RASTERIZATION_MODE","d3d11_3/D3D11_CONSERVATIVE_RASTERIZATION_MODE_OFF","d3d11_3/D3D11_CONSERVATIVE_RASTERIZATION_MODE_ON","direct3d11.d3d11_conservative_rasterization_mode"]
 old-location: direct3d11\d3d11_conservative_rasterization_mode.htm
 tech.root: direct3d11

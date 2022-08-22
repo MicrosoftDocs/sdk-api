@@ -1,7 +1,7 @@
 ---
 UID: NE:dxvahd._DXVAHD_FRAME_FORMAT
 title: DXVAHD_FRAME_FORMAT (dxvahd.h)
-description: Describes how a video stream is interlaced.
+description: Describes how a video stream is interlaced. (DXVAHD_FRAME_FORMAT)
 helpviewer_keywords: ["DXVAHD_FRAME_FORMAT","DXVAHD_FRAME_FORMAT enumeration [Media Foundation]","DXVAHD_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST","DXVAHD_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST","DXVAHD_FRAME_FORMAT_PROGRESSIVE","dxvahd/DXVAHD_FRAME_FORMAT","dxvahd/DXVAHD_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST","dxvahd/DXVAHD_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST","dxvahd/DXVAHD_FRAME_FORMAT_PROGRESSIVE","mf.dxvahd_frame_format"]
 old-location: mf\dxvahd_frame_format.htm
 tech.root: mf

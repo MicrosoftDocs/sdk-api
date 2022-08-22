@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.StrSpnW
 title: StrSpnW function (shlwapi.h)
-description: Obtains the length of a substring within a string that consists entirely of characters contained in a specified buffer.
+description: Obtains the length of a substring within a string that consists entirely of characters contained in a specified buffer. (Unicode)
 helpviewer_keywords: ["StrSpn","StrSpn function [Windows Shell]","StrSpnA","StrSpnW","_win32_StrSpn","shell.StrSpn","shlwapi/StrSpn","shlwapi/StrSpnA","shlwapi/StrSpnW"]
 old-location: shell\StrSpn.htm
 tech.root: shell

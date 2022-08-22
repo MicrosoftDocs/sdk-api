@@ -1,7 +1,7 @@
 ---
 UID: NF:winfax.FaxSetLoggingCategoriesA
 title: FaxSetLoggingCategoriesA function (winfax.h)
-description: A fax client application calls the FaxSetLoggingCategories function to modify the current logging categories for the fax server to which the client has connected.
+description: A fax client application calls the FaxSetLoggingCategories function to modify the current logging categories for the fax server to which the client has connected. (ANSI)
 helpviewer_keywords: ["FaxSetLoggingCategories","FaxSetLoggingCategories function [Fax Service]","FaxSetLoggingCategoriesA","FaxSetLoggingCategoriesW","_mfax_faxsetloggingcategories","fax._mfax_faxsetloggingcategories","winfax/FaxSetLoggingCategories","winfax/FaxSetLoggingCategoriesA","winfax/FaxSetLoggingCategoriesW"]
 old-location: fax\_mfax_faxsetloggingcategories.htm
 tech.root: Fax

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionVariable.GetInterfaceSlot
 title: ID3D11ShaderReflectionVariable::GetInterfaceSlot (d3d11shader.h)
-description: Gets the corresponding interface slot for a variable that represents an interface pointer.
+description: Gets the corresponding interface slot for a variable that represents an interface pointer. (ID3D11ShaderReflectionVariable.GetInterfaceSlot)
 helpviewer_keywords: ["GetInterfaceSlot","GetInterfaceSlot method [Direct3D 11]","GetInterfaceSlot method [Direct3D 11]","ID3D11ShaderReflectionVariable interface","ID3D11ShaderReflectionVariable interface [Direct3D 11]","GetInterfaceSlot method","ID3D11ShaderReflectionVariable.GetInterfaceSlot","ID3D11ShaderReflectionVariable::GetInterfaceSlot","b13015c6-721f-9155-57ca-42f52d0e5885","d3d11shader/ID3D11ShaderReflectionVariable::GetInterfaceSlot","direct3d11.id3d11shaderreflectionvariable_getinterfaceslot"]
 old-location: direct3d11\id3d11shaderreflectionvariable_getinterfaceslot.htm
 tech.root: direct3d11

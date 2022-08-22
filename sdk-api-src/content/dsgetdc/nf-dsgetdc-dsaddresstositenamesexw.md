@@ -1,7 +1,7 @@
 ---
 UID: NF:dsgetdc.DsAddressToSiteNamesExW
 title: DsAddressToSiteNamesExW function (dsgetdc.h)
-description: Obtains the site and subnet names corresponding to the addresses specified.
+description: Obtains the site and subnet names corresponding to the addresses specified. (Unicode)
 helpviewer_keywords: ["DsAddressToSiteNamesEx","DsAddressToSiteNamesEx function [Active Directory]","DsAddressToSiteNamesExA","DsAddressToSiteNamesExW","ad.dsaddresstositenamesex","dsgetdc/DsAddressToSiteNamesEx","dsgetdc/DsAddressToSiteNamesExA","dsgetdc/DsAddressToSiteNamesExW"]
 old-location: ad\dsaddresstositenamesex.htm
 tech.root: ad

@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsDocumentPackageTarget.GetXpsOMFactory
 title: IXpsDocumentPackageTarget::GetXpsOMFactory (xpsobjectmodel_1.h)
-description: Gets the IXpsOMObjectFactory object for the document package.
+description: Gets the IXpsOMObjectFactory object for the document package. (IXpsDocumentPackageTarget.GetXpsOMFactory)
 helpviewer_keywords: ["GetXpsOMFactory","GetXpsOMFactory method [XPS Documents and Packaging]","GetXpsOMFactory method [XPS Documents and Packaging]","IXpsDocumentPackageTarget interface","IXpsDocumentPackageTarget interface [XPS Documents and Packaging]","GetXpsOMFactory method","IXpsDocumentPackageTarget.GetXpsOMFactory","IXpsDocumentPackageTarget::GetXpsOMFactory","xps.ixpsdocumentpackagetarget_getxpsomfactory","xpsobjectmodel_1/IXpsDocumentPackageTarget::GetXpsOMFactory"]
 old-location: xps\ixpsdocumentpackagetarget_getxpsomfactory.htm
 tech.root: xps

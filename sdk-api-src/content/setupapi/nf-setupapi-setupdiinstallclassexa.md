@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiInstallClassExA
 title: SetupDiInstallClassExA function (setupapi.h)
-description: The SetupDiInstallClassEx function installs a class installer or an interface class.
+description: The SetupDiInstallClassEx function installs a class installer or an interface class. (ANSI)
 helpviewer_keywords: ["SetupDiInstallClassEx","SetupDiInstallClassEx function [Device and Driver Installation]","SetupDiInstallClassExA","SetupDiInstallClassExW","devinst.setupdiinstallclassex","di-rtns_80aa5f67-e57e-4749-8130-5c940376db49.xml","setupapi/SetupDiInstallClassEx"]
 old-location: devinst\setupdiinstallclassex.htm
 tech.root: devinst

@@ -3,7 +3,7 @@ UID: NF:d3d12video.ID3D12VideoEncodeCommandList.DiscardResource
 title: ID3D12VideoEncodeCommandList::DiscardResource
 ms.date: 11/4/2019
 targetos: Windows
-description: Indicate that the current contents of a resource can be discarded.
+description: Indicate that the current contents of a resource can be discarded. (ID3D12VideoEncodeCommandList::DiscardResource)
 tech.root: mf
 req.assembly: 
 req.construct-type: function

@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.get__NewEnum
 title: ITraceDataProviderCollection::get__NewEnum (pla.h)
-description: Retrieves an interface to the enumeration.
+description: Retrieves an interface to the enumeration. (ITraceDataProviderCollection.get__NewEnum)
 helpviewer_keywords: ["ITraceDataProviderCollection interface [PLA]","_NewEnum property","ITraceDataProviderCollection._NewEnum","ITraceDataProviderCollection.get__NewEnum","ITraceDataProviderCollection::_NewEnum","ITraceDataProviderCollection::get__NewEnum","_NewEnum property [PLA]","_NewEnum property [PLA]","ITraceDataProviderCollection interface","get__NewEnum","pla.itracedataprovidercollection__newenum","pla/ITraceDataProviderCollection::_NewEnum","pla/ITraceDataProviderCollection::get__NewEnum"]
 old-location: pla\itracedataprovidercollection__newenum.htm
 tech.root: PLA

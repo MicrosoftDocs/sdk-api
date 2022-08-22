@@ -1,7 +1,7 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt3.QuerySnapshotDeltaBitmap
 title: IVssDifferentialSoftwareSnapshotMgmt3::QuerySnapshotDeltaBitmap (vsmgmt.h)
-description: This method is reserved for future use.
+description: This method is reserved for future use. (IVssDifferentialSoftwareSnapshotMgmt3.QuerySnapshotDeltaBitmap)
 helpviewer_keywords: ["IVssDifferentialSoftwareSnapshotMgmt3 interface","QuerySnapshotDeltaBitmap method","IVssDifferentialSoftwareSnapshotMgmt3.QuerySnapshotDeltaBitmap","IVssDifferentialSoftwareSnapshotMgmt3::QuerySnapshotDeltaBitmap","QuerySnapshotDeltaBitmap","QuerySnapshotDeltaBitmap method","QuerySnapshotDeltaBitmap method","IVssDifferentialSoftwareSnapshotMgmt3 interface","base.ivssdifferentialsoftwaresnapshotmgmt3_querysnapshotdeltabitmap","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::QuerySnapshotDeltaBitmap"]
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_querysnapshotdeltabitmap.htm
 tech.root: base

@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxReceiptOptions.get_SMTPPort
 title: IFaxReceiptOptions::get_SMTPPort (faxcomex.h)
-description: The IFaxReceiptOptions::get_SMTPPort property is a value that specifies the Simple Mail Transport Protocol (SMTP) port number.
+description: The IFaxReceiptOptions::get_SMTPPort property is a value that specifies the Simple Mail Transport Protocol (SMTP) port number. (Get)
 helpviewer_keywords: ["IFaxReceiptOptions interface [Fax Service]","SMTPPort property","IFaxReceiptOptions.SMTPPort","IFaxReceiptOptions.get_SMTPPort","IFaxReceiptOptions.put_SMTPPort","IFaxReceiptOptions::SMTPPort","IFaxReceiptOptions::get_SMTPPort","IFaxReceiptOptions::put_SMTPPort","SMTPPort property [Fax Service]","SMTPPort property [Fax Service]","IFaxReceiptOptions interface","_mfax_faxreceiptoptions.smtpport","fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpport_cpp","fax._mfax_faxreceiptoptions_smtpport","faxcomex/IFaxReceiptOptions::SMTPPort","faxcomex/IFaxReceiptOptions::get_SMTPPort","faxcomex/IFaxReceiptOptions::put_SMTPPort","get_SMTPPort"]
 old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpport_cpp.htm
 tech.root: Fax

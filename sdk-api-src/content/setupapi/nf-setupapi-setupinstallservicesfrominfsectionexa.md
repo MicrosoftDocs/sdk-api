@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupInstallServicesFromInfSectionExA
 title: SetupInstallServicesFromInfSectionExA function (setupapi.h)
-description: The SetupInstallServicesFromInfSectionEx function performs service installation and deletion operations that are specified in the Service Install sections listed in the Service section of an INF file.
+description: The SetupInstallServicesFromInfSectionEx function performs service installation and deletion operations that are specified in the Service Install sections listed in the Service section of an INF file. (ANSI)
 helpviewer_keywords: ["SPSVCINST_ASSOCSERVICE","SPSVCINST_CLOBBER_SECURITY","SPSVCINST_DELETEEVENTLOGENTRY","SPSVCINST_NOCLOBBER_DEPENDENCIES","SPSVCINST_NOCLOBBER_DESCRIPTION","SPSVCINST_NOCLOBBER_DISPLAYNAME","SPSVCINST_NOCLOBBER_ERRORCONTROL","SPSVCINST_NOCLOBBER_LOADORDERGROUP","SPSVCINST_NOCLOBBER_REQUIREDPRIVILEGES","SPSVCINST_NOCLOBBER_STARTTYPE","SPSVCINST_STARTSERVICE","SPSVCINST_STOPSERVICE","SPSVCINST_TAGTOFRONT","SetupInstallServicesFromInfSectionEx","SetupInstallServicesFromInfSectionEx function [Setup API]","SetupInstallServicesFromInfSectionExA","SetupInstallServicesFromInfSectionExW","_setupapi_setupinstallservicesfrominfsectionex","setup.setupinstallservicesfrominfsectionex","setupapi/SetupInstallServicesFromInfSectionEx","setupapi/SetupInstallServicesFromInfSectionExA","setupapi/SetupInstallServicesFromInfSectionExW"]
 old-location: setup\setupinstallservicesfrominfsectionex.htm
 tech.root: setup

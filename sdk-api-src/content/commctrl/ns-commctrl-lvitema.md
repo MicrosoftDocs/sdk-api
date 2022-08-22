@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagLVITEMA
 title: LVITEMA (commctrl.h)
-description: Specifies or receives the attributes of a list-view item. This structure has been updated to support a new mask value (LVIF_INDENT) that enables item indenting. This structure supersedes the LV_ITEM structure.
+description: Specifies or receives the attributes of a list-view item. This structure has been updated to support a new mask value (LVIF_INDENT) that enables item indenting. This structure supersedes the LV_ITEM structure. (ANSI)
 helpviewer_keywords: ["*LPLVITEMA","I_GROUPIDCALLBACK","I_GROUPIDNONE","LPLVITEM","LPLVITEM structure pointer [Windows Controls]","LVCFMT_FILL","LVCFMT_LINE_BREAK","LVCFMT_NO_TITLE","LVCFMT_TILE_PLACEMENTMASK","LVCFMT_WRAP","LVIF_COLFMT","LVIF_COLUMNS","LVIF_DI_SETITEM","LVIF_GROUPID","LVIF_IMAGE","LVIF_INDENT","LVIF_NORECOMPUTE","LVIF_PARAM","LVIF_STATE","LVIF_TEXT","LVITEM","LVITEM structure [Windows Controls]","LVITEMA","LVITEMW","_win32_LVITEM","_win32_LVITEM_cpp","commctrl/LPLVITEM","commctrl/LVITEM","commctrl/LVITEMA","commctrl/LVITEMW","controls.LVITEM","controls._win32_LVITEM"]
 old-location: controls\LVITEM.htm
 tech.root: Controls

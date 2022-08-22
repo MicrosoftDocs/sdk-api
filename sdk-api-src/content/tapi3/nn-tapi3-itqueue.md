@@ -1,7 +1,7 @@
 ---
 UID: NN:tapi3.ITQueue
 title: ITQueue (tapi3.h)
-description: Gets and sets information concerning a queue. The IEnumQueue::Next and ITACDGroup::get_Queues methods create the ITQueue interface.
+description: Gets and sets information concerning a queue. The IEnumQueue::Next and ITACDGroup::get_Queues methods create the ITQueue interface. (ITQueue)
 helpviewer_keywords: ["ITQueue","ITQueue interface [TAPI 2.2]","ITQueue interface [TAPI 2.2]","described","_tapi3_itqueue","tapi3.itqueue","tapi3cc/ITQueue"]
 old-location: tapi3\itqueue.htm
 tech.root: tapi3

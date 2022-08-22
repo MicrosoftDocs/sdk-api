@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.InternetSetCookieExA
 title: InternetSetCookieExA function (wininet.h)
-description: The InternetSetCookieEx function creates a cookie with a specified name that is associated with a specified URL. This function differs from the InternetSetCookie function by being able to create third-party cookies.
+description: The InternetSetCookieEx function creates a cookie with a specified name that is associated with a specified URL. This function differs from the InternetSetCookie function by being able to create third-party cookies. (ANSI)
 helpviewer_keywords: ["INTERNET_COOKIE_EVALUATE_P3P","INTERNET_COOKIE_HTTPONLY","INTERNET_COOKIE_THIRD_PARTY","INTERNET_FLAG_RESTRICTED_ZONE","InternetSetCookieEx","InternetSetCookieEx function [WinINet]","InternetSetCookieExA","InternetSetCookieExW","wininet.internetsetcookieex","wininet/InternetSetCookieEx","wininet/InternetSetCookieExA","wininet/InternetSetCookieExW"]
 old-location: wininet\internetsetcookieex.htm
 tech.root: wininet

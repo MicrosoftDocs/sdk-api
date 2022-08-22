@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendee.put_ControlLevel
 title: IRDPSRAPIAttendee::put_ControlLevel (rdpencomapi.h)
-description: The level of control the attendee has over the session.
+description: The level of control the attendee has over the session. (Put)
 helpviewer_keywords: ["ControlLevel property [RDP]","ControlLevel property [RDP]","IRDPSRAPIAttendee interface","ControlLevel property [RDP]","RDPSRAPIAttendee object","IRDPSRAPIAttendee interface [RDP]","ControlLevel property","IRDPSRAPIAttendee.ControlLevel","IRDPSRAPIAttendee.put_ControlLevel","IRDPSRAPIAttendee::ControlLevel","IRDPSRAPIAttendee::get_ControlLevel","IRDPSRAPIAttendee::put_ControlLevel","RDPSRAPIAttendee object [RDP]","ControlLevel property","put_ControlLevel","rdp.irdpsrapiattendee_controllevel","rdpencomapi/IRDPSRAPIAttendee::ControlLevel","rdpencomapi/IRDPSRAPIAttendee::get_ControlLevel","rdpencomapi/IRDPSRAPIAttendee::put_ControlLevel"]
 old-location: rdp\irdpsrapiattendee_controllevel.htm
 tech.root: rdp

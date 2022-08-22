@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IEnumFilters.Reset
 title: IEnumFilters::Reset (strmif.h)
-description: The Reset method resets the enumeration sequence to the beginning.
+description: The Reset method resets the enumeration sequence to the beginning. (IEnumFilters.Reset)
 helpviewer_keywords: ["IEnumFilters interface [DirectShow]","Reset method","IEnumFilters.Reset","IEnumFilters::Reset","IEnumFiltersReset","Reset","Reset method [DirectShow]","Reset method [DirectShow]","IEnumFilters interface","dshow.ienumfilters_reset","strmif/IEnumFilters::Reset"]
 old-location: dshow\ienumfilters_reset.htm
 tech.root: dshow

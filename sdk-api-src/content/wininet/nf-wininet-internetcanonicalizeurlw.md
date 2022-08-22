@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.InternetCanonicalizeUrlW
 title: InternetCanonicalizeUrlW function (wininet.h)
-description: Canonicalizes a URL, which includes converting unsafe characters and spaces into escape sequences.
+description: Canonicalizes a URL, which includes converting unsafe characters and spaces into escape sequences. (Unicode)
 helpviewer_keywords: ["InternetCanonicalizeUrl","InternetCanonicalizeUrl function [WinINet]","InternetCanonicalizeUrlA","InternetCanonicalizeUrlW","_inet_internetcanonicalizeurl_function","wininet.internetcanonicalizeurl","wininet/InternetCanonicalizeUrl","wininet/InternetCanonicalizeUrlA","wininet/InternetCanonicalizeUrlW"]
 old-location: wininet\internetcanonicalizeurl.htm
 tech.root: wininet

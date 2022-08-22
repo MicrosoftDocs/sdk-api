@@ -1,7 +1,7 @@
 ---
 UID: NF:commdlg.ReplaceTextW
 title: ReplaceTextW function (commdlg.h)
-description: Creates a system-defined modeless dialog box that lets the user specify a string to search for and a replacement string, as well as options to control the find and replace operations.
+description: Creates a system-defined modeless dialog box that lets the user specify a string to search for and a replacement string, as well as options to control the find and replace operations. (Unicode)
 helpviewer_keywords: ["ReplaceText","ReplaceText function [Dialog Boxes]","ReplaceTextA","ReplaceTextW","_win32_ReplaceText","_win32_replacetext_cpp","commdlg/ReplaceText","commdlg/ReplaceTextA","commdlg/ReplaceTextW","dlgbox.replacetext","winui._win32_replacetext"]
 old-location: dlgbox\replacetext.htm
 tech.root: dlgbox

@@ -1,7 +1,7 @@
 ---
 UID: NF:winnls.GetLocaleInfoA
 title: GetLocaleInfoA function (winnls.h)
-description: Retrieves information about a locale specified by identifier.
+description: Retrieves information about a locale specified by identifier. (ANSI)
 helpviewer_keywords: ["GetLocaleInfo","GetLocaleInfo function [Internationalization for Windows Applications]","GetLocaleInfoA","GetLocaleInfoW","_win32_GetLocaleInfo","intl.getlocaleinfo","winnls/GetLocaleInfo","winnls/GetLocaleInfoA","winnls/GetLocaleInfoW"]
 old-location: intl\getlocaleinfo.htm
 tech.root: Intl

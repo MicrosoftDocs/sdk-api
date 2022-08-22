@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.put_SuffixText
 title: IInkRecognizerContext::put_SuffixText (msinkaut.h)
-description: Gets or sets the characters that come after the InkStrokes collection in the InkRecognizerContext object.
+description: Gets or sets the characters that come after the InkStrokes collection in the InkRecognizerContext object. (Put)
 helpviewer_keywords: ["IInkRecognizerContext interface [Tablet PC]","SuffixText property","IInkRecognizerContext.SuffixText","IInkRecognizerContext.put_SuffixText","IInkRecognizerContext::SuffixText","IInkRecognizerContext::get_SuffixText","IInkRecognizerContext::put_SuffixText","InkRecognizerContext.get_SuffixText","InkRecognizerContext.put_SuffixText","SuffixText property [Tablet PC]","SuffixText property [Tablet PC]","IInkRecognizerContext interface","f7fb1314-b5d5-4aa9-91d0-cbd649aded39","get_SuffixText","msinkaut/IInkRecognizerContext::SuffixText","msinkaut/IInkRecognizerContext::get_SuffixText","msinkaut/IInkRecognizerContext::put_SuffixText","put_SuffixText","tablet.inkrecognizercontext_suffixtext"]
 old-location: tablet\inkrecognizercontext_suffixtext.htm
 tech.root: tablet

@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.OpenFileMappingFromApp
 title: OpenFileMappingFromApp function (memoryapi.h)
-description: Opens a named file mapping object.
+description: Opens a named file mapping object. (OpenFileMappingFromApp)
 helpviewer_keywords: ["OpenFileMappingFromApp","OpenFileMappingFromApp function","base.openfilemappingfromapp","memoryapi/OpenFileMappingFromApp"]
 old-location: base\openfilemappingfromapp.htm
 tech.root: base

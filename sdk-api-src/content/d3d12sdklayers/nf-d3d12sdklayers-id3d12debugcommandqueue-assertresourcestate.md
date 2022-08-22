@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugCommandQueue.AssertResourceState
 title: ID3D12DebugCommandQueue::AssertResourceState (d3d12sdklayers.h)
-description: Checks whether a resource, or subresource, is in a specified state, or not.
+description: Checks whether a resource, or subresource, is in a specified state, or not. (ID3D12DebugCommandQueue.AssertResourceState)
 helpviewer_keywords: ["AssertResourceState","AssertResourceState method","AssertResourceState method","ID3D12DebugCommandQueue interface","ID3D12DebugCommandQueue interface","AssertResourceState method","ID3D12DebugCommandQueue.AssertResourceState","ID3D12DebugCommandQueue::AssertResourceState","d3d12sdklayers/ID3D12DebugCommandQueue::AssertResourceState","direct3d12.id3d12debugcommandqueue_assertresourcestate"]
 old-location: direct3d12\id3d12debugcommandqueue_assertresourcestate.htm
 tech.root: direct3d12

@@ -1,7 +1,7 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeerCacheRecords.Skip
 title: IEnumBitsPeerCacheRecords::Skip (bits3_0.h)
-description: Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
+description: Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence. (IEnumBitsPeerCacheRecords.Skip)
 helpviewer_keywords: ["IEnumBitsPeerCacheRecords interface [BITS]","Skip method","IEnumBitsPeerCacheRecords.Skip","IEnumBitsPeerCacheRecords::Skip","Skip","Skip method [BITS]","Skip method [BITS]","IEnumBitsPeerCacheRecords interface","bits.ienumbitspeercacherecords_skip","bits3_0/IEnumBitsPeerCacheRecords::Skip"]
 old-location: bits\ienumbitspeercacherecords_skip.htm
 tech.root: Bits

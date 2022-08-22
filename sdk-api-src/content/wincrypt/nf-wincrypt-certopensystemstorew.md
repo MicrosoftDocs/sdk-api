@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CertOpenSystemStoreW
 title: CertOpenSystemStoreW function (wincrypt.h)
-description: Opens the most common system certificate store. To open certificate stores with more complex requirements, such as file-based or memory-based stores, use CertOpenStore.
+description: Opens the most common system certificate store. To open certificate stores with more complex requirements, such as file-based or memory-based stores, use CertOpenStore. (Unicode)
 helpviewer_keywords: ["CA","CertOpenSystemStore","CertOpenSystemStore function [Security]","CertOpenSystemStoreA","CertOpenSystemStoreW","MY","ROOT","SPC","_crypto2_certopensystemstore","security.certopensystemstore","wincrypt/CertOpenSystemStore","wincrypt/CertOpenSystemStoreA","wincrypt/CertOpenSystemStoreW"]
 old-location: security\certopensystemstore.htm
 tech.root: security

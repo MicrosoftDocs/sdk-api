@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3.ITAgentSession.get_SessionStartTime
 title: ITAgentSession::get_SessionStartTime (tapi3.h)
-description: The get_SessionStartTime method gets the time that the session was created.
+description: The get_SessionStartTime method gets the time that the session was created. (ITAgentSession.get_SessionStartTime)
 helpviewer_keywords: ["ITAgentSession interface [TAPI 2.2]","get_SessionStartTime method","ITAgentSession.get_SessionStartTime","ITAgentSession::get_SessionStartTime","_tapi3_itagentsession_get_sessionstarttime","get_SessionStartTime","get_SessionStartTime method [TAPI 2.2]","get_SessionStartTime method [TAPI 2.2]","ITAgentSession interface","tapi3.itagentsession_get_sessionstarttime","tapi3cc/ITAgentSession::get_SessionStartTime"]
 old-location: tapi3\itagentsession_get_sessionstarttime.htm
 tech.root: tapi3

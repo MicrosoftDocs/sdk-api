@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionBrightnessEffect.SetWhitePointY(float)
 title: IDCompositionBrightnessEffect::SetWhitePointY (dcomp.h)
-description: Sets the y value of the white point.
+description: Sets the y value of the white point. (overload 2/2)
 helpviewer_keywords: ["IDCompositionBrightnessEffect interface [DirectComposition]","SetWhitePointY method","IDCompositionBrightnessEffect.SetWhitePointY","IDCompositionBrightnessEffect::SetWhitePointY","IDCompositionBrightnessEffect::SetWhitePointY(float)","SetWhitePointY","SetWhitePointY method [DirectComposition]","SetWhitePointY method [DirectComposition]","IDCompositionBrightnessEffect interface","dcomp/IDCompositionBrightnessEffect::SetWhitePointY","directcomp.idcompositionbrightnesseffect_setwhitepointy"]
 old-location: directcomp\idcompositionbrightnesseffect_setwhitepointy.htm
 tech.root: directcomp

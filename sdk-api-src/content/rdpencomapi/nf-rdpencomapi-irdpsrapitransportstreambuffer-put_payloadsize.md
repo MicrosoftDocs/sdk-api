@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamBuffer.put_PayloadSize
 title: IRDPSRAPITransportStreamBuffer::put_PayloadSize (rdpencomapi.h)
-description: The size, in bytes, of the content in the internal storage buffer.
+description: The size, in bytes, of the content in the internal storage buffer. (Put)
 helpviewer_keywords: ["IRDPSRAPITransportStreamBuffer interface [RDP]","PayloadSize property","IRDPSRAPITransportStreamBuffer.PayloadSize","IRDPSRAPITransportStreamBuffer.put_PayloadSize","IRDPSRAPITransportStreamBuffer::PayloadSize","IRDPSRAPITransportStreamBuffer::get_PayloadSize","IRDPSRAPITransportStreamBuffer::put_PayloadSize","PayloadSize property [RDP]","PayloadSize property [RDP]","IRDPSRAPITransportStreamBuffer interface","put_PayloadSize","rdp.irdpsrapitransportstreambuffer_payloadsize","rdpencomapi/IRDPSRAPITransportStreamBuffer::PayloadSize","rdpencomapi/IRDPSRAPITransportStreamBuffer::get_PayloadSize","rdpencomapi/IRDPSRAPITransportStreamBuffer::put_PayloadSize"]
 old-location: rdp\irdpsrapitransportstreambuffer_payloadsize.htm
 tech.root: rdp

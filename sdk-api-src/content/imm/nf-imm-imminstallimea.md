@@ -1,12 +1,12 @@
 ---
 UID: NF:imm.ImmInstallIMEA
 title: ImmInstallIMEA function (imm.h)
-description: Installs an IME.
+description: The ImmInstallIMEA (ANSI) function (imm.h) installs an IME.
 helpviewer_keywords: ["ImmInstallIME","ImmInstallIME function [Internationalization for Windows Applications]","ImmInstallIMEA","ImmInstallIMEW","_win32_ImmInstallIME","imm/ImmInstallIME","imm/ImmInstallIMEA","imm/ImmInstallIMEW","intl.imminstallime"]
 old-location: intl\imminstallime.htm
 tech.root: Intl
 ms.assetid: 8743908b-c9b4-41ff-952e-039253fb1246
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: ImmInstallIME, ImmInstallIME function [Internationalization for Windows Applications], ImmInstallIMEA, ImmInstallIMEW, _win32_ImmInstallIME, imm/ImmInstallIME, imm/ImmInstallIMEA, imm/ImmInstallIMEW, intl.imminstallime
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h

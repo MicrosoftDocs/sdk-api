@@ -2,10 +2,10 @@
 UID: NF:wabiab.IAddrBook.Address
 tech.root: wab wab 
 title: IAddrBook::Address
-ms.date: 03/03/2021
+ms.date: 08/03/2022
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: IAddrBook::Address displays the common address book dialog box.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

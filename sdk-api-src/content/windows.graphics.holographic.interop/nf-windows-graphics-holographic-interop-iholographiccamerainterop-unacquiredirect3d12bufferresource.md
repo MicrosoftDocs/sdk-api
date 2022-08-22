@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.graphics.holographic.interop.IHolographicCameraInterop.UnacquireDirect3D12BufferResource
 title: IHolographicCameraInterop::UnacquireDirect3D12BufferResource
-description: Un-acquires a Direct3D 12 buffer resource.
+description: Un-acquires a Direct3D 12 buffer resource.I
 tech.root: direct3d12
 ms.date: 12/12/2019
 targetos: Windows

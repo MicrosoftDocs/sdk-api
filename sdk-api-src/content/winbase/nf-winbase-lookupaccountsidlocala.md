@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.LookupAccountSidLocalA
 title: LookupAccountSidLocalA function (winbase.h)
-description: Retrieves the name of the account for the specified SID on the local machine.
+description: Retrieves the name of the account for the specified SID on the local machine. (ANSI)
 helpviewer_keywords: ["LookupAccountSidLocal","LookupAccountSidLocal function [Security]","LookupAccountSidLocalA","LookupAccountSidLocalW","security.lookupaccountsidlocal","winbase/LookupAccountSidLocal","winbase/LookupAccountSidLocalA","winbase/LookupAccountSidLocalW"]
 old-location: security\lookupaccountsidlocal.htm
 tech.root: security

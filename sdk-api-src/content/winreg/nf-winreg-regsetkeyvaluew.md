@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegSetKeyValueW
 title: RegSetKeyValueW function (winreg.h)
-description: Sets the data for the specified value in the specified registry key and subkey.
+description: Sets the data for the specified value in the specified registry key and subkey. (Unicode)
 helpviewer_keywords: ["RegSetKeyValue","RegSetKeyValue function","RegSetKeyValueA","RegSetKeyValueW","base.regsetkeyvalue","winreg/RegSetKeyValue","winreg/RegSetKeyValueA","winreg/RegSetKeyValueW"]
 old-location: base\regsetkeyvalue.htm
 tech.root: winprog

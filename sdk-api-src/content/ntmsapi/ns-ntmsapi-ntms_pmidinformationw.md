@@ -1,7 +1,7 @@
 ---
 UID: NS:ntmsapi._NTMS_PMIDINFORMATIONW
 title: NTMS_PMIDINFORMATIONW (ntmsapi.h)
-description: The NTMS_PMIDINFORMATION structure defines the properties specific to a physical media object.
+description: The NTMS_PMIDINFORMATION structure defines the properties specific to a physical media object. (Unicode)
 helpviewer_keywords: ["NTMS_BARCODESTATE_OK","NTMS_BARCODESTATE_UNREADABLE","NTMS_MEDIASTATE_IDLE","NTMS_MEDIASTATE_INUSE","NTMS_MEDIASTATE_LOADED","NTMS_MEDIASTATE_MOUNTED","NTMS_MEDIASTATE_OPREQ","NTMS_MEDIASTATE_OP_ERROR","NTMS_MEDIASTATE_UNLOADED","NTMS_PMIDINFORMATION","NTMS_PMIDINFORMATION structure [Files]","NTMS_PMIDINFORMATIONA","NTMS_PMIDINFORMATIONW","_NTMS_PMIDINFORMATIONA","_NTMS_PMIDINFORMATIONW","_zaw_ntms_pmidinformation","base.ntms_pmidinformation","fs.ntms_pmidinformation","ntmsapi/NTMS_PMIDINFORMATION"]
 old-location: fs\ntms_pmidinformation.htm
 tech.root: fs

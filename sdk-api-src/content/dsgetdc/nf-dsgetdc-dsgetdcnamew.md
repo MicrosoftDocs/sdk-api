@@ -1,7 +1,7 @@
 ---
 UID: NF:dsgetdc.DsGetDcNameW
 title: DsGetDcNameW function (dsgetdc.h)
-description: Returns the name of a domain controller in a specified domain.
+description: Returns the name of a domain controller in a specified domain. (Unicode)
 helpviewer_keywords: ["DS_AVOID_SELF","DS_BACKGROUND_ONLY","DS_DIRECTORY_SERVICE_6_REQUIRED","DS_DIRECTORY_SERVICE_8_REQUIRED","DS_DIRECTORY_SERVICE_PREFERRED","DS_DIRECTORY_SERVICE_REQUIRED","DS_FORCE_REDISCOVERY","DS_GC_SERVER_REQUIRED","DS_GOOD_TIMESERV_PREFERRED","DS_IP_REQUIRED","DS_IS_DNS_NAME","DS_IS_FLAT_NAME","DS_KDC_REQUIRED","DS_ONLY_LDAP_NEEDED","DS_PDC_REQUIRED","DS_RETURN_DNS_NAME","DS_RETURN_FLAT_NAME","DS_TIMESERV_REQUIRED","DS_TRY_NEXTCLOSEST_SITE","DS_WEB_SERVICE_REQUIRED","DS_WRITABLE_REQUIRED","DsGetDcName","DsGetDcName function [Active Directory]","DsGetDcNameA","DsGetDcNameW","_glines_dsgetdcname","ad.dsgetdcname","dsgetdc/DsGetDcName","dsgetdc/DsGetDcNameA","dsgetdc/DsGetDcNameW"]
 old-location: ad\dsgetdcname.htm
 tech.root: ad

@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DVolumeTexture9.GetVolumeLevel
 title: IDirect3DVolumeTexture9::GetVolumeLevel (d3d9helper.h)
-description: Retrieves the specified volume texture level.
+description: The IDirect3DVolumeTexture9::GetVolumeLevel method (d3d9helper.h) retrieves the specified volume texture level.
 helpviewer_keywords: ["6b38df70-e8ab-b3ca-2c91-45641b4a2e90","GetVolumeLevel","GetVolumeLevel method [Direct3D 9]","GetVolumeLevel method [Direct3D 9]","IDirect3DVolumeTexture9 interface","IDirect3DVolumeTexture9 interface [Direct3D 9]","GetVolumeLevel method","IDirect3DVolumeTexture9.GetVolumeLevel","IDirect3DVolumeTexture9::GetVolumeLevel","d3d9helper/IDirect3DVolumeTexture9::GetVolumeLevel","direct3d9.idirect3dvolumetexture9__getvolumelevel"]
 old-location: direct3d9\idirect3dvolumetexture9__getvolumelevel.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolumetexture9__getvolumelevel.htm
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: 6b38df70-e8ab-b3ca-2c91-45641b4a2e90, GetVolumeLevel, GetVolumeLevel method [Direct3D 9], GetVolumeLevel method [Direct3D 9],IDirect3DVolumeTexture9 interface, IDirect3DVolumeTexture9 interface [Direct3D 9],GetVolumeLevel method, IDirect3DVolumeTexture9.GetVolumeLevel, IDirect3DVolumeTexture9::GetVolumeLevel, d3d9helper/IDirect3DVolumeTexture9::GetVolumeLevel, direct3d9.idirect3dvolumetexture9__getvolumelevel
 req.header: d3d9helper.h
 req.include-header: D3D9.h

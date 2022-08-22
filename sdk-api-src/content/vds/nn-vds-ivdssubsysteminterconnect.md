@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsSubSystemInterconnect
 title: IVdsSubSystemInterconnect (vds.h)
-description: Provides a method to query the interconnect types that are supported by a subsystem.
+description: The IVdsSubSystemInterconnect interface (vds.h) provides a method to query the interconnect types that are supported by a subsystem. 
 helpviewer_keywords: ["IVdsSubSystemInterconnect","IVdsSubSystemInterconnect interface","IVdsSubSystemInterconnect interface","described","base.ivdssubsysteminterconnect","vds/IVdsSubSystemInterconnect","vdshwprv/IVdsSubSystemInterconnect"]
 old-location: base\ivdssubsysteminterconnect.htm
 tech.root: base
 ms.assetid: d690827a-4608-4d02-a3bb-5cdb5073b0ad
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsSubSystemInterconnect, IVdsSubSystemInterconnect interface, IVdsSubSystemInterconnect interface,described, base.ivdssubsysteminterconnect, vds/IVdsSubSystemInterconnect, vdshwprv/IVdsSubSystemInterconnect
 req.header: vds.h
 req.include-header: 

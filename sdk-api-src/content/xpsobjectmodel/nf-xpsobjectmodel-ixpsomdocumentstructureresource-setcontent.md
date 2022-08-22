@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentStructureResource.SetContent
 title: IXpsOMDocumentStructureResource::SetContent (xpsobjectmodel.h)
-description: Sets the read-only stream to be associated with this resource.
+description: Sets the read-only stream to be associated with this resource. (IXpsOMDocumentStructureResource.SetContent)
 helpviewer_keywords: ["IXpsOMDocumentStructureResource interface [XPS Documents and Packaging]","SetContent method","IXpsOMDocumentStructureResource.SetContent","IXpsOMDocumentStructureResource::SetContent","SetContent","SetContent method [XPS Documents and Packaging]","SetContent method [XPS Documents and Packaging]","IXpsOMDocumentStructureResource interface","xps.ixpsomdocumentstructureresource_setcontent","xpsobjectmodel/IXpsOMDocumentStructureResource::SetContent"]
 old-location: xps\ixpsomdocumentstructureresource_setcontent.htm
 tech.root: xps

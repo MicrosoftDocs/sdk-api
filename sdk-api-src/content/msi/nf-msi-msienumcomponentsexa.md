@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiEnumComponentsExA
 title: MsiEnumComponentsExA function (msi.h)
-description: The MsiEnumComponentsEx function enumerates installed components. The function retrieves the component code for one component each time it is called. The component code is the string GUID unique to the component, version, and language.
+description: The MsiEnumComponentsEx function enumerates installed components. The function retrieves the component code for one component each time it is called. The component code is the string GUID unique to the component, version, and language. (ANSI)
 helpviewer_keywords: ["MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiEnumComponentsEx","MsiEnumComponentsEx function [Setup API]","MsiEnumComponentsExA","MsiEnumComponentsExW","NULL","User SID","msi/MsiEnumComponentsEx","msi/MsiEnumComponentsExA","msi/MsiEnumComponentsExW","s-1-1-0","setup.msienumcomponentsex"]
 old-location: setup\msienumcomponentsex.htm
 tech.root: setup

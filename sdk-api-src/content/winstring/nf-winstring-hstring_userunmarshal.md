@@ -1,7 +1,7 @@
 ---
 UID: NF:winstring.HSTRING_UserUnmarshal
 title: HSTRING_UserUnmarshal function (winstring.h)
-description: Unmarshals an HSTRING object from the RPC buffer.
+description: Unmarshals an HSTRING object from the RPC buffer. (HSTRING_UserUnmarshal)
 helpviewer_keywords: ["HSTRING_UserUnmarshal","HSTRING_UserUnmarshal function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserUnmarshal","winrt.hstring_userunmarshal"]
 old-location: winrt\hstring_userunmarshal.htm
 tech.root: WinRT

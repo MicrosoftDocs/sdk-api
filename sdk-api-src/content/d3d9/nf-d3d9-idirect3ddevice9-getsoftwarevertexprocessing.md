@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetSoftwareVertexProcessing
 title: IDirect3DDevice9::GetSoftwareVertexProcessing (d3d9.h)
-description: Gets the vertex processing (hardware or software) mode.
+description: The IDirect3DDevice9::GetSoftwareVertexProcessing method (d3d9.h) gets the vertex processing (hardware or software) mode.
 helpviewer_keywords: ["17efcf07-7357-cfad-13db-c6391873f457","GetSoftwareVertexProcessing","GetSoftwareVertexProcessing method [Direct3D 9]","GetSoftwareVertexProcessing method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetSoftwareVertexProcessing method","IDirect3DDevice9.GetSoftwareVertexProcessing","IDirect3DDevice9::GetSoftwareVertexProcessing","d3d9helper/IDirect3DDevice9::GetSoftwareVertexProcessing","direct3d9.idirect3ddevice9__getsoftwarevertexprocessing"]
 old-location: direct3d9\idirect3ddevice9__getsoftwarevertexprocessing.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getsoftwarevertexprocessing.htm
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: 17efcf07-7357-cfad-13db-c6391873f457, GetSoftwareVertexProcessing, GetSoftwareVertexProcessing method [Direct3D 9], GetSoftwareVertexProcessing method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetSoftwareVertexProcessing method, IDirect3DDevice9.GetSoftwareVertexProcessing, IDirect3DDevice9::GetSoftwareVertexProcessing, d3d9helper/IDirect3DDevice9::GetSoftwareVertexProcessing, direct3d9.idirect3ddevice9__getsoftwarevertexprocessing
 req.header: d3d9.h
 req.include-header: D3D9.h

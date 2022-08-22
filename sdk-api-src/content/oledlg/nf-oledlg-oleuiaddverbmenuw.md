@@ -1,7 +1,7 @@
 ---
 UID: NF:oledlg.OleUIAddVerbMenuW
 title: OleUIAddVerbMenuW function (oledlg.h)
-description: Adds the Verb menu for the specified object to the specified menu.
+description: Adds the Verb menu for the specified object to the specified menu. (Unicode)
 helpviewer_keywords: ["OleUIAddVerbMenu","OleUIAddVerbMenu function [COM]","OleUIAddVerbMenuA","OleUIAddVerbMenuW","_ole_OleUIAddVerbMenu","com.oleuiaddverbmenu","oledlg/OleUIAddVerbMenu","oledlg/OleUIAddVerbMenuA","oledlg/OleUIAddVerbMenuW"]
 old-location: com\oleuiaddverbmenu.htm
 tech.root: com

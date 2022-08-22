@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathIsUNCA
 title: PathIsUNCA function (shlwapi.h)
-description: Determines if a path string is a valid Universal Naming Convention (UNC) path, as opposed to a path based on a drive letter.
+description: Determines if a path string is a valid Universal Naming Convention (UNC) path, as opposed to a path based on a drive letter. (ANSI)
 helpviewer_keywords: ["PathIsUNC","PathIsUNC function [Windows Shell]","PathIsUNCA","PathIsUNCW","_win32_PathIsUNC","shell.PathIsUNC","shlwapi/PathIsUNC","shlwapi/PathIsUNCA","shlwapi/PathIsUNCW"]
 old-location: shell\PathIsUNC.htm
 tech.root: shell

@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.DeleteUrlCacheEntryA
 title: DeleteUrlCacheEntryA function (wininet.h)
-description: Removes the file associated with the source name from the cache, if the file exists.
+description: Removes the file associated with the source name from the cache, if the file exists. (DeleteUrlCacheEntryA)
 helpviewer_keywords: ["DeleteUrlCacheEntry","DeleteUrlCacheEntry function [WinINet]","DeleteUrlCacheEntryA","DeleteUrlCacheEntryW","_inet_deleteurlcacheentry_function","wininet.deleteurlcacheentry","wininet/DeleteUrlCacheEntry","wininet/DeleteUrlCacheEntryA","wininet/DeleteUrlCacheEntryW"]
 old-location: wininet\deleteurlcacheentry.htm
 tech.root: wininet

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.BroadcastSystemMessageExA
 title: BroadcastSystemMessageExA function (winuser.h)
-description: Sends a message to the specified recipients.
+description: Sends a message to the specified recipients. (BroadcastSystemMessageExA)
 helpviewer_keywords: ["BSF_ALLOWSFW","BSF_FLUSHDISK","BSF_FORCEIFHUNG","BSF_IGNORECURRENTTASK","BSF_LUID","BSF_NOHANG","BSF_NOTIMEOUTIFNOTHUNG","BSF_POSTMESSAGE","BSF_QUERY","BSF_RETURNHDESK","BSF_SENDNOTIFYMESSAGE","BSM_ALLCOMPONENTS","BSM_ALLDESKTOPS","BSM_APPLICATIONS","BroadcastSystemMessageEx","BroadcastSystemMessageEx function [Windows and Messages]","BroadcastSystemMessageExA","BroadcastSystemMessageExW","_win32_BroadcastSystemMessageEx","_win32_broadcastsystemmessageex_cpp","winmsg.broadcastsystemmessageex","winui._win32_broadcastsystemmessageex","winuser/BroadcastSystemMessageEx","winuser/BroadcastSystemMessageExA","winuser/BroadcastSystemMessageExW"]
 old-location: winmsg\broadcastsystemmessageex.htm
 tech.root: winmsg

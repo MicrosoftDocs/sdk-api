@@ -1,7 +1,7 @@
 ---
 UID: NF:shellapi.ShellAboutW
 title: ShellAboutW function (shellapi.h)
-description: Displays a ShellAbout dialog box.
+description: Displays a ShellAbout dialog box. (Unicode)
 helpviewer_keywords: ["ShellAbout","ShellAbout function [Windows Shell]","ShellAboutA","ShellAboutW","_win32_ShellAbout","shell.ShellAbout","shellapi/ShellAbout","shellapi/ShellAboutA","shellapi/ShellAboutW"]
 old-location: shell\ShellAbout.htm
 tech.root: shell

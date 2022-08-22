@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GSGetShaderResources
 title: ID3D11DeviceContext::GSGetShaderResources (d3d11.h)
-description: Get the geometry shader resources.
+description: Get the geometry shader resources. (ID3D11DeviceContext.GSGetShaderResources)
 helpviewer_keywords: ["GSGetShaderResources","GSGetShaderResources method [Direct3D 11]","GSGetShaderResources method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","GSGetShaderResources method","ID3D11DeviceContext.GSGetShaderResources","ID3D11DeviceContext::GSGetShaderResources","c6b8b8fc-6738-6d1a-fb77-fce217b9c9a0","d3d11/ID3D11DeviceContext::GSGetShaderResources","direct3d11.id3d11devicecontext_gsgetshaderresources"]
 old-location: direct3d11\id3d11devicecontext_gsgetshaderresources.htm
 tech.root: direct3d11

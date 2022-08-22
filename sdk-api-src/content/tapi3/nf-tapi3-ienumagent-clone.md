@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3.IEnumAgent.Clone
 title: IEnumAgent::Clone (tapi3.h)
-description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
+description: The Clone method creates another enumerator that contains the same enumeration state as the current one. (IEnumAgent.Clone)
 helpviewer_keywords: ["Clone","Clone method [TAPI 2.2]","Clone method [TAPI 2.2]","IEnumAgent interface","IEnumAgent interface [TAPI 2.2]","Clone method","IEnumAgent.Clone","IEnumAgent::Clone","_tapi3_ienumagent_clone","tapi3.ienumagent_clone","tapi3cc/IEnumAgent::Clone"]
 old-location: tapi3\ienumagent_clone.htm
 tech.root: tapi3

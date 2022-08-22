@@ -1,7 +1,7 @@
 ---
 UID: NS:iketypes.IKEEXT_SA_DETAILS2_
 title: IKEEXT_SA_DETAILS2 (iketypes.h)
-description: Is used to store information returned when enumerating IKE, AuthIP, and IKEv2 security associations (SAs).
+description: Is used to store information returned when enumerating IKE, AuthIP, and IKEv2 security associations (SAs). (IKEEXT_SA_DETAILS2)
 helpviewer_keywords: ["IKEEXT_SA_DETAILS2","IKEEXT_SA_DETAILS2 structure [Filtering]","fwp.ikeext_sa_details2","iketypes/IKEEXT_SA_DETAILS2"]
 old-location: fwp\ikeext_sa_details2.htm
 tech.root: fwp

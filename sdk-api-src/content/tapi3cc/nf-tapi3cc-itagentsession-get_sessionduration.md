@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3cc.ITAgentSession.get_SessionDuration
 title: ITAgentSession::get_SessionDuration (tapi3cc.h)
-description: The get_SessionDuration method gets the duration of the Agent session in seconds. This duration is for the active period only; timing stops when a session enters the ASST_SESSION_ENDED state of AGENT_SESSION_STATE.
+description: The get_SessionDuration method gets the duration of the Agent session in seconds. This duration is for the active period only; timing stops when a session enters the ASST_SESSION_ENDED state of AGENT_SESSION_STATE. (ITAgentSession.get_SessionDuration)
 helpviewer_keywords: ["ITAgentSession interface [TAPI 2.2]","get_SessionDuration method","ITAgentSession.get_SessionDuration","ITAgentSession::get_SessionDuration","_tapi3_itagentsession_get_sessionduration","get_SessionDuration","get_SessionDuration method [TAPI 2.2]","get_SessionDuration method [TAPI 2.2]","ITAgentSession interface","tapi3.itagentsession_get_sessionduration","tapi3cc/ITAgentSession::get_SessionDuration"]
 old-location: tapi3\itagentsession_get_sessionduration.htm
 tech.root: tapi3

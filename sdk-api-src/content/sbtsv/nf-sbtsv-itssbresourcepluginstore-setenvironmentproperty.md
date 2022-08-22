@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetEnvironmentProperty
 title: ITsSbResourcePluginStore::SetEnvironmentProperty (sbtsv.h)
-description: Sets a property of an environment.
+description: Sets a property of an environment. (ITsSbResourcePluginStoreEx.SetEnvironmentProperty)
 helpviewer_keywords: ["ITsSbResourcePluginStore interface [Remote Desktop Services]","SetEnvironmentProperty method","ITsSbResourcePluginStore.SetEnvironmentProperty","ITsSbResourcePluginStore::SetEnvironmentProperty","ITsSbResourcePluginStoreEx interface [Remote Desktop Services]","SetEnvironmentProperty method","ITsSbResourcePluginStoreEx::SetEnvironmentProperty","SetEnvironmentProperty","SetEnvironmentProperty method [Remote Desktop Services]","SetEnvironmentProperty method [Remote Desktop Services]","ITsSbResourcePluginStore interface","SetEnvironmentProperty method [Remote Desktop Services]","ITsSbResourcePluginStoreEx interface","sbtsv/ITsSbResourcePluginStore::SetEnvironmentProperty","sbtsv/ITsSbResourcePluginStoreEx::SetEnvironmentProperty","termserv.itssbresourcepluginstore_setenvironmentproperty"]
 old-location: termserv\itssbresourcepluginstore_setenvironmentproperty.htm
 tech.root: TermServ

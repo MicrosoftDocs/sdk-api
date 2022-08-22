@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12shader.ID3D12FunctionReflection.GetConstantBufferByName
 title: ID3D12FunctionReflection::GetConstantBufferByName (d3d12shader.h)
-description: Gets a constant buffer by name for a function.
+description: Gets a constant buffer by name for a function. (ID3D12FunctionReflection.GetConstantBufferByName)
 helpviewer_keywords: ["GetConstantBufferByName","GetConstantBufferByName method","GetConstantBufferByName method","ID3D12FunctionReflection interface","ID3D12FunctionReflection interface","GetConstantBufferByName method","ID3D12FunctionReflection.GetConstantBufferByName","ID3D12FunctionReflection::GetConstantBufferByName","d3d12shader/ID3D12FunctionReflection::GetConstantBufferByName","direct3d12.id3d12functionreflection_getconstantbufferbyname"]
 old-location: direct3d12\id3d12functionreflection_getconstantbufferbyname.htm
 tech.root: direct3d12

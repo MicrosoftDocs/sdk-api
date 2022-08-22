@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3cc.IEnumACDGroup.Skip
 title: IEnumACDGroup::Skip (tapi3cc.h)
-description: The Skip method skips over the next specified number of elements in the enumeration sequence.
+description: The Skip method skips over the next specified number of elements in the enumeration sequence. (IEnumACDGroup.Skip)
 helpviewer_keywords: ["IEnumACDGroup interface [TAPI 2.2]","Skip method","IEnumACDGroup.Skip","IEnumACDGroup::Skip","Skip","Skip method [TAPI 2.2]","Skip method [TAPI 2.2]","IEnumACDGroup interface","_tapi3_ienumacdgroup_skip","tapi3.ienumacdgroup_skip","tapi3cc/IEnumACDGroup::Skip"]
 old-location: tapi3\ienumacdgroup_skip.htm
 tech.root: tapi3
