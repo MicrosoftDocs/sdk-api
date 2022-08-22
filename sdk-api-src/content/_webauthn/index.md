@@ -23,7 +23,7 @@ For programming guidance for this technology, see:
 
 - [CTAP](https://fidoalliance.org/specs/fido-v2.0-ps-20190130/fido-client-to-authenticator-protocol-v2.0-ps-20190130.html)
 
-The following constants are defined in the webauthn.h header file:
+The following constants are defined in the [webauthn.h](../webauthn/index.md) header file:
 
 | Constant | Value | Description |
 |--------|--------|--------|
