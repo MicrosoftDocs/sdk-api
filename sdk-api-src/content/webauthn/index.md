@@ -47,9 +47,7 @@ helpviewer_keywords:
 
 Provides Win32 apps with APIs for communicating to Windows Hello and external security keys as part of WebAuthn and CTAP specifications.
 
-## -constants
-
-The following constants are defined in the webauthn.h header file.
+The following constants are defined in the webauthn.h header file:
 
 | Constant | Value | Description |
 |--------|--------|--------|
