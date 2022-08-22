@@ -2,7 +2,7 @@
 UID: TP:webauthn
 title: WebAuthn API
 ms.assetid: c1fef6bd-056f-4b82-bd0b-394099515f16
-ms.date: 07/18/2022
+ms.date: 08/22/2022
 ms.keywords: webauthn, ctap
 ms.topic: conceptual
 ---

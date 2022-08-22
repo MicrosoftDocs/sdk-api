@@ -2,7 +2,7 @@
 UID: NA:webauthn
 tech.root: webauthn
 title: webauthn.h header
-ms.date: 07/18/2022
+ms.date: 08/22/2022
 targetos: Windows
 description: APIs for communicating to Windows Hello and external security keys.
 prerelease: false
