@@ -67,6 +67,9 @@ This method returns S\_OK if successful or a failure code otherwise.
 
 ## -remarks
 
+> [!NOTE]
+> [WldpCanExecuteBuffer](nf-wldp-wldpcanexecutebuffer.md), [WldpCanExecuteFile](nf-wldp-wldpcanexecutefile.md), and [WldpCanExecuteStream](nf-wldp-wldpcanexecutestream.md) are newer APIs that enable the same scenarios as **WldpGetLockdownPolicy** but with an improved implementation.
+
 When called with WLDP\_HOST\_INFORMATION.szSource = NULL, the generic policy for the host is returned.
 
 When called with WLDP\_HOST\_INFORMATION.dwHostId = WLDP\_HOST\_ID\_GLOBAL, WLDP\_HOST\_INFORMATION.szSource must be NULL, and the function will return the global system policy.

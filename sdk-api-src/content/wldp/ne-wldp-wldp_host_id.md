@@ -70,7 +70,7 @@ The host type is the Microsoft Windows Installer.
 
 ### -field WLDP_HOST_ID_ALL
 
-All host types.
+Catch-all for custom objects without a subject interface package.
 
 ### -field WLDP_HOST_ID_MAX
 
