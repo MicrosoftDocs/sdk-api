@@ -49,7 +49,7 @@ Provides Win32 apps with APIs for communicating to Windows Hello and external se
 
 ### Constants
 
-[WebAuthN Constants](/windows/win32/webauthn/webauthn-constants)
+View the [**constants**](/windows/win32/webauthn/webauthn-constants) available in the WebAuthN API.
 
 ## -remarks
 
