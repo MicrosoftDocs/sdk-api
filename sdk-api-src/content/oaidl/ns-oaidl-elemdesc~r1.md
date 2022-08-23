@@ -1,7 +1,8 @@
 ---
 UID: NS:oaidl.tagELEMDESC~r1
 title: ELEMDESC
-ms.date: 01/30/2019
+description: The ELEMDESC structure contains the type description and process-transfer information for a variable, a function, or a function parameter. (ELEMDESC)
+ms.date: 08/03/2022
 ms.keywords: tagELEMDESC, ELEMDESC
 targetos: Windows
 req.construct-type: structure
