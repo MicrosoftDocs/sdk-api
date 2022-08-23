@@ -4,7 +4,7 @@ tech.root: security
 title: WldpGetLockdownPolicy
 ms.date: 08/23/2022
 targetos: Windows
-description: 
+description: Calls the library to get the security state relative to the host, and script or msi to be used.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -19,8 +19,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10
+req.target-min-winversvr: Windows Server 2016
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -44,17 +44,34 @@ helpviewer_keywords:
 
 ## -description
 
+Calls the library to get the security state relative to the host, and script or msi to be used. The function has no associated import library. You must use the LoadLibrary and GetProcAddress functions to dynamically link to wldp.dll.
+
 ## -parameters
 
 ### -param hostInformation
 
+A [**WLDP\_HOST\_INFORMATION**](ns-wldp-wldp_host_information.md) structure identifying the host and source file to be evaluated.
+
 ### -param lockdownState
+
+
+Provides the resulting policy secure value. If !WLDP_LOCKDOWN_IS_OFF, then UMCI is enabled. You can also check WLDP_LOCKDOWN_IS_AUDIT and WLDP_LOCKDOWN_IS_ENFORCE to determine if a policy is in audit or enforce mode.
 
 ### -param lockdownFlags
 
+The following flag values are defined WLDP\_FLAGS\_SKIPSIGNATUREVALIDATION 0x00000100 – when set, skip the SaferIdentifyLevel validation, which will ignore whether a script is signed.
+
 ## -returns
 
+This method returns S\_OK if successful or a failure code otherwise.
+
 ## -remarks
+
+When called with WLDP\_HOST\_INFORMATION.szSource = NULL, the generic policy for the host is returned.
+
+When called with WLDP\_HOST\_INFORMATION.dwHostId = WLDP\_HOST\_ID\_GLOBAL, WLDP\_HOST\_INFORMATION.szSource must be NULL, and the function will return the global system policy.
+
+The dwFlag WLDP\_FLAGS\_SKIPSIGNATUREVALIDATION can be used to skip the SaferIdentifyLevel() validation, which will ignore whether a script is signed.
 
 ## -see-also
 

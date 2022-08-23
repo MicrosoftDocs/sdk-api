@@ -4,7 +4,7 @@ tech.root: security
 title: WldpIsClassInApprovedList
 ms.date: 08/23/2022
 targetos: Windows
-description: 
+description: Calls the library to validate if a particular CLSID is safe to be called.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -19,8 +19,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10
+req.target-min-winversvr: Windows Server 2016
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -44,17 +44,29 @@ helpviewer_keywords:
 
 ## -description
 
+Calls the library to validate if a particular **CLSID** is safe to be called. The function has no associated import library. You must use the LoadLibrary and GetProcAddress functions to dynamically link to wldp.dll.
+
 ## -parameters
 
 ### -param classID
 
+The COM class ID to check for approval.
+
 ### -param hostInformation
+
+A [**WLDP\_HOST\_INFORMATION**](ns-wldp-wldp_host_information.md) structure identifying the host to be evaluated.
 
 ### -param isApproved
 
+On successful completion, contains **TRUE** if the class ID is approved; otherwise, **FALSE**.
+
 ### -param optionalFlags
 
+This parameter is reserved and must be set to zero.
+
 ## -returns
+
+This method returns **S\_OK** if successful or a failure code otherwise.
 
 ## -remarks
 

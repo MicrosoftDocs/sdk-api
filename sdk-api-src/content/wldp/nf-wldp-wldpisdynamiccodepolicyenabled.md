@@ -4,7 +4,7 @@ tech.root: security
 title: WldpIsDynamicCodePolicyEnabled
 ms.date: 08/23/2022
 targetos: Windows
-description: 
+description: Retrieves a value that describes the Device Guard policy enforcement status for .NET dynamic code.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -19,8 +19,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10, version 1803
+req.target-min-winversvr: Windows Server 2016
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -44,13 +44,21 @@ helpviewer_keywords:
 
 ## -description
 
+Retrieves a value that describes the Device Guard policy enforcement status for .NET dynamic code.
+
 ## -parameters
 
 ### -param isEnabled
 
+On success, returns **true** if the Device Guard policy enforces .NET Dynamic Code policy; otherwise, returns **false**.
+
 ## -returns
 
+This method returns **S\_OK** if successful or a failure code otherwise.
+
 ## -remarks
+
+Dynamic code refers to .NET CRL dynamically-generated code.
 
 ## -see-also
 

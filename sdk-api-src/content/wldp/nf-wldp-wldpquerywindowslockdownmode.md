@@ -4,7 +4,7 @@ tech.root: security
 title: WldpQueryWindowsLockdownMode
 ms.date: 08/23/2022
 targetos: Windows
-description: 
+description: Retrieves the current Windows secure mode. Windows can be in locked mode, unlocked normal mode, or trial mode.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -19,8 +19,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10, version 1803
+req.target-min-winversvr: Windows Server 2016
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -44,11 +44,17 @@ helpviewer_keywords:
 
 ## -description
 
+Retrieves the current Windows secure mode. Windows can be in locked mode, unlocked normal mode, or trial mode.
+
 ## -parameters
 
 ### -param lockdownMode
 
+On success, returns a [**PWLDP\_WINDOWS\_LOCKDOWN\_MODE**](ne-wldp-wldp_windows_lockdown_mode.md) that indicates the secure mode for the current Windows 10 device.
+
 ## -returns
+
+This method returns **S\_OK** if successful or a failure code otherwise.
 
 ## -remarks
 
