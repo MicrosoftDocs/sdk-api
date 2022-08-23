@@ -180,7 +180,7 @@ The <b>IX509ExtensionCertificatePolicies</b> interface inherits from <a href="/w
 
 
 
-<a href="/windows/desktop/api/mmcobj/nn-mmcobj-extensions">Extensions</a>
+<a href="/windows/win32/seccrypto/extensions">Extensions</a>
 
 
 

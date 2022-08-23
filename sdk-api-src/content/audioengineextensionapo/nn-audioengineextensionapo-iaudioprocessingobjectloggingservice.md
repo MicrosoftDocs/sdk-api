@@ -40,7 +40,7 @@ Represents a logging service for APOs.
 
 ## -remarks
 
-Get an instance of this interface by [QueryService](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)) on the object in the *pServiceProvider* field of the [APOInitSystemEffects3](nn-audioengineextensionapo-iaudiosystemeffects3.md) structure passed in the *pbyData* parameter to [IAudioProcessingObject::Initialize](./audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobject-initialize.md). Specify **SID_AudioProcessingObjectLoggingService** as the identifier in the *guidService* parameter. 
+Get an instance of this interface by [QueryService](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)) on the object in the *pServiceProvider* field of the [APOInitSystemEffects3](nn-audioengineextensionapo-iaudiosystemeffects3.md) structure passed in the *pbyData* parameter to [IAudioProcessingObject::Initialize](/windows/win32/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobject-initialize). Specify **SID_AudioProcessingObjectLoggingService** as the identifier in the *guidService* parameter. 
 
 > [!NOTE]
 > [IAudioProcessingObjectLoggingService::ApoLog](nf-audioengineextensionapo-iaudioprocessingobjectloggingservice-apolog.md) should never be called from a real-time priority thread. For more information on thread priorities, see [Scheduling Priorities](/windows/win32/procthread/scheduling-priorities).
