@@ -140,7 +140,7 @@ Restrict type to 32-bit RRF_RT_REG_BINARY | RRF_RT_REG_DWORD.
 </dl>
 </td>
 <td width="60%">
-Restrict type to 64-bit RRF_RT_REG_BINARY | RRF_RT_REG_DWORD.
+Restrict type to 64-bit RRF_RT_REG_BINARY | RRF_RT_REG_QWORD.
 
 </td>
 </tr>
