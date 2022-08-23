@@ -88,7 +88,7 @@ Service is unavailable.
 
 The <a href="/windows/desktop/api/mswsock/ne-mswsock-rio_notification_completion_type">CONTROL_CHANNEL_TRIGGER_STATUS</a>  structure is supported on Windows 8,   and Windows Server 2012, and later versions of the operating system.
 
-A <a href="/windows/desktop/api/mswsock/ne-mswsock-rio_notification_completion_type">CONTROL_CHANNEL_TRIGGER_STATUS</a> enumeration value is returned as output from the <a href="/previous-versions/windows/desktop/legacy/jj553483(v=vs.85)">SIO_QUERY_TRANSPORT_SETTING</a> 
+A <a href="/windows/desktop/api/mswsock/ne-mswsock-rio_notification_completion_type">CONTROL_CHANNEL_TRIGGER_STATUS</a> enumeration value is returned as output from the <a href="/windows/win32/winsock/sio-query-transport-setting">SIO_QUERY_TRANSPORT_SETTING</a> 
         IOCTL to a query the <b>REAL_TIME_NOTIFICATION_CAPABILITY</b> transport setting for a TCP socket that is used with <a href="/uwp/api/windows.networking.sockets.controlchanneltrigger">ControlChannelTrigger</a> to receive background network notifications in a Windows Store app.
 
 ## -see-also
@@ -101,8 +101,8 @@ A <a href="/windows/desktop/api/mswsock/ne-mswsock-rio_notification_completion_t
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/jj553481(v=vs.85)">SIO_APPLY_TRANSPORT_SETTING</a>
+<a href="/windows/win32/winsock/sio-apply-transport-setting">SIO_APPLY_TRANSPORT_SETTING</a>
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/jj553483(v=vs.85)">SIO_QUERY_TRANSPORT_SETTING</a>
+<a href="/windows/win32/winsock/sio-query-transport-setting">SIO_QUERY_TRANSPORT_SETTING</a>

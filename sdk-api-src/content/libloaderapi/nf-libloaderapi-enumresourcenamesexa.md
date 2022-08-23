@@ -161,7 +161,7 @@ The <b>EnumResourceNamesEx</b> function continues to enumerate resource names un
 
 If <i>hModule</i> specifies an LN file, and both flags are selected, the names enumerated correspond to resources residing either in that LN file or  the .mui files associated with it. If no .mui files are found, only names from the LN file are returned. After one appropriate .mui file is found the search will not continue further, because all .mui files corresponding to a single LN file have the same resource names.
 
-If <i>dwFlags</i> and <i>LangId</i> are both zero, then the function behaves like <a href="/windows/win32/api/winbase/nf-winbase-enumresourcenamesa">EnumResourceNames</a>.
+If <i>dwFlags</i> and <i>LangId</i> are both zero, then the function behaves like <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesa">EnumResourceNames</a>.
 
 If <i>LangId</i> is nonzero, then only the .mui file corresponding to that Language identifier will be searched. Language fallbacks will not be used. If an .mui file for that language does not exist, the enumeration will be empty (unless resources for that language exist in the LN file, and the flag is set to search the LN file as well).
 
@@ -189,7 +189,7 @@ For an example, see <a href="/windows-hardware/drivers/wdf/creating-a-resource-r
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-enumresourcenamesa">EnumResourceNames</a>
+<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesa">EnumResourceNames</a>
 
 
 

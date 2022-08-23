@@ -19,5 +19,5 @@ f1_keywords:
 This header is used by multiple technologies. For more information, see:
 
 - [DirectDraw](../_directdraw/index.md)
-- [DirectShow](../_dshow/index.md)
+- [DirectShow](/windows/win32/directshow/directshow)
 

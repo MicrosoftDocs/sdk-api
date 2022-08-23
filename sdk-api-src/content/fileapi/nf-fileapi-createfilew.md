@@ -1045,10 +1045,7 @@ For more information, see
       <a href="/windows/desktop/FileIO/about-directory-management">About Directory Management</a>.
 
 <h3><a id="Physical_Disks_and_Volumes"></a><a id="physical_disks_and_volumes"></a><a id="PHYSICAL_DISKS_AND_VOLUMES"></a>Physical Disks and Volumes</h3>
-Direct access to the disk or to a volume is restricted. For more information, see 
-      "Changes to the file system and to the storage stack to restrict direct disk access and direct volume access in Windows Vista and in Windows Server 2008" 
-      in the Help and Support Knowledge Base at 
-      <a href="https://support.microsoft.com/kb/942448">http://support.microsoft.com/kb/942448</a>.
+Direct access to the disk or to a volume is restricted. 
 
 <b>Windows Server 2003 and Windows XP:  </b>Direct access to the disk or to a volume is not restricted in this manner.
 

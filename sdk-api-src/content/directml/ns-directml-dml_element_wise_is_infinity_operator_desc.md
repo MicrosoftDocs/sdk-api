@@ -63,9 +63,9 @@ The output tensor to write the results to.
 
 ### -field InfinityMode
 
-Type: **[DML_IS_INFINITY_MODE](/windows/win32/api/directml/ne-directml-dml_is_infinity_mode)**
+Type: **[DML_IS_INFINITY_MODE](https://microsoft.github.io/windows-docs-rs/doc/windows/Win32/AI/MachineLearning/DirectML/struct.DML_IS_INFINITY_MODE.html)**
 
-A [DML_IS_INFINITY_MODE](/windows/win32/api/directml/ne-directml-dml_is_infinity_mode) determining the sign of the infinity to check for.
+A [DML_IS_INFINITY_MODE](https://microsoft.github.io/windows-docs-rs/doc/windows/Win32/AI/MachineLearning/DirectML/struct.DML_IS_INFINITY_MODE.html) determining the sign of the infinity to check for.
 
 * If **DML_IS_INFINITY_MODE_EITHER**, then 1 will be returned if the element is -inf or inf, otherwise 0.
 * If **DML_IS_INFINITY_MODE_POSITIVE**, then 1 will be returned if the element is inf, otherwise 0.

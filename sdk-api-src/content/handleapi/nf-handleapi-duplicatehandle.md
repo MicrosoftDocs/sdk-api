@@ -260,7 +260,7 @@ If the process that calls
 <td>Semaphore</td>
 <td>The handle is returned by the 
 <a href="/windows/desktop/api/winbase/nf-winbase-createsemaphorea">CreateSemaphore</a> or 
-<a href="/windows/desktop/api/winbase/nf-winbase-opensemaphorea">OpenSemaphore</a> function.</td>
+<a href="/windows/win32/api/synchapi/nf-synchapi-opensemaphorew">OpenSemaphore</a> function.</td>
 </tr>
 <tr>
 <td>Thread</td>

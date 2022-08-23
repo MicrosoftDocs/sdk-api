@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>TRANSPORT_SETTING_ID</b> structure specifies the transport setting ID used by the  <a href="/previous-versions/windows/desktop/legacy/jj553481(v=vs.85)">SIO_APPLY_TRANSPORT_SETTING</a> and <a href="/previous-versions/windows/desktop/legacy/jj553483(v=vs.85)">SIO_QUERY_TRANSPORT_SETTING</a> IOCTLs to apply or query the transport setting for a socket.
+The <b>TRANSPORT_SETTING_ID</b> structure specifies the transport setting ID used by the  <a href="/windows/win32/winsock/sio-apply-transport-setting">SIO_APPLY_TRANSPORT_SETTING</a> and <a href="/windows/win32/winsock/sio-query-transport-setting">SIO_QUERY_TRANSPORT_SETTING</a> IOCTLs to apply or query the transport setting for a socket.
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ The transport setting ID.
 
 The only transport setting defined for Windows 8 and Windows Server 2012 is for the <b>REAL_TIME_NOTIFICATION_CAPABILITY</b> capability on a TCP socket. For Windows 10 and Windows Server 2016, there is another transport setting defined as <b>ASSOCIATE_NAMERES_CONTEXT</b>.
 
-The <b>TRANSPORT_SETTING_ID</b> structure is passed as input to the <a href="/previous-versions/windows/desktop/legacy/jj553481(v=vs.85)">SIO_APPLY_TRANSPORT_SETTING</a> and <a href="/previous-versions/windows/desktop/legacy/jj553483(v=vs.85)">SIO_QUERY_TRANSPORT_SETTING</a> 
+The <b>TRANSPORT_SETTING_ID</b> structure is passed as input to the <a href="/windows/win32/winsock/sio-apply-transport-setting">SIO_APPLY_TRANSPORT_SETTING</a> and <a href="/windows/win32/winsock/sio-query-transport-setting">SIO_QUERY_TRANSPORT_SETTING</a> 
         IOCTLs. The <b>Guid</b> member determines what transport setting is applied or queried. 
 
 The only transport setting currently defines is for the <b>REAL_TIME_NOTIFICATION_CAPABILITY</b> capability on a TCP socket.
@@ -79,8 +79,8 @@ The only transport setting currently defines is for the <b>REAL_TIME_NOTIFICATIO
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/jj553481(v=vs.85)">SIO_APPLY_TRANSPORT_SETTING</a>
+<a href="/windows/win32/winsock/sio-apply-transport-setting">SIO_APPLY_TRANSPORT_SETTING</a>
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/jj553483(v=vs.85)">SIO_QUERY_TRANSPORT_SETTING</a>
+<a href="/windows/win32/winsock/sio-query-transport-setting">SIO_QUERY_TRANSPORT_SETTING</a>

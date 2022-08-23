@@ -99,7 +99,7 @@ When you increase the working set size of an application, you are taking away ph
 
 ## -see-also
 
-<a href="/windows/desktop/api/winbase/nf-winbase-getprocessworkingsetsize">GetProcessWorkingSetSize</a>
+<a href="/windows/win32/api/memoryapi/nf-memoryapi-getprocessworkingsetsize">GetProcessWorkingSetSize</a>
 
 
 

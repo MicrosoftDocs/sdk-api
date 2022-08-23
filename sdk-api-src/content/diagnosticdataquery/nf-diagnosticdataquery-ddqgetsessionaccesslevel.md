@@ -52,7 +52,7 @@ Handle to the Diagnostic Data Query session.
 
 ### -param accessLevel
 
-Type: **[DdqAccessLevel\*](/windows/win32/api/diagnosticdataquery/ne-diagnosticdataquerytypes-ddqaccesslevel)**
+Type: **[DdqAccessLevel\*](/windows/win32/api/diagnosticdataquerytypes/ne-diagnosticdataquerytypes-ddqaccesslevel)**
 This output parameter is the pointer to the access level for this session.
 
 ## -returns

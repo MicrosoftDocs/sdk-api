@@ -63,7 +63,7 @@ Optional context pointer. It contains the value of the <i>context</i> parameter 
 
 ### -param event [in]
 
-Type: <b>const <a href="/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event2_">FWPM_NET_EVENT2</a>*</b>
+Type: <b>const <a href="/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event2">FWPM_NET_EVENT2</a>*</b>
 
 The net event information.
 

@@ -206,7 +206,7 @@ An application uses the
     <a href="/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobjectex">WaitForSingleObjectEx</a>, 
     <a href="/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjectsex">WaitForMultipleObjectsEx</a>, 
     <a href="/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a>, 
-    <a href="/windows/desktop/api/winbase/nf-winbase-signalobjectandwait">SignalObjectAndWait</a>, and 
+    <a href="/windows/win32/api/synchapi/nf-synchapi-signalobjectandwait">SignalObjectAndWait</a>, and 
     <a href="/windows/desktop/api/synchapi/nf-synchapi-sleepex">SleepEx</a> functions to enter an alertable wait state. For more information about alertable wait 
     states and overlapped I/O operations, see <a href="/windows/desktop/Sync/about-synchronization">About Synchronization</a>.
 
