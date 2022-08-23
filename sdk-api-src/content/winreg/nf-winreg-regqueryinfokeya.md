@@ -107,11 +107,11 @@ A pointer to a variable that receives the number of subkeys that are contained b
 
 ### -param lpcbMaxSubKeyLen [out, optional]
 
-A pointer to a variable that receives the size of the key's subkey with the longest name, in Unicode characters, not including the terminating <b>null</b> character. This parameter can be <b>NULL</b>.
+A pointer to a variable that receives the size of the key's subkey with the longest name, in ANSI characters, not including the terminating <b>null</b> character. This parameter can be <b>NULL</b>.
 
 ### -param lpcbMaxClassLen [out, optional]
 
-A pointer to a variable that receives the size of the longest string that specifies a subkey class, in Unicode characters. The count returned does not include the terminating <b>null</b> character. This parameter can be <b>NULL</b>.
+A pointer to a variable that receives the size of the longest string that specifies a subkey class, in ANSI characters. The count returned does not include the terminating <b>null</b> character. This parameter can be <b>NULL</b>.
 
 ### -param lpcValues [out, optional]
 
@@ -119,7 +119,7 @@ A pointer to a variable that receives the number of values that are associated w
 
 ### -param lpcbMaxValueNameLen [out, optional]
 
-A pointer to a variable that receives the size of the key's longest value name, in Unicode characters. The size does not include the terminating <b>null</b> character. This parameter can be <b>NULL</b>.
+A pointer to a variable that receives the size of the key's longest value name, in ANSI characters. The size does not include the terminating <b>null</b> character. This parameter can be <b>NULL</b>.
 
 ### -param lpcbMaxValueLen [out, optional]
 
