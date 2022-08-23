@@ -116,7 +116,7 @@ The <b>ldap_search_s</b> function initiates a synchronous search.
 
 Use the 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a> function with the <i>ld</i> session handle to set the <b>LDAP_OPT_SIZELIMIT</b>, <b>LDAP_OPT_TIMELIMIT</b>, and <b>LDAP_OPT_DEREF</b> options that determine how the search is performed. For more information, see 
-<a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">Session Options</a>.
+<a href="/previous-versions/windows/desktop/ldap/session-options">Session Options</a>.
 
 Upon completion of the search operation, <b>ldap_search_s</b> returns to the caller. Use 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search">ldap_search</a> to have the operation performed asynchronously.
@@ -186,7 +186,7 @@ else
 
 
 
-<a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">Session Options</a>
+<a href="/previous-versions/windows/desktop/ldap/session-options">Session Options</a>
 
 
 

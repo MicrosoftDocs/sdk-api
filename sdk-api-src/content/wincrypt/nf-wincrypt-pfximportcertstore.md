@@ -218,7 +218,7 @@ If the function fails, that is, if the password parameter does not contain an ex
 
 The <b>PFXImportCertStore</b> function opens a temporary store. If the function succeeds, you should close the handle to the store by calling the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
 
-When you import a certificate from the PFX packet, the CSP/KSP container name is determined by using the AttributeId with OID 1.3.6.1.4.1.311.17.1 of the PKCS8ShroudedKeyBag SafeBag [bagId: 1.2.840.113549.1.12.10.1.2] (see <a href="https://www.rsa.com/research-and-thought-leadership/rsa-labs?id=2138">PKCS #12</a> for details about the ASN.1 structure of this).
+When you import a certificate from the PFX packet, the CSP/KSP container name is determined by using the AttributeId with OID 1.3.6.1.4.1.311.17.1 of the PKCS8ShroudedKeyBag SafeBag [bagId: 1.2.840.113549.1.12.10.1.2] (see <a href="https://www.rfc-editor.org/rfc/rfc7292">PKCS #12</a> for details about the ASN.1 structure of this).
 
 
 <dl>

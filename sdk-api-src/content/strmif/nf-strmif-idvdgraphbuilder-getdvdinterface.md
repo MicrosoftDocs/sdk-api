@@ -114,7 +114,7 @@ You can use this method to select and configure a video renderer filter before y
 <ul>
 <li><b>Overlay Mixer Filter</b>: <a href="/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideo">IDDrawExclModeVideo</a>.</li>
 <li><b>Video Mixing Renderer 7 (VMR-7)</b>: <a href="/windows/desktop/api/strmif/nn-strmif-ivmrfilterconfig">IVMRFilterConfig</a>, <a href="/windows/win32/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a>, <a href="/windows/desktop/api/strmif/nn-strmif-ivmrwindowlesscontrol">IVMRWindowlessControl</a>, and <a href="/windows/desktop/api/strmif/nn-strmif-ivmrmonitorconfig">IVMRMonitorConfig</a>.</li>
-<li><b>Video Mixing Renderer 9 (VMR-9)</b>: <a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrfilterconfig9">IVMRFilterConfig9</a>, <a href="/windows/desktop/api/vmr9/nn-vmr9-ivmrmixerbitmap9">IVMRMixerBitmap9</a>, <a href="/previous-versions/ms787155(v=vs.85)">IVMRWindowlessControl9</a>, and <a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrmonitorconfig9">IVMRMonitorConfig9</a>.</li>
+<li><b>Video Mixing Renderer 9 (VMR-9)</b>: <a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrfilterconfig9">IVMRFilterConfig9</a>, <a href="/previous-versions/ms787059(v=vs.85)">IVMRMixerBitmap9</a>, <a href="/previous-versions/ms787155(v=vs.85)">IVMRWindowlessControl9</a>, and <a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrmonitorconfig9">IVMRMonitorConfig9</a>.</li>
 <li><b>Enhanced Video Renderer (EVR)</b>: <a href="/windows/desktop/api/evr/nn-evr-ievrfilterconfig">IEVRFilterConfig</a> and <a href="/windows/desktop/api/evr/nn-evr-imfvideorenderer">IMFVideoRenderer</a>.<b>Windows Server 2003, Windows XP and Windows 2000:  </b>This interface is not supported.
 
 </li>

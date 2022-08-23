@@ -407,7 +407,7 @@ KDF-Output = SP_800-56A_KDF(
 
 ### -param pParameterList [in, optional]
 
-The address of a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc">NCryptBufferDesc</a> structure that contains the KDF parameters. This parameter is optional and can be <b>NULL</b> if it is not needed.
+The address of a <a href="/windows/win32/api/bcrypt/ns-bcrypt-bcryptbufferdesc">NCryptBufferDesc</a> structure that contains the KDF parameters. This parameter is optional and can be <b>NULL</b> if it is not needed.
 
 ### -param pbDerivedKey [out, optional]
 
@@ -534,4 +534,4 @@ A service must not call this function from its <a href="/windows/win32/api/winsv
 
 ## -see-also
 
-<a href="/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc">NCryptBufferDesc</a>
+<a href="/windows/win32/api/bcrypt/ns-bcrypt-bcryptbufferdesc">NCryptBufferDesc</a>

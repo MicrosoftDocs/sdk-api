@@ -64,7 +64,7 @@ api_name:
 ## -description
 
 Sets the related activity for this
-[TraceLoggingActivity](nl-traceloggingactivity-traceloggingactivity~r1.md)
+[TraceLoggingActivity](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity)
 object.
 
 ## -parameters
@@ -79,4 +79,4 @@ TBD
 
 ## -see-also
 
-[TraceLoggingActivity](nl-traceloggingactivity-traceloggingactivity~r1.md)
+[TraceLoggingActivity](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity)

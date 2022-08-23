@@ -70,4 +70,4 @@ The handle to the TraceLogging provider associated with this activity.
 
 ## -see-also
 
-[TraceLoggingThreadActivity](nl-traceloggingactivity-traceloggingthreadactivity.md)
+[TraceLoggingThreadActivity](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity)

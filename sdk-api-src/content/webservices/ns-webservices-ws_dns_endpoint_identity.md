@@ -63,6 +63,6 @@ The base type from which this type and all other endpoint identity types derive.
 ### -field dns
 
 The DNS name of the endpoint that is represented by this endpoint identity.
-                    The acceptable forms of the name are as defined by <a href="http://tools.ietf.org/html/rfc1035">RFC 1035</a>.
+                    The acceptable forms of the name are as defined by <a href="https://datatracker.ietf.org/doc/html/rfc1035">RFC 1035</a>.
                     In particular, they include both a simple machine name as well as a fully qualified domain name (FQDN).
 

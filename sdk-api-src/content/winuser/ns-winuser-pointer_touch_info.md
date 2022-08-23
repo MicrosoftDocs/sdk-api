@@ -107,4 +107,4 @@ Type: **UINT32**
 
 ## -see-also
 
-[Structures](/win32/desktop/inputmsg/structures)
+[Structures](/windows/win32/winrt/structures)

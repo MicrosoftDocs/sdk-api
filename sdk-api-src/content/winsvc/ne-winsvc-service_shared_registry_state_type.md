@@ -43,9 +43,9 @@ Mutable, persistent service state. This state is readable and writeable by the s
 ## -remarks
 
 All per-service registry state types have a lifetime that is scoped to the lifetime of the service installation.
-Once the service is removed by calling [DeleteService](/windows/win32/api/winsvc/ne-winsvc-DeleteService) the registry state is deleted too.
+Once the service is removed by calling [DeleteService](/windows/win32/api/winsvc/nf-winsvc-deleteservice) the registry state is deleted too.
 
 ## -see-also
 
-[GetSharedServiceRegistryStateKey](/windows/win32/api/winsvc/ne-winsvc-getsharedserviceregistrystatekey)
+[GetSharedServiceRegistryStateKey](/windows/win32/api/winsvc/nf-winsvc-getsharedserviceregistrystatekey)
 

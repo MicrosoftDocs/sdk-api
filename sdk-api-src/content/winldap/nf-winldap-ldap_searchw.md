@@ -126,7 +126,7 @@ The <b>ldap_search</b> function initiates an asynchronous search operation.
 
 Use the 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a> function with the <i>ld</i> session handle to set the LDAP_OPT_SIZELIMIT, LDAP_OPT_TIMELIMIT, and LDAP_OPT_DEREF options that determine how the search is performed. For more information, see 
-<a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">Session Options</a>.
+<a href="/previous-versions/windows/desktop/ldap/session-options">Session Options</a>.
 
 As an asynchronous function, <b>ldap_search</b> returns a message ID for the operation. Call 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a> with the message ID to get the result of the operation. To cancel an asynchronous search operation before it has completed, call 

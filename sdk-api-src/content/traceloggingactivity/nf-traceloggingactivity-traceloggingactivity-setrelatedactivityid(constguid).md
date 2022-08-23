@@ -70,7 +70,7 @@ api_name:
 ## -description
 
 Uses the unique identifier of an activity to set the related activity for this
-[TraceLoggingActivity](nl-traceloggingactivity-traceloggingactivity~r1.md)
+[TraceLoggingActivity](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity)
 object.
 
 ## -parameters
@@ -81,4 +81,4 @@ The unique identifier for the activity to associate with this activity.
 
 ## -see-also
 
-[TraceLoggingActivity](nl-traceloggingactivity-traceloggingactivity~r1.md)
+[TraceLoggingActivity](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity)

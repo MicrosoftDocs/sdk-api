@@ -20,5 +20,5 @@ f1_keywords:
 This header is used by multiple technologies. For more information, see:
 
 - [System Services](../_base/index.md)
-- [Windows Sidebar](../_sidebar/index.md)
+- [Windows Sidebar](/previous-versions/windows/desktop/sidebar/-sidebar-entry)
 

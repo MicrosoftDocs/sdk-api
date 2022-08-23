@@ -181,7 +181,7 @@ Decoders and video sources should propose formats where biWidth is the width of 
 
 <ul>
 <li>It sets <b>biWidth</b> equal to the surface stride in pixels.</li>
-<li>It sets the <b>rcTarget</b> member of the <a href="/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> or <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a> structure equal to the image width, in pixels.</li>
+<li>It sets the <b>rcTarget</b> member of the <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> or <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a> structure equal to the image width, in pixels.</li>
 </ul>
 Then the video renderer proposes the modified format by calling <a href="/windows/desktop/api/strmif/nf-strmif-ipin-queryaccept">IPin::QueryAccept</a> on the upstream pin. For more information about this mechanism, see <a href="/windows/desktop/DirectShow/dynamic-format-changes">Dynamic Format Changes</a>.
 
@@ -193,7 +193,7 @@ If there is padding in the image buffer, never dereference a pointer into the me
 
 
 
-<a href="/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER Structure</a>
+<a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER Structure</a>
 
 
 

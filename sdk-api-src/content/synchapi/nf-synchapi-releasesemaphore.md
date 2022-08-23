@@ -64,7 +64,7 @@ Increases the count of the specified semaphore object by a specified amount.
 
 A handle to the semaphore object. The 
 <a href="/windows/desktop/api/winbase/nf-winbase-createsemaphorea">CreateSemaphore</a> or 
-<a href="/windows/desktop/api/winbase/nf-winbase-opensemaphorea">OpenSemaphore</a> function returns this handle.
+<a href="/windows/win32/api/synchapi/nf-synchapi-opensemaphorew">OpenSemaphore</a> function returns this handle.
 
 This handle must have the <b>SEMAPHORE_MODIFY_STATE</b> access right. For more information, see 
 <a href="/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
@@ -115,7 +115,7 @@ For an example that uses
 
 <a href="/windows/desktop/api/winbase/nf-winbase-createsemaphorea">CreateSemaphore</a>
 
-<a href="/windows/desktop/api/winbase/nf-winbase-opensemaphorea">OpenSemaphore</a>
+<a href="/windows/win32/api/synchapi/nf-synchapi-opensemaphorew">OpenSemaphore</a>
 
 
 <a href="/windows/desktop/Sync/semaphore-objects">Semaphore Objects</a>

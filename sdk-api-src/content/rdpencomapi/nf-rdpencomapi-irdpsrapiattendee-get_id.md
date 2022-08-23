@@ -68,4 +68,4 @@ If an attendee disconnects, the attendee object will be destroyed. If the attend
 
 
 
-<a href="/windows/win32/api/rdpencomapi/ne-rdpencomapi-rdpencomapi_constants">RDPENCOMAPI_CONSTANTS</a>
+<a href="https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/rdpencomapi/ne-rdpencomapi-rdpencomapi_constants.md">RDPENCOMAPI_CONSTANTS</a>

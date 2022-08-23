@@ -138,4 +138,4 @@ The underlying structures for UMS worker threads are managed by the system. Info
 
 
 
-<a href="/windows/desktop/api/winnt/ne-winnt-_rtl_ums_thread_info_class">UMS_THREAD_INFO_CLASS</a>
+<a href="">UMS_THREAD_INFO_CLASS</a>

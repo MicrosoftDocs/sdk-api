@@ -151,7 +151,7 @@ This attribute is supported only on the CredSSP server.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_packageinfoa">SecPkgContext_PackageInfo</a> structure that specifies the name of the authentication package negotiated by the <a href="/windows/desktop/SecAuthN/microsoft-negotiate">Microsoft Negotiate</a> provider.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/win32/api/sspi/ns-sspi-secpkginfoa">SecPkgContext_PackageInfo">SecPkgContext_PackageInfo</a> structure that specifies the name of the authentication package negotiated by the <a href="/windows/desktop/SecAuthN/microsoft-negotiate">Microsoft Negotiate</a> provider.
 
 </td>
 </tr>
@@ -162,7 +162,7 @@ The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/a
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_packageinfoa">SecPkgContext_PackageInfo</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/win32/api/sspi/ns-sspi-secpkginfoa">SecPkgContext_PackageInfo">SecPkgContext_PackageInfo</a> structure.
 
 Returns information on the SSP in use.
 

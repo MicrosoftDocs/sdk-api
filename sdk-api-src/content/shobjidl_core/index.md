@@ -22,6 +22,6 @@ This header is used by multiple technologies. For more information, see:
 - [Windows Property System](../_properties/index.md)
 - [Windows Runtime C++ reference](../_winrt/index.md)
 - [Windows Search](../_search/index.md)
-- [Windows Sidebar](../_sidebar/index.md)
+- [Windows Sidebar](/previous-versions/windows/desktop/sidebar/-sidebar-entry)
 - [WMI Provider for NFS](../_nfswmi/index.md)
 

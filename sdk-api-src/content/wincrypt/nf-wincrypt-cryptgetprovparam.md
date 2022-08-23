@@ -618,7 +618,7 @@ Retrieve the next element in the enumeration. When there are no more elements to
 </dl>
 </td>
 <td width="60%">
-Retrieve <a href="/windows/desktop/SecGloss/s-gly">server-gated cryptography</a> (SGC) enabled certificates. SGC enabled certificates are no longer supported. For more information, see <a href="https://support.microsoft.com/kb/875450">Microsoft Support Article 875450</a>.
+Retrieve <a href="/windows/desktop/SecGloss/s-gly">server-gated cryptography</a> (SGC) enabled certificates. SGC enabled certificates are no longer supported.
 
 </td>
 </tr>
