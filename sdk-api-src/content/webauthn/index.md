@@ -47,6 +47,10 @@ helpviewer_keywords:
 
 Provides Win32 apps with APIs for communicating to Windows Hello and external security keys as part of WebAuthn and CTAP specifications.
 
+### Constants
+
+[WebAuthN Constants](/windows/win32/webauthn/webauthn-constants)
+
 ## -remarks
 
 ## -see-also
