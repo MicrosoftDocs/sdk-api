@@ -77,4 +77,4 @@ Each corner of the rectangle specified by the _rect_ is replaced with a quarter 
 
  If the _radiusX_ is greater than or equal to half the width of the rectangle, and the _radiusY_ is greater than or equal to one-half the height, the rounded rectangle is an ellipse with the same width and height of the _rect_.
 
-Even when both _radiusX_ and _radiusY_ are zero, the rounded rectangle is different from a rectangle., When stroked, the corners of the rounded rectangle are roundly joined, not mitered (square).
+Even when both _radiusX_ and _radiusY_ are zero, the rounded rectangle is different from a rectangle. When stroked, the corners of the rounded rectangle are roundly joined, not mitered (square).
