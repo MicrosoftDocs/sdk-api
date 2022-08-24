@@ -28,9 +28,9 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
- - wldp.h
+ - wldp.dll
 api_name:
  - WldpCanExecuteFile
 f1_keywords:
