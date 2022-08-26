@@ -181,7 +181,7 @@ The <i>lpValue</i> parameter is a pointer to a <a href="/windows/desktop/api/win
 
 After the UMS thread is created, the system queues it to the specified completion list. The UMS thread runs only when an application's UMS scheduler retrieves the UMS thread from the completion list and selects it to run.  For more information, see <a href="/windows/desktop/ProcThread/user-mode-scheduling">User-Mode Scheduling</a>.
 
-<b>Windows Server 2008 and Windows Vista:  </b>This value is not supported until Windows 7 and Windows Server 2008 R2.
+<b>Windows Server 2008 and Windows Vista:  </b>This value is not supported until Windows 7 and Windows Server 2008 R2, and from Windows 11 onwards.
 
 </td>
 </tr>
