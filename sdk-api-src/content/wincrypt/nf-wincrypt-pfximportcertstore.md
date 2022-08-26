@@ -172,7 +172,18 @@ Allow overwrite of the existing key. Specify this flag when you encounter a scen
 <td width="60%">
 Do not persist the key. Specify this flag when you do not want to persist the key. For example, if it is not necessary to store the key after verification, then instead of creating a container and then deleting it, you can specify this flag to dispose of the key immediately.
 
-<div class="alert"><b>Note</b>  If the <b>PKCS12_NO_PERSIST_KEY</b> flag is not set, keys are persisted on disk. If you do not want to persist the keys beyond their usage, you must delete them by calling the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>  function with the <b>CRYPT_DELETEKEYSET</b> flag set in the <i>dwFlags</i> parameter.</div>
+<div class="alert"><b>Note</b>  If the <b>PKCS12_NO_PERSIST_KEY</b> flag is *not* set, keys are persisted on disk. If you do not want to persist the keys beyond their usage, you must delete them by calling the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>  function with the <b>CRYPT_DELETEKEYSET</b> flag set in the <i>dwFlags</i> parameter.</div>
+
+<div class="alert"><b>Note</b> Some other considerations:
+
+* When using PKCS12_NO_PERSIST_KEY, the property CERT_KEY_CONTEXT_PROP_ID is set internally on the certificate, and CERT_KEY_CONTEXT_PROP_ID contains the NCRYPT_KEY_HANDLE.
+
+* If the PKCS12_NO_PERSIST_KEY is not used, the CERT_KEY_PROV_INFO_PROP_ID property is set.
+
+* If the certificate with the non-persisting key is marshaled to another process, the CERT_KEY_CONTEXT_PROP_ID property will not be marshalled.
+
+* For NO_PERSIST to work, it must be in same process *and* the user of the PCCERT_CONTEXT must support the CERT_KEY_CONTEXT_PROP_ID. This typically applies during a TLS handshake: if the handshake is performed externally to the calling process in LSASS.exe, it is not possible to use PKCS12_NO_PERSIST_KEY when moving from the calling process to LSASS (because the NCRYPT_KEY_HANDLE is a pointer to a data structure and not a kernel handle).</div>
+
 <div> </div>
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
