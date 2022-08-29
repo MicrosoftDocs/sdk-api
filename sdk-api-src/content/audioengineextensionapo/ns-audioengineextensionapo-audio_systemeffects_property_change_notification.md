@@ -60,7 +60,7 @@ An [IPropertyStore](../propsys/nn-propsys-ipropertystore.md) representing the pr
 
 ### -field propertyKey
 
-A [PROPERTYKEY](wtypes/ns-wtypes-propertykey) structure identifying the property associated with the notification.
+A [PROPERTYKEY](/windows/win32/api/wtypes/ns-wtypes-propertykey) structure identifying the property associated with the notification.
 
 ## -remarks
 

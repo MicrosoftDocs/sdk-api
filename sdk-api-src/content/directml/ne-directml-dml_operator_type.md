@@ -590,7 +590,7 @@ Indicates the operator described by the [DML_RESAMPLE1_OPERATOR_DESC](/windows/w
 
 ### -field DML_OPERATOR_REVERSE_SUBSEQUENCES
 
-Indicates the operator described by the [DML_REVERSE_SUBSEQUENCES_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_reverse_subsequences_operator_desc) structure.
+Indicates the operator described by the [DML_REVERSE_SUBSEQUENCES_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_reverse_subsequences_desc) structure.
 
 ### -field DML_OPERATOR_ROI_ALIGN
 

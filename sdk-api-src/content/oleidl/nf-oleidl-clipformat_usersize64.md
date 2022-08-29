@@ -2,9 +2,9 @@
 UID: NF:oleidl.CLIPFORMAT_UserSize64
 tech.root: com
 title: CLIPFORMAT_UserSize64 (oleidl.h)
-ms.date: 07/08/2022
+ms.date: 08/15/2022
 targetos: Windows
-description: Calculates the wire size of the CLIPFORMAT object and gets its handle and data.
+description: The CLIPFORMAT_UserSize64 function (oleidl.h) calculates the wire size of the CLIPFORMAT object and gets its handle and data.
 prerelease: false
 req.assembly: 
 req.construct-type: function

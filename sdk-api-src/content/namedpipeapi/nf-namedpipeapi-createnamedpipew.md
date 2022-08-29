@@ -2,9 +2,9 @@
 UID: NF:namedpipeapi.CreateNamedPipeW
 tech.root: ipc 
 title: CreateNamedPipeW
-ms.date: 04/20/2021
-targetos: Windows
-description: Creates an instance of a named pipe and returns a handle for subsequent pipe operations. 
+description: The CreateNamedPipeW (Unicode) function (winbase.h) creates an instance of a named pipe and returns a handle for subsequent pipe operations.
+ms.date: 08/05/2022
+targetos: Windows 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

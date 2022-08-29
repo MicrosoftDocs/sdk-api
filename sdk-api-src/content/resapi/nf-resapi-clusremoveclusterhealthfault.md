@@ -1,12 +1,12 @@
 ---
 UID: NF:resapi.ClusRemoveClusterHealthFault
 title: ClusRemoveClusterHealthFault function (resapi.h)
-description: TBD.
+description: The ClusRemoveClusterHealthFault function is a health fault utility function that is part of the resapi.h header used by Windows Clustering.
 helpviewer_keywords: ["ClusRemoveClusterHealthFault","ClusRemoveClusterHealthFault function [Failover Cluster]","mscs.clusremoveclusterhealthfault","resapi/ClusRemoveClusterHealthFault"]
 old-location: mscs\clusremoveclusterhealthfault.htm
 tech.root: MsCS
 ms.assetid: ff20511b-beb0-4fa4-a8f3-cc2772cdc503
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: ClusRemoveClusterHealthFault, ClusRemoveClusterHealthFault function [Failover Cluster], mscs.clusremoveclusterhealthfault, resapi/ClusRemoveClusterHealthFault
 req.header: resapi.h
 req.include-header: 

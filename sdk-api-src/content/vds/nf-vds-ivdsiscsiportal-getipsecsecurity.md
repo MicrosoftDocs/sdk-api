@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsIscsiPortal.GetIpsecSecurity
 title: IVdsIscsiPortal::GetIpsecSecurity (vds.h)
-description: Not supported.This method is reserved for future use. (IVdsIscsiPortal.GetIpsecSecurity)
+description: The IVdsIscsiPortal::GetIpsecSecurity method (vds.h) is not supported and is reserved for future use.
 helpviewer_keywords: ["GetIpsecSecurity","GetIpsecSecurity method","GetIpsecSecurity method","IVdsIscsiPortal interface","IVdsIscsiPortal interface","GetIpsecSecurity method","IVdsIscsiPortal.GetIpsecSecurity","IVdsIscsiPortal::GetIpsecSecurity","base.ivdsiscsiportal_getipsecsecurity","vds/IVdsIscsiPortal::GetIpsecSecurity","vdshwprv/IVdsIscsiPortal::GetIpsecSecurity"]
 old-location: base\ivdsiscsiportal_getipsecsecurity.htm
 tech.root: base
 ms.assetid: c815856f-94a2-4748-b9ac-54a2ef69c97e
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: GetIpsecSecurity, GetIpsecSecurity method, GetIpsecSecurity method,IVdsIscsiPortal interface, IVdsIscsiPortal interface,GetIpsecSecurity method, IVdsIscsiPortal.GetIpsecSecurity, IVdsIscsiPortal::GetIpsecSecurity, base.ivdsiscsiportal_getipsecsecurity, vds/IVdsIscsiPortal::GetIpsecSecurity, vdshwprv/IVdsIscsiPortal::GetIpsecSecurity
 req.header: vds.h
 req.include-header: 

@@ -48,7 +48,7 @@ An [IMMDevice](..//mmdeviceapi/nn-mmdeviceapi-immdevice.md) representing the aud
 
 ### -field volume
 
-A pointer to a [AUDIO_VOLUME_NOTIFICATION_DATA](endpointvolume/ns-endpointvolume-audio_volume_notification_data) representing the new endpoint volume.
+A pointer to a [AUDIO_VOLUME_NOTIFICATION_DATA](/windows/win32/api/endpointvolume/ns-endpointvolume-audio_volume_notification_data) representing the new endpoint volume.
 
 ## -remarks
 

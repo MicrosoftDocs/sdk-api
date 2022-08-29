@@ -20,5 +20,5 @@ This header is used by multiple technologies. For more information, see:
 
 - [Legacy Windows Environment Features](../_lwef/index.md)
 - [The Windows Shell](../_shell/index.md)
-- [Windows Sidebar](../_sidebar/index.md)
+- [Windows Sidebar](/previous-versions/windows/desktop/sidebar/-sidebar-entry)
 

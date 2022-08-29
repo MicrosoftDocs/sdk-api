@@ -107,7 +107,7 @@ The following computation is done or every corresponding value in the inputs.
 
 ### -field Epsilon
 
-Type: **[FLOAT](../../winprog/windows-data-types.md)**
+Type: **[FLOAT](/windows/win32/winprog/windows-data-types)**
 
 A small value added to the variance to avoid zero.
 

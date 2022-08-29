@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsLun.QueryActiveControllers
 title: IVdsLun::QueryActiveControllers (vds.h)
-description: Returns an enumeration of currently active controllers�the controllers through which the LUN is accessible. (IVdsLun.QueryActiveControllers)
+description: The IVdsLun::QueryActiveControllers method (vds.h) returns an enumeration of currently active controllers which can access the LUN.
 helpviewer_keywords: ["IVdsLun interface [VDS]","QueryActiveControllers method","IVdsLun.QueryActiveControllers","IVdsLun::QueryActiveControllers","QueryActiveControllers","QueryActiveControllers method [VDS]","QueryActiveControllers method [VDS]","IVdsLun interface","base.ivdslun_queryactivecontrollers","vds/IVdsLun::QueryActiveControllers","vdshwprv/IVdsLun::QueryActiveControllers"]
 old-location: base\ivdslun_queryactivecontrollers.htm
 tech.root: base
 ms.assetid: 82561e4a-f2c2-46da-96bb-fbd50d4f7c39
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsLun interface [VDS],QueryActiveControllers method, IVdsLun.QueryActiveControllers, IVdsLun::QueryActiveControllers, QueryActiveControllers, QueryActiveControllers method [VDS], QueryActiveControllers method [VDS],IVdsLun interface, base.ivdslun_queryactivecontrollers, vds/IVdsLun::QueryActiveControllers, vdshwprv/IVdsLun::QueryActiveControllers
 req.header: vds.h
 req.include-header: 

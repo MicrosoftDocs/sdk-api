@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IEnumVdsObject.Clone
 title: IEnumVdsObject::Clone (vds.h)
-description: Creates an enumeration with the same state as the current enumeration. (IEnumVdsObject.Clone)
+description: The IEnumVdsObject::Clone (vds.h) method creates an enumeration with the same state as the current enumeration.
 helpviewer_keywords: ["Clone","Clone method [VDS]","Clone method [VDS]","IEnumVdsObject interface","IEnumVdsObject interface [VDS]","Clone method","IEnumVdsObject.Clone","IEnumVdsObject::Clone","base.ienumvdsobject_clone","vds/IEnumVdsObject::Clone","vdshwprv/IEnumVdsObject::Clone"]
 old-location: base\ienumvdsobject_clone.htm
 tech.root: base
 ms.assetid: 9d547011-2200-43fc-a8de-9b90ba94c39e
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: Clone, Clone method [VDS], Clone method [VDS],IEnumVdsObject interface, IEnumVdsObject interface [VDS],Clone method, IEnumVdsObject.Clone, IEnumVdsObject::Clone, base.ienumvdsobject_clone, vds/IEnumVdsObject::Clone, vdshwprv/IEnumVdsObject::Clone
 req.header: vds.h
 req.include-header: 

@@ -1,12 +1,12 @@
 ---
 UID: NF:msacm.acmFilterChooseW
 title: acmFilterChooseW function (msacm.h)
-description: The acmFilterChoose function creates an ACM-defined dialog box that enables the user to select a waveform-audio filter. (acmFilterChooseW)
+description: The acmFilterChoose (Unicode) function creates an ACM-defined dialog box that enables the user to select a waveform-audio filter. (acmFilterChooseW)
 helpviewer_keywords: ["_win32_acmFilterChoose","acmFilterChoose","acmFilterChoose function [Windows Multimedia]","acmFilterChooseA","acmFilterChooseW","msacm/acmFilterChoose","msacm/acmFilterChooseA","msacm/acmFilterChooseW","multimedia.acmfilterchoose"]
 old-location: multimedia\acmfilterchoose.htm
 tech.root: Multimedia
 ms.assetid: 9d8f659f-46f7-4399-a538-24c887c0fbee
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: _win32_acmFilterChoose, acmFilterChoose, acmFilterChoose function [Windows Multimedia], acmFilterChooseA, acmFilterChooseW, msacm/acmFilterChoose, msacm/acmFilterChooseA, msacm/acmFilterChooseW, multimedia.acmfilterchoose
 req.header: msacm.h
 req.include-header: 

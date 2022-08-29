@@ -2,9 +2,9 @@
 UID: NF:oleidl.CLIPFORMAT_UserUnmarshal64
 tech.root: com
 title: CLIPFORMAT_UserUnmarshal64 (oleidl.h)
-ms.date: 07/08/2022
+ms.date: 08/15/2022
 targetos: Windows
-description: Unmarshals a CLIPFORMAT object from the RPC buffer.
+description: The CLIPFORMAT_UserUnmarshal64 function (oleidl.h) unmarshals a CLIPFORMAT object from the RPC buffer.
 prerelease: false
 req.assembly: 
 req.construct-type: function

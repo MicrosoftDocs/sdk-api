@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Gets and sets a <a href="/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ServerSelection</a> value that indicates the server to search for updates.
+Gets and sets a <a href="https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/wuapicommon/ne-wuapicommon-serverselection.md">ServerSelection</a> value that indicates the server to search for updates.
 
 This property is read/write.
 

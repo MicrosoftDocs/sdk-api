@@ -1,9 +1,9 @@
 ---
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleSessionCallbacks.KeyStatusChanged
 title: IMFContentDecryptionModuleSessionCallbacks::KeyStatusChanged
-ms.date: 11/26/2019
+ms.date: 08/05/2022
 targetos: Windows
-description: 
+description: The IMFContentDecryptionModuleSessionCallbacks::KeyStatusChanged function is called when there has been a change in the keys in the Content Decryption Module (CDM) session or their status.
 tech.root: mf
 req.assembly: 
 req.construct-type: function

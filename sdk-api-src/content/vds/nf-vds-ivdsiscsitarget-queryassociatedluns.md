@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.QueryAssociatedLuns
 title: IVdsIscsiTarget::QueryAssociatedLuns (vds.h)
-description: Returns a enumeration of the LUNs associated with the target. (IVdsIscsiTarget.QueryAssociatedLuns)
+description: The IVdsIscsiTarget::QueryAssociatedLuns method (vds.h) returns a enumeration of the LUNs associated with the target.
 helpviewer_keywords: ["IVdsIscsiTarget interface [VDS]","QueryAssociatedLuns method","IVdsIscsiTarget.QueryAssociatedLuns","IVdsIscsiTarget::QueryAssociatedLuns","QueryAssociatedLuns","QueryAssociatedLuns method [VDS]","QueryAssociatedLuns method [VDS]","IVdsIscsiTarget interface","base.ivdsiscsitarget_queryassociatedluns","vds/IVdsIscsiTarget::QueryAssociatedLuns","vdshwprv/IVdsIscsiTarget::QueryAssociatedLuns"]
 old-location: base\ivdsiscsitarget_queryassociatedluns.htm
 tech.root: base
 ms.assetid: 3f375c0b-7400-4660-8cb1-5291fd0dd52c
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsIscsiTarget interface [VDS],QueryAssociatedLuns method, IVdsIscsiTarget.QueryAssociatedLuns, IVdsIscsiTarget::QueryAssociatedLuns, QueryAssociatedLuns, QueryAssociatedLuns method [VDS], QueryAssociatedLuns method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_queryassociatedluns, vds/IVdsIscsiTarget::QueryAssociatedLuns, vdshwprv/IVdsIscsiTarget::QueryAssociatedLuns
 req.header: vds.h
 req.include-header: 

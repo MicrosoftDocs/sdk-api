@@ -41,6 +41,7 @@ api_type:
  - DllExport
 api_location:
  - DbgHelp.dll
+ - imagehlp.dll
 api_name:
  - StackWalk64
  - StackWalk

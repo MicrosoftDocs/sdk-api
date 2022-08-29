@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsLun.QueryHints
 title: IVdsLun::QueryHints (vds.h)
-description: Returns the hints currently applied to the LUN. (IVdsLun.QueryHints)
+description: The IVdsLun::QueryHints method (vds.h) returns the hints currently applied to the LUN.
 helpviewer_keywords: ["IVdsLun interface [VDS]","QueryHints method","IVdsLun.QueryHints","IVdsLun::QueryHints","QueryHints","QueryHints method [VDS]","QueryHints method [VDS]","IVdsLun interface","base.ivdslun_queryhints","vds/IVdsLun::QueryHints","vdshwprv/IVdsLun::QueryHints"]
 old-location: base\ivdslun_queryhints.htm
 tech.root: base
 ms.assetid: 6cdbbf17-fcee-4cd4-bf5c-d994886262da
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsLun interface [VDS],QueryHints method, IVdsLun.QueryHints, IVdsLun::QueryHints, QueryHints, QueryHints method [VDS], QueryHints method [VDS],IVdsLun interface, base.ivdslun_queryhints, vds/IVdsLun::QueryHints, vdshwprv/IVdsLun::QueryHints
 req.header: vds.h
 req.include-header: 

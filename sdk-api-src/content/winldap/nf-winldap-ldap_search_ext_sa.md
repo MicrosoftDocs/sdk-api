@@ -149,7 +149,7 @@ The
 
 Use the 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a> function with the <i>ld</i> session handle to set the <b>LDAP_OPT_DEREF</b> option that determine how the search is performed. For more information, see 
-<a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">Session Options</a>. Two other search options, <b>LDAP_OPT_SIZELIMIT</b> and <b>LDAP_OPT_TIMELIMIT</b>, are ignored in favor of the <i>SizeLimit</i> and <i>TimeLimit</i> option parameters in this function.
+<a href="/previous-versions/windows/desktop/ldap/session-options">Session Options</a>. Two other search options, <b>LDAP_OPT_SIZELIMIT</b> and <b>LDAP_OPT_TIMELIMIT</b>, are ignored in favor of the <i>SizeLimit</i> and <i>TimeLimit</i> option parameters in this function.
 
 Upon completion of the search operation, <b>ldap_search_ext_s</b> returns to the caller. Use 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext">ldap_search_ext</a> to have the operation performed asynchronously.
@@ -227,7 +227,7 @@ else
 
 
 
-<a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">Session Options</a>
+<a href="/previous-versions/windows/desktop/ldap/session-options">Session Options</a>
 
 
 

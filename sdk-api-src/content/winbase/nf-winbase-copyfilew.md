@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.CopyFileW
 title: CopyFileW function (winbase.h)
-description: Copies an existing file to a new file. (CopyFileW)
+description: The CopyFileW (Unicode) function (winbase.h) copies an existing file to a new file.
 helpviewer_keywords: ["CopyFile","CopyFile function [Files]","CopyFileA","CopyFileW","_win32_copyfile","base.copyfile","fs.copyfile","winbase/CopyFile","winbase/CopyFileA","winbase/CopyFileW"]
 old-location: fs\copyfile.htm
 tech.root: fs
 ms.assetid: 2c8ad002-cef4-499c-acda-c162205f6a8d
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: CopyFile, CopyFile function [Files], CopyFileA, CopyFileW, _win32_copyfile, base.copyfile, fs.copyfile, winbase/CopyFile, winbase/CopyFileA, winbase/CopyFileW
 req.header: winbase.h
 req.include-header: Windows.h

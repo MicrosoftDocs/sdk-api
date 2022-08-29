@@ -1,12 +1,12 @@
 ---
 UID: NF:mfobjects.IMFPluginControl.GetPreferredClsidByIndex
 title: IMFPluginControl::GetPreferredClsidByIndex (mfobjects.h)
-description: Gets a class identifier (CLSID) from the preferred list, specified by index value.
+description: The IMFPluginControl::GetPreferredClsidByIndex (mfobjects.h) method gets a class identifier (CLSID) from the preferred list, specified by index value.
 helpviewer_keywords: ["GetPreferredClsidByIndex","GetPreferredClsidByIndex method [Media Foundation]","GetPreferredClsidByIndex method [Media Foundation]","IMFPluginControl interface","IMFPluginControl interface [Media Foundation]","GetPreferredClsidByIndex method","IMFPluginControl.GetPreferredClsidByIndex","IMFPluginControl::GetPreferredClsidByIndex","mf.imfplugincontrol_imfplugincontrol__getpreferredclsidbyindex","mfobjects/IMFPluginControl::GetPreferredClsidByIndex"]
 old-location: mf\imfplugincontrol_imfplugincontrol__getpreferredclsidbyindex.htm
 tech.root: medfound
 ms.assetid: d99511ec-ac22-4166-b944-b0136ffcf01a
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: GetPreferredClsidByIndex, GetPreferredClsidByIndex method [Media Foundation], GetPreferredClsidByIndex method [Media Foundation],IMFPluginControl interface, IMFPluginControl interface [Media Foundation],GetPreferredClsidByIndex method, IMFPluginControl.GetPreferredClsidByIndex, IMFPluginControl::GetPreferredClsidByIndex, mf.imfplugincontrol_imfplugincontrol__getpreferredclsidbyindex, mfobjects/IMFPluginControl::GetPreferredClsidByIndex
 req.header: mfobjects.h
 req.include-header: Mfidl.h

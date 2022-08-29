@@ -22,7 +22,7 @@ To develop Security and Identity, you need these headers:
  * [azroles.h](../azroles/index.md)
  * [bcrypt.h](../bcrypt/index.md)
  * [casetup.h](../casetup/index.md)
- * [ccplugins.h](../ccplugins/index.md)
+ * [ccplugins.h](/windows/win32/api/Ccgplugins)
  * [celib.h](../celib/index.md)
  * [certadm.h](../certadm/index.md)
  * [certbcli.h](../certbcli/index.md)

@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsController.GetProperties
 title: IVdsController::GetProperties (vdshwprv.h)
-description: Returns the properties of a controller. (IVdsController.GetProperties)
+description: The IVdsController::GetProperties method (vdshwprv.h) returns the properties of a controller. 
 helpviewer_keywords: ["GetProperties","GetProperties method [VDS]","GetProperties method [VDS]","IVdsController interface","IVdsController interface [VDS]","GetProperties method","IVdsController.GetProperties","IVdsController::GetProperties","base.ivdscontroller_getproperties","vds/IVdsController::GetProperties","vdshwprv/IVdsController::GetProperties"]
 old-location: base\ivdscontroller_getproperties.htm
 tech.root: base
 ms.assetid: 37230ac4-45f5-46ba-9a1c-072409e9362c
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsController interface, IVdsController interface [VDS],GetProperties method, IVdsController.GetProperties, IVdsController::GetProperties, base.ivdscontroller_getproperties, vds/IVdsController::GetProperties, vdshwprv/IVdsController::GetProperties
 req.header: vdshwprv.h
 req.include-header: 

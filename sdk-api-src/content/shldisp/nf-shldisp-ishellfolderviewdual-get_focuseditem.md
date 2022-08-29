@@ -56,7 +56,7 @@ Gets the FolderItem object that represents the item that has input focus.
 
 ### -param ppid [out]
 
-Type: <b><a href="/windows/desktop/api/shldisp/nn-shldisp-folderitem">FolderItem</a>**</b>
+Type: <b><a href="/windows/win32/shell/folderitem">FolderItem</a>**</b>
 
 The FolderItem object with input focus.
 

@@ -211,7 +211,7 @@ Certain languages only. Override the normal handling of numerics and treat them 
 </dl>
 </td>
 <td width="60%">
-Arabic/Thai only. Use standard Latin glyphs for numbers and override the system default. To determine if this option is available in the language of the font, use <a href="/windows/desktop/api/winnls/nf-winnls-getstringtypeexa">GetStringTypeEx</a> to see if the language supports more than one number format.
+Arabic/Thai only. Use standard Latin glyphs for numbers and override the system default. To determine if this option is available in the language of the font, use <a href="/previous-versions/ms960831(v%3dmsdn.10)">GetStringTypeEx</a> to see if the language supports more than one number format.
 
 </td>
 </tr>
@@ -221,7 +221,7 @@ Arabic/Thai only. Use standard Latin glyphs for numbers and override the system 
 </dl>
 </td>
 <td width="60%">
-Arabic/Thai only. Use local glyphs for numeric characters and override the system default. To determine if this option is available in the language of the font, use <a href="/windows/desktop/api/winnls/nf-winnls-getstringtypeexa">GetStringTypeEx</a> to see if the language supports more than one number format.
+Arabic/Thai only. Use local glyphs for numeric characters and override the system default. To determine if this option is available in the language of the font, use <a href="/previous-versions/ms960831(v%3dmsdn.10)">GetStringTypeEx</a> to see if the language supports more than one number format.
 
 </td>
 </tr>
@@ -330,7 +330,7 @@ If the logical width is less than the width of the leading character in the inpu
 
 
 
-<a href="/windows/desktop/api/winnls/nf-winnls-getstringtypeexa">GetStringTypeEx</a>
+<a href="/previous-versions/ms960831(v%3dmsdn.10)">GetStringTypeEx</a>
 
 
 

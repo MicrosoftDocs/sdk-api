@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.data.pdf.interop.IPdfRendererNative.RenderPageToDeviceContext
 title: IPdfRendererNative::RenderPageToDeviceContext (windows.data.pdf.interop.h)
-description: Outputs a single page of a Portable Document Format (PDF) file as a bitmap image.
+description: The IPdfRendererNative::RenderPageToDeviceContext method outputs a single page of a Portable Document Format (PDF) file as a bitmap image.
 helpviewer_keywords: ["IPdfRendererNative interface [Windows Runtime]","RenderPageToDeviceContext method","IPdfRendererNative.RenderPageToDeviceContext","IPdfRendererNative.pdf","IPdfRendererNative::RenderPageToDeviceContext","IPdfRendererNative::pdf","RenderPageToDeviceContext","RenderPageToDeviceContext method [Windows Runtime]","RenderPageToDeviceContext method [Windows Runtime]","IPdfRendererNative interface","windows/IPdfRendererNative::RenderPageToDeviceContext","winrt.ipdfrenderernative_renderpagetodevicecontext"]
 old-location: winrt\ipdfrenderernative_renderpagetodevicecontext.htm
 tech.root: WinRT
 ms.assetid: 5ec97d21-3160-48e7-9486-a8ea9ca9df92
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: IPdfRendererNative interface [Windows Runtime],RenderPageToDeviceContext method, IPdfRendererNative.RenderPageToDeviceContext, IPdfRendererNative.pdf, IPdfRendererNative::RenderPageToDeviceContext, IPdfRendererNative::pdf, RenderPageToDeviceContext, RenderPageToDeviceContext method [Windows Runtime], RenderPageToDeviceContext method [Windows Runtime],IPdfRendererNative interface, windows/IPdfRendererNative::RenderPageToDeviceContext, winrt.ipdfrenderernative_renderpagetodevicecontext
 req.header: windows.data.pdf.interop.h
 req.include-header: 
@@ -56,7 +56,7 @@ Outputs a single page of a Portable Document Format (PDF) file as a bitmap image
 
 ### -param pdfPage [in]
 
-The <b>IPdfPage</b> interface as an instance of the <a href="/dotnet/api/pdfkit.pdfpage?view=xamarin-ios-sdk-12">PdfPage</a> class,  type-casted to the <b>IUnknown</b> interface, representing the page to be output.
+The <b>IPdfPage</b> interface as an instance of the <a href="/dotnet/api/pdfkit.pdfpage?view=xamarin-ios-sdk-12&preserve-view=true">PdfPage</a> class,  type-casted to the <b>IUnknown</b> interface, representing the page to be output.
 
 ### -param pD2DDeviceContext [in]
 

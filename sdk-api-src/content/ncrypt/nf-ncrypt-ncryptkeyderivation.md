@@ -60,7 +60,7 @@ Handle of the key derivation function (KDF) key.
 
 ### -param pParameterList [in]
 
-The address of a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc">NCryptBufferDesc</a> structure that contains the KDF parameters. The parameters can be specific to a KDF or generic. The following table shows the required and optional parameters for specific KDFs implemented by the Microsoft software key storage provider.
+The address of a <a href="/windows/win32/api/bcrypt/ns-bcrypt-bcryptbufferdesc">NCryptBufferDesc</a> structure that contains the KDF parameters. The parameters can be specific to a KDF or generic. The following table shows the required and optional parameters for specific KDFs implemented by the Microsoft software key storage provider.
 
 <table>
 <tr>

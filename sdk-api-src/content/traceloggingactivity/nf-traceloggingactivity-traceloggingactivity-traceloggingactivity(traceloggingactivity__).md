@@ -70,7 +70,7 @@ api_name:
 ## -description
 
 Creates a new
-[TraceLoggingActivity](nl-traceloggingactivity-traceloggingactivity~r1.md)
+[TraceLoggingActivity](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity)
 object.
 
 **TraceLoggingActivity** is a class template.
@@ -95,4 +95,4 @@ Template parameters are:
 
 ## -see-also
 
-[TraceLoggingActivity](nl-traceloggingactivity-traceloggingactivity~r1.md)
+[TraceLoggingActivity](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity)

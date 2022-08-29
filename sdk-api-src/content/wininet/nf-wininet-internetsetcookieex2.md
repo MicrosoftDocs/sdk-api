@@ -70,7 +70,7 @@ Flags for the cookie to be set. The following flags are available.
 
 ### -param pdwCookieState
 
-Pointer to a DWORD that receives the result of setting the cookie. For a list of possible values, see [InternetCookieState](/windows/desktop/wininet/ne-wininet.internetcookiestate).
+Pointer to a DWORD that receives the result of setting the cookie. For a list of possible values, see [InternetCookieState](/windows/win32/api/wininet/ne-wininet-internetcookiestate).
 
 ## -returns
 

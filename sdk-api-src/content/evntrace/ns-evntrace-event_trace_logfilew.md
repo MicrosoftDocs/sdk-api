@@ -1,10 +1,7 @@
 ---
 UID: NS:evntrace._EVENT_TRACE_LOGFILEW
 title: EVENT_TRACE_LOGFILEW (evntrace.h)
-description:
-  The EVENT_TRACE_LOGFILE structure stores information about a trace data
-  source. It is used by trace consumers when calling OpenTrace and when
-  receiving trace data via the user-defined BufferCallback.
+description: The EVENT_TRACE_LOGFILEW (Unicode) structure (evntrace.h) stores information about a trace data source.
 helpviewer_keywords:
   [
     "*PEVENT_TRACE_LOGFILEW",
@@ -30,7 +27,7 @@ helpviewer_keywords:
 old-location: etw\event_trace_logfile.htm
 tech.root: ETW
 ms.assetid: 179451e9-7e3c-4d3a-bcc6-3ad9d382229a
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords:
   "*PEVENT_TRACE_LOGFILEW, EVENT_TRACE_LOGFILE, EVENT_TRACE_LOGFILE structure
   [ETW], EVENT_TRACE_LOGFILEA, EVENT_TRACE_LOGFILEW, PEVENT_TRACE_LOGFILE,

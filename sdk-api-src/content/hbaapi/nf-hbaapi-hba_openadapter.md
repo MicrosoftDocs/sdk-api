@@ -2,9 +2,9 @@
 UID: NF:hbaapi.HBA_OpenAdapter
 tech.root: hba
 title: HBA_OpenAdapter
-ms.date: 
+ms.date: 08/02/2022
 targetos: Windows
-description: 
+description: Opens a host bus adapter (HBA), and returns its handle.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,13 +44,18 @@ helpviewer_keywords:
 
 ## -description
 
+Opens a host bus adapter (HBA), and returns its handle.
+
 ## -parameters
 
 ### -param AdapterName
 
+The name of the HBA to open.
+
 ## -returns
+
+A handle to the open HBA.
 
 ## -remarks
 
 ## -see-also
-

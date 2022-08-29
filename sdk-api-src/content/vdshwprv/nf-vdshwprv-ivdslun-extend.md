@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsLun.Extend
 title: IVdsLun::Extend (vdshwprv.h)
-description: Extends a LUN by a specified number of bytes. (IVdsLun.Extend)
+description: The IVdsLun::Extend (vdshwprv.h) method extends a LUN by a specified number of bytes.
 helpviewer_keywords: ["Extend","Extend method [VDS]","Extend method [VDS]","IVdsLun interface","IVdsLun interface [VDS]","Extend method","IVdsLun.Extend","IVdsLun::Extend","base.ivdslun_extend","vds/IVdsLun::Extend","vdshwprv/IVdsLun::Extend"]
 old-location: base\ivdslun_extend.htm
 tech.root: base
 ms.assetid: 65520b6a-206a-4b90-b8cc-b7964d0cf102
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: Extend, Extend method [VDS], Extend method [VDS],IVdsLun interface, IVdsLun interface [VDS],Extend method, IVdsLun.Extend, IVdsLun::Extend, base.ivdslun_extend, vds/IVdsLun::Extend, vdshwprv/IVdsLun::Extend
 req.header: vdshwprv.h
 req.include-header: 

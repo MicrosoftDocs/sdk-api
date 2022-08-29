@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystemIscsi.QueryPortals
 title: IVdsSubSystemIscsi::QueryPortals (vdshwprv.h)
-description: Returns an object that enumerates the iSCSI portals of the subsystem. (IVdsSubSystemIscsi.QueryPortals)
+description: The IVdsSubSystemIscsi::QueryPortals (vdshwprv.h) method returns an object that enumerates the iSCSI portals of the subsystem.
 helpviewer_keywords: ["IVdsSubSystemIscsi interface [VDS]","QueryPortals method","IVdsSubSystemIscsi.QueryPortals","IVdsSubSystemIscsi::QueryPortals","QueryPortals","QueryPortals method [VDS]","QueryPortals method [VDS]","IVdsSubSystemIscsi interface","base.ivdssubsystemiscsi_queryportals","vds/IVdsSubSystemIscsi::QueryPortals","vdshwprv/IVdsSubSystemIscsi::QueryPortals"]
 old-location: base\ivdssubsystemiscsi_queryportals.htm
 tech.root: base
 ms.assetid: 277cc256-ac9d-4a4c-b154-ba611c08db9f
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsSubSystemIscsi interface [VDS],QueryPortals method, IVdsSubSystemIscsi.QueryPortals, IVdsSubSystemIscsi::QueryPortals, QueryPortals, QueryPortals method [VDS], QueryPortals method [VDS],IVdsSubSystemIscsi interface, base.ivdssubsystemiscsi_queryportals, vds/IVdsSubSystemIscsi::QueryPortals, vdshwprv/IVdsSubSystemIscsi::QueryPortals
 req.header: vdshwprv.h
 req.include-header: 

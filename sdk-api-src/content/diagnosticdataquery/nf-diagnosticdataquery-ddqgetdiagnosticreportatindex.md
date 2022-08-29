@@ -57,7 +57,7 @@ The index of the error report to fetch.
 
 ### -param report
 
-Type: **[DIAGNOSTIC_DATA_REPORT_DATA\*](/windows/win32/api/diagnosticdataquery/ns-diagnosticdataquerytypes-diagnostic_report_data)**
+Type: **[DIAGNOSTIC_DATA_REPORT_DATA\*](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_report_data)**
 This output parameter is a pointer to the resource that contains information about the fetched diagnostic report.
 
 ## -returns

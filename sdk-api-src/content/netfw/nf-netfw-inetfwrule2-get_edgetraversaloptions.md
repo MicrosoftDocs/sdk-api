@@ -64,4 +64,4 @@ This property is read/write.
 
 
 
-<a href="//windows/win32/api/icftypes/ne-icftypes-net_fw_edge_traversal_type">NET_FW_EDGE_TRAVERSAL_TYPE</a>
+<a href="/windows/win32/api/icftypes/ne-icftypes-net_fw_edge_traversal_type">NET_FW_EDGE_TRAVERSAL_TYPE</a>

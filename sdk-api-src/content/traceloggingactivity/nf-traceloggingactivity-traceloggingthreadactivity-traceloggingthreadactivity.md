@@ -67,7 +67,7 @@ api_name:
 ## -description
 
 Initializes a new instance of the
-[TraceLoggingThreadActivity](nl-traceloggingactivity-traceloggingactivity~r1.md)
+[TraceLoggingThreadActivity](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity)
 class.
 
 **TraceLoggingThreadActivity** is a class template.
@@ -86,6 +86,6 @@ Template parameters are:
 
 ## -see-also
 
-[TraceLoggingActivity](nl-traceloggingactivity-traceloggingactivity~r1.md)
+[TraceLoggingActivity](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity)
 
-[TraceLoggingThreadActivity](nl-traceloggingactivity-traceloggingthreadactivity.md)
+[TraceLoggingThreadActivity](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity)

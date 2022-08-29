@@ -184,7 +184,7 @@ I/O operations that are canceled complete with the error <b>ERROR_OPERATION_ABOR
 The <b>WriteFile</b> function may fail with 
     <b>ERROR_NOT_ENOUGH_QUOTA</b>, which means the calling process's buffer could not be 
     page-locked. For more information, see 
-    <a href="/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a>.
+    <a href="/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsize">SetProcessWorkingSetSize</a>.
 
 If part of the file is locked by another process and the write operation overlaps the locked portion, 
     <b>WriteFile</b> fails.

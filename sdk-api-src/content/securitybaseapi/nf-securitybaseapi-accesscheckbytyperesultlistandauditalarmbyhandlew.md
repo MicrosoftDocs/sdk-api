@@ -2,9 +2,9 @@
 UID: NF:securitybaseapi.AccessCheckByTypeResultListAndAuditAlarmByHandleW
 tech.root: security 
 title: AccessCheckByTypeResultListAndAuditAlarmByHandleW
-ms.date: 04/20/2021
+ms.date: 08/16/2022
 targetos: Windows
-description: Determines whether a security descriptor grants a specified set of access rights to the client that the calling thread is impersonating.  
+description: The AccessCheckByTypeResultListAndAuditAlarmByHandleW (Unicode) function (securitybaseapi.h) determines whether a security descriptor grants access rights to the client that the calling thread is impersonating.  
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

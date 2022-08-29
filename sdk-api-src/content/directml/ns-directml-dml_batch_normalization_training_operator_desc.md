@@ -2,9 +2,9 @@
 UID: NS:directml.DML_BATCH_NORMALIZATION_TRAINING_OPERATOR_DESC
 tech.root: directml
 title: DML_BATCH_NORMALIZATION_TRAINING_OPERATOR_DESC
-ms.date: 07/22/2022
+ms.date: 08/12/2022
 targetos: Windows
-description: Performs a batch normalization on the input.
+description: The DML_BATCH_NORMALIZATION_TRAINING_OPERATOR_DESC structure (directml.h) performs a batch normalization on the input.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

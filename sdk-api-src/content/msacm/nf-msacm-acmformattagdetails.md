@@ -1,12 +1,12 @@
 ---
 UID: NF:msacm.acmFormatTagDetails
 title: acmFormatTagDetails function (msacm.h)
-description: The acmFormatTagDetails function queries the ACM for details on a specific waveform-audio format tag. (acmFormatTagDetailsW)
+description: The acmFormatTagDetails function queries the ACM for details on a specific waveform-audio format tag.
 helpviewer_keywords: ["_win32_acmFormatTagDetails","acmFormatTagDetails","acmFormatTagDetails function [Windows Multimedia]","acmFormatTagDetailsA","acmFormatTagDetailsW","msacm/acmFormatTagDetails","msacm/acmFormatTagDetailsA","msacm/acmFormatTagDetailsW","multimedia.acmformattagdetails"]
 old-location: multimedia\acmformattagdetails.htm
 tech.root: Multimedia
 ms.assetid: 294d9e8b-de47-4ebe-8989-558469ba1356
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: _win32_acmFormatTagDetails, acmFormatTagDetails, acmFormatTagDetails function [Windows Multimedia], acmFormatTagDetailsA, acmFormatTagDetailsW, msacm/acmFormatTagDetails, msacm/acmFormatTagDetailsA, msacm/acmFormatTagDetailsW, multimedia.acmformattagdetails
 req.header: msacm.h
 req.include-header: 

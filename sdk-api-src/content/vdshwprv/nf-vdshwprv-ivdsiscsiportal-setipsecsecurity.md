@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortal.SetIpsecSecurity
 title: IVdsIscsiPortal::SetIpsecSecurity (vdshwprv.h)
-description: Not supported.This method is reserved for future use. (IVdsIscsiPortal.SetIpsecSecurity)
+description: The IVdsIscsiPortal::SetIpsecSecurity (vdshwprv.h) method is not supported and is reserved for future use.
 helpviewer_keywords: ["IVdsIscsiPortal interface [VDS]","SetIpsecSecurity method","IVdsIscsiPortal.SetIpsecSecurity","IVdsIscsiPortal::SetIpsecSecurity","SetIpsecSecurity","SetIpsecSecurity method [VDS]","SetIpsecSecurity method [VDS]","IVdsIscsiPortal interface","base.ivdsiscsiportal_setipsecsecurity","vds/IVdsIscsiPortal::SetIpsecSecurity","vdshwprv/IVdsIscsiPortal::SetIpsecSecurity"]
 old-location: base\ivdsiscsiportal_setipsecsecurity.htm
 tech.root: base
 ms.assetid: 73209e3c-f1c9-411e-b272-4d4a2b168824
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsIscsiPortal interface [VDS],SetIpsecSecurity method, IVdsIscsiPortal.SetIpsecSecurity, IVdsIscsiPortal::SetIpsecSecurity, SetIpsecSecurity, SetIpsecSecurity method [VDS], SetIpsecSecurity method [VDS],IVdsIscsiPortal interface, base.ivdsiscsiportal_setipsecsecurity, vds/IVdsIscsiPortal::SetIpsecSecurity, vdshwprv/IVdsIscsiPortal::SetIpsecSecurity
 req.header: vdshwprv.h
 req.include-header: 

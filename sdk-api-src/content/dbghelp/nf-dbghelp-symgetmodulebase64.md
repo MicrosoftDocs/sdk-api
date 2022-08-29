@@ -41,6 +41,7 @@ api_type:
  - DllExport
 api_location:
  - Dbghelp.dll
+ - imagehlp.dll
 api_name:
  - SymGetModuleBase64
  - SymGetModuleBase

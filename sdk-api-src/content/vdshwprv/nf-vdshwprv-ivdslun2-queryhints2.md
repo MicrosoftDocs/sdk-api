@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsLun2.QueryHints2
 title: IVdsLun2::QueryHints2 (vdshwprv.h)
-description: Returns the hints currently applied to the LUN. This method is identical to the IVdsLun::QueryHints method, except that it uses a VDS_HINTS2 structure instead of a VDS_HINTS structure. (IVdsLun2.QueryHints2)
+description: The IVdsLun2::QueryHints2 (vdshwprv.h) method returns the hints currently applied to the LUN. This method is identical to the IVdsLun::QueryHints method.
 helpviewer_keywords: ["IVdsLun2 interface","QueryHints2 method","IVdsLun2.QueryHints2","IVdsLun2::QueryHints2","QueryHints2","QueryHints2 method","QueryHints2 method","IVdsLun2 interface","base.ivdslun2_queryhints2","vds/IVdsLun2::QueryHints2","vdshwprv/IVdsLun2::QueryHints2"]
 old-location: base\ivdslun2_queryhints2.htm
 tech.root: base
 ms.assetid: 077d200a-2eab-4dbe-b7b9-873061fa2c4b
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsLun2 interface,QueryHints2 method, IVdsLun2.QueryHints2, IVdsLun2::QueryHints2, QueryHints2, QueryHints2 method, QueryHints2 method,IVdsLun2 interface, base.ivdslun2_queryhints2, vds/IVdsLun2::QueryHints2, vdshwprv/IVdsLun2::QueryHints2
 req.header: vdshwprv.h
 req.include-header: 

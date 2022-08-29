@@ -2,7 +2,8 @@
 UID: NS:processthreadsapi._APC_CALLBACK_DATA
 tech.root: 
 title: APC_CALLBACK_DATA
-ms.date: 
+description: The APC_CALLBACK_DATA structure (processthreadsapi.h) specifies the data for a user-mode asynchronous procedure call (APC) object.
+ms.date: 08/05/2022
 targetos: Windows
 description: 
 prerelease: false

@@ -2,9 +2,9 @@
 UID: NF:namedpipeapi.GetNamedPipeHandleStateW
 tech.root: base 
 title: GetNamedPipeHandleStateW
-ms.date: 04/20/2021
+ms.date: 08/05/2022
 targetos: Windows
-description: Retrieves information about a specified named pipe. 
+description: The GetNamedPipeHandleStateW (Unicode) function (winbase.h) retrieves information about a specified named pipe. 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

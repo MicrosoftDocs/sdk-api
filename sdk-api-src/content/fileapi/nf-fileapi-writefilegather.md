@@ -200,7 +200,7 @@ If there is a transaction bound to the file handle, then the operation is transa
 
 
 
-<a href="/windows/desktop/api/winnt/ns-winnt-_file_segment_element">FILE_SEGMENT_ELEMENT</a>
+<a href="https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/winnt/ns-winnt-file_segment_element.md">FILE_SEGMENT_ELEMENT</a>
 
 
 

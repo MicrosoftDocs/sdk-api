@@ -1,12 +1,12 @@
 ---
 UID: NS:winsock.fd_set
 title: fd_set (winsock.h)
-description: Fd_set structure is used by Windows Sockets (Winsock) functions and service providers to place sockets into a set. (fd_set)
+description: The fd_set structure (winsock.h) is used by Windows Sockets (Winsock) functions and service providers to place sockets into a set.  
 helpviewer_keywords: ["*LPFD_SET","*PFD_SET","FD_SET","_win32_fd_set_2","fd_set","fd_set structure [Winsock]","winsock.fd_set_2","winsock/fd_set"]
 old-location: winsock\fd_set_2.htm
 tech.root: WinSock
 ms.assetid: 2af5d69d-190e-4814-8d8b-438431808625
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: '*LPFD_SET, *PFD_SET, FD_SET, _win32_fd_set_2, fd_set, fd_set structure [Winsock], winsock.fd_set_2, winsock/fd_set'
 req.header: winsock.h
 req.include-header: Winsock2.h, Winsock.h

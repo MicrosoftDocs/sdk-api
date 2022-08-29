@@ -2,9 +2,9 @@
 UID: NF:oleidl.CLIPFORMAT_UserMarshal
 tech.root: com
 title: CLIPFORMAT_UserMarshal function (oleidl.h)
-ms.date: 07/08/2022
+ms.date: 08/15/2022
 targetos: Windows
-description: Marshals a CLIPFORMAT object into the RPC buffer.
+description: The CLIPFORMAT_UserMarshal function (oleidl.h) marshals a CLIPFORMAT object into the RPC buffer.
 prerelease: false
 req.assembly: 
 req.construct-type: function

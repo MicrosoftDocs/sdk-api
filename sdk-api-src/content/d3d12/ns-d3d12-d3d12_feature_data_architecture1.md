@@ -6,7 +6,7 @@ helpviewer_keywords: ["D3D12_FEATURE_DATA_ARCHITECTURE1","D3D12_FEATURE_DATA_ARC
 old-location: direct3d12\d3d12_feature_data_architecture1.htm
 tech.root: direct3d12
 ms.assetid: 635091FE-2756-4648-958E-0C13BDD50851
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: D3D12_FEATURE_DATA_ARCHITECTURE1, D3D12_FEATURE_DATA_ARCHITECTURE1 structure, d3d12/D3D12_FEATURE_DATA_ARCHITECTURE1, direct3d12.d3d12_feature_data_architecture1
 req.header: d3d12.h
 req.include-header: 
@@ -78,7 +78,7 @@ Specifies whether the hardware and driver support cache-coherent UMA.
 
 ### -field IsolatedMMU
 
-<a href="/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_Out_</code>
+<a href="/visualstudio/code-quality/annotating-structs-and-classes">SAL</a>: <code>_Out_</code>
 
 Specifies whether the hardware and driver support isolated Memory Management Unit (MMU).
             The runtime sets this member to <b>TRUE</b> if the GPU honors CPU page table properties like <b>MEM_WRITE_WATCH</b> (for more information, see <a href="/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>) and <b>PAGE_READONLY</b> (for more information, see <a href="/windows/win32/Memory/memory-protection-constants">Memory Protection Constants</a>).

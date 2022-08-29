@@ -1,12 +1,12 @@
 ---
 UID: NF:winineti.PrivacySetZonePreferenceW
 title: PrivacySetZonePreferenceW function (winineti.h)
-description: Sets the privacy settings for a given URLZONE and PrivacyType. (PrivacySetZonePreferenceW)
+description: The PrivacySetZonePreferenceW function (winineti.h) sets the privacy settings for a given URLZONE and PrivacyType.
 helpviewer_keywords: ["PrivacySetZonePreferenceW","PrivacySetZonePreferenceW function [WinINet]","wininet.privacysetzonepreferencew","winineti/PrivacySetZonePreferenceW"]
 old-location: wininet\privacysetzonepreferencew.htm
 tech.root: wininet
 ms.assetid: 29c8dbc0-052e-40f4-a036-cb647d920055
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: PrivacySetZonePreferenceW, PrivacySetZonePreferenceW function [WinINet], wininet.privacysetzonepreferencew, winineti/PrivacySetZonePreferenceW
 req.header: winineti.h
 req.include-header: Wininet.h
@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Sets the privacy settings for a given <a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone?view=visualstudiosdk-2017">URLZONE</a> and <a href="/windows/desktop/WinInet/privacy-type">PrivacyType</a>.
+Sets the privacy settings for a given <a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone">URLZONE</a> and <a href="/windows/desktop/WinInet/privacy-type">PrivacyType</a>.
 
 ## -parameters
 
 ### -param dwZone [in]
 
-Value of type <b>DWORD</b> that specifies the <a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone?view=visualstudiosdk-2017">URLZONE</a> for which privacy settings are being set.
+Value of type <b>DWORD</b> that specifies the <a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone">URLZONE</a> for which privacy settings are being set.
 
 ### -param dwType [in]
 
@@ -79,9 +79,9 @@ Returns zero if successful. Otherwise, one of the errors defined in winerr.h is 
 
 These privacy settings for the Internet zone are found on the <b>Privacy</b> tab of the <b>Internet Options</b> dialog box.
 
-Setting the privacy options for the <a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone?view=visualstudiosdk-2017">URLZONE_INTERNET</a> involves setting the <a href="/windows/desktop/WinInet/privacy-templates">privacy templates</a> for both <a href="/windows/desktop/WinInet/privacy-type">PrivacyTypes</a>. The slider on the <b>Privacy</b> Menu in <b>Internet Options</b> only moves if privacy is set for both <b>PrivacyTypes</b>.
+Setting the privacy options for the <a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone">URLZONE_INTERNET</a> involves setting the <a href="/windows/desktop/WinInet/privacy-templates">privacy templates</a> for both <a href="/windows/desktop/WinInet/privacy-type">PrivacyTypes</a>. The slider on the <b>Privacy</b> Menu in <b>Internet Options</b> only moves if privacy is set for both <b>PrivacyTypes</b>.
 
-Custom privacy preferences for a given <a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone?view=visualstudiosdk-2017">URLZONE</a> and <a href="/windows/desktop/WinInet/privacy-type">PrivacyType</a> can be set through the <i>pszPreference</i> parameter. The <i>pszPreference</i> parameter can contain a series of rules separated by white space describing the privacy preferences. It is important to note that the rules themselves cannot contain white space. The <i>pszPreference</i> has the following structure where there can be multiple logical rules: &lt;<i>signature</i>&gt; &lt;<i>logical-rule</i>&gt; &lt;<i>special-rule</i>&gt;.
+Custom privacy preferences for a given <a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone">URLZONE</a> and <a href="/windows/desktop/WinInet/privacy-type">PrivacyType</a> can be set through the <i>pszPreference</i> parameter. The <i>pszPreference</i> parameter can contain a series of rules separated by white space describing the privacy preferences. It is important to note that the rules themselves cannot contain white space. The <i>pszPreference</i> has the following structure where there can be multiple logical rules: &lt;<i>signature</i>&gt; &lt;<i>logical-rule</i>&gt; &lt;<i>special-rule</i>&gt;.
 
 Currently, the signature must be set to IE6-P3PSettings/V1:.
 

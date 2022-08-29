@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsStoragePool.GetAttributes
 title: IVdsStoragePool::GetAttributes (vds.h)
-description: Returns the attributes of a storage pool. (IVdsStoragePool.GetAttributes)
+description: The IVdsStoragePool::GetAttributes method (vds.h) returns the attributes of a storage pool.
 helpviewer_keywords: ["GetAttributes","GetAttributes method","GetAttributes method","IVdsStoragePool interface","IVdsStoragePool interface","GetAttributes method","IVdsStoragePool.GetAttributes","IVdsStoragePool::GetAttributes","base.ivdsstoragepool_getattributes","vds/IVdsStoragePool::GetAttributes","vdshwprv/IVdsStoragePool::GetAttributes"]
 old-location: base\ivdsstoragepool_getattributes.htm
 tech.root: base
 ms.assetid: 44906c1f-ecb2-4701-9392-a9b5924e9d65
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: GetAttributes, GetAttributes method, GetAttributes method,IVdsStoragePool interface, IVdsStoragePool interface,GetAttributes method, IVdsStoragePool.GetAttributes, IVdsStoragePool::GetAttributes, base.ivdsstoragepool_getattributes, vds/IVdsStoragePool::GetAttributes, vdshwprv/IVdsStoragePool::GetAttributes
 req.header: vds.h
 req.include-header: 

@@ -88,8 +88,7 @@ Type: <b>BOOL</b>
 
 ## -remarks
 
-<b>DeleteProfile</b> might fail when passed the security identifier (SID) of the local system account (S-1-5-18). For more information, see <a href="https://support.microsoft.com/kb/890212">KB890212</a>.
-
+<b>DeleteProfile</b> might fail when passed the security identifier (SID) of the local system account (S-1-5-18). 
 
 
 

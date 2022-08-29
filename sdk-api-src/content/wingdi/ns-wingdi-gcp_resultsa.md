@@ -104,7 +104,7 @@ position = lpCaretPos[i];
 
 ### -field lpClass
 
-A pointer to the array that contains and/or receives character classifications. The values indicate how to lay out characters in the string and are similar (but not identical) to the CT_CTYPE2 values returned by the <a href="/windows/desktop/api/winnls/nf-winnls-getstringtypeexa">GetStringTypeEx</a> function. Each element of the array can be set to zero or one of the following values.
+A pointer to the array that contains and/or receives character classifications. The values indicate how to lay out characters in the string and are similar (but not identical) to the CT_CTYPE2 values returned by the <a href="/previous-versions/ms960831(v%3dmsdn.10)">GetStringTypeEx</a> function. Each element of the array can be set to zero or one of the following values.
 
 <table>
 <tr>

@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmEscapeA
 title: ImmEscapeA function (immdev.h)
-description: Accesses capabilities of particular IMEs that are not available through other IME API functions. This function is used mainly for country-specific operations. (ImmEscapeA)
+description: The ImmEscapeA (ANSI) function (immdev.h) accesses capabilities of particular IMEs that are not available through other IME API functions.
 helpviewer_keywords: ["ImmEscape","ImmEscape function [Internationalization for Windows Applications]","ImmEscapeA","ImmEscapeW","_win32_ImmEscape","imm/ImmEscape","imm/ImmEscapeA","imm/ImmEscapeW","intl.immescape"]
 old-location: intl\immescape.htm
 tech.root: Intl
 ms.assetid: f63783a8-9434-4fe4-943c-9383d049f848
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: ImmEscape, ImmEscape function [Internationalization for Windows Applications], ImmEscapeA, ImmEscapeW, _win32_ImmEscape, imm/ImmEscape, imm/ImmEscapeA, imm/ImmEscapeW, intl.immescape
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h

@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsController.SetStatus
 title: IVdsController::SetStatus (vds.h)
-description: Sets the status of a controller to the specified value. (IVdsController.SetStatus)
+description: The IVdsController::SetStatus (vds.h) method sets the status of a controller to the specified value.
 helpviewer_keywords: ["IVdsController interface [VDS]","SetStatus method","IVdsController.SetStatus","IVdsController::SetStatus","SetStatus","SetStatus method [VDS]","SetStatus method [VDS]","IVdsController interface","base.ivdscontroller_setstatus","vds/IVdsController::SetStatus","vdshwprv/IVdsController::SetStatus"]
 old-location: base\ivdscontroller_setstatus.htm
 tech.root: base
 ms.assetid: f9bae451-ef47-46ad-a11e-b7b36a031a8a
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsController interface [VDS],SetStatus method, IVdsController.SetStatus, IVdsController::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsController interface, base.ivdscontroller_setstatus, vds/IVdsController::SetStatus, vdshwprv/IVdsController::SetStatus
 req.header: vds.h
 req.include-header: 

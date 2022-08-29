@@ -2,9 +2,9 @@
 UID: NF:namespaceapi.CreatePrivateNamespaceW
 tech.root: Sync 
 title: CreatePrivateNamespaceW
-ms.date: 04/20/2021
+ms.date: 08/05/2022
 targetos: Windows
-description: Creates a private namespace. 
+description: The CreatePrivateNamespaceW (Unicode) function (namespaceapi.h) creates a private namespace. 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

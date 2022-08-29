@@ -2,9 +2,9 @@
 UID: NF:oleidl.HDC_UserUnmarshal64
 tech.root: com
 title: HDC_UserUnmarshal64 (oleidl.h)
-ms.date: 07/08/2022
+ms.date: 08/15/2022
 targetos: Windows
-description: Unmarshals a HDC object from the RPC buffer.
+description: The HDC_UserUnmarshal64 function (oleidl.h) unmarshals a HDC object from the RPC buffer.
 prerelease: false
 req.assembly: 
 req.construct-type: function
