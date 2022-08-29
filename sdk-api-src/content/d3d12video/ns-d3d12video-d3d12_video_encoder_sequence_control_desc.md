@@ -2,7 +2,8 @@
 UID: NS:d3d12video.D3D12_VIDEO_ENCODER_SEQUENCE_CONTROL_DESC
 tech.root: mf
 title: D3D12_VIDEO_ENCODER_SEQUENCE_CONTROL_DESC
-ms.date: 07/01/2021
+description: The D3D12_VIDEO_ENCODER_SEQUENCE_CONTROL_DESC represents parameters for the input of the video encoding operation at a sequence level.
+ms.date: 08/16/2022
 targetos: Windows
 description: 
 prerelease: false
