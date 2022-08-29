@@ -325,6 +325,8 @@ If the function fails, the return value is a
 
 If the <i>pvData</i> buffer is too small to receive the value, the function returns ERROR_MORE_DATA.
 
+If the lpValue registry value does not exist, the function returns ERROR_FILE_NOT_FOUND.
+
 If <i>dwFlags</i> specifies a combination of both <b>RRF_SUBKEY_WOW6464KEY</b> and  <b>RRF_SUBKEY_WOW6432KEY</b>, the function returns ERROR_INVALID_PARAMETER.
 
 ## -remarks
