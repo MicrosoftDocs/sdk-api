@@ -131,7 +131,7 @@ The link target is a directory.
 </dl>
 </td>
 <td width="60%">
-Specify this flag to allow creation of symbolic links when the process is not elevated. <a href="/windows/uwp/get-started/enable-your-device-for-development">Developer Mode</a> must first be enabled on the machine before  this option will function.
+Specify this flag to allow creation of symbolic links when the process is not elevated. In UWP, <a href="/windows/uwp/get-started/enable-your-device-for-development">Developer Mode</a> must first be enabled on the machine before  this option will function.  Under MSIX, developer mode is not required to be enabled for this flag.
 
 </td>
 </tr>
