@@ -126,7 +126,7 @@ Between calling <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device
 This snippet illustrates retrying getting the size and the list as described in the Remarks section.
 
 
-```
+```cpp
     CONFIGRET cr = CR_SUCCESS;
     PWSTR DeviceInterfaceList = NULL;
     ULONG DeviceInterfaceListLength = 0;
