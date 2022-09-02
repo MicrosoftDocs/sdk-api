@@ -92,6 +92,8 @@ An array of <b>D3D12_RECT</b> structures for the rectangles in the resource view
 
 ## -remarks
 
+Only direct and bundle commands lists support support this operation.  
+
 <b>ClearDepthStencilView</b> may be used to initialize resources which alias the same heap memory. See <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createplacedresource">CreatePlacedResource</a> for more details.
 
 <h3><a id="Runtime_validation"></a><a id="runtime_validation"></a><a id="RUNTIME_VALIDATION"></a>Runtime validation</h3>
