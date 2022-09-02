@@ -28,9 +28,9 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
- - webauthn.h
+ - WebAuthn.dll
 api_name:
  - WebAuthNGetPlatformCredentialList
 f1_keywords:
