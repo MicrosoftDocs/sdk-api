@@ -54,7 +54,7 @@ Data type of a performance counter.
 
 ## -enum-fields
 
-### -field D3D11_COUNTER_TYPE_FLOAT32
+### -field D3D11_COUNTER_TYPE_FLOAT32:0
 
 32-bit floating point.
 

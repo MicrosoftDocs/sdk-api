@@ -59,27 +59,27 @@ Defines the set
 
 ## -enum-fields
 
-### -field VDS_SVF_SUPPORT_DYNAMIC
+### -field VDS_SVF_SUPPORT_DYNAMIC:0x1
 
 If set, the service supports dynamic disks.
 
-### -field VDS_SVF_SUPPORT_FAULT_TOLERANT
+### -field VDS_SVF_SUPPORT_FAULT_TOLERANT:0x2
 
 If set, the service supports fault-tolerant volumes.
 
-### -field VDS_SVF_SUPPORT_GPT
+### -field VDS_SVF_SUPPORT_GPT:0x4
 
 If set, the service supports GPT disks.
 
-### -field VDS_SVF_SUPPORT_DYNAMIC_1394
+### -field VDS_SVF_SUPPORT_DYNAMIC_1394:0x8
 
 If set, the service supports dynamic 1394 disks.
 
-### -field VDS_SVF_CLUSTER_SERVICE_CONFIGURED
+### -field VDS_SVF_CLUSTER_SERVICE_CONFIGURED:0x10
 
 If set, the host has the cluster service installed and configured, but not necessarily running.
 
-### -field VDS_SVF_AUTO_MOUNT_OFF
+### -field VDS_SVF_AUTO_MOUNT_OFF:0x20
 
 If set, the auto-mount operation is turned off for the computer to prevent the operating system from 
       automatically mounting new partitions.
@@ -87,30 +87,30 @@ If set, the auto-mount operation is turned off for the computer to prevent the o
 <div class="alert"><b>Note</b>  Beginning with Windows 8 and Windows Server 2012, this flag is deprecated. Instead, use the <a href="/windows/desktop/api/vds/ne-vds-vds_san_policy">VDS_SAN_POLICY</a> enumeration to control default disk mounting behavior.</div>
 <div> </div>
 
-### -field VDS_SVF_OS_UNINSTALL_VALID
+### -field VDS_SVF_OS_UNINSTALL_VALID:0x40
 
 If set, configuration changes to VDS have occurred. After a successful installation, the uninstall 
       operation is valid only if the configuration changes.
 
-### -field VDS_SVF_EFI
+### -field VDS_SVF_EFI:0x80
 
 If set, the machine boots from an EFI partition on a GPT disk.
 
 <b>Windows Server 2003:  </b>This flag is not supported before Windows Server 2003 with SP1.
 
-### -field VDS_SVF_SUPPORT_MIRROR
+### -field VDS_SVF_SUPPORT_MIRROR:0x100L
 
 The service supports mirrored volumes.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>Not supported.
 
-### -field VDS_SVF_SUPPORT_RAID5
+### -field VDS_SVF_SUPPORT_RAID5:0x200L
 
 The service supports RAID-5 volumes.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>Not supported.
 
-### -field VDS_SVF_SUPPORT_REFS
+### -field VDS_SVF_SUPPORT_REFS:0x400L
 
 ## -remarks
 

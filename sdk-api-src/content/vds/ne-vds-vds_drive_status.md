@@ -61,19 +61,19 @@ Defines the set of object status values for a drive.
 
 ## -enum-fields
 
-### -field VDS_DRS_UNKNOWN
+### -field VDS_DRS_UNKNOWN:0
 
 The status of the drive cannot be determined.
 
-### -field VDS_DRS_ONLINE
+### -field VDS_DRS_ONLINE:1
 
 The drive is available and in use. The <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value associated with this drive status can be any value except <b>VDS_H_FAILED</b>.
 
-### -field VDS_DRS_NOT_READY
+### -field VDS_DRS_NOT_READY:2
 
 The drive is busy. The <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value can be any value except <b>VDS_H_FAILED</b>.
 
-### -field VDS_DRS_OFFLINE
+### -field VDS_DRS_OFFLINE:4
 
 The drive is physically present but has been removed from its RAID group or storage pool. For example, if the drive was removed from its RAID group because it failed, the  drive status should be <b>VDS_DRS_FAILED</b>. If the drive was removed as part of rebalancing storage, the drive status should be <b>VDS_DRS_OFFLINE</b>. 
 
@@ -81,11 +81,11 @@ When this drive status is set, a <b>VDS_NF_DRIVE_REMOVED</b> notification is sen
 
 The <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value can be any value.
 
-### -field VDS_DRS_FAILED
+### -field VDS_DRS_FAILED:5
 
 The drive has failed. The <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value should be <b>VDS_H_FAILED</b> or <b>VDS_H_FAILING</b>.
 
-### -field VDS_DRS_REMOVED
+### -field VDS_DRS_REMOVED:8
 
 The drive has been physically unplugged from the subsystem. When this status is set, a <b>VDS_NF_DRIVE_DEPART</b> notification is sent.
 

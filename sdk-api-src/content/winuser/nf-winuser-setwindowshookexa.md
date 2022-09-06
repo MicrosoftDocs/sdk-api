@@ -148,6 +148,10 @@ Installs a hook procedure that monitors messages posted to a message queue. For 
 </dl>
 </td>
 <td width="60%">
+
+> [!WARNING]
+> Journaling Hooks APIs are unsupported starting in Windows 11 and will be removed in a future release. Because of this, we highly recommend calling the [**SendInput**](/windows/win32/api/winuser/nf-winuser-sendinput) TextInput API instead.
+
 Installs a hook procedure that posts messages previously recorded by a <a href="/windows/desktop/winmsg/about-hooks">WH_JOURNALRECORD</a> hook procedure. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644982(v=vs.85)">JournalPlaybackProc</a> hook procedure.
 
 </td>
@@ -159,6 +163,10 @@ Installs a hook procedure that posts messages previously recorded by a <a href="
 </dl>
 </td>
 <td width="60%">
+
+> [!WARNING]
+> Journaling Hooks APIs are unsupported starting in Windows 11 and will be removed in a future release. Because of this, we highly recommend calling the [**SendInput**](/windows/win32/api/winuser/nf-winuser-sendinput) TextInput API instead.
+
 Installs a hook procedure that records input messages posted to the system message queue. This hook is useful for recording macros. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644983(v=vs.85)">JournalRecordProc</a> hook procedure.
 
 </td>
@@ -271,7 +279,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 ## -remarks
 
 <b>SetWindowsHookEx</b> can be used to inject a DLL into another process. A 32-bit DLL cannot be injected into a 64-bit process, and a 64-bit DLL cannot be injected into a 32-bit process. If an application requires the use of hooks in other processes, it is required that a 32-bit application call <b>SetWindowsHookEx</b> to inject a 32-bit DLL into 32-bit processes, and a 64-bit application call <b>SetWindowsHookEx</b> to inject a 64-bit DLL into 64-bit processes. The 32-bit and 64-bit DLLs must have different names.
-		
+        
 
 Because hooks run in the context of an application, they must match the "bitness" of the application. If a 32-bit application installs a global hook on 64-bit Windows, the 32-bit hook is injected into each 32-bit process (the usual security boundaries apply). In a 64-bit process, the threads are still marked as "hooked." However, because a 32-bit application must run the hook code, the system executes the hook in the hooking app's context; specifically, on the thread that called <b>SetWindowsHookEx</b>. This means that the hooking application must continue to pump messages or it might block the normal functioning of the 64-bit processes.
  

@@ -55,357 +55,357 @@ Resource data formats, including fully-typed and typeless formats.
 
 ## -enum-fields
 
-### -field DXGI_FORMAT_UNKNOWN
+### -field DXGI_FORMAT_UNKNOWN:0
 
 The format is not known.
 
-### -field DXGI_FORMAT_R32G32B32A32_TYPELESS
+### -field DXGI_FORMAT_R32G32B32A32_TYPELESS:1
 
 A four-component, 128-bit typeless format that supports 32 bits per channel including alpha. ¹
 
-### -field DXGI_FORMAT_R32G32B32A32_FLOAT
+### -field DXGI_FORMAT_R32G32B32A32_FLOAT:2
 
 A four-component, 128-bit floating-point format that supports 32 bits per channel including alpha. <sup>1,5,8</sup>
 
-### -field DXGI_FORMAT_R32G32B32A32_UINT
+### -field DXGI_FORMAT_R32G32B32A32_UINT:3
 
 A four-component, 128-bit unsigned-integer format that supports 32 bits per channel including alpha. ¹
 
-### -field DXGI_FORMAT_R32G32B32A32_SINT
+### -field DXGI_FORMAT_R32G32B32A32_SINT:4
 
 A four-component, 128-bit signed-integer format that supports 32 bits per channel including alpha. ¹
 
-### -field DXGI_FORMAT_R32G32B32_TYPELESS
+### -field DXGI_FORMAT_R32G32B32_TYPELESS:5
 
 A three-component, 96-bit typeless format that supports 32 bits per color channel.
 
-### -field DXGI_FORMAT_R32G32B32_FLOAT
+### -field DXGI_FORMAT_R32G32B32_FLOAT:6
 
 A three-component, 96-bit floating-point format that supports 32 bits per color channel.<sup>5,8</sup>
 
-### -field DXGI_FORMAT_R32G32B32_UINT
+### -field DXGI_FORMAT_R32G32B32_UINT:7
 
 A three-component, 96-bit unsigned-integer format that supports 32 bits per color channel.
 
-### -field DXGI_FORMAT_R32G32B32_SINT
+### -field DXGI_FORMAT_R32G32B32_SINT:8
 
 A three-component, 96-bit signed-integer format that supports 32 bits per color channel.
 
-### -field DXGI_FORMAT_R16G16B16A16_TYPELESS
+### -field DXGI_FORMAT_R16G16B16A16_TYPELESS:9
 
 A four-component, 64-bit typeless format that supports 16 bits per channel including alpha.
 
-### -field DXGI_FORMAT_R16G16B16A16_FLOAT
+### -field DXGI_FORMAT_R16G16B16A16_FLOAT:10
 
 A four-component, 64-bit floating-point format that supports 16 bits per channel including alpha.<sup>5,7</sup>
 
-### -field DXGI_FORMAT_R16G16B16A16_UNORM
+### -field DXGI_FORMAT_R16G16B16A16_UNORM:11
 
 A four-component, 64-bit unsigned-normalized-integer format that supports 16 bits per channel including alpha.
 
-### -field DXGI_FORMAT_R16G16B16A16_UINT
+### -field DXGI_FORMAT_R16G16B16A16_UINT:12
 
 A four-component, 64-bit unsigned-integer format that supports 16 bits per channel including alpha.
 
-### -field DXGI_FORMAT_R16G16B16A16_SNORM
+### -field DXGI_FORMAT_R16G16B16A16_SNORM:13
 
 A four-component, 64-bit signed-normalized-integer format that supports 16 bits per channel including alpha.
 
-### -field DXGI_FORMAT_R16G16B16A16_SINT
+### -field DXGI_FORMAT_R16G16B16A16_SINT:14
 
 A four-component, 64-bit signed-integer format that supports 16 bits per channel including alpha.
 
-### -field DXGI_FORMAT_R32G32_TYPELESS
+### -field DXGI_FORMAT_R32G32_TYPELESS:15
 
 A two-component, 64-bit typeless format that supports 32 bits for the red channel and 32 bits for the green channel.
 
-### -field DXGI_FORMAT_R32G32_FLOAT
+### -field DXGI_FORMAT_R32G32_FLOAT:16
 
 A two-component, 64-bit floating-point format that supports 32 bits for the red channel and 32 bits for the green channel.<sup>5,8</sup>
 
-### -field DXGI_FORMAT_R32G32_UINT
+### -field DXGI_FORMAT_R32G32_UINT:17
 
 A two-component, 64-bit unsigned-integer format that supports 32 bits for the red channel and 32 bits for the green channel.
 
-### -field DXGI_FORMAT_R32G32_SINT
+### -field DXGI_FORMAT_R32G32_SINT:18
 
 A two-component, 64-bit signed-integer format that supports 32 bits for the red channel and 32 bits for the green channel.
 
-### -field DXGI_FORMAT_R32G8X24_TYPELESS
+### -field DXGI_FORMAT_R32G8X24_TYPELESS:19
 
 A two-component, 64-bit typeless format that supports 32 bits for the red channel, 8 bits for the green channel, and 24 bits are unused.
 
-### -field DXGI_FORMAT_D32_FLOAT_S8X24_UINT
+### -field DXGI_FORMAT_D32_FLOAT_S8X24_UINT:20
 
 A 32-bit floating-point component, and two unsigned-integer components (with an additional 32 bits). This format supports 32-bit depth, 8-bit stencil, and 24 bits are unused.⁵
 
-### -field DXGI_FORMAT_R32_FLOAT_X8X24_TYPELESS
+### -field DXGI_FORMAT_R32_FLOAT_X8X24_TYPELESS:21
 
 A 32-bit floating-point component, and two typeless components (with an additional 32 bits). This format supports 32-bit red channel, 8 bits are unused, and 24 bits are unused.⁵
 
-### -field DXGI_FORMAT_X32_TYPELESS_G8X24_UINT
+### -field DXGI_FORMAT_X32_TYPELESS_G8X24_UINT:22
 
 A 32-bit typeless component, and two unsigned-integer components (with an additional 32 bits). This format has 32 bits unused, 8 bits for green channel, and 24 bits are unused.
 
-### -field DXGI_FORMAT_R10G10B10A2_TYPELESS
+### -field DXGI_FORMAT_R10G10B10A2_TYPELESS:23
 
 A four-component, 32-bit typeless format that supports 10 bits for each color and 2 bits for alpha.
 
-### -field DXGI_FORMAT_R10G10B10A2_UNORM
+### -field DXGI_FORMAT_R10G10B10A2_UNORM:24
 
 A four-component, 32-bit unsigned-normalized-integer format that supports 10 bits for each color and 2 bits for alpha.
 
-### -field DXGI_FORMAT_R10G10B10A2_UINT
+### -field DXGI_FORMAT_R10G10B10A2_UINT:25
 
 A four-component, 32-bit unsigned-integer format that supports 10 bits for each color and 2 bits for alpha.
 
-### -field DXGI_FORMAT_R11G11B10_FLOAT
+### -field DXGI_FORMAT_R11G11B10_FLOAT:26
 
 Three partial-precision floating-point numbers encoded into a single 32-bit value (a variant of s10e5, which is sign bit, 10-bit mantissa, and 5-bit biased (15) exponent). 
         There are no sign bits, and there is a 5-bit biased (15) exponent for each channel, 6-bit mantissa  for R and G, and a 5-bit mantissa for B, as shown in the following illustration.<sup>5,7</sup>
 
 <img alt="Illustration of the bits in the three partial-precision floating-point numbers" src="./images/R11G11B10_FLOAT.png"/>
 
-### -field DXGI_FORMAT_R8G8B8A8_TYPELESS
+### -field DXGI_FORMAT_R8G8B8A8_TYPELESS:27
 
 A four-component, 32-bit typeless format that supports 8 bits per channel including alpha.
 
-### -field DXGI_FORMAT_R8G8B8A8_UNORM
+### -field DXGI_FORMAT_R8G8B8A8_UNORM:28
 
 A four-component, 32-bit unsigned-normalized-integer format that supports 8 bits per channel including alpha.
 
-### -field DXGI_FORMAT_R8G8B8A8_UNORM_SRGB
+### -field DXGI_FORMAT_R8G8B8A8_UNORM_SRGB:29
 
 A four-component, 32-bit unsigned-normalized integer sRGB format that supports 8 bits per channel including alpha.
 
-### -field DXGI_FORMAT_R8G8B8A8_UINT
+### -field DXGI_FORMAT_R8G8B8A8_UINT:30
 
 A four-component, 32-bit unsigned-integer format that supports 8 bits per channel including alpha.
 
-### -field DXGI_FORMAT_R8G8B8A8_SNORM
+### -field DXGI_FORMAT_R8G8B8A8_SNORM:31
 
 A four-component, 32-bit signed-normalized-integer format that supports 8 bits per channel including alpha.
 
-### -field DXGI_FORMAT_R8G8B8A8_SINT
+### -field DXGI_FORMAT_R8G8B8A8_SINT:32
 
 A four-component, 32-bit signed-integer format that supports 8 bits per channel including alpha.
 
-### -field DXGI_FORMAT_R16G16_TYPELESS
+### -field DXGI_FORMAT_R16G16_TYPELESS:33
 
 A two-component, 32-bit typeless format that supports 16 bits for the red channel and 16 bits for the green channel.
 
-### -field DXGI_FORMAT_R16G16_FLOAT
+### -field DXGI_FORMAT_R16G16_FLOAT:34
 
 A two-component, 32-bit floating-point format that supports 16 bits for the red channel and 16 bits for the green channel.<sup>5,7</sup>
 
-### -field DXGI_FORMAT_R16G16_UNORM
+### -field DXGI_FORMAT_R16G16_UNORM:35
 
 A two-component, 32-bit unsigned-normalized-integer format that supports 16 bits each for the green and red channels.
 
-### -field DXGI_FORMAT_R16G16_UINT
+### -field DXGI_FORMAT_R16G16_UINT:36
 
 A two-component, 32-bit unsigned-integer format that supports 16 bits for the red channel and 16 bits for the green channel.
 
-### -field DXGI_FORMAT_R16G16_SNORM
+### -field DXGI_FORMAT_R16G16_SNORM:37
 
 A two-component, 32-bit signed-normalized-integer format that supports 16 bits for the red channel and 16 bits for the green channel.
 
-### -field DXGI_FORMAT_R16G16_SINT
+### -field DXGI_FORMAT_R16G16_SINT:38
 
 A two-component, 32-bit signed-integer format that supports 16 bits for the red channel and 16 bits for the green channel.
 
-### -field DXGI_FORMAT_R32_TYPELESS
+### -field DXGI_FORMAT_R32_TYPELESS:39
 
 A single-component, 32-bit typeless format that supports 32 bits for the red channel.
 
-### -field DXGI_FORMAT_D32_FLOAT
+### -field DXGI_FORMAT_D32_FLOAT:40
 
 A single-component, 32-bit floating-point format that supports 32 bits for depth.<sup>5,8</sup>
 
-### -field DXGI_FORMAT_R32_FLOAT
+### -field DXGI_FORMAT_R32_FLOAT:41
 
 A single-component, 32-bit floating-point format that supports 32 bits for the red channel.<sup>5,8</sup>
 
-### -field DXGI_FORMAT_R32_UINT
+### -field DXGI_FORMAT_R32_UINT:42
 
 A single-component, 32-bit unsigned-integer format that supports 32 bits for the red channel.
 
-### -field DXGI_FORMAT_R32_SINT
+### -field DXGI_FORMAT_R32_SINT:43
 
 A single-component, 32-bit signed-integer format that supports 32 bits for the red channel.
 
-### -field DXGI_FORMAT_R24G8_TYPELESS
+### -field DXGI_FORMAT_R24G8_TYPELESS:44
 
 A two-component, 32-bit typeless format that supports 24 bits for the red channel and 8 bits for the green channel.
 
-### -field DXGI_FORMAT_D24_UNORM_S8_UINT
+### -field DXGI_FORMAT_D24_UNORM_S8_UINT:45
 
 A 32-bit z-buffer format that supports 24 bits for depth and 8 bits for stencil.
 
-### -field DXGI_FORMAT_R24_UNORM_X8_TYPELESS
+### -field DXGI_FORMAT_R24_UNORM_X8_TYPELESS:46
 
 A 32-bit format, that contains a 24 bit, single-component, unsigned-normalized integer, with an additional typeless 8 bits. This format has 24 bits red channel and 8 bits unused.
 
-### -field DXGI_FORMAT_X24_TYPELESS_G8_UINT
+### -field DXGI_FORMAT_X24_TYPELESS_G8_UINT:47
 
 A 32-bit format, that contains a 24 bit, single-component, typeless format,  with an additional 8 bit unsigned integer component. This format has 24 bits unused and 8 bits green channel.
 
-### -field DXGI_FORMAT_R8G8_TYPELESS
+### -field DXGI_FORMAT_R8G8_TYPELESS:48
 
 A two-component, 16-bit typeless format that supports 8 bits for the red channel and 8 bits for the green channel.
 
-### -field DXGI_FORMAT_R8G8_UNORM
+### -field DXGI_FORMAT_R8G8_UNORM:49
 
 A two-component, 16-bit unsigned-normalized-integer format that supports 8 bits for the red channel and 8 bits for the green channel.
 
-### -field DXGI_FORMAT_R8G8_UINT
+### -field DXGI_FORMAT_R8G8_UINT:50
 
 A two-component, 16-bit unsigned-integer format that supports 8 bits for the red channel and 8 bits for the green channel.
 
-### -field DXGI_FORMAT_R8G8_SNORM
+### -field DXGI_FORMAT_R8G8_SNORM:51
 
 A two-component, 16-bit signed-normalized-integer format that supports 8 bits for the red channel and 8 bits for the green channel.
 
-### -field DXGI_FORMAT_R8G8_SINT
+### -field DXGI_FORMAT_R8G8_SINT:52
 
 A two-component, 16-bit signed-integer format that supports 8 bits for the red channel and 8 bits for the green channel.
 
-### -field DXGI_FORMAT_R16_TYPELESS
+### -field DXGI_FORMAT_R16_TYPELESS:53
 
 A single-component, 16-bit typeless format that supports 16 bits for the red channel.
 
-### -field DXGI_FORMAT_R16_FLOAT
+### -field DXGI_FORMAT_R16_FLOAT:54
 
 A single-component, 16-bit floating-point format that supports 16 bits for the red channel.<sup>5,7</sup>
 
-### -field DXGI_FORMAT_D16_UNORM
+### -field DXGI_FORMAT_D16_UNORM:55
 
 A single-component, 16-bit unsigned-normalized-integer format that supports 16 bits for depth.
 
-### -field DXGI_FORMAT_R16_UNORM
+### -field DXGI_FORMAT_R16_UNORM:56
 
 A single-component, 16-bit unsigned-normalized-integer format that supports 16 bits for the red channel.
 
-### -field DXGI_FORMAT_R16_UINT
+### -field DXGI_FORMAT_R16_UINT:57
 
 A single-component, 16-bit unsigned-integer format that supports 16 bits for the red channel.
 
-### -field DXGI_FORMAT_R16_SNORM
+### -field DXGI_FORMAT_R16_SNORM:58
 
 A single-component, 16-bit signed-normalized-integer format that supports 16 bits for the red channel.
 
-### -field DXGI_FORMAT_R16_SINT
+### -field DXGI_FORMAT_R16_SINT:59
 
 A single-component, 16-bit signed-integer format that supports 16 bits for the red channel.
 
-### -field DXGI_FORMAT_R8_TYPELESS
+### -field DXGI_FORMAT_R8_TYPELESS:60
 
 A single-component, 8-bit typeless format that supports 8 bits for the red channel.
 
-### -field DXGI_FORMAT_R8_UNORM
+### -field DXGI_FORMAT_R8_UNORM:61
 
 A single-component, 8-bit unsigned-normalized-integer format that supports 8 bits for the red channel.
 
-### -field DXGI_FORMAT_R8_UINT
+### -field DXGI_FORMAT_R8_UINT:62
 
 A single-component, 8-bit unsigned-integer format that supports 8 bits for the red channel.
 
-### -field DXGI_FORMAT_R8_SNORM
+### -field DXGI_FORMAT_R8_SNORM:63
 
 A single-component, 8-bit signed-normalized-integer format that supports 8 bits for the red channel.
 
-### -field DXGI_FORMAT_R8_SINT
+### -field DXGI_FORMAT_R8_SINT:64
 
 A single-component, 8-bit signed-integer format that supports 8 bits for the red channel.
 
-### -field DXGI_FORMAT_A8_UNORM
+### -field DXGI_FORMAT_A8_UNORM:65
 
 A single-component, 8-bit unsigned-normalized-integer format for alpha only.
 
-### -field DXGI_FORMAT_R1_UNORM
+### -field DXGI_FORMAT_R1_UNORM:66
 
 A single-component, 1-bit unsigned-normalized integer format that supports 1 bit for the red channel. ².
 
-### -field DXGI_FORMAT_R9G9B9E5_SHAREDEXP
+### -field DXGI_FORMAT_R9G9B9E5_SHAREDEXP:67
 
 Three partial-precision floating-point numbers encoded into a single 32-bit value all sharing the same 5-bit exponent (variant of s10e5, which is sign bit, 10-bit mantissa, and 5-bit biased (15) exponent). 
         There is no sign bit, and there is a shared 5-bit biased (15) exponent and a 9-bit mantissa for each channel, as shown in the following illustration. <sup>6,7</sup>.
 
 <img alt="Illustration of the bits in the three partial-precision floating-point numbers" src="./images/RGBE.png"/>
 
-### -field DXGI_FORMAT_R8G8_B8G8_UNORM
+### -field DXGI_FORMAT_R8G8_B8G8_UNORM:68
 
 A four-component, 32-bit unsigned-normalized-integer format. This packed RGB format is analogous to the UYVY format. Each 32-bit block describes a pair of pixels: (R8, G8, B8) and (R8, G8, B8) where the R8/B8 values are repeated, and the G8 values are unique to each pixel. ³
 
 Width must be even.
 
-### -field DXGI_FORMAT_G8R8_G8B8_UNORM
+### -field DXGI_FORMAT_G8R8_G8B8_UNORM:69
 
 A four-component, 32-bit unsigned-normalized-integer format. This packed RGB format is analogous to the YUY2 format. Each 32-bit block describes a pair of pixels: (R8, G8, B8) and (R8, G8, B8) where the R8/B8 values are repeated, and the G8 values are unique to each pixel. ³
 
 Width must be even.
 
-### -field DXGI_FORMAT_BC1_TYPELESS
+### -field DXGI_FORMAT_BC1_TYPELESS:70
 
 Four-component typeless block-compression format. For information about block-compression formats, see <a href="/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11">Texture Block Compression in Direct3D 11</a>.
 
-### -field DXGI_FORMAT_BC1_UNORM
+### -field DXGI_FORMAT_BC1_UNORM:71
 
 Four-component block-compression format. For information about block-compression formats, see <a href="/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11">Texture Block Compression in Direct3D 11</a>.
 
-### -field DXGI_FORMAT_BC1_UNORM_SRGB
+### -field DXGI_FORMAT_BC1_UNORM_SRGB:72
 
 Four-component block-compression format for sRGB data. For information about block-compression formats, see <a href="/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11">Texture Block Compression in Direct3D 11</a>.
 
-### -field DXGI_FORMAT_BC2_TYPELESS
+### -field DXGI_FORMAT_BC2_TYPELESS:73
 
 Four-component typeless block-compression format. For information about block-compression formats, see <a href="/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11">Texture Block Compression in Direct3D 11</a>.
 
-### -field DXGI_FORMAT_BC2_UNORM
+### -field DXGI_FORMAT_BC2_UNORM:74
 
 Four-component block-compression format. For information about block-compression formats, see <a href="/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11">Texture Block Compression in Direct3D 11</a>.
 
-### -field DXGI_FORMAT_BC2_UNORM_SRGB
+### -field DXGI_FORMAT_BC2_UNORM_SRGB:75
 
 Four-component block-compression format for sRGB data. For information about block-compression formats, see <a href="/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11">Texture Block Compression in Direct3D 11</a>.
 
-### -field DXGI_FORMAT_BC3_TYPELESS
+### -field DXGI_FORMAT_BC3_TYPELESS:76
 
 Four-component typeless block-compression format. For information about block-compression formats, see <a href="/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11">Texture Block Compression in Direct3D 11</a>.
 
-### -field DXGI_FORMAT_BC3_UNORM
+### -field DXGI_FORMAT_BC3_UNORM:77
 
 Four-component block-compression format. For information about block-compression formats, see <a href="/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11">Texture Block Compression in Direct3D 11</a>.
 
-### -field DXGI_FORMAT_BC3_UNORM_SRGB
+### -field DXGI_FORMAT_BC3_UNORM_SRGB:78
 
 Four-component block-compression format for sRGB data. For information about block-compression formats, see <a href="/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11">Texture Block Compression in Direct3D 11</a>.
 
-### -field DXGI_FORMAT_BC4_TYPELESS
+### -field DXGI_FORMAT_BC4_TYPELESS:79
 
 One-component typeless block-compression format. For information about block-compression formats, see <a href="/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11">Texture Block Compression in Direct3D 11</a>.
 
-### -field DXGI_FORMAT_BC4_UNORM
+### -field DXGI_FORMAT_BC4_UNORM:80
 
 One-component block-compression format. For information about block-compression formats, see <a href="/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11">Texture Block Compression in Direct3D 11</a>.
 
-### -field DXGI_FORMAT_BC4_SNORM
+### -field DXGI_FORMAT_BC4_SNORM:81
 
 One-component block-compression format. For information about block-compression formats, see <a href="/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11">Texture Block Compression in Direct3D 11</a>.
 
-### -field DXGI_FORMAT_BC5_TYPELESS
+### -field DXGI_FORMAT_BC5_TYPELESS:82
 
 Two-component typeless block-compression format. For information about block-compression formats, see <a href="/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11">Texture Block Compression in Direct3D 11</a>.
 
-### -field DXGI_FORMAT_BC5_UNORM
+### -field DXGI_FORMAT_BC5_UNORM:83
 
 Two-component block-compression format. For information about block-compression formats, see <a href="/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11">Texture Block Compression in Direct3D 11</a>.
 
-### -field DXGI_FORMAT_BC5_SNORM
+### -field DXGI_FORMAT_BC5_SNORM:84
 
 Two-component block-compression format. For information about block-compression formats, see <a href="/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11">Texture Block Compression in Direct3D 11</a>.
 
-### -field DXGI_FORMAT_B5G6R5_UNORM
+### -field DXGI_FORMAT_B5G6R5_UNORM:85
 
 A three-component, 16-bit unsigned-normalized-integer format that supports 5 bits for blue, 6 bits for green, and 5 bits for red.
 
@@ -413,7 +413,7 @@ A three-component, 16-bit unsigned-normalized-integer format that supports 5 bit
 
 <b>Direct3D 11.1:  </b>This value is not supported until Windows 8.
 
-### -field DXGI_FORMAT_B5G5R5A1_UNORM
+### -field DXGI_FORMAT_B5G5R5A1_UNORM:86
 
 A four-component, 16-bit unsigned-normalized-integer format that supports 5 bits for each color channel and 1-bit alpha.
 
@@ -421,59 +421,59 @@ A four-component, 16-bit unsigned-normalized-integer format that supports 5 bits
 
 <b>Direct3D 11.1:  </b>This value is not supported until Windows 8.
 
-### -field DXGI_FORMAT_B8G8R8A8_UNORM
+### -field DXGI_FORMAT_B8G8R8A8_UNORM:87
 
 A four-component, 32-bit unsigned-normalized-integer format that supports 8 bits for each color channel and 8-bit alpha.
 
-### -field DXGI_FORMAT_B8G8R8X8_UNORM
+### -field DXGI_FORMAT_B8G8R8X8_UNORM:88
 
 A four-component, 32-bit unsigned-normalized-integer format that supports 8 bits for each color channel and 8 bits unused.
 
-### -field DXGI_FORMAT_R10G10B10_XR_BIAS_A2_UNORM
+### -field DXGI_FORMAT_R10G10B10_XR_BIAS_A2_UNORM:89
 
 A four-component, 32-bit 2.8-biased fixed-point format that supports 10 bits for each color channel and 2-bit alpha.
 
-### -field DXGI_FORMAT_B8G8R8A8_TYPELESS
+### -field DXGI_FORMAT_B8G8R8A8_TYPELESS:90
 
 A four-component, 32-bit typeless format that supports 8 bits for each channel including alpha. ⁴
 
-### -field DXGI_FORMAT_B8G8R8A8_UNORM_SRGB
+### -field DXGI_FORMAT_B8G8R8A8_UNORM_SRGB:91
 
 A four-component, 32-bit unsigned-normalized standard RGB format that supports 8 bits for each channel including alpha. ⁴
 
-### -field DXGI_FORMAT_B8G8R8X8_TYPELESS
+### -field DXGI_FORMAT_B8G8R8X8_TYPELESS:92
 
 A four-component, 32-bit typeless format that supports 8 bits for each color channel, and 8 bits are unused. ⁴
 
-### -field DXGI_FORMAT_B8G8R8X8_UNORM_SRGB
+### -field DXGI_FORMAT_B8G8R8X8_UNORM_SRGB:93
 
 A four-component, 32-bit unsigned-normalized standard RGB format that supports 8 bits for each color channel, and 8 bits are unused. ⁴
 
-### -field DXGI_FORMAT_BC6H_TYPELESS
+### -field DXGI_FORMAT_BC6H_TYPELESS:94
 
 A typeless block-compression format. ⁴ For information about block-compression formats, see <a href="/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11">Texture Block Compression in Direct3D 11</a>.
 
-### -field DXGI_FORMAT_BC6H_UF16
+### -field DXGI_FORMAT_BC6H_UF16:95
 
 A block-compression format. ⁴ For information about block-compression formats, see <a href="/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11">Texture Block Compression in Direct3D 11</a>.⁵
 
-### -field DXGI_FORMAT_BC6H_SF16
+### -field DXGI_FORMAT_BC6H_SF16:96
 
 A block-compression format. ⁴ For information about block-compression formats, see <a href="/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11">Texture Block Compression in Direct3D 11</a>.⁵
 
-### -field DXGI_FORMAT_BC7_TYPELESS
+### -field DXGI_FORMAT_BC7_TYPELESS:97
 
 A typeless block-compression format. ⁴ For information about block-compression formats, see <a href="/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11">Texture Block Compression in Direct3D 11</a>.
 
-### -field DXGI_FORMAT_BC7_UNORM
+### -field DXGI_FORMAT_BC7_UNORM:98
 
 A block-compression format. ⁴ For information about block-compression formats, see <a href="/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11">Texture Block Compression in Direct3D 11</a>.
 
-### -field DXGI_FORMAT_BC7_UNORM_SRGB
+### -field DXGI_FORMAT_BC7_UNORM_SRGB:99
 
 A block-compression format. ⁴ For information about block-compression formats, see <a href="/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11">Texture Block Compression in Direct3D 11</a>.
 
-### -field DXGI_FORMAT_AYUV
+### -field DXGI_FORMAT_AYUV:100
 
 Most common YUV 4:4:4 video resource format. Valid view formats for this video resource format are DXGI_FORMAT_R8G8B8A8_UNORM and DXGI_FORMAT_R8G8B8A8_UINT. For UAVs, an additional valid view format is DXGI_FORMAT_R32_UINT. By using DXGI_FORMAT_R32_UINT for UAVs, you can both read and write as opposed to just write for DXGI_FORMAT_R8G8B8A8_UNORM and DXGI_FORMAT_R8G8B8A8_UINT. Supported view types are SRV, RTV, and UAV. One view provides a straightforward mapping of the entire surface. The mapping to the view channel is V-&gt;R8, 
 U-&gt;G8, 
@@ -484,7 +484,7 @@ For more info about YUV formats for video rendering, see <a href="/windows/deskt
 
 <b>Direct3D 11.1:  </b>This value is not supported until Windows 8.
 
-### -field DXGI_FORMAT_Y410
+### -field DXGI_FORMAT_Y410:101
 
 10-bit per channel packed YUV 4:4:4 video resource format. Valid view formats for this video resource format are DXGI_FORMAT_R10G10B10A2_UNORM and DXGI_FORMAT_R10G10B10A2_UINT. For UAVs, an additional valid view format is DXGI_FORMAT_R32_UINT. By using DXGI_FORMAT_R32_UINT for UAVs, you can both read and write as opposed to just write for DXGI_FORMAT_R10G10B10A2_UNORM and DXGI_FORMAT_R10G10B10A2_UINT. Supported view types are SRV and UAV. One view provides a straightforward mapping of the entire surface. The mapping to the view channel is U-&gt;R10,
 Y-&gt;G10,
@@ -495,7 +495,7 @@ For more info about YUV formats for video rendering, see <a href="/windows/deskt
 
 <b>Direct3D 11.1:  </b>This value is not supported until Windows 8.
 
-### -field DXGI_FORMAT_Y416
+### -field DXGI_FORMAT_Y416:102
 
 16-bit per channel packed YUV 4:4:4 video resource format. Valid view formats for this video resource format are DXGI_FORMAT_R16G16B16A16_UNORM and DXGI_FORMAT_R16G16B16A16_UINT. Supported view types are SRV and UAV. One view provides a straightforward mapping of the entire surface. The mapping to the view channel is U-&gt;R16,
 Y-&gt;G16,
@@ -506,7 +506,7 @@ For more info about YUV formats for video rendering, see <a href="/windows/deskt
 
 <b>Direct3D 11.1:  </b>This value is not supported until Windows 8.
 
-### -field DXGI_FORMAT_NV12
+### -field DXGI_FORMAT_NV12:103
 
 Most common YUV 4:2:0 video resource format. Valid luminance data view formats for this video resource format are DXGI_FORMAT_R8_UNORM and DXGI_FORMAT_R8_UINT. Valid chrominance data view formats (width and height are each 1/2 of luminance view) for this video resource format are DXGI_FORMAT_R8G8_UNORM and DXGI_FORMAT_R8G8_UINT. Supported view types are SRV, RTV, and UAV. For luminance data view, the mapping to the view channel is Y-&gt;R8. For chrominance data view, the mapping to the view channel is U-&gt;R8 and
 V-&gt;G8.
@@ -519,7 +519,7 @@ An app using the YUY 4:2:0 formats  must map the luma (Y) plane separately from 
 
 <b>Direct3D 11.1:  </b>This value is not supported until Windows 8.
 
-### -field DXGI_FORMAT_P010
+### -field DXGI_FORMAT_P010:104
 
 10-bit per channel planar YUV 4:2:0 video resource format. Valid luminance data view formats for this video resource format are DXGI_FORMAT_R16_UNORM and DXGI_FORMAT_R16_UINT. The runtime does not enforce whether the lowest 6 bits are 0 (given that this video resource format is a 10-bit format that uses 16 bits). If required, application shader code would have to enforce this manually.  From the runtime's point of view, DXGI_FORMAT_P010 is no different than DXGI_FORMAT_P016. Valid chrominance data view formats (width and height are each 1/2 of luminance view) for this video resource format are DXGI_FORMAT_R16G16_UNORM and DXGI_FORMAT_R16G16_UINT. For UAVs, an additional valid chrominance data view format is DXGI_FORMAT_R32_UINT. By using DXGI_FORMAT_R32_UINT for UAVs, you can both read and write as opposed to just write for DXGI_FORMAT_R16G16_UNORM and DXGI_FORMAT_R16G16_UINT. Supported view types are SRV, RTV, and UAV. For luminance data view, the mapping to the view channel is Y-&gt;R16. For chrominance data view, the mapping to the view channel is U-&gt;R16 and
 V-&gt;G16.
@@ -532,7 +532,7 @@ An app using the YUY 4:2:0 formats  must map the luma (Y) plane separately from 
 
 <b>Direct3D 11.1:  </b>This value is not supported until Windows 8.
 
-### -field DXGI_FORMAT_P016
+### -field DXGI_FORMAT_P016:105
 
 16-bit per channel planar YUV 4:2:0 video resource format. Valid luminance data view formats for this video resource format are DXGI_FORMAT_R16_UNORM and DXGI_FORMAT_R16_UINT. Valid chrominance data view formats (width and height are each 1/2 of luminance view) for this video resource format are DXGI_FORMAT_R16G16_UNORM and DXGI_FORMAT_R16G16_UINT. For UAVs, an additional valid chrominance data view format is DXGI_FORMAT_R32_UINT. By using DXGI_FORMAT_R32_UINT for UAVs, you can both read and write as opposed to just write for DXGI_FORMAT_R16G16_UNORM and DXGI_FORMAT_R16G16_UINT. Supported view types are SRV, RTV, and UAV. For luminance data view, the mapping to the view channel is Y-&gt;R16. For chrominance data view, the mapping to the view channel is U-&gt;R16 and
 V-&gt;G16.
@@ -545,7 +545,7 @@ An app using the YUY 4:2:0 formats  must map the luma (Y) plane separately from 
 
 <b>Direct3D 11.1:  </b>This value is not supported until Windows 8.
 
-### -field DXGI_FORMAT_420_OPAQUE
+### -field DXGI_FORMAT_420_OPAQUE:106
 
 8-bit per channel planar YUV 4:2:0 video resource format. This format is subsampled where each pixel has its own Y value, but each 2x2 pixel block shares a single U and V value. The runtime requires that the width and height of all resources that are created with this format are multiples of 2. The runtime also requires that the left, right, top, and bottom members of any RECT that are used for this format are multiples of 2. This format differs from DXGI_FORMAT_NV12 in that the layout of the data within the resource is completely opaque to applications. Applications cannot use the CPU to map the resource and then access the data within the resource. You cannot use shaders with this format. Because of this behavior, legacy hardware that supports a non-NV12 4:2:0 layout (for example, YV12, and so on) can be used. Also, new hardware that has a 4:2:0 implementation better than NV12 can be used when the application does not need the data to be in a standard layout. 
 
@@ -557,7 +557,7 @@ An app using the YUY 4:2:0 formats  must map the luma (Y) plane separately from 
 
 <b>Direct3D 11.1:  </b>This value is not supported until Windows 8.
 
-### -field DXGI_FORMAT_YUY2
+### -field DXGI_FORMAT_YUY2:107
 
 Most common YUV 4:2:2 video resource format. Valid view formats for this video resource format are DXGI_FORMAT_R8G8B8A8_UNORM and DXGI_FORMAT_R8G8B8A8_UINT. For UAVs, an additional valid view format is DXGI_FORMAT_R32_UINT. By using DXGI_FORMAT_R32_UINT for UAVs, you can both read and write as opposed to just write for DXGI_FORMAT_R8G8B8A8_UNORM and DXGI_FORMAT_R8G8B8A8_UINT. Supported view types are SRV and UAV. One view provides a straightforward mapping of the entire surface. The mapping to the view channel is Y0-&gt;R8, 
 U0-&gt;G8, 
@@ -577,7 +577,7 @@ Width must be even.
 
 <b>Direct3D 11.1:  </b>This value is not supported until Windows 8.
 
-### -field DXGI_FORMAT_Y210
+### -field DXGI_FORMAT_Y210:108
 
 10-bit per channel packed YUV 4:2:2 video resource format. Valid view formats for this video resource format are DXGI_FORMAT_R16G16B16A16_UNORM and DXGI_FORMAT_R16G16B16A16_UINT. The runtime does not enforce whether the lowest 6 bits are 0 (given that this video resource format is a 10-bit format that uses 16 bits). If required, application shader code would have to enforce this manually.  From the runtime's point of view, DXGI_FORMAT_Y210 is no different than DXGI_FORMAT_Y216. Supported view types are SRV and UAV. One view provides a straightforward mapping of the entire surface. The mapping to the view channel is Y0-&gt;R16,
 U-&gt;G16,
@@ -590,7 +590,7 @@ Width must be even.
 
 <b>Direct3D 11.1:  </b>This value is not supported until Windows 8.
 
-### -field DXGI_FORMAT_Y216
+### -field DXGI_FORMAT_Y216:109
 
 16-bit per channel packed YUV 4:2:2 video resource format. Valid view formats for this video resource format are DXGI_FORMAT_R16G16B16A16_UNORM and DXGI_FORMAT_R16G16B16A16_UINT. Supported view types are SRV and UAV. One view provides a straightforward mapping of the entire surface. The mapping to the view channel is Y0-&gt;R16,
 U-&gt;G16,
@@ -603,7 +603,7 @@ Width must be even.
 
 <b>Direct3D 11.1:  </b>This value is not supported until Windows 8.
 
-### -field DXGI_FORMAT_NV11
+### -field DXGI_FORMAT_NV11:110
 
 Most common planar YUV 4:1:1 video resource format. Valid luminance data view formats for this video resource format are DXGI_FORMAT_R8_UNORM and DXGI_FORMAT_R8_UINT. Valid chrominance data view formats (width and height are each 1/4 of luminance view) for this video resource format are DXGI_FORMAT_R8G8_UNORM and DXGI_FORMAT_R8G8_UINT. Supported view types are SRV, RTV, and UAV. For luminance data view, the mapping to the view channel is Y-&gt;R8. For chrominance data view, the mapping to the view channel is U-&gt;R8 and
 V-&gt;G8.
@@ -614,7 +614,7 @@ Width must be a multiple of 4. Direct3D11 staging resources and initData paramet
 
 <b>Direct3D 11.1:  </b>This value is not supported until Windows 8.
 
-### -field DXGI_FORMAT_AI44
+### -field DXGI_FORMAT_AI44:111
 
 4-bit palletized YUV format that is commonly used for DVD subpicture.
 
@@ -622,7 +622,7 @@ For more info about YUV formats for video rendering, see <a href="/windows/deskt
 
 <b>Direct3D 11.1:  </b>This value is not supported until Windows 8.
 
-### -field DXGI_FORMAT_IA44
+### -field DXGI_FORMAT_IA44:112
 
 4-bit palletized YUV format that is commonly used for DVD subpicture.
 
@@ -630,7 +630,7 @@ For more info about YUV formats for video rendering, see <a href="/windows/deskt
 
 <b>Direct3D 11.1:  </b>This value is not supported until Windows 8.
 
-### -field DXGI_FORMAT_P8
+### -field DXGI_FORMAT_P8:113
 
 8-bit palletized format that is used for palletized RGB data when the processor processes ISDB-T data and for palletized YUV data when the processor processes BluRay data.
 
@@ -638,7 +638,7 @@ For more info about YUV formats for video rendering, see <a href="/windows/deskt
 
 <b>Direct3D 11.1:  </b>This value is not supported until Windows 8.
 
-### -field DXGI_FORMAT_A8P8
+### -field DXGI_FORMAT_A8P8:114
 
 8-bit palletized format with 8 bits of alpha that is used for palletized YUV data when the processor processes BluRay data.
 
@@ -646,25 +646,25 @@ For more info about YUV formats for video rendering, see <a href="/windows/deskt
 
 <b>Direct3D 11.1:  </b>This value is not supported until Windows 8.
 
-### -field DXGI_FORMAT_B4G4R4A4_UNORM
+### -field DXGI_FORMAT_B4G4R4A4_UNORM:115
 
 A four-component, 16-bit unsigned-normalized integer format that supports 4 bits for each channel including alpha.
 
 <b>Direct3D 11.1:  </b>This value is not supported until Windows 8.
 
-### -field DXGI_FORMAT_P208
+### -field DXGI_FORMAT_P208:130
 
 A video format; an 8-bit version of a hybrid planar 4:2:2 format.
 
-### -field DXGI_FORMAT_V208
+### -field DXGI_FORMAT_V208:131
 
 An 8 bit YCbCrA 4:4 rendering format.
 
-### -field DXGI_FORMAT_V408
+### -field DXGI_FORMAT_V408:132
 
 An 8 bit YCbCrA 4:4:4:4 rendering format.
 
-### -field DXGI_FORMAT_FORCE_UINT
+### -field DXGI_FORMAT_FORCE_UINT:0xffffffff
 
 Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a 
         size other than 32 bits. This value is not used.

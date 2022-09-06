@@ -120,7 +120,18 @@ The error occurred during a call to
 <td width="60%">
 The error occurred during a call to 
 <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpsendrequest">WinHttpSendRequest</a>.
+</td>
+</tr>
 
+<tr>
+<td width="40%"><a id="API_GET_PROXY_FOR_URL"></a><a id="api_get_proxy_for_url"></a><dl>
+<dt><b>API_GET_PROXY_FOR_URL</b></dt>
+<dt>6</dt>
+</dl>
+</td>
+<td width="60%">
+The error occurred during a call to 
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurlex">WinHttpGetProxyForUrlEx</a>.
 </td>
 </tr>
 </table>

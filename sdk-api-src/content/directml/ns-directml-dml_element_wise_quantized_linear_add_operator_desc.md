@@ -44,9 +44,6 @@ api_name:
 
 Adds every element in *ATensor* to its corresponding element in *BTensor*, placing the result into the corresponding element of *OutputTensor*. Values contained in *ATensor* and *BTensor* are dequantized using the following equation, and then added and requantized.
 
-> [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.6 and later. Also see [DirectML version history](/windows/ai/directml/dml-version-history).
-
 ```
 AValue = (A - AZeroPoint) * AScale
 BValue = (B - BZeroPoint) * BScale

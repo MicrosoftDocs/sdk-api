@@ -57,7 +57,7 @@ Quick Mode PFS (Perfect Forward Secrecy).
 
 ## -enum-fields
 
-### -field IPSEC_PFS_NONE
+### -field IPSEC_PFS_NONE:0
 
 Specifies no Quick Mode PFS.
 

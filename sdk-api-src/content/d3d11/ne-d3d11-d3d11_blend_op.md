@@ -54,23 +54,23 @@ RGB or alpha blending operation.
 
 ## -enum-fields
 
-### -field D3D11_BLEND_OP_ADD
+### -field D3D11_BLEND_OP_ADD:1
 
 Add source 1 and source 2.
 
-### -field D3D11_BLEND_OP_SUBTRACT
+### -field D3D11_BLEND_OP_SUBTRACT:2
 
 Subtract source 1 from source 2.
 
-### -field D3D11_BLEND_OP_REV_SUBTRACT
+### -field D3D11_BLEND_OP_REV_SUBTRACT:3
 
 Subtract source 2 from source 1.
 
-### -field D3D11_BLEND_OP_MIN
+### -field D3D11_BLEND_OP_MIN:4
 
 Find the minimum of source 1 and source 2.
 
-### -field D3D11_BLEND_OP_MAX
+### -field D3D11_BLEND_OP_MAX:5
 
 Find the maximum of source 1 and source 2.
 

@@ -54,18 +54,18 @@ This enumeration is used by the <a href="/windows/desktop/api/wdsclientapi/nf-wd
 
 ## -enum-fields
 
-### -field WDS_LOG_LEVEL_DISABLED
+### -field WDS_LOG_LEVEL_DISABLED:0
 
 The event severity level is disabled.
 
-### -field WDS_LOG_LEVEL_ERROR
+### -field WDS_LOG_LEVEL_ERROR:1
 
 The event severity is error level.
 
-### -field WDS_LOG_LEVEL_WARNING
+### -field WDS_LOG_LEVEL_WARNING:2
 
 The event severity is warning level.
 
-### -field WDS_LOG_LEVEL_INFO
+### -field WDS_LOG_LEVEL_INFO:3
 
 The event severity is information level.

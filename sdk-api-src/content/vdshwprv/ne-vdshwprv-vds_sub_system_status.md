@@ -62,29 +62,29 @@ Defines the
 
 ## -enum-fields
 
-### -field VDS_SSS_UNKNOWN
+### -field VDS_SSS_UNKNOWN:0
 
 This value is reserved.
 
-### -field VDS_SSS_ONLINE
+### -field VDS_SSS_ONLINE:1
 
 The subsystem is working properly.
 
-### -field VDS_SSS_NOT_READY
+### -field VDS_SSS_NOT_READY:2
 
 The subsystem is initializing and not yet ready to work.
 
-### -field VDS_SSS_OFFLINE
+### -field VDS_SSS_OFFLINE:4
 
 The subsystem is unavailable. This value indicates either that the subsystem is disconnected or that it has 
       failed so severely that it appears to be disconnected.
 
-### -field VDS_SSS_FAILED
+### -field VDS_SSS_FAILED:5
 
 The subsystem has failed. This value indicates that the subsystem is not merely 
       disconnected but rather that it has failed.
 
-### -field VDS_SSS_PARTIALLY_MANAGED
+### -field VDS_SSS_PARTIALLY_MANAGED:9
 
 The subsystem is operating in a degraded state. This means that one or more of the subsystem's subcomponents, such as  disk drives or controllers, are in a failed state.
 

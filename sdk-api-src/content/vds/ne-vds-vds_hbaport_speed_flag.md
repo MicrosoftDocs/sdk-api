@@ -61,35 +61,35 @@ Defines the set of valid flags for determining the speeds supported by an HBA po
 
 ## -enum-fields
 
-### -field VDS_HSF_UNKNOWN
+### -field VDS_HSF_UNKNOWN:0
 
 The HBA port speed is unknown. The transceiver is incapable of reporting.
       
 
 HBA_PORTSPEED_UNKNOWN
 
-### -field VDS_HSF_1GBIT
+### -field VDS_HSF_1GBIT:0x1
 
 The HBA port supports a transfer rate of 1 gigabit per second.
       
 
 HBA_PORTSPEED_1GBIT
 
-### -field VDS_HSF_2GBIT
+### -field VDS_HSF_2GBIT:0x2
 
 The HBA port supports a transfer rate of 2 gigabits per second.
       
 
 HBA_PORTSPEED_2GBIT
 
-### -field VDS_HSF_10GBIT
+### -field VDS_HSF_10GBIT:0x4
 
 The HBA port supports a transfer rate of 10 gigabits per second.
       
 
 HBA_PORTSPEED_10GBIT
 
-### -field VDS_HSF_4GBIT
+### -field VDS_HSF_4GBIT:0x8
 
 The HBA port supports a transfer rate of 4 gigabits per second.
       

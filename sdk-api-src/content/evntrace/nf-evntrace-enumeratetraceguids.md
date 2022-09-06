@@ -67,7 +67,8 @@ api_name:
 The **EnumerateTraceGuids** function retrieves information about event trace
 providers that are currently running on the computer.
 
-> [!Important] This function has been superseded by
+> [!Important]
+> This function has been superseded by
 > [EnumerateTraceGuidsEx](/windows/win32/api/evntrace/nf-evntrace-enumeratetraceguidsex).
 
 ## -parameters
@@ -118,7 +119,8 @@ started (via
 [EventRegister](/windows/win32/api/evntprov/nf-evntprov-eventregister)) and have
 not yet been stopped.
 
-> [!Note] To get information about provider manifests that have been registered
+> [!Note]
+> To get information about provider manifests that have been registered
 > on the system (i.e. manifests registered via `wevtutil`), use
 > [TdhEnumerateProviders](/windows/win32/api/tdh/nf-tdh-tdhenumerateproviders).
 

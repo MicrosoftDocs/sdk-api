@@ -93,10 +93,9 @@ The size of the <i>lpFilename</i> buffer, in <b>TCHARs</b>.
 
 If the function succeeds, the return value is the length of the string that is copied to the buffer, in characters, not including the terminating null character. If the buffer is too small to hold the module name, the string is truncated to <i>nSize</i> characters including the terminating null character, the function returns <i>nSize</i>, and the function sets the last error to <b>ERROR_INSUFFICIENT_BUFFER</b>.
 
-<b>Windows XP:  </b>If the buffer is too small to hold the module name, the function returns <i>nSize</i>. The last error code remains <b>ERROR_SUCCESS</b>. If <i>nSize</i> is zero, the return value is zero and the last error code is <b>ERROR_SUCCESS</b>.
+<b>Windows XP:  </b>If the buffer is too small to hold the module name, the function returns <i>nSize</i> and the last error code is not modified. If <i>nSize</i> is zero, the return value is zero and the last error code is not modified.
 
-If the function fails, the return value is 0 (zero). To get extended error information, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is 0 (zero). To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 

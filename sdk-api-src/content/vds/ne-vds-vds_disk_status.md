@@ -58,31 +58,31 @@ Defines the set of object status values for a disk.
 
 ## -enum-fields
 
-### -field VDS_DS_UNKNOWN
+### -field VDS_DS_UNKNOWN:0
 
 The provider failed to get the disk properties from the driver (unknown status, unknown health), or the provider cannot access the disk (unknown status, healthy).
 
-### -field VDS_DS_ONLINE
+### -field VDS_DS_ONLINE:1
 
 The disk is available. The disk status value can be VDS_DS_ONLINE, even if the status of the containing pack is VDS_PS_OFFLINE.
 
-### -field VDS_DS_NOT_READY
+### -field VDS_DS_NOT_READY:2
 
 The disk is currently not ready to use. For example, if you use ACPI Power Management to request that a disk hibernate (spin down), the disk becomes temporarily unavailable.
 
-### -field VDS_DS_NO_MEDIA
+### -field VDS_DS_NO_MEDIA:3
 
 The disk is removable media, such as a CD-ROM drive, or contains no media.
 
-### -field VDS_DS_FAILED
+### -field VDS_DS_FAILED:5
 
 The disk is unavailable and cannot be used.
 
-### -field VDS_DS_MISSING
+### -field VDS_DS_MISSING:6
 
 No physical device is present for the disk object, even though the pack configuration information lists the disk. This status value applies to dynamic disks only.
 
-### -field VDS_DS_OFFLINE
+### -field VDS_DS_OFFLINE:4
 
 The disk is offline.
 

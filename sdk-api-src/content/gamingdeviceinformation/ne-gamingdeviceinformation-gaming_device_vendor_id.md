@@ -54,11 +54,11 @@ Indicates the vendor of the console that the game is running on.
 
 ## -enum-fields
 
-### -field GAMING_DEVICE_VENDOR_ID_NONE
+### -field GAMING_DEVICE_VENDOR_ID_NONE:0
 
 The vendor of the device is not known.
 
-### -field GAMING_DEVICE_VENDOR_ID_MICROSOFT
+### -field GAMING_DEVICE_VENDOR_ID_MICROSOFT:0xC2EC5032
 
 The vendor of the device is Microsoft.
 

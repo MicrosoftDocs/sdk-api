@@ -56,19 +56,19 @@ Defines capabilities related to input formats for a Microsoft DirectX Video Acce
 
 ## -enum-fields
 
-### -field DXVAHD_INPUT_FORMAT_CAPS_RGB_INTERLACED
+### -field DXVAHD_INPUT_FORMAT_CAPS_RGB_INTERLACED:0x1
 
 The device can deinterlace an input stream that contains interlaced RGB video.
 
-### -field DXVAHD_INPUT_FORMAT_CAPS_RGB_PROCAMP
+### -field DXVAHD_INPUT_FORMAT_CAPS_RGB_PROCAMP:0x2
 
 The device can perform color adjustment on RGB video.
 
-### -field DXVAHD_INPUT_FORMAT_CAPS_RGB_LUMA_KEY
+### -field DXVAHD_INPUT_FORMAT_CAPS_RGB_LUMA_KEY:0x4
 
 The device can perform luma keying on RGB video.
 
-### -field DXVAHD_INPUT_FORMAT_CAPS_PALETTE_INTERLACED
+### -field DXVAHD_INPUT_FORMAT_CAPS_PALETTE_INTERLACED:0x8
 
 The device can deinterlace input streams with palettized color formats.
 

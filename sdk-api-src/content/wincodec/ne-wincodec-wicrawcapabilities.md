@@ -54,17 +54,17 @@ Specifies the capability support of a raw image.
 
 ## -enum-fields
 
-### -field WICRawCapabilityNotSupported
+### -field WICRawCapabilityNotSupported:0
 
 The capability is not supported.
 
-### -field WICRawCapabilityGetSupported
+### -field WICRawCapabilityGetSupported:0x1
 
 The capability supports only get operations.
 
-### -field WICRawCapabilityFullySupported
+### -field WICRawCapabilityFullySupported:0x2
 
 The capability supports get and set operations.
 
-### -field WICRAWCAPABILITIES_FORCE_DWORD
+### -field WICRAWCAPABILITIES_FORCE_DWORD:0x7fffffff
 

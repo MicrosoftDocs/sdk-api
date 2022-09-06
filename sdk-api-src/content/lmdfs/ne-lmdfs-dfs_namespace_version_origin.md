@@ -56,7 +56,7 @@ Identifies the origin of DFS namespace version information.
 
 ## -enum-fields
 
-### -field DFS_NAMESPACE_VERSION_ORIGIN_COMBINED
+### -field DFS_NAMESPACE_VERSION_ORIGIN_COMBINED:0
 
 The version information specifies the maximum version that the server and the Active Directory Domain Service (AD DS) domain can support.
 

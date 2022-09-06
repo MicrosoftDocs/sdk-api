@@ -56,7 +56,7 @@ Indicates the reason why an item is offline.
 
 ## -enum-fields
 
-### -field OFFLINEFILES_OFFLINE_REASON_UNKNOWN
+### -field OFFLINEFILES_OFFLINE_REASON_UNKNOWN:0
 
 The reason is unknown because the method failed.
 

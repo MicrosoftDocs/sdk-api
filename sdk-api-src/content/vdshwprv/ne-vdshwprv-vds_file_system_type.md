@@ -59,7 +59,7 @@ Defines the set of valid types for a file system.
 
 ## -enum-fields
 
-### -field VDS_FST_UNKNOWN
+### -field VDS_FST_UNKNOWN:0
 
 The file system is unknown. The <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf-getfilesystemproperties">IVdsVolumeMF::GetFileSystemProperties</a> method returns this value in the <a href="/windows/desktop/api/vds/ns-vds-vds_file_system_prop">VDS_FILE_SYSTEM_PROP</a> structure for BitLocker-encrypted volumes.
 

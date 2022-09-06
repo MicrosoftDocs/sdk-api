@@ -57,7 +57,7 @@ Indicates the state of the cluster. The
 
 ## -enum-fields
 
-### -field ClusterStateNotInstalled
+### -field ClusterStateNotInstalled:0x00000000
 
 The Cluster service is not installed on the node.
 

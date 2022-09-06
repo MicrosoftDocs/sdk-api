@@ -44,7 +44,7 @@ The <b>WLAN_AUTOCONF_OPCODE</b> enumerated type specifies an  automatic configur
 
 ## -enum-fields
 
-### -field wlan_autoconf_opcode_start
+### -field wlan_autoconf_opcode_start:0
 
 Not used.
 

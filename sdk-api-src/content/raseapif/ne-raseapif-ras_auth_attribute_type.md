@@ -61,7 +61,7 @@ The
 
 ## -enum-fields
 
-### -field raatMinimum
+### -field raatMinimum:0
 
 Specifies a value equal to zero, and used as the <b>NULL</b> terminator in any array of 
 <a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> structures.
@@ -120,7 +120,7 @@ Specifies the IP network mask for a user that is a router to a network. The valu
 <a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> for this type is a 32-bit integral value. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
-### -field raatFramedRouting
+### -field raatFramedRouting:10
 
 Specifies the routing method for a user that is a router to a network. The value field in 
 <a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> for this type is a 32-bit integral value. For more information, see 
@@ -178,7 +178,7 @@ Specifies a callback number. The value field in
 <a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> for this type is a pointer. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
-### -field raatCallbackId
+### -field raatCallbackId:20
 
 Specifies a location to call back. The value of this attribute is interpreted by the NAS. The value field in 
 <a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> for this type is a pointer. For more information, see 
@@ -237,7 +237,7 @@ Specifies an action the server performs when time the connection terminates. Ref
 <a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> for this type is 32-bit integral value. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
-### -field raatCalledStationId
+### -field raatCalledStationId:30
 
 Specifies the number that the user dialed to connect to the NAS. The value field in 
 <a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> for this type is a pointer. For more information, see 
@@ -294,7 +294,7 @@ Specifies the AppleTalk default zone for the user. The value field in
 <a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> for this type is a pointer. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
-### -field raatAcctStatusType
+### -field raatAcctStatusType:40
 
 Specifies whether the accounting provider should start or stop accounting for the user. The value field in 
 <a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> for this type is a 32-bit integral value. For more information, see 
@@ -354,7 +354,7 @@ Specifies how the current accounting session was terminated. The value field in
 <a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> for this type is a 32-bit integral value. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a>.
 
-### -field raatAcctMultiSessionId
+### -field raatAcctMultiSessionId:50
 
 Specifies a value to enable the identification of related accounting sessions within a log file. The value field in 
 <a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> for this type is a 32-bit integral value. For more information, see 
@@ -366,13 +366,13 @@ Specifies the number of links if the current accounting session is using a multi
 <a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> for this type is a 32-bit integral value. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a>.
 
-### -field raatAcctEventTimeStamp
+### -field raatAcctEventTimeStamp:55
 
 Specifies an attribute that is included in an accounting request packet. It specifies the time that the event took place. The value field in 
 <a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> for this type is a 32-bit integral value. For more information, see the 
 <a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a> Internet draft.
 
-### -field raatMD5CHAPChallenge
+### -field raatMD5CHAPChallenge:60
 
 Specifies the CHAP challenge sent by the NAS to a CHAP user. The value field in 
 <a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> for this type is a pointer. For more information, see 
@@ -539,7 +539,7 @@ Points to the address of the initiator end of the tunnel.
 
 Points to the address of the server end of the tunnel.
 
-### -field raatARAPPassword
+### -field raatARAPPassword:70
 
 Specifies a password to use for AppleTalk Remote Access Protocol (ARAP) authentication. The value field in 
 <a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> for this type is a pointer. For more information, see 
@@ -598,25 +598,25 @@ Specifies that EAP information be sent directly between the user and the authent
 <a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> for this type is a pointer. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
 
-### -field raatSignature
+### -field raatSignature:80
 
 Specifies a signature to include with CHAP, EAP, or ARAP packets. The value field in 
 <a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> for this type is a pointer. For more information, 
 <a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
 
-### -field raatARAPChallengeResponse
+### -field raatARAPChallengeResponse:84
 
 Specifies the response to a Apple Remote Access Protocol (ARAP) challenge. In ARAP, either the server or the client may respond to challenges. The value field in 
 <a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> for this type is a pointer. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
 
-### -field raatAcctInterimInterval
+### -field raatAcctInterimInterval:85
 
 Specifies the time, in seconds, between accounting updates. The value field in 
 <a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> for this type is a 32-bit integral value. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
 
-### -field raatNASIPv6Address
+### -field raatNASIPv6Address:95
 
 ### -field raatFramedInterfaceId
 
@@ -628,7 +628,7 @@ Specifies the time, in seconds, between accounting updates. The value field in
 
 ### -field raatFramedIPv6Pool
 
-### -field raatARAPGuestLogon
+### -field raatARAPGuestLogon:8096
 
 Specifies a Apple Remote Access Protocol (ARAP) guest logon. The value field in 
 <a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> for this type is a 32-bit integral value. For more information, see 
@@ -642,27 +642,27 @@ Reserved for internal use only.
 
 Reserved for internal use only.
 
-### -field raatPEAPEmbeddedEAPTypeId
+### -field raatPEAPEmbeddedEAPTypeId:8099
 
 Reserved for internal use only.
 
-### -field raatInnerEAPTypeId
+### -field raatInnerEAPTypeId:8099
 
-### -field raatPEAPFastRoamedSession
+### -field raatPEAPFastRoamedSession:8100
 
 Reserved for internal use only.
 
-### -field raatFastRoamedSession
+### -field raatFastRoamedSession:8100
 
-### -field raatEAPTLV
+### -field raatEAPTLV:8102
 
 Indicates and EAP-TLV attribute.
 
 ### -field raatCredentialsChanged
 
-### -field raatCertificateThumbprint
+### -field raatCertificateThumbprint:8250
 
-### -field raatPeerId
+### -field raatPeerId:9000
 
 ### -field raatServerId
 

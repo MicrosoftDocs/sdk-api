@@ -56,15 +56,15 @@ Describes how a video stream is interlaced.
 
 ## -enum-fields
 
-### -field DXVAHD_FRAME_FORMAT_PROGRESSIVE
+### -field DXVAHD_FRAME_FORMAT_PROGRESSIVE:0
 
 Frames are progressive.
 
-### -field DXVAHD_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST
+### -field DXVAHD_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST:1
 
 Frames are interlaced. The top field of each frame is displayed first.
 
-### -field DXVAHD_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST
+### -field DXVAHD_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST:2
 
 Frame are interlaced. The bottom field of each frame is displayed first.
 

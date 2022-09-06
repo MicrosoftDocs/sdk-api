@@ -45,19 +45,19 @@ Defines constants that specify sampler feedback support.
 
 ## -enum-fields
 
-### -field D3D12_SAMPLER_FEEDBACK_TIER_NOT_SUPPORTED
+### -field D3D12_SAMPLER_FEEDBACK_TIER_NOT_SUPPORTED:0
 
 Specifies that mesh and amplification shaders are not supported.
 
-### -field D3D12_SAMPLER_FEEDBACK_TIER_0_9
+### -field D3D12_SAMPLER_FEEDBACK_TIER_0_9:90
 
 Specifies that mesh and amplification shaders are supported to tier 0.9.
 
-### -field D3D12_SAMPLER_FEEDBACK_TIER_1_0
+### -field D3D12_SAMPLER_FEEDBACK_TIER_1_0:100
 
 Specifies that mesh and amplification shaders are supported to tier 1.0.
 
-### -field D3D12_MESH_SHADER_TIER_NOT_SUPPORTED
+### -field D3D12_MESH_SHADER_TIER_NOT_SUPPORTED:0
 
 ## -remarks
 

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Represents app memory usage at a single point in time. This structure is used by the <a href="/previous-versions/mt767996(v=vs.85)">PROCESS_INFORMATION_CLASS</a> class.
+Represents app memory usage at a single point in time. This structure is used by the [PROCESS_INFORMATION_CLASS](ne-processthreadsapi-process_information_class.md) enumeration.
 
 ## -struct-fields
 
@@ -76,4 +76,4 @@ The app's total usage of private plus shared commit.
 
 ## -see-also
 
-<a href="/previous-versions/mt767996(v=vs.85)">PROCESS_INFORMATION_CLASS</a>
+[PROCESS_INFORMATION_CLASS enumeration](ne-processthreadsapi-process_information_class.md)

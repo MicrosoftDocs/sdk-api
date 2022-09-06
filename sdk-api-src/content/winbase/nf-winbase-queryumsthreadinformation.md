@@ -54,6 +54,9 @@ req.apiset: api-ms-win-core-ums-l1-1-0 (introduced in Windows 7)
 
 Retrieves information about the specified user-mode scheduling (UMS) worker thread.
 
+> [!WARNING]
+> As of Windows 11, user-mode scheduling is not supported. All calls fail with the error `ERROR_NOT_SUPPORTED`.
+
 ## -parameters
 
 ### -param UmsThread [in]
@@ -112,6 +115,14 @@ The buffer is too small for the requested information.
 The specified information class is not supported.
 
 </td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_SUPPORTED</b></dt>
+</dl>
+</td>
+<td width="60%">UMS is not supported.</td>
 </tr>
 </table>
 

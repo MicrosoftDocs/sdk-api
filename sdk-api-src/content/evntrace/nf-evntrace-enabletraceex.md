@@ -93,7 +93,8 @@ A GUID that can uniquely identify the source of this configuration request, or
 invoking the provider's
 [EnableCallback](/windows/win32/api/evntprov/nc-evntprov-penablecallback).
 
-> [!Note] There is not always a direct mapping between a call to **EnableTrace**
+> [!Note]
+> There is not always a direct mapping between a call to **EnableTrace**
 > and a corresponding call to the provider's **EnableCallback**. For example, if
 > **EnableTrace** is called for a provider that has not yet been registered, the
 > call to **EnableCallback** will be deferred until the registration occurs, and
@@ -164,7 +165,8 @@ Flags specifying special behaviors that the ETW runtime should enable when
 collecting events from this provider. To enable special behaviors, specify one
 or more of the following flags. Otherwise, set _EnableProperty_ to 0.
 
-> [!Note] Several of these flags indicate that ETW should include extra
+> [!Note]
+> Several of these flags indicate that ETW should include extra
 > information into each event. The data is written to the
 > [extended data item](/windows/win32/api/evntcons/ns-evntcons-event_header_extended_data_item)
 > section of the event.

@@ -54,23 +54,23 @@ Identifies the granularity at which the graphics processing unit (GPU) can be pr
 
 ## -enum-fields
 
-### -field DXGI_COMPUTE_PREEMPTION_DMA_BUFFER_BOUNDARY
+### -field DXGI_COMPUTE_PREEMPTION_DMA_BUFFER_BOUNDARY:0
 
 Indicates the preemption granularity as a compute packet.
 
-### -field DXGI_COMPUTE_PREEMPTION_DISPATCH_BOUNDARY
+### -field DXGI_COMPUTE_PREEMPTION_DISPATCH_BOUNDARY:1
 
 Indicates the preemption granularity as a dispatch (for example, a call to the <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-dispatch">ID3D11DeviceContext::Dispatch</a> method). A dispatch is a part of a compute packet.
 
-### -field DXGI_COMPUTE_PREEMPTION_THREAD_GROUP_BOUNDARY
+### -field DXGI_COMPUTE_PREEMPTION_THREAD_GROUP_BOUNDARY:2
 
 Indicates the preemption granularity as a thread group. A thread group is a part of a dispatch.
 
-### -field DXGI_COMPUTE_PREEMPTION_THREAD_BOUNDARY
+### -field DXGI_COMPUTE_PREEMPTION_THREAD_BOUNDARY:3
 
 Indicates the preemption granularity as a thread in a thread group. A thread is a part of a thread group.
 
-### -field DXGI_COMPUTE_PREEMPTION_INSTRUCTION_BOUNDARY
+### -field DXGI_COMPUTE_PREEMPTION_INSTRUCTION_BOUNDARY:4
 
 Indicates the preemption granularity as a compute instruction in a thread.
 

@@ -59,16 +59,16 @@ Defines the set of valid types for authentication when logging into an iSCSI tar
 
 ## -enum-fields
 
-### -field VDS_IAT_NONE
+### -field VDS_IAT_NONE:0
 
 No authentication is performed.
 
-### -field VDS_IAT_CHAP
+### -field VDS_IAT_CHAP:1
 
 One-way CHAP authentication is performed (target authenticates initiator). The target CHAP secret must be 
      specified during login.
 
-### -field VDS_IAT_MUTUAL_CHAP
+### -field VDS_IAT_MUTUAL_CHAP:2
 
 Mutual CHAP authentication is performed (target authenticates initiator and initiator authenticates 
      target). The target CHAP secret must be specified and the initiator CHAP secret must also have been set.

@@ -59,7 +59,7 @@ The <b>MSP_ADDRESS_EVENT</b> constant is returned within the
 
 ## -enum-fields
 
-### -field ADDRESS_TERMINAL_AVAILABLE
+### -field ADDRESS_TERMINAL_AVAILABLE:0
 
 A new terminal arrived by PNP.
 

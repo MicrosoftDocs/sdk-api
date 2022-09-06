@@ -107,7 +107,8 @@ This API provides a simple way to determine whether an event is enabled (i.e.
 whether any event consumer sessions are interested in receiving the event) based
 on the provider handle, the event level, and the event keyword.
 
-> **Note:** This API performs a conservative quick test. It is possible for this
+> [!Note]
+> This API performs a conservative quick test. It is possible for this
 > API to return true in certain cases where subsequent in-depth filtering would
 > determine that no sessions need to record the event.
 

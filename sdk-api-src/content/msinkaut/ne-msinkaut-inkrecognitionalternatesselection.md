@@ -54,15 +54,15 @@ Not implemented.
 
 ## -enum-fields
 
-### -field IRAS_Start
+### -field IRAS_Start:0
 
 Reserved.
 
-### -field IRAS_DefaultCount
+### -field IRAS_DefaultCount:10
 
 Reserved.
 
-### -field IRAS_All
+### -field IRAS_All:-1
 
 Reserved.
 

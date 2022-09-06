@@ -58,15 +58,15 @@ Defines the properties of file systems that are supported for formatting volumes
 
 ## -enum-fields
 
-### -field VDS_FSS_DEFAULT
+### -field VDS_FSS_DEFAULT:0x1
 
 The file system is the default file system to be used for formatting the volume.
 
-### -field VDS_FSS_PREVIOUS_REVISION
+### -field VDS_FSS_PREVIOUS_REVISION:0x2
 
 The revision of the file system is not the latest revision supported for formatting the volume.
 
-### -field VDS_FSS_RECOMMENDED
+### -field VDS_FSS_RECOMMENDED:0x4
 
 The file system is the recommended file system to be used for formatting the volume.
 

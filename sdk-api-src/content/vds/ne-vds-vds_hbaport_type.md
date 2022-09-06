@@ -60,71 +60,71 @@ Defines the
 
 ## -enum-fields
 
-### -field VDS_HPT_UNKNOWN
+### -field VDS_HPT_UNKNOWN:1
 
 The port type is unknown.
      
 
 HBA_PORTTYPE_UNKNOWN
 
-### -field VDS_HPT_OTHER
+### -field VDS_HPT_OTHER:2
 
 The port type is another (undefined) type.
      
 
 HBA_PORTTYPE_OTHER
 
-### -field VDS_HPT_NOTPRESENT
+### -field VDS_HPT_NOTPRESENT:3
 
 The port type is not present.
      
 
 HBA_PORTTYPE_NOTPRESENT
 
-### -field VDS_HPT_NPORT
+### -field VDS_HPT_NPORT:5
 
 The port type is a fabric.
      
 
 HBA_PORTTYPE_NPORT
 
-### -field VDS_HPT_NLPORT
+### -field VDS_HPT_NLPORT:6
 
 The port type is a public loop.
      
 
 HBA_PORTTYPE_NLPORT
 
-### -field VDS_HPT_FLPORT
+### -field VDS_HPT_FLPORT:7
 
 The port type is a fabric on a loop.
      
 
 HBA_PORTTYPE_FLPORT
 
-### -field VDS_HPT_FPORT
+### -field VDS_HPT_FPORT:8
 
 The port type is a fabric port.
      
 
 HBA_PORTTYPE_FPORT
 
-### -field VDS_HPT_EPORT
+### -field VDS_HPT_EPORT:9
 
 The port type is a fabric expansion port.
 
-### -field VDS_HPT_GPORT
+### -field VDS_HPT_GPORT:10
 
 The port type is a generic fabric port.
 
-### -field VDS_HPT_LPORT
+### -field VDS_HPT_LPORT:20
 
 The port type is a private loop.
      
 
 HBA_PORTTYPE_LPORT
 
-### -field VDS_HPT_PTP
+### -field VDS_HPT_PTP:21
 
 The port type is point-to-point.
      

@@ -54,13 +54,13 @@ Specifies whether an arc should be greater than 180 degrees.
 
 ## -enum-fields
 
-### -field D2D1_ARC_SIZE_SMALL
+### -field D2D1_ARC_SIZE_SMALL:0
 
 An arc's sweep should be 180 degrees or less.
 
-### -field D2D1_ARC_SIZE_LARGE
+### -field D2D1_ARC_SIZE_LARGE:1
 
 An arc's sweep should be 180 degrees or greater.
 
-### -field D2D1_ARC_SIZE_FORCE_DWORD
+### -field D2D1_ARC_SIZE_FORCE_DWORD:0xffffffff
 

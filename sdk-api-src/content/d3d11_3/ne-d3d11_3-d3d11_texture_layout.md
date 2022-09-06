@@ -54,15 +54,15 @@ Specifies texture layout options.
 
 ## -enum-fields
 
-### -field D3D11_TEXTURE_LAYOUT_UNDEFINED
+### -field D3D11_TEXTURE_LAYOUT_UNDEFINED:0
 
 The texture layout is undefined, and is selected by the driver.
 
-### -field D3D11_TEXTURE_LAYOUT_ROW_MAJOR
+### -field D3D11_TEXTURE_LAYOUT_ROW_MAJOR:1
 
 Data for the texture is stored in row major (sometimes called pitch-linear) order.
 
-### -field D3D11_TEXTURE_LAYOUT_64K_STANDARD_SWIZZLE
+### -field D3D11_TEXTURE_LAYOUT_64K_STANDARD_SWIZZLE:2
 
 A default texture uses the standardized swizzle pattern.
 

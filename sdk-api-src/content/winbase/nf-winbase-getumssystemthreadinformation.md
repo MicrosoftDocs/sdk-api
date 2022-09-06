@@ -54,6 +54,9 @@ req.apiset: api-ms-win-core-ums-l1-1-0 (introduced in Windows 7)
 
 Queries whether the specified thread is a UMS scheduler thread, a UMS worker thread, or a non-UMS thread.
 
+> [!WARNING]
+> As of Windows 11, user-mode scheduling is not supported. All calls fail with the error `ERROR_NOT_SUPPORTED`.
+
 ## -parameters
 
 ### -param ThreadHandle [in]

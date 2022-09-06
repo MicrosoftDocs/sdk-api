@@ -54,21 +54,21 @@ Specifies how the memory to be mapped from the corresponding <a href="/windows/d
 
 ## -enum-fields
 
-### -field D2D1_MAP_OPTIONS_NONE
+### -field D2D1_MAP_OPTIONS_NONE:0
 
-### -field D2D1_MAP_OPTIONS_READ
+### -field D2D1_MAP_OPTIONS_READ:1
 
 Allow CPU Read access.
 
-### -field D2D1_MAP_OPTIONS_WRITE
+### -field D2D1_MAP_OPTIONS_WRITE:2
 
 Allow CPU Write access.
 
-### -field D2D1_MAP_OPTIONS_DISCARD
+### -field D2D1_MAP_OPTIONS_DISCARD:4
 
 Discard the previous contents of the resource when it is mapped.
 
-### -field D2D1_MAP_OPTIONS_FORCE_DWORD
+### -field D2D1_MAP_OPTIONS_FORCE_DWORD:0xffffffff
 
 ## -remarks
 

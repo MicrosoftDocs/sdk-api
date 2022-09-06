@@ -199,7 +199,8 @@ session, call the [ControlTrace](/windows/desktop/ETW/controltrace) function.
 For an example that uses **UpdateTrace**, see
 [Updating an Event Tracing Session](/windows/desktop/ETW/updating-an-event-tracing-session).
 
-> [!NOTE] The evntrace.h header defines UpdateTrace as an alias which
+> [!NOTE]
+> The evntrace.h header defines UpdateTrace as an alias which
 > automatically selects the ANSI or Unicode version of this function based on
 > the definition of the UNICODE preprocessor constant. Mixing usage of the
 > encoding-neutral alias with code that not encoding-neutral can lead to

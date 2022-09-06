@@ -201,6 +201,18 @@ Progress of the copy is tracked in the target file in case the copy fails. The f
 
 </td>
 </tr>
+
+<tr>
+<td width="40%"><a id="COPY_FILE_RESTARTABLE"></a><a id="copy_file_restartable"></a><dl>
+<dt><b>COPY_FILE_REQUEST_COMPRESSED_TRAFFIC</b></dt>
+<dt> 0x10000000</dt>
+</dl>
+</td>
+<td width="60%">
+<p>Request the underlying transfer channel compress the data during the copy operation. The request may not be supported for all mediums, in which case it is ignored. The compression attributes and parameters (computational complexity, memory usage) are not configurable through this API, and are subject to change between different OS releases.</p>
+<p>This flag was introduced in Windows 10, version 1903 and Windows Server 2022. On Windows 10, the flag is supported for files residing on SMB shares, where the negotiated SMB protocol version is SMB v3.1.1 or greater.</p>
+</td>
+</tr>
 </table>
 
 ## -returns

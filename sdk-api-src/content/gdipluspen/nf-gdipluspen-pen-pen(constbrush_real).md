@@ -65,7 +65,7 @@ Pointer to a brush to base this pen on.
 
 Type: <b>REAL</b>
 
-Optional. Real number that specifies the width of this pen's stroke. The default value is 1.0.
+Optional. Real number that specifies the width of this pen's stroke. The default value is 1.0.  If this value is 0, the width in device units is always 1 pixel, except that the `width` will not be affected by scale-transform operations that are in effect for the Graphics object that the <xref:System.Drawing.Pen> is used for; the width will always be 1 pixel.
 
 ## -remarks
 

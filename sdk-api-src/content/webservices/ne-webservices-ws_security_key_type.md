@@ -57,16 +57,16 @@ token service.
 
 ## -enum-fields
 
-### -field WS_SECURITY_KEY_TYPE_NONE
+### -field WS_SECURITY_KEY_TYPE_NONE:1
 
 Has no key -- it may be a bearer token such as a username/password
 pair.
 
-### -field WS_SECURITY_KEY_TYPE_SYMMETRIC
+### -field WS_SECURITY_KEY_TYPE_SYMMETRIC:2
 
 Has a symmetric key.
 
-### -field WS_SECURITY_KEY_TYPE_ASYMMETRIC
+### -field WS_SECURITY_KEY_TYPE_ASYMMETRIC:3
 
 Has an asymmetric key.
 

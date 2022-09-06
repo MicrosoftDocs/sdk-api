@@ -56,7 +56,7 @@ The <b>EC_SUBSCRIPTION_CREDENTIALS_TYPE</b> enumeration specifies the type of cr
 
 ## -enum-fields
 
-### -field EcSubscriptionCredDefault
+### -field EcSubscriptionCredDefault:0
 
 Negotiate with event sources to specify a proper authentication type without specifying a username and password for the subscription credentials.
 

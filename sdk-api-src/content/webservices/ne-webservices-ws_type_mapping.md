@@ -55,7 +55,7 @@ How a <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE<
 
 ## -enum-fields
 
-### -field WS_ELEMENT_TYPE_MAPPING
+### -field WS_ELEMENT_TYPE_MAPPING:1
 
 This is used when reading or writing an element where the type
                     corresponds to the type of the element.
@@ -85,7 +85,7 @@ WsReadType(..., WS_ELEMENT_TYPE_MAPPING, ...)
 ```
 
 
-### -field WS_ATTRIBUTE_TYPE_MAPPING
+### -field WS_ATTRIBUTE_TYPE_MAPPING:2
 
 This is used when reading or writing the value of a single attribute.  The definition
                     of the type must not require any mappings to attributes or child elements.
@@ -115,7 +115,7 @@ WsReadEndAttribute(...)
 ```
 
 
-### -field WS_ELEMENT_CONTENT_TYPE_MAPPING
+### -field WS_ELEMENT_CONTENT_TYPE_MAPPING:3
 
 This is used when when the type corresponds to all or part of the 
                     content (text and child elements) of an element.
@@ -155,7 +155,7 @@ WsReadEndElement(...)
 ```
 
 
-### -field WS_ANY_ELEMENT_TYPE_MAPPING
+### -field WS_ANY_ELEMENT_TYPE_MAPPING:4
 
 This is used when when the type corresponds to the complete
                     element, including the name and namespace of the element.

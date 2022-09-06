@@ -61,23 +61,23 @@ Defines the set of object status values for a LUN.
 
 ## -enum-fields
 
-### -field VDS_LS_UNKNOWN
+### -field VDS_LS_UNKNOWN:0
 
 This value is reserved.
 
-### -field VDS_LS_ONLINE
+### -field VDS_LS_ONLINE:1
 
 The LUN is available.
 
-### -field VDS_LS_NOT_READY
+### -field VDS_LS_NOT_READY:2
 
 The LUN is busy.
 
-### -field VDS_LS_OFFLINE
+### -field VDS_LS_OFFLINE:4
 
 The LUN is unavailable.
 
-### -field VDS_LS_FAILED
+### -field VDS_LS_FAILED:5
 
 The LUN has failed.
 

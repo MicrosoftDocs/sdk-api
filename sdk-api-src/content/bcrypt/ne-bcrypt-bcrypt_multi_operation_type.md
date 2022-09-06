@@ -54,7 +54,7 @@ The <b>BCRYPT_MULTI_OPERATION_TYPE</b> enumeration specifies type of multi-opera
 
 ## -enum-fields
 
-### -field BCRYPT_OPERATION_TYPE_HASH
+### -field BCRYPT_OPERATION_TYPE_HASH:1
 
 A hash operation.
 

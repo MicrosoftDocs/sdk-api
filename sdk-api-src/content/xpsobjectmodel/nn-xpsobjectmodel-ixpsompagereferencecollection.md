@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMPageReferenceCollection interface
 
-
 ## -description
 
 A collection of <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference">IXpsOMPageReference</a> interface pointers.

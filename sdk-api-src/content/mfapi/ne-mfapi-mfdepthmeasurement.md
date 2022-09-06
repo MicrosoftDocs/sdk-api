@@ -41,11 +41,11 @@ Specifies the measurement system for a depth value in a video frame.
 
 ## -enum-fields
 
-### -field DistanceToFocalPlane
+### -field DistanceToFocalPlane:0
 
 The measurement is the distance to the focal plane.
 
-### -field DistanceToOpticalCenter
+### -field DistanceToOpticalCenter:1
 
 The measurement is the distance to the optical center.
 

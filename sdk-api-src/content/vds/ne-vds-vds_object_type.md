@@ -60,99 +60,99 @@ Defines the set of
 
 ## -enum-fields
 
-### -field VDS_OT_UNKNOWN
+### -field VDS_OT_UNKNOWN:0
 
 This value is reserved.
 
-### -field VDS_OT_PROVIDER
+### -field VDS_OT_PROVIDER:1
 
 The object is a <a href="/windows/desktop/VDS/provider-object">provider</a>.
 
-### -field VDS_OT_PACK
+### -field VDS_OT_PACK:10
 
 The object is a <a href="/windows/desktop/VDS/pack-object">disk pack</a>.
 
-### -field VDS_OT_VOLUME
+### -field VDS_OT_VOLUME:11
 
 The object is a <a href="/windows/desktop/VDS/volume-object">volume</a>.
 
-### -field VDS_OT_VOLUME_PLEX
+### -field VDS_OT_VOLUME_PLEX:12
 
 The object is a <a href="/windows/desktop/VDS/volume-plex-object">volume plex</a>.
 
-### -field VDS_OT_DISK
+### -field VDS_OT_DISK:13
 
 The object is a <a href="/windows/desktop/VDS/disk-object">disk</a>.
 
-### -field VDS_OT_SUB_SYSTEM
+### -field VDS_OT_SUB_SYSTEM:30
 
 The object is a <a href="/windows/desktop/VDS/subsystem-object">subsystem</a>.
 
-### -field VDS_OT_CONTROLLER
+### -field VDS_OT_CONTROLLER:31
 
 The object is a <a href="/windows/desktop/VDS/controller-object">controller</a>.
 
-### -field VDS_OT_DRIVE
+### -field VDS_OT_DRIVE:32
 
 The object is a <a href="/windows/desktop/VDS/drive-object">drive</a>.
 
-### -field VDS_OT_LUN
+### -field VDS_OT_LUN:33
 
 The object is a <a href="/windows/desktop/VDS/lun-object">LUN</a>.
 
-### -field VDS_OT_LUN_PLEX
+### -field VDS_OT_LUN_PLEX:34
 
 The object is a <a href="/windows/desktop/VDS/lun-plex-object">LUN plex</a>.
 
-### -field VDS_OT_PORT
+### -field VDS_OT_PORT:35
 
 The object is a <a href="/windows/desktop/VDS/controller-port-object">controller port</a>.
 
-### -field VDS_OT_PORTAL
+### -field VDS_OT_PORTAL:36
 
 The object is an <a href="/windows/desktop/VDS/portal-object">iSCSI portal</a>.
 
-### -field VDS_OT_TARGET
+### -field VDS_OT_TARGET:37
 
 The object is an <a href="/windows/desktop/VDS/target-object">iSCSI target</a>.
 
-### -field VDS_OT_PORTAL_GROUP
+### -field VDS_OT_PORTAL_GROUP:38
 
 The object is an <a href="/windows/desktop/VDS/portal-group-object">iSCSI portal group</a>.
 
-### -field VDS_OT_STORAGE_POOL
+### -field VDS_OT_STORAGE_POOL:39
 
 The object is a <a href="/windows/desktop/VDS/storage-pool-object">storage pool</a>.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>Not supported.
 
-### -field VDS_OT_HBAPORT
+### -field VDS_OT_HBAPORT:90
 
 The object is an <a href="/windows/desktop/VDS/startup-and-service-objects">HBA port</a>.
 
-### -field VDS_OT_INIT_ADAPTER
+### -field VDS_OT_INIT_ADAPTER:91
 
 The object is an <a href="/windows/desktop/VDS/startup-and-service-objects">iSCSI initiator adapter</a>.
 
-### -field VDS_OT_INIT_PORTAL
+### -field VDS_OT_INIT_PORTAL:92
 
 The object is an <a href="/windows/desktop/VDS/startup-and-service-objects">iSCSI initiator portal</a>.
 
-### -field VDS_OT_ASYNC
+### -field VDS_OT_ASYNC:100
 
 This value is reserved.
 
-### -field VDS_OT_ENUM
+### -field VDS_OT_ENUM:101
 
 This value is reserved.
 
-### -field VDS_OT_VDISK
+### -field VDS_OT_VDISK:200
 
 The object is a virtual disk.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>Not supported.
 
-### -field VDS_OT_OPEN_VDISK
+### -field VDS_OT_OPEN_VDISK:201
 
 This value is reserved.
 

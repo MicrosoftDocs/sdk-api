@@ -5,7 +5,7 @@ description: Computes backpropagation gradients for [element-wise clip](/windows
 helpviewer_keywords: ["DML_ELEMENT_WISE_CLIP_GRAD_OPERATOR_DESC","DML_ELEMENT_WISE_CLIP_GRAD_OPERATOR_DESC structure","direct3d12.dml_element_wise_clip_grad_operator_desc","directml/DML_ELEMENT_WISE_CLIP_GRAD_OPERATOR_DESC"]
 ms.topic: reference
 tech.root: directml
-ms.date: 07/06/2021
+ms.date: 01/19/2022
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -54,9 +54,6 @@ f(x, gradient) = if x <= Min then 0
 
 This operator supports in-place execution, meaning `OutputTensor` is permitted to alias *InputTensor* during binding.
 
-> [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.5 and later. Also see [DirectML version history](/windows/ai/directml/dml-version-history).
-
 ## -struct-fields
 
 ### -field InputTensor
@@ -98,6 +95,14 @@ This operator was introduced in `DML_FEATURE_LEVEL_3_1`.
 *InputGradientTensor*, *InputTensor*, and *OutputGradientTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_5_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| InputGradientTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputGradientTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+
+### DML_FEATURE_LEVEL_3_1 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |

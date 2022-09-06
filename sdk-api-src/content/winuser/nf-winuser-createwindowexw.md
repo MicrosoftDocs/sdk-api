@@ -386,7 +386,7 @@ BOOL Create(
 
 
 
-<a href="/previous-versions/windows/desktop/inputmsg/wm-parentnotify">WM_PARENTNOTIFY</a>
+<a href="/windows/win32/inputmsg/wm-parentnotify">WM_PARENTNOTIFY</a>
 
 
 

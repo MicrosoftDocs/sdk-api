@@ -8,7 +8,7 @@ ms.author: windowssdkdev
 ms.date: 06/11/2019
 ms.keywords: DXCoreAdapterState enumeration, dxcore_interface.dxcoreadapterstate
 ms.localizationpriority: low
-ms.topic: enumeration
+ms.topic: reference
 targetos: Windows
 ms.prod: windows
 req.assembly: 
@@ -47,7 +47,7 @@ Defines constants that specify kinds of DXCore adapter states. Pass one of these
 
 ## -enum-fields
 
-### -field IsDriverUpdateInProgress
+### -field IsDriverUpdateInProgress:0
 
 Specifies the <em>IsDriverUpdateInProgress</em> adapter state, which when `true` indicates that a driver update has been initiated on the adapter but it has not yet completed. If the driver update has already completed, then the adapter will have been invalidated, and your [QueryState](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapter-querystate) call will return a <b>HRESULT</b> of <b>DXGI_ERROR_DEVICE_REMOVED</b>.
 
@@ -55,7 +55,7 @@ When calling [QueryState](/windows/win32/api/dxcore_interface/nf-dxcore_interfac
 
 <b>Important</b>. This state item is not supported for [SetState](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapter-setstate).
 
-### -field AdapterMemoryBudget
+### -field AdapterMemoryBudget:1
 
 Specifies the <em>AdapterMemoryBudget</em> adapter state, which retrieves or requests the adapter memory budget on the adapter.
 

@@ -54,16 +54,16 @@ Defines values that can be used to customize tree navigation order.
 
 ## -enum-fields
 
-### -field TreeTraversalOptions_Default
+### -field TreeTraversalOptions_Default:0
 
 Pre-order,
     visit children from first to last.
 
-### -field TreeTraversalOptions_PostOrder
+### -field TreeTraversalOptions_PostOrder:0x1
 
 Post-order, see Remarks for more info.
 
-### -field TreeTraversalOptions_LastToFirstOrder
+### -field TreeTraversalOptions_LastToFirstOrder:0x2
 
 Visit children from last to first.
 

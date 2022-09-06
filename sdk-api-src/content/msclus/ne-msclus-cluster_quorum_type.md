@@ -52,7 +52,7 @@ The type of quorum resource to be created.
 
 ## -enum-fields
 
-### -field OperationalQuorum
+### -field OperationalQuorum:0
 
 TBD
 

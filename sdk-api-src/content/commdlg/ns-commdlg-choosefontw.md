@@ -51,10 +51,9 @@ api_name:
 
 # CHOOSEFONTW structure
 
-
 ## -description
 
-Contains information that the <a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> function uses to initialize the <b>Font</b> dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
+Contains information that the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> function uses to initialize the <b>Font</b> dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
 
 ## -struct-fields
 

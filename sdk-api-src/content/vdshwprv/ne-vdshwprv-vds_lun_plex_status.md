@@ -59,23 +59,23 @@ Defines the set of object status values for a LUN plex.
 
 ## -enum-fields
 
-### -field VDS_LPS_UNKNOWN
+### -field VDS_LPS_UNKNOWN:0
 
 This value is reserved.
 
-### -field VDS_LPS_ONLINE
+### -field VDS_LPS_ONLINE:1
 
 The plex is available.
 
-### -field VDS_LPS_NOT_READY
+### -field VDS_LPS_NOT_READY:2
 
 The plex is busy.
 
-### -field VDS_LPS_OFFLINE
+### -field VDS_LPS_OFFLINE:4
 
 The plex is unavailable.
 
-### -field VDS_LPS_FAILED
+### -field VDS_LPS_FAILED:5
 
 The plex has failed.
 

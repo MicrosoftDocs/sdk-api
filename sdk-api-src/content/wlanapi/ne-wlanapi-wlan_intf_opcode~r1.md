@@ -127,11 +127,11 @@ MFP is defined in the IEEE 802.11w-2009 amendment to 802.11 standard.
 
 This value is supported on Windows 8 and  on Windows Server 2012.
 
-### -field wlan_intf_opcode_autoconf_end
+### -field wlan_intf_opcode_autoconf_end:0x0fffffff
 
 Not used.
 
-### -field wlan_intf_opcode_msm_start
+### -field wlan_intf_opcode_msm_start:0x10000100
 
 Not used.
 
@@ -143,23 +143,23 @@ The opcode used to query driver statistics. This opcode can only be used in a qu
 
 Opcode used to query the received signal strength. This opcode can only be used in a query operation with the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a> function.
 
-### -field wlan_intf_opcode_msm_end
+### -field wlan_intf_opcode_msm_end:0x1fffffff
 
 Not used.
 
-### -field wlan_intf_opcode_security_start
+### -field wlan_intf_opcode_security_start:0x20010000
 
 Not used.
 
-### -field wlan_intf_opcode_security_end
+### -field wlan_intf_opcode_security_end:0x2fffffff
 
 Not used.
 
-### -field wlan_intf_opcode_ihv_start
+### -field wlan_intf_opcode_ihv_start:0x30000000
 
 Not used.
 
-### -field wlan_intf_opcode_ihv_end
+### -field wlan_intf_opcode_ihv_end:0x3fffffff
 
 ## -remarks
 

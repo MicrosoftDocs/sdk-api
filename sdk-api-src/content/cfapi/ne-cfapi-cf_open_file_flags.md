@@ -54,20 +54,20 @@ Flags to request various permissions on opening a file.
 
 ## -enum-fields
 
-### -field CF_OPEN_FILE_FLAG_NONE
+### -field CF_OPEN_FILE_FLAG_NONE:0x00000000
 
 No open file flags.
 
-### -field CF_OPEN_FILE_FLAG_EXCLUSIVE
+### -field CF_OPEN_FILE_FLAG_EXCLUSIVE:0x00000001
 
 When specified, <a href="/windows/desktop/api/cfapi/nf-cfapi-cfopenfilewithoplock">CfOpenFileWithOplock</a> returns a share-none handle and requests an RH (OPLOCK_LEVEL_CACHE_READ\|OPLOCK_LEVEL_CACHE_HANDLE) oplock on the file.
 
-### -field CF_OPEN_FILE_FLAG_WRITE_ACCESS
+### -field CF_OPEN_FILE_FLAG_WRITE_ACCESS:0x00000002
 
 When specified, <a href="/windows/desktop/api/cfapi/nf-cfapi-cfopenfilewithoplock">CfOpenFileWithOplock</a> attempts to open the file or directory with FILE_READ_DATA/FILE_LIST_DIRECTORY and FILE_WRITE_DATA/FILE_ADD_FILE access; otherwise it attempts to open the file or directory with FILE_READ_DATA/ FILE_LIST_DIRECTORY.
 
-### -field CF_OPEN_FILE_FLAG_DELETE_ACCESS
+### -field CF_OPEN_FILE_FLAG_DELETE_ACCESS:0x00000004
 
 When specified, <a href="/windows/desktop/api/cfapi/nf-cfapi-cfopenfilewithoplock">CfOpenFileWithOplock</a> attempts to open the file or directory with DELETE access; otherwise it opens the file normally.
 
-### -field CF_OPEN_FILE_FLAG_FOREGROUND
+### -field CF_OPEN_FILE_FLAG_FOREGROUND:0x00000008

@@ -58,23 +58,23 @@ Defines the set of valid formatting options for the <a href="/windows/desktop/ap
 
 ## -enum-fields
 
-### -field VDS_FSOF_NONE
+### -field VDS_FSOF_NONE:0
 
 No options are specified.
 
-### -field VDS_FSOF_FORCE
+### -field VDS_FSOF_FORCE:0x1
 
 The format operation should be forced, even if the partition is in use.
 
-### -field VDS_FSOF_QUICK
+### -field VDS_FSOF_QUICK:0x2
 
 Perform a quick format operation. A quick format does not verify each sector on the volume.
 
-### -field VDS_FSOF_COMPRESSION
+### -field VDS_FSOF_COMPRESSION:0x4
 
 Enable compression on the newly formatted file system volume. Compression is a feature of the NTFS file system; it cannot be set for other file systems such as FAT or FAT32.
 
-### -field VDS_FSOF_DUPLICATE_METADATA
+### -field VDS_FSOF_DUPLICATE_METADATA:0x8
 
 Forces duplication of metadata for UDF 2.5 and above.
 

@@ -56,23 +56,23 @@ api_name:
 
 ## -enum-fields
 
-### -field READYSTATE_UNINITIALIZED
+### -field READYSTATE_UNINITIALIZED:0
 
 Default initialization state.
 
-### -field READYSTATE_LOADING
+### -field READYSTATE_LOADING:1
 
 Object is loading its properties.
 
-### -field READYSTATE_LOADED
+### -field READYSTATE_LOADED:2
 
 Object has been initialized.
 
-### -field READYSTATE_INTERACTIVE
+### -field READYSTATE_INTERACTIVE:3
 
 Object is interactive, but not all its data is available.
 
-### -field READYSTATE_COMPLETE
+### -field READYSTATE_COMPLETE:4
 
 Object has received all its data.
 

@@ -60,23 +60,23 @@ This enumeration is reserved for future use.
 
 ## -enum-fields
 
-### -field VDS_LRM_NONE
+### -field VDS_LRM_NONE:0
 
 This value is reserved.
 
-### -field VDS_LRM_EXCLUSIVE_RW
+### -field VDS_LRM_EXCLUSIVE_RW:1
 
 This value is reserved.
 
-### -field VDS_LRM_EXCLUSIVE_RO
+### -field VDS_LRM_EXCLUSIVE_RO:2
 
 This value is reserved.
 
-### -field VDS_LRM_SHARED_RO
+### -field VDS_LRM_SHARED_RO:3
 
 This value is reserved.
 
-### -field VDS_LRM_SHARED_RW
+### -field VDS_LRM_SHARED_RW:4
 
 This value is reserved.
 

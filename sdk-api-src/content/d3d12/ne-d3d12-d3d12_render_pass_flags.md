@@ -54,19 +54,19 @@ Specifies the nature of the render pass; for example, whether it is a suspending
 
 ## -enum-fields
 
-### -field D3D12_RENDER_PASS_FLAG_NONE
+### -field D3D12_RENDER_PASS_FLAG_NONE:0
 
 Indicates that the render pass has no special requirements.
 
-### -field D3D12_RENDER_PASS_FLAG_ALLOW_UAV_WRITES
+### -field D3D12_RENDER_PASS_FLAG_ALLOW_UAV_WRITES:0x1
 
 Indicates that writes to unordered access view(s) should be allowed during the render pass.
 
-### -field D3D12_RENDER_PASS_FLAG_SUSPENDING_PASS
+### -field D3D12_RENDER_PASS_FLAG_SUSPENDING_PASS:0x2
 
 Indicates that this is a suspending render pass.
 
-### -field D3D12_RENDER_PASS_FLAG_RESUMING_PASS
+### -field D3D12_RENDER_PASS_FLAG_RESUMING_PASS:0x4
 
 Indicates that this is a resuming render pass.
 

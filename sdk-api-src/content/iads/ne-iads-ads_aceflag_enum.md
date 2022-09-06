@@ -58,31 +58,31 @@ For more information and possible values for file, file share and registry objec
 
 ## -enum-fields
 
-### -field ADS_ACEFLAG_INHERIT_ACE
+### -field ADS_ACEFLAG_INHERIT_ACE:0x2
 
 Child objects will inherit this access-control entry (ACE). The inherited ACE is inheritable unless the ADS_ACEFLAG_NO_PROPAGATE_INHERIT_ACE flag is set.
 
-### -field ADS_ACEFLAG_NO_PROPAGATE_INHERIT_ACE
+### -field ADS_ACEFLAG_NO_PROPAGATE_INHERIT_ACE:0x4
 
 The system will clear the ADS_ACEFLAG_INHERIT_ACE flag for the inherited ACEs of child objects. This prevents the ACE from being inherited by subsequent generations of objects.
 
-### -field ADS_ACEFLAG_INHERIT_ONLY_ACE
+### -field ADS_ACEFLAG_INHERIT_ONLY_ACE:0x8
 
 Indicates that an inherit-only ACE that does not exercise access control on the object to which it is attached. If this flag is not set, the ACE is an effective ACE that exerts access control on the object to which it is attached.
 
-### -field ADS_ACEFLAG_INHERITED_ACE
+### -field ADS_ACEFLAG_INHERITED_ACE:0x10
 
 Indicates whether or not the ACE was inherited. The system sets this bit.
 
-### -field ADS_ACEFLAG_VALID_INHERIT_FLAGS
+### -field ADS_ACEFLAG_VALID_INHERIT_FLAGS:0x1f
 
 Indicates whether the inherit flags are valid. The system sets this bit.
 
-### -field ADS_ACEFLAG_SUCCESSFUL_ACCESS
+### -field ADS_ACEFLAG_SUCCESSFUL_ACCESS:0x40
 
 Generates audit messages for successful access attempts, used with ACEs that audit the system in a system access-control list (SACL).
 
-### -field ADS_ACEFLAG_FAILED_ACCESS
+### -field ADS_ACEFLAG_FAILED_ACCESS:0x80
 
 Generates audit messages for failed access attempts, used with ACEs that audit the system in a SACL.
 

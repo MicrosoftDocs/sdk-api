@@ -55,7 +55,7 @@ Each message property is of type <a href="/windows/desktop/api/webservices/ns-we
 
 ## -enum-fields
 
-### -field WS_MESSAGE_PROPERTY_STATE
+### -field WS_MESSAGE_PROPERTY_STATE:0
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a>.
                 
@@ -64,7 +64,7 @@ The accompanying <b>value</b> member of the <a href="/windows/desktop/api/webser
 
 This property is available in all message states.
 
-### -field WS_MESSAGE_PROPERTY_HEAP
+### -field WS_MESSAGE_PROPERTY_HEAP:1
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a>.
                 
@@ -85,7 +85,7 @@ The message object will not use the heap object unless one of
 This property is available in all message states except <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>. 
                     Using the heap of an empty message will result in undefined behavior.
 
-### -field WS_MESSAGE_PROPERTY_ENVELOPE_VERSION
+### -field WS_MESSAGE_PROPERTY_ENVELOPE_VERSION:2
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a>.
                 
@@ -104,7 +104,7 @@ This property may be specified when message properties are specified using
 
 This property is available in all message states except <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
 
-### -field WS_MESSAGE_PROPERTY_ADDRESSING_VERSION
+### -field WS_MESSAGE_PROPERTY_ADDRESSING_VERSION:3
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a>.
                 
@@ -123,7 +123,7 @@ This property may be specified when message properties are specified using
 
 This property is available in all message states except <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
 
-### -field WS_MESSAGE_PROPERTY_HEADER_BUFFER
+### -field WS_MESSAGE_PROPERTY_HEADER_BUFFER:4
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a>.
                 
@@ -137,7 +137,7 @@ This buffer is valid until the message is reset/freed.
 
 This property is available in all message states except <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
 
-### -field WS_MESSAGE_PROPERTY_HEADER_POSITION
+### -field WS_MESSAGE_PROPERTY_HEADER_POSITION:5
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a>.
 
@@ -167,7 +167,7 @@ This property is available in all message states except <a href="/windows/deskto
 
 The header position is valid until the message is reset or freed.
 
-### -field WS_MESSAGE_PROPERTY_BODY_READER
+### -field WS_MESSAGE_PROPERTY_BODY_READER:6
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a>.
                 
@@ -183,7 +183,7 @@ The reader is owned by the message object, and is valid only
 This property is only available when the message is 
                     in <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_READING</a> state.
 
-### -field WS_MESSAGE_PROPERTY_BODY_WRITER
+### -field WS_MESSAGE_PROPERTY_BODY_WRITER:7
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a>.
                 
@@ -199,7 +199,7 @@ This property is only available when the message is in
 The writer is owned by the message object, and is valid only
                     until either <a href="/windows/desktop/api/webservices/nf-webservices-wsfreemessage">WsFreeMessage</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsresetmessage">WsResetMessage</a> are called.
 
-### -field WS_MESSAGE_PROPERTY_IS_ADDRESSED
+### -field WS_MESSAGE_PROPERTY_IS_ADDRESSED:8
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a>.
                 
@@ -222,7 +222,7 @@ This property is available in all message states except <a href="/windows/deskto
 
 See <a href="/windows/desktop/api/webservices/nf-webservices-wsaddressmessage">WsAddressMessage</a> for more information.
 
-### -field WS_MESSAGE_PROPERTY_HEAP_PROPERTIES
+### -field WS_MESSAGE_PROPERTY_HEAP_PROPERTIES:9
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatemessage">WsCreateMessage</a> to specify the properties
                     of the <a href="/windows/desktop/wsw/ws-heap">WS_HEAP</a> associated with the message.
@@ -246,7 +246,7 @@ The following heap properties may be specified:
 </li>
 </ul>
 
-### -field WS_MESSAGE_PROPERTY_XML_READER_PROPERTIES
+### -field WS_MESSAGE_PROPERTY_XML_READER_PROPERTIES:10
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatemessage">WsCreateMessage</a> to specify properties 
                     that apply to <a href="/windows/desktop/wsw/xml-reader">XML Readers</a> that are used with the message.
@@ -296,7 +296,7 @@ The following properties may be specified:
 </li>
 </ul>
 
-### -field WS_MESSAGE_PROPERTY_XML_WRITER_PROPERTIES
+### -field WS_MESSAGE_PROPERTY_XML_WRITER_PROPERTIES:11
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatemessage">WsCreateMessage</a> to specify the properties
                     of the <a href="/windows/desktop/wsw/xml-writer">XML Writers</a> that are used with the message.
@@ -337,7 +337,7 @@ The following properties may be specified:
 </li>
 </ul>
 
-### -field WS_MESSAGE_PROPERTY_IS_FAULT
+### -field WS_MESSAGE_PROPERTY_IS_FAULT:12
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wssetmessageproperty">WsSetMessageProperty</a> to indicate whether a message contains a fault.
                 
@@ -364,7 +364,7 @@ When a message is initialized using <a href="/windows/desktop/api/webservices/nf
 
 This property is available in all message states except <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
 
-### -field WS_MESSAGE_PROPERTY_MAX_PROCESSED_HEADERS
+### -field WS_MESSAGE_PROPERTY_MAX_PROCESSED_HEADERS:13
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatemessage">WsCreateMessage</a> to specify the maximum number of headers
                     that will be allowed when processing the message headers.
@@ -384,7 +384,7 @@ Since an application can directly modify the contents of the header buffer,
 
 The default value is 64.
 
-### -field WS_MESSAGE_PROPERTY_USERNAME
+### -field WS_MESSAGE_PROPERTY_USERNAME:14
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a> to retrieve the sender's
                     username from a received message, if username/password based security
@@ -404,7 +404,7 @@ A custom channel can use <a href="/windows/desktop/api/webservices/nf-webservice
 This property is available in all message states except 
                     <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
 
-### -field WS_MESSAGE_PROPERTY_ENCODED_CERT
+### -field WS_MESSAGE_PROPERTY_ENCODED_CERT:15
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a> to retrieve the sender's
                     certificate from a received message as encoded bytes, if
@@ -425,7 +425,7 @@ A custom channel can use <a href="/windows/desktop/api/webservices/nf-webservice
 This property is available in all message states except
                     <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
 
-### -field WS_MESSAGE_PROPERTY_TRANSPORT_SECURITY_WINDOWS_TOKEN
+### -field WS_MESSAGE_PROPERTY_TRANSPORT_SECURITY_WINDOWS_TOKEN:16
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a> to retrieve the Windows
                     token representing the sender from a received message.  This property is 
@@ -457,7 +457,7 @@ A custom channel can use <a href="/windows/desktop/api/webservices/nf-webservice
 This property is available in all message states except
                     <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
 
-### -field WS_MESSAGE_PROPERTY_HTTP_HEADER_AUTH_WINDOWS_TOKEN
+### -field WS_MESSAGE_PROPERTY_HTTP_HEADER_AUTH_WINDOWS_TOKEN:17
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a> to retrieve the Windows
                     token representing the sender from a received message, if the
@@ -478,7 +478,7 @@ A custom channel can use <a href="/windows/desktop/api/webservices/nf-webservice
 This property is available in all message states except
                     <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
 
-### -field WS_MESSAGE_PROPERTY_MESSAGE_SECURITY_WINDOWS_TOKEN
+### -field WS_MESSAGE_PROPERTY_MESSAGE_SECURITY_WINDOWS_TOKEN:18
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a> to retrieve the Windows
                     token representing the sender from a received message, if a message security
@@ -499,7 +499,7 @@ A custom channel can use <a href="/windows/desktop/api/webservices/nf-webservice
 This property is available in all message states except
                     <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
 
-### -field WS_MESSAGE_PROPERTY_SAML_ASSERTION
+### -field WS_MESSAGE_PROPERTY_SAML_ASSERTION:19
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a> to retrieve the SAML assertion
                     representing the sender from a received message, if the
@@ -520,7 +520,7 @@ A custom channel can use <a href="/windows/desktop/api/webservices/nf-webservice
 This property is available in all message states except
                     <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
 
-### -field WS_MESSAGE_PROPERTY_SECURITY_CONTEXT
+### -field WS_MESSAGE_PROPERTY_SECURITY_CONTEXT:20
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a> to retrieve the secure conversation handle if the
                     <a href="/windows/desktop/api/webservices/ns-webservices-ws_security_context_message_security_binding">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a> is used on the server side.
@@ -530,7 +530,7 @@ The accompanying <b>value</b> member of the <a href="/windows/desktop/api/webser
 
 The returned value is good until the message is freed or reset.
 
-### -field WS_MESSAGE_PROPERTY_PROTECTION_LEVEL
+### -field WS_MESSAGE_PROPERTY_PROTECTION_LEVEL:21
 
 This property is used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a> to retrieve the message's security protection level.
 

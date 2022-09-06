@@ -56,7 +56,7 @@ The
 
 ## -enum-fields
 
-### -field AHE_NEW_AGENTHANDLER
+### -field AHE_NEW_AGENTHANDLER:0
 
 A new AgentHandler object has been added.
 

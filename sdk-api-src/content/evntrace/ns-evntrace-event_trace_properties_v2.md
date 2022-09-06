@@ -116,7 +116,8 @@ tracing session. You use this structure with APIs such as
 [ControlTrace](/windows/win32/api/evntrace/nf-evntrace-controltracea) when
 defining, updating, or querying the properties of a session.
 
-> [!Note] This is a version-2 structure, extended from the
+> [!Note]
+> This is a version-2 structure, extended from the
 > [EVENT_TRACE_PROPERTIES](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties)
 > structure. This structure is supported starting with **Windows 10 version
 > 1703**. When used with earlier versions of Windows, the additional fields
@@ -130,7 +131,8 @@ A [WNODE_HEADER](/windows/win32/etw/wnode-header) structure. You must specify
 the **BufferSize**, **Flags**, and **Guid** members. You may optionally specify
 the **ClientContext** member.
 
-> [!Important] In order for the version-2 fields (e.g. **FilterDesc** and
+> [!Important]
+> In order for the version-2 fields (e.g. **FilterDesc** and
 > **V2Options**) to be recognized, you must set the
 > `WNODE_FLAG_VERSIONED_PROPERTIES` flag in `Wnode.Flags`.
 
@@ -161,12 +163,14 @@ ETW may adjust the requested **BufferSize** upwards in certain scenarios. For
 example, when writing a trace file to a disk, ETW may increase the buffer size
 to a multiple of the disk's physical block size.
 
-> [!Important] **BufferSize** is one of the most important parameters for a
+> [!Important]
+> **BufferSize** is one of the most important parameters for a
 > trace session. Large buffers usually waste memory and disk space. Trace
 > sessions with large buffers (256KB or larger) should be used only for
 > diagnostic investigations or testing, not for production tracing.
 
-> [!Tip] Do not use **BufferSize** to control the trace session's memory usage.
+> [!Tip]
+> Do not use **BufferSize** to control the trace session's memory usage.
 > Instead, select the buffer size based on your session's event size and event
 > rate, then use the **MinimumBuffers** and **MaximumBuffers** parameters to
 > adjust session memory usage.
@@ -220,7 +224,8 @@ Most users should start tuning their session by setting **MinimumBuffers** and
 **MaximumBuffers** to the same value. You might then increase the value of
 **MaximumBuffers** if the trace drops events during event rate peaks.
 
-> [!Note] ETW ignores this field for buffering-mode sessions (sessions that
+> [!Note]
+> ETW ignores this field for buffering-mode sessions (sessions that
 > include logging mode `EVENT_TRACE_BUFFERING_MODE`). Buffering-mode sessions
 > always allocate **MinimumBuffers** at the start of the trace collection and
 > never allocate additional buffers.
@@ -287,7 +292,8 @@ How often, in seconds, any non-empty trace buffer are flushed.
 A _system_ logger session may set **EnableFlags** to indicate which
 SystemTraceProvider events should be included in the trace.
 
-> [!Note] **EnableFlags** is only valid for system loggers, i.e. trace sessions
+> [!Note]
+> **EnableFlags** is only valid for system loggers, i.e. trace sessions
 > that are started using the `EVENT_TRACE_SYSTEM_LOGGER_MODE` logger mode flag,
 > the `KERNEL_LOGGER_NAME` session name, the `SystemTraceControlGuid` session
 > GUID, or the `GlobalLoggerGuid` session GUID.
@@ -572,7 +578,8 @@ the files restricted, create a parent directory with the appropriate ACLs.
 Offset (in bytes) from the start of the structure's allocated memory to the
 beginning of the nul-terminated string that contains the session name.
 
-> [!Important] Use a descriptive name for your session so that the session's
+> [!Important]
+> Use a descriptive name for your session so that the session's
 > ownership and usage can be determined from the session name. Do not use a GUID
 > or other non-descriptive value. Do not append random digits to make your
 > session name unique. ETW sessions are a limited resource so your component
@@ -596,7 +603,8 @@ should make sure your session names are unique.
 
 The version of the structure. This should be set to "2".
 
-> [!Note] This field and all subsequent fields will only be recognized if the
+> [!Note]
+> This field and all subsequent fields will only be recognized if the
 > Wnode.Flags field includes the `WNODE_FLAG_VERSIONED_PROPERTIES` flag and the
 > underlying ETW runtime recognizes the new structure version (**Windows 10
 > version 1703** and later).

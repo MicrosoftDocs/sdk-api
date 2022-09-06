@@ -56,7 +56,7 @@ The <b>PEER_GROUP_ISSUE_CREDENTIAL_FLAGS</b> are used to specify if user credent
 
 ## -enum-fields
 
-### -field PEER_GROUP_STORE_CREDENTIALS
+### -field PEER_GROUP_STORE_CREDENTIALS:0x0001
 
 When the <b>PEER_GROUP_STORE_CREDENTIALS</b> flag is set, the user  credentials are stored within a group database to be retrieved when the user connects. If the flag is not set, any new credentials are returned in string form and must be passed to the user out-of-band.
 

@@ -56,15 +56,15 @@ Contains flags that describe the characteristics of a clock. These flags are ret
 
 ## -enum-fields
 
-### -field MFCLOCK_CHARACTERISTICS_FLAG_FREQUENCY_10MHZ
+### -field MFCLOCK_CHARACTERISTICS_FLAG_FREQUENCY_10MHZ:0x2
 
 The clock times returned by the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclock-getcorrelatedtime">IMFClock::GetCorrelatedTime</a> method are in units of 100 nanoseconds. If this flag is absent, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclock-getproperties">IMFClock::GetProperties</a> to get the clock frequency. The clock frequency is given in the <b>qwClockFrequency</b> member of the <a href="/windows/desktop/api/mfidl/ns-mfidl-mfclock_properties">MFCLOCK_PROPERTIES</a> structure returned by that method.
 
-### -field MFCLOCK_CHARACTERISTICS_FLAG_ALWAYS_RUNNING
+### -field MFCLOCK_CHARACTERISTICS_FLAG_ALWAYS_RUNNING:0x4
 
 The clock is always running. If this flag is present, the clock cannot be paused or stopped. If this flag is absent, call the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclock-getstate">IMFClock::GetState</a> method to get the current state.
 
-### -field MFCLOCK_CHARACTERISTICS_FLAG_IS_SYSTEM_CLOCK
+### -field MFCLOCK_CHARACTERISTICS_FLAG_IS_SYSTEM_CLOCK:0x8
 
 The clock times are generated from the system clock.
 

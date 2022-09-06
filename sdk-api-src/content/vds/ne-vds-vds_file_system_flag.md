@@ -58,71 +58,71 @@ Defines the set of valid flags for a file system.
 
 ## -enum-fields
 
-### -field VDS_FSF_SUPPORT_FORMAT
+### -field VDS_FSF_SUPPORT_FORMAT:0x1
 
 If set, the file system supports format. The drop-down list of a user interface should display only file systems that support formatting.
 
-### -field VDS_FSF_SUPPORT_QUICK_FORMAT
+### -field VDS_FSF_SUPPORT_QUICK_FORMAT:0x2
 
 If set, the file system supports quick format.
 
-### -field VDS_FSF_SUPPORT_COMPRESS
+### -field VDS_FSF_SUPPORT_COMPRESS:0x4
 
 If set, the file system supports file compression.
 
-### -field VDS_FSF_SUPPORT_SPECIFY_LABEL
+### -field VDS_FSF_SUPPORT_SPECIFY_LABEL:0x8
 
 If set, the file system supports file system labels.
 
-### -field VDS_FSF_SUPPORT_MOUNT_POINT
+### -field VDS_FSF_SUPPORT_MOUNT_POINT:0x10
 
 If set, the file system supports mounted folders.
 
-### -field VDS_FSF_SUPPORT_REMOVABLE_MEDIA
+### -field VDS_FSF_SUPPORT_REMOVABLE_MEDIA:0x20
 
 If set, the file system supports removable media.
 
-### -field VDS_FSF_SUPPORT_EXTEND
+### -field VDS_FSF_SUPPORT_EXTEND:0x40
 
 If set, the file system supports extending volumes.
 
-### -field VDS_FSF_ALLOCATION_UNIT_512
+### -field VDS_FSF_ALLOCATION_UNIT_512:0x10000
 
 If set, the file system supports allocation units of 512 bytes.
 
-### -field VDS_FSF_ALLOCATION_UNIT_1K
+### -field VDS_FSF_ALLOCATION_UNIT_1K:0x20000
 
 If set, the file system supports allocation units of 1 kilobyte.
 
-### -field VDS_FSF_ALLOCATION_UNIT_2K
+### -field VDS_FSF_ALLOCATION_UNIT_2K:0x40000
 
 If set, the file system supports allocation units of 2 kilobytes.
 
-### -field VDS_FSF_ALLOCATION_UNIT_4K
+### -field VDS_FSF_ALLOCATION_UNIT_4K:0x80000
 
 If set, the file system supports allocation units of 4 kilobytes.
 
-### -field VDS_FSF_ALLOCATION_UNIT_8K
+### -field VDS_FSF_ALLOCATION_UNIT_8K:0x100000
 
 If set, the file system supports allocation units of 8 kilobytes.
 
-### -field VDS_FSF_ALLOCATION_UNIT_16K
+### -field VDS_FSF_ALLOCATION_UNIT_16K:0x200000
 
 If set, the file system supports allocation units of 16 kilobytes.
 
-### -field VDS_FSF_ALLOCATION_UNIT_32K
+### -field VDS_FSF_ALLOCATION_UNIT_32K:0x400000
 
 If set, the file system supports allocation units of 32 kilobytes.
 
-### -field VDS_FSF_ALLOCATION_UNIT_64K
+### -field VDS_FSF_ALLOCATION_UNIT_64K:0x800000
 
 If set, the file system supports allocation units of 64 kilobytes.
 
-### -field VDS_FSF_ALLOCATION_UNIT_128K
+### -field VDS_FSF_ALLOCATION_UNIT_128K:0x1000000
 
 If set, the file system supports allocation units of 128 kilobytes.
 
-### -field VDS_FSF_ALLOCATION_UNIT_256K
+### -field VDS_FSF_ALLOCATION_UNIT_256K:0x2000000
 
 If set, the file system supports allocation units of 256 kilobytes.
 

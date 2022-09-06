@@ -54,9 +54,9 @@ Specifies the JPEG luminance table property.
 
 ## -enum-fields
 
-### -field WICJpegLuminanceTable
+### -field WICJpegLuminanceTable:0x1
 
 [VT_UI2|VT_VECTOR] Indicates the metadata property is a luminance table.
 
-### -field WICJpegLuminanceProperties_FORCE_DWORD
+### -field WICJpegLuminanceProperties_FORCE_DWORD:0x7fffffff
 

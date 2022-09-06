@@ -56,7 +56,7 @@ Specifies the type of comparison to perform in the <a href="/previous-versions/w
 
 ## -enum-fields
 
-### -field OFFLINEFILES_COMPARE_EQ
+### -field OFFLINEFILES_COMPARE_EQ:0
 
 Check whether the item value is equal to the filter value.
 

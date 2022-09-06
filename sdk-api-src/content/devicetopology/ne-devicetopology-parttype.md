@@ -56,7 +56,7 @@ The <b>PartType</b> enumeration defines constants that indicate whether a part i
 
 ## -enum-fields
 
-### -field Connector
+### -field Connector:0
 
 The part is a connector. A connector can represent an audio jack, an internal connection to an integrated endpoint device, or a software connection implemented through DMA transfers. For more information about connector types, see <a href="/windows/win32/api/devicetopology/ne-devicetopology-connectortype">ConnectorType Enumeration</a>.
 

@@ -58,19 +58,19 @@ Contains flags that describe a media item.
 
 ## -enum-fields
 
-### -field MFP_MEDIAITEM_IS_LIVE
+### -field MFP_MEDIAITEM_IS_LIVE:0x1
 
 The media item represents a live data source, such as video camera. If playback is stopped and then restarted, there will be a gap in the content.
 
-### -field MFP_MEDIAITEM_CAN_SEEK
+### -field MFP_MEDIAITEM_CAN_SEEK:0x2
 
 The media item supports seeking. If this flag is absent, the <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setposition">IMFPMediaPlayer::SetPosition</a> method will fail.
 
-### -field MFP_MEDIAITEM_CAN_PAUSE
+### -field MFP_MEDIAITEM_CAN_PAUSE:0x4
 
 The media item can pause. If this flag is absent, the <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-pause">IMFPMediaPlayer::Pause</a> method will likely fail.
 
-### -field MFP_MEDIAITEM_HAS_SLOW_SEEK
+### -field MFP_MEDIAITEM_HAS_SLOW_SEEK:0x8
 
 Seeking can take a long time. For example, the source might download content through HTTP.
 

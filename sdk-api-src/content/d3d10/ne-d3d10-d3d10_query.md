@@ -54,7 +54,7 @@ Query types.
 
 ## -enum-fields
 
-### -field D3D10_QUERY_EVENT
+### -field D3D10_QUERY_EVENT:0
 
 Determines whether or not the GPU is finished processing commands. When the GPU is finished processing commands <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">GetData</a> will return S_OK, and pData will point to a BOOL with a value of <b>TRUE</b>. When using this type of query, <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-begin">Begin</a> is disabled.
 

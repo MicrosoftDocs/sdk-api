@@ -80,7 +80,8 @@ api_name:
 
 The **StartTrace** function registers and starts an event tracing session.
 
-> [!Important] Cross-process event tracing sessions are a limited system
+> [!Important]
+> Cross-process event tracing sessions are a limited system
 > resource. Developers should avoid starting event tracing sessions on customer
 > machines. When event tracing sessions are needed, they should be limited to
 > the smallest possible scope: use as few sessions as possible, use an
@@ -111,7 +112,8 @@ unique.
 session names are allowed. However, to reduce confusion, you should make sure
 your session names are unique.
 
-> [!Important] Use a descriptive name for your session so that the session's
+> [!Important]
+> Use a descriptive name for your session so that the session's
 > ownership and usage can be determined from the session name. Do not use a GUID
 > or other non-deterministic or non-descriptive value. Do not append random
 > digits to make your session name unique. ETW sessions are a limited resource
@@ -242,7 +244,8 @@ are some common errors and their causes.
     the system will come at a performance cost if those slots are filled. This
     limit exists to prevent excessive use of system resources.
 
-    > [!Important] The limit should only be manually adjusted by a system
+    > [!Important]
+    > The limit should only be manually adjusted by a system
     > administrator to enable specific scenarios. The EtwMaxLoggers setting must
     > not be automatically modified by a program or driver.
 
@@ -291,7 +294,8 @@ following must be true:
   used for new code because it will conflict with other components that also try
   to use this name).
 
-> [!NOTE] A system logger must set the **EnableFlags** member of the
+> [!NOTE]
+> A system logger must set the **EnableFlags** member of the
 > [EVENT_TRACE_PROPERTIES](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties)
 > structure to indicate which
 > [SystemTraceProvider](/windows/win32/etw/configuring-and-starting-a-systemtraceprovider-session)
@@ -329,7 +333,8 @@ To specify an NT Kernel Logger session (deprecated), set _InstanceName_ to
 For an example that uses **StartTrace**, see
 [Configuring and Starting an Event Tracing Session](/windows/win32/etw/configuring-and-starting-an-event-tracing-session).
 
-> [!NOTE] The evntrace.h header defines StartTrace as an alias which
+> [!NOTE]
+> The evntrace.h header defines StartTrace as an alias which
 > automatically selects the ANSI or Unicode version of this function based on
 > the definition of the UNICODE preprocessor constant. Mixing usage of the
 > encoding-neutral alias with code that not encoding-neutral can lead to

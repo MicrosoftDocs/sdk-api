@@ -58,7 +58,7 @@ The <b>BLUETOOTH_AUTHENTICATION_METHOD</b> enumeration defines the supported aut
 
 ## -enum-fields
 
-### -field BLUETOOTH_AUTHENTICATION_METHOD_LEGACY
+### -field BLUETOOTH_AUTHENTICATION_METHOD_LEGACY:0x1
 
 The Bluetooth device supports authentication via a PIN.
 

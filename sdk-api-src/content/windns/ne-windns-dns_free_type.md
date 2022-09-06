@@ -54,7 +54,7 @@ The <b>DNS_FREE_TYPE</b> enumeration specifies the type of data to free.
 
 ## -enum-fields
 
-### -field DnsFreeFlat
+### -field DnsFreeFlat:0
 
 The data freed is a flat structure.
 

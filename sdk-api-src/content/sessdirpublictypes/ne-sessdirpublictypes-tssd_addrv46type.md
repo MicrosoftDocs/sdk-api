@@ -56,15 +56,15 @@ Indicates the IP address type.
 
 ## -enum-fields
 
-### -field TSSD_ADDR_UNDEFINED
+### -field TSSD_ADDR_UNDEFINED:0
 
 The IP address is not valid.
 
-### -field TSSD_ADDR_IPv4
+### -field TSSD_ADDR_IPv4:4
 
 The address is in IPv4 format.
 
-### -field TSSD_ADDR_IPv6
+### -field TSSD_ADDR_IPv6:6
 
 The address is in IPv6 format.
 

@@ -107,6 +107,8 @@ A pointer to the variable that receives the number of bytes written when using a
 
 This parameter can be <b>NULL</b> only when the <i>lpOverlapped</i> 
         parameter is not <b>NULL</b>.
+        
+<b>Windows 7:  </b>This parameter can not be <b>NULL</b>.
 
 For more information, see the Remarks section.
 
@@ -195,7 +197,7 @@ Accessing the output buffer while a write operation is using the buffer may lead
     written from that buffer. Applications must not write to, reallocate, or free the output buffer that a write 
     operation is using until the write operation completes. This can be particularly problematic when using an 
     asynchronous file handle. Additional information regarding synchronous versus asynchronous file handles can be 
-    found later in the <a href="https://docs.microsoft.com/">Synchronization and File Position</a> 
+    found later in the <a href="#synchronization-and-file-position">Synchronization and File Position</a> 
     section and 
     <a href="/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>.
 
@@ -437,46 +439,25 @@ The following C++ example shows how to align sectors for unbuffered file writes.
 
 #define ROUND_UP_PTR(Ptr,Pow2)  ((void *) ((((ULONG_PTR)(Ptr)) + (Pow2) - 1) & (~(((LONG_PTR)(Pow2)) - 1))))
 
-
-void main()
+int main()
 {
-// Function code
-
-    DWORD BytesPerSector = 0; // obtained from the GetFreeDiskSpace function.
-    DWORD Size = 0; // buffer size of your data to write
-
-// ... obtain data here
-// sample data
-    BytesPerSector = 65536;
-    Size = 15536;
-//
-
+   // Sample data
+   unsigned long bytesPerSector = 65536; // obtained from the GetFreeDiskSpace function.
+   unsigned long size = 15536; // Buffer size of your data to write.
+   
    // Ensure you have one more sector than Size would require.
-   SIZE_T SizeNeeded = BytesPerSector + ROUND_UP_SIZE(Size, BytesPerSector);
+   size_t sizeNeeded = bytesPerSector + ROUND_UP_SIZE(size, bytesPerSector);
    
    // Replace this statement with any allocation routine.
-   LPBYTE Buffer = (LPBYTE) malloc(SizeNeeded);
-
-   // Error checking of your choice.
-   if ( !Buffer ) 
-   {
-     goto cleanup;
-   }
-
+   auto buffer = new uint8_t[SizeNeeded];
+   
    // Actual alignment happens here.
-   void * BufferAligned = ROUND_UP_PTR(Buffer, BytesPerSector);
+   auto bufferAligned = ROUND_UP_PTR(buffer, bytesPerSector);
 
-   // Add code using BufferAligned here.
- 
-
-cleanup:
-
-   if ( Buffer ) 
-   {
-      // Replace with corresponding free routine.
-      free(Buffer);
-   }
-
+   // ... Add code using bufferAligned here.
+   
+   // Replace with corresponding free routine.
+   delete buffer;
 }
 
 ```

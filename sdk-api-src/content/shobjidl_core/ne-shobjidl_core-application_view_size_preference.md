@@ -54,31 +54,31 @@ Defines the set of possible general window (app view) size preferences. Used by 
 
 ## -enum-fields
 
-### -field AVSP_DEFAULT
+### -field AVSP_DEFAULT:0
 
 The app does not specify a window size preference. Windows, rather than the app, sets the size preference, which defaults to <b>AVSP_USE_HALF</b>.
 
-### -field AVSP_USE_LESS
+### -field AVSP_USE_LESS:1
 
 Prefers to use less than 50% of the available horizontal screen pixels.
 
-### -field AVSP_USE_HALF
+### -field AVSP_USE_HALF:2
 
 Prefers to use 50% (half) of the available horizontal screen pixels.
 
-### -field AVSP_USE_MORE
+### -field AVSP_USE_MORE:3
 
 Prefers to use more than 50% of the available horizontal screen pixels.
 
-### -field AVSP_USE_MINIMUM
+### -field AVSP_USE_MINIMUM:4
 
 Prefers to use the minimum horizontal pixel width (either 320 or 500 pixels) specified in the app's manifest.
 
-### -field AVSP_USE_NONE
+### -field AVSP_USE_NONE:5
 
 The window has no visible component.
 
-### -field AVSP_CUSTOM
+### -field AVSP_CUSTOM:6
 
 ## -see-also
 

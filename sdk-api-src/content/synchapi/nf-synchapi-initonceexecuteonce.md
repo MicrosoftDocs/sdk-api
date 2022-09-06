@@ -9,7 +9,7 @@ ms.assetid: 04c161ed-d1b0-4995-b246-cb64cb67ae47
 ms.date: 12/05/2018
 ms.keywords: InitOnceExecuteOnce, InitOnceExecuteOnce function, base.initonceexecuteonce, synchapi/InitOnceExecuteOnce, winbase/InitOnceExecuteOnce
 req.header: synchapi.h
-req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]

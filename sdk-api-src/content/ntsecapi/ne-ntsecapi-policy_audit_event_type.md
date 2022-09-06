@@ -60,7 +60,7 @@ The <b>POLICY_AUDIT_EVENT_TYPE</b> enumeration defines values that indicate the 
 
 ## -enum-fields
 
-### -field AuditCategorySystem
+### -field AuditCategorySystem:0
 
 Determines whether the operating system must audit any of the following attempts:
 

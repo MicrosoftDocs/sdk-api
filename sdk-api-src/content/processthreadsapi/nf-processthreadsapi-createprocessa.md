@@ -9,7 +9,7 @@ ms.assetid: 3ef0a5b2-4d71-4c17-8188-76a4025287fc
 ms.date: 12/05/2018
 ms.keywords: CreateProcess, CreateProcess function, CreateProcessA, CreateProcessW, _win32_createprocess, base.createprocess, processthreadsapi/CreateProcess, processthreadsapi/CreateProcessA, processthreadsapi/CreateProcessW, winbase/CreateProcess, winbase/CreateProcessA, winbase/CreateProcessW
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -290,6 +290,10 @@ For an example, see
 ## -see-also
 
 <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
+
+
+
+<a href="/windows/win32/api/shellapi/nf-shellapi-shellexecutea">ShellExecuteA</a>
 
 
 

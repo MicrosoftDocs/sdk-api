@@ -54,15 +54,15 @@ Specifies the types of object to search, when attempting to find an interface on
 
 ## -enum-fields
 
-### -field AM_INTF_SEARCH_INPUT_PIN
+### -field AM_INTF_SEARCH_INPUT_PIN:0x1
 
 Search input pins.
 
-### -field AM_INTF_SEARCH_OUTPUT_PIN
+### -field AM_INTF_SEARCH_OUTPUT_PIN:0x2
 
 Search output pins.
 
-### -field AM_INTF_SEARCH_FILTER
+### -field AM_INTF_SEARCH_FILTER:0x4
 
 Search filters.
 

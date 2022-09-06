@@ -54,47 +54,47 @@ The <b>FAX_ACCESS_RIGHTS_ENUM</b> enumeration defines access rights to the fax s
 
 ## -enum-fields
 
-### -field farSUBMIT_LOW
+### -field farSUBMIT_LOW:0x1
 
 The user can submit low-priority fax jobs. Users can view and manage their jobs in the fax server's queue and their messages in the outgoing fax archive.
 
-### -field farSUBMIT_NORMAL
+### -field farSUBMIT_NORMAL:0x2
 
 The user can submit normal-priority and low-priority fax jobs. Users can view and manage their jobs in the fax server queue and their messages in the outgoing fax archive.
 
-### -field farSUBMIT_HIGH
+### -field farSUBMIT_HIGH:0x4
 
 The user can submit low-priority, normal-priority, and high-priority fax jobs. Users can view and manage their jobs in the fax server queue and their messages in the outgoing fax archive.
 
-### -field farQUERY_JOBS
+### -field farQUERY_JOBS:0x8
 
 The user can view all incoming and outgoing jobs in the fax server queue.
 
-### -field farMANAGE_JOBS
+### -field farMANAGE_JOBS:0x10
 
 The user can manage all incoming and outgoing jobs in the fax server queue.
 
-### -field farQUERY_CONFIG
+### -field farQUERY_CONFIG:0x20
 
 The user can view the fax server configuration data.
 
-### -field farMANAGE_CONFIG
+### -field farMANAGE_CONFIG:0x40
 
 The user can set the fax server configuration data.
 
-### -field farQUERY_IN_ARCHIVE
+### -field farQUERY_IN_ARCHIVE:0x80
 
 The user can view all fax messages in the incoming archive.
 
-### -field farMANAGE_IN_ARCHIVE
+### -field farMANAGE_IN_ARCHIVE:0x100
 
 The user can manage all fax messages in the incoming archive.
 
-### -field farQUERY_OUT_ARCHIVE
+### -field farQUERY_OUT_ARCHIVE:0x200
 
 The user can view all fax messages in the outgoing archive.
 
-### -field farMANAGE_OUT_ARCHIVE
+### -field farMANAGE_OUT_ARCHIVE:0x400
 
 The user can manage all fax messages in the outgoing archive.
 

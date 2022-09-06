@@ -54,15 +54,15 @@ Specifies depth-stencil view options.
 
 ## -enum-fields
 
-### -field D3D12_DSV_FLAG_NONE
+### -field D3D12_DSV_FLAG_NONE:0
 
 Indicates a default view.
 
-### -field D3D12_DSV_FLAG_READ_ONLY_DEPTH
+### -field D3D12_DSV_FLAG_READ_ONLY_DEPTH:0x1
 
 Indicates that depth values are read only.
 
-### -field D3D12_DSV_FLAG_READ_ONLY_STENCIL
+### -field D3D12_DSV_FLAG_READ_ONLY_STENCIL:0x2
 
 Indicates that stencil values are read only.
 

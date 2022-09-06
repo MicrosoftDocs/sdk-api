@@ -57,171 +57,171 @@ Values that indicate how the pipeline interprets vertex data that is bound to th
 
 ## -enum-fields
 
-### -field D3D_PRIMITIVE_TOPOLOGY_UNDEFINED
+### -field D3D_PRIMITIVE_TOPOLOGY_UNDEFINED:0
 
 The IA stage has not been initialized with a primitive topology. The IA stage will not function properly unless a primitive topology is defined.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_POINTLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_POINTLIST:1
 
 Interpret the vertex data as a list of points.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_LINELIST
+### -field D3D_PRIMITIVE_TOPOLOGY_LINELIST:2
 
 Interpret the vertex data as a list of lines.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_LINESTRIP
+### -field D3D_PRIMITIVE_TOPOLOGY_LINESTRIP:3
 
 Interpret the vertex data as a line strip.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_TRIANGLELIST
+### -field D3D_PRIMITIVE_TOPOLOGY_TRIANGLELIST:4
 
 Interpret the vertex data as a list of triangles.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_TRIANGLESTRIP
+### -field D3D_PRIMITIVE_TOPOLOGY_TRIANGLESTRIP:5
 
 Interpret the vertex data as a triangle strip.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_LINELIST_ADJ
+### -field D3D_PRIMITIVE_TOPOLOGY_LINELIST_ADJ:10
 
 Interpret the vertex data as a list of lines with adjacency data.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_LINESTRIP_ADJ
+### -field D3D_PRIMITIVE_TOPOLOGY_LINESTRIP_ADJ:11
 
 Interpret the vertex data as a line strip with adjacency data.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_TRIANGLELIST_ADJ
+### -field D3D_PRIMITIVE_TOPOLOGY_TRIANGLELIST_ADJ:12
 
 Interpret the vertex data as a list of triangles with adjacency data.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_TRIANGLESTRIP_ADJ
+### -field D3D_PRIMITIVE_TOPOLOGY_TRIANGLESTRIP_ADJ:13
 
 Interpret the vertex data as a triangle strip with adjacency data.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_1_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_1_CONTROL_POINT_PATCHLIST:33
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_2_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_2_CONTROL_POINT_PATCHLIST:34
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_3_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_3_CONTROL_POINT_PATCHLIST:35
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_4_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_4_CONTROL_POINT_PATCHLIST:36
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_5_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_5_CONTROL_POINT_PATCHLIST:37
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_6_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_6_CONTROL_POINT_PATCHLIST:38
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_7_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_7_CONTROL_POINT_PATCHLIST:39
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_8_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_8_CONTROL_POINT_PATCHLIST:40
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_9_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_9_CONTROL_POINT_PATCHLIST:41
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_10_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_10_CONTROL_POINT_PATCHLIST:42
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_11_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_11_CONTROL_POINT_PATCHLIST:43
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_12_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_12_CONTROL_POINT_PATCHLIST:44
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_13_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_13_CONTROL_POINT_PATCHLIST:45
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_14_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_14_CONTROL_POINT_PATCHLIST:46
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_15_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_15_CONTROL_POINT_PATCHLIST:47
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_16_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_16_CONTROL_POINT_PATCHLIST:48
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_17_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_17_CONTROL_POINT_PATCHLIST:49
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_18_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_18_CONTROL_POINT_PATCHLIST:50
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_19_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_19_CONTROL_POINT_PATCHLIST:51
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_20_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_20_CONTROL_POINT_PATCHLIST:52
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_21_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_21_CONTROL_POINT_PATCHLIST:53
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_22_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_22_CONTROL_POINT_PATCHLIST:54
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_23_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_23_CONTROL_POINT_PATCHLIST:55
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_24_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_24_CONTROL_POINT_PATCHLIST:56
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_25_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_25_CONTROL_POINT_PATCHLIST:57
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_26_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_26_CONTROL_POINT_PATCHLIST:58
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_27_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_27_CONTROL_POINT_PATCHLIST:59
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_28_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_28_CONTROL_POINT_PATCHLIST:60
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_29_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_29_CONTROL_POINT_PATCHLIST:61
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_30_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_30_CONTROL_POINT_PATCHLIST:62
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_31_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_31_CONTROL_POINT_PATCHLIST:63
 
 Interpret the vertex data as a patch list.
 
-### -field D3D_PRIMITIVE_TOPOLOGY_32_CONTROL_POINT_PATCHLIST
+### -field D3D_PRIMITIVE_TOPOLOGY_32_CONTROL_POINT_PATCHLIST:64
 
 Interpret the vertex data as a patch list.
 

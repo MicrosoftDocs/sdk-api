@@ -36,7 +36,7 @@ Specifies the type of a per-service shared state directory.
 
 ## -enum-fields
 
-### -field ServiceSharedDirectoryPersistentState
+### -field ServiceSharedDirectoryPersistentState:0
 
 Mutable, persistent service state. This state is both readable and writeable by the service and by local administrators. This state persists across reboots and OS updates.
 

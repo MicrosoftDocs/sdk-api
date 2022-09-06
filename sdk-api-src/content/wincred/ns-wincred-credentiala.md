@@ -253,7 +253,7 @@ The time, in Coordinated Universal Time (Greenwich Mean Time), of the last modif
 
 ### -field CredentialBlobSize
 
-The size, in bytes, of the <b>CredentialBlob</b> member. This member cannot be larger than <b>CRED_MAX_CREDENTIAL_BLOB_SIZE</b> (512) bytes.
+The size, in bytes, of the <b>CredentialBlob</b> member. This member cannot be larger than <b>CRED_MAX_CREDENTIAL_BLOB_SIZE</b> (5*512) bytes.
 
 ### -field CredentialBlob
 

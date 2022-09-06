@@ -56,19 +56,19 @@ Defines DVD navigation command types.
 
 ## -enum-fields
 
-### -field DVD_NavCmdType_Pre
+### -field DVD_NavCmdType_Pre:1
 
 Pre-command.
 
-### -field DVD_NavCmdType_Post
+### -field DVD_NavCmdType_Post:2
 
 Post-command.
 
-### -field DVD_NavCmdType_Cell
+### -field DVD_NavCmdType_Cell:3
 
 Cell command.
 
-### -field DVD_NavCmdType_Button
+### -field DVD_NavCmdType_Button:4
 
 Button command.
 

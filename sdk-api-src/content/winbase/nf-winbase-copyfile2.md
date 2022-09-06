@@ -240,6 +240,10 @@ Yes
 </tr>
 </table>
 
+
+Starting with Windows 10, version 1903 and Windows Server 2022, a new value, **COPY_FILE_REQUEST_COMPRESSED_TRAFFIC**, is supported for the *dwCopyFlags* field of the [COPYFILE2_EXTENDED_PARAMETERS](ns-winbase-copyfile2_extended_parameters.md) structure passed in the *pExtendedParameters* argument to this function. This new value requests that the underlying transfer channel compress the data during the copy operation. The request may not be supported for all mediums, in which case it is ignored. The compression attributes and parameters (computational complexity, memory usage) are not configurable through this API, and are subject to change between different OS releases. On Windows 10, the flag is supported for files residing on SMB shares, where the negotiated SMB protocol version is SMB v3.1.1 or greater.</p>
+
+
 ## -see-also
 
 <a href="/windows/desktop/api/winbase/ns-winbase-copyfile2_extended_parameters">COPYFILE2_EXTENDED_PARAMETERS</a>

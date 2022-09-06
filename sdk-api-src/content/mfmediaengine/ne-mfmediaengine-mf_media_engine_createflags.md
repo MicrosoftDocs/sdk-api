@@ -54,27 +54,27 @@ Contains flags for the <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaeng
 
 ## -enum-fields
 
-### -field MF_MEDIA_ENGINE_AUDIOONLY
+### -field MF_MEDIA_ENGINE_AUDIOONLY:0x1
 
 The Media Engine will play audio only. It will not play video.
 
-### -field MF_MEDIA_ENGINE_WAITFORSTABLE_STATE
+### -field MF_MEDIA_ENGINE_WAITFORSTABLE_STATE:0x2
 
 The Media Engine's resource loading algorithm waits for the application to signal the thread that loads the resource. For more information, see the remarks for <b>MF_MEDIA_ENGINE_EVENT_NOTIFYSTABLESTATE</b> in the <a href="/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_media_engine_event">MF_MEDIA_ENGINE_EVENT</a> enumeration.
 
-### -field MF_MEDIA_ENGINE_FORCEMUTE
+### -field MF_MEDIA_ENGINE_FORCEMUTE:0x4
 
 Always mute the audio.
 
-### -field MF_MEDIA_ENGINE_REAL_TIME_MODE
+### -field MF_MEDIA_ENGINE_REAL_TIME_MODE:0x8
 
 Enable low-latency mode in the rendering pipeline. This can be changed at a later time by calling <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setrealtimemode">IMFMediaEngineEx::SetRealTimeMode</a>.
 
-### -field MF_MEDIA_ENGINE_DISABLE_LOCAL_PLUGINS
+### -field MF_MEDIA_ENGINE_DISABLE_LOCAL_PLUGINS:0x10
 
 Disable locally registered media plugins. If this flag is set, the Media Engine will not load decoders or other media plugins that the application registered for the local process.
 
-### -field MF_MEDIA_ENGINE_CREATEFLAGS_MASK
+### -field MF_MEDIA_ENGINE_CREATEFLAGS_MASK:0x1f
 
 Reserved.
 

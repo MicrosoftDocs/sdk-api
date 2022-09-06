@@ -60,7 +60,7 @@ Describes the operational condition of a resource. These values are used by the
 
 ## -enum-fields
 
-### -field ClusterResourceStateUnknown
+### -field ClusterResourceStateUnknown:-1
 
 The operation was not successful. For more information about the error, call the function 
        <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
@@ -85,7 +85,7 @@ The resource is not operational.
 
 The resource has <a href="/previous-versions/windows/desktop/mscs/f-gly">failed</a>.
 
-### -field ClusterResourcePending
+### -field ClusterResourcePending:128
 
 The resource is in the process of coming online or going 
        <a href="/previous-versions/windows/desktop/mscs/o-gly">offline</a>.

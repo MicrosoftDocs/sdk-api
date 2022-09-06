@@ -60,17 +60,17 @@ Used to
 
 ## -enum-fields
 
-### -field VDS_VSF_1_0
+### -field VDS_VSF_1_0:0x1
 
 Indicates that the VDS 1.0 interfaces are supported. VDS 1.0 is supported on 
       Windows Server 2003 and later.
 
-### -field VDS_VSF_1_1
+### -field VDS_VSF_1_1:0x2
 
 Indicates that the VDS 1.1 interfaces are supported. VDS 1.1 is supported on 
       Windows Server 2003 R2 and later.
 
-### -field VDS_VSF_2_0
+### -field VDS_VSF_2_0:0x4
 
 Indicates that the VDS 2.0 interfaces are supported. VDS 2.0 is supported on Windows Vista and 
       later.
@@ -78,7 +78,7 @@ Indicates that the VDS 2.0 interfaces are supported. VDS 2.0 is supported on Win
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003 R2:  </b>This value is not supported.
 
-### -field VDS_VSF_2_1
+### -field VDS_VSF_2_1:0x8
 
 Indicates that the VDS 2.1 interfaces are supported. VDS 2.1 is supported on Windows Vista with SP1,  
       Windows Server 2008, and later.
@@ -86,7 +86,7 @@ Indicates that the VDS 2.1 interfaces are supported. VDS 2.1 is supported on Win
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003 R2:  </b>This value is not supported.
 
-### -field VDS_VSF_3_0
+### -field VDS_VSF_3_0:0x10
 
 Indicates that the VDS 3.0 interfaces are supported. VDS 3.0 is supported on Windows 7, 
       Windows Server 2008 R2, and later.

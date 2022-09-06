@@ -57,79 +57,79 @@ Defines a list of TV protection standards
 
 ## -enum-fields
 
-### -field COPP_ProtectionStandard_Unknown
+### -field COPP_ProtectionStandard_Unknown:0x80000000
 
 None.
 
-### -field COPP_ProtectionStandard_None
+### -field COPP_ProtectionStandard_None:0x00000000
 
 Unknown.
 
-### -field COPP_ProtectionStandard_IEC61880_525i
+### -field COPP_ProtectionStandard_IEC61880_525i:0x00000001
 
 IEC 61880, 525i.
 
-### -field COPP_ProtectionStandard_IEC61880_2_525i
+### -field COPP_ProtectionStandard_IEC61880_2_525i:0x00000002
 
 IEC 61880-2, 525i.
 
-### -field COPP_ProtectionStandard_IEC62375_625p
+### -field COPP_ProtectionStandard_IEC62375_625p:0x00000004
 
 IEC 62375, 625p.
 
-### -field COPP_ProtectionStandard_EIA608B_525
+### -field COPP_ProtectionStandard_EIA608B_525:0x00000008
 
 EIA/CEA-608-B, 525i.
 
-### -field COPP_ProtectionStandard_EN300294_625i
+### -field COPP_ProtectionStandard_EN300294_625i:0x00000010
 
 ETSI EN 300 294, 625i.
 
-### -field COPP_ProtectionStandard_CEA805A_TypeA_525p
+### -field COPP_ProtectionStandard_CEA805A_TypeA_525p:0x00000020
 
 CEA-805-A Type A, 525p.
 
-### -field COPP_ProtectionStandard_CEA805A_TypeA_750p
+### -field COPP_ProtectionStandard_CEA805A_TypeA_750p:0x00000040
 
 CEA-805-A Type A, 750p.
 
-### -field COPP_ProtectionStandard_CEA805A_TypeA_1125i
+### -field COPP_ProtectionStandard_CEA805A_TypeA_1125i:0x00000080
 
 CEA-805-A Type A, 1125i.
 
-### -field COPP_ProtectionStandard_CEA805A_TypeB_525p
+### -field COPP_ProtectionStandard_CEA805A_TypeB_525p:0x00000100
 
 CEA-805-A Type B, 525p.
 
-### -field COPP_ProtectionStandard_CEA805A_TypeB_750p
+### -field COPP_ProtectionStandard_CEA805A_TypeB_750p:0x00000200
 
 CEA-805-A Type B, 750p.
 
-### -field COPP_ProtectionStandard_CEA805A_TypeB_1125i
+### -field COPP_ProtectionStandard_CEA805A_TypeB_1125i:0x00000400
 
 CEA-805-A Type B, 1125i.
 
-### -field COPP_ProtectionStandard_ARIBTRB15_525i
+### -field COPP_ProtectionStandard_ARIBTRB15_525i:0x00000800
 
 ARIB TR-B15, 525i.
 
-### -field COPP_ProtectionStandard_ARIBTRB15_525p
+### -field COPP_ProtectionStandard_ARIBTRB15_525p:0x00001000
 
 ARIB TR-B15, 525p.
 
-### -field COPP_ProtectionStandard_ARIBTRB15_750p
+### -field COPP_ProtectionStandard_ARIBTRB15_750p:0x00002000
 
 ARIB TR-B15, 750p.
 
-### -field COPP_ProtectionStandard_ARIBTRB15_1125i
+### -field COPP_ProtectionStandard_ARIBTRB15_1125i:0x00004000
 
 ARIB TR-B15, 1125i.
 
-### -field COPP_ProtectionStandard_Mask
+### -field COPP_ProtectionStandard_Mask:0x80007FFF
 
 Reserved.
 
-### -field COPP_ProtectionStandard_Reserved
+### -field COPP_ProtectionStandard_Reserved:0x7FFF8000
 
 Reserved.
 

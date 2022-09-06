@@ -11,8 +11,8 @@ ms.keywords: RRF_NOEXPAND, RRF_RT_ANY, RRF_RT_DWORD, RRF_RT_QWORD, RRF_RT_REG_BI
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
-req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
+req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

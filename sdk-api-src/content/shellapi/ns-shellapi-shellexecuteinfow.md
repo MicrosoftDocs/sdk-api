@@ -118,7 +118,7 @@ A combination of one or more of the following values that indicate the content a
 </tr>
 <tr valign="top">
 <td>SEE_MASK_NOASYNC (0x00000100)</td>
-<td>Wait for the execute operation to complete before returning. This flag should be used by callers that are using ShellExecute forms that might result in an async activation, for example DDE, and create a process that might be run on a background thread. (Note: <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> runs on a background thread by default if the caller's threading model is not Apartment.) Calls to <b>ShellExecuteEx</b> from processes already running on background threads should always pass this flag. Also, applications that exit immediately after calling <b>ShellExecuteEx</b> should specify this flag.
+<td>Only respected when launching files, does not apply to uris or shell namespace items (e.g. "This PC"). Wait for the async part of the execute operation, (e.g. DDE) to complete before returning. When this applies it ensures the launching operation finishes before returning. Applications that exit immediately after calling <b>ShellExecuteEx</b> should specify this flag. Note, <b>ShellExecuteEx<b> moves its work to a background thread if the caller's threading model is not Apartment. Forcing the call to be syncronous disables that behavior and uses the callers COM apartment. Specifing SEE_MASK_FLAG_HINST_IS_SITE forces syncronous behavior always.
 
 If the execute operation is performed on a background thread and the caller did not specify the SEE_MASK_ASYNCOK flag, then the calling thread waits until the new process has started before returning. This typically means that either <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> has been called, the DDE communication has completed, or that the custom execution delegate has notified <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> that it is done. If the SEE_MASK_WAITFORINPUTIDLE flag is specified, then <b>ShellExecuteEx</b> calls <a href="/windows/desktop/api/winuser/nf-winuser-waitforinputidle">WaitForInputIdle</a> and waits for the new process to idle before returning, with a maximum timeout of 1 minute.
 
@@ -172,7 +172,7 @@ For further discussion on when this flag is necessary, see the Remarks section.<
 </tr>
 <tr valign="top">
 <td>SEE_MASK_FLAG_HINST_IS_SITE` (0x08000000)</td>
-<td>The <b>hInstApp</b> member is used to specify the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of an object that implements <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678965(v=vs.85)">IServiceProvider</a>. This object will be used as a site pointer. The site pointer is used to provide services to the <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a> function, the handler binding process, and invoked verb handlers.
+<td>The <b>hInstApp</b> member is used to specify the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of an object that implements <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678965(v=vs.85)">IServiceProvider</a>. This object will be used as a site pointer. The site pointer is used to provide services to the <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> function, the handler binding process, and invoked verb handlers.
 
 To use <b>SEE_MASK_FLAG_HINST_IS_SITE</b> in operating systems prior to Windows 8, define it manually in your program: #define SEE_MASK_FLAG_HINST_IS_SITE 0x08000000.
 
@@ -185,7 +185,7 @@ When this option is specified the call runs synchronously on the calling thread.
 
 Type: <b>HWND</b>
 
-Optional. A handle to the parent window, used to display any message boxes that the system might produce while executing this function. This value can be <b>NULL</b>.
+Optional. A handle to the owner window, used to display and position any UI that the system might produce while executing this function.
 
 ### -field lpVerb
 

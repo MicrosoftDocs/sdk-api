@@ -56,23 +56,23 @@ Specifies which members in the <a href="/windows/desktop/api/shappmgr/ns-shappmg
 
 ## -enum-fields
 
-### -field PAI_SOURCE
+### -field PAI_SOURCE:0x1
 
 The <a href="/windows/desktop/api/shappmgr/ns-shappmgr-pubappinfo">pszSource</a> string is valid and contains the display name of the publishing source. If multiple sources publish an application of the same name, Add/Remove Programs identifies them by "&lt;application name&gt; : &lt;publishing source&gt;".
 
-### -field PAI_ASSIGNEDTIME
+### -field PAI_ASSIGNEDTIME:0x2
 
 The <a href="/windows/desktop/api/shappmgr/ns-shappmgr-pubappinfo">stAssigned</a> member is valid and contains the time that the application should be installed as assigned by an application administrator.
 
-### -field PAI_PUBLISHEDTIME
+### -field PAI_PUBLISHEDTIME:0x4
 
 Not used.
 
-### -field PAI_SCHEDULEDTIME
+### -field PAI_SCHEDULEDTIME:0x8
 
 The <a href="/windows/desktop/api/shappmgr/ns-shappmgr-pubappinfo">stScheduled</a> member is valid and contains the time that the application should be installed as assigned by the user.
 
-### -field PAI_EXPIRETIME
+### -field PAI_EXPIRETIME:0x10
 
 The <a href="/windows/desktop/api/shappmgr/ns-shappmgr-pubappinfo">stExpired</a> member is valid and contains the time after which Add/Remove Programs should no longer install the program.
 

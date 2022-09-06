@@ -54,11 +54,11 @@ Specifies how the borders of an <a href="/windows/desktop/tablet/inkedit-control
 
 ## -enum-fields
 
-### -field rtfNoBorder
+### -field rtfNoBorder:0
 
 No border.
 
-### -field rtfFixedSingle
+### -field rtfFixedSingle:1
 
 Single line border.
 

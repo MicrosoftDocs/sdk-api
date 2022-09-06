@@ -9,7 +9,7 @@ ms.assetid: cbb3d832-cd92-4875-8366-6b69be7a536f
 ms.date: 12/05/2018
 ms.keywords: TlsAlloc, TlsAlloc function, _win32_tlsalloc, base.tlsalloc, processthreadsapi/TlsAlloc, winbase/TlsAlloc
 req.header: processthreadsapi.h
-req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]

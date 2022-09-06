@@ -54,205 +54,205 @@ Specifies the variant types.
 
 ## -enum-fields
 
-### -field VT_EMPTY
+### -field VT_EMPTY:0
 
 Not specified.
 
-### -field VT_NULL
+### -field VT_NULL:1
 
 Null.
 
-### -field VT_I2
+### -field VT_I2:2
 
 A 2-byte integer.
 
-### -field VT_I4
+### -field VT_I4:3
 
 A 4-byte integer.
 
-### -field VT_R4
+### -field VT_R4:4
 
 A 4-byte real.
 
-### -field VT_R8
+### -field VT_R8:5
 
 An 8-byte real.
 
-### -field VT_CY
+### -field VT_CY:6
 
  Currency.
 
-### -field VT_DATE
+### -field VT_DATE:7
 
 A date.
 
-### -field VT_BSTR
+### -field VT_BSTR:8
 
 A string.
 
-### -field VT_DISPATCH
+### -field VT_DISPATCH:9
 
 An <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> pointer.
 
-### -field VT_ERROR
+### -field VT_ERROR:10
 
 An SCODE value.
 
-### -field VT_BOOL
+### -field VT_BOOL:11
 
 A Boolean value. True is -1 and false is 0.
 
-### -field VT_VARIANT
+### -field VT_VARIANT:12
 
 A variant pointer.
 
-### -field VT_UNKNOWN
+### -field VT_UNKNOWN:13
 
 An <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer.
 
-### -field VT_DECIMAL
+### -field VT_DECIMAL:14
 
 A 16-byte fixed-pointer value.
 
-### -field VT_I1
+### -field VT_I1:16
 
 A character.
 
-### -field VT_UI1
+### -field VT_UI1:17
 
 An unsigned character.
 
-### -field VT_UI2
+### -field VT_UI2:18
 
 An unsigned short.
 
-### -field VT_UI4
+### -field VT_UI4:19
 
 An unsigned long.
 
-### -field VT_I8
+### -field VT_I8:20
 
 A 64-bit integer.
 
-### -field VT_UI8
+### -field VT_UI8:21
 
 A 64-bit unsigned integer.
 
-### -field VT_INT
+### -field VT_INT:22
 
 An integer.
 
-### -field VT_UINT
+### -field VT_UINT:23
 
 An unsigned integer.
 
-### -field VT_VOID
+### -field VT_VOID:24
 
 A C-style void.
 
-### -field VT_HRESULT
+### -field VT_HRESULT:25
 
 An HRESULT value.
 
-### -field VT_PTR
+### -field VT_PTR:26
 
 A pointer type.
 
-### -field VT_SAFEARRAY
+### -field VT_SAFEARRAY:27
 
 A safe array. Use VT_ARRAY in VARIANT.
 
-### -field VT_CARRAY
+### -field VT_CARRAY:28
 
 A C-style array.
 
-### -field VT_USERDEFINED
+### -field VT_USERDEFINED:29
 
 A user-defined type.
 
-### -field VT_LPSTR
+### -field VT_LPSTR:30
 
 A null-terminated string.
 
-### -field VT_LPWSTR
+### -field VT_LPWSTR:31
 
 A wide null-terminated string.
 
-### -field VT_RECORD
+### -field VT_RECORD:36
 
 A user-defined type.
 
-### -field VT_INT_PTR
+### -field VT_INT_PTR:37
 
 A signed machine register size width.
 
-### -field VT_UINT_PTR
+### -field VT_UINT_PTR:38
 
 An unsigned machine register size width.
 
-### -field VT_FILETIME
+### -field VT_FILETIME:64
 
 A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> value.
 
-### -field VT_BLOB
+### -field VT_BLOB:65
 
 Length-prefixed bytes.
 
-### -field VT_STREAM
+### -field VT_STREAM:66
 
 The name of the stream follows.
 
-### -field VT_STORAGE
+### -field VT_STORAGE:67
 
 The name of the storage follows.
 
-### -field VT_STREAMED_OBJECT
+### -field VT_STREAMED_OBJECT:68
 
 The stream contains an object.
 
-### -field VT_STORED_OBJECT
+### -field VT_STORED_OBJECT:69
 
 The storage contains an object.
 
-### -field VT_BLOB_OBJECT
+### -field VT_BLOB_OBJECT:70
 
 The blob contains an object.
 
-### -field VT_CF
+### -field VT_CF:71
 
 A clipboard format.
 
-### -field VT_CLSID
+### -field VT_CLSID:72
 
 A class ID.
 
-### -field VT_VERSIONED_STREAM
+### -field VT_VERSIONED_STREAM:73
 
 A stream with a GUID version.
 
-### -field VT_BSTR_BLOB
+### -field VT_BSTR_BLOB:0xfff
 
 Reserved.
 
-### -field VT_VECTOR
+### -field VT_VECTOR:0x1000
 
 A simple counted array.
 
-### -field VT_ARRAY
+### -field VT_ARRAY:0x2000
 
 A SAFEARRAY pointer.
 
-### -field VT_BYREF
+### -field VT_BYREF:0x4000
 
 A void pointer for local use.
 
-### -field VT_RESERVED
+### -field VT_RESERVED:0x8000
 
-### -field VT_ILLEGAL
+### -field VT_ILLEGAL:0xffff
 
-### -field VT_ILLEGALMASKED
+### -field VT_ILLEGALMASKED:0xfff
 
-### -field VT_TYPEMASK
+### -field VT_TYPEMASK:0xfff
 
 ## -remarks
 

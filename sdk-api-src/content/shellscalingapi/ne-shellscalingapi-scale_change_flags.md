@@ -54,15 +54,15 @@ Flags that are used to indicate the scaling change that occurred.
 
 ## -enum-fields
 
-### -field SCF_VALUE_NONE
+### -field SCF_VALUE_NONE:0x00
 
 No change.
 
-### -field SCF_SCALE
+### -field SCF_SCALE:0x01
 
 The scale factor has changed.
 
-### -field SCF_PHYSICAL
+### -field SCF_PHYSICAL:0x02
 
 The physical dpi of the device has changed. A change in the physical dpi is generally caused either by switching display devices or switching display resolutions.
 

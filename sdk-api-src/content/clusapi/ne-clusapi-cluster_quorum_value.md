@@ -58,11 +58,11 @@ Enumerates values returned by the
 
 ## -enum-fields
 
-### -field CLUSTER_QUORUM_MAINTAINED
+### -field CLUSTER_QUORUM_MAINTAINED:0
 
 The quorum will be maintained.
 
-### -field CLUSTER_QUORUM_LOST
+### -field CLUSTER_QUORUM_LOST:1
 
 The quorum will be lost.
 

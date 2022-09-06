@@ -55,7 +55,7 @@ Identifies a resource subclass that manages an IP address provider.
 
 ## -enum-fields
 
-### -field CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL
+### -field CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL:0x80000000
 
 Identifies a resource subclass that manages an IP address provider. The 
       <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a> function with the 

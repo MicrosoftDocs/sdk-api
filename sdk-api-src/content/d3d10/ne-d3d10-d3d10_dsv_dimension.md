@@ -54,31 +54,31 @@ Specifies how to access a resource used in a depth-stencil <a href="/windows/des
 
 ## -enum-fields
 
-### -field D3D10_DSV_DIMENSION_UNKNOWN
+### -field D3D10_DSV_DIMENSION_UNKNOWN:0
 
 The resource will be accessed according to its type as determined from the actual instance this enumeration is paired with when the depth-stencil view is created.
 
-### -field D3D10_DSV_DIMENSION_TEXTURE1D
+### -field D3D10_DSV_DIMENSION_TEXTURE1D:1
 
 The resource will be accessed as a <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">1D texture</a>.
 
-### -field D3D10_DSV_DIMENSION_TEXTURE1DARRAY
+### -field D3D10_DSV_DIMENSION_TEXTURE1DARRAY:2
 
 The resource will be accessed as an array of 1D textures.
 
-### -field D3D10_DSV_DIMENSION_TEXTURE2D
+### -field D3D10_DSV_DIMENSION_TEXTURE2D:3
 
 The resource will be accessed as a <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">2D texture</a>.
 
-### -field D3D10_DSV_DIMENSION_TEXTURE2DARRAY
+### -field D3D10_DSV_DIMENSION_TEXTURE2DARRAY:4
 
 The resource will be accessed as an array of 2D texture.
 
-### -field D3D10_DSV_DIMENSION_TEXTURE2DMS
+### -field D3D10_DSV_DIMENSION_TEXTURE2DMS:5
 
 The resource will be accessed as a 2D texture with multisampling.
 
-### -field D3D10_DSV_DIMENSION_TEXTURE2DMSARRAY
+### -field D3D10_DSV_DIMENSION_TEXTURE2DMSARRAY:6
 
 The resource will be accessed as an array of 2D textures with multisampling.
 

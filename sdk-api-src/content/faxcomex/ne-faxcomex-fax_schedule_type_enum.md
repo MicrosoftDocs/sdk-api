@@ -54,7 +54,7 @@ The <b>FAX_SCHEDULE_TYPE_ENUM</b> enumeration defines the types of scheduling fo
 
 ## -enum-fields
 
-### -field fstNOW
+### -field fstNOW:0
 
 Send the fax as soon as a device is available.
 

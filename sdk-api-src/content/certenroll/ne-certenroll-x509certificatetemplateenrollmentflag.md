@@ -54,72 +54,72 @@ The <b>X509CertificateTemplateEnrollmentFlag</b> enumeration contains values tha
 
 ## -enum-fields
 
-### -field EnrollmentIncludeSymmetricAlgorithms
+### -field EnrollmentIncludeSymmetricAlgorithms:0x1
 
 Instructs the client and server to include a Secure/Multipurpose Internet Mail Extensions (S/MIME) extension in the certificate request and issued certificate.
 
-### -field EnrollmentPendAllRequests
+### -field EnrollmentPendAllRequests:0x2
 
 Instructs the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) to place all certificate requests in a pending state.
 
-### -field EnrollmentPublishToKRAContainer
+### -field EnrollmentPublishToKRAContainer:0x4
 
 Instructs the certification authority to publish the issued certificate to the key recovery agent (KRA) container in Active Directory.
 
-### -field EnrollmentPublishToDS
+### -field EnrollmentPublishToDS:0x8
 
 Instructs clients and servers to append the issued certificate to the <b>userCertificate</b> attribute on the user object in Active Directory.
 
-### -field EnrollmentAutoEnrollmentCheckUserDSCertificate
+### -field EnrollmentAutoEnrollmentCheckUserDSCertificate:0x10
 
 Instructs clients to not automatically enroll a certificate based on this template if the <b>userCertificate</b> attribute on the user object in Active Directory already contains a valid certificate based on this template.
 
-### -field EnrollmentAutoEnrollment
+### -field EnrollmentAutoEnrollment:0x20
 
 Instructs clients to automatically enroll a certificate that is based on this template.
 
-### -field EnrollmentDomainAuthenticationNotRequired
+### -field EnrollmentDomainAuthenticationNotRequired:0x80
 
 Not used.
 
-### -field EnrollmentPreviousApprovalValidateReenrollment
+### -field EnrollmentPreviousApprovalValidateReenrollment:0x40
 
 Instructs clients to sign a certificate by using private keys whose public keys are contained in  existing certificates.
 
-### -field EnrollmentUserInteractionRequired
+### -field EnrollmentUserInteractionRequired:0x100
 
 Instructs the client to obtain user consent before attempting to enroll a certificate request based on this template.
 
-### -field EnrollmentAddTemplateName
+### -field EnrollmentAddTemplateName:0x200
 
 Not used.
 
-### -field EnrollmentRemoveInvalidCertificateFromPersonalStore
+### -field EnrollmentRemoveInvalidCertificateFromPersonalStore:0x400
 
 Instructs the client to delete expired, revoked, or renewed certificates from the local certificate store.
 
-### -field EnrollmentAllowEnrollOnBehalfOf
+### -field EnrollmentAllowEnrollOnBehalfOf:0x800
 
 Instructs the server to allow enroll-on-behalf-of (EOBO) functionality.
 
-### -field EnrollmentAddOCSPNoCheck
+### -field EnrollmentAddOCSPNoCheck:0x1000
 
 Instructs the server to not include revocation information in the issued certificate, adding instead an id-pkix-ocsp-nocheck extension that specifies that the certificate holder can be trusted for the life of the certificate.
 
-### -field EnrollmentReuseKeyOnFullSmartCard
+### -field EnrollmentReuseKeyOnFullSmartCard:0x2000
 
 Instructs the client to reuse a private key for a smart card based certificate renewal if a new private key cannot be created on the card.
 
-### -field EnrollmentNoRevocationInfoInCerts
+### -field EnrollmentNoRevocationInfoInCerts:0x4000
 
 Instructs the server to not include revocation information in the issued certificate.
 
-### -field EnrollmentIncludeBasicConstraintsForEECerts
+### -field EnrollmentIncludeBasicConstraintsForEECerts:0x8000
 
 Instructs the server to include the Basic Constraints extension in the issued certificate.
 
-### -field EnrollmentPreviousApprovalKeyBasedValidateReenrollment
+### -field EnrollmentPreviousApprovalKeyBasedValidateReenrollment:0x10000
 
-### -field EnrollmentCertificateIssuancePoliciesFromRequest
+### -field EnrollmentCertificateIssuancePoliciesFromRequest:0x20000
 
-### -field EnrollmentSkipAutoRenewal
+### -field EnrollmentSkipAutoRenewal:0x40000

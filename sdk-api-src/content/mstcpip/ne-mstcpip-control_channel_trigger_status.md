@@ -56,31 +56,31 @@ The <a href="/windows/desktop/api/mswsock/ne-mswsock-rio_notification_completion
 
 ## -enum-fields
 
-### -field CONTROL_CHANNEL_TRIGGER_STATUS_INVALID
+### -field CONTROL_CHANNEL_TRIGGER_STATUS_INVALID:0
 
 Status is invalid.
 
-### -field CONTROL_CHANNEL_TRIGGER_STATUS_SOFTWARE_SLOT_ALLOCATED
+### -field CONTROL_CHANNEL_TRIGGER_STATUS_SOFTWARE_SLOT_ALLOCATED:1
 
 A software slot was allocated for the <a href="/uwp/api/windows.networking.sockets.controlchanneltrigger">ControlChannelTrigger</a>.
 
-### -field CONTROL_CHANNEL_TRIGGER_STATUS_HARDWARE_SLOT_ALLOCATED
+### -field CONTROL_CHANNEL_TRIGGER_STATUS_HARDWARE_SLOT_ALLOCATED:2
 
 A hardware slot was allocated for the <a href="/uwp/api/windows.networking.sockets.controlchanneltrigger">ControlChannelTrigger</a>.
 
-### -field CONTROL_CHANNEL_TRIGGER_STATUS_POLICY_ERROR
+### -field CONTROL_CHANNEL_TRIGGER_STATUS_POLICY_ERROR:3
 
 A status policy error.
 
-### -field CONTROL_CHANNEL_TRIGGER_STATUS_SYSTEM_ERROR
+### -field CONTROL_CHANNEL_TRIGGER_STATUS_SYSTEM_ERROR:4
 
 A status system error.
 
-### -field CONTROL_CHANNEL_TRIGGER_STATUS_TRANSPORT_DISCONNECTED
+### -field CONTROL_CHANNEL_TRIGGER_STATUS_TRANSPORT_DISCONNECTED:5
 
 The TCP transport is disconnected.
 
-### -field CONTROL_CHANNEL_TRIGGER_STATUS_SERVICE_UNAVAILABLE
+### -field CONTROL_CHANNEL_TRIGGER_STATUS_SERVICE_UNAVAILABLE:6
 
 Service is unavailable.
 

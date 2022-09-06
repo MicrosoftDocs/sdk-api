@@ -56,31 +56,31 @@ Defines constant values that indicate if the map is a value map, bitmap, or patt
 
 ## -enum-fields
 
-### -field EVENTMAP_INFO_FLAG_MANIFEST_VALUEMAP
+### -field EVENTMAP_INFO_FLAG_MANIFEST_VALUEMAP:0x1
 
 The manifest value map maps integer values to strings. For details, see the <a href="/windows/desktop/WES/eventmanifestschema-maptype-complextype">MapType</a> complex type.
 
-### -field EVENTMAP_INFO_FLAG_MANIFEST_BITMAP
+### -field EVENTMAP_INFO_FLAG_MANIFEST_BITMAP:0x2
 
 The manifest value map maps bit values to strings. For details, see the <a href="/windows/desktop/WES/eventmanifestschema-maptype-complextype">MapType</a> complex type.
 
-### -field EVENTMAP_INFO_FLAG_MANIFEST_PATTERNMAP
+### -field EVENTMAP_INFO_FLAG_MANIFEST_PATTERNMAP:0x4
 
 The manifest value map uses regular expressions to map one name to another name. For details, see the <a href="/windows/desktop/WES/eventmanifestschema-patternmaptype-complextype">PatternMapType</a> complex type.
 
-### -field EVENTMAP_INFO_FLAG_WBEM_VALUEMAP
+### -field EVENTMAP_INFO_FLAG_WBEM_VALUEMAP:0x8
 
 The WMI value map maps integer values to strings. For details, see <a href="/windows/desktop/WmiSdk/value-map">ValueMap and Value Qualifiers</a>.
 
-### -field EVENTMAP_INFO_FLAG_WBEM_BITMAP
+### -field EVENTMAP_INFO_FLAG_WBEM_BITMAP:0x10
 
 The WMI value map maps bit values to strings. For details, see <a href="/windows/desktop/WmiSdk/bitmap-and-bitvalues">BitMap and BitValue Qualifiers</a>.
 
-### -field EVENTMAP_INFO_FLAG_WBEM_FLAG
+### -field EVENTMAP_INFO_FLAG_WBEM_FLAG:0x20
 
 This flag can be combined with the EVENTMAP_INFO_FLAG_WBEM_VALUEMAP flag to indicate that the ValueMap qualifier contains bit (flag) values instead of index values.
 
-### -field EVENTMAP_INFO_FLAG_WBEM_NO_MAP
+### -field EVENTMAP_INFO_FLAG_WBEM_NO_MAP:0x40
 
 This flag can be combined with the EVENTMAP_INFO_FLAG_WBEM_VALUEMAP or EVENTMAP_INFO_FLAG_WBEM_BITMAP flag to indicate that the MOF class property contains a BitValues or Values qualifier but does not contain the BitMap or ValueMap qualifier.
 

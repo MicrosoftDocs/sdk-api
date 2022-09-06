@@ -58,15 +58,15 @@ Defines the set of partition style values.
 
 ## -enum-fields
 
-### -field VDS_PST_UNKNOWN
+### -field VDS_PST_UNKNOWN:0
 
 An uninitialized disk. New disks or newly cleaned disks have this partitioning type.
 
-### -field VDS_PST_MBR
+### -field VDS_PST_MBR:1
 
 The style is master boot record (MBR). If the value is <b>VDS_PST_MBR</b>, a DWORD signature  identifies the disk. The identifier is unique on a single computer, but not unique across multiple computers. See the <a href="/windows/desktop/api/vds/ns-vds-vds_partition_info_mbr">VDS_PARTITION_INFO_MBR</a> structure.
 
-### -field VDS_PST_GPT
+### -field VDS_PST_GPT:2
 
 The style is GUID partition table (GPT). If the value is <b>VDS_PST_GPT</b>, the disk has a GUID identifier. The GUID is guaranteed statistically to be unique across different computers. See the <a href="/windows/desktop/api/vds/ns-vds-vds_partition_info_gpt">VDS_PARTITION_INFO_GPT</a> structure.
 

@@ -40,7 +40,8 @@ Implementing this interface also implies that the APO supports the APO Settings 
 
 This interface is also implemented by clients that require an [APOInitSystemEffects3](ns-audioengineextensionapo-apoinitsystemeffects3.md) structure to be passed into the [IAudioProcessingObject::Initialize](..//audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobject-initialize.md) method. **APOInitSystemEffects3** adds the ability to obtain a service provider such as [IAudioProcessingObjectLoggingService](nn-audioengineextensionapo-iaudioprocessingobjectloggingservice.md) or [IAudioProcessingObjectRTQueueService](nn-audioengineextensionapo-iaudioprocessingobjectrtqueueservice.md). 
 
-> [!NOTE] On OS versions earlier than Windows Build 22000, the system will not pass an **APOInitSystemEffects3** into **IAudioProcessingObject::Initialize** even if the client implements **IAudioSystemEffects3**, but will instead pass an older version of the structure, [APOInitSystemEffects2](audioenginebaseapo/ns-audioenginebaseapo-apoinitsystemeffects2) or [APOInitSystemEffects](audioenginebaseapo/ns-audioenginebaseapo-apoinitsystemeffects2), into **Initialize**.
+> [!NOTE]
+> On OS versions earlier than Windows Build 22000, the system will not pass an **APOInitSystemEffects3** into **IAudioProcessingObject::Initialize** even if the client implements **IAudioSystemEffects3**, but will instead pass an older version of the structure, [APOInitSystemEffects2](audioenginebaseapo/ns-audioenginebaseapo-apoinitsystemeffects2) or [APOInitSystemEffects](audioenginebaseapo/ns-audioenginebaseapo-apoinitsystemeffects2), into **Initialize**.
 
 ## -remarks
 

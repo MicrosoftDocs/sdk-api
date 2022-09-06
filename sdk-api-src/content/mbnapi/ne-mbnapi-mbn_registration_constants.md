@@ -57,10 +57,10 @@ The <b>MBN_REGISTRATION_CONSTANTS</b> enumerated type contains specific values u
 
 ## -enum-fields
 
-### -field MBN_ROAMTEXT_LEN
+### -field MBN_ROAMTEXT_LEN:64
 
 The maximum string size of the <i>roamingText</i> parameter in the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getroamingtext">GetRoamingText</a> method of the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistration">IMbnRegistration</a> interface.
 
-### -field MBN_CDMA_DEFAULT_PROVIDER_ID
+### -field MBN_CDMA_DEFAULT_PROVIDER_ID:0
 
 Indicates an unknown provider ID in the <i>providerID</i> parameter in the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getproviderid">GetProviderID</a> method of the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistration">IMbnRegistration</a> interface.

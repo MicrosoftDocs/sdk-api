@@ -56,7 +56,7 @@ The
 
 ## -enum-fields
 
-### -field ASE_NEW_SESSION
+### -field ASE_NEW_SESSION:0
 
 A new agent session has been created.
 

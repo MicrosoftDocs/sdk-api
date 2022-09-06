@@ -56,7 +56,7 @@ Defines the possible types of data that the subscription service can deliver to 
 
 ## -enum-fields
 
-### -field EvtSubscribeActionError
+### -field EvtSubscribeActionError:0
 
 Indicates that the <i>Event</i> parameter contains a Win32 error code.
 

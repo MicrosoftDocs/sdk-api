@@ -37,7 +37,7 @@ The values of the **COLORTYPE** enumeration are used by several WCS functions. V
 
 ## -enum-fields
 
-### -field COLOR_GRAY
+### -field COLOR_GRAY:1
 
 The **COLOR** is in the GRAYCOLOR color space.
 

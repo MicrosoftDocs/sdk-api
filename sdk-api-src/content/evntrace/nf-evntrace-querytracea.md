@@ -163,7 +163,8 @@ This function is obsolete. Instead, use
 [ControlTrace](/windows/win32/api/evntrace/nf-evntrace-controltracea) with
 _ControlCode_ set to **EVENT_TRACE_CONTROL_QUERY**.
 
-> [!NOTE] The evntrace.h header defines QueryTrace as an alias which
+> [!NOTE]
+> The evntrace.h header defines QueryTrace as an alias which
 > automatically selects the ANSI or Unicode version of this function based on
 > the definition of the UNICODE preprocessor constant. Mixing usage of the
 > encoding-neutral alias with code that not encoding-neutral can lead to

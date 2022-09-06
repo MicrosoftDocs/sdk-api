@@ -56,7 +56,7 @@ The <b>FWP_IP_VERSION</b> enumerated type specifies the IP version.
 
 ## -enum-fields
 
-### -field FWP_IP_VERSION_V4
+### -field FWP_IP_VERSION_V4:0
 
 Specifies IPv4.
 

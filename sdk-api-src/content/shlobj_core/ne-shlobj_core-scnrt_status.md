@@ -54,11 +54,11 @@ Indicates whether to enable or disable Async Register and Deregister for <a href
 
 ## -enum-fields
 
-### -field SCNRT_ENABLE
+### -field SCNRT_ENABLE:0
 
 Enable Async Register and Deregister for <a href="/windows/desktop/api/shlobj/nf-shlobj-shchangenotifyregisterthread">SHChangeNotifyRegisterThread</a>.
 
-### -field SCNRT_DISABLE
+### -field SCNRT_DISABLE:1
 
 Disable Async Register and Deregister for <a href="/windows/desktop/api/shlobj/nf-shlobj-shchangenotifyregisterthread">SHChangeNotifyRegisterThread</a>.
 

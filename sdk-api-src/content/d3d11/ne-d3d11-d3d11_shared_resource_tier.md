@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11.D3D11_SHARED_RESOURCE_TIER
 title: D3D11_SHARED_RESOURCE_TIER
-description: Defines constants that specify TBD.
+description: Defines constants that specify the level of support for shared resources in the current graphics driver
 tech.root: direct3d11
 ms.date: 05/27/2020
 helpviewer_keywords: ["D3D11_SHARED_RESOURCE_TIER"]
@@ -35,11 +35,11 @@ api_name:
 
 ## -description
 
-Defines constants that specify a tier for shared resource support.
+Defines constants that specify the level of support for shared resources in the current graphics driver.
 
 ## -enum-fields
 
-### -field D3D11_SHARED_RESOURCE_TIER_0
+### -field D3D11_SHARED_RESOURCE_TIER_0:0
 
 Specifies the support available when [D3D11_FEATURE_DATA_D3D11_OPTIONS::ExtendedResourceSharing](./ns-d3d11-d3d11_feature_data_d3d11_options.md) is **FALSE**.
 

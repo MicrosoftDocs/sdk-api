@@ -54,30 +54,30 @@ These flags are associated with certain <a href="/windows/desktop/api/propidl/ns
 
 ## -enum-fields
 
-### -field PVCU_DEFAULT
+### -field PVCU_DEFAULT:0
 
 The default unit.
 
-### -field PVCU_SECOND
+### -field PVCU_SECOND:1
 
 The second comparison unit.
 
-### -field PVCU_MINUTE
+### -field PVCU_MINUTE:2
 
 The minute comparison unit.
 
-### -field PVCU_HOUR
+### -field PVCU_HOUR:3
 
 The hour comparison unit.
 
-### -field PVCU_DAY
+### -field PVCU_DAY:4
 
 The day comparison unit.
 
-### -field PVCU_MONTH
+### -field PVCU_MONTH:5
 
 The month comparison unit.
 
-### -field PVCU_YEAR
+### -field PVCU_YEAR:6
 
 The year comparison unit.

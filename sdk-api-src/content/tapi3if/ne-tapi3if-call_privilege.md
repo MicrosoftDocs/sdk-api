@@ -56,7 +56,7 @@ A
 
 ## -enum-fields
 
-### -field CP_OWNER
+### -field CP_OWNER:0
 
 The application is the owner of the call.
 

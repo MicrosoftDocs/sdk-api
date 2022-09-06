@@ -3,7 +3,7 @@ UID: NS:directml.DML_ROI_ALIGN1_OPERATOR_DESC
 title: DML_ROI_ALIGN1_OPERATOR_DESC
 description: Performs an ROI align operation, as described in the [Mask R-CNN](https://arxiv.org/abs/1703.06870) paper. In summary, the operation extracts cropped windows from the input image tensor, and resizes them to a common output size specified by the last 2 dimensions of *OutputTensor* using the specified *InterpolationMode*.
 tech.root: directml
-ms.date: 07/02/2021
+ms.date: 01/19/2022
 req.construct-type: structure
 req.header: directml.h
 req.include-header: 
@@ -43,9 +43,6 @@ api_name:
 ## -description
 
 Performs an ROI align operation, as described in the [Mask R-CNN](https://arxiv.org/abs/1703.06870) paper. In summary, the operation extracts cropped windows from the input image tensor, and resizes them to a common output size specified by the last 2 dimensions of *OutputTensor* using the specified *InterpolationMode*.
-
-> [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.6 and later. Also see [DirectML version history](/windows/ai/directml/dml-version-history).
 
 The general logic is as follows.
 
@@ -198,6 +195,15 @@ This operator was introduced in **DML_FEATURE_LEVEL_4_0**.
 *InputTensor*, *OutputTensor*, and *ROITensor* must have the same *DataType*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_5_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 | FLOAT32, FLOAT16 |
+| ROITensor | Input | 2 to 4 | FLOAT32, FLOAT16 |
+| BatchIndicesTensor | Input | 1 to 4 | UINT64, UINT32 |
+| OutputTensor | Output | 4 | FLOAT32, FLOAT16 |
+
+### DML_FEATURE_LEVEL_4_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputTensor | Input | 4 | FLOAT32, FLOAT16 |

@@ -56,23 +56,23 @@ Specifies different types of apartments.
 
 ## -enum-fields
 
-### -field APTTYPE_CURRENT
+### -field APTTYPE_CURRENT:-1
 
 The current thread.
 
-### -field APTTYPE_STA
+### -field APTTYPE_STA:0
 
 A single-threaded apartment.
 
-### -field APTTYPE_MTA
+### -field APTTYPE_MTA:1
 
 A multithreaded apartment.
 
-### -field APTTYPE_NA
+### -field APTTYPE_NA:2
 
 A neutral apartment.
 
-### -field APTTYPE_MAINSTA
+### -field APTTYPE_MAINSTA:3
 
 The main single-threaded apartment.
 

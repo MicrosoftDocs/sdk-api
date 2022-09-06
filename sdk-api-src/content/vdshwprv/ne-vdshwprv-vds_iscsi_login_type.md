@@ -59,15 +59,15 @@ Defines the set of valid types for logging into an iSCSI target.
 
 ## -enum-fields
 
-### -field VDS_ILT_MANUAL
+### -field VDS_ILT_MANUAL:0
 
 A manual, one-time login is performed.
 
-### -field VDS_ILT_PERSISTENT
+### -field VDS_ILT_PERSISTENT:1
 
 A persistent login is performed.
 
-### -field VDS_ILT_BOOT
+### -field VDS_ILT_BOOT:2
 
 A persistent login is performed such that the target is present at startup.
 

@@ -56,9 +56,9 @@ Contains constants used to distinguish between classes and instances.
 
 ## -enum-fields
 
-### -field WBEM_GENUS_CLASS
+### -field WBEM_GENUS_CLASS:1
 
-### -field WBEM_GENUS_INSTANCE
+### -field WBEM_GENUS_INSTANCE:2
 
 ## -see-also
 

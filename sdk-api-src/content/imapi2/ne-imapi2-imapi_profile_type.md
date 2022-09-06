@@ -58,136 +58,136 @@ Defines values for the possible profiles of a CD and DVD device.  A profile defi
 
 ## -enum-fields
 
-### -field IMAPI_PROFILE_TYPE_INVALID
+### -field IMAPI_PROFILE_TYPE_INVALID:0
 
 The profile is not valid.
 
-### -field IMAPI_PROFILE_TYPE_NON_REMOVABLE_DISK
+### -field IMAPI_PROFILE_TYPE_NON_REMOVABLE_DISK:0x1
 
 The hard disk it not removable.
 
-### -field IMAPI_PROFILE_TYPE_REMOVABLE_DISK
+### -field IMAPI_PROFILE_TYPE_REMOVABLE_DISK:0x2
 
 The hard disk is removable.
 
-### -field IMAPI_PROFILE_TYPE_MO_ERASABLE
+### -field IMAPI_PROFILE_TYPE_MO_ERASABLE:0x3
 
 An Magneto-Optical Erasable drive.
 
-### -field IMAPI_PROFILE_TYPE_MO_WRITE_ONCE
+### -field IMAPI_PROFILE_TYPE_MO_WRITE_ONCE:0x4
 
 A write once optical drive.
 
-### -field IMAPI_PROFILE_TYPE_AS_MO
+### -field IMAPI_PROFILE_TYPE_AS_MO:0x5
 
 An advance storage Magneto-Optical drive.
 
-### -field IMAPI_PROFILE_TYPE_CDROM
+### -field IMAPI_PROFILE_TYPE_CDROM:0x8
 
 A CD-ROM drive.
 
-### -field IMAPI_PROFILE_TYPE_CD_RECORDABLE
+### -field IMAPI_PROFILE_TYPE_CD_RECORDABLE:0x9
 
 A CD-R drive.
 
-### -field IMAPI_PROFILE_TYPE_CD_REWRITABLE
+### -field IMAPI_PROFILE_TYPE_CD_REWRITABLE:0xa
 
 A CD-RW or CD+RW drive.
 
-### -field IMAPI_PROFILE_TYPE_DVDROM
+### -field IMAPI_PROFILE_TYPE_DVDROM:0x10
 
 A DVD-ROM drive.
 
-### -field IMAPI_PROFILE_TYPE_DVD_DASH_RECORDABLE
+### -field IMAPI_PROFILE_TYPE_DVD_DASH_RECORDABLE:0x11
 
 A DVD-R sequential recording drive.
 
-### -field IMAPI_PROFILE_TYPE_DVD_RAM
+### -field IMAPI_PROFILE_TYPE_DVD_RAM:0x12
 
 A DVD-RAM drive.
 
-### -field IMAPI_PROFILE_TYPE_DVD_DASH_REWRITABLE
+### -field IMAPI_PROFILE_TYPE_DVD_DASH_REWRITABLE:0x13
 
 A DVD-RW restricted overwrite drive.
 
-### -field IMAPI_PROFILE_TYPE_DVD_DASH_RW_SEQUENTIAL
+### -field IMAPI_PROFILE_TYPE_DVD_DASH_RW_SEQUENTIAL:0x14
 
 A DVD-RW sequential recording drive.
 
-### -field IMAPI_PROFILE_TYPE_DVD_DASH_R_DUAL_SEQUENTIAL
+### -field IMAPI_PROFILE_TYPE_DVD_DASH_R_DUAL_SEQUENTIAL:0x15
 
 A DVD-R dual layer sequential recording drive.
 
-### -field IMAPI_PROFILE_TYPE_DVD_DASH_R_DUAL_LAYER_JUMP
+### -field IMAPI_PROFILE_TYPE_DVD_DASH_R_DUAL_LAYER_JUMP:0x16
 
 A DVD-R dual layer jump recording drive.
 
-### -field IMAPI_PROFILE_TYPE_DVD_PLUS_RW
+### -field IMAPI_PROFILE_TYPE_DVD_PLUS_RW:0x1a
 
 A DVD+RW drive.
 
-### -field IMAPI_PROFILE_TYPE_DVD_PLUS_R
+### -field IMAPI_PROFILE_TYPE_DVD_PLUS_R:0x1b
 
 A DVD+R drive.
 
-### -field IMAPI_PROFILE_TYPE_DDCDROM
+### -field IMAPI_PROFILE_TYPE_DDCDROM:0x20
 
 A double density CD drive.
 
 <div class="alert"><b>Note</b>  This profile has been deprecated.</div>
 <div> </div>
 
-### -field IMAPI_PROFILE_TYPE_DDCD_RECORDABLE
+### -field IMAPI_PROFILE_TYPE_DDCD_RECORDABLE:0x21
 
 A double density CD-R drive.
 
 <div class="alert"><b>Note</b>  This profile has been deprecated.</div>
 <div> </div>
 
-### -field IMAPI_PROFILE_TYPE_DDCD_REWRITABLE
+### -field IMAPI_PROFILE_TYPE_DDCD_REWRITABLE:0x22
 
 A double density CD-RW drive.
 
 <div class="alert"><b>Note</b>  This profile has been deprecated.</div>
 <div> </div>
 
-### -field IMAPI_PROFILE_TYPE_DVD_PLUS_RW_DUAL
+### -field IMAPI_PROFILE_TYPE_DVD_PLUS_RW_DUAL:0x2a
 
 A DVD+RW dual layer drive.
 
-### -field IMAPI_PROFILE_TYPE_DVD_PLUS_R_DUAL
+### -field IMAPI_PROFILE_TYPE_DVD_PLUS_R_DUAL:0x2b
 
 A DVD+R dual layer drive.
 
-### -field IMAPI_PROFILE_TYPE_BD_ROM
+### -field IMAPI_PROFILE_TYPE_BD_ROM:0x40
 
 A Blu-ray read only drive.
 
-### -field IMAPI_PROFILE_TYPE_BD_R_SEQUENTIAL
+### -field IMAPI_PROFILE_TYPE_BD_R_SEQUENTIAL:0x41
 
 A write once Blu-ray drive with sequential recording.
 
-### -field IMAPI_PROFILE_TYPE_BD_R_RANDOM_RECORDING
+### -field IMAPI_PROFILE_TYPE_BD_R_RANDOM_RECORDING:0x42
 
 A write once Blu-ray drive with random-access recording capability.
 
-### -field IMAPI_PROFILE_TYPE_BD_REWRITABLE
+### -field IMAPI_PROFILE_TYPE_BD_REWRITABLE:0x43
 
 A rewritable Blu-ray drive.
 
-### -field IMAPI_PROFILE_TYPE_HD_DVD_ROM
+### -field IMAPI_PROFILE_TYPE_HD_DVD_ROM:0x50
 
 A read only high density DVD drive.
 
-### -field IMAPI_PROFILE_TYPE_HD_DVD_RECORDABLE
+### -field IMAPI_PROFILE_TYPE_HD_DVD_RECORDABLE:0x51
 
 A write once high density DVD drive.
 
-### -field IMAPI_PROFILE_TYPE_HD_DVD_RAM
+### -field IMAPI_PROFILE_TYPE_HD_DVD_RAM:0x52
 
 A high density DVD drive with random access positioning.
 
-### -field IMAPI_PROFILE_TYPE_NON_STANDARD
+### -field IMAPI_PROFILE_TYPE_NON_STANDARD:0xffff
 
 Nonstandard drive.
 

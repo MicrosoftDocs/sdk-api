@@ -54,7 +54,7 @@ The different encodings (message formats).
 
 ## -enum-fields
 
-### -field WS_ENCODING_XML_BINARY_1
+### -field WS_ENCODING_XML_BINARY_1:0
 
 The binary XML encoding.
                 
@@ -66,7 +66,7 @@ Although the data is still in the XML
 
 This encoding requires SOAP 1.2 (<a href="/windows/desktop/api/webservices/ne-webservices-ws_envelope_version">WS_ENVELOPE_VERSION_SOAP_1_2</a>).
 
-### -field WS_ENCODING_XML_BINARY_SESSION_1
+### -field WS_ENCODING_XML_BINARY_SESSION_1:1
 
 The binary XML session encoding.
                 
@@ -101,7 +101,7 @@ The size of the session dictionary is configured using
 
 This encoding requires SOAP 1.2 (<a href="/windows/desktop/api/webservices/ne-webservices-ws_envelope_version">WS_ENVELOPE_VERSION_SOAP_1_2</a>).
 
-### -field WS_ENCODING_XML_MTOM_UTF8
+### -field WS_ENCODING_XML_MTOM_UTF8:2
 
 The MTOM encoding.
                 
@@ -117,7 +117,7 @@ The MTOM encoding optimizes for binary data by avoiding the costs
 The XML part of the MTOM package is written
                     using <a href="/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_UTF8</a>, but may be in any <b>WS_CHARSET</b> when read.
 
-### -field WS_ENCODING_XML_MTOM_UTF16BE
+### -field WS_ENCODING_XML_MTOM_UTF16BE:3
 
 The MTOM encoding.
                 
@@ -133,7 +133,7 @@ The MTOM encoding optimizes for binary data by avoiding the costs
 The XML part of the MTOM package is written
                     using <a href="/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_UTF16BE</a>, but may be in any <b>WS_CHARSET</b> when read.
 
-### -field WS_ENCODING_XML_MTOM_UTF16LE
+### -field WS_ENCODING_XML_MTOM_UTF16LE:4
 
 The MTOM encoding.
                 
@@ -149,7 +149,7 @@ The MTOM encoding optimizes for binary data by avoiding the costs
 The XML part of the MTOM package is written
                     using <a href="/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_UTF16LE</a>, but may be in any <b>WS_CHARSET</b> when read.
 
-### -field WS_ENCODING_XML_UTF8
+### -field WS_ENCODING_XML_UTF8:5
 
 The text encoding (XML 1.0 format).
                 
@@ -157,7 +157,7 @@ The text encoding (XML 1.0 format).
 Data is written using <a href="/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_UTF8</a>,
                     but may be in any <b>WS_CHARSET</b> when read.
 
-### -field WS_ENCODING_XML_UTF16BE
+### -field WS_ENCODING_XML_UTF16BE:6
 
 The text encoding (XML 1.0 format).
                 
@@ -165,7 +165,7 @@ The text encoding (XML 1.0 format).
 Data is written using <a href="/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_UTF16BE</a>,
                     but may be in any <b>WS_CHARSET</b> when read.
 
-### -field WS_ENCODING_XML_UTF16LE
+### -field WS_ENCODING_XML_UTF16LE:7
 
 The text encoding (XML 1.0 format).
                 
@@ -173,4 +173,4 @@ The text encoding (XML 1.0 format).
 Data is written using <a href="/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_UTF16LE</a>,
                     but may be in any <b>WS_CHARSET</b> when read.
 
-### -field WS_ENCODING_RAW
+### -field WS_ENCODING_RAW:8

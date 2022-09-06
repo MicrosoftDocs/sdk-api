@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMGeometryFigureCollection interface
 
-
 ## -description
 
 A collection of <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometryfigure">IXpsOMGeometryFigure</a> interface pointers.

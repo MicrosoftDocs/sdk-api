@@ -56,7 +56,7 @@ Describes the color type used by the <a href="/previous-versions/windows/desktop
 
 ## -enum-fields
 
-### -field XPS_COLOR_TYPE_SRGB
+### -field XPS_COLOR_TYPE_SRGB:1
 
 The color value is an sRGB value.
 

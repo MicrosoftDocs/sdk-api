@@ -51,40 +51,40 @@ Identifies the type of DXGI adapter.
 
 ## -enum-fields
 
-### -field DXGI_ADAPTER_FLAG3_NONE
+### -field DXGI_ADAPTER_FLAG3_NONE:0
 
 Specifies no flags.
 
-### -field DXGI_ADAPTER_FLAG3_REMOTE
+### -field DXGI_ADAPTER_FLAG3_REMOTE:1
 
 Value always set to 0. This flag is reserved.
 
-### -field DXGI_ADAPTER_FLAG3_SOFTWARE
+### -field DXGI_ADAPTER_FLAG3_SOFTWARE:2
 
 Specifies a software adapter. For more info about this flag, see <a href="/windows/desktop/direct3ddxgi/d3d10-graphics-programming-guide-dxgi">new info in Windows 8 about enumerating adapters</a>.
 
 <b>Direct3D 11:  </b>This enumeration value is supported starting with Windows 8.
 
-### -field DXGI_ADAPTER_FLAG3_ACG_COMPATIBLE
+### -field DXGI_ADAPTER_FLAG3_ACG_COMPATIBLE:4
 
 Specifies that the adapter's driver has been confirmed to work in an OS process where Arbitrary Code Guard (ACG) is enabled (i.e. dynamic code generation is disallowed).
 
-### -field DXGI_ADAPTER_FLAG3_SUPPORT_MONITORED_FENCES
+### -field DXGI_ADAPTER_FLAG3_SUPPORT_MONITORED_FENCES:8
 
 Specifies that the adapter supports monitored fences. These adapters support the <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device::CreateFence</a> and <a href="/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11device5">ID3D11Device5::CreateFence</a> functions.
 
-### -field DXGI_ADAPTER_FLAG3_SUPPORT_NON_MONITORED_FENCES
+### -field DXGI_ADAPTER_FLAG3_SUPPORT_NON_MONITORED_FENCES:0x10
 
 Specifies that the adapter supports non-monitored fences. These adapters support the <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device::CreateFence</a> function together with the <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_fence_flags">D3D12_FENCE_FLAG_NON_MONITORED</a> flag.
 
 <div class="alert"><b>Note</b>  For adapters that support both monitored and non-monitored fences, non-monitored fences are only supported when created with the <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_fence_flags">D3D12_FENCE_FLAG_SHARED</a> and <b>D3D12_FENCE_FLAG_SHARED_CROSS_ADAPTER</b> flags. Monitored fences should always be used by supporting adapters unless communicating with an adapter that only supports non-monitored fences.</div>
 <div> </div>
 
-### -field DXGI_ADAPTER_FLAG3_KEYED_MUTEX_CONFORMANCE
+### -field DXGI_ADAPTER_FLAG3_KEYED_MUTEX_CONFORMANCE:0x20
 
 Specifies that the adapter claims keyed mutex conformance. This signals a stronger guarantee that the <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgikeyedmutex">IDXGIKeyedMutex</a> interface behaves correctly.
 
-### -field DXGI_ADAPTER_FLAG3_FORCE_DWORD
+### -field DXGI_ADAPTER_FLAG3_FORCE_DWORD:0xffffffff
 
 Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits. This value is not used.
 

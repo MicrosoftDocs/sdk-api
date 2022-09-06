@@ -44,7 +44,7 @@ The <b>DOT11_RADIO_STATE</b> enumeration specifies an 802.11 radio state.
 
 ## -enum-fields
 
-### -field dot11_radio_state_unknown
+### -field dot11_radio_state_unknown:0
 
 The radio state is unknown.
 

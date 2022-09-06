@@ -103,7 +103,10 @@ The data type is <b>DWORD*</b>.
 The type index of all children.
 
 The data type  is a pointer to a 
-<a href="/windows/desktop/api/dbghelp/ns-dbghelp-ti_findchildren_params">TI_FINDCHILDREN_PARAMS</a> structure. The <b>Count</b> member should be initialized with the number of children.
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-ti_findchildren_params">TI_FINDCHILDREN_PARAMS</a> structure.
+
+- The <b>Count</b> member should be initialized with the number of children.
+- The <b>Start</b> member should also be initialized. In most cases, to zero.
 
 ### -field TI_GET_DATAKIND
 

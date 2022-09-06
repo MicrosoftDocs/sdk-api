@@ -64,10 +64,6 @@ Retrieves the processor group and number of the logical processor in which the c
 
 A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-processor_number">PROCESSOR_NUMBER</a> structure that receives the processor group to which the logical processor is assigned and the number of the logical processor within its group.
 
-## -returns
-
-If the function succeeds, the <i>ProcNumber</i> parameter contains the group and processor number of the processor on which the calling thread is running.
-
 ## -remarks
 
 To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.

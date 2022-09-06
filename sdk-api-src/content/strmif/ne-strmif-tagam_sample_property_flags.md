@@ -54,47 +54,47 @@ Specifies values for the [AM_SAMPLE2_PROPERTIES](/windows/desktop/api/strmif/ns-
 
 ## -enum-fields
 
-### -field AM_SAMPLE_SPLICEPOINT
+### -field AM_SAMPLE_SPLICEPOINT:0x1
 
 Sample is a splice point (it can be decoded without reference to previous data).
 
-### -field AM_SAMPLE_PREROLL
+### -field AM_SAMPLE_PREROLL:0x2
 
 Sample is a preroll sample.
 
-### -field AM_SAMPLE_DATADISCONTINUITY
+### -field AM_SAMPLE_DATADISCONTINUITY:0x4
 
 Initial data in this sample is a splice point. The data in the previous sample was not intended to be followed by data in this sample. For more information, see Remarks.
 
-### -field AM_SAMPLE_TYPECHANGED
+### -field AM_SAMPLE_TYPECHANGED:0x8
 
 Sample type changed.
 
-### -field AM_SAMPLE_TIMEVALID
+### -field AM_SAMPLE_TIMEVALID:0x10
 
 Time is valid.
 
-### -field AM_SAMPLE_TIMEDISCONTINUITY
+### -field AM_SAMPLE_TIMEDISCONTINUITY:0x40
 
 A time gap in the data starts after this sample. The [AM_SAMPLE2_PROPERTIES](/windows/desktop/api/strmif/ns-strmif-am_sample2_properties) structure can be <b>NULL</b> in this case.
 
-### -field AM_SAMPLE_FLUSH_ON_PAUSE
+### -field AM_SAMPLE_FLUSH_ON_PAUSE:0x80
 
 For live data only; indicates discard in the paused state.
 
-### -field AM_SAMPLE_STOPVALID
+### -field AM_SAMPLE_STOPVALID:0x100
 
 Stop time is valid.
 
-### -field AM_SAMPLE_ENDOFSTREAM
+### -field AM_SAMPLE_ENDOFSTREAM:0x200
 
 End of stream occurs after this sample. This flag is reserved for kernel streaming. DirectShow currently does not use it.
 
-### -field AM_STREAM_MEDIA
+### -field AM_STREAM_MEDIA:0
 
 Normal data stream identifier.
 
-### -field AM_STREAM_CONTROL
+### -field AM_STREAM_CONTROL:1
 
 Control stream identifier. A value greater than 0x7FFFFFFF indicates an application-defined stream.
 

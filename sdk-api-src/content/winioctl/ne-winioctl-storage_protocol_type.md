@@ -57,7 +57,7 @@ Specifies the protocol of a storage device.
 
 ## -enum-fields
 
-### -field ProtocolTypeUnknown
+### -field ProtocolTypeUnknown:0x00
 
 Unknown protocol type.
 
@@ -79,11 +79,11 @@ SD protocol type.
 
 ### -field ProtocolTypeUfs
 
-### -field ProtocolTypeProprietary
+### -field ProtocolTypeProprietary:0x7E
 
  Vendor-specific protocol type.
 
-### -field ProtocolTypeMaxReserved
+### -field ProtocolTypeMaxReserved:0x7F
 
 Reserved.
 

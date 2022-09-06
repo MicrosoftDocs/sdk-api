@@ -56,35 +56,35 @@ Describes the status of an asynchronous operation.
 
 ## -enum-fields
 
-### -field WBEM_STATUS_COMPLETE
+### -field WBEM_STATUS_COMPLETE:0
 
 The operation has completed.
 
-### -field WBEM_STATUS_REQUIREMENTS
+### -field WBEM_STATUS_REQUIREMENTS:1
 
 Used in activating post-filtering.
 
-### -field WBEM_STATUS_PROGRESS
+### -field WBEM_STATUS_PROGRESS:2
 
 The operation is still in progress.
 
-### -field WBEM_STATUS_LOGGING_INFORMATION
+### -field WBEM_STATUS_LOGGING_INFORMATION:0x100
 
 Reserved for future use.
 
-### -field WBEM_STATUS_LOGGING_INFORMATION_PROVIDER
+### -field WBEM_STATUS_LOGGING_INFORMATION_PROVIDER:0x200
 
 Reserved for future use.
 
-### -field WBEM_STATUS_LOGGING_INFORMATION_HOST
+### -field WBEM_STATUS_LOGGING_INFORMATION_HOST:0x400
 
 Reserved for future use.
 
-### -field WBEM_STATUS_LOGGING_INFORMATION_REPOSITORY
+### -field WBEM_STATUS_LOGGING_INFORMATION_REPOSITORY:0x800
 
 Reserved for future use.
 
-### -field WBEM_STATUS_LOGGING_INFORMATION_ESS
+### -field WBEM_STATUS_LOGGING_INFORMATION_ESS:0x1000
 
 Reserved for future use.
 

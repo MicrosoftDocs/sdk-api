@@ -4,7 +4,7 @@ title: DML_SPACE_TO_DEPTH1_OPERATOR_DESC
 description: Rearranges blocks of spatial data into depth. The operator outputs a copy of the input tensor where values from the height and width dimensions are moved to the depth dimension.
 helpviewer_keywords: ["DML_SPACE_TO_DEPTH1_OPERATOR_DESC","DML_SPACE_TO_DEPTH1_OPERATOR_DESC structure","direct3d12.dml_space_to_depth1_operator_desc","directml/DML_SPACE_TO_DEPTH1_OPERATOR_DESC"]
 tech.root: directml
-ms.date: 11/04/2020
+ms.date: 01/19/2022
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -154,6 +154,13 @@ This operator was introduced in `DML_FEATURE_LEVEL_2_1`.
 *InputTensor* and *OutputTensor* must have the same *DataType*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_5_0 and above
+| Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
+| ------ | ---- | ---------- | -------------------------- | -------------------- |
+| InputTensor | Input | { BatchCount, InputChannelCount, InputHeight, InputWidth } | 4 | FLOAT64, FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | { BatchCount, OutputChannelCount, OutputHeight, OutputWidth } | 4 | FLOAT64, FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+
+### DML_FEATURE_LEVEL_2_1 and above
 | Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
 | ------ | ---- | ---------- | -------------------------- | -------------------- |
 | InputTensor | Input | { BatchCount, InputChannelCount, InputHeight, InputWidth } | 4 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |

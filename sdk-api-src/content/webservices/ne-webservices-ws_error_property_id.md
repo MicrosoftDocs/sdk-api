@@ -56,7 +56,7 @@ A set of property values associated with the error.  They are set
 
 ## -enum-fields
 
-### -field WS_ERROR_PROPERTY_STRING_COUNT
+### -field WS_ERROR_PROPERTY_STRING_COUNT:0
 
 The number of error strings (ULONG) available in the error object. Error strings 
                     might be added using <a href="/windows/desktop/api/webservices/nf-webservices-wsadderrorstring">WsAddErrorString</a>. When <a href="/windows/desktop/api/webservices/ne-webservices-ws_error_property_id">WS_ERROR_PROPERTY_ORIGINAL_ERROR_CODE</a> is present in the error object, the corresponding error text will be counted as an
@@ -65,7 +65,7 @@ The number of error strings (ULONG) available in the error object. Error strings
 
                     This property is read only.
 
-### -field WS_ERROR_PROPERTY_ORIGINAL_ERROR_CODE
+### -field WS_ERROR_PROPERTY_ORIGINAL_ERROR_CODE:1
 
 If the error returned from the function was mapped to one of the 
                     standard WS_E_* errors, then this property is used to store the original
@@ -90,7 +90,7 @@ If the error was not mapped from an implementation specific value
 
 The default value is NOERROR.
 
-### -field WS_ERROR_PROPERTY_LANGID
+### -field WS_ERROR_PROPERTY_LANGID:2
 
 This identifies the language of any language sensitive information
                     in the error object.

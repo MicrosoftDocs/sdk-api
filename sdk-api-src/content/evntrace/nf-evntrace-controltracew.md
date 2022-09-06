@@ -211,7 +211,8 @@ Requested control function. You can specify one of the following values:
   real-time session (enables real-time delivery and disables writing events to
   the ETL file). Supported starting with Windows 10 October 2020 Update.
 
-> [!NOTE] It is not safe to flush buffers or stop a trace session from DllMain
+> [!NOTE]
+> It is not safe to flush buffers or stop a trace session from DllMain
 > (may cause deadlock).
 
 ## -returns
@@ -272,6 +273,11 @@ are some common errors and their causes.
 - **ERROR_WMI_INSTANCE_NOT_FOUND**
 
   The given session is not running.
+  
+- **ERROR_ACTIVE_CONNECTIONS**
+
+  When returned from a EVENT_TRACE_CONTROL_STOP call, this indicates that
+  the session is already in the process of stopping.
 
 ## -remarks
 
@@ -283,7 +289,8 @@ This function supersedes the
 [StopTrace](/windows/win32/api/evntrace/nf-evntrace-stoptracew), and
 [UpdateTrace](/windows/win32/api/evntrace/nf-evntrace-updatetracew) functions.
 
-> [!NOTE] The evntrace.h header defines ControlTrace as an alias which
+> [!NOTE]
+> The evntrace.h header defines ControlTrace as an alias which
 > automatically selects the ANSI or Unicode version of this function based on
 > the definition of the UNICODE preprocessor constant. Mixing usage of the
 > encoding-neutral alias with code that not encoding-neutral can lead to

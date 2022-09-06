@@ -56,6 +56,24 @@ Creates an overlapped, pop-up, or child window. It specifies the window class, w
 
 To use extended window styles in addition to the styles supported by <b>CreateWindow</b>, use the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function.
 
+## -syntax
+
+```cpp
+HWND CreateWindowW(
+  [in, optional]  lpClassName,
+  [in, optional]  lpWindowName,
+  [in]            dwStyle,
+  [in]            x,
+  [in]            y,
+  [in]            nWidth,
+  [in]            nHeight,
+  [in, optional]  hWndParent,
+  [in, optional]  hMenu,
+  [in, optional]  hInstance,
+  [in, optional]  lpParam
+);
+```
+
 ## -parameters
 
 ### -param lpClassName [in, optional]

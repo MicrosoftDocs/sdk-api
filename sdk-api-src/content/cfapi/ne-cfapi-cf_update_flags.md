@@ -54,45 +54,45 @@ Flags for updating a placeholder file or directory.
 
 ## -enum-fields
 
-### -field CF_UPDATE_FLAG_NONE
+### -field CF_UPDATE_FLAG_NONE:0x00000000
 
 No update flags.
 
-### -field CF_UPDATE_FLAG_VERIFY_IN_SYNC
+### -field CF_UPDATE_FLAG_VERIFY_IN_SYNC:0x00000001
 
 The update will fail if the <b>CF_UPDATE_FLAG_MARK_IN_SYNC</b> attribute is not currently set on the placeholder.  This is to prevent a race between syncing changes from the cloud down to a local placeholder and the placeholder’s data stream getting locally modified.
 
-### -field CF_UPDATE_FLAG_MARK_IN_SYNC
+### -field CF_UPDATE_FLAG_MARK_IN_SYNC:0x00000002
 
 The platform marks the placeholder as in-sync upon a successful update placeholder operation.
 
-### -field CF_UPDATE_FLAG_DEHYDRATE
+### -field CF_UPDATE_FLAG_DEHYDRATE:0x00000004
 
 Applicable to files only. When specified, the platform dehydrates the file after updating the placeholder successfully. The caller must acquire an exclusive handle when specifying this flag or data corruptions can occur. Note that the platform does not validate the exclusiveness of the handle.
 
-### -field CF_UPDATE_FLAG_ENABLE_ON_DEMAND_POPULATION
+### -field CF_UPDATE_FLAG_ENABLE_ON_DEMAND_POPULATION:0x00000008
 
 Applicable to directories only. When specified, it marks the updated placeholder directory partially populated such that any future access to it will result in a FETCH_PLACEHOLDERS callback sent to the sync provider.
 
-### -field CF_UPDATE_FLAG_DISABLE_ON_DEMAND_POPULATION
+### -field CF_UPDATE_FLAG_DISABLE_ON_DEMAND_POPULATION:0x00000010
 
 Applicable to directories only. When specified, it marks the updated placeholder directory fully populated such that any future access to it will be handled by the platform without any callbacks to the sync provider.
 
-### -field CF_UPDATE_FLAG_REMOVE_FILE_IDENTITY
+### -field CF_UPDATE_FLAG_REMOVE_FILE_IDENTITY:0x00000020
 
 When specified, <i>FileIdentity</i> and <i>FileIdentityLength</i> in <a href="/windows/desktop/api/cfapi/nf-cfapi-cfupdateplaceholder">CfUpdatePlaceholder</a> are ignored and the platform will remove the existing file identity blob on the placeholder upon a successful update call.
 
-### -field CF_UPDATE_FLAG_CLEAR_IN_SYNC
+### -field CF_UPDATE_FLAG_CLEAR_IN_SYNC:0x00000040
 
 The platform marks the placeholder as not in-sync upon a successful update placeholder operation.
 
-### -field CF_UPDATE_FLAG_REMOVE_PROPERTY
+### -field CF_UPDATE_FLAG_REMOVE_PROPERTY:0x00000080
 
 <b>Note</b>  This value is new for Windows 10, version 1803.
 
 The platform removes all existing extrinsic properties on the placeholder.
 
-### -field CF_UPDATE_FLAG_PASSTHROUGH_FS_METADATA
+### -field CF_UPDATE_FLAG_PASSTHROUGH_FS_METADATA:0x00000100
 
 <b>Note</b>  This value is new for Windows 10, version 1803.
 

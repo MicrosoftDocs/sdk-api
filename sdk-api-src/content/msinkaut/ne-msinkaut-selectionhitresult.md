@@ -54,7 +54,7 @@ Specifies which part of a selection, if any, was hit during a hit test.
 
 ## -enum-fields
 
-### -field SHR_None
+### -field SHR_None:0
 
 No part of the selection was hit.
 

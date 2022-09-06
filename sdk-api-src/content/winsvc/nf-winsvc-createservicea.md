@@ -6,7 +6,7 @@ old-location: base\createservice.htm
 tech.root: Services
 ms.assetid: 47288924-3294-4a50-b27d-7df80d5c957c
 ms.date: 12/05/2018
-ms.keywords: CreateService, CreateService function, CreateServiceA, CreateServiceW, SERVICE_ADAPTER, SERVICE_AUTO_START, SERVICE_BOOT_START, SERVICE_DEMAND_START, SERVICE_DISABLED, SERVICE_ERROR_CRITICAL, SERVICE_ERROR_IGNORE, SERVICE_ERROR_NORMAL, SERVICE_ERROR_SEVERE, SERVICE_FILE_SYSTEM_DRIVER, SERVICE_INTERACTIVE_PROCESS, SERVICE_KERNEL_DRIVER, SERVICE_RECOGNIZER_DRIVER, SERVICE_SYSTEM_START, SERVICE_USER_OWN_PROCESS, SERVICE_USER_SHARE_PROCESS, SERVICE_WIN32_OWN_PROCESS, SERVICE_WIN32_SHARE_PROCESS, _win32_createservice, base.createservice, winsvc/CreateService, winsvc/CreateServiceA, winsvc/CreateServiceW
+ms.keywords: CreateService, CreateService function, CreateServiceA, CreateServiceW, SERVICE_ADAPTER, SERVICE_AUTO_START, SERVICE_BOOT_START, SERVICE_DEMAND_START, SERVICE_DISABLED, SERVICE_ERROR_CRITICAL, SERVICE_ERROR_IGNORE, SERVICE_ERROR_NORMAL, SERVICE_ERROR_SEVERE, SERVICE_FILE_SYSTEM_DRIVER, SERVICE_INTERACTIVE_PROCESS, SERVICE_KERNEL_DRIVER, SERVICE_RECOGNIZER_DRIVER, SERVICE_SYSTEM_START, SERVICE_WIN32_OWN_PROCESS, SERVICE_WIN32_SHARE_PROCESS, _win32_createservice, base.createservice, winsvc/CreateService, winsvc/CreateServiceA, winsvc/CreateServiceW
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -154,28 +154,8 @@ Service that shares a process with one or more other services. For more informat
 
 </td>
 </tr>
-<tr>
-<td width="40%"><a id="SERVICE_USER_OWN_PROCESS"></a><a id="service_user_own_process"></a><dl>
-<dt><b>SERVICE_USER_OWN_PROCESS</b></dt>
-<dt>0x00000050</dt>
-</dl>
-</td>
-<td width="60%">
-The service runs in its own process under the logged-on user account.
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SERVICE_USER_SHARE_PROCESS"></a><a id="service_user_share_process"></a><dl>
-<dt><b>SERVICE_USER_SHARE_PROCESS</b></dt>
-<dt>0x00000060</dt>
-</dl>
-</td>
-<td width="60%">
-The service shares a process with one or more other services that run under the logged-on user account.
 
-</td>
-</tr>
 </table>
  
 

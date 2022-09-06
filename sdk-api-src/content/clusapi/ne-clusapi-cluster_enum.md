@@ -57,45 +57,45 @@ Describes the type of cluster objects being enumerated. This enumeration is used
 
 ## -enum-fields
 
-### -field CLUSTER_ENUM_NODE
+### -field CLUSTER_ENUM_NODE:0x00000001
 
 The <a href="/previous-versions/windows/desktop/mscs/nodes">nodes</a> in the cluster.
 
-### -field CLUSTER_ENUM_RESTYPE
+### -field CLUSTER_ENUM_RESTYPE:0x00000002
 
 The <a href="/previous-versions/windows/desktop/mscs/resource-types">resource types</a> in the cluster.
 
-### -field CLUSTER_ENUM_RESOURCE
+### -field CLUSTER_ENUM_RESOURCE:0x00000004
 
 The <a href="/previous-versions/windows/desktop/mscs/resources">resources</a> in the cluster.
 
-### -field CLUSTER_ENUM_GROUP
+### -field CLUSTER_ENUM_GROUP:0x00000008
 
 The <a href="/previous-versions/windows/desktop/mscs/groups">groups</a> in the cluster.
 
-### -field CLUSTER_ENUM_NETWORK
+### -field CLUSTER_ENUM_NETWORK:0x00000010
 
 The <a href="/previous-versions/windows/desktop/mscs/networks">networks</a> in the cluster.
 
-### -field CLUSTER_ENUM_NETINTERFACE
+### -field CLUSTER_ENUM_NETINTERFACE:0x00000020
 
 The <a href="/previous-versions/windows/desktop/mscs/network-interfaces">network interfaces</a> in the cluster.
 
-### -field CLUSTER_ENUM_SHARED_VOLUME_GROUP
+### -field CLUSTER_ENUM_SHARED_VOLUME_GROUP:0x20000000
 
 The cluster shared volumes (CSV) in the cluster.
 
 <b>Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This value is not supported before 
         Windows Server 2012 R2.
 
-### -field CLUSTER_ENUM_SHARED_VOLUME_RESOURCE
+### -field CLUSTER_ENUM_SHARED_VOLUME_RESOURCE:0x40000000
 
 The cluster shared volumes in the cluster.
 
 <b>Windows Server 2008:  </b>This value is not supported before 
         Windows Server 2008 R2.
 
-### -field CLUSTER_ENUM_INTERNAL_NETWORK
+### -field CLUSTER_ENUM_INTERNAL_NETWORK:0x80000000
 
 The networks used by the cluster for internal communication.
 

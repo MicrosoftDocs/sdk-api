@@ -56,11 +56,11 @@ The <b>ADS_DISPLAY_ENUM</b> enumeration specifies how a path is to be displayed.
 
 ## -enum-fields
 
-### -field ADS_DISPLAY_FULL
+### -field ADS_DISPLAY_FULL:1
 
 The path  is displayed with both attributes and values. For example, CN=Jeff Smith.
 
-### -field ADS_DISPLAY_VALUE_ONLY
+### -field ADS_DISPLAY_VALUE_ONLY:2
 
 The path is displayed with values only. For example, Jeff Smith.
 

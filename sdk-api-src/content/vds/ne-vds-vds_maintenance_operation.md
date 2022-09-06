@@ -59,23 +59,23 @@ Defines the set of valid subsystem maintenance operations.
 
 ## -enum-fields
 
-### -field BlinkLight
+### -field BlinkLight:1
 
 Blinks a light on a drive.
 
-### -field BeepAlarm
+### -field BeepAlarm:2
 
 Beeps an alarm on a drive.
 
-### -field SpinDown
+### -field SpinDown:3
 
 Slows the spinning of a drive such that the drive enters an idle state. Typically used for the purpose of saving power.
 
-### -field SpinUp
+### -field SpinUp:4
 
 Starts the spinning of a drive in preparation for data reads.
 
-### -field Ping
+### -field Ping:5
 
 Pings a drive.
 

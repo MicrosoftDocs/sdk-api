@@ -54,11 +54,11 @@ Specifies how to access a resource that is used in a video decoding output view.
 
 ## -enum-fields
 
-### -field D3D11_VDOV_DIMENSION_UNKNOWN
+### -field D3D11_VDOV_DIMENSION_UNKNOWN:0
 
 Not a valid value.
 
-### -field D3D11_VDOV_DIMENSION_TEXTURE2D
+### -field D3D11_VDOV_DIMENSION_TEXTURE2D:1
 
 The resource will be accessed as a 2D texture.
 

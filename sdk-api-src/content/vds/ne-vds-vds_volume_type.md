@@ -58,27 +58,27 @@ Defines the set of valid types for a volume object.
 
 ## -enum-fields
 
-### -field VDS_VT_UNKNOWN
+### -field VDS_VT_UNKNOWN:0
 
 The volume type is unknown.
 
-### -field VDS_VT_SIMPLE
+### -field VDS_VT_SIMPLE:10
 
 The volume type is simple—it is composed of extents from exactly one disk.
 
-### -field VDS_VT_SPAN
+### -field VDS_VT_SPAN:11
 
 The volume type is spanned—it is composed of extents from more than one disk.
 
-### -field VDS_VT_STRIPE
+### -field VDS_VT_STRIPE:12
 
 The volume type is striped, which is equivalent to RAID 0.
 
-### -field VDS_VT_MIRROR
+### -field VDS_VT_MIRROR:13
 
 The volume type is mirrored, which is equivalent to RAID 1.
 
-### -field VDS_VT_PARITY
+### -field VDS_VT_PARITY:14
 
 The volume type is striped with parity, which accounts for RAID levels 3, 4, 5, and 6.
 

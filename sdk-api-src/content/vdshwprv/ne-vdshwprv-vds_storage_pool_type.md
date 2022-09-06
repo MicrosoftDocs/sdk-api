@@ -59,15 +59,15 @@ Defines the set of <a href="/windows/desktop/VDS/storage-pool-object">storage po
 
 ## -enum-fields
 
-### -field VDS_SPT_UNKNOWN
+### -field VDS_SPT_UNKNOWN:0
 
 The storage pool type is unknown.
 
-### -field VDS_SPT_PRIMORDIAL
+### -field VDS_SPT_PRIMORDIAL:0x1
 
 The storage pool type is primordial.
 
-### -field VDS_SPT_CONCRETE
+### -field VDS_SPT_CONCRETE:0x2
 
 The storage pool type is concrete (non-primordial).
 

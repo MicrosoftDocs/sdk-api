@@ -54,12 +54,12 @@ Specifies whether a message is required when receiving from a channel.
 
 ## -enum-fields
 
-### -field WS_RECEIVE_REQUIRED_MESSAGE
+### -field WS_RECEIVE_REQUIRED_MESSAGE:1
 
 A message is required to be received.  If the channel does not have
                     any more messages, then the function will fail.
 
-### -field WS_RECEIVE_OPTIONAL_MESSAGE
+### -field WS_RECEIVE_OPTIONAL_MESSAGE:2
 
 The message is not required to be received.  If the channel does not have any more
                     messages, the function will return <b>WS_S_END</b>.

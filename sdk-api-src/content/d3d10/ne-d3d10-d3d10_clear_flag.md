@@ -54,11 +54,11 @@ Specifies the parts of the depth stencil to clear. Usually used with <a href="/w
 
 ## -enum-fields
 
-### -field D3D10_CLEAR_DEPTH
+### -field D3D10_CLEAR_DEPTH:0x1L
 
 Clear the depth buffer.
 
-### -field D3D10_CLEAR_STENCIL
+### -field D3D10_CLEAR_STENCIL:0x2L
 
 Clear the stencil buffer.
 

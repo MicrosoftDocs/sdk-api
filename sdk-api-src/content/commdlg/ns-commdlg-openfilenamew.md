@@ -530,7 +530,11 @@ The name of the dialog template resource in the module identified by the <b>hIns
 
 ### -field lpEditInfo
 
+This member is conditionally compiled (using `#ifdef _MAC`) so that it is applicable only to Motorola 68K Macintosh computers, and not to Windows client operating systems.
+
 ### -field lpstrPrompt
+
+This member is conditionally compiled (using `#ifdef _MAC`) so that it is applicable only to Motorola 68K Macintosh computers, and not to Windows client operating systems.
 
 ### -field pvReserved
 

@@ -54,15 +54,15 @@ Specifies whether the audio content contains music or voice. This enumeration is
 
 ## -enum-fields
 
-### -field AVEncAudioInputContent_Unknown
+### -field AVEncAudioInputContent_Unknown:0
 
 The audio content is not known.
 
-### -field AVEncAudioInputContent_Voice
+### -field AVEncAudioInputContent_Voice:1
 
 The audio contains voice.
 
-### -field AVEncAudioInputContent_Music
+### -field AVEncAudioInputContent_Music:2
 
 The audio contains music.
 

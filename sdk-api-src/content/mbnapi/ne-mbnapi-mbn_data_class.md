@@ -57,63 +57,63 @@ The <b>MBN_DATA_CLASS</b> enumerated type specifies the data classes that a prov
 
 ## -enum-fields
 
-### -field MBN_DATA_CLASS_NONE
+### -field MBN_DATA_CLASS_NONE:0
 
 No data class.
 
-### -field MBN_DATA_CLASS_GPRS
+### -field MBN_DATA_CLASS_GPRS:0x1
 
 The GPRS data class implemented by GSM providers.
 
-### -field MBN_DATA_CLASS_EDGE
+### -field MBN_DATA_CLASS_EDGE:0x2
 
  The EDGE data class implemented by GSM providers.
 
-### -field MBN_DATA_CLASS_UMTS
+### -field MBN_DATA_CLASS_UMTS:0x4
 
 The UMTS data class implemented by mobile radio providers.
 
-### -field MBN_DATA_CLASS_HSDPA
+### -field MBN_DATA_CLASS_HSDPA:0x8
 
 The HSDPA data class implemented by mobile radio providers.
 
-### -field MBN_DATA_CLASS_HSUPA
+### -field MBN_DATA_CLASS_HSUPA:0x10
 
 The HSUPA (High Speed Uplink Packet Access) data class.
 
-### -field MBN_DATA_CLASS_LTE
+### -field MBN_DATA_CLASS_LTE:0x20
 
 The LTE data class implemented by mobile radio providers.
 
-### -field MBN_DATA_CLASS_1XRTT
+### -field MBN_DATA_CLASS_1XRTT:0x10000
 
 The 1xRTT data class implemented by CDMA providers.
 
-### -field MBN_DATA_CLASS_1XEVDO
+### -field MBN_DATA_CLASS_1XEVDO:0x20000
 
 The IxEV-DO data class implemented by CDMA providers.
 
-### -field MBN_DATA_CLASS_1XEVDO_REVA
+### -field MBN_DATA_CLASS_1XEVDO_REVA:0x40000
 
 The IxEV-DO RevA data class implemented by CDMA providers.
 
-### -field MBN_DATA_CLASS_1XEVDV
+### -field MBN_DATA_CLASS_1XEVDV:0x80000
 
 The 1xXEV-DV data class.
 
-### -field MBN_DATA_CLASS_3XRTT
+### -field MBN_DATA_CLASS_3XRTT:0x100000
 
 The 3xRTT data class.
 
-### -field MBN_DATA_CLASS_1XEVDO_REVB
+### -field MBN_DATA_CLASS_1XEVDO_REVB:0x200000
 
  The 1xEV-DO RevB data class, which is defined for future use.
 
-### -field MBN_DATA_CLASS_UMB
+### -field MBN_DATA_CLASS_UMB:0x400000
 
  The UMB data class.
 
-### -field MBN_DATA_CLASS_CUSTOM
+### -field MBN_DATA_CLASS_CUSTOM:0x80000000
 
  The custom data class.
 

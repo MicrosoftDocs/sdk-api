@@ -58,7 +58,7 @@ Indicates the possible types of information that an application that calls the <
 
 ## -enum-fields
 
-### -field ReadDirectoryNotifyInformation
+### -field ReadDirectoryNotifyInformation:1
 
 The <a href="/windows/desktop/api/winbase/nf-winbase-readdirectorychangesexw">ReadDirectoryChangesExW</a> function  should provide  information that describes the changes within the specified directory, and return this information in the  output buffer in the form of <a href="/windows/desktop/api/winnt/ns-winnt-file_notify_information">FILE_NOTIFY_INFORMATION</a> structures.
 

@@ -56,7 +56,7 @@ The <code>PROGRESS_DIALOG_CHECKBOX_ID</code> enumeration type indicates the chec
 
 ## -enum-fields
 
-### -field PROGRESS_DIALOG_CHECKBOX_ID_DEFAULT
+### -field PROGRESS_DIALOG_CHECKBOX_ID_DEFAULT:0
 
 Specifies PROGRESS_DIALOG_CHECKBOX_ID_DEFAULT .
 

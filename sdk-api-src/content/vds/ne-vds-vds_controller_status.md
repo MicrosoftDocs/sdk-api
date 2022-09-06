@@ -61,27 +61,27 @@ Defines the set of object status values for a controller.
 
 ## -enum-fields
 
-### -field VDS_CS_UNKNOWN
+### -field VDS_CS_UNKNOWN:0
 
 The status of the controller cannot be determined.
 
-### -field VDS_CS_ONLINE
+### -field VDS_CS_ONLINE:1
 
 The controller is physically present and in use. The <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value associated with this controller status can be any value except <b>VDS_H_FAILED</b>.
 
-### -field VDS_CS_NOT_READY
+### -field VDS_CS_NOT_READY:2
 
 The controller is busy. The <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value can be any value except <b>VDS_H_FAILED</b>.
 
-### -field VDS_CS_OFFLINE
+### -field VDS_CS_OFFLINE:4
 
 The controller is physically present but not available for use. For example, the controller has been set to the inactive state. When this controller status is set, a <b>VDS_NF_CONTROLLER_REMOVED</b> notification is sent.  The <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value can be any value.
 
-### -field VDS_CS_FAILED
+### -field VDS_CS_FAILED:5
 
 The controller has failed. The <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value should be <b>VDS_H_FAILED</b> or <b>VDS_H_FAILING</b>.
 
-### -field VDS_CS_REMOVED
+### -field VDS_CS_REMOVED:8
 
 The controller has been physically unplugged from the subsystem. When this status is set, a <b>VDS_NF_CONTROLLER_DEPART</b> notification is sent.
 

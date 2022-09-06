@@ -54,31 +54,31 @@ Represents the bit depth of the imaging pipeline in Direct2D.
 
 ## -enum-fields
 
-### -field D2D1_BUFFER_PRECISION_UNKNOWN
+### -field D2D1_BUFFER_PRECISION_UNKNOWN:0
 
 The buffer precision is not specified.
 
-### -field D2D1_BUFFER_PRECISION_8BPC_UNORM
+### -field D2D1_BUFFER_PRECISION_8BPC_UNORM:1
 
 Use 8-bit normalized integer per channel.
 
-### -field D2D1_BUFFER_PRECISION_8BPC_UNORM_SRGB
+### -field D2D1_BUFFER_PRECISION_8BPC_UNORM_SRGB:2
 
 Use 8-bit normalized integer standard RGB data per channel.
 
-### -field D2D1_BUFFER_PRECISION_16BPC_UNORM
+### -field D2D1_BUFFER_PRECISION_16BPC_UNORM:3
 
 Use 16-bit normalized integer per channel.
 
-### -field D2D1_BUFFER_PRECISION_16BPC_FLOAT
+### -field D2D1_BUFFER_PRECISION_16BPC_FLOAT:4
 
 Use 16-bit floats per channel.
 
-### -field D2D1_BUFFER_PRECISION_32BPC_FLOAT
+### -field D2D1_BUFFER_PRECISION_32BPC_FLOAT:5
 
 Use 32-bit floats per channel.
 
-### -field D2D1_BUFFER_PRECISION_FORCE_DWORD
+### -field D2D1_BUFFER_PRECISION_FORCE_DWORD:0xffffffff
 
 Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits.
 

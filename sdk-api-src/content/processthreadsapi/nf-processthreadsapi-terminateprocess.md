@@ -9,7 +9,7 @@ ms.assetid: 0e1a8195-4fd3-43d4-ae9e-1a1e05c2119a
 ms.date: 12/05/2018
 ms.keywords: TerminateProcess, TerminateProcess function, _win32_terminateprocess, base.terminateprocess, processthreadsapi/TerminateProcess, winbase/TerminateProcess
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]

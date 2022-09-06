@@ -9,7 +9,7 @@ ms.assetid: 04332239-dfc2-4d32-987a-af187e725b71
 ms.date: 12/05/2018
 ms.keywords: QUOTA_LIMITS_HARDWS_MAX_DISABLE, QUOTA_LIMITS_HARDWS_MAX_ENABLE, QUOTA_LIMITS_HARDWS_MIN_DISABLE, QUOTA_LIMITS_HARDWS_MIN_ENABLE, SetProcessWorkingSetSizeEx, SetProcessWorkingSetSizeEx function, base.setprocessworkingsetsizeex, memoryapi/SetProcessWorkingSetSizeEx, winbase/SetProcessWorkingSetSizeEx
 req.header: memoryapi.h
-req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows

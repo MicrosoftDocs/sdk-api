@@ -54,11 +54,11 @@ The <b>DHCPV6_STATELESS_PARAM_TYPE</b> enumeration defines a DHCPv6 stateless cl
 
 ## -enum-fields
 
-### -field DhcpStatelessPurgeInterval
+### -field DhcpStatelessPurgeInterval:0x01
 
 The parameter type is the purge interval for client lease records from the DHCP server database.
 
-### -field DhcpStatelessStatus
+### -field DhcpStatelessStatus:0x02
 
 The parameter type is the client inventory enabled/disabled status in the DHCP server database.
 

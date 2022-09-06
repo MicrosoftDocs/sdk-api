@@ -54,11 +54,11 @@ Specifies options for working with resources.
 
 ## -enum-fields
 
-### -field D3D12_RESOURCE_FLAG_NONE
+### -field D3D12_RESOURCE_FLAG_NONE:0
 
 No options are specified.
 
-### -field D3D12_RESOURCE_FLAG_ALLOW_RENDER_TARGET
+### -field D3D12_RESOURCE_FLAG_ALLOW_RENDER_TARGET:0x1
 
 Allows a render target view to be created for the resource, as well as enables the resource to transition into the state of D3D12_RESOURCE_STATE_RENDER_TARGET. Some adapter architectures allocate extra memory for textures with this flag to reduce the effective bandwidth during common rendering. This characteristic may not be beneficial for textures that are never rendered to, nor is it available for textures compressed with BC formats. Applications should avoid setting this flag when rendering will never occur.
 
@@ -72,7 +72,7 @@ The following restrictions and interactions apply:
 <li>Cannot be used with 4KB alignment, D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL, nor usage with heaps that have D3D12_HEAP_FLAG_DENY_RT_DS_TEXTURES.</li>
 </ul>
 
-### -field D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL
+### -field D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL:0x2
 
 Allows a depth stencil view to be created for the resource, as well as enables the resource to transition into the state of D3D12_RESOURCE_STATE_DEPTH_WRITE and/or D3D12_RESOURCE_STATE_DEPTH_READ. Most adapter architectures allocate extra memory for textures with this flag to reduce the effective bandwidth and maximize optimizations for early depth-test. Applications should avoid setting this flag when depth operations will never occur.
 
@@ -88,7 +88,7 @@ The following restrictions and interactions apply:
 <li>Precludes GPU copying of a subregion. <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion">CopyTextureRegion</a> must copy a whole subresource to or from resources with this flag.</li>
 </ul>
 
-### -field D3D12_RESOURCE_FLAG_ALLOW_UNORDERED_ACCESS
+### -field D3D12_RESOURCE_FLAG_ALLOW_UNORDERED_ACCESS:0x4
 
 Allows an unordered access view to be created for the resource, as well as enables the resource to transition into the state of D3D12_RESOURCE_STATE_UNORDERED_ACCESS. Some adapter architectures must resort to less efficient texture layouts in order to provide this functionality. If a texture is rarely used for unordered access, it may be worth having two textures around and copying between them. One texture would have this flag, while the other wouldn't. Applications should avoid setting this flag when unordered access operations will never occur.
 
@@ -103,7 +103,7 @@ The following restrictions and interactions apply:
 <li>Cannot be used with MSAA textures. </li>
 </ul>
 
-### -field D3D12_RESOURCE_FLAG_DENY_SHADER_RESOURCE
+### -field D3D12_RESOURCE_FLAG_DENY_SHADER_RESOURCE:0x8
 
 Disallows a shader resource view to be created for the resource, as well as disables the resource to transition into the state of D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE or D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE. Some adapter architectures experience increased bandwidth for depth stencil textures when shader resource views are precluded. If a texture is rarely used for shader resource, it may be worth having two textures around and copying between them. One texture would have this flag and the other wouldn't. Applications should set this flag when depth stencil textures will never be used from shader resource views.
 
@@ -116,7 +116,7 @@ The following restrictions and interactions apply:
 </li>
 </ul>
 
-### -field D3D12_RESOURCE_FLAG_ALLOW_CROSS_ADAPTER
+### -field D3D12_RESOURCE_FLAG_ALLOW_CROSS_ADAPTER:0x10
 
 Allows the resource to be used for cross-adapter data, as well as the same features enabled by ALLOW_SIMULTANEOUS_ACCESS. Cross adapter resources commonly preclude techniques that reduce effective texture bandwidth during usage, and some adapter architectures may require different caching behavior. Applications should avoid setting this flag when the resource data will never be used with another adapter.
 
@@ -128,7 +128,7 @@ The following restrictions and interactions apply:
 <li>Cannot be used with heaps that have D3D12_HEAP_FLAG_ALLOW_DISPLAY.</li>
 </ul>
 
-### -field D3D12_RESOURCE_FLAG_ALLOW_SIMULTANEOUS_ACCESS
+### -field D3D12_RESOURCE_FLAG_ALLOW_SIMULTANEOUS_ACCESS:0x20
 
 Allows a resource to be simultaneously accessed by multiple different queues, devices or processes (for example, allows a resource to be used with <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier">ResourceBarrier</a> transitions performed in more than one command list 
 	executing at the same time). 
@@ -143,7 +143,7 @@ These restrictions and interactions apply.
 - Can't be used with MSAA textures.
 - Can't be used with [D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL]().
 
-### -field D3D12_RESOURCE_FLAG_VIDEO_DECODE_REFERENCE_ONLY
+### -field D3D12_RESOURCE_FLAG_VIDEO_DECODE_REFERENCE_ONLY:0x40
 
 This resource may only be used as a decode reference frame.  It may only be written to or read by the video decode operation.  
 

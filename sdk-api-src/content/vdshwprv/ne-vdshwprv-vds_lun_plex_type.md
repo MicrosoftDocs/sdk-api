@@ -59,7 +59,7 @@ Defines the set of valid types for a LUN plex.
 
 ## -enum-fields
 
-### -field VDS_LPT_UNKNOWN
+### -field VDS_LPT_UNKNOWN:0
 
 This value is reserved.
 

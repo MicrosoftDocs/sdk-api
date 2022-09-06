@@ -56,11 +56,11 @@ The <code>VMR9RenderPrefs</code> enumeration type specifies basic rendering pref
 
 ## -enum-fields
 
-### -field RenderPrefs9_DoNotRenderBorder
+### -field RenderPrefs9_DoNotRenderBorder:0x1
 
 Indicates that the application paints the color keyed areas.
 
-### -field RenderPrefs9_Mask
+### -field RenderPrefs9_Mask:0x1
 
 Bitwise <b>OR</b> of all flags; not used by applications.
 

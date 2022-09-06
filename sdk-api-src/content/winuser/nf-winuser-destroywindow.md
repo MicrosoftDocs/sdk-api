@@ -87,7 +87,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 A thread cannot use <b>DestroyWindow</b> to destroy a window created by a different thread. 
 
-If the window being destroyed is a child window that does not have the <b>WS_EX_NOPARENTNOTIFY</b> style, a <a href="/previous-versions/windows/desktop/inputmsg/wm-parentnotify">WM_PARENTNOTIFY</a> message is sent to the parent. 
+If the window being destroyed is a child window that does not have the <b>WS_EX_NOPARENTNOTIFY</b> style, a <a href="/windows/win32/inputmsg/wm-parentnotify">WM_PARENTNOTIFY</a> message is sent to the parent. 
 
 
 #### Examples
@@ -126,7 +126,7 @@ For an example, see <a href="/windows/desktop/winmsg/using-windows">Destroying a
 
 
 
-<a href="/previous-versions/windows/desktop/inputmsg/wm-parentnotify">WM_PARENTNOTIFY</a>
+<a href="/windows/win32/inputmsg/wm-parentnotify">WM_PARENTNOTIFY</a>
 
 
 

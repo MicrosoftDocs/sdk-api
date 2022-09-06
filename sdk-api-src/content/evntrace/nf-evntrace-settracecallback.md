@@ -71,7 +71,8 @@ api_name:
 
 ## -description
 
-> [!Important] Do not use this function; it may be unavailable in subsequent
+> [!Important]
+> Do not use this function; it may be unavailable in subsequent
 > versions. Instead, filter for the event trace class in your
 > [EventRecordCallback](/windows/desktop/ETW/eventrecordcallback) function.
 

@@ -56,7 +56,7 @@ Specifies the redirection settings associated with a connection.
 
 ## -enum-fields
 
-### -field EnableAllRedirections
+### -field EnableAllRedirections:0
 
 Enable device redirection for all devices.
 

@@ -60,7 +60,7 @@ The identifier for the work queue. The identifier is returned by the <a href="/w
 
 ### -param deadlineInHNS [in]
 
- The deadline for the work in the queue to be completed, in milliseconds.
+ The deadline for the work in the queue to be completed, in hundred-nanosecond units. For example, if `deadlineInHNS` is 9600, that represents 9600 hundred-nanoseconds, which is equal to 960 microseconds, or 0.96 milliseconds.
 
 ### -param pRequest [in, out]
 

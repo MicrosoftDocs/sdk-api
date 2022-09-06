@@ -55,7 +55,7 @@ corresponding to it to a message using WS-Security mechanisms.
 
 ## -enum-fields
 
-### -field WS_SUPPORTING_MESSAGE_SECURITY_USAGE
+### -field WS_SUPPORTING_MESSAGE_SECURITY_USAGE:1
 
 The security token obtained security binding is used for client
 authentication, but not message protection.  Message protection should

@@ -54,11 +54,11 @@ Specifies the thread affinity for a new <a href="/uwp/api/windows.system.dispatc
 
 ## -enum-fields
 
-### -field DQTYPE_THREAD_DEDICATED
+### -field DQTYPE_THREAD_DEDICATED:1
 
  Specifies that the <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a> be created on a dedicated thread. With this option, <a href="/windows/desktop/api/dispatcherqueue/nf-dispatcherqueue-createdispatcherqueuecontroller">CreateDispatcherQueueController</a> creates a thread, the <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a> instance, and runs the dispatcher queue event loop on the newly created thread.
 
-### -field DQTYPE_THREAD_CURRENT
+### -field DQTYPE_THREAD_CURRENT:2
 
 Specifies that the <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a> will be created on the caller's thread.
 
