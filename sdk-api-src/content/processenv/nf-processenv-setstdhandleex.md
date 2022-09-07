@@ -35,6 +35,7 @@ api_type:
  - DllExport
 api_location:
  - api-ms-win-core-processenvironment-l1-1-0.dll
+ - kernel32.dll
 api_name:
  - SetStdHandleEx
 ---
