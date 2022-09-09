@@ -74,4 +74,5 @@ To deregister for change notifications, call the CancelMibChangeNotify2 function
 ## -see-also
 
 [PNETWORK_CONNECTIVITY_HINT_CHANGE_CALLBACK](./nc-netioapi-pnetwork_connectivity_hint_change_callback.md)
-[CancelMibChangeNotify2] (./nf-netioapi-cancelmibchangenotify2)
+
+[CancelMibChangeNotify2](./nf-netioapi-cancelmibchangenotify2.md)
