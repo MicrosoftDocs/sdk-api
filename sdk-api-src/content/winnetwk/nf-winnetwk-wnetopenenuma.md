@@ -227,7 +227,7 @@ This parameter is ignored unless the <i>dwScope</i> parameter is equal to RESOUR
 ### -param lpNetResource [in]
 
 Pointer to a 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure that specifies the container to enumerate. If the <i>dwScope</i> parameter is not RESOURCE_GLOBALNET, this parameter must be <b>NULL</b>. 
+<a href="/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure that specifies the container to enumerate. If the <i>dwScope</i> parameter is not RESOURCE_GLOBALNET, this parameter must be <b>NULL</b>. 
 
 
 
@@ -363,7 +363,7 @@ For a code sample that illustrates an application-defined function that enumerat
 
 ## -see-also
 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
+<a href="/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a>
 
 
 
