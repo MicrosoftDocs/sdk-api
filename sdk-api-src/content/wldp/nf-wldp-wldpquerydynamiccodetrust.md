@@ -9,13 +9,13 @@ prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: 
+req.dll: wldp.dll
 req.header: wldp.h
 req.idl: 
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: wldp.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -28,9 +28,9 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
- - wldp.h
+ - wldp.dll
 api_name:
  - WldpQueryDynamicCodeTrust
 f1_keywords:
