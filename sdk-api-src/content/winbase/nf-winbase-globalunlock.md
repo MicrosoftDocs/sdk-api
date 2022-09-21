@@ -61,11 +61,15 @@ Decrements the lock count associated with a memory object that was allocated wit
 
 ### -param hMem [in]
 
+Type: **HGLOBAL**
+
 A handle to the global memory object. This handle is returned by either the 
 <a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or 
 <a href="/windows/desktop/api/winbase/nf-winbase-globalrealloc">GlobalReAlloc</a> function.
 
 ## -returns
+
+Type: **BOOL**
 
 If the memory object is still locked after decrementing the lock count, the return value is a nonzero value. If the memory object is unlocked after decrementing the lock count, the function returns zero and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>NO_ERROR</b>.
 
