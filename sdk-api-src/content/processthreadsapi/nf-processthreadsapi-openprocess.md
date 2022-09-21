@@ -66,7 +66,7 @@ Opens an existing local process object.
 The access to the process object. This access right is checked against the  security descriptor for the process. This parameter can be one or more of the 
 <a href="/windows/desktop/ProcThread/process-security-and-access-rights">process access rights</a>. 
 
-If the caller has enabled the SeDebugPrivilege privilege, the requested access is  granted regardless of the contents of the security descriptor.
+If the caller has enabled the <a href="/windows/win32/secauthz/privilege-constants#SE_DEBUG_NAME">SeDebugPrivilege privilege</a>, the requested access is granted regardless of the contents of the security descriptor.
 
 ### -param bInheritHandle [in]
 
