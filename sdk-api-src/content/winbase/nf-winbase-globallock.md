@@ -61,11 +61,15 @@ Locks a global memory object and returns a pointer to the first byte of the obje
 
 ### -param hMem [in]
 
+Type: **HGLOBAL**
+
 A handle to the global memory object. This handle is returned by either the 
 <a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or 
 <a href="/windows/desktop/api/winbase/nf-winbase-globalrealloc">GlobalReAlloc</a> function.
 
 ## -returns
+
+Type: **LPVOID**
 
 If the function succeeds, the return value is a pointer to the first byte of the memory block.
 
