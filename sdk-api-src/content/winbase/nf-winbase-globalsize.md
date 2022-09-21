@@ -61,11 +61,15 @@ Retrieves the current size of the specified global memory object, in bytes.
 
 ### -param hMem [in]
 
+Type: **HGLOBAL**
+
 A handle to the global memory object. This handle is returned by either the 
 <a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or 
 <a href="/windows/desktop/api/winbase/nf-winbase-globalrealloc">GlobalReAlloc</a> function.
 
 ## -returns
+
+Type: **SIZE_T**
 
 If the function succeeds, the return value is the size of the specified global memory object, in bytes.
 
