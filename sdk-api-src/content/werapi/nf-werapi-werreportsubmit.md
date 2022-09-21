@@ -212,7 +212,7 @@ The report is discarded for any action that would require the report to be queue
 </dl>
 </td>
 <td width="60%">
-Spawn another process to submit the report. The calling thread is blocked until the function returns.
+Spawn another process to submit the report. The calling thread is blocked until the function returns.  (Note: Window messages will be pumped so that UI activity on the calling thread is not blocked.)
 
 </td>
 </tr>
