@@ -65,6 +65,8 @@ Allocates the specified number of bytes from the heap.
 
 ### -param uFlags [in]
 
+Type: **UINT**
+
 The memory allocation attributes. If zero is specified, the default is <b>GMEM_FIXED</b>. This parameter can be one or more of the following values, except for the incompatible combinations that are specifically noted. 
 
 
@@ -150,9 +152,13 @@ The following values are obsolete, but are provided for compatibility with 16-bi
 
 ### -param dwBytes [in]
 
+Type: **SIZE_T**
+
 The number of bytes to allocate. If this parameter is zero and the <i>uFlags</i> parameter specifies <b>GMEM_MOVEABLE</b>, the function returns a handle to a memory object that is marked as discarded.
 
 ## -returns
+
+Type: **HGLOBAL**
 
 If the function succeeds, the return value is a handle to the newly allocated memory object.
 
