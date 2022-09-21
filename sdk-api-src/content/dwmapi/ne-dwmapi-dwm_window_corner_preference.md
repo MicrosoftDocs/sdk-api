@@ -5,7 +5,6 @@ title: DWM_WINDOW_CORNER_PREFERENCE (dwmapi.h)
 description: The DWM_WINDOW_CORNER_PREFERENCE enumeration (dwmapi.h) specifies the rounded corner preference for a window.
 ms.date: 08/12/2022
 targetos: Windows
-description: 
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
