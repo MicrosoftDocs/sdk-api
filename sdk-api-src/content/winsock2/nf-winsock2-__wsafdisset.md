@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock2.__WSAFDIsSet
 title: __WSAFDIsSet function (winsock2.h)
-description: The __WSAFDIsSet function specifies whether a socket is included in a set of socket descriptors. (__WSAFDIsSet)
+description: The __WSAFDIsSet function (winsock2.h) specifies whether a socket is included in a set of socket descriptors.  
 helpviewer_keywords: ["__WSAFDIsSet","__WSAFDIsSet function [Winsock]","winsock.wsafdisset","winsock/__WSAFDIsSet"]
 old-location: winsock\wsafdisset.htm
 tech.root: WinSock
 ms.assetid: ca420136-0b3b-45a1-85ce-83ab6ba1a70a
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: __WSAFDIsSet, __WSAFDIsSet function [Winsock], winsock.wsafdisset, winsock/__WSAFDIsSet
 req.header: winsock2.h
 req.include-header: Winsock2.h
