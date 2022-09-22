@@ -60,7 +60,7 @@ Indicates shader model 5.1.
 
 ### -field D3D_SHADER_MODEL_6_0:0x60
 
-Indicates shader model 6.0. Compiling Shader Model 6 shaders require using the [DXC](https://github.com/Microsoft/DirectXShaderCompiler) compiler, and are not supported by legacy **FXC**.
+Indicates shader model 6.0. Compiling a shader model 6.0 shader requires using the DXC compiler (see [DirectX Shader Compiler](https://github.com/Microsoft/DirectXShaderCompiler)), and is not supported by legacy **FXC**.
 
 ### -field D3D_SHADER_MODEL_6_1:0x61
 
@@ -72,19 +72,19 @@ Indicates shader model 6.1.
 
 ### -field D3D_SHADER_MODEL_6_4:0x64
 
-Shader Model 6.4 support was added *Windows 10, Version 1903*, and is required for *DirectX Raytracing* (DXR).
+Shader model 6.4 support was added in Windows 10, Version 1903, and is required for DirectX Raytracing (DXR).
 
 ### -field D3D_SHADER_MODEL_6_5:0x65
 
-Shader Model 6.5 support was added in *Windows 10, Version 2004*, and is required for *DirectML".
+Shader model 6.5 support was added in Windows 10, Version 2004, and is required for Direct Machine Learning.
 
 ### -field D3D_SHADER_MODEL_6_6:0x66
 
-Shader Model 6.6 support was added in *Windows 11* and the *DirectX 12 Agility SDK*.
+Shader model 6.6 support was added in Windows 11 and the DirectX 12 Agility SDK.
 
 ### -field D3D_SHADER_MODEL_6_7:0x67
 
-Shader Model 6.7 support was added in *Windows 11, Version 22H2* and the *DirectX 12 Agility SDK* v1.6 or later. See the [DirectX Developer Blog](https://devblogs.microsoft.com/directx/shader-model-6-7/).
+Shader model 6.7 support was added in Windows 11, Version 22H2 and the DirectX 12 Agility SDK v1.6. See [Agility SDK 1.606.3: Shader Model 6.7 is now publicly available!](https://devblogs.microsoft.com/directx/shader-model-6-7/) on the DirectX developer blog.
 
 ## -remarks
 
