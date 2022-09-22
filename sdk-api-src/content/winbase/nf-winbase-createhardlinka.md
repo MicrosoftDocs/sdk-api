@@ -140,7 +140,7 @@ When you create a hard link on the NTFS file system, the file attribute informat
     the handle of a specific file.
 
 Symbolic link behavior—If the path points to a symbolic link, the function creates a hard 
-     link to the target.
+     link to the symbolic link.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
