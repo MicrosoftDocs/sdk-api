@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.GetColorDirectoryA
 title: GetColorDirectoryA
-description: Retrieves the path of the Windows COLOR directory on a specified machine.
+description: Retrieves the path of the Windows COLOR directory on a specified machine. (ANSI)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

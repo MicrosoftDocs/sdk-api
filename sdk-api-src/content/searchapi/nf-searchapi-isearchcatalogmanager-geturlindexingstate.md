@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.GetURLIndexingState
 title: ISearchCatalogManager::GetURLIndexingState (searchapi.h)
-description: Not implemented.
+description: Not implemented. (ISearchCatalogManager.GetURLIndexingState)
 helpviewer_keywords: ["GetURLIndexingState","GetURLIndexingState method [search]","GetURLIndexingState method [search]","ISearchCatalogManager interface","ISearchCatalogManager interface [search]","GetURLIndexingState method","ISearchCatalogManager.GetURLIndexingState","ISearchCatalogManager::GetURLIndexingState","_search_ISearchCatalogManager_GetURLIndexingState","search._search_ISearchCatalogManager_GetURLIndexingState","searchapi/ISearchCatalogManager::GetURLIndexingState"]
 old-location: search\_search_ISearchCatalogManager_GetURLIndexingState.htm
 tech.root: search

@@ -1,7 +1,7 @@
 ---
 UID: NE:mfobjects._MFVideoPrimaries
 title: MFVideoPrimaries (mfobjects.h)
-description: Specifies the color primaries of a video source.
+description: Specifies the color primaries of a video source. (MFVideoPrimaries)
 helpviewer_keywords: ["MFVideoPrimaries","MFVideoPrimaries enumeration [Media Foundation]","MFVideoPrimaries_ACES","MFVideoPrimaries_BT2020","MFVideoPrimaries_BT470_2_SysBG","MFVideoPrimaries_BT470_2_SysM","MFVideoPrimaries_BT709","MFVideoPrimaries_DCI_P3","MFVideoPrimaries_EBU3213","MFVideoPrimaries_ForceDWORD","MFVideoPrimaries_Last","MFVideoPrimaries_SMPTE170M","MFVideoPrimaries_SMPTE240M","MFVideoPrimaries_SMPTE_C","MFVideoPrimaries_Unknown","MFVideoPrimaries_XYZ","MFVideoPrimaries_reserved","a1d6a60c-823c-46c3-a751-18e55fbc52a1","mf.mfvideoprimaries","mfobjects/MFVideoPrimaries","mfobjects/MFVideoPrimaries_ACES","mfobjects/MFVideoPrimaries_BT2020","mfobjects/MFVideoPrimaries_BT470_2_SysBG","mfobjects/MFVideoPrimaries_BT470_2_SysM","mfobjects/MFVideoPrimaries_BT709","mfobjects/MFVideoPrimaries_DCI_P3","mfobjects/MFVideoPrimaries_EBU3213","mfobjects/MFVideoPrimaries_ForceDWORD","mfobjects/MFVideoPrimaries_Last","mfobjects/MFVideoPrimaries_SMPTE170M","mfobjects/MFVideoPrimaries_SMPTE240M","mfobjects/MFVideoPrimaries_SMPTE_C","mfobjects/MFVideoPrimaries_Unknown","mfobjects/MFVideoPrimaries_XYZ","mfobjects/MFVideoPrimaries_reserved"]
 old-location: mf\mfvideoprimaries.htm
 tech.root: mf

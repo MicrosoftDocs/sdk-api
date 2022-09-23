@@ -4,7 +4,7 @@ tech.root: security
 title: WNetSetLastErrorW
 ms.date: 04/14/2021
 targetos: Windows
-description: Sets extended error information. Network providers should call this function instead of SetLastError.
+description: Sets extended error information. Network providers should call this function instead of SetLastError. (Unicode)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

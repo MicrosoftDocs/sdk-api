@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.WSAConnectByNameW
 title: WSAConnectByNameW function (winsock2.h)
-description: Establishes a connection to a specified host and port.
+description: Establishes a connection to a specified host and port. (Unicode)
 helpviewer_keywords: ["WSAConnectByName","WSAConnectByName function [Winsock]","WSAConnectByNameA","WSAConnectByNameW","winsock.wsaconnectbyname_2","winsock2/WSAConnectByName","winsock2/WSAConnectByNameA","winsock2/WSAConnectByNameW"]
 old-location: winsock\wsaconnectbyname_2.htm
 tech.root: WinSock

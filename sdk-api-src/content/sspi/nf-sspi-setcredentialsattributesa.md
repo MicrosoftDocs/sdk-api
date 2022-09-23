@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.SetCredentialsAttributesA
 title: SetCredentialsAttributesA function (sspi.h)
-description: Sets the attributes of a credential, such as the name associated with the credential.
+description: Sets the attributes of a credential, such as the name associated with the credential. (ANSI)
 helpviewer_keywords: ["SetCredentialsAttributes","SetCredentialsAttributes function [Security]","SetCredentialsAttributesA","SetCredentialsAttributesW","security.setcredentialsattributes","sspi/SetCredentialsAttributes","sspi/SetCredentialsAttributesA","sspi/SetCredentialsAttributesW"]
 old-location: security\setcredentialsattributes.htm
 tech.root: security

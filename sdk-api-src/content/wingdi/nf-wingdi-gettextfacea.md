@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.GetTextFaceA
 title: GetTextFaceA function (wingdi.h)
-description: The GetTextFace function retrieves the typeface name of the font that is selected into the specified device context.
+description: The GetTextFace function retrieves the typeface name of the font that is selected into the specified device context. (ANSI)
 helpviewer_keywords: ["GetTextFace","GetTextFace function [Windows GDI]","GetTextFaceA","GetTextFaceW","_win32_GetTextFace","gdi.gettextface","wingdi/GetTextFace","wingdi/GetTextFaceA","wingdi/GetTextFaceW"]
 old-location: gdi\gettextface.htm
 tech.root: gdi

@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11shader.ID3D11LibraryReflection
 title: ID3D11LibraryReflection (d3d11shader.h)
-description: A library-reflection interface accesses library info.
+description: A library-reflection interface accesses library info. (ID3D11LibraryReflection)
 helpviewer_keywords: ["ID3D11LibraryReflection","ID3D11LibraryReflection interface [Direct3D 11]","ID3D11LibraryReflection interface [Direct3D 11]","described","d3d11shader/ID3D11LibraryReflection","direct3d11.id3d11libraryreflection"]
 old-location: direct3d11\id3d11libraryreflection.htm
 tech.root: direct3d11

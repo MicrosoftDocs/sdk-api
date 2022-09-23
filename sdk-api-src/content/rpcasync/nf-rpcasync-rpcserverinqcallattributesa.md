@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcasync.RpcServerInqCallAttributesA
 title: RpcServerInqCallAttributesA function (rpcasync.h)
-description: The RpcServerInqCallAttributes function is an RPC server call that obtains client security context attributes.
+description: The RpcServerInqCallAttributes function is an RPC server call that obtains client security context attributes. (ANSI)
 helpviewer_keywords: ["RpcServerInqCallAttributes","RpcServerInqCallAttributes function [RPC]","RpcServerInqCallAttributesA","RpcServerInqCallAttributesW","_rpc_rpcserverinqcallattributes","rpc.rpcserverinqcallattributes","rpcasync/RpcServerInqCallAttributes","rpcasync/RpcServerInqCallAttributesA","rpcasync/RpcServerInqCallAttributesW"]
 old-location: rpc\rpcserverinqcallattributes.htm
 tech.root: Rpc

@@ -4,7 +4,7 @@ tech.root: devinst
 title: DiUninstallDriverA
 ms.date: 04/14/2021
 targetos: Windows
-description: The DiUninstallDriver function removes a driver package from any devices it is installed on by installing those devices with another matching driver package, if available, or the null driver if no other matching driver package is available. Then the specified driver package is removed from the driver store.
+description: The DiUninstallDriver function removes a driver package from any devices it is installed on by installing those devices with another matching driver package, if available, or the null driver if no other matching driver package is available. Then the specified driver package is removed from the driver store. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

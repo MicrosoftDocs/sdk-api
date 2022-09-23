@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.GetAnnotationByIndex
 title: ID3D10EffectVariable::GetAnnotationByIndex (d3d10effect.h)
-description: Get an annotation by index.
+description: The ID3D10EffectVariable::GetAnnotationByIndex (d3d10effect.h) method gets an annotation by index.
 helpviewer_keywords: ["GetAnnotationByIndex","GetAnnotationByIndex method [Direct3D 10]","GetAnnotationByIndex method [Direct3D 10]","ID3D10EffectVariable interface","ID3D10EffectVariable interface [Direct3D 10]","GetAnnotationByIndex method","ID3D10EffectVariable.GetAnnotationByIndex","ID3D10EffectVariable::GetAnnotationByIndex","c60bf6b1-5d05-ec0d-545c-b26e3e436ab8","d3d10effect/ID3D10EffectVariable::GetAnnotationByIndex","direct3d10.id3d10effectvariable_getannotationbyindex"]
 old-location: direct3d10\id3d10effectvariable_getannotationbyindex.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_getannotationbyindex.htm
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: GetAnnotationByIndex, GetAnnotationByIndex method [Direct3D 10], GetAnnotationByIndex method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],GetAnnotationByIndex method, ID3D10EffectVariable.GetAnnotationByIndex, ID3D10EffectVariable::GetAnnotationByIndex, c60bf6b1-5d05-ec0d-545c-b26e3e436ab8, d3d10effect/ID3D10EffectVariable::GetAnnotationByIndex, direct3d10.id3d10effectvariable_getannotationbyindex
 req.header: d3d10effect.h
 req.include-header: 

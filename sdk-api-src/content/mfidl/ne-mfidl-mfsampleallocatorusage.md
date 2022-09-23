@@ -1,9 +1,9 @@
 ---
 UID: NE:mfidl.MFSampleAllocatorUsage
 title: MFSampleAllocatorUsage
-ms.date: 11/4/2019
+ms.date: 08/05/2022
 targetos: Windows
-description: 
+description: The MFSampleAllocatorUsage enumeration specifies the allocator usage of components that implement the IMFSampleAllocatorControl interface.
 tech.root: mf
 req.construct-type: enumeration
 req.ddi-compliance: 

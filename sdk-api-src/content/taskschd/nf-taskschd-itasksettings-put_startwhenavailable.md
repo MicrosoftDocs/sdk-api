@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_StartWhenAvailable
 title: ITaskSettings::put_StartWhenAvailable (taskschd.h)
-description: Gets or sets a Boolean value that indicates that the Task Scheduler can start the task at any time after its scheduled time has passed.
+description: Gets or sets a Boolean value that indicates that the Task Scheduler can start the task at any time after its scheduled time has passed. (Put)
 helpviewer_keywords: ["ITaskSettings interface [Task Scheduler]","StartWhenAvailable property","ITaskSettings.StartWhenAvailable","ITaskSettings.put_StartWhenAvailable","ITaskSettings::StartWhenAvailable","ITaskSettings::get_StartWhenAvailable","ITaskSettings::put_StartWhenAvailable","StartWhenAvailable property [Task Scheduler]","StartWhenAvailable property [Task Scheduler]","ITaskSettings interface","put_StartWhenAvailable","taskschd.itasksettings_startwhenavailable","taskschd/ITaskSettings::StartWhenAvailable","taskschd/ITaskSettings::get_StartWhenAvailable","taskschd/ITaskSettings::put_StartWhenAvailable"]
 old-location: taskschd\itasksettings_startwhenavailable.htm
 tech.root: taskschd

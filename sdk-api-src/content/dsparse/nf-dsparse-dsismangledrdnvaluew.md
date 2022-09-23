@@ -1,7 +1,7 @@
 ---
 UID: NF:dsparse.DsIsMangledRdnValueW
 title: DsIsMangledRdnValueW function (dsparse.h)
-description: Determines if a given relative distinguished name value is a mangled name of the given type.
+description: Determines if a given relative distinguished name value is a mangled name of the given type. (Unicode)
 helpviewer_keywords: ["DsIsMangledRdnValue","DsIsMangledRdnValue function [Active Directory]","DsIsMangledRdnValueA","DsIsMangledRdnValueW","_glines_dsismangledrdnvalue","ad.dsismangledrdnvalue","dsparse/DsIsMangledRdnValue","dsparse/DsIsMangledRdnValueA","dsparse/DsIsMangledRdnValueW"]
 old-location: ad\dsismangledrdnvalue.htm
 tech.root: ad

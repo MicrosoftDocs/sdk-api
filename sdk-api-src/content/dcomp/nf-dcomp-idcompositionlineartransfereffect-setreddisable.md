@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetRedDisable
 title: IDCompositionLinearTransferEffect::SetRedDisable (dcomp.h)
-description: Specifies whether to apply the transfer function to the red channel.
+description: Specifies whether to apply the transfer function to the red channel. (IDCompositionLinearTransferEffect.SetRedDisable)
 helpviewer_keywords: ["IDCompositionLinearTransferEffect interface [DirectComposition]","SetRedDisable method","IDCompositionLinearTransferEffect.SetRedDisable","IDCompositionLinearTransferEffect::SetRedDisable","SetRedDisable","SetRedDisable method [DirectComposition]","SetRedDisable method [DirectComposition]","IDCompositionLinearTransferEffect interface","dcomp/IDCompositionLinearTransferEffect::SetRedDisable","directcomp.idcompositionlineartransfereffect_setreddisable"]
 old-location: directcomp\idcompositionlineartransfereffect_setreddisable.htm
 tech.root: directcomp

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CurrentCanMinimize
 title: IUIAutomationWindowPattern::get_CurrentCanMinimize (uiautomationclient.h)
-description: Indicates whether the window can be minimized.
+description: Indicates whether the window can be minimized. (IUIAutomationWindowPattern.get_CurrentCanMinimize)
 helpviewer_keywords: ["CurrentCanMinimize property [Windows Accessibility]","CurrentCanMinimize property [Windows Accessibility]","IUIAutomationWindowPattern interface","IUIAutomationWindowPattern interface [Windows Accessibility]","CurrentCanMinimize property","IUIAutomationWindowPattern.CurrentCanMinimize","IUIAutomationWindowPattern.get_CurrentCanMinimize","IUIAutomationWindowPattern::CurrentCanMinimize","IUIAutomationWindowPattern::get_CurrentCanMinimize","get_CurrentCanMinimize","uiauto.uiauto_IUIAutomationWindowPattern_CurrentCanMinimize","uiauto_IUIAutomationWindowPattern_CurrentCanMinimize","uiautomationclient/IUIAutomationWindowPattern::CurrentCanMinimize","uiautomationclient/IUIAutomationWindowPattern::get_CurrentCanMinimize","winauto.uiauto_IUIAutomationWindowPattern_CurrentCanMinimize"]
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CurrentCanMinimize.htm
 tech.root: WinAuto

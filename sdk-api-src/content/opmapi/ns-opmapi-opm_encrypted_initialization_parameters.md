@@ -1,12 +1,12 @@
 ---
 UID: NS:opmapi._OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
 title: OPM_ENCRYPTED_INITIALIZATION_PARAMETERS (opmapi.h)
-description: Contains initialization parameters for an Output Protection Manager (OPM) session.
+description: Contains encrypted initialization parameters for an Output Protection Manager (OPM) session. (OPM_ENCRYPTED_INITIALIZATION_PARAMETERS).
 helpviewer_keywords: ["OPM_ENCRYPTED_INITIALIZATION_PARAMETERS","OPM_ENCRYPTED_INITIALIZATION_PARAMETERS structure [Media Foundation]","_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS","ksopmapi/OPM_ENCRYPTED_INITIALIZATION_PARAMETERS","mf.opm_encrypted_initialization_parameters"]
 old-location: mf\opm_encrypted_initialization_parameters.htm
 tech.root: mf
 ms.assetid: abcf0b84-7370-48da-b4dd-4faded6be343
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: OPM_ENCRYPTED_INITIALIZATION_PARAMETERS, OPM_ENCRYPTED_INITIALIZATION_PARAMETERS structure [Media Foundation], _OPM_ENCRYPTED_INITIALIZATION_PARAMETERS, ksopmapi/OPM_ENCRYPTED_INITIALIZATION_PARAMETERS, mf.opm_encrypted_initialization_parameters
 req.header: opmapi.h
 req.include-header: Opmapi.h

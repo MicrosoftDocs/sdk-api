@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasSetSubEntryPropertiesA
 title: RasSetSubEntryPropertiesA function (ras.h)
-description: The RasSetSubEntryProperties function creates a new subentry or modifies an existing subentry of a specified phone-book entry.
+description: The RasSetSubEntryProperties function creates a new subentry or modifies an existing subentry of a specified phone-book entry. (ANSI)
 helpviewer_keywords: ["RasSetSubEntryProperties","RasSetSubEntryProperties function [RAS]","RasSetSubEntryPropertiesA","RasSetSubEntryPropertiesW","_ras_rassetsubentryproperties","ras/RasSetSubEntryProperties","ras/RasSetSubEntryPropertiesA","ras/RasSetSubEntryPropertiesW","rras.rassetsubentryproperties"]
 old-location: rras\rassetsubentryproperties.htm
 tech.root: RRAS

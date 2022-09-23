@@ -1,7 +1,7 @@
 ---
 UID: NF:shellapi.ShellMessageBoxA
 title: ShellMessageBoxA function (shellapi.h)
-description: ShellMessageBox may be altered or unavailable.
+description: ShellMessageBox may be altered or unavailable. (ANSI)
 helpviewer_keywords: ["ShellMessageBox","ShellMessageBox function [Windows Shell]","ShellMessageBoxA","ShellMessageBoxW","_win32_ShellMessageBox","shell.ShellMessageBox","shellapi/ShellMessageBox","shellapi/ShellMessageBoxA","shellapi/ShellMessageBoxW"]
 old-location: shell\ShellMessageBox.htm
 tech.root: shell

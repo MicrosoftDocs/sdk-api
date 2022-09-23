@@ -1,7 +1,7 @@
 ---
 UID: NS:accctrl._INHERITED_FROMW
 title: INHERITED_FROMW (accctrl.h)
-description: Provides information about an object's inherited access control entry (ACE).
+description: Provides information about an object's inherited access control entry (ACE). (Unicode)
 helpviewer_keywords: ["*PINHERITED_FROMW","INHERITED_FROM","INHERITED_FROM structure [Security]","INHERITED_FROMA","INHERITED_FROMW","PINHERITED_FROM","PINHERITED_FROM structure pointer [Security]","_INHERITED_FROMA","_INHERITED_FROMW","accctrl/INHERITED_FROM","accctrl/INHERITED_FROMA","accctrl/INHERITED_FROMW","accctrl/PINHERITED_FROM","security.inherited_from"]
 old-location: security\inherited_from.htm
 tech.root: security

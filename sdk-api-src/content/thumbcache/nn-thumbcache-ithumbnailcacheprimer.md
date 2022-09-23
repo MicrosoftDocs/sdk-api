@@ -1,7 +1,7 @@
 ---
 UID: NN:thumbcache.IThumbnailCachePrimer
 title: IThumbnailCachePrimer (thumbcache.h)
-description: .
+description: . (IThumbnailCachePrimer)
 helpviewer_keywords: ["IThumbnailCachePrimer","IThumbnailCachePrimer interface [Windows Shell]","IThumbnailCachePrimer interface [Windows Shell]","described","shell.IThumbnailCachePrimer","thumbcache/IThumbnailCachePrimer"]
 old-location: shell\IThumbnailCachePrimer.htm
 tech.root: shell

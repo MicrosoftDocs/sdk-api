@@ -1,7 +1,7 @@
 ---
 UID: NF:winnetwk.WNetGetResourceParentA
 title: WNetGetResourceParentA function (winnetwk.h)
-description: The WNetGetResourceParent function returns the parent of a network resource in the network browse hierarchy. Browsing begins at the location of the specified network resource.
+description: The WNetGetResourceParent function returns the parent of a network resource in the network browse hierarchy. Browsing begins at the location of the specified network resource. (ANSI)
 helpviewer_keywords: ["WNetGetResourceParent","WNetGetResourceParent function [Windows Networking (WNet)]","WNetGetResourceParentA","WNetGetResourceParentW","_win32_wnetgetresourceparent","dwType","lpProvider","lpRemoteName","winnetwk/WNetGetResourceParent","winnetwk/WNetGetResourceParentA","winnetwk/WNetGetResourceParentW","wnet.wnetgetresourceparent"]
 old-location: wnet\wnetgetresourceparent.htm
 tech.root: WNet

@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.FindFirstFileExW
 title: FindFirstFileExW function (fileapi.h)
-description: Searches a directory for a file or subdirectory with a name and attributes that match those specified.
+description: Searches a directory for a file or subdirectory with a name and attributes that match those specified. (FindFirstFileExW)
 helpviewer_keywords: ["FIND_FIRST_EX_CASE_SENSITIVE","FIND_FIRST_EX_LARGE_FETCH","FIND_FIRST_EX_ON_DISK_ENTRIES_ONLY","FindFirstFileEx","FindFirstFileEx function [Files]","FindFirstFileExA","FindFirstFileExW","_win32_findfirstfileex","base.findfirstfileex","fileapi/FindFirstFileEx","fileapi/FindFirstFileExA","fileapi/FindFirstFileExW","fs.findfirstfileex","winbase/FindFirstFileEx","winbase/FindFirstFileExA","winbase/FindFirstFileExW"]
 old-location: fs\findfirstfileex.htm
 tech.root: fs

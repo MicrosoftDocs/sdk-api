@@ -1,7 +1,7 @@
 ---
 UID: NF:strsafe.StringCchGetsExA
 title: StringCchGetsExA function (strsafe.h)
-description: Gets one line of text from stdin, up to and including the newline character ('\n').
+description: Gets one line of text from stdin, up to and including the newline character ('\n'). (StringCchGetsExA)
 helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCchGetsEx","StringCchGetsEx function [Menus and Other Resources]","StringCchGetsExA","StringCchGetsExW","_shell_StringCchGetsEx","_shell_stringcchgetsex_cpp","menurc.stringcchgetsex","strsafe/StringCchGetsEx","strsafe/StringCchGetsExA","strsafe/StringCchGetsExW","winui._shell_stringcchgetsex"]
 old-location: menurc\stringcchgetsex.htm
 tech.root: menurc

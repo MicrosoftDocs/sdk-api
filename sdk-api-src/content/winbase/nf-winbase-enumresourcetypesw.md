@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.EnumResourceTypesW
 title: EnumResourceTypesW function (winbase.h)
-description: Enumerates resource types within a binary module.
+description: Enumerates resource types within a binary module. (Unicode)
 helpviewer_keywords: ["EnumResourceTypes","EnumResourceTypes function [Menus and Other Resources]","EnumResourceTypesA","EnumResourceTypesW","_win32_EnumResourceTypes","_win32_enumresourcetypes_cpp","menurc.enumresourcetypes","winbase/EnumResourceTypes","winbase/EnumResourceTypesA","winbase/EnumResourceTypesW","winui._win32_enumresourcetypes"]
 old-location: menurc\enumresourcetypes.htm
 tech.root: menurc
@@ -123,7 +123,7 @@ For an example, see <a href="/windows/desktop/menurc/using-resources">Creating a
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-enumresourcenamesa">EnumResourceNames</a>
+<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesa">EnumResourceNames</a>
 
 
 

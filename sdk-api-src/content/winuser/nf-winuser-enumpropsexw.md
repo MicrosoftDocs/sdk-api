@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.EnumPropsExW
 title: EnumPropsExW function (winuser.h)
-description: Enumerates all entries in the property list of a window by passing them, one by one, to the specified callback function. EnumPropsEx continues until the last entry is enumerated or the callback function returns FALSE.
+description: Enumerates all entries in the property list of a window by passing them, one by one, to the specified callback function. EnumPropsEx continues until the last entry is enumerated or the callback function returns FALSE. (Unicode)
 helpviewer_keywords: ["EnumPropsEx","EnumPropsEx function [Windows and Messages]","EnumPropsExA","EnumPropsExW","_win32_EnumPropsEx","_win32_enumpropsex_cpp","winmsg.enumpropsex","winui._win32_enumpropsex","winuser/EnumPropsEx","winuser/EnumPropsExA","winuser/EnumPropsExW"]
 old-location: winmsg\enumpropsex.htm
 tech.root: winmsg

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.PSGetSamplers
 title: ID3D10Device::PSGetSamplers (d3d10.h)
-description: Get an array of sampler states from the pixel shader pipeline stage.
+description: Get an array of sampler states from the pixel shader pipeline stage. (ID3D10Device.PSGetSamplers)
 helpviewer_keywords: ["192d3ca7-55ed-f763-e7fe-8bb5eb1322a9","ID3D10Device interface [Direct3D 10]","PSGetSamplers method","ID3D10Device.PSGetSamplers","ID3D10Device::PSGetSamplers","PSGetSamplers","PSGetSamplers method [Direct3D 10]","PSGetSamplers method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::PSGetSamplers","direct3d10.id3d10device_psgetsamplers"]
 old-location: direct3d10\id3d10device_psgetsamplers.htm
 tech.root: direct3d10

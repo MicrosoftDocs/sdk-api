@@ -20,7 +20,7 @@ This header is used by multiple technologies. For more information, see:
 
 - [Data Exchange](../_dataxchg/index.md)
 - [Direct3D 9 Graphics](../_direct3d9/index.md)
-- [DirectShow](../_dshow/index.md)
+- [DirectShow](/windows/win32/directshow/directshow)
 - [Display Devices Reference](../_display/index.md)
 - [Internationalization for Windows Applications](../_intl/index.md)
 - [OpenGL](../_opengl/index.md)

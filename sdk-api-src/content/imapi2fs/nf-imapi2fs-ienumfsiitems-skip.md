@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IEnumFsiItems.Skip
 title: IEnumFsiItems::Skip (imapi2fs.h)
-description: Skips a specified number of items in the enumeration sequence.
+description: Skips a specified number of items in the enumeration sequence. (IEnumFsiItems.Skip)
 helpviewer_keywords: ["IEnumFsiItems interface [IMAPI]","Skip method","IEnumFsiItems.Skip","IEnumFsiItems::Skip","Skip","Skip method [IMAPI]","Skip method [IMAPI]","IEnumFsiItems interface","imapi.ienumfsiitems_skip","imapi2fs/IEnumFsiItems::Skip"]
 old-location: imapi\ienumfsiitems_skip.htm
 tech.root: imapi

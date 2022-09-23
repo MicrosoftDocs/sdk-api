@@ -1,7 +1,7 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPISharingSession
 title: IRDPSRAPISharingSession (rdpencomapi.h)
-description: The main object that an application must create to start a collaboration session.
+description: The main object that an application must create to start a collaboration session. (IRDPSRAPISharingSession)
 helpviewer_keywords: ["IRDPSRAPISharingSession","IRDPSRAPISharingSession interface [RDP]","IRDPSRAPISharingSession interface [RDP]","described","rdp.irdpsrapisharingsession","rdpencomapi/IRDPSRAPISharingSession"]
 old-location: rdp\irdpsrapisharingsession.htm
 tech.root: rdp

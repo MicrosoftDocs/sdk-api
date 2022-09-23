@@ -1,7 +1,7 @@
 ---
 UID: NF:pdh.PdhBrowseCountersA
 title: PdhBrowseCountersA function (pdh.h)
-description: Displays a Browse Counters dialog box that the user can use to select one or more counters that they want to add to the query. To use handles to data sources, use the PdhBrowseCountersH function.
+description: Displays a Browse Counters dialog box that the user can use to select one or more counters that they want to add to the query. To use handles to data sources, use the PdhBrowseCountersH function. (ANSI)
 helpviewer_keywords: ["PdhBrowseCounters","PdhBrowseCounters function [Perf]","PdhBrowseCountersA","PdhBrowseCountersW","_win32_pdhbrowsecounters","base.pdhbrowsecounters","pdh/PdhBrowseCounters","pdh/PdhBrowseCountersA","pdh/PdhBrowseCountersW","perf.pdhbrowsecounters"]
 old-location: perf\pdhbrowsecounters.htm
 tech.root: perf

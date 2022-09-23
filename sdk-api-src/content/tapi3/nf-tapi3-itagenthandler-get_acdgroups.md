@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3.ITAgentHandler.get_ACDGroups
 title: ITAgentHandler::get_ACDGroups (tapi3.h)
-description: The get_ACDGroups method creates a collection of ACD groups currently associated with the agent handler.
+description: The get_ACDGroups method (tapi3.h) creates a collection of ACD groups currently associated with the agent handler.
 helpviewer_keywords: ["ITAgentHandler interface [TAPI 2.2]","get_ACDGroups method","ITAgentHandler.get_ACDGroups","ITAgentHandler::get_ACDGroups","_tapi3_itagenthandler_get_acdgroups","get_ACDGroups","get_ACDGroups method [TAPI 2.2]","get_ACDGroups method [TAPI 2.2]","ITAgentHandler interface","tapi3.itagenthandler_get_acdgroups","tapi3cc/ITAgentHandler::get_ACDGroups"]
 old-location: tapi3\itagenthandler_get_acdgroups.htm
 tech.root: tapi3
 ms.assetid: 72dcc4c8-fac6-4635-995e-18a5693da99b
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: ITAgentHandler interface [TAPI 2.2],get_ACDGroups method, ITAgentHandler.get_ACDGroups, ITAgentHandler::get_ACDGroups, _tapi3_itagenthandler_get_acdgroups, get_ACDGroups, get_ACDGroups method [TAPI 2.2], get_ACDGroups method [TAPI 2.2],ITAgentHandler interface, tapi3.itagenthandler_get_acdgroups, tapi3cc/ITAgentHandler::get_ACDGroups
 req.header: tapi3.h
 req.include-header: Tapi3.h

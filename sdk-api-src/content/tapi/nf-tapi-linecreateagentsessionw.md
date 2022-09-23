@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineCreateAgentSessionW
 title: lineCreateAgentSessionW function (tapi.h)
-description: The lineCreateAgentSession function creates a new AgentSession object. It generates a LINE_PROXYREQUEST message to be sent to a registered proxy function handler, referencing a LINEPROXYREQUEST structure of type LINEPROXYREQUEST_CREATEAGENTSESSION.
+description: The lineCreateAgentSession function creates a new AgentSession object. It generates a LINE_PROXYREQUEST message to be sent to a registered proxy function handler, referencing a LINEPROXYREQUEST structure of type LINEPROXYREQUEST_CREATEAGENTSESSION. (Unicode)
 helpviewer_keywords: ["_tapi2_linecreateagentsession","lineCreateAgentSession","lineCreateAgentSession function [TAPI 2.2]","lineCreateAgentSessionA","lineCreateAgentSessionW","tapi/lineCreateAgentSession","tapi/lineCreateAgentSessionA","tapi/lineCreateAgentSessionW","tapi2.linecreateagentsession"]
 old-location: tapi2\linecreateagentsession.htm
 tech.root: tapi3

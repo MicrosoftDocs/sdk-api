@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IEventTrigger.put_ValueQueries
 title: IEventTrigger::put_ValueQueries (taskschd.h)
-description: Gets or sets a collection of named XPath queries. Each query in the collection is applied to the last matching event XML returned from the subscription query specified in the Subscription property.
+description: Gets or sets a collection of named XPath queries. Each query in the collection is applied to the last matching event XML returned from the subscription query specified in the Subscription property. (Put)
 helpviewer_keywords: ["IEventTrigger interface [Task Scheduler]","ValueQueries property","IEventTrigger.ValueQueries","IEventTrigger.put_ValueQueries","IEventTrigger::ValueQueries","IEventTrigger::get_ValueQueries","IEventTrigger::put_ValueQueries","ValueQueries property [Task Scheduler]","ValueQueries property [Task Scheduler]","IEventTrigger interface","put_ValueQueries","taskschd.ieventtrigger_valuequeries","taskschd/IEventTrigger::ValueQueries","taskschd/IEventTrigger::get_ValueQueries","taskschd/IEventTrigger::put_ValueQueries"]
 old-location: taskschd\ieventtrigger_valuequeries.htm
 tech.root: taskschd

@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d10.D3D10_RAISE_FLAG
 title: D3D10_RAISE_FLAG (d3d10.h)
-description: Option(s) for raising an error to a non-continuable exception.
+description: Option(s) for raising an error to a non-continuable exception. (D3D10_RAISE_FLAG)
 helpviewer_keywords: ["4f0a160b-254f-303d-968b-d35d73102d48","D3D10_RAISE_FLAG","D3D10_RAISE_FLAG enumeration [Direct3D 10]","D3D10_RAISE_FLAG_DRIVER_INTERNAL_ERROR","d3d10/D3D10_RAISE_FLAG","d3d10/D3D10_RAISE_FLAG_DRIVER_INTERNAL_ERROR","direct3d10.d3d10_raise_flag"]
 old-location: direct3d10\d3d10_raise_flag.htm
 tech.root: direct3d10

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SetDlgItemTextA
 title: SetDlgItemTextA function (winuser.h)
-description: Sets the title or text of a control in a dialog box.
+description: Sets the title or text of a control in a dialog box. (ANSI)
 helpviewer_keywords: ["SetDlgItemText","SetDlgItemText function [Dialog Boxes]","SetDlgItemTextA","SetDlgItemTextW","_win32_SetDlgItemText","_win32_setdlgitemtext_cpp","dlgbox.setdlgitemtext","winui._win32_setdlgitemtext","winuser/SetDlgItemText","winuser/SetDlgItemTextA","winuser/SetDlgItemTextW"]
 old-location: dlgbox\setdlgitemtext.htm
 tech.root: dlgbox

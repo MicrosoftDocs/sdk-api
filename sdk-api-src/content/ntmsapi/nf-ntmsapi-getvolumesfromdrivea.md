@@ -1,7 +1,7 @@
 ---
 UID: NF:ntmsapi.GetVolumesFromDriveA
 title: GetVolumesFromDriveA function (ntmsapi.h)
-description: The GetVolumesFromDrive function retrieves the volume and drive letter for a given removable storage media drive.
+description: The GetVolumesFromDrive function retrieves the volume and drive letter for a given removable storage media drive. (ANSI)
 helpviewer_keywords: ["GetVolumesFromDrive","GetVolumesFromDrive function [Files]","GetVolumesFromDriveA","GetVolumesFromDriveW","base.getvolumesfromdrive","fs.getvolumesfromdrive","ntmsapi/GetVolumesFromDrive","ntmsapi/GetVolumesFromDriveA","ntmsapi/GetVolumesFromDriveW"]
 old-location: fs\getvolumesfromdrive.htm
 tech.root: fs

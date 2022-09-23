@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiConfigureProductExW
 title: MsiConfigureProductExW function (msi.h)
-description: Installs or uninstalls a product.
+description: Installs or uninstalls a product. (MsiConfigureProductExW)
 helpviewer_keywords: ["INSTALLLEVEL_DEFAULT","INSTALLLEVEL_MAXIMUM","INSTALLLEVEL_MINIMUM","INSTALLSTATE_ABSENT","INSTALLSTATE_ADVERTISED","INSTALLSTATE_DEFAULT","INSTALLSTATE_LOCAL","INSTALLSTATE_SOURCE","MsiConfigureProductEx","MsiConfigureProductEx function","MsiConfigureProductExA","MsiConfigureProductExW","_msi_msiconfigureproductex","msi/MsiConfigureProductEx","msi/MsiConfigureProductExA","msi/MsiConfigureProductExW","setup.msiconfigureproductex"]
 old-location: setup\msiconfigureproductex.htm
 tech.root: setup

@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_add_sA
 title: ldap_add_sA function (winldap.h)
-description: The ldap_add_s function initiates a synchronous add operation that adds an entry to a tree. The parent of the entry being added must already exist or the parent must be empty (equal to the root distinguished name) for an add operation to succeed.
+description: The ldap_add_s function initiates a synchronous add operation that adds an entry to a tree. The parent of the entry being added must already exist or the parent must be empty (equal to the root distinguished name) for an add operation to succeed. (ldap_add_sA)
 helpviewer_keywords: ["_ldap_ldap_add_s","ldap.ldap__add__s","ldap.ldap_add_s","ldap_add_s","ldap_add_s function [LDAP]","ldap_add_sA","ldap_add_sW","winldap/ldap_add_s","winldap/ldap_add_sA","winldap/ldap_add_sW"]
 old-location: ldap\ldap_add_s.htm
 tech.root: ldap

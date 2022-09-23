@@ -1,7 +1,7 @@
 ---
 UID: NF:propidl.IPropertyStorage.ReadPropertyNames
 title: IPropertyStorage::ReadPropertyNames (propidl.h)
-description: Retrieves any existing string names for the specified property IDs.
+description: Retrieves any existing string names for the specified property IDs. (IPropertyStorage.ReadPropertyNames)
 helpviewer_keywords: ["IPropertyStorage [Strctd Stg]","IPropertyStorage [Strctd Stg]","ReadPropertyNames","IPropertyStorage interface [Structured Storage]","ReadPropertyNames method","IPropertyStorage.ReadPropertyNames","IPropertyStorage::ReadPropertyNames","ReadPropertyNames","ReadPropertyNames method [Structured Storage]","ReadPropertyNames method [Structured Storage]","IPropertyStorage interface","_stg_ipropertystorage_readpropertynames","propidl/IPropertyStorage::ReadPropertyNames","stg.ipropertystorage_readpropertynames"]
 old-location: stg\ipropertystorage_readpropertynames.htm
 tech.root: Stg

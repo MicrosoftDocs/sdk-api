@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxReceiptOptions.get_UseForInboundRouting
 title: IFaxReceiptOptions::get_UseForInboundRouting (faxcomex.h)
-description: The IFaxReceiptOptions::get_UseForInboundRouting property sets or retrieves whether to use the FaxReceiptOptions settings for the Microsoft Routing Extension, which allows incoming faxes to be routed to email addresses.
+description: The IFaxReceiptOptions::get_UseForInboundRouting property sets or retrieves whether to use the FaxReceiptOptions settings for the Microsoft Routing Extension, which allows incoming faxes to be routed to email addresses. (Get)
 helpviewer_keywords: ["IFaxReceiptOptions interface [Fax Service]","UseForInboundRouting property","IFaxReceiptOptions.UseForInboundRouting","IFaxReceiptOptions.get_UseForInboundRouting","IFaxReceiptOptions.put_UseForInboundRouting","IFaxReceiptOptions::UseForInboundRouting","IFaxReceiptOptions::get_UseForInboundRouting","IFaxReceiptOptions::put_UseForInboundRouting","UseForInboundRouting property [Fax Service]","UseForInboundRouting property [Fax Service]","IFaxReceiptOptions interface","_mfax_faxreceiptoptions.useforinboundrouting","fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_useforinboundrouting_cpp","fax._mfax_faxreceiptoptions_useforinboundrouting","faxcomex/IFaxReceiptOptions::UseForInboundRouting","faxcomex/IFaxReceiptOptions::get_UseForInboundRouting","faxcomex/IFaxReceiptOptions::put_UseForInboundRouting","get_UseForInboundRouting"]
 old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_useforinboundrouting_cpp.htm
 tech.root: Fax

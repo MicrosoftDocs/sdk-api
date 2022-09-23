@@ -1,7 +1,7 @@
 ---
 UID: NF:processenv.GetEnvironmentVariableA
 title: GetEnvironmentVariableA function (processenv.h)
-description: Retrieves the contents of the specified variable from the environment block of the calling process.
+description: Retrieves the contents of the specified variable from the environment block of the calling process. (GetEnvironmentVariableA)
 helpviewer_keywords: ["GetEnvironmentVariable","GetEnvironmentVariable function","GetEnvironmentVariableA","GetEnvironmentVariableW","_win32_getenvironmentvariable","base.getenvironmentvariable","processenv/GetEnvironmentVariable","processenv/GetEnvironmentVariableA","processenv/GetEnvironmentVariableW","winbase/GetEnvironmentVariable","winbase/GetEnvironmentVariableA","winbase/GetEnvironmentVariableW"]
 old-location: base\getenvironmentvariable.htm
 tech.root: backup

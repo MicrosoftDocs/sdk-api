@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionType.ImplementsInterface
 title: ID3D11ShaderReflectionType::ImplementsInterface (d3d11shader.h)
-description: Indicates whether a class type implements an interface.
+description: Indicates whether a class type implements an interface. (ID3D11ShaderReflectionType.ImplementsInterface)
 helpviewer_keywords: ["806550ed-6d2f-16a0-b48b-9510e852ab3b","ID3D11ShaderReflectionType interface [Direct3D 11]","ImplementsInterface method","ID3D11ShaderReflectionType.ImplementsInterface","ID3D11ShaderReflectionType::ImplementsInterface","ImplementsInterface","ImplementsInterface method [Direct3D 11]","ImplementsInterface method [Direct3D 11]","ID3D11ShaderReflectionType interface","d3d11shader/ID3D11ShaderReflectionType::ImplementsInterface","direct3d11.id3d11shaderreflectiontype_implementsinterface"]
 old-location: direct3d11\id3d11shaderreflectiontype_implementsinterface.htm
 tech.root: direct3d11

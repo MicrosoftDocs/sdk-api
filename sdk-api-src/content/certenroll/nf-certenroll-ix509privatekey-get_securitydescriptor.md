@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_SecurityDescriptor
 title: IX509PrivateKey::get_SecurityDescriptor (certenroll.h)
-description: Specifies or retrieves the security descriptor for the private key.
+description: Specifies or retrieves the security descriptor for the private key. (Get)
 helpviewer_keywords: ["IX509PrivateKey interface [Security]","SecurityDescriptor property","IX509PrivateKey.SecurityDescriptor","IX509PrivateKey.get_SecurityDescriptor","IX509PrivateKey::SecurityDescriptor","IX509PrivateKey::get_SecurityDescriptor","IX509PrivateKey::put_SecurityDescriptor","SecurityDescriptor property [Security]","SecurityDescriptor property [Security]","IX509PrivateKey interface","certenroll/IX509PrivateKey::SecurityDescriptor","certenroll/IX509PrivateKey::get_SecurityDescriptor","certenroll/IX509PrivateKey::put_SecurityDescriptor","get_SecurityDescriptor","security.ix509privatekey_securitydescriptor_property"]
 old-location: security\ix509privatekey_securitydescriptor_property.htm
 tech.root: security

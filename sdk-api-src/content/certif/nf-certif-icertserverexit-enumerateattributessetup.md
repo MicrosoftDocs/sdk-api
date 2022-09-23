@@ -1,7 +1,7 @@
 ---
 UID: NF:certif.ICertServerExit.EnumerateAttributesSetup
 title: ICertServerExit::EnumerateAttributesSetup (certif.h)
-description: Initializes the internal enumeration pointer to the first request attribute associated with the current context.
+description: Initializes the internal enumeration pointer to the first request attribute associated with the current context. (ICertServerExit.EnumerateAttributesSetup)
 helpviewer_keywords: ["CCertServerExit object [Security]","EnumerateAttributesSetup method","EnumerateAttributesSetup","EnumerateAttributesSetup method [Security]","EnumerateAttributesSetup method [Security]","CCertServerExit object","EnumerateAttributesSetup method [Security]","ICertServerExit interface","ICertServerExit interface [Security]","EnumerateAttributesSetup method","ICertServerExit.EnumerateAttributesSetup","ICertServerExit::EnumerateAttributesSetup","_certsrv_icertserverexit_enumerateattributessetup","certif/ICertServerExit::EnumerateAttributesSetup","security.icertserverexit_enumerateattributessetup"]
 old-location: security\icertserverexit_enumerateattributessetup.htm
 tech.root: security

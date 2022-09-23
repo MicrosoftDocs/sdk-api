@@ -1,7 +1,8 @@
 ---
 UID: NE:virtdisk._VIRTUAL_DISK_ACCESS_MASK~r1
 title: VIRTUAL_DISK_ACCESS_MASK
-ms.date: 01/30/2019
+description: VIRTUAL_DISK_ACCESS_MASK contains the bitmask for specifying access rights to a virtual hard disk (VHD) or CD or DVD image file (ISO).
+ms.date: 08/03/2022
 ms.keywords: _VIRTUAL_DISK_ACCESS_MASK, VIRTUAL_DISK_ACCESS_MASK
 targetos: Windows
 req.construct-type: enumeration

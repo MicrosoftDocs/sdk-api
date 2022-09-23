@@ -1,7 +1,7 @@
 ---
 UID: NF:ws2tcpip.GetAddrInfoExA
 title: GetAddrInfoExA function (ws2tcpip.h)
-description: Provides protocol-independent name resolution with additional parameters to qualify which namespace providers should handle the request.
+description: Provides protocol-independent name resolution with additional parameters to qualify which namespace providers should handle the request. (ANSI)
 helpviewer_keywords: ["GetAddrInfoEx","GetAddrInfoEx function [Winsock]","GetAddrInfoExA","GetAddrInfoExW","NS_ALL","NS_BTH","NS_DNS","NS_EMAIL","NS_NETBT","NS_NLA","NS_NTDS","NS_PNRPCLOUD","NS_PNRPNAME","NS_WINS","winsock.getaddrinfoex","ws2tcpip/GetAddrInfoEx","ws2tcpip/GetAddrInfoExA","ws2tcpip/GetAddrInfoExW"]
 old-location: winsock\getaddrinfoex.htm
 tech.root: WinSock
@@ -509,8 +509,7 @@ Windows 7 with Service Pack 1 (SP1) and Windows Server 2008 R2 with Service 
 
 A hotfix is available for Windows 7 and Windows Server 2008 R2 that adds support to Netsh.exe for setting the SkipAsSource attribute on an IP address.  This hotfix also changes behavior such that if the <b>SkipAsSource</b> member in the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS.  For more information, see <a href="https://support.microsoft.com/kb/2386184">Knowledge Base (KB) 2386184</a>.   
 
-A similar hotfix is also available for Windows Vista with Service Pack 2 (SP2) and Windows Server 2008 with Service Pack 2 (SP2) that adds support to Netsh.exe for setting the SkipAsSource attribute on an IP address. This hotfix also changes behavior such that if the <b>SkipAsSource</b> member in the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS.  For more information, see <a href="https://support.microsoft.com/kb/975808">Knowledge Base (KB) 975808</a>. 
-
+A similar hotfix is also available for Windows Vista with Service Pack 2 (SP2) and Windows Server 2008 with Service Pack 2 (SP2) that adds support to Netsh.exe for setting the SkipAsSource attribute on an IP address. This hotfix also changes behavior such that if the <b>SkipAsSource</b> member in the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS. 
 
 Callers of the 
 <b>GetAddrInfoEx</b> function can provide hints about the type of socket supported through an 

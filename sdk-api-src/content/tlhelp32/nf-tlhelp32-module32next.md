@@ -1,12 +1,12 @@
 ---
 UID: NF:tlhelp32.Module32Next
 title: Module32Next function (tlhelp32.h)
-description: Retrieves information about the next module associated with a process or thread.
+description: The Module32Next function (tlhelp32.h) retrieves information about the next module associated with a process or thread.
 helpviewer_keywords: ["Module32Next","Module32Next function [ToolHelp]","Module32NextW","_win32_module32next","base.module32next","tlhelp32/Module32Next","tlhelp32/Module32NextW","toolhelp.module32next"]
 old-location: toolhelp\module32next.htm
 tech.root: ToolHelp
 ms.assetid: 88ec1af4-bae7-4cd7-b830-97a98fb337f4
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: Module32Next, Module32Next function [ToolHelp], Module32NextW, _win32_module32next, base.module32next, tlhelp32/Module32Next, tlhelp32/Module32NextW, toolhelp.module32next
 req.header: tlhelp32.h
 req.include-header: 

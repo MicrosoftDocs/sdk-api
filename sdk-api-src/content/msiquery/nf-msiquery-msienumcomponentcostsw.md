@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiEnumComponentCostsW
 title: MsiEnumComponentCostsW function (msiquery.h)
-description: The MsiEnumComponentCosts function enumerates the disk-space per drive required to install a component.
+description: The MsiEnumComponentCosts function enumerates the disk-space per drive required to install a component. (Unicode)
 helpviewer_keywords: ["MsiEnumComponentCosts","MsiEnumComponentCosts function","MsiEnumComponentCostsA","MsiEnumComponentCostsW","_msi_msienumcomponentcosts","msiquery/MsiEnumComponentCosts","msiquery/MsiEnumComponentCostsA","msiquery/MsiEnumComponentCostsW","setup.msienumcomponentcosts"]
 old-location: setup\msienumcomponentcosts.htm
 tech.root: setup

@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiEnableLogA
 title: MsiEnableLogA function (msi.h)
-description: The MsiEnableLog function sets the log mode for all subsequent installations that are initiated in the calling process.
+description: The MsiEnableLog function sets the log mode for all subsequent installations that are initiated in the calling process. (ANSI)
 helpviewer_keywords: ["INSTALLLOGATTRIBUTES_APPEND","INSTALLLOGATTRIBUTES_FLUSHEACHLINE","INSTALLLOGMODE_ACTIONDATA","INSTALLLOGMODE_ACTIONSTART","INSTALLLOGMODE_COMMONDATA","INSTALLLOGMODE_ERROR","INSTALLLOGMODE_EXTRADEBUG","INSTALLLOGMODE_FATALEXIT","INSTALLLOGMODE_INFO","INSTALLLOGMODE_LOGONLYONERROR","INSTALLLOGMODE_OUTOFDISKSPACE","INSTALLLOGMODE_PROPERTYDUMP","INSTALLLOGMODE_RESOLVESOURCE","INSTALLLOGMODE_USER","INSTALLLOGMODE_VERBOSE","INSTALLLOGMODE_WARNING","MsiEnableLog","MsiEnableLog function","MsiEnableLogA","MsiEnableLogW","_msi_msienablelog","msi/MsiEnableLog","msi/MsiEnableLogA","msi/MsiEnableLogW","setup.msienablelog"]
 old-location: setup\msienablelog.htm
 tech.root: setup

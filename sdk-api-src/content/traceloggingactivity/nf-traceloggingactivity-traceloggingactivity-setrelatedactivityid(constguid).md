@@ -3,9 +3,7 @@ UID: NF:traceloggingactivity.TraceLoggingActivity.SetRelatedActivityId(constGUID
 title:
   TraceLoggingActivity::SetRelatedActivityId(const GUID)
   (traceloggingactivity.h)
-description:
-  Uses the unique identifier of an activity to set the related activity for this
-  TraceLoggingActivity object.
+description: TraceLoggingActivity::SetRelatedActivityId(const GUID) uses the unique identifier of an activity to set the related activity for this TraceLoggingActivity object.
 helpviewer_keywords:
   [
     "SetRelatedActivityId",
@@ -21,7 +19,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingactivity_setrelatedactivityid.htm
 tech.root: tracelogging
 ms.assetid: 3FA5E266-A921-42A8-B880-AC8748180E1B
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords:
   SetRelatedActivityId, SetRelatedActivityId method, TraceLoggingActivity
   interface, TraceLoggingActivity.SetRelatedActivityId,
@@ -72,7 +70,7 @@ api_name:
 ## -description
 
 Uses the unique identifier of an activity to set the related activity for this
-[TraceLoggingActivity](nl-traceloggingactivity-traceloggingactivity~r1.md)
+[TraceLoggingActivity](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity)
 object.
 
 ## -parameters
@@ -83,4 +81,4 @@ The unique identifier for the activity to associate with this activity.
 
 ## -see-also
 
-[TraceLoggingActivity](nl-traceloggingactivity-traceloggingactivity~r1.md)
+[TraceLoggingActivity](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity)

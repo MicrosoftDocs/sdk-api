@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ResourceBarrier
 title: ID3D12GraphicsCommandList::ResourceBarrier (d3d12.h)
-description: Notifies the driver that it needs to synchronize multiple accesses to resources.
+description: Notifies the driver that it needs to synchronize multiple accesses to resources. (ID3D12GraphicsCommandList.ResourceBarrier)
 helpviewer_keywords: ["ID3D12GraphicsCommandList interface","ResourceBarrier method","ID3D12GraphicsCommandList.ResourceBarrier","ID3D12GraphicsCommandList::ResourceBarrier","ResourceBarrier","ResourceBarrier method","ResourceBarrier method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::ResourceBarrier","direct3d12.id3d12graphicscommandlist_resourcebarrier"]
 old-location: direct3d12\id3d12graphicscommandlist_resourcebarrier.htm
 tech.root: direct3d12

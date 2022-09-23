@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileConditionProperty.get_Operator
 title: IFsrmFileConditionProperty::get_Operator (fsrmreports.h)
-description: Specifies the comparison operator, as enumerated by the FsrmPropertyConditionType enumeration.
+description: Specifies the comparison operator, as enumerated by the FsrmPropertyConditionType enumeration. (Get)
 helpviewer_keywords: ["IFsrmFileConditionProperty interface [File Server Resource Manager]","Operator property","IFsrmFileConditionProperty.Operator","IFsrmFileConditionProperty.get_Operator","IFsrmFileConditionProperty::Operator","IFsrmFileConditionProperty::get_Operator","IFsrmFileConditionProperty::put_Operator","Operator property [File Server Resource Manager]","Operator property [File Server Resource Manager]","IFsrmFileConditionProperty interface","fs.ifsrmfileconditionproperty_operator","fsrm.ifsrmfileconditionproperty_operator","fsrmreports/IFsrmFileConditionProperty::Operator","fsrmreports/IFsrmFileConditionProperty::get_Operator","fsrmreports/IFsrmFileConditionProperty::put_Operator","get_Operator"]
 old-location: fsrm\ifsrmfileconditionproperty_operator.htm
 tech.root: fsrm

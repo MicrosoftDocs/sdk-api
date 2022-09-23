@@ -2,7 +2,8 @@
 UID: NF:winbase.EnableProcessOptionalXStateFeatures
 tech.root: 
 title: EnableProcessOptionalXStateFeatures
-ms.date: 
+description: The EnableProcessOptionalXStateFeatures function enables a set of optional XState features for the current process.
+ms.date: 08/04/2022
 targetos: Windows
 description: 
 req.assembly: 

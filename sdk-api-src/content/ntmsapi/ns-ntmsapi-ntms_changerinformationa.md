@@ -1,7 +1,7 @@
 ---
 UID: NS:ntmsapi._NTMS_CHANGERINFORMATIONA
 title: NTMS_CHANGERINFORMATIONA (ntmsapi.h)
-description: The NTMS_CHANGERINFORMATION structure defines properties specific to a robotic changer object.
+description: The NTMS_CHANGERINFORMATION structure defines properties specific to a robotic changer object. (ANSI)
 helpviewer_keywords: ["NTMS_CHANGERINFORMATION","NTMS_CHANGERINFORMATION structure [Files]","NTMS_CHANGERINFORMATIONA","NTMS_CHANGERINFORMATIONW","_NTMS_CHANGERINFORMATIONA","_NTMS_CHANGERINFORMATIONW","_zaw_ntms_changerinformation","base.ntms_changerinformation","fs.ntms_changerinformation","ntmsapi/NTMS_CHANGERINFORMATION"]
 old-location: fs\ntms_changerinformation.htm
 tech.root: fs

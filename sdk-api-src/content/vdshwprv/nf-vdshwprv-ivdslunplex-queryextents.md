@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsLunPlex.QueryExtents
 title: IVdsLunPlex::QueryExtents (vdshwprv.h)
-description: Returns an array of the drive extents that contribute to the plex.
+description: The IVdsLunPlex::QueryExtents (vdshwprv.h) method returns an array of the drive extents that contribute to the plex.
 helpviewer_keywords: ["IVdsLunPlex interface [VDS]","QueryExtents method","IVdsLunPlex.QueryExtents","IVdsLunPlex::QueryExtents","QueryExtents","QueryExtents method [VDS]","QueryExtents method [VDS]","IVdsLunPlex interface","base.ivdslunplex_queryextents","vds/IVdsLunPlex::QueryExtents","vdshwprv/IVdsLunPlex::QueryExtents"]
 old-location: base\ivdslunplex_queryextents.htm
 tech.root: base
 ms.assetid: e9ed5bdd-c696-47cc-84c8-266b230f7970
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsLunPlex interface [VDS],QueryExtents method, IVdsLunPlex.QueryExtents, IVdsLunPlex::QueryExtents, QueryExtents, QueryExtents method [VDS], QueryExtents method [VDS],IVdsLunPlex interface, base.ivdslunplex_queryextents, vds/IVdsLunPlex::QueryExtents, vdshwprv/IVdsLunPlex::QueryExtents
 req.header: vdshwprv.h
 req.include-header: 

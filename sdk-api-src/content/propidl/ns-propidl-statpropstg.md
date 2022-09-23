@@ -1,7 +1,7 @@
 ---
 UID: NS:propidl.tagSTATPROPSTG
 title: STATPROPSTG (propidl.h)
-description: Contains data about a single property in a property set. This data is the property ID and type tag, and the optional string name that may be associated with the property.
+description: Contains data about a single property in a property set. This data is the property ID and type tag, and the optional string name that may be associated with the property. (STATPROPSTG)
 helpviewer_keywords: ["STATPROPSTG","STATPROPSTG [Strctd Stg]","STATPROPSTG structure [Structured Storage]","_stg_statpropstg","propidlbase/STATPROPSTG","stg.statpropstg","tagSTATPROPSTG"]
 old-location: stg\statpropstg.htm
 tech.root: Stg

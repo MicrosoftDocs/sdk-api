@@ -4,7 +4,7 @@ tech.root: devinst
 title: CM_Request_Device_Eject_ExA
 ms.date: 04/14/2021
 targetos: Windows
-description: The CM_Request_Device_Eject_Ex function prepares a local or a remote device instance for safe removal, if the device is removable. If the device can be physically ejected, it will be.
+description: The CM_Request_Device_Eject_Ex function prepares a local or a remote device instance for safe removal, if the device is removable. If the device can be physically ejected, it will be. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

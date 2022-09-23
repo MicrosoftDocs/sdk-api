@@ -137,7 +137,7 @@ The total number of retransmitted synchronize control flags (SYNs).
 ## -remarks
 
 To get an instance of this structure,  call the 
-   <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> or <a href="/previous-versions/windows/hardware/network/ff566296(v=vs.85)">LPWSPIoctl</a> function with the <a href="/previous-versions/windows/desktop/legacy/mt823415(v=vs.85)">SIO_TCP_INFO</a> 
+   <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> or <a href="/previous-versions/windows/hardware/network/ff566296(v=vs.85)">LPWSPIoctl</a> function with the <a href="/windows/win32/winsock/sio-tcp-info">SIO_TCP_INFO</a> 
    control code. Specify 0 for the *lpvInBuffer* field to retrieve the v0 version of this structure.
 
 ## -see-also

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_CollectingInk
 title: IInkOverlay::get_CollectingInk (msinkaut.h)
-description: Gets a value that specifies whether ink is currently being drawn on an ink collector (InkCollector, InkOverlay, or InkPicture).
+description: Gets a value that specifies whether ink is currently being drawn on an ink collector (InkCollector, InkOverlay, or InkPicture). (IInkOverlay.get_CollectingInk)
 helpviewer_keywords: ["CollectingInk property [Tablet PC]","CollectingInk property [Tablet PC]","IInkOverlay interface","IInkOverlay interface [Tablet PC]","CollectingInk property","IInkOverlay.CollectingInk","IInkOverlay.get_CollectingInk","IInkOverlay::CollectingInk","IInkOverlay::get_CollectingInk","InkOverlay.get_CollectingInk","get_CollectingInk","msinkaut/IInkOverlay::CollectingInk","msinkaut/IInkOverlay::get_CollectingInk","tablet.inkoverlay_collectingink"]
 old-location: tablet\inkoverlay_collectingink.htm
 tech.root: tablet

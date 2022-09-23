@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.PolyTextOutA
 title: PolyTextOutA function (wingdi.h)
-description: The PolyTextOut function draws several strings using the font and text colors currently selected in the specified device context.
+description: The PolyTextOut function draws several strings using the font and text colors currently selected in the specified device context. (ANSI)
 helpviewer_keywords: ["PolyTextOut","PolyTextOut function [Windows GDI]","PolyTextOutA","PolyTextOutW","_win32_PolyTextOut","gdi.polytextout","wingdi/PolyTextOut","wingdi/PolyTextOutA","wingdi/PolyTextOutW"]
 old-location: gdi\polytextout.htm
 tech.root: gdi

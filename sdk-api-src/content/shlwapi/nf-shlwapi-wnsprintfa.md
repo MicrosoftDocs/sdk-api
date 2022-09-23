@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.wnsprintfA
 title: wnsprintfA function (shlwapi.h)
-description: Takes a variable-length argument list and returns the values of the arguments as a printf-style formatted string.
+description: Takes a variable-length argument list and returns the values of the arguments as a printf-style formatted string. (ANSI)
 helpviewer_keywords: ["_win32_wnsprintf","shell.wnsprintf","shlwapi/wnsprintf","shlwapi/wnsprintfA","shlwapi/wnsprintfW","wnsprintf","wnsprintf function [Windows Shell]","wnsprintfA","wnsprintfW"]
 old-location: shell\wnsprintf.htm
 tech.root: shell

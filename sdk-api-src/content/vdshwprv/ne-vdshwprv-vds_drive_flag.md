@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv._VDS_DRIVE_FLAG
 title: VDS_DRIVE_FLAG (vdshwprv.h)
-description: Defines the set of valid flags for a drive object.
+description: The VDS_DRIVE_FLAG enumeration (vdshwprv.h) defines the set of valid flags for a drive object.
 helpviewer_keywords: ["*PVDS_DRIVE_FLAG","VDS_DRF_ASSIGNED","VDS_DRF_HOTSPARE","VDS_DRF_HOTSPARE_IN_USE","VDS_DRF_HOTSPARE_STANDBY","VDS_DRF_UNASSIGNED","VDS_DRIVE_FLAG","VDS_DRIVE_FLAG enumeration [VDS]","base.vds_drive_flag","vds/VDS_DRF_ASSIGNED","vds/VDS_DRF_HOTSPARE","vds/VDS_DRF_HOTSPARE_IN_USE","vds/VDS_DRF_HOTSPARE_STANDBY","vds/VDS_DRF_UNASSIGNED","vds/VDS_DRIVE_FLAG","vdshwprv/VDS_DRF_ASSIGNED","vdshwprv/VDS_DRF_HOTSPARE","vdshwprv/VDS_DRF_HOTSPARE_IN_USE","vdshwprv/VDS_DRF_HOTSPARE_STANDBY","vdshwprv/VDS_DRF_UNASSIGNED","vdshwprv/VDS_DRIVE_FLAG"]
 old-location: base\vds_drive_flag.htm
 tech.root: base
 ms.assetid: 50ddb9d1-32c9-4fee-bb88-498380a34c85
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: '*PVDS_DRIVE_FLAG, VDS_DRF_ASSIGNED, VDS_DRF_HOTSPARE, VDS_DRF_HOTSPARE_IN_USE, VDS_DRF_HOTSPARE_STANDBY, VDS_DRF_UNASSIGNED, VDS_DRIVE_FLAG, VDS_DRIVE_FLAG enumeration [VDS], base.vds_drive_flag, vds/VDS_DRF_ASSIGNED, vds/VDS_DRF_HOTSPARE, vds/VDS_DRF_HOTSPARE_IN_USE, vds/VDS_DRF_HOTSPARE_STANDBY, vds/VDS_DRF_UNASSIGNED, vds/VDS_DRIVE_FLAG, vdshwprv/VDS_DRF_ASSIGNED, vdshwprv/VDS_DRF_HOTSPARE, vdshwprv/VDS_DRF_HOTSPARE_IN_USE, vdshwprv/VDS_DRF_HOTSPARE_STANDBY, vdshwprv/VDS_DRF_UNASSIGNED, vdshwprv/VDS_DRIVE_FLAG'
 req.header: vdshwprv.h
 req.include-header: 

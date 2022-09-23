@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_DeleteExpiredTaskAfter
 title: ITaskSettings::put_DeleteExpiredTaskAfter (taskschd.h)
-description: Gets or sets the amount of time that the Task Scheduler will wait before deleting the task after it expires.
+description: Gets or sets the amount of time that the Task Scheduler will wait before deleting the task after it expires. (Put)
 helpviewer_keywords: ["DeleteExpiredTaskAfter property [Task Scheduler]","DeleteExpiredTaskAfter property [Task Scheduler]","ITaskSettings interface","ITaskSettings interface [Task Scheduler]","DeleteExpiredTaskAfter property","ITaskSettings.DeleteExpiredTaskAfter","ITaskSettings.put_DeleteExpiredTaskAfter","ITaskSettings::DeleteExpiredTaskAfter","ITaskSettings::get_DeleteExpiredTaskAfter","ITaskSettings::put_DeleteExpiredTaskAfter","put_DeleteExpiredTaskAfter","taskschd.itasksettings_deleteexpiredtaskafter","taskschd/ITaskSettings::DeleteExpiredTaskAfter","taskschd/ITaskSettings::get_DeleteExpiredTaskAfter","taskschd/ITaskSettings::put_DeleteExpiredTaskAfter"]
 old-location: taskschd\itasksettings_deleteexpiredtaskafter.htm
 tech.root: taskschd

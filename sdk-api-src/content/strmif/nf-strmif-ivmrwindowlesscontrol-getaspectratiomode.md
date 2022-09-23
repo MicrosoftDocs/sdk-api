@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.GetAspectRatioMode
 title: IVMRWindowlessControl::GetAspectRatioMode (strmif.h)
-description: The GetAspectRatioMode method queries whether the VMR will preserve the aspect ratio of the source video.
+description: The GetAspectRatioMode method queries whether the VMR will preserve the aspect ratio of the source video. (IVMRWindowlessControl.GetAspectRatioMode)
 helpviewer_keywords: ["GetAspectRatioMode","GetAspectRatioMode method [DirectShow]","GetAspectRatioMode method [DirectShow]","IVMRWindowlessControl interface","IVMRWindowlessControl interface [DirectShow]","GetAspectRatioMode method","IVMRWindowlessControl.GetAspectRatioMode","IVMRWindowlessControl::GetAspectRatioMode","IVMRWindowlessControlGetAspectRatioMode","dshow.ivmrwindowlesscontrol_getaspectratiomode","strmif/IVMRWindowlessControl::GetAspectRatioMode"]
 old-location: dshow\ivmrwindowlesscontrol_getaspectratiomode.htm
 tech.root: dshow

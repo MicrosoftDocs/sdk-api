@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate2.InitializeFromTemplate
 title: IX509CertificateRequestCertificate2::InitializeFromTemplate (certenroll.h)
-description: Initializes the certificate request by using a template.
+description: Initializes the certificate request by using a template. (IX509CertificateRequestCertificate2.InitializeFromTemplate)
 helpviewer_keywords: ["ContextAdministratorForceMachine","ContextMachine","ContextUser","IX509CertificateRequestCertificate2 interface [Security]","InitializeFromTemplate method","IX509CertificateRequestCertificate2.InitializeFromTemplate","IX509CertificateRequestCertificate2::InitializeFromTemplate","InitializeFromTemplate","InitializeFromTemplate method [Security]","InitializeFromTemplate method [Security]","IX509CertificateRequestCertificate2 interface","certenroll/IX509CertificateRequestCertificate2::InitializeFromTemplate","security.ix509certificaterequestcertificate2_initializefromtemplate"]
 old-location: security\ix509certificaterequestcertificate2_initializefromtemplate.htm
 tech.root: security

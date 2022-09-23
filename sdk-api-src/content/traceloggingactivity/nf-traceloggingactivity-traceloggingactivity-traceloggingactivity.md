@@ -1,7 +1,7 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingActivity.TraceLoggingActivity
 title: TraceLoggingActivity::TraceLoggingActivity (traceloggingactivity.h)
-description: Creates a new TraceLoggingActivity object.
+description: Creates a new TraceLoggingActivity object. (overload 1/2)
 helpviewer_keywords:
   [
     "TraceLoggingActivity",

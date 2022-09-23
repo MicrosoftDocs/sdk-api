@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetPixelShaderConstantB
 title: IDirect3DDevice9::SetPixelShaderConstantB (d3d9helper.h)
-description: Sets a Boolean shader constant.
+description: The IDirect3DDevice9::SetPixelShaderConstantB method (d3d9helper.h) sets a Boolean shader constant.
 helpviewer_keywords: ["IDirect3DDevice9 interface [Direct3D 9]","SetPixelShaderConstantB method","IDirect3DDevice9.SetPixelShaderConstantB","IDirect3DDevice9::SetPixelShaderConstantB","SetPixelShaderConstantB","SetPixelShaderConstantB method [Direct3D 9]","SetPixelShaderConstantB method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::SetPixelShaderConstantB","dcb060c3-b816-f722-dc79-1f7a1f30e4b9","direct3d9.idirect3ddevice9__setpixelshaderconstantb"]
 old-location: direct3d9\idirect3ddevice9__setpixelshaderconstantb.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setpixelshaderconstantb.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetPixelShaderConstantB method, IDirect3DDevice9.SetPixelShaderConstantB, IDirect3DDevice9::SetPixelShaderConstantB, SetPixelShaderConstantB, SetPixelShaderConstantB method [Direct3D 9], SetPixelShaderConstantB method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetPixelShaderConstantB, dcb060c3-b816-f722-dc79-1f7a1f30e4b9, direct3d9.idirect3ddevice9__setpixelshaderconstantb
 req.header: d3d9helper.h
 req.include-header: D3D9.h

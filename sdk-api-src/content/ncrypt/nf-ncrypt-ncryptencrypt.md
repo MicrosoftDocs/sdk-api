@@ -1,7 +1,7 @@
 ---
 UID: NF:ncrypt.NCryptEncrypt
 title: NCryptEncrypt function (ncrypt.h)
-description: Encrypts a block of data.
+description: Encrypts a block of data. (NCryptEncrypt)
 helpviewer_keywords: ["NCRYPT_NO_PADDING_FLAG","NCRYPT_PAD_OAEP_FLAG","NCRYPT_PAD_PKCS1_FLAG","NCRYPT_SILENT_FLAG","NCryptEncrypt","NCryptEncrypt function [Security]","ncrypt/NCryptEncrypt","security.ncryptencrypt_func"]
 old-location: security\ncryptencrypt_func.htm
 tech.root: security

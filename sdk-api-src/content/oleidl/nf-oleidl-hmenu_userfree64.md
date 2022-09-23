@@ -2,9 +2,9 @@
 UID: NF:oleidl.HMENU_UserFree64
 tech.root: com
 title: HMENU_UserFree64 (oleidl.h)
-ms.date: 07/08/2022
+ms.date: 08/15/2022
 targetos: Windows
-description: Frees resources on the server side when called by RPC stub files.
+description: The HMENU_UserFree64 function (oleidl.h) frees resources on the server side when called by RPC stub files.
 prerelease: false
 req.assembly: 
 req.construct-type: function

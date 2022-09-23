@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IWindowsDriverUpdate2
 title: IWindowsDriverUpdate2 (wuapi.h)
-description: Contains the properties and methods that are available only from a Windows driver update.
+description: Contains the properties and methods that are available only from a Windows driver update. (IWindowsDriverUpdate2)
 helpviewer_keywords: ["IWindowsDriverUpdate2","IWindowsDriverUpdate2 interface [Windows Update Agent]","IWindowsDriverUpdate2 interface [Windows Update Agent]","described","wua.iwindowsdriverupdate2","wuapi/IWindowsDriverUpdate2"]
 old-location: wua\iwindowsdriverupdate2.htm
 tech.root: wua

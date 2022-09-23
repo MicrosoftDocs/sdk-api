@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.CreateColorSpaceA
 title: CreateColorSpaceA function (wingdi.h)
-description: The CreateColorSpace function creates a logical color space.
+description: The CreateColorSpace function creates a logical color space. (ANSI)
 helpviewer_keywords: ["CreateColorSpace","CreateColorSpace function [Windows Color System]","CreateColorSpaceA","CreateColorSpaceW","_color_CreateColorSpace","wcs.createcolorspace","wingdi/CreateColorSpace","wingdi/CreateColorSpaceA","wingdi/CreateColorSpaceW"]
 old-location: wcs\createcolorspace.htm
 tech.root: WCS

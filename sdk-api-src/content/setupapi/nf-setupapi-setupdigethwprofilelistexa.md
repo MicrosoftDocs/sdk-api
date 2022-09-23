@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiGetHwProfileListExA
 title: SetupDiGetHwProfileListExA function (setupapi.h)
-description: The SetupDiGetHwProfileListEx function retrieves a list of all currently defined hardware profile IDs on a local or remote computer.
+description: The SetupDiGetHwProfileListEx function retrieves a list of all currently defined hardware profile IDs on a local or remote computer. (ANSI)
 helpviewer_keywords: ["SetupDiGetHwProfileListEx","SetupDiGetHwProfileListEx function [Device and Driver Installation]","SetupDiGetHwProfileListExA","SetupDiGetHwProfileListExW","devinst.setupdigethwprofilelistex","di-rtns_ef3bbf07-27d9-48fc-86a2-1bdfc10cbc33.xml","setupapi/SetupDiGetHwProfileListEx"]
 old-location: devinst\setupdigethwprofilelistex.htm
 tech.root: devinst

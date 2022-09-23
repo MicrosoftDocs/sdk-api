@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceChild.SetPrivateData
 title: ID3D11DeviceChild::SetPrivateData (d3d11.h)
-description: Set application-defined data to a device child and associate that data with an application-defined guid.
+description: Set application-defined data to a device child and associate that data with an application-defined guid. (ID3D11DeviceChild.SetPrivateData)
 helpviewer_keywords: ["1f73a12c-1aa7-270f-b79f-ea48eb3ec3f5","ID3D11DeviceChild interface [Direct3D 11]","SetPrivateData method","ID3D11DeviceChild.SetPrivateData","ID3D11DeviceChild::SetPrivateData","SetPrivateData","SetPrivateData method [Direct3D 11]","SetPrivateData method [Direct3D 11]","ID3D11DeviceChild interface","d3d11/ID3D11DeviceChild::SetPrivateData","direct3d11.id3d11devicechild_setprivatedata"]
 old-location: direct3d11\id3d11devicechild_setprivatedata.htm
 tech.root: direct3d11

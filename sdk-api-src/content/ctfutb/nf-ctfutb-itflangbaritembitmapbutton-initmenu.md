@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmapButton.InitMenu
 title: ITfLangBarItemBitmapButton::InitMenu (ctfutb.h)
-description: This method is not used if the button item does not have the TF_LBI_STYLE_BTN_MENU style.
+description: This method is not used if the button item does not have the TF_LBI_STYLE_BTN_MENU style. (ITfLangBarItemBitmapButton.InitMenu)
 helpviewer_keywords: ["ITfLangBarItemBitmapButton interface [Text Services Framework]","InitMenu method","ITfLangBarItemBitmapButton.InitMenu","ITfLangBarItemBitmapButton::InitMenu","InitMenu","InitMenu method [Text Services Framework]","InitMenu method [Text Services Framework]","ITfLangBarItemBitmapButton interface","_tsf_itflangbaritembitmapbutton_initmenu_ref","ctfutb/ITfLangBarItemBitmapButton::InitMenu","tsf.itflangbaritembitmapbutton_initmenu"]
 old-location: tsf\itflangbaritembitmapbutton_initmenu.htm
 tech.root: TSF

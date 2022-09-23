@@ -1,7 +1,7 @@
 ---
 UID: NN:eventsys.IEventControl
 title: IEventControl (eventsys.h)
-description: Controls the behavior of an event object, the object that fires an event to its subscribers.
+description: Controls the behavior of an event object, the object that fires an event to its subscribers. (IEventControl)
 helpviewer_keywords: ["IEventControl","IEventControl interface [COM+]","IEventControl interface [COM+]","described","_cos_IEventControl","cos.ieventcontrol","eventsys/IEventControl"]
 old-location: cos\ieventcontrol.htm
 tech.root: cos

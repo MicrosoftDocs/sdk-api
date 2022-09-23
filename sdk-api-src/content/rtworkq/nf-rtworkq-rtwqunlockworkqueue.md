@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqUnlockWorkQueue
 title: RtwqUnlockWorkQueue function (rtworkq.h)
-description: Unlocks a work queue.
+description: Unlocks a work queue. (RtwqUnlockWorkQueue)
 helpviewer_keywords: ["RtwqUnlockWorkQueue","RtwqUnlockWorkQueue function","base.rtwqunlockworkqueue","rtworkq/RtwqUnlockWorkQueue"]
 old-location: base\rtwqunlockworkqueue.htm
 tech.root: backup

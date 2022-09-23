@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptSetProviderW
 title: CryptSetProviderW function (wincrypt.h)
-description: Specifies the current user's default cryptographic service provider (CSP).
+description: Specifies the current user's default cryptographic service provider (CSP). (Unicode)
 helpviewer_keywords: ["CryptSetProvider","CryptSetProvider function [Security]","CryptSetProviderA","CryptSetProviderW","_crypto2_cryptsetprovider","security.cryptsetprovider","wincrypt/CryptSetProvider","wincrypt/CryptSetProviderA","wincrypt/CryptSetProviderW"]
 old-location: security\cryptsetprovider.htm
 tech.root: security

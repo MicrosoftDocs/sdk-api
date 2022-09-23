@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathIsDirectoryW
 title: PathIsDirectoryW function (shlwapi.h)
-description: Verifies that a path is a valid directory.
+description: Verifies that a path is a valid directory. (Unicode)
 helpviewer_keywords: ["PathIsDirectory","PathIsDirectory function [Windows Shell]","PathIsDirectoryA","PathIsDirectoryW","_win32_PathIsDirectory","shell.PathIsDirectory","shlwapi/PathIsDirectory","shlwapi/PathIsDirectoryA","shlwapi/PathIsDirectoryW"]
 old-location: shell\PathIsDirectory.htm
 tech.root: shell

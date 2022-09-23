@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathFileExistsA
 title: PathFileExistsA function (shlwapi.h)
-description: Determines whether a path to a file system object such as a file or folder is valid.
+description: Determines whether a path to a file system object such as a file or folder is valid. (ANSI)
 helpviewer_keywords: ["PathFileExists","PathFileExists function [Windows Shell]","PathFileExistsA","PathFileExistsW","_win32_PathFileExists","shell.PathFileExists","shlwapi/PathFileExists","shlwapi/PathFileExistsA","shlwapi/PathFileExistsW"]
 old-location: shell\PathFileExists.htm
 tech.root: shell

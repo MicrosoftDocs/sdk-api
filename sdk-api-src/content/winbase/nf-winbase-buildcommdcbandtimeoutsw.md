@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.BuildCommDCBAndTimeoutsW
 title: BuildCommDCBAndTimeoutsW function (winbase.h)
-description: Translates a device-definition string into appropriate device-control block codes and places them into a device control block.
+description: Translates a device-definition string into appropriate device-control block codes and places them into a device control block. (Unicode)
 helpviewer_keywords: ["BuildCommDCBAndTimeouts","BuildCommDCBAndTimeouts function","BuildCommDCBAndTimeoutsA","BuildCommDCBAndTimeoutsW","_win32_buildcommdcbandtimeouts","base.buildcommdcbandtimeouts","winbase/BuildCommDCBAndTimeouts","winbase/BuildCommDCBAndTimeoutsA","winbase/BuildCommDCBAndTimeoutsW"]
 old-location: base\buildcommdcbandtimeouts.htm
 tech.root: base

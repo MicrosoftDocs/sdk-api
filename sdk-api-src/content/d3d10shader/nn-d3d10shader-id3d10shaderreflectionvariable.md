@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10shader.ID3D10ShaderReflectionVariable
 title: ID3D10ShaderReflectionVariable (d3d10shader.h)
-description: This shader-reflection interface provides access to a variable.
+description: This shader-reflection interface provides access to a variable. (ID3D10ShaderReflectionVariable)
 helpviewer_keywords: ["ID3D10ShaderReflectionVariable","ID3D10ShaderReflectionVariable interface [Direct3D 10]","ID3D10ShaderReflectionVariable interface [Direct3D 10]","described","d3d10shader/ID3D10ShaderReflectionVariable","direct3d10.id3d10shaderreflectionvariable","e8b67520-bfa7-7e41-f594-a51d5ad0301e"]
 old-location: direct3d10\id3d10shaderreflectionvariable.htm
 tech.root: direct3d10

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElementArray.get_Length
 title: IUIAutomationElementArray::get_Length (uiautomationclient.h)
-description: Retrieves the number of elements in the collection.
+description: Retrieves the number of elements in the collection. (IUIAutomationElementArray.get_Length)
 helpviewer_keywords: ["IUIAutomationElementArray interface [Windows Accessibility]","Length property","IUIAutomationElementArray.Length","IUIAutomationElementArray.get_Length","IUIAutomationElementArray::Length","IUIAutomationElementArray::get_Length","Length property [Windows Accessibility]","Length property [Windows Accessibility]","IUIAutomationElementArray interface","get_Length","uiauto.uiauto_IUIAutomationElementArray_Length","uiauto_IUIAutomationElementArray_Length","uiautomationclient/IUIAutomationElementArray::Length","uiautomationclient/IUIAutomationElementArray::get_Length","winauto.uiauto_IUIAutomationElementArray_Length"]
 old-location: winauto\uiauto_IUIAutomationElementArray_Length.htm
 tech.root: WinAuto

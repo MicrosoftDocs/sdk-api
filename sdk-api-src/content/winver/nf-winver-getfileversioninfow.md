@@ -1,7 +1,7 @@
 ---
 UID: NF:winver.GetFileVersionInfoW
 title: GetFileVersionInfoW function (winver.h)
-description: Retrieves version information for the specified file.
+description: Retrieves version information for the specified file. (GetFileVersionInfoW)
 helpviewer_keywords: ["GetFileVersionInfo","GetFileVersionInfo function [Menus and Other Resources]","GetFileVersionInfoA","GetFileVersionInfoW","_win32_GetFileVersionInfo","_win32_getfileversioninfo_cpp","menurc.getfileversioninfo","winui._win32_getfileversioninfo","winver/GetFileVersionInfo","winver/GetFileVersionInfoA","winver/GetFileVersionInfoW"]
 old-location: menurc\getfileversioninfo.htm
 tech.root: menurc

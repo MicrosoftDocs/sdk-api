@@ -1,12 +1,12 @@
 ---
 UID: NF:imm.ImmAssociateContextEx
 title: ImmAssociateContextEx function (imm.h)
-description: Changes the association between the input method context and the specified window or its children.
+description: The ImmAssociateContextEx function (imm.h) changes the association between the input method context and the specified window or its children.
 helpviewer_keywords: ["IACE_CHILDREN","IACE_DEFAULT","IACE_IGNORENOCONTEXT","ImmAssociateContextEx","ImmAssociateContextEx function [Internationalization for Windows Applications]","_win32_ImmAssociateContextEx","imm/ImmAssociateContextEx","intl.immassociatecontextex"]
 old-location: intl\immassociatecontextex.htm
 tech.root: Intl
 ms.assetid: 7f44d274-b5e9-4feb-acd6-5c68b3f7d868
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: IACE_CHILDREN, IACE_DEFAULT, IACE_IGNORENOCONTEXT, ImmAssociateContextEx, ImmAssociateContextEx function [Internationalization for Windows Applications], _win32_ImmAssociateContextEx, imm/ImmAssociateContextEx, intl.immassociatecontextex
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h

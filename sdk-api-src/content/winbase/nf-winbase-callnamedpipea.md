@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CallNamedPipeA
 title: CallNamedPipeA function (winbase.h)
-description: Connects to a message-type pipe (and waits if an instance of the pipe is not available), writes to and reads from the pipe, and then closes the pipe.
+description: Connects to a message-type pipe (and waits if an instance of the pipe is not available), writes to and reads from the pipe, and then closes the pipe. (CallNamedPipeA)
 helpviewer_keywords: ["CallNamedPipe","CallNamedPipe function","CallNamedPipeA","CallNamedPipeW","NMPWAIT_NOWAIT","NMPWAIT_USE_DEFAULT_WAIT","NMPWAIT_WAIT_FOREVER","_win32_callnamedpipe","base.callnamedpipe","winbase/CallNamedPipe","winbase/CallNamedPipeA","winbase/CallNamedPipeW"]
 old-location: base\callnamedpipe.htm
 tech.root: base

@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiGetFeatureValidStatesA
 title: MsiGetFeatureValidStatesA function (msiquery.h)
-description: The MsiGetFeatureValidStates function returns a valid installation state.
+description: The MsiGetFeatureValidStates function returns a valid installation state. (ANSI)
 helpviewer_keywords: ["16","2","32","4","8","MsiGetFeatureValidStates","MsiGetFeatureValidStates function","MsiGetFeatureValidStatesA","MsiGetFeatureValidStatesW","_msi_msigetfeaturevalidstates","msiquery/MsiGetFeatureValidStates","msiquery/MsiGetFeatureValidStatesA","msiquery/MsiGetFeatureValidStatesW","setup.msigetfeaturevalidstates"]
 old-location: setup\msigetfeaturevalidstates.htm
 tech.root: setup

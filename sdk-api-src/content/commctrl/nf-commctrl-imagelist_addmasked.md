@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ImageList_AddMasked
 title: ImageList_AddMasked function (commctrl.h)
-description: Adds an image or images to an image list, generating a mask from the specified bitmap.
+description: Adds an image or images to an image list, generating a mask from the specified bitmap. (ImageList_AddMasked)
 helpviewer_keywords: ["ImageList_AddMasked","ImageList_AddMasked function [Windows Controls]","_win32_ImageList_AddMasked","_win32_ImageList_AddMasked_cpp","commctrl/ImageList_AddMasked","controls.ImageList_AddMasked","controls._win32_ImageList_AddMasked"]
 old-location: controls\ImageList_AddMasked.htm
 tech.root: Controls

@@ -1,12 +1,12 @@
 ---
 UID: NE:dxva2api._DXVA2_VideoPrimaries
 title: DXVA2_VideoPrimaries (dxva2api.h)
-description: Specifies the color primaries of a video source.
+description: Specifies the color primaries of a video source. (DXVA2_VideoPrimaries)
 helpviewer_keywords: ["4534a198-cf6c-4689-9fe4-0e5cdc7ce26a","DXVA2_VideoPrimaries","DXVA2_VideoPrimaries enumeration [Media Foundation]","DXVA2_VideoPrimariesMask","DXVA2_VideoPrimaries_BT470_2_SysBG","DXVA2_VideoPrimaries_BT470_2_SysM","DXVA2_VideoPrimaries_BT709","DXVA2_VideoPrimaries_EBU3213","DXVA2_VideoPrimaries_SMPTE170M","DXVA2_VideoPrimaries_SMPTE240M","DXVA2_VideoPrimaries_SMPTE_C","DXVA2_VideoPrimaries_Unknown","DXVA2_VideoPrimaries_reserved","dxva2api/DXVA2_VideoPrimaries","dxva2api/DXVA2_VideoPrimariesMask","dxva2api/DXVA2_VideoPrimaries_BT470_2_SysBG","dxva2api/DXVA2_VideoPrimaries_BT470_2_SysM","dxva2api/DXVA2_VideoPrimaries_BT709","dxva2api/DXVA2_VideoPrimaries_EBU3213","dxva2api/DXVA2_VideoPrimaries_SMPTE170M","dxva2api/DXVA2_VideoPrimaries_SMPTE240M","dxva2api/DXVA2_VideoPrimaries_SMPTE_C","dxva2api/DXVA2_VideoPrimaries_Unknown","dxva2api/DXVA2_VideoPrimaries_reserved","mf.dxva2_videoprimaries"]
 old-location: mf\dxva2_videoprimaries.htm
 tech.root: mf
 ms.assetid: 4534a198-cf6c-4689-9fe4-0e5cdc7ce26a
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: 4534a198-cf6c-4689-9fe4-0e5cdc7ce26a, DXVA2_VideoPrimaries, DXVA2_VideoPrimaries enumeration [Media Foundation], DXVA2_VideoPrimariesMask, DXVA2_VideoPrimaries_BT470_2_SysBG, DXVA2_VideoPrimaries_BT470_2_SysM, DXVA2_VideoPrimaries_BT709, DXVA2_VideoPrimaries_EBU3213, DXVA2_VideoPrimaries_SMPTE170M, DXVA2_VideoPrimaries_SMPTE240M, DXVA2_VideoPrimaries_SMPTE_C, DXVA2_VideoPrimaries_Unknown, DXVA2_VideoPrimaries_reserved, dxva2api/DXVA2_VideoPrimaries, dxva2api/DXVA2_VideoPrimariesMask, dxva2api/DXVA2_VideoPrimaries_BT470_2_SysBG, dxva2api/DXVA2_VideoPrimaries_BT470_2_SysM, dxva2api/DXVA2_VideoPrimaries_BT709, dxva2api/DXVA2_VideoPrimaries_EBU3213, dxva2api/DXVA2_VideoPrimaries_SMPTE170M, dxva2api/DXVA2_VideoPrimaries_SMPTE240M, dxva2api/DXVA2_VideoPrimaries_SMPTE_C, dxva2api/DXVA2_VideoPrimaries_Unknown, dxva2api/DXVA2_VideoPrimaries_reserved, mf.dxva2_videoprimaries
 req.header: dxva2api.h
 req.include-header: 
@@ -153,13 +153,13 @@ Color primaries define how to convert RGB colors into the CIE XYZ color space, a
 
 The z coordinates can be derived from x and y as follows: z = 1 - x - y. To convert between RGB colors to CIE XYZ tristimulus values, compute a matrix <i>T</i> as follows:
 
-<img alt="Illustration of a matrix computation" border="" src="images/6b28e3fc-d85b-4cd2-a535-522ac9f11501.gif"/>
+<img alt="Screenshot of a matrix computation, showing an RGB conversion." border="" src="images/6b28e3fc-d85b-4cd2-a535-522ac9f11501.gif"/>
 Given <i>T</i>, you can use the following formulas to convert between an RGB color value and a CIE XYZ tristimulus value. These formulas assume that the RGB components are linear (not gamma corrected) and are normalized to the range [0...1].
 
-<img alt="Illustration of a matrix computation" border="" src="images/5e0b7470-4123-49f4-93ed-be9955ccf825.gif"/>
+<img alt="Screenshot of a matrix computation, showing a conversion between an RGB color value and a CIE XYZ tristimulus value." border="" src="images/5e0b7470-4123-49f4-93ed-be9955ccf825.gif"/>
 To convert colors directly from one RGB color space to another, use the following formula, where <i>T1</i> is the matrix for color space RGB1, and <i>T2</i> is the matrix for color space RGB2.
 
-<img alt="Illustration of a matrix computation" border="" src="images/3c2f9626-ef5e-4165-a24e-8720e215ef13.gif"/>
+<img alt="Screenshot of a matrix computation, showing a conversion of one RGB color space to another." border="" src="images/3c2f9626-ef5e-4165-a24e-8720e215ef13.gif"/>
 For a derivation of these formulas, refer to Charles Poynton, Digital Video and HDTV Algorithms and Interfaces (Morgan Kaufmann, 2003).
 
 This enumeration is equivalent to the <b>DXVA_VideoPrimaries</b> enumeration used in DXVA 1.0.

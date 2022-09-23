@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtEntryDeleteA
 title: RpcNsMgmtEntryDeleteA function (rpcnsi.h)
-description: The RpcNsMgmtEntryDelete function deletes a name service�database entry.
+description: The RpcNsMgmtEntryDelete function deletes a name service�database entry. (ANSI)
 helpviewer_keywords: ["RpcNsMgmtEntryDelete","RpcNsMgmtEntryDelete function [RPC]","RpcNsMgmtEntryDeleteA","RpcNsMgmtEntryDeleteW","_rpc_rpcnsmgmtentrydelete","rpc.rpcnsmgmtentrydelete","rpcnsi/RpcNsMgmtEntryDelete","rpcnsi/RpcNsMgmtEntryDeleteA","rpcnsi/RpcNsMgmtEntryDeleteW"]
 old-location: rpc\rpcnsmgmtentrydelete.htm
 tech.root: Rpc

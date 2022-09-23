@@ -1,7 +1,7 @@
 ---
 UID: NF:newdev.DiInstallDriverW
 title: DiInstallDriverW function (newdev.h)
-description: The DiInstallDriver function preinstalls a driver in the driver store and then installs the driver on devices present in the system that the driver supports.
+description: The DiInstallDriver function preinstalls a driver in the driver store and then installs the driver on devices present in the system that the driver supports. (Unicode)
 helpviewer_keywords: ["DiInstallDriver","DiInstallDriver function [Device and Driver Installation]","DiInstallDriverA","DiInstallDriverW","devinst.diinstalldriver","di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml","newdev/DiInstallDriver"]
 old-location: devinst\diinstalldriver.htm
 tech.root: devinst

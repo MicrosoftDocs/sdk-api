@@ -1,12 +1,12 @@
 ---
 UID: NE:vds._VDS_MAINTENANCE_OPERATION
 title: VDS_MAINTENANCE_OPERATION (vds.h)
-description: Defines the set of valid subsystem maintenance operations.
+description: The VDS_MAINTENANCE_OPERATION (vds.h) enumeration defines the set of valid subsystem maintenance operations.
 helpviewer_keywords: ["BeepAlarm","BlinkLight","Ping","SpinDown","SpinUp","VDS_MAINTENANCE_OPERATION","VDS_MAINTENANCE_OPERATION enumeration [VDS]","base.vds_maintenance_operation","vds/BeepAlarm","vds/BlinkLight","vds/Ping","vds/SpinDown","vds/SpinUp","vds/VDS_MAINTENANCE_OPERATION","vdshwprv/BeepAlarm","vdshwprv/BlinkLight","vdshwprv/Ping","vdshwprv/SpinDown","vdshwprv/SpinUp","vdshwprv/VDS_MAINTENANCE_OPERATION"]
 old-location: base\vds_maintenance_operation.htm
 tech.root: base
 ms.assetid: 29bc5eb3-2e4b-4ca1-8b0a-9b43d2723e56
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: BeepAlarm, BlinkLight, Ping, SpinDown, SpinUp, VDS_MAINTENANCE_OPERATION, VDS_MAINTENANCE_OPERATION enumeration [VDS], base.vds_maintenance_operation, vds/BeepAlarm, vds/BlinkLight, vds/Ping, vds/SpinDown, vds/SpinUp, vds/VDS_MAINTENANCE_OPERATION, vdshwprv/BeepAlarm, vdshwprv/BlinkLight, vdshwprv/Ping, vdshwprv/SpinDown, vdshwprv/SpinUp, vdshwprv/VDS_MAINTENANCE_OPERATION
 req.header: vds.h
 req.include-header: 

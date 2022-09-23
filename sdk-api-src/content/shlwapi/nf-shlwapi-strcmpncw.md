@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.StrCmpNCW
 title: StrCmpNCW function (shlwapi.h)
-description: Compares a specified number of characters from the beginning of two strings using C run-time (ASCII) collation rules. The comparison is case-sensitive.
+description: Compares a specified number of characters from the beginning of two strings using C run-time (ASCII) collation rules. The comparison is case-sensitive. (Unicode)
 helpviewer_keywords: ["StrCmpNC","StrCmpNC function [Windows Shell]","StrCmpNCA","StrCmpNCW","_shell_StrCmpNC","shell.StrCmpNC","shlwapi/StrCmpNC","shlwapi/StrCmpNCA","shlwapi/StrCmpNCW"]
 old-location: shell\StrCmpNC.htm
 tech.root: shell

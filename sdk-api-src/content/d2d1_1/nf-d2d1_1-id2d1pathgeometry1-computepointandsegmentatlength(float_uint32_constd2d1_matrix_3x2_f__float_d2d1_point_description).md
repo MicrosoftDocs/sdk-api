@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1PathGeometry1.ComputePointAndSegmentAtLength(FLOAT,UINT32,constD2D1_MATRIX_3X2_F&,FLOAT,D2D1_POINT_DESCRIPTION)
 title: ID2D1PathGeometry1::ComputePointAndSegmentAtLength(FLOAT,UINT32,const D2D1_MATRIX_3X2_F &,FLOAT,D2D1_POINT_DESCRIPTION) (d2d1_1.h)
-description: Computes the point that exists at a given distance along the path geometry along with the index of the segment the point is on and the directional vector at that point.
+description: Computes the point that exists at a given distance along the path geometry along with the index of the segment the point is on and the directional vector at that point. (overload 3/4)
 helpviewer_keywords: ["ComputePointAndSegmentAtLength","ComputePointAndSegmentAtLength method [Direct2D]","ComputePointAndSegmentAtLength method [Direct2D]","ID2D1PathGeometry1 interface","ID2D1PathGeometry1 interface [Direct2D]","ComputePointAndSegmentAtLength method","ID2D1PathGeometry1.ComputePointAndSegmentAtLength","ID2D1PathGeometry1.ComputePointAndSegmentAtLength(FLOAT","UINT32","const D2D1_MATRIX_3X2_F &","FLOAT","D2D1_POINT_DESCRIPTION)","ID2D1PathGeometry1::ComputePointAndSegmentAtLength","ID2D1PathGeometry1::ComputePointAndSegmentAtLength(FLOAT","UINT32","const D2D1_MATRIX_3X2_F &","FLOAT","D2D1_POINT_DESCRIPTION)","d2d1_3/ID2D1PathGeometry1::ComputePointAndSegmentAtLength","direct2d.id2d1pathgeometry1_computepointandsegmentatlength_2"]
 old-location: direct2d\id2d1pathgeometry1_computepointandsegmentatlength_2.htm
 tech.root: Direct2D

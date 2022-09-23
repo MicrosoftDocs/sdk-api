@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IEnumConnectionPoints.Skip
 title: IEnumConnectionPoints::Skip (ocidl.h)
-description: Skips over the specified number of items in the enumeration sequence.
+description: Skips over the specified number of items in the enumeration sequence. (IEnumConnectionPoints.Skip)
 helpviewer_keywords: ["IEnumConnectionPoints interface [COM]","Skip method","IEnumConnectionPoints.Skip","IEnumConnectionPoints::Skip","Skip","Skip method [COM]","Skip method [COM]","IEnumConnectionPoints interface","_com_ienumconnectionpoints_skip","com.ienumconnectionpoints_skip","ocidl/IEnumConnectionPoints::Skip"]
 old-location: com\ienumconnectionpoints_skip.htm
 tech.root: com

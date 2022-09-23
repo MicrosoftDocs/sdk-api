@@ -16,7 +16,7 @@ tech.root: mf
 
 This header is used by multiple technologies. For more information, see:
 
-- [Media Streaming API](../_mediastreaming/index.md)
+- [Media Streaming API](/windows/win32/mediastreaming/media-streaming-api-portal)
 - [Microsoft Media Foundation](../_mf/index.md)
 - [Streaming media DDI reference](../_stream/index.md)
 

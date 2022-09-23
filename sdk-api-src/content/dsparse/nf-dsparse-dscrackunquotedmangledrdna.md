@@ -1,7 +1,7 @@
 ---
 UID: NF:dsparse.DsCrackUnquotedMangledRdnA
 title: DsCrackUnquotedMangledRdnA function (dsparse.h)
-description: The DsCrackUnquotedMangledRdn function unmangles (unencodes) a given relative distinguished name and returns both the decoded GUID and the mangling type used.
+description: The DsCrackUnquotedMangledRdn function unmangles (unencodes) a given relative distinguished name and returns both the decoded GUID and the mangling type used. (ANSI)
 helpviewer_keywords: ["DsCrackUnquotedMangledRdn","DsCrackUnquotedMangledRdn function [Active Directory]","DsCrackUnquotedMangledRdnA","DsCrackUnquotedMangledRdnW","_glines_dscrackunquotedmangledrdn","ad.dscrackunquotedmangledrdn","dsparse/DsCrackUnquotedMangledRdn","dsparse/DsCrackUnquotedMangledRdnA","dsparse/DsCrackUnquotedMangledRdnW"]
 old-location: ad\dscrackunquotedmangledrdn.htm
 tech.root: ad

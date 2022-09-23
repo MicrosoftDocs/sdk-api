@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.get_MousePointer
 title: IInkEdit::get_MousePointer (inked.h)
-description: Gets or sets a value indicating the type of mouse pointer to be displayed.
+description: Gets or sets a value indicating the type of mouse pointer to be displayed. (Get)
 helpviewer_keywords: ["IInkEdit interface [Tablet PC]","MousePointer property","IInkEdit.MousePointer","IInkEdit.get_MousePointer","IInkEdit::MousePointer","IInkEdit::get_MousePointer","IInkEdit::put_MousePointer","InkEdit.get_MousePointer","InkEdit.put_MousePointer","MousePointer property [Tablet PC]","MousePointer property [Tablet PC]","IInkEdit interface","get_MousePointer","inked/IInkEdit::MousePointer","inked/IInkEdit::get_MousePointer","inked/IInkEdit::put_MousePointer","put_MousePointer","tablet.inkedit_mousepointer"]
 old-location: tablet\inkedit_mousepointer.htm
 tech.root: tablet

@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmNetEventSubscribe2
 title: FwpmNetEventSubscribe2 function (fwpmu.h)
-description: Is used to request the delivery of notifications regarding a particular net event.
+description: Is used to request the delivery of notifications regarding a particular net event. (FwpmNetEventSubscribe2)
 helpviewer_keywords: ["FwpmNetEventSubscribe2","FwpmNetEventSubscribe2 function [Filtering]","fwp.fwpmneteventsubscribe2","fwpmu/FwpmNetEventSubscribe2"]
 old-location: fwp\fwpmneteventsubscribe2.htm
 tech.root: fwp

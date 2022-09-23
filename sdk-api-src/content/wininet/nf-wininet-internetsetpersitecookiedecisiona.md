@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.InternetSetPerSiteCookieDecisionA
 title: InternetSetPerSiteCookieDecisionA function (wininet.h)
-description: Sets a decision on cookies for a given domain.
+description: Sets a decision on cookies for a given domain. (ANSI)
 helpviewer_keywords: ["InternetSetPerSiteCookieDecision","InternetSetPerSiteCookieDecision function [WinINet]","InternetSetPerSiteCookieDecisionA","InternetSetPerSiteCookieDecisionW","wininet.internetsetpersitecookiedecision","wininet/InternetSetPerSiteCookieDecision","wininet/InternetSetPerSiteCookieDecisionA","wininet/InternetSetPerSiteCookieDecisionW"]
 old-location: wininet\internetsetpersitecookiedecision.htm
 tech.root: wininet

@@ -1,7 +1,7 @@
 ---
 UID: NF:ntmsapi.OpenNtmsSessionA
 title: OpenNtmsSessionA function (ntmsapi.h)
-description: The OpenNtmsSession function sets up a session with a RSM server.
+description: The OpenNtmsSession function sets up a session with a RSM server. (ANSI)
 helpviewer_keywords: ["OpenNtmsSession","OpenNtmsSession function [Files]","OpenNtmsSessionA","OpenNtmsSessionW","_zaw_openntmssession","base.openntmssession","fs.openntmssession","ntmsapi/OpenNtmsSession","ntmsapi/OpenNtmsSessionA","ntmsapi/OpenNtmsSessionW"]
 old-location: fs\openntmssession.htm
 tech.root: fs

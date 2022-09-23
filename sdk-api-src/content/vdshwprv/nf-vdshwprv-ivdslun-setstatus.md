@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsLun.SetStatus
 title: IVdsLun::SetStatus (vdshwprv.h)
-description: Sets the status of the LUN to the specified value.
+description: The IVdsLun::SetStatus (vdshwprv.h) method sets the status of the LUN to the specified value.
 helpviewer_keywords: ["IVdsLun interface [VDS]","SetStatus method","IVdsLun.SetStatus","IVdsLun::SetStatus","SetStatus","SetStatus method [VDS]","SetStatus method [VDS]","IVdsLun interface","base.ivdslun_setstatus","vds/IVdsLun::SetStatus","vdshwprv/IVdsLun::SetStatus"]
 old-location: base\ivdslun_setstatus.htm
 tech.root: base
 ms.assetid: a293f129-5238-405a-ba56-bf53ac4ab1d8
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsLun interface [VDS],SetStatus method, IVdsLun.SetStatus, IVdsLun::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsLun interface, base.ivdslun_setstatus, vds/IVdsLun::SetStatus, vdshwprv/IVdsLun::SetStatus
 req.header: vdshwprv.h
 req.include-header: 

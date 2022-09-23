@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationMultipleViewPattern.GetCurrentSupportedViews
 title: IUIAutomationMultipleViewPattern::GetCurrentSupportedViews (uiautomationclient.h)
-description: Retrieves a collection of control-specific view identifiers.
+description: Retrieves a collection of control-specific view identifiers. (IUIAutomationMultipleViewPattern.GetCurrentSupportedViews)
 helpviewer_keywords: ["GetCurrentSupportedViews","GetCurrentSupportedViews method [Windows Accessibility]","GetCurrentSupportedViews method [Windows Accessibility]","IUIAutomationMultipleViewPattern interface","IUIAutomationMultipleViewPattern interface [Windows Accessibility]","GetCurrentSupportedViews method","IUIAutomationMultipleViewPattern.GetCurrentSupportedViews","IUIAutomationMultipleViewPattern::GetCurrentSupportedViews","uiauto.uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews","uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews","uiautomationclient/IUIAutomationMultipleViewPattern::GetCurrentSupportedViews","winauto.uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews"]
 old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews.htm
 tech.root: WinAuto

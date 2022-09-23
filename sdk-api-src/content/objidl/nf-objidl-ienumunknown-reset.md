@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IEnumUnknown.Reset
 title: IEnumUnknown::Reset (objidl.h)
-description: Resets the enumeration sequence to the beginning.
+description: The IEnumUnknown::Reset method (objidl.h) resets the enumeration sequence to the beginning.
 helpviewer_keywords: ["IEnumUnknown interface [COM]","Reset method","IEnumUnknown.Reset","IEnumUnknown::Reset","Reset","Reset method [COM]","Reset method [COM]","IEnumUnknown interface","_com_ienumunknown_reset","com.ienumunknown_reset","objidlbase/IEnumUnknown::Reset"]
 old-location: com\ienumunknown_reset.htm
 tech.root: com
 ms.assetid: 54c60e75-1b23-4e89-af16-e551ed880a61
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: IEnumUnknown interface [COM],Reset method, IEnumUnknown.Reset, IEnumUnknown::Reset, Reset, Reset method [COM], Reset method [COM],IEnumUnknown interface, _com_ienumunknown_reset, com.ienumunknown_reset, objidlbase/IEnumUnknown::Reset
 req.header: objidl.h
 req.include-header: ObjIdl.h

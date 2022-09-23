@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiGetComponentPathExA
 title: MsiGetComponentPathExA function (msi.h)
-description: Returns the full path to an installed component.
+description: Returns the full path to an installed component. (ANSI)
 helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_USERS","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiGetComponentPathEx","MsiGetComponentPathEx function [Setup API]","MsiGetComponentPathExA","MsiGetComponentPathExW","NULL","User SID","msi/MsiGetComponentPathEx","msi/MsiGetComponentPathExA","msi/MsiGetComponentPathExW","s-1-1-0","setup.msigetcomponentpathex"]
 old-location: setup\msigetcomponentpathex.htm
 tech.root: setup

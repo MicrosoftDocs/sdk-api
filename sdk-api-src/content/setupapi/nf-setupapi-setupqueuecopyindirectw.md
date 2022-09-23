@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupQueueCopyIndirectW
 title: SetupQueueCopyIndirectW function (setupapi.h)
-description: The SetupQueueCopyIndirect function is an extended form of SetupQueueCopy passing additional parameters as a structure (SP_FILE_COPY_PARAMS). Other than this, the behavior is identical.
+description: The SetupQueueCopyIndirect function is an extended form of SetupQueueCopy passing additional parameters as a structure (SP_FILE_COPY_PARAMS). Other than this, the behavior is identical. (Unicode)
 helpviewer_keywords: ["SetupQueueCopyIndirect","SetupQueueCopyIndirect function [Setup API]","SetupQueueCopyIndirectA","SetupQueueCopyIndirectW","_setupapi_setupqueuecopyindirect","setup.setupqueuecopyindirect","setupapi/SetupQueueCopyIndirect","setupapi/SetupQueueCopyIndirectA","setupapi/SetupQueueCopyIndirectW"]
 old-location: setup\setupqueuecopyindirect.htm
 tech.root: setup

@@ -121,7 +121,7 @@ The <i>pullMaxNumberOfReclaimableBytes</i> parameter was null on input.
 
 ## -remarks
 
-This method can return more reclaimable bytes than are actually available. For more information, see "IVdsVolumeShrink::Shrink fails when provided value returned from QueryMaxReclaimableBytes" in the Help and Support Knowledge Base at <a href="https://support.microsoft.com/kb/976436">https://go.microsoft.com/fwlink/p/?linkid=167966</a>.
+This method can return more reclaimable bytes than are actually available.
 
 ## -see-also
 

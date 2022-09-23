@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.WSALookupServiceBeginW
 title: WSALookupServiceBeginW function (winsock2.h)
-description: The WSALookupServiceBegin function initiates a client query that is constrained by the information contained within a WSAQUERYSET structure.
+description: The WSALookupServiceBegin function initiates a client query that is constrained by the information contained within a WSAQUERYSET structure. (Unicode)
 helpviewer_keywords: ["LUP_CONTAINERS","LUP_DEEP","LUP_FLUSHCACHE","LUP_FLUSHPREVIOUS","LUP_NEAREST","LUP_NOCONTAINERS","LUP_RES_SERVICE","LUP_RETURN_ADDR","LUP_RETURN_ALIASES","LUP_RETURN_ALL","LUP_RETURN_BLOB","LUP_RETURN_COMMENT","LUP_RETURN_NAME","LUP_RETURN_QUERY_STRING","LUP_RETURN_TYPE","LUP_RETURN_VERSION","WSALookupServiceBegin","WSALookupServiceBegin function [Winsock]","WSALookupServiceBeginA","WSALookupServiceBeginW","_win32_wsalookupservicebegin_2","winsock.wsalookupservicebegin_2","winsock2/WSALookupServiceBegin","winsock2/WSALookupServiceBeginA","winsock2/WSALookupServiceBeginW"]
 old-location: winsock\wsalookupservicebegin_2.htm
 tech.root: WinSock

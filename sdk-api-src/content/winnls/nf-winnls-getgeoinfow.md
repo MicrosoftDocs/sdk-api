@@ -1,7 +1,7 @@
 ---
 UID: NF:winnls.GetGeoInfoW
 title: GetGeoInfoW function (winnls.h)
-description: Retrieves information about a specified geographical location.
+description: Retrieves information about a specified geographical location. (Unicode)
 helpviewer_keywords: ["GetGeoInfo","GetGeoInfo function [Internationalization for Windows Applications]","GetGeoInfoA","GetGeoInfoW","_win32_GetGeoInfo","intl.getgeoinfo","winnls/GetGeoInfo","winnls/GetGeoInfoA","winnls/GetGeoInfoW"]
 old-location: intl\getgeoinfo.htm
 tech.root: Intl

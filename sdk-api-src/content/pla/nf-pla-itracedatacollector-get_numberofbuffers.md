@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_NumberOfBuffers
 title: ITraceDataCollector::get_NumberOfBuffers (pla.h)
-description: Retrieves or sets the suggested number of buffers to use for logging.
+description: Retrieves or sets the suggested number of buffers to use for logging. (Get)
 helpviewer_keywords: ["ITraceDataCollector interface [PLA]","NumberOfBuffers property","ITraceDataCollector.NumberOfBuffers","ITraceDataCollector.get_NumberOfBuffers","ITraceDataCollector::NumberOfBuffers","ITraceDataCollector::get_NumberOfBuffers","ITraceDataCollector::put_NumberOfBuffers","NumberOfBuffers property [PLA]","NumberOfBuffers property [PLA]","ITraceDataCollector interface","base.itracedatacollector_numberofbuffers","get_NumberOfBuffers","pla.itracedatacollector_numberofbuffers","pla/ITraceDataCollector::NumberOfBuffers","pla/ITraceDataCollector::get_NumberOfBuffers","pla/ITraceDataCollector::put_NumberOfBuffers"]
 old-location: pla\itracedatacollector_numberofbuffers.htm
 tech.root: PLA

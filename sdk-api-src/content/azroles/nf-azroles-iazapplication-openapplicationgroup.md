@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication.OpenApplicationGroup
 title: IAzApplication::OpenApplicationGroup (azroles.h)
-description: Opens an IAzApplicationGroup object by specifying its name.
+description: Opens an IAzApplicationGroup object by specifying its name. (IAzApplication.OpenApplicationGroup)
 helpviewer_keywords: ["AzApplication object [Security]","OpenApplicationGroup method","IAzApplication interface [Security]","OpenApplicationGroup method","IAzApplication.OpenApplicationGroup","IAzApplication::OpenApplicationGroup","OpenApplicationGroup","OpenApplicationGroup method [Security]","OpenApplicationGroup method [Security]","AzApplication object","OpenApplicationGroup method [Security]","IAzApplication interface","azroles/IAzApplication::OpenApplicationGroup","security.iazapplication_openapplicationgroup"]
 old-location: security\iazapplication_openapplicationgroup.htm
 tech.root: security

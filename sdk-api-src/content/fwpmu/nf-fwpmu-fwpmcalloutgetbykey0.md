@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmCalloutGetByKey0
 title: FwpmCalloutGetByKey0 function (fwpmu.h)
-description: Retrieves a callout object.
+description: Retrieves a callout object. (FwpmCalloutGetByKey0)
 helpviewer_keywords: ["FwpmCalloutGetByKey0","FwpmCalloutGetByKey0 function [Filtering]","fwp.fwpmcalloutgetbykey0_func","fwpmu/FwpmCalloutGetByKey0"]
 old-location: fwp\fwpmcalloutgetbykey0_func.htm
 tech.root: fwp

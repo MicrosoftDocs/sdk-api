@@ -1,7 +1,7 @@
 ---
 UID: NF:ntmsapi.SetNtmsObjectAttributeW
 title: SetNtmsObjectAttributeW function (ntmsapi.h)
-description: The SetNtmsObjectAttribute function creates an extended attribute (named private data) in the specified RSM object.
+description: The SetNtmsObjectAttribute function creates an extended attribute (named private data) in the specified RSM object. (Unicode)
 helpviewer_keywords: ["SetNtmsObjectAttribute","SetNtmsObjectAttribute function [Files]","SetNtmsObjectAttributeA","SetNtmsObjectAttributeW","_zaw_setntmsobjectattribute","base.setntmsobjectattribute","fs.setntmsobjectattribute","ntmsapi/SetNtmsObjectAttribute","ntmsapi/SetNtmsObjectAttributeA","ntmsapi/SetNtmsObjectAttributeW"]
 old-location: fs\setntmsobjectattribute.htm
 tech.root: fs

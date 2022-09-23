@@ -1,12 +1,12 @@
 ---
 UID: NE:clusapi.CLUSTER_NODE_STATUS
 title: CLUSTER_NODE_STATUS (clusapi.h)
-description: Describes the status of a cluster node.
+description: CLUSTER_NODE_STATUS (clusapi.h) describes the status of a cluster node.
 helpviewer_keywords: ["CLUSTER_NODE_STATUS","CLUSTER_NODE_STATUS enumeration [Failover Cluster]","NodeStatusDrainCompleted","NodeStatusDrainFailed","NodeStatusDrainInProgress","NodeStatusIsolated","NodeStatusMax","NodeStatusNormal","NodeStatusQuarantined","clusapi/CLUSTER_NODE_STATUS","clusapi/NodeStatusDrainCompleted","clusapi/NodeStatusDrainFailed","clusapi/NodeStatusDrainInProgress","clusapi/NodeStatusIsolated","clusapi/NodeStatusMax","clusapi/NodeStatusNormal","clusapi/NodeStatusQuarantined","msclus/CLUSTER_NODE_STATUS","msclus/NodeStatusDrainCompleted","msclus/NodeStatusDrainFailed","msclus/NodeStatusDrainInProgress","msclus/NodeStatusIsolated","msclus/NodeStatusMax","msclus/NodeStatusNormal","msclus/NodeStatusQuarantined","mscs.cluster_node_status"]
 old-location: mscs\cluster_node_status.htm
 tech.root: MsCS
 ms.assetid: DFCCAB22-EF79-4E4D-959A-FE2090E4EA02
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: CLUSTER_NODE_STATUS, CLUSTER_NODE_STATUS enumeration [Failover Cluster], NodeStatusDrainCompleted, NodeStatusDrainFailed, NodeStatusDrainInProgress, NodeStatusIsolated, NodeStatusMax, NodeStatusNormal, NodeStatusQuarantined, clusapi/CLUSTER_NODE_STATUS, clusapi/NodeStatusDrainCompleted, clusapi/NodeStatusDrainFailed, clusapi/NodeStatusDrainInProgress, clusapi/NodeStatusIsolated, clusapi/NodeStatusMax, clusapi/NodeStatusNormal, clusapi/NodeStatusQuarantined, msclus/CLUSTER_NODE_STATUS, msclus/NodeStatusDrainCompleted, msclus/NodeStatusDrainFailed, msclus/NodeStatusDrainInProgress, msclus/NodeStatusIsolated, msclus/NodeStatusMax, msclus/NodeStatusNormal, msclus/NodeStatusQuarantined, mscs.cluster_node_status
 req.header: clusapi.h
 req.include-header: 

@@ -1,12 +1,12 @@
 ---
 UID: NF:netfw.NetworkIsolationRegisterForAppContainerChanges
 title: NetworkIsolationRegisterForAppContainerChanges function (netfw.h)
-description: Is used to register for the delivery of notifications regarding changes to an app container.
+description: The NetworkIsolationRegisterForAppContainerChanges function is used to register for the delivery of notifications regarding changes to an app container. 
 helpviewer_keywords: ["INET_FIREWALL_AC_BINARY","INET_FIREWALL_AC_MAX","INET_FIREWALL_AC_NONE","INET_FIREWALL_AC_PACKAGE_ID_ONLY","NetworkIsolationRegisterForAppContainerChanges","NetworkIsolationRegisterForAppContainerChanges function [ICS/ICF]","ics.networkisolationregisterforappcontainerchanges","networkisolation/NetworkIsolationRegisterForAppContainerChanges"]
 old-location: ics\networkisolationregisterforappcontainerchanges.htm
 tech.root: ics
 ms.assetid: 2affb2a8-224c-4d2d-86e2-f194d3990dbe
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: INET_FIREWALL_AC_BINARY, INET_FIREWALL_AC_MAX, INET_FIREWALL_AC_NONE, INET_FIREWALL_AC_PACKAGE_ID_ONLY, NetworkIsolationRegisterForAppContainerChanges, NetworkIsolationRegisterForAppContainerChanges function [ICS/ICF], ics.networkisolationregisterforappcontainerchanges, networkisolation/NetworkIsolationRegisterForAppContainerChanges
 req.header: netfw.h
 req.include-header: Netfw.h

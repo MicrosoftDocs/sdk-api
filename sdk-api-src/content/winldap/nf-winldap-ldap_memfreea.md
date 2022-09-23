@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_memfreeA
 title: ldap_memfreeA function (winldap.h)
-description: Frees memory allocated from the LDAP heap.
+description: Frees memory allocated from the LDAP heap. (ldap_memfreeA)
 helpviewer_keywords: ["_ldap_ldap_memfree","ldap.ldap__memfree","ldap.ldap_memfree","ldap_memfree","ldap_memfree function [LDAP]","ldap_memfreeA","ldap_memfreeW","winldap/ldap_memfree","winldap/ldap_memfreeA","winldap/ldap_memfreeW"]
 old-location: ldap\ldap_memfree.htm
 tech.root: ldap

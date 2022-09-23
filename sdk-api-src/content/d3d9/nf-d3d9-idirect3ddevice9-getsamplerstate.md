@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetSamplerState
 title: IDirect3DDevice9::GetSamplerState (d3d9.h)
-description: Gets the sampler state value.
+description: The IDirect3DDevice9::GetSamplerState method (d3d9.h) gets the sampler state value.
 helpviewer_keywords: ["2f2d9d2b-67e2-1c0d-8bc2-e3824a20ab32","GetSamplerState","GetSamplerState method [Direct3D 9]","GetSamplerState method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetSamplerState method","IDirect3DDevice9.GetSamplerState","IDirect3DDevice9::GetSamplerState","d3d9helper/IDirect3DDevice9::GetSamplerState","direct3d9.idirect3ddevice9__getsamplerstate"]
 old-location: direct3d9\idirect3ddevice9__getsamplerstate.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getsamplerstate.htm
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: 2f2d9d2b-67e2-1c0d-8bc2-e3824a20ab32, GetSamplerState, GetSamplerState method [Direct3D 9], GetSamplerState method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetSamplerState method, IDirect3DDevice9.GetSamplerState, IDirect3DDevice9::GetSamplerState, d3d9helper/IDirect3DDevice9::GetSamplerState, direct3d9.idirect3ddevice9__getsamplerstate
 req.header: d3d9.h
 req.include-header: D3D9.h

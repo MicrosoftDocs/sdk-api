@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.VirtualAlloc2FromApp
 title: VirtualAlloc2FromApp function (memoryapi.h)
-description: Reserves, commits, or changes the state of a region of pages in the virtual address space of the calling process.
+description: Reserves, commits, or changes the state of a region of pages in the virtual address space of the calling process. (VirtualAlloc2FromApp)
 helpviewer_keywords: ["MEM_COMMIT","MEM_LARGE_PAGES","MEM_PHYSICAL","MEM_REPLACE_PLACEHOLDER","MEM_RESERVE","MEM_RESERVE_PLACEHOLDER","MEM_RESET","MEM_RESET_UNDO","MEM_TOP_DOWN","MEM_WRITE_WATCH","VirtualAlloc2FromApp","VirtualAlloc2FromApp function","base.virtualalloc2fromapp","memoryapi/VirtualAlloc2FromApp"]
 old-location: base\virtualalloc2fromapp.htm
 tech.root: base

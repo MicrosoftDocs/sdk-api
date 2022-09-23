@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.CreateWindowA
 title: CreateWindowA macro (winuser.h)
-description: Creates an overlapped, pop-up, or child window.
+description: Creates an overlapped, pop-up, or child window. (ANSI)
 helpviewer_keywords: ["CreateWindow","CreateWindow function [Windows and Messages]","CreateWindowA","CreateWindowW","_win32_CreateWindow","_win32_createwindow_cpp","winmsg.createwindow","winui._win32_createwindow","winuser/CreateWindow","winuser/CreateWindowA","winuser/CreateWindowW"]
 old-location: winmsg\createwindow.htm
 tech.root: winmsg

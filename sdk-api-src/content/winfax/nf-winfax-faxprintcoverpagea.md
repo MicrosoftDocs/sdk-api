@@ -1,7 +1,7 @@
 ---
 UID: NF:winfax.FaxPrintCoverPageA
 title: FaxPrintCoverPageA function (winfax.h)
-description: The FaxPrintCoverPage function prints a fax transmission cover page to the specified device context for a fax client application.
+description: The FaxPrintCoverPage function prints a fax transmission cover page to the specified device context for a fax client application. (ANSI)
 helpviewer_keywords: ["FaxPrintCoverPage","FaxPrintCoverPage function [Fax Service]","FaxPrintCoverPageA","FaxPrintCoverPageW","_mfax_faxprintcoverpage","fax._mfax_faxprintcoverpage","winfax/FaxPrintCoverPage","winfax/FaxPrintCoverPageA","winfax/FaxPrintCoverPageW"]
 old-location: fax\_mfax_faxprintcoverpage.htm
 tech.root: Fax

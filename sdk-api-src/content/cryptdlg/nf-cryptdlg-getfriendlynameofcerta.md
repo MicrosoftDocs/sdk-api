@@ -1,7 +1,7 @@
 ---
 UID: NF:cryptdlg.GetFriendlyNameOfCertA
 title: GetFriendlyNameOfCertA function (cryptdlg.h)
-description: Retrieves the display name for a certificate.
+description: Retrieves the display name for a certificate. (ANSI)
 helpviewer_keywords: ["GetFriendlyNameOfCert","GetFriendlyNameOfCert function [Security]","GetFriendlyNameOfCertA","GetFriendlyNameOfCertW","cryptdlg/GetFriendlyNameOfCert","cryptdlg/GetFriendlyNameOfCertA","cryptdlg/GetFriendlyNameOfCertW","security.getfriendlynameofcert"]
 old-location: security\getfriendlynameofcert.htm
 tech.root: security

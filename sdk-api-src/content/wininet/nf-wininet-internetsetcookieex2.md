@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.InternetSetCookieEx2
 title: InternetSetCookieEx2
-description: Creates a cookie associated with the specified URL.
+description: Creates a cookie associated with the specified URL. (InternetSetCookieEx2)
 helpviewer_keywords: ["InternetSetCookieEx2","InternetSetCookieEx2 function [WinINet]","_win32_internetsetcookieex2","wininet.internetsetcookieex2","wininet/InternetSetCookieEx2"]
 tech.root: wininet
 ms.date: 12/03/2020
@@ -70,7 +70,7 @@ Flags for the cookie to be set. The following flags are available.
 
 ### -param pdwCookieState
 
-Pointer to a DWORD that receives the result of setting the cookie. For a list of possible values, see [InternetCookieState](/windows/desktop/wininet/ne-wininet.internetcookiestate).
+Pointer to a DWORD that receives the result of setting the cookie. For a list of possible values, see [InternetCookieState](/windows/win32/api/wininet/ne-wininet-internetcookiestate).
 
 ## -returns
 

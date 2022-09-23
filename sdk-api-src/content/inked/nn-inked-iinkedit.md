@@ -1,7 +1,7 @@
 ---
 UID: NN:inked.IInkEdit
 title: IInkEdit (inked.h)
-description: .
+description: . (IInkEdit)
 helpviewer_keywords: ["IInkEdit","IInkEdit interface [Tablet PC]","IInkEdit interface [Tablet PC]","described","inked/IInkEdit","tablet.iinkedit_"]
 old-location: tablet\iinkedit_.htm
 tech.root: tablet

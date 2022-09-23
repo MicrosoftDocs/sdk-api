@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12sdklayers.D3D12_MESSAGE_SEVERITY
 title: D3D12_MESSAGE_SEVERITY (d3d12sdklayers.h)
-description: Debug message severity levels for an information queue.
+description: Debug message severity levels for an information queue. (D3D12_MESSAGE_SEVERITY)
 helpviewer_keywords: ["D3D12_MESSAGE_SEVERITY","D3D12_MESSAGE_SEVERITY enumeration","D3D12_MESSAGE_SEVERITY_CORRUPTION","D3D12_MESSAGE_SEVERITY_ERROR","D3D12_MESSAGE_SEVERITY_INFO","D3D12_MESSAGE_SEVERITY_MESSAGE","D3D12_MESSAGE_SEVERITY_WARNING","d3d12sdklayers/D3D12_MESSAGE_SEVERITY","d3d12sdklayers/D3D12_MESSAGE_SEVERITY_CORRUPTION","d3d12sdklayers/D3D12_MESSAGE_SEVERITY_ERROR","d3d12sdklayers/D3D12_MESSAGE_SEVERITY_INFO","d3d12sdklayers/D3D12_MESSAGE_SEVERITY_MESSAGE","d3d12sdklayers/D3D12_MESSAGE_SEVERITY_WARNING","direct3d12.d3d12_message_severity"]
 old-location: direct3d12\d3d12_message_severity.htm
 tech.root: direct3d12

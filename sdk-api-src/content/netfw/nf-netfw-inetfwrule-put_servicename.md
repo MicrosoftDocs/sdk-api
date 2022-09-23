@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule.put_ServiceName
 title: INetFwRule::put_ServiceName (netfw.h)
-description: Specifies the service name property of the application.
+description: Specifies the service name property of the application. (Put)
 helpviewer_keywords: ["INetFwRule interface [ICS/ICF]","ServiceName property","INetFwRule.ServiceName","INetFwRule.put_ServiceName","INetFwRule::ServiceName","INetFwRule::get_ServiceName","INetFwRule::put_ServiceName","ServiceName property [ICS/ICF]","ServiceName property [ICS/ICF]","INetFwRule interface","ics.inetfwrule_servicename","netfw/INetFwRule::ServiceName","netfw/INetFwRule::get_ServiceName","netfw/INetFwRule::put_ServiceName","put_ServiceName"]
 old-location: ics\inetfwrule_servicename.htm
 tech.root: ics

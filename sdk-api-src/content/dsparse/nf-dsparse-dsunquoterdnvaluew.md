@@ -1,7 +1,7 @@
 ---
 UID: NF:dsparse.DsUnquoteRdnValueW
 title: DsUnquoteRdnValueW function (dsparse.h)
-description: The DsUnquoteRdnValue function is a client call that converts a quoted RDN value back to an unquoted RDN value.
+description: The DsUnquoteRdnValue function is a client call that converts a quoted RDN value back to an unquoted RDN value. (Unicode)
 helpviewer_keywords: ["DsUnquoteRdnValue","DsUnquoteRdnValue function [Active Directory]","DsUnquoteRdnValueA","DsUnquoteRdnValueW","ERROR_BUFFER_OVERFLOW","ERROR_SUCCESS","_glines_dsunquoterdnvalue","ad.dsunquoterdnvalue","dsparse/DsUnquoteRdnValue","dsparse/DsUnquoteRdnValueA","dsparse/DsUnquoteRdnValueW"]
 old-location: ad\dsunquoterdnvalue.htm
 tech.root: ad

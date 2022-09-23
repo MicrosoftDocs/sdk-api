@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkRenderer
 title: IInkRenderer (msinkaut.h)
-description: .
+description: . (IInkRenderer)
 helpviewer_keywords: ["IInkRenderer","IInkRenderer interface [Tablet PC]","IInkRenderer interface [Tablet PC]","described","msinkaut/IInkRenderer","tablet.iinkrenderer"]
 old-location: tablet\iinkrenderer.htm
 tech.root: tablet

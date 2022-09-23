@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.LoadMenuA
 title: LoadMenuA function (winuser.h)
-description: Loads the specified menu resource from the executable (.exe) file associated with an application instance.
+description: Loads the specified menu resource from the executable (.exe) file associated with an application instance. (ANSI)
 helpviewer_keywords: ["LoadMenu","LoadMenu function [Menus and Other Resources]","LoadMenuA","LoadMenuW","_win32_LoadMenu","_win32_loadmenu_cpp","menurc.loadmenu","winui._win32_loadmenu","winuser/LoadMenu","winuser/LoadMenuA","winuser/LoadMenuW"]
 old-location: menurc\loadmenu.htm
 tech.root: menurc

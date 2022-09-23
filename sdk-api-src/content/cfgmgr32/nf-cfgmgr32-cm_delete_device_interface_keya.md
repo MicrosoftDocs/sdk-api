@@ -4,7 +4,7 @@ tech.root: devinst
 title: CM_Delete_Device_Interface_KeyA
 ms.date: 04/12/2021
 targetos: Windows
-description: The CM_Delete_Device_Interface_Key function deletes the registry subkey that is used by applications and drivers to store interface-specific information.
+description: The CM_Delete_Device_Interface_Key function deletes the registry subkey that is used by applications and drivers to store interface-specific information. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

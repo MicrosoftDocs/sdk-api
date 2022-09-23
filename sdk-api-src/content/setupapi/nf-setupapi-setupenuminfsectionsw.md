@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupEnumInfSectionsW
 title: SetupEnumInfSectionsW function (setupapi.h)
-description: The SetupEnumInfSections function retrieves section names from an INF file.
+description: The SetupEnumInfSections function retrieves section names from an INF file. (Unicode)
 helpviewer_keywords: ["SetupEnumInfSections","SetupEnumInfSections function [Setup API]","SetupEnumInfSectionsA","SetupEnumInfSectionsW","setup.setupenuminfsections","setupapi/SetupEnumInfSections","setupapi/SetupEnumInfSectionsA","setupapi/SetupEnumInfSectionsW"]
 old-location: setup\setupenuminfsections.htm
 tech.root: setup

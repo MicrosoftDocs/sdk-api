@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetUserNameW
 title: GetUserNameW function (winbase.h)
-description: Retrieves the name of the user associated with the current thread.
+description: Retrieves the name of the user associated with the current thread. (Unicode)
 helpviewer_keywords: ["GetUserName","GetUserName function","GetUserNameA","GetUserNameW","_win32_getusername","base.getusername","winbase/GetUserName","winbase/GetUserNameA","winbase/GetUserNameW"]
 old-location: base\getusername.htm
 tech.root: winprog

@@ -1,7 +1,7 @@
 ---
 UID: NF:sysinfoapi.GetSystemDirectoryW
 title: GetSystemDirectoryW function (sysinfoapi.h)
-description: Retrieves the path of the system directory.
+description: Retrieves the path of the system directory. (Unicode)
 helpviewer_keywords: ["GetSystemDirectory","GetSystemDirectory function","GetSystemDirectoryA","GetSystemDirectoryW","_win32_getsystemdirectory","base.getsystemdirectory","sysinfoapi/GetSystemDirectory","sysinfoapi/GetSystemDirectoryA","sysinfoapi/GetSystemDirectoryW"]
 old-location: base\getsystemdirectory.htm
 tech.root: winprog

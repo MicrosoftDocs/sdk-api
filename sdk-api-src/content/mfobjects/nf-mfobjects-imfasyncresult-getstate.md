@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFAsyncResult.GetState
 title: IMFAsyncResult::GetState (mfobjects.h)
-description: Returns the state object specified by the caller in the asynchronous Begin method.
+description: Returns the state object specified by the caller in the asynchronous Begin method. (IMFAsyncResult.GetState)
 helpviewer_keywords: ["GetState","GetState method [Media Foundation]","GetState method [Media Foundation]","IMFAsyncResult interface","IMFAsyncResult interface [Media Foundation]","GetState method","IMFAsyncResult.GetState","IMFAsyncResult::GetState","f8ed8e71-6df7-4c94-b400-b4651a00db5b","mf.imfasyncresult_getstate","mfobjects/IMFAsyncResult::GetState"]
 old-location: mf\imfasyncresult_getstate.htm
 tech.root: mf

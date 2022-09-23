@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule.put_Enabled
 title: INetFwRule::put_Enabled (netfw.h)
-description: Enables or disables a rule.
+description: Enables or disables a rule. (Put)
 helpviewer_keywords: ["Enabled property [ICS/ICF]","Enabled property [ICS/ICF]","INetFwRule interface","INetFwRule interface [ICS/ICF]","Enabled property","INetFwRule.Enabled","INetFwRule.put_Enabled","INetFwRule::Enabled","INetFwRule::get_Enabled","INetFwRule::put_Enabled","ics.inetfwrule_enabled","netfw/INetFwRule::Enabled","netfw/INetFwRule::get_Enabled","netfw/INetFwRule::put_Enabled","put_Enabled"]
 old-location: ics\inetfwrule_enabled.htm
 tech.root: ics

@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.SaslInitializeSecurityContextW
 title: SaslInitializeSecurityContextW function (sspi.h)
-description: Wraps a standard call to the Security Support Provider Interface InitializeSecurityContext (General) function and processes SASL server cookies from the server.
+description: Wraps a standard call to the Security Support Provider Interface InitializeSecurityContext (General) function and processes SASL server cookies from the server. (Unicode)
 helpviewer_keywords: ["ISC_REQ_CONFIDENTIALITY","ISC_REQ_CONNECTION","ISC_REQ_EXTENDED_ERROR","ISC_REQ_INTEGRITY","ISC_REQ_MUTUAL_AUTH","ISC_REQ_REPLAY_DETECT","ISC_REQ_SEQUENCE_DETECT","ISC_REQ_STREAM","SaslInitializeSecurityContext","SaslInitializeSecurityContext function [Security]","SaslInitializeSecurityContextA","SaslInitializeSecurityContextW","security.saslinitializesecuritycontext","sspi/SaslInitializeSecurityContext","sspi/SaslInitializeSecurityContextA","sspi/SaslInitializeSecurityContextW"]
 old-location: security\saslinitializesecuritycontext.htm
 tech.root: security

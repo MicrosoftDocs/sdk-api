@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IAlternativeNames.Clear
 title: IAlternativeNames::Clear (certenroll.h)
-description: Removes all objects from the collection.
+description: Removes all objects from the collection. (IAlternativeNames.Clear)
 helpviewer_keywords: ["Clear","Clear method [Security]","Clear method [Security]","IAlternativeNames interface","IAlternativeNames interface [Security]","Clear method","IAlternativeNames.Clear","IAlternativeNames::Clear","certenroll/IAlternativeNames::Clear","security.ialternativenames_clear_method"]
 old-location: security\ialternativenames_clear_method.htm
 tech.root: security

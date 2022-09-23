@@ -1,7 +1,7 @@
 ---
 UID: NF:rasdlg.RasDialDlgA
 title: RasDialDlgA function (rasdlg.h)
-description: The RasDialDlg function establishes a RAS connection using a specified phone-book entry and the credentials of the logged-on user. The function displays a stream of dialog boxes that indicate the state of the connection operation.
+description: The RasDialDlg function establishes a RAS connection using a specified phone-book entry and the credentials of the logged-on user. The function displays a stream of dialog boxes that indicate the state of the connection operation. (ANSI)
 helpviewer_keywords: ["RasDialDlg","RasDialDlg function [RAS]","RasDialDlgA","RasDialDlgW","_ras_rasdialdlg","rasdlg/RasDialDlg","rasdlg/RasDialDlgA","rasdlg/RasDialDlgW","rras.rasdialdlg"]
 old-location: rras\rasdialdlg.htm
 tech.root: RRAS

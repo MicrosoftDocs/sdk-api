@@ -2,7 +2,8 @@
 UID: NS:bcrypt._BCryptBuffer
 tech.root: security
 title: BCryptBuffer (bcrypt.h)
-ms.date: 02/25/2022
+description: "Describes how the BCryptBuffer structure represents a generic Cryptography API: Next Generation (CNG) buffer."
+ms.date: 08/01/2022
 targetos: Windows
 description: 
 prerelease: false

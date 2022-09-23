@@ -1,7 +1,7 @@
 ---
 UID: NS:icm._tagCOLORMATCHSETUPA
 title: COLORMATCHSETUPA
-description: The **COLORMATCHSETUP** structure contains information that the [**SetupColorMatchingW**](/windows/win32/api/icm/nf-icm-setupcolormatchingw) function uses to initialize the **ColorManagement** dialog box.
+description: The **COLORMATCHSETUP** structure contains information that the [**SetupColorMatchingW**](/windows/win32/api/icm/nf-icm-setupcolormatchingw) function uses to initialize the **ColorManagement** dialog box. (ANSI)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

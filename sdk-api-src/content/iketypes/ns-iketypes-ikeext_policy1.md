@@ -1,7 +1,7 @@
 ---
 UID: NS:iketypes.IKEEXT_POLICY1_
 title: IKEEXT_POLICY1 (iketypes.h)
-description: Is used to store the IKE/AuthIP main mode negotiation policy.
+description: Is used to store the IKE/AuthIP main mode negotiation policy. (IKEEXT_POLICY1)
 helpviewer_keywords: ["IKEEXT_POLICY1","IKEEXT_POLICY1 structure [Filtering]","IKEEXT_POLICY_FLAG_DISABLE_DIAGNOSTICS","IKEEXT_POLICY_FLAG_ENABLE_OPTIONAL_DH","IKEEXT_POLICY_FLAG_NO_IMPERSONATION_LUID_VERIFY","IKEEXT_POLICY_FLAG_NO_MACHINE_LUID_VERIFY","fwp.ikeext_policy1","iketypes/IKEEXT_POLICY1"]
 old-location: fwp\ikeext_policy1.htm
 tech.root: fwp

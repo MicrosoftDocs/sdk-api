@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.RegisterWindowMessageW
 title: RegisterWindowMessageW function (winuser.h)
-description: Defines a new window message that is guaranteed to be unique throughout the system. The message value can be used when sending or posting messages.
+description: Defines a new window message that is guaranteed to be unique throughout the system. The message value can be used when sending or posting messages. (Unicode)
 helpviewer_keywords: ["RegisterWindowMessage","RegisterWindowMessage function [Windows and Messages]","RegisterWindowMessageA","RegisterWindowMessageW","_win32_RegisterWindowMessage","_win32_registerwindowmessage_cpp","winmsg.registerwindowmessage","winui._win32_registerwindowmessage","winuser/RegisterWindowMessage","winuser/RegisterWindowMessageA","winuser/RegisterWindowMessageW"]
 old-location: winmsg\registerwindowmessage.htm
 tech.root: winmsg

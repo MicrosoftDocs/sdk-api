@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.GetFullPathNameW
 title: GetFullPathNameW function (fileapi.h)
-description: Retrieves the full path and file name of the specified file.
+description: Retrieves the full path and file name of the specified file. (Unicode)
 helpviewer_keywords: ["GetFullPathName","GetFullPathName function [Files]","GetFullPathNameA","GetFullPathNameW","_win32_getfullpathname","base.getfullpathname","fileapi/GetFullPathName","fileapi/GetFullPathNameA","fileapi/GetFullPathNameW","fs.getfullpathname","winbase/GetFullPathName","winbase/GetFullPathNameA","winbase/GetFullPathNameW"]
 old-location: fs\getfullpathname.htm
 tech.root: fs

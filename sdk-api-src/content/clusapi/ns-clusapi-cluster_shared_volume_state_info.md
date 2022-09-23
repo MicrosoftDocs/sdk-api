@@ -1,7 +1,7 @@
 ---
 UID: NS:clusapi._CLUSTER_SHARED_VOLUME_STATE_INFO
 title: CLUSTER_SHARED_VOLUME_STATE_INFO (clusapi.h)
-description: Represents information about the state of a Cluster Shared Volume (CSV).
+description: Represents information about the state of a Cluster Shared Volume (CSV). (CLUSTER_SHARED_VOLUME_STATE_INFO)
 helpviewer_keywords: ["*PCLUSTER_SHARED_VOLUME_STATE_INFO","CLUSTER_SHARED_VOLUME_STATE_INFO","CLUSTER_SHARED_VOLUME_STATE_INFO structure [Failover Cluster]","PCLUSTER_SHARED_VOLUME_STATE_INFO","PCLUSTER_SHARED_VOLUME_STATE_INFO structure pointer [Failover Cluster]","clusapi/CLUSTER_SHARED_VOLUME_STATE_INFO","clusapi/PCLUSTER_SHARED_VOLUME_STATE_INFO","mscs.cluster_shared_volume_state_info"]
 old-location: mscs\cluster_shared_volume_state_info.htm
 tech.root: MsCS

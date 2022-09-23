@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagENUMTEXTMETRICW
 title: ENUMTEXTMETRICW (wingdi.h)
-description: The ENUMTEXTMETRIC structure contains information about a physical font.
+description: The ENUMTEXTMETRIC structure contains information about a physical font. (Unicode)
 helpviewer_keywords: ["*LPENUMTEXTMETRICW","*PENUMTEXTMETRICW","ENUMTEXTMETRIC","ENUMTEXTMETRIC structure [Windows GDI]","ENUMTEXTMETRICA","ENUMTEXTMETRICW","PENUMTEXTMETRIC","PENUMTEXTMETRIC structure pointer [Windows GDI]","_win32_ENUMTEXTMETRIC_str","gdi.enumtextmetric","wingdi/ENUMTEXTMETRIC","wingdi/ENUMTEXTMETRICA","wingdi/ENUMTEXTMETRICW","wingdi/PENUMTEXTMETRIC"]
 old-location: gdi\enumtextmetric.htm
 tech.root: gdi

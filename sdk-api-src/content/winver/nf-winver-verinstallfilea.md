@@ -1,7 +1,7 @@
 ---
 UID: NF:winver.VerInstallFileA
 title: VerInstallFileA function (winver.h)
-description: Installs the specified file based on information returned from the VerFindFile function. VerInstallFile decompresses the file, if necessary, assigns a unique filename, and checks for errors, such as outdated files.
+description: Installs the specified file based on information returned from the VerFindFile function. VerInstallFile decompresses the file, if necessary, assigns a unique filename, and checks for errors, such as outdated files. (ANSI)
 helpviewer_keywords: ["VIFF_DONTDELETEOLD","VIFF_FORCEINSTALL","VerInstallFile","VerInstallFile function [Menus and Other Resources]","VerInstallFileA","VerInstallFileW","_win32_VerInstallFile","_win32_verinstallfile_cpp","menurc.verinstallfile","winui._win32_verinstallfile","winver/VerInstallFile","winver/VerInstallFileA","winver/VerInstallFileW"]
 old-location: menurc\verinstallfile.htm
 tech.root: menurc

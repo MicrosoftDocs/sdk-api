@@ -58,7 +58,7 @@ api_name:
 
 Retrieves the context of the specified thread.
 
-A 64-bit application can retrieve the context of a WOW64 thread using the [Wow64GetThreadContext](/windows/desktop/api/winbase/nf-winbase-wow64getthreadcontext).
+A 64-bit application can retrieve the context of a WOW64 thread using the [Wow64GetThreadContext](https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/winbase/nf-winbase-wow64getthreadcontext.md).
 
 ## -parameters
 
@@ -95,4 +95,4 @@ If you call **GetThreadContext** for the current thread, the function returns su
 - [GetXStateFeaturesMask](/windows/desktop/api/winbase/nf-winbase-getxstatefeaturesmask)
 - [SetThreadContext](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext)
 - [SuspendThread](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread)
-- [Wow64GetThreadContext](/windows/desktop/api/winbase/nf-winbase-wow64getthreadcontext)
+- [Wow64GetThreadContext](https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/winbase/nf-winbase-wow64getthreadcontext.md)

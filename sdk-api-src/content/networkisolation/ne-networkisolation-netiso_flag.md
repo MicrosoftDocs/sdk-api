@@ -1,12 +1,12 @@
 ---
 UID: NE:networkisolation.NETISO_FLAG
 title: NETISO_FLAG (networkisolation.h)
-description: Specifies whether binaries should be returned for app containers.
+description: The NETISO_FLAG enumeration specifies whether binaries should be returned for app containers. (NETISO_FLAG)
 helpviewer_keywords: ["NETISO_FLAG","NETISO_FLAG enumeration [ICS/ICF]","NETISO_FLAG_FORCE_COMPUTE_BINARIES","NETISO_FLAG_MAX","ics.netiso_flag","networkisolation/NETISO_FLAG","networkisolation/NETISO_FLAG_FORCE_COMPUTE_BINARIES","networkisolation/NETISO_FLAG_MAX"]
 old-location: ics\netiso_flag.htm
 tech.root: ics
 ms.assetid: 0e07c3ed-0561-453d-b92a-cd0db07ea5cf
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: NETISO_FLAG, NETISO_FLAG enumeration [ICS/ICF], NETISO_FLAG_FORCE_COMPUTE_BINARIES, NETISO_FLAG_MAX, ics.netiso_flag, networkisolation/NETISO_FLAG, networkisolation/NETISO_FLAG_FORCE_COMPUTE_BINARIES, networkisolation/NETISO_FLAG_MAX
 req.header: networkisolation.h
 req.include-header: Netfw.h

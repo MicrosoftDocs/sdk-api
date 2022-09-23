@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IMDServiceProvider3.SetDeviceEnumPreference
 title: IMDServiceProvider3::SetDeviceEnumPreference (mswmdm.h)
-description: The SetDeviceEnumPreference method sets the device enumeration preferences.
+description: The SetDeviceEnumPreference method sets the device enumeration preferences. (IMDServiceProvider3.SetDeviceEnumPreference)
 helpviewer_keywords: ["IMDServiceProvider3 interface [windows Media Device Manager]","SetDeviceEnumPreference method","IMDServiceProvider3.SetDeviceEnumPreference","IMDServiceProvider3::SetDeviceEnumPreference","IMDServiceProvider3SetDeviceEnumPreference","SetDeviceEnumPreference","SetDeviceEnumPreference method [windows Media Device Manager]","SetDeviceEnumPreference method [windows Media Device Manager]","IMDServiceProvider3 interface","mswmdm/IMDServiceProvider3::SetDeviceEnumPreference","wmdm.imdserviceprovider3_setdeviceenumpreference"]
 old-location: wmdm\imdserviceprovider3_setdeviceenumpreference.htm
 tech.root: WMDM

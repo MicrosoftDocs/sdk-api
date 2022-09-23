@@ -1,12 +1,12 @@
 ---
 UID: NE:msclus.CLUSTER_GROUP_ENUM
 title: CLUSTER_GROUP_ENUM (msclus.h)
-description: Describes the type of cluster object being enumerated by the ClusterGroupEnum and ClusterGroupOpenEnum functions.
+description: The CLUSTER_GROUP_ENUM enumeration (msclus.h) describes the type of cluster object being enumerated by the ClusterGroupEnum and ClusterGroupOpenEnum functions.
 helpviewer_keywords: ["CLUSTER_GROUP_ENUM","CLUSTER_GROUP_ENUM enumeration [Failover Cluster]","CLUSTER_GROUP_ENUM_ALL","CLUSTER_GROUP_ENUM_CONTAINS","CLUSTER_GROUP_ENUM_NODES","_CLUSTER_GROUP_ENUM","_CLUSTER_GROUP_ENUM enumeration [Failover Cluster]","clusapi/CLUSTER_GROUP_ENUM","clusapi/CLUSTER_GROUP_ENUM_ALL","clusapi/CLUSTER_GROUP_ENUM_CONTAINS","clusapi/CLUSTER_GROUP_ENUM_NODES","clusapi/_CLUSTER_GROUP_ENUM","msclus/CLUSTER_GROUP_ENUM","msclus/CLUSTER_GROUP_ENUM_ALL","msclus/CLUSTER_GROUP_ENUM_CONTAINS","msclus/CLUSTER_GROUP_ENUM_NODES","msclus/_CLUSTER_GROUP_ENUM","mscs.cluster_group_enum"]
 old-location: mscs\cluster_group_enum.htm
 tech.root: MsCS
 ms.assetid: c70bc230-850b-4290-8275-f60ffc8d66bd
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: CLUSTER_GROUP_ENUM, CLUSTER_GROUP_ENUM enumeration [Failover Cluster], CLUSTER_GROUP_ENUM_ALL, CLUSTER_GROUP_ENUM_CONTAINS, CLUSTER_GROUP_ENUM_NODES, _CLUSTER_GROUP_ENUM, _CLUSTER_GROUP_ENUM enumeration [Failover Cluster], clusapi/CLUSTER_GROUP_ENUM, clusapi/CLUSTER_GROUP_ENUM_ALL, clusapi/CLUSTER_GROUP_ENUM_CONTAINS, clusapi/CLUSTER_GROUP_ENUM_NODES, clusapi/_CLUSTER_GROUP_ENUM, msclus/CLUSTER_GROUP_ENUM, msclus/CLUSTER_GROUP_ENUM_ALL, msclus/CLUSTER_GROUP_ENUM_CONTAINS, msclus/CLUSTER_GROUP_ENUM_NODES, msclus/_CLUSTER_GROUP_ENUM, mscs.cluster_group_enum
 req.header: msclus.h
 req.include-header: 

@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupConfigureWmiFromInfSectionW
 title: SetupConfigureWmiFromInfSectionW function (setupapi.h)
-description: The SetupConfigureWmiFromInfSection function configures the security of the WMI data that is exposed by an INF file when passed to the [DDInstall.WMI] section.
+description: The SetupConfigureWmiFromInfSection function configures the security of the WMI data that is exposed by an INF file when passed to the [DDInstall.WMI] section. (Unicode)
 helpviewer_keywords: ["SCWMI_CLOBBER_SECURITY","SetupConfigureWmiFromInfSection","SetupConfigureWmiFromInfSection function [Setup API]","SetupConfigureWmiFromInfSectionA","SetupConfigureWmiFromInfSectionW","_setupapi_setupuninstalloeminf","setup.setupconfigurewmifrominfsection","setupapi/SetupConfigureWmiFromInfSection","setupapi/SetupConfigureWmiFromInfSectionA","setupapi/SetupConfigureWmiFromInfSectionW"]
 old-location: setup\setupconfigurewmifrominfsection.htm
 tech.root: setup

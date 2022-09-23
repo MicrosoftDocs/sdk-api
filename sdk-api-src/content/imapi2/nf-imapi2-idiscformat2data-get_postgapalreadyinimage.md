@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_PostgapAlreadyInImage
 title: IDiscFormat2Data::get_PostgapAlreadyInImage (imapi2.h)
-description: Determines if the data stream contains post-writing gaps.
+description: Determines if the data stream contains post-writing gaps. (Get)
 helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","get_PostgapAlreadyInImage method","IDiscFormat2Data.get_PostgapAlreadyInImage","IDiscFormat2Data::get_PostgapAlreadyInImage","get_PostgapAlreadyInImage","get_PostgapAlreadyInImage method [IMAPI]","get_PostgapAlreadyInImage method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_get_postgapalreadyinimage","imapi2/IDiscFormat2Data::get_PostgapAlreadyInImage"]
 old-location: imapi\idiscformat2data_get_postgapalreadyinimage.htm
 tech.root: imapi

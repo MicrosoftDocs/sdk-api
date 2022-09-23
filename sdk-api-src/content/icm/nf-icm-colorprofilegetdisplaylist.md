@@ -2,10 +2,10 @@
 UID: NF:icm.ColorProfileGetDisplayList
 tech.root: wcs
 title: ColorProfileGetDisplayList
-ms.date: 02/01/2021
+ms.date: 08/03/2022
 
 targetos: Windows
-description: 
+description: ColorProfileGetDisplayList retrieves the list of profiles associated with a given display in the specified scope.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

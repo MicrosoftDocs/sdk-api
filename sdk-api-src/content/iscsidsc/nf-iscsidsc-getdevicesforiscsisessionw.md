@@ -1,7 +1,7 @@
 ---
 UID: NF:iscsidsc.GetDevicesForIScsiSessionW
 title: GetDevicesForIScsiSessionW function (iscsidsc.h)
-description: GetDevicesForIscsiSession function retrieves information about the devices associated with the current session.
+description: GetDevicesForIscsiSession function retrieves information about the devices associated with the current session. (Unicode)
 helpviewer_keywords: ["GetDevicesForIScsiSessionW","GetDevicesForIscsiSession","GetDevicesForIscsiSession function [iSCSI Discovery Library API]","GetDevicesForIscsiSessionA","GetDevicesForIscsiSessionW","iscsidisc.getdevicesforiscsisession","iscsidsc/GetDevicesForIscsiSession","iscsidsc/GetDevicesForIscsiSessionA","iscsidsc/GetDevicesForIscsiSessionW"]
 old-location: iscsidisc\getdevicesforiscsisession.htm
 tech.root: iSCSIDisc

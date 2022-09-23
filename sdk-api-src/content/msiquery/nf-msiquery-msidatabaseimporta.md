@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiDatabaseImportA
 title: MsiDatabaseImportA function (msiquery.h)
-description: The MsiDatabaseImport function imports an installer text archive file into an open database table.
+description: The MsiDatabaseImport function imports an installer text archive file into an open database table. (ANSI)
 helpviewer_keywords: ["MsiDatabaseImport","MsiDatabaseImport function","MsiDatabaseImportA","MsiDatabaseImportW","_msi_msidatabaseimport","msiquery/MsiDatabaseImport","msiquery/MsiDatabaseImportA","msiquery/MsiDatabaseImportW","setup.msidatabaseimport"]
 old-location: setup\msidatabaseimport.htm
 tech.root: setup

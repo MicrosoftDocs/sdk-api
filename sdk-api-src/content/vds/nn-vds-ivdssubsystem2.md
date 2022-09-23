@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsSubSystem2
 title: IVdsSubSystem2 (vds.h)
-description: Provides methods for performing query and configuration operations on a subsystem using the VDS_HINTS2 and VDS_SUB_SYSTEM_PROP2 structures.
+description: The IVdsSubSystem2 interface (vds.h) provides methods for performing query and configuration operations on a subsystem using the VDS_HINTS2 and VDS_SUB_SYSTEM_PROP2 structures. 
 helpviewer_keywords: ["IVdsSubSystem2","IVdsSubSystem2 interface","IVdsSubSystem2 interface","described","base.ivdssubsystem2","vds/IVdsSubSystem2","vdshwprv/IVdsSubSystem2"]
 old-location: base\ivdssubsystem2.htm
 tech.root: base
 ms.assetid: 7d19792c-cd37-4ea7-8830-c33c489e63e6
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsSubSystem2, IVdsSubSystem2 interface, IVdsSubSystem2 interface,described, base.ivdssubsystem2, vds/IVdsSubSystem2, vdshwprv/IVdsSubSystem2
 req.header: vds.h
 req.include-header: 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ID3D12Resource interface","Map method","ID3D12Resource.Ma
 old-location: direct3d12\id3d12resource_map.htm
 tech.root: direct3d12
 ms.assetid: 71E43B63-9C84-4E4B-A43D-92B958C8AAF5
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ID3D12Resource interface,Map method, ID3D12Resource.Map, ID3D12Resource::Map, Map, Map method, Map method,ID3D12Resource interface, d3d12/ID3D12Resource::Map, direct3d12.id3d12resource_map
 req.header: d3d12.h
 req.include-header: 
@@ -135,7 +135,7 @@ Use the appropriate optimization settings and language constructs to help avoid 
 
 </li>
 </ul>
-Applications are encouraged to leave resources unmapped while the CPU will not modify them, and use tight, accurate ranges at all times. This enables the fastest modes for tools, like <a href="/visualstudio/debugger/visual-studio-graphics-diagnostics?view=vs-2015">Graphics Debugging</a> and the debug layer. Such tools need to track all CPU modifications to memory that the GPU could read.
+Applications are encouraged to leave resources unmapped while the CPU will not modify them, and use tight, accurate ranges at all times. This enables the fastest modes for tools, like <a href="/visualstudio/debugger/visual-studio-graphics-diagnostics">Graphics Debugging</a> and the debug layer. Such tools need to track all CPU modifications to memory that the GPU could read.
 
 
 <h3><a id="Advanced_Usage_Models"></a><a id="advanced_usage_models"></a><a id="ADVANCED_USAGE_MODELS"></a>Advanced Usage Models</h3>

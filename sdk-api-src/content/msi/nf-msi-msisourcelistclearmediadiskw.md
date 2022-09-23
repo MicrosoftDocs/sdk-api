@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiSourceListClearMediaDiskW
 title: MsiSourceListClearMediaDiskW function (msi.h)
-description: The MsiSourceListClearMediaDisk function provides the ability to remove an existing registered disk under the media source for a product or patch in a specific context.
+description: The MsiSourceListClearMediaDisk function provides the ability to remove an existing registered disk under the media source for a product or patch in a specific context. (Unicode)
 helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiSourceListClearMediaDisk","MsiSourceListClearMediaDisk function","MsiSourceListClearMediaDiskA","MsiSourceListClearMediaDiskW","NULL","User SID","msi/MsiSourceListClearMediaDisk","msi/MsiSourceListClearMediaDiskA","msi/MsiSourceListClearMediaDiskW","setup.msisourcelistclearmediadisks"]
 old-location: setup\msisourcelistclearmediadisks.htm
 tech.root: setup

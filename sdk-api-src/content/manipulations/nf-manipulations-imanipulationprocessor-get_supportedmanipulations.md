@@ -1,7 +1,7 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.get_SupportedManipulations
 title: IManipulationProcessor::get_SupportedManipulations (manipulations.h)
-description: The SupportedManipulations property is used to indicate which manipulations are supported by an object.
+description: The SupportedManipulations property is used to indicate which manipulations are supported by an object. (Get)
 helpviewer_keywords: ["IManipulationProcessor interface [Windows Touch]","SupportedManipulations property","IManipulationProcessor.SupportedManipulations","IManipulationProcessor.get_SupportedManipulations","IManipulationProcessor::SupportedManipulations","IManipulationProcessor::get_SupportedManipulations","IManipulationProcessor::put_SupportedManipulations","SupportedManipulations property [Windows Touch]","SupportedManipulations property [Windows Touch]","IManipulationProcessor interface","get_SupportedManipulations","manipulations/IManipulationProcessor::SupportedManipulations","manipulations/IManipulationProcessor::get_SupportedManipulations","manipulations/IManipulationProcessor::put_SupportedManipulations","wintouch.imanipulationprocessor_supportedmanipulations"]
 old-location: wintouch\imanipulationprocessor_supportedmanipulations.htm
 tech.root: wintouch

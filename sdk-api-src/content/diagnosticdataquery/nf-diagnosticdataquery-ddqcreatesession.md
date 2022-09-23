@@ -46,7 +46,7 @@ Creates a Diagnostic Data Query API session handle to be used to uniquely identi
 
 ### -param accessLevel
 
-Type: **[DdqAccessLevel](/windows/win32/api/diagnosticdataquery/ne-diagnosticdataquerytypes-ddqaccesslevel)**
+Type: **[DdqAccessLevel](/windows/win32/api/diagnosticdataquerytypes/ne-diagnosticdataquerytypes-ddqaccesslevel)**
 The access level desired for this session.
 
 ### -param hSession

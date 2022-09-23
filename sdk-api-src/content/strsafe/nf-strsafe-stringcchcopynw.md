@@ -1,7 +1,7 @@
 ---
 UID: NF:strsafe.StringCchCopyNW
 title: StringCchCopyNW function (strsafe.h)
-description: Copies the specified number of characters from one string to another.
+description: Copies the specified number of characters from one string to another. (StringCchCopyNW)
 helpviewer_keywords: ["StringCchCopyN","StringCchCopyN function [Menus and Other Resources]","StringCchCopyNA","StringCchCopyNW","_shell_StringCchCopyN","_shell_stringcchcopyn_cpp","menurc.stringcchcopyn","strsafe/StringCchCopyN","strsafe/StringCchCopyNA","strsafe/StringCchCopyNW","winui._shell_stringcchcopyn"]
 old-location: menurc\stringcchcopyn.htm
 tech.root: menurc

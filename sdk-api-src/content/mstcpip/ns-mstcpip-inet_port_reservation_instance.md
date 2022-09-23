@@ -70,7 +70,7 @@ A port reservation token for a block of TCP or UDP ports.
 
 The  <b>INET_PORT_RESERVATION_INSTANCE</b> structure is supported on Windows Vista and later.
 
-The  <b>INET_PORT_RESERVATION_INSTANCE</b> structure is returned by the <a href="/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)">SIO_ACQUIRE_PORT_RESERVATION</a> IOCTL when acquiring a runtime reservation for a block of TCP or UDP ports.
+The  <b>INET_PORT_RESERVATION_INSTANCE</b> structure is returned by the <a href="/windows/win32/winsock/sio-acquire-port-reservation">SIO_ACQUIRE_PORT_RESERVATION</a> IOCTL when acquiring a runtime reservation for a block of TCP or UDP ports.
 
 ## -see-also
 
@@ -106,12 +106,12 @@ The  <b>INET_PORT_RESERVATION_INSTANCE</b> structure is returned by the <a href=
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)">SIO_ACQUIRE_PORT_RESERVATION</a>
+<a href="/windows/win32/winsock/sio-acquire-port-reservation">SIO_ACQUIRE_PORT_RESERVATION</a>
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/gg699721(v=vs.85)">SIO_ASSOCIATE_PORT_RESERVATION</a>
+<a href="/windows/win32/winsock/sio-associate-port-reservation">SIO_ASSOCIATE_PORT_RESERVATION</a>
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/gg699722(v=vs.85)">SIO_RELEASE_PORT_RESERVATION</a>
+<a href="/windows/win32/winsock/sio-release-port-reservation">SIO_RELEASE_PORT_RESERVATION</a>

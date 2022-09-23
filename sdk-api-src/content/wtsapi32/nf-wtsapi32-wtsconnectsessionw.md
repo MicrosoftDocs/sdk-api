@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsapi32.WTSConnectSessionW
 title: WTSConnectSessionW function (wtsapi32.h)
-description: Connects a Remote Desktop Services session to an existing session on the local computer.
+description: Connects a Remote Desktop Services session to an existing session on the local computer. (Unicode)
 helpviewer_keywords: ["WTSConnectSession","WTSConnectSession function [Remote Desktop Services]","WTSConnectSessionA","WTSConnectSessionW","termserv.wtsconnectsession","wtsapi32/WTSConnectSession","wtsapi32/WTSConnectSessionA","wtsapi32/WTSConnectSessionW"]
 old-location: termserv\wtsconnectsession.htm
 tech.root: TermServ

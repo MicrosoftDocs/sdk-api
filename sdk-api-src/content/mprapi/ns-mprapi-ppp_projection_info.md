@@ -1,7 +1,7 @@
 ---
 UID: NS:mprapi._PPP_PROJECTION_INFO
 title: PPP_PROJECTION_INFO (mprapi.h)
-description: Contains information obtained during Point-to-Point (PPP) negotiation for Secure Socket Tunneling Protocol (SSTP), Point-to-Point Tunneling Protocol (PPTP), and Layer 2 Tunneling Protocol (L2TP).
+description: Contains information obtained during Point-to-Point (PPP) negotiation for Secure Socket Tunneling Protocol (SSTP), Point-to-Point Tunneling Protocol (PPTP), and Layer 2 Tunneling Protocol (L2TP). (PPP_PROJECTION_INFO)
 helpviewer_keywords: ["*PPPP_PROJECTION_INFO","ERROR_PPP_NOT_CONVERGING","PPP_CCP_COMPRESSION","PPP_CCP_ENCRYPTION128BIT","PPP_CCP_ENCRYPTION40BIT","PPP_CCP_ENCRYPTION40BITOLD","PPP_CCP_ENCRYPTION56BIT","PPP_CCP_HISTORYLESS","PPP_IPCP_VJ","PPP_LCP_3_DES","PPP_LCP_ACFC","PPP_LCP_AES_128","PPP_LCP_AES_256","PPP_LCP_CHAP","PPP_LCP_CHAP_MD5","PPP_LCP_CHAP_MS","PPP_LCP_CHAP_MSV2","PPP_LCP_DES_56","PPP_LCP_EAP","PPP_LCP_MULTILINK_FRAMING","PPP_LCP_PAP","PPP_LCP_PFC","PPP_LCP_SSHF","PPP_PROJECTION_INFO","PPP_PROJECTION_INFO structure [RAS]","RASCCPCA_MPPC","RASCCPCA_STAC","mprapi/PPP_PROJECTION_INFO","rras.ppp_projection_info"]
 old-location: rras\ppp_projection_info.htm
 tech.root: RRAS

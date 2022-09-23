@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateDrawingStateBlock(ID2D1DrawingStateBlock)
 title: ID2D1Factory::CreateDrawingStateBlock(ID2D1DrawingStateBlock) (d2d1.h)
-description: Creates an ID2D1DrawingStateBlock that can be used with the SaveDrawingState and RestoreDrawingState methods of a render target.
+description: Creates an ID2D1DrawingStateBlock that can be used with the SaveDrawingState and RestoreDrawingState methods of a render target. (overload 3/3)
 helpviewer_keywords: ["CreateDrawingStateBlock","CreateDrawingStateBlock method [Direct2D]","CreateDrawingStateBlock method [Direct2D]","ID2D1Factory interface","ID2D1Factory interface [Direct2D]","CreateDrawingStateBlock method","ID2D1Factory.CreateDrawingStateBlock","ID2D1Factory.CreateDrawingStateBlock(ID2D1DrawingStateBlock)","ID2D1Factory::CreateDrawingStateBlock","ID2D1Factory::CreateDrawingStateBlock(ID2D1DrawingStateBlock)","d2d1/ID2D1Factory::CreateDrawingStateBlock","direct2d.ID2D1Factory_CreateDrawingStateBlock_ptr_ptr_ID2D1DrawingStateBlock"]
 old-location: direct2d\ID2D1Factory_CreateDrawingStateBlock_ptr_ptr_ID2D1DrawingStateBlock.htm
 tech.root: Direct2D

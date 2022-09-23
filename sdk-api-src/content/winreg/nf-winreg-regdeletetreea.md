@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegDeleteTreeA
 title: RegDeleteTreeA function (winreg.h)
-description: Deletes the subkeys and values of the specified key recursively.
+description: Deletes the subkeys and values of the specified key recursively. (ANSI)
 helpviewer_keywords: ["RegDeleteTree","RegDeleteTree function","RegDeleteTreeA","RegDeleteTreeW","base.regdeletetree","winreg/RegDeleteTree","winreg/RegDeleteTreeA","winreg/RegDeleteTreeW"]
 old-location: base\regdeletetree.htm
 tech.root: winprog

@@ -1,7 +1,7 @@
 ---
 UID: NF:strsafe.StringCbGetsA
 title: StringCbGetsA function (strsafe.h)
-description: Gets one line of text from stdin, up to and including the newline character ('\n').
+description: Gets one line of text from stdin, up to and including the newline character ('\n'). (StringCbGetsA)
 helpviewer_keywords: ["StringCbGets","StringCbGets function [Menus and Other Resources]","StringCbGetsA","StringCbGetsW","_shell_StringCbGets","_shell_stringcbgets_cpp","menurc.stringcbgets","strsafe/StringCbGets","strsafe/StringCbGetsA","strsafe/StringCbGetsW","winui._shell_stringcbgets"]
 old-location: menurc\stringcbgets.htm
 tech.root: menurc

@@ -1,7 +1,7 @@
 ---
 UID: NF:aclapi.TreeSetNamedSecurityInfoW
 title: TreeSetNamedSecurityInfoW function (aclapi.h)
-description: Sets specified security information in the security descriptor of a specified tree of objects.
+description: Sets specified security information in the security descriptor of a specified tree of objects. (Unicode)
 helpviewer_keywords: ["TREE_SEC_INFO_RESET","TREE_SEC_INFO_RESET_KEEP_EXPLICIT","TREE_SEC_INFO_SET","TreeSetNamedSecurityInfo","TreeSetNamedSecurityInfo function [Security]","TreeSetNamedSecurityInfoA","TreeSetNamedSecurityInfoW","aclapi/TreeSetNamedSecurityInfo","aclapi/TreeSetNamedSecurityInfoA","aclapi/TreeSetNamedSecurityInfoW","security.treesetnamedsecurityinfo"]
 old-location: security\treesetnamedsecurityinfo.htm
 tech.root: security

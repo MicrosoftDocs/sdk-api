@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsMaintenance
 title: IVdsMaintenance (vds.h)
-description: Provides methods for performing maintenance operations on a subsystem, controller, LUN, or drive.
+description: The IVdsMaintenance interface (vds.h) provides methods for performing maintenance operations on a subsystem, controller, LUN, or drive.  
 helpviewer_keywords: ["IVdsMaintenance","IVdsMaintenance interface [VDS]","IVdsMaintenance interface [VDS]","described","base.ivdsmaintenance","vds/IVdsMaintenance","vdshwprv/IVdsMaintenance"]
 old-location: base\ivdsmaintenance.htm
 tech.root: base
 ms.assetid: 08c01459-151a-4dd8-bea5-412076e39a8a
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsMaintenance, IVdsMaintenance interface [VDS], IVdsMaintenance interface [VDS],described, base.ivdsmaintenance, vds/IVdsMaintenance, vdshwprv/IVdsMaintenance
 req.header: vds.h
 req.include-header: 

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.UrlEscapeW
 title: UrlEscapeW function (shlwapi.h)
-description: Converts characters or surrogate pairs in a URL that might be altered during transport across the Internet (&quot;unsafe&quot; characters) into their corresponding escape sequences.
+description: Converts characters or surrogate pairs in a URL that might be altered during transport across the Internet (&quot;unsafe&quot; characters) into their corresponding escape sequences. (Unicode)
 helpviewer_keywords: ["URL_BROWSER_MODE","URL_DONT_ESCAPE_EXTRA_INFO","URL_ESCAPE_ASCII_URI_COMPONENT","URL_ESCAPE_AS_UTF8","URL_ESCAPE_PERCENT","URL_ESCAPE_SEGMENT_ONLY","URL_ESCAPE_SPACES_ONLY","UrlEscape","UrlEscape function [Windows Shell]","UrlEscapeA","UrlEscapeW","_win32_UrlEscape","shell.UrlEscape","shlwapi/UrlEscape","shlwapi/UrlEscapeA","shlwapi/UrlEscapeW"]
 old-location: shell\UrlEscape.htm
 tech.root: shell

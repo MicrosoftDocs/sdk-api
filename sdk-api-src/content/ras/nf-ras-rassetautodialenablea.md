@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasSetAutodialEnableA
 title: RasSetAutodialEnableA function (ras.h)
-description: The RasSetAutodialEnable function enables or disables the AutoDial feature for a specified TAPI dialing location.
+description: The RasSetAutodialEnable function enables or disables the AutoDial feature for a specified TAPI dialing location. (ANSI)
 helpviewer_keywords: ["RasSetAutodialEnable","RasSetAutodialEnable function [RAS]","RasSetAutodialEnableA","RasSetAutodialEnableW","_ras_rassetautodialenable","ras/RasSetAutodialEnable","ras/RasSetAutodialEnableA","ras/RasSetAutodialEnableW","rras.rassetautodialenable"]
 old-location: rras\rassetautodialenable.htm
 tech.root: RRAS

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dcompiler.D3DCompile2
 title: D3DCompile2 function (d3dcompiler.h)
-description: Compiles Microsoft High Level Shader Language (HLSL) code into bytecode for a given target.
+description: Compiles Microsoft High Level Shader Language (HLSL) code into bytecode for a given target. (D3DCompile2)
 helpviewer_keywords: ["D3DCompile2","D3DCompile2 function [HLSL]","d3dcompiler/D3DCompile2","direct3dhlsl.d3dcompile2"]
 old-location: direct3dhlsl\d3dcompile2.htm
 tech.root: direct3dhlsl

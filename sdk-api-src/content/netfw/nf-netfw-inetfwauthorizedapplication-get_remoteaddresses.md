@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.get_RemoteAddresses
 title: INetFwAuthorizedApplication::get_RemoteAddresses (netfw.h)
-description: Specifies a set of the remote addresses from which the application can listen for traffic.
+description: Specifies a set of the remote addresses from which the application can listen for traffic. (Get)
 helpviewer_keywords: ["INetFwAuthorizedApplication interface [ICS/ICF]","RemoteAddresses property","INetFwAuthorizedApplication.RemoteAddresses","INetFwAuthorizedApplication.get_RemoteAddresses","INetFwAuthorizedApplication::RemoteAddresses","INetFwAuthorizedApplication::get_RemoteAddresses","INetFwAuthorizedApplication::put_RemoteAddresses","RemoteAddresses property [ICS/ICF]","RemoteAddresses property [ICS/ICF]","INetFwAuthorizedApplication interface","get_RemoteAddresses","ics.inetfwauthorizedapplication_remoteaddresses","netfw/INetFwAuthorizedApplication::RemoteAddresses","netfw/INetFwAuthorizedApplication::get_RemoteAddresses","netfw/INetFwAuthorizedApplication::put_RemoteAddresses"]
 old-location: ics\inetfwauthorizedapplication_remoteaddresses.htm
 tech.root: ics

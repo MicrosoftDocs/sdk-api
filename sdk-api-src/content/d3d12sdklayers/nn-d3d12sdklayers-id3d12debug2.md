@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12Debug2
 title: ID3D12Debug2 (d3d12sdklayers.h)
-description: Adds configurable levels of GPU-based validation to the debug layer.
+description: Adds configurable levels of GPU-based validation to the debug layer. (ID3D12Debug2)
 helpviewer_keywords: ["- ID3D12Debug2"]
 old-location: direct3d12\id3d12debug2.htm
 tech.root: direct3d12

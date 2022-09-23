@@ -1,7 +1,7 @@
 ---
 UID: NS:wlanapi._DOT11_NETWORK
 title: DOT11_NETWORK (wlanapi.h)
-description: Contains information about an available wireless network.
+description: Contains information about an available wireless network. (DOT11_NETWORK)
 helpviewer_keywords: ["*PDOT11_NETWORK","DOT11_NETWORK","DOT11_NETWORK structure [NativeWIFI]","PDOT11_NETWORK","PDOT11_NETWORK structure pointer [NativeWIFI]","nwifi.dot11_network","wlanapi/DOT11_NETWORK","wlanapi/PDOT11_NETWORK"]
 old-location: nwifi\dot11_network.htm
 tech.root: nwifi

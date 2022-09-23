@@ -1,7 +1,7 @@
 ---
 UID: NF:securitybaseapi.AddAccessAllowedObjectAce
 title: AddAccessAllowedObjectAce function (securitybaseapi.h)
-description: Adds an access-allowed access control entry (ACE) to the end of a discretionary access control list (DACL).
+description: Adds an access-allowed access control entry (ACE) to the end of a discretionary access control list (DACL). (AddAccessAllowedObjectAce)
 helpviewer_keywords: ["AddAccessAllowedObjectAce","AddAccessAllowedObjectAce function [Security]","CONTAINER_INHERIT_ACE","INHERITED_ACE","INHERIT_ONLY_ACE","NO_PROPAGATE_INHERIT_ACE","OBJECT_INHERIT_ACE","_win32_addaccessallowedobjectace","security.addaccessallowedobjectace","securitybaseapi/AddAccessAllowedObjectAce"]
 old-location: security\addaccessallowedobjectace.htm
 tech.root: security

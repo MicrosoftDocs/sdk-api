@@ -55,7 +55,7 @@ An [APO_NOTIFICATION](ns-audioengineextensionapo-apo_notification.md) representi
  Specify the set of APO changes for which this method is called by implementing [IAudioProcessingObjectNotifications::GetApoNotificationRegistrationInfo](nf-audioengineextensionapo-iaudioprocessingobjectnotifications-getaponotificationregistrationinfo.md).
 
 
-This method will be called after [LockForProcess](../api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobjectconfiguration-lockforprocess.md) is called and will stop being called before [UnlockForProcess](../api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobjectconfiguration-unlockforprocess.md). If there are any notifications in flight, they might get executed during or after **UnlockForProcess**. The APO must handle synchronization in this case.
+This method will be called after [LockForProcess](/windows/win32/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobjectconfiguration-lockforprocess) is called and will stop being called before [UnlockForProcess](/windows/win32/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobjectconfiguration-unlockforprocess). If there are any notifications in flight, they might get executed during or after **UnlockForProcess**. The APO must handle synchronization in this case.
 
 > [!NOTE]
 > APOs must query each property once to get its initial value because **HandleNotification** method is only invoked when any of the properties have changed. The exceptions to this are the initial audio endpoint volume when the APO registers for APO_NOTIFICATION_TYPE_ENDPOINT_VOLUME and the value of PKEY_AudioEndpoint_Disable_SysFx if the APO registers for APO_NOTIFICATION_TYPE_ENDPOINT_PROPERTY_CHANGE

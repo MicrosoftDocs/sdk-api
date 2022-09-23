@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d9helper.IDirect3D9
 title: IDirect3D9 (d3d9helper.h)
-description: Applications use the methods of the IDirect3D9 interface to create Microsoft Direct3D objects and set up the environment. This interface includes methods for enumerating and retrieving capabilities of the device.
+description: The IDirect3D9 interface (d3d9helper.h) provides methods that create Microsoft Direct3D objects and set up the environment.
 helpviewer_keywords: ["IDirect3D9","IDirect3D9 interface [Direct3D 9]","IDirect3D9 interface [Direct3D 9]","described","d3d9helper/IDirect3D9","dc75d960-747a-5bea-1745-0255278bfcd1","direct3d9.idirect3d9"]
 old-location: direct3d9\idirect3d9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9.htm
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: IDirect3D9, IDirect3D9 interface [Direct3D 9], IDirect3D9 interface [Direct3D 9],described, d3d9helper/IDirect3D9, dc75d960-747a-5bea-1745-0255278bfcd1, direct3d9.idirect3d9
 req.header: d3d9helper.h
 req.include-header: D3D9.h

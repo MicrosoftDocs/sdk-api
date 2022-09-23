@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SetClassLongPtrW
 title: SetClassLongPtrW function (winuser.h)
-description: Replaces the specified value at the specified offset in the extra class memory or the WNDCLASSEX structure for the class to which the specified window belongs.
+description: Replaces the specified value at the specified offset in the extra class memory or the WNDCLASSEX structure for the class to which the specified window belongs. (Unicode)
 helpviewer_keywords: ["GCLP_ HBRBACKGROUND","GCLP_HCURSOR","GCLP_HICON","GCLP_HICONSM","GCLP_HMODULE","GCLP_MENUNAME","GCLP_WNDPROC","GCL_CBCLSEXTRA","GCL_CBWNDEXTRA","GCL_STYLE","SetClassLongPtr","SetClassLongPtr function [Windows and Messages]","SetClassLongPtrA","SetClassLongPtrW","_win32_SetClassLongPtr","_win32_setclasslongptr_cpp","winmsg.setclasslongptr","winui._win32_setclasslongptr","winuser/SetClassLongPtr","winuser/SetClassLongPtrA","winuser/SetClassLongPtrW"]
 old-location: winmsg\setclasslongptr.htm
 tech.root: winmsg

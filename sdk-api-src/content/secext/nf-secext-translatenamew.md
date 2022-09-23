@@ -1,7 +1,7 @@
 ---
 UID: NF:secext.TranslateNameW
 title: TranslateNameW function (secext.h)
-description: Converts a directory service object name from one format to another.
+description: Converts a directory service object name from one format to another. (Unicode)
 helpviewer_keywords: ["TranslateName","TranslateName function","TranslateNameA","TranslateNameW","_win32_translatename","base.translatename","secext/TranslateName","secext/TranslateNameA","secext/TranslateNameW"]
 old-location: base\translatename.htm
 tech.root: winprog

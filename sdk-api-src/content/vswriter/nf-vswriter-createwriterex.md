@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.CreateWriterEx
 title: CreateWriterEx function (vswriter.h)
-description: This function is reserved for system use.
+description: This function is reserved for system use. (CreateWriterEx)
 helpviewer_keywords: ["CreateWriterEx","CreateWriterEx function","base.createwriterex","vswriter/CreateWriterEx"]
 old-location: base\createwriterex.htm
 tech.root: base

@@ -1,7 +1,7 @@
 ---
 UID: NF:winfax.FaxSendDocumentW
 title: FaxSendDocumentW function (winfax.h)
-description: A fax client application calls the FaxSendDocument function to queue a fax job that will transmit an outgoing fax transmission.
+description: A fax client application calls the FaxSendDocument function to queue a fax job that will transmit an outgoing fax transmission. (Unicode)
 helpviewer_keywords: ["FaxSendDocument","FaxSendDocument function [Fax Service]","FaxSendDocumentA","FaxSendDocumentW","_mfax_faxsenddocument","fax._mfax_faxsenddocument","winfax/FaxSendDocument","winfax/FaxSendDocumentA","winfax/FaxSendDocumentW"]
 old-location: fax\_mfax_faxsenddocument.htm
 tech.root: Fax

@@ -1,7 +1,7 @@
 ---
 UID: NS:commdlg.tagCHOOSEFONTA
 title: CHOOSEFONTA (commdlg.h)
-description: Contains information that the ChooseFont function uses to initialize the Font dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
+description: Contains information that the ChooseFont function uses to initialize the Font dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure. (ANSI)
 helpviewer_keywords: ["*LPCHOOSEFONTA","BOLD_FONTTYPE","CF_ANSIONLY","CF_APPLY","CF_BOTH","CF_EFFECTS","CF_ENABLEHOOK","CF_ENABLETEMPLATE","CF_ENABLETEMPLATEHANDLE","CF_FIXEDPITCHONLY","CF_FORCEFONTEXIST","CF_INACTIVEFONTS","CF_INITTOLOGFONTSTRUCT","CF_LIMITSIZE","CF_NOFACESEL","CF_NOOEMFONTS","CF_NOSCRIPTSEL","CF_NOSIMULATIONS","CF_NOSIZESEL","CF_NOSTYLESEL","CF_NOVECTORFONTS","CF_NOVERTFONTS","CF_PRINTERFONTS","CF_SCALABLEONLY","CF_SCREENFONTS","CF_SCRIPTSONLY","CF_SELECTSCRIPT","CF_SHOWHELP","CF_TTONLY","CF_USESTYLE","CF_WYSIWYG","CHOOSEFONT","CHOOSEFONT structure [Dialog Boxes]","CHOOSEFONTA","CHOOSEFONTW","ITALIC_FONTTYPE","LPCHOOSEFONT","LPCHOOSEFONT structure pointer [Dialog Boxes]","PRINTER_FONTTYPE","REGULAR_FONTTYPE","SCREEN_FONTTYPE","SIMULATED_FONTTYPE","_win32_CHOOSEFONT_str","_win32_choosefont_str_cpp","commdlg/CHOOSEFONT","commdlg/CHOOSEFONTA","commdlg/CHOOSEFONTW","commdlg/LPCHOOSEFONT","dlgbox.choosefont_str","tagCHOOSEFONTA","tagCHOOSEFONTW","winui._win32_choosefont_str"]
 old-location: dlgbox\choosefont_str.htm
 tech.root: dlgbox

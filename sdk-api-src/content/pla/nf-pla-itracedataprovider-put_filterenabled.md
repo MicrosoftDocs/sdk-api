@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ITraceDataProvider.put_FilterEnabled
 title: ITraceDataProvider::put_FilterEnabled (pla.h)
-description: Retrieves or sets a value that determines whether the filter data is used to enable the provider.
+description: Retrieves or sets a value that determines whether the filter data is used to enable the provider. (Put)
 helpviewer_keywords: ["FilterEnabled property [PLA]","FilterEnabled property [PLA]","ITraceDataProvider interface","ITraceDataProvider interface [PLA]","FilterEnabled property","ITraceDataProvider.FilterEnabled","ITraceDataProvider.put_FilterEnabled","ITraceDataProvider::FilterEnabled","ITraceDataProvider::get_FilterEnabled","ITraceDataProvider::put_FilterEnabled","pla.itracedataprovider_filterenabled","pla/ITraceDataProvider::FilterEnabled","pla/ITraceDataProvider::get_FilterEnabled","pla/ITraceDataProvider::put_FilterEnabled","put_FilterEnabled"]
 old-location: pla\itracedataprovider_filterenabled.htm
 tech.root: PLA

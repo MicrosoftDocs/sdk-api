@@ -1,7 +1,8 @@
 ---
 UID: NS:objidl.tagBIND_OPTS3~r1
 title: BIND_OPTS3
-ms.date: 01/30/2019
+description: The BIND_OPTS3 structure contains parameters used during a moniker-binding operation.
+ms.date: 08/13/2022
 ms.keywords: tagBIND_OPTS3, BIND_OPTS3
 targetos: Windows
 req.construct-type: structure

@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegSaveKeyW
 title: RegSaveKeyW function (winreg.h)
-description: Saves the specified key and all of its subkeys and values to a new file, in the standard format.
+description: Saves the specified key and all of its subkeys and values to a new file, in the standard format. (Unicode)
 helpviewer_keywords: ["RegSaveKey","RegSaveKey function","RegSaveKeyA","RegSaveKeyW","_win32_regsavekey","base.regsavekey","winreg/RegSaveKey","winreg/RegSaveKeyA","winreg/RegSaveKeyW"]
 old-location: base\regsavekey.htm
 tech.root: winprog

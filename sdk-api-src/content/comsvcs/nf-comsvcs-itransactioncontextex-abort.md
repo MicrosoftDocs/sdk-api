@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ITransactionContextEx.Abort
 title: ITransactionContextEx::Abort (comsvcs.h)
-description: Aborts the work of all COM objects participating in the current transaction. The transaction ends on return from this method.
+description: Aborts the work of all COM objects participating in the current transaction. The transaction ends on return from this method. (ITransactionContextEx.Abort)
 helpviewer_keywords: ["Abort","Abort method [COM+]","Abort method [COM+]","ITransactionContextEx interface","ITransactionContextEx interface [COM+]","Abort method","ITransactionContextEx.Abort","ITransactionContextEx::Abort","_cos_ITransactionContextEx_Abort","comsvcs/ITransactionContextEx::Abort","cos.itransactioncontextex_abort"]
 old-location: cos\itransactioncontextex_abort.htm
 tech.root: cos

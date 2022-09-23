@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMBYTEN2.XMBYTEN2(uint16_t)
 title: XMBYTEN2::XMBYTEN2(uint16_t) (directxpackedvector.h)
-description: A constructor for XMBYTEN2.
+description: A constructor for XMBYTEN2. (overload 1/3)
 helpviewer_keywords: ["XMBYTEN2","XMBYTEN2 constructor [DirectX Math Support APIs]","XMBYTEN2 constructor [DirectX Math Support APIs]","XMBYTEN2 structure","XMBYTEN2 structure [DirectX Math Support APIs]","XMBYTEN2 constructor","XMBYTEN2.XMBYTEN2","XMBYTEN2.XMBYTEN2()","XMBYTEN2.XMBYTEN2(uint16_t)","XMBYTEN2::XMBYTEN2","XMBYTEN2::XMBYTEN2(uint16_t)","dxmath.xmbyten2_ctor_1"]
 old-location: 
 tech.root: dxmath

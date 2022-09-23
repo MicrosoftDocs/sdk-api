@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetStreamSource
 title: IDirect3DDevice9::GetStreamSource (d3d9.h)
-description: Retrieves a vertex buffer bound to the specified data stream.
+description: The IDirect3DDevice9::GetStreamSource method (d3d9.h) retrieves a vertex buffer bound to the specified data stream.
 helpviewer_keywords: ["2e39bbb7-4148-9989-c1b0-1c60594bdf41","GetStreamSource","GetStreamSource method [Direct3D 9]","GetStreamSource method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetStreamSource method","IDirect3DDevice9.GetStreamSource","IDirect3DDevice9::GetStreamSource","d3d9helper/IDirect3DDevice9::GetStreamSource","direct3d9.idirect3ddevice9__getstreamsource"]
 old-location: direct3d9\idirect3ddevice9__getstreamsource.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getstreamsource.htm
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: 2e39bbb7-4148-9989-c1b0-1c60594bdf41, GetStreamSource, GetStreamSource method [Direct3D 9], GetStreamSource method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetStreamSource method, IDirect3DDevice9.GetStreamSource, IDirect3DDevice9::GetStreamSource, d3d9helper/IDirect3DDevice9::GetStreamSource, direct3d9.idirect3ddevice9__getstreamsource
 req.header: d3d9.h
 req.include-header: D3D9.h

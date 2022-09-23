@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMStoryFragmentsResource.GetStream
 title: IXpsOMStoryFragmentsResource::GetStream (xpsobjectmodel.h)
-description: Gets a new, read-only copy of the stream that is associated with this resource.
+description: Gets a new, read-only copy of the stream that is associated with this resource. (IXpsOMStoryFragmentsResource.GetStream)
 helpviewer_keywords: ["GetStream","GetStream method [XPS Documents and Packaging]","GetStream method [XPS Documents and Packaging]","IXpsOMStoryFragmentsResource interface","IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging]","GetStream method","IXpsOMStoryFragmentsResource.GetStream","IXpsOMStoryFragmentsResource::GetStream","xps.ixpsomstoryfragmentsresource_getstream","xpsobjectmodel/IXpsOMStoryFragmentsResource::GetStream"]
 old-location: xps\ixpsomstoryfragmentsresource_getstream.htm
 tech.root: xps

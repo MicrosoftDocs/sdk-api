@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication.OpenRole
 title: IAzApplication::OpenRole (azroles.h)
-description: Opens an IAzRole object with the specified name.
+description: Opens an IAzRole object with the specified name. (IAzApplication.OpenRole)
 helpviewer_keywords: ["AzApplication object [Security]","OpenRole method","IAzApplication interface [Security]","OpenRole method","IAzApplication.OpenRole","IAzApplication::OpenRole","OpenRole","OpenRole method [Security]","OpenRole method [Security]","AzApplication object","OpenRole method [Security]","IAzApplication interface","azroles/IAzApplication::OpenRole","security.iazapplication_openrole"]
 old-location: security\iazapplication_openrole.htm
 tech.root: security

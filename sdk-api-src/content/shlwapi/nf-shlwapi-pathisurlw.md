@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathIsURLW
 title: PathIsURLW function (shlwapi.h)
-description: Tests a given string to determine if it conforms to a valid URL format.
+description: Tests a given string to determine if it conforms to a valid URL format. (Unicode)
 helpviewer_keywords: ["PathIsURL","PathIsURL function [Windows Shell]","PathIsURLA","PathIsURLW","_win32_PathIsURL","shell.PathIsURL","shlwapi/PathIsURL","shlwapi/PathIsURLA","shlwapi/PathIsURLW"]
 old-location: shell\PathIsURL.htm
 tech.root: shell

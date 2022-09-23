@@ -1,7 +1,7 @@
 ---
 UID: NF:errorrep.AddERExcludedApplicationW
 title: AddERExcludedApplicationW function (errorrep.h)
-description: Excludes the specified application from error reporting.
+description: Excludes the specified application from error reporting. (Unicode)
 helpviewer_keywords: ["AddERExcludedApplication","AddERExcludedApplication function [Windows Error Reporting]","AddERExcludedApplicationA","AddERExcludedApplicationW","_win32_adderexcludedapplication","base.adderexcludedapplication","errorrep/AddERExcludedApplication","errorrep/AddERExcludedApplicationA","errorrep/AddERExcludedApplicationW","wer.adderexcludedapplication"]
 old-location: wer\adderexcludedapplication.htm
 tech.root: wer

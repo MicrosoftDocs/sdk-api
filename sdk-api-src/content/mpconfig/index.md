@@ -18,6 +18,6 @@ f1_keywords:
 
 This header is used by multiple technologies. For more information, see:
 
-- [DirectShow](../_dshow/index.md)
+- [DirectShow](/windows/win32/directshow/directshow)
 - [Hyper-V WMI Provider](../_virtual/index.md)
 

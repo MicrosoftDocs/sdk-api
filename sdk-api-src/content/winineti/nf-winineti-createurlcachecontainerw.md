@@ -1,7 +1,7 @@
 ---
 UID: NF:winineti.CreateUrlCacheContainerW
 title: CreateUrlCacheContainerW function (winineti.h)
-description: Creates a cache container in the specified cache path to hold cache entries based on the specified name, cache prefix, and container type.
+description: Creates a cache container in the specified cache path to hold cache entries based on the specified name, cache prefix, and container type. (Unicode)
 helpviewer_keywords: ["CreateUrlCacheContainer","CreateUrlCacheContainer function [WinINet]","CreateUrlCacheContainerA","CreateUrlCacheContainerW","wininet.createurlcachecontainer","winineti/CreateUrlCacheContainer"]
 old-location: wininet\createurlcachecontainer.htm
 tech.root: wininet

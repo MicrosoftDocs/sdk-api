@@ -1,12 +1,12 @@
 ---
 UID: NS:vdshwprv._VDS_DISK_NOTIFICATION
 title: VDS_DISK_NOTIFICATION (vdshwprv.h)
-description: Defines the details of disk events.
+description: The VDS_DISK_NOTIFICATION structure (vdshwprv.h) defines the details of disk events. 
 helpviewer_keywords: ["VDS_DISK_NOTIFICATION","VDS_DISK_NOTIFICATION structure [VDS]","VDS_NF_DISK_ARRIVE","VDS_NF_DISK_DEPART","VDS_NF_DISK_MODIFY","base.vds_disk_notification","vds/_VDS_DISK_NOTIFICATION","vdshwprv/_VDS_DISK_NOTIFICATION"]
 old-location: base\vds_disk_notification.htm
 tech.root: base
 ms.assetid: ff0069ce-611f-4ad4-9b67-adb7dc0f7abc
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: VDS_DISK_NOTIFICATION, VDS_DISK_NOTIFICATION structure [VDS], VDS_NF_DISK_ARRIVE, VDS_NF_DISK_DEPART, VDS_NF_DISK_MODIFY, base.vds_disk_notification, vds/_VDS_DISK_NOTIFICATION, vdshwprv/_VDS_DISK_NOTIFICATION
 req.header: vdshwprv.h
 req.include-header: 

@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiRemovePatchesW
 title: MsiRemovePatchesW function (msi.h)
-description: Removes one or more patches from a single product.
+description: Removes one or more patches from a single product. (Unicode)
 helpviewer_keywords: ["INSTALLTYPE_SINGLE_INSTANCE","MsiRemovePatches","MsiRemovePatches function","MsiRemovePatchesA","MsiRemovePatchesW","msi/MsiRemovePatches","msi/MsiRemovePatchesA","msi/MsiRemovePatchesW","setup.msiremovepatches","setup.msiuninstallpatch"]
 old-location: setup\msiremovepatches.htm
 tech.root: setup

@@ -1,7 +1,7 @@
 ---
 UID: NF:audioengineendpoint.IAudioOutputEndpointRT.PulseEndpoint
 title: IAudioOutputEndpointRT::PulseEndpoint (audioengineendpoint.h)
-description: Is reserved.
+description: Is reserved. (IAudioOutputEndpointRT.PulseEndpoint)
 helpviewer_keywords: ["IAudioOutputEndpointRT interface [Remote Desktop Services]","PulseEndpoint method","IAudioOutputEndpointRT.PulseEndpoint","IAudioOutputEndpointRT::PulseEndpoint","PulseEndpoint","PulseEndpoint method [Remote Desktop Services]","PulseEndpoint method [Remote Desktop Services]","IAudioOutputEndpointRT interface","audioengineendpoint/IAudioOutputEndpointRT::PulseEndpoint","termserv.iaudiooutputendpointrt_pulseendpoint"]
 old-location: termserv\iaudiooutputendpointrt_pulseendpoint.htm
 tech.root: TermServ

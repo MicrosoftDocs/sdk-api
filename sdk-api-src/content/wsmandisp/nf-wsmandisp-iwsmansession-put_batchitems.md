@@ -1,7 +1,7 @@
 ---
 UID: NF:wsmandisp.IWSManSession.put_BatchItems
 title: IWSManSession::put_BatchItems (wsmandisp.h)
-description: Sets and gets the number of items in each enumeration batch.
+description: Sets and gets the number of items in each enumeration batch. (Put)
 helpviewer_keywords: ["BatchItems property [Windows Remote Management]","BatchItems property [Windows Remote Management]","IWSManSession interface","IWSManSession interface [Windows Remote Management]","BatchItems property","IWSManSession.BatchItems","IWSManSession.put_BatchItems","IWSManSession::BatchItems","IWSManSession::get_BatchItems","IWSManSession::put_BatchItems","put_BatchItems","winrm.iwsmansession_batchitems","wsmandisp/IWSManSession::BatchItems","wsmandisp/IWSManSession::get_BatchItems","wsmandisp/IWSManSession::put_BatchItems"]
 old-location: winrm\iwsmansession_batchitems.htm
 tech.root: winrm

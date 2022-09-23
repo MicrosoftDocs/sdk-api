@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasSetEntryDialParamsA
 title: RasSetEntryDialParamsA function (ras.h)
-description: The RasSetEntryDialParams function changes the connection information saved by the last successful call to the RasDial or RasSetEntryDialParams function for a specified phone-book entry.
+description: The RasSetEntryDialParams function changes the connection information saved by the last successful call to the RasDial or RasSetEntryDialParams function for a specified phone-book entry. (ANSI)
 helpviewer_keywords: ["RasSetEntryDialParams","RasSetEntryDialParams function [RAS]","RasSetEntryDialParamsA","RasSetEntryDialParamsW","_ras_rassetentrydialparams","dwCallbackId","dwSize","dwSubEntry","ras/RasSetEntryDialParams","ras/RasSetEntryDialParamsA","ras/RasSetEntryDialParamsW","rras.rassetentrydialparams","szCallbackNumber","szDomain","szEntryName","szPassword","szPhoneNumber","szUserName"]
 old-location: rras\rassetentrydialparams.htm
 tech.root: RRAS

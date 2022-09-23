@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DResource9.GetPrivateData
 title: IDirect3DResource9::GetPrivateData (d3d9helper.h)
-description: Copies the private data associated with the resource to a provided buffer.
+description: The IDirect3DResource9::GetPrivateData method (d3d9helper.h) copies the private data associated with the resource to a provided buffer.
 helpviewer_keywords: ["GetPrivateData","GetPrivateData method [Direct3D 9]","GetPrivateData method [Direct3D 9]","IDirect3DResource9 interface","IDirect3DResource9 interface [Direct3D 9]","GetPrivateData method","IDirect3DResource9.GetPrivateData","IDirect3DResource9::GetPrivateData","a3ce4b5e-f58e-cf26-2ef5-896eaf4a5613","d3d9helper/IDirect3DResource9::GetPrivateData","direct3d9.idirect3dresource9__getprivatedata"]
 old-location: direct3d9\idirect3dresource9__getprivatedata.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dresource9__getprivatedata.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: GetPrivateData, GetPrivateData method [Direct3D 9], GetPrivateData method [Direct3D 9],IDirect3DResource9 interface, IDirect3DResource9 interface [Direct3D 9],GetPrivateData method, IDirect3DResource9.GetPrivateData, IDirect3DResource9::GetPrivateData, a3ce4b5e-f58e-cf26-2ef5-896eaf4a5613, d3d9helper/IDirect3DResource9::GetPrivateData, direct3d9.idirect3dresource9__getprivatedata
 req.header: d3d9helper.h
 req.include-header: D3D9.h

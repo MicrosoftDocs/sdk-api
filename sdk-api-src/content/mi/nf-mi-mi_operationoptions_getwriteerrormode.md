@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetWriteErrorMode
 title: MI_OperationOptions_GetWriteErrorMode function (mi.h)
-description: Sets the error reporting mode.
+description: Sets the error reporting mode. (MI_OperationOptions_GetWriteErrorMode)
 helpviewer_keywords: ["MI_CALLBACKMODE_INQUIRE","MI_CALLBACKMODE_REPORT","MI_OperationOptions_GetWriteErrorMode","MI_OperationOptions_GetWriteErrorMode function [Windows Management Infrastructure (MI)]","mi/MI_OperationOptions_GetWriteErrorMode","wmi_v2.mi_operationoptions_getwriteerrormode"]
 old-location: wmi_v2\mi_operationoptions_getwriteerrormode.htm
 tech.root: wmi_v2

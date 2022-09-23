@@ -1,7 +1,7 @@
 ---
 UID: NF:oledlg.OleUIBusyA
 title: OleUIBusyA function (oledlg.h)
-description: Invokes the standard Busy dialog box, allowing the user to manage concurrency.
+description: Invokes the standard Busy dialog box, allowing the user to manage concurrency. (ANSI)
 helpviewer_keywords: ["OleUIBusy","OleUIBusy function [COM]","OleUIBusyA","OleUIBusyW","_ole_OleUIBusy","com.oleuibusy","oledlg/OleUIBusy","oledlg/OleUIBusyA","oledlg/OleUIBusyW"]
 old-location: com\oleuibusy.htm
 tech.root: com

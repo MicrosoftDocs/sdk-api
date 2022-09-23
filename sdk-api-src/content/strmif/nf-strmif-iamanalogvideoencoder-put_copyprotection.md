@@ -58,7 +58,7 @@ The <code>put_CopyProtection</code> method sets the level of copy protection for
 
 ### -param lVideoCopyProtection [in]
 
-Specifies the level of copy protection as a <b>long</b> integer with a value as defined in the <a href="/windows/desktop/api/dvdmedia/ne-dvdmedia-am_copy_macrovision_level">AM_COPY_MACROVISION_LEVEL</a> enumeration.
+Specifies the level of copy protection as a <b>long</b> integer with a value as defined in the <a href="/previous-versions/ms778997(v=vs.85)">AM_COPY_MACROVISION_LEVEL</a> enumeration.
 
 ## -returns
 

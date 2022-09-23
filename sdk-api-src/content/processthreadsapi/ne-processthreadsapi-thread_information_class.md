@@ -2,7 +2,8 @@
 UID: NE:processthreadsapi._THREAD_INFORMATION_CLASS
 tech.root: 
 title: THREAD_INFORMATION_CLASS
-ms.date: 
+description: The THREAD_INFORMATION_CLASS is an enumeration of the processthreadsapi.h header which is used by multiple technologies.
+ms.date: 08/05/2022
 targetos: Windows
 description: 
 prerelease: false

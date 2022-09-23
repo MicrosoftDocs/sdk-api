@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.wvsprintfA
 title: wvsprintfA function (winuser.h)
-description: Writes formatted data to the specified buffer using a pointer to a list of arguments.
+description: Writes formatted data to the specified buffer using a pointer to a list of arguments. (ANSI)
 helpviewer_keywords: ["_win32_wvsprintf","_win32_wvsprintf_cpp","menurc.wvsprintf","winui._win32_wvsprintf","winuser/wvsprintf","winuser/wvsprintfA","winuser/wvsprintfW","wvsprintf","wvsprintf function [Menus and Other Resources]","wvsprintfA","wvsprintfW"]
 old-location: menurc\wvsprintf.htm
 tech.root: menurc

@@ -2,9 +2,9 @@
 UID: NF:mfidl.IMFCameraConfigurationManager.Shutdown
 tech.root: 
 title: IMFCameraConfigurationManager::Shutdown
-ms.date: 
+ms.date: 08/05/2022
 targetos: Windows
-description: 
+description: The IMFCameraConfigurationManager::Shutdown function shuts down the camera configuration manager.
 prerelease: false
 req.assembly: 
 req.construct-type: function

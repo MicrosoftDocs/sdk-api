@@ -1,7 +1,7 @@
 ---
 UID: NF:propidl.IPropertyStorage.Stat
 title: IPropertyStorage::Stat (propidl.h)
-description: The Stat method retrieves information about the current open property set.
+description: The Stat method retrieves information about the current open property set. (IPropertyStorage.Stat)
 helpviewer_keywords: ["IPropertyStorage interface [Structured Storage]","Stat method","IPropertyStorage.Stat","IPropertyStorage::Stat","Stat","Stat method [Structured Storage]","Stat method [Structured Storage]","IPropertyStorage interface","_stg_ipropertystorage_stat","propidl/IPropertyStorage::Stat","stg.ipropertystorage_stat"]
 old-location: stg\ipropertystorage_stat.htm
 tech.root: Stg

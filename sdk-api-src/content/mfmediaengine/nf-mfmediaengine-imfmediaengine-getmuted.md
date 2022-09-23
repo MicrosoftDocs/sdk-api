@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetMuted
 title: IMFMediaEngine::GetMuted (mfmediaengine.h)
-description: Queries whether the audio is muted.
+description: Queries whether the audio is muted. (IMFMediaEngine.GetMuted)
 helpviewer_keywords: ["GetMuted","GetMuted method [Media Foundation]","GetMuted method [Media Foundation]","IMFMediaEngine interface","IMFMediaEngine interface [Media Foundation]","GetMuted method","IMFMediaEngine.GetMuted","IMFMediaEngine::GetMuted","mf.imfmediaengine_getmuted","mfmediaengine/IMFMediaEngine::GetMuted"]
 old-location: mf\imfmediaengine_getmuted.htm
 tech.root: mf

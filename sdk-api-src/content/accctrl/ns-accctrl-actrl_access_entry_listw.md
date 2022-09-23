@@ -1,7 +1,7 @@
 ---
 UID: NS:accctrl._ACTRL_ACCESS_ENTRY_LISTW
 title: ACTRL_ACCESS_ENTRY_LISTW (accctrl.h)
-description: Contains a list of access entries.
+description: Contains a list of access entries. (Unicode)
 helpviewer_keywords: ["*PACTRL_ACCESS_ENTRY_LISTW","ACTRL_ACCESS_ENTRY_LIST","ACTRL_ACCESS_ENTRY_LIST structure [COM]","ACTRL_ACCESS_ENTRY_LISTA","ACTRL_ACCESS_ENTRY_LISTW","PACTRL_ACCESS_ENTRY_LIST","PACTRL_ACCESS_ENTRY_LIST structure pointer [COM]","_ACTRL_ACCESS_ENTRY_LISTA","_ACTRL_ACCESS_ENTRY_LISTW","accctrl/ACTRL_ACCESS_ENTRY_LIST","accctrl/ACTRL_ACCESS_ENTRY_LISTA","accctrl/ACTRL_ACCESS_ENTRY_LISTW","accctrl/PACTRL_ACCESS_ENTRY_LIST","com.actrl_access_entry_list"]
 old-location: com\actrl_access_entry_list.htm
 tech.root: com

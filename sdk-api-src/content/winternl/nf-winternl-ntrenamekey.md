@@ -1,7 +1,7 @@
 ---
 UID: NF:winternl.NtRenameKey
 title: NtRenameKey function (winternl.h)
-description: Changes the name of the specified registry key.
+description: Changes the name of the specified registry key. (NtRenameKey)
 helpviewer_keywords: ["NtRenameKey","NtRenameKey function [Windows API]","base.ntrenamekey","winprog.ntrenamekey","winternl/NtRenameKey"]
 old-location: winprog\ntrenamekey.htm
 tech.root: winprog

@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList.AddMasked
 title: IImageList::AddMasked (commoncontrols.h)
-description: Adds an image or images to an image list, generating a mask from the specified bitmap.
+description: Adds an image or images to an image list, generating a mask from the specified bitmap. (IImageList.AddMasked)
 helpviewer_keywords: ["AddMasked","AddMasked method [Windows Controls]","AddMasked method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","AddMasked method","IImageList.AddMasked","IImageList::AddMasked","comctl_IImageList_AddMasked","comctl_IImageList_AddMasked_cpp","commoncontrols/IImageList::AddMasked","controls.IImageList_AddMasked","controls.comctl_IImageList_AddMasked"]
 old-location: controls\IImageList_AddMasked.htm
 tech.root: Controls

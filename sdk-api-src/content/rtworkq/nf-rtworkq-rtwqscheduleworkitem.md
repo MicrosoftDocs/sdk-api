@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqScheduleWorkItem
 title: RtwqScheduleWorkItem function (rtworkq.h)
-description: Schedules an asynchronous operation to be completed after a specified interval.
+description: Schedules an asynchronous operation to be completed after a specified interval. (RtwqScheduleWorkItem)
 helpviewer_keywords: ["RtwqScheduleWorkItem","RtwqScheduleWorkItem function","base.rtwqscheduleworkitem","rtworkq/RtwqScheduleWorkItem"]
 old-location: base\rtwqscheduleworkitem.htm
 tech.root: backup

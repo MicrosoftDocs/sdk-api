@@ -1,7 +1,7 @@
 ---
 UID: NF:adsprop.ADsPropSetHwnd
 title: ADsPropSetHwnd function (adsprop.h)
-description: Used to notify the notification object of the property page window handle.
+description: Used to notify the notification object of the property page window handle. (ADsPropSetHwnd)
 helpviewer_keywords: ["ADsPropSetHwnd","ADsPropSetHwnd function [Active Directory]","_glines_adspropsethwnd","ad.adspropsethwnd","adsprop/ADsPropSetHwnd"]
 old-location: ad\adspropsethwnd.htm
 tech.root: ad

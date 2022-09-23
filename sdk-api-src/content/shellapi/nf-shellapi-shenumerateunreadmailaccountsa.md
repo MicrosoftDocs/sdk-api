@@ -1,7 +1,7 @@
 ---
 UID: NF:shellapi.SHEnumerateUnreadMailAccountsA
 title: SHEnumerateUnreadMailAccountsA function (shellapi.h)
-description: Enumerates the user accounts that have unread email.
+description: Enumerates the user accounts that have unread email. (ANSI)
 helpviewer_keywords: ["SHEnumerateUnreadMailAccounts","SHEnumerateUnreadMailAccounts function [Windows Shell]","SHEnumerateUnreadMailAccountsA","SHEnumerateUnreadMailAccountsW","_shell_SHEnumerateUnreadMailAccounts","shell.SHEnumerateUnreadMailAccounts","shellapi/SHEnumerateUnreadMailAccounts","shellapi/SHEnumerateUnreadMailAccountsA","shellapi/SHEnumerateUnreadMailAccountsW"]
 old-location: shell\SHEnumerateUnreadMailAccounts.htm
 tech.root: shell

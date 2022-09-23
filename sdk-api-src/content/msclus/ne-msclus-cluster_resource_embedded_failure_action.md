@@ -1,12 +1,12 @@
 ---
 UID: NE:msclus.CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION
 title: CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION (msclus.h)
-description: Specifies the various actions that can be performed when a resource has an embedded failure.
+description: The CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION enumeration (msclus.h) specifies the various actions that can be performed when a resource has an embedded failure.
 helpviewer_keywords: ["CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION","CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION enumeration [Failover Cluster]","ClusterResourceEmbeddedFailureActionLogOnly","ClusterResourceEmbeddedFailureActionNone","ClusterResourceEmbeddedFailureActionRecover","clusapi/CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION","clusapi/ClusterResourceEmbeddedFailureActionLogOnly","clusapi/ClusterResourceEmbeddedFailureActionNone","clusapi/ClusterResourceEmbeddedFailureActionRecover","msclus/CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION","msclus/ClusterResourceEmbeddedFailureActionLogOnly","msclus/ClusterResourceEmbeddedFailureActionNone","msclus/ClusterResourceEmbeddedFailureActionRecover","mscs.cluster_resource_embedded_failure_action"]
 old-location: mscs\cluster_resource_embedded_failure_action.htm
 tech.root: MsCS
 ms.assetid: 72251E97-0DBC-4EEA-BACF-3F7677483F29
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION, CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION enumeration [Failover Cluster], ClusterResourceEmbeddedFailureActionLogOnly, ClusterResourceEmbeddedFailureActionNone, ClusterResourceEmbeddedFailureActionRecover, clusapi/CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION, clusapi/ClusterResourceEmbeddedFailureActionLogOnly, clusapi/ClusterResourceEmbeddedFailureActionNone, clusapi/ClusterResourceEmbeddedFailureActionRecover, msclus/CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION, msclus/ClusterResourceEmbeddedFailureActionLogOnly, msclus/ClusterResourceEmbeddedFailureActionNone, msclus/ClusterResourceEmbeddedFailureActionRecover, mscs.cluster_resource_embedded_failure_action
 req.header: msclus.h
 req.include-header: 

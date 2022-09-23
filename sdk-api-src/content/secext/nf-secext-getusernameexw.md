@@ -1,7 +1,7 @@
 ---
 UID: NF:secext.GetUserNameExW
 title: GetUserNameExW function (secext.h)
-description: Retrieves the name of the user or other security principal associated with the calling thread. You can specify the format of the returned name.
+description: Retrieves the name of the user or other security principal associated with the calling thread. You can specify the format of the returned name. (Unicode)
 helpviewer_keywords: ["GetUserNameEx","GetUserNameEx function","GetUserNameExA","GetUserNameExW","_win32_getusernameex","base.getusernameex","secext/GetUserNameEx","secext/GetUserNameExA","secext/GetUserNameExW"]
 old-location: base\getusernameex.htm
 tech.root: winprog

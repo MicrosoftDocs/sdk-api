@@ -3,7 +3,7 @@ UID: NS:schannel._SCH_CREDENTIALS
 title: SCH_CREDENTIALS
 ms.date: 7/25/2022
 targetos: Windows
-description: Contains the data for an Schannel credential.
+description: Contains the data for an Schannel credential. (SCH_CREDENTIALS)
 tech.root: security
 req.construct-type: structure
 req.ddi-compliance: 

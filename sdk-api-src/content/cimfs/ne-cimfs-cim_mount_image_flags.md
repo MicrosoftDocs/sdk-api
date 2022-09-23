@@ -1,7 +1,8 @@
 ---
 UID: NE:cimfs.CIM_MOUNT_IMAGE_FLAGS
 title: CIM_MOUNT_IMAGE_FLAGS
-ms.date: 9/9/2019
+description: The CIM_MOUNT_IMAGE_FLAGS enumeration contains flags that can be used to modify the behavior of CimMountImage.
+ms.date: 08/01/2022
 tech.root: cimfs
 ms.keywords: CIM_MOUNT_IMAGE_FLAGS
 targetos: Windows

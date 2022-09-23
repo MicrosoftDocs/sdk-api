@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagHIGHCONTRASTW
 title: HIGHCONTRASTW (winuser.h)
-description: Contains information about the high contrast accessibility feature.
+description: Contains information about the high contrast accessibility feature. (Unicode)
 helpviewer_keywords: ["*LPHIGHCONTRASTW","HCF_AVAILABLE","HCF_CONFIRMHOTKEY","HCF_HIGHCONTRASTON","HCF_HOTKEYACTIVE","HCF_HOTKEYAVAILABLE","HCF_HOTKEYSOUND","HCF_INDICATOR","HIGHCONTRAST","HIGHCONTRAST structure [Windows Accessibility]","HIGHCONTRASTW","LPHIGHCONTRAST","LPHIGHCONTRAST structure pointer [Windows Accessibility]","_win32_HIGHCONTRAST_str","msaa.highcontrast","tagACCESSTIMEOUTA","tagACCESSTIMEOUTW","winauto.highcontrast","winuser/HIGHCONTRAST","winuser/LPHIGHCONTRAST"]
 old-location: winauto\highcontrast.htm
 tech.root: WinAuto

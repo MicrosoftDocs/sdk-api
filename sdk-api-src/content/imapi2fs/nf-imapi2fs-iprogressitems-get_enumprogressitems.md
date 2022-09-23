@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IProgressItems.get_EnumProgressItems
 title: IProgressItems::get_EnumProgressItems (imapi2fs.h)
-description: Retrieves the list of progress items from the collection.
+description: Retrieves the list of progress items from the collection. (IProgressItems.get_EnumProgressItems)
 helpviewer_keywords: ["IProgressItems interface [IMAPI]","get_EnumProgressItems method","IProgressItems.get_EnumProgressItems","IProgressItems::get_EnumProgressItems","get_EnumProgressItems","get_EnumProgressItems method [IMAPI]","get_EnumProgressItems method [IMAPI]","IProgressItems interface","imapi.iprogressitems_get_enumprogressitems","imapi2fs/IProgressItems::get_EnumProgressItems"]
 old-location: imapi\iprogressitems_get_enumprogressitems.htm
 tech.root: imapi

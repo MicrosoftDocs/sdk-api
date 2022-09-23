@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.put_SelRTF
 title: IInkEdit::put_SelRTF (inked.h)
-description: Gets or sets the currently selected Rich Text Format (RTF) formatted text in the InkEdit control (run time only).
+description: Gets or sets the currently selected Rich Text Format (RTF) formatted text in the InkEdit control (run time only). (Put)
 helpviewer_keywords: ["IInkEdit interface [Tablet PC]","SelRTF property","IInkEdit.SelRTF","IInkEdit.put_SelRTF","IInkEdit::SelRTF","IInkEdit::get_SelRTF","IInkEdit::put_SelRTF","InkEdit.get_SelRTF","InkEdit.put_SelRTF","SelRTF property [Tablet PC]","SelRTF property [Tablet PC]","IInkEdit interface","get_SelRTF","inked/IInkEdit::SelRTF","inked/IInkEdit::get_SelRTF","inked/IInkEdit::put_SelRTF","put_SelRTF","tablet.inkedit_selrtf"]
 old-location: tablet\inkedit_selrtf.htm
 tech.root: tablet

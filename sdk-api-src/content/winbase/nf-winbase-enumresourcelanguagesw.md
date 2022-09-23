@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.EnumResourceLanguagesW
 title: EnumResourceLanguagesW function (winbase.h)
-description: Enumerates language-specific resources, of the specified type and name, associated with a binary module.
+description: Enumerates language-specific resources, of the specified type and name, associated with a binary module. (Unicode)
 helpviewer_keywords: ["EnumResourceLanguages","EnumResourceLanguages function [Menus and Other Resources]","EnumResourceLanguagesA","EnumResourceLanguagesW","_win32_EnumResourceLanguages","_win32_enumresourcelanguages_cpp","menurc.enumresourcelanguages","winbase/EnumResourceLanguages","winbase/EnumResourceLanguagesA","winbase/EnumResourceLanguagesW","winui._win32_enumresourcelanguages"]
 old-location: menurc\enumresourcelanguages.htm
 tech.root: menurc
@@ -110,7 +110,7 @@ Alternately, applications can call <a href="/windows/desktop/api/rrascfg/nf-rras
 
 The <b>EnumResourceLanguages</b> function continues to enumerate resource languages until the callback function returns <b>FALSE</b> or all resource languages have been enumerated.
 
-In Windows Vista and later, if  <i>hModule</i> specifies an LN file, then the resources enumerated can reside either in the LN file or in an .mui file associated with it.  If no .mui files are found, only resources from the LN file are returned.  Unlike <a href="/windows/desktop/api/winbase/nf-winbase-enumresourcenamesa">EnumResourceNames</a> and <a href="/windows/desktop/api/winbase/nf-winbase-enumresourcetypesa">EnumResourceTypes</a>, this search will look at multiple .mui files. The enumeration begins with .mui files in the folders associated with <a href="/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a>. These are followed by any other .mui files whose paths conform to the scheme described at <a href="/windows/desktop/Intl/mui-resource-management">MUI Resource Management</a>. Finally, the file designated by <i>hModule</i> is also searched.
+In Windows Vista and later, if  <i>hModule</i> specifies an LN file, then the resources enumerated can reside either in the LN file or in an .mui file associated with it.  If no .mui files are found, only resources from the LN file are returned.  Unlike <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesa">EnumResourceNames</a> and <a href="/windows/desktop/api/winbase/nf-winbase-enumresourcetypesa">EnumResourceTypes</a>, this search will look at multiple .mui files. The enumeration begins with .mui files in the folders associated with <a href="/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a>. These are followed by any other .mui files whose paths conform to the scheme described at <a href="/windows/desktop/Intl/mui-resource-management">MUI Resource Management</a>. Finally, the file designated by <i>hModule</i> is also searched.
 
 The enumeration never includes duplicates: if a resource with the same name, type, and language is contained in both the LN file and in an .mui file, the resource will only be enumerated once.
 
@@ -141,7 +141,7 @@ For an example, see <a href="/windows/desktop/menurc/using-resources">Creating a
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-enumresourcenamesa">EnumResourceNames</a>
+<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesa">EnumResourceNames</a>
 
 
 

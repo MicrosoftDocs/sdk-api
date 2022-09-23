@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList.ReplaceIcon
 title: IImageList::ReplaceIcon (commoncontrols.h)
-description: Replaces an image with an icon or cursor.
+description: Replaces an image with an icon or cursor. (IImageList.ReplaceIcon)
 helpviewer_keywords: ["IImageList interface [Windows Controls]","ReplaceIcon method","IImageList.ReplaceIcon","IImageList::ReplaceIcon","ReplaceIcon","ReplaceIcon method [Windows Controls]","ReplaceIcon method [Windows Controls]","IImageList interface","comctl_IImageList_ReplaceIcon","comctl_IImageList_ReplaceIcon_cpp","commoncontrols/IImageList::ReplaceIcon","controls.IImageList_ReplaceIcon","controls.comctl_IImageList_ReplaceIcon"]
 old-location: controls\IImageList_ReplaceIcon.htm
 tech.root: Controls

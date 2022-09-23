@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddArc(REAL,REAL,REAL,REAL,REAL,REAL)
 title: GraphicsPath::AddArc(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL) (gdipluspath.h)
-description: The GraphicsPath::AddArc method adds an elliptical arc to the current figure of this path.
+description: The GraphicsPath::AddArc method adds an elliptical arc to the current figure of this path. (overload 2/4)
 helpviewer_keywords: ["AddArc","AddArc method [GDI+]","AddArc method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","AddArc method","GraphicsPath.AddArc","GraphicsPath.AddArc(IN REAL","IN REAL","IN REAL","IN REAL","IN REAL","IN REAL)","GraphicsPath.AddArc(REAL","REAL","REAL","REAL","REAL","REAL)","GraphicsPath::AddArc","GraphicsPath::AddArc(IN REAL","IN REAL","IN REAL","IN REAL","IN REAL","IN REAL)","_gdiplus_CLASS_GraphicsPath_AddArc_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REAL_sweepAn","gdiplus._gdiplus_CLASS_GraphicsPath_AddArc_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REAL_sweepAn"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddArc_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REAL_sweepAn.htm
 tech.root: gdiplus

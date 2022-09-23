@@ -1,7 +1,7 @@
 ---
 UID: NF:userenv.GetAppliedGPOListW
 title: GetAppliedGPOListW function (userenv.h)
-description: The GetAppliedGPOList function retrieves the list of GPOs applied for the specified user or computer.
+description: The GetAppliedGPOList function retrieves the list of GPOs applied for the specified user or computer. (Unicode)
 helpviewer_keywords: ["GPO_LIST_FLAG_MACHINE","GetAppliedGPOList","GetAppliedGPOList function [Group Policy]","GetAppliedGPOListA","GetAppliedGPOListW","_win32_getappliedgpolist","policy.getappliedgpolist","userenv/GetAppliedGPOList","userenv/GetAppliedGPOListA","userenv/GetAppliedGPOListW"]
 old-location: policy\getappliedgpolist.htm
 tech.root: Policy

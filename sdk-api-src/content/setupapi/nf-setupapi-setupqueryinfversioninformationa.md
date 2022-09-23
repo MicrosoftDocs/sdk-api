@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupQueryInfVersionInformationA
 title: SetupQueryInfVersionInformationA function (setupapi.h)
-description: The SetupQueryInfVersionInformation function returns INF file version information from an SP_INF_INFORMATION structure to a buffer.
+description: The SetupQueryInfVersionInformation function returns INF file version information from an SP_INF_INFORMATION structure to a buffer. (ANSI)
 helpviewer_keywords: ["SetupQueryInfVersionInformation","SetupQueryInfVersionInformation function [Setup API]","SetupQueryInfVersionInformationA","SetupQueryInfVersionInformationW","_setupapi_setupqueryinfversioninformation","setup.setupqueryinfversioninformation","setupapi/SetupQueryInfVersionInformation","setupapi/SetupQueryInfVersionInformationA","setupapi/SetupQueryInfVersionInformationW"]
 old-location: setup\setupqueryinfversioninformation.htm
 tech.root: setup

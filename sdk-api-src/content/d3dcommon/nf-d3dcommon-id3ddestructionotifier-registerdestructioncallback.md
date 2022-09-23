@@ -62,7 +62,7 @@ The data to pass to *callbackFn* when invoked
 
 Type: **[UINT](/windows/win32/winprog/windows-data-types)\***
 
-Pointer to a **UINT** used to identify the callback, and to pass to <a href="./nf-d3dcommon-id3ddestructionnotifier-unregisterdestructioncallback.md"></a> to unregister the callback.
+Pointer to a **UINT** used to identify the callback, and to pass to <a href="/windows/win32/api/d3dcommon/nf-d3dcommon-id3ddestructionotifier-unregisterdestructioncallback"></a> to unregister the callback.
 
 ## -returns
 
@@ -94,6 +94,6 @@ void LogResourceReleased(void* context)
 
 ## -see-also
 
-<a href="/windows/win32/api/d3dcommon/nn-d3dcommon-id3ddestructionnotifier">ID3DDestructionNotifier</a>
+<a href="/windows/win32/api/d3dcommon/nn-d3dcommon-id3ddestructionotifier">ID3DDestructionNotifier</a>
 
-<a href="/windows/win32/api/d3dcommon/nf-d3dcommon-id3ddestructionnotifier-unregisterdestructioncallback">ID3DDestructionNotifier::UnregisterDestructionCallback</a>
+<a href="//windows/win32/api/d3dcommon/nf-d3dcommon-id3ddestructionotifier-unregisterdestructioncallback">ID3DDestructionNotifier::UnregisterDestructionCallback</a>

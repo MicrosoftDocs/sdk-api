@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.ULongLongMult
 title: ULongLongMult function (intsafe.h)
-description: Multiplies one value of type size_t by another.
+description: Multiplies one value of type size_t by another.S
 helpviewer_keywords: ["SizeTMult","SizeTMult function [Windows Shell]","ULongLongMult","_shell_SizeTMult","intsafe/SizeTMult","shell.SizeTMult"]
 old-location: shell\SizeTMult.htm
 tech.root: shell

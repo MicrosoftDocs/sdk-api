@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.StrToInt64ExA
 title: StrToInt64ExA function (shlwapi.h)
-description: Converts a string representing a decimal or hexadecimal value to a 64-bit integer.
+description: Converts a string representing a decimal or hexadecimal value to a 64-bit integer. (ANSI)
 helpviewer_keywords: ["STIF_DEFAULT","STIF_SUPPORT_HEX","StrToInt64Ex","StrToInt64Ex function [Windows Shell]","StrToInt64ExA","StrToInt64ExW","_win32_StrToInt64Ex","shell.StrToInt64Ex","shlwapi/StrToInt64Ex","shlwapi/StrToInt64ExA","shlwapi/StrToInt64ExW"]
 old-location: shell\StrToInt64Ex.htm
 tech.root: shell

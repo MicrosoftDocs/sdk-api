@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiQueryComponentStateW
 title: MsiQueryComponentStateW function (msi.h)
-description: The MsiQueryComponentState function returns the installed state for a component.
+description: The MsiQueryComponentState function returns the installed state for a component. (Unicode)
 helpviewer_keywords: ["INSTALLSTATE_LOCAL","INSTALLSTATE_SOURCE","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiQueryComponentState","MsiQueryComponentState function","MsiQueryComponentStateA","MsiQueryComponentStateW","NULL","User SID","msi/MsiQueryComponentState","msi/MsiQueryComponentStateA","msi/MsiQueryComponentStateW","setup.msiquerycomponentstate"]
 old-location: setup\msiquerycomponentstate.htm
 tech.root: setup

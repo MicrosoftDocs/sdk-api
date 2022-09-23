@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiCollectUserInfoW
 title: MsiCollectUserInfoW function (msi.h)
-description: The MsiCollectUserInfo function obtains and stores the user information and product ID from an installation wizard.
+description: The MsiCollectUserInfo function obtains and stores the user information and product ID from an installation wizard. (Unicode)
 helpviewer_keywords: ["MsiCollectUserInfo","MsiCollectUserInfo function","MsiCollectUserInfoA","MsiCollectUserInfoW","_msi_msicollectuserinfo","msi/MsiCollectUserInfo","msi/MsiCollectUserInfoA","msi/MsiCollectUserInfoW","setup.msicollectuserinfo"]
 old-location: setup\msicollectuserinfo.htm
 tech.root: setup

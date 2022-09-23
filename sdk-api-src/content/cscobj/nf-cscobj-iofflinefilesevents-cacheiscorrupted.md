@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.CacheIsCorrupted
 title: IOfflineFilesEvents::CacheIsCorrupted (cscobj.h)
-description: This method is reserved for future use.
+description: This method is reserved for future use. (IOfflineFilesEvents.CacheIsCorrupted)
 helpviewer_keywords: ["CacheIsCorrupted","CacheIsCorrupted method [Offline Files]","CacheIsCorrupted method [Offline Files]","IOfflineFilesEvents interface","IOfflineFilesEvents interface [Offline Files]","CacheIsCorrupted method","IOfflineFilesEvents.CacheIsCorrupted","IOfflineFilesEvents::CacheIsCorrupted","cscobj/IOfflineFilesEvents::CacheIsCorrupted","of.iofflinefilesevents_cacheiscorrupted"]
 old-location: of\iofflinefilesevents_cacheiscorrupted.htm
 tech.root: of

@@ -3,7 +3,7 @@ UID: NF:d3d12video.ID3D12VideoEncodeCommandList.BeginEvent
 title: ID3D12VideoEncodeCommandList::BeginEvent
 ms.date: 11/4/2019
 targetos: Windows
-description: For internal use only. Not intended to be called directly.
+description: For internal use only. Not intended to be called directly. (ID3D12VideoEncodeCommandList::BeginEvent)
 tech.root: mf
 req.assembly: 
 req.construct-type: function

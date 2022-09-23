@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ITraceDataProvider.get_DisplayName
 title: ITraceDataProvider::get_DisplayName (pla.h)
-description: Retrieves or sets the display name of the provider.
+description: Retrieves or sets the display name of the provider. (Get)
 helpviewer_keywords: ["DisplayName property [PLA]","DisplayName property [PLA]","ITraceDataProvider interface","ITraceDataProvider interface [PLA]","DisplayName property","ITraceDataProvider.DisplayName","ITraceDataProvider.get_DisplayName","ITraceDataProvider::DisplayName","ITraceDataProvider::get_DisplayName","ITraceDataProvider::put_DisplayName","base.itracedataprovider_displayname","get_DisplayName","pla.itracedataprovider_displayname","pla/ITraceDataProvider::DisplayName","pla/ITraceDataProvider::get_DisplayName","pla/ITraceDataProvider::put_DisplayName"]
 old-location: pla\itracedataprovider_displayname.htm
 tech.root: PLA

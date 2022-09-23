@@ -1,7 +1,7 @@
 ---
 UID: NF:lzexpand.LZOpenFileW
 title: LZOpenFileW function (lzexpand.h)
-description: Creates, opens, reopens, or deletes the specified file.
+description: Creates, opens, reopens, or deletes the specified file. (Unicode)
 helpviewer_keywords: ["LZOpenFile","LZOpenFile function [Files]","LZOpenFileA","LZOpenFileW","OF_CANCEL","OF_CREATE","OF_DELETE","OF_EXIST","OF_PARSE","OF_PROMPT","OF_READ","OF_READWRITE","OF_REOPEN","OF_SHARE_DENY_NONE","OF_SHARE_DENY_READ","OF_SHARE_DENY_WRITE","OF_SHARE_EXCLUSIVE","OF_WRITE","_win32_lzopenfile","base.lzopenfile","fs.lzopenfile","lzexpand/LZOpenFile","lzexpand/LZOpenFileA","lzexpand/LZOpenFileW"]
 old-location: fs\lzopenfile.htm
 tech.root: fs

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Stores an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> in an <a href="/previous-versions/windows/desktop/legacy/ee419623(v=vs.85)">XMFLOAT4X4A</a>.
+Stores an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> in an <a href="/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4a">XMFLOAT4X4A</a>.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ None.
 
 ## -remarks
 
-<a href="/previous-versions/windows/desktop/legacy/ee419623(v=vs.85)">XMFLOAT4X4A</a> is a row-major matrix form. To write out column-major data requires the XMMATRIX be transposed 
+<a href="/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4a">XMFLOAT4X4A</a> is a row-major matrix form. To write out column-major data requires the XMMATRIX be transposed 
    via <a href="/windows/desktop/api/directxmath/nf-directxmath-xmmatrixtranspose">XMMatrixTranpose</a> before calling the store function.
 
 The following pseudocode demonstrates the operation of the function.

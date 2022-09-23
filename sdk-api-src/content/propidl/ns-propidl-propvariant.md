@@ -1,7 +1,7 @@
 ---
 UID: NS:propidl.tagPROPVARIANT
 title: PROPVARIANT (propidl.h)
-description: Used in the ReadMultiple and WriteMultiple methods of IPropertyStorage to define the type tag and the value of a property in a property set.
+description: Used in the ReadMultiple and WriteMultiple methods of IPropertyStorage to define the type tag and the value of a property in a property set. (PROPVARIANT)
 helpviewer_keywords: ["*LPPROPVARIANT","PROPVARIANT","PROPVARIANT structure [Structured Storage]","_stg_propvariant","propidlbase/PROPVARIANT","stg.propvariant","tagPROPVARIANT"]
 old-location: stg\propvariant.htm
 tech.root: Stg

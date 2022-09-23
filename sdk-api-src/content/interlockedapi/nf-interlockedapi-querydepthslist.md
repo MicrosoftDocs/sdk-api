@@ -1,7 +1,7 @@
 ---
 UID: NF:interlockedapi.QueryDepthSList
 title: QueryDepthSList function (interlockedapi.h)
-description: Retrieves the number of entries in the specified singly linked list.
+description: Retrieves the number of entries in the specified singly linked list. (QueryDepthSList)
 helpviewer_keywords: ["QueryDepthSList","QueryDepthSList function","base.querydepthslist","interlockedapi/QueryDepthSList","winbase/QueryDepthSList"]
 old-location: base\querydepthslist.htm
 tech.root: backup

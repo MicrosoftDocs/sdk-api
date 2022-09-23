@@ -2,9 +2,9 @@
 UID: NF:oleidl.HMENU_UserSize64
 tech.root: com
 title: HMENU_UserSize64 (oleidl.h)
-ms.date: 07/08/22
+ms.date: 08/15/2022
 targetos: Windows
-description: Calculates the wire size of the HMENU object and gets its handle and data.
+description: The HMENU_UserSize64 function (oleidl.h) calculates the wire size of the HMENU object and gets its handle and data.
 prerelease: false
 req.assembly: 
 req.construct-type: function

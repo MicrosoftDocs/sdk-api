@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.StrCatBuffW
 title: StrCatBuffW function (shlwapi.h)
-description: Copies and appends characters from one string to the end of another.
+description: Copies and appends characters from one string to the end of another. (Unicode)
 helpviewer_keywords: ["StrCatBuff","StrCatBuff function [Windows Shell]","StrCatBuffA","StrCatBuffW","_win32_StrCatBuff","shell.StrCatBuff","shlwapi/StrCatBuff","shlwapi/StrCatBuffA","shlwapi/StrCatBuffW"]
 old-location: shell\StrCatBuff.htm
 tech.root: shell

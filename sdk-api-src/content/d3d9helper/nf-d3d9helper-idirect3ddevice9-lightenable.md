@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.LightEnable
 title: IDirect3DDevice9::LightEnable (d3d9helper.h)
-description: Enables or disables a set of lighting parameters within a device.
+description: The IDirect3DDevice9::LightEnable method (d3d9.h) enables or disables a set of lighting parameters within a device.
 helpviewer_keywords: ["93cddc72-1451-3e41-6d33-7b1036dfc225","IDirect3DDevice9 interface [Direct3D 9]","LightEnable method","IDirect3DDevice9.LightEnable","IDirect3DDevice9::LightEnable","LightEnable","LightEnable method [Direct3D 9]","LightEnable method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::LightEnable","direct3d9.idirect3ddevice9__lightenable"]
 old-location: direct3d9\idirect3ddevice9__lightenable.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__lightenable.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 93cddc72-1451-3e41-6d33-7b1036dfc225, IDirect3DDevice9 interface [Direct3D 9],LightEnable method, IDirect3DDevice9.LightEnable, IDirect3DDevice9::LightEnable, LightEnable, LightEnable method [Direct3D 9], LightEnable method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::LightEnable, direct3d9.idirect3ddevice9__lightenable
 req.header: d3d9helper.h
 req.include-header: D3D9.h

@@ -1,7 +1,7 @@
 ---
 UID: NF:winscard.SCardIntroduceCardTypeW
 title: SCardIntroduceCardTypeW function (winscard.h)
-description: Introduces a smart card to the smart card subsystem (for the active user) by adding it to the smart card database.
+description: Introduces a smart card to the smart card subsystem (for the active user) by adding it to the smart card database. (Unicode)
 helpviewer_keywords: ["SCardIntroduceCardType","SCardIntroduceCardType function [Security]","SCardIntroduceCardTypeA","SCardIntroduceCardTypeW","_smart_scardintroducecardtype","security.scardintroducecardtype","winscard/SCardIntroduceCardType","winscard/SCardIntroduceCardTypeA","winscard/SCardIntroduceCardTypeW"]
 old-location: security\scardintroducecardtype.htm
 tech.root: security

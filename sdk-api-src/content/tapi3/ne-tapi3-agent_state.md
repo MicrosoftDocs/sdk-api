@@ -1,12 +1,12 @@
 ---
 UID: NE:tapi3.AGENT_STATE
 title: AGENT_STATE (tapi3.h)
-description: The AGENT_STATE enum is used by the ITAgent::put_State and ITAgent::get_State methods to describe the agent state.
+description: The AGENT_STATE enumeration (tapi3.h) is used by the ITAgent::put_State and ITAgent::get_State methods to describe the agent state. 
 helpviewer_keywords: ["AGENT_STATE","AGENT_STATE enumeration [TAPI 2.2]","AS_BUSY_ACD","AS_BUSY_INCOMING","AS_BUSY_OUTGOING","AS_NOT_READY","AS_READY","AS_UNKNOWN","_tapi3_agent_state","tapi3.agent_state","tapi3cc/AGENT_STATE","tapi3cc/AS_BUSY_ACD","tapi3cc/AS_BUSY_INCOMING","tapi3cc/AS_BUSY_OUTGOING","tapi3cc/AS_NOT_READY","tapi3cc/AS_READY","tapi3cc/AS_UNKNOWN"]
 old-location: tapi3\agent_state.htm
 tech.root: tapi3
 ms.assetid: 6d63030e-cd47-48db-ab0d-a3c4f3aac733
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: AGENT_STATE, AGENT_STATE enumeration [TAPI 2.2], AS_BUSY_ACD, AS_BUSY_INCOMING, AS_BUSY_OUTGOING, AS_NOT_READY, AS_READY, AS_UNKNOWN, _tapi3_agent_state, tapi3.agent_state, tapi3cc/AGENT_STATE, tapi3cc/AS_BUSY_ACD, tapi3cc/AS_BUSY_INCOMING, tapi3cc/AS_BUSY_OUTGOING, tapi3cc/AS_NOT_READY, tapi3cc/AS_READY, tapi3cc/AS_UNKNOWN
 req.header: tapi3.h
 req.include-header: Tapi3.h

@@ -1,12 +1,12 @@
 ---
 UID: NN:tapi3.ITACDGroup
 title: ITACDGroup (tapi3.h)
-description: Automatic Call Distribution (ACD) is a mechanism that queues and distributes calls within a switching system.
+description: The ITACDGroup (tapi3.h) object reflects an ACD pilot, split, or group. ACD is a mechanism that queues and distributes calls within a switching system.
 helpviewer_keywords: ["ITACDGroup","ITACDGroup interface [TAPI 2.2]","ITACDGroup interface [TAPI 2.2]","described","_tapi3_itacdgroup","tapi3.itacdgroup","tapi3cc/ITACDGroup"]
 old-location: tapi3\itacdgroup.htm
 tech.root: tapi3
 ms.assetid: 73e23023-5574-4c5a-bdff-cbc7da765a65
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITACDGroup, ITACDGroup interface [TAPI 2.2], ITACDGroup interface [TAPI 2.2],described, _tapi3_itacdgroup, tapi3.itacdgroup, tapi3cc/ITACDGroup
 req.header: tapi3.h
 req.include-header: Tapi3.h

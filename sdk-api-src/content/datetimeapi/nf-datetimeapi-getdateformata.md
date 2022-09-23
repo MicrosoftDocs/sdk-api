@@ -1,7 +1,7 @@
 ---
 UID: NF:datetimeapi.GetDateFormatA
 title: GetDateFormatA function (datetimeapi.h)
-description: Formats a date as a date string for a locale specified by the locale identifier.
+description: Formats a date as a date string for a locale specified by the locale identifier. (ANSI)
 helpviewer_keywords: ["GetDateFormat","GetDateFormat function [Internationalization for Windows Applications]","GetDateFormatA","GetDateFormatW","_win32_GetDateFormat","datetimeapi/GetDateFormat","datetimeapi/GetDateFormatA","datetimeapi/GetDateFormatW","intl.getdateformat"]
 old-location: intl\getdateformat.htm
 tech.root: Intl

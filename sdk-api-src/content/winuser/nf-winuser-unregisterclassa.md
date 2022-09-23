@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.UnregisterClassA
 title: UnregisterClassA function (winuser.h)
-description: Unregisters a window class, freeing the memory required for the class.
+description: Unregisters a window class, freeing the memory required for the class. (ANSI)
 helpviewer_keywords: ["UnregisterClass","UnregisterClass function [Windows and Messages]","UnregisterClassA","UnregisterClassW","_win32_UnregisterClass","_win32_unregisterclass_cpp","winmsg.unregisterclass","winui._win32_unregisterclass","winuser/UnregisterClass","winuser/UnregisterClassA","winuser/UnregisterClassW"]
 old-location: winmsg\unregisterclass.htm
 tech.root: winmsg

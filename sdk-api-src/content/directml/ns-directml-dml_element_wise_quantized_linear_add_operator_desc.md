@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_QUANTIZED_LINEAR_ADD_OPERATOR_DESC
 title: DML_ELEMENT_WISE_QUANTIZED_LINEAR_ADD_OPERATOR_DESC
-description: Adds every element in *ATensor* to its corresponding element in *BTensor*, placing the result into the corresponding element of *OutputTensor*.
+description: Adds every element in *ATensor* to its corresponding element in *BTensor*, placing the result into the corresponding element of *OutputTensor*. (DML_ELEMENT_WISE_QUANTIZED_LINEAR_ADD_OPERATOR_DESC)
 tech.root: directml
 ms.date: 07/02/2021
 req.construct-type: structure

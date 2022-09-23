@@ -47,9 +47,9 @@ Reserved. Represents the maximum value of the enumeration.
 ## -remarks
 
 All per-service state directory types have a lifetime that is scoped to the lifetime of the service installation.
-Once the service is removed by calling [DeleteService](/windows/win32/api/winsvc/ne-winsvc-DeleteService) the state directories are deleted too.
+Once the service is removed by calling [DeleteService](/windows/win32/api/winsvc/nf-winsvc-deleteservice) the state directories are deleted too.
 
 ## -see-also
 
-[GetServiceDirectory](/windows/win32/api/winsvc/ne-winsvc-getservicedirectory)
+[GetServiceDirectory](/windows/win32/api/winsvc/nf-winsvc-getservicedirectory)
 

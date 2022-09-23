@@ -1,7 +1,7 @@
 ---
 UID: NS:processthreadsapi._STARTUPINFOA
 title: STARTUPINFOA (processthreadsapi.h)
-description: Specifies the window station, desktop, standard handles, and appearance of the main window for a process at creation time.
+description: Specifies the window station, desktop, standard handles, and appearance of the main window for a process at creation time. (ANSI)
 helpviewer_keywords: ["*LPSTARTUPINFOA","LPSTARTUPINFO","LPSTARTUPINFO structure pointer","STARTF_FORCEOFFFEEDBACK","STARTF_FORCEONFEEDBACK","STARTF_PREVENTPINNING","STARTF_RUNFULLSCREEN","STARTF_TITLEISAPPID","STARTF_TITLEISLINKNAME","STARTF_UNTRUSTEDSOURCE","STARTF_USECOUNTCHARS","STARTF_USEFILLATTRIBUTE","STARTF_USEHOTKEY","STARTF_USEPOSITION","STARTF_USESHOWWINDOW","STARTF_USESIZE","STARTF_USESTDHANDLES","STARTUPINFO","STARTUPINFO structure","STARTUPINFOA","STARTUPINFOW","_win32_startupinfo_str","base.startupinfo_str","processthreadsapi/LPSTARTUPINFO","processthreadsapi/STARTUPINFO","processthreadsapi/STARTUPINFOA","processthreadsapi/STARTUPINFOW","winbase/LPSTARTUPINFO","winbase/STARTUPINFO","winbase/STARTUPINFOA","winbase/STARTUPINFOW"]
 old-location: base\startupinfo_str.htm
 tech.root: backup

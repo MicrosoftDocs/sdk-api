@@ -18,7 +18,7 @@ req.redist:
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.target-type: 
-req.typenames: *LPDDSURFACEDESC, DDSURFACEDESC
+req.typenames: DDSURFACEDESC, *LPDDSURFACEDESC
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:

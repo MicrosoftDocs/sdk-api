@@ -1,7 +1,7 @@
 ---
 UID: NF:propidl.IEnumSTATPROPSETSTG.Reset
 title: IEnumSTATPROPSETSTG::Reset (propidl.h)
-description: Resets the enumeration sequence to the beginning of the STATPROPSETSTG structure array.
+description: Resets the enumeration sequence to the beginning of the STATPROPSETSTG structure array. (IEnumSTATPROPSETSTG.Reset)
 helpviewer_keywords: ["IEnumSTATPROPSETSTG interface [Structured Storage]","Reset method","IEnumSTATPROPSETSTG.Reset","IEnumSTATPROPSETSTG::Reset","Reset","Reset method [Structured Storage]","Reset method [Structured Storage]","IEnumSTATPROPSETSTG interface","propidlbase/IEnumSTATPROPSETSTG::Reset","stg.ienumstatpropsetstg_reset"]
 old-location: stg\ienumstatpropsetstg_reset.htm
 tech.root: Stg

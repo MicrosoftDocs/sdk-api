@@ -1,12 +1,12 @@
 ---
 UID: NE:msclus.CLUSTER_NETWORK_STATE
 title: CLUSTER_NETWORK_STATE (msclus.h)
-description: Enumerates the possible values of the state of a network.
+description: The CLUSTER_NETWORK_STATE enumeration (msclus.h) enumerates the possible values of the state of a network.
 helpviewer_keywords: ["CLUSTER_NETWORK_STATE","CLUSTER_NETWORK_STATE enumeration [Failover Cluster]","ClusterNetworkDown","ClusterNetworkPartitioned","ClusterNetworkStateUnknown","ClusterNetworkUnavailable","ClusterNetworkUp","_CLUSTER_NETWORK_STATE","_CLUSTER_NETWORK_STATE enumeration [Failover Cluster]","clusapi/CLUSTER_NETWORK_STATE","clusapi/ClusterNetworkDown","clusapi/ClusterNetworkPartitioned","clusapi/ClusterNetworkStateUnknown","clusapi/ClusterNetworkUnavailable","clusapi/ClusterNetworkUp","clusapi/_CLUSTER_NETWORK_STATE","msclus/CLUSTER_NETWORK_STATE","msclus/ClusterNetworkDown","msclus/ClusterNetworkPartitioned","msclus/ClusterNetworkStateUnknown","msclus/ClusterNetworkUnavailable","msclus/ClusterNetworkUp","msclus/_CLUSTER_NETWORK_STATE","mscs.cluster_network_state"]
 old-location: mscs\cluster_network_state.htm
 tech.root: MsCS
 ms.assetid: 1a9e3ff0-eb5a-4a2e-ae19-e70213dc1a4a
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: CLUSTER_NETWORK_STATE, CLUSTER_NETWORK_STATE enumeration [Failover Cluster], ClusterNetworkDown, ClusterNetworkPartitioned, ClusterNetworkStateUnknown, ClusterNetworkUnavailable, ClusterNetworkUp, _CLUSTER_NETWORK_STATE, _CLUSTER_NETWORK_STATE enumeration [Failover Cluster], clusapi/CLUSTER_NETWORK_STATE, clusapi/ClusterNetworkDown, clusapi/ClusterNetworkPartitioned, clusapi/ClusterNetworkStateUnknown, clusapi/ClusterNetworkUnavailable, clusapi/ClusterNetworkUp, clusapi/_CLUSTER_NETWORK_STATE, msclus/CLUSTER_NETWORK_STATE, msclus/ClusterNetworkDown, msclus/ClusterNetworkPartitioned, msclus/ClusterNetworkStateUnknown, msclus/ClusterNetworkUnavailable, msclus/ClusterNetworkUp, msclus/_CLUSTER_NETWORK_STATE, mscs.cluster_network_state
 req.header: msclus.h
 req.include-header: 

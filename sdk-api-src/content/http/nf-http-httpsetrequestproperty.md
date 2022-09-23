@@ -60,7 +60,7 @@ The handle to the request queue on which the request was received. A request que
 
 ### -param Id [in]
 
-The opaque ID of the request. This ID is located in the *RequestId* member of the [HTTP\_REQUEST](/windows/desktop/legacy/aa364545(v=vs.85)) structure returned by [HttpReceiveHttpRequest](/windows/win32/api/http/nf-http-httpreceivehttprequest).
+The opaque ID of the request. This ID is located in the *RequestId* member of the [HTTP\_REQUEST](/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)) structure returned by [HttpReceiveHttpRequest](/windows/win32/api/http/nf-http-httpreceivehttprequest).
 
 ### -param PropertyId [in]
 
@@ -76,7 +76,7 @@ A pointer to the buffer that contains the property information.
 It must point to one of the following property information types based on the property that is set.
 
 | **Property** | **Configuration Type** |
-| HttpRequestPropertyStreamError | [HTTP\_REQUEST\_PROPERTY\_STREAM\_ERROR](/windows/desktop/api/http/ne-http-http_request_property_stream_error) structure |
+| HttpRequestPropertyStreamError | [HTTP\_REQUEST\_PROPERTY\_STREAM\_ERROR](/windows/win32/api/http/ns-http-http_request_property_stream_error) structure |
 
 ### -param InputPropertySize [in]
 

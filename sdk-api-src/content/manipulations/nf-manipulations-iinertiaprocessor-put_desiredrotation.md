@@ -1,7 +1,7 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_DesiredRotation
 title: IInertiaProcessor::put_DesiredRotation (manipulations.h)
-description: The DesiredRotation property specifies how far the current inertia processor object should manipulate the target object in radians.
+description: The DesiredRotation property specifies how far the current inertia processor object should manipulate the target object in radians. (Put)
 helpviewer_keywords: ["DesiredRotation property [Windows Touch]","DesiredRotation property [Windows Touch]","IInertiaProcessor interface","IInertiaProcessor interface [Windows Touch]","DesiredRotation property","IInertiaProcessor.DesiredRotation","IInertiaProcessor.put_DesiredRotation","IInertiaProcessor::DesiredRotation","IInertiaProcessor::get_DesiredRotation","IInertiaProcessor::put_DesiredRotation","manipulations/IInertiaProcessor::DesiredRotation","manipulations/IInertiaProcessor::get_DesiredRotation","manipulations/IInertiaProcessor::put_DesiredRotation","put_DesiredRotation","wintouch.iinertiaprocessor_desiredrotation"]
 old-location: wintouch\iinertiaprocessor_desiredrotation.htm
 tech.root: wintouch

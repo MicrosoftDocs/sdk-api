@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiGetUserInfoW
 title: MsiGetUserInfoW function (msi.h)
-description: The MsiGetUserInfo function returns the registered user information for an installed product.
+description: The MsiGetUserInfo function returns the registered user information for an installed product. (Unicode)
 helpviewer_keywords: ["MsiGetUserInfo","MsiGetUserInfo function","MsiGetUserInfoA","MsiGetUserInfoW","_msi_msigetuserinfo","msi/MsiGetUserInfo","msi/MsiGetUserInfoA","msi/MsiGetUserInfoW","setup.msigetuserinfo"]
 old-location: setup\msigetuserinfo.htm
 tech.root: setup

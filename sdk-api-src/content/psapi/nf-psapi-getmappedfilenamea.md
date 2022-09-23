@@ -1,7 +1,7 @@
 ---
 UID: NF:psapi.GetMappedFileNameA
 title: GetMappedFileNameA function (psapi.h)
-description: Checks whether the specified address is within a memory-mapped file in the address space of the specified process. If so, the function returns the name of the memory-mapped file.
+description: Checks whether the specified address is within a memory-mapped file in the address space of the specified process. If so, the function returns the name of the memory-mapped file. (ANSI)
 helpviewer_keywords: ["GetMappedFileName","GetMappedFileName function [PSAPI]","GetMappedFileNameA","GetMappedFileNameW","K32GetMappedFileName","K32GetMappedFileNameA","K32GetMappedFileNameW","_win32_getmappedfilename","base.getmappedfilename","psapi.getmappedfilename","psapi/GetMappedFileName","psapi/GetMappedFileNameA","psapi/GetMappedFileNameW","psapi/K32GetMappedFileName","psapi/K32GetMappedFileNameA","psapi/K32GetMappedFileNameW"]
 old-location: psapi\getmappedfilename.htm
 tech.root: psapi

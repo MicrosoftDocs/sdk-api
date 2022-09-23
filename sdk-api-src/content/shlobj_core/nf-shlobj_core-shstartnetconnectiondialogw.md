@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHStartNetConnectionDialogW
 title: SHStartNetConnectionDialogW function (shlobj_core.h)
-description: SHStartNetConnectionDialog may be altered or unavailable.
+description: SHStartNetConnectionDialog may be altered or unavailable. (Unicode)
 helpviewer_keywords: ["RESOURCETYPE_ANY","RESOURCETYPE_DISK","RESOURCETYPE_PRINT","SHStartNetConnectionDialog","SHStartNetConnectionDialog function [Windows Shell]","SHStartNetConnectionDialogA","SHStartNetConnectionDialogW","_win32_SHStartNetConnectionDialog","shell.SHStartNetConnectionDialog","shlobj_core/SHStartNetConnectionDialog","shlobj_core/SHStartNetConnectionDialogA","shlobj_core/SHStartNetConnectionDialogW"]
 old-location: shell\SHStartNetConnectionDialog.htm
 tech.root: shell

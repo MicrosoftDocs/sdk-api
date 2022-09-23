@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiClassGuidsFromNameExA
 title: SetupDiClassGuidsFromNameExA function (setupapi.h)
-description: The SetupDiClassGuidsFromNameEx function retrieves the GUIDs associated with the specified class name. This resulting list contains the classes currently installed on a local or remote computer.
+description: The SetupDiClassGuidsFromNameEx function retrieves the GUIDs associated with the specified class name. This resulting list contains the classes currently installed on a local or remote computer. (ANSI)
 helpviewer_keywords: ["SetupDiClassGuidsFromNameEx","SetupDiClassGuidsFromNameEx function [Device and Driver Installation]","SetupDiClassGuidsFromNameExA","SetupDiClassGuidsFromNameExW","devinst.setupdiclassguidsfromnameex","di-rtns_de553347-9025-4477-8d83-9d1bdac1ceff.xml","setupapi/SetupDiClassGuidsFromNameEx"]
 old-location: devinst\setupdiclassguidsfromnameex.htm
 tech.root: devinst

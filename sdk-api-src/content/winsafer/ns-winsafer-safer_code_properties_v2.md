@@ -1,7 +1,7 @@
 ---
 UID: NS:winsafer._SAFER_CODE_PROPERTIES_V2
 title: SAFER_CODE_PROPERTIES_V2 (winsafer.h)
-description: Contains code image information and criteria to be checked on the code image.
+description: Contains code image information and criteria to be checked on the code image.S
 helpviewer_keywords: ["*PSAFER_CODE_PROPERTIES","*PSAFER_CODE_PROPERTIES_V2","PSAFER_CODE_PROPERTIES","PSAFER_CODE_PROPERTIES structure pointer [Security]","SAFER_CODE_PROPERTIES","SAFER_CODE_PROPERTIES  [Security] See also","SAFER_CODE_PROPERTIES_V1  [Security]","SAFER_CODE_PROPERTIES [Security]","SAFER_CODE_PROPERTIES structure [Security]","SAFER_CODE_PROPERTIES_V2","SAFER_CODE_PROPERTIES_V2  [Security] See","SAFER_CODE_PROPERTIES  [Security]","SAFER_CRITERIA_APPX_PACKAGE","SAFER_CRITERIA_AUTHENTICODE","SAFER_CRITERIA_IMAGEHASH","SAFER_CRITERIA_IMAGEPATH","SAFER_CRITERIA_IMAGEPATH_NT","SAFER_CRITERIA_URLZONE","_mnp_safer_code_properties","security.safer_code_properties","winsafer/PSAFER_CODE_PROPERTIES","winsafer/SAFER_CODE_PROPERTIES"]
 old-location: security\safer_code_properties.htm
 tech.root: security

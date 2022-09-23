@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiSetFeatureStateA
 title: MsiSetFeatureStateA function (msiquery.h)
-description: The MsiSetFeatureState function sets a feature to a specified state.
+description: The MsiSetFeatureState function sets a feature to a specified state. (ANSI)
 helpviewer_keywords: ["INSTALLSTATE_ABSENT","INSTALLSTATE_ADVERTISED","INSTALLSTATE_LOCAL","INSTALLSTATE_SOURCE","MsiSetFeatureState","MsiSetFeatureState function","MsiSetFeatureStateA","MsiSetFeatureStateW","_msi_msisetfeaturestate","msiquery/MsiSetFeatureState","msiquery/MsiSetFeatureStateA","msiquery/MsiSetFeatureStateW","setup.msisetfeaturestate"]
 old-location: setup\msisetfeaturestate.htm
 tech.root: setup

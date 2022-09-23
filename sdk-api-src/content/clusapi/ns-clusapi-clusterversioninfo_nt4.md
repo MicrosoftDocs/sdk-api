@@ -1,12 +1,12 @@
 ---
 UID: NS:clusapi.CLUSTERVERSIONINFO_NT4
 title: CLUSTERVERSIONINFO_NT4 (clusapi.h)
-description: TBD.
+description: The CLUSTERVERSIONINFO_NT4 (clusapi.h) structure relates to multiple field types, with more information is to be determined.
 helpviewer_keywords: ["*PCLUSTERVERSIONINFO_NT4","CLUSTERVERSIONINFO_NT4","CLUSTERVERSIONINFO_NT4 structure [Failover Cluster]","PCLUSTERVERSIONINFO_NT4","PCLUSTERVERSIONINFO_NT4 structure pointer [Failover Cluster]","clusapi/CLUSTERVERSIONINFO_NT4","clusapi/PCLUSTERVERSIONINFO_NT4","mscs.clusterversioninfo_nt4"]
 old-location: mscs\clusterversioninfo_nt4.htm
 tech.root: MsCS
 ms.assetid: 1420C1B9-3361-4D7C-B968-34967C0818F4
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: '*PCLUSTERVERSIONINFO_NT4, CLUSTERVERSIONINFO_NT4, CLUSTERVERSIONINFO_NT4 structure [Failover Cluster], PCLUSTERVERSIONINFO_NT4, PCLUSTERVERSIONINFO_NT4 structure pointer [Failover Cluster], clusapi/CLUSTERVERSIONINFO_NT4, clusapi/PCLUSTERVERSIONINFO_NT4, mscs.clusterversioninfo_nt4'
 req.header: clusapi.h
 req.include-header: 

@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPrintTicketResource.SetContent
 title: IXpsOMPrintTicketResource::SetContent (xpsobjectmodel.h)
-description: Sets the read-only stream to be associated with this resource.
+description: Sets the read-only stream to be associated with this resource. (IXpsOMPrintTicketResource.SetContent)
 helpviewer_keywords: ["IXpsOMPrintTicketResource interface [XPS Documents and Packaging]","SetContent method","IXpsOMPrintTicketResource.SetContent","IXpsOMPrintTicketResource::SetContent","SetContent","SetContent method [XPS Documents and Packaging]","SetContent method [XPS Documents and Packaging]","IXpsOMPrintTicketResource interface","xps.ixpsomprintticketresource_setcontent","xpsobjectmodel/IXpsOMPrintTicketResource::SetContent"]
 old-location: xps\ixpsomprintticketresource_setcontent.htm
 tech.root: xps

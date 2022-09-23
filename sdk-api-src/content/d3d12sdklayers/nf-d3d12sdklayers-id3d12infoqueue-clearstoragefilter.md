@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.ClearStorageFilter
 title: ID3D12InfoQueue::ClearStorageFilter (d3d12sdklayers.h)
-description: Remove a storage filter from the top of the storage-filter stack.
+description: Remove a storage filter from the top of the storage-filter stack. (ID3D12InfoQueue.ClearStorageFilter)
 helpviewer_keywords: ["ClearStorageFilter","ClearStorageFilter method","ClearStorageFilter method","ID3D12InfoQueue interface","ID3D12InfoQueue interface","ClearStorageFilter method","ID3D12InfoQueue.ClearStorageFilter","ID3D12InfoQueue::ClearStorageFilter","d3d12sdklayers/ID3D12InfoQueue::ClearStorageFilter","direct3d12.id3d12infoqueue_clearstoragefilter"]
 old-location: direct3d12\id3d12infoqueue_clearstoragefilter.htm
 tech.root: direct3d12

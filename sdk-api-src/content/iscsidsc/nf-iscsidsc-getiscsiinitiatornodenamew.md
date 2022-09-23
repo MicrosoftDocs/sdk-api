@@ -1,7 +1,7 @@
 ---
 UID: NF:iscsidsc.GetIScsiInitiatorNodeNameW
 title: GetIScsiInitiatorNodeNameW function (iscsidsc.h)
-description: The GetIscsiInitiatorNodeName function retrieves the common initiator node name that is used when establishing sessions from the local machine.
+description: The GetIscsiInitiatorNodeName function retrieves the common initiator node name that is used when establishing sessions from the local machine. (Unicode)
 helpviewer_keywords: ["GetIScsiInitiatorNodeNameW","GetIscsiInitiatorNodeName","GetIscsiInitiatorNodeName function [iSCSI Discovery Library API]","GetIscsiInitiatorNodeNameA","GetIscsiInitiatorNodeNameW","iscsidisc.getiscsiinitiatornodename","iscsidsc/GetIscsiInitiatorNodeName","iscsidsc/GetIscsiInitiatorNodeNameA","iscsidsc/GetIscsiInitiatorNodeNameW"]
 old-location: iscsidisc\getiscsiinitiatornodename.htm
 tech.root: iSCSIDisc

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFSourceResolver.EndCreateObjectFromURL
 title: IMFSourceResolver::EndCreateObjectFromURL (mfidl.h)
-description: Completes an asynchronous request to create an object from a URL.
+description: Completes an asynchronous request to create an object from a URL. (IMFSourceResolver.EndCreateObjectFromURL)
 helpviewer_keywords: ["EndCreateObjectFromURL","EndCreateObjectFromURL method [Media Foundation]","EndCreateObjectFromURL method [Media Foundation]","IMFSourceResolver interface","IMFSourceResolver interface [Media Foundation]","EndCreateObjectFromURL method","IMFSourceResolver.EndCreateObjectFromURL","IMFSourceResolver::EndCreateObjectFromURL","af50a76d-b083-4815-bbff-820b21ff8d1b","mf.imfsourceresolver_endcreateobjectfromurl","mfidl/IMFSourceResolver::EndCreateObjectFromURL"]
 old-location: mf\imfsourceresolver_endcreateobjectfromurl.htm
 tech.root: mf

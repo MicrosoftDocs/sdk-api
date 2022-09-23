@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.BeginPrepareVariants
 title: ICrmCompensatorVariants::BeginPrepareVariants (comsvcs.h)
-description: Notifies the CRM Compensator of the prepare phase of the transaction completion and that records are about to be delivered.
+description: Notifies the CRM Compensator of the prepare phase of the transaction completion and that records are about to be delivered. (ICrmCompensatorVariants.BeginPrepareVariants)
 helpviewer_keywords: ["BeginPrepareVariants","BeginPrepareVariants method [COM+]","BeginPrepareVariants method [COM+]","ICrmCompensatorVariants interface","ICrmCompensatorVariants interface [COM+]","BeginPrepareVariants method","ICrmCompensatorVariants.BeginPrepareVariants","ICrmCompensatorVariants::BeginPrepareVariants","_dtc_ICrmCompensatorVariants_BeginPrepareVariants","comsvcs/ICrmCompensatorVariants::BeginPrepareVariants","cos.icrmcompensatorvariants_beginpreparevariants"]
 old-location: cos\icrmcompensatorvariants_beginpreparevariants.htm
 tech.root: cos

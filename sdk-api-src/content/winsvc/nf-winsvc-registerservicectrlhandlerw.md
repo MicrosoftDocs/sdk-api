@@ -1,7 +1,7 @@
 ---
 UID: NF:winsvc.RegisterServiceCtrlHandlerW
 title: RegisterServiceCtrlHandlerW function (winsvc.h)
-description: Registers a function to handle service control requests.
+description: Registers a function to handle service control requests. (Unicode)
 helpviewer_keywords: ["RegisterServiceCtrlHandler","RegisterServiceCtrlHandler function","RegisterServiceCtrlHandlerA","RegisterServiceCtrlHandlerW","_win32_registerservicectrlhandler","base.registerservicectrlhandler","winsvc/RegisterServiceCtrlHandler","winsvc/RegisterServiceCtrlHandlerA","winsvc/RegisterServiceCtrlHandlerW"]
 old-location: base\registerservicectrlhandler.htm
 tech.root: security

@@ -1,7 +1,7 @@
 ---
 UID: NF:interlockedapi.InterlockedPopEntrySList
 title: InterlockedPopEntrySList function (interlockedapi.h)
-description: Removes an item from the front of a singly linked list. Access to the list is synchronized on a multiprocessor system.
+description: Removes an item from the front of a singly linked list. Access to the list is synchronized on a multiprocessor system. (InterlockedPopEntrySList)
 helpviewer_keywords: ["InterlockedPopEntrySList","InterlockedPopEntrySList function","_win32_interlockedpopentryslist","base.interlockedpopentryslist","interlockedapi/InterlockedPopEntrySList","winbase/InterlockedPopEntrySList"]
 old-location: base\interlockedpopentryslist.htm
 tech.root: backup

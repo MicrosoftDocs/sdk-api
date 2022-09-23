@@ -4,7 +4,7 @@ title: GetTempPath2A
 ms.date: 10/07/2020
 ms.topic: language-reference
 targetos: Windows
-description: Retrieves the path of the directory designated for temporary files, based on the privileges of the calling process.
+description: Retrieves the path of the directory designated for temporary files, based on the privileges of the calling process. (ANSI)
 helpviewer_keywords: ["GetTempPath2","GetTempPath2A","GetTempPath2A","fileapi/GetTempPath2A","fileapi/GetTempPath2"]
 tech.root: fs
 req.assembly: 

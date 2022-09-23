@@ -1,7 +1,7 @@
 ---
 UID: NF:shellapi.SHGetFileInfoW
 title: SHGetFileInfoW function (shellapi.h)
-description: Retrieves information about an object in the file system, such as a file, folder, directory, or drive root.
+description: Retrieves information about an object in the file system, such as a file, folder, directory, or drive root. (Unicode)
 helpviewer_keywords: ["SHGFI_ADDOVERLAYS","SHGFI_ATTRIBUTES","SHGFI_ATTR_SPECIFIED","SHGFI_DISPLAYNAME","SHGFI_EXETYPE","SHGFI_ICON","SHGFI_ICONLOCATION","SHGFI_LARGEICON","SHGFI_LINKOVERLAY","SHGFI_OPENICON","SHGFI_OVERLAYINDEX","SHGFI_PIDL","SHGFI_SELECTED","SHGFI_SHELLICONSIZE","SHGFI_SMALLICON","SHGFI_SYSICONINDEX","SHGFI_TYPENAME","SHGFI_USEFILEATTRIBUTES","SHGetFileInfo","SHGetFileInfo function [Windows Shell]","SHGetFileInfoA","SHGetFileInfoW","_win32_SHGetFileInfo","shell.SHGetFileInfo","shellapi/SHGetFileInfo","shellapi/SHGetFileInfoA","shellapi/SHGetFileInfoW"]
 old-location: shell\SHGetFileInfo.htm
 tech.root: shell

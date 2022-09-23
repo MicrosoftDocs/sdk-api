@@ -1,7 +1,7 @@
 ---
 UID: NF:aclapi.TreeResetNamedSecurityInfoA
 title: TreeResetNamedSecurityInfoA function (aclapi.h)
-description: Resets specified security information in the security descriptor of a specified tree of objects.
+description: Resets specified security information in the security descriptor of a specified tree of objects. (ANSI)
 helpviewer_keywords: ["TreeResetNamedSecurityInfo","TreeResetNamedSecurityInfo function [Security]","TreeResetNamedSecurityInfoA","TreeResetNamedSecurityInfoW","aclapi/TreeResetNamedSecurityInfo","aclapi/TreeResetNamedSecurityInfoA","aclapi/TreeResetNamedSecurityInfoW","security.treeresetnamedsecurityinfo"]
 old-location: security\treeresetnamedsecurityinfo.htm
 tech.root: security

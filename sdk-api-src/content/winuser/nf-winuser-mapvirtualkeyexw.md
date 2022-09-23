@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.MapVirtualKeyExW
 title: MapVirtualKeyExW function (winuser.h)
-description: Translates (maps) a virtual-key code into a scan code or character value, or translates a scan code into a virtual-key code. The function translates the codes using the input language and an input locale identifier.
+description: Translates (maps) a virtual-key code into a scan code or character value, or translates a scan code into a virtual-key code. The function translates the codes using the input language and an input locale identifier. (Unicode)
 helpviewer_keywords: ["MAPVK_VK_TO_CHAR","MAPVK_VK_TO_VSC","MAPVK_VK_TO_VSC_EX","MAPVK_VSC_TO_VK","MAPVK_VSC_TO_VK_EX","MapVirtualKeyEx","MapVirtualKeyEx function [Keyboard and Mouse Input]","MapVirtualKeyExA","MapVirtualKeyExW","_win32_MapVirtualKeyEx","_win32_mapvirtualkeyex_cpp","inputdev.mapvirtualkeyex","winui._win32_mapvirtualkeyex","winuser/MapVirtualKeyEx","winuser/MapVirtualKeyExA","winuser/MapVirtualKeyExW"]
 old-location: inputdev\mapvirtualkeyex.htm
 tech.root: inputdev
@@ -119,18 +119,12 @@ These left- and right-distinguishing constants are available to an application o
 
 ## -see-also
 
-**Conceptual**
-
-[GetAsyncKeyState](nf-winuser-getasynckeystate.md)
-
-[GetKeyState](nf-winuser-getkeystate.md)
-
-[GetKeyboardState](nf-winuser-getkeyboardstate.md)
-
-[Keyboard Input](/windows/win32/inputdev/keyboard-input)
-
-[LoadKeyboardLayout](nf-winuser-loadkeyboardlayoutw.md)
-
-**Reference**
-
-[SetKeyboardState](nf-winuser-setkeyboardstate.md)
+- <a href="/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-mapvirtualkeya">MapVirtualKey</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>
+- [LoadKeyboardLayout](nf-winuser-loadkeyboardlayouta.md)
+- <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+- [Keyboard Input Overview](/windows/win32/inputdev/about-keyboard-input)

@@ -2,9 +2,9 @@
 UID: NF:namedpipeapi.WaitNamedPipeW
 tech.root: ipc 
 title: WaitNamedPipeW
-ms.date: 04/20/2021 
+ms.date: 08/05/2022
 targetos: Windows
-description: Waits until either a time-out interval elapses or an instance of the specified named pipe is available for connection (that is, the pipe's server process has a pending ConnectNamedPipe operation on the pipe). 
+description: The WaitNamedPipeW (Unicode) function (winbase.h) waits until either a time-out interval elapses or an instance of the specified named pipe is available for connection. 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

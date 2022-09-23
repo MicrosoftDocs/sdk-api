@@ -1,12 +1,12 @@
 ---
 UID: NN:tapi3.ITMSPAddress
 title: ITMSPAddress (tapi3.h)
-description: The ITMSPAddress interface is implemented by the MSP and represents a media service provider to the TAPI DLL. It is not exposed to end-user or server applications. TAPI 3 will call CoCreateInstance on this interface to create the MSP object.
+description: The ITMSPAddress interface (tapi3.h) is implemented by the MSP and represents a media service provider to the TAPI DLL.
 helpviewer_keywords: ["ITMSPAddress","ITMSPAddress interface [TAPI 2.2]","ITMSPAddress interface [TAPI 2.2]","described","_tapi3_itmspaddress","msp/ITMSPAddress","tapi3.itmspaddress"]
 old-location: tapi3\itmspaddress.htm
 tech.root: tapi3
 ms.assetid: 246a0bcd-0dbb-4b77-a1cd-e6378eaff889
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: ITMSPAddress, ITMSPAddress interface [TAPI 2.2], ITMSPAddress interface [TAPI 2.2],described, _tapi3_itmspaddress, msp/ITMSPAddress, tapi3.itmspaddress
 req.header: tapi3.h
 req.include-header: Tapi3.h

@@ -1,7 +1,7 @@
 ---
 UID: NF:winscard.SCardWriteCacheW
 title: SCardWriteCacheW function (winscard.h)
-description: Writes a name-value pair from a smart card to the global cache maintained by the Smart Card Resource Manager.
+description: Writes a name-value pair from a smart card to the global cache maintained by the Smart Card Resource Manager. (Unicode)
 helpviewer_keywords: ["SCardWriteCache","SCardWriteCache function [Security]","SCardWriteCacheA","SCardWriteCacheW","security.scardwritecache","winscard/SCardWriteCache","winscard/SCardWriteCacheA","winscard/SCardWriteCacheW"]
 old-location: security\scardwritecache.htm
 tech.root: security

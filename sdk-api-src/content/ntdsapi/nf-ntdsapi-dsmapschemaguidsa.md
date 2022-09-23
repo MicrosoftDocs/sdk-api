@@ -1,7 +1,7 @@
 ---
 UID: NF:ntdsapi.DsMapSchemaGuidsA
 title: DsMapSchemaGuidsA function (ntdsapi.h)
-description: Converts GUIDs of directory service schema objects to their display names.
+description: Converts GUIDs of directory service schema objects to their display names. (ANSI)
 helpviewer_keywords: ["DsMapSchemaGuids","DsMapSchemaGuids function [Active Directory]","DsMapSchemaGuidsA","DsMapSchemaGuidsW","_glines_dsmapschemaguids","ad.dsmapschemaguids","ntdsapi/DsMapSchemaGuids","ntdsapi/DsMapSchemaGuidsA","ntdsapi/DsMapSchemaGuidsW"]
 old-location: ad\dsmapschemaguids.htm
 tech.root: ad

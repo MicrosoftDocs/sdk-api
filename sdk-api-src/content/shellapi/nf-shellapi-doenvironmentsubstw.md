@@ -1,7 +1,7 @@
 ---
 UID: NF:shellapi.DoEnvironmentSubstW
 title: DoEnvironmentSubstW function (shellapi.h)
-description: Parses an input string that contains references to one or more environment variables and replaces them with their fully expanded values.
+description: Parses an input string that contains references to one or more environment variables and replaces them with their fully expanded values. (Unicode)
 helpviewer_keywords: ["DoEnvironmentSubst","DoEnvironmentSubst function [Windows Shell]","DoEnvironmentSubstA","DoEnvironmentSubstW","_win32_DoEnvironmentSubst","shell.DoEnvironmentSubst","shellapi/DoEnvironmentSubst","shellapi/DoEnvironmentSubstA","shellapi/DoEnvironmentSubstW"]
 old-location: shell\DoEnvironmentSubst.htm
 tech.root: shell

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.StrStrIA
 title: StrStrIA function (shlwapi.h)
-description: Finds the first occurrence of a substring within a string. The comparison is not case-sensitive.
+description: Finds the first occurrence of a substring within a string. The comparison is not case-sensitive. (ANSI)
 helpviewer_keywords: ["StrStrI","StrStrI function [Windows Shell]","StrStrIA","StrStrIW","_win32_StrStrI","shell.StrStrI","shlwapi/StrStrI","shlwapi/StrStrIA","shlwapi/StrStrIW"]
 old-location: shell\StrStrI.htm
 tech.root: shell

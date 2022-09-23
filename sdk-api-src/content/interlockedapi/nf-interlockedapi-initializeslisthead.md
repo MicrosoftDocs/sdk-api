@@ -1,7 +1,7 @@
 ---
 UID: NF:interlockedapi.InitializeSListHead
 title: InitializeSListHead function (interlockedapi.h)
-description: Initializes the head of a singly linked list.
+description: Initializes the head of a singly linked list. (InitializeSListHead)
 helpviewer_keywords: ["InitializeSListHead","InitializeSListHead function","_win32_initializeslisthead","base.initializeslisthead","interlockedapi/InitializeSListHead","winbase/InitializeSListHead"]
 old-location: base\initializeslisthead.htm
 tech.root: backup

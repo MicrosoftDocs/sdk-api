@@ -2,9 +2,9 @@
 UID: NF:oleidl.HGLOBAL_UserUnmarshal
 tech.root: com
 title: HGLOBAL_UserUnmarshal (oleidl.h)
-ms.date: 07/08/2022
+ms.date: 08/15/2022
 targetos: Windows
-description: Unmarshals a HGLOBAL object from the RPC buffer.
+description: The HGLOBAL_UserUnmarshal function (oleidl.h) unmarshals a HGLOBAL object from the RPC buffer.
 prerelease: false
 req.assembly: 
 req.construct-type: function

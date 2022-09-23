@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.TextureBrush(Image,WrapMode,REAL,REAL,REAL,REAL)
 title: TextureBrush::TextureBrush(IN Image,IN WrapMode,IN REAL,IN REAL,IN REAL,IN REAL) (gdiplusbrush.h)
-description: Creates a TextureBrush object based on an image, a wrap mode, and a defining set of coordinates.
+description: Creates a TextureBrush object based on an image, a wrap mode, and a defining set of coordinates. (overload 2/2)
 helpviewer_keywords: ["TextureBrush","TextureBrush class [GDI+]","TextureBrush constructor","TextureBrush constructor [GDI+]","TextureBrush constructor [GDI+]","TextureBrush class","TextureBrush.TextureBrush","TextureBrush.TextureBrush(IN Image","IN WrapMode","IN REAL","IN REAL","IN REAL","IN REAL)","TextureBrush.TextureBrush(Image*","WrapMode","REAL","REAL","REAL","REAL)","TextureBrush::TextureBrush","TextureBrush::TextureBrush(IN Image","IN WrapMode","IN REAL","IN REAL","IN REAL","IN REAL)","_gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_REAL_dstX_REAL_dstY_REAL_dstW","gdiplus._gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_REAL_dstX_REAL_dstY_REAL_dstW"]
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_REAL_dstX_REAL_dstY_REAL_dstW.htm
 tech.root: gdiplus

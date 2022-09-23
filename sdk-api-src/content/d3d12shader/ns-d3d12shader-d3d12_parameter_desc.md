@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12shader._D3D12_PARAMETER_DESC
 title: D3D12_PARAMETER_DESC (d3d12shader.h)
-description: Describes a function parameter.
+description: Describes a function parameter. (D3D12_PARAMETER_DESC)
 helpviewer_keywords: ["D3D12_PARAMETER_DESC","D3D12_PARAMETER_DESC structure","d3d12shader/D3D12_PARAMETER_DESC","direct3d12.d3d12_parameter_desc"]
 old-location: direct3d12\d3d12_parameter_desc.htm
 tech.root: direct3d12

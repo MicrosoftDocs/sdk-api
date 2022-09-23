@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IMDSPDevice3.FindStorage
 title: IMDSPDevice3::FindStorage (mswmdm.h)
-description: The FindStorage method finds a storage with the given persistent unique identifier. The persistent unique identifier of a storage is described by the g_wszWMDMPersistentUniqueID property of that storage.
+description: The FindStorage method finds a storage with the given persistent unique identifier. The persistent unique identifier of a storage is described by the g_wszWMDMPersistentUniqueID property of that storage. (IMDSPDevice3.FindStorage)
 helpviewer_keywords: ["FindStorage","FindStorage method [windows Media Device Manager]","FindStorage method [windows Media Device Manager]","IMDSPDevice3 interface","IMDSPDevice3 interface [windows Media Device Manager]","FindStorage method","IMDSPDevice3.FindStorage","IMDSPDevice3::FindStorage","IMDSPDevice3FindStorage","mswmdm/IMDSPDevice3::FindStorage","wmdm.imdspdevice3_findstorage"]
 old-location: wmdm\imdspdevice3_findstorage.htm
 tech.root: WMDM

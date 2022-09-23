@@ -1,7 +1,7 @@
 ---
 UID: NF:cfgmgr32.CM_Get_HW_Prof_Flags_ExW
 title: CM_Get_HW_Prof_Flags_ExW function (cfgmgr32.h)
-description: The CM_Get_HW_Prof_Flags_Ex function retrieves the hardware profile-specific configuration flags for a device instance on a remote machine or a local machine.
+description: The CM_Get_HW_Prof_Flags_Ex function retrieves the hardware profile-specific configuration flags for a device instance on a remote machine or a local machine. (Unicode)
 helpviewer_keywords: ["CM_Get_HW_Prof_Flags_Ex","CM_Get_HW_Prof_Flags_Ex function [Device and Driver Installation]","CM_Get_HW_Prof_Flags_ExA","CM_Get_HW_Prof_Flags_ExW","cfgmgr32/CM_Get_HW_Prof_Flags_Ex","cfgmgr32/CM_Get_HW_Prof_Flags_ExA","cfgmgr32/CM_Get_HW_Prof_Flags_ExW","cfgmgrfn_af0f7a15-aa89-49b5-99f9-03f7c1b00a9d.xml","devinst.cm_get_hw_prof_flags_ex"]
 old-location: devinst\cm_get_hw_prof_flags_ex.htm
 tech.root: devinst

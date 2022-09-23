@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_SupportedWriteSpeedDescriptors
 title: IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors (imapi2.h)
-description: Retrieves a list of the detailed write configurations supported by the disc recorder and current media.
+description: Retrieves a list of the detailed write configurations supported by the disc recorder and current media. (IDiscFormat2RawCD.get_SupportedWriteSpeedDescriptors)
 helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","get_SupportedWriteSpeedDescriptors method","IDiscFormat2RawCD.get_SupportedWriteSpeedDescriptors","IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors","get_SupportedWriteSpeedDescriptors","get_SupportedWriteSpeedDescriptors method [IMAPI]","get_SupportedWriteSpeedDescriptors method [IMAPI]","IDiscFormat2RawCD interface","imapi.idiscformat2rawcd_get_supportedwritespeeddescriptors","imapi2/IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors"]
 old-location: imapi\idiscformat2rawcd_get_supportedwritespeeddescriptors.htm
 tech.root: imapi

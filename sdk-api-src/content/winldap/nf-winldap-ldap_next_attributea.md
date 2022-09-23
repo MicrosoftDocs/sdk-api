@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_next_attributeA
 title: ldap_next_attributeA function (winldap.h)
-description: Returns the next attribute.
+description: Returns the next attribute. (ldap_next_attributeA)
 helpviewer_keywords: ["_ldap_ldap_next_attribute","ldap.ldap__next__attribute","ldap.ldap_next_attribute","ldap_next_attribute","ldap_next_attribute function [LDAP]","ldap_next_attributeA","ldap_next_attributeW","winldap/ldap_next_attribute","winldap/ldap_next_attributeA","winldap/ldap_next_attributeW"]
 old-location: ldap\ldap_next_attribute.htm
 tech.root: ldap

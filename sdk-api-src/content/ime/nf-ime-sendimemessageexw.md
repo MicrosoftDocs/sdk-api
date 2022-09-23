@@ -1,7 +1,7 @@
 ---
 UID: NF:ime.SendIMEMessageExW
 title: SendIMEMessageExW function (ime.h)
-description: Specifies an action or processing for the Input Method Editor (IME) through a specified subfunction.
+description: Specifies an action or processing for the Input Method Editor (IME) through a specified subfunction. (Unicode)
 helpviewer_keywords: ["SendIMEMessageEx","SendIMEMessageEx function [Windows API]","SendIMEMessageExA","SendIMEMessageExW","_win32_SendIMEMessageEx","ime/SendIMEMessageEx","ime/SendIMEMessageExA","ime/SendIMEMessageExW","winprog._win32_sendimemessageex","winui._win32_sendimemessageex"]
 old-location: winprog\_win32_sendimemessageex.htm
 tech.root: winprog

@@ -1,12 +1,12 @@
 ---
 UID: NS:digitalv.__unnamed_struct_29
 title: MCI_DGV_SETVIDEO_PARMSW (digitalv.h)
-description: The MCI_DGV_SETVIDEO_PARMS structure contains parameters for the MCI_SETVIDEO command for digital-video devices.
+description: The MCI_DGV_SETVIDEO_PARMSW (Unicode) structure contains parameters for the MCI_SETVIDEO command for digital-video devices.
 helpviewer_keywords: ["*LPMCI_DGV_SETVIDEO_PARMSW","MCI_DGV_SETVIDEO_PARMS","MCI_DGV_SETVIDEO_PARMS structure [Windows Multimedia]","MCI_DGV_SETVIDEO_PARMSW","_win32_MCI_DGV_SETVIDEO_PARMS_str","digitalv/MCI_DGV_SETVIDEO_PARMS","multimedia.mci_dgv_setvideo_parms"]
 old-location: multimedia\mci_dgv_setvideo_parms.htm
 tech.root: Multimedia
 ms.assetid: 1ecc41b9-6c09-4ebb-b14a-e4044df3b5b7
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: '*LPMCI_DGV_SETVIDEO_PARMSW, MCI_DGV_SETVIDEO_PARMS, MCI_DGV_SETVIDEO_PARMS structure [Windows Multimedia], MCI_DGV_SETVIDEO_PARMSW, _win32_MCI_DGV_SETVIDEO_PARMS_str, digitalv/MCI_DGV_SETVIDEO_PARMS, multimedia.mci_dgv_setvideo_parms'
 req.header: digitalv.h
 req.include-header: 

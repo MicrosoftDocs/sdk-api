@@ -1,7 +1,7 @@
 ---
 UID: NF:iscsidsc.RefreshISNSServerW
 title: RefreshISNSServerW function (iscsidsc.h)
-description: RefreshIsnsServer function instructs the iSCSI initiator service to query the indicated Internet Storage Name Service (iSNS) server to refresh the list of discovered targets for the iSCSI initiator service.
+description: RefreshIsnsServer function instructs the iSCSI initiator service to query the indicated Internet Storage Name Service (iSNS) server to refresh the list of discovered targets for the iSCSI initiator service. (Unicode)
 helpviewer_keywords: ["RefreshISNSServerW","RefreshIsnsServer","RefreshIsnsServer function [iSCSI Discovery Library API]","RefreshIsnsServerA","RefreshIsnsServerW","iscsidisc.refreshisnsserver","iscsidsc/RefreshIsnsServer","iscsidsc/RefreshIsnsServerA","iscsidsc/RefreshIsnsServerW"]
 old-location: iscsidisc\refreshisnsserver.htm
 tech.root: iSCSIDisc

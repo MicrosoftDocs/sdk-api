@@ -4,7 +4,7 @@ tech.root: backup
 title: GetProcessWorkingSetSize
 ms.date: 06/02/2021
 targetos: Windows
-description: Retrieves the minimum and maximum working set sizes of the specified process.
+description: Retrieves the minimum and maximum working set sizes of the specified process. (GetProcessWorkingSetSize)
 prerelease: false
 req.assembly: 
 req.construct-type: function

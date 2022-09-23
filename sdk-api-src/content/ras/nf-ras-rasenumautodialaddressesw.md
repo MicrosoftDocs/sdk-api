@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasEnumAutodialAddressesW
 title: RasEnumAutodialAddressesW function (ras.h)
-description: The RasEnumAutodialAddresses function returns a list of all addresses in the AutoDial mapping database.
+description: The RasEnumAutodialAddresses function returns a list of all addresses in the AutoDial mapping database. (Unicode)
 helpviewer_keywords: ["RasEnumAutodialAddresses","RasEnumAutodialAddresses function [RAS]","RasEnumAutodialAddressesA","RasEnumAutodialAddressesW","_ras_rasenumautodialaddresses","ras/RasEnumAutodialAddresses","ras/RasEnumAutodialAddressesA","ras/RasEnumAutodialAddressesW","rras.rasenumautodialaddresses"]
 old-location: rras\rasenumautodialaddresses.htm
 tech.root: RRAS

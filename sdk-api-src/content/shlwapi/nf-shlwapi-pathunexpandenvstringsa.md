@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathUnExpandEnvStringsA
 title: PathUnExpandEnvStringsA function (shlwapi.h)
-description: Replaces certain folder names in a fully qualified path with their associated environment string.
+description: Replaces certain folder names in a fully qualified path with their associated environment string. (ANSI)
 helpviewer_keywords: ["PathUnExpandEnvStrings","PathUnExpandEnvStrings function [Windows Shell]","PathUnExpandEnvStringsA","PathUnExpandEnvStringsW","_win32_PathUnExpandEnvStrings","shell.PathUnExpandEnvStrings","shlwapi/PathUnExpandEnvStrings","shlwapi/PathUnExpandEnvStringsA","shlwapi/PathUnExpandEnvStringsW"]
 old-location: shell\PathUnExpandEnvStrings.htm
 tech.root: shell

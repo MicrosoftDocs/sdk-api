@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegReplaceKeyA
 title: RegReplaceKeyA function (winreg.h)
-description: Replaces the file backing a registry key and all its subkeys with another file, so that when the system is next started, the key and subkeys will have the values stored in the new file.
+description: Replaces the file backing a registry key and all its subkeys with another file, so that when the system is next started, the key and subkeys will have the values stored in the new file. (ANSI)
 helpviewer_keywords: ["RegReplaceKey","RegReplaceKey function","RegReplaceKeyA","RegReplaceKeyW","_win32_regreplacekey","base.regreplacekey","winreg/RegReplaceKey","winreg/RegReplaceKeyA","winreg/RegReplaceKeyW"]
 old-location: base\regreplacekey.htm
 tech.root: winprog

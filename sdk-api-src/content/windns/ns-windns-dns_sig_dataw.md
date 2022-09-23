@@ -1,7 +1,7 @@
 ---
 UID: NS:windns.__unnamed_struct_16
 title: DNS_SIG_DATAW (windns.h)
-description: Structure represents a DNS Security Extensions (DNSSEC) cryptographic signature (SIG) resource record (RR) as specified in RFC 4034.
+description: Structure represents a DNS Security Extensions (DNSSEC) cryptographic signature (SIG) resource record (RR) as specified in RFC 4034. (Unicode)
 helpviewer_keywords: ["*PDNS_RRSIG_DATA","*PDNS_RRSIG_DATAW","*PDNS_SIG_DATA","*PDNS_SIG_DATAW","1","2","3","4","5","DNS_RRSIG_DATA","DNS_RRSIG_DATA structure [DNS]","DNS_RRSIG_DATAW","DNS_SIG_DATA","DNS_SIG_DATAW","PDNS_RRSIG_DATA","PDNS_RRSIG_DATA structure pointer [DNS]","dns.dns_rrsig_data","windns/DNS_RRSIG_DATA","windns/PDNS_RRSIG_DATA"]
 old-location: dns\dns_rrsig_data.htm
 tech.root: DNS

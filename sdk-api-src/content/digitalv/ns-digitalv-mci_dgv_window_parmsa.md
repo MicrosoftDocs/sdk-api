@@ -1,12 +1,12 @@
 ---
 UID: NS:digitalv.__unnamed_struct_34
 title: MCI_DGV_WINDOW_PARMSA (digitalv.h)
-description: The MCI_DGV_WINDOW_PARMS structure contains parameters for MCI_WINDOW command for digital-video devices.
+description: The MCI_DGV_WINDOW_PARMSA (ANSI) structure contains parameters for MCI_WINDOW command for digital-video devices.
 helpviewer_keywords: ["*LPMCI_DGV_WINDOW_PARMSA","MCI_DGV_WINDOW_PARMS","MCI_DGV_WINDOW_PARMS structure [Windows Multimedia]","MCI_DGV_WINDOW_PARMSA","_win32_MCI_DGV_WINDOW_PARMS_str","digitalv/MCI_DGV_WINDOW_PARMS","multimedia.mci_dgv_window_parms"]
 old-location: multimedia\mci_dgv_window_parms.htm
 tech.root: Multimedia
 ms.assetid: 89c16949-4501-4ca0-87b6-c5f2524879a7
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: '*LPMCI_DGV_WINDOW_PARMSA, MCI_DGV_WINDOW_PARMS, MCI_DGV_WINDOW_PARMS structure [Windows Multimedia], MCI_DGV_WINDOW_PARMSA, _win32_MCI_DGV_WINDOW_PARMS_str, digitalv/MCI_DGV_WINDOW_PARMS, multimedia.mci_dgv_window_parms'
 req.header: digitalv.h
 req.include-header: 

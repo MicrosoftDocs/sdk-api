@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellLinkW.GetIconLocation
 title: IShellLinkW::GetIconLocation (shobjidl_core.h)
-description: Gets the location (path and index) of the icon for a Shell link object.
+description: Gets the location (path and index) of the icon for a Shell link object. (Unicode)
 helpviewer_keywords: ["GetIconLocation","GetIconLocation method [Windows Shell]","GetIconLocation method [Windows Shell]","IShellLink interface","GetIconLocation method [Windows Shell]","IShellLinkA interface","GetIconLocation method [Windows Shell]","IShellLinkW interface","IShellLink interface [Windows Shell]","GetIconLocation method","IShellLink::GetIconLocation","IShellLinkA interface [Windows Shell]","GetIconLocation method","IShellLinkA::GetIconLocation","IShellLinkW interface [Windows Shell]","GetIconLocation method","IShellLinkW.GetIconLocation","IShellLinkW::GetIconLocation","_win32_IShellLink_GetIconLocation","shell.IShellLink_GetIconLocation","shobjidl_core/IShellLink::GetIconLocation","shobjidl_core/IShellLinkA::GetIconLocation","shobjidl_core/IShellLinkW::GetIconLocation"]
 old-location: shell\IShellLink_GetIconLocation.htm
 tech.root: shell

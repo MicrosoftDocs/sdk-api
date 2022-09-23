@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHQueryValueExA
 title: SHQueryValueExA function (shlwapi.h)
-description: Opens a registry key and queries it for a specific value.
+description: Opens a registry key and queries it for a specific value. (ANSI)
 helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHQueryValueEx","SHQueryValueEx function [Windows Shell]","SHQueryValueExA","SHQueryValueExW","_win32_SHQueryValueEx","shell.SHQueryValueEx","shlwapi/SHQueryValueEx","shlwapi/SHQueryValueExA","shlwapi/SHQueryValueExW"]
 old-location: shell\SHQueryValueEx.htm
 tech.root: shell

@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.SetICMProfileA
 title: SetICMProfileA function (wingdi.h)
-description: The SetICMProfile function sets a specified color profile as the output profile for a specified device context (DC).
+description: The SetICMProfile function sets a specified color profile as the output profile for a specified device context (DC). (ANSI)
 helpviewer_keywords: ["SetICMProfile","SetICMProfile function [Windows Color System]","SetICMProfileA","SetICMProfileW","_color_SetICMProfile","wcs.seticmprofile","wingdi/SetICMProfile","wingdi/SetICMProfileA","wingdi/SetICMProfileW"]
 old-location: wcs\seticmprofile.htm
 tech.root: WCS

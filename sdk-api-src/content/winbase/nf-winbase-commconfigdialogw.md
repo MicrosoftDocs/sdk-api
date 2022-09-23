@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CommConfigDialogW
 title: CommConfigDialogW function (winbase.h)
-description: Displays a driver-supplied configuration dialog box.
+description: Displays a driver-supplied configuration dialog box. (Unicode)
 helpviewer_keywords: ["CommConfigDialog","CommConfigDialog function","CommConfigDialogA","CommConfigDialogW","_win32_commconfigdialog","base.commconfigdialog","winbase/CommConfigDialog","winbase/CommConfigDialogA","winbase/CommConfigDialogW"]
 old-location: base\commconfigdialog.htm
 tech.root: base

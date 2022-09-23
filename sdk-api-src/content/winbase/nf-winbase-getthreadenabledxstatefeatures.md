@@ -2,7 +2,8 @@
 UID: NF:winbase.GetThreadEnabledXStateFeatures
 tech.root: 
 title: GetThreadEnabledXStateFeatures
-ms.date: 
+description: The GetThreadEnabledXStateFeatures function returns the set of XState features that are currently enabled for the current thread.
+ms.date: 08/04/2022
 targetos: Windows
 description: 
 req.assembly: 

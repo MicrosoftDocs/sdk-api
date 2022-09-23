@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ImageList_DragMove
 title: ImageList_DragMove function (commctrl.h)
-description: Moves the image that is being dragged during a drag-and-drop operation. This function is typically called in response to a WM_MOUSEMOVE message.
+description: Moves the image that is being dragged during a drag-and-drop operation. This function is typically called in response to a WM_MOUSEMOVE message. (ImageList_DragMove)
 helpviewer_keywords: ["ImageList_DragMove","ImageList_DragMove function [Windows Controls]","_win32_ImageList_DragMove","_win32_ImageList_DragMove_cpp","commctrl/ImageList_DragMove","controls.ImageList_DragMove","controls._win32_ImageList_DragMove"]
 old-location: controls\ImageList_DragMove.htm
 tech.root: Controls

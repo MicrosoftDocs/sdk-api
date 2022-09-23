@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.OpenClusterNetwork
 title: OpenClusterNetwork function (clusapi.h)
-description: Opens a connection to a network and returns a handle to it.
+description: Opens a connection to a network and returns a handle to it. (OpenClusterNetwork)
 helpviewer_keywords: ["OpenClusterNetwork","OpenClusterNetwork function [Failover Cluster]","PCLUSAPI_OPEN_CLUSTER_NETWORK","PCLUSAPI_OPEN_CLUSTER_NETWORK function [Failover Cluster]","_wolf_openclusternetwork","clusapi/OpenClusterNetwork","clusapi/PCLUSAPI_OPEN_CLUSTER_NETWORK","mscs.openclusternetwork"]
 old-location: mscs\openclusternetwork.htm
 tech.root: MsCS

@@ -1,7 +1,7 @@
 ---
 UID: NF:pdh.PdhGetDefaultPerfCounterHW
 title: PdhGetDefaultPerfCounterHW function (pdh.h)
-description: Retrieves the name of the default counter for the specified object.
+description: Retrieves the name of the default counter for the specified object. (Unicode)
 helpviewer_keywords: ["PdhGetDefaultPerfCounterH","PdhGetDefaultPerfCounterH function [Perf]","PdhGetDefaultPerfCounterHA","PdhGetDefaultPerfCounterHW","_win32_pdhgetdefaultperfcounterh","base.pdhgetdefaultperfcounterh","pdh/PdhGetDefaultPerfCounterH","pdh/PdhGetDefaultPerfCounterHA","pdh/PdhGetDefaultPerfCounterHW","perf.pdhgetdefaultperfcounterh"]
 old-location: perf\pdhgetdefaultperfcounterh.htm
 tech.root: perf

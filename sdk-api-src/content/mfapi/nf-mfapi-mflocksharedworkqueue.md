@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFLockSharedWorkQueue
 title: MFLockSharedWorkQueue function (mfapi.h)
-description: Obtains and locks a shared work queue.
+description: Obtains and locks a shared work queue. (MFLockSharedWorkQueue)
 helpviewer_keywords: ["MFLockSharedWorkQueue","MFLockSharedWorkQueue function [Media Foundation]","mf.mflocksharedworkqueue","mfapi/MFLockSharedWorkQueue"]
 old-location: mf\mflocksharedworkqueue.htm
 tech.root: mf

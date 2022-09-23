@@ -1,7 +1,7 @@
 ---
 UID: NF:strsafe.StringCbPrintf_lA
 title: StringCbPrintf_lA function (strsafe.h)
-description: Writes formatted data to the specified string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
+description: Writes formatted data to the specified string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer. (StringCbPrintf_lA)
 helpviewer_keywords: ["StringCbPrintf_l","StringCbPrintf_l function [Menus and Other Resources]","StringCbPrintf_lA","StringCbPrintf_lW","menurc.stringcbprintf_l","strsafe/StringCbPrintf_l","strsafe/StringCbPrintf_lA","strsafe/StringCbPrintf_lW"]
 old-location: menurc\stringcbprintf_l.htm
 tech.root: menurc

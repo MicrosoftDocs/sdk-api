@@ -1,12 +1,12 @@
 ---
 UID: NF:imm.ImmDestroyContext
 title: ImmDestroyContext function (imm.h)
-description: Releases the input context and frees associated memory.
+description: The ImmDestroyContext function (imm.h) releases the input context and frees associated memory.
 helpviewer_keywords: ["ImmDestroyContext","ImmDestroyContext function [Internationalization for Windows Applications]","_win32_ImmDestroyContext","imm/ImmDestroyContext","intl.immdestroycontext"]
 old-location: intl\immdestroycontext.htm
 tech.root: Intl
 ms.assetid: ab6dc79f-3c47-4ab0-ba72-1e7db7a72116
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: ImmDestroyContext, ImmDestroyContext function [Internationalization for Windows Applications], _win32_ImmDestroyContext, imm/ImmDestroyContext, intl.immdestroycontext
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h

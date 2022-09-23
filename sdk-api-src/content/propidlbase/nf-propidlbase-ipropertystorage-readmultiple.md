@@ -1,7 +1,7 @@
 ---
 UID: NF:propidlbase.IPropertyStorage.ReadMultiple
 title: IPropertyStorage::ReadMultiple (propidlbase.h)
-description: Reads specified properties from the current property set.
+description: Reads specified properties from the current property set. (IPropertyStorage.ReadMultiple)
 helpviewer_keywords: ["IPropertyStorage [Strctd Stg]","ReadMultiple","IPropertyStorage interface [Structured Storage]","ReadMultiple method","IPropertyStorage.ReadMultiple","IPropertyStorage::ReadMultiple","ReadMultiple","ReadMultiple method [Structured Storage]","ReadMultiple method [Structured Storage]","IPropertyStorage interface","_stg_ipropertystorage_readmultiple","propidl/IPropertyStorage::ReadMultiple","stg.ipropertystorage_readmultiple"]
 old-location: stg\ipropertystorage_readmultiple.htm
 tech.root: Stg

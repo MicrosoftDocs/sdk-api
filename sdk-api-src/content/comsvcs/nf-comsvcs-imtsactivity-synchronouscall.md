@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IMTSActivity.SynchronousCall
 title: IMTSActivity::SynchronousCall (comsvcs.h)
-description: Performs the user-defined work synchronously.
+description: Performs the user-defined work synchronously. (IMTSActivity.SynchronousCall)
 helpviewer_keywords: ["IMTSActivity interface [COM+]","SynchronousCall method","IMTSActivity.SynchronousCall","IMTSActivity::SynchronousCall","SynchronousCall","SynchronousCall method [COM+]","SynchronousCall method [COM+]","IMTSActivity interface","_cos_IMTSActivity_SynchronousCall","comsvcs/IMTSActivity::SynchronousCall","cos.imtsactivity_synchronouscall"]
 old-location: cos\imtsactivity_synchronouscall.htm
 tech.root: cos

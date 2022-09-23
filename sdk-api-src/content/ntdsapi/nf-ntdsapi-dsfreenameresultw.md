@@ -1,7 +1,7 @@
 ---
 UID: NF:ntdsapi.DsFreeNameResultW
 title: DsFreeNameResultW function (ntdsapi.h)
-description: Frees the memory held by a DS_NAME_RESULT structure.
+description: Frees the memory held by a DS_NAME_RESULT structure. (Unicode)
 helpviewer_keywords: ["DsFreeNameResult","DsFreeNameResult function [Active Directory]","DsFreeNameResultA","DsFreeNameResultW","_glines_dsfreenameresult","ad.dsfreenameresult","ntdsapi/DsFreeNameResult","ntdsapi/DsFreeNameResultA","ntdsapi/DsFreeNameResultW"]
 old-location: ad\dsfreenameresult.htm
 tech.root: ad

@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.DnsHostnameToComputerNameA
 title: DnsHostnameToComputerNameA function (winbase.h)
-description: Converts a DNS-style host name to a NetBIOS-style computer name.
+description: Converts a DNS-style host name to a NetBIOS-style computer name. (ANSI)
 helpviewer_keywords: ["DnsHostnameToComputerName","DnsHostnameToComputerName function","DnsHostnameToComputerNameA","DnsHostnameToComputerNameW","_win32_dnshostnametocomputername","base.dnshostnametocomputername","winbase/DnsHostnameToComputerName","winbase/DnsHostnameToComputerNameA","winbase/DnsHostnameToComputerNameW"]
 old-location: base\dnshostnametocomputername.htm
 tech.root: winprog

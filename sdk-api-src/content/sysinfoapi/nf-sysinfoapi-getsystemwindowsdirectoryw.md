@@ -1,7 +1,7 @@
 ---
 UID: NF:sysinfoapi.GetSystemWindowsDirectoryW
 title: GetSystemWindowsDirectoryW function (sysinfoapi.h)
-description: Retrieves the path of the shared Windows directory on a multi-user system.
+description: Retrieves the path of the shared Windows directory on a multi-user system. (Unicode)
 helpviewer_keywords: ["GetSystemWindowsDirectory","GetSystemWindowsDirectory function","GetSystemWindowsDirectoryA","GetSystemWindowsDirectoryW","_win32_getsystemwindowsdirectory","base.getsystemwindowsdirectory","sysinfoapi/GetSystemWindowsDirectory","sysinfoapi/GetSystemWindowsDirectoryA","sysinfoapi/GetSystemWindowsDirectoryW"]
 old-location: base\getsystemwindowsdirectory.htm
 tech.root: winprog

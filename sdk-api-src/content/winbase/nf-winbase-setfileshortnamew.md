@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.SetFileShortNameW
 title: SetFileShortNameW function (winbase.h)
-description: Sets the short name for the specified file.
+description: Sets the short name for the specified file. (Unicode)
 helpviewer_keywords: ["SetFileShortName","SetFileShortName function [Files]","SetFileShortNameA","SetFileShortNameW","_win32_setfileshortname","base.setfileshortname","fs.setfileshortname","winbase/SetFileShortName","winbase/SetFileShortNameA","winbase/SetFileShortNameW"]
 old-location: fs\setfileshortname.htm
 tech.root: fs

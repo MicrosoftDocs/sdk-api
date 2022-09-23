@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsapi32.WTSEnumerateListenersW
 title: WTSEnumerateListenersW function (wtsapi32.h)
-description: Enumerates all the Remote Desktop Services listeners on a Remote Desktop Session Host (RD Session Host) server.
+description: Enumerates all the Remote Desktop Services listeners on a Remote Desktop Session Host (RD Session Host) server. (Unicode)
 helpviewer_keywords: ["WTSEnumerateListeners","WTSEnumerateListeners function [Remote Desktop Services]","WTSEnumerateListenersA","WTSEnumerateListenersW","termserv.wtsenumeratelisteners","wtsapi32/WTSEnumerateListeners","wtsapi32/WTSEnumerateListenersA","wtsapi32/WTSEnumerateListenersW"]
 old-location: termserv\wtsenumeratelisteners.htm
 tech.root: TermServ

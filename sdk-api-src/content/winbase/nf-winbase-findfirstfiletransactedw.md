@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.FindFirstFileTransactedW
 title: FindFirstFileTransactedW function (winbase.h)
-description: Searches a directory for a file or subdirectory with a name that matches a specific name as a transacted operation.
+description: Searches a directory for a file or subdirectory with a name that matches a specific name as a transacted operation. (Unicode)
 helpviewer_keywords: ["FIND_FIRST_EX_CASE_SENSITIVE","FindFirstFileTransacted","FindFirstFileTransacted function [Files]","FindFirstFileTransactedA","FindFirstFileTransactedW","fs.findfirstfiletransacted","winbase/FindFirstFileTransacted","winbase/FindFirstFileTransactedA","winbase/FindFirstFileTransactedW"]
 old-location: fs\findfirstfiletransacted.htm
 tech.root: fs

@@ -1,7 +1,7 @@
 ---
 UID: NF:windns.DnsReplaceRecordSetW
 title: DnsReplaceRecordSetW function (windns.h)
-description: Replaces an existing resource record (RR) set.
+description: Replaces an existing resource record (RR) set. (DnsReplaceRecordSetW)
 helpviewer_keywords: ["DnsReplaceRecordSet","DnsReplaceRecordSet function [DNS]","DnsReplaceRecordSetA","DnsReplaceRecordSetUTF8","DnsReplaceRecordSetW","_dns_dnsreplacerecordset","dns.dnsreplacerecordset","windns/DnsReplaceRecordSet","windns/DnsReplaceRecordSetA","windns/DnsReplaceRecordSetUTF8","windns/DnsReplaceRecordSetW"]
 old-location: dns\dnsreplacerecordset.htm
 tech.root: DNS

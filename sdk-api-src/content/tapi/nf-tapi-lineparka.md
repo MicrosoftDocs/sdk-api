@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineParkA
 title: lineParkA function (tapi.h)
-description: The linePark function parks the specified call according to the specified park mode.
+description: The linePark function parks the specified call according to the specified park mode. (lineParkA)
 helpviewer_keywords: ["_tapi2_linepark","linePark","linePark function [TAPI 2.2]","lineParkA","lineParkW","tapi/linePark","tapi/lineParkA","tapi/lineParkW","tapi2.linepark"]
 old-location: tapi2\linepark.htm
 tech.root: tapi3

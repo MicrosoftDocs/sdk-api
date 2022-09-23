@@ -1,7 +1,7 @@
 ---
 UID: NS:netioapi._DNS_INTERFACE_SETTINGS
 title: DNS_INTERFACE_SETTINGS
-description: Represents the DNS settings that can be configured on a given interface by calling the [**SetInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-setinterfacednssettings) function.
+description: Represents the DNS settings that can be configured on a given interface by calling the [**SetInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-setinterfacednssettings) function. (DNS_INTERFACE_SETTINGS)
 tech.root: IpHlp
 ms.date: 07/15/2021
 req.header: netioapi.h

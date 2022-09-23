@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_EraserMode
 title: IInkPicture::get_EraserMode (msinkaut.h)
-description: Gets or sets a value that specifies whether ink is erased by stroke or by point.
+description: Gets or sets a value that specifies whether ink is erased by stroke or by point. (Get)
 helpviewer_keywords: ["EraserMode property [Tablet PC]","EraserMode property [Tablet PC]","IInkPicture interface","IInkPicture interface [Tablet PC]","EraserMode property","IInkPicture.EraserMode","IInkPicture.get_EraserMode","IInkPicture::EraserMode","IInkPicture::get_EraserMode","IInkPicture::put_EraserMode","InkPicture.get_EraserMode","InkPicture.put_EraserMode","f6471163-8209-4dd0-887c-0edd54ebb50e","get_EraserMode","msinkaut/IInkPicture::EraserMode","msinkaut/IInkPicture::get_EraserMode","msinkaut/IInkPicture::put_EraserMode","put_EraserMode","tablet.inkpicture_erasermode"]
 old-location: tablet\inkpicture_erasermode.htm
 tech.root: tablet

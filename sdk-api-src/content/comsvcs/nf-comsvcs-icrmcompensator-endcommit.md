@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.EndCommit
 title: ICrmCompensator::EndCommit (comsvcs.h)
-description: Notifies the CRM Compensator that it has delivered all the log records available during the commit phase.
+description: Notifies the CRM Compensator that it has delivered all the log records available during the commit phase. (ICrmCompensator.EndCommit)
 helpviewer_keywords: ["EndCommit","EndCommit method [COM+]","EndCommit method [COM+]","ICrmCompensator interface","ICrmCompensator interface [COM+]","EndCommit method","ICrmCompensator.EndCommit","ICrmCompensator::EndCommit","_dtc_ICrmCompensator_EndCommit","comsvcs/ICrmCompensator::EndCommit","cos.icrmcompensator_endcommit"]
 old-location: cos\icrmcompensator_endcommit.htm
 tech.root: cos

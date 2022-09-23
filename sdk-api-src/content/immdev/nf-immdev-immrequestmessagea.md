@@ -1,7 +1,7 @@
 ---
 UID: NF:immdev.ImmRequestMessageA
 title: ImmRequestMessageA function (immdev.h)
-description: Generates a WM_IME_REQUEST message.
+description: Generates a WM_IME_REQUEST message. (ANSI)
 helpviewer_keywords: ["ImmRequestMessage","ImmRequestMessage function [Internationalization for Windows Applications]","ImmRequestMessageA","ImmRequestMessageW","immdev/ImmRequestMessage","immdev/ImmRequestMessageA","immdev/ImmRequestMessageW","intl.immrequestmessage"]
 old-location: intl\immrequestmessage.htm
 tech.root: Intl

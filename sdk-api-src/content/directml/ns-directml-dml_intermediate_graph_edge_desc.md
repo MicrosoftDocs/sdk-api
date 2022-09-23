@@ -84,6 +84,6 @@ This API was introduced in DirectML version `1.1.0`.
 
 ## -see-also
 
-* [IDMLDevice1::CompileGraph method](/windows/desktop/api/directml/nf-directml-idmldevice1-compilegraph)[DML_GRAPH_DESC struct](dml_graph_desc.md)    
+* [IDMLDevice1::CompileGraph method](/windows/desktop/api/directml/nf-directml-idmldevice1-compilegraph), [DML_GRAPH_DESC struct](/windows/win32/api/directml/ns-directml-dml_graph_desc)    
 * [DML_GRAPH_DESC structure](/windows/desktop/api/directml/ns-directml-dml_graph_desc)
 * [DML_GRAPH_EDGE_DESC structure](/windows/desktop/api/directml/ns-directml-dml_graph_edge_desc)

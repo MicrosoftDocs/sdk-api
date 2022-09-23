@@ -1,7 +1,7 @@
 ---
 UID: NF:directml.DMLCreateDevice1
 title: DMLCreateDevice1 function
-description: Creates a DirectML device for a given Direct3D 12 device.
+description: Creates a DirectML device for a given Direct3D 12 device. (DMLCreateDevice1)
 helpviewer_keywords: ["DMLCreateDevice1","DMLCreateDevice1 function","direct3d12.dmlcreatedevice1","directml/DMLCreateDevice1"]
 tech.root: directml
 ms.date: 11/04/2020
@@ -106,5 +106,5 @@ This API was introduced in DirectML version `1.1.0`.
 ## -see-also
 * [DML_FEATURE_LEVEL enumeration](/windows/win32/api/directml/ne-directml-dml_feature_level)
 * [DirectML version history](/windows/ai/directml/dml-version-history)
-* [DirectML feature level history](/windows/ai/directml/dml-feature_level-history)    
+* [DirectML feature level history](/windows/ai/directml/dml-feature-level-history)    
 * [Using the DirectML debug layer](/windows/ai/directml/dml-debug-layer)

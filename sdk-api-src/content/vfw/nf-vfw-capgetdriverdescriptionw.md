@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.capGetDriverDescriptionW
 title: capGetDriverDescriptionW function (vfw.h)
-description: The capGetDriverDescription function retrieves the version description of the capture driver.
+description: The capGetDriverDescription function retrieves the version description of the capture driver. (Unicode)
 helpviewer_keywords: ["_win32_capGetDriverDescription","capGetDriverDescription","capGetDriverDescription function [Windows Multimedia]","capGetDriverDescriptionA","capGetDriverDescriptionW","multimedia.capgetdriverdescription","vfw/capGetDriverDescription","vfw/capGetDriverDescriptionA","vfw/capGetDriverDescriptionW"]
 old-location: multimedia\capgetdriverdescription.htm
 tech.root: Multimedia

@@ -3,7 +3,7 @@ UID: NF:icodecapi.ICodecAPI.IsSupported
 title: ICodecAPI::IsSupported
 ms.date: 09/22/2020
 targetos: Windows
-description: The IsSupported method queries whether a codec supports a given property.
+description: The IsSupported method queries whether a codec supports a given property. (ICodecAPI::IsSupported)
 helpviewer_keywords: ["ICodecAPI interface [DirectShow]","IsSupported method","ICodecAPI.IsSupported","ICodecAPI::IsSupported","ICodecAPIIsSupported","IsSupported","IsSupported method [DirectShow]","IsSupported method [DirectShow]","ICodecAPI interface","dshow.icodecapi_issupported","icodecapi/ICodecAPI::IsSupported"]
 tech.root: mf
 req.assembly: 

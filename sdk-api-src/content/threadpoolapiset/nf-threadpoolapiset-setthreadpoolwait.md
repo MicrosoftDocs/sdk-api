@@ -1,7 +1,7 @@
 ---
 UID: NF:threadpoolapiset.SetThreadpoolWait
 title: SetThreadpoolWait function (threadpoolapiset.h)
-description: Sets the wait object�replacing the previous wait object, if any. A worker thread calls the wait object's callback function after the handle becomes signaled or after the specified timeout expires.
+description: Sets the wait object�replacing the previous wait object, if any. A worker thread calls the wait object's callback function after the handle becomes signaled or after the specified timeout expires. (SetThreadpoolWait)
 helpviewer_keywords: ["SetThreadpoolWait","SetThreadpoolWait function","base.setthreadpoolwait","threadpoolapiset/SetThreadpoolWait","winbase/SetThreadpoolWait"]
 old-location: base\setthreadpoolwait.htm
 tech.root: backup

@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IServerSecurity.IsImpersonating
 title: IServerSecurity::IsImpersonating (objidl.h)
-description: Indicates whether the server is currently impersonating the client.
+description: The IServerSecurity::IsImpersonating method (objidl.h) indicates whether the server is currently impersonating the client.
 helpviewer_keywords: ["IServerSecurity interface [COM]","IsImpersonating method","IServerSecurity.IsImpersonating","IServerSecurity::IsImpersonating","IsImpersonating","IsImpersonating method [COM]","IsImpersonating method [COM]","IServerSecurity interface","_com_iserversecurity_isimpersonating","com.iserversecurity_isimpersonating","objidlbase/IServerSecurity::IsImpersonating"]
 old-location: com\iserversecurity_isimpersonating.htm
 tech.root: com
 ms.assetid: f847348a-1785-4b4a-b43e-a5eea21847c4
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IServerSecurity interface [COM],IsImpersonating method, IServerSecurity.IsImpersonating, IServerSecurity::IsImpersonating, IsImpersonating, IsImpersonating method [COM], IsImpersonating method [COM],IServerSecurity interface, _com_iserversecurity_isimpersonating, com.iserversecurity_isimpersonating, objidlbase/IServerSecurity::IsImpersonating
 req.header: objidl.h
 req.include-header: ObjIdl.h

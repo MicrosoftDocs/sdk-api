@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathParseIconLocationA
 title: PathParseIconLocationA function (shlwapi.h)
-description: Parses a file location string that contains a file location and icon index, and returns separate values.
+description: Parses a file location string that contains a file location and icon index, and returns separate values. (ANSI)
 helpviewer_keywords: ["PathParseIconLocation","PathParseIconLocation function [Windows Shell]","PathParseIconLocationA","PathParseIconLocationW","_win32_PathParseIconLocation","shell.PathParseIconLocation","shlwapi/PathParseIconLocation","shlwapi/PathParseIconLocationA","shlwapi/PathParseIconLocationW"]
 old-location: shell\PathParseIconLocation.htm
 tech.root: shell

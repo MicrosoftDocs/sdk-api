@@ -1,7 +1,7 @@
 ---
 UID: NS:icm.LabCOLOR
 title: LabCOLOR
-description: TBD
+description: TBD (LabCOLOR)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

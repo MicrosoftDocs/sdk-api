@@ -1,7 +1,7 @@
 ---
 UID: NS:winldap.ldap_apifeature_infoW
 title: LDAPAPIFeatureInfoW (winldap.h)
-description: Retrieves data about any supported LDAP API extensions.
+description: Retrieves data about any supported LDAP API extensions. (Unicode)
 helpviewer_keywords: ["LDAPAPIFeatureInfo","LDAPAPIFeatureInfo structure [LDAP]","LDAPAPIFeatureInfoA","LDAPAPIFeatureInfoW","ldap.ldapapifeatureinfo","winldap/LDAPAPIFeatureInfo","winldap/LDAPAPIFeatureInfoA","winldap/LDAPAPIFeatureInfoW"]
 old-location: ldap\ldapapifeatureinfo.htm
 tech.root: ldap
@@ -72,7 +72,7 @@ The vendor API extension version number.  This implementation returns an integer
 
 ## -remarks
 
-A pointer to this structure is passed, along with the <a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">LDAP_FEATURE_API_INFO</a> session option and the name of the desired API extension, to <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option">ldap_get_option</a>, to retrieve detailed data about the LDAP API extension.
+A pointer to this structure is passed, along with the <a href="/previous-versions/windows/desktop/ldap/session-options">LDAP_FEATURE_API_INFO</a> session option and the name of the desired API extension, to <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option">ldap_get_option</a>, to retrieve detailed data about the LDAP API extension.
 
 
 
@@ -87,7 +87,7 @@ A pointer to this structure is passed, along with the <a href="/previous-version
 
 
 
-<a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">Session Options</a>
+<a href="/previous-versions/windows/desktop/ldap/session-options">Session Options</a>
 
 
 

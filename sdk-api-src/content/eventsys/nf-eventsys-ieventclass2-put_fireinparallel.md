@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventClass2.put_FireInParallel
 title: IEventClass2::put_FireInParallel (eventsys.h)
-description: Indicates whether events of this class can be fired in parallel.
+description: Indicates whether events of this class can be fired in parallel. (Put)
 helpviewer_keywords: ["FireInParallel property [COM+]","FireInParallel property [COM+]","IEventClass2 interface","IEventClass2 interface [COM+]","FireInParallel property","IEventClass2.FireInParallel","IEventClass2.put_FireInParallel","IEventClass2::FireInParallel","IEventClass2::get_FireInParallel","IEventClass2::put_FireInParallel","_cos_IEventClass2_get_FireInParallel","_cos_IEventClass2_put_FireInParallel","cos.ieventclass2_fireinparallel","eventsys/IEventClass2::FireInParallel","eventsys/IEventClass2::get_FireInParallel","eventsys/IEventClass2::put_FireInParallel","put_FireInParallel"]
 old-location: cos\ieventclass2_fireinparallel.htm
 tech.root: cos

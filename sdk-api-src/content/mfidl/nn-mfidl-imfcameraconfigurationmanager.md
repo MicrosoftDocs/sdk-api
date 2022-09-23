@@ -2,9 +2,9 @@
 UID: NN:mfidl.IMFCameraConfigurationManager
 tech.root: mf
 title: IMFCameraConfigurationManager
-ms.date: 
+ms.date: 08/05/2022
 targetos: Windows
-description: 
+description: The IMFCameraConfigurationManager interface can be created by calling the COM function CoCreateInstance, and passing the CLSID_CameraConfigurationManager as the CLSID parameter.
 prerelease: false
 req.assembly: 
 req.construct-type: iface

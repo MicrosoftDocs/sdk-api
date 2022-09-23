@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineGenerateDigitsA
 title: lineGenerateDigitsA function (tapi.h)
-description: Initiates the generation of the specified digits on the specified call as inband tones using the specified signaling mode.
+description: Initiates the generation of the specified digits on the specified call as inband tones using the specified signaling mode. (lineGenerateDigitsA)
 helpviewer_keywords: ["_tapi2_linegeneratedigits","lineGenerateDigits","lineGenerateDigits function [TAPI 2.2]","lineGenerateDigitsA","lineGenerateDigitsW","tapi/lineGenerateDigits","tapi/lineGenerateDigitsA","tapi/lineGenerateDigitsW","tapi2.linegeneratedigits"]
 old-location: tapi2\linegeneratedigits.htm
 tech.root: tapi3

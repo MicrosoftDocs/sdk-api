@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiGetClassDescriptionExA
 title: SetupDiGetClassDescriptionExA function (setupapi.h)
-description: The SetupDiGetClassDescriptionEx function retrieves the description of a setup class installed on a local or remote computer.
+description: The SetupDiGetClassDescriptionEx function retrieves the description of a setup class installed on a local or remote computer. (ANSI)
 helpviewer_keywords: ["SetupDiGetClassDescriptionEx","SetupDiGetClassDescriptionEx function [Device and Driver Installation]","SetupDiGetClassDescriptionExA","SetupDiGetClassDescriptionExW","devinst.setupdigetclassdescriptionex","di-rtns_1e1110ab-59c3-42be-863a-396f329b114e.xml","setupapi/SetupDiGetClassDescriptionEx"]
 old-location: devinst\setupdigetclassdescriptionex.htm
 tech.root: devinst

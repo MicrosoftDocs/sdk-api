@@ -1,12 +1,12 @@
 ---
 UID: NE:msclus.CLUS_FLAGS
 title: CLUS_FLAGS (msclus.h)
-description: Identifies the resource or group as a core resource.
+description: CLUS_FLAGS (msclus.h) identifies the resource or group as a core resource.
 helpviewer_keywords: ["CLUS_FLAGS","CLUS_FLAGS enumeration [Failover Cluster]","CLUS_FLAG_CORE","_CLUS_FLAGS","_CLUS_FLAGS enumeration [Failover Cluster]","clusapi/CLUS_FLAGS","clusapi/CLUS_FLAG_CORE","clusapi/_CLUS_FLAGS","msclus/CLUS_FLAGS","msclus/CLUS_FLAG_CORE","msclus/_CLUS_FLAGS","mscs.clus_flags"]
 old-location: mscs\clus_flags.htm
 tech.root: MsCS
 ms.assetid: 54d00b1c-cef7-4310-8c10-743ee7086979
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: CLUS_FLAGS, CLUS_FLAGS enumeration [Failover Cluster], CLUS_FLAG_CORE, _CLUS_FLAGS, _CLUS_FLAGS enumeration [Failover Cluster], clusapi/CLUS_FLAGS, clusapi/CLUS_FLAG_CORE, clusapi/_CLUS_FLAGS, msclus/CLUS_FLAGS, msclus/CLUS_FLAG_CORE, msclus/_CLUS_FLAGS, mscs.clus_flags
 req.header: msclus.h
 req.include-header: 

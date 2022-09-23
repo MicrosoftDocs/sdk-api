@@ -1,7 +1,7 @@
 ---
 UID: NF:strsafe.StringCbVPrintf_lA
 title: StringCbVPrintf_lA function (strsafe.h)
-description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
+description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer. (StringCbVPrintf_lA)
 helpviewer_keywords: ["StringCbVPrintf_l","StringCbVPrintf_l function [Menus and Other Resources]","StringCbVPrintf_lA","StringCbVPrintf_lW","menurc.stringcbvprintf_l","strsafe/StringCbVPrintf_l","strsafe/StringCbVPrintf_lA","strsafe/StringCbVPrintf_lW"]
 old-location: menurc\stringcbvprintf_l.htm
 tech.root: menurc

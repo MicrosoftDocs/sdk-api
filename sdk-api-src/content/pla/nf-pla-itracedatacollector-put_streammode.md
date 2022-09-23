@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_StreamMode
 title: ITraceDataCollector::put_StreamMode (pla.h)
-description: Retrieves or sets the logging mode of the trace session.
+description: Retrieves or sets the logging mode of the trace session. (Put)
 helpviewer_keywords: ["ITraceDataCollector interface [PLA]","StreamMode property","ITraceDataCollector.StreamMode","ITraceDataCollector.put_StreamMode","ITraceDataCollector::StreamMode","ITraceDataCollector::get_StreamMode","ITraceDataCollector::put_StreamMode","StreamMode property [PLA]","StreamMode property [PLA]","ITraceDataCollector interface","base.itracedatacollector_streammode","pla.itracedatacollector_streammode","pla/ITraceDataCollector::StreamMode","pla/ITraceDataCollector::get_StreamMode","pla/ITraceDataCollector::put_StreamMode","put_StreamMode"]
 old-location: pla\itracedatacollector_streammode.htm
 tech.root: PLA

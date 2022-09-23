@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12shader.ID3D12LibraryReflection.GetDesc
 title: ID3D12LibraryReflection::GetDesc (d3d12shader.h)
-description: Fills the library descriptor structure for the library reflection.
+description: Fills the library descriptor structure for the library reflection. (ID3D12LibraryReflection.GetDesc)
 helpviewer_keywords: ["GetDesc","GetDesc method","GetDesc method","ID3D12LibraryReflection interface","ID3D12LibraryReflection interface","GetDesc method","ID3D12LibraryReflection.GetDesc","ID3D12LibraryReflection::GetDesc","d3d12shader/ID3D12LibraryReflection::GetDesc","direct3d12.id3d12libraryreflection_getdesc"]
 old-location: direct3d12\id3d12libraryreflection_getdesc.htm
 tech.root: direct3d12

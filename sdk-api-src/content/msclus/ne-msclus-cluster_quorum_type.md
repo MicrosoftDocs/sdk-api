@@ -1,12 +1,12 @@
 ---
 UID: NE:msclus.CLUSTER_QUORUM_TYPE
 title: CLUSTER_QUORUM_TYPE (msclus.h)
-description: The type of quorum resource to be created.
+description: The CLUSTER_QUORUM_TYPE enumeration (msclus.h) is the type of quorum resource to be created.
 helpviewer_keywords: ["CLUSTER_QUORUM_TYPE","CLUSTER_QUORUM_TYPE enumeration [Failover Cluster]","ModifyQuorum","OperationalQuorum","_CLUSTER_QUORUM_TYPE","_CLUSTER_QUORUM_TYPE enumeration [Failover Cluster]","clusapi/CLUSTER_QUORUM_TYPE","clusapi/ModifyQuorum","clusapi/OperationalQuorum","clusapi/_CLUSTER_QUORUM_TYPE","msclus/CLUSTER_QUORUM_TYPE","msclus/ModifyQuorum","msclus/OperationalQuorum","msclus/_CLUSTER_QUORUM_TYPE","mscs.cluster_quorum_type"]
 old-location: mscs\cluster_quorum_type.htm
 tech.root: MsCS
 ms.assetid: 2a1d24ab-236e-4fee-b411-cafc2cbd1832
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: CLUSTER_QUORUM_TYPE, CLUSTER_QUORUM_TYPE enumeration [Failover Cluster], ModifyQuorum, OperationalQuorum, _CLUSTER_QUORUM_TYPE, _CLUSTER_QUORUM_TYPE enumeration [Failover Cluster], clusapi/CLUSTER_QUORUM_TYPE, clusapi/ModifyQuorum, clusapi/OperationalQuorum, clusapi/_CLUSTER_QUORUM_TYPE, msclus/CLUSTER_QUORUM_TYPE, msclus/ModifyQuorum, msclus/OperationalQuorum, msclus/_CLUSTER_QUORUM_TYPE, mscs.cluster_quorum_type
 req.header: msclus.h
 req.include-header: 

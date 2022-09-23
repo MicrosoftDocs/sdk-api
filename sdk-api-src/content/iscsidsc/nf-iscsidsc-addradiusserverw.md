@@ -1,7 +1,7 @@
 ---
 UID: NF:iscsidsc.AddRadiusServerW
 title: AddRadiusServerW function (iscsidsc.h)
-description: AddRadiusServer.
+description: AddRadiusServer. (Unicode)
 helpviewer_keywords: ["AddRadiusServer","AddRadiusServer function [iSCSI Discovery Library API]","AddRadiusServerA","AddRadiusServerW","iscsidisc.addradiusserver","iscsidsc/AddRadiusServer","iscsidsc/AddRadiusServerA","iscsidsc/AddRadiusServerW"]
 old-location: iscsidisc\addradiusserver.htm
 tech.root: iSCSIDisc

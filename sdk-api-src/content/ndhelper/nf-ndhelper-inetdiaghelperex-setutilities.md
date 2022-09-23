@@ -1,7 +1,7 @@
 ---
 UID: NF:ndhelper.INetDiagHelperEx.SetUtilities
 title: INetDiagHelperEx::SetUtilities (ndhelper.h)
-description: Used by the Network Diagnostics Framework (NDF). This method is reserved for system use.
+description: Used by the Network Diagnostics Framework (NDF). This method is reserved for system use. (INetDiagHelperEx.SetUtilities)
 helpviewer_keywords: ["INetDiagHelperEx interface [NDF]","SetUtilities method","INetDiagHelperEx.SetUtilities","INetDiagHelperEx::SetUtilities","SetUtilities","SetUtilities method [NDF]","SetUtilities method [NDF]","INetDiagHelperEx interface","ndf.inetdiaghelperex_setutilities","ndhelper/INetDiagHelperEx::SetUtilities"]
 old-location: ndf\inetdiaghelperex_setutilities.htm
 tech.root: NDF

@@ -4,7 +4,7 @@ tech.root: devinst
 title: CM_Open_Class_KeyA
 ms.date: 04/13/2021
 targetos: Windows
-description: The CM_Open_Class_Key function opens the device setup class registry key, the device interface class registry key, or a specific subkey of a class.
+description: The CM_Open_Class_Key function opens the device setup class registry key, the device interface class registry key, or a specific subkey of a class. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12shader.ID3D12FunctionParameterReflection
 title: ID3D12FunctionParameterReflection (d3d12shader.h)
-description: A function-parameter-reflection interface accesses function-parameter info.
+description: A function-parameter-reflection interface accesses function-parameter info. (ID3D12FunctionParameterReflection)
 helpviewer_keywords: ["ID3D12FunctionParameterReflection","ID3D12FunctionParameterReflection interface","ID3D12FunctionParameterReflection interface","described","d3d12shader/ID3D12FunctionParameterReflection","direct3d12.id3d12functionparameterreflection"]
 old-location: direct3d12\id3d12functionparameterreflection.htm
 tech.root: direct3d12

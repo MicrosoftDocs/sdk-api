@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.BSTR_UserFree64
 title: BSTR_UserFree64 function (oaidl.h)
-description: Frees resources on the server side when called by RPC stub files.
+description: Frees resources on the server side when called by RPC stub files. (BSTR_UserFree64)
 helpviewer_keywords: ["BSTR_UserFree64","BSTR_UserFree64 function [Automation]","automat.bstr_userfree64","oaidl/BSTR_UserFree64"]
 old-location: automat\bstr_userfree64.htm
 tech.root: automat

@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupInstallFromInfSectionW
 title: SetupInstallFromInfSectionW function (setupapi.h)
-description: The SetupInstallFromInfSection function carries out all the directives in an INF file Install section.
+description: The SetupInstallFromInfSection function carries out all the directives in an INF file Install section. (Unicode)
 helpviewer_keywords: ["SetupInstallFromInfSection","SetupInstallFromInfSection function [Setup API]","SetupInstallFromInfSectionA","SetupInstallFromInfSectionW","_setupapi_setupinstallfrominfsection","setup.setupinstallfrominfsection","setupapi/SetupInstallFromInfSection","setupapi/SetupInstallFromInfSectionA","setupapi/SetupInstallFromInfSectionW"]
 old-location: setup\setupinstallfrominfsection.htm
 tech.root: setup

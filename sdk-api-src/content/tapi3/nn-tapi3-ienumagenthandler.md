@@ -1,12 +1,12 @@
 ---
 UID: NN:tapi3.IEnumAgentHandler
 title: IEnumAgentHandler (tapi3.h)
-description: The IEnumAgentHandler interface provides COM-standard enumeration methods for the ITAgentHandler interface. The ITTAPICallCenter::EnumerateAgentHandlers method returns a pointer to IEnumAgentHandler.
+description: The IEnumAgentHandler (tapi3.h) interface provides COM-standard enumeration methods for the ITAgentHandler interface.
 helpviewer_keywords: ["IEnumAgentHandler","IEnumAgentHandler interface [TAPI 2.2]","IEnumAgentHandler interface [TAPI 2.2]","described","_tapi3_ienumagenthandler","tapi3.ienumagenthandler","tapi3cc/IEnumAgentHandler"]
 old-location: tapi3\ienumagenthandler.htm
 tech.root: tapi3
 ms.assetid: a318318a-769e-4619-a461-4988d90d3f1a
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: IEnumAgentHandler, IEnumAgentHandler interface [TAPI 2.2], IEnumAgentHandler interface [TAPI 2.2],described, _tapi3_ienumagenthandler, tapi3.ienumagenthandler, tapi3cc/IEnumAgentHandler
 req.header: tapi3.h
 req.include-header: Tapi3.h

@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiDeterminePatchSequenceW
 title: MsiDeterminePatchSequenceW function (msi.h)
-description: Takes a set of patch files, XML files, and XML blobs and determines the best sequence of application for the patches to a specified installed product.
+description: Takes a set of patch files, XML files, and XML blobs and determines the best sequence of application for the patches to a specified installed product. (Unicode)
 helpviewer_keywords: ["MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiDeterminePatchSequence","MsiDeterminePatchSequence function","MsiDeterminePatchSequenceA","MsiDeterminePatchSequenceW","msi/MsiDeterminePatchSequence","msi/MsiDeterminePatchSequenceA","msi/MsiDeterminePatchSequenceW","setup.msideterminepatchsequence"]
 old-location: setup\msideterminepatchsequence.htm
 tech.root: setup

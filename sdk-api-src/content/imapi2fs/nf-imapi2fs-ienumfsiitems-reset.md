@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IEnumFsiItems.Reset
 title: IEnumFsiItems::Reset (imapi2fs.h)
-description: Resets the enumeration sequence to the beginning.
+description: Resets the enumeration sequence to the beginning. (IEnumFsiItems.Reset)
 helpviewer_keywords: ["IEnumFsiItems interface [IMAPI]","Reset method","IEnumFsiItems.Reset","IEnumFsiItems::Reset","Reset","Reset method [IMAPI]","Reset method [IMAPI]","IEnumFsiItems interface","imapi.ienumfsiitems_reset","imapi2fs/IEnumFsiItems::Reset"]
 old-location: imapi\ienumfsiitems_reset.htm
 tech.root: imapi

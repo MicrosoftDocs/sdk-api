@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMU555.XMU555(constXMU555&)
 title: XMU555::XMU555(const XMU555 &) (directxpackedvector.h)
-description: A constructor for XMU555.
+description: A constructor for XMU555. (overload 1/2)
 helpviewer_keywords: ["XMU555","XMU555 constructor [DirectX Math Support APIs]","XMU555 constructor [DirectX Math Support APIs]","XMU555 structure","XMU555 structure [DirectX Math Support APIs]","XMU555 constructor","XMU555.XMU555","XMU555.XMU555()","XMU555.XMU555(const XMU555 &)","XMU555::XMU555","XMU555::XMU555(const XMU555 &)","dxmath.xmu555_ctor_1"]
 old-location: 
 tech.root: dxmath
