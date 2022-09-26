@@ -56,7 +56,7 @@ The <b>IAnalogLocator</b> interface provides tuning information for an analog te
 
 The <b>IAnalogLocator</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a>. <b>IAnalogLocator</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks
