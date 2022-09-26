@@ -59,6 +59,6 @@ Exposes methods relating to the manipulation and understanding of graphics on th
 
 The <b>IWRdsRemoteFXGraphicsConnection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsRemoteFXGraphicsConnection</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
