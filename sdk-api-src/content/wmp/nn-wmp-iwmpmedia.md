@@ -56,7 +56,7 @@ Use the <b>IWMPMedia</b> interface to set and retrieve the properties of a media
 
 The <b>IWMPMedia</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPMedia</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also
