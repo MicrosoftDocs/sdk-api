@@ -57,6 +57,6 @@ Do not use. This interface supports access to the Windows Address Book (WAB) and
 
 The <b>IAddrBook</b> interface inherits from <a href="/previous-versions/office/developer/office-2007/cc815525(v=office.12)">IMAPIProp</a>. <b>IAddrBook</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
