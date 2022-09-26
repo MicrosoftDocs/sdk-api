@@ -56,7 +56,7 @@ The <b>IWMPControls</b> interface provides a way to manipulate the playback of a
 
 The <b>IWMPControls</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPControls</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

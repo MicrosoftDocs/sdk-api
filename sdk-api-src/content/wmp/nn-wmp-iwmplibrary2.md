@@ -56,7 +56,7 @@ The <b>IWMPLibrary2</b> interface represents a media library.
 
 The <b>IWMPLibrary2</b> interface inherits from <a href="/windows/desktop/api/wmp/nn-wmp-iwmplibrary">IWMPLibrary</a>. <b>IWMPLibrary2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also
