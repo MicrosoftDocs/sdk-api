@@ -56,7 +56,7 @@ The <b>IWMPPluginEnable</b> interface is implemented by the plug-in. It sets and
 
 The <b>IWMPPluginEnable</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPPluginEnable</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

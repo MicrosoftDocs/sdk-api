@@ -86,7 +86,7 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 The <b>INSSBuffer2</b> interface inherits from <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a>. <b>INSSBuffer2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also
