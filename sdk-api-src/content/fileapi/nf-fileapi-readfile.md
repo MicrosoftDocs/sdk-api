@@ -184,7 +184,7 @@ Accessing the input buffer while a read operation is using the buffer may lead t
     into that buffer. Applications must not read from, write to, reallocate, or free the input buffer that a read 
     operation is using until the read operation completes. This can be particularly problematic when using an 
     asynchronous file handle. Additional information regarding synchronous versus asynchronous file handles can be 
-    found in the <a href="https://docs.microsoft.com/">Synchronization and File Position</a> section and 
+    found in the <a href="/">Synchronization and File Position</a> section and 
     in the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> reference topic.
 
 Characters can be read from the console input buffer by using 

@@ -135,7 +135,7 @@ To write to the end of file, specify both the <b>Offset</b> and
 
 For more information about different combinations of <i>lpOverlapped</i> and 
        <b>FILE_FLAG_OVERLAPPED</b>, see the Remarks section and the 
-       <a href="https://docs.microsoft.com/">Synchronization and File Position</a> section.
+       <a href="/">Synchronization and File Position</a> section.
 
 ## -returns
 
@@ -158,7 +158,7 @@ The <b>WriteFile</b> function returns when one of the following
 <ul>
 <li>The number of bytes requested is written.</li>
 <li>A read operation releases buffer space on the read end of the pipe (if the write was blocked). For more 
-      information, see the <a href="https://docs.microsoft.com/">Pipes</a> section.</li>
+      information, see the <a href="/">Pipes</a> section.</li>
 <li>An asynchronous handle is being used and the write is occurring asynchronously.</li>
 <li>An error occurs.</li>
 </ul>

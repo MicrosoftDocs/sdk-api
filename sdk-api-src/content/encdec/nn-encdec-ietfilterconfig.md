@@ -56,7 +56,7 @@ The <b>IETFilterConfig</b> interface configures the Encrypter/Tagger filter. Mos
 
 The <b>IETFilterConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IETFilterConfig</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks
