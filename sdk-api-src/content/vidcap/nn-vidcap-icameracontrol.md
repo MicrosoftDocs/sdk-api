@@ -61,6 +61,6 @@ This interface corresponds to the PROPSETID_VIDCAP_CAMERACONTROL property set, w
 
 The <b>ICameraControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICameraControl</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
