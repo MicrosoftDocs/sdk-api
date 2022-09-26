@@ -56,7 +56,7 @@ The <b>ISectionList</b> interface represents a list of MPEG-2 table sections.
 
 The <b>ISectionList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISectionList</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

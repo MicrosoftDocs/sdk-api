@@ -56,7 +56,7 @@ The <b>IMSVidStreamBufferSource</b> interface represents the Stream Buffer Sourc
 
 The <b>IMSVidStreamBufferSource</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidfileplayback">IMSVidFilePlayback</a>. <b>IMSVidStreamBufferSource</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks
