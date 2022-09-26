@@ -56,7 +56,7 @@ The <b>IWMReaderAdvanced2</b> interface provides additional advanced methods for
 
 The <b>IWMReaderAdvanced2</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced">IWMReaderAdvanced</a>. <b>IWMReaderAdvanced2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also
