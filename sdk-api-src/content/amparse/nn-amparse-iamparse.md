@@ -59,6 +59,6 @@ The <a href="/windows/desktop/DirectShow/mpeg-2-splitter">MPEG-2 Splitter</a> fi
 
 The <b>IAMParse</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMParse</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
