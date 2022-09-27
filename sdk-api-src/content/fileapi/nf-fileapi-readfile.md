@@ -283,7 +283,7 @@ Considerations for working with synchronous file handles:
        at the offset that is specified in the 
        <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure and 
        <b>ReadFile</b> does not return until the read operation is 
-       complete. The system updates the <b>OVERLAPPED</b> offset 
+       complete. The system updates the <b>OVERLAPPED</b> offset and the file pointer
        before <b>ReadFile</b> returns.</li>
  <li>If <i>lpOverlapped</i> is <b>NULL</b>, then when a synchronous read operation reaches the end of a file, 
        <b>ReadFile</b> returns <b>TRUE</b> and sets 
