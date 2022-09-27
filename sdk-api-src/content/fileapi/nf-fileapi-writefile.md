@@ -389,7 +389,7 @@ Considerations for working with synchronous file handles:
        <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure and 
        <b>WriteFile</b> does not return until the write operation is 
        complete. The system updates the <b>OVERLAPPED</b> Internal and InternalHigh fields 
-       before <b>WriteFile</b> returns.</li>
+       and the file pointer before <b>WriteFile</b> returns.</li>
 </ul>
 For more information, see <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> and 
       <a href="/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>.
