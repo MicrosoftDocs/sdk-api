@@ -63,7 +63,7 @@ FindDefaultConfigForEyeGazeCorrection(
     wil::com_ptr_nothrow<IMFCameraControlDefaultsCollection>    configCollection;
 
     /// Don't check for nullptr out param, if the caller sets the
-    /// wrong parameters, we ant to crash immediately.
+    /// wrong parameters, we want to crash immediately.
     *ppConfig = nullptr;
 
     RETURN_IF_FAILED(CoCreateInstance(CLSID_CameraConfigurationManager,
@@ -140,7 +140,7 @@ HRESULT SetDefaultLegacyExposure(
         CLSCTX_INPROC_SERVER,
         IID_PPV_ARGS(&manager)));
     RETURN_IF_FAILED(MFCreateAttributes(&attrib, 1));
-    RETURN_IF_FAILED(attrib -> SetString(MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK,
+    RETURN_IF_FAILED(attrib->SetString(MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK,
             deviceSymbolicName));
     RETURN_IF_FAILED(manager->LoadDefaults(attrib.get(), &defaultsCollection));
     /// If the legacy exposure control not available, this call will 
@@ -149,7 +149,7 @@ HRESULT SetDefaultLegacyExposure(
     /// Exposure control is always a post-start control since the
     /// algorithm requires frames to be captured/analyzed for the 
     /// exposure to converge.
-    RETURN_IF_FAILED(defaultsCollection -> GetOrAddControl(MF_CAMERA_CONTROL_CONFIGURATION_TYPE_POSTSTART,
+    RETURN_IF_FAILED(defaultsCollection->GetOrAddControl(MF_CAMERA_CONTROL_CONFIGURATION_TYPE_POSTSTART,
         PROPSETID_VIDCAP_CAMERACONTROL,
 
         KSPROPERTY_CAMERACONTROL_EXPOSURE,

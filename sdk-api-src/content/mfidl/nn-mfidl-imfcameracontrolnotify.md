@@ -46,7 +46,7 @@ Clients implement this interface to receive notifications when another app makes
 
 ## -example
 
-The following code examples demonstrate a typical implementation of this interface. 
+The following code examples demonstrate a typical implementation of this interface. For a complete example demonstrating the use of **IMFCameraControlNotify**, see the [ControlMonitorApp Sample](https://github.com/microsoft/Windows-Camera/tree/master/Samples/ControlMonitorApp/).
 
 ```cpp
 //SampleClass.h
@@ -215,13 +215,12 @@ HRESULT SampleClass::NotifyAny(bool enabled)
         }
         if (!enabled)
         {
-            RETURN_IF_FAILED(m_notificationMonitor->
-                RemoveControlSubscription(KSPROPERTYSETID_ANYCAMERACONTROL, 0));
+            RETURN_IF_FAILED(m_notificationMonitor->RemoveControlSubscription(KSPROPERTYSETID_ANYCAMERACONTROL, 0));
         }
     }
     if (enabled)
     {
-        RETURN_IF_FAILED(m_notificationMonitor -> AddControlSubscription(KSPROPERTYSETID_ANYCAMERACONTROL, 0));
+        RETURN_IF_FAILED(m_notificationMonitor->AddControlSubscription(KSPROPERTYSETID_ANYCAMERACONTROL, 0));
     }
     
     RETURN_IF_FAILED(m_notificationMonitor->Start());
@@ -274,7 +273,7 @@ STDMETHODIMP_(ULONG) SampleClass::Release()
 
 STDMETHODIMP SampleClass::QueryInterface(REFIID iid, void** ppv)
 {
-    //CHKPTR_RET(ppv, E_POINTER);
+    RETURN_HR_IF_NULL(E_POINTER, ppv);
 
     if (iid == IID_IUnknown)
     {
