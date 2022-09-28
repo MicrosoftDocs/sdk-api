@@ -71,7 +71,8 @@ The index (plane slice number) of the plane to use in the texture.
 
 ### -field ResourceMinLODClamp
 
-A value to clamp sample LOD values to. For example, if you specify 2.0f for the clamp value, you ensure that no individual sample accesses a mip level less than 2.0f.
+Specifies the minimum mipmap level that can be accessed. 0.0f means all the mipmap levels can be accessed. Specifying 3.0
+means mipmap levels 3.0 to MipCount - 1 can be accessed.
 
 ## -remarks
 
