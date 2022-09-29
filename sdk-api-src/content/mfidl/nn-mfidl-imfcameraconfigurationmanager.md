@@ -62,8 +62,6 @@ FindDefaultConfigForEyeGazeCorrection(
     wil::com_ptr_nothrow<IMFCameraConfigurationManager>         factory;
     wil::com_ptr_nothrow<IMFCameraControlDefaultsCollection>    configCollection;
 
-    /// Don't check for nullptr out param, if the caller sets the
-    /// wrong parameters, we want to crash immediately.
     *ppConfig = nullptr;
 
     RETURN_IF_FAILED(CoCreateInstance(CLSID_CameraConfigurationManager,
