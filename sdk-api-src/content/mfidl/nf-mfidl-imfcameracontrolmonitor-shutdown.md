@@ -50,5 +50,7 @@ Shuts down the camera control monitor and cleans up associated resources.
 
 Clients are not required to call [Stop](nf-mfidl-imfcameracontrolmonitor-stop.md) before calling **Shutdown**. After calling **Shutdown** subsequent calls to [Start](nf-mfidl-imfcameracontrolmonitor-start.md), [Stop](nf-mfidl-imfcameracontrolmonitor-stop.md), [AddControlSubscription](nf-mfidl-imfcameracontrolmonitor-addcontrolsubscription.md), or [RemoveControlSubscription](nf-mfidl-imfcameracontrolmonitor-addcontrolsubscription.md) will result in an error.
 
+To see a code example that implements this method, see [IMFCameraControlNotify](nn-mfidl-imfcameracontrolnotify.md).
+
 ## -see-also
 

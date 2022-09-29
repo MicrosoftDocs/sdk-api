@@ -60,5 +60,7 @@ The ID of the changed control within the control set.
 
 The control for which the **OnChange** event is invoked is specified by calling [IMFCameraControlMonitor::AddControlSubscription](nf-mfidl-imfcameracontrolmonitor-addcontrolsubscription.md). The explicitly supported controls include the properties under [PROPSETID_VIDCAP_VIDEOPROCAMP](/windows-hardware/drivers/stream/propsetid-vidcap-videoprocamp) and [PROPSETID_VIDCAP_CAMERACONTROL](/windows-hardware/drivers/stream/propsetid-vidcap-videoprocamp), and [KSPROPERTYSETID_ExtendedCameraControl](/windows-hardware/drivers/stream/kspropertysetid-extendedcameracontrol). If **AddControlSubscription** is called with KSPROPERTYSETID_ANYCAMERACONTROL as the *controlSet* parameter, then the created subscription will provoke callbacks for any control change, even those outside of the previously listed property sets. If a changed control is outside of those sets, then the **OnChange** callback will have the value KSPROPERTYSETID_ANYCAMERACONTROL as its *controlSet* parameter, but for the explicitly supported property sets, the *controlSet* GUID will still return the supported property set GUID, not KSPROPERTYSETID_ANYCAMERACONTROL. The returned *id* parameter in all cases will be the control ID of the altered control.
 
+To see a code example that implements this method, see [IMFCameraControlNotify](nn-mfidl-imfcameracontrolnotify.md).
+
 ## -see-also
 
