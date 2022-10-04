@@ -94,7 +94,8 @@ Positions the tooltip window at the same coordinates provided by <a href="/windo
 </dl>
 </td>
 <td width="60%">
-Centers the tooltip window below the tool specified by the <b>uId</b> member. 
+Centers the tooltip window below the tool specified by the <b>uId</b> member.<br><br>
+<b>ATTENTION!</b>The use of this flag is currently discouraged for displaying Balloon ToolTips (TTS_BALLOON) due to an unresolved bug that causes the balloon style to revert to the Windows XP style in certain situations, even on newer Windows (Windows 7, 8, 10, etc.) For more information visit this question: https://docs.microsoft.com/en-us/answers/questions/786101/why-using-the-ttf-centertip-flag-makes-the-tooltip.html
 
 </td>
 </tr>
