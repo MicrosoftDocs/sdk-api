@@ -77,7 +77,7 @@ The SID was resolved to a user account. Names are available through
 </tr>
 <tr>
 <td width="40%"><a id="DISKQUOTA_USER_ABLE"></a><a id="diskquota_user_able"></a><dl>
-<dt><b>DISKQUOTA_USER_ABLE</b></dt>
+<dt><b>DISKQUOTA_USER_ACCOUNT_UNAVAILABLE</b></dt>
 <dt>1</dt>
 </dl>
 </td>
