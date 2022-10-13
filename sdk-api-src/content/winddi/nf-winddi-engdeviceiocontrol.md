@@ -60,7 +60,7 @@ Handle to the device that is to perform the operation.
 
 ### -param dwIoControlCode [in]
 
-Specifies the control code for the operation. The I/O controls are listed and described in full in <a href="/windows-hardware/drivers/ddi/content/index">Video Miniport Driver I/O Control Codes</a>.
+Specifies the control code for the operation. The I/O controls are listed and described in full in <a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">Video Miniport Driver I/O Control Codes</a>.
 
 ### -param lpInBuffer [in, optional]
 

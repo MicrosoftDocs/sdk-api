@@ -76,7 +76,7 @@ The <b>USBUSER_CONTROLLER_UNICODE_NAME</b> structure is used in conjunction with
 
 
 
-<a href="/windows-hardware/drivers/ddi/content/index">USB Structures</a>
+<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">USB Structures</a>
 
 
 

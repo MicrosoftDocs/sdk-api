@@ -64,7 +64,7 @@ An opaque handle to an interface in the selected configuration. That handle must
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/content/index">WinUSB</a>
+<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">WinUSB</a>
 
 
 

@@ -80,7 +80,7 @@ The maximum number of bytes that can be transmitted in single interval.  This va
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/content/index">USB Structures</a>
+<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">USB Structures</a>
 
 
 

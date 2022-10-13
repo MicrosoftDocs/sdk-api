@@ -92,4 +92,4 @@ The <b>USB_DRIVER_VERSION_PARAMETERS</b> structure is used with the USBUSER_GET_
 
 
 
-<a href="/windows-hardware/drivers/ddi/content/index">USB Structures</a>
+<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">USB Structures</a>

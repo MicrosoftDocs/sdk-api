@@ -143,7 +143,7 @@ If the recipient is an endpoint, the application must set the lowest two bits of
 
 
 
-<a href="/windows-hardware/drivers/ddi/content/index">WinUSB</a>
+<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">WinUSB</a>
 
 
 

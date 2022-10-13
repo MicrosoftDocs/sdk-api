@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The DDGETVERSIONNUMBER structure contains the version number of the kernel-mode video transport component of Microsoft DirectDraw that is supported by the <a href="/windows-hardware/drivers/display/video-miniport-drivers-in-the-windows-2000-display-driver-model">video miniport driver</a>'s <a href="/windows-hardware/drivers/ddi/content/index">DxApi interface</a>.
+The DDGETVERSIONNUMBER structure contains the version number of the kernel-mode video transport component of Microsoft DirectDraw that is supported by the <a href="/windows-hardware/drivers/display/video-miniport-drivers-in-the-windows-2000-display-driver-model">video miniport driver</a>'s <a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">DxApi interface</a>.
 
 ## -struct-fields
 

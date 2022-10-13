@@ -66,7 +66,7 @@ An 8-bit value that consists of a 7-bit address and a direction bit. This parame
 
 ### -param PolicyType [in]
 
-A <b>ULONG</b> variable that specifies the policy parameter to change. The <i>Value</i> parameter contains the new value for the policy parameter, defined in <i>winusbio.h</i>. For information about how to use each of the pipe policies and the resulting behavior, see <a href="/windows-hardware/drivers/ddi/content/index">WinUSB Functions for Pipe Policy Modification</a>.
+A <b>ULONG</b> variable that specifies the policy parameter to change. The <i>Value</i> parameter contains the new value for the policy parameter, defined in <i>winusbio.h</i>. For information about how to use each of the pipe policies and the resulting behavior, see <a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">WinUSB Functions for Pipe Policy Modification</a>.
 
 ### -param ValueLength [in]
 
@@ -127,7 +127,7 @@ Indicates that there is insufficient memory to perform the operation.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/content/index">WinUSB</a>
+<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">WinUSB</a>
 
 
 
@@ -135,7 +135,7 @@ Indicates that there is insufficient memory to perform the operation.
 
 
 
-<a href="/windows-hardware/drivers/ddi/content/index">WinUSB Functions for Pipe Policy Modification</a>
+<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">WinUSB Functions for Pipe Policy Modification</a>
 
 
 

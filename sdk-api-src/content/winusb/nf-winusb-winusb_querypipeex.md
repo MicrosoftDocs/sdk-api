@@ -135,7 +135,7 @@ The <b>WinUsb_QueryPipeEx</b> function does not retrieve information about the c
 
 
 
-<a href="/windows-hardware/drivers/ddi/content/index">WinUSB</a>
+<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">WinUSB</a>
 
 
 

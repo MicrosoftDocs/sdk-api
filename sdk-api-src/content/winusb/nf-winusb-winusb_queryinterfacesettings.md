@@ -118,7 +118,7 @@ The <b>WinUsb_QueryInterfaceSettings</b> call searches the interface array for t
 
 
 
-<a href="/windows-hardware/drivers/ddi/content/index">WinUSB</a>
+<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">WinUSB</a>
 
 
 

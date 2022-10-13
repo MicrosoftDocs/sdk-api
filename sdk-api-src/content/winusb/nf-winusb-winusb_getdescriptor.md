@@ -123,7 +123,7 @@ If the output buffer pointed to by  the  <i>Buffer</i> parameter is large enough
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/content/index">WinUSB</a>
+<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">WinUSB</a>
 
 
 

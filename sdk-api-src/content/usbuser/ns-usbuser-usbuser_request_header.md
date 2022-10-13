@@ -84,4 +84,4 @@ The <b>USBUSER_REQUEST_HEADER</b> structure is used with the <a href="/windows/d
 
 
 
-<a href="/windows-hardware/drivers/ddi/content/index">USB Structures</a>
+<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">USB Structures</a>

@@ -56,7 +56,7 @@ Obtains the handles to input/output devices for the protocol.
 
 ### -param pKeyboardHandle [out]
 
-A pointer to a handle that receives the handle of the keyboard device. This is a handle to an <a href="/windows-hardware/drivers/ddi/content/index">I8042prt keyboard driver</a>.
+A pointer to a handle that receives the handle of the keyboard device. This is a handle to an <a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">I8042prt keyboard driver</a>.
 
 ### -param pMouseHandle [out]
 

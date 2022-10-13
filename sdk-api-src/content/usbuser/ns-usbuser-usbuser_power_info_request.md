@@ -76,4 +76,4 @@ The <b>USBUSER_POWER_INFO_REQUEST</b> structure is used in conjunction with the 
 
 
 
-<a href="/windows-hardware/drivers/ddi/content/index">USB Structures</a>
+<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">USB Structures</a>

@@ -84,7 +84,7 @@ Callers of the <a href="/windows/desktop/api/winusb/nf-winusb-winusb_controltran
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/content/index">USB Structures</a>
+<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">USB Structures</a>
 
 
 

@@ -58,7 +58,7 @@ Retrieves keyboard, mouse, sound, and beep handles supported by the protocol.
 
 ### -param pKeyboardHandle [out]
 
-A pointer to a keyboard handle. This is a handle to an <a href="/windows-hardware/drivers/ddi/content/index">I8042prt keyboard driver</a>.
+A pointer to a keyboard handle. This is a handle to an <a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">I8042prt keyboard driver</a>.
 
 ### -param pMouseHandle [out]
 
