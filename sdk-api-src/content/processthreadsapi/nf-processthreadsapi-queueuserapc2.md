@@ -64,7 +64,7 @@ A single value that is passed to the APC function pointed to by the *ApcRoutine*
 
 ### -param Flags
 
-A value from [QUEUE_USER_APC_FLAGS](ne-processthreadsapi-queue_user_apc_flags.md) to modify the behavior of the user-mode APC.
+A value from [QUEUE_USER_APC_FLAGS enumeration](ne-processthreadsapi-queue_user_apc_flags.md) that modifies the behavior of the user-mode APC.
 
 ## -returns
 
