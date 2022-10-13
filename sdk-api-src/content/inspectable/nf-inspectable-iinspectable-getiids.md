@@ -85,7 +85,7 @@ This function can return the following values.
 </dl>
 </td>
 <td width="60%">
-The IID array was allocated and saved into <i>iids</i> successfully.
+The IID array was allocated and saved in <i>iids</i> successfully.
 </td>
 </tr>
 <tr>
