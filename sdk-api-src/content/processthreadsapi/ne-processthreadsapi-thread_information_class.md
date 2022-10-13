@@ -36,6 +36,8 @@ dev_langs:
  - c++
 ---
 
+# THREAD_INFORMATION_CLASS enumeration
+
 ## -description
 
 ## -enum-fields

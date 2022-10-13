@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# MACHINE_ATTRIBUTES enumeration
+
 ## -description
 
 Specifies the ways in which an architecture of code can run on a host operating system.  More than one bit may be set.
