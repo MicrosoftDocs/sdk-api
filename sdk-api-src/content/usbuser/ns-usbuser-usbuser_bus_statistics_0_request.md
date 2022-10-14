@@ -76,7 +76,7 @@ The <b>USBUSER_BUS_STATISTICS_0_REQUEST</b> structure is used with the USBUSER_G
 
 
 
-<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/content/index">USB Structures</a>
 
 
 

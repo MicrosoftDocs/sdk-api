@@ -145,7 +145,7 @@ Callers of <b>WinUsb_GetAssociatedInterface</b> can retrieve only one handle for
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">WinUSB</a>
+<a href="/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
 
 

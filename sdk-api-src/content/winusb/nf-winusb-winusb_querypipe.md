@@ -133,7 +133,7 @@ Each interface on the USB device can have multiple endpoints. To communicate wit
 
 
 
-<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">WinUSB</a>
+<a href="/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
 
 

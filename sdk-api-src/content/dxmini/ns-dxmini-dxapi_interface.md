@@ -64,7 +64,7 @@ Specifies the size in bytes of this DXAPI_INTERFACE structure.
 
 ### -field Version
 
-Specifies the version of the video miniport driver's <a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">DxApi interface</a>. This value is DXAPI_HALVERSION defined in <i>dxmini.h</i>.
+Specifies the version of the video miniport driver's <a href="/windows-hardware/drivers/ddi/content/index">DxApi interface</a>. This value is DXAPI_HALVERSION defined in <i>dxmini.h</i>.
 
 ### -field Context
 

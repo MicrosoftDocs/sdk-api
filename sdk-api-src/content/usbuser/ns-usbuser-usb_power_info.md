@@ -108,4 +108,4 @@ The <b>USB_POWER_INFO</b> structure is used with the USBUSER_GET_POWER_STATE_MAP
 
 
 
-<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/content/index">USB Structures</a>

@@ -88,7 +88,7 @@ If the <b>hEvent</b> member of the <b>OVERLAPPED</b> structure is <b>NULL</b>, t
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">WinUSB</a>
+<a href="/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
 
 

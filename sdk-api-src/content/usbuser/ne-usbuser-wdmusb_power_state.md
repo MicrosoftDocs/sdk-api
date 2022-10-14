@@ -118,4 +118,4 @@ The USB stack uses the <b>WDMUSB_POWER_STATE</b> enumeration to report the power
 
 
 
-<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">USB Constants and Enumerations</a>
+<a href="/windows-hardware/drivers/ddi/content/index">USB Constants and Enumerations</a>

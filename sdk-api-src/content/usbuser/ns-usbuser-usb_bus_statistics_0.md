@@ -181,4 +181,4 @@ In Windows 8, this request completes successfully. However, the values retrieve
 
 
 
-<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/content/index">USB Structures</a>

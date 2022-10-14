@@ -54,7 +54,7 @@ The IOCTL_MOUSE_QUERY_ATTRIBUTES request returns information about the mouse att
 
 Mouclass copies the current stack location, sets the <b>MajorFunction</b> member of the new stack location to <a href="/windows-hardware/drivers/kernel/irp-mj-internal-device-control">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>, and sends this request down the device stack.
 
-For more information about this request, see <a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">I8042prt Mouse Internal Device Control Requests</a>.
+For more information about this request, see <a href="/windows-hardware/drivers/ddi/content/index">I8042prt Mouse Internal Device Control Requests</a>.
 
 ## -ioctlparameters
 

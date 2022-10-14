@@ -126,7 +126,7 @@ If an application wants to use another interface on the device, it must call <a 
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">WinUSB</a>
+<a href="/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
 
 

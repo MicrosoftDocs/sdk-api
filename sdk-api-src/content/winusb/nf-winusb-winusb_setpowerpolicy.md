@@ -187,7 +187,7 @@ The client can indicate that an interface is idle by calling <b>WinUsb_SetPowerP
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">WinUSB</a>
+<a href="/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
 
 
@@ -195,7 +195,7 @@ The client can indicate that an interface is idle by calling <b>WinUsb_SetPowerP
 
 
 
-<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">WinUSB Power Management</a>
+<a href="/windows-hardware/drivers/ddi/content/index">WinUSB Power Management</a>
 
 
 

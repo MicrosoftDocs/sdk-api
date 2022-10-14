@@ -66,7 +66,7 @@ An 8-bit value that consists of a 7-bit address and a direction bit. This parame
 
 ### -param PolicyType [in]
 
-A <b>ULONG</b> variable that specifies the policy parameter to retrieve. The current value for the policy parameter is retrieved the <i>Value</i> parameter. For information about the behavior of the pipe policies, see <a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">WinUSB Functions for Pipe Policy Modification</a>.
+A <b>ULONG</b> variable that specifies the policy parameter to retrieve. The current value for the policy parameter is retrieved the <i>Value</i> parameter. For information about the behavior of the pipe policies, see <a href="/windows-hardware/drivers/ddi/content/index">WinUSB Functions for Pipe Policy Modification</a>.
 
 ### -param ValueLength [in, out]
 
@@ -105,7 +105,7 @@ The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> parameter.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">WinUSB</a>
+<a href="/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
 
 
@@ -113,7 +113,7 @@ The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> parameter.
 
 
 
-<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">WinUSB Functions for Pipe Policy Modification</a>
+<a href="/windows-hardware/drivers/ddi/content/index">WinUSB Functions for Pipe Policy Modification</a>
 
 
 

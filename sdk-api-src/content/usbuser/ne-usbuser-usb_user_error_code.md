@@ -102,4 +102,4 @@ The device was not connected.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/usbcon/winusb-functions-for-pipe-policy-modification">USB Constants and Enumerations</a>
+<a href="/windows-hardware/drivers/ddi/content/index">USB Constants and Enumerations</a>
