@@ -56,9 +56,9 @@ Initializes a Xaml Diagnostics session. This is the entry point for any debuggin
 
 ### -param endPointName [in]
 
-The end point name for Visual Diagnostics.
+The end point name for Visual Diagnostics messaging session.
 
-Example: `VisualDiagConnection1`
+The value of this parameter ideally starts with `VisualDiagConnection`, and usually it's `VisualDiagConnection1`
 
 ### -param pid [in]
 
@@ -72,11 +72,11 @@ The path to XamlDiagnostics.dll from the Windows SDK.
 
 The full path to the TAP DLL to be injected in the process.
 
-The DLL must expose a COM class that implements the <a href="/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a> interface.
+The DLL must expose a COM class that implements the <a href="/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a> interface. See Remarks for more details.
 
 ### -param tapClsid [in]
 
-The COM CLSID of the COM class that the tap DLL exposes.
+The COM CLSID of the COM class that the TAP DLL exposes.
 
 ### -param wszInitializationData [in]
 
@@ -100,6 +100,8 @@ The COM class that the TAP DLL exposes is given an **XamlDiagnostics** object (t
 **InitializeXamlDiagnosticsEx** isn't defined in any static library (.lib) yet but can be dynamically loaded from `Windows.UI.Xaml.dll`.
 
 If calling **InitializeXamlDiagnosticsEx** does not initially return <b>S_OK</b>, subsequent calls may be successful.
+
+Neither the debugging tool nor the debugged application has to start the Visual Diagnostics messaging session, which its end point name is needed for the `endPointName` parameter, manually, the XAML framework does this automatically on their behalf.
 
 If the target process is a low IL packaged AppContainer UWP app, you have to allow both DLLs (XamlDiagnostics.dll and the TAP DLL) to be loaded and read by the process by right clicking them > Properties > Security > Edit > Add > type `ALL APPLICATION PACKAGES` in the text box > OK > check `Allow` for `Read & execute` and `Read` > OK > OK.
 
