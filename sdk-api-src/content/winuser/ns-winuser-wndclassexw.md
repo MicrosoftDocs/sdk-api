@@ -73,7 +73,7 @@ The size, in bytes, of this structure. Set this member to <code>sizeof(WNDCLASSE
 
 Type: <b>UINT</b>
 
-The class style(s). This member can be any combination of the <a href="/windows/desktop/winmsg/about-window-classes">Class Styles</a>.
+The class style(s). This member can be any combination of the <a href="/windows/win32/winmsg/window-class-styles">Class Styles</a>.
 
 ### -field lpfnWndProc
 
