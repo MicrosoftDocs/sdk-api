@@ -174,6 +174,10 @@ Returns <b>TRUE</b> (nonzero) if the function succeeds, and <b>FALSE</b> (zero) 
 
 Beginning with Windows 8 and Windows Server 2012, you can protect the PFX password to an Active Directory user, computer, or group. If you choose to do so but do not create a password, a temporary password will be randomly selected. The password is encrypted by using the Active Directory principal and then embedded in the PFX BLOB. For more information, see the <i>pvPara</i> parameter and the <b>PKCS12_PROTECT_TO_DOMAIN_SIDS</b> flag.
 
+Beginning with Windows 10 1709 (Fall Creators update) and Windows Server 2019, you can control the number of iterations of the hash function over the password done by the <b>PFXExportCertStoreEx</b> function using the following registry key. The value in this key is of type <b>REG_DWORD</b>.
+
+<b>HKEY_LOCAL_MACHINE</b>&#92;<b>Software</b>&#92;<b>Microsoft</b>&#92;<b>Windows</b>&#92;<b>CurrentVersion</b>&#92;<b>PFX</b>&#92;<b>PasswordIterationCount</b>
+
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-pfxexportcertstore">PFXExportCertStore</a>
