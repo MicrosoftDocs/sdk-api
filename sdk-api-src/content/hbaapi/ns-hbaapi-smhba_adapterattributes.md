@@ -2,7 +2,7 @@
 UID: NS:hbaapi.SMHBA_AdapterAttributes
 tech.root: hba
 title: SMHBA_ADAPTERATTRIBUTES
-ms.date: 
+ms.date: 08/02/2022
 targetos: Windows
 description: 
 prerelease: false

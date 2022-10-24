@@ -2,7 +2,7 @@
 UID: NF:hbaapi.HBA_SendRPS
 tech.root: hba
 title: HBA_SendRPS
-ms.date: 
+ms.date: 08/02/2022
 targetos: Windows
 description: 
 prerelease: false

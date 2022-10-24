@@ -2,7 +2,7 @@
 UID: NF:hbaapi.SMHBA_GetAdapterPortAttributes
 tech.root: hba
 title: SMHBA_GetAdapterPortAttributes
-ms.date: 
+ms.date: 08/02/2022
 targetos: Windows
 description: 
 prerelease: false

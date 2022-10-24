@@ -2,7 +2,7 @@
 UID: NF:hbaapi.HBA_GetFcpPersistentBinding
 tech.root: hba
 title: HBA_GetFcpPersistentBinding
-ms.date: 
+ms.date: 08/02/2022
 targetos: Windows
 description: 
 prerelease: false

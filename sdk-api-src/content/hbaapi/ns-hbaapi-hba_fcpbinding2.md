@@ -2,7 +2,7 @@
 UID: NS:hbaapi.HBA_FCPBinding2
 tech.root: hba
 title: HBA_FCPBINDING2
-ms.date: 
+ms.date: 08/02/2022
 targetos: Windows
 description: 
 prerelease: false

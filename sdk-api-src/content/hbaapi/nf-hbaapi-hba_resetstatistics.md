@@ -2,7 +2,7 @@
 UID: NF:hbaapi.HBA_ResetStatistics
 tech.root: hba
 title: HBA_ResetStatistics
-ms.date: 
+ms.date: 08/02/2022
 targetos: Windows
 description: 
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NF:hbaapi.SMHBA_GetWrapperLibraryAttributes
 tech.root: hba
 title: SMHBA_GetWrapperLibraryAttributes
-ms.date: 
+ms.date: 08/02/2022
 targetos: Windows
 description: 
 prerelease: false

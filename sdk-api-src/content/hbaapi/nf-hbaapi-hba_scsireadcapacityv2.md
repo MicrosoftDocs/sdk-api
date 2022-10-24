@@ -2,7 +2,7 @@
 UID: NF:hbaapi.HBA_ScsiReadCapacityV2
 tech.root: hba
 title: HBA_ScsiReadCapacityV2
-ms.date: 
+ms.date: 08/02/2022
 targetos: Windows
 description: 
 prerelease: false
