@@ -6,7 +6,7 @@ helpviewer_keywords: ["DIID_DWebBrowserEvents","DIID_DWebBrowserEvents2","FindCo
 old-location: shell\IExpDispSupport_FindCIE4ConnectionPoint.htm
 tech.root: shell
 ms.assetid: ef8d4e8c-7f85-4920-b149-1bf277d3fd5e
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: DIID_DWebBrowserEvents, DIID_DWebBrowserEvents2, FindConnectionPoint, FindConnectionPoint method [Windows Shell], FindConnectionPoint method [Windows Shell],IExpDispSupport interface, IExpDispSupport interface [Windows Shell],FindConnectionPoint method, IExpDispSupport.FindConnectionPoint, IExpDispSupport::FindConnectionPoint, IID_IPropertyNotifySink, shdeprecated/IExpDispSupport::FindConnectionPoint, shell.IExpDispSupport_FindCIE4ConnectionPoint, zone_IExpDispSupport_FindCIE4ConnectionPoint
 req.header: shdeprecated.h
 req.include-header: 
@@ -77,7 +77,7 @@ Value that indicates a member of the <a href="/previous-versions/windows/interne
 
 #### IID_IPropertyNotifySink
 
-Value that indicates a member of the <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertynotifysink">IPropertyNotifySink</a> interface.
+Value that indicates a member of the <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertynotifysink&preserve-view=true">IPropertyNotifySink</a> interface.
 
 ### -param ppccp [out]
 
