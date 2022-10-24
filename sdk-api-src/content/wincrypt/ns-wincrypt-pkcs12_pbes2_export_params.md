@@ -4,7 +4,7 @@ tech.root: security
 title: PKCS12_PBES2_EXPORT_PARAMS
 ms.date: 10/21/2022
 targetos: Windows
-description: Passed to the [PFXExportCertStoreEx](/windows/win32/api/wincrypt/nf-wincrypt-pfxexportcertstoreex) function as pvPara when the PKCS12_EXPORT_PBES2_PARAMS flag is set for dwFlags to provide information about the encryption algorithm to use.
+description: Passed to the PFXExportCertStoreEx function as pvPara when the PKCS12_EXPORT_PBES2_PARAMS flag is set for dwFlags to provide information about the encryption algorithm to use.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
