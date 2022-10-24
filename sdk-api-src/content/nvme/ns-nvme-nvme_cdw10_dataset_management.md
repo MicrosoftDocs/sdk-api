@@ -2,10 +2,10 @@
 UID: NS:nvme.__unnamed_union_145
 tech.root: fs 
 title: NVME_CDW10_DATASET_MANAGEMENT
-ms.date: 02/19/2021 
+ms.date: 08/09/2022 
 ms.topic: language-reference
 targetos: Windows
-description: Contains parameters for the Dataset Management command that is used by the host to indicate attributes for ranges of logical blocks.
+description: The NVME_CDW10_DATASET_MANAGEMENT structure contains parameters for the Dataset Management command that indicates attributes for ranges of logical blocks.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

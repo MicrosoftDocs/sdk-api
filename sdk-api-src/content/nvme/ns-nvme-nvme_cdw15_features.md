@@ -2,10 +2,10 @@
 UID: NS:nvme.__unnamed_union_82
 tech.root: fs 
 title: NVME_CDW15_FEATURES
-ms.date: 02/19/2021 
+ms.date: 08/09/2022 
 ms.topic: language-reference
 targetos: Windows
-description: Contains parameters for the Set Features command that sets the attributes of the specified feature.
+description: The NVME_CDW15_FEATURES structure contains parameters for the Set Features command that sets the attributes of the specified feature.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

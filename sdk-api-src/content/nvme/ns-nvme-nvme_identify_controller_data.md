@@ -2,7 +2,7 @@
 UID: NS:nvme.__unnamed_struct_22
 tech.root: fs 
 title: NVME_IDENTIFY_CONTROLLER_DATA
-ms.date: 02/19/2021 
+ms.date: 08/09/2022 
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that indicate controller capabilities, features, command set attributes, and power state descriptors.
@@ -109,7 +109,7 @@ Bits 3:7 of the **CMIC** structure are reserved.
 
 Indicates the maximum data transfer size between the host and the controller.
 
-The host should not submit a command that exceeds this transfer size. If a command is submitted that exceeds the transfer size, the command is aborted with a status of [NVME_STATUS_INVALID_FIELD_IN_COMMAND](ne-nvme-nvme_status_generic_command_codes.md#-field-nvme-status-invalid-field-in-command).
+The host should not submit a command that exceeds this transfer size. If a command is submitted that exceeds the transfer size, the command is aborted with a status of [NVME_STATUS_INVALID_FIELD_IN_COMMAND](ne-nvme-nvme_status_generic_command_codes.md#field-nvme-status-invalid-field-in-command).
 
 The value of this field is in units of the minimum memory page size specified in the **MPSMIN** field of the [Controller Capabilities](ns-nvme-nvme_controller_capabilities.md) structure, and is reported as a power of two (2^n). A value of `0h` indicates no restrictions on transfer size. The restriction includes metadata if it is interleaved with the logical block data.
 
@@ -629,7 +629,7 @@ A Volatile Write Cache (VWC) structure containing fields that indicate attribute
 
 Bit 0 of the **VWC** structure indicates that a volatile write cache is present.
 
-When this value is set to `1`, a volatile write cache is present and the host may issue Flush commands, and control whether the volatile write cache is enabled with the [Set Features](ns-nvme-nvme_cdw10_set_features.md) command specifying the [NVME_FEATURE_VOLATILE_WRITE_CACHE](ne-nvme-nvme_features.md#-field-nvme-feature-volatile-write-cache) feature identifier.
+When this value is set to `1`, a volatile write cache is present and the host may issue Flush commands, and control whether the volatile write cache is enabled with the [Set Features](ns-nvme-nvme_cdw10_set_features.md) command specifying the [NVME_FEATURE_VOLATILE_WRITE_CACHE](ne-nvme-nvme_features.md#field-nvme-feature-volatile-write-cache) feature identifier.
 
 When this value is cleared to `0`, a volatile write cache is not present.
 

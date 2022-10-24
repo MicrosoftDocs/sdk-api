@@ -2,10 +2,10 @@
 UID: NS:nvme.__unnamed_struct_104
 tech.root: fs 
 title: NVME_CDW10_FIRMWARE_DOWNLOAD
-ms.date: 02/19/2021 
+ms.date: 08/09/2022 
 ms.topic: language-reference
 targetos: Windows
-description: Contains parameters for the Firmware Image Download command that is used to copy a new firmware image (in whole or in part) to the controller.
+description: The NVME_CDW10_FIRMWARE_DOWNLOAD structure contains parameters for the Firmware Image Download command that copies a new firmware image to the controller.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
