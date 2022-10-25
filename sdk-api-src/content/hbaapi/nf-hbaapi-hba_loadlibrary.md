@@ -2,7 +2,7 @@
 UID: NF:hbaapi.HBA_LoadLibrary
 tech.root: hba
 title: HBA_LoadLibrary
-ms.date: 
+ms.date: 08/02/2022
 targetos: Windows
 description: 
 prerelease: false

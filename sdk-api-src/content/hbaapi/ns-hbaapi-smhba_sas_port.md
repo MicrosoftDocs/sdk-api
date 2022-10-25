@@ -2,7 +2,7 @@
 UID: NS:hbaapi.SMHBA_SAS_Port
 tech.root: hba
 title: SMHBA_SAS_PORT
-ms.date: 
+ms.date: 08/02/2022
 targetos: Windows
 description: 
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NS:hbaapi.HBA_FC4Statistics
 tech.root: hba
 title: HBA_FC4STATISTICS
-ms.date: 
+ms.date: 08/02/2022
 targetos: Windows
 description: 
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NS:hbaapi.HBA_LUID
 tech.root: hba
 title: HBA_LUID
-ms.date: 
+ms.date: 08/02/2022
 targetos: Windows
 description: 
 prerelease: false
