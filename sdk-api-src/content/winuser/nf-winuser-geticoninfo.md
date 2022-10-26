@@ -315,28 +315,6 @@ If the function fails, the return value is zero. To get extended error informati
 
 <b>GetIconInfo</b> creates bitmaps for the <b>hbmMask</b> and <b>hbmCol</b> or members of <a href="/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a>. The calling application must manage these bitmaps and delete them when they are no longer necessary.
 
-Here is example code how to get icon size from <b>HICON</b>:
-
-```cpp
-// Also works for cursors
-BOOL GetIconDimensions(__in HICON hico, __out SIZE *psiz)
-{
-  ICONINFO ii;
-  BOOL fResult = GetIconInfo(hico, &ii);
-  if (fResult) {
-    BITMAP bm;
-    fResult = GetObject(ii.hbmMask, sizeof(bm), &bm) == sizeof(bm);
-    if (fResult) {
-      psiz->cx = bm.bmWidth;
-      psiz->cy = ii.hbmColor ? bm.bmHeight : bm.bmHeight / 2;
-    }
-    if (ii.hbmMask)  DeleteObject(ii.hbmMask);
-    if (ii.hbmColor) DeleteObject(ii.hbmColor);
-  }
-  return fResult;
-}
-```
-
 <h3><a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI Virtualization</h3>
 This API does not participate in DPI virtualization. The output returned is not affected by the DPI of the calling thread.
 
