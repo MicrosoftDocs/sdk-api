@@ -87,7 +87,7 @@ A handle to device dependent XOR mask <a href="/windows/win32/gdi/bitmaps">bitma
 
 ## -remarks
 
-For monochrome icons, the <b>hbmMask</b> is twice the height of the icons (with the AND mask on top and the XOR mask on the bottom), and there is no <b>hbmColor</b>. Also, in this case the height should be an even multiple of two.
+For monochrome icons, the <b>hbmMask</b> is twice the height of the icon (with the AND mask on top and the XOR mask on the bottom), and there is no <b>hbmColor</b>. Also, in this case the height should be an even multiple of two.
 
 For color icons, the <b>hbmMask</b> and <b>hbmColor</b> bitmaps are the same size, each of which is the size of the icon.
 
