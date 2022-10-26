@@ -65,37 +65,37 @@ For information about using this function with a specific <a href="/windows/desk
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (CredSSP)</a>
+<a href="/windows/win32/secauthn/initializesecuritycontext--credssp">InitializeSecurityContext (CredSSP)</a>
 </td>
 <td>Initiates the client side, outbound security context from a credential handle by using the Credential Security Support Provider (CredSSP).</td>
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (Digest)</a>
+<a href="/windows/win32/secauthn/initializesecuritycontext--digest">InitializeSecurityContext (Digest)</a>
 </td>
 <td>Initiates the client side, outbound security context from a credential handle by using the Digest security package.</td>
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (Kerberos)</a>
+<a href="/windows/win32/secauthn/initializesecuritycontext--kerberos">InitializeSecurityContext (Kerberos)</a>
 </td>
 <td>Initiates the client side, outbound security context from a credential handle by using the Kerberos security package.</td>
 </tr>
 <tr>
 <td>
-<a href="/previous-versions/windows/desktop/legacy/aa375509(v=vs.85)">InitializeSecurityContext (Negotiate)</a>
+<a href="/windows/win32/secauthn/initializesecuritycontext--negotiate">InitializeSecurityContext (Negotiate)</a>
 </td>
 <td>Initiates the client side, outbound security context from a credential handle by using the Negotiate security package.</td>
 </tr>
 <tr>
 <td>
-<a href="/previous-versions/windows/desktop/legacy/aa375512(v=vs.85)">InitializeSecurityContext (NTLM)</a>
+<a href="/windows/win32/secauthn/initializesecuritycontext--ntlm">InitializeSecurityContext (NTLM)</a>
 </td>
 <td>Initiates the client side, outbound security context from a credential handle by using the NTLM security package.</td>
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a>
+<a href="/windows/win32/secauthn/initializesecuritycontext--schannel">InitializeSecurityContext (Schannel)</a>
 </td>
 <td>Initiates the client side, outbound security context from a credential handle by using the Schannel security package.</td>
 </tr>
