@@ -77,13 +77,13 @@ The y-coordinate of the cursor's hot spot. If this structure defines an icon, th
 
 Type: <b>HBITMAP</b>
 
-A handle to the icon bitmask <a href="/windows/win32/gdi/bitmaps">bitmap</a>.
+A handle to monochrome AND mask <a href="/windows/win32/gdi/bitmaps">bitmap</a>.
 
 ### -field hbmColor
 
 Type: <b>HBITMAP</b>
 
-A handle to the icon color <a href="/windows/win32/gdi/bitmaps">bitmap</a>.
+A handle to device dependent XOR mask <a href="/windows/win32/gdi/bitmaps">bitmap</a>.
 
 ## -remarks
 
