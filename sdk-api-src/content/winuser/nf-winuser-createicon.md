@@ -49,7 +49,9 @@ api_name:
 
 ## -description
 
-Creates a monochrome icon that has the specified size, colors, and bit patterns.
+Creates a icon that has the specified size, colors, and bit patterns.
+
+To create a colored icon at run time you can use the [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect) function, which creates a icon based on the content of an [**ICONINFO**](/windows/desktop/api/Winuser/ns-winuser-iconinfo) structure.
 
 ## -parameters
 
@@ -138,8 +140,6 @@ For more information about <i>nWidth</i> and <i>nHeight</i> parameters see <a hr
 </table>
 
 When you are finished using the icon, destroy it using the <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
-
-To create a colored icon at run time you must use the [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect) function, which creates a icon based on the content of an [**ICONINFO**](/windows/desktop/api/Winuser/ns-winuser-iconinfo) structure.
 
 #### Examples
 
