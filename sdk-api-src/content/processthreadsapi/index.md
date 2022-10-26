@@ -13,7 +13,6 @@ f1_keywords:
 
 # Processthreadsapi.h header
 
-
 ## -description
 
 This header is used by multiple technologies. For more information, see:
@@ -21,4 +20,3 @@ This header is used by multiple technologies. For more information, see:
 - [Remote Desktop Services](../_termserv/index.md)
 - [Security and Identity](../_security/index.md)
 - [System Services](../_base/index.md)
-

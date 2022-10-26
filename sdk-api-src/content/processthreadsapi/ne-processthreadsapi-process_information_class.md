@@ -1,6 +1,6 @@
 ---
 UID: NE:processthreadsapi._PROCESS_INFORMATION_CLASS
-title: PROCESS_INFORMATION_CLASS
+title: PROCESS_INFORMATION_CLASS (processthreadsapi.h)
 ms.date: 05/05/2020
 targetos: Windows
 description: Indicates a specific class of process information.
@@ -13,7 +13,7 @@ req.kmdf-ver:
 req.max-support: 
 req.target-min-winverclnt: Windows Build 22000
 req.target-min-winversvr: Windows Build 22000
-req.target-type: 
+req.target-type: Windows
 req.typenames: 
 req.umdf-ver: 
 topic_type:

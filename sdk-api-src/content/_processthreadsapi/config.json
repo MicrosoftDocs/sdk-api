@@ -1,0 +1,7 @@
+{
+  "tech": "processthreadsapi",
+  "headers": [
+    "processthreadsapi.h"
+  ],
+  "displayName": "Provides information about a newly created process and its primary thread."
+}

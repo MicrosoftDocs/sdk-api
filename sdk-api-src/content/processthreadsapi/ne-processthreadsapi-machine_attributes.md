@@ -1,7 +1,7 @@
 ---
 UID: NE:processthreadsapi._MACHINE_ATTRIBUTES
 tech.root: security
-title: MACHINE_ATTRIBUTES
+title: MACHINE_ATTRIBUTES (processthreadsapi.h)
 ms.date: 09/28/2021
 targetos: Windows
 description: Specifies the ways in which an architecture of code can run on a host operating system.  More than one bit may be set.
@@ -14,7 +14,7 @@ req.kmdf-ver:
 req.max-support: 
 req.target-min-winverclnt: Windows Build 22000
 req.target-min-winversvr: Windows Build 22000
-req.target-type: 
+req.target-type: Windows
 req.typenames: 
 req.umdf-ver: 
 topic_type:

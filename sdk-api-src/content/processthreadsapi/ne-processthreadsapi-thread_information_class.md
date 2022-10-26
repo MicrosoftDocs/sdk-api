@@ -1,7 +1,7 @@
 ---
 UID: NE:processthreadsapi._THREAD_INFORMATION_CLASS
 tech.root: backup
-title: THREAD_INFORMATION_CLASS
+title: THREAD_INFORMATION_CLASS (processthreadsapi.h)
 description: The THREAD_INFORMATION_CLASS is an enumeration of the processthreadsapi.h header which is used by multiple technologies.
 ms.date: 08/05/2022
 targetos: Windows
@@ -13,9 +13,9 @@ req.header: processthreadsapi.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.target-type: 
+req.target-min-winverclnt: Windows Build 22000
+req.target-min-winversvr: Windows Build 22000
+req.target-type: Windows
 req.typenames: 
 req.umdf-ver: 
 topic_type:
