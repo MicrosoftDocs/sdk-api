@@ -78,30 +78,24 @@ The y-coordinate of the cursor's hot spot. If this structure defines an icon, th
 
 Type: <b>HBITMAP</b>
 
-The icon bitmask bitmap. If this structure defines a black and white icon, this bitmask is formatted so that the upper half is the icon AND bitmask and the lower half is the icon XOR bitmask. Under this condition, the height should be an even multiple of two. If this structure defines a color icon, this mask only defines the AND bitmask of the icon.
+The icon bitmask <a href="/windows/win32/gdi/bitmaps">bitmap</a>. If this structure defines a black and white icon, this bitmask is formatted so that the upper half is the icon AND bitmask and the lower half is the icon XOR bitmask. Under this condition, the height should be an even multiple of two. If this structure defines a color icon, this mask only defines the AND bitmask of the icon.
 
 ### -field hbmColor
 
 Type: <b>HBITMAP</b>
 
-A handle to the icon color bitmap. This member can be optional if this structure defines a black and white icon. The AND bitmask of <b>hbmMask</b> is applied with the <b>SRCAND</b> flag to the destination; subsequently, the color bitmap is applied (using XOR) to the destination by using the <b>SRCINVERT</b> flag.
+A handle to the icon color <a href="/windows/win32/gdi/bitmaps">bitmap</a>. This member can be optional if this structure defines a black and white icon. The AND bitmask of <b>hbmMask</b> is applied with the <b>SRCAND</b> flag to the destination; subsequently, the color bitmap is applied (using XOR) to the destination by using the <b>SRCINVERT</b> flag.
 
 ## -see-also
 
 <b>Conceptual</b>
 
-
-
 <a href="/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
-
-
 
 <a href="/windows/desktop/api/winuser/nf-winuser-geticoninfo">GetIconInfo</a>
 
-
-
 <a href="/windows/desktop/menurc/icons">Icons</a>
 
-
+<a href="/windows/win32/gdi/bitmaps">Bitmaps</a>
 
 <b>Reference</b>
