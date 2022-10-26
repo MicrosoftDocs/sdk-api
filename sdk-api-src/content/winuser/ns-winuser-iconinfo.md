@@ -91,27 +91,7 @@ For monochrome icons, the <b>hbmMask</b> is twice the height of the icons (with 
 
 For color icons, the <b>hbmMask</b> and <b>hbmColor</b> bitmaps are the same size, each of which is the size of the icon.
 
-Here is example code how to get icon size from <b>HICON</b>:
-
-```cpp
-// Also works for cursors
-BOOL GetIconDimensions(__in HICON hico, __out SIZE *psiz)
-{
-  ICONINFO ii;
-  BOOL fResult = GetIconInfo(hico, &ii);
-  if (fResult) {
-    BITMAP bm;
-    fResult = GetObject(ii.hbmMask, sizeof(bm), &bm) == sizeof(bm);
-    if (fResult) {
-      psiz->cx = bm.bmWidth;
-      psiz->cy = ii.hbmColor ? bm.bmHeight : bm.bmHeight / 2;
-    }
-    if (ii.hbmMask)  DeleteObject(ii.hbmMask);
-    if (ii.hbmColor) DeleteObject(ii.hbmColor);
-  }
-  return fResult;
-}
-```
+You can use a <a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a> function to get contents of <b>hbmMask</b> and <b>hbmColor</b> in the BITMAP structure.
 
 ## -see-also
 
