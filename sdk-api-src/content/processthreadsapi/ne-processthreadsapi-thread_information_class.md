@@ -49,19 +49,25 @@ api_name:
 
 ## -description
 
-<!--
-req.include-header: Windows.h
--->
+Specifies the collection of supported thread types.
 
 ## -enum-fields
 
 ### -field ThreadMemoryPriority
 
+Lower the memory priority of threads that perform background operations or access files and data that are not expected to be accessed frequently.
+
 ### -field ThreadAbsoluteCpuPriority
+
+CPU priority.
 
 ### -field ThreadDynamicCodePolicy
 
+Generate dynamic code or modify executable code.
+
 ### -field ThreadPowerThrottling
+
+Throttle the target process activity for power management.
 
 ### -field ThreadInformationClassMax
 
@@ -69,3 +75,4 @@ req.include-header: Windows.h
 
 ## -see-also
 
+[UnmapViewOfFile2 function](../memoryapi/nf-memoryapi-unmapviewoffile2.md), [UnmapViewOfFileEx function](../memoryapi/nf-memoryapi-unmapviewoffileex.md), [GetThreadInformation function](nf-processthreadsapi-getthreadinformation.md), [SetThreadInformation function](nf-processthreadsapi-setthreadinformation.md), [PROCESS_MITIGATION_DYNAMIC_CODE_POLICY structure](../winnt/ns-winnt-process_mitigation_dynamic_code_policy.md), 
