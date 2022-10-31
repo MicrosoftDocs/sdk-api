@@ -66,6 +66,8 @@ Type: <b>LPCTSTR</b>
 
 The name of the input locale identifier to load. This name is a string composed of the hexadecimal value of the <a href="/windows/desktop/Intl/language-identifiers">Language Identifier</a> (low word) and a device identifier (high word). For example, U.S. English has a language identifier of 0x0409, so the primary U.S. English layout is named "00000409". Variants of U.S. English layout (such as the Dvorak layout) are named "00010409", "00020409", and so on.
 
+See <a href="/windows-hardware/manufacture/desktop/windows-language-pack-default-values/windows/desktop/Intl/language-identifiers">List of Keyboard identifiers</a> that are available for Windows.
+
 ### -param Flags [in]
 
 Type: <b>UINT</b>
