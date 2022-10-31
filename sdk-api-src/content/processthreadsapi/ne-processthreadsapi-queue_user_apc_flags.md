@@ -68,7 +68,7 @@ Receive the processor context that was interrupted when the thread was directed 
 
 The *Parameter* argument of the [PAPCFUNC callback function](../winnt/nc-winnt-papcfunc.md) is modified to point to an APC_CALLBACK_DATA structure (see below), which contains the original *Parameter* argument, a pointer to the interrupted processor context, and reserved fields.
 
-```c++
+```cpp
 typedef struct _APC_CALLBACK_DATA {
     ULONG_PTR Parameter;
     PCONTEXT ContextRecord;
