@@ -106,7 +106,7 @@ If it fails, the method can return one of the following error values:
 
 DirectDraw does not manage the memory at <i>lpData</i>. If this buffer was dynamically allocated, the caller must free the memory.
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetPrivateData</b> method.
+
 
 ## -see-also
 
