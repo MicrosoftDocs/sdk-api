@@ -66,6 +66,8 @@ Queue a special user-mode APC instead of a regular user-mode APC.
 
 Receive the processor context that was interrupted when the thread was directed to call the APC function.
 
+## -remarks
+
 The *Parameter* argument of the [PAPCFUNC callback function](../winnt/nc-winnt-papcfunc.md) is modified to point to an APC_CALLBACK_DATA structure (see below), which contains the original *Parameter* argument, a pointer to the interrupted processor context, and reserved fields.
 
 ```cpp
@@ -76,8 +78,6 @@ typedef struct _APC_CALLBACK_DATA {
     ULONG_PTR Reserved1;
 } APC_CALLBACK_DATA, *PAPC_CALLBACK_DATA;
 ```
-
-## -remarks
 
 ## -see-also
 

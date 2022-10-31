@@ -34,7 +34,6 @@ f1_keywords:
  - processthreadsapi/THREAD_INFORMATION_CLASS
 dev_langs:
  - c++
-
 helpviewer_keywords: ["THREAD_INFORMATION_CLASS"]
 ms.keywords: 'THREAD_INFORMATION_CLASS'
 req.unicode-ansi: 
@@ -48,13 +47,14 @@ req.irql:
 req.redist: 
 ms.custom: 19H1
 ---
-<!--
-req.include-header: Windows.h
--->
 
 # THREAD_INFORMATION_CLASS enumeration
 
 ## -description
+
+<!--
+req.include-header: Windows.h
+-->
 
 ## -enum-fields
 
