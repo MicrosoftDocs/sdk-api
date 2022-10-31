@@ -70,6 +70,8 @@ Type: <b>LPTSTR</b>
 
 The buffer (of at least <b>KL_NAMELENGTH</b> characters in length) that receives the name of the input locale identifier, including the terminating null character. This will be a copy of the string provided to the <a href="/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a> function, unless layout substitution took place.
 
+See <a href="/windows-hardware/manufacture/desktop/windows-language-pack-default-values/windows/desktop/Intl/language-identifiers">List of Keyboard identifiers</a> that are available for Windows.
+
 ## -returns
 
 Type: <b>BOOL</b>
