@@ -1,6 +1,7 @@
 {
   "tech": "debug",
   "headers": [
+    "processthreadsapi.h",
     "webapplication.h"
   ],
   "displayName": "Debugging and authoring support"

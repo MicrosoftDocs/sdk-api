@@ -4,7 +4,7 @@ title: QueryProcessAffinityUpdateMode function (processthreadsapi.h)
 description: Retrieves the affinity update mode of the specified process.
 helpviewer_keywords: ["PROCESS_AFFINITY_ENABLE_AUTO_UPDATE","QueryProcessAffinityUpdateMode","QueryProcessAffinityUpdateMode function","base.queryprocessaffinityupdatemode","processthreadsapi/QueryProcessAffinityUpdateMode","winbase/QueryProcessAffinityUpdateMode"]
 old-location: base\queryprocessaffinityupdatemode.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: e1c9fab2-45a0-4ea7-bafb-91fc0f22e658
 ms.date: 12/05/2018
 ms.keywords: PROCESS_AFFINITY_ENABLE_AUTO_UPDATE, QueryProcessAffinityUpdateMode, QueryProcessAffinityUpdateMode function, base.queryprocessaffinityupdatemode, processthreadsapi/QueryProcessAffinityUpdateMode, winbase/QueryProcessAffinityUpdateMode

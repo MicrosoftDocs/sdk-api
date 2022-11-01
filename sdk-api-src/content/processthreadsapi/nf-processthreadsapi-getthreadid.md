@@ -4,7 +4,7 @@ title: GetThreadId function (processthreadsapi.h)
 description: Retrieves the thread identifier of the specified thread.
 helpviewer_keywords: ["GetThreadId","GetThreadId function","base.getthreadid","processthreadsapi/GetThreadId","winbase/GetThreadId"]
 old-location: base\getthreadid.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 198dfe9e-713f-46ce-90eb-24bfe42d2bf6
 ms.date: 12/05/2018
 ms.keywords: GetThreadId, GetThreadId function, base.getthreadid, processthreadsapi/GetThreadId, winbase/GetThreadId

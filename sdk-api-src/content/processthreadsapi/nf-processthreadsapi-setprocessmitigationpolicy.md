@@ -4,7 +4,7 @@ title: SetProcessMitigationPolicy function (processthreadsapi.h)
 description: Sets a mitigation policy for the calling process. Mitigation policies enable a process to harden itself against various types of attacks.
 helpviewer_keywords: ["ProcessASLRPolicy","ProcessControlFlowGuardPolicy","ProcessDEPPolicy","ProcessDynamicCodePolicy","ProcessExtensionPointDisablePolicy","ProcessFontDisablePolicy","ProcessImageLoadPolicy","ProcessMitigationOptionsMask","ProcessSignaturePolicy","ProcessStrictHandleCheckPolicy","ProcessSystemCallDisablePolicy","SetProcessMitigationPolicy","SetProcessMitigationPolicy function","base.setprocessmitigationpolicy","processthreadsapi/SetProcessMitigationPolicy"]
 old-location: base\setprocessmitigationpolicy.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 57f364f8-58d7-447a-91c3-51fc1fe1a481
 ms.date: 05/24/2022
 ms.keywords: ProcessASLRPolicy, ProcessControlFlowGuardPolicy, ProcessDEPPolicy, ProcessDynamicCodePolicy, ProcessExtensionPointDisablePolicy, ProcessFontDisablePolicy, ProcessImageLoadPolicy, ProcessMitigationOptionsMask, ProcessSignaturePolicy, ProcessStrictHandleCheckPolicy, ProcessSystemCallDisablePolicy, ProcessUserShadowStackPolicy, SetProcessMitigationPolicy, SetProcessMitigationPolicy function, base.setprocessmitigationpolicy, processthreadsapi/SetProcessMitigationPolicy
