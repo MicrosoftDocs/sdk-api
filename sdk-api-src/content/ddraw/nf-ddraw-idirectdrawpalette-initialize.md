@@ -74,7 +74,7 @@ This method is provided for compliance with the Component Object Model (COM). Be
 
 ## -remarks
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>Initialize</b> method.
+
 
 ## -see-also
 
