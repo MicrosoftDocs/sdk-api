@@ -4,7 +4,7 @@ title: GetProcessInformation function (processthreadsapi.h)
 description: Retrieves information about the specified process. (GetProcessInformation)
 helpviewer_keywords: ["GetProcessInformation","GetProcessInformation function","base.getprocessinformation","processthreadsapi/GetProcessInformation"]
 old-location: base\getprocessinformation.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 2b075405-b7b6-4da0-b78d-45eaa9c6c8cd
 ms.date: 12/05/2018
 ms.keywords: GetProcessInformation, GetProcessInformation function, base.getprocessinformation, processthreadsapi/GetProcessInformation

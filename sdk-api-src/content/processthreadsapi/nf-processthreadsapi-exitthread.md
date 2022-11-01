@@ -4,7 +4,7 @@ title: ExitThread function (processthreadsapi.h)
 description: Ends the calling thread.
 helpviewer_keywords: ["ExitThread","ExitThread function","_win32_exitthread","base.exitthread","processthreadsapi/ExitThread","winbase/ExitThread"]
 old-location: base\exitthread.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: e7f6d054-c535-4521-a3b4-800a9174732f
 ms.date: 12/05/2018
 ms.keywords: ExitThread, ExitThread function, _win32_exitthread, base.exitthread, processthreadsapi/ExitThread, winbase/ExitThread

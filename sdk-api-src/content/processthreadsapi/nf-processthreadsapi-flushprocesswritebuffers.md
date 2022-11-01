@@ -4,7 +4,7 @@ title: FlushProcessWriteBuffers function (processthreadsapi.h)
 description: Flushes the write queue of each processor that is running a thread of the current process.
 helpviewer_keywords: ["FlushProcessWriteBuffers","FlushProcessWriteBuffers function","base.flushprocesswritebuffers","processthreadsapi/FlushProcessWriteBuffers","winbase/FlushProcessWriteBuffers"]
 old-location: base\flushprocesswritebuffers.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 6dcf6851-59ee-4f6e-b2cb-e36ac5328b92
 ms.date: 12/05/2018
 ms.keywords: FlushProcessWriteBuffers, FlushProcessWriteBuffers function, base.flushprocesswritebuffers, processthreadsapi/FlushProcessWriteBuffers, winbase/FlushProcessWriteBuffers

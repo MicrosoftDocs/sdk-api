@@ -89,3 +89,5 @@ The maximum value for this enumeration. This value may change in a future versio
 ## -remarks
 
 ## -see-also
+
+[GetProcessInformation function](nf-processthreadsapi-getprocessinformation.md), [SetProcessInformation function](nf-processthreadsapi-setprocessinformation.md), [APP_MEMORY_INFORMATION structure](ns-processthreadsapi-app_memory_information.md), [PROCESS_MACHINE_INFORMATION structure](ns-processthreadsapi-process_machine_information.md), [PROCESS_MEMORY_EXHAUSTION_INFO structure](ns-processthreadsapi-process_memory_exhaustion_info.md)

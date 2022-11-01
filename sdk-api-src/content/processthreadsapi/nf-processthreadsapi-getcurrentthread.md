@@ -4,7 +4,7 @@ title: GetCurrentThread function (processthreadsapi.h)
 description: Retrieves a pseudo handle for the calling thread.
 helpviewer_keywords: ["GetCurrentThread","GetCurrentThread function","_win32_getcurrentthread","base.getcurrentthread","processthreadsapi/GetCurrentThread","winbase/GetCurrentThread"]
 old-location: base\getcurrentthread.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 91a11552-66c1-42bd-b837-8a7685977bc9
 ms.date: 12/05/2018
 ms.keywords: GetCurrentThread, GetCurrentThread function, _win32_getcurrentthread, base.getcurrentthread, processthreadsapi/GetCurrentThread, winbase/GetCurrentThread

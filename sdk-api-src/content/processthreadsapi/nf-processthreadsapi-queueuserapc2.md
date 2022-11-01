@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.QueueUserAPC2
-tech.root: backup
+tech.root: processthreadsapi
 title: QueueUserAPC2 function (processthreadsapi.h)
 ms.date: 08/05/2022
 targetos: Windows

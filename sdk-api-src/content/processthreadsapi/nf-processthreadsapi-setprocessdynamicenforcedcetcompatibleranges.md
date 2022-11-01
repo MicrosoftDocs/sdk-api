@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.SetProcessDynamicEnforcedCetCompatibleRanges
-tech.root: backup
+tech.root: processthreadsapi
 title: SetProcessDynamicEnforcedCetCompatibleRanges
 ms.date: 02/02/2021
 ms.topic: language-reference

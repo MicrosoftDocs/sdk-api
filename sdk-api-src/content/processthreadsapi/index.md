@@ -18,6 +18,6 @@ f1_keywords:
 
 This header is used by multiple technologies. For more information, see:
 
+- [Processes and threads](../_processthreadsapi/index.md)
 - [Remote Desktop Services](../_termserv/index.md)
 - [Security and Identity](../_security/index.md)
-- [Processes and threads](../_processthreadsapi/index.md)
