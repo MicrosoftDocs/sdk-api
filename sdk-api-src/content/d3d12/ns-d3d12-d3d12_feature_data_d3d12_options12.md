@@ -54,13 +54,17 @@ Type: \_Out\_ **[BOOL](/windows/win32/winprog/windows-data-types)**
 
 Indicates whether or not Enhanced Barriers are supported. `true` if supported, otherwise `false`.
 
-Enhanced Barriers is not currently a hardware or driver requirement. You must check for optional driver support before using command list Barrier APIs or resource Create methods using InitialLayout.
+Enhanced Barriers is not currently a hardware or driver requirement. So before using command list Barrier APIs, or resource creation APIs using the *InitialLayout* parameter, you must check for optional driver support via *EnhancedBarriersSupported*.
+
+Requires the DirectX 12 Agility SDK 1.7 or later; otherwise, the value is always `FALSE`.
 
 ### -field RelaxedFormatCastingSupported
 
 Type: \_Out\_ **[BOOL](/windows/win32/winprog/windows-data-types)**
 
 Technically used to indicate support for the functionality that enables integer aliasing.
+
+Requires the DirectX 12 Agility SDK 1.7 or later; otherwise, the value is always `FALSE`.
 
 ## -remarks
 
