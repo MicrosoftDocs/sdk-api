@@ -92,7 +92,7 @@ Specifies that the data should not be subject to routing. A Windows Sockets serv
 </dl>
 </td>
 <td width="60%">
-Sends OOB data (stream-style socket such as SOCK_STREAM only.
+Sends OOB data (stream-style socket such as SOCK_STREAM only).
 
 </td>
 </tr>
