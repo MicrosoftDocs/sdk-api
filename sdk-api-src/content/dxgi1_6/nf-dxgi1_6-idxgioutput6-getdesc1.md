@@ -59,7 +59,7 @@ Get an extended description of the output that includes color characteristics an
 
 Type: <b><a href="/windows/desktop/api/dxgi1_6/ns-dxgi1_6-dxgi_output_desc1">DXGI_OUTPUT_DESC1</a>*</b>
 
-A pointer to the output description (see <a href="/windows/desktop/api/dxgi1_6/ns-dxgi1_6-dxgi_output_desc1">DXGI_OUTPUT_DESC1</a>).
+A pointer to the output description (see <a href="/windows/win32/api/dxgi1_6/ns-dxgi1_6-dxgi_output_desc1">DXGI_OUTPUT_DESC1</a>).
 
 ## -returns
 
@@ -73,7 +73,7 @@ Some scenarios do not have well-defined values for all fields in this struct. Fo
 
 An output's reported color and luminance characteristics can adjust dynamically while the system is running due to user action or changing ambient conditions. Therefore, apps should periodically query **IDXGIFactory::IsCurrent** and re-create their **IDXGIFactory** if it returns **FALSE**. Then re-query **GetDesc1** from the new factory's equivalent output to retrieve the newest color information.
 
-For more details on how to write apps that react dynamically to monitor capabilities, see [Using DirectX with high dynamic range displays and Advanced Color](https://docs.microsoft.com/windows/win32/direct3darticles/high-dynamic-range). 
+For more details on how to write apps that react dynamically to monitor capabilities, see [Using DirectX with high dynamic range displays and Advanced Color](/windows/win32/direct3darticles/high-dynamic-range). 
 
 On a high DPI desktop, <b>GetDesc1</b> returns the visualized screen size unless the app is marked high DPI aware. For info about writing DPI-aware Win32 apps, see <a href="/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows">High DPI</a>.
 
