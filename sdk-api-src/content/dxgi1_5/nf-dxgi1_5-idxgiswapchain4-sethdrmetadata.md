@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 > [!WARNING]
-> It is no longer recommended for apps to explicitly set HDR metadata on their swap chain using **SetHDRMetaData**. Windows does not guarantee that swap chain metadata is sent to the monitor, and monitors do not handle HDR metadata consistently. Therefore it's recommended that apps always tone-map content into the range reported by the monitor. For more details on how to write apps that react dynamically to monitor capabilities, see [Using DirectX with high dynamic range displays and Advanced Color](https://docs.microsoft.com/windows/win32/direct3darticles/high-dynamic-range).
+> It is no longer recommended for apps to explicitly set HDR metadata on their swap chain using **SetHDRMetaData**. Windows does not guarantee that swap chain metadata is sent to the monitor, and monitors do not handle HDR metadata consistently. Therefore it's recommended that apps always tone-map content into the range reported by the monitor. For more details on how to write apps that react dynamically to monitor capabilities, see [Using DirectX with high dynamic range displays and Advanced Color](/windows/win32/direct3darticles/high-dynamic-range).
 >
 > See Remarks for more details.
 
@@ -89,7 +89,7 @@ This method sets metadata to enable a monitor's output to be adjusted depending 
 
 Applications should not rely on the metadata being sent to the monitor as the the metadata may be ignored. Monitors do not consistently process HDR metadata, resulting in varied appearance of your content across different monitors. In order to ensure more consistent output across a range of monitors, devices, and use cases, it is recommended to not use **SetHDRMetaData** and to instead tone-map content into the gamut and luminance range supported by the monitor. See [IDXGIOutput6::GetDesc1](../dxgi1_6/nf-dxgi1_6-idxgioutput6-getdesc1.md) to retrieve the monitor's supported gamut and luminance range. Monitors adhering to the VESA DisplayHDR standard will automatically perform a form of clipping for content outside of the monitor's supported gamut and luminance range.
 
-For more details on how to write apps that react dynamically to monitor capabilities, see [Using DirectX with high dynamic range displays and Advanced Color](https://docs.microsoft.com/windows/win32/direct3darticles/high-dynamic-range).
+For more details on how to write apps that react dynamically to monitor capabilities, see [Using DirectX with high dynamic range displays and Advanced Color](/windows/win32/direct3darticles/high-dynamic-range).
 
 ## -see-also
 
