@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-TBD
+Represents a virtual adapter.
 
 Requires the DirectX 12 Agility SDK 1.7 or later.
 

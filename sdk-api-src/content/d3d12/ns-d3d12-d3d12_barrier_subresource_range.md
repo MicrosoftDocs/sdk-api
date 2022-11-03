@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_BARRIER_SUBRESOURCE_RANGE
 title: D3D12_BARRIER_SUBRESOURCE_RANGE
-description: TBD
+description: Allows you to transition logically-adjacent ranges of subresources.
 tech.root: direct3d12
 ms.date: 11/01/2022
 targetos: Windows
@@ -38,19 +38,33 @@ prerelease: false
 
 ## -description
 
+Allows you to transition logically-adjacent ranges of subresources.
+
 ## -struct-fields
 
 ### -field IndexOrFirstMipLevel
 
+The index of the first mip level in the range; or a subresource index, if *NumMipLevels* is zero. If a subresource index, then you can use the value `0xffffffff` to specify all subresources.
+
 ### -field NumMipLevels
+
+Number of mip levels in the range, or zero to indicate that *IndexOrFirstMipLevel* is a subresource index.
 
 ### -field FirstArraySlice
 
+Index of first array slice in the range. Ignored if *NumMipLevels* is zero.
+
 ### -field NumArraySlices
+
+Number of array slices in the range. Ignored if *NumMipLevels* is zero.
 
 ### -field FirstPlane
 
+First plane slice in the range. Ignored if *NumMipLevels* is zero.
+
 ### -field NumPlanes
+
+Number of plane slices in the range. Ignored if *NumMipLevels* is zero.
 
 ## -remarks
 

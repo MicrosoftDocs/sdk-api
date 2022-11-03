@@ -14,7 +14,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11, version 22H2; or DirectX 12 Agility SDK 1.6 or later
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: D3D12_FEATURE_DATA_D3D12_OPTIONS12

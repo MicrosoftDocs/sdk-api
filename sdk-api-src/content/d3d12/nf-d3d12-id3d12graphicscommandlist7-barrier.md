@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList7.Barrier
 title: ID3D12GraphicsCommandList7::Barrier
-description: TBD
+description: Adds a collection of barriers into a graphics command list recording.
 helpviewer_keywords:
  - Barrier
 tech.root: direct3d12
@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-TBD
+Adds a collection of barriers into a graphics command list recording.
 
 Requires the DirectX 12 Agility SDK 1.7 or later.
 
@@ -52,7 +52,11 @@ Requires the DirectX 12 Agility SDK 1.7 or later.
 
 ### -param NumBarrierGroups
 
+Number of barrier groups pointed to by *pBarrierGroups*.
+
 ### -param pBarrierGroups
+
+Pointer to an array of [D3D12_BARRIER_GROUP](/windows/win32/api/d3d12/ns-d3d12-d3d12_barrier_group) objects.
 
 ## -remarks
 
