@@ -4,8 +4,6 @@ title: BCryptUnregisterConfigChangeNotify
 ms.date: 01/30/2019
 ms.keywords: BCryptUnregisterConfigChangeNotify
 ms.topic: language-reference
-f1_keywords: 
- - "bcrypt/BCryptUnregisterConfigChangeNotify"
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

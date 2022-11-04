@@ -5,7 +5,6 @@ title: BCryptBufferDesc (bcrypt.h)
 description: "Describes how the BCryptBufferDesc structure contains a set of generic Cryptography API: Next Generation (CNG) buffers."
 ms.date: 08/01/2022
 targetos: Windows
-description: 
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
