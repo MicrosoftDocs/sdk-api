@@ -5,7 +5,6 @@ title: ID3D12VideoEncoderHeap::GetResolutionListCount
 description: The ID3D12VideoEncoderHeap::GetResolutionListCount method (d3d12video.h) gets the resolution list count associated with the video encoder heap.
 ms.date: 08/16/2022
 targetos: Windows
-description: 
 prerelease: false
 req.assembly: 
 req.construct-type: function
