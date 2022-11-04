@@ -5,7 +5,6 @@ description: The FILE_SEGMENT_ELEMENT structure represents a segment buffer stru
 ms.date: 08/03/2022
 ms.topic: language-reference
 targetos: Windows
-description: 
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

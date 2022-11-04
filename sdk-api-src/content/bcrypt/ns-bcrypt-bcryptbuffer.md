@@ -5,7 +5,6 @@ title: BCryptBuffer (bcrypt.h)
 description: "Describes how the BCryptBuffer structure represents a generic Cryptography API: Next Generation (CNG) buffer."
 ms.date: 08/01/2022
 targetos: Windows
-description: 
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
