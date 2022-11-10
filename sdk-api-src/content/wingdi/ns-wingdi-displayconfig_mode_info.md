@@ -78,7 +78,7 @@ A valid <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_source_mode
 
 ### -field DUMMYUNIONNAME.desktopImageInfo
 
-A <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_desktop_image_info">DISPLAYCONFIG_DESKTOP_IMAGE_INFO</a> structure that describes information about the desktop image only when <b>infoType</b> is DISPLAYCONFIG_MODE_INFO_TYPE_. 
+A <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_desktop_image_info">DISPLAYCONFIG_DESKTOP_IMAGE_INFO</a> structure that describes information about the desktop image only when <b>infoType</b> is DISPLAYCONFIG_MODE_INFO_TYPE_DESKTOP_IMAGE. 
 
 Supported starting in Windows 10.
 
