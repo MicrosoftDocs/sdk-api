@@ -67,6 +67,10 @@ The index (plane slice number) of the plane to use in the texture.
 
 Specifies the minimum mipmap level that you can access. Specifying 0.0f means that you can access all of the mipmap levels. Specifying 3.0f means that you can access mipmap levels from 3.0f to `MipCount - 1`.
 
+Better not to use `MostDetailedMip` and `ResourceMinLODClamp` at the same time. One of this field should have a default value i.e. 0. Since `MipLevels` is interpreted differently in conjunction with different fields:
+-   For `MostDetailedMip` mips will be in range: \[`MostDetailedMip`, `MostDetailedMip` + `MipLevels` - 1]
+-   For `ResourceMinLODClamp` mips will be in range: \[`ResourceMinLODClamp`, `MipLevels` - 1]
+
 ## -remarks
 
 This structure is one member of a shader-resource-view description, <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_shader_resource_view_desc">D3D12_SHADER_RESOURCE_VIEW_DESC</a>.
