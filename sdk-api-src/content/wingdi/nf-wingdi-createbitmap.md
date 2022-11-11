@@ -77,7 +77,18 @@ The number of bits required to identify the color of a single pixel.
 
 ### -param lpBits [in]
 
-A pointer to an array of color data used to set the colors in a rectangle of pixels. Each scan line in the rectangle must be word aligned (scan lines that are not word aligned must be padded with zeros). If this parameter is <b>NULL</b>, the contents of the new bitmap is undefined.
+A pointer to an array of color data used to set the colors in a rectangle of pixels. 
+
+Each scan line in the rectangle must be <b>DWORD</b> aligned (scan lines that are not <b>DWORD</b> aligned must be padded with zeros). 
+ 
+You can use the following formula to calculate the stride (byte width of a single row of pixels) and color data array size: 
+
+```cpp
+stride = ((((nWidth * nBitCount) + 31) & ~31) >> 3);
+size = stride * nHeight * nPlanes;
+```
+
+If this parameter is <b>NULL</b>, the contents of the new bitmap is undefined.
 
 ## -returns
 
