@@ -84,8 +84,8 @@ Each scan line in the rectangle must be <b>DWORD</b> aligned (scan lines that ar
 You can use the following formula to calculate the stride (byte width of a single row of pixels) and color data array size: 
 
 ```cpp
-stride = ((((nWidth * nBitCount) + 31) & ~31) >> 3);
-size = stride * nHeight * nPlanes;
+UINT stride = ((((nWidth * nBitCount) + 31) & ~31) >> 3);
+UINT size = stride * nHeight * nPlanes;
 ```
 
 If this parameter is <b>NULL</b>, the contents of the new bitmap is undefined.
