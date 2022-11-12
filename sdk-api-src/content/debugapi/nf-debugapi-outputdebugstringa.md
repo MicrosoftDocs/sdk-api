@@ -8,7 +8,7 @@ tech.root: Debug
 ms.assetid: ca23d9a9-65b7-4a36-bd09-857a6997f482
 ms.date: 12/05/2018
 ms.keywords: OutputDebugString, OutputDebugString function, OutputDebugStringA, OutputDebugStringW, _win32_outputdebugstring, base.outputdebugstring, debugapi/OutputDebugString, debugapi/OutputDebugStringA, debugapi/OutputDebugStringW
-req.header: Windows.h
+req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
