@@ -261,7 +261,7 @@ Pointer to an array of <b>ValueCount</b> members where each member is  an octet 
 
 ## -remarks
 
-The field value type suggests that the value can be an Octet string or a SID. However the <a href="https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-adts/252d7e10-eaf8-44e9-8b8d-205b384f5782">Directory Services documentation for claims entries</a> specifies that effective possible data types for claims are only Int64, UInt64, UnicodeString and Boolean.
+The field value type indicates that the value can be an octet string or a SID. However, the [Directory Services documentation for claims entries](/openspecs/windows_protocols/ms-adts/252d7e10-eaf8-44e9-8b8d-205b384f5782) specifies that effective possible data types for claims are limited to Int64, UInt64, UnicodeString, and Boolean.
 
 ## -see-also
 
