@@ -90,13 +90,13 @@ The height of the cursor, in pixels.
 
 Type: <b>const VOID*</b>
 
-An array of bytes that contains the bit values for the AND mask of the cursor, as in a device-dependent monochrome bitmap.
+An array of bytes that contains the bit values for the AND mask of the cursor, as in a <a href="/windows/win32/gdi/device-dependent-bitmaps">device-dependent</a> monochrome bitmap.
 
 ### -param pvXORPlane [in]
 
 Type: <b>const VOID*</b>
 
-An array of bytes that contains the bit values for the XOR mask of the cursor, as in a device-dependent monochrome bitmap.
+An array of bytes that contains the bit values for the XOR mask of the cursor, as in a <a href="/windows/win32/gdi/device-dependent-bitmaps">device-dependent</a> monochrome bitmap.
 
 ## -returns
 
