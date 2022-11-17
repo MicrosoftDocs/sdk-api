@@ -53,38 +53,25 @@ api_name:
 
 # Wow64RevertWow64FsRedirection function
 
-
 ## -description
 
 Restores file system redirection for the calling thread.
 
 This function should not be called without a previous call to the <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> function.
 
-Any data allocation on behalf of the 
-      <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> 
-      function is cleaned up by this function.
+Any data allocation on behalf of the <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> function is cleaned up by this function.
 
 ## -parameters
 
 ### -param OlValue
 
-TBD
-
-
-
-
-#### - OldValue [in]
-
-The WOW64 file system redirection value. This value is obtained from the 
-      <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> 
-      function.
+The WOW64 file system redirection value. This value is obtained from the <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is a nonzero value.
 
-If the function fails, the return value is <b>FALSE</b> (zero). To get extended error 
-       information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>FALSE</b> (zero). To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -150,16 +137,10 @@ No
 </td>
 </tr>
 </table>
- 
 
+### Examples
 
-#### Examples
-
-For an example, see the 
-     <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> 
-     function.
-
-<div class="code"></div>
+For an example, see the <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> function.
 
 ## -see-also
 

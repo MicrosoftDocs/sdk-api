@@ -49,10 +49,7 @@ api_name:
 
 # IsWow64GuestMachineSupported function
 
-
 ## -description
-
-
 
 Determines which architectures are supported (under <a href="/windows/desktop/WinProg64/running-32-bit-applications">WOW64</a>) on the given machine architecture.
 
