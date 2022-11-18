@@ -4,7 +4,7 @@ title: IsWow64Process function (wow64apiset.h)
 description: Determines whether the specified process is running under WOW64 or an Intel64 of x64 processor.
 helpviewer_keywords: ["IsWow64Process","IsWow64Process function","_win32_iswow64process","base.iswow64process","winbase/IsWow64Process","wow64apiset/IsWow64Process"]
 old-location: base\iswow64process.htm
-tech.root: backup
+tech.root: fs
 ms.assetid: 5a237542-e432-487c-aa59-2ede427dd1eb
 ms.date: 12/05/2018
 ms.keywords: IsWow64Process, IsWow64Process function, _win32_iswow64process, base.iswow64process, winbase/IsWow64Process, wow64apiset/IsWow64Process
