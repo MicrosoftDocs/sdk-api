@@ -140,7 +140,7 @@ The width and height of the file icon.
 
 ### -field pointl
 
-Type: <b><a href="/previous-versions/dd162807(v=vs.85)">POINTL</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a></b>
 
 The screen coordinates of the file object.
 

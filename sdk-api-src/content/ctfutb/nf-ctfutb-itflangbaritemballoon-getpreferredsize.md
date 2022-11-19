@@ -56,7 +56,7 @@ Obtains the preferred size,in pixels, of the balloon.
 
 ### -param pszDefault [in]
 
-Pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that contains the default size, in pixels, of the balloon.
+Pointer to a <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure that contains the default size, in pixels, of the balloon.
 
 ### -param psz [out]
 
@@ -102,4 +102,4 @@ If the balloon text will not fit into the preferred size obtained from this meth
 
 
 
-<a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>
+<a href="/windows/win32/api/windef/ns-windef-size">SIZE</a>

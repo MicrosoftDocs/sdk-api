@@ -64,7 +64,7 @@ The size of this structure, in bytes.
 
 ### -field pt
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 Point to be hit-tested.
 
