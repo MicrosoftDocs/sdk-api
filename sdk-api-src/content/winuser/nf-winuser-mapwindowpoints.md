@@ -74,11 +74,11 @@ A handle to the window to which points are converted. If this parameter is <b>NU
 
 ### -param lpPoints [in, out]
 
-A pointer to an array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures that contain the set of points to be converted. The points are in device units. This parameter can also point to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure, in which case the <i>cPoints</i> parameter should be set to 2.
+A pointer to an array of <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structures that contain the set of points to be converted. The points are in device units. This parameter can also point to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure, in which case the <i>cPoints</i> parameter should be set to 2.
 
 ### -param cPoints [in]
 
-The number of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures in the array pointed to by the <i>lpPoints</i> parameter.
+The number of <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structures in the array pointed to by the <i>lpPoints</i> parameter.
 
 ## -returns
 
@@ -103,7 +103,7 @@ If <i>hWndFrom</i> or <i>hWndTo</i> (or both) are mirrored windows (that is, hav
 ```
 
 
-Also, if you need to map precisely two independent points and don't want the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> logic applied to them by <b>MapWindowPoints</b>, to guarantee the correct result you must call <b>MapWindowPoints</b> with one <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> pointer at a time, as shown in the following example:
+Also, if you need to map precisely two independent points and don't want the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> logic applied to them by <b>MapWindowPoints</b>, to guarantee the correct result you must call <b>MapWindowPoints</b> with one <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> pointer at a time, as shown in the following example:
 
 
 ```cpp
@@ -129,7 +129,7 @@ Also, if you need to map precisely two independent points and don't want the <a 
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

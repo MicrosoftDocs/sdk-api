@@ -88,7 +88,7 @@ Indicates that the window should scroll.
 
 ### -field pts
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>[NUM_POINTS]</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a>[NUM_POINTS]</b>
 
 A pointer to the current scroll coordinates. The index of this array is <b>iNextSample</b>.
 

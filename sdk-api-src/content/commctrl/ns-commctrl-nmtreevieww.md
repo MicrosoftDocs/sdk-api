@@ -106,10 +106,10 @@ Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a><
 
 ### -field ptDrag
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the client coordinates of the mouse at the time the event occurred that caused the notification message to be sent.
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that contains the client coordinates of the mouse at the time the event occurred that caused the notification message to be sent.
 
 ## -see-also
 

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>BITMAPV5HEADER</b> structure is the bitmap information header file. It is an extended version of the <a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure.
+The <b>BITMAPV5HEADER</b> structure is the bitmap information header file. It is an extended version of the <a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure.
 
 ## -struct-fields
 
@@ -323,7 +323,7 @@ If a profile is linked, the path of the profile can be any fully qualified name 
 
 
 
-<a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a>
 
 
 

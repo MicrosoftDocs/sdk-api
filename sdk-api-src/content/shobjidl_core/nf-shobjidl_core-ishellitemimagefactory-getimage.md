@@ -56,7 +56,7 @@ Gets an <b>HBITMAP</b> that represents an <a href="/windows/desktop/api/shobjidl
 
 ### -param size [in]
 
-Type: <b><a href="/previous-versions/dd145106(v=vs.85)">SIZE</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-size">SIZE</a></b>
 
 A structure that specifies the size of the image to be received.
 

@@ -92,7 +92,7 @@ Device context on which to draw. Cannot be a metafile device context.
 
 #### - lprcBounds [in]
 
-Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure specifying the rectangle in which the object should be drawn. This parameter is converted to a <a href="/previous-versions/dd162907(v=vs.85)">RECTL</a> structure and passed to <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a>.
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure specifying the rectangle in which the object should be drawn. This parameter is converted to a <a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure and passed to <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a>.
 
 
 #### - pUnknown [in]
@@ -189,7 +189,7 @@ The object doesn't support the <a href="/windows/desktop/api/oleidl/nn-oleidl-iv
 
 ## -remarks
 
-The OleDraw helper function calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method for the object specified (pUnk), asking for an <a href="/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a> interface on that object. Then, <b>OleDraw</b> converts the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure to a <a href="/previous-versions/dd162907(v=vs.85)">RECTL</a> structure, and calls <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a> as follows:
+The OleDraw helper function calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method for the object specified (pUnk), asking for an <a href="/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a> interface on that object. Then, <b>OleDraw</b> converts the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure to a <a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure, and calls <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a> as follows:
 
 
 ``` syntax

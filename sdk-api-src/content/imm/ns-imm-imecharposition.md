@@ -68,7 +68,7 @@ Character offset in the composition string, in <b>TCHAR</b> values.
 
 ### -field pt
 
-A <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure containing the coordinate of the top left point of requested character in screen coordinates. The top left point is based on the character baseline in any text flow.
+A <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure containing the coordinate of the top left point of requested character in screen coordinates. The top left point is based on the character baseline in any text flow.
 
 ### -field cLineHeight
 
