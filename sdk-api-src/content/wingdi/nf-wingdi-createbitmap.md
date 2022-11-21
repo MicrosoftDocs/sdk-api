@@ -50,9 +50,6 @@ api_name:
  - CreateBitmap
 ---
 
-# CreateBitmap function
-
-
 ## -description
 
 The <b>CreateBitmap</b> function creates a bitmap with the specified width, height, and color format (color planes and bits-per-pixel).
@@ -77,18 +74,13 @@ The number of bits required to identify the color of a single pixel.
 
 ### -param lpBits [in]
 
-A pointer to an array of color data used to set the colors in a rectangle of pixels. 
-
-Each scan line in the rectangle must be <b>DWORD</b> aligned (scan lines that are not <b>DWORD</b> aligned must be padded with zeros). 
- 
-You can use the following formula to calculate the stride (byte width of a single row of pixels) and color data array size: 
+A pointer to an array of color data used to set the colors in a rectangle of pixels. Each scan line in the rectangle must be word aligned (scan lines that are not word aligned must be padded with zeros). The buffer size expected, *cj*, can be calculated using the formula:
 
 ```cpp
-UINT stride = ((((nWidth * nBitCount) + 31) & ~31) >> 3);
-UINT size = stride * nHeight * nPlanes;
+cj = (((nWidth * nPlanes * nBitCount + 15) >> 4) << 1) * nHeight;
 ```
 
-If this parameter is <b>NULL</b>, the contents of the new bitmap is undefined.
+If this parameter is <b>NULL</b>, then the contents of the new bitmap are undefined.
 
 ## -returns
 
