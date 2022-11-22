@@ -140,7 +140,7 @@ If this value is not specified, the string pointed to by the <i>lpTargetPath</i>
 A pointer to an MS-DOS device name string specifying the device the function is defining, redefining, or 
       deleting. The device name string must not have a colon as the last character, unless a drive letter is being 
       defined, redefined, or deleted. For example, drive C  would be the string "C:". In no case is a 
-      trailing backslash ("\") allowed.
+      trailing backslash (\\) allowed.
 
 ### -param lpTargetPath [in, optional]
 
