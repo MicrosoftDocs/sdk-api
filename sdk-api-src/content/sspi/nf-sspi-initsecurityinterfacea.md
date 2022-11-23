@@ -43,6 +43,7 @@ api_location:
  - Secur32.dll
  - security.dll
  - schannel.dll
+ - kernel32.dll
 api_name:
  - InitSecurityInterface
  - InitSecurityInterfaceA
