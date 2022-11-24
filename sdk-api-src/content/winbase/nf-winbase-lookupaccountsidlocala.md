@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Advapi32.lib
+req.lib: 
 req.dll: sechost.dll
 req.irql: 
 targetos: Windows
@@ -72,7 +72,6 @@ On input, specifies the size, in <b>TCHAR</b>s, of the <i>lpName</i> buffer. If 
 A pointer to a buffer that receives a <b>null</b>-terminated string that contains the name of the domain where the account name was found.
 
 On a server, the domain name returned for most accounts in the security database of the local computer is the name of the domain for which the server is a domain controller.
-						
 
 On a workstation, the domain name returned for most accounts in the security database of the local computer is the name of the computer as of the last start of the system (backslashes are excluded). If the name of the computer changes, the old name continues to be returned as the domain name until the system is restarted.
 
@@ -97,10 +96,6 @@ If the function fails, it returns zero. To get extended error information, call
 ## -remarks
 
 This function is similar to <a href="/windows/desktop/api/winbase/nf-winbase-lookupaccountsida">LookupAccountSid</a>, but restricts the search to the local machine.
-
-
-
-
 
 > [!NOTE]
 > The winbase.h header defines LookupAccountSidLocal as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
