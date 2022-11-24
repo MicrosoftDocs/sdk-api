@@ -23,7 +23,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Advapi32.lib
-req.dll: Advapi32.dll
+req.dll: sechost.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -40,16 +40,13 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - Advapi32.dll
+ - sechost.dll
  - api-ms-win-security-lsalookup-l1-1-0.dll
 api_name:
  - LookupAccountSidLocal
  - LookupAccountSidLocalA
  - LookupAccountSidLocalW
 ---
-
-# LookupAccountSidLocalW function
-
 
 ## -description
 
