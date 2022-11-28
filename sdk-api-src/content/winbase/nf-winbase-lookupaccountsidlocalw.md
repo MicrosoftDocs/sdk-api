@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.LookupAccountSidLocalW
-title: LookupAccountSidLocalW function (winbase.h)
+title: LookupAccountSidLocalW macro (winbase.h)
 description: Retrieves the name of the account for the specified SID on the local machine. (Unicode)
 helpviewer_keywords: ["LookupAccountSidLocal","LookupAccountSidLocal function [Security]","LookupAccountSidLocalA","LookupAccountSidLocalW","security.lookupaccountsidlocal","winbase/LookupAccountSidLocal","winbase/LookupAccountSidLocalA","winbase/LookupAccountSidLocalW"]
 old-location: security\lookupaccountsidlocal.htm
 tech.root: security
 ms.assetid: B039FFD7-B483-4CC0-B606-FAA5003DA238
-ms.date: 12/05/2018
+ms.date: 11/28/2022
 ms.keywords: LookupAccountSidLocal, LookupAccountSidLocal function [Security], LookupAccountSidLocalA, LookupAccountSidLocalW, security.lookupaccountsidlocal, winbase/LookupAccountSidLocal, winbase/LookupAccountSidLocalA, winbase/LookupAccountSidLocalW
 req.header: winbase.h
 req.include-header: Windows.h
@@ -23,7 +23,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: 
-req.dll: sechost.dll
+req.dll: 
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the name of the account for the specified SID on the local machine.
+**LookupAccountSidLocalW** is defined as a macro that calls [LookupAccountSidW](nf-winbase-lookupaccountsidw.md) with `NULL` as the first parameter. Retrieves the name of the account for the specified SID on the local machine.
 
 ## -parameters
 
