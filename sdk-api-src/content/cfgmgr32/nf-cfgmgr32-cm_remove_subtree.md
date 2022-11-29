@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Remove_SubTree
-tech.root: 
+tech.root: devinst
 title: CM_Remove_SubTree
 ms.date: 
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Hardware_Profile_InfoW
-tech.root: 
+tech.root: devinst
 title: CM_Get_Hardware_Profile_InfoW
 ms.date: 
 targetos: Windows

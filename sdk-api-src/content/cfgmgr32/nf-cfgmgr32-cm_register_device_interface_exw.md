@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Register_Device_Interface_ExW
-tech.root: 
+tech.root: devinst
 title: CM_Register_Device_Interface_ExW
 ms.date: 
 targetos: Windows

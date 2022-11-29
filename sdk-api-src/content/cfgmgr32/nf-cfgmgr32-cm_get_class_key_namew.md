@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Class_Key_NameW
-tech.root: 
+tech.root: devinst
 title: CM_Get_Class_Key_NameW
 ms.date: 
 targetos: Windows

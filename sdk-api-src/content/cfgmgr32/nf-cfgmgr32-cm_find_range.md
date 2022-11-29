@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Find_Range
-tech.root: 
+tech.root: devinst
 title: CM_Find_Range
 ms.date: 
 targetos: Windows

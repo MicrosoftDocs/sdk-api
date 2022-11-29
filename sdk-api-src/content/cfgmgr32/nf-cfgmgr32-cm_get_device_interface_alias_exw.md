@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_Interface_Alias_ExW
-tech.root: 
+tech.root: devinst
 title: CM_Get_Device_Interface_Alias_ExW
 ms.date: 
 targetos: Windows

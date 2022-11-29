@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Run_Detection
-tech.root: 
+tech.root: devinst
 title: CM_Run_Detection
 ms.date: 
 targetos: Windows

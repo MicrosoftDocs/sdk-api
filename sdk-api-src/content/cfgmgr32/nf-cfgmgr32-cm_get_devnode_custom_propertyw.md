@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_DevNode_Custom_PropertyW
-tech.root: 
+tech.root: devinst
 title: CM_Get_DevNode_Custom_PropertyW
 ms.date: 
 targetos: Windows

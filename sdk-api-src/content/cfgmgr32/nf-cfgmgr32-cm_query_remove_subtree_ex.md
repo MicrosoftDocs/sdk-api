@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Query_Remove_SubTree_Ex
-tech.root: 
+tech.root: devinst
 title: CM_Query_Remove_SubTree_Ex
 ms.date: 
 targetos: Windows

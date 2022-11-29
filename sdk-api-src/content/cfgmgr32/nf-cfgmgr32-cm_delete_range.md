@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Delete_Range
-tech.root: 
+tech.root: devinst
 title: CM_Delete_Range
 ms.date: 
 targetos: Windows

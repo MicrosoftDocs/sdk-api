@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Detect_Resource_Conflict
-tech.root: 
+tech.root: devinst
 title: CM_Detect_Resource_Conflict
 ms.date: 
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Query_Arbitrator_Free_Size
-tech.root: 
+tech.root: devinst
 title: CM_Query_Arbitrator_Free_Size
 ms.date: 
 targetos: Windows

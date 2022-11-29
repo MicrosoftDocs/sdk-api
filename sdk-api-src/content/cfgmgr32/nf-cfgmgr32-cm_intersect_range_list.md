@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Intersect_Range_List
-tech.root: 
+tech.root: devinst
 title: CM_Intersect_Range_List
 ms.date: 
 targetos: Windows

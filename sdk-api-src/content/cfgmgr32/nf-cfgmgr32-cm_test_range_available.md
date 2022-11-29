@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Test_Range_Available
-tech.root: 
+tech.root: devinst
 title: CM_Test_Range_Available
 ms.date: 
 targetos: Windows

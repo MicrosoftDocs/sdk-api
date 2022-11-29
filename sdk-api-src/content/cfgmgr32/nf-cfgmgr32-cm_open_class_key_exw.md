@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Open_Class_Key_ExW
-tech.root: 
+tech.root: devinst
 title: CM_Open_Class_Key_ExW
 ms.date: 
 targetos: Windows

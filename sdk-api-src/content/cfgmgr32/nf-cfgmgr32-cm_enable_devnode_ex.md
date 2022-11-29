@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Enable_DevNode_Ex
-tech.root: 
+tech.root: devinst
 title: CM_Enable_DevNode_Ex
 ms.date: 
 targetos: Windows

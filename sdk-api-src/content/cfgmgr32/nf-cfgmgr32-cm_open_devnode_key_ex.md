@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Open_DevNode_Key_Ex
-tech.root: 
+tech.root: devinst
 title: CM_Open_DevNode_Key_Ex
 ms.date: 
 targetos: Windows

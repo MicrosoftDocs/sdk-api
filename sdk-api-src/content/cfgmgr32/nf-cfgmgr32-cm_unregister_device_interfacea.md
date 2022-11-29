@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Unregister_Device_InterfaceA
-tech.root: 
+tech.root: devinst
 title: CM_Unregister_Device_InterfaceA
 ms.date: 
 targetos: Windows

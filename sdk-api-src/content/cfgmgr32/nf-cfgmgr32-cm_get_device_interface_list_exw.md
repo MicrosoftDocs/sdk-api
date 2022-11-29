@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_Interface_List_ExW
-tech.root: 
+tech.root: devinst
 title: CM_Get_Device_Interface_List_ExW
 ms.date: 
 targetos: Windows

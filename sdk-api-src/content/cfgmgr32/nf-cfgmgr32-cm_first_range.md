@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_First_Range
-tech.root: 
+tech.root: devinst
 title: CM_First_Range
 ms.date: 
 targetos: Windows

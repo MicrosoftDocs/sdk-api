@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Global_State
-tech.root: 
+tech.root: devinst
 title: CM_Get_Global_State
 ms.date: 
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Move_DevNode
-tech.root: 
+tech.root: devinst
 title: CM_Move_DevNode
 ms.date: 
 targetos: Windows

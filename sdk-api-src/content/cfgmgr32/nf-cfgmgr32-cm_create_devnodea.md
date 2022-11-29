@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Create_DevNodeA
-tech.root: 
+tech.root: devinst
 title: CM_Create_DevNodeA
 ms.date: 
 targetos: Windows

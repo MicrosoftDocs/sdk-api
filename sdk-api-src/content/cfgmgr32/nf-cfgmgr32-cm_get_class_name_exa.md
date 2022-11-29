@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Class_Name_ExA
-tech.root: 
+tech.root: devinst
 title: CM_Get_Class_Name_ExA
 ms.date: 
 targetos: Windows

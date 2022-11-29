@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Set_HW_Prof_Flags_ExW
-tech.root: 
+tech.root: devinst
 title: CM_Set_HW_Prof_Flags_ExW
 ms.date: 
 targetos: Windows

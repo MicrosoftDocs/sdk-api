@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Register_Device_Driver
-tech.root: 
+tech.root: devinst
 title: CM_Register_Device_Driver
 ms.date: 
 targetos: Windows

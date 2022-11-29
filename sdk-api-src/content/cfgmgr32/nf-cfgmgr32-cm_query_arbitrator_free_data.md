@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Query_Arbitrator_Free_Data
-tech.root: 
+tech.root: devinst
 title: CM_Query_Arbitrator_Free_Data
 ms.date: 
 targetos: Windows
