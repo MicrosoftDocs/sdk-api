@@ -6,7 +6,7 @@ helpviewer_keywords: ["DiInstallDriver","DiInstallDriver function [Device and Dr
 old-location: devinst\diinstalldriver.htm
 tech.root: devinst
 ms.assetid: 7015d05f-235e-42d1-b4e1-9919bbebf185
-ms.date: 11/16/2022
+ms.date: 11/29/2022
 ms.keywords: DiInstallDriver, DiInstallDriver function [Device and Driver Installation], DiInstallDriverA, DiInstallDriverW, devinst.diinstalldriver, di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml, newdev/DiInstallDriver
 req.header: newdev.h
 req.include-header: Newdev.h
@@ -66,7 +66,7 @@ A pointer to a NULL-terminated string that supplies the fully qualified path of 
 
 ### -param Flags [in]
 
-A value of type DWORD that specifies zero or a combination of one or more of the following flags. Typically, *Flags* should be set to zero. 
+A value of type DWORD that specifies zero or a combination of one or more flags as described here (*Flags* is typically set to zero). 
 
 If *Flags* is zero, <b>DiInstallDriver</b> only installs the specified driver on a device if the driver is a better match for a device than the driver that is currently installed on a device. For information about how Windows selects a driver for a device, see <a href="/windows-hardware/drivers/install/how-setup-selects-drivers">How Windows Selects Drivers</a>.
 
