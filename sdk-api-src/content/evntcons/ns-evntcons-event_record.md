@@ -49,8 +49,7 @@ api_name:
  - EVENT_RECORD
 ---
 
-# EVENT_RECORD structure
-
+# EVENT_RECORD structure (evntcons.h)
 
 ## -description
 

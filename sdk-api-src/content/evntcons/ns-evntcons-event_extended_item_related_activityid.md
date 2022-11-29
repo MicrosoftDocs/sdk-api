@@ -49,8 +49,7 @@ api_name:
  - EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID
 ---
 
-# EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID structure
-
+# EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID structure (evntcons.h)
 
 ## -description
 

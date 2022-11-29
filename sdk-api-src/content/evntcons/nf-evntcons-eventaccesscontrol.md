@@ -27,6 +27,7 @@ req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012; Advapi32.dll on W
 req.irql: 
 targetos: Windows
 req.typenames: 
+targetos: Windows
 req.redist: 
 ms.custom: 19H1
 f1_keywords:
@@ -49,7 +50,7 @@ api_name:
  - EventAccessControl
 ---
 
-# EventAccessControl function
+# EventAccessControl function (evntcons.h)
 
 
 ## -description

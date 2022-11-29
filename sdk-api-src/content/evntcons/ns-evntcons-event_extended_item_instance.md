@@ -49,8 +49,7 @@ api_name:
  - EVENT_EXTENDED_ITEM_INSTANCE
 ---
 
-# EVENT_EXTENDED_ITEM_INSTANCE structure
-
+# EVENT_EXTENDED_ITEM_INSTANCE structure (evntcons.h)
 
 ## -description
 
