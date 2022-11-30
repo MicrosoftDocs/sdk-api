@@ -500,6 +500,8 @@ configuration events on Windows Server 2003 or later.
 
 ### -field DUMMYUNIONNAME
 
+Not used.
+
 ### -field DUMMYUNIONNAME.AgeLimit
 
 Not used.
@@ -597,19 +599,22 @@ should make sure your session names are unique.
 
 ### -field DUMMYUNIONNAME2
 
+Not used.
+
 ### -field DUMMYUNIONNAME2.DUMMYSTRUCTNAME
+
+Not used.
 
 ### -field DUMMYUNIONNAME2.DUMMYSTRUCTNAME.VersionNumber
 
 The version of the structure. This should be set to "2".
 
 > [!Note]
-> This field and all subsequent fields will only be recognized if the
-> Wnode.Flags field includes the `WNODE_FLAG_VERSIONED_PROPERTIES` flag and the
-> underlying ETW runtime recognizes the new structure version (**Windows 10
-> version 1703** and later).
+> This field and all subsequent fields will only be recognized if the Wnode.Flags field includes the `WNODE_FLAG_VERSIONED_PROPERTIES` flag and the underlying ETW runtime recognizes the new structure version (**Windows 10 version 1703** and later).
 
 ### -field DUMMYUNIONNAME2.V2Control
+
+Not used.
 
 ### -field FilterDescCount
 
@@ -634,13 +639,31 @@ This should be NULL unless configuring a system-wide private logger.
 
 ### -field DUMMYUNIONNAME3
 
+Not used.
+
 ### -field DUMMYUNIONNAME3.DUMMYSTRUCTNAME
+
+Not used.
 
 ### -field DUMMYUNIONNAME3.DUMMYSTRUCTNAME.Wow
 
+Not used.
+
 ### -field DUMMYUNIONNAME3.DUMMYSTRUCTNAME.QpcDeltaTracking
 
+Not used.
+
 ### -field DUMMYUNIONNAME3.V2Options
+
+Not used.
+
+### -field DUMMYUNIONNAME3.LargeMdlPages
+
+Not used.
+
+### -field DUMMYUNIONNAME3.ExcludeKernelStack
+
+Not used.
 
 ## -remarks
 

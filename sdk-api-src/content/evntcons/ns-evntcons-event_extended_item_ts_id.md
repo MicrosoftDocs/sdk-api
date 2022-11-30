@@ -49,8 +49,7 @@ api_name:
  - EVENT_EXTENDED_ITEM_TS_ID
 ---
 
-# EVENT_EXTENDED_ITEM_TS_ID structure
-
+# EVENT_EXTENDED_ITEM_TS_ID structure (evntcons.h)
 
 ## -description
 
