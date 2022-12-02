@@ -97,7 +97,7 @@ A pointer orientation, with a value between 0 and 359, where 0 indicates a touch
 This field defaults to 0 if the device does not report orientation.
 
 > [!NOTE]
-> Some touchscreen devices that support orientation might only report half-range 0-180 vs full range 0-359.
+> Some touchscreen devices that support orientation will only report half-range (0-180°) values, while other devices will only report full-range (0-359°) values.
 
 ### -field pressure
 
