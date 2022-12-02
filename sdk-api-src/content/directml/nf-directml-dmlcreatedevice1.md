@@ -93,8 +93,6 @@ If the function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [HRES
 
 If this version of DirectML doesn't support the *minimumFeatureLevel* requested, then this function will return **DXGI_ERROR_UNSUPPORTED**.
 
-The Graphics Tools Feature on Demand (FOD) must be installed in order to use the DirectML debug layers. If the [DML_CREATE_DEVICE_FLAG_DEBUG](/windows/win32/api/directml/ne-directml-dml_create_device_flags) flag is specified in *flags* and the debug layers are not installed, then **DMLCreateDevice1** returns **DXGI_ERROR_SDK_COMPONENT_MISSING**.
-
 ## -remarks
 
 A newer version of this function, [DMLCreateDevice1](/windows/win32/api/directml/nf-directml-dmlcreatedevice1), was introduced in DirectML version 1.1.0. **DMLCreateDevice1** is equivalent to calling **DMLCreateDevice1** and supplying a *minimumFeatureLevel* of [DML_FEATURE_LEVEL_1_0](/windows/win32/api/directml/ne-directml-dml_feature_level).

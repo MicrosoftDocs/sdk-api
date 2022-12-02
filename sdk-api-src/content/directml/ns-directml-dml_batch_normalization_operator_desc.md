@@ -6,7 +6,7 @@ helpviewer_keywords: ["DML_BATCH_NORMALIZATION_OPERATOR_DESC","DML_BATCH_NORMALI
 old-location: direct3d12\dml_batch_normalization_operator_desc.htm
 tech.root: directml
 ms.assetid: 6589B3EF-1DB9-4E52-B0D2-31C94A725F07
-ms.date: 08/12/2022
+ms.date: 11/30/2022
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -104,7 +104,7 @@ The epsilon value to use to avoid division by zero.
 
 Type: \_Maybenull\_ **const [DML_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_operator_desc)\***
 
-An optional fused activation layer to apply after the normalization.
+An optional fused activation layer to apply after the normalization. For more info, see [Using fused operators for improved performance](/windows/ai/directml/dml-fused-activations).
 
 ## Availability
 This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
