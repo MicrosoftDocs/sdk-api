@@ -2,7 +2,7 @@
 UID: NS:hbaapi.HBA_RSCN_EventInfo
 tech.root: hba
 title: HBA_RSCN_EVENTINFO
-ms.date: 
+ms.date: 08/02/2022
 targetos: Windows
 description: 
 prerelease: false

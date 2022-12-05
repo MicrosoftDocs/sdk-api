@@ -49,8 +49,7 @@ api_name:
  - EVENT_EXTENDED_ITEM_STACK_TRACE32
 ---
 
-# EVENT_EXTENDED_ITEM_STACK_TRACE32 structure
-
+# EVENT_EXTENDED_ITEM_STACK_TRACE32 structure (evntcons.h)
 
 ## -description
 

@@ -73,7 +73,7 @@ A pointer to the <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-auto_s
 
 ### -param pptNow [in]
 
-Type: <b>const <a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b>const <a href="/windows/win32/api/windef/ns-windef-point">POINT</a>*</b>
 
 A pointer to the current scroll coordinates.
 

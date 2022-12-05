@@ -4,7 +4,7 @@ title: CreateProcessAsUserA function (processthreadsapi.h)
 description: Creates a new process and its primary thread. The new process runs in the security context of the user represented by the specified token. (ANSI)
 helpviewer_keywords: ["CreateProcessAsUser","CreateProcessAsUser function","CreateProcessAsUserA","CreateProcessAsUserW","_win32_createprocessasuser","base.createprocessasuser","processthreadsapi/CreateProcessAsUser","processthreadsapi/CreateProcessAsUserA","processthreadsapi/CreateProcessAsUserW"]
 old-location: base\createprocessasuser.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 6b3f4dd9-500b-420e-804a-401a9e188be8
 ms.date: 12/05/2018
 ms.keywords: CreateProcessAsUser, CreateProcessAsUser function, CreateProcessAsUserA, CreateProcessAsUserW, _win32_createprocessasuser, base.createprocessasuser, processthreadsapi/CreateProcessAsUser, processthreadsapi/CreateProcessAsUserA, processthreadsapi/CreateProcessAsUserW

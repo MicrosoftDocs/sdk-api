@@ -2,7 +2,7 @@
 UID: NF:hbaapi.SMHBA_ScsiReadCapacity
 tech.root: hba
 title: SMHBA_ScsiReadCapacity
-ms.date: 
+ms.date: 08/02/2022
 targetos: Windows
 description: 
 prerelease: false

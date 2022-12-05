@@ -3,7 +3,7 @@ UID: NS:directml.DML_ACTIVATION_SHRINK_OPERATOR_DESC
 title: DML_ACTIVATION_SHRINK_OPERATOR_DESC
 description: Performs the shrink activation function on every element in *InputTensor*, placing the result into the corresponding element of *OutputTensor*.
 tech.root: directml
-ms.date: 10/28/2020
+ms.date: 12/01/2022
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -83,6 +83,12 @@ This operator was introduced in `DML_FEATURE_LEVEL_2_0`.
 *InputTensor* and *OutputTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_5_1 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+
 ### DML_FEATURE_LEVEL_3_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |

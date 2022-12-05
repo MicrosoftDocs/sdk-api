@@ -62,7 +62,7 @@ A handle to the window whose transform is used for the conversion.
 
 ### -param lpPoint [in, out]
 
-A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that specifies the logical coordinates to be converted. The new physical coordinates are copied into this structure if the function succeeds.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that specifies the logical coordinates to be converted. The new physical coordinates are copied into this structure if the function succeeds.
 
 ## -returns
 

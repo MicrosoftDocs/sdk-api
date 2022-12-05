@@ -4,7 +4,7 @@ title: GetThreadTimes function (processthreadsapi.h)
 description: Retrieves timing information for the specified thread.
 helpviewer_keywords: ["GetThreadTimes","GetThreadTimes function","_win32_getthreadtimes","base.getthreadtimes","processthreadsapi/GetThreadTimes","winbase/GetThreadTimes"]
 old-location: base\getthreadtimes.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: eb61aa05-15d8-4251-947a-54df8433b858
 ms.date: 12/05/2018
 ms.keywords: GetThreadTimes, GetThreadTimes function, _win32_getthreadtimes, base.getthreadtimes, processthreadsapi/GetThreadTimes, winbase/GetThreadTimes

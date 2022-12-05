@@ -49,8 +49,7 @@ api_name:
  - EVENT_HEADER
 ---
 
-# EVENT_HEADER structure
-
+# EVENT_HEADER structure (evntcons.h)
 
 ## -description
 

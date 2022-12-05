@@ -148,7 +148,7 @@ As noted above, if <i>hSection</i> is <b>NULL</b>, the system allocates memory f
 
 You cannot paste a DIB section from one application into another application.
 
-<b>CreateDIBSection</b> does not use the <a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> parameters <i>biXPelsPerMeter</i> or <i>biYPelsPerMeter</i> and will not provide resolution information in the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure.
+<b>CreateDIBSection</b> does not use the <a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> parameters <i>biXPelsPerMeter</i> or <i>biYPelsPerMeter</i> and will not provide resolution information in the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure.
 
 You need to guarantee that the GDI subsystem has completed any drawing to a bitmap created by <b>CreateDIBSection</b> before you draw to the bitmap yourself. Access to the bitmap must be synchronized. Do this by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-gdiflush">GdiFlush</a> function. This applies to any use of the pointer to the bitmap bit values, including passing the pointer in calls to functions such as <a href="/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a>.
 

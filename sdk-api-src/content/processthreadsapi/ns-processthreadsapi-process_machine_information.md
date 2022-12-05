@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# PROCESS_MACHINE_INFORMATION structure
+
 ## -description
 
 Specifies the architecture of a process and if that architecture of code can run in user mode, kernel mode, and/or under WoW64 on the host operating system.

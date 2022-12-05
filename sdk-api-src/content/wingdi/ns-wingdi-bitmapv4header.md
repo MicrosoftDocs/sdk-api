@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>BITMAPV4HEADER</b> structure is the bitmap information header file. It is an extended version of the <a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure.
+The <b>BITMAPV4HEADER</b> structure is the bitmap information header file. It is an extended version of the <a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure.
 
 Applications can use the 
         <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapv5header">BITMAPV5HEADER</a> structure for added functionality.
@@ -248,7 +248,7 @@ The <b>BITMAPV4HEADER</b> structure is extended to allow a JPEG or PNG image to 
 
 
 
-<a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a>
 
 
 

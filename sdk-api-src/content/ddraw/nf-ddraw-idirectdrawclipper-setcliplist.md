@@ -84,7 +84,7 @@ You cannot set the clip list if a window handle is already associated with the D
 
 The <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-bltfast">IDirectDrawSurface7::BltFast</a> method cannot clip. If you call <b>IDirectDrawSurface7::BltFast</b> on a surface with an attached clipper, it returns DDERR_UNSUPPORTED.
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetClipList</b> method.
+
 
 ## -see-also
 

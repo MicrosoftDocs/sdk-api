@@ -1,49 +1,52 @@
 ---
-UID: NS:processthreadsapi._APC_CALLBACK_DATA
-tech.root: 
-title: APC_CALLBACK_DATA
+UID: NE:processthreadsapi._APC_CALLBACK_DATA
+title: APC_CALLBACK_DATA (processthreadsapi.h)
 description: The APC_CALLBACK_DATA structure (processthreadsapi.h) specifies the data for a user-mode asynchronous procedure call (APC) object.
-ms.date: 08/05/2022
-targetos: Windows
-description: 
-prerelease: false
-req.construct-type: structure
-req.ddi-compliance: 
-req.dll: 
+tech.root: processthreadsapi
+ms.date: 10/31/2022
+helpviewer_keywords: ["APC_CALLBACK_DATA"]
+ms.keywords: 'APC_CALLBACK_DATA'
 req.header: processthreadsapi.h
-req.include-header: 
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Build 22000
+req.target-min-winversvr: Windows Build 22000
 req.kmdf-ver: 
-req.lib: 
-req.max-support: 
-req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.target-type: 
-req.typenames: APC_CALLBACK_DATA, *PAPC_CALLBACK_DATA
 req.umdf-ver: 
+req.ddi-compliance: 
 req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+targetos: Windows
+req.typenames: APC_CALLBACK_DATA
+req.redist: 
+ms.custom: 19H1
+f1_keywords:
+ - _APC_CALLBACK_DATA
+ - processthreadsapi/_APC_CALLBACK_DATA
+ - APC_CALLBACK_DATA
+ - processthreadsapi/APC_CALLBACK_DATA
+dev_langs:
+ - c++
 topic_type:
- - apiref
+ - APIRef
+ - kbSyntax
 api_type:
  - HeaderDef
 api_location:
  - processthreadsapi.h
 api_name:
- - _APC_CALLBACK_DATA
- - PAPC_CALLBACK_DATA
  - APC_CALLBACK_DATA
-f1_keywords:
- - _APC_CALLBACK_DATA
- - processthreadsapi/_APC_CALLBACK_DATA
- - PAPC_CALLBACK_DATA
- - processthreadsapi/PAPC_CALLBACK_DATA
- - APC_CALLBACK_DATA
- - processthreadsapi/APC_CALLBACK_DATA
-dev_langs:
- - c++
-helpviewer_keywords:
- - _APC_CALLBACK_DATA
 ---
+
+
+# APC_CALLBACK_DATA structure
 
 ## -description
 

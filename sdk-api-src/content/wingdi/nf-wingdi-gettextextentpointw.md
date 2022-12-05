@@ -78,7 +78,7 @@ The <a href="/windows/desktop/gdi/specifying-length-of-text-output-string">lengt
 
 ### -param lpsz [out]
 
-A pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that receives the dimensions of the string, in logical units.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure that receives the dimensions of the string, in logical units.
 
 ## -returns
 
@@ -115,7 +115,7 @@ The calculated string width takes into account the intercharacter spacing set by
 
 
 
-<a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>
+<a href="/windows/win32/api/windef/ns-windef-size">SIZE</a>
 
 
 

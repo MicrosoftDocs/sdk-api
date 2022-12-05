@@ -4,7 +4,7 @@ title: InitializeProcThreadAttributeList function (processthreadsapi.h)
 description: Initializes the specified list of attributes for process and thread creation.
 helpviewer_keywords: ["InitializeProcThreadAttributeList","InitializeProcThreadAttributeList function","base.initializeprocthreadattributelist","processthreadsapi/InitializeProcThreadAttributeList","winbase/InitializeProcThreadAttributeList"]
 old-location: base\initializeprocthreadattributelist.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 58ce70a1-5b73-429f-a062-bacd9b9c5bc8
 ms.date: 12/05/2018
 ms.keywords: InitializeProcThreadAttributeList, InitializeProcThreadAttributeList function, base.initializeprocthreadattributelist, processthreadsapi/InitializeProcThreadAttributeList, winbase/InitializeProcThreadAttributeList

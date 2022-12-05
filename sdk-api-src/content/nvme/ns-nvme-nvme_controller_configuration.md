@@ -2,7 +2,7 @@
 UID: NS:nvme.__unnamed_union_2
 tech.root: fs 
 title: NVME_CONTROLLER_CONFIGURATION
-ms.date: 02/19/2021 
+ms.date: 08/09/2022
 ms.topic: language-reference
 targetos: Windows
 description: Contains read/write configuration settings for the controller.
@@ -45,11 +45,11 @@ dev_langs:
 
 Contains read/write configuration settings for the controller.
 
-The host software sets the following fields to valid values prior to enabling the controller by setting the [Enable **EN**](#-field-dummystructname.en) field value to `1`:
+The host software sets the following fields to valid values prior to enabling the controller by setting the [Enable **EN**](#field-dummystructname.en) field value to `1`:
 
-- [Arbitration Mechanism **AMS**](#-field-dummystructname.ams)
-- [Memory Page Size **MPS**](#-field-dummystructname.mps)
-- [Command Set **CSS**](#-field-dummystructname.css)
+- [Arbitration Mechanism **AMS**](#field-dummystructname.ams)
+- [Memory Page Size **MPS**](#field-dummystructname.mps)
+- [Command Set **CSS**](#field-Sdummystructname.css)
 
 This structure is used in the Controller Capabilities (**CC**) field of the [NVME_CONTROLLER_REGISTERS](ns-nvme-nvme_controller_registers.md) structure.
 

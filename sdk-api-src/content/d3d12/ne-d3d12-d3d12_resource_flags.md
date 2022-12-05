@@ -140,6 +140,9 @@ Specfies that this resource may be used only as an encode reference frame. It ma
 
 Reserved for future use. Don't use.
 
+Requires the DirectX 12 Agility SDK 1.7 or later. Indicates that a buffer is to be used as a raytracing acceleration structure.
+
+
 ## -remarks
 
 This enum is used by the *Flags* member of the [D3D12_RESOURCE_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_desc).

@@ -2,7 +2,7 @@
 UID: NF:hbaapi.HBA_SendRNID
 tech.root: hba
 title: HBA_SendRNID
-ms.date: 
+ms.date: 08/02/2022
 targetos: Windows
 description: 
 prerelease: false

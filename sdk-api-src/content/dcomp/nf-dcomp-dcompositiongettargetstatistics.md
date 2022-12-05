@@ -29,8 +29,6 @@ api_type:
  - DllExport
 api_location:
  - dcomp.dll
-api_location:
- - dcomp.h
 api_name:
  - DCompositionGetTargetStatistics
 f1_keywords:

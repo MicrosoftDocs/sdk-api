@@ -4,7 +4,7 @@ title: SuspendThread function (processthreadsapi.h)
 description: Suspends the specified thread.
 helpviewer_keywords: ["SuspendThread","SuspendThread function","_win32_suspendthread","base.suspendthread","processthreadsapi/SuspendThread","winbase/SuspendThread"]
 old-location: base\suspendthread.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 1332abcb-3356-4890-a03c-843358c1a3ce
 ms.date: 12/05/2018
 ms.keywords: SuspendThread, SuspendThread function, _win32_suspendthread, base.suspendthread, processthreadsapi/SuspendThread, winbase/SuspendThread

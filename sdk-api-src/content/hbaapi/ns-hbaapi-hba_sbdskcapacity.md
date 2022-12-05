@@ -2,7 +2,7 @@
 UID: NS:hbaapi.HBA_SBDskCapacity
 tech.root: hba
 title: HBA_SBDSKCAPACITY
-ms.date: 
+ms.date: 08/02/2022
 targetos: Windows
 description: 
 prerelease: false

@@ -78,8 +78,7 @@ api_name:
 
 ## -description
 
-The **OpenTrace** function opens an ETW trace processing handle for consuming
-events from an ETW real-time trace session or an ETW log file.
+The **OpenTrace** function opens an ETW trace processing handle for consuming events from an ETW real-time trace session or an ETW log file.
 
 ## -parameters
 

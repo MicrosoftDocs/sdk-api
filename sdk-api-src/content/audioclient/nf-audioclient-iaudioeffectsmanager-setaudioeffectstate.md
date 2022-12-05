@@ -5,7 +5,6 @@ title: IAudioEffectsManager::SetAudioEffectState
 description: The IAudioEffectsManager::SetAudioEffectState method (audioclient.h) sets the state of the specified audio effect.
 ms.date: 08/16/2022
 targetos: Windows
-description: 
 prerelease: false
 req.assembly: 
 req.construct-type: function

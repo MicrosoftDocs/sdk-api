@@ -4,7 +4,7 @@ title: GetCurrentProcessorNumber function (processthreadsapi.h)
 description: Retrieves the number of the processor the current thread was running on during the call to this function.
 helpviewer_keywords: ["GetCurrentProcessorNumber","GetCurrentProcessorNumber function","base.getcurrentprocessornumber","processthreadsapi/GetCurrentProcessorNumber","winbase/GetCurrentProcessorNumber"]
 old-location: base\getcurrentprocessornumber.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 1f2bebc7-a548-409a-ab74-78a4b55c8fa7
 ms.date: 12/05/2018
 ms.keywords: GetCurrentProcessorNumber, GetCurrentProcessorNumber function, base.getcurrentprocessornumber, processthreadsapi/GetCurrentProcessorNumber, winbase/GetCurrentProcessorNumber

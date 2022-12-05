@@ -2,10 +2,10 @@
 UID: NS:nvme.__unnamed_union_85
 tech.root: fs 
 title: NVME_CDW11_GET_LOG_PAGE
-ms.date: 02/19/2021 
+ms.date: 08/09/2022 
 ms.topic: language-reference
 targetos: Windows
-description: Contains parameters for the Get Log Page command that returns a data buffer containing the requested log page.
+description: The NVME_CDW11_GET_LOG_PAGE structure contains parameters for the Get Log Page command that returns a data buffer containing the requested log page.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

@@ -67,7 +67,7 @@ Retrieves a volume <b>GUID</b> path for the volume that is associated with the s
 
 ### -param lpszVolumeMountPoint [in]
 
-A pointer to a string that contains the path of a mounted folder (for example, "Y:\MountX\") or a drive letter (for example, "X:\"). The string must end with a trailing backslash ('\').
+A pointer to a string that contains the path of a mounted folder (for example, "Y:\MountX\") or a drive letter (for example, "X:\\"). The string must end with a trailing backslash ('\').
 
 ### -param lpszVolumeName [out]
 

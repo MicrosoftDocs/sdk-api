@@ -2,7 +2,7 @@
 UID: NF:hbaapi.HBA_RemoveAllPersistentBindings
 tech.root: hba
 title: HBA_RemoveAllPersistentBindings
-ms.date: 
+ms.date: 08/02/2022
 targetos: Windows
 description: 
 prerelease: false

@@ -4,7 +4,7 @@ title: GetProcessHandleCount function (processthreadsapi.h)
 description: Retrieves the number of open handles that belong to the specified process.
 helpviewer_keywords: ["GetProcessHandleCount","GetProcessHandleCount function","base.getprocesshandlecount","processthreadsapi/GetProcessHandleCount","winbase/GetProcessHandleCount"]
 old-location: base\getprocesshandlecount.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: bb8cf86b-00b8-4a64-90f8-66ac6dbf9dee
 ms.date: 12/05/2018
 ms.keywords: GetProcessHandleCount, GetProcessHandleCount function, base.getprocesshandlecount, processthreadsapi/GetProcessHandleCount, winbase/GetProcessHandleCount

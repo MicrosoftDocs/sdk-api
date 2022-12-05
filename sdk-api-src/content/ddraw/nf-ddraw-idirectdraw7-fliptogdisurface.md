@@ -76,7 +76,7 @@ You can also use  <b>FlipToGDISurface</b> to make the GDI surface the primary su
 
 <b>FlipToGDISurface</b> disables stereo autoflipping.
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>FlipToGDISurface</b> method.
+
 
 ## -see-also
 

@@ -83,7 +83,7 @@ Position style. This member can be one of the following values.
 
 ### -field ptCurrentPos
 
-A <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure containing the coordinates of the upper left corner of the candidate window or the caret position, depending on the value of <b>dwStyle</b>.
+A <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure containing the coordinates of the upper left corner of the candidate window or the caret position, depending on the value of <b>dwStyle</b>.
 
 ### -field rcArea
 

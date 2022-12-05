@@ -5,7 +5,6 @@ title: D3D12_VIDEO_ENCODER_SEQUENCE_CONTROL_DESC
 description: The D3D12_VIDEO_ENCODER_SEQUENCE_CONTROL_DESC represents parameters for the input of the video encoding operation at a sequence level.
 ms.date: 08/16/2022
 targetos: Windows
-description: 
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

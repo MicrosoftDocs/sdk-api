@@ -176,7 +176,7 @@ For an example, see <a href="/windows/desktop/menurc/using-icons">Sharing Icon R
 
 ## -see-also
 
-<a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a>
 
 
 

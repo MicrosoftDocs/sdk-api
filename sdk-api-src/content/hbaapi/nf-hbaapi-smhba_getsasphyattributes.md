@@ -2,7 +2,7 @@
 UID: NF:hbaapi.SMHBA_GetSASPhyAttributes
 tech.root: hba
 title: SMHBA_GetSASPhyAttributes
-ms.date: 
+ms.date: 08/02/2022
 targetos: Windows
 description: 
 prerelease: false

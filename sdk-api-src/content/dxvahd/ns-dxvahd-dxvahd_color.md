@@ -1,7 +1,7 @@
 ---
 UID: NS:dxvahd._DXVAHD_COLOR
 title: DXVAHD_COLOR
-ms.date: 
+ms.date: 10/20/2021
 targetos: Windows
 description: Defines a color value for DXVA-HD.
 helpviewer_keywords: ["DXVAHD_COLOR", "dxvahd/DXVAHD_COLOR"]

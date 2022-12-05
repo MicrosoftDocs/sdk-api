@@ -60,7 +60,7 @@ Handle to the input context.
 
 ### -param lpptPos [out]
 
-Pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure in which the function retrieves the position coordinates. These are screen coordinates, relative to the upper left corner of the screen.
+Pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure in which the function retrieves the position coordinates. These are screen coordinates, relative to the upper left corner of the screen.
 
 ## -returns
 
