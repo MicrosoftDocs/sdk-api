@@ -51,8 +51,7 @@ api_name:
 
 # SCHANNEL_CRED structure
 
-> [!NOTE]
-> The SCHANNEL_CRED structure is deprecated. Client applications should use <a href="../schannel/ns-schannel-sch_credentials.md">SCH_CREDENTIALS</a> instead.
+**NOTE:** The SCHANNEL_CRED structure is deprecated. Client applications should use <a href="../schannel/ns-schannel-sch_credentials.md">SCH_CREDENTIALS</a> instead.
 
 
 ## -description
