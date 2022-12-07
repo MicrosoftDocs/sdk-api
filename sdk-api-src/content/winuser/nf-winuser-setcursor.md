@@ -94,11 +94,13 @@ For an example, see <a href="/windows/desktop/menurc/using-cursors">Displaying a
 
 <b>Conceptual</b>
 
+<a href="/windows/desktop/menurc/cursors">Cursors</a>
+
+<a href="/windows/desktop/menurc/using-cursors#creating-a-cursor">Creating a Cursor</a>
+
 <a href="/windows/desktop/api/winuser/nf-winuser-createcursor">CreateCursor</a>
 
 <a href="/win32/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
-
-<a href="/windows/desktop/menurc/cursors">Cursors</a>
 
 <a href="/windows/desktop/api/winuser/nf-winuser-getcursor">GetCursor</a>
 
