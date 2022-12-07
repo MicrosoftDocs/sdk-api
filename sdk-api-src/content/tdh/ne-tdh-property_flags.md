@@ -95,5 +95,4 @@ Indicates that the <b>Type</b> is described with a custom schema.
 <div> </div>
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a>

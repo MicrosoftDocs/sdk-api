@@ -67,56 +67,12 @@ Type: <b>ULONG</b>
 
 Returns ERROR_SUCCESS if successful. Otherwise, this function returns one of the following return codes in addition to others.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-One or more of the parameters is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_FILE_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-The file pointed to by <i>BinaryPath</i> was not found.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_NOT_ENOUGH_MEMORY </b></dt>
-</dl>
-</td>
-<td width="60%">
-Memory allocations failed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_RESOURCE_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-The file does not contain any eventing metadata resources.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| -- | -- |
+| **ERROR_INVALID_PARAMETER** | One or more of the parameters is not valid. |
+| **ERROR_FILE_NOT_FOUND** | The file pointed to by *BinaryPath* was not found. |
+| **ERROR_NOT_ENOUGH_MEMORY** | Memory allocations failed. |
+| **ERROR_RESOURCE_NOT_FOUND** | The file does not contain any eventing metadata resources. |
 
 ## -remarks
 

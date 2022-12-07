@@ -263,5 +263,4 @@ cleanup:
 ```
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfieldinformation">TdhEnumerateProviderFieldInformation</a>

@@ -13,10 +13,8 @@ f1_keywords:
 
 # Tdh.h header
 
-
 ## -description
 
-This header is used by Event Tracing. For more information, see:
+This trace data helper (TDH) header is used by Event Tracing. For more information, see:
 
 - [Event Tracing](../_etw/index.md)
-
