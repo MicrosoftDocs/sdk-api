@@ -48,8 +48,6 @@ DECLSPEC_XFGVIRT function (eventtoken.h)
 
 ## -description
 
-
-
 ## -parameters
 
 ### -param base
@@ -59,4 +57,3 @@ DECLSPEC_XFGVIRT function (eventtoken.h)
 ## -remarks
 
 ## -see-also
-

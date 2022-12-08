@@ -93,7 +93,6 @@ You can get the task and opcode values from <a href="/windows/desktop/api/evntpr
 WMI MOF class supports retrieving keyword and level information only.
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/ns-tdh-provider_field_infoarray">PROVIDER_FIELD_INFOARRAY</a>
 
 

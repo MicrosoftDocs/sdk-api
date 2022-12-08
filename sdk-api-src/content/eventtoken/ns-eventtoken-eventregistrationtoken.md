@@ -45,7 +45,7 @@ api_name:
  - EventRegistrationToken
 ---
 
-# EventRegistrationToken structure
+# EventRegistrationToken structure (eventtoken.h)
 
 ## -description
 
