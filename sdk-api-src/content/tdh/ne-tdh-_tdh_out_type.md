@@ -1,7 +1,7 @@
 ---
 UID: NE:tdh._TDH_OUT_TYPE
 tech.root: ETW
-title: _TDH_OUT_TYPE (tdh.h)
+title: TDH_OUT_TYPE (tdh.h)
 ms.date: 12/05/2022
 ms.keywords: TDH_OUT_TYPE
 targetos: Windows
