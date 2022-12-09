@@ -141,7 +141,7 @@ Retrieves information about logical processors for all relationship types (cache
 
 ### -param Buffer [out, optional]
 
-A pointer to a buffer that receives  an array of <a href="/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a> structures. If the function fails, the contents of this buffer are undefined.
+A pointer to a buffer that receives a sequence of variable-sized <a href="/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a> structures. If the function fails, the contents of this buffer are undefined.
 
 ### -param ReturnedLength [in, out]
 
