@@ -42,6 +42,7 @@ api_type:
 api_location:
  - combase.dll
  - API-MS-Win-Core-Winrt-l1-1-0.dll
+ - api-ms-win-core-winrt-string-l1-1-0.dll
 api_name:
  - RoGetActivationFactory
  - WinRTGetActivationFactory

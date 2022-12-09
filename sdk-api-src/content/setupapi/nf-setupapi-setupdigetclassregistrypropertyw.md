@@ -38,7 +38,7 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - LibDef
+ - DllExport
 api_location:
  - Setupapi.lib
  - Setupapi.dll
