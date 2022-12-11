@@ -164,7 +164,7 @@ One or more UTF-16 code units were written to the buffer specified by <i>pwszBuf
 
 The input locale identifier is a broader concept than a keyboard layout, since it can also encompass a speech-to-text converter, an Input Method Editor (IME), or any other form of input.
 
-Some keyboard layouts may return ligatures or characters outside Unicode Basic Multilingual Plane - in this case they are encoded as several UTF-16 code units in <i>pwszBuff</i>. If dead key character (accent or diacritic) stored in the keyboard layout could not be combined with the specified virtual key to form a single character then the previous entered dead character can be combined with the current character.
+Some keyboard layouts may return ligatures or characters outside Unicode Basic Multilingual Plane - in this case they are encoded as several UTF-16 code units (or surrogate pairs) in <i>pwszBuff</i>. If dead key character (accent or diacritic) stored in the keyboard layout could not be combined with the specified virtual key to form a single character then the previous entered dead character can be combined with the current character.
 
 The parameters supplied to the <b>ToUnicodeEx</b> function might not be sufficient to translate the virtual-key code because a previous <a href="/windows/win32/inputdev/about-keyboard-input#dead-character-messages">dead key</a> is stored in the keyboard layout.
 
