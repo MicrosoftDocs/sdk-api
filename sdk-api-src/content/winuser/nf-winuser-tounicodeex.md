@@ -78,7 +78,9 @@ The hardware <a href="/windows/win32/inputdev/about-keyboard-input#scan-codes">s
 
 Type: <b>const BYTE*</b>
 
-A pointer to a 256-byte array that contains the current keyboard state. Each element (byte) in the array contains the state of one key. If the high-order bit of a byte is set, the key is down. See <a href="/windows/win32/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a> for more info.
+A pointer to a 256-byte array that contains the current keyboard state. Each element (byte) in the array contains the state of one key. 
+
+If the high-order bit of a byte is set, the key is down. The low bit, if set, indicates that the key is toggled on. In this function, only the toggle bit of the CAPS LOCK key is relevant. The toggle state of the NUM LOCK and SCROLL LOCK keys is ignored. See <a href="/windows/win32/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a> for more info.
 
 ### -param pwszBuff [out]
 
