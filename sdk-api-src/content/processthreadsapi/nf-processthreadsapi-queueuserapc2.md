@@ -70,7 +70,7 @@ A value from [QUEUE_USER_APC_FLAGS enumeration](ne-processthreadsapi-queue_user_
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror). **Windows Server 2003 and Windows XP:** There are no error values defined for this function that can be retrieved by calling [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+If the function fails, the return value is zero. To get extended error information, call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 
