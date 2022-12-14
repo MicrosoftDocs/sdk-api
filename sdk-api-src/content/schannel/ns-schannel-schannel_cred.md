@@ -49,12 +49,10 @@ api_name:
  - SCHANNEL_CRED
 ---
 
-# SCHANNEL_CRED structure
-
-**NOTE:** The SCHANNEL_CRED structure is deprecated. Client applications should use <a href="../schannel/ns-schannel-sch_credentials.md">SCH_CREDENTIALS</a> instead.
-
-
 ## -description
+
+> [!NOTE]
+> The **SCHANNEL_CRED** structure is deprecated. You should use [SCH_CREDENTIALS](../schannel/ns-schannel-sch_credentials.md) instead.
 
 The <b>SCHANNEL_CRED</b> structure contains the data for an Schannel credential.
 
