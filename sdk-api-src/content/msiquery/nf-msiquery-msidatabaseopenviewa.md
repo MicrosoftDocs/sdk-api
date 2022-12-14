@@ -75,7 +75,11 @@ Pointer to a handle for the returned view.
 ## -returns
 
 The 
-<b>MsiDatabaseOpenView</b> function  returns one of the following values:
+<b>MsiDatabaseOpenView</b> function returns one of the following values:
+
+ERROR_SUCCESS if successful, and the view handle which the phView [out] parameter points to is set.
+
+ERROR_INVALID_HANDLE, ERROR_INVALID_HANDLE_STATE, ERROR_BAD_QUERY_SYNTAX or ERROR_GEN_FAILURE if failure, and sets the error record, accessible via MsiGetLastErrorRecord.
 
 ## -remarks
 
