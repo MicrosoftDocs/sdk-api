@@ -82,7 +82,7 @@ The null-terminated prefix string. The function uses up to the first three chara
 An unsigned integer to be used in creating the temporary file name. For more information, see Remarks.
 
 If <i>uUnique</i> is zero, the function attempts to form a unique file name using the 
-       current system time. If the file already exists, the number is increased by one and the functions tests if this 
+       current system time. If the file already exists, the number is increased by one and the function tests if this 
        file already exists. This continues until a unique filename is found; the function creates a file by that name 
        and closes it.  Note that the function does not attempt  to verify the uniqueness of the file name when 
        <i>uUnique</i> is nonzero.
