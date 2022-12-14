@@ -70,10 +70,9 @@ A WS_XML_STRING pointer to the local name used by the qualified name.  It must b
 
 A WS_XML_STRING pointer to the namespace used for the qualified name.
         
-          If no prefix is specified the Writer may use a prefix in scope that is bound to the specified namespace or it
-          may generate a prefix and include an XMLNS attribute.
-        If a prefix is specified the Writer uses that prefix and may include an XMLNS attribute if needed to override
-          an existing prefix in scope.
+If no prefix is specified the Writer may use a prefix in scope that is bound to the specified namespace or it may generate a prefix and include an XMLNS attribute.
+
+If a prefix is specified the Writer uses that prefix and may include an XMLNS attribute if needed to override an existing prefix in scope.
 
 ### -param error [in, optional]
 
@@ -115,14 +114,11 @@ The input data was not in the expected format or did not have the expected value
 ## -remarks
 
 <ul>
-<li>If the prefix is <b>NULL</b>, then the namespace must not be <b>NULL</b>.  In this case the writer will try to find a prefix in scope
-          that is bound to the specified namespace.  If an appropriate prefix is found it will be used.  If not the Writer
-          will generate a prefix and insert an XMLNS attribute on the current element.  If the writer is not in an element, then the
-          function will return <b>WS_E_INVALID_FORMAT</b>.
-          (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)</li>
-<li>If the prefix is not <b>NULL</b> and the namespace is not <b>NULL</b> the Writer will verify that the prefix is currently bound to the
-          specified namespace and will return <b>WS_E_INVALID_FORMAT</b> if not.
-          </li>
+<li>If the prefix is <b>NULL</b>, then the namespace must not be <b>NULL</b>.  In this case the writer will try to find a prefix in scope that is bound to the specified namespace.  If an appropriate prefix is found it will be used.  If not the Writer will generate a prefix and insert an XMLNS attribute on the current element.  If the writer is not in an element, then the function will return <b>WS_E_INVALID_FORMAT</b>.
+
+(See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)</li>
+<li>If the prefix is not <b>NULL</b> and the namespace is not <b>NULL</b> the Writer will verify that the prefix is currently bound to the specified namespace and will return <b>WS_E_INVALID_FORMAT</b> if not.
+</li>
 <li>If the prefix is not <b>NULL</b> and the namespace is <b>NULL</b> the Writer will use the prefix and local name to write the qualified name.
-        </li>
+</li>
 </ul>

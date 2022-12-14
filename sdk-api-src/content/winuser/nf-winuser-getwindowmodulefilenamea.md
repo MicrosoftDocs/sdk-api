@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetWindowModuleFileNameA
 title: GetWindowModuleFileNameA function (winuser.h)
-description: Retrieves the full path and file name of the module associated with the specified window handle.
+description: Retrieves the full path and file name of the module associated with the specified window handle. (ANSI)
 helpviewer_keywords: ["GetWindowModuleFileName","GetWindowModuleFileName function [Windows and Messages]","GetWindowModuleFileNameA","GetWindowModuleFileNameW","_win32_GetWindowModuleFileName","_win32_getwindowmodulefilename_cpp","winmsg.getwindowmodulefilename","winui._win32_getwindowmodulefilename","winuser/GetWindowModuleFileName","winuser/GetWindowModuleFileNameA","winuser/GetWindowModuleFileNameW"]
 old-location: winmsg\getwindowmodulefilename.htm
 tech.root: winmsg

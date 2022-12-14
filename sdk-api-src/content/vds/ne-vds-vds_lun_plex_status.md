@@ -1,12 +1,12 @@
 ---
 UID: NE:vds._VDS_LUN_PLEX_STATUS
 title: VDS_LUN_PLEX_STATUS (vds.h)
-description: Defines the set of object status values for a LUN plex.
+description: The VDS_LUN_PLEX_STATUS (vds.h) enumeration defines the set of object status values for a LUN plex.
 helpviewer_keywords: ["VDS_LPS_FAILED","VDS_LPS_NOT_READY","VDS_LPS_OFFLINE","VDS_LPS_ONLINE","VDS_LPS_UNKNOWN","VDS_LUN_PLEX_STATUS","VDS_LUN_PLEX_STATUS enumeration [VDS]","base.vds_lun_plex_status","vds/VDS_LPS_FAILED","vds/VDS_LPS_NOT_READY","vds/VDS_LPS_OFFLINE","vds/VDS_LPS_ONLINE","vds/VDS_LPS_UNKNOWN","vds/VDS_LUN_PLEX_STATUS","vdshwprv/VDS_LPS_FAILED","vdshwprv/VDS_LPS_NOT_READY","vdshwprv/VDS_LPS_OFFLINE","vdshwprv/VDS_LPS_ONLINE","vdshwprv/VDS_LPS_UNKNOWN","vdshwprv/VDS_LUN_PLEX_STATUS"]
 old-location: base\vds_lun_plex_status.htm
 tech.root: base
 ms.assetid: 04eed033-45b3-42bc-a304-25525cddd085
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_LPS_FAILED, VDS_LPS_NOT_READY, VDS_LPS_OFFLINE, VDS_LPS_ONLINE, VDS_LPS_UNKNOWN, VDS_LUN_PLEX_STATUS, VDS_LUN_PLEX_STATUS enumeration [VDS], base.vds_lun_plex_status, vds/VDS_LPS_FAILED, vds/VDS_LPS_NOT_READY, vds/VDS_LPS_OFFLINE, vds/VDS_LPS_ONLINE, vds/VDS_LPS_UNKNOWN, vds/VDS_LUN_PLEX_STATUS, vdshwprv/VDS_LPS_FAILED, vdshwprv/VDS_LPS_NOT_READY, vdshwprv/VDS_LPS_OFFLINE, vdshwprv/VDS_LPS_ONLINE, vdshwprv/VDS_LPS_UNKNOWN, vdshwprv/VDS_LUN_PLEX_STATUS
 req.header: vds.h
 req.include-header: 
@@ -59,29 +59,29 @@ Defines the set of object status values for a LUN plex.
 
 ## -enum-fields
 
-### -field VDS_LPS_UNKNOWN
+### -field VDS_LPS_UNKNOWN:0
 
 This value is reserved.
 
-### -field VDS_LPS_ONLINE
+### -field VDS_LPS_ONLINE:1
 
 The plex is available.
 
-### -field VDS_LPS_NOT_READY
+### -field VDS_LPS_NOT_READY:2
 
 The plex is busy.
 
-### -field VDS_LPS_OFFLINE
+### -field VDS_LPS_OFFLINE:4
 
 The plex is unavailable.
 
-### -field VDS_LPS_FAILED
+### -field VDS_LPS_FAILED:5
 
 The plex has failed.
 
 ## -remarks
 
-The <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_plex_prop">VDS_LUN_PLEX_PROP</a>structure includes a <b>VDS_LUN_PLEX_STATUS</b> value as a member to indicate the current status of the LUN plex.
+The <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_plex_prop">VDS_LUN_PLEX_PROP</a> structure includes a <b>VDS_LUN_PLEX_STATUS</b> value as a member to indicate the current status of the LUN plex.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_LUN_PLEX_STATUS</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_LUN_PLEX_STATUS</b> enumeration constant.</div>
 <div> </div>

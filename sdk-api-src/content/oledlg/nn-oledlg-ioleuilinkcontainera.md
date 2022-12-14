@@ -1,7 +1,7 @@
 ---
 UID: NN:oledlg.IOleUILinkContainerA
 title: IOleUILinkContainerA (oledlg.h)
-description: Implemented by containers and used by OLE common dialog boxes. It supports these dialog boxes by providing the methods needed to manage a container's links.
+description: Implemented by containers and used by OLE common dialog boxes. It supports these dialog boxes by providing the methods needed to manage a container's links. (ANSI)
 helpviewer_keywords: ["IOleUILinkContainer","IOleUILinkContainer interface [COM]","IOleUILinkContainer interface [COM]","described","IOleUILinkContainerA","IOleUILinkContainerW","_ole_IOleUILinkContainer","com.ioleuilinkcontainer","oledlg/IOleUILinkContainer"]
 old-location: com\ioleuilinkcontainer.htm
 tech.root: com
@@ -57,92 +57,7 @@ The <b>IOleUILinkContainer</b> methods enumerate the links associated with a con
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUILinkContainer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleUILinkContainer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IOleUILinkContainer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-cancellink">CancelLink</a>
-</td>
-<td align="left" width="63%">
-Disconnects the selected links.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-getlinksource">GetLinkSource</a>
-</td>
-<td align="left" width="63%">
-Retrieves information about a link that can be displayed in the <b>Links</b> dialog box.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-getlinkupdateoptions">GetLinkUpdateOptions</a>
-</td>
-<td align="left" width="63%">
-Determines the current update options for the link.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-getnextlink">GetNextLink</a>
-</td>
-<td align="left" width="63%">
-Enumerates the links in a container.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-openlinksource">OpenLinkSource</a>
-</td>
-<td align="left" width="63%">
-Opens the link's source.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-setlinksource">SetLinkSource</a>
-</td>
-<td align="left" width="63%">
-Changes the source of a link.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-setlinkupdateoptions">SetLinkUpdateOptions</a>
-</td>
-<td align="left" width="63%">
-Sets a link's update options to automatic or manual.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-updatelink">UpdateLink</a>
-</td>
-<td align="left" width="63%">
-Forces a link to connect to its source and update.
-
-</td>
-</tr>
-</table>
+The <b>IOleUILinkContainer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleUILinkContainer</b> also has these types of members:
 
 ## -see-also
 

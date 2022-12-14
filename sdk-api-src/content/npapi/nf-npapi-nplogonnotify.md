@@ -6,7 +6,7 @@ helpviewer_keywords: ["NPLogonNotify","NPLogonNotify function [Security]","SvcCt
 old-location: security\nplogonnotify.htm
 tech.root: security
 ms.assetid: 9b0e5646-ac57-4eae-bad7-a16c07b51f4b
-ms.date: 12/05/2018
+ms.date: 09/17/2020
 ms.keywords: NPLogonNotify, NPLogonNotify function [Security], SvcCtl, WinSta_0, _mnp_nplogonnotify, npapi/NPLogonNotify, security.nplogonnotify
 req.header: npapi.h
 req.include-header: 
@@ -48,7 +48,12 @@ api_name:
 # NPLogonNotify function
 
 
+
+
 ## -description
+
+> [!NOTE]
+> This API has been deprecated and will be removed in a future release.
 
 MPR calls this function to notify the credential manager that a logon event has occurred, allowing the credential manager to return a logon script. The <b>NPLogonNotify</b> function is implemented by a credential manager DLL (see Remarks).
 
@@ -67,9 +72,13 @@ Pointer to a string that identifies the type of structure pointed to by <i>lpAut
 
 When Microsoft is the primary authenticator, one of the following strings is specified for interactive and service controller logons.
 
-<pre class="syntax" xml:space="preserve"><code>MSV1_0:Interactive
+
+``` syntax
+MSV1_0:Interactive
 Kerberos:Interactive
-</code></pre>
+
+```
+
 
 ### -param lpAuthentInfo [in]
 

@@ -52,6 +52,7 @@ api_location:
  - Ext-MS-Win-NTUser-Message-L1-1-3.dll
 api_name:
  - InSendMessage
+req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 ---
 
 # InSendMessage function
@@ -63,7 +64,7 @@ Determines whether the current window procedure is processing a message that was
 
 To obtain additional information about how the message was sent, use the <a href="/windows/desktop/api/winuser/nf-winuser-insendmessageex">InSendMessageEx</a> function.
 
-## -parameters
+
 
 ## -returns
 

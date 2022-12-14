@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_Cursors
 title: IInkOverlay::get_Cursors (msinkaut.h)
-description: Gets the collection of cursors that are available for use in the inking region. Each cursor corresponds to the tip of a pen or other ink input device.
+description: Gets the collection of cursors that are available for use in the inking region. Each cursor corresponds to the tip of a pen or other ink input device. (IInkOverlay.get_Cursors)
 helpviewer_keywords: ["Cursors property [Tablet PC]","Cursors property [Tablet PC]","IInkOverlay interface","IInkOverlay interface [Tablet PC]","Cursors property","IInkOverlay.Cursors","IInkOverlay.get_Cursors","IInkOverlay::Cursors","IInkOverlay::get_Cursors","InkOverlay.get_Cursors","get_Cursors","msinkaut/IInkOverlay::Cursors","msinkaut/IInkOverlay::get_Cursors","put_Cursors","tablet.inkoverlay_cursors"]
 old-location: tablet\inkoverlay_cursors.htm
 tech.root: tablet
@@ -84,7 +84,7 @@ The <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors">IInkCursors<
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="../msinkaut/nn-msinkaut-iinkoverlay.md">IInkOverlay</a>
 
 
 

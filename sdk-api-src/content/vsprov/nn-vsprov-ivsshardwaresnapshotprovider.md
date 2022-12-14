@@ -58,74 +58,7 @@ The <b>IVssHardwareSnapshotProvider</b>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssHardwareSnapshotProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssHardwareSnapshotProvider</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVssHardwareSnapshotProvider</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-arelunssupported">AreLunsSupported</a>
-</td>
-<td align="left" width="63%">
-Determines whether the hardware provider supports shadow copy creation for all LUNs that contribute to the volume.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-beginpreparesnapshot">BeginPrepareSnapshot</a>
-</td>
-<td align="left" width="63%">
-Called for each shadow copy that is added to the shadow copy set.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-fillinluninfo">FillInLunInfo</a>
-</td>
-<td align="left" width="63%">
-Prompts the hardware provider to indicate whether it supports the corresponding disk device and correct any omissions in the <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-gettargetluns">GetTargetLuns</a>
-</td>
-<td align="left" width="63%">
-Prompts the hardware provider to initialize the <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structures for the newly created shadow copy LUNs.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-locateluns">LocateLuns</a>
-</td>
-<td align="left" width="63%">
-Prompts the hardware provider to make the shadow copy LUNs visible to the computer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-onlunempty">OnLunEmpty</a>
-</td>
-<td align="left" width="63%">
-Called whenever VSS determines that a shadow copy LUN contains no interesting data.
-
-</td>
-</tr>
-</table>
+The <b>IVssHardwareSnapshotProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssHardwareSnapshotProvider</b> also has these types of members:
 
 ## -see-also
 

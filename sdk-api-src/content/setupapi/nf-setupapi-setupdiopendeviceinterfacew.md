@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiOpenDeviceInterfaceW
 title: SetupDiOpenDeviceInterfaceW function (setupapi.h)
-description: The SetupDiOpenDeviceInterface function retrieves information about a device interface and adds the interface to the specified device information set for a local system or a remote system.
+description: The SetupDiOpenDeviceInterface function retrieves information about a device interface and adds the interface to the specified device information set for a local system or a remote system. (Unicode)
 helpviewer_keywords: ["SetupDiOpenDeviceInterface","SetupDiOpenDeviceInterface function [Device and Driver Installation]","SetupDiOpenDeviceInterfaceA","SetupDiOpenDeviceInterfaceW","devinst.setupdiopendeviceinterface","di-rtns_4505f6a3-e634-4070-a9b3-1487c2808838.xml","setupapi/SetupDiOpenDeviceInterface"]
 old-location: devinst\setupdiopendeviceinterface.htm
 tech.root: devinst
@@ -101,7 +101,7 @@ If the DIODI_NO_ADD flag is specified for the <i>OpenFlags</i> parameter, and a 
 When the application has finished using the information that <b>SetupDiOpenDeviceInterface</b> retrieved<b>,</b> the application must call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdideletedeviceinterfacedata">SetupDiDeleteDeviceInterfaceData</a>.
 
 
-<a href="/windows/desktop/medfound/mf-devsource-attribute-source-type-vidcap-symbolic-link">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK</a>attribute can be passed in as the value of the <i>DevicePath</i> argument of the <b>SetupDiOpenDeviceInterface</b> function.
+<a href="/windows/desktop/medfound/mf-devsource-attribute-source-type-vidcap-symbolic-link">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK</a> attribute can be passed in as the value of the <i>DevicePath</i> argument of the <b>SetupDiOpenDeviceInterface</b> function.
 
 
 

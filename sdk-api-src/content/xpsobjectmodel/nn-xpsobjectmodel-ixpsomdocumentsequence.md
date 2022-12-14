@@ -47,66 +47,13 @@ api_name:
 
 # IXpsOMDocumentSequence interface
 
-
 ## -description
 
 The root object that has the XPS document content.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMDocumentSequence</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompart">IXpsOMPart</a>. <b>IXpsOMDocumentSequence</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IXpsOMDocumentSequence</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdocumentsequence-getdocuments">GetDocuments</a>
-</td>
-<td align="left" width="63%">
-Gets a pointer to the <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentcollection">IXpsOMDocumentCollection</a> interface, which contains the documents specified in the document sequence.
-            
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdocumentsequence-getowner">GetOwner</a>
-</td>
-<td align="left" width="63%">
-Gets a pointer to the <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackage">IXpsOMPackage</a> interface that contains the document sequence.
-            
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdocumentsequence-getprintticketresource">GetPrintTicketResource</a>
-</td>
-<td align="left" width="63%">
-Gets the <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource">IXpsOMPrintTicketResource</a> interface to the job-level print ticket that is  assigned to the document sequence.
-            
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdocumentsequence-setprintticketresource">SetPrintTicketResource</a>
-</td>
-<td align="left" width="63%">
-Sets the job-level print ticket resource for the document sequence.
-
-</td>
-</tr>
-</table>
+The <b>IXpsOMDocumentSequence</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompart">IXpsOMPart</a>. <b>IXpsOMDocumentSequence</b> also has these types of members:
 
 ## -remarks
 

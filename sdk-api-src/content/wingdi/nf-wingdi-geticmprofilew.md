@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.GetICMProfileW
 title: GetICMProfileW function (wingdi.h)
-description: The GetICMProfile function retrieves the file name of the current output color profile for a specified device context.
+description: The GetICMProfile function retrieves the file name of the current output color profile for a specified device context. (Unicode)
 helpviewer_keywords: ["GetICMProfile","GetICMProfile function [Windows Color System]","GetICMProfileA","GetICMProfileW","_color_GetICMProfile","wcs.geticmprofile","wingdi/GetICMProfile","wingdi/GetICMProfileA","wingdi/GetICMProfileW"]
 old-location: wcs\geticmprofile.htm
 tech.root: WCS
@@ -97,16 +97,7 @@ If this function is called before any calls to the <b>SetICMProfile</b> function
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
-
-
-
-<a href="/windows/desktop/api/wingdi/nf-wingdi-enumicmprofilesa">EnumICMProfiles</a>
-
-
-
-<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>
-
-
-
-<a href="/windows/desktop/api/wingdi/nf-wingdi-seticmprofilea">SetICMProfile</a>
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Functions](/windows/win32/wcs/functions)
+* [EnumICMProfilesW](/windows/win32/api/wingdi/nf-wingdi-enumicmprofilesw)
+* [SetICMProfileW](/windows/win32/api/wingdi/nf-wingdi-seticmprofilew)

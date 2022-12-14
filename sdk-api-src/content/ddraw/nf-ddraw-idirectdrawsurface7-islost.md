@@ -52,7 +52,7 @@ api_name:
 
 Determines whether the surface memory that is associated with a DirectDrawSurface object has been freed.
 
-## -parameters
+
 
 ## -returns
 
@@ -75,7 +75,7 @@ Surfaces can lose their memory when the mode of the graphics adapter is changed 
 
 
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>IsLost</b> method.
+
 
 ## -see-also
 

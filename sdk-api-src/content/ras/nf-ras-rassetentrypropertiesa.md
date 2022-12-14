@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasSetEntryPropertiesA
 title: RasSetEntryPropertiesA function (ras.h)
-description: The RasSetEntryProperties function changes the connection information for an entry in the phone book or creates a new phone-book entry.
+description: The RasSetEntryProperties function changes the connection information for an entry in the phone book or creates a new phone-book entry. (ANSI)
 helpviewer_keywords: ["RasSetEntryProperties","RasSetEntryProperties function [RAS]","RasSetEntryPropertiesA","RasSetEntryPropertiesW","_ras_rassetentryproperties","ras/RasSetEntryProperties","ras/RasSetEntryPropertiesA","ras/RasSetEntryPropertiesW","rras.rassetentryproperties"]
 old-location: rras\rassetentryproperties.htm
 tech.root: RRAS
@@ -57,14 +57,14 @@ The <b>RasSetEntryProperties</b> function changes the
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. 
       If this parameter is <b>NULL</b>, the function uses the current default phone-book file. 
       The default phone-book file is the one selected by the user in the <b>User Preferences</b> 
       property sheet of the <b>Dial-Up Networking</b> dialog box.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Pointer to a null-terminated string that specifies an entry name.
 
@@ -79,7 +79,7 @@ If the entry name does not match an existing entry,
        entry name before calling 
        <b>RasSetEntryProperties</b>.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Pointer to the <a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure that specifies the 
        new connection data to be associated with the phone-book entry indicated by the 
@@ -108,12 +108,12 @@ The structure might be followed by an array of null-terminated alternate phone n
        member of the <a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure contains the offset to 
        the first string.
 
-### -param arg4 [in]
+### -param unnamedParam4 [in]
 
 Specifies the size, in bytes, of the buffer identified by the <i>lpRasEntry</i> 
       parameter.
 
-### -param arg5 [in]
+### -param unnamedParam5 [in]
 
 Pointer to a buffer that specifies device-specific configuration information. This is opaque TAPI device 
       configuration information. For more information about TAPI device configuration, see the 
@@ -125,7 +125,7 @@ Pointer to a buffer that specifies device-specific configuration information. Th
 <b>Windows XP:  </b>This parameter is unused. The calling function should set this parameter to 
         <b>NULL</b>.
 
-### -param arg6 [in]
+### -param unnamedParam6 [in]
 
 Specifies the size, in bytes, of the <i>lpbDeviceInfo</i> buffer.
       

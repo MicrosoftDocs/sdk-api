@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SetWindowLongA
 title: SetWindowLongA function (winuser.h)
-description: Changes an attribute of the specified window. The function also sets the 32-bit (long) value at the specified offset into the extra window memory.
+description: Changes an attribute of the specified window. The function also sets the 32-bit (long) value at the specified offset into the extra window memory. (ANSI)
 helpviewer_keywords: ["DWL_DLGPROC","DWL_MSGRESULT","DWL_USER","GWL_EXSTYLE","GWL_HINSTANCE","GWL_ID","GWL_STYLE","GWL_USERDATA","GWL_WNDPROC","SetWindowLong","SetWindowLong function [Windows and Messages]","SetWindowLongA","SetWindowLongW","_win32_SetWindowLong","_win32_setwindowlong_cpp","winmsg.setwindowlong","winui._win32_setwindowlong","winuser/SetWindowLong","winuser/SetWindowLongA","winuser/SetWindowLongW"]
 old-location: winmsg\setwindowlong.htm
 tech.root: winmsg
@@ -53,6 +53,7 @@ api_name:
  - SetWindowLong
  - SetWindowLongA
  - SetWindowLongW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetWindowLongA function

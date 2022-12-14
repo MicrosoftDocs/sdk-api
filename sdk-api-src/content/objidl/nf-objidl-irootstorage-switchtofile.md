@@ -64,6 +64,14 @@ A pointer to a null terminated string that specifies the file name for the new f
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The file was successfully copied.|
+|STG_E_MEDIUMFULL | The file was not copied because of insufficient space on the storage device.|
+|STG_E_ACCESSDENIED | The file was not copied because the caller does not have permission to access storage device.|
+|STG_E_INVALIDPOINTER | The file was not copied because the *pszFile* pointer is not valid.|
+|STG_E_FILEALREADYEXISTS | The file was not copied because the new filename (*pszFile*) points to an existing file.|
+
 ## -remarks
 
 The <b>IRootStorage::SwitchToFile</b> method copies the file associated with the storage object. A COM container calls 

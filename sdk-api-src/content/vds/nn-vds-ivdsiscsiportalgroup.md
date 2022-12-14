@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsIscsiPortalGroup
 title: IVdsIscsiPortalGroup (vds.h)
-description: Provides methods for performing query and configuration services on an iSCSI portal group.
+description: The IVdsIscsiPortalGroup interface (vds.h) provides methods for performing query and configuration services on an iSCSI portal group.
 helpviewer_keywords: ["IVdsIscsiPortalGroup","IVdsIscsiPortalGroup interface [VDS]","IVdsIscsiPortalGroup interface [VDS]","described","base.ivdsiscsiportalgroup","vds/IVdsIscsiPortalGroup","vdshwprv/IVdsIscsiPortalGroup"]
 old-location: base\ivdsiscsiportalgroup.htm
 tech.root: base
 ms.assetid: 65d773bd-3828-4c9d-a841-bb85a53aeadc
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsIscsiPortalGroup, IVdsIscsiPortalGroup interface [VDS], IVdsIscsiPortalGroup interface [VDS],described, base.ivdsiscsiportalgroup, vds/IVdsIscsiPortalGroup, vdshwprv/IVdsIscsiPortalGroup
 req.header: vds.h
 req.include-header: 
@@ -57,62 +57,7 @@ Provides methods for performing query and configuration services on an iSCSI por
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsIscsiPortalGroup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsIscsiPortalGroup</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVdsIscsiPortalGroup</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportalgroup-addportal">AddPortal</a>
-</td>
-<td align="left" width="63%">
-Adds a portal to a portal group..</p> (Inherited from <b>IVdsIscsiPortalGroup</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportalgroup-delete">Delete</a>
-</td>
-<td align="left" width="63%">
-Deletes the portal group.</p> (Inherited from <b>IVdsIscsiPortalGroup</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportalgroup-getproperties">GetProperties</a>
-</td>
-<td align="left" width="63%">
-Returns the properties of a portal group.</p> (Inherited from <b>IVdsIscsiPortalGroup</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportalgroup-gettarget">GetTarget</a>
-</td>
-<td align="left" width="63%">
-Returns the target to which the portal group belongs.</p> (Inherited from <b>IVdsIscsiPortalGroup</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportalgroup-queryassociatedportals">QueryAssociatedPortals</a>
-</td>
-<td align="left" width="63%">
-Returns an enumeration of the portals with which the portal group is associated.</p> (Inherited from <b>IVdsIscsiPortalGroup</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportalgroup-removeportal">RemovePortal</a>
-</td>
-<td align="left" width="63%">
-Removes a portal from a portal group.</p> (Inherited from <b>IVdsIscsiPortalGroup</b>)</td>
-</tr>
-</table>
+The <b>IVdsIscsiPortalGroup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsIscsiPortalGroup</b> also has these types of members:
 
 ## -see-also
 

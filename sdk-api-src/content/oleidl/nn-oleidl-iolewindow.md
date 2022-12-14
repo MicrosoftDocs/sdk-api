@@ -54,38 +54,7 @@ The <b>IOleWindow</b> interface provides methods that allow an application to ob
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleWindow</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleWindow</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IOleWindow</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-iolewindow-contextsensitivehelp">ContextSensitiveHelp</a>
-</td>
-<td align="left" width="63%">
-Determines whether context-sensitive help mode should be entered during an in-place activation session.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-iolewindow-getwindow">GetWindow</a>
-</td>
-<td align="left" width="63%">
-Retrieves a handle to one of the windows participating in in-place activation (frame, document, parent, or in-place object window).
-
-</td>
-</tr>
-</table>
+The <b>IOleWindow</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleWindow</b> also has these types of members:
 
 ## -remarks
 

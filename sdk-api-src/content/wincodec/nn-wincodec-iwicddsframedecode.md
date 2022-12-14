@@ -54,47 +54,7 @@ Provides access to a single frame of DDS image data in its native <a href="/wind
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICDdsFrameDecode</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICDdsFrameDecode</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWICDdsFrameDecode</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicddsframedecode-copyblocks">CopyBlocks</a>
-</td>
-<td align="left" width="63%">
-Requests pixel data as it is natively stored within the DDS file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicddsframedecode-getformatinfo">GetFormatInfo</a>
-</td>
-<td align="left" width="63%">
-Gets information about the format in which the DDS image is stored.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicddsframedecode-getsizeinblocks">GetSizeInBlocks</a>
-</td>
-<td align="left" width="63%">
-Gets the width and height, in blocks, of the DDS image.
-
-</td>
-</tr>
-</table>
+The <b>IWICDdsFrameDecode</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICDdsFrameDecode</b> also has these types of members:
 
 ## -remarks
 

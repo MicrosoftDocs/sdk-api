@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsHwProviderType2
 title: IVdsHwProviderType2 (vds.h)
-description: This interface is not implemented. Use IVdsHwProviderType instead.
+description: The IVdsHwProviderType2 interface (vds.h) is not implemented. Use IVdsHwProviderType instead.
 helpviewer_keywords: ["IVdsHwProviderType2","IVdsHwProviderType2 interface","IVdsHwProviderType2 interface","described","base.ivdshwprovidertype2","vds/IVdsHwProviderType2","vdshwprv/IVdsHwProviderType2"]
 old-location: base\ivdshwprovidertype2.htm
 tech.root: base
 ms.assetid: b75b455a-0b1e-49f4-9181-5cbbf1b5d98c
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsHwProviderType2, IVdsHwProviderType2 interface, IVdsHwProviderType2 interface,described, base.ivdshwprovidertype2, vds/IVdsHwProviderType2, vdshwprv/IVdsHwProviderType2
 req.header: vds.h
 req.include-header: 
@@ -57,26 +57,5 @@ This interface is not implemented. Use <a href="/windows/desktop/api/vdshwprv/nn
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsHwProviderType2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsHwProviderType2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVdsHwProviderType2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsHwProviderType2</b> also has these types of members:
 
-## -members
-
-The <b>IVdsHwProviderType2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovidertype2-getprovidertype2">GetProviderType2</a>
-</td>
-<td align="left" width="63%">
-This method is not implemented.
-
-</td>
-</tr>
-</table>

@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmGetGuideLineW
 title: ImmGetGuideLineW function (immdev.h)
-description: Retrieves information about errors. Applications use the information for user notifications.
+description: The ImmGetGuideLineW (Unicode) function (immdev.h) retrieves information about errors. Applications use the information for user notifications. 
 helpviewer_keywords: ["GGL_INDEX","GGL_LEVEL","GGL_PRIVATE","GGL_STRING","ImmGetGuideLine","ImmGetGuideLine function [Internationalization for Windows Applications]","ImmGetGuideLineA","ImmGetGuideLineW","_win32_ImmGetGuideLine","imm/ImmGetGuideLine","imm/ImmGetGuideLineA","imm/ImmGetGuideLineW","intl.immgetguideline"]
 old-location: intl\immgetguideline.htm
 tech.root: Intl
 ms.assetid: f6639061-0ad9-4f42-b5d4-66ad3f6298aa
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: GGL_INDEX, GGL_LEVEL, GGL_PRIVATE, GGL_STRING, ImmGetGuideLine, ImmGetGuideLine function [Internationalization for Windows Applications], ImmGetGuideLineA, ImmGetGuideLineW, _win32_ImmGetGuideLine, imm/ImmGetGuideLine, imm/ImmGetGuideLineA, imm/ImmGetGuideLineW, intl.immgetguideline
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
@@ -56,7 +56,7 @@ Retrieves information about errors. Applications use the information for user no
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Handle to the input context.
 

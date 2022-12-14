@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IRpcChannelBuffer.IsConnected
 title: IRpcChannelBuffer::IsConnected (objidl.h)
-description: Determines whether the RPC channel is connected.
+description: The IRpcChannelBuffer::IsConnected method (objidl.h) determines whether the RPC channel is connected.
 helpviewer_keywords: ["IRpcChannelBuffer interface [COM]","IsConnected method","IRpcChannelBuffer.IsConnected","IRpcChannelBuffer::IsConnected","IsConnected","IsConnected method [COM]","IsConnected method [COM]","IRpcChannelBuffer interface","_com_irpcchannelbuffer_isconnected","com.irpcchannelbuffer_isconnected","objidlbase/IRpcChannelBuffer::IsConnected"]
 old-location: com\irpcchannelbuffer_isconnected.htm
 tech.root: com
 ms.assetid: 4068f0bb-35fb-452b-8ab1-1a38b1a0c2fa
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: IRpcChannelBuffer interface [COM],IsConnected method, IRpcChannelBuffer.IsConnected, IRpcChannelBuffer::IsConnected, IsConnected, IsConnected method [COM], IsConnected method [COM],IRpcChannelBuffer interface, _com_irpcchannelbuffer_isconnected, com.irpcchannelbuffer_isconnected, objidlbase/IRpcChannelBuffer::IsConnected
 req.header: objidl.h
 req.include-header: ObjIdl.h
@@ -52,11 +52,20 @@ api_name:
 
 Determines whether the RPC channel is connected.
 
-## -parameters
+
 
 ## -returns
 
-If the RPC  channel exists, the return value is <b>TRUE</b>. Otherwise, it is <b>FALSE</b>.
+If the RPC channel knows that the server object has been disconnected,
+the return value is <b>S_FALSE</b>. Otherwise, it is <b>S_OK</b>.
+
+## -remarks
+
+Channel implementations typically report server connectedness based on their
+local state and are not expected to test transport-level connections or make
+any calls to the server to prove connectedness.
+It is possible for this method to return <b>S_OK</b>
+even when the server object has been disconnected.
 
 ## -see-also
 

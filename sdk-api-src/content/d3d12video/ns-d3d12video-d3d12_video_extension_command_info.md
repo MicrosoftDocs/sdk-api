@@ -2,9 +2,8 @@
 UID: NS:d3d12video.D3D12_VIDEO_EXTENSION_COMMAND_INFO
 title: D3D12_VIDEO_EXTENSION_COMMAND_INFO
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
-description: Describes a video extension command.
+description: Describes a video extension command. (D3D12_VIDEO_EXTENSION_COMMAND_INFO)
 tech.root: mf
 req.construct-type: structure
 req.ddi-compliance: 

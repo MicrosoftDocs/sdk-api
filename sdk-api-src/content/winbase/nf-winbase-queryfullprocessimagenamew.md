@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.QueryFullProcessImageNameW
 title: QueryFullProcessImageNameW function (winbase.h)
-description: Retrieves the full name of the executable image for the specified process.
+description: Retrieves the full name of the executable image for the specified process. (Unicode)
 helpviewer_keywords: ["PROCESS_NAME_NATIVE","QueryFullProcessImageName","QueryFullProcessImageName function","QueryFullProcessImageNameA","QueryFullProcessImageNameW","base.queryfullprocessimagename","winbase/QueryFullProcessImageName","winbase/QueryFullProcessImageNameA","winbase/QueryFullProcessImageNameW"]
 old-location: base\queryfullprocessimagename.htm
 tech.root: backup

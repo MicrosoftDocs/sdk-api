@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICoreInputInterop interface [Windows Runtime]","SetInputS
 old-location: winrt\icoreinputinterop_setinputsource.htm
 tech.root: WinRT
 ms.assetid: 693180F5-2C19-47CD-9514-F0CEA1849A4A
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: ICoreInputInterop interface [Windows Runtime],SetInputSource method, ICoreInputInterop.SetInputSource, ICoreInputInterop::SetInputSource, SetInputSource, SetInputSource method [Windows Runtime], SetInputSource method [Windows Runtime],ICoreInputInterop interface, corewindow/ICoreInputInterop::SetInputSource, winrt.icoreinputinterop_setinputsource
 req.header: corewindow.h
 req.include-header: 
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets the input source for an app's <a href="/dotnet/api/microsoft.toolkit.win32.ui.controls.interop.winrt.coreindependentinputsource?view=win-comm-toolkit-dotnet-stable">CoreIndependentInputSource</a> or <a href="/uwp/api/windows.ui.core.corecomponentinputsource">CoreComponentInputSource</a>.
+Sets the input source for an app's <a href="/dotnet/api/microsoft.toolkit.win32.ui.controls.interop.winrt.coreindependentinputsource?view=win-comm-toolkit-dotnet-stable&preserve-view=true">CoreIndependentInputSource</a> or <a href="/uwp/api/windows.ui.core.corecomponentinputsource">CoreComponentInputSource</a>.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ Pointer to the base COM interface of the input source.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
@@ -68,7 +68,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="/dotnet/api/microsoft.toolkit.win32.ui.controls.interop.winrt.coreindependentinputsource?view=win-comm-toolkit-dotnet-stable">CoreIndependentInputSource</a>
+<a href="/dotnet/api/microsoft.toolkit.win32.ui.controls.interop.winrt.coreindependentinputsource?view=win-comm-toolkit-dotnet-stable&preserve-view=true">CoreIndependentInputSource</a>
 
 
 

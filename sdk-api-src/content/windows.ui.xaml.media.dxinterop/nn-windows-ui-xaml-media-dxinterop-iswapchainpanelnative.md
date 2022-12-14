@@ -1,12 +1,12 @@
 ---
 UID: NN:windows.ui.xaml.media.dxinterop.ISwapChainPanelNative
 title: ISwapChainPanelNative (windows.ui.xaml.media.dxinterop.h)
-description: Provides interoperation between XAML and a DirectX swap chain. Unlike SwapChainBackgroundPanel, a SwapChainPanel can appear at any level in the XAML display tree, and more than 1 can be present in any given tree.
+description: The ISwapChainPanelNative interface (windows.ui.xaml.media.dxinterop.h) provides interoperation between XAML and a DirectX swap chain.
 helpviewer_keywords: ["ISwapChainPanelNative","ISwapChainPanelNative interface [Windows Runtime]","ISwapChainPanelNative interface [Windows Runtime]","described","windows/ISwapChainPanelNative","winrt.iswapchainpanelnative"]
 old-location: winrt\iswapchainpanelnative.htm
 tech.root: WinRT
 ms.assetid: B36147C7-1304-4175-8AD3-CD5FCA17B4AE
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: ISwapChainPanelNative, ISwapChainPanelNative interface [Windows Runtime], ISwapChainPanelNative interface [Windows Runtime],described, windows/ISwapChainPanelNative, winrt.iswapchainpanelnative
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
@@ -54,29 +54,7 @@ Provides interoperation between XAML and a DirectX swap chain. Unlike <a href="/
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISwapChainPanelNative</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISwapChainPanelNative</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISwapChainPanelNative</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-iswapchainpanelnative-setswapchain">SetSwapChain</a>
-</td>
-<td align="left" width="63%">
-Sets the DirectX swap chain for <a href="/uwp/api/windows.ui.xaml.controls.swapchainpanel">SwapChainPanel</a>.
-
-</td>
-</tr>
-</table>
+The <b>ISwapChainPanelNative</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISwapChainPanelNative</b> also has these types of members:
 
 ## -remarks
 

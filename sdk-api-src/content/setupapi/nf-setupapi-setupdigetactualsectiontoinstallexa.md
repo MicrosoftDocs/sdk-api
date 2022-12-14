@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiGetActualSectionToInstallExA
 title: SetupDiGetActualSectionToInstallExA function (setupapi.h)
-description: The SetupDiGetActualSectionToInstallEx function retrieves the name of the INF DDInstall section that installs a device for a specified operating system and processor architecture.
+description: The SetupDiGetActualSectionToInstallEx function retrieves the name of the INF DDInstall section that installs a device for a specified operating system and processor architecture. (ANSI)
 helpviewer_keywords: ["SetupDiGetActualSectionToInstallEx","SetupDiGetActualSectionToInstallEx function [Device and Driver Installation]","SetupDiGetActualSectionToInstallExA","SetupDiGetActualSectionToInstallExW","devinst.setupdigetactualsectiontoinstallex","di-rtns_d8baadc3-b6eb-49cb-a8ca-e3f877c2e8e7.xml","setupapi/SetupDiGetActualSectionToInstallEx"]
 old-location: devinst\setupdigetactualsectiontoinstallex.htm
 tech.root: devinst
@@ -66,7 +66,7 @@ A pointer to the <i>DDInstall</i> section name (as specified in an <a href="/win
 
 ### -param AlternatePlatformInfo [in, optional]
 
-A pointer, if non-<b>NULL</b>, to an <a href="/previous-versions/windows/hardware/previsioning-framework/ff552338(v=vs.85)">SP_ALTPLATFORM_INFO</a> structure. This structure is used to specify an operating system and processor architecture that is different from that on the local computer. To return the <i>DDInstall </i>section name for the local computer, set this parameter to <b>NULL</b>. Otherwise, provide an SP_ALTPLATFORM structure and set its members as follows:
+A pointer, if non-<b>NULL</b>, to an <a href="/windows/win32/api/setupapi/ns-setupapi-sp_altplatform_info_v2">SP_ALTPLATFORM_INFO</a> structure. This structure is used to specify an operating system and processor architecture that is different from that on the local computer. To return the <i>DDInstall </i>section name for the local computer, set this parameter to <b>NULL</b>. Otherwise, provide an SP_ALTPLATFORM structure and set its members as follows:
 
 
 

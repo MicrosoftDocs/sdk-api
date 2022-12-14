@@ -52,7 +52,7 @@ api_name:
 
 The <b>previous</b> method sets the previous item in the playlist as the current item.
 
-## -parameters
+
 
 ## -returns
 

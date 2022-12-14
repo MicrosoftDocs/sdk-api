@@ -2,7 +2,6 @@
 UID: NC:sspi.SspiAsyncNotifyCallback
 title: SspiAsyncNotifyCallback function
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Callback used for notifying completion of an async SSPI call.
 tech.root: security

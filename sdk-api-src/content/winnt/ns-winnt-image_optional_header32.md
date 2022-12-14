@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._IMAGE_OPTIONAL_HEADER
 title: IMAGE_OPTIONAL_HEADER32 (winnt.h)
-description: Represents the optional header format.
+description: Represents the optional header format. (32 bit)
 helpviewer_keywords: ["*PIMAGE_OPTIONAL_HEADER32","IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE","IMAGE_DLLCHARACTERISTICS_FORCE_INTEGRITY","IMAGE_DLLCHARACTERISTICS_NO_BIND","IMAGE_DLLCHARACTERISTICS_NO_ISOLATION","IMAGE_DLLCHARACTERISTICS_NO_SEH","IMAGE_DLLCHARACTERISTICS_NX_COMPAT","IMAGE_DLLCHARACTERISTICS_TERMINAL_SERVER_AWARE","IMAGE_DLLCHARACTERISTICS_WDM_DRIVER","IMAGE_NT_OPTIONAL_HDR32_MAGIC","IMAGE_NT_OPTIONAL_HDR64_MAGIC","IMAGE_NT_OPTIONAL_HDR_MAGIC","IMAGE_OPTIONAL_HEADER","IMAGE_OPTIONAL_HEADER structure","IMAGE_OPTIONAL_HEADER32","IMAGE_OPTIONAL_HEADER64","IMAGE_ROM_OPTIONAL_HDR_MAGIC","IMAGE_SUBSYSTEM_EFI_APPLICATION","IMAGE_SUBSYSTEM_EFI_BOOT_SERVICE_DRIVER","IMAGE_SUBSYSTEM_EFI_ROM","IMAGE_SUBSYSTEM_EFI_RUNTIME_DRIVER","IMAGE_SUBSYSTEM_NATIVE","IMAGE_SUBSYSTEM_OS2_CUI","IMAGE_SUBSYSTEM_POSIX_CUI","IMAGE_SUBSYSTEM_UNKNOWN","IMAGE_SUBSYSTEM_WINDOWS_BOOT_APPLICATION","IMAGE_SUBSYSTEM_WINDOWS_CE_GUI","IMAGE_SUBSYSTEM_WINDOWS_CUI","IMAGE_SUBSYSTEM_WINDOWS_GUI","IMAGE_SUBSYSTEM_XBOX","PIMAGE_OPTIONAL_HEADER","PIMAGE_OPTIONAL_HEADER structure pointer","PIMAGE_OPTIONAL_HEADER32","PIMAGE_OPTIONAL_HEADER64","_IMAGE_OPTIONAL_HEADER","_win32_image_optional_header_str","base.image_optional_header_str","winnt/IMAGE_OPTIONAL_HEADER","winnt/PIMAGE_OPTIONAL_HEADER"]
 old-location: base\image_optional_header_str.htm
 tech.root: Debug
@@ -434,6 +434,17 @@ Reserved.
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="IMAGE_DLL_CHARACTERISTICS_HIGH_ENTROPY_VA"></a><a id="image_dll_characteristics_high_entropy_va"></a><dl>
+<dt><b>IMAGE_DLL_CHARACTERISTICS_HIGH_ENTROPY_VA</b></dt>
+<dt>0x0020</dt>
+</dl>
+</td>
+<td width="60%">
+ASLR with 64 bit address space.
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE"></a><a id="image_dllcharacteristics_dynamic_base"></a><dl>
 <dt><b>IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE</b></dt>
 <dt>0x0040</dt>
@@ -504,13 +515,13 @@ Do not bind the image.
 </td>
 </tr>
 <tr>
-<td width="40%">
-<dl>
+<td width="40%"><a id="IMAGE_DLL_CHARACTERISTICS_APPCONTAINER"></a><a id="image_dll_characteristics_appcontainer"></a><dl>
+<dt><b>IMAGE_DLL_CHARACTERISTICS_APPCONTAINER</b></dt>
 <dt>0x1000</dt>
 </dl>
 </td>
 <td width="60%">
-Reserved.
+Image should execute in an AppContainer.
 
 </td>
 </tr>
@@ -526,13 +537,13 @@ A WDM driver.
 </td>
 </tr>
 <tr>
-<td width="40%">
-<dl>
+<td width="40%"><a id="IMAGE_DLL_CHARACTERISTICS_GUARD_CF"></a><a id="image_dll_characteristics_guard_cf"></a><dl>
+<dt><b>IMAGE_DLL_CHARACTERISTICS_GUARD_CF</b></dt>
 <dt>0x4000</dt>
 </dl>
 </td>
 <td width="60%">
-Reserved.
+Image supports Control Flow Guard.
 
 </td>
 </tr>

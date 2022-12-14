@@ -52,7 +52,7 @@ api_name:
 
 Directs the preview handler to load data from the source specified in an earlier Initialize method call, and to begin rendering to the previewer window.
 
-## -parameters
+
 
 ## -returns
 
@@ -128,7 +128,7 @@ If the previewer window has not yet been created, then it must be created after 
 
 This method should be called only after <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setwindow">IPreviewHandler::SetWindow</a> has been called.
 
-Aditionally, this method should be called only after <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithitem-initialize">Initialize</a>, <a href="/windows/desktop/api/propsys/nf-propsys-iinitializewithstream-initialize">Initialize</a>, or <a href="/windows/desktop/api/propsys/nf-propsys-iinitializewithfile-initialize">Initialize</a> has been called.
+Additionally, this method should be called only after <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithitem-initialize">Initialize</a>, <a href="/windows/desktop/api/propsys/nf-propsys-iinitializewithstream-initialize">Initialize</a>, or <a href="/windows/desktop/api/propsys/nf-propsys-iinitializewithfile-initialize">Initialize</a> has been called.
             
 
 <div class="alert"><b>Note</b>  Do not actually create the previewer window until this method has been called.</div>

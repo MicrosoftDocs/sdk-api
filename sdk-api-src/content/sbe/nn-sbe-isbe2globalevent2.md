@@ -54,31 +54,10 @@ Offers  access to global spanning events and their data from the <a href="/previ
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISBE2GlobalEvent2</b> interface inherits from <b>ISBE2GlobalEvent</b>. <b>ISBE2GlobalEvent2</b> also has these types of members:
+The <b>ISBE2GlobalEvent2</b> interface inherits from <b>ISBE2GlobalEvent</b>. <b>ISBE2GlobalEvent2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ISBE2GlobalEvent2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2globalevent2-geteventex">GetEventEx</a>
-</td>
-<td align="left" width="63%">
-Gets an global spanning event and its data from a <a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter.
-
-
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

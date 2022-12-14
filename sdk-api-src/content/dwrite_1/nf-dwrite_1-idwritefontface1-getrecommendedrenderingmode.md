@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.GetRecommendedRenderingMode
 title: IDWriteFontFace1::GetRecommendedRenderingMode (dwrite_1.h)
-description: Determines the recommended rendering mode for the font, using the specified size and rendering parameters.
+description: Determines the recommended rendering mode for the font, using the specified size and rendering parameters. (IDWriteFontFace1.GetRecommendedRenderingMode)
 helpviewer_keywords: ["GetRecommendedRenderingMode","GetRecommendedRenderingMode method [Direct Write]","GetRecommendedRenderingMode method [Direct Write]","IDWriteFontFace1 interface","IDWriteFontFace1 interface [Direct Write]","GetRecommendedRenderingMode method","IDWriteFontFace1.GetRecommendedRenderingMode","IDWriteFontFace1::GetRecommendedRenderingMode","directwrite.idwritefontface1_getrecommendedrenderingmode","dwrite_1/IDWriteFontFace1::GetRecommendedRenderingMode"]
 old-location: directwrite\idwritefontface1_getrecommendedrenderingmode.htm
 tech.root: DirectWrite
@@ -120,7 +120,7 @@ When this method returns, contains a value that indicates the recommended render
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

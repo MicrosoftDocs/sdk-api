@@ -51,7 +51,7 @@ The <b>DdMapMemory</b> callback function maps application-modifiable portions of
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_mapmemorydata">DD_MAPMEMORYDATA</a> structure that contains details for the memory mapping or unmapping operation.
 

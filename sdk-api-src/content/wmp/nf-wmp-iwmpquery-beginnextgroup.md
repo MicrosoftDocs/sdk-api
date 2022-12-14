@@ -52,7 +52,7 @@ api_name:
 
 The <b>beginNextGroup</b> method begins a new condition group.
 
-## -parameters
+
 
 ## -returns
 

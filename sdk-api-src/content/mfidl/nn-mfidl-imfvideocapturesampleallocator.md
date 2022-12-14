@@ -2,7 +2,6 @@
 UID: NN:mfidl.IMFVideoCaptureSampleAllocator
 title: IMFVideoCaptureSampleAllocator
 ms.date: 1/23/2020
-ms.topic: language-reference
 targetos: Windows
 description: Allocates video samples for a video media sink with specialized functionality for video capture devices.
 tech.root: mf

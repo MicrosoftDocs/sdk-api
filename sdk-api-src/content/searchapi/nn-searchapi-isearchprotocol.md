@@ -1,7 +1,7 @@
 ---
 UID: NN:searchapi.ISearchProtocol
 title: ISearchProtocol (searchapi.h)
-description: Provides methods for invoking, initializing, and managing IUrlAccessor objects.
+description: Provides methods for invoking, initializing, and managing IUrlAccessor objects. (ISearchProtocol)
 helpviewer_keywords: ["ISearchProtocol","ISearchProtocol interface [search]","ISearchProtocol interface [search]","described","_search_ISearchProtocol","search._search_ISearchProtocol","searchapi/ISearchProtocol"]
 old-location: search\_search_ISearchProtocol.htm
 tech.root: search
@@ -57,60 +57,7 @@ The protocol handler implements the protocol for accessing a content source in i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchProtocol</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchProtocol</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISearchProtocol</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchprotocol-closeaccessor">CloseAccessor</a>
-</td>
-<td align="left" width="63%">
-Closes a previously created <a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> object. 
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchprotocol-createaccessor">CreateAccessor</a>
-</td>
-<td align="left" width="63%">
-Creates and initializes an <a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> object.  
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchprotocol-init">Init</a>
-</td>
-<td align="left" width="63%">
-Initializes a protocol handler. 
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchprotocol-shutdown">ShutDown</a>
-</td>
-<td align="left" width="63%">
-Shuts down the protocol handler.
-        
-
-</td>
-</tr>
-</table>
+The <b>ISearchProtocol</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchProtocol</b> also has these types of members:
 
 ## -see-also
 

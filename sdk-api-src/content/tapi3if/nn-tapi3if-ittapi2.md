@@ -56,47 +56,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITTAPI2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITTAPI2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITTAPI2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi2-createemptycollectionobject">CreateEmptyCollectionObject</a>
-</td>
-<td align="left" width="63%">
-Creates an empty collection object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi2-enumeratephones">EnumeratePhones</a>
-</td>
-<td align="left" width="63%">
-Enumerates the phone objects that are available.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi2-get_phones">get_Phones</a>
-</td>
-<td align="left" width="63%">
-Gets the collection of phone objects that are available.
-
-</td>
-</tr>
-</table>
+The <b>ITTAPI2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITTAPI2</b> also has these types of members:
 
 ## -see-also
 

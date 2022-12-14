@@ -54,29 +54,7 @@ Exposes a method that enumerates or initializes a namespace extension when it is
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRemoteComputer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRemoteComputer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IRemoteComputer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iremotecomputer-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Used by Windows Explorer or Internet Explorer when it is initializing or enumerating a namespace extension invoked on a remote computer.
-
-</td>
-</tr>
-</table>
+The <b>IRemoteComputer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRemoteComputer</b> also has these types of members:
 
 ## -remarks
 

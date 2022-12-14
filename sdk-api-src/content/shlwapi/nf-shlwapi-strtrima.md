@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.StrTrimA
 title: StrTrimA function (shlwapi.h)
-description: Removes specified leading and trailing characters from a string.
+description: Removes specified leading and trailing characters from a string. (ANSI)
 helpviewer_keywords: ["StrTrim","StrTrim function [Windows Shell]","StrTrimA","StrTrimW","_win32_StrTrim","shell.StrTrim","shlwapi/StrTrim","shlwapi/StrTrimA","shlwapi/StrTrimW"]
 old-location: shell\StrTrim.htm
 tech.root: shell

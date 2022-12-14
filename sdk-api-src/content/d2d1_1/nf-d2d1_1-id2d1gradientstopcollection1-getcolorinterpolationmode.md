@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the color interpolation mode that the gradient stop collection uses.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:strsafe.StringCbCatNW
 title: StringCbCatNW function (strsafe.h)
-description: Concatenates the specified number of bytes from one string to another string.
+description: Concatenates the specified number of bytes from one string to another string. (StringCbCatNW)
 helpviewer_keywords: ["StringCbCatN","StringCbCatN function [Menus and Other Resources]","StringCbCatNA","StringCbCatNW","_shell_StringCbCatN","_shell_stringcbcatn_cpp","menurc.stringcbcatn","strsafe/StringCbCatN","strsafe/StringCbCatNA","strsafe/StringCbCatNW","winui._shell_stringcbcatn"]
 old-location: menurc\stringcbcatn.htm
 tech.root: menurc
@@ -139,7 +139,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-Compared to  the functions it replaces, <b>StringCbCatN</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbCatN</b>always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
+Compared to  the functions it replaces, <b>StringCbCatN</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbCatN</b> always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 

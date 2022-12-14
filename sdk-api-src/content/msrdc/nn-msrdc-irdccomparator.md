@@ -56,28 +56,7 @@ The <b>IRdcComparator</b> interface is used to compare
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcComparator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRdcComparator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IRdcComparator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdccomparator-process">Process</a>
-</td>
-<td align="left" width="63%">
-Compares two signature streams (seed and source) and produces a needs list, which describes the data chunks needed to create 
-    the target file.</p> (Inherited from <b>IRdcComparator</b>)</td>
-</tr>
-</table>
+The <b>IRdcComparator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRdcComparator</b> also has these types of members:
 
 ## -see-also
 

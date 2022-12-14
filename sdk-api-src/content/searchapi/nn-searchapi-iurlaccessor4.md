@@ -54,78 +54,7 @@ Extends the functionality of the <a href="/windows/desktop/api/searchapi/nn-sear
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUrlAccessor4</b> interface inherits from <a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor3">IUrlAccessor3</a>. <b>IUrlAccessor4</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IUrlAccessor4</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor2-getcodepage">GetCodePage</a>
-</td>
-<td align="left" width="63%">
-Gets the code page for properties of the URL item.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor2-getdisplayurl">GetDisplayUrl</a>
-</td>
-<td align="left" width="63%">
-Gets the user-friendly path for the URL item.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor3-getimpersonationsidblobs">GetImpersonationSidBlobs</a>
-</td>
-<td align="left" width="63%">
-Retrieves an array of user SIDs for a specified URL. This method enables protocol handlers to specify which users can access the file and the search protocol host to impersonate a user in order to index the file.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor2-isdocument">IsDocument</a>
-</td>
-<td align="left" width="63%">
-Ascertains whether an item URL is a document or directory.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor4-shouldindexitemcontent">ShouldIndexItemContent</a>
-</td>
-<td align="left" width="63%">
-Identifies whether the item's content should be indexed. 
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor4-shouldindexproperty">ShouldIndexProperty</a>
-</td>
-<td align="left" width="63%">
-Identifies whether a property should be indexed.
-
-</td>
-</tr>
-</table>
+The <b>IUrlAccessor4</b> interface inherits from <a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor3">IUrlAccessor3</a>. <b>IUrlAccessor4</b> also has these types of members:
 
 ## -see-also
 

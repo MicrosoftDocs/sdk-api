@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.FindTrackerTargets
-title: IReferenceTracker::xaml (windows.ui.xaml.hosting.referencetracker.h)
+title: IReferenceTracker::FindTrackerTargets (windows.ui.xaml.hosting.referencetracker.h)
 description: Finds out what reference tracker targets are reachable from a reference tracker source; must be called by a garbage collector between calls to ReferenceTrackingStarted and FindTrackerTargetsCompleted.
 helpviewer_keywords: ["FindTrackerTargets","FindTrackerTargets method [Windows Runtime]","FindTrackerTargets method [Windows Runtime]","IReferenceTracker interface","IReferenceTracker interface [Windows Runtime]","FindTrackerTargets method","IReferenceTracker.FindTrackerTargets","IReferenceTracker.xaml","IReferenceTracker::FindTrackerTargets","IReferenceTracker::xaml","windows/IReferenceTracker::FindTrackerTargets","winrt.ireferencetracker_findtrackertargets"]
 old-location: winrt\ireferencetracker_findtrackertargets.htm
@@ -45,7 +45,7 @@ api_name:
  - IReferenceTracker.FindTrackerTargets
 ---
 
-# IReferenceTracker::xaml
+# IReferenceTracker::FindTrackerTargets (windows.ui.xaml.hosting.referencetracker.h)
 
 
 ## -description
@@ -58,7 +58,7 @@ Finds out what reference tracker targets are reachable from a reference tracker 
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

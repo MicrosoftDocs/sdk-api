@@ -165,7 +165,7 @@ For example, consider that the pen width is originally 53, the square root of th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846805(v=VS.85).aspx">IInkRenderer</a>
+<a href="../msinkaut/nn-msinkaut-iinkrenderer.md">IInkRenderer</a>
 
 
 

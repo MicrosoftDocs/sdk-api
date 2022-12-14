@@ -1,7 +1,7 @@
 ---
 UID: NF:ntdsapi.DsClientMakeSpnForTargetServerW
 title: DsClientMakeSpnForTargetServerW function (ntdsapi.h)
-description: Constructs a service principal name (SPN) that identifies a specific server to use for authentication.
+description: Constructs a service principal name (SPN) that identifies a specific server to use for authentication. (Unicode)
 helpviewer_keywords: ["DsClientMakeSpnForTargetServer","DsClientMakeSpnForTargetServer function [Active Directory]","DsClientMakeSpnForTargetServerA","DsClientMakeSpnForTargetServerW","_glines_dsclientmakespnfortargetserver","ad.dsclientmakespnfortargetserver","ntdsapi/DsClientMakeSpnForTargetServer","ntdsapi/DsClientMakeSpnForTargetServerA","ntdsapi/DsClientMakeSpnForTargetServerW"]
 old-location: ad\dsclientmakespnfortargetserver.htm
 tech.root: ad
@@ -86,7 +86,11 @@ This function is a simplified version of the <a href="/windows/desktop/api/dspar
 
 GUID-based DNS names are not supported. When constructed, the simplified SPN is as follows:
 
-<pre class="syntax" xml:space="preserve"><code>ServiceClass / ServiceName / ServiceName</code></pre>
+
+``` syntax
+ServiceClass / ServiceName / ServiceName
+```
+
 The instance name portion (second position) is always set to default. The port and referrer fields are not used.
 
 

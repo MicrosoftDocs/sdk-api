@@ -63,7 +63,7 @@ The version of the <a href="/windows/desktop/SecGloss/l-gly">Local Security Auth
 Pointer to a 
 <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_dll_functions">SECPKG_DLL_FUNCTIONS</a> structure containing the support functions that the security package can use in user-mode.
 
-### -param *UserFunctions [out]
+### -param UserFunctions [out]
 
 This parameter is not used.
 

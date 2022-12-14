@@ -53,7 +53,7 @@ api_name:
 
 The <code>Reset</code> method moves the iterator to the beginning of the collection.
 
-## -parameters
+
 
 ## -returns
 

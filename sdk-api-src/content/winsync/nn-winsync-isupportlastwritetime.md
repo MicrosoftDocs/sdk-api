@@ -54,40 +54,7 @@ Represents a synchronization provider that is able to report the date and time w
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISupportLastWriteTime</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISupportLastWriteTime</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISupportLastWriteTime</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isupportlastwritetime-getchangeunitchangetime">GetChangeUnitChangeTime</a>
-</td>
-<td align="left" width="63%">
-Gets the date and time when the specified change unit was last changed.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isupportlastwritetime-getitemchangetime">GetItemChangeTime</a>
-</td>
-<td align="left" width="63%">
-Gets the date and time when the specified item was last changed.
-
-
-</td>
-</tr>
-</table>
+The <b>ISupportLastWriteTime</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISupportLastWriteTime</b> also has these types of members:
 
 ## -remarks
 

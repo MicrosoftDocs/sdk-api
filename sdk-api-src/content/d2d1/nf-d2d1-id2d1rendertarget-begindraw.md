@@ -52,7 +52,7 @@ api_name:
 
 Initiates drawing on this render target.
 
-## -parameters
+
 
 ## -remarks
 

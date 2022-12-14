@@ -54,6 +54,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - SetFocus
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetFocus function
@@ -76,6 +77,8 @@ A handle to the window that will receive the keyboard input. If this parameter i
 Type: **HWND**
 
 If the function succeeds, the return value is the handle to the window that previously had the keyboard focus. If the *hWnd* parameter is invalid or the window is not attached to the calling thread's message queue, the return value is NULL. To get extended error information, call [GetLastError function](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
+
+Extended error ERROR_INVALID_PARAMETER (0x57) means that window is in disabled state.
 
 ## -remarks
 

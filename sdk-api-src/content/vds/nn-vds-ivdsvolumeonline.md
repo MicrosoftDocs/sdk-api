@@ -57,26 +57,5 @@ Provides a method to repair  single volumes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsVolumeOnline</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVolumeOnline</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVdsVolumeOnline</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVolumeOnline</b> also has these types of members:
 
-## -members
-
-The <b>IVdsVolumeOnline</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsvolumeonline-online">Online</a>
-</td>
-<td align="left" width="63%">
-Returns a volume to the healthy state, if possible.
-
-</td>
-</tr>
-</table>

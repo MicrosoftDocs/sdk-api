@@ -6,7 +6,7 @@ helpviewer_keywords: ["D3DCRYPTOTYPE_AES128_CTR","D3DCRYPTOTYPE_PROPRIETARY","Ge
 old-location: mf\idirect3ddevice9video_getcontentprotectioncaps.htm
 tech.root: mf
 ms.assetid: 4093e64c-340d-4f66-97ed-45bae3b259eb
-ms.date: 12/05/2018
+ms.date: 11/19/2020
 ms.keywords: D3DCRYPTOTYPE_AES128_CTR, D3DCRYPTOTYPE_PROPRIETARY, GetContentProtectionCaps, GetContentProtectionCaps method [Media Foundation], GetContentProtectionCaps method [Media Foundation],IDirect3DDevice9Video interface, IDirect3DDevice9Video interface [Media Foundation],GetContentProtectionCaps method, IDirect3DDevice9Video.GetContentProtectionCaps, IDirect3DDevice9Video::GetContentProtectionCaps, d3d9/IDirect3DDevice9Video::GetContentProtectionCaps, mf.idirect3ddevice9video_getcontentprotectioncaps
 req.header: d3d9.h
 req.include-header: 
@@ -59,12 +59,13 @@ Queries the display driver for its content protection capabilities.
 A pointer to a GUID that specifies the type of encryption to use. The following GUIDs are defined.
 
 
+**D3DCRYPTOTYPE_AES128_CTR**
 
-##### )
+128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher.
 
+**D3DCRYPTOTYPE_PROPRIETARY**
 
-
-##### )
+Proprietary encryption algorithm.
 
 ### -param pDecodeProfile
 
@@ -76,7 +77,7 @@ A pointer to a <a href="/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcontentprot
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

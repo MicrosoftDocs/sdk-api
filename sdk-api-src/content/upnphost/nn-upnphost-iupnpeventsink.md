@@ -55,36 +55,5 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPEventSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPEventSink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IUPnPEventSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPEventSink</b> also has these types of members:
 
-## -members
-
-The <b>IUPnPEventSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpeventsink-onstatechanged">OnStateChanged</a>
-</td>
-<td align="left" width="63%">
-Method that sends the list of <a href="/previous-versions/windows/desktop/automat/dispid-constants">dispids</a> for state variables that have changed and their changed values to the device host. The device host then queries the device for the changed values and sends the event to all subscribed control points.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpeventsink-onstatechangedsafe">OnStateChangedSafe</a>
-</td>
-<td align="left" width="63%">
-The version of 
-<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpeventsink-onstatechanged">OnStateChanged</a> method that must be used by developers using programming languages that do not support native arrays, such as Visual Basic.
-
-</td>
-</tr>
-</table>

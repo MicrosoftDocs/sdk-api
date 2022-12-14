@@ -54,38 +54,7 @@ Exposed by the autocomplete object (CLSID_AutoComplete). This interface allows a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAutoComplete</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAutoComplete</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAutoComplete</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shldisp/nf-shldisp-iautocomplete-enable">Enable</a>
-</td>
-<td align="left" width="63%">
-Enables or disables autocompletion.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shldisp/nf-shldisp-iautocomplete-init">Init</a>
-</td>
-<td align="left" width="63%">
-Initializes the autocomplete object.
-
-</td>
-</tr>
-</table>
+The <b>IAutoComplete</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAutoComplete</b> also has these types of members:
 
 ## -remarks
 

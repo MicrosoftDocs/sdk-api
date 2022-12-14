@@ -55,35 +55,35 @@ The <b>SCOPE_LEVEL</b> enumeration is used with the <a href="/windows/desktop/ap
 
 ## -enum-fields
 
-### -field ScopeLevelInterface
+### -field ScopeLevelInterface:1
 
 The scope is interface-level.
 
-### -field ScopeLevelLink
+### -field ScopeLevelLink:2
 
 The scope is link-level.
 
-### -field ScopeLevelSubnet
+### -field ScopeLevelSubnet:3
 
 The scope is subnet-level.
 
-### -field ScopeLevelAdmin
+### -field ScopeLevelAdmin:4
 
 The scope is admin-level.
 
-### -field ScopeLevelSite
+### -field ScopeLevelSite:5
 
 The scope is site-level.
 
-### -field ScopeLevelOrganization
+### -field ScopeLevelOrganization:8
 
 The scope is organization-level.
 
-### -field ScopeLevelGlobal
+### -field ScopeLevelGlobal:14
 
 The scope is global.
 
-### -field ScopeLevelCount
+### -field ScopeLevelCount:16
 
 ## -remarks
 

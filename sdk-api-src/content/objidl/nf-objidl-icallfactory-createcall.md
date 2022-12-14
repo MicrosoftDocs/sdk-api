@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.ICallFactory.CreateCall
 title: ICallFactory::CreateCall (objidl.h)
-description: Creates an instance of the call object that corresponds to a specified asynchronous interface.
+description: The ICallFactory::CreateCall method (objidl.h) creates an instance of the call object that corresponds to a specified asynchronous interface.
 helpviewer_keywords: ["CreateCall","CreateCall method [COM]","CreateCall method [COM]","ICallFactory interface","ICallFactory interface [COM]","CreateCall method","ICallFactory.CreateCall","ICallFactory::CreateCall","_com_icallfactory_createcall","com.icallfactory_createcall","objidlbase/ICallFactory::CreateCall"]
 old-location: com\icallfactory_createcall.htm
 tech.root: com
 ms.assetid: 8df51aeb-4852-4dab-b1e9-e149ee115ea8
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: CreateCall, CreateCall method [COM], CreateCall method [COM],ICallFactory interface, ICallFactory interface [COM],CreateCall method, ICallFactory.CreateCall, ICallFactory::CreateCall, _com_icallfactory_createcall, com.icallfactory_createcall, objidlbase/ICallFactory::CreateCall
 req.header: objidl.h
 req.include-header: ObjIdl.h
@@ -60,7 +60,7 @@ A reference to the identifier for the asynchronous interface.
 
 ### -param pCtrlUnk [in]
 
-A pointer to the controlling <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the call object. If this parameter is not <b>NULL</b>, the call object is aggregated in the specified object.
+A pointer to the controlling <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the call object. If this parameter is not <b>NULL</b>, the call object is aggregated in the specified object, and the <i>riid2</i> parameter must be IID_IUnknown.
 If this parameter is <b>NULL</b>, the call object is not aggregated.
 
 ### -param riid2 [in]

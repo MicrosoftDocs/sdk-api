@@ -54,7 +54,7 @@ Moves the text range forward or backward by the specified number of text units.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textunit">TextUnit</a></b>
 
@@ -65,20 +65,20 @@ The type of text units, such as character, word, paragraph, and so on.
 Type: <b>int</b>
 
 The number of text units to move. A positive value moves the text range forward. 
-                A negative value moves the text range backward. Zero has no effect.
+
+A negative value moves the text range backward. Zero has no effect.
 
 ### -param pRetVal [out, retval]
 
 Type: <b>int*</b>
 
-The number of text units actually moved. This can be less than the number requested if 
-				either of the new text range endpoints is greater than or less than the endpoints retrieved by the <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itextprovider-get_documentrange">ITextProvider::DocumentRange</a> method. This value can be negative if navigation is happening in the backward direction.
+The number of text units actually moved. This can be less than the number requested if either of the new text range endpoints is greater than or less than the endpoints retrieved by the <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itextprovider-get_documentrange">ITextProvider::DocumentRange</a> method. This value can be negative if navigation is happening in the backward direction.
 
 ## -returns
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -98,8 +98,7 @@ For a non-degenerate (non-empty) text range, <b>ITextRangeProvider::Move</b> sho
 </ol>
 If any of the preceding steps fail, the text range should be left unchanged.  If the text range cannot be moved as far as the requested number of text units, but can be moved by a smaller number of text units, the text range should be moved by the smaller number of text units and <i>pRetVal</i> should be set to the number of text units moved successfully.
 
-For a degenerate text range, <b>ITextRangeProvider::Move</b> should simply move the 
-            text insertion point by the specified number of text units. 
+For a degenerate text range, <b>ITextRangeProvider::Move</b> should simply move the text insertion point by the specified number of text units. 
 
 When moving a text range, the provider should ignore the boundaries of any embedded objects in the text.
 
@@ -108,7 +107,7 @@ When moving a text range, the provider should ignore the boundaries of any embed
 
 If a text-based control does not support the text unit specified by the <i>unit</i> parameter, the provider should substitute the next larger supported text unit. 
         
-        The size of the text units, from smallest unit to largest, is as follows.
+The size of the text units, from smallest unit to largest, is as follows.
 
 <ul>
 <li>Character

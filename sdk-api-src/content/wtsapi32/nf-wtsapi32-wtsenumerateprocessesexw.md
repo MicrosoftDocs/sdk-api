@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsapi32.WTSEnumerateProcessesExW
 title: WTSEnumerateProcessesExW function (wtsapi32.h)
-description: Retrieves information about the active processes on the specified Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server.
+description: Retrieves information about the active processes on the specified Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server. (Unicode)
 helpviewer_keywords: ["WTSEnumerateProcessesEx","WTSEnumerateProcessesEx function [Remote Desktop Services]","WTSEnumerateProcessesExA","WTSEnumerateProcessesExW","termserv.wtsenumerateprocessesex","wtsapi32/WTSEnumerateProcessesEx","wtsapi32/WTSEnumerateProcessesExA","wtsapi32/WTSEnumerateProcessesExW"]
 old-location: termserv\wtsenumerateprocessesex.htm
 tech.root: TermServ
@@ -46,6 +46,7 @@ api_name:
  - WTSEnumerateProcessesEx
  - WTSEnumerateProcessesExA
  - WTSEnumerateProcessesExW
+req.apiset: ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)
 ---
 
 # WTSEnumerateProcessesExW function

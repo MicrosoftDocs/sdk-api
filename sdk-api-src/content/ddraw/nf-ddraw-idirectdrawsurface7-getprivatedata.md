@@ -54,15 +54,15 @@ Copies the private data that is associated with this surface to a provided buffe
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Reference to (C++) or address of (C) the globally unique identifier that identifies the private data to be retrieved.
 
-### -param arg2 [out]
+### -param unnamedParam2 [out]
 
 A pointer to a previously allocated buffer that receives the requested private data if the call succeeds. The application that calls this method must allocate and release this buffer.
 
-### -param arg3 [in, out]
+### -param unnamedParam3 [in, out]
 
 A pointer to a variable that contains the size value of the buffer at <i>lpBuffer</i>, in bytes. If this value is less than the actual size of the private data (such as 0), <b>GetPrivateData</b> sets the variable to the required buffer size, and then returns DDERR_MOREDATA.
 
@@ -85,7 +85,7 @@ If it fails, the method can return one of the following error values:
 
 ## -remarks
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetPrivateData</b> method.
+
 
 ## -see-also
 

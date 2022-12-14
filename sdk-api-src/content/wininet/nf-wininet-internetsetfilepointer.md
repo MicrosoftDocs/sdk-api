@@ -73,10 +73,7 @@ The low order 32-bits of a signed 64-bit number of bytes to move the file pointe
 
 ### -param lpDistanceToMoveHigh [in, out]
 
-A pointer to the high order 32-bits of the signed 64-bit distance
-        to move. If you do not need the high order 32-bits, this pointer must
-        be set to <b>NULL</b>.  When not <b>NULL</b>, this parameter also receives the high
-        order DWORD of the new value of the file pointer. A positive value moves the pointer forward in the file; a negative value moves it backward.<b>Internet Explorer 7 and earlier:  </b><b>InternetSetFilePointer</b> used to move the pointer only within the bounds of  a LONG. When calling this older version of the function, <i>lpDistanceToMoveHigh</i> is reserved and should be set to <b>0</b>.
+A pointer to the high order 32-bits of the signed 64-bit distance to move. If you do not need the high order 32-bits, this pointer must  be set to <b>NULL</b>.  When not <b>NULL</b>, this parameter also receives the high order DWORD of the new value of the file pointer. A positive value moves the pointer forward in the file; a negative value moves it backward.<b>Internet Explorer 7 and earlier:  </b><b>InternetSetFilePointer</b> used to move the pointer only within the bounds of  a LONG. When calling this older version of the function, <i>lpDistanceToMoveHigh</i> is reserved and should be set to <b>0</b>.
 
 ### -param dwMoveMethod [in]
 
@@ -134,23 +131,15 @@ I the function succeeds, it returns the current file position.     A return valu
 Since <b>INVALID_SET_FILE_POINTER</b> is a valid value for the  low-order DWORD of the new file pointer, the caller must check both the
 return value of the function and the error code returned by <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to determine whether or not an error has occurred.   If an error has occurred, the return value of InternetSetFilePointer        is <b>INVALID_SET_FILE_POINTER</b> and <b>GetLastError</b> returns a value other than <b>NO_ERROR</b>.
 
-If the function succeeds and <i>lpDistanceToMoveHigh</i> is <b>NULL</b>, the return
-    value is the low-order <b>DWORD</b> of the new file pointer.
+If the function succeeds and <i>lpDistanceToMoveHigh</i> is <b>NULL</b>, the return value is the low-order <b>DWORD</b> of the new file pointer.
 
-        Note that if the function returns a value other than
-        <b>INVALID_SET_FILE_POINTER</b>, the call to <b>InternetSetFilePointer</b>has succeeded and there is no need to call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+Note that if the function returns a value other than <b>INVALID_SET_FILE_POINTER</b>, the call to <b>InternetSetFilePointer</b> has succeeded and there is no need to call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-If the function succeeds and <i>lpDistanceToMoveHigh</i> is not <b>NULL</b>, the
-    return value is the lower-order <b>DWORD</b> of the new file pointer and
-    <i>lpDistanceToMoveHigh</i> contains the high order <b>DWORD</b> of the new file
-    pointer.
+If the function succeeds and <i>lpDistanceToMoveHigh</i> is not <b>NULL</b>, the return value is the lower-order <b>DWORD</b> of the new file pointer and <i>lpDistanceToMoveHigh</i> contains the high order <b>DWORD</b> of the new file pointer.
 
-If a new file pointer is a negative value, the function fails, the file
-    pointer is not moved, and the code returned by <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> is
-    <b>ERROR_NEGATIVE_SEEK</b>.
+If a new file pointer is a negative value, the function fails, the file pointer is not moved, and the code returned by <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> is <b>ERROR_NEGATIVE_SEEK</b>.
 
-If <i>lpDistanceToMoveHigh</i> is <b>NULL</b> and the new file position does not fit
-    in a 32-bit value the function fails and returns <b>INVALID_SET_FILE_POINTER</b>.
+If <i>lpDistanceToMoveHigh</i> is <b>NULL</b> and the new file position does not fit in a 32-bit value the function fails and returns <b>INVALID_SET_FILE_POINTER</b>.
 
 ## -remarks
 

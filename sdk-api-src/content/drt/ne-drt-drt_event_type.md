@@ -56,15 +56,15 @@ The <b>DRT_EVENT_TYPE</b> enumeration defines the set of events that can be rais
 
 ## -enum-fields
 
-### -field DRT_EVENT_STATUS_CHANGED
+### -field DRT_EVENT_STATUS_CHANGED:0
 
 The status of the local DRT instance has changed.
 
-### -field DRT_EVENT_LEAFSET_KEY_CHANGED
+### -field DRT_EVENT_LEAFSET_KEY_CHANGED:1
 
 A key or node was changed from the DRT leaf set of the local node.
 
-### -field DRT_EVENT_REGISTRATION_STATE_CHANGED
+### -field DRT_EVENT_REGISTRATION_STATE_CHANGED:2
 
 A locally published key is no longer resolvable by other nodes.
 

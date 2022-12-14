@@ -58,7 +58,7 @@ api_name:
 
 ## -enum-fields
 
-### -field MaxCacheResponseSize
+### -field MaxCacheResponseSize:0
 
 The maximum cache size for the response.
 

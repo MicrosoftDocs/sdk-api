@@ -55,11 +55,11 @@ Defines the WS-Trust specification version to be used with message
 
 ## -enum-fields
 
-### -field WS_TRUST_VERSION_FEBRUARY_2005
+### -field WS_TRUST_VERSION_FEBRUARY_2005:0x1
 
 WS-Trust with the specification URI of http://schemas.xmlsoap.org/ws/2005/02/trust
 
-### -field WS_TRUST_VERSION_1_3
+### -field WS_TRUST_VERSION_1_3:0x2
 
 WS-Trust 1.3 with the specification URI of http://docs.oasis-open.org/ws-sx/ws-trust/200512
 

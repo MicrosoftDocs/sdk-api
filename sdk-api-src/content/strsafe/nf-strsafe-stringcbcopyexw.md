@@ -1,7 +1,7 @@
 ---
 UID: NF:strsafe.StringCbCopyExW
 title: StringCbCopyExW function (strsafe.h)
-description: Copies one string to another.
+description: Copies one string to another. (StringCbCopyExW)
 helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCbCopyEx","StringCbCopyEx function [Menus and Other Resources]","StringCbCopyExA","StringCbCopyExW","_shell_StringCbCopyEx","_shell_stringcbcopyex_cpp","menurc.stringcbcopyex","strsafe/StringCbCopyEx","strsafe/StringCbCopyExA","strsafe/StringCbCopyExW","winui._shell_stringcbcopyex"]
 old-location: menurc\stringcbcopyex.htm
 tech.root: menurc
@@ -218,7 +218,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-Compared to  the functions it replaces, <b>StringCbCopyEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbCopyEx</b>always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
+Compared to  the functions it replaces, <b>StringCbCopyEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbCopyEx</b> always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsDrive.QueryExtents
 title: IVdsDrive::QueryExtents (vds.h)
-description: Returns an array of the extents on a drive, including both allocated and unallocated extents.
+description: The IVdsDrive::QueryExtents method (vds.h) returns an array of the extents on a drive, including both allocated and unallocated extents.
 helpviewer_keywords: ["IVdsDrive interface [VDS]","QueryExtents method","IVdsDrive.QueryExtents","IVdsDrive::QueryExtents","QueryExtents","QueryExtents method [VDS]","QueryExtents method [VDS]","IVdsDrive interface","base.ivdsdrive_queryextents","vds/IVdsDrive::QueryExtents","vdshwprv/IVdsDrive::QueryExtents"]
 old-location: base\ivdsdrive_queryextents.htm
 tech.root: base
 ms.assetid: 8ee3e085-ce69-457e-b652-bb9c45b7fdd8
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsDrive interface [VDS],QueryExtents method, IVdsDrive.QueryExtents, IVdsDrive::QueryExtents, QueryExtents, QueryExtents method [VDS], QueryExtents method [VDS],IVdsDrive interface, base.ivdsdrive_queryextents, vds/IVdsDrive::QueryExtents, vdshwprv/IVdsDrive::QueryExtents
 req.header: vds.h
 req.include-header: 
@@ -167,7 +167,7 @@ A drive can contribute extents to any number of LUNs, and these LUNs can be unma
     the extents of a LUN plex.
 
 The <b>LunId</b> member of each 
-     <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_extent">VDS_DRIVE_EXTENT</a>structure specifies the GUID for the LUN to which each allocated extent contributes. Consequently, you can use 
+     <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_extent">VDS_DRIVE_EXTENT</a> structure specifies the GUID for the LUN to which each allocated extent contributes. Consequently, you can use 
      the result of this method to determine the number of LUNs to which the drive contributes by counting the number 
      of distinct <b>LunId</b> values returned in <i>ppExtentArray</i>.
 

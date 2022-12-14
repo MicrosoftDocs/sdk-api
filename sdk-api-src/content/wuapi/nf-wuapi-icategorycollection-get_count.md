@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.ICategoryCollection.get_Count
 title: ICategoryCollection::get_Count (wuapi.h)
-description: Gets the number of elements in the collection.
+description: Gets the number of elements in the collection. (ICategoryCollection.get_Count)
 helpviewer_keywords: ["Count property [Windows Update Agent]","Count property [Windows Update Agent]","ICategoryCollection interface","ICategoryCollection interface [Windows Update Agent]","Count property","ICategoryCollection.Count","ICategoryCollection.get_Count","ICategoryCollection::Count","ICategoryCollection::get_Count","get_Count","wua.icategorycollection_count","wuapi/ICategoryCollection::Count","wuapi/ICategoryCollection::get_Count"]
 old-location: wua\icategorycollection_count.htm
 tech.root: wua

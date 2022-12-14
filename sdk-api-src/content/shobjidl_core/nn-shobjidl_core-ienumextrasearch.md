@@ -54,56 +54,7 @@ A standard OLE enumerator used by a client to determine the available search obj
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumExtraSearch</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumExtraSearch</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IEnumExtraSearch</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumextrasearch-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Used to request a duplicate of the enumerator object to preserve its current state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumextrasearch-next">Next</a>
-</td>
-<td align="left" width="63%">
-Used to request information on one or more search objects.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumextrasearch-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Used to reset the enumeration index to zero.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumextrasearch-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skip a specified number of objects.
-
-</td>
-</tr>
-</table>
+The <b>IEnumExtraSearch</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumExtraSearch</b> also has these types of members:
 
 ## -remarks
 

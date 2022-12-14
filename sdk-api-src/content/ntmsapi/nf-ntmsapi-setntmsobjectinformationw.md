@@ -1,12 +1,12 @@
 ---
 UID: NF:ntmsapi.SetNtmsObjectInformationW
 title: SetNtmsObjectInformationW function (ntmsapi.h)
-description: The SetNtmsObjectInformation function changes the information structure of the specified object.
+description: The SetNtmsObjectInformationW (Unicode) function changes the information structure of the specified object. (SetNtmsObjectInformationW)
 helpviewer_keywords: ["SetNtmsObjectInformation","SetNtmsObjectInformation function [Files]","SetNtmsObjectInformationA","SetNtmsObjectInformationW","_zaw_setntmsobjectinformation","base.setntmsobjectinformation","fs.setntmsobjectinformation","ntmsapi/SetNtmsObjectInformation","ntmsapi/SetNtmsObjectInformationA","ntmsapi/SetNtmsObjectInformationW"]
 old-location: fs\setntmsobjectinformation.htm
 tech.root: fs
 ms.assetid: 1cdb9c72-1b34-4800-a07d-b648baec8582
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: SetNtmsObjectInformation, SetNtmsObjectInformation function [Files], SetNtmsObjectInformationA, SetNtmsObjectInformationW, _zaw_setntmsobjectinformation, base.setntmsobjectinformation, fs.setntmsobjectinformation, ntmsapi/SetNtmsObjectInformation, ntmsapi/SetNtmsObjectInformationA, ntmsapi/SetNtmsObjectInformationW
 req.header: ntmsapi.h
 req.include-header: 
@@ -252,7 +252,7 @@ The following is the list of objects that have members that can be updated.
 </tr>
 <tr>
 <td>NTMS_LIBRARY</td>
-<td><b>AutoRecovery</b><div> </div><b>dwCleanerUsesRemaining</b><div> </div><b>dwFlags</b><div> </div><b>InventoryMethod</b><div> </div><b>szDescription</b><div> </div><b>szName</b>Requires NTMS_CONTROL_ACCESS to the library.
+<td><b>AutoRecovery</b><div> </div><b>dwCleanerUsesRemaining</b><div> </div><b>dwFlags</b><div> </div><b>InventoryMethod</b><div> </div><b>szDescription</b><div> </div><b>szName</b> Requires NTMS_CONTROL_ACCESS to the library.
 
 </td>
 </tr>

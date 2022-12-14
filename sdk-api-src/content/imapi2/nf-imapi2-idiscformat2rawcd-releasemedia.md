@@ -52,7 +52,7 @@ api_name:
 
 Closes a Disc-At-Once (DAO) writing session of a raw image and releases the lock.
 
-## -parameters
+
 
 ## -returns
 

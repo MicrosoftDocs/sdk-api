@@ -53,7 +53,7 @@ api_name:
 
 Generates a list of peers that can serve content.
 
-## -parameters
+
 
 ## -returns
 

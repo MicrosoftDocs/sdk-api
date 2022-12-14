@@ -1,15 +1,15 @@
 ---
 UID: NF:synchapi.OpenEventW
 title: OpenEventW function (synchapi.h)
-description: Opens an existing named event object.
+description: Opens an existing named event object. (Unicode)
 helpviewer_keywords: ["OpenEvent","OpenEvent function","OpenEventA","OpenEventW","_win32_openevent","base.openevent","synchapi/OpenEvent","synchapi/OpenEventA","synchapi/OpenEventW","winbase/OpenEvent","winbase/OpenEventA","winbase/OpenEventW"]
 old-location: base\openevent.htm
-tech.root: backup
+tech.root: base
 ms.assetid: 46741024-ace3-44d6-b8a6-5621ad121a1a
 ms.date: 12/05/2018
 ms.keywords: OpenEvent, OpenEvent function, OpenEventA, OpenEventW, _win32_openevent, base.openevent, synchapi/OpenEvent, synchapi/OpenEventA, synchapi/OpenEventW, winbase/OpenEvent, winbase/OpenEventA, winbase/OpenEventW
 req.header: synchapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -77,7 +77,7 @@ The  name of the event to be opened. Name comparisons are case sensitive.
 
 This function can open objects in a private namespace. For more information, see <a href="/windows/desktop/Sync/object-namespaces">Object Namespaces</a>.
 
-<b>Terminal Services:  </b>The name can have a "Global\" or "Local\" prefix to explicitly open an object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\). For more information, see 
+<b>Terminal Services:  </b>The name can have a "Global\" or "Local\" prefix to explicitly open an object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\\). For more information, see 
 <a href="/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>.
 
 <b>Note</b>  Fast user switching is implemented using Terminal Services sessions. The first user to log on uses session 0, the next user to log on uses session 1, and so on. Kernel object names must follow the guidelines outlined for Terminal Services so that applications can support multiple users.

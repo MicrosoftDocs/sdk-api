@@ -1,7 +1,7 @@
 ---
 UID: NF:msacm.acmDriverAddA
 title: acmDriverAddA function (msacm.h)
-description: The acmDriverAdd function adds a driver to the list of available ACM drivers.
+description: The acmDriverAdd function adds a driver to the list of available ACM drivers. (acmDriverAddA)
 helpviewer_keywords: ["_win32_acmDriverAdd","acmDriverAdd","acmDriverAdd function [Windows Multimedia]","acmDriverAddA","acmDriverAddW","msacm/acmDriverAdd","msacm/acmDriverAddA","msacm/acmDriverAddW","multimedia.acmdriveradd"]
 old-location: multimedia\acmdriveradd.htm
 tech.root: Multimedia

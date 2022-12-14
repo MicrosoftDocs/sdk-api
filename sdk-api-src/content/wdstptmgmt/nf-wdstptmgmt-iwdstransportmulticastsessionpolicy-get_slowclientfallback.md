@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportMulticastSessionPolicy.get_SlowClientFallback
 title: IWdsTransportMulticastSessionPolicy::get_SlowClientFallback (wdstptmgmt.h)
-description: Receives a value that indicates the fallback policy requested by the server when automatically disconnecting slow clients from a multicast transmission.
+description: Receives a value that indicates the fallback policy requested by the server when automatically disconnecting slow clients from a multicast transmission. (Get)
 helpviewer_keywords: ["IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services]","SlowClientFallback property","IWdsTransportMulticastSessionPolicy.SlowClientFallback","IWdsTransportMulticastSessionPolicy.get_SlowClientFallback","IWdsTransportMulticastSessionPolicy::SlowClientFallback","IWdsTransportMulticastSessionPolicy::get_SlowClientFallback","IWdsTransportMulticastSessionPolicy::put_SlowClientFallback","SlowClientFallback property [Windows Deployment Services]","SlowClientFallback property [Windows Deployment Services]","IWdsTransportMulticastSessionPolicy interface","get_SlowClientFallback","wds.iwdstransportmulticastsessionpolicy_slowclientfallback","wdstptmgmt/IWdsTransportMulticastSessionPolicy::SlowClientFallback","wdstptmgmt/IWdsTransportMulticastSessionPolicy::get_SlowClientFallback","wdstptmgmt/IWdsTransportMulticastSessionPolicy::put_SlowClientFallback"]
 old-location: wds\iwdstransportmulticastsessionpolicy_slowclientfallback.htm
 tech.root: wds

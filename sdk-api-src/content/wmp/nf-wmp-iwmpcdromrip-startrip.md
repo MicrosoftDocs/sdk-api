@@ -52,7 +52,7 @@ api_name:
 
 The <b>startRip</b> method rips the CD.
 
-## -parameters
+
 
 ## -returns
 

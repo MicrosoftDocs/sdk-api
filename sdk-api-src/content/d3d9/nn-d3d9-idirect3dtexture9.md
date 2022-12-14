@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d9.IDirect3DTexture9
 title: IDirect3DTexture9 (d3d9.h)
-description: Applications use the methods of the IDirect3DTexture9 interface to manipulate a texture resource.
+description: The IDirect3DTexture9 (d3d9.h) interface is used by applications to manipulate a texture resource.
 helpviewer_keywords: ["IDirect3DTexture9","IDirect3DTexture9 interface [Direct3D 9]","IDirect3DTexture9 interface [Direct3D 9]","described","d3d9helper/IDirect3DTexture9","direct3d9.idirect3dtexture9","f2bb39fa-d156-a3ea-9ea0-656a78998f7a"]
 old-location: direct3d9\idirect3dtexture9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dtexture9.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: IDirect3DTexture9, IDirect3DTexture9 interface [Direct3D 9], IDirect3DTexture9 interface [Direct3D 9],described, d3d9helper/IDirect3DTexture9, direct3d9.idirect3dtexture9, f2bb39fa-d156-a3ea-9ea0-656a78998f7a
 req.header: d3d9.h
 req.include-header: D3D9.h
@@ -55,65 +55,7 @@ Applications use the methods of the IDirect3DTexture9 interface to manipulate a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DTexture9</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a>. <b>IDirect3DTexture9</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDirect3DTexture9</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-adddirtyrect">AddDirtyRect</a>
-</td>
-<td align="left" width="63%">
-Adds a dirty region to a texture resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-getleveldesc">GetLevelDesc</a>
-</td>
-<td align="left" width="63%">
-Retrieves a level description of a texture resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-getsurfacelevel">GetSurfaceLevel</a>
-</td>
-<td align="left" width="63%">
-Retrieves the specified texture surface level.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-lockrect">LockRect</a>
-</td>
-<td align="left" width="63%">
-Locks a rectangle on a texture resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-unlockrect">UnlockRect</a>
-</td>
-<td align="left" width="63%">
-Unlocks a rectangle on a texture resource.
-
-</td>
-</tr>
-</table>
+The <b>IDirect3DTexture9</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a>. <b>IDirect3DTexture9</b> also has these types of members:
 
 ## -remarks
 

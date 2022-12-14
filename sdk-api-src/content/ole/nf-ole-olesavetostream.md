@@ -1,12 +1,12 @@
 ---
 UID: NF:ole.OleSaveToStream
 title: OleSaveToStream function (ole.h)
-description: Saves an object with the IPersistStream interface on it to the specified stream.
+description: The OleSaveToStream function (ole.h) saves an object with the IPersistStream interface on it to the specified stream.
 helpviewer_keywords: ["OleSaveToStream","OleSaveToStream function [COM]","_ole_OleSaveToStream","com.olesavetostream","ole/OleSaveToStream"]
 old-location: com\olesavetostream.htm
 tech.root: com
 ms.assetid: 0085c6a8-1a94-4379-9937-c8d792d130da
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: OleSaveToStream, OleSaveToStream function [COM], _ole_OleSaveToStream, com.olesavetostream, ole/OleSaveToStream
 req.header: ole.h
 req.include-header: Ole2.h
@@ -48,6 +48,7 @@ api_location:
  - Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
  - OleSaveToStream
+req.apiset: ext-ms-win-com-ole32-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # OleSaveToStream function
@@ -59,11 +60,11 @@ Saves an object with the <a href="/windows/desktop/api/objidl/nn-objidl-ipersist
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> interface on the object to be saved to the stream. The <i>pPStm</i> parameter cannot be <b>NULL</b>.
 
-### -param arg2
+### -param unnamedParam2
 
  Pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface on the stream in which the object is to be saved.
 

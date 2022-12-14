@@ -54,47 +54,7 @@ Seeks a byte stream by time position.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFByteStreamTimeSeek</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFByteStreamTimeSeek</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFByteStreamTimeSeek</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamtimeseek-gettimeseekresult">GetTimeSeekResult</a>
-</td>
-<td align="left" width="63%">
-Gets the result of a time-based seek.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamtimeseek-istimeseeksupported">IsTimeSeekSupported</a>
-</td>
-<td align="left" width="63%">
-Queries whether the byte stream supports time-based seeking.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamtimeseek-timeseek">TimeSeek</a>
-</td>
-<td align="left" width="63%">
-Seeks to a new position in the byte stream.
-
-</td>
-</tr>
-</table>
+The <b>IMFByteStreamTimeSeek</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFByteStreamTimeSeek</b> also has these types of members:
 
 ## -remarks
 

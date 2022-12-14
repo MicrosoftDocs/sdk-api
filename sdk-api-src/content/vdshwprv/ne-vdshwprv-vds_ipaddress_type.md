@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv.VDS_IPADDRESS_TYPE
 title: VDS_IPADDRESS_TYPE (vdshwprv.h)
-description: Defines the set of valid types for an IP address.
+description: The VDS_IPADDRESS_TYPE enumeration (vdshwprv.h) defines the set of valid types for an IP address.
 helpviewer_keywords: ["VDS_IPADDRESS_TYPE","VDS_IPADDRESS_TYPE enumeration [VDS]","VDS_IPT_EMPTY","VDS_IPT_IPV4","VDS_IPT_IPV6","VDS_IPT_TEXT","base.vds_ipaddress_type","vds/VDS_IPADDRESS_TYPE","vds/VDS_IPT_EMPTY","vds/VDS_IPT_IPV4","vds/VDS_IPT_IPV6","vds/VDS_IPT_TEXT","vdshwprv/VDS_IPADDRESS_TYPE","vdshwprv/VDS_IPT_EMPTY","vdshwprv/VDS_IPT_IPV4","vdshwprv/VDS_IPT_IPV6","vdshwprv/VDS_IPT_TEXT"]
 old-location: base\vds_ipaddress_type.htm
 tech.root: base
 ms.assetid: 9121957f-1626-4d52-9749-0a769fece5fa
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_IPADDRESS_TYPE, VDS_IPADDRESS_TYPE enumeration [VDS], VDS_IPT_EMPTY, VDS_IPT_IPV4, VDS_IPT_IPV6, VDS_IPT_TEXT, base.vds_ipaddress_type, vds/VDS_IPADDRESS_TYPE, vds/VDS_IPT_EMPTY, vds/VDS_IPT_IPV4, vds/VDS_IPT_IPV6, vds/VDS_IPT_TEXT, vdshwprv/VDS_IPADDRESS_TYPE, vdshwprv/VDS_IPT_EMPTY, vdshwprv/VDS_IPT_IPV4, vdshwprv/VDS_IPT_IPV6, vdshwprv/VDS_IPT_TEXT
 req.header: vdshwprv.h
 req.include-header: 
@@ -59,20 +59,20 @@ Defines the set of valid types for an IP address. These values are used in the
 
 ## -enum-fields
 
-### -field VDS_IPT_TEXT
+### -field VDS_IPT_TEXT:0
 
 The address is a text address that is either a DNS address, an IPv4 dotted address, or an IPv6 hex 
       address.
 
-### -field VDS_IPT_IPV4
+### -field VDS_IPT_IPV4:1
 
 The address is an IPv4 address in binary format.
 
-### -field VDS_IPT_IPV6
+### -field VDS_IPT_IPV6:2
 
 The address is an IPv6 address in binary format.
 
-### -field VDS_IPT_EMPTY
+### -field VDS_IPT_EMPTY:3
 
 The address is empty.
 

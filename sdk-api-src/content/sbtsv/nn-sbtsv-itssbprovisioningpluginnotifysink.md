@@ -54,74 +54,7 @@ Exposes methods that notify Remote Desktop Connection Broker (RD Connection Bro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbProvisioningPluginNotifySink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbProvisioningPluginNotifySink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITsSbProvisioningPluginNotifySink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioningpluginnotifysink-lockvirtualmachine">LockVirtualMachine</a>
-</td>
-<td align="left" width="63%">
-Lock VM
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioningpluginnotifysink-onjobcancelled">OnJobCancelled</a>
-</td>
-<td align="left" width="63%">
-Job canceled notification
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioningpluginnotifysink-onjobcompleted">OnJobCompleted</a>
-</td>
-<td align="left" width="63%">
-Job complete notification
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioningpluginnotifysink-onjobcreated">OnJobCreated</a>
-</td>
-<td align="left" width="63%">
-Job created notification
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioningpluginnotifysink-onvirtualmachinehoststatuschanged">OnVirtualMachineHostStatusChanged</a>
-</td>
-<td align="left" width="63%">
-Virtual Machine Host status changed
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioningpluginnotifysink-onvirtualmachinestatuschanged">OnVirtualMachineStatusChanged</a>
-</td>
-<td align="left" width="63%">
-Virtual Machine status changed notification
-
-</td>
-</tr>
-</table>
+The <b>ITsSbProvisioningPluginNotifySink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbProvisioningPluginNotifySink</b> also has these types of members:
 
 ## -see-also
 

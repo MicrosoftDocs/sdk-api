@@ -101,7 +101,11 @@ Returns a handle to the window above the given window.
 
 This function is implemented as a call to the <a href="/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a> function.
 
-<pre class="syntax" xml:space="preserve"><code>#define GetNextWindow(hWnd, wCmd) GetWindow(hWnd, wCmd)</code></pre>
+
+``` syntax
+#define GetNextWindow(hWnd, wCmd) GetWindow(hWnd, wCmd)
+```
+
 
 ## -see-also
 

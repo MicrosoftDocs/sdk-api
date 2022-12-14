@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetClassInfoExA
 title: GetClassInfoExA function (winuser.h)
-description: Retrieves information about a window class, including a handle to the small icon associated with the window class. The GetClassInfo function does not retrieve a handle to the small icon.
+description: Retrieves information about a window class, including a handle to the small icon associated with the window class. The GetClassInfo function does not retrieve a handle to the small icon. (ANSI)
 helpviewer_keywords: ["GetClassInfoEx","GetClassInfoEx function [Windows and Messages]","GetClassInfoExA","GetClassInfoExW","_win32_GetClassInfoEx","_win32_getclassinfoex_cpp","winmsg.getclassinfoex","winui._win32_getclassinfoex","winuser/GetClassInfoEx","winuser/GetClassInfoExA","winuser/GetClassInfoExW"]
 old-location: winmsg\getclassinfoex.htm
 tech.root: winmsg
@@ -53,6 +53,7 @@ api_name:
  - GetClassInfoEx
  - GetClassInfoExA
  - GetClassInfoExW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetClassInfoExA function

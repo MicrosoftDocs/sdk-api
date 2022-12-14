@@ -57,7 +57,7 @@ The <b>resetBlobProperties</b> method resets the properties of a <a href="/windo
 
 This property was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
 
-## -parameters
+
 
 ## -see-also
 

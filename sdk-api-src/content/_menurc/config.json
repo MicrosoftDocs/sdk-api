@@ -9,7 +9,8 @@
     "strsafe.h",
     "winver.h",
     "verrsrc.h",
-    "mrmresourceindexer.h"
+    "mrmresourceindexer.h",
+    "bcp47mrm.h"
   ],
   "displayName": "Menus and Other Resources"
 }

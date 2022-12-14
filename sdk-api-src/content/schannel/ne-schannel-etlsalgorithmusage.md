@@ -2,7 +2,6 @@
 UID: NE:schannel._eTlsAlgorithmUsage
 title: eTlsAlgorithmUsage
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Specifies the algorithm being used to disable cryptographic settings.
 tech.root: security

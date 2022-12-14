@@ -73,65 +73,7 @@ When the parent undo unit is marked blocked, it discards any undo units it recei
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleParentUndoUnit</b> interface inherits from <b>IOleUndoUnit</b>. <b>IOleParentUndoUnit</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IOleParentUndoUnit</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-add">Add</a>
-</td>
-<td align="left" width="63%">
-Adds a simple undo unit to the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-close">Close</a>
-</td>
-<td align="left" width="63%">
-Closes the specified parent undo unit.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-findunit">FindUnit</a>
-</td>
-<td align="left" width="63%">
-Indicates whether the specified unit is a child of this undo unit or one of its children, that is if the specified unit is part of the hierarchy in this parent unit.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-getparentstate">GetParentState</a>
-</td>
-<td align="left" width="63%">
-Retrieves state information about the innermost open parent undo unit.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-open">Open</a>
-</td>
-<td align="left" width="63%">
-Opens a new parent undo unit, which becomes part of the containing unit's undo stack.
-
-</td>
-</tr>
-</table>
+The <b>IOleParentUndoUnit</b> interface inherits from <b>IOleUndoUnit</b>. <b>IOleParentUndoUnit</b> also has these types of members:
 
 ## -see-also
 

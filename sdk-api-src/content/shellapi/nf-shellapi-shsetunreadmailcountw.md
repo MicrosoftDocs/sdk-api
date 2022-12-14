@@ -1,7 +1,7 @@
 ---
 UID: NF:shellapi.SHSetUnreadMailCountW
 title: SHSetUnreadMailCountW function (shellapi.h)
-description: Stores the current user's unread message count for a specified email account in the registry.
+description: Stores the current user's unread message count for a specified email account in the registry. (Unicode)
 helpviewer_keywords: ["SHSetUnreadMailCount","SHSetUnreadMailCount function [Windows Shell]","SHSetUnreadMailCountW","_shell_SHSetUnreadMailCount","shell.SHSetUnreadMailCount","shellapi/SHSetUnreadMailCount","shellapi/SHSetUnreadMailCountW"]
 old-location: shell\SHSetUnreadMailCount.htm
 tech.root: shell

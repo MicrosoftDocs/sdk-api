@@ -52,7 +52,7 @@ api_name:
 
 Gets the number of profiles that are supported by the driver.
 
-## -parameters
+
 
 ## -returns
 

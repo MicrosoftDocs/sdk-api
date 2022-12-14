@@ -54,47 +54,7 @@ The <b>IWMDMStorage2</b> interface extends <b>IWMDMStorage</b> by making it poss
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMStorage2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage</a>. <b>IWMDMStorage2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWMDMStorage2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage2-getattributes2">GetAttributes2</a>
-</td>
-<td align="left" width="63%">
-Retrieves extended attributes of the storage.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage2-getstorage">GetStorage</a>
-</td>
-<td align="left" width="63%">
-Retrieves a child storage by name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage2-setattributes2">SetAttributes2</a>
-</td>
-<td align="left" width="63%">
-Sets extended attributes of the storage.
-
-</td>
-</tr>
-</table>
+The <b>IWMDMStorage2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage</a>. <b>IWMDMStorage2</b> also has these types of members:
 
 ## -see-also
 

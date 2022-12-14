@@ -74,6 +74,4 @@ A structure that contains the policy setting states and values.
 
 A structure that contains the policy setting states and values.
 
-### -field WRdsSetting.switch_is
 
-### -field WRdsSetting.switch_is.WRdsSettingLevel

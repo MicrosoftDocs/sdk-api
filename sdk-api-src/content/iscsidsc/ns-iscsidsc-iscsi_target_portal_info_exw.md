@@ -1,7 +1,7 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_10
 title: ISCSI_TARGET_PORTAL_INFO_EXW (iscsidsc.h)
-description: The ISCSI_TARGET_PORTAL_INFO_EX structure contains information about login credentials to a target portal.
+description: The ISCSI_TARGET_PORTAL_INFO_EX structure contains information about login credentials to a target portal. (Unicode)
 helpviewer_keywords: ["*PISCSI_TARGET_PORTAL_INFO_EXW","ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED","ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED","ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED","ISCSI_SECURITY_FLAG_PFS_ENABLED","ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED","ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED","ISCSI_SECURITY_FLAG_VALID","ISCSI_TARGET_PORTAL_INFO_EX","ISCSI_TARGET_PORTAL_INFO_EX structure [iSCSI Discovery Library API]","ISCSI_TARGET_PORTAL_INFO_EXA","ISCSI_TARGET_PORTAL_INFO_EXW","PISCSI_TARGET_PORTAL_INFO_EX","PISCSI_TARGET_PORTAL_INFO_EX structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_target_portal_info_ex","iscsidsc/ISCSI_TARGET_PORTAL_INFO_EX","iscsidsc/ISCSI_TARGET_PORTAL_INFO_EXA","iscsidsc/ISCSI_TARGET_PORTAL_INFO_EXW","iscsidsc/PISCSI_TARGET_PORTAL_INFO_EX"]
 old-location: iscsidisc\iscsi_target_portal_info_ex.htm
 tech.root: iSCSIDisc
@@ -80,7 +80,7 @@ A <b>USHORT</b> value that represents the socket number.
 
 ### -field SecurityFlags
 
-A pointer to an <b>ISCSI_SECURITY_FLAGS</b> structure that contains a bitmap that defines the security charactaristics of a login connection.
+A pointer to an <b>ISCSI_SECURITY_FLAGS</b> structure that contains a bitmap that defines the security characteristics of a login connection.
 
 <table>
 <tr>

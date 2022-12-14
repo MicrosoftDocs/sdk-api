@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITPluggableTerminalClassInfo.get_Version
 title: ITPluggableTerminalClassInfo::get_Version (tapi3if.h)
-description: The get_Version method gets the terminal version.
+description: The get_Version method gets the terminal version. (ITPluggableTerminalClassInfo.get_Version)
 helpviewer_keywords: ["ITPluggableTerminalClassInfo interface [TAPI 2.2]","get_Version method","ITPluggableTerminalClassInfo.get_Version","ITPluggableTerminalClassInfo::get_Version","_tapi3_itpluggableterminalclassinfo_get_version","get_Version","get_Version method [TAPI 2.2]","get_Version method [TAPI 2.2]","ITPluggableTerminalClassInfo interface","tapi3.itpluggableterminalclassinfo_get_version","tapi3if/ITPluggableTerminalClassInfo::get_Version"]
 old-location: tapi3\itpluggableterminalclassinfo_get_version.htm
 tech.root: tapi3
@@ -62,7 +62,7 @@ The
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

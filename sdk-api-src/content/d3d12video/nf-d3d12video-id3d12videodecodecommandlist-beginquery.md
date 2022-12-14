@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecodeCommandList.BeginQuery
 title: ID3D12VideoDecodeCommandList::BeginQuery
-description: Starts a query running.
+description: Starts a query running. (ID3D12VideoDecodeCommandList::BeginQuery)
 helpviewer_keywords: ["ID3D12VideoDecodeCommandList::BeginQuery","BeginQuery","ID3D12VideoDecodeCommandList.BeginQuery","ID3D12VideoDecodeCommandList::BeginQuery","ID3D12VideoDecodeCommandList.BeginQuery"]
 tech.root: mf
 ms.assetid: 7e58addb-6178-4ca5-ae01-040f065b5baa

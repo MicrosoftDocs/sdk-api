@@ -52,7 +52,7 @@ api_name:
 
 Removes  a layer from the layer and clip stack.
 
-## -parameters
+
 
 ## -returns
 

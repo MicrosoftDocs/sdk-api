@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetFirmwareEnvironmentVariableW
 title: GetFirmwareEnvironmentVariableW function (winbase.h)
-description: Retrieves the value of the specified firmware environment variable.
+description: Retrieves the value of the specified firmware environment variable. (Unicode)
 helpviewer_keywords: ["GetFirmwareEnvironmentVariable","GetFirmwareEnvironmentVariable function","GetFirmwareEnvironmentVariableA","GetFirmwareEnvironmentVariableW","base.getfirmwareenvironmentvariable","winbase/GetFirmwareEnvironmentVariable","winbase/GetFirmwareEnvironmentVariableA","winbase/GetFirmwareEnvironmentVariableW"]
 old-location: base\getfirmwareenvironmentvariable.htm
 tech.root: winprog
@@ -84,7 +84,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -remarks
 
-Starting with Windows 10, version 1803, Universal Windows apps can read and write Unified Extensible Firmware Interface (UEFI) firmware variables. See <a href="/windows/desktop/SysInfo/access-uefi-firmware-variables-from-a-universal-windows-app">Access UEFI firmware variables from a Universal Windows App</a>for details.
+Starting with Windows 10, version 1803, Universal Windows apps can read and write Unified Extensible Firmware Interface (UEFI) firmware variables. See <a href="/windows/desktop/SysInfo/access-uefi-firmware-variables-from-a-universal-windows-app">Access UEFI firmware variables from a Universal Windows App</a> for details.
 
 To read a firmware environment variable, the user account that the app is running under must have the <a href="/windows/desktop/SecAuthZ/privilege-constants">SE_SYSTEM_ENVIRONMENT_NAME</a> privilege. A Universal Windows app must be run from an administrator account and follow the requirements outlined in <a href="/windows/desktop/SysInfo/access-uefi-firmware-variables-from-a-universal-windows-app">Access UEFI firmware variables from a Universal Windows App</a>.
 

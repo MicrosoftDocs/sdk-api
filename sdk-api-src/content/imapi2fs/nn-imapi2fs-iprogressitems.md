@@ -56,74 +56,7 @@ To get this interface, call the <a href="/windows/desktop/api/imapi2fs/nf-imapi2
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProgressItems</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IProgressItems</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IProgressItems</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-get__newenum">get__NewEnum</a>
-</td>
-<td align="left" width="63%">
-Retrieves the list of progress items from the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-get_count">get_Count</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of progress items in the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-get_enumprogressitems">get_EnumProgressItems</a>
-</td>
-<td align="left" width="63%">
-Retrieves the list of progress items from the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-get_item">get_Item</a>
-</td>
-<td align="left" width="63%">
-Retrieves the specified progress item from the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-progressitemfromblock">ProgressItemFromBlock</a>
-</td>
-<td align="left" width="63%">
-Retrieves a progress item based on the specified block number.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-progressitemfromdescription">ProgressItemFromDescription</a>
-</td>
-<td align="left" width="63%">
-Retrieves a progress item based on the specified file name.
-
-</td>
-</tr>
-</table>
+The <b>IProgressItems</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IProgressItems</b> also has these types of members:
 
 ## -remarks
 

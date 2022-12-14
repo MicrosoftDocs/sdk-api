@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_3.IDWriteTextLayout3
 title: IDWriteTextLayout3 (dwrite_3.h)
-description: Represents a block of text after it has been fully analyzed and formatted.
+description: Represents a block of text after it has been fully analyzed and formatted. (IDWriteTextLayout3)
 helpviewer_keywords: ["IDWriteTextLayout3","IDWriteTextLayout3 interface [Direct Write]","IDWriteTextLayout3 interface [Direct Write]","described","directwrite.idwritetextlayout3","dwrite_3/IDWriteTextLayout3"]
 old-location: directwrite\idwritetextlayout3.htm
 tech.root: DirectWrite
@@ -54,59 +54,7 @@ Represents a block of text after it has been fully analyzed and formatted.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextLayout3</b> interface inherits from <a href="/windows/win32/DirectWrite/idwritetextlayout2">IDWriteTextLayout2</a>. <b>IDWriteTextLayout3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDWriteTextLayout3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/DirectWrite/idwritetextlayout3-getlinemetrics">GetLineMetrics</a>
-</td>
-<td align="left" width="63%">
-Retrieves properties of each line.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/DirectWrite/idwritetextlayout3-getlinespacing">GetLineSpacing</a>
-</td>
-<td align="left" width="63%">
-Gets line spacing information.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/DirectWrite/idwritetextlayout3-invalidatelayout">InvalidateLayout</a>
-</td>
-<td align="left" width="63%">
-Invalidates the layout, forcing layout to remeasure before calling the   
-   metrics or drawing functions. This is useful if the locality of a font    
-   changes, and layout should be redrawn, or if the size of a client    
-   implemented IDWriteInlineObject changes. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/DirectWrite/idwritetextlayout3-setlinespacing">SetLineSpacing</a>
-</td>
-<td align="left" width="63%">
-Set line spacing.
-
-</td>
-</tr>
-</table>
+The <b>IDWriteTextLayout3</b> interface inherits from <a href="/windows/win32/DirectWrite/idwritetextlayout2">IDWriteTextLayout2</a>. <b>IDWriteTextLayout3</b> also has these types of members:
 
 ## -see-also
 

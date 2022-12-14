@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_TaskUserTextArguments
 title: IDataCollectorSet::get_TaskUserTextArguments (pla.h)
-description: Retrieves or sets the command-line arguments that are substituted for the {usertext} substitution variable in the IDataCollectorSet::TaskArguments property.
+description: Retrieves or sets the command-line arguments that are substituted for the {usertext} substitution variable in the IDataCollectorSet::TaskArguments property. (Get)
 helpviewer_keywords: ["IDataCollectorSet interface [PLA]","TaskUserTextArguments property","IDataCollectorSet.TaskUserTextArguments","IDataCollectorSet.get_TaskUserTextArguments","IDataCollectorSet::TaskUserTextArguments","IDataCollectorSet::get_TaskUserTextArguments","IDataCollectorSet::put_TaskUserTextArguments","TaskUserTextArguments property [PLA]","TaskUserTextArguments property [PLA]","IDataCollectorSet interface","get_TaskUserTextArguments","pla.idatacollectorset_taskusertextarguments","pla/IDataCollectorSet::TaskUserTextArguments","pla/IDataCollectorSet::get_TaskUserTextArguments","pla/IDataCollectorSet::put_TaskUserTextArguments"]
 old-location: pla\idatacollectorset_taskusertextarguments.htm
 tech.root: PLA

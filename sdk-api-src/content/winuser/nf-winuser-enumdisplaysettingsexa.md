@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.EnumDisplaySettingsExA
 title: EnumDisplaySettingsExA function (winuser.h)
-description: The EnumDisplaySettingsEx function retrieves information about one of the graphics modes for a display device. To retrieve information for all the graphics modes for a display device, make a series of calls to this function.
+description: The EnumDisplaySettingsEx function retrieves information about one of the graphics modes for a display device. To retrieve information for all the graphics modes for a display device, make a series of calls to this function. (ANSI)
 helpviewer_keywords: ["EDS_RAWMODE","EDS_ROTATEDMODE","ENUM_CURRENT_SETTINGS","ENUM_REGISTRY_SETTINGS","EnumDisplaySettingsEx","EnumDisplaySettingsEx function [Windows GDI]","EnumDisplaySettingsExA","EnumDisplaySettingsExW","_win32_EnumDisplaySettingsEx","gdi.enumdisplaysettingsex","winuser/EnumDisplaySettingsEx","winuser/EnumDisplaySettingsExA","winuser/EnumDisplaySettingsExW"]
 old-location: gdi\enumdisplaysettingsex.htm
 tech.root: gdi
@@ -48,6 +48,7 @@ api_name:
  - EnumDisplaySettingsEx
  - EnumDisplaySettingsExA
  - EnumDisplaySettingsExW
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # EnumDisplaySettingsExA function

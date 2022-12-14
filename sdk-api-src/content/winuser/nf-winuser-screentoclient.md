@@ -53,6 +53,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - ScreenToClient
+req.apiset: ext-ms-win-ntuser-window-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # ScreenToClient function
@@ -70,7 +71,7 @@ A handle to the window whose client area will be used for the conversion.
 
 ### -param lpPoint
 
-A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that specifies the screen coordinates to be converted.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that specifies the screen coordinates to be converted.
 
 ## -returns
 
@@ -80,7 +81,7 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-The function uses the window identified by the <i>hWnd</i> parameter and the screen coordinates given in the <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure to compute client coordinates. It then replaces the screen coordinates with the client coordinates. The new coordinates are relative to the upper-left corner of the specified window's client area.
+The function uses the window identified by the <i>hWnd</i> parameter and the screen coordinates given in the <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure to compute client coordinates. It then replaces the screen coordinates with the client coordinates. The new coordinates are relative to the upper-left corner of the specified window's client area.
 
 The <b>ScreenToClient</b> function assumes the specified point is in screen coordinates.
 
@@ -106,4 +107,4 @@ Do not use <b>ScreenToClient</b> when in a mirroring situation, that is, when ch
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>

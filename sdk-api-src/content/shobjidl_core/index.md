@@ -16,7 +16,12 @@ f1_keywords:
 
 ## -description
 
-This header is used by Windows Property System. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [The Windows Shell](../_shell/index.md)
 - [Windows Property System](../_properties/index.md)
+- [Windows Runtime C++ reference](../_winrt/index.md)
+- [Windows Search](../_search/index.md)
+- [Windows Sidebar](/previous-versions/windows/desktop/sidebar/-sidebar-entry)
+- [WMI Provider for NFS](../_nfswmi/index.md)
 

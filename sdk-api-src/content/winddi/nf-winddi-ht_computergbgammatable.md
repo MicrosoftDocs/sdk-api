@@ -83,7 +83,7 @@ The gamma table's red, green, and blue values are interleaved together. Each gam
 
 </td>
 <td>
-The red, green, and blue tables are packed separately; that is, the entire red table is followed by the entire green table, which is followed by the entire blue table. Individual entries are 1 byte each, making each subtable a total of <i>GammaTableEntries </i>bytes in length.
+The red, green, and blue tables are packed separately; that is, the entire red table is followed by the entire green table, which is followed by the entire blue table. Individual entries are 1 byte each, making each subtable a total of <i>GammaTableEntries</i> bytes in length.
 
 </td>
 </tr>
@@ -116,4 +116,3 @@ The red, green, and blue intensities returned in <i>pGammaTable</i> range from 0
 GDI halftone service routines use a special palette to do halftoning. If the device selects an 8-bit per pixel palette from a pool of 24-bit device colors for a 16-bit or 24-bit type surface, GDI assumes red, green, and blue color steps; each has equal brightness.
 
 GDI provides this service so that the driver can query the 8-bit per pixel halftone palette used by GDI or compute gamma corrected and equalized RGB color intensities for the device.
-

@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiGetClassDevPropertySheetsA
 title: SetupDiGetClassDevPropertySheetsA function (setupapi.h)
-description: The SetupDiGetClassDevPropertySheets function retrieves handles to the property sheets of a device information element or of the device setup class of a device information set.
+description: The SetupDiGetClassDevPropertySheets function retrieves handles to the property sheets of a device information element or of the device setup class of a device information set. (ANSI)
 helpviewer_keywords: ["SetupDiGetClassDevPropertySheets","SetupDiGetClassDevPropertySheets function [Device and Driver Installation]","SetupDiGetClassDevPropertySheetsA","SetupDiGetClassDevPropertySheetsW","devinst.setupdigetclassdevpropertysheets","di-rtns_cdfb15cd-b7a4-42bf-ad4c-a3084a7a6d98.xml","setupapi/SetupDiGetClassDevPropertySheets"]
 old-location: devinst\setupdigetclassdevpropertysheets.htm
 tech.root: devinst
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>SetupDiGetClassDevPropertySheets</b> function retrieves handles to the property sheets of a device information element or of the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> of a device information set.
+The <b>SetupDiGetClassDevPropertySheets</b> function retrieves handles to the property sheets of a device information element or of the <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> of a device information set.
 
 ## -parameters
 

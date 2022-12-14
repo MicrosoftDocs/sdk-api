@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupInstallFileA
 title: SetupInstallFileA function (setupapi.h)
-description: The SetupInstallFile function installs a file as specified either by an INFCONTEXT returned by SetupFindXXXLine or explicitly by the file name and path.
+description: The SetupInstallFile function installs a file as specified either by an INFCONTEXT returned by SetupFindXXXLine or explicitly by the file name and path. (ANSI)
 helpviewer_keywords: ["SP_COPY_DELETESOURCE","SP_COPY_FORCE_IN_USE","SP_COPY_FORCE_NEWER","SP_COPY_FORCE_NOOVERWRITE","SP_COPY_LANGUAGEAWARE","SP_COPY_NEWER_ONLY","SP_COPY_NEWER_OR_SAME","SP_COPY_NODECOMP","SP_COPY_NOOVERWRITE","SP_COPY_REPLACEONLY","SP_COPY_SOURCEPATH_ABSOLUTE","SP_COPY_SOURCE_ABSOLUTE","SetupInstallFile","SetupInstallFile function [Setup API]","SetupInstallFileA","SetupInstallFileW","_setupapi_setupinstallfile","setup.setupinstallfile","setupapi/SetupInstallFile","setupapi/SetupInstallFileA","setupapi/SetupInstallFileW"]
 old-location: setup\setupinstallfile.htm
 tech.root: setup

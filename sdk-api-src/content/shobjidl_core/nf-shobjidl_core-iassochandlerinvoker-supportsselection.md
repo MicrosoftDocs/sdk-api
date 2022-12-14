@@ -52,7 +52,7 @@ api_name:
 
 Determines whether an invoker supports its selection.
 
-## -parameters
+
 
 ## -returns
 

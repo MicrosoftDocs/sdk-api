@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.AcquireCredentialsHandleA
 title: AcquireCredentialsHandleA function (sspi.h)
-description: The AcquireCredentialsHandle (CredSSP) function acquires a handle to preexisting credentials of a security principal.
+description: The AcquireCredentialsHandle (CredSSP) function acquires a handle to preexisting credentials of a security principal. (ANSI)
 helpviewer_keywords: ["AcquireCredentialsHandle","AcquireCredentialsHandle (CredSSP)","AcquireCredentialsHandle function [Security]","AcquireCredentialsHandleA","AcquireCredentialsHandleW","SECPKG_CRED_INBOUND","SECPKG_CRED_OUTBOUND","security.acquirecredentialshandle__credssp_","sspi/AcquireCredentialsHandle","sspi/AcquireCredentialsHandleA","sspi/AcquireCredentialsHandleW"]
 old-location: security\acquirecredentialshandle__credssp_.htm
 tech.root: security
@@ -41,6 +41,7 @@ api_type:
  - DllExport
 api_location:
  - Secur32.dll
+ - schannel.dll
 api_name:
  - AcquireCredentialsHandle
  - AcquireCredentialsHandleA

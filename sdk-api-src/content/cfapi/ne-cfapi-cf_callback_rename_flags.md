@@ -54,19 +54,19 @@ Call back flags to inform the sync provider that a placeholder under one of its 
 
 ## -enum-fields
 
-### -field CF_CALLBACK_RENAME_FLAG_NONE
+### -field CF_CALLBACK_RENAME_FLAG_NONE:0x00000000
 
 No rename flag.
 
-### -field CF_CALLBACK_RENAME_FLAG_IS_DIRECTORY
+### -field CF_CALLBACK_RENAME_FLAG_IS_DIRECTORY:0x00000001
 
 Flag set if the placeholder is a directory.
 
-### -field CF_CALLBACK_RENAME_FLAG_SOURCE_IN_SCOPE
+### -field CF_CALLBACK_RENAME_FLAG_SOURCE_IN_SCOPE:0x00000002
 
 Flag set if the link to be renamed or moved is within a sync root managed by the sync process.
 
-### -field CF_CALLBACK_RENAME_FLAG_TARGET_IN_SCOPE
+### -field CF_CALLBACK_RENAME_FLAG_TARGET_IN_SCOPE:0x00000004
 
 Flag set if the rename or move target is in the same sync root of the source path.
 

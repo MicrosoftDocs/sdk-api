@@ -55,26 +55,5 @@ The <code>IDVRGB219</code> interface controls the dynamic range in the <a href="
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVRGB219</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDVRGB219</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDVRGB219</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDVRGB219</b> also has these types of members:
 
-## -members
-
-The <b>IDVRGB219</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-idvrgb219-setrgb219">SetRGB219</a>
-</td>
-<td align="left" width="63%">
-Controls the dynamic range for DV encoding and decoding.
-
-</td>
-</tr>
-</table>

@@ -54,56 +54,7 @@ Represents a buffer that contains a Microsoft DirectX Graphics Infrastructure (D
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFDXGIBuffer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFDXGIBuffer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFDXGIBuffer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgibuffer-getresource">GetResource</a>
-</td>
-<td align="left" width="63%">
-Queries the DXGIsurface for an interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgibuffer-getsubresourceindex">GetSubresourceIndex</a>
-</td>
-<td align="left" width="63%">
-Gets the index of the subresource that is associated with this media buffer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgibuffer-getunknown">GetUnknown</a>
-</td>
-<td align="left" width="63%">
-Gets an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer that was previously stored in the media buffer object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgibuffer-setunknown">SetUnknown</a>
-</td>
-<td align="left" width="63%">
-Stores an arbitrary <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer in the media buffer object.
-
-</td>
-</tr>
-</table>
+The <b>IMFDXGIBuffer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFDXGIBuffer</b> also has these types of members:
 
 ## -remarks
 

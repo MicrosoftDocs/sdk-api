@@ -57,71 +57,71 @@ The NL_ROUTE_PROTOCOL enumeration type defines the routing mechanism that an IP 
 
 ## -enum-fields
 
-### -field RouteProtocolOther
+### -field RouteProtocolOther:1
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolLocal
+### -field RouteProtocolLocal:2
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolNetMgmt
+### -field RouteProtocolNetMgmt:3
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolIcmp
+### -field RouteProtocolIcmp:4
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolEgp
+### -field RouteProtocolEgp:5
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolGgp
+### -field RouteProtocolGgp:6
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolHello
+### -field RouteProtocolHello:7
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolRip
+### -field RouteProtocolRip:8
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolIsIs
+### -field RouteProtocolIsIs:9
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolEsIs
+### -field RouteProtocolEsIs:10
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolCisco
+### -field RouteProtocolCisco:11
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolBbn
+### -field RouteProtocolBbn:12
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolOspf
+### -field RouteProtocolOspf:13
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolBgp
+### -field RouteProtocolBgp:14
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolIdpr
+### -field RouteProtocolIdpr:15
 
-### -field RouteProtocolEigrp
+### -field RouteProtocolEigrp:16
 
-### -field RouteProtocolDvmrp
+### -field RouteProtocolDvmrp:17
 
-### -field RouteProtocolRpl
+### -field RouteProtocolRpl:18
 
-### -field RouteProtocolDhcp
+### -field RouteProtocolDhcp:19
 
 #### - MIB_IPPROTO_BBN
 

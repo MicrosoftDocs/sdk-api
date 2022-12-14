@@ -54,7 +54,7 @@ Retrieves the first child or descendant element that matches the specified condi
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationclient/ne-uiautomationclient-treescope">TreeScope</a></b>
 
@@ -82,7 +82,7 @@ Receives a pointer to the matching element, or <b>NULL</b> if no matching elemen
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

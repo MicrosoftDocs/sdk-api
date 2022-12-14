@@ -52,7 +52,7 @@ api_name:
 
 Gets the number of subformats in the formatted timed-text object.
 
-## -parameters
+
 
 ## -returns
 

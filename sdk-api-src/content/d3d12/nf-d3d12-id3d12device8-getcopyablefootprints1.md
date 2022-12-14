@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device8.GetCopyableFootprints1
 title: ID3D12Device8::GetCopyableFootprints1
-description: Gets a resource layout that can be copied. Helps your app fill in [D3D12_PLACED_SUBRESOURCE_FOOTPRINT](/windows/win32/api/d3d12/ns-d3d12-d3d12_placed_subresource_footprint) and [D3D12_SUBRESOURCE_FOOTPRINT](/windows/win32/api/d3d12/ns-d3d12-d3d12_subresource_footprint) when suballocating space in upload heaps.
+description: Gets a resource layout that can be copied. Helps your app fill in [D3D12_PLACED_SUBRESOURCE_FOOTPRINT](../d3d12/ns-d3d12-d3d12_placed_subresource_footprint.md) and [D3D12_SUBRESOURCE_FOOTPRINT](../d3d12/ns-d3d12-d3d12_subresource_footprint.md) when suballocating space in upload heaps.
 helpviewer_keywords: ["ID3D12Device8 interface","GetCopyableFootprints1 method","ID3D12Device8.GetCopyableFootprints1","ID3D12Device8::GetCopyableFootprints1","GetCopyableFootprints1","GetCopyableFootprints1 method","GetCopyableFootprints1 method","ID3D12Device8 interface","direct3d12.id3d12device7_getcopyablefootprints1","d3d12/ID3D12Device8::GetCopyableFootprints1"]
 tech.root: direct3d12
 ms.date: 09/16/2020
@@ -19,8 +19,8 @@ req.lib: d3d12.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -72,9 +72,9 @@ The offset, in bytes, to the resource.
 
 ### -param pLayouts
 
-Type: [out, optional] <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_placed_subresource_footprint">D3D12_PLACED_SUBRESOURCE_FOOTPRINT</a>*</b>
+Type: [out, optional] <b><a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_placed_subresource_footprint">D3D12_PLACED_SUBRESOURCE_FOOTPRINT</a>*</b>
 
-A pointer to an array (of length <i>NumSubresources</i>) of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_placed_subresource_footprint">D3D12_PLACED_SUBRESOURCE_FOOTPRINT</a> structures, to be filled with the description and placement of each subresource.
+A pointer to an array (of length <i>NumSubresources</i>) of <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_placed_subresource_footprint">D3D12_PLACED_SUBRESOURCE_FOOTPRINT</a> structures, to be filled with the description and placement of each subresource.
 
 ### -param pNumRows
 
@@ -100,14 +100,14 @@ A pointer to an integer variable, to be filled with the total size, in bytes.
 
 ## -remarks
 
-For remarks and examples, see [ID3D12Device::GetCopyableFootprints](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getcopyablefootprints).
+For remarks and examples, see [ID3D12Device::GetCopyableFootprints](./nf-d3d12-id3d12device-getcopyablefootprints.md).
 
 ## -see-also
 
-* <a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-resource-desc">CD3DX12_RESOURCE_DESC</a>
+* <a href="/windows/desktop/direct3d12/cd3dx12-resource-desc">CD3DX12_RESOURCE_DESC</a>
 
-* <a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-subresource-footprint">CD3DX12_SUBRESOURCE_FOOTPRINT</a>
+* <a href="/windows/desktop/direct3d12/cd3dx12-subresource-footprint">CD3DX12_SUBRESOURCE_FOOTPRINT</a>
 
-* <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
+* <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
 
 * [Sampler feedback specification](https://microsoft.github.io/DirectX-Specs/d3d/SamplerFeedback.html)

@@ -54,29 +54,7 @@ This interface is implemented by a Microsoft UI Automation provider when the pro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRawElementProviderHostingAccessibles</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRawElementProviderHostingAccessibles</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IRawElementProviderHostingAccessibles</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderhostingaccessibles-getembeddedaccessibles">GetEmbeddedAccessibles</a>
-</td>
-<td align="left" width="63%">
-Retrieves the <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface pointers of the windowless ActiveX controls that are hosted by this provider.   
-
-</td>
-</tr>
-</table>
+The <b>IRawElementProviderHostingAccessibles</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRawElementProviderHostingAccessibles</b> also has these types of members:
 
 ## -see-also
 

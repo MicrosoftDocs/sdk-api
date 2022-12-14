@@ -1,7 +1,7 @@
 ---
 UID: NF:winscard.SCardStatusA
 title: SCardStatusA function (winscard.h)
-description: Provides the current status of a smart card in a reader.
+description: Provides the current status of a smart card in a reader. (ANSI)
 helpviewer_keywords: ["SCARD_ABSENT","SCARD_NEGOTIABLE","SCARD_POWERED","SCARD_PRESENT","SCARD_PROTOCOL_RAW","SCARD_PROTOCOL_T0","SCARD_PROTOCOL_T1","SCARD_SPECIFIC","SCARD_SWALLOWED","SCardStatus","SCardStatus function [Security]","SCardStatusA","SCardStatusW","_smart_scardstatus","security.scardstatus","winscard/SCardStatus","winscard/SCardStatusA","winscard/SCardStatusW"]
 old-location: security\scardstatus.htm
 tech.root: security

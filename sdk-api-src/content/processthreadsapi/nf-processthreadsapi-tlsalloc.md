@@ -4,12 +4,12 @@ title: TlsAlloc function (processthreadsapi.h)
 description: Allocates a thread local storage (TLS) index. Any thread of the process can subsequently use this index to store and retrieve values that are local to the thread, because each thread receives its own slot for the index.
 helpviewer_keywords: ["TlsAlloc","TlsAlloc function","_win32_tlsalloc","base.tlsalloc","processthreadsapi/TlsAlloc","winbase/TlsAlloc"]
 old-location: base\tlsalloc.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: cbb3d832-cd92-4875-8366-6b69be7a536f
 ms.date: 12/05/2018
 ms.keywords: TlsAlloc, TlsAlloc function, _win32_tlsalloc, base.tlsalloc, processthreadsapi/TlsAlloc, winbase/TlsAlloc
 req.header: processthreadsapi.h
-req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -59,7 +59,7 @@ api_name:
 
 Allocates a thread local storage (TLS) index. Any thread of the process can subsequently use this index to store and retrieve values that are local to the thread, because each thread receives its own slot for the index.
 
-## -parameters
+
 
 ## -returns
 

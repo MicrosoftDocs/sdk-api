@@ -52,7 +52,7 @@ api_name:
 
 The <b>EngSetPrinterData</b> function is obsolete in Windows 2000 and later. 
 
-In earlier versions of Windows <b>EngSetPrinterData </b>sets the configuration data for the specified printer.
+In earlier versions of Windows <b>EngSetPrinterData </b> sets the configuration data for the specified printer.
 
 ## -parameters
 

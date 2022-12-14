@@ -6,7 +6,7 @@ helpviewer_keywords: ["LPFN_RIOREGISTERBUFFER"]
 old-location: 
 tech.root: WinSock
 ms.assetid: CAADCC2F-1443-410F-A860-375C9AAE208E
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: LPFN_RIOREGISTERBUFFER
 targetos: Windows
 req.assembly: 
@@ -76,7 +76,7 @@ If several small, non-contiguous buffers are registered, the physical memory foo
 
 There is also a small amount of overhead in physical memory used for the buffer registration itself. So if there are many allocations aggregated into single larger allocation, the physical memory footprint may be reduced further by aggregating the buffer registrations as well. In this case the application may need to take extra care to ensure that the buffers are eventually deregistered, but not while any send or receive requests are outstanding.
 
-A portion of a registered buffer is passed to the [**RIOSend**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riosend), [**RIOSendEx**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riosendex), [**RIOReceive**](./nc-mswsock-lpfn_rioreceive.md), and [**RIOReceiveEx**](./nc-mswsock-lpfn_rioreceiveex.md) functions in the *pData* parameter for sending or receiving data.
+A portion of a registered buffer is passed to the [**RIOSend**](./nc-mswsock-lpfn_riosend.md), [**RIOSendEx**](./nc-mswsock-lpfn_riosendex.md), [**RIOReceive**](./nc-mswsock-lpfn_rioreceive.md), and [**RIOReceiveEx**](./nc-mswsock-lpfn_rioreceiveex.md) functions in the *pData* parameter for sending or receiving data.
 
 When the buffer identifier is no longer needed, call the [**RIODeregisterBuffer**](./nc-mswsock-lpfn_rioderegisterbuffer.md) function to deregister the buffer identifier.
 

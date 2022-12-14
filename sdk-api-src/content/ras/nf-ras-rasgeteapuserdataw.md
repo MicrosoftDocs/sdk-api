@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasGetEapUserDataW
 title: RasGetEapUserDataW function (ras.h)
-description: Use the RasGetEapUserData function to retrieve user-specific Extensible Authentication Protocol (EAP) information for the specified phone-book entry.
+description: Use the RasGetEapUserData function to retrieve user-specific Extensible Authentication Protocol (EAP) information for the specified phone-book entry. (Unicode)
 helpviewer_keywords: ["RasGetEapUserData","RasGetEapUserData function [RAS]","RasGetEapUserDataA","RasGetEapUserDataW","_ras_rasgeteapuserdata","ras/RasGetEapUserData","ras/RasGetEapUserDataA","ras/RasGetEapUserDataW","rras.rasgeteapuserdata"]
 old-location: rras\rasgeteapuserdata.htm
 tech.root: RRAS

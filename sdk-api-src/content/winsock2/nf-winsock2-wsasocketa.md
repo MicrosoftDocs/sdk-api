@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.WSASocketA
 title: WSASocketA function (winsock2.h)
-description: The WSASocket function creates a socket that is bound to a specific transport-service provider.
+description: The WSASocket function creates a socket that is bound to a specific transport-service provider. (ANSI)
 helpviewer_keywords: ["AF_APPLETALK","AF_BTH","AF_INET","AF_INET6","AF_IPX","AF_IRDA","AF_NETBIOS","AF_UNSPEC","BTHPROTO_RFCOMM","IPPROTO_ICMP","IPPROTO_ICMPV6","IPPROTO_IGMP","IPPROTO_RM","IPPROTO_TCP","IPPROTO_UDP","SG_CONSTRAINED_GROUP","SG_UNCONSTRAINED_GROUP","SOCK_DGRAM","SOCK_RAW","SOCK_RDM","SOCK_SEQPACKET","SOCK_STREAM","WSASocket","WSASocket function [Winsock]","WSASocketA","WSASocketW","WSA_FLAG_ACCESS_SYSTEM_SECURITY","WSA_FLAG_MULTIPOINT_C_LEAF","WSA_FLAG_MULTIPOINT_C_ROOT","WSA_FLAG_MULTIPOINT_D_LEAF","WSA_FLAG_MULTIPOINT_D_ROOT","WSA_FLAG_NO_HANDLE_INHERIT","WSA_FLAG_OVERLAPPED","_win32_wsasocket_2","winsock.wsasocket_2","winsock2/WSASocket","winsock2/WSASocketA","winsock2/WSASocketW"]
 old-location: winsock\wsasocket_2.htm
 tech.root: WinSock
@@ -415,7 +415,7 @@ Create an unconstrained socket group and have the new socket  be the first membe
 </dl>
 </td>
 <td width="60%">
-Create a constrained socket group and have the new socket  be the first member. For a contrained socket group, Winsock constrains all sockets in the socket group to have been created with the same value for the <i>type</i> and <i>protocol</i> parameters. A constrained socket group may consist only of connection-oriented sockets, and requires that connections on all grouped sockets be to the same address on the same host.  
+Create a constrained socket group and have the new socket  be the first member. For a constrained socket group, Winsock constrains all sockets in the socket group to have been created with the same value for the <i>type</i> and <i>protocol</i> parameters. A constrained socket group may consist only of connection-oriented sockets, and requires that connections on all grouped sockets be to the same address on the same host.  
 
 </td>
 </tr>
@@ -795,14 +795,14 @@ Connectionless, message-oriented sockets allow sending and receiving of datagram
 
 Support for sockets with type <b>SOCK_RAW</b> is not required, but service providers are encouraged to support raw sockets whenever possible.
 
-The <b>WSASocket</b> function can be used to create a socket to be used by a service so that if another socket tries to bind to the same port used by the service, and audit record is generared. To enable this option, an application would need to do the following:
+The <b>WSASocket</b> function can be used to create a socket to be used by a service so that if another socket tries to bind to the same port used by the service, and audit record is generated. To enable this option, an application would need to do the following:
 
 
 <ul>
 <li>Call the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a> function to enable the <b>SE_SECURITY_NAME</b> privilege in the access token for the process. This privilege is required to set the  <b>ACCESS_SYSTEM_SECURITY</b> access rights on the security descriptor for an object. </li>
 <li>Call the <b>WSASocket</b> function to create a socket with <i>dwFlag</i> with the <b>WSA_FLAG_ACCESS_SYSTEM_SECURITY</b> option set. The <b>WSASocket</b> function will fail if the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a> function is not called first to enable the <b>SE_SECURITY_NAME</b> privilege needed for this operation.</li>
 <li>Call the <a href="/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo">SetSecurityInfo</a> function to set a security descriptor with a System Access Control List (SACL) on the socket. The socket handle returned by the <b>WSASocket</b> function is passed in the <i>handle</i> parameter. If the function succeeds, this will set the the  <b>ACCESS_SYSTEM_SECURITY</b> access right on the security descriptor for the socket.</li>
-<li>Call the <a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a>function to bind the socket to a specific port. If the <b>bind</b>function succeeds, then an audit entry is generated if another socket tries to bind to the same port. </li>
+<li>Call the <a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function to bind the socket to a specific port. If the <b>bind</b> function succeeds, then an audit entry is generated if another socket tries to bind to the same port. </li>
 <li>Call the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a> function to remove the <b>SE_SECURITY_NAME</b> privilege in the access token for the process, since this is no longer needed. </li>
 </ul>
 

@@ -56,31 +56,7 @@ Provides access to <a href="/windows/desktop/api/msctf/nn-msctf-itfreverseconver
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfReverseConversionMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfReverseConversionMgr</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfReverseConversionMgr</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfreverseconversionmgr-getreverseconversion">GetReverseConversion</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <a href="/windows/desktop/api/msctf/nn-msctf-itfreverseconversion">ITfReverseConversion</a> object that can perform reverse conversions. 
-
-<div class="alert"><b>Note</b>  <a href="/windows/desktop/api/msctf/nf-msctf-itfreverseconversionmgr-getreverseconversion">GetReverseConversion</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For internal use only.</div>
-<div> </div>
-</td>
-</tr>
-</table>
+The <b>ITfReverseConversionMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfReverseConversionMgr</b> also has these types of members:
 
 ## -remarks
 

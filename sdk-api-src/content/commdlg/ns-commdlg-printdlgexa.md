@@ -1,7 +1,7 @@
 ---
 UID: NS:commdlg.tagPDEXA
 title: PRINTDLGEXA (commdlg.h)
-description: Contains information that the PrintDlgEx function uses to initialize the Print property sheet. After the user closes the property sheet, the system uses this structure to return information about the user's selections.
+description: Contains information that the PrintDlgEx function uses to initialize the Print property sheet. After the user closes the property sheet, the system uses this structure to return information about the user's selections. (ANSI)
 helpviewer_keywords: ["*LPPRINTDLGEXA","LPPRINTDLGEX","LPPRINTDLGEX structure pointer [Dialog Boxes]","PD_ALLPAGES","PD_COLLATE","PD_CURRENTPAGE","PD_DISABLEPRINTTOFILE","PD_ENABLEPRINTTEMPLATE","PD_ENABLEPRINTTEMPLATEHANDLE","PD_EXCLUSIONFLAGS","PD_EXCL_COPIESANDCOLLATE","PD_HIDEPRINTTOFILE","PD_NOCURRENTPAGE","PD_NOPAGENUMS","PD_NOSELECTION","PD_NOWARNING","PD_PAGENUMS","PD_PRINTTOFILE","PD_RESULT_APPLY","PD_RESULT_CANCEL","PD_RESULT_PRINT","PD_RETURNDC","PD_RETURNDEFAULT","PD_RETURNIC","PD_SELECTION","PD_USEDEVMODECOPIES","PD_USEDEVMODECOPIESANDCOLLATE","PD_USELARGETEMPLATE","PRINTDLGEX","PRINTDLGEX structure [Dialog Boxes]","PRINTDLGEXA","PRINTDLGEXW","_win32_PRINTDLGEX_str","_win32_printdlgex_str_cpp","commdlg/LPPRINTDLGEX","commdlg/PRINTDLGEX","commdlg/PRINTDLGEXA","commdlg/PRINTDLGEXW","dlgbox.printdlgex_str","tagPDEXA","tagPDEXW","winui._win32_printdlgex_str"]
 old-location: dlgbox\printdlgex_str.htm
 tech.root: dlgbox

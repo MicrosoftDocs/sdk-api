@@ -98,7 +98,7 @@ For the implications of overlapped I/O on this operation, see the Remarks sectio
 
 One alternative to using **FSCTL_OPLOCK_BREAK_ACKNOWLEDGE** is to indicate that the application is about to close the file anyway. Use the [FSCTL_OPBATCH_ACK_CLOSE_PENDING](ni-winioctl-fsctl_opbatch_ack_close_pending.md) control code for this response.
 
-Another alternative is to request to keep the file open but loose all locking, by means of the [FSCTL_OPLOCK_BREAK_ACK_NO_2](ni-winioctl-fsctl_oplock_break_ack_no_2.md) control code.
+Another alternative is to request to keep the file open but lose all locking, by means of the [FSCTL_OPLOCK_BREAK_ACK_NO_2](ni-winioctl-fsctl_oplock_break_ack_no_2.md) control code.
 
 Applications are notified that an opportunistic lock is broken by using the **hEvent** member of the [OVERLAPPED](../minwinbase/ns-minwinbase-overlapped.md) structure associated with the file on which the opportunistic lock is broken. Applications may also use functions such as [GetOverlappedResult](../ioapiset/nf-ioapiset-getoverlappedresult.md) and [HasOverlappedIoCompleted](../winbase/nf-winbase-hasoverlappediocompleted.md).
 

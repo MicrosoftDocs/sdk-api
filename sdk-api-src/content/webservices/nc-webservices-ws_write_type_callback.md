@@ -50,18 +50,18 @@ api_name:
 
 ## -description
 
-Invoked to write an element when <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_CUSTOM_TYPE</a>has been specified.  This allows writing of XML constructs which do not easily
+Invoked to write an element when <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_CUSTOM_TYPE</a> has been specified.  This allows writing of XML constructs which do not easily
                 map to the core serialization model.
 
 ## -parameters
 
-### -param *writer [in]
+### -param writer [in]
 
 A  <b>WS_XML_WRITER</b> pointer to the writer that the value should be written to.
 
 ### -param typeMapping [in]
 
-Indicates how the XML is being mapped to this type.  See <a href="/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_TYPE_MAPPING</a>for more information.
+Indicates how the XML is being mapped to this type.  See <a href="/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_TYPE_MAPPING</a> for more information.
                 
 
 If a mapping does not make sense for this particular type, the callback
@@ -69,12 +69,12 @@ If a mapping does not make sense for this particular type, the callback
                     should be prepared to be passed new mapping types in future versions and should return
                     <b>WS_E_INVALID_OPERATION</b> for those cases.
 
-### -param *descriptionData [in]
+### -param descriptionData [in]
 
 This is the value of the <b>descriptionData</b> field of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_custom_type_description">WS_CUSTOM_TYPE_DESCRIPTION</a> structure.
                     The callback uses this field to access any additional information about the type.
 
-### -param *value
+### -param value
 
 A  <b>void</b> pointer to a value to serialize.
 
@@ -82,7 +82,7 @@ A  <b>void</b> pointer to a value to serialize.
 
 The size, in bytes, of the value being serialized.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 A pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> data structure where additional error information should be stored if the function fails.
 

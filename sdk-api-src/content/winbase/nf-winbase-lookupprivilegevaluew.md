@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.LookupPrivilegeValueW
 title: LookupPrivilegeValueW function (winbase.h)
-description: Retrieves the locally unique identifier (LUID) used on a specified system to locally represent the specified privilege name.
+description: Retrieves the locally unique identifier (LUID) used on a specified system to locally represent the specified privilege name. (Unicode)
 helpviewer_keywords: ["LookupPrivilegeValue","LookupPrivilegeValue function [Security]","LookupPrivilegeValueA","LookupPrivilegeValueW","_win32_lookupprivilegevalue","security.lookupprivilegevalue","winbase/LookupPrivilegeValue","winbase/LookupPrivilegeValueA","winbase/LookupPrivilegeValueW"]
 old-location: security\lookupprivilegevalue.htm
 tech.root: security

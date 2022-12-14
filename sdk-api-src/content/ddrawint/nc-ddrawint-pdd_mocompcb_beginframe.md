@@ -51,7 +51,7 @@ The <b>DdMoCompBeginFrame</b> callback function starts decoding a new frame.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_beginmocompframedata">DD_BEGINMOCOMPFRAMEDATA</a> structure that contains the information needed to start decoding a new frame.
 

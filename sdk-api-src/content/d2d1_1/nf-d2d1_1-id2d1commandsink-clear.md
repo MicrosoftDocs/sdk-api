@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.Clear
 title: ID2D1CommandSink::Clear (d2d1_1.h)
-description: Clears the drawing area to the specified color.
+description: Clears the drawing area to the specified color. (ID2D1CommandSink.Clear)
 helpviewer_keywords: ["Clear","Clear method [Direct2D]","Clear method [Direct2D]","ID2D1CommandSink interface","ID2D1CommandSink interface [Direct2D]","Clear method","ID2D1CommandSink.Clear","ID2D1CommandSink::Clear","d2d1_1/ID2D1CommandSink::Clear","direct2d.id2d1commandsink_clear"]
 old-location: direct2d\id2d1commandsink_clear.htm
 tech.root: Direct2D

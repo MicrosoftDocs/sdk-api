@@ -59,56 +59,10 @@ See ISO/IEC 1318-1 for the MPEG-2 descriptor specifications. See ETSI EN 300 468
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGenericDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGenericDescriptor</b> also has these types of members:
+The <b>IGenericDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGenericDescriptor</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IGenericDescriptor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-igenericdescriptor-getbody">GetBody</a>
-</td>
-<td align="left" width="63%">
-Returns the body of the descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-igenericdescriptor-getlength">GetLength</a>
-</td>
-<td align="left" width="63%">
-Returns the length of the descriptor body.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-igenericdescriptor-gettag">GetTag</a>
-</td>
-<td align="left" width="63%">
-Returns the descriptor tag.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-igenericdescriptor-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the object.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

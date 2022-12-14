@@ -68,7 +68,7 @@ The pointer to the buffer retrieved by                  the <a href="/windows/de
 
 <b>ReleaseInputDataPointer</b> notifies the endpoint that the audio engine no longer requires the input data pointer and also indicates the number of frames used during the session.
     For example, an endpoint, which represents a looped buffer, is connected to the input of the
-    audio engine and  can advance its read
+    audio engine and can advance its read
     pointer by using the actual frame count.
     If <b>u32FrameCount</b> is zero, this indicates that the client did not use any data
     from the specified input buffer. The <b>u32FrameCount</b> must be less than or equal to the maximum  frame count supported by the endpoint. To get the supported number of frames, the audio engine calls the <a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-getframesperpacket">IAudioEndpoint::GetFramesPerPacket</a> method.

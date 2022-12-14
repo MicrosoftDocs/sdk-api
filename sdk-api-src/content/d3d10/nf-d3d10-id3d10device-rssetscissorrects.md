@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.RSSetScissorRects
 title: ID3D10Device::RSSetScissorRects (d3d10.h)
-description: Bind an array of scissor rectangles to the rasterizer stage.
+description: Bind an array of scissor rectangles to the rasterizer stage. (ID3D10Device.RSSetScissorRects)
 helpviewer_keywords: ["ID3D10Device interface [Direct3D 10]","RSSetScissorRects method","ID3D10Device.RSSetScissorRects","ID3D10Device::RSSetScissorRects","RSSetScissorRects","RSSetScissorRects method [Direct3D 10]","RSSetScissorRects method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::RSSetScissorRects","direct3d10.id3d10device_rssetscissorrects","ff11533a-fe9e-059e-c169-7e6f3c873b2d"]
 old-location: direct3d10\id3d10device_rssetscissorrects.htm
 tech.root: direct3d10

@@ -65,7 +65,7 @@ typedef enum {
 
 ## -enum-fields
 
-### -field typeGPO
+### -field typeGPO:0
 
 Backup of a Group Policy object.
 

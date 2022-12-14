@@ -54,7 +54,7 @@ These command IDs can be sent to the band object's container with <a href="/wind
 
 ## -enum-fields
 
-### -field DBID_BANDINFOCHANGED
+### -field DBID_BANDINFOCHANGED:0
 
 Updates all bands or a specific band.
 				
@@ -64,7 +64,7 @@ Updates all bands or a specific band.
 <li><b>To update a specific band:</b> Set <i>pvaIn-&gt;lVal</i> to the ID of the band to be updated, and <i>pvaIn-&gt;vt</i> to VT_I4.</li>
 </ul>
 
-### -field DBID_SHOWONLY
+### -field DBID_SHOWONLY:1
 
 Turns other bands in the container on or off. Set <i>pvaIn-&gt;vt</i> to VT_UNKNOWN, and set <i>pvaIn-&gt;punkVal</i> to one of the following values.
 
@@ -89,21 +89,21 @@ Turns other bands in the container on or off. Set <i>pvaIn-&gt;vt</i> to VT_UNKN
 </tr>
 </table>
 
-### -field DBID_MAXIMIZEBAND
+### -field DBID_MAXIMIZEBAND:2
 
 Maximize the band. Set <i>pvaIn-&gt;ulVal</i> to the ID of the band to be maximized, and set <i>pvaIn-&gt;vt</i> to VT_UI4.
 
-### -field DBID_PUSHCHEVRON
+### -field DBID_PUSHCHEVRON:3
 
 <a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5</a>. Displays a push chevron on a desk band. Set <i>pvaIn-&gt;vt</i> to VT_I4, set <i>pvaIn-&gt;lVal</i> to the ID of the desk band, and set the <a href="/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a> method's <i>nCmdExecOpt</i> parameter to the band identifier received in the most recent call to IDeskBand::GetBandInfo.  The container sends an RB_PUSHCHEVRON message, and the band object receives an RBN_CHEVRONPUSHED notification that prompts it to display the chevron. The band ID is passed back to the band object in the lParam parameter of the RBN_CHEVRONPUSHED message.
 
-### -field DBID_DELAYINIT
+### -field DBID_DELAYINIT:4
 
-### -field DBID_FINISHINIT
+### -field DBID_FINISHINIT:5
 
-### -field DBID_SETWINDOWTHEME
+### -field DBID_SETWINDOWTHEME:6
 
-### -field DBID_PERMITAUTOHIDE
+### -field DBID_PERMITAUTOHIDE:7
 
 ## -remarks
 

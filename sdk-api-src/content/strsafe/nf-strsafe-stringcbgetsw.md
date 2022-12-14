@@ -1,7 +1,7 @@
 ---
 UID: NF:strsafe.StringCbGetsW
 title: StringCbGetsW function (strsafe.h)
-description: Gets one line of text from stdin, up to and including the newline character ('\n').
+description: Gets one line of text from stdin, up to and including the newline character ('\n'). (StringCbGetsW)
 helpviewer_keywords: ["StringCbGets","StringCbGets function [Menus and Other Resources]","StringCbGetsA","StringCbGetsW","_shell_StringCbGets","_shell_stringcbgets_cpp","menurc.stringcbgets","strsafe/StringCbGets","strsafe/StringCbGetsA","strsafe/StringCbGetsW","winui._shell_stringcbgets"]
 old-location: menurc\stringcbgets.htm
 tech.root: menurc
@@ -134,7 +134,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-<b>StringCbGets</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbGets</b>always null-terminates a nonzero-length destination buffer.
+<b>StringCbGets</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbGets</b> always null-terminates a nonzero-length destination buffer.
 
 The value of <i>pszDest</i> should not be <b>NULL</b>. See <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbgetsexa">StringCbGetsEx</a> if you require the handling of null string pointer values.
 

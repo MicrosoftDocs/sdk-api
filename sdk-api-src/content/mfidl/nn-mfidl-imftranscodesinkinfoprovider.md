@@ -61,56 +61,7 @@ The transcode sink activation object can be used to create any of the following 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTranscodeSinkInfoProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTranscodeSinkInfoProvider</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFTranscodeSinkInfoProvider</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imftranscodesinkinfoprovider-getsinkinfo">GetSinkInfo</a>
-</td>
-<td align="left" width="63%">
-Gets the audio stream and the video stream attributes specified in the transcode profile.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imftranscodesinkinfoprovider-setoutputbytestream">SetOutputByteStream</a>
-</td>
-<td align="left" width="63%">
-Sets the output byte stream for the transcode media sink.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imftranscodesinkinfoprovider-setoutputfile">SetOutputFile</a>
-</td>
-<td align="left" width="63%">
-Sets the name of the output file to which the media sink writes the transcoded content.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imftranscodesinkinfoprovider-setprofile">SetProfile</a>
-</td>
-<td align="left" width="63%">
-Sets the specified transcode profile that contains the configuration settings for the audio stream, the video stream, and the container to which the file is written.
-
-</td>
-</tr>
-</table>
+The <b>IMFTranscodeSinkInfoProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTranscodeSinkInfoProvider</b> also has these types of members:
 
 ## -remarks
 

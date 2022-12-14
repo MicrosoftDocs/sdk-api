@@ -1,7 +1,7 @@
 ---
 UID: NF:oledlg.OleUIPromptUserA
 title: OleUIPromptUserA function (oledlg.h)
-description: Displays a dialog box with the specified template and returns the response (button identifier) from the user. This function is used to display OLE warning messages, for example, Class Not Registered.
+description: Displays a dialog box with the specified template and returns the response (button identifier) from the user. This function is used to display OLE warning messages, for example, Class Not Registered. (ANSI)
 helpviewer_keywords: ["OleUIPromptUser","OleUIPromptUser function [COM]","OleUIPromptUserA","OleUIPromptUserW","_ole_OleUIPromptUser","com.oleuipromptuser","oledlg/OleUIPromptUser","oledlg/OleUIPromptUserA","oledlg/OleUIPromptUserW"]
 old-location: com\oleuipromptuser.htm
 tech.root: com
@@ -64,7 +64,7 @@ The resource number of the dialog box to be displayed. See Remarks.
 
 The handle to the parent window of the dialog box.
 
-### -param arg3 [in]
+### -param ...
 
 Optional. The title of the dialog box followed by a list of arguments for the format string in the static control (IDC_PU_TEXT) of the dialog box. The caller must be sure to pass the correct number and types of arguments.
 
@@ -366,13 +366,18 @@ Errors common to all dialog boxes lie in the range OLEUI_ERR_STANDARDMIN to OLEU
 
 The following dialog box templates are defined in Windows Interface Guidelines--A Guide for Designing Software. The nTemplate parameter must be a currently defined resource, however, additional templates can be added to prompt.dlg.
 
-<pre class="syntax" xml:space="preserve"><code>IDD_LINKSOURCEUNAVAILABLE 
+
+``` syntax
+IDD_LINKSOURCEUNAVAILABLE 
 IDD_CANNOTUPDATELINK 
 IDD_SERVERNOTREG 
 IDD_CANNOTRESPONDVERB 
-IDD_SERVERNOTFOUND </code></pre>
+IDD_SERVERNOTFOUND 
+```
+
 
 
 
 > [!NOTE]
 > The oledlg.h header defines OleUIPromptUser as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

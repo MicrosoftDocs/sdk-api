@@ -54,7 +54,7 @@ Specifies the type of  a timed text cue event.
 
 ## -enum-fields
 
-### -field MF_TIMED_TEXT_CUE_EVENT_ACTIVE
+### -field MF_TIMED_TEXT_CUE_EVENT_ACTIVE:0
 
 The cue has become active.
 

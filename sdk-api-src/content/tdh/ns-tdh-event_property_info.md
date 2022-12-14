@@ -150,7 +150,6 @@ A 28-bit value associated with the field metadata. This value is valid only if t
 Filters do not support maps, structures, or arrays.
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/ns-tdh-provider_filter_info">PROVIDER_FILTER_INFO</a>
 
 

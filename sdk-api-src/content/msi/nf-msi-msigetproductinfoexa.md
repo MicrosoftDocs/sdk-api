@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiGetProductInfoExA
 title: MsiGetProductInfoExA function (msi.h)
-description: Returns product information for advertised and installed products.
+description: Returns product information for advertised and installed products. (ANSI)
 helpviewer_keywords: ["INSTALLPROPERTY_HELPLINK","INSTALLPROPERTY_HELPTELEPHONE","INSTALLPROPERTY_INSTALLDATE","INSTALLPROPERTY_INSTALLEDLANGUAGE","INSTALLPROPERTY_INSTALLEDPRODUCTNAME","INSTALLPROPERTY_INSTALLLOCATION","INSTALLPROPERTY_INSTALLSOURCE","INSTALLPROPERTY_LOCALPACKAGE","INSTALLPROPERTY_PRODUCTSTATE","INSTALLPROPERTY_PUBLISHER","INSTALLPROPERTY_URLINFOABOUT","INSTALLPROPERTY_URLUPDATEINFO","INSTALLPROPERTY_VERSIONMAJOR","INSTALLPROPERTY_VERSIONMINOR","INSTALLPROPERTY_VERSIONSTRING","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiGetProductInfoEx","MsiGetProductInfoEx function","MsiGetProductInfoExA","MsiGetProductInfoExW","NULL","User SID","msi/MsiGetProductInfoEx","msi/MsiGetProductInfoExA","msi/MsiGetProductInfoExW","setup.msigetproductinfoex"]
 old-location: setup\msigetproductinfoex.htm
 tech.root: setup

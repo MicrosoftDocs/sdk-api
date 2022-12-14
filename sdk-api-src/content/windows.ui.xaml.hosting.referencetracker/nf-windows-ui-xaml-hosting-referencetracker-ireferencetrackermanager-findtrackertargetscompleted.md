@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerManager.FindTrackerTargetsCompleted
-title: IReferenceTrackerManager::xaml (windows.ui.xaml.hosting.referencetracker.h)
+title: IReferenceTrackerManager::FindTrackerTargetsCompleted (windows.ui.xaml.hosting.referencetracker.h)
 description: Indicates that a garbage collection system has finished making all the calls it needs to IReferenceTracker::FindTrackerTargets; by this time, XAML has pegged all reference tracker targets that it wants to protect.
 helpviewer_keywords: ["FindTrackerTargetsCompleted","FindTrackerTargetsCompleted method [Windows Runtime]","FindTrackerTargetsCompleted method [Windows Runtime]","IReferenceTrackerManager interface","IReferenceTrackerManager interface [Windows Runtime]","FindTrackerTargetsCompleted method","IReferenceTrackerManager.FindTrackerTargetsCompleted","IReferenceTrackerManager.xaml","IReferenceTrackerManager::FindTrackerTargetsCompleted","IReferenceTrackerManager::xaml","windows/IReferenceTrackerManager::FindTrackerTargetsCompleted","winrt.ireferencetrackermanager_findtrackertargetscompleted"]
 old-location: winrt\ireferencetrackermanager_findtrackertargetscompleted.htm
@@ -45,7 +45,7 @@ api_name:
  - IReferenceTrackerManager.FindTrackerTargetsCompleted
 ---
 
-# IReferenceTrackerManager::xaml
+# IReferenceTrackerManager::FindTrackerTargetsCompleted (windows.ui.xaml.hosting.referencetracker.h)
 
 
 ## -description
@@ -58,7 +58,7 @@ Indicates that a garbage collection system has finished making all the calls it 
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

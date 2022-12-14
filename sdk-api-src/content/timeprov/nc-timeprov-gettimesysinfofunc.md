@@ -214,7 +214,7 @@ The <i>pvInfo</i> parameter is a <b>DWORD</b> value that specifies one of the fo
 </tr>
 </table>
 
-### -param *pvInfo [out]
+### -param pvInfo [out]
 
 A pointer to a buffer that receives that state information. The format of this data depends on the value of <i>eInfo</i>.
 

@@ -53,7 +53,7 @@ api_name:
 
 The <code>Run</code> method runs all the filters in the filter graph. While the graph is running, data moves through the graph and is rendered.
 
-## -parameters
+
 
 ## -returns
 

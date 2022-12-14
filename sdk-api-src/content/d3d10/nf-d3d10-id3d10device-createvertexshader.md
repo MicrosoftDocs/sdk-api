@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateVertexShader
 title: ID3D10Device::CreateVertexShader (d3d10.h)
-description: Create a vertex-shader object from a compiled shader.
+description: Create a vertex-shader object from a compiled shader. (ID3D10Device.CreateVertexShader)
 helpviewer_keywords: ["85865e55-ec77-0246-1f72-283d1333b4e7","CreateVertexShader","CreateVertexShader method [Direct3D 10]","CreateVertexShader method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","CreateVertexShader method","ID3D10Device.CreateVertexShader","ID3D10Device::CreateVertexShader","d3d10/ID3D10Device::CreateVertexShader","direct3d10.id3d10device_createvertexshader"]
 old-location: direct3d10\id3d10device_createvertexshader.htm
 tech.root: direct3d10

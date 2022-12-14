@@ -2,9 +2,8 @@
 UID: NF:icodecapi.ICodecAPI.GetDefaultValue
 title: ICodecAPI::GetDefaultValue
 ms.date: 09/22/2020
-ms.topic: language-reference
 targetos: Windows
-description: The GetDefaultValue method gets the default value of a codec property.
+description: The GetDefaultValue method gets the default value of a codec property. (ICodecAPI::GetDefaultValue)
 helpviewer_keywords: ["GetDefaultValue","GetDefaultValue method [DirectShow]","GetDefaultValue method [DirectShow]","ICodecAPI interface","ICodecAPI interface [DirectShow]","GetDefaultValue method","ICodecAPI.GetDefaultValue","ICodecAPI::GetDefaultValue","ICodecAPIGetDefaultValue","dshow.icodecapi_getdefaultvalue","icodecapi/ICodecAPI::GetDefaultValue"]
 tech.root: mf
 req.assembly: 
@@ -20,8 +19,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

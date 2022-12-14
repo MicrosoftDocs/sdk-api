@@ -58,7 +58,7 @@ The <b>MSV1_0_LOGON_SUBMIT_TYPE</b> enumeration indicates the kind of logon bein
 
 ## -enum-fields
 
-### -field MsV1_0InteractiveLogon
+### -field MsV1_0InteractiveLogon:2
 
 Requests an interactive user logon. This dispatch routine handles NTLM interactive logons initiated by 
 <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> or 
@@ -78,31 +78,31 @@ Requests a network logon. The only difference between this dispatch routine and 
 
 Requests the second half of an NTLM 2.0 protocol logon using a <a href="/windows/desktop/SecGloss/s-gly">subauthentication package</a>. When MSV1_0 initializes itself, it checks a registry key to determine whether it should load a subauthentication package. For more information about subauthentication packages used with MSV1_0, see the subauthentication sample included in the Platform SDK.
 
-### -field MsV1_0WorkstationUnlockLogon
+### -field MsV1_0WorkstationUnlockLogon:7
 
 Requests a logon unlock of a workstation.
 
 <b>Note</b>  Windows Server 2003Windows XPThis constant is not supported.
 
-### -field MsV1_0S4ULogon
+### -field MsV1_0S4ULogon:12
 
 Requests a service for user (S4U) logon.
 
 <b>Note</b>  Windows Server 2003 with SP2Windows VistaWindows Server 2003Windows XPThis constant is not supported.
 
-### -field MsV1_0VirtualLogon
+### -field MsV1_0VirtualLogon:82
 
 Requests a logon from a remote session.
 
 <b>Note</b>  Windows Server 2003 with SP2Windows VistaWindows Server 2003Windows XPThis constant is not supported.
 
-### -field MsV1_0NoElevationLogon
+### -field MsV1_0NoElevationLogon:83
 
 Requests a logon that doesn't allow for elevation of privileges.
 
 <b>Note</b>  Windows Server 2008 R2Windows 7Windows Server 2003 with SP2Windows VistaWindows Server 2003Windows XPThis constant is not supported.
 
-### -field MsV1_0LuidLogon
+### -field MsV1_0LuidLogon:84
 
 ## -see-also
 

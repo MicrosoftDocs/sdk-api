@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMDATETIMEWMKEYDOWNW
 title: NMDATETIMEWMKEYDOWNW (commctrl.h)
-description: Carries information used to describe and handle a DTN_WMKEYDOWN notification code.
+description: Carries information used to describe and handle a DTN_WMKEYDOWN notification code. (Unicode)
 helpviewer_keywords: ["*LPNMDATETIMEWMKEYDOWNW","LPNMDATETIMEWMKEYDOWN","LPNMDATETIMEWMKEYDOWN structure pointer [Windows Controls]","NMDATETIMEWMKEYDOWN","NMDATETIMEWMKEYDOWN structure [Windows Controls]","NMDATETIMEWMKEYDOWNA","NMDATETIMEWMKEYDOWNW","_win32_NMDATETIMEWMKEYDOWN","_win32_NMDATETIMEWMKEYDOWN_cpp","commctrl/LPNMDATETIMEWMKEYDOWN","commctrl/NMDATETIMEWMKEYDOWN","commctrl/NMDATETIMEWMKEYDOWNA","commctrl/NMDATETIMEWMKEYDOWNW","controls.NMDATETIMEWMKEYDOWN","controls._win32_NMDATETIMEWMKEYDOWN"]
 old-location: controls\NMDATETIMEWMKEYDOWN.htm
 tech.root: Controls

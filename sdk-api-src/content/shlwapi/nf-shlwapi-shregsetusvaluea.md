@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHRegSetUSValueA
 title: SHRegSetUSValueA function (shlwapi.h)
-description: Sets a registry subkey value in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
+description: Sets a registry subkey value in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). (ANSI)
 helpviewer_keywords: ["SHREGSET_DEFAULT","SHREGSET_FORCE_HKCU","SHREGSET_FORCE_HKLM","SHREGSET_HKCU","SHREGSET_HKLM","SHRegSetUSValue","SHRegSetUSValue function [Windows Shell]","SHRegSetUSValueA","SHRegSetUSValueW","_win32_SHRegSetUSValue","shell.SHRegSetUSValue","shlwapi/SHRegSetUSValue","shlwapi/SHRegSetUSValueA","shlwapi/SHRegSetUSValueW"]
 old-location: shell\SHRegSetUSValue.htm
 tech.root: shell
@@ -76,7 +76,7 @@ A pointer to a null-terminated string that specifies the name of the value.
 
 Type: <b>DWORD</b>
 
-Type of data to be stored. This parameter must be the <b>REG_SZ</b> type. For more information, see <a href="/windows/desktop/shell/schemas">Registry Data Types</a>.
+Type of data to be stored. This parameter must be the <b>REG_SZ</b> type. For more information, see <a href="/windows/desktop/shell/hkey-type">Registry Data Types</a>.
 
 ### -param pvData [in, optional]
 

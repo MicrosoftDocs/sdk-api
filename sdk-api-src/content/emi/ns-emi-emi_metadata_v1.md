@@ -86,6 +86,4 @@ This structure is returned through a successful completion of an <a href="/windo
 
 <a href="/windows-hardware/drivers/powermeter/energy-meter-interface">Energy Metering Interface</a>
 
-
-
 <a href="/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata">IOCTL_EMI_GET_METADATA</a>

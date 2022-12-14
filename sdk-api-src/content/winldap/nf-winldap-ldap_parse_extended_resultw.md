@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_parse_extended_resultW
 title: ldap_parse_extended_resultW function (winldap.h)
-description: The ldap_parse_extended_result parses the results of an LDAP extended operation.
+description: The ldap_parse_extended_result parses the results of an LDAP extended operation. (Unicode)
 helpviewer_keywords: ["_ldap_ldap_parse_extended_result","ldap.ldap__parse__extended__result","ldap.ldap_parse_extended_result","ldap_parse_extended_result","ldap_parse_extended_result function [LDAP]","ldap_parse_extended_resultA","ldap_parse_extended_resultW","winldap/ldap_parse_extended_result","winldap/ldap_parse_extended_resultA","winldap/ldap_parse_extended_resultW"]
 old-location: ldap\ldap_parse_extended_result.htm
 tech.root: ldap
@@ -63,7 +63,7 @@ The session handle.
 ### -param ResultMessage [in]
 
 A pointer to an 
-<a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a> structure as returned by 
+<a href="/windows/win32/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a> structure as returned by 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a> in response to an extended operation request.
 
 ### -param ResultOID [out]
@@ -108,7 +108,7 @@ When they are no longer needed, free the <i>ResultOID</i> string and the <i>Resu
 
 
 
-<a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
+<a href="/windows/win32/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
 
 
 

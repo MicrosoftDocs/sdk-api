@@ -47,6 +47,7 @@ api_location:
  - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
 api_name:
  - GetProcessWindowStation
+req.apiset: ext-ms-win-ntuser-windowstation-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetProcessWindowStation function
@@ -56,7 +57,7 @@ api_name:
 
 Retrieves a handle to the current window station for the calling process.
 
-## -parameters
+
 
 ## -returns
 

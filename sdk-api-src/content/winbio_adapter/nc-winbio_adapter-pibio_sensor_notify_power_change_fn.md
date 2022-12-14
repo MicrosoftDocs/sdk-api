@@ -6,7 +6,7 @@ helpviewer_keywords: ["PBT_APMPOWERSTATUSCHANGE","PBT_APMRESUMEAUTOMATIC","PBT_A
 old-location: secbiomet\sensoradapternotifypowerchange.htm
 tech.root: SecBioMet
 ms.assetid: 7EA9D7E7-3DB9-4131-A747-B0388310ACB5
-ms.date: 12/05/2018
+ms.date: 11/19/2020
 ms.keywords: PBT_APMPOWERSTATUSCHANGE, PBT_APMRESUMEAUTOMATIC, PBT_APMSUSPEND, PIBIO_SENSOR_NOTIFY_POWER_CHANGE_FN, PIBIO_SENSOR_NOTIFY_POWER_CHANGE_FN callback, SensorAdapterNotifyPowerChange, SensorAdapterNotifyPowerChange callback function [Windows Biometric Framework API], secbiomet.sensoradapternotifypowerchange, winbio_adapter/SensorAdapterNotifyPowerChange
 req.header: winbio_adapter.h
 req.include-header: 
@@ -62,17 +62,18 @@ Pointer to the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-wi
 
 Indicates the nature of the change. It can be one of the following values:
 
+ * **PBT_APMSUSPEND** 
+ 
+ The system is entering a low-power state.
+ 
+ * **PBT_APMRESUMEAUTOMATIC**
+ 
+ The system is returning from a low-power state.
+ 
+ * **PBT_APMPOWERSTATUSCHANGE**
+ 
+ The status of the system's power source is changing (e.g. the system has switched from battery to line power, or the battery is getting low).
 
-
-#### PBT_APMSUSPEND (The system is entering a low-power state)
-
-
-
-##### )
-
-
-
-####### )
 
 ## -returns
 
@@ -109,6 +110,6 @@ The <i>PowerEventType</i> argument was not one of the values listed.
 
 ## -remarks
 
-When it receives a <a href="/windows/desktop/Power/pbt-apmpowerstatuschange">PBT_APMPOWERSTATUSCHANGE</a> event, the adapter should call the Microsoft Win32<a href="/windows/desktop/api/winbase/nf-winbase-getsystempowerstatus">GetSystemPowerStatus</a>API to determine the new power status.
+When it receives a <a href="/windows/desktop/Power/pbt-apmpowerstatuschange">PBT_APMPOWERSTATUSCHANGE</a> event, the adapter should call the Microsoft Win32<a href="/windows/desktop/api/winbase/nf-winbase-getsystempowerstatus">GetSystemPowerStatus</a> API to determine the new power status.
 
 The biometric framework calls this adapter entry point asynchronously, in the context of an arbitrary thread. It is the adapter's responsibility to synchronize the processing of this call with any other work it may be doing.

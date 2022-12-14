@@ -91,7 +91,7 @@ A string containing the file-system label.
 
 ## -remarks
 
-The <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf-getfilesystemproperties">IVdsVolumeMF::GetFileSystemProperties</a>method returns this structure to report the property details of a file system.
+The <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf-getfilesystemproperties">IVdsVolumeMF::GetFileSystemProperties</a> method returns this structure to report the property details of a file system.
 
 ## -see-also
 

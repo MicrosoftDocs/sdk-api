@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreACP.RequestAttrsAtPosition
 title: ITextStoreACP::RequestAttrsAtPosition (textstor.h)
-description: Gets text attributes at the specified character position.
+description: Gets text attributes at the specified character position. (ITextStoreACP.RequestAttrsAtPosition)
 helpviewer_keywords: ["ITextStoreACP interface [Text Services Framework]","RequestAttrsAtPosition method","ITextStoreACP.RequestAttrsAtPosition","ITextStoreACP::RequestAttrsAtPosition","RequestAttrsAtPosition","RequestAttrsAtPosition method [Text Services Framework]","RequestAttrsAtPosition method [Text Services Framework]","ITextStoreACP interface","_tsf_itextstoreacp_requestattrsatposition_ref","textstor/ITextStoreACP::RequestAttrsAtPosition","tsf.itextstoreacp_requestattrsatposition"]
 old-location: tsf\itextstoreacp_requestattrsatposition.htm
 tech.root: TSF

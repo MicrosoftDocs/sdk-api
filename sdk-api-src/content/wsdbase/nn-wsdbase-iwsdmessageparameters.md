@@ -54,65 +54,7 @@ Use this interface to communicate message specific information up and down the p
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDMessageParameters</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDMessageParameters</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWSDMessageParameters</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdmessageparameters-getlocaladdress">GetLocalAddress</a>
-</td>
-<td align="left" width="63%">
-Retrieves the generic address object representing the local address that received the message.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdmessageparameters-getlowerparameters">GetLowerParameters</a>
-</td>
-<td align="left" width="63%">
-Retrieves message parameters from the layer below this layer in the protocol stack.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdmessageparameters-getremoteaddress">GetRemoteAddress</a>
-</td>
-<td align="left" width="63%">
-Retrieves the generic address object representing the remote address from which the message was sent.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdmessageparameters-setlocaladdress">SetLocalAddress</a>
-</td>
-<td align="left" width="63%">
-Sets a generic address object representing the source address that should send the message.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdmessageparameters-setremoteaddress">SetRemoteAddress</a>
-</td>
-<td align="left" width="63%">
-Sets the generic address object representing the remote address to where the message is sent.
-
-</td>
-</tr>
-</table>
+The <b>IWSDMessageParameters</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDMessageParameters</b> also has these types of members:
 
 ## -remarks
 

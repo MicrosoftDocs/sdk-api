@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupRemoveFromDiskSpaceListA
 title: SetupRemoveFromDiskSpaceListA function (setupapi.h)
-description: The SetupRemoveFromDiskSpaceList function removes a file delete or copy operation from a disk-space list.
+description: The SetupRemoveFromDiskSpaceList function removes a file delete or copy operation from a disk-space list. (ANSI)
 helpviewer_keywords: ["FILEOP_COPY","FILEOP_DELETE","SetupRemoveFromDiskSpaceList","SetupRemoveFromDiskSpaceList function [Setup API]","SetupRemoveFromDiskSpaceListA","SetupRemoveFromDiskSpaceListW","_setupapi_setupremovefromdiskspacelist","setup.setupremovefromdiskspacelist","setupapi/SetupRemoveFromDiskSpaceList","setupapi/SetupRemoveFromDiskSpaceListA","setupapi/SetupRemoveFromDiskSpaceListW"]
 old-location: setup\setupremovefromdiskspacelist.htm
 tech.root: setup

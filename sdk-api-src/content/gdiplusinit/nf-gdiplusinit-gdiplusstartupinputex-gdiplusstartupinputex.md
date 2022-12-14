@@ -2,9 +2,8 @@
 UID: NF:gdiplusinit.GdiplusStartupInputEx.GdiplusStartupInputEx
 title: GdiplusStartupInputEx::GdiplusStartupInputEx
 ms.date: 05/07/2020
-ms.topic: language-reference
 targetos: Windows
-description: Constructor for the [**GdiplusStartupInputEx**](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartupinputex-gdiplusstartupinputex) structure.
+description: Constructor for the [**GdiplusStartupInputEx**]() structure.
 tech.root: gdiplus
 req.assembly: 
 req.construct-type: function
@@ -19,8 +18,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -28,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - gdiplusinit.h
 api_name:
@@ -42,7 +40,7 @@ dev_langs:
 
 ## -description
 
-Constructor for the [**GdiplusStartupInputEx**](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartupinputex-gdiplusstartupinputex) structure.
+Constructor for the [**GdiplusStartupInputEx**](ns-gdiplusinit-gdiplusstartupinputex.md) structure.
 
 The constructor sets the **GdiplusVersion** member to 2. All of the constructor parameters are optional, so you can declare a variable of type **GdiplusStartupInputEx** without passing any arguments to the constructor, and all of the members will be initialized with appropriate default values.
 

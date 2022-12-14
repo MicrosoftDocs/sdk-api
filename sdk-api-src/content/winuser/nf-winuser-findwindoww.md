@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.FindWindowW
 title: FindWindowW function (winuser.h)
-description: Retrieves a handle to the top-level window whose class name and window name match the specified strings. This function does not search child windows. This function does not perform a case-sensitive search.
+description: Retrieves a handle to the top-level window whose class name and window name match the specified strings. This function does not search child windows. This function does not perform a case-sensitive search. (Unicode)
 helpviewer_keywords: ["FindWindow","FindWindow function [Windows and Messages]","FindWindowA","FindWindowW","_win32_FindWindow","_win32_findwindow_cpp","winmsg.findwindow","winui._win32_findwindow","winuser/FindWindow","winuser/FindWindowA","winuser/FindWindowW"]
 old-location: winmsg\findwindow.htm
 tech.root: winmsg
@@ -55,6 +55,7 @@ api_name:
  - FindWindow
  - FindWindowA
  - FindWindowW
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # FindWindowW function

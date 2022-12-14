@@ -1,7 +1,7 @@
 ---
 UID: NS:oledlg.tagOLEUIOBJECTPROPSW
 title: OLEUIOBJECTPROPSW (oledlg.h)
-description: Contains information that is used to initialize the standard Object Properties dialog box.
+description: Contains information that is used to initialize the standard Object Properties dialog box. (Unicode)
 helpviewer_keywords: ["*LPOLEUIOBJECTPROPSW","*POLEUIOBJECTPROPSW","LPOLEUIOBJECTPROPS","LPOLEUIOBJECTPROPS structure pointer [COM]","OLEUIOBJECTPROPS","OLEUIOBJECTPROPS structure [COM]","OLEUIOBJECTPROPSA","OLEUIOBJECTPROPSW","OPF_DISABLECONVERT","OPF_NOFILLDEFAULT","OPF_OBJECTISLINK","OPF_SHOWHELP","POLEUIOBJECTPROPS","POLEUIOBJECTPROPS structure pointer [COM]","_ole_OLEUIOBJECTPROPS","com.oleuiobjectprops_struct","oledlg/LPOLEUIOBJECTPROPS","oledlg/OLEUIOBJECTPROPS","oledlg/OLEUIOBJECTPROPSA","oledlg/OLEUIOBJECTPROPSW","oledlg/POLEUIOBJECTPROPS"]
 old-location: com\oleuiobjectprops_struct.htm
 tech.root: com

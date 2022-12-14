@@ -76,7 +76,7 @@ This parameter can be <b>NULL</b>. If <b>NULL</b>, all output types are matched.
 
 ### -param pAttributes [in, optional]
 
-A pointer to an <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface that enables access to the standard attribute store. To specify a specific hardware adapter for which MFTs are queried, set the  <a href="/windows/desktop/medfound/mft-enum-adapter-luid">MFT_ENUM_ADAPTER_LUID</a> attribute to the LUID of the adapter. If you do this, you must also specify the MFT_ENUM_FLAG_HARDWARE flag or E_INVALIDARG is returned.
+A pointer to an <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface that enables access to the standard attribute store. To specify a specific hardware adapter for which MFTs are queried, set the  <a href="/windows/win32/medfound/mft-enum-adapter-luid">MFT_ENUM_ADAPTER_LUID</a> attribute to the LUID of the adapter. If you do this, you must also specify the MFT_ENUM_FLAG_HARDWARE flag or E_INVALIDARG is returned.
 
 ### -param pppMFTActivate [out]
 
@@ -285,7 +285,7 @@ Hardware codecs should also be registered under an <a href="/windows/desktop/med
 
 #### Examples
 
-The following example retrieves the first available <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter1">IDXGIAdapter1</a> and gets the adapters <a href="/windows/desktop/api/dxgi/ns-dxgi-_luid">LUID</a>, which is needed to identify the adapter for the subsequent examples.
+The following example retrieves the first available <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter1">IDXGIAdapter1</a> and gets the adapters <a href="/windows/win32/api/ntdef/ns-ntdef-luid">LUID</a>, which is needed to identify the adapter for the subsequent examples.
 
 
 ```cpp

@@ -56,7 +56,7 @@ An <b>ImageCodecInfo</b> object stores information about an image codec (encoder
 			<a href="/windows/desktop/api/gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoders">GetImageEncoders</a> function and the 
 			<a href="/windows/desktop/api/gdiplusimagecodec/nf-gdiplusimagecodec-getimagedecoders">GetImageDecoders</a> function. Each of those functions returns an array of <b>ImageCodecInfo</b> objects, one for each available encoder or decoder.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">ImageCodecInfo</b> has these types of members:
+<b>ImageCodecInfo</b> has these types of members:
 
 ## -see-also
 

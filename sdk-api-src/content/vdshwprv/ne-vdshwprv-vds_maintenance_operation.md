@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv._VDS_MAINTENANCE_OPERATION
 title: VDS_MAINTENANCE_OPERATION (vdshwprv.h)
-description: Defines the set of valid subsystem maintenance operations.
+description: The VDS_MAINTENANCE_OPERATION enumeration (vdshwprv.h) defines the set of valid subsystem maintenance operations.
 helpviewer_keywords: ["BeepAlarm","BlinkLight","Ping","SpinDown","SpinUp","VDS_MAINTENANCE_OPERATION","VDS_MAINTENANCE_OPERATION enumeration [VDS]","base.vds_maintenance_operation","vds/BeepAlarm","vds/BlinkLight","vds/Ping","vds/SpinDown","vds/SpinUp","vds/VDS_MAINTENANCE_OPERATION","vdshwprv/BeepAlarm","vdshwprv/BlinkLight","vdshwprv/Ping","vdshwprv/SpinDown","vdshwprv/SpinUp","vdshwprv/VDS_MAINTENANCE_OPERATION"]
 old-location: base\vds_maintenance_operation.htm
 tech.root: base
 ms.assetid: 29bc5eb3-2e4b-4ca1-8b0a-9b43d2723e56
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: BeepAlarm, BlinkLight, Ping, SpinDown, SpinUp, VDS_MAINTENANCE_OPERATION, VDS_MAINTENANCE_OPERATION enumeration [VDS], base.vds_maintenance_operation, vds/BeepAlarm, vds/BlinkLight, vds/Ping, vds/SpinDown, vds/SpinUp, vds/VDS_MAINTENANCE_OPERATION, vdshwprv/BeepAlarm, vdshwprv/BlinkLight, vdshwprv/Ping, vdshwprv/SpinDown, vdshwprv/SpinUp, vdshwprv/VDS_MAINTENANCE_OPERATION
 req.header: vdshwprv.h
 req.include-header: 
@@ -59,23 +59,23 @@ Defines the set of valid subsystem maintenance operations.
 
 ## -enum-fields
 
-### -field BlinkLight
+### -field BlinkLight:1
 
 Blinks a light on a drive.
 
-### -field BeepAlarm
+### -field BeepAlarm:2
 
 Beeps an alarm on a drive.
 
-### -field SpinDown
+### -field SpinDown:3
 
 Slows the spinning of a drive such that the drive enters an idle state. Typically used for the purpose of saving power.
 
-### -field SpinUp
+### -field SpinUp:4
 
 Starts the spinning of a drive in preparation for data reads.
 
-### -field Ping
+### -field Ping:5
 
 Pings a drive.
 

@@ -56,7 +56,7 @@ The <b>get_Presenter</b> method retrieves the presenter object for the <a href="
 
 ### -param ppAllocPresent [out]
 
-Receives a pointer to the <a href="/windows/desktop/api/evr/nn-evr-imfvideopresenter">IMFVideoPresenter</a> interface. This interface is documented in this Media Foundation SDK documentaion. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/evr/nn-evr-imfvideopresenter">IMFVideoPresenter</a> interface. This interface is documented in this Media Foundation SDK documentation. The caller must release the interface.
 
 ## -returns
 

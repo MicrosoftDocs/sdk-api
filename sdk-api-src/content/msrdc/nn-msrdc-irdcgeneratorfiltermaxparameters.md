@@ -55,52 +55,7 @@ The <b>IRdcGeneratorFilterMaxParameters</b>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcGeneratorFilterMaxParameters</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRdcGeneratorFilterMaxParameters</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IRdcGeneratorFilterMaxParameters</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorfiltermaxparameters-gethashwindowsize">GetHashWindowSize</a>
-</td>
-<td align="left" width="63%">
-Returns the hash window size—the size of the sliding window used by the 
-    FilterMax generator for computing the hash used in the local maxima calculations.</p> (Inherited from <b>IRdcGeneratorFilterMaxParameters</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorfiltermaxparameters-gethorizonsize">GetHorizonSize</a>
-</td>
-<td align="left" width="63%">
-Returns the horizon size—the length over which the FilterMax generator looks 
-    for local maxima.</p> (Inherited from <b>IRdcGeneratorFilterMaxParameters</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorfiltermaxparameters-sethashwindowsize">SetHashWindowSize</a>
-</td>
-<td align="left" width="63%">
-Sets the hash window size—the size of the sliding window used by the 
-    FilterMax generator for computing the hash used in the local maxima calculations.</p> (Inherited from <b>IRdcGeneratorFilterMaxParameters</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorfiltermaxparameters-sethorizonsize">SetHorizonSize</a>
-</td>
-<td align="left" width="63%">
-Sets the horizon size—the length over which the FilterMax generator looks 
-    for local maxima.</p> (Inherited from <b>IRdcGeneratorFilterMaxParameters</b>)</td>
-</tr>
-</table>
+The <b>IRdcGeneratorFilterMaxParameters</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRdcGeneratorFilterMaxParameters</b> also has these types of members:
 
 ## -see-also
 

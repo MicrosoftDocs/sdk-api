@@ -56,29 +56,7 @@ Provides the CLSID of an object that can be stored persistently in the system. A
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersist</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPersist</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPersist</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ipersist-getclassid">GetClassID</a>
-</td>
-<td align="left" width="63%">
-Retrieves the class identifier (CLSID) of the object.
-
-</td>
-</tr>
-</table>
+The <b>IPersist</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPersist</b> also has these types of members:
 
 ## -see-also
 

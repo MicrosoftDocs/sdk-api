@@ -63,29 +63,7 @@ This interface was introduced for applications that are already using the FSRM i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmAccessDeniedRemediationClient</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmAccessDeniedRemediationClient</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IFsrmAccessDeniedRemediationClient</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmaccessdeniedremediationclient-show">Show</a>
-</td>
-<td align="left" width="63%">
-Displays the Access Denied Remediation client user interface.
-
-</td>
-</tr>
-</table>
+The <b>IFsrmAccessDeniedRemediationClient</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmAccessDeniedRemediationClient</b> also has these types of members:
 
 ## -see-also
 

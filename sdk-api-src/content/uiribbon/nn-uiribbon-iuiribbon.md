@@ -55,50 +55,7 @@ The <b>IUIRibbon</b> interface is implemented by the Windows Ribbon
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIRibbon</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIRibbon</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IUIRibbon</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-getheight">GetHeight</a>
-</td>
-<td align="left" width="63%">
-Retrieves the height of the ribbon.		
-		
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-loadsettingsfromstream">LoadSettingsFromStream</a>
-</td>
-<td align="left" width="63%">
-Reads ribbon settings from a binary stream.
-		
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream">SaveSettingsToStream</a>
-</td>
-<td align="left" width="63%">
-Writes ribbon settings to a binary stream.
-		
-
-</td>
-</tr>
-</table>
+The <b>IUIRibbon</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIRibbon</b> also has these types of members:
 
 ## -remarks
 

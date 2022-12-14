@@ -16,7 +16,9 @@ f1_keywords:
 
 ## -description
 
-This header is used by System Services. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [Hyper-V WMI Provider](../_virtual/index.md)
+- [Storage Volume Provider](../_vdswmi/index.md)
 - [System Services](../_base/index.md)
 

@@ -57,74 +57,7 @@ The <b>IMDSPStorage4</b> interface extends <a href="/windows/desktop/api/mswmdm/
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPStorage4</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage3">IMDSPStorage3</a>. <b>IMDSPStorage4</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMDSPStorage4</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-createstoragewithmetadata">CreateStorageWithMetadata</a>
-</td>
-<td align="left" width="63%">
-Creates a new storage supporting metadata, and returns a pointer to the <b>IMDSPStorage</b> interface on the newly created storage. The new storage can be created at the same level or can be inserted into the current storage.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-findstorage">FindStorage</a>
-</td>
-<td align="left" width="63%">
-Retrieves the storage through its unique identification (ID).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-getparent">GetParent</a>
-</td>
-<td align="left" width="63%">
-Retrieves the parent storage object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-getreferences">GetReferences</a>
-</td>
-<td align="left" width="63%">
-Retrieves references of an association object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-getspecifiedmetadata">GetSpecifiedMetadata</a>
-</td>
-<td align="left" width="63%">
-Retrieves the specified metadata.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-setreferences">SetReferences</a>
-</td>
-<td align="left" width="63%">
-Sets references of an association object.
-
-</td>
-</tr>
-</table>
+The <b>IMDSPStorage4</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage3">IMDSPStorage3</a>. <b>IMDSPStorage4</b> also has these types of members:
 
 ## -see-also
 

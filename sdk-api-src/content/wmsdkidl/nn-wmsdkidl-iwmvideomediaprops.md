@@ -57,94 +57,10 @@ To get access to the methods of this interface, call <b>QueryInterface</b> on a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMVideoMediaProps</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a>. <b>IWMVideoMediaProps</b> also has these types of members:
+The <b>IWMVideoMediaProps</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a>. <b>IWMVideoMediaProps</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMVideoMediaProps</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmvideomediaprops-getmaxkeyframespacing">GetMaxKeyFrameSpacing</a>
-</td>
-<td align="left" width="63%">
-Retrieves the maximum interval between key frames.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmvideomediaprops-getquality">GetQuality</a>
-</td>
-<td align="left" width="63%">
-Retrieves the quality setting for the video stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmvideomediaprops-setmaxkeyframespacing">SetMaxKeyFrameSpacing</a>
-</td>
-<td align="left" width="63%">
-Specifies the maximum interval between key frames.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmvideomediaprops-setquality">SetQuality</a>
-</td>
-<td align="left" width="63%">
-Specifies the quality setting for the video stream.
-
-</td>
-</tr>
-</table> 
-
-The following interfaces can be obtained by using the QueryInterface method of this interface.
-<table>
-<tr>
-<th>Interface</th>
-<th>IID</th>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a>
-</td>
-<td>IID_IWMMediaProps</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault">IWMPropertyVault</a>
-</td>
-<td>IID_IWMPropertyVault</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig</a>
-</td>
-<td>IID_IWMStreamConfig</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig2">IWMStreamConfig2</a>
-</td>
-<td>IID_IWMStreamConfig2</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig3">IWMStreamConfig3</a>
-</td>
-<td>IID_IWMStreamConfig3</td>
-</tr>
-</table>
 
 ## -see-also
 

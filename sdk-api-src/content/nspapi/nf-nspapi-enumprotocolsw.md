@@ -1,7 +1,7 @@
 ---
 UID: NF:nspapi.EnumProtocolsW
 title: EnumProtocolsW function (nspapi.h)
-description: The EnumProtocols function retrieves information about a specified set of network protocols that are active on a local host.
+description: The EnumProtocols function retrieves information about a specified set of network protocols that are active on a local host. (Unicode)
 helpviewer_keywords: ["EnumProtocols","EnumProtocols function [Winsock]","EnumProtocolsA","EnumProtocolsW","IPPROTO_TCP","IPPROTO_UDP","ISOPROTO_TP4","NSPROTO_IPX","NSPROTO_SPX","NSPROTO_SPXII","_win32_enumprotocols_2","nspapi/EnumProtocols","nspapi/EnumProtocolsA","nspapi/EnumProtocolsW","winsock.enumprotocols_2"]
 old-location: winsock\enumprotocols_2.htm
 tech.root: WinSock

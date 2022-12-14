@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.ICodecAPI.RegisterForEvent
 title: ICodecAPI::RegisterForEvent (strmif.h)
-description: The RegisterForEvent method registers the application to receive events from the codec.
+description: The RegisterForEvent method registers the application to receive events from the codec. (ICodecAPI.RegisterForEvent)
 helpviewer_keywords: ["A proprietary event GUID defined by the codec.","CODECAPI_CHANGELISTS","ICodecAPI interface [DirectShow]","RegisterForEvent method","ICodecAPI.RegisterForEvent","ICodecAPI::RegisterForEvent","ICodecAPIRegisterForEvent","One of the property GUIDs defined in codecapi.h. (See Codec API Properties.)","RegisterForEvent","RegisterForEvent method [DirectShow]","RegisterForEvent method [DirectShow]","ICodecAPI interface","dshow.icodecapi_registerforevent","strmif/ICodecAPI::RegisterForEvent"]
 old-location: dshow\icodecapi_registerforevent.htm
 tech.root: dshow

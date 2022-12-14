@@ -54,7 +54,7 @@ The
 <b>Answer</b> method answers an incoming call. This method can succeed only if the 
 <a href="/windows/desktop/api/tapi3if/ne-tapi3if-call_state">call state</a> is CS_OFFERING.
 
-## -parameters
+
 
 ## -returns
 

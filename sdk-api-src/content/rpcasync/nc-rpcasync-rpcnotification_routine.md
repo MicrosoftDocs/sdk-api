@@ -55,12 +55,12 @@ The
 
 ## -parameters
 
-### -param *pAsync
+### -param pAsync
 
 Pointer to a structure that contains the current state of the asynchronous RPC run-time library. For more information, see 
 <a href="/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a>.
 
-### -param *Context
+### -param Context
 
 Reserved for future use. Windows 2000 currently sets this parameter to <b>NULL</b>.
 

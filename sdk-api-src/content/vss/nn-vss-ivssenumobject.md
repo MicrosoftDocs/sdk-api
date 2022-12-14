@@ -1,7 +1,7 @@
 ---
 UID: NN:vss.IVssEnumObject
 title: IVssEnumObject (vss.h)
-description: Contains methods to iterate over and perform other operations on a list of enumerated objects.
+description: Contains methods to iterate over and perform other operations on a list of enumerated objects. (IVssEnumObject)
 helpviewer_keywords: ["IVssEnumObject","IVssEnumObject interface [VSS]","IVssEnumObject interface [VSS]","described","_win32_ivssenumobject","base.ivssenumobject","vss/IVssEnumObject"]
 old-location: base\ivssenumobject.htm
 tech.root: base
@@ -65,53 +65,5 @@ The <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-quer
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssEnumObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssEnumObject</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVssEnumObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssEnumObject</b> also has these types of members:
 
-## -members
-
-The <b>IVssEnumObject</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vss/nf-vss-ivssenumobject-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Copies the specified list of enumerated objects.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vss/nf-vss-ivssenumobject-next">Next</a>
-</td>
-<td align="left" width="63%">
-Returns the next specified number of objects from the list of enumerated objects.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vss/nf-vss-ivssenumobject-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Clears the list of enumerated objects.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vss/nf-vss-ivssenumobject-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips the specified number of objects in the list of enumerated objects.
-
-</td>
-</tr>
-</table>

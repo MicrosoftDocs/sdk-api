@@ -62,71 +62,7 @@ To create a <b>GPMBackupDirEx</b> object, call the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMBackupDirEx</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMBackupDirEx</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
-
-## -members
-
-The <b>IGPMBackupDirEx</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmbackupdirex-getbackup">GetBackup</a>
-</td>
-<td align="left" width="63%">
-Retrieves the <b>GPMBackup</b> or a Starter Group Policy object (GPO) backup <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMStarterGPOBackup</a> object with the specified backup ID (GUID).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmbackupdirex-searchbackups">SearchBackups</a>
-</td>
-<td align="left" width="63%">
-Executes a search for <b>GPMBackup</b> or <b>GPMStarterGPOBackup</b> objects according to the specified search criteria, and returns a 
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpocollection">GPMBackupCollection</a> or <b>GPMStarterGPOBackupCollection</b> object.
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMBackupDirEx</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/previous-versions/windows/desktop/gpmc/igpmbackupdir-property-methods">BackupDirectory</a>
-
-
-</td>
-<td align="left" width="63%">
-Pointer to the  path of the file system directory for Group Policy object (GPO) backups.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/previous-versions/windows/desktop/gpmc/igpmbackupdir-property-methods">BackupType</a>
-
-
-</td>
-<td align="left" width="63%">
-Value that specifies whether the  specified backup is a Group Policy object (GPO) backup  <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> or a Starter Group Policy object (GPO) backup <b>GPMStarterGPOBackup</b>.
-
-</td>
-</tr>
-</table>
+The <b>IGPMBackupDirEx</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMBackupDirEx</b> also has these types of members:
 
 ## -see-also
 

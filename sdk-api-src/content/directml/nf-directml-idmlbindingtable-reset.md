@@ -54,18 +54,18 @@ Resets the binding table to wrap a new range of descriptors, potentially for a d
         initializer. This allows dynamic reuse of the binding table.
 
 Resetting a binding table doesn't modify any previous bindings created by the table. Because of this, it is
-        safe to reset the binding table immediately after supplying it to [IDMLCommandRecorder::RecordDispatch](/windows/desktop/api/directml/nf-directml-idmlcommandrecorder-recorddispatch), even if that work has not yet completed execution on the GPU, so long as the
+        safe to reset the binding table immediately after supplying it to [IDMLCommandRecorder::RecordDispatch](/windows/win32/api/directml/nf-directml-idmlcommandrecorder-recorddispatch), even if that work has not yet completed execution on the GPU, so long as the
         underlying descriptors remain valid.
 
-See [IDMLDevice::CreateBindingTable](/windows/desktop/api/directml/nf-directml-idmldevice-createbindingtable) for more information on the parameters supplied to this method.
+See [IDMLDevice::CreateBindingTable](/windows/win32/api/directml/nf-directml-idmldevice-createbindingtable) for more information on the parameters supplied to this method.
 
 ## -parameters
 
 ### -param desc [in, optional]
 
-Type: <b>const [DML_BINDING_TABLE_DESC](/windows/desktop/api/directml/ns-directml-dml_binding_table_desc)*</b>
+Type: <b>const [DML_BINDING_TABLE_DESC](/windows/win32/api/directml/ns-directml-dml_binding_table_desc)*</b>
 
-An optional pointer to a [DML_BINDING_TABLE_DESC](/windows/desktop/api/directml/ns-directml-dml_binding_table_desc) containing the binding table parameters. This may be <b>nullptr</b>, indicating an empty binding table.
+An optional pointer to a [DML_BINDING_TABLE_DESC](/windows/win32/api/directml/ns-directml-dml_binding_table_desc) containing the binding table parameters. This may be <b>nullptr</b>, indicating an empty binding table.
 
 ## -returns
 
@@ -75,9 +75,6 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -see-also
 
-<a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
+<a href="/windows/ai/directml/dml-binding">Binding in DirectML</a>
 
-
-
-[IDMLBindingTable](/windows/desktop/api/directml/nn-directml-idmlbindingtable)
-
+[IDMLBindingTable](/windows/win32/api/directml/nn-directml-idmlbindingtable)

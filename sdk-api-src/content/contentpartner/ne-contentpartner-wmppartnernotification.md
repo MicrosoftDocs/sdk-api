@@ -56,19 +56,19 @@ The <b>WMPPartnerNotification</b> enumeration defines operational states of an o
 
 ## -enum-fields
 
-### -field wmpsnBackgroundProcessingBegin
+### -field wmpsnBackgroundProcessingBegin:1
 
 Start background processing.
 
-### -field wmpsnBackgroundProcessingEnd
+### -field wmpsnBackgroundProcessingEnd:2
 
 End background processing.
 
-### -field wmpsnCatalogDownloadFailure
+### -field wmpsnCatalogDownloadFailure:3
 
 The catalog download failed.
 
-### -field wmpsnCatalogDownloadComplete
+### -field wmpsnCatalogDownloadComplete:4
 
 The catalog download completed.
 

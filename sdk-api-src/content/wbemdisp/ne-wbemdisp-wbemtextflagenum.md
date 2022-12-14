@@ -59,7 +59,7 @@ The WMI scripting type library, wbemdisp.tlb, defines these constants. Visual Ba
 
 ## -enum-fields
 
-### -field wbemTextFlagNoFlavors
+### -field wbemTextFlagNoFlavors:0x1
 
 Excludes qualifier flavors from the object text.
 

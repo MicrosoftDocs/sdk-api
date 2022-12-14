@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsapi32.WTSQuerySessionInformationA
 title: WTSQuerySessionInformationA function (wtsapi32.h)
-description: Retrieves session information for the specified session on the specified Remote Desktop Session Host (RD Session Host) server.
+description: Retrieves session information for the specified session on the specified Remote Desktop Session Host (RD Session Host) server. (ANSI)
 helpviewer_keywords: ["WTSQuerySessionInformation","WTSQuerySessionInformation function [Remote Desktop Services]","WTSQuerySessionInformationA","WTSQuerySessionInformationW","_win32_wtsquerysessioninformation","termserv.wtsquerysessioninformation","wtsapi32/WTSQuerySessionInformation","wtsapi32/WTSQuerySessionInformationA","wtsapi32/WTSQuerySessionInformationW"]
 old-location: termserv\wtsquerysessioninformation.htm
 tech.root: TermServ
@@ -46,6 +46,7 @@ api_name:
  - WTSQuerySessionInformation
  - WTSQuerySessionInformationA
  - WTSQuerySessionInformationW
+req.apiset: ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)
 ---
 
 # WTSQuerySessionInformationA function

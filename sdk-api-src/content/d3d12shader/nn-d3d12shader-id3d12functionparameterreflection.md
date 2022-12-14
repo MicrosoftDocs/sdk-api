@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12shader.ID3D12FunctionParameterReflection
 title: ID3D12FunctionParameterReflection (d3d12shader.h)
-description: A function-parameter-reflection interface accesses function-parameter info.
+description: A function-parameter-reflection interface accesses function-parameter info. (ID3D12FunctionParameterReflection)
 helpviewer_keywords: ["ID3D12FunctionParameterReflection","ID3D12FunctionParameterReflection interface","ID3D12FunctionParameterReflection interface","described","d3d12shader/ID3D12FunctionParameterReflection","direct3d12.id3d12functionparameterreflection"]
 old-location: direct3d12\id3d12functionparameterreflection.htm
 tech.root: direct3d12
@@ -57,29 +57,10 @@ A function-parameter-reflection interface accesses function-parameter info.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12FunctionParameterReflection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12FunctionParameterReflection</b> also has these types of members:
+The <b>ID3D12FunctionParameterReflection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12FunctionParameterReflection</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ID3D12FunctionParameterReflection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionparameterreflection-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Fills the parameter descriptor structure for the function's parameter.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

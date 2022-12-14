@@ -53,7 +53,7 @@ api_name:
 
 Deletes a Group Policy object (GPO) from the directory service and from the system volume folder (SYSVOL).
 
-## -parameters
+
 
 ## -returns
 

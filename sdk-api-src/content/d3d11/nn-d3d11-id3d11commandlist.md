@@ -55,29 +55,7 @@ The <b>ID3D11CommandList</b> interface encapsulates a list of graphics commands 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11CommandList</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>. <b>ID3D11CommandList</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D11CommandList</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11commandlist-getcontextflags">GetContextFlags</a>
-</td>
-<td align="left" width="63%">
-Gets the initialization flags associated with the deferred context that created the command list.
-
-</td>
-</tr>
-</table>
+The <b>ID3D11CommandList</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>. <b>ID3D11CommandList</b> also has these types of members:
 
 ## -remarks
 

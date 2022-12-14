@@ -174,7 +174,7 @@ Use
 
 ## -remarks
 
-These changes to a server configuration are persistent, but have no affect on a RRAS server until it is restarted.
+These changes to a server configuration are persistent, but have no effect on a RRAS server until it is restarted.
 
 
 #### Examples

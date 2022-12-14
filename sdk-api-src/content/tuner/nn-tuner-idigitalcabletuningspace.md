@@ -54,92 +54,10 @@ The <b>IDigitalCableTuningSpace</b> interface is implemented on the DigitalTunin
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDigitalCableTuningSpace</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsctuningspace">IATSCTuningSpace</a>. <b>IDigitalCableTuningSpace</b> also has these types of members:
+The <b>IDigitalCableTuningSpace</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsctuningspace">IATSCTuningSpace</a>. <b>IDigitalCableTuningSpace</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IDigitalCableTuningSpace</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idigitalcabletuningspace-get_maxmajorchannel">get_MaxMajorChannel</a>
-</td>
-<td align="left" width="63%">
-Retrieves the highest major channel number for this tuning space.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idigitalcabletuningspace-get_maxsourceid">get_MaxSourceID</a>
-</td>
-<td align="left" width="63%">
-Retrieves the highest source identifier for this tuning space.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idigitalcabletuningspace-get_minmajorchannel">get_MinMajorChannel</a>
-</td>
-<td align="left" width="63%">
-Retrieves the lowest major channel number for this tuning space.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idigitalcabletuningspace-get_minsourceid">get_MinSourceID</a>
-</td>
-<td align="left" width="63%">
-Retrieves the lowest source identifier for this tuning space.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idigitalcabletuningspace-put_maxmajorchannel">put_MaxMajorChannel</a>
-</td>
-<td align="left" width="63%">
-Sets the highest major channel number for this tuning space.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idigitalcabletuningspace-put_maxsourceid">put_MaxSourceID</a>
-</td>
-<td align="left" width="63%">
-Sets the highest source identifier for this tuning space.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idigitalcabletuningspace-put_minmajorchannel">put_MinMajorChannel</a>
-</td>
-<td align="left" width="63%">
-Sets the lowest major channel number for this tuning space.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idigitalcabletuningspace-put_minsourceid">put_MinSourceID</a>
-</td>
-<td align="left" width="63%">
-Sets the lowest source identifier for this tuning space.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

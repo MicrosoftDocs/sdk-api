@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetDefaultCommConfigW
 title: GetDefaultCommConfigW function (winbase.h)
-description: Retrieves the default configuration for the specified communications device.
+description: Retrieves the default configuration for the specified communications device. (Unicode)
 helpviewer_keywords: ["GetDefaultCommConfig","GetDefaultCommConfig function","GetDefaultCommConfigA","GetDefaultCommConfigW","_win32_getdefaultcommconfig","base.getdefaultcommconfig","winbase/GetDefaultCommConfig","winbase/GetDefaultCommConfigA","winbase/GetDefaultCommConfigW"]
 old-location: base\getdefaultcommconfig.htm
 tech.root: base

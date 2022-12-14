@@ -2,9 +2,8 @@
 UID: NF:icodecapi.ICodecAPI.IsModifiable
 title: ICodecAPI::IsModifiable
 ms.date: 09/22/2020
-ms.topic: language-reference
 targetos: Windows
-description: The IsModifiable method queries whether a codec property can be changed, given the codec's current configuration.
+description: The IsModifiable method queries whether a codec property can be changed, given the codec's current configuration. (ICodecAPI::IsModifiable)
 helpviewer_keywords: ["ICodecAPI interface [DirectShow]","IsModifiable method","ICodecAPI.IsModifiable","ICodecAPI::IsModifiable","ICodecAPIIsModifiable","IsModifiable","IsModifiable method [DirectShow]","IsModifiable method [DirectShow]","ICodecAPI interface","dshow.icodecapi_ismodifiable","icodecapi/ICodecAPI::IsModifiable"]
 tech.root: mf
 req.assembly: 
@@ -20,8 +19,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

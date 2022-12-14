@@ -54,44 +54,8 @@ Implements methods that get data from a Digital Video Broadcast (DVB) private da
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbPrivateDataSpecifierDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbPrivateDataSpecifierDescriptor</b> also has these types of members:
+The <b>IDvbPrivateDataSpecifierDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbPrivateDataSpecifierDescriptor</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDvbPrivateDataSpecifierDescriptor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbprivatedataspecifierdescriptor-getlength">GetLength</a>
-</td>
-<td align="left" width="63%">
-Gets the body length of a DVB private data descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbprivatedataspecifierdescriptor-getprivatedataspecifier">GetPrivateDataSpecifier</a>
-</td>
-<td align="left" width="63%">
-Gets data from a DVB private data descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbprivatedataspecifierdescriptor-gettag">GetTag</a>
-</td>
-<td align="left" width="63%">
-Gets the tag that identifies a DVB private data descriptor.
-
-</td>
-</tr>
-</table>

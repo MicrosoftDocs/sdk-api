@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemcli.IWbemObjectSinkEx.PromptUser
 title: IWbemObjectSinkEx::PromptUser (wbemcli.h)
-description: TBD
+description: TBD (IWbemObjectSinkEx.PromptUser)
 helpviewer_keywords: ["IWbemObjectSinkEx interface [Windows Management Instrumentation]","PromptUser method","IWbemObjectSinkEx.PromptUser","IWbemObjectSinkEx::PromptUser","PromptUser","PromptUser method [Windows Management Instrumentation]","PromptUser method [Windows Management Instrumentation]","IWbemObjectSinkEx interface","wbemcli/IWbemObjectSinkEx::PromptUser","wmi.iwbemobjectsinkex_promptuser"]
 old-location: wmi\iwbemobjectsinkex_promptuser.htm
 tech.root: wmi
@@ -62,7 +62,7 @@ TBD
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

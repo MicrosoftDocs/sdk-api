@@ -4,12 +4,12 @@ title: InitializeSRWLock function (synchapi.h)
 description: Initialize a slim reader/writer (SRW) lock.
 helpviewer_keywords: ["InitializeSRWLock","InitializeSRWLock function","base.initializesrwlock","synchapi/InitializeSRWLock","winbase/InitializeSRWLock"]
 old-location: base\initializesrwlock.htm
-tech.root: backup
+tech.root: base
 ms.assetid: a94443e1-009c-49ba-a51c-6daa63b07cda
 ms.date: 12/05/2018
 ms.keywords: InitializeSRWLock, InitializeSRWLock function, base.initializesrwlock, synchapi/InitializeSRWLock, winbase/InitializeSRWLock
 req.header: synchapi.h
-req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]

@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1_3.D2D1_INK_NIB_SHAPE
 title: D2D1_INK_NIB_SHAPE (d2d1_3.h)
-description: Specifies the appearance of the ink nib (pen tip) as part of an D2D1_INK_STYLE_PROPERTIES structure.
+description: Specifies the appearance of the ink nib (pen tip) as part of a D2D1_INK_STYLE_PROPERTIES structure.
 helpviewer_keywords: ["D2D1_INK_NIB_SHAPE","D2D1_INK_NIB_SHAPE enumeration [Direct2D]","D2D1_INK_NIB_SHAPE_ROUND","D2D1_INK_NIB_SHAPE_SQUARE","d2d1_3/D2D1_INK_NIB_SHAPE","d2d1_3/D2D1_INK_NIB_SHAPE_ROUND","d2d1_3/D2D1_INK_NIB_SHAPE_SQUARE","direct2d.d2d1_ink_nib_shape"]
 old-location: direct2d\d2d1_ink_nib_shape.htm
 tech.root: Direct2D
@@ -54,12 +54,12 @@ Specifies the appearance of the ink nib (pen tip) as part of an <a href="/window
 
 ## -enum-fields
 
-### -field D2D1_INK_NIB_SHAPE_ROUND
+### -field D2D1_INK_NIB_SHAPE_ROUND:0
 
 The pen tip is circular.
 
-### -field D2D1_INK_NIB_SHAPE_SQUARE
+### -field D2D1_INK_NIB_SHAPE_SQUARE:1
 
 The pen tip is square.
 
-### -field D2D1_INK_NIB_SHAPE_FORCE_DWORD
+### -field D2D1_INK_NIB_SHAPE_FORCE_DWORD:0xffffffff

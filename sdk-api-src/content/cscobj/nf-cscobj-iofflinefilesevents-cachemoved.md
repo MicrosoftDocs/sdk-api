@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.CacheMoved
 title: IOfflineFilesEvents::CacheMoved (cscobj.h)
-description: This method is reserved for future use.
+description: This method is reserved for future use. (IOfflineFilesEvents.CacheMoved)
 helpviewer_keywords: ["CacheMoved","CacheMoved method [Offline Files]","CacheMoved method [Offline Files]","IOfflineFilesEvents interface","IOfflineFilesEvents interface [Offline Files]","CacheMoved method","IOfflineFilesEvents.CacheMoved","IOfflineFilesEvents::CacheMoved","cscobj/IOfflineFilesEvents::CacheMoved","of.iofflinefilesevents_cachemoved"]
 old-location: of\iofflinefilesevents_cachemoved.htm
 tech.root: of
@@ -61,7 +61,7 @@ This method is reserved for future use.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:pdh.PdhGetRawCounterArrayW
 title: PdhGetRawCounterArrayW function (pdh.h)
-description: Returns an array of raw values from the specified counter. Use this function when you want to retrieve the raw counter values of a counter that contains a wildcard character for the instance name.
+description: Returns an array of raw values from the specified counter. Use this function when you want to retrieve the raw counter values of a counter that contains a wildcard character for the instance name. (Unicode)
 helpviewer_keywords: ["PdhGetRawCounterArray","PdhGetRawCounterArray function [Perf]","PdhGetRawCounterArrayA","PdhGetRawCounterArrayW","_win32_pdhgetrawcounterarray","base.pdhgetrawcounterarray","pdh/PdhGetRawCounterArray","pdh/PdhGetRawCounterArrayA","pdh/PdhGetRawCounterArrayW","perf.pdhgetrawcounterarray"]
 old-location: perf\pdhgetrawcounterarray.htm
 tech.root: perf

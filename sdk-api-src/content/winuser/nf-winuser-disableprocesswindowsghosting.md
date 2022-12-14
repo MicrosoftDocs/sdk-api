@@ -43,6 +43,7 @@ api_location:
  - User32.dll
 api_name:
  - DisableProcessWindowsGhosting
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # DisableProcessWindowsGhosting function
@@ -52,7 +53,7 @@ api_name:
 
 Disables the window ghosting feature for the calling GUI process. Window ghosting is a Windows Manager feature that lets the user minimize, move, or close the main window of an application that is not responding.
 
-## -parameters
+
 
 ## -remarks
 

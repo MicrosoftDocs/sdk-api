@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasCreatePhonebookEntryW
 title: RasCreatePhonebookEntryW function (ras.h)
-description: The RasCreatePhonebookEntry function creates a new phone-book entry. The function displays a dialog box in which the user types information for the phone-book entry.
+description: The RasCreatePhonebookEntry function creates a new phone-book entry. The function displays a dialog box in which the user types information for the phone-book entry. (Unicode)
 helpviewer_keywords: ["RasCreatePhonebookEntry","RasCreatePhonebookEntry function [RAS]","RasCreatePhonebookEntryA","RasCreatePhonebookEntryW","_ras_rascreatephonebookentry","ras/RasCreatePhonebookEntry","ras/RasCreatePhonebookEntryA","ras/RasCreatePhonebookEntryW","rras.rascreatephonebookentry"]
 old-location: rras\rascreatephonebookentry.htm
 tech.root: RRAS
@@ -59,11 +59,11 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Handle to the parent window of the dialog box.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
  Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box.
 

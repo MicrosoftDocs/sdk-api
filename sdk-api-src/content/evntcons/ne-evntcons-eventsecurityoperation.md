@@ -45,7 +45,7 @@ api_name:
  - EVENTSECURITYOPERATION
 ---
 
-# EVENTSECURITYOPERATION enumeration
+# EVENTSECURITYOPERATION enumeration (evntcons.h)
 
 
 ## -description

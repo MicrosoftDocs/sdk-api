@@ -1,7 +1,7 @@
 ---
 UID: NF:userenv.GetProfilesDirectoryA
 title: GetProfilesDirectoryA function (userenv.h)
-description: Retrieves the path to the root directory where user profiles are stored.
+description: Retrieves the path to the root directory where user profiles are stored. (ANSI)
 helpviewer_keywords: ["GetProfilesDirectory","GetProfilesDirectory function [Windows Shell]","GetProfilesDirectoryA","GetProfilesDirectoryW","_shell_GetProfilesDirectory","shell.GetProfilesDirectory","userenv/GetProfilesDirectory","userenv/GetProfilesDirectoryA","userenv/GetProfilesDirectoryW"]
 old-location: shell\GetProfilesDirectory.htm
 tech.root: shell
@@ -82,10 +82,18 @@ Type: <b>BOOL</b>
 
 The following is an example of the path returned by <b>GetProfilesDirectory</b> in Windows XP:
 
-<pre class="syntax" xml:space="preserve"><code>C:\Documents and Settings</code></pre>
+
+``` syntax
+C:\Documents and Settings
+```
+
 The following is an example of the path returned by <b>GetProfilesDirectory</b> in Windows 7:
 
-<pre class="syntax" xml:space="preserve"><code>C:\Users</code></pre>
+
+``` syntax
+C:\Users
+```
+
 To obtain the paths of subdirectories of this directory, use the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha">SHGetFolderPath</a> (Windows XP and earlier) or <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a> (Windows Vista) function.
 
 

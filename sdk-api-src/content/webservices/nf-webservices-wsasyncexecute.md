@@ -88,7 +88,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 
 ## -remarks
 
-For an understaning of how WWSAPI handles asynchronous operations, see the <a href="/windows/desktop/wsw/asynchronous-model">Asynchronous Model</a> topic. 
+For an understanding of how WWSAPI handles asynchronous operations, see the <a href="/windows/desktop/wsw/asynchronous-model">Asynchronous Model</a> topic. 
 
 In many cases, an asynchronous operation is composed of other asynchronous operations. Each asynchronous operation may return WS_S_ASYNC indicating the callback will be invoked, or any other success or failure code, in which case the callback will not be invoked. The operation must be prepared to accept a <b>NULL</b> WS_ASYNC_CONTEXT indicating that the caller is requesting the operation to be performed synchronously. It must also ensure that the callback is invoked appropriately. In complex asynchronous operations,  <b>WsAsyncExecute</b> simplifies these details.
 

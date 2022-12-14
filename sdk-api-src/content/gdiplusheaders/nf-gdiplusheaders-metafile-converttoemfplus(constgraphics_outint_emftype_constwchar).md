@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Metafile.ConvertToEmfPlus(constGraphics,INT,EmfType,constWCHAR)
 title: Metafile::ConvertToEmfPlus (gdiplusheaders.h)
-description: The Metafile::ConvertToEmfPlus method converts this Metafile object to the EMF+ format.
+description: The Metafile::ConvertToEmfPlus method converts this Metafile object to the EMF+ format. (overload 1/3)
 helpviewer_keywords: ["ConvertToEmfPlus","ConvertToEmfPlus method [GDI+]","ConvertToEmfPlus method [GDI+]","Metafile class","Metafile class [GDI+]","ConvertToEmfPlus method","Metafile.ConvertToEmfPlus","Metafile::ConvertToEmfPlus","_gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_BOOL_","gdiplus._gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_BOOL_"]
 old-location: gdiplus\_gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_BOOL_.htm
 tech.root: gdiplus
@@ -83,13 +83,9 @@ Optional. Pointer to a null-terminated wide-character string that is stored in t
 
 Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
-If the method succeeds, it returns OK, which is an element of the 
+If the method succeeds, it returns OK, which is an element of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
-
-If the method fails, it returns one of the other elements of the 
-
-						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -remarks
 

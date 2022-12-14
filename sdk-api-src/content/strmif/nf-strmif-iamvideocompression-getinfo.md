@@ -97,13 +97,14 @@ Any of the listed parameters can be <b>NULL</b>, in which case the method ignore
 
 The application must allocate the buffers for the version and description strings. To determine the required size of the buffers, call this method with <b>NULL</b> for the <i>pszVersion</i> and <i>pszDescription</i> parameters. Use the values returned in <i>pcbVersion</i> and <i>pcbDescription</i> to allocate the buffers and then call the method again, as shown in the following code:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
 <tr>
 <td>
-<pre>
+
+```
 // Get the size of the version and description strings, in bytes.
 int cbVersion, cbDesc; 
 hr = pCompress-&gt;GetInfo(NULL, &amp;cbVersion, NULL, &amp;cbDesc, 
@@ -121,7 +122,7 @@ if (SUCCEEDED(hr))
     delete [] pszVersion;
     delete [] pszDesc;
 }
-</pre>
+```
 </td>
 </tr>
 </table></span></div>

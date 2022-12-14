@@ -54,38 +54,10 @@ Provides access to a device's Mux Service. The Mux Service is used to specify wh
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_MUX</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_MUX</b> also has these types of members:
+The <b>IBDA_MUX</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_MUX</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IBDA_MUX</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_mux-getpidlist">GetPidList</a>
-</td>
-<td align="left" width="63%">
-Gets the list of packet PIDs that are enabled to go across the Protected Broadcast Driver Architecture (PBDA) interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_mux-setpidlist">SetPidList</a>
-</td>
-<td align="left" width="63%">
-Sets the list of PIDs that are enabled to go across the PBDA interface.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

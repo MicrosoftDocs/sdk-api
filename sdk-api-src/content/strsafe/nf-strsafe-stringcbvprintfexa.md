@@ -1,7 +1,7 @@
 ---
 UID: NF:strsafe.StringCbVPrintfExA
 title: StringCbVPrintfExA function (strsafe.h)
-description: Writes formatted data to the specified string using a pointer to a list of arguments.
+description: Writes formatted data to the specified string using a pointer to a list of arguments. (StringCbVPrintfExA)
 helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCbVPrintfEx","StringCbVPrintfEx function [Menus and Other Resources]","StringCbVPrintfExA","StringCbVPrintfExW","_shell_StringCbVPrintfEx","_shell_stringcbvprintfex_cpp","menurc.stringcbvprintfex","strsafe/StringCbVPrintfEx","strsafe/StringCbVPrintfExA","strsafe/StringCbVPrintfExW","winui._shell_stringcbvprintfex"]
 old-location: menurc\stringcbvprintfex.htm
 tech.root: menurc
@@ -225,7 +225,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-<b>StringCbVPrintfEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbVPrintfEx</b>always null-terminates a nonzero-length destination buffer.
+<b>StringCbVPrintfEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbVPrintfEx</b> always null-terminates a nonzero-length destination buffer.
 
 For more information on va_lists, see the conventions defined in Stdarg.h.
 

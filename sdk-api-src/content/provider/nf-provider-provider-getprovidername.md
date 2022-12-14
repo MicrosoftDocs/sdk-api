@@ -59,7 +59,7 @@ api_name:
 
 The <b>GetProviderName</b> method retrieves the name of the class used in the constructor of the provider.
 
-## -parameters
+
 
 ## -returns
 

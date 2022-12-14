@@ -54,83 +54,10 @@ The <b>IXDSCodec</b> interface is exposed by the <a href="/previous-versions/win
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXDSCodec</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXDSCodec</b> also has these types of members:
+The <b>IXDSCodec</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXDSCodec</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IXDSCodec</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-ixdscodec-get_ccsubstreamservice">get_CCSubstreamService</a>
-</td>
-<td align="left" width="63%">
-Queries which line 21 data channels the XDS Codec filter sends to the <a href="/previous-versions/windows/desktop/mstv/xdstorat-object">XDSToRat</a> object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-ixdscodec-get_xdstoratobjok">get_XDSToRatObjOK</a>
-</td>
-<td align="left" width="63%">
-Queries whether the <a href="/previous-versions/windows/desktop/mstv/xdstorat-object">XDSToRat</a> object was created successfully.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-ixdscodec-getcontentadvisoryrating">GetContentAdvisoryRating</a>
-</td>
-<td align="left" width="63%">
-Retrieves the most recent ratings information parsed by the <a href="/previous-versions/windows/desktop/mstv/xdstorat-object">XDSToRat</a> object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-ixdscodec-getcurrlicenseexpdate">GetCurrLicenseExpDate</a>
-</td>
-<td align="left" width="63%">
-Not implemented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-ixdscodec-getlasterrorcode">GetLastErrorCode</a>
-</td>
-<td align="left" width="63%">
-Not implemented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-ixdscodec-getxdspacket">GetXDSPacket</a>
-</td>
-<td align="left" width="63%">
-Retrieves the most recent XDS packet.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-ixdscodec-put_ccsubstreamservice">put_CCSubstreamService</a>
-</td>
-<td align="left" width="63%">
-Specifies which line 21 data channels the XDS Codec filter sends to the <a href="/previous-versions/windows/desktop/mstv/xdstorat-object">XDSToRat</a> object.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

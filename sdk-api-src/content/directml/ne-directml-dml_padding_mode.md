@@ -45,12 +45,9 @@ api_name:
  - DML_PADDING_MODE
 ---
 
-# DML_PADDING_MODE enumeration
-
-
 ## -description
 
-Defines constants that specify a mode  for the DirectML pad operator (as described by the [DML_PADDING_OPERATOR_DESC](/windows/desktop/api/directml/ns-directml-dml_padding_operator_desc) structure).
+Defines constants that specify a mode  for the DirectML pad operator (as described by the [DML_PADDING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_padding_operator_desc) structure).
 
 ## -enum-fields
 
@@ -68,5 +65,4 @@ Indicates reflection mode for padding.
 
 ## -see-also
 
-[DML_PADDING_OPERATOR_DESC](/windows/desktop/api/directml/ns-directml-dml_padding_operator_desc)
-
+* [DML_PADDING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_padding_operator_desc)

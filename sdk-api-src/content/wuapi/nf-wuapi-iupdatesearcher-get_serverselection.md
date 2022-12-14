@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.get_ServerSelection
 title: IUpdateSearcher::get_ServerSelection (wuapi.h)
-description: Gets and sets a ServerSelection value that indicates the server to search for updates.
+description: Gets and sets a ServerSelection value that indicates the server to search for updates. (Get)
 helpviewer_keywords: ["IUpdateSearcher interface [Windows Update Agent]","ServerSelection property","IUpdateSearcher.ServerSelection","IUpdateSearcher.get_ServerSelection","IUpdateSearcher::ServerSelection","IUpdateSearcher::get_ServerSelection","IUpdateSearcher::put_ServerSelection","ServerSelection property [Windows Update Agent]","ServerSelection property [Windows Update Agent]","IUpdateSearcher interface","get_ServerSelection","wua.iupdatesearcherserverselection","wuapi/IUpdateSearcher::ServerSelection","wuapi/IUpdateSearcher::get_ServerSelection","wuapi/IUpdateSearcher::put_ServerSelection"]
 old-location: wua\iupdatesearcherserverselection.htm
 tech.root: wua
@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Gets and sets a <a href="/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ServerSelection</a> value that indicates the server to search for updates.
+Gets and sets a <a href="/openspecs/windows_protocols/ms-uamg/07e2bfa4-6795-4189-b007-cc50b476181a">ServerSelection</a> value that indicates the server to search for updates.
 
 This property is read/write.
 

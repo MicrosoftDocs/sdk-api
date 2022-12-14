@@ -62,8 +62,12 @@ The status code. This value can be an <b>HRESULT</b> or an <b>SCODE</b>.
 
 This macro is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>#define SEVERITY_ERROR     1
-#define IS_ERROR(Status) (((unsigned long)(Status)) &gt;&gt; 31 == SEVERITY_ERROR)</code></pre>
+
+``` syntax
+#define SEVERITY_ERROR     1
+#define IS_ERROR(Status) (((unsigned long)(Status)) &gt;&gt; 31 == SEVERITY_ERROR)
+```
+
 
 ## -see-also
 

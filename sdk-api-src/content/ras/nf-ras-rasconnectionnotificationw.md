@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasConnectionNotificationW
 title: RasConnectionNotificationW function (ras.h)
-description: The RasConnectionNotification function specifies an event object that the system sets to the signaled state when a RAS connection is created or terminated.
+description: The RasConnectionNotification function specifies an event object that the system sets to the signaled state when a RAS connection is created or terminated. (Unicode)
 helpviewer_keywords: ["RASCN_BandwidthAdded","RASCN_BandwidthRemoved","RASCN_Connection","RASCN_Disconnection","RasConnectionNotification","RasConnectionNotification function [RAS]","RasConnectionNotificationA","RasConnectionNotificationW","_ras_rasconnectionnotification","ras/RasConnectionNotification","ras/RasConnectionNotificationA","ras/RasConnectionNotificationW","rras.rasconnectionnotification"]
 old-location: rras\rasconnectionnotification.htm
 tech.root: RRAS
@@ -59,18 +59,18 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A handle to the RAS connection that receives the notifications. This can be a handle returned by the 
 <a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> or 
 <a href="/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a> function. If this parameter is <b>INVALID_HANDLE_VALUE</b>, notifications are received for all RAS connections on the local client.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Specifies the handle of an event object. Use the 
 <a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function to create an event object.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Specifies the RAS event that causes the system to signal the event object specified by the <i>hEvent</i> parameter. This parameter is a combination of the following values. 
 

@@ -3,12 +3,10 @@ UID: NF:diagnosticdataquery.DdqExtractDiagnosticReport
 title: DdqExtractDiagnosticReport
 ms.date: 8/19/2019
 ms.keywords: DdqExtractDiagnosticReport
-ms.topic: language-reference
 description: Used for retrieving Windows Error Reporting reports, this API extracts cabs to destination path specified. If the error report does not contain any cabs, no work is performed.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -31,7 +29,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - diagnosticdataquery.h
 api_name:
@@ -74,8 +71,8 @@ Returns S_OK on successful completion.
 
 ## -remarks
 
-For report store types, see the [**WER APIs**]("/windows/win32/api/werapi/nf-werapi-werstoreopen").
-For report keys, see the [**WER APIs**]("/windows/win32/api/werapi/nf-werapi-werstoregetnextreportkey").
+For report store types, see the [**WER APIs**](/windows/win32/api/werapi/nf-werapi-werstoreopen).
+For report keys, see the [**WER APIs**](/windows/win32/api/werapi/nf-werapi-werstoregetnextreportkey).
 
 ## -see-also
 

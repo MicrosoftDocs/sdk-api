@@ -1,12 +1,12 @@
 ---
 UID: NN:vdshwprv.IVdsController
 title: IVdsController (vdshwprv.h)
-description: Provides methods for performing query and configuration operations on a controller.
+description: The IVdsController (vdshwprv.h) interface provides methods for performing query and configuration operations on a controller.
 helpviewer_keywords: ["IVdsController","IVdsController interface [VDS]","IVdsController interface [VDS]","described","base.ivdscontroller","vds/IVdsController","vdshwprv/IVdsController"]
 old-location: base\ivdscontroller.htm
 tech.root: base
 ms.assetid: cc30a78a-78a4-49c2-a97d-228400da46a9
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsController, IVdsController interface [VDS], IVdsController interface [VDS],described, base.ivdscontroller, vds/IVdsController, vdshwprv/IVdsController
 req.header: vdshwprv.h
 req.include-header: 
@@ -58,93 +58,7 @@ Provides methods for
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsController</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsController</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVdsController</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-flushcache">FlushCache</a>
-</td>
-<td align="left" width="63%">
-Flushes the cache of the controller to a persistent store.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-getportproperties">GetPortProperties</a>
-</td>
-<td align="left" width="63%">
-Returns the properties of the specified controller port.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-getproperties">GetProperties</a>
-</td>
-<td align="left" width="63%">
-Returns the properties of the controller.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-getsubsystem">GetSubSystem</a>
-</td>
-<td align="left" width="63%">
-Returns the subsystem to which the controller belongs.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-invalidatecache">InvalidateCache</a>
-</td>
-<td align="left" width="63%">
-Invalidates the cache of the controller. All data in the cache is lost.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-queryassociatedluns">QueryAssociatedLuns</a>
-</td>
-<td align="left" width="63%">
-Returns an enumeration of the LUNs with which the controller is associated—in other words, the LUNs for which the controller is active.
-          
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Reinitializes the controller and invalidates its cache.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-setstatus">SetStatus</a>
-</td>
-<td align="left" width="63%">
-Sets the status of the controller to the specified value.
-
-</td>
-</tr>
-</table>
+The <b>IVdsController</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsController</b> also has these types of members:
 
 ## -see-also
 

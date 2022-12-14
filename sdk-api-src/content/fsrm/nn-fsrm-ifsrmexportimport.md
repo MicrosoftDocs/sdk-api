@@ -59,74 +59,7 @@ Used to export and import FSRM objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmExportImport</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmExportImport</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IFsrmExportImport</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmexportimport-exportfilegroups">ExportFileGroups</a>
-</td>
-<td align="left" width="63%">
-Exports one or more file groups to the specified file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmexportimport-exportfilescreentemplates">ExportFileScreenTemplates</a>
-</td>
-<td align="left" width="63%">
-Exports one or more file screen templates to the specified file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmexportimport-exportquotatemplates">ExportQuotaTemplates</a>
-</td>
-<td align="left" width="63%">
-Exports one or more quota templates to the specified file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmexportimport-importfilegroups">ImportFileGroups</a>
-</td>
-<td align="left" width="63%">
-Imports one or more file groups from the specified file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmexportimport-importfilescreentemplates">ImportFileScreenTemplates</a>
-</td>
-<td align="left" width="63%">
-Imports one or more file screen templates from the specified file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmexportimport-importquotatemplates">ImportQuotaTemplates</a>
-</td>
-<td align="left" width="63%">
-Imports one or more quota templates from the specified file.
-
-</td>
-</tr>
-</table>
+The <b>IFsrmExportImport</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmExportImport</b> also has these types of members:
 
 ## -remarks
 

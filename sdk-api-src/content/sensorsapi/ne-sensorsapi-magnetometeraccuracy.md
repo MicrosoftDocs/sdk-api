@@ -54,7 +54,7 @@ Specifies the accuracy of the magnetometer.
 
 ## -enum-fields
 
-### -field MAGNETOMETER_ACCURACY_UNKNOWN
+### -field MAGNETOMETER_ACCURACY_UNKNOWN:0
 
 ### -field MAGNETOMETER_ACCURACY_UNRELIABLE
 

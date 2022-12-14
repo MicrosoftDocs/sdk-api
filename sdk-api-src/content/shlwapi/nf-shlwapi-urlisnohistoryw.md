@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.UrlIsNoHistoryW
 title: UrlIsNoHistoryW function (shlwapi.h)
-description: Returns whether a URL is a URL that browsers typically do not include in navigation history.
+description: Returns whether a URL is a URL that browsers typically do not include in navigation history. (Unicode)
 helpviewer_keywords: ["UrlIsNoHistory","UrlIsNoHistory function [Windows Shell]","UrlIsNoHistoryA","UrlIsNoHistoryW","_win32_UrlIsNoHistory","shell.UrlIsNoHistory","shlwapi/UrlIsNoHistory","shlwapi/UrlIsNoHistoryA","shlwapi/UrlIsNoHistoryW"]
 old-location: shell\UrlIsNoHistory.htm
 tech.root: shell
@@ -76,7 +76,11 @@ This function is equivalent to the following:
 				
                 
 
-<pre class="syntax" xml:space="preserve"><code>UrlIs(pszURL, URLIS_NOHISTORY)</code></pre>
+
+``` syntax
+UrlIs(pszURL, URLIS_NOHISTORY)
+```
+
 
 ## -see-also
 

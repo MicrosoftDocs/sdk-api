@@ -1,7 +1,7 @@
 ---
 UID: NC:winnls.UILANGUAGE_ENUMPROCA
 title: UILANGUAGE_ENUMPROCA (winnls.h)
-description: An application-defined callback function that processes enumerated user interface language information provided by the EnumUILanguages function.
+description: An application-defined callback function that processes enumerated user interface language information provided by the EnumUILanguages function. (ANSI)
 helpviewer_keywords: ["EnumUILanguagesProc","UILANGUAGE_ENUMPROC","UILANGUAGE_ENUMPROC callback","UILANGUAGE_ENUMPROC callback function [Internationalization for Windows Applications]","UILANGUAGE_ENUMPROCA","UILANGUAGE_ENUMPROCW","_win32_EnumUILanguagesProc","intl.enumuilanguagesproc","winnls/UILANGUAGE_ENUMPROC"]
 old-location: intl\enumuilanguagesproc.htm
 tech.root: Intl
@@ -54,9 +54,9 @@ An application-defined callback function that processes enumerated user interfac
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
-### -param Arg2
+### -param unnamedParam2
 
 #### - lParam [in]
 

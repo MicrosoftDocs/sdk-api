@@ -52,7 +52,7 @@ api_name:
 
 Gets the options used in creating the bitmap.
 
-## -parameters
+
 
 ## -returns
 

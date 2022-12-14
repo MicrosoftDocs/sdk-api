@@ -53,7 +53,7 @@ api_name:
 
 The <b>Reset</b> method resets the enumeration sequence to the beginning. A subsequent call to the <b>Next</b> method fetches the first storage interface in the enumeration sequence.
 
-## -parameters
+
 
 ## -returns
 

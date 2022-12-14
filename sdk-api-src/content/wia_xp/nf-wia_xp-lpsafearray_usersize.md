@@ -1,7 +1,7 @@
 ---
 UID: NF:wia_xp.LPSAFEARRAY_UserSize
 title: LPSAFEARRAY_UserSize function (wia_xp.h)
-description: Calculates the wire size of the SAFEARRAY object, and gets its handle and data.
+description: Calculates the wire size of the SAFEARRAY object, and gets its handle and data. (LPSAFEARRAY_UserSize)
 helpviewer_keywords: ["LPSAFEARRAY_UserSize","LPSAFEARRAY_UserSize function [Automation]","_oa96_LPSAFEARRAY_UserSize","automat.lpsafearray_usersize","wia_xp/LPSAFEARRAY_UserSize"]
 old-location: automat\lpsafearray_usersize.htm
 tech.root: automat
@@ -54,15 +54,15 @@ Calculates the wire size of the <a href="/windows/desktop/api/oaidl/ns-oaidl-saf
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The data used by RPC.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Sets the buffer offset so that the <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> object is properly aligned when it is marshaled to the buffer.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 The safe array that contains the data to marshal.
 

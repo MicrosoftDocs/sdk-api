@@ -54,74 +54,7 @@ The <b>IPortableDeviceProperties</b> interface retrieves, adds, or deletes prope
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceProperties</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPortableDeviceProperties</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-cancel">Cancel</a>
-</td>
-<td align="left" width="63%">
-Cancels a pending call on this interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-delete">Delete</a>
-</td>
-<td align="left" width="63%">
-Deletes specified properties from a specified object on a device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-getpropertyattributes">GetPropertyAttributes</a>
-</td>
-<td align="left" width="63%">
-Retrieves attributes of a specified object property on a device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-getsupportedproperties">GetSupportedProperties</a>
-</td>
-<td align="left" width="63%">
-Retrieves a list of properties that a specified object supports.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-getvalues">GetValues</a>
-</td>
-<td align="left" width="63%">
-Retrieves a list of specified properties from a specified object on a device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-setvalues">SetValues</a>
-</td>
-<td align="left" width="63%">
-Adds or modifies one or more properties on a specified object on a device.
-
-</td>
-</tr>
-</table>
+The <b>IPortableDeviceProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceProperties</b> also has these types of members:
 
 ## -see-also
 

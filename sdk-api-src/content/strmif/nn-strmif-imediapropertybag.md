@@ -65,26 +65,5 @@ Use this interface with the <a href="/windows/desktop/api/strmif/nn-strmif-ipers
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaPropertyBag</b> interface inherits from <b>IPropertyBag</b>. <b>IMediaPropertyBag</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMediaPropertyBag</b> interface inherits from <b>IPropertyBag</b>. <b>IMediaPropertyBag</b> also has these types of members:
 
-## -members
-
-The <b>IMediaPropertyBag</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-imediapropertybag-enumproperty">EnumProperty</a>
-</td>
-<td align="left" width="63%">
-Retrieves a property/value pair.
-
-</td>
-</tr>
-</table>

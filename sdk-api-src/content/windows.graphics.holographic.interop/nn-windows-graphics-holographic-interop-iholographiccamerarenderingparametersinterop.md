@@ -4,7 +4,6 @@ title: IHolographicCameraRenderingParametersInterop
 description: A nano-COM interface that allows COM interop with the [HolographicCameraRenderingParameters](/uwp/api/windows.graphics.holographic.holographiccamerarenderingparameters) class for applications that use Direct3D 12 for holographic rendering.
 tech.root: direct3d12
 ms.date: 12/12/2019
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: iface

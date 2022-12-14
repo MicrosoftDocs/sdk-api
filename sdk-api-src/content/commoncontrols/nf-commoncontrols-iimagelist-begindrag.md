@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList.BeginDrag
 title: IImageList::BeginDrag (commoncontrols.h)
-description: Begins dragging an image.
+description: Begins dragging an image. (IImageList.BeginDrag)
 helpviewer_keywords: ["BeginDrag","BeginDrag method [Windows Controls]","BeginDrag method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","BeginDrag method","IImageList.BeginDrag","IImageList::BeginDrag","comctl_IImageList_BeginDrag","comctl_IImageList_BeginDrag_cpp","commoncontrols/IImageList::BeginDrag","controls.IImageList_BeginDrag","controls.comctl_IImageList_BeginDrag"]
 old-location: controls\IImageList_BeginDrag.htm
 tech.root: Controls
@@ -76,7 +76,7 @@ A value of type <b>int</b> that contains the y-component of the drag position re
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

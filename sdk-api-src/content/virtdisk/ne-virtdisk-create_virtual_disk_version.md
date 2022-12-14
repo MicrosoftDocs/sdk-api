@@ -59,23 +59,23 @@ Contains the version of the virtual disk
 
 ## -enum-fields
 
-### -field CREATE_VIRTUAL_DISK_VERSION_UNSPECIFIED
+### -field CREATE_VIRTUAL_DISK_VERSION_UNSPECIFIED:0
 
 Not supported.
 
-### -field CREATE_VIRTUAL_DISK_VERSION_1
+### -field CREATE_VIRTUAL_DISK_VERSION_1:1
 
 The <b>Version1</b> member structure will be used.
 
-### -field CREATE_VIRTUAL_DISK_VERSION_2
+### -field CREATE_VIRTUAL_DISK_VERSION_2:2
 
 The <b>Version2</b> member structure will be used.
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>This value is not supported until Windows 8 and Windows Server 2012.
 
-### -field CREATE_VIRTUAL_DISK_VERSION_3
+### -field CREATE_VIRTUAL_DISK_VERSION_3:3
 
-### -field CREATE_VIRTUAL_DISK_VERSION_4
+### -field CREATE_VIRTUAL_DISK_VERSION_4:4
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:ntdsapi.DsGetSpnA
 title: DsGetSpnA function (ntdsapi.h)
-description: The DsGetSpn function constructs an array of one or more service principal names (SPNs). Each name in the array identifies an instance of a service. These SPNs may be registered with the directory service (DS) using the DsWriteAccountSpn function.
+description: The DsGetSpn function constructs an array of one or more service principal names (SPNs). Each name in the array identifies an instance of a service. These SPNs may be registered with the directory service (DS) using the DsWriteAccountSpn function. (ANSI)
 helpviewer_keywords: ["DS_SPN_DNS_HOST","DS_SPN_DN_HOST","DS_SPN_NB_HOST","DS_SPN_DOMAIN","DS_SPN_NB_DOMAIN","DS_SPN_SERVICE","DsGetSpn","DsGetSpn function [Active Directory]","DsGetSpnA","DsGetSpnW","_glines_dsgetspn","ad.dsgetspn","ntdsapi/DsGetSpn","ntdsapi/DsGetSpnA","ntdsapi/DsGetSpnW"]
 old-location: ad\dsgetspn.htm
 tech.root: ad
@@ -117,7 +117,7 @@ Specifies the port number of the service instance. If this value is zero, the SP
 
 ### -param cInstanceNames [in]
 
-Specifies the number of elements in the <i>pInstanceNames</i> and <i>pInstancePorts</i> arrays. If this value is zero, <i>pInstanceNames</i> must point to an array of <i>cInstanceNames</i> strings, and <i>pInstancePorts</i> can be either <b>NULL</b> or a pointer to an array of <i>cInstanceNames</i> port numbers. If this value is zero, <b>DsGetSpn</b> returns only one SPN in the <i>prpszSpn</i> array and <i>pInstanceNames</i> and <i>pInstancePorts</i> are ignored.
+Specifies the number of elements in the <i>pInstanceNames</i> and <i>pInstancePorts</i> arrays. If this value is not zero, <i>pInstanceNames</i> must point to an array of <i>cInstanceNames</i> strings, and <i>pInstancePorts</i> can be either <b>NULL</b> or a pointer to an array of <i>cInstanceNames</i> port numbers. If this value is zero, <b>DsGetSpn</b> returns only one SPN in the <i>prpszSpn</i> array and <i>pInstanceNames</i> and <i>pInstancePorts</i> are ignored.
 
 ### -param pInstanceNames [in, optional]
 

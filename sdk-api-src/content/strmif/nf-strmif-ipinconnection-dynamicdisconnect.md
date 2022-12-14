@@ -57,7 +57,7 @@ The <code>DynamicDisconnect</code> method disconnects the pin when the filter is
 
 The caller must ensure that no data is flowing to the pin when it calls this method. Call the <a href="/windows/desktop/api/strmif/nf-strmif-ipinflowcontrol-block">IPinFlowControl::Block</a> method on an upstream pin to block the data flow, or use some other mechanism to make sure that no samples are delivered until this pin is reconnected.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,11 +1,11 @@
 ---
 UID: NF:cimfs.CimCreateImage
 title: CimCreateImage
-ms.date: 9/9/2019
+description: The CimCreateImage function creates a handle representing a new image at the location specified, optionally based on an existing image at that location.
+ms.date: 08/01/2022
+tech.root: cimfs
 ms.keywords: CimCreateImage
-ms.topic: language-reference
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -28,7 +28,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - cimfs.h
 api_name:
@@ -77,4 +76,3 @@ HRESULT_FROM_WIN32(ERROR_SHARING_VIOLATION) – A sharing violation occurred on 
 ## -remarks
 
 ## -see-also
-

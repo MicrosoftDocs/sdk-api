@@ -56,62 +56,8 @@ for each event.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbDigitalCopyControlDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbDigitalCopyControlDescriptor</b> also has these types of members:
+The <b>IIsdbDigitalCopyControlDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbDigitalCopyControlDescriptor</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IIsdbDigitalCopyControlDescriptor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdigitalcopycontroldescriptor-getcopycontrol">GetCopyControl</a>
-</td>
-<td align="left" width="63%">
-Gets a code that indicates copy control status from the main body of an ISDB digital copy control descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdigitalcopycontroldescriptor-getcountofrecords">GetCountOfRecords</a>
-</td>
-<td align="left" width="63%">
-Gets the number of records in  an ISDB digital copy control descriptor. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdigitalcopycontroldescriptor-getlength">GetLength</a>
-</td>
-<td align="left" width="63%">
-Gets the body length of an ISDB digital copy control descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdigitalcopycontroldescriptor-getrecordcopycontrol">GetRecordCopyControl</a>
-</td>
-<td align="left" width="63%">
-Gets a code that indicates copy control status from a record in an ISDB digital copy control descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdigitalcopycontroldescriptor-gettag">GetTag</a>
-</td>
-<td align="left" width="63%">
-Gets the tag that identifies an ISDB digital copy control descriptor.
-
-</td>
-</tr>
-</table>

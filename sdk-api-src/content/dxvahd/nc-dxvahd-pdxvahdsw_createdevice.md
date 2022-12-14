@@ -54,17 +54,17 @@ Creates an instance of a software plug-in Microsoft DirectX Video Acceleration H
 
 ## -parameters
 
-### -param *pD3DDevice [in]
+### -param pD3DDevice [in]
 
 A pointer to the <b>IDirect3DDevice9Ex</b> interface of the Direct3D device.
 
-### -param *phDevice [out]
+### -param phDevice [out]
 
 Receives a handle to the plug-in DXVA-HD device.
 
 ## -returns
 
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this callback function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

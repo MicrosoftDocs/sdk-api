@@ -1,7 +1,7 @@
 ---
 UID: NS:ntdsapi.__unnamed_struct_14
 title: DS_DOMAIN_CONTROLLER_INFO_1W (ntdsapi.h)
-description: The DS_DOMAIN_CONTROLLER_INFO_1 structure contains data about a domain controller. This structure is returned by the DsGetDomainControllerInfo function.
+description: The DS_DOMAIN_CONTROLLER_INFO_1 structure contains data about a domain controller. This structure is returned by the DsGetDomainControllerInfo function. (Unicode)
 helpviewer_keywords: ["*PDS_DOMAIN_CONTROLLER_INFO_1W","DS_DOMAIN_CONTROLLER_INFO_1","DS_DOMAIN_CONTROLLER_INFO_1 structure [Active Directory]","DS_DOMAIN_CONTROLLER_INFO_1A","DS_DOMAIN_CONTROLLER_INFO_1W","PDS_DOMAIN_CONTROLLER_INFO_1","PDS_DOMAIN_CONTROLLER_INFO_1 structure pointer [Active Directory]","_glines_ds_domain_controller_info_1","ad.ds__domain__controller__info__1","ad.ds_domain_controller_info_1","ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1","ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1A","ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1W","ntdsapi/PDS_DOMAIN_CONTROLLER_INFO_1"]
 old-location: ad\ds_domain_controller_info_1.htm
 tech.root: ad

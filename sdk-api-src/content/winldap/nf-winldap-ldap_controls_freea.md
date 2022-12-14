@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_controls_freeA
 title: ldap_controls_freeA function (winldap.h)
-description: Frees an array of LDAPControl structures.
+description: Frees an array of LDAPControl structures. (ldap_controls_freeA)
 helpviewer_keywords: ["_ldap_ldap_controls_free","ldap.ldap__controls__free","ldap.ldap_controls_free","ldap_controls_free","ldap_controls_free function [LDAP]","ldap_controls_freeA","ldap_controls_freeW","winldap/ldap_controls_free","winldap/ldap_controls_freeA","winldap/ldap_controls_freeW"]
 old-location: ldap\ldap_controls_free.htm
 tech.root: ldap

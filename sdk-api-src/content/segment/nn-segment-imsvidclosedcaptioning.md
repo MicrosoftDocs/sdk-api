@@ -56,38 +56,10 @@ To obtain this interface, enumerate the collection of available features on the 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidClosedCaptioning</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>. <b>IMSVidClosedCaptioning</b> also has these types of members:
+The <b>IMSVidClosedCaptioning</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>. <b>IMSVidClosedCaptioning</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMSVidClosedCaptioning</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidclosedcaptioning-get_enable">get_Enable</a>
-</td>
-<td align="left" width="63%">
-Queries whether closed captioning is enabled.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidclosedcaptioning-put_enable">put_Enable</a>
-</td>
-<td align="left" width="63%">
-Enables or disables closed captioning.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

@@ -145,7 +145,7 @@ The minimum and maximum values of any point in the points array are LONG_MIN and
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
+<a href="../msinkaut/nn-msinkaut-iinkdisp.md">IInkDisp</a>
 
 
 

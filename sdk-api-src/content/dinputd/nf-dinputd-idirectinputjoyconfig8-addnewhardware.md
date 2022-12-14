@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::AddNewHardware </b>method displays the <b>Add New Hardware</b> dialog box which guides the user through installing a new input device.
+The <b>IDirectInputJoyConfig8::AddNewHardware </b> method displays the <b>Add New Hardware</b> dialog box which guides the user through installing a new input device.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Handle to the window that functions as the owner window for the user interface.
 
-### -param arg2
+### -param unnamedParam2
 
 GUID that specifies the class of the hardware device to be added. DirectInput comes with the following class GUIDs already defined: 
 

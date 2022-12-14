@@ -37,6 +37,7 @@ To develop Component Object Model (COM), you need these headers:
  * [oleidl.h](../oleidl/index.md)
  * [roapi.h](../roapi/index.md)
  * [rpcdce.h](../rpcdce/index.md)
+ * [servprov.h](../servprov/index.md)
  * [shobjidl.h](../shobjidl/index.md)
  * [txlogpub.h](../txlogpub/index.md)
  * [unknwn.h](../unknwn/index.md)

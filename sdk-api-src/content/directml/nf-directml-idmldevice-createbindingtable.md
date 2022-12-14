@@ -64,34 +64,34 @@ The supplied CPU and GPU descriptor handles may come from different heaps, howev
         handle is copied into the range referred to by the GPU descriptor handle prior to execution using this binding
         table.
 
-The descriptor heap from which the handles are supplied must have type <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_heap_type">D3D12_DESCRIPTOR_HEAP_TYPE_CBV_SRV_UAV</a>.
+The descriptor heap from which the handles are supplied must have type <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_descriptor_heap_type">D3D12_DESCRIPTOR_HEAP_TYPE_CBV_SRV_UAV</a>.
         Additionally, the heap referred to by the <b>GPUDescriptorHandle</b> must be a shader-visible descriptor heap.
 
 You must not delete the heap referred to by the GPU descriptor handle until all work referencing it has
         completed execution on the GPU. You may, however, reset or release the binding table itself as soon as the
-        dispatch has been recorded into the command list. Similar to the relationship between <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist">ID3D12CommandList</a> and
-        <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12commandallocator">ID3D12CommandAllocator</a>, the [IDMLBindingTable](/windows/desktop/api/directml/nn-directml-idmlbindingtable) doesn't own the underlying memory referenced by the descriptor
-        handles. Rather, the <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12descriptorheap">ID3D12DescriptorHeap</a> does. Therefore, you're permitted to reset or release a DirectML binding table before work using the binding table has completed execution on the GPU.
+        dispatch has been recorded into the command list. Similar to the relationship between <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12commandlist">ID3D12CommandList</a> and
+        <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12commandallocator">ID3D12CommandAllocator</a>, the [IDMLBindingTable](/windows/win32/api/directml/nn-directml-idmlbindingtable) doesn't own the underlying memory referenced by the descriptor
+        handles. Rather, the <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12descriptorheap">ID3D12DescriptorHeap</a> does. Therefore, you're permitted to reset or release a DirectML binding table before work using the binding table has completed execution on the GPU.
 
 ## -parameters
 
 ### -param desc [in, optional]
 
-Type: <b>const [DML_BINDING_TABLE_DESC](/windows/desktop/api/directml/ns-directml-dml_binding_table_desc)*</b>
+Type: <b>const [DML_BINDING_TABLE_DESC](/windows/win32/api/directml/ns-directml-dml_binding_table_desc)*</b>
 
-An optional pointer to a [DML_BINDING_TABLE_DESC](/windows/desktop/api/directml/ns-directml-dml_binding_table_desc) containing the binding table parameters. This may be <b>nullptr</b>, indicating an empty binding table.
+An optional pointer to a [DML_BINDING_TABLE_DESC](/windows/win32/api/directml/ns-directml-dml_binding_table_desc) containing the binding table parameters. This may be <b>nullptr</b>, indicating an empty binding table.
 
 ### -param riid
 
 Type: <b>REFIID</b>
 
-A reference to the globally unique identifier (GUID) of the interface that you wish to be returned in <i>ppv</i>. This is expected to be the GUID of [IDMLBindingTable](/windows/desktop/api/directml/nn-directml-idmlbindingtable).
+A reference to the globally unique identifier (GUID) of the interface that you wish to be returned in <i>ppv</i>. This is expected to be the GUID of [IDMLBindingTable](/windows/win32/api/directml/nn-directml-idmlbindingtable).
 
 ### -param ppv [out]
 
 Type: <b>void**</b>
 
-A pointer to a memory block that receives a pointer to the binding table. This is the address of a pointer to an [IDMLBindingTable](/windows/desktop/api/directml/nn-directml-idmlbindingtable), representing  the binding table created.
+A pointer to a memory block that receives a pointer to the binding table. This is the address of a pointer to an [IDMLBindingTable](/windows/win32/api/directml/nn-directml-idmlbindingtable), representing  the binding table created.
 
 ## -returns
 
@@ -101,8 +101,6 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -see-also
 
-<a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
+<a href="/windows/ai/directml/dml-binding">Binding in DirectML</a>
 
-
-
-[IDMLDevice](/windows/desktop/api/directml/nn-directml-idmldevice)
+[IDMLDevice](/windows/win32/api/directml/nn-directml-idmldevice)

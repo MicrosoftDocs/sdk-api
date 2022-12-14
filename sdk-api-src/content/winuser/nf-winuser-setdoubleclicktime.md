@@ -43,6 +43,7 @@ api_location:
  - User32.dll
 api_name:
  - SetDoubleClickTime
+req.apiset: ext-ms-win-ntuser-mouse-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetDoubleClickTime function
@@ -54,7 +55,7 @@ Sets the double-click time for the mouse. A double-click is a series of two clic
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Type: <b>UINT</b>
 

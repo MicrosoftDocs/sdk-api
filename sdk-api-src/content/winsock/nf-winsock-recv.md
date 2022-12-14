@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock.recv
 title: recv function (winsock.h)
-description: Receives data from a connected socket or a bound connectionless socket.
+description: The recv function (winsock.h) receives data from a connected socket or a bound connectionless socket.
 helpviewer_keywords: ["_win32_recv_2","recv","recv function [Winsock]","winsock.recv_2","winsock/recv"]
 old-location: winsock\recv_2.htm
 tech.root: WinSock
 ms.assetid: 8c247cd3-479f-45d0-a038-a24e80cc7c73
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: _win32_recv_2, recv, recv function [Winsock], winsock.recv_2, winsock/recv
 req.header: winsock.h
 req.include-header: Winsock2.h
@@ -321,7 +321,7 @@ The <i>flags</i> parameter can be used to influence the behavior of the function
 </tr>
 <tr>
 <td>MSG_PEEK</td>
-<td>Peeks at the incoming data. The data is copied into the buffer, but is not removed from the input queue.  The function subsequently returns the amount of data that can be read in a single call to the <b>recv</b> (or <a href="/windows/desktop/api/winsock/nf-winsock-recvfrom">recvfrom</a>) function, which may not be the same as the total amount of data queued on the socket.  The amount of data that can actually be read in a single call to the <b>recv</b> (or <a href="/windows/desktop/api/winsock/nf-winsock-recvfrom">recvfrom</a>) function is limited to the data size written in the <a href="/windows/desktop/api/winsock2/nf-winsock2-send">send</a> or <a href="/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a> function call.</td>
+<td>Peeks at the incoming data. The data is copied into the buffer, but is not removed from the input queue.</td>
 </tr>
 <tr>
 <td>MSG_OOB</td>

@@ -54,56 +54,7 @@ The <b>ITfContextComposition</b> interface is implemented by the TSF manager and
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfContextComposition</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfContextComposition</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfContextComposition</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextcomposition-enumcompositions">EnumCompositions</a>
-</td>
-<td align="left" width="63%">
-Creates an enumerator object that contains all compositions in the context.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextcomposition-findcomposition">FindComposition</a>
-</td>
-<td align="left" width="63%">
-Creates an enumerator object that contains all compositions that intersect a specified range of text.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextcomposition-startcomposition">StartComposition</a>
-</td>
-<td align="left" width="63%">
-Creates a new composition.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextcomposition-takeownership">TakeOwnership</a>
-</td>
-<td align="left" width="63%">
-Not currently implemented.
-
-</td>
-</tr>
-</table>
+The <b>ITfContextComposition</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfContextComposition</b> also has these types of members:
 
 ## -see-also
 

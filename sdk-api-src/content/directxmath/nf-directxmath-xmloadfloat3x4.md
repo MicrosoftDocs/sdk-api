@@ -2,13 +2,13 @@
 UID: NF:directxmath.XMLoadFloat3x4
 title: XMLoadFloat3x4
 ms.date: 04/23/2020
-description: Loads an [**XMFLOAT3X4**](./ns-directxmath-xmfloat3x4.md) into an [**XMMATRIX**](./ns-directxmath-xmmatrix.md).
+description: Loads an [**XMFLOAT3X4**](../directxmath/ns-directxmath-xmfloat3x4.md) into an [**XMMATRIX**](../directxmath/ns-directxmath-xmmatrix.md).
 tech.root: dxmath
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-Loads an [**XMFLOAT3X4**](./ns-directxmath-xmfloat3x4.md) into an [**XMMATRIX**](./ns-directxmath-xmmatrix.md).
+Loads an [**XMFLOAT3X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat3x4) into an [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix).
 
 ## -parameters
 

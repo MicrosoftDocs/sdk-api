@@ -57,47 +57,7 @@ Exposes methods that enable the addition of custom columns in the Windows Explor
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IColumnProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IColumnProvider</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IColumnProvider</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getcolumninfo">GetColumnInfo</a>
-</td>
-<td align="left" width="63%">
-Requests information about a column.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getitemdata">GetItemData</a>
-</td>
-<td align="left" width="63%">
-Requests column data for a specified file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes an <b>IColumnProvider</b> interface.
-
-</td>
-</tr>
-</table>
+The <b>IColumnProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IColumnProvider</b> also has these types of members:
 
 ## -remarks
 
@@ -120,7 +80,7 @@ Implement an object that exports this interface when you want to have one or mor
 </ol>
 In addition to normal Component Object Model (COM) registration, the column provider object must also be registered with Windows Explorer. To do so, add a subkey named with the string form of the object's GUID to this key.
 		
-        		<pre xml:space="preserve"><b>HKEY_CLASSES_ROOT</b>
+        		<pre><b>HKEY_CLASSES_ROOT</b>
    <b>Folder</b>
       <b>shellex</b>
          <b>ColumnHandlers</b></pre>

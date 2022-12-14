@@ -1,7 +1,7 @@
 ---
 UID: NE:vds._VDS_LUN_RESERVE_MODE
 title: VDS_LUN_RESERVE_MODE (vds.h)
-description: Not supported.This enumeration is reserved for future use.
+description: Not supported.This enumeration is reserved for future use. (VDS_LUN_RESERVE_MODE)
 helpviewer_keywords: ["VDS_LRM_EXCLUSIVE_RO","VDS_LRM_EXCLUSIVE_RW","VDS_LRM_NONE","VDS_LRM_SHARED_RO","VDS_LRM_SHARED_RW","VDS_LUN_RESERVE_MODE","VDS_LUN_RESERVE_MODE enumeration [VDS]","base.vds_lun_reserve_mode","vds/VDS_LRM_EXCLUSIVE_RO","vds/VDS_LRM_EXCLUSIVE_RW","vds/VDS_LRM_NONE","vds/VDS_LRM_SHARED_RO","vds/VDS_LRM_SHARED_RW","vds/VDS_LUN_RESERVE_MODE"]
 old-location: base\vds_lun_reserve_mode.htm
 tech.root: base
@@ -60,23 +60,23 @@ This enumeration is reserved for future use.
 
 ## -enum-fields
 
-### -field VDS_LRM_NONE
+### -field VDS_LRM_NONE:0
 
 This value is reserved.
 
-### -field VDS_LRM_EXCLUSIVE_RW
+### -field VDS_LRM_EXCLUSIVE_RW:1
 
 This value is reserved.
 
-### -field VDS_LRM_EXCLUSIVE_RO
+### -field VDS_LRM_EXCLUSIVE_RO:2
 
 This value is reserved.
 
-### -field VDS_LRM_SHARED_RO
+### -field VDS_LRM_SHARED_RO:3
 
 This value is reserved.
 
-### -field VDS_LRM_SHARED_RW
+### -field VDS_LRM_SHARED_RW:4
 
 This value is reserved.
 

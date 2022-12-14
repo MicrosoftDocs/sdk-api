@@ -618,7 +618,7 @@ Retrieve the next element in the enumeration. When there are no more elements to
 </dl>
 </td>
 <td width="60%">
-Retrieve <a href="/windows/desktop/SecGloss/s-gly">server-gated cryptography</a> (SGC) enabled certificates. SGC enabled certificates are no longer supported. For more information, see <a href="https://support.microsoft.com/kb/875450">Microsoft Support Article 875450</a>.
+Retrieve <a href="/windows/desktop/SecGloss/s-gly">server-gated cryptography</a> (SGC) enabled certificates. SGC enabled certificates are no longer supported.
 
 </td>
 </tr>
@@ -750,32 +750,33 @@ The following values are returned in <i>pbData</i> if <i>dwParam</i> is PP_IMPTY
 <th>Meaning</th>
 </tr>
 <tr>
-<td>CRYPT_IMPL_HARDWARE1
-
+<td>CRYPT_IMPL_HARDWARE<br/>
+0x01
 </td>
 <td>Implementation is in hardware.</td>
 </tr>
 <tr>
-<td>CRYPT_IMPL_SOFTWARE2
-
+<td>CRYPT_IMPL_SOFTWARE<br/>
+0x02
 </td>
 <td>Implementation is in software.</td>
 </tr>
 <tr>
-<td>CRYPT_IMPL_MIXED3
-
+<td>CRYPT_IMPL_MIXED<br/>
+0x03
 </td>
 <td>Implementation involves both hardware and software.</td>
 </tr>
 <tr>
-<td>CRYPT_IMPL_UNKNOWN4
-
+<td>CRYPT_IMPL_UNKNOWN<br/>
+0x04
 </td>
 <td>Implementation type is unknown.</td>
 </tr>
 <tr>
-<td>CRYPT_IMPL_REMOVABLE8
-
+<td>CRYPT_IMPL_REMOVABLE<br/>
+0x08
+	
 </td>
 <td>Implementation is in removable media.</td>
 </tr>

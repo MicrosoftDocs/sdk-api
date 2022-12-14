@@ -54,38 +54,7 @@ Exposes methods that are used by a namespace extension to specify icon overlays 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellIconOverlay</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellIconOverlay</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IShellIconOverlay</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelliconoverlay-getoverlayiconindex">GetOverlayIconIndex</a>
-</td>
-<td align="left" width="63%">
-Gets the index of the icon overlay in the system image list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelliconoverlay-getoverlayindex">GetOverlayIndex</a>
-</td>
-<td align="left" width="63%">
-Gets the overlay index in the system image list.
-
-</td>
-</tr>
-</table>
+The <b>IShellIconOverlay</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellIconOverlay</b> also has these types of members:
 
 ## -remarks
 

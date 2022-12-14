@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10.ID3D10ShaderResourceView
 title: ID3D10ShaderResourceView (d3d10.h)
-description: A shader-resource-view interface specifies the subresources a shader can access during rendering. Examples of shader resources include a constant buffer, a texture buffer, a texture or a sampler.
+description: A shader-resource-view interface specifies the subresources a shader can access during rendering. Examples of shader resources include a constant buffer, a texture buffer, a texture or a sampler. (ID3D10ShaderResourceView)
 helpviewer_keywords: ["52f9cfc5-67e6-4666-f34d-8344cdf131f0","ID3D10ShaderResourceView","ID3D10ShaderResourceView interface [Direct3D 10]","ID3D10ShaderResourceView interface [Direct3D 10]","described","d3d10/ID3D10ShaderResourceView","direct3d10.id3d10shaderresourceview"]
 old-location: direct3d10\id3d10shaderresourceview.htm
 tech.root: direct3d10
@@ -55,29 +55,7 @@ A shader-resource-view interface specifies the <a href="/windows/desktop/direct3
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10ShaderResourceView</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10view">ID3D10View</a>. <b>ID3D10ShaderResourceView</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D10ShaderResourceView</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10shaderresourceview-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Get the shader resource view's description.
-
-</td>
-</tr>
-</table>
+The <b>ID3D10ShaderResourceView</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10view">ID3D10View</a>. <b>ID3D10ShaderResourceView</b> also has these types of members:
 
 ## -remarks
 

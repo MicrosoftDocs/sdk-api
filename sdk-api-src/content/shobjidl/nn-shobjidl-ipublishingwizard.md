@@ -54,46 +54,7 @@ Exposes methods for working with the Online Print Wizard, the Web Publishing Wiz
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPublishingWizard</b> interface inherits from <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iwizardextension">IWizardExtension</a>. <b>IPublishingWizard</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPublishingWizard</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ipublishingwizard-gettransfermanifest">GetTransferManifest</a>
-</td>
-<td align="left" width="63%">
-Gets a transfer manifest for a file transfer operation performed by a publishing wizard, such as the Online Print Wizard or the Add Network Place Wizard.  
-    
-                        
-
-<div class="alert"><b>Note</b>  This method is deprecated for Windows Vista, as it is not supported for Online Print Wizard or Add Network Place Wizard.</div>
-<div> </div>
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ipublishingwizard-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the <a href="/windows/desktop/shell/scriptable-shell-objects-roadmap">Publishing Wizard</a> object with the files to transfer, the settings to use, and the type of wizard to create.
-    			
-                        
-
-<div class="alert"><b>Note</b>  Windows Vista no longer supports the Online Print Wizard. However, this method can still be used to generate the Add Network Place Wizard.</div>
-<div> </div>
-</td>
-</tr>
-</table>
+The <b>IPublishingWizard</b> interface inherits from <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iwizardextension">IWizardExtension</a>. <b>IPublishingWizard</b> also has these types of members:
 
 ## -remarks
 

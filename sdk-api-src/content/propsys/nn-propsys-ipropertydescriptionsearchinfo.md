@@ -54,56 +54,7 @@ Exposes search-related information for a property. The information provided by t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyDescriptionSearchInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyDescriptionSearchInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPropertyDescriptionSearchInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescriptionsearchinfo-getcolumnindextype">GetColumnIndexType</a>
-</td>
-<td align="left" width="63%">
-Determines the how the current property is indexed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescriptionsearchinfo-getmaxsize">GetMaxSize</a>
-</td>
-<td align="left" width="63%">
-Gets the maximum size value from the property schema's <a href="/windows/desktop/properties/propdesc-schema-searchinfo">searchInfo</a> element.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescriptionsearchinfo-getprojectionstring">GetProjectionString</a>
-</td>
-<td align="left" width="63%">
-Returns a pointer to a string containing the canonical name of the item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescriptionsearchinfo-getsearchinfoflags">GetSearchInfoFlags</a>
-</td>
-<td align="left" width="63%">
-Gets the <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_searchinfo_flags">PROPDESC_SEARCHINFO_FLAGS</a> associated with the property.
-
-</td>
-</tr>
-</table>
+The <b>IPropertyDescriptionSearchInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyDescriptionSearchInfo</b> also has these types of members:
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_RecipientOfficePhone
 title: IFaxDoc::put_RecipientOfficePhone (faxcom.h)
-description: Sets or retrieves the RecipientOfficePhone property of a FaxDoc object. The RecipientOfficePhone property is a null-terminated string that contains the office telephone number of the recipient of the fax transmission.
+description: Sets or retrieves the RecipientOfficePhone property of a FaxDoc object. The RecipientOfficePhone property is a null-terminated string that contains the office telephone number of the recipient of the fax transmission. (Put)
 helpviewer_keywords: ["IFaxDoc interface [Fax Service]","RecipientOfficePhone property","IFaxDoc.RecipientOfficePhone","IFaxDoc.put_RecipientOfficePhone","IFaxDoc::RecipientOfficePhone","IFaxDoc::get_RecipientOfficePhone","IFaxDoc::put_RecipientOfficePhone","RecipientOfficePhone property [Fax Service]","RecipientOfficePhone property [Fax Service]","IFaxDoc interface","_mfax_ifaxdoc_get_recipientofficephone","fax._mfax_ifaxdoc_get_recipientofficephone","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientofficephone_cpp","faxcom/IFaxDoc::RecipientOfficePhone","faxcom/IFaxDoc::get_RecipientOfficePhone","faxcom/IFaxDoc::put_RecipientOfficePhone","put_RecipientOfficePhone"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipientofficephone_cpp.htm
 tech.root: Fax

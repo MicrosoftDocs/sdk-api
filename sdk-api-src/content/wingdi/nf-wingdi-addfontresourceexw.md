@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.AddFontResourceExW
 title: AddFontResourceExW function (wingdi.h)
-description: The AddFontResourceEx function adds the font resource from the specified file to the system. Fonts added with the AddFontResourceEx function can be marked as private and not enumerable.
+description: The AddFontResourceEx function adds the font resource from the specified file to the system. Fonts added with the AddFontResourceEx function can be marked as private and not enumerable. (Unicode)
 helpviewer_keywords: [".fnt",".fon",".fot",".mmm",".otf",".pfb",".pfm",".ttc",".ttf","AddFontResourceEx","AddFontResourceEx function [Windows GDI]","AddFontResourceExA","AddFontResourceExW","FR_NOT_ENUM","FR_PRIVATE","_win32_AddFontResourceEx","gdi.addfontresourceex","wingdi/AddFontResourceEx","wingdi/AddFontResourceExA","wingdi/AddFontResourceExW"]
 old-location: gdi\addfontresourceex.htm
 tech.root: gdi

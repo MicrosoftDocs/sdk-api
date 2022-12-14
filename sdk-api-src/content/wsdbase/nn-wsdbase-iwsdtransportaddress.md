@@ -56,65 +56,7 @@ You should not create an instance of the <b>IWSDTransportAddress</b> interface. 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDTransportAddress</b> interface inherits from <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a>. <b>IWSDTransportAddress</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWSDTransportAddress</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-getport">GetPort</a>
-</td>
-<td align="left" width="63%">
-Gets the IP port number associated with this transport address.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-gettransportaddress">GetTransportAddress</a>
-</td>
-<td align="left" width="63%">
-Gets a pointer to a string representation of the address object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-gettransportaddressex">GetTransportAddressEx</a>
-</td>
-<td align="left" width="63%">
-Gets a pointer to a string representation of the address object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-setport">SetPort</a>
-</td>
-<td align="left" width="63%">
-Sets the IP port number for this transport address.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-settransportaddress">SetTransportAddress</a>
-</td>
-<td align="left" width="63%">
-Sets the string representation of the transport address. 
-
-</td>
-</tr>
-</table>
+The <b>IWSDTransportAddress</b> interface inherits from <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a>. <b>IWSDTransportAddress</b> also has these types of members:
 
 ## -see-also
 

@@ -1,12 +1,12 @@
 ---
 UID: NN:objidl.IPipeDouble
 title: IPipeDouble (objidl.h)
-description: Transfers data of the double type (which is 64 bits wide).
+description: The IPipeDouble interface (objidl.h) transfers data of the double type, which is 64 bits wide.
 helpviewer_keywords: ["IPipeDouble","IPipeDouble interface [COM]","IPipeDouble interface [COM]","described","_com_ipipedouble","com.ipipedouble","objidlbase/IPipeDouble"]
 old-location: com\ipipedouble.htm
 tech.root: com
 ms.assetid: 434d0e0e-55a0-4a08-bc63-ebca4b2bdcca
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IPipeDouble, IPipeDouble interface [COM], IPipeDouble interface [COM],described, _com_ipipedouble, com.ipipedouble, objidlbase/IPipeDouble
 req.header: objidl.h
 req.include-header: ObjIdl.h
@@ -54,38 +54,7 @@ Transfers data of the double type (which is 64 bits wide).
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPipeDouble</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPipeDouble</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPipeDouble</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ipipedouble-pull">Pull</a>
-</td>
-<td align="left" width="63%">
-Retrieves data of the double integer type from the pipe source.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ipipedouble-push">Push</a>
-</td>
-<td align="left" width="63%">
-Sends data of the double integer type to the pipe source.
-
-</td>
-</tr>
-</table>
+The <b>IPipeDouble</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPipeDouble</b> also has these types of members:
 
 ## -remarks
 

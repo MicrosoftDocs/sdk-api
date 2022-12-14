@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsAsync.Cancel
 title: IVdsAsync::Cancel (vdshwprv.h)
-description: Cancels the asynchronous operation.
+description: The IVdsAsync::Cancel method (vdshwprv.h) cancels the asynchronous operation. 
 helpviewer_keywords: ["Cancel","Cancel method [VDS]","Cancel method [VDS]","IVdsAsync interface","IVdsAsync interface [VDS]","Cancel method","IVdsAsync.Cancel","IVdsAsync::Cancel","base.ivdsasync_cancel","vds/IVdsAsync::Cancel","vdshwprv/IVdsAsync::Cancel"]
 old-location: base\ivdsasync_cancel.htm
 tech.root: base
 ms.assetid: 40940cb8-46b7-4483-9952-ab053c49dad7
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: Cancel, Cancel method [VDS], Cancel method [VDS],IVdsAsync interface, IVdsAsync interface [VDS],Cancel method, IVdsAsync.Cancel, IVdsAsync::Cancel, base.ivdsasync_cancel, vds/IVdsAsync::Cancel, vdshwprv/IVdsAsync::Cancel
 req.header: vdshwprv.h
 req.include-header: 
@@ -56,7 +56,7 @@ api_name:
 Cancels the asynchronous 
    operation.
 
-## -parameters
+
 
 ## -returns
 

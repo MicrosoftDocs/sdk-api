@@ -56,29 +56,7 @@ Provides the methods to access the property sheet settings of a task.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProvideTaskPage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProvideTaskPage</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IProvideTaskPage</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mstask/nf-mstask-iprovidetaskpage-getpage">GetPage</a>
-</td>
-<td align="left" width="63%">
-Retrieves the property sheet pages associated with a task.
-
-</td>
-</tr>
-</table>
+The <b>IProvideTaskPage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProvideTaskPage</b> also has these types of members:
 
 ## -remarks
 

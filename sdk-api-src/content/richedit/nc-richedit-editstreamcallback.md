@@ -74,7 +74,7 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Number of bytes to read or write.
 
-### -param *pcb [in]
+### -param pcb [in]
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
 

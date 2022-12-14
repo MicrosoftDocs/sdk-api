@@ -1,7 +1,7 @@
 ---
 UID: NF:loadperf.UnloadPerfCounterTextStringsA
 title: UnloadPerfCounterTextStringsA function (loadperf.h)
-description: Unloads performance objects and counters from the computer for the specified application.
+description: Unloads performance objects and counters from the computer for the specified application. (ANSI)
 helpviewer_keywords: ["UnloadPerfCounterTextStrings","UnloadPerfCounterTextStrings function [Perf]","UnloadPerfCounterTextStringsA","UnloadPerfCounterTextStringsW","_win32_unloadperfcountertextstrings","base.unloadperfcountertextstrings","loadperf/UnloadPerfCounterTextStrings","loadperf/UnloadPerfCounterTextStringsA","loadperf/UnloadPerfCounterTextStringsW","perf.unloadperfcountertextstrings"]
 old-location: perf\unloadperfcountertextstrings.htm
 tech.root: perf
@@ -62,7 +62,7 @@ Null-terminated string that consists of one or more arbitrary letters, a space, 
 
 ### -param bQuietModeArg [in]
 
-Set to <b>TRUE</b> to prevent the function from displaying the output from the  <b>Unlodctr</b> tool; otherwise, <b>FALSE</b>. This parameter has meaning only if the application is run from a command prompt.
+Set to <b>TRUE</b> to prevent the function from displaying the output from the <b>Unlodctr</b> tool; otherwise, <b>FALSE</b>. This parameter has meaning only if the application is run from a command prompt.
 
 ## -returns
 

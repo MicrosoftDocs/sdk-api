@@ -84,28 +84,17 @@ Returns a <b>DWORD</b> value that indicates whether
 
 This identifier is reserved.
 
-
-
 #### CERT_ARCHIVED_KEY_HASH_PROP_ID
 
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
 Returns a previously saved encrypted key <a href="/windows/desktop/SecGloss/h-gly">hash</a> for the certificate context.
 
-
-
 #### CERT_ARCHIVED_PROP_ID
 
-Data type of <i>pvData</i>: 
-  <b>NULL</b>. If the <b>CertGetCertificateContextProperty</b> function returns true, then the specified property ID exists for the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>.
+Data type of <i>pvData</i>: <b>NULL</b>. If the <b>CertGetCertificateContextProperty</b> function returns true, then the specified property ID exists for the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>.
 
-Indicates the certificate is skipped during 
-			 enumerations. A certificate with this property set 
-			 is found with explicit search operations, 
-			 such as those used to find a certificate with a 
-			 specific hash or a serial number. 
-			 No data in <i>pvData</i> is associated with this 
-			 property.
+Indicates the certificate is skipped during  enumerations. A certificate with this property set is found with explicit search operations, such as those used to find a certificate with a specific hash or a serial number. No data in <i>pvData</i> is associated with this property.
 
 
 
@@ -119,9 +108,7 @@ This identifier is reserved.
 
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
-Returns a null-terminated Unicode string that names 
-			 the certificate type for which the certificate has 
-			 been auto enrolled.
+Returns a null-terminated Unicode string that names the certificate type for which the certificate has been auto enrolled.
 
 
 
@@ -157,13 +144,9 @@ Contains the list of <a href="/windows/desktop/SecGloss/o-gly">online certificat
 
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
-Location of the cross certificates. Currently, this identifier 
-  is only applicable to certificates and not to CRLs or <a href="/windows/desktop/SecGloss/c-gly">certificate trust lists</a> (CTLs).
-  The <b>BYTE</b> array contains an 
-			 ASN.1-encoded 
-  <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cross_cert_dist_points_info">CROSS_CERT_DIST_POINTS_INFO</a> structure decoded by using 
-  the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a> function with a X509_CROSS_CERT_DIST_POINTS 
-  value for the <i>lpszStuctType</i> parameter.
+Location of the cross certificates. Currently, this identifier is only applicable to certificates and not to CRLs or <a href="/windows/desktop/SecGloss/c-gly">certificate trust lists</a> (CTLs).
+
+The <b>BYTE</b> array contains an ASN.1-encoded <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cross_cert_dist_points_info">CROSS_CERT_DIST_POINTS_INFO</a> structure decoded by using the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a> function with a X509_CROSS_CERT_DIST_POINTS value for the <i>lpszStuctType</i> parameter.
 
 
 
@@ -171,9 +154,7 @@ Location of the cross certificates. Currently, this identifier
 
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
-Returns an array of bytes that contain an 
-			 
-			 ASN.1-encoded <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CTL_USAGE</a> structure.
+Returns an array of bytes that contain an ASN.1-encoded <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CTL_USAGE</a> structure.
 
 
 
@@ -189,9 +170,7 @@ Time when the certificate was added to the store.
 
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
-Returns the property displayed by the certificate 
-			 UI. This property allows the user to describe the 
-			 certificate's use.
+Returns the property displayed by the certificate UI. This property allows the user to describe the certificate's use.
 
 
 

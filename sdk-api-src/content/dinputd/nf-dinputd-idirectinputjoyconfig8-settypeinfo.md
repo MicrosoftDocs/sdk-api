@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::SetTypeInfo </b>method creates a new joystick type or redefines information about an existing joystick type.
+The <b>IDirectInputJoyConfig8::SetTypeInfo </b> method creates a new joystick type or redefines information about an existing joystick type.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Points to the name of the type. The name of the type cannot exceed MAX_JOYSTRING characters, including the terminating null character. If the type name does not already exist, then it is created. You cannot change the type information for a predefined type. The name cannot begin with a "#" character. Types beginning with "#" are reserved by DirectInput.
 
-### -param arg2
+### -param unnamedParam2
 
 Points to a structure that receives information about the joystick type.
 
-### -param arg3
+### -param unnamedParam3
 
 Specifies the parts of the <a href="/windows/desktop/api/dinputd/ns-dinputd-dijoytypeinfo">DIJOYTYPEINFO</a> structure pointed to by <i>pjti</i> that contain values to be set. 
 
@@ -92,7 +92,7 @@ Indicates that the display name for the joystick type is valid.
 
 Indicates that the callout for the joystick type is valid.
 
-### -param arg4
+### -param unnamedParam4
 
 If the type name is an OEM type not in VID_xxxx&PID_yyyy format, this parameter will return the name in VID_xxxx&PID_yyyy format that is assigned by Dinput. 
 This VID_xxxx&PID_yyyy name should be used in DIJOYCONFIG.wszType field when calling SetConfig.

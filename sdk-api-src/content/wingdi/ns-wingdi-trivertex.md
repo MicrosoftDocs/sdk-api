@@ -84,7 +84,7 @@ The color information at the point of x, y.
 
 ## -remarks
 
-In the <b>TRIVERTEX</b> structure, x and y indicate position in the same manner as in the <a href="/previous-versions/dd162807(v=vs.85)">POINTL</a> structure contained in the wtypes.h header file. <b>Red</b>, <b>Green</b>, <b>Blue</b>, and <b>Alpha</b> members indicate color information at the point x, y. The color information of each channel is specified as a value from 0x0000 to 0xff00. This allows higher color resolution for an object that has been split into small triangles for display. The <b>TRIVERTEX</b> structure contains information needed by the <i>pVertex</i> parameter of <a href="/windows/desktop/api/wingdi/nf-wingdi-gradientfill">GradientFill</a>.
+In the <b>TRIVERTEX</b> structure, x and y indicate position in the same manner as in the <a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a> structure contained in the wtypes.h header file. <b>Red</b>, <b>Green</b>, <b>Blue</b>, and <b>Alpha</b> members indicate color information at the point x, y. The color information of each channel is specified as a value from 0x0000 to 0xff00. This allows higher color resolution for an object that has been split into small triangles for display. The <b>TRIVERTEX</b> structure contains information needed by the <i>pVertex</i> parameter of <a href="/windows/desktop/api/wingdi/nf-wingdi-gradientfill">GradientFill</a>.
 
 
 #### Examples
@@ -107,4 +107,4 @@ For an example of the use of this structure, see <a href="/windows/desktop/gdi/d
 
 
 
-<a href="/previous-versions/dd162807(v=vs.85)">POINTL</a>
+<a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a>

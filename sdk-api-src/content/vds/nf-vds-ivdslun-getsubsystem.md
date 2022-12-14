@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsLun.GetSubSystem
 title: IVdsLun::GetSubSystem (vds.h)
-description: Returns the subsystem that surfaces the LUN.
+description: The IVdsLun::GetSubSystem method (vds.h) returns the subsystem that surfaces the LUN.
 helpviewer_keywords: ["GetSubSystem","GetSubSystem method [VDS]","GetSubSystem method [VDS]","IVdsLun interface","IVdsLun interface [VDS]","GetSubSystem method","IVdsLun.GetSubSystem","IVdsLun::GetSubSystem","base.ivdslun_getsubsystem","vds/IVdsLun::GetSubSystem","vdshwprv/IVdsLun::GetSubSystem"]
 old-location: base\ivdslun_getsubsystem.htm
 tech.root: base
 ms.assetid: bd7dbe48-ad56-4304-a076-608f697620d8
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],IVdsLun interface, IVdsLun interface [VDS],GetSubSystem method, IVdsLun.GetSubSystem, IVdsLun::GetSubSystem, base.ivdslun_getsubsystem, vds/IVdsLun::GetSubSystem, vdshwprv/IVdsLun::GetSubSystem
 req.header: vds.h
 req.include-header: 

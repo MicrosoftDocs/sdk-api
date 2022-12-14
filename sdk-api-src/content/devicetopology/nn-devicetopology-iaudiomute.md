@@ -56,38 +56,7 @@ Most Windows audio adapter drivers support the Windows Driver Model (WDM) and us
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioMute</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioMute</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAudioMute</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iaudiomute-getmute">GetMute</a>
-</td>
-<td align="left" width="63%">
-Gets the current state (enabled or disabled) of the mute control.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iaudiomute-setmute">SetMute</a>
-</td>
-<td align="left" width="63%">
-Enables or disables the mute control.
-
-</td>
-</tr>
-</table>
+The <b>IAudioMute</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioMute</b> also has these types of members:
 
 ## -see-also
 

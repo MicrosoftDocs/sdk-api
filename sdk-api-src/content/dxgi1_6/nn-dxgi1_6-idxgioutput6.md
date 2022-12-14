@@ -54,38 +54,7 @@ Represents an adapter output (such as a monitor). The <b>IDXGIOutput6</b> interf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIOutput6</b> interface inherits from <a href="/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgioutput5">IDXGIOutput5</a>. <b>IDXGIOutput6</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDXGIOutput6</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi1_6/nf-dxgi1_6-idxgioutput6-checkhardwarecompositionsupport">CheckHardwareCompositionSupport</a>
-</td>
-<td align="left" width="63%">
-Notifies applications that hardware stretching is supported.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi1_6/nf-dxgi1_6-idxgioutput6-getdesc1">GetDesc1</a>
-</td>
-<td align="left" width="63%">
-Get an extended description of the output that includes color characteristics and connection type.
-
-</td>
-</tr>
-</table>
+The <b>IDXGIOutput6</b> interface inherits from <a href="/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgioutput5">IDXGIOutput5</a>. <b>IDXGIOutput6</b> also has these types of members:
 
 ## -see-also
 

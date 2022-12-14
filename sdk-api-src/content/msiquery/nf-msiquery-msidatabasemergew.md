@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiDatabaseMergeW
 title: MsiDatabaseMergeW function (msiquery.h)
-description: The MsiDatabaseMerge function merges two databases together, which allows duplicate rows.
+description: The MsiDatabaseMerge function merges two databases together, which allows duplicate rows. (Unicode)
 helpviewer_keywords: ["MsiDatabaseMerge","MsiDatabaseMerge function","MsiDatabaseMergeA","MsiDatabaseMergeW","_msi_msidatabasemerge","msiquery/MsiDatabaseMerge","msiquery/MsiDatabaseMergeA","msiquery/MsiDatabaseMergeW","setup.msidatabasemerge"]
 old-location: setup\msidatabasemerge.htm
 tech.root: setup

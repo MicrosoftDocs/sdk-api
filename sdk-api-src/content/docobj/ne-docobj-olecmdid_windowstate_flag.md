@@ -54,19 +54,19 @@ Specifies the window state.
 
 ## -enum-fields
 
-### -field OLECMDIDF_WINDOWSTATE_USERVISIBLE
+### -field OLECMDIDF_WINDOWSTATE_USERVISIBLE:0x00000001
 
 The window is visible.
 
-### -field OLECMDIDF_WINDOWSTATE_ENABLED
+### -field OLECMDIDF_WINDOWSTATE_ENABLED:0x00000002
 
 The window has focus.
 
-### -field OLECMDIDF_WINDOWSTATE_USERVISIBLE_VALID
+### -field OLECMDIDF_WINDOWSTATE_USERVISIBLE_VALID:0x00010000
 
 The window is visible and valid.
 
-### -field OLECMDIDF_WINDOWSTATE_ENABLED_VALID
+### -field OLECMDIDF_WINDOWSTATE_ENABLED_VALID:0x00020000
 
 The window has focus and is valid.
 

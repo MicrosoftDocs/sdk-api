@@ -54,7 +54,7 @@ Retrieves the Input Method Editor (IME) input context associated with the text s
 
 This method is used only in Asian-language versions of the operating system.
 
-## -parameters
+
 
 ## -returns
 

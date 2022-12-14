@@ -1,7 +1,7 @@
 ---
 UID: NF:pdh.PdhBrowseCountersW
 title: PdhBrowseCountersW function (pdh.h)
-description: Displays a Browse Counters dialog box that the user can use to select one or more counters that they want to add to the query. To use handles to data sources, use the PdhBrowseCountersH function.
+description: Displays a Browse Counters dialog box that the user can use to select one or more counters that they want to add to the query. To use handles to data sources, use the PdhBrowseCountersH function. (Unicode)
 helpviewer_keywords: ["PdhBrowseCounters","PdhBrowseCounters function [Perf]","PdhBrowseCountersA","PdhBrowseCountersW","_win32_pdhbrowsecounters","base.pdhbrowsecounters","pdh/PdhBrowseCounters","pdh/PdhBrowseCountersA","pdh/PdhBrowseCountersW","perf.pdhbrowsecounters"]
 old-location: perf\pdhbrowsecounters.htm
 tech.root: perf
@@ -77,7 +77,7 @@ If the function fails, the return value is a
 ## -remarks
 
 Note that the dialog
-   box can return PDH_DIALOG_CANCELLED if <b>bSingleCounterPerDialog</b>is <b>FALSE</b> and the user clicks the  <b>Close</b> button, so your error handling would have to account for this.
+   box can return PDH_DIALOG_CANCELLED if <b>bSingleCounterPerDialog</b> is <b>FALSE</b> and the user clicks the  <b>Close</b> button, so your error handling would have to account for this.
 
 For information on using this function, see <a href="/windows/desktop/PerfCtrs/browsing-counters">Browsing Counters</a>.
 

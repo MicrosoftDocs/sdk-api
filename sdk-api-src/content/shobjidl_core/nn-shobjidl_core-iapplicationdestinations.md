@@ -54,47 +54,7 @@ Exposes methods that allow an application to remove one or all destinations from
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IApplicationDestinations</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IApplicationDestinations</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IApplicationDestinations</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdestinations-removealldestinations">RemoveAllDestinations</a>
-</td>
-<td align="left" width="63%">
-Clears all destination entries from the <b>Recent</b> and <b>Frequent</b> categories in an application's Jump List.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdestinations-removedestination">RemoveDestination</a>
-</td>
-<td align="left" width="63%">
-Removes a single destination from the <b>Recent</b> and <b>Frequent</b> categories in a Jump List.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdestinations-setappid">SetAppID</a>
-</td>
-<td align="left" width="63%">
-Specifies a unique AppUserModelID for the application from whose taskbar button's Jump List the methods of this interface will remove destinations. This method is optional.
-
-</td>
-</tr>
-</table>
+The <b>IApplicationDestinations</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IApplicationDestinations</b> also has these types of members:
 
 ## -remarks
 
@@ -108,7 +68,7 @@ An application calls the methods of this interface when it wants to remove items
 
 An application should call <b>IApplicationDestinations</b> methods in the following situations:
                 
-                    <ul>
+<ul>
 <li>When the application is uninstalled.</li>
 <li>When the user clears history.</li>
 <li>When the user disables destination tracking in the application's Settings or Options pages.</li>

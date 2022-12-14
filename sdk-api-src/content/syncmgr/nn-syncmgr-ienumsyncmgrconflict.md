@@ -54,56 +54,7 @@ Exposes conflict enumeration methods.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumSyncMgrConflict</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumSyncMgrConflict</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IEnumSyncMgrConflict</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrconflict-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Not used. Clones an <b>IEnumSyncMgrConflict</b> object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrconflict-next">Next</a>
-</td>
-<td align="left" width="63%">
-Gets the next batch of conflicts from the conflicts store.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrconflict-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the current position in the enumeration to zero.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrconflict-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips forward the specified number of conflicts in the enumeration.
-
-</td>
-</tr>
-</table>
+The <b>IEnumSyncMgrConflict</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumSyncMgrConflict</b> also has these types of members:
 
 ## -remarks
 

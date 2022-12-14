@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.ImageAttributes(GpImageAttributes,Status)
 title: ImageAttributes::ImageAttributes(GpImageAttributes,Status) (gdiplusimageattributes.h)
-description: Creates an ImageAttributes::ImageAttributes object. This is the default constructor.
+description: Creates an ImageAttributes::ImageAttributes object. This is the default constructor. (overload 1/3)
 helpviewer_keywords: ["ImageAttributes","ImageAttributes class [GDI+]","ImageAttributes constructor","ImageAttributes constructor [GDI+]","ImageAttributes constructor [GDI+]","ImageAttributes class","ImageAttributes.ImageAttributes","ImageAttributes.ImageAttributes(GpImageAttributes","Status)","ImageAttributes::ImageAttributes","ImageAttributes::ImageAttributes(GpImageAttributes","Status)","_gdiplus_CLASS_ImageAttributes_ImageAttributes_","gdiplus._gdiplus_CLASS_ImageAttributes_ImageAttributes_"]
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ImageAttributes_.htm
 tech.root: gdiplus

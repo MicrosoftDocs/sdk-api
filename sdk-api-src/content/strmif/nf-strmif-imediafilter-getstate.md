@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IMediaFilter.GetState
 title: IMediaFilter::GetState (strmif.h)
-description: The GetState method retrieves the filters's state (running, stopped, or paused).
+description: The GetState method retrieves the filter's state (running, stopped, or paused).
 helpviewer_keywords: ["GetState","GetState method [DirectShow]","GetState method [DirectShow]","IBaseFilter interface","GetState method [DirectShow]","IMediaFilter interface","IBaseFilter interface [DirectShow]","GetState method","IBaseFilter::GetState","IMediaFilter interface [DirectShow]","GetState method","IMediaFilter.GetState","IMediaFilter::GetState","IMediaFilterGetState","dshow.imediafilter_getstate","strmif/IBaseFilter::GetState","strmif/IMediaFilter::GetState"]
 old-location: dshow\imediafilter_getstate.htm
 tech.root: dshow
@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>GetState</b> method retrieves the filters's state (running, stopped, or paused).
+The <b>GetState</b> method retrieves the filter's state (running, stopped, or paused).
 
 ## -parameters
 

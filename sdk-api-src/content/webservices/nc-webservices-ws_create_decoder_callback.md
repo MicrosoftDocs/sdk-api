@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_CREATE_DECODER_CALLBACK
 title: WS_CREATE_DECODER_CALLBACK (webservices.h)
-description: Handles creating an decoder instance.
+description: Handles creating a decoder instance.
 helpviewer_keywords: ["WS_CREATE_DECODER_CALLBACK","WS_CREATE_DECODER_CALLBACK callback","WS_CREATE_DECODER_CALLBACK callback function [Web Services for Windows]","webservices/WS_CREATE_DECODER_CALLBACK","wsw.ws_create_decoder_callback"]
 old-location: wsw\ws_create_decoder_callback.htm
 tech.root: wsw
@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Handles creating an decoder instance.
+Handles creating a decoder instance.
 
 ## -parameters
 
-### -param *createContext [in]
+### -param createContext [in]
 
-The createContext that was specified in the <a href="/windows/desktop/api/webservices/ns-webservices-ws_channel_decoder">WS_CHANNEL_DECODER</a>used during channel creation.
+The createContext that was specified in the <a href="/windows/desktop/api/webservices/ns-webservices-ws_channel_decoder">WS_CHANNEL_DECODER</a> used during channel creation.
 
 ### -param readCallback [in]
 
@@ -65,7 +65,7 @@ The function that should be used to read the message data.  This callback
                     <a href="/windows/desktop/api/webservices/nc-webservices-ws_decoder_decode_callback">WS_DECODER_DECODE_CALLBACK</a> and <a href="/windows/desktop/api/webservices/nc-webservices-ws_decoder_end_callback">WS_DECODER_END_CALLBACK</a> 
                     callbacks.
 
-### -param *readContext [in]
+### -param readContext [in]
 
 The read context that should be passed to the provided <a href="/windows/desktop/api/webservices/nc-webservices-ws_read_callback">WS_READ_CALLBACK</a>.
                 
@@ -76,7 +76,7 @@ The read context that should be passed to the provided <a href="/windows/desktop
 Returns the decoder instance.  This value will be
                     passed to all of the decoder callbacks.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 

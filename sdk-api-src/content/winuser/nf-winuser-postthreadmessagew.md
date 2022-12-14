@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.PostThreadMessageW
 title: PostThreadMessageW function (winuser.h)
-description: Posts a message to the message queue of the specified thread. It returns without waiting for the thread to process the message.
+description: Posts a message to the message queue of the specified thread. It returns without waiting for the thread to process the message. (Unicode)
 helpviewer_keywords: ["PostThreadMessage","PostThreadMessage function [Windows and Messages]","PostThreadMessageA","PostThreadMessageW","_win32_PostThreadMessage","_win32_postthreadmessage_cpp","winmsg.postthreadmessage","winui._win32_postthreadmessage","winuser/PostThreadMessage","winuser/PostThreadMessageA","winuser/PostThreadMessageW"]
 old-location: winmsg\postthreadmessage.htm
 tech.root: winmsg
@@ -54,6 +54,7 @@ api_name:
  - PostThreadMessage
  - PostThreadMessageA
  - PostThreadMessageW
+req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 ---
 
 # PostThreadMessageW function

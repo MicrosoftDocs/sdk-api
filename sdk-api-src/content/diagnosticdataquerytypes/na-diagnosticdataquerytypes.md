@@ -3,7 +3,6 @@ UID: NA:diagnosticdataquerytypes
 title: diagnosticdataquerytypes
 ms.date: 8/19/2019
 ms.keywords: diagnosticdataquerytypes
-ms.topic: language-reference
 targetos: Windows
 product: Windows
 req.assembly: 
@@ -46,6 +45,3 @@ This set of APIs contains resources that describe diagnostic data records and pr
 ## -remarks
 
 ## -see-also
-
-## -examples
-

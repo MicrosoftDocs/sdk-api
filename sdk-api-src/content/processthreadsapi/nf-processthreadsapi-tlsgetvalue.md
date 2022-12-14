@@ -4,12 +4,12 @@ title: TlsGetValue function (processthreadsapi.h)
 description: Retrieves the value in the calling thread's thread local storage (TLS) slot for the specified TLS index. Each thread of a process has its own slot for each TLS index.
 helpviewer_keywords: ["TlsGetValue","TlsGetValue function","_win32_tlsgetvalue","base.tlsgetvalue","processthreadsapi/TlsGetValue","winbase/TlsGetValue"]
 old-location: base\tlsgetvalue.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 82bd5ff6-ff0b-42b7-9ece-e9e8531eb5fb
 ms.date: 12/05/2018
 ms.keywords: TlsGetValue, TlsGetValue function, _win32_tlsgetvalue, base.tlsgetvalue, processthreadsapi/TlsGetValue, winbase/TlsGetValue
 req.header: processthreadsapi.h
-req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -75,9 +75,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 The data stored in a TLS slot can have a value of 0 because it still has its initial value or because the thread called the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlssetvalue">TlsSetValue</a> function with 0. Therefore, if the return value is 0, you must check whether <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_SUCCESS</b> before determining that the function has failed. If <b>GetLastError</b> returns <b>ERROR_SUCCESS</b>, then the function has succeeded and the data stored in the TLS slot is 0. Otherwise, the function has failed.
 
-Functions that return indications of failure call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a>when they fail. They generally do not call <b>SetLastError</b>when they succeed. The 
+Functions that return indications of failure call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> when they fail. They generally do not call <b>SetLastError</b> when they succeed. The 
 <b>TlsGetValue</b> function is an exception to this general rule. The 
-<b>TlsGetValue</b> function calls <b>SetLastError</b>to clear a thread's last error when it succeeds. That allows checking for the error-free retrieval of zero values.
+<b>TlsGetValue</b> function calls <b>SetLastError</b> to clear a thread's last error when it succeeds. That allows checking for the error-free retrieval of zero values.
 
 ## -remarks
 

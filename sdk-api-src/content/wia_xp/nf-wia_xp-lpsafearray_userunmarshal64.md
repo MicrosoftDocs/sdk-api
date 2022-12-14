@@ -1,7 +1,7 @@
 ---
 UID: NF:wia_xp.LPSAFEARRAY_UserUnmarshal64
 title: LPSAFEARRAY_UserUnmarshal64 function (wia_xp.h)
-description: Unmarshals a SAFEARRAY object from the RPC buffer.
+description: Unmarshals a SAFEARRAY object from the RPC buffer. (LPSAFEARRAY_UserUnmarshal64)
 helpviewer_keywords: ["LPSAFEARRAY_UserUnmarshal64","LPSAFEARRAY_UserUnmarshal64 function [Automation]","automat.lpsafearray_userunmarshal64","wia_xp/LPSAFEARRAY_UserUnmarshal64"]
 old-location: automat\lpsafearray_userunmarshal64.htm
 tech.root: automat
@@ -54,15 +54,15 @@ Unmarshals a <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The data used by RPC.
 
-### -param arg2 [in, out]
+### -param unnamedParam2 [in, out]
 
 The current buffer. This pointer may or may not be aligned on entry. The function aligns the buffer pointer, marshals the data, and returns the new buffer position, which is the address of the first byte after the marshaled object.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Receives the safe array that contains the data.
 

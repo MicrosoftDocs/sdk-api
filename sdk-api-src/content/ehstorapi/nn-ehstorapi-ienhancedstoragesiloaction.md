@@ -54,44 +54,5 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnhancedStorageSiloAction</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnhancedStorageSiloAction</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IEnhancedStorageSiloAction</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnhancedStorageSiloAction</b> also has these types of members:
 
-## -members
-
-The <b>IEnhancedStorageSiloAction</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/ehstorapi/nf-ehstorapi-ienhancedstoragesiloaction-getdescription">GetDescription</a>
-</td>
-<td align="left" width="63%">
-Returns a descriptive string for the action specified by the <b>IEnhancedStorageSiloAction</b> object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/ehstorapi/nf-ehstorapi-ienhancedstoragesiloaction-getname">GetName</a>
-</td>
-<td align="left" width="63%">
-Returns a string for the name of the action specified by the <b>IEnhancedStorageSiloAction</b> object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/ehstorapi/nf-ehstorapi-ienhancedstoragesiloaction-invoke">Invoke</a>
-</td>
-<td align="left" width="63%">
-Performs the action specified by an <b>IEnhancedStorageSiloAction</b> object.
-
-</td>
-</tr>
-</table>

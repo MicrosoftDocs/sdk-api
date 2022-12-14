@@ -60,7 +60,7 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The magnification window.
 
-### -param *srcdata [in]
+### -param srcdata [in]
 
 Type: <b>void*</b>
 
@@ -72,7 +72,7 @@ Type: <b><a href="/windows/desktop/api/magnification/ns-magnification-magimagehe
 
 The description of the input format.
 
-### -param *destdata [out]
+### -param destdata [out]
 
 Type: <b>void*</b>
 

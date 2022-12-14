@@ -1,7 +1,7 @@
 ---
 UID: NF:iscsidsc.ReportPersistentIScsiDevicesA
 title: ReportPersistentIScsiDevicesA function (iscsidsc.h)
-description: The ReportPersistentIscsiDevices function retrieves the list of persistently bound volumes and devices.
+description: The ReportPersistentIscsiDevices function retrieves the list of persistently bound volumes and devices. (ANSI)
 helpviewer_keywords: ["ReportPersistentIScsiDevicesA","ReportPersistentIscsiDevices","ReportPersistentIscsiDevices function [iSCSI Discovery Library API]","ReportPersistentIscsiDevicesA","ReportPersistentIscsiDevicesW","iscsidisc.reportpersistentiscsidevices","iscsidsc/ReportPersistentIscsiDevices","iscsidsc/ReportPersistentIscsiDevicesA","iscsidsc/ReportPersistentIscsiDevicesW"]
 old-location: iscsidisc\reportpersistentiscsidevices.htm
 tech.root: iSCSIDisc

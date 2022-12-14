@@ -60,7 +60,7 @@ Frees PFX certificate context(s).
 
 DWORD of the number of certificate contexts to free.
 
-### -param *rgpCert [in, optional]
+### -param rgpCert [in, optional]
 
 Pointer to a certificate Context containing to free.
 

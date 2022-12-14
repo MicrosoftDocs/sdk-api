@@ -1,12 +1,12 @@
 ---
 UID: NN:shlobj.IFileViewerA
 title: IFileViewerA
-description: Exposes methods that designate an interface that allows a registered file viewer to be notified when it must show or print a file.
+description: Exposes methods that designate an interface that allows a registered file viewer to be notified when it must show or print a file. (ANSI)
 helpviewer_keywords: ["IFileViewerA"]
 old-location: 
 tech.root: shell
 ms.assetid: 659f6ff8-1797-4f66-b0cc-ca2b9ee15a3a
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: IFileViewerA
 targetos: Windows
 req.assembly: 

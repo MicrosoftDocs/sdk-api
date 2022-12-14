@@ -66,56 +66,7 @@ For a code example that uses the <b>IAudioMeterInformation</b> interface, see <a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioMeterInformation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioMeterInformation</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAudioMeterInformation</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudiometerinformation-getchannelspeakvalues">GetChannelsPeakValues</a>
-</td>
-<td align="left" width="63%">
-Gets the peak sample values for all the channels in the audio stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudiometerinformation-getmeteringchannelcount">GetMeteringChannelCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of channels in the audio stream that are monitored by peak meters.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudiometerinformation-getpeakvalue">GetPeakValue</a>
-</td>
-<td align="left" width="63%">
-Gets the peak sample value for the channels in the audio stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudiometerinformation-queryhardwaresupport">QueryHardwareSupport</a>
-</td>
-<td align="left" width="63%">
-Queries the audio endpoint device for its hardware-supported functions.
-
-</td>
-</tr>
-</table>
+The <b>IAudioMeterInformation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioMeterInformation</b> also has these types of members:
 
 ## -see-also
 

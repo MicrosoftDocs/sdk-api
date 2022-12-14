@@ -55,7 +55,7 @@ Instantiates a new instance of a <a href="/previous-versions/windows/desktop/leg
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Address of the **D3D11_RASTERIZER_DESC** structure that initializes the **CD3D11_RASTERIZER_DESC** structure.
 

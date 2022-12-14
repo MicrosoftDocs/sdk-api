@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegCopyTreeW
 title: RegCopyTreeW function (winreg.h)
-description: Copies the specified registry key, along with its values and subkeys, to the specified destination key.
+description: Copies the specified registry key, along with its values and subkeys, to the specified destination key. (Unicode)
 helpviewer_keywords: ["RegCopyTree","RegCopyTree function","RegCopyTreeA","RegCopyTreeW","base.regcopytree","winreg/RegCopyTree","winreg/RegCopyTreeA","winreg/RegCopyTreeW"]
 old-location: base\regcopytree.htm
 tech.root: winprog

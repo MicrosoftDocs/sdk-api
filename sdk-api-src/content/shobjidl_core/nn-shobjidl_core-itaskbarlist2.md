@@ -54,29 +54,7 @@ Extends the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskba
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskbarList2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a>. <b>ITaskbarList2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITaskbarList2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist2-markfullscreenwindow">MarkFullscreenWindow</a>
-</td>
-<td align="left" width="63%">
-Marks a window as full-screen.
-
-</td>
-</tr>
-</table>
+The <b>ITaskbarList2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a>. <b>ITaskbarList2</b> also has these types of members:
 
 ## -remarks
 

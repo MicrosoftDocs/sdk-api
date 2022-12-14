@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.BackupEventLogA
 title: BackupEventLogA function (winbase.h)
-description: Saves the specified event log to a backup file.
+description: Saves the specified event log to a backup file. (ANSI)
 helpviewer_keywords: ["BackupEventLog","BackupEventLog function","BackupEventLogA","BackupEventLogW","_win32_backupeventlog","base.backupeventlog","winbase/BackupEventLog","winbase/BackupEventLogA","winbase/BackupEventLogW"]
 old-location: base\backupeventlog.htm
 tech.root: base
@@ -46,6 +46,7 @@ api_name:
  - BackupEventLog
  - BackupEventLogA
  - BackupEventLogW
+req.apiset: ext-ms-win-advapi32-eventlog-ansi-l1-1-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # BackupEventLogA function

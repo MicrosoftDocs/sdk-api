@@ -69,4 +69,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -see-also
 
-[IDMLObject](/windows/desktop/api/directml/nn-directml-idmlobject)
+[IDMLObject](/windows/win32/api/directml/nn-directml-idmlobject)

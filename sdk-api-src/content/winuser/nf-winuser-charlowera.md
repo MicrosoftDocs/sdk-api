@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.CharLowerA
 title: CharLowerA function (winuser.h)
-description: Converts a character string or a single character to lowercase. If the operand is a character string, the function converts the characters in place.
+description: Converts a character string or a single character to lowercase. If the operand is a character string, the function converts the characters in place. (ANSI)
 helpviewer_keywords: ["CharLower","CharLower function [Menus and Other Resources]","CharLowerA","CharLowerW","_win32_CharLower","_win32_charlower_cpp","menurc.charlower","winui._win32_charlower","winuser/CharLower","winuser/CharLowerA","winuser/CharLowerW"]
 old-location: menurc\charlower.htm
 tech.root: menurc
@@ -96,7 +96,7 @@ Conversion to Unicode in the ANSI version of the function is done with the syste
 
 ## -see-also
 
-<a href="/windows/desktop/menurc/f">CharLowerBuff</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-charlowerbuffa">CharLowerBuff</a>
 
 
 

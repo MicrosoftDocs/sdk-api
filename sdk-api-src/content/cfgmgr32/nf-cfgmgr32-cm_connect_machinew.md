@@ -1,7 +1,7 @@
 ---
 UID: NF:cfgmgr32.CM_Connect_MachineW
 title: CM_Connect_MachineW function (cfgmgr32.h)
-description: The CM_Connect_Machine function creates a connection to a remote machine.
+description: The CM_Connect_Machine function creates a connection to a remote machine. (Unicode)
 helpviewer_keywords: ["CM_Connect_Machine","CM_Connect_Machine function [Device and Driver Installation]","CM_Connect_MachineW","cfgmgr32/CM_Connect_Machine","cfgmgr32/CM_Connect_MachineW","cfgmgrfn_5214f459-40fa-4805-b7e4-ee7a1606b659.xml","devinst.cm_connect_machine"]
 old-location: devinst\cm_connect_machine.htm
 tech.root: devinst
@@ -77,7 +77,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 Callers of <b>CM_Connect_Machine</b> must call <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_disconnect_machine">CM_Disconnect_Machine</a> to deallocate the machine handle, after it is no longer needed.
 
-Use machine handles obtained with this function only with the <a href="/previous-versions/ff549713(v=vs.85)">PnP configuration manager functions</a>.
+Use machine handles obtained with this function only with the <a href="/windows/win32/api/cfgmgr32/">PnP configuration manager functions</a>.
 
  Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>IWMPPlugin::Shutdown</b> method is called when Windows Media Player shuts down the plug-in.
 
-## -parameters
+
 
 ## -returns
 

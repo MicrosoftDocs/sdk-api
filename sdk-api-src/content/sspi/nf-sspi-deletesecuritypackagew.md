@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.DeleteSecurityPackageW
 title: DeleteSecurityPackageW function (sspi.h)
-description: Deletes a security support provider from the list of providers supported by Microsoft Negotiate.
+description: Deletes a security support provider from the list of providers supported by Microsoft Negotiate. (Unicode)
 helpviewer_keywords: ["DeleteSecurityPackage","DeleteSecurityPackage function [Security]","DeleteSecurityPackageA","DeleteSecurityPackageW","security.deletesecuritypackage","sspi/DeleteSecurityPackage","sspi/DeleteSecurityPackageA","sspi/DeleteSecurityPackageW"]
 old-location: security\deletesecuritypackage.htm
 tech.root: security

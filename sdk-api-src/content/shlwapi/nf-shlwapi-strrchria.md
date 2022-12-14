@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.StrRChrIA
 title: StrRChrIA function (shlwapi.h)
-description: Searches a string for the last occurrence of a specified character. The comparison is not case-sensitive.
+description: Searches a string for the last occurrence of a specified character. The comparison is not case-sensitive. (ANSI)
 helpviewer_keywords: ["StrRChrI","StrRChrI function [Windows Shell]","StrRChrIA","StrRChrIW","shell.StrRChrI","shlwapi/StrRChrI","shlwapi/StrRChrIA","shlwapi/StrRChrIW"]
 old-location: shell\StrRChrI.htm
 tech.root: shell

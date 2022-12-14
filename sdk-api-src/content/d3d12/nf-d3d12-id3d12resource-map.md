@@ -6,7 +6,7 @@ helpviewer_keywords: ["ID3D12Resource interface","Map method","ID3D12Resource.Ma
 old-location: direct3d12\id3d12resource_map.htm
 tech.root: direct3d12
 ms.assetid: 71E43B63-9C84-4E4B-A43D-92B958C8AAF5
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ID3D12Resource interface,Map method, ID3D12Resource.Map, ID3D12Resource::Map, Map, Map method, Map method,ID3D12Resource interface, d3d12/ID3D12Resource::Map, direct3d12.id3d12resource_map
 req.header: d3d12.h
 req.include-header: 
@@ -135,16 +135,14 @@ Use the appropriate optimization settings and language constructs to help avoid 
 
 </li>
 </ul>
-Applications are encouraged to leave resources unmapped while the CPU will not modify them, and use tight, accurate ranges at all times. This enables the fastest modes for tools, like <a href="/visualstudio/debugger/visual-studio-graphics-diagnostics?view=vs-2015">Graphics Debugging</a> and the debug layer. Such tools need to track all CPU modifications to memory that the GPU could read.
-
-Resources on D3D12_HEAP_TYPE_READBACK heaps do not support persistent map. <b>Map</b> and <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-unmap">Unmap</a> must be called between CPU and GPU accesses to the same memory address on some system architectures, when the page caching behavior is write-back. <b>Map</b> and <b>Unmap</b> invalidate and flush the last level CPU cache on some ARM systems, to marshal data between the CPU and GPU through memory addresses with write-back behavior.
+Applications are encouraged to leave resources unmapped while the CPU will not modify them, and use tight, accurate ranges at all times. This enables the fastest modes for tools, like <a href="/visualstudio/debugger/visual-studio-graphics-diagnostics">Graphics Debugging</a> and the debug layer. Such tools need to track all CPU modifications to memory that the GPU could read.
 
 
 <h3><a id="Advanced_Usage_Models"></a><a id="advanced_usage_models"></a><a id="ADVANCED_USAGE_MODELS"></a>Advanced Usage Models</h3>
-Resources on D3D12_HEAP_TYPE_UPLOAD heaps can be persistently mapped, meaning <b>Map</b> can be called once, immediately after resource creation. <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-unmap">Unmap</a> never needs to be called, but the address returned from <b>Map</b> must no longer be used after the last reference to the resource is released. When using persistent map, the application must ensure the CPU finishes writing data into memory before the GPU executes a command list that reads the memory. In common scenarios, the application merely must write to memory before calling <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists">ExecuteCommandLists</a>; but using a fence to delay command list execution works as well.
+Resources on CPU-accessible heaps can be persistently mapped, meaning <b>Map</b> can be called once, immediately after resource creation. <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-unmap">Unmap</a> never needs to be called, but the address returned from <b>Map</b> must no longer be used after the last reference to the resource is released. When using persistent map, the application must ensure the CPU finishes writing data into memory before the GPU executes a command list that reads or writes the memory. In common scenarios, the application merely must write to memory before calling <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists">ExecuteCommandLists</a>; but using a fence to delay command list execution works as well.
 
 
-Applications may understand the adapter architectural details and use custom heaps to write optimizations for UMA architectures, multi-engine applications, multi-adapter applications, and other less common scenarios. Persistent map can be used on the custom heap types when the adapter architectures supports it. Heaps with write-combine properties always support persistent map, and heaps with write-back properties support persistent map on non-ARM systems.
+All CPU-accessible memory types support persistent mapping usage, where the resource is mapped but then never unmapped, provided the application does not access the pointer after the resource has been disposed.
 
 
 #### Examples
@@ -181,7 +179,7 @@ ThrowIfFailed(pDevice->CreateCommittedResource(
 
 // Map the constant buffers. Note that unlike D3D11, the resource 
 // does not need to be unmapped for use by the GPU. In this sample, 
-// the resource stays 'permenantly' mapped to avoid overhead with 
+// the resource stays 'permanently' mapped to avoid overhead with 
 // mapping/unmapping each frame.
 CD3DX12_RANGE readRange(0, 0);        // We do not intend to read from this resource on the CPU.
 ThrowIfFailed(m_cbvUploadHeap->Map(0, &readRange, reinterpret_cast<void**>(&m_pConstantBuffers)));

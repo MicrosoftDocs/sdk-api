@@ -4,12 +4,12 @@ title: SetWaitableTimer function (synchapi.h)
 description: Activates the specified waitable timer. When the due time arrives, the timer is signaled and the thread that set the timer calls the optional completion routine.
 helpviewer_keywords: ["SetWaitableTimer","SetWaitableTimer function","_win32_setwaitabletimer","base.setwaitabletimer","synchapi/SetWaitableTimer","winbase/SetWaitableTimer"]
 old-location: base\setwaitabletimer.htm
-tech.root: backup
+tech.root: base
 ms.assetid: 237e22dc-696d-473f-8bb5-c28f7c7c75b2
 ms.date: 12/05/2018
 ms.keywords: SetWaitableTimer, SetWaitableTimer function, _win32_setwaitabletimer, base.setwaitabletimer, synchapi/SetWaitableTimer, winbase/SetWaitableTimer
 req.header: synchapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]

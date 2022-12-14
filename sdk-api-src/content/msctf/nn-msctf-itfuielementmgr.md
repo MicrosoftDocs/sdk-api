@@ -54,65 +54,7 @@ The <b>ITfUIElementMgr</b> interface is implemented by TSF manager and used by a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfUIElementMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfUIElementMgr</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfUIElementMgr</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfuielementmgr-beginuielement">BeginUIElement</a>
-</td>
-<td align="left" width="63%">
-A text service calls this method before showing UI. It returns if the text service’s UI should be shown or not.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfuielementmgr-enduielement">EndUIElement</a>
-</td>
-<td align="left" width="63%">
-A text service calls this method when the element of UI is hidden.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfuielementmgr-enumuielements">EnumUIElements</a>
-</td>
-<td align="left" width="63%">
-Return IEnumTfUIElements interface poinssster to enumerate the ITfUIElement.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfuielementmgr-getuielement">GetUIElement</a>
-</td>
-<td align="left" width="63%">
-Get ITfUIElement interface of the element id.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfuielementmgr-updateuielement">UpdateUIElement</a>
-</td>
-<td align="left" width="63%">
-A text service calls this method when the element of UI must be updated.
-
-</td>
-</tr>
-</table>
+The <b>ITfUIElementMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfUIElementMgr</b> also has these types of members:
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.StrRStrIW
 title: StrRStrIW function (shlwapi.h)
-description: Searches for the last occurrence of a specified substring within a string. The comparison is not case-sensitive.
+description: Searches for the last occurrence of a specified substring within a string. The comparison is not case-sensitive. (Unicode)
 helpviewer_keywords: ["StrRStrI","StrRStrI function [Windows Shell]","StrRStrIA","StrRStrIW","_win32_StrRStrI","shell.StrRStrI","shlwapi/StrRStrI","shlwapi/StrRStrIA","shlwapi/StrRStrIW"]
 old-location: shell\StrRStrI.htm
 tech.root: shell

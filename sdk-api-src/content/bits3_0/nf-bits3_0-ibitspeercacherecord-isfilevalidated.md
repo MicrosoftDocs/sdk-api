@@ -53,7 +53,7 @@ api_name:
 
 Determines whether the file has been validated.
 
-## -parameters
+
 
 ## -returns
 

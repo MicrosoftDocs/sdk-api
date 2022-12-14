@@ -54,56 +54,10 @@ The <b>IStreamBufferConfigure3</b> interface is exposed by the <a href="/previou
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferConfigure3</b> interface inherits from <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure2">IStreamBufferConfigure2</a>. <b>IStreamBufferConfigure3</b> also has these types of members:
+The <b>IStreamBufferConfigure3</b> interface inherits from <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure2">IStreamBufferConfigure2</a>. <b>IStreamBufferConfigure3</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IStreamBufferConfigure3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure3-getnamespace">GetNamespace</a>
-</td>
-<td align="left" width="63%">
-Retrieves the prefix that is added to the names of the synchronization objects that the Stream Buffer Engine uses to synchronize the reader and writer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure3-getstartrecconfig">GetStartRecConfig</a>
-</td>
-<td align="left" width="63%">
-Queries whether the <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordcontrol-start">IStreamBufferRecordControl::Start</a> method automatically stops the current recording.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure3-setnamespace">SetNamespace</a>
-</td>
-<td align="left" width="63%">
-Specifies a prefix that is added to the names of the synchronization objects that the Stream Buffer Engine uses to synchronize the reader and writer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure3-setstartrecconfig">SetStartRecConfig</a>
-</td>
-<td align="left" width="63%">
-Specifies whether the <b>IStreamBufferRecordControl::Start</b> method automatically stops the current recording.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

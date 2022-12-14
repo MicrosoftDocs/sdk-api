@@ -61,7 +61,7 @@ api_name:
 Retrieves the session identifier of the console session. The console session is the session that is currently attached to the physical console. Note that it is not necessary that Remote Desktop Services be running for this 
     function to succeed.
 
-## -parameters
+
 
 ## -returns
 

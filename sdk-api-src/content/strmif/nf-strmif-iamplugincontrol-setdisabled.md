@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMPluginControl.SetDisabled
 title: IAMPluginControl::SetDisabled (strmif.h)
-description: Adds a class identifier (CLSID) to the blocked list, or removes a CLSID from the list.
+description: Adds a class identifier (CLSID) to the blocked list, or removes a CLSID from the list. (IAMPluginControl.SetDisabled)
 helpviewer_keywords: ["IAMPluginControl interface [DirectShow]","SetDisabled method","IAMPluginControl.SetDisabled","IAMPluginControl::SetDisabled","SetDisabled","SetDisabled method [DirectShow]","SetDisabled method [DirectShow]","IAMPluginControl interface","dshow.iamplugincontrol_setdisabled","strmif/IAMPluginControl::SetDisabled"]
 old-location: dshow\iamplugincontrol_setdisabled.htm
 tech.root: dshow
@@ -64,7 +64,7 @@ Specifies whether to add or remove the CSLID. If the value is <b>TRUE</b>, the m
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

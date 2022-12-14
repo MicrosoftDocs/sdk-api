@@ -57,35 +57,5 @@ The <b>IFhScopeIterator</b> interface allows client applications to enumerate in
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFhScopeIterator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFhScopeIterator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IFhScopeIterator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFhScopeIterator</b> also has these types of members:
 
-## -members
-
-The <b>IFhScopeIterator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhscopeiterator-getitem">GetItem</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current item in an inclusion or exclusion list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhscopeiterator-movetonextitem">MoveToNextItem</a>
-</td>
-<td align="left" width="63%">
-Moves to the next item in the inclusion or exclusion list.
-
-</td>
-</tr>
-</table>

@@ -62,7 +62,7 @@ The handle of the key value to encode.
 
 A value of the <a href="/windows/desktop/api/cryptxml/ne-cryptxml-crypt_xml_charset">CRYPT_XML_CHARSET</a> enumeration that specifies the character set of the encoded XML.
 
-### -param *pvCallbackState [in, out]
+### -param pvCallbackState [in, out]
 
 A pointer to an argument that is passed to the callback function pointed to by the <i>pfnWrite</i> parameter.
 

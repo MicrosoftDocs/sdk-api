@@ -54,56 +54,7 @@ Notifies the subscriber if the Microsoft Distributed Transaction Coordinator (DT
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComTransactionEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComTransactionEvents</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IComTransactionEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomtransactionevents-ontransactionabort">OnTransactionAbort</a>
-</td>
-<td align="left" width="63%">
-Generated when a transaction aborts.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomtransactionevents-ontransactioncommit">OnTransactionCommit</a>
-</td>
-<td align="left" width="63%">
-Generated when a transaction commits.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomtransactionevents-ontransactionprepare">OnTransactionPrepare</a>
-</td>
-<td align="left" width="63%">
-Generated when the prepare phase of the two-phase commit protocol of the transaction is completed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomtransactionevents-ontransactionstart">OnTransactionStart</a>
-</td>
-<td align="left" width="63%">
-Generated when a Microsoft Distributed Transaction Coordinator (DTC) transaction starts.
-
-</td>
-</tr>
-</table>
+The <b>IComTransactionEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComTransactionEvents</b> also has these types of members:
 
 ## -see-also
 

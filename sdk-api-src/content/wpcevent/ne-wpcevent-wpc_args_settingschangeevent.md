@@ -56,7 +56,7 @@ Indicates information about the changes to settings being made by a user.
 
 ## -enum-fields
 
-### -field WPC_ARGS_SETTINGSCHANGEEVENT_CLASS
+### -field WPC_ARGS_SETTINGSCHANGEEVENT_CLASS:0
 
 The class of change made to the setting.
 

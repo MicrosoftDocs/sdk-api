@@ -64,16 +64,13 @@ The <b>Provider</b> class is the base class for the class or classes that the fr
 
 An instance of the <b>Provider</b> class is created for each WMI class that has a framework provider.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">Provider</b> has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul><h3><a id="methods"></a>Methods</h3>The <b>Provider</b> class has these methods.
+<b>Provider</b> has these types of members:
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/provider/nf-provider-provider-commit">Commit</a>
 </td>
@@ -82,7 +79,7 @@ Returns the current instance to WMI.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/provider/nf-provider-provider-createnewinstance">CreateNewInstance</a>
 </td>
@@ -91,7 +88,7 @@ Allocates a new <a href="/windows/desktop/api/instance/nl-instance-cinstance">CI
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/provider/nf-provider-provider-deleteinstance(parsedobjectpath_long_methodcontext)">DeleteInstance</a>
 </td>
@@ -100,7 +97,7 @@ Deletes an instance. Called by WMI.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/provider/nf-provider-provider-enumerateinstances">EnumerateInstances</a>
 </td>
@@ -109,7 +106,7 @@ Retrieves all instances of a framework provider's class. Called by WMI.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/provider/nf-provider-provider-execmethod(parsedobjectpath_bstr_long_cinstance_cinstance_methodcontext)">ExecMethod</a>
 </td>
@@ -118,7 +115,7 @@ Invokes a method on a class or instance. Called by WMI.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/provider/nf-provider-provider-execquery">ExecQuery</a>
 </td>
@@ -127,7 +124,7 @@ Processes a WMI Query Language (WQL) query. Called by WMI.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/provider/nf-provider-provider-flush">Flush</a>
 </td>
@@ -136,7 +133,7 @@ Called by the provider framework to delete all unnecessary memory in use by the 
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/provider/nf-provider-provider-getlocalcomputername">GetLocalComputerName</a>
 </td>
@@ -145,7 +142,7 @@ Returns a constant reference to the computer name in <a href="/windows/desktop/W
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/provider/nf-provider-provider-getlocalinstancepath">GetLocalInstancePath</a>
 </td>
@@ -154,7 +151,7 @@ Attempts to build a full object path to a specified instance.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/provider/nf-provider-provider-getobject(cinstance_long_cframeworkquery_)">GetObject</a>
 </td>
@@ -163,7 +160,7 @@ Retrieves an instance of a class. Called by WMI.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/provider/nf-provider-provider-getprovidername">GetProviderName</a>
 </td>
@@ -172,7 +169,7 @@ Retrieves the name of the provider.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/provider/nf-provider-provider-makelocalpath">MakeLocalPath</a>
 </td>
@@ -181,7 +178,7 @@ Builds a full instance path from a relative path.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/provider/nf-provider-provider-putinstance(constcinstance__long)">PutInstance</a>
 </td>
@@ -190,7 +187,7 @@ Updates an instance. Called by WMI.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/provider/nf-provider-provider-setcreationclassname">SetCreationClassName</a>
 </td>
@@ -199,7 +196,7 @@ Sets the <b>CreationClassName</b> string property of the given instance to the n
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/provider/nf-provider-provider-validatedeletionflags">ValidateDeletionFlags</a>
 </td>
@@ -208,7 +205,7 @@ Determines whether a set of flags is valid for a delete operation.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/provider/nf-provider-provider-validateenumerationflags">ValidateEnumerationFlags</a>
 </td>
@@ -217,7 +214,7 @@ Determines whether a set of flags is valid for an enumeration.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/provider/nf-provider-provider-validateflags">ValidateFlags</a>
 </td>
@@ -226,7 +223,7 @@ Determines whether a set of flags is valid.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/provider/nf-provider-provider-validategetobjflags">ValidateGetObjFlags</a>
 </td>
@@ -235,7 +232,7 @@ Determines whether a set of flags is valid for an instance retrieval operation.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/provider/nf-provider-provider-validatemethodflags">ValidateMethodFlags</a>
 </td>
@@ -244,7 +241,7 @@ Determines whether a set of flags is valid for an execute method operation.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/provider/nf-provider-provider-validateputinstanceflags">ValidatePutInstanceFlags</a>
 </td>
@@ -253,7 +250,7 @@ Determines whether a set of flags is valid for an instance update operation.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/provider/nf-provider-provider-validatequeryflags">ValidateQueryFlags</a>
 </td>

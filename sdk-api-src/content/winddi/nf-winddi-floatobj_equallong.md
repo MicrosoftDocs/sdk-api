@@ -54,17 +54,17 @@ The <b>FLOATOBJ_EqualLong</b> function determines whether the <a href="/windows/
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to the FLOATOBJ.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Specifies the LONG value. This value is converted to a FLOATOBJ for the comparison.
 
 ## -returns
 
-<b>FLOATOBJ_EqualLong </b>returns <b>TRUE</b> if *<i>pf</i> and the FLOATOBJ-equivalent value of <i>l</i> are equal; otherwise it returns <b>FALSE</b>.
+<b>FLOATOBJ_EqualLong </b> returns <b>TRUE</b> if *<i>pf</i> and the FLOATOBJ-equivalent value of <i>l</i> are equal; otherwise it returns <b>FALSE</b>.
 
 ## -remarks
 

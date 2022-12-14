@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
 api_name:
  - AddUsersToEncryptedFile
+req.apiset: ext-ms-win-advapi32-encryptedfile-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # AddUsersToEncryptedFile function

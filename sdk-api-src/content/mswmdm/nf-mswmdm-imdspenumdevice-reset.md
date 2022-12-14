@@ -53,7 +53,7 @@ api_name:
 
 The <b>Reset</b> method resets the enumeration sequence to the beginning. A subsequent call to <b>Next</b> fetches the first Windows Media Device Manager interface in the enumeration sequence.
 
-## -parameters
+
 
 ## -returns
 

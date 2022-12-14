@@ -1,10 +1,9 @@
 ---
 UID: NE:mfidl.MFSampleAllocatorUsage
 title: MFSampleAllocatorUsage
-ms.date: 11/4/2019
-ms.topic: language-reference
+ms.date: 08/05/2022
 targetos: Windows
-description: 
+description: The MFSampleAllocatorUsage enumeration specifies the allocator usage of components that implement the IMFSampleAllocatorControl interface.
 tech.root: mf
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -38,7 +37,7 @@ Specifies the allocator usage of components that implement the [IMFSampleAllocat
 
 ## -enum-fields
 
-### -field MFSampleAllocatorUsage_UsesProvidedAllocator
+### -field MFSampleAllocatorUsage_UsesProvidedAllocator:0
 
 The output stream will use the camera pipeline's sample allocator to allocate new media samples. If the output stream is producing samples in CPU memory, it is recommended that it use this mode to ensure consistent performance when used in a cross-container scenario.
 

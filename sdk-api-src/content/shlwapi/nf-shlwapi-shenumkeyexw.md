@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHEnumKeyExW
 title: SHEnumKeyExW function (shlwapi.h)
-description: Enumerates the subkeys of the specified open registry key.
+description: Enumerates the subkeys of the specified open registry key. (SHEnumKeyExW)
 helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHEnumKeyEx","SHEnumKeyEx function [Windows Shell]","SHEnumKeyExA","SHEnumKeyExW","_win32_SHEnumKeyEx","shell.SHEnumKeyEx","shlwapi/SHEnumKeyEx","shlwapi/SHEnumKeyExA","shlwapi/SHEnumKeyExW"]
 old-location: shell\SHEnumKeyEx.htm
 tech.root: shell

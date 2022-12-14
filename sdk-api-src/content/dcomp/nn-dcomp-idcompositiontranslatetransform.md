@@ -54,36 +54,7 @@ Represents a 2D transformation that affects only the offset of a visual along th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionTranslateTransform</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform">IDCompositionTransform</a>. <b>IDCompositionTranslateTransform</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDCompositionTranslateTransform</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/hh449126(v=vs.85)">SetOffsetX</a>
-</td>
-<td align="left" width="63%">Overloaded. Changes or animates the value of the OffsetX property of a 2D translation transform.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/hh449131(v=vs.85)">SetOffsetY</a>
-</td>
-<td align="left" width="63%">Overloaded. Changes or animates the value of the OffsetY property of a 2D translation transform.
-
-</td>
-</tr>
-</table>
+The <b>IDCompositionTranslateTransform</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform">IDCompositionTransform</a>. <b>IDCompositionTranslateTransform</b> also has these types of members:
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.CallWindowProcA
 title: CallWindowProcA function (winuser.h)
-description: Passes message information to the specified window procedure.
+description: Passes message information to the specified window procedure. (ANSI)
 helpviewer_keywords: ["CallWindowProc","CallWindowProc function [Windows and Messages]","CallWindowProcA","CallWindowProcW","_win32_CallWindowProc","_win32_callwindowproc_cpp","winmsg.callwindowproc","winui._win32_callwindowproc","winuser/CallWindowProc","winuser/CallWindowProcA","winuser/CallWindowProcW"]
 old-location: winmsg\callwindowproc.htm
 tech.root: winmsg
@@ -50,6 +50,7 @@ api_name:
  - CallWindowProc
  - CallWindowProcA
  - CallWindowProcW
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # CallWindowProcA function
@@ -105,19 +106,31 @@ The <a href="/windows/desktop/api/winuser/nf-winuser-setwindowlonga">SetWindowLo
 
 If <b>STRICT</b> is defined, the <i>lpPrevWndFunc</i> parameter has the data type <b>WNDPROC</b>. The <b>WNDPROC</b> type is declared as follows:
 
-<pre class="syntax" xml:space="preserve"><code>LRESULT (CALLBACK* WNDPROC) (HWND, UINT, WPARAM, LPARAM); </code></pre>
+
+``` syntax
+LRESULT (CALLBACK* WNDPROC) (HWND, UINT, WPARAM, LPARAM); 
+```
+
 If <b>STRICT</b> is not defined, the <i>lpPrevWndFunc</i> parameter has the data type <b>FARPROC</b>. The <b>FARPROC</b> type is declared as follows:
 
-<pre class="syntax" xml:space="preserve"><code>int (FAR WINAPI * FARPROC) () </code></pre>
+
+``` syntax
+int (FAR WINAPI * FARPROC) () 
+```
+
 In C, the <b>FARPROC</b> declaration indicates a callback function that has an unspecified parameter list. In C++, however, the empty parameter list in the declaration indicates that a function has no parameters. This subtle distinction can break careless code. Following is one way to handle this situation:
 
-<pre class="syntax" xml:space="preserve"><code>#ifdef STRICT 
+
+``` syntax
+#ifdef STRICT 
   WNDPROC MyWindowProcedure 
 #else 
   FARPROC MyWindowProcedure 
 #endif 
 ... 
-  lResult = CallWindowProc(MyWindowProcedure, ...) ; </code></pre>
+  lResult = CallWindowProc(MyWindowProcedure, ...) ; 
+```
+
 For further information about functions declared with empty argument lists, refer to 
 				<i>The C++ Programming Language, Second Edition,</i> by Bjarne Stroustrup. 
 

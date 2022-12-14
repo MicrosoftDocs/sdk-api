@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.RSSetViewports
 title: ID3D10Device::RSSetViewports (d3d10.h)
-description: Bind an array of viewports to the rasterizer stage of the pipeline.
+description: Bind an array of viewports to the rasterizer stage of the pipeline. (ID3D10Device.RSSetViewports)
 helpviewer_keywords: ["38205573-be63-f56a-8e33-466b9154f1a9","ID3D10Device interface [Direct3D 10]","RSSetViewports method","ID3D10Device.RSSetViewports","ID3D10Device::RSSetViewports","RSSetViewports","RSSetViewports method [Direct3D 10]","RSSetViewports method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::RSSetViewports","direct3d10.id3d10device_rssetviewports"]
 old-location: direct3d10\id3d10device_rssetviewports.htm
 tech.root: direct3d10

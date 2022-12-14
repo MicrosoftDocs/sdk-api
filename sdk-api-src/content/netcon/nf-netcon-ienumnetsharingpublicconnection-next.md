@@ -1,7 +1,7 @@
 ---
 UID: NF:netcon.IEnumNetSharingPublicConnection.Next
 title: IEnumNetSharingPublicConnection::Next (netcon.h)
-description: The Next method retrieves the specified number of privately-shared connections that start from the current enumeration position.
+description: The Next method retrieves the specified number of privately-shared connections that start from the current enumeration position. (IEnumNetSharingPublicConnection.Next)
 helpviewer_keywords: ["IEnumNetSharingPublicConnection interface [ICS/ICF]","Next method","IEnumNetSharingPublicConnection.Next","IEnumNetSharingPublicConnection::Next","Next","Next method [ICS/ICF]","Next method [ICS/ICF]","IEnumNetSharingPublicConnection interface","_ics_ienumnetsharingpublicconnection_next","ics.ienumnetsharingpublicconnection_next","netcon/IEnumNetSharingPublicConnection::Next"]
 old-location: ics\ienumnetsharingpublicconnection_next.htm
 tech.root: ics

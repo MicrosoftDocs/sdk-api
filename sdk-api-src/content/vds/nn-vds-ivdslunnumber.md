@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsLunNumber
 title: IVdsLunNumber (vds.h)
-description: Provides a method to query the LUN number for a LUN.
+description: The IVdsLunNumber interface (vds.h) provides a method to query the LUN number for a LUN.
 helpviewer_keywords: ["IVdsLunNumber","IVdsLunNumber interface","IVdsLunNumber interface","described","base.ivdslunnumber","vds/IVdsLunNumber","vdshwprv/IVdsLunNumber"]
 old-location: base\ivdslunnumber.htm
 tech.root: base
 ms.assetid: 77bd95f7-005a-474f-97c4-e211432b447d
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsLunNumber, IVdsLunNumber interface, IVdsLunNumber interface,described, base.ivdslunnumber, vds/IVdsLunNumber, vdshwprv/IVdsLunNumber
 req.header: vds.h
 req.include-header: 
@@ -57,29 +57,7 @@ Provides a method to query the LUN number for a LUN.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsLunNumber</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsLunNumber</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVdsLunNumber</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunnumber-getlunnumber">GetLunNumber</a>
-</td>
-<td align="left" width="63%">
-Retrieves the LUN number for a LUN.
-
-</td>
-</tr>
-</table>
+The <b>IVdsLunNumber</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsLunNumber</b> also has these types of members:
 
 ## -see-also
 

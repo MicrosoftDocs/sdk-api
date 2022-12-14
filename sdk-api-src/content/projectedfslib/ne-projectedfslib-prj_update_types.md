@@ -54,31 +54,31 @@ Flags to specify whether updates will be allowed given the state of a file or di
 
 ## -enum-fields
 
-### -field PRJ_UPDATE_NONE
+### -field PRJ_UPDATE_NONE:0x00000000
 
 Allow update only if the item is a placeholder (whether hydrated or not).
 
-### -field PRJ_UPDATE_ALLOW_DIRTY_METADATA
+### -field PRJ_UPDATE_ALLOW_DIRTY_METADATA:0x00000001
 
 Allow update if the item is a placeholder or a dirty placeholder.
 
-### -field PRJ_UPDATE_ALLOW_DIRTY_DATA
+### -field PRJ_UPDATE_ALLOW_DIRTY_DATA:0x00000002
 
 Allow update if the item is a placeholder or if it is a full file.
 
-### -field PRJ_UPDATE_ALLOW_TOMBSTONE
+### -field PRJ_UPDATE_ALLOW_TOMBSTONE:0x00000004
 
 Allow update if the item is a placeholder or if it is a tombstone.
 
-### -field PRJ_UPDATE_RESERVED1
+### -field PRJ_UPDATE_RESERVED1:0x00000008
 
 Reserved for future use.
 
-### -field PRJ_UPDATE_RESERVED2
+### -field PRJ_UPDATE_RESERVED2:0x00000010
 
 Reserved for future use.
 
-### -field PRJ_UPDATE_ALLOW_READ_ONLY
+### -field PRJ_UPDATE_ALLOW_READ_ONLY:0x00000020
 
 Allow update regardless of whether the DOS read-only bit is set on the item.
 

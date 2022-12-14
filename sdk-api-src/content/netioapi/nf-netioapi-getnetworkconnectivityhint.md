@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.author: windowssdkdev
 ms.date: 10/04/2019
 ms.keywords: GetNetworkConnectivityHint, GetNetworkConnectivityHint function [IP Helper], netioapi.GetNetworkConnectivityHint, netioapi/GetNetworkConnectivityHint
-ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -54,7 +53,7 @@ A pointer to a value of type [NL_NETWORK_CONNECTIVITY_HINT](../nldef/ns-nldef-nl
 
 ## -returns
 
-In user mode, returns **NO_ERROR** on success, and an error code on failure. In kernel mode, returns **STATUS_SUCCESS** on success, and an error code on failure.
+In user mode, returns **NO_ERROR** on success, and a Win32 error code on failure. In kernel mode, returns **STATUS_SUCCESS** on success, and an NTSTATUS error code on failure.
 
 ## -remarks
 

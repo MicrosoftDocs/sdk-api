@@ -54,40 +54,12 @@ Extends the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileOpenDialog</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog">IFileDialog</a>. <b>IFileOpenDialog</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IFileOpenDialog</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileopendialog-getresults">GetResults</a>
-</td>
-<td align="left" width="63%">
-Gets the user's choices in a dialog that allows multiple selection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileopendialog-getselecteditems">GetSelectedItems</a>
-</td>
-<td align="left" width="63%">
-Gets the currently selected items in the dialog. These items may be items selected in the view, or text selected in the file name edit box.
-
-</td>
-</tr>
-</table>
+The <b>IFileOpenDialog</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog">IFileDialog</a>. <b>IFileOpenDialog</b> also has these types of members:
 
 ## -remarks
+
+<h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
+<b>IFileOpenDialog</b> is implemented by the common file open dialog (CLSID_FileOpenDialog).
 
 This interface also provides the methods of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog">IFileDialog</a> interface, from which it inherits.
 

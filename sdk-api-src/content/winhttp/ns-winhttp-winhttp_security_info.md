@@ -2,7 +2,6 @@
 UID: NS:winhttp._WINHTTP_SECURITY_INFO
 title: WINHTTP_SECURITY_INFO
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: The WINHTTP_SECURITY_INFO structure contains a variety of timing information for an HTTP request.
 tech.root: winhttp
@@ -15,8 +14,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: WINHTTP_SECURITY_INFO, *PWINHTTP_SECURITY_INFO
 req.umdf-ver: 

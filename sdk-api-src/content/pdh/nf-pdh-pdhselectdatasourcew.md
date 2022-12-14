@@ -1,7 +1,7 @@
 ---
 UID: NF:pdh.PdhSelectDataSourceW
 title: PdhSelectDataSourceW function (pdh.h)
-description: Displays a dialog window that prompts the user to specify the source of the performance data.
+description: Displays a dialog window that prompts the user to specify the source of the performance data. (Unicode)
 helpviewer_keywords: ["0","PDH_FLAGS_FILE_BROWSER_ONLY","PdhSelectDataSource","PdhSelectDataSource function [Perf]","PdhSelectDataSourceA","PdhSelectDataSourceW","_win32_pdhselectdatasource","base.pdhselectdatasource","pdh/PdhSelectDataSource","pdh/PdhSelectDataSourceA","pdh/PdhSelectDataSourceW","perf.pdhselectdatasource"]
 old-location: perf\pdhselectdatasource.htm
 tech.root: perf

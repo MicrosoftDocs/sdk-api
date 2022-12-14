@@ -2,7 +2,6 @@
 UID: NF:sspi.SspiDeleteSecurityContextAsync
 title: SspiDeleteSecurityContextAsync function
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Deletes the local data structures associated with the specified security context initiated by a previous call to the SspiInitializeSecurityContextAsync function or the SspiAcceptSecurityContextAsync function.
 tech.root: security
@@ -28,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - sspi.h
 api_name:
@@ -60,7 +58,7 @@ Returns **SEC_E_OK** if the async request to delete the security context was suc
 
 SspiGetAsyncCallStatus returns **SEC_E_OK** on completion. Otherwise, it may return **SEC_I_ASYNC_CALL_PENDING** if the call is still in progress, or one of the error codes below.
 
-|<div style="width:40%">Return code</div>|<div style="width:60%">Description</div>|
+|<div>Return code</div>|<div>Description</div>|
 |---|---|
 |**SEC_E_INVALID_HANDLE**|The handle passed to the function is not valid.|
 

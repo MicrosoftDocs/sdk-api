@@ -60,16 +60,24 @@ Gets information about the biometric enrollments that the specified user has on 
 
 A <a href="/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure for the user whose biometric enrollments you want to get. For example:
 
-<pre class="syntax" xml:space="preserve"><code>WINBIO_IDENTITY identity = {};
+
+``` syntax
+WINBIO_IDENTITY identity = {};
 identity.Type = WINBIO_ID_TYPE_SID;
 
 // Move an account SID into identity.Value.AccountSid.Data.
-// For example, CopySid(...)</code></pre>
+// For example, CopySid(...)
+```
+
 To see the enrollments for every user on the computer, specify the  <b>WINBIO_ID_TYPE_WILDCARD</b> identity type for the <a href="/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that you specify for the <i>AccountOwner</i> parameter. For example:
 
-<pre class="syntax" xml:space="preserve"><code>WINBIO_IDENTITY identity = {};
+
+``` syntax
+WINBIO_IDENTITY identity = {};
 identity.Type = WINBIO_ID_TYPE_WILDCARD;
-</code></pre>
+
+```
+
 
 ### -param EnrolledFactors [out]
 
@@ -121,7 +129,9 @@ The <b>Type</b> member of the <a href="/windows/desktop/SecBioMet/winbio-identit
 
 #### Examples
 
-<pre class="syntax" xml:space="preserve"><code>WINBIO_BIOMETRIC_TYPE enrolledFactors = WINBIO_NO_TYPE_AVAILABLE;
+
+``` syntax
+WINBIO_BIOMETRIC_TYPE enrolledFactors = WINBIO_NO_TYPE_AVAILABLE;
 
 WINBIO_IDENTITY identity = {};
 identity.Type = WINBIO_ID_TYPE_SID;
@@ -130,7 +140,9 @@ identity.Type = WINBIO_ID_TYPE_SID;
 // e.g., CopySid(...)
 
 HRESULT hr = WinBioGetEnrolledFactors(&amp;identity, &amp;enrolledFactors);
-</code></pre>
+
+```
+
 
 ## -see-also
 

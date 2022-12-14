@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_searchW
 title: ldap_searchW function (winldap.h)
-description: Searches the LDAP directory and returns a requested set of attributes for each matched entry.
+description: The ldap_searchW (Unicode) function (winldap.h) searches the LDAP directory and returns a requested set of attributes for each matched entry. 
 helpviewer_keywords: ["LDAP_SCOPE_BASE","LDAP_SCOPE_ONELEVEL","LDAP_SCOPE_SUBTREE","_ldap_ldap_search","ldap.ldap__search","ldap.ldap_search","ldap_search","ldap_search function [LDAP]","ldap_searchA","ldap_searchW","winldap/ldap_search","winldap/ldap_searchA","winldap/ldap_searchW"]
 old-location: ldap\ldap_search.htm
 tech.root: ldap
 ms.assetid: fe0d782b-8faf-4666-a952-e2bfd33f6d67
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: LDAP_SCOPE_BASE, LDAP_SCOPE_ONELEVEL, LDAP_SCOPE_SUBTREE, _ldap_ldap_search, ldap.ldap__search, ldap.ldap_search, ldap_search, ldap_search function [LDAP], ldap_searchA, ldap_searchW, winldap/ldap_search, winldap/ldap_searchA, winldap/ldap_searchW
 req.header: winldap.h
 req.include-header: 

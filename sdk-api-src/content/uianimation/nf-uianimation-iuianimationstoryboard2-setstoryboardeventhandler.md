@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.SetStoryboardEventHandler
 title: IUIAnimationStoryboard2::SetStoryboardEventHandler (uianimation.h)
-description: Specifies a handler for storyboard events.
+description: Specifies a handler for storyboard events. (IUIAnimationStoryboard2.SetStoryboardEventHandler)
 helpviewer_keywords: ["IUIAnimationStoryboard2 interface [Windows Animation]","SetStoryboardEventHandler method","IUIAnimationStoryboard2.SetStoryboardEventHandler","IUIAnimationStoryboard2::SetStoryboardEventHandler","SetStoryboardEventHandler","SetStoryboardEventHandler method [Windows Animation]","SetStoryboardEventHandler method [Windows Animation]","IUIAnimationStoryboard2 interface","uianimation.iuianimationstoryboard2_setstoryboardeventhandler","uianimation/IUIAnimationStoryboard2::SetStoryboardEventHandler"]
 old-location: uianimation\iuianimationstoryboard2_setstoryboardeventhandler.htm
 tech.root: UIAnimation
@@ -58,8 +58,7 @@ Specifies a handler for storyboard events.
 
 The handler that Windows Animation should call whenever storyboard status and update events occur.
             
-            The specified object must implement the
-            <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboardeventhandler2">IUIAnimationStoryboardEventHandler2</a> interface or be <b>NULL</b>. See Remarks for more info.
+The specified object must implement the <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboardeventhandler2">IUIAnimationStoryboardEventHandler2</a> interface or be <b>NULL</b>. See Remarks for more info.
 
 ### -param fRegisterStatusChangeForNextAnimationEvent [in]
 

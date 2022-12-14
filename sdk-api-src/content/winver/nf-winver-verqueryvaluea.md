@@ -1,7 +1,7 @@
 ---
 UID: NF:winver.VerQueryValueA
 title: VerQueryValueA function (winver.h)
-description: Retrieves specified version information from the specified version-information resource.
+description: Retrieves specified version information from the specified version-information resource. (ANSI)
 helpviewer_keywords: ["VerQueryValue","VerQueryValue function [Menus and Other Resources]","VerQueryValueA","VerQueryValueW","_win32_VerQueryValue","_win32_verqueryvalue_cpp","menurc.verqueryvalue","winui._win32_verqueryvalue","winver/VerQueryValue","winver/VerQueryValueA","winver/VerQueryValueW"]
 old-location: menurc\verqueryvalue.htm
 tech.root: menurc

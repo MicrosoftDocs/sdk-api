@@ -54,56 +54,7 @@ The <b>ITextStoreACPServices</b> interface is implemented by the TSF manager to 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextStoreACPServices</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITextStoreACPServices</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITextStoreACPServices</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itextstoreacpservices-createrange">CreateRange</a>
-</td>
-<td align="left" width="63%">
-Creates a range object from two ACP values.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itextstoreacpservices-forceloadproperty">ForceLoadProperty</a>
-</td>
-<td align="left" width="63%">
-Forces all values of an asynchronously loaded property to be loaded.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itextstoreacpservices-serialize">Serialize</a>
-</td>
-<td align="left" width="63%">
-Obtains a property from a range of text and writes the property data into a stream object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itextstoreacpservices-unserialize">Unserialize</a>
-</td>
-<td align="left" width="63%">
-Takes previously serialized property data and applies it to a property object.
-
-</td>
-</tr>
-</table>
+The <b>ITextStoreACPServices</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITextStoreACPServices</b> also has these types of members:
 
 ## -see-also
 

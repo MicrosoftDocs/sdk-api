@@ -64,6 +64,20 @@ Controls how the changes are committed to the storage object. See the
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | Changes to the storage object were successfully committed to the parent level. If STGC_CONSOLIDATE was specified, the storage was successfully consolidated, or the storage was already too compact to consolidate further.|
+|STG_S_MULTIPLEOPENS | The commit operation succeeded, but the storage could not be consolidated because it had been opened multiple times using the STGM_NOSNAPSHOT flag.|
+|STG_S_CANNOTCONSOLIDATE | The commit operation succeeded, but the storage could not be consolidated due to an incorrect storage mode. For compound files, the storage may have been opened using the STGM_NOSCRATCH flag, or the storage may not be the outermost transacted level.|
+|STG_S_CONSOLIDATIONFAILED | The commit operation succeeded, but the storage could not be consolidated due to an internal error (for example, a memory allocation failure).|
+|E_PENDING | Asynchronous storage only: Part or all of the data to be committed is currently unavailable.|
+|STG_E_INVALIDFLAG | The value for the *grfCommitFlags* parameter is not valid.|
+|STG_E_INVALIDPARAMETER | One of the parameters was not valid.|
+|STG_E_NOTCURRENT | Another open instance of the storage object has committed changes. As a result, the current commit operation may overwrite previous changes.|
+|STG_E_MEDIUMFULL | No space left on device to commit.|
+|STG_E_TOOMANYOPENFILES | The commit operation could not be completed because there are too many open files.|
+|STG_E_REVERTED | The storage object has been invalidated by a revert operation above it in the transaction tree.|
+
 ## -remarks
 
 <b>IStorage::Commit</b> makes permanent changes to a storage object that is in transacted mode, in which changes are accumulated in a buffer, and not reflected in the storage object until there is a call to this method. The alternative is to open an object in direct mode, in which changes are immediately reflected in the storage object. An object opened in the direct mode does not require calling <b>IStorage::Commit</b> to make permanent changes in the storage object. Calling the <b>IStorage::Commit</b> method on a nonroot storage opened in direct mode has no effect. Opening a root storage object in direct mode ensures that changes in memory buffers are written to the underlying storage device.

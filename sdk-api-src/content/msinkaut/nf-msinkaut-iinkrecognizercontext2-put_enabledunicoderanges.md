@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext2.put_EnabledUnicodeRanges
 title: IInkRecognizerContext2::put_EnabledUnicodeRanges (msinkaut.h)
-description: Gets or sets a set of one or more Unicode ranges that the recognizer context will support.
+description: Gets or sets a set of one or more Unicode ranges that the recognizer context will support. (Put)
 helpviewer_keywords: ["EnabledUnicodeRanges property [Tablet PC]","EnabledUnicodeRanges property [Tablet PC]","IInkRecognizerContext2 interface","IInkRecognizerContext2 interface [Tablet PC]","EnabledUnicodeRanges property","IInkRecognizerContext2.EnabledUnicodeRanges","IInkRecognizerContext2.get_EnabledUnicodeRanges","IInkRecognizerContext2.put_EnabledUnicodeRanges","IInkRecognizerContext2::EnabledUnicodeRanges","IInkRecognizerContext2::get_EnabledUnicodeRanges","IInkRecognizerContext2::put_EnabledUnicodeRanges","msinkaut/IInkRecognizerContext2::EnabledUnicodeRanges","msinkaut/IInkRecognizerContext2::get_EnabledUnicodeRanges","msinkaut/IInkRecognizerContext2::put_EnabledUnicodeRanges","put_EnabledUnicodeRanges","tablet.iinkrecognizercontext2_enabledunicoderanges"]
 old-location: tablet\iinkrecognizercontext2_enabledunicoderanges.htm
 tech.root: tablet

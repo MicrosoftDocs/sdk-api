@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.CharToOemBuffA
 title: CharToOemBuffA function (winuser.h)
-description: Translates a specified number of characters in a string into the OEM-defined character set.
+description: Translates a specified number of characters in a string into the OEM-defined character set. (ANSI)
 helpviewer_keywords: ["CharToOemBuff","CharToOemBuff function [Menus and Other Resources]","CharToOemBuffA","CharToOemBuffW","_win32_CharToOemBuff","_win32_chartooembuff_cpp","menurc.chartooembuff","winui._win32_chartooembuff","winuser/CharToOemBuff","winuser/CharToOemBuffA","winuser/CharToOemBuffW"]
 old-location: menurc\chartooembuff.htm
 tech.root: menurc
@@ -46,6 +46,7 @@ api_name:
  - CharToOemBuff
  - CharToOemBuffA
  - CharToOemBuffW
+req.apiset: ext-ms-win-ntuser-chartranslation-l1-1-0 (introduced in Windows 8)
 ---
 
 # CharToOemBuffA function

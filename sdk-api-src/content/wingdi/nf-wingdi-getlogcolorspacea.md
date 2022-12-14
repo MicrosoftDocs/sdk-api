@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.GetLogColorSpaceA
 title: GetLogColorSpaceA function (wingdi.h)
-description: The GetLogColorSpace function retrieves the color space definition identified by a specified handle.
+description: The GetLogColorSpace function retrieves the color space definition identified by a specified handle. (ANSI)
 helpviewer_keywords: ["GetLogColorSpace","GetLogColorSpace function [Windows Color System]","GetLogColorSpaceA","GetLogColorSpaceW","_color_GetLogColorSpace","wcs.getlogcolorspace","wingdi/GetLogColorSpace","wingdi/GetLogColorSpaceA","wingdi/GetLogColorSpaceW"]
 old-location: wcs\getlogcolorspace.htm
 tech.root: WCS
@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>GetLogColorSpace</b> function retrieves the <a href="/previous-versions/windows/desktop/wcs/c">color space</a> definition identified by a specified handle.
+The <b>GetLogColorSpace</b> function retrieves the [color space](/windows/win32/wcs/c#color-space) definition identified by a specified handle.
 
 ## -parameters
 
@@ -89,8 +89,5 @@ If this function fails, the return value is <b>FALSE</b>.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
-
-
-
-<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Functions](/windows/win32/wcs/functions)

@@ -54,30 +54,7 @@ Used to implement the batch work that is submitted through the activity created 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceCall</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceCall</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IServiceCall</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicecall-oncall">OnCall</a>
-</td>
-<td align="left" width="63%">
-Triggers the execution of the batch work implemented in this method.
-
-
-</td>
-</tr>
-</table>
+The <b>IServiceCall</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceCall</b> also has these types of members:
 
 ## -see-also
 

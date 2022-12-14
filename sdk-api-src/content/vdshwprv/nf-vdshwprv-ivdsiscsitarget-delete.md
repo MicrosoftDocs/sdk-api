@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiTarget.Delete
 title: IVdsIscsiTarget::Delete (vdshwprv.h)
-description: Deletes the target and all of its portal groups if no LUNs are associated with the target.
+description: The IVdsIscsiTarget::Delete (vdshwprv.h) method deletes the target and all of its portal groups if no LUNs are associated with the target.
 helpviewer_keywords: ["Delete","Delete method [VDS]","Delete method [VDS]","IVdsIscsiTarget interface","IVdsIscsiTarget interface [VDS]","Delete method","IVdsIscsiTarget.Delete","IVdsIscsiTarget::Delete","base.ivdsiscsitarget_delete","vds/IVdsIscsiTarget::Delete","vdshwprv/IVdsIscsiTarget::Delete"]
 old-location: base\ivdsiscsitarget_delete.htm
 tech.root: base
 ms.assetid: a66077bf-7a08-49f6-9a32-da99aa1d218c
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsIscsiTarget interface, IVdsIscsiTarget interface [VDS],Delete method, IVdsIscsiTarget.Delete, IVdsIscsiTarget::Delete, base.ivdsiscsitarget_delete, vds/IVdsIscsiTarget::Delete, vdshwprv/IVdsIscsiTarget::Delete
 req.header: vdshwprv.h
 req.include-header: 

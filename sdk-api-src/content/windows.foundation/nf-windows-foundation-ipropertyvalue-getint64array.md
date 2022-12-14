@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetInt64Array
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetInt64Array (windows.foundation.h)
 description: Gets the array of signed 64-bit integer values that is stored in the current IPropertyValue object.
 helpviewer_keywords: ["GetInt64Array","GetInt64Array method [Windows Runtime]","GetInt64Array method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetInt64Array method","IPropertyValue.GetInt64Array","IPropertyValue.IPropertyValue","IPropertyValue::GetInt64Array","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetInt64Array","winrt.ipropertyvalue_getint64array"]
 old-location: winrt\ipropertyvalue_getint64array.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValue.GetInt64Array
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetInt64Array (windows.foundation.h)
 
 
 ## -description
@@ -72,7 +72,7 @@ The returned pointer must be freed using <a href="/windows/desktop/api/combaseap
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

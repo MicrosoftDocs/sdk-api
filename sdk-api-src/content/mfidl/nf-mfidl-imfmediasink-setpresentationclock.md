@@ -57,7 +57,7 @@ Sets the presentation clock on the media sink.
 
 ### -param pPresentationClock [in]
 
-Pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a> interface of the presentation clock, or <b>NULL</b>. If the value is <b>NULL</b>, the media sink stops listening to the presentaton clock that was previously set, if any.
+Pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a> interface of the presentation clock, or <b>NULL</b>. If the value is <b>NULL</b>, the media sink stops listening to the presentation clock that was previously set, if any.
 
 ## -returns
 

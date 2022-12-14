@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.OpenEventLogW
 title: OpenEventLogW function (winbase.h)
-description: Opens a handle to the specified event log.
+description: Opens a handle to the specified event log. (Unicode)
 helpviewer_keywords: ["OpenEventLog","OpenEventLog function","OpenEventLogA","OpenEventLogW","_win32_openeventlog","base.openeventlog","winbase/OpenEventLog","winbase/OpenEventLogA","winbase/OpenEventLogW"]
 old-location: base\openeventlog.htm
 tech.root: base
@@ -48,6 +48,7 @@ api_name:
  - OpenEventLog
  - OpenEventLogA
  - OpenEventLogW
+req.apiset: ext-ms-win-advapi32-eventlog-ansi-l1-1-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # OpenEventLogW function

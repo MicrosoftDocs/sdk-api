@@ -54,30 +54,7 @@ Determines whether to construct a new context based on the current context or to
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceInheritanceConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceInheritanceConfig</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IServiceInheritanceConfig</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iserviceinheritanceconfig-containingcontexttreatment">ContainingContextTreatment</a>
-</td>
-<td align="left" width="63%">
-Determines whether the containing context is based on the current context.
-
-
-</td>
-</tr>
-</table>
+The <b>IServiceInheritanceConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceInheritanceConfig</b> also has these types of members:
 
 ## -see-also
 

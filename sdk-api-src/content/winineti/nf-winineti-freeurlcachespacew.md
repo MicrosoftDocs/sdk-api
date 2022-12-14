@@ -1,7 +1,7 @@
 ---
 UID: NF:winineti.FreeUrlCacheSpaceW
 title: FreeUrlCacheSpaceW function (winineti.h)
-description: Frees space in the cache.
+description: Frees space in the cache. (Unicode)
 helpviewer_keywords: ["FreeUrlCacheSpace","FreeUrlCacheSpace function [WinINet]","FreeUrlCacheSpaceA","FreeUrlCacheSpaceW","wininet.freeurlcachespace","winineti/FreeUrlCacheSpace","winineti/FreeUrlCacheSpaceA","winineti/FreeUrlCacheSpaceW"]
 old-location: wininet\freeurlcachespace.htm
 tech.root: wininet
@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Frees space in the cache.<div class="alert"><b>Note</b>  This API is deprecated. Please use the <a href="/previous-versions/windows/desktop/Gg269259(v=EXCHG.10)">Extensible Storage Engine</a> instead.</div>
 <div> </div>

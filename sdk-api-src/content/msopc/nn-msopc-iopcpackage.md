@@ -54,38 +54,7 @@ Represents a package and provides methods to access the package's parts and rela
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpcPackage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOpcPackage</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IOpcPackage</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpackage-getpartset">GetPartSet</a>
-</td>
-<td align="left" width="63%">
-Gets a part set object that contains <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpart">IOpcPart</a> interface pointers. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpackage-getrelationshipset">GetRelationshipSet</a>
-</td>
-<td align="left" width="63%">
-Gets a relationship set object that represents the Relationships part that stores package relationships.
-
-</td>
-</tr>
-</table>
+The <b>IOpcPackage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOpcPackage</b> also has these types of members:
 
 ## -remarks
 

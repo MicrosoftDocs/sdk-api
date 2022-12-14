@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceInstanceIdA
 title: SetupDiGetDeviceInstanceIdA function (setupapi.h)
-description: The SetupDiGetDeviceInstanceId function retrieves the device instance ID that is associated with a device information element.
+description: The SetupDiGetDeviceInstanceId function retrieves the device instance ID that is associated with a device information element. (ANSI)
 helpviewer_keywords: ["SetupDiGetDeviceInstanceId","SetupDiGetDeviceInstanceId function [Device and Driver Installation]","SetupDiGetDeviceInstanceIdA","SetupDiGetDeviceInstanceIdW","devinst.setupdigetdeviceinstanceid","di-rtns_f7f2bb12-37a0-489f-a1e7-0ca67600876c.xml","setupapi/SetupDiGetDeviceInstanceId"]
 old-location: devinst\setupdigetdeviceinstanceid.htm
 tech.root: devinst
@@ -52,6 +52,9 @@ api_name:
 ## -description
 
 The <b>SetupDiGetDeviceInstanceId</b> function retrieves the <a href="/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> that is associated with a device information element.
+
+> [!NOTE]
+> In Windows Vista and later versions of Windows, the [unified device property model](/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-) uses the [**DEVPKEY_Device_InstanceId**](/windows-hardware/drivers/install/devpkey-device-instanceid) [property key](/windows-hardware/drivers/install/property-keys) to represent the device instance identifier. See [Retrieving a Device Instance Identifier](/windows-hardware/drivers/install/retrieving-a-device-instance-identifier) for details.
 
 ## -parameters
 

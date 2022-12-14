@@ -1,7 +1,7 @@
 ---
 UID: NN:efswrtinterop.IProtectionPolicyManagerInterop
 title: IProtectionPolicyManagerInterop (efswrtinterop.h)
-description: Manages enterprise protection policy on protected content.
+description: Manages enterprise protection policy on protected content. (IProtectionPolicyManagerInterop)
 helpviewer_keywords: ["EDP.iprotectionpolicymanagerinterop","IProtectionPolicyManagerInterop","IProtectionPolicyManagerInterop interface","IProtectionPolicyManagerInterop interface","described","efswrtinterop/IProtectionPolicyManagerInterop interface"]
 old-location: edp\iprotectionpolicymanagerinterop.htm
 tech.root: EDP
@@ -55,35 +55,5 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProtectionPolicyManagerInterop</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProtectionPolicyManagerInterop interface</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IProtectionPolicyManagerInterop</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProtectionPolicyManagerInterop interface</b> also has these types of members:
 
-## -members
-
-The <b>IProtectionPolicyManagerInterop</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/efswrtinterop/nf-efswrtinterop-iprotectionpolicymanagerinterop-getforwindow">IProtectionPolicyManagerInterop::GetForWindow</a>
-</td>
-<td align="left" width="63%">
-Returns the protection policy manager object associated with the current app window.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/efswrtinterop/nf-efswrtinterop-iprotectionpolicymanagerinterop-requestaccessforwindowasync">IProtectionPolicyManagerInterop::RequestAccessForWindowAsync</a>
-</td>
-<td align="left" width="63%">
-Request access to enterprise protected content for an identity.
-
-</td>
-</tr>
-</table>

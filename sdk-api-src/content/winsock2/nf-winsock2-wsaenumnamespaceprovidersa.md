@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.WSAEnumNameSpaceProvidersA
 title: WSAEnumNameSpaceProvidersA function (winsock2.h)
-description: The WSAEnumNameSpaceProviders function retrieves information on available namespace providers.
+description: The WSAEnumNameSpaceProviders function retrieves information on available namespace providers. (ANSI)
 helpviewer_keywords: ["WSAEnumNameSpaceProviders","WSAEnumNameSpaceProviders function [Winsock]","WSAEnumNameSpaceProvidersA","WSAEnumNameSpaceProvidersW","_win32_wsaenumnamespaceproviders_2","winsock.wsaenumnamespaceproviders_2","winsock2/WSAEnumNameSpaceProviders","winsock2/WSAEnumNameSpaceProvidersA","winsock2/WSAEnumNameSpaceProvidersW"]
 old-location: winsock\wsaenumnamespaceproviders_2.htm
 tech.root: WinSock
@@ -119,7 +119,7 @@ There was insufficient memory to perform the operation.
 
 ## -remarks
 
-The <b>WSAEnumNameSpaceProviders</b>function returns information on available namespace providers in the buffer pointed to by the <i>lpnspBuffer</i> parameter. The returned buffer contains an array of <a href="/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infow">WSANAMESPACE_INFO</a> structures located consecutively at the head of the buffer. Variable sized information referenced by pointers in the <b>WSANAMESPACE_INFO</b> structures point to locations within the buffer located between the end of the fixed <b>WSANAMESPACE_INFO</b> structures and the end of the buffer. The number of <b>WSANAMESPACE_INFO</b> structures filled in is returned by the  
+The <b>WSAEnumNameSpaceProviders</b> function returns information on available namespace providers in the buffer pointed to by the <i>lpnspBuffer</i> parameter. The returned buffer contains an array of <a href="/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infow">WSANAMESPACE_INFO</a> structures located consecutively at the head of the buffer. Variable sized information referenced by pointers in the <b>WSANAMESPACE_INFO</b> structures point to locations within the buffer located between the end of the fixed <b>WSANAMESPACE_INFO</b> structures and the end of the buffer. The number of <b>WSANAMESPACE_INFO</b> structures filled in is returned by the  
 <b>WSAEnumNameSpaceProviders</b> function.
 
 Each <a href="/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infow">WSANAMESPACE_INFO</a>  structure entry contains the provider-specific information on the namespace entry

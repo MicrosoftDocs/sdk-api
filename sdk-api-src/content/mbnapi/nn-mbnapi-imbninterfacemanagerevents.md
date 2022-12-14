@@ -57,38 +57,7 @@ This notification interface signals an application about the arrival and removal
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnInterfaceManagerEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnInterfaceManagerEvents</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMbnInterfaceManagerEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfacemanagerevents-oninterfacearrival">OnInterfaceArrival</a>
-</td>
-<td align="left" width="63%">
-A new device was added to the system.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfacemanagerevents-oninterfaceremoval">OnInterfaceRemoval</a>
-</td>
-<td align="left" width="63%">
-A device was removed from the system.
-
-</td>
-</tr>
-</table>
+The <b>IMbnInterfaceManagerEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnInterfaceManagerEvents</b> also has these types of members:
 
 ## -remarks
 

@@ -58,13 +58,13 @@ This operator assigns the vector component data from one instance of <a href="/w
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Instance of <code>XMFLOAT3PK</code> used to update the current <code>XMFLOAT3PK</code> structure.
 
 ## -returns
 
-The current instance of <code>XMFLOAT3PK</code> whose vector component data has been updated to match those of the <code>XMFLOAT3PK</code> instance specified by the <b>float3pk</b>argument.
+The current instance of <code>XMFLOAT3PK</code> whose vector component data has been updated to match those of the <code>XMFLOAT3PK</code> instance specified by the <b>float3pk</b> argument.
 
 ## -see-also
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsHwProvider.QuerySubSystems
 title: IVdsHwProvider::QuerySubSystems (vds.h)
-description: Returns an enumeration of the subsystems managed by the provider.
+description: The IVdsHwProvider::QuerySubSystems method (vds.h) returns an enumeration of the subsystems managed by the provider.
 helpviewer_keywords: ["IVdsHwProvider interface [VDS]","QuerySubSystems method","IVdsHwProvider.QuerySubSystems","IVdsHwProvider::QuerySubSystems","QuerySubSystems","QuerySubSystems method [VDS]","QuerySubSystems method [VDS]","IVdsHwProvider interface","base.ivdshwprovider_querysubsystems","vds/IVdsHwProvider::QuerySubSystems","vdshwprv/IVdsHwProvider::QuerySubSystems"]
 old-location: base\ivdshwprovider_querysubsystems.htm
 tech.root: base
 ms.assetid: ae327655-3db9-44b0-934a-458ee90b1d07
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsHwProvider interface [VDS],QuerySubSystems method, IVdsHwProvider.QuerySubSystems, IVdsHwProvider::QuerySubSystems, QuerySubSystems, QuerySubSystems method [VDS], QuerySubSystems method [VDS],IVdsHwProvider interface, base.ivdshwprovider_querysubsystems, vds/IVdsHwProvider::QuerySubSystems, vdshwprv/IVdsHwProvider::QuerySubSystems
 req.header: vds.h
 req.include-header: 
@@ -145,7 +145,7 @@ The initialization method has not been called.
 The returned object enumerates all subsystems currently connected to the network. Use the 
    <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate">IVdsHwProvider::Reenumerate</a> method to 
     discover new subsystems. Use the 
-    <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">IVdsHwProvider::Refresh</a>method to refresh the 
+    <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">IVdsHwProvider::Refresh</a> method to refresh the 
     internally-cached provider data for existing subsystems.
 
 ## -see-also

@@ -50,51 +50,11 @@ api_name:
 
 ## -description
 
-Exposes methods that enable an application to interact with groups of windows that form virtual workspaces.
+Exposes methods that enable an application to interact with groups of windows that form virtual workspaces. This interface is implemented by <a href="/windows/desktop/shell/virtualdesktopmanager">VirtualDesktopManager</a>, a COM class identified by CLSID_VirtualDesktopManager. Use CoCreateInstance(CLSID_VirtualDesktopManager) to get an instance of this object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVirtualDesktopManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVirtualDesktopManager</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVirtualDesktopManager</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ivirtualdesktopmanager-getwindowdesktopid">GetWindowDesktopId</a>
-</td>
-<td align="left" width="63%">
-Gets the identifier for the virtual desktop hosting the provided top-level window.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ivirtualdesktopmanager-iswindowoncurrentvirtualdesktop">IsWindowOnCurrentVirtualDesktop</a>
-</td>
-<td align="left" width="63%">
-Indicates whether the provided window is on the currently active virtual desktop.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ivirtualdesktopmanager-movewindowtodesktop">MoveWindowToDesktop</a>
-</td>
-<td align="left" width="63%">
-Moves a window to the specified virtual desktop.
-
-</td>
-</tr>
-</table>
+The <b>IVirtualDesktopManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVirtualDesktopManager</b> also has these types of members:
 
 ## -remarks
 

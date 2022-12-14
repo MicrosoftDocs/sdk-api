@@ -1,7 +1,7 @@
 ---
 UID: NF:shellapi.SHQueryRecycleBinA
 title: SHQueryRecycleBinA function (shellapi.h)
-description: Retrieves the size of the Recycle Bin and the number of items in it, for a specified drive.
+description: Retrieves the size of the Recycle Bin and the number of items in it, for a specified drive. (ANSI)
 helpviewer_keywords: ["SHQueryRecycleBin","SHQueryRecycleBin function [Windows Shell]","SHQueryRecycleBinA","SHQueryRecycleBinW","_win32_SHQueryRecycleBin","shell.SHQueryRecycleBin","shellapi/SHQueryRecycleBin","shellapi/SHQueryRecycleBinA","shellapi/SHQueryRecycleBinW"]
 old-location: shell\SHQueryRecycleBin.htm
 tech.root: shell
@@ -72,7 +72,7 @@ The address of a <a href="/windows/desktop/api/shellapi/ns-shellapi-shqueryrbinf
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRectangle.put_Left
 title: IInkRectangle::put_Left (msinkaut.h)
-description: Gets or sets the left position of the InkRectangle object.
+description: Gets or sets the left position of the InkRectangle object. (Put)
 helpviewer_keywords: ["88f0d919-43d0-408f-97f8-1410b2833269","IInkRectangle interface [Tablet PC]","Left property","IInkRectangle.Left","IInkRectangle.put_Left","IInkRectangle::Left","IInkRectangle::get_Left","IInkRectangle::put_Left","InkRectangle.get_Left","InkRectangle.put_Left","Left property [Tablet PC]","Left property [Tablet PC]","IInkRectangle interface","get_Left","msinkaut/IInkRectangle::Left","msinkaut/IInkRectangle::get_Left","msinkaut/IInkRectangle::put_Left","put_Left","tablet.inkrectangle_left"]
 old-location: tablet\inkrectangle_left.htm
 tech.root: tablet
@@ -73,7 +73,7 @@ The default value of this property is 0.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846804(v=VS.85).aspx">IInkRectangle</a>
+<a href="../msinkaut/nn-msinkaut-iinkrectangle.md">IInkRectangle</a>
 
 
 

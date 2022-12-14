@@ -1,7 +1,7 @@
 ---
 UID: NN:shdeprecated.IBrowserService3
 title: IBrowserService3 (shdeprecated.h)
-description: Deprecated.
+description: Deprecated. (IBrowserService3)
 helpviewer_keywords: ["IBrowserService3","IBrowserService3 interface [Windows Shell]","IBrowserService3 interface [Windows Shell]","described","shdeprecated/IBrowserService3","shell.IBrowserService3","zone_IBrowserService3"]
 old-location: shell\IBrowserService3.htm
 tech.root: shell
@@ -55,38 +55,7 @@ Deprecated. The methods exposed by this interface are analogous to virtual prote
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBrowserService3</b> interface inherits from <a href="/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice2">IBrowserService2</a>. <b>IBrowserService3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IBrowserService3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice3-_positionviewwindow">_PositionViewWindow</a>
-</td>
-<td align="left" width="63%">
-Deprecated. Used in view size negotiations. This method is called by <a href="/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_updateviewrectsize">_UpdateViewRectSize</a> after determining the available dimensions.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice3-ieparsedisplaynameex">IEParseDisplayNameEx</a>
-</td>
-<td align="left" width="63%">
-Deprecated. Parses a URL into a PIDL.
-
-</td>
-</tr>
-</table>
+The <b>IBrowserService3</b> interface inherits from <a href="/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice2">IBrowserService2</a>. <b>IBrowserService3</b> also has these types of members:
 
 ## -remarks
 

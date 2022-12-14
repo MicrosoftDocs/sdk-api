@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_Priority
 title: ITaskSettings::put_Priority (taskschd.h)
-description: Gets or sets the priority level of the task.
+description: Gets or sets the priority level of the task. (Put)
 helpviewer_keywords: ["ITaskSettings interface [Task Scheduler]","Priority property","ITaskSettings.Priority","ITaskSettings.put_Priority","ITaskSettings::Priority","ITaskSettings::get_Priority","ITaskSettings::put_Priority","Priority property [Task Scheduler]","Priority property [Task Scheduler]","ITaskSettings interface","put_Priority","taskschd.itasksettings_priority","taskschd/ITaskSettings::Priority","taskschd/ITaskSettings::get_Priority","taskschd/ITaskSettings::put_Priority"]
 old-location: taskschd\itasksettings_priority.htm
 tech.root: taskschd
@@ -47,8 +47,6 @@ api_name:
  - ITaskSettings.put_Priority
 ---
 
-# ITaskSettings::put_Priority
-
 
 ## -description
 
@@ -62,7 +60,7 @@ This property is read/write.
 
 Priority level 0 is the highest priority, and priority level 10 is the lowest priority. The default value is 7. Priority levels 7 and 8 are used for background tasks, and priority levels 4, 5, and 6 are used for interactive tasks.
 
-The task's action is started in a process with a priority that is based on a Priority Class value. A Priority Level value (thread priority) is used for COM handler, message box, and email task actions. For more information about the Priority Class and Priority Level values, see <a href="/windows/desktop/ProcThread/scheduling-priorities">Scheduling Priorities</a>. The following table lists the possible values for the <i>priority</i> parameter, and the corresponding Priority Class and Priority Level values.
+The task's action is started in a process with a priority that is based on a Priority Class value. A Priority Level value (thread priority) is used for COM handler, message box, and email task actions. For more information about the Priority Class and Priority Level values, see <a href="/windows/win32/ProcThread/scheduling-priorities">Scheduling Priorities</a>. This value also impacts the memory priority (see [**MEMORY_PRIORITY_INFORMATION**](/windows/win32/api/processthreadsapi/ns-processthreadsapi-memory_priority_information)). The following table lists the possible values for the <i>priority</i> parameter, and the corresponding Priority Class and Priority Level values.
 
 <table>
 <tr>
@@ -127,9 +125,10 @@ The task's action is started in a process with a priority that is based on a Pri
 </tr>
 </table>
  
+Task priority 4 corresponds to memory priority `MEMORY_PRIORITY_NORMAL(5)`, 5 to `MEMORY_PRIORITY_BELOW_NORMAL(4)` and 6 to `MEMORY_PRIORITY_MEDIUM(3)`.
 
-When reading or writing XML for a task, this setting is specified in the <a href="/windows/desktop/TaskSchd/taskschedulerschema-priority-settingstype-element">Priority (settingsType)</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, this setting is specified in the <a href="/windows/win32/TaskSchd/taskschedulerschema-priority-settingstype-element">Priority (settingsType)</a> element of the Task Scheduler schema.
 
 ## -see-also
 
-<a href="/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
+<a href="/windows/win32/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>

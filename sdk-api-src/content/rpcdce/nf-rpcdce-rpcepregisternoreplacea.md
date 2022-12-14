@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcEpRegisterNoReplaceA
 title: RpcEpRegisterNoReplaceA function (rpcdce.h)
-description: The RpcEpRegisterNoReplace function adds server-address information to the local endpoint-map database.
+description: The RpcEpRegisterNoReplace function adds server-address information to the local endpoint-map database. (RpcEpRegisterNoReplaceA)
 helpviewer_keywords: ["RpcEpRegisterNoReplace","RpcEpRegisterNoReplace function [RPC]","RpcEpRegisterNoReplaceA","RpcEpRegisterNoReplaceW","_rpc_rpcepregisternoreplace","rpc.rpcepregisternoreplace","rpcdce/RpcEpRegisterNoReplace","rpcdce/RpcEpRegisterNoReplaceA","rpcdce/RpcEpRegisterNoReplaceW"]
 old-location: rpc\rpcepregisternoreplace.htm
 tech.root: Rpc

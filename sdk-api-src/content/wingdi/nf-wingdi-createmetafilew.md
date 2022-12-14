@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.CreateMetaFileW
 title: CreateMetaFileW function (wingdi.h)
-description: The CreateMetaFile function creates a device context for a Windows-format metafile.
+description: The CreateMetaFile function creates a device context for a Windows-format metafile. (Unicode)
 helpviewer_keywords: ["CreateMetaFile","CreateMetaFile function [Windows GDI]","CreateMetaFileA","CreateMetaFileW","_win32_CreateMetaFile","gdi.createmetafile","wingdi/CreateMetaFile","wingdi/CreateMetaFileA","wingdi/CreateMetaFileW"]
 old-location: gdi\createmetafile.htm
 tech.root: gdi

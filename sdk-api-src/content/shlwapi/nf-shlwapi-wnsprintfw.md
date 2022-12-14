@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.wnsprintfW
 title: wnsprintfW function (shlwapi.h)
-description: Takes a variable-length argument list and returns the values of the arguments as a printf-style formatted string.
+description: Takes a variable-length argument list and returns the values of the arguments as a printf-style formatted string. (Unicode)
 helpviewer_keywords: ["_win32_wnsprintf","shell.wnsprintf","shlwapi/wnsprintf","shlwapi/wnsprintfA","shlwapi/wnsprintfW","wnsprintf","wnsprintf function [Windows Shell]","wnsprintfA","wnsprintfW"]
 old-location: shell\wnsprintf.htm
 tech.root: shell
@@ -77,7 +77,7 @@ Type: <b>PCTSTR</b>
 
 A <a href="/windows/desktop/direct3dhlsl/printf">printf</a>-style format string. The %s format identifier should never be used in an unbounded form. To avoid potential buffer overruns, always specify a size; for instance "%32s".
 
-### -param arg4 [in]
+### -param ...
 
 Additional parameters that contain the data to be output.
 
@@ -98,3 +98,4 @@ This is a Windows version of <a href="/previous-versions/visualstudio/visual-stu
 
 > [!NOTE]
 > The shlwapi.h header defines wnsprintf as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

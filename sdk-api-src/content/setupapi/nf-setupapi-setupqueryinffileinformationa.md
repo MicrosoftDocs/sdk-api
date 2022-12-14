@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupQueryInfFileInformationA
 title: SetupQueryInfFileInformationA function (setupapi.h)
-description: The SetupQueryInfFileInformation function returns an INF filename from an SP_INF_INFORMATION structure to a buffer.
+description: The SetupQueryInfFileInformation function returns an INF filename from an SP_INF_INFORMATION structure to a buffer. (ANSI)
 helpviewer_keywords: ["SetupQueryInfFileInformation","SetupQueryInfFileInformation function [Setup API]","SetupQueryInfFileInformationA","SetupQueryInfFileInformationW","_setupapi_setupqueryinffileinformation","setup.setupqueryinffileinformation","setupapi/SetupQueryInfFileInformation","setupapi/SetupQueryInfFileInformationA","setupapi/SetupQueryInfFileInformationW"]
 old-location: setup\setupqueryinffileinformation.htm
 tech.root: setup

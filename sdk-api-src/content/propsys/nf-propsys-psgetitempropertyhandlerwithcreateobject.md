@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.PSGetItemPropertyHandlerWithCreateObject
 title: PSGetItemPropertyHandlerWithCreateObject function (propsys.h)
-description: Retrieves a property handler for a Shell item.
+description: Retrieves a property handler for a Shell item. (PSGetItemPropertyHandlerWithCreateObject)
 helpviewer_keywords: ["PSGetItemPropertyHandlerWithCreateObject","PSGetItemPropertyHandlerWithCreateObject function [Windows Properties]","_shell_PSGetItemPropertyHandlerWithCreateObject","properties.PSGetItemPropertyHandlerWithCreateObject","propsys/PSGetItemPropertyHandlerWithCreateObject","shell.PSGetItemPropertyHandlerWithCreateObject"]
 old-location: properties\PSGetItemPropertyHandlerWithCreateObject.htm
 tech.root: properties
@@ -102,10 +102,7 @@ This function is supported in Windows XP as part of the Microsoft Windows Desk
 
 This function is approximately equivalent to passing the GPS_HANDLERPROPERTIESONLY flag to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem2-getpropertystorewithcreateobject">IShellItem2::GetPropertyStoreWithCreateObject</a>.
 
-The <i>punkCreateObject</i> parameter enables the creation of a property store in a different context than that of the caller. For instance, the <a href="/windows/desktop/api/propsys/nn-propsys-icreateobject">ICreateObject</a> implementation can cause the property store to be created in another process. This parameter is used only for property handlers that support it and that are registered under 
-
-                
-                   <b>HKEY_LOCAL_MACHINE</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b>&#92;<b>Windows</b>&#92;<b>CurrentVersion</b>&#92;<b>PropertySystem</b>&#92;<b>PropertyHandlers</b>
+The <i>punkCreateObject</i> parameter enables the creation of a property store in a different context than that of the caller. For instance, the <a href="/windows/desktop/api/propsys/nn-propsys-icreateobject">ICreateObject</a> implementation can cause the property store to be created in another process. This parameter is used only for property handlers that support it and that are registered under `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\PropertySystem\PropertyHandlers`.
 
 You must initialize Component Object Model (COM) with <a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="/windows/desktop/api/ole2/nf-ole2-oleinitialize">OleInitialize</a> before you call <a href="/windows/desktop/api/propsys/nf-propsys-psgetitempropertyhandlerwithcreateobject">PSGetItemPropertyHandlerWithCreateObject</a>. COM must remain initialized for the lifetime of this object.
 

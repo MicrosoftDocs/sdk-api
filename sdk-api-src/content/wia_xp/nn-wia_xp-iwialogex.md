@@ -1,7 +1,7 @@
 ---
 UID: NN:wia_xp.IWiaLogEx
 title: IWiaLogEx (wia_xp.h)
-description: This interface is not supported.
+description: This interface is not supported. (IWiaLogEx)
 helpviewer_keywords: ["IWiaLogEx","IWiaLogEx interface [WIA]","IWiaLogEx interface [WIA]","described","_wia_IWiaLogEx","wia._wia_IWiaLogEx","wia_xp/IWiaLogEx"]
 old-location: wia\_wia_IWiaLogEx.htm
 tech.root: wia
@@ -54,62 +54,5 @@ This interface is not supported.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaLogEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaLogEx</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWiaLogEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaLogEx</b> also has these types of members:
 
-## -members
-
-The <b>IWiaLogEx</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-hresult">hResult</a>
-</td>
-<td align="left" width="63%">
-Not currently supported.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-hresultex">hResultEx</a>
-</td>
-<td align="left" width="63%">
-Not currently supported.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-initializelogex">InitializeLogEx</a>
-</td>
-<td align="left" width="63%">
-Not currently supported.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-log">Log</a>
-</td>
-<td align="left" width="63%">
-Not currently supported.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-logex">LogEx</a>
-</td>
-<td align="left" width="63%">
-Not currently supported.
-
-</td>
-</tr>
-</table>

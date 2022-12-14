@@ -54,47 +54,7 @@ Handles manipulation and inertia events.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">_IManipulationEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>_IManipulationEvents</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>_IManipulationEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a>
-</td>
-<td align="left" width="63%">
-Handles the event when manipulation or inertia finishes.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationdelta">ManipulationDelta</a>
-</td>
-<td align="left" width="63%">
-Handles events that happen when a manipulated object changes.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationstarted">ManipulationStarted</a>
-</td>
-<td align="left" width="63%">
-Handles the event when manipulation or inertia begins.
-
-</td>
-</tr>
-</table>
+The <b>_IManipulationEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>_IManipulationEvents</b> also has these types of members:
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["CreateCryptoSession","CreateCryptoSession method [Media F
 old-location: mf\idirect3ddevice9video_createcryptosession.htm
 tech.root: mf
 ms.assetid: 1c0e3aa4-94d5-4398-a6c0-5466a437162d
-ms.date: 12/05/2018
+ms.date: 11/19/2020
 ms.keywords: CreateCryptoSession, CreateCryptoSession method [Media Foundation], CreateCryptoSession method [Media Foundation],IDirect3DDevice9Video interface, D3DCRYPTOTYPE_AES128_CTR, D3DCRYPTOTYPE_PROPRIETARY, IDirect3DDevice9Video interface [Media Foundation],CreateCryptoSession method, IDirect3DDevice9Video.CreateCryptoSession, IDirect3DDevice9Video::CreateCryptoSession, d3d9/IDirect3DDevice9Video::CreateCryptoSession, mf.idirect3ddevice9video_createcryptosession
 req.header: d3d9.h
 req.include-header: 
@@ -58,13 +58,18 @@ Creates a cryptographic session to encrypt video content that is sent to the dis
 
 Pointer to a GUID that specifies the type of encryption to use. The following GUIDs are defined.
 
+**pDecodeProfile**
 
+Type: **GUID** 
 
-##### )
+A pointer to a GUID that specifies the DirectX Video Acceleration 2 (DXVA-2) decoding profile. For a list of possible values, see IDirectXVideoDecoderService::GetDecoderDeviceGuids. If DXVA-2 decoding will not be used, set this parameter to NULL. 
 
+**pCaps** 
 
+Type: **D3DCONTENTPROTECTIONCAPS**
 
-##### )
+ A pointer to a D3DCONTENTPROTECTIONCAPS structure. The method fills in this structure with the driver's content protection capabilities. 
+
 
 ### -param pDecodeProfile
 
@@ -80,7 +85,7 @@ Receives a handle for the session.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -54,44 +54,5 @@ Used by a dynamic virtual channel plug-in to render bitmaps. This interface is i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSBitmapRenderer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSBitmapRenderer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWTSBitmapRenderer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSBitmapRenderer</b> also has these types of members:
 
-## -members
-
-The <b>IWTSBitmapRenderer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsbitmaprenderer-getrendererstatistics">GetRendererStatistics</a>
-</td>
-<td align="left" width="63%">
-Retrieves statistics for the RemoteFX media redirection bitmap renderer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsbitmaprenderer-removemapping">RemoveMapping</a>
-</td>
-<td align="left" width="63%">
-Called by a dynamic virtual channel plug-in to remove a render mapping.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsbitmaprenderer-render">Render</a>
-</td>
-<td align="left" width="63%">
-Called by a dynamic virtual channel plug-in to render bitmaps.
-
-</td>
-</tr>
-</table>

@@ -58,7 +58,7 @@ The DLL entry point name for this method must be
 
 ## -parameters
 
-### -param *requestDetails [in]
+### -param requestDetails [in]
 
 A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> 
       structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.

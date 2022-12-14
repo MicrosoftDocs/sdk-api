@@ -66,26 +66,8 @@ To obtain a pointer to this interface, first make sure that the media graph is i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IISDB_SDT</b> interface inherits from <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_sdt">IDVB_SDT</a>. <b>IISDB_SDT</b> also has these types of members:
+The <b>IISDB_SDT</b> interface inherits from <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_sdt">IDVB_SDT</a>. <b>IISDB_SDT</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IISDB_SDT</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_sdt-getrecordeituserdefinedflags">GetRecordEITUserDefinedFlags</a>
-</td>
-<td align="left" width="63%">
-Returns the EIT_user_defined_flags field value from an SDT.
-
-</td>
-</tr>
-</table>

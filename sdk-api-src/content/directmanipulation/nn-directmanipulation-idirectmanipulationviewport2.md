@@ -54,47 +54,7 @@ Provides management of behaviors on a viewport. A behavior affects the functiona
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectManipulationViewport2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>. <b>IDirectManipulationViewport2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDirectManipulationViewport2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport2-addbehavior">AddBehavior</a>
-</td>
-<td align="left" width="63%">
-Adds a behavior to the viewport and returns a cookie to the caller.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport2-removeallbehaviors">RemoveAllBehaviors</a>
-</td>
-<td align="left" width="63%">
-Removes all behaviors added to the viewport.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport2-removebehavior">RemoveBehavior</a>
-</td>
-<td align="left" width="63%">
-Removes a behavior from the viewport that matches the given cookie.
-
-</td>
-</tr>
-</table>
+The <b>IDirectManipulationViewport2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>. <b>IDirectManipulationViewport2</b> also has these types of members:
 
 ## -remarks
 

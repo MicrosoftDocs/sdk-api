@@ -45,33 +45,7 @@ Provides methods for getting information about the parameters to the call to [ID
 
 ## -inheritance
 
-**ID3D12VideoProcessor** interits from [ID3D12Pageable](/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable).
-
-## -members
-
-<p>ID3D12VideoProcessor has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>GetNodeMask</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetNumInputStreamDescs</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetInputStreamDescs</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetOutputStreamDesc</td>
-		<td>TBD</td>
-	</tr>
-</table>
+**ID3D12VideoProcessor** inherits from [ID3D12Pageable](/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable).
 
 ## -remarks
 

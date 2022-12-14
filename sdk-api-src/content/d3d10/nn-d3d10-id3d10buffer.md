@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10.ID3D10Buffer
 title: ID3D10Buffer (d3d10.h)
-description: A buffer interface accesses a buffer resource, which is unstructured memory. Buffers typically store vertex or index data.
+description: A buffer interface accesses a buffer resource, which is unstructured memory. Buffers typically store vertex or index data. (ID3D10Buffer)
 helpviewer_keywords: ["8a6172fe-deac-4b70-fb31-07255d702e32","ID3D10Buffer","ID3D10Buffer interface [Direct3D 10]","ID3D10Buffer interface [Direct3D 10]","described","d3d10/ID3D10Buffer","direct3d10.id3d10buffer"]
 old-location: direct3d10\id3d10buffer.htm
 tech.root: direct3d10
@@ -55,47 +55,7 @@ A buffer interface accesses a <a href="/windows/desktop/direct3d10/d3d10-graphic
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Buffer</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>. <b>ID3D10Buffer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D10Buffer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10buffer-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Get the properties of a buffer resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10buffer-map">Map</a>
-</td>
-<td align="left" width="63%">
-Get a pointer to the data contained in the resource and deny GPU access to the resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10buffer-unmap">Unmap</a>
-</td>
-<td align="left" width="63%">
-Invalidate the pointer to the resource retrieved by <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10buffer-map">ID3D10Buffer::Map</a> and reenable GPU access to the resource.
-
-</td>
-</tr>
-</table>
+The <b>ID3D10Buffer</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>. <b>ID3D10Buffer</b> also has these types of members:
 
 ## -remarks
 

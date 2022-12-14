@@ -1,12 +1,12 @@
 ---
 UID: NN:propidlbase.IPropertyStorage
 title: IPropertyStorage (propidlbase.h)
-description: The IPropertyStorage interface manages the persistent properties of a single property set.
+description: The IPropertyStorage interface manages the persistent properties of a single property set. (IPropertyStorage interface)
 helpviewer_keywords: ["IPropertyStorage","IPropertyStorage interface [Structured Storage]","IPropertyStorage interface [Structured Storage]","described","_stg_ipropertystorage","propidl/IPropertyStorage","stg.ipropertystorage"]
 old-location: stg\ipropertystorage.htm
 tech.root: Stg
 ms.assetid: c021f695-db54-4861-9f30-35a81d2dccd5
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: IPropertyStorage, IPropertyStorage interface [Structured Storage], IPropertyStorage interface [Structured Storage],described, _stg_ipropertystorage, propidl/IPropertyStorage, stg.ipropertystorage
 req.header: propidlbase.h
 req.include-header: Objbase.h, Propidlbase.h
@@ -70,128 +70,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyStorage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyStorage</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPropertyStorage</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-commit">Commit</a>
-</td>
-<td align="left" width="63%">
-As in <a href="/windows/desktop/api/objidl/nf-objidl-istorage-commit">IStorage::Commit</a>, flushes or commits changes to the property storage object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-deletemultiple">DeleteMultiple</a>
-</td>
-<td align="left" width="63%">
-Deletes properties in a property set.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-deletepropertynames">DeletePropertyNames</a>
-</td>
-<td align="left" width="63%">
-Deletes string names for given property identifiers.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-enum">Enum</a>
-</td>
-<td align="left" width="63%">
-Creates and gets a pointer to an enumerator for properties within this set.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-readmultiple">ReadMultiple</a>
-</td>
-<td align="left" width="63%">
-Reads property values in a property set.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-readpropertynames">ReadPropertyNames</a>
-</td>
-<td align="left" width="63%">
-Gets corresponding string names for given property identifiers.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-revert">Revert</a>
-</td>
-<td align="left" width="63%">
-When the property storage is opened in transacted mode, discards all changes since the last commit.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-setclass">SetClass</a>
-</td>
-<td align="left" width="63%">
-Assigns a CLSID to the property set.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-settimes">SetTimes</a>
-</td>
-<td align="left" width="63%">
-Sets modification, creation, and access times for the property set.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-stat">Stat</a>
-</td>
-<td align="left" width="63%">
-Receives statistics about this property set.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writemultiple">WriteMultiple</a>
-</td>
-<td align="left" width="63%">
-Writes property values in a property set.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writepropertynames">WritePropertyNames</a>
-</td>
-<td align="left" width="63%">
-Creates or changes string names corresponding to given property identifiers.
-
-</td>
-</tr>
-</table>
+The <b>IPropertyStorage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyStorage</b> also has these types of members:
 
 ## -see-also
 

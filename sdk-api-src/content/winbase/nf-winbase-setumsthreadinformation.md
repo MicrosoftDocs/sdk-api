@@ -44,6 +44,7 @@ api_location:
  - API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
  - SetUmsThreadInformation
+req.apiset: api-ms-win-core-ums-l1-1-0 (introduced in Windows 7)
 ---
 
 # SetUmsThreadInformation function
@@ -52,6 +53,9 @@ api_name:
 ## -description
 
 Sets application-specific context information for the specified user-mode scheduling (UMS) worker thread.
+
+> [!WARNING]
+> As of Windows 11, user-mode scheduling is not supported. All calls fail with the error `ERROR_NOT_SUPPORTED`.
 
 ## -parameters
 
@@ -103,6 +107,14 @@ The buffer size does not match the  required size for the specified information 
 The <i>UmsThreadInfoClass</i> parameter specifies an information class that is not supported.
 
 </td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_SUPPORTED</b></dt>
+</dl>
+</td>
+<td width="60%">UMS is not supported.</td>
 </tr>
 </table>
 

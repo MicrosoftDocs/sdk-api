@@ -53,7 +53,7 @@ api_name:
 
 The <b>Region::MakeEmpty</b> method updates this region to an empty region. In other words, the region occupies no space on the display device.
 
-## -parameters
+
 
 ## -returns
 

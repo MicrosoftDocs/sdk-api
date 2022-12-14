@@ -69,7 +69,7 @@ A pointer to a buffer to receive the information class data for the requested LS
 
 ### -param InfoSize [in, out]
 
-The size, in bytes, of the buffer pointed to by the <i>Info </i>parameter. If the Info parameter is **NULL**, then  **WSCGetProviderInfo** returns failure and the <i>InfoSize</i> parameter will receive the size of the required buffer.
+The size, in bytes, of the buffer pointed to by the <i>Info </i> parameter. If the Info parameter is **NULL**, then  **WSCGetProviderInfo** returns failure and the <i>InfoSize</i> parameter will receive the size of the required buffer.
 
 ### -param Flags [in]
 

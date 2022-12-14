@@ -1,12 +1,12 @@
 ---
 UID: NN:vdshwprv.IVdsProviderSupport
 title: IVdsProviderSupport (vdshwprv.h)
-description: Provides a method to indicate what versions of the VDS interfaces are supported by the provider.
+description: The IVdsProviderSupport interface (vdshwprv.h) provides a method to indicate what versions of the VDS interfaces are supported by the provider. 
 helpviewer_keywords: ["IVdsProviderSupport","IVdsProviderSupport interface","IVdsProviderSupport interface","described","base.ivdsprovidersupport","vds/IVdsProviderSupport","vdshwprv/IVdsProviderSupport"]
 old-location: base\ivdsprovidersupport.htm
 tech.root: base
 ms.assetid: 74e17a86-75ec-429b-9efb-80812ca4b431
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsProviderSupport, IVdsProviderSupport interface, IVdsProviderSupport interface,described, base.ivdsprovidersupport, vds/IVdsProviderSupport, vdshwprv/IVdsProviderSupport
 req.header: vdshwprv.h
 req.include-header: 
@@ -58,29 +58,7 @@ Provides a method
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsProviderSupport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsProviderSupport</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVdsProviderSupport</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsprovidersupport-getversionsupport">GetVersionSupport</a>
-</td>
-<td align="left" width="63%">
-Returns a bitmask of values enumerated by 
-     <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_version_support_flag">VDS_VERSION_SUPPORT_FLAG</a> indicating the 
-     versions of the VDS interfaces supported by this provider.</p> (Inherited from <b>IVdsProviderSupport</b>)</td>
-</tr>
-</table>
+The <b>IVdsProviderSupport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsProviderSupport</b> also has these types of members:
 
 ## -see-also
 

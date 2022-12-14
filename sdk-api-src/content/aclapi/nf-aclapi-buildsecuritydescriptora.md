@@ -1,7 +1,7 @@
 ---
 UID: NF:aclapi.BuildSecurityDescriptorA
 title: BuildSecurityDescriptorA function (aclapi.h)
-description: Allocates and initializes a new security descriptor.
+description: Allocates and initializes a new security descriptor. (ANSI)
 helpviewer_keywords: ["BuildSecurityDescriptor","BuildSecurityDescriptor function [Security]","BuildSecurityDescriptorA","BuildSecurityDescriptorW","_win32_buildsecuritydescriptor","aclapi/BuildSecurityDescriptor","aclapi/BuildSecurityDescriptorA","aclapi/BuildSecurityDescriptorW","security.buildsecuritydescriptor"]
 old-location: security\buildsecuritydescriptor.htm
 tech.root: security

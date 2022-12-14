@@ -70,56 +70,7 @@ The following properties return this interface:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmMutableCollection</b> interface inherits from <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>. <b>IFsrmMutableCollection</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IFsrmMutableCollection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmmutablecollection-add">Add</a>
-</td>
-<td align="left" width="63%">
-Adds an object to the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmmutablecollection-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a duplicate <b>IFsrmMutableCollection</b> collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmmutablecollection-remove">Remove</a>
-</td>
-<td align="left" width="63%">
-Removes the specified object from the collection using an index value.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmmutablecollection-removebyid">RemoveById</a>
-</td>
-<td align="left" width="63%">
-Removes the specified object from the collection using an object identifier.
-
-</td>
-</tr>
-</table>
+The <b>IFsrmMutableCollection</b> interface inherits from <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>. <b>IFsrmMutableCollection</b> also has these types of members:
 
 ## -see-also
 

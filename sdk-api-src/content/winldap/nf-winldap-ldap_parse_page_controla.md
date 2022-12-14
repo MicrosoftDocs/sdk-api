@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_parse_page_controlA
 title: ldap_parse_page_controlA function (winldap.h)
-description: The ldap_parse_page_control parses the results of a search into pages.
+description: The ldap_parse_page_control parses the results of a search into pages. (ldap_parse_page_controlA)
 helpviewer_keywords: ["_ldap_ldap_parse_page_control","ldap.ldap__parse__page__control","ldap.ldap_parse_page_control","ldap_parse_page_control","ldap_parse_page_control function [LDAP]","ldap_parse_page_controlA","ldap_parse_page_controlW","winldap/ldap_parse_page_control","winldap/ldap_parse_page_controlA","winldap/ldap_parse_page_controlW"]
 old-location: ldap\ldap_parse_page_control.htm
 tech.root: ldap

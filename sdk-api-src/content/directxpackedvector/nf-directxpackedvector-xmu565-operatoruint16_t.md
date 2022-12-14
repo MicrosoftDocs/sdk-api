@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-Returns an instance of <code>uint16_t</code> containing the components of the <code>XMU555</code>instance in a packed format.
+Returns an instance of <code>uint16_t</code> containing the components of the <code>XMU555</code> instance in a packed format.
     
 
 This operator returns an instance of <code>uint16_t</code> containing the components of the <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555 </a> instance in a packed format.
 <div class="alert"><b>Note</b>  This operator is only available under C++.
     </div><div> </div>
 
-## -parameters
+
 
 ## -returns
 
@@ -71,17 +71,17 @@ The packed format of this operators return value is:
 
 <ul>
 <li>
-The first 5 bits (bits 0-4) of the return value are to the <b>x</b>component of the current instance of <code>XMU555</code>.
+The first 5 bits (bits 0-4) of the return value are to the <b>x</b> component of the current instance of <code>XMU555</code>.
 		
 
 </li>
 <li>
-The second 6 bits (bits 5-10) of the return value are to the <b>y</b>component of the current instance of <code>XMU555</code>.
+The second 6 bits (bits 5-10) of the return value are to the <b>y</b> component of the current instance of <code>XMU555</code>.
 		
 
 </li>
 <li>
-The third 5 bits (bits 11-15) of the return value are to the <b>z</b>component of the current instance of <code>XMU555</code>.
+The third 5 bits (bits 11-15) of the return value are to the <b>z</b> component of the current instance of <code>XMU555</code>.
 		
 
 </li>

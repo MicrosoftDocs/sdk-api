@@ -54,19 +54,19 @@ The <b>X509EnrollmentPolicyLoadOption</b> enumeration is used by the <a href="/w
 
 ## -enum-fields
 
-### -field LoadOptionDefault
+### -field LoadOptionDefault:0
 
 Reload if the cache has expired.
 
-### -field LoadOptionCacheOnly
+### -field LoadOptionCacheOnly:1
 
 Always load from the cache even if it has expired.
 
-### -field LoadOptionReload
+### -field LoadOptionReload:2
 
 Always reload.
 
-### -field LoadOptionRegisterForADChanges
+### -field LoadOptionRegisterForADChanges:4
 
 Registers a thread to update a sequence number if there are changes to the template or the certification authority container. This value applies only to an Active Directory policy server.
 

@@ -65,38 +65,7 @@ To get an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyFile2</b> interface inherits from <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a>. <b>IBackgroundCopyFile2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IBackgroundCopyFile2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyfile2-getfileranges">GetFileRanges</a>
-</td>
-<td align="left" width="63%">
-Retrieves the array of ranges that you want to download from the URL.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyfile2-setremotename">SetRemoteName</a>
-</td>
-<td align="left" width="63%">
-Changes the remote name to a new URL.
-
-</td>
-</tr>
-</table>
+The <b>IBackgroundCopyFile2</b> interface inherits from <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a>. <b>IBackgroundCopyFile2</b> also has these types of members:
 
 ## -see-also
 

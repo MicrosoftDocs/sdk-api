@@ -1,8 +1,7 @@
 ---
 UID: NS:dxvahd._DXVAHD_COLOR
 title: DXVAHD_COLOR
-ms.date: 
-ms.topic: language-reference
+ms.date: 10/20/2021
 targetos: Windows
 description: Defines a color value for DXVA-HD.
 helpviewer_keywords: ["DXVAHD_COLOR", "dxvahd/DXVAHD_COLOR"]
@@ -16,8 +15,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: DXVAHD_COLOR
 req.umdf-ver: 
@@ -48,15 +47,14 @@ Defines a color value for DXVA-HD.
 
 ### -field RGB
 
-A [DXVAHD_COLOR_RGBA](/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_color_rgba) structure that contains an RGB color value.
+A [DXVAHD_COLOR_RGBA](./ns-dxvahd-dxvahd_color_rgba.md) structure that contains an RGB color value.
 
 ### -field YCbCr
 
-A [DXVAHD_COLOR_YCbCrA](/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_color_ycbcra) structure that contains a YCbCr color value.
+A [DXVAHD_COLOR_YCbCrA](./ns-dxvahd-dxvahd_color_ycbcra.md) structure that contains a YCbCr color value.
 
 ## -remarks
 
 This union can represent both RGB and YCbCr colors. The interpretation of the union depends on the context.
 
 ## -see-also
-

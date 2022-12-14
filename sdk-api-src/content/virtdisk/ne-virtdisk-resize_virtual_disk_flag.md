@@ -57,16 +57,16 @@ Enumerates the available flags for the
 
 ## -enum-fields
 
-### -field RESIZE_VIRTUAL_DISK_FLAG_NONE
+### -field RESIZE_VIRTUAL_DISK_FLAG_NONE:0x0
 
 No flags are specified.
 
-### -field RESIZE_VIRTUAL_DISK_FLAG_ALLOW_UNSAFE_VIRTUAL_SIZE
+### -field RESIZE_VIRTUAL_DISK_FLAG_ALLOW_UNSAFE_VIRTUAL_SIZE:0x1
 
 If this flag is set, skip checking the virtual disk's partition table to ensure that this truncation is 
       safe. Setting this flag can cause unrecoverable data loss; use with care.
 
-### -field RESIZE_VIRTUAL_DISK_FLAG_RESIZE_TO_SMALLEST_SAFE_VIRTUAL_SIZE
+### -field RESIZE_VIRTUAL_DISK_FLAG_RESIZE_TO_SMALLEST_SAFE_VIRTUAL_SIZE:0x2
 
 If this flag is set, resize the disk to the smallest virtual size possible without truncating past any 
       existing partitions. If this is set, the <b>NewSize</b> member in the 

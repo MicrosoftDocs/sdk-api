@@ -78,7 +78,7 @@ If the value of this property is <b>NULL</b> when strokes are assigned to the <a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt847144(v=VS.85).aspx">IInkDivider</a>
+<a href="../msinkaut15/nn-msinkaut15-iinkdivider.md">IInkDivider</a>
 
 
 

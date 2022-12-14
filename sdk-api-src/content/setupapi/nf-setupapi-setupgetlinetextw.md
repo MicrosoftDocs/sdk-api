@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupGetLineTextW
 title: SetupGetLineTextW function (setupapi.h)
-description: The SetupGetLineText function returns the contents of a line in an INF file in a compact form.
+description: The SetupGetLineText function returns the contents of a line in an INF file in a compact form. (Unicode)
 helpviewer_keywords: ["SetupGetLineText","SetupGetLineText function [Setup API]","SetupGetLineTextA","SetupGetLineTextW","_setupapi_setupgetlinetext","setup.setupgetlinetext","setupapi/SetupGetLineText","setupapi/SetupGetLineTextA","setupapi/SetupGetLineTextW"]
 old-location: setup\setupgetlinetext.htm
 tech.root: setup
@@ -47,6 +47,7 @@ api_name:
  - SetupGetLineText
  - SetupGetLineTextA
  - SetupGetLineTextW
+req.apiset: ext-ms-win-setupapi-inf-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetupGetLineTextW function
@@ -104,12 +105,20 @@ If this function is called with a <i>ReturnBuffer</i> of <b>NULL</b> and a <i>Re
 
 This function returns the contents of a line in a compact format. All extraneous white space is removed and multi-line values are converted into a single contiguous string. For example, this line:
 
-<pre class="syntax" xml:space="preserve"><code>HKLM, , PointerClass0, 1 \
+
+``` syntax
+HKLM, , PointerClass0, 1 \
 ; This is a comment
-01, 02, 03</code></pre>
+01, 02, 03
+```
+
 would be returned as:
 
-<pre class="syntax" xml:space="preserve"><code>HKLM,,PointerClass0,1,01,02,03</code></pre>
+
+``` syntax
+HKLM,,PointerClass0,1,01,02,03
+```
+
 
 
 

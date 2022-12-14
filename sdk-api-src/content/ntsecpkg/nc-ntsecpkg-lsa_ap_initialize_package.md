@@ -72,7 +72,7 @@ This parameter is not used; it is <b>NULL</b>.
 
 This parameter is not used; it is <b>NULL</b>.
 
-### -param *AuthenticationPackageName [out]
+### -param AuthenticationPackageName [out]
 
 Pointer to a pointer to an <a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_string">LSA_STRING</a> structure that receives the name of the authentication package. The authentication package is responsible for allocating the structure and the buffer that contains this string (using the 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_lsa_heap">AllocateLsaHeap</a> function) and returning the address of the structure in this parameter. The buffer will be freed by the LSA when it is no longer needed.

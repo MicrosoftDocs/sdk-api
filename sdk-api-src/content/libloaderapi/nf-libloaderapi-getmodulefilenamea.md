@@ -1,7 +1,7 @@
 ---
 UID: NF:libloaderapi.GetModuleFileNameA
 title: GetModuleFileNameA function (libloaderapi.h)
-description: Retrieves the fully qualified path for the file that contains the specified module. The module must have been loaded by the current process.
+description: Retrieves the fully qualified path for the file that contains the specified module. The module must have been loaded by the current process. (ANSI)
 helpviewer_keywords: ["GetModuleFileName","GetModuleFileName function","GetModuleFileNameA","GetModuleFileNameW","_win32_getmodulefilename","base.getmodulefilename","libloaderapi/GetModuleFileName","libloaderapi/GetModuleFileNameA","libloaderapi/GetModuleFileNameW","winbase/GetModuleFileName","winbase/GetModuleFileNameA","winbase/GetModuleFileNameW"]
 old-location: base\getmodulefilename.htm
 tech.root: base

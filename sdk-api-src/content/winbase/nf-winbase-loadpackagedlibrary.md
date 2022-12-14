@@ -62,7 +62,7 @@ The file name of the packaged module to load. The module can be a library module
 
 If this parameter specifies a module name without a path and the file name extension is omitted, the function appends the default library extension .dll to the module name. To prevent the function from appending .dll to the module name, include a trailing point character (.) in the module name string. 
 
-If this parameter specifies a path, the function searches that path for the module. The path cannot be an absolute path or a relative path that contains ".." in the path.   When specifying a path, be sure to use backslashes (\), not forward slashes (/). For more information about paths, see <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>. 
+If this parameter specifies a path, the function searches that path for the module. The path cannot be an absolute path or a relative path that contains ".." in the path.   When specifying a path, be sure to use backslashes (\\), not forward slashes (/). For more information about paths, see <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>. 
 
 If the specified module is already loaded in the process, the function returns a handle to the loaded module. The module must have been originally loaded  from the package dependency graph of the process.
 

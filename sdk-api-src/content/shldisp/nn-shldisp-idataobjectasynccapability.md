@@ -57,65 +57,7 @@ Enables interfaces that are usually synchronous to function asynchronously.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataObjectAsyncCapability</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDataObjectAsyncCapability</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDataObjectAsyncCapability</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shldisp/nf-shldisp-idataobjectasynccapability-endoperation">EndOperation</a>
-</td>
-<td align="left" width="63%">
-Notifies the data object that the asynchronous data extraction has ended.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shldisp/nf-shldisp-idataobjectasynccapability-getasyncmode">GetAsyncMode</a>
-</td>
-<td align="left" width="63%">
-Called by a drop target to determine whether the data object supports asynchronous data extraction.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shldisp/nf-shldisp-idataobjectasynccapability-inoperation">InOperation</a>
-</td>
-<td align="left" width="63%">
-Called by the drop source to determine whether the target is extracting data asynchronously.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shldisp/nf-shldisp-idataobjectasynccapability-setasyncmode">SetAsyncMode</a>
-</td>
-<td align="left" width="63%">
-Called by a drop source to specify whether the data object supports asynchronous data extraction.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shldisp/nf-shldisp-idataobjectasynccapability-startoperation">StartOperation</a>
-</td>
-<td align="left" width="63%">
-Called by a drop target to indicate that asynchronous data extraction is starting.
-
-</td>
-</tr>
-</table>
+The <b>IDataObjectAsyncCapability</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDataObjectAsyncCapability</b> also has these types of members:
 
 ## -remarks
 

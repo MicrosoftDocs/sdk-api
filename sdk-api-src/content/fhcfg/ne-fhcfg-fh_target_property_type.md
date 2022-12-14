@@ -58,7 +58,7 @@ Specifies the type of a property of a backup target.
 
 ## -enum-fields
 
-### -field FH_TARGET_NAME
+### -field FH_TARGET_NAME:0
 
 The property is a string that contains the backup target’s friendly name.  The friendly name is set during target provisioning by calling the <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-provisionandsetnewtarget">IFhConfigMgr::ProvisionAndSetNewTarget</a> method.
 
@@ -78,9 +78,9 @@ The maximum enumeration value for this enumeration. This value and all values gr
 
 To query a backup target property, call the <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhtarget-getstringproperty">IFhTarget::GetStringProperty</a> method or the <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhtarget-getnumericalproperty">IFhTarget::GetNumericalProperty</a> method.
 
-For local disks, the <b>FH_TARGET_URL</b> property contains the drive letter. This path must end with a trailing backslash (for example, "X:\").
+For local disks, the <b>FH_TARGET_URL</b> property contains the drive letter. This path must end with a trailing backslash (for example, "X:\\").
 
-For network shares, the <b>FH_TARGET_URL</b> property contains the full path of the share.  This path must end with a trailing backslash (for example, "\\myserver\myshare\").
+For network shares, the <b>FH_TARGET_URL</b> property contains the full path of the share. This path must end with a trailing backslash (for example, "\\\\myserver\myshare\\").
 
 ## -see-also
 

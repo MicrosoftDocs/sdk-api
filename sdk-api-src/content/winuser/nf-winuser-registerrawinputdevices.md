@@ -48,6 +48,7 @@ api_location:
  - MinUser.dll
 api_name:
  - RegisterRawInputDevices
+req.apiset: ext-ms-win-ntuser-rawinput-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # RegisterRawInputDevices function
@@ -90,6 +91,8 @@ To receive <a href="/windows/desktop/inputdev/wm-input">WM_INPUT</a> messages, a
 To receive <a href="/windows/desktop/inputdev/wm-input-device-change">WM_INPUT_DEVICE_CHANGE</a> messages, an application must specify the  RIDEV_DEVNOTIFY flag for each device class that is specified by the usUsagePage and usUsage fields of the  <a href="/windows/desktop/api/winuser/ns-winuser-rawinputdevice">RAWINPUTDEVICE</a> structure  .  By default, an application does not receive  <b>WM_INPUT_DEVICE_CHANGE</b> notifications for raw input device arrival and removal.
 
 If a <a href="/windows/desktop/api/winuser/ns-winuser-rawinputdevice">RAWINPUTDEVICE</a> structure has the RIDEV_REMOVE flag set and the hwndTarget parameter is not set to NULL, then parameter validation will fail.
+
+Only one window per raw input device class may be registered to receive raw input within a process (the window passed in the last call to RegisterRawInputDevices). Because of this, RegisterRawInputDevices should not be used from a library, as it may interfere with any raw input processing logic already present in applications that load it.
 
 ## -see-also
 

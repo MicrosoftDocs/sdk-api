@@ -58,15 +58,15 @@ Defines the flags used with the
 
 ## -enum-fields
 
-### -field INTERNET_SCHEME_PARTIAL
+### -field INTERNET_SCHEME_PARTIAL:-2
 
 Partial URL.
 
-### -field INTERNET_SCHEME_UNKNOWN
+### -field INTERNET_SCHEME_UNKNOWN:-1
 
 Unknown URL scheme.
 
-### -field INTERNET_SCHEME_DEFAULT
+### -field INTERNET_SCHEME_DEFAULT:0
 
 Default URL scheme.
 

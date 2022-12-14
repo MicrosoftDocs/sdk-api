@@ -56,29 +56,7 @@ Creates an object that is enlisted within a manual transaction using the Transac
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateWithTipTransactionEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateWithTipTransactionEx</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ICreateWithTipTransactionEx</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icreatewithtiptransactionex-createinstance">CreateInstance</a>
-</td>
-<td align="left" width="63%">
-Creates a COM+ object that executes within the scope of the manual transaction specified by a TIP transaction URL.
-
-</td>
-</tr>
-</table>
+The <b>ICreateWithTipTransactionEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateWithTipTransactionEx</b> also has these types of members:
 
 ## -see-also
 

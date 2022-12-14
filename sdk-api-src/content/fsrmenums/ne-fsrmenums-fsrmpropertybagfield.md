@@ -56,12 +56,12 @@ Describes the type of property bag.
 
 ## -enum-fields
 
-### -field FsrmPropertyBagField_AccessVolume
+### -field FsrmPropertyBagField_AccessVolume:0
 
 Indicates if the property bag should include the name of the volume being accessed, which may be a 
       snapshot.
 
-### -field FsrmPropertyBagField_VolumeGuidName
+### -field FsrmPropertyBagField_VolumeGuidName:1
 
 Indicates if the property bag should include the volume <b>GUID</b> name of the 
       original volume.

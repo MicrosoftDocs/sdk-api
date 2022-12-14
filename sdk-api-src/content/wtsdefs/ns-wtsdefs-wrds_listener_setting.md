@@ -66,6 +66,4 @@ A <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_listener_settings_1">WRD
 
 ### -field WRdsListenerSettings1.case.WRDS_LISTENER_SETTING_LEVEL_1
 
-### -field switch_type
 
-### -field switch_type.WRDS_LISTENER_SETTING_LEVEL

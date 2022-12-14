@@ -54,31 +54,31 @@ Specifies the object type in a <a href="/previous-versions/windows/desktop/api/p
 
 ## -enum-fields
 
-### -field PSS_OBJECT_TYPE_UNKNOWN
+### -field PSS_OBJECT_TYPE_UNKNOWN:0
 
 The object type is either unknown or unsupported.
 
-### -field PSS_OBJECT_TYPE_PROCESS
+### -field PSS_OBJECT_TYPE_PROCESS:1
 
 The object is a process.
 
-### -field PSS_OBJECT_TYPE_THREAD
+### -field PSS_OBJECT_TYPE_THREAD:2
 
 The object is a thread.
 
-### -field PSS_OBJECT_TYPE_MUTANT
+### -field PSS_OBJECT_TYPE_MUTANT:3
 
 The object is a mutant/mutex.
 
-### -field PSS_OBJECT_TYPE_EVENT
+### -field PSS_OBJECT_TYPE_EVENT:4
 
 The object is an event.
 
-### -field PSS_OBJECT_TYPE_SECTION
+### -field PSS_OBJECT_TYPE_SECTION:5
 
 The object is a file-mapping object.
 
-### -field PSS_OBJECT_TYPE_SEMAPHORE
+### -field PSS_OBJECT_TYPE_SEMAPHORE:6
 
 ## -see-also
 

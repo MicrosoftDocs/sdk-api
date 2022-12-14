@@ -52,7 +52,7 @@ api_name:
 
 The <b>Encode</b> method signs and encodes a certificate request and creates a key pair if one does not exist. The request is encoded by using <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) as defined by the <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) standard. The encoding process creates a byte array.  You can retrieve the byte array by calling the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-get_rawdata">RawData</a> property.
 
-## -parameters
+
 
 ## -returns
 

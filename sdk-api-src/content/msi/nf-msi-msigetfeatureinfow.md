@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiGetFeatureInfoW
 title: MsiGetFeatureInfoW function (msi.h)
-description: Returns descriptive information for a feature.
+description: Returns descriptive information for a feature. (Unicode)
 helpviewer_keywords: ["INSTALLFEATUREATTRIBUTE_DISALLOWADVERTISE","INSTALLFEATUREATTRIBUTE_FAVORADVERTISE","INSTALLFEATUREATTRIBUTE_FAVORLOCAL","INSTALLFEATUREATTRIBUTE_FAVORSOURCE","INSTALLFEATUREATTRIBUTE_FOLLOWPARENT","INSTALLFEATUREATTRIBUTE_NOUNSUPPORTEDADVERTISE","MsiGetFeatureInfo","MsiGetFeatureInfo function","MsiGetFeatureInfoA","MsiGetFeatureInfoW","_msi_msigetfeatureinfo","msi/MsiGetFeatureInfo","msi/MsiGetFeatureInfoA","msi/MsiGetFeatureInfoW","setup.msigetfeatureinfo"]
 old-location: setup\msigetfeatureinfo.htm
 tech.root: setup

@@ -58,65 +58,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITCallHub</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITCallHub</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITCallHub</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallhub-clear">Clear</a>
-</td>
-<td align="left" width="63%">
-Attempts to remove all calls and participants from Call Hub.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallhub-enumeratecalls">EnumerateCalls</a>
-</td>
-<td align="left" width="63%">
-Enumerates calls currently associated with the call hub.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallhub-get_calls">get_Calls</a>
-</td>
-<td align="left" width="63%">
-Creates a collection of calls associated with the current call hub. This method is provided for Automation client applications, such as those written in Microsoft Visual Basic.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallhub-get_numcalls">get_NumCalls</a>
-</td>
-<td align="left" width="63%">
-Gets the number of calls currently in the CallHub.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallhub-get_state">get_State</a>
-</td>
-<td align="left" width="63%">
-Gets the current state of the CallHub.
-
-</td>
-</tr>
-</table>
+The <b>ITCallHub</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITCallHub</b> also has these types of members:
 
 ## -see-also
 

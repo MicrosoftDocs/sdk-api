@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetRequiresFlags
 title: ID3D12ShaderReflection::GetRequiresFlags (d3d12shader.h)
-description: Gets a group of flags that indicates the requirements of a shader.
+description: Gets a group of flags that indicates the requirements of a shader. (ID3D12ShaderReflection.GetRequiresFlags)
 helpviewer_keywords: ["GetRequiresFlags","GetRequiresFlags method","GetRequiresFlags method","ID3D12ShaderReflection interface","ID3D12ShaderReflection interface","GetRequiresFlags method","ID3D12ShaderReflection.GetRequiresFlags","ID3D12ShaderReflection::GetRequiresFlags","d3d12shader/ID3D12ShaderReflection::GetRequiresFlags","direct3d12.id3d12shaderreflection_getrequiresflags"]
 old-location: direct3d12\id3d12shaderreflection_getrequiresflags.htm
 tech.root: direct3d12
@@ -52,7 +52,7 @@ api_name:
 
 Gets a group of flags that indicates the requirements of a shader.
 
-## -parameters
+
 
 ## -returns
 
@@ -141,7 +141,7 @@ A value that contains a combination of one or more shader requirements #define f
 </tr>
 <tr>
 <td><b>D3D_SHADER_REQUIRES_VIEWPORT_AND_RT_ARRAY_INDEX_FROM_ANY_SHADER_FEEDING_RASTERIZER</b></td>
-<td>Shader requires that the graphics driver and hardware support viewport and render target array index values from any shader-feeding rasterizer.For more info, see the member <b>VPAndRTArrayIndexFromAnyShaderFeedingRasterizerSupportedWithoutGSEmulation</b>of the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
+<td>Shader requires that the graphics driver and hardware support viewport and render target array index values from any shader-feeding rasterizer.For more info, see the member <b>VPAndRTArrayIndexFromAnyShaderFeedingRasterizerSupportedWithoutGSEmulation</b> of the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
                 </td>
 </tr>
 </table>

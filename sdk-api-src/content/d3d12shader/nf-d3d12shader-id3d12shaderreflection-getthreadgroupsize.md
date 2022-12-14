@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetThreadGroupSize
 title: ID3D12ShaderReflection::GetThreadGroupSize (d3d12shader.h)
-description: Retrieves the sizes, in units of threads, of the X, Y, and Z dimensions of the shader's thread-group grid.
+description: Retrieves the sizes, in units of threads, of the X, Y, and Z dimensions of the shader's thread-group grid. (ID3D12ShaderReflection.GetThreadGroupSize)
 helpviewer_keywords: ["GetThreadGroupSize","GetThreadGroupSize method","GetThreadGroupSize method","ID3D12ShaderReflection interface","ID3D12ShaderReflection interface","GetThreadGroupSize method","ID3D12ShaderReflection.GetThreadGroupSize","ID3D12ShaderReflection::GetThreadGroupSize","d3d12shader/ID3D12ShaderReflection::GetThreadGroupSize","direct3d12.id3d12shaderreflection_getthreadgroupsize"]
 old-location: direct3d12\id3d12shaderreflection_getthreadgroupsize.htm
 tech.root: direct3d12
@@ -79,7 +79,11 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 Returns the total size, in threads, of the thread-group grid by calculating the product of the size of each dimension.
             
 
-<pre class="syntax" xml:space="preserve"><code>*pSizeX * *pSizeY * *pSizeZ;</code></pre>
+
+``` syntax
+*pSizeX * *pSizeY * *pSizeZ;
+```
+
 
 ## -remarks
 

@@ -60,6 +60,8 @@ A device interface ID for an audio device. This is normally retrieved from a <a 
 
 The GUIDs <a href="/windows/desktop/CoreAudio/devinterface-xxx-guids">DEVINTERFACE_AUDIO_CAPTURE</a>  and <b>DEVINTERFACE_AUDIO_RENDER</b>  represent the default audio capture and render device respectively. Call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-stringfromiid">StringFromIID</a> to convert either of these GUIDs to an <b>LPCWSTR</b> to use for this argument.
 
+Specify **AUDIOCLIENT_ACTIVATION_TYPE_PROCESS_LOOPBACK** to activate the audio interface for process loopback capture. For sample code that demonstrates the process loopback capture scenario, see the [Application Loopback API Capture Sample](https://docs.microsoft.com/en-us/samples/microsoft/windows-classic-samples/applicationloopbackaudio-sample/).
+
 ### -param riid [in]
 
 The IID of a COM interface in the <a href="/windows/desktop/CoreAudio/wasapi">WASAPI</a> family, such as <a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a>.
@@ -67,6 +69,8 @@ The IID of a COM interface in the <a href="/windows/desktop/CoreAudio/wasapi">WA
 ### -param activationParams [in]
 
 Interface-specific activation parameters. For more information, see the <i>pActivationParams</i> parameter in <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a>.
+
+Starting with TBD, you can specify [AUDIOCLIENT_ACTIVATION_PARAMS](/windows/desktop/api/audioclientactivationparams/ns-audioclientactivationparams-audioclient_activation_params) to activate the interface to include or exclude audio streams associated with a specified process ID.
 
 ### -param completionHandler [in]
 

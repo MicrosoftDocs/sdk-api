@@ -57,7 +57,7 @@ The <code>GetTimecode</code> method retrieves the most recent timecode, userbit,
 
 ### -param pTimecodeSample [out]
 
-Pointer to a <a href="/windows/desktop/api/aviriff/ns-aviriff-tagtimecode_sample">TIMECODE_SAMPLE</a> structure.
+Pointer to a <a href="/windows/win32/api/strmif/ns-strmif-timecode_sample">TIMECODE_SAMPLE</a> structure.
 
 ## -returns
 
@@ -72,7 +72,7 @@ The timecode contains undefined bits, called <i>userbits</i>. Applications can u
 <h3><a id="DV_and_MPEG_Camcorder_Implementation"></a><a id="dv_and_mpeg_camcorder_implementation"></a><a id="DV_AND_MPEG_CAMCORDER_IMPLEMENTATION"></a>DV and MPEG Camcorder Implementation</h3>
 The <a href="/windows/desktop/DirectShow/msdv-driver">MSDV</a> driver supports reading SMPTE timecode or absolute track numbers (ATN). The <a href="/windows/desktop/DirectShow/mstape-driver">MSTape</a> driver supports reading the relative time counter (RTC). To read time information on these devices, do the following:
 
-Set the <b>dwFlags</b> member of the <a href="/windows/desktop/api/aviriff/ns-aviriff-tagtimecode_sample">TIMECODE_SAMPLE</a> structure to one of the following values.
+Set the <b>dwFlags</b> member of the <a href="/windows/win32/api/strmif/ns-strmif-timecode_sample">TIMECODE_SAMPLE</a> structure to one of the following values.
 
 <table>
 <tr>
@@ -94,7 +94,7 @@ Set the <b>dwFlags</b> member of the <a href="/windows/desktop/api/aviriff/ns-av
 </table>
  
 
-The <b>timecode</b> member of the <a href="/windows/desktop/api/aviriff/ns-aviriff-tagtimecode_sample">TIMECODE_SAMPLE</a> structure is a <a href="/windows/desktop/DirectShow/getting-timecode-from-the-device">TIMECODE</a> structure. Initialize that structure's <b>dwFrames</b> member to zero.
+The <b>timecode</b> member of the <a href="/windows/win32/api/strmif/ns-strmif-timecode_sample">TIMECODE_SAMPLE</a> structure is a <a href="/windows/desktop/DirectShow/getting-timecode-from-the-device">TIMECODE</a> structure. Initialize that structure's <b>dwFrames</b> member to zero.
 
 All other structure members are ignored.
 

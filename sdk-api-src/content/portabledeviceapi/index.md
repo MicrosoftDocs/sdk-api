@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by WPD Application Programming Interface. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [WPD Application Programming Interface](../_wpdsdk/index.md)
+- [WPD Automation Object Model](../_wpdauto/index.md)
 

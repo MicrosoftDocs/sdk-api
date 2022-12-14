@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFBeginUnregisterWorkQueueWithMMCSS
 title: MFBeginUnregisterWorkQueueWithMMCSS function (mfapi.h)
-description: Unregisters a work queue from a Multimedia Class Scheduler Service (MMCSS) task.
+description: Unregisters a work queue from a Multimedia Class Scheduler Service (MMCSS) task. (MFBeginUnregisterWorkQueueWithMMCSS)
 helpviewer_keywords: ["MFBeginUnregisterWorkQueueWithMMCSS","MFBeginUnregisterWorkQueueWithMMCSS function [Media Foundation]","e164785f-9899-45f0-805f-b091508e35aa","mf.mfbeginunregisterworkqueuewithmmcss","mfapi/MFBeginUnregisterWorkQueueWithMMCSS"]
 old-location: mf\mfbeginunregisterworkqueuewithmmcss.htm
 tech.root: mf

@@ -1,7 +1,7 @@
 ---
 UID: NF:winnls.EnumLanguageGroupLocalesA
 title: EnumLanguageGroupLocalesA function (winnls.h)
-description: Enumerates the locales in a specified language group.
+description: Enumerates the locales in a specified language group. (ANSI)
 helpviewer_keywords: ["EnumLanguageGroupLocales","EnumLanguageGroupLocales function [Internationalization for Windows Applications]","EnumLanguageGroupLocalesA","EnumLanguageGroupLocalesW","_win32_EnumLanguageGroupLocales","intl.enumlanguagegrouplocales","winnls/EnumLanguageGroupLocales","winnls/EnumLanguageGroupLocalesA","winnls/EnumLanguageGroupLocalesW"]
 old-location: intl\enumlanguagegrouplocales.htm
 tech.root: Intl

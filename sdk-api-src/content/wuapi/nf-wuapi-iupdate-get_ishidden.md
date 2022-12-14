@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdate.get_IsHidden
 title: IUpdate::get_IsHidden (wuapi.h)
-description: Gets a Boolean value that indicates whether an update is hidden by a user.
+description: Gets a Boolean value that indicates whether an update is hidden by a user. (Get)
 helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","IsHidden property","IUpdate.IsHidden","IUpdate.get_IsHidden","IUpdate::IsHidden","IUpdate::get_IsHidden","IUpdate::put_IsHidden","IsHidden property [Windows Update Agent]","IsHidden property [Windows Update Agent]","IUpdate interface","get_IsHidden","wua.iupdate_ishidden","wuapi/IUpdate::IsHidden","wuapi/IUpdate::get_IsHidden","wuapi/IUpdate::put_IsHidden"]
 old-location: wua\iupdate_ishidden.htm
 tech.root: wua

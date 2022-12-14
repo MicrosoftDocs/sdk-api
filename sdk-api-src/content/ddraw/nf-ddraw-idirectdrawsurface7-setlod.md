@@ -50,7 +50,7 @@ Sets the maximum level of detail (LOD) for a managed mipmap surface. This method
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The maximum LOD value to be set for the mipmap chain if the call succeeds.
 
@@ -73,7 +73,7 @@ Applications can call this method only for managed textures (those surfaces that
 
 
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetLOD</b> method.
+
 
 
 

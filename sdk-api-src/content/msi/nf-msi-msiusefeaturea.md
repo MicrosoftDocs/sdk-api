@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiUseFeatureA
 title: MsiUseFeatureA function (msi.h)
-description: The MsiUseFeature function increments the usage count for a particular feature and indicates the installation state for that feature. This function should be used to indicate an application's intent to use a feature.
+description: The MsiUseFeature function increments the usage count for a particular feature and indicates the installation state for that feature. This function should be used to indicate an application's intent to use a feature. (ANSI)
 helpviewer_keywords: ["MsiUseFeature","MsiUseFeature function","MsiUseFeatureA","MsiUseFeatureW","_msi_msiusefeature","msi/MsiUseFeature","msi/MsiUseFeatureA","msi/MsiUseFeatureW","setup.msiusefeature"]
 old-location: setup\msiusefeature.htm
 tech.root: setup

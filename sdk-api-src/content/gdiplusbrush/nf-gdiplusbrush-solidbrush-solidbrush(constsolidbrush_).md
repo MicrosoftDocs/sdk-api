@@ -52,7 +52,7 @@ Copy constructor for **SolidBrush**.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 The **SolidBrush** object to copy into this object.
 

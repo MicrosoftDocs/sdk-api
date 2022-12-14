@@ -52,7 +52,7 @@ api_name:
 
 The <b>SetupPersistentIscsiDevices</b> function builds the list of devices and volumes assigned to iSCSI targets that are connected to the computer, and saves this list in non-volatile cache of the iSCSI initiator service.
 
-## -parameters
+
 
 ## -returns
 

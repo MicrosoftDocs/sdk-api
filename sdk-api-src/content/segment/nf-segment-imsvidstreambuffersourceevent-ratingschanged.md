@@ -57,7 +57,7 @@ This topic applies to Windows XP Service Pack 1 or later.
 
 The <b>RatingsChanged</b> method is called when the rating changes.
 
-## -parameters
+
 
 ## -returns
 

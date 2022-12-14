@@ -52,7 +52,7 @@ api_name:
 
 Commits object data members to the underlying data store if the <a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportcacheable-get_dirty">IWdsTransportCacheable::Dirty</a> property has been set. Otherwise, the method returns with no action.
 
-## -parameters
+
 
 ## -remarks
 

@@ -56,7 +56,7 @@ api_name:
 
 Resets the peak usage of this quota to the current usage.
 
-## -parameters
+
 
 ## -returns
 

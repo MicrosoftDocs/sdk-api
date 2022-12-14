@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.InternetGetCookieExW
 title: InternetGetCookieExW function (wininet.h)
-description: Retrieves data stored in cookies associated with a specified URL.
+description: Retrieves data stored in cookies associated with a specified URL. (Unicode)
 helpviewer_keywords: ["INTERNET_COOKIE_HTTPONLY","INTERNET_COOKIE_THIRD_PARTY","INTERNET_FLAG_RESTRICTED_ZONE","InternetGetCookieEx","InternetGetCookieEx function [WinINet]","InternetGetCookieExA","InternetGetCookieExW","wininet.internetgetcookieex","wininet/InternetGetCookieEx","wininet/InternetGetCookieExA","wininet/InternetGetCookieExW"]
 old-location: wininet\internetgetcookieex.htm
 tech.root: wininet

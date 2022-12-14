@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.MAKEINTRESOURCEA
 title: MAKEINTRESOURCEA macro (winuser.h)
-description: Converts an integer value to a resource type compatible with the resource-management functions. This macro is used in place of a string containing the name of the resource.
+description: Converts an integer value to a resource type compatible with the resource-management functions. This macro is used in place of a string containing the name of the resource. (ANSI)
 helpviewer_keywords: ["MAKEINTRESOURCE","MAKEINTRESOURCE macro [Menus and Other Resources]","MAKEINTRESOURCEA","MAKEINTRESOURCEW","_win32_MAKEINTRESOURCE","_win32_makeintresource_cpp","menurc.makeintresource","winui._win32_makeintresource","winuser/MAKEINTRESOURCE"]
 old-location: menurc\makeintresource.htm
 tech.root: menurc

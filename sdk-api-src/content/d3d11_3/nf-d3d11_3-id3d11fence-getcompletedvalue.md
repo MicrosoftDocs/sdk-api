@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_3.ID3D11Fence.GetCompletedValue
 title: ID3D11Fence::GetCompletedValue (d3d11_3.h)
-description: Gets the current value of the fence.
+description: Gets the current value of the fence. (ID3D11Fence.GetCompletedValue)
 helpviewer_keywords: ["GetCompletedValue","GetCompletedValue method [Direct3D 11]","GetCompletedValue method [Direct3D 11]","ID3D11Fence interface","ID3D11Fence interface [Direct3D 11]","GetCompletedValue method","ID3D11Fence.GetCompletedValue","ID3D11Fence::GetCompletedValue","d3d11_3/ID3D11Fence::GetCompletedValue","direct3d11.id3d11fence_getcompletedvalue"]
 old-location: direct3d11\id3d11fence_getcompletedvalue.htm
 tech.root: direct3d11
@@ -54,7 +54,7 @@ Gets the current value of the fence.
 
 This member function is equivalent to the Direct3D 12 <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12fence-getcompletedvalue">ID3D12Fence::GetCompletedValue</a> member function, and applies between Direct3D 11 and Direct3D 12 in interop scenarios.
 
-## -parameters
+
 
 ## -returns
 

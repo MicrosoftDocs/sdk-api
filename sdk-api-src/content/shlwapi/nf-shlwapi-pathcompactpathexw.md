@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathCompactPathExW
 title: PathCompactPathExW function (shlwapi.h)
-description: Truncates a path to fit within a certain number of characters by replacing path components with ellipses.
+description: Truncates a path to fit within a certain number of characters by replacing path components with ellipses. (Unicode)
 helpviewer_keywords: ["PathCompactPathEx","PathCompactPathEx function [Windows Shell]","PathCompactPathExA","PathCompactPathExW","_win32_PathCompactPathEx","shell.PathCompactPathEx","shlwapi/PathCompactPathEx","shlwapi/PathCompactPathExA","shlwapi/PathCompactPathExW"]
 old-location: shell\PathCompactPathEx.htm
 tech.root: shell
@@ -88,7 +88,7 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 ## -remarks
 
-The '/' separator will be used instead of '\' if the original string used it. If <i>pszSrc</i> points to a file name that is too long, instead of a path, the file name will be truncated to <i>cchMax</i> characters, including the ellipsis and the terminating <b>NULL</b> character. For example, if the input file name is "My Filename" and <i>cchMax</i> is 10, <b>PathCompactPathEx</b> will return "My Fil...".
+The '/' separator will be used instead of '\\' if the original string used it. If <i>pszSrc</i> points to a file name that is too long, instead of a path, the file name will be truncated to <i>cchMax</i> characters, including the ellipsis and the terminating <b>NULL</b> character. For example, if the input file name is "My Filename" and <i>cchMax</i> is 10, <b>PathCompactPathEx</b> will return "My Fil...".
 
 
 

@@ -52,33 +52,11 @@ api_name:
 
 Represents a filter effect.
 
-IDCompositionFilterEffect exposes a subset of Direct2D's image <a href="/windows/desktop/Direct2D/effects-overview">effects</a> through Direction Composition for use in CSS filters in the browser platform.
+IDCompositionFilterEffect exposes a subset of Direct2D's image <a href="/windows/desktop/Direct2D/effects-overview">effects</a> through DirectComposition for use in CSS filters in the browser platform.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionFilterEffect</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositioneffect">IDCompositionEffect</a>. <b>IDCompositionFilterEffect</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDCompositionFilterEffect</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionfiltereffect-setinput">SetInput</a>
-</td>
-<td align="left" width="63%">
-Sets the the input at an index to the specified filter effect.
-
-</td>
-</tr>
-</table>
+The <b>IDCompositionFilterEffect</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositioneffect">IDCompositionEffect</a>. <b>IDCompositionFilterEffect</b> also has these types of members:
 
 ## -see-also
 

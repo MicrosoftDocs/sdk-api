@@ -64,7 +64,7 @@ Four element <code>float</code> array containing the values used to initialize t
 
 ## -remarks
 
-| Vector Component | Array Element | Range | |
+| Vector Component | Array Element | Range | Description |
 |------------------|---------------|-------|-|
 | x | pArray[0] | -1.0, 1.0 | During instantiation, pArray[0] is clamped between -1 and 1, multiplied by 127.0f and assigned to x. |
 | y | pArray[1] | -1.0, 1.0 | During instantiation, pArray[1] is clamped between -1 and 1, multiplied by 127.0f, and then assigned to y. |

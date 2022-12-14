@@ -1,7 +1,7 @@
 ---
 UID: NF:winscard.SCardListReadersWithDeviceInstanceIdW
 title: SCardListReadersWithDeviceInstanceIdW function (winscard.h)
-description: Gets the list of readers that have provided a device instance identifier. This function does not affect the state of the reader.
+description: Gets the list of readers that have provided a device instance identifier. This function does not affect the state of the reader. (Unicode)
 helpviewer_keywords: ["SCardListReadersWithDeviceInstanceId","SCardListReadersWithDeviceInstanceId function [Security]","SCardListReadersWithDeviceInstanceIdA","SCardListReadersWithDeviceInstanceIdW","security.scardgetreadernamefromdeviceinstanceid","security.scardlistreaderswithdeviceinstanceid","winscard/SCardListReadersWithDeviceInstanceId"]
 old-location: security\scardlistreaderswithdeviceinstanceid.htm
 tech.root: security

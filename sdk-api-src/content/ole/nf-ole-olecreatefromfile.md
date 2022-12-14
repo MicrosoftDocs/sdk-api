@@ -1,12 +1,12 @@
 ---
 UID: NF:ole.OleCreateFromFile
 title: OleCreateFromFile function (ole.h)
-description: Creates an embedded object from the contents of a named file.
+description: The OleCreateFromFile function (ole.h) creates an embedded object from the contents of a named file.
 helpviewer_keywords: ["OleCreateFromFile","OleCreateFromFile function [COM]","_ole_OleCreateFromFile","com.olecreatefromfile","ole/OleCreateFromFile"]
 old-location: com\olecreatefromfile.htm
 tech.root: com
 ms.assetid: 98c63646-6617-46b6-8c3e-82d1c4d0adb6
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: OleCreateFromFile, OleCreateFromFile function [COM], _ole_OleCreateFromFile, com.olecreatefromfile, ole/OleCreateFromFile
 req.header: ole.h
 req.include-header: Ole2.h
@@ -54,39 +54,39 @@ Creates an embedded object from the contents of a named file.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 TBD
 
-### -param arg2
+### -param unnamedParam2
 
 TBD
 
-### -param arg3
+### -param unnamedParam3
 
 TBD
 
-### -param arg4
+### -param unnamedParam4
 
 TBD
 
-### -param arg5
+### -param unnamedParam5
 
 TBD
 
-### -param arg6
+### -param unnamedParam6
 
 TBD
 
-### -param arg7
+### -param unnamedParam7
 
 TBD
 
-### -param arg8
+### -param unnamedParam8
 
 TBD
 
-### -param arg9
+### -param unnamedParam9
 
 TBD
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DTexture9.AddDirtyRect
 title: IDirect3DTexture9::AddDirtyRect (d3d9helper.h)
-description: Adds a dirty region to a texture resource.
+description: The IDirect3DTexture9::AddDirtyRect method (d3d9.h) adds a dirty region to a texture resource. 
 helpviewer_keywords: ["5056714a-00c4-8318-bc7b-f4fc70438ea2","AddDirtyRect","AddDirtyRect method [Direct3D 9]","AddDirtyRect method [Direct3D 9]","IDirect3DTexture9 interface","IDirect3DTexture9 interface [Direct3D 9]","AddDirtyRect method","IDirect3DTexture9.AddDirtyRect","IDirect3DTexture9::AddDirtyRect","d3d9helper/IDirect3DTexture9::AddDirtyRect","direct3d9.idirect3dtexture9__adddirtyrect"]
 old-location: direct3d9\idirect3dtexture9__adddirtyrect.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dtexture9__adddirtyrect.htm
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: 5056714a-00c4-8318-bc7b-f4fc70438ea2, AddDirtyRect, AddDirtyRect method [Direct3D 9], AddDirtyRect method [Direct3D 9],IDirect3DTexture9 interface, IDirect3DTexture9 interface [Direct3D 9],AddDirtyRect method, IDirect3DTexture9.AddDirtyRect, IDirect3DTexture9::AddDirtyRect, d3d9helper/IDirect3DTexture9::AddDirtyRect, direct3d9.idirect3dtexture9__adddirtyrect
 req.header: d3d9helper.h
 req.include-header: D3D9.h

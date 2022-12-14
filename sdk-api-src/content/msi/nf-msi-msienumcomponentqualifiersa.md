@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiEnumComponentQualifiersA
 title: MsiEnumComponentQualifiersA function (msi.h)
-description: The MsiEnumComponentQualifiers function enumerates the advertised qualifiers for the given component. This function retrieves one qualifier each time it is called.
+description: The MsiEnumComponentQualifiers function enumerates the advertised qualifiers for the given component. This function retrieves one qualifier each time it is called. (ANSI)
 helpviewer_keywords: ["MsiEnumComponentQualifiers","MsiEnumComponentQualifiers function","MsiEnumComponentQualifiersA","MsiEnumComponentQualifiersW","_msi_msienumcomponentqualifiers","msi/MsiEnumComponentQualifiers","msi/MsiEnumComponentQualifiersA","msi/MsiEnumComponentQualifiersW","setup.msienumcomponentqualifiers"]
 old-location: setup\msienumcomponentqualifiers.htm
 tech.root: setup
@@ -80,7 +80,7 @@ Pointer to a buffer that receives the application registered data for the qualif
 
 ### -param pcchApplicationDataBuf [in, out]
 
-Pointer to a variable that specifies the size, in characters, of the buffer pointed to by the <i>lpApplicationDataBuf</i> parameter. On input, this size should include the terminating null character. On return, the value does not include the null character. This parameter can be null only if the <i>lpApplicationDataBuf </i>parameter is null.
+Pointer to a variable that specifies the size, in characters, of the buffer pointed to by the <i>lpApplicationDataBuf</i> parameter. On input, this size should include the terminating null character. On return, the value does not include the null character. This parameter can be null only if the <i>lpApplicationDataBuf </i> parameter is null.
 
 ## -returns
 
@@ -118,7 +118,7 @@ An invalid parameter was passed to the function.
 </dl>
 </td>
 <td width="60%">
-A buffer is to small to hold the requested data.
+A buffer is too small to hold the requested data.
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ The specified component is unknown.
 ## -remarks
 
 To enumerate qualifiers, an application should initially call the 
-<b>MsiEnumComponentQualifiers</b> function with the<i> iIndex </i>parameter set to zero. The application should then increment the <i> iIndex </i> parameter and call 
+<b>MsiEnumComponentQualifiers</b> function with the<i> iIndex </i> parameter set to zero. The application should then increment the <i> iIndex </i> parameter and call 
 <b>MsiEnumComponentQualifiers</b> until there are no more qualifiers (that is, until the function returns ERROR_NO_MORE_ITEMS).
 
 When 

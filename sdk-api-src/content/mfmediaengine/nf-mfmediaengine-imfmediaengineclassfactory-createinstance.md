@@ -144,7 +144,7 @@ To enable audio mode, set the <b>MF_MEDIA_ENGINE_AUDIOONLY</b> flag in the <i>dw
 </table>
  
 
-<h3><a id="Intialization_Attributes"></a><a id="intialization_attributes"></a><a id="INTIALIZATION_ATTRIBUTES"></a>Intialization Attributes</h3>
+<h3><a id="Intialization_Attributes"></a><a id="intialization_attributes"></a><a id="INTIALIZATION_ATTRIBUTES"></a>Initialization Attributes</h3>
 The following attributes are defined for the <i>pAttr</i> parameter. Some are required, and some are optional, depending on the  mode you want. 
 
 <table>

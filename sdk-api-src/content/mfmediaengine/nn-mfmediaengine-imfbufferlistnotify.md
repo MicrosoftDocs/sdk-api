@@ -54,38 +54,7 @@ Enables <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFBufferListNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFBufferListNotify</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFBufferListNotify</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfbufferlistnotify-onaddsourcebuffer">OnAddSourceBuffer</a>
-</td>
-<td align="left" width="63%">
-Indicates that a <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a> has been added.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfbufferlistnotify-onremovesourcebuffer">OnRemoveSourceBuffer</a>
-</td>
-<td align="left" width="63%">
-Indicates that a <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a> has been removed.
-
-</td>
-</tr>
-</table>
+The <b>IMFBufferListNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFBufferListNotify</b> also has these types of members:
 
 ## -see-also
 

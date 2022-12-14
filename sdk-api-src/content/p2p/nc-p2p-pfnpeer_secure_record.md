@@ -70,7 +70,7 @@ Pointer to the record to secure.
 
 Specifies the reason the validation must occur.     <a href="/windows/desktop/api/p2p/ne-p2p-peer_record_change_type">PEER_RECORD_CHANGE_TYPE</a> enumerates the valid values.
 
-### -param *ppSecurityData [out]
+### -param ppSecurityData [out]
 
 Specifies the security data for this record. This data is released by calling the method specified in the <b>pfnFreeSecurityData</b> member of the <a href="/windows/desktop/api/p2p/ns-p2p-peer_security_interface">PEER_SECURITY_INTERFACE</a> after the data is copied and added to the record.
 

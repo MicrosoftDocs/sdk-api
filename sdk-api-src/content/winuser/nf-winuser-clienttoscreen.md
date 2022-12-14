@@ -55,6 +55,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - ClientToScreen
+req.apiset: ext-ms-win-ntuser-window-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # ClientToScreen function
@@ -72,7 +73,7 @@ A handle to the window whose client area is used for the conversion.
 
 ### -param lpPoint [in, out]
 
-A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the client coordinates to be converted. The new screen coordinates are copied into this structure if the function succeeds.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that contains the client coordinates to be converted. The new screen coordinates are copied into this structure if the function succeeds.
 
 ## -returns
 
@@ -82,7 +83,7 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-The <b>ClientToScreen</b> function replaces the client-area coordinates in the <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure with the screen coordinates. The screen coordinates are relative to the upper-left corner of the screen. Note, a screen-coordinate point that is above the window's client area has a negative y-coordinate. Similarly, a screen coordinate to the left of a client area has a negative x-coordinate.
+The <b>ClientToScreen</b> function replaces the client-area coordinates in the <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure with the screen coordinates. The screen coordinates are relative to the upper-left corner of the screen. Note, a screen-coordinate point that is above the window's client area has a negative y-coordinate. Similarly, a screen coordinate to the left of a client area has a negative x-coordinate.
 
 All coordinates are device coordinates.
 
@@ -107,7 +108,7 @@ For an example, see "Drawing Lines with the Mouse" in <a href="/windows/desktop/
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

@@ -59,65 +59,10 @@ An ETT provides text descriptions for events or virtual channels. Each ETT conta
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IATSC_ETT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IATSC_ETT</b> also has these types of members:
+The <b>IATSC_ETT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IATSC_ETT</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IATSC_ETT</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_ett-getetmid">GetEtmId</a>
-</td>
-<td align="left" width="63%">
-Returns the ETM identifier.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_ett-getextendedmessagetext">GetExtendedMessageText</a>
-</td>
-<td align="left" width="63%">
-Returns the message text.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_ett-getprotocolversion">GetProtocolVersion</a>
-</td>
-<td align="left" width="63%">
-Returns the protocol version of the table.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_ett-getversionnumber">GetVersionNumber</a>
-</td>
-<td align="left" width="63%">
-Returns the version number for the ETT.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_ett-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the object.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

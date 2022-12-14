@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.ICodecAPI.SetAllSettings
 title: ICodecAPI::SetAllSettings (strmif.h)
-description: The SetAllSettings method reads codec properties from a stream and sets them on the codec.
+description: The SetAllSettings method reads codec properties from a stream and sets them on the codec. (ICodecAPI.SetAllSettings)
 helpviewer_keywords: ["ICodecAPI interface [DirectShow]","SetAllSettings method","ICodecAPI.SetAllSettings","ICodecAPI::SetAllSettings","ICodecAPISetAllSettings","SetAllSettings","SetAllSettings method [DirectShow]","SetAllSettings method [DirectShow]","ICodecAPI interface","dshow.icodecapi_setallsettings","strmif/ICodecAPI::SetAllSettings"]
 old-location: dshow\icodecapi_setallsettings.htm
 tech.root: dshow

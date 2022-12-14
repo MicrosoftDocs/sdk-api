@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMUSHORT4.XMUSHORT4(constXMUSHORT4&)
 title: XMUSHORT4::XMUSHORT4(const XMUSHORT4 &) (directxpackedvector.h)
-description: A constructor for XMUSHORT4.
+description: A constructor for XMUSHORT4. (overload 1/3)
 helpviewer_keywords: ["XMUSHORT4","XMUSHORT4 constructor [DirectX Math Support APIs]","XMUSHORT4 constructor [DirectX Math Support APIs]","XMUSHORT4 structure","XMUSHORT4 structure [DirectX Math Support APIs]","XMUSHORT4 constructor","XMUSHORT4.XMUSHORT4","XMUSHORT4.XMUSHORT4()","XMUSHORT4.XMUSHORT4(const XMUSHORT4 &)","XMUSHORT4::XMUSHORT4","XMUSHORT4::XMUSHORT4(const XMUSHORT4 &)","dxmath.xmushort4_ctor_1"]
 old-location: dxmath\xmushort4_ctor_1.htm
 tech.root: dxmath
@@ -11,8 +11,8 @@ ms.keywords: XMUSHORT4, XMUSHORT4 constructor [DirectX Math Support APIs], XMUSH
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -58,7 +58,7 @@ A constructor for <a href="/windows/desktop/api/directxpackedvector/ns-directxpa
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A value.
 

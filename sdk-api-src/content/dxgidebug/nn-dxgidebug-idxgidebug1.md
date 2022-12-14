@@ -54,47 +54,7 @@ Controls debug settings for Microsoft DirectX Graphics Infrastructure (DXGI). Yo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDebug1</b> interface inherits from <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgidebug">IDXGIDebug</a>. <b>IDXGIDebug1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDXGIDebug1</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgidebug1-disableleaktrackingforthread">DisableLeakTrackingForThread</a>
-</td>
-<td align="left" width="63%">
-Stops tracking leaks for the current thread.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgidebug1-enableleaktrackingforthread">EnableLeakTrackingForThread</a>
-</td>
-<td align="left" width="63%">
-Starts tracking leaks for the current thread.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgidebug1-isleaktrackingenabledforthread">IsLeakTrackingEnabledForThread</a>
-</td>
-<td align="left" width="63%">
-Gets a value indicating whether leak tracking is turned on for the current thread.
-
-</td>
-</tr>
-</table>
+The <b>IDXGIDebug1</b> interface inherits from <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgidebug">IDXGIDebug</a>. <b>IDXGIDebug1</b> also has these types of members:
 
 ## -remarks
 

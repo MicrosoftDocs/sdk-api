@@ -1,7 +1,7 @@
 ---
 UID: NF:cfgmgr32.CM_Get_HW_Prof_FlagsW
 title: CM_Get_HW_Prof_FlagsW function (cfgmgr32.h)
-description: The CM_Get_HW_Prof_Flags function retrieves the hardware profile-specific configuration flags for a device instance on a local machine.
+description: The CM_Get_HW_Prof_Flags function retrieves the hardware profile-specific configuration flags for a device instance on a local machine. (Unicode)
 helpviewer_keywords: ["CM_Get_HW_Prof_Flags","CM_Get_HW_Prof_Flags function [Device and Driver Installation]","CM_Get_HW_Prof_FlagsA","CM_Get_HW_Prof_FlagsW","cfgmgr32/CM_Get_HW_Prof_Flags","cfgmgr32/CM_Get_HW_Prof_FlagsA","cfgmgr32/CM_Get_HW_Prof_FlagsW","cfgmgrfn_5d158399-60db-47ef-9135-3da047ef7682.xml","devinst.cm_get_hw_prof_flags"]
 old-location: devinst\cm_get_hw_prof_flags.htm
 tech.root: devinst

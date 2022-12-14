@@ -1,15 +1,15 @@
 ---
 UID: NF:processenv.GetEnvironmentStringsW
 title: GetEnvironmentStringsW function (processenv.h)
-description: Retrieves the environment variables for the current process.
+description: The GetEnvironmentStringsW (Unicode) function (processenv.h) retrieves the environment variables for the current process. 
 helpviewer_keywords: ["GetEnvironmentStrings","GetEnvironmentStrings function","GetEnvironmentStringsA","GetEnvironmentStringsW","_win32_getenvironmentstrings","base.getenvironmentstrings","processenv/GetEnvironmentStrings","processenv/GetEnvironmentStringsA","processenv/GetEnvironmentStringsW","winbase/GetEnvironmentStrings","winbase/GetEnvironmentStringsA","winbase/GetEnvironmentStringsW"]
 old-location: base\getenvironmentstrings.htm
 tech.root: backup
 ms.assetid: fb431d83-f3e7-4f2a-bad9-81259681c1f4
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: GetEnvironmentStrings, GetEnvironmentStrings function, GetEnvironmentStringsA, GetEnvironmentStringsW, _win32_getenvironmentstrings, base.getenvironmentstrings, processenv/GetEnvironmentStrings, processenv/GetEnvironmentStringsA, processenv/GetEnvironmentStringsW, winbase/GetEnvironmentStrings, winbase/GetEnvironmentStringsA, winbase/GetEnvironmentStringsW
 req.header: processenv.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -59,7 +59,7 @@ api_name:
 
 Retrieves the environment variables for the current process.
 
-## -parameters
+
 
 ## -returns
 
@@ -72,14 +72,14 @@ If the function fails, the return value is NULL.
 The 
 <b>GetEnvironmentStrings</b> function returns a pointer to a block of memory that contains the environment variables of the calling process (both the system and the user environment variables). Each environment block contains the environment variables in the following format:
 
-<i>Var1</i>
-<i>Value1</i>
-<i>Var2</i>
-<i>Value2</i>
-<i>Var3</i>
-<i>Value3</i>
-<i>VarN</i>
-<i>ValueN</i>
+*Var1*=*Value1*\0<br/>
+*Var2*=*Value2*\0<br/>
+*Var3*=*Value3*\0<br/>
+...<br/>
+*VarN*=*ValueN*\0\0
+
+The name of an environment variable cannot include an equal sign (=).
+
 Treat this memory as read-only; do not modify it directly. To add or change an environment variable, use the 
 <a href="/windows/desktop/api/winbase/nf-winbase-getenvironmentvariable">GetEnvironmentVariable</a> and 
 <a href="/windows/desktop/api/winbase/nf-winbase-setenvironmentvariable">SetEnvironmentVariable</a> functions.

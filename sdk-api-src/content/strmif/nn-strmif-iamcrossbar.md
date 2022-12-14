@@ -57,65 +57,7 @@ This interface is implemented by the <a href="/windows/desktop/DirectShow/analog
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMCrossbar</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMCrossbar</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAMCrossbar</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamcrossbar-canroute">CanRoute</a>
-</td>
-<td align="left" width="63%">
-Queries whether a specified input pin can be routed to a specified output pin.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamcrossbar-get_crossbarpininfo">get_CrossbarPinInfo</a>
-</td>
-<td align="left" width="63%">
-Retrieves information about a specified pin.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamcrossbar-get_isroutedto">get_IsRoutedTo</a>
-</td>
-<td align="left" width="63%">
-Retrieves the input pin that is currently routed to the specified output pin.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamcrossbar-get_pincounts">get_PinCounts</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of input and output pins on the crossbar filter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamcrossbar-route">Route</a>
-</td>
-<td align="left" width="63%">
-Routes an input pin to an output pin.
-
-</td>
-</tr>
-</table>
+The <b>IAMCrossbar</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMCrossbar</b> also has these types of members:
 
 ## -see-also
 

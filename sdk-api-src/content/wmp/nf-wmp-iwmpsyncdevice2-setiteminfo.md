@@ -56,11 +56,11 @@ The <b>setItemInfo</b> method specifies an attribute value for a device.
 
 ### -param bstrItemName [in]
 
-<b>BSTR</b>specifying the name of the attribute on which to set the new value. For supported attribute names, see Remarks.
+<b>BSTR</b> specifying the name of the attribute on which to set the new value. For supported attribute names, see Remarks.
 
 ### -param bstrVal [in]
 
-<b>BSTR</b>specifying the new value. For information about supported values, see Remarks.
+<b>BSTR</b> specifying the new value. For information about supported values, see Remarks.
 
 ## -returns
 
@@ -185,7 +185,7 @@ Requires Windows Media Player 12.
 <tr>
 <td>SyncOnConnect</td>
 <td>
-Specifies whether Windows Media Player should synchronize the device when the device gets conntected. The value "true" specifies that Windows Media Player should synchronize the device, and the value "false" specifies that Windows Media Player should not synchronize the device.
+Specifies whether Windows Media Player should synchronize the device when the device gets connected. The value "true" specifies that Windows Media Player should synchronize the device, and the value "false" specifies that Windows Media Player should not synchronize the device.
 
 Use of this attribute is permitted only for devices with which Windows Media Player has a partnership.
 

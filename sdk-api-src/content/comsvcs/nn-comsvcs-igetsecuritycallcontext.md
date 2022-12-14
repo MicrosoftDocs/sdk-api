@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.IGetSecurityCallContext
 title: IGetSecurityCallContext (comsvcs.h)
-description: Retrieves a reference to an object created from the SecurityCallContext class that is associated with the current call.
+description: Retrieves a reference to an object created from the SecurityCallContext class that is associated with the current call. (IGetSecurityCallContext)
 helpviewer_keywords: ["IGetSecurityCallContext","IGetSecurityCallContext interface [COM+]","IGetSecurityCallContext interface [COM+]","described","_cos_IGetSecurityCallContext","comsvcs/IGetSecurityCallContext","cos.igetsecuritycallcontext"]
 old-location: cos\igetsecuritycallcontext.htm
 tech.root: cos
@@ -54,29 +54,7 @@ Retrieves a reference to an object created from the <a href="/windows/desktop/co
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetSecurityCallContext</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGetSecurityCallContext</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IGetSecurityCallContext</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-igetsecuritycallcontext-getsecuritycallcontext">GetSecurityClassContext</a>
-</td>
-<td align="left" width="63%">
-Retrieves a reference to an object created from the <a href="/windows/desktop/cossdk/securitycallcontext">SecurityCallContext</a> class that is associated with the current call.
-
-</td>
-</tr>
-</table>
+The <b>IGetSecurityCallContext</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGetSecurityCallContext</b> also has these types of members:
 
 ## -see-also
 

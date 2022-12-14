@@ -54,7 +54,7 @@ The <b>ACTCTX_REQUESTED_RUN_LEVEL</b> enumeration describes the requested run le
 
 ## -enum-fields
 
-### -field ACTCTX_RUN_LEVEL_UNSPECIFIED
+### -field ACTCTX_RUN_LEVEL_UNSPECIFIED:0
 
 The application manifest does not specify a requested run level for the application.
 

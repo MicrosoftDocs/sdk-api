@@ -56,38 +56,10 @@ This interface enables a guide store loader running on Windows XP to create tuni
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IChannelTuneRequest</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a>. <b>IChannelTuneRequest</b> also has these types of members:
+The <b>IChannelTuneRequest</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a>. <b>IChannelTuneRequest</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IChannelTuneRequest</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ichanneltunerequest-get_channel">get_Channel</a>
-</td>
-<td align="left" width="63%">
-Gets the channel to be tuned.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ichanneltunerequest-put_channel">put_Channel</a>
-</td>
-<td align="left" width="63%">
-Sets the channel to be tuned.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:wbemglue.CWbemGlueFactory.~CWbemGlueFactory
 title: CWbemGlueFactory::~CWbemGlueFactory
-ms.date: 4/26/2019
+ms.date: 08/15/2022
+description: The CWbemGlueFactory::~CWbemGlueFactory function is a destructor for the CWbemGlueFactory class.
 ms.keywords: CWbemGlueFactory::~CWbemGlueFactory
 targetos: Windows
 req.assembly: 
@@ -17,8 +18,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -43,6 +44,8 @@ api_name:
 ## -description
 
 Destructor for the [CWbemGlueFactory](./nl-wbemglue-cwbemgluefactory.md) class.
+
+
 
 ## -remarks
 

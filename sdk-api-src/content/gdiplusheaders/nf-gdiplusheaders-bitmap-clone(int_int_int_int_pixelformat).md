@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.Clone(INT,INT,INT,INT,PixelFormat)
 title: Bitmap::Clone(IN INT,IN INT,IN INT,IN INT,IN PixelFormat) (gdiplusheaders.h)
-description: The Bitmap::Clone method creates a new Bitmapobject by copying a portion of this bitmap.
+description: The Bitmap::Clone method creates a new Bitmapobject by copying a portion of this bitmap. (overload 1/2)
 helpviewer_keywords: ["Bitmap class [GDI+]","Clone method","Bitmap.Clone","Bitmap.Clone(IN INT","IN INT","IN INT","IN INT","IN PixelFormat)","Bitmap.Clone(INT","INT","INT","INT","PixelFormat)","Bitmap::Clone","Bitmap::Clone(IN INT","IN INT","IN INT","IN INT","IN PixelFormat)","Clone","Clone method [GDI+]","Clone method [GDI+]","Bitmap class","_gdiplus_CLASS_Bitmap_Clone_INT_x_INT_y_INT_width_INT_height_PixelFormat_format_","gdiplus._gdiplus_CLASS_Bitmap_Clone_INT_x_INT_y_INT_width_INT_height_PixelFormat_format_"]
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_Clone_INT_x_INT_y_INT_width_INT_height_PixelFormat_format_.htm
 tech.root: gdiplus
@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 The <b>Bitmap::Clone</b> method creates a new 
-			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>object by copying a portion of this bitmap.
+			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> object by copying a portion of this bitmap.
 
 ## -parameters
 
@@ -92,7 +92,7 @@ Integer that specifies the pixel format of the new bitmap. The
 Type: <b><a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>*</b>
 
 This method returns a pointer to the new 
-						<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>object.
+						<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> object.
 
 ## -see-also
 

@@ -54,7 +54,7 @@ The <b>wglDeleteContext</b> function deletes a specified OpenGL rendering contex
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Handle to an OpenGL rendering context that the function will delete.
 

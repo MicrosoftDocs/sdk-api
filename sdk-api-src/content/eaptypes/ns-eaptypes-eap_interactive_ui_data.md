@@ -90,9 +90,7 @@ An <a href="/windows/desktop/api/eaptypes/ne-eaptypes-eap_interactive_ui_data_ty
 
 The size of the data pointed to by <i>pbUiData</i>, in bytes.
 
-### -field pbUiData.switch_is
 
-### -field pbUiData.switch_is.dwDataType
 
 ### -field pbUiData
 

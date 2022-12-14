@@ -4,12 +4,12 @@ title: CreateRemoteThread function (processthreadsapi.h)
 description: Creates a thread that runs in the virtual address space of another process.
 helpviewer_keywords: ["CREATE_SUSPENDED","CreateRemoteThread","CreateRemoteThread function","STACK_SIZE_PARAM_IS_A_RESERVATION","_win32_createremotethread","base.createremotethread","processthreadsapi/CreateRemoteThread","winbase/CreateRemoteThread"]
 old-location: base\createremotethread.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: f5257f78-b20f-4db5-b63e-3bb4e41a4b19
 ms.date: 12/05/2018
 ms.keywords: CREATE_SUSPENDED, CreateRemoteThread, CreateRemoteThread function, STACK_SIZE_PARAM_IS_A_RESERVATION, _win32_createremotethread, base.createremotethread, processthreadsapi/CreateRemoteThread, winbase/CreateRemoteThread
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -159,7 +159,7 @@ Note that
 The 
 <b>CreateRemoteThread</b> function causes a new thread of execution to begin in the address space of the specified process. The thread has access to all objects that the process opens.
 
-Terminal Services isolates each terminal session by design. Therefore, 
+Prior to Windows 8, Terminal Services isolates each terminal session by design. Therefore, 
 <b>CreateRemoteThread</b> fails if the target process is in a different session than the calling process.
 
 The new thread handle is created with full access to the new thread. If a security descriptor is not provided, the handle may be used in any function that requires a thread object handle. When a security descriptor is provided, an access check is performed on all subsequent uses of the handle before access is granted. If the access check denies access, the requesting process cannot use the handle to gain access to the thread.

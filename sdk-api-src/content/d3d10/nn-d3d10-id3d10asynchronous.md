@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10.ID3D10Asynchronous
 title: ID3D10Asynchronous (d3d10.h)
-description: This interface encapsulates methods for retrieving data from the GPU asynchronously.
+description: This interface encapsulates methods for retrieving data from the GPU asynchronously. (ID3D10Asynchronous)
 helpviewer_keywords: ["ID3D10Asynchronous","ID3D10Asynchronous interface [Direct3D 10]","ID3D10Asynchronous interface [Direct3D 10]","described","bbcae8e9-6f10-e6ca-52e5-20302edce780","d3d10/ID3D10Asynchronous","direct3d10.id3d10asynchronous"]
 old-location: direct3d10\id3d10asynchronous.htm
 tech.root: direct3d10
@@ -55,56 +55,7 @@ This interface encapsulates methods for retrieving data from the GPU asynchronou
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Asynchronous</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>. <b>ID3D10Asynchronous</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D10Asynchronous</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-begin">Begin</a>
-</td>
-<td align="left" width="63%">
-Starts the collection of GPU data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-end">End</a>
-</td>
-<td align="left" width="63%">
-Ends the collection of GPU data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">GetData</a>
-</td>
-<td align="left" width="63%">
-Get data from the GPU asynchronously.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdatasize">GetDataSize</a>
-</td>
-<td align="left" width="63%">
-Get the size of the data (in bytes) that is output when calling <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a>.
-
-</td>
-</tr>
-</table>
+The <b>ID3D10Asynchronous</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>. <b>ID3D10Asynchronous</b> also has these types of members:
 
 ## -remarks
 

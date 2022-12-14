@@ -58,7 +58,7 @@ The <b>CM_Get_DevNode_Status</b> function obtains the status of a device instanc
 
 ### -param pulStatus [out]
 
-Address of a location to receive status bit flags. The function can set any combination of the <b>DN_-</b>prefixed bit flags defined in <i>Cfg.h</i>.
+Address of a location to receive status bit flags. The function can set any combination of the <b>DN_-</b> prefixed bit flags defined in <i>Cfg.h</i>.
 
 ### -param pulProblemNumber [out]
 

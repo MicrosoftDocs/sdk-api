@@ -52,7 +52,7 @@ api_name:
 
 The <b>Destroy</b> method is called by Windows Media Player to shut down the plug-in user interface. This occurs when the user closes a plug-in in a separate window, switches out of the <b>Now Playing</b> pane, or selects a different display, settings, or metadata area plug-in to display in the <b>Now Playing</b> pane.
 
-## -parameters
+
 
 ## -returns
 

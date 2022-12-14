@@ -57,40 +57,10 @@ The <b>IWMPRenderConfig</b> interface provides methods to specify or retrieve a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPRenderConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPRenderConfig</b> also has these types of members:
+The <b>IWMPRenderConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPRenderConfig</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMPRenderConfig</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmprealestate/nf-wmprealestate-iwmprenderconfig-get_inproconly">get_inProcOnly</a>
-</td>
-<td align="left" width="63%">
-Retrieves a value indicating whether playback is restricted to the current process.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmprealestate/nf-wmprealestate-iwmprenderconfig-put_inproconly">put_inProcOnly</a>
-</td>
-<td align="left" width="63%">
-Specifies a value indicating whether playback is restricted to the current process.
-
-</td>
-</tr>
-</table> 
-
-Retrieve a pointer to <b>IWMPRenderConfig</b> by calling <b>QueryInterface</b> through a pointer to <a href="/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer</a>.
 
 ## -see-also
 

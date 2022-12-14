@@ -54,38 +54,10 @@ The <b>IWMPPlaylistArray</b> interface provides methods for accessing a collecti
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlaylistArray</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPPlaylistArray</b> also has these types of members:
+The <b>IWMPPlaylistArray</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPPlaylistArray</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMPPlaylistArray</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistarray-get_count">get_count</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of playlists in the playlist array.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistarray-item">item</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to the <b>IWMPPlaylist</b> interface representing the playlist at the specified index.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

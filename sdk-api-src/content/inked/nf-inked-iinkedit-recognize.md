@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.Recognize
 title: IInkEdit::Recognize (inked.h)
-description: Performs recognition on an InkStrokes collection and returns recognition results.
+description: Performs recognition on an InkStrokes collection and returns recognition results. (IInkEdit.Recognize)
 helpviewer_keywords: ["IInkEdit interface [Tablet PC]","Recognize method","IInkEdit.Recognize","IInkEdit::Recognize","Recognize","Recognize method [Tablet PC]","Recognize method [Tablet PC]","IInkEdit interface","e22043da-6c38-49e2-9651-43211ce7f377","inked/IInkEdit::Recognize","tablet.inkedit_recognize"]
 old-location: tablet\inkedit_recognize.htm
 tech.root: tablet
@@ -53,7 +53,7 @@ api_name:
 
 Performs recognition on an <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection and returns recognition results.
 
-## -parameters
+
 
 ## -returns
 
@@ -90,7 +90,7 @@ An exception occurred inside the method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="../inked/nn-inked-iinkedit.md">IInkEdit</a>
 
 
 

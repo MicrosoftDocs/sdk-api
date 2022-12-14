@@ -52,7 +52,7 @@ api_name:
 
 The <b>Finalize</b> method prevents a side-by-side  assembly name from being changed. After <b>Finalize</b> is called, additional calls to the <a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-setproperty">SetProperty</a> returns <b>E_UNEXPECTED</b>.
 
-## -parameters
+
 
 ## -returns
 

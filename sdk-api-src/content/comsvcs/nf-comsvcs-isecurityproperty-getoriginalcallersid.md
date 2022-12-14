@@ -113,7 +113,7 @@ You use the
      The following scenario illustrates the functionality of the 
      <b>GetOriginalCallerSID</b> method.
 
-<img alt="" src="./images/ff4d2c22-6e80-48e0-a6ca-4622b703e9e9.png"/>
+:::image type="content" source="./images/ff4d2c22-6e80-48e0-a6ca-4622b703e9e9.png" border="false" alt-text="Diagram showing the results of the GetOriginalCallerSID method for object references passed between four servers running two base processes.":::
 
 <ol>
 <li>Base Process 1, running on Server A as user A, creates Object X, on Server B, running as user B.</li>

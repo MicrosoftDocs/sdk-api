@@ -1,7 +1,7 @@
 ---
 UID: NF:commdlg.GetFileTitleW
 title: GetFileTitleW function (commdlg.h)
-description: Retrieves the name of the specified file.
+description: Retrieves the name of the specified file. (Unicode)
 helpviewer_keywords: ["GetFileTitle","GetFileTitle function [Dialog Boxes]","GetFileTitleA","GetFileTitleW","_win32_GetFileTitle","_win32_getfiletitle_cpp","commdlg/GetFileTitle","commdlg/GetFileTitleA","commdlg/GetFileTitleW","dlgbox.getfiletitle","winui._win32_getfiletitle"]
 old-location: dlgbox\getfiletitle.htm
 tech.root: dlgbox
@@ -46,6 +46,7 @@ api_name:
  - GetFileTitle
  - GetFileTitleA
  - GetFileTitleW
+req.apiset: ext-ms-win-shell-comdlg32-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetFileTitleW function
@@ -57,7 +58,7 @@ Retrieves the name of the specified file.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Type: <b>LPCTSTR</b>
 

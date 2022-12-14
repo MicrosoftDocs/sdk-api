@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-These are the operational enum values that are passed to <a href="https://msdn.microsoft.com/en-us/library/Mt830292(v=VS.85).aspx">KeyCredentialManagerShowUIOperation</a>.
+These are the operational enum values that are passed to <a href="../keycredmgr/nf-keycredmgr-keycredentialmanagershowuioperation.md">KeyCredentialManagerShowUIOperation</a>.
 
 ## -enum-fields
 
-### -field KeyCredentialManagerProvisioning
+### -field KeyCredentialManagerProvisioning:0
 
 Start the Provisioning operation.
 
-### -field KeyCredentialManagerPinChange
+### -field KeyCredentialManagerPinChange:1
 
 Start the User Change PIN operation.
 
-### -field KeyCredentialManagerPinReset
+### -field KeyCredentialManagerPinReset:2
 
 Start the User PIN Reset operation.
 

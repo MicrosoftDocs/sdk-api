@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv._VDS_STORAGE_POOL_TYPE
 title: VDS_STORAGE_POOL_TYPE (vdshwprv.h)
-description: Defines the set of storage pool types.
+description: The VDS_STORAGE_POOL_TYPE enumeration (vdshwprv.h) defines the set of storage pool types. 
 helpviewer_keywords: ["VDS_SPT_CONCRETE","VDS_SPT_PRIMORDIAL","VDS_SPT_UNKNOWN","VDS_STORAGE_POOL_TYPE","VDS_STORAGE_POOL_TYPE enumeration","base.vds_storage_pool_type","vds/VDS_SPT_CONCRETE","vds/VDS_SPT_PRIMORDIAL","vds/VDS_SPT_UNKNOWN","vds/VDS_STORAGE_POOL_TYPE","vdshwprv/VDS_SPT_CONCRETE","vdshwprv/VDS_SPT_PRIMORDIAL","vdshwprv/VDS_SPT_UNKNOWN","vdshwprv/VDS_STORAGE_POOL_TYPE"]
 old-location: base\vds_storage_pool_type.htm
 tech.root: base
 ms.assetid: 813d3452-46ad-4f7a-ab53-e3f6577b00ba
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: VDS_SPT_CONCRETE, VDS_SPT_PRIMORDIAL, VDS_SPT_UNKNOWN, VDS_STORAGE_POOL_TYPE, VDS_STORAGE_POOL_TYPE enumeration, base.vds_storage_pool_type, vds/VDS_SPT_CONCRETE, vds/VDS_SPT_PRIMORDIAL, vds/VDS_SPT_UNKNOWN, vds/VDS_STORAGE_POOL_TYPE, vdshwprv/VDS_SPT_CONCRETE, vdshwprv/VDS_SPT_PRIMORDIAL, vdshwprv/VDS_SPT_UNKNOWN, vdshwprv/VDS_STORAGE_POOL_TYPE
 req.header: vdshwprv.h
 req.include-header: 
@@ -59,15 +59,15 @@ Defines the set of <a href="/windows/desktop/VDS/storage-pool-object">storage po
 
 ## -enum-fields
 
-### -field VDS_SPT_UNKNOWN
+### -field VDS_SPT_UNKNOWN:0
 
 The storage pool type is unknown.
 
-### -field VDS_SPT_PRIMORDIAL
+### -field VDS_SPT_PRIMORDIAL:0x1
 
 The storage pool type is primordial.
 
-### -field VDS_SPT_CONCRETE
+### -field VDS_SPT_CONCRETE:0x2
 
 The storage pool type is concrete (non-primordial).
 

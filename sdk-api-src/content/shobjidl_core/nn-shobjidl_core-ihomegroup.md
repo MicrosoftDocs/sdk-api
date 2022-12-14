@@ -54,38 +54,7 @@ Exposes methods that determine a computer's HomeGroup membership status and disp
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHomeGroup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHomeGroup</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IHomeGroup</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ihomegroup-ismember">IsMember</a>
-</td>
-<td align="left" width="63%">
-Determines whether the local computer is a member of a HomeGroup.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ihomegroup-showsharingwizard">ShowSharingWizard</a>
-</td>
-<td align="left" width="63%">
-Displays a wizard that allows a user to create a Home Group, and then retrieves the sharing options that the user selected through the wizard.
-
-</td>
-</tr>
-</table>
+The <b>IHomeGroup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHomeGroup</b> also has these types of members:
 
 ## -remarks
 

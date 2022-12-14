@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device8.CreateCommittedResource2
 title: ID3D12Device8::CreateCommittedResource2
-description: Creates both a resource and an implicit heap (optionally for a protected session), such that the heap is big enough to contain the entire resource, and the resource is mapped to the heap.
+description: Creates both a resource and an implicit heap (optionally for a protected session), such that the heap is big enough to contain the entire resource, and the resource is mapped to the heap. (ID3D12Device8::CreateCommittedResource2)
 helpviewer_keywords: ["ID3D12Device8 interface","CreateCommittedResource2 method","ID3D12Device8.CreateCommittedResource2","ID3D12Device8::CreateCommittedResource2","CreateCommittedResource2","CreateCommittedResource2 method","CreateCommittedResource2 method","ID3D12Device8 interface","direct3d12.id3d12device7_createcommittedresource2","d3d12/ID3D12Device8::CreateCommittedResource2"]
 tech.root: direct3d12
 ms.date: 09/16/2020
@@ -19,8 +19,8 @@ req.lib: d3d12.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -48,7 +48,7 @@ Creates both a resource and an implicit heap (optionally for a protected session
 
 ### -param pHeapProperties
 
-Type: _In_ **const [D3D12_HEAP_PROPERTIES](/windows/win32/api/d3d12/ns-d3d12-d3d12_heap_properties)\***
+Type: \_In\_ **const [D3D12_HEAP_PROPERTIES](/windows/win32/api/d3d12/ns-d3d12-d3d12_heap_properties)\***
 
 A pointer to a **D3D12_HEAP_PROPERTIES** structure that provides properties for the resource's heap.
 
@@ -60,7 +60,6 @@ Heap options, as a bitwise-OR'd combination of **D3D12_HEAP_FLAGS** enumeration 
 
 ### -param pDesc
 
-_In_ const D3D12_RESOURCE_DESC1 *pDesc,
 Type: **const [D3D12_RESOURCE_DESC1](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_desc1)\***
 
 A pointer to a **D3D12_RESOURCE_DESC1** structure that describes the resource, including a mip region.

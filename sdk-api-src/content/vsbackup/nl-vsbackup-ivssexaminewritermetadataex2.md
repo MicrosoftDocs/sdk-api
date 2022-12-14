@@ -63,47 +63,7 @@ To obtain an instance of the <b>IVssExamineWriterMetadataEx2</b>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssExamineWriterMetadataEx2</b> interface inherits from <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadataex">IVssExamineWriterMetadataEx</a>. <b>IVssExamineWriterMetadataEx2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVssExamineWriterMetadataEx2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex2-getexcludefromsnapshotcount">GetExcludeFromSnapshotCount</a>
-</td>
-<td align="left" width="63%">
-Obtains the number of <a href="/windows/desktop/VSS/vssgloss-f">file sets</a> that have been explicitly excluded from a given shadow copy.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex2-getexcludefromsnapshotfile">GetExcludeFromSnapshotFile</a>
-</td>
-<td align="left" width="63%">
-Obtains information about <a href="/windows/desktop/VSS/vssgloss-f">file sets</a> that have been explicitly excluded from a given shadow copy.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex2-getversion">GetVersion</a>
-</td>
-<td align="left" width="63%">
-Obtains the version information for a writer application.
-
-</td>
-</tr>
-</table>
+The <b>IVssExamineWriterMetadataEx2</b> interface inherits from <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadataex">IVssExamineWriterMetadataEx</a>. <b>IVssExamineWriterMetadataEx2</b> also has these types of members:
 
 ## -see-also
 

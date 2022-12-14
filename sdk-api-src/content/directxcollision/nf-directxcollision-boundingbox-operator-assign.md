@@ -53,7 +53,7 @@ Copies values from another BoundingBox.
 
 ## -parameters
 
-### -param arg1 [in, ref]
+### -param unnamedParam1 [in, ref]
 
 The BoundingBox to copy values from.
 

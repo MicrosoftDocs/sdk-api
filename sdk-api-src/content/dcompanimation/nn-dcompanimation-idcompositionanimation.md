@@ -54,74 +54,7 @@ Represents a function for animating one or more  properties of one or more  Micr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionAnimation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDCompositionAnimation</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDCompositionAnimation</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-addcubic">AddCubic</a>
-</td>
-<td align="left" width="63%">
-Adds a cubic polynomial segment to the animation function.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-addrepeat">AddRepeat</a>
-</td>
-<td align="left" width="63%">
-Adds a repeat segment that causes the specified portion of an animation function to be repeated.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-addsinusoidal">AddSinusoidal</a>
-</td>
-<td align="left" width="63%">
-Adds a sinusoidal segment to the animation function.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-end">End</a>
-</td>
-<td align="left" width="63%">
-Adds an end segment that marks the end of an animation function.  
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the animation function so that it contains no segments.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-setabsolutebegintime">SetAbsoluteBeginTime</a>
-</td>
-<td align="left" width="63%">
-Sets the absolute time at which the animation function starts.
-
-</td>
-</tr>
-</table>
+The <b>IDCompositionAnimation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDCompositionAnimation</b> also has these types of members:
 
 ## -see-also
 

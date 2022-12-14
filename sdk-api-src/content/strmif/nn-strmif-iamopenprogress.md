@@ -59,35 +59,5 @@ The <a href="/windows/desktop/DirectShow/file-source--url--filter">File Source (
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMOpenProgress</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMOpenProgress</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAMOpenProgress</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMOpenProgress</b> also has these types of members:
 
-## -members
-
-The <b>IAMOpenProgress</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamopenprogress-abortoperation">AbortOperation</a>
-</td>
-<td align="left" width="63%">
-Cancels the file-open operation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamopenprogress-queryprogress">QueryProgress</a>
-</td>
-<td align="left" width="63%">
-Retrieves the progress of the file-open operation.
-
-</td>
-</tr>
-</table>

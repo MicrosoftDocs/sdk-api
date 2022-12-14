@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
 api_name:
  - SetupDiEnumDeviceInterfaces
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupDiEnumDeviceInterfaces function
@@ -88,7 +89,7 @@ Repeated calls to this function return an <a href="/windows/desktop/api/setupapi
 
 <i>DeviceInterfaceData</i> points to a structure that identifies a requested device interface. To get detailed information about an interface, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacedetaila">SetupDiGetDeviceInterfaceDetail</a>. The detailed information includes the name of the device interface that can be passed to a Win32 function such as <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> (described in Microsoft Windows SDK documentation) to get a handle to the interface.
 
-See <a href="/previous-versions/ff553412(v=vs.85)">System Defined Device Interface Classes</a> for a list of available device interface classes.
+See <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">Overview of Device Interface Classes</a> for more info.
 
 ## -see-also
 

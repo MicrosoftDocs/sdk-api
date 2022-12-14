@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddString(constWCHAR,INT,constFontFamily,INT,REAL,constRectF&,constStringFormat)
 title: GraphicsPath::AddString(IN const WCHAR,IN INT,IN const FontFamily,IN INT,IN REAL,IN const RectF &,IN const StringFormat) (gdipluspath.h)
-description: The GraphicsPath::AddString method adds the outline of a string to this path.
+description: The GraphicsPath::AddString method adds the outline of a string to this path. (overload 2/3)
 helpviewer_keywords: ["AddString","AddString method [GDI+]","AddString method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","AddString method","GraphicsPath.AddString","GraphicsPath.AddString(IN const WCHAR","IN INT","IN const FontFamily","IN INT","IN REAL","IN const RectF &","IN const StringFormat)","GraphicsPath.AddString(const WCHAR*","INT","const FontFamily*","INT","REAL","const RectF&","const StringFormat*)","GraphicsPath::AddString","GraphicsPath::AddString(IN const WCHAR","IN INT","IN const FontFamily","IN INT","IN REAL","IN const RectF &","IN const StringFormat)","_gdiplus_CLASS_GraphicsPath_AddString_wifirr","gdiplus._gdiplus_CLASS_GraphicsPath_AddString_wifirr"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddString_wifirr.htm
 tech.root: gdiplus

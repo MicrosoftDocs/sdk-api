@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasGetAutodialParamA
 title: RasGetAutodialParamA function (ras.h)
-description: The RasGetAutodialParam function retrieves the value of an AutoDial parameter.
+description: The RasGetAutodialParam function retrieves the value of an AutoDial parameter. (ANSI)
 helpviewer_keywords: ["RASADP_ConnectionQueryTimeout","RASADP_DisableConnectionQuery","RASADP_FailedConnectionTimeout","RASADP_LoginSessionDisable","RASADP_SavedAddressesLimit","RasGetAutodialParam","RasGetAutodialParam function [RAS]","RasGetAutodialParamA","RasGetAutodialParamW","_ras_rasgetautodialparam","ras/RasGetAutodialParam","ras/RasGetAutodialParamA","ras/RasGetAutodialParamW","rras.rasgetautodialparam"]
 old-location: rras\rasgetautodialparam.htm
 tech.root: RRAS
@@ -57,7 +57,7 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Specifies the AutoDial parameter to retrieve. This parameter can be one of the following values. 
 
@@ -121,11 +121,11 @@ The <i>lpvValue</i> parameter points to a <b>DWORD</b> value that indicates a ti
 </tr>
 </table>
 
-### -param arg2 [out]
+### -param unnamedParam2 [out]
 
 Pointer to a buffer that receives the value for the specified parameter.
 
-### -param arg3 [in, out]
+### -param unnamedParam3 [in, out]
 
 Pointer to a <b>DWORD</b> value. 
 

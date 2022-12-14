@@ -16,7 +16,9 @@ f1_keywords:
 
 ## -description
 
-This header is used by Component Object Model (COM). For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Component Object Model (COM)](../_com/index.md)
+- [DirectShow](/windows/win32/directshow/directshow)
+- [Windows Search](../_search/index.md)
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.StartDocA
 title: StartDocA function (wingdi.h)
-description: The StartDoc function starts a print job.
+description: The StartDoc function starts a print job. (ANSI)
 helpviewer_keywords: ["StartDoc","StartDoc function [Windows GDI]","StartDocA","StartDocW","_win32_StartDoc","gdi.startdoc","wingdi/StartDoc","wingdi/StartDocA","wingdi/StartDocW"]
 old-location: gdi\startdoc.htm
 tech.root: xps

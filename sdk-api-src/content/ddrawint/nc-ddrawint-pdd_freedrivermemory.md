@@ -52,7 +52,7 @@ The <b>DdFreeDriverMemory</b> callback function frees offscreen or nonlocal disp
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_freedrivermemorydata">DD_FREEDRIVERMEMORYDATA</a> structure that contains the details of the free request.

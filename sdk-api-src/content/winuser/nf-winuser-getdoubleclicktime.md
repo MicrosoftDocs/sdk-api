@@ -46,6 +46,7 @@ api_location:
  - ie_stubs.dll
 api_name:
  - GetDoubleClickTime
+req.apiset: ext-ms-win-ntuser-mouse-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetDoubleClickTime function
@@ -55,7 +56,7 @@ api_name:
 
 Retrieves the current double-click time for the mouse. A double-click is a series of two clicks of the mouse button, the second occurring within a specified time after the first. The double-click time is the maximum number of milliseconds that may occur between the first and second click of a double-click. The maximum double-click time is 5000 milliseconds.
 
-## -parameters
+
 
 ## -returns
 

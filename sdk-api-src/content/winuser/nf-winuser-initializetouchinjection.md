@@ -48,6 +48,7 @@ api_location:
  - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
  - InitializeTouchInjection
+req.apiset: ext-ms-win-rtcore-ntuser-wmpointer-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # InitializeTouchInjection function

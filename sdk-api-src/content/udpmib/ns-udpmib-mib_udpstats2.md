@@ -1,7 +1,7 @@
 ---
 UID: NS:udpmib._MIB_UDPSTATS2
 title: MIB_UDPSTATS2 (udpmib.h)
-description: Contains statistics for the User Datagram Protocol (UDP) running on the local computer.
+description: Contains statistics for the User Datagram Protocol (UDP) running on the local computer. (MIB_UDPSTATS2)
 helpviewer_keywords: ["*PMIB_UDPSTATS2","MIB_UDPSTATS2","MIB_UDPSTATS2 structure [MIB]","PMIB_UDPSTATS2","PMIB_UDPSTATS2 structure pointer [MIB]","mib.mib_udpstats2","udpmib/MIB_UDPSTATS","udpmib/PMIB_UDPSTATS2"]
 old-location: mib\mib_udpstats2.htm
 tech.root: MIB
@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 The 
 <b>MIB_UDPSTATS2</b> structure contains statistics for the User Datagram Protocol (UDP) running on the local computer. This structure is different from <a href="/windows/desktop/api/udpmib/ns-udpmib-mib_udpstats">MIB_UDPSTATS</a> structure in that it uses 64-bit counters, rather than 32-bit counters.

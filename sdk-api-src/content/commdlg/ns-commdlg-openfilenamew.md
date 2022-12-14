@@ -1,7 +1,7 @@
 ---
 UID: NS:commdlg.tagOFNW
 title: OPENFILENAMEW (commdlg.h)
-description: Contains information that the GetOpenFileName and GetSaveFileName functions use to initialize an Open or Save As dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
+description: Contains information that the GetOpenFileName and GetSaveFileName functions use to initialize an Open or Save As dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure. (Unicode)
 helpviewer_keywords: ["*LPOPENFILENAMEW","LPOPENFILENAME","LPOPENFILENAME structure pointer [Dialog Boxes]","OFN_ALLOWMULTISELECT","OFN_CREATEPROMPT","OFN_DONTADDTORECENT","OFN_ENABLEHOOK","OFN_ENABLEINCLUDENOTIFY","OFN_ENABLESIZING","OFN_ENABLETEMPLATE","OFN_ENABLETEMPLATEHANDLE","OFN_EXPLORER","OFN_EXTENSIONDIFFERENT","OFN_EX_NOPLACESBAR","OFN_FILEMUSTEXIST","OFN_FORCESHOWHIDDEN","OFN_HIDEREADONLY","OFN_LONGNAMES","OFN_NOCHANGEDIR","OFN_NODEREFERENCELINKS","OFN_NOLONGNAMES","OFN_NONETWORKBUTTON","OFN_NOREADONLYRETURN","OFN_NOTESTFILECREATE","OFN_NOVALIDATE","OFN_OVERWRITEPROMPT","OFN_PATHMUSTEXIST","OFN_READONLY","OFN_SHAREAWARE","OFN_SHOWHELP","OPENFILENAME","OPENFILENAME structure [Dialog Boxes]","OPENFILENAMEA","OPENFILENAMEW","_win32_OPENFILENAME_str","_win32_openfilename_str_cpp","commdlg/LPOPENFILENAME","commdlg/OPENFILENAME","commdlg/OPENFILENAMEA","commdlg/OPENFILENAMEW","dlgbox.openfilename_str","winui._win32_openfilename_str"]
 old-location: dlgbox\openfilename_str.htm
 tech.root: dlgbox
@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Starting with Windows Vista, the <b>Open</b> and <b>Save As</b> common dialog boxes have been superseded by the <a href="/previous-versions/windows/desktop/legacy/bb776913(v=vs.85)">Common Item Dialog</a>. We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.]
+<p class="CCE_Message">[Starting with Windows Vista, the <b>Open</b> and <b>Save As</b> common dialog boxes have been superseded by the <a href="/windows/win32/shell/common-file-dialog">Common Item Dialog</a>. We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.]
 
 Contains information that the <a href="/windows/desktop/api/commdlg/nf-commdlg-getopenfilenamea">GetOpenFileName</a> and <a href="/windows/desktop/api/commdlg/nf-commdlg-getsavefilenamea">GetSaveFileName</a> functions use to initialize an <b>Open</b> or <b>Save As</b> dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
 
@@ -530,7 +530,11 @@ The name of the dialog template resource in the module identified by the <b>hIns
 
 ### -field lpEditInfo
 
+This member is conditionally compiled (using `#ifdef _MAC`) so that it is applicable only to Motorola 68K Macintosh computers, and not to Windows client operating systems.
+
 ### -field lpstrPrompt
+
+This member is conditionally compiled (using `#ifdef _MAC`) so that it is applicable only to Motorola 68K Macintosh computers, and not to Windows client operating systems.
 
 ### -field pvReserved
 

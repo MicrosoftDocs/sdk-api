@@ -1,12 +1,12 @@
 ---
 UID: NF:ole.OleDraw
 title: OleDraw function (ole.h)
-description: Enables drawing objects more easily. You can use it instead of calling IViewObject::Draw directly.
+description: The OleDraw function (ole.h) enables drawing objects more easily. You can use it instead of calling IViewObject::Draw directly.
 helpviewer_keywords: ["OleDraw","OleDraw function [COM]","_ole_OleDraw","com.oledraw","ole/OleDraw"]
 old-location: com\oledraw.htm
 tech.root: com
 ms.assetid: c45c6746-59ea-43bb-9f2b-2182d7a3fc7a
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: OleDraw, OleDraw function [COM], _ole_OleDraw, com.oledraw, ole/OleDraw
 req.header: ole.h
 req.include-header: Ole2.h
@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
  - OleDraw
+req.apiset: ext-ms-win-com-ole32-l1-1-3 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # OleDraw function
@@ -56,23 +57,23 @@ Enables drawing objects more easily. You can use it instead of calling <a href="
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 TBD
 
-### -param arg2
+### -param unnamedParam2
 
 TBD
 
-### -param arg3
+### -param unnamedParam3
 
 TBD
 
-### -param arg4
+### -param unnamedParam4
 
 TBD
 
-### -param arg5
+### -param unnamedParam5
 
 TBD
 
@@ -91,7 +92,7 @@ Device context on which to draw. Cannot be a metafile device context.
 
 #### - lprcBounds [in]
 
-Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure specifying the rectangle in which the object should be drawn. This parameter is converted to a <a href="/previous-versions/dd162907(v=vs.85)">RECTL</a> structure and passed to <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a>.
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure specifying the rectangle in which the object should be drawn. This parameter is converted to a <a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure and passed to <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a>.
 
 
 #### - pUnknown [in]
@@ -188,9 +189,13 @@ The object doesn't support the <a href="/windows/desktop/api/oleidl/nn-oleidl-iv
 
 ## -remarks
 
-The OleDraw helper function calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method for the object specified (pUnk), asking for an <a href="/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a> interface on that object. Then, <b>OleDraw</b> converts the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure to a <a href="/previous-versions/dd162907(v=vs.85)">RECTL</a> structure, and calls <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a> as follows:
+The OleDraw helper function calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method for the object specified (pUnk), asking for an <a href="/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a> interface on that object. Then, <b>OleDraw</b> converts the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure to a <a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure, and calls <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a> as follows:
 
-<pre class="syntax" xml:space="preserve"><code>lpViewObj-&gt;Draw(dwAspect,-1,0,0,0,hdcDraw,&amp;rectl,0,0,0);</code></pre>
+
+``` syntax
+lpViewObj-&gt;Draw(dwAspect,-1,0,0,0,hdcDraw,&amp;rectl,0,0,0);
+```
+
 Do not use this function to draw into a metafile because it does not specify the parameter required for drawing into metafiles.
 
 ## -see-also

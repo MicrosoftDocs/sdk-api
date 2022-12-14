@@ -54,7 +54,7 @@ Returns an executable function corresponding to the AtlThunkData_t parameter.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 The ATL thunk.
 

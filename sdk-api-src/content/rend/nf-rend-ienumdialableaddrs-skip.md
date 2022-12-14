@@ -1,7 +1,7 @@
 ---
 UID: NF:rend.IEnumDialableAddrs.Skip
 title: IEnumDialableAddrs::Skip (rend.h)
-description: The Skip method skips over the next specified number of elements in the enumeration sequence.
+description: The Skip method skips over the next specified number of elements in the enumeration sequence. (IEnumDialableAddrs.Skip)
 helpviewer_keywords: ["IEnumDialableAddrs interface [TAPI 2.2]","Skip method","IEnumDialableAddrs.Skip","IEnumDialableAddrs::Skip","Skip","Skip method [TAPI 2.2]","Skip method [TAPI 2.2]","IEnumDialableAddrs interface","_tapi3_ienumdialableaddrs_skip","rend/IEnumDialableAddrs::Skip","tapi3.ienumdialableaddrs_skip"]
 old-location: tapi3\ienumdialableaddrs_skip.htm
 tech.root: tapi3

@@ -74,13 +74,13 @@ The peer target name for the socket.
 
 ## -remarks
 
-The <b>SOCKET_PEER_TARGET_NAME</b> structure  is supported on Windows Vistaand later.
+The <b>SOCKET_PEER_TARGET_NAME</b> structure  is supported on Windows Vista and later.
 
 The <b>SOCKET_PEER_TARGET_NAME</b> structure  is used by the <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname">WSASetSocketPeerTargetName</a> function to specify the peer target name that corresponds to a peer IP address.  This target name is meant to be specified by client applications to securely identify the peer that should be authenticated.
 
 Currently, the only type of security protocol that is supported is IPsec. So specifying an enumeration value  of <b>SOCKET_SECURITY_PROTOCOL_DEFAULT</b> has the same effect as specifying <b>SOCKET_SECURITY_PROTOCOL_IPSEC</b> in the <b>SecurityProtocol</b> member. 
 
-The implementation of IPsec on Windows Vistaand Windows Server 2008 only supports computer-to-computer and user-to-computer authentication. As a result, the peer target name specified in the <b>AllStrings</b> member of the <b>SOCKET_PEER_TARGET_NAME</b> structure  should refer to the peer computer principal.
+The implementation of IPsec on Windows Vista and Windows Server 2008 only supports computer-to-computer and user-to-computer authentication. As a result, the peer target name specified in the <b>AllStrings</b> member of the <b>SOCKET_PEER_TARGET_NAME</b> structure  should refer to the peer computer principal.
 
 ## -see-also
 

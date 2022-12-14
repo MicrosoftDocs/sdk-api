@@ -56,7 +56,7 @@ api_name:
 
 Determines whether the call being executed on the server has been canceled by the client.
 
-## -parameters
+
 
 ## -returns
 

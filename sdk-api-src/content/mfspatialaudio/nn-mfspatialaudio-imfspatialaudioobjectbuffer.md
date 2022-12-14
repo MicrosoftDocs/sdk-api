@@ -57,69 +57,7 @@ spatial audio information between Media Foundation components.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSpatialAudioObjectBuffer</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a>. <b>IMFSpatialAudioObjectBuffer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFSpatialAudioObjectBuffer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudioobjectbuffer-getid">GetID</a>
-</td>
-<td align="left" width="63%">
-Returns the unique, unsigned 32-bit ID of the spatial audio object represented by the buffer.
-    If <a href="/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudioobjectbuffer-setid">SetID</a> method was not previously called, this method returns the invalid object ID, -1 
-    (0xffffffff).  The invalid ID indicates that the object buffer is unused and
-    contains invalid data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudioobjectbuffer-getmetadataitems">GetMetadataItems</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to a buffer that may 
-    contain spatial audio metadata.  
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudioobjectbuffer-gettype">GetType</a>
-</td>
-<td align="left" width="63%">
-Gets the type of the spatial audio object represented by the buffer. If <a href="/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudioobjectbuffer-settype">SetType</a> has not been called previously, this method returns the default value of <b>AudioObjectType_None</b>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudioobjectbuffer-setid">SetID</a>
-</td>
-<td align="left" width="63%">
-Sets the ID of the spatial audio object represented by the buffer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudioobjectbuffer-settype">SetType</a>
-</td>
-<td align="left" width="63%">
-Sets the type of the spatial audio object represented by the buffer.
-
-</td>
-</tr>
-</table>
+The <b>IMFSpatialAudioObjectBuffer</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a>. <b>IMFSpatialAudioObjectBuffer</b> also has these types of members:
 
 ## -remarks
 

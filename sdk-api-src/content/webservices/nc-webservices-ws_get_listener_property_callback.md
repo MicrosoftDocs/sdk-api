@@ -55,7 +55,7 @@ Handles the <a href="/windows/desktop/api/webservices/nf-webservices-wsgetlisten
 
 ## -parameters
 
-### -param *listenerInstance [in]
+### -param listenerInstance [in]
 
 The pointer to the state specific to this listener instance,
                     as created by the <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_listener_callback">WS_CREATE_LISTENER_CALLBACK</a>.
@@ -67,7 +67,7 @@ The id of the property to retrieve.
 
 A custom listener can decide which properties to support.
 
-### -param *value
+### -param value
 
 The location to store the retrieved property.
                     The pointer must have an alignment compatible with the type
@@ -78,7 +78,7 @@ The location to store the retrieved property.
 The number of bytes allocated by the caller to
                     store the retrieved property.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 

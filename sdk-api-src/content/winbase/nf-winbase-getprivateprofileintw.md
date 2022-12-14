@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.GetPrivateProfileIntW
 title: GetPrivateProfileIntW function (winbase.h)
-description: Retrieves an integer associated with a key in the specified section of an initialization file.
+description: The GetPrivateProfileIntW (Unicode) function (winbase.h) retrieves an integer associated with a key in the specified section of an initialization file.
 helpviewer_keywords: ["GetPrivateProfileInt","GetPrivateProfileInt function","GetPrivateProfileIntA","GetPrivateProfileIntW","_win32_getprivateprofileint","base.getprivateprofileint","winbase/GetPrivateProfileInt","winbase/GetPrivateProfileIntA","winbase/GetPrivateProfileIntW"]
 old-location: base\getprivateprofileint.htm
 tech.root: winprog
 ms.assetid: dcb48ec3-7172-4bcc-a833-23e34a73d70b
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: GetPrivateProfileInt, GetPrivateProfileInt function, GetPrivateProfileIntA, GetPrivateProfileIntW, _win32_getprivateprofileint, base.getprivateprofileint, winbase/GetPrivateProfileInt, winbase/GetPrivateProfileIntA, winbase/GetPrivateProfileIntW
 req.header: winbase.h
 req.include-header: Windows.h
@@ -86,11 +86,15 @@ The return value is the integer equivalent of the string following the specified
 
 The function searches the file for a key that matches the name specified by the <i>lpKeyName</i> parameter under the section name specified by the <i>lpAppName</i> parameter. A section in the initialization file must have the following form:
 
-<pre class="syntax" xml:space="preserve"><code>[section]
+
+``` syntax
+[section]
 key=value
       .
       .
-      .</code></pre>
+      .
+```
+
 The 
 <b>GetPrivateProfileInt</b> function is not case-sensitive; the strings in <i>lpAppName</i> and <i>lpKeyName</i> can be a combination of uppercase and lowercase letters.
 

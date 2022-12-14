@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Ensures that the reader has buffered the minimum byte count of XML data for use by subsequent reader functions.  It will invoke the callback specified by <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_stream_input">WS_XML_READER_STREAM_INPUT</a>as many times as necessary to obtain the number of bytes specified by the value of the <i>minSize</i> parameter.  On completion the buffered data is available to other reader functions.  If a subsequent reader function requires more data than what has been obtained the function
+Ensures that the reader has buffered the minimum byte count of XML data for use by subsequent reader functions.  It will invoke the callback specified by <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_stream_input">WS_XML_READER_STREAM_INPUT</a> as many times as necessary to obtain the number of bytes specified by the value of the <i>minSize</i> parameter.  On completion the buffered data is available to other reader functions.  If a subsequent reader function requires more data than what has been obtained the function
         will return a <b>WS_E_QUOTA_EXCEEDED</b> exception.
       (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 

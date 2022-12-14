@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10.ID3D10RenderTargetView
 title: ID3D10RenderTargetView (d3d10.h)
-description: A render-target-view interface identifies the render-target subresources that can be accessed during rendering.
+description: A render-target-view interface identifies the render-target subresources that can be accessed during rendering. (ID3D10RenderTargetView)
 helpviewer_keywords: ["76c9084d-ce0f-116d-42dd-eae6aa607d0e","ID3D10RenderTargetView","ID3D10RenderTargetView interface [Direct3D 10]","ID3D10RenderTargetView interface [Direct3D 10]","described","d3d10/ID3D10RenderTargetView","direct3d10.id3d10rendertargetview"]
 old-location: direct3d10\id3d10rendertargetview.htm
 tech.root: direct3d10
@@ -55,29 +55,7 @@ A render-target-view interface identifies the render-target <a href="/windows/de
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10RenderTargetView</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10view">ID3D10View</a>. <b>ID3D10RenderTargetView</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D10RenderTargetView</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10rendertargetview-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Get the properties of a render target view.
-
-</td>
-</tr>
-</table>
+The <b>ID3D10RenderTargetView</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10view">ID3D10View</a>. <b>ID3D10RenderTargetView</b> also has these types of members:
 
 ## -remarks
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.GetPrivateProfileString
 title: GetPrivateProfileString function (winbase.h)
-description: Retrieves a string from the specified section in an initialization file.
+description: The GetPrivateProfileString function (winbase.h) retrieves a string from the specified section in an initialization file.
 helpviewer_keywords: ["GetPrivateProfileString","GetPrivateProfileString function","GetPrivateProfileStringA","GetPrivateProfileStringW","_win32_getprivateprofilestring","base.getprivateprofilestring","winbase/GetPrivateProfileString","winbase/GetPrivateProfileStringA","winbase/GetPrivateProfileStringW"]
 old-location: base\getprivateprofilestring.htm
 tech.root: winprog
 ms.assetid: 684bae93-3cd8-49a4-8f16-9316df41d6f2
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: GetPrivateProfileString, GetPrivateProfileString function, GetPrivateProfileStringA, GetPrivateProfileStringW, _win32_getprivateprofilestring, base.getprivateprofilestring, winbase/GetPrivateProfileString, winbase/GetPrivateProfileStringA, winbase/GetPrivateProfileStringW
 req.header: winbase.h
 req.include-header: Windows.h
@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - GetPrivateProfileString
  - winbase/GetPrivateProfileString
@@ -109,11 +109,15 @@ The
 				
 			
 
-<pre class="syntax" xml:space="preserve"><code>[section]
+
+``` syntax
+[section]
 key=string
       .
       .
-      .</code></pre>
+      .
+```
+
 If <i>lpAppName</i> is <b>NULL</b>, 
 <b>GetPrivateProfileString</b> copies all section names in the specified file to the supplied buffer. If <i>lpKeyName</i> is <b>NULL</b>, the function copies all key names in the specified section to the supplied buffer. An application can use this method to enumerate all of the sections and keys in a file. In either case, each string is followed by a <b>null</b> character and the final string is followed by a second <b>null</b> character. If the supplied destination buffer is too small to hold all the strings, the last string is truncated and followed by two <b>null</b> characters.
 
@@ -152,6 +156,32 @@ When looking at values in the registry that specify other registry locations, th
 <li>USR: - this prefix stands for <b>HKEY_CURRENT_USER</b>, and the text after the prefix is relative to that key.</li>
 <li>SYS: - this prefix stands for <b>HKEY_LOCAL_MACHINE\SOFTWARE</b>, and the text after the prefix is relative to that key.</li>
 </ul>
+
+## Example
+
+The following example demonstrates the use of **GetPrivateProfileString**.
+
+```cpp
+// Gets a profile string called "Preferred line" and converts it to an int.
+GetPrivateProfileString (
+      "Preference",
+      "Preferred Line",
+      gszNULL, 
+      szBuffer,
+      MAXBUFSIZE,
+      gszINIfilename
+);
+
+// if szBuffer is not empty.
+if ( lstrcmp ( gszNULL, szBuffer ) )
+{
+      dwPreferredPLID = (DWORD) atoi( szBuffer );	
+}
+else	
+{
+      dwPreferredPLID = (DWORD) -1;
+}
+```
 
 ## -see-also
 

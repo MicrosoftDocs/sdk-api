@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.get_CanMaximize
 title: IWindowProvider::get_CanMaximize (uiautomationcore.h)
-description: Indicates whether the window can be maximized.
+description: Indicates whether the window can be maximized. (IWindowProvider.get_CanMaximize)
 helpviewer_keywords: ["CanMaximize property [Windows Accessibility]","CanMaximize property [Windows Accessibility]","IWindowProvider interface","IWindowProvider interface [Windows Accessibility]","CanMaximize property","IWindowProvider.CanMaximize","IWindowProvider.get_CanMaximize","IWindowProvider::CanMaximize","IWindowProvider::get_CanMaximize","get_CanMaximize","uiauto.uiauto_IWindowProvider_CanMaximize","uiauto_IWindowProvider_CanMaximize","uiautomationcore/IWindowProvider::CanMaximize","uiautomationcore/IWindowProvider::get_CanMaximize","winauto.uiauto_IWindowProvider_CanMaximize"]
 old-location: winauto\uiauto_IWindowProvider_CanMaximize.htm
 tech.root: WinAuto

@@ -54,11 +54,11 @@ Duplicates a DirectDrawSurface object.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Address of the <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface for the surface to be duplicated.
 
-### -param arg2 [out]
+### -param unnamedParam2 [out]
 
 Address of a variable to contain an <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface pointer for the newly duplicated DirectDrawSurface object.
 
@@ -84,7 +84,7 @@ If it fails, the method can return one of the following error values:
 
 
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>DuplicateSurface</b> method.
+
 
 ## -see-also
 

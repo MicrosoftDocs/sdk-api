@@ -4,7 +4,7 @@ title: BoundingSphere::Contains
 description: Tests whether the BoundingSphere contains a specified point.
 tech.root: dxmath
 helpviewer_keywords: ["BoundingSphere::Contains"]
-ms.date: 04/22/19
+ms.date: 04/22/2019
 ms.keywords: BoundingSphere::Contains
 targetos: Windows
 req.assembly: 
@@ -20,8 +20,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -34,7 +34,6 @@ dev_langs:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - directxcollision.h
 api_name:

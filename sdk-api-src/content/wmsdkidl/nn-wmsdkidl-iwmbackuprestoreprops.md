@@ -62,94 +62,10 @@ This interface can be obtained from the backup restorer object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMBackupRestoreProps</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMBackupRestoreProps</b> also has these types of members:
+The <b>IWMBackupRestoreProps</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMBackupRestoreProps</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMBackupRestoreProps</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmbackuprestoreprops-getpropbyindex">GetPropByIndex</a>
-</td>
-<td align="left" width="63%">
-Retrieves the name and value of a property by index. This method is not implemented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmbackuprestoreprops-getpropbyname">GetPropByName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the value of a property by name. This method is not implemented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmbackuprestoreprops-getpropcount">GetPropCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of properties. This method is not implemented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmbackuprestoreprops-removeallprops">RemoveAllProps</a>
-</td>
-<td align="left" width="63%">
-Removes all properties.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmbackuprestoreprops-removeprop">RemoveProp</a>
-</td>
-<td align="left" width="63%">
-Removes one property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmbackuprestoreprops-setprop">SetProp</a>
-</td>
-<td align="left" width="63%">
-Adds a property, and sets its name and value.
-
-</td>
-</tr>
-</table> 
-
-The following interfaces can be obtained by using the QueryInterface method of this interface.
-<table>
-<tr>
-<th>Interface</th>
-<th>IID</th>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicensebackup">IWMLicenseBackup</a>
-</td>
-<td>IID_IWMLicenseBackup</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserestore">IWMLicenseRestore</a>
-</td>
-<td>IID_IWMLicenseRestore</td>
-</tr>
-</table>
 
 ## -see-also
 

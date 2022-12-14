@@ -1,7 +1,7 @@
 ---
 UID: NS:windns.__unnamed_struct_12
 title: DNS_TXT_DATAA (windns.h)
-description: The DNS_TXT_DATA structure represents a DNS text (TXT) record as specified in section 3.3.14 of RFC 1035.
+description: The DNS_TXT_DATA structure represents a DNS text (TXT) record as specified in section 3.3.14 of RFC 1035. (ANSI)
 helpviewer_keywords: ["*PDNS_TXT_DATA","*PDNS_TXT_DATAA","DNS_TXT_DATA","DNS_TXT_DATA structure [DNS]","DNS_TXT_DATAA","PDNS_TXT_DATA","PDNS_TXT_DATA structure pointer [DNS]","_dns_dns_txt_data","dns.dns_txt_data","windns/DNS_TXT_DATA","windns/PDNS_TXT_DATA"]
 old-location: dns\dns_txt_data.htm
 tech.root: DNS

@@ -54,19 +54,19 @@ Performs a bit block transfer (bitblt). This method does not support z-buffering
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to a <b>RECT</b> structure that defines the upper-left and lower-right points of the rectangle to bitblt to on the destination surface. If this parameter is NULL, the entire destination surface is used.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 A pointer to the <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface for the DirectDrawSurface object that is the source of the bitblt.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 A pointer to a <b>RECT</b> structure that defines the upper-left and lower-right points of the rectangle to bitblt from on the source surface. If this parameter is NULL, the entire source surface is used.
 
-### -param arg4 [in]
+### -param unnamedParam4 [in]
 
 A combination of flags that determine the valid members of the associated <a href="/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure, specify color-key information, or request special behavior from the method. The following flags are defined:
 
@@ -168,7 +168,7 @@ Not currently implemented.
 
 This method does not currently support z-aware bitblt operations. None of the flags beginning with "DDBLT_ZBUFFER" are supported.
 
-### -param arg5 [in]
+### -param unnamedParam5 [in]
 
 A pointer to the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddbltfx">DDBLTFX</a> structure for the bitblt.
 
@@ -211,7 +211,7 @@ RECT structures are defined so that the right and bottom members are exclusiveâ€
 
 
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>Blt</b> method.
+
 
 ## -see-also
 

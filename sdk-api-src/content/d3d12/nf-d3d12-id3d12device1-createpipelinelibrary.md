@@ -47,15 +47,15 @@ api_name:
 
 ## -description
 
-Creates a cached pipeline library. For pipeline state objects (PSOs) that are expected to share data together, grouping them into a library before serializing them means that there's less overhead due to metadata, as well as the opportunity to avoid redundant or duplicated data from being written to disk.
+Creates a cached pipeline library. For pipeline state objects (PSOs) that are expected to share data together, grouping them into a library before serializing them means that there's less overhead due to metadata, as well as the opportunity to avoid redundant or duplicated data being written to disk.
 
-You can query for **ID3D12PipelineLibrary** support with <b><a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">ID3D12Device::CheckFeatureSupport</a></b>, with <b><a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE_SHADER_CACHE</a></b> and <b><a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_shader_cache>D3D12_FEATURE_DATA_SHADER_CACHE</a></b>. If the *Flags* member of <b><a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_shader_cache>D3D12_FEATURE_DATA_SHADER_CACHE</a></b> contains the flag <b><a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_support_flags>D3D12_SHADER_CACHE_SUPPORT_LIBRARY</a></b>, the **ID3D12PipelineLibrary** interface is supported. If not, **DXGI_ERROR_NOT_SUPPORTED** will always be returned when this function is called.
+You can query for **ID3D12PipelineLibrary** support with <b><a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">ID3D12Device::CheckFeatureSupport</a></b>, with <b><a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE_SHADER_CACHE</a></b> and <b><a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_shader_cache">D3D12_FEATURE_DATA_SHADER_CACHE</a></b>. If the *Flags* member of <b><a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_shader_cache">D3D12_FEATURE_DATA_SHADER_CACHE</a></b> contains the flag <b><a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_support_flags">D3D12_SHADER_CACHE_SUPPORT_LIBRARY</a></b>, the **ID3D12PipelineLibrary** interface is supported. If not, then **DXGI_ERROR_NOT_SUPPORTED** will always be returned when this function is called.
 
 ## -parameters
 
-### -param pLibraryBlob [in]
+### -param pLibraryBlob
 
-Type: **const void\***
+Type: [in] **const void\***
 
 If the input library blob is empty, then the initial content of the library is empty. If the input library blob is not empty, then it is validated for integrity, parsed, and the pointer is stored. The pointer provided as input to this method must remain valid for the lifetime of the object returned. For efficiency reasons, the data is not copied.
 
@@ -71,9 +71,9 @@ Type: **REFIID**
 
 Specifies a unique REFIID for the [ID3D12PipelineLibrary](./nn-d3d12-id3d12pipelinelibrary.md) object. Typically set this and the following parameter with the macro `IID_PPV_ARGS(&Library)`, where **Library** is the name of the object.
 
-### -param ppPipelineLibrary [out]
+### -param ppPipelineLibrary
 
-Type: **void\*\***
+Type: [out] **void\*\***
 
 Returns a pointer to the created library.
 
@@ -100,51 +100,16 @@ At no point in the lifecycle of a pipeline library is there duplication between 
 
 A recommended solution for managing the lifetime of the provided pointer while only having to ref-count the returned interface is to leverage <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12object-setprivatedatainterface">ID3D12Object::SetPrivateDataInterface</a>, and use an object which implements <b>IUnknown</b>, and frees the memory when the ref-count reaches 0. 
 
-#### Thread Safety
+### Thread Safety
 
 The pipeline library is thread-safe to use, and will internally synchronize as necessary, with one exception: multiple threads loading the same PSO (via [**LoadComputePipeline**](nf-d3d12-id3d12pipelinelibrary-loadcomputepipeline.md),
 [**LoadGraphicsPipeline**](nf-d3d12-id3d12pipelinelibrary-loadgraphicspipeline.md), or [**LoadPipeline**](nf-d3d12-id3d12pipelinelibrary1-loadpipeline.md)) should synchronize themselves, as this act may modify the state of that pipeline within the library in a non-thread-safe manner.
 
-#### Examples
+## Examples
 
-Create a PSO library and add PSOs to it. Note the macro IID_PPV_ARGS expands to become two parameters.
-
-```cpp
-ID3D12Device* Device; 
-    VERIFY_SUCCEEDED(D3D12CreateDevice(nullptr, IID_PPV_ARGS(&Device))); 
-    ID3D12PipelineState* PSO1, PSO2; 
-
-    // Fill out the PSO descs and then call CreateGraphicsPipelineState or CreateComputePipelineState  
-
-    ID3D12PipelineLibrary* Library; 
-    VERIFY_SUCCEEDED(Device->CreatePipelineLibrary(nullptr, 0, IID_PPV_ARGS(&Library))); 
-    VERIFY_SUCCEEDED(Library->StorePipeline(L“PSO1”, PSO1)); 
-    VERIFY_SUCCEEDED(Library->StorePipeline(L“PSO2”, PSO2)); 
-    SIZE_T LibrarySize = Library->GetSerializedSize(); 
-    void* pData = new BYTE[LibrarySize]; 
-    VERIFY_SUCCEEDED(Library->Serialize(pData, LibrarySize)); 
-
-    // Save pData to disk 
-    ...
-```
-
-Create a PSO library using data loaded off of disk and retrieve PSOs out of it. This time the call to <b>CreatePipelineLibrary</b> de-serializes the library.
-
-```cpp
-    ID3D12Device* Device; 
-    VERIFY_SUCCEEDED(D3D12CreateDevice(nullptr, IID_PPV_ARGS(&Device))); 
-    ID3D12PipelineState* PSO1, PSO2; 
-    const void* LibraryData; 
-    SIZE_T LibraryDataSize; 
-
-    // Load library data from disk  
-
-    ID3D12PipelineLibrary* Library; 
-    VERIFY_SUCCEEDED(Device->CreatePipelineLibrary(LibraryData, LibraryDataSize, IID_PPV_ARGS(&Library))); 
-    VERIFY_SUCCEEDED(Library->LoadGraphicsPipeline(L“PSO1”, IID_PPV_ARGS(&PSO1))); 
-    VERIFY_SUCCEEDED(Library->LoadComputePipeline(L“PSO2”, IID_PPV_ARGS(&PSO2)));
-```
+See the [Direct3D 12 pipeline state cache sample](https://github.com/microsoft/DirectX-Graphics-Samples/tree/master/Samples/Desktop/D3D12PipelineStateCache).
 
 ## -see-also
 
-<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12device1">ID3D12Device1</a>, <a href="https://github.com/Microsoft/DirectX-Graphics-Samples/tree/master/Samples/Desktop/D3D12PipelineStateCache">Pipleline State Cache sample</a>
+* <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12device1">ID3D12Device1</a>
+* [Direct3D 12 pipeline state cache sample](https://github.com/microsoft/DirectX-Graphics-Samples/tree/master/Samples/Desktop/D3D12PipelineStateCache)

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_EraserWidth
 title: IInkPicture::put_EraserWidth (msinkaut.h)
-description: Gets or sets a value that specifies the width of the eraser pen tip.
+description: Gets or sets a value that specifies the width of the eraser pen tip. (Put)
 helpviewer_keywords: ["8a880a9a-acd4-4cb1-aea7-4d834ecd9490","EraserWidth property [Tablet PC]","EraserWidth property [Tablet PC]","IInkPicture interface","IInkPicture interface [Tablet PC]","EraserWidth property","IInkPicture.EraserWidth","IInkPicture.put_EraserWidth","IInkPicture::EraserWidth","IInkPicture::get_EraserWidth","IInkPicture::put_EraserWidth","InkPicture.get_EraserWidth","InkPicture.put_EraserWidth","get_EraserWidth","msinkaut/IInkPicture::EraserWidth","msinkaut/IInkPicture::get_EraserWidth","msinkaut/IInkPicture::put_EraserWidth","put_EraserWidth","tablet.inkpicture_eraserwidth"]
 old-location: tablet\inkpicture_eraserwidth.htm
 tech.root: tablet
@@ -85,7 +85,7 @@ This property applies only when the <a href="/windows/desktop/api/msinkaut/nf-ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="../msinkaut/nn-msinkaut-iinkpicture.md">IInkPicture</a>
 
 
 

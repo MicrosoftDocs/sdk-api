@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandlerFrame.TranslateAccelerator
 title: IPreviewHandlerFrame::TranslateAccelerator (shobjidl_core.h)
-description: Directs the host to handle an keyboard shortcut passed from the preview handler.
+description: Directs the host to handle a keyboard shortcut passed from the preview handler.
 helpviewer_keywords: ["IPreviewHandlerFrame interface [Windows Shell]","TranslateAccelerator method","IPreviewHandlerFrame.TranslateAccelerator","IPreviewHandlerFrame::TranslateAccelerator","TranslateAccelerator","TranslateAccelerator method [Windows Shell]","TranslateAccelerator method [Windows Shell]","IPreviewHandlerFrame interface","_shell_IPreviewHandlerFrame_TranslateAccelerator","shell.IPreviewHandlerFrame_TranslateAccelerator","shobjidl_core/IPreviewHandlerFrame::TranslateAccelerator"]
 old-location: shell\IPreviewHandlerFrame_TranslateAccelerator.htm
 tech.root: shell
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Directs the host to handle an keyboard shortcut passed from the preview handler.
+Directs the host to handle a keyboard shortcut passed from the preview handler.
 
 ## -parameters
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetBlueDisable
 title: IDCompositionLinearTransferEffect::SetBlueDisable (dcomp.h)
-description: Specifies whether to apply the transfer function to the blue channel.
+description: The IDCompositionLinearTransferEffect::SetBlueDisable method specifies whether to apply the transfer function to the blue channel.
 helpviewer_keywords: ["IDCompositionLinearTransferEffect interface [DirectComposition]","SetBlueDisable method","IDCompositionLinearTransferEffect.SetBlueDisable","IDCompositionLinearTransferEffect::SetBlueDisable","SetBlueDisable","SetBlueDisable method [DirectComposition]","SetBlueDisable method [DirectComposition]","IDCompositionLinearTransferEffect interface","dcomp/IDCompositionLinearTransferEffect::SetBlueDisable","directcomp.idcompositionlineartransfereffect_setbluedisable"]
 old-location: directcomp\idcompositionlineartransfereffect_setbluedisable.htm
 tech.root: directcomp
 ms.assetid: DE87E53B-4469-4B30-8397-6A0712DE8A6C
-ms.date: 12/05/2018
+ms.date: 06/23/2022
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetBlueDisable method, IDCompositionLinearTransferEffect.SetBlueDisable, IDCompositionLinearTransferEffect::SetBlueDisable, SetBlueDisable, SetBlueDisable method [DirectComposition], SetBlueDisable method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetBlueDisable, directcomp.idcompositionlineartransfereffect_setbluedisable
 req.header: dcomp.h
 req.include-header: 
@@ -65,7 +65,7 @@ A boolean value that specifies whether to apply the transfer function to the blu
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

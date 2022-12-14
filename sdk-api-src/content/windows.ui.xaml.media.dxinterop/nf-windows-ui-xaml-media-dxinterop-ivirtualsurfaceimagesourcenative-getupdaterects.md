@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.IVirtualSurfaceImageSourceNative.GetUpdateRects
-title: IVirtualSurfaceImageSourceNative::xaml (windows.ui.xaml.media.dxinterop.h)
+title: IVirtualSurfaceImageSourceNative::GetUpdateRects (windows.ui.xaml.media.dxinterop.h)
 description: Gets the set of regions that must be updated on the shared surface.
 helpviewer_keywords: ["GetUpdateRects","GetUpdateRects method [Windows Runtime]","GetUpdateRects method [Windows Runtime]","IVirtualSurfaceImageSourceNative interface","IVirtualSurfaceImageSourceNative interface [Windows Runtime]","GetUpdateRects method","IVirtualSurfaceImageSourceNative.GetUpdateRects","IVirtualSurfaceImageSourceNative.xaml","IVirtualSurfaceImageSourceNative::GetUpdateRects","IVirtualSurfaceImageSourceNative::xaml","windows/IVirtualSurfaceImageSourceNative::GetUpdateRects","winrt.ivirtualsurfaceimagesourcenative_getupdaterects"]
 old-location: winrt\ivirtualsurfaceimagesourcenative_getupdaterects.htm
@@ -45,7 +45,7 @@ api_name:
  - IVirtualSurfaceImageSourceNative.GetUpdateRects
 ---
 
-# IVirtualSurfaceImageSourceNative::xaml
+# IVirtualSurfaceImageSourceNative::GetUpdateRects (windows.ui.xaml.media.dxinterop.h)
 
 
 ## -description
@@ -64,7 +64,7 @@ Receives a list of regions that must be updated.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

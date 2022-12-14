@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMUDEC4.XMUDEC4(XMUDEC4&&)
 title: XMUDEC4::XMUDEC4(XMUDEC4 &&) (directxpackedvector.h)
-description: A constructor for XMUDEC4.
+description: A constructor for XMUDEC4. (overload 2/2)
 helpviewer_keywords: ["XMUDEC4","XMUDEC4 structure [DirectX Math Support APIs]","operator = method","XMUDEC4.XMUDEC4","XMUDEC4.XMUDEC4(XMUDEC4 &&)","XMUDEC4.operator =(const XMUDEC4&)","XMUDEC4::XMUDEC4","XMUDEC4::XMUDEC4(XMUDEC4 &&)","dxmath.xmudec4_operator_eq_1","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMUDEC4 structure"]
 old-location: 
 tech.root: dxmath
@@ -11,8 +11,8 @@ ms.keywords: XMUDEC4, XMUDEC4 structure [DirectX Math Support APIs],operator = m
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -58,7 +58,7 @@ A constructor for <a href="/windows/desktop/api/directxpackedvector/ns-directxpa
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A value.
 

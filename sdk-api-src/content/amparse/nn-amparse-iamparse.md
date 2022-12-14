@@ -57,44 +57,8 @@ The <a href="/windows/desktop/DirectShow/mpeg-2-splitter">MPEG-2 Splitter</a> fi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMParse</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMParse</b> also has these types of members:
+The <b>IAMParse</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMParse</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAMParse</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amparse/nf-amparse-iamparse-flush">Flush</a>
-</td>
-<td align="left" width="63%">
-Empties the current file buffer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amparse/nf-amparse-iamparse-getparsetime">GetParseTime</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current stream parse time.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amparse/nf-amparse-iamparse-setparsetime">SetParseTime</a>
-</td>
-<td align="left" width="63%">
-Sets the current stream parse time.
-
-</td>
-</tr>
-</table>

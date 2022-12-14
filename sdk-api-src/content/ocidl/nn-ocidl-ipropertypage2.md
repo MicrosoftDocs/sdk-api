@@ -56,30 +56,7 @@ This method works in conjunction with the implementation of <a href="/windows/de
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyPage2</b> interface inherits from <b>IPropertyPage</b>. <b>IPropertyPage2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPropertyPage2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertypage2-editproperty">EditProperty</a>
-</td>
-<td align="left" width="63%">
-Specifies which field is to receive the focus when the property page is activated.
-
-
-</td>
-</tr>
-</table>
+The <b>IPropertyPage2</b> interface inherits from <b>IPropertyPage</b>. <b>IPropertyPage2</b> also has these types of members:
 
 ## -see-also
 

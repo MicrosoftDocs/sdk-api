@@ -16,7 +16,10 @@ f1_keywords:
 
 ## -description
 
-This header is used by Microsoft Media Foundation. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [CIMWin32 WMI Providers](../_cimwin32/index.md)
+- [DirectShow](/windows/win32/directshow/directshow)
 - [Microsoft Media Foundation](../_mf/index.md)
+- [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk)
 

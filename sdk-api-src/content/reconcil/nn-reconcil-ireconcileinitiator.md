@@ -54,35 +54,5 @@ Exposes methods that provide the briefcase reconciler with the means to notify t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IReconcileInitiator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IReconcileInitiator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IReconcileInitiator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IReconcileInitiator</b> also has these types of members:
 
-## -members
-
-The <b>IReconcileInitiator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/bb761345(v=vs.85)">SetAbortCallback</a>
-</td>
-<td align="left" width="63%">
-Sets the object through which the initiator can asynchronously terminate a reconciliation. A briefcase reconciler typically sets this object for reconciliations that are lengthy or involve user interaction. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/bb761347(v=vs.85)">SetProgressFeedback</a>
-</td>
-<td align="left" width="63%">
-Indicates the amount of progress the briefcase reconciler has made toward completing the reconciliation. The amount is a fraction and is computed as the quotient of the <i>ulProgress</i> and <i>ulProgressMax</i> parameters. Reconcilers should call this method periodically during their reconciliation process. 
-
-</td>
-</tr>
-</table>

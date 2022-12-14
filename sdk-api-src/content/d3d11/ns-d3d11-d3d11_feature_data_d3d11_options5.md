@@ -9,8 +9,8 @@ req.construct-type: structure
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -52,7 +52,7 @@ Describes the level of support for shared resources in the current graphics driv
 
 Type: **[D3D11_SHARED_RESOURCE_TIER](./ne-d3d11-d3d11_shared_resource_tier.md)**
 
-A shared resource support tier.
+The level of support for shared resources in the current graphics driver.
 
 ## -remarks
 

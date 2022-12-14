@@ -1,15 +1,12 @@
 ---
 UID: NS:setupapi._SP_DRVINSTALL_PARAMS
 title: SP_DRVINSTALL_PARAMS (setupapi.h)
-author: windows-sdk-content
 description: An SP_DRVINSTALL_PARAMS structure contains driver installation parameters associated with a particular driver information element.
 old-location: devinst\sp_drvinstall_params.htm
 tech.root: devinst
 ms.assetid: 300e636c-3f77-4d0b-9868-caaf92d87bfd
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSP_DRVINSTALL_PARAMS, PSP_DRVINSTALL_PARAMS, PSP_DRVINSTALL_PARAMS structure pointer [Device and Driver Installation], SP_DRVINSTALL_PARAMS, SP_DRVINSTALL_PARAMS structure [Device and Driver Installation], devinst.sp_drvinstall_params, di-struct_32ef55e7-dc77-4350-b220-6cd566cf7c38.xml, setupapi/PSP_DRVINSTALL_PARAMS, setupapi/SP_DRVINSTALL_PARAMS"
-ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows
@@ -27,7 +24,6 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-product: Windows
 targetos: Windows
 req.typenames: SP_DRVINSTALL_PARAMS, *PSP_DRVINSTALL_PARAMS
 req.redist: 
@@ -155,7 +151,7 @@ This <a href="/windows-hardware/drivers/">driver node</a> is derived from an INF
 
 This driver came from the Internet or from Windows Update. This flag is read-only to installers. 
 
-If you call <a href="http://go.microsoft.com/fwlink/p/?linkid=98735">SetupCopyOEMInf</a> you must specify the SPOST_URL flag so that when Windows copies this INF into the %<i>SystemRoot</i>%&#92;<i>inf</i> directory Windows will mark it as an Internet INF. If you omit this step then Windows will attempt to use this device to install other devices. The resulting problem is that Windows does not have the source files any longer and will end up prompting the user with an invalid path.
+If you call <a href="/windows/win32/api/setupapi/nf-setupapi-setupcopyoeminfa">SetupCopyOEMInf</a> you must specify the SPOST_URL flag so that when Windows copies this INF into the %<i>SystemRoot</i>%&#92;<i>inf</i> directory Windows will mark it as an Internet INF. If you omit this step then Windows will attempt to use this device to install other devices. The resulting problem is that Windows does not have the source files any longer and will end up prompting the user with an invalid path.
 
 
 
@@ -212,7 +208,7 @@ This driver currently/previously controlled the associated device. This flag is 
 
 #### DNF_REQUESTADDITIONALSOFTWARE (Windows 7 and later versions of Windows)
 
-Set this flag if the <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> is only part of the software solution that is needed to operate the device. In this case, the driver package requires the installation of additional software.
+Set this flag if the <a href="/windows-hardware/drivers/install/difx-guidelines">driver package</a> is only part of the software solution that is needed to operate the device. In this case, the driver package requires the installation of additional software.
 
 For more information, see the following Remarks section.
 
@@ -226,9 +222,9 @@ Reserved. For internal use only.
 
 ## -remarks
 
-Starting with Windows 7, an installer or co-installer can set the DNF_REQUESTADDITIONALSOFTWARE flag to indicate that the <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> requires additional software that may or not be installed in the computer.
+Starting with Windows 7, an installer or co-installer can set the DNF_REQUESTADDITIONALSOFTWARE flag to indicate that the <a href="/windows-hardware/drivers/install/difx-guidelines">driver package</a> requires additional software that may or not be installed in the computer.
 
-After the <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> for the device is installed, the Plug and Play (PnP) manager performs the following steps if the installer sets the DNF_REQUESTADDITIONALSOFTWARE flag:
+After the <a href="/windows-hardware/drivers/install/difx-guidelines">driver package</a> for the device is installed, the Plug and Play (PnP) manager performs the following steps if the installer sets the DNF_REQUESTADDITIONALSOFTWARE flag:
 
 <ol>
 <li>
@@ -246,8 +242,8 @@ If the device-specific software is not installed on the computer, the PnP manage
 
 </li>
 </ol>
-<div class="alert"><b>Note</b>  The installer does not have to set the DNF_REQUESTADDITIONALSOFTWARE flag if the INF file for the <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> has set the <b>RequestAdditionalSoftware </b>flag in the <a href="/windows-hardware/drivers/install/inf-controlflags-section">INF ControlFlags Section</a>.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  The installer does not have to set the DNF_REQUESTADDITIONALSOFTWARE flag if the INF file for the <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> has set the <b>RequestAdditionalSoftware </b> flag in the <a href="/windows-hardware/drivers/install/inf-controlflags-section">INF ControlFlags Section</a>.</div>
+
 
 ## -see-also
 

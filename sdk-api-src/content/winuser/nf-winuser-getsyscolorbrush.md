@@ -47,6 +47,7 @@ api_location:
  - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
 api_name:
  - GetSysColorBrush
+req.apiset: ext-ms-win-ntuser-gui-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # GetSysColorBrush function

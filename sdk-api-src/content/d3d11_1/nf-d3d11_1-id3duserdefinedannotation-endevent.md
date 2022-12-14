@@ -53,7 +53,7 @@ api_name:
 
 Marks the end of a section of event code.
 
-## -parameters
+
 
 ## -returns
 

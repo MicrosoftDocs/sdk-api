@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupQueueCopyIndirectW
 title: SetupQueueCopyIndirectW function (setupapi.h)
-description: The SetupQueueCopyIndirect function is an extended form of SetupQueueCopy passing additional parameters as a structure (SP_FILE_COPY_PARAMS). Other than this, the behavior is identical.
+description: The SetupQueueCopyIndirect function is an extended form of SetupQueueCopy passing additional parameters as a structure (SP_FILE_COPY_PARAMS). Other than this, the behavior is identical. (Unicode)
 helpviewer_keywords: ["SetupQueueCopyIndirect","SetupQueueCopyIndirect function [Setup API]","SetupQueueCopyIndirectA","SetupQueueCopyIndirectW","_setupapi_setupqueuecopyindirect","setup.setupqueuecopyindirect","setupapi/SetupQueueCopyIndirect","setupapi/SetupQueueCopyIndirectA","setupapi/SetupQueueCopyIndirectW"]
 old-location: setup\setupqueuecopyindirect.htm
 tech.root: setup
@@ -67,7 +67,7 @@ Pointer to a
 
 ## -returns
 
-If the function succeeds, the return value is an nonzero value.
+If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.

@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the latest Automatic Updates settings.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:traffic.TcGetFlowNameW
 title: TcGetFlowNameW function (traffic.h)
-description: The TcGetFlowName function provides the name of a flow that has been created by the calling client.
+description: The TcGetFlowName function provides the name of a flow that has been created by the calling client. (Unicode)
 helpviewer_keywords: ["TcGetFlowName","TcGetFlowName function [QOS]","TcGetFlowNameA","TcGetFlowNameW","_gqos_tcgetflowname","qos.tcgetflowname","traffic/TcGetFlowName","traffic/TcGetFlowNameA","traffic/TcGetFlowNameW"]
 old-location: qos\tcgetflowname.htm
 tech.root: QOS

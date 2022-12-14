@@ -50,11 +50,12 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
-<div> </div>
+> [!NOTE]
+>  This interface is deprecated. New applications should not use it.
+
 The <code>IsSyncPoint</code> method determines if the beginning of a sample is a synchronization point.
 
-## -parameters
+
 
 ## -returns
 

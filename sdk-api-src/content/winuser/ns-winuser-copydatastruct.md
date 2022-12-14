@@ -62,7 +62,7 @@ Contains data to be passed to another application by the <a href="/windows/deskt
 
 Type: <b>ULONG_PTR</b>
 
-The data to be passed to the receiving application.
+The type of the data to be passed to the receiving application. The receiving application defines the valid types.
 
 ### -field cbData
 

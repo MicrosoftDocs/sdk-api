@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule3.put_SecureFlags
 title: INetFwRule3::put_SecureFlags (netfw.h)
-description: Specifies which firewall verifications of security levels provided by IPsec must be guaranteed to allow the collection. The allowed values must correspond to those of the NET_FW_AUTHENTICATE_TYPE enumeration.
+description: Specifies which firewall verifications of security levels provided by IPsec must be guaranteed to allow the collection. The allowed values must correspond to those of the NET_FW_AUTHENTICATE_TYPE enumeration. (Put)
 helpviewer_keywords: ["INetFwRule3 interface [ICS/ICF]","SecureFlags property","INetFwRule3.SecureFlags","INetFwRule3.put_SecureFlags","INetFwRule3::SecureFlags","INetFwRule3::get_SecureFlags","INetFwRule3::put_SecureFlags","SecureFlags property [ICS/ICF]","SecureFlags property [ICS/ICF]","INetFwRule3 interface","ics.inetfwrule3_secureflags","netfw/INetFwRule3::SecureFlags","netfw/INetFwRule3::get_SecureFlags","netfw/INetFwRule3::put_SecureFlags","put_SecureFlags"]
 old-location: ics\inetfwrule3_secureflags.htm
 tech.root: ics

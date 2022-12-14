@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingUnexportPnPA
 title: RpcNsBindingUnexportPnPA function (rpcnsi.h)
-description: The RpcNsBindingUnexportPnP function removes the binding handles for Plug and Play interfaces and objects from an entry in the name-service database.
+description: The RpcNsBindingUnexportPnP function removes the binding handles for Plug and Play interfaces and objects from an entry in the name-service database. (ANSI)
 helpviewer_keywords: ["RpcNsBindingUnexportPnP","RpcNsBindingUnexportPnP function [RPC]","RpcNsBindingUnexportPnPA","RpcNsBindingUnexportPnPW","_rpc_rpcnsbindingunexportpnp","rpc.rpcnsbindingunexportpnp","rpcnsi/RpcNsBindingUnexportPnP","rpcnsi/RpcNsBindingUnexportPnPA","rpcnsi/RpcNsBindingUnexportPnPW"]
 old-location: rpc\rpcnsbindingunexportpnp.htm
 tech.root: Rpc

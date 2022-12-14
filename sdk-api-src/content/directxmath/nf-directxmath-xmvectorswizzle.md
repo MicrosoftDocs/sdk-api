@@ -99,7 +99,7 @@ The swizzled vector (<i>result</i>) will be &lt;40.0f, 40.0f, 10.0f, 30.0f&gt;.
    evaluate to 0, 1, 2, and 3 respectively for use with <b>XMVectorSwizzle</b>. 
    This is identical to <code>XM_PERMUTE_0X</code>, <code>XM_PERMUTE_0Y</code>, <code>XM_PERMUTE_0Z</code>, and <code>XM_PERMUTE_0W</code>.
 
-For the case of constant indices (E0, E1, E2, E3), it is much more efficent to use the template form of <a href="/windows/desktop/dxmath/xmvectorswizzle-template">XMVectorSwizzle</a>:
+For the case of constant indices (E0, E1, E2, E3), it is much more efficient to use the template form of <a href="/windows/desktop/dxmath/xmvectorswizzle-template">XMVectorSwizzle</a>:
 
 
 ```

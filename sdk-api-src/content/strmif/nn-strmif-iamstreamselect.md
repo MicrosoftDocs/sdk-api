@@ -55,47 +55,7 @@ The <code>IAMStreamSelect</code> interface selects from the available streams on
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMStreamSelect</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMStreamSelect</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAMStreamSelect</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamstreamselect-count">Count</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of available streams.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamstreamselect-enable">Enable</a>
-</td>
-<td align="left" width="63%">
-Enables or disables a given stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamstreamselect-info">Info</a>
-</td>
-<td align="left" width="63%">
-Retrieves information about a given stream.
-
-</td>
-</tr>
-</table>
+The <b>IAMStreamSelect</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMStreamSelect</b> also has these types of members:
 
 ## -remarks
 

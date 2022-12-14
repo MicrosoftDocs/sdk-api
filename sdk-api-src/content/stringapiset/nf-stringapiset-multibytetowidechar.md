@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - MultiByteToWideChar
  - stringapiset/MultiByteToWideChar
@@ -284,6 +284,60 @@ Starting with Windows Vista, this function fully conforms with the Unicode 4.1 
 <b>Windows XP:</b> To prevent the security problem of the non-shortest-form versions of UTF-8 characters, <b>MultiByteToWideChar</b> deletes these characters.
 
 <b>Starting with Windows 8: </b><b>MultiByteToWideChar</b>  is declared in Stringapiset.h. Before Windows 8, it was declared in Winnls.h.
+
+## Code example
+
+```cpp
+catch (std::exception e)
+{
+    // Save in-memory logging buffer to a log file on error.
+
+    ::std::wstring wideWhat;
+    if (e.what() != nullptr)
+    {
+        int convertResult = MultiByteToWideChar(CP_UTF8, 0, e.what(), (int)strlen(e.what()), NULL, 0);
+        if (convertResult <= 0)
+        {
+            wideWhat = L"Exception occurred: Failure to convert its message text using MultiByteToWideChar: convertResult=";
+            wideWhat += convertResult.ToString()->Data();
+            wideWhat += L"  GetLastError()=";
+            wideWhat += GetLastError().ToString()->Data();
+        }
+        else
+        {
+            wideWhat.resize(convertResult + 10);
+            convertResult = MultiByteToWideChar(CP_UTF8, 0, e.what(), (int)strlen(e.what()), &wideWhat[0], (int)wideWhat.size());
+            if (convertResult <= 0)
+            {
+                wideWhat = L"Exception occurred: Failure to convert its message text using MultiByteToWideChar: convertResult=";
+                wideWhat += convertResult.ToString()->Data();
+                wideWhat += L"  GetLastError()=";
+                wideWhat += GetLastError().ToString()->Data();
+            }
+            else
+            {
+                wideWhat.insert(0, L"Exception occurred: ");
+            }
+        }
+    }
+    else
+    {
+        wideWhat = L"Exception occurred: Unknown.";
+    }
+
+    Platform::String^ errorMessage = ref new Platform::String(wideWhat.c_str());
+    // The session added the channel at level Warning. Log the message at
+    // level Error which is above (more critical than) Warning, which
+    // means it will actually get logged.
+    _channel->LogMessage(errorMessage, LoggingLevel::Error);
+    SaveLogInMemoryToFileAsync().then([=](StorageFile^ logFile) {
+        _logFileGeneratedCount++;
+        StatusChanged(this, ref new LoggingScenarioEventArgs(LoggingScenarioEventType::LogFileGenerated, logFile->Path->Data()));
+    }).wait();
+}
+```
+Example from [Windows Universal Samples](https://github.com/microsoft/Windows-universal-samples/blob/master/Samples/Logging/cpp/LoggingSessionScenario.cpp) on GitHub.
+
 
 ## -see-also
 

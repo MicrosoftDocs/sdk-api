@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - GetSystemTime
  - sysinfoapi/GetSystemTime
@@ -76,7 +76,30 @@ To set the current system date and time, use the <a href="/windows/desktop/api/s
 
 #### Examples
 
-For an example, see 
+```cpp
+#include <windows.h>
+#include <stdio.h>
+
+void main()
+{
+    SYSTEMTIME st, lt;
+    
+    GetSystemTime(&st);
+    GetLocalTime(&lt);
+    
+    printf("The system time is: %02d:%02d\n", st.wHour, st.wMinute);
+    printf(" The local time is: %02d:%02d\n", lt.wHour, lt.wMinute);
+}
+```
+
+```dos
+// Sample output
+
+The system time is: 19:34
+ The local time is: 12:34
+```
+
+For more information about this example, see 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>.
 
 <div class="code"></div>

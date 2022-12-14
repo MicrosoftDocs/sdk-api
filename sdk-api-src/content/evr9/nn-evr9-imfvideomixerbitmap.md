@@ -67,56 +67,7 @@ The EVR mixer implements this interface. To get a pointer to the interface, call
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoMixerBitmap</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoMixerBitmap</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFVideoMixerBitmap</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-clearalphabitmap">ClearAlphaBitmap</a>
-</td>
-<td align="left" width="63%">
-Removes the current bitmap and releases any resources associated with it.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-getalphabitmapparameters">GetAlphaBitmapParameters</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current settings that the EVR uses to alpha-blend the bitmap with the video.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-setalphabitmap">SetAlphaBitmap</a>
-</td>
-<td align="left" width="63%">
-Sets a bitmap image for the EVR to alpha-blend with the video.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-updatealphabitmapparameters">UpdateAlphaBitmapParameters</a>
-</td>
-<td align="left" width="63%">
-Updates the current alpha-blending settings.
-
-</td>
-</tr>
-</table>
+The <b>IMFVideoMixerBitmap</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoMixerBitmap</b> also has these types of members:
 
 ## -see-also
 

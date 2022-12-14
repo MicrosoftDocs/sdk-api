@@ -1,7 +1,7 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.put_AllowLogon
 title: IADsTSUserEx::put_AllowLogon (tsuserex.h)
-description: A value that specifies whether the user is allowed to log on to the Remote Desktop Session Host (RD Session Host) server.
+description: A value that specifies whether the user is allowed to log on to the Remote Desktop Session Host (RD Session Host) server. (Put)
 helpviewer_keywords: ["AllowLogon property [Remote Desktop Services]","AllowLogon property [Remote Desktop Services]","IADsTSUserEx interface","IADsTSUserEx interface [Remote Desktop Services]","AllowLogon property","IADsTSUserEx.AllowLogon","IADsTSUserEx.put_AllowLogon","IADsTSUserEx::AllowLogon","IADsTSUserEx::get_AllowLogon","IADsTSUserEx::put_AllowLogon","put_AllowLogon","termserv.iadstsuserex_allowlogon","tsuserex/IADsTSUserEx::AllowLogon","tsuserex/IADsTSUserEx::get_AllowLogon","tsuserex/IADsTSUserEx::put_AllowLogon"]
 old-location: termserv\iadstsuserex_allowlogon.htm
 tech.root: TermServ

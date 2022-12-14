@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMUBYTE4.XMUBYTE4(constXMUBYTE4&)
 title: XMUBYTE4::XMUBYTE4(const XMUBYTE4 &) (directxpackedvector.h)
-description: Default constructor for XMUBYTE4.
+description: Default constructor for XMUBYTE4. (overload 2/3)
 helpviewer_keywords: ["XMUBYTE4","XMUBYTE4 constructor [DirectX Math Support APIs]","XMUBYTE4 constructor [DirectX Math Support APIs]","XMUBYTE4 structure","XMUBYTE4 structure [DirectX Math Support APIs]","XMUBYTE4 constructor","XMUBYTE4.XMUBYTE4","XMUBYTE4.XMUBYTE4()","XMUBYTE4.XMUBYTE4(const XMUBYTE4 &)","XMUBYTE4::XMUBYTE4","XMUBYTE4::XMUBYTE4(const XMUBYTE4 &)","dxmath.xmubyte4_ctor_1"]
 old-location: 
 tech.root: dxmath
@@ -11,8 +11,8 @@ ms.keywords: XMUBYTE4, XMUBYTE4 constructor [DirectX Math Support APIs], XMUBYTE
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -58,7 +58,7 @@ Default constructor for <a href="/windows/desktop/api/directxpackedvector/ns-dir
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A value.
 

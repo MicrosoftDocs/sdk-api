@@ -52,7 +52,7 @@ api_name:
 
 Stops the audio processing thread.
 
-## -parameters
+
 
 ## -remarks
 

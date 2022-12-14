@@ -3,12 +3,11 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticReportAtIndex
 title: DdqGetDiagnosticReportAtIndex
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticReportAtIndex
-ms.topic: language-reference
 description: Fetches an error report and its information at the specified index in the resource pointed to by the HDIAGNOSTIC_REPORT_DATA handle.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -31,7 +30,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - diagnosticdataquery.h
 api_name:
@@ -59,7 +57,7 @@ The index of the error report to fetch.
 
 ### -param report
 
-Type: **[DIAGNOSTIC_DATA_REPORT_DATA\*](/windows/win32/api/diagnosticdataquery/ns-diagnosticdataquerytypes-diagnostic_report_data)**
+Type: **[DIAGNOSTIC_DATA_REPORT_DATA\*](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_report_data)**
 This output parameter is a pointer to the resource that contains information about the fetched diagnostic report.
 
 ## -returns

@@ -54,65 +54,7 @@ The **IEAPProviderConfig** interface is used to initialize, configure and shut d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEAPProviderConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEAPProviderConfig</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IEAPProviderConfig</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes an EAP configuration session.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-routerinvokeconfigui">RouterInvokeConfigUI</a>
-</td>
-<td align="left" width="63%">
-Invokes the EAP configuration user interface for router-to-router EAP.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-routerinvokecredentialsui">RouterInvokeCredentialsUI</a>
-</td>
-<td align="left" width="63%">
-Invokes the EAP credentials user interface for router-to-router EAP.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-serverinvokeconfigui">ServerInvokeConfigUI</a>
-</td>
-<td align="left" width="63%">
-Invokes the EAP configuration user interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-uninitialize">Uninitialize</a>
-</td>
-<td align="left" width="63%">
-Shuts down an EAP configuration session.
-
-</td>
-</tr>
-</table>
+The <b>IEAPProviderConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEAPProviderConfig</b> also has these types of members:
 
 ## -see-also
 

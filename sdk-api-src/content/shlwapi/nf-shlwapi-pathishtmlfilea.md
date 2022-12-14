@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathIsHTMLFileA
 title: PathIsHTMLFileA macro (shlwapi.h)
-description: Determines if a file is an HTML file. The determination is made based on the content type that is registered for the file's extension.
+description: Determines if a file is an HTML file. The determination is made based on the content type that is registered for the file's extension. (ANSI)
 helpviewer_keywords: ["PathIsHTMLFile","PathIsHTMLFile function [Windows Shell]","PathIsHTMLFileA","PathIsHTMLFileW","_win32_PathIsHTMLFile","shell.PathIsHTMLFile","shlwapi/PathIsHTMLFile","shlwapi/PathIsHTMLFileA","shlwapi/PathIsHTMLFileW"]
 old-location: shell\PathIsHTMLFile.htm
 tech.root: shell

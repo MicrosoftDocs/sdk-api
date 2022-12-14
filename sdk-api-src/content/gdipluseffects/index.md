@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by GDI+. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [DirectShow](/windows/win32/directshow/directshow)
 - [GDI+](../_gdiplus/index.md)
 

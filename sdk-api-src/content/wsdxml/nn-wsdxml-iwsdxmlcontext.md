@@ -54,56 +54,7 @@ Is a collection of namespaces and types used in a WSDAPI stack.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDXMLContext</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDXMLContext</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWSDXMLContext</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdxml/nf-wsdxml-iwsdxmlcontext-addnamespace">AddNamespace</a>
-</td>
-<td align="left" width="63%">
-Creates an object that represents an XML namespace.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdxml/nf-wsdxml-iwsdxmlcontext-addnametonamespace">AddNameToNamespace</a>
-</td>
-<td align="left" width="63%">
-Creates an object that represents a name in an XML namespace.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdxml/nf-wsdxml-iwsdxmlcontext-setnamespaces">SetNamespaces</a>
-</td>
-<td align="left" width="63%">
-Associates custom namespaces with the XML context object. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdxml/nf-wsdxml-iwsdxmlcontext-settypes">SetTypes</a>
-</td>
-<td align="left" width="63%">
-Associates custom message types with the XML context object. 
-
-</td>
-</tr>
-</table>
+The <b>IWSDXMLContext</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDXMLContext</b> also has these types of members:
 
 ## -remarks
 

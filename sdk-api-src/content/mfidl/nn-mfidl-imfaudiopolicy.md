@@ -57,74 +57,7 @@ The SAR exposes this interface as a service. To get a pointer to the interface, 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFAudioPolicy</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFAudioPolicy</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFAudioPolicy</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfaudiopolicy-getdisplayname">GetDisplayName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the display name of the audio session.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfaudiopolicy-getgroupingparam">GetGroupingParam</a>
-</td>
-<td align="left" width="63%">
-Retrieves the group of sessions to which this audio session belongs.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfaudiopolicy-geticonpath">GetIconPath</a>
-</td>
-<td align="left" width="63%">
-Retrieves the icon resource for the audio session.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfaudiopolicy-setdisplayname">SetDisplayName</a>
-</td>
-<td align="left" width="63%">
-Sets the display name of the audio session.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfaudiopolicy-setgroupingparam">SetGroupingParam</a>
-</td>
-<td align="left" width="63%">
-Assigns the audio session to a group of sessions.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfaudiopolicy-seticonpath">SetIconPath</a>
-</td>
-<td align="left" width="63%">
-Sets the icon resource for the audio session.
-
-</td>
-</tr>
-</table>
+The <b>IMFAudioPolicy</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFAudioPolicy</b> also has these types of members:
 
 ## -see-also
 

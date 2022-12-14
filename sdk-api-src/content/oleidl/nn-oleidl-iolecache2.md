@@ -54,38 +54,7 @@ Enables object clients to selectively update each cache that was created with <a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleCache2</b> interface inherits from <b>IOleCache</b>. <b>IOleCache2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IOleCache2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache2-discardcache">DiscardCache</a>
-</td>
-<td align="left" width="63%">
-Discards the caches found in memory.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache2-updatecache">UpdateCache</a>
-</td>
-<td align="left" width="63%">
-Updates the specified caches.
-
-</td>
-</tr>
-</table>
+The <b>IOleCache2</b> interface inherits from <b>IOleCache</b>. <b>IOleCache2</b> also has these types of members:
 
 ## -see-also
 

@@ -54,101 +54,10 @@ The <b>IMSVidAnalogTuner</b> interface represents an analog-only tuner card that
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidAnalogTuner</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidtuner">IMSVidTuner</a>. <b>IMSVidAnalogTuner</b> also has these types of members:
+The <b>IMSVidAnalogTuner</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidtuner">IMSVidTuner</a>. <b>IMSVidAnalogTuner</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMSVidAnalogTuner</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidanalogtuner-channelavailable">ChannelAvailable</a>
-</td>
-<td align="left" width="63%">
-Queries whether a specified channel is available for viewing.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidanalogtuner-get_audiofrequency">get_AudioFrequency</a>
-</td>
-<td align="left" width="63%">
-Retrieves the tuner's audio frequency.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidanalogtuner-get_channel">get_Channel</a>
-</td>
-<td align="left" width="63%">
-Retrieves the tuner's channel setting.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidanalogtuner-get_countrycode">get_CountryCode</a>
-</td>
-<td align="left" width="63%">
-Retrieves the tuner's country/region code.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidanalogtuner-get_sap">get_SAP</a>
-</td>
-<td align="left" width="63%">
-Retrieves the tuner's SAP setting to enable secondary audio components.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidanalogtuner-get_videofrequency">get_VideoFrequency</a>
-</td>
-<td align="left" width="63%">
-Retrieves the tuner's video frequency.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidanalogtuner-put_channel">put_Channel</a>
-</td>
-<td align="left" width="63%">
-Specifies the tuner's channel setting.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidanalogtuner-put_countrycode">put_CountryCode</a>
-</td>
-<td align="left" width="63%">
-Specifies the tuner's country/region code.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidanalogtuner-put_sap">put_SAP</a>
-</td>
-<td align="left" width="63%">
-Specifies the tuner's SAP setting to enable secondary audio components.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

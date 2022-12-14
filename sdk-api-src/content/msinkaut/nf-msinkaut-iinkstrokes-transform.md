@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkStrokes.Transform
 title: IInkStrokes::Transform (msinkaut.h)
-description: Applies a linear transformation to an IInkStrokeDisp object or an InkStrokes collection, which can represent scaling, rotation, translation, and combinations of transformations.
+description: Applies a linear transformation to an IInkStrokeDisp object or an InkStrokes collection, which can represent scaling, rotation, translation, and combinations of transformations. (IInkStrokes.Transform)
 helpviewer_keywords: ["IInkStrokes interface [Tablet PC]","Transform method","IInkStrokes.Transform","IInkStrokes::Transform","Transform","Transform method [Tablet PC]","Transform method [Tablet PC]","IInkStrokes interface","b7860215-a267-407e-9105-8e51340f4216","msinkaut/IInkStrokes::Transform","tablet.inkstrokes_transform"]
 old-location: tablet\inkstrokes_transform.htm
 tech.root: tablet
@@ -131,7 +131,7 @@ An exception occurred inside the method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846806(v=VS.85).aspx">IInkStrokes</a>
+<a href="../msinkaut/nn-msinkaut-iinkstrokes.md">IInkStrokes</a>
 
 
 

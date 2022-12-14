@@ -1,12 +1,12 @@
 ---
 UID: NS:rpcdce.__unnamed_struct_7
 title: RPC_INTERFACE_TEMPLATEW (rpcdce.h)
-description: Defines an RPC interface group server interface.
+description: The RPC_INTERFACE_TEMPLATEW (Unicode) structure (rpcdce.h) defines an RPC interface group server interface.
 helpviewer_keywords: ["*PRPC_INTERFACE_TEMPLATEW","PRPC_INTERFACE_TEMPLATE","PRPC_INTERFACE_TEMPLATE structure pointer [RPC]","RPC_INTERFACE_TEMPLATE","RPC_INTERFACE_TEMPLATE structure [RPC]","RPC_INTERFACE_TEMPLATEA","RPC_INTERFACE_TEMPLATEW","rpc.rpc_interface_template","rpcdce/PRPC_INTERFACE_TEMPLATE","rpcdce/RPC_INTERFACE_TEMPLATE","rpcdce/RPC_INTERFACE_TEMPLATEA","rpcdce/RPC_INTERFACE_TEMPLATEW"]
 old-location: rpc\rpc_interface_template.htm
 tech.root: Rpc
 ms.assetid: 4DBD0B43-659B-4074-954B-FE9ABB0DCE63
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: '*PRPC_INTERFACE_TEMPLATEW, PRPC_INTERFACE_TEMPLATE, PRPC_INTERFACE_TEMPLATE structure pointer [RPC], RPC_INTERFACE_TEMPLATE, RPC_INTERFACE_TEMPLATE structure [RPC], RPC_INTERFACE_TEMPLATEA, RPC_INTERFACE_TEMPLATEW, rpc.rpc_interface_template, rpcdce/PRPC_INTERFACE_TEMPLATE, rpcdce/RPC_INTERFACE_TEMPLATE, rpcdce/RPC_INTERFACE_TEMPLATEA, rpcdce/RPC_INTERFACE_TEMPLATEW'
 req.header: rpcdce.h
 req.include-header: Rpc.h
@@ -111,10 +111,10 @@ Optional security descriptor describing which clients have the right to access t
 ## -remarks
 
 To register an interface, the server provides the following information:<ul>
-<li>Interface specificationThe interface specification is a data structure that the MIDL compiler generates.
+<li>Interface specification The interface specification is a data structure that the MIDL compiler generates.
 
 </li>
-<li>Manager type <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> and manager EPVThe manager type <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> and the manager EPV determine which manager routine executes when a server receives a remote procedure call request from a client. For each implementation of an interface offered by a server, it must register a separate manager EPV.
+<li>Manager type <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> and manager EPV The manager type <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> and the manager EPV determine which manager routine executes when a server receives a remote procedure call request from a client. For each implementation of an interface offered by a server, it must register a separate manager EPV.
 Note that when specifying a non-nil, manager type <b>UUID</b>, the server must also call <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsettype">RpcObjectSetType</a> to register objects of this non-nil type.
 
 </li>

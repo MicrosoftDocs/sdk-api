@@ -17,5 +17,7 @@ f1_keywords:
 
 ## -description
 
-This header is used by Windows Mixed Reality. For more information, see [Windows Mixed Reality](../_mixedreality/index.md).
+This header is used by Windows Mixed Reality. For more information, see:
+
+- [Windows Mixed Reality](../_mixedreality/index.md)
 

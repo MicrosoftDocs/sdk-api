@@ -13,8 +13,8 @@ req.header: d3d12.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: D3D12_LIFETIME_STATE
 req.umdf-ver: 
@@ -39,7 +39,7 @@ Defines constants that specify the lifetime state of a lifetime-tracked object.
 
 ## -enum-fields
 
-### -field D3D12_LIFETIME_STATE_IN_USE
+### -field D3D12_LIFETIME_STATE_IN_USE:0
 
 Specifies that the lifetime-tracked object is in use.
 

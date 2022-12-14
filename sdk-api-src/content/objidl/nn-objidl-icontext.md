@@ -1,12 +1,12 @@
 ---
 UID: NN:objidl.IContext
 title: IContext (objidl.h)
-description: Supports setting COM+ context properties.
+description: The IContext interface (objidl.h) supports setting COM+ context properties.
 helpviewer_keywords: ["IContext","IContext interface [COM]","IContext interface [COM]","described","_com_icontext","com.icontext","objidlbase/IContext"]
 old-location: com\icontext.htm
 tech.root: com
 ms.assetid: 89c41d9c-186c-4927-990d-92aa501f7d35
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IContext, IContext interface [COM], IContext interface [COM],described, _com_icontext, com.icontext, objidlbase/IContext
 req.header: objidl.h
 req.include-header: ObjIdl.h
@@ -54,56 +54,7 @@ Supports setting COM+ context properties.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContext</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContext</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IContext</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-icontext-enumcontextprops">EnumContextProps</a>
-</td>
-<td align="left" width="63%">
-Returns an <a href="/windows/desktop/api/objidl/nn-objidl-ienumcontextprops">IEnumContextProps</a> interface pointer that can be used to enumerate the context properties in this context.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-icontext-getproperty">GetProperty</a>
-</td>
-<td align="left" width="63%">
-Retrieves the specified context property from the context.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-icontext-removeproperty">RemoveProperty</a>
-</td>
-<td align="left" width="63%">
-Removes the specified context property from the context.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-icontext-setproperty">SetProperty</a>
-</td>
-<td align="left" width="63%">
-Adds the specified context property to the object context.
-
-</td>
-</tr>
-</table>
+The <b>IContext</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContext</b> also has these types of members:
 
 ## -remarks
 

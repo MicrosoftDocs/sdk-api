@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - SendInput
  - winuser/SendInput
@@ -97,6 +97,42 @@ This function does not reset the keyboard's current state. Any keys that are alr
 Because the touch keyboard uses the surrogate macros defined in winnls.h to send input to the system, a listener on the keyboard event hook must decode input originating from the touch keyboard. For more information, see <a href="/windows/desktop/Intl/surrogates-and-supplementary-characters">Surrogates and Supplementary Characters</a>.
 
 An accessibility application can use <b>SendInput</b> to inject keystrokes corresponding to application launch shortcut keys that are handled by the shell.  This  functionality is not guaranteed to work for other types of applications.
+
+## Example
+
+```cpp
+//**********************************************************************
+//
+// Sends Win + D to toggle to the desktop
+//
+//**********************************************************************
+void ShowDesktop()
+{
+    OutputString(L"Sending 'Win-D'\r\n");
+    INPUT inputs[4] = {};
+    ZeroMemory(inputs, sizeof(inputs));
+
+    inputs[0].type = INPUT_KEYBOARD;
+    inputs[0].ki.wVk = VK_LWIN;
+   
+    inputs[1].type = INPUT_KEYBOARD;
+    inputs[1].ki.wVk = VK_D;
+
+    inputs[2].type = INPUT_KEYBOARD;
+    inputs[2].ki.wVk = VK_D;
+    inputs[2].ki.dwFlags = KEYEVENTF_KEYUP;
+
+    inputs[3].type = INPUT_KEYBOARD;
+    inputs[3].ki.wVk = VK_LWIN;
+    inputs[3].ki.dwFlags = KEYEVENTF_KEYUP;
+
+    UINT uSent = SendInput(ARRAYSIZE(inputs), inputs, sizeof(INPUT));
+    if (uSent != ARRAYSIZE(inputs))
+    {
+        OutputString(L"SendInput failed: 0x%x\n", HRESULT_FROM_WIN32(GetLastError()));
+    } 
+}
+```
 
 ## -see-also
 

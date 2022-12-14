@@ -59,38 +59,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISequentialStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISequentialStream</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISequentialStream</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">Read</a>
-</td>
-<td align="left" width="63%">
-Reads a specified number of bytes from the stream object into memory starting at the current seek pointer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">Write</a>
-</td>
-<td align="left" width="63%">
-Writes a specified number of bytes to the stream object starting at the current seek pointer.
-
-</td>
-</tr>
-</table>
+The <b>ISequentialStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISequentialStream</b> also has these types of members:
 
 ## -see-also
 

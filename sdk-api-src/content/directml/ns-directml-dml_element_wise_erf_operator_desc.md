@@ -1,9 +1,9 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_ERF_OPERATOR_DESC
 title: DML_ELEMENT_WISE_ERF_OPERATOR_DESC
-description: Describes a DirectML math operator that performs the element-wise natural exponential function f(x) = exp(x * scale + bias), where the scale and bias terms are optional.
+description: Performs the Gaussian error function (erf) on each element of *InputTensor*, placing the result into the corresponding element of *OutputTensor*.
 tech.root: directml
-ms.date: 01/30/2020
+ms.date: 10/29/2020
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -42,51 +42,55 @@ api_name:
 
 ## -description
 
-Describes a DirectML operator that performs an elementwise Erf error function erf(x) = 2 / sqrt(pi) * integrate(i = 0 to x, e ^ -(i^2)) on the input.
+Performs the Gaussian error function (erf) on each element of *InputTensor*, placing the result into the corresponding element of *OutputTensor*.
 
 ```
-For each x in InputTensor
-{
-    // Constants to approximate function via polynomial.
-    a1 =  0.254829592
-    a2 = -0.284496736
-    a3 =  1.421413741
-    a4 = -1.453152027
-    a5 =  1.061405429
-    p  =  0.3275911
-
-    // Save the sign of x.
-    int sign = if (x < 0) then -1 else 1
-    x = fabs(x)
-
-    // A&S formula 7.1.26.
-    t = 1.0 / (1.0 + p*x)
-    y = 1.0 - (((((a5*t + a4)*t) + a3)*t + a2)*t + a1)*t*exp(-x*x)
-    x = sign * y
-}
+f(x) = 2 / sqrt(pi) * integrate( i = 0 to x, exp(-(i^2)) )
 ```
+
+Where exp(x) is the natural exponentiation function.
+
+This operator supports in-place execution, meaning that *OutputTensor* is permitted to alias *InputTensor* during binding.
 
 ## -struct-fields
 
 ### -field InputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to read from.
+The input tensor to read from.
 
 ### -field OutputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to write the results to.
+The output tensor to write the results to.
 
 ### -field ScaleBias
 
-Type: **const [DML_SCALE_BIAS](/windows/desktop/api/directml/ns-directml-dml_scale_bias)\***
+Type: \_Maybenull\_ **const [DML_SCALE_BIAS](/windows/win32/api/directml/ns-directml-dml_scale_bias)\***
 
-An optional pointer to a constant [DML_SCALE_BIAS](/windows/desktop/api/directml/ns-directml-dml_scale_bias) containing scale and bias to apply to the input. If present, this has the effect of applying the function g(x) = x * scale + bias to each element before this topic's operator is applied.
+An optional scale and bias to apply to the input. If present, this has the effect of applying the function `g(x) = x * scale + bias` to each *input* element prior to computing this operator.
 
 ## -remarks
 
-## -see-also
+## Availability
+This operator was introduced in `DML_FEATURE_LEVEL_2_0`.
 
+## Tensor constraints
+*InputTensor* and *OutputTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.
+
+## Tensor support
+### DML_FEATURE_LEVEL_3_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16 |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16 |
+
+### DML_FEATURE_LEVEL_2_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 | FLOAT32, FLOAT16 |
+| OutputTensor | Output | 4 | FLOAT32, FLOAT16 |
+
+## -see-also

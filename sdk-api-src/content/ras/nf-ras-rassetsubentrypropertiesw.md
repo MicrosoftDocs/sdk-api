@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasSetSubEntryPropertiesW
 title: RasSetSubEntryPropertiesW function (ras.h)
-description: The RasSetSubEntryProperties function creates a new subentry or modifies an existing subentry of a specified phone-book entry.
+description: The RasSetSubEntryProperties function creates a new subentry or modifies an existing subentry of a specified phone-book entry. (Unicode)
 helpviewer_keywords: ["RasSetSubEntryProperties","RasSetSubEntryProperties function [RAS]","RasSetSubEntryPropertiesA","RasSetSubEntryPropertiesW","_ras_rassetsubentryproperties","ras/RasSetSubEntryProperties","ras/RasSetSubEntryPropertiesA","ras/RasSetSubEntryPropertiesW","rras.rassetsubentryproperties"]
 old-location: rras\rassetsubentryproperties.htm
 tech.root: RRAS
@@ -57,7 +57,7 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box. 
 
@@ -66,15 +66,15 @@ Pointer to a <b>null</b>-terminated string that specifies the full path and file
 
 <b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the name of an existing entry in the phone book.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Specifies the one-based index of the subentry. If the index matches an existing subentry index, the function changes the properties of that subentry. If the index does not match an existing index, the function creates a new subentry.
 
-### -param arg4 [in]
+### -param unnamedParam4 [in]
 
 Pointer to the 
 <a href="/previous-versions/windows/desktop/legacy/aa377839(v=vs.85)">RASSUBENTRY</a> structure that specifies the data for the subentry. 
@@ -85,16 +85,16 @@ Pointer to the
 The structure might be followed by an array of <b>null</b>-terminated alternate phone number strings. The last string is terminated by two consecutive <b>null</b> characters. The <b>dwAlternateOffset</b> member of the 
 <a href="/previous-versions/windows/desktop/legacy/aa377839(v=vs.85)">RASSUBENTRY</a> structure contains the offset to the first string.
 
-### -param arg5 [in]
+### -param unnamedParam5 [in]
 
 Specifies the size, in bytes, of the <i>lpRasSubEntry</i> buffer.
 
-### -param arg6 [in]
+### -param unnamedParam6 [in]
 
 Pointer to a TAPI device configuration block. This parameter is currently unused. The caller should pass <b>NULL</b> for this parameter. For more information about TAPI device configuration blocks, see the function 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegetdevconfig">lineGetDevConfig</a>.
 
-### -param arg7 [in]
+### -param unnamedParam7 [in]
 
 Specifies the size of the TAPI device configuration block. This parameter is currently unused. The caller should pass zero for this parameter.
 

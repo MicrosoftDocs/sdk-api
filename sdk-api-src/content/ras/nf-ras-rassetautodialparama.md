@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasSetAutodialParamA
 title: RasSetAutodialParamA function (ras.h)
-description: The RasSetAutodialParam function sets the value of an AutoDial parameter.
+description: The RasSetAutodialParam function sets the value of an AutoDial parameter. (ANSI)
 helpviewer_keywords: ["RASADP_ConnectionQueryTimeout","RASADP_DisableConnectionQuery","RASADP_FailedConnectionTimeout","RASADP_LoginSessionDisable","RASADP_SavedAddressesLimit","RasSetAutodialParam","RasSetAutodialParam function [RAS]","RasSetAutodialParamA","RasSetAutodialParamW","_ras_rassetautodialparam","ras/RasSetAutodialParam","ras/RasSetAutodialParamA","ras/RasSetAutodialParamW","rras.rassetautodialparam"]
 old-location: rras\rassetautodialparam.htm
 tech.root: RRAS
@@ -57,7 +57,7 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Specifies the AutoDial parameter to set. This parameter can be one of the following values. 
 
@@ -121,11 +121,11 @@ The <i>lpvValue</i> parameter points to a <b>DWORD</b> value that indicates a ti
 </tr>
 </table>
 
-### -param arg2 [out]
+### -param unnamedParam2 [out]
 
 Pointer to a buffer that contains the new value for the specified parameter.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Specifies the size, in bytes, of the value in the <i>lpvValue</i> buffer.
 

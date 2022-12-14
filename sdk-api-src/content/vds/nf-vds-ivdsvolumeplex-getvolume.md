@@ -59,7 +59,7 @@ Returns the volume to which the current plex is a member.
 
 ### -param ppVolume [out]
 
-The address of an <a href="/windows/desktop/api/vds/nn-vds-ivdsvolume">IVdsVolume</a>interface pointer. The caller must release the pointer.
+The address of an <a href="/windows/desktop/api/vds/nn-vds-ivdsvolume">IVdsVolume</a> interface pointer. The caller must release the pointer.
 
 ## -returns
 

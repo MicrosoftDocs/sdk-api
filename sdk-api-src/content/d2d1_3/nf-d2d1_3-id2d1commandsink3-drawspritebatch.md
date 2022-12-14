@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1CommandSink3.DrawSpriteBatch
 title: ID2D1CommandSink3::DrawSpriteBatch (d2d1_3.h)
-description: Renders part or all of the given sprite batch to the device context using the specified drawing options.
+description: Renders part or all of the given sprite batch to the device context using the specified drawing options. (ID2D1CommandSink3.DrawSpriteBatch)
 helpviewer_keywords: ["DrawSpriteBatch","DrawSpriteBatch method [Direct2D]","DrawSpriteBatch method [Direct2D]","ID2D1CommandSink3 interface","ID2D1CommandSink3 interface [Direct2D]","DrawSpriteBatch method","ID2D1CommandSink3.DrawSpriteBatch","ID2D1CommandSink3::DrawSpriteBatch","d2d1_3/ID2D1CommandSink3::DrawSpriteBatch","direct2d.id2d1commandsink3_drawspritebatch"]
 old-location: direct2d\id2d1commandsink3_drawspritebatch.htm
 tech.root: Direct2D
@@ -94,7 +94,7 @@ The additional drawing options, if any, to be used for this sprite batch.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

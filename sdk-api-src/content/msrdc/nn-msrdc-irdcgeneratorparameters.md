@@ -56,48 +56,7 @@ The <b>IRdcGeneratorParameters</b> interface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcGeneratorParameters</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRdcGeneratorParameters</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IRdcGeneratorParameters</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorparameters-getgeneratorparameterstype">GetGeneratorParametersType</a>
-</td>
-<td align="left" width="63%">
-Returns the specific type of the parameters.</p> (Inherited from <b>IRdcGeneratorParameters</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorparameters-getparametersversion">GetParametersVersion</a>
-</td>
-<td align="left" width="63%">
-Returns information about the version of RDC used to serialize the parameters.</p> (Inherited from <b>IRdcGeneratorParameters</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorparameters-getserializesize">GetSerializeSize</a>
-</td>
-<td align="left" width="63%">
-Returns the size, in bytes, of the serialized parameter data.</p> (Inherited from <b>IRdcGeneratorParameters</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorparameters-serialize">Serialize</a>
-</td>
-<td align="left" width="63%">
-Serializes the parameter data into a block of memory.</p> (Inherited from <b>IRdcGeneratorParameters</b>)</td>
-</tr>
-</table>
+The <b>IRdcGeneratorParameters</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRdcGeneratorParameters</b> also has these types of members:
 
 ## -see-also
 

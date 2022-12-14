@@ -54,27 +54,27 @@ Specifies the dynamic range control profile in a Dolby Digital audio stream. Thi
 
 ## -enum-fields
 
-### -field eAVEncDDDynamicRangeCompressionControl_None
+### -field eAVEncDDDynamicRangeCompressionControl_None:0
 
 No dynamic range compression.
 
-### -field eAVEncDDDynamicRangeCompressionControl_FilmStandard
+### -field eAVEncDDDynamicRangeCompressionControl_FilmStandard:1
 
 Film standard profile.
 
-### -field eAVEncDDDynamicRangeCompressionControl_FilmLight
+### -field eAVEncDDDynamicRangeCompressionControl_FilmLight:2
 
 Film light profile.
 
-### -field eAVEncDDDynamicRangeCompressionControl_MusicStandard
+### -field eAVEncDDDynamicRangeCompressionControl_MusicStandard:3
 
 Music standard profile.
 
-### -field eAVEncDDDynamicRangeCompressionControl_MusicLight
+### -field eAVEncDDDynamicRangeCompressionControl_MusicLight:4
 
 Music light profile.
 
-### -field eAVEncDDDynamicRangeCompressionControl_Speech
+### -field eAVEncDDDynamicRangeCompressionControl_Speech:5
 
 Speech profile.
 

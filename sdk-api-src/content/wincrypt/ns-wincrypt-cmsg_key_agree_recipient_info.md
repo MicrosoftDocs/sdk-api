@@ -67,9 +67,7 @@ A <b>DWORD</b> that indicates the version of the structure. Always set to three.
 A <b>DWORD</b> that indicates the key identifier to use. 
 
 
-
-
-					This member can be one of the following values.
+This member can be one of the following values.
 
 <table>
 <tr>

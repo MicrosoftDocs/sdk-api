@@ -54,11 +54,11 @@ The <b>FLOATOBJ_SetLong</b> function assigns the value of type LONG to the <a hr
 
 ## -parameters
 
-### -param arg1 [out]
+### -param unnamedParam1 [out]
 
 Pointer to the FLOATOBJ that will receive the value of <i>l</i>.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Specifies the LONG value. This value is converted to a FLOATOBJ for the assignment.
 

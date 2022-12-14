@@ -2,7 +2,6 @@
 UID: NE:mfidl.MF_MEDIAKEY_STATUS
 title: MF_MEDIAKEY_STATUS
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Specifies the status of a Content Decryption Module (CDM) session key.
 tech.root: mf
@@ -38,7 +37,7 @@ Specifies the status of a Content Decryption Module (CDM) session key.
 
 ## -enum-fields
 
-### -field MF_MEDIAKEY_STATUS_USABLE
+### -field MF_MEDIAKEY_STATUS_USABLE:0
 
 The CDM is certain the key is currently usable for decryption.
 
@@ -72,12 +71,12 @@ There are output restrictions associated with the key that cannot currently be m
 
 ## -remarks
 
-This enumeration is with the [MFMediaKeyStatus](ns-mfidl-mfmediakeystatus) structure used as the output parameter for the [IMFContentDecryptionModuleSession::GetKeyStatuses](../mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-getkeystatuses.md) method.
+This enumeration is with the [MFMediaKeyStatus](ns-mfidl-mfmediakeystatus.md) structure used as the output parameter for the [IMFContentDecryptionModuleSession::GetKeyStatuses](../mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-getkeystatuses.md) method.
 
 
 **MF_MEDIAKEY_STATUS** is based on the Encrypted Media Extension specification's [MediaKeyStatus](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#dom-mediakeystatus) enumeration.
 
 ## -see-also
 
-* [MFMediaKeyStatus](ns-mfidl-mfmediakeystatus)
+* [MFMediaKeyStatus](ns-mfidl-mfmediakeystatus.md)
 * [IMFContentDecryptionModuleSession::GetKeyStatuses](../mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-getkeystatuses.md)

@@ -64,4 +64,4 @@ A handle to the list-view control.
 
 Type: <b>LPPOINT</b>
 
-A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the view origin.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that receives the view origin.

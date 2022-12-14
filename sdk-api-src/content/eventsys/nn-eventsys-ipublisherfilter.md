@@ -57,39 +57,7 @@ Acts as a callback interface so that event publishers can control which subscrib
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPublisherFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPublisherFilter</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPublisherFilter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/eventsys/nf-eventsys-ipublisherfilter-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Associates an event method with a collection of subscription objects.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/eventsys/nf-eventsys-ipublisherfilter-preparetofire">PrepareToFire</a>
-</td>
-<td align="left" width="63%">
-Prepares a publisher filter to begin firing a filtered list of subscriptions using a provided firing control.
-
-
-</td>
-</tr>
-</table>
+The <b>IPublisherFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPublisherFilter</b> also has these types of members:
 
 ## -see-also
 

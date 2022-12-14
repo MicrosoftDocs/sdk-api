@@ -1,7 +1,7 @@
 ---
 UID: NF:wincred.CredIsMarshaledCredentialA
 title: CredIsMarshaledCredentialA function (wincred.h)
-description: Determines whether a specified user name string is a marshaled credential previously marshaled by CredMarshalCredential.
+description: Determines whether a specified user name string is a marshaled credential previously marshaled by CredMarshalCredential. (ANSI)
 helpviewer_keywords: ["CredIsMarshaledCredential","CredIsMarshaledCredential function [Security]","CredIsMarshaledCredentialA","CredIsMarshaledCredentialW","_cred_credismarshaledcredential","security.credismarshaledcredential","wincred/CredIsMarshaledCredential","wincred/CredIsMarshaledCredentialA","wincred/CredIsMarshaledCredentialW"]
 old-location: security\credismarshaledcredential.htm
 tech.root: security

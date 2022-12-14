@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymGetScope
 title: SymGetScope function (dbghelp.h)
-description: Retrieves the scope for the specified index.
+description: The SymGetScope function (dbghelp.h) retrieves the scope for the specified index.
 helpviewer_keywords: ["SymGetScope","SymGetScope function","SymGetScopeW","base.symgetscope","dbghelp/SymGetScope","dbghelp/SymGetScopeW"]
 old-location: base\symgetscope.htm
 tech.root: Debug
 ms.assetid: 048a4d07-bf87-4dbc-9169-d8782040b205
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymGetScope, SymGetScope function, SymGetScopeW, base.symgetscope, dbghelp/SymGetScope, dbghelp/SymGetScopeW
 req.header: dbghelp.h
 req.include-header: 

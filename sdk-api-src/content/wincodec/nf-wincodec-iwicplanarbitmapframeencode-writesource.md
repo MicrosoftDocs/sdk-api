@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICPlanarBitmapFrameEncode.WriteSource
 title: IWICPlanarBitmapFrameEncode::WriteSource (wincodec.h)
-description: Writes lines from the source planes to the encoded format.
+description: Writes lines from the source planes to the encoded format. (IWICPlanarBitmapFrameEncode.WriteSource)
 helpviewer_keywords: ["IWICPlanarBitmapFrameEncode interface [Windows Imaging Component]","WriteSource method","IWICPlanarBitmapFrameEncode.WriteSource","IWICPlanarBitmapFrameEncode::WriteSource","WriteSource","WriteSource method [Windows Imaging Component]","WriteSource method [Windows Imaging Component]","IWICPlanarBitmapFrameEncode interface","wic.iwicplanarbitmapframeencode_writesource","wincodec/IWICPlanarBitmapFrameEncode::WriteSource"]
 old-location: wic\iwicplanarbitmapframeencode_writesource.htm
 tech.root: wic

@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.SetManagerEventHandler
 title: IUIAnimationManager2::SetManagerEventHandler (uianimation.h)
-description: Specifies a handler for animation manager status updates.
+description: Specifies a handler for animation manager status updates. (IUIAnimationManager2.SetManagerEventHandler)
 helpviewer_keywords: ["IUIAnimationManager2 interface [Windows Animation]","SetManagerEventHandler method","IUIAnimationManager2.SetManagerEventHandler","IUIAnimationManager2::SetManagerEventHandler","SetManagerEventHandler","SetManagerEventHandler method [Windows Animation]","SetManagerEventHandler method [Windows Animation]","IUIAnimationManager2 interface","uianimation.iuianimationmanager2_setmanagereventhandler","uianimation/IUIAnimationManager2::SetManagerEventHandler"]
 old-location: uianimation\iuianimationmanager2_setmanagereventhandler.htm
 tech.root: UIAnimation
@@ -58,9 +58,7 @@ Specifies a handler for animation manager status updates.
 
 The event handler to be called when the status of the animation manager changes.  
                
-               The specified object must implement the
-               <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanagereventhandler">IUIAnimationManagerEventHandler</a> interface or be <b>NULL</b>.
-            See Remarks for more info.
+The specified object must implement the <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanagereventhandler">IUIAnimationManagerEventHandler</a> interface or be <b>NULL</b>. See Remarks for more info.
 
 ### -param fRegisterForNextAnimationEvent [in]
 

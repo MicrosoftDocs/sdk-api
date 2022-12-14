@@ -1,7 +1,8 @@
 ---
 UID: NS:p2p.peer_group_event_data_tag~r1
 title: PEER_GROUP_EVENT_DATA
-ms.date: 01/30/19
+description: The PEER_GROUP_EVENT_DATA structure (p2p.h) contains information about a specific peer group event that has occurred.
+ms.date: 08/15/2022
 ms.keywords: peer_group_event_data_tag, PEER_GROUP_EVENT_DATA
 targetos: Windows
 req.construct-type: structure
@@ -13,8 +14,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: PEER_GROUP_EVENT_DATA, *PPEER_GROUP_EVENT_DATA
 req.umdf-ver: 

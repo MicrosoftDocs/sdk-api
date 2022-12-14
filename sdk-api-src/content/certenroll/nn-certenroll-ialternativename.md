@@ -51,7 +51,9 @@ api_name:
 ## -description
 
 A collection of  <b>IAlternativeName</b> interfaces is used by an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionalternativenames">IX509ExtensionAlternativeNames</a> object to represent an instance of an <b>AlternativeNames</b> extension. The collection is represented by the <a href="/windows/desktop/api/certenroll/nn-certenroll-ialternativenames">IAlternativeNames</a> interface. The following syntax shows the <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) structure  of the extension.
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 ----------------------------------------------------------------------
 -- AlternativeNames 
 -- XCN_OID_SUBJECT_ALT_NAME2 (2.5.29.17)
@@ -78,7 +80,9 @@ OtherName ::= SEQUENCE
    type                    EncodedObjectID,
    value                   [0] EXPLICIT NOCOPYANY 
 }
-</code></pre> You can initialize an <b>IAlternativeName</b> object from an <a href="/windows/desktop/api/certenroll/ne-certenroll-alternativenametype">AlternativeNameType</a> enumeration. The following types are available, but they are supported by different initialization methods as indicated.<table>
+
+```
+ You can initialize an <b>IAlternativeName</b> object from an <a href="/windows/desktop/api/certenroll/ne-certenroll-alternativenametype">AlternativeNameType</a> enumeration. The following types are available, but they are supported by different initialization methods as indicated.<table>
 <tr>
 <th>Value</th>
 <th>Description</th>
@@ -151,103 +155,7 @@ OtherName ::= SEQUENCE
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAlternativeName</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAlternativeName</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
-
-## -members
-
-The <b>IAlternativeName</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-ialternativename-initializefromothername">InitializeFromOtherName</a>
-</td>
-<td align="left" width="63%">
-Initializes the object from an OID and the associated raw data (byte array).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-ialternativename-initializefromrawdata">InitializeFromRawData</a>
-</td>
-<td align="left" width="63%">
-Initializes the object from a DSA GUID, an X.500 directory name, or an IP address contained in a <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded byte array.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-ialternativename-initializefromstring">InitializeFromString</a>
-</td>
-<td align="left" width="63%">
-Initializes the object from a string that contains an email address, a DNS name, a URL, a registered OID, or a UPN.
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAlternativeName</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-ialternativename-get_objectid">ObjectId</a>
-
-
-</td>
-<td align="left" width="63%">
-Retrieves the  OID, if any, associated with the name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-ialternativename-get_rawdata">RawData</a>
-
-
-</td>
-<td align="left" width="63%">
-Retrieves the DER-encoded byte array that contains the name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-ialternativename-get_strvalue">StrValue</a>
-
-
-</td>
-<td align="left" width="63%">
-Retrieves a string that contains an email address, a DNS name, a URL, a registered OID, or a UPN.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-ialternativename-get_type">Type</a>
-
-
-</td>
-<td align="left" width="63%">
-Retrieves the alternative name type.
-
-</td>
-</tr>
-</table>
+The <b>IAlternativeName</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAlternativeName</b> also has these types of members:
 
 ## -see-also
 

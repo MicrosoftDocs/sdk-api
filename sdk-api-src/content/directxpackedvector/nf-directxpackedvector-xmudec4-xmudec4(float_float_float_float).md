@@ -95,7 +95,7 @@ The magnitude of this argument will be clamped to a range of [0.0, 3.0].
 ## -remarks
 
 The following pseudocode demonstrates the operation of this constructor, which takes
-	    advantage of the <code>union</code> of the four components of the <code>XMUDEC4</code>vector with an instance of <code>uint32_t</code> in the definition of the structure:
+	    advantage of the <code>union</code> of the four components of the <code>XMUDEC4</code> vector with an instance of <code>uint32_t</code> in the definition of the structure:
 	
 
 

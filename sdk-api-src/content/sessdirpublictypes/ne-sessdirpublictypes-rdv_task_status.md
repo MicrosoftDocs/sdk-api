@@ -56,7 +56,7 @@ Used with the <a href="/windows/desktop/TermServ/irdvtaskpluginnotifysink-ontask
 
 ## -enum-fields
 
-### -field RDV_TASK_STATUS_UNKNOWN
+### -field RDV_TASK_STATUS_UNKNOWN:0
 
 The task state cannot be determined.
 

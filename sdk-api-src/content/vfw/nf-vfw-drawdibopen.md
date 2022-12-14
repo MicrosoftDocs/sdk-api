@@ -52,7 +52,7 @@ api_name:
 
 The <b>DrawDibOpen</b> function opens the DrawDib library for use and creates a DrawDib DC for drawing.
 
-## -parameters
+
 
 ## -returns
 

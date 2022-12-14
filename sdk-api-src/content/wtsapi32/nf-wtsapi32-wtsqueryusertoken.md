@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
 api_name:
  - WTSQueryUserToken
+req.apiset: ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)
 ---
 
 # WTSQueryUserToken function
@@ -86,9 +87,7 @@ If the function succeeds, the return value is a nonzero value, and the <i>phToke
        parameter points to the primary token of the user.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among other errors, 
-       <b>GetLastError</b> can return one of the following 
-       errors.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 

@@ -55,29 +55,7 @@ Tracks a transform-created resource texture.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1ResourceTexture</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1ResourceTexture</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID2D1ResourceTexture</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1resourcetexture-update">Update</a>
-</td>
-<td align="left" width="63%">
-Updates the specific resource texture inside the specific range or box using the supplied data.
-
-</td>
-</tr>
-</table>
+The <b>ID2D1ResourceTexture</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1ResourceTexture</b> also has these types of members:
 
 ## -see-also
 

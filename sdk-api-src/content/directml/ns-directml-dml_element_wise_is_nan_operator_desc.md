@@ -1,9 +1,9 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_IS_NAN_OPERATOR_DESC
 title: DML_ELEMENT_WISE_IS_NAN_OPERATOR_DESC
-description: Describes a DirectML math operator that determines, elementwise, whether the input is NaN.
+description: For each element of the input tensor, returns 1 if the input is NaN (as defined by IEEE-754), and 0 otherwise. The result is placed into the corresponding element of the output tensor.
 tech.root: directml
-ms.date: 01/30/2020
+ms.date: 10/29/2020
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -38,30 +38,41 @@ dev_langs:
 
 ## -description
 
-Describes a DirectML math operator that determines, elementwise, whether the input is NaN.
-
-```
-For each x in InputTensor
-    // Can test float32 IEEE 754 NaN by looking for an 8-bit exponent set to all ones
-    // and any bit of the 23-bit mantissa set (sign-ignorable).
-    IsNan(x) = (asuint(x) & 0x7FFFFFFF) > 0x7F800000
-```
+For each element of the input tensor, returns 1 if the input is NaN (as defined by IEEE-754), and 0 otherwise. The result is placed into the corresponding element of the output tensor.
 
 ## -struct-fields
 
 ### -field InputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to read from.
+The input tensor to read from.
 
 ### -field OutputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to write the results to.
+The output tensor to write the results to.
 
 ## -remarks
 
-## -see-also
+## Availability
+This operator was introduced in `DML_FEATURE_LEVEL_2_0`.
 
+## Tensor constraints
+*InputTensor* and *OutputTensor* must have the same *DimensionCount* and *Sizes*.
+
+## Tensor support
+### DML_FEATURE_LEVEL_3_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16 |
+| OutputTensor | Output | 1 to 8 | UINT32, UINT8 |
+
+### DML_FEATURE_LEVEL_2_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 | FLOAT32, FLOAT16 |
+| OutputTensor | Output | 4 | UINT32, UINT8 |
+
+## -see-also

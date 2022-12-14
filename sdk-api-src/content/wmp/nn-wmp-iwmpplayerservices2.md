@@ -54,31 +54,10 @@ The <b>IWMPPlayerServices2</b> interface provides a method used by the host of a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlayerServices2</b> interface inherits from <a href="/windows/desktop/api/wmp/nn-wmp-iwmpplayerservices2">IWMPPlayerServices2</a>. <b>IWMPPlayerServices2</b> also has these types of members:
+The <b>IWMPPlayerServices2</b> interface inherits from <a href="/windows/desktop/api/wmp/nn-wmp-iwmpplayerservices2">IWMPPlayerServices2</a>. <b>IWMPPlayerServices2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMPPlayerServices2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayerservices2-setbackgroundprocessingpriority">setBackgroundProcessingPriority</a>
-</td>
-<td align="left" width="63%">
-Specifies a priority level for general background processing tasks.
-
-</td>
-</tr>
-</table> 
-
-Retrieve a pointer to an <b>IWMPPlayerServices2</b> interface by calling the COM <b>CoCreateInstance</b> method.
 
 ## -see-also
 

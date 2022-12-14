@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextEditPattern.GetConversionTarget
 title: IUIAutomationTextEditPattern::GetConversionTarget (uiautomationclient.h)
-description: Returns the current conversion target range.
+description: Returns the current conversion target range. (IUIAutomationTextEditPattern.GetConversionTarget)
 helpviewer_keywords: ["GetConversionTarget","GetConversionTarget method [Windows Accessibility]","GetConversionTarget method [Windows Accessibility]","IUIAutomationTextEditPattern interface","IUIAutomationTextEditPattern interface [Windows Accessibility]","GetConversionTarget method","IUIAutomationTextEditPattern.GetConversionTarget","IUIAutomationTextEditPattern::GetConversionTarget","uiautomationclient/IUIAutomationTextEditPattern::GetConversionTarget","winauto.uiauto_IUIAutomationTextEditPattern_GetConversionTarget"]
 old-location: winauto\uiauto_IUIAutomationTextEditPattern_GetConversionTarget.htm
 tech.root: WinAuto
@@ -64,7 +64,7 @@ Pointer to the conversion target range (none if there is no conversion).
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

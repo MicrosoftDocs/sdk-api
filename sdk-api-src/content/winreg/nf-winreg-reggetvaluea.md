@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegGetValueA
 title: RegGetValueA function (winreg.h)
-description: Retrieves the type and data for the specified registry value.
+description: Retrieves the type and data for the specified registry value. (ANSI)
 helpviewer_keywords: ["RRF_NOEXPAND","RRF_RT_ANY","RRF_RT_DWORD","RRF_RT_QWORD","RRF_RT_REG_BINARY","RRF_RT_REG_DWORD","RRF_RT_REG_EXPAND_SZ","RRF_RT_REG_MULTI_SZ","RRF_RT_REG_NONE","RRF_RT_REG_QWORD","RRF_RT_REG_SZ","RRF_SUBKEY_WOW6432KEY","RRF_SUBKEY_WOW6464KEY","RRF_ZEROONFAILURE","RegGetValue","RegGetValue function","RegGetValueA","RegGetValueW","base.reggetvalue","winreg/RegGetValue","winreg/RegGetValueA","winreg/RegGetValueW"]
 old-location: base\reggetvalue.htm
 tech.root: winprog
@@ -11,8 +11,8 @@ ms.keywords: RRF_NOEXPAND, RRF_RT_ANY, RRF_RT_DWORD, RRF_RT_QWORD, RRF_RT_REG_BI
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
-req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
+req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition
+req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

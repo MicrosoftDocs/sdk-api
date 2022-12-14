@@ -1,11 +1,11 @@
 ---
 UID: NF:chstring.operator-greater-than-equal-to~r1
-title: operator>=
-description: 
+title: operator>= (greater than equal to)
+description: The chstring.operator-greater-than-equal-to~r1 function compares two strings. These operators are a convenient substitute for the case-sensitive Compare method.
 tech.root: wmi
 helpviewer_keywords: ["operator>="]
 ms.assetid: 723e83e5-9d52-420d-9850-a145a8b722e9
-ms.date: 05/20/2019
+ms.date: 08/10/2022
 ms.keywords: operator>=
 targetos: Windows
 req.assembly: 
@@ -35,7 +35,6 @@ dev_langs:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - chstring.h
 api_name:

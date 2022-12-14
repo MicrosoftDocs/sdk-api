@@ -71,78 +71,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertView</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertView</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ICertView</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certview/nf-certview-icertview-enumcertviewcolumn">EnumCertViewColumn</a>
-</td>
-<td align="left" width="63%">
-Obtains a pointer to 
-<a href="/windows/desktop/api/certview/nn-certview-ienumcertviewcolumn">IEnumCERTVIEWCOLUMN</a> for schema enumeration.</p> (Inherited from <b>ICertView</b><b>CCertView</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certview/nf-certview-icertview-getcolumncount">GetColumnCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the count of columns in the view.</p> (Inherited from <b>ICertView</b><b>CCertView</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certview/nf-certview-icertview-getcolumnindex">GetColumnIndex</a>
-</td>
-<td align="left" width="63%">
-Retrieves the zero-based index of a named column.</p> (Inherited from <b>ICertView</b><b>CCertView</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certview/nf-certview-icertview-openconnection">OpenConnection</a>
-</td>
-<td align="left" width="63%">
-Establishes a connection with a Certificate Services server.</p> (Inherited from <b>ICertView</b><b>CCertView</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certview/nf-certview-icertview-openview">OpenView</a>
-</td>
-<td align="left" width="63%">
-Opens a view to a Certificate Services database and obtains a pointer to 
-<a href="/windows/desktop/api/certview/nn-certview-ienumcertviewrow">IEnumCERTVIEWROW</a>.</p> (Inherited from <b>ICertView</b><b>CCertView</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certview/nf-certview-icertview-setrestriction">SetRestriction</a>
-</td>
-<td align="left" width="63%">
-Sets sorting and qualifying restrictions on a column.</p> (Inherited from <b>ICertView</b><b>CCertView</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certview/nf-certview-icertview-setresultcolumn">SetResultColumn</a>
-</td>
-<td align="left" width="63%">
-Specifies a column for the result set of a customized view of the Certificate Services database.</p> (Inherited from <b>ICertView</b><b>CCertView</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certview/nf-certview-icertview-setresultcolumncount">SetResultColumnCount</a>
-</td>
-<td align="left" width="63%">
-Specifies the maximum the number of columns for the result set of a customized view of the Certificate Services database.</p> (Inherited from <b>ICertView</b><b>CCertView</b>)</td>
-</tr>
-</table>
+The <b>ICertView</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertView</b> also has these types of members:
 
 ## -see-also
 

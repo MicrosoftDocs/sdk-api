@@ -1,7 +1,7 @@
 ---
 UID: NF:ncrypt.NCryptSecretAgreement
 title: NCryptSecretAgreement function (ncrypt.h)
-description: Creates a secret agreement value from a private and a public key.
+description: Creates a secret agreement value from a private and a public key. (NCryptSecretAgreement)
 helpviewer_keywords: ["NCRYPT_SILENT_FLAG","NCryptSecretAgreement","NCryptSecretAgreement function [Security]","ncrypt/NCryptSecretAgreement","security.ncryptsecretagreement"]
 old-location: security\ncryptsecretagreement.htm
 tech.root: security

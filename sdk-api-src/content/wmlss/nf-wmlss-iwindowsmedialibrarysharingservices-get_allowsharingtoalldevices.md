@@ -56,7 +56,7 @@ The <b>get_allowSharingToAllDevices</b> method retrieves a value that indicates 
 
 ### -param sharingEnabled [out]
 
-Pointer to a <b>VARIANT_BOOL</b> that receives <b>VARIANT_TRUE</b> if the media libray is shared with all devices and <b>VARIANT_FALSE</b> if the media library is not shared with at least one device.
+Pointer to a <b>VARIANT_BOOL</b> that receives <b>VARIANT_TRUE</b> if the media library is shared with all devices and <b>VARIANT_FALSE</b> if the media library is not shared with at least one device.
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_hWnd
 title: IInkPicture::get_hWnd (msinkaut.h)
-description: Gets or sets the handle value of the window on which ink is drawn.
+description: Gets or sets the handle value of the window on which ink is drawn. (IInkPicture.get_hWnd)
 helpviewer_keywords: ["IInkPicture interface [Tablet PC]","hWnd property","IInkPicture.get_hWnd","IInkPicture.hWnd","IInkPicture::get_hWnd","IInkPicture::hWnd","IInkPicture::put_hWnd","InkPicture.get_hWnd","InkPicture.put_hWnd","get_hWnd","hWnd property [Tablet PC]","hWnd property [Tablet PC]","IInkPicture interface","msinkaut/IInkPicture::get_hWnd","msinkaut/IInkPicture::hWnd","msinkaut/IInkPicture::put_hWnd","put_hWnd","tablet.inkpicture_hwnd"]
 old-location: tablet\inkpicture_hwnd.htm
 tech.root: tablet
@@ -77,7 +77,7 @@ In Automation, this property is called <a href="/windows/desktop/api/msinkaut/nf
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="../msinkaut/nn-msinkaut-iinkpicture.md">IInkPicture</a>
 
 
 

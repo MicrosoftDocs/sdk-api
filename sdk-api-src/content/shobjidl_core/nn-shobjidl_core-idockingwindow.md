@@ -54,47 +54,7 @@ Exposes methods that notify the docking window object of changes, including show
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDockingWindow</b> interface inherits from <a href="/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. <b>IDockingWindow</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDockingWindow</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idockingwindow-closedw">CloseDW</a>
-</td>
-<td align="left" width="63%">
-Notifies the docking window object that it is about to be removed from the frame. The docking window object should save any persistent information at this time.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idockingwindow-resizeborderdw">ResizeBorderDW</a>
-</td>
-<td align="left" width="63%">
-Notifies the docking window object that the frame's border space has changed. In response to this method, the <b>IDockingWindow</b> implementation must call <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-idockingwindowsite-setborderspacedw">IDockingWindowSite::SetBorderSpaceDW</a>, even if no border space is required or a change is not necessary.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idockingwindow-showdw">ShowDW</a>
-</td>
-<td align="left" width="63%">
-Instructs the docking window object to show or hide itself.
-
-</td>
-</tr>
-</table>
+The <b>IDockingWindow</b> interface inherits from <a href="/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. <b>IDockingWindow</b> also has these types of members:
 
 ## -remarks
 

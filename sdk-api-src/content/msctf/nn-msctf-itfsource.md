@@ -54,38 +54,7 @@ The <b>ITfSource</b> interface is implemented by the TSF manager. It is used by 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfSource</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfSource</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfSource</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">AdviseSink</a>
-</td>
-<td align="left" width="63%">
-Installs an advise sink.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfsource-unadvisesink">UnadviseSink</a>
-</td>
-<td align="left" width="63%">
-Uninstalls an advise sink.
-
-</td>
-</tr>
-</table>
+The <b>ITfSource</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfSource</b> also has these types of members:
 
 ## -remarks
 

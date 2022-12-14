@@ -103,7 +103,7 @@ Optional. Pointer to an
 
 Optional. Pointer to supplemental authentication data.
 
-### -param GetKeyFunciton [in]
+### -param GetKeyFunction [in]
 
 Pointer to a function in the caller's address space that generates <a href="/windows/desktop/SecGloss/s-gly">session keys</a>.
 

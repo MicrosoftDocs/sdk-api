@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.HttpSendRequestW
 title: HttpSendRequestW function (wininet.h)
-description: Sends the specified request to the HTTP server, allowing callers to send extra data beyond what is normally passed to HttpSendRequestEx.
+description: Sends the specified request to the HTTP server, allowing callers to send extra data beyond what is normally passed to HttpSendRequestEx. (Unicode)
 helpviewer_keywords: ["HttpSendRequest","HttpSendRequest function [WinINet]","HttpSendRequestA","HttpSendRequestW","_inet_httpsendrequest_function","wininet.httpsendrequest","wininet/HttpSendRequest","wininet/HttpSendRequestA","wininet/HttpSendRequestW"]
 old-location: wininet\httpsendrequest.htm
 tech.root: wininet
@@ -99,7 +99,7 @@ An application can use the same HTTP request handle in multiple calls to
 In offline mode, 
 <b>HttpSendRequest</b> returns <b>ERROR_FILE_NOT_FOUND</b> if the resource is not found in the Internet cache.
 
-There two versions of 
+There are two versions of 
 <b>HttpSendRequest</b>—<b>HttpSendRequestA</b> (used with ANSI builds) and <b>HttpSendRequestW</b> (used with Unicode builds).  If 
 <b>dwHeadersLength</b> is -1L and 
 <i>lpszHeaders</i> is not <b>NULL</b>, the following will happen:  If <b>HttpSendRequestA</b> is called, the function assumes that 

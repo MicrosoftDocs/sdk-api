@@ -50,16 +50,16 @@ Unregisters a callback that was registered with [ID3DDestructionNotifier::Regist
 
 Type: **[UINT](/windows/win32/winprog/windows-data-types)**
 
-The **UINT** that was created by the *pCallbackID* argument to <b><a href="/windows/win32/api/d3dcommon/nf-d3dcommon-id3ddestructionnotifier-registerdestructioncallback">ID3DDestructionNotifier::RegisterDestructionCallback</a></b>.
+The **UINT** that was created by the *pCallbackID* argument to <b><a href="/windows/win32/api/d3dcommon/nf-d3dcommon-id3ddestructionotifier-registerdestructioncallback">ID3DDestructionNotifier::RegisterDestructionCallback</a></b>.
 
 ## -returns
 
 Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
 
-If this function suceeds, it returns **S_OK**.
+If this function succeeds, it returns **S_OK**.
 
 ## -see-also
 
-<a href="/windows/win32/api/d3dcommon/nn-d3dcommon-id3ddestructionnotifier">ID3DDestructionNotifier</a>
+<a href="/windows/win32/api/d3dcommon/nn-d3dcommon-id3ddestructionotifier">ID3DDestructionNotifier</a>
 
-<a href="/windows/win32/api/d3dcommon/nf-d3dcommon-id3ddestructionnotifier-registerdestructioncallback">ID3DDestructionNotifier::RegisterDestructionCallback</a>
+<a href="/windows/win32/api/d3dcommon/nf-d3dcommon-id3ddestructionotifier-registerdestructioncallback">ID3DDestructionNotifier::RegisterDestructionCallback</a>

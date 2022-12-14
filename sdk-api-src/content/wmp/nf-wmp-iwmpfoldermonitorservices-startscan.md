@@ -54,7 +54,7 @@ This method and all other methods of the <a href="/windows/desktop/api/wmp/nn-wm
 
 The <b>startScan</b> method starts a scanning operation.
 
-## -parameters
+
 
 ## -returns
 

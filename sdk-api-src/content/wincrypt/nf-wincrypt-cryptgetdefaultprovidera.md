@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptGetDefaultProviderA
 title: CryptGetDefaultProviderA function (wincrypt.h)
-description: Finds the default cryptographic service provider (CSP) of a specified provider type for the local computer or current user.
+description: Finds the default cryptographic service provider (CSP) of a specified provider type for the local computer or current user. (ANSI)
 helpviewer_keywords: ["CRYPT_MACHINE_DEFAULT","CRYPT_USER_DEFAULT","CryptGetDefaultProvider","CryptGetDefaultProvider function [Security]","CryptGetDefaultProviderA","CryptGetDefaultProviderW","_crypto2_cryptgetdefaultprovider","security.cryptgetdefaultprovider","wincrypt/CryptGetDefaultProvider","wincrypt/CryptGetDefaultProviderA","wincrypt/CryptGetDefaultProviderW"]
 old-location: security\cryptgetdefaultprovider.htm
 tech.root: security

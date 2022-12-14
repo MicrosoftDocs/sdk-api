@@ -53,7 +53,7 @@ api_name:
 
 The <b>GraphicsPathIterator::GetSubpathCount</b> method returns the number of subpaths (also called figures) in the path.
 
-## -parameters
+
 
 ## -returns
 

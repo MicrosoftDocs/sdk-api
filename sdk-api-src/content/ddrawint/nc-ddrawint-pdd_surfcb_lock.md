@@ -51,7 +51,7 @@ The <i>DdLock</i> callback function locks a specified area of surface memory and
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_lockdata">DD_LOCKDATA</a> structure that contains the information required to perform the lockdown.
 
@@ -94,7 +94,7 @@ A driver running on an NT-based operating system
 	 PLEASE_ALLOC_USERMEM flag. If PLEASE_ALLOC_USERMEM was 
 	 not used, applications could receive errors whenever they 
 	 attempted to access such memory. See 
-	 <a href="https://docs.microsoft.com/">NT Kernel's Implementation 
+	 <a href="/">NT Kernel's Implementation 
 	 of DDLOCK_NOSYSLOCK</a> for more information.
 
 <i>DdLock</i> can be called with a disabled 

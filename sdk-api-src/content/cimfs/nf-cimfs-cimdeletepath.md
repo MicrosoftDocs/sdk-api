@@ -1,11 +1,11 @@
 ---
 UID: NF:cimfs.CimDeletePath
 title: CimDeletePath
-ms.date: 9/9/2019
+description: The CimDeletePath function removes the file, stream, directory or hardlink at a path relative to the image represented by the image handle.
+ms.date: 08/01/2022
+tech.root: cimfs
 ms.keywords: CimDeletePath
-ms.topic: language-reference
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -28,7 +28,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - cimfs.h
 api_name:
@@ -66,4 +65,3 @@ HRESULT_FROM_WIN32(ERROR_SHARING_VIOLATION) – The image handle is in use by an
 Internally CimDeletePath opens and closes a stream handle and only one stream handle can be opened for a given image at a given time. It is an error to call CimDeletePath while a stream handle is opened on the image. Close any open stream handle before deleting a path.
 
 ## -see-also
-

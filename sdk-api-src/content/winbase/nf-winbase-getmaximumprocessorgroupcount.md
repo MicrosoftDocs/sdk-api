@@ -60,7 +60,7 @@ api_name:
 
 Returns the maximum number of processor groups that the system can have.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv._VDS_TRANSITION_STATE
 title: VDS_TRANSITION_STATE (vdshwprv.h)
-description: Defines the set of the valid transition state values for a VDS object.
+description: The VDS_TRANSITION_STATE enumeration (vdshwprv.h) defines the set of the valid transition state values for a VDS object. 
 helpviewer_keywords: ["VDS_TRANSITION_STATE","VDS_TRANSITION_STATE enumeration","VDS_TS_EXTENDING","VDS_TS_RECONFIGING","VDS_TS_RESTRIPING","VDS_TS_SHRINKING","VDS_TS_STABLE","VDS_TS_UNKNOWN","base.vds_transition_state","vds/VDS_TRANSITION_STATE","vds/VDS_TS_EXTENDING","vds/VDS_TS_RECONFIGING","vds/VDS_TS_RESTRIPING","vds/VDS_TS_SHRINKING","vds/VDS_TS_STABLE","vds/VDS_TS_UNKNOWN","vdshwprv/VDS_TRANSITION_STATE","vdshwprv/VDS_TS_EXTENDING","vdshwprv/VDS_TS_RECONFIGING","vdshwprv/VDS_TS_RESTRIPING","vdshwprv/VDS_TS_SHRINKING","vdshwprv/VDS_TS_STABLE","vdshwprv/VDS_TS_UNKNOWN"]
 old-location: base\vds_transition_state.htm
 tech.root: base
 ms.assetid: ef688d1f-136b-4bc8-8209-e30033e752e9
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: VDS_TRANSITION_STATE, VDS_TRANSITION_STATE enumeration, VDS_TS_EXTENDING, VDS_TS_RECONFIGING, VDS_TS_RESTRIPING, VDS_TS_SHRINKING, VDS_TS_STABLE, VDS_TS_UNKNOWN, base.vds_transition_state, vds/VDS_TRANSITION_STATE, vds/VDS_TS_EXTENDING, vds/VDS_TS_RECONFIGING, vds/VDS_TS_RESTRIPING, vds/VDS_TS_SHRINKING, vds/VDS_TS_STABLE, vds/VDS_TS_UNKNOWN, vdshwprv/VDS_TRANSITION_STATE, vdshwprv/VDS_TS_EXTENDING, vdshwprv/VDS_TS_RECONFIGING, vdshwprv/VDS_TS_RESTRIPING, vdshwprv/VDS_TS_SHRINKING, vdshwprv/VDS_TS_STABLE, vdshwprv/VDS_TS_UNKNOWN
 req.header: vdshwprv.h
 req.include-header: 
@@ -60,27 +60,27 @@ Defines
 
 ## -enum-fields
 
-### -field VDS_TS_UNKNOWN
+### -field VDS_TS_UNKNOWN:0
 
 This value is reserved.
 
-### -field VDS_TS_STABLE
+### -field VDS_TS_STABLE:1
 
 The object is stable. No configuration activity is currently in progress.
 
-### -field VDS_TS_EXTENDING
+### -field VDS_TS_EXTENDING:2
 
 The object is being extended.
 
-### -field VDS_TS_SHRINKING
+### -field VDS_TS_SHRINKING:3
 
 The object is being shrunk.
 
-### -field VDS_TS_RECONFIGING
+### -field VDS_TS_RECONFIGING:4
 
 The object is being automagically reconfigured.
 
-### -field VDS_TS_RESTRIPING
+### -field VDS_TS_RESTRIPING:5
 
 The object is being restriped.
 

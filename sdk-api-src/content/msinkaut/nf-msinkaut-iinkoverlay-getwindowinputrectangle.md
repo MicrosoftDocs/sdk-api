@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.GetWindowInputRectangle
 title: IInkOverlay::GetWindowInputRectangle (msinkaut.h)
-description: Gets the window rectangle, in pixels, within which ink is drawn.
+description: Gets the window rectangle, in pixels, within which ink is drawn. (IInkOverlay.GetWindowInputRectangle)
 helpviewer_keywords: ["0f47b4c7-7ba1-44a6-8f62-9e97c318bd2c","GetWindowInputRectangle","GetWindowInputRectangle method [Tablet PC]","GetWindowInputRectangle method [Tablet PC]","IInkOverlay interface","IInkOverlay","IInkOverlay interface [Tablet PC]","GetWindowInputRectangle method","IInkOverlay.GetWindowInputRectangle","IInkOverlay::GetWindowInputRectangle","msinkaut/IInkOverlay::GetWindowInputRectangle","tablet.inkoverlay_getwindowinputrectangle"]
 old-location: tablet\inkoverlay_getwindowinputrectangle.htm
 tech.root: tablet
@@ -124,7 +124,7 @@ If you call <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="../msinkaut/nn-msinkaut-iinkoverlay.md">IInkOverlay</a>
 
 
 

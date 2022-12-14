@@ -55,53 +55,5 @@ This interface represents the collection of security settings associated with ea
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumDot11AdHocSecuritySettings</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumDot11AdHocSecuritySettings</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IEnumDot11AdHocSecuritySettings</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumDot11AdHocSecuritySettings</b> also has these types of members:
 
-## -members
-
-The <b>IEnumDot11AdHocSecuritySettings</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/adhoc/nf-adhoc-ienumdot11adhocsecuritysettings-clone">IEnumDot11AdHocSecuritySettings::Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a new enumeration interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/adhoc/nf-adhoc-ienumdot11adhocsecuritysettings-next">IEnumDot11AdHocSecuritySettings::Next</a>
-</td>
-<td align="left" width="63%">
-Gets the specified number of elements from the sequence and advances the current position by the number of items retrieved.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/adhoc/nf-adhoc-ienumdot11adhocsecuritysettings-reset">IEnumDot11AdHocSecuritySettings::Reset</a>
-</td>
-<td align="left" width="63%">
-Resets to the beginning of the enumeration sequence.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/adhoc/nf-adhoc-ienumdot11adhocsecuritysettings-skip">IEnumDot11AdHocSecuritySettings::Skip</a>
-</td>
-<td align="left" width="63%">
-Skips over the next specified number of elements in the enumeration sequence.
-
-</td>
-</tr>
-</table>

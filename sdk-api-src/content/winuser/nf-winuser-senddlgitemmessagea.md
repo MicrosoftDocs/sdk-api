@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SendDlgItemMessageA
 title: SendDlgItemMessageA function (winuser.h)
-description: Sends a message to the specified control in a dialog box.
+description: Sends a message to the specified control in a dialog box. (ANSI)
 helpviewer_keywords: ["SendDlgItemMessage","SendDlgItemMessage function [Dialog Boxes]","SendDlgItemMessageA","SendDlgItemMessageW","_win32_SendDlgItemMessage","_win32_senddlgitemmessage_cpp","dlgbox.senddlgitemmessage","winui._win32_senddlgitemmessage","winuser/SendDlgItemMessage","winuser/SendDlgItemMessageA","winuser/SendDlgItemMessageW"]
 old-location: dlgbox\senddlgitemmessage.htm
 tech.root: dlgbox
@@ -48,6 +48,7 @@ api_name:
  - SendDlgItemMessage
  - SendDlgItemMessageA
  - SendDlgItemMessageW
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-0 (introduced in Windows 8)
 ---
 
 # SendDlgItemMessageA function

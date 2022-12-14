@@ -52,7 +52,7 @@ api_name:
 
 The <b>clearErrorQueue</b> method clears the errors from the error queue.
 
-## -parameters
+
 
 ## -returns
 

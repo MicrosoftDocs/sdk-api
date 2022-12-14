@@ -51,7 +51,7 @@ Notifies DirectDraw that the direct surface manipulations are complete.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to a <b>RECT</b> structure that was used to lock the surface in the corresponding call to the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-lock">IDirectDrawSurface7::Lock</a> method. This parameter can be NULL only if the entire surface was locked by passing NULL in the <i>lpDestRect</i> parameter of the corresponding call to the <b>IDirectDrawSurface7::Lock</b> method.
 
@@ -76,7 +76,7 @@ Because you can call <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsur
 
 
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>Unlock</b> method.
+
 
 ## -see-also
 

@@ -56,11 +56,11 @@ A value of type <b>MONITORENUMPROC</b> is a pointer to a <b>MonitorEnumProc</b> 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the display monitor. This value will always be non-<b>NULL</b>.
 
-### -param Arg2
+### -param unnamedParam2
 
 A handle to a device context.
 
@@ -68,7 +68,7 @@ The device context has color attributes that are appropriate for the display mon
 
 This value is <b>NULL</b> if the <i>hdc</i> parameter of <a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors">EnumDisplayMonitors</a> was <b>NULL</b>.
 
-### -param Arg3
+### -param unnamedParam3
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure.
 
@@ -76,7 +76,7 @@ If <i>hdcMonitor</i> is non-<b>NULL</b>, this rectangle is the intersection of t
 
 If <i>hdcMonitor</i> is <b>NULL</b>, this rectangle is the display monitor rectangle. The rectangle coordinates are virtual-screen coordinates.
 
-### -param Arg4
+### -param unnamedParam4
 
 Application-defined data that <a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors">EnumDisplayMonitors</a> passes directly to the enumeration function.
 

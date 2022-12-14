@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsSubSystem
 title: IVdsSubSystem (vds.h)
-description: Provides methods for performing query and configuration operations on a subsystem.
+description: The IVdsSubSystem interface (vds.h) provides methods for performing query and configuration operations on a subsystem.  
 helpviewer_keywords: ["IVdsSubSystem","IVdsSubSystem interface [VDS]","IVdsSubSystem interface [VDS]","described","base.ivdssubsystem","vds/IVdsSubSystem","vdshwprv/IVdsSubSystem"]
 old-location: base\ivdssubsystem.htm
 tech.root: base
 ms.assetid: 1f1b9735-216b-4bc5-a9b8-2d274827b2c8
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsSubSystem, IVdsSubSystem interface [VDS], IVdsSubSystem interface [VDS],described, base.ivdssubsystem, vds/IVdsSubSystem, vdshwprv/IVdsSubSystem
 req.header: vds.h
 req.include-header: 
@@ -57,129 +57,7 @@ Provides methods for performing query and configuration operations on a subsyste
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsSubSystem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsSubSystem</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVdsSubSystem</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-createlun">CreateLun</a>
-</td>
-<td align="left" width="63%">
-Creates a new LUN.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-getdrive">GetDrive</a>
-</td>
-<td align="left" width="63%">
-Returns the specified drive.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-getproperties">GetProperties</a>
-</td>
-<td align="left" width="63%">
-Returns the properties of the subsystem object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-getprovider">GetProvider</a>
-</td>
-<td align="left" width="63%">
-Returns the provider that manages the subsystem.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-querycontrollers">QueryControllers</a>
-</td>
-<td align="left" width="63%">
-Returns an enumeration of the controllers.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-querydrives">QueryDrives</a>
-</td>
-<td align="left" width="63%">
-Returns an enumeration of the drives.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-queryluns">QueryLuns</a>
-</td>
-<td align="left" width="63%">
-Returns an enumeration of LUNs surfaced by the subsystem.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-querymaxluncreatesize">QueryMaxLunCreateSize</a>
-</td>
-<td align="left" width="63%">
-Returns the size of the maximum  LUN that can be created using the specified 
-    LUN type and hints.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-reenumerate">Reenumerate</a>
-</td>
-<td align="left" width="63%">
-Prompts the subsystem to scan its bus to discover newly connected drives or newly disconnected drives.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-replacedrive">ReplaceDrive</a>
-</td>
-<td align="left" width="63%">
-Replaces or migrates one of the drives with another.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-setcontrollerstatus">SetControllerStatus</a>
-</td>
-<td align="left" width="63%">
-Sets the controllers to either online or offline.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-setstatus">SetStatus</a>
-</td>
-<td align="left" width="63%">
-Sets the status of the subsystem to the specified value.
-
-</td>
-</tr>
-</table>
+The <b>IVdsSubSystem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsSubSystem</b> also has these types of members:
 
 ## -see-also
 

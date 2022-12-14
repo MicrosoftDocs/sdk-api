@@ -87,5 +87,5 @@ Maximum batch send latency. To specify infinite timeout, use <b>WBEM_INFINITE</b
 
 ## -returns
 
-This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained withinan <b>HRESULT</b>.
+This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 

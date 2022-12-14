@@ -95,7 +95,9 @@ The <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_node_type">n
         data structure to get the data.
       
 
-<pre class="syntax" xml:space="preserve"><code>WS_XML_NODE* node;
+
+``` syntax
+WS_XML_NODE* node;
 if (SUCCEEDED(WsGetReaderNode(reader, &amp;node, error)))
 {
     if (node-&gt;nodeType == WS_XML_NODE_TYPE_ELEMENT)
@@ -103,7 +105,9 @@ if (SUCCEEDED(WsGetReaderNode(reader, &amp;node, error)))
         WS_XML_ELEMENT_NODE* elementNode = (WS_XML_ELEMENT_NODE*) node;
         // Refer to elementNode-&gt;localName, elementNode-&gt;ns
     }
-}</code></pre>
+}
+```
+
 The <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_node_type">nodeTypes</a> with extended structures include:
         <ul>
 <li><b>WS_XML_NODE_TYPE_ELEMENT</b> =&gt; <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_element_node">WS_XML_ELEMENT_NODE</a>

@@ -56,26 +56,5 @@ Provides a method to format a partition with additional formatting options.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsDiskPartitionMF2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsDiskPartitionMF2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVdsDiskPartitionMF2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsDiskPartitionMF2</b> also has these types of members:
 
-## -members
-
-The <b>IVdsDiskPartitionMF2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsdiskpartitionmf2-formatpartitionex2">FormatPartitionEx2</a>
-</td>
-<td align="left" width="63%">
-Formats an existing OEM, ESP, or unknown partition. This method is identical to the <a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-formatpartition">IVdsDiskPartitionMF::FormatPartition</a> method, except that formatting options are specified by using the <i>Options</i> parameter.
-
-</td>
-</tr>
-</table>

@@ -7,7 +7,6 @@ old-location: direct3d12\dml_binding_table_desc.htm
 tech.root: directml
 ms.assetid: 4ABA8CBB-C298-4F98-8156-CD81F83BB657
 ms.date: 12/5/2018
-ms.keywords: DML_BINDING_TABLE_DESC, DML_BINDING_TABLE_DESC structure, direct3d12.dml_binding_table_desc, directml/DML_BINDING_TABLE_DESC
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -45,33 +44,30 @@ api_name:
  - DML_BINDING_TABLE_DESC
 ---
 
-# DML_BINDING_TABLE_DESC structure
-
-
 ## -description
 
-Specifies parameters to [IDMLDevice::CreateBindingTable](/windows/desktop/api/directml/nf-directml-idmldevice-createbindingtable) and [IDMLBindingTable::Reset](/windows/desktop/api/directml/nf-directml-idmlbindingtable-reset).
+Specifies parameters to [IDMLDevice::CreateBindingTable](/windows/win32/api/directml/nf-directml-idmldevice-createbindingtable) and [IDMLBindingTable::Reset](/windows/win32/api/directml/nf-directml-idmlbindingtable-reset).
 
 ## -struct-fields
 
 ### -field Dispatchable
 
-Type: <b>[IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idmldispatchable)*</b>
+Type: <b>[IDMLDispatchable](/windows/win32/api/directml/nn-directml-idmldispatchable)*</b>
 
-A pointer to an [IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idmldispatchable) interface representing the dispatchable object (an operator initializer, or a compiled operator) for which this binding table will represent the bindings—either an
-        [IDMLCompiledOperator](/windows/desktop/api/directml/nn-directml-idmlcompiledoperator) or an [IDMLOperatorInitializer](/windows/desktop/api/directml/nn-directml-idmloperatorinitializer). The binding table maintains a strong reference to this
+A pointer to an [IDMLDispatchable](/windows/win32/api/directml/nn-directml-idmldispatchable) interface representing the dispatchable object (an operator initializer, or a compiled operator) for which this binding table will represent the bindings—either an
+        [IDMLCompiledOperator](/windows/win32/api/directml/nn-directml-idmlcompiledoperator) or an [IDMLOperatorInitializer](/windows/win32/api/directml/nn-directml-idmloperatorinitializer). The binding table maintains a strong reference to this
         interface pointer. This value may not be null.
 
 ### -field CPUDescriptorHandle
 
-Type: <b><a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
+Type: <b><a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
 
 A valid CPU descriptor handle representing the start of a range into a constant buffer view (CBV)/shader resource view (SRV)/ unordered access view (UAV) descriptor heap into which
         DirectML may write descriptors.
 
 ### -field GPUDescriptorHandle
 
-Type: <b><a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_gpu_descriptor_handle">D3D12_GPU_DESCRIPTOR_HANDLE</a></b>
+Type: <b><a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_gpu_descriptor_handle">D3D12_GPU_DESCRIPTOR_HANDLE</a></b>
 
 A valid GPU descriptor handle representing the start of a range into a constant buffer view (CBV)/shader resource view (SRV)/ unordered access view (UAV) descriptor heap that DirectML may use to bind resources to the pipeline.
 
@@ -81,9 +77,9 @@ Type: [**UINT**](/windows/desktop/winprog/windows-data-types)
 
 The size of the binding table, in descriptors. This is the maximum number of descriptors that DirectML is
         permitted to write, from the start of both the supplied CPU and GPU descriptor handles. Call
-        [IDMLDispatchable::GetBindingProperties](/windows/desktop/api/directml/nf-directml-idmldispatchable-getbindingproperties) to determine the number of descriptors required to execute a
+        [IDMLDispatchable::GetBindingProperties](/windows/win32/api/directml/nf-directml-idmldispatchable-getbindingproperties) to determine the number of descriptors required to execute a
         dispatchable object.
 
 ## -see-also
 
-<a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
+<a href="/windows/ai/directml/dml-binding">Binding in DirectML</a>

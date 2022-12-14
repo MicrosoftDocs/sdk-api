@@ -53,7 +53,7 @@ Defines the set of actions an EAP authenticator or peer method can indicate to a
 
 ## -enum-fields
 
-### -field EapHostPeerResponseDiscard
+### -field EapHostPeerResponseDiscard:0
 
 The supplicant should discard the request as it is not usable by EAP.
 

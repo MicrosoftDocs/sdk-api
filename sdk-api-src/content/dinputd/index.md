@@ -13,10 +13,11 @@ f1_keywords:
 
 # Dinputd.h header
 
-
 ## -description
 
-This header is used by Human Interface Devices Reference. For more information, see:
+DirectInput include file for device driver implementors.
+
+For more information, see:
 
 - [Human Interface Devices Reference](../_hid/index.md)
 

@@ -82,9 +82,7 @@ Reserved protocol specific data. The maximum size, in bytes, of this data is WTS
 
 ### -field Reserved.case.3
 
-### -field switch_type
 
-### -field switch_type.DWORD
 
 ## -remarks
 

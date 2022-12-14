@@ -57,7 +57,7 @@ The
 
 ### -param InterfaceUuid
 
-### -param *Context [in]
+### -param Context [in]
 
 Pointer to an RPC_IF_ID server binding handle representing the client. In the function declaration, this must be of type RPC_IF_HANDLE, but it is a client binding handle and can be safely cast to it. The callback function may pass this handle to 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcimpersonateclient">RpcImpersonateClient</a>, 

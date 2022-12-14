@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupGetStringFieldA
 title: SetupGetStringFieldA function (setupapi.h)
-description: The SetupGetStringField function retrieves a string from the specified field of a line in an INF file.
+description: The SetupGetStringField function retrieves a string from the specified field of a line in an INF file. (ANSI)
 helpviewer_keywords: ["SetupGetStringField","SetupGetStringField function [Setup API]","SetupGetStringFieldA","SetupGetStringFieldW","_setupapi_setupgetstringfield","setup.setupgetstringfield","setupapi/SetupGetStringField","setupapi/SetupGetStringFieldA","setupapi/SetupGetStringFieldW"]
 old-location: setup\setupgetstringfield.htm
 tech.root: setup
@@ -46,6 +46,7 @@ api_name:
  - SetupGetStringField
  - SetupGetStringFieldA
  - SetupGetStringFieldW
+req.apiset: ext-ms-win-setupapi-inf-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupGetStringFieldA function

@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsapi32.WTSSetListenerSecurityA
 title: WTSSetListenerSecurityA function (wtsapi32.h)
-description: Configures the security descriptor of a Remote Desktop Services listener.
+description: Configures the security descriptor of a Remote Desktop Services listener. (ANSI)
 helpviewer_keywords: ["WTSSetListenerSecurity","WTSSetListenerSecurity function [Remote Desktop Services]","WTSSetListenerSecurityA","WTSSetListenerSecurityW","WTS_SECURITY_ALL_ACCESS","WTS_SECURITY_CONNECT","WTS_SECURITY_CURRENT_GUEST_ACCESS","WTS_SECURITY_CURRENT_USER_ACCESS","WTS_SECURITY_DISCONNECT","WTS_SECURITY_GUEST_ACCESS","WTS_SECURITY_LOGOFF","WTS_SECURITY_LOGON","WTS_SECURITY_MESSAGE","WTS_SECURITY_QUERY_INFORMATION","WTS_SECURITY_REMOTE_CONTROL","WTS_SECURITY_RESET","WTS_SECURITY_SET_INFORMATION","WTS_SECURITY_USER_ACCESS","WTS_SECURITY_VIRTUAL_CHANNELS","termserv.wtssetlistenersecurity","wtsapi32/WTSSetListenerSecurity","wtsapi32/WTSSetListenerSecurityA","wtsapi32/WTSSetListenerSecurityW"]
 old-location: termserv\wtssetlistenersecurity.htm
 tech.root: TermServ

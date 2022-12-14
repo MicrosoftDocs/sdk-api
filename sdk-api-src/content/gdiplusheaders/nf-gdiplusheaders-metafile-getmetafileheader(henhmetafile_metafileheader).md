@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Metafile.GetMetafileHeader(HENHMETAFILE,MetafileHeader)
 title: Metafile::GetMetafileHeader(IN HENHMETAFILE,OUT MetafileHeader) (gdiplusheaders.h)
-description: The Metafile::GetMetafileHeader method gets the header.
+description: The Metafile::GetMetafileHeader method gets the header. (overload 3/4)
 helpviewer_keywords: ["GetMetafileHeader","GetMetafileHeader method [GDI+]","GetMetafileHeader method [GDI+]","Metafile class","Metafile class [GDI+]","GetMetafileHeader method","Metafile.GetMetafileHeader","Metafile.GetMetafileHeader(HENHMETAFILE*","MetafileHeader*)","Metafile.GetMetafileHeader(IN HENHMETAFILE","OUT MetafileHeader)","Metafile::GetMetafileHeader","Metafile::GetMetafileHeader(IN HENHMETAFILE","OUT MetafileHeader)","_gdiplus_CLASS_Metafile_GetMetafileHeader_hEmf_header_","gdiplus._gdiplus_CLASS_Metafile_GetMetafileHeader_hEmf_header_"]
 old-location: gdiplus\_gdiplus_CLASS_Metafile_GetMetafileHeader_hEmf_header_.htm
 tech.root: gdiplus
@@ -71,13 +71,9 @@ Pointer to a <a href="/windows/desktop/api/gdiplusmetaheader/nl-gdiplusmetaheade
 
 Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
-If the method succeeds, it returns OK, which is an element of the 
+If the method succeeds, it returns OK, which is an element of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
-
-If the method fails, it returns one of the other elements of the 
-
-						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -see-also
 

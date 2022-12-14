@@ -57,47 +57,7 @@ To get a pointer to this interface, call <a href="/windows/desktop/api/mfidl/nf-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFRateSupport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFRateSupport</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFRateSupport</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-getfastestrate">GetFastestRate</a>
-</td>
-<td align="left" width="63%">
-Gets the fastest playback rate supported by the object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-getslowestrate">GetSlowestRate</a>
-</td>
-<td align="left" width="63%">
-Gets the slowest playback rate supported by the object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-isratesupported">IsRateSupported</a>
-</td>
-<td align="left" width="63%">
-Queries whether the object supports a specified playback rate.
-
-</td>
-</tr>
-</table>
+The <b>IMFRateSupport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFRateSupport</b> also has these types of members:
 
 ## -remarks
 

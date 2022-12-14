@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont2.GetPropertyInfo
 title: ITextFont2::GetPropertyInfo (tom.h)
-description: Gets the property type and value of the specified extra propety.
+description: Gets the property type and value of the specified extra property.
 helpviewer_keywords: ["GetPropertyInfo","GetPropertyInfo method [Windows Controls]","GetPropertyInfo method [Windows Controls]","ITextFont2 interface","ITextFont2 interface [Windows Controls]","GetPropertyInfo method","ITextFont2.GetPropertyInfo","ITextFont2::GetPropertyInfo","controls.itextfont2_getpropertyinfo","tom/ITextFont2::GetPropertyInfo"]
 old-location: controls\itextfont2_getpropertyinfo.htm
 tech.root: Controls
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the property type and value of the specified extra propety.
+Gets the property type and value of the specified extra property.
 
 ## -parameters
 

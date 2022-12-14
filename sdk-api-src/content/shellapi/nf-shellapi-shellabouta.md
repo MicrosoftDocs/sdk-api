@@ -1,7 +1,7 @@
 ---
 UID: NF:shellapi.ShellAboutA
 title: ShellAboutA function (shellapi.h)
-description: Displays a ShellAbout dialog box.
+description: Displays a ShellAbout dialog box. (ANSI)
 helpviewer_keywords: ["ShellAbout","ShellAbout function [Windows Shell]","ShellAboutA","ShellAboutW","_win32_ShellAbout","shell.ShellAbout","shellapi/ShellAbout","shellapi/ShellAboutA","shellapi/ShellAboutW"]
 old-location: shell\ShellAbout.htm
 tech.root: shell
@@ -45,6 +45,7 @@ api_name:
  - ShellAbout
  - ShellAboutA
  - ShellAboutW
+req.apiset: ext-ms-win-shell-shell32-l1-2-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # ShellAboutA function
@@ -70,7 +71,7 @@ A pointer to a null-terminated string that contains text to be displayed in the 
 
                     
 
-<b>Windows 2000, Windows XP, Windows Server 2003</b>: If the string pointed to by this parameter contains a separator (#), then the string must be writeable.
+<b>Windows 2000, Windows XP, Windows Server 2003</b>: If the string pointed to by this parameter contains a separator (#), then the string must be writable.
 
 <b>Windows Vista, Windows Server 2008</b>: This string cannot exceed 200 characters in length.
 

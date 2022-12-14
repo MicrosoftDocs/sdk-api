@@ -54,11 +54,11 @@ References a SOAP message handler for incoming messages. This is an internal fun
 
 ## -parameters
 
-### -param *thisUnknown
+### -param thisUnknown
 
 Pointer to the object calling this function.
 
-### -param *event
+### -param event
 
 A <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_event">WSD_EVENT</a> structure containing the message to be handled.
 

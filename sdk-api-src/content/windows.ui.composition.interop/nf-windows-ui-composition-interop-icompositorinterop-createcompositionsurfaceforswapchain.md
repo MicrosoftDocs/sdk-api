@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositorInterop.CreateCompositionSurfaceForSwapChain
-title: ICompositorInterop::composition (windows.ui.composition.interop.h)
+title: ICompositorInterop::CreateCompositionSurfaceForSwapChain (windows.ui.composition.interop.h)
 description: Creates an instance of CompositionSurface for use with a swap chain.
 helpviewer_keywords: ["CreateCompositionSurfaceForSwapChain","CreateCompositionSurfaceForSwapChain method","CreateCompositionSurfaceForSwapChain method","ICompositorInterop interface","ICompositorInterop interface","CreateCompositionSurfaceForSwapChain method","ICompositorInterop.CreateCompositionSurfaceForSwapChain","ICompositorInterop.composition","ICompositorInterop::CreateCompositionSurfaceForSwapChain","ICompositorInterop::composition","w_ui_comp.icompositorinterop_createcompositionsurfaceforswapchain","windows/ICompositorInterop::CreateCompositionSurfaceForSwapChain"]
 old-location: w_ui_comp\icompositorinterop_createcompositionsurfaceforswapchain.htm
@@ -45,7 +45,7 @@ api_name:
  - ICompositorInterop.CreateCompositionSurfaceForSwapChain
 ---
 
-# ICompositorInterop::composition
+# ICompositorInterop::CreateCompositionSurfaceForSwapChain (windows.ui.composition.interop.h)
 
 
 ## -description

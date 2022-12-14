@@ -61,8 +61,7 @@ An array of <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_read
 The value of this parameter may be <b>NULL</b>, in which case, the <i>propertyCount</i> parameter must be 0 (zero).
                 
 
-For the properties that tiy can use to configure the XML reader.
-        see the <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_reader_property_id">WS_XML_READER_PROPERTY_ID</a> enumeration.
+For the properties that tiy can use to configure the XML reader, see the <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_reader_property_id">WS_XML_READER_PROPERTY_ID</a> enumeration.
 
 ### -param propertyCount [in]
 
@@ -72,7 +71,7 @@ The number of properties in the <i>properties</i> array.
 
 On   success, a pointer that receives the address of the  <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> structure representing the new XML reader.
                 
-                When you no longer need this structure, you must free it by calling <a href="/windows/desktop/api/webservices/nf-webservices-wsfreereader">WsFreeReader</a>.
+When you no longer need this structure, you must free it by calling <a href="/windows/desktop/api/webservices/nf-webservices-wsfreereader">WsFreeReader</a>.
 
 ### -param error [in, optional]
 
@@ -84,7 +83,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 
 ## -remarks
 
-Use <a href="/windows/desktop/api/webservices/nf-webservices-wssetinput">WsSetInput</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wssetinputtobuffer">WsSetInputToBuffer</a>functions to choose the encoding for the XML reader and to indicate the source of the input.
+Use <a href="/windows/desktop/api/webservices/nf-webservices-wssetinput">WsSetInput</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wssetinputtobuffer">WsSetInputToBuffer</a> functions to choose the encoding for the XML reader and to indicate the source of the input.
       
 
 If <a href="/windows/desktop/api/webservices/nc-webservices-ws_read_callback">WS_READ_CALLBACK</a> is specified in the <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_input">WS_XML_READER_INPUT</a> structure passed to the <a href="/windows/desktop/api/webservices/nf-webservices-wssetinput">WsSetInput</a> function, the XML reader reads

@@ -373,7 +373,7 @@ GCAPS2_REMOTEDRIVER
 
 </td>
 <td>
-Indicates that the display driver is used to support a remote user sesssion.
+Indicates that the display driver is used to support a remote user session.
 
 </td>
 </tr>

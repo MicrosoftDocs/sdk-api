@@ -64,44 +64,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertExit</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertExit</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ICertExit</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certexit/nf-certexit-icertexit-getdescription">GetDescription</a>
-</td>
-<td align="left" width="63%">
-Returns a description of the exit module and its function.</p> (Inherited from <b>ICertExit</b><a href="/windows/desktop/api/certexit/nn-certexit-icertexit2">ICertExit2</a>
-<a href="/windows/desktop/api/certexit/nn-certexit-icertexit2">CCertExit2</a>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certexit/nf-certexit-icertexit-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Called by the server engine when it initializes itself.</p> (Inherited from <b>ICertExit</b><a href="/windows/desktop/api/certexit/nn-certexit-icertexit2">ICertExit2</a>
-<a href="/windows/desktop/api/certexit/nn-certexit-icertexit2">CCertExit2</a>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certexit/nf-certexit-icertexit-notify">Notify</a>
-</td>
-<td align="left" width="63%">
-Called by the server engine to notify an exit module that an event has occurred.</p> (Inherited from <b>ICertExit</b><a href="/windows/desktop/api/certexit/nn-certexit-icertexit2">ICertExit2</a>
-<a href="/windows/desktop/api/certexit/nn-certexit-icertexit2">CCertExit2</a>)</td>
-</tr>
-</table>
+The <b>ICertExit</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertExit</b> also has these types of members:
 
 ## -remarks
 

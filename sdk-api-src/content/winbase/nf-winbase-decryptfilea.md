@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.DecryptFileA
 title: DecryptFileA function (winbase.h)
-description: Decrypts an encrypted file or directory.
+description: Decrypts an encrypted file or directory. (ANSI)
 helpviewer_keywords: ["DecryptFile","DecryptFile function [Files]","DecryptFileA","DecryptFileW","_win32_decryptfile","base.decryptfile","fs.decryptfile","winbase/DecryptFile","winbase/DecryptFileA","winbase/DecryptFileW"]
 old-location: fs\decryptfile.htm
 tech.root: fs
@@ -47,6 +47,7 @@ api_name:
  - DecryptFile
  - DecryptFileA
  - DecryptFileW
+req.apiset: ext-ms-win-advapi32-encryptedfile-l1-1-0 (introduced in Windows 8)
 ---
 
 # DecryptFileA function

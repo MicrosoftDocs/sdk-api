@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteGdiInterop1.GetFontSignature(IDWriteFontFace,FONTSIGNATURE)
 title: IDWriteGdiInterop1::GetFontSignature(IDWriteFontFace,FONTSIGNATURE) (dwrite_3.h)
-description: Reads the font signature from the given font.
+description: Reads the font signature from the given font. (overload 1/2)
 helpviewer_keywords: ["GetFontSignature","GetFontSignature method [Direct Write]","GetFontSignature method [Direct Write]","IDWriteGdiInterop1 interface","IDWriteGdiInterop1 interface [Direct Write]","GetFontSignature method","IDWriteGdiInterop1.GetFontSignature","IDWriteGdiInterop1.GetFontSignature(IDWriteFontFace","FONTSIGNATURE)","IDWriteGdiInterop1::GetFontSignature","IDWriteGdiInterop1::GetFontSignature(IDWriteFontFace","FONTSIGNATURE)","directwrite.idwritegdiinterop1_getfontsignature","dwrite_3/IDWriteGdiInterop1::GetFontSignature"]
 old-location: directwrite\idwritegdiinterop1_getfontsignature.htm
 tech.root: DirectWrite
@@ -67,7 +67,7 @@ Font signature from the OS/2 table, ulUnicodeRange, and ulCodePageRange.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.ExtTextOutW
 title: ExtTextOutW function (wingdi.h)
-description: The ExtTextOut function draws text using the currently selected font, background color, and text color. You can optionally provide dimensions to be used for clipping, opaquing, or both.
+description: The ExtTextOut function draws text using the currently selected font, background color, and text color. You can optionally provide dimensions to be used for clipping, opaquing, or both. (Unicode)
 helpviewer_keywords: ["ETO_CLIPPED","ETO_GLYPH_INDEX","ETO_IGNORELANGUAGE","ETO_NUMERICSLATIN","ETO_NUMERICSLOCAL","ETO_OPAQUE","ETO_PDY","ETO_RTLREADING","ExtTextOut","ExtTextOut function [Windows GDI]","ExtTextOutA","ExtTextOutW","_win32_ExtTextOut","gdi.exttextout","wingdi/ExtTextOut","wingdi/ExtTextOutA","wingdi/ExtTextOutW"]
 old-location: gdi\exttextout.htm
 tech.root: gdi
@@ -303,6 +303,13 @@ By default, the current position is not used or updated by this function. Howeve
 For the ANSI version of <b>ExtTextOut</b>, the <i>lpDx</i> array has the same number of INT values as there are bytes in <i>lpString</i>. For DBCS characters, you can apportion the dx in the <i>lpDx</i> entries between the lead byte and the trail byte, as long as the sum of the two bytes adds up to the desired dx. For DBCS characters with the Unicode version of <b>ExtTextOut</b>, each Unicode glyph gets a single <i>pdx</i> entry.
 
 Note, the <i>alpDx</i> values from <a href="/windows/desktop/api/wingdi/nf-wingdi-gettextextentexpointa">GetTextExtentExPoint</a> are not the same as the <i>lpDx</i> values for <b>ExtTextOut</b>. To use the <i>alpDx</i> values in <i>lpDx</i>, you must first process them.
+
+**ExtTextOut** will use [Uniscribe](/windows/win32/intl/uniscribe) when necessary resulting in font fallback. The ETO_IGNORELANGUAGE flag will inhibit this behavior and should not be passed.
+
+Additionally, **ExtTextOut** will perform internal batching of calls before transitioning to kernel mode, mitigating some of the performance concerns when weighing usage of **PolyTextOut** versus **ExtTextOut**.
+
+> [!TIP]
+>  **ExtTextOut** is strongly recommended over **PolyTextOut** for modern development due to its ability to handle display of different languages.
 
 
 #### Examples

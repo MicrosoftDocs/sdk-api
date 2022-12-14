@@ -1,7 +1,7 @@
 ---
 UID: NF:userenv.GetAllUsersProfileDirectoryA
 title: GetAllUsersProfileDirectoryA function (userenv.h)
-description: Retrieves the path to the root of the directory that contains program data shared by all users.
+description: Retrieves the path to the root of the directory that contains program data shared by all users. (ANSI)
 helpviewer_keywords: ["GetAllUsersProfileDirectory","GetAllUsersProfileDirectory function [Windows Shell]","GetAllUsersProfileDirectoryA","GetAllUsersProfileDirectoryW","_shell_GetAllUsersProfileDirectory","shell.GetAllUsersProfileDirectory","userenv/GetAllUsersProfileDirectory","userenv/GetAllUsersProfileDirectoryA","userenv/GetAllUsersProfileDirectoryW"]
 old-location: shell\GetAllUsersProfileDirectory.htm
 tech.root: shell
@@ -82,10 +82,18 @@ Type: <b>BOOL</b>
 
 The following is an example of the path returned by <b>GetAllUsersProfileDirectory</b> in Windows XP:
 
-<pre class="syntax" xml:space="preserve"><code>C:\Documents and Settings\All Users</code></pre>
+
+``` syntax
+C:\Documents and Settings\All Users
+```
+
 The following is an example of the path returned by <b>GetAllUsersProfileDirectory</b> in Windows 7:
 
-<pre class="syntax" xml:space="preserve"><code>C:\ProgramData</code></pre>
+
+``` syntax
+C:\ProgramData
+```
+
 To obtain the paths of subdirectories of this directory, use the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha">SHGetFolderPath</a> (Windows XP and earlier) or <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a> (Windows Vista) function.
 
 

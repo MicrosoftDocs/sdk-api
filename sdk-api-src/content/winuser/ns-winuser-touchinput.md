@@ -6,7 +6,7 @@ helpviewer_keywords: ["*PTOUCHINPUT","PTOUCHINPUT","PTOUCHINPUT structure pointe
 old-location: wintouch\touchinput.htm
 tech.root: wintouch
 ms.assetid: fc382759-3a1e-401e-a6a7-1bf209a5434b
-ms.date: 12/05/2018
+ms.date: 03/22/2022
 ms.keywords: '*PTOUCHINPUT, PTOUCHINPUT, PTOUCHINPUT structure pointer [Windows Touch], TOUCHINPUT, TOUCHINPUT structure [Windows Touch], tagTOUCHINPUT, wintouch.touchinput, winuser/PTOUCHINPUT, winuser/TOUCHINPUT'
 req.header: winuser.h
 req.include-header: Windows.h
@@ -138,9 +138,14 @@ The following table lists the flags for the <b>dwFlags</b> member.
 <td>When received using <b>GetTouchInputInfo</b>, this input was not coalesced.</td>
 </tr>
 <tr>
+<td><b>TOUCHEVENTF_PEN</b></td>
+<td>0x0040</td>
+<td>The touch event was triggered by a stylus device.</td>
+</tr>
+<tr>
 <td><b>TOUCHEVENTF_PALM</b></td>
 <td>0x0080</td>
-<td>The touch event came from the user's palm.</td>
+<td>The touch event was triggered by the user's palm.</td>
 </tr>
 </table>
  
@@ -192,9 +197,13 @@ Note that the touch point identifier may be dynamic and is associated with a giv
 The following type is defined to represent a constant pointer to a <b>TOUCHINPUT</b> structure.
 	
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
    typedef TOUCHINPUT const * PCTOUCHINPUT;
-	</code></pre>
+	
+```
+
 
 #### Examples
 

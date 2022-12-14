@@ -57,29 +57,7 @@ The Media Session exposes this interface as a service. To get a pointer to the i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTopologyNodeAttributeEditor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTopologyNodeAttributeEditor</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFTopologyNodeAttributeEditor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynodeattributeeditor-updatenodeattributes">UpdateNodeAttributes</a>
-</td>
-<td align="left" width="63%">
-Updates the attributes of one or more nodes in the current topology.
-
-</td>
-</tr>
-</table>
+The <b>IMFTopologyNodeAttributeEditor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTopologyNodeAttributeEditor</b> also has these types of members:
 
 ## -remarks
 

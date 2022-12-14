@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetCurrentHwProfileW
 title: GetCurrentHwProfileW function (winbase.h)
-description: Retrieves information about the current hardware profile for the local computer.
+description: Retrieves information about the current hardware profile for the local computer. (Unicode)
 helpviewer_keywords: ["GetCurrentHwProfile","GetCurrentHwProfile function","GetCurrentHwProfileA","GetCurrentHwProfileW","_win32_getcurrenthwprofile","base.getcurrenthwprofile","winbase/GetCurrentHwProfile","winbase/GetCurrentHwProfileA","winbase/GetCurrentHwProfileW"]
 old-location: base\getcurrenthwprofile.htm
 tech.root: winprog
@@ -46,6 +46,7 @@ api_name:
  - GetCurrentHwProfile
  - GetCurrentHwProfileA
  - GetCurrentHwProfileW
+req.apiset: ext-ms-win-advapi32-hwprof-l1-1-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # GetCurrentHwProfileW function

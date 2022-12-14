@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory4.EncryptPackage
 title: IAppxEncryptionFactory4::EncryptPackage (appxpackaging.h)
-description: Creates an encrypted Windows app package from an unencrypted one.
+description: Creates an encrypted Windows app package from an unencrypted one. (IAppxEncryptionFactory4.EncryptPackage)
 helpviewer_keywords: ["EncryptPackage","EncryptPackage method [App packaging and management]","EncryptPackage method [App packaging and management]","IAppxEncryptionFactory4 interface","IAppxEncryptionFactory4 interface [App packaging and management]","EncryptPackage method","IAppxEncryptionFactory4.EncryptPackage","IAppxEncryptionFactory4::EncryptPackage","appxpackaging/IAppxEncryptionFactory4::EncryptPackage","appxpkg.iappxencryptionfactory4_encryptpackage"]
 old-location: appxpkg\iappxencryptionfactory4_encryptpackage.htm
 tech.root: appxpkg
@@ -60,7 +60,7 @@ A readable stream from the app bundle to encrypt.
 
 ### -param outputStream [in]
 
-A writeable stream for writing the resulting encrypted app bundle.
+A writable stream for writing the resulting encrypted app bundle.
 
 ### -param settings [in]
 
@@ -80,7 +80,7 @@ The memory limit in bytes.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

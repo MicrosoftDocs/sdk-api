@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHQueryValueExA
 title: SHQueryValueExA function (shlwapi.h)
-description: Opens a registry key and queries it for a specific value.
+description: Opens a registry key and queries it for a specific value. (ANSI)
 helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHQueryValueEx","SHQueryValueEx function [Windows Shell]","SHQueryValueExA","SHQueryValueExW","_win32_SHQueryValueEx","shell.SHQueryValueEx","shlwapi/SHQueryValueEx","shlwapi/SHQueryValueExA","shlwapi/SHQueryValueExW"]
 old-location: shell\SHQueryValueEx.htm
 tech.root: shell
@@ -107,7 +107,7 @@ Reserved. Must be <b>NULL</b>.
 
 Type: <b>LPDWORD</b>
 
-The address of the variable that receives the key's value type. For more information, see <a href="/windows/desktop/shell/schemas">Registry Data Types</a>.
+The address of the variable that receives the key's value type. For more information, see <a href="/windows/desktop/shell/hkey-type">Registry Data Types</a>.
 
 ### -param pvData [out, optional]
 

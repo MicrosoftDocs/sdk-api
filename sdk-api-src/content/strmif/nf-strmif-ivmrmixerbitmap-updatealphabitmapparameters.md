@@ -73,7 +73,7 @@ The filter graph must be running for the changes to take effect. This method doe
 
 
 
-<a href="/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap Interface</a>
+<a href="/windows/win32/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap Interface</a>
 
 
 

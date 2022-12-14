@@ -53,7 +53,7 @@ api_name:
 
 The <b>AdjustableArrowCap::GetHeight</b> method gets the height of the arrow cap. The height is the distance from the base of the arrow to its vertex.
 
-## -parameters
+
 
 ## -returns
 

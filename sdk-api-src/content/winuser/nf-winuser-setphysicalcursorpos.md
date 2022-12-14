@@ -47,6 +47,7 @@ api_location:
  - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
 api_name:
  - SetPhysicalCursorPos
+req.apiset: ext-ms-win-ntuser-gui-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # SetPhysicalCursorPos function
@@ -78,7 +79,7 @@ Type: <b>BOOL</b>
 
 ## -remarks
 
-For a description of the difference between logicial coordinates and physical coordinates, see <a href="/windows/desktop/api/winuser/nf-winuser-physicaltologicalpoint">PhysicalToLogicalPoint</a>.
+For a description of the difference between logical coordinates and physical coordinates, see <a href="/windows/desktop/api/winuser/nf-winuser-physicaltologicalpoint">PhysicalToLogicalPoint</a>.
 
 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> can be called to get more information about any error that is generated.

@@ -59,7 +59,7 @@ To simulate the appearance of a style that is not provided by the font or glyph,
 
 ## -enum-fields
 
-### -field XPS_STYLE_SIMULATION_NONE
+### -field XPS_STYLE_SIMULATION_NONE:1
 
 No font style simulation.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:winscard.SCardListReaderGroupsW
 title: SCardListReaderGroupsW function (winscard.h)
-description: Provides the list of reader groups that have previously been introduced to the system.
+description: Provides the list of reader groups that have previously been introduced to the system. (Unicode)
 helpviewer_keywords: ["SCARD_ALL_READERS","SCARD_DEFAULT_READERS","SCARD_LOCAL_READERS","SCARD_SYSTEM_READERS","SCardListReaderGroups","SCardListReaderGroups function [Security]","SCardListReaderGroupsA","SCardListReaderGroupsW","_smart_scardlistreadergroups","security.scardlistreadergroups","winscard/SCardListReaderGroups","winscard/SCardListReaderGroupsA","winscard/SCardListReaderGroupsW"]
 old-location: security\scardlistreadergroups.htm
 tech.root: security

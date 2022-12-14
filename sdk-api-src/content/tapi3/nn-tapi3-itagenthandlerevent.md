@@ -1,12 +1,12 @@
 ---
 UID: NN:tapi3.ITAgentHandlerEvent
 title: ITAgentHandlerEvent (tapi3.h)
-description: The ITAgentHandlerEvent interface contains methods that retrieve the description of agent handler events.
+description: The ITAgentHandlerEvent (tapi3.h) interface contains methods that retrieve the description of agent handler events.
 helpviewer_keywords: ["ITAgentHandlerEvent","ITAgentHandlerEvent interface [TAPI 2.2]","ITAgentHandlerEvent interface [TAPI 2.2]","described","_tapi3_itagenthandlerevent","tapi3.itagenthandlerevent","tapi3cc/ITAgentHandlerEvent"]
 old-location: tapi3\itagenthandlerevent.htm
 tech.root: tapi3
 ms.assetid: c61becce-09fd-4b12-bbc9-98df57d5f0d3
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITAgentHandlerEvent, ITAgentHandlerEvent interface [TAPI 2.2], ITAgentHandlerEvent interface [TAPI 2.2],described, _tapi3_itagenthandlerevent, tapi3.itagenthandlerevent, tapi3cc/ITAgentHandlerEvent
 req.header: tapi3.h
 req.include-header: Tapi3.h
@@ -64,40 +64,7 @@ See
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAgentHandlerEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAgentHandlerEvent</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITAgentHandlerEvent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3/nf-tapi3-itagenthandlerevent-get_agenthandler">get_AgentHandler</a>
-</td>
-<td align="left" width="63%">
-Gets a pointer to the 
-<a href="/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a> interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3/nf-tapi3-itagenthandlerevent-get_event">get_Event</a>
-</td>
-<td align="left" width="63%">
-Gets the 
-<a href="/windows/desktop/api/tapi3/ne-tapi3-agenthandler_event">AGENTHANDLER_EVENT</a> descriptor of the event.
-
-</td>
-</tr>
-</table>
+The <b>ITAgentHandlerEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAgentHandlerEvent</b> also has these types of members:
 
 ## -see-also
 

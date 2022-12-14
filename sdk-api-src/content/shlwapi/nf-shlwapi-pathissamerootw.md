@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathIsSameRootW
 title: PathIsSameRootW function (shlwapi.h)
-description: Compares two paths to determine if they have a common root component.
+description: Compares two paths to determine if they have a common root component. (Unicode)
 helpviewer_keywords: ["PathIsSameRoot","PathIsSameRoot function [Windows Shell]","PathIsSameRootA","PathIsSameRootW","_win32_PathIsSameRoot","shell.PathIsSameRoot","shlwapi/PathIsSameRoot","shlwapi/PathIsSameRootA","shlwapi/PathIsSameRootW"]
 old-location: shell\PathIsSameRoot.htm
 tech.root: shell

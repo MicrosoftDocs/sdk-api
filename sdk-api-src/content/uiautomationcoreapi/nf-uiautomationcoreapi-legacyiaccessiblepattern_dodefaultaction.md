@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.LegacyIAccessiblePattern_DoDefaultAction
 title: LegacyIAccessiblePattern_DoDefaultAction function (uiautomationcoreapi.h)
-description: Performs the Microsoft Active Accessibility default action for the element.
+description: Performs the Microsoft Active Accessibility default action for the element. (LegacyIAccessiblePattern_DoDefaultAction)
 helpviewer_keywords: ["LegacyIAccessiblePattern_DoDefaultAction","LegacyIAccessiblePattern_DoDefaultAction function [Windows Accessibility]","uiauto.uiauto_LegacyIAccessiblePattern_DoDefaultAction","uiauto_LegacyIAccessiblePattern_DoDefaultAction","uiautomationcoreapi/LegacyIAccessiblePattern_DoDefaultAction","winauto.uiauto_LegacyIAccessiblePattern_DoDefaultAction"]
 old-location: winauto\uiauto_LegacyIAccessiblePattern_DoDefaultAction.htm
 tech.root: WinAuto

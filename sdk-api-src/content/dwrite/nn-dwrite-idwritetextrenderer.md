@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite.IDWriteTextRenderer
 title: IDWriteTextRenderer (dwrite.h)
-description: Represents a set of application-defined callbacks that perform rendering of text, inline objects, and decorations such as underlines.
+description: Represents a set of application-defined callbacks that perform rendering of text, inline objects, and decorations such as underlines. (IDWriteTextRenderer)
 helpviewer_keywords: ["IDWriteTextRenderer","IDWriteTextRenderer interface [Direct Write]","IDWriteTextRenderer interface [Direct Write]","described","directwrite.IDWriteTextRenderer","dwrite/IDWriteTextRenderer"]
 old-location: directwrite\IDWriteTextRenderer.htm
 tech.root: DirectWrite
@@ -54,60 +54,7 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextRenderer</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritepixelsnapping">IDWritePixelSnapping</a>. <b>IDWriteTextRenderer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDWriteTextRenderer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun">DrawGlyphRun</a>
-</td>
-<td align="left" width="63%">
- IDWriteTextLayout::<a href="/windows/win32/api/dwrite/nf-dwrite-idwriteinlineobject-draw">Draw</a> calls this function to instruct the client to
-     render a run of glyphs.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawinlineobject">DrawInlineObject</a>
-</td>
-<td align="left" width="63%">
- IDWriteTextLayout::<a href="/windows/win32/api/dwrite/nf-dwrite-idwriteinlineobject-draw">Draw</a> calls this application callback when it needs to
-     draw an inline object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawstrikethrough">DrawStrikethrough</a>
-</td>
-<td align="left" width="63%">
- IDWriteTextLayout::<a href="/windows/win32/api/dwrite/nf-dwrite-idwriteinlineobject-draw">Draw</a> calls this function to instruct the client to draw
-     a strikethrough.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawunderline">DrawUnderline</a>
-</td>
-<td align="left" width="63%">
- IDWriteTextLayout::<a href="/windows/win32/api/dwrite/nf-dwrite-idwriteinlineobject-draw">Draw</a> calls this function to instruct the client to draw
-     an underline.
-
-</td>
-</tr>
-</table>
+The <b>IDWriteTextRenderer</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritepixelsnapping">IDWritePixelSnapping</a>. <b>IDWriteTextRenderer</b> also has these types of members:
 
 ## -see-also
 

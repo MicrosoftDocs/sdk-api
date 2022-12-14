@@ -1,7 +1,7 @@
 ---
 UID: NS:windns.__unnamed_struct_32
 title: DNS_NAPTR_DATAW (windns.h)
-description: The DNS_NAPTR_DATA structure represents a Naming Authority Pointer (NAPTR) DNS Resource Record (RR) as specified in RFC 2915.
+description: The DNS_NAPTR_DATA structure represents a Naming Authority Pointer (NAPTR) DNS Resource Record (RR) as specified in RFC 2915. (Unicode)
 helpviewer_keywords: ["*PDNS_NAPTR_DATA","*PDNS_NAPTR_DATAW","DNS_NAPTR_DATA","DNS_NAPTR_DATA structure [DNS]","DNS_NAPTR_DATAW","PDNS_NAPTR_DATA","PDNS_NAPTR_DATA structure pointer [DNS]","dns.dns_naptr_data","windns/DNS_NAPTR_DATA","windns/PDNS_NAPTR_DATA"]
 old-location: dns\dns_naptr_data.htm
 tech.root: DNS

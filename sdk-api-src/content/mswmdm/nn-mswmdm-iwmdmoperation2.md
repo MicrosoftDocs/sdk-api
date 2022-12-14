@@ -54,38 +54,7 @@ The optional, application-implemented <b>IWMDMOperation2</b> interface extends <
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMOperation2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation</a>. <b>IWMDMOperation2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWMDMOperation2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation2-getobjectattributes2">GetObjectAttributes2</a>
-</td>
-<td align="left" width="63%">
-Allows the application to specify attributes for an object being written to a device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation2-setobjectattributes2">SetObjectAttributes2</a>
-</td>
-<td align="left" width="63%">
-Sets attributes of files or storages. This method is currently not called by Windows Media Device Manager.
-
-</td>
-</tr>
-</table>
+The <b>IWMDMOperation2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation</a>. <b>IWMDMOperation2</b> also has these types of members:
 
 ## -see-also
 

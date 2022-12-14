@@ -1,7 +1,7 @@
 ---
 UID: NF:nspapi.GetServiceW
 title: GetServiceW function (nspapi.h)
-description: The GetService function retrieves information about a network service in the context of a set of default namespaces or a specified namespace.
+description: The GetService function retrieves information about a network service in the context of a set of default namespaces or a specified namespace. (Unicode)
 helpviewer_keywords: ["GetService","GetService function [Winsock]","GetServiceA","GetServiceW","NS_DEFAULT","NS_DNS","NS_NETBT","NS_SAP","NS_TCPIP_HOSTS","NS_TCPIP_LOCAL","PROP_ADDRESSES","PROP_ALL","PROP_COMMENT","PROP_DISPLAY_HINT","PROP_LOCALE","PROP_MACHINE","PROP_SD","PROP_START_TIME","PROP_VERSION","_win32_getservice_2","nspapi/GetService","nspapi/GetServiceA","nspapi/GetServiceW","winsock.getservice_2"]
 old-location: winsock\getservice_2.htm
 tech.root: WinSock

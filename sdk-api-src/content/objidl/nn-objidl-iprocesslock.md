@@ -56,38 +56,7 @@ Used by <a href="/windows/desktop/api/objidl/nn-objidl-isurrogateservice">ISurro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProcessLock</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProcessLock</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IProcessLock</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-iprocesslock-addrefonprocess">AddRefOnProcess</a>
-</td>
-<td align="left" width="63%">
-Increments the reference count of the process.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-iprocesslock-releaserefonprocess">ReleaseRefOnProcess</a>
-</td>
-<td align="left" width="63%">
-Decrements the reference count of the process.
-
-</td>
-</tr>
-</table>
+The <b>IProcessLock</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProcessLock</b> also has these types of members:
 
 ## -see-also
 

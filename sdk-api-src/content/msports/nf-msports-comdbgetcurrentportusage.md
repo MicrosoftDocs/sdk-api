@@ -157,7 +157,7 @@ If <i>ReportType</i> is CDB_REPORT_BITS, the routine returns a bit array that sp
 
 </li>
 <li>
-If <i>ReportType</i> is CDB_REPORT_BYTES, the routine returns a byte array that specifies port number usage. Each byte in the returned information corresponds to a different port number. Using a zero-based index, byte zero at <i>Buffe</i>r corresponds to COM1, byte 1 corresponds to COM2, and so on. A byte value of 1 indicates the port number is in use and a value of zero indicates the port number is not in use. The number of port numbers for which the routine returns usage information is the minimum of the current database size and <i>BufferSize</i>. The routine does not set *<i>MaxPortsReported</i>. If <i>BufferSize</i> is zero, no port usage information is returned.
+If <i>ReportType</i> is CDB_REPORT_BYTES, the routine returns a byte array that specifies port number usage. Each byte in the returned information corresponds to a different port number. Using a zero-based index, byte zero at <i>Buffer</i> corresponds to COM1, byte 1 corresponds to COM2, and so on. A byte value of 1 indicates the port number is in use and a value of zero indicates the port number is not in use. The number of port numbers for which the routine returns usage information is the minimum of the current database size and <i>BufferSize</i>. The routine does not set *<i>MaxPortsReported</i>. If <i>BufferSize</i> is zero, no port usage information is returned.
 
 </li>
 </ul>

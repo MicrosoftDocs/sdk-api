@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.put_SelBold
 title: IInkEdit::put_SelBold (inked.h)
-description: Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is bold.
+description: Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is bold. (Put)
 helpviewer_keywords: ["FALSE","IInkEdit interface [Tablet PC]","SelBold property","IInkEdit.SelBold","IInkEdit.put_SelBold","IInkEdit::SelBold","IInkEdit::get_SelBold","IInkEdit::put_SelBold","InkEdit.get_SelBold","InkEdit.put_SelBold","NULL","SelBold property [Tablet PC]","SelBold property [Tablet PC]","IInkEdit interface","TRUE","get_SelBold","inked/IInkEdit::SelBold","inked/IInkEdit::get_SelBold","inked/IInkEdit::put_SelBold","put_SelBold","tablet.inkedit_selbold"]
 old-location: tablet\inkedit_selbold.htm
 tech.root: tablet
@@ -69,7 +69,7 @@ If there is no text selected in the <a href="/windows/desktop/tablet/inkedit-con
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="../inked/nn-inked-iinkedit.md">IInkEdit</a>
 
 
 

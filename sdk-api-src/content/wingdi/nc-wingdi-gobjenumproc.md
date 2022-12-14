@@ -54,9 +54,9 @@ The <b>EnumObjectsProc</b> function is an application-defined callback function 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
-### -param Arg2
+### -param unnamedParam2
 
 #### - lpData [in]
 

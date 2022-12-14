@@ -54,47 +54,7 @@ Retrieves information about a tracking information collection.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComTrackingInfoCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComTrackingInfoCollection</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IComTrackingInfoCollection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomtrackinginfocollection-count">Count</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of objects in a tracking information collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomtrackinginfocollection-item">Item</a>
-</td>
-<td align="left" width="63%">
-Retrieves the specified interface from a specified member of a tracking information collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomtrackinginfocollection-type">Type</a>
-</td>
-<td align="left" width="63%">
-Retrieves the type of a tracking information collection.
-
-</td>
-</tr>
-</table>
+The <b>IComTrackingInfoCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComTrackingInfoCollection</b> also has these types of members:
 
 ## -see-also
 

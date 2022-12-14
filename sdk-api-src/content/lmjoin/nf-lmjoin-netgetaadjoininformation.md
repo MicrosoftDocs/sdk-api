@@ -64,7 +64,7 @@ If the specified
                        tenant ID is NULL or empty, <i>ppJoinInfo</i> is set to the default
                        join account information, or NULL if the device is not joined to Azure AD and the current user added  no Azure AD work accounts.
                        
-                       The default join account is one of the following:
+The default join account is one of the following:
 
 <ul>
 <li>The Azure AD account, if the device is joined to Azure AD.</li>
@@ -83,7 +83,7 @@ The join information for the tenant that the <i>pcszTenantId</i> parameter speci
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

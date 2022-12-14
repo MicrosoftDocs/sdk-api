@@ -1,7 +1,7 @@
 ---
 UID: NF:nspapi.GetTypeByNameA
 title: GetTypeByNameA function (nspapi.h)
-description: The GetTypeByName function retrieves a service type GUID for a network service specified by name.
+description: The GetTypeByName function retrieves a service type GUID for a network service specified by name. (ANSI)
 helpviewer_keywords: ["GetTypeByName","GetTypeByName function [Winsock]","GetTypeByNameA","GetTypeByNameW","_win32_gettypebyname_2","nspapi/GetTypeByName","nspapi/GetTypeByNameA","nspapi/GetTypeByNameW","winsock.gettypebyname_2"]
 old-location: winsock\gettypebyname_2.htm
 tech.root: WinSock

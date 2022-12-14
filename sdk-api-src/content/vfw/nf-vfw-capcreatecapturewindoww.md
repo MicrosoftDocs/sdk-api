@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.capCreateCaptureWindowW
 title: capCreateCaptureWindowW function (vfw.h)
-description: The capCreateCaptureWindow function creates a capture window.
+description: The capCreateCaptureWindow function creates a capture window. (Unicode)
 helpviewer_keywords: ["_win32_capCreateCaptureWindow","capCreateCaptureWindow","capCreateCaptureWindow function [Windows Multimedia]","capCreateCaptureWindowA","capCreateCaptureWindowW","multimedia.capcreatecapturewindow","vfw/capCreateCaptureWindow","vfw/capCreateCaptureWindowA","vfw/capCreateCaptureWindowW"]
 old-location: multimedia\capcreatecapturewindow.htm
 tech.root: Multimedia

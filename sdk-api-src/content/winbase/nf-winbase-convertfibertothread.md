@@ -57,7 +57,7 @@ api_name:
 
 Converts the current fiber into a thread.
 
-## -parameters
+
 
 ## -returns
 

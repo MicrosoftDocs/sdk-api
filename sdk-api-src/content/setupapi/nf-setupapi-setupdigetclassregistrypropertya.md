@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiGetClassRegistryPropertyA
 title: SetupDiGetClassRegistryPropertyA function (setupapi.h)
-description: The SetupDiGetClassRegistryProperty function retrieves a property for a specified device setup class from the registry.
+description: The SetupDiGetClassRegistryProperty function retrieves a property for a specified device setup class from the registry. (ANSI)
 helpviewer_keywords: ["SetupDiGetClassRegistryProperty","SetupDiGetClassRegistryProperty function [Device and Driver Installation]","SetupDiGetClassRegistryPropertyA","SetupDiGetClassRegistryPropertyW","devinst.setupdigetclassregistryproperty","di-rtns_98a6c47a-6fb5-4752-9f0e-23ad00f4e5f2.xml","setupapi/SetupDiGetClassRegistryProperty"]
 old-location: devinst\setupdigetclassregistryproperty.htm
 tech.root: devinst
@@ -38,7 +38,7 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - LibDef
+ - DllExport
 api_location:
  - Setupapi.lib
  - Setupapi.dll
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>SetupDiGetClassRegistryProperty</b> function retrieves a property for a specified <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> from the registry.
+The <b>SetupDiGetClassRegistryProperty</b> function retrieves a property for a specified <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> from the registry.
 
 ## -parameters
 
@@ -109,7 +109,7 @@ The function returns the device's security descriptor as a text string. For info
 
 ### -param PropertyRegDataType [out, optional]
 
-A pointer to a variable of type DWORD that receives the property data type as one of the REG_-prefixed registry data types. This parameter is optional and can be <b>NULL</b>. If this parameter is <b>NULL</b>, S<b>etupDiGetClassRegistryProperty</b> does not return the data type.
+A pointer to a variable of type DWORD that receives the property data type as one of the REG_-prefixed registry data types. This parameter is optional and can be <b>NULL</b>. If this parameter is <b>NULL</b>, <b>SetupDiGetClassRegistryProperty</b> does not return the data type.
 
 ### -param PropertyBuffer [out]
 
@@ -117,11 +117,11 @@ A pointer to a buffer that receives the requested property.
 
 ### -param PropertyBufferSize [in]
 
-The size, in bytes, of the <i>PropertyBuffer </i>buffer.
+The size, in bytes, of the <i>PropertyBuffer </i> buffer.
 
 ### -param RequiredSize [out, optional]
 
-A pointer to a variable of type DWORD that receives the required size, in bytes, of the <i>PropertyBuffer </i>buffer. If the <i>PropertyBuffer</i> buffer is too small, and <i>RequiredSize</i> is not <b>NULL</b>, the function sets <i>RequiredSize</i> to the minimum buffer size that is required to receive the requested property.
+A pointer to a variable of type DWORD that receives the required size, in bytes, of the <i>PropertyBuffer </i> buffer. If the <i>PropertyBuffer</i> buffer is too small, and <i>RequiredSize</i> is not <b>NULL</b>, the function sets <i>RequiredSize</i> to the minimum buffer size that is required to receive the requested property.
 
 ### -param MachineName [in, optional]
 

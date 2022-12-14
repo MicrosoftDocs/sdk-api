@@ -56,19 +56,19 @@ Defines where the trace events are delivered.
 
 ## -enum-fields
 
-### -field plaFile
+### -field plaFile:0x1
 
 Write the trace events to a log file.
 
-### -field plaRealTime
+### -field plaRealTime:0x2
 
 Deliver the trace events to a real time consumer.
 
-### -field plaBoth
+### -field plaBoth:0x3
 
 Write the trace events to a log file and deliver them to a real-time consumer.
 
-### -field plaBuffering
+### -field plaBuffering:0x4
 
 For details, see the <a href="/windows/desktop/ETW/logging-mode-constants">EVENT_TRACE_BUFFERING_MODE</a> logging mode in Event Tracing for Windows.
 

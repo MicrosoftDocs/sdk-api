@@ -68,7 +68,7 @@ A pointer to a buffer that receives an array of <a href="/windows-hardware/drive
 
 ### -param PropertyKeyCount [in]
 
-The size, in DEVPROPKEY-typed elements, of the <i>PropertyKeyArray </i>buffer<i>. </i>If <i>PropertyKeyArray</i> is <b>NULL</b>, <i>PropertyKeyCount</i> must be set to zero.
+The size, in DEVPROPKEY-typed elements, of the <i>PropertyKeyArray </i> buffer<i>. </i>If <i>PropertyKeyArray</i> is <b>NULL</b>, <i>PropertyKeyCount</i> must be set to zero.
 
 ### -param RequiredPropertyKeyCount [out, optional]
 
@@ -183,7 +183,7 @@ There was not enough system memory available to complete the operation.
 
 <b>SetupDiGetDeviceInterfacePropertyKeys</b> is part of the <a href="/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-">unified device property model</a>. 
 
-If the <i>PropertyKeyArray</i> buffer is not large enough to hold all the requested property keys, <b>SetupDiGetDeviceInterfacePropertyKeys</b> does not retrieve any property keys and returns ERROR_INSUFFICIENT_BUFFER. If the caller supplied a <i>RequiredPropertyKeyCount</i> pointer, <b>SetupDiGetDeviceInterfacePropertyKeys</b> sets the value of *<i>RequiredPropertyKeyCount</i> to the required size, in DEVPROPKEY-typed values, of the <i>PropertyKeyArray </i>buffer<i>.</i>
+If the <i>PropertyKeyArray</i> buffer is not large enough to hold all the requested property keys, <b>SetupDiGetDeviceInterfacePropertyKeys</b> does not retrieve any property keys and returns ERROR_INSUFFICIENT_BUFFER. If the caller supplied a <i>RequiredPropertyKeyCount</i> pointer, <b>SetupDiGetDeviceInterfacePropertyKeys</b> sets the value of *<i>RequiredPropertyKeyCount</i> to the required size, in DEVPROPKEY-typed values, of the <i>PropertyKeyArray </i> buffer<i>.</i>
 
 To retrieve a device interface property, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacepropertyw">SetupDiGetDeviceInterfaceProperty</a><b>,</b> and to set a device interface property, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceinterfacepropertyw">SetupDiSetDeviceInterfaceProperty</a>.
 

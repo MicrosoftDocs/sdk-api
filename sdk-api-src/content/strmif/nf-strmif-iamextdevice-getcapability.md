@@ -370,7 +370,7 @@ The ED_DEVCAP_NORMAL_RATE flag returns the frame rate.
 </table>
  
 
-For MSDV only, the ED_DEVCAP_DEVICE_TYPE flag returns the device type. Possible values are shown in the following table.  For UVC devices, use the <a href="/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo</a> interface instead.
+For MSDV only, the ED_DEVCAP_DEVICE_TYPE flag returns the device type. Possible values are shown in the following table.  For UVC devices, use the <a href="/previous-versions/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo</a> interface instead.
 
 <table>
 <tr>

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.put_MousePointer
 title: IInkOverlay::put_MousePointer (msinkaut.h)
-description: Gets or sets a value that indicates the type of mouse pointer that appears.
+description: Gets or sets a value that indicates the type of mouse pointer that appears. (IInkOverlay.put_MousePointer)
 helpviewer_keywords: ["IInkOverlay interface [Tablet PC]","MousePointer property","IInkOverlay.MousePointer","IInkOverlay.put_MousePointer","IInkOverlay::MousePointer","IInkOverlay::get_MousePointer","IInkOverlay::put_MousePointer","InkOverlay.get_MousePointer","InkOverlay.put_MousePointer","MousePointer property [Tablet PC]","MousePointer property [Tablet PC]","IInkOverlay interface","get_MousePointer","msinkaut/IInkOverlay::MousePointer","msinkaut/IInkOverlay::get_MousePointer","msinkaut/IInkOverlay::put_MousePointer","put_MousePointer","tablet.inkoverlay_mousepointer"]
 old-location: tablet\inkoverlay_mousepointer.htm
 tech.root: tablet
@@ -71,7 +71,7 @@ You can use this property when you want to indicate changes in functionality as 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="../msinkaut/nn-msinkaut-iinkoverlay.md">IInkOverlay</a>
 
 
 

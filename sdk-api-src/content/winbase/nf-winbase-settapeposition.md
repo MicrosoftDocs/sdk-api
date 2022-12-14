@@ -386,7 +386,7 @@ The media is write protected.
 If the offset specified by <i>dwOffsetLow</i> and <i>dwOffsetHigh</i> specifies the number of blocks, filemarks, or setmarks to move, a positive offset moves the tape forward to the end of the last block, filemark, or setmark. A negative offset moves the tape backward to the beginning of the last block, filemark, or setmark. If the offset is zero, the tape does not move.
 
 To obtain information about the status, capabilities, and capacities of tape drives and media, call the 
-<a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>function.
+<a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a> function.
 
 ## -see-also
 

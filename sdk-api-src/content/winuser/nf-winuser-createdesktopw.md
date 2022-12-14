@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.CreateDesktopW
 title: CreateDesktopW function (winuser.h)
-description: Creates a new desktop, associates it with the current window station of the calling process, and assigns it to the calling thread.
+description: Creates a new desktop, associates it with the current window station of the calling process, and assigns it to the calling thread. (Unicode)
 helpviewer_keywords: ["CreateDesktop","CreateDesktop function [Windows Stations and Desktops]","CreateDesktopA","CreateDesktopW","DF_ALLOWOTHERACCOUNTHOOK","_win32_createdesktop","base.createdesktop","winstation.createdesktop","winuser/CreateDesktop","winuser/CreateDesktopA","winuser/CreateDesktopW"]
 old-location: winstation\createdesktop.htm
 tech.root: winstation
@@ -49,6 +49,7 @@ api_name:
  - CreateDesktop
  - CreateDesktopA
  - CreateDesktopW
+req.apiset: ext-ms-win-ntuser-windowstation-l1-1-0 (introduced in Windows 8)
 ---
 
 # CreateDesktopW function
@@ -65,7 +66,7 @@ To specify the size of the heap for the desktop, use the <a href="/windows/deskt
 
 ### -param lpszDesktop [in]
 
-The name of the desktop to be created. Desktop names are case-insensitive and may not contain backslash characters (\).
+The name of the desktop to be created. Desktop names are case-insensitive and may not contain backslash characters (\\).
 
 ### -param lpszDevice
 

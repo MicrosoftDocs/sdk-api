@@ -54,47 +54,10 @@ The <b>IDTFilter2</b> interface extends the <a href="/previous-versions/windows/
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDTFilter2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter">IDTFilter</a>. <b>IDTFilter2</b> also has these types of members:
+The <b>IDTFilter2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter">IDTFilter</a>. <b>IDTFilter2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IDTFilter2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter2-get_challengeurl">get_ChallengeUrl</a>
-</td>
-<td align="left" width="63%">
-Not implemented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter2-getcurrlicenseexpdate">GetCurrLicenseExpDate</a>
-</td>
-<td align="left" width="63%">
-Not implemented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter2-getlasterrorcode">GetLastErrorCode</a>
-</td>
-<td align="left" width="63%">
-Returns the most recent error code from the Decrypter/Detagger filter.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

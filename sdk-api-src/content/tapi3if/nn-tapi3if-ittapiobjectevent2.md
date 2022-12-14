@@ -66,30 +66,7 @@ When the application's implementation of the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITTAPIObjectEvent2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITTAPIObjectEvent2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITTAPIObjectEvent2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapiobjectevent2-get_phone">get_Phone</a>
-</td>
-<td align="left" width="63%">
-Returns a pointer to the 
-<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface on the phone object that caused this notification of a TAPI object event.
-
-</td>
-</tr>
-</table>
+The <b>ITTAPIObjectEvent2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITTAPIObjectEvent2</b> also has these types of members:
 
 ## -see-also
 

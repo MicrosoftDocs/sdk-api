@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.put_DesiredPacketDescription
 title: IInkOverlay::put_DesiredPacketDescription (msinkaut.h)
-description: Gets or sets the desired packet description of the InkCollector.
+description: Gets or sets the desired packet description of the InkCollector. (IInkOverlay.put_DesiredPacketDescription)
 helpviewer_keywords: ["DesiredPacketDescription property [Tablet PC]","DesiredPacketDescription property [Tablet PC]","IInkOverlay interface","IInkOverlay interface [Tablet PC]","DesiredPacketDescription property","IInkOverlay.DesiredPacketDescription","IInkOverlay.put_DesiredPacketDescription","IInkOverlay::DesiredPacketDescription","IInkOverlay::get_DesiredPacketDescription","IInkOverlay::put_DesiredPacketDescription","InkOverlay.get_DesiredPacketDescription","InkOverlay.put_DesiredPacketDescription","get_DesiredPacketDescription","msinkaut/IInkOverlay::DesiredPacketDescription","msinkaut/IInkOverlay::get_DesiredPacketDescription","msinkaut/IInkOverlay::put_DesiredPacketDescription","put_DesiredPacketDescription","tablet.inkoverlay_desiredpacketdescription"]
 old-location: tablet\inkoverlay_desiredpacketdescription.htm
 tech.root: tablet
@@ -77,7 +77,7 @@ Changes to this property do not affect incoming packet data until the <a href="/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="../msinkaut/nn-msinkaut-iinkoverlay.md">IInkOverlay</a>
 
 
 

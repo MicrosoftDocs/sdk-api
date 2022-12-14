@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiFormatRecordW
 title: MsiFormatRecordW function (msiquery.h)
-description: The MsiFormatRecord function formats record field data and properties using a format string.
+description: The MsiFormatRecord function formats record field data and properties using a format string. (Unicode)
 helpviewer_keywords: ["MsiFormatRecord","MsiFormatRecord function","MsiFormatRecordA","MsiFormatRecordW","_msi_msiformatrecord","msiquery/MsiFormatRecord","msiquery/MsiFormatRecordA","msiquery/MsiFormatRecordW","setup.msiformatrecord"]
 old-location: setup\msiformatrecord.htm
 tech.root: setup

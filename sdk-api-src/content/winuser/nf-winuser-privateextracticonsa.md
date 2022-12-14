@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.PrivateExtractIconsA
 title: PrivateExtractIconsA function (winuser.h)
-description: Creates an array of handles to icons that are extracted from a specified file.
+description: Creates an array of handles to icons that are extracted from a specified file. (ANSI)
 helpviewer_keywords: ["PrivateExtractIcons","PrivateExtractIcons function [Menus and Other Resources]","PrivateExtractIconsA","PrivateExtractIconsW","_win32_PrivateExtractIcons","_win32_privateextracticons_cpp","menurc.privateextracticons","winui._win32_privateextracticons","winuser/PrivateExtractIcons","winuser/PrivateExtractIconsA","winuser/PrivateExtractIconsW"]
 old-location: menurc\privateextracticons.htm
 tech.root: menurc
@@ -46,6 +46,7 @@ api_name:
  - PrivateExtractIcons
  - PrivateExtractIconsA
  - PrivateExtractIconsW
+req.apiset: ext-ms-win-ntuser-misc-l1-5-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # PrivateExtractIconsA function
@@ -121,7 +122,7 @@ Specifies flags that control this function.  These flags are the LR_*
 
 Type: <b>UINT</b>
 
-If the <i>phicon</i>parameter is <b>NULL</b> and this function succeeds, then the return
+If the <i>phicon</i> parameter is <b>NULL</b> and this function succeeds, then the return
 				value is the number of icons in the file.  If the function fails then the
 				return value is 0.
 
@@ -144,7 +145,7 @@ The <i>cxIcon</i> and
       For example, <code>MAKELONG(24, 48)</code> for both the cxIcon and cyIcon parameters would extract
       both 24 and 48 size icons.
 
-You must destroy all icons extracted by <b>PrivateExtractIcons</b>by calling the <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function. 
+You must destroy all icons extracted by <b>PrivateExtractIcons</b> by calling the <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function. 
 
 This function was not included in the SDK headers and libraries until Windows XP Service Pack 1 (SP1) and Windows Server 2003. If you do not have a header file and import library for this function, you can call the function using <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
 

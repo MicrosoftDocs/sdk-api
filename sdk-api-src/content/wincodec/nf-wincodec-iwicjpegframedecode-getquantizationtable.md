@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.GetQuantizationTable
 title: IWICJpegFrameDecode::GetQuantizationTable (wincodec.h)
-description: Retrieves a copy of the quantization table.
+description: Retrieves a copy of the quantization table. (IWICJpegFrameDecode.GetQuantizationTable)
 helpviewer_keywords: ["GetQuantizationTable","GetQuantizationTable method [Windows Imaging Component]","GetQuantizationTable method [Windows Imaging Component]","IWICJpegFrameDecode interface","IWICJpegFrameDecode interface [Windows Imaging Component]","GetQuantizationTable method","IWICJpegFrameDecode.GetQuantizationTable","IWICJpegFrameDecode::GetQuantizationTable","wic.iwicjpegframedecode_getquantizationtable","wincodec/IWICJpegFrameDecode::GetQuantizationTable"]
 old-location: wic\iwicjpegframedecode_getquantizationtable.htm
 tech.root: wic

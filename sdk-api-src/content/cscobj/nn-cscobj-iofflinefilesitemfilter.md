@@ -55,47 +55,7 @@ Represents an instance of a filter to be applied to an enumeration. For a comple
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesItemFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesItemFilter</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IOfflineFilesItemFilter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitemfilter-getfilterflags">GetFilterFlags</a>
-</td>
-<td align="left" width="63%">
-Provides flags to control flag-based filtering of items.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitemfilter-getpatternfilter">GetPatternFilter</a>
-</td>
-<td align="left" width="63%">
-Provides a filter pattern string to limit enumerated items based on item name patterns.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitemfilter-gettimefilter">GetTimeFilter</a>
-</td>
-<td align="left" width="63%">
-Provides time-value-comparison semantics to control filtering of items based on time.
-
-</td>
-</tr>
-</table>
+The <b>IOfflineFilesItemFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesItemFilter</b> also has these types of members:
 
 ## -see-also
 

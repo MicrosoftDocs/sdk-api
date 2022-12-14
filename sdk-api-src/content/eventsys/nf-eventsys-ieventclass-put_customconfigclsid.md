@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventClass.put_CustomConfigCLSID
 title: IEventClass::put_CustomConfigCLSID (eventsys.h)
-description: The CLSID of a component that can assist in adding properties into the property bag of a subscription object. This property is supported only for backward compatibility.
+description: The CLSID of a component that can assist in adding properties into the property bag of a subscription object. This property is supported only for backward compatibility. (Put)
 helpviewer_keywords: ["CustomConfigCLSID property [COM+]","CustomConfigCLSID property [COM+]","IEventClass interface","IEventClass interface [COM+]","CustomConfigCLSID property","IEventClass.CustomConfigCLSID","IEventClass.put_CustomConfigCLSID","IEventClass::CustomConfigCLSID","IEventClass::get_CustomConfigCLSID","IEventClass::put_CustomConfigCLSID","cos.ieventclass_customconfigclsid","eventsys/IEventClass::CustomConfigCLSID","eventsys/IEventClass::get_CustomConfigCLSID","eventsys/IEventClass::put_CustomConfigCLSID","put_CustomConfigCLSID"]
 old-location: cos\ieventclass_customconfigclsid.htm
 tech.root: cos

@@ -50,7 +50,7 @@ Attaches a clipper object to, or deletes one from, this surface.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to the <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawclipper">IDirectDrawClipper</a> interface for the DirectDrawClipper object to be attached to the DirectDrawSurface object. If you set this parameter to NULL, the current DirectDrawClipper object is detached.
 
@@ -75,7 +75,7 @@ When you set a clipper to a surface for the first time, <b>SetClipper</b> increm
 
 
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetClipper</b> method.
+
 
 
 

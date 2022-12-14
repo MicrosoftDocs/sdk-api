@@ -1,12 +1,12 @@
 ---
 UID: NN:objidlbase.IMultiQI
 title: IMultiQI (objidlbase.h)
-description: Enables a client to query an object proxy, or handler, for multiple interfaces by using a single RPC call.
+description: The IMultiQI (objidlbase.h) interface enables a client to query an object proxy, or handler, for multiple interfaces by using a single RPC call.
 helpviewer_keywords: ["IMultiQI","IMultiQI interface [COM]","IMultiQI interface [COM]","described","_com_imultiqi","com.imultiqi","objidlbase/IMultiQI"]
 old-location: com\imultiqi.htm
 tech.root: com
 ms.assetid: 5e50396f-2931-403f-946a-dc096cb012cc
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IMultiQI, IMultiQI interface [COM], IMultiQI interface [COM],described, _com_imultiqi, com.imultiqi, objidlbase/IMultiQI
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
@@ -54,26 +54,5 @@ Enables a client to query an object proxy, or handler, for multiple interfaces b
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultiQI</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMultiQI</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMultiQI</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMultiQI</b> also has these types of members:
 
-## -members
-
-The <b>IMultiQI</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-imultiqi-querymultipleinterfaces">QueryMultipleInterfaces</a>
-</td>
-<td align="left" width="63%">
-Retrieves pointers to multiple supported interfaces on an object.
-
-</td>
-</tr>
-</table>

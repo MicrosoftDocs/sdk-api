@@ -3,12 +3,10 @@ UID: NF:diagnosticdataquery.DdqIsDiagnosticRecordSampledIn
 title: DdqIsDiagnosticRecordSampledIn
 ms.date: 8/19/2019
 ms.keywords: DdqIsDiagnosticRecordSampledIn
-ms.topic: language-reference
 description: Fetches the sampled-in state of the device for an event.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -31,7 +29,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - diagnosticdataquery.h
 api_name:

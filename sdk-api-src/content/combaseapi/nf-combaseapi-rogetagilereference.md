@@ -56,7 +56,7 @@ Creates an agile reference for an object specified by the given interface.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param options [in]
 
 The registration options.
 

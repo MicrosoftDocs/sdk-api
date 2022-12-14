@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.ResumeTimer
 title: IFileOperationProgressSink::ResumeTimer (shobjidl_core.h)
-description: Not supported.
+description: Not supported. (IFileOperationProgressSink.ResumeTimer)
 helpviewer_keywords: ["IFileOperationProgressSink interface [Windows Shell]","ResumeTimer method","IFileOperationProgressSink.ResumeTimer","IFileOperationProgressSink::ResumeTimer","ResumeTimer","ResumeTimer method [Windows Shell]","ResumeTimer method [Windows Shell]","IFileOperationProgressSink interface","_shell_IFileOperationProgressSink_ResumeTimer","shell.IFileOperationProgressSink_ResumeTimer","shobjidl_core/IFileOperationProgressSink::ResumeTimer"]
 old-location: shell\IFileOperationProgressSink_ResumeTimer.htm
 tech.root: shell
@@ -52,13 +52,13 @@ api_name:
 
 Not supported.
 
-## -parameters
+
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.IVssComponent.GetDifferencedFile
 title: IVssComponent::GetDifferencedFile (vswriter.h)
-description: The GetDifferencedFile method returns information about a file set (a specified file or files) to participate in an incremental or differential backup or restore as a differenced file�that is, backup and restores associated with it are to be implemented as if entire files are copied to and from backup media (as opposed to using partial files).
+description: The GetDifferencedFile method returns information about a file set (a specified file or files) to participate in an incremental or differential backup or restore as a differenced file that is, backup and restores associated with it are to be implemented as if entire files are copied to and from backup media (as opposed to using partial files).
 helpviewer_keywords: ["GetDifferencedFile","GetDifferencedFile method [VSS]","GetDifferencedFile method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetDifferencedFile method","IVssComponent.GetDifferencedFile","IVssComponent::GetDifferencedFile","_win32_ivsscomponent_getdifferencedfile","base.ivsscomponent_getdifferencedfile","vswriter/IVssComponent::GetDifferencedFile"]
 old-location: base\ivsscomponent_getdifferencedfile.htm
 tech.root: base
@@ -74,7 +74,7 @@ The address of a caller-allocated variable that receives a string containing the
       
 
 Users of this method need to check to determine whether this path ends with a backslash 
-       (\).
+       (\\).
 
 ### -param pbstrFilespec [out]
 

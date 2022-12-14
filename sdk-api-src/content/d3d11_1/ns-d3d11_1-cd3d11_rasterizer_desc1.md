@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11_1.CD3D11_RASTERIZER_DESC1
 title: CD3D11_RASTERIZER_DESC1 (d3d11_1.h)
-description: Describes rasterizer state.
+description: The CD3D11_RASTERIZER_DESC1 (d3d11_1.h) structure describes rasterizer state.
 helpviewer_keywords: ["CD3D11_RASTERIZER_DESC1","D3D11_RASTERIZER_DESC1","D3D11_RASTERIZER_DESC1 structure [Direct3D 11]","d3d11_1/D3D11_RASTERIZER_DESC1","direct3d11.d3d11_rasterizer_desc1"]
 old-location: direct3d11\d3d11_rasterizer_desc1.htm
 tech.root: direct3d11
 ms.assetid: 7A0E526E-9352-408F-8B11-1B7A9FBC2BE1
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: CD3D11_RASTERIZER_DESC1, D3D11_RASTERIZER_DESC1, D3D11_RASTERIZER_DESC1 structure [Direct3D 11], d3d11_1/D3D11_RASTERIZER_DESC1, direct3d11.d3d11_rasterizer_desc1
 req.header: d3d11_1.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 <div class="alert"><b>Note</b>  This structure is supported by the Direct3D 11.1 runtime, which is available on Windows 8 and later operating systems.</div><div> </div>Describes rasterizer state.
 
+## -struct-fields
+
 ## -remarks
 
 AntialiasedLineEnable
@@ -83,12 +85,16 @@ Specifies whether to enable clipping based on distance.
 
 The hardware always performs x and y clipping of rasterized coordinates. When <b>DepthClipEnable</b> is set to the default–<b>TRUE</b>, the hardware also clips the z value (that is, the hardware performs the last step of the following algorithm).
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 0 &lt; w
 -w &lt;= x &lt;= w (or arbitrarily wider range if implementation uses a guard band to reduce clipping burden)
 -w &lt;= y &lt;= w (or arbitrarily wider range if implementation uses a guard band to reduce clipping burden)
 0 &lt;= z &lt;= w
-</code></pre>
+
+```
+
 When you set <b>DepthClipEnable</b> to <b>FALSE</b>, the hardware skips the z clipping (that is, the last step in the preceding algorithm). However, the hardware still performs the "0 &lt; w" clipping. When z clipping is disabled, improper depth ordering at the pixel level might result. However, when z clipping is disabled, stencil shadow implementations are simplified. In other words, you can avoid complex special-case handling for geometry that goes beyond the back clipping plane.
 
 FillMode

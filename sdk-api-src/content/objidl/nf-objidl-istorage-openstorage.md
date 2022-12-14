@@ -84,6 +84,22 @@ When successful, pointer to the location of an
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The storage object was opened successfully.|
+|E_PENDING | Asynchronous Storage only: Part or all of the storage's data is currently unavailable. |
+|STG_E_ACCESSDENIED | Not enough permissions to open storage object.|
+|STG_E_FILENOTFOUND | The storage object with the specified name does not exist.|
+|STG_E_INSUFFICIENTMEMORY | The storage object was not opened due to a lack of memory.|
+|STG_E_INVALIDFLAG | The value specified for the *grfMode* parameter is not a valid **STGM** constants value.|
+|STG_E_INVALIDFUNCTION | The specified combination of flags in the *grfMode* parameter is not supported.|
+|STG_E_INVALIDNAME | Not a valid value for *pwcsName*.|
+|STG_E_INVALIDPOINTER | The pointer specified for the storage object was not valid.|
+|STG_E_INVALIDPARAMETER | One of the parameters was not valid.|
+|STG_E_REVERTED | The storage object has been invalidated by a revert operation above it in the transaction tree.|
+|STG_E_TOOMANYOPENFILES | The storage object was not created because there are too many open files.|
+|STG_S_CONVERTED | The existing stream with the specified name was replaced with a new storage object containing a single stream called CONTENTS. In direct mode, the new storage is immediately written to disk. In transacted mode, the new storage is written to a temporary storage in memory and later written to disk when it is committed.|
+
 ## -remarks
 
 If the <i>pstgPriority</i> parameter is <b>NULL</b>, it is ignored. If the <i>pstgPriority</i> parameter is not <b>NULL</b>, it is an 

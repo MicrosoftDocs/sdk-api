@@ -54,15 +54,15 @@ Callback flags for notifying a sync provider that a placeholder was successfully
 
 ## -enum-fields
 
-### -field CF_CALLBACK_OPEN_COMPLETION_FLAG_NONE
+### -field CF_CALLBACK_OPEN_COMPLETION_FLAG_NONE:0x00000000
 
 No open completion flag.
 
-### -field CF_CALLBACK_OPEN_COMPLETION_FLAG_PLACEHOLDER_UNKNOWN
+### -field CF_CALLBACK_OPEN_COMPLETION_FLAG_PLACEHOLDER_UNKNOWN:0x00000001
 
 A flag set if the placeholder metadata is corrupted.
 
-### -field CF_CALLBACK_OPEN_COMPLETION_FLAG_PLACEHOLDER_UNSUPPORTED
+### -field CF_CALLBACK_OPEN_COMPLETION_FLAG_PLACEHOLDER_UNSUPPORTED:0x00000002
 
 A flag set if the placeholder metadata is not supported.
 

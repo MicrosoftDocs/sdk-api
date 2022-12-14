@@ -53,7 +53,7 @@ api_name:
 
 Returns a pointer to the <a href="/windows/desktop/api/xapo/ns-xapo-xapo_registration_properties">XAPO_REGISTRATION_PROPERTIES</a> structure containing the registration properties the XAPO was created with.
 
-## -parameters
+
 
 ## -returns
 

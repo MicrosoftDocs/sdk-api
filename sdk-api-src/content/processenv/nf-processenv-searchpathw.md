@@ -1,7 +1,7 @@
 ---
 UID: NF:processenv.SearchPathW
 title: SearchPathW function
-description: Searches for a specified file in a specified path.
+description: Searches for a specified file in a specified path. (Unicode)
 helpviewer_keywords: ["SearchPath","SearchPath function [Files]","SearchPathA","SearchPathW","_win32_searchpath","base.searchpath","fs.searchpath","processenv/SearchPath","processenv/SearchPathA","processenv/SearchPathW"]
 old-location: fs\searchpath.htm
 tech.root: fs
@@ -95,7 +95,7 @@ A pointer to the buffer to receive the path and file name of the file found. The
 
 A pointer to the variable to receive the address (within <i>lpBuffer</i>) of the last 
       component of the valid path and file name, which is the address of the character immediately following the final 
-      backslash (\) in the path.
+      backslash (\\) in the path.
 
 ## -returns
 

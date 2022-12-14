@@ -4,12 +4,12 @@ title: InitOnceInitialize function (synchapi.h)
 description: Initializes a one-time initialization structure.
 helpviewer_keywords: ["InitOnceInitialize","InitOnceInitialize function","base.initonceinitialize","synchapi/InitOnceInitialize","winbase/InitOnceInitialize"]
 old-location: base\initonceinitialize.htm
-tech.root: backup
+tech.root: base
 ms.assetid: f2943ac5-0e43-4f07-8941-952383e2fa08
 ms.date: 12/05/2018
 ms.keywords: InitOnceInitialize, InitOnceInitialize function, base.initonceinitialize, synchapi/InitOnceInitialize, winbase/InitOnceInitialize
 req.header: synchapi.h
-req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]

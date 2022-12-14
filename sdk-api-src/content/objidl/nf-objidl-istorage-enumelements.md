@@ -75,6 +75,14 @@ Pointer to
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The enumerator object was successfully returned.|
+|E_PENDING | Asynchronous Storage only: Part or all of the element's data is currently unavailable.|
+|STG_E_INSUFFICIENTMEMORY | The enumerator object could not be created due to lack of memory.|
+|STG_E_INVALIDPARAMETER | One of the parameters was not valid.|
+|STG_E_REVERTED | The storage object has been invalidated by a revert operation above it in the transaction tree.|
+
 ## -remarks
 
 The enumerator object returned by this method implements the 
@@ -85,8 +93,9 @@ The enumerator object returned by this method implements the
 
 The storage object must be open in read mode to allow the enumeration of its elements.
 
-The order in which the elements are enumerated and whether the enumerator is a snapshot or always reflects the current state of the storage object, and depends on the 
-<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> implementation.
+The enumerator object is permitted to enumerate the elements in any order.
+The enumerator object is also permitted to treat the enumeration as a snapshot
+or to have the enumeration reflect the current state of the storage object.
 
 ## -see-also
 

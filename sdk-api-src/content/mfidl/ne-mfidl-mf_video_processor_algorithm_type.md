@@ -56,11 +56,11 @@ Defines algorithms for the video processor which is use by <a href="/windows/des
 
 ## -enum-fields
 
-### -field MF_VIDEO_PROCESSOR_ALGORITHM_DEFAULT
+### -field MF_VIDEO_PROCESSOR_ALGORITHM_DEFAULT:0
 
 default mode favors a balance of quality and speed
 
-### -field MF_VIDEO_PROCESSOR_ALGORITHM_MRF_CRF_444
+### -field MF_VIDEO_PROCESSOR_ALGORITHM_MRF_CRF_444:1
 
 The video processor will always internally process in AYUV and use high quality filters.
 

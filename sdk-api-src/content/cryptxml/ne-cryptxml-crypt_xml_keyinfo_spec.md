@@ -54,14 +54,14 @@ The <b>CRYPT_XML_KEYINFO_SPEC</b> enumeration specifies values for the <i>dwKeyI
 
 ## -enum-fields
 
-### -field CRYPT_XML_KEYINFO_SPEC_NONE
+### -field CRYPT_XML_KEYINFO_SPEC_NONE:0
 
 The value of the <b>KeyInfo</b> member in the <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_signature">CRYPT_XML_SIGNATURE</a> structure is null.
 
-### -field CRYPT_XML_KEYINFO_SPEC_ENCODED
+### -field CRYPT_XML_KEYINFO_SPEC_ENCODED:1
 
 The value of the encoded <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_info">CRYPT_XML_KEY_INFO</a> structure is specified in a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure pointed to in the <i>pvKeyInfoSpec</i> parameter.
 
-### -field CRYPT_XML_KEYINFO_SPEC_PARAM
+### -field CRYPT_XML_KEYINFO_SPEC_PARAM:2
 
 The members  of the <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_info">CRYPT_XML_KEY_INFO</a> structure to be encoded are specified in a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_keyinfo_param">CRYPT_XML_KEYINFO_PARAM</a> structure pointed by the <i>pvKeyInfoSpec</i> parameter.

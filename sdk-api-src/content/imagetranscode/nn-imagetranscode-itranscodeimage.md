@@ -54,26 +54,5 @@ Exposes a method that allows conversion to JPEG or bitmap (BMP) image formats fr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITranscodeImage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITranscodeImage</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITranscodeImage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITranscodeImage</b> also has these types of members:
 
-## -members
-
-The <b>ITranscodeImage</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imagetranscode/nf-imagetranscode-itranscodeimage-transcodeimage">TranscodeImage</a>
-</td>
-<td align="left" width="63%">
-Converts an image to JPEG or BMP image format.
-
-</td>
-</tr>
-</table>

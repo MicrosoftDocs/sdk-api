@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextRenderer.DrawGlyphRun
 title: IDWriteTextRenderer::DrawGlyphRun (dwrite.h)
-description: IDWriteTextLayout::Draw calls this function to instruct the client to render a run of glyphs.
+description: IDWriteTextLayout::Draw calls this function to instruct the client to render a run of glyphs. (IDWriteTextRenderer.DrawGlyphRun)
 helpviewer_keywords: ["DrawGlyphRun","DrawGlyphRun method [Direct Write]","DrawGlyphRun method [Direct Write]","IDWriteTextRenderer interface","IDWriteTextRenderer interface [Direct Write]","DrawGlyphRun method","IDWriteTextRenderer.DrawGlyphRun","IDWriteTextRenderer::DrawGlyphRun","directwrite.IDWriteTextRenderer_DrawGlyphRun","dwrite/IDWriteTextRenderer::DrawGlyphRun"]
 old-location: directwrite\IDWriteTextRenderer_DrawGlyphRun.htm
 tech.root: DirectWrite
@@ -103,7 +103,7 @@ Application-defined drawing effects for the glyphs to render. Usually this argum
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

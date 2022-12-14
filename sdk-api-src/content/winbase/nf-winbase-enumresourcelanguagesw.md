@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.EnumResourceLanguagesW
 title: EnumResourceLanguagesW function (winbase.h)
-description: Enumerates language-specific resources, of the specified type and name, associated with a binary module.
+description: Enumerates language-specific resources, of the specified type and name, associated with a binary module. (Unicode)
 helpviewer_keywords: ["EnumResourceLanguages","EnumResourceLanguages function [Menus and Other Resources]","EnumResourceLanguagesA","EnumResourceLanguagesW","_win32_EnumResourceLanguages","_win32_enumresourcelanguages_cpp","menurc.enumresourcelanguages","winbase/EnumResourceLanguages","winbase/EnumResourceLanguagesA","winbase/EnumResourceLanguagesW","winui._win32_enumresourcelanguages"]
 old-location: menurc\enumresourcelanguages.htm
 tech.root: menurc
@@ -70,9 +70,7 @@ If this parameter is <b>NULL</b>, that is equivalent to passing in a handle to t
 
 Type: <b>LPCTSTR</b>
 
-The type of resource for which the language is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">Resource Types</a>. For more information, see 
-
-the Remarks section below.
+The type of resource for which the language is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">Resource Types</a>. For more information, see the Remarks section below.
 
 ### -param lpName [in]
 
@@ -100,13 +98,9 @@ Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended err
 
 ## -remarks
 
-If <a href="/windows/desktop/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a>(<i>lpType</i>) is <b>TRUE</b>, then <i>lpType</i> specifies the integer identifier of the given resource type. Otherwise, it is a pointer to a null-terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the 
+If <a href="/windows/desktop/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a>(<i>lpType</i>) is <b>TRUE</b>, then <i>lpType</i> specifies the integer identifier of the given resource type. Otherwise, it is a pointer to a null-terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the integer identifier of the resource type. For example, the string "#258" represents the identifier 258.
 
-integer identifier of the resource type. For example, the string "#258" represents the identifier 258.
-
-Similarly, if <a href="/windows/desktop/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a>(<i>lpName</i>) is <b>TRUE</b>, then <i>lpName</i> specifies the integer identifier of the given resource. Otherwise, it is a pointer to a null-terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the 
-
-integer identifier of the resource.
+Similarly, if <a href="/windows/desktop/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a>(<i>lpName</i>) is <b>TRUE</b>, then <i>lpName</i> specifies the integer identifier of the given resource. Otherwise, it is a pointer to a null-terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the integer identifier of the resource.
 
 Starting with Windows Vista, the binary module is typically a <a href="/windows/desktop/Intl/mui-resource-management">language-neutral Portable Executable</a> (LN file), and the enumeration will also include resources from the corresponding language-specific resource files (.mui files) that contain localizable language resources.
 
@@ -116,7 +110,7 @@ Alternately, applications can call <a href="/windows/desktop/api/rrascfg/nf-rras
 
 The <b>EnumResourceLanguages</b> function continues to enumerate resource languages until the callback function returns <b>FALSE</b> or all resource languages have been enumerated.
 
-In Windows Vista and later, if  <i>hModule</i> specifies an LN file, then the resources enumerated can reside either in the LN file or in an .mui file associated with it.  If no .mui files are found, only resources from the LN file are returned.  Unlike <a href="/windows/desktop/api/winbase/nf-winbase-enumresourcenamesa">EnumResourceNames</a> and <a href="/windows/desktop/api/winbase/nf-winbase-enumresourcetypesa">EnumResourceTypes</a>, this search will look at multiple .mui files. The enumeration begins with .mui files in the folders associated with <a href="/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a>. These are followed by any other .mui files whose paths conform to the scheme described at <a href="/windows/desktop/Intl/mui-resource-management">MUI Resource Management</a>. Finally, the file designated by <i>hModule</i> is also searched.
+In Windows Vista and later, if  <i>hModule</i> specifies an LN file, then the resources enumerated can reside either in the LN file or in an .mui file associated with it.  If no .mui files are found, only resources from the LN file are returned.  Unlike <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesa">EnumResourceNames</a> and <a href="/windows/desktop/api/winbase/nf-winbase-enumresourcetypesa">EnumResourceTypes</a>, this search will look at multiple .mui files. The enumeration begins with .mui files in the folders associated with <a href="/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a>. These are followed by any other .mui files whose paths conform to the scheme described at <a href="/windows/desktop/Intl/mui-resource-management">MUI Resource Management</a>. Finally, the file designated by <i>hModule</i> is also searched.
 
 The enumeration never includes duplicates: if a resource with the same name, type, and language is contained in both the LN file and in an .mui file, the resource will only be enumerated once.
 
@@ -147,7 +141,7 @@ For an example, see <a href="/windows/desktop/menurc/using-resources">Creating a
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-enumresourcenamesa">EnumResourceNames</a>
+<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesa">EnumResourceNames</a>
 
 
 

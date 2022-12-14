@@ -52,7 +52,7 @@ api_name:
 
 The <b>Run</b> method runs the filter graph.
 
-## -parameters
+
 
 ## -returns
 

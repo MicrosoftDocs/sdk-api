@@ -54,31 +54,31 @@ The <b>DHCP_POLICY_FIELDS_TO_UPDATE</b> enumeration defines which properties of 
 
 ## -enum-fields
 
-### -field DhcpUpdatePolicyName
+### -field DhcpUpdatePolicyName:0x00000001
 
 Update DHCP server policy name.
 
-### -field DhcpUpdatePolicyOrder
+### -field DhcpUpdatePolicyOrder:0x00000002
 
 Update DHCP server policy order.
 
-### -field DhcpUpdatePolicyExpr
+### -field DhcpUpdatePolicyExpr:0x00000004
 
 Update DHCP server policy expression.
 
-### -field DhcpUpdatePolicyRanges
+### -field DhcpUpdatePolicyRanges:0x00000008
 
 Update DHCP server policy ranges.
 
-### -field DhcpUpdatePolicyDescr
+### -field DhcpUpdatePolicyDescr:0x00000010
 
 Update DHCP server policy description.
 
-### -field DhcpUpdatePolicyStatus
+### -field DhcpUpdatePolicyStatus:0x00000020
 
 Update DHCP server policy enabled/disabled status.
 
-### -field DhcpUpdatePolicyDnsSuffix
+### -field DhcpUpdatePolicyDnsSuffix:0x00000040
 
 ## -see-also
 

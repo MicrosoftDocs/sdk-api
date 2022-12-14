@@ -1,7 +1,7 @@
 ---
 UID: NN:propsys.IPersistSerializedPropStorage2
 title: IPersistSerializedPropStorage2 (propsys.h)
-description: Exposes methods to persist serialized property storage data for later use and to restore persisted data to a new property store instance.
+description: Exposes methods to persist serialized property storage data for later use and to restore persisted data to a new property store instance. (IPersistSerializedPropStorage2)
 helpviewer_keywords: ["IPersistSerializedPropStorage2","IPersistSerializedPropStorage2 interface [Windows Shell]","IPersistSerializedPropStorage2 interface [Windows Shell]","described","_shell_IPersistSerializedPropStorage2","propsys/IPersistSerializedPropStorage2","shell.IPersistSerializedPropStorage2"]
 old-location: shell\IPersistSerializedPropStorage2.htm
 tech.root: shell
@@ -54,38 +54,7 @@ Exposes methods to persist serialized property storage data for later use and to
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistSerializedPropStorage2</b> interface inherits from <a href="/windows/desktop/api/propsys/nn-propsys-ipersistserializedpropstorage">IPersistSerializedPropStorage</a>. <b>IPersistSerializedPropStorage2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPersistSerializedPropStorage2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipersistserializedpropstorage2-getpropertystoragebuffer">GetPropertyStorageBuffer</a>
-</td>
-<td align="left" width="63%">
-Gets the serialized property storage buffer from the property store instance.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipersistserializedpropstorage2-getpropertystoragesize">GetPropertyStorageSize</a>
-</td>
-<td align="left" width="63%">
-Gets the size of serialized property storage data from the property store instance.
-
-</td>
-</tr>
-</table>
+The <b>IPersistSerializedPropStorage2</b> interface inherits from <a href="/windows/desktop/api/propsys/nn-propsys-ipersistserializedpropstorage">IPersistSerializedPropStorage</a>. <b>IPersistSerializedPropStorage2</b> also has these types of members:
 
 ## -remarks
 

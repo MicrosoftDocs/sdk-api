@@ -54,27 +54,27 @@ Specifies the state of a tree item. These values are used by methods of the <a h
 
 ## -enum-fields
 
-### -field NSTCIS_NONE
+### -field NSTCIS_NONE:0
 
 The item has default state; it is not selected, expanded, bolded or disabled.
 
-### -field NSTCIS_SELECTED
+### -field NSTCIS_SELECTED:0x1
 
 The item is selected.
 
-### -field NSTCIS_EXPANDED
+### -field NSTCIS_EXPANDED:0x2
 
 The item is expanded.
 
-### -field NSTCIS_BOLD
+### -field NSTCIS_BOLD:0x4
 
 The item is bold.
 
-### -field NSTCIS_DISABLED
+### -field NSTCIS_DISABLED:0x8
 
 The item is disabled.
 
-### -field NSTCIS_SELECTEDNOEXPAND
+### -field NSTCIS_SELECTEDNOEXPAND:0x10
 
 <b>Windows 7 and later</b>. The item is selected, but not expanded.
 

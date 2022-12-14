@@ -54,53 +54,5 @@ The <b>IEnumTfUIElements</b> interface is implemented by TSF manager and used by
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTfUIElements</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTfUIElements</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IEnumTfUIElements</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTfUIElements</b> also has these types of members:
 
-## -members
-
-The <b>IEnumTfUIElements</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-ienumtfuielements-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a copy of the enumerator object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-ienumtfuielements-next">Next</a>
-</td>
-<td align="left" width="63%">
-Obtains, from the current position, the specified number of elements in the enumeration sequence.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-ienumtfuielements-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-ienumtfuielements-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Moves the current position forward in the enumeration sequence by the specified number of elements.
-
-</td>
-</tr>
-</table>

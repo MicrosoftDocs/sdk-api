@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.SetICMProfileA
 title: SetICMProfileA function (wingdi.h)
-description: The SetICMProfile function sets a specified color profile as the output profile for a specified device context (DC).
+description: The SetICMProfile function sets a specified color profile as the output profile for a specified device context (DC). (ANSI)
 helpviewer_keywords: ["SetICMProfile","SetICMProfile function [Windows Color System]","SetICMProfileA","SetICMProfileW","_color_SetICMProfile","wcs.seticmprofile","wingdi/SetICMProfile","wingdi/SetICMProfileA","wingdi/SetICMProfileW"]
 old-location: wcs\seticmprofile.htm
 tech.root: WCS
@@ -91,16 +91,7 @@ Note that under Windows 95 or later, the PostScript device driver for printers a
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
-
-
-
-<a href="/windows/desktop/api/wingdi/nf-wingdi-enumicmprofilesa">EnumICMProfiles</a>
-
-
-
-<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>
-
-
-
-<a href="/windows/desktop/api/wingdi/nf-wingdi-geticmprofilea">GetICMProfile</a>
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Functions](/windows/win32/wcs/functions)
+* [EnumICMProfilesW](/windows/win32/api/wingdi/nf-wingdi-enumicmprofilesw)
+* [GetICMProfileW](/windows/win32/api/wingdi/nf-wingdi-geticmprofilew)

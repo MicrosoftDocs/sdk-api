@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiProcessAdvertiseScriptW
 title: MsiProcessAdvertiseScriptW function (msi.h)
-description: The MsiProcessAdvertiseScript function processes an advertise script file into the specified locations.
+description: The MsiProcessAdvertiseScript function processes an advertise script file into the specified locations. (Unicode)
 helpviewer_keywords: ["MsiProcessAdvertiseScript","MsiProcessAdvertiseScript function","MsiProcessAdvertiseScriptA","MsiProcessAdvertiseScriptW","_msi_msiprocessadvertisescript","msi/MsiProcessAdvertiseScript","msi/MsiProcessAdvertiseScriptA","msi/MsiProcessAdvertiseScriptW","setup.msiprocessadvertisescript"]
 old-location: setup\msiprocessadvertisescript.htm
 tech.root: setup

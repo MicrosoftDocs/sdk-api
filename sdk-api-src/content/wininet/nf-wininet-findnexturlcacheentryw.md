@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.FindNextUrlCacheEntryW
 title: FindNextUrlCacheEntryW function (wininet.h)
-description: Retrieves the next entry in the Internet cache.
+description: Retrieves the next entry in the Internet cache. (Unicode)
 helpviewer_keywords: ["FindNextUrlCacheEntry","FindNextUrlCacheEntry function [WinINet]","FindNextUrlCacheEntryA","FindNextUrlCacheEntryW","_inet_findnexturlcacheentry_function","wininet.findnexturlcacheentry","wininet/FindNextUrlCacheEntry","wininet/FindNextUrlCacheEntryA","wininet/FindNextUrlCacheEntryW"]
 old-location: wininet\findnexturlcacheentry.htm
 tech.root: wininet

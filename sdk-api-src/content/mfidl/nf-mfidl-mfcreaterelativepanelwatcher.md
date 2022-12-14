@@ -2,7 +2,6 @@
 UID: NF:mfidl.MFCreateRelativePanelWatcher
 title: MFCreateRelativePanelWatcher
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Creates a new instance of the **IMFRelativePanelWatcher** interface
 tech.root: mf

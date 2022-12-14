@@ -47,6 +47,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - UpdateLayeredWindow
+req.apiset: ext-ms-win-ntuser-window-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # UpdateLayeredWindow function
@@ -70,19 +71,19 @@ A handle to a layered window. A layered window is created by specifying <b>WS_EX
 
 Type: <b>HDC</b>
 
-A handle to a DC for the screen. This handle is obtained by specifying <b>NULL</b> when calling the  function. It is used for palette color matching when the window contents are updated. If <i>hdcDst</i> is<b>NULL</b>, the default palette will be used.
+A handle to a DC for the screen. This handle is obtained by specifying <b>NULL</b> when calling the <a href="/windows/win32/api/winuser/nf-winuser-getdc">GetDC</a> function. It is used for palette color matching when the window contents are updated. If <i>hdcDst</i> is <b>NULL</b>, the default palette will be used.
 
 If <i>hdcSrc</i> is <b>NULL</b>, <i>hdcDst</i> must be <b>NULL</b>.
 
 ### -param pptDst [in, optional]
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a>*</b>
 
 A pointer to a structure that specifies the new screen position of the layered window. If the current position is not changing, <i>pptDst</i> can be <b>NULL</b>.
 
 ### -param psize [in, optional]
 
-Type: <b><a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-size">SIZE</a>*</b>
 
 A pointer to a structure that specifies the new size of the layered window. If the size of the window is not changing, <i>psize</i> can be <b>NULL</b>. If <i>hdcSrc</i> is <b>NULL</b>, <i>psize</i> must be <b>NULL</b>.
 
@@ -94,7 +95,7 @@ A handle to a DC for the surface that defines the layered window. This handle ca
 
 ### -param pptSrc [in, optional]
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a>*</b>
 
 A pointer to a structure that specifies the location of the layer in the device context. If <i>hdcSrc</i> is <b>NULL</b>, <i>pptSrc</i> should be <b>NULL</b>.
 

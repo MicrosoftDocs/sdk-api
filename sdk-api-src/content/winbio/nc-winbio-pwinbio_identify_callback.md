@@ -76,7 +76,7 @@ Error code returned by the capture operation.
 
 Biometric unit ID number.
 
-### -param *Identity [in]
+### -param Identity [in]
 
 A  <a href="/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that receives the GUID or SID of the user providing the biometric sample.
 

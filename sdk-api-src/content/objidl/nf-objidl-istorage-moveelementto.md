@@ -75,6 +75,21 @@ Specifies whether the operation should be a move (STGMOVE_MOVE) or a copy (STGMO
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The storage object was successfully copied or moved.|
+|E_PENDING | Asynchronous Storage only: Part or all of the element's data is currently unavailable. |
+|STG_E_ACCESSDENIED | The destination storage object is a child of the source storage object. Or, the destination object and element name are the same as the source object and element name. In other words, you cannot move an element to itself.|
+|STG_E_FILENOTFOUND | The element with the specified name does not exist.|
+|STG_E_FILEALREADYEXISTS | The specified file already exists.|
+|STG_E_INSUFFICIENTMEMORY | The copy or move was not completed due to a lack of memory.|
+|STG_E_INVALIDFLAG | The value for the *grfFlags* parameter is not valid.|
+|STG_E_INVALIDNAME | Not a valid value for *pwcsName*.|
+|STG_E_INVALIDPOINTER | The pointer specified for the storage object was not valid.|
+|STG_E_INVALIDPARAMETER | One of the parameters was not valid.|
+|STG_E_REVERTED | The storage object has been invalidated by a revert operation above it in the transaction tree.|
+|STG_E_TOOMANYOPENFILES | The copy or move was not completed because there are too many open files.|
+
 ## -remarks
 
 The <b>IStorage::MoveElementTo</b> method is typically the same as invoking the 

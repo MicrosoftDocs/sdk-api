@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateGuidArray
-title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
+title: IPropertyValueStatics::CreateGuidArray (windows.foundation.h)
 description: Creates a new IPropertyValue object that contains the specified array of Guid values.
 helpviewer_keywords: ["CreateGuidArray","CreateGuidArray method [Windows Runtime]","CreateGuidArray method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateGuidArray method","IPropertyValueStatics.CreateGuidArray","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateGuidArray","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateGuidArray","winrt.ipropertyvaluefactory_createguidarray","winrt.ipropertyvaluestatics_createguidarray"]
 old-location: winrt\ipropertyvaluestatics_createguidarray.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValueStatics.CreateGuidArray
 ---
 
-# IPropertyValueStatics::IPropertyValueStatics
+# IPropertyValueStatics::CreateGuidArray (windows.foundation.h)
 
 
 ## -description
@@ -76,7 +76,7 @@ A pointer to a new object that contains <i>value</i>. Use the <a href="/windows/
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

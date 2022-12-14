@@ -1,7 +1,7 @@
 ---
 UID: NF:cluadmex.IGetClusterUIInfo.GetClusterName
 title: IGetClusterUIInfo::GetClusterName (cluadmex.h)
-description: Returns the name of the cluster.
+description: Returns the name of the cluster. (IGetClusterUIInfo.GetClusterName)
 helpviewer_keywords: ["GetClusterName","GetClusterName method [Failover Cluster]","GetClusterName method [Failover Cluster]","IGetClusterUIInfo interface","IGetClusterUIInfo interface [Failover Cluster]","GetClusterName method","IGetClusterUIInfo.GetClusterName","IGetClusterUIInfo::GetClusterName","_wolf_igetclusteruiinfo_getclustername","cluadmex/IGetClusterUIInfo::GetClusterName","mscs.igetclusteruiinfo_getclustername"]
 old-location: mscs\igetclusteruiinfo_getclustername.htm
 tech.root: MsCS

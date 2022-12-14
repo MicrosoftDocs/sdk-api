@@ -1,7 +1,7 @@
 ---
 UID: NF:dsgetdc.DsGetSiteNameW
 title: DsGetSiteNameW function (dsgetdc.h)
-description: The DsGetSiteName function returns the name of the site where a computer resides.
+description: The DsGetSiteName function returns the name of the site where a computer resides. (Unicode)
 helpviewer_keywords: ["DsGetSiteName","DsGetSiteName function [Active Directory]","DsGetSiteNameA","DsGetSiteNameW","_glines_dsgetsitename","ad.dsgetsitename","dsgetdc/DsGetSiteName","dsgetdc/DsGetSiteNameA","dsgetdc/DsGetSiteNameW"]
 old-location: ad\dsgetsitename.htm
 tech.root: ad

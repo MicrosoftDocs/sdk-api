@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsSubSystemInterconnect
 title: IVdsSubSystemInterconnect (vds.h)
-description: Provides a method to query the interconnect types that are supported by a subsystem.
+description: The IVdsSubSystemInterconnect interface (vds.h) provides a method to query the interconnect types that are supported by a subsystem. 
 helpviewer_keywords: ["IVdsSubSystemInterconnect","IVdsSubSystemInterconnect interface","IVdsSubSystemInterconnect interface","described","base.ivdssubsysteminterconnect","vds/IVdsSubSystemInterconnect","vdshwprv/IVdsSubSystemInterconnect"]
 old-location: base\ivdssubsysteminterconnect.htm
 tech.root: base
 ms.assetid: d690827a-4608-4d02-a3bb-5cdb5073b0ad
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsSubSystemInterconnect, IVdsSubSystemInterconnect interface, IVdsSubSystemInterconnect interface,described, base.ivdssubsysteminterconnect, vds/IVdsSubSystemInterconnect, vdshwprv/IVdsSubSystemInterconnect
 req.header: vds.h
 req.include-header: 
@@ -57,26 +57,5 @@ Provides a method to query the interconnect types that are supported by a subsys
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsSubSystemInterconnect</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsSubSystemInterconnect</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVdsSubSystemInterconnect</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsSubSystemInterconnect</b> also has these types of members:
 
-## -members
-
-The <b>IVdsSubSystemInterconnect</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsysteminterconnect-getsupportedinterconnects">GetSupportedInterconnects</a>
-</td>
-<td align="left" width="63%">
-Returns the interconnect types that the subsystem supports.
-
-</td>
-</tr>
-</table>

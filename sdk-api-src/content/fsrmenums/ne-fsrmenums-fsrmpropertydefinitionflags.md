@@ -56,15 +56,15 @@ Flags the describe the type of classification property.
 
 ## -enum-fields
 
-### -field FsrmPropertyDefinitionFlags_Global
+### -field FsrmPropertyDefinitionFlags_Global:0x1
 
 The FSRM classification property definition is defined globally, using group policy.
 
-### -field FsrmPropertyDefinitionFlags_Deprecated
+### -field FsrmPropertyDefinitionFlags_Deprecated:0x2
 
 The FSRM classification property definition is deprecated.
 
-### -field FsrmPropertyDefinitionFlags_Secure
+### -field FsrmPropertyDefinitionFlags_Secure:0x4
 
 The FSRM classification property definition is used for security purposes.
 

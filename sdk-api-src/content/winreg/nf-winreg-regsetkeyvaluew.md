@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegSetKeyValueW
 title: RegSetKeyValueW function (winreg.h)
-description: Sets the data for the specified value in the specified registry key and subkey.
+description: Sets the data for the specified value in the specified registry key and subkey. (Unicode)
 helpviewer_keywords: ["RegSetKeyValue","RegSetKeyValue function","RegSetKeyValueA","RegSetKeyValueW","base.regsetkeyvalue","winreg/RegSetKeyValue","winreg/RegSetKeyValueA","winreg/RegSetKeyValueW"]
 old-location: base\regsetkeyvalue.htm
 tech.root: winprog
@@ -75,7 +75,7 @@ This handle is returned by the
 <a href="/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:
 
 
-<pre xml:space="preserve"><b></b>
+<pre><b></b>
    <b>HKEY_CLASSES_ROOT</b>
    <b>HKEY_CURRENT_CONFIG</b>
    <b>HKEY_CURRENT_USER</b>
@@ -84,7 +84,9 @@ This handle is returned by the
 
 ### -param lpSubKey [in, optional]
 
-The name of a key and a subkey to the key identified by <i>hKey</i>. If this parameter is <b>NULL</b>, then this value is created in the key using the <i>hKey</i> value and the key gets a default security descriptor.
+The name of the subkey relative to the key identified by <i>hKey</i>.
+If the subkey does not exist, it is created as a non-volatile key with a default security descriptor.
+If this parameter is <b>NULL</b>, then the value is created in the key specified by <i>hKey</i>.
 
 ### -param lpValueName [in, optional]
 

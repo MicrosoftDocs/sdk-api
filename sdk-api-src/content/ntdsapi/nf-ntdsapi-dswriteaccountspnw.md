@@ -1,7 +1,7 @@
 ---
 UID: NF:ntdsapi.DsWriteAccountSpnW
 title: DsWriteAccountSpnW function (ntdsapi.h)
-description: Writes an array of service principal names (SPNs) to the servicePrincipalName attribute of a specified user or computer account object in Active Directory Domain Services.
+description: Writes an array of service principal names (SPNs) to the servicePrincipalName attribute of a specified user or computer account object in Active Directory Domain Services. (Unicode)
 helpviewer_keywords: ["DsWriteAccountSpn","DsWriteAccountSpn function [Active Directory]","DsWriteAccountSpnA","DsWriteAccountSpnW","_glines_dswriteaccountspn","ad.dswriteaccountspn","ntdsapi/DsWriteAccountSpn","ntdsapi/DsWriteAccountSpnA","ntdsapi/DsWriteAccountSpnW"]
 old-location: ad\dswriteaccountspn.htm
 tech.root: ad

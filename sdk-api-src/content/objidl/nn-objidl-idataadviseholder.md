@@ -56,56 +56,7 @@ Advise sinks are objects that require notification of change in the data the obj
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataAdviseHolder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDataAdviseHolder</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDataAdviseHolder</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-idataadviseholder-advise">Advise</a>
-</td>
-<td align="left" width="63%">
-Creates a connection between an advise sink and a data object so the advise sink can receive notification of change in the data object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-idataadviseholder-enumadvise">EnumAdvise</a>
-</td>
-<td align="left" width="63%">
-Returns an object that can be used to enumerate the current advisory connections.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-idataadviseholder-sendondatachange">SendOnDataChange</a>
-</td>
-<td align="left" width="63%">
-Sends a change notification back to each advise sink that is currently being managed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-idataadviseholder-unadvise">Unadvise</a>
-</td>
-<td align="left" width="63%">
-Destroys a notification connection previously set up with the <a href="/windows/desktop/api/objidl/nf-objidl-idataadviseholder-advise">Advise</a> method.
-
-</td>
-</tr>
-</table>
+The <b>IDataAdviseHolder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDataAdviseHolder</b> also has these types of members:
 
 ## -see-also
 

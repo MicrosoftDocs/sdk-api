@@ -50,9 +50,8 @@ api_name:
 
 ## -description
 
-Represents a DirectML operator. The **IDMLOperator** interface inherits from [IDMLDeviceChild](/windows/desktop/api/directml/nn-directml-idmldevicechild).
+Represents a DirectML operator. The **IDMLOperator** interface inherits from [IDMLDeviceChild](/windows/win32/api/directml/nn-directml-idmldevicechild).
 
 ## -see-also
 
-[IDMLDeviceChild](/windows/desktop/api/directml/nn-directml-idmldevicechild)
-
+[IDMLDeviceChild](/windows/win32/api/directml/nn-directml-idmldevicechild)

@@ -1,7 +1,7 @@
 ---
 UID: NF:pdh.PdhEnumObjectItemsW
 title: PdhEnumObjectItemsW function (pdh.h)
-description: Returns the specified object's counter and instance names that exist on the specified computer or in the specified log file. To use handles to data sources, use the PdhEnumObjectItemsH function.
+description: Returns the specified object's counter and instance names that exist on the specified computer or in the specified log file. To use handles to data sources, use the PdhEnumObjectItemsH function. (Unicode)
 helpviewer_keywords: ["PERF_DETAIL_ADVANCED","PERF_DETAIL_EXPERT","PERF_DETAIL_NOVICE","PERF_DETAIL_WIZARD","PdhEnumObjectItems","PdhEnumObjectItems function [Perf]","PdhEnumObjectItemsA","PdhEnumObjectItemsW","_win32_pdhenumobjectitems","base.pdhenumobjectitems","pdh/PdhEnumObjectItems","pdh/PdhEnumObjectItemsA","pdh/PdhEnumObjectItemsW","perf.pdhenumobjectitems"]
 old-location: perf\pdhenumobjectitems.htm
 tech.root: perf
@@ -82,7 +82,7 @@ If the <i>szDataSource</i> parameter is <b>NULL</b>, you can set <i>szMachineNam
 
 ### -param mszCounterList [out]
 
-Caller-allocated buffer that receives a list of <b>null</b>-terminated counter names provided by the specified object. The list contains unique counter names. The list is terminated by two <b>NULL</b> characters. Set to <b>NULL</b> if the <i>pcchCounterListLength</i>parameter is zero.
+Caller-allocated buffer that receives a list of <b>null</b>-terminated counter names provided by the specified object. The list contains unique counter names. The list is terminated by two <b>NULL</b> characters. Set to <b>NULL</b> if the <i>pcchCounterListLength</i> parameter is zero.
 
 ### -param pcchCounterListLength [in, out]
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegDeleteTreeW
 title: RegDeleteTreeW function (winreg.h)
-description: Deletes the subkeys and values of the specified key recursively.
+description: Deletes the subkeys and values of the specified key recursively. (Unicode)
 helpviewer_keywords: ["RegDeleteTree","RegDeleteTree function","RegDeleteTreeA","RegDeleteTreeW","base.regdeletetree","winreg/RegDeleteTree","winreg/RegDeleteTreeA","winreg/RegDeleteTreeW"]
 old-location: base\regdeletetree.htm
 tech.root: winprog
@@ -69,9 +69,12 @@ Deletes the subkeys and values of the specified key recursively.
 A handle to an open registry key. The key must have been opened with the following access rights: DELETE, KEY_ENUMERATE_SUB_KEYS, and KEY_QUERY_VALUE. For more information, see 
 <a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
-This handle is returned by the 
-<a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a> or 
-<a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a> function, or it can be one of the following 
+This handle is returned by the
+<a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>,
+<a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a>,
+<a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>, or
+<a href="/windows/desktop/api/winreg/nf-winreg-regopenkeytransacteda">RegOpenKeyTransacted</a> function,
+or it can be one of the following 
 <a href="/windows/desktop/SysInfo/predefined-keys">Predefined Keys</a>:<dl>
 <dd><b>HKEY_CLASSES_ROOT</b></dd>
 <dd><b>HKEY_CURRENT_CONFIG</b></dd>
@@ -110,10 +113,8 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 <a href="/windows/desktop/api/winreg/nf-winreg-regdeletekeya">RegDeleteKey</a>
 
-
-
 <a href="/windows/desktop/api/winreg/nf-winreg-regdeletekeyexa">RegDeleteKeyEx</a>
 
-
+<a href="/windows/desktop/api/winreg/nf-winreg-regdeletekeytransacteda">RegDeleteKeyTransacted</a>
 
 <a href="/windows/desktop/SysInfo/registry-functions">Registry Functions</a>

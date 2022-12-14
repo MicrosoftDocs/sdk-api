@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupInstallServicesFromInfSectionW
 title: SetupInstallServicesFromInfSectionW function (setupapi.h)
-description: The SetupInstallServicesFromInfSection function performs service installation and deletion operations that are specified in the Service Install sections listed in the Service section of an INF file.
+description: The SetupInstallServicesFromInfSection function performs service installation and deletion operations that are specified in the Service Install sections listed in the Service section of an INF file. (Unicode)
 helpviewer_keywords: ["SPSVCINST_CLOBBER_SECURITY","SPSVCINST_DELETEEVENTLOGENTRY","SPSVCINST_NOCLOBBER_DEPENDENCIES","SPSVCINST_NOCLOBBER_DESCRIPTION","SPSVCINST_NOCLOBBER_DISPLAYNAME","SPSVCINST_NOCLOBBER_ERRORCONTROL","SPSVCINST_NOCLOBBER_LOADORDERGROUP","SPSVCINST_NOCLOBBER_REQUIREDPRIVILEGES","SPSVCINST_NOCLOBBER_STARTTYPE","SPSVCINST_STARTSERVICE","SPSVCINST_STOPSERVICE","SPSVCINST_TAGTOFRONT","SetupInstallServicesFromInfSection","SetupInstallServicesFromInfSection function [Setup API]","SetupInstallServicesFromInfSectionA","SetupInstallServicesFromInfSectionW","_setupapi_setupinstallservicesfrominfsection","setup.setupinstallservicesfrominfsection","setupapi/SetupInstallServicesFromInfSection","setupapi/SetupInstallServicesFromInfSectionA","setupapi/SetupInstallServicesFromInfSectionW"]
 old-location: setup\setupinstallservicesfrominfsection.htm
 tech.root: setup
@@ -47,6 +47,7 @@ api_name:
  - SetupInstallServicesFromInfSection
  - SetupInstallServicesFromInfSectionA
  - SetupInstallServicesFromInfSectionW
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupInstallServicesFromInfSectionW function

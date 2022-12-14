@@ -55,7 +55,7 @@ api_name:
 
 Stops adding ink to the <a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> object.
 
-## -parameters
+
 
 ## -returns
 
@@ -126,7 +126,7 @@ Incremental recognition is the ability of the recognizer to process only a small
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846801(v=VS.85).aspx">IInkRecognizerContext</a>
+<a href="../msinkaut/nn-msinkaut-iinkrecognizercontext.md">IInkRecognizerContext</a>
 
 
 

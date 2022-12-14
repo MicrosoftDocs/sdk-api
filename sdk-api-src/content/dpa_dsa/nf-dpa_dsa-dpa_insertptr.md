@@ -1,7 +1,7 @@
 ---
 UID: NF:dpa_dsa.DPA_InsertPtr
 title: DPA_InsertPtr function (dpa_dsa.h)
-description: Inserts a new item at a specified position in a dynamic pointer array (DPA). If neccessary, the DPA expands to accommodate the new item.
+description: Inserts a new item at a specified position in a dynamic pointer array (DPA). If necessary, the DPA expands to accommodate the new item.
 helpviewer_keywords: ["DPA_InsertPtr","DPA_InsertPtr function [Windows Controls]","_win32_DPA_InsertPtr","_win32_DPA_InsertPtr_cpp","controls.DPA_InsertPtr","controls._win32_DPA_InsertPtr","dpa_dsa/DPA_InsertPtr"]
 old-location: controls\DPA_InsertPtr.htm
 tech.root: Controls
@@ -43,6 +43,7 @@ api_location:
  - ComCtl32.dll
 api_name:
  - DPA_InsertPtr
+req.apiset: ext-ms-win-shell-comctl32-da-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # DPA_InsertPtr function
@@ -52,7 +53,7 @@ api_name:
 
 <p class="CCE_Message">[<b>DPA_InsertPtr</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Inserts a new item at a specified position in a dynamic pointer array (DPA). If neccessary, the DPA expands to accommodate the new item.
+Inserts a new item at a specified position in a dynamic pointer array (DPA). If necessary, the DPA expands to accommodate the new item.
 
 ## -parameters
 

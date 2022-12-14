@@ -46,11 +46,7 @@ The <b>IAuxInTuningSpace</b> interface is implemented on <a href="/previous-vers
 
 ## -inheritance
 
-IAuxInTuningSpace interits from .
-
-## -members
-
-	The IAuxInTuningSpace has no additional methods.
+IAuxInTuningSpace inherits from .
 
 ## -remarks
 

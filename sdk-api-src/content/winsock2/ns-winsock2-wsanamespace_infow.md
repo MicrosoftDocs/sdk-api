@@ -1,7 +1,7 @@
 ---
 UID: NS:winsock2._WSANAMESPACE_INFOW
 title: WSANAMESPACE_INFOW (winsock2.h)
-description: Contains all registration information for a namespace provider.
+description: Contains all registration information for a namespace provider. (WSANAMESPACE_INFOW)
 helpviewer_keywords: ["*LPWSANAMESPACE_INFOW","*PWSANAMESPACE_INFOW","NS_BTH","NS_DNS","NS_EMAIL","NS_NLA","NS_NTDS","NS_PNRPCLOUD","NS_PNRPNAME","PWSANAMESPACE_INFO","PWSANAMESPACE_INFO structure pointer [Winsock]","WSANAMESPACE_INFO","WSANAMESPACE_INFO structure [Winsock]","WSANAMESPACE_INFOA","WSANAMESPACE_INFOW","_win32_wsanamespace_info_2","winsock.wsanamespace_info_2","winsock2/PWSANAMESPACE_INFO","winsock2/WSANAMESPACE_INFO","winsock2/WSANAMESPACE_INFOA","winsock2/WSANAMESPACE_INFOW"]
 old-location: winsock\wsanamespace_info_2.htm
 tech.root: WinSock
@@ -185,7 +185,7 @@ A display string that identifies the namespace provider.
 
 ## -remarks
 
-The <b>WSANAMESPACE_INFO</b> structure is used by the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa">WSAEnumNameSpaceProviders</a>and <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceproviders32">WSCEnumNameSpaceProviders32</a> functions to return information on available namespace providers. The <b>WSANAMESPACE_INFO</b>  structure contains the provider-specific information on the namespace entry
+The <b>WSANAMESPACE_INFO</b> structure is used by the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa">WSAEnumNameSpaceProviders</a> and <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceproviders32">WSCEnumNameSpaceProviders32</a> functions to return information on available namespace providers. The <b>WSANAMESPACE_INFO</b>  structure contains the provider-specific information on the namespace entry
                      passed to the <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespace">WSCInstallNameSpace</a> and <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespace32">WSCInstallNameSpace32</a> functions when the namespace provider was installed.
 
 When UNICODE or _UNICODE is defined, <b>WSANAMESPACE_INFO</b> is defined to <b>WSANAMESPACE_INFOW</b>, the Unicode version of this data structure and the <b>lpszIdentifier</b> string member is defined to the  <b>LPWSTR</b> data type.

@@ -1,15 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_QUERY_USN_JOURNAL
 title: FSCTL_QUERY_USN_JOURNAL
-author: windows-sdk-content
 description: Queries for information on the current update sequence number (USN) change journal, its records, and its capacity.
 old-location: fs\fsctl_query_usn_journal.htm
 tech.root: FileIO
 ms.assetid: 9491b054-934a-4b76-bf77-f397b6386f82
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_QUERY_USN_JOURNAL, FSCTL_QUERY_USN_JOURNAL control, FSCTL_QUERY_USN_JOURNAL control code [Files], _win32_fsctl_query_usn_journal, base.fsctl_query_usn_journal, fs.fsctl_query_usn_journal, winioctl/FSCTL_QUERY_USN_JOURNAL
-ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -27,7 +24,6 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -52,7 +48,7 @@ api_name:
 
 Queries for information on the current update sequence number (USN) change journal, its records, and 
     its capacity.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -75,27 +71,21 @@ DeviceIoControl( (HANDLE)       Device,          // handle to volume
 
 ### -input-buffer
 
-<text></text>
 
 ### -input-buffer-length
 
-<text></text>
 
 ### -output-buffer
 
-<text></text>
 
 ### -output-buffer-length
 
-<text></text>
 
 ### -in-out-buffer
 
-<text></text>
 
 ### -inout-buffer-length
 
-<text></text>
 
 ### -status-block
 

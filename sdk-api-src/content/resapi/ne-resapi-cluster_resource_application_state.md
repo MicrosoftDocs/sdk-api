@@ -54,7 +54,7 @@ Enumerates resource application states.
 
 ## -enum-fields
 
-### -field ClusterResourceApplicationStateUnknown
+### -field ClusterResourceApplicationStateUnknown:1
 
 Application state is unknown.
 

@@ -58,7 +58,7 @@ Writes the contents of the library to the provided memory, to be provided back t
 
 Type: <b>void*</b>
 
-Specifies a pointer to the data. This memory must be readable and writeable up to the input size. This data can be saved and provided to <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device1-createpipelinelibrary">CreatePipelineLibrary</a> at a later time, including future instances of this or other processes. The data becomes invalidated if the runtime or driver is updated, and is not portable to other hardware or devices.
+Specifies a pointer to the data. This memory must be readable and writable up to the input size. This data can be saved and provided to <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device1-createpipelinelibrary">CreatePipelineLibrary</a> at a later time, including future instances of this or other processes. The data becomes invalidated if the runtime or driver is updated, and is not portable to other hardware or devices.
 
 ### -param DataSizeInBytes
 

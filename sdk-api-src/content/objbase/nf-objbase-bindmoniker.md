@@ -43,6 +43,7 @@ api_location:
  - Ole32.dll
 api_name:
  - BindMoniker
+req.apiset: ext-ms-win-com-ole32-l1-1-5 (introduced in Windows 10, version 10.0.15063)
 ---
 
 # BindMoniker function
@@ -107,8 +108,12 @@ The object that the moniker object identified could not be found.
 
 <b>BindMoniker</b> is a helper function supplied as a convenient way for a client that has the moniker of an object to obtain a pointer to one of that object's interfaces. <b>BindMoniker</b> packages the following calls:
 
-<pre class="syntax" xml:space="preserve"><code>CreateBindCtx(0, &amp;pbc); 
-pmk-&gt;BindToObject(pbc, NULL, riid, ppvObj);</code></pre>
+
+``` syntax
+CreateBindCtx(0, &amp;pbc); 
+pmk-&gt;BindToObject(pbc, NULL, riid, ppvObj);
+```
+
 
 <a href="/windows/desktop/api/objbase/nf-objbase-createbindctx">CreateBindCtx</a> creates a bind context object that supports the system implementation of IBindContext. The pmk parameter is actually a pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> implementation on a moniker object. This implementation's <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">BindToObject</a> method supplies the pointer to the requested interface pointer.
 

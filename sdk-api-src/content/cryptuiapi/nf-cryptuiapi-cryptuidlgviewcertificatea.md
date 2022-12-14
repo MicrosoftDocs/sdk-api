@@ -1,7 +1,7 @@
 ---
 UID: NF:cryptuiapi.CryptUIDlgViewCertificateA
 title: CryptUIDlgViewCertificateA function (cryptuiapi.h)
-description: Presents a dialog box that displays a specified certificate.
+description: Presents a dialog box that displays a specified certificate. (ANSI)
 helpviewer_keywords: ["CryptUIDlgViewCertificate","CryptUIDlgViewCertificate function [Security]","CryptUIDlgViewCertificateA","CryptUIDlgViewCertificateW","cryptuiapi/CryptUIDlgViewCertificate","cryptuiapi/CryptUIDlgViewCertificateA","cryptuiapi/CryptUIDlgViewCertificateW","security.cryptuidlgviewcertificate"]
 old-location: security\cryptuidlgviewcertificate.htm
 tech.root: security

@@ -1,7 +1,7 @@
 ---
 UID: NN:vsmgmt.IVssEnumMgmtObject
 title: IVssEnumMgmtObject (vsmgmt.h)
-description: Contains methods to iterate over and perform other operations on a list of enumerated objects.
+description: Contains methods to iterate over and perform other operations on a list of enumerated objects. (IVssEnumMgmtObject)
 helpviewer_keywords: ["IVssEnumMgmtObject","IVssEnumMgmtObject interface [Files]","IVssEnumMgmtObject interface [Files]","described","base.ivssenummgmtobject","vsmgmt/IVssEnumMgmtObject"]
 old-location: base\ivssenummgmtobject.htm
 tech.root: base
@@ -68,52 +68,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssEnumMgmtObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssEnumMgmtObject</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVssEnumMgmtObject</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssenummgmtobject-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a copy of the specified list of enumerated elements by creating a copy of the 
-    <b>IVssEnumMgmtObject</b> enumerator object.</p> (Inherited from <b>IVssEnumMgmtObject</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssenummgmtobject-next">Next</a>
-</td>
-<td align="left" width="63%">
-Returns the specified number of objects from the specified list of enumerated 
-     objects.</p> (Inherited from <b>IVssEnumMgmtObject</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssenummgmtobject-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumerator so that 
-     <b>IVssEnumMgmtObject</b> starts at the first enumerated 
-     object.</p> (Inherited from <b>IVssEnumMgmtObject</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssenummgmtobject-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips the specified number of objects.</p> (Inherited from <b>IVssEnumMgmtObject</b>)</td>
-</tr>
-</table>
+The <b>IVssEnumMgmtObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssEnumMgmtObject</b> also has these types of members:
 
 ## -see-also
 

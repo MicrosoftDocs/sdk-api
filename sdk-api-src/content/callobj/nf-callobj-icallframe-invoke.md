@@ -59,7 +59,7 @@ In a marshalling situation, typically this is carried out on the server side, an
 
 The interface on which the invocation is to occur. The caller is responsible for ensuring that this interface is of the appropriate IID; the implementation will simply do a cast and assume that is the case.
 
-### -param arg2
+### -param ...
 
 Additional parameters.
 
@@ -114,3 +114,4 @@ Generally speaking, carrying out the invocation involves allocating a new stack 
 ## -see-also
 
 <a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
+

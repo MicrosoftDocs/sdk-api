@@ -54,11 +54,11 @@ The reasons for a cancellation.
 
 ## -enum-fields
 
-### -field WS_SERVICE_HOST_ABORT
+### -field WS_SERVICE_HOST_ABORT:0
 
 A service host is going through an abort.
 
-### -field WS_SERVICE_CHANNEL_FAULTED
+### -field WS_SERVICE_CHANNEL_FAULTED:1
 
 The underlying channel faulted.
 

@@ -56,7 +56,7 @@ Creates a folder for related tasks.
 
 ### -param subFolderName [in]
 
-The name used to identify the folder. If "FolderName\SubFolder1\SubFolder2" is specified, the entire folder tree will be created if the folders do not exist. This parameter can be a relative path to the current <a href="/windows/desktop/api/taskschd/nn-taskschd-itaskfolder">ITaskFolder</a> instance. The root task folder is specified with a backslash (\). An example of a task folder path, under the root task folder,
+The name used to identify the folder. If "FolderName\SubFolder1\SubFolder2" is specified, the entire folder tree will be created if the folders do not exist. This parameter can be a relative path to the current <a href="/windows/desktop/api/taskschd/nn-taskschd-itaskfolder">ITaskFolder</a> instance. The root task folder is specified with a backslash (\\). An example of a task folder path, under the root task folder,
  is \MyTaskFolder. The '.' character  cannot be used to specify the current task folder  and the '..' characters cannot be used to specify the parent task folder in the path.
 
 ### -param sddl [in]
@@ -71,7 +71,7 @@ Pass in a reference to a <b>NULL</b> <a href="/windows/desktop/api/taskschd/nn-t
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

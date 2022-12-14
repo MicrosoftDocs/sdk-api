@@ -96,38 +96,10 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMAddressAccess2</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmaddressaccess">IWMAddressAccess</a>. <b>IWMAddressAccess2</b> also has these types of members:
+The <b>IWMAddressAccess2</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmaddressaccess">IWMAddressAccess</a>. <b>IWMAddressAccess2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMAddressAccess2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmaddressaccess2-addaccessentryex">AddAccessEntryEx</a>
-</td>
-<td align="left" width="63%">
-Adds an entry to the access list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmaddressaccess2-getaccessentryex">GetAccessEntryEx</a>
-</td>
-<td align="left" width="63%">
-Retrieves an entry from the access list.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

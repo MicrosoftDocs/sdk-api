@@ -54,23 +54,23 @@ Defines features that a Microsoft Direct3D 11 video processor can support.
 
 ## -enum-fields
 
-### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_FILL
+### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_FILL:0x1
 
 The video processor can set alpha values on the output pixels. For more information, see <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetoutputalphafillmode">ID3D11VideoContext::VideoProcessorSetOutputAlphaFillMode</a>.
 
-### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_CONSTRICTION
+### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_CONSTRICTION:0x2
 
 The video processor can downsample the video output. For more information, see <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetoutputconstriction">ID3D11VideoContext::VideoProcessorSetOutputConstriction</a>.
 
-### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_LUMA_KEY
+### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_LUMA_KEY:0x4
 
 The video processor can perform luma keying. For more information, see <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreamlumakey">ID3D11VideoContext::VideoProcessorSetStreamLumaKey</a>.
 
-### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_PALETTE
+### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_PALETTE:0x8
 
 The video processor can apply alpha values from color palette entries.
 
-### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_LEGACY
+### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_LEGACY:0x10
 
 The driver does not support full video processing capabilities. If this capability flag is set, the video processor has the following limitations:
 
@@ -84,29 +84,29 @@ The driver does not support full video processing capabilities. If this capabili
 <li>Support for per-stream planar alpha is not reliable. (Per-pixel alpha is supported, however.)</li>
 </ul>
 
-### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_STEREO
+### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_STEREO:0x20
 
 The video processor can support 3D stereo video. For more information, see <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreamstereoformat">ID3D11VideoContext::VideoProcessorSetStreamStereoFormat</a>.
 
 All drivers setting this caps must support the following stereo formats: <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_stereo_format">D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_HORIZONTAL</a>, <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_VERTICAL</b>, and <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_SEPARATE</b>.
 
-### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ROTATION
+### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ROTATION:0x40
 
 The driver can rotate the input data either 90, 180, or 270 degrees clockwise as part of the video processing operation.
 
-### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_STREAM
+### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_STREAM:0x80
 
 The driver supports the <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreamalpha">VideoProcessorSetStreamAlpha</a> call.
 
-### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_PIXEL_ASPECT_RATIO
+### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_PIXEL_ASPECT_RATIO:0x100
 
 The driver supports the <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetstreampixelaspectratio">VideoProcessorSetStreamPixelAspectRatio</a> call.
 
-### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_MIRROR
+### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_MIRROR:0x200
 
-### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_SHADER_USAGE
+### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_SHADER_USAGE:0x400
 
-### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_METADATA_HDR10
+### -field D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_METADATA_HDR10:0x800
 
 ## -see-also
 

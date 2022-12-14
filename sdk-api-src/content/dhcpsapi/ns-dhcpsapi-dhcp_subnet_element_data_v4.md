@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUBNET_ELEMENT_DATA_V4
 title: DHCP_SUBNET_ELEMENT_DATA_V4 (dhcpsapi.h)
-description: Defines an element that describes a feature or restriction of a subnet.
+description: Defines an element that describes a feature or restriction of a subnet. (DHCP_SUBNET_ELEMENT_DATA_V4)
 helpviewer_keywords: ["*LPDHCP_SUBNET_ELEMENT_DATA_V4","DHCP_SUBNET_ELEMENT_DATA_V4","DHCP_SUBNET_ELEMENT_DATA_V4 structure [DHCP]","LPDHCP_SUBNET_ELEMENT_DATA_V4","LPDHCP_SUBNET_ELEMENT_DATA_V4 structure pointer [DHCP]","dhcp.dhcp_subnet_element_data_v4","dhcpsapi/LPDHCP_SUBNET_ELEMENT_DATA_V4","dhcpsapi/_DHCP_SUBNET_ELEMENT_DATA_V4"]
 old-location: dhcp\dhcp_subnet_element_data_v4.htm
 tech.root: DHCP
@@ -84,13 +84,9 @@ The <b>DHCP_SUBNET_ELEMENT_DATA_V4</b> structure defines an element that describ
 
 ### -field Element.IpUsedCluster.case.DhcpIpUsedClusters
 
-### -field Element.switch_is
 
-### -field Element.switch_is.ELEMENT_MASK(ElementType)
 
-### -field Element.switch_type
 
-### -field Element.switch_type.DHCP_SUBNET_ELEMENT_TYPE
 
 ### -field Element
 

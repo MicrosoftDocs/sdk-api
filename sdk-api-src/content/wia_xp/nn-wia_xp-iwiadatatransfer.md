@@ -55,67 +55,7 @@ The <b>IWiaDataTransfer</b> interface is a high performance data transfer interf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaDataTransfer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaDataTransfer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWiaDataTransfer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtenumwia_format_info">idtEnumWIA_FORMAT_INFO</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtenumwia_format_info">IWiaDataTransfer::idtEnumWIA_FORMAT_INFO</a> method creates a banded transfer implementation of the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a> interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetbandeddata">idtGetBandedData</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetbandeddata">IWiaDataTransfer::idtGetBandedData</a> method transfers a band of data from a hardware device to an application. For efficiency, applications retrieve data from WIA hardware devices in successive bands. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetdata">idtGetData</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetdata">IWiaDataTransfer::idtGetData</a> method retrieves complete files from a WIA device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetextendedtransferinfo">idtGetExtendedTransferInfo</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetextendedtransferinfo">IWiaDataTransfer::idtGetExtendedTransferInfo</a> retrieves extended information relating to data transfer buffers in the case of banded data transfers. Applications typically use this method to retrieve driver recommended settings for minimum buffer size, maximum buffer size, and optimal buffer size for banded data transfers. 
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtquerygetdata">idtQueryGetData</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtquerygetdata">IWiaDataTransfer::idtQueryGetData</a> method is used by applications to query a WIA device to determine what types of data formats it supports.
-
-
-</td>
-</tr>
-</table>
+The <b>IWiaDataTransfer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaDataTransfer</b> also has these types of members:
 
 ## -remarks
 

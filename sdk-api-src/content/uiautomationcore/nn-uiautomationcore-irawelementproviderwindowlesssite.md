@@ -54,38 +54,7 @@ A Microsoft ActiveX control site implements this interface to enable a Microsoft
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRawElementProviderWindowlessSite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRawElementProviderWindowlessSite</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IRawElementProviderWindowlessSite</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderwindowlesssite-getadjacentfragment">GetAdjacentFragment</a>
-</td>
-<td align="left" width="63%">
-Retrieves a fragment pointer for a fragment that is adjacent to the windowless ActiveX control  owned by this control site.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderwindowlesssite-getruntimeidprefix">GetRuntimeIdPrefix</a>
-</td>
-<td align="left" width="63%">
-Retrieves a UI Automation runtime ID that is unique to the windowless ActiveX control site. 
-
-</td>
-</tr>
-</table>
+The <b>IRawElementProviderWindowlessSite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRawElementProviderWindowlessSite</b> also has these types of members:
 
 ## -see-also
 

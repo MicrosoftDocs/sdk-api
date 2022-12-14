@@ -52,7 +52,7 @@ api_name:
 
 Stops this instance of the task.
 
-## -parameters
+
 
 ## -returns
 

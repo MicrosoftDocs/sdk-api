@@ -56,19 +56,19 @@ The <b>ADS_SETTYPE_ENUM</b> enumeration specifies the available pathname format 
 
 ## -enum-fields
 
-### -field ADS_SETTYPE_FULL
+### -field ADS_SETTYPE_FULL:1
 
 Sets the full path, for example, "LDAP://servername/o=internet/…/cn=bar".
 
-### -field ADS_SETTYPE_PROVIDER
+### -field ADS_SETTYPE_PROVIDER:2
 
 Updates the provider only, for example, "LDAP".
 
-### -field ADS_SETTYPE_SERVER
+### -field ADS_SETTYPE_SERVER:3
 
 Updates the server name only, for example, "servername".
 
-### -field ADS_SETTYPE_DN
+### -field ADS_SETTYPE_DN:4
 
 Updates the distinguished name only, for example, "o=internet/…/cn=bar".
 

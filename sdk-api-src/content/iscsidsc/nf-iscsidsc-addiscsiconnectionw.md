@@ -1,7 +1,7 @@
 ---
 UID: NF:iscsidsc.AddIScsiConnectionW
 title: AddIScsiConnectionW function (iscsidsc.h)
-description: AddIscsiConnection function adds a new iSCSI connection to an existing session.
+description: AddIscsiConnection function adds a new iSCSI connection to an existing session. (Unicode)
 helpviewer_keywords: ["AddIScsiConnectionW","AddIscsiConnection","AddIscsiConnection function [iSCSI Discovery Library API]","AddIscsiConnectionA","AddIscsiConnectionW","ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED","ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED","ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED","ISCSI_SECURITY_FLAG_PFS_ENABLED","ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED","ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED","ISCSI_SECURITY_FLAG_VALID","iscsidisc.addiscsiconnection","iscsidsc/AddIscsiConnection","iscsidsc/AddIscsiConnectionA","iscsidsc/AddIscsiConnectionW"]
 old-location: iscsidisc\addiscsiconnection.htm
 tech.root: iSCSIDisc

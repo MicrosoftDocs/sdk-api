@@ -57,65 +57,7 @@ The <b>IEnumWiaItem</b> interface is used by applications to enumerate <a href="
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumWiaItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumWiaItem</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IEnumWiaItem</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-clone">IEnumWiaItem::Clone</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-clone">IEnumWiaItem::Clone</a> method creates an additional instance of the <b>IEnumWiaItem</b> interface and sends back a pointer to it.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-getcount">IEnumWiaItem::GetCount</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-getcount">IEnumWiaItem::GetCount</a> method returns the number of elements stored by this enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-next">IEnumWiaItem::Next</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-next">IEnumWiaItem::Next</a> method fills an array of pointers to <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> interfaces.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-reset">IEnumWiaItem::Reset</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-reset">IEnumWiaItem::Reset</a> method is used by applications to restart the enumeration of item information.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-skip">IEnumWiaItem::Skip</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-skip">IEnumWiaItem::Skip</a> method skips the specified number of items during an enumeration of available <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects.
-
-</td>
-</tr>
-</table>
+The <b>IEnumWiaItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumWiaItem</b> also has these types of members:
 
 ## -remarks
 

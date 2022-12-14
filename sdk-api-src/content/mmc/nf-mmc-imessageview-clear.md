@@ -52,7 +52,7 @@ api_name:
 
 The <b>IMessageView::Clear</b> method enables a snap-in to clear the title, text, and icon of the result pane message displayed using the MMC message OCX control.
 
-## -parameters
+
 
 ## -returns
 

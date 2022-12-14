@@ -62,8 +62,12 @@ A string literal.
 
 This macro is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>#define OLESTR(str) L##str
-</code></pre>
+
+``` syntax
+#define OLESTR(str) L##str
+
+```
+
 
 ## -see-also
 

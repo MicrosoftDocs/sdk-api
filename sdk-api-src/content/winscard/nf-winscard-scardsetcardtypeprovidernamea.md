@@ -1,7 +1,7 @@
 ---
 UID: NF:winscard.SCardSetCardTypeProviderNameA
 title: SCardSetCardTypeProviderNameA function (winscard.h)
-description: Specifies the name of the module (dynamic link library) containing the provider for a given card name and provider type.
+description: Specifies the name of the module (dynamic link library) containing the provider for a given card name and provider type. (ANSI)
 helpviewer_keywords: ["SCARD_PROVIDER_CARD_MODULE","SCARD_PROVIDER_CSP","SCARD_PROVIDER_KSP","SCARD_PROVIDER_PRIMARY","SCardSetCardTypeProviderName","SCardSetCardTypeProviderName function [Security]","SCardSetCardTypeProviderNameA","SCardSetCardTypeProviderNameW","_smart_scardsetcardtypeprovidername","security.scardsetcardtypeprovidername","winscard/SCardSetCardTypeProviderName","winscard/SCardSetCardTypeProviderNameA","winscard/SCardSetCardTypeProviderNameW"]
 old-location: security\scardsetcardtypeprovidername.htm
 tech.root: security

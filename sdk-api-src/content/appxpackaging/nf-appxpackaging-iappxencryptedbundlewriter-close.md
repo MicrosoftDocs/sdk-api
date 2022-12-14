@@ -52,7 +52,7 @@ api_name:
 
 Writes the bundle manifest and blockmap footprint files to the bundle.
 
-## -parameters
+
 
 ## -returns
 

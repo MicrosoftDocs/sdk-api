@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetMonitorInfoW
 title: GetMonitorInfoW function (winuser.h)
-description: The GetMonitorInfo function retrieves information about a display monitor.
+description: The GetMonitorInfo function retrieves information about a display monitor. (Unicode)
 helpviewer_keywords: ["GetMonitorInfo","GetMonitorInfo function [Windows GDI]","GetMonitorInfoA","GetMonitorInfoW","_win32_GetMonitorInfo","gdi.getmonitorinfo","winuser/GetMonitorInfo","winuser/GetMonitorInfoA","winuser/GetMonitorInfoW"]
 old-location: gdi\getmonitorinfo.htm
 tech.root: gdi
@@ -49,6 +49,7 @@ api_name:
  - GetMonitorInfo
  - GetMonitorInfoA
  - GetMonitorInfoW
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetMonitorInfoW function

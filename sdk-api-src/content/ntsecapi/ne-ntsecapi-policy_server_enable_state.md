@@ -58,7 +58,7 @@ The <b>POLICY_SERVER_ENABLE_STATE</b> enumeration represents the state of the LS
 
 ## -enum-fields
 
-### -field PolicyServerEnabled
+### -field PolicyServerEnabled:2
 
 The LSA server is enabled.
 

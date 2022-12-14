@@ -60,7 +60,7 @@ A pointer to the <a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMA
 
 ### -param pmedium [in, out]
 
-A pointer to the <a href="/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a> structure that defines the storage medium containing the data being transferred. The medium must be allocated by the caller and filled in by <b>GetDataHere</b>. The caller must also free the medium. The implementation of this method must always supply a value of <b>NULL</b> for the <b>punkForRelease</b> member of the <b>STGMEDIUM</b> structure to which this parameter points.
+A pointer to the <a href="/windows/win32/api/objidl/ns-objidl-ustgmedium-r1">STGMEDIUM</a> structure that defines the storage medium containing the data being transferred. The medium must be allocated by the caller and filled in by <b>GetDataHere</b>. The caller must also free the medium. The implementation of this method must always supply a value of <b>NULL</b> for the <b>punkForRelease</b> member of the <b>STGMEDIUM</b> structure to which this parameter points.
 
 ## -returns
 
@@ -174,7 +174,7 @@ There was insufficient memory available for this operation.
 
 ## -remarks
 
-The <b>GetDataHere</b> method is similar to <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a>, except that the caller must both allocate and free the medium specified in <i>pmedium</i>. <b>GetDataHere</b> renders the data described in a <a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure and copies the data into that caller-provided <a href="/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a> structure. For example, if the medium is TYMED_HGLOBAL, this method cannot resize the medium or allocate a new hGlobal.
+The <b>GetDataHere</b> method is similar to <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a>, except that the caller must both allocate and free the medium specified in <i>pmedium</i>. <b>GetDataHere</b> renders the data described in a <a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure and copies the data into that caller-provided <a href="/windows/win32/api/objidl/ns-objidl-ustgmedium-r1">STGMEDIUM</a> structure. For example, if the medium is TYMED_HGLOBAL, this method cannot resize the medium or allocate a new hGlobal.
 
 Some media are not appropriate in a call to <b>GetDataHere</b>, including GDI types such as metafiles. The <b>GetDataHere</b> method cannot put data into a caller-provided metafile. In general, the only storage media it is necessary to support in this method are TYMED_ISTORAGE, TYMED_ISTREAM, and TYMED_FILE.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IAlertDataCollector.get_SampleInterval
 title: IAlertDataCollector::get_SampleInterval (pla.h)
-description: Retrieves or sets the time interval to wait between sampling counter data.
+description: Retrieves or sets the time interval to wait between sampling counter data. (Get)
 helpviewer_keywords: ["IAlertDataCollector interface [PLA]","SampleInterval property","IAlertDataCollector.SampleInterval","IAlertDataCollector.get_SampleInterval","IAlertDataCollector::SampleInterval","IAlertDataCollector::get_SampleInterval","IAlertDataCollector::put_SampleInterval","SampleInterval property [PLA]","SampleInterval property [PLA]","IAlertDataCollector interface","base.ialertdatacollector_sampleinterval","get_SampleInterval","pla.ialertdatacollector_sampleinterval","pla/IAlertDataCollector::SampleInterval","pla/IAlertDataCollector::get_SampleInterval","pla/IAlertDataCollector::put_SampleInterval"]
 old-location: pla\ialertdatacollector_sampleinterval.htm
 tech.root: PLA

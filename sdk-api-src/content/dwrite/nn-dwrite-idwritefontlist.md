@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite.IDWriteFontList
 title: IDWriteFontList (dwrite.h)
-description: Represents a list of fonts.
+description: Represents a list of fonts. (IDWriteFontList)
 helpviewer_keywords: ["IDWriteFontList","IDWriteFontList interface [Direct Write]","IDWriteFontList interface [Direct Write]","described","directwrite.IDWriteFontList","dwrite/IDWriteFontList"]
 old-location: directwrite\IDWriteFontList.htm
 tech.root: DirectWrite
@@ -54,46 +54,5 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontList</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontList</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDWriteFontList</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontlist-getfont">GetFont</a>
-</td>
-<td align="left" width="63%">
- Gets a font given its zero-based index.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontlist-getfontcollection">GetFontCollection</a>
-</td>
-<td align="left" width="63%">
- Gets the font collection that contains the fonts in
-    the font list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontlist-getfontcount">GetFontCount</a>
-</td>
-<td align="left" width="63%">
- Gets the number of fonts in the font list.
-
-</td>
-</tr>
-</table>
+The <b>IDWriteFontList</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontList</b> also has these types of members:
 

@@ -54,7 +54,7 @@ Finds the first matching element in the specified order, but also caches its pro
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A combination of values specifying the scope of the search.
 
@@ -66,7 +66,7 @@ A pointer to a condition that represents the criteria to match.
 
 A pointer to a cache request that specifies the control patterns and properties to include in the cache.
 
-### -param arg4
+### -param unnamedParam4
 
 Enumeration value specifying the tree navigation order.
 

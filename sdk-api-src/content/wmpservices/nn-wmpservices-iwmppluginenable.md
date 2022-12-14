@@ -54,38 +54,10 @@ The <b>IWMPPluginEnable</b> interface is implemented by the plug-in. It sets and
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPluginEnable</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPPluginEnable</b> also has these types of members:
+The <b>IWMPPluginEnable</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPPluginEnable</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMPPluginEnable</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmppluginenable-getenable">GetEnable</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current enable state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmppluginenable-setenable">SetEnable</a>
-</td>
-<td align="left" width="63%">
-Sets the current enable state.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.GetDiskFreeSpaceW
 title: GetDiskFreeSpaceW function (fileapi.h)
-description: Retrieves information about the specified disk, including the amount of free space on the disk.
+description: Retrieves information about the specified disk, including the amount of free space on the disk. (Unicode)
 helpviewer_keywords: ["GetDiskFreeSpace","GetDiskFreeSpace function [Files]","GetDiskFreeSpaceA","GetDiskFreeSpaceW","_win32_getdiskfreespace","base.getdiskfreespace","fileapi/GetDiskFreeSpace","fileapi/GetDiskFreeSpaceA","fileapi/GetDiskFreeSpaceW","fs.getdiskfreespace","winbase/GetDiskFreeSpace","winbase/GetDiskFreeSpaceA","winbase/GetDiskFreeSpaceW"]
 old-location: fs\getdiskfreespace.htm
 tech.root: fs

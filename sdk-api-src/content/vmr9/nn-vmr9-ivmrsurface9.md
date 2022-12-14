@@ -55,56 +55,10 @@ The <code>IVMRSurface9</code> interface is implemented on the media samples used
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRSurface9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRSurface9</b> also has these types of members:
+The <b>IVMRSurface9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRSurface9</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IVMRSurface9</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrsurface9-getsurface">GetSurface</a>
-</td>
-<td align="left" width="63%">
-Retrieves the attached Direct3D surface interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrsurface9-issurfacelocked">IsSurfaceLocked</a>
-</td>
-<td align="left" width="63%">
-Indicates whether the Direct3D surface attached to this media sample is locked.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrsurface9-locksurface">LockSurface</a>
-</td>
-<td align="left" width="63%">
-Locks the attached Direct3D surface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrsurface9-unlocksurface">UnlockSurface</a>
-</td>
-<td align="left" width="63%">
-Unlocks the attached Direct3D surface.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

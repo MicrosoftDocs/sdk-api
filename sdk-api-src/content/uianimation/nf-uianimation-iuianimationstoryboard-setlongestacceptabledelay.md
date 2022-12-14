@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.SetLongestAcceptableDelay
 title: IUIAnimationStoryboard::SetLongestAcceptableDelay (uianimation.h)
-description: Sets the longest acceptable delay before the scheduled storyboard begins.
+description: Sets the longest acceptable delay before the scheduled storyboard begins. (IUIAnimationStoryboard.SetLongestAcceptableDelay)
 helpviewer_keywords: ["IUIAnimationStoryboard interface [Windows Animation]","SetLongestAcceptableDelay method","IUIAnimationStoryboard.SetLongestAcceptableDelay","IUIAnimationStoryboard::SetLongestAcceptableDelay","SetLongestAcceptableDelay","SetLongestAcceptableDelay method [Windows Animation]","SetLongestAcceptableDelay method [Windows Animation]","IUIAnimationStoryboard interface","uianimation.iuianimationstoryboard_setlongestacceptabledelay","uianimation/IUIAnimationStoryboard::SetLongestAcceptableDelay"]
 old-location: uianimation\iuianimationstoryboard_setlongestacceptabledelay.htm
 tech.root: UIAnimation

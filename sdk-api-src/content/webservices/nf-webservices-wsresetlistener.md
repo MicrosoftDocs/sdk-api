@@ -52,8 +52,7 @@ api_name:
 
 Resets a Listener object so it can be reused.
             
-                Use of this function requires that the Listener state be set to <b>WS_LISTENER_STATE_CREATED</b>  
-                or <b>WS_LISTENER_STATE_CLOSED</b>.
+Use of this function requires that the Listener state be set to <b>WS_LISTENER_STATE_CREATED</b> or <b>WS_LISTENER_STATE_CLOSED</b>.
 
 ## -parameters
 

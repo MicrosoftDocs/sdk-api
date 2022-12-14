@@ -54,29 +54,10 @@ The <b>IMPEG2TuneRequestFactory</b> interface creates a tune request for a basic
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMPEG2TuneRequestFactory</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMPEG2TuneRequestFactory</b> also has these types of members:
+The <b>IMPEG2TuneRequestFactory</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMPEG2TuneRequestFactory</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMPEG2TuneRequestFactory</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2tunerequestfactory-createtunerequest">CreateTuneRequest</a>
-</td>
-<td align="left" width="63%">
-Creates the minimal MPEG-2 tune request for a specified tuning space
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

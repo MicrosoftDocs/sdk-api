@@ -56,35 +56,35 @@ Identifies flags for the generic parental levels defined in the DVD specificatio
 
 ## -enum-fields
 
-### -field DVD_PARENTAL_LEVEL_8
+### -field DVD_PARENTAL_LEVEL_8:0x8000
 
 Parental level 8.
 
-### -field DVD_PARENTAL_LEVEL_7
+### -field DVD_PARENTAL_LEVEL_7:0x4000
 
 Parental level 7.
 
-### -field DVD_PARENTAL_LEVEL_6
+### -field DVD_PARENTAL_LEVEL_6:0x2000
 
 Parental level 6.
 
-### -field DVD_PARENTAL_LEVEL_5
+### -field DVD_PARENTAL_LEVEL_5:0x1000
 
 Parental level 5.
 
-### -field DVD_PARENTAL_LEVEL_4
+### -field DVD_PARENTAL_LEVEL_4:0x800
 
 Parental level 4.
 
-### -field DVD_PARENTAL_LEVEL_3
+### -field DVD_PARENTAL_LEVEL_3:0x400
 
 Parental level 3.
 
-### -field DVD_PARENTAL_LEVEL_2
+### -field DVD_PARENTAL_LEVEL_2:0x200
 
 Parental level 2.
 
-### -field DVD_PARENTAL_LEVEL_1
+### -field DVD_PARENTAL_LEVEL_1:0x100
 
 Parental level 1.
 

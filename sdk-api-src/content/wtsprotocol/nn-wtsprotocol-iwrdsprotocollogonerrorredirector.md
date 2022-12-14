@@ -54,56 +54,7 @@ Exposes methods called by the Remote Desktop Services service to update logon st
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsProtocolLogonErrorRedirector</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsProtocolLogonErrorRedirector</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWRdsProtocolLogonErrorRedirector</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollogonerrorredirector-onbeginpainting">OnBeginPainting</a>
-</td>
-<td align="left" width="63%">
-Notifies the protocol that the logon user interface is ready to begin painting.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollogonerrorredirector-redirectlogonerror">RedirectLogonError</a>
-</td>
-<td align="left" width="63%">
-Queries the protocol for the action to take in response to a logon error.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollogonerrorredirector-redirectmessage">RedirectMessage</a>
-</td>
-<td align="left" width="63%">
-Queries the protocol regarding how to redirect the logon message.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollogonerrorredirector-redirectstatus">RedirectStatus</a>
-</td>
-<td align="left" width="63%">
-Queries the protocol regarding how to redirect the client logon status update.
-
-</td>
-</tr>
-</table>
+The <b>IWRdsProtocolLogonErrorRedirector</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsProtocolLogonErrorRedirector</b> also has these types of members:
 
 ## -remarks
 

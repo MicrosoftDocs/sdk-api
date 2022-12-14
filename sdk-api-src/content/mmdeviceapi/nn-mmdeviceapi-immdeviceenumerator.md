@@ -69,65 +69,7 @@ For code examples that use the <b>IMMDeviceEnumerator</b> interface, see the fol
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMMDeviceEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMMDeviceEnumerator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMMDeviceEnumerator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-enumaudioendpoints">EnumAudioEndpoints</a>
-</td>
-<td align="left" width="63%">
-Generates a collection of audio endpoint devices that meet the specified criteria.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint">GetDefaultAudioEndpoint</a>
-</td>
-<td align="left" width="63%">
-Retrieves the default audio endpoint for the specified data-flow direction and role.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice">GetDevice</a>
-</td>
-<td align="left" width="63%">
-Retrieves an endpoint device that is specified by an endpoint device-identification string.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-registerendpointnotificationcallback">RegisterEndpointNotificationCallback</a>
-</td>
-<td align="left" width="63%">
-Registers a client's notification callback interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-unregisterendpointnotificationcallback">UnregisterEndpointNotificationCallback</a>
-</td>
-<td align="left" width="63%">
-Deletes the registration of a notification interface that the client registered in a previous call to the <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-registerendpointnotificationcallback">IMMDeviceEnumerator::RegisterEndpointNotificationCallback</a> method.
-
-</td>
-</tr>
-</table>
+The <b>IMMDeviceEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMMDeviceEnumerator</b> also has these types of members:
 
 ## -see-also
 

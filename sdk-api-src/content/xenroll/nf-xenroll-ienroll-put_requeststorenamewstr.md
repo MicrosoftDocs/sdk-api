@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.put_RequestStoreNameWStr
 title: IEnroll::put_RequestStoreNameWStr (xenroll.h)
-description: The RequestStoreNameWStr property of IEnroll4 sets or retrieves the name of the store that contains the dummy certificate.
+description: The RequestStoreNameWStr property of IEnroll4 sets or retrieves the name of the store that contains the dummy certificate. (Put)
 helpviewer_keywords: ["IEnroll interface [Security]","RequestStoreNameWStr property","IEnroll.RequestStoreNameWStr","IEnroll.put_RequestStoreNameWStr","IEnroll4 interface [Security]","RequestStoreNameWStr property","IEnroll4.RequestStoreNameWStr","IEnroll4::get_RequestStoreNameWStr","IEnroll4::put_RequestStoreNameWStr","IEnroll::RequestStoreNameWStr","IEnroll::get_RequestStoreNameWStr","IEnroll::put_RequestStoreNameWStr","RequestStoreNameWStr property [Security]","RequestStoreNameWStr property [Security]","IEnroll interface","RequestStoreNameWStr property [Security]","IEnroll4 interface","get_RequestStoreNameWStr","put_RequestStoreNameWStr","security.ienroll4_requeststorenamewstr","xenroll/IEnroll4::RequestStoreNameWStr","xenroll/IEnroll4::get_RequestStoreNameWStr","xenroll/IEnroll4::put_RequestStoreNameWStr","xenroll/IEnroll::RequestStoreNameWStr","xenroll/IEnroll::get_RequestStoreNameWStr","xenroll/IEnroll::put_RequestStoreNameWStr"]
 old-location: security\ienroll4_requeststorenamewstr.htm
 tech.root: security

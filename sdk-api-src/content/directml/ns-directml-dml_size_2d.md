@@ -65,4 +65,3 @@ The width.
 Type: [**UINT**](/windows/desktop/winprog/windows-data-types)
 
 The height.
-

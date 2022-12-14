@@ -56,15 +56,15 @@ The <b>PEER_GROUP_PROPERTY_FLAGS</b>  flags are used to specify various peer gro
 
 ## -enum-fields
 
-### -field PEER_MEMBER_DATA_OPTIONAL
+### -field PEER_MEMBER_DATA_OPTIONAL:0x0001
 
 A peer's member data (<a href="/windows/desktop/api/p2p/ns-p2p-peer_member">PEER_MEMBER</a>) is only published  when an action if performed, such as publishing a record  or issuing a GMC. If the peer has not performed one of these actions, the membership data will not be available.
 
-### -field PEER_DISABLE_PRESENCE
+### -field PEER_DISABLE_PRESENCE:0x0002
 
 The peer presence system is prevented from automatically publishing presence information.
 
-### -field PEER_DEFER_EXPIRATION
+### -field PEER_DEFER_EXPIRATION:0x0004
 
 Group records are not expired until the peer  connects with a group.
 

@@ -103,7 +103,7 @@ The collaboration infrastructure can receive application invites from trusted co
 
 A peer's application has a GUID representing a single specific application. When an application is registered for a peer, this GUID and the corresponding application can be made available to all trusted contacts of the peer, indicating the activities the peer can participate in. To unregister a peer's application, call <a href="/windows/desktop/api/p2p/nf-p2p-peercollabunregisterapplication">PeerCollabUnregisterApplication</a> with this GUID.
 
-When registering an application, it is recommended that developers specify a relative path, such as <b>%ProgramFiles%</b>, instead of an absolute path. This prevents application failure due to a change in the location of application files. For example, if the <b>C:\ProgramFiles</b> directory is moved to <b>E:\</b>. 
+When registering an application, it is recommended that developers specify a relative path, such as <b>%ProgramFiles%</b>, instead of an absolute path. This prevents application failure due to a change in the location of application files. For example, if the <b>C:\ProgramFiles</b> directory is moved to <b>E:\\</b>. 
 
 Only applications that are local to the machine can be registered. It is not possible to register when an application's executable path is located on a network share like a UNC path or locally-mapped network drive.
 

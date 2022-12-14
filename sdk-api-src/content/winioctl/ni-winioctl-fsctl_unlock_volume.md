@@ -1,15 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_UNLOCK_VOLUME
 title: FSCTL_UNLOCK_VOLUME
-author: windows-sdk-content
 description: Unlocks a volume.
 old-location: fs\fsctl_unlock_volume.htm
 tech.root: FileIO
 ms.assetid: 84ca7f8d-6a0a-43d6-9970-9c01099eaad4
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_UNLOCK_VOLUME, FSCTL_UNLOCK_VOLUME control, FSCTL_UNLOCK_VOLUME control code [Files], _win32_fsctl_unlock_volume, base.fsctl_unlock_volume, fs.fsctl_unlock_volume, winioctl/FSCTL_UNLOCK_VOLUME
-ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -27,7 +24,6 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -54,48 +50,18 @@ Unlocks a volume.
 
 To perform this operation, call the 
 <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL DeviceIoControl(
+```cpp
+BOOL DeviceIoControl(
   (HANDLE) hDevice,            // handle to a volume
-  FSCTL_UNLOCK_VOLUME,         // dwIoControlCodeNULL,                        // lpInBuffer0,                           // nInBufferSizeNULL,                        // lpOutBuffer0,                           // nOutBufferSize(LPDWORD) lpBytesReturned,   // number of bytes returned
+  FSCTL_UNLOCK_VOLUME,         // dwIoControlCode
+  NULL,                        // lpInBuffer
+  0,                           // nInBufferSize
+  NULL,                        // lpOutBuffer
+  0,                           // nOutBufferSize
+  (LPDWORD) lpBytesReturned,   // number of bytes returned
   (LPOVERLAPPED) lpOverlapped  // OVERLAPPED structure
-);</pre>
-</td>
-</tr>
-</table></span></div>
-
-## -ioctlparameters
-
-### -input-buffer
-
-<text></text>
-
-### -input-buffer-length
-
-<text></text>
-
-### -output-buffer
-
-<text></text>
-
-### -output-buffer-length
-
-<text></text>
-
-### -in-out-buffer
-
-<text></text>
-
-### -inout-buffer-length
-
-<text></text>
-
-### -status-block
+);
+```
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 

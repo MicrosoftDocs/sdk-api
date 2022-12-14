@@ -56,7 +56,7 @@ The <b>AUTHZ_SECURITY_ATTRIBUTE_OPERATION</b> enumeration indicates the type of 
 
 ## -enum-fields
 
-### -field AUTHZ_SECURITY_ATTRIBUTE_OPERATION_NONE
+### -field AUTHZ_SECURITY_ATTRIBUTE_OPERATION_NONE:0
 
 Do not perform any modification.
 

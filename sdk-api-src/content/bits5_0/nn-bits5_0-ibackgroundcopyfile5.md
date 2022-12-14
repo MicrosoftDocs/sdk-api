@@ -58,38 +58,7 @@ To get an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyFile5</b> interface inherits from <a href="/windows/desktop/api/bits4_0/nn-bits4_0-ibackgroundcopyfile4">IBackgroundCopyFile4</a>. <b>IBackgroundCopyFile5</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IBackgroundCopyFile5</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyfile5-getproperty">GetProperty</a>
-</td>
-<td align="left" width="63%">
-Gets the value of a generic BackgroundCopyFile property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyfile5-setproperty">SetProperty</a>
-</td>
-<td align="left" width="63%">
-Sets the value of a generic BackgroundCopyFile property.
-
-</td>
-</tr>
-</table>
+The <b>IBackgroundCopyFile5</b> interface inherits from <a href="/windows/desktop/api/bits4_0/nn-bits4_0-ibackgroundcopyfile4">IBackgroundCopyFile4</a>. <b>IBackgroundCopyFile5</b> also has these types of members:
 
 ## -see-also
 

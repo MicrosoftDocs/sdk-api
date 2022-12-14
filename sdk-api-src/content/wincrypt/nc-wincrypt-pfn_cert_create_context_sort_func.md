@@ -66,7 +66,7 @@ The number of bytes remaining to be encoded.
 
 The current number of sorted entries.
 
-### -param *pvSort [in, out]
+### -param pvSort [in, out]
 
 An application-defined value that is passed in the <b>pvSort</b> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_create_context_para">CERT_CREATE_CONTEXT_PARA</a> structure.
 

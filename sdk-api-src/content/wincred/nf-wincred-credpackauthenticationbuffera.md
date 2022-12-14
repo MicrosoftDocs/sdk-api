@@ -1,7 +1,7 @@
 ---
 UID: NF:wincred.CredPackAuthenticationBufferA
 title: CredPackAuthenticationBufferA function (wincred.h)
-description: Converts a string user name and password into an authentication buffer.
+description: Converts a string user name and password into an authentication buffer. (ANSI)
 helpviewer_keywords: ["CRED_PACK_GENERIC_CREDENTIALS","CRED_PACK_ID_PROVIDER_CREDENTIALS","CRED_PACK_PROTECTED_CREDENTIALS","CRED_PACK_WOW_BUFFER","CredPackAuthenticationBuffer","CredPackAuthenticationBuffer function [Security]","CredPackAuthenticationBufferA","CredPackAuthenticationBufferW","security.credpackauthenticationbuffer","wincred/CredPackAuthenticationBuffer","wincred/CredPackAuthenticationBufferA","wincred/CredPackAuthenticationBufferW"]
 old-location: security\credpackauthenticationbuffer.htm
 tech.root: security
@@ -118,9 +118,9 @@ Encrypts the credential in a CRED_GENERIC buffer.
 
 A pointer to a null-terminated string that specifies the user name to be converted. For domain users, the string must be in the following format:
 
-<i>DomainName</i><b>\</b><i>UserName</i>
+<i>DomainName</i><b>\\</b><i>UserName</i>
 
-For online identities, if the credential is a plaintext password, the user name format is <i>ProviderName</i><b>\</b><i>UserName</i>. If the credential is a <a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure, the user name is an encoded string that is the <i>UserName</i> parameter output of a function call to <a href="/windows/desktop/api/sspi/nf-sspi-sspiencodeauthidentityasstrings">SspiEncodeAuthIdentityAsStrings</a>.
+For online identities, if the credential is a plaintext password, the user name format is <i>ProviderName</i><b>\\</b><i>UserName</i>. If the credential is a <a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure, the user name is an encoded string that is the <i>UserName</i> parameter output of a function call to <a href="/windows/desktop/api/sspi/nf-sspi-sspiencodeauthidentityasstrings">SspiEncodeAuthIdentityAsStrings</a>.
 
 For <a href="/windows/desktop/SecGloss/s-gly">smart card</a> or certificate credentials, the user name is an encoded string that is the output of a function call to <a href="/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a> with the CertCredential option.
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmGetImeMenuItemsW
 title: ImmGetImeMenuItemsW function (immdev.h)
-description: Retrieves the menu items that are registered in the IME menu of a specified input context.
+description: The ImmGetImeMenuItemsW (Unicode) function (immdev.h) retrieves the menu items that are registered in the IME menu of a specified input context. 
 helpviewer_keywords: ["IGIMIF_RIGHTMENU","IGIMII_CMODE","IGIMII_CONFIGURE","IGIMII_HELP","IGIMII_INPUTTOOLS","IGIMII_OTHER","IGIMII_SMODE","IGIMII_TOOLS","ImmGetImeMenuItems","ImmGetImeMenuItems function [Internationalization for Windows Applications]","ImmGetImeMenuItemsA","ImmGetImeMenuItemsW","_win32_ImmGetImeMenuItems","imm/ImmGetImeMenuItems","imm/ImmGetImeMenuItemsA","imm/ImmGetImeMenuItemsW","intl.immgetimemenuitems"]
 old-location: intl\immgetimemenuitems.htm
 tech.root: Intl
 ms.assetid: 452c864d-b2e7-452a-85f2-d06d46170865
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: IGIMIF_RIGHTMENU, IGIMII_CMODE, IGIMII_CONFIGURE, IGIMII_HELP, IGIMII_INPUTTOOLS, IGIMII_OTHER, IGIMII_SMODE, IGIMII_TOOLS, ImmGetImeMenuItems, ImmGetImeMenuItems function [Internationalization for Windows Applications], ImmGetImeMenuItemsA, ImmGetImeMenuItemsW, _win32_ImmGetImeMenuItems, imm/ImmGetImeMenuItems, imm/ImmGetImeMenuItemsA, imm/ImmGetImeMenuItemsW, intl.immgetimemenuitems
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
@@ -53,11 +53,11 @@ Retrieves the menu items that are registered in the IME menu of a specified inpu
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Handle to the input context for the specified menu items.
 
-### -param Arg2 [in]
+### -param unnamedParam2 [in]
 
 Flag specifying menu information options. The following value is defined.
 
@@ -78,7 +78,7 @@ Retrieve the menu items for the context menu, obtained by a right mouse click.
 </tr>
 </table>
 
-### -param Arg3 [in]
+### -param unnamedParam3 [in]
 
 Type of menu to retrieve. This parameter can have one or more of the following values.
 

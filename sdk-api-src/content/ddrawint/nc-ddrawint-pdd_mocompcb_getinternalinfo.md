@@ -51,7 +51,7 @@ The <b>DdMoCompGetInternalInfo</b> callback function allows the driver to report
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getinternalmocompdata">DD_GETINTERNALMOCOMPDATA</a> structure that contains the internal memory requirements.
 

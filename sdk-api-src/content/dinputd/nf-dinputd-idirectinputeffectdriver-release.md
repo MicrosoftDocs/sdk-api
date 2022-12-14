@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputEffectDriver::Release </b>method decreases the reference count of the DirectInputEffectDriver object by 1. This method is part of the <b>IUnknown</b> interface inherited by DirectInputEffectDriver.
+The <b>IDirectInputEffectDriver::Release </b> method decreases the reference count of the DirectInputEffectDriver object by 1. This method is part of the <b>IUnknown</b> interface inherited by DirectInputEffectDriver.
 
-## -parameters
+
 
 ## -returns
 

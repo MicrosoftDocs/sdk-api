@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasGetEntryPropertiesW
 title: RasGetEntryPropertiesW function (ras.h)
-description: The RasGetEntryProperties function retrieves the properties of a phone-book entry.
+description: The RasGetEntryProperties function retrieves the properties of a phone-book entry. (Unicode)
 helpviewer_keywords: ["RasGetEntryProperties","RasGetEntryProperties function [RAS]","RasGetEntryPropertiesA","RasGetEntryPropertiesW","_ras_rasgetentryproperties","ras/RasGetEntryProperties","ras/RasGetEntryPropertiesA","ras/RasGetEntryPropertiesW","rras.rasgetentryproperties"]
 old-location: rras\rasgetentryproperties.htm
 tech.root: RRAS
@@ -59,7 +59,7 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box. 
 
@@ -68,11 +68,11 @@ Pointer to a <b>null</b>-terminated string that specifies the full path and file
 
 <b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Pointer to a <b>null</b>-terminated string that specifies an existing entry name. If an empty string is specified, the function returns default values in the buffers pointed to by the <i>lpRasEntry</i> and <i>lpbDeviceInfo</i> parameters.
 
-### -param arg3 [in, out]
+### -param unnamedParam3 [in, out]
 
 Pointer to a 
 <a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure followed by additional bytes for the alternate phone number list, if there is one. 
@@ -90,7 +90,7 @@ This parameter can be <b>NULL</b>.
 Microsoft Layer for Unicode does not support <b>dwAlternateOffset</b> in 
 <a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>.
 
-### -param arg4 [in, out]
+### -param unnamedParam4 [in, out]
 
 Pointer to a variable that, on input, specifies the size, in bytes, of the <i>lpRasEntry</i> buffer. 
 
@@ -104,7 +104,7 @@ This parameter can be <b>NULL</b> if the <i>lpRasEntry</i> parameter is <b>NULL<
 To determine the required buffer size, call 
 <b>RasGetEntryProperties</b> with <i>lpRasEntry</i> set to <b>NULL</b> and <i>*lpdwEntryInfoSize</i> set to zero. The function returns the required buffer size in <i>*lpdwEntryInfoSize</i>.
 
-### -param arg5 [out]
+### -param unnamedParam5 [out]
 
 This parameter is no longer used. The calling function should set this parameter to <b>NULL</b>.
 
@@ -114,7 +114,7 @@ This parameter is no longer used. The calling function should set this parameter
 
 This parameter can be <b>NULL</b>.
 
-### -param arg6 [in, out]
+### -param unnamedParam6 [in, out]
 
 This parameter is unused. The calling function should set this parameter to <b>NULL</b>.
 						

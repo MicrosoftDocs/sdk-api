@@ -55,7 +55,7 @@ api_name:
 
 Revokes a registered <a href="/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a> object.
 
-## -parameters
+
 
 ## -returns
 

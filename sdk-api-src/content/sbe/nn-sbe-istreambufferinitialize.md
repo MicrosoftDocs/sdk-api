@@ -54,38 +54,10 @@ The <b>IStreamBufferInitialize</b> interface is used to configure the stream buf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferInitialize</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamBufferInitialize</b> also has these types of members:
+The <b>IStreamBufferInitialize</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamBufferInitialize</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IStreamBufferInitialize</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferinitialize-sethkey">SetHKEY</a>
-</td>
-<td align="left" width="63%">
-Sets the registry key where the object stores configuration information.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferinitialize-setsids">SetSIDs</a>
-</td>
-<td align="left" width="63%">
-Sets the security identifiers (SIDs) that are used to protect access to the backing files.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

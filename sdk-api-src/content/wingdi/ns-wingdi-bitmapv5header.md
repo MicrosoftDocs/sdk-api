@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>BITMAPV5HEADER</b> structure is the bitmap information header file. It is an extended version of the <a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure.
+The <b>BITMAPV5HEADER</b> structure is the bitmap information header file. It is an extended version of the <a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure.
 
 ## -struct-fields
 
@@ -307,7 +307,7 @@ This member has been reserved. Its value should be set to zero.
 
 If <b>bV5Height</b> is negative, indicating a top-down DIB, <b>bV5Compression</b> must be either BI_RGB or BI_BITFIELDS. Top-down DIBs cannot be compressed.
 
-The Independent Color Management interface (ICM) 2.0 allows International Color Consortium (ICC) color profiles to be linked or embedded in DIBs (DIBs). See <a href="/previous-versions/windows/desktop/wcs/using-structures-in-wcs-1-0">Using Structures</a> for more information.
+The Independent Color Management interface (ICM) 2.0 allows International Color Consortium (ICC) color profiles to be linked or embedded in DIBs (DIBs). See <a href="/windows/win32/wcs/using-structures-in-wcs-1-0">Using Structures</a> for more information.
 
 When a DIB is loaded into memory, the profile data (if present) should follow the color table, and the <b>bV5ProfileData</b> should provide the offset of the profile data from the beginning of the <b>BITMAPV5HEADER</b> structure. The value stored in <b>bV5ProfileData</b> will be different from the value returned by the <b>sizeof</b> operator given the <b>BITMAPV5HEADER</b> argument, because <b>bV5ProfileData</b> is the offset in bytes from the beginning of the <b>BITMAPV5HEADER</b> structure to the start of the profile data. (Bitmap bits do not follow the color table in memory). Applications should modify the <b>bV5ProfileData</b> member after loading the DIB into memory.
 
@@ -323,7 +323,7 @@ If a profile is linked, the path of the profile can be any fully qualified name 
 
 
 
-<a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a>
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet.GetMatchingFonts(DWRITE_FONT_PROPERTYconst,UINT32,IDWriteFontSet)
 title: IDWriteFontSet::GetMatchingFonts (dwrite_3.h)
-description: Returns a subset of fonts filtered by the given properties.
+description: Returns a subset of fonts filtered by the given properties. (overload 2/2)
 helpviewer_keywords: ["GetMatchingFonts","GetMatchingFonts method [Direct Write]","GetMatchingFonts method [Direct Write]","IDWriteFontSet interface","IDWriteFontSet interface [Direct Write]","GetMatchingFonts method","IDWriteFontSet.GetMatchingFonts","IDWriteFontSet::GetMatchingFonts","directwrite.idwritefontset_getmatchingfonts_1","dwrite_3/IDWriteFontSet::GetMatchingFonts"]
 old-location: directwrite\idwritefontset_getmatchingfonts_1.htm
 tech.root: DirectWrite
@@ -73,7 +73,7 @@ The subset of fonts that match the properties, or nullptr on failure.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

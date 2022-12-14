@@ -1,12 +1,12 @@
 ---
 UID: NS:winsock.hostent
 title: HOSTENT (winsock.h)
-description: The hostent structure is used by functions to store information about a given host, such as host name, IPv4 address, and so forth.
+description: The HOSTENT (winsock.h) structure is used by functions to store information about a given host, such as host name, IPv4 address, and so forth.
 helpviewer_keywords: ["*LPHOSTENT","*PHOSTENT","FAR *LPHOSTENT","FAR *LPHOSTENT structure [Winsock]","HOSTENT","HOSTENT structure [Winsock]","PHOSTENT","PHOSTENT structure pointer [Winsock]","_win32_hostent_2","hostent","hostent structure [Winsock]","winsock.hostent_2","winsock/FAR *LPHOSTENT","winsock/PHOSTENT","winsock/hostent"]
 old-location: winsock\hostent_2.htm
 tech.root: WinSock
 ms.assetid: f194b9d5-dfaf-4a02-95c6-6d06015aad1d
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: '*LPHOSTENT, *PHOSTENT, FAR *LPHOSTENT, FAR *LPHOSTENT structure [Winsock], HOSTENT, HOSTENT structure [Winsock], PHOSTENT, PHOSTENT structure pointer [Winsock], _win32_hostent_2, hostent, hostent structure [Winsock], winsock.hostent_2, winsock/FAR *LPHOSTENT, winsock/PHOSTENT, winsock/hostent'
 req.header: winsock.h
 req.include-header: Winsock2.h

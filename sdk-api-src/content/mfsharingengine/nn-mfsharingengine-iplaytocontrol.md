@@ -54,38 +54,7 @@ Enables the <b>PlayToConnection</b> object to connect to a media element.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPlayToControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPlayToControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPlayToControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfsharingengine/nf-mfsharingengine-iplaytocontrol-connect">Connect</a>
-</td>
-<td align="left" width="63%">
-Connects the media element to the media sharing engine.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfsharingengine/nf-mfsharingengine-iplaytocontrol-disconnect">Disconnect</a>
-</td>
-<td align="left" width="63%">
-Disconnects the media element from the media sharing engine.
-
-</td>
-</tr>
-</table>
+The <b>IPlayToControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPlayToControl</b> also has these types of members:
 
 ## -see-also
 

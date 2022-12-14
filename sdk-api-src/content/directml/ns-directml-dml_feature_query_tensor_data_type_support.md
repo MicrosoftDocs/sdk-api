@@ -50,14 +50,13 @@ api_name:
 
 ## -description
 
-Used to query a DirectML device for its support for a particular data type within tensors. See [IDMLDevice::CheckFeatureSupport](/windows/desktop/api/directml/nf-directml-idmldevice-checkfeaturesupport). The query type is <b>DML_FEATURE_QUERY_TENSOR_DATA_TYPE_SUPPORT</b>, and
-      the support data type is [DML_FEATURE_DATA_TENSOR_DATA_TYPE_SUPPORT](/windows/desktop/api/directml/ns-directml-dml_feature_data_tensor_data_type_support).
+Used to query a DirectML device for its support for a particular data type within tensors. See [IDMLDevice::CheckFeatureSupport](/windows/win32/api/directml/nf-directml-idmldevice-checkfeaturesupport). The query type is <b>DML_FEATURE_QUERY_TENSOR_DATA_TYPE_SUPPORT</b>, and
+      the support data type is [DML_FEATURE_DATA_TENSOR_DATA_TYPE_SUPPORT](/windows/win32/api/directml/ns-directml-dml_feature_data_tensor_data_type_support).
 
 ## -struct-fields
 
 ### -field DataType
 
-Type: [**DML_TENSOR_DATA_TYPE**](/windows/desktop/api/directml/ne-directml-dml_tensor_data_type)
+Type: [**DML_TENSOR_DATA_TYPE**](/windows/win32/api/directml/ne-directml-dml_tensor_data_type)
 
 The data type about which you're querying for support.
-

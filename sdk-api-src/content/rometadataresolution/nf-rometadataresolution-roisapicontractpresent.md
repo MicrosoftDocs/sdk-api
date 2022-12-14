@@ -2,7 +2,6 @@
 UID: NF:rometadataresolution.RoIsApiContractPresent
 title: RoIsApiContractPresent (rometadataresolution.h)
 ms.date: 02/13/2020
-ms.topic: language-reference
 tech.root: WinRT
 targetos: Windows
 description: Returns true or false to indicate whether the API contract with the specified name and major and minor version number is present.
@@ -29,7 +28,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - rometadataresolution.h
 api_name:
@@ -113,16 +111,6 @@ The input string is not an API contract defined in any examined .winmd file.
 </td>
 <td width="60%">
 The input string is an existing namespace rather than an API contract name.
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HR_RESULT_FROM_WIN32(ERROR_NO_PACKAGE)</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function was called from a process that is not in a UWP app container.
 </td>
 </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
 UID: NN:shdeprecated.IBrowserService4
 title: IBrowserService4 (shdeprecated.h)
-description: Deprecated.
+description: Deprecated. (IBrowserService4)
 helpviewer_keywords: ["IBrowserService4","IBrowserService4 interface [Windows Shell]","IBrowserService4 interface [Windows Shell]","described","_shell_IBrowserService4","shdeprecated/IBrowserService4","shell.IBrowserService4"]
 old-location: shell\IBrowserService4.htm
 tech.root: shell
@@ -54,47 +54,7 @@ Deprecated.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBrowserService4</b> interface inherits from <a href="/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice3">IBrowserService3</a>. <b>IBrowserService4</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IBrowserService4</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice4-_resizeallborders">_ResizeAllBorders</a>
-</td>
-<td align="left" width="63%">
-Deprecated.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice4-activateview">ActivateView</a>
-</td>
-<td align="left" width="63%">
-Deprecated.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice4-saveviewstate">SaveViewState</a>
-</td>
-<td align="left" width="63%">
-Deprecated.
-
-</td>
-</tr>
-</table>
+The <b>IBrowserService4</b> interface inherits from <a href="/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice3">IBrowserService3</a>. <b>IBrowserService4</b> also has these types of members:
 
 ## -remarks
 

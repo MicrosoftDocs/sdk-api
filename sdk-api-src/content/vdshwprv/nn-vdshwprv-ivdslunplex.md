@@ -1,12 +1,12 @@
 ---
 UID: NN:vdshwprv.IVdsLunPlex
 title: IVdsLunPlex (vdshwprv.h)
-description: Provides methods for performing query and configuration operations on a LUN plex.
+description: The IVdsLunPlex interface (vdshwprv.h) provides methods for performing query and configuration operations on a LUN plex. 
 helpviewer_keywords: ["IVdsLunPlex","IVdsLunPlex interface [VDS]","IVdsLunPlex interface [VDS]","described","base.ivdslunplex","vds/IVdsLunPlex","vdshwprv/IVdsLunPlex"]
 old-location: base\ivdslunplex.htm
 tech.root: base
 ms.assetid: de795ae2-784c-43d7-a34c-546af31d2747
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsLunPlex, IVdsLunPlex interface [VDS], IVdsLunPlex interface [VDS],described, base.ivdslunplex, vds/IVdsLunPlex, vdshwprv/IVdsLunPlex
 req.header: vdshwprv.h
 req.include-header: 
@@ -57,65 +57,7 @@ Provides methods for performing query and configuration operations on a LUN plex
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsLunPlex</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsLunPlex</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVdsLunPlex</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-applyhints">ApplyHints</a>
-</td>
-<td align="left" width="63%">
-Applies a new set of hints to the LUN plex.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-getlun">GetLun</a>
-</td>
-<td align="left" width="63%">
-Returns the LUN object to which the plex object belongs.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-getproperties">GetProperties</a>
-</td>
-<td align="left" width="63%">
-Returns the properties of the LUN plex.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-queryextents">QueryExtents</a>
-</td>
-<td align="left" width="63%">
-Returns an array of the drive extents that contribute to the plex.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-queryhints">QueryHints</a>
-</td>
-<td align="left" width="63%">
-Returns the hints that are currently applied to the LUN plex.
-
-</td>
-</tr>
-</table>
+The <b>IVdsLunPlex</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsLunPlex</b> also has these types of members:
 
 ## -see-also
 

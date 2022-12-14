@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMUINT3.XMUINT3(constXMUINT3&)
 title: XMUINT3::XMUINT3(const XMUINT3 &) (directxmath.h)
-description: A constructor for XMUINT3.
+description: A constructor for XMUINT3. (overload 2/2)
 helpviewer_keywords: ["XMUINT3","XMUINT3 constructor [DirectX Math Support APIs]","XMUINT3 constructor [DirectX Math Support APIs]","XMUINT3 structure","XMUINT3 structure [DirectX Math Support APIs]","XMUINT3 constructor","XMUINT3.XMUINT3","XMUINT3.XMUINT3()","XMUINT3.XMUINT3(const XMUINT3 &)","XMUINT3::XMUINT3","XMUINT3::XMUINT3(const XMUINT3 &)","dxmath.xmuint3_ctor_1"]
 old-location: 
 tech.root: dxmath
@@ -11,8 +11,8 @@ ms.keywords: XMUINT3, XMUINT3 constructor [DirectX Math Support APIs], XMUINT3 c
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -57,7 +57,7 @@ A constructor for <a href="/windows/desktop/api/directxmath/ns-directxmath-xmuin
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A value.
 

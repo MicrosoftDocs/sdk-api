@@ -58,7 +58,7 @@ Gets a mask of enabled XState features on x86 or x64 processors.
 The definition of XState feature bits are processor vendor specific. Please refer to the relevant processor 
     reference manuals for additional information on a particular feature.
 
-## -parameters
+
 
 ## -returns
 

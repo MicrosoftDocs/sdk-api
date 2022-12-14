@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupAddInstallSectionToDiskSpaceListA
 title: SetupAddInstallSectionToDiskSpaceListA function (setupapi.h)
-description: The SetupAddInstallSectionToDiskSpaceList function searches for CopyFile and DelFile lines in an Install section of an INF file. The function then adds the file operations specified in those sections to a disk-space list.
+description: The SetupAddInstallSectionToDiskSpaceList function searches for CopyFile and DelFile lines in an Install section of an INF file. The function then adds the file operations specified in those sections to a disk-space list. (ANSI)
 helpviewer_keywords: ["SetupAddInstallSectionToDiskSpaceList","SetupAddInstallSectionToDiskSpaceList function [Setup API]","SetupAddInstallSectionToDiskSpaceListA","SetupAddInstallSectionToDiskSpaceListW","_setupapi_setupaddinstallsectiontodiskspacelist","setup.setupaddinstallsectiontodiskspacelist","setupapi/SetupAddInstallSectionToDiskSpaceList","setupapi/SetupAddInstallSectionToDiskSpaceListA","setupapi/SetupAddInstallSectionToDiskSpaceListW"]
 old-location: setup\setupaddinstallsectiontodiskspacelist.htm
 tech.root: setup

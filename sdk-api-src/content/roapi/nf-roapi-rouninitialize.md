@@ -43,6 +43,7 @@ api_location:
  - roapi.h
  - API-MS-Win-Core-WinRT-l1-1-0.dll
  - ComBase.dll
+ - api-ms-win-core-winrt-string-l1-1-0.dll
 api_name:
  - RoUninitialize
  - WinRTUninitialize
@@ -55,7 +56,7 @@ api_name:
 
 Closes the Windows Runtime on the current thread.
 
-## -parameters
+
 
 ## -remarks
 

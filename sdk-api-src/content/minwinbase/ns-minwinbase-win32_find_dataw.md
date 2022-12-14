@@ -1,7 +1,7 @@
 ---
 UID: NS:minwinbase._WIN32_FIND_DATAW
 title: WIN32_FIND_DATAW (minwinbase.h)
-description: Contains information about the file that is found by the FindFirstFile, FindFirstFileEx, or FindNextFile function.
+description: Contains information about the file that is found by the FindFirstFile, FindFirstFileEx, or FindNextFile function. (Unicode)
 helpviewer_keywords: ["*LPWIN32_FIND_DATAW","*PWIN32_FIND_DATAW","IO_REPARSE_TAG_CSV","IO_REPARSE_TAG_DEDUP","IO_REPARSE_TAG_DFS","IO_REPARSE_TAG_DFSR","IO_REPARSE_TAG_HSM","IO_REPARSE_TAG_HSM2","IO_REPARSE_TAG_MOUNT_POINT","IO_REPARSE_TAG_NFS","IO_REPARSE_TAG_SIS","IO_REPARSE_TAG_SYMLINK","IO_REPARSE_TAG_WIM","LPWIN32_FIND_DATA","LPWIN32_FIND_DATA structure pointer [Files]","PWIN32_FIND_DATA","PWIN32_FIND_DATA structure pointer [Files]","WIN32_FIND_DATA","WIN32_FIND_DATA structure [Files]","WIN32_FIND_DATAA","WIN32_FIND_DATAW","_win32_win32_find_data_str","base.win32_find_data_str","fs.win32_find_data_str","minwinbase/LPWIN32_FIND_DATA","minwinbase/PWIN32_FIND_DATA","minwinbase/WIN32_FIND_DATA","minwinbase/WIN32_FIND_DATAA","minwinbase/WIN32_FIND_DATAW","winbase/LPWIN32_FIND_DATA","winbase/PWIN32_FIND_DATA","winbase/WIN32_FIND_DATA","winbase/WIN32_FIND_DATAA","winbase/WIN32_FIND_DATAW"]
 old-location: fs\win32_find_data_str.htm
 tech.root: fs
@@ -53,6 +53,8 @@ api_name:
 ---
 
 # WIN32_FIND_DATAW structure
+
+
 
 
 ## -description
@@ -189,46 +191,35 @@ This name is in the classic 8.3 file name format.
 
 ### -field dwFileType
 
+Obsolete. Do not use.
+
 ### -field dwCreatorType
+
+Obsolete. Do not use.
 
 ### -field wFinderFlags
 
- 
+Obsolete. Do not use.
 
+## -syntax
 
-
-
-##### - dwReserved0.IO_REPARSE_TAG_CSV (0x80000009)
-
-
-##### - dwReserved0.IO_REPARSE_TAG_DEDUP (0x80000013)
-
-
-##### - dwReserved0.IO_REPARSE_TAG_DFS (0x8000000A)
-
-
-##### - dwReserved0.IO_REPARSE_TAG_DFSR (0x80000012)
-
-
-##### - dwReserved0.IO_REPARSE_TAG_HSM (0xC0000004)
-
-
-##### - dwReserved0.IO_REPARSE_TAG_HSM2 (0x80000006)
-
-
-##### - dwReserved0.IO_REPARSE_TAG_MOUNT_POINT (0xA0000003)
-
-
-##### - dwReserved0.IO_REPARSE_TAG_NFS (0x80000014)
-
-
-##### - dwReserved0.IO_REPARSE_TAG_SIS (0x80000007)
-
-
-##### - dwReserved0.IO_REPARSE_TAG_SYMLINK (0xA000000C)
-
-
-##### - dwReserved0.IO_REPARSE_TAG_WIM (0x80000008)
+```
+typedef struct _WIN32_FIND_DATAW {
+  DWORD    dwFileAttributes;
+  FILETIME ftCreationTime;
+  FILETIME ftLastAccessTime;
+  FILETIME ftLastWriteTime;
+  DWORD    nFileSizeHigh;
+  DWORD    nFileSizeLow;
+  DWORD    dwReserved0;
+  DWORD    dwReserved1;
+  WCHAR    cFileName[MAX_PATH];
+  WCHAR    cAlternateFileName[14];
+  DWORD    dwFileType; // Obsolete. Do not use.
+  DWORD    dwCreatorType; // Obsolete. Do not use
+  WORD     wFinderFlags; // Obsolete. Do not use
+} WIN32_FIND_DATAW, *PWIN32_FIND_DATAW, *LPWIN32_FIND_DATAW;
+```
 
 ## -remarks
 

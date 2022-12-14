@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiReinstallFeatureW
 title: MsiReinstallFeatureW function (msi.h)
-description: Reinstalls features.
+description: Reinstalls features. (Unicode)
 helpviewer_keywords: ["MsiReinstallFeature","MsiReinstallFeature function","MsiReinstallFeatureA","MsiReinstallFeatureW","REINSTALLMODE_FILEEQUALVERSION","REINSTALLMODE_FILEEXACT","REINSTALLMODE_FILEMISSING","REINSTALLMODE_FILEOLDERVERSION","REINSTALLMODE_FILEREPLACE","REINSTALLMODE_FILEVERIFY","REINSTALLMODE_MACHINEDATA","REINSTALLMODE_PACKAGE","REINSTALLMODE_SHORTCUT","REINSTALLMODE_USERDATA","_msi_msireinstallfeature","msi/MsiReinstallFeature","msi/MsiReinstallFeatureA","msi/MsiReinstallFeatureW","setup.msireinstallfeature"]
 old-location: setup\msireinstallfeature.htm
 tech.root: setup
@@ -142,7 +142,7 @@ Force all files to be reinstalled, regardless of checksum or version.
 </td>
 <td width="60%">
 Rewrite all required registry entries from the 
-<a href="/windows/desktop/Msi/registry-table">Registry Table</a> that go to the<b>HKEY_CURRENT_USER</b></p>  or <b>HKEY_USERS</b></p> registry hive.
+<a href="/windows/desktop/Msi/registry-table">Registry Table</a> that go to the <b>HKEY_CURRENT_USER</b></p>  or <b>HKEY_USERS</b></p> registry hive.
 
 </td>
 </tr>
@@ -153,7 +153,7 @@ Rewrite all required registry entries from the
 </td>
 <td width="60%">
 Rewrite all required registry entries from the 
-<a href="/windows/desktop/Msi/registry-table">Registry Table</a> that go to the <b>HKEY_LOCAL_MACHINE</b></p>or <b>HKEY_CLASSES_ROOT</b></p> registry hive. Rewrite all information from the 
+<a href="/windows/desktop/Msi/registry-table">Registry Table</a> that go to the <b>HKEY_LOCAL_MACHINE</b></p> or <b>HKEY_CLASSES_ROOT</b></p> registry hive. Rewrite all information from the 
 <a href="/windows/desktop/Msi/class-table">Class Table</a>, 
 <a href="/windows/desktop/Msi/verb-table">Verb Table</a>, 
 <a href="/windows/desktop/Msi/publishcomponent-table">PublishComponent Table</a>, 

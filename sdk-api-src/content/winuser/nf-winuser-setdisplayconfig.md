@@ -45,6 +45,7 @@ api_location:
  - MinUser.dll
 api_name:
  - SetDisplayConfig
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetDisplayConfig function
@@ -74,99 +75,187 @@ Array of display source and target mode information (<a href="/windows/desktop/a
 
 ### -param flags [in]
 
-A bitwise OR of flag values that indicates the behavior of this function. This parameter can be one the following values, or a combination of the following values; 0 is not valid.
+A bitwise OR of flag values that indicates the behavior of this function. This parameter can be one the following values, or a combination of the following values; 0 is not valid. See below for a description of valid flag combinations.
 
 
-
-
-
-#### SDC_APPLY
-
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_APPLY"></a><a id="sdc_apply"></a><dl>
+<dt><b>SDC_APPLY</b></dt>
+<dt>0x00000080</dt>
+</dl>
+</td>
+<td width="60%">
 The resulting topology, source, and target mode is set.
-
-
-
-#### SDC_NO_OPTIMIZATION
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_NO_OPTIMIZATION"></a><a id="sdc_no_optimization"></a><dl>
+<dt><b>SDC_NO_OPTIMIZATION</b></dt>
+<dt>0x00000100</dt>
+</dl>
+</td>
+<td width="60%">
 A modifier to the SDC_APPLY flag. This causes the change mode to be forced all the way down to the driver for each active display.
-
-
-
-#### SDC_USE_SUPPLIED_DISPLAY_CONFIG
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_USE_SUPPLIED_DISPLAY_CONFIG"></a><a id="sdc_use_supplied_display_config"></a><dl>
+<dt><b>SDC_USE_SUPPLIED_DISPLAY_CONFIG</b></dt>
+<dt>0x00000020</dt>
+</dl>
+</td>
+<td width="60%">
 The topology, source, and target mode information that are supplied in the <i>pathArray</i> and the <i>modeInfoArray</i> parameters are used, rather than looking up the configuration in the database.
-
-
-
-#### SDC_SAVE_TO_DATABASE
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_SAVE_TO_DATABASE"></a><a id="sdc_save_to_database"></a><dl>
+<dt><b>SDC_SAVE_TO_DATABASE</b></dt>
+<dt>0x00000200</dt>
+</dl>
+</td>
+<td width="60%">
 The resulting topology, source, and target mode are saved to the database.
-
-
-
-#### SDC_VALIDATE
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_VALIDATE"></a><a id="sdc_validate"></a><dl>
+<dt><b>SDC_VALIDATE</b></dt>
+<dt>0x00000040</dt>
+</dl>
+</td>
+<td width="60%">
 The system tests for the requested topology, source, and target mode information to determine whether it can be set. 
-
-
-
-#### SDC_ALLOW_CHANGES
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_ALLOW_CHANGES"></a><a id="sdc_allow_changes"></a><dl>
+<dt><b>SDC_ALLOW_CHANGES</b></dt>
+<dt>0x00000400</dt>
+</dl>
+</td>
+<td width="60%">
 If required, the function can modify the specified source and target mode information in order to create a functional display path set.
-
-
-
-#### SDC_TOPOLOGY_CLONE
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_TOPOLOGY_CLONE"></a><a id="sdc_topology_clone"></a><dl>
+<dt><b>SDC_TOPOLOGY_CLONE</b></dt>
+<dt>0x00000002</dt>
+</dl>
+</td>
+<td width="60%">
 The caller requests the last clone configuration from the persistence database.
-
-
-
-#### SDC_TOPOLOGY_EXTEND
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_TOPOLOGY_EXTEND"></a><a id="sdc_topology_extend"></a><dl>
+<dt><b>SDC_TOPOLOGY_EXTEND</b></dt>
+<dt>0x00000004</dt>
+</dl>
+</td>
+<td width="60%">
 The caller requests the last extended configuration from the persistence database.
-
-
-
-#### SDC_TOPOLOGY_INTERNAL
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_TOPOLOGY_INTERNAL"></a><a id="sdc_topology_internal"></a><dl>
+<dt><b>SDC_TOPOLOGY_INTERNAL</b></dt>
+<dt>0x00000001</dt>
+</dl>
+</td>
+<td width="60%">
 The caller requests the last internal configuration from the persistence database.
-
-
-
-#### SDC_TOPOLOGY_EXTERNAL
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_TOPOLOGY_EXTERNAL"></a><a id="sdc_topology_external"></a><dl>
+<dt><b>SDC_TOPOLOGY_EXTERNAL</b></dt>
+<dt>0x00000008</dt>
+</dl>
+</td>
+<td width="60%">
 The caller requests the last external configuration from the persistence database.
-
-
-
-#### SDC_TOPOLOGY_SUPPLIED
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_TOPOLOGY_SUPPLIED"></a><a id="sdc_topology_supplied"></a><dl>
+<dt><b>SDC_TOPOLOGY_SUPPLIED</b></dt>
+<dt>0x00000010</dt>
+</dl>
+</td>
+<td width="60%">
 The caller provides the path data so the function only queries the persistence database to find and use the source and target mode.
-
-
-
-#### SDC_USE_DATABASE_CURRENT
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_USE_DATABASE_CURRENT"></a><a id="sdc_use_database_current"></a><dl>
+<dt><b>SDC_USE_DATABASE_CURRENT</b></dt>
+<dt>(SDC_TOPOLOGY_INTERNAL | SDC_TOPOLOGY_CLONE | SDC_TOPOLOGY_EXTEND | SDC_TOPOLOGY_EXTERNAL)</dt>
+</dl>
+</td>
+<td width="60%">
 The caller requests a combination of all four SDC_TOPOLOGY_XXX configurations. This value informs the API to set the last known display configuration for the current connected monitors.
-
-
-
-#### SDC_PATH_PERSIST_IF_REQUIRED
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_PATH_PERSIST_IF_REQUIRED"></a><a id="sdc_path_persist_if_required"></a><dl>
+<dt><b>SDC_PATH_PERSIST_IF_REQUIRED</b></dt>
+<dt>0x00000800</dt>
+</dl>
+</td>
+<td width="60%">
 When the function processes a SDC_TOPOLOGY_XXX request, it can force path persistence on a target to satisfy the request if necessary. For information about the other flags that this flag can be combined with, see the following list. 
-
-
-
-#### SDC_FORCE_MODE_ENUMERATION
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_FORCE_MODE_ENUMERATION"></a><a id="sdc_force_mode_enumeration"></a><dl>
+<dt><b>SDC_FORCE_MODE_ENUMERATION</b></dt>
+<dt>0x00001000</dt>
+</dl>
+</td>
+<td width="60%">
 The caller requests that the driver is given an opportunity to update the GDI mode list while <b>SetDisplayConfig</b> sets the new display configuration. This flag value is only valid when the SDC_USE_SUPPLIED_DISPLAY_CONFIG and SDC_APPLY flag values are also specified. 
-
-
-
-#### SDC_ALLOW_PATH_ORDER_CHANGES
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_ALLOW_PATH_ORDER_CHANGES"></a><a id="sdc_allow_path_order_changes"></a><dl>
+<dt><b>SDC_ALLOW_PATH_ORDER_CHANGES</b></dt>
+<dt>0x00002000</dt>
+</dl>
+</td>
+<td width="60%">
 A modifier to the SDC_TOPOLOGY_SUPPLIED flag that indicates that <b>SetDisplayConfig</b> should ignore the path order of the supplied topology when searching the database. When this flag is set, the topology set is the most recent topology that contains all the paths regardless of the path order. 
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_VIRTUAL_MODE_AWARE"></a><a id="sdc_virtual_mode_aware"></a><dl>
+<dt><b>SDC_VIRTUAL_MODE_AWARE</b></dt>
+<dt>0x00008000</dt>
+</dl>
+</td>
+<td width="60%">
+A modifier to the SDC_USE_SUPPLIED_DISPLAY_CONFIG and SDC_TOPOLOGY_SUPPLIED flags that the caller is aware of virtual modes.
+Supported starting in Windows 10.
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_VIRTUAL_REFRESH_RATE_AWARE"></a><a id="sdc_virtual_refresh_rate_aware"></a><dl>
+<dt><b>SDC_VIRTUAL_REFRESH_RATE_AWARE</b></dt>
+<dt>0x00020000</dt>
+</dl>
+</td>
+<td width="60%">
+A modifier to the SDC_USE_SUPPLIED_DISPLAY_CONFIG and SDC_TOPOLOGY_SUPPLIED flags that the caller is aware of virtual refresh rates.
+Supported starting in Windows 11.
+</td>
+</tr>
+</table>
 
 The following list contains valid combinations of values for the <i>Flags</i> parameter: 
 

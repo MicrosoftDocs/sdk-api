@@ -1,7 +1,7 @@
 ---
 UID: NN:certenroll.ICspStatus
 title: ICspStatus (certenroll.h)
-description: Contains information about a cryptographic provider/algorithm pair.
+description: Contains information about a cryptographic provider/algorithm pair. (ICspStatus)
 helpviewer_keywords: ["ICspStatus","ICspStatus interface [Security]","ICspStatus interface [Security]","described","certenroll/ICspStatus","security.icspstatus"]
 old-location: security\icspstatus.htm
 tech.root: security
@@ -129,103 +129,7 @@ You can use the <a href="/windows/desktop/api/certenroll/nf-certenroll-icspstatu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICspStatus</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICspStatus</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
-
-## -members
-
-The <b>ICspStatus</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-icspstatus-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the object from a cryptographic provider and an associated algorithm.
-
-[WebEnabled]
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICspStatus</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-icspstatus-get_cspalgorithm">CspAlgorithm</a>
-
-
-</td>
-<td align="left" width="63%">
-Retrieves an <a href="/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a> object that contains information about an algorithm supported by the provider.
-
-[WebEnabled]
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-icspstatus-get_cspinformation">CspInformation</a>
-
-
-</td>
-<td align="left" width="63%">
-Retrieves an <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a> object that contains general information about the provider.
-
-[WebEnabled]
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-icspstatus-get_displayname">DisplayName</a>
-
-
-</td>
-<td align="left" width="63%">
-Retrieves a string that contains the name of the provider, the algorithm name, and the operations that can be performed by the algorithm.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-icspstatus-get_enrollmentstatus">EnrollmentStatus</a>
-
-
-</td>
-<td align="left" width="63%">
-Retrieves an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentstatus">IX509EnrollmentStatus</a> object that contains information about the certificate enrollment.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-icspstatus-get_ordinal">Ordinal</a>
-
-
-</td>
-<td align="left" width="63%">
-Specifies or retrieves the  position of the <b>ICspStatus</b> object in the <a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a> collection.
-
-</td>
-</tr>
-</table>
+The <b>ICspStatus</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICspStatus</b> also has these types of members:
 
 ## -see-also
 

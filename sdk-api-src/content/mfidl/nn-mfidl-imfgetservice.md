@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFGetService
 title: IMFGetService (mfidl.h)
-description: Queries an object for a specified service interface.
+description: Queries an object for a specified service interface. (IMFGetService)
 helpviewer_keywords: ["102a1dff-8419-4f86-a145-53ce3d0123f5","IMFGetService","IMFGetService interface [Media Foundation]","IMFGetService interface [Media Foundation]","described","mf.imfgetservice","mfidl/IMFGetService"]
 old-location: mf\imfgetservice.htm
 tech.root: mf
@@ -55,29 +55,7 @@ Queries an object for a specified service interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFGetService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFGetService</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFGetService</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">GetService</a>
-</td>
-<td align="left" width="63%">
-Retrieves a service interface.
-
-</td>
-</tr>
-</table>
+The <b>IMFGetService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFGetService</b> also has these types of members:
 
 ## -remarks
 

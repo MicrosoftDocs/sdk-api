@@ -1,12 +1,12 @@
 ---
 UID: NN:objidl.IExternalConnection
 title: IExternalConnection (objidl.h)
-description: Manages a server object's count of marshaled, or external, connections. A server that maintains such a count can detect when it has no external connections and shut itself down in an orderly fashion.
+description: The IExternalConnection interface (objidl.h) manages a server object's count of marshaled and external connections. 
 helpviewer_keywords: ["IExternalConnection","IExternalConnection interface [COM]","IExternalConnection interface [COM]","described","_com_iexternalconnection","com.iexternalconnection","objidlbase/IExternalConnection"]
 old-location: com\iexternalconnection.htm
 tech.root: com
 ms.assetid: 28afc305-d5b0-4ac9-9412-5876e575c2c2
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IExternalConnection, IExternalConnection interface [COM], IExternalConnection interface [COM],described, _com_iexternalconnection, com.iexternalconnection, objidlbase/IExternalConnection
 req.header: objidl.h
 req.include-header: ObjIdl.h
@@ -54,38 +54,7 @@ Manages a server object's count of marshaled, or external, connections. A server
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExternalConnection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExternalConnection</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IExternalConnection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-iexternalconnection-addconnection">AddConnection</a>
-</td>
-<td align="left" width="63%">
-Increments the count of an object's strong external connections.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-iexternalconnection-releaseconnection">ReleaseConnection</a>
-</td>
-<td align="left" width="63%">
-Decrements the count of an object's strong external connections.
-
-</td>
-</tr>
-</table>
+The <b>IExternalConnection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExternalConnection</b> also has these types of members:
 
 ## -remarks
 

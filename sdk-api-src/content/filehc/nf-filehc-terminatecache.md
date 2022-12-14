@@ -52,7 +52,7 @@ api_name:
 
 Eliminates the cache and ends asynchronous I/O with the DLL.
 
-## -parameters
+
 
 ## -returns
 

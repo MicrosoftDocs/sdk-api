@@ -102,7 +102,7 @@ Pointer to an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attributes"
 
 ### -field isolationState
 
-An <a href="/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-isolation_state">ISOLATION_STATE</a>link value that indicates the isolation state of the authentication session connection.
+An <a href="/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-isolation_state">ISOLATION_STATE</a> link value that indicates the isolation state of the authentication session connection.
 
 ### -field pEapMethodInfo
 

@@ -52,15 +52,12 @@ api_name:
 ## -description
 
 <b>IXAudio2Voice</b> represents the base interface from which <a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice">IXAudio2SourceVoice</a>, <a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2submixvoice">IXAudio2SubmixVoice</a> and <a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2masteringvoice">IXAudio2MasteringVoice</a> are derived. The methods listed below are common to all voice subclasses.
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul><h3><a id="methods"></a>Methods</h3>The <b>IXAudio2Voice Interface</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-destroyvoice">DestroyVoice</a>
 </td>
@@ -69,7 +66,7 @@ Destroys the voice. If necessary, stops the voice and removes it from the XAudio
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-disableeffect">DisableEffect</a>
 </td>
@@ -78,7 +75,7 @@ Disables the effect at a given position in the effect chain of the voice.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-enableeffect">EnableEffect</a>
 </td>
@@ -87,7 +84,7 @@ Enables the effect at a given position in the effect chain of the voice.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getchannelvolumes">GetChannelVolumes</a>
 </td>
@@ -96,7 +93,7 @@ Returns the volume levels for the voice, per channel.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-geteffectparameters">GetEffectParameters</a>
 </td>
@@ -105,7 +102,7 @@ Returns the current effect-specific parameters of a given effect in the voice's 
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-geteffectstate">GetEffectState</a>
 </td>
@@ -114,7 +111,7 @@ Returns the running state of the effect at a specified position in the effect ch
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getfilterparameters">GetFilterParameters</a>
 </td>
@@ -123,7 +120,7 @@ Gets the voice's filter parameters.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getoutputfilterparameters">GetOutputFilterParameters</a>
 </td>
@@ -132,7 +129,7 @@ Returns the filter parameters from one of this voice's sends.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getoutputmatrix">GetOutputMatrix</a>
 </td>
@@ -141,7 +138,7 @@ Gets the volume level of each channel of the final output for the voice. These c
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getvoicedetails">GetVoiceDetails</a>
 </td>
@@ -150,7 +147,7 @@ Returns information about the creation flags, input channels, and sample rate of
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getvolume">GetVolume</a>
 </td>
@@ -159,7 +156,7 @@ Gets the current overall volume level of the voice.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setchannelvolumes">SetChannelVolumes</a>
 </td>
@@ -168,7 +165,7 @@ Sets the volume levels for the voice, per channel.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-seteffectchain">SetEffectChain</a>
 </td>
@@ -177,7 +174,7 @@ Replaces the effect chain of the voice.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-seteffectparameters">SetEffectParameters</a>
 </td>
@@ -186,7 +183,7 @@ Sets parameters for a given effect in the voice's effect chain.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setfilterparameters">SetFilterParameters</a>
 </td>
@@ -195,7 +192,7 @@ Sets the voice's filter parameters.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputfilterparameters">SetOutputFilterParameters</a>
 </td>
@@ -204,7 +201,7 @@ Sets the filter parameters on one of this voice's sends.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputmatrix">SetOutputMatrix</a>
 </td>
@@ -213,7 +210,7 @@ Sets the volume level of each channel of the final output for the voice. These c
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputvoices">SetOutputVoices</a>
 </td>
@@ -222,7 +219,7 @@ Designates a new set of submix or mastering voices to receive the output of the 
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setvolume">SetVolume</a>
 </td>
@@ -232,227 +229,6 @@ Sets the overall volume level for the voice.
 </td>
 </tr>
 </table>
-
-## -members
-
-The <b>IXAudio2Voice Interface</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-destroyvoice">DestroyVoice</a>
-</td>
-<td align="left" width="63%">
-Destroys the voice. If necessary, stops the voice and removes it from the XAudio2 graph.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-disableeffect">DisableEffect</a>
-</td>
-<td align="left" width="63%">
-Disables the effect at a given position in the effect chain of the voice.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-enableeffect">EnableEffect</a>
-</td>
-<td align="left" width="63%">
-Enables the effect at a given position in the effect chain of the voice.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getchannelvolumes">GetChannelVolumes</a>
-</td>
-<td align="left" width="63%">
-Returns the volume levels for the voice, per channel.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-geteffectparameters">GetEffectParameters</a>
-</td>
-<td align="left" width="63%">
-Returns the current effect-specific parameters of a given effect in the voice's effect chain.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-geteffectstate">GetEffectState</a>
-</td>
-<td align="left" width="63%">
-Returns the running state of the effect at a specified position in the effect chain of the voice.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getfilterparameters">GetFilterParameters</a>
-</td>
-<td align="left" width="63%">
-Gets the voice's filter parameters.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getoutputfilterparameters">GetOutputFilterParameters</a>
-</td>
-<td align="left" width="63%">
-Returns the filter parameters from one of this voice's sends.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getoutputmatrix">GetOutputMatrix</a>
-</td>
-<td align="left" width="63%">
-Gets the volume level of each channel of the final output for the voice. These channels are mapped to the input channels of a specified destination voice.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getvoicedetails">GetVoiceDetails</a>
-</td>
-<td align="left" width="63%">
-Returns information about the creation flags, input channels, and sample rate of a voice.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getvolume">GetVolume</a>
-</td>
-<td align="left" width="63%">
-Gets the current overall volume level of the voice.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setchannelvolumes">SetChannelVolumes</a>
-</td>
-<td align="left" width="63%">
-Sets the volume levels for the voice, per channel.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-seteffectchain">SetEffectChain</a>
-</td>
-<td align="left" width="63%">
-Replaces the effect chain of the voice.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-seteffectparameters">SetEffectParameters</a>
-</td>
-<td align="left" width="63%">
-Sets parameters for a given effect in the voice's effect chain.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setfilterparameters">SetFilterParameters</a>
-</td>
-<td align="left" width="63%">
-Sets the voice's filter parameters.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputfilterparameters">SetOutputFilterParameters</a>
-</td>
-<td align="left" width="63%">
-Sets the filter parameters on one of this voice's sends.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputmatrix">SetOutputMatrix</a>
-</td>
-<td align="left" width="63%">
-Sets the volume level of each channel of the final output for the voice. These channels are mapped to the input channels of a specified destination voice.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputvoices">SetOutputVoices</a>
-</td>
-<td align="left" width="63%">
-Designates a new set of submix or mastering voices to receive the output of the voice.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setvolume">SetVolume</a>
-</td>
-<td align="left" width="63%">
-Sets the overall volume level for the voice.
-
-</td>
-</tr>
-</table>Destroys the voice. If necessary, stops the voice and removes it from the XAudio2 graph.
-
-Disables the effect at a given position in the effect chain of the voice.
-
-Enables the effect at a given position in the effect chain of the voice.
-
-Returns the volume levels for the voice, per channel.
-
-Returns the current effect-specific parameters of a given effect in the voice's effect chain.
-
-Returns the running state of the effect at a specified position in the effect chain of the voice.
-
-Gets the voice's filter parameters.
-
-Returns the filter parameters from one of this voice's sends.
-
-Gets the volume level of each channel of the final output for the voice. These channels are mapped to the input channels of a specified destination voice.
-
-Returns information about the creation flags, input channels, and sample rate of a voice.
-
-Gets the current overall volume level of the voice.
-
-Sets the volume levels for the voice, per channel.
-
-Replaces the effect chain of the voice.
-
-Sets parameters for a given effect in the voice's effect chain.
-
-Sets the voice's filter parameters.
-
-Sets the filter parameters on one of this voice's sends.
-
-Sets the volume level of each channel of the final output for the voice. These channels are mapped to the input channels of a specified destination voice.
-
-Designates a new set of submix or mastering voices to receive the output of the voice.
-
-Sets the overall volume level for the voice.
-
- 
-
-Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
 ## -remarks
 

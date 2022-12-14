@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathCompactPathA
 title: PathCompactPathA function (shlwapi.h)
-description: Truncates a file path to fit within a given pixel width by replacing path components with ellipses.
+description: Truncates a file path to fit within a given pixel width by replacing path components with ellipses. (ANSI)
 helpviewer_keywords: ["PathCompactPath","PathCompactPath function [Windows Shell]","PathCompactPathA","PathCompactPathW","_win32_PathCompactPath","shell.PathCompactPath","shlwapi/PathCompactPath","shlwapi/PathCompactPathA","shlwapi/PathCompactPathW"]
 old-location: shell\PathCompactPath.htm
 tech.root: shell

@@ -93,10 +93,14 @@ After the service provider returns from the
 <b>TSPI_phoneGetDevCaps</b> function, TAPI sets the <b>dwPhoneStates</b> member of the 
 <a href="/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a> structure as follows:
 
-<pre class="syntax" xml:space="preserve"><code>PHONECAPS.dwPhoneStates |=
+
+``` syntax
+PHONECAPS.dwPhoneStates |=
     PHONESTATE_OWNER |
     PHONESTATE_MONITORS |
-    PHONESTATE_REINIT;</code></pre>
+    PHONESTATE_REINIT;
+```
+
 
 ## -see-also
 

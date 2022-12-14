@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineInitializeExW
 title: lineInitializeExW function (tapi.h)
-description: The lineInitializeEx function initializes the application's use of TAPI for subsequent use of the line abstraction.
+description: The lineInitializeEx function initializes the application's use of TAPI for subsequent use of the line abstraction. (Unicode)
 helpviewer_keywords: ["_tapi2_lineinitializeex","lineInitializeEx","lineInitializeEx function [TAPI 2.2]","lineInitializeExA","lineInitializeExW","tapi/lineInitializeEx","tapi/lineInitializeExA","tapi/lineInitializeExW","tapi2.lineinitializeex"]
 old-location: tapi2\lineinitializeex.htm
 tech.root: tapi3
@@ -101,7 +101,7 @@ LINEERR_INVALAPPNAME, LINEERR_OPERATIONFAILED, LINEERR_INIFILECORRUPT, LINEERR_I
 Applications must select one of three mechanisms by which TAPI notifies the application of telephony events: Hidden Window, Event Handle, or Completion Port.
 
 The Hidden Window mechanism is selected by specifying LINEINITIALIZEEXOPTION_USEHIDDENWINDOW in the <b>dwOptions</b> member in the 
-<a href="/windows/desktop/api/tapi/ns-tapi-lineinitializeexparams">LINEINITIALIZEEXPARAMS</a> structure. In this mechanism (which is the only mechanism available to TAPI verson 1.<i>x</i> applications), TAPI creates a window in the context of the application during the 
+<a href="/windows/desktop/api/tapi/ns-tapi-lineinitializeexparams">LINEINITIALIZEEXPARAMS</a> structure. In this mechanism (which is the only mechanism available to TAPI version 1.<i>x</i> applications), TAPI creates a window in the context of the application during the 
 <b>lineInitializeEx</b> or 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineinitialize">lineInitialize</a> (for TAPI version 1.3 and 1.4 applications) function, and subclasses the window so that all messages posted to it are handled by a WNDPROC in TAPI itself. When TAPI has a message to deliver to the application, TAPI posts a message to the hidden window. When the message is received (which can happen only when the application calls the Windows 
 <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> function), Windows switches the process context to that of the application and invokes the WNDPROC in TAPI. TAPI then delivers the message to the application by calling the <i>lineCallbackProc</i>, a pointer to which the application provided as a parameter in its call to 

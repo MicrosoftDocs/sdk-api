@@ -54,70 +54,7 @@ Extends the  <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationcli
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationElement3</b> interface inherits from <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement3">IUIAutomationElement2</a>. <b>IUIAutomationElement3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
-
-## -members
-
-The <b>IUIAutomationElement3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement3-showcontextmenu">ShowContextMenu</a>
-</td>
-<td align="left" width="63%">
-Programmatically invokes a context menu on the target element.
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationElement3</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="10%">Access type</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement3-get_cachedisperipheral">CachedIsPeripheral</a>
-
-
-</td>
-<td align="left" width="10%">
-Read-only
-
-</td>
-<td align="left" width="63%">
-Retrieves the cached peripheral UI indicator for the element. Peripheral UI appears and supports user interaction, but does not take keyboard focus when it appears.  Examples of peripheral UI includes popups, flyouts, context menus, or floating notifications. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement3-get_currentisperipheral">CurrentIsPeripheral</a>
-
-
-</td>
-<td align="left" width="10%">
-Read-only
-
-</td>
-<td align="left" width="63%">
-Retrieves the current peripheral UI indicator for the element.
-
-</td>
-</tr>
-</table>
+The <b>IUIAutomationElement3</b> interface inherits from <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement3">IUIAutomationElement2</a>. <b>IUIAutomationElement3</b> also has these types of members:
 
 ## -see-also
 

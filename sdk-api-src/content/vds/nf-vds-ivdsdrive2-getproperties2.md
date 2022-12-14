@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsDrive2.GetProperties2
 title: IVdsDrive2::GetProperties2 (vds.h)
-description: Returns the properties of a drive object.
+description: The IVdsDrive2::GetProperties2 method (vds.h) returns the properties of a drive object.
 helpviewer_keywords: ["GetProperties2","GetProperties2 method","GetProperties2 method","IVdsDrive2 interface","IVdsDrive2 interface","GetProperties2 method","IVdsDrive2.GetProperties2","IVdsDrive2::GetProperties2","base.ivdsdrive2_getproperties2","vds/IVdsDrive2::GetProperties2","vdshwprv/IVdsDrive2::GetProperties2"]
 old-location: base\ivdsdrive2_getproperties2.htm
 tech.root: base
 ms.assetid: 635957be-780f-4dee-8d70-b7fc37fecd5c
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: GetProperties2, GetProperties2 method, GetProperties2 method,IVdsDrive2 interface, IVdsDrive2 interface,GetProperties2 method, IVdsDrive2.GetProperties2, IVdsDrive2::GetProperties2, base.ivdsdrive2_getproperties2, vds/IVdsDrive2::GetProperties2, vdshwprv/IVdsDrive2::GetProperties2
 req.header: vds.h
 req.include-header: 

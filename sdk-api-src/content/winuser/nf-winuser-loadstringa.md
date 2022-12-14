@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.LoadStringA
 title: LoadStringA function (winuser.h)
-description: Loads a string resource from the executable file associated with a specified module, copies the string into a buffer, and appends a terminating null character.
+description: Loads a string resource from the executable file associated with a specified module, copies the string into a buffer, and appends a terminating null character. (ANSI)
 helpviewer_keywords: ["LoadString","LoadString function [Menus and Other Resources]","LoadStringA","LoadStringW","_win32_LoadString","_win32_loadstring_cpp","menurc.loadstring","winui._win32_loadstring","winuser/LoadString","winuser/LoadStringA","winuser/LoadStringW"]
 old-location: menurc\loadstring.htm
 tech.root: menurc

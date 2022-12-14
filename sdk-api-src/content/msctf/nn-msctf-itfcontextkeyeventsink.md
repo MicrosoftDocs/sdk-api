@@ -56,56 +56,7 @@ This event sink is installed by <a href="/windows/desktop/api/msctf/nf-msctf-itf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfContextKeyEventSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfContextKeyEventSink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfContextKeyEventSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextkeyeventsink-onkeydown">OnKeyDown</a>
-</td>
-<td align="left" width="63%">
-Called when a key down event occurs.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextkeyeventsink-onkeyup">OnKeyUp</a>
-</td>
-<td align="left" width="63%">
-Called when a key up event occurs.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextkeyeventsink-ontestkeydown">OnTestKeyDown</a>
-</td>
-<td align="left" width="63%">
-Called to determine if a text service will handle a key down event.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextkeyeventsink-ontestkeyup">OnTestKeyUp</a>
-</td>
-<td align="left" width="63%">
-Called to determine if a text service will handle a key up event.
-
-</td>
-</tr>
-</table>
+The <b>ITfContextKeyEventSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfContextKeyEventSink</b> also has these types of members:
 
 ## -see-also
 

@@ -2,7 +2,6 @@
 UID: NF:d3d12video.ID3D12VideoExtensionCommand.GetDesc
 title: ID3D12VideoExtensionCommand::GetDesc
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Gets the D3D12_VIDEO_EXTENSION_COMMAND_DESC provided when the interface was created.
 tech.root: mf
@@ -43,6 +42,8 @@ dev_langs:
 ## -description
 
 Gets the [D3D12_VIDEO_EXTENSION_COMMAND_DESC](ns-d3d12video-d3d12_video_extension_command_desc.md) provided when the interface was created.
+
+
 
 ## -returns
 

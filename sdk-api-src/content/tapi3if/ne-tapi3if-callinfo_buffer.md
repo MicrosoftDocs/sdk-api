@@ -61,7 +61,7 @@ The
 
 ## -enum-fields
 
-### -field CIB_USERUSERINFO
+### -field CIB_USERUSERINFO:0
 
 The user-user information buffer allows an application to send information to the remote party on a call or receive information from that party.
 

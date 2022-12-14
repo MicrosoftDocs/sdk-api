@@ -1,7 +1,7 @@
 ---
 UID: NS:ntdsapi.__unnamed_struct_3
 title: DS_NAME_RESULTW (ntdsapi.h)
-description: The DS_NAME_RESULT structure is used with the DsCrackNames function to contain the names converted by the function.
+description: The DS_NAME_RESULT structure is used with the DsCrackNames function to contain the names converted by the function. (Unicode)
 helpviewer_keywords: ["*PDS_NAME_RESULTW","DS_NAME_RESULT","DS_NAME_RESULT structure [Active Directory]","DS_NAME_RESULTA","DS_NAME_RESULTW","PDS_NAME_RESULT","PDS_NAME_RESULT structure pointer [Active Directory]","_glines_ds_name_result","ad.ds__name__result","ad.ds_name_result","ntdsapi/DS_NAME_RESULT","ntdsapi/DS_NAME_RESULTA","ntdsapi/DS_NAME_RESULTW","ntdsapi/PDS_NAME_RESULT"]
 old-location: ad\ds_name_result.htm
 tech.root: ad

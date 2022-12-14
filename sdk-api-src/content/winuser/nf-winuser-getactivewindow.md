@@ -54,6 +54,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - GetActiveWindow
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetActiveWindow function
@@ -63,7 +64,7 @@ api_name:
 
 Retrieves the window handle to the active window attached to the calling thread's message queue.
 
-## -parameters
+
 
 ## -returns
 

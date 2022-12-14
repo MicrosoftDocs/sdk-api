@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiGetPatchInfoExW
 title: MsiGetPatchInfoExW function (msi.h)
-description: Queries for information about the application of a patch to a specified instance of a product.
+description: Queries for information about the application of a patch to a specified instance of a product. (Unicode)
 helpviewer_keywords: ["INSTALLPROPERTY_DISPLAYNAME","INSTALLPROPERTY_INSTALLDATE","INSTALLPROPERTY_LOCALPACKAGE","INSTALLPROPERTY_MOREINFOURL","INSTALLPROPERTY_PATCHSTATE","INSTALLPROPERTY_TRANSFORMS","INSTALLPROPERTY_UNINSTALLABLE","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiGetPatchInfoEx","MsiGetPatchInfoEx function","MsiGetPatchInfoExA","MsiGetPatchInfoExW","NULL","User SID","msi/MsiGetPatchInfoEx","msi/MsiGetPatchInfoExA","msi/MsiGetPatchInfoExW","setup.msigetpatchinfoex"]
 old-location: setup\msigetpatchinfoex.htm
 tech.root: setup

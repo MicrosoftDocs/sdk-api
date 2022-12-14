@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.FindFirstFileTransactedW
 title: FindFirstFileTransactedW function (winbase.h)
-description: Searches a directory for a file or subdirectory with a name that matches a specific name as a transacted operation.
+description: Searches a directory for a file or subdirectory with a name that matches a specific name as a transacted operation. (Unicode)
 helpviewer_keywords: ["FIND_FIRST_EX_CASE_SENSITIVE","FindFirstFileTransacted","FindFirstFileTransacted function [Files]","FindFirstFileTransactedA","FindFirstFileTransactedW","fs.findfirstfiletransacted","winbase/FindFirstFileTransacted","winbase/FindFirstFileTransactedA","winbase/FindFirstFileTransactedW"]
 old-location: fs\findfirstfiletransacted.htm
 tech.root: fs
@@ -77,7 +77,7 @@ For the most basic version of this function, see <a href="/windows/desktop/api/f
 The directory or path, and the file name. The file name can include wildcard characters,  for example, an asterisk 
        (*) or a question mark (?).
 
-This parameter should not be <b>NULL</b>, an invalid string (for example, an empty string or a string that is missing the terminating null character), or end in a trailing backslash (\).
+This parameter should not be <b>NULL</b>, an invalid string (for example, an empty string or a string that is missing the terminating null character), or end in a trailing backslash (\\).
 
 If the string ends with a wildcard, period (.), or directory name, the user must have access to the root and 
        all subdirectories on the path.
@@ -175,7 +175,7 @@ The following list
     <a href="/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle">GetFileInformationByHandle</a> function.</div>
 <div> </div>
 If the underlying file system does not support the specified type of filtering, other than directory 
-    filtering, <b>FindFirstFileTransacted</b>fails with the error 
+    filtering, <b>FindFirstFileTransacted</b> fails with the error 
     <b>ERROR_NOT_SUPPORTED</b>. The application must use 
     <a href="/windows/desktop/api/minwinbase/ne-minwinbase-findex_search_ops">FINDEX_SEARCH_OPS</a> type 
     <b>FileExSearchNameMatch</b> and perform its own filtering.
@@ -186,7 +186,7 @@ After the search handle is established, use it in the
     needed, it should be closed by using the 
     <a href="/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a> function.
 
-As stated previously, you cannot use a trailing backslash (\) in the <i>lpFileName</i> input string for 
+As stated previously, you cannot use a trailing backslash (\\) in the <i>lpFileName</i> input string for 
     <b>FindFirstFileTransacted</b>, therefore it may not be obvious how to search root directories. If you want to see files or get the attributes of a root directory, the following options would apply:
 
 <ul>
@@ -197,13 +197,14 @@ As stated previously, you cannot use a trailing backslash (\) in the <i>lpFileNa
 </ul>
 <div class="alert"><b>Note</b>  Prepending the string "\\?\" does not allow access to the root directory.</div>
 <div> </div>
+
 On network shares, you can use an <i>lpFileName</i> in the form of the following: 
-    "\\server\service\*". However, you cannot use an <i>lpFileName</i> that points to 
-    the share itself; for example, "\\server\service" is not valid.
+    "\\\\server\\service\*". However, you cannot use an <i>lpFileName</i> that points to 
+    the share itself; for example, "\\\\server\\service" is not valid.
 
 To examine a directory that is not a root directory, use the path to that directory, without a trailing 
-    backslash. For example, an argument of "C:\Windows" returns information about the directory 
-    "C:\Windows", not about a directory or file in "C:\Windows". To examine the files and directories in "C:\Windows", use an <i>lpFileName</i> of "C:\Windows\*".
+    backslash. For example, an argument of "C:\\Windows" returns information about the directory 
+    "C:\\Windows", not about a directory or file in "C:\\Windows". To examine the files and directories in "C:\\Windows", use an <i>lpFileName</i> of "C:\\Windows\\*".
 
 Be aware that some other thread or process could create or delete a file with this name between the time you query for the result 
     and the time you act on the information. If this is a potential concern for your application,  one possible solution is to use the 

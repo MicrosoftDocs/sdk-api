@@ -56,47 +56,7 @@ To get a pointer to this interface, call <b>QueryInterface</b> on a D3D9Ex devic
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DDevice9Video</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DDevice9Video</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDirect3DDevice9Video</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-createauthenticatedchannel">CreateAuthenticatedChannel</a>
-</td>
-<td align="left" width="63%">
-Creates a channel to communicate with the Direct3D device or the graphics driver.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-createcryptosession">CreateCryptoSession</a>
-</td>
-<td align="left" width="63%">
-Creates a cryptographic session to encrypt video content that is sent to the display driver.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">GetContentProtectionCaps</a>
-</td>
-<td align="left" width="63%">
-Queries the display driver for its content protection capabilities.
-
-</td>
-</tr>
-</table>
+The <b>IDirect3DDevice9Video</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DDevice9Video</b> also has these types of members:
 
 ## -see-also
 

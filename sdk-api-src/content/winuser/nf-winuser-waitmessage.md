@@ -48,6 +48,7 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
 api_name:
  - WaitMessage
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # WaitMessage function
@@ -57,7 +58,7 @@ api_name:
 
 Yields control to other threads when a thread has no other messages in its message queue. The <b>WaitMessage</b> function suspends the thread and does not return until a new message is placed in the thread's message queue.
 
-## -parameters
+
 
 ## -returns
 

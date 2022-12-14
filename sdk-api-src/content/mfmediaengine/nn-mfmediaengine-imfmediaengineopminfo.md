@@ -54,29 +54,7 @@ Provides methods for getting information about the   <a href="/windows/desktop/m
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngineOPMInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEngineOPMInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFMediaEngineOPMInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineopminfo-getopminfo">GetOPMInfo</a>
-</td>
-<td align="left" width="63%">
-Gets status information about the   <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>  (OPM).
-
-</td>
-</tr>
-</table>
+The <b>IMFMediaEngineOPMInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEngineOPMInfo</b> also has these types of members:
 
 ## -remarks
 

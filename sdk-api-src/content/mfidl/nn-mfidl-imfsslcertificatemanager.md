@@ -59,65 +59,7 @@ Media Foundation uses the default implementation to open the URL.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSSLCertificateManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSSLCertificateManager</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFSSLCertificateManager</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsslcertificatemanager-begingetclientcertificate">BeginGetClientCertificate</a>
-</td>
-<td align="left" width="63%">
-Starts an asynchronous call to get the client SSL certificate.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsslcertificatemanager-endgetclientcertificate">EndGetClientCertificate</a>
-</td>
-<td align="left" width="63%">
-Completes an asynchronous request to get the client SSL certificate.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsslcertificatemanager-getcertificatepolicy">GetCertificatePolicy</a>
-</td>
-<td align="left" width="63%">
-Indicates whether the server SSL certificate must be verified by the caller, MF,  or the <b>IMFSSLCertificateManager</b> implementation class.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsslcertificatemanager-getclientcertificate">GetClientCertificate</a>
-</td>
-<td align="left" width="63%">
-Gets the client SSL certificate synchronously.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsslcertificatemanager-onservercertificate">OnServerCertificate</a>
-</td>
-<td align="left" width="63%">
-Indicates whether the server SSL certificate is accepted.
-
-</td>
-</tr>
-</table>
+The <b>IMFSSLCertificateManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSSLCertificateManager</b> also has these types of members:
 
 ## -see-also
 

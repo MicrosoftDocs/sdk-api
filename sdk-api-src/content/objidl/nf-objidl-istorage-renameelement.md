@@ -72,6 +72,20 @@ Pointer to a wide character null-terminated unicode string that contains the new
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The element was successfully renamed.|
+|E_PENDING | Asynchronous Storage only: Part or all of the element's data is currently unavailable.|
+|STG_E_ACCESSDENIED | The caller does not have enough permissions for renaming the element.|
+|STG_E_FILENOTFOUND | The element with the specified old name does not exist.|
+|STG_E_FILEALREADYEXISTS | The element specified by the new name already exists.|
+|STG_E_INSUFFICIENTMEMORY | The element was not renamed due to a lack of memory.|
+|STG_E_INVALIDNAME | Invalid value for one of the names.|
+|STG_E_INVALIDPOINTER | The pointer specified for the element was not valid.|
+|STG_E_INVALIDPARAMETER | One of the parameters was not valid.|
+|STG_E_REVERTED | The storage object has been invalidated by a revert operation above it in the transaction tree.|
+|STG_E_TOOMANYOPENFILES | The element was not renamed because there are too many open files.|
+
 ## -remarks
 
 <b>IStorage::RenameElement</b> renames the specified substorage or stream in this storage object. An element in a storage object cannot be renamed while it is open. The rename operation is subject to committing the changes if the storage is open in transacted mode.

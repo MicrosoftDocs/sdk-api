@@ -67,74 +67,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITTerminalSupport</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITTerminalSupport</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITTerminalSupport</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-createterminal">CreateTerminal</a>
-</td>
-<td align="left" width="63%">
-Creates a new terminal based on the dynamic terminal class.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-enumeratedynamicterminalclasses">EnumerateDynamicTerminalClasses</a>
-</td>
-<td align="left" width="63%">
-Enumerates the currently available dynamic terminal classes that are supported.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-enumeratestaticterminals">EnumerateStaticTerminals</a>
-</td>
-<td align="left" width="63%">
-Enumerates the currently available static terminals that are associated with the address.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-get_dynamicterminalclasses">get_DynamicTerminalClasses</a>
-</td>
-<td align="left" width="63%">
-Creates a collection of currently available dynamic terminals. Provided for Automation client applications, such as those written in Visual Basic.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-get_staticterminals">get_StaticTerminals</a>
-</td>
-<td align="left" width="63%">
-Creates a collection of the currently available static terminals. Provided for Automation client applications, such as those written in Microsoft Visual Basic.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-getdefaultstaticterminal">GetDefaultStaticTerminal</a>
-</td>
-<td align="left" width="63%">
-Gets the default static terminal for the media specified.
-
-</td>
-</tr>
-</table>
+The <b>ITTerminalSupport</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITTerminalSupport</b> also has these types of members:
 
 ## -see-also
 

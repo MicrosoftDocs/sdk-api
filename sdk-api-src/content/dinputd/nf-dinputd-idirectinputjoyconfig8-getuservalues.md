@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::GetUserValues </b>method obtains information about user settings for the joystick.
+The <b>IDirectInputJoyConfig8::GetUserValues </b> method obtains information about user settings for the joystick.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Points to a structure that receives information about the user joystick configuration. The caller must initialize the <b>dwSize</b> member of the <a href="/windows/desktop/api/dinputd/ns-dinputd-dijoyuservalues">DIJOYUSERVALUES</a> structure before calling this method.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies which members of the DIJOYUSERVALUES structure contain values to be retrieved. There may be zero, one, or more of the following: 
 

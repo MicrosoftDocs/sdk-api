@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.INetworkSettings.put_Name
 title: INetworkSettings::put_Name (taskschd.h)
-description: Gets or sets the name of a network profile.
+description: Gets or sets the name of a network profile. (Put)
 helpviewer_keywords: ["INetworkSettings interface [Task Scheduler]","Name property","INetworkSettings.Name","INetworkSettings.put_Name","INetworkSettings::Name","INetworkSettings::get_Name","INetworkSettings::put_Name","Name property [Task Scheduler]","Name property [Task Scheduler]","INetworkSettings interface","put_Name","taskschd.inetworksettings_name","taskschd/INetworkSettings::Name","taskschd/INetworkSettings::get_Name","taskschd/INetworkSettings::put_Name"]
 old-location: taskschd\inetworksettings_name.htm
 tech.root: taskschd

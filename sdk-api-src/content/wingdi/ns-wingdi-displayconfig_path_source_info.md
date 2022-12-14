@@ -78,7 +78,7 @@ A valid identifier used to show which clone group the path is a member of only w
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.sourceModeInfoIdx
 
-A valid index into the mode array of the <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_mode">DISPLAYCONFIG_SOURCE_MODE</a> entry that contains the source mode information for this path only when DISPLAYCONFIG_PATH_SUPPORT_VIRTUAL_MODE is set. If there is no entry for this in the mode array, the value of <b>sourceModeInfoIdx</b> is DISPLAYCONFIG_PATH_SOURCE_MODE_IDX_INVALID. Supported starting in Windows 10.
+A valid index into the mode array of the <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_source_mode">DISPLAYCONFIG_SOURCE_MODE</a> entry that contains the source mode information for this path only when DISPLAYCONFIG_PATH_SUPPORT_VIRTUAL_MODE is set. If there is no entry for this in the mode array, the value of <b>sourceModeInfoIdx</b> is DISPLAYCONFIG_PATH_SOURCE_MODE_IDX_INVALID. Supported starting in Windows 10.
 
 ### -field statusFlags
 

@@ -54,13 +54,13 @@ Defines the prototype for the callback function used by dynamic structure array 
 
 ## -parameters
 
-### -param *p [in, optional]
+### -param p [in, optional]
 
 Type: <b>const void*</b>
 
 A pointer to the constant structure to be enumerated.
 
-### -param *pData [in, optional]
+### -param pData [in, optional]
 
 Type: <b>void*</b>
 

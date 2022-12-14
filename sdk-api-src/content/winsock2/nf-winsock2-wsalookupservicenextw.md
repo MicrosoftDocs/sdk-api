@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.WSALookupServiceNextW
 title: WSALookupServiceNextW function (winsock2.h)
-description: The WSALookupServiceNext function is called after obtaining a handle from a previous call to WSALookupServiceBegin in order to retrieve the requested service information.
+description: The WSALookupServiceNext function is called after obtaining a handle from a previous call to WSALookupServiceBegin in order to retrieve the requested service information. (Unicode)
 helpviewer_keywords: ["LUP_CONTAINERS","LUP_DEEP","LUP_FLUSHCACHE","LUP_FLUSHPREVIOUS","LUP_NEAREST","LUP_NOCONTAINERS","LUP_RES_SERVICE","LUP_RETURN_ADDR","LUP_RETURN_ALIASES","LUP_RETURN_ALL","LUP_RETURN_BLOB","LUP_RETURN_COMMENT","LUP_RETURN_NAME","LUP_RETURN_QUERY_STRING","LUP_RETURN_TYPE","LUP_RETURN_VERSION","WSALookupServiceNext","WSALookupServiceNext function [Winsock]","WSALookupServiceNextA","WSALookupServiceNextW","_win32_wsalookupservicenext_2","winsock.wsalookupservicenext_2","winsock2/WSALookupServiceNext","winsock2/WSALookupServiceNextA","winsock2/WSALookupServiceNextW"]
 old-location: winsock\wsalookupservicenext_2.htm
 tech.root: WinSock
@@ -69,7 +69,7 @@ A handle returned from the previous call to
 
 ### -param dwControlFlags [in]
 
-A set of flags that controls the operation. The values passed in the <i>dwControlFlags</i> parameter to the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a>function determine the possible criteria. Any values passed in the <i>dwControlFlags</i> parameter to the <b>WSALookupServiceNext</b> function further restrict the criteria for the service lookup. 
+A set of flags that controls the operation. The values passed in the <i>dwControlFlags</i> parameter to the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a> function determine the possible criteria. Any values passed in the <i>dwControlFlags</i> parameter to the <b>WSALookupServiceNext</b> function further restrict the criteria for the service lookup. 
 
 Currently, LUP_FLUSHPREVIOUS is defined as a means to cope with a result set that is too large. If an application does not (or cannot) supply a large enough buffer, setting LUP_FLUSHPREVIOUS instructs the provider to discard the last result set—which was too large—and move on to the next set for this call.
 

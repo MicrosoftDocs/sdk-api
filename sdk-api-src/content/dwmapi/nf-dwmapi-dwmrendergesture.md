@@ -56,7 +56,7 @@ Notifies Desktop Window Manager (DWM) that a touch contact has been recognized a
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The type of gesture, specified as one of the <a href="/windows/desktop/api/dwmapi/ne-dwmapi-gesture_type">GESTURE_TYPE</a> values.
 

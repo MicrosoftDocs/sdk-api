@@ -61,7 +61,7 @@ The
 Name of the volume that contains shadow copy storage areas.
       
 
-The name of the volume must be in one of the following formats and must include a trailing backslash (\):
+The name of the volume must be in one of the following formats and must include a trailing backslash (\\):
        <ul>
 <li>The path of a mounted folder, for example, Y:\MountX\</li>
 <li>A drive letter, for example, 
@@ -134,9 +134,7 @@ The caller is out of memory or other system resources.
 </dl>
 </td>
 <td width="60%">
-Provider error - the provider logged the error in the event log. For more information, see 
-
-        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+Provider error - the provider logged the error in the event log. For more information, see <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -147,8 +145,7 @@ Provider error - the provider logged the error in the event log. For more inform
 </dl>
 </td>
 <td width="60%">
-Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+Unexpected error. The error code is logged in the error log file. For more information, see <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -158,10 +155,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 ## -remarks
 
-The returned <a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a> enumerator object 
-    will contain <a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_diff_area_prop">VSS_DIFF_AREA_PROP</a> structures inside the 
-    <a href="/en-us/openspecs/windows_protocols/ms-scmp/63b53947-2649-4eac-a883-498f77361396">VSS_MGMT_OBJECT_UNION</a> union inside the 
-    <a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_mgmt_object_prop">VSS_MGMT_OBJECT_PROP</a> structure.
+The returned <a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a> enumerator object will contain <a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_diff_area_prop">VSS_DIFF_AREA_PROP</a> structures inside the <a href="/en-us/openspecs/windows_protocols/ms-scmp/63b53947-2649-4eac-a883-498f77361396">VSS_MGMT_OBJECT_UNION</a> union inside the <a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_mgmt_object_prop">VSS_MGMT_OBJECT_PROP</a> structure.
 
 ## -see-also
 

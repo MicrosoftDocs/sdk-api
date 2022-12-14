@@ -54,74 +54,10 @@ The IWMPEffects2 interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPEffects2</b> interface inherits from <a href="/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects</a>. <b>IWMPEffects2</b> also has these types of members:
+The <b>IWMPEffects2</b> interface inherits from <a href="/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects</a>. <b>IWMPEffects2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMPEffects2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-create">Create</a>
-</td>
-<td align="left" width="63%">
-Called by Windows Media Player to instantiate a visualization window.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-destroy">Destroy</a>
-</td>
-<td align="left" width="63%">
-Called by Windows Media Player to destroy a visualization window instantiated in the <b>Create</b> method.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-notifynewmedia">NotifyNewMedia</a>
-</td>
-<td align="left" width="63%">
-Called by Windows Media Player to inform the visualization that a new media item has been loaded.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-onwindowmessage">OnWindowMessage</a>
-</td>
-<td align="left" width="63%">
-Called by Windows Media Player to pass window messages to a visualization.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-renderwindowed">RenderWindowed</a>
-</td>
-<td align="left" width="63%">
-Called by Windows Media Player to render a windowed visualization.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-setcore">SetCore</a>
-</td>
-<td align="left" width="63%">
-Called by Windows Media Player to provide visualization access to the core Windows Media Player APIs.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

@@ -61,57 +61,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDigitGenerationEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITDigitGenerationEvent</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITDigitGenerationEvent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdigitgenerationevent-get_call">get_Call</a>
-</td>
-<td align="left" width="63%">
-Gets an 
-<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface pointer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdigitgenerationevent-get_callbackinstance">get_CallbackInstance</a>
-</td>
-<td align="left" width="63%">
-Gets the callback instance associated with the event.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdigitgenerationevent-get_generationtermination">get_GenerationTermination</a>
-</td>
-<td align="left" width="63%">
-Gets the digit or digits that indicate the end of the generated digit series.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdigitgenerationevent-get_tickcount">get_TickCount</a>
-</td>
-<td align="left" width="63%">
-Gets the "tick count" (number of milliseconds since Windows started) at which the digit-gathering completed.
-
-</td>
-</tr>
-</table>
+The <b>ITDigitGenerationEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITDigitGenerationEvent</b> also has these types of members:
 
 ## -see-also
 

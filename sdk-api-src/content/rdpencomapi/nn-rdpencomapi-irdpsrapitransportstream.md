@@ -54,74 +54,7 @@ Exposes methods that perform operations with streams.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPITransportStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRDPSRAPITransportStream</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IRDPSRAPITransportStream</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstream-allocbuffer">AllocBuffer</a>
-</td>
-<td align="left" width="63%">
-Called by the Remote Desktop Protocol (RDP) stack to allocate a stream buffer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstream-close">Close</a>
-</td>
-<td align="left" width="63%">
-Called by the RDP stack to close the stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstream-freebuffer">FreeBuffer</a>
-</td>
-<td align="left" width="63%">
-Called by the RDP stack to return a stream buffer to the stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstream-open">Open</a>
-</td>
-<td align="left" width="63%">
-Called by the RDP stack to start the stream and indicate that the RDP stack is ready to receive notifications of events.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstream-readbuffer">ReadBuffer</a>
-</td>
-<td align="left" width="63%">
-Called by the RDP stack to read the contents of a stream buffer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstream-writebuffer">WriteBuffer</a>
-</td>
-<td align="left" width="63%">
-Called by the RDP stack to write the contents of a stream buffer to the network.
-
-</td>
-</tr>
-</table>
+The <b>IRDPSRAPITransportStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRDPSRAPITransportStream</b> also has these types of members:
 
 ## -see-also
 

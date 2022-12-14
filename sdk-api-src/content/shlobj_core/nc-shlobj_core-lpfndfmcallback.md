@@ -56,7 +56,7 @@ Defines the prototype for the callback function that receives messages from the 
 
 ## -parameters
 
-### -param *psf [in, optional]
+### -param psf [in, optional]
 
 Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
 
@@ -68,7 +68,7 @@ Type: <b>HWND</b>
 
 The handle of the window that contains the view. This value can be <b>NULL</b>.
 
-### -param *pdtobj [in, optional]
+### -param pdtobj [in, optional]
 
 Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
 

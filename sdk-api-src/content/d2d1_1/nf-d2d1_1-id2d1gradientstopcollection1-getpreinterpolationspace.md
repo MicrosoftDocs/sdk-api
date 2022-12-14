@@ -52,7 +52,7 @@ api_name:
 
 Gets the color space of the input colors as well as the space in which gradient stops are interpolated.
 
-## -parameters
+
 
 ## -returns
 

@@ -46,6 +46,7 @@ api_location:
  - ie_stubs.dll
 api_name:
  - GetCaretPos
+req.apiset: ext-ms-win-ntuser-caret-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetCaretPos function
@@ -53,7 +54,7 @@ api_name:
 
 ## -description
 
-Copies the caret's position to the specified <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure.
+Copies the caret's position to the specified <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure.
 
 ## -parameters
 
@@ -61,7 +62,7 @@ Copies the caret's position to the specified <a href="/previous-versions/dd16280
 
 Type: <b>LPPOINT</b>
 
-A pointer to the <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that is to receive the client coordinates of the caret.
+A pointer to the <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that is to receive the client coordinates of the caret.
 
 ## -returns
 
@@ -93,7 +94,7 @@ This API does not participate in DPI virtualization. The returned values are int
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

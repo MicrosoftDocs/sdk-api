@@ -1,7 +1,7 @@
 ---
 UID: NF:ip2string.RtlIpv6AddressToStringW
 title: RtlIpv6AddressToStringW function (ip2string.h)
-description: Converts an IPv6 address to a string in Internet standard format.
+description: Converts an IPv6 address to a string in Internet standard format. (Unicode)
 helpviewer_keywords: ["RtlIpv6AddressToString","RtlIpv6AddressToString function [IP Helper]","RtlIpv6AddressToStringA","RtlIpv6AddressToStringW","ip2string/RtlIpv6AddressToString","ip2string/RtlIpv6AddressToStringA","ip2string/RtlIpv6AddressToStringW","iphlp.rtlipv6addresstostring"]
 old-location: iphlp\rtlipv6addresstostring.htm
 tech.root: IpHlp

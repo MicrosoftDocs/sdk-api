@@ -51,60 +51,12 @@ api_name:
 ## -description
 
 <p class="CCE_Message">[Active Accessibility Text Services is deprecated. Please see     
-<a href="/windows/win32/tsf/text-services-framework">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="/windows/win32/tsf/text-services-framework">Microsoft Windows Text Services Framework</a> for more information on advanced text input and natural language technologies.
 		]
 
 Exposes methods for client applications to retrieve documents.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccClientDocMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccClientDocMgr</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAccClientDocMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccClientDocMgr</b> also has these types of members:
 
-## -members
-
-The <b>IAccClientDocMgr</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msaatext/nf-msaatext-iaccclientdocmgr-getdocuments">GetDocuments</a>
-</td>
-<td align="left" width="63%">
-Retrieves a list of documents that have been registered with the Microsoft Active Accessibility run time. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msaatext/nf-msaatext-iaccclientdocmgr-getfocused">GetFocused</a>
-</td>
-<td align="left" width="63%">
-Retrieves the document that has focus.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msaatext/nf-msaatext-iaccclientdocmgr-lookupbyhwnd">LookupByHWND</a>
-</td>
-<td align="left" width="63%">
-Retrieves a document from an HWND.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msaatext/nf-msaatext-iaccclientdocmgr-lookupbypoint">LookupByPoint</a>
-</td>
-<td align="left" width="63%">
-Retrieves a document from a point on the screen.
-
-</td>
-</tr>
-</table>

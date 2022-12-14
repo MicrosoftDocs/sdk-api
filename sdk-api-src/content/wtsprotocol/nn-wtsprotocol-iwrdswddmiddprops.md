@@ -54,58 +54,5 @@ This interface allows a custom IDD driver to be loaded in a remote session.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsWddmIddProps</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsWddmIddProps</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWRdsWddmIddProps</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsWddmIddProps</b> also has these types of members:
 
-## -members
-
-The <b>IWRdsWddmIddProps</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt832806(v=VS.85).aspx">EnableWddmIdd</a>
-</td>
-<td align="left" width="63%">
-Termsrv uses this method to tell protocol stack  which mode it is 
-    operating.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt832807(v=VS.85).aspx">GetHardwareId</a>
-</td>
-<td align="left" width="63%">
-Protocol stack uses this method to return hardware Id of WDDM ID driver.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt832808(v=VS.85).aspx">OnDriverLoad</a>
-</td>
-<td align="left" width="63%">
-Termsrv uses this method to return a handle of the loaded WDDM ID driver to 
-    the protocol stack. From this point the stack owns the handle and needs to call 
-    CloseHandle() after communication with the driver is no longer needed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt832809(v=VS.85).aspx">OnDriverUnload</a>
-</td>
-<td align="left" width="63%">
-Termsrv uses this method to tell the protocol stack that PnP unloaded the
-    WDDM ID driver.
-
-</td>
-</tr>
-</table>

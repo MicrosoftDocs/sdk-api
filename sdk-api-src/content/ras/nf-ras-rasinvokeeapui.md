@@ -55,23 +55,23 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Handle to the connection returned by 
 <a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Specifies the subentry returned in the callback.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Pointer to the 
 <a href="/previous-versions/windows/desktop/legacy/aa377029(v=vs.85)">RASDIALEXTENSIONS</a> structure. This structure should be the same as that passed to 
 <a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> when restarting from a paused state. Ensure that the <b>dwSize</b> member of the 
 <b>RASDIALEXTENSIONS</b> structure specifies the size of the structure. Obtain the size using sizeof(<b>RASDIALEXTENSIONS</b>). This parameter cannot be <b>NULL</b>.
 
-### -param arg4 [in]
+### -param unnamedParam4 [in]
 
 Handle to the parent window to use when displaying the EAP user interface.
 

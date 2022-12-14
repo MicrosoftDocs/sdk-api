@@ -60,29 +60,10 @@ This interface is an outgoing connection-point interface. To receive events from
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidXDSEvent</b> interface inherits from <a href="/previous-versions/windows/desktop/api/segment/nn-segment-imsvidfeatureevent">IMSVidFeatureEvent</a>. <b>IMSVidXDSEvent</b> also has these types of members:
+The <b>IMSVidXDSEvent</b> interface inherits from <a href="/previous-versions/windows/desktop/api/segment/nn-segment-imsvidfeatureevent">IMSVidFeatureEvent</a>. <b>IMSVidXDSEvent</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMSVidXDSEvent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidxdsevent-ratingchange">RatingChange</a>
-</td>
-<td align="left" width="63%">
-Called when the current rating changes.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

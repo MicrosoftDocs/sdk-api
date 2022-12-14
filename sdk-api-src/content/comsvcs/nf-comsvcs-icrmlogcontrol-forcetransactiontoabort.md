@@ -52,7 +52,7 @@ api_name:
 
 Performs an immediate abort call on the transaction.
 
-## -parameters
+
 
 ## -returns
 

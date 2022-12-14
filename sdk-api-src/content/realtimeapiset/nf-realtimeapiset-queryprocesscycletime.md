@@ -9,7 +9,7 @@ ms.assetid: 1859bc0f-8065-4104-b421-1b4c020ad5ea
 ms.date: 12/05/2018
 ms.keywords: QueryProcessCycleTime, QueryProcessCycleTime function, base.queryprocesscycletime, realtimeapiset/QueryProcessCycleTime, winbase/QueryProcessCycleTime
 req.header: realtimeapiset.h
-req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]

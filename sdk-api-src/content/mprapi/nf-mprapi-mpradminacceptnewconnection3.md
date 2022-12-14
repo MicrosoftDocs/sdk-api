@@ -74,7 +74,7 @@ Pointer to a
 ### -param pRasConnection3 [in]
 
 Pointer to a 
- <a href="/windows/desktop/api/mprapi/ns-mprapi-ras_connection_3">RAS_CONNECTION_3</a>structure that describes this connection.
+ <a href="/windows/desktop/api/mprapi/ns-mprapi-ras_connection_3">RAS_CONNECTION_3</a> structure that describes this connection.
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:wincred.CredUIParseUserNameA
 title: CredUIParseUserNameA function (wincred.h)
-description: The CredUIParseUserName function extracts the domain and user account name from a fully qualified user name.
+description: The CredUIParseUserName function extracts the domain and user account name from a fully qualified user name. (ANSI)
 helpviewer_keywords: ["CredUIParseUserName","CredUIParseUserName function [Security]","CredUIParseUserNameA","CredUIParseUserNameW","_cred_creduiparseusername","security.creduiparseusername","wincred/CredUIParseUserName","wincred/CredUIParseUserNameA","wincred/CredUIParseUserNameW"]
 old-location: security\creduiparseusername.htm
 tech.root: security
@@ -144,7 +144,7 @@ Marshaled credential reference as defined by
 <li>&lt;DomainName&gt;\&lt;UserName&gt; 
 
 
-&lt;UserName&gt; is returned in the <i>User</i> parameter and the &lt;DomainName&gt; is returned is the <i>Domain</i> parameter. The name is considered to have this syntax if the <i>UserName</i> contains a backslash (\).
+&lt;UserName&gt; is returned in the <i>User</i> parameter and the &lt;DomainName&gt; is returned is the <i>Domain</i> parameter. The name is considered to have this syntax if the <i>UserName</i> contains a backslash (\\).
 
 </li>
 <li>&lt;UserName&gt;@&lt;DNSDomainName&gt; 

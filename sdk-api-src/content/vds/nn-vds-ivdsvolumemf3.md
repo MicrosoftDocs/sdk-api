@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsVolumeMF3
 title: IVdsVolumeMF3 (vds.h)
-description: Provides methods to perform additional file system management operations on the volume object.
+description: Provides methods to perform additional file system management operations on the volume object. (IVdsVolumeMF3)
 helpviewer_keywords: ["IVdsVolumeMF3","IVdsVolumeMF3 interface","IVdsVolumeMF3 interface","described","base.ivdsvolumemf3","vds/IVdsVolumeMF3"]
 old-location: base\ivdsvolumemf3.htm
 tech.root: base
@@ -57,44 +57,5 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsVolumeMF3</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVolumeMF3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVdsVolumeMF3</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVolumeMF3</b> also has these types of members:
 
-## -members
-
-The <b>IVdsVolumeMF3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf3-formatex2">FormatEx2</a>
-</td>
-<td align="left" width="63%">
-Formats a file system volume on a partition. This method is identical to the <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf2-formatex">IVdsVolumeMF2::FormatEx</a> method, except that formatting options are specified by using the <i>Options</i> parameter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf3-offlinevolume">OfflineVolume</a>
-</td>
-<td align="left" width="63%">
-Takes the volume offline by using the <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_offline">IOCTL_VOLUME_OFFLINE</a> control code.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf3-queryvolumeguidpathnames">QueryVolumeGuidPathnames</a>
-</td>
-<td align="left" width="63%">
-Returns a list of volume GUID paths for the current volume.
-
-</td>
-</tr>
-</table>

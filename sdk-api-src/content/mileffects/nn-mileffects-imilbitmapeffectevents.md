@@ -54,35 +54,5 @@ Exposes methods that define an effect event.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectEvents</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMILBitmapEffectEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectEvents</b> also has these types of members:
 
-## -members
-
-The <b>IMILBitmapEffectEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectevents-dirtyregion">DirtyRegion</a>
-</td>
-<td align="left" width="63%">
-Invalidates the specified region of the given <a href="/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectprimitive">IMILBitmapEffectPrimitive</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectevents-propertychange">PropertyChange</a>
-</td>
-<td align="left" width="63%">
-Notifies an <a href="/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectprimitive">IMILBitmapEffectPrimitive</a> of a property change.
-
-</td>
-</tr>
-</table>

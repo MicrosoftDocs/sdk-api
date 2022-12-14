@@ -54,15 +54,15 @@ Specifies which variable-length coding (VLC) table to use for entropy coding. Th
 
 ## -enum-fields
 
-### -field eAVEncMPVIntraVLCTable_Auto
+### -field eAVEncMPVIntraVLCTable_Auto:0
 
 The encoder selects the VLC table.
 
-### -field eAVEncMPVIntraVLCTable_MPEG1
+### -field eAVEncMPVIntraVLCTable_MPEG1:1
 
 The encoder uses the MPEG-1 VLC table.
 
-### -field eAVEncMPVIntraVLCTable_Alternate
+### -field eAVEncMPVIntraVLCTable_Alternate:2
 
 The encoder uses the alternate "intra" VLC table for MPEG-2.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetKeyboardLayoutNameW
 title: GetKeyboardLayoutNameW function (winuser.h)
-description: Retrieves the name of the active input locale identifier (formerly called the keyboard layout) for the system.
+description: Retrieves the name of the active input locale identifier (formerly called the keyboard layout) for the system. (Unicode)
 helpviewer_keywords: ["GetKeyboardLayoutName","GetKeyboardLayoutName function [Keyboard and Mouse Input]","GetKeyboardLayoutNameA","GetKeyboardLayoutNameW","_win32_GetKeyboardLayoutName","_win32_getkeyboardlayoutname_cpp","inputdev.getkeyboardlayoutname","winui._win32_getkeyboardlayoutname","winuser/GetKeyboardLayoutName","winuser/GetKeyboardLayoutNameA","winuser/GetKeyboardLayoutNameW"]
 old-location: inputdev\getkeyboardlayoutname.htm
 tech.root: inputdev
@@ -82,7 +82,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 The input locale identifier is a broader concept than a keyboard layout, since it can also encompass a speech-to-text converter, an Input Method Editor (IME), or any other form of input.
 
-<b>Beginning in Windows 8:</b> The preferred method to retrieve the language associated with the current keyboard layout or input method is a call to <a href="https://msdn.microsoft.com/64c40fb5-3601-4673-b85d-d647e8a05298">Windows.Globalization.Language.CurrentInputMethodLanguageTag</a>. If your app passes language tags from <b>CurrentInputMethodLanguageTag</b> to any <a href="/windows/desktop/Intl/national-language-support-functions">National Language Support</a> functions, it must first convert the tags by calling <a href="/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
+<b>Beginning in Windows 8:</b> The preferred method to retrieve the language associated with the current keyboard layout or input method is a call to <a href="/uwp/api/windows.globalization.language.currentinputmethodlanguagetag">Windows.Globalization.Language.CurrentInputMethodLanguageTag</a>. If your app passes language tags from <b>CurrentInputMethodLanguageTag</b> to any <a href="/windows/desktop/Intl/national-language-support-functions">National Language Support</a> functions, it must first convert the tags by calling <a href="/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
 
 
 

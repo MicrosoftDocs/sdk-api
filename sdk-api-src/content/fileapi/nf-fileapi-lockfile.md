@@ -102,7 +102,7 @@ The
 
 Locking a region of a file gives the threads of the locking process exclusive access to the specified region using this file handle. If the file handle is  inherited by a process created by the locking process, the child process is not granted access to the locked region. If the locking process opens the file a second time, it cannot access the specified region through this second handle until it unlocks the region.
 
-Locking a region of a file does not prevent reading from a mapped file view.
+Locking a region of a file does not prevent reading or writing from a mapped file view.
 
 You can lock bytes that are beyond the end of the current  file. This is useful to coordinate adding records to the end of a file.
 
@@ -183,6 +183,10 @@ For an example, see
 <div class="code"></div>
 
 ## -see-also
+
+<a href="/windows/desktop/FileIO/locking-and-unlocking-byte-ranges-in-files">Locking and Unlocking Byte Ranges in Files</a>
+
+
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 

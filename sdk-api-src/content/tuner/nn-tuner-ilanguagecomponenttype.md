@@ -54,38 +54,10 @@ The <b>ILanguageComponentType</b> interface is implemented on <a href="/previous
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILanguageComponentType</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType</a>. <b>ILanguageComponentType</b> also has these types of members:
+The <b>ILanguageComponentType</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType</a>. <b>ILanguageComponentType</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ILanguageComponentType</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ilanguagecomponenttype-get_langid">get_LangID</a>
-</td>
-<td align="left" width="63%">
-Retrieves the language of the stream content.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ilanguagecomponenttype-put_langid">put_LangID</a>
-</td>
-<td align="left" width="63%">
-Sets the language of the stream content.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

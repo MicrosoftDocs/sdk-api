@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.InsertMenuItemW
 title: InsertMenuItemW function (winuser.h)
-description: Inserts a new menu item at the specified position in a menu.
+description: Inserts a new menu item at the specified position in a menu. (Unicode)
 helpviewer_keywords: ["InsertMenuItem","InsertMenuItem function [Menus and Other Resources]","InsertMenuItemA","InsertMenuItemW","_win32_InsertMenuItem","_win32_insertmenuitem_cpp","menurc.insertmenuitem","winui._win32_insertmenuitem","winuser/InsertMenuItem","winuser/InsertMenuItemA","winuser/InsertMenuItemW"]
 old-location: menurc\insertmenuitem.htm
 tech.root: menurc
@@ -48,6 +48,7 @@ api_name:
  - InsertMenuItem
  - InsertMenuItemA
  - InsertMenuItemW
+req.apiset: ext-ms-win-ntuser-menu-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # InsertMenuItemW function
@@ -75,7 +76,7 @@ The identifier or position of the menu item before which to insert the new item.
 
 Type: <b>BOOL</b>
 
-Controls the meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="/windows/desktop/menurc/about-menus">Accessing Menu Items Programmatically</a> for more information.
+Controls the meaning of <i>item</i>. If this parameter is <b>FALSE</b>, <i>item</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="/windows/desktop/menurc/about-menus">Accessing Menu Items Programmatically</a> for more information.
 
 ### -param lpmi [in]
 

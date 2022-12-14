@@ -60,70 +60,10 @@ An <b>IWMBandwidthSharing</b> interface is exposed for each bandwidth sharing ob
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMBandwidthSharing</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamlist">IWMStreamList</a>. <b>IWMBandwidthSharing</b> also has these types of members:
+The <b>IWMBandwidthSharing</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamlist">IWMStreamList</a>. <b>IWMBandwidthSharing</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMBandwidthSharing</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-getbandwidth">GetBandwidth</a>
-</td>
-<td align="left" width="63%">
-Retrieves the bandwidth and maximum buffer size of the streams in the bandwidth sharing object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-gettype">GetType</a>
-</td>
-<td align="left" width="63%">
-Retrieves the type of sharing (exclusive or partial) for the bandwidth sharing object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-setbandwidth">SetBandwidth</a>
-</td>
-<td align="left" width="63%">
-Sets the bandwidth and maximum buffer size for streams in the bandwidth sharing object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-settype">SetType</a>
-</td>
-<td align="left" width="63%">
-Sets the type of sharing (exclusive or partial) for the bandwidth sharing object.
-
-</td>
-</tr>
-</table> 
-
-The following interface can be obtained by using the QueryInterface method of this interface.
-<table>
-<tr>
-<th>Interface</th>
-<th>IID</th>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamlist">IWMStreamList</a>
-</td>
-<td>IID_IWMStreamList</td>
-</tr>
-</table>
 
 ## -see-also
 

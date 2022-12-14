@@ -1,7 +1,7 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectOutputConnectorImpl
 title: IMILBitmapEffectOutputConnectorImpl (mileffects.h)
-description: Exposes methods that define an output connector.
+description: Exposes methods that define an output connector. (IMILBitmapEffectOutputConnectorImpl)
 helpviewer_keywords: ["IMILBitmapEffectOutputConnectorImpl","IMILBitmapEffectOutputConnectorImpl interface [WPF Bitmap Effects]","IMILBitmapEffectOutputConnectorImpl interface [WPF Bitmap Effects]","described","_wibe_imilbitmapeffectoutputconnectorimpl","mileffects/IMILBitmapEffectOutputConnectorImpl","wibe._wibe_imilbitmapeffectoutputconnectorimpl"]
 old-location: wibe\_wibe_imilbitmapeffectoutputconnectorimpl.htm
 tech.root: wibe
@@ -54,32 +54,7 @@ Exposes methods that define an output connector.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectOutputConnectorImpl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectOutputConnectorImpl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMILBitmapEffectOutputConnectorImpl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectoutputconnectorimpl-addbacklink">AddBackLink</a>
-</td>
-<td align="left" width="63%"></td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectoutputconnectorimpl-removebacklink">RemoveBackLink</a>
-</td>
-<td align="left" width="63%"></td>
-</tr>
-</table>
+The <b>IMILBitmapEffectOutputConnectorImpl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectOutputConnectorImpl</b> also has these types of members:
 
 ## -remarks
 

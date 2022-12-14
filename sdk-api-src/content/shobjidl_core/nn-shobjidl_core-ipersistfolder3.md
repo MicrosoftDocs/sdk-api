@@ -54,38 +54,7 @@ Extends the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersis
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistFolder3</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder2">IPersistFolder2</a>. <b>IPersistFolder3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPersistFolder3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder3-getfoldertargetinfo">GetFolderTargetInfo</a>
-</td>
-<td align="left" width="63%">
-Provides the location and attributes of a folder shortcut's target folder.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder3-initializeex">InitializeEx</a>
-</td>
-<td align="left" width="63%">
-Initializes a folder and specifies its location in the namespace. If the folder is a shortcut, this method also specifies the location of the target folder.
-
-</td>
-</tr>
-</table>
+The <b>IPersistFolder3</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder2">IPersistFolder2</a>. <b>IPersistFolder3</b> also has these types of members:
 
 ## -remarks
 

@@ -46,6 +46,7 @@ api_location:
  - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
  - TrackPopupMenuEx
+req.apiset: ext-ms-win-ntuser-menu-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # TrackPopupMenuEx function

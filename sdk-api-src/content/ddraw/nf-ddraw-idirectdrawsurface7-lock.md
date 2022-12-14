@@ -54,15 +54,15 @@ Obtains a pointer to the surface memory.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to a <b>RECT</b> structure that identifies the region of the surface that is being locked. If this parameter is NULL, the entire surface is locked.
 
-### -param arg2 [in, out]
+### -param unnamedParam2 [in, out]
 
 A pointer to a <a href="/previous-versions/windows/hardware/drivers/ff550340(v=vs.85)">DDSURFACEDESC2</a> structure that describes relevant details about the surface and that receives information about the surface.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 A combination of flags that determine how to lock the surface. The following flags are defined:
 
@@ -126,7 +126,7 @@ If a lock cannot be obtained because a bit block transfer (bitblt) operation is 
 
 Indicates that the surface being locked is write-enabled.
 
-### -param arg4 [in]
+### -param unnamedParam4 [in]
 
 Handle of the event. This parameter is not currently used and must be set to NULL.
 
@@ -161,7 +161,7 @@ Unless you include the DDLOCK_NOSYSLOCK flag, <b>Lock</b> causes DirectDraw to h
 
 
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>Lock</b> method.
+
 
 ## -see-also
 

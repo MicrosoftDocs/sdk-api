@@ -1,7 +1,7 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.get_VerticalOffset
 title: IPenInputPanel::get_VerticalOffset (peninputpanel.h)
-description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets the offset between the closest horizontal edge of the pen input panel and the closest horizontal edge of the control to which it is attached.
+description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets the offset between the closest horizontal edge of the pen input panel and the closest horizontal edge of the control to which it is attached. (IPenInputPanel.get_VerticalOffset)
 helpviewer_keywords: ["IPenInputPanel interface [Tablet PC]","VerticalOffset property","IPenInputPanel.VerticalOffset","IPenInputPanel.get_VerticalOffset","IPenInputPanel::VerticalOffset","IPenInputPanel::get_VerticalOffset","IPenInputPanel::put_VerticalOffset","PenInputPanel.get_VerticalOffset","PenInputPanel.put_VerticalOffset","VerticalOffset property [Tablet PC]","VerticalOffset property [Tablet PC]","IPenInputPanel interface","ad4b00cc-5cb5-4c32-b837-b13a699ae7e6","get_VerticalOffset","peninputpanel/IPenInputPanel::VerticalOffset","peninputpanel/IPenInputPanel::get_VerticalOffset","peninputpanel/IPenInputPanel::put_VerticalOffset","put_VerticalOffset","tablet.peninputpanel_verticaloffset"]
 old-location: tablet\peninputpanel_verticaloffset.htm
 tech.root: tablet
@@ -77,7 +77,7 @@ If the new position of the <a href="/windows/desktop/tablet/peninputpanel-class"
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846809(v=VS.85).aspx">IPenInputPanel</a>
+<a href="../peninputpanel/nn-peninputpanel-ipeninputpanel.md">IPenInputPanel</a>
 
 
 

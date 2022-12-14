@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CopySubresourceRegion
 title: ID3D11DeviceContext::CopySubresourceRegion (d3d11.h)
-description: Copy a region from a source resource to a destination resource.
+description: Copy a region from a source resource to a destination resource. (ID3D11DeviceContext.CopySubresourceRegion)
 helpviewer_keywords: ["4fcc18c3-ca99-b51e-9162-bb8b4121db03","CopySubresourceRegion","CopySubresourceRegion method [Direct3D 11]","CopySubresourceRegion method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","CopySubresourceRegion method","ID3D11DeviceContext.CopySubresourceRegion","ID3D11DeviceContext::CopySubresourceRegion","d3d11/ID3D11DeviceContext::CopySubresourceRegion","direct3d11.id3d11devicecontext_copysubresourceregion"]
 old-location: direct3d11\id3d11devicecontext_copysubresourceregion.htm
 tech.root: direct3d11
@@ -116,7 +116,7 @@ If the resources are buffers, all coordinates are in bytes; if the resources are
 <ul>
 <li>Must be different subresources (although they can be from the same resource).</li>
 <li>Must be the same type.</li>
-<li>Must have compatible DXGI formats (identical or from the same type group). For example, a DXGI_FORMAT_R32G32B32_FLOAT texture can be copied to an DXGI_FORMAT_R32G32B32_UINT texture since both of these formats are in the DXGI_FORMAT_R32G32B32_TYPELESS group. <b>CopySubresourceRegion</b> can copy between a few format types. For more info, see <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">Format Conversion using Direct3D 10.1</a>.</li>
+<li>Must have compatible DXGI formats (identical or from the same type group). For example, a DXGI_FORMAT_R32G32B32_FLOAT texture can be copied to a DXGI_FORMAT_R32G32B32_UINT texture since both of these formats are in the DXGI_FORMAT_R32G32B32_TYPELESS group. <b>CopySubresourceRegion</b> can copy between a few format types. For more info, see <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">Format Conversion using Direct3D 10.1</a>.</li>
 <li>May not be currently mapped.</li>
 </ul>
 **CopySubresourceRegion** only supports copy; it doesn't support any stretch, color key, or blend. **CopySubresourceRegion** can reinterpret the resource data between a few format types. For more info, see [Format conversion using Direct3D 10.1](/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-block-compression#format-conversion-using-direct3d-101).
@@ -135,7 +135,7 @@ If your app needs to copy an entire resource, we recommend to use <a href="/wind
 <div class="alert"><b>Note</b>  If you use <b>CopySubresourceRegion</b> with a depth-stencil buffer or a multisampled resource, you must copy the whole subresource. In this situation, you must pass 0 to the <i>DstX</i>, <i>DstY</i>, and <i>DstZ</i> parameters and <b>NULL</b> to the <i>pSrcBox</i> parameter. In addition, source and destination resources, which are represented by the <i>pSrcResource</i> and <i>pDstResource</i> parameters, should have identical sample count values.</div>
 <div> </div>
 <h3><a id="Example"></a><a id="example"></a><a id="EXAMPLE"></a>Example</h3>
-The following code snippet copies a box (located at (120,100),(200,220)) from a source texture into a reqion (10,20),(90,140) in a destination texture.
+The following code snippet copies a box (located at (120,100),(200,220)) from a source texture into a region (10,20),(90,140) in a destination texture.
           
 
 

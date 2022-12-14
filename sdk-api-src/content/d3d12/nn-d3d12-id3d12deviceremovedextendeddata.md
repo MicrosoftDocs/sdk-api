@@ -9,8 +9,8 @@ ms.keywords: ID3D12DeviceRemovedExtendedData, ID3D12DeviceRemovedExtendedData in
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -53,15 +53,6 @@ Provides runtime access to Device Removed Extended Data (DRED) data. To retrieve
 ## Inheritance
 
 The **ID3D12DeviceRemovedExtendedData** interface inherits from the [IUnknown](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.
-
-## -members
-
-The **ID3D12DeviceRemovedExtendedData** interface has these methods.
-
-|Method|Description|
-|-|-|
-|[GetAutoBreadcrumbsOutput](nf-d3d12-id3d12deviceremovedextendeddata-getautobreadcrumbsoutput.md)|Retrieves the Device Removed Extended Data (DRED) auto-breadcrumbs output.|
-|[GetPageFaultAllocationOutput](nf-d3d12-id3d12deviceremovedextendeddata-getpagefaultallocationoutput.md)|Retrieves the Device Removed Extended Data (DRED) page fault data.|
 
 ## -remarks
 

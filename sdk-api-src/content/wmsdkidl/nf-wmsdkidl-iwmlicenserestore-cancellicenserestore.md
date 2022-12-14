@@ -59,7 +59,7 @@ api_name:
 
 The <b>CancelLicenseRestore</b> method cancels a current restore operation.
 
-## -parameters
+
 
 ## -returns
 

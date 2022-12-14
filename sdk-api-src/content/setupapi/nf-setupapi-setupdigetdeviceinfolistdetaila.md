@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceInfoListDetailA
 title: SetupDiGetDeviceInfoListDetailA function (setupapi.h)
-description: The SetupDiGetDeviceInfoListDetail function retrieves information associated with a device information set including the class GUID, remote computer handle, and remote computer name.
+description: The SetupDiGetDeviceInfoListDetail function retrieves information associated with a device information set including the class GUID, remote computer handle, and remote computer name. (ANSI)
 helpviewer_keywords: ["SetupDiGetDeviceInfoListDetail","SetupDiGetDeviceInfoListDetail function [Device and Driver Installation]","SetupDiGetDeviceInfoListDetailA","SetupDiGetDeviceInfoListDetailW","devinst.setupdigetdeviceinfolistdetail","di-rtns_b25a6105-3c1f-4b79-ad07-37be79fa36ae.xml","setupapi/SetupDiGetDeviceInfoListDetail"]
 old-location: devinst\setupdigetdeviceinfolistdetail.htm
 tech.root: devinst

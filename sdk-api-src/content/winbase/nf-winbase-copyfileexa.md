@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CopyFileExA
 title: CopyFileExA function (winbase.h)
-description: Copies an existing file to a new file, notifying the application of its progress through a callback function.
+description: Copies an existing file to a new file, notifying the application of its progress through a callback function. (CopyFileExA)
 helpviewer_keywords: ["COPY_FILE_ALLOW_DECRYPTED_DESTINATION","COPY_FILE_COPY_SYMLINK","COPY_FILE_FAIL_IF_EXISTS","COPY_FILE_NO_BUFFERING","COPY_FILE_OPEN_SOURCE_FOR_WRITE","COPY_FILE_RESTARTABLE","CopyFileEx","CopyFileEx function [Files]","CopyFileExA","CopyFileExW","_win32_copyfileex","base.copyfileex","fs.copyfileex","winbase/CopyFileEx","winbase/CopyFileExA","winbase/CopyFileExW"]
 old-location: fs\copyfileex.htm
 tech.root: fs
@@ -199,6 +199,18 @@ Progress of the copy is tracked in the target file in case the copy fails. The f
         <i>lpNewFileName</i> as those used in the call that failed. This can significantly slow 
         down the copy operation as the new file may be flushed multiple times during the copy operation.
 
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="COPY_FILE_RESTARTABLE"></a><a id="copy_file_restartable"></a><dl>
+<dt><b>COPY_FILE_REQUEST_COMPRESSED_TRAFFIC</b></dt>
+<dt> 0x10000000</dt>
+</dl>
+</td>
+<td width="60%">
+<p>Request the underlying transfer channel compress the data during the copy operation. The request may not be supported for all mediums, in which case it is ignored. The compression attributes and parameters (computational complexity, memory usage) are not configurable through this API, and are subject to change between different OS releases.</p>
+<p>This flag was introduced in Windows 10, version 1903 and Windows Server 2022. On Windows 10, the flag is supported for files residing on SMB shares, where the negotiated SMB protocol version is SMB v3.1.1 or greater.</p>
 </td>
 </tr>
 </table>

@@ -52,7 +52,7 @@ api_name:
 
 The <b>IADsPropertyList::PurgePropertyList</b> method deletes all items from the property list.
 
-## -parameters
+
 
 ## -returns
 

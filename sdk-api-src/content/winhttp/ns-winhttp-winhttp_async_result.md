@@ -1,5 +1,5 @@
 ---
-UID: NS:winhttp.__unnamed_struct_0
+UID: NS:winhttp._WINHTTP_ASYNC_RESULT
 title: WINHTTP_ASYNC_RESULT (winhttp.h)
 description: The WINHTTP_ASYNC_RESULT structure contains the result of a call to an asynchronous function. This structure is used with the WINHTTP_STATUS_CALLBACK prototype.
 helpviewer_keywords: ["*LPWINHTTP_ASYNC_RESULT","API_QUERY_DATA_AVAILABLE","API_READ_DATA","API_RECEIVE_RESPONSE","API_SEND_REQUEST","API_WRITE_DATA","WINHTTP_ASYNC_RESULT","WINHTTP_ASYNC_RESULT structure [HTTP]","http.winhttp_async_result","winhttp.winhttp_async_result_structure","winhttp/WINHTTP_ASYNC_RESULT"]
@@ -120,7 +120,18 @@ The error occurred during a call to
 <td width="60%">
 The error occurred during a call to 
 <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpsendrequest">WinHttpSendRequest</a>.
+</td>
+</tr>
 
+<tr>
+<td width="40%"><a id="API_GET_PROXY_FOR_URL"></a><a id="api_get_proxy_for_url"></a><dl>
+<dt><b>API_GET_PROXY_FOR_URL</b></dt>
+<dt>6</dt>
+</dl>
+</td>
+<td width="60%">
+The error occurred during a call to 
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurlex">WinHttpGetProxyForUrlEx</a>.
 </td>
 </tr>
 </table>

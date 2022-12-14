@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.BoundingFrustum(constBoundingFrustum&)
 title: BoundingFrustum::BoundingFrustum(const BoundingFrustum &)
-description: Creates an instance of BoundingFrustum.
+description: Creates an instance of BoundingFrustum. (overload 1/4)
 helpviewer_keywords: ["BoundingFrustum","BoundingFrustum constructor [DirectX Math Support APIs]","BoundingFrustum constructor [DirectX Math Support APIs]","BoundingFrustum interface","BoundingFrustum interface [DirectX Math Support APIs]","BoundingFrustum constructor","BoundingFrustum.BoundingFrustum","BoundingFrustum.BoundingFrustum(const BoundingFrustum &)","BoundingFrustum.BoundingFrustum(const BoundingFrustum&)","BoundingFrustum::BoundingFrustum","BoundingFrustum::BoundingFrustum(const BoundingFrustum &)","dxmath.boundingfrustum_ctor_1"]
 old-location: dxmath\boundingfrustum_ctor_1.htm
 tech.root: dxmath
@@ -54,9 +54,9 @@ Creates an instance of [BoundingFrustum](./ns-directxcollision-boundingfrustum.m
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
-A [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) to use to initialize the new <b>BoundingFrustum</b>.
+A [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) to use to initialize the new <b>BoundingFrustum</b>.
 
 ## -remarks
 

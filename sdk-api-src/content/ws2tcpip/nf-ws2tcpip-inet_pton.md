@@ -1,7 +1,7 @@
 ---
 UID: NF:ws2tcpip.inet_pton
 title: inet_pton function (ws2tcpip.h)
-description: The InetPton function converts an IPv4 or IPv6 Internet network address in its standard text presentation form into its numeric binary form. The ANSI version of this function is inet_pton.
+description: The InetPton function converts an IPv4 or IPv6 Internet network address in its standard text presentation form into its numeric binary form. The ANSI version of this function is inet_pton. (InetPtonA or inet_pton)
 helpviewer_keywords: ["AF_INET","AF_INET6","InetPton","InetPton function [Winsock]","InetPtonA","InetPtonA or inet_pton","InetPtonW","inet_pton","winsock.inet_pton","ws2tcpip/InetPton","ws2tcpip/InetPtonA or inet_pton","ws2tcpip/InetPtonW"]
 old-location: winsock\inet_pton.htm
 tech.root: WinSock
@@ -152,11 +152,11 @@ The <i>pszAddrString</i> or <i>pAddrBuf</i> parameters are <b>NULL</b> or are no
 ## -remarks
 
 The 
-<b>InetPton</b> function is supported on Windows Vistaand later.
+<b>InetPton</b> function is supported on Windows Vista and later.
 
 The 
 <b>InetPton</b> function provides a protocol-independent conversion of an Internet network address in its standard text   presentation form into its numeric binary form. The 
-<b>InetPton</b> function takes a text representation of an Internet address pointed to  by the <i>pszAddrString</i> parameter and returns a pointer to the numeric binary IP address in the <i>pAddrBuf</i> parameter. While the <a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_addr">inet_addr</a>function works only with IPv4 address strings, the <b>InetPton</b> function works with either IPv4 or IPv6 address strings.
+<b>InetPton</b> function takes a text representation of an Internet address pointed to  by the <i>pszAddrString</i> parameter and returns a pointer to the numeric binary IP address in the <i>pAddrBuf</i> parameter. While the <a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_addr">inet_addr</a> function works only with IPv4 address strings, the <b>InetPton</b> function works with either IPv4 or IPv6 address strings.
 
 The ANSI version of this function is <b>inet_pton</b> as defined in RFC 2553. For more information, see RFC 2553 available at the <a href="http://tools.ietf.org/html/rfc2553">IETF website</a>.
 
@@ -169,7 +169,7 @@ If the <i>Family</i> parameter specified is <b>AF_INET6</b>, then the <i>pszAddr
 
 When UNICODE or _UNICODE is defined, <b>InetPton</b> is defined to <b>InetPtonW</b>, the Unicode version of this function. The <i>pszAddrString</i> parameter is defined to the <b>PCWSTR</b> data type.
 
-When UNICODE or _UNICODE is not defined, <b>InetPton</b> is defined to <b>InetPtonA</b>, the ANSI version of this function. The ANSI version of this function is always defined as <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-inetntopw">inet_pton</a>. The <i>pszAddrString</i> parameter is defined to the <b>PCSTR</b> data type.
+When UNICODE or _UNICODE is not defined, <b>InetPton</b> is defined to <b>InetPtonA</b>, the ANSI version of this function. The ANSI version of this function is always defined as inet_pton. The <i>pszAddrString</i> parameter is defined to the <b>PCSTR</b> data type.
 
 The <a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">IN_ADDR</a> structure is defined in the <i>Inaddr.h</i> header file.
 

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <a href="wcs.IDeviceModelPlugIn::GetNeutralAxisSize">IDeviceModelPlugIn::GetNeutralAxisSize</a> function returns the number of data points along the neutral axis that are returned by the <a href="/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-getneutralaxis">GetNeutralAxis</a> function. It is provided so that a Color Management Module (CMM) can allocate an appropriately sized buffer.
+The <a href="/windows/win32/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-getneutralaxissize">IDeviceModelPlugIn::GetNeutralAxisSize</a> function returns the number of data points along the neutral axis that are returned by the <a href="/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-getneutralaxis">GetNeutralAxis</a> function. It is provided so that a Color Management Module (CMM) can allocate an appropriately sized buffer.
 
 ## -parameters
 
@@ -66,12 +66,6 @@ If this function fails, the return value is E_FAIL.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
-
-
-
-<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>
-
-
-
-<a href="/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin">IDeviceModelPlugIn</a>
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Functions](/windows/win32/wcs/functions)
+* [IDeviceModelPlugIn](/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin)

@@ -68,7 +68,7 @@ The name of the partition.
 
 ### -field EncryptionFlags
 
-A flag that indicates whether BitLocker encryption is enabled on the partion.
+A flag that indicates whether BitLocker encryption is enabled on the partition.
 
 
 

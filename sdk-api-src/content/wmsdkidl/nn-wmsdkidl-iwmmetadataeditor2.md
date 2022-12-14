@@ -56,68 +56,10 @@ This interface is implemented as part of the metadata editor object. To obtain a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMMetadataEditor2</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmetadataeditor">IWMMetadataEditor</a>. <b>IWMMetadataEditor2</b> also has these types of members:
+The <b>IWMMetadataEditor2</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmetadataeditor">IWMMetadataEditor</a>. <b>IWMMetadataEditor2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMMetadataEditor2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmetadataeditor2-openex">OpenEx</a>
-</td>
-<td align="left" width="63%">
-Opens a file so that the metadata can be accessed.
-
-</td>
-</tr>
-</table> 
-
-The following interfaces can be obtained by using the QueryInterface method of this interface.
-
-<table>
-<tr>
-<th>Interface</th>
-<th>IID</th>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmeditor">IWMDRMEditor</a>
-</td>
-<td>IID_IWMDRMEditor</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo</a>
-</td>
-<td>IID_IWMHeaderInfo</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2</a>
-</td>
-<td>IID_IWMHeaderInfo2</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3</a>
-</td>
-<td>IID_IWMHeaderInfo3</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmetadataeditor">IWMMetadataEditor</a>
-</td>
-<td>IID_IWMMetadataEditor</td>
-</tr>
-</table>
 
 ## -see-also
 

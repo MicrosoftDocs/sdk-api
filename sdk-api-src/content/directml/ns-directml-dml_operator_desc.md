@@ -51,13 +51,13 @@ api_name:
 ## -description
 
 A generic container for an operator description. You construct DirectML operators using the parameters specified
-    in this struct. See [IDMLDevice::CreateOperator](/windows/desktop/api/directml/nf-directml-idmldevice-createoperator) for additional details.
+    in this struct. See [IDMLDevice::CreateOperator](/windows/win32/api/directml/nf-directml-idmldevice-createoperator) for additional details.
 
 ## -struct-fields
 
 ### -field Type
 
-Type: [**DML_OPERATOR_TYPE**](/windows/desktop/api/directml/ne-directml-dml_operator_type)
+Type: [**DML_OPERATOR_TYPE**](/windows/win32/api/directml/ne-directml-dml_operator_type)
 
 The type of the operator description. See <a href="https://msdn.microsoft.com/2D66A3DB-FE61-4EC2-B626-DD008FF14802">DML_OPERATOR_TYPE</a> for the available types.
 
@@ -66,4 +66,3 @@ The type of the operator description. See <a href="https://msdn.microsoft.com/2D
 Type: <b>const void*</b>
 
 A pointer to the operator description. The type of the pointed-to struct must match the value specified in <i>Type.</i>
-

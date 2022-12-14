@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiSourceListAddMediaDiskA
 title: MsiSourceListAddMediaDiskA function (msi.h)
-description: The MsiSourceListAddMediaDisk function adds or updates a disk of the media source of a registered product or patch.
+description: The MsiSourceListAddMediaDisk function adds or updates a disk of the media source of a registered product or patch. (ANSI)
 helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiSourceListAddMediaDisk","MsiSourceListAddMediaDisk function","MsiSourceListAddMediaDiskA","MsiSourceListAddMediaDiskW","NULL","User SID","msi/MsiSourceListAddMediaDisk","msi/MsiSourceListAddMediaDiskA","msi/MsiSourceListAddMediaDiskW","setup.msisourcelistaddmediadisk","setup.msisourcelistaddmediadisks"]
 old-location: setup\msisourcelistaddmediadisk.htm
 tech.root: setup

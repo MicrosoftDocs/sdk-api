@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsLun.GetProperties
 title: IVdsLun::GetProperties (vdshwprv.h)
-description: Returns the properties of a LUN object.
+description: The IVdsLun::GetProperties (vdshwprv.h) method returns the properties of a LUN object.
 helpviewer_keywords: ["GetProperties","GetProperties method [VDS]","GetProperties method [VDS]","IVdsLun interface","IVdsLun interface [VDS]","GetProperties method","IVdsLun.GetProperties","IVdsLun::GetProperties","base.ivdslun_getproperties","vds/IVdsLun::GetProperties","vdshwprv/IVdsLun::GetProperties"]
 old-location: base\ivdslun_getproperties.htm
 tech.root: base
 ms.assetid: 1fec1c8d-7ac9-4b77-830c-930908aac6ef
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsLun interface, IVdsLun interface [VDS],GetProperties method, IVdsLun.GetProperties, IVdsLun::GetProperties, base.ivdslun_getproperties, vds/IVdsLun::GetProperties, vdshwprv/IVdsLun::GetProperties
 req.header: vdshwprv.h
 req.include-header: 

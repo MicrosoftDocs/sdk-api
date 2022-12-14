@@ -54,74 +54,7 @@ Represents a bitmap that can be used as a surface for an <a href="/windows/deskt
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Bitmap1</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>. <b>ID2D1Bitmap1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID2D1Bitmap1</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-getcolorcontext">GetColorContext</a>
-</td>
-<td align="left" width="63%">
-Gets the color context information associated with the bitmap.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-getoptions">GetOptions</a>
-</td>
-<td align="left" width="63%">
-Gets the options used in creating the bitmap.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/hh404353(v=vs.85)">GetSourceStream</a>
-</td>
-<td align="left" width="63%">
-Gets any image stream that is associated with the bitmap.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-getsurface">GetSurface</a>
-</td>
-<td align="left" width="63%">
-Gets either the surface that was specified when the bitmap was created, or the default surface created when the bitmap was created. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-map">Map</a>
-</td>
-<td align="left" width="63%">
-Maps  the given bitmap into memory.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-unmap">Unmap</a>
-</td>
-<td align="left" width="63%">
-Unmaps the bitmap from memory. 
-
-</td>
-</tr>
-</table>
+The <b>ID2D1Bitmap1</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>. <b>ID2D1Bitmap1</b> also has these types of members:
 
 ## -remarks
 

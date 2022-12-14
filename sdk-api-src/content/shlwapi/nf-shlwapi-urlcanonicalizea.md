@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.UrlCanonicalizeA
 title: UrlCanonicalizeA function (shlwapi.h)
-description: Converts a URL string into canonical form.
+description: Converts a URL string into canonical form. (ANSI)
 helpviewer_keywords: ["URL_DONT_SIMPLIFY","URL_ESCAPE_AS_UTF8","URL_ESCAPE_PERCENT","URL_ESCAPE_SPACES_ONLY","URL_ESCAPE_UNSAFE","URL_NO_META","URL_PLUGGABLE_PROTOCOL","URL_UNESCAPE","UrlCanonicalize","UrlCanonicalize function [Windows Shell]","UrlCanonicalizeA","UrlCanonicalizeW","_win32_UrlCanonicalize","shell.UrlCanonicalize","shlwapi/UrlCanonicalize","shlwapi/UrlCanonicalizeA","shlwapi/UrlCanonicalizeW"]
 old-location: shell\UrlCanonicalize.htm
 tech.root: shell
@@ -136,7 +136,7 @@ Convert any occurrence of "%" to its escape sequence.
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

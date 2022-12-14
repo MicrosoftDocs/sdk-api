@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.LoadKeyboardLayoutW
 title: LoadKeyboardLayoutW function (winuser.h)
-description: Loads a new input locale identifier (formerly called the keyboard layout) into the system.
+description: Loads a new input locale identifier (formerly called the keyboard layout) into the system. (Unicode)
 helpviewer_keywords: ["KLF_ACTIVATE","KLF_NOTELLSHELL","KLF_REORDER","KLF_REPLACELANG","KLF_SETFORPROCESS","KLF_SUBSTITUTE_OK","KLF_UNLOADPREVIOUS","LoadKeyboardLayout","LoadKeyboardLayout function [Keyboard and Mouse Input]","LoadKeyboardLayoutA","LoadKeyboardLayoutW","_win32_LoadKeyboardLayout","_win32_loadkeyboardlayout_cpp","inputdev.loadkeyboardlayout","winui._win32_loadkeyboardlayout","winuser/LoadKeyboardLayout","winuser/LoadKeyboardLayoutA","winuser/LoadKeyboardLayoutW"]
 old-location: inputdev\loadkeyboardlayout.htm
 tech.root: inputdev
@@ -98,7 +98,7 @@ Specifies how the input locale identifier is to be loaded. This parameter can be
 </td>
 <td width="60%">
 <b>Prior to Windows 8:</b> Prevents a 
-						<a href="/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)">ShellProc</a>hook procedure from receiving an <b>HSHELL_LANGUAGE</b> hook code when the new input locale identifier is loaded. This value is typically used when an application loads multiple input locale identifiers one after another. Applying this value to all but the last input locale identifier delays the shell's processing until all input locale identifiers have been added.
+						<a href="/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)">ShellProc</a> hook procedure from receiving an <b>HSHELL_LANGUAGE</b> hook code when the new input locale identifier is loaded. This value is typically used when an application loads multiple input locale identifiers one after another. Applying this value to all but the last input locale identifier delays the shell's processing until all input locale identifiers have been added.
 
 <b>Beginning in  Windows 8:</b> In this scenario, the last input locale identifier is set for the entire system.
 
@@ -170,7 +170,11 @@ This flag is unsupported. Use the <a href="/windows/desktop/api/winuser/nf-winus
 
 Type: <b>HKL</b>
 
-If the function succeeds, the return value is the input locale identifier corresponding to the name specified in <i>pwszKLID</i>. If no matching locale is available, the return value is the default language of the system. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function succeeds, the return value is the input locale identifier corresponding to the name specified in <i>pwszKLID</i>. If no matching locale is available, the return value is the default language of the system.
+
+If the function fails, the return value is NULL. This can occur if the layout library is loaded from the application directory.
+
+To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 

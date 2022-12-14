@@ -3,10 +3,9 @@ UID: NF:icodecapi.ICodecAPI.GetAllSettings
 title: ICodecAPI::GetAllSettings
 helpviewer_keywords: ["GetAllSettings","GetAllSettings method [DirectShow]","GetAllSettings method [DirectShow]","ICodecAPI interface","ICodecAPI interface [DirectShow]","GetAllSettings method","ICodecAPI.GetAllSettings","ICodecAPI::GetAllSettings","ICodecAPIGetAllSettings","dshow.icodecapi_getallsettings","icodecapi/ICodecAPI::GetAllSettings"]
 tech.root: mf
-ms.date: 09/22/220
-ms.topic: language-reference
+ms.date: 09/22/2020
 targetos: Windows
-description: The GetAllSettings method gets the codec's current properties and writes them to a stream.
+description: The GetAllSettings method gets the codec's current properties and writes them to a stream. (ICodecAPI::GetAllSettings)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -20,8 +19,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

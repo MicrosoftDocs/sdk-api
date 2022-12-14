@@ -9,7 +9,7 @@ ms.assetid: 2c67215c-6349-418e-9004-b869d6f5baef
 ms.date: 12/05/2018
 ms.keywords: IP_DAD_STATE, IP_DAD_STATE enumeration [IP Helper], IpDadStateDeprecated, IpDadStateDuplicate, IpDadStateInvalid, IpDadStatePreferred, IpDadStateTentative, NL_DAD_STATE, iphlp.ip_dad_state, iptypes/IP_DAD_STATE, iptypes/IpDadStateDeprecated, iptypes/IpDadStateDuplicate, iptypes/IpDadStateInvalid, iptypes/IpDadStatePreferred, iptypes/IpDadStateTentative, nldef/IP_DAD_STATE, nldef/IpDadStateDeprecated, nldef/IpDadStateDuplicate, nldef/IpDadStateInvalid, nldef/IpDadStatePreferred, nldef/IpDadStateTentative
 req.header: nldef.h
-req.include-header: Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008  Windows Vista, Iphlpapi.h
+req.include-header: Iphlpapi.h on Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008  Windows Vista
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -65,7 +65,7 @@ The <b>IP_DAD_STATE</b> enumeration specifies information about the duplicate ad
 
 ### -field NldsPreferred
 
-### -field IpDadStateInvalid
+### -field IpDadStateInvalid:0
 
 The DAD state is invalid.
 

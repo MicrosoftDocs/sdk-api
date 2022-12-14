@@ -44,6 +44,7 @@ api_location:
  - API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
  - GetCurrentUmsThread
+req.apiset: api-ms-win-core-ums-l1-1-0 (introduced in Windows 7)
 ---
 
 # GetCurrentUmsThread function
@@ -53,7 +54,8 @@ api_name:
 
 Returns the user-mode scheduling (UMS) thread context of the calling UMS thread.
 
-## -parameters
+> [!WARNING]
+> As of Windows 11, user-mode scheduling is not supported. All calls fail with the error `ERROR_NOT_SUPPORTED`.
 
 ## -returns
 

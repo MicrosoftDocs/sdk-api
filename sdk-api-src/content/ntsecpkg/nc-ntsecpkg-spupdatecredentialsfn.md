@@ -1,7 +1,7 @@
 ---
 UID: NC:ntsecpkg.SpUpdateCredentialsFn
 title: SpUpdateCredentialsFn (ntsecpkg.h)
-description: Updates the credentials associated with the specified context.
+description: Updates the credentials associated with the specified context. (SpUpdateCredentialsFn)
 helpviewer_keywords: ["SEC_WINNT_AUTH_DATA_TYPE_CERT","SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA","SEC_WINNT_AUTH_DATA_TYPE_PASSWORD","SpUpdateCredentialsFn","SpUpdateCredentialsFn callback","SpUpdateCredentialsFn callback function [Security]","ntsecpkg/SpUpdateCredentialsFn","security.spupdatecredentialsfn"]
 old-location: security\spupdatecredentialsfn.htm
 tech.root: security
@@ -58,7 +58,7 @@ Updates the credentials associated with the specified context.
 
 A handle to the context to update.
 
-### -param *CredType [in]
+### -param CredType [in]
 
 The type of credential specified by the <i>ContextHandle</i> parameter. This can be one of the following values.
 

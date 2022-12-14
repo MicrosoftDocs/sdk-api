@@ -56,13 +56,13 @@ Defines the prototype for the callback function used by the system folder view o
 
 ## -parameters
 
-### -param *psvOuter [in]
+### -param psvOuter [in]
 
 Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>*</b>
 
 A pointer to the owning instance of <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>, if applicable. This parameter can be <b>NULL</b>.
 
-### -param *psf [in]
+### -param psf [in]
 
 Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
 
@@ -270,7 +270,7 @@ Additional information dependent on the value in <i>uMsg</i>. See the individual
 
 Type: <b>HRESULT</b>
 
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this callback function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.OpenWindowStationA
 title: OpenWindowStationA function (winuser.h)
-description: Opens the specified window station.
+description: Opens the specified window station. (ANSI)
 helpviewer_keywords: ["OpenWindowStation","OpenWindowStation function [Windows Stations and Desktops]","OpenWindowStationA","OpenWindowStationW","_win32_openwindowstation","base.openwindowstation","winstation.openwindowstation","winuser/OpenWindowStation","winuser/OpenWindowStationA","winuser/OpenWindowStationW"]
 old-location: winstation\openwindowstation.htm
 tech.root: winstation
@@ -50,6 +50,7 @@ api_name:
  - OpenWindowStation
  - OpenWindowStationA
  - OpenWindowStationW
+req.apiset: ext-ms-win-ntuser-windowstation-ansi-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # OpenWindowStationA function

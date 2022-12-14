@@ -305,7 +305,7 @@ The media is write protected.
 A logical block address is relative to a partition. The first logical block address on each partition is zero.
 
 Call the 
-<a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>function to obtain information about the status, capabilities, and capacities of tape drives and media.
+<a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a> function to obtain information about the status, capabilities, and capacities of tape drives and media.
 
 ## -see-also
 

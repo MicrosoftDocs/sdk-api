@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.UrlIsFileUrlA
 title: UrlIsFileUrlA macro (shlwapi.h)
-description: Tests a URL to determine if it is a file URL.
+description: Tests a URL to determine if it is a file URL. (ANSI)
 helpviewer_keywords: ["UrlIsFileUrl","UrlIsFileUrl function [Windows Shell]","UrlIsFileUrlA","UrlIsFileUrlW","_win32_UrlIsFileUrl","shell.UrlIsFileUrl","shlwapi/UrlIsFileUrl","shlwapi/UrlIsFileUrlA","shlwapi/UrlIsFileUrlW"]
 old-location: shell\UrlIsFileUrl.htm
 tech.root: shell

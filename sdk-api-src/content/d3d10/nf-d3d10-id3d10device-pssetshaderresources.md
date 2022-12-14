@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.PSSetShaderResources
 title: ID3D10Device::PSSetShaderResources (d3d10.h)
-description: Bind an array of shader resources to the pixel shader stage.
+description: Bind an array of shader resources to the pixel shader stage. (ID3D10Device.PSSetShaderResources)
 helpviewer_keywords: ["5c6524cb-030c-fa99-f855-ac20599cb810","ID3D10Device interface [Direct3D 10]","PSSetShaderResources method","ID3D10Device.PSSetShaderResources","ID3D10Device::PSSetShaderResources","PSSetShaderResources","PSSetShaderResources method [Direct3D 10]","PSSetShaderResources method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::PSSetShaderResources","direct3d10.id3d10device_pssetshaderresources"]
 old-location: direct3d10\id3d10device_pssetshaderresources.htm
 tech.root: direct3d10

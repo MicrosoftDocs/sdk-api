@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasHangUpA
 title: RasHangUpA function (ras.h)
-description: The RasHangUp function terminates a remote access connection. The connection is specified with a RAS connection handle. The function releases all RASAPI32.DLL resources associated with the handle.
+description: The RasHangUp function terminates a remote access connection. The connection is specified with a RAS connection handle. The function releases all RASAPI32.DLL resources associated with the handle. (ANSI)
 helpviewer_keywords: ["RasHangUp","RasHangUp function [RAS]","RasHangUpA","RasHangUpW","_ras_rashangup","ras/RasHangUp","ras/RasHangUpA","ras/RasHangUpW","rras.rashangup"]
 old-location: rras\rashangup.htm
 tech.root: RRAS
@@ -59,7 +59,7 @@ The
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Specifies the remote access connection to terminate. This is a handle returned from a previous call to 
 <a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> or 

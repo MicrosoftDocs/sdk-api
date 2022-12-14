@@ -54,44 +54,8 @@ Enables the caller to obtain the properties associated with the current object's
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetContextProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGetContextProperties</b> also has these types of members:
+The <b>IGetContextProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGetContextProperties</b> also has these types of members:
 <ul>
 <li><a href="/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingextension-methods-vb">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IGetContextProperties</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-igetcontextproperties-count">Count</a>
-</td>
-<td align="left" width="63%">
-Counts the number of context properties.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-igetcontextproperties-enumnames">EnumNames</a>
-</td>
-<td align="left" width="63%">
-Retrieves a list of the names of the current context properties.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-igetcontextproperties-getproperty">GetProperty</a>
-</td>
-<td align="left" width="63%">
-Retrieves the value of the specified context property.
-
-</td>
-</tr>
-</table>

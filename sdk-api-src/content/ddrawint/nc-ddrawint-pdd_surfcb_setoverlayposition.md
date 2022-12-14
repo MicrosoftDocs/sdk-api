@@ -51,7 +51,7 @@ The <b>DdSetOverlayPosition</b> callback function sets the position for an overl
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_setoverlaypositiondata">DD_SETOVERLAYPOSITIONDATA</a> structure that contains the information required to set the overlay position.
 

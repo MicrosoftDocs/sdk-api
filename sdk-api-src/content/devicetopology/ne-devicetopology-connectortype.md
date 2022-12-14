@@ -56,7 +56,7 @@ The <b>ConnectorType</b> enumeration indicates the type of connection that a con
 
 ## -enum-fields
 
-### -field Unknown_Connector
+### -field Unknown_Connector:0
 
 The connector is part of a connection of unknown type.
 

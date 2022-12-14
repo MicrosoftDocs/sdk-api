@@ -56,51 +56,51 @@ The <b>ADS_NAME_TYPE_ENUM</b> enumeration specifies the formats used for represe
 
 ## -enum-fields
 
-### -field ADS_NAME_TYPE_1779
+### -field ADS_NAME_TYPE_1779:1
 
 Name format as specified in RFC 1779. For example, "CN=Jeff Smith,CN=users,DC=Fabrikam,DC=com".
 
-### -field ADS_NAME_TYPE_CANONICAL
+### -field ADS_NAME_TYPE_CANONICAL:2
 
 Canonical name format. For example, "Fabrikam.com/Users/Jeff Smith".
 
-### -field ADS_NAME_TYPE_NT4
+### -field ADS_NAME_TYPE_NT4:3
 
 Account name format used in Windows. For example, "Fabrikam\JeffSmith".
 
-### -field ADS_NAME_TYPE_DISPLAY
+### -field ADS_NAME_TYPE_DISPLAY:4
 
 Display name format. For example, "Jeff Smith".
 
-### -field ADS_NAME_TYPE_DOMAIN_SIMPLE
+### -field ADS_NAME_TYPE_DOMAIN_SIMPLE:5
 
 Simple domain name format. For example, "JeffSmith@Fabrikam.com".
 
-### -field ADS_NAME_TYPE_ENTERPRISE_SIMPLE
+### -field ADS_NAME_TYPE_ENTERPRISE_SIMPLE:6
 
 Simple enterprise name format. For example, "JeffSmith@Fabrikam.com".
 
-### -field ADS_NAME_TYPE_GUID
+### -field ADS_NAME_TYPE_GUID:7
 
 Global Unique Identifier format. For example, "{95ee9fff-3436-11d1-b2b0-d15ae3ac8436}".
 
-### -field ADS_NAME_TYPE_UNKNOWN
+### -field ADS_NAME_TYPE_UNKNOWN:8
 
 Unknown name type. The system will estimate the format. This element is a meaningful option only with the <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate.Set</a> or the <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate.SetEx</a> method, but not with the <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-get">IADsNameTranslate.Get</a> or <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-getex">IADsNameTranslate.GetEx</a> method.
 
-### -field ADS_NAME_TYPE_USER_PRINCIPAL_NAME
+### -field ADS_NAME_TYPE_USER_PRINCIPAL_NAME:9
 
 User principal name format. For example, "JeffSmith@Fabrikam.com".
 
-### -field ADS_NAME_TYPE_CANONICAL_EX
+### -field ADS_NAME_TYPE_CANONICAL_EX:10
 
 Extended canonical name format. For example, "Fabrikam.com/Users Jeff Smith".
 
-### -field ADS_NAME_TYPE_SERVICE_PRINCIPAL_NAME
+### -field ADS_NAME_TYPE_SERVICE_PRINCIPAL_NAME:11
 
 Service principal name format. For example, "www/www.fabrikam.com@fabrikam.com".
 
-### -field ADS_NAME_TYPE_SID_OR_SID_HISTORY_NAME
+### -field ADS_NAME_TYPE_SID_OR_SID_HISTORY_NAME:12
 
 A SID string, as defined in the Security Descriptor Definition Language (SDDL), for either the SID of the current object or one from the object SID history. For example, "O:AOG:DAD:(A;;RPWPCCDCLCSWRCWDWOGA;;;S-1-0-0)" For more information, see  <a href="/windows/desktop/SecAuthZ/security-descriptor-string-format">Security Descriptor String Format</a>.
 

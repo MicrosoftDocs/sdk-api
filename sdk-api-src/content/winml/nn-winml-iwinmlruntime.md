@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 <b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
 
@@ -58,44 +58,5 @@ Represents the runtime to load and evaluate a WinML model.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWinMLRuntime</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWinMLRuntime</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWinMLRuntime</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWinMLRuntime</b> also has these types of members:
 
-## -members
-
-The <b>IWinMLRuntime</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/winml/nf-winml-iwinmlruntime-createevaluationcontext">CreateEvaluationContext</a>
-</td>
-<td align="left" width="63%">
-Creates a WinML evaluation context object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/winml/nf-winml-iwinmlruntime-evaluatemodel">EvaluateModel</a>
-</td>
-<td align="left" width="63%">
-Evaluates a WinML model.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/winml/nf-winml-iwinmlruntime-loadmodel">LoadModel</a>
-</td>
-<td align="left" width="63%">
-Loads a WinML model.
-
-</td>
-</tr>
-</table>

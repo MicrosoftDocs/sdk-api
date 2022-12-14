@@ -54,31 +54,31 @@ Retrieves the palette entries from a given color-index layer plane for a specifi
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Type: <b>HDC</b>
 
 The device context of a window whose layer planes are to be described.
 
-### -param arg2
+### -param unnamedParam2
 
 Type: <b>int</b>
 
 The overlay or underlay plane. Positive values of <i>iLayerPlane</i> identify overlay planes, where 1 is the first overlay plane over the main plane, 2 is the second overlay plane over the first overlay plane, and so on. Negative values identify underlay planes, where 1 is the first underlay plane under the main plane, 2 is the second underlay plane under the first underlay plane, and so on. The number of overlay and underlay planes is given in the <b>bReserved</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> structure.
 
-### -param arg3
+### -param unnamedParam3
 
 Type: <b>int</b>
 
 The first palette entry to be retrieved.
 
-### -param arg4
+### -param unnamedParam4
 
 Type: <b>int</b>
 
 The number of palette entries to be retrieved.
 
-### -param arg5
+### -param unnamedParam5
 
 Type: <b><a href="/windows/desktop/gdi/colorref">COLORREF</a>*</b>
 

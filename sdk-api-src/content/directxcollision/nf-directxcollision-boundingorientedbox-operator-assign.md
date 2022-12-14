@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.operator-assign
 title: BoundingOrientedBox::operator-assign
-description: Copies values from another BoundingOrientedBox.
+description: Copies values from another BoundingOrientedBox. (overload 2/2)
 helpviewer_keywords: ["BoundingOrientedBox interface [DirectX Math Support APIs]","op_Assignment method","BoundingOrientedBox.op_Assignment","BoundingOrientedBox.operator-assign","BoundingOrientedBox.operator=","BoundingOrientedBox::operator-assign","BoundingOrientedBox::operator=","dxmath.boundingorientedbox_op_assignment","op_Assignment method [DirectX Math Support APIs]","op_Assignment method [DirectX Math Support APIs]","BoundingOrientedBox interface","operator="]
 old-location: dxmath\boundingorientedbox_op_assignment.htm
 tech.root: dxmath
@@ -53,7 +53,7 @@ Copies values from another <a href="/windows/win32/api/directxcollision/ns-direc
 
 ## -parameters
 
-### -param arg1 [in, ref]
+### -param unnamedParam1 [in, ref]
 
 The <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a> to copy values from.
 

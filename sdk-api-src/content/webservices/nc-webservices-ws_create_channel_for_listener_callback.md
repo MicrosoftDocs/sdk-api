@@ -55,52 +55,52 @@ Handles the <a href="/windows/desktop/api/webservices/nf-webservices-wscreatecha
 
 ## -parameters
 
-### -param *listenerInstance [in]
+### -param listenerInstance [in]
 
 The pointer to the state specific to this listener instance,
                     as created by the <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_listener_callback">WS_CREATE_LISTENER_CALLBACK</a>.
 
-### -param *channelParameters
+### -param channelParameters
 
 The pointer to the value that was specified by the
-                    <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a>property when the custom channel is created using <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>.
+                    <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a> property when the custom channel is created using <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>.
                 
 
-If the <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a>property was not specified, the value will be <b>NULL</b>.
+If the <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a> property was not specified, the value will be <b>NULL</b>.
 
 ### -param channelParametersSize [in]
 
 The size in bytes of the value pointed to by channelParameters.
                 
 
-If the <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a>property was not specified, the size will be 0.
+If the <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a> property was not specified, the size will be 0.
                 
 
 
 #### - **channelInstance
 
-A pointer to an structure allocated by the callback
+A pointer to a structure allocated by the callback
                     that contains the data specific to this channel instance.  This pointer
                     will be passed to all the other channel callbacks
                     for this particular channel instance.
                 
 
-If this callback is successful, then the <a href="/windows/desktop/api/webservices/nc-webservices-ws_free_channel_callback">WS_FREE_CHANNEL_CALLBACK</a>will be used to free the channel instance returned
+If this callback is successful, then the <a href="/windows/desktop/api/webservices/nc-webservices-ws_free_channel_callback">WS_FREE_CHANNEL_CALLBACK</a> will be used to free the channel instance returned
                     in this parameter.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 
 ### -param channelInstance
 
-A pointer to an structure allocated by the callback
+A pointer to a structure allocated by the callback
                     that contains the data specific to this channel instance.  This pointer
                     will be passed to all the other channel callbacks
                     for this particular channel instance.
                 
 
-If this callback is successful, then the <a href="/windows/desktop/api/webservices/nc-webservices-ws_free_channel_callback">WS_FREE_CHANNEL_CALLBACK</a>will be used to free the channel instance returned
+If this callback is successful, then the <a href="/windows/desktop/api/webservices/nc-webservices-ws_free_channel_callback">WS_FREE_CHANNEL_CALLBACK</a> will be used to free the channel instance returned
                     in this parameter.
 
 ## -returns

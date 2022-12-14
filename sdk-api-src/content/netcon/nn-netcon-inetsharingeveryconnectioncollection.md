@@ -57,38 +57,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetSharingEveryConnectionCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetSharingEveryConnectionCollection</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>INetSharingEveryConnectionCollection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingeveryconnectioncollection-get__newenum">get__NewEnum</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumerator for the connections collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingeveryconnectioncollection-get_count">get_Count</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of items in the connections collection.
-
-</td>
-</tr>
-</table>
+The <b>INetSharingEveryConnectionCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetSharingEveryConnectionCollection</b> also has these types of members:
 
 ## -see-also
 

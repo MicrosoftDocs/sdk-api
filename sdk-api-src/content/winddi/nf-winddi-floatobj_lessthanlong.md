@@ -54,17 +54,17 @@ The <b>FLOATOBJ_LessThanLong</b> function determines whether the <a href="/windo
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to the FLOATOBJ.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Specifies the LONG value. This value is converted to a FLOATOBJ for the comparison.
 
 ## -returns
 
-<b>FLOATOBJ_LessThanLong </b>returns <b>TRUE</b> if *<i>pf</i> is less than the FLOATOBJ-equivalent of <i>l</i>; otherwise it returns <b>FALSE</b>.
+<b>FLOATOBJ_LessThanLong</b> returns <b>TRUE</b> if *<i>pf</i> is less than the FLOATOBJ-equivalent of <i>l</i>; otherwise it returns <b>FALSE</b>.
 
 ## -remarks
 

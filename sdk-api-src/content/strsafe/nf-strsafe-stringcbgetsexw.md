@@ -1,7 +1,7 @@
 ---
 UID: NF:strsafe.StringCbGetsExW
 title: StringCbGetsExW function (strsafe.h)
-description: Gets one line of text from stdin, up to and including the newline character ('\n').
+description: Gets one line of text from stdin, up to and including the newline character ('\n'). (StringCbGetsExW)
 helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCbGetsEx","StringCbGetsEx function [Menus and Other Resources]","StringCbGetsExA","StringCbGetsExW","_shell_StringCbGetsEx","_shell_stringcbgetsex_cpp","menurc.stringcbgetsex","strsafe/StringCbGetsEx","strsafe/StringCbGetsExA","strsafe/StringCbGetsExW","winui._shell_stringcbgetsex"]
 old-location: menurc\stringcbgetsex.htm
 tech.root: menurc
@@ -216,7 +216,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-<b>StringCbGetsEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbGetsEx</b>always null-terminates a nonzero-length destination buffer.
+<b>StringCbGetsEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbGetsEx</b> always null-terminates a nonzero-length destination buffer.
 
 The value of <i>pszDest</i> should not be <b>NULL</b> unless the <b>STRSAFE_IGNORE_NULLS</b> flag is specified. However, an error due to insufficient space may still be returned even though <b>NULL</b> values are ignored.
 

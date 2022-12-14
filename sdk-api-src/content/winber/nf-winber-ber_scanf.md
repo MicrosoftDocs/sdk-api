@@ -62,7 +62,7 @@ Pointer to the decoded <a href="/previous-versions/windows/desktop/api/winldap/n
 
 Encoding format string. For more information, see Remarks section.
 
-### -param arg3 [in]
+### -param ...
 
 Pointers to variables used to hold the values decoded as specified by the <i>fmt</i> argument.
 
@@ -161,3 +161,4 @@ The function interprets the bytes according to the format string <i>fmt</i>, and
 
 
 <a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
+

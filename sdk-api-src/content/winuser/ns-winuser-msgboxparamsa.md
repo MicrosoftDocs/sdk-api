@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagMSGBOXPARAMSA
 title: MSGBOXPARAMSA (winuser.h)
-description: Contains information used to display a message box. The MessageBoxIndirect function uses this structure.
+description: Contains information used to display a message box. The MessageBoxIndirect function uses this structure. (ANSI)
 helpviewer_keywords: ["*LPMSGBOXPARAMSA","*PMSGBOXPARAMSA","MSGBOXPARAMS","MSGBOXPARAMS structure [Dialog Boxes]","MSGBOXPARAMSA","MSGBOXPARAMSW","PMSGBOXPARAMS","PMSGBOXPARAMS structure pointer [Dialog Boxes]","_win32_MSGBOXPARAMS_str","_win32_msgboxparams_str_cpp","dlgbox.msgboxparams","winui._win32_msgboxparams_str","winuser/MSGBOXPARAMS","winuser/MSGBOXPARAMSA","winuser/MSGBOXPARAMSW","winuser/PMSGBOXPARAMS"]
 old-location: dlgbox\msgboxparams.htm
 tech.root: dlgbox
@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-Contains information used to display a message box. The <a href="/windows/desktop/api/winuser/nf-winuser-messageboxindirecta">MessageBoxIndirect</a> function uses this structure.
+Contains information used to display a message box. The <a href="/windows/win32/api/winuser/nf-winuser-messageboxindirecta">MessageBoxIndirect</a> function uses this structure.
 
 ## -struct-fields
 
@@ -99,7 +99,7 @@ A null-terminated string, or the identifier of a string resource, that contains 
 Type: <b>DWORD</b>
 
 The contents and behavior of the dialog box. This member can be a combination of flags described for the 
-					<i>uType</i> parameter of the <a href="/windows/desktop/api/winuser/nf-winuser-messageboxexa">MessageBoxEx</a> function. 
+					<i>uType</i> parameter of the <a href="/windows/win32/api/winuser/nf-winuser-messageboxexa">MessageBoxEx</a> function. 
 
 In addition, you can specify the <b>MB_USERICON</b> flag (0x00000080L) if you want the message box to display the icon specified by the 
 					<b>lpszIcon</b> member.
@@ -108,11 +108,11 @@ In addition, you can specify the <b>MB_USERICON</b> flag (0x00000080L) if you wa
 
 Type: <b>LPCTSTR</b>
 
-Identifies an icon resource. This parameter can be either a null-terminated string or an integer resource identifier passed to the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. 
+Identifies an icon resource. This parameter can be either a null-terminated string or an integer resource identifier passed to the <a href="/windows/win32/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. 
 
 To load one of the standard system-defined icons, set the 
 						<b>hInstance</b> member to <b>NULL</b> and set 
-						<b>lpszIcon</b> to one of the values listed with the <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> function. 
+						<b>lpszIcon</b> to one of the values listed with the <a href="/windows/win32/api/winuser/nf-winuser-loadicona">LoadIcon</a> function. 
 
 This member is ignored if the 
 						<b>dwStyle</b> member does not specify the <b>MB_USERICON</b> flag.
@@ -121,28 +121,26 @@ This member is ignored if the
 
 Type: <b>DWORD_PTR</b>
 
-Identifies a help context. If a help event occurs, this value is specified in the <a href="/windows/desktop/api/winuser/ns-winuser-helpinfo">HELPINFO</a> structure that the message box sends to the owner window or callback function.
+Identifies a help context. If a help event occurs, this value is specified in the <a href="/windows/win32/api/winuser/ns-winuser-helpinfo">HELPINFO</a> structure that the message box sends to the owner window or callback function.
 
 ### -field lpfnMsgBoxCallback
 
-Type: <b>MSGBOXCALLBACK</b>
+Type: **[MSGBOXCALLBACK](/windows/win32/api/winuser/nc-winuser-msgboxcallback)**
 
 A pointer to the callback function that processes help events for the message box. The callback function has the following form:
-		
 
 <code>VOID CALLBACK MsgBoxCallback(LPHELPINFO lpHelpInfo);</code>
 
-If this member is <b>NULL</b>, the message box sends 
-					<a href="/windows/desktop/shell/wm-help">WM_HELP</a> messages to the owner window when help events occur.
+If this member is <b>NULL</b>, then the message box sends <a href="/windows/win32/shell/wm-help">WM_HELP</a> messages to the owner window when help events occur.
 
 ### -field dwLanguageId
 
 Type: <b>DWORD</b>
 
 The language in which to display the text contained in the predefined push buttons. This value must be in the form returned by the 
-					<a href="/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro. 
+					<a href="/windows/win32/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro. 
 
-For a list of supported language identifiers, see <a href="/windows/desktop/Intl/language-identifiers">Language Identifiers</a>. Note that each localized release of Windows typically contains resources only for a limited set of languages. Thus, for example, the U.S. version offers <b>LANG_ENGLISH</b>, the French version offers <b>LANG_FRENCH</b>, the German version offers <b>LANG_GERMAN</b>, and the Japanese version offers <b>LANG_JAPANESE</b>. Each version offers <b>LANG_NEUTRAL</b>. This limits the set of values that can be used with the 
+For a list of supported language identifiers, see <a href="/windows/win32/Intl/language-identifiers">Language Identifiers</a>. Note that each localized release of Windows typically contains resources only for a limited set of languages. Thus, for example, the U.S. version offers <b>LANG_ENGLISH</b>, the French version offers <b>LANG_FRENCH</b>, the German version offers <b>LANG_GERMAN</b>, and the Japanese version offers <b>LANG_JAPANESE</b>. Each version offers <b>LANG_NEUTRAL</b>. This limits the set of values that can be used with the 
 					<b>dwLanguageId</b> parameter. Before specifying a language identifier, you should enumerate the locales that are installed on a system.
 
 ## -see-also
@@ -151,31 +149,31 @@ For a list of supported language identifiers, see <a href="/windows/desktop/Intl
 
 
 
-<a href="/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
+<a href="/windows/win32/dlgbox/dialog-boxes">Dialog Boxes</a>
 
 
 
-<a href="/windows/desktop/api/winuser/ns-winuser-helpinfo">HELPINFO</a>
+<a href="/windows/win32/api/winuser/ns-winuser-helpinfo">HELPINFO</a>
 
 
 
-<a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>
+<a href="/windows/win32/api/winuser/nf-winuser-loadicona">LoadIcon</a>
 
 
 
-<a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>
+<a href="/windows/win32/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>
 
 
 
-<a href="/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>
+<a href="/windows/win32/api/winnt/nf-winnt-makelangid">MAKELANGID</a>
 
 
 
-<a href="/windows/desktop/api/winuser/nf-winuser-messageboxexa">MessageBoxEx</a>
+<a href="/windows/win32/api/winuser/nf-winuser-messageboxexa">MessageBoxEx</a>
 
 
 
-<a href="/windows/desktop/api/winuser/nf-winuser-messageboxindirecta">MessageBoxIndirect</a>
+<a href="/windows/win32/api/winuser/nf-winuser-messageboxindirecta">MessageBoxIndirect</a>
 
 
 
@@ -187,9 +185,9 @@ For a list of supported language identifiers, see <a href="/windows/desktop/Intl
 
 
 
-<a href="/windows/desktop/shell/wm-help">WM_HELP</a>
+<a href="/windows/win32/shell/wm-help">WM_HELP</a>
 
 ## -remarks
 
 > [!NOTE]
-> The winuser.h header defines MSGBOXPARAMS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines **MSGBOXPARAMS** as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

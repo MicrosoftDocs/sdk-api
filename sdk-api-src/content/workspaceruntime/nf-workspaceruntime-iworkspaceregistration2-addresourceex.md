@@ -1,7 +1,7 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceRegistration2.AddResourceEx
 title: IWorkspaceRegistration2::AddResourceEx (workspaceruntime.h)
-description: Adds a resource to the connection in RemoteApp and Desktop Connection.
+description: Adds a resource to the connection in RemoteApp and Desktop Connection. (IWorkspaceRegistration2::AddResourceEx)
 helpviewer_keywords: ["AddResourceEx","AddResourceEx method [Remote Desktop Services]","AddResourceEx method [Remote Desktop Services]","IWorkspaceRegistration2 interface","AddResourceEx method [Remote Desktop Services]","Workspace object","IWorkspaceRegistration2 interface [Remote Desktop Services]","AddResourceEx method","IWorkspaceRegistration2.AddResourceEx","IWorkspaceRegistration2::AddResourceEx","Workspace object [Remote Desktop Services]","AddResourceEx method","termserv.iworkspaceregistration2_addresourceex","workspaceruntime/IWorkspaceRegistration2::AddResourceEx"]
 old-location: termserv\iworkspaceregistration2_addresourceex.htm
 tech.root: TermServ
@@ -39,7 +39,6 @@ topic_type:
 api_type:
  - <TBD>
 api_location:
- - 
 api_name:
  - IWorkspaceRegistration2::AddResourceEx
 ---
@@ -73,7 +72,7 @@ TBD
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

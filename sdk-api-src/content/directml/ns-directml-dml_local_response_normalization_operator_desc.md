@@ -1,13 +1,12 @@
 ---
 UID: NS:directml.DML_LOCAL_RESPONSE_NORMALIZATION_OPERATOR_DESC
 title: DML_LOCAL_RESPONSE_NORMALIZATION_OPERATOR_DESC
-description: Describes a DirectML operator that performs a local response normalization (LRN) function on the input, y = x / (bias + (alpha / size) * sum(xi^2 for every xi in the local region))^beta.
+description: Performs a local response normalization (LRN) function on the input.
 helpviewer_keywords: ["DML_LOCAL_RESPONSE_NORMALIZATION_OPERATOR_DESC","DML_LOCAL_RESPONSE_NORMALIZATION_OPERATOR_DESC structure","direct3d12.dml_local_response_normalization_operator_desc","directml/DML_LOCAL_RESPONSE_NORMALIZATION_OPERATOR_DESC"]
 old-location: direct3d12\dml_local_response_normalization_operator_desc.htm
 tech.root: directml
 ms.assetid: 43C494DC-4922-4944-A07F-802B43122575
-ms.date: 12/5/2018
-ms.keywords: DML_LOCAL_RESPONSE_NORMALIZATION_OPERATOR_DESC, DML_LOCAL_RESPONSE_NORMALIZATION_OPERATOR_DESC structure, direct3d12.dml_local_response_normalization_operator_desc, directml/DML_LOCAL_RESPONSE_NORMALIZATION_OPERATOR_DESC
+ms.date: 11/02/2020
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -45,61 +44,68 @@ api_name:
  - DML_LOCAL_RESPONSE_NORMALIZATION_OPERATOR_DESC
 ---
 
-# DML_LOCAL_RESPONSE_NORMALIZATION_OPERATOR_DESC structure
-
-
 ## -description
 
-Describes a DirectML operator that performs a local response normalization (LRN) function on the input, y = x / (bias + (alpha / size) * sum(xi^2 for every xi in the local region))^beta. The data type and size of the input and output tensors must be the same.
+Performs a local response normalization (LRN) function on the input. This operator performs the following computation.
+
+```
+Output = Input / (Bias + (Alpha / LocalSize) * sum(Input^2 for every Input in the local region))^Beta
+```
+
+The data type and size of the input and output tensors must be the same.
 
 ## -struct-fields
 
 ### -field InputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to read from. This tensor's dimensions for the image case are [N, C, H, W], where N is the batch size, C is the number of channels, and H and W are the height and the width of the data. For the non-image case, the dimensions are in the form of [N, C, D1, D2, ..., Dn], where N is the batch size.
+The tensor containing the input data. This tensor's *Sizes* should be `{ BatchCount, ChannelCount, Height, Width }`.
 
 ### -field OutputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to write the results to. This tensor's dimensions match those of <i>InputTensor.</i>
+The tensor to write the results to. This tensor's *Sizes* should match the *InputTensor*.
 
 ### -field CrossChannel
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
-<b>TRUE</b> if the LRN layer is channel-wise (cross-channel). Otherwise, <b>FALSE</b>.
+**TRUE** if the LRN layer sums across channels; otherwise, **FALSE**.
 
 ### -field LocalSize
 
 Type: [**UINT**](/windows/desktop/winprog/windows-data-types)
 
-The number of channels to sum over.
+The number of elements to sum over per dimension: Width, Height, and optionally Channel (if *CrossChannel* is set). This value must be at least 1.
 
 ### -field Alpha
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
-The value of the scaling parameter. You can use a default value of 0.0001.
+The value of the scaling parameter. A value of 0.0001 is recommended as default.
 
 ### -field Beta
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
-The value of the exponent. You can use a default value of 0.75.
+The value of the exponent. A value of 0.75 is recommended as default.
 
 ### -field Bias
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
-The value of bias. You can use a default value of 1.0.
+The value of bias. A value of 1 is recommended as default.
 
-## -remarks
+## Availability
+This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 
-The operator normalizes over local input regions. The local region is defined across the channels. For an element X[n, c, d1, ..., dk] in a tensor of shape (N x C x D1 x D2, ..., Dk), its region is {X[n, i, d1, ..., dk] | max(0, c - floor((size - 1) / 2)) &lt;= i &lt;= min(C - 1, c + ceil((size - 1) / 2))}.
+## Tensor constraints
+*InputTensor* and *OutputTensor* must have the same *DataType* and *Sizes*.
 
-square_sum[n, c, d1, ..., dk] = sum(X[n, i, d1, ..., dk] ^ 2), where max(0, c - floor((size - 1) / 2)) &lt;= i &lt;= min(C - 1, c + ceil((size - 1) / 2)).
-
-Y[n, c, d1, ..., dk] = X[n, c, d1, ..., dk] / (bias + alpha / size * square_sum[n, c, d1, ..., dk] ) ^ beta.
+## Tensor support
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 | FLOAT32, FLOAT16 |
+| OutputTensor | Output | 4 | FLOAT32, FLOAT16 |

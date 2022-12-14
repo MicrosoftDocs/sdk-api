@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.RegisterClassW
 title: RegisterClassW function (winuser.h)
-description: Registers a window class for subsequent use in calls to the CreateWindow or CreateWindowEx function.
+description: Registers a window class for subsequent use in calls to the CreateWindow or CreateWindowEx function. (RegisterClassW)
 helpviewer_keywords: ["RegisterClass","RegisterClass function [Windows and Messages]","RegisterClassA","RegisterClassW","_win32_RegisterClass","_win32_registerclass_cpp","winmsg.registerclass","winui._win32_registerclass","winuser/RegisterClass","winuser/RegisterClassA","winuser/RegisterClassW"]
 old-location: winmsg\registerclass.htm
 tech.root: winmsg
@@ -53,6 +53,7 @@ api_name:
  - RegisterClass
  - RegisterClassA
  - RegisterClassW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)
 ---
 
 # RegisterClassW function

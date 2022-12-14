@@ -54,65 +54,7 @@ Allows the Windows Store to install a Windows product that the user purchased, t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEditionUpgradeHelper</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEditionUpgradeHelper</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IEditionUpgradeHelper</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-canupgrade">CanUpgrade</a>
-</td>
-<td align="left" width="63%">
-Checks if the user has sufficient permissions to upgrade the operating system, and prompts the user to run as an administrator if needed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-getgenuinelocalstatus">GetGenuineLocalStatus</a>
-</td>
-<td align="left" width="63%">
-Retrieves whether the currently installed operating system is activated.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-getosproductcontentid">GetOsProductContentId</a>
-</td>
-<td align="left" width="63%">
-Retrieves the content identifier that corresponds to the current installation of the operating system. The content identifier is used to look up the operating system product in the store catalog.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-showproductkeyui">ShowProductKeyUI</a>
-</td>
-<td align="left" width="63%">
-Displays the user interface through which the user  can provide a product key to upgrade or get a genuine copy of the operating system.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-updateoperatingsystem">UpdateOperatingSystem</a>
-</td>
-<td align="left" width="63%">
-Upgrades the installed edition of the operating system to the edition that the user purchased in the Windows Store, or gets a genuine copy of the operating system.
-
-</td>
-</tr>
-</table>
+The <b>IEditionUpgradeHelper</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEditionUpgradeHelper</b> also has these types of members:
 
 ## -remarks
 

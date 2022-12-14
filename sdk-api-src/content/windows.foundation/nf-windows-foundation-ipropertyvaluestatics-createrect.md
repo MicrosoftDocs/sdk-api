@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateRect
-title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
+title: IPropertyValueStatics::CreateRect (windows.foundation.h)
 description: Creates a new IPropertyValue object that contains the specified Rect value.
 helpviewer_keywords: ["CreateRect","CreateRect method [Windows Runtime]","CreateRect method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateRect method","IPropertyValueStatics.CreateRect","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateRect","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateRect","winrt.ipropertyvaluefactory_createrect","winrt.ipropertyvaluestatics_createrect"]
 old-location: winrt\ipropertyvaluestatics_createrect.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValueStatics.CreateRect
 ---
 
-# IPropertyValueStatics::IPropertyValueStatics
+# IPropertyValueStatics::CreateRect (windows.foundation.h)
 
 
 ## -description
@@ -70,7 +70,7 @@ A pointer to a new object that contains <i>value</i>. Use the <a href="/windows/
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

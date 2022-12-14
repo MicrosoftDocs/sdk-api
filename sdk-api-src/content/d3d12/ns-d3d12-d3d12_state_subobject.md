@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_STATE_SUBOBJECT
 title: D3D12_STATE_SUBOBJECT (d3d12.h)
-description: Represents a subobject with in a state object description. Use with D3D12_STATE_OBJECT_DESC.
+description: Represents a subobject within a state object description. Use with [D3D12_STATE_OBJECT_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_state_object_desc).
 helpviewer_keywords: ["D3D12_STATE_SUBOBJECT","D3D12_STATE_SUBOBJECT structure","PD3D12_STATE_SUBOBJECT","PD3D12_STATE_SUBOBJECT structure pointer","d3d12/D3D12_STATE_SUBOBJECT","d3d12/PD3D12_STATE_SUBOBJECT","direct3d12.d3d12_state_subobject"]
 old-location: direct3d12\d3d12_state_subobject.htm
 tech.root: direct3d12
@@ -45,19 +45,16 @@ api_name:
  - D3D12_STATE_SUBOBJECT
 ---
 
-# D3D12_STATE_SUBOBJECT structure
-
-
 ## -description
 
-Represents a subobject with in a state object description. Use with <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_state_object_desc">D3D12_STATE_OBJECT_DESC</a>.
+Represents a subobject within a state object description. Use with [D3D12_STATE_OBJECT_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_state_object_desc).
 
 ## -struct-fields
 
 ### -field Type
 
-The type of the state subobject.
+A [D3D12_STATE_SUBOBJECT_TYPE](/windows/win32/api/d3d12/ne-d3d12-d3d12_state_subobject_type) specifying the type of the state subobject.
 
 ### -field pDesc
 
-Pointer to state object description of the type specified in the <i>Type</i> parameter.
+Pointer to state object description of the type specified in the *Type* parameter.

@@ -1,7 +1,7 @@
 ---
 UID: NF:winnetwk.WNetGetUniversalNameA
 title: WNetGetUniversalNameA function (winnetwk.h)
-description: The WNetGetUniversalName function takes a drive-based path for a network resource and returns an information structure that contains a more universal form of the name.
+description: The WNetGetUniversalName function takes a drive-based path for a network resource and returns an information structure that contains a more universal form of the name. (ANSI)
 helpviewer_keywords: ["REMOTE_NAME_INFO_LEVEL","UNIVERSAL_NAME_INFO_LEVEL","WNetGetUniversalName","WNetGetUniversalName function [Windows Networking (WNet)]","WNetGetUniversalNameA","WNetGetUniversalNameW","_win32_wnetgetuniversalname","winnetwk/WNetGetUniversalName","winnetwk/WNetGetUniversalNameA","winnetwk/WNetGetUniversalNameW","wnet.wnetgetuniversalname"]
 old-location: wnet\wnetgetuniversalname.htm
 tech.root: WNet
@@ -226,19 +226,27 @@ A universal form of a local drive-based path identifies a network resource in an
 The 
 <b>WNetGetUniversalName</b> function currently supports one universal name form: universal naming convention (UNC) names, which look like the following:
 
-<pre class="syntax" xml:space="preserve"><code>\\servername\sharename\path\file 
-</code></pre>
+
+``` syntax
+\\servername\sharename\path\file 
+
+```
+
 Using the example from the preceding description of the <i>lpLocalPath</i> parameter, if the shared network drive is on a server named COOLSERVER, and the share name is HOTSHARE, the UNC name for the network resource whose drive-based name is H:\Win32\Examples\Sample.doc would be the following:
 
-<pre class="syntax" xml:space="preserve"><code>\\coolserver\hotshare\win32\examples\sample.doc 
-</code></pre>
+
+``` syntax
+\\coolserver\hotshare\win32\examples\sample.doc 
+
+```
+
 The 
 <a href="/windows/desktop/api/winnetwk/ns-winnetwk-universal_name_infoa">UNIVERSAL_NAME_INFO</a> structure contains a pointer to a UNC name string. The 
 <a href="/windows/desktop/api/winnetwk/ns-winnetwk-remote_name_infow">REMOTE_NAME_INFO</a> structure also contains a pointer to a UNC name string as well as pointers to two other useful strings. For example, a process can pass the 
 <b>REMOTE_NAME_INFO</b> structure's <b>lpszConnectionInfo</b> member to the 
 <a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a> function to connect a local device to the network resource. Then the process can append the string pointed to by the <b>lpszRemainingPath</b> member to the local device string. The resulting string can be passed to functions that require a drive-based path.
 
-The <i>lpLocalPath</i> parameter does not have to specify a path or resource that is already present on a remote resource.  For example, the <i>lpLocalPath</i> parameter could specify and folder, a hieracrchy of folders, or a file that does not currently exist. The
+The <i>lpLocalPath</i> parameter does not have to specify a path or resource that is already present on a remote resource.  For example, the <i>lpLocalPath</i> parameter could specify and folder, a hierarchy of folders, or a file that does not currently exist. The
 				<b>WNetGetUniversalName</b> function returns a more universal form of the name in these cases.
 
 The size of the buffer pointed to by the <i>lpBuffer</i> parameter and specified in the <i>lpBufferSize</i> parameter must be much larger than the size of the <a href="/windows/desktop/api/winnetwk/ns-winnetwk-remote_name_infow">REMOTE_NAME_INFO</a> 

@@ -53,7 +53,7 @@ api_name:
 
 Ends background recognition that was started with a call to <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognize">BackgroundRecognize</a> or <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognizewithalternates">BackgroundRecognizeWithAlternates</a>.
 
-## -parameters
+
 
 ## -returns
 
@@ -111,7 +111,7 @@ Call this method only if you process the ink asynchronously.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846801(v=VS.85).aspx">IInkRecognizerContext</a>
+<a href="../msinkaut/nn-msinkaut-iinkrecognizercontext.md">IInkRecognizerContext</a>
 
 
 

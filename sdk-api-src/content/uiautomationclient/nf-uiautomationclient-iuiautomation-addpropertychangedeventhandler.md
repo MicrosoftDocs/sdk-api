@@ -61,7 +61,7 @@ Type: <b><a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-
 
 A pointer to the UI Automation element associated with the event handler.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationclient/ne-uiautomationclient-treescope">TreeScope</a></b>
 
@@ -89,7 +89,7 @@ A pointer to the UI Automation properties of interest. For a list of property ID
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

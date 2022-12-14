@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.data.pdf.interop.IPdfRendererNative.RenderPageToSurface
-title: IPdfRendererNative::pdf (windows.data.pdf.interop.h)
+title: IPdfRendererNative::RenderPageToSurface (windows.data.pdf.interop.h)
 description: Outputs a single page of a Portable Document Format (PDF) file to a Microsoft DirectX image-data object.
 helpviewer_keywords: ["IPdfRendererNative interface [Windows Runtime]","RenderPageToSurface method","IPdfRendererNative.RenderPageToSurface","IPdfRendererNative.pdf","IPdfRendererNative::RenderPageToSurface","IPdfRendererNative::pdf","RenderPageToSurface","RenderPageToSurface method [Windows Runtime]","RenderPageToSurface method [Windows Runtime]","IPdfRendererNative interface","windows/IPdfRendererNative::RenderPageToSurface","winrt.ipdfrenderernative_renderpagetosurface"]
 old-location: winrt\ipdfrenderernative_renderpagetosurface.htm
 tech.root: WinRT
 ms.assetid: d4688c23-0122-40a7-908e-793c3f03fb37
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: IPdfRendererNative interface [Windows Runtime],RenderPageToSurface method, IPdfRendererNative.RenderPageToSurface, IPdfRendererNative.pdf, IPdfRendererNative::RenderPageToSurface, IPdfRendererNative::pdf, RenderPageToSurface, RenderPageToSurface method [Windows Runtime], RenderPageToSurface method [Windows Runtime],IPdfRendererNative interface, windows/IPdfRendererNative::RenderPageToSurface, winrt.ipdfrenderernative_renderpagetosurface
 req.header: windows.data.pdf.interop.h
 req.include-header: 
@@ -45,7 +45,7 @@ api_name:
  - IPdfRendererNative.RenderPageToSurface
 ---
 
-# IPdfRendererNative::pdf
+# IPdfRendererNative::RenderPageToSurface (windows.data.pdf.interop.h)
 
 
 ## -description
@@ -56,7 +56,7 @@ Outputs a single page of a Portable Document Format (PDF) file to a Microsoft Di
 
 ### -param pdfPage [in]
 
-The <b>IPdfPage</b> interface as an instance of the <a href="/dotnet/api/pdfkit.pdfpage?view=xamarin-ios-sdk-12">PdfPage</a> class,  type-casted to the <b>IUnknown</b> interface, representing the page to be output.
+The <b>IPdfPage</b> interface as an instance of the <a href="/dotnet/api/pdfkit.pdfpage?view=xamarin-ios-sdk-12&preserve-view=true">PdfPage</a> class,  type-casted to the <b>IUnknown</b> interface, representing the page to be output.
 
 ### -param pSurface [in]
 

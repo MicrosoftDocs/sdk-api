@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingMethod.put_Priority
 title: IFaxInboundRoutingMethod::put_Priority (faxcomex.h)
-description: The Priority property is a value associated with the order in which the fax service calls the routing method when the service receives a fax job.
+description: The Priority property is a value associated with the order in which the fax service calls the routing method when the service receives a fax job. (Put)
 helpviewer_keywords: ["IFaxInboundRoutingMethod interface [Fax Service]","Priority property","IFaxInboundRoutingMethod.Priority","IFaxInboundRoutingMethod.put_Priority","IFaxInboundRoutingMethod::Priority","IFaxInboundRoutingMethod::get_Priority","IFaxInboundRoutingMethod::put_Priority","Priority property [Fax Service]","Priority property [Fax Service]","IFaxInboundRoutingMethod interface","_mfax_faxinboundroutingmethod.priority_cpp","fax._mfax_faxinboundroutingmethod_priority_cpp","faxcomex/IFaxInboundRoutingMethod::Priority","faxcomex/IFaxInboundRoutingMethod::get_Priority","faxcomex/IFaxInboundRoutingMethod::put_Priority","put_Priority"]
 old-location: fax\_mfax_faxinboundroutingmethod_priority_cpp.htm
 tech.root: Fax

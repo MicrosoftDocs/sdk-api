@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.graphics.imaging.interop.ISoftwareBitmapNativeFactory.CreateFromWICBitmap
-title: ISoftwareBitmapNativeFactory::imaging (windows.graphics.imaging.interop.h)
+title: ISoftwareBitmapNativeFactory::CreateFromWICBitmap (windows.graphics.imaging.interop.h)
 description: Creates an ISoftwareBitmapNative from the provided IWICBitmap.
 helpviewer_keywords: ["CreateFromWICBitmap","CreateFromWICBitmap method [Windows Runtime]","CreateFromWICBitmap method [Windows Runtime]","ISoftwareBitmapNativeFactory interface","ISoftwareBitmapNativeFactory interface [Windows Runtime]","CreateFromWICBitmap method","ISoftwareBitmapNativeFactory.CreateFromWICBitmap","ISoftwareBitmapNativeFactory.imaging","ISoftwareBitmapNativeFactory::CreateFromWICBitmap","ISoftwareBitmapNativeFactory::imaging","windows/ISoftwareBitmapNativeFactory::CreateFromWICBitmap","winrt.isoftwarebitmapnativefactory_createfromwicbitmap"]
 old-location: winrt\isoftwarebitmapnativefactory_createfromwicbitmap.htm
@@ -45,7 +45,7 @@ api_name:
  - ISoftwareBitmapNativeFactory.CreateFromWICBitmap
 ---
 
-# ISoftwareBitmapNativeFactory::imaging
+# ISoftwareBitmapNativeFactory::CreateFromWICBitmap (windows.graphics.imaging.interop.h)
 
 
 ## -description

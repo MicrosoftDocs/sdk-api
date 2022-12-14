@@ -59,7 +59,7 @@ The values of the
 
 ## -enum-fields
 
-### -field DATA_STORE_LOCAL
+### -field DATA_STORE_LOCAL:0
 
 The SDO data is stored locally on the SDO computer.
 

@@ -56,70 +56,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMClientSideExtension</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMClientSideExtension</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
-
-## -members
-
-The <b>IGPMClientSideExtension</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmclientsideextension-iscomputerenabled">IsComputerEnabled</a>
-</td>
-<td align="left" width="63%">
-Checks whether a client-side extension can be called during the processing of computer policy.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmclientsideextension-isuserenabled">IsUserEnabled</a>
-</td>
-<td align="left" width="63%">
-Checks whether a client-side extension can be called during the processing of user policy.
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMClientSideExtension</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/previous-versions/windows/desktop/gpmc/igpmclientsideextension-property-methods">DisplayName</a>
-
-
-</td>
-<td align="left" width="63%">
-Display name of the client-side extension.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/previous-versions/windows/desktop/gpmc/igpmclientsideextension-property-methods">ID</a>
-
-
-</td>
-<td align="left" width="63%">
-GUID of the client-side extension.
-
-</td>
-</tr>
-</table>
+The <b>IGPMClientSideExtension</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMClientSideExtension</b> also has these types of members:
 
 ## -see-also
 

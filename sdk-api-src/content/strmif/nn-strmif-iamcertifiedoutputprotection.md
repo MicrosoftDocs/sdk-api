@@ -57,56 +57,7 @@ For information about using COPP, see <a href="/windows/desktop/DirectShow/using
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMCertifiedOutputProtection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMCertifiedOutputProtection</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAMCertifiedOutputProtection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamcertifiedoutputprotection-keyexchange">KeyExchange</a>
-</td>
-<td align="left" width="63%">
-Returns the graphics driver's certificate.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamcertifiedoutputprotection-protectioncommand">ProtectionCommand</a>
-</td>
-<td align="left" width="63%">
-Sends a COPP command to the graphics driver.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamcertifiedoutputprotection-protectionstatus">ProtectionStatus</a>
-</td>
-<td align="left" width="63%">
-Sends a COPP status request to the graphics driver
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamcertifiedoutputprotection-sessionsequencestart">SessionSequenceStart</a>
-</td>
-<td align="left" width="63%">
-Initiates the COPP session with the graphics driver.
-
-</td>
-</tr>
-</table>
+The <b>IAMCertifiedOutputProtection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMCertifiedOutputProtection</b> also has these types of members:
 
 ## -see-also
 

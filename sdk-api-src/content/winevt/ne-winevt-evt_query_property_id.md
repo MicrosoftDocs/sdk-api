@@ -58,11 +58,11 @@ Defines the identifiers that identify the query information that you can retriev
 
 ### -field EvtQueryNames
 
-Identifies the property that contains the list of channel or log file names that are specified in the query. The variant type for this property is <b>EvtVarTypeString | EVT_VARIANT_TYPE_ARRAY</b>.
+Identifies the property that contains the list of channel or log file names that are specified in the query. The variant type for this property is <b>EvtVarTypeString \| EVT_VARIANT_TYPE_ARRAY</b>.
 
 ### -field EvtQueryStatuses
 
-Identifies the property that contains the list of Win32 error codes that correspond directly to the list of channel or log file names that the EvtQueryNames property returns. The error codes indicate the success or failure of the query for the specific channel or log file. The variant type for this property is <b>EvtVarTypeUInt32 | EVT_VARIANT_TYPE_ARRAY</b>.
+Identifies the property that contains the list of Win32 error codes that correspond directly to the list of channel or log file names that the EvtQueryNames property returns. The error codes indicate the success or failure of the query for the specific channel or log file. The variant type for this property is <b>EvtVarTypeUInt32 \| EVT_VARIANT_TYPE_ARRAY</b>.
 
 ### -field EvtQueryPropertyIdEND
 

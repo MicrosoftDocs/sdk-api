@@ -4,7 +4,6 @@ title: ID3D12VideoProcessCommandList2::ExecuteExtensionCommand
 description: Records a command to execute a video extension command into a video process command list.
 tech.root: mf
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

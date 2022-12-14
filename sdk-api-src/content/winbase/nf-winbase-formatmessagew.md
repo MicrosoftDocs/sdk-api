@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.FormatMessageW
 title: FormatMessageW function (winbase.h)
-description: Formats a message string.
+description: The FormatMessageW (Unicode) function (winbase.h) formats a message string.
 helpviewer_keywords: ["FORMAT_MESSAGE_ALLOCATE_BUFFER","FORMAT_MESSAGE_ARGUMENT_ARRAY","FORMAT_MESSAGE_FROM_HMODULE","FORMAT_MESSAGE_FROM_STRING","FORMAT_MESSAGE_FROM_SYSTEM","FORMAT_MESSAGE_IGNORE_INSERTS","FORMAT_MESSAGE_MAX_WIDTH_MASK","FormatMessage","FormatMessage function","FormatMessageA","FormatMessageW","_win32_formatmessage","base.formatmessage","winbase/FormatMessage","winbase/FormatMessageA","winbase/FormatMessageW"]
 old-location: base\formatmessage.htm
 tech.root: Debug
 ms.assetid: b9d61342-4bcf-42e9-96f1-a5993dfb6c0c
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: FORMAT_MESSAGE_ALLOCATE_BUFFER, FORMAT_MESSAGE_ARGUMENT_ARRAY, FORMAT_MESSAGE_FROM_HMODULE, FORMAT_MESSAGE_FROM_STRING, FORMAT_MESSAGE_FROM_SYSTEM, FORMAT_MESSAGE_IGNORE_INSERTS, FORMAT_MESSAGE_MAX_WIDTH_MASK, FormatMessage, FormatMessage function, FormatMessageA, FormatMessageW, _win32_formatmessage, base.formatmessage, winbase/FormatMessage, winbase/FormatMessageA, winbase/FormatMessageW
 req.header: winbase.h
 req.include-header: Windows.h
@@ -182,7 +182,7 @@ If this flag is specified, an application can pass the result of the
 </dl>
 </td>
 <td width="60%">
-Insert sequences in the message definition are to be ignored and passed through to the output buffer 
+Insert sequences in the message definition such as %1 are to be ignored and passed through to the output buffer 
         unchanged. This flag is useful for fetching a message for later formatting. If this flag is set, the 
         <i>Arguments</i> parameter is ignored.
 
@@ -370,7 +370,7 @@ Within the message text, several escape sequences are supported for dynamically 
 <tr>
 <td>%<i>n</i>!<i>format string</i>!</td>
 <td>
-Identifies an insert. The value of <i>n</i> can be in the range from 1 through 99. The 
+Identifies an insert sequence. The value of <i>n</i> can be in the range from 1 through 99. The 
         format string (which must be surrounded by exclamation marks) is optional and defaults to !s! if not 
         specified. For more information, see 
         <a href="/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">Format Specification Fields</a>.

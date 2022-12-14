@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.StrToIntW
 title: StrToIntW function (shlwapi.h)
-description: Converts a string that represents a decimal value to an integer. The StrToLong macro is identical to this function.
+description: Converts a string that represents a decimal value to an integer. The StrToLong macro is identical to this function. (Unicode)
 helpviewer_keywords: ["StrToInt","StrToInt function [Windows Shell]","StrToIntA","StrToIntW","_win32_StrToInt","shell.StrToInt","shlwapi/StrToInt","shlwapi/StrToIntA","shlwapi/StrToIntW"]
 old-location: shell\StrToInt.htm
 tech.root: shell
@@ -69,7 +69,11 @@ A pointer to the null-terminated string to be converted. A valid string represen
                     
                     
 
-<pre class="syntax" xml:space="preserve"><code>(optional white space)(optional sign)(one or more decimal digits)</code></pre>
+
+``` syntax
+(optional white space)(optional sign)(one or more decimal digits)
+```
+
 The optional sign can be the character '-' or '+'; if omitted, the sign is assumed to be positive.
 
 ## -returns

@@ -55,47 +55,7 @@ The <b>IDXGIDevice2</b> interface implements a derived class for DXGI objects th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDevice2</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgidevice1">IDXGIDevice1</a>. <b>IDXGIDevice2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDXGIDevice2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-enqueuesetevent">EnqueueSetEvent</a>
-</td>
-<td align="left" width="63%">
-Flushes any outstanding rendering commands and sets the specified event object to the signaled state after all previously submitted rendering commands complete.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-offerresources">OfferResources</a>
-</td>
-<td align="left" width="63%">
-Allows the operating system to free the video memory of resources by discarding their content.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-reclaimresources">ReclaimResources</a>
-</td>
-<td align="left" width="63%">
-Restores access to resources that were previously offered by calling <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-offerresources">IDXGIDevice2::OfferResources</a>.
-
-</td>
-</tr>
-</table>
+The <b>IDXGIDevice2</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgidevice1">IDXGIDevice1</a>. <b>IDXGIDevice2</b> also has these types of members:
 
 ## -remarks
 

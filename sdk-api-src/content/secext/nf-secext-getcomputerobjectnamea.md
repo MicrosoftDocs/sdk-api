@@ -1,7 +1,7 @@
 ---
 UID: NF:secext.GetComputerObjectNameA
 title: GetComputerObjectNameA function (secext.h)
-description: Retrieves the local computer's name in a specified format.
+description: Retrieves the local computer's name in a specified format. (ANSI)
 helpviewer_keywords: ["GetComputerObjectName","GetComputerObjectName function","GetComputerObjectNameA","GetComputerObjectNameW","_win32_getcomputerobjectname","base.getcomputerobjectname","secext/GetComputerObjectName","secext/GetComputerObjectNameA","secext/GetComputerObjectNameW"]
 old-location: base\getcomputerobjectname.htm
 tech.root: winprog
@@ -47,6 +47,7 @@ api_name:
  - GetComputerObjectName
  - GetComputerObjectNameA
  - GetComputerObjectNameW
+req.apiset: ext-ms-win-secur32-translatename-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetComputerObjectNameA function

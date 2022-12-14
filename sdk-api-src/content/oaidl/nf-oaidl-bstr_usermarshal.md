@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.BSTR_UserMarshal
 title: BSTR_UserMarshal function (oaidl.h)
-description: Marshals a BSTR object into the RPC buffer.
+description: Marshals a BSTR object into the RPC buffer. (BSTR_UserMarshal)
 helpviewer_keywords: ["BSTR_UserMarshal","BSTR_UserMarshal function [Automation]","_oa96_BSTR_UserMarshal","automat.bstr_usermarshal","oaidl/BSTR_UserMarshal"]
 old-location: automat\bstr_usermarshal.htm
 tech.root: automat
@@ -54,15 +54,15 @@ Marshals a <a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a> ob
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The data used by RPC.
 
-### -param arg2 [in, out]
+### -param unnamedParam2 [in, out]
 
 The current buffer. This pointer may or may not be aligned on entry.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 The object.
 

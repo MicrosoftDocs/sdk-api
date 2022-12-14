@@ -1,13 +1,13 @@
 ---
 UID: NS:winuser.tagHELPWININFOW
 title: HELPWININFOW (winuser.h)
-description: Contains the size and position of either a primary or secondary Help window. An application can set this information by calling the WinHelp function with the HELP_SETWINPOS value.
-helpviewer_keywords: ["*LPHELPWININFOW","*PHELPWININFOW","HELPWININFO","HELPWININFO structure [Windows Shell]","HELPWININFOW","LPHELPWININFO","LPHELPWININFO structure pointer [Windows Shell]","PHELPWININFO","PHELPWININFO structure pointer [Windows Shell]","SW_HIDE","SW_MINIMIZE","SW_RESTORE","SW_SHOW","SW_SHOWMAXIMIZED","SW_SHOWMINIMIZED","SW_SHOWMINNOACTIVE","SW_SHOWNA","SW_SHOWNOACTIVATE","SW_SHOWNORMAL","_win32_HELPWININFO_str","shell.HELPWININFO_str","tagHELPWININFOA","tagHELPWININFOW","winuser/HELPWININFO","winuser/LPHELPWININFO","winuser/PHELPWININFO"]
+description: Contains the size and position of either a primary or secondary Help window. An application can set this information by calling the WinHelp function with the HELP_SETWINPOS value. (Unicode)
+helpviewer_keywords: ["*LPHELPWININFOW","*PHELPWININFOW","HELPWININFO","HELPWININFO structure [Windows Shell]","HELPWININFOW","LPHELPWININFO","LPHELPWININFO structure pointer [Windows Shell]","PHELPWININFO","PHELPWININFO structure pointer [Windows Shell]","_win32_HELPWININFO_str","shell.HELPWININFO_str","tagHELPWININFOA","tagHELPWININFOW","winuser/HELPWININFO","winuser/LPHELPWININFO","winuser/PHELPWININFO"]
 old-location: shell\HELPWININFO_str.htm
 tech.root: shell
 ms.assetid: 0de0bf84-66f3-44bc-b4de-c2de7ca90cb2
 ms.date: 12/05/2018
-ms.keywords: '*LPHELPWININFOW, *PHELPWININFOW, HELPWININFO, HELPWININFO structure [Windows Shell], HELPWININFOW, LPHELPWININFO, LPHELPWININFO structure pointer [Windows Shell], PHELPWININFO, PHELPWININFO structure pointer [Windows Shell], SW_HIDE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, _win32_HELPWININFO_str, shell.HELPWININFO_str, tagHELPWININFOA, tagHELPWININFOW, winuser/HELPWININFO, winuser/LPHELPWININFO, winuser/PHELPWININFO'
+ms.keywords: '*LPHELPWININFOW, *PHELPWININFOW, HELPWININFO, HELPWININFO structure [Windows Shell], HELPWININFOW, LPHELPWININFO, LPHELPWININFO structure pointer [Windows Shell], PHELPWININFO, PHELPWININFO structure pointer [Windows Shell], _win32_HELPWININFO_str, shell.HELPWININFO_str, tagHELPWININFOA, tagHELPWININFOW, winuser/HELPWININFO, winuser/LPHELPWININFO, winuser/PHELPWININFO'
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -92,123 +92,13 @@ The height of the window, in pixels.
 
 Type: <b>int</b>
 
-Options for display of the window. Several values also determine the activation (focus) state of the window or other windows. This member must be one of the following values.
-
-
-
-#### SW_HIDE
-
-Hides the window and passes activation to another window.
-
-
-
-#### SW_MINIMIZE
-
-Minimizes the specified window and activates the top-level window in the z-order.
-
-
-
-#### SW_RESTORE
-
-Same as <b>SW_SHOWNORMAL</b>.
-
-
-
-#### SW_SHOW
-
-Activates a window and displays it in its current size and position.
-
-
-
-#### SW_SHOWMAXIMIZED
-
-Activates the window and displays it as a maximized window.
-
-
-
-#### SW_SHOWMINIMIZED
-
-Activates the window and displays it as an icon.
-
-
-
-#### SW_SHOWMINNOACTIVE
-
-Displays the window as an icon. The window that is currently active remains active.
-
-
-
-#### SW_SHOWNA
-
-Displays the window in its current state. The window that is currently active remains active.
-
-
-
-#### SW_SHOWNOACTIVATE
-
-Displays a window in its most recent size and position. The window that is currently active remains active.
-
-
-
-#### SW_SHOWNORMAL
-
-Activates and displays the window. Whether the window is minimized or maximized, Windows restores it to its original size and position.
+Options for display of the window. It can be any of the values that can be specified in the <i>nCmdShow</i> parameter for the <a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function.
 
 ### -field rgchMember
 
 Type: <b>TCHAR[2]</b>
 
 The name of the window.
-
-
-##### - wMax.SW_HIDE
-
-Hides the window and passes activation to another window.
-
-
-##### - wMax.SW_MINIMIZE
-
-Minimizes the specified window and activates the top-level window in the z-order.
-
-
-##### - wMax.SW_RESTORE
-
-Same as <b>SW_SHOWNORMAL</b>.
-
-
-##### - wMax.SW_SHOW
-
-Activates a window and displays it in its current size and position.
-
-
-##### - wMax.SW_SHOWMAXIMIZED
-
-Activates the window and displays it as a maximized window.
-
-
-##### - wMax.SW_SHOWMINIMIZED
-
-Activates the window and displays it as an icon.
-
-
-##### - wMax.SW_SHOWMINNOACTIVE
-
-Displays the window as an icon. The window that is currently active remains active.
-
-
-##### - wMax.SW_SHOWNA
-
-Displays the window in its current state. The window that is currently active remains active.
-
-
-##### - wMax.SW_SHOWNOACTIVATE
-
-Displays a window in its most recent size and position. The window that is currently active remains active.
-
-
-##### - wMax.SW_SHOWNORMAL
-
-Activates and displays the window. Whether the window is minimized or maximized, Windows restores it to its original size and position.
 
 ## -remarks
 

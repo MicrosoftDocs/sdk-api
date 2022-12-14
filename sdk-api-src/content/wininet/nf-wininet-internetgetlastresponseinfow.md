@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.InternetGetLastResponseInfoW
 title: InternetGetLastResponseInfoW function (wininet.h)
-description: Retrieves the last error description or server response on the thread calling this function.
+description: Retrieves the last error description or server response on the thread calling this function. (Unicode)
 helpviewer_keywords: ["InternetGetLastResponseInfo","InternetGetLastResponseInfo function [WinINet]","InternetGetLastResponseInfoA","InternetGetLastResponseInfoW","_win32_internetgetlastresponseinfo","wininet.internetgetlastresponseinfo","wininet/InternetGetLastResponseInfo","wininet/InternetGetLastResponseInfoA","wininet/InternetGetLastResponseInfoW"]
 old-location: wininet\internetgetlastresponseinfo.htm
 tech.root: wininet

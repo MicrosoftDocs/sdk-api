@@ -1,7 +1,7 @@
 ---
 UID: NF:ntmsapi.SetNtmsObjectInformationA
 title: SetNtmsObjectInformationA function (ntmsapi.h)
-description: The SetNtmsObjectInformation function changes the information structure of the specified object.
+description: The SetNtmsObjectInformation function changes the information structure of the specified object. (SetNtmsObjectInformationA)
 helpviewer_keywords: ["SetNtmsObjectInformation","SetNtmsObjectInformation function [Files]","SetNtmsObjectInformationA","SetNtmsObjectInformationW","_zaw_setntmsobjectinformation","base.setntmsobjectinformation","fs.setntmsobjectinformation","ntmsapi/SetNtmsObjectInformation","ntmsapi/SetNtmsObjectInformationA","ntmsapi/SetNtmsObjectInformationW"]
 old-location: fs\setntmsobjectinformation.htm
 tech.root: fs
@@ -252,7 +252,7 @@ The following is the list of objects that have members that can be updated.
 </tr>
 <tr>
 <td>NTMS_LIBRARY</td>
-<td><b>AutoRecovery</b><div> </div><b>dwCleanerUsesRemaining</b><div> </div><b>dwFlags</b><div> </div><b>InventoryMethod</b><div> </div><b>szDescription</b><div> </div><b>szName</b>Requires NTMS_CONTROL_ACCESS to the library.
+<td><b>AutoRecovery</b><div> </div><b>dwCleanerUsesRemaining</b><div> </div><b>dwFlags</b><div> </div><b>InventoryMethod</b><div> </div><b>szDescription</b><div> </div><b>szName</b> Requires NTMS_CONTROL_ACCESS to the library.
 
 </td>
 </tr>

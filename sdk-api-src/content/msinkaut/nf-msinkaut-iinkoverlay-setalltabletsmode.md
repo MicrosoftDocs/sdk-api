@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.SetAllTabletsMode
 title: IInkOverlay::SetAllTabletsMode (msinkaut.h)
-description: Allows an ink collector (InkCollector, InkOverlay, or InkPicture) to collect ink from any tablet attached to the Tablet PC.
+description: Allows an ink collector (InkCollector, InkOverlay, or InkPicture) to collect ink from any tablet attached to the Tablet PC. (IInkOverlay.SetAllTabletsMode)
 helpviewer_keywords: ["IInkOverlay interface [Tablet PC]","SetAllTabletsMode method","IInkOverlay.SetAllTabletsMode","IInkOverlay::SetAllTabletsMode","SetAllTabletsMode","SetAllTabletsMode method [Tablet PC]","SetAllTabletsMode method [Tablet PC]","IInkOverlay interface","cb41bc4c-c8fe-4cd6-8049-8cb44a2716a8","msinkaut/IInkOverlay::SetAllTabletsMode","tablet.inkoverlay_setalltabletsmode"]
 old-location: tablet\inkoverlay_setalltabletsmode.htm
 tech.root: tablet
@@ -135,7 +135,7 @@ When an ink collector switches from ink collection using a single tablet to ink 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="../msinkaut/nn-msinkaut-iinkoverlay.md">IInkOverlay</a>
 
 
 

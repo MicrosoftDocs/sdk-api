@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupCreateDiskSpaceListW
 title: SetupCreateDiskSpaceListW function (setupapi.h)
-description: The SetupCreateDiskSpaceList function creates a disk-space list.
+description: The SetupCreateDiskSpaceList function creates a disk-space list. (Unicode)
 helpviewer_keywords: ["SetupCreateDiskSpaceList","SetupCreateDiskSpaceList function [Setup API]","SetupCreateDiskSpaceListA","SetupCreateDiskSpaceListW","_setupapi_setupcreatediskspacelist","setup.setupcreatediskspacelist","setupapi/SetupCreateDiskSpaceList","setupapi/SetupCreateDiskSpaceListA","setupapi/SetupCreateDiskSpaceListW"]
 old-location: setup\setupcreatediskspacelist.htm
 tech.root: setup

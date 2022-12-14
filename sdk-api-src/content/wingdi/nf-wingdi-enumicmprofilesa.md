@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.EnumICMProfilesA
 title: EnumICMProfilesA function (wingdi.h)
-description: The EnumICMProfiles function enumerates the different output color profiles that the system supports for a given device context.
+description: The EnumICMProfiles function enumerates the different output color profiles that the system supports for a given device context. (ANSI)
 helpviewer_keywords: ["EnumICMProfiles","EnumICMProfiles function [Windows Color System]","EnumICMProfilesA","EnumICMProfilesW","_color_EnumICMProfiles","wcs.enumicmprofiles","wingdi/EnumICMProfiles","wingdi/EnumICMProfilesA","wingdi/EnumICMProfilesW"]
 old-location: wcs\enumicmprofiles.htm
 tech.root: WCS
@@ -89,20 +89,9 @@ The <b>EnumICMProfiles</b> function returns a list of profiles that are associat
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
-
-
-
-<a href="/windows/desktop/api/wingdi/nc-wingdi-icmenumproca">EnumICMProfilesProcCallback</a>
-
-
-
-<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>
-
-
-
-<a href="/windows/desktop/api/wingdi/nf-wingdi-geticmprofilea">GetICMProfile</a>
-
-
-
-<a href="/windows/desktop/api/wingdi/nf-wingdi-seticmprofilea">SetICMProfile</a>
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Functions](/windows/win32/wcs/functions)
+* [DeleteColorSpaceW](/windows/win32/api/wingdi/nf-wingdi-deletecolorspace)
+* [ICMENUMPROCA callback function](/windows/win32/api/wingdi/nc-wingdi-icmenumproca)
+* [GetICMProfileW](/windows/win32/api/wingdi/nf-wingdi-geticmprofilew)
+* [SetICMProfileW](/windows/win32/api/wingdi/nf-wingdi-seticmprofilew)

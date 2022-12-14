@@ -52,7 +52,7 @@ api_name:
 
 Saves the object in the server's list of objects.
 
-## -parameters
+
 
 ## -returns
 

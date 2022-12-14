@@ -1,7 +1,7 @@
 ---
 UID: NF:prntvpt.PTOpenProvider
 title: PTOpenProvider function (prntvpt.h)
-description: Opens an instance of a print ticket provider.
+description: Opens an instance of a print ticket provider. (PTOpenProvider)
 helpviewer_keywords: ["PTOpenProvider","PTOpenProvider function [Windows GDI]","_win32_PTOpenProvider","gdi.ptopenprovider","prntvpt/PTOpenProvider"]
 old-location: gdi\ptopenprovider.htm
 tech.root: xps

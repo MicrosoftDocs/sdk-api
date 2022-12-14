@@ -1,7 +1,7 @@
 ---
 UID: NF:windns.DnsServiceRegister
 title: DnsServiceRegister function
-description: Used to register a discoverable service on this device.
+description: Used to register a discoverable service on this device. (DnsServiceRegister)
 tech.root: dns
 helpviewer_keywords: ["DnsServiceRegister"]
 ms.date: 02/14/2019
@@ -35,7 +35,6 @@ dev_langs:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - windns.h
 api_name:

@@ -1,12 +1,12 @@
 ---
 UID: NS:vds._VDS_POOL_CUSTOM_ATTRIBUTES
 title: VDS_POOL_CUSTOM_ATTRIBUTES (vds.h)
-description: Defines a custom attribute of a storage pool.
+description: The VDS_POOL_CUSTOM_ATTRIBUTES structure (vds.h) defines a custom attribute of a storage pool.  
 helpviewer_keywords: ["*PVDS_POOL_CUSTOM_ATTRIBUTES","PVDS_POOL_CUSTOM_ATTRIBUTES","PVDS_POOL_CUSTOM_ATTRIBUTES structure pointer","VDS_POOL_CUSTOM_ATTRIBUTES","VDS_POOL_CUSTOM_ATTRIBUTES structure","base.vds_pool_custom_attributes","vds/PVDS_POOL_CUSTOM_ATTRIBUTES","vds/VDS_POOL_CUSTOM_ATTRIBUTES","vdshwprv/PVDS_POOL_CUSTOM_ATTRIBUTES","vdshwprv/VDS_POOL_CUSTOM_ATTRIBUTES"]
 old-location: base\vds_pool_custom_attributes.htm
 tech.root: base
 ms.assetid: beea122a-476c-43e0-bb70-2555d4211bf7
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: '*PVDS_POOL_CUSTOM_ATTRIBUTES, PVDS_POOL_CUSTOM_ATTRIBUTES, PVDS_POOL_CUSTOM_ATTRIBUTES structure pointer, VDS_POOL_CUSTOM_ATTRIBUTES, VDS_POOL_CUSTOM_ATTRIBUTES structure, base.vds_pool_custom_attributes, vds/PVDS_POOL_CUSTOM_ATTRIBUTES, vds/VDS_POOL_CUSTOM_ATTRIBUTES, vdshwprv/PVDS_POOL_CUSTOM_ATTRIBUTES, vdshwprv/VDS_POOL_CUSTOM_ATTRIBUTES'
 req.header: vds.h
 req.include-header: 

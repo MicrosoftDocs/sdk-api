@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.LoadKeyboardLayoutA
 title: LoadKeyboardLayoutA function (winuser.h)
-description: Loads a new input locale identifier (formerly called the keyboard layout) into the system.
+description: Loads a new input locale identifier (formerly called the keyboard layout) into the system. (ANSI)
 helpviewer_keywords: ["KLF_ACTIVATE","KLF_NOTELLSHELL","KLF_REORDER","KLF_REPLACELANG","KLF_SETFORPROCESS","KLF_SUBSTITUTE_OK","KLF_UNLOADPREVIOUS","LoadKeyboardLayout","LoadKeyboardLayout function [Keyboard and Mouse Input]","LoadKeyboardLayoutA","LoadKeyboardLayoutW","_win32_LoadKeyboardLayout","_win32_loadkeyboardlayout_cpp","inputdev.loadkeyboardlayout","winui._win32_loadkeyboardlayout","winuser/LoadKeyboardLayout","winuser/LoadKeyboardLayoutA","winuser/LoadKeyboardLayoutW"]
 old-location: inputdev\loadkeyboardlayout.htm
 tech.root: inputdev
@@ -170,7 +170,11 @@ This flag is unsupported. Use the <a href="/windows/desktop/api/winuser/nf-winus
 
 Type: <b>HKL</b>
 
-If the function succeeds, the return value is the input locale identifier corresponding to the name specified in <i>pwszKLID</i>. If no matching locale is available, the return value is the default language of the system. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function succeeds, the return value is the input locale identifier corresponding to the name specified in <i>pwszKLID</i>. If no matching locale is available, the return value is the default language of the system.
+
+If the function fails, the return value is NULL. This can occur if the layout library is loaded from the application directory.
+
+To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 

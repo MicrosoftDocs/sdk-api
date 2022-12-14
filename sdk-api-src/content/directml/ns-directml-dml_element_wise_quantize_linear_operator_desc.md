@@ -1,13 +1,12 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC
 title: DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC
-description: Describes a DirectML operator that performs the linear quantize function on every element in InputTensor with respect to its corresponding element in ScaleTensor and ZeroPointTensor, f(input, scale, zero_point) = clamp(round(input / scale) + zero_point, 0, 255).
+description: Performs the following linear quantization function on every element in *InputTensor* with respect to its corresponding element in *ScaleTensor* and `ZeroPointTensor`, placing the results in the corresponding element of *OutputTensor*.
 helpviewer_keywords: ["DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC","DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC structure","direct3d12.dml_element_wise_quantize_linear_operator_desc","directml/DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC"]
 old-location: direct3d12\dml_element_wise_quantize_linear_operator_desc.htm
 tech.root: directml
 ms.assetid: 46415049-2978-4162-B94C-B600EA91992C
-ms.date: 12/5/2018
-ms.keywords: DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC, DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC structure, direct3d12.dml_element_wise_quantize_linear_operator_desc, directml/DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC
+ms.date: 10/30/2020
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -45,41 +44,76 @@ api_name:
  - DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC
 ---
 
-# DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC structure
-
-
 ## -description
 
-Describes a DirectML operator that performs the linear quantize function on every element in <i>InputTensor</i> with respect to its corresponding element in <i>ScaleTensor</i> and <i>ZeroPointTensor</i>, f(input, scale, zero_point)
-= clamp(round(input / scale) + zero_point, 0, 255). Quantizing involves converting to a lower-precision data type in order to accelerate arithmetic.
+Performs the following linear quantization function on every element in *InputTensor* with respect to its corresponding element in *ScaleTensor* and *ZeroPointTensor*, placing the results in the corresponding element of *OutputTensor*.
+
+```
+// For uint8 output, Min = 0, Max = 255
+// For int8 output, Min = -128, Max = 127
+f(input, scale, zero_point) = clamp(round(input / scale) + zero_point, Min, Max)
+```
+
+Quantizing involves converting to a lower-precision data type in order to accelerate arithmetic. It's a common way to increase performance at the cost of precision. A group of 8-bit values can be computed faster than a group of 32-bit values can.
 
 ## -struct-fields
 
 ### -field InputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to read from.
+The tensor containing the inputs.
 
 ### -field ScaleTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing scale.
+The tensor containing the scales.
 
 ### -field ZeroPointTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the zero point.
+The tensor containing the desired zero point for the quantization.
 
 ### -field OutputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to write the results to.
+The output tensor to write the results to.
+
+## Availability
+This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
+
+## Tensor constraints
+* *InputTensor*, *OutputTensor*, *ScaleTensor*, and *ZeroPointTensor* must have the same *DimensionCount* and *Sizes*.
+* *OutputTensor* and *ZeroPointTensor* must have the same *DataType*.
+
+## Tensor support
+### DML_FEATURE_LEVEL_3_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, INT32 |
+| ScaleTensor | Input | 1 to 8 | FLOAT32 |
+| ZeroPointTensor | Input | 1 to 8 | INT8, UINT8 |
+| OutputTensor | Output | 1 to 8 | INT8, UINT8 |
+
+### DML_FEATURE_LEVEL_2_1 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 | FLOAT32, INT32 |
+| ScaleTensor | Input | 4 | FLOAT32 |
+| ZeroPointTensor | Input | 4 | INT8, UINT8 |
+| OutputTensor | Output | 4 | INT8, UINT8 |
+
+### DML_FEATURE_LEVEL_1_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 | FLOAT32 |
+| ScaleTensor | Input | 4 | FLOAT32 |
+| ZeroPointTensor | Input | 4 | UINT8 |
+| OutputTensor | Output | 4 | UINT8 |
 
 ## -see-also
 
-[DML_ELEMENT_WISE_DEQUANTIZE_LINEAR_OPERATOR_DESC](/windows/desktop/api/directml/ns-directml-dml_element_wise_dequantize_linear_operator_desc)
-
+[DML_ELEMENT_WISE_DEQUANTIZE_LINEAR_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_element_wise_dequantize_linear_operator_desc)

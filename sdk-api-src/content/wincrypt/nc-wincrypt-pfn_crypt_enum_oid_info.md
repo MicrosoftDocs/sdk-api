@@ -58,7 +58,7 @@ The <b>CRYPT_ENUM_OID_INFO</b> callback function  is used with the <a href="/win
 
 A pointer to the OID information.
 
-### -param *pvArg [in]
+### -param pvArg [in]
 
 A pointer to arguments passed through to the callback function.
 

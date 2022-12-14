@@ -6,7 +6,7 @@ helpviewer_keywords: ["CP_ACP","CP_MACCP","CP_OEMCP","CP_SYMBOL","CP_THREAD_ACP"
 old-location: intl\widechartomultibyte.htm
 tech.root: Intl
 ms.assetid: b8c13444-86ab-479c-ac04-9b184d9eebf6
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_SYMBOL, CP_THREAD_ACP, CP_UTF7, CP_UTF8, WC_COMPOSITECHECK, WC_ERR_INVALID_CHARS, WC_NO_BEST_FIT_CHARS, WideCharToMultiByte, WideCharToMultiByte function [Internationalization for Windows Applications], _win32_WideCharToMultiByte, intl.widechartomultibyte, stringapiset/WideCharToMultiByte
 req.header: stringapiset.h
 req.include-header: Windows.h
@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - WideCharToMultiByte
  - stringapiset/WideCharToMultiByte
@@ -175,8 +175,7 @@ Flags indicating the conversion type. The application can specify a combination 
 Convert composite characters, consisting of a base character and a nonspacing character, each with different character values. Translate these characters to precomposed characters, which have a single character value for a base-nonspacing character combination. For example, in the character è, the e is the base character and the accent grave mark is the nonspacing character.<div class="alert"><b>Note</b>  Windows normally represents Unicode strings with precomposed data, making the use of the WC_COMPOSITECHECK flag unnecessary.</div>
 <div> </div>
 
-
-Your application can combine WC_COMPOSITECHECK with any one of the following flags, with the default being WC_SEPCHARS. These flags determine the behavior of the function when no precomposed mapping for a base-nonspacing character combination in a Unicode string is available. If none of these flags is supplied, the function behaves as if the WC_SEPCHARS flag is set. For more information, see  <a href="https://docs.microsoft.com/">WC_COMPOSITECHECK and related flags</a> in the Remarks section.
+Your application can combine WC_COMPOSITECHECK with any one of the following flags, with the default being WC_SEPCHARS. These flags determine the behavior of the function when no precomposed mapping for a base-nonspacing character combination in a Unicode string is available. If none of these flags is supplied, the function behaves as if the WC_SEPCHARS flag is set. For more information, see WC_COMPOSITECHECK and related flags in the [Remarks](#remarks) section.
 
 <table>
 <tr>
@@ -245,17 +244,9 @@ Pointer to the Unicode string to convert.
 
 Size, in characters, of the string indicated by <i>lpWideCharStr</i>. Alternatively, this parameter can be set to -1 if the string is null-terminated. If <i>cchWideChar</i> is set to 0, the function fails.
 
-If this parameter is -1, the function processes the entire input string, including the terminating null 
+If this parameter is -1, the function processes the entire input string, including the terminating null character. Therefore, the resulting character string has a terminating null character, and the length returned by the function includes this character.
 
-character. Therefore, the resulting character string has a terminating null character, and the length 
-
-returned by the function includes this character.
-
-If this parameter is set to a positive integer, the function processes exactly the specified number of 
-
-characters. If the provided size does not include a terminating null character, the resulting character 
-
-string is not null-terminated, and the returned length does not include this character.
+If this parameter is set to a positive integer, the function processes exactly the specified number of characters. If the provided size does not include a terminating null character, the resulting character string is not null-terminated, and the returned length does not include this character.
 
 ### -param lpMultiByteStr [out, optional]
 
@@ -263,7 +254,7 @@ Pointer to a buffer that receives the converted string.
 
 ### -param cbMultiByte [in]
 
-Size, in bytes, of the buffer indicated by <i>lpMultiByteStr</i>. If this parameter is set to 0, the function returns the required buffer size for <i>lpMultiByteStr</i> and makes no use of the output parameter itself.
+Size, in bytes, of the buffer indicated by <i>lpMultiByteStr</i>. If this value is 0, the function returns the required buffer size, in bytes, including any terminating null character, and makes no use of the <i>lpMultiByteStr</i> buffer.
 
 ### -param lpDefaultChar [in, optional]
 
@@ -339,6 +330,40 @@ As discussed in <a href="/windows/desktop/Intl/using-unicode-normalization-to-re
 The WC_COMPOSITECHECK flag causes the <b>WideCharToMultiByte</b> function to test for decomposed Unicode characters and attempts to compose them before converting them to the requested code page. This flag is only available for conversion to <a href="/windows/desktop/Intl/single-byte-character-sets">single byte (SBCS)</a> or <a href="/windows/desktop/Intl/double-byte-character-sets">double byte (DBCS)</a> code pages (code pages &lt; 50000, excluding code page 42). If your application needs to convert decomposed Unicode data to single byte or double byte code pages, this flag might be useful. However, not all characters can be converted this way and it is more reliable to save and store such data as Unicode.
 
 When an application is using WC_COMPOSITECHECK, some character combinations might remain incomplete or might have additional nonspacing characters left over. For example, A + ¨ + ¨ combines to Ä + ¨. Using the WC_DISCARDNS flag causes the function to discard additional nonspacing characters. Using the WC_DEFAULTCHAR flag causes the function to use the default replacement character (typically "?") instead. Using the WC_SEPCHARS flag causes the function to attempt to convert each additional nonspacing character to the target code page. Usually this flag also causes the use of the replacement character ("?"). However, for code page 1258 (Vietnamese) and 20269, nonspacing characters exist and can be used. The conversions for these code pages are not perfect. Some combinations do not convert correctly to code page 1258, and WC_COMPOSITECHECK corrupts data in code page 20269. As mentioned earlier, it is more reliable to design your application to save and store such data as Unicode.
+
+## Examples
+
+```cpp
+ISDSC_STATUS DiscpUnicodeToAnsiSize(
+    IN __in PWCHAR UnicodeString,
+    OUT ULONG *AnsiSizeInBytes
+    )
+/*++
+Routine Description:
+    This routine will return the length needed to represent the unicode
+    string as ANSI
+Arguments:
+    UnicodeString is the unicode string whose ansi length is returned
+    *AnsiSizeInBytes is number of bytes needed to represent unicode
+        string as ANSI
+Return Value:
+    ERROR_SUCCESS or error code
+--*/
+{
+    _try
+    {
+        *AnsiSizeInBytes = WideCharToMultiByte(CP_ACP,
+                                               0,
+                                               UnicodeString,
+                                               -1,
+                                               NULL,
+                                               0, NULL, NULL);
+    } _except(EXCEPTION_EXECUTE_HANDLER) {
+        return(ERROR_NOACCESS);
+    }
+    return((*AnsiSizeInBytes == 0) ? GetLastError() : ERROR_SUCCESS);
+}
+```
 
 ## -see-also
 

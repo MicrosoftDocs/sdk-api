@@ -60,84 +60,10 @@ The methods of the <b>IWMCodecInfo</b> interface are inherited by <b>IWMCodecInf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMCodecInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMCodecInfo</b> also has these types of members:
+The <b>IWMCodecInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMCodecInfo</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMCodecInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecformat">GetCodecFormat</a>
-</td>
-<td align="left" width="63%">
-Retrieves a structure describing the format of a specified codec.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecformatcount">GetCodecFormatCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of formats supported by the specified codec.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecinfocount">GetCodecInfoCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of supported codecs.
-
-</td>
-</tr>
-</table> 
-
-The following interfaces can be obtained by using the QueryInterface method of this interface.<table>
-<tr>
-<th>Interface</th>
-<th>IID</th>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo2">IWMCodecInfo2</a>
-</td>
-<td>IID_IWMCodecInfo2</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3">IWMCodecInfo3</a>
-</td>
-<td>IID_IWMCodecInfo3</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager">IWMProfileManager</a>
-</td>
-<td>IID_IWMProfileManager</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager2">IWMProfileManager2</a>
-</td>
-<td>IID_IWMProfileManager2</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanagerlanguage">IWMProfileManagerLanguage</a>
-</td>
-<td>IID_IWMProfileManagerLanguage</td>
-</tr>
-</table>
 
 ## -see-also
 

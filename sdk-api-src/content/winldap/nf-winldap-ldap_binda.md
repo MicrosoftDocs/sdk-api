@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_bindA
 title: ldap_bindA function (winldap.h)
-description: Asynchronously authenticates a client with the LDAP server.
+description: Asynchronously authenticates a client with the LDAP server. (ldap_bindA)
 helpviewer_keywords: ["_ldap_ldap_bind","ldap.ldap__bind","ldap.ldap_bind","ldap_bind","ldap_bind function [LDAP]","ldap_bindA","ldap_bindW","winldap/ldap_bind","winldap/ldap_bindA","winldap/ldap_bindW"]
 old-location: ldap\ldap_bind.htm
 tech.root: ldap

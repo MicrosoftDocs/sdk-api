@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.EnqueueGlyphDownloadRequest
 title: IDWriteFontFaceReference::EnqueueGlyphDownloadRequest (dwrite_3.h)
-description: Adds a request to the font download queue (IDWriteFontDownloadQueue).
+description: Adds a request to the font download queue (IDWriteFontDownloadQueue). (IDWriteFontFaceReference.EnqueueGlyphDownloadRequest)
 helpviewer_keywords: ["EnqueueGlyphDownloadRequest","EnqueueGlyphDownloadRequest method [Direct Write]","EnqueueGlyphDownloadRequest method [Direct Write]","IDWriteFontFaceReference interface","IDWriteFontFaceReference interface [Direct Write]","EnqueueGlyphDownloadRequest method","IDWriteFontFaceReference.EnqueueGlyphDownloadRequest","IDWriteFontFaceReference::EnqueueGlyphDownloadRequest","directwrite.idwritefontfacereference_enqueueglyphdownloadrequest","dwrite_3/IDWriteFontFaceReference::EnqueueGlyphDownloadRequest"]
 old-location: directwrite\idwritefontfacereference_enqueueglyphdownloadrequest.htm
 tech.root: DirectWrite
@@ -70,7 +70,7 @@ The number of elements in the glyph index array.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

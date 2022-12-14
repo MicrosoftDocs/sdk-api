@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymGetLineFromInlineContextW
 title: SymGetLineFromInlineContextW function (dbghelp.h)
-description: Locates the source line for the specified inline context.
+description: The SymGetLineFromInlineContextW (Unicode) function locates the source line for the specified inline context.
 helpviewer_keywords: ["SymGetLineFromInlineContext","SymGetLineFromInlineContext function","SymGetLineFromInlineContextW","base.symgetlinefrominlinecontext","dbghelp/SymGetLineFromInlineContext","dbghelp/SymGetLineFromInlineContextW"]
 old-location: base\symgetlinefrominlinecontext.htm
 tech.root: Debug
 ms.assetid: 0c362bd9-7496-436b-9e01-2054dc3dfc57
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymGetLineFromInlineContext, SymGetLineFromInlineContext function, SymGetLineFromInlineContextW, base.symgetlinefrominlinecontext, dbghelp/SymGetLineFromInlineContext, dbghelp/SymGetLineFromInlineContextW
 req.header: dbghelp.h
 req.include-header: 
@@ -106,7 +106,9 @@ To call the Unicode version of this function, define <b>DBGHELP_TRANSLATE_TCHAR<
     <b>SymGetLineFromInlineContext</b> is defined as 
     follows in Dbghelp.h.
 
-<pre class="syntax" xml:space="preserve"><code>BOOL
+
+``` syntax
+BOOL
 IMAGEAPI
 SymGetLineFromInlineContextW(
     _In_ HANDLE hProcess,
@@ -119,7 +121,9 @@ SymGetLineFromInlineContextW(
 
 #ifdef DBGHELP_TRANSLATE_TCHAR
  #define SymGetLineFromInlineContext SymGetLineFromInlineContextW
-#endif</code></pre>
+#endif
+```
+
 
 
 

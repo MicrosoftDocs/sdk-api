@@ -52,7 +52,7 @@ api_name:
 
 Restore all default device settings; return the device to the state it was in when it was created. This will set all set all input/output resource slots, shaders, input layouts, predications, scissor rectangles, depth-stencil state, rasterizer state, blend state, sampler state, and viewports to <b>NULL</b>. The primitive topology will be set to UNDEFINED.
 
-## -parameters
+
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_4
 title: ISCSI_TARGET_MAPPINGW (iscsidsc.h)
-description: ISCSI_TARGET_MAPPING.
+description: ISCSI_TARGET_MAPPING. (Unicode)
 helpviewer_keywords: ["*PISCSI_TARGET_MAPPINGW","ISCSI_TARGET_MAPPING","ISCSI_TARGET_MAPPING structure [iSCSI Discovery Library API]","ISCSI_TARGET_MAPPINGA","ISCSI_TARGET_MAPPINGW","PISCSI_TARGET_MAPPING","PISCSI_TARGET_MAPPING structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_target_mapping","iscsidsc/ISCSI_TARGET_MAPPING","iscsidsc/ISCSI_TARGET_MAPPINGA","iscsidsc/ISCSI_TARGET_MAPPINGW","iscsidsc/PISCSI_TARGET_MAPPING"]
 old-location: iscsidisc\iscsi_target_mapping.htm
 tech.root: iSCSIDisc

@@ -1,7 +1,7 @@
 ---
 UID: NS:ifmib._MIB_IFROW
 title: MIB_IFROW (ifmib.h)
-description: Stores information about a particular interface.
+description: Stores information about a particular interface. (MIB_IFROW)
 helpviewer_keywords: ["*PMIB_IFROW","IF_OPER_STATUS_CONNECTED","IF_OPER_STATUS_CONNECTING","IF_OPER_STATUS_DISCONNECTED","IF_OPER_STATUS_NON_OPERATIONAL","IF_OPER_STATUS_OPERATIONAL","IF_OPER_STATUS_UNREACHABLE","IF_TYPE_ATM","IF_TYPE_ETHERNET_CSMACD","IF_TYPE_FDDI","IF_TYPE_IEEE1394","IF_TYPE_IEEE80211","IF_TYPE_IEEE80216_WMAN","IF_TYPE_ISO88025_TOKENRING","IF_TYPE_OTHER","IF_TYPE_PPP","IF_TYPE_SOFTWARE_LOOPBACK","IF_TYPE_TUNNEL","IF_TYPE_WWANPP","IF_TYPE_WWANPP2","MIB_IFROW","MIB_IFROW structure [MIB]","PMIB_IFROW","PMIB_IFROW structure pointer [MIB]","_mpr_mib_ifrow","ifmib/MIB_IFROW","ifmib/PMIB_IFROW","iprtrmib/MIB_IFROW","iprtrmib/PMIB_IFROW","mib.mib_ifrow","rras.mib_ifrow"]
 old-location: mib\mib_ifrow.htm
 tech.root: MIB
@@ -434,7 +434,7 @@ A description of the interface.
 
 ## -remarks
 
-The <b>dwSpeed</b> member of the <b>MIB_IFROW</b> structure will be incorrect for very high-speed network interfaces (10 Gbit/s network adapter, for example) since the maximum value that can be store in a DWORD is 4,294,967,295. Applications should use the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a> structure returned by the <a href="/windows/desktop/api/netioapi/nf-netioapi-getifentry2">GetIfEntry2</a> and <a href="/windows/desktop/api/netioapi/nf-netioapi-getiftable2">GetIfTable2</a> functions or the <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structure returned by the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>function for determining the speed for very high-speed network interfaces.
+The <b>dwSpeed</b> member of the <b>MIB_IFROW</b> structure will be incorrect for very high-speed network interfaces (10 Gbit/s network adapter, for example) since the maximum value that can be store in a DWORD is 4,294,967,295. Applications should use the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a> structure returned by the <a href="/windows/desktop/api/netioapi/nf-netioapi-getifentry2">GetIfEntry2</a> and <a href="/windows/desktop/api/netioapi/nf-netioapi-getiftable2">GetIfTable2</a> functions or the <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structure returned by the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function for determining the speed for very high-speed network interfaces.
 
 On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later, the organization of header files has changed and the <b>MIB_IFROW</b> structure is defined in the <i>Ifmib.h</i> header file not in the <i>Iprtrmib.h</i> header file. Note that the <i>Ifmib.h</i> header file is automatically included in <i>Iprtrmib.h</i> which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Ifmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 

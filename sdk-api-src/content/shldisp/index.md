@@ -16,7 +16,9 @@ f1_keywords:
 
 ## -description
 
-This header is used by Legacy Windows Environment Features. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Legacy Windows Environment Features](../_lwef/index.md)
+- [The Windows Shell](../_shell/index.md)
+- [Windows Sidebar](/previous-versions/windows/desktop/sidebar/-sidebar-entry)
 

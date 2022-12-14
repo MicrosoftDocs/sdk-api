@@ -30,7 +30,6 @@ req.typenames:
 req.redist: 
 ms.custom: 19H1
 f1_keywords:
- - IPrintDialogCallback
  - commdlg/IPrintDialogCallback
 dev_langs:
  - c++
@@ -47,54 +46,13 @@ api_name:
 
 # IPrintDialogCallback interface
 
-
 ## -description
 
 Provides methods that enable an application to receive notifications and messages from the <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function while the <a href="/windows/desktop/dlgbox/print-property-sheet">Print Property Sheet</a> is displayed.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintDialogCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintDialogCallback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPrintDialogCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/commdlg/nf-commdlg-iprintdialogcallback-handlemessage">HandleMessage</a>
-</td>
-<td align="left" width="63%">
-Called by <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> to give your application an opportunity to handle messages sent to the child dialog box in the lower portion of the <b>General</b> page of the <a href="/windows/desktop/dlgbox/print-property-sheet">Print Property Sheet</a>. The child dialog box contains controls similar to those of the <b>Print</b> dialog box.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/commdlg/nf-commdlg-iprintdialogcallback-initdone">InitDone</a>
-</td>
-<td align="left" width="63%">
-Called by <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> when the system has finished initializing the <b>General</b> page of the <a href="/windows/desktop/dlgbox/print-property-sheet">Print Property Sheet</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/commdlg/nf-commdlg-iprintdialogcallback-selectionchange">SelectionChange</a>
-</td>
-<td align="left" width="63%">
-Called by <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> when the user selects a different printer from the list of installed printers on the <b>General</b> page of the <a href="/windows/desktop/dlgbox/print-property-sheet">Print Property Sheet</a>.
-
-</td>
-</tr>
-</table>
+The <b>IPrintDialogCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintDialogCallback</b> also has these types of members:
 
 ## -see-also
 

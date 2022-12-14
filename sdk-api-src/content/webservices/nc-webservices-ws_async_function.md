@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_ASYNC_FUNCTION
 title: WS_ASYNC_FUNCTION (webservices.h)
-description: Used with the WsAsyncExecute to specify the next function to invoke in a series of async operations.
+description: Used with the WsAsyncExecute to specify the next function to invoke in a series of async operations. (WS_ASYNC_FUNCTION)
 helpviewer_keywords: ["WS_ASYNC_FUNCTION","WS_ASYNC_FUNCTION callback","WS_ASYNC_FUNCTION callback function [Web Services for Windows]","webservices/WS_ASYNC_FUNCTION","wsw.ws_async_function"]
 old-location: wsw\ws_async_function.htm
 tech.root: wsw
@@ -64,11 +64,11 @@ The result of the previous async operation.
 Whether the callback is being invoked long or short.
                     For more information, see <a href="/windows/desktop/api/webservices/ne-webservices-ws_callback_model">WS_CALLBACK_MODEL</a>.
 
-### -param *callbackState [in]
+### -param callbackState [in]
 
 This user supplied value that was passed to <a href="/windows/desktop/api/webservices/nf-webservices-wsasyncexecute">WsAsyncExecute</a>/
 
-### -param *next
+### -param next
 
 Set the function field to the next function to call.  It will be called regardless of whether or not the current function succeeds or fails.
                 
@@ -79,11 +79,11 @@ Set the function field to <b>NULL</b> to indicate that there are no more functio
 
 <a href="/windows/desktop/api/webservices/nf-webservices-wsasyncexecute">WsAsyncExecute</a> will set the function field to <b>NULL</b> before each function is called.
 
-### -param *asyncContext [in, optional]
+### -param asyncContext [in, optional]
 
 Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 

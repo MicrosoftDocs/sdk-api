@@ -54,26 +54,5 @@ The <b>ITfCompartmentEventSink</b> interface is implemented by a client (applica
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCompartmentEventSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCompartmentEventSink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITfCompartmentEventSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCompartmentEventSink</b> also has these types of members:
 
-## -members
-
-The <b>ITfCompartmentEventSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcompartmenteventsink-onchange">OnChange</a>
-</td>
-<td align="left" width="63%">
-Called when compartment data changes.
-
-</td>
-</tr>
-</table>

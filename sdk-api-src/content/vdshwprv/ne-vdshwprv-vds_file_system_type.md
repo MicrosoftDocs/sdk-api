@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv._VDS_FILE_SYSTEM_TYPE
 title: VDS_FILE_SYSTEM_TYPE (vdshwprv.h)
-description: Defines the set of valid types for a file system.
+description: The VDS_FILE_SYSTEM_TYPE enumeration (vdshwprv.h) defines the set of valid types for a file system.
 helpviewer_keywords: ["VDS_FILE_SYSTEM_TYPE","VDS_FILE_SYSTEM_TYPE enumeration [VDS]","VDS_FST_CDFS","VDS_FST_EXFAT","VDS_FST_FAT","VDS_FST_FAT32","VDS_FST_NTFS","VDS_FST_RAW","VDS_FST_UDF","VDS_FST_UNKNOWN","base.vds_file_system_type","vds/VDS_FILE_SYSTEM_TYPE","vds/VDS_FST_CDFS","vds/VDS_FST_EXFAT","vds/VDS_FST_FAT","vds/VDS_FST_FAT32","vds/VDS_FST_NTFS","vds/VDS_FST_RAW","vds/VDS_FST_UDF","vds/VDS_FST_UNKNOWN","vdshwprv/VDS_FILE_SYSTEM_TYPE","vdshwprv/VDS_FST_CDFS","vdshwprv/VDS_FST_EXFAT","vdshwprv/VDS_FST_FAT","vdshwprv/VDS_FST_FAT32","vdshwprv/VDS_FST_NTFS","vdshwprv/VDS_FST_RAW","vdshwprv/VDS_FST_UDF","vdshwprv/VDS_FST_UNKNOWN"]
 old-location: base\vds_file_system_type.htm
 tech.root: base
 ms.assetid: 56f2d969-eb1c-44c2-8a12-077a02ae40dc
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_FILE_SYSTEM_TYPE, VDS_FILE_SYSTEM_TYPE enumeration [VDS], VDS_FST_CDFS, VDS_FST_EXFAT, VDS_FST_FAT, VDS_FST_FAT32, VDS_FST_NTFS, VDS_FST_RAW, VDS_FST_UDF, VDS_FST_UNKNOWN, base.vds_file_system_type, vds/VDS_FILE_SYSTEM_TYPE, vds/VDS_FST_CDFS, vds/VDS_FST_EXFAT, vds/VDS_FST_FAT, vds/VDS_FST_FAT32, vds/VDS_FST_NTFS, vds/VDS_FST_RAW, vds/VDS_FST_UDF, vds/VDS_FST_UNKNOWN, vdshwprv/VDS_FILE_SYSTEM_TYPE, vdshwprv/VDS_FST_CDFS, vdshwprv/VDS_FST_EXFAT, vdshwprv/VDS_FST_FAT, vdshwprv/VDS_FST_FAT32, vdshwprv/VDS_FST_NTFS, vdshwprv/VDS_FST_RAW, vdshwprv/VDS_FST_UDF, vdshwprv/VDS_FST_UNKNOWN
 req.header: vdshwprv.h
 req.include-header: 
@@ -59,7 +59,7 @@ Defines the set of valid types for a file system.
 
 ## -enum-fields
 
-### -field VDS_FST_UNKNOWN
+### -field VDS_FST_UNKNOWN:0
 
 The file system is unknown. The <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf-getfilesystemproperties">IVdsVolumeMF::GetFileSystemProperties</a> method returns this value in the <a href="/windows/desktop/api/vds/ns-vds-vds_file_system_prop">VDS_FILE_SYSTEM_PROP</a> structure for BitLocker-encrypted volumes.
 
@@ -99,7 +99,7 @@ The file system is extended file allocation table (exFAT).
 
 ## -remarks
 
-The <a href="/windows/desktop/api/vds/ns-vds-vds_file_system_prop">VDS_FILE_SYSTEM_PROP</a>structure includes a <b>VDS_FILE_SYSTEM_TYPE</b> value as a member to indicate an existing file system type.
+The <a href="/windows/desktop/api/vds/ns-vds-vds_file_system_prop">VDS_FILE_SYSTEM_PROP</a> structure includes a <b>VDS_FILE_SYSTEM_TYPE</b> value as a member to indicate an existing file system type.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_FILE_SYSTEM_TYPE</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_FILE_SYSTEM_TYPE</b> enumeration constant.</div>
 <div> </div>

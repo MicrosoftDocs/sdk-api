@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupInstallFilesFromInfSectionW
 title: SetupInstallFilesFromInfSectionW function (setupapi.h)
-description: The SetupInstallFilesFromInfSection function queues all the files for an installation that are specified in the Copy Files, Delete Files, and Rename Files sections that are listed by an Install section.
+description: The SetupInstallFilesFromInfSection function queues all the files for an installation that are specified in the Copy Files, Delete Files, and Rename Files sections that are listed by an Install section. (Unicode)
 helpviewer_keywords: ["SetupInstallFilesFromInfSection","SetupInstallFilesFromInfSection function [Setup API]","SetupInstallFilesFromInfSectionA","SetupInstallFilesFromInfSectionW","_setupapi_setupinstallfilesfrominfsection","setup.setupinstallfilesfrominfsection","setupapi/SetupInstallFilesFromInfSection","setupapi/SetupInstallFilesFromInfSectionA","setupapi/SetupInstallFilesFromInfSectionW"]
 old-location: setup\setupinstallfilesfrominfsection.htm
 tech.root: setup
@@ -122,7 +122,7 @@ If the source file is not a newer or equal version, the function notifies the ca
 
 
 
-The file version information that is used during version checks is specified in the <b>dwFileVersionMS </b>and <b>dwFileVersionLS</b> members of a 
+The file version information that is used during version checks is specified in the <b>dwFileVersionMS </b> and <b>dwFileVersionLS</b> members of a 
 <a href="/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure, as filled in by the Win32 version functions.
 
  If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
@@ -272,7 +272,7 @@ If the source file is not a newer or equal version, the function notifies the ca
 
 
 
-The file version information that is used during version checks is specified in the <b>dwFileVersionMS </b>and <b>dwFileVersionLS</b> members of a 
+The file version information that is used during version checks is specified in the <b>dwFileVersionMS </b> and <b>dwFileVersionLS</b> members of a 
 <a href="/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure, as filled in by the Win32 version functions.
 
  If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.

@@ -54,56 +54,7 @@ Notifies the subscriber if a Microsoft Distributed Transaction Coordinator (DTC)
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComTransaction2Events</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComTransaction2Events</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IComTransaction2Events</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomtransaction2events-ontransactionabort2">OnTransactionAbort2</a>
-</td>
-<td align="left" width="63%">
-Generated when a transaction aborts.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomtransaction2events-ontransactioncommit2">OnTransactionCommit2</a>
-</td>
-<td align="left" width="63%">
-Generated when a transaction commits.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomtransaction2events-ontransactionprepare2">OnTransactionPrepare2</a>
-</td>
-<td align="left" width="63%">
-Generated when the transaction is in the prepare phase of the commit protocol.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomtransaction2events-ontransactionstart2">OnTransactionStart2</a>
-</td>
-<td align="left" width="63%">
-Generated when a Microsoft Distributed Transaction Coordinator (DTC) transaction starts.
-
-</td>
-</tr>
-</table>
+The <b>IComTransaction2Events</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComTransaction2Events</b> also has these types of members:
 
 ## -see-also
 

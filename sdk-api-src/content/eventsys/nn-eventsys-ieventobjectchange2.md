@@ -56,38 +56,7 @@ The <b>IEventObjectChange2</b> interface has the same firing characteristics as 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventObjectChange2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEventObjectChange2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IEventObjectChange2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventobjectchange2-changedeventclass">ChangedEventClass</a>
-</td>
-<td align="left" width="63%">
-Indicates that an event class object has been added, modified, or deleted.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventobjectchange2-changedsubscription">ChangedSubscription</a>
-</td>
-<td align="left" width="63%">
-Indicates that a subscription object has been added, modified, or deleted.
-
-</td>
-</tr>
-</table>
+The <b>IEventObjectChange2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEventObjectChange2</b> also has these types of members:
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.GetMetaFileW
 title: GetMetaFileW function (wingdi.h)
-description: The GetMetaFile function creates a handle that identifies the metafile stored in the specified file.
+description: The GetMetaFile function creates a handle that identifies the metafile stored in the specified file. (Unicode)
 helpviewer_keywords: ["GetMetaFile","GetMetaFile function [Windows GDI]","GetMetaFileA","GetMetaFileW","gdi.getmetafile","wingdi/GetMetaFile","wingdi/GetMetaFileA","wingdi/GetMetaFileW"]
 old-location: gdi\getmetafile.htm
 tech.root: gdi

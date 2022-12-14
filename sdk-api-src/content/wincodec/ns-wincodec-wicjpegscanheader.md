@@ -1,7 +1,7 @@
 ---
 UID: NS:wincodec.WICJpegScanHeader
 title: WICJpegScanHeader (wincodec.h)
-description: Represents a JPEG frame header.
+description: Represents a JPEG frame header. (WICJpegScanHeader)
 helpviewer_keywords: ["WICJpegScanHeader","WICJpegScanHeader structure [Windows Imaging Component]","wic.wicjpegscanheader","wincodec/WICJpegScanHeader"]
 old-location: wic\wicjpegscanheader.htm
 tech.root: wic

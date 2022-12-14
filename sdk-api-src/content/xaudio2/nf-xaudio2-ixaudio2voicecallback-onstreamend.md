@@ -52,7 +52,7 @@ api_name:
 
 Called when the voice has just finished playing a contiguous audio stream.
 
-## -parameters
+
 
 ## -remarks
 

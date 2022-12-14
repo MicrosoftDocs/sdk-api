@@ -54,7 +54,7 @@ api_name:
 The <b>StringFormat::GenericDefault</b> method creates a generic, default 
 			<a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object.
 
-## -parameters
+
 
 ## -returns
 

@@ -58,7 +58,7 @@ Contains an image that is stored as metadata for a media source. This structure 
 
 ### -field bPictureType
 
-Specifies the type of image. This member is equivalent to the <b>bPictureType</b> member in the <a href="/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_picture">WM_PICTURE</a> structure.
+Specifies the type of image. This member is equivalent to the <b>bPictureType</b> member in the <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_picture">WM_PICTURE</a> structure.
 
 ### -field dwDataLen
 
@@ -82,7 +82,7 @@ Image data.
 
 </li>
 </ul>
-This format differs from the <a href="/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_picture">WM_PICTURE</a> structure used in the Windows Media Format SDK. The <b>WM_PICTURE</b> structure contains internal pointers to two strings and the image data. If the structure is copied, these pointers become invalid. The <b>ASF_FLAT_PICTURE</b> structure does not contain internal pointers, so it is safe to copy the structure.
+This format differs from the <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_picture">WM_PICTURE</a> structure used in the Windows Media Format SDK. The <b>WM_PICTURE</b> structure contains internal pointers to two strings and the image data. If the structure is copied, these pointers become invalid. The <b>ASF_FLAT_PICTURE</b> structure does not contain internal pointers, so it is safe to copy the structure.
 
 ## -see-also
 

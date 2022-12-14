@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.GetCharWidth32W
 title: GetCharWidth32W function (wingdi.h)
-description: The GetCharWidth32 function retrieves the widths, in logical coordinates, of consecutive characters in a specified range from the current font.
+description: The GetCharWidth32 function retrieves the widths, in logical coordinates, of consecutive characters in a specified range from the current font. (Unicode)
 helpviewer_keywords: ["GetCharWidth32","GetCharWidth32 function [Windows GDI]","GetCharWidth32A","GetCharWidth32W","_win32_GetCharWidth32","gdi.getcharwidth32","wingdi/GetCharWidth32","wingdi/GetCharWidth32A","wingdi/GetCharWidth32W"]
 old-location: gdi\getcharwidth32.htm
 tech.root: gdi

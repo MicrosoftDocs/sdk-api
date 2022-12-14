@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetProhibitedCaretStopCount
 title: IXpsOMGlyphs::GetProhibitedCaretStopCount (xpsobjectmodel.h)
-description: Gets the number of prohibited caret stops.
+description: Gets the number of prohibited caret stops. (IXpsOMGlyphs.GetProhibitedCaretStopCount)
 helpviewer_keywords: ["GetProhibitedCaretStopCount","GetProhibitedCaretStopCount method [XPS Documents and Packaging]","GetProhibitedCaretStopCount method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetProhibitedCaretStopCount method","IXpsOMGlyphs.GetProhibitedCaretStopCount","IXpsOMGlyphs::GetProhibitedCaretStopCount","xps.ixpsomglyphs_getprohibitedcaretstopcount","xpsobjectmodel/IXpsOMGlyphs::GetProhibitedCaretStopCount"]
 old-location: xps\ixpsomglyphs_getprohibitedcaretstopcount.htm
 tech.root: xps

@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsapi32.WTSEnumerateServersW
 title: WTSEnumerateServersW function (wtsapi32.h)
-description: Returns a list of all Remote Desktop Session Host (RD Session Host) servers within the specified domain.
+description: Returns a list of all Remote Desktop Session Host (RD Session Host) servers within the specified domain. (Unicode)
 helpviewer_keywords: ["WTSEnumerateServers","WTSEnumerateServers function [Remote Desktop Services]","WTSEnumerateServersA","WTSEnumerateServersW","termserv.wtsenumerateservers","wtsapi32/WTSEnumerateServers","wtsapi32/WTSEnumerateServersA","wtsapi32/WTSEnumerateServersW"]
 old-location: termserv\wtsenumerateservers.htm
 tech.root: TermServ

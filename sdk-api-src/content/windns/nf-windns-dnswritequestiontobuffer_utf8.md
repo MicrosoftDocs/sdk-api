@@ -1,7 +1,7 @@
 ---
 UID: NF:windns.DnsWriteQuestionToBuffer_UTF8
 title: DnsWriteQuestionToBuffer_UTF8 function (windns.h)
-description: The DnsWriteQuestionToBuffer function type creates a DNS query message and stores it in a DNS_MESSAGE_BUFFER structure.
+description: The DnsWriteQuestionToBuffer function type creates a DNS query message and stores it in a DNS_MESSAGE_BUFFER structure. (DnsWriteQuestionToBuffer_UTF8)
 helpviewer_keywords: ["DnsWriteQuestionToBuffer","DnsWriteQuestionToBuffer_UTF8","DnsWriteQuestionToBuffer_W","DnsWriteQuestionToBuffer_W function [DNS]","_dns_dnswritequestiontobuffer","dns.dnswritequestiontobuffer","windns/DnsWriteQuestionToBuffer_UTF8","windns/DnsWriteQuestionToBuffer_W"]
 old-location: dns\dnswritequestiontobuffer.htm
 tech.root: DNS
@@ -101,7 +101,9 @@ Returns <b>TRUE</b> upon successful execution, otherwise <b>FALSE</b>.
 
 The following declaration for <b>DnsWriteQuestionToBuffer_UTF8</b> can be found in Windns.h.
 
-<pre class="syntax" xml:space="preserve"><code>BOOL
+
+``` syntax
+BOOL
 WINAPI
 DnsWriteQuestionToBuffer_UTF8(
     __inout     PDNS_MESSAGE_BUFFER pDnsBuffer,
@@ -110,7 +112,9 @@ DnsWriteQuestionToBuffer_UTF8(
     __in        WORD                wType,
     __in        WORD                Xid,
     __in        BOOL                fRecursionDesired
-    );</code></pre>
+    );
+```
+
 
 ## -see-also
 

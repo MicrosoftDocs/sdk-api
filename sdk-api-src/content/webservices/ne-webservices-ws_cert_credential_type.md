@@ -55,14 +55,14 @@ subtypes of <a href="/windows/desktop/api/webservices/ns-webservices-ws_cert_cre
 
 ## -enum-fields
 
-### -field WS_SUBJECT_NAME_CERT_CREDENTIAL_TYPE
+### -field WS_SUBJECT_NAME_CERT_CREDENTIAL_TYPE:1
 
 Type id for the certificate credential <a href="/windows/win32/api/webservices/ns-webservices-ws_subject_name_cert_credential">WS_SUBJECT_NAME_CERT_CREDENTIAL</a>.
 
-### -field WS_THUMBPRINT_CERT_CREDENTIAL_TYPE
+### -field WS_THUMBPRINT_CERT_CREDENTIAL_TYPE:2
 
 Type id for the certificate credential <a href="/windows/win32/api/webservices/ns-webservices-ws_thumbprint_cert_credential">WS_THUMBPRINT_CERT_CREDENTIAL</a>.
 
-### -field WS_CUSTOM_CERT_CREDENTIAL_TYPE
+### -field WS_CUSTOM_CERT_CREDENTIAL_TYPE:3
 
 Type id for the certificate credential <a href="/windows/desktop/api/webservices/ns-webservices-ws_custom_cert_credential">WS_CUSTOM_CERT_CREDENTIAL</a>.

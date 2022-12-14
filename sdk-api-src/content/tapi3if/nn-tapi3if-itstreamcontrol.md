@@ -61,56 +61,7 @@ Internal to the TAPI DLL, this interface is implemented by the MSP's call object
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITStreamControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITStreamControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITStreamControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-createstream">CreateStream</a>
-</td>
-<td align="left" width="63%">
-Creates a media stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-enumeratestreams">EnumerateStreams</a>
-</td>
-<td align="left" width="63%">
-Enumerates streams currently available.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-get_streams">get_Streams</a>
-</td>
-<td align="left" width="63%">
-Creates a collection of streams currently available. Provided for Automation client applications, such as those written in Microsoft Visual Basic.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-removestream">RemoveStream</a>
-</td>
-<td align="left" width="63%">
-Removes a media stream.
-
-</td>
-</tr>
-</table>
+The <b>ITStreamControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITStreamControl</b> also has these types of members:
 
 ## -see-also
 

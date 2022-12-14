@@ -57,65 +57,7 @@ Use the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumBackgroundCopyFiles</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumBackgroundCopyFiles</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IEnumBackgroundCopyFiles</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits/nf-bits-ienumbackgroundcopyfiles-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates another enumerator that contains the same enumeration state as the current enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits/nf-bits-ienumbackgroundcopyfiles-getcount">GetCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of items in the enumeration.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits/nf-bits-ienumbackgroundcopyfiles-next">Next</a>
-</td>
-<td align="left" width="63%">
-Retrieves a specified number of items in the enumeration sequence.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits/nf-bits-ienumbackgroundcopyfiles-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumeration sequence to the beginning.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits/nf-bits-ienumbackgroundcopyfiles-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips a specified number of items in the enumeration sequence.
-
-</td>
-</tr>
-</table>
+The <b>IEnumBackgroundCopyFiles</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumBackgroundCopyFiles</b> also has these types of members:
 
 ## -see-also
 

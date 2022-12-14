@@ -56,56 +56,7 @@ The <b>IFECommon</b> interface provides IME-related services that are common for
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFECommon</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFECommon</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IFECommon</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msime/nf-msime-ifecommon-invokedicttooldialog">InvokeDictToolDialog</a>
-</td>
-<td align="left" width="63%">
-Invokes the Microsoft IME's Dictionary Tool from the app.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msime/nf-msime-ifecommon-invokewordregdialog">InvokeWordRegDialog</a>
-</td>
-<td align="left" width="63%">
-Invokes the Microsoft IME Word Register Dialog Window from the app.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msime/nf-msime-ifecommon-isdefaultime">IsDefaultIME</a>
-</td>
-<td align="left" width="63%">
-Determines if the IME specified by the class ID is the default IME on a local computer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msime/nf-msime-ifecommon-setdefaultime">SetDefaultIME</a>
-</td>
-<td align="left" width="63%">
-Allows the Microsoft IME to become the default IME in the keyboard layout.
-
-</td>
-</tr>
-</table>
+The <b>IFECommon</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFECommon</b> also has these types of members:
 
 ## -remarks
 

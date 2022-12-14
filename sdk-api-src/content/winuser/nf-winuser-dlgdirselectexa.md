@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.DlgDirSelectExA
 title: DlgDirSelectExA function (winuser.h)
-description: Retrieves the current selection from a single-selection list box. It assumes that the list box has been filled by the DlgDirList function and that the selection is a drive letter, filename, or directory name.
+description: Retrieves the current selection from a single-selection list box. It assumes that the list box has been filled by the DlgDirList function and that the selection is a drive letter, filename, or directory name. (ANSI)
 helpviewer_keywords: ["DlgDirSelectEx","DlgDirSelectEx function [Windows Controls]","DlgDirSelectExA","DlgDirSelectExW","_win32_DlgDirSelectEx","_win32_DlgDirSelectEx_cpp","controls.DlgDirSelectEx","controls._win32_DlgDirSelectEx","winuser/DlgDirSelectEx","winuser/DlgDirSelectExA","winuser/DlgDirSelectExW"]
 old-location: controls\DlgDirSelectEx.htm
 tech.root: Controls
@@ -101,7 +101,7 @@ If the string is as long or longer than the buffer, the buffer will contain the 
 <b>DlgDirSelectEx</b> sends <a href="/windows/desktop/Controls/lb-getcursel">LB_GETCURSEL</a> and <a href="/windows/desktop/Controls/lb-gettext">LB_GETTEXT</a> messages to the list box. The function does not allow more than one filename to be returned from a list box. The list box must not be a multiple-selection list box. If it is, this function does not return a zero value and 
                 <i>lpString</i> remains unchanged. 
 
-<b>Windows 95 or later</b>: <b>DlgDirSelectExW</b> is supported by the Microsoft Layer for Unicode. To use this, you must add certain files to your application, as outlined in <a href="https://www.microsoft.com/download/details.aspx?id=4237">Microsoft Layer for Unicode on Windows Me/98/95 Systems</a>.
+<b>Windows 95 or later</b>: <b>DlgDirSelectExW</b> is supported by the Microsoft Layer for Unicode. To use this, you must add certain files to your application, as outlined in <a href="/archive/msdn-magazine/2001/october/mslu-develop-unicode-applications-for-windows-9x-platforms-with-the-microsoft-layer-for-unicode">Microsoft Layer for Unicode on Windows Me/98/95 Systems</a>.
 
 
 #### Examples

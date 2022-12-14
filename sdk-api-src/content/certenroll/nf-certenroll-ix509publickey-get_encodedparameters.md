@@ -63,7 +63,9 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-i
 
 The AlgorithmIdentifier <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) object that is referenced by the SubjectPublicKeyInfo object in an <a href="/windows/desktop/SecGloss/x-gly">X.509</a> version 3 certificate contains an algorithm <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and optional parameters.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 SubjectPublicKeyInfo  ::=  SEQUENCE
 {
    algorithm            AlgorithmIdentifier,
@@ -75,7 +77,9 @@ AlgorithmIdentifier  ::=  SEQUENCE
    algorithm            OBJECT IDENTIFIER,
    parameters           ANY DEFINED BY algorithm OPTIONAL  
 }
-</code></pre>
+
+```
+
  The format and content of the parameters differs by algorithm. The <a href="/windows/desktop/SecCrypto/certificate-enrollment-control">Certificate Enrollment Control</a> generates parameter values for various algorithms as required. For more information, see the following sections:<ul>
 <li><b>RSA Public Key Algorithm</b></li>
 <li><b>Key Transport Using RSA-OAEP</b></li>
@@ -87,25 +91,33 @@ AlgorithmIdentifier  ::=  SEQUENCE
 <h3><a id="rsa_public_key_algorithm_cpp"></a><a id="RSA_PUBLIC_KEY_ALGORITHM_CPP"></a>RSA Public Key Algorithm</h3>
  RSA is often used to encrypt a <a href="/windows/desktop/SecGloss/p-gly">private key</a> and send it to a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) for archival. The XCN_OID_RSA_RSA (1.2.840.113549.1.1.1) algorithm OID must have a <b>NULL</b> parameter value. The ASN.1 <b>NULL</b> value is represented by two bytes. The tag number is 0x05 and the value associated with the tag is 0x00. This is shown by the following  certificate example.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 ...
 Public Key Algorithm:
     Algorithm ObjectId: 1.2.840.113549.1.1.1 RSA (RSA_KEYX)
     Algorithm Parameters:
     05 00
 ...
-</code></pre>
+
+```
+
 <h3><a id="key_transport_using_rsa-oaep"></a><a id="KEY_TRANSPORT_USING_RSA-OAEP"></a>Key Transport Using RSA-OAEP</h3>
 The RSA-OAEP algorithm, XCN_OID_RSAES_OAEP (1.2.840.113549.1.1.7), is also supported for key transport. The parameters field has the following syntax.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 RSAES-OAEP-params  ::=  SEQUENCE  
 {
    hashFunc    [0] AlgorithmIdentifier DEFAULT sha1OID,
    maskGenFunc [1] AlgorithmIdentifier DEFAULT mgf1SHA1OID,
    pSourceFunc [2] AlgorithmIdentifier DEFAULT pSpecifiedEmptyOID
 }
-</code></pre>
+
+```
+
 <h3><a id="key_agreement_using_ecdh"></a><a id="KEY_AGREEMENT_USING_ECDH"></a>Key Agreement Using ECDH</h3>
 The single pass Elliptic Curve Diffie-Hellman algorithm, XCN_OID_DH_SINGLE_PASS_STDDH_SHA1_KDF (1.3.133.16.840.63.0.2), is supported for key agreement. Key agreement uses two levels of encryption:<ul>
 <li>The message is encrypted by using a content encryption key (CEK) and a <a href="/windows/desktop/SecGloss/s-gly">symmetric encryption</a> algorithm.</li>
@@ -126,9 +138,13 @@ The Advanced Encryption Standard (AES) is used to encrypt content. The following
 <li>XCN_OID_NIST_AES256_CBC        (2.16.840.1.101.3.4.1.42)</li>
 </ul>The parameters field contains a random initialization vector, AES-IV.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 AES-IV ::= OCTET STRING (SIZE(16))
-</code></pre>
+
+```
+
 
 ## -see-also
 

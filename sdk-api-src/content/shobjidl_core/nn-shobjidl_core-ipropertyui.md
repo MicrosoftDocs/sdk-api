@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IPropertyUI
 title: IPropertyUI (shobjidl_core.h)
-description: Developers should use IPropertyDescription instead.
+description: Developers should use IPropertyDescription instead. (IPropertyUI)
 helpviewer_keywords: ["IPropertyUI","IPropertyUI interface [Windows Properties]","IPropertyUI interface [Windows Properties]","described","_shell_IPropertyUI","properties.IPropertyUI","shell.IPropertyUI","shobjidl_core/IPropertyUI"]
 old-location: properties\IPropertyUI.htm
 tech.root: properties
@@ -54,89 +54,5 @@ Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-iproperty
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyUI</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyUI</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPropertyUI</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyUI</b> also has these types of members:
 
-## -members
-
-The <b>IPropertyUI</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescription-formatfordisplay">FormatForDisplay</a>
-</td>
-<td align="left" width="63%">
-Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a> instead. Gets a formatted, Unicode string representation of a property value.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescription-getcanonicalname">GetCanonicalName</a>
-</td>
-<td align="left" width="63%">
-Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a> instead. Gets the canonical name of the property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipropertyui-getdefaultwidth">GetDefaultWidth</a>
-</td>
-<td align="left" width="63%">
-Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a> instead. Gets the width of the property description.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/oe/oe-imimebody-getdisplayname">GetDisplayName</a>
-</td>
-<td align="left" width="63%">
-Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a> instead. Gets a string specifying the name of the property suitable for display to users.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getflags">GetFlags</a>
-</td>
-<td align="left" width="63%">
-Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a> instead. Gets property feature flags for a specified property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipropertyui-gethelpinfo">GetHelpInfo</a>
-</td>
-<td align="left" width="63%">
-Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a> instead. Gets
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipropertysystem-getpropertydescription">GetPropertyDescription</a>
-</td>
-<td align="left" width="63%">
-Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a> instead. Gets the property description of a specified property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipropertyui-parsepropertyname">ParsePropertyName</a>
-</td>
-<td align="left" width="63%">
-Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a> instead. Reads the characters of the specified property name and identifies the FMTID and PROPID of the property.
-
-</td>
-</tr>
-</table>

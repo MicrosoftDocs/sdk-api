@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreACP.InsertEmbedded
 title: ITextStoreACP::InsertEmbedded (textstor.h)
-description: Inserts an embedded object at the specified character.
+description: Inserts an embedded object at the specified character. (ITextStoreACP.InsertEmbedded)
 helpviewer_keywords: ["ITextStoreACP interface [Text Services Framework]","InsertEmbedded method","ITextStoreACP.InsertEmbedded","ITextStoreACP::InsertEmbedded","InsertEmbedded","InsertEmbedded method [Text Services Framework]","InsertEmbedded method [Text Services Framework]","ITextStoreACP interface","_tsf_itextstoreacp_insertembedded_ref","textstor/ITextStoreACP::InsertEmbedded","tsf.itextstoreacp_insertembedded"]
 old-location: tsf\itextstoreacp_insertembedded.htm
 tech.root: TSF

@@ -1,7 +1,7 @@
 ---
 UID: NF:ntdsapi.DsListServersInSiteW
 title: DsListServersInSiteW function (ntdsapi.h)
-description: Lists all the servers in a site.
+description: Lists all the servers in a site. (Unicode)
 helpviewer_keywords: ["DsListServersInSite","DsListServersInSite function [Active Directory]","DsListServersInSiteA","DsListServersInSiteW","_glines_dslistserversinsite","ad.dslistserversinsite","ntdsapi/DsListServersInSite","ntdsapi/DsListServersInSiteA","ntdsapi/DsListServersInSiteW"]
 old-location: ad\dslistserversinsite.htm
 tech.root: ad

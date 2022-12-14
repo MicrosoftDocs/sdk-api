@@ -45,10 +45,6 @@ api_name:
  - IDMLObject
 ---
 
-# IDMLObject interface
-
-
 ## -description
 
-An interface from which [IDMLDevice](/windows/desktop/api/directml/nn-directml-idmldevice) and [IDMLDeviceChild](/windows/desktop/api/directml/nn-directml-idmldevicechild) inherit directly (and all other interfaces, indirectly). Consequently, it provides methods common to all DirectML interfaces, specifically methods to associate private data, and to annotate object names. The <b>IDMLObject</b> interface inherits from the [IUnknown](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.
-
+An interface from which [IDMLDevice](/windows/win32/api/directml/nn-directml-idmldevice) and [IDMLDeviceChild](/windows/win32/api/directml/nn-directml-idmldevicechild) inherit directly (and all other interfaces, indirectly). Consequently, it provides methods common to all DirectML interfaces, specifically methods to associate private data, and to annotate object names. The <b>IDMLObject</b> interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.

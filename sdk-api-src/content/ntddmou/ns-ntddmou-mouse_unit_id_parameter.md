@@ -60,7 +60,7 @@ MOUSE_UNIT_ID_PARAMETER specifies a unit ID that Mouclass assigns to a mouse.
 
 ### -field UnitId
 
-Specifies the unit number of the mouse device. A mouse <a href="/windows-hardware/drivers/kernel/nt-device-names">device name</a> has the format \Device\PointerPort<i>N</i>, where the suffix <i>N </i>is the unit number of the device. For example, a device, whose name is \Device\PointerPort0, has a unit number of zero, and a device, whose name is \Device\PointerPort1, has a unit number of one.
+Specifies the unit number of the mouse device. A mouse <a href="/windows-hardware/drivers/kernel/nt-device-names">device name</a> has the format \Device\PointerPort<i>N</i>, where the suffix <i>N </i> is the unit number of the device. For example, a device, whose name is \Device\PointerPort0, has a unit number of zero, and a device, whose name is \Device\PointerPort1, has a unit number of one.
 
 ## -remarks
 

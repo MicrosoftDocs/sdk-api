@@ -56,47 +56,7 @@ This interface is implemented by the client program  to support asynchronous que
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFunctionDiscoveryNotification</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFunctionDiscoveryNotification</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IFunctionDiscoveryNotification</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onerror">OnError</a>
-</td>
-<td align="left" width="63%">
-Receives errors that occur during asynchronous query processing.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onevent">OnEvent</a>
-</td>
-<td align="left" width="63%">
-Receives any add, remove, or update events.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onupdate">OnUpdate</a>
-</td>
-<td align="left" width="63%">
-Indicates that a function instance has been added, removed, or changed.
-
-</td>
-</tr>
-</table>
+The <b>IFunctionDiscoveryNotification</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFunctionDiscoveryNotification</b> also has these types of members:
 
 ## -remarks
 
@@ -111,7 +71,9 @@ This interface must be implemented by the client program in order to receive not
 
 The examples that appear on individual method pages are based on the following class declaration.
 
-<pre class="syntax" xml:space="preserve"><code>class CMyNotificationListener : public CFunctionDiscoveryNotificationWrapper
+
+``` syntax
+class CMyNotificationListener : public CFunctionDiscoveryNotificationWrapper
 {
 public:
     CMyNotificationListener() {
@@ -130,4 +92,6 @@ public:
 private:
     HANDLE m_hAddEvent, m_hRemoveEvent, m_hChangeEvent;
 };
-</code></pre>
+
+```
+

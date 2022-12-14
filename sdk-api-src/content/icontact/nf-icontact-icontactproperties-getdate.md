@@ -104,7 +104,7 @@ Returns one of the following values:
 </td>
 <td width="60%">
 The property has been present in the past but its value has been removed. 
-					The <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> has been zero'ed. 
+					The <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> has been zeroed. 
 
 </td>
 </tr>

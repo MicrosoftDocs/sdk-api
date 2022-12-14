@@ -79,7 +79,7 @@ Type: <b>WCHAR[256]</b>
 
 A Unicode character array that contains the text name associated with the multicast scope. The name should be suitable for display to multicast application users.
 
-If no name is specified, the default name is the string representation of the scoped address in <b>dwGroupAddress</b> with the address and mask length appended and separated by a backslash "/" character, of the form "239.*.*.*.x/y", where <b>x</b> is the address length and<b> y</b> is the mask length.
+If no name is specified, the default name is the string representation of the scoped address in <b>dwGroupAddress</b> with the address and mask length appended and separated by a slash "/" character, of the form "239.*.*.*.x/y", where <b>x</b> is the address length and <b>y</b> is the mask length.
 
 ### -field dwStatus
 

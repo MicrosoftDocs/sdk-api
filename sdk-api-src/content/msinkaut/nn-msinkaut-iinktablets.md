@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkTablets
 title: IInkTablets (msinkaut.h)
-description: .
+description: . (IInkTablets)
 helpviewer_keywords: ["IInkTablets","IInkTablets interface [Tablet PC]","IInkTablets interface [Tablet PC]","described","msinkaut/IInkTablets","tablet.iinktablets"]
 old-location: tablet\iinktablets.htm
 tech.root: tablet
@@ -54,79 +54,7 @@ Represents the object used to capture ink from available tablet devices.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkTablets</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkTablets</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
-
-## -members
-
-The <b>IInkTablets</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-ispacketpropertysupported">IsPacketPropertySupported</a>
-</td>
-<td align="left" width="63%">
-Determines whether a property of a tablet device or a collection of tablet devices, identified with a globally unique identifier (GUID), is supported. For example, use this method to determine if all of the tablets in a collection support tangential pressure from a pen.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-item">Item</a>
-</td>
-<td align="left" width="63%">
-Retrieves the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet</a> object at the specified index within the <a href="/previous-versions/windows/desktop/legacy/ms704832(v=vs.85)">InkTablets</a> collection.
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkTablets</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="10%">Access type</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-get_count">Count</a>
-
-
-</td>
-<td align="left" width="10%">
-Read-only
-
-</td>
-<td align="left" width="63%">
-Gets the number of objects or collections contained in a collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinktablets-get_defaulttablet">DefaultTablet</a>
-
-
-</td>
-<td align="left" width="10%">
-Read-only
-
-</td>
-<td align="left" width="63%">
-Gets the default tablet within the set of available tablets.
-
-</td>
-</tr>
-</table>
+The <b>IInkTablets</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkTablets</b> also has these types of members:
 
 ## -remarks
 

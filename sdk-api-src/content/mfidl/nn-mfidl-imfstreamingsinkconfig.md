@@ -54,29 +54,7 @@ Passes configuration information to the media sinks that are used for streaming 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFStreamingSinkConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFStreamingSinkConfig</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFStreamingSinkConfig</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfstreamingsinkconfig-startstreaming">StartStreaming</a>
-</td>
-<td align="left" width="63%">
-Called by the streaming media client before the Media Session starts streaming to specify the byte offset or the time offset.
-
-</td>
-</tr>
-</table>
+The <b>IMFStreamingSinkConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFStreamingSinkConfig</b> also has these types of members:
 
 ## -see-also
 

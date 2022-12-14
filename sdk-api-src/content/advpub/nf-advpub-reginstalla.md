@@ -1,7 +1,7 @@
 ---
 UID: NF:advpub.RegInstallA
 title: RegInstallA function (advpub.h)
-description: Updates the string registry values in the provided table.
+description: Updates the string registry values in the provided table. (ANSI)
 helpviewer_keywords: ["RegInstallA","RegInstallA function [Windows API]","advpub/RegInstallA","winprog.reginstalla"]
 old-location: winprog\reginstalla.htm
 tech.root: winprog

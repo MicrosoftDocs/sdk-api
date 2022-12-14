@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory3.CreateFontSetBuilder
 title: IDWriteFactory3::CreateFontSetBuilder (dwrite_3.h)
-description: Creates an empty font set builder to add font face references and create a custom font set.
+description: Creates an empty font set builder to add font face references and create a custom font set. (IDWriteFactory3.CreateFontSetBuilder)
 helpviewer_keywords: ["CreateFontSetBuilder","CreateFontSetBuilder method [Direct Write]","CreateFontSetBuilder method [Direct Write]","IDWriteFactory3 interface","IDWriteFactory3 interface [Direct Write]","CreateFontSetBuilder method","IDWriteFactory3.CreateFontSetBuilder","IDWriteFactory3::CreateFontSetBuilder","directwrite.idwritefactory3_createfontsetbuilder","dwrite_3/IDWriteFactory3::CreateFontSetBuilder"]
 old-location: directwrite\idwritefactory3_createfontsetbuilder.htm
 tech.root: DirectWrite
@@ -65,7 +65,7 @@ Holds the newly created font set builder object, or NULL in case of failure.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

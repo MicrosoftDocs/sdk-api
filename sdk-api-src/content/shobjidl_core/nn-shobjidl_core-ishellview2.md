@@ -54,56 +54,7 @@ Extends the capabilities of <a href="/windows/desktop/api/shobjidl_core/nn-shobj
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellView2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>. <b>IShellView2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IShellView2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-createviewwindow2">CreateViewWindow2</a>
-</td>
-<td align="left" width="63%">
-Used to request the creation of a new Shell view window. It can be either the right pane of Windows Explorer or the client window of a folder window.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-getview">GetView</a>
-</td>
-<td align="left" width="63%">
-Requests the current or default Shell view, together with all other valid view identifiers (VIDs) supported by this implementation of <b>IShellView2</b>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-handlerename">HandleRename</a>
-</td>
-<td align="left" width="63%">
-Used to change an item's identifier.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-selectandpositionitem">SelectAndPositionItem</a>
-</td>
-<td align="left" width="63%">
-Selects and positions an item in a Shell View.
-
-</td>
-</tr>
-</table>
+The <b>IShellView2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>. <b>IShellView2</b> also has these types of members:
 
 ## -remarks
 

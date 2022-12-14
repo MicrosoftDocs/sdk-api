@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a> API.
 ]
 
 Specifies the accuracy to be used.
@@ -61,7 +61,7 @@ Specifies the accuracy to be used.
 
 <b>REFIID</b> that specifies the report type for which to set the accuracy to be used.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 <a href="/previous-versions/windows/desktop/legacy/dd756639(v=vs.85)">LOCATION_DESIRED_ACCURACY</a> value that specifies the accuracy to be used.
 

@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.author: windowssdkdev
 ms.date: 10/21/2019
 ms.keywords: _NL_NETWORK_CONNECTIVITY_COST_HINT, NL_NETWORK_CONNECTIVITY_COST_HINT
-ms.topic: enum
 req.header: nldef.h
 req.include-header: iphlpapi.h
 req.target-type: Windows
@@ -53,7 +52,7 @@ Defines constants that specify hints about the usage charge for a network connec
 
 ## -enum-fields
 
-### -field NetworkConnectivityCostHintUnknown
+### -field NetworkConnectivityCostHintUnknown:0
 
 Specifies a hint that cost information is not available.
 

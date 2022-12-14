@@ -95,7 +95,9 @@ Although this method accepts credentials passed via parameter, these credentials
 
 #### Examples
 
-<pre class="syntax" xml:space="preserve"><code>//
+
+``` syntax
+//
 // Create and initialize an IXMLHTTPRequest2 object
 //
 hr = CoCreateInstance(CLSID_FreeThreadedXMLHTTP60,
@@ -121,7 +123,9 @@ hr = spXHR-&gt;Open(L"GET",              // Method.
 //
 hr = spXHR-&gt;Send(NULL, 0);
 
-hr = spXhrCallback-&gt;WaitForComplete(&amp;dwStatus);</code></pre>
+hr = spXhrCallback-&gt;WaitForComplete(&amp;dwStatus);
+```
+
 For the complete examples, see the <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/XmlHttpRequest2GetRequest">XML HTTP Request 2 GET  sample</a> and  <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/XmlHttpRequest2PostRequest">XML HTTP Request 2 POST  sample</a>.
 
 ## -see-also

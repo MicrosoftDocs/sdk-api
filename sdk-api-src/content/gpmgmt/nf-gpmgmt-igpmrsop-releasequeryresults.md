@@ -55,7 +55,7 @@ Releases the WMI namespace allocated by calls to the
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmrsop-createqueryresults">IGPMRSOP::CreateQueryResults</a> method and by calls to the 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-getrsop">IGPM::GetRSOP</a> method.
 
-## -parameters
+
 
 ## -returns
 

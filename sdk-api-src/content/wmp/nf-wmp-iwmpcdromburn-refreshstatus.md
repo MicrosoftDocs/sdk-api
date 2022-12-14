@@ -52,7 +52,7 @@ api_name:
 
 The <b>refreshStatus</b> method updates the status information for the current burn playlist.
 
-## -parameters
+
 
 ## -returns
 

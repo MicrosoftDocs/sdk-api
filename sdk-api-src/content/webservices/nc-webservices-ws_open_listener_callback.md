@@ -55,21 +55,21 @@ Handles the <a href="/windows/desktop/api/webservices/nf-webservices-wsopenliste
 
 ## -parameters
 
-### -param *listenerInstance [in]
+### -param listenerInstance [in]
 
 The pointer to the state specific to this listener instance,
                     as created by the <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_listener_callback">WS_CREATE_LISTENER_CALLBACK</a>.
 
-### -param *url [in]
+### -param url [in]
 
 The URL to listen on.  The format and interpretation of the URL
                     is defined by the custom listener.
 
-### -param *asyncContext [in, optional]
+### -param asyncContext [in, optional]
 
 Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 

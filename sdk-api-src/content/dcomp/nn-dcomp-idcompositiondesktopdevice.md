@@ -54,47 +54,7 @@ An application must use the IDCompositionDesktopDevice interface in order to use
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionDesktopDevice</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice2">IDCompositionDevice2</a>. <b>IDCompositionDesktopDevice</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDCompositionDesktopDevice</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondesktopdevice-createsurfacefromhandle">CreateSurfaceFromHandle</a>
-</td>
-<td align="left" width="63%">
-Creates a new composition surface object that wraps an existing composition surface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondesktopdevice-createsurfacefromhwnd">CreateSurfaceFromHwnd</a>
-</td>
-<td align="left" width="63%">
-Creates a wrapper object that represents the rasterization of a layered window, and that can be associated with a visual for composition.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondesktopdevice-createtargetforhwnd">CreateTargetForHwnd</a>
-</td>
-<td align="left" width="63%">
-Creates a composition target object that is bound to the window that is represented by the specified window handle.
-
-</td>
-</tr>
-</table>
+The <b>IDCompositionDesktopDevice</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice2">IDCompositionDevice2</a>. <b>IDCompositionDesktopDevice</b> also has these types of members:
 
 ## -see-also
 

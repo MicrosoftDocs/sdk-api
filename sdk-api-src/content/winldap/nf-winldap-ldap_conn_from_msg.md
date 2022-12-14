@@ -57,7 +57,7 @@ The <b>ldap_conn_from_msg</b> function returns the <a href="/windows/desktop/api
 ### -param PrimaryConn [in]
 
 A pointer to the <a href="/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> session handle of the message, if known. If the <b>LDAP</b> session handle for the message is unknown, then <b>NULL</b> may be passed for this parameter provided that the 
-<a href="/windows/desktop/ldap/session-options">LDAP_OPT_REF_DEREF_CONN_PER_MSG</a> session option had been previously set for the message session.
+<a href="/previous-versions/windows/desktop/ldap/session-options">LDAP_OPT_REF_DEREF_CONN_PER_MSG</a> session option had been previously set for the message session.
 
 ### -param res [in]
 
@@ -65,7 +65,7 @@ The <b>LDAP</b> message queried.  If <b>NULL</b> is passed for this parameter, t
 
 ## -returns
 
-The return value is the <a href="/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> session handle (connection pointer) where the message originated from. This function returns <b>NULL</b> if the originating session has closed or if a <b>NULL</b> <b>LDAPMessage</b> pointer is passed to the function and the <a href="/windows/desktop/ldap/session-options">LDAP_OPT_REF_DEREF_CONN_PER_MSG</a> session option was not previously set for the message session.
+The return value is the <a href="/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> session handle (connection pointer) where the message originated from. This function returns <b>NULL</b> if the originating session has closed or if a <b>NULL</b> <b>LDAPMessage</b> pointer is passed to the function and the <a href="/previous-versions/windows/desktop/ldap/session-options">LDAP_OPT_REF_DEREF_CONN_PER_MSG</a> session option was not previously set for the message session.
 
 ## -remarks
 

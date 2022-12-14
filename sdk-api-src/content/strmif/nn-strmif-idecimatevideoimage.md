@@ -59,35 +59,5 @@ Decoder filters that can decimate their video output should support this interfa
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDecimateVideoImage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDecimateVideoImage</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDecimateVideoImage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDecimateVideoImage</b> also has these types of members:
 
-## -members
-
-The <b>IDecimateVideoImage</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-idecimatevideoimage-resetdecimationimagesize">ResetDecimationImageSize</a>
-</td>
-<td align="left" width="63%">
-Specifies that the decoder should no longer decimate its output image.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-idecimatevideoimage-setdecimationimagesize">SetDecimationImageSize</a>
-</td>
-<td align="left" width="63%">
-Specifies the dimensions to which the decoder should decimate its output image.
-
-</td>
-</tr>
-</table>

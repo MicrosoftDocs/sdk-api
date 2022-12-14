@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 The <b>SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS</b> structure checks if any certificates in the chain have weak  cryptography and checks if a third party root certificate is compliant with the Microsoft Root Program requirements. An error string will be provided if either condition is not met.
 

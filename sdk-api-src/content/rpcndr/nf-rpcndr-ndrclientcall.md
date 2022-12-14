@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -40,7 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - RpcRT4.dll
+ - Rpcrt4.dll
 api_name:
  - NdrClientCall
 ---
@@ -62,7 +62,7 @@ Pointer to the MIDL-generated <a href="/windows/desktop/api/rpcndr/ns-rpcndr-mid
 
 Pointer to the MIDL-generated procedure format string that describes the method and parameters.
 
-### -param arg3 [in, out]
+### -param ...
 
 Pointer to the client-side calling stack.
 
@@ -83,3 +83,4 @@ The <b>NdrClientCall</b> function is used by the <a href="/windows/desktop/Midl/
 
 
 <a href="/windows/desktop/Midl/-robust">/robust</a>
+

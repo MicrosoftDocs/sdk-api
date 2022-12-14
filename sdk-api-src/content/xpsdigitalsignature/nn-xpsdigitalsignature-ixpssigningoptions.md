@@ -47,17 +47,13 @@ api_name:
 
 # IXpsSigningOptions interface
 
-
 ## -description
 
 Provides access to the individual signing options that are used by new signatures.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsSigningOptions</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsSigningOptions</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IXpsSigningOptions</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsSigningOptions</b> also has these types of members:
 
 ## -members
 
@@ -69,37 +65,34 @@ The <b>IXpsSigningOptions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getcertificateset">GetCertificateSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getcertificateset">GetCertificateSet</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopccertificateset">IOpcCertificateSet</a> interface, which can be used to add additional certificates to the signature.
-            
+Gets an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopccertificateset">IOpcCertificateSet</a> interface, which can be used to add additional certificates to the signature.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getcustomobjects">GetCustomObjects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getcustomobjects">GetCustomObjects</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to an <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturecustomobjectset">IOpcSignatureCustomObjectSet</a> interface that contains a set of signature custom objects.
-            
+Gets a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturecustomobjectset">IOpcSignatureCustomObjectSet</a> interface that contains a set of signature custom objects.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getcustomreferences">GetCustomReferences</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getcustomreferences">GetCustomReferences</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to an <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturereferenceset">IOpcSignatureReferenceSet</a> interface, which contains a set of signature custom references.
-            
+Gets a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturereferenceset">IOpcSignatureReferenceSet</a> interface, which contains a set of signature custom references.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getdigestmethod">GetDigestMethod</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getdigestmethod">GetDigestMethod</a>
 </td>
 <td align="left" width="63%">
 Gets the current digest method.
@@ -108,36 +101,34 @@ Gets the current digest method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getflags">GetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getflags">GetFlags</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_flags">XPS_SIGN_FLAGS</a> value that specifies the signing flags to be used for this signature.
+Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_flags">XPS_SIGN_FLAGS</a> value that specifies the signing flags to be used for this signature.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getpolicy">GetPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getpolicy">GetPolicy</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value that specifies the signing policy.
-            
+Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value that specifies the signing policy.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getsignatureid">GetSignatureId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getsignatureid">GetSignatureId</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the <b>Id</b> attribute of the <b>Signature</b> element.
-            
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getsignaturemethod">GetSignatureMethod</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getsignaturemethod">GetSignatureMethod</a>
 </td>
 <td align="left" width="63%">
 Gets the signature method.
@@ -146,7 +137,7 @@ Gets the signature method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getsignaturepartname">GetSignaturePartName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getsignaturepartname">GetSignaturePartName</a>
 </td>
 <td align="left" width="63%">
 Gets the part name of the document's signature part.
@@ -155,7 +146,7 @@ Gets the part name of the document's signature part.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getsigningtimeformat">GetSigningTimeFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getsigningtimeformat">GetSigningTimeFormat</a>
 </td>
 <td align="left" width="63%">
 Gets the format of the signing time string.
@@ -164,7 +155,7 @@ Gets the format of the signing time string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setdigestmethod">SetDigestMethod</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setdigestmethod">SetDigestMethod</a>
 </td>
 <td align="left" width="63%">
 Sets the URI of the digest method.
@@ -173,37 +164,34 @@ Sets the URI of the digest method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setflags">SetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setflags">SetFlags</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_flags">XPS_SIGN_FLAGS</a> value that specifies the signing flags to use for this signature.
-            
+Sets the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_flags">XPS_SIGN_FLAGS</a> value that specifies the signing flags to use for this signature.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setpolicy">SetPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setpolicy">SetPolicy</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value that represents the signing policy.
-            
+Sets the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value that represents the signing policy.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setsignatureid">SetSignatureId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setsignatureid">SetSignatureId</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the <b>Id</b> attribute of the <b>Signature</b> element.
-            
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setsignaturemethod">SetSignatureMethod</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setsignaturemethod">SetSignatureMethod</a>
 </td>
 <td align="left" width="63%">
 Sets the signature method.
@@ -212,7 +200,7 @@ Sets the signature method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setsignaturepartname">SetSignaturePartName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setsignaturepartname">SetSignaturePartName</a>
 </td>
 <td align="left" width="63%">
 Sets the part name of the document's signature part.
@@ -221,7 +209,170 @@ Sets the part name of the document's signature part.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setsigningtimeformat">SetSigningTimeFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setsigningtimeformat">SetSigningTimeFormat</a>
+</td>
+<td align="left" width="63%">
+Sets the format of the signing time string.
+
+</td>
+</tr>
+</table>
+
+## -members
+
+The <b>IXpsSigningOptions</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getcertificateset">GetCertificateSet</a>
+</td>
+<td align="left" width="63%">
+Gets an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopccertificateset">IOpcCertificateSet</a> interface, which can be used to add additional certificates to the signature.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getcustomobjects">GetCustomObjects</a>
+</td>
+<td align="left" width="63%">
+Gets a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturecustomobjectset">IOpcSignatureCustomObjectSet</a> interface that contains a set of signature custom objects.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getcustomreferences">GetCustomReferences</a>
+</td>
+<td align="left" width="63%">
+Gets a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturereferenceset">IOpcSignatureReferenceSet</a> interface, which contains a set of signature custom references.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getdigestmethod">GetDigestMethod</a>
+</td>
+<td align="left" width="63%">
+Gets the current digest method.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getflags">GetFlags</a>
+</td>
+<td align="left" width="63%">
+Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_flags">XPS_SIGN_FLAGS</a> value that specifies the signing flags to be used for this signature.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getpolicy">GetPolicy</a>
+</td>
+<td align="left" width="63%">
+Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value that specifies the signing policy.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getsignatureid">GetSignatureId</a>
+</td>
+<td align="left" width="63%">
+Gets the value of the <b>Id</b> attribute of the <b>Signature</b> element.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getsignaturemethod">GetSignatureMethod</a>
+</td>
+<td align="left" width="63%">
+Gets the signature method.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getsignaturepartname">GetSignaturePartName</a>
+</td>
+<td align="left" width="63%">
+Gets the part name of the document's signature part.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getsigningtimeformat">GetSigningTimeFormat</a>
+</td>
+<td align="left" width="63%">
+Gets the format of the signing time string.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setdigestmethod">SetDigestMethod</a>
+</td>
+<td align="left" width="63%">
+Sets the URI of the digest method.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setflags">SetFlags</a>
+</td>
+<td align="left" width="63%">
+Sets the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_flags">XPS_SIGN_FLAGS</a> value that specifies the signing flags to use for this signature.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setpolicy">SetPolicy</a>
+</td>
+<td align="left" width="63%">
+Sets the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value that represents the signing policy.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setsignatureid">SetSignatureId</a>
+</td>
+<td align="left" width="63%">
+Sets the value of the <b>Id</b> attribute of the <b>Signature</b> element.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setsignaturemethod">SetSignatureMethod</a>
+</td>
+<td align="left" width="63%">
+Sets the signature method.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setsignaturepartname">SetSignaturePartName</a>
+</td>
+<td align="left" width="63%">
+Sets the part name of the document's signature part.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setsigningtimeformat">SetSigningTimeFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the format of the signing time string.

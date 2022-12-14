@@ -138,7 +138,7 @@ hRes = OleLoad(pStgChild, &IID_IOleObject, pClientSite, ppvObj);
 
 
 
-<a href="/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a>
+<a href="/windows/win32/api/objidl/ns-objidl-ustgmedium-r1">STGMEDIUM</a>
 
 
 

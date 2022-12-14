@@ -1,15 +1,12 @@
 ---
 UID: NF:pathcch.PathCchIsRoot
 title: PathCchIsRoot function (pathcch.h)
-author: windows-sdk-content
 description: Determines whether a path string refers to the root of a volume.This function differs from PathIsRoot in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
 old-location: shell\PathCchIsRoot.htm
 tech.root: shell
 ms.assetid: b9770030-b298-47f8-98a7-3ce9b4d44dd1
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathCchIsRoot, PathCchIsRoot function [Windows Shell], pathcch/PathCchIsRoot, shell.PathCchIsRoot
-ms.topic: function
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -27,7 +24,6 @@ req.type-library:
 req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

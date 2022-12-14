@@ -1,7 +1,7 @@
 ---
 UID: NF:ntdsapi.DsBindWithCredW
 title: DsBindWithCredW function (ntdsapi.h)
-description: Binds to a domain controller using the specified credentials.
+description: Binds to a domain controller using the specified credentials. (Unicode)
 helpviewer_keywords: ["DsBindWithCred","DsBindWithCred function [Active Directory]","DsBindWithCredA","DsBindWithCredW","_glines_dsbindwithcred","ad.dsbindwithcred","ntdsapi/DsBindWithCred","ntdsapi/DsBindWithCredA","ntdsapi/DsBindWithCredW"]
 old-location: ad\dsbindwithcred.htm
 tech.root: ad
@@ -71,7 +71,7 @@ This parameter is required to secure a Kerberos authentication.
 
 Contains an <a href="/windows/desktop/Rpc/rpc-auth-identity-handle">RPC_AUTH_IDENTITY_HANDLE</a> value that represents the credentials to be used for the bind. The 
     
-<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmakepasswordcredentialsa">DsMakePasswordCredentials</a>function is used to obtain this value. If this parameter is <b>NULL</b>,
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmakepasswordcredentialsa">DsMakePasswordCredentials</a> function is used to obtain this value. If this parameter is <b>NULL</b>,
     the credentials of the calling thread are used.
 
 

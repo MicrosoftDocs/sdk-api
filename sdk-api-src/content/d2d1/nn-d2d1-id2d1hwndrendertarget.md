@@ -54,46 +54,10 @@ Renders drawing instructions to a window.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1HwndRenderTarget</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>. <b>ID2D1HwndRenderTarget</b> also has these types of members:
+The <b>ID2D1HwndRenderTarget</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>. <b>ID2D1HwndRenderTarget</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ID2D1HwndRenderTarget</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1hwndrendertarget-checkwindowstate">CheckWindowState</a>
-</td>
-<td align="left" width="63%">
-Indicates whether the HWND associated with this render target is occluded.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1hwndrendertarget-gethwnd">GetHwnd</a>
-</td>
-<td align="left" width="63%">
-Returns the HWND associated with this render target.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1hwndrendertarget-resize(constd2d1_size_u)">Resize</a>
-</td>
-<td align="left" width="63%">Overloaded. Changes the size of the render target to the specified pixel size.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

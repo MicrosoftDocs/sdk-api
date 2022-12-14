@@ -51,7 +51,7 @@ The <i>DdGetDriverInfo</i> function queries the driver for additional DirectDraw
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a> structure that contains the information required to perform the query.
 

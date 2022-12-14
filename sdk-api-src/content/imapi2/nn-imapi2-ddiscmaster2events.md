@@ -54,38 +54,7 @@ Implement this interface to receive notification when a CD or DVD device is adde
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">DDiscMaster2Events</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>DDiscMaster2Events</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>DDiscMaster2Events</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-ddiscmaster2events-notifydeviceadded">NotifyDeviceAdded</a>
-</td>
-<td align="left" width="63%">
-Receives notification when an optical media device is added to the computer. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-ddiscmaster2events-notifydeviceremoved">NotifyDeviceRemoved</a>
-</td>
-<td align="left" width="63%">
-Receives notification when an optical media device is removed from the computer. 
-
-</td>
-</tr>
-</table>
+The <b>DDiscMaster2Events</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>DDiscMaster2Events</b> also has these types of members:
 
 ## -see-also
 

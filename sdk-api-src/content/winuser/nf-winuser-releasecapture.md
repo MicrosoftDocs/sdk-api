@@ -46,6 +46,7 @@ api_location:
  - ie_stubs.dll
 api_name:
  - ReleaseCapture
+req.apiset: ext-ms-win-ntuser-mouse-l1-1-0 (introduced in Windows 8)
 ---
 
 # ReleaseCapture function
@@ -55,7 +56,7 @@ api_name:
 
 Releases the mouse capture from a window in the current thread and restores normal mouse input processing. A window that has captured the mouse receives all mouse input, regardless of the position of the cursor, except when a mouse button is clicked while the cursor hot spot is in the window of another thread.
 
-## -parameters
+
 
 ## -returns
 

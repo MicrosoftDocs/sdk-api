@@ -53,7 +53,7 @@ api_name:
 
 Removes all the records and files from the cache.
 
-## -parameters
+
 
 ## -returns
 

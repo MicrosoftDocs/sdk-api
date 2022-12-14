@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.UpdateResourceA
 title: UpdateResourceA function (winbase.h)
-description: Adds, deletes, or replaces a resource in a portable executable (PE) file.
+description: Adds, deletes, or replaces a resource in a portable executable (PE) file. (ANSI)
 helpviewer_keywords: ["UpdateResource","UpdateResource function [Menus and Other Resources]","UpdateResourceA","UpdateResourceW","_win32_UpdateResource","_win32_updateresource_cpp","menurc.updateresource","winbase/UpdateResource","winbase/UpdateResourceA","winbase/UpdateResourceW","winui._win32_updateresource"]
 old-location: menurc\updateresource.htm
 tech.root: menurc
@@ -66,9 +66,7 @@ A module handle returned by the <a href="/windows/desktop/api/winbase/nf-winbase
 
 Type: <b>LPCTSTR</b>
 
-The resource type to be updated. Alternatively, rather than a pointer, this parameter can be <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. If the first character of the string is a pound sign (#), then the remaining characters represent a 
-
-decimal number that specifies the integer identifier of the resource type. For example, the string "#258" represents the identifier 258. 
+The resource type to be updated. Alternatively, rather than a pointer, this parameter can be <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the integer identifier of the resource type. For example, the string "#258" represents the identifier 258.
 
 For a list of predefined resource types, see <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">Resource Types</a>.
 

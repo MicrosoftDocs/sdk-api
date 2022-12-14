@@ -63,6 +63,14 @@ When successful, pointer to the location of an
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The stream was successfully cloned.|
+|E_PENDING | Asynchronous Storage only: Part or all of the stream's data is currently unavailable. |
+|STG_E_INSUFFICIENTMEMORY | The stream was not cloned due to a lack of memory.|
+|STG_E_INVALIDPOINTER | The ppStm pointer is not valid.|
+|STG_E_REVERTED | The object has been invalidated by a revert operation above it in the transaction tree.|
+
 ## -remarks
 
 The <b>Clone</b> method creates a new stream object for accessing the same bytes but using a separate seek pointer. The new stream object sees the same data as the source-stream object. Changes written to one object are immediately visible in the other. Range locking is shared between the stream objects.

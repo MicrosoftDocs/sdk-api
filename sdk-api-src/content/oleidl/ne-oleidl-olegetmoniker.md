@@ -56,19 +56,19 @@ Controls aspects of the behavior of the <a href="/windows/desktop/api/oleidl/nf-
 
 ## -enum-fields
 
-### -field OLEGETMONIKER_ONLYIFTHERE
+### -field OLEGETMONIKER_ONLYIFTHERE:1
 
 If a moniker for the object or container does not exist, <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-getmoniker">IOleClientSite::GetMoniker</a> should return E_FAIL and not assign a moniker.
 
-### -field OLEGETMONIKER_FORCEASSIGN
+### -field OLEGETMONIKER_FORCEASSIGN:2
 
 If a moniker for the object or container does not exist, <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-getmoniker">IOleClientSite::GetMoniker</a> should create one.
 
-### -field OLEGETMONIKER_UNASSIGN
+### -field OLEGETMONIKER_UNASSIGN:3
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-getmoniker">IOleClientSite::GetMoniker</a> can release the object's moniker (although it is not required to do so). This constant is not valid in <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmoniker">IOleObject::GetMoniker</a>.
 
-### -field OLEGETMONIKER_TEMPFORUSER
+### -field OLEGETMONIKER_TEMPFORUSER:4
 
 If a moniker for the object does not exist, <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmoniker">IOleObject::GetMoniker</a> can create a temporary moniker that can be used for display purposes (<a href="/windows/desktop/api/objidl/nf-objidl-imoniker-getdisplayname">IMoniker::GetDisplayName</a>) but not for binding. This enables the object server to return a descriptive name for the object without incurring the overhead of creating and maintaining a moniker until a link is actually created.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.get_SelFontSize
 title: IInkEdit::get_SelFontSize (inked.h)
-description: Gets or sets the font size of the selected text within the InkEdit control (run time only).
+description: Gets or sets the font size of the selected text within the InkEdit control (run time only). (Get)
 helpviewer_keywords: ["IInkEdit interface [Tablet PC]","SelFontSize property","IInkEdit.SelFontSize","IInkEdit.get_SelFontSize","IInkEdit::SelFontSize","IInkEdit::get_SelFontSize","IInkEdit::put_SelFontSize","InkEdit.get_SelFontSize","InkEdit.put_SelFontSize","SelFontSize property [Tablet PC]","SelFontSize property [Tablet PC]","IInkEdit interface","get_SelFontSize","inked/IInkEdit::SelFontSize","inked/IInkEdit::get_SelFontSize","inked/IInkEdit::put_SelFontSize","put_SelFontSize","tablet.inkedit_selfontsize"]
 old-location: tablet\inkedit_selfontsize.htm
 tech.root: tablet
@@ -67,7 +67,7 @@ The <b>SelFontSize</b> property returns Null if the selected text contains diffe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="../inked/nn-inked-iinkedit.md">IInkEdit</a>
 
 
 

@@ -54,56 +54,10 @@ The <b>IMSVidEVR</b> interface represents the <a href="/windows/desktop/DirectSh
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidEVR</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer</a>. <b>IMSVidEVR</b> also has these types of members:
+The <b>IMSVidEVR</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer</a>. <b>IMSVidEVR</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMSVidEVR</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidevr-get_presenter">get_Presenter</a>
-</td>
-<td align="left" width="63%">
-Retrieves the presenter object for the EVR filter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidevr-get_suppresseffects">get_SuppressEffects</a>
-</td>
-<td align="left" width="63%">
-Queries whether the Video Control configures the system for optimal video playback.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidevr-put_presenter">put_Presenter</a>
-</td>
-<td align="left" width="63%">
-Sets the presenter object for the EVR filter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidevr-put_suppresseffects">put_SuppressEffects</a>
-</td>
-<td align="left" width="63%">
-Specifies whether the Video Control configures the system for optimal video playback.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

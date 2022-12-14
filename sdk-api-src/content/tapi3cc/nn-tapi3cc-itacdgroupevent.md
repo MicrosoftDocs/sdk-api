@@ -1,12 +1,12 @@
 ---
 UID: NN:tapi3cc.ITACDGroupEvent
 title: ITACDGroupEvent (tapi3cc.h)
-description: The ITACDGroupEvent interface contains methods that retrieve the description of Automatic Call Distribution (ACD) group events.
+description: The ITACDGroupEvent interface (tapi3cc.h) contains methods that retrieve the description of Automatic Call Distribution (ACD) group events.
 helpviewer_keywords: ["ITACDGroupEvent","ITACDGroupEvent interface [TAPI 2.2]","ITACDGroupEvent interface [TAPI 2.2]","described","_tapi3_itacdgroupevent","tapi3.itacdgroupevent","tapi3cc/ITACDGroupEvent"]
 old-location: tapi3\itacdgroupevent.htm
 tech.root: tapi3
 ms.assetid: 5770dca5-cf71-4211-ba9f-0fe7a3bbb614
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITACDGroupEvent, ITACDGroupEvent interface [TAPI 2.2], ITACDGroupEvent interface [TAPI 2.2],described, _tapi3_itacdgroupevent, tapi3.itacdgroupevent, tapi3cc/ITACDGroupEvent
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
@@ -64,40 +64,7 @@ See
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITACDGroupEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITACDGroupEvent</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITACDGroupEvent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3/nf-tapi3-itacdgroupevent-get_event">get_Event</a>
-</td>
-<td align="left" width="63%">
-Gets the 
-<a href="/windows/desktop/api/tapi3/ne-tapi3-acdgroup_event">ACDGROUP_EVENT</a> descriptor of an event.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3/nf-tapi3-itacdgroupevent-get_group">get_Group</a>
-</td>
-<td align="left" width="63%">
-Gets a pointer to the 
-<a href="/windows/desktop/api/tapi3/nn-tapi3-itacdgroup">ITACDGroup</a> interface.
-
-</td>
-</tr>
-</table>
+The <b>ITACDGroupEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITACDGroupEvent</b> also has these types of members:
 
 ## -see-also
 

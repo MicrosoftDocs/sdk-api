@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupMbrAddA
 title: RpcNsGroupMbrAddA function (rpcnsi.h)
-description: The RpcNsGroupMbrAdd function adds an entry name to a group. If necessary, it creates the entry.
+description: The RpcNsGroupMbrAdd function adds an entry name to a group. If necessary, it creates the entry. (ANSI)
 helpviewer_keywords: ["RpcNsGroupMbrAdd","RpcNsGroupMbrAdd function [RPC]","RpcNsGroupMbrAddA","RpcNsGroupMbrAddW","_rpc_rpcnsgroupmbradd","rpc.rpcnsgroupmbradd","rpcnsi/RpcNsGroupMbrAdd","rpcnsi/RpcNsGroupMbrAddA","rpcnsi/RpcNsGroupMbrAddW"]
 old-location: rpc\rpcnsgroupmbradd.htm
 tech.root: Rpc

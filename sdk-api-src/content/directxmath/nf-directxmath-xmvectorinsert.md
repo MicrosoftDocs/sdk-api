@@ -94,9 +94,9 @@ Returns the <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> th
 ## -remarks
 
 For best performance, the result of
-   <b>XMVectorInsert</b>should be assigned back to <i>VD</i>.
+  <b>XMVectorInsert</b> should be assigned back to <i>VD</i>.
 
-For cases with constant uint32_t parameters, it is more efficent to use the template form of <a href="/windows/desktop/dxmath/xmvectorinsert-template">XMVectorInsert</a>:
+For cases with constant uint32_t parameters, it is more efficient to use the template form of <a href="/windows/desktop/dxmath/xmvectorinsert-template">XMVectorInsert</a>:
 
 
 ```

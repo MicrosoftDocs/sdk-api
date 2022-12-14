@@ -52,7 +52,7 @@ api_name:
 
 Determines whether the timer is currently enabled.
 
-## -parameters
+
 
 ## -returns
 

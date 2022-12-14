@@ -1,7 +1,7 @@
 ---
 UID: NF:strsafe.StringCbCopyA
 title: StringCbCopyA function (strsafe.h)
-description: Copies one string to another.
+description: Copies one string to another. (StringCbCopyA)
 helpviewer_keywords: ["StringCbCopy","StringCbCopy function [Menus and Other Resources]","StringCbCopyA","StringCbCopyW","_shell_StringCbCopy","_shell_stringcbcopy_cpp","menurc.stringcbcopy","strsafe/StringCbCopy","strsafe/StringCbCopyA","strsafe/StringCbCopyW","winui._shell_stringcbcopy"]
 old-location: menurc\stringcbcopy.htm
 tech.root: menurc
@@ -136,7 +136,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-Compared to  the functions it replaces, <b>StringCbCopy</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbCopy</b>always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
+Compared to  the functions it replaces, <b>StringCbCopy</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbCopy</b> always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 
 <div class="alert"><b>Note</b>  Windows Information Protection (WIP) policy can be applied on Windows 10, version 1607.</div>
@@ -58,19 +58,19 @@ api_name:
 
 ## -enum-fields
 
-### -field ENTERPRISE_POLICY_NONE
+### -field ENTERPRISE_POLICY_NONE:0x0
 
 The app is not managed by enterprise policy.
 
-### -field ENTERPRISE_POLICY_ALLOWED
+### -field ENTERPRISE_POLICY_ALLOWED:0x1
 
 The app is allowed to access enterprise resources according to the enterprise policy.
 
-### -field ENTERPRISE_POLICY_ENLIGHTENED
+### -field ENTERPRISE_POLICY_ENLIGHTENED:0x2
 
 The app is enlightened (self-declared in the app's resource file).
 
-### -field ENTERPRISE_POLICY_EXEMPT
+### -field ENTERPRISE_POLICY_EXEMPT:0x4
 
 The app is marked as exempt by the enterprise policy.
 

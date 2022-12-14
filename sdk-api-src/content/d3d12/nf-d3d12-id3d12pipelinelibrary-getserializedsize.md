@@ -52,7 +52,7 @@ api_name:
 
 Returns the amount of memory required to serialize the current contents of the database.
 
-## -parameters
+
 
 ## -returns
 

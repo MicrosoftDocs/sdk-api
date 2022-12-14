@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-Kernel32-localization-l1-1-0.dll
 api_name:
  - NotifyUILanguageChange
+req.apiset: ext-ms-win-kernel32-localization-l1-1-0 (introduced in Windows 8)
 ---
 
 # NotifyUILanguageChange function

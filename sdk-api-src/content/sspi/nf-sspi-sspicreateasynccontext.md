@@ -2,7 +2,6 @@
 UID: NF:sspi.SspiCreateAsyncContext
 title: SspiCreateAsyncContext function
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Creates an instance of SspiAsyncContext which is used to track the async call.
 tech.root: security
@@ -28,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - sspi.h
 api_name:
@@ -43,6 +41,8 @@ dev_langs:
 ## -description
 
 Creates an instance of SspiAsyncContext that tracks the async call.
+
+
 
 ## -returns
 

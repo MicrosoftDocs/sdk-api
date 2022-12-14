@@ -58,7 +58,7 @@ api_name:
 
 Determines whether the calling process is being debugged by a user-mode debugger.
 
-## -parameters
+
 
 ## -returns
 

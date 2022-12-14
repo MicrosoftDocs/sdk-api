@@ -12,7 +12,7 @@ req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
-req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.target-min-winversvr: Windows Server 2019 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -219,7 +219,7 @@ A pointer to a completion routine to be called when the operation has been compl
 
 The type of   information that
         <b>ReadDirectoryChangesExW</b> should write to the buffer to which the <i>lpBuffer</i> parameter points. Specify <b>ReadDirectoryNotifyInformation</b> to indicate 
-        that the information should consist of <a href="/windows/desktop/api/winnt/ns-winnt-file_notify_information">FILE_NOTIFY_INFORMATION</a> structures, or <b>ReadDirectoryNotifyExtendedInformation</b>to indicate 
+        that the information should consist of <a href="/windows/desktop/api/winnt/ns-winnt-file_notify_information">FILE_NOTIFY_INFORMATION</a> structures, or <b>ReadDirectoryNotifyExtendedInformation</b> to indicate 
         that the information should consist of <a href="/windows/desktop/api/winnt/ns-winnt-file_notify_extended_information">FILE_NOTIFY_EXTENDED_INFORMATION</a> structures.
 
 ## -returns
@@ -286,6 +286,11 @@ For asynchronous completion, you can receive notification in one of three ways:
 <b>ReadDirectoryChangesExW</b> fails with 
     <b>ERROR_NOACCESS</b> when the buffer is not aligned on a <b>DWORD</b> 
     boundary.
+
+<b>ReadDirectoryChangesExW</b> fails with
+<b>ERROR_NOTIFY_ENUM_DIR</b>
+when the system was unable to record all the changes to the directory.
+In this case, you should compute the changes by enumerating the directory or subtree.
 
 If you opened the file using the short name, you can receive change notifications for the short name.
 

@@ -53,7 +53,7 @@ api_name:
 
 The <b>Rect::IsEmptyArea</b> method determines whether this rectangle is empty.
 
-## -parameters
+
 
 ## -returns
 

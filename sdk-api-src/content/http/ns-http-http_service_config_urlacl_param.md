@@ -73,8 +73,12 @@ The security descriptor string pointed to by the <b>pStringSecurityDescriptor</b
 
 An example of a security descriptor string is:
 
-<pre class="syntax" xml:space="preserve"><code>D:(A;;GX;;;S-1-0-0)(A;;GA;;;S-1-5-11)
-</code></pre>
+
+``` syntax
+D:(A;;GX;;;S-1-0-0)(A;;GA;;;S-1-5-11)
+
+```
+
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:schannel._SCHANNEL_CRED
 title: SCHANNEL_CRED (schannel.h)
-description: Contains the data for an Schannel credential.
+description: Contains the data for an Schannel credential. (SCHANNEL_CRED)
 helpviewer_keywords: ["*PSCHANNEL_CRED","PSCHANNEL_CRED","PSCHANNEL_CRED structure pointer [Security]","SCHANNEL_CRED","SCHANNEL_CRED structure [Security]","SCH_CRED_AUTO_CRED_VALIDATION","SCH_CRED_CACHE_ONLY_URL_RETRIEVAL_ON_CREATE","SCH_CRED_FORMAT_CERT_HASH","SCH_CRED_FORMAT_CERT_HASH_STORE","SCH_CRED_IGNORE_NO_REVOCATION_CHECK","SCH_CRED_IGNORE_REVOCATION_OFFLINE","SCH_CRED_MANUAL_CRED_VALIDATION","SCH_CRED_NO_DEFAULT_CREDS","SCH_CRED_NO_SERVERNAME_CHECK","SCH_CRED_NO_SYSTEM_MAPPER","SCH_CRED_REVOCATION_CHECK_CHAIN","SCH_CRED_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT","SCH_CRED_REVOCATION_CHECK_END_CERT","SCH_CRED_USE_DEFAULT_CREDS","SCH_DISABLE_RECONNECTS","SCH_SEND_AUX_RECORD","SCH_SEND_ROOT_CERT","SCH_USE_PRESHAREDKEY_ONLY","SCH_USE_STRONG_CRYPTO","SP_PROT_DTLS1_0_CLIENT","SP_PROT_DTLS1_0_SERVER","SP_PROT_DTLS1_2_CLIENT","SP_PROT_DTLS1_2_SERVER","SP_PROT_DTLS1_X_CLIENT","SP_PROT_DTLS1_X_SERVER","SP_PROT_DTLS_CLIENT","SP_PROT_DTLS_SERVER","SP_PROT_PCT1_CLIENT","SP_PROT_PCT1_SERVER","SP_PROT_SSL2_CLIENT","SP_PROT_SSL2_SERVER","SP_PROT_SSL3_CLIENT","SP_PROT_SSL3_SERVER","SP_PROT_TLS1_0_CLIENT","SP_PROT_TLS1_0_SERVER","SP_PROT_TLS1_1_CLIENT","SP_PROT_TLS1_1_SERVER","SP_PROT_TLS1_2_CLIENT","SP_PROT_TLS1_2_SERVER","SP_PROT_TLS1_CLIENT","SP_PROT_TLS1_SERVER","_ssp_schannel_cred","schannel/PSCHANNEL_CRED","schannel/SCHANNEL_CRED","security.schannel_cred"]
 old-location: security\schannel_cred.htm
 tech.root: security
@@ -101,7 +101,7 @@ Optional. A pointer to an array of
 
 Currently, the algorithm identifiers <b>CALG_AES</b>,
 <b>CALG_AES_128</b>, and
-<b>CALG_AES_256</b>are not supported.
+<b>CALG_AES_256</b> are not supported.
 
 ### -field grbitEnabledProtocols
 
@@ -127,7 +127,7 @@ This member can contain any of the following flags.
 <td width="60%">
 Private Communications Technology 1.0 server side.
 
-<div class="alert"><b>Note</b>  Obselete.</div>
+<div class="alert"><b>Note</b> Obsolete.</div>
 <div> </div>
 </td>
 </tr>
@@ -140,7 +140,7 @@ Private Communications Technology 1.0 server side.
 <td width="60%">
 Private Communications Technology 1.0 client side. 
 
-<div class="alert"><b>Note</b>  Obselete.</div>
+<div class="alert"><b>Note</b> Obsolete.</div>
 <div> </div>
 </td>
 </tr>
@@ -449,7 +449,7 @@ Instruct Schannel to pass the CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL flag to the <a
 </tr>
 <tr>
 <td width="40%"><a id="SCH_DISABLE_RECONNECTS"></a><a id="sch_disable_reconnects"></a><dl>
-<dt><b>SCH_DISABLE_RECONNECTS</b></dt>
+<dt><b>SCH_CRED_DISABLE_RECONNECTS</b></dt>
 <dt>0x00000080</dt>
 </dl>
 </td>
@@ -587,7 +587,7 @@ Schannel attempts to automatically supply a certificate chain for client authent
 </dl>
 </td>
 <td width="60%">
-Instruct Schannel to split data to be encrypted into two separate records to counter weakness present in the SSL/TLS procotol when used with symmetric cipher suite using cipher block chaining mode. For more information, see "Vulnerability in SSL/TLS Could Allow Information Disclosure" in the Help and Support Knowledge Base at <a href="https://support.microsoft.com/help/2643584">http://support.microsoft.com/kb/2643584</a>.
+Instruct Schannel to split data to be encrypted into two separate records to counter weakness present in the SSL/TLS protocol when used with symmetric cipher suite using cipher block chaining mode. For more information, see "Vulnerability in SSL/TLS Could Allow Information Disclosure" in the Help and Support Knowledge Base at <a href="https://support.microsoft.com/help/2643584">http://support.microsoft.com/kb/2643584</a>.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003, Windows XP and Windows XP/2000:  </b>This flag is not supported.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupGetSourceFileLocationW
 title: SetupGetSourceFileLocationW function (setupapi.h)
-description: The SetupGetSourceFileLocation function retrieves the location of a source file listed in an INF file.
+description: The SetupGetSourceFileLocation function retrieves the location of a source file listed in an INF file. (Unicode)
 helpviewer_keywords: ["SetupGetSourceFileLocation","SetupGetSourceFileLocation function [Setup API]","SetupGetSourceFileLocationA","SetupGetSourceFileLocationW","_setupapi_setupgetsourcefilelocation","setup.setupgetsourcefilelocation","setupapi/SetupGetSourceFileLocation","setupapi/SetupGetSourceFileLocationA","setupapi/SetupGetSourceFileLocationW"]
 old-location: setup\setupgetsourcefilelocation.htm
 tech.root: setup

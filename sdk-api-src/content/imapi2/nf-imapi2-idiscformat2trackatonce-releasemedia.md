@@ -52,7 +52,7 @@ api_name:
 
 Closes the track-writing session and releases the lock.
 
-## -parameters
+
 
 ## -returns
 

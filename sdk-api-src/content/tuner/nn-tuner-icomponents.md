@@ -54,92 +54,10 @@ The <b>IComponents</b> interface represents a collection of components. In digit
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComponents</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IComponents</b> also has these types of members:
+The <b>IComponents</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IComponents</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IComponents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponents-add">Add</a>
-</td>
-<td align="left" width="63%">
-Adds a Component object to the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponents-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a new copy of the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponents-enumcomponents">EnumComponents</a>
-</td>
-<td align="left" width="63%">
-Returns an <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ienumcomponents">IEnumComponents</a> enumerator for all components in the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponents-get__newenum">get__NewEnum</a>
-</td>
-<td align="left" width="63%">
-Enumeration method to support For…Each loops in Automation clients.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponents-get_count">get_Count</a>
-</td>
-<td align="left" width="63%">
-Gets the number of Component objects in the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponents-get_item">get_Item</a>
-</td>
-<td align="left" width="63%">
-Enables the caller to access a component by index.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponenttypes-put_item">put_Item</a>
-</td>
-<td align="left" width="63%">
-Replaces an existing item in the collection with a new Component object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponents-remove">Remove</a>
-</td>
-<td align="left" width="63%">
-Removes a Component object from the collection.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

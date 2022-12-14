@@ -1,12 +1,12 @@
 ---
 UID: NS:vds._VDS_IPADDRESS
 title: VDS_IPADDRESS (vds.h)
-description: Defines an IP address and port.
+description: The VDS_IPADDRESS structure (vds.h) defines an IP address and port.
 helpviewer_keywords: ["VDS_IPADDRESS","VDS_IPADDRESS structure [VDS]","_VDS_IPADDRESS","base.vds_ipaddress","vds/VDS_IPADDRESS","vdshwprv/VDS_IPADDRESS"]
 old-location: base\vds_ipaddress.htm
 tech.root: base
 ms.assetid: 42e8b161-5e47-4aae-aa23-94b5cacb5698
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_IPADDRESS, VDS_IPADDRESS structure [VDS], _VDS_IPADDRESS, base.vds_ipaddress, vds/VDS_IPADDRESS, vdshwprv/VDS_IPADDRESS
 req.header: vds.h
 req.include-header: 

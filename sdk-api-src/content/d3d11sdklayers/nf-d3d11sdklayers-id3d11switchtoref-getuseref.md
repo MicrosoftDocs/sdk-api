@@ -52,7 +52,7 @@ api_name:
 
 <div class="alert"><b>Note</b>  The <a href="/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11switchtoref">ID3D11SwitchToRef</a> interface and its methods are not supported in Direct3D 11.</div><div> </div>
 
-## -parameters
+
 
 ## -returns
 

@@ -54,47 +54,7 @@ Provides methods which activate Windows Store apps for the Launch, File, and Pro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IApplicationActivationManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IApplicationActivationManager</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IApplicationActivationManager</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationactivationmanager-activateapplication">ActivateApplication</a>
-</td>
-<td align="left" width="63%">
-Activates the specified Windows Store app for the generic launch contract (Windows.Launch) in the current session.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationactivationmanager-activateforfile">ActivateForFile</a>
-</td>
-<td align="left" width="63%">
-Activates the specified Windows Store app for the file contract (Windows.File).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationactivationmanager-activateforprotocol">ActivateForProtocol</a>
-</td>
-<td align="left" width="63%">
-Activates the specified Windows Store app for the protocol contract (Windows.Protocol).
-
-</td>
-</tr>
-</table>
+The <b>IApplicationActivationManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IApplicationActivationManager</b> also has these types of members:
 
 ## -remarks
 

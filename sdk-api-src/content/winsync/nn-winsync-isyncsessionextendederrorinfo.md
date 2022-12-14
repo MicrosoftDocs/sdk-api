@@ -54,29 +54,7 @@ Represents information about which provider caused synchronization to fail.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncSessionExtendedErrorInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncSessionExtendedErrorInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISyncSessionExtendedErrorInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncsessionextendederrorinfo-getsyncproviderwitherror">GetSyncProviderWithError</a>
-</td>
-<td align="left" width="63%">
-Gets the <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncprovider">ISyncProvider</a> interface of the provider that caused synchronization to fail.
-
-</td>
-</tr>
-</table>
+The <b>ISyncSessionExtendedErrorInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncSessionExtendedErrorInfo</b> also has these types of members:
 
 ## -see-also
 

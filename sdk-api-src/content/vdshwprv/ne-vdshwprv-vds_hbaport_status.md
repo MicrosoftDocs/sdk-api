@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv._VDS_HBAPORT_STATUS
 title: VDS_HBAPORT_STATUS (vdshwprv.h)
-description: Defines the set of valid statuses for an HBA port.
+description: The VDS_HBAPORT_STATUS enumeration (vdshwprv.h) defines the set of valid statuses for an HBA port.  
 helpviewer_keywords: ["VDS_HBAPORT_STATUS","VDS_HBAPORT_STATUS enumeration [VDS]","VDS_HPS_BYPASSED","VDS_HPS_DIAGNOSTICS","VDS_HPS_ERROR","VDS_HPS_LINKDOWN","VDS_HPS_LOOPBACK","VDS_HPS_OFFLINE","VDS_HPS_ONLINE","VDS_HPS_UNKNOWN","base.vds_hbaport_status","vds/VDS_HBAPORT_STATUS","vds/VDS_HPS_BYPASSED","vds/VDS_HPS_DIAGNOSTICS","vds/VDS_HPS_ERROR","vds/VDS_HPS_LINKDOWN","vds/VDS_HPS_LOOPBACK","vds/VDS_HPS_OFFLINE","vds/VDS_HPS_ONLINE","vds/VDS_HPS_UNKNOWN","vdshwprv/VDS_HBAPORT_STATUS","vdshwprv/VDS_HPS_BYPASSED","vdshwprv/VDS_HPS_DIAGNOSTICS","vdshwprv/VDS_HPS_ERROR","vdshwprv/VDS_HPS_LINKDOWN","vdshwprv/VDS_HPS_LOOPBACK","vdshwprv/VDS_HPS_OFFLINE","vdshwprv/VDS_HPS_ONLINE","vdshwprv/VDS_HPS_UNKNOWN"]
 old-location: base\vds_hbaport_status.htm
 tech.root: base
 ms.assetid: 67ef9025-c929-476b-8644-7e085dff91c4
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_HBAPORT_STATUS, VDS_HBAPORT_STATUS enumeration [VDS], VDS_HPS_BYPASSED, VDS_HPS_DIAGNOSTICS, VDS_HPS_ERROR, VDS_HPS_LINKDOWN, VDS_HPS_LOOPBACK, VDS_HPS_OFFLINE, VDS_HPS_ONLINE, VDS_HPS_UNKNOWN, base.vds_hbaport_status, vds/VDS_HBAPORT_STATUS, vds/VDS_HPS_BYPASSED, vds/VDS_HPS_DIAGNOSTICS, vds/VDS_HPS_ERROR, vds/VDS_HPS_LINKDOWN, vds/VDS_HPS_LOOPBACK, vds/VDS_HPS_OFFLINE, vds/VDS_HPS_ONLINE, vds/VDS_HPS_UNKNOWN, vdshwprv/VDS_HBAPORT_STATUS, vdshwprv/VDS_HPS_BYPASSED, vdshwprv/VDS_HPS_DIAGNOSTICS, vdshwprv/VDS_HPS_ERROR, vdshwprv/VDS_HPS_LINKDOWN, vdshwprv/VDS_HPS_LOOPBACK, vdshwprv/VDS_HPS_OFFLINE, vdshwprv/VDS_HPS_ONLINE, vdshwprv/VDS_HPS_UNKNOWN
 req.header: vdshwprv.h
 req.include-header: 
@@ -63,56 +63,56 @@ Defines
 
 ## -enum-fields
 
-### -field VDS_HPS_UNKNOWN
+### -field VDS_HPS_UNKNOWN:1
 
 The HBA port status is unknown.
      
 
 HBA_PORTSTATE_UNKNOWN
 
-### -field VDS_HPS_ONLINE
+### -field VDS_HPS_ONLINE:2
 
 The HBA port is operational.
      
 
 HBA_PORTSTATE_ONLINE
 
-### -field VDS_HPS_OFFLINE
+### -field VDS_HPS_OFFLINE:3
 
 The HBA port has been set offline by a user.
      
 
 HBA_PORTSTATE_OFFLINE
 
-### -field VDS_HPS_BYPASSED
+### -field VDS_HPS_BYPASSED:4
 
 The HBA port is bypassed.
      
 
 HBA_PORTSTATE_BYPASSED
 
-### -field VDS_HPS_DIAGNOSTICS
+### -field VDS_HPS_DIAGNOSTICS:5
 
 The HBA port is in diagnostics mode.
      
 
 HBA_PORTSTATE_DIAGNOSTICS
 
-### -field VDS_HPS_LINKDOWN
+### -field VDS_HPS_LINKDOWN:6
 
 The HBA port link is down.
      
 
 HBA_PORTSTATE_LINKDOWN
 
-### -field VDS_HPS_ERROR
+### -field VDS_HPS_ERROR:7
 
 The HBA port has an error.
      
 
 HBA_PORTSTATE_ERROR
 
-### -field VDS_HPS_LOOPBACK
+### -field VDS_HPS_LOOPBACK:8
 
 The HBA port is loopback.
      

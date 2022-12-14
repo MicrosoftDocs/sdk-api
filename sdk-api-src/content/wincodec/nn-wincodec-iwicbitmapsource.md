@@ -54,65 +54,7 @@ Exposes methods that refers to a source from which pixels are retrieved, but can
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapSource</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICBitmapSource</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWICBitmapSource</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypalette">CopyPalette</a>
-</td>
-<td align="left" width="63%">
-Retrieves the color table for indexed pixel formats.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a>
-</td>
-<td align="left" width="63%">
-Instructs the object to produce pixels.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-getpixelformat">GetPixelFormat</a>
-</td>
-<td align="left" width="63%">
-Retrieves the pixel format of the bitmap source.. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-getresolution">GetResolution</a>
-</td>
-<td align="left" width="63%">
-Retrieves the sampling rate between pixels and physical world measurements.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-getsize">GetSize</a>
-</td>
-<td align="left" width="63%">
-Retrieves the pixel width and height of the bitmap.
-
-</td>
-</tr>
-</table>
+The <b>IWICBitmapSource</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICBitmapSource</b> also has these types of members:
 
 ## -remarks
 

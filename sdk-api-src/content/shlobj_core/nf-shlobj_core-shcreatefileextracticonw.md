@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHCreateFileExtractIconW
 title: SHCreateFileExtractIconW function (shlobj_core.h)
-description: SHCreateFileExtractIcon may be altered or unavailable.
+description: SHCreateFileExtractIcon may be altered or unavailable. (Unicode)
 helpviewer_keywords: ["SHCreateFileExtractIcon","SHCreateFileExtractIcon function [Windows Shell]","SHCreateFileExtractIconW","_win32_SHCreateFileExtractIcon","shell.SHCreateFileExtractIcon","shlobj_core/SHCreateFileExtractIcon","shlobj_core/SHCreateFileExtractIconW"]
 old-location: shell\SHCreateFileExtractIcon.htm
 tech.root: shell
@@ -85,4 +85,4 @@ When this function returns, contains the interface pointer requested in <i>riid<
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

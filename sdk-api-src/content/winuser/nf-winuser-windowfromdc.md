@@ -45,6 +45,7 @@ api_location:
  - ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
  - WindowFromDC
+req.apiset: ext-ms-win-ntuser-draw-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # WindowFromDC function

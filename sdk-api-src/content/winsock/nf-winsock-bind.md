@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock.bind
 title: bind function (winsock.h)
-description: The bind function associates a local address with a socket.
+description: The bind function (winsock.h) associates a local address with a socket. 
 helpviewer_keywords: ["_win32_bind_2","bind","bind function [Winsock]","winsock.bind_2","winsock/bind"]
 old-location: winsock\bind_2.htm
 tech.root: WinSock
 ms.assetid: 3a651daa-7404-4ef7-8cff-0d3dff41a8e8
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: _win32_bind_2, bind, bind function [Winsock], winsock.bind_2, winsock/bind
 req.header: winsock.h
 req.include-header: Winsock2.h
@@ -203,7 +203,7 @@ This error is returned if the descriptor in the <i>s</i> parameter is not a sock
 
 The <b>bind</b> function is required on an unconnected socket before subsequent calls to the 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-listen">listen</a> function. It is normally used to bind to either connection-oriented (stream) or connectionless (datagram) sockets. The 
-<b>bind</b> function may also be used to bind to a raw socket (the socket was created by calling the <a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>function with the <i>type</i> parameter set to SOCK_RAW). The 
+<b>bind</b> function may also be used to bind to a raw socket (the socket was created by calling the <a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> function with the <i>type</i> parameter set to SOCK_RAW). The 
 <b>bind</b> function may also be used on an unconnected socket before subsequent calls to the 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a>, <a href="/windows/desktop/api/mswsock/nc-mswsock-lpfn_connectex">ConnectEx</a>, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a>, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnectbylist">WSAConnectByList</a>, or <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnectbynamea">WSAConnectByName</a> functions before send operations. 
 

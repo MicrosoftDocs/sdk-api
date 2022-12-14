@@ -56,53 +56,5 @@ Exposes methods used by the Remote Desktop Services service to perform the licen
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSProtocolLicenseConnection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSProtocolLicenseConnection</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWTSProtocolLicenseConnection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSProtocolLicenseConnection</b> also has these types of members:
 
-## -members
-
-The <b>IWTSProtocolLicenseConnection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollicenseconnection-protocolcomplete">ProtocolComplete</a>
-</td>
-<td align="left" width="63%">
-Notifies the protocol whether the licensing process completed successfully.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollicenseconnection-requestclientlicense">RequestClientLicense</a>
-</td>
-<td align="left" width="63%">
-Requests a license from the client.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollicenseconnection-requestlicensingcapabilities">RequestLicensingCapabilities</a>
-</td>
-<td align="left" width="63%">
-Requests license capabilities from the client.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollicenseconnection-sendclientlicense">SendClientLicense</a>
-</td>
-<td align="left" width="63%">
-Sends a license to the client.
-
-</td>
-</tr>
-</table>

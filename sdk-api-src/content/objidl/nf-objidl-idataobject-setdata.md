@@ -60,7 +60,7 @@ A pointer to the <a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMA
 
 ### -param pmedium [in]
 
-A pointer to the <a href="/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a> structure defining the storage medium in which the data is being passed.
+A pointer to the <a href="/windows/win32/api/objidl/ns-objidl-ustgmedium-r1">STGMEDIUM</a> structure defining the storage medium in which the data is being passed.
 
 ### -param fRelease [in]
 

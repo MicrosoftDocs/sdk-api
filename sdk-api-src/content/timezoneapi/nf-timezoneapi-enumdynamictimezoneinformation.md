@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
+req.lib: advapi32.lib
+req.dll: advapi32.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -82,7 +82,7 @@ This function returns DWORD. Possible return values include:
 The following example demonstrates looping through the potential timezones until **ERROR_NO_MORE_ITEMS** is returned, indicating that there are no more time zone entries in the registry.
 
 ```cpp
-std::vector<std::wstring> possibleTimezones;
+std::vector<DYNAMIC_TIME_ZONE_INFORMATION> possibleTimezones;
 DYNAMIC_TIME_ZONE_INFORMATION dynamicTimezone = {};
 DWORD dwResult = 0;
 DWORD i = 0;

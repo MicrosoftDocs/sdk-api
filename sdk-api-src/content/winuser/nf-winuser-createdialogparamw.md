@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.CreateDialogParamW
 title: CreateDialogParamW function (winuser.h)
-description: Creates a modeless dialog box from a dialog box template resource.
+description: Creates a modeless dialog box from a dialog box template resource. (Unicode)
 helpviewer_keywords: ["CreateDialogParam","CreateDialogParam function [Dialog Boxes]","CreateDialogParamA","CreateDialogParamW","_win32_CreateDialogParam","_win32_createdialogparam_cpp","dlgbox.createdialogparam","winui._win32_createdialogparam","winuser/CreateDialogParam","winuser/CreateDialogParamA","winuser/CreateDialogParamW"]
 old-location: dlgbox\createdialogparam.htm
 tech.root: dlgbox
@@ -48,6 +48,7 @@ api_name:
  - CreateDialogParam
  - CreateDialogParamA
  - CreateDialogParamW
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-0 (introduced in Windows 8)
 ---
 
 # CreateDialogParamW function

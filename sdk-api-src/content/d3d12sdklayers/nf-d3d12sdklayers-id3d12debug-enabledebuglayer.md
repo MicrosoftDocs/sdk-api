@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12Debug.EnableDebugLayer
 title: ID3D12Debug::EnableDebugLayer (d3d12sdklayers.h)
-description: Enables the debug layer.
+description: Enables the debug layer. (ID3D12Debug.EnableDebugLayer)
 helpviewer_keywords: ["EnableDebugLayer","EnableDebugLayer method","EnableDebugLayer method","ID3D12Debug interface","ID3D12Debug interface","EnableDebugLayer method","ID3D12Debug.EnableDebugLayer","ID3D12Debug::EnableDebugLayer","d3d12sdklayers/ID3D12Debug::EnableDebugLayer","direct3d12.id3d12debug_enabledebuglayer"]
 old-location: direct3d12\id3d12debug_enabledebuglayer.htm
 tech.root: direct3d12
@@ -45,32 +45,29 @@ api_name:
  - ID3D12Debug.EnableDebugLayer
 ---
 
-# ID3D12Debug::EnableDebugLayer
-
-
 ## -description
 
 Enables the debug layer.
-
-## -parameters
 
 ## -remarks
 
 To enable the debug layers using this API, it must be called before the D3D12 device is created. Calling this API after creating the D3D12 device will cause the D3D12 runtime to remove the device.
 
+## Examples
 
-#### Examples
+Enable the D3D12 debug layer.
 
- Enable the D3D12 debug layer.
-
-<pre class="syntax" xml:space="preserve"><code>// Enable the D3D12 debug layer.
+```cpp
+// Enable the D3D12 debug layer.
 {
-    ComPtr&lt;ID3D12Debug&gt; debugController;
-    if (SUCCEEDED(D3D12GetDebugInterface(IID_PPV_ARGS(&amp;debugController))))
+    ComPtr<ID3D12Debug> debugController;
+    if (SUCCEEDED(D3D12GetDebugInterface(IID_PPV_ARGS(&debugController))))
     {
-        debugController-&gt;EnableDebugLayer();
+        debugController->EnableDebugLayer();
     }
-}</code></pre>
+}
+```
+
 Refer to the <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>

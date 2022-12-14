@@ -57,38 +57,7 @@ The object that implements this interface is called a <i>DVD bookmark</i>. You c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvdState</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvdState</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDvdState</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-idvdstate-getdiscid">GetDiscID</a>
-</td>
-<td align="left" width="63%">
-Gets the unique identifier (ID) of the disc from which the bookmark was made.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-idvdstate-getparentallevel">GetParentalLevel</a>
-</td>
-<td align="left" width="63%">
-Retrieves the user's parental level as saved in the <b>DvdState</b> object.
-
-</td>
-</tr>
-</table>
+The <b>IDvdState</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvdState</b> also has these types of members:
 
 ## -remarks
 

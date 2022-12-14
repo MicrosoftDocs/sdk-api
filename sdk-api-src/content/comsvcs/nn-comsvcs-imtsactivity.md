@@ -56,56 +56,7 @@ Submits batch work through the activity created by the <a href="/windows/desktop
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMTSActivity</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMTSActivity</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMTSActivity</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-imtsactivity-asynccall">AsyncCall</a>
-</td>
-<td align="left" width="63%">
-Performs the user-defined work asynchronously.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-imtsactivity-bindtocurrentthread">BindToCurrentThread</a>
-</td>
-<td align="left" width="63%">
-Binds the batch work that is submitted using <a href="/windows/desktop/api/comsvcs/nf-comsvcs-imtsactivity-asynccall">IMTSActivity::AsyncCall</a> or <a href="/windows/desktop/api/comsvcs/nf-comsvcs-imtsactivity-synchronouscall">IMTSActivity::SynchronousCall</a> to the current single-threaded apartment (STA).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-imtsactivity-synchronouscall">SynchronousCall</a>
-</td>
-<td align="left" width="63%">
-Performs the user-defined work synchronously.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-imtsactivity-unbindfromthread">UnbindFromThread</a>
-</td>
-<td align="left" width="63%">
-Unbinds the batch work that is submitted using <a href="/windows/desktop/api/comsvcs/nf-comsvcs-imtsactivity-asynccall">IMTSActivity::AsyncCall</a> or <a href="/windows/desktop/api/comsvcs/nf-comsvcs-imtsactivity-synchronouscall">IMTSActivity::SynchronousCall</a> from the thread on which it is running.
-
-</td>
-</tr>
-</table>
+The <b>IMTSActivity</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMTSActivity</b> also has these types of members:
 
 ## -see-also
 

@@ -1,12 +1,12 @@
 ---
 UID: NE:vds._VDS_SUB_SYSTEM_STATUS
 title: VDS_SUB_SYSTEM_STATUS (vds.h)
-description: Defines the set of object status values for a subsystem.
+description: The VDS_SUB_SYSTEM_STATUS (vds.h) enumeration defines the set of object status values for a subsystem.
 helpviewer_keywords: ["*PVDS_SUB_SYSTEM_STATUS","VDS_SSS_FAILED","VDS_SSS_NOT_READY","VDS_SSS_OFFLINE","VDS_SSS_ONLINE","VDS_SSS_PARTIALLY_MANAGED","VDS_SSS_UNKNOWN","VDS_SUB_SYSTEM_STATUS","VDS_SUB_SYSTEM_STATUS enumeration [VDS]","base.vds_sub_system_status","vds/VDS_SSS_FAILED","vds/VDS_SSS_NOT_READY","vds/VDS_SSS_OFFLINE","vds/VDS_SSS_ONLINE","vds/VDS_SSS_PARTIALLY_MANAGED","vds/VDS_SSS_UNKNOWN","vds/VDS_SUB_SYSTEM_STATUS","vdshwprv/VDS_SSS_FAILED","vdshwprv/VDS_SSS_NOT_READY","vdshwprv/VDS_SSS_OFFLINE","vdshwprv/VDS_SSS_ONLINE","vdshwprv/VDS_SSS_PARTIALLY_MANAGED","vdshwprv/VDS_SSS_UNKNOWN","vdshwprv/VDS_SUB_SYSTEM_STATUS"]
 old-location: base\vds_sub_system_status.htm
 tech.root: base
 ms.assetid: 3393ff1f-df0f-4053-9127-d99196660f4b
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: '*PVDS_SUB_SYSTEM_STATUS, VDS_SSS_FAILED, VDS_SSS_NOT_READY, VDS_SSS_OFFLINE, VDS_SSS_ONLINE, VDS_SSS_PARTIALLY_MANAGED, VDS_SSS_UNKNOWN, VDS_SUB_SYSTEM_STATUS, VDS_SUB_SYSTEM_STATUS enumeration [VDS], base.vds_sub_system_status, vds/VDS_SSS_FAILED, vds/VDS_SSS_NOT_READY, vds/VDS_SSS_OFFLINE, vds/VDS_SSS_ONLINE, vds/VDS_SSS_PARTIALLY_MANAGED, vds/VDS_SSS_UNKNOWN, vds/VDS_SUB_SYSTEM_STATUS, vdshwprv/VDS_SSS_FAILED, vdshwprv/VDS_SSS_NOT_READY, vdshwprv/VDS_SSS_OFFLINE, vdshwprv/VDS_SSS_ONLINE, vdshwprv/VDS_SSS_PARTIALLY_MANAGED, vdshwprv/VDS_SSS_UNKNOWN, vdshwprv/VDS_SUB_SYSTEM_STATUS'
 req.header: vds.h
 req.include-header: 
@@ -62,29 +62,29 @@ Defines the
 
 ## -enum-fields
 
-### -field VDS_SSS_UNKNOWN
+### -field VDS_SSS_UNKNOWN:0
 
 This value is reserved.
 
-### -field VDS_SSS_ONLINE
+### -field VDS_SSS_ONLINE:1
 
 The subsystem is working properly.
 
-### -field VDS_SSS_NOT_READY
+### -field VDS_SSS_NOT_READY:2
 
 The subsystem is initializing and not yet ready to work.
 
-### -field VDS_SSS_OFFLINE
+### -field VDS_SSS_OFFLINE:4
 
 The subsystem is unavailable. This value indicates either that the subsystem is disconnected or that it has 
       failed so severely that it appears to be disconnected.
 
-### -field VDS_SSS_FAILED
+### -field VDS_SSS_FAILED:5
 
 The subsystem has failed. This value indicates that the subsystem is not merely 
       disconnected but rather that it has failed.
 
-### -field VDS_SSS_PARTIALLY_MANAGED
+### -field VDS_SSS_PARTIALLY_MANAGED:9
 
 The subsystem is operating in a degraded state. This means that one or more of the subsystem's subcomponents, such as  disk drives or controllers, are in a failed state.
 

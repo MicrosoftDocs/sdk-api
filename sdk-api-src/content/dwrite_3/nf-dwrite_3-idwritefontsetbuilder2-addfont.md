@@ -10,8 +10,8 @@ req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -52,7 +52,7 @@ Adds a font to the set being built, with the caller supplying enough information
 
 ### -param fontFile
 
-Type: **[IDWriteFontFile](/windows/win32/api/dwrite/nn-dwrite-idwritefontfile)\***
+Type: **[IDWriteFontFile](../dwrite/nn-dwrite-idwritefontfile.md)\***
 
 Font file reference object to add to the set.
 

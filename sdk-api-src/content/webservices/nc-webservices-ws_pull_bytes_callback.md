@@ -55,11 +55,11 @@ Used by the <a href="/windows/desktop/api/webservices/nf-webservices-wspullbytes
 
 ## -parameters
 
-### -param *callbackState [in]
+### -param callbackState [in]
 
 The user-defined state that was passed to <a href="/windows/desktop/api/webservices/nf-webservices-wspullbytes">WsPullBytes</a>.
 
-### -param *bytes
+### -param bytes
 
 Where the data that is read should be placed.
 
@@ -67,16 +67,16 @@ Where the data that is read should be placed.
 
 The maximum number of bytes that may be read.
 
-### -param *actualSize [out]
+### -param actualSize [out]
 
 The actual number of bytes that were read.  This may be less than maxSize.  Returning 0
           indicates that there is no more data.
 
-### -param *asyncContext [in, optional]
+### -param asyncContext [in, optional]
 
 Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 

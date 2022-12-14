@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12shader.ID3D12FunctionReflection
 title: ID3D12FunctionReflection (d3d12shader.h)
-description: A function-reflection interface accesses function info.
+description: A function-reflection interface accesses function info. (ID3D12FunctionReflection)
 helpviewer_keywords: ["ID3D12FunctionReflection","ID3D12FunctionReflection interface","ID3D12FunctionReflection interface","described","d3d12shader/ID3D12FunctionReflection","direct3d12.id3d12functionreflection"]
 old-location: direct3d12\id3d12functionreflection.htm
 tech.root: direct3d12
@@ -57,89 +57,10 @@ A function-reflection interface accesses function info.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12FunctionReflection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12FunctionReflection</b> also has these types of members:
+The <b>ID3D12FunctionReflection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12FunctionReflection</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ID3D12FunctionReflection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getconstantbufferbyindex">GetConstantBufferByIndex</a>
-</td>
-<td align="left" width="63%">
-Gets a constant buffer by index for a function.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getconstantbufferbyname">GetConstantBufferByName</a>
-</td>
-<td align="left" width="63%">
-Gets a constant buffer by name for a function.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Fills the function descriptor structure for the function.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getfunctionparameter">GetFunctionParameter</a>
-</td>
-<td align="left" width="63%">
-Gets the function parameter reflector.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getresourcebindingdesc">GetResourceBindingDesc</a>
-</td>
-<td align="left" width="63%">
-Gets a description of how a resource is bound to a function.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getresourcebindingdescbyname">GetResourceBindingDescByName</a>
-</td>
-<td align="left" width="63%">
-Gets a description of how a resource is bound to a function.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getvariablebyname">GetVariableByName</a>
-</td>
-<td align="left" width="63%">
-Gets a variable by name.
-        
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

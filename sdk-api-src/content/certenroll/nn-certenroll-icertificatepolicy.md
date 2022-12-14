@@ -55,7 +55,9 @@ The <b>ICertificatePolicy</b> interface can be used to specify a certificate pol
  The following syntax shows the <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) structure  used by both extension objects. The extension values are encoded by using <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) and included in the certificate request. A certificate policies collection consists of a sequence of <a href="/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) and optional sequence of policy qualifiers for each policy OID.<div class="alert"><b>Note</b>  Policy qualifiers, defined by the  <a href="/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifier">IPolicyQualifier</a> interface, are used by a <b>CertificatePolicies</b> extension but not by an <b>MSApplicationPolicies</b> extension.</div>
 <div> </div>
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 ----------------------------------------------------------------------
 -- CertificatePolicies
 -- XCN_OID_CERT_POLICIES (2.5.29.32)
@@ -76,7 +78,9 @@ PolicyQualifierInfo ::= SEQUENCE
    policyQualifierId   EncodedObjectID,
    qualifier           NOCOPYANY OPTIONAL
 }
-</code></pre> Issuance policies, defined by an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensioncertificatepolicies">IX509ExtensionCertificatePolicies</a> object, identify the extent to which the identity presented in the certificate is trusted. The following policies are predefined. The <i>x.y.z</i> portion of each OID represents a randomly generated numeric sequence that is unique for each forest. You can also create custom OIDs to represent custom issuance policies.<table>
+
+```
+ Issuance policies, defined by an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensioncertificatepolicies">IX509ExtensionCertificatePolicies</a> object, identify the extent to which the identity presented in the certificate is trusted. The following policies are predefined. The <i>x.y.z</i> portion of each OID represents a randomly generated numeric sequence that is unique for each forest. You can also create custom OIDs to represent custom issuance policies.<table>
 <tr>
 <th>Policy</th>
 <th>Description</th>
@@ -114,61 +118,7 @@ Application policies, defined by an <a href="/windows/desktop/api/certenroll/nn-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertificatePolicy</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertificatePolicy</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
-
-## -members
-
-The <b>ICertificatePolicy</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-icertificatepolicy-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the object from an OID.
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertificatePolicy</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-icertificatepolicy-get_objectid">ObjectId</a>
-
-
-</td>
-<td align="left" width="63%">
-Retrieves an OID for the policy object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-icertificatepolicy-get_policyqualifiers">PolicyQualifiers</a>
-
-
-</td>
-<td align="left" width="63%">
-Retrieves a collection of optional policy qualifiers that can be applied to a certificate policy.
-
-</td>
-</tr>
-</table>
+The <b>ICertificatePolicy</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertificatePolicy</b> also has these types of members:
 
 ## -see-also
 

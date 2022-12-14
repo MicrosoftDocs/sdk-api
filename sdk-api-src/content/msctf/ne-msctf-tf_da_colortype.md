@@ -56,15 +56,15 @@ Elements of the <b>TF_DA_COLORTYPE</b> enumeration specify the format of the col
 
 ## -enum-fields
 
-### -field TF_CT_NONE
+### -field TF_CT_NONE:0
 
 The structure contains no color data.
 
-### -field TF_CT_SYSCOLOR
+### -field TF_CT_SYSCOLOR:1
 
 The color is specified as a system color index. For more information about the system color indexes, see <a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>.
 
-### -field TF_CT_COLORREF
+### -field TF_CT_COLORREF:2
 
 The color is specified as an RGB value.
 

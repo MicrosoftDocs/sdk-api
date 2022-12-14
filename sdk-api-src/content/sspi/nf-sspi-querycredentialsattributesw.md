@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.QueryCredentialsAttributesW
 title: QueryCredentialsAttributesW function (sspi.h)
-description: Retrieves the attributes of a credential, such as the name associated with the credential.
+description: Retrieves the attributes of a credential, such as the name associated with the credential. (Unicode)
 helpviewer_keywords: ["QueryCredentialsAttributes","QueryCredentialsAttributes function [Security]","QueryCredentialsAttributesA","QueryCredentialsAttributesW","_ssp_querycredentialsattributes","security.querycredentialsattributes","sspi/QueryCredentialsAttributes","sspi/QueryCredentialsAttributesA","sspi/QueryCredentialsAttributesW"]
 old-location: security\querycredentialsattributes.htm
 tech.root: security
@@ -198,7 +198,7 @@ The memory that is available is not sufficient to complete the request.
 The <b>QueryCredentialsAttributes</b> function allows an application to determine several characteristics of a credential, including the name associated with the specified credentials.
 
 Querying the SECPKG_ATTR_CIPHER_STRENGTHS attribute returns a 
-<a href="/previous-versions/windows/desktop/legacy/aa380101(v=vs.85">SecPkgCred_CipherStrengths</a> structure. The cipher strength in this structure is the same as the cipher strength in the 
+<a href="/previous-versions/windows/desktop/legacy/aa380101(v=vs.85)">SecPkgCred_CipherStrengths</a> structure. The cipher strength in this structure is the same as the cipher strength in the 
 <a href="../schannel/ns-schannel-sch_credentials.md">SCH_CREDENTIALS</a> structure used when a credential was created.
 
 <div class="alert"><b>Note</b>  An application can find the system default cipher strength by querying this attribute with a default credential. A default credential is created by calling 

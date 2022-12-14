@@ -54,29 +54,10 @@ The <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents3">IWMPEvents4</a> interf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPEvents4</b> interface inherits from <b>IWMPEvents3</b>. <b>IWMPEvents4</b> also has these types of members:
+The <b>IWMPEvents4</b> interface inherits from <b>IWMPEvents3</b>. <b>IWMPEvents4</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMPEvents4</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/WMP/iwmpevents4-syncestimationcomplete">SyncEstimationComplete</a>
-</td>
-<td align="left" width="63%">
-Occurs when a size estimation, previously initiated by <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice3-estimatesyncsize">IWMPSyncDevice3::estimateSyncSize</a>, is complete.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

@@ -2,7 +2,6 @@
 UID: NE:d3d12video.D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE
 title: D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Specifies the parameter stages for video extension commands.
 tech.root: mf
@@ -38,31 +37,31 @@ Specifies the parameter stages for video extension commands.
 
 ## -enum-fields
 
-### -field D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_CREATION
+### -field D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_CREATION:0
 
 The parameter stage is in video extension command creation.
 
-### -field D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_INITIALIZATION
+### -field D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_INITIALIZATION:1
 
 The parameter stage is in video extension command initialization.
 
-### -field D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_EXECUTION
+### -field D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_EXECUTION:2
 
 The parameter stage is in video extension command execution.
 
-### -field D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_CAPS_INPUT
+### -field D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_CAPS_INPUT:3
 
 The parameter stage is input parameters passed to capabilities queries.
 
-### -field D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_CAPS_OUTPUT
+### -field D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_CAPS_OUTPUT:4
 
 The parameter stage is output parameters passed to capabilities queries.
 
-### -field D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_DEVICE_EXECUTE_INPUT
+### -field D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_DEVICE_EXECUTE_INPUT:5
 
 The parameter stage is device execution input.
 
-### -field D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_DEVICE_EXECUTE_OUTPUT
+### -field D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_DEVICE_EXECUTE_OUTPUT:6
 
 The parameter stage is device execution output.
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetLight
 title: IDirect3DDevice9::GetLight (d3d9.h)
-description: Retrieves a set of lighting properties that this device uses.
+description: The IDirect3DDevice9::GetLight method (d3d9.h) retrieves a set of lighting properties that this device uses.
 helpviewer_keywords: ["63c42786-98b1-2b46-00cc-ad05ab2594f4","GetLight","GetLight method [Direct3D 9]","GetLight method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetLight method","IDirect3DDevice9.GetLight","IDirect3DDevice9::GetLight","d3d9helper/IDirect3DDevice9::GetLight","direct3d9.idirect3ddevice9__getlight"]
 old-location: direct3d9\idirect3ddevice9__getlight.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getlight.htm
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: 63c42786-98b1-2b46-00cc-ad05ab2594f4, GetLight, GetLight method [Direct3D 9], GetLight method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetLight method, IDirect3DDevice9.GetLight, IDirect3DDevice9::GetLight, d3d9helper/IDirect3DDevice9::GetLight, direct3d9.idirect3ddevice9__getlight
 req.header: d3d9.h
 req.include-header: D3D9.h
@@ -61,7 +61,7 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Zero-based index of the lighting property set to retrieve. This method will fail if a lighting property has not been set for this index by calling the <a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setlight">IDirect3DDevice9::SetLight</a> method.
 
-### -param arg2 [out]
+### -param unnamedParam2 [out]
 
 Type: <b><a href="/windows/desktop/direct3d9/d3dlight9">D3DLight9</a>*</b>
 

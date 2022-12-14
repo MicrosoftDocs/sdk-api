@@ -58,7 +58,7 @@ api_name:
 Unloads any DLLs that are no longer in use, probably because the DLL no longer has any instantiated COM objects outstanding.
 <div class="alert"><b>Note</b>  This function is provided for compatibility with 16-bit Windows.</div><div> </div>
 
-## -parameters
+
 
 ## -remarks
 

@@ -43,6 +43,7 @@ api_location:
  - Shell32.dll
 api_name:
  - SHCreateShellItemArrayFromDataObject
+req.apiset: ext-ms-win-shell-shell32-l1-2-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SHCreateShellItemArrayFromDataObject function
@@ -76,11 +77,11 @@ When this method returns, contains the interface pointer requested in <i>riid</i
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-This function is usefull for Shell extensions that implement <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit">IShellExtInit</a> and are passed a data object to the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize">IShellExtInit::Initialize</a> method; for example, context menu handlers.
+This function is useful for Shell extensions that implement <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit">IShellExtInit</a> and are passed a data object to the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize">IShellExtInit::Initialize</a> method; for example, context menu handlers.
 
 This API lets you convert the data object into a Shell item that the handler can consume. It is recommend that handlers use a Shell item array rather than clipboard formats like <b>CF_HDROP</b> and <b>CFSTR_SHELLIDLIST</b> (also known as HIDA) as it leads to simpler code and allows some performance improvements.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzTask.get_Description
 title: IAzTask::get_Description (azroles.h)
-description: Sets or retrieves a comment that describes the task.
+description: Sets or retrieves a comment that describes the task. (Get)
 helpviewer_keywords: ["AzTask object [Security]","Description property","Description property [Security]","Description property [Security]","AzTask object","Description property [Security]","IAzTask interface","IAzTask interface [Security]","Description property","IAzTask.Description","IAzTask.get_Description","IAzTask::Description","IAzTask::get_Description","IAzTask::put_Description","azroles/IAzTask::Description","azroles/IAzTask::get_Description","azroles/IAzTask::put_Description","get_Description","security.iaztask_description"]
 old-location: security\iaztask_description.htm
 tech.root: security

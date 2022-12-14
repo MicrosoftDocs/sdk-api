@@ -1,7 +1,7 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetMute
 title: IMFPMediaPlayer::SetMute (mfplay.h)
-description: Mutes or unmutes the audio.
+description: Mutes or unmutes the audio. (IMFPMediaPlayer.SetMute)
 helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","SetMute method","IMFPMediaPlayer.SetMute","IMFPMediaPlayer::SetMute","SetMute","SetMute method [Media Foundation]","SetMute method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_setmute","mfplay/IMFPMediaPlayer::SetMute"]
 old-location: mf\imfpmediaplayer_setmute.htm
 tech.root: mf
@@ -64,7 +64,7 @@ Specify <b>TRUE</b> to mute the audio, or <b>FALSE</b> to unmute the audio.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

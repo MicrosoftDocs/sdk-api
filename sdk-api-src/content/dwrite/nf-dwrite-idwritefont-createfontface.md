@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFont.CreateFontFace
 title: IDWriteFont::CreateFontFace (dwrite.h)
-description: Creates a font face object for the font.
+description: Creates a font face object for the font. (IDWriteFont.CreateFontFace)
 helpviewer_keywords: ["CreateFontFace","CreateFontFace method [Direct Write]","CreateFontFace method [Direct Write]","IDWriteFont interface","IDWriteFont interface [Direct Write]","CreateFontFace method","IDWriteFont.CreateFontFace","IDWriteFont::CreateFontFace","directwrite.IDWriteFont_CreateFontFace","dwrite/IDWriteFont::CreateFontFace"]
 old-location: directwrite\IDWriteFont_CreateFontFace.htm
 tech.root: DirectWrite
@@ -64,7 +64,7 @@ When this method returns, contains an address of a pointer to the newly created 
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

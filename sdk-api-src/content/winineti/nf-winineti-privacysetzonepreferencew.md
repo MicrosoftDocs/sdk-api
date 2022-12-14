@@ -1,12 +1,12 @@
 ---
 UID: NF:winineti.PrivacySetZonePreferenceW
 title: PrivacySetZonePreferenceW function (winineti.h)
-description: Sets the privacy settings for a given URLZONE and PrivacyType.
+description: The PrivacySetZonePreferenceW function (winineti.h) sets the privacy settings for a given URLZONE and PrivacyType.
 helpviewer_keywords: ["PrivacySetZonePreferenceW","PrivacySetZonePreferenceW function [WinINet]","wininet.privacysetzonepreferencew","winineti/PrivacySetZonePreferenceW"]
 old-location: wininet\privacysetzonepreferencew.htm
 tech.root: wininet
 ms.assetid: 29c8dbc0-052e-40f4-a036-cb647d920055
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: PrivacySetZonePreferenceW, PrivacySetZonePreferenceW function [WinINet], wininet.privacysetzonepreferencew, winineti/PrivacySetZonePreferenceW
 req.header: winineti.h
 req.include-header: Wininet.h
@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Sets the privacy settings for a given <a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone?view=visualstudiosdk-2017">URLZONE</a> and <a href="/windows/desktop/WinInet/privacy-type">PrivacyType</a>.
+Sets the privacy settings for a given <a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone">URLZONE</a> and <a href="/windows/desktop/WinInet/privacy-type">PrivacyType</a>.
 
 ## -parameters
 
 ### -param dwZone [in]
 
-Value of type <b>DWORD</b> that specifies the <a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone?view=visualstudiosdk-2017">URLZONE</a>for which privacy settings are being set.
+Value of type <b>DWORD</b> that specifies the <a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone">URLZONE</a> for which privacy settings are being set.
 
 ### -param dwType [in]
 
@@ -79,9 +79,9 @@ Returns zero if successful. Otherwise, one of the errors defined in winerr.h is 
 
 These privacy settings for the Internet zone are found on the <b>Privacy</b> tab of the <b>Internet Options</b> dialog box.
 
-Setting the privacy options for the <a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone?view=visualstudiosdk-2017">URLZONE_INTERNET</a> involves setting the <a href="/windows/desktop/WinInet/privacy-templates">privacy templates</a> for both <a href="/windows/desktop/WinInet/privacy-type">PrivacyTypes</a>. The slider on the <b>Privacy</b> Menu in <b>Internet Options</b> only moves if privacy is set for both <b>PrivacyTypes</b>.
+Setting the privacy options for the <a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone">URLZONE_INTERNET</a> involves setting the <a href="/windows/desktop/WinInet/privacy-templates">privacy templates</a> for both <a href="/windows/desktop/WinInet/privacy-type">PrivacyTypes</a>. The slider on the <b>Privacy</b> Menu in <b>Internet Options</b> only moves if privacy is set for both <b>PrivacyTypes</b>.
 
-Custom privacy preferences for a given <a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone?view=visualstudiosdk-2017">URLZONE</a> and <a href="/windows/desktop/WinInet/privacy-type">PrivacyType</a> can be set through the <i>pszPreference</i> parameter. The <i>pszPreference</i> parameter can contain a series of rules separated by white space describing the privacy preferences. It is important to note that the rules themselves cannot contain white space. The <i>pszPreference</i> has the following structure where there can be multiple logical rules: &lt;<i>signature</i>&gt; &lt;<i>logical-rule</i>&gt; &lt;<i>special-rule</i>&gt;.
+Custom privacy preferences for a given <a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone">URLZONE</a> and <a href="/windows/desktop/WinInet/privacy-type">PrivacyType</a> can be set through the <i>pszPreference</i> parameter. The <i>pszPreference</i> parameter can contain a series of rules separated by white space describing the privacy preferences. It is important to note that the rules themselves cannot contain white space. The <i>pszPreference</i> has the following structure where there can be multiple logical rules: &lt;<i>signature</i>&gt; &lt;<i>logical-rule</i>&gt; &lt;<i>special-rule</i>&gt;.
 
 Currently, the signature must be set to IE6-P3PSettings/V1:.
 
@@ -123,19 +123,27 @@ An empty expression is also allowed. If an expression is empty, the left side ev
 
 The following examples show valid logical rules. 
 
-<pre class="syntax" xml:space="preserve"><code>/DEM=d/
+
+``` syntax
+/DEM=d/
     Deny a cookie whose compact policy contains the DEM token
 /CON&amp;!TEL=a/	
     Accept a cookie whose compact policy contains the CON token 
     and does not contain the TEL token
 /=a/		
-    Accept all cookies</code></pre>
+    Accept all cookies
+```
+
 Special rules are specified using the nopolicy, session, and always symbols. The nopolicy symbol is used to specify the action to taken when there is no compact policy. For example nopolicy=d specifies to downgrade all cookies without a compact policy to session cookies. The session symbol is used to specify the action to take on session cookies and can only be set to a. When session=a is specified, all session cookies are accepted regardless of the content of the compact policy. If this rule is not specified, session cookies are subject to the same rules as persistent cookies. Finally, the always symbol is used to specify to perform the same action for everything. For example, always=d specifies to deny all cookies regardless of the existence of a compact policy. Note that always=d is equivalent to /=d/.
 
 The following example shows a privacy preferences string that specifies to accept cookies for which the compact policy contains a FIN/CONi token pair, reject cookies with compact policies containing FIN/CON, FIN/CONo, FIN/CONa and GOV/PUB token pairs or a TEL token, and to prompt the user when a cookie's compact policy contains the UNR token. It also specifies to downgrade cookies without a compact policy to session cookies and to accept all cookies that do not match one of the given rules. Note that the first rule that evaluates to true determines the cookie action. 
 
-<pre class="syntax" xml:space="preserve"><code>IE6-P3PSettings/V1: /FIN&amp;CONi=a/ /FIN&amp;CONo=r/ /FIN&amp;CONa=r/ /FIN&amp;CON=r/ 
-/GOV&amp;PUB=r/ /TEL=r/ /UNR=p/ nopolicy=d /=a/</code></pre>
+
+``` syntax
+IE6-P3PSettings/V1: /FIN&amp;CONi=a/ /FIN&amp;CONo=r/ /FIN&amp;CONa=r/ /FIN&amp;CON=r/ 
+/GOV&amp;PUB=r/ /TEL=r/ /UNR=p/ nopolicy=d /=a/
+```
+
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
 <div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>

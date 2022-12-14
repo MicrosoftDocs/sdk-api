@@ -1,7 +1,7 @@
 ---
 UID: NF:ntdsapi.DsBindWithSpnExW
 title: DsBindWithSpnExW function (ntdsapi.h)
-description: Binds to a domain controller using the specified credentials and a specific service principal name (SPN) for mutual authentication.
+description: Binds to a domain controller using the specified credentials and a specific service principal name (SPN) for mutual authentication. (DsBindWithSpnExW)
 helpviewer_keywords: ["DsBindWithSpnEx","DsBindWithSpnEx function [Active Directory]","DsBindWithSpnExA","DsBindWithSpnExW","NTDSAPI_BIND_ALLOW_DELEGATION","NTDSAPI_BIND_FIND_BINDING","NTDSAPI_BIND_FORCE_KERBEROS","ad.dsbindwithspnex","ntdsapi/DsBindWithSpnEx","ntdsapi/DsBindWithSpnExA","ntdsapi/DsBindWithSpnExW"]
 old-location: ad\dsbindwithspnex.htm
 tech.root: ad
@@ -73,7 +73,7 @@ Pointer to a null-terminated string that contains the fully qualified DNS name o
 
 Contains an <a href="/windows/desktop/Rpc/rpc-auth-identity-handle">RPC_AUTH_IDENTITY_HANDLE</a> value that represents the credentials to be used for the bind. The 
     
-<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmakepasswordcredentialsa">DsMakePasswordCredentials</a>function is used to obtain this value. If this parameter is <b>NULL</b>,
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmakepasswordcredentialsa">DsMakePasswordCredentials</a> function is used to obtain this value. If this parameter is <b>NULL</b>,
     the credentials of the calling thread are used.
 
 

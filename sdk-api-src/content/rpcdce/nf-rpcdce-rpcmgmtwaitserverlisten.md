@@ -54,7 +54,7 @@ The
 <b>RpcMgmtWaitServerListen</b> function performs the <i>wait</i> operation usually associated with 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverlisten">RpcServerListen</a>.
 
-## -parameters
+
 
 ## -returns
 

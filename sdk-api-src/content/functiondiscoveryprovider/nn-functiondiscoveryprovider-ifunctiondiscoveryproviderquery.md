@@ -56,53 +56,5 @@ This interface is passed to all <a href="/windows/desktop/api/functiondiscoveryp
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFunctionDiscoveryProviderQuery</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFunctionDiscoveryProviderQuery</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IFunctionDiscoveryProviderQuery</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFunctionDiscoveryProviderQuery</b> also has these types of members:
 
-## -members
-
-The <b>IFunctionDiscoveryProviderQuery</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryproviderquery-getpropertyconstraints">GetPropertyConstraints</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current property constraints.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryproviderquery-getqueryconstraints">GetQueryConstraints</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current query constraints.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryproviderquery-isinstancequery">IsInstanceQuery</a>
-</td>
-<td align="left" width="63%">
-Determines whether a query is for a single function instance or multiple function instances.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryproviderquery-issubcategoryquery">IsSubcategoryQuery</a>
-</td>
-<td align="left" width="63%">
-Determines whether a query is for function instances in a specific subcategory.
-
-</td>
-</tr>
-</table>

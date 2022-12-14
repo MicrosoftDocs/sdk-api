@@ -3,9 +3,8 @@ UID: NF:rpcproxy.NdrProxyForwardingFunction27
 title: NdrProxyForwardingFunction27
 tech.root: Rpc
 ms.date: 07/14/2020
-ms.topic: language-reference
 targetos: Windows
-description: Stub function for COM proxies.
+description: Stub function for COM proxies. (NdrProxyForwardingFunction27)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -19,8 +18,8 @@ req.lib: rpcproxy.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -46,6 +45,8 @@ dev_langs:
 Stub function for COM proxies.
 
 As part of the implementation of COM proxies, the MIDL compiler generates code that uses these functions. The generated code is typically compiled into proxy DLLs, which allow interfaces to be marshaled. These functions are implementation details for the COM proxy infrastructure, and you should not call them directly.
+
+
 
 ## -remarks
 

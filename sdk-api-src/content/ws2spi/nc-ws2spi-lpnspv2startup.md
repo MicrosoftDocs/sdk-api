@@ -59,7 +59,7 @@ The
 
 A pointer to the GUID of the specific namespace provider to notify.
 
-### -param *ppvClientSessionArg [in]
+### -param ppvClientSessionArg [in]
 
 A pointer to the client session.
 

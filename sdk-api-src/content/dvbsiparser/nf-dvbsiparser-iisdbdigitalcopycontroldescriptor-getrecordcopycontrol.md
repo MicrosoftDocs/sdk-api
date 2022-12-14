@@ -57,7 +57,7 @@ Gets copy control data from a specified component in an Integrated Services Digi
 ### -param bRecordIndex [in]
 
 Specifies the record number for the component,
-  indexed from zero. Call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdigitalcopycontroldescriptor-getcountofrecords">IIsdbDigitalCompyControlDescriptor::GetCountOfRecords</a>method to get the number of records in the digital copy control descriptor.
+  indexed from zero. Call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdigitalcopycontroldescriptor-getcountofrecords">IIsdbDigitalCompyControlDescriptor::GetCountOfRecords</a> method to get the number of records in the digital copy control descriptor.
 
 ### -param pbComponentTag [out]
 
@@ -231,11 +231,11 @@ Output with pseudosync pulse + four-line reversed division burst insertion.
 
 ### -param pbMaximumBitrate [out]
 
-Receives the maximum trasmission rate for transport stream packets, in units of 250 kbps.
+Receives the maximum transmission rate for transport stream packets, in units of 250 kbps.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

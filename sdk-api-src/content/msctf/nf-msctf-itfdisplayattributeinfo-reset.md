@@ -52,7 +52,7 @@ api_name:
 
 Resets the display attribute data to its default value.
 
-## -parameters
+
 
 ## -returns
 

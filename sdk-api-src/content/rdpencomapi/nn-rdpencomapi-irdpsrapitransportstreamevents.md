@@ -54,47 +54,7 @@ Exposes methods called by the  stream interface (<a href="/windows/desktop/api/r
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPITransportStreamEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRDPSRAPITransportStreamEvents</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IRDPSRAPITransportStreamEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstreamevents-onreadcompleted">OnReadCompleted</a>
-</td>
-<td align="left" width="63%">
-Notifies the RDP stack that a read operation has completed. The RDP stack resumes ownership of the stream buffer and uses it for subsequent operations.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstreamevents-onstreamclosed">OnStreamClosed</a>
-</td>
-<td align="left" width="63%">
-Notifies the RDP stack that the connection was closed. If an error occurred, the stream interface should provide a return value that specifies which error occurred.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstreamevents-onwritecompleted">OnWriteCompleted</a>
-</td>
-<td align="left" width="63%">
-Notifies the RDP stack that a write operation has completed. The RDP stack resumes ownership of the stream buffer and uses it for subsequent operations.
-
-</td>
-</tr>
-</table>
+The <b>IRDPSRAPITransportStreamEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRDPSRAPITransportStreamEvents</b> also has these types of members:
 
 ## -see-also
 

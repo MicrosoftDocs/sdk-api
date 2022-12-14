@@ -1,11 +1,11 @@
 ---
 UID: NF:chstring.CHString.FormatMessageW(LPCWSTR,...)
 title: CHString::FormatMessageW
-description: 
+description: The CHString::FormatMessageW (Unicode) method formats a message string. 
 tech.root: wmi
 helpviewer_keywords: ["CHString::FormatMessageW"]
 ms.assetid: 32200a5e-1fdc-4ca1-bee3-0846da8c22a5
-ms.date: 05/13/2019
+ms.date: 08/10/2022
 ms.keywords: CHString::FormatMessageW
 targetos: Windows
 req.assembly: 
@@ -60,7 +60,7 @@ A pointer to the formal control string.
 The control string is scanned for inserts and formatted accordingly.
 The format string is similar to the runtime function, **printf**-style format strings, except that **printf** allows the parameters to be inserted in an arbitrary order.
 
-### -param arg2
+### -param ...
 
 Argument list.
 
@@ -103,3 +103,4 @@ assert(str == L"4 of 5 developers agree: Golf is Best!");
 <a href="/windows/desktop/WmiSdk/chstring">CHString</a>
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-format(uint_---)">CHString::Format</a>
+

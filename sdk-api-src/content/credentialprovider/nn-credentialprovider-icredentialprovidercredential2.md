@@ -54,29 +54,7 @@ Extends the <a href="/windows/desktop/api/credentialprovider/nn-credentialprovid
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICredentialProviderCredential2</b> interface inherits from <a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential">ICredentialProviderCredential</a>. <b>ICredentialProviderCredential2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ICredentialProviderCredential2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential2-getusersid">GetUserSid</a>
-</td>
-<td align="left" width="63%">
-Retrieves the SID of the user that is associated with this credential.
-
-</td>
-</tr>
-</table>
+The <b>ICredentialProviderCredential2</b> interface inherits from <a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential">ICredentialProviderCredential</a>. <b>ICredentialProviderCredential2</b> also has these types of members:
 
 ## -remarks
 

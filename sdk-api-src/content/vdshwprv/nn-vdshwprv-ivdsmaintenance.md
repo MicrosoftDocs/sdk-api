@@ -1,12 +1,12 @@
 ---
 UID: NN:vdshwprv.IVdsMaintenance
 title: IVdsMaintenance (vdshwprv.h)
-description: Provides methods for performing maintenance operations on a subsystem, controller, LUN, or drive.
+description: The IVdsMaintenance interface (vdshwprv.h) provides methods for performing maintenance operations on a subsystem, controller, LUN, or drive. 
 helpviewer_keywords: ["IVdsMaintenance","IVdsMaintenance interface [VDS]","IVdsMaintenance interface [VDS]","described","base.ivdsmaintenance","vds/IVdsMaintenance","vdshwprv/IVdsMaintenance"]
 old-location: base\ivdsmaintenance.htm
 tech.root: base
 ms.assetid: 08c01459-151a-4dd8-bea5-412076e39a8a
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsMaintenance, IVdsMaintenance interface [VDS], IVdsMaintenance interface [VDS],described, base.ivdsmaintenance, vds/IVdsMaintenance, vdshwprv/IVdsMaintenance
 req.header: vdshwprv.h
 req.include-header: 
@@ -57,47 +57,7 @@ Provides methods for performing maintenance operations on a subsystem, controlle
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsMaintenance</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsMaintenance</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVdsMaintenance</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-pulsemaintenance">PulseMaintenance</a>
-</td>
-<td align="left" width="63%">
-Performs the specified operation a specified number of times.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-startmaintenance">StartMaintenance</a>
-</td>
-<td align="left" width="63%">
-Starts a maintenance operation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-stopmaintenance">StopMaintenance</a>
-</td>
-<td align="left" width="63%">
-Stops a maintenance operation.
-
-</td>
-</tr>
-</table>
+The <b>IVdsMaintenance</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsMaintenance</b> also has these types of members:
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["EngineAdapterExportEngineData","EngineAdapterExportEngine
 old-location: secbiomet\engineadapterexportenginedata.htm
 tech.root: SecBioMet
 ms.assetid: 9ac11720-7dbf-4479-b2c5-78cd53494e21
-ms.date: 12/05/2018
+ms.date: 11/19/2020
 ms.keywords: EngineAdapterExportEngineData, EngineAdapterExportEngineData callback function [Windows Biometric Framework API], PIBIO_ENGINE_EXPORT_ENGINE_DATA_FN, PIBIO_ENGINE_EXPORT_ENGINE_DATA_FN callback, WINBIO_DATA_FLAG_INTEGRITY, WINBIO_DATA_FLAG_INTERMEDIATE, WINBIO_DATA_FLAG_PRIVACY, WINBIO_DATA_FLAG_PROCESSED, WINBIO_DATA_FLAG_RAW, WINBIO_DATA_FLAG_SIGNED, secbiomet.engineadapterexportenginedata, winbio_adapter/EngineAdapterExportEngineData
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
@@ -63,31 +63,31 @@ Pointer to a <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winb
 A value that specifies the properties of the <a href="/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure returned by the engine. This can be a bitwise <b>OR</b> of the following security and processing level flags:
 
 
+ **WINBIO_DATA_FLAG_PRIVACY**
 
+The data is encrypted.
+            
+            
+* **WINBIO_DATA_FLAG_INTEGRITY**
+The data is digitally signed or protected by a message authentication code (MAC).
+            
+            
+* **WINBIO_DATA_FLAG_SIGNED**
+If this flag and the <mark>WINBIO_DATA_FLAG_INTEGRITY</mark> flag are set, the data is signed. If this flag is not set but the <mark>WINBIO_DATA_FLAG_INTEGRITY</mark> flag is set, a MAC is computed.
+            
+            
+* **WINBIO_DATA_FLAG_RAW**
+The data is in the format with which it was captured.
+            
+            
+* **WINBIO_DATA_FLAG_INTERMEDIATE**
+The data is not raw but has not been completely processed.
+            
+            
+* **WINBIO_DATA_FLAG_PROCESSED**
+The data has been processed.
 
-##### )
-
-
-
-##### )
-
-
-
-###### )
-
-
-
-##### )
-
-
-
-##### )
-
-
-
-##### )
-
-### -param *SampleBuffer [out]
+### -param SampleBuffer [out]
 
 Address of a variable that receives a pointer to a <a href="/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure that contains the feature set or template.
 

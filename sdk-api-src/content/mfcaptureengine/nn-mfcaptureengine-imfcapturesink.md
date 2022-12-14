@@ -54,65 +54,7 @@ Controls a capture sink, which is an object that receives one or more streams fr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCaptureSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFCaptureSink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFCaptureSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-addstream">AddStream</a>
-</td>
-<td align="left" width="63%">
-Connects a stream from the capture source to this capture sink.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-getoutputmediatype">GetOutputMediaType</a>
-</td>
-<td align="left" width="63%">
-Gets the output format for a stream on this capture sink.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-getservice">GetService</a>
-</td>
-<td align="left" width="63%">
-Queries the underlying <a href="/windows/desktop/medfound/sink-writer">Sink Writer</a> object for an interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-prepare">Prepare</a>
-</td>
-<td align="left" width="63%">
-Prepares the capture sink by loading any required pipeline components, such as encoders, video processors, and media sinks.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-removeallstreams">RemoveAllStreams</a>
-</td>
-<td align="left" width="63%">
-Removes all streams from the capture sink.
-
-</td>
-</tr>
-</table>
+The <b>IMFCaptureSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFCaptureSink</b> also has these types of members:
 
 ## -remarks
 

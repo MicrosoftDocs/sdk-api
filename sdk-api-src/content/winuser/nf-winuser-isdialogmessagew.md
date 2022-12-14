@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.IsDialogMessageW
 title: IsDialogMessageW function (winuser.h)
-description: Determines whether a message is intended for the specified dialog box and, if it is, processes the message.
+description: Determines whether a message is intended for the specified dialog box and, if it is, processes the message. (Unicode)
 helpviewer_keywords: ["IsDialogMessage","IsDialogMessage function [Dialog Boxes]","IsDialogMessageA","IsDialogMessageW","_win32_IsDialogMessage","_win32_isdialogmessage_cpp","dlgbox.isdialogmessage","winui._win32_isdialogmessage","winuser/IsDialogMessage","winuser/IsDialogMessageA","winuser/IsDialogMessageW"]
 old-location: dlgbox\isdialogmessage.htm
 tech.root: dlgbox
@@ -46,6 +46,7 @@ api_name:
  - IsDialogMessage
  - IsDialogMessageA
  - IsDialogMessageW
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-3 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # IsDialogMessageW function

@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupQueryInfOriginalFileInformationA
 title: SetupQueryInfOriginalFileInformationA function (setupapi.h)
-description: The SetupQueryInfOriginalFileInformation function returns the original name of an OEM INF file.
+description: The SetupQueryInfOriginalFileInformation function returns the original name of an OEM INF file. (ANSI)
 helpviewer_keywords: ["SetupQueryInfOriginalFileInformation","SetupQueryInfOriginalFileInformation function [Setup API]","SetupQueryInfOriginalFileInformationA","SetupQueryInfOriginalFileInformationW","_setupapi_setupqueryinforiginalfileinformation","setup.setupqueryinforiginalfileinformation","setupapi/SetupQueryInfOriginalFileInformation","setupapi/SetupQueryInfOriginalFileInformationA","setupapi/SetupQueryInfOriginalFileInformationW"]
 old-location: setup\setupqueryinforiginalfileinformation.htm
 tech.root: setup

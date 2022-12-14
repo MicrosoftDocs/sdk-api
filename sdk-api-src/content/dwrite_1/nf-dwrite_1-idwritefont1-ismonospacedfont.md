@@ -53,7 +53,7 @@ api_name:
 Determines if the font is monospaced, that is, the characters are the
     same fixed-pitch width (non-proportional).
 
-## -parameters
+
 
 ## -returns
 

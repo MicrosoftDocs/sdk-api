@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathMatchSpecExA
 title: PathMatchSpecExA function (shlwapi.h)
-description: Matches a file name from a path against one or more file name patterns.
+description: Matches a file name from a path against one or more file name patterns. (ANSI)
 helpviewer_keywords: ["PMSF_DONT_STRIP_SPACES","PMSF_MULTIPLE","PMSF_NORMAL","PathMatchSpecEx","PathMatchSpecEx function [Windows Shell]","PathMatchSpecExA","PathMatchSpecExW","_win32_PathMatchSpecEx","shell.PathMatchSpecEx","shlwapi/PathMatchSpecEx","shlwapi/PathMatchSpecExA","shlwapi/PathMatchSpecExW"]
 old-location: shell\PathMatchSpecEx.htm
 tech.root: shell
@@ -63,13 +63,13 @@ Matches a file name from a path against one or more file name patterns.
 
 Type: <b>LPCTSTR</b>
 
-A pointer to a null-terminated string of maximum length MAX_PATH that contains the path from which the file name to be matched is taken.
+A pointer to a null-terminated string that contains the path from which the file name to be matched is taken.
 
 ### -param pszSpec [in]
 
 Type: <b>LPCTSTR</b>
 
-A pointer to a null-terminated string of maximum length MAX_PATH that contains the file name pattern for which to search. This can be the exact name, or it can contain wildcard characters. If exactly one pattern is specified, set the <b>PMSF_NORMAL</b> flag in <i>dwFlags</i>. If more than one pattern is specified, separate them with semicolons and set the <b>PMSF_MULTIPLE</b> flag.
+A pointer to a null-terminated string that contains the file name pattern for which to search. This can be the exact name, or it can contain wildcard characters. If exactly one pattern is specified, set the <b>PMSF_NORMAL</b> flag in <i>dwFlags</i>. If more than one pattern is specified, separate them with semicolons and set the <b>PMSF_MULTIPLE</b> flag.
 
 ### -param dwFlags [in]
 
@@ -93,7 +93,7 @@ The <i>pszSpec</i> parameter points to a semicolon-delimited list of file name p
 
 #### PMSF_DONT_STRIP_SPACES (0x00010000)
 
-If <b>PMSF_NORMAL</b> is used, ignore leading spaces in the string pointed to by <i>pszSpec</i>. If <b>PMSF_MULTIPLE</b> is used, ignore leading spaces in each file type contained in the string pointed to by <i>pszSpec</i>. This flag can be combined with <b>PMSF_NORMAL</b> and <b>PMSF_MULTIPLE</b>.
+If <b>PMSF_NORMAL</b> is used, don't ignore leading spaces in the string pointed to by <i>pszSpec</i>. If <b>PMSF_MULTIPLE</b> is used, don't ignore leading spaces in each file type contained in the string pointed to by <i>pszSpec</i>. This flag can be combined with <b>PMSF_NORMAL</b> and <b>PMSF_MULTIPLE</b>.
 
 ## -returns
 

@@ -58,38 +58,7 @@ Most Windows audio adapter drivers support the Windows Driver Model (WDM) and us
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioOutputSelector</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioOutputSelector</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAudioOutputSelector</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iaudiooutputselector-getselection">GetSelection</a>
-</td>
-<td align="left" width="63%">
-Gets the local ID of the part that is connected to the selector output that is currently selected.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iaudiooutputselector-setselection">SetSelection</a>
-</td>
-<td align="left" width="63%">
-Selects one of the outputs of the output selector.
-
-</td>
-</tr>
-</table>
+The <b>IAudioOutputSelector</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioOutputSelector</b> also has these types of members:
 
 ## -see-also
 

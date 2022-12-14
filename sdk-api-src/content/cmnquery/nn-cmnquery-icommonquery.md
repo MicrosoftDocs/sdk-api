@@ -65,29 +65,7 @@ hr = CoCreateInstance(CLSID_CommonQuery,
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICommonQuery</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICommonQuery</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ICommonQuery</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow">OpenQueryWindow</a>
-</td>
-<td align="left" width="63%">
-Displays the directory service query dialog box.
-
-</td>
-</tr>
-</table>
+The <b>ICommonQuery</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICommonQuery</b> also has these types of members:
 
 ## -see-also
 

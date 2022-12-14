@@ -1,12 +1,12 @@
 ---
 UID: NS:rpcdce._RPC_BINDING_HANDLE_TEMPLATE_V1_W
 title: RPC_BINDING_HANDLE_TEMPLATE_V1_W (rpcdce.h)
-description: Contains the basic options with which to create an RPC binding handle.
+description: Contains the basic options with which to create an RPC binding handle. (Unicode)
 helpviewer_keywords: ["*PRPC_BINDING_HANDLE_TEMPLATE_V1_W","RPC_BHT_OBJECT_UUID_VALID","RPC_BINDING_HANDLE_TEMPLATE","RPC_BINDING_HANDLE_TEMPLATE structure [RPC]","RPC_BINDING_HANDLE_TEMPLATE_V1","RPC_BINDING_HANDLE_TEMPLATE_V1 structure [RPC]","RPC_BINDING_HANDLE_TEMPLATE_V1_A","RPC_BINDING_HANDLE_TEMPLATE_V1_W","_RPC_BINDING_HANDLE_TEMPLATE_V1_A","_RPC_BINDING_HANDLE_TEMPLATE_V1_W","ncacn_http","ncacn_ip_tcp","ncacn_np","ncalrpc","rpc.rpc_binding_handle_template_v1","rpcdce/RPC_BINDING_HANDLE_TEMPLATE","rpcdce/RPC_BINDING_HANDLE_TEMPLATE_V1"]
 old-location: rpc\rpc_binding_handle_template_v1.htm
 tech.root: Rpc
 ms.assetid: b5712e0b-1751-4e5f-8000-da2a330da202
-ms.date: 12/05/2018
+ms.date: 11/19/2020
 ms.keywords: '*PRPC_BINDING_HANDLE_TEMPLATE_V1_W, RPC_BHT_OBJECT_UUID_VALID, RPC_BINDING_HANDLE_TEMPLATE, RPC_BINDING_HANDLE_TEMPLATE structure [RPC], RPC_BINDING_HANDLE_TEMPLATE_V1, RPC_BINDING_HANDLE_TEMPLATE_V1 structure [RPC], RPC_BINDING_HANDLE_TEMPLATE_V1_A, RPC_BINDING_HANDLE_TEMPLATE_V1_W, _RPC_BINDING_HANDLE_TEMPLATE_V1_A, _RPC_BINDING_HANDLE_TEMPLATE_V1_W, ncacn_http, ncacn_ip_tcp, ncacn_np, ncalrpc, rpc.rpc_binding_handle_template_v1, rpcdce/RPC_BINDING_HANDLE_TEMPLATE, rpcdce/RPC_BINDING_HANDLE_TEMPLATE_V1'
 req.header: rpcdce.h
 req.include-header: Rpc.h
@@ -89,21 +89,10 @@ The <b>ObjectUuid</b> member contains a valid value. If this flag is not set, th
 
 A <a href="/windows/desktop/Rpc/protocol-sequence-constants">protocol sequence string literal</a> associated with this binding handle.  It can be one of the following values.
 
-
-
-##### )
-
-
-
-##### )
-
-
-
-##### )
-
-
-
-##### )
+**ncalrpc** - Specifies local RPC.
+**ncacn_ip_tcp** - Specifies RPC over TCP/IP.
+**ncacn_np** - Specifies RPC over named pipes.
+**ncacn_http** - Specifies RPC over HTTP.
 
 ### -field NetworkAddress
 

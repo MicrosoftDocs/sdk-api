@@ -52,7 +52,7 @@ api_name:
 
 Destroys the view window.
 
-## -parameters
+
 
 ## -returns
 

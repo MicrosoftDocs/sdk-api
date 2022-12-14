@@ -47,45 +47,13 @@ api_name:
 
 # IXpsOMPrintTicketResource interface
 
-
 ## -description
 
 Provides an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface to a <b>PrintTicket</b> resource.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMPrintTicketResource</b> interface inherits from <a href="/previous-versions/windows/desktop/dd372762(v=vs.85)">IXpsOMResource</a>. <b>IXpsOMPrintTicketResource</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IXpsOMPrintTicketResource</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomprintticketresource-getstream">GetStream</a>
-</td>
-<td align="left" width="63%">
-Gets a new, read-only copy of the stream that is associated with this resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomprintticketresource-setcontent">SetContent</a>
-</td>
-<td align="left" width="63%">
-Sets the read-only stream to be  associated with this resource.
-
-</td>
-</tr>
-</table>
+The <b>IXpsOMPrintTicketResource</b> interface inherits from <a href="/previous-versions/windows/desktop/dd372762(v=vs.85)">IXpsOMResource</a>. <b>IXpsOMPrintTicketResource</b> also has these types of members:
 
 ## -see-also
 

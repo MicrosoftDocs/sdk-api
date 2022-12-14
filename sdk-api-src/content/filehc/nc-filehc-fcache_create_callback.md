@@ -1,7 +1,7 @@
 ---
 UID: NC:filehc.FCACHE_CREATE_CALLBACK
 title: FCACHE_CREATE_CALLBACK (filehc.h)
-description: A callback function that is used to create items in the cache.
+description: A callback function that is used to create items in the cache. (FCACHE_CREATE_CALLBACK)
 helpviewer_keywords: ["FCACHE_CREATE_CALLBACK","FCACHE_CREATE_CALLBACK callback","FCACHE_CREATE_CALLBACK callback function [Windows API]","filehc/FCACHE_CREATE_CALLBACK","winprog.fcache_create_callback"]
 old-location: winprog\fcache_create_callback.htm
 tech.root: winprog
@@ -62,11 +62,11 @@ The name of the file.
 
 User-provided data to <a href="/windows/desktop/api/filehc/nf-filehc-cachecreatefile">CacheCreateFile</a>.
 
-### -param *cbFileSize [out]
+### -param cbFileSize [out]
 
 The size of the file.
 
-### -param *cbFileSizeHigh [out]
+### -param cbFileSizeHigh [out]
 
 The location to return the high <b>DWORD</b> of the file size.
 

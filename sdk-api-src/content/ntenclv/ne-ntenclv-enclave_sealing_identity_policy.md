@@ -54,7 +54,7 @@ Defines values  that specify how another enclave must be related to the enclave 
 
 ## -enum-fields
 
-### -field ENCLAVE_IDENTITY_POLICY_SEAL_INVALID
+### -field ENCLAVE_IDENTITY_POLICY_SEAL_INVALID:0
 
 This value is not valid. Do not use.
 

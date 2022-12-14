@@ -76,7 +76,7 @@ The size in bytes of any change
        <a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a> function. In C, you can 
        determine a record size by using the following code example.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

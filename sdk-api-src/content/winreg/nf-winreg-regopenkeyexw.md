@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegOpenKeyExW
 title: RegOpenKeyExW function (winreg.h)
-description: Opens the specified registry key. Note that key names are not case sensitive.
+description: Opens the specified registry key. Note that key names are not case sensitive. (Unicode)
 helpviewer_keywords: ["REG_OPTION_OPEN_LINK","RegOpenKeyEx","RegOpenKeyEx function","RegOpenKeyExA","RegOpenKeyExW","_win32_regopenkeyex","base.regopenkeyex","winreg/RegOpenKeyEx","winreg/RegOpenKeyExA","winreg/RegOpenKeyExW"]
 old-location: base\regopenkeyex.htm
 tech.root: winprog
@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - RegOpenKeyExW
  - winreg/RegOpenKeyExW
@@ -87,9 +87,11 @@ The name of the registry subkey to be opened.
 
 Key names are not case sensitive.
 
-The <i>lpSubKey</i> parameter can be a pointer to an empty string. If <i>lpSubKey</i> is a pointer to an empty string and <i>hKey</i> is HKEY_CLASSES_ROOT, <i>phkResult</i> receives the same <i>hKey</i> handle passed into the function. Otherwise, <i>phkResult</i> receives a new handle to the key specified by <i>hKey</i>.
-
-The <i>lpSubKey</i> parameter can be <b>NULL</b> only if <i>hKey</i> is one of the predefined keys. If <i>lpSubKey</i> is <b>NULL</b> and <i>hKey</i> is HKEY_CLASSES_ROOT, <i>phkResult</i> receives a new handle to the key specified by <i>hKey</i>. Otherwise, <i>phkResult</i> receives the same <i>hKey</i> handle passed in to the function.
+If the <i>lpSubKey</i> parameter is <b>NULL</b> or a pointer to an empty string,
+and if <i>hKey</i> is a predefined key,
+then the system refreshes the predefined key,
+and <i>phkResult</i> receives the same <i>hKey</i> handle passed into the function.
+Otherwise, <i>phkResult</i> receives a new handle to the opened key.
 
 For more information, see 
 <a href="/windows/desktop/SysInfo/registry-element-size-limits">Registry Element Size Limits</a>.
@@ -147,7 +149,23 @@ Note that operations that access certain registry keys are redirected. For more 
 
 #### Examples
 
-For an example, see 
+```cpp
+lResult = RegOpenKeyEx (hKeyRoot, lpSubKey, 0, KEY_READ, &hKey);
+
+if (lResult != ERROR_SUCCESS) 
+{
+    if (lResult == ERROR_FILE_NOT_FOUND) {
+        printf("Key not found.\n");
+        return TRUE;
+    } 
+    else {
+        printf("Error opening key.\n");
+        return FALSE;
+    }
+}
+```
+
+To see this example in context, see 
 <a href="/windows/desktop/SysInfo/deleting-a-key-with-subkeys">Deleting a Key with Subkeys</a>.
 
 <div class="code"></div>

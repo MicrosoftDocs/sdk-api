@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.SetArguments
 title: IShellLinkA::SetArguments (shobjidl_core.h)
-description: Sets the command-line arguments for a Shell link object.
+description: Sets the command-line arguments for a Shell link object. (ANSI)
 helpviewer_keywords: ["IShellLink interface [Windows Shell]","SetArguments method","IShellLink::SetArguments","IShellLinkA interface [Windows Shell]","SetArguments method","IShellLinkA.SetArguments","IShellLinkA::SetArguments","IShellLinkW interface [Windows Shell]","SetArguments method","IShellLinkW::SetArguments","SetArguments","SetArguments method [Windows Shell]","SetArguments method [Windows Shell]","IShellLink interface","SetArguments method [Windows Shell]","IShellLinkA interface","SetArguments method [Windows Shell]","IShellLinkW interface","_win32_IShellLink_SetArguments","shell.IShellLink_SetArguments","shobjidl_core/IShellLink::SetArguments","shobjidl_core/IShellLinkA::SetArguments","shobjidl_core/IShellLinkW::SetArguments"]
 old-location: shell\IShellLink_SetArguments.htm
 tech.root: shell
@@ -66,7 +66,7 @@ A pointer to a buffer that contains the new command-line arguments. In the case 
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

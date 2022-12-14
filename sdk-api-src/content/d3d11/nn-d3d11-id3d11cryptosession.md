@@ -54,65 +54,7 @@ Represents a cryptographic session.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11CryptoSession</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>. <b>ID3D11CryptoSession</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D11CryptoSession</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11cryptosession-getcertificate">GetCertificate</a>
-</td>
-<td align="left" width="63%">
-Gets the driver's certificate chain.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11cryptosession-getcertificatesize">GetCertificateSize</a>
-</td>
-<td align="left" width="63%">
-Gets the size of the driver's certificate chain.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11cryptosession-getcryptosessionhandle">GetCryptoSessionHandle</a>
-</td>
-<td align="left" width="63%">
-Gets a handle to the cryptographic session.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11cryptosession-getcryptotype">GetCryptoType</a>
-</td>
-<td align="left" width="63%">
-Gets the type of encryption that is supported by this session.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11cryptosession-getdecoderprofile">GetDecoderProfile</a>
-</td>
-<td align="left" width="63%">
-Gets the decoding profile of the session.
-
-</td>
-</tr>
-</table>
+The <b>ID3D11CryptoSession</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>. <b>ID3D11CryptoSession</b> also has these types of members:
 
 ## -remarks
 

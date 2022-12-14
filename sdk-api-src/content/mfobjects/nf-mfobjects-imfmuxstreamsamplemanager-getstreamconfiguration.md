@@ -55,7 +55,7 @@ api_name:
 
 Gets the active stream configuration for the media source, which defines the set of substreams that are included  the  multiplexed output.
 
-## -parameters
+
 
 ## -returns
 

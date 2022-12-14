@@ -56,11 +56,11 @@ Defines the values that specify whether to open a channel or exported log file.
 
 ## -enum-fields
 
-### -field EvtOpenChannelPath
+### -field EvtOpenChannelPath:0x1
 
 Open a channel.
 
-### -field EvtOpenFilePath
+### -field EvtOpenFilePath:0x2
 
 Open an exported log file.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderQueryConstraintCollection.GetCount
 title: IProviderQueryConstraintCollection::GetCount (functiondiscoveryprovider.h)
-description: Gets the number of items in the collection.
+description: Gets the number of items in the collection. (IProviderQueryConstraintCollection.GetCount)
 helpviewer_keywords: ["GetCount","GetCount method","GetCount method","IProviderQueryConstraintCollection interface","IProviderQueryConstraintCollection interface","GetCount method","IProviderQueryConstraintCollection.GetCount","IProviderQueryConstraintCollection::GetCount","functiondiscoveryprovider/IProviderQueryConstraintCollection::GetCount","ncd.iproviderqueryconstraintcollection_getcount"]
 old-location: ncd\iproviderqueryconstraintcollection_getcount.htm
 tech.root: ncd
@@ -62,7 +62,7 @@ The number of items.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

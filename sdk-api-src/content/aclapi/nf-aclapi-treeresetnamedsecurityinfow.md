@@ -1,7 +1,7 @@
 ---
 UID: NF:aclapi.TreeResetNamedSecurityInfoW
 title: TreeResetNamedSecurityInfoW function (aclapi.h)
-description: Resets specified security information in the security descriptor of a specified tree of objects.
+description: Resets specified security information in the security descriptor of a specified tree of objects. (Unicode)
 helpviewer_keywords: ["TreeResetNamedSecurityInfo","TreeResetNamedSecurityInfo function [Security]","TreeResetNamedSecurityInfoA","TreeResetNamedSecurityInfoW","aclapi/TreeResetNamedSecurityInfo","aclapi/TreeResetNamedSecurityInfoA","aclapi/TreeResetNamedSecurityInfoW","security.treeresetnamedsecurityinfo"]
 old-location: security\treeresetnamedsecurityinfo.htm
 tech.root: security
@@ -141,7 +141,7 @@ This function is similar to the <a href="/windows/desktop/api/aclapi/nf-aclapi-t
 
 <ul>
 <li>If the <i>KeepExplicit</i> parameter of <b>TreeResetNamedSecurityInfo</b> is set to <b>TRUE</b>, then the function is equivalent to  <a href="/windows/desktop/api/aclapi/nf-aclapi-treesetnamedsecurityinfoa">TreeSetNamedSecurityInfo</a> with the  <i>dwAction</i> parameter set to  TREE_SEC_INFO_RESET_KEEP_EXPLICIT.</li>
-<li>If the <i>KeepExplicit</i> parameter of <b>TreeResetNamedSecurityInfo</b> is set to <b>FALSE</b>, then the function is equivalent to  <a href="/windows/desktop/api/aclapi/nf-aclapi-treesetnamedsecurityinfoa">TreeSetNamedSecurityInfo</a> with the  <i>dwAction</i>parameter set to  TREE_SEC_INFO_RESET.</li>
+<li>If the <i>KeepExplicit</i> parameter of <b>TreeResetNamedSecurityInfo</b> is set to <b>FALSE</b>, then the function is equivalent to  <a href="/windows/desktop/api/aclapi/nf-aclapi-treesetnamedsecurityinfoa">TreeSetNamedSecurityInfo</a> with the <i>dwAction</i> parameter set to  TREE_SEC_INFO_RESET.</li>
 </ul>
 
 

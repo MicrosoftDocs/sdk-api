@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionVariable.GetInterfaceSlot
 title: ID3D12ShaderReflectionVariable::GetInterfaceSlot (d3d12shader.h)
-description: Gets the corresponding interface slot for a variable that represents an interface pointer.
+description: Gets the corresponding interface slot for a variable that represents an interface pointer. (ID3D12ShaderReflectionVariable.GetInterfaceSlot)
 helpviewer_keywords: ["GetInterfaceSlot","GetInterfaceSlot method","GetInterfaceSlot method","ID3D12ShaderReflectionVariable interface","ID3D12ShaderReflectionVariable interface","GetInterfaceSlot method","ID3D12ShaderReflectionVariable.GetInterfaceSlot","ID3D12ShaderReflectionVariable::GetInterfaceSlot","d3d12shader/ID3D12ShaderReflectionVariable::GetInterfaceSlot","direct3d12.id3d12shaderreflectionvariable_getinterfaceslot"]
 old-location: direct3d12\id3d12shaderreflectionvariable_getinterfaceslot.htm
 tech.root: direct3d12
@@ -69,7 +69,7 @@ Returns the index of the interface in the interface array.
 
 ## -remarks
 
-GetInterfaceSlot gets the corresponding slot in an dynamic linkage array for an interface instance.
+GetInterfaceSlot gets the corresponding slot in a dynamic linkage array for an interface instance.
           The returned slot number is used to set an interface instance to a particular class instance.
           See the HLSL <a href="/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl-dynamic-linking-class">Interfaces and Classes</a> overview for additional information.
         

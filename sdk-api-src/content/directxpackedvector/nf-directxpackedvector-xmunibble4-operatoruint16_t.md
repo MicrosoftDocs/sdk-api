@@ -58,7 +58,7 @@ This operator returns an instance of <code>uint16_t</code> containing the compon
 <div class="alert"><b>Note</b>  This operator is only available under C++.
     </div><div> </div>
 
-## -parameters
+
 
 ## -returns
 
@@ -72,22 +72,22 @@ The packed format of this operators return value is:
 
 <ul>
 <li>
-The first 4 bits (bits 0-3) of the return value are to the <b>x</b>component of the current instance of <code>XMUNIBBLE4</code>.
+The first 4 bits (bits 0-3) of the return value are to the <b>x</b> component of the current instance of <code>XMUNIBBLE4</code>.
 		
 
 </li>
 <li>
-The second 4 bits (bits 4-7) of the return value are to the <b>y</b>component of the current instance of <code>XMUNIBBLE4</code>.
+The second 4 bits (bits 4-7) of the return value are to the <b>y</b> component of the current instance of <code>XMUNIBBLE4</code>.
 		
 
 </li>
 <li>
-The third 4 bits (bits 8-11) of the return value are to the <b>z</b>component of the current instance of <code>XMUNIBBLE4</code>.
+The third 4 bits (bits 8-11) of the return value are to the <b>z</b> component of the current instance of <code>XMUNIBBLE4</code>.
 		
 
 </li>
 <li>
-The last 4 bits (bits 12-15) of the return value are to the <b>w</b>component of the current instance of <code>XMUNIBBLE4</code>.
+The last 4 bits (bits 12-15) of the return value are to the <b>w</b> component of the current instance of <code>XMUNIBBLE4</code>.
 		
 
 </li>

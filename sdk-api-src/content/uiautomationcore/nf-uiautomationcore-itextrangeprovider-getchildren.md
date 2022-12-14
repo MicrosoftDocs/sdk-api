@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.GetChildren
 title: ITextRangeProvider::GetChildren (uiautomationcore.h)
-description: Retrieves a collection of all embedded objects that fall within the text range.
+description: Retrieves a collection of all embedded objects that fall within the text range. (ITextRangeProvider.GetChildren)
 helpviewer_keywords: ["GetChildren","GetChildren method [Windows Accessibility]","GetChildren method [Windows Accessibility]","ITextRangeProvider interface","ITextRangeProvider interface [Windows Accessibility]","GetChildren method","ITextRangeProvider.GetChildren","ITextRangeProvider::GetChildren","uiauto.uiauto_ITextRangeProvider_GetChildren","uiauto_ITextRangeProvider_GetChildren","uiautomationcore/ITextRangeProvider::GetChildren","winauto.uiauto_ITextRangeProvider_GetChildren"]
 old-location: winauto\uiauto_ITextRangeProvider_GetChildren.htm
 tech.root: WinAuto

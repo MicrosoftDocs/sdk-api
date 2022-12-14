@@ -54,29 +54,7 @@ Exposes a method that determines whether a property can be edited in the UI by t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyStoreCapabilities</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyStoreCapabilities</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPropertyStoreCapabilities</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipropertystorecapabilities-ispropertywritable">IsPropertyWritable</a>
-</td>
-<td align="left" width="63%">
-Queries whether the property handler allows a specific property to be edited in the UI by the user.
-
-</td>
-</tr>
-</table>
+The <b>IPropertyStoreCapabilities</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyStoreCapabilities</b> also has these types of members:
 
 ## -remarks
 

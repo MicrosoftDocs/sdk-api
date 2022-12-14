@@ -1,5 +1,5 @@
 ---
-UID: NS:mfidl.__MIDL___MIDL_itf_mfidl_0000_0058_0001
+UID: NS:mfidl.__MIDL___MIDL_itf_mfidl_0000_0059_0001
 title: MF_BYTE_STREAM_CACHE_RANGE (mfidl.h)
 description: Specifies a range of bytes.
 helpviewer_keywords: ["MF_BYTE_STREAM_CACHE_RANGE","MF_BYTE_STREAM_CACHE_RANGE structure [Media Foundation]","mf.mf_byte_stream_cache_range","mfidl/MF_BYTE_STREAM_CACHE_RANGE"]

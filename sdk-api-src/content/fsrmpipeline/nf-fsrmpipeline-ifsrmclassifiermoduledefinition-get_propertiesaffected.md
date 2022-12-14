@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassifierModuleDefinition.get_PropertiesAffected
 title: IFsrmClassifierModuleDefinition::get_PropertiesAffected (fsrmpipeline.h)
-description: The list of property names that the classifier can affect.
+description: The list of property names that the classifier can affect. (Get)
 helpviewer_keywords: ["IFsrmClassifierModuleDefinition interface [File Server Resource Manager]","PropertiesAffected property","IFsrmClassifierModuleDefinition.PropertiesAffected","IFsrmClassifierModuleDefinition.get_PropertiesAffected","IFsrmClassifierModuleDefinition::PropertiesAffected","IFsrmClassifierModuleDefinition::get_PropertiesAffected","IFsrmClassifierModuleDefinition::put_PropertiesAffected","PropertiesAffected property [File Server Resource Manager]","PropertiesAffected property [File Server Resource Manager]","IFsrmClassifierModuleDefinition interface","fs.ifsrmclassifiermoduledefinition_propertiesaffected","fsrm.ifsrmclassifiermoduledefinition_propertiesaffected","fsrmpipeline/IFsrmClassifierModuleDefinition::PropertiesAffected","fsrmpipeline/IFsrmClassifierModuleDefinition::get_PropertiesAffected","fsrmpipeline/IFsrmClassifierModuleDefinition::put_PropertiesAffected","get_PropertiesAffected"]
 old-location: fsrm\ifsrmclassifiermoduledefinition_propertiesaffected.htm
 tech.root: fsrm

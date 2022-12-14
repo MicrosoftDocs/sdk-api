@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IRunnableObject.SetContainedObject
 title: IRunnableObject::SetContainedObject (objidl.h)
-description: Notifies an object that it is embedded in an OLE container, which ensures that reference counting is done correctly for containers that support links to embedded objects.
+description: Notifies an object that it is embedded in an OLE container, which ensures that reference counting is done correctly for containers that support links to embedded objects. (IRunnableObject.SetContainedObject)
 helpviewer_keywords: ["IRunnableObject interface [COM]","SetContainedObject method","IRunnableObject.SetContainedObject","IRunnableObject::SetContainedObject","SetContainedObject","SetContainedObject method [COM]","SetContainedObject method [COM]","IRunnableObject interface","_com_irunnableobject_setcontainedobject","com.irunnableobject_setcontainedobject","objidl/IRunnableObject::SetContainedObject"]
 old-location: com\irunnableobject_setcontainedobject.htm
 tech.root: com

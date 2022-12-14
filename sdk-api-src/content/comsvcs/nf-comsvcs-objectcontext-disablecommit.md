@@ -52,7 +52,7 @@ api_name:
 
 Declares that the object's transactional updates are inconsistent and cannot be committed in their present state.
 
-## -parameters
+
 
 ## -returns
 
@@ -70,7 +70,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, a
 </dl>
 </td>
 <td width="60%">
-The method completed succesfully. The object's transactional updates cannot be committed until the object calls either <a href="/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-enablecommit">EnableCommit</a> or <a href="/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-setcomplete">SetComplete</a>.
+The method completed successfully. The object's transactional updates cannot be committed until the object calls either <a href="/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-enablecommit">EnableCommit</a> or <a href="/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-setcomplete">SetComplete</a>.
 
 </td>
 </tr>

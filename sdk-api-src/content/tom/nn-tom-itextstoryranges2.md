@@ -58,26 +58,5 @@ A Text Object Model (TOM) implementation that has only a single story doesn't ne
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextStoryRanges2</b> interface inherits from <b>ITextStoryRanges</b>. <b>ITextStoryRanges2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITextStoryRanges2</b> interface inherits from <b>ITextStoryRanges</b>. <b>ITextStoryRanges2</b> also has these types of members:
 
-## -members
-
-The <b>ITextStoryRanges2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tom/nf-tom-itextstoryranges2-item2">Item2</a>
-</td>
-<td align="left" width="63%">
-Gets an <a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a> object for a story, by index, in a stories collection.
-
-</td>
-</tr>
-</table>

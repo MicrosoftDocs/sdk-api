@@ -59,56 +59,7 @@ If a pin's set of preferred media types changes, some methods on this interface 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumMediaTypes</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumMediaTypes</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IEnumMediaTypes</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ienummediatypes-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Makes a copy of the enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ienummediatypes-next">Next</a>
-</td>
-<td align="left" width="63%">
-Retrieves a specified number of media types.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ienummediatypes-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumeration sequence to the beginning.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ienummediatypes-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips over a specified number of media types.
-
-</td>
-</tr>
-</table>
+The <b>IEnumMediaTypes</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumMediaTypes</b> also has these types of members:
 
 ## -see-also
 

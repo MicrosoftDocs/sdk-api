@@ -56,34 +56,10 @@ The <b>IWMPAudioRenderConfig</b> interface provides methods for setting and retr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPAudioRenderConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPAudioRenderConfig</b> also has these types of members:
+The <b>IWMPAudioRenderConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPAudioRenderConfig</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMPAudioRenderConfig</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">get_audioOutputDevice</td>
-<td align="left" width="63%">
-Retrieves the current audio output device used by the Windows Media Player ActiveX control.   
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">put_audioOutputDevice</td>
-<td align="left" width="63%">
-Sets the current audio output device for the Windows Media Player ActiveX control.  
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

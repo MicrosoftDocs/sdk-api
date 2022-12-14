@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasGetConnectStatusW
 title: RasGetConnectStatusW function (ras.h)
-description: The RasGetConnectStatus function retrieves information on the current status of the specified remote access connection. An application can use this call to determine when an asynchronous RasDial call is complete.
+description: The RasGetConnectStatus function retrieves information on the current status of the specified remote access connection. An application can use this call to determine when an asynchronous RasDial call is complete. (Unicode)
 helpviewer_keywords: ["RasGetConnectStatus","RasGetConnectStatus function [RAS]","RasGetConnectStatusA","RasGetConnectStatusW","_ras_rasgetconnectstatus","ras/RasGetConnectStatus","ras/RasGetConnectStatusA","ras/RasGetConnectStatusW","rras.rasgetconnectstatus"]
 old-location: rras\rasgetconnectstatus.htm
 tech.root: RRAS
@@ -60,13 +60,13 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Specifies the remote access connection for which to retrieve the status. This handle must have been obtained from 
 <a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> or 
 <a href="/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a>.
 
-### -param arg2 [in, out]
+### -param unnamedParam2 [in, out]
 
 Pointer to the 
 <a href="/previous-versions/windows/desktop/legacy/aa376728(v=vs.85)">RASCONNSTATUS</a> structure that, on output, receives the status information. 

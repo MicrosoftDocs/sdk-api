@@ -87,8 +87,8 @@ By default, as you move from the boundary of a path gradient to the center point
 
 
 The following example creates a 
-						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object based on an ellipse. The code calls the <b>PathGradientBrush::SetBlendBellShape</b> method of the 
-						<b>PathGradientBrush</b>object, passing a focus of 0.2 and a scale of 0.7. Then the code uses the path gradient brush to paint a rectangle that contains the ellipse.
+						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object based on an ellipse. The code calls the <b>PathGradientBrush::SetBlendBellShape</b> method of the 
+						<b>PathGradientBrush</b> object, passing a focus of 0.2 and a scale of 0.7. Then the code uses the path gradient brush to paint a rectangle that contains the ellipse.
 
 
 ```cpp

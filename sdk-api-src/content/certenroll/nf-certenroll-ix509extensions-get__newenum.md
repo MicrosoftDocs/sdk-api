@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509Extensions.get__NewEnum
 title: IX509Extensions::get__NewEnum (certenroll.h)
-description: Retrieves the enumerator for the collection.
+description: Retrieves the enumerator for the collection. (IX509Extensions.get__NewEnum)
 helpviewer_keywords: ["IX509Extensions interface [Security]","_NewEnum property","IX509Extensions._NewEnum","IX509Extensions.get__NewEnum","IX509Extensions::_NewEnum","IX509Extensions::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","IX509Extensions interface","certenroll/IX509Extensions::_NewEnum","certenroll/IX509Extensions::get__NewEnum","get__NewEnum","security.ix509extensions__newenum_property"]
 old-location: security\ix509extensions__newenum_property.htm
 tech.root: security

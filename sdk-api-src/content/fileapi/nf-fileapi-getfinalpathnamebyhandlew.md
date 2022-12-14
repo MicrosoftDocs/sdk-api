@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.GetFinalPathNameByHandleW
 title: GetFinalPathNameByHandleW function (fileapi.h)
-description: Retrieves the final path for the specified file.
+description: Retrieves the final path for the specified file. (Unicode)
 helpviewer_keywords: ["FILE_NAME_NORMALIZED","FILE_NAME_OPENED","GetFinalPathNameByHandle","GetFinalPathNameByHandle function [Files]","GetFinalPathNameByHandleA","GetFinalPathNameByHandleW","VOLUME_NAME_DOS","VOLUME_NAME_GUID","VOLUME_NAME_NONE","VOLUME_NAME_NT","fileapi/GetFinalPathNameByHandle","fileapi/GetFinalPathNameByHandleA","fileapi/GetFinalPathNameByHandleW","fs.getfinalpathnamebyhandle","fs.getfinalpathnamebyhandlew","winbase/GetFinalPathNameByHandle","winbase/GetFinalPathNameByHandleA","winbase/GetFinalPathNameByHandleW"]
 old-location: fs\getfinalpathnamebyhandle.htm
 tech.root: fs
@@ -159,7 +159,7 @@ Return the path with no drive information.
 </dl>
 </td>
 <td width="60%">
-Return the path with the volume device path.
+Return the NT device object path.
 
 </td>
 </tr>
@@ -237,8 +237,14 @@ The Server Message Block (SMB) Protocol does not support queries for normalized 
      named "C:\tmp\mydir" that points to "D:\yourdir", the final path would be 
      "D:\yourdir".
 
-The string that is returned by this function uses the "\\\\?\\" 
+When using <b>VOLUME_NAME_DOS</b>, the string that is returned by this function uses the "\\\\?\\" 
      syntax. For more information, see <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
+     
+When using <b>VOLUME_NAME_GUID</b>, the returned path will begin with a volume GUID path formatted like "\\\\?\\Volume{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}\\".
+
+When using <b>VOLUME_NAME_NT</b>, the returned path is for an NT device object, and will begin with a device name such as "\\Device\\HarddiskVolume1\\".  This type of path can not be used directly by Windows programs, as it resembles a relative path.
+
+Some third-party drivers can create a drive letter or mount point without using the Mount Manager.  If the Mount Manager was not used to create the drive, then <b>VOLUME_NAME_DOS</b> or <b>VOLUME_NAME_GUID</b> will not succeed; only <b>VOLUME_NAME_NT</b> will be available.  To determine the drive letter for the volume device path, use the <a href="/windows/desktop/api/fileapi/nf-fileapi-querydosdevicew">QueryDosDevice</a> function on every drive letter until a matching device name is found.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -298,8 +304,6 @@ Yes
 </td>
 </tr>
 </table>
- 
-
 
 #### Examples
 

@@ -73,7 +73,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 ## -remarks
 
 This method performs a hit test on the XAML visual tree and will return all elements
-    regardless if they are enabled or invisible for hit testing. This method does not return collapsed elements as they do not participate in layout. <a href="/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice-advisevisualtreechange">AdviseVisualTreeChange</a>must be called before this method. The element does not need to be fully enclosed in the 
+    regardless if they are enabled or invisible for hit testing. This method does not return collapsed elements as they do not participate in layout. <a href="/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice-advisevisualtreechange">AdviseVisualTreeChange</a> must be called before this method. The element does not need to be fully enclosed in the 
     <i>rect</i> area to be returned.
 
 ## -see-also

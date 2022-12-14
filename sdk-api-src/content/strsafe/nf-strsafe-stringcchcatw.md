@@ -1,7 +1,7 @@
 ---
 UID: NF:strsafe.StringCchCatW
 title: StringCchCatW function (strsafe.h)
-description: Concatenates one string to another string.
+description: Concatenates one string to another string. (StringCchCatW)
 helpviewer_keywords: ["StringCchCat","StringCchCat function [Menus and Other Resources]","StringCchCatA","StringCchCatW","_shell_StringCchCat","_shell_stringcchcat_cpp","menurc.stringcchcat","strsafe/StringCchCat","strsafe/StringCchCatA","strsafe/StringCchCatW","winui._shell_stringcchcat"]
 old-location: menurc\stringcchcat.htm
 tech.root: menurc
@@ -139,7 +139,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-<b>StringCchCat</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchCat</b>always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
+<b>StringCchCat</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchCat</b> always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 

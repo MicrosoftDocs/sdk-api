@@ -8,8 +8,8 @@ req.construct-type: function
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Build 22000
+req.target-min-winversvr: Windows Build 22000
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -47,7 +47,7 @@ Copy assignment operator for **XMFLOAT3X4A**. Copies the argument's vector compo
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Type: **const XMFLOAT3X4A &**
 

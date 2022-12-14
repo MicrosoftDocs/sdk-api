@@ -54,74 +54,7 @@ Provides the Media Engine with a list of media resources.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngineSrcElements</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEngineSrcElements</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFMediaEngineSrcElements</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-addelement">AddElement</a>
-</td>
-<td align="left" width="63%">
-Adds a source element to the end of the list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-getlength">GetLength</a>
-</td>
-<td align="left" width="63%">
-Gets the number of source elements in the list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-getmedia">GetMedia</a>
-</td>
-<td align="left" width="63%">
-Gets the intended media type of an element in the list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-gettype">GetType</a>
-</td>
-<td align="left" width="63%">
-Gets the MIME type of an element in the list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-geturl">GetURL</a>
-</td>
-<td align="left" width="63%">
-Gets the URL of an element in the list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-removeallelements">RemoveAllElements</a>
-</td>
-<td align="left" width="63%">
-Removes all of the source elements from the list.
-
-</td>
-</tr>
-</table>
+The <b>IMFMediaEngineSrcElements</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEngineSrcElements</b> also has these types of members:
 
 ## -remarks
 

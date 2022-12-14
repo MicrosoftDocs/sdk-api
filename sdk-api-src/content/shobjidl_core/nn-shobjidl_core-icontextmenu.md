@@ -47,60 +47,19 @@ api_name:
 
 # IContextMenu interface
 
-
 ## -description
 
-Exposes methods that either create or merge a shortcut menu associated with a Shell object.
+Exposes methods that either create or merge a shortcut menu associated with a Shell object. Note that there are several better ways to extend Shell menus. For more information, see <a href="/windows/win32/shell/context-menu-handlers">Creating Shortcut Menu Handlers</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContextMenu</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContextMenu</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IContextMenu</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring">GetCommandString</a>
-</td>
-<td align="left" width="63%">
-Gets information about a shortcut menu command, including the help string and the language-independent, or <i>canonical</i>, name for the command.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">InvokeCommand</a>
-</td>
-<td align="left" width="63%">
-Carries out the command associated with a shortcut menu item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu">QueryContextMenu</a>
-</td>
-<td align="left" width="63%">
-Adds commands to a shortcut menu.
-
-</td>
-</tr>
-</table>
+The <b>IContextMenu</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContextMenu</b> also has these types of members:
 
 ## -remarks
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 Implement <b>IContextMenu</b> in the following situations.
-				
+			
 
 <ul>
 <li>
@@ -117,3 +76,5 @@ Shell extension handlers that export this interface must also export <a href="/w
 
 <div class="alert"><b>Note</b>  <b>Windows Vista and later:</b> Prior to Windows Vista this interface was declared in Shlobj.h.</div>
 <div> </div>
+<div class="alert"><b>Note</b> Windows 11 refines the behavior of the contextual file operations in the right-click context menu of File Explorer and the Share dialog. Please see  <a href="/windows/apps/get-started/make-apps-great-for-windows">Top 11 things you can do to make your app great on Windows 11 </a>
+<div></div>

@@ -1,7 +1,7 @@
 ---
 UID: NF:winsvc.EnumDependentServicesA
 title: EnumDependentServicesA function (winsvc.h)
-description: Retrieves the name and status of each service that depends on the specified service.
+description: Retrieves the name and status of each service that depends on the specified service. (ANSI)
 helpviewer_keywords: ["EnumDependentServices","EnumDependentServices function","EnumDependentServicesA","EnumDependentServicesW","SERVICE_ACTIVE","SERVICE_INACTIVE","SERVICE_STATE_ALL","_win32_enumdependentservices","base.enumdependentservices","winsvc/EnumDependentServices","winsvc/EnumDependentServicesA","winsvc/EnumDependentServicesW"]
 old-location: base\enumdependentservices.htm
 tech.root: security

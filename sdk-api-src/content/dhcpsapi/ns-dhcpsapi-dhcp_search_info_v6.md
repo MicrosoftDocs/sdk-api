@@ -6,7 +6,7 @@ helpviewer_keywords: ["*LPDHCP_SEARCH_INFO_V6","DHCP_SEARCH_INFO_V6","DHCP_SEARC
 old-location: dhcp\dhcp_search_info_v6.htm
 tech.root: DHCP
 ms.assetid: b290baab-9a70-437a-a519-876891184fbc
-ms.date: 12/05/2018
+ms.date: 11/19/2020
 ms.keywords: '*LPDHCP_SEARCH_INFO_V6, DHCP_SEARCH_INFO_V6, DHCP_SEARCH_INFO_V6 structure [DHCP], Dhcpv6ClientDUID, Dhcpv6ClientIpAddress, Dhcpv6ClientName, PDHCP_SEARCH_INFO_V6, PDHCP_SEARCH_INFO_V6 structure pointer [DHCP], dhcp.dhcp_search_info_v6, dhcpsapi/DHCP_SEARCH_INFO_V6, dhcpsapi/PDHCP_SEARCH_INFO_V6'
 req.header: dhcpsapi.h
 req.include-header: 
@@ -63,16 +63,37 @@ The <b>DHCP_SEARCH_INFO_V6</b> structure contains the term or value on which the
 Enumeration value that selects the type of the value on which the DHCPv6 database will be searched.
 
 
+### SearchType - DHCP_SEARCH_INFO_V6 
 
-##### )
+Enumeration value that selects the type of the value on which the DHCPv6 database will be searched. 
+
+* Dhcpv6ClientIpAddress
+
+The search term value is a client's IPv6 address.
+
+* Dhcpv6ClientDUID
+ 
+The search term value is a client's DHCP unique ID (GUID). 
+
+* Dhcpv6ClientName
+
+The search term value is a client name string. 
+
+### SearchInfo - union
+
+* ClientIpAddress 
+
+DHCP_IPV6_ADDRESS structure that specifies the client IPv6 address to search for.
+
+* ClientDUI
+
+DDHCP_CLIENT_UIDGUID value that specifies the client DHCP UID to search for.
+
+* ClientName 
+
+LPWSTRUnicode string that specifies the client name to search for. 
 
 
-
-#####  )
-
-
-
-##### )
 
 ### -field SearchInfo.ClientIpAddress.case
 
@@ -86,9 +107,7 @@ Enumeration value that selects the type of the value on which the DHCPv6 databas
 
 ### -field SearchInfo.ClientName.case.Dhcpv6ClientName
 
-### -field SearchInfo.switch_is
 
-### -field SearchInfo.switch_is.SearchType
 
 ### -field SearchInfo.switch_type
 

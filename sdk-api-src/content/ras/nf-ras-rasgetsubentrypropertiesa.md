@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasGetSubEntryPropertiesA
 title: RasGetSubEntryPropertiesA function (ras.h)
-description: The RasGetSubEntryProperties function retrieves information about a subentry for a specified phone-book entry.
+description: The RasGetSubEntryProperties function retrieves information about a subentry for a specified phone-book entry. (ANSI)
 helpviewer_keywords: ["RasGetSubEntryProperties","RasGetSubEntryProperties function [RAS]","RasGetSubEntryPropertiesA","RasGetSubEntryPropertiesW","_ras_rasgetsubentryproperties","ras/RasGetSubEntryProperties","ras/RasGetSubEntryPropertiesA","ras/RasGetSubEntryPropertiesW","rras.rasgetsubentryproperties"]
 old-location: rras\rasgetsubentryproperties.htm
 tech.root: RRAS
@@ -57,7 +57,7 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box. 
 
@@ -66,15 +66,15 @@ Pointer to a <b>null</b>-terminated string that specifies the full path and file
 
 <b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the name of an existing entry in the phone book.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Specifies the one-based index of the subentry.
 
-### -param arg4 [in, out]
+### -param unnamedParam4 [in, out]
 
 Pointer to the 
 <a href="/previous-versions/windows/desktop/legacy/aa377839(v=vs.85)">RASSUBENTRY</a> structure followed by additional bytes for the alternate phone number list, if there is one. 
@@ -88,7 +88,7 @@ On input, the <b>dwSize</b> member specifies the size of the structure. The size
 
 This parameter can be <b>NULL</b>.
 
-### -param arg5 [in, out]
+### -param unnamedParam5 [in, out]
 
 Pointer to a variable that specifies, on input, the size, in bytes, of the <i>lpRasSubEntry</i> buffer. 
 
@@ -99,12 +99,12 @@ On output, the variable receives the number of bytes returned, or the number of 
 
 This parameter can be <b>NULL</b> if <i>lpRasSubEntry</i> is <b>NULL</b>.
 
-### -param arg6 [in]
+### -param unnamedParam6 [in]
 
 Pointer to a TAPI device configuration block. This parameter is currently unused. The caller should pass <b>NULL</b> for this parameter. For more information about TAPI device configuration blocks, see the function 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegetdevconfig">lineGetDevConfig</a>.
 
-### -param arg7 [in]
+### -param unnamedParam7 [in]
 
 Pointer to a <b>DWORD</b> that specifies the size of the TAPI device configuration block. This parameter is currently unused. The caller should pass <b>NULL</b> for this parameter.
 

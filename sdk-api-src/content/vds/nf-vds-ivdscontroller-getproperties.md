@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsController.GetProperties
 title: IVdsController::GetProperties (vds.h)
-description: Returns the properties of a controller.
+description: The IVdsController::GetProperties (vds.h) method returns the properties of a controller.
 helpviewer_keywords: ["GetProperties","GetProperties method [VDS]","GetProperties method [VDS]","IVdsController interface","IVdsController interface [VDS]","GetProperties method","IVdsController.GetProperties","IVdsController::GetProperties","base.ivdscontroller_getproperties","vds/IVdsController::GetProperties","vdshwprv/IVdsController::GetProperties"]
 old-location: base\ivdscontroller_getproperties.htm
 tech.root: base
 ms.assetid: 37230ac4-45f5-46ba-9a1c-072409e9362c
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsController interface, IVdsController interface [VDS],GetProperties method, IVdsController.GetProperties, IVdsController::GetProperties, base.ivdscontroller_getproperties, vds/IVdsController::GetProperties, vdshwprv/IVdsController::GetProperties
 req.header: vds.h
 req.include-header: 
@@ -59,7 +59,7 @@ Returns the properties of a controller.
 
 ### -param pControllerProp [out]
 
-The address of a <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_controller_prop">VDS_CONTROLLER_PROP</a>structure allocated and passed in by the caller. VDS allocates memory for the <b>pwszFriendlyName</b> and <b>pwszIdentification</b> member strings. Callers must free the strings by using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
+The address of a <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_controller_prop">VDS_CONTROLLER_PROP</a> structure allocated and passed in by the caller. VDS allocates memory for the <b>pwszFriendlyName</b> and <b>pwszIdentification</b> member strings. Callers must free the strings by using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ## -returns
 

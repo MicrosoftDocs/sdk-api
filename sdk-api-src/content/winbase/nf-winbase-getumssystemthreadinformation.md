@@ -44,6 +44,7 @@ api_location:
  - API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
  - GetUmsSystemThreadInformation
+req.apiset: api-ms-win-core-ums-l1-1-0 (introduced in Windows 7)
 ---
 
 # GetUmsSystemThreadInformation function
@@ -52,6 +53,9 @@ api_name:
 ## -description
 
 Queries whether the specified thread is a UMS scheduler thread, a UMS worker thread, or a non-UMS thread.
+
+> [!WARNING]
+> As of Windows 11, user-mode scheduling is not supported. All calls fail with the error `ERROR_NOT_SUPPORTED`.
 
 ## -parameters
 

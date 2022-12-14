@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiDetermineApplicablePatchesA
 title: MsiDetermineApplicablePatchesA function (msi.h)
-description: The MsiDetermineApplicablePatches function takes a set of patch files, XML files, and XML blobs and determines which patches apply to a specified Windows Installer package and in what sequence.
+description: The MsiDetermineApplicablePatches function takes a set of patch files, XML files, and XML blobs and determines which patches apply to a specified Windows Installer package and in what sequence. (ANSI)
 helpviewer_keywords: ["MsiDetermineApplicablePatches","MsiDetermineApplicablePatches function","MsiDetermineApplicablePatchesA","MsiDetermineApplicablePatchesW","msi/MsiDetermineApplicablePatches","msi/MsiDetermineApplicablePatchesA","msi/MsiDetermineApplicablePatchesW","setup.msidetermineapplicablepatches"]
 old-location: setup\msidetermineapplicablepatches.htm
 tech.root: setup

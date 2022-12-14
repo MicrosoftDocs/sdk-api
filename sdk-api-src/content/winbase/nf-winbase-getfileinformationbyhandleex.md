@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetFileInformationByHandleEx
 title: GetFileInformationByHandleEx function (winbase.h)
-description: Retrieves file information for the specified file.
+description: Retrieves file information for the specified file. (GetFileInformationByHandleEx)
 helpviewer_keywords: ["GetFileInformationByHandleEx","GetFileInformationByHandleEx function [Files]","fileextd/GetFileInformationByHandleEx","fs.getfileinformationbyhandleex","winbase/GetFileInformationByHandleEx"]
 old-location: fs\getfileinformationbyhandleex.htm
 tech.root: fs

@@ -66,7 +66,7 @@ The size, in bytes, of the <i>UserAuthData</i> buffer.
 
 Reserved. This parameter must be set to <b>NULL.</b>
 
-### -param *ExpandedAuthData [out]
+### -param ExpandedAuthData [out]
 
 A pointer to the expanded authentication data.
 

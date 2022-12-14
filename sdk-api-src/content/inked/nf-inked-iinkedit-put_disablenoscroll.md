@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.put_DisableNoScroll
 title: IInkEdit::put_DisableNoScroll (inked.h)
-description: Gets or sets a value that determines whether scroll bars in the InkEdit control are disabled.
+description: Gets or sets a value that determines whether scroll bars in the InkEdit control are disabled. (Put)
 helpviewer_keywords: ["DisableNoScroll property [Tablet PC]","DisableNoScroll property [Tablet PC]","IInkEdit interface","IInkEdit interface [Tablet PC]","DisableNoScroll property","IInkEdit.DisableNoScroll","IInkEdit.put_DisableNoScroll","IInkEdit::DisableNoScroll","IInkEdit::get_DisableNoScroll","IInkEdit::put_DisableNoScroll","InkEdit.get_DisableNoScroll","InkEdit.put_DisableNoScroll","get_DisableNoScroll","inked/IInkEdit::DisableNoScroll","inked/IInkEdit::get_DisableNoScroll","inked/IInkEdit::put_DisableNoScroll","put_DisableNoScroll","tablet.inkedit_disablenoscroll"]
 old-location: tablet\inkedit_disablenoscroll.htm
 tech.root: tablet
@@ -71,7 +71,7 @@ This property is read-only at run time.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="../inked/nn-inked-iinkedit.md">IInkEdit</a>
 
 
 

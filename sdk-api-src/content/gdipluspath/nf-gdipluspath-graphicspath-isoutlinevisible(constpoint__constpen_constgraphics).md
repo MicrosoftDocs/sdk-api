@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>GraphicsPath::IsOutlineVisible</b> method determines whether a specified point touches the outline of this path when the path is drawn by a specified <a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>object and a specified pen.
+The <b>GraphicsPath::IsOutlineVisible</b> method determines whether a specified point touches the outline of this path when the path is drawn by a specified <a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object and a specified pen.
 
 ## -parameters
 

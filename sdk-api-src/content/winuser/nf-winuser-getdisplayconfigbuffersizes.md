@@ -46,6 +46,7 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll
 api_name:
  - GetDisplayConfigBufferSizes
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetDisplayConfigBufferSizes function
@@ -162,6 +163,10 @@ Given the current display path configuration and the requested flags, <b>GetDisp
 As <b>GetDisplayConfigBufferSizes</b> can only determine the required array size of that moment in time, it is possible that between calls to <b>GetDisplayConfigBufferSizes</b> and <a href="/windows/desktop/api/winuser/nf-winuser-querydisplayconfig">QueryDisplayConfig</a> the system configuration has changed and the provided array sizes are no longer sufficient to store the new path data. 
 
 If a caller is aware that it must enable additional sources and targets, the caller can allocate a larger mode information array than is returned from <b>GetDisplayConfigBufferSizes</b> so that it has the space to add the additional source and target modes after calling <b>QueryDisplayConfig</b> and before calling <a href="/windows/desktop/api/winuser/nf-winuser-setdisplayconfig">SetDisplayConfig</a>.
+
+## Examples
+
+See <a href="/windows/desktop/api/winuser/nf-winuser-querydisplayconfig#examples">__QueryDisplayConfig__</a> for an example of __GetDisplayConfigBufferSizes__.
 
 ## -see-also
 

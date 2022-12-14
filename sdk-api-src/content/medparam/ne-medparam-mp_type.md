@@ -56,7 +56,7 @@ The <code>MP_TYPE</code> enumeration specifies the data type for a parameter.
 
 ## -enum-fields
 
-### -field MPT_INT
+### -field MPT_INT:0
 
 Value is a signed 32-bit integer.
 

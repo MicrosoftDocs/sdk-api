@@ -54,48 +54,7 @@ Exposes methods that represent applications to Add/Remove Programs in Control Pa
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPublishedApp</b> interface inherits from <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>. <b>IPublishedApp</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPublishedApp</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shappmgr/nf-shappmgr-ipublishedapp-getpublishedappinfo">GetPublishedAppInfo</a>
-</td>
-<td align="left" width="63%">
-Gets publishing-related information about an application published by an application publisher.
-		
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shappmgr/nf-shappmgr-ipublishedapp-install">Install</a>
-</td>
-<td align="left" width="63%">
-Installs an application published by an application publisher. This method is invoked when the user selects <b>Add</b> or <b>Add Later</b> in Add/Remove Programs in Control Panel.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shappmgr/nf-shappmgr-ipublishedapp-unschedule">Unschedule</a>
-</td>
-<td align="left" width="63%">
-Cancels the installation of an application published by an application publisher.
-
-</td>
-</tr>
-</table>
+The <b>IPublishedApp</b> interface inherits from <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>. <b>IPublishedApp</b> also has these types of members:
 
 ## -remarks
 

@@ -60,56 +60,7 @@ Gets the difference between the current read and write positions in the endpoint
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpointRT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpointRT</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAudioEndpointRT</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointrt-getcurrentpadding">GetCurrentPadding</a>
-</td>
-<td align="left" width="63%">
-Gets the amount, in 100-nanosecond units, of data that is queued up in the endpoint.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointrt-processingcomplete">ProcessingComplete</a>
-</td>
-<td align="left" width="63%">
-Notifies the endpoint that a processing pass has been completed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointrt-setpinactive">SetPinActive</a>
-</td>
-<td align="left" width="63%">
-Notifies the endpoint that it must change the state of the underlying stream to an active state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointrt-setpininactive">SetPinInactive</a>
-</td>
-<td align="left" width="63%">
-Notifies the endpoint that it must change the state of the underlying stream to an inactive state.
-
-</td>
-</tr>
-</table>
+The <b>IAudioEndpointRT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpointRT</b> also has these types of members:
 
 ## -remarks
 

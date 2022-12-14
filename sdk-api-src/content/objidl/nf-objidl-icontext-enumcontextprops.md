@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IContext.EnumContextProps
 title: IContext::EnumContextProps (objidl.h)
-description: Returns an IEnumContextProps interface pointer that can be used to enumerate the context properties in this context.
+description: The IContext::EnumContextProps method (objidl.h) returns an IEnumContextProps interface pointer that can enumerate the context properties in this context.
 helpviewer_keywords: ["EnumContextProps","EnumContextProps method [COM]","EnumContextProps method [COM]","IContext interface","IContext interface [COM]","EnumContextProps method","IContext.EnumContextProps","IContext::EnumContextProps","_com_icontext_enumcontextprops","com.icontext_enumcontextprops","objidlbase/IContext::EnumContextProps"]
 old-location: com\icontext_enumcontextprops.htm
 tech.root: com
 ms.assetid: 7cae291e-dcf3-43b1-8306-9e5c7a5d3be0
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: EnumContextProps, EnumContextProps method [COM], EnumContextProps method [COM],IContext interface, IContext interface [COM],EnumContextProps method, IContext.EnumContextProps, IContext::EnumContextProps, _com_icontext_enumcontextprops, com.icontext_enumcontextprops, objidlbase/IContext::EnumContextProps
 req.header: objidl.h
 req.include-header: ObjIdl.h

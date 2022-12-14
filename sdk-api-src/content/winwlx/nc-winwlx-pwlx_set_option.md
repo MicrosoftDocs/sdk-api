@@ -70,7 +70,7 @@ Specifies one of the following options:
 
 Specifies a new value for the option.
 
-### -param *OldValue [out]
+### -param OldValue [out]
 
 On return, pointer to the old value the option was set to.
 

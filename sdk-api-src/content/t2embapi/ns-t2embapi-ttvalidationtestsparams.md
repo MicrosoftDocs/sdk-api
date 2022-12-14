@@ -64,7 +64,7 @@ First character point size to test. This value is the smallest font size (lower 
 
 ### -field lTestToSize
 
-Last character point size to test. This value is an largest font size (upper bound) of the font sizes to test.
+Last character point size to test. This value is the largest font size (upper bound) of the font sizes to test.
 
 ### -field ulCharSet
 

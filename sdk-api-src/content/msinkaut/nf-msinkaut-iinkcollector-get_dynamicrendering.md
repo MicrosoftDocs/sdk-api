@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_DynamicRendering
 title: IInkCollector::get_DynamicRendering (msinkaut.h)
-description: Gets or sets the value that specifies whether ink is rendered as it is drawn.
+description: Gets or sets the value that specifies whether ink is rendered as it is drawn. (IInkCollector.get_DynamicRendering)
 helpviewer_keywords: ["DynamicRendering property [Tablet PC]","DynamicRendering property [Tablet PC]","IInkCollector interface","IInkCollector interface [Tablet PC]","DynamicRendering property","IInkCollector.DynamicRendering","IInkCollector.get_DynamicRendering","IInkCollector.put_DynamicRendering","IInkCollector::DynamicRendering","IInkCollector::get_DynamicRendering","IInkCollector::put_DynamicRendering","InkCollector.get_DynamicRendering","InkCollector.put_DynamicRendering","get_DynamicRendering","msinkaut/IInkCollector::DynamicRendering","msinkaut/IInkCollector::get_DynamicRendering","msinkaut/IInkCollector::put_DynamicRendering","put_DynamicRendering","tablet.inkcollector_dynamicrendering"]
 old-location: tablet\inkcollector_dynamicrendering.htm
 tech.root: tablet
@@ -67,7 +67,7 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
+<a href="../msinkaut/nn-msinkaut-iinkcollector.md">IInkCollector</a>
 
 
 

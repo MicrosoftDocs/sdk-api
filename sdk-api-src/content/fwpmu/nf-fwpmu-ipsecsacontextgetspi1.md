@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.IPsecSaContextGetSpi1
 title: IPsecSaContextGetSpi1 function (fwpmu.h)
-description: Retrieves the security parameters index (SPI) for a security association (SA) context.
+description: Retrieves the security parameters index (SPI) for a security association (SA) context. (IPsecSaContextGetSpi1)
 helpviewer_keywords: ["IPsecSaContextGetSpi1","IPsecSaContextGetSpi1 function [Filtering]","fwp.ipsecsacontextgetspi1","fwpmu/IPsecSaContextGetSpi1"]
 old-location: fwp\ipsecsacontextgetspi1.htm
 tech.root: fwp

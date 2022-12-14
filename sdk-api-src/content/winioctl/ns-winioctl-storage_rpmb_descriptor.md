@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl._STORAGE_RPMB_DESCRIPTOR
 title: STORAGE_RPMB_DESCRIPTOR
-ms.date: 4/26/2019
+description: The STORAGE_RPMB_DESCRIPTOR structure (winioctl.h) describes whether the device contains an RPMB and the max payload size the RPMB supports.
+ms.date: 08/09/2022
 ms.keywords: _STORAGE_RPMB_DESCRIPTOR, STORAGE_RPMB_DESCRIPTOR
 targetos: Windows
 req.construct-type: structure
@@ -13,8 +14,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: STORAGE_RPMB_DESCRIPTOR, *PSTORAGE_RPMB_DESCRIPTOR
 req.umdf-ver: 

@@ -63,45 +63,5 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISnapinProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISnapinProperties</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ISnapinProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISnapinProperties</b> also has these types of members:
 
-## -members
-
-The <b>ISnapinProperties</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmcobj/nf-mmcobj-isnapinproperties-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Provides the snap-in with the 
-<a href="/previous-versions/windows/desktop/mmc/properties-collection">Properties</a> collection, which can be used for initialization.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmcobj/nf-mmcobj-isnapinproperties-propertieschanged">PropertiesChanged</a>
-</td>
-<td align="left" width="63%">
-Informs the snap-in that one or more of its configuration properties has been added, deleted, or changed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmcobj/nf-mmcobj-isnapinproperties-querypropertynames">QueryPropertyNames</a>
-</td>
-<td align="left" width="63%">
-Returns the names of the properties that the snap-in uses for configuration.
-
-</td>
-</tr>
-</table>

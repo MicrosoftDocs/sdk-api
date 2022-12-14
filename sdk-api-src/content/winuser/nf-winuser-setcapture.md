@@ -46,6 +46,7 @@ api_location:
  - ie_stubs.dll
 api_name:
  - SetCapture
+req.apiset: ext-ms-win-ntuser-mouse-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetCapture function
@@ -53,7 +54,7 @@ api_name:
 
 ## -description
 
-Sets the mouse capture to the specified window belonging to the current thread.<b>SetCapture</b> captures mouse input either when the mouse is over the capturing window, or when the mouse button was pressed while the mouse was over the capturing window and the button is still down. Only one window at a time can capture the mouse.
+Sets the mouse capture to the specified window belonging to the current thread. <b>SetCapture</b> captures mouse input either when the mouse is over the capturing window, or when the mouse button was pressed while the mouse was over the capturing window and the button is still down. Only one window at a time can capture the mouse.
 
 If the mouse cursor is over a window created by another thread, the system will direct mouse input to the specified window only if a mouse button is down.
 

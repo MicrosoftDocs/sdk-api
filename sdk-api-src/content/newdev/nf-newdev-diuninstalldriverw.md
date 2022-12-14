@@ -1,13 +1,13 @@
 ---
 UID: NF:newdev.DiUninstallDriverW
 title: DiUninstallDriverW function (newdev.h)
-description: The DiUninstallDriver function removes a driver from any devices it is installed on by installing those devices with another matching driver, if available, or the null driver if no other matching driver is available. Then the specified driver is removed from the driver store.
-helpviewer_keywords: ["DiInstallDriver","DiInstallDriver function [Device and Driver Installation]","DiInstallDriverA","DiInstallDriverW","devinst.diinstalldriver","di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml","newdev/DiInstallDriver"]
-old-location: devinst\diinstalldriver.htm
+description: The DiUninstallDriver function removes a driver package from any devices it is installed on by installing those devices with another matching driver package, if available, or the null driver if no other matching driver package is available. Then the specified driver package is removed from the driver store. (Unicode)
+helpviewer_keywords: ["DiUninstallDriver","DiUninstallDriver function [Device and Driver Installation]","DiUninstallDriverA","DiUninstallDriverW","devinst.diuninstalldriver","di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml","newdev/DiUninstallDriver"]
+old-location: devinst\diuninstalldriver.htm
 tech.root: devinst
 ms.assetid: 7015d05f-235e-42d1-b4e1-9919bbebf185
 ms.date: 12/05/2018
-ms.keywords: DiInstallDriver, DiInstallDriver function [Device and Driver Installation], DiInstallDriverA, DiInstallDriverW, devinst.diinstalldriver, di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml, newdev/DiInstallDriver
+ms.keywords: DiUninstallDriver, DiUninstallDriver function [Device and Driver Installation], DiUninstallDriverA, DiUninstallDriverW, devinst.diuninstalldriver, di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml, newdev/DiUninstallDriver
 req.header: newdev.h
 req.include-header: Newdev.h
 req.target-type: Desktop
@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>DiUninstallDriver</b> function removes a driver from any devices it is installed on by installing those devices with another matching driver, if available, or the null driver if no other matching driver is available. Then the specified driver is removed from the <a href="/windows-hardware/drivers/install/driver-store">driver store.</a>
+The <b>DiUninstallDriver</b> function removes a driver package from any devices it is installed on by installing those devices with another matching driver package, if available, or the null driver if no other matching driver package is available. Then the specified driver package is removed from the <a href="/windows-hardware/drivers/install/driver-store">driver store.</a> 
 
 ## -parameters
 
@@ -68,11 +68,11 @@ A pointer to a NULL-terminated string that supplies the fully qualified path of 
 
 A value of type DWORD that specifies zero or one or more of the following flags: DIURFLAG_NO_REMOVE_INF. Typically, this flag should be set to zero. 
 
-If this flag is zero, <b>DiUninstallDriver</b> only uninstalls the specified driver from a device if the driver is a better match for a device than the driver that is currently installed on a device. However, if this flag is set to DIURFLAG_NO_REMOVE_INF, <b>DiUninstallDriver</b> removes the driver package from any devices it is installed on, but does not remove the drive package from the Driver Store.
+If this flag is zero, <b>DiUninstallDriver</b> removes the driver package from any devices it is installed on by installing those devices with another matching driver package, if available, or the null driver if no other matching driver package is available. However, if this flag is set to DIURFLAG_NO_REMOVE_INF, <b>DiUninstallDriver</b> removes the driver package from any devices it is installed on, but does not remove the driver package from the Driver Store.
 
-<div class="alert"><b>Caution:</b>  Forcing the uninstallation of the driver can result in replacing a more compatible or newer driver with a less compatible or older driver. </div>
+<div class="alert"><b>Caution:</b>  Forcing the uninstallation of the driver package can result in replacing a more compatible or newer driver package with a less compatible or older driver. </div>
 <div> </div>
-For information about how Windows selects a driver for a device, see <a href="/windows-hardware/drivers/install/how-setup-selects-drivers">How Windows Selects Drivers</a>.
+For information about how Windows selects a driver package for a device, see <a href="/windows-hardware/drivers/install/how-setup-selects-drivers">How Windows Selects Drivers</a>.
 
 ### -param NeedReboot [out, optional]
 

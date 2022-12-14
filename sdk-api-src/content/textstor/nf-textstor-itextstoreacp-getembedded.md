@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreACP.GetEmbedded
 title: ITextStoreACP::GetEmbedded (textstor.h)
-description: Gets an embedded document.
+description: Gets an embedded document. (ITextStoreACP.GetEmbedded)
 helpviewer_keywords: ["GUID_TS_SERVICE_ACCESSIBLE","GUID_TS_SERVICE_ACTIVEX","GUID_TS_SERVICE_DATAOBJECT","GetEmbedded","GetEmbedded method [Text Services Framework]","GetEmbedded method [Text Services Framework]","ITextStoreACP interface","ITextStoreACP interface [Text Services Framework]","GetEmbedded method","ITextStoreACP.GetEmbedded","ITextStoreACP::GetEmbedded","_tsf_itextstoreacp_getembedded_ref","textstor/ITextStoreACP::GetEmbedded","tsf.itextstoreacp_getembedded"]
 old-location: tsf\itextstoreacp_getembedded.htm
 tech.root: TSF

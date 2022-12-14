@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorSetIntY
 title: XMVectorSetIntY function (directxmath.h)
-description: Set the value of the y component of an XMVECTOR Data Type.
+description: Set the value of the y component of an XMVECTOR Data Type. (XMVectorSetIntY)
 helpviewer_keywords: ["Use DirectX..XMVectorSetIntY","XMVectorSetIntY","XMVectorSetIntY method [DirectX Math Support APIs]","dxmath.xmvectorsetinty"]
 old-location: dxmath\xmvectorsetinty.htm
 tech.root: dxmath
@@ -65,7 +65,7 @@ An integer value to be assigned to <code>y</code> of <i>V</i>.
 ## -returns
 
 An instance of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> whose <i>y</i> component has been set to the integer value provided by
-       the argument <i>y</i> to <code>XMVectorSetIntY</code>. All other components of the returned <b>XMVECTOR Data Type</b>instance have the same value as those of the input vector <i>V</i>.
+       the argument <i>y</i> to <code>XMVectorSetIntY</code>. All other components of the returned <b>XMVECTOR Data Type</b> instance have the same value as those of the input vector <i>V</i>.
 
 ## -remarks
 

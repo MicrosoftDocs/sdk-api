@@ -56,11 +56,11 @@ Defines the behavior of a timer when the animation manager is idle.
 
 ## -enum-fields
 
-### -field UI_ANIMATION_IDLE_BEHAVIOR_CONTINUE
+### -field UI_ANIMATION_IDLE_BEHAVIOR_CONTINUE:0
 
 The timer continues to generate timer events (is enabled) when the animation manager is idle.
 
-### -field UI_ANIMATION_IDLE_BEHAVIOR_DISABLE
+### -field UI_ANIMATION_IDLE_BEHAVIOR_DISABLE:1
 
 The timer is suspended (disabled) when the animation manager is idle.
 

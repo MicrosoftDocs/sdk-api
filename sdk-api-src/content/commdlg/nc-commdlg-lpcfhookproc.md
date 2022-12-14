@@ -53,21 +53,21 @@ The <b>LPCFHOOKPROC</b> type defines a pointer to this callback function. <i>CFH
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the <b>Font</b> dialog box for which the message is intended.
 
-### -param Arg2
+### -param unnamedParam2
 
 The identifier of the message being received.
 
-### -param Arg3
+### -param unnamedParam3
 
-Additional information about the message. The exact meaning depends on the value of the <i>Arg2</i> parameter.
+Additional information about the message. The exact meaning depends on the value of the <i>unnamedParam2</i> parameter.
 
-### -param Arg4
+### -param unnamedParam4
 
-Additional information about the message. The exact meaning depends on the value of the <i>Arg2</i> parameter. If the <i>Arg2</i> parameter indicates the <a href="/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message, <i>Arg4</i> is a pointer to a <a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">CHOOSEFONT</a> structure containing the values specified when the dialog box was created.
+Additional information about the message. The exact meaning depends on the value of the <i>unnamedParam2</i> parameter. If the <i>unnamedParam2</i> parameter indicates the <a href="/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message, <i>unnamedParam4</i> is a pointer to a <a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">CHOOSEFONT</a> structure containing the values specified when the dialog box was created.
 
 ## -returns
 

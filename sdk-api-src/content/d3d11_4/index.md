@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Direct3D 11 Graphics. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Direct3D 11 Graphics](../_direct3d11/index.md)
+- [Microsoft Media Foundation](../_mf/index.md)
 

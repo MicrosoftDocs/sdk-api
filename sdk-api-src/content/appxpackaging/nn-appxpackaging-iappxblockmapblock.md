@@ -54,38 +54,7 @@ The <b>IAppxBlockMapBlock</b> interface provides a read-only object that represe
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBlockMapBlock</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBlockMapBlock</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAppxBlockMapBlock</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxblockmapblock-getcompressedsize">GetCompressedSize</a>
-</td>
-<td align="left" width="63%">
-Retrieves compressed size of the block.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxblockmapblock-gethash">GetHash</a>
-</td>
-<td align="left" width="63%">
-Retrieves the hash value of the block.
-
-</td>
-</tr>
-</table>
+The <b>IAppxBlockMapBlock</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBlockMapBlock</b> also has these types of members:
 
 ## -remarks
 

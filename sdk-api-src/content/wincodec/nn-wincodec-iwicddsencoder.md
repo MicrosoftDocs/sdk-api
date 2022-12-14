@@ -54,47 +54,7 @@ Enables writing DDS format specific information to an encoder.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICDdsEncoder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICDdsEncoder</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWICDdsEncoder</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicddsencoder-createnewframe">CreateNewFrame</a>
-</td>
-<td align="left" width="63%">
-Creates a new frame to encode.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicddsencoder-getparameters">GetParameters</a>
-</td>
-<td align="left" width="63%">
-Gets DDS-specific data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicddsencoder-setparameters">SetParameters</a>
-</td>
-<td align="left" width="63%">
-Sets DDS-specific data.
-
-</td>
-</tr>
-</table>
+The <b>IWICDdsEncoder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICDdsEncoder</b> also has these types of members:
 
 ## -remarks
 

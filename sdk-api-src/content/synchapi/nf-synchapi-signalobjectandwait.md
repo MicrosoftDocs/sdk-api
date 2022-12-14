@@ -4,7 +4,7 @@ title: SignalObjectAndWait function (synchapi.h)
 description: Signals one object and waits on another object as a single operation.
 helpviewer_keywords: ["SignalObjectAndWait","SignalObjectAndWait function","_win32_signalobjectandwait","base.signalobjectandwait","synchapi/SignalObjectAndWait"]
 old-location: base\signalobjectandwait.htm
-tech.root: backup
+tech.root: base
 ms.assetid: 2b1ce22b-8edb-4685-99f4-4fc38eec202a
 ms.date: 12/05/2018
 ms.keywords: SignalObjectAndWait, SignalObjectAndWait function, _win32_signalobjectandwait, base.signalobjectandwait, synchapi/SignalObjectAndWait
@@ -185,17 +185,25 @@ For more information, see
 
 A thread can use the <b>SignalObjectAndWait</b> function to ensure that a  worker thread is in a wait state before signaling an object. For example, a thread and a worker thread may use handles to event objects to synchronize their work. The thread executes code such as the following:
 
-<pre class="syntax" xml:space="preserve"><code>  dwRet = WaitForSingleObject(hEventWorkerDone, INFINITE);
+
+``` syntax
+  dwRet = WaitForSingleObject(hEventWorkerDone, INFINITE);
   if( WAIT_OBJECT_0 == dwRet)
     SetEvent(hEventMoreWorkToDo);
-</code></pre>
+
+```
+
 The worker thread executes code such as the following:
 
-<pre class="syntax" xml:space="preserve"><code>  dwRet = SignalObjectAndWait(hEventWorkerDone,
+
+``` syntax
+  dwRet = SignalObjectAndWait(hEventWorkerDone,
                               hEventMoreWorkToDo,
                               INFINITE, 
                               FALSE);
-</code></pre>
+
+```
+
 Note that the "signal" and "wait" are not guaranteed to be performed as an atomic operation. Threads executing on other processors can observe the signaled state of the first object before the thread calling <b>SignalObjectAndWait</b> begins its wait on the second object.
 
 Use extreme caution when using  <b>SignalObjectAndWait</b>  and <a href="/windows/desktop/api/winbase/nf-winbase-pulseevent">PulseEvent</a> with Windows 7, since using these APIs among multiple threads can cause an application to deadlock. Threads that are signaled by <b>SignalObjectAndWait</b>  call <b>PulseEvent</b> to signal the waiting object of the <b>SignalObjectAndWait</b> call. In some circumstances, the caller of <b>SignalObjectAndWait</b> can't receive signal state of the waiting object in time, causing a deadlock.

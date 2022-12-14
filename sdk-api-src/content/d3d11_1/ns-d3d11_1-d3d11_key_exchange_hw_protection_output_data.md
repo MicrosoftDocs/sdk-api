@@ -60,7 +60,7 @@ The size of the private data reserved for IHV usage. This size is determined fro
 
 ### -field MaxHWProtectionDataSize
 
-The maximum size of data that the driver can return in the output buffer. The last byte that it can write to is <b>pbOuput</b>[<b>PrivateDataSize</b> + <b>MaxHWProtectionDataSize</b> – 1].
+The maximum size of data that the driver can return in the output buffer. The last byte that it can write to is <b>pbOutput</b>[<b>PrivateDataSize</b> + <b>MaxHWProtectionDataSize</b> – 1].
 
 ### -field HWProtectionDataSize
 

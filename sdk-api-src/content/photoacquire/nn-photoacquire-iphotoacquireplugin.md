@@ -54,56 +54,7 @@ Implement the <code>IPhotoAcquirePlugin</code> interface when you want to create
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPhotoAcquirePlugin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPhotoAcquirePlugin</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPhotoAcquirePlugin</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireplugin-displayconfiguredialog">DisplayConfigureDialog</a>
-</td>
-<td align="left" width="63%">
-Provides extended functionality when the configuration dialog is displayed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireplugin-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Provides extended functionality when the plug-in is initialized.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireplugin-processitem">ProcessItem</a>
-</td>
-<td align="left" width="63%">
-Provides extended functionality each time a file is transferred or enumerated.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireplugin-transfercomplete">TransferComplete</a>
-</td>
-<td align="left" width="63%">
-Provides extended functionality when the transfer completes.
-
-</td>
-</tr>
-</table>
+The <b>IPhotoAcquirePlugin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPhotoAcquirePlugin</b> also has these types of members:
 
 ## -see-also
 

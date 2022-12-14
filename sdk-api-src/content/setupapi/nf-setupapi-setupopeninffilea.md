@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupOpenInfFileA
 title: SetupOpenInfFileA function (setupapi.h)
-description: The SetupOpenInfFile function opens an INF file and returns a handle to it.
+description: The SetupOpenInfFile function opens an INF file and returns a handle to it. (ANSI)
 helpviewer_keywords: ["SetupOpenInfFile","SetupOpenInfFile function [Setup API]","SetupOpenInfFileA","SetupOpenInfFileW","_setupapi_setupopeninffile","setup.setupopeninffile","setupapi/SetupOpenInfFile","setupapi/SetupOpenInfFileA","setupapi/SetupOpenInfFileW"]
 old-location: setup\setupopeninffile.htm
 tech.root: setup
@@ -47,6 +47,7 @@ api_name:
  - SetupOpenInfFile
  - SetupOpenInfFileA
  - SetupOpenInfFileW
+req.apiset: ext-ms-win-setupapi-inf-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetupOpenInfFileA function

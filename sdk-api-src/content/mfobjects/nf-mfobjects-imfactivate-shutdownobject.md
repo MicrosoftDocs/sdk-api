@@ -53,7 +53,7 @@ api_name:
 
 Shuts down the created object.
 
-## -parameters
+
 
 ## -returns
 

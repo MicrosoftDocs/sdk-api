@@ -7,7 +7,6 @@ old-location: direct3d12\dml_binding_properties.htm
 tech.root: directml
 ms.assetid: 000A1236-A557-4DCD-8A25-23AA5CF29C2D
 ms.date: 12/5/2018
-ms.keywords: DML_BINDING_PROPERTIES, DML_BINDING_PROPERTIES structure, direct3d12.dml_binding_properties, directml/DML_BINDING_PROPERTIES
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -45,12 +44,9 @@ api_name:
  - DML_BINDING_PROPERTIES
 ---
 
-# DML_BINDING_PROPERTIES structure
-
-
 ## -description
 
-Contains information about the binding requirements of a particular compiled operator, or operator initializer. This struct is retrieved from [IDMLDispatchable::GetBindingProperties](/windows/desktop/api/directml/nf-directml-idmldispatchable-getbindingproperties).
+Contains information about the binding requirements of a particular compiled operator, or operator initializer. This struct is retrieved from [IDMLDispatchable::GetBindingProperties](/windows/win32/api/directml/nf-directml-idmldispatchable-getbindingproperties).
 
 ## -struct-fields
 
@@ -79,4 +75,4 @@ The minimum size in bytes of the persistent resource that must be bound to the b
 
 ## -see-also
 
-<a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
+<a href="/windows/ai/directml/dml-binding">Binding in DirectML</a>

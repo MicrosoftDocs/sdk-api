@@ -55,7 +55,7 @@ api_name:
 
 The <b>Resume</b> method starts the reader from the current position, after a <b>Pause</b> method call.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,12 +1,12 @@
 ---
 UID: NN:vdshwprv.IVdsSubSystemIscsi
 title: IVdsSubSystemIscsi (vdshwprv.h)
-description: Provides methods to query and configure iSCSI targets and portals on a subsystem.
+description: The IVdsSubSystemIscsi interface (vdshwprv.h) provides methods to query and configure iSCSI targets and portals on a subsystem. 
 helpviewer_keywords: ["IVdsSubSystemIscsi","IVdsSubSystemIscsi interface [VDS]","IVdsSubSystemIscsi interface [VDS]","described","base.ivdssubsystemiscsi","vds/IVdsSubSystemIscsi","vdshwprv/IVdsSubSystemIscsi"]
 old-location: base\ivdssubsystemiscsi.htm
 tech.root: base
 ms.assetid: e92417b7-6664-4fd7-900f-aedc83291dea
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsSubSystemIscsi, IVdsSubSystemIscsi interface [VDS], IVdsSubSystemIscsi interface [VDS],described, base.ivdssubsystemiscsi, vds/IVdsSubSystemIscsi, vdshwprv/IVdsSubSystemIscsi
 req.header: vdshwprv.h
 req.include-header: 
@@ -57,48 +57,7 @@ Provides methods to query and configure iSCSI targets and portals on a subsystem
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsSubSystemIscsi</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsSubSystemIscsi</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVdsSubSystemIscsi</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystemiscsi-createtarget">CreateTarget</a>
-</td>
-<td align="left" width="63%">
-Creates an iSCSI target.</p> (Inherited from <b>IVdsSubSystemIscsi</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystemiscsi-queryportals">QueryPortals</a>
-</td>
-<td align="left" width="63%">
-Returns an object that enumerates the iSCSI portals of the subsystem.</p> (Inherited from <b>IVdsSubSystemIscsi</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystemiscsi-querytargets">QueryTargets</a>
-</td>
-<td align="left" width="63%">
-Returns an object that enumerates the iSCSI targets of the subsystem.</p> (Inherited from <b>IVdsSubSystemIscsi</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystemiscsi-setipsecgrouppresharedkey">SetIpsecGroupPresharedKey</a>
-</td>
-<td align="left" width="63%">
-This method is reserved for future use.</p> (Inherited from <b>IVdsSubSystemIscsi</b>)</td>
-</tr>
-</table>
+The <b>IVdsSubSystemIscsi</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsSubSystemIscsi</b> also has these types of members:
 
 ## -see-also
 

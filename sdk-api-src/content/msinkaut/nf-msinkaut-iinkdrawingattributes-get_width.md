@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.get_Width
 title: IInkDrawingAttributes::get_Width (msinkaut.h)
-description: Gets or sets the y-axis dimension, or width, of the pen tip when drawing ink.
+description: Gets or sets the y-axis dimension, or width, of the pen tip when drawing ink. (Get)
 helpviewer_keywords: ["6069f9d3-061a-48ba-8161-86d6152d68f0","IInkDrawingAttributes interface [Tablet PC]","Width property","IInkDrawingAttributes.Width","IInkDrawingAttributes.get_Width","IInkDrawingAttributes::Width","IInkDrawingAttributes::get_Width","IInkDrawingAttributes::put_Width","InkDrawingAttributes.get_Width","InkDrawingAttributes.put_Width","Width property [Tablet PC]","Width property [Tablet PC]","IInkDrawingAttributes interface","get_Width","msinkaut/IInkDrawingAttributes::Width","msinkaut/IInkDrawingAttributes::get_Width","msinkaut/IInkDrawingAttributes::put_Width","put_Width","tablet.inkdrawingattributes_width"]
 old-location: tablet\inkdrawingattributes_width.htm
 tech.root: tablet
@@ -75,7 +75,7 @@ Precision is limited to one one-thousandth of a HIMETRIC unit (three digits to t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846798(v=VS.85).aspx">IInkDrawingAttributes</a>
+<a href="../msinkaut/nn-msinkaut-iinkdrawingattributes.md">IInkDrawingAttributes</a>
 
 
 

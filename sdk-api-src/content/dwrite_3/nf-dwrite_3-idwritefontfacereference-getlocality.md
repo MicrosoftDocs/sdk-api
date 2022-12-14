@@ -52,7 +52,7 @@ api_name:
 
 Get the locality of this font face reference.
 
-## -parameters
+
 
 ## -returns
 

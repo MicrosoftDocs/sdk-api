@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiGetCustomDevicePropertyW
 title: SetupDiGetCustomDevicePropertyW function (setupapi.h)
-description: The SetupDiGetCustomDeviceProperty function retrieves a specified custom device property from the registry.
+description: The SetupDiGetCustomDeviceProperty function retrieves a specified custom device property from the registry. (Unicode)
 helpviewer_keywords: ["SetupDiGetCustomDeviceProperty","SetupDiGetCustomDeviceProperty function [Device and Driver Installation]","SetupDiGetCustomDevicePropertyA","SetupDiGetCustomDevicePropertyW","devinst.setupdigetcustomdeviceproperty","di-rtns_ec69099c-ea3f-47f8-bc14-c10dbd7cba0e.xml","setupapi/SetupDiGetCustomDeviceProperty","setupapi/SetupDiGetCustomDevicePropertyA","setupapi/SetupDiGetCustomDevicePropertyW"]
 old-location: devinst\setupdigetcustomdeviceproperty.htm
 tech.root: devinst
@@ -90,7 +90,7 @@ A pointer to a buffer that receives requested property information.
 
 ### -param PropertyBufferSize [in]
 
-The size, in bytes, of the <i>PropertyBuffer </i>buffer.
+The size, in bytes, of the <i>PropertyBuffer </i> buffer.
 
 ### -param RequiredSize [out, optional]
 
@@ -103,7 +103,7 @@ If set, the function retrieves both device instance-specific property values and
 
 ## -returns
 
-If the operation succeeds, <b>SetupDiGetCustomDeviceProperty</b> returns <b>TRUE</b>. Otherwise, the function returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the <i>PropertyBuffer </i>buffer is not large enough to receive the requested information, <b>SetupDiGetCustomDeviceProperty</b> returns <b>FALSE</b> and a subsequent call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return ERROR_INSUFFICIENT_BUFFER.
+If the operation succeeds, <b>SetupDiGetCustomDeviceProperty</b> returns <b>TRUE</b>. Otherwise, the function returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the <i>PropertyBuffer </i> buffer is not large enough to receive the requested information, <b>SetupDiGetCustomDeviceProperty</b> returns <b>FALSE</b> and a subsequent call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return ERROR_INSUFFICIENT_BUFFER.
 
 ## -remarks
 

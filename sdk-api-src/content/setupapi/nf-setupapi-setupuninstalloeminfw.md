@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupUninstallOEMInfW
 title: SetupUninstallOEMInfW function (setupapi.h)
-description: The SetupUninstallOEMInf function uninstalls a specified .inf file and any associated .pnf file.
+description: The SetupUninstallOEMInf function uninstalls a specified .inf file and any associated .pnf file. (Unicode)
 helpviewer_keywords: ["SUOI_FORCEDELETE","SetupUninstallOEMInf","SetupUninstallOEMInf function [Setup API]","SetupUninstallOEMInfA","SetupUninstallOEMInfW","_setupapi_setupuninstalloeminf","setup.setupuninstalloeminf","setupapi/SetupUninstallOEMInf","setupapi/SetupUninstallOEMInfA","setupapi/SetupUninstallOEMInfW"]
 old-location: setup\setupuninstalloeminf.htm
 tech.root: setup
 ms.assetid: 70cec8c7-7954-44d7-93f5-711368f72bf7
-ms.date: 12/05/2018
+ms.date: 10/25/2022
 ms.keywords: SUOI_FORCEDELETE, SetupUninstallOEMInf, SetupUninstallOEMInf function [Setup API], SetupUninstallOEMInfA, SetupUninstallOEMInfW, _setupapi_setupuninstalloeminf, setup.setupuninstalloeminf, setupapi/SetupUninstallOEMInf, setupapi/SetupUninstallOEMInfA, setupapi/SetupUninstallOEMInfW
 req.header: setupapi.h
 req.include-header: 
@@ -46,6 +46,7 @@ api_name:
  - SetupUninstallOEMInf
  - SetupUninstallOEMInfA
  - SetupUninstallOEMInfW
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupUninstallOEMInfW function
@@ -88,7 +89,9 @@ If this flag is set, the .inf file is removed whether  the function finds a devi
 
 <div class="alert"><b>Note</b>  This flag only applies to x86, amd64, and ia64 architectures.  It is ignored on all other architectures.</div>
 <div> </div>
-<div class="alert"><b>Note</b>  If the driver package has any files that are copied to a <a href="/windows-hardware/drivers/install/inf-destinationdirs-section">DestinationDir</a> that uses a <a href="/windows-hardware/drivers/install/using-dirids">dirid</a> of 13, then this force flag is ignored.</div>
+<div class="alert"><b>Note</b>  If the driver package has any files that are copied to a <a href="/windows-hardware/drivers/install/inf-destinationdirs-section">DestinationDir</a> that uses a <a href="/windows-hardware/drivers/install/using-dirids">DirId</a> of 13, then this force flag is ignored.</div>
+<div> </div>
+<div class="alert"><b>Note</b>  It is recommended to use <a href="/windows/win32/api/newdev/nf-newdev-diuninstalldriverw">DiUninstallDriver</a> to remove a driver package instead of using this flag.</div>
 <div> </div>
 </td>
 </tr>
@@ -107,12 +110,13 @@ This function returns WINSETUPAPI BOOL.
 <a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
-
 <a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
-
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupcopyoeminfa">SetupCopyOEMInf</a>
+
+
+<a href="/windows/win32/api/newdev/nf-newdev-diuninstalldriverw">DiUninstallDriver</a>
 
 ## -remarks
 

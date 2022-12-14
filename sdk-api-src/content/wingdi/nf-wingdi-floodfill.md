@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.FloodFill
 title: FloodFill function (wingdi.h)
-description: The FloodFill function fills an area of the display surface with the current brush. The area is assumed to be bounded as specified by the crFill parameter.
+description: The FloodFill function fills an area of the display surface with the current brush. The area is assumed to be bounded as specified by the color parameter.
 helpviewer_keywords: ["FloodFill","FloodFill function [Windows GDI]","_win32_FloodFill","gdi.floodfill","wingdi/FloodFill"]
 old-location: gdi\floodfill.htm
 tech.root: gdi
@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>FloodFill</b> function fills an area of the display surface with the current brush. The area is assumed to be bounded as specified by the <i>crFill</i> parameter.
+The <b>FloodFill</b> function fills an area of the display surface with the current brush. The area is assumed to be bounded as specified by the <i>color</i> parameter.
 <div class="alert"><b>Note</b>  The <b>FloodFill</b> function is included only for compatibility with 16-bit versions of Windows. Applications should use the <a href="/windows/desktop/api/wingdi/nf-wingdi-extfloodfill">ExtFloodFill</a> function with FLOODFILLBORDER specified.</div><div> </div>
 
 ## -parameters
@@ -85,8 +85,8 @@ The following are reasons this function might fail:
 
 <ul>
 <li>The fill could not be completed.</li>
-<li>The given point has the boundary color specified by the <i>crFill</i> parameter.</li>
-<li>The given point lies outside the current clipping regionthat is, it is not visible on the device.</li>
+<li>The given point has the boundary color specified by the <i>color</i> parameter.</li>
+<li>The given point lies outside the current clipping region, that is, it is not visible on the device.</li>
 </ul>
 
 ## -see-also

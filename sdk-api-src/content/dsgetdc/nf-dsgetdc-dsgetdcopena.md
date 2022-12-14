@@ -1,7 +1,7 @@
 ---
 UID: NF:dsgetdc.DsGetDcOpenA
 title: DsGetDcOpenA function (dsgetdc.h)
-description: Opens a new domain controller enumeration operation.
+description: Opens a new domain controller enumeration operation. (ANSI)
 helpviewer_keywords: ["DS_FORCE_REDISCOVERY","DS_GC_SERVER_REQUIRED","DS_KDC_REQUIRED","DS_NOTIFY_AFTER_SITE_RECORDS","DS_ONLY_DO_SITE_NAME","DS_ONLY_LDAP_NEEDED","DS_PDC_REQUIRED","DsGetDcOpen","DsGetDcOpen function [Active Directory]","DsGetDcOpenA","DsGetDcOpenW","ad.dsgetdcopen","dsgetdc/DsGetDcOpen","dsgetdc/DsGetDcOpenA","dsgetdc/DsGetDcOpenW"]
 old-location: ad\dsgetdcopen.htm
 tech.root: ad
@@ -88,7 +88,7 @@ Pointer to a <b>GUID</b> value that contains the identifier of the domain specif
 
 ### -param DnsForestName [in, optional]
 
-Pointer to a null-terminated string that contains the name of the forest that contains the <i>DnsName</i> domain.  This value is used in conjunction with <i>DomainGuid</i>to enumerate the domain controllers if the  domain has been renamed. This parameter is optional and may be <b>NULL</b>.
+Pointer to a null-terminated string that contains the name of the forest that contains the <i>DnsName</i> domain.  This value is used in conjunction with <i>DomainGuid</i> to enumerate the domain controllers if the  domain has been renamed. This parameter is optional and may be <b>NULL</b>.
 
 ### -param DcFlags [in]
 

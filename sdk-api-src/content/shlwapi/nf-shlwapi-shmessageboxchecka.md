@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHMessageBoxCheckA
 title: SHMessageBoxCheckA function (shlwapi.h)
-description: SHMessageBoxCheck may be altered or unavailable.
+description: SHMessageBoxCheck may be altered or unavailable. (ANSI)
 helpviewer_keywords: ["MB_ICONEXCLAMATION","MB_ICONHAND","MB_ICONINFORMATION","MB_ICONQUESTION","MB_OK","MB_OKCANCEL","MB_YESNO","SHMessageBoxCheck","SHMessageBoxCheck function [Windows Shell]","SHMessageBoxCheckA","SHMessageBoxCheckW","_win32_SHMessageBoxCheck","shell.SHMessageBoxCheck","shlwapi/SHMessageBoxCheck","shlwapi/SHMessageBoxCheckA","shlwapi/SHMessageBoxCheckW"]
 old-location: shell\SHMessageBoxCheck.htm
 tech.root: shell
@@ -182,16 +182,15 @@ If the user selects <b>In the future, do not show me this</b> dialog box and cli
 
 The default button displayed by the message box should agree with your <i>iDefault</i> value. The lack of support for the MB_DEFBUTTON2 flag means that <i>iDefault</i> should be set to IDOK if you have specified the MB_OK or MB_OKCANCEL flag. The <i>iDefault</i> value should be set to IDYES if you have set the MB_YESNO flag.
 
-<b>SHMessageBoxCheck</b> records the message boxes that the user has chosen to suppress under the following registry key.
+<b>SHMessageBoxCheck</b> records the message boxes that the user has chosen to suppress under the following registry key:
                 
-                <pre xml:space="preserve"><b>HKEY_CURRENT_USER</b>
+<pre><b>HKEY_CURRENT_USER</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Windows</b>
             <b>CurrentVersion</b>
                <b>Explorer</b>
-                  <b>LowRegistry</b>
-                     <b>DontShowMeThisDialogAgain</b></pre>
+                  <b>DontShowMeThisDialogAgain</b></pre>
 
 
 

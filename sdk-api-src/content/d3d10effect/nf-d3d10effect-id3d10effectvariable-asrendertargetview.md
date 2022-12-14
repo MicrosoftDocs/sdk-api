@@ -52,7 +52,7 @@ api_name:
 
 Get a render-target-view variable.
 
-## -parameters
+
 
 ## -returns
 

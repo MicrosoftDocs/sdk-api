@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IServiceActivity.AsynchronousCall
 title: IServiceActivity::AsynchronousCall (comsvcs.h)
-description: Performs the user-defined work asynchronously.
+description: Performs the user-defined work asynchronously. (IServiceActivity.AsynchronousCall)
 helpviewer_keywords: ["AsynchronousCall","AsynchronousCall method [COM+]","AsynchronousCall method [COM+]","IServiceActivity interface","IServiceActivity interface [COM+]","AsynchronousCall method","IServiceActivity.AsynchronousCall","IServiceActivity::AsynchronousCall","_cos_IServiceActivity_AsynchronousCall","comsvcs/IServiceActivity::AsynchronousCall","cos.iserviceactivity_asynchronouscall"]
 old-location: cos\iserviceactivity_asynchronouscall.htm
 tech.root: cos

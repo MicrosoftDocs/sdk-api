@@ -53,7 +53,7 @@ api_name:
 The <b>EndMonitor</b> method ends monitoring of a compound file. Must be preceded by a call to 
 <a href="/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-beginmonitor">ILayoutStorage::BeginMonitor</a>.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,12 +1,12 @@
 ---
 UID: NC:imm.REGISTERWORDENUMPROCW
 title: REGISTERWORDENUMPROCW (imm.h)
-description: An application-defined callback function used with the ImmEnumRegisterWord function.
+description: REGISTERWORDENUMPROCW (Unicode) (imm.h) is an application-defined callback function used with the ImmEnumRegisterWord function.
 helpviewer_keywords: ["EnumRegisterWordProc","EnumRegisterWordProc callback function [Internationalization for Windows Applications]","EnumRegisterWordProcA","EnumRegisterWordProcW","REGISTERWORDENUMPROC","REGISTERWORDENUMPROC callback","REGISTERWORDENUMPROCA","REGISTERWORDENUMPROCW","_win32_EnumRegisterWordProc","imm/EnumRegisterWordProc","imm/EnumRegisterWordProcA","imm/EnumRegisterWordProcW","intl.enumregisterwordproc"]
 old-location: intl\enumregisterwordproc.htm
 tech.root: Intl
 ms.assetid: 06038c87-3553-47de-ba9f-b9c65ea9920b
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: EnumRegisterWordProc, EnumRegisterWordProc callback function [Internationalization for Windows Applications], EnumRegisterWordProcA, EnumRegisterWordProcW, REGISTERWORDENUMPROC, REGISTERWORDENUMPROC callback, REGISTERWORDENUMPROCA, REGISTERWORDENUMPROCW, _win32_EnumRegisterWordProc, imm/EnumRegisterWordProc, imm/EnumRegisterWordProcA, imm/EnumRegisterWordProcW, intl.enumregisterwordproc
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
@@ -58,7 +58,7 @@ An application-defined callback function used with the <a href="/windows/desktop
 
 Pointer to a null-terminated string specifying the matched reading string.
 
-### -param Arg2
+### -param unnamedParam2
 
 The style of the register string.
 
@@ -66,7 +66,7 @@ The style of the register string.
 
 Pointer to a null-terminated string specifying the matched register string.
 
-### -param Arg4
+### -param unnamedParam4
 
 Application-supplied data.
 

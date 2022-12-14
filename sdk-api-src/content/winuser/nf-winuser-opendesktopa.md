@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.OpenDesktopA
 title: OpenDesktopA function (winuser.h)
-description: Opens the specified desktop object.
+description: Opens the specified desktop object. (ANSI)
 helpviewer_keywords: ["DF_ALLOWOTHERACCOUNTHOOK","OpenDesktop","OpenDesktop function [Windows Stations and Desktops]","OpenDesktopA","OpenDesktopW","_win32_opendesktop","base.opendesktop","winstation.opendesktop","winuser/OpenDesktop","winuser/OpenDesktopA","winuser/OpenDesktopW"]
 old-location: winstation\opendesktop.htm
 tech.root: winstation
@@ -47,6 +47,7 @@ api_name:
  - OpenDesktop
  - OpenDesktopA
  - OpenDesktopW
+req.apiset: ext-ms-win-ntuser-windowstation-ansi-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # OpenDesktopA function

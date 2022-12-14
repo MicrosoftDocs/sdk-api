@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetTabbedTextExtentW
 title: GetTabbedTextExtentW function (winuser.h)
-description: The GetTabbedTextExtent function computes the width and height of a character string.
+description: The GetTabbedTextExtent function computes the width and height of a character string. (Unicode)
 helpviewer_keywords: ["GetTabbedTextExtent","GetTabbedTextExtent function [Windows GDI]","GetTabbedTextExtentA","GetTabbedTextExtentW","_win32_GetTabbedTextExtent","gdi.gettabbedtextextent","winuser/GetTabbedTextExtent","winuser/GetTabbedTextExtentA","winuser/GetTabbedTextExtentW"]
 old-location: gdi\gettabbedtextextent.htm
 tech.root: gdi

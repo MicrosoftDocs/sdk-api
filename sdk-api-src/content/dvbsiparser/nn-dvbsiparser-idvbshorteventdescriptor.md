@@ -54,62 +54,8 @@ Implements methods that get data  from a Digital Video Broadcast (DVB) short eve
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbShortEventDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbShortEventDescriptor</b> also has these types of members:
+The <b>IDvbShortEventDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbShortEventDescriptor</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDvbShortEventDescriptor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbshorteventdescriptor-geteventnamew">GetEventNameW</a>
-</td>
-<td align="left" width="63%">
-Gets the event name in Unicode string format from a DVB short event descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbshorteventdescriptor-getlanguagecode">GetLanguageCode</a>
-</td>
-<td align="left" width="63%">
-Gets the three-character ISO 639 language identifier for the DVB short event descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbshorteventdescriptor-getlength">GetLength</a>
-</td>
-<td align="left" width="63%">
-Gets the body length of a DVB short event descriptor
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbshorteventdescriptor-gettag">GetTag</a>
-</td>
-<td align="left" width="63%">
-Gets the tag that identifies a DVB short event descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbshorteventdescriptor-gettextw">GetTextW</a>
-</td>
-<td align="left" width="63%">
-Gets the text that describes the event in string format from a DVB short event descriptor.
-
-</td>
-</tr>
-</table>

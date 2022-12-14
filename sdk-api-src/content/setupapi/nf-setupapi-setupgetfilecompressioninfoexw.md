@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupGetFileCompressionInfoExW
 title: SetupGetFileCompressionInfoExW function (setupapi.h)
-description: The SetupGetFileCompressionInfoEx function examines a potentially compressed file and gets the type of compression, the file's full path (including file name), the compressed size, and the size of the uncompressed target file.
+description: The SetupGetFileCompressionInfoEx function examines a potentially compressed file and gets the type of compression, the file's full path (including file name), the compressed size, and the size of the uncompressed target file. (Unicode)
 helpviewer_keywords: ["SetupGetFileCompressionInfoEx","SetupGetFileCompressionInfoEx function [Setup API]","SetupGetFileCompressionInfoExA","SetupGetFileCompressionInfoExW","_setupapi_setupgetfilecompressioninfoex","setup.setupgetfilecompressioninfoex","setupapi/SetupGetFileCompressionInfoEx","setupapi/SetupGetFileCompressionInfoExA","setupapi/SetupGetFileCompressionInfoExW"]
 old-location: setup\setupgetfilecompressioninfoex.htm
 tech.root: setup

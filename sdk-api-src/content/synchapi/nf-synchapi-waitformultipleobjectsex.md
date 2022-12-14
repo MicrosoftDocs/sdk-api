@@ -4,12 +4,12 @@ title: WaitForMultipleObjectsEx function (synchapi.h)
 description: Waits until one or all of the specified objects are in the signaled state, an I/O completion routine or asynchronous procedure call (APC) is queued to the thread, or the time-out interval elapses.
 helpviewer_keywords: ["WaitForMultipleObjectsEx","WaitForMultipleObjectsEx function","_win32_waitformultipleobjectsex","base.waitformultipleobjectsex","synchapi/WaitForMultipleObjectsEx","winbase/WaitForMultipleObjectsEx"]
 old-location: base\waitformultipleobjectsex.htm
-tech.root: backup
+tech.root: base
 ms.assetid: 47a167fb-4714-4353-b924-a161f367673c
 ms.date: 12/05/2018
 ms.keywords: WaitForMultipleObjectsEx, WaitForMultipleObjectsEx function, _win32_waitformultipleobjectsex, base.waitformultipleobjectsex, synchapi/WaitForMultipleObjectsEx, winbase/WaitForMultipleObjectsEx
 req.header: synchapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -195,7 +195,10 @@ To wait on more than <b>MAXIMUM_WAIT_OBJECTS</b> handles, use one of the followi
 
 <ul>
 <li>Create a thread to wait on <b>MAXIMUM_WAIT_OBJECTS</b> handles, then wait on that thread plus the other handles. Use this technique to break the handles into groups of <b>MAXIMUM_WAIT_OBJECTS</b>.</li>
-<li>Call <a href="/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject">RegisterWaitForSingleObject</a> to wait on each handle. A wait thread from the thread pool waits on <b>MAXIMUM_WAIT_OBJECTS</b> registered objects and assigns a worker thread after the object is signaled or the time-out interval expires.</li>
+<li>Call <a href="/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject">RegisterWaitForSingleObject</a> or
+<a href="/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwait">SetThreadpoolWait</a>
+to wait on each handle.
+The thread pool waits efficiently on the handles and assigns a worker thread after the object is signaled or the time-out interval expires.</li>
 </ul>
 The 
 <b>WaitForMultipleObjectsEx</b> function can specify handles of any of the following object types in the <i>lpHandles</i> array:

@@ -59,65 +59,7 @@ For introductory information about how the <b>IFilter</b> interface works with d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFilter</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IFilter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/filter/nf-filter-ifilter-bindregion">BindRegion</a>
-</td>
-<td align="left" width="63%">
-Retrieves an interface representing the specified portion of object. Currently reserved for future use.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/filter/nf-filter-ifilter-getchunk">GetChunk</a>
-</td>
-<td align="left" width="63%">
-Positions filter at beginning of first or next chunk and returns a descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/filter/nf-filter-ifilter-gettext">GetText</a>
-</td>
-<td align="left" width="63%">
-Retrieves text from the current chunk.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/filter/nf-filter-ifilter-getvalue">GetValue</a>
-</td>
-<td align="left" width="63%">
-Retrieves values from the current chunk.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/filter/nf-filter-ifilter-init">Init</a>
-</td>
-<td align="left" width="63%">
-Initializes a filtering session.
-
-</td>
-</tr>
-</table>
+The <b>IFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFilter</b> also has these types of members:
 
 ## -remarks
 

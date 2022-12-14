@@ -60,38 +60,7 @@ We recommend that you not use <b>IDXGIDisplayControl</b> to query or set system-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDisplayControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXGIDisplayControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDXGIDisplayControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidisplaycontrol-isstereoenabled">IsStereoEnabled</a>
-</td>
-<td align="left" width="63%">
-Retrieves a Boolean value that indicates whether the operating system's stereoscopic 3D display behavior is enabled.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidisplaycontrol-setstereoenabled">SetStereoEnabled</a>
-</td>
-<td align="left" width="63%">
-Set a Boolean value to either enable or disable the operating system's stereoscopic 3D display behavior.
-
-</td>
-</tr>
-</table>
+The <b>IDXGIDisplayControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXGIDisplayControl</b> also has these types of members:
 
 ## -remarks
 

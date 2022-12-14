@@ -125,11 +125,15 @@ A service can call this function only after it has called
 If a service calls 
 <b>SetServiceStatus</b> with the <b>dwCurrentState</b> member set to SERVICE_STOPPED and the <b>dwWin32ExitCode</b> member set to a nonzero value, the following entry is written into the System event log:
 
-<pre class="syntax" xml:space="preserve"><code>   Event ID    = 7023
+
+``` syntax
+   Event ID    = 7023
    Source      = Service Control Manager
    Type        = Error
    Description = &lt;ServiceName&gt; terminated with the following error:
-                 &lt;ExitCode&gt;.</code></pre>
+                 &lt;ExitCode&gt;.
+```
+
 The following are best practices when calling this function:
 
 <ul>

@@ -56,23 +56,23 @@ The <code>MP_CURVE_TYPE</code> enumeration defines the curve that a media parame
 
 ## -enum-fields
 
-### -field MP_CURVE_JUMP
+### -field MP_CURVE_JUMP:0x1
 
 No interpolation. Jump to the next point.
 
-### -field MP_CURVE_LINEAR
+### -field MP_CURVE_LINEAR:0x2
 
 Linear interpolation.
 
-### -field MP_CURVE_SQUARE
+### -field MP_CURVE_SQUARE:0x4
 
 Parabolic curve.
 
-### -field MP_CURVE_INVSQUARE
+### -field MP_CURVE_INVSQUARE:0x8
 
 Inverse square curve.
 
-### -field MP_CURVE_SINE
+### -field MP_CURVE_SINE:0x10
 
 Sine curve.
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10.ID3D10Texture1D
 title: ID3D10Texture1D (d3d10.h)
-description: A 1D texture interface accesses texel data, which is structured memory.
+description: A 1D texture interface accesses texel data, which is structured memory. (ID3D10Texture1D)
 helpviewer_keywords: ["ID3D10Texture1D","ID3D10Texture1D interface [Direct3D 10]","ID3D10Texture1D interface [Direct3D 10]","described","d2aff301-d0e7-6d38-4b16-a1f90a64ba0e","d3d10/ID3D10Texture1D","direct3d10.id3d10texture1d"]
 old-location: direct3d10\id3d10texture1d.htm
 tech.root: direct3d10
@@ -55,47 +55,7 @@ A <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resource
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Texture1D</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>. <b>ID3D10Texture1D</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D10Texture1D</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10texture1d-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Get the properties of the texture resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10texture1d-map">Map</a>
-</td>
-<td align="left" width="63%">
-Get a pointer to the data contained in a subresource, and deny the GPU access to that subresource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10texture1d-unmap">Unmap</a>
-</td>
-<td align="left" width="63%">
-Invalidate the pointer to a resource that was retrieved by <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10texture1d-map">ID3D10Texture1D::Map</a>, and re-enable the GPU's access to that resource.
-
-</td>
-</tr>
-</table>
+The <b>ID3D10Texture1D</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>. <b>ID3D10Texture1D</b> also has these types of members:
 
 ## -remarks
 

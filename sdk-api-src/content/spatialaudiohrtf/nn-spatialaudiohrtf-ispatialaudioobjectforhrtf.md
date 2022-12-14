@@ -56,74 +56,7 @@ This interface is a part of  Windows Sonic, Microsoft’s audio platform for mor
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectForHrtf</b> interface inherits from <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>. <b>ISpatialAudioObjectForHrtf</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISpatialAudioObjectForHrtf</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setdirectivity">SetDirectivity</a>
-</td>
-<td align="left" width="63%">
-Sets the spatial audio directivity model for the <b>ISpatialAudioObjectForHrtf</b>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setdistancedecay">SetDistanceDecay</a>
-</td>
-<td align="left" width="63%">
-Sets the decay model that is applied over distance from the position of an <b>ISpatialAudioObjectForHrtf</b> to the position of the listener.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setenvironment">SetEnvironment</a>
-</td>
-<td align="left" width="63%">
-Sets the type of acoustic environment that is simulated when audio is processed for the <b>ISpatialAudioObjectForHrtf</b>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setgain">SetGain</a>
-</td>
-<td align="left" width="63%">
-Sets the gain for the <b>ISpatialAudioObjectForHrtf</b>. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setorientation">SetOrientation</a>
-</td>
-<td align="left" width="63%">
-Sets the orientation in 3D space, relative to the listener's frame of reference, from which the <b>ISpatialAudioObjectForHrtf</b> audio data will be rendered.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setposition">SetPosition</a>
-</td>
-<td align="left" width="63%">
-Sets the position in 3D space, relative to the listener, from which the <b>ISpatialAudioObjectForHrtf</b> audio data will be rendered.
-
-</td>
-</tr>
-</table>
+The <b>ISpatialAudioObjectForHrtf</b> interface inherits from <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>. <b>ISpatialAudioObjectForHrtf</b> also has these types of members:
 
 ## -remarks
 

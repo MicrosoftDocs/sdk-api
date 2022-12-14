@@ -4,12 +4,12 @@ title: SetThreadStackGuarantee function (processthreadsapi.h)
 description: Sets the minimum size of the stack associated with the calling thread or fiber that will be available during any stack overflow exceptions.
 helpviewer_keywords: ["SetThreadStackGuarantee","SetThreadStackGuarantee function","base.setthreadstackguarantee","processthreadsapi/SetThreadStackGuarantee","winbase/SetThreadStackGuarantee"]
 old-location: base\setthreadstackguarantee.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 42595cba-413b-4b71-8d32-f873ed78c39c
 ms.date: 12/05/2018
 ms.keywords: SetThreadStackGuarantee, SetThreadStackGuarantee function, base.setthreadstackguarantee, processthreadsapi/SetThreadStackGuarantee, winbase/SetThreadStackGuarantee
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]

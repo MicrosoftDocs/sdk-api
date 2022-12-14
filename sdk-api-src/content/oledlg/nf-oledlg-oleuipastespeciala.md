@@ -1,7 +1,7 @@
 ---
 UID: NF:oledlg.OleUIPasteSpecialA
 title: OleUIPasteSpecialA function (oledlg.h)
-description: Invokes the standard Paste Special dialog box, allowing the user to select the format of the clipboard object to be pasted or paste-linked.
+description: Invokes the standard Paste Special dialog box, allowing the user to select the format of the clipboard object to be pasted or paste-linked. (ANSI)
 helpviewer_keywords: ["OleUIPasteSpecial","OleUIPasteSpecial function [COM]","OleUIPasteSpecialA","OleUIPasteSpecialW","_ole_OleUIPasteSpecial","com.oleuipastespecial","oledlg/OleUIPasteSpecial","oledlg/OleUIPasteSpecialA","oledlg/OleUIPasteSpecialW"]
 old-location: com\oleuipastespecial.htm
 tech.root: com
@@ -56,7 +56,7 @@ Invokes the standard <b>Paste Special</b> dialog box, allowing the user to selec
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to an <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuipastespeciala">OLEUIPASTESPECIAL</a> structure.
 
@@ -422,7 +422,9 @@ The text displayed in the <b>Source</b> field of the standard <b>Paste Special</
 
 To free an <b>HMETAFILEPICT</b> returned from the <b>Insert Object</b> or <b>Paste Special</b> dialog box, delete the attached metafile on the handle, as follows.
 
-<pre class="syntax" xml:space="preserve"><code> 
+
+``` syntax
+ 
 void FreeHmetafilepict(HMETAFILEPICT hmfp) 
 { 
     if (hmfp != NULL) 
@@ -438,7 +440,9 @@ void FreeHmetafilepict(HMETAFILEPICT hmfp)
         // Handle null pointers here.
         exit(0);
         }
-}  // FreeHmetafilepict </code></pre>
+}  // FreeHmetafilepict 
+```
+
 
 
 

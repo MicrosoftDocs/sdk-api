@@ -50,51 +50,12 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a> API.
 ]
 
 The parent interface for location reports.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILocationReport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILocationReport</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ILocationReport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILocationReport</b> also has these types of members:
 
-## -members
-
-The <b>ILocationReport</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/locationapi/nf-locationapi-ilocationreport-getsensorid">GetSensorID</a>
-</td>
-<td align="left" width="63%">
-Retrieves the ID of the sensor that generated the location report.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/locationapi/nf-locationapi-ilocationreport-gettimestamp">GetTimestamp</a>
-</td>
-<td align="left" width="63%">
-Retrieves the date and time when the report was generated.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/locationapi/nf-locationapi-ilocationreport-getvalue">GetValue</a>
-</td>
-<td align="left" width="63%">
-Retrieves a property value from the location report.
-
-</td>
-</tr>
-</table>

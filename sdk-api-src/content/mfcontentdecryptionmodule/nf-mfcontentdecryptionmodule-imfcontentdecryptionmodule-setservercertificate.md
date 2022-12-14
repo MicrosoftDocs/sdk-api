@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModule.SetServerCertificate
 title: IMFContentDecryptionModule::SetServerCertificate
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Provides a server certificate to be used to encrypt messages to the license server.
 tech.root: mf

@@ -6,7 +6,7 @@ helpviewer_keywords: ["EngineAdapterNotifyPowerChange","EngineAdapterNotifyPower
 old-location: secbiomet\engineadapternotifypowerchange.htm
 tech.root: SecBioMet
 ms.assetid: 805152AE-CCFE-4C05-8142-F9EF8D124625
-ms.date: 12/05/2018
+ms.date: 11/19/2020
 ms.keywords: EngineAdapterNotifyPowerChange, EngineAdapterNotifyPowerChange callback function [Windows Biometric Framework API], PBT_APMPOWERSTATUSCHANGE, PBT_APMRESUMEAUTOMATIC, PBT_APMSUSPEND, PIBIO_ENGINE_NOTIFY_POWER_CHANGE_FN, PIBIO_ENGINE_NOTIFY_POWER_CHANGE_FN callback, secbiomet.engineadapternotifypowerchange, winbio_adapter/EngineAdapterNotifyPowerChange
 req.header: winbio_adapter.h
 req.include-header: 
@@ -62,17 +62,19 @@ Pointer to the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-wi
 
 Indicates the nature of the change. It can be one of the following values:
 
+* **PBT_APMSUSPEND**
+
+The system is entering a low-power state.
+
+* **PBT_APMRESUMEAUTOMATIC** 
+
+The system is returning from a low-power state.
+
+* **PBT_APMPOWERSTATUSCHANGE**
+
+The status of the system's power source is changing (e.g. the system has switched from battery to line power, or the battery is getting low).
 
 
-##### )
-
-
-
-##### )
-
-
-
-####### )
 
 ## -returns
 
@@ -80,7 +82,7 @@ If the function succeeds, it returns <b>S_OK</b>. If the function fails, it retu
 
 ## -remarks
 
-When it receives a <a href="/windows/desktop/Power/pbt-apmpowerstatuschange">PBT_APMPOWERSTATUSCHANGE</a> event, the adapter should call the Microsoft Win32<a href="/windows/desktop/api/winbase/nf-winbase-getsystempowerstatus">GetSystemPowerStatus</a>API to determine the new power status.
+When it receives a <a href="/windows/desktop/Power/pbt-apmpowerstatuschange">PBT_APMPOWERSTATUSCHANGE</a> event, the adapter should call the Microsoft Win32<a href="/windows/desktop/api/winbase/nf-winbase-getsystempowerstatus">GetSystemPowerStatus</a> API to determine the new power status.
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:aclapi.GetTrusteeFormA
 title: GetTrusteeFormA function (aclapi.h)
-description: Retrieves the trustee name from the specified TRUSTEE structure. This value indicates whether the structure uses a name string or a security identifier (SID) to identify the trustee.
+description: Retrieves the trustee name from the specified TRUSTEE structure. This value indicates whether the structure uses a name string or a security identifier (SID) to identify the trustee. (ANSI)
 helpviewer_keywords: ["GetTrusteeForm","GetTrusteeForm function [Security]","GetTrusteeFormA","GetTrusteeFormW","_win32_gettrusteeform","aclapi/GetTrusteeForm","aclapi/GetTrusteeFormA","aclapi/GetTrusteeFormW","security.gettrusteeform"]
 old-location: security\gettrusteeform.htm
 tech.root: security

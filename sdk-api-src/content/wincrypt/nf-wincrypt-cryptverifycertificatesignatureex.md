@@ -106,7 +106,7 @@ The subject type. This parameter can be one of the following subject types.
 </dl>
 </td>
 <td width="60%">
-<i>pvSubject</i> is a pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a>structure.
+<i>pvSubject</i> is a pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure.
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ The subject type. This parameter can be one of the following subject types.
 </dl>
 </td>
 <td width="60%">
-<i>pvSubject</i> is a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CCERT_CONTEXT</a>structure.
+<i>pvSubject</i> is a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CCERT_CONTEXT</a> structure.
 
 </td>
 </tr>
@@ -128,7 +128,7 @@ The subject type. This parameter can be one of the following subject types.
 </dl>
 </td>
 <td width="60%">
-<i>pvSubject</i> is a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CCRL_CONTEXT</a>structure.
+<i>pvSubject</i> is a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CCRL_CONTEXT</a> structure.
 
 </td>
 </tr>
@@ -167,7 +167,7 @@ The issuer type. This parameter can be one of the following issuer types.
 </dl>
 </td>
 <td width="60%">
-<i>pvIssuer</i> is a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>structure.
+<i>pvIssuer</i> is a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure.
 
 </td>
 </tr>
@@ -178,7 +178,7 @@ The issuer type. This parameter can be one of the following issuer types.
 </dl>
 </td>
 <td width="60%">
-<i>pvIssuer</i> is a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CCERT_CONTEXT</a>structure.
+<i>pvIssuer</i> is a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CCERT_CONTEXT</a> structure.
 
 </td>
 </tr>
@@ -189,7 +189,7 @@ The issuer type. This parameter can be one of the following issuer types.
 </dl>
 </td>
 <td width="60%">
-<i>pvIssuer</i> is a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CCERT_CHAIN_CONTEXT</a>structure.
+<i>pvIssuer</i> is a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CCERT_CHAIN_CONTEXT</a> structure.
 
 </td>
 </tr>

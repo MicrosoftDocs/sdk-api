@@ -59,74 +59,7 @@ For more information about event notification, see <a href="/windows/desktop/Dir
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMediaEvent</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMediaEvent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/control/nf-control-imediaevent-canceldefaulthandling">CancelDefaultHandling</a>
-</td>
-<td align="left" width="63%">
-Cancels the Filter Graph Manager's default handling for a specified event.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/control/nf-control-imediaevent-freeeventparams">FreeEventParams</a>
-</td>
-<td align="left" width="63%">
-Frees resources associated with the parameters of an event.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/control/nf-control-imediaevent-getevent">GetEvent</a>
-</td>
-<td align="left" width="63%">
-Retrieves the next event notification from the event queue.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/control/nf-control-imediaevent-geteventhandle">GetEventHandle</a>
-</td>
-<td align="left" width="63%">
-Retrieves a handle to a manual-reset event that remains signaled while the queue contains event notifications.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/control/nf-control-imediaevent-restoredefaulthandling">RestoreDefaultHandling</a>
-</td>
-<td align="left" width="63%">
-Restores the Filter Graph Manager's default handling for a specified event.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/control/nf-control-imediaevent-waitforcompletion">WaitForCompletion</a>
-</td>
-<td align="left" width="63%">
-Waits for the filter graph to render all available data.
-
-</td>
-</tr>
-</table>
+The <b>IMediaEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMediaEvent</b> also has these types of members:
 
 ## -see-also
 

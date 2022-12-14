@@ -53,7 +53,7 @@ api_name:
 
 Removes all key/value pairs from the object's attribute list.
 
-## -parameters
+
 
 ## -returns
 

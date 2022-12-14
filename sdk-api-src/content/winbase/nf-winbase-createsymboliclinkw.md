@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CreateSymbolicLinkW
 title: CreateSymbolicLinkW function (winbase.h)
-description: Creates a symbolic link.
+description: Creates a symbolic link. (Unicode)
 helpviewer_keywords: ["CreateSymbolicLink","CreateSymbolicLink function [Files]","CreateSymbolicLinkA","CreateSymbolicLinkW","SYMBOLIC_LINK_FLAG_ALLOW_UNPRIVILEGED_CREATE","SYMBOLIC_LINK_FLAG_DIRECTORY","fs.createsymboliclink","winbase/CreateSymbolicLink","winbase/CreateSymbolicLinkA","winbase/CreateSymbolicLinkW"]
 old-location: fs\createsymboliclink.htm
 tech.root: fs
@@ -153,7 +153,7 @@ Symbolic links can either be absolute or relative links. Absolute links are link
 <ul>
 <li>Dot (. and ..) conventions—for example, 
       "..\" resolves the path relative to the parent directory.</li>
-<li>Names with no slashes (\)—for example, "tmp" resolves 
+<li>Names with no slashes (\\)—for example, "tmp" resolves 
       the path relative to the current directory.</li>
 <li>Root relative—for example, "\Windows\System32" resolves 
       to "<i>current drive</i>:\Windows\System32".</li>

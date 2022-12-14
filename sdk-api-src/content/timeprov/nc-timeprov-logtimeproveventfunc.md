@@ -97,11 +97,11 @@ Indicates a problem that is not immediately significant, but may cause future pr
 </tr>
 </table>
 
-### -param *wszProvName [in]
+### -param wszProvName [in]
 
 The provider name.
 
-### -param *wszMessage [in]
+### -param wszMessage [in]
 
 The event description.
 

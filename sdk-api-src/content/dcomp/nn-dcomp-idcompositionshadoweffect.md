@@ -55,69 +55,7 @@ The shadow effect is used to generate a shadow from the alpha channel of an imag
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionShadowEffect</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>. <b>IDCompositionShadowEffect</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDCompositionShadowEffect</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/directcomp/idcompositionshadoweffect-setalpha-overloaded">SetAlpha</a>
-</td>
-<td align="left" width="63%">Overloaded. Sets the alpha value for the effect.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-setblue">SetBlue</a>
-</td>
-<td align="left" width="63%">Overloaded. Sets the blue value for the color of the shadow.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionshadoweffect-setcolor">SetColor</a>
-</td>
-<td align="left" width="63%">
-Sets color of the shadow.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-setred">SetRed</a>
-</td>
-<td align="left" width="63%">Overloaded. Sets the red value for the color of the shadow.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/dn905304(v=vs.85)">SetStandardDeviation</a>
-</td>
-<td align="left" width="63%">Overloaded. Sets the amount of blur to be applied to the alpha channel of the image.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/dn905302(v=vs.85)">V</a>
-</td>
-<td align="left" width="63%">Overloaded. Sets the green value for the color of the shadow.
-
-</td>
-</tr>
-</table>
+The <b>IDCompositionShadowEffect</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>. <b>IDCompositionShadowEffect</b> also has these types of members:
 
 ## -see-also
 

@@ -56,7 +56,7 @@ Defines the DVD domains.
 
 ## -enum-fields
 
-### -field DVD_DOMAIN_FirstPlay
+### -field DVD_DOMAIN_FirstPlay:1
 
 Performing default initialization of a DVD disc.
 

@@ -84,7 +84,7 @@ This function returns <b>ERROR_SUCCESS</b> upon a successful call. If a call is 
 
 ## -remarks
 
-When no longer needed, the resources consumed for the  enumerated data, and all pointers containted within, should be released with <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcprpcfreememory">DhcpRpcFreeMemory</a>.
+When no longer needed, the resources consumed for the  enumerated data, and all pointers contained within, should be released with <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcprpcfreememory">DhcpRpcFreeMemory</a>.
 
 This function requires host byte ordering for all <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> values in parameter structures.
 

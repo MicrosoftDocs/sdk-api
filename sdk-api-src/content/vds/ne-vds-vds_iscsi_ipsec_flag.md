@@ -1,12 +1,12 @@
 ---
 UID: NE:vds._VDS_ISCSI_IPSEC_FLAG
 title: VDS_ISCSI_IPSEC_FLAG (vds.h)
-description: Not supported.This enumeration is reserved for future use.
+description: The VDS_ISCSI_IPSEC_FLAG (vds.h) enumeration is not supported but is reserved for future use.
 helpviewer_keywords: ["VDS_IIF_AGGRESSIVE_MODE","VDS_IIF_IKE","VDS_IIF_MAIN_MODE","VDS_IIF_PFS_ENABLE","VDS_IIF_TRANSPORT_MODE_PREFERRED","VDS_IIF_TUNNEL_MODE_PREFERRED","VDS_IIF_VALID","VDS_ISCSI_IPSEC_FLAG","VDS_ISCSI_IPSEC_FLAG enumeration [VDS]","base.vds_iscsi_ipsec_flag","vds/VDS_IIF_AGGRESSIVE_MODE","vds/VDS_IIF_IKE","vds/VDS_IIF_MAIN_MODE","vds/VDS_IIF_PFS_ENABLE","vds/VDS_IIF_TRANSPORT_MODE_PREFERRED","vds/VDS_IIF_TUNNEL_MODE_PREFERRED","vds/VDS_IIF_VALID","vds/VDS_ISCSI_IPSEC_FLAG","vdshwprv/VDS_IIF_AGGRESSIVE_MODE","vdshwprv/VDS_IIF_IKE","vdshwprv/VDS_IIF_MAIN_MODE","vdshwprv/VDS_IIF_PFS_ENABLE","vdshwprv/VDS_IIF_TRANSPORT_MODE_PREFERRED","vdshwprv/VDS_IIF_TUNNEL_MODE_PREFERRED","vdshwprv/VDS_IIF_VALID","vdshwprv/VDS_ISCSI_IPSEC_FLAG"]
 old-location: base\vds_iscsi_ipsec_flag.htm
 tech.root: base
 ms.assetid: e40789b4-ed34-4acc-8f69-5c3a93e44f82
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_IIF_AGGRESSIVE_MODE, VDS_IIF_IKE, VDS_IIF_MAIN_MODE, VDS_IIF_PFS_ENABLE, VDS_IIF_TRANSPORT_MODE_PREFERRED, VDS_IIF_TUNNEL_MODE_PREFERRED, VDS_IIF_VALID, VDS_ISCSI_IPSEC_FLAG, VDS_ISCSI_IPSEC_FLAG enumeration [VDS], base.vds_iscsi_ipsec_flag, vds/VDS_IIF_AGGRESSIVE_MODE, vds/VDS_IIF_IKE, vds/VDS_IIF_MAIN_MODE, vds/VDS_IIF_PFS_ENABLE, vds/VDS_IIF_TRANSPORT_MODE_PREFERRED, vds/VDS_IIF_TUNNEL_MODE_PREFERRED, vds/VDS_IIF_VALID, vds/VDS_ISCSI_IPSEC_FLAG, vdshwprv/VDS_IIF_AGGRESSIVE_MODE, vdshwprv/VDS_IIF_IKE, vdshwprv/VDS_IIF_MAIN_MODE, vdshwprv/VDS_IIF_PFS_ENABLE, vdshwprv/VDS_IIF_TRANSPORT_MODE_PREFERRED, vdshwprv/VDS_IIF_TUNNEL_MODE_PREFERRED, vdshwprv/VDS_IIF_VALID, vdshwprv/VDS_ISCSI_IPSEC_FLAG
 req.header: vds.h
 req.include-header: 
@@ -61,31 +61,31 @@ This enumeration is reserved for future use.
 
 ## -enum-fields
 
-### -field VDS_IIF_VALID
+### -field VDS_IIF_VALID:0x1
 
 This bit must be set for the field to contain significant information.
 
-### -field VDS_IIF_IKE
+### -field VDS_IIF_IKE:0x2
 
 If set, IKE/IPSEC is enabled.
 
-### -field VDS_IIF_MAIN_MODE
+### -field VDS_IIF_MAIN_MODE:0x4
 
 If set, negotiate through main mode is enabled.
 
-### -field VDS_IIF_AGGRESSIVE_MODE
+### -field VDS_IIF_AGGRESSIVE_MODE:0x8
 
 If set, negotiate through aggressive mode is enabled.
 
-### -field VDS_IIF_PFS_ENABLE
+### -field VDS_IIF_PFS_ENABLE:0x10
 
 If set, perfect forward secrecy is enabled.
 
-### -field VDS_IIF_TRANSPORT_MODE_PREFERRED
+### -field VDS_IIF_TRANSPORT_MODE_PREFERRED:0x20
 
 If set, transport mode is preferred.
 
-### -field VDS_IIF_TUNNEL_MODE_PREFERRED
+### -field VDS_IIF_TUNNEL_MODE_PREFERRED:0x40
 
 If set, tunnel mode is preferred.
 

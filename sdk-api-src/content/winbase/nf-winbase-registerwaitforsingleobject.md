@@ -244,8 +244,12 @@ For more information, see
 
 By default, the thread pool has a maximum of 500 threads. To raise this limit, use the <b>WT_SET_MAX_THREADPOOL_THREAD</b> macro defined in WinNT.h.
 
-<pre class="syntax" xml:space="preserve"><code>#define WT_SET_MAX_THREADPOOL_THREADS(Flags,Limit) \
-    ((Flags)|=(Limit)&lt;&lt;16)</code></pre>
+
+``` syntax
+#define WT_SET_MAX_THREADPOOL_THREADS(Flags,Limit) \
+    ((Flags)|=(Limit)&lt;&lt;16)
+```
+
 Use this macro when specifying the <i>dwFlags</i> parameter. The macro parameters are the desired flags and the new limit (up to (2&lt;&lt;16)-1 threads). However, note that your application can improve its performance by keeping the number of worker threads low.
 
 The work item and all functions it calls must be thread-pool safe. Therefore, you cannot call an asynchronous call that requires a persistent thread, such as the 

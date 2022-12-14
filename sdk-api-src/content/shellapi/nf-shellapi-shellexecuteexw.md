@@ -1,7 +1,7 @@
 ---
 UID: NF:shellapi.ShellExecuteExW
 title: ShellExecuteExW function (shellapi.h)
-description: Performs an operation on a specified file.
+description: Performs an operation on a specified file. (ShellExecuteExW)
 helpviewer_keywords: ["ShellExecuteEx","ShellExecuteEx function [Windows Shell]","ShellExecuteExA","ShellExecuteExW","_win32_ShellExecuteEx","_win32_ShellExecuteEx_cpp","shell.ShellExecuteEx","shellapi/ShellExecuteEx","shellapi/ShellExecuteExA","shellapi/ShellExecuteExW"]
 old-location: shell\ShellExecuteEx.htm
 tech.root: shell
@@ -78,8 +78,12 @@ Because <b>ShellExecuteEx</b> can delegate execution to Shell extensions (data s
 
                 
 
-<pre class="syntax" xml:space="preserve"><code>CoInitializeEx(NULL, COINIT_APARTMENTTHREADED | COINIT_DISABLE_OLE1DDE)</code></pre>
-There are instances where <b>ShellExecuteEx</b> does not use one of these types of Shell extension and those instances would not require COM to be initialized at all. Nonetheless, it is good practice to always initalize COM before using this function.
+
+``` syntax
+CoInitializeEx(NULL, COINIT_APARTMENTTHREADED | COINIT_DISABLE_OLE1DDE)
+```
+
+There are instances where <b>ShellExecuteEx</b> does not use one of these types of Shell extension and those instances would not require COM to be initialized at all. Nonetheless, it is good practice to always initialize COM before using this function.
 
 When DLLs are loaded into your process, you acquire a lock known as a <a href="/windows/win32/win7appqual/preventing-hangs-in-windows-applications">loader lock</a>. The <a href="/windows/desktop/Dlls/dllmain">DllMain</a> function always executes under the loader lock. It is important that you do not call <b>ShellExecuteEx</b> while you hold a loader lock. Because <b>ShellExecuteEx</b> is extensible, you could load code that does not function properly in the presence of a loader lock, risking a deadlock and therefore an unresponsive thread.
 

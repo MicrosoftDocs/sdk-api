@@ -1,12 +1,12 @@
 ---
 UID: NN:vdshwprv.IVdsProvider
 title: IVdsProvider (vdshwprv.h)
-description: Returns the properties of a hardware or software provider.
+description: The IVdsProvider interface (vdshwprv.h) returns the properties of a hardware or software provider. 
 helpviewer_keywords: ["IVdsProvider","IVdsProvider interface [VDS]","IVdsProvider interface [VDS]","described","base.ivdsprovider","vds/IVdsProvider","vdshwprv/IVdsProvider"]
 old-location: base\ivdsprovider.htm
 tech.root: base
 ms.assetid: c09aa32f-d859-44b1-8656-973ba1b6a167
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsProvider, IVdsProvider interface [VDS], IVdsProvider interface [VDS],described, base.ivdsprovider, vds/IVdsProvider, vdshwprv/IVdsProvider
 req.header: vdshwprv.h
 req.include-header: 
@@ -58,29 +58,7 @@ Returns the properties of
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsProvider</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVdsProvider</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsprovider-getproperties">GetProperties</a>
-</td>
-<td align="left" width="63%">
-Returns the properties of the provider.
-
-</td>
-</tr>
-</table>
+The <b>IVdsProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsProvider</b> also has these types of members:
 
 ## -see-also
 

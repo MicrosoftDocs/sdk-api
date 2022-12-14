@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11.ID3D11Counter
 title: ID3D11Counter (d3d11.h)
-description: This interface encapsulates methods for measuring GPU performance.
+description: This interface encapsulates methods for measuring GPU performance. (ID3D11Counter)
 helpviewer_keywords: ["ID3D11Counter","ID3D11Counter interface [Direct3D 11]","ID3D11Counter interface [Direct3D 11]","described","d3d11/ID3D11Counter","direct3d11.id3d11counter","e8e19b70-2584-4e44-1faf-1bc2d275606a"]
 old-location: direct3d11\id3d11counter.htm
 tech.root: direct3d11
@@ -55,29 +55,7 @@ This interface encapsulates methods for measuring GPU performance.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Counter</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11asynchronous">ID3D11Asynchronous</a>. <b>ID3D11Counter</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D11Counter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11counter-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Get a counter description.
-
-</td>
-</tr>
-</table>
+The <b>ID3D11Counter</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11asynchronous">ID3D11Asynchronous</a>. <b>ID3D11Counter</b> also has these types of members:
 
 ## -remarks
 

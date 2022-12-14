@@ -52,7 +52,7 @@ api_name:
 
 Inverts the matrix, if it is invertible.
 
-## -parameters
+
 
 ## -returns
 

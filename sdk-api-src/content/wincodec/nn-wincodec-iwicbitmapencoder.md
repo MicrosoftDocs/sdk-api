@@ -54,114 +54,11 @@ Defines methods for setting an encoder's properties such as thumbnails, frames, 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapEncoder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICBitmapEncoder</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWICBitmapEncoder</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-commit">Commit</a>
-</td>
-<td align="left" width="63%">
-Commits all changes for the image and closes the stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-createnewframe">CreateNewFrame</a>
-</td>
-<td align="left" width="63%">
-Creates a new <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframeencode">IWICBitmapFrameEncode</a> instance.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-getcontainerformat">GetContainerFormat</a>
-</td>
-<td align="left" width="63%">
-Retrieves the encoder's container format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-getencoderinfo">GetEncoderInfo</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoderinfo">IWICBitmapEncoderInfo</a> for the encoder.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-getmetadataquerywriter">GetMetadataQueryWriter</a>
-</td>
-<td align="left" width="63%">
-Retrieves a metadata query writer for the encoder.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the encoder with an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> which tells the encoder where to encode the bits.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-setcolorcontexts">SetColorContexts</a>
-</td>
-<td align="left" width="63%">
-Sets the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a> objects for the encoder.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-setpalette">SetPalette</a>
-</td>
-<td align="left" width="63%">
-Sets the global palette for the image.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-setpreview">SetPreview</a>
-</td>
-<td align="left" width="63%">
-Sets the global preview for the image.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-setthumbnail">SetThumbnail</a>
-</td>
-<td align="left" width="63%">
-Sets the global thumbnail for the image.
-
-</td>
-</tr>
-</table>
+The <b>IWICBitmapEncoder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICBitmapEncoder</b> also has these types of members:
 
 ## -remarks
 
-There are a number of concrete implemenations of this interface representing each of the standard encoders provided by the platform including bitmap (BMP), Portable Network Graphics (PNG), Joint Photographic Experts Group (JPEG), Graphics Interchange Format (GIF), Tagged Image File Format (TIFF), and Microsoft Windows Digital Photo (WDP). The following table includes the class identifier (CLSID) for each native encoder.
+There are a number of concrete implementations of this interface representing each of the standard encoders provided by the platform including bitmap (BMP), Portable Network Graphics (PNG), Joint Photographic Experts Group (JPEG), Graphics Interchange Format (GIF), Tagged Image File Format (TIFF), and Microsoft Windows Digital Photo (WDP). The following table includes the class identifier (CLSID) for each native encoder.
             
 
 <table class="clsStd">

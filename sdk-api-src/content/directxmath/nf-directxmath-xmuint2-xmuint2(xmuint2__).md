@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMUINT2.XMUINT2(XMUINT2&&)
 title: XMUINT2::XMUINT2(XMUINT2 &&) (directxmath.h)
-description: A constructor for XMUINT2.
+description: A constructor for XMUINT2. (overload 2/2)
 helpviewer_keywords: ["XMUINT2","XMUINT2 constructor [DirectX Math Support APIs]","XMUINT2 constructor [DirectX Math Support APIs]","XMUINT2 structure","XMUINT2 structure [DirectX Math Support APIs]","XMUINT2 constructor","XMUINT2.XMUINT2","XMUINT2.XMUINT2()","XMUINT2.XMUINT2(XMUINT2 &&)","XMUINT2::XMUINT2","XMUINT2::XMUINT2(XMUINT2 &&)","dxmath.xmuint2_ctor_1"]
 old-location: 
 tech.root: dxmath
@@ -11,8 +11,8 @@ ms.keywords: XMUINT2, XMUINT2 constructor [DirectX Math Support APIs], XMUINT2 c
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -58,7 +58,7 @@ A constructor for <a href="/windows/desktop/direct3dhlsl/xmuint2">XMUINT2</a>.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A value.
 

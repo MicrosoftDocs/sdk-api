@@ -54,38 +54,10 @@ The <b>IAnalogLocator</b> interface provides tuning information for an analog te
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAnalogLocator</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a>. <b>IAnalogLocator</b> also has these types of members:
+The <b>IAnalogLocator</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a>. <b>IAnalogLocator</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IAnalogLocator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianaloglocator-get_videostandard">get_VideoStandard</a>
-</td>
-<td align="left" width="63%">
-Retrieves the format of the analog television signal.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianaloglocator-put_videostandard">put_VideoStandard</a>
-</td>
-<td align="left" width="63%">
-Specifies the format of the analog television signal.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

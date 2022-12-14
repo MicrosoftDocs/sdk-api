@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiSetComponentStateW
 title: MsiSetComponentStateW function (msiquery.h)
-description: The MsiSetComponentState function sets a component to the requested state.
+description: The MsiSetComponentState function sets a component to the requested state. (Unicode)
 helpviewer_keywords: ["INSTALLSTATE_ABSENT","INSTALLSTATE_LOCAL","INSTALLSTATE_SOURCE","MsiSetComponentState","MsiSetComponentState function","MsiSetComponentStateA","MsiSetComponentStateW","_msi_msisetcomponentstate","msiquery/MsiSetComponentState","msiquery/MsiSetComponentStateA","msiquery/MsiSetComponentStateW","setup.msisetcomponentstate"]
 old-location: setup\msisetcomponentstate.htm
 tech.root: setup

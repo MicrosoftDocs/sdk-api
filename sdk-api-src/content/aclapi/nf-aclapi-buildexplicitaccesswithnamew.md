@@ -1,7 +1,7 @@
 ---
 UID: NF:aclapi.BuildExplicitAccessWithNameW
 title: BuildExplicitAccessWithNameW function (aclapi.h)
-description: Initializes an EXPLICIT_ACCESS structure with data specified by the caller. The trustee is identified by a name string.
+description: Initializes an EXPLICIT_ACCESS structure with data specified by the caller. The trustee is identified by a name string. (Unicode)
 helpviewer_keywords: ["BuildExplicitAccessWithName","BuildExplicitAccessWithName function [Security]","BuildExplicitAccessWithNameA","BuildExplicitAccessWithNameW","CONTAINER_INHERIT_ACE","INHERIT_ONLY_ACE","MultipleTrusteeOperation","NO_PROPAGATE_INHERIT_ACE","OBJECT_INHERIT_ACE","SUB_CONTAINERS_AND_OBJECTS_INHERIT","SUB_CONTAINERS_ONLY_INHERIT","SUB_OBJECTS_ONLY_INHERIT","TrusteeForm","TrusteeType","_win32_buildexplicitaccesswithname","aclapi/BuildExplicitAccessWithName","aclapi/BuildExplicitAccessWithNameA","aclapi/BuildExplicitAccessWithNameW","pMultipleTrustee","security.buildexplicitaccesswithname"]
 old-location: security\buildexplicitaccesswithname.htm
 tech.root: security

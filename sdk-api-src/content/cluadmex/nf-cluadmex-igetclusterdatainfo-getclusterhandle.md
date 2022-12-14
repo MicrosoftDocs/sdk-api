@@ -55,7 +55,7 @@ api_name:
 
 Returns a handle to the <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
 
-## -parameters
+
 
 ## -returns
 

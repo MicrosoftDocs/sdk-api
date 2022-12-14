@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IWebProxy.put_BypassList
 title: IWebProxy::put_BypassList (wuapi.h)
-description: Gets and sets a collection of addresses that do not use the proxy server.
+description: Gets and sets a collection of addresses that do not use the proxy server. (Put)
 helpviewer_keywords: ["BypassList property [Windows Update Agent]","BypassList property [Windows Update Agent]","IWebProxy interface","IWebProxy interface [Windows Update Agent]","BypassList property","IWebProxy.BypassList","IWebProxy.put_BypassList","IWebProxy::BypassList","IWebProxy::get_BypassList","IWebProxy::put_BypassList","put_BypassList","wua.iwebproxy_bypasslist","wuapi/IWebProxy::BypassList","wuapi/IWebProxy::get_BypassList","wuapi/IWebProxy::put_BypassList"]
 old-location: wua\iwebproxy_bypasslist.htm
 tech.root: wua

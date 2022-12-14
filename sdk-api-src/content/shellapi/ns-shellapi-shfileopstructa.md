@@ -1,7 +1,7 @@
 ---
 UID: NS:shellapi._SHFILEOPSTRUCTA
 title: SHFILEOPSTRUCTA (shellapi.h)
-description: Contains information that the SHFileOperation function uses to perform file operations.
+description: Contains information that the SHFileOperation function uses to perform file operations. (ANSI)
 helpviewer_keywords: ["*LPSHFILEOPSTRUCTA","FOF_ALLOWUNDO","FOF_CONFIRMMOUSE","FOF_FILESONLY","FOF_MULTIDESTFILES","FOF_NOCONFIRMATION","FOF_NOCONFIRMMKDIR","FOF_NOCOPYSECURITYATTRIBS","FOF_NOERRORUI","FOF_NORECURSEREPARSE","FOF_NORECURSION","FOF_NO_CONNECTED_ELEMENTS","FOF_NO_UI","FOF_RENAMEONCOLLISION","FOF_SILENT","FOF_SIMPLEPROGRESS","FOF_WANTMAPPINGHANDLE","FOF_WANTNUKEWARNING","FO_COPY","FO_DELETE","FO_MOVE","FO_RENAME","LPSHFILEOPSTRUCT","LPSHFILEOPSTRUCT structure pointer [Windows Shell]","SHFILEOPSTRUCT","SHFILEOPSTRUCT structure [Windows Shell]","SHFILEOPSTRUCTA","_win32_SHFILEOPSTRUCT","shell.SHFILEOPSTRUCT","shellapi/LPSHFILEOPSTRUCT","shellapi/SHFILEOPSTRUCT"]
 old-location: shell\SHFILEOPSTRUCT.htm
 tech.root: shell
@@ -269,7 +269,7 @@ A pointer to the title of a progress dialog box. This is a null-terminated strin
 
 <div class="alert"><b>Important</b>  You must ensure that the source and destination paths are double-null terminated. A normal string ends in just a single null character. If you pass that value in either the source or destination members, the function will not realize when it has reached the end of the string and will continue to read on in memory until it comes to a random double null value. This can at least lead to a buffer overrun, and possibly the unintended deletion of unrelated data.
 
-                </div>
+</div>
 <div> </div>
 
 ```cpp
@@ -290,7 +290,7 @@ It cannot be overstated that your paths should always be full paths. If the <b>p
 
 If you do not provide a full path, the following facts become pertinent:
                 
-                    <ul>
+<ul>
 <li>The lack of a path before a file name does not indicate to <a href="/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> that this file resides in the root of the current directory.</li>
 <li>The PATH environment variable is not used by <a href="/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> to determine a valid path.</li>
 <li>

@@ -1,12 +1,12 @@
 ---
 UID: NC:networkisolation.PAC_CHANGES_CALLBACK_FN
 title: PAC_CHANGES_CALLBACK_FN (networkisolation.h)
-description: Used to add custom behavior to the app container change notification process.
+description: The PAC_CHANGES_CALLBACK_FN callback function is used to add custom behavior to the app container change notification process. 
 helpviewer_keywords: ["PAC_CHANGES_CALLBACK_FN","PAC_CHANGES_CALLBACK_FN callback","PAC_CHANGES_CALLBACK_FN callback function [ICS/ICF]","ics.pac_changes_callback_fn","networkisolation/PAC_CHANGES_CALLBACK_FN"]
 old-location: ics\pac_changes_callback_fn.htm
 tech.root: ics
 ms.assetid: 7a2afc36-c250-4eb1-9853-d79def85bb67
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: PAC_CHANGES_CALLBACK_FN, PAC_CHANGES_CALLBACK_FN callback, PAC_CHANGES_CALLBACK_FN callback function [ICS/ICF], ics.pac_changes_callback_fn, networkisolation/PAC_CHANGES_CALLBACK_FN
 req.header: networkisolation.h
 req.include-header: Netfw.h
@@ -54,13 +54,13 @@ The <b>PAC_CHANGES_CALLBACK_FN</b>  function is used to add custom behavior to t
 
 ## -parameters
 
-### -param *context [in, optional]
+### -param context [in, optional]
 
 Type: <b>void*</b>
 
 Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationregisterforappcontainerchanges">NetworkIsolationRegisterForAppContainerChanges</a> function.
 
-### -param *pChange [in]
+### -param pChange [in]
 
 Type: <b>const <a href="/windows/desktop/api/netfw/ns-netfw-inet_firewall_ac_change">INET_FIREWALL_AC_CHANGE</a>*</b>
 

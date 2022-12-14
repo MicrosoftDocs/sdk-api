@@ -51,6 +51,7 @@ api_location:
  - Ext-MS-Win-NTUser-Message-L1-1-3.dll
 api_name:
  - GetMessageTime
+req.apiset: ext-ms-win-ntuser-message-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # GetMessageTime function
@@ -60,7 +61,7 @@ api_name:
 
 Retrieves the message time for the last message retrieved by the <a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a> function. The time is a long integer that specifies the elapsed time, in milliseconds, from the time the system was started to the time the message was created (that is, placed in the thread's message queue).
 
-## -parameters
+
 
 ## -returns
 

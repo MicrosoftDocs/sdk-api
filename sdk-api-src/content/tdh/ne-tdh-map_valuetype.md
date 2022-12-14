@@ -65,5 +65,4 @@ Use the <b>Value</b> member of <a href="/windows/desktop/api/tdh/ns-tdh-event_ma
 Use the <b>InputOffset</b> member of <a href="/windows/desktop/api/tdh/ns-tdh-event_map_entry">EVENT_MAP_ENTRY</a> to access the map value.
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/ns-tdh-event_map_info">EVENT_MAP_INFO</a>

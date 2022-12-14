@@ -135,7 +135,7 @@ It is problematic to call this method in response to SENT message.  Test whether
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846805(v=VS.85).aspx">IInkRenderer</a>
+<a href="../msinkaut/nn-msinkaut-iinkrenderer.md">IInkRenderer</a>
 
 
 

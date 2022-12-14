@@ -55,38 +55,7 @@ Exposes methods that provide information about a connection in RemoteApp and Des
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspace3</b> interface inherits from <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace2">IWorkspace2</a>. <b>IWorkspace3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWorkspace3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspace3-getclaimstoken2">GetClaimsToken2</a>
-</td>
-<td align="left" width="63%">
-Sets the claims token.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspace3-setclaimstoken">SetClaimsToken</a>
-</td>
-<td align="left" width="63%">
-Retrieves the claims token.
-
-</td>
-</tr>
-</table>
+The <b>IWorkspace3</b> interface inherits from <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace2">IWorkspace2</a>. <b>IWorkspace3</b> also has these types of members:
 
 ## -see-also
 

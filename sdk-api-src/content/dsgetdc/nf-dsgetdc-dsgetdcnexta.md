@@ -1,7 +1,7 @@
 ---
 UID: NF:dsgetdc.DsGetDcNextA
 title: DsGetDcNextA function (dsgetdc.h)
-description: Retrieves the next domain controller in a domain controller enumeration operation.
+description: Retrieves the next domain controller in a domain controller enumeration operation. (ANSI)
 helpviewer_keywords: ["DsGetDcNext","DsGetDcNext function [Active Directory]","DsGetDcNextA","DsGetDcNextW","ad.dsgetdcnext","dsgetdc/DsGetDcNext","dsgetdc/DsGetDcNextA","dsgetdc/DsGetDcNextW"]
 old-location: ad\dsgetdcnext.htm
 tech.root: ad

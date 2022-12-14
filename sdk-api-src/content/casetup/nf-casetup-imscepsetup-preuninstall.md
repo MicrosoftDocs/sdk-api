@@ -52,7 +52,7 @@ api_name:
 
 The <b>PreUnInstall</b> method removes registry and IIS settings for the Network Device Enrollment Service (NDES) role.
 
-## -parameters
+
 
 ## -remarks
 

@@ -4,7 +4,7 @@ title: SetThreadInformation function (processthreadsapi.h)
 description: Sets information for the specified thread.
 helpviewer_keywords: ["SetThreadInformation","SetThreadInformation function","base.setthreadinformation","processthreadsapi/SetThreadInformation"]
 old-location: base\setthreadinformation.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: c0159bea-870a-46b7-a350-91fe52efae49
 ms.date: 12/05/2018
 ms.keywords: SetThreadInformation, SetThreadInformation function, base.setthreadinformation, processthreadsapi/SetThreadInformation
@@ -96,42 +96,47 @@ To help improve system performance, applications should use the <b>SetThreadInfo
 
 **Memory priority** helps to determine how long pages remain in the <a href="/windows/desktop/Memory/working-set">working set</a> of a process before they are trimmed. A thread's memory priority determines the minimum priority of the physical pages that are added to the process working set by that thread. When the memory manager trims the working set, it trims lower priority pages before higher priority pages. This improves overall system performance because higher priority pages are less likely to be trimmed from the working set and then trigger a page fault when they are accessed again. 
 
-**ProcessPowerThrottling** enables throttling policies on a thread, which can be used to balance out performance and power efficiency in cases where optimal performance is not required. When a thread opts in to throttling, the system will try to increase power efficiency through strategies such as capping CPU frequency or using more power efficient cores. Power throttling is typically used when the process is not contributing to the user experience, which provides longer battery life without obvious compromises to an application's performance. If an application doesn't explicitly handle power throttling, the system will use its own heuristics to automatically manage power throttling.
+**ThreadPowerThrottling** enables throttling policies on a thread, which can be used to balance out performance and power efficiency in cases where optimal performance is not required. When a thread opts into enabling <code>THREAD_POWER_THROTTLING_EXECUTION_SPEED</code>, the thread will be classified as EcoQoS. The system will try to increase power efficiency through strategies such as reducing CPU frequency or using more power efficient cores. EcoQoS should be used when the work is not contributing to the foreground user experience, which provides longer battery life, and reduced heat and fan noise. EcoQoS should not be used for performance critical or foreground user experiences. (Prior to Windows 11, the EcoQoS level did not exist and the process was instead labeled as LowQoS). If an application does not explicitly enable <code>THREAD_POWER_THROTTLING_EXECUTION_SPEED</code>, the system will use its own heuristics to automatically infer a Quality of Service level. For more information, see <a href="/windows/win32/procthread/quality-of-service">Quality of Service</a>.
 
 #### Examples
 
 The following example shows how to call <b>SetThreadInformation</b> with <b>ThreadMemoryPriority</b> to set low memory priority on the current thread.
 
-<pre class="syntax" xml:space="preserve"><code>DWORD ErrorCode;
-    BOOL Success;
-    MEMORY_PRIORITY_INFORMATION MemPrio;
 
-    //
-    // Set low memory priority on the current thread.
-    //
+```c
+DWORD ErrorCode;
+BOOL Success;
+MEMORY_PRIORITY_INFORMATION MemPrio;
 
-    ZeroMemory(&amp;MemPrio, sizeof(MemPrio));
-    MemPrio.MemoryPriority = MEMORY_PRIORITY_LOW;
+//
+// Set low memory priority on the current thread.
+//
 
-    Success = SetThreadInformation(GetCurrentThread(),
-                                   ThreadMemoryPriority,
-                                   &amp;MemPrio,
-                                   sizeof(MemPrio));
+ZeroMemory(&MemPrio, sizeof(MemPrio));
+MemPrio.MemoryPriority = MEMORY_PRIORITY_LOW;
 
-    if (!Success) {
-        ErrorCode = GetLastError();
-        fprintf(stderr, "Set thread memory priority failed: %d\n", ErrorCode);
-        goto cleanup;
-    }</code></pre>
-The following example shows how to call <b>SetThreadInformation</b> with <b>ThreadPowerThrottling</b> to enable throttling policies on a thread.
+Success = SetThreadInformation(GetCurrentThread(),
+                               ThreadMemoryPriority,
+                               &MemPrio,
+                               sizeof(MemPrio));
 
-<pre class="syntax" xml:space="preserve"><code>THREAD_POWER_THROTTLING_STATE PowerThrottling;
-RtlZeroMemory(&amp;PowerThrottling, sizeof(PowerThrottling));
+if (!Success) {
+    ErrorCode = GetLastError();
+    fprintf(stderr, "Set thread memory priority failed: %d\n", ErrorCode);
+}
+```
+
+The following example shows how to call <b>SetThreadInformation</b> with <b>ThreadPowerThrottling</b> to control the Quality of Service of a thread.
+
+```c
+THREAD_POWER_THROTTLING_STATE PowerThrottling;
+ZeroMemory(&PowerThrottling, sizeof(PowerThrottling));
 PowerThrottling.Version = THREAD_POWER_THROTTLING_CURRENT_VERSION;
 
 //
-// Turn ExecutionSpeed throttling on. ControlMask selects the mechanism and
-// StateMask declares which mechanism should be on or off.
+// EcoQoS
+// Turn EXECUTION_SPEED throttling on. 
+// ControlMask selects the mechanism and StateMask declares which mechanism should be on or off.
 //
 
 PowerThrottling.ControlMask = THREAD_POWER_THROTTLING_EXECUTION_SPEED;
@@ -139,12 +144,13 @@ PowerThrottling.StateMask = THREAD_POWER_THROTTLING_EXECUTION_SPEED;
 
 SetThreadInformation(GetCurrentThread(), 
                      ThreadPowerThrottling, 
-                     &amp;PowerThrottling, 
+                     &PowerThrottling, 
                      sizeof(PowerThrottling));
 
 //
-// Turn ExecutionSpeed throttling off. ControlMask selects the mechanism and
-// StateMask is set to zero as mechanisms should be turned off.
+// HighQoS
+// Turn EXECUTION_SPEED throttling off.
+// ControlMask selects the mechanism and StateMask is set to zero as mechanisms should be turned off.
 //
 
 PowerThrottling.ControlMask = THREAD_POWER_THROTTLING_EXECUTION_SPEED;
@@ -152,7 +158,7 @@ PowerThrottling.StateMask = 0;
 
 SetThreadInformation(GetCurrentThread(), 
                      ThreadPowerThrottling, 
-                     &amp;PowerThrottling, 
+                     &PowerThrottling, 
                      sizeof(PowerThrottling));
 
 //
@@ -165,14 +171,13 @@ PowerThrottling.StateMask = 0;
 
 SetThreadInformation(GetCurrentThread(), 
                      ThreadPowerThrottling, 
-                     &amp;PowerThrottling, 
+                     &PowerThrottling, 
                      sizeof(PowerThrottling));
-</code></pre>
+```
+
 
 ## -see-also
 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadinformation">GetThreadInformation</a>
-
-
 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation">SetProcessInformation</a>

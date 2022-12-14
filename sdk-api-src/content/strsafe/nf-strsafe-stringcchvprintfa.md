@@ -1,7 +1,7 @@
 ---
 UID: NF:strsafe.StringCchVPrintfA
 title: StringCchVPrintfA function (strsafe.h)
-description: Writes formatted data to the specified string using a pointer to a list of arguments.
+description: Writes formatted data to the specified string using a pointer to a list of arguments. (StringCchVPrintfA)
 helpviewer_keywords: ["StringCchVPrintf","StringCchVPrintf function [Menus and Other Resources]","StringCchVPrintfA","StringCchVPrintfW","_shell_StringCchVPrintf","_shell_stringcchvprintf_cpp","menurc.stringcchvprintf","strsafe/StringCchVPrintf","strsafe/StringCchVPrintfA","strsafe/StringCchVPrintfW","winui._shell_stringcchvprintf"]
 old-location: menurc\stringcchvprintf.htm
 tech.root: menurc
@@ -143,7 +143,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-<b>StringCchVPrintf</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchVPrintf</b>always null-terminates a nonzero-length destination buffer.
+<b>StringCchVPrintf</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchVPrintf</b> always null-terminates a nonzero-length destination buffer.
 
 For more information on va_lists, see the conventions defined in Stdarg.h.
 

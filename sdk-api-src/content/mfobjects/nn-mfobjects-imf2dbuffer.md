@@ -1,7 +1,7 @@
 ---
 UID: NN:mfobjects.IMF2DBuffer
 title: IMF2DBuffer (mfobjects.h)
-description: Represents a buffer that contains a two-dimensional surface, such as a video frame.
+description: Represents a buffer that contains a two-dimensional surface, such as a video frame. (IMF2DBuffer)
 helpviewer_keywords: ["80eb23db-a7c0-4dbe-97d8-0dc07a34d8f7","IMF2DBuffer","IMF2DBuffer interface [Media Foundation]","IMF2DBuffer interface [Media Foundation]","described","mf.imf2dbuffer","mfobjects/IMF2DBuffer"]
 old-location: mf\imf2dbuffer.htm
 tech.root: mf
@@ -55,90 +55,7 @@ Represents a buffer that contains a two-dimensional surface, such as a video fra
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMF2DBuffer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMF2DBuffer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMF2DBuffer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-contiguouscopyfrom">ContiguousCopyFrom</a>
-</td>
-<td align="left" width="63%">
-Copies data to this buffer from a buffer that has a contiguous format.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-contiguouscopyto">ContiguousCopyTo</a>
-</td>
-<td align="left" width="63%">
-Copies this buffer into the caller's buffer, converting the data to contiguous format.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-getcontiguouslength">GetContiguousLength</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of bytes needed to store the contents of the buffer in contiguous format.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-getscanline0andpitch">GetScanline0AndPitch</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to the buffer memory and the surface stride.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-iscontiguousformat">IsContiguousFormat</a>
-</td>
-<td align="left" width="63%">
-Queries whether the buffer is contiguous in its native format.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-lock2d">Lock2D</a>
-</td>
-<td align="left" width="63%">
-Gives the caller access to the memory in the buffer.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-unlock2d">Unlock2D</a>
-</td>
-<td align="left" width="63%">
-Unlocks a buffer that was previously locked.
-        
-
-</td>
-</tr>
-</table>
+The <b>IMF2DBuffer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMF2DBuffer</b> also has these types of members:
 
 ## -remarks
 

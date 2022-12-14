@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>VMRALPHABITMAP</b> structure is used in the VMR-7 filter's <a href="/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a> methods when the application is providing a static alpha-blended bitmap to be displayed on the composited video frame.
+The <b>VMRALPHABITMAP</b> structure is used in the VMR-7 filter's <a href="/windows/win32/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a> methods when the application is providing a static alpha-blended bitmap to be displayed on the composited video frame.
 
 ## -struct-fields
 

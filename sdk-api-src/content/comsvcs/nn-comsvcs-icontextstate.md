@@ -54,56 +54,7 @@ Controls object deactivation and transaction voting by manipulating context stat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContextState</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContextState</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IContextState</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icontextstate-getdeactivateonreturn">GetDeactivateOnReturn</a>
-</td>
-<td align="left" width="63%">
-Retrieves the value of the done flag.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icontextstate-getmytransactionvote">GetMyTransactionVote</a>
-</td>
-<td align="left" width="63%">
-Retrieves the value of the consistent flag.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icontextstate-setdeactivateonreturn">SetDeactivateOnReturn</a>
-</td>
-<td align="left" width="63%">
-Sets the done flag, which controls whether the object deactivates on method return.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icontextstate-setmytransactionvote">SetMyTransactionVote</a>
-</td>
-<td align="left" width="63%">
-Sets the consistent flag.
-
-</td>
-</tr>
-</table>
+The <b>IContextState</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContextState</b> also has these types of members:
 
 ## -see-also
 

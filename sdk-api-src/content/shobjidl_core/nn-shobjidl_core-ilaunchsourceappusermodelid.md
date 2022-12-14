@@ -54,26 +54,5 @@ Provides a method for retrieving an <a href="/windows/desktop/shell/appids">AppU
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILaunchSourceAppUserModelId</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILaunchSourceAppUserModelId</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ILaunchSourceAppUserModelId</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILaunchSourceAppUserModelId</b> also has these types of members:
 
-## -members
-
-The <b>ILaunchSourceAppUserModelId</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ilaunchsourceappusermodelid-getappusermodelid">GetAppUserModelId</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <a href="/windows/desktop/shell/appids">AppUserModelId</a> from the source application.
-
-</td>
-</tr>
-</table>

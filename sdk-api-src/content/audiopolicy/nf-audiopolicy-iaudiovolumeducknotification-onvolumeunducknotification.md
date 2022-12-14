@@ -53,7 +53,7 @@ The <b>OnVolumeUnduckNotification</b> method sends a notification about a pendin
 
 ### -param sessionID [in]
 
-A string containing the session instance identifier of the terminating communications session that intiated the ducking. To get the session instance identifier, call <a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-getsessioninstanceidentifier">IAudioSessionControl2::GetSessionInstanceIdentifier</a>.
+A string containing the session instance identifier of the terminating communications session that initiated the ducking. To get the session instance identifier, call <a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-getsessioninstanceidentifier">IAudioSessionControl2::GetSessionInstanceIdentifier</a>.
 
 ## -returns
 

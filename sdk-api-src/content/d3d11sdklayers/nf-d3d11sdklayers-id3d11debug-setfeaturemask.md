@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11Debug.SetFeatureMask
 title: ID3D11Debug::SetFeatureMask (d3d11sdklayers.h)
-description: Set a bit field of flags that will turn debug features on and off.
+description: Set a bit field of flags that will turn debug features on and off. (ID3D11Debug.SetFeatureMask)
 helpviewer_keywords: ["3ffbf56d-c151-9ef4-e7f6-03fca9a9b5a0","ID3D11Debug interface [Direct3D 11]","SetFeatureMask method","ID3D11Debug.SetFeatureMask","ID3D11Debug::SetFeatureMask","SetFeatureMask","SetFeatureMask method [Direct3D 11]","SetFeatureMask method [Direct3D 11]","ID3D11Debug interface","d3d11sdklayers/ID3D11Debug::SetFeatureMask","direct3d11.id3d11debug_setfeaturemask"]
 old-location: direct3d11\id3d11debug_setfeaturemask.htm
 tech.root: direct3d11

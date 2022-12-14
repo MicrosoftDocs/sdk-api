@@ -54,7 +54,7 @@ Identifiers for properties of the <a href="/windows/desktop/Direct2D/flood">Floo
 
 ## -enum-fields
 
-### -field D2D1_FLOOD_PROP_COLOR
+### -field D2D1_FLOOD_PROP_COLOR:0
 
 The color and opacity of the bitmap. This property is a D2D1_VECTOR_4F. The individual values for each channel are of type FLOAT, unbounded and unitless.
             The effect doesn't modify the values for the channels.
@@ -66,4 +66,4 @@ The type is <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_4f">D2D1
 
 The default value is {0.0f, 0.0f, 0.0f, 1.0f}.
 
-### -field D2D1_FLOOD_PROP_FORCE_DWORD
+### -field D2D1_FLOOD_PROP_FORCE_DWORD:0xffffffff

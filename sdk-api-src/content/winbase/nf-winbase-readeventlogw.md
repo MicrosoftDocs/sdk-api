@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.ReadEventLogW
 title: ReadEventLogW function (winbase.h)
-description: Reads the specified number of entries from the specified event log.
+description: Reads the specified number of entries from the specified event log. (Unicode)
 helpviewer_keywords: ["EVENTLOG_BACKWARDS_READ","EVENTLOG_FORWARDS_READ","EVENTLOG_SEEK_READ","EVENTLOG_SEQUENTIAL_READ","ReadEventLog","ReadEventLog function","ReadEventLogA","ReadEventLogW","_win32_readeventlog","base.readeventlog","winbase/ReadEventLog","winbase/ReadEventLogA","winbase/ReadEventLogW"]
 old-location: base\readeventlog.htm
 tech.root: base
@@ -48,6 +48,7 @@ api_name:
  - ReadEventLog
  - ReadEventLogA
  - ReadEventLogW
+req.apiset: ext-ms-win-advapi32-eventlog-ansi-l1-1-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # ReadEventLogW function
@@ -102,7 +103,7 @@ Read the records sequentially.
 
 
 
-							If this is the first read operation, the EVENTLOG_FORWARDS_READ EVENTLOG_BACKWARDS_READ flags determines which record is read first.
+If this is the first read operation, the EVENTLOG_FORWARDS_READ EVENTLOG_BACKWARDS_READ flags determines which record is read first.
 
 </td>
 </tr>
@@ -125,9 +126,7 @@ You must specify one of the following flags to indicate the direction for succes
 <td width="60%">
 The log is read in chronological order (oldest to newest). 
 
-
-
-							The default.
+The default.
 
 </td>
 </tr>

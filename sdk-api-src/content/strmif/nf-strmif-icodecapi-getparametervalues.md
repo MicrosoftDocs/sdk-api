@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.ICodecAPI.GetParameterValues
 title: ICodecAPI::GetParameterValues (strmif.h)
-description: The GetParameterValues method gets the list of possible values for a codec property.
+description: The GetParameterValues method gets the list of possible values for a codec property. (ICodecAPI.GetParameterValues)
 helpviewer_keywords: ["GetParameterValues","GetParameterValues method [DirectShow]","GetParameterValues method [DirectShow]","ICodecAPI interface","ICodecAPI interface [DirectShow]","GetParameterValues method","ICodecAPI.GetParameterValues","ICodecAPI::GetParameterValues","ICodecAPIGetParameterValues","dshow.icodecapi_getparametervalues","strmif/ICodecAPI::GetParameterValues"]
 old-location: dshow\icodecapi_getparametervalues.htm
 tech.root: dshow

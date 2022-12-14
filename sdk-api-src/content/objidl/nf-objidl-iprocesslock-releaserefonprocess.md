@@ -52,7 +52,7 @@ api_name:
 
 Decrements the reference count of the process.
 
-## -parameters
+
 
 ## -returns
 

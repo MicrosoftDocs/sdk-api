@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_SenderTitle
 title: IFaxDoc::get_SenderTitle (faxcom.h)
-description: Sets or retrieves the SenderTitle property of a FaxDoc object. The SenderTitle property is a null-terminated string that contains the title of the sender of the fax transmission.
+description: Sets or retrieves the SenderTitle property of a FaxDoc object. The SenderTitle property is a null-terminated string that contains the title of the sender of the fax transmission. (Get)
 helpviewer_keywords: ["IFaxDoc interface [Fax Service]","SenderTitle property","IFaxDoc.SenderTitle","IFaxDoc.get_SenderTitle","IFaxDoc::SenderTitle","IFaxDoc::get_SenderTitle","IFaxDoc::put_SenderTitle","SenderTitle property [Fax Service]","SenderTitle property [Fax Service]","IFaxDoc interface","_mfax_ifaxdoc_get_sendertitle","fax._mfax_ifaxdoc_get_sendertitle","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_sendertitle_cpp","faxcom/IFaxDoc::SenderTitle","faxcom/IFaxDoc::get_SenderTitle","faxcom/IFaxDoc::put_SenderTitle","get_SenderTitle"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_sendertitle_cpp.htm
 tech.root: Fax

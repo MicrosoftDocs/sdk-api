@@ -56,53 +56,5 @@ Exposes methods that set folder items.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFolderBandPriv</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFolderBandPriv</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IFolderBandPriv</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFolderBandPriv</b> also has these types of members:
 
-## -members
-
-The <b>IFolderBandPriv</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ifolderbandpriv-setaccelerators">SetAccelerators</a>
-</td>
-<td align="left" width="63%">
-Sets accelerators.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ifolderbandpriv-setcascade">SetCascade</a>
-</td>
-<td align="left" width="63%">
-Sets a cascade folder.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ifolderbandpriv-setnoicons">SetNoIcons</a>
-</td>
-<td align="left" width="63%">
-Sets whether icons are displayed in a folder band.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ifolderbandpriv-setnotext">SetNoText</a>
-</td>
-<td align="left" width="63%">
-Sets whether text is displayed in a folder band.
-
-</td>
-</tr>
-</table>

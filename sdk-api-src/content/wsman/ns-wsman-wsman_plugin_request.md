@@ -54,7 +54,7 @@ api_name:
 
 Specifies information for a plug-in request. A pointer to a <b>WSMAN_PLUGIN_REQUEST</b> structure is passed to all operation
 entry points within the plug-in. All result notification methods use this
-pointer to match the result with the request.  All information in the structure will stay valid until the plug-in calls <a href="/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a>on the operation.
+pointer to match the result with the request.  All information in the structure will stay valid until the plug-in calls <a href="/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a> on the operation.
 
 ## -struct-fields
 

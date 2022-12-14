@@ -135,10 +135,9 @@ The <b>DeleteAnycastIpAddressEntry</b> function is defined on Windows Vista and
 
 The <b>DeleteAnycastIpAddressEntry</b> function is used to delete an existing <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_anycastipaddress_row">MIB_ANYCASTIPADDRESS_ROW</a> structure entry on the local computer.  
 
-On input, the <b>Address</b> member in the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_anycastipaddress_row">MIB_ANYCASTIPADDRESS_ROW</a> structure pointed to by the <i>Row</i> parameter must be set to a valid unicast IPv4 or IPv6 address and family. In addition, at least one of the following members in the <b>MIB_ANYCASTIPADDRESS_ROW</b> structure pointed to the <i>Row</i> parameter must be initialized:
-    the <b>InterfaceLuid</b> or <b>InterfaceIndex</b>.
+On input, the <b>Address</b> member in the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_anycastipaddress_row">MIB_ANYCASTIPADDRESS_ROW</a> structure pointed to by the <i>Row</i> parameter must be set to a valid unicast IPv4 or IPv6 address and family. In addition, at least one of the following members in the <b>MIB_ANYCASTIPADDRESS_ROW</b> structure pointed to the <i>Row</i> parameter must be initialized: the <b>InterfaceLuid</b> or <b>InterfaceIndex</b>.
 
-    The fields are used in the order listed above. So if the <b>InterfaceLuid</b> is specified, then this member is used to determine the interface. If no value was set for the  <b>InterfaceLuid</b> member (the values of this member was set to zero), then the <b>InterfaceIndex</b> member is next used to determine the interface. 
+The fields are used in the order listed above. So if the <b>InterfaceLuid</b> is specified, then this member is used to determine the interface. If no value was set for the  <b>InterfaceLuid</b> member (the values of this member was set to zero), then the <b>InterfaceIndex</b> member is next used to determine the interface. 
 
 If the function is successful, the existing IP address represented by the <i>Row</i> parameter was deleted. 
 

@@ -71,74 +71,7 @@ Clients do not call the methods in this interface directly. Instead, this interf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPerChannelDbLevel</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPerChannelDbLevel</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPerChannelDbLevel</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iperchanneldblevel-getchannelcount">GetChannelCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of channels in the audio stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iperchanneldblevel-getlevel">GetLevel</a>
-</td>
-<td align="left" width="63%">
-Gets the volume level, in decibels, of the specified channel.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iperchanneldblevel-getlevelrange">GetLevelRange</a>
-</td>
-<td align="left" width="63%">
-Gets the range, in decibels, of the volume level of the specified channel.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iperchanneldblevel-setlevel">SetLevel</a>
-</td>
-<td align="left" width="63%">
-Sets the volume level, in decibels, of the specified channel.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iperchanneldblevel-setlevelallchannels">SetLevelAllChannels</a>
-</td>
-<td align="left" width="63%">
-Sets the volume levels, in decibels, of all the channels in the audio stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iperchanneldblevel-setleveluniform">SetLevelUniform</a>
-</td>
-<td align="left" width="63%">
-Sets all channels in the audio stream to the same uniform volume level, in decibels.
-
-</td>
-</tr>
-</table>
+The <b>IPerChannelDbLevel</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPerChannelDbLevel</b> also has these types of members:
 
 ## -see-also
 

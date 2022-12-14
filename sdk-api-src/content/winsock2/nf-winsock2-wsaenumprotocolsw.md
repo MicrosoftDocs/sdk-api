@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.WSAEnumProtocolsW
 title: WSAEnumProtocolsW function (winsock2.h)
-description: The WSAEnumProtocols function retrieves information about available transport protocols.
+description: The WSAEnumProtocols function retrieves information about available transport protocols. (Unicode)
 helpviewer_keywords: ["WSAEnumProtocols","WSAEnumProtocols function [Winsock]","WSAEnumProtocolsA","WSAEnumProtocolsW","_win32_wsaenumprotocols_2","winsock.wsaenumprotocols_2","winsock2/WSAEnumProtocols","winsock2/WSAEnumProtocolsA","winsock2/WSAEnumProtocolsW"]
 old-location: winsock\wsaenumprotocols_2.htm
 tech.root: WinSock
@@ -59,7 +59,7 @@ The
 
 ### -param lpiProtocols [in]
 
-A <b>NULLl</b>-terminated array of iProtocol values. This parameter is optional; if <i>lpiProtocols</i> is <b>NULL</b>, information on all available protocols is returned. Otherwise, information is retrieved only for those protocols listed in the array.
+A <b>NULL</b>-terminated array of iProtocol values. This parameter is optional; if <i>lpiProtocols</i> is <b>NULL</b>, information on all available protocols is returned. Otherwise, information is retrieved only for those protocols listed in the array.
 
 ### -param lpProtocolBuffer [out]
 

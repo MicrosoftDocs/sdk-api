@@ -1,12 +1,12 @@
 ---
 UID: NN:objidl.IPipeLong
 title: IPipeLong (objidl.h)
-description: Transfers data of the long integer type (which is 32 bits wide).
+description: The IPipeLong interface (objidl.h) transfers data of the long integer type, which is 32 bits wide. 
 helpviewer_keywords: ["IPipeLong","IPipeLong interface [COM]","IPipeLong interface [COM]","described","_com_ipipelong","com.ipipelong","objidlbase/IPipeLong"]
 old-location: com\ipipelong.htm
 tech.root: com
 ms.assetid: c1b4d3b3-e1bf-4441-8cea-b667b82c4c27
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IPipeLong, IPipeLong interface [COM], IPipeLong interface [COM],described, _com_ipipelong, com.ipipelong, objidlbase/IPipeLong
 req.header: objidl.h
 req.include-header: ObjIdl.h
@@ -54,38 +54,7 @@ Transfers data of the long integer type (which is 32 bits wide).
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPipeLong</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPipeLong</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPipeLong</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ipipelong-pull">Pull</a>
-</td>
-<td align="left" width="63%">
-Retrieves data of the long integer type from the pipe source.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ipipelong-push">Push</a>
-</td>
-<td align="left" width="63%">
-Sends data of the long integer type to the pipe source.
-
-</td>
-</tr>
-</table>
+The <b>IPipeLong</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPipeLong</b> also has these types of members:
 
 ## -remarks
 

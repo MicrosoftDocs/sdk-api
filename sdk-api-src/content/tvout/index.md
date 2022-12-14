@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Windows GDI. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [Display Devices Reference](../_display/index.md)
 - [Windows GDI](../_gdi/index.md)
 

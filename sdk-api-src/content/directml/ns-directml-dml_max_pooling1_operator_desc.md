@@ -1,9 +1,9 @@
 ---
 UID: NS:directml.DML_MAX_POOLING1_OPERATOR_DESC
 title: DML_MAX_POOLING1_OPERATOR_DESC
-description: Describes a DirectML operator that performs a max pooling function across the input tensor (according to kernel sizes, stride sizes, and pad lengths).
+description: Computes the maximum value across the elements within the sliding window over the input tensor, and optionally returns the indices of the maximum values selected. (DML_MAX_POOLING1_OPERATOR_DESC)
 tech.root: directml
-ms.date: 01/31/2020
+ms.date: 01/19/2022
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -40,64 +40,98 @@ f1_keywords:
 
 ## -description
 
-Describes a DirectML operator that performs a max pooling function across the input tensor (according to kernel sizes, stride sizes, and pad lengths), y = max(x1 + x2 + … x_pool_size). 
-
-Max pooling consists of computing the max on all values of a subset of the input tensor according to the kernel size, and then downsampling the data into the output tensor Y for further processing.
-
-**DML_MAX_POOLING1_OPERATOR_DESC** is an updated version of [DML_MAX_POOLING_OPERATOR_DESC](./ns-directml-dml_max_pooling_operator_desc.md).
+Computes the maximum value across the elements within the sliding window over the input tensor, and optionally returns the indices of the maximum values selected.
 
 ## -struct-fields
 
 ### -field InputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to read from. This tensor's dimensions for the image case are [N, C, H, W], where N is the batch size, C is the number of channels, and H and W are the height and the width of the data. For the non-image case, the dimensions are in the form of [N, C, D1, D2, ..., Dn], where N is the batch size.
+An input tensor of *Sizes* `{ BatchCount, ChannelCount, Height, Width }` if *InputTensor.DimensionCount* is 4, and `{ BatchCount, ChannelCount, Depth, Height, Weight } `if *InputTensor.DimensionCount* is 5.
 
 ### -field OutputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to write the results to.
+An output tensor to write the results to. The sizes of the output tensor can be computed as follows.
+
+```cpp
+OutputTensor->Sizes[0] = InputTensor->Sizes[0];
+OutputTensor->Sizes[1] = InputTensor->Sizes[1];
+
+for (UINT i = 0; i < DimensionCount; ++i) {
+  UINT PaddedSize = InputTensor->Sizes[i + 2] + StartPadding[i] + EndPadding[i];
+  OutputTensor->Sizes[i + 2] = (PaddedSize - WindowSizes[i]) / Strides[i] + 1;
+}
+```
 
 ### -field OutputIndicesTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: \_Maybenull\_ **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-An optional pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the output indices. The output indices state which maximal element from *InputTensor* was written to *OutputTensor*, where the indices are zero-based in terms of *InputTensor*, treated as if *InputTensor* were one large contiguous 1D array. Both *OutputTensor* and *OutputIndicesTensor* have the same size.
-
-For example, given the input `[[3,5,7,1]],[9,4,2,8]]` where the input indices are implicitly `[0,1,2,3,4,5,6,7]`, and with a pooling size of `3x1`, the output values would be `[[7,7],[9,8]]`, and the output indices would be `[[2,2],[4,7]]`. In `[[7,7],[4,7]]`, the `7` comes from index 2, the `9` comes from index 4, and the `8` comes from index 7.
+An optional output tensor of indices to the input tensor *InputTensor* of the maximum values produced and stored in the *OutputTensor*. These index values are zero-based and treat the input tensor as a contiguous one-dimensional array. When multiple elements within the sliding window have the same value, the later equal values are ignored and the index points to the first value encountered. Both the *OutputTensor* and *OutputIndicesTensor* have the same tensor sizes.
 
 ### -field DimensionCount
 
 Type: [**UINT**](/windows/desktop/winprog/windows-data-types)
 
-The number of dimensions. This field determines the size of the <i>Strides</i>,  <i>WindowSize</i>, <i>StartPadding</i>, and <i>EndPadding</i> arrays.
+The number of spatial dimensions of the input tensor *InputTensor*, which also corresponds to the number of dimensions of the sliding window *WindowSize*. This value also determines the size of the *Strides*, *StartPadding*, and *EndPadding* arrays. It should be set to 2 when *InputTensor* is 4D, and 3 when it's a 5D tensor.
 
 ### -field Strides
 
-Type: <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
+Type: \_Field\_size\_(DimensionCount) <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
 
-A pointer to a constant array of [UINT](/windows/desktop/winprog/windows-data-types) containing the lengths of the strides of the tensor.
+The strides for the sliding window dimensions of sizes `{ Height, Width }` when the *DimensionCount* is set to 2, or `{ Depth, Height, Width }` when set to 3.
 
 ### -field WindowSize
 
-Type: <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
+Type: \_Field\_size\_(DimensionCount) <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
 
-A pointer to a constant array of [UINT](/windows/desktop/winprog/windows-data-types) containing the lengths of the pooling windows.
+The dimensions of the sliding window in `{ Height, Width }` when *DimensionCount* is set to 2, or `{ Depth, Height, Width }` when set to 3.
 
 ### -field StartPadding
 
-Type: <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
+Type: \_Field\_size\_(DimensionCount) <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
 
-A pointer to a constant array of [UINT](/windows/desktop/winprog/windows-data-types) containing the padding (number of pixels added) to the start of the corresponding axis. Padding defaults to 0 along the start and end of each axis.
+The number of padding elements to be applied to the beginning of each spatial dimension of the input tensor *InputTensor*. The values are in `{ Height, Width }` when *DimensionCount* is set to 2, or `{ Depth, Height, Width }` when set to 3.
 
 ### -field EndPadding
 
-Type: <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
+Type: \_Field\_size\_(DimensionCount) <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
 
-A pointer to a constant array of [UINT](/windows/desktop/winprog/windows-data-types) containing the padding (number of pixels added) to the end of the corresponding axis. Padding defaults to 0 along the start and end of each axis.
+The number of padding elements to be applied to the end of each spatial dimension of the input tensor *InputTensor*. The values are in `{ Height, Width }` when *DimensionCount* is set to 2, or `{ Depth, Height, Width }` when set to 3.
 
-## -see-also
+## -remarks
+When *OutputIndicesTensor* is set to NULL, this operator is equivalent to [DML_MAX_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_max_pooling_operator_desc).
 
-* [DML_MAX_POOLING_OPERATOR_DESC](./ns-directml-dml_max_pooling_operator_desc.md)
+A newer version of this operator, [DML_MAX_POOLING2_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_max_pooling2_operator_desc), was introduced in `DML_FEATURE_LEVEL_2_1`.
+
+## Availability
+This operator was introduced in `DML_FEATURE_LEVEL_2_0`.
+
+## Tensor constraints
+* *InputTensor*, *OutputIndicesTensor*, and *OutputTensor* must have the same *DimensionCount*.
+* *InputTensor* and *OutputTensor* must have the same *DataType*.
+
+## Tensor support
+### DML_FEATURE_LEVEL_5_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 to 5 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 4 to 5 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputIndicesTensor | Optional output | 4 to 5 | UINT64, UINT32 |
+
+### DML_FEATURE_LEVEL_3_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 to 5 | FLOAT32, FLOAT16, INT8, UINT8 |
+| OutputTensor | Output | 4 to 5 | FLOAT32, FLOAT16, INT8, UINT8 |
+| OutputIndicesTensor | Optional output | 4 to 5 | UINT32 |
+
+### DML_FEATURE_LEVEL_2_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 to 5 | FLOAT32, FLOAT16 |
+| OutputTensor | Output | 4 to 5 | FLOAT32, FLOAT16 |
+| OutputIndicesTensor | Optional output | 4 to 5 | UINT32 |

@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.RemoveFontResourceA
 title: RemoveFontResourceA function (wingdi.h)
-description: The RemoveFontResource function removes the fonts in the specified file from the system font table.
+description: The RemoveFontResource function removes the fonts in the specified file from the system font table. (ANSI)
 helpviewer_keywords: ["RemoveFontResource","RemoveFontResource function [Windows GDI]","RemoveFontResourceA","RemoveFontResourceW","_win32_RemoveFontResource","gdi.removefontresource","wingdi/RemoveFontResource","wingdi/RemoveFontResourceA","wingdi/RemoveFontResourceW"]
 old-location: gdi\removefontresource.htm
 tech.root: gdi
@@ -80,7 +80,9 @@ When you try to replace an existing font file that contains a font with outstand
 
 <div class="alert"><b>Note</b>  Apps where the original font file is in use will still be able to access the original file and won't use the new font until the font reloads. Call <a href="/windows/desktop/api/wingdi/nf-wingdi-addfontresourcea">AddFontResource</a> to reload the font.  We recommend that you call <b>AddFontResource</b> the same number of times as the call to <b>RemoveFontResource</b> succeeded as shown in this example code.</div>
 <div> </div>
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 int i = 0;
 while( RemoveFontResource( FontFile ) )
 {
@@ -93,7 +95,9 @@ while( i-- )
 {
     AddFontResource( FontFile );
 }
-</code></pre>
+
+```
+
 
 
 

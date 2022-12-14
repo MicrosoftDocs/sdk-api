@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarInt
 title: VarInt function (oleauto.h)
-description: Returns the integer portion of a variant.
+description: Returns the integer portion of a variant. (VarInt)
 helpviewer_keywords: ["VarInt","VarInt function [Automation]","_oa96_VarInt","automat.varint","oleauto/VarInt"]
 old-location: automat\varint.htm
 tech.root: automat
@@ -64,7 +64,7 @@ The result variant.
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

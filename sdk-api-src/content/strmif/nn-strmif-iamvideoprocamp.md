@@ -57,47 +57,7 @@ The <a href="/windows/desktop/DirectShow/wdm-video-capture-filter">WDM Video Cap
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMVideoProcAmp</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVideoProcAmp</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAMVideoProcAmp</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamvideoprocamp-get">Get</a>
-</td>
-<td align="left" width="63%">
-Gets video quality for a specified property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamvideoprocamp-getrange">GetRange</a>
-</td>
-<td align="left" width="63%">
-Gets the minimum, maximum, and default values for setting properties.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamvideoprocamp-set">Set</a>
-</td>
-<td align="left" width="63%">
-Sets video quality for a specified property.
-
-</td>
-</tr>
-</table>
+The <b>IAMVideoProcAmp</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVideoProcAmp</b> also has these types of members:
 
 ## -remarks
 

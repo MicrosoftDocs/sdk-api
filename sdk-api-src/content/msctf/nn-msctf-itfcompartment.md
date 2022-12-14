@@ -56,38 +56,7 @@ A client also uses this interface to obtain an <a href="/windows/desktop/api/msc
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCompartment</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCompartment</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfCompartment</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcompartment-getvalue">GetValue</a>
-</td>
-<td align="left" width="63%">
-Obtains the data for a compartment.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcompartment-setvalue">SetValue</a>
-</td>
-<td align="left" width="63%">
-Sets the data for a compartment.
-
-</td>
-</tr>
-</table>
+The <b>ITfCompartment</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCompartment</b> also has these types of members:
 
 ## -see-also
 

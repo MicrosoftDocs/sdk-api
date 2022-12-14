@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamBuffer.get_Flags
 title: IRDPSRAPITransportStreamBuffer::get_Flags (rdpencomapi.h)
-description: Retrieves or specifies options for the stream buffer.
+description: Retrieves or specifies options for the stream buffer. (Get)
 helpviewer_keywords: ["Flags property [RDP]","Flags property [RDP]","IRDPSRAPITransportStreamBuffer interface","IRDPSRAPITransportStreamBuffer interface [RDP]","Flags property","IRDPSRAPITransportStreamBuffer.Flags","IRDPSRAPITransportStreamBuffer.get_Flags","IRDPSRAPITransportStreamBuffer::Flags","IRDPSRAPITransportStreamBuffer::get_Flags","IRDPSRAPITransportStreamBuffer::put_Flags","get_Flags","rdp.irdpsrapitransportstreambuffer_flags","rdpencomapi/IRDPSRAPITransportStreamBuffer::Flags","rdpencomapi/IRDPSRAPITransportStreamBuffer::get_Flags","rdpencomapi/IRDPSRAPITransportStreamBuffer::put_Flags"]
 old-location: rdp\irdpsrapitransportstreambuffer_flags.htm
 tech.root: rdp
@@ -39,7 +39,6 @@ topic_type:
 api_type:
  - <TBD>
 api_location:
- - 
 api_name:
  - IRDPSRAPITransportStreamBuffer::Flags
 ---

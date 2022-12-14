@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiEnumClientsA
 title: MsiEnumClientsA function (msi.h)
-description: The MsiEnumClients function enumerates the clients for a given installed component. The function retrieves one product code each time it is called.
+description: The MsiEnumClients function enumerates the clients for a given installed component. The function retrieves one product code each time it is called. (ANSI)
 helpviewer_keywords: ["MsiEnumClients","MsiEnumClients function","MsiEnumClientsA","MsiEnumClientsW","_msi_msienumclients","msi/MsiEnumClients","msi/MsiEnumClientsA","msi/MsiEnumClientsW","setup.msienumclients"]
 old-location: setup\msienumclients.htm
 tech.root: setup
@@ -148,7 +148,7 @@ The specified component is unknown.
 ## -remarks
 
 To enumerate clients, an application should initially call the 
-<b>MsiEnumClients</b> function with the<i> iProductIndex</i> parameter set to zero. The application should then increment the <i> iProductIndex</i>parameter and call 
+<b>MsiEnumClients</b> function with the<i> iProductIndex</i> parameter set to zero. The application should then increment the <i> iProductIndex</i> parameter and call 
 <b>MsiEnumClients</b> until there are no more clients (that is, until the function returns ERROR_NO_MORE_ITEMS).
 
 When making multiple calls to 

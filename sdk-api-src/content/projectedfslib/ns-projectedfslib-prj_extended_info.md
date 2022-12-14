@@ -4,7 +4,6 @@ title: PRJ_EXTENDED_INFO (projectedfslib.h)
 description: Specifies optional extended information for directory enumeration and placeholder information.
 tech.root: ProjFS
 ms.date: 11/8/2019
-ms.topic: language-reference
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

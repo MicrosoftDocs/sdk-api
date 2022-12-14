@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs7.InitializeFromTemplateName
 title: IX509CertificateRequestPkcs7::InitializeFromTemplateName (certenroll.h)
-description: Initializes the certificate request by using a template.
+description: Initializes the certificate request by using a template. (IX509CertificateRequestPkcs7.InitializeFromTemplateName)
 helpviewer_keywords: ["IX509CertificateRequestPkcs7 interface [Security]","InitializeFromTemplateName method","IX509CertificateRequestPkcs7.InitializeFromTemplateName","IX509CertificateRequestPkcs7::InitializeFromTemplateName","InitializeFromTemplateName","InitializeFromTemplateName method [Security]","InitializeFromTemplateName method [Security]","IX509CertificateRequestPkcs7 interface","certenroll/IX509CertificateRequestPkcs7::InitializeFromTemplateName","security.ix509certificaterequestpkcs7_initializefromtemplatename_method"]
 old-location: security\ix509certificaterequestpkcs7_initializefromtemplatename_method.htm
 tech.root: security

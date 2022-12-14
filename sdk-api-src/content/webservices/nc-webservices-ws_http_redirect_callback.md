@@ -58,15 +58,15 @@ Invoked when a message is about to be automatically
 
 ## -parameters
 
-### -param *state [in]
+### -param state [in]
 
 The 'state' as specified as part of <a href="/windows/win32/api/webservices/ns-webservices-ws_http_redirect_callback_context">WS_HTTP_REDIRECT_CALLBACK_CONTEXT</a> 'state' field.
 
-### -param *originalUrl [in]
+### -param originalUrl [in]
 
 The original endpoint URL that the message was sent to.
 
-### -param *newUrl [in]
+### -param newUrl [in]
 
 The endpoint URL that the message is about to be forwarded to.
 

@@ -55,78 +55,11 @@ The <code>IVMRSurfaceAllocatorNotify</code> interface is implemented by the <a h
 
 In order for an application to obtain this interface, the VMR must be in renderless mode.
 
-For the VMR-9, use the <a href="/windows/desktop/api/vmr9/nn-vmr9-ivmrsurfaceallocatornotify9">IVMRSurfaceAllocatorNotify9</a> interface.
+For the VMR-9, use the <a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrsurfaceallocatornotify9">IVMRSurfaceAllocatorNotify9</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRSurfaceAllocatorNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRSurfaceAllocatorNotify</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVMRSurfaceAllocatorNotify</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocatornotify-advisesurfaceallocator">AdviseSurfaceAllocator</a>
-</td>
-<td align="left" width="63%">
-Called by an application to instruct the VMR to use a custom allocator-presenter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocatornotify-changeddrawdevice">ChangeDDrawDevice</a>
-</td>
-<td align="left" width="63%">
-Notifies the VMR that the DirectDraw playback device has changed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocatornotify-notifyevent">NotifyEvent</a>
-</td>
-<td align="left" width="63%">
-Called by the allocator-presenter to inform the VMR of any significant DirectShow events during the allocation or presentation processes.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocatornotify-restoreddrawsurfaces">RestoreDDrawSurfaces</a>
-</td>
-<td align="left" width="63%">
-Notifies the VMR that a DirectDraw surface "loss" has been detected.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocatornotify-setbordercolor">SetBorderColor</a>
-</td>
-<td align="left" width="63%">
-Specifies to the VMR which color to use in areas of the display rectangle which are not being used for video, for example when the video is letterboxed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocatornotify-setddrawdevice">SetDDrawDevice</a>
-</td>
-<td align="left" width="63%">
-Sets the initial DirectDraw device and monitor to be used for video playback.
-
-</td>
-</tr>
-</table>
+The <b>IVMRSurfaceAllocatorNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRSurfaceAllocatorNotify</b> also has these types of members:
 
 ## -see-also
 

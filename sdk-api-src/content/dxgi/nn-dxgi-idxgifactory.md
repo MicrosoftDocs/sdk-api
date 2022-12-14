@@ -55,67 +55,7 @@ An <b>IDXGIFactory</b> interface implements methods for generating DXGI objects 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIFactory</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiobject">IDXGIObject</a>. <b>IDXGIFactory</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDXGIFactory</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-createsoftwareadapter">CreateSoftwareAdapter</a>
-</td>
-<td align="left" width="63%">
-Create an adapter interface that represents a software adapter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-createswapchain">CreateSwapChain</a>
-</td>
-<td align="left" width="63%">
-Creates a swap chain.
-
-<div class="alert"><b>Note</b>  Starting with Direct3D 11.1, we recommend not to use <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-createswapchain">CreateSwapChain</a> anymore to create a swap chain. Instead, use <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd">CreateSwapChainForHwnd</a>, <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcorewindow">CreateSwapChainForCoreWindow</a>, or <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition">CreateSwapChainForComposition</a> depending on how you want to create the swap chain.</div>
-<div> </div>
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-enumadapters">EnumAdapters</a>
-</td>
-<td align="left" width="63%">
-Enumerates the adapters (video cards).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-getwindowassociation">GetWindowAssociation</a>
-</td>
-<td align="left" width="63%">
-Get the window through which the user controls the transition to and from full screen.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-makewindowassociation">MakeWindowAssociation</a>
-</td>
-<td align="left" width="63%">
-Allows DXGI to monitor an application's message queue for the alt-enter key sequence (which causes the application to switch from windowed to full screen or vice versa).
-
-</td>
-</tr>
-</table>
+The <b>IDXGIFactory</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiobject">IDXGIObject</a>. <b>IDXGIFactory</b> also has these types of members:
 
 ## -remarks
 

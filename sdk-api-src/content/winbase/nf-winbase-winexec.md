@@ -43,6 +43,7 @@ api_location:
  - Kernel32.dll
 api_name:
  - WinExec
+req.apiset: ext-ms-win-kernel32-process-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # WinExec function
@@ -144,7 +145,11 @@ The
 <h3><a id="Security_Remarks"></a><a id="security_remarks"></a><a id="SECURITY_REMARKS"></a>Security Remarks</h3>
 The executable name is treated as the first white space-delimited string in <i>lpCmdLine</i>. If the executable or path name has a space in it, there is a risk that a different executable could be run because of the way the function parses spaces. The following example is dangerous because the function will attempt to run "Program.exe", if it exists, instead of "MyApp.exe".
 
-<pre class="syntax" xml:space="preserve"><code>WinExec("C:\\Program Files\\MyApp", ...)</code></pre>
+
+``` syntax
+WinExec("C:\\Program Files\\MyApp", ...)
+```
+
 If a malicious user were to create an application called "Program.exe" on a system, any program that incorrectly calls 
 <b>WinExec</b> using the Program Files directory will run this application instead of the intended application.
 
@@ -153,7 +158,11 @@ To avoid this problem, use
 <b>WinExec</b>. However, if you must use 
 <b>WinExec</b> for legacy reasons, make sure the application name is enclosed in quotation marks as shown in the example below.
 
-<pre class="syntax" xml:space="preserve"><code>WinExec("\"C:\\Program Files\\MyApp.exe\" -L -S", ...)</code></pre>
+
+``` syntax
+WinExec("\"C:\\Program Files\\MyApp.exe\" -L -S", ...)
+```
+
 
 ## -see-also
 

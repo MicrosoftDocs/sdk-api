@@ -57,65 +57,7 @@ This interface is a notification interface used to indicate when asynchronous PI
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnPinEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnPinEvents</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMbnPinEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnpinevents-onchangecomplete">OnChangeComplete</a>
-</td>
-<td align="left" width="63%">
-Indicates that a PIN change operation has completed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnpinevents-ondisablecomplete">OnDisableComplete</a>
-</td>
-<td align="left" width="63%">
-Indicates that a PIN disable operation has completed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnpinevents-onenablecomplete">OnEnableComplete</a>
-</td>
-<td align="left" width="63%">
-Indicates that a PIN enable operation has completed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnpinevents-onentercomplete">OnEnterComplete</a>
-</td>
-<td align="left" width="63%">
-Indicates that a PIN entry operation has completed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnpinevents-onunblockcomplete">OnUnblockComplete</a>
-</td>
-<td align="left" width="63%">
-Indicates that a PIN unblock operation has completed.
-
-</td>
-</tr>
-</table>
+The <b>IMbnPinEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnPinEvents</b> also has these types of members:
 
 ## -remarks
 

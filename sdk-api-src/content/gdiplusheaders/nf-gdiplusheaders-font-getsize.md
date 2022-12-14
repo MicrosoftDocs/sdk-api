@@ -55,7 +55,7 @@ The <b>Font::GetSize</b> method returns the font size (commonly called the em si
 			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object. The size is in the units of this 
 			<b>Font</b> object.
 
-## -parameters
+
 
 ## -returns
 

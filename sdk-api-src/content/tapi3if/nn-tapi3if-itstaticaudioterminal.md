@@ -59,26 +59,5 @@ If an MSP's audio terminals are for devices that are not accessible via standard
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITStaticAudioTerminal</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITStaticAudioTerminal</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITStaticAudioTerminal</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITStaticAudioTerminal</b> also has these types of members:
 
-## -members
-
-The <b>ITStaticAudioTerminal</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstaticaudioterminal-get_waveid">get_WaveId</a>
-</td>
-<td align="left" width="63%">
-Gets the wave ID for the audio device used to implement this terminal.
-
-</td>
-</tr>
-</table>

@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptStringToBinaryA
 title: CryptStringToBinaryA function (wincrypt.h)
-description: Converts a formatted string into an array of bytes.
+description: Converts a formatted string into an array of bytes. (ANSI)
 helpviewer_keywords: ["CRYPT_STRING_ANY","CRYPT_STRING_BASE64","CRYPT_STRING_BASE64HEADER","CRYPT_STRING_BASE64REQUESTHEADER","CRYPT_STRING_BASE64X509CRLHEADER","CRYPT_STRING_BASE64_ANY","CRYPT_STRING_BINARY","CRYPT_STRING_HEX","CRYPT_STRING_HEXADDR","CRYPT_STRING_HEXASCII","CRYPT_STRING_HEXASCIIADDR","CRYPT_STRING_HEXRAW","CRYPT_STRING_HEX_ANY","CRYPT_STRING_STRICT","CryptStringToBinary","CryptStringToBinary function [Security]","CryptStringToBinaryA","CryptStringToBinaryW","_crypto2_cryptstringtobinary","security.cryptstringtobinary","wincrypt/CryptStringToBinary","wincrypt/CryptStringToBinaryA","wincrypt/CryptStringToBinaryW"]
 old-location: security\cryptstringtobinary.htm
 tech.root: security
@@ -80,8 +80,8 @@ Indicates the format of the string to be converted. This can be one of the follo
 </dl>
 </td>
 <td width="60%">
-Base64, with certificate beginning and ending headers.
-
+Base64 between lines of the form `-----BEGIN ...-----` and `-----END ...-----`.
+See Remarks below.
 </td>
 </tr>
 <tr>
@@ -113,8 +113,8 @@ Pure binary copy.
 </dl>
 </td>
 <td width="60%">
-Base64, with request beginning and ending headers.
-
+Base64 between lines of the form `-----BEGIN ...-----` and `-----END ...-----`.
+See Remarks below.
 </td>
 </tr>
 <tr>
@@ -204,8 +204,8 @@ Tries the following, in order:
 </dl>
 </td>
 <td width="60%">
-Base64, with <a href="/windows/desktop/SecGloss/x-gly">X.509</a> <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) beginning and ending headers.
-
+Base64 between lines of the form `-----BEGIN ...-----` and `-----END ...-----`.
+See Remarks below.
 </td>
 </tr>
 <tr>
@@ -270,7 +270,10 @@ If <i>pbBinary</i> is <b>NULL</b>, the <b>DWORD</b> pointed to by <i>pcbBinary</
 
 ### -param pdwSkip [out]
 
-A pointer to a <b>DWORD</b> value that receives the number of characters skipped to reach the beginning of the actual base64 or hexadecimal strings. This parameter is optional and can be <b>NULL</b> if it is not needed.
+A pointer to a <b>DWORD</b> value that receives the number of characters skipped to reach the beginning of the
+`-----BEGIN ...-----` header.
+If no header is present, then the <b>DWORD</b> is set to zero.
+This parameter is optional and can be <b>NULL</b> if it is not needed.
 
 ### -param pdwFlags [out]
 
@@ -340,6 +343,27 @@ If the function fails, the return value is zero (<b>FALSE</b>).
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptbinarytostringa">CryptBinaryToString</a>
 
 ## -remarks
+
+The
+<b>CRYPT_STRING_BASE64HEADER</b>,
+<b>CRYPT_STRING_BASE64REQUESTHEADER</b>,
+and
+<b>CRYPT_STRING_BASE64X509CRLHEADER</b>
+flags are all treated identically by this function:
+They attempt to parse the first block of
+base64-encoded data between lines of the form
+`-----BEGIN ...-----` and `-----END ...-----`.
+The `...` portions are ignored, and they need not match.
+If parsing is successful, the value passed in the <i>dwFlags</i> parameter
+is returned in the <b>DWORD</b> pointed to by the <i>pdwFlags</i> parameter.
+Note that a value of
+<b>CRYPT_STRING_BASE64REQUESTHEADER</b>
+or
+<b>CRYPT_STRING_BASE64X509CRLHEADER</b>
+does not mean that a request header or
+<a href="/windows/desktop/SecGloss/c-gly#_SECURITY_X.509_GLY">X.509</a>
+<a href="/windows/desktop/SecGloss/c-gly#_security_certificate_revocation_list_gly">certificate revocation list</a> (CRL)
+was found.
 
 > [!NOTE]
 > The wincrypt.h header defines CryptStringToBinary as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

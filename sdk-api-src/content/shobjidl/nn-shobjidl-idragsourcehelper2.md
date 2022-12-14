@@ -54,29 +54,7 @@ Exposes a method that adds functionality to <a href="/windows/desktop/api/shobji
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDragSourceHelper2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a>. <b>IDragSourceHelper2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDragSourceHelper2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-idragsourcehelper2-setflags">SetFlags</a>
-</td>
-<td align="left" width="63%">
-Sets the characteristics of a drag-and-drop operation over an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a> object.
-
-</td>
-</tr>
-</table>
+The <b>IDragSourceHelper2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a>. <b>IDragSourceHelper2</b> also has these types of members:
 
 ## -remarks
 

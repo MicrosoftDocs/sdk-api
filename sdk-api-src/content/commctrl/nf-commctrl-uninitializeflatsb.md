@@ -54,7 +54,7 @@ Uninitializes flat scroll bars for a particular window. The specified window wil
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 

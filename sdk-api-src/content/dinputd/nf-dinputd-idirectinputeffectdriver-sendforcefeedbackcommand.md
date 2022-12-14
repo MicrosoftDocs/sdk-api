@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputEffectDriver::SendForceFeedbackCommand </b>method changes the force-feedback state for the device.
+The <b>IDirectInputEffectDriver::SendForceFeedbackCommand </b> method changes the force-feedback state for the device.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Indicates the external joystick number being addressed.
 
-### -param arg2
+### -param unnamedParam2
 
 Indicates which of the following commands is being sent: 
 

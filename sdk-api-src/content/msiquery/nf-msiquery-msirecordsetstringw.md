@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiRecordSetStringW
 title: MsiRecordSetStringW function (msiquery.h)
-description: The MsiRecordSetString function copies a string into the designated field.
+description: The MsiRecordSetString function copies a string into the designated field. (Unicode)
 helpviewer_keywords: ["MsiRecordSetString","MsiRecordSetString function","MsiRecordSetStringA","MsiRecordSetStringW","_msi_msirecordsetstring","msiquery/MsiRecordSetString","msiquery/MsiRecordSetStringA","msiquery/MsiRecordSetStringW","setup.msirecordsetstring"]
 old-location: setup\msirecordsetstring.htm
 tech.root: setup

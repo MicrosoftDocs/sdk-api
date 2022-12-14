@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.MoveFileW
 title: MoveFileW function (winbase.h)
-description: Moves an existing file or a directory, including its children.
+description: The MoveFileW (Unicode) function (winbase.h) moves an existing file or a directory, including its children.
 helpviewer_keywords: ["MoveFile","MoveFile function [Files]","MoveFileA","MoveFileW","_win32_movefile","base.movefile","fs.movefile","rename file [Files]","winbase/MoveFile","winbase/MoveFileA","winbase/MoveFileW"]
 old-location: fs\movefile.htm
 tech.root: fs
 ms.assetid: baa3cc02-0a61-4463-b2f1-0d7aaefa126b
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: MoveFile, MoveFile function [Files], MoveFileA, MoveFileW, _win32_movefile, base.movefile, fs.movefile, rename file [Files], winbase/MoveFile, winbase/MoveFileA, winbase/MoveFileW
 req.header: winbase.h
 req.include-header: Windows.h

@@ -1,7 +1,7 @@
 ---
 UID: NF:bcrypt.BCryptSecretAgreement
 title: BCryptSecretAgreement function (bcrypt.h)
-description: Creates a secret agreement value from a private and a public key.
+description: Creates a secret agreement value from a private and a public key. (BCryptSecretAgreement)
 helpviewer_keywords: ["BCryptSecretAgreement","BCryptSecretAgreement function [Security]","bcrypt/BCryptSecretAgreement","security.bcryptsecretagreement"]
 old-location: security\bcryptsecretagreement.htm
 tech.root: security

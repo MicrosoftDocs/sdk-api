@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.Shell_GetCachedImageIndexW
 title: Shell_GetCachedImageIndexW function (shlobj_core.h)
-description: Shell_GetCachedImageIndex may be altered or unavailable.
+description: Shell_GetCachedImageIndex may be altered or unavailable. (Unicode)
 helpviewer_keywords: ["Shell_GetCachedImageIndex","Shell_GetCachedImageIndex function [Windows Shell]","Shell_GetCachedImageIndexA","Shell_GetCachedImageIndexW","_win32_Shell_GetCachedImageIndex","shell.Shell_GetCachedImageIndex","shlobj_core/Shell_GetCachedImageIndex","shlobj_core/Shell_GetCachedImageIndexA","shlobj_core/Shell_GetCachedImageIndexW"]
 old-location: shell\Shell_GetCachedImageIndex.htm
 tech.root: shell
@@ -47,6 +47,7 @@ api_name:
  - Shell_GetCachedImageIndex
  - Shell_GetCachedImageIndexA
  - Shell_GetCachedImageIndexW
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # Shell_GetCachedImageIndexW function

@@ -16,7 +16,15 @@ f1_keywords:
 
 ## -description
 
-This header is used by Data Exchange. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Data Exchange](../_dataxchg/index.md)
+- [Direct3D 9 Graphics](../_direct3d9/index.md)
+- [DirectShow](/windows/win32/directshow/directshow)
+- [Display Devices Reference](../_display/index.md)
+- [Internationalization for Windows Applications](../_intl/index.md)
+- [OpenGL](../_opengl/index.md)
+- [Tablet PC](../_tablet/index.md)
+- [Windows Color System](../_wcs/index.md)
+- [Windows GDI](../_gdi/index.md)
 

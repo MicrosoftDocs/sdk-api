@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegUnLoadKeyW
 title: RegUnLoadKeyW function (winreg.h)
-description: Unloads the specified registry key and its subkeys from the registry.
+description: Unloads the specified registry key and its subkeys from the registry. (Unicode)
 helpviewer_keywords: ["RegUnLoadKey","RegUnLoadKey function","RegUnLoadKeyA","RegUnLoadKeyW","win32_regunloadkey","base.regunloadkey","winreg/RegUnLoadKey","winreg/RegUnLoadKeyA","winreg/RegUnLoadKeyW"]
 old-location: base\regunloadkey.htm
 tech.root: winprog

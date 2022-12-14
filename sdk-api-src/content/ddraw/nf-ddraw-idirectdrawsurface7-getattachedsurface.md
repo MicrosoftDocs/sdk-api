@@ -54,11 +54,11 @@ Obtains the attached surface that has the specified capabilities, and increments
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to a <a href="/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure that indicates the hardware capabilities of the attached surface.
 
-### -param arg2 [out]
+### -param unnamedParam2 [out]
 
 A pointer to a variable to receive a pointer to the retrieved surface's <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface. The retrieved surface is the one that matches the description, according to the <i>lpDDSCaps</i> parameter.
 
@@ -83,7 +83,7 @@ Attachments are used to connect multiple DirectDrawSurface objects into complex 
 
 
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetAttachedSurface</b> method.
+
 
 ## -see-also
 

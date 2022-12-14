@@ -105,7 +105,7 @@ A pointer to the <a href="/windows/desktop/SecGloss/s-gly">security identifier</
 
 The number of AuditParamFlag  type/value pairs that appear in the variable arguments section that follows this parameter.
 
-### -param arg6 [in]
+### -param ...
 
 A list of AuditParamFlag type/value pairs that provide additional information about the event.
 
@@ -122,3 +122,4 @@ If the function fails, it returns <b>FALSE</b>. For extended error information, 
 
 
 <a href="/windows/desktop/api/authz/nf-authz-authzreportsecurityeventfromparams">AuthzReportSecurityEventFromParams</a>
+

@@ -52,7 +52,7 @@ api_name:
 
 Disconnects from an ad hoc network.
 
-## -parameters
+
 
 ## -returns
 

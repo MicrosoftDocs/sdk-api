@@ -54,47 +54,7 @@ Provides methods for creating a language-specific stemmer. The stemmer generates
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStemmer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStemmer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IStemmer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/indexsrv/nf-indexsrv-istemmer-generatewordforms">GenerateWordForms</a>
-</td>
-<td align="left" width="63%">
-Generates alternative forms for a word and puts these forms in the <a href="/windows/desktop/api/indexsrv/nn-indexsrv-iwordformsink">IWordFormSink</a> object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/indexsrv/nf-indexsrv-istemmer-getlicensetouse">GetLicenseToUse</a>
-</td>
-<td align="left" width="63%">
-Gets the license information for this <b>IStemmer</b> implementation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/indexsrv/nf-indexsrv-istemmer-init">Init</a>
-</td>
-<td align="left" width="63%">
-Initializes the stemmer.
-
-</td>
-</tr>
-</table>
+The <b>IStemmer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStemmer</b> also has these types of members:
 
 ## -remarks
 

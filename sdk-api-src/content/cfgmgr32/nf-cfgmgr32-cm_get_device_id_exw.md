@@ -1,7 +1,7 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_ID_ExW
 title: CM_Get_Device_ID_ExW function (cfgmgr32.h)
-description: The CM_Get_Device_ID_Ex function retrieves the device instance ID for a specified device instance on a local or a remote machine.
+description: The CM_Get_Device_ID_Ex function retrieves the device instance ID for a specified device instance on a local or a remote machine. (Unicode)
 helpviewer_keywords: ["CM_Get_Device_ID_Ex","CM_Get_Device_ID_Ex function [Device and Driver Installation]","CM_Get_Device_ID_ExW","cfgmgr32/CM_Get_Device_ID_Ex","cfgmgr32/CM_Get_Device_ID_ExW","cfgmgrfn_e4ec7f8a-75aa-4c49-a2fe-a912685d5e98.xml","devinst.cm_get_device_id_ex"]
 old-location: devinst\cm_get_device_id_ex.htm
 tech.root: devinst

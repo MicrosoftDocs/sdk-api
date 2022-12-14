@@ -57,7 +57,7 @@ The DLL entry point name must be <b>WSManPluginSend</b>.
 
 ## -parameters
 
-### -param *requestDetails
+### -param requestDetails
 
 A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
 
@@ -78,6 +78,6 @@ If this request is aimed at a command and not a shell, this is the context retur
 
 Specifies the stream that is associated with the inbound object.
 
-### -param *inboundData
+### -param inboundData
 
 A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure that contains data being sent to the specified stream. It is in the form of binary data.

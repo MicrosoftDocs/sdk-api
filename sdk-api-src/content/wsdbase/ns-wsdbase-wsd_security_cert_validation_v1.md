@@ -1,7 +1,7 @@
 ---
 UID: NS:wsdbase._WSD_SECURITY_CERT_VALIDATION_V1
 title: WSD_SECURITY_CERT_VALIDATION_V1 (wsdbase.h)
-description: Represents the criteria for matching client certificates against those of an HTTPS server.
+description: Represents the criteria for matching client certificates against those of an HTTPS server.W
 helpviewer_keywords: ["*PWSD_SECURITY_CERT_VALIDATION","WSDAPI_SSL_CERT_DEFAULT_CHECKS","WSDAPI_SSL_CERT_IGNORE_EXPIRY","WSDAPI_SSL_CERT_IGNORE_INVALID_CN","WSDAPI_SSL_CERT_IGNORE_REVOCATION","WSDAPI_SSL_CERT_IGNORE_UNKNOWN_CA","WSDAPI_SSL_CERT_IGNORE_WRONG_USAGE","WSD_SECURITY_CERT_VALIDATION","WSD_SECURITY_CERT_VALIDATION structure","WSD_SECURITY_CERT_VALIDATION_V1","_WSD_SECURITY_CERT_VALIDATION","ncd.wsd_security_cert_validation","wsdbase/WSD_SECURITY_CERT_VALIDATION"]
 old-location: ncd\wsd_security_cert_validation.htm
 tech.root: ncd
@@ -60,7 +60,7 @@ Do not use <a href="/previous-versions/windows/desktop/legacy/hh437346(v=vs.85)"
 
 ### -field certMatchArray
 
-An array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures that contain certificates to be matched against those provided by the HTTPS server or client.  Only one matching certificate is required for validatation.  This parameter can be NULL.
+An array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures that contain certificates to be matched against those provided by the HTTPS server or client.  Only one matching certificate is required for validation.  This parameter can be NULL.
 
 ### -field dwCertMatchArrayCount
 
@@ -68,7 +68,7 @@ The count of certificates in <i>certMatchArray</i>.
 
 ### -field hCertMatchStore
 
-A handle to a certificate store that contains certificates to be matched against those provided by the HTTPS server or client.  Only one matching certificate is required for validatation.  This parameter can be NULL.
+A handle to a certificate store that contains certificates to be matched against those provided by the HTTPS server or client.  Only one matching certificate is required for validation.  This parameter can be NULL.
 
 ### -field hCertIssuerStore
 

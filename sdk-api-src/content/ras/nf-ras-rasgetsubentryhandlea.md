@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasGetSubEntryHandleA
 title: RasGetSubEntryHandleA function (ras.h)
-description: The RasGetSubEntryHandle function retrieves a connection handle for a specified subentry of a multilink connection.
+description: The RasGetSubEntryHandle function retrieves a connection handle for a specified subentry of a multilink connection. (ANSI)
 helpviewer_keywords: ["RasGetSubEntryHandle","RasGetSubEntryHandle function [RAS]","RasGetSubEntryHandleA","RasGetSubEntryHandleW","_ras_rasgetsubentryhandle","ras/RasGetSubEntryHandle","ras/RasGetSubEntryHandleA","ras/RasGetSubEntryHandleW","rras.rasgetsubentryhandle"]
 old-location: rras\rasgetsubentryhandle.htm
 tech.root: RRAS
@@ -57,16 +57,16 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Specifies the <b>HRASCONN</b> connection handle returned by the 
 <a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> function for a multilink phone-book entry.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Specifies a valid subentry index for the phone-book entry.
 
-### -param arg3 [out]
+### -param unnamedParam3 [out]
 
 Pointer to the <b>HRASCONN</b> variable that receives a connection handle that represents the subentry connection.
 
@@ -147,7 +147,7 @@ You can call
 
 
 
-[RasGetProjectionInfoEx](/windows/win32/api/ras/nf-ras-rasgetprojectioninfoex)
+[RasGetProjectionInfoEx](./nf-ras-rasgetprojectioninfoex.md)
 
 
 

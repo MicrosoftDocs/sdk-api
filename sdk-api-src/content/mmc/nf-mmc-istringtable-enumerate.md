@@ -56,7 +56,7 @@ The <b>IStringTable::Enumerate</b> method supplies a pointer to an <a href="/win
 
 ### -param ppEnum [out]
 
-The address of <a href="/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a>* pointer variable that receives the interface pointer to the enumerator. If an error occurs, *<i>ppEnum</i> is set to <b>NULL</b>. If *<i>ppEnum </i>is non-<b>NULL</b>, MMC's implementation of <b>IEnumString</b> calls <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> on the *<i>ppEnum</i>. The snap-in must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> when the interface is no longer required.
+The address of <a href="/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a>* pointer variable that receives the interface pointer to the enumerator. If an error occurs, *<i>ppEnum</i> is set to <b>NULL</b>. If *<i>ppEnum </i> is non-<b>NULL</b>, MMC's implementation of <b>IEnumString</b> calls <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> on the *<i>ppEnum</i>. The snap-in must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> when the interface is no longer required.
 
 ## -returns
 

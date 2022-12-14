@@ -55,7 +55,7 @@ The
 
 ## -enum-fields
 
-### -field PT_KEYPADZERO
+### -field PT_KEYPADZERO:0
 
 Zero.
 

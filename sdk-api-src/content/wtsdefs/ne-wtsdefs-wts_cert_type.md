@@ -54,15 +54,15 @@ Contains values that specify the type of certificate used to obtain a license.
 
 ## -enum-fields
 
-### -field WTS_CERT_TYPE_INVALID
+### -field WTS_CERT_TYPE_INVALID:0
 
 The certificate is not valid.
 
-### -field WTS_CERT_TYPE_PROPRIETORY
+### -field WTS_CERT_TYPE_PROPRIETORY:1
 
 The certificate is a custom type.
 
-### -field WTS_CERT_TYPE_X509
+### -field WTS_CERT_TYPE_X509:2
 
 The certificate adheres to the X.509 standard.
 

@@ -1,9 +1,9 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_IF_OPERATOR_DESC
 title: DML_ELEMENT_WISE_IF_OPERATOR_DESC
-description: Describes a DirectML math operator that essentially performs a ternary `if` statement.
+description: Selects elements either from *ATensor* or *BTensor*, depending on the value of the corresponding element in *ConditionTensor*. Non-zero elements of *ConditionTensor* select from *ATensor*, while zero-valued elements select from *BTensor*.
 tech.root: directml
-ms.date: 01/30/2020
+ms.date: 01/19/2022
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -38,48 +38,79 @@ dev_langs:
 
 ## -description
 
-Describes a DirectML math operator that essentially performs a ternary `if` statement. It evaluates every element in <i>ConditionTensor</i>, and if `true` returns the corresponding element in <i>ATensor</i>, otherwise it returns the corresponding element in <i>BTensor</i>. Each input tensor can broadcast to the output shape.
+Selects elements either from *ATensor* or *BTensor*, depending on the value of the corresponding element in *ConditionTensor*. Non-zero elements of *ConditionTensor* select from *ATensor*, while zero-valued elements select from *BTensor*.
 
 ```
-For each condition, a, b in ConditionTensor, ATensor, BTensor
-    if (b) then x else y
+f(cond, a, b) = a, if cond != 0
+                b, otherwise
 
-//  Example.
-//  condition = bool [[1, 0], [1, 1]]
-//  x = [[1, 2], [3, 4]] // first input
-//  y = [[9, 8], [7, 6]] // second input
-//  z = [[1, 8], [3, 4]] // output
+Example:
+    [[1, 0], [1, 1]] // ConditionTensor
+    [[1, 2], [3, 4]] // ATensor
+    [[9, 8], [7, 6]] // BTensor
+
+    [[1, 8], [3, 4]] // Output
 ```
-
-Can be used to functionally build up other aggregate operators, such as LeakyRelu. Here's an illustration in pseudo-code (not the most efficiently, but possible): `LeakyRelu(X) = If(Less(X, 0), Mul(X, alpha), X)`).
 
 ## -struct-fields
 
 ### -field ConditionTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the <i>Condition</i> tensor to read from.
+The condition tensor to read from.
 
 ### -field ATensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the <i>A</i> tensor to read from.
+A tensor containing the left-hand side inputs.
 
 ### -field BTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the <i>B</i> tensor to read from.
+A tensor containing the right-hand side inputs.
 
 ### -field OutputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to write the results to.
+The output tensor to write the results to.
 
 ## -remarks
+Can be used to functionally build up other aggregate operators, such as LeakyRelu. Here's an illustration in pseudo-code (not the most efficient way, but possible): `LeakyRelu(x) = If(Less(x, 0), Mul(x, alpha), x)`.
+
+## Availability
+This operator was introduced in `DML_FEATURE_LEVEL_2_0`.
+
+## Tensor constraints
+* *ATensor*, *BTensor*, *ConditionTensor*, and *OutputTensor* must have the same *DimensionCount* and *Sizes*.
+* *ATensor*, *BTensor*, and *OutputTensor* must have the same *DataType*.
+
+## Tensor support
+### DML_FEATURE_LEVEL_5_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| ConditionTensor | Input | 1 to 8 | UINT8 |
+| ATensor | Input | 1 to 8 | FLOAT64, FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| BTensor | Input | 1 to 8 | FLOAT64, FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 1 to 8 | FLOAT64, FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+
+### DML_FEATURE_LEVEL_3_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| ConditionTensor | Input | 1 to 8 | UINT8 |
+| ATensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+| BTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+
+### DML_FEATURE_LEVEL_2_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| ConditionTensor | Input | 4 | UINT8 |
+| ATensor | Input | 4 | FLOAT16 |
+| BTensor | Input | 4 | FLOAT16 |
+| OutputTensor | Output | 4 | FLOAT16 |
 
 ## -see-also
-

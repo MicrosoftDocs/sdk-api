@@ -1,7 +1,7 @@
 ---
 UID: NF:shdeprecated.IBrowserService.IEParseDisplayName
 title: IBrowserService::IEParseDisplayName (shdeprecated.h)
-description: Deprecated. Parses a URL into a pointer to an item identifier list (PIDL).
+description: Deprecated. Parses a URL into a pointer to an item identifier list (PIDL). (IBrowserService.IEParseDisplayName)
 helpviewer_keywords: ["IBrowserService interface [Windows Shell]","IEParseDisplayName method","IBrowserService.IEParseDisplayName","IBrowserService::IEParseDisplayName","IEParseDisplayName","IEParseDisplayName method [Windows Shell]","IEParseDisplayName method [Windows Shell]","IBrowserService interface","shdeprecated/IBrowserService::IEParseDisplayName","shell.IBrowserService_IEParseDisplayName","zone_IBrowserService_IEParseDisplayName"]
 old-location: shell\IBrowserService_IEParseDisplayName.htm
 tech.root: shell
@@ -77,5 +77,5 @@ The PIDL created from the parsed URL.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

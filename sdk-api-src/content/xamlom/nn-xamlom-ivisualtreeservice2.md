@@ -54,59 +54,7 @@ Represents additional capabilities of an <a href="/previous-versions/windows/des
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVisualTreeService2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService</a>. <b>IVisualTreeService2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVisualTreeService2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/xaml_diagnostics/ivisualtreeservice2-getproperty">GetProperty</a>
-</td>
-<td align="left" width="63%">
-Gets the effective value of the specified dependency property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/mt846442(v=vs.85)">GetPropertyIndex</a>
-</td>
-<td align="left" width="63%">
-Gets the property index for the specified property name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/xaml_diagnostics/ivisualtreeservice2-rendertargetbitmap">RenderTargetBitmap</a>
-</td>
-<td align="left" width="63%">
-Returns an image that represents the object described by handle, or
-returns an error if the object does not have or cannot provide
-such an image. 
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/xaml_diagnostics/ivisualtreeservice2-replaceresource">ReplaceResource</a>
-</td>
-<td align="left" width="63%">
-Replaces an existing resource with a new one of the same type.
-
-</td>
-</tr>
-</table>
+The <b>IVisualTreeService2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService</a>. <b>IVisualTreeService2</b> also has these types of members:
 
 ## -see-also
 

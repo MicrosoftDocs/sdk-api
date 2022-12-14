@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddPie(REAL,REAL,REAL,REAL,REAL,REAL)
 title: GraphicsPath::AddPie(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL) (gdipluspath.h)
-description: The GraphicsPath::AddPie method adds a pie to this path.
+description: The GraphicsPath::AddPie method adds a pie to this path. (overload 2/4)
 helpviewer_keywords: ["AddPie","AddPie method [GDI+]","AddPie method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","AddPie method","GraphicsPath.AddPie","GraphicsPath.AddPie(IN REAL","IN REAL","IN REAL","IN REAL","IN REAL","IN REAL)","GraphicsPath.AddPie(REAL","REAL","REAL","REAL","REAL","REAL)","GraphicsPath::AddPie","GraphicsPath::AddPie(IN REAL","IN REAL","IN REAL","IN REAL","IN REAL","IN REAL)","_gdiplus_CLASS_GraphicsPath_AddPie_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REAL_sweepAn","gdiplus._gdiplus_CLASS_GraphicsPath_AddPie_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REAL_sweepAn"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddPie_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REAL_sweepAn.htm
 tech.root: gdiplus

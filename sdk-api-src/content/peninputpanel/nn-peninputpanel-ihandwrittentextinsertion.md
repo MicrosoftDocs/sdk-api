@@ -54,38 +54,7 @@ Used by the application's custom text entry code to insert the text into both th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHandWrittenTextInsertion</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHandWrittenTextInsertion</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IHandWrittenTextInsertion</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ihandwrittentextinsertion-insertinkrecognitionresult">InsertInkRecognitionResult</a>
-</td>
-<td align="left" width="63%">
-Insert recognition results.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ihandwrittentextinsertion-insertrecognitionresultsarray">InsertRecognitionResultsArray</a>
-</td>
-<td align="left" width="63%">
-Insert recognition results array.
-
-</td>
-</tr>
-</table>
+The <b>IHandWrittenTextInsertion</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHandWrittenTextInsertion</b> also has these types of members:
 
 ## -remarks
 

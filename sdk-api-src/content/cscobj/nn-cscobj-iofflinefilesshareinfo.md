@@ -55,47 +55,7 @@ Presents share-specific information about cached items.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesShareInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesShareInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IOfflineFilesShareInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesshareinfo-getsharecachingmode">GetShareCachingMode</a>
-</td>
-<td align="left" width="63%">
-Retrieves the caching mode configuration of the closest ancestor share to the item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesshareinfo-getshareitem">GetShareItem</a>
-</td>
-<td align="left" width="63%">
-Finds the cache item representing the closest ancestor share to the item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesshareinfo-issharedfsjunction">IsShareDfsJunction</a>
-</td>
-<td align="left" width="63%">
-Determines whether the share item is a DFS junction or a shared folder on a server.
-
-</td>
-</tr>
-</table>
+The <b>IOfflineFilesShareInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesShareInfo</b> also has these types of members:
 
 ## -see-also
 

@@ -64,29 +64,7 @@ The <b>IGPMAsyncProgress</b> interface can be implemented by the client and pass
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMAsyncProgress</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMAsyncProgress</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IGPMAsyncProgress</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmasyncprogress-status">Status</a>
-</td>
-<td align="left" width="63%">
-The server calls this method to notify the client about the status of an asynchronous GPMC operation.
-
-</td>
-</tr>
-</table>
+The <b>IGPMAsyncProgress</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMAsyncProgress</b> also has these types of members:
 
 ## -remarks
 

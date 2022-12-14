@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasGetEntryDialParamsA
 title: RasGetEntryDialParamsA function (ras.h)
-description: The RasGetEntryDialParams function retrieves the connection information saved by the last successful call to the RasDial or RasSetEntryDialParams function for a specified phone-book entry.
+description: The RasGetEntryDialParams function retrieves the connection information saved by the last successful call to the RasDial or RasSetEntryDialParams function for a specified phone-book entry. (ANSI)
 helpviewer_keywords: ["RasGetEntryDialParams","RasGetEntryDialParams function [RAS]","RasGetEntryDialParamsA","RasGetEntryDialParamsW","_ras_rasgetentrydialparams","ras/RasGetEntryDialParams","ras/RasGetEntryDialParamsA","ras/RasGetEntryDialParamsW","rras.rasgetentrydialparams"]
 old-location: rras\rasgetentrydialparams.htm
 tech.root: RRAS
@@ -61,7 +61,7 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <i>Dial-Up Networking</i> dialog box. 
 
@@ -70,7 +70,7 @@ Pointer to a <b>null</b>-terminated string that specifies the full path and file
 
 <b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
-### -param arg2 [in, out]
+### -param unnamedParam2 [in, out]
 
 Pointer to a 
 <a href="/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure. 
@@ -96,7 +96,7 @@ The <b>szPassword</b> member of the <a href="/previous-versions/windows/desktop/
 
 <b>Windows NT and Windows Me/98/95:  </b>Secure password feature not supported.
 
-### -param arg3 [out]
+### -param unnamedParam3 [out]
 
 Pointer to a flag that indicates whether the function retrieved the password associated with the user name for the phone-book entry. The <i>lpfPassword</i> parameter is <b>TRUE</b> if the system has saved a password for the specified entry. If the system has no password saved for this entry, <i>lpfPassword</i> is <b>FALSE</b>. 
 

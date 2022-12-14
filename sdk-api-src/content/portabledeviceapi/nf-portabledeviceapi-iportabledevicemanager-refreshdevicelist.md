@@ -53,7 +53,7 @@ api_name:
 
 The <b>RefreshDeviceList</b> method refreshes the list of devices that are connected to the computer.
 
-## -parameters
+
 
 ## -returns
 

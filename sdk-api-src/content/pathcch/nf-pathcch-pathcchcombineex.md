@@ -1,7 +1,7 @@
 ---
 UID: NF:pathcch.PathCchCombineEx
 title: PathCchCombineEx function (pathcch.h)
-description: Combines two path fragments into a single path.
+description: Combines two path fragments into a single path. (PathCchCombineEx)
 helpviewer_keywords: ["PATHCCH_ALLOW_LONG_PATHS","PATHCCH_DO_NOT_NORMALIZE_SEGMENTS","PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH","PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS","PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS","PATHCCH_NONE","PathCchCombineEx","PathCchCombineEx function [Windows Shell]","pathcch/PathCchCombineEx","shell.PathCchCombineEx"]
 old-location: shell\PathCchCombineEx.htm
 tech.root: shell
@@ -78,7 +78,7 @@ A pointer to the first path string. This value can be <b>NULL</b>.
 
 ### -param pszMore [in, optional]
 
-A pointer to the second path string. If this path begins with a single backslash, it is combined with only the root of the path pointed to by <i>pszPathIn</i>. If this path is fully qualfied, it is copied directly to the output buffer without being combined with the other path. This value can be <b>NULL</b>.
+A pointer to the second path string. If this path begins with a single backslash, it is combined with only the root of the path pointed to by <i>pszPathIn</i>. If this path is fully qualified, it is copied directly to the output buffer without being combined with the other path. This value can be <b>NULL</b>.
 
 ### -param dwFlags [in]
 

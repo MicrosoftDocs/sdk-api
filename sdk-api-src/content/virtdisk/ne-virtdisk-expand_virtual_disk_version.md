@@ -59,9 +59,9 @@ Contains the version of the virtual disk
 
 ## -enum-fields
 
-### -field EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED
+### -field EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED:0
 
-### -field EXPAND_VIRTUAL_DISK_VERSION_1
+### -field EXPAND_VIRTUAL_DISK_VERSION_1:1
 
 ## -see-also
 

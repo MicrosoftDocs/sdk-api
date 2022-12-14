@@ -1,7 +1,7 @@
 ---
 UID: NF:userenv.ExpandEnvironmentStringsForUserA
 title: ExpandEnvironmentStringsForUserA function (userenv.h)
-description: Expands the source string by using the environment block established for the specified user.
+description: Expands the source string by using the environment block established for the specified user. (ANSI)
 helpviewer_keywords: ["ExpandEnvironmentStringsForUser","ExpandEnvironmentStringsForUser function [Windows Shell]","ExpandEnvironmentStringsForUserA","ExpandEnvironmentStringsForUserW","_shell_ExpandEnvironmentStringsForUser","shell.ExpandEnvironmentStringsForUser","userenv/ExpandEnvironmentStringsForUser","userenv/ExpandEnvironmentStringsForUserA","userenv/ExpandEnvironmentStringsForUserW"]
 old-location: shell\ExpandEnvironmentStringsForUser.htm
 tech.root: shell

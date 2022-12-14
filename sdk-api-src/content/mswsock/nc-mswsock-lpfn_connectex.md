@@ -61,7 +61,7 @@ The
 
 A descriptor that identifies an unconnected, previously bound socket. See Remarks for more information.
 
-### -param *name [in]
+### -param name [in]
 
 A pointer to  
 a <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure that specifies the address to which to connect. For  IPv4, the <b>sockaddr</b> contains <b>AF_INET</b> for the address family, the destination IPv4 address, and the destination port. For  IPv6, the <b>sockaddr</b> structure contains <b>AF_INET6</b> for the address family, the destination IPv6 address, the destination port, and may contain additional IPv6 flow and scope-id information.
@@ -137,7 +137,7 @@ The network subsystem has failed.
 The local address of the socket is already in use, and the socket was not marked to allow address reuse with SO_REUSEADDR. This error usually occurs during a 
 <a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a> operation, but the error could be delayed until a 
 <a href="/windows/desktop/api/mswsock/nc-mswsock-lpfn_connectex">ConnectEx</a> function call, if the 
-<b>bind</b> function was called with a wildcard address (<b>INADDR_ANY</b> or <b>in6addr_any</b>) specified for the local IP address. A specific IP address needs to be implicitly bound by the<b>ConnectEx</b> function.
+<b>bind</b> function was called with a wildcard address (<b>INADDR_ANY</b> or <b>in6addr_any</b>) specified for the local IP address. A specific IP address needs to be implicitly bound by the <b>ConnectEx</b> function.
 
 </td>
 </tr>
@@ -412,7 +412,7 @@ If the address parameter of the
 <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure pointed to in the <i>name</i> parameter is all zeros, 
 <b>ConnectEx</b> returns the error <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEADDRNOTAVAIL</a>. Any attempt to reconnect an active connection will fail with the error code <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEISCONN</a>.
 
-When a connected socket becomes closed for any reason, it is recommended that the socket be discarded and a new socket created. The reasoning for this is that it  is safest to assume that when things go awry on a connected socket for any reason, the application must discard teh socket and create the needed socket again in order to return to a stable point.
+When a connected socket becomes closed for any reason, it is recommended that the socket be discarded and a new socket created. The reasoning for this is that it  is safest to assume that when things go awry on a connected socket for any reason, the application must discard the socket and create the needed socket again in order to return to a stable point.
 
 If the 
 <a href="/previous-versions/windows/desktop/legacy/ms737757(v=vs.85)">DisconnectEx</a> function is called with the <b>TF_REUSE_SOCKET</b> flag, the specified socket is returned to a state in which it is not connected, but still bound. In such cases, the handle of the socket can be passed to the 

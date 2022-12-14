@@ -85,7 +85,7 @@ Null-terminated string representation of a network address. The network-address 
 
 ### -field Endpoint
 
-Null-terminated string representation of an endpoint. The endpoint format and content are associated with the protocol sequence. For example, the endpoint associated with the protocol sequence <a href="/windows/desktop/Midl/ncacn-np">ncacn_np</a> is a pipe name in the format <b>\</b><i>Pipe</i><b>\</b><i>PipeName</i>.
+Null-terminated string representation of an endpoint. The endpoint format and content are associated with the protocol sequence. For example, the endpoint associated with the protocol sequence <a href="/windows/desktop/Midl/ncacn-np">ncacn_np</a> is a pipe name in the format <b>\\</b><i>Pipe</i><b>\\</b><i>PipeName</i>.
 
 ### -field Options
 

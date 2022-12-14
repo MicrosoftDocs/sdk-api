@@ -54,39 +54,39 @@ Specifies a type of compressed buffer for decoding.
 
 ## -enum-fields
 
-### -field D3D11_VIDEO_DECODER_BUFFER_PICTURE_PARAMETERS
+### -field D3D11_VIDEO_DECODER_BUFFER_PICTURE_PARAMETERS:0
 
 Picture decoding parameter buffer.
 
-### -field D3D11_VIDEO_DECODER_BUFFER_MACROBLOCK_CONTROL
+### -field D3D11_VIDEO_DECODER_BUFFER_MACROBLOCK_CONTROL:1
 
 Macroblock control command buffer.
 
-### -field D3D11_VIDEO_DECODER_BUFFER_RESIDUAL_DIFFERENCE
+### -field D3D11_VIDEO_DECODER_BUFFER_RESIDUAL_DIFFERENCE:2
 
 Residual difference block data buffer.
 
-### -field D3D11_VIDEO_DECODER_BUFFER_DEBLOCKING_CONTROL
+### -field D3D11_VIDEO_DECODER_BUFFER_DEBLOCKING_CONTROL:3
 
 Deblocking filter control command buffer.
 
-### -field D3D11_VIDEO_DECODER_BUFFER_INVERSE_QUANTIZATION_MATRIX
+### -field D3D11_VIDEO_DECODER_BUFFER_INVERSE_QUANTIZATION_MATRIX:4
 
 Inverse quantization matrix buffer.
 
-### -field D3D11_VIDEO_DECODER_BUFFER_SLICE_CONTROL
+### -field D3D11_VIDEO_DECODER_BUFFER_SLICE_CONTROL:5
 
 Slice-control buffer.
 
-### -field D3D11_VIDEO_DECODER_BUFFER_BITSTREAM
+### -field D3D11_VIDEO_DECODER_BUFFER_BITSTREAM:6
 
 Bitstream data buffer.
 
-### -field D3D11_VIDEO_DECODER_BUFFER_MOTION_VECTOR
+### -field D3D11_VIDEO_DECODER_BUFFER_MOTION_VECTOR:7
 
 Motion vector buffer.
 
-### -field D3D11_VIDEO_DECODER_BUFFER_FILM_GRAIN
+### -field D3D11_VIDEO_DECODER_BUFFER_FILM_GRAIN:8
 
 Film grain synthesis data buffer.
 

@@ -53,7 +53,7 @@ api_name:
 Resets the initializer to handle initialization of a new set of operators.
 
 You may use an initializer only to initialize a fixed set of operators, which are provided either during creation
-        ([IDMLDevice::CreateOperatorInitializer](/windows/desktop/api/directml/nf-directml-idmldevice-createoperatorinitializer)), or when the initializer is reset. Resetting the initializer allows your
+        ([IDMLDevice::CreateOperatorInitializer](/windows/win32/api/directml/nf-directml-idmldevice-createoperatorinitializer)), or when the initializer is reset. Resetting the initializer allows your
         application to reuse an existing initializer object to initialize a new set of operators.
 
 You must not call <b>Reset</b> until all outstanding work using the initializer has completed execution on the GPU.
@@ -70,9 +70,9 @@ This parameter determines the number of elements in the array passed in the  <i>
 
 ### -param operators [in, optional]
 
-Type: <b>[IDMLCompiledOperator](/windows/desktop/api/directml/nn-directml-idmlcompiledoperator)*</b>
+Type: <b>[IDMLCompiledOperator](/windows/win32/api/directml/nn-directml-idmlcompiledoperator)*</b>
 
-An optional pointer to a constant array of [IDMLCompiledOperator](/windows/desktop/api/directml/nn-directml-idmlcompiledoperator) pointers containing the operators that the initializer should initialize.
+An optional pointer to a constant array of [IDMLCompiledOperator](/windows/win32/api/directml/nn-directml-idmlcompiledoperator) pointers containing the operators that the initializer should initialize.
 
 ## -returns
 
@@ -82,5 +82,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -see-also
 
-[IDMLOperatorInitializer](/windows/desktop/api/directml/nn-directml-idmloperatorinitializer)
-
+[IDMLOperatorInitializer](/windows/win32/api/directml/nn-directml-idmloperatorinitializer)

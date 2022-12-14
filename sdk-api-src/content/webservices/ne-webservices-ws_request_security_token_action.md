@@ -54,14 +54,14 @@ Defines which set of actions to use when negotiating security tokens using WS-Tr
 
 ## -enum-fields
 
-### -field WS_REQUEST_SECURITY_TOKEN_ACTION_ISSUE
+### -field WS_REQUEST_SECURITY_TOKEN_ACTION_ISSUE:1
 
 Use the "request" action defined in WS-Trust.
 
-### -field WS_REQUEST_SECURITY_TOKEN_ACTION_NEW_CONTEXT
+### -field WS_REQUEST_SECURITY_TOKEN_ACTION_NEW_CONTEXT:2
 
 Use the "request" action defined in WS-SecureConversation.
 
-### -field WS_REQUEST_SECURITY_TOKEN_ACTION_RENEW_CONTEXT
+### -field WS_REQUEST_SECURITY_TOKEN_ACTION_RENEW_CONTEXT:3
 
 Use the "renew" action defined in WS-SecureConversation. Requires <a href="/windows/desktop/api/webservices/ne-webservices-ws_request_security_token_property_id">WS_REQUEST_SECURITY_TOKEN_PROPERTY_EXISTING_TOKEN</a>.

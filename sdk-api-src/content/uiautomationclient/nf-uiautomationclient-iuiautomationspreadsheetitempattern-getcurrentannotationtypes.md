@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationTypes
 title: IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationTypes (uiautomationclient.h)
-description: Retrieves an array of annotation type identifiers indicating the types of annotations that are associated with this spreadsheet cell.
+description: Retrieves an array of annotation type identifiers indicating the types of annotations that are associated with this spreadsheet cell. (IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationTypes)
 helpviewer_keywords: ["GetCurrentAnnotationTypes","GetCurrentAnnotationTypes method [Windows Accessibility]","GetCurrentAnnotationTypes method [Windows Accessibility]","IUIAutomationSpreadsheetItemPattern interface","IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility]","GetCurrentAnnotationTypes method","IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationTypes","IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationTypes","uiautomationclient/IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationTypes","winauto.uiauto_IUIAutomationSpreadsheetItemPattern_GetCurrentAnnotationTypes"]
 old-location: winauto\uiauto_IUIAutomationSpreadsheetItemPattern_GetCurrentAnnotationTypes.htm
 tech.root: WinAuto
@@ -64,7 +64,7 @@ Receives the array of annotation type identifiers. For a list of possible values
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

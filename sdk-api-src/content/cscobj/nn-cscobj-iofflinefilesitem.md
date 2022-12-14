@@ -55,65 +55,7 @@ Represents a single item in the Offline Files cache. The item may be a server, s
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesItem</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IOfflineFilesItem</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitem-getitemtype">GetItemType</a>
-</td>
-<td align="left" width="63%">
-Returns a type code identifying the type of the item; server, share, directory, or file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitem-getparentitem">GetParentItem</a>
-</td>
-<td align="left" width="63%">
-Retrieves the <b>IOfflineFilesItem</b> interface for the parent of the item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitem-getpath">GetPath</a>
-</td>
-<td align="left" width="63%">
-Retrieves the fully qualified UNC path string for an item in the Offline Files cache.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitem-ismarkedfordeletion">IsMarkedForDeletion</a>
-</td>
-<td align="left" width="63%">
-Determines whether an item has been deleted from the Offline Files cache.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitem-refresh">Refresh</a>
-</td>
-<td align="left" width="63%">
-Refreshes any data cached in the object by rereading from the Offline Files cache.
-
-</td>
-</tr>
-</table>
+The <b>IOfflineFilesItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesItem</b> also has these types of members:
 
 ## -see-also
 

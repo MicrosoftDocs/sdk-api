@@ -1,12 +1,12 @@
 ---
 UID: NF:swdevice.SwDeviceClose
 title: SwDeviceClose function (swdevice.h)
-description: Closes the software device handle. When the handle is closed, PnP will initiate the process of removing the device.
+description: Closes the software device handle. When the handle is closed, if the lifetime of the SwDevice is SWDeviceLifetimeHandle, PnP will initiate the process of "unplugging" the device. The device will no longer be reported as a child of its parent device.
 helpviewer_keywords: ["SwDeviceClose","SwDeviceClose function","swdevice.swdeviceclose","swdevice/SwDeviceClose"]
 old-location: swdevice\swdeviceclose.htm
 tech.root: swdevice
 ms.assetid: C5E659CD-203A-4021-AB3F-3AFEE2B31E7C
-ms.date: 12/05/2018
+ms.date: 10/11/2021
 ms.keywords: SwDeviceClose, SwDeviceClose function, swdevice.swdeviceclose, swdevice/SwDeviceClose
 req.header: swdevice.h
 req.include-header: 
@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Closes the software device handle.  When the handle is closed, PnP will initiate the process of removing the device.
+Closes the software device handle.  When the handle is closed, if the lifetime of the SwDevice is <b>SWDeviceLifetimeHandle</b>, PnP will initiate the process of "unplugging" the device. The device will no longer be reported as a child of its parent device.
 
 ## -parameters
 
@@ -68,9 +68,9 @@ You can call <b>SwDeviceClose</b> at any time even if the callback function hasn
 
 In Windows 8, you can't call <b>SwDeviceClose</b> inside the <a href="/windows/desktop/api/swdevice/nc-swdevice-sw_device_create_callback">SW_DEVICE_CREATE_CALLBACK</a> callback function.  Doing so will cause a deadlock.  Be careful of releasing a ref counted object that will call <b>SwDeviceClose</b> when its destructor runs.  In Windows 8.1, this restriction is lifted, and you can call <b>SwDeviceClose</b> inside the callback function.
 
-By calling <b>SwDeviceClose</b>, you initiate the process of removing a device from PnP.  The call to <b>SwDeviceClose</b> returns before this removal is complete.  But you can safely call <a href="/windows/desktop/api/swdevice/nf-swdevice-swdevicecreate">SwDeviceCreate</a> immediately  after <b>SwDeviceClose</b>.  The new create will be queued until the previous removal processing completes, and then the device will be re-created.
+By calling <b>SwDeviceClose</b>, if the lifetime of the SwDevice is <b>SWDeviceLifetimeHandle</b>, you initiate the process of "unplugging" the device.  This causes the device to no longer be reported as a child of its parent which causes PnP to issue a "surprise removal" of the device.  The call to <b>SwDeviceClose</b> returns before this removal is complete.  However, you can safely call <a href="/windows/desktop/api/swdevice/nf-swdevice-swdevicecreate">SwDeviceCreate</a> immediately  after <b>SwDeviceClose</b>.  The new create will be queued until the previous removal processing completes, and then the device will be re-created.
 
-PnP removal makes the device "Not present." PnP removal of a device is the same us unplugging a USB device.  All the persisted property state for the device remains in memory.
+PnP removal makes the device "Not present" and does not uninstall the device. PnP removal of a device is the same as unplugging a USB device and all of the persisted property state for the device will remain. If you wish to uninstall the device after calling <b>SwDeviceClose</b>, see <a href="/windows-hardware/drivers/install/how-devices-and-driver-packages-are-uninstalled#uninstalling-the-device">Uninstalling the device</a>.
 
 ## -see-also
 

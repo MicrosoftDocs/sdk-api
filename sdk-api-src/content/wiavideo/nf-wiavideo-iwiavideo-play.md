@@ -52,7 +52,7 @@ api_name:
 
 Begins playback of streaming video.
 
-## -parameters
+
 
 ## -returns
 

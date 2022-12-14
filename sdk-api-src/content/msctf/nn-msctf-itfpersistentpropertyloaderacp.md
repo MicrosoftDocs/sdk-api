@@ -54,29 +54,7 @@ The <b>ITfPersistentPropertyLoaderACP</b> interface is implemented by an applica
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfPersistentPropertyLoaderACP</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfPersistentPropertyLoaderACP</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfPersistentPropertyLoaderACP</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfpersistentpropertyloaderacp-loadproperty">LoadProperty</a>
-</td>
-<td align="left" width="63%">
-Called to load a property.
-
-</td>
-</tr>
-</table>
+The <b>ITfPersistentPropertyLoaderACP</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfPersistentPropertyLoaderACP</b> also has these types of members:
 
 ## -see-also
 

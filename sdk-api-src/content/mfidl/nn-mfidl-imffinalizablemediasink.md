@@ -57,38 +57,7 @@ To get a pointer to this interface, call <b>QueryInterface</b> on the media sink
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFFinalizableMediaSink</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a>. <b>IMFFinalizableMediaSink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFFinalizableMediaSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imffinalizablemediasink-beginfinalize">BeginFinalize</a>
-</td>
-<td align="left" width="63%">
-Notifies the media sink to complete its final tasks.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imffinalizablemediasink-endfinalize">EndFinalize</a>
-</td>
-<td align="left" width="63%">
-Called when the asynchronous callback given to <a href="/windows/desktop/api/mfidl/nf-mfidl-imffinalizablemediasink-beginfinalize">BeginFinalize</a> is invoked.
-
-</td>
-</tr>
-</table>
+The <b>IMFFinalizableMediaSink</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a>. <b>IMFFinalizableMediaSink</b> also has these types of members:
 
 ## -remarks
 

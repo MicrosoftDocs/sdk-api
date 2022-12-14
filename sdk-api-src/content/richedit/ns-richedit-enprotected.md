@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains information associated with an <a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a> notification code. A rich edit control sends this notification when the user attempts to edit protected text.
+Contains information associated with an [EN_PROTECTED](/windows/win32/controls/en-protected) notification code. A rich edit control sends this notification when the user attempts to edit protected text.
 
 ## -struct-fields
 
@@ -65,19 +65,19 @@ Type: <b><a href="/windows/win32/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 ### -field msg
 
-Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/win32/WinProg/windows-data-types">UINT</a></b>
 
 Message that triggered the notification.
 
 ### -field wParam
 
-Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WPARAM</a></b>
+Type: <b><a href="/windows/win32/WinProg/windows-data-types">WPARAM</a></b>
 
 The <b>wParam</b> parameter of the message.
 
 ### -field lParam
 
-Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/win32/WinProg/windows-data-types">LPARAM</a></b>
 
 The <b>lParam</b> parameter of the message.
 
@@ -89,4 +89,4 @@ The current selection.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a>
+[EN_PROTECTED](/windows/win32/controls/en-protected)

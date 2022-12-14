@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.author: windowssdkdev
 ms.date: 10/21/2019
 ms.keywords: _NL_NETWORK_CONNECTIVITY_LEVEL_HINT, NL_NETWORK_CONNECTIVITY_LEVEL_HINT
-ms.topic: enum
 req.header: nldef.h
 req.include-header: iphlpapi.h
 req.target-type: Windows
@@ -53,7 +52,7 @@ Defines constants that specify hints about a level of network connectivity.
 
 ## -enum-fields
 
-### -field NetworkConnectivityLevelHintUnknown
+### -field NetworkConnectivityLevelHintUnknown:0
 
 Specifies a hint for an unknown level of connectivity. There is a short window of time during Windows (or application container) boot when this value might be returned.
 

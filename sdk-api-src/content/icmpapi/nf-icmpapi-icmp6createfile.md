@@ -53,7 +53,7 @@ api_name:
 The 
 <b>Icmp6CreateFile</b> function opens a handle on which IPv6 ICMP echo requests can be issued.
 
-## -parameters
+
 
 ## -returns
 

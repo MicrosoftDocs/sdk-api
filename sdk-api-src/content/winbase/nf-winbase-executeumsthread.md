@@ -44,6 +44,7 @@ api_location:
  - API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
  - ExecuteUmsThread
+req.apiset: api-ms-win-core-ums-l1-1-0 (introduced in Windows 7)
 ---
 
 # ExecuteUmsThread function
@@ -52,6 +53,9 @@ api_name:
 ## -description
 
 Runs the specified UMS worker thread.
+
+> [!WARNING]
+> As of Windows 11, user-mode scheduling is not supported. All calls fail with the error `ERROR_NOT_SUPPORTED`.
 
 ## -parameters
 
@@ -80,6 +84,14 @@ If the function fails, the return value is zero. To get extended error informati
 The specified UMS worker thread is temporarily locked by the system. The caller can retry the operation.
 
 </td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_SUPPORTED</b></dt>
+</dl>
+</td>
+<td width="60%">UMS is not supported.</td>
 </tr>
 </table>
 

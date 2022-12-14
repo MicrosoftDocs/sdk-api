@@ -90,8 +90,17 @@ Each process has a single current directory made up of two parts:
 <li>A disk designator that is either a drive letter followed by a colon, or a server name and share name (&#92;&#92;<i>servername</i>&#92;<i>sharename</i>)</li>
 <li>A directory on the disk designator</li>
 </ul>
-Multithreaded applications and shared library code should not use the   
-    <b>SetCurrentDirectory</b> function and should avoid using relative path names. The current directory state written by the <b>SetCurrentDirectory</b> function is stored as a global variable in each process, therefore multithreaded applications cannot reliably use this value without possible data corruption from other threads that may also be reading or setting this value. This limitation also applies to the <a href="/windows/desktop/api/winbase/nf-winbase-getcurrentdirectory">GetCurrentDirectory</a> and <a href="/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a> functions. The exception being when the application is guaranteed to be running in a single thread, for example parsing file names from the command line argument string in the main thread prior to creating any additional threads. Using relative path names in multithreaded applications or shared library code can yield unpredictable results and is not supported.
+
+The current directory is shared by all threads of the process:
+If one thread changes the current directory, it affects all threads
+in the process.
+Multithreaded applications and shared library code should avoid
+calling the <b>SetCurrentDirectory</b> function due to the risk of
+affecting relative path calculations being performed by other threads.
+Conversely,
+multithreaded applications and shared library code should avoid
+using relative paths so that they are unaffected by changes to the
+current directory performed by other threads.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 

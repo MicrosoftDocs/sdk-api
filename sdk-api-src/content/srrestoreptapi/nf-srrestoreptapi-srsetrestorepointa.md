@@ -1,7 +1,7 @@
 ---
 UID: NF:srrestoreptapi.SRSetRestorePointA
 title: SRSetRestorePointA function (srrestoreptapi.h)
-description: Specifies the beginning and the ending of a set of changes so that System Restore can create a restore point.
+description: Specifies the beginning and the ending of a set of changes so that System Restore can create a restore point. (ANSI)
 helpviewer_keywords: ["SRSetRestorePoint","SRSetRestorePoint function [System Restore]","SRSetRestorePointA","SRSetRestorePointW","_sr_srsetrestorepoint","sr.srsetrestorepoint","srrestoreptapi/SRSetRestorePoint","srrestoreptapi/SRSetRestorePointA","srrestoreptapi/SRSetRestorePointW"]
 old-location: sr\srsetrestorepoint.htm
 tech.root: sr

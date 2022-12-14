@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupCopyErrorW
 title: SetupCopyErrorW function (setupapi.h)
-description: The SetupCopyError function generates a dialog box to notify a user of a copy file error.
+description: The SetupCopyError function generates a dialog box to notify a user of a copy file error. (Unicode)
 helpviewer_keywords: ["SetupCopyError","SetupCopyError function [Setup API]","SetupCopyErrorA","SetupCopyErrorW","_setupapi_setupcopyerror","setup.setupcopyerror","setupapi/SetupCopyError","setupapi/SetupCopyErrorA","setupapi/SetupCopyErrorW"]
 old-location: setup\setupcopyerror.htm
 tech.root: setup

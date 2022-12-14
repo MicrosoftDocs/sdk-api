@@ -1,7 +1,7 @@
 ---
 UID: NS:rpcdce.__unnamed_struct_4
 title: RPC_ENDPOINT_TEMPLATEA (rpcdce.h)
-description: Specifies the properties of an RPC interface group server endpoint, including protocol sequence and name.
+description: Specifies the properties of an RPC interface group server endpoint, including protocol sequence and name. (RPC_ENDPOINT_TEMPLATEA)
 helpviewer_keywords: ["*PRPC_ENDPOINT_TEMPLATEA","PRPC_ENDPOINT_TEMPLATE","PRPC_ENDPOINT_TEMPLATE structure pointer [RPC]","RPC_ENDPOINT_TEMPLATE","RPC_ENDPOINT_TEMPLATE structure [RPC]","RPC_ENDPOINT_TEMPLATEA","RPC_ENDPOINT_TEMPLATEW","rpc.rpc_endpoint_template","rpcdce/PRPC_ENDPOINT_TEMPLATE","rpcdce/RPC_ENDPOINT_TEMPLATE","rpcdce/RPC_ENDPOINT_TEMPLATEA","rpcdce/RPC_ENDPOINT_TEMPLATEW"]
 old-location: rpc\rpc_endpoint_template.htm
 tech.root: Rpc
@@ -76,7 +76,7 @@ Pointer to an optional parameter provided for the security subsystem. Used only 
 
 ### -field Backlog
 
-Backlog queue length for the <a href="/windows/desktop/Rpc/protocol-sequence-constants">ncacn_ip_tcp</a> protocol sequence. All other protocol sequences ignore this parameter. Use <b>RPC_C_PROTSEQ_MAX_REQS_DEFAULT</b> to specify the default value.  See Remarks for more informatation.
+Backlog queue length for the <a href="/windows/desktop/Rpc/protocol-sequence-constants">ncacn_ip_tcp</a> protocol sequence. All other protocol sequences ignore this parameter. Use <b>RPC_C_PROTSEQ_MAX_REQS_DEFAULT</b> to specify the default value.  See Remarks for more information.
 
 ## -remarks
 

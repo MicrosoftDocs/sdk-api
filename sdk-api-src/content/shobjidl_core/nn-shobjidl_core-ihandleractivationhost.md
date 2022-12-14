@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IHandlerActivationHost
 title: IHandlerActivationHost (shobjidl_core.h)
-description: .
+description: . (IHandlerActivationHost)
 helpviewer_keywords: ["IHandlerActivationHost","IHandlerActivationHost interface [Windows Shell]","IHandlerActivationHost interface [Windows Shell]","described","shell.IHandlerActivationHost","shobjidl_core/IHandlerActivationHost"]
 old-location: shell\IHandlerActivationHost.htm
 tech.root: shell
@@ -54,32 +54,7 @@ Enables a client of Shell item activation (including callers of [ShellExecuteEx]
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHandlerActivationHost</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHandlerActivationHost</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IHandlerActivationHost</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ihandleractivationhost-beforecocreateinstance">BeforeCoCreateInstance</a>
-</td>
-<td align="left" width="63%">Notifies a client of <a href="/windows/win32/api/shellapi/nf-shellapi-shellexecuteexw">ShellExecuteEx</a> that a handler is about to be created, giving that client the opportunity to display UI confirming the use of that handler or reject it by returning a specific error code.</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ihandleractivationhost-beforecreateprocess">BeforeCreateProcess</a>
-</td>
-<td align="left" width="63%">Notifies a client of <a href="/windows/win32/api/shellapi/nf-shellapi-shellexecuteexw">ShellExecuteEx</a> that a process is about to created, giving that client the opportunity to display UI confirming that or reject it by returning a specific error code.</td>
-</tr>
-</table>
+The <b>IHandlerActivationHost</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHandlerActivationHost</b> also has these types of members:
 
 ## -remarks
 

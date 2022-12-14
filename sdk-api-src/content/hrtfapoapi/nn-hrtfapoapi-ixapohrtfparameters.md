@@ -54,56 +54,7 @@ The interface used to set parameters that control how head-related transfer func
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXAPOHrtfParameters</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXAPOHrtfParameters</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IXAPOHrtfParameters</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setenvironment">SetEnvironment</a>
-</td>
-<td align="left" width="63%">
-Selects the acoustic environment to simulate.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setsourcegain">SetSourceGain</a>
-</td>
-<td align="left" width="63%">
-Sets the custom direct-path gain value for the current source position. Valid only for sounds played with the HrtfDistanceDecayType custom decay type.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setsourceorientation">SetSourceOrientation</a>
-</td>
-<td align="left" width="63%">
-Set the rotation matrix for the source orientation, with respect to the listener's coordinate system.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setsourceposition">SetSourcePosition</a>
-</td>
-<td align="left" width="63%">
-Sets the position of the sound relative to the listener.
-
-</td>
-</tr>
-</table>
+The <b>IXAPOHrtfParameters</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXAPOHrtfParameters</b> also has these types of members:
 
 ## -remarks
 

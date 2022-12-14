@@ -61,53 +61,5 @@ If the number of pins on the filter changes, some methods on this interface retu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumPins</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumPins</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IEnumPins</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumPins</b> also has these types of members:
 
-## -members
-
-The <b>IEnumPins</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ienumpins-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Makes a copy of the enumerator with the same enumeration state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ienumpins-next">Next</a>
-</td>
-<td align="left" width="63%">
-Retrieves a specified number of pins.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ienumpins-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumeration sequence to the beginning.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ienumpins-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips over a specified number of pins.
-
-</td>
-</tr>
-</table>

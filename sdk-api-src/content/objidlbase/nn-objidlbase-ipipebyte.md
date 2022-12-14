@@ -1,12 +1,12 @@
 ---
 UID: NN:objidlbase.IPipeByte
 title: IPipeByte (objidlbase.h)
-description: Transfers data of the byte type (which is 8 bits wide).
+description: The IPipeByte (objidlbase.h) interface transfers data of the byte type (which is 8 bits wide).
 helpviewer_keywords: ["IPipeByte","IPipeByte interface [COM]","IPipeByte interface [COM]","described","_com_ipipebyte","com.ipipebyte","objidlbase/IPipeByte"]
 old-location: com\ipipebyte.htm
 tech.root: com
 ms.assetid: e3e01280-c015-488a-8be4-9740c44c0041
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IPipeByte, IPipeByte interface [COM], IPipeByte interface [COM],described, _com_ipipebyte, com.ipipebyte, objidlbase/IPipeByte
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
@@ -54,38 +54,7 @@ Transfers data of the byte type (which is 8 bits wide).
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPipeByte</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPipeByte</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPipeByte</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ipipebyte-pull">Pull</a>
-</td>
-<td align="left" width="63%">
-Retrieves data of the byte type from the pipe source.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ipipebyte-push">Push</a>
-</td>
-<td align="left" width="63%">
-Sends data of the byte type to the pipe source.
-
-</td>
-</tr>
-</table>
+The <b>IPipeByte</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPipeByte</b> also has these types of members:
 
 ## -remarks
 

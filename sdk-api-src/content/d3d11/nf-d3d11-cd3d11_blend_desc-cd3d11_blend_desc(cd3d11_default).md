@@ -55,7 +55,7 @@ Instantiates a new instance of a <a href="/windows/desktop/api/d3d11/ns-d3d11-cd
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 TBD
 

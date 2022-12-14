@@ -54,7 +54,7 @@ The
 <b>StopSubStream</b> method stops the substream. For additional information, see 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstream-stopstream">ITStream::StopStream</a>.
 
-## -parameters
+
 
 ## -returns
 

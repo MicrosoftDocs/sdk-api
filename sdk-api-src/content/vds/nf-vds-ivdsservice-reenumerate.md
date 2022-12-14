@@ -55,7 +55,7 @@ api_name:
 
 Discovers newly added and newly removed disks.
 
-## -parameters
+
 
 ## -returns
 

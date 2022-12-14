@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.SetFirmwareEnvironmentVariableW
 title: SetFirmwareEnvironmentVariableW function (winbase.h)
-description: Sets the value of the specified firmware environment variable.
+description: Sets the value of the specified firmware environment variable. (Unicode)
 helpviewer_keywords: ["SetFirmwareEnvironmentVariable","SetFirmwareEnvironmentVariable function","SetFirmwareEnvironmentVariableA","SetFirmwareEnvironmentVariableW","base.setfirmwareenvironmentvariable","winbase/SetFirmwareEnvironmentVariable","winbase/SetFirmwareEnvironmentVariableA","winbase/SetFirmwareEnvironmentVariableW"]
 old-location: base\setfirmwareenvironmentvariable.htm
 tech.root: winprog
@@ -84,7 +84,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -remarks
 
-Starting with Windows 10, version 1803, Universal Windows apps can read and write UEFI firmware variables. See <a href="/windows/desktop/SysInfo/access-uefi-firmware-variables-from-a-universal-windows-app">Access UEFI firmware variables from a Universal Windows App</a>for details.
+Starting with Windows 10, version 1803, Universal Windows apps can read and write UEFI firmware variables. See <a href="/windows/desktop/SysInfo/access-uefi-firmware-variables-from-a-universal-windows-app">Access UEFI firmware variables from a Universal Windows App</a> for details.
 
 Starting with Windows 10, version 1803, reading UEFI firmware variables is also supported from User-Mode Driver Framework (UMDF) drivers. Writing UEFI firmware variables from UMDF drivers is not supported.
 

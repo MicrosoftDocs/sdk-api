@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device8.CreatePlacedResource1
 title: ID3D12Device8::CreatePlacedResource1
-description: Creates a resource that is placed in a specific heap. Placed resources are the lightest weight resource objects available, and are the fastest to create and destroy.
+description: Creates a resource that is placed in a specific heap. Placed resources are the lightest weight resource objects available, and are the fastest to create and destroy. (ID3D12Device8::CreatePlacedResource1)
 helpviewer_keywords: ["ID3D12Device8 interface","CreatePlacedResource1 method","ID3D12Device8.CreatePlacedResource1","ID3D12Device8::CreatePlacedResource1","CreatePlacedResource1","CreatePlacedResource1 method","CreatePlacedResource1 method","ID3D12Device8 interface","direct3d12.id3d12device7_createplacedresource1","d3d12/ID3D12Device8::CreatePlacedResource1"]
 tech.root: direct3d12
 ms.date: 09/16/2020
@@ -19,8 +19,8 @@ req.lib: d3d12.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -108,7 +108,7 @@ This method returns **E_OUTOFMEMORY** if there is insufficient memory to create 
 
 ## -remarks
 
-See [ID3D12Device::CreatePlacedResource](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createplacedresource).
+See [ID3D12Device::CreatePlacedResource](./nf-d3d12-id3d12device-createplacedresource.md).
 
 ## -see-also
 

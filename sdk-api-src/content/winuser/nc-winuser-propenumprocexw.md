@@ -1,7 +1,7 @@
 ---
 UID: NC:winuser.PROPENUMPROCEXW
 title: PROPENUMPROCEXW (winuser.h)
-description: Application-defined callback function used with the EnumPropsEx function.
+description: Application-defined callback function used with the EnumPropsEx function. (Unicode)
 helpviewer_keywords: ["PropEnumProcEx","PropEnumProcEx callback","PropEnumProcEx callback function [Windows and Messages]","PropEnumProcExA","PropEnumProcExW","_win32_PropEnumProcEx","_win32_propenumprocex_cpp","winmsg.propenumprocex","winui._win32_propenumprocex","winuser/PropEnumProcEx","winuser/PropEnumProcExA","winuser/PropEnumProcExW"]
 old-location: winmsg\propenumprocex.htm
 tech.root: winmsg
@@ -56,25 +56,25 @@ Application-defined callback function used with the <a href="/windows/desktop/ap
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Type: <b>HWND</b>
 
 A handle to the window whose property list is being enumerated.
 
-### -param Arg2
+### -param unnamedParam2
 
 Type: <b>LPTSTR</b>
 
 The string component of a property list entry. This is the string that was specified, along with a data handle, when the property was added to the window's property list via a call to the <a href="/windows/desktop/api/winuser/nf-winuser-setpropa">SetProp</a> function.
 
-### -param Arg3
+### -param unnamedParam3
 
 Type: <b>HANDLE</b>
 
 A  handle to the data. This handle is the data component of a property list entry.
 
-### -param Arg4
+### -param unnamedParam4
 
 Type: <b>ULONG_PTR</b>
 

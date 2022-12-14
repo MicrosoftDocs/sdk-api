@@ -1,7 +1,7 @@
 ---
 UID: NF:winver.GetFileVersionInfoExA
 title: GetFileVersionInfoExA function (winver.h)
-description: Retrieves version information for the specified file.
+description: Retrieves version information for the specified file. (GetFileVersionInfoExA)
 helpviewer_keywords: ["FILE_VER_GET_LOCALISED","FILE_VER_GET_NEUTRAL","FILE_VER_GET_PREFETCHED","GetFileVersionInfoEx","GetFileVersionInfoEx function [Menus and Other Resources]","GetFileVersionInfoExA","GetFileVersionInfoExW","_win32_GetFileVersionInfoEx","_win32_getfileversioninfoex_cpp","menurc.getfileversioninfoex","winui._win32_getfileversioninfoex","winver/GetFileVersionInfoEx","winver/GetFileVersionInfoExA","winver/GetFileVersionInfoExW"]
 old-location: menurc\getfileversioninfoex.htm
 tech.root: menurc

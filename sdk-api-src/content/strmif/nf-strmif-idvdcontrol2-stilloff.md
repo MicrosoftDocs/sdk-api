@@ -53,7 +53,7 @@ api_name:
 
 The <code>StillOff</code> method resumes playback, canceling still mode.
 
-## -parameters
+
 
 ## -returns
 

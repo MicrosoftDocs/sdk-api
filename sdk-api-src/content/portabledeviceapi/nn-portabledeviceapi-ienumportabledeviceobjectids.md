@@ -55,67 +55,7 @@ The <b>IEnumPortableDeviceObjectIDs</b> interface enumerates the objects on a po
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumPortableDeviceObjectIDs</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumPortableDeviceObjectIDs</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IEnumPortableDeviceObjectIDs</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-ienumportabledeviceobjectids-cancel">Cancel</a>
-</td>
-<td align="left" width="63%">
-Cancels a pending operation on the interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-ienumportabledeviceobjectids-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Duplicates the current <b>IEnumPortableDeviceObjectIDs</b> interface.
-
-<b>Not implemented in this release.</b>
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-ienumportabledeviceobjectids-next">Next</a>
-</td>
-<td align="left" width="63%">
-Retrieves the next one or more object IDs in the enumeration sequence.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-ienumportabledeviceobjectids-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumeration sequence to the beginning.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-ienumportabledeviceobjectids-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips a specified number of objects in the enumeration sequence.
-
-</td>
-</tr>
-</table>
+The <b>IEnumPortableDeviceObjectIDs</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumPortableDeviceObjectIDs</b> also has these types of members:
 
 ## -see-also
 

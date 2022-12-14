@@ -52,7 +52,7 @@ api_name:
 
 Opens a new document.
 
-## -parameters
+
 
 ## -returns
 

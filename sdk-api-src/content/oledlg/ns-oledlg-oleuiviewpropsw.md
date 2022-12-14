@@ -1,7 +1,7 @@
 ---
 UID: NS:oledlg.tagOLEUIVIEWPROPSW
 title: OLEUIVIEWPROPSW (oledlg.h)
-description: Contains information that is used to initialize the View tab of the Object properties dialog box.
+description: Contains information that is used to initialize the View tab of the Object properties dialog box. (Unicode)
 helpviewer_keywords: ["*LPOLEUIVIEWPROPSW","*POLEUIVIEWPROPSW","LPOLEUIVIEWPROPS","LPOLEUIVIEWPROPS structure pointer [COM]","OLEUIVIEWPROPS","OLEUIVIEWPROPS structure [COM]","OLEUIVIEWPROPSA","OLEUIVIEWPROPSW","POLEUIVIEWPROPS","POLEUIVIEWPROPS structure pointer [COM]","VPF_DISABLERELATIVE","VPF_DISABLESCALE","VPF_SELECTRELATIVE","_ole_OLEUIVIEWPROPS","com.oleuiviewprops_struct","oledlg/LPOLEUIVIEWPROPS","oledlg/OLEUIVIEWPROPS","oledlg/OLEUIVIEWPROPSA","oledlg/OLEUIVIEWPROPSW","oledlg/POLEUIVIEWPROPS"]
 old-location: com\oleuiviewprops_struct.htm
 tech.root: com

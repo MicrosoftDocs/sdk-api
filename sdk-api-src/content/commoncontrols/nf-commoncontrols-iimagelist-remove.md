@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList.Remove
 title: IImageList::Remove (commoncontrols.h)
-description: Removes an image from an image list.
+description: Removes an image from an image list. (IImageList.Remove)
 helpviewer_keywords: ["IImageList interface [Windows Controls]","Remove method","IImageList.Remove","IImageList::Remove","Remove","Remove method [Windows Controls]","Remove method [Windows Controls]","IImageList interface","comctl_IImageList_Remove","comctl_IImageList_Remove_cpp","commoncontrols/IImageList::Remove","controls.IImageList_Remove","controls.comctl_IImageList_Remove"]
 old-location: controls\IImageList_Remove.htm
 tech.root: Controls
@@ -64,7 +64,7 @@ A value of type <b>int</b>  that contains the index of the image to remove. If t
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

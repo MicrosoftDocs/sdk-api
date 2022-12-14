@@ -1,12 +1,12 @@
 ---
 UID: NS:setupapi._SP_DEVINSTALL_PARAMS_A
 title: SP_DEVINSTALL_PARAMS_A (setupapi.h)
-description: An SP_DEVINSTALL_PARAMS structure contains device installation parameters associated with a particular device information element or associated globally with a device information set.
+description: An SP_DEVINSTALL_PARAMS structure contains device installation parameters associated with a particular device information element or associated globally with a device information set. (ANSI)
 helpviewer_keywords: ["*PSP_DEVINSTALL_PARAMS_A","PSP_DEVINSTALL_PARAMS","PSP_DEVINSTALL_PARAMS structure pointer [Device and Driver Installation]","SP_DEVINSTALL_PARAMS","SP_DEVINSTALL_PARAMS structure [Device and Driver Installation]","SP_DEVINSTALL_PARAMS_A","devinst.sp_devinstall_params","di-struct_ef7906d1-6416-41fc-8844-53f2f594a913.xml","setupapi/PSP_DEVINSTALL_PARAMS","setupapi/SP_DEVINSTALL_PARAMS"]
 old-location: devinst\sp_devinstall_params.htm
 tech.root: devinst
 ms.assetid: 1bd21150-f8f4-480d-a4b2-99fa4b4233b9
-ms.date: 12/05/2018
+ms.date: 10/26/2021
 ms.keywords: '*PSP_DEVINSTALL_PARAMS_A, PSP_DEVINSTALL_PARAMS, PSP_DEVINSTALL_PARAMS structure pointer [Device and Driver Installation], SP_DEVINSTALL_PARAMS, SP_DEVINSTALL_PARAMS structure [Device and Driver Installation], SP_DEVINSTALL_PARAMS_A, devinst.sp_devinstall_params, di-struct_ef7906d1-6416-41fc-8844-53f2f594a913.xml, setupapi/PSP_DEVINSTALL_PARAMS, setupapi/SP_DEVINSTALL_PARAMS'
 req.header: setupapi.h
 req.include-header: Setupapi.h
@@ -226,7 +226,7 @@ This flag is read-only. Only the operating system sets this flag.
 
 #### DI_MULTMFGS
 
-Set by <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdibuilddriverinfolist">SetupDiBuildDriverInfoList</a> if a list of drivers for a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> contains drivers that are provided by multiple manufacturers.
+Set by <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdibuilddriverinfolist">SetupDiBuildDriverInfoList</a> if a list of drivers for a <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> contains drivers that are provided by multiple manufacturers.
 
 This flag is read-only. Only the operating system sets this flag.
 
@@ -316,6 +316,12 @@ If set, <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdibuildclassinfo
 
 
 
+#### DI_FLAGSEX_FINISHINSTALL_ACTION
+
+(Windows Vista and later.) See <a href="/windows-hardware/drivers/install/setting-the-configflag-finishinstall-action-device-configuration-flag">Marking a Device as having a Finish-Install Action to Perform</a> for more information.
+
+
+
 #### DI_FLAGSEX_INET_DRIVER
 
 If set, the driver was obtained from the Internet. Windows will not use the device's INF to install future devices because Windows cannot guarantee that it can retrieve the driver files again from the Internet.
@@ -325,6 +331,12 @@ If set, the driver was obtained from the Internet. Windows will not use the devi
 #### DI_FLAGSEX_INSTALLEDDRIVER
 
 (Windows XP and later.) If set, <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdibuilddriverinfolist">SetupDiBuildDriverInfoList</a> includes only the currently installed driver when creating a list of class drivers or device-compatible drivers.
+
+
+
+#### DI_FLAGSEX_NO_CLASSLIST_NODE_MERGE
+
+(Windows XP and later.) If set, when creating a list of class drivers, <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdibuilddriverinfolist">SetupDiBuildDriverInfoList</a> will not merge nodes in the driver list that are from the same INF and have the same driver description and rank.
 
 
 
@@ -345,6 +357,18 @@ If set, an installer added their own page for the power properties dialog. The o
 If set, the user made changes to one or more device property sheets. The property-page provider typically sets this flag.
 
 When the user closes the device property sheet, Device Manager checks the DI_FLAGSEX_PROPCHANGE_PENDING flag. If it is set, Device Manager clears this flag, sets the DI_PROPERTIES_CHANGE flag, and sends a DIF_PROPERTYCHANGE request to the installers to notify them that something has changed.
+
+
+
+#### DI_FLAGSEX_RECURSIVESEARCH
+
+(Windows Vista and later.) If set, when <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdibuilddriverinfolist">SetupDiBuildDriverInfoList</a> searches for INFs in the path specified in the <i>DriverPath</i> value, the search will be recursive.
+
+
+
+#### DI_FLAGSEX_SEARCH_PUBLISHED_INFS
+
+(Windows Vista and later.) If set, when <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdibuilddriverinfolist">SetupDiBuildDriverInfoList</a> is used to search for INFs without an INF path or search path specified, this restricts the search to only INFs that have been imported into the Driver Store.
 
 
 
@@ -386,7 +410,9 @@ Windows has built a list of driver nodes that includes all the drivers that are 
 
 If set, installation is occurring during initial system setup. This flag is read-only.
 
-The following flags are reserved:
+The following flags are reserved and should not be used:
+
+DI_FLAGSEX_ALTPLATFORM_DRVSEARCH
 
 DI_FLAGSEX_BACKUPONREPLACE 
 
@@ -395,6 +421,8 @@ DI_FLAGSEX_DEVICECHANGE
 DI_FLAGSEX_OLDINF_IN_CLASSLIST 
 
 DI_FLAGSEX_PREINSTALLBACKUP 
+
+DI_FLAGSEX_RESTART_DEVICE_ONLY
 
 DI_FLAGSEX_USEOLDINFSEARCH 
 

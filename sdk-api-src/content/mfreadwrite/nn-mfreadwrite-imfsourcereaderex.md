@@ -56,56 +56,7 @@ The <a href="/windows/desktop/medfound/source-reader">Source Reader</a> implemen
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSourceReaderEx</b> interface inherits from <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>. <b>IMFSourceReaderEx</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFSourceReaderEx</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereaderex-addtransformforstream">AddTransformForStream</a>
-</td>
-<td align="left" width="63%">
-Adds a transform, such as an audio or video effect, to a stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereaderex-gettransformforstream">GetTransformForStream</a>
-</td>
-<td align="left" width="63%">
-Gets a pointer to a Media Foundation transform (MFT) for a specified stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereaderex-removealltransformsforstream">RemoveAllTransformsForStream</a>
-</td>
-<td align="left" width="63%">
-Removes all of the Media Foundation transforms (MFTs) for a specified stream, with the exception of the decoder.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereaderex-setnativemediatype">SetNativeMediaType</a>
-</td>
-<td align="left" width="63%">
-Sets the native media type for a stream on the media source.
-
-</td>
-</tr>
-</table>
+The <b>IMFSourceReaderEx</b> interface inherits from <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>. <b>IMFSourceReaderEx</b> also has these types of members:
 
 ## -see-also
 

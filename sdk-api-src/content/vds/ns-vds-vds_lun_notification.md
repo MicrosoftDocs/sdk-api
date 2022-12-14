@@ -1,12 +1,12 @@
 ---
 UID: NS:vds._VDS_LUN_NOTIFICATION
 title: VDS_LUN_NOTIFICATION (vds.h)
-description: Defines the details of a LUN notification.
+description: The VDS_LUN_NOTIFICATION structure (vds.h) defines the details of a LUN notification.
 helpviewer_keywords: ["VDS_LUN_NOTIFICATION","VDS_LUN_NOTIFICATION structure [VDS]","VDS_NF_LUN_ARRIVE","VDS_NF_LUN_DEPART","VDS_NF_LUN_MODIFY","base.vds_lun_notification","vds/_VDS_LUN_NOTIFICATION","vdshwprv/_VDS_LUN_NOTIFICATION"]
 old-location: base\vds_lun_notification.htm
 tech.root: base
 ms.assetid: 42b71b32-337e-4352-b4b3-6af2caad86e5
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_LUN_NOTIFICATION, VDS_LUN_NOTIFICATION structure [VDS], VDS_NF_LUN_ARRIVE, VDS_NF_LUN_DEPART, VDS_NF_LUN_MODIFY, base.vds_lun_notification, vds/_VDS_LUN_NOTIFICATION, vdshwprv/_VDS_LUN_NOTIFICATION
 req.header: vds.h
 req.include-header: 
@@ -102,7 +102,7 @@ An existing LUN has been deleted.
 <td width="60%">
 A member was changed in the <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_prop">VDS_LUN_PROP</a> 
        structure for an external LUN. Examples of changes that trigger this notification include changes to the 
-        <b>VDS_LUN_PROP</b>structure and the addition of a plex to 
+       <b>VDS_LUN_PROP</b> structure and the addition of a plex to 
         the LUN. Applications are responsible for determining the precise nature of the change.
 
 </td>

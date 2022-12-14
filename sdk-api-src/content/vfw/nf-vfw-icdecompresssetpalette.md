@@ -60,7 +60,7 @@ Handle to a decompressor.
 
 ### -param lpbiPalette
 
-Pointer to a <a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure whose color table contains the colors that should be used if possible. You can specify zero to use the default set of output colors.
+Pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure whose color table contains the colors that should be used if possible. You can specify zero to use the default set of output colors.
 
 ## -remarks
 

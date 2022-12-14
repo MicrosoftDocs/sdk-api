@@ -168,7 +168,9 @@ You typically call <b>BindToObject</b> during the following process:
 </ol>
 The following code fragment illustrates these steps.
 
-<pre class="syntax" xml:space="preserve"><code>HRESULT hr;       // An error code
+
+``` syntax
+HRESULT hr;       // An error code
 IMoniker * pMnk;  // A previously acquired interface moniker
 
 // Obtain an IBindCtx interface.
@@ -186,13 +188,15 @@ if (FAILED(hr)) exit(0);  // Handle errors here.
 // Release interfaces after use. 
 pbc-&gt;Release(); 
 pCellRange-&gt;Release(); 
-</code></pre>
+
+```
+
 You can also use the <a href="/windows/desktop/api/objbase/nf-objbase-bindmoniker">BindMoniker</a> function when you intend only one binding operation and don't need to retain the bind context object. This helper function encapsulates the creation of the bind context, calling <b>BindToObject</b> and releasing the bind context.
 
 COM containers that support links to objects use monikers to locate and get access to the linked object but typically do not call <b>BindToObject</b> directly. Instead, when a user activates a link in a container, the link container usually calls <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-doverb">IOleObject::DoVerb</a>, using the link handler's implementation, which calls <b>BindToObject</b> on the moniker stored in the linked object (if it cannot handle the verb).
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-What your implementation does depends on whether you expect your moniker to have a prefixâ€”that is, whether you expect the <i>pmkToLeft</i> parameter to be <b>NULL</b> or not. For example, an item moniker, which identifies an object within a container, expects that <i>pmkToLeft</i> identifies the container. An item moniker consequently uses <i>pmkToLeft</i> to request services from that container. If you expect your moniker to have a prefix, you should use the <i>pmkToLeft</i> parameter (for example, calling <b>BindToObject</b> on it) to request services from the object it identifies.
+What your implementation does depends on whether you expect your moniker to have a prefix; that is, whether you expect the <i>pmkToLeft</i> parameter to be <b>NULL</b> or not. For example, an item moniker, which identifies an object within a container, expects that <i>pmkToLeft</i> identifies the container. An item moniker consequently uses <i>pmkToLeft</i> to request services from that container. If you expect your moniker to have a prefix, you should use the <i>pmkToLeft</i> parameter (for example, calling <b>BindToObject</b> on it) to request services from the object it identifies.
 
 If you expect your moniker to have no prefix, your <b>BindToObject</b> implementation should first check the running object table (ROT) to see whether the object is already running. To acquire a pointer to the ROT, your implementation should call <a href="/windows/desktop/api/objidl/nf-objidl-ibindctx-getrunningobjecttable">IBindCtx::GetRunningObjectTable</a> on the <i>pbc</i> parameter. You can then call the <a href="/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-getobject">IRunningObjectTable::GetObject</a> method to see if the current moniker has been registered in the ROT. If so, you can immediately call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to get a pointer to the interface requested by the caller. 
 
@@ -280,15 +284,23 @@ The semantics of the bind operation for a URL moniker are identical regardless o
 <li>
 Next the moniker checks the ROT of the bind context to determine whether the referenced object is already running. The moniker can obtain this information with the following calls:
 
-<pre class="syntax" xml:space="preserve"><code>IBindCtx::GetRunningObjectTable(&amp;prot)
+
+``` syntax
+IBindCtx::GetRunningObjectTable(&amp;prot)
 prot-&gt;IsRunning(this)
-</code></pre>
+
+```
+
 </li>
 <li>
 If the object is already running, the moniker retrieves the running object with the following call:
 
-<pre class="syntax" xml:space="preserve"><code>prot-&gt;GetObject(this, &amp;punk)
-</code></pre>
+
+``` syntax
+prot-&gt;GetObject(this, &amp;punk)
+
+```
+
 </li>
 <li>
 Then the moniker calls <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for the requested interface.

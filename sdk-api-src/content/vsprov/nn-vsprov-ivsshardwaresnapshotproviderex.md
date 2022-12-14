@@ -56,56 +56,7 @@ Provides an additional method used by VSS to notify hardware providers of LUN st
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssHardwareSnapshotProviderEx</b> interface inherits from <a href="/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotprovider">IVssHardwareSnapshotProvider</a>. <b>IVssHardwareSnapshotProviderEx</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVssHardwareSnapshotProviderEx</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotproviderex-getprovidercapabilities">GetProviderCapabilities</a>
-</td>
-<td align="left" width="63%">
-This method is reserved for future use.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotproviderex-onlunstatechange">OnLunStateChange</a>
-</td>
-<td align="left" width="63%">
-The VSS service calls this method to notify hardware providers of a LUN state change.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotproviderex-onreuseluns">OnReuseLuns</a>
-</td>
-<td align="left" width="63%">
-This method is reserved for future use.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotproviderex-resyncluns">ResyncLuns</a>
-</td>
-<td align="left" width="63%">
-The VSS service calls this method to notify hardware providers that a LUN resynchronization is needed.
-
-</td>
-</tr>
-</table>
+The <b>IVssHardwareSnapshotProviderEx</b> interface inherits from <a href="/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotprovider">IVssHardwareSnapshotProvider</a>. <b>IVssHardwareSnapshotProviderEx</b> also has these types of members:
 
 ## -see-also
 

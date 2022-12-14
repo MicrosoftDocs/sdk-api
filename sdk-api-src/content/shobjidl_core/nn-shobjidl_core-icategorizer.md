@@ -54,53 +54,5 @@ Exposes methods that are used to obtain information about item identifier lists.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICategorizer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICategorizer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ICategorizer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICategorizer</b> also has these types of members:
 
-## -members
-
-The <b>ICategorizer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icategorizer-comparecategory">CompareCategory</a>
-</td>
-<td align="left" width="63%">
-Determines the relative order of two items in their item identifier lists, and hence in the UI.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icategorizer-getcategory">GetCategory</a>
-</td>
-<td align="left" width="63%">
-Gets a list of categories associated with a list of identifiers.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icategorizer-getcategoryinfo">GetCategoryInfo</a>
-</td>
-<td align="left" width="63%">
-Gets information about a category, such as the default display and the text to display in the UI.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icategorizer-getdescription">GetDescription</a>
-</td>
-<td align="left" width="63%">
-Gets the name of a categorizer, such as <i>Group By Device Type</i>, that can be displayed in the UI.
-
-</td>
-</tr>
-</table>

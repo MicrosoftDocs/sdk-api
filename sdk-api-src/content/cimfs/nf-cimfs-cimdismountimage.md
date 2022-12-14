@@ -1,11 +1,11 @@
 ---
 UID: NF:cimfs.CimDismountImage
 title: CimDismountImage
-ms.date: 9/9/2019
+description: The CimDismountImage function dismounts an image mounted with volumeId as the volume GUID.
+ms.date: 08/01/2022
+tech.root: cimfs
 ms.keywords: CimDismountImage
-ms.topic: language-reference
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -28,7 +28,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - cimfs.h
 api_name:
@@ -57,4 +56,3 @@ HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND) – The volume GUID specified does not 
 ## -remarks
 
 ## -see-also
-

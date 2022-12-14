@@ -4,7 +4,7 @@ title: IsWow64GuestMachineSupported function (wow64apiset.h)
 description: Determines which architectures are supported (under WOW64) on the given machine architecture.
 helpviewer_keywords: ["IsWow64GuestMachineSupported","IsWow64GuestMachineSupported function","base.iswow64guestmachinesupported","wow64apiset/IsWow64GuestMachineSupported"]
 old-location: base\iswow64guestmachinesupported.htm
-tech.root: winprog
+tech.root: fs
 ms.assetid: B6DAAE7A-21B0-475C-AC28-30E83B39F417
 ms.date: 12/05/2018
 ms.keywords: IsWow64GuestMachineSupported, IsWow64GuestMachineSupported function, base.iswow64guestmachinesupported, wow64apiset/IsWow64GuestMachineSupported
@@ -49,10 +49,7 @@ api_name:
 
 # IsWow64GuestMachineSupported function
 
-
 ## -description
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Determines which architectures are supported (under <a href="/windows/desktop/WinProg64/running-32-bit-applications">WOW64</a>) on the given machine architecture.
 

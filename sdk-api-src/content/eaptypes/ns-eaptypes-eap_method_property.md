@@ -64,9 +64,7 @@ An <a href="/windows/desktop/api/eaptypes/ne-eaptypes-eap_method_property_type">
 
 An <a href="/windows/desktop/api/eaptypes/ne-eaptypes-eap_method_property_value_type">EAP_METHOD_PROPERTY_VALUE_TYPE</a> enumeration value that describes the data type of the value specified in <b>eapMethodPropertyValue</b>.
 
-### -field eapMethodPropertyValue.switch_is
 
-### -field eapMethodPropertyValue.switch_is.eapMethodPropertyValueType
 
 ### -field eapMethodPropertyValue
 

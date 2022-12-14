@@ -1,7 +1,7 @@
 ---
 UID: NF:prsht.CreatePropertySheetPageA
 title: CreatePropertySheetPageA function (prsht.h)
-description: Creates a new page for a property sheet.
+description: Creates a new page for a property sheet. (ANSI)
 helpviewer_keywords: ["CreatePropertySheetPage","CreatePropertySheetPage function [Windows Controls]","CreatePropertySheetPageA","CreatePropertySheetPageW","_win32_CreatePropertySheetPage","_win32_CreatePropertySheetPage_cpp","controls.CreatePropertySheetPage","controls._win32_CreatePropertySheetPage","prsht/CreatePropertySheetPage","prsht/CreatePropertySheetPageA","prsht/CreatePropertySheetPageW"]
 old-location: controls\CreatePropertySheetPage.htm
 tech.root: Controls
@@ -46,6 +46,7 @@ api_name:
  - CreatePropertySheetPage
  - CreatePropertySheetPageA
  - CreatePropertySheetPageW
+req.apiset: ext-ms-win-shell-comctl32-window-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # CreatePropertySheetPageA function

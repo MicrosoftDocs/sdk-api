@@ -54,47 +54,7 @@ Extends the <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclie
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationTextRange3</b> interface inherits from <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextrange2">IUIAutomationTextRange2</a>. <b>IUIAutomationTextRange3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IUIAutomationTextRange3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextrange3-getattributevalues">GetAttributeValues</a>
-</td>
-<td align="left" width="63%">
-Returns all of the requested text attribute values for a text range in a single cross-process call.  This is equivalent to calling <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextrange-getattributevalue">GetAttributeValue</a>, except it can retrieve multiple values instead of just one.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextrange3-getchildrenbuildcache">GetChildrenBuildCache</a>
-</td>
-<td align="left" width="63%">
-Returns the children and supplied properties and patterns for elements in a text range in a single cross-process call.  This is equivalent to calling <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextrange-getchildren">GetChildren</a>, but adds the standard build cache pattern.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextrange3-getenclosingelementbuildcache">GetEnclosingElementBuildCache</a>
-</td>
-<td align="left" width="63%">
-Gets the enclosing element and supplied properties and patterns for an element in a text range in a single cross-process call.  This is equivalent to calling <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextrange-getenclosingelement">GetEnclosingElement</a>, but adds the standard build cache pattern.
-
-</td>
-</tr>
-</table>
+The <b>IUIAutomationTextRange3</b> interface inherits from <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextrange2">IUIAutomationTextRange2</a>. <b>IUIAutomationTextRange3</b> also has these types of members:
 
 ## -see-also
 

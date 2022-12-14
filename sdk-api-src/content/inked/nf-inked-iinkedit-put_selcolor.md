@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.put_SelColor
 title: IInkEdit::put_SelColor (inked.h)
-description: Gets or sets the text color of the current text selection or insertion point (run time only).
+description: Gets or sets the text color of the current text selection or insertion point (run time only). (Put)
 helpviewer_keywords: ["IInkEdit interface [Tablet PC]","SelColor property","IInkEdit.SelColor","IInkEdit.put_SelColor","IInkEdit::SelColor","IInkEdit::get_SelColor","IInkEdit::put_SelColor","InkEdit.get_SelColor","InkEdit.put_SelColor","SelColor property [Tablet PC]","SelColor property [Tablet PC]","IInkEdit interface","get_SelColor","inked/IInkEdit::SelColor","inked/IInkEdit::get_SelColor","inked/IInkEdit::put_SelColor","put_SelColor","tablet.inkedit_selcolor"]
 old-location: tablet\inkedit_selcolor.htm
 tech.root: tablet
@@ -68,7 +68,7 @@ If there is no text selected in the <a href="/windows/desktop/tablet/inkedit-con
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="../inked/nn-inked-iinkedit.md">IInkEdit</a>
 
 
 

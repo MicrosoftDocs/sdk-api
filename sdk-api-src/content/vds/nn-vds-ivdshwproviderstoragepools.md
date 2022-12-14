@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsHwProviderStoragePools
 title: IVdsHwProviderStoragePools (vds.h)
-description: Provides methods to create LUNs in a storage pool and enumerate the storage pools managed by a hardware provider.
+description: The IVdsHwProviderStoragePools interface (vds.h) provides methods to create LUNs in a storage pool and enumerate storage pools managed by a hardware provider.
 helpviewer_keywords: ["IVdsHwProviderStoragePools","IVdsHwProviderStoragePools interface","IVdsHwProviderStoragePools interface","described","base.ivdshwproviderstoragepools","vds/IVdsHwProviderStoragePools","vdshwprv/IVdsHwProviderStoragePools"]
 old-location: base\ivdshwproviderstoragepools.htm
 tech.root: base
 ms.assetid: c9db0e33-8cb1-41ba-8716-a8d70990fa3e
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsHwProviderStoragePools, IVdsHwProviderStoragePools interface, IVdsHwProviderStoragePools interface,described, base.ivdshwproviderstoragepools, vds/IVdsHwProviderStoragePools, vdshwprv/IVdsHwProviderStoragePools
 req.header: vds.h
 req.include-header: 
@@ -57,47 +57,7 @@ Provides methods to create LUNs in a <a href="/windows/desktop/VDS/storage-pool-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsHwProviderStoragePools</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsHwProviderStoragePools</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVdsHwProviderStoragePools</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwproviderstoragepools-createluninstoragepool">CreateLunInStoragePool</a>
-</td>
-<td align="left" width="63%">
-Creates a LUN in a storage pool.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwproviderstoragepools-querymaxluncreatesizeinstoragepool">QueryMaxLunCreateSizeInStoragePool</a>
-</td>
-<td align="left" width="63%">
-Returns the maximum size of the LUN that can be created in the storage pool based on the specified LUN type and hints.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwproviderstoragepools-querystoragepools">QueryStoragePools</a>
-</td>
-<td align="left" width="63%">
-Returns an <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ienumvdsobject">IEnumVdsObject</a> enumeration object containing a list of the storage pools managed by the hardware provider.
-
-</td>
-</tr>
-</table>
+The <b>IVdsHwProviderStoragePools</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsHwProviderStoragePools</b> also has these types of members:
 
 ## -see-also
 

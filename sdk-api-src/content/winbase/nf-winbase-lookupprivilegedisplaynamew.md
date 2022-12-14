@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.LookupPrivilegeDisplayNameW
 title: LookupPrivilegeDisplayNameW function (winbase.h)
-description: Retrieves the display name that represents a specified privilege.
+description: Retrieves the display name that represents a specified privilege. (Unicode)
 helpviewer_keywords: ["LookupPrivilegeDisplayName","LookupPrivilegeDisplayName function [Security]","LookupPrivilegeDisplayNameA","LookupPrivilegeDisplayNameW","_win32_lookupprivilegedisplayname","security.lookupprivilegedisplayname","winbase/LookupPrivilegeDisplayName","winbase/LookupPrivilegeDisplayNameA","winbase/LookupPrivilegeDisplayNameW"]
 old-location: security\lookupprivilegedisplayname.htm
 tech.root: security

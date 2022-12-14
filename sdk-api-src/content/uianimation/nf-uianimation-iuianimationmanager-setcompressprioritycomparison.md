@@ -58,8 +58,7 @@ Sets the priority comparison handler to be called to determine whether a schedul
 
 The priority comparison handler for compression.  
                
-               The specified object must implement the
-               <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationprioritycomparison">IUIAnimationPriorityComparison</a> interface or be <b>NULL</b>. See Remarks.
+The specified object must implement the <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationprioritycomparison">IUIAnimationPriorityComparison</a> interface or be <b>NULL</b>. See Remarks.
 
 ## -returns
 

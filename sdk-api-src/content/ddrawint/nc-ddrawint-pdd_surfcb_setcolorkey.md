@@ -51,7 +51,7 @@ The <i>DdSetColorKey</i> callback function sets the color key value for the spec
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_setcolorkeydata">DD_SETCOLORKEYDATA</a> structure that contains the information required to set the color key for the specified surface.
 

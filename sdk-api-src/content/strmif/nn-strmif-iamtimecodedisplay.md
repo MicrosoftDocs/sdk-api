@@ -63,53 +63,5 @@ See the <a href="/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMTimecodeDisplay</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMTimecodeDisplay</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAMTimecodeDisplay</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMTimecodeDisplay</b> also has these types of members:
 
-## -members
-
-The <b>IAMTimecodeDisplay</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodedisplay-gettcdisplay">GetTCDisplay</a>
-</td>
-<td align="left" width="63%">
-Retrieves current settings of the timecode character generator output.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodedisplay-gettcdisplayenable">GetTCDisplayEnable</a>
-</td>
-<td align="left" width="63%">
-Determines whether an external device's timecode character generator output is enabled or disabled.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodedisplay-settcdisplay">SetTCDisplay</a>
-</td>
-<td align="left" width="63%">
-Sets the timecode character generator output characteristics.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodedisplay-settcdisplayenable">SetTCDisplayEnable</a>
-</td>
-<td align="left" width="63%">
-Enables or disables an external device's timecode character output generator.
-
-</td>
-</tr>
-</table>

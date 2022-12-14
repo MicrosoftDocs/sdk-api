@@ -69,12 +69,12 @@ to get the number of descriptors for a particular record.
 
 ### -param ppDescriptor [out]
 
-Pointer to the <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-igenericdescriptor">IGenericDescriptor</a>interface for the object that contains the LDT. Use this interface to retrieve the information in the descriptor. 
+Pointer to the <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-igenericdescriptor">IGenericDescriptor</a> interface for the object that contains the LDT. Use this interface to retrieve the information in the descriptor. 
 The caller must release the interface.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

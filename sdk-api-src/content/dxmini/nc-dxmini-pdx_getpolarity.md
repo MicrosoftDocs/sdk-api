@@ -51,15 +51,15 @@ The<i> DxGetPolarity</i> callback function returns the polarity (even or odd) of
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to the miniport driver's device extension.
 
-### -param Arg2
+### -param unnamedParam2
 
 Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetpolarityininfo">DDGETPOLARITYININFO</a> structure that contains the VPE object from which to get the polarity information.
 
-### -param Arg3
+### -param unnamedParam3
 
 Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetpolarityoutinfo">DDGETPOLARITYOUTINFO</a> structure that contains the polarity information for the specified VPE object.
 

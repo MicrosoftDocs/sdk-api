@@ -54,65 +54,7 @@ Notifies the subscriber if a COM+ server application is loaded, shut down, or pa
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComApp2Events</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComApp2Events</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IComApp2Events</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomapp2events-onappactivation2">OnAppActivation2</a>
-</td>
-<td align="left" width="63%">
-Generated when the server application process is loaded.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomapp2events-onappforceshutdown2">OnAppForceShutdown2</a>
-</td>
-<td align="left" width="63%">
-Generated when the server application is forced to shut down.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomapp2events-onapppaused2">OnAppPaused2</a>
-</td>
-<td align="left" width="63%">
-Generated when the server application is paused or resumed to its initial state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomapp2events-onapprecycle2">OnAppRecycle2</a>
-</td>
-<td align="left" width="63%">
-Generated when the server application process is marked for recycling termination.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomapp2events-onappshutdown2">OnAppShutdown2</a>
-</td>
-<td align="left" width="63%">
-Generated when the server application shuts down.
-
-</td>
-</tr>
-</table>
+The <b>IComApp2Events</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComApp2Events</b> also has these types of members:
 
 ## -see-also
 

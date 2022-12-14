@@ -63,21 +63,21 @@ The
 
 
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Handle to the remote access connection of interest. An application obtains a RAS connection handle from the 
 <a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> or 
 <a href="/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a> function.
 
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Specifies the 
 <a href="/previous-versions/windows/desktop/legacy/aa377648(v=vs.85)">RASPROJECTION</a> enumerated type value that identifies the protocol of interest.
 					
 
 
-### -param arg3 [out]
+### -param unnamedParam3 [out]
 
 Pointer to a buffer that receives the information specified by the <i>rasprojection</i> parameter. The information is in a structure appropriate to the <i>rasprojection</i> value. 
 
@@ -202,7 +202,7 @@ Pointer to a buffer that receives the information specified by the <i>rasproject
  
 
 
-### -param arg4 [in, out]
+### -param unnamedParam4 [in, out]
 
 Pointer to a variable that, on input, specifies the size, in bytes, of the buffer pointed to by <i>lpprojection</i>. 
 

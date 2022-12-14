@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10shader._D3D10_SHADER_DESC
 title: D3D10_SHADER_DESC (d3d10shader.h)
-description: Describes a shader.
+description: Describes a shader. (D3D10_SHADER_DESC)
 helpviewer_keywords: ["4f0bd653-5cd1-26ff-b805-ecf9070b3990","D3D10_SHADER_DESC","D3D10_SHADER_DESC structure [Direct3D 10]","d3d10shader/D3D10_SHADER_DESC","direct3d10.d3d10_shader_desc"]
 old-location: direct3d10\d3d10_shader_desc.htm
 tech.root: direct3d10

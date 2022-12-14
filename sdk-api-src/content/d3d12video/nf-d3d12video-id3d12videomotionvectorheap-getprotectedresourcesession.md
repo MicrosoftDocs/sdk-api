@@ -2,7 +2,6 @@
 UID: NF:d3d12video.ID3D12VideoMotionVectorHeap.GetProtectedResourceSession
 title: ID3D12VideoMotionVectorHeap::GetProtectedResourceSession
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Gets the ID3D12ProtectedResourceSession that was passed into ID3D12VideoDevice1::CreateVideoMotionEstimatorHeap when the ID3D12VideoMotionEstimatorHeap was created.
 tech.root: mf

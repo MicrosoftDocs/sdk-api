@@ -1,7 +1,7 @@
 ---
 UID: NF:winnls.GetLocaleInfoA
 title: GetLocaleInfoA function (winnls.h)
-description: Retrieves information about a locale specified by identifier.
+description: Retrieves information about a locale specified by identifier. (ANSI)
 helpviewer_keywords: ["GetLocaleInfo","GetLocaleInfo function [Internationalization for Windows Applications]","GetLocaleInfoA","GetLocaleInfoW","_win32_GetLocaleInfo","intl.getlocaleinfo","winnls/GetLocaleInfo","winnls/GetLocaleInfoA","winnls/GetLocaleInfoW"]
 old-location: intl\getlocaleinfo.htm
 tech.root: Intl
@@ -60,7 +60,9 @@ api_name:
 ## -description
 
 Retrieves information about a locale specified by identifier.
-<div class="alert"><b>Note</b>  For interoperability reasons, the application should prefer the <a href="/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a> function to <b>GetLocaleInfo</b> because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that runs only on Windows Vista and later should use <a href="/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  For interoperability reasons, the application should prefer the <a href="/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a> function to <b>GetLocaleInfo</b> because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that runs only on Windows Vista and later should use <a href="/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a>.</div>
+<div class="alert"><b>Note</b>  For global compatibility, the application should prefer the Unicode "W" API forms to the "A" forms.  GetLocaleInfoA will limit the character data and could result in results that appear corrupted to users, particularly in globally enabled applications.  For this API, <a href="/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a> is preferred as it is Unicode and also supports modern locale name standards.</div>
+<div> </div>
 
 ## -parameters
 

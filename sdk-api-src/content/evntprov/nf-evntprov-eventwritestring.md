@@ -1,188 +1,188 @@
 ---
 UID: NF:evntprov.EventWriteString
 title: EventWriteString function (evntprov.h)
-description: Writes an event that contains a string as its data.
-helpviewer_keywords: ["EventWriteString","EventWriteString function [ETW]","base.eventwritestring_func","etw.eventwritestring_func","evntprov/EventWriteString"]
+description:
+  Writes an ETW event that contains a string as its data. This function should
+  not be used.
+helpviewer_keywords:
+  [
+    "EventWriteString",
+    "EventWriteString function [ETW]",
+    "base.eventwritestring_func",
+    "etw.eventwritestring_func",
+    "evntprov/EventWriteString",
+  ]
 old-location: etw\eventwritestring_func.htm
 tech.root: ETW
 ms.assetid: ecdb0e92-fcc1-4b4f-99ea-6812b6b49381
 ms.date: 12/05/2018
-ms.keywords: EventWriteString, EventWriteString function [ETW], base.eventwritestring_func, etw.eventwritestring_func, evntprov/EventWriteString
+ms.keywords:
+  EventWriteString, EventWriteString function [ETW], base.eventwritestring_func,
+  etw.eventwritestring_func, evntprov/EventWriteString
 req.header: evntprov.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
-req.irql: 
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 ms.custom: 19H1
 f1_keywords:
- - EventWriteString
- - evntprov/EventWriteString
+  - EventWriteString
+  - evntprov/EventWriteString
 dev_langs:
- - c++
+  - c++
 topic_type:
- - APIRef
- - kbSyntax
+  - APIRef
+  - kbSyntax
 api_type:
- - DllExport
+  - DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-eventing-provider-l1-1-0.dll
- - API-MS-Win-Eventing-Provider-L1-1-1.dll
+  - Advapi32.dll
+  - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+  - KernelBase.dll
+  - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+  - API-MS-Win-eventing-provider-l1-1-0.dll
+  - API-MS-Win-Eventing-Provider-L1-1-1.dll
 api_name:
- - EventWriteString
+  - EventWriteString
 ---
 
 # EventWriteString function
 
-
 ## -description
 
-Writes an event that contains a string as its data.
+Writes an ETW event that contains a string as its data. This function should not
+be used.
 
 ## -parameters
 
 ### -param RegHandle [in]
 
-Registration handle of the provider. The handle comes from 
-      <a href="/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>.
+Registration handle of the provider. The handle comes from
+[EventRegister](/windows/desktop/api/evntprov/nf-evntprov-eventregister). The
+generated event will use the ProviderId associated with the handle.
 
 ### -param Level [in]
 
-Level of detail included in the event. If the provider uses a manifest to define the event, set this value 
-      to the same level defined in the manifest. If the event is not defined in a manifest, set this value to 0 to 
-      ensure the event is written, otherwise, the event is written based on the level rule defined in 
-      <a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>.
+An 8-bit number used to describe an event's severity or importance.
+
+> [!Important]
+> ProviderId, Level and Keyword are the primary means for
+> filtering events. Other kinds of filtering are possible but have much higher
+> overhead. Always assign a nonzero level and keyword to every event.
+
+See [EVENT_DESCRIPTOR](nf-evntprov-eventdatadesccreate.md) for details about the
+event level.
 
 ### -param Keyword [in]
 
-Bitmask that specifies the event category. If the provider uses a manifest to define the event, set this 
-      value to the same keyword mask defined in the manifest. If the event is not defined in a manifest, set this 
-      value to 0 to ensure the event is written, otherwise, the event is written based on the keyword rules defined 
-      in <a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>.
+A 64-bit bitmask used to indicate an event's membership in a set of event
+categories.
+
+> [!Important]
+> ProviderId, Level and Keyword are the primary means for
+> filtering events. Other kinds of filtering are possible but have much higher
+> overhead. Always assign a nonzero level and keyword to every event.
+
+See [EVENT_DESCRIPTOR](nf-evntprov-eventdatadesccreate.md) for details about the
+event keyword.
 
 ### -param String [in]
 
-Null-terminated string to write as the event data.
+NUL-terminated string to write as the event data.
 
 ## -returns
 
-Returns ERROR_SUCCESS if successful or one of the following values on error.
+Returns **ERROR_SUCCESS** if successful or an error code. Possible error codes
+include the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-One or more of the parameters is not valid.
+- **ERROR_INVALID_PARAMETER**: One or more of the parameters is not valid.
+- **ERROR_INVALID_HANDLE**: The registration handle of the provider is not
+  valid.
+- **ERROR_ARITHMETIC_OVERFLOW**: The event size is larger than the allowed
+  maximum (64KB - header).
+- **ERROR_MORE_DATA**: The session buffer size is too small for the event.
+- **ERROR_NOT_ENOUGH_MEMORY**: Occurs when filled buffers are trying to flush to
+  disk, but disk IOs are not happening fast enough. This happens when the disk
+  is slow and event traffic is heavy. Eventually, there are no more free (empty)
+  buffers and the event is dropped.
+- **STATUS_LOG_FILE_FULL**: The real-time playback file is full. Events are not
+  logged to the session until a real-time consumer consumes the events from the
+  playback file.
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_INVALID_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The registration handle of the provider is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_ARITHMETIC_OVERFLOW</b></dt>
-</dl>
-</td>
-<td width="60%">
-The event size is larger than the allowed maximum (64k - header).
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_MORE_DATA</b></dt>
-</dl>
-</td>
-<td width="60%">
-The session buffer size is too small for the event.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_NOT_ENOUGH_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-Occurs when filled buffers are trying to flush to disk, but disk IOs are not happening fast enough. This 
-        happens when the disk is slow and event traffic is heavy. Eventually, there are no more free (empty) buffers 
-        and the event is dropped.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_LOG_FILE_FULL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The real-time playback file is full. Events are not logged to the session until a real-time consumer 
-        consumes the events from the playback file. Do not stop logging events based on this error code.
-
-</td>
-</tr>
-</table>
+The error code is primarily intended for use in debugging and diagnostic
+scenarios. Most production code should continue to run and continue to report
+events even if an ETW event could not be written, so release builds should
+usually ignore the error code.
 
 ## -remarks
 
-The provider does not need a manifest to use this function to write the event, unlike the 
-    <a href="/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a> function which does require a manifest. 
-    Consumers also do not need a manifest to consume events written with this function.
+This API is not useful and should not be used.
 
-This function gets the acitivity identifier from the thread local storage, if set.
+- Most ETW analysis tools do not correctly support string-only events without a
+  manifest.
+- Without a manifest, important information about the event (e.g. the provider
+  name, event id, and event name) are unavailable so the resulting events are
+  hard to use even when the analysis tool supports string-only events.
+- With a manifest, this function behaves almost exactly like the code from a
+  manifest-based event with a single string field. However, the manifest-based
+  event is better-supported by trace analysis tools. In addition, the code
+  generated by [MC.exe](/windows/win32/wes/message-compiler--mc-exe-) for an
+  event with a single string field is more efficient than the
+  **EventWriteString** function.
 
-ETW decides based on the level and keyword mask whether  the event is written to a session (for details, see 
-    <a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>).
+Instead of using this API, consider the following alternatives:
 
-This function cannot be used to write events to the Admin or Operational channels.
+- [Use TraceLoggingProvider.h](/windows/win32/api/_tracelogging) to write events
+  that are well-supported by ETW analysis tools, work without a manifest, and
+  include metadata like provider name and event name.
+- [Write an instrumentation manifest](/windows/win32/wes/writing-an-instrumentation-manifest).
+  Create a simple event with a single NUL-terminated string value. You can write
+  and collect events even without a manifest. You will only need the manifest
+  for decoding the collected trace.
+
+**EventWriteString** writes an event with a data payload consisting of the
+specified string. This API is nearly equivalent to the following code:
+
+```c
+EVENT_DESCRIPTOR eventDescriptor;
+EVENT_DATA_DESCRIPTOR dataDescriptor;
+EventDescCreate(&eventDescriptor, 0, 0, 0, Level, 0, 0, Keyword);
+EventDataDescCreate(&dataDescriptor, String, (wcslen(String) + 1) * sizeof(WCHAR));
+return EventWrite(RegHandle, &eventDescriptor, 1, &dataDescriptor);
+```
+
+The resulting event is the same as any other event generated by **EventWrite**
+except that the resulting event has the **EVENT_HEADER_FLAG_STRING_ONLY** flag
+set (see [EVENT_HEADER](/windows/win32/api/evntcons/ns-evntcons-event_header)
+for information about event flags).
+
+Note that the event is written with ID, Version, Opcode, Task, and Channel set
+to 0.
+
+Note that the event uses the current thread's activity ID.
+
+ETW analysis tools that are aware of the **EVENT_HEADER_FLAG_STRING_ONLY** flag
+can extract the string value even when the decoder cannot locate any other
+decoding information for the event provider. However, without a manifest, the
+tools will not be able to determine the event's provider name.
 
 ## -see-also
 
-<a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>
+[EventWrite](/windows/desktop/api/evntprov/nf-evntprov-eventwrite)
 
-
-
-<a href="/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a>
-
-
-
-<a href="/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a>
+[TraceLoggingProvider.h](/windows/win32/api/_tracelogging)

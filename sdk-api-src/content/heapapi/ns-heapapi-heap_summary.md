@@ -1,7 +1,8 @@
 ---
 UID: NS:heapapi._HEAP_SUMMARY
 title: HEAP_SUMMARY
-ms.date: 4/26/2019
+description: The HEAP_SUMMARY structure (heapapi.h) represents a heap summary retrieved with a call to the HeapSummary function.
+ms.date: 08/04/2022
 ms.keywords: _HEAP_SUMMARY, HEAP_SUMMARY
 targetos: Windows
 req.construct-type: structure
@@ -13,8 +14,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: HEAP_SUMMARY, *PHEAP_SUMMARY
 req.umdf-ver: 

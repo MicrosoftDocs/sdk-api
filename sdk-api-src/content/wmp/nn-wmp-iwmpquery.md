@@ -54,38 +54,10 @@ The <b>IWMPQuery</b> interface represents a compound query.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPQuery</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPQuery</b> also has these types of members:
+The <b>IWMPQuery</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPQuery</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMPQuery</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpquery-addcondition">addCondition</a>
-</td>
-<td align="left" width="63%">
-Adds a condition to the compound query using AND logic.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpquery-beginnextgroup">beginNextGroup</a>
-</td>
-<td align="left" width="63%">
-Begins a new condition group.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

@@ -56,70 +56,10 @@ The writer network sink object exposes this interface. You can retrieve a pointe
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMClientConnections</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMClientConnections</b> also has these types of members:
+The <b>IWMClientConnections</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMClientConnections</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMClientConnections</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmclientconnections-getclientcount">GetClientCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of connected clients.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmclientconnections-getclientproperties">GetClientProperties</a>
-</td>
-<td align="left" width="63%">
-Retrieves information, including the IP address and protocol, about a connected client.
-
-</td>
-</tr>
-</table> 
-
-The following interfaces can be obtained by using the QueryInterface method of this interface.
-<table>
-<tr>
-<th>Interface</th>
-<th>IID</th>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmclientconnections2">IWMClientConnections2</a>
-</td>
-<td>IID_IWMClientConnections2</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistercallback">IWMRegisterCallback</a>
-</td>
-<td>IID_IWMRegisterCallback</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriternetworksink">IWMWriterNetworkSink</a>
-</td>
-<td>IID_IWMWriterNetworkSink</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink">IWMWriterSink</a>
-</td>
-<td>IID_IWMWriterSink</td>
-</tr>
-</table>
 
 ## -see-also
 

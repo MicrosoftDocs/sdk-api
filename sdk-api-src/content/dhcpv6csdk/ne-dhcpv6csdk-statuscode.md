@@ -58,7 +58,7 @@ The <b>StatusCode</b> enum contains status codes for IPv6 operations.
 
 ### -field STATUS_UNSPECIFIED_FAILURE
 
-### -field STATUS_NO_BINDING
+### -field STATUS_NO_BINDING:3
 
-### -field STATUS_NOPREFIX_AVAIL
+### -field STATUS_NOPREFIX_AVAIL:6   
 

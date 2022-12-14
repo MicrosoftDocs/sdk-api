@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.EncryptFileA
 title: EncryptFileA function (winbase.h)
-description: Encrypts a file or directory.
+description: Encrypts a file or directory. (ANSI)
 helpviewer_keywords: ["EncryptFile","EncryptFile function [Files]","EncryptFileA","EncryptFileW","_win32_encryptfile","base.encryptfile","fs.encryptfile","winbase/EncryptFile","winbase/EncryptFileA","winbase/EncryptFileW"]
 old-location: fs\encryptfile.htm
 tech.root: fs
@@ -47,6 +47,7 @@ api_name:
  - EncryptFile
  - EncryptFileA
  - EncryptFileW
+req.apiset: ext-ms-win-advapi32-encryptedfile-l1-1-0 (introduced in Windows 8)
 ---
 
 # EncryptFileA function

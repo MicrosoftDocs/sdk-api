@@ -61,100 +61,10 @@ The audio renderer subscribes to audio decoder events by using the <a href="/win
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidAudioRendererEvent2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/segment/nn-segment-imsvidaudiorendererevent">IMSVidAudioRendererEvent</a>. <b>IMSVidAudioRendererEvent2</b> also has these types of members:
+The <b>IMSVidAudioRendererEvent2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/segment/nn-segment-imsvidaudiorendererevent">IMSVidAudioRendererEvent</a>. <b>IMSVidAudioRendererEvent2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMSVidAudioRendererEvent2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avaudiochannelconfig">AVAudioChannelConfig</a>
-</td>
-<td align="left" width="63%">
-Indicates a change in the <a href="/windows/desktop/DirectShow/avaudiochannelconfig-property">AVAudioChannelConfig</a> property.
-          
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avaudiochannelcount">AVAudioChannelCount</a>
-</td>
-<td align="left" width="63%">
-Indicates a change in the <a href="/windows/desktop/DirectShow/avaudiochannelcount-property">AVAudioChannelCount</a> property.
-          
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avaudiosamplerate">AVAudioSampleRate</a>
-</td>
-<td align="left" width="63%">
-Indicates a change in the <a href="/windows/desktop/DirectShow/avaudiosamplerate-property">AVAudioSampleRate</a> property.
-          
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avddsurroundmode">AVDDSurroundMode</a>
-</td>
-<td align="left" width="63%">
-Indicates a change in the <a href="/windows/desktop/DirectShow/avddsurroundmode-property">AVDDSurroundMode</a> property.
-          
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avdecaudiodualmono">AVDecAudioDualMono</a>
-</td>
-<td align="left" width="63%">
-Indicates a change in the <a href="/windows/desktop/DirectShow/avdecaudiodualmono-property">AVDecAudioDualMono</a> property.
-          
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avdeccommoninputformat">AVDecCommonInputFormat</a>
-</td>
-<td align="left" width="63%">
-Indicates a change in the <a href="/windows/desktop/DirectShow/avdeccommoninputformat-property">AVDecCommonInputFormat</a> property.
-          
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avdeccommonmeanbitrate">AVDecCommonMeanBitRate</a>
-</td>
-<td align="left" width="63%">
-Indicates a change in the <a href="/windows/desktop/DirectShow/avdeccommonmeanbitrate">AVDecCommonMeanBitRate</a> property.
-          
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avdeccommonoutputformat">AVDecCommonOutputFormat</a>
-</td>
-<td align="left" width="63%">
-Indicates a change in the <a href="/windows/desktop/DirectShow/avdeccommonoutputformat-property">AVDecCommonOutput</a> property.
-          
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

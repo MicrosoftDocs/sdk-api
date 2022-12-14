@@ -1,12 +1,12 @@
 ---
 UID: NS:evntcons._EVENT_HEADER_EXTENDED_DATA_ITEM
 title: EVENT_HEADER_EXTENDED_DATA_ITEM (evntcons.h)
-description: Defines the extended data that ETW collects as part of the event data.
+description: The EVENT_HEADER_EXTENDED_DATA_ITEM structure (evntcons.h) defines the extended data that ETW collects as part of the event data.
 helpviewer_keywords: ["*PEVENT_HEADER_EXTENDED_DATA_ITEM","EVENT_HEADER_EXTENDED_DATA_ITEM","EVENT_HEADER_EXTENDED_DATA_ITEM structure [ETW]","EVENT_HEADER_EXT_TYPE_EVENT_KEY","EVENT_HEADER_EXT_TYPE_EVENT_SCHEMA_TL","EVENT_HEADER_EXT_TYPE_INSTANCE_INFO","EVENT_HEADER_EXT_TYPE_PROCESS_START_KEY","EVENT_HEADER_EXT_TYPE_PROV_TRAITS","EVENT_HEADER_EXT_TYPE_RELATED_ACTIVITYID","EVENT_HEADER_EXT_TYPE_SID","EVENT_HEADER_EXT_TYPE_STACK_TRACE32","EVENT_HEADER_EXT_TYPE_STACK_TRACE64","EVENT_HEADER_EXT_TYPE_TS_ID","PEVENT_HEADER_EXTENDED_DATA_ITEM","PEVENT_HEADER_EXTENDED_DATA_ITEM structure pointer [ETW]","_EVENT_HEADER_EXTENDED_DATA_ITEM","base.event_header_extended_data_item","etw.event_header_extended_data_item","relogger/EVENT_HEADER_EXTENDED_DATA_ITEM","relogger/PEVENT_HEADER_EXTENDED_DATA_ITEM"]
 old-location: etw\event_header_extended_data_item.htm
 tech.root: ETW
 ms.assetid: 130dc14b-7488-48ab-a31d-310c0f4ee13f
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: '*PEVENT_HEADER_EXTENDED_DATA_ITEM, EVENT_HEADER_EXTENDED_DATA_ITEM, EVENT_HEADER_EXTENDED_DATA_ITEM structure [ETW], EVENT_HEADER_EXT_TYPE_EVENT_KEY, EVENT_HEADER_EXT_TYPE_EVENT_SCHEMA_TL, EVENT_HEADER_EXT_TYPE_INSTANCE_INFO, EVENT_HEADER_EXT_TYPE_PROCESS_START_KEY, EVENT_HEADER_EXT_TYPE_PROV_TRAITS, EVENT_HEADER_EXT_TYPE_RELATED_ACTIVITYID, EVENT_HEADER_EXT_TYPE_SID, EVENT_HEADER_EXT_TYPE_STACK_TRACE32, EVENT_HEADER_EXT_TYPE_STACK_TRACE64, EVENT_HEADER_EXT_TYPE_TS_ID, PEVENT_HEADER_EXTENDED_DATA_ITEM, PEVENT_HEADER_EXTENDED_DATA_ITEM structure pointer [ETW], _EVENT_HEADER_EXTENDED_DATA_ITEM, base.event_header_extended_data_item, etw.event_header_extended_data_item, relogger/EVENT_HEADER_EXTENDED_DATA_ITEM, relogger/PEVENT_HEADER_EXTENDED_DATA_ITEM'
 req.header: evntcons.h
 req.include-header: Evntcons.h
@@ -49,8 +49,7 @@ api_name:
  - EVENT_HEADER_EXTENDED_DATA_ITEM
 ---
 
-# EVENT_HEADER_EXTENDED_DATA_ITEM structure
-
+# EVENT_HEADER_EXTENDED_DATA_ITEM structure (evntcons.h)
 
 ## -description
 
@@ -157,9 +156,9 @@ The <b>DataPtr</b> member points to an extended header item that  contains provi
 </dl>
 </td>
 <td width="60%">
-The <b>DataPtr</b> member points to an EVENT_EXTENDED_ITEM_EVENT_KEY structure that contains a unique event identifier which is a 64-bit scalar. 
+The <b>DataPtr</b> member points to an EVENT_EXTENDED_ITEM_EVENT_KEY structure containing a unique event identifier that is a 64-bit scalar.
 
-The <b>EnableProperty</b>EVENT_ENABLE_PROPERTY_EVENT_KEY needs to be passed in for the <a href="/windows/desktop/ETW/enabletrace">EnableTrace</a> call for a given provider to enable this feature.
+The <b>EnableProperty</b> EVENT_ENABLE_PROPERTY_EVENT_KEY needs to be passed in for the <a href="/windows/desktop/ETW/enabletrace">EnableTrace</a> call for a given provider to enable this feature.
 
 </td>
 </tr>
@@ -171,7 +170,7 @@ The <b>EnableProperty</b>EVENT_ENABLE_PROPERTY_EVENT_KEY needs to be passed in f
 <td width="60%">
 The <b>DataPtr</b> member points to an EVENT_EXTENDED_ITEM_PROCESS_START_KEY structure that contains a unique process identifier (unique across the boot session). This identifier is a 64-bit scalar. 
 
-The <b>EnableProperty</b>EVENT_ENABLE_PROPERTY_PROCESS_START_KEY needs to be passed in for the <a href="/windows/desktop/ETW/enabletrace">EnableTrace</a> call for a given provider to enable this feature. 
+The <b>EnableProperty</b> EVENT_ENABLE_PROPERTY_PROCESS_START_KEY needs to be passed in for the <a href="/windows/desktop/ETW/enabletrace">EnableTrace</a> call for a given provider to enable this feature. 
 
 </td>
 </tr>

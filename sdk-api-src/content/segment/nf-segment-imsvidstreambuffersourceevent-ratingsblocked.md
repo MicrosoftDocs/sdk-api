@@ -57,7 +57,7 @@ This topic applies to Windows XP Service Pack 1 or later.
 
 The <b>RatingsBlocked</b> method is called when the object blocks the stream, which occurs if the rating is not allowed under the current permissions.
 
-## -parameters
+
 
 ## -returns
 

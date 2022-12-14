@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.CreateWindowStationA
 title: CreateWindowStationA function (winuser.h)
-description: Creates a window station object, associates it with the calling process, and assigns it to the current session.
+description: Creates a window station object, associates it with the calling process, and assigns it to the current session. (ANSI)
 helpviewer_keywords: ["CreateWindowStation","CreateWindowStation function [Windows Stations and Desktops]","CreateWindowStationA","CreateWindowStationW","_win32_createwindowstation","base.createwindowstation","winstation.createwindowstation","winuser/CreateWindowStation","winuser/CreateWindowStationA","winuser/CreateWindowStationW"]
 old-location: winstation\createwindowstation.htm
 tech.root: winstation
@@ -49,6 +49,7 @@ api_name:
  - CreateWindowStation
  - CreateWindowStationA
  - CreateWindowStationW
+req.apiset: ext-ms-win-ntuser-windowstation-l1-1-0 (introduced in Windows 8)
 ---
 
 # CreateWindowStationA function
@@ -62,7 +63,7 @@ Creates a window station object, associates it with the calling process, and ass
 
 ### -param lpwinsta [in, optional]
 
-The name of the window station to be created. Window station names are case-insensitive and cannot contain backslash characters (\). Only members of the Administrators group are allowed to specify a name. If <i>lpwinsta</i> is <b>NULL</b> or an empty string, the system forms a window station name using the logon session identifier for the calling process. To get this name, call the 
+The name of the window station to be created. Window station names are case-insensitive and cannot contain backslash characters (\\). Only members of the Administrators group are allowed to specify a name. If <i>lpwinsta</i> is <b>NULL</b> or an empty string, the system forms a window station name using the logon session identifier for the calling process. To get this name, call the 
 <a href="/windows/desktop/api/winuser/nf-winuser-getuserobjectinformationa">GetUserObjectInformation</a> function.
 
 ### -param dwFlags

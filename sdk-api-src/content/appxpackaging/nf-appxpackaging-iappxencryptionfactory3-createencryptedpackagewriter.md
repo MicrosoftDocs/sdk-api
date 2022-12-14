@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory3.CreateEncryptedPackageWriter
 title: IAppxEncryptionFactory3::CreateEncryptedPackageWriter (appxpackaging.h)
-description: Creates a new instance of an IAppxEncryptedPackageWriter.
+description: Creates a new instance of an IAppxEncryptedPackageWriter. (IAppxEncryptionFactory3.CreateEncryptedPackageWriter)
 helpviewer_keywords: ["CreateEncryptedPackageWriter","CreateEncryptedPackageWriter method [App packaging and management]","CreateEncryptedPackageWriter method [App packaging and management]","IAppxEncryptionFactory3 interface","IAppxEncryptionFactory3 interface [App packaging and management]","CreateEncryptedPackageWriter method","IAppxEncryptionFactory3.CreateEncryptedPackageWriter","IAppxEncryptionFactory3::CreateEncryptedPackageWriter","appxpackaging/IAppxEncryptionFactory3::CreateEncryptedPackageWriter","appxpkg.iappxencryptionfactory3_createencryptedpackagewriter"]
 old-location: appxpkg\iappxencryptionfactory3_createencryptedpackagewriter.htm
 tech.root: appxpkg
@@ -56,7 +56,7 @@ Creates a new instance of an <a href="/windows/desktop/api/appxpackaging/nn-appx
 
 ### -param outputStream [in]
 
-A writeable stream for sending bytes produced by the app package.
+A writable stream for sending bytes produced by the app package.
 
 ### -param manifestStream [in]
 
@@ -84,7 +84,7 @@ The package writer object created.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

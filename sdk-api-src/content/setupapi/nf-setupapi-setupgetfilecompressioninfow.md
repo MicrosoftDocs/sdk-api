@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupGetFileCompressionInfoW
 title: SetupGetFileCompressionInfoW function (setupapi.h)
-description: The SetupGetFileCompressionInfo function examines a physical file to determine if it is compressed and gets its full path, size, and the size of the uncompressed target file.
+description: The SetupGetFileCompressionInfo function examines a physical file to determine if it is compressed and gets its full path, size, and the size of the uncompressed target file. (Unicode)
 helpviewer_keywords: ["SetupGetFileCompressionInfo","SetupGetFileCompressionInfo function [Setup API]","SetupGetFileCompressionInfoA","SetupGetFileCompressionInfoW","_setupapi_setupgetfilecompressioninfo","setup.setupgetfilecompressioninfo","setupapi/SetupGetFileCompressionInfo","setupapi/SetupGetFileCompressionInfoA","setupapi/SetupGetFileCompressionInfoW"]
 old-location: setup\setupgetfilecompressioninfo.htm
 tech.root: setup
@@ -143,7 +143,9 @@ Note that if the version of SetupAPI.dll is less than 5.0.2195, then the caller 
 The following is an example of how to obtain the <b>MyFree</b> function from the SetupAPI.dll: 
 
 
-<pre class="syntax" xml:space="preserve"><code>typedef VOID (WINAPI* MYFREEFUNC)(LPVOID lpBuff);
+
+``` syntax
+typedef VOID (WINAPI* MYFREEFUNC)(LPVOID lpBuff);
    MYFREEFUNC MyFree;
 
    HMODULE hDll=NULL;
@@ -155,7 +157,9 @@ The following is an example of how to obtain the <b>MyFree</b> function from the
    PTSTR lpActualSourceFileName;
    SetupGetFileCompressionInfo(...,&amp;lpActualSourceFileName,...,...,...);
    ...
-   MyFree(lpActualSourceFileName); </code></pre>
+   MyFree(lpActualSourceFileName); 
+```
+
 
 
 

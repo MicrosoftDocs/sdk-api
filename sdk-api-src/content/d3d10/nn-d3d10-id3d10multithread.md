@@ -55,56 +55,7 @@ A multithread interface accesses multithread settings and can only be used if th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Multithread</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10Multithread</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D10Multithread</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10multithread-enter">Enter</a>
-</td>
-<td align="left" width="63%">
-Enter a device's critical section.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10multithread-getmultithreadprotected">GetMultithreadProtected</a>
-</td>
-<td align="left" width="63%">
-Find out if multithreading is turned on or not.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10multithread-leave">Leave</a>
-</td>
-<td align="left" width="63%">
-Leave a device's critical section.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10multithread-setmultithreadprotected">SetMultithreadProtected</a>
-</td>
-<td align="left" width="63%">
-Turn multithreading on or off.
-
-</td>
-</tr>
-</table>
+The <b>ID3D10Multithread</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10Multithread</b> also has these types of members:
 
 ## -remarks
 

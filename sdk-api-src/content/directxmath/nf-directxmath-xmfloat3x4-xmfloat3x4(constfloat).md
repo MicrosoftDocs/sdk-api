@@ -8,8 +8,8 @@ req.construct-type: function
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -51,7 +51,7 @@ Constructs an **XMFLOAT3X4** from a 12-element array of float values.
 
 Type: **const float \***
 
-A pointer to a 12-element array of float values. The array specifyies the value of each member of the new matrix.
+A pointer to a 12-element array of float values. The array specifies the value of each member of the new matrix.
 
 ## -remarks
 

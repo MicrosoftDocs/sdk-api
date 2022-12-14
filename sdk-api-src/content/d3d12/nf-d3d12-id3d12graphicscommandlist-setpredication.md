@@ -58,7 +58,7 @@ Sets a rendering predicate.
 
 Type: <b><a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>*</b>
 
-The buffer, as an <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>.
+The buffer, as an <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>, which must be in the [**D3D12_RESOURCE_STATE_PREDICATION**](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states) or [**D3D21_RESOURCE_STATE_INDIRECT_ARGUMENT**](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states) state (both values are identical, and provided as aliases for clarity), or **NULL** to disable predication.
 
 ### -param AlignedBufferOffset [in]
 
@@ -75,10 +75,9 @@ Specifies a <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_predication_op">D
 ## -remarks
 
 Use this method to denote that subsequent rendering and resource manipulation commands are not actually performed if the resulting predicate data of the predicate is equal to the operation specified.
-          However, some predicates are only hints, so they may not actually prevent operations from being performed.
         
 
-Unlike Direct3D 11, in Direct3D 12 predication state is not inherited by direct command lists.
+Unlike Direct3D 11, in Direct3D 12 predication state is not inherited by direct command lists, and predication is always respected (there are no predication hints).
         All direct command lists begin with predication disabled.
           Bundles do inherit predication state.
         It is legal for the same predicate to be bound multiple times.

@@ -54,29 +54,7 @@ Exposes a method to support access by a Microsoft UI Automation client to contro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationCustomNavigationPattern</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationCustomNavigationPattern</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IUIAutomationCustomNavigationPattern</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationcustomnavigationpattern-navigate">Navigate</a>
-</td>
-<td align="left" width="63%">
-Gets the next element in the specified direction within the logical UI tree.
-
-</td>
-</tr>
-</table>
+The <b>IUIAutomationCustomNavigationPattern</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationCustomNavigationPattern</b> also has these types of members:
 
 ## -see-also
 

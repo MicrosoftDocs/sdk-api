@@ -54,7 +54,7 @@ Implemented by many of the Windows Shell DLLs to allow applications to obtain DL
 
 ## -parameters
 
-### -param *
+### -param 
 
 #### - pdvi
 
@@ -69,7 +69,7 @@ A pointer to a <a href="/windows/desktop/api/shlwapi/ns-shlwapi-dllversioninfo">
 
 Type: <b>HRESULT</b>
 
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this callback function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

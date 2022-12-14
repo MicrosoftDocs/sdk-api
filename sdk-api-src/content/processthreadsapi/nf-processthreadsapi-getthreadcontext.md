@@ -58,70 +58,41 @@ api_name:
 
 Retrieves the context of the specified thread.
 
-A 64-bit application can retrieve the context of a WOW64 thread using the 
-    <a href="/windows/desktop/api/winbase/nf-winbase-wow64getthreadcontext">Wow64GetThreadContext</a> function.
+A 64-bit application can retrieve the context of a WOW64 thread using the [Wow64GetThreadContext](https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/winbase/nf-winbase-wow64getthreadcontext.md).
 
 ## -parameters
 
 ### -param hThread [in]
 
-A handle to the thread whose context is to be retrieved. The handle must have 
-      <b>THREAD_GET_CONTEXT</b> access to the thread. For more information, see 
-      <a href="/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
+A handle to the thread whose context is to be retrieved. The handle must have **THREAD_GET_CONTEXT** access to the thread. For more information, see [Thread Security and Access Rights](/windows/desktop/ProcThread/thread-security-and-access-rights).
       
 
-<b>WOW64:  </b>The handle must also have <b>THREAD_QUERY_INFORMATION</b> access.
+**WOW64:** The handle must also have **THREAD_QUERY_INFORMATION** access.
 
 ### -param lpContext [in, out]
 
-A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure that receives the 
-      appropriate context of the specified thread. The value of the <b>ContextFlags</b> member of 
-      this structure specifies which portions of a thread's context are retrieved. The 
-      <b>CONTEXT</b> structure is highly processor specific. Refer to 
-      the WinNT.h header file for processor-specific definitions of this structures and any alignment 
-      requirements.
+A pointer to a [CONTEXT](/windows/win32/api/winnt/ns-winnt-context) structure (such as [ARM64_NT_CONTEXT](/windows/win32/api/winnt/ns-winnt-arm64_nt_context)) that receives the appropriate context of the specified thread. The value of the **ContextFlags** member of this structure specifies which portions of a thread's context are retrieved. The       **CONTEXT** structure is highly processor specific. Refer to the WinNT.h header file for processor-specific definitions of this structures and any alignment requirements.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call 
-       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 
-This function is used to retrieve the thread context of the specified thread. The function retrieves a 
-    selective context based on the value of the <b>ContextFlags</b> member of the 
-    context structure. The thread identified by the <i>hThread</i> parameter is typically being 
-    debugged, but the function can also operate when the thread is not being debugged.
+This function is used to retrieve the thread context of the specified thread. The function retrieves a selective context based on the value of the **ContextFlags** member of the context structure. The thread identified by the *hThread* parameter is typically being debugged, but the function can also operate when the thread is not being debugged.
 
-You cannot get a valid context for a running thread. Use the 
-    <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread">SuspendThread</a> function to suspend the thread before 
-    calling <b>GetThreadContext</b>.
+You cannot get a valid context for a running thread. Use the [SuspendThread](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread) function to suspend the thread before calling **GetThreadContext**.
 
-If you call <b>GetThreadContext</b> for the current 
-    thread, the function returns successfully; however, the context returned is not valid.
+If you call **GetThreadContext** for the current thread, the function returns successfully; however, the context returned is not valid.
 
 ## -see-also
 
-<a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
-
-
-
-<a href="/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
-
-
-
-<a href="/windows/desktop/api/winbase/nf-winbase-getxstatefeaturesmask">GetXStateFeaturesMask</a>
-
-
-
-<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext">SetThreadContext</a>
-
-
-
-<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread">SuspendThread</a>
-
-
-
-<a href="/windows/desktop/api/winbase/nf-winbase-wow64getthreadcontext">Wow64GetThreadContext</a>
+- [CONTEXT](/windows/win32/api/winnt/ns-winnt-context)
+- [ARM64_NT_CONTEXT](/windows/desktop/api/winnt/ns-winnt-arm64_nt_context)
+- [Debugging Functions](/windows/desktop/Debug/debugging-functions)
+- [GetXStateFeaturesMask](/windows/desktop/api/winbase/nf-winbase-getxstatefeaturesmask)
+- [SetThreadContext](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext)
+- [SuspendThread](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread)
+- [Wow64GetThreadContext](https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/winbase/nf-winbase-wow64getthreadcontext.md)

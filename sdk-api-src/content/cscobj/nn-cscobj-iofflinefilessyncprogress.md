@@ -59,38 +59,7 @@ Used to report progress back to the caller during synchronization and
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesSyncProgress</b> interface inherits from <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesprogress">IOfflineFilesProgress</a>. <b>IOfflineFilesSyncProgress</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IOfflineFilesSyncProgress</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncprogress-syncitembegin">SyncItemBegin</a>
-</td>
-<td align="left" width="63%">
-Reports that a synchronization operation on an item is beginning.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncprogress-syncitemresult">SyncItemResult</a>
-</td>
-<td align="left" width="63%">
-Reports that an item has been processed during the synchronization operation.
-
-</td>
-</tr>
-</table>
+The <b>IOfflineFilesSyncProgress</b> interface inherits from <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesprogress">IOfflineFilesProgress</a>. <b>IOfflineFilesSyncProgress</b> also has these types of members:
 
 ## -see-also
 

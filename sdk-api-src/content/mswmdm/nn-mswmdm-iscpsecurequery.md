@@ -58,56 +58,7 @@ The secure content provider implements this interface and secure Windows Media D
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISCPSecureQuery</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISCPSecureQuery</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISCPSecureQuery</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-examinedata">ExamineData</a>
-</td>
-<td align="left" width="63%">
-Determines whether the secure content provider is responsible for the content by examining data that Windows Media Device Manager passes to this method.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-getdatademands">GetDataDemands</a>
-</td>
-<td align="left" width="63%">
-Reports what data the secure content provider needs to determine rights and responsibility for a specified piece of content.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-getrights">GetRights</a>
-</td>
-<td align="left" width="63%">
-Retrieves rights information for a piece of content. Rights are file-specific.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-makedecision">MakeDecision</a>
-</td>
-<td align="left" width="63%">
-Determines whether transferring the content to a specified device is allowed.
-
-</td>
-</tr>
-</table>
+The <b>ISCPSecureQuery</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISCPSecureQuery</b> also has these types of members:
 
 ## -see-also
 

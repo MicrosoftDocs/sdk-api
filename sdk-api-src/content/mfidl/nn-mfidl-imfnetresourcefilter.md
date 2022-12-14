@@ -54,38 +54,7 @@ Notifies the application when a byte stream requests a URL, and enables the appl
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFNetResourceFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFNetResourceFilter</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFNetResourceFilter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfnetresourcefilter-onredirect">OnRedirect</a>
-</td>
-<td align="left" width="63%">
-Called when the byte stream redirects to a URL.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfnetresourcefilter-onsendingrequest">OnSendingRequest</a>
-</td>
-<td align="left" width="63%">
-Called when the byte stream requests a URL.
-
-</td>
-</tr>
-</table>
+The <b>IMFNetResourceFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFNetResourceFilter</b> also has these types of members:
 
 ## -remarks
 

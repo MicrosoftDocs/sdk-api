@@ -62,7 +62,7 @@ Pointer to a null-terminated wide-character string containing the name of the mi
 
 Pointer to a null-terminated wide-character string containing the name of the volume to which the newly created instance is to be attached. 
 
-The <i>lpVolumeName</i> input string can be any of the following. The trailing backslash (\) is optional. 
+The <i>lpVolumeName</i> input string can be any of the following. The trailing backslash (\\) is optional. 
 
 <ul>
 <li>
@@ -90,7 +90,7 @@ Pointer to a null-terminated wide-character string containing the instance name 
 
 ### -param dwCreatedInstanceNameLength [in, optional]
 
-Length, in bytes, of the buffer that <i>lpCreatedInstanceName </i>points to. This parameter is optional and can be zero.
+Length, in bytes, of the buffer that <i>lpCreatedInstanceName </i> points to. This parameter is optional and can be zero.
 
 ### -param lpCreatedInstanceName [out, optional]
 

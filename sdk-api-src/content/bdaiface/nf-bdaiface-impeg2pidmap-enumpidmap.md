@@ -69,4 +69,4 @@ Returns S_OK if successful. If the method fails, it returns an <b>HRESULT</b> er
 
 
 
-<a href="/windows/desktop/api/bdaiface/nn-bdaiface-impeg2pidmap">IMPEG2PIDMap Interface</a>
+<a href="/previous-versions/windows/desktop/api/bdaiface/nn-bdaiface-impeg2pidmap">IMPEG2PIDMap Interface</a>

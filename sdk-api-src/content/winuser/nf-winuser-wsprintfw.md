@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.wsprintfW
 title: wsprintfW function (winuser.h)
-description: Writes formatted data to the specified buffer.
+description: Writes formatted data to the specified buffer. (Unicode)
 helpviewer_keywords: ["_win32_wsprintf","_win32_wsprintf_cpp","menurc.wsprintf","winui._win32_wsprintf","winuser/wsprintf","winuser/wsprintfA","winuser/wsprintfW","wsprintf","wsprintf function [Menus and Other Resources]","wsprintfA","wsprintfW"]
 old-location: menurc\wsprintf.htm
 tech.root: menurc
@@ -57,19 +57,19 @@ Writes formatted data to the specified buffer. Any arguments are converted and c
 
 ## -parameters
 
-### -param arg1 [out]
+### -param unnamedParam1 [out]
 
 Type: <b>LPTSTR</b>
 
 The buffer that is to receive the formatted output. The maximum size of the buffer is 1,024 bytes.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Type: <b>LPCTSTR</b>
 
 The format-control specifications. In addition to ordinary ASCII characters, a format specification for each argument appears in this string. For more information about the format specification, see the Remarks section.
 
-### -param arg3 [in]
+### -param ...
 
 One or more optional arguments. The number and type of argument parameters depend on the corresponding format-control specifications in the <i>lpFmt</i> parameter.
 
@@ -309,3 +309,4 @@ To use buffers larger than 1024 bytes, use <b>_snwprintf</b>. For more informati
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-wvsprintfa">wvsprintf</a>
+

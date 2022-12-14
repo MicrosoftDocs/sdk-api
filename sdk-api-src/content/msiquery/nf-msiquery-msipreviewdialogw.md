@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiPreviewDialogW
 title: MsiPreviewDialogW function (msiquery.h)
-description: The MsiPreviewDialog function displays a dialog box as modeless and inactive.
+description: The MsiPreviewDialog function displays a dialog box as modeless and inactive. (Unicode)
 helpviewer_keywords: ["MsiPreviewDialog","MsiPreviewDialog function","MsiPreviewDialogA","MsiPreviewDialogW","_msi_msipreviewdialog","msiquery/MsiPreviewDialog","msiquery/MsiPreviewDialogA","msiquery/MsiPreviewDialogW","setup.msipreviewdialog"]
 old-location: setup\msipreviewdialog.htm
 tech.root: setup

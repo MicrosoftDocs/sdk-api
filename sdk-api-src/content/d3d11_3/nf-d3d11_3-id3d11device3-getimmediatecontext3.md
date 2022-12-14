@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_3.ID3D11Device3.GetImmediateContext3
 title: ID3D11Device3::GetImmediateContext3 (d3d11_3.h)
-description: Gets an immediate context, which can play back command lists.
+description: Gets an immediate context, which can play back command lists. (ID3D11Device3.GetImmediateContext3)
 helpviewer_keywords: ["GetImmediateContext3","GetImmediateContext3 method [Direct3D 11]","GetImmediateContext3 method [Direct3D 11]","ID3D11Device3 interface","ID3D11Device3 interface [Direct3D 11]","GetImmediateContext3 method","ID3D11Device3.GetImmediateContext3","ID3D11Device3::GetImmediateContext3","d3d11_3/ID3D11Device3::GetImmediateContext3","direct3d11.id3d11device3_getimmediatecontext3"]
 old-location: direct3d11\id3d11device3_getimmediatecontext3.htm
 tech.root: direct3d11
@@ -64,8 +64,8 @@ Upon completion of the method, the passed pointer to an <a href="/windows/deskto
 ## -remarks
 
 The
-          <b>GetImmediateContext3</b>method outputs an
-          <a href="/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11devicecontext3">ID3D11DeviceContext3</a>object that represents an immediate context, which is used to perform rendering that you want immediately submitted to a device.
+         <b>GetImmediateContext3</b> method outputs an
+          <a href="/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11devicecontext3">ID3D11DeviceContext3</a> object that represents an immediate context, which is used to perform rendering that you want immediately submitted to a device.
           For most apps, an immediate context is the primary object that is used to draw your scene.
         
 

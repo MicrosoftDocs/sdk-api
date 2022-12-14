@@ -1,7 +1,7 @@
 ---
 UID: NF:userenv.DeleteProfileA
 title: DeleteProfileA function (userenv.h)
-description: Deletes the user profile and all user-related settings from the specified computer. The caller must have administrative privileges to delete a user's profile.
+description: Deletes the user profile and all user-related settings from the specified computer. The caller must have administrative privileges to delete a user's profile. (ANSI)
 helpviewer_keywords: ["DeleteProfile","DeleteProfile function [Windows Shell]","DeleteProfileA","DeleteProfileW","_shell_DeleteProfile","shell.DeleteProfile","userenv/DeleteProfile","userenv/DeleteProfileA","userenv/DeleteProfileW"]
 old-location: shell\DeleteProfile.htm
 tech.root: shell
@@ -88,8 +88,7 @@ Type: <b>BOOL</b>
 
 ## -remarks
 
-<b>DeleteProfile</b> might fail when passed the security identifier (SID) of the local system account (S-1-5-18). For more information, see <a href="https://support.microsoft.com/kb/890212">KB890212</a>.
-
+<b>DeleteProfile</b> might fail when passed the security identifier (SID) of the local system account (S-1-5-18). 
 
 
 

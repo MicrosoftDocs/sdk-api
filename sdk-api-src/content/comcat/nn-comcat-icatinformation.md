@@ -54,74 +54,7 @@ Obtains information about the categories implemented or required by a certain cl
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICatInformation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICatInformation</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ICatInformation</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comcat/nf-comcat-icatinformation-enumcategories">EnumCategories</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumerator for the component categories registered on the system.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comcat/nf-comcat-icatinformation-enumclassesofcategories">EnumClassesOfCategories</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumerator for the classes that implement one or more specified category identifiers.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comcat/nf-comcat-icatinformation-enumimplcategoriesofclass">EnumImplCategoriesOfClass</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumerator for the CATIDs implemented by the specified class.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comcat/nf-comcat-icatinformation-enumreqcategoriesofclass">EnumReqCategoriesOfClass</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumerator for the CATIDs required by the specified class.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comcat/nf-comcat-icatinformation-getcategorydesc">GetCategoryDesc</a>
-</td>
-<td align="left" width="63%">
-Retrieves the localized description string for a specific category ID.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comcat/nf-comcat-icatinformation-isclassofcategories">IsClassOfCategories</a>
-</td>
-<td align="left" width="63%">
-Determines whether a class implements one or more categories.
-
-</td>
-</tr>
-</table>
+The <b>ICatInformation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICatInformation</b> also has these types of members:
 
 ## -see-also
 

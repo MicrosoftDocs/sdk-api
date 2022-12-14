@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkCollector.SetEventInterest
 title: IInkCollector::SetEventInterest (msinkaut.h)
-description: Modifies a value that indicates whether an object or control has interest in a specified event.
+description: Modifies a value that indicates whether an object or control has interest in a specified event. (IInkCollector.SetEventInterest)
 helpviewer_keywords: ["IInkCollector interface [Tablet PC]","SetEventInterest method","IInkCollector.SetEventInterest","IInkCollector::SetEventInterest","SetEventInterest","SetEventInterest method [Tablet PC]","SetEventInterest method [Tablet PC]","IInkCollector interface","df25efbb-5229-4211-948f-3a213154a967","msinkaut/IInkCollector::SetEventInterest","tablet.inkcollector_seteventinterest"]
 old-location: tablet\inkcollector_seteventinterest.htm
 tech.root: tablet
@@ -138,7 +138,7 @@ Use the <a href="/windows/desktop/tablet/inkcollector-newpackets">NewPackets</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
+<a href="../msinkaut/nn-msinkaut-iinkcollector.md">IInkCollector</a>
 
 
 

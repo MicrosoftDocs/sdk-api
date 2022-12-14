@@ -19,8 +19,8 @@ req.lib: d3d12.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -48,19 +48,19 @@ For purposes of sampler feedback, creates a descriptor suitable for binding.
 
 ### -param pTargetedResource
 
-Type: \_In\_opt\_ **[ID3D12Resource](/windows/win32/api/d3d12/nn-d3d12-id3d12heap)\***
+Type: \_In\_opt\_ **[ID3D12Resource](./nn-d3d12-id3d12heap.md)\***
 
 The targeted resource, such as a texture, to create a descriptor for.
 
 ### -param pFeedbackResource
 
-Type: \_In\_opt\_ **[ID3D12Resource](/windows/win32/api/d3d12/nn-d3d12-id3d12heap)\***
+Type: \_In\_opt\_ **[ID3D12Resource](./nn-d3d12-id3d12heap.md)\***
 
 The feedback resource, such as a texture, to create a descriptor for.
 
 ### -param DestDescriptor
 
-Type: \_In\_ **[D3D12_CPU_DESCRIPTOR_HANDLE](/windows/win32/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle)**
+Type: \_In\_ **[D3D12_CPU_DESCRIPTOR_HANDLE](./ns-d3d12-d3d12_cpu_descriptor_handle.md)**
 
 The CPU descriptor handle.
 

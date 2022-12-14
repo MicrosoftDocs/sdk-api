@@ -51,7 +51,7 @@ The <b>DdSyncVideoPortData</b> callback function sets and modifies VPE object da
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_syncvideoportdata">DD_SYNCVIDEOPORTDATA</a> structure that contains the VPE object data.
 

@@ -54,6 +54,9 @@ api_name:
 
 The <b>CM_Get_Parent</b> function obtains a device instance handle to the parent node of a specified device node (<a href="/windows-hardware/drivers/">devnode</a>) in the local machine's device tree.
 
+> [!NOTE]
+> In Windows Vista and later versions of Windows, the [unified device property model](/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-) uses the [**DEVPKEY_Device_Parent**](/windows-hardware/drivers/install/devpkey-device-parent) [property key](/windows-hardware/drivers/install/property-keys) to represent device parent. See [Retrieving Device Relations](/windows-hardware/drivers/install/retrieving-device-relations) for details.
+
 ## -parameters
 
 ### -param pdnDevInst [out]

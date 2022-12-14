@@ -54,27 +54,27 @@ Determines whether and how a property is indexed by Windows Search.
 
 ## -enum-fields
 
-### -field PDSIF_DEFAULT
+### -field PDSIF_DEFAULT:0
 
 The property is not indexed.
 
-### -field PDSIF_ININVERTEDINDEX
+### -field PDSIF_ININVERTEDINDEX:0x1
 
 The property is in an inverted index to help speed searches.
 
-### -field PDSIF_ISCOLUMN
+### -field PDSIF_ISCOLUMN:0x2
 
 The property is indexed by Windows Search.
 
-### -field PDSIF_ISCOLUMNSPARSE
+### -field PDSIF_ISCOLUMNSPARSE:0x4
 
 The property is indexed to save space for properties that are not present on all files.
 
-### -field PDSIF_ALWAYSINCLUDE
+### -field PDSIF_ALWAYSINCLUDE:0x8
 
 <b>Windows 7 and later</b>. The property mnemonics are recognized by AQS even if the property is not a column (PDSIF_ISCOLUMN).
 
-### -field PDSIF_USEFORTYPEAHEAD
+### -field PDSIF_USEFORTYPEAHEAD:0x10
 
 Check this property for matches when looking for type ahead results.
 

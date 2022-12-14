@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.GetObjectA
 title: GetObjectA function (wingdi.h)
-description: The GetObject function retrieves information for the specified graphics object.
+description: The GetObject function retrieves information for the specified graphics object. (GetObjectA)
 helpviewer_keywords: ["GetObject","GetObject function [Windows GDI]","GetObjectA","GetObjectW","HBITMAP","HBITMAP returned from a call to CreateDIBSection","HBRUSH","HFONT","HPALETTE","HPEN","HPEN returned from a call to ExtCreatePen","_win32_GetObject","gdi.getobject","wingdi/GetObject","wingdi/GetObjectA","wingdi/GetObjectW"]
 old-location: gdi\getobject.htm
 tech.root: gdi
@@ -60,15 +60,15 @@ The <b>GetObject</b> function retrieves information for the specified graphics o
 
 ## -parameters
 
-### -param h [in]
+### -param hgdiobj [in]
 
 A handle to the graphics object of interest. This can be a handle to one of the following: a logical bitmap, a brush, a font, a palette, a pen, or a device independent bitmap created by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a> function.
 
-### -param c [in]
+### -param cbBuffer [in]
 
 The number of bytes of information to be written to the buffer.
 
-### -param pv [out]
+### -param lpvObject [out]
 
 A pointer to a buffer that receives the information about the specified graphics object.
 

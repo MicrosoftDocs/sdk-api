@@ -56,35 +56,8 @@ The <code>IKsNodeControl</code> interface is used by the KsProxy filter to commu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsNodeControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsNodeControl</b> also has these types of members:
+The <b>IKsNodeControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsNodeControl</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IKsNodeControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vidcap/nf-vidcap-iksnodecontrol-put_kscontrol">put_KsControl</a>
-</td>
-<td align="left" width="63%">
-Provides an instance of the <b>IKsControl</b> interface to the extension unit.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vidcap/nf-vidcap-iksnodecontrol-put_nodeid">put_NodeId</a>
-</td>
-<td align="left" width="63%">
-Sets the node identifier for the extension unit.
-
-</td>
-</tr>
-</table>

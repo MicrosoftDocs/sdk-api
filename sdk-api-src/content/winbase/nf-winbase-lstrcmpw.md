@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.lstrcmpW
 title: lstrcmpW function (winbase.h)
-description: Compares two character strings. The comparison is case-sensitive.
+description: Compares two character strings. The comparison is case-sensitive. (Unicode)
 helpviewer_keywords: ["_win32_lstrcmp","_win32_lstrcmp_cpp","lstrcmp","lstrcmp function [Menus and Other Resources]","lstrcmpA","lstrcmpW","menurc.lstrcmp","winbase/lstrcmp","winbase/lstrcmpA","winbase/lstrcmpW","winui._win32_lstrcmp"]
 old-location: menurc\lstrcmp.htm
 tech.root: menurc
@@ -102,9 +102,7 @@ With a double-byte character set (DBCS) version of the system, this function can
 The <b>lstrcmp</b> function uses a word sort, rather than a string sort. A word sort treats hyphens and apostrophes differently than it treats other symbols that are not alphanumeric, in order to ensure that words such as "coop" and "co-op" stay together within a sorted list. For a detailed discussion of word sorts and string sorts, see <a href="/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>. 
 
 <h3><a id="Security_Remarks"></a><a id="security_remarks"></a><a id="SECURITY_REMARKS"></a>Security Remarks</h3>
-See <a href="/windows/desktop/Intl/security-considerations--international-features">Security Considerations: International Features</a> for security considerations regarding 
-
-choice of comparison functions.
+See <a href="/windows/desktop/Intl/security-considerations--international-features">Security Considerations: International Features</a> for security considerations regarding choice of comparison functions.
 
 
 

@@ -57,49 +57,7 @@ This property is initialized by the enrollment process after the client requests
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertyArchived</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>. <b>ICertPropertyArchived</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
-
-## -members
-
-The <b>ICertPropertyArchived</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyarchived-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the object from a Boolean value that specifies whether the certificate has been archived.
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertyArchived</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyarchived-get_archived">Archived</a>
-
-
-</td>
-<td align="left" width="63%">
-Retrieves a Boolean value that specifies whether the certificate has been archived.
-
-</td>
-</tr>
-</table>
+The <b>ICertPropertyArchived</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>. <b>ICertPropertyArchived</b> also has these types of members:
 
 ## -see-also
 

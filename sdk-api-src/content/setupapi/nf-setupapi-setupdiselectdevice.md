@@ -60,7 +60,7 @@ A handle to a <a href="/windows-hardware/drivers/install/device-information-sets
 
 ### -param DeviceInfoData [in, out]
 
-A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, <b>SetupDiSelectDevice</b> selects the driver for the specified device and sets <i>DeviceInfoData.</i><b>ClassGuid</b> to the GUID of the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> for the selected driver. If this parameter is <b>NULL</b>, <b>SetupDiSelectDevice</b> sets the selected driver in the global class driver list for <i>DeviceInfoSet</i>.
+A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, <b>SetupDiSelectDevice</b> selects the driver for the specified device and sets <i>DeviceInfoData.</i><b>ClassGuid</b> to the GUID of the <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> for the selected driver. If this parameter is <b>NULL</b>, <b>SetupDiSelectDevice</b> sets the selected driver in the global class driver list for <i>DeviceInfoSet</i>.
 
 ## -returns
 

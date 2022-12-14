@@ -53,7 +53,7 @@ api_name:
 
 The <code>AllocateStreamingResources</code> method allocates any resources needed by the DMO. Calling this method is always optional.
 
-## -parameters
+
 
 ## -returns
 

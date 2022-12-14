@@ -54,7 +54,7 @@ api_name:
 The 
 <b>FreeWriterMetadata</b> method frees system resources allocated when <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a> was called.
 
-## -parameters
+
 
 ## -returns
 

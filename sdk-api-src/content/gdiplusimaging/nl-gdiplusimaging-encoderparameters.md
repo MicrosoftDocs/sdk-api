@@ -54,7 +54,7 @@ api_name:
 
 An <b>EncoderParameters</b> object is an array of <a href="/previous-versions/ms534434(v=vs.85)">EncoderParameter</a> objects along with a data member that specifies the number of <b>EncoderParameter</b> objects in the array.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">EncoderParameters</b> has these types of members:
+<b>EncoderParameters</b> has these types of members:
 
 ## -remarks
 

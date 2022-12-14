@@ -54,23 +54,23 @@ Specifies how the alpha value of a bitmap or render target should be treated.
 
 ## -enum-fields
 
-### -field D2D1_ALPHA_MODE_UNKNOWN
+### -field D2D1_ALPHA_MODE_UNKNOWN:0
 
 The alpha value might not be meaningful.
 
-### -field D2D1_ALPHA_MODE_PREMULTIPLIED
+### -field D2D1_ALPHA_MODE_PREMULTIPLIED:1
 
 The alpha value has been premultiplied. Each color is first scaled by the alpha value. The alpha value itself is the same in both straight and premultiplied alpha. Typically, no color channel value is greater than the alpha channel value.  If a color channel value in a premultiplied format is greater than the alpha channel, the standard source-over blending math results in an additive blend.
 
-### -field D2D1_ALPHA_MODE_STRAIGHT
+### -field D2D1_ALPHA_MODE_STRAIGHT:2
 
 The alpha value has not been premultiplied. The alpha channel indicates the transparency of the color.
 
-### -field D2D1_ALPHA_MODE_IGNORE
+### -field D2D1_ALPHA_MODE_IGNORE:3
 
 The alpha value is ignored.
 
-### -field D2D1_ALPHA_MODE_FORCE_DWORD
+### -field D2D1_ALPHA_MODE_FORCE_DWORD:0xffffffff
 
 ## -remarks
 
@@ -91,7 +91,7 @@ If you draw a partially transparent red rectangle when the alpha mode is [Create
 <h3><a id="ClearType_and_Alpha_Modes"></a><a id="cleartype_and_alpha_modes"></a><a id="CLEARTYPE_AND_ALPHA_MODES"></a>ClearType and Alpha Modes</h3>
 If you specify an alpha mode other than <b>D2D1_ALPHA_MODE_IGNORE</b> for a render target, the text antialiasing mode automatically changes from <a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_text_antialias_mode">D2D1_TEXT_ANTIALIAS_MODE CLEARTYPE</a>  to <b>D2D1_TEXT_ANTIALIAS_MODE GRAYSCALE</b>. (When you specify an alpha mode of <b>D2D1_ALPHA_MODE_UNKNOWN</b>, Direct2D sets the alpha for you depending on the type of render target. For a list of what the <b>D2D1_ALPHA_MODE_UNKNOWN</b> setting resolves to for each render target, see the <a href="/windows/desktop/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel Formats and Alpha Modes</a> overview.) 
 
-You can use the <a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-settextantialiasmode">SetTextAntialiasMode</a> method to change the text antialias mode  back to <a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_text_antialias_mode">D2D1_TEXT_ANTIALIAS_MODE CLEARTYPE</a>, but rendering ClearType text to a transparent surface can create unpredictable results. If you want to render ClearType text to an transparent render target, we recommend that you use one of the following two techniques. 
+You can use the <a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-settextantialiasmode">SetTextAntialiasMode</a> method to change the text antialias mode  back to <a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_text_antialias_mode">D2D1_TEXT_ANTIALIAS_MODE CLEARTYPE</a>, but rendering ClearType text to a transparent surface can create unpredictable results. If you want to render ClearType text to a transparent render target, we recommend that you use one of the following two techniques. 
 
 <ul>
 <li>Use the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip(constd2d1_rect_f_d2d1_antialias_mode)">PushAxisAlignedClip</a> method to clip the render target to the area where the text will be rendered,    then call the <a href="/windows/desktop/Direct2D/id2d1rendertarget-clear">Clear</a> method and specify an opaque color, then render your text.</li>

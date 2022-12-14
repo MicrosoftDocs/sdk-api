@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.InternetOpenUrlA
 title: InternetOpenUrlA function (wininet.h)
-description: Opens a resource specified by a complete FTP or HTTP URL.
+description: Opens a resource specified by a complete FTP or HTTP URL. (ANSI)
 helpviewer_keywords: ["InternetOpenUrl","InternetOpenUrl function [WinINet]","InternetOpenUrlA","InternetOpenUrlW","_inet_internetopenurl_function","wininet.internetopenurl","wininet/InternetOpenUrl","wininet/InternetOpenUrlA","wininet/InternetOpenUrlW"]
 old-location: wininet\internetopenurl.htm
 tech.root: wininet

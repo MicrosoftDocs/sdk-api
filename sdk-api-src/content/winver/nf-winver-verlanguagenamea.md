@@ -1,7 +1,7 @@
 ---
 UID: NF:winver.VerLanguageNameA
 title: VerLanguageNameA function (winver.h)
-description: Retrieves a description string for the language associated with a specified binary Microsoft language identifier.
+description: Retrieves a description string for the language associated with a specified binary Microsoft language identifier. (ANSI)
 helpviewer_keywords: ["VerLanguageName","VerLanguageName function [Menus and Other Resources]","VerLanguageNameA","VerLanguageNameW","_win32_VerLanguageName","_win32_verlanguagename_cpp","menurc.verlanguagename","winui._win32_verlanguagename","winver/VerLanguageName","winver/VerLanguageNameA","winver/VerLanguageNameW"]
 old-location: menurc\verlanguagename.htm
 tech.root: menurc

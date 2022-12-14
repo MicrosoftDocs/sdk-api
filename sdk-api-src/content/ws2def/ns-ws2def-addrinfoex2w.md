@@ -1,7 +1,7 @@
 ---
 UID: NS:ws2def.addrinfoex2W
 title: ADDRINFOEX2W (ws2def.h)
-description: Used by the GetAddrInfoEx function to hold host address information when both a canonical name and a fully qualified domain name have been requested.
+description: Used by the GetAddrInfoEx function to hold host address information when both a canonical name and a fully qualified domain name have been requested. (Unicode)
 helpviewer_keywords: ["*LPADDRINFOEX2W","*PADDRINFOEX2W","ADDRINFOEX2","ADDRINFOEX2 structure [Winsock]","ADDRINFOEX2W","AF_BTH","AF_INET","AF_INET6","AF_IRDA","AF_NETBIOS","AF_UNSPEC","AI_ADDRCONFIG","AI_ALL","AI_CANONNAME","AI_DISABLE_IDN_ENCODING","AI_FILESERVER","AI_FQDN","AI_NON_AUTHORITATIVE","AI_NUMERICHOST","AI_PASSIVE","AI_RETURN_PREFERRED_NAMES","AI_SECURE","AI_V4MAPPED","IPPROTO_RM","IPPROTO_TCP","IPPROTO_UDP","LPADDRINFOEX2","LPADDRINFOEX2 structure pointer [Winsock]","PADDRINFOEX2","PADDRINFOEX2 structure pointer [Winsock]","SOCK_DGRAM","SOCK_RAW","SOCK_RDM","SOCK_SEQPACKET","SOCK_STREAM","addrinfoex2","addrinfoex2 structure [Winsock]","addrinfoex2A","addrinfoex2W","winsock.addrinfoex2","ws2def/LPADDRINFOEX2","ws2def/PADDRINFOEX2","ws2def/addrinfoex2","ws2def/addrinfoex2A","ws2def/addrinfoex2W"]
 old-location: winsock\addrinfoex2.htm
 tech.root: WinSock
@@ -84,7 +84,7 @@ Supported values for the <b>ai_flags</b> member are defined in the <i>Winsock2.h
 </dl>
 </td>
 <td width="60%">
-The socket address will be used in a call to the <a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a>function.
+The socket address will be used in a call to the <a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function.
 
 </td>
 </tr>

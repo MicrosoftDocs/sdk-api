@@ -55,7 +55,7 @@ api_name:
 
 Ejects the media from the current device.
 
-## -parameters
+
 
 ## -returns
 

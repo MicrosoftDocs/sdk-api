@@ -54,53 +54,5 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetworkEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetworkEvents</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>INetworkEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetworkEvents</b> also has these types of members:
 
-## -members
-
-The <b>INetworkEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkevents-networkadded">NetworkAdded</a>
-</td>
-<td align="left" width="63%">
-Called when a new network is added.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkevents-networkconnectivitychanged">NetworkConnectivityChanged</a>
-</td>
-<td align="left" width="63%">
-Called when network connectivity related changes occur. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkevents-networkdeleted">NetworkDeleted</a>
-</td>
-<td align="left" width="63%">
-Called when a network is deleted.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkevents-networkpropertychanged">NetworkPropertyChanged</a>
-</td>
-<td align="left" width="63%">
-Called when a network property change is detected.
-
-</td>
-</tr>
-</table>

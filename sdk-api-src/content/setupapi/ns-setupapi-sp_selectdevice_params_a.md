@@ -1,7 +1,7 @@
 ---
 UID: NS:setupapi._SP_SELECTDEVICE_PARAMS_A
 title: SP_SELECTDEVICE_PARAMS_A (setupapi.h)
-description: An SP_SELECTDEVICE_PARAMS structure corresponds to a DIF_SELECTDEVICE installation request.
+description: An SP_SELECTDEVICE_PARAMS structure corresponds to a DIF_SELECTDEVICE installation request. (ANSI)
 helpviewer_keywords: ["*PSP_SELECTDEVICE_PARAMS_A","PSP_SELECTDEVICE_PARAMS","PSP_SELECTDEVICE_PARAMS structure pointer [Device and Driver Installation]","SP_SELECTDEVICE_PARAMS","SP_SELECTDEVICE_PARAMS structure [Device and Driver Installation]","SP_SELECTDEVICE_PARAMS_A","devinst.sp_selectdevice_params","di-struct_897a5d1d-5ff3-4d70-b39d-3763b81d54bf.xml","setupapi/PSP_SELECTDEVICE_PARAMS","setupapi/SP_SELECTDEVICE_PARAMS"]
 old-location: devinst\sp_selectdevice_params.htm
 tech.root: devinst

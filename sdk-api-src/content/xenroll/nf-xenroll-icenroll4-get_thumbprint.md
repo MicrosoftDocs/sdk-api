@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.ICEnroll4.get_ThumbPrint
 title: ICEnroll4::get_ThumbPrint (xenroll.h)
-description: Sets or retrieves a hash of the certificate data.
+description: Sets or retrieves a hash of the certificate data. (Get)
 helpviewer_keywords: ["CEnroll object [Security]","ThumbPrint property","ICEnroll4 interface [Security]","ThumbPrint property","ICEnroll4.ThumbPrint","ICEnroll4.get_ThumbPrint","ICEnroll4::ThumbPrint","ICEnroll4::get_ThumbPrint","ICEnroll4::put_ThumbPrint","ThumbPrint property [Security]","ThumbPrint property [Security]","CEnroll object","ThumbPrint property [Security]","ICEnroll4 interface","_xen_icenroll4_thumbprint","get_ThumbPrint","security.icenroll4_thumbprint","xenroll/ICEnroll4::ThumbPrint","xenroll/ICEnroll4::get_ThumbPrint","xenroll/ICEnroll4::put_ThumbPrint"]
 old-location: security\icenroll4_thumbprint.htm
 tech.root: security

@@ -50,6 +50,8 @@ api_name:
 
 The <code>GetAudioFormat</code> method returns the <a href="/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a> structure for the audio data format.
 
+
+
 ## -returns
 
 The <code>GetAudioFormat</code> method returns a pointer to a <a href="/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a> structure.

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgDocument.CreatePaint(D2D1_SVG_PAINT_TYPE,constD2D1_COLOR_F&,PCWSTR,ID2D1SvgPaint)
 title: ID2D1SvgDocument::CreatePaint(D2D1_SVG_PAINT_TYPE,const D2D1_COLOR_F &,PCWSTR,ID2D1SvgPaint) (d2d1svg.h)
-description: Creates a paint object which can be used to set the 'fill' or 'stroke' properties.
+description: Creates a paint object which can be used to set the 'fill' or 'stroke' properties. (overload 2/2)
 helpviewer_keywords: ["CreatePaint","CreatePaint method [Direct2D]","CreatePaint method [Direct2D]","ID2D1SvgDocument interface","ID2D1SvgDocument interface [Direct2D]","CreatePaint method","ID2D1SvgDocument.CreatePaint","ID2D1SvgDocument.CreatePaint(D2D1_SVG_PAINT_TYPE","const D2D1_COLOR_F &","PCWSTR","ID2D1SvgPaint)","ID2D1SvgDocument::CreatePaint","ID2D1SvgDocument::CreatePaint(D2D1_SVG_PAINT_TYPE","const D2D1_COLOR_F &","PCWSTR","ID2D1SvgPaint)","d2d1svg/ID2D1SvgDocument::CreatePaint","direct2d.id2d1svgdocument_createpaint_2"]
 old-location: direct2d\id2d1svgdocument_createpaint_2.htm
 tech.root: Direct2D

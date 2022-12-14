@@ -58,44 +58,5 @@ However, an object, such as a control, needs to be able to control the mouse poi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPointerInactive</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPointerInactive</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPointerInactive</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPointerInactive</b> also has these types of members:
 
-## -members
-
-The <b>IPointerInactive</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ipointerinactive-getactivationpolicy">GetActivationPolicy</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current activation policy for the object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ipointerinactive-oninactivemousemove">OnInactiveMouseMove</a>
-</td>
-<td align="left" width="63%">
-Notifies the object that the mouse pointer has moved over it so the object can fire mouse events.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ipointerinactive-oninactivesetcursor">OnInactiveSetCursor</a>
-</td>
-<td align="left" width="63%">
-Sets the mouse pointer for an inactive object.
-
-</td>
-</tr>
-</table>

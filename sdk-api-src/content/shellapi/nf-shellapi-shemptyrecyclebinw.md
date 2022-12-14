@@ -1,7 +1,7 @@
 ---
 UID: NF:shellapi.SHEmptyRecycleBinW
 title: SHEmptyRecycleBinW function (shellapi.h)
-description: Empties the Recycle Bin on the specified drive.
+description: Empties the Recycle Bin on the specified drive. (Unicode)
 helpviewer_keywords: ["SHERB_NOCONFIRMATION","SHERB_NOPROGRESSUI","SHERB_NOSOUND","SHEmptyRecycleBin","SHEmptyRecycleBin function [Windows Shell]","SHEmptyRecycleBinA","SHEmptyRecycleBinW","_win32_SHEmptyRecycleBin","shell.SHEmptyRecycleBin","shellapi/SHEmptyRecycleBin","shellapi/SHEmptyRecycleBinA","shellapi/SHEmptyRecycleBinW"]
 old-location: shell\SHEmptyRecycleBin.htm
 tech.root: shell
@@ -46,6 +46,7 @@ api_name:
  - SHEmptyRecycleBin
  - SHEmptyRecycleBinA
  - SHEmptyRecycleBinW
+req.apiset: ext-ms-win-shell-shell32-l1-2-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SHEmptyRecycleBinW function
@@ -112,7 +113,7 @@ No sound will be played when the operation is complete.
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

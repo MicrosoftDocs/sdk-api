@@ -52,12 +52,12 @@ api_name:
 
 Reads text from a Reader and parses it according to the specified value type.
       
-        The Reader reads from its current position up to the next Start or End element and
-        parses them according to the specified value type.  If the Reader is already positioned on a Start or End element
-        the buffer remains empty.
-      Comments are skipped and CDATA content is treated the same as other  element content.
-      Leading and trailing whitespaces are ignored.
-      If the value cannot be parsed according to the specified value type, the function returns a <b>WS_E_INVALID_FORMAT</b> error code. (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)<div class="alert"><b>Note</b>  This function can fail for any of the reasons listed in <a href="/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a>.</div>
+The Reader reads from its current position up to the next Start or End element and parses them according to the specified value type.  If the Reader is already positioned on a Start or End element the buffer remains empty.
+      
+Comments are skipped and CDATA content is treated the same as other  element content.
+
+Leading and trailing whitespaces are ignored. If the value cannot be parsed according to the specified value type, the function returns a <b>WS_E_INVALID_FORMAT</b> error code. (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)<div class="alert"><b>Note</b>  This function can fail for any of the reasons listed in <a href="/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a>.
+</div>
 <div> </div>
 
 ## -parameters
@@ -72,8 +72,7 @@ The text interpretation type.
 
 ### -param value
 
-A pointer to the parsed data if parsing was successful according to the specified value type.  The
-          size required is determined by value type.  See <a href="/windows/desktop/api/webservices/ne-webservices-ws_value_type">WS_VALUE_TYPE</a> for more information.
+A pointer to the parsed data if parsing was successful according to the specified value type.  The size required is determined by value type.  See <a href="/windows/desktop/api/webservices/ne-webservices-ws_value_type">WS_VALUE_TYPE</a> for more information.
 
 ### -param valueSize [in]
 
@@ -120,7 +119,9 @@ A quota was exceeded.
 
 An example that reads an element containing an integer value.
 
-<pre class="syntax" xml:space="preserve"><code>// Advance the reader to the element
+
+``` syntax
+// Advance the reader to the element
 HRESULT hr = WsReadToStartElement(reader, localName, ns, NULL, error);
 if (FAILED(hr))
 {
@@ -144,10 +145,14 @@ hr = WsReadEndElement(reader, error);
 if (FAILED(hr))
 {
     return hr;
-}</code></pre>
+}
+```
+
 The grammar for the values types.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 WS_BOOL_VALUE_TYPE     = "true"
                        | "false"
                        | "1"
@@ -185,4 +190,6 @@ MM                     = 1-31
 tz                     = "Z"
                        | sign hh ":" mm
 d7                     = digit digit? digit? digit? digit? digit? digit?
-</code></pre>
+
+```
+

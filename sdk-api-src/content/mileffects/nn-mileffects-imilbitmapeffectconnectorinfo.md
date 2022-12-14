@@ -54,53 +54,5 @@ Exposes methods that retrieve information about a specific input or output conne
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectConnectorInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectConnectorInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMILBitmapEffectConnectorInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectConnectorInfo</b> also has these types of members:
 
-## -members
-
-The <b>IMILBitmapEffectConnectorInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectconnectorinfo-getformat">GetFormat</a>
-</td>
-<td align="left" width="63%">
-Retrieves the pixel format for the given pin.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/ms735300(v=vs.85)">GetIndex</a>
-</td>
-<td align="left" width="63%">
-Retrieves the zero based index value for the pin.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectconnectorinfo-getnumberformats">GetNumberFormats</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of pixel formats supported by the pin.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectconnectorinfo-getoptimalformat">GetOptimalFormat</a>
-</td>
-<td align="left" width="63%">
-Retrieves the optimal pixel format for the pin.
-
-</td>
-</tr>
-</table>

@@ -65,7 +65,7 @@ The maximum time in milliseconds that this call blocks before it returns. If you
 
 Cannot be <b>NULL</b>. It receives a pointer to the 
 <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> interface requested by the original call to 
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-opennamespace">OpenNamespace</a> when it becomes available The caller must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IWbemServices::Release</a>on the returned object when it is no longer required.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-opennamespace">OpenNamespace</a> when it becomes available The caller must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IWbemServices::Release</a> on the returned object when it is no longer required.
 
 On error, a new object is not returned.
 

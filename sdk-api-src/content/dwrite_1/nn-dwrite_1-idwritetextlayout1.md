@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_1.IDWriteTextLayout1
 title: IDWriteTextLayout1 (dwrite_1.h)
-description: Represents a block of text after it has been fully analyzed and formatted.
+description: Represents a block of text after it has been fully analyzed and formatted. (IDWriteTextLayout1)
 helpviewer_keywords: ["IDWriteTextLayout1","IDWriteTextLayout1 interface [Direct Write]","IDWriteTextLayout1 interface [Direct Write]","described","directwrite.idwritetextlayout1","dwrite_1/IDWriteTextLayout1"]
 old-location: directwrite\idwritetextlayout1.htm
 tech.root: DirectWrite
@@ -54,56 +54,7 @@ Represents a block of text after it has been fully analyzed and formatted.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextLayout1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>. <b>IDWriteTextLayout1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDWriteTextLayout1</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-getcharacterspacing">GetCharacterSpacing</a>
-</td>
-<td align="left" width="63%">
-Gets the spacing between characters.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-getpairkerning">GetPairKerning</a>
-</td>
-<td align="left" width="63%">
-Gets whether or not pair-kerning is enabled at given position.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-setcharacterspacing">SetCharacterSpacing</a>
-</td>
-<td align="left" width="63%">
-Sets the spacing between characters.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-setpairkerning">SetPairKerning</a>
-</td>
-<td align="left" width="63%">
-Enables or disables pair-kerning on a given text range.
-
-</td>
-</tr>
-</table>
+The <b>IDWriteTextLayout1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>. <b>IDWriteTextLayout1</b> also has these types of members:
 
 ## -see-also
 

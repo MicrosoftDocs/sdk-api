@@ -56,7 +56,7 @@ Defines when a transform in a topology is flushed.
 
 ## -enum-fields
 
-### -field MF_TOPONODE_FLUSH_ALWAYS
+### -field MF_TOPONODE_FLUSH_ALWAYS:0
 
 The transform is flushed whenever the stream changes, including seeks and new segments.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.Play
 title: IMFMediaEngine::Play (mfmediaengine.h)
-description: Starts playback.
+description: Starts playback. (IMFMediaEngine.Play)
 helpviewer_keywords: ["IMFMediaEngine interface [Media Foundation]","Play method","IMFMediaEngine.Play","IMFMediaEngine::Play","Play","Play method [Media Foundation]","Play method [Media Foundation]","IMFMediaEngine interface","mf.imfmediaengine_play","mfmediaengine/IMFMediaEngine::Play"]
 old-location: mf\imfmediaengine_play.htm
 tech.root: mf
@@ -52,11 +52,11 @@ api_name:
 
 Starts playback.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

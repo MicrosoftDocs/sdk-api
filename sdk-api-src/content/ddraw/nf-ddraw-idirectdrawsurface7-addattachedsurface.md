@@ -50,7 +50,7 @@ Attaches the specified z-buffer surface to this surface.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Address of the <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface for the surface to be attached.
 
@@ -84,7 +84,7 @@ If it fails, the method can return one of the following error values:
 
 You can attach only z-buffer surfaces with this method.
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>AddAttachedSurface</b> method.
+
 
 
 

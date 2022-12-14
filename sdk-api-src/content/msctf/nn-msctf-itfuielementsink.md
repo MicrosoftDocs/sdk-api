@@ -54,47 +54,7 @@ The <b>ITfUIElementSink</b> interface is implemented by an application to receiv
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfUIElementSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfUIElementSink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfUIElementSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfuielementsink-beginuielement">BeginUIElement</a>
-</td>
-<td align="left" width="63%">
-This is called when the UIElement started. This sink can let the textservice to draw or not to draw the UI element.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfuielementsink-enduielement">EndUIElement</a>
-</td>
-<td align="left" width="63%">
-This is called when the UIElement is finished.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfuielementsink-updateuielement">UpdateUIElement</a>
-</td>
-<td align="left" width="63%">
-This is called when the contents of the UIElement is updated.
-
-</td>
-</tr>
-</table>
+The <b>ITfUIElementSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfUIElementSink</b> also has these types of members:
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.FindWindowExW
 title: FindWindowExW function (winuser.h)
-description: Retrieves a handle to a window whose class name and window name match the specified strings. The function searches child windows, beginning with the one following the specified child window. This function does not perform a case-sensitive search.
+description: Retrieves a handle to a window whose class name and window name match the specified strings. The function searches child windows, beginning with the one following the specified child window. This function does not perform a case-sensitive search. (Unicode)
 helpviewer_keywords: ["FindWindowEx","FindWindowEx function [Windows and Messages]","FindWindowExA","FindWindowExW","_win32_FindWindowEx","_win32_findwindowex_cpp","winmsg.findwindowex","winui._win32_findwindowex","winuser/FindWindowEx","winuser/FindWindowExA","winuser/FindWindowExW"]
 old-location: winmsg\findwindowex.htm
 tech.root: winmsg
@@ -54,6 +54,7 @@ api_name:
  - FindWindowEx
  - FindWindowExA
  - FindWindowExW
+req.apiset: ext-ms-win-ntuser-window-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # FindWindowExW function
@@ -108,6 +109,8 @@ If the function succeeds, the return value is a handle to the window that has th
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
+
+The FindWindowEx function searches only direct child windows. It does not search other descendants.
 
 If the <i>lpszWindow</i> parameter is not <b>NULL</b>, <b>FindWindowEx</b> calls the <a href="/windows/desktop/api/winuser/nf-winuser-getwindowtexta">GetWindowText</a> function to retrieve the window name for comparison. For a description of a potential problem that can arise, see the Remarks section of <b>GetWindowText</b>.
 

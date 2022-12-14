@@ -66,6 +66,12 @@ The intensity of the green color.
 
 The intensity of the blue color.
 
+## -return
+
+Type: <b><a href="/windows/win32/gdi/colorref">COLORREF</a></b>
+
+The COLORREF represented by the given RGB values.
+
 ## -remarks
 
 The intensity for each argument is in the range 0 through 255. If all three intensities are zero, the result is black. If all three intensities are 255, the result is white.

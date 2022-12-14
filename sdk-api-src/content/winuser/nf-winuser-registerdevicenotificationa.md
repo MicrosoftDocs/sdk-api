@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.RegisterDeviceNotificationA
 title: RegisterDeviceNotificationA function (winuser.h)
-description: Registers the device or type of device for which a window will receive notifications.
+description: Registers the device or type of device for which a window will receive notifications. (ANSI)
 helpviewer_keywords: ["DEVICE_NOTIFY_ALL_INTERFACE_CLASSES","DEVICE_NOTIFY_SERVICE_HANDLE","DEVICE_NOTIFY_WINDOW_HANDLE","RegisterDeviceNotification","RegisterDeviceNotification function","RegisterDeviceNotificationA","RegisterDeviceNotificationW","_win32_registerdevicenotification","base.registerdevicenotification","winuser/RegisterDeviceNotification","winuser/RegisterDeviceNotificationA","winuser/RegisterDeviceNotificationW"]
 old-location: base\registerdevicenotification.htm
 tech.root: base
@@ -52,6 +52,7 @@ api_name:
  - RegisterDeviceNotification
  - RegisterDeviceNotificationA
  - RegisterDeviceNotificationW
+req.apiset: ext-ms-win-ntuser-misc-l1-1-0 (introduced in Windows 8)
 ---
 
 # RegisterDeviceNotificationA function

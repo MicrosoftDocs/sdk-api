@@ -52,7 +52,7 @@ api_name:
 
 The <b>ComputeSiteCosts</b> method is not currently used.
 
-## -parameters
+
 
 ## -returns
 

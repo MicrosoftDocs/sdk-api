@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.WritePrivateProfileStringW
 title: WritePrivateProfileStringW function (winbase.h)
-description: Copies a string into the specified section of an initialization file.
+description: Copies a string into the specified section of an initialization file. (Unicode)
 helpviewer_keywords: ["WritePrivateProfileString","WritePrivateProfileString function","WritePrivateProfileStringA","WritePrivateProfileStringW","_win32_writeprivateprofilestring","base.writeprivateprofilestring","winbase/WritePrivateProfileString","winbase/WritePrivateProfileStringA","winbase/WritePrivateProfileStringW"]
 old-location: base\writeprivateprofilestring.htm
 tech.root: winprog
@@ -90,11 +90,15 @@ If the function fails, or if it flushes the cached version of the most recently 
 
 A section in the initialization file must have the following form:
 
-<pre class="syntax" xml:space="preserve"><code>[section]
+
+``` syntax
+[section]
 key=string
       .
       .
-      .</code></pre>
+      .
+```
+
 If the <i>lpFileName</i> parameter does not contain a full path and file name for the file, 
 <b>WritePrivateProfileString</b> searches the Windows directory for the file. If the file does not exist, this function creates the file in the Windows directory.
 
@@ -103,7 +107,7 @@ If <i>lpFileName</i> contains a full path and file name and the file does not ex
 
 The system keeps a cached version of the most recent registry file mapping to improve performance. If all parameters are <b>NULL</b>, the function flushes the cache. While the system is editing the cached version of the file, processes that edit the file itself will use the original file until the cache has been cleared.
 
-The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
          <b>Windows NT</b>
@@ -163,10 +167,14 @@ The following sample code illustrates the preceding guidelines and is based on s
 <li>There is a section in the .ini file that we want to look like this: 
 
 
-<pre class="syntax" xml:space="preserve"><code>[Section1] 
+
+``` syntax
+[Section1] 
   FirstKey = It all worked out okay. 
   SecondKey = By golly, it works. 
-  ThirdKey = Another test.</code></pre>
+  ThirdKey = Another test.
+```
+
 </li>
 <li>The user will not have to reboot the system in order to have future invocations of the application see the mapping of the .ini file to the registry.</li>
 </ul>

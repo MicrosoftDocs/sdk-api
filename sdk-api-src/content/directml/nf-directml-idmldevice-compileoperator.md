@@ -54,22 +54,22 @@ Compiles an operator into an object that can be dispatched to the GPU.
 
 A compiled operator represents the efficient, baked form of an operator suitable for execution on the GPU.
         A compiled operator holds state (such as shaders and other objects) required for execution. Because a compiled operator
-        implements the [IDMLPageable](/windows/desktop/api/directml/nn-directml-idmlpageable) interface, you're able to evict one from GPU memory if you wish. See
-        [IDMLDevice::Evict](/windows/desktop/api/directml/nf-directml-idmldevice-evict) and [IDMLDevice::MakeResident](/windows/desktop/api/directml/nf-directml-idmldevice-makeresident) for more info.
+        implements the [IDMLPageable](/windows/win32/api/directml/nn-directml-idmlpageable) interface, you're able to evict one from GPU memory if you wish. See
+        [IDMLDevice::Evict](/windows/win32/api/directml/nf-directml-idmldevice-evict) and [IDMLDevice::MakeResident](/windows/win32/api/directml/nf-directml-idmldevice-makeresident) for more info.
 
-The compiled operator maintains a strong reference to the supplied [IDMLOperator](/windows/desktop/api/directml/nn-directml-idmloperator) pointer.
+The compiled operator maintains a strong reference to the supplied [IDMLOperator](/windows/win32/api/directml/nn-directml-idmloperator) pointer.
 
 ## -parameters
 
 ### -param op
 
-Type: <b>[IDMLOperator](/windows/desktop/api/directml/nn-directml-idmloperator)*</b>
+Type: <b>[IDMLOperator](/windows/win32/api/directml/nn-directml-idmloperator)*</b>
 
-The operator (created with [IDMLDevice::CreateOperator](/windows/desktop/api/directml/nf-directml-idmldevice-createoperator)) to compile.
+The operator (created with [IDMLDevice::CreateOperator](/windows/win32/api/directml/nf-directml-idmldevice-createoperator)) to compile.
 
 ### -param flags
 
-Type: [**DML_EXECUTION_FLAGS**](/windows/desktop/api/directml/ne-directml-dml_execution_flags)
+Type: [**DML_EXECUTION_FLAGS**](/windows/win32/api/directml/ne-directml-dml_execution_flags)
 
 Any flags to control the execution of this operator.
 
@@ -77,13 +77,13 @@ Any flags to control the execution of this operator.
 
 Type: <b>REFIID</b>
 
-A reference to the globally unique identifier (GUID) of the interface that you wish to be returned in <i>ppv</i>. This is expected to be the GUID of [IDMLCompiledOperator](/windows/desktop/api/directml/nn-directml-idmlcompiledoperator).
+A reference to the globally unique identifier (GUID) of the interface that you wish to be returned in <i>ppv</i>. This is expected to be the GUID of [IDMLCompiledOperator](/windows/win32/api/directml/nn-directml-idmlcompiledoperator).
 
 ### -param ppv [out]
 
 Type: <b>void**</b>
 
-A pointer to a memory block that receives a pointer to the compiled operator. This is the address of a pointer to an [IDMLCompiledOperator](/windows/desktop/api/directml/nn-directml-idmlcompiledoperator), representing  the compiled operator created.
+A pointer to a memory block that receives a pointer to the compiled operator. This is the address of a pointer to an [IDMLCompiledOperator](/windows/win32/api/directml/nn-directml-idmlcompiledoperator), representing  the compiled operator created.
 
 ## -returns
 
@@ -93,5 +93,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -see-also
 
-[IDMLDevice](/windows/desktop/api/directml/nn-directml-idmldevice)
-
+[IDMLDevice](/windows/win32/api/directml/nn-directml-idmldevice)

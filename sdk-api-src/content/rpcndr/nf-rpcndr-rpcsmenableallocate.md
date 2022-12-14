@@ -53,7 +53,7 @@ api_name:
 The 
 <b>RpcSmEnableAllocate</b> function establishes the stub memory–management environment.
 
-## -parameters
+
 
 ## -returns
 

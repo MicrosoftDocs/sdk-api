@@ -113,7 +113,9 @@ The subject certificate was not found in the store.
 The following example shows retrieving a subject's certificate context, uniquely identified by its issuer and serial number, from the certificate store. For an example that includes the complete context for this example, see 
 <a href="/windows/desktop/SecCrypto/example-c-program-signing-encoding-decoding-and-verifying-a-message">Example C Program: Signing, Encoding, Decoding, and Verifying a Message</a>.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 #include &lt;windows.h&gt;
 #include &lt;stdio.h&gt;
 #include &lt;Wincrypt.h&gt;
@@ -234,7 +236,9 @@ if(hStoreHandle)
 if(hMsg)
    CryptMsgClose(hMsg);
 
-}</code></pre>
+}
+```
+
 
 ## -see-also
 

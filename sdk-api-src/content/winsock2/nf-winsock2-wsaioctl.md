@@ -90,7 +90,7 @@ A pointer to a
 
 ### -param lpCompletionRoutine [in]
 
-Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](/windows/win32/api/winsock2/nc-winsock2-lpwsaoverlapped_completion_routine)
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](./nc-winsock2-lpwsaoverlapped_completion_routine.md)
 
 <div class="alert"><b>Note</b>  A pointer to the completion routine called when the operation has been completed (ignored for non-overlapped sockets). See Remarks.</div>
 <div> </div>

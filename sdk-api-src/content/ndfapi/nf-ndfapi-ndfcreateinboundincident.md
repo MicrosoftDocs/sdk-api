@@ -6,7 +6,7 @@ helpviewer_keywords: ["@FirewallAPI.dll","-28502","@FirewallAPI.dll","-28752","@
 old-location: ndf\ndfcreateinboundincident.htm
 tech.root: NDF
 ms.assetid: 8cc2c605-96b6-4eca-9e18-f3296187a28f
-ms.date: 12/05/2018
+ms.date: 11/19/2020
 ms.keywords: '@FirewallAPI.dll,-28502, @FirewallAPI.dll,-28752, @FirewallAPI.dll,-32752, NDF_INBOUND_FLAG_EDGETRAVERSAL, NDF_INBOUND_FLAG_HEALTHCHECK, NdfCreateInboundIncident, NdfCreateInboundIncident function [NDF], ndf.ndfcreateinboundincident, ndfapi/NdfCreateInboundIncident'
 req.header: ndfapi.h
 req.include-header: 
@@ -102,13 +102,15 @@ Type: <b>DWORD</b>
 
 Possible values:
 
+**NDF_INBOUND_FLAG_EDGETRAVERSAL**
+
+Indicates that a configuration should be considered unhealthy if both gateways on the local network are within the private access range, rather than only considering the configuration to be healthy if both gateways are Internet Gateway Devices (IGDs).
+
+**NDF_INBOUND_FLAG_HEALTHCHECK**
+
+Ends the session immediately if no inbound traffic problems are diagnosed, instead of turning on detailed tracing and allowing the user to reproduce their problem for a second diagnosis. 
 
 
-##### )
-
-
-
-##### )
 
 ### -param handle [out]
 

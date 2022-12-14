@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Evicts one or more pageable objects from GPU memory. Also see [IDMLDevice::MakeResident](/windows/desktop/api/directml/nf-directml-idmldevice-makeresident).
+Evicts one or more pageable objects from GPU memory. Also see [IDMLDevice::MakeResident](/windows/win32/api/directml/nf-directml-idmldevice-makeresident).
 
 ## -parameters
 
@@ -62,9 +62,9 @@ This parameter determines the number of elements in the array passed in the  <i>
 
 ### -param ppObjects [in]
 
-Type: <b>[IDMLPageable](/windows/desktop/api/directml/nn-directml-idmlpageable)*</b>
+Type: <b>[IDMLPageable](/windows/win32/api/directml/nn-directml-idmlpageable)*</b>
 
-A pointer to a constant array of [IDMLPageable](/windows/desktop/api/directml/nn-directml-idmlpageable) pointers containing the pageable objects to evict from GPU memory.
+A pointer to a constant array of [IDMLPageable](/windows/win32/api/directml/nn-directml-idmlpageable) pointers containing the pageable objects to evict from GPU memory.
 
 ## -returns
 
@@ -74,9 +74,6 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -see-also
 
-[IDMLDevice](/windows/desktop/api/directml/nn-directml-idmldevice)
+[IDMLDevice](/windows/win32/api/directml/nn-directml-idmldevice)
 
-
-
-[IDMLDevice::MakeResident](/windows/desktop/api/directml/nf-directml-idmldevice-makeresident)
-
+[IDMLDevice::MakeResident](/windows/win32/api/directml/nf-directml-idmldevice-makeresident)

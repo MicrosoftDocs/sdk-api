@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.put_RegistryKeys
 title: IConfigurationDataCollector::put_RegistryKeys (pla.h)
-description: Retrieves or sets a list of registry keys to collect.
+description: Retrieves or sets a list of registry keys to collect. (Put)
 helpviewer_keywords: ["IConfigurationDataCollector interface [PLA]","RegistryKeys property","IConfigurationDataCollector.RegistryKeys","IConfigurationDataCollector.put_RegistryKeys","IConfigurationDataCollector::RegistryKeys","IConfigurationDataCollector::get_RegistryKeys","IConfigurationDataCollector::put_RegistryKeys","RegistryKeys property [PLA]","RegistryKeys property [PLA]","IConfigurationDataCollector interface","base.iconfigurationdatacollector_registrykeys","pla.iconfigurationdatacollector_registrykeys","pla/IConfigurationDataCollector::RegistryKeys","pla/IConfigurationDataCollector::get_RegistryKeys","pla/IConfigurationDataCollector::put_RegistryKeys","put_RegistryKeys"]
 old-location: pla\iconfigurationdatacollector_registrykeys.htm
 tech.root: PLA
@@ -69,13 +69,13 @@ You can collect registry data from the following registry hives:
 <li><b>HKEY_LOCAL_MACHINE</b></li>
 <li><b>HKEY_USERS</b></li>
 </ul>
-To collect a registry value, specify the full path to the value name, for example, <b>\HKEY_LOCAL_MACHINE\MyKey\MyValue</b>.
+To collect a registry value, specify the full path to the value name, for example, `\HKEY_LOCAL_MACHINE\MyKey\MyValue`.
 
-To collect all the values under a registry key, specify the full path to the registry key, for example, <b>\HKEY_LOCAL_MACHINE\MyKey\</b>.
+To collect all the values under a registry key, specify the full path to the registry key, for example, `\HKEY_LOCAL_MACHINE\MyKey\`.
 
-To collect all the values under a registry key and its subkeys, use two backslashes for the last path delimiter, for example, <b>\\computername\HKEY_LOCAL_MACHINE\MyKey\\</b>. PLA recursively collects the registry data down to the level specified in the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-iconfigurationdatacollector-get_registrymaxrecursivedepth">IConfigurationDataCollector::RegistryMaxRecursiveDepth</a> property.
+To collect all the values under a registry key and its subkeys, use two backslashes for the last path delimiter, for example, `\\computername\HKEY_LOCAL_MACHINE\MyKey\\`. PLA recursively collects the registry data down to the level specified in the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-iconfigurationdatacollector-get_registrymaxrecursivedepth">IConfigurationDataCollector::RegistryMaxRecursiveDepth</a> property.
 
-To collect registry information from a remote computer, include the computer name at the beginning of the registry path, for example, <b>\\computername\HKEY_LOCAL_MACHINE\MyKey\MyValue</b>.
+To collect registry information from a remote computer, include the computer name at the beginning of the registry path, for example, `\\computername\HKEY_LOCAL_MACHINE\MyKey\MyValue`.
 
 ## -see-also
 

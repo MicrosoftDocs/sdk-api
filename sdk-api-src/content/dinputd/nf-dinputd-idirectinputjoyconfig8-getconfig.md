@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::GetConfig </b>method obtains information about a joystick's configuration.
+The <b>IDirectInputJoyConfig8::GetConfig </b> method obtains information about a joystick's configuration.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Indicates a joystick identification number. This is a nonnegative integer. To enumerate joysticks, begin with joystick zero and increment the joystick number by one until the function returns DIERR_NOMOREITEMS.
 
-### -param arg2
+### -param unnamedParam2
 
 Points to a structure that receives information about the joystick configuration. The caller "must" initialize the <b>dwSize</b> member of the <a href="/windows/desktop/api/dinputd/ns-dinputd-dijoyconfig">DIJOYCONFIG</a> structure before calling this method.
 
-### -param arg3
+### -param unnamedParam3
 
 Specifies the members of the structure pointed to by <i>pjc</i> that are to be filled in.  This parameter can be zero, one, or more of the following: 
 

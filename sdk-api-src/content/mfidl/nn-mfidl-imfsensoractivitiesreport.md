@@ -57,47 +57,7 @@ Provides access to <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivit
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorActivitiesReport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorActivitiesReport</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFSensorActivitiesReport</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivitiesreport-getactivityreport">GetActivityReport</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivityreport">IMFSensorActivityReport</a> based on the specified index.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivitiesreport-getactivityreportbydevicename">GetActivityReportByDeviceName</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivityreport">IMFSensorActivityReport</a> based on the specified device name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivitiesreport-getcount">GetCount</a>
-</td>
-<td align="left" width="63%">
-Gets the count of <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivityreport">IMFSensorActivityReport</a> objects that are available to be retrieved.
-
-</td>
-</tr>
-</table>
+The <b>IMFSensorActivitiesReport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorActivitiesReport</b> also has these types of members:
 
 ## -remarks
 

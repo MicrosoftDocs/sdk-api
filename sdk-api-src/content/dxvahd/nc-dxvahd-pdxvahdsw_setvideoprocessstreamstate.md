@@ -70,13 +70,13 @@ The state parameter to set, specified as a member of the <a href="/windows/deskt
 
 The size of the buffer pointed to by <i>pData</i>, in bytes.
 
-### -param *pData [in]
+### -param pData [in]
 
 A pointer to a buffer that contains the state data.
 
 ## -returns
 
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this callback function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

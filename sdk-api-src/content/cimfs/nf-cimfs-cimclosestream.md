@@ -1,11 +1,11 @@
 ---
 UID: NF:cimfs.CimCloseStream
 title: CimCloseStream
-ms.date: 9/9/2019
+description: The CimCloseStream function frees resources associated with the stream handle.
+ms.date: 08/01/2022
+tech.root: cimfs
 ms.keywords: CimCloseStream
-ms.topic: language-reference
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -28,7 +28,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - cimfs.h
 api_name:
@@ -53,4 +52,3 @@ An opaque handle that represents a writer for the stream created with CimCreateF
 ## -remarks
 
 ## -see-also
-

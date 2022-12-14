@@ -106,7 +106,7 @@ A pointer to a <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped"
 
 ### -field Parameters.Apc.lpfnCompletionProc
 
-Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](/windows/win32/api/winsock2/nc-winsock2-lpwsaoverlapped_completion_routine)
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](./nc-winsock2-lpwsaoverlapped_completion_routine.md)
 
 A pointer to an application-provided completion routine.
 

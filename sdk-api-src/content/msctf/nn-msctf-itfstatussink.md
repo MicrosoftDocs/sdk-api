@@ -54,29 +54,7 @@ The <b>ITfStatusSink</b> interface supports changes to the global document statu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfStatusSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfStatusSink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfStatusSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfstatussink-onstatuschange">OnStatusChange</a>
-</td>
-<td align="left" width="63%">
-Receives a notification when one of the dynamic flags of the TF_STATUS structure changes.
-
-</td>
-</tr>
-</table>
+The <b>ITfStatusSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfStatusSink</b> also has these types of members:
 
 ## -see-also
 

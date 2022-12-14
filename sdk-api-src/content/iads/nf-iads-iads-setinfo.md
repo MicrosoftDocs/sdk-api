@@ -52,7 +52,7 @@ api_name:
 
 The <b>IADs::SetInfo</b> method saves the cached property values of the ADSI object to the underlying directory store.
 
-## -parameters
+
 
 ## -returns
 

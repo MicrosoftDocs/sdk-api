@@ -48,6 +48,7 @@ api_location:
  - Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
  - CoAllowSetForegroundWindow
+req.apiset: ext-ms-win-com-ole32-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # CoAllowSetForegroundWindow function

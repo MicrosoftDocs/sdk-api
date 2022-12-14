@@ -53,7 +53,7 @@ Provides a function pointer to the callback used by the <a href="/windows/deskto
 
 ## -parameters
 
-### -param *context [in]
+### -param context [in]
 
 Custom context data provided to the <a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-roinspectcapturedstackbacktrace">RoInspectCapturedStackBackTrace</a> function.
 
@@ -65,13 +65,13 @@ The address to read data from.
 
 The number of bytes to read, starting at <i>readAddress</i>.
 
-### -param *buffer [out]
+### -param buffer [out]
 
 The buffer that receives a copy of the bytes that are read.
 
 ## -returns
 
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this callback function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

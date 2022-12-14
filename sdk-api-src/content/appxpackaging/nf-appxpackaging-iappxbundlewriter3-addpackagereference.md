@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxBundleWriter3.AddPackageReference
 title: IAppxBundleWriter3::AddPackageReference (appxpackaging.h)
-description: Adds a reference to an optional app package or a payload file within an app bundle.
+description: Adds a reference to an optional app package or a payload file within an app bundle. (IAppxBundleWriter3.AddPackageReference)
 helpviewer_keywords: ["AddPackageReference","AddPackageReference method [App packaging and management]","AddPackageReference method [App packaging and management]","IAppxBundleWriter3 interface","IAppxBundleWriter3 interface [App packaging and management]","AddPackageReference method","IAppxBundleWriter3.AddPackageReference","IAppxBundleWriter3::AddPackageReference","appxpackaging/IAppxBundleWriter3::AddPackageReference","appxpkg.iappxbundlewriter3_addpackagereference"]
 old-location: appxpkg\iappxbundlewriter3_addpackagereference.htm
 tech.root: appxpkg
@@ -64,7 +64,7 @@ An <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that prov
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

@@ -54,55 +54,10 @@ Defines an object that paints an area. Interfaces that derive from <b>ID2D1Brush
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Brush</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1Brush</b> also has these types of members:
+The <b>ID2D1Brush</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1Brush</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ID2D1Brush</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1brush-getopacity">GetOpacity</a>
-</td>
-<td align="left" width="63%">
-Gets the degree of opacity of this brush.  
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1brush-gettransform">GetTransform</a>
-</td>
-<td align="left" width="63%">
-Gets the transform applied to this brush.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1brush-setopacity">SetOpacity</a>
-</td>
-<td align="left" width="63%">
-Sets the degree of opacity of this brush.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1brush-settransform(constd2d1_matrix_3x2_f_)">SetTransform</a>
-</td>
-<td align="left" width="63%">Overloaded. Sets the transformation applied to the brush.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

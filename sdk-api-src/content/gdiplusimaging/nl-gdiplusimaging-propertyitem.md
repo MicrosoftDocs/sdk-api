@@ -56,7 +56,7 @@ The <b>PropertyItem</b> class is a helper class for the
 			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> and 
 			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> classes. A <b>PropertyItem</b> object holds one piece of image metadata.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">PropertyItem</b> has these types of members:
+<b>PropertyItem</b> has these types of members:
 
 ## -remarks
 

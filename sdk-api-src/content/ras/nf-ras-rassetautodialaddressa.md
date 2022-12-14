@@ -1,7 +1,7 @@
 ---
 UID: NF:ras.RasSetAutodialAddressA
 title: RasSetAutodialAddressA function (ras.h)
-description: The RasSetAutodialAddress function can add an address to the AutoDial mapping database. Alternatively, the function can delete or modify the data associated with an existing address in the database.
+description: The RasSetAutodialAddress function can add an address to the AutoDial mapping database. Alternatively, the function can delete or modify the data associated with an existing address in the database. (ANSI)
 helpviewer_keywords: ["RasSetAutodialAddress","RasSetAutodialAddress function [RAS]","RasSetAutodialAddressA","RasSetAutodialAddressW","_ras_rassetautodialaddress","ras/RasSetAutodialAddress","ras/RasSetAutodialAddressA","ras/RasSetAutodialAddressW","rras.rassetautodialaddress"]
 old-location: rras\rassetautodialaddress.htm
 tech.root: RRAS
@@ -59,7 +59,7 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the address to add, delete, or modify. This address can be an IP address, Internet host name ("www.microsoft.com"), or NetBIOS name ("products1"). 
 
@@ -68,21 +68,21 @@ Pointer to a <b>null</b>-terminated string that specifies the address to add, de
 
 If this parameter is <b>NULL</b>, the function sets the default Internet connection (see Remarks). If this parameter points to a zero-length string, the function deletes the default Internet connection.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Reserved; must be zero.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Pointer to an array of one or more 
 <a href="/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a> structures to be associated with the <i>lpszAddress</i> address. If <i>lpAutoDialEntries</i> is <b>NULL</b> and <i>dwcbAutoDialEntries</i> is zero, 
 <b>RasSetAutodialAddress</b> deletes all structures associated with <i>lpszAddress</i> from the mapping database.
 
-### -param arg4 [in]
+### -param unnamedParam4 [in]
 
 Specifies the size, in bytes, of the <i>lpAutoDialEntries</i> buffer.
 
-### -param arg5 [in]
+### -param unnamedParam5 [in]
 
 Specifies the number of 
 <a href="/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a> structures in the <i>lpAutoDialEntries</i> buffer.

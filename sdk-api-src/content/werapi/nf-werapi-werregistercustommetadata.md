@@ -80,7 +80,7 @@ This function returns <b>S_OK</b> on success or an error code on failure, includ
 </dl>
 </td>
 <td width="60%">
-Strings were <b>NULL</b>, key length was greater than 64 characters or was an invalid xml element name, or<i>value</i> length was greater than 128 characters or contained characters that were not ASCII printable characters.
+Strings were <b>NULL</b>, key length was greater than 64 characters or was an invalid xml element name, or <i>value</i> length was greater than 128 characters or contained characters that were not ASCII printable characters.
 
 </td>
 </tr>

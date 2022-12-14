@@ -54,31 +54,31 @@ Strip flag options.
 
 ## -enum-fields
 
-### -field D3DCOMPILER_STRIP_REFLECTION_DATA
+### -field D3DCOMPILER_STRIP_REFLECTION_DATA:0x00000001
 
 Remove reflection data.
 
-### -field D3DCOMPILER_STRIP_DEBUG_INFO
+### -field D3DCOMPILER_STRIP_DEBUG_INFO:0x00000002
 
 Remove debug information.
 
-### -field D3DCOMPILER_STRIP_TEST_BLOBS
+### -field D3DCOMPILER_STRIP_TEST_BLOBS:0x00000004
 
 Remove test blob data.
 
-### -field D3DCOMPILER_STRIP_PRIVATE_DATA
+### -field D3DCOMPILER_STRIP_PRIVATE_DATA:0x00000008
 
 <div class="alert"><b>Note</b>  This value is supported by the D3dcompiler_44.dll or later version of the file.</div>
 <div> </div>
 Remove private data.
 
-### -field D3DCOMPILER_STRIP_ROOT_SIGNATURE
+### -field D3DCOMPILER_STRIP_ROOT_SIGNATURE:0x00000010
 
 <div class="alert"><b>Note</b>  This value is supported by the D3dcompiler_47.dll or later version of the file.</div>
 <div> </div>
 Remove the root signature. Refer to <a href="/windows/desktop/direct3d12/specifying-root-signatures-in-hlsl">Specifying Root Signatures in HLSL</a> for more information on using Direct3D12 with HLSL.
 
-### -field D3DCOMPILER_STRIP_FORCE_DWORD
+### -field D3DCOMPILER_STRIP_FORCE_DWORD:0x7fffffff
 
 Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits. This value is not used.
 

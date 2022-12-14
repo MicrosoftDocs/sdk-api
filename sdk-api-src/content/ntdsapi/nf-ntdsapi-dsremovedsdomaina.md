@@ -1,7 +1,7 @@
 ---
 UID: NF:ntdsapi.DsRemoveDsDomainA
 title: DsRemoveDsDomainA function (ntdsapi.h)
-description: Removes all traces of a domain naming context from the global area of the directory service.
+description: Removes all traces of a domain naming context from the global area of the directory service. (ANSI)
 helpviewer_keywords: ["DsRemoveDsDomain","DsRemoveDsDomain function [Active Directory]","DsRemoveDsDomainA","DsRemoveDsDomainW","_glines_dsremovedsdomain","ad.dsremovedsdomain","ntdsapi/DsRemoveDsDomain","ntdsapi/DsRemoveDsDomainA","ntdsapi/DsRemoveDsDomainW"]
 old-location: ad\dsremovedsdomain.htm
 tech.root: ad

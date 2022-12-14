@@ -50,90 +50,20 @@ api_name:
 
 ## -description
 
-Provides access 
-        to controls that act as containers for a collection of child elements. The children of 
-        this element must implement <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itableitemprovider">ITableItemProvider</a> and be organized 
-        in a two-dimensional logical coordinate system that can be traversed by using the keyboard.
+Provides access to controls that act as containers for a collection of child elements. The children of this element must implement <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itableitemprovider">ITableItemProvider</a> and be organized in a two-dimensional logical coordinate system that can be traversed by using the keyboard.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITableProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITableProvider</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
-
-## -members
-
-The <b>ITableProvider</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itableprovider-getcolumnheaders">GetColumnHeaders</a>
-</td>
-<td align="left" width="63%">
-Gets a collection of UI Automation providers 
-        that represents all the column headers in a table.        
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itableprovider-getrowheaders">GetRowHeaders</a>
-</td>
-<td align="left" width="63%">
-Gets a collection of UI Automation providers 
-        that represents all the row headers in a table.        
-        
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITableProvider</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="10%">Access type</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itableprovider-get_roworcolumnmajor">RowOrColumnMajor</a>
-
-
-</td>
-<td align="left" width="10%">
-Read-only
-
-</td>
-<td align="left" width="63%">
-Specifies the primary direction of traversal for the table.
-
-</td>
-</tr>
-</table>
+The <b>ITableProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITableProvider</b> also has these types of members:
 
 ## -remarks
 
-This control pattern is analogous to <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igridprovider">IGridProvider</a> with 
-            the distinction that any control that implements <b>ITableProvider</b> must 
-            also expose a column and/or row header relationship for each child element.
+This control pattern is analogous to <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igridprovider">IGridProvider</a> with the distinction that any control that implements <b>ITableProvider</b> must also expose a column and/or row header relationship for each child element.
             
 
-Controls that implement <b>ITableProvider</b> are also required to 
-            implement <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igridprovider">IGridProvider</a> so as to expose the inherent grid functionality 
-            of a table control.
+Controls that implement <b>ITableProvider</b> are also required to  implement <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igridprovider">IGridProvider</a> so as to expose the inherent grid functionality of a table control.
             
-
-         
-            Implemented on a UI Automation provider that must support 
-            the <a href="/windows/desktop/WinAuto/uiauto-implementingtable">Table</a> control pattern and <a href="/windows/desktop/WinAuto/uiauto-implementinggrid">Grid</a> control pattern.
+Implemented on a UI Automation provider that must support the <a href="/windows/desktop/WinAuto/uiauto-implementingtable">Table</a> control pattern and <a href="/windows/desktop/WinAuto/uiauto-implementinggrid">Grid</a> control pattern.
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiVerifyPackageW
 title: MsiVerifyPackageW function (msi.h)
-description: The MsiVerifyPackage function verifies that the given file is an installation package.
+description: The MsiVerifyPackage function verifies that the given file is an installation package. (Unicode)
 helpviewer_keywords: ["MsiVerifyPackage","MsiVerifyPackage function","MsiVerifyPackageA","MsiVerifyPackageW","_msi_msiverifypackage","msi/MsiVerifyPackage","msi/MsiVerifyPackageA","msi/MsiVerifyPackageW","setup.msiverifypackage"]
 old-location: setup\msiverifypackage.htm
 tech.root: setup

@@ -64,47 +64,10 @@ Use this interface when you want to generate audio in your application.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioMediaStream</b> interface inherits from <a href="/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a>. <b>IAudioMediaStream</b> also has these types of members:
+The <b>IAudioMediaStream</b> interface inherits from <a href="/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a>. <b>IAudioMediaStream</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IAudioMediaStream</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/austream/nf-austream-iaudiomediastream-createsample">CreateSample</a>
-</td>
-<td align="left" width="63%">
-Creates an audio stream sample for use with this stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/austream/nf-austream-iaudiomediastream-getformat">GetFormat</a>
-</td>
-<td align="left" width="63%">
-Retrieves the stream data's current format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/austream/nf-austream-iaudiomediastream-setformat">SetFormat</a>
-</td>
-<td align="left" width="63%">
-Sets the format for the stream.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

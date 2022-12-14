@@ -54,40 +54,7 @@ Extends the <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclie
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomation4</b> interface inherits from <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation3">IUIAutomation3</a>. <b>IUIAutomation4</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IUIAutomation4</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation4-addchangeseventhandler">AddChangesEventHandler</a>
-</td>
-<td align="left" width="63%">
-Registers a method that handles change events.
-
-<div class="alert"><b>Note</b>  Before implementing an event handler, you should be familiar with the threading issues described in <a href="/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>.</div>
-<div> </div>
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation4-removechangeseventhandler">RemoveChangesEventHandler</a>
-</td>
-<td align="left" width="63%">
-Removes a changes event handler.
-
-</td>
-</tr>
-</table>
+The <b>IUIAutomation4</b> interface inherits from <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation3">IUIAutomation3</a>. <b>IUIAutomation4</b> also has these types of members:
 
 ## -see-also
 

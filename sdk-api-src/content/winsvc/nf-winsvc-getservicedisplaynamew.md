@@ -1,7 +1,7 @@
 ---
 UID: NF:winsvc.GetServiceDisplayNameW
 title: GetServiceDisplayNameW function (winsvc.h)
-description: Retrieves the display name of the specified service.
+description: Retrieves the display name of the specified service. (Unicode)
 helpviewer_keywords: ["GetServiceDisplayName","GetServiceDisplayName function","GetServiceDisplayNameA","GetServiceDisplayNameW","_win32_getservicedisplayname","base.getservicedisplayname","winsvc/GetServiceDisplayName","winsvc/GetServiceDisplayNameA","winsvc/GetServiceDisplayNameW"]
 old-location: base\getservicedisplayname.htm
 tech.root: security

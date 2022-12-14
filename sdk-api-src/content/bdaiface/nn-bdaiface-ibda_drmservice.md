@@ -54,38 +54,10 @@ Provides access to a device's Digital Rights Management (DRM) Service.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_DRMService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_DRMService</b> also has these types of members:
+The <b>IBDA_DRMService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_DRMService</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IBDA_DRMService</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_drmservice-getdrmstatus">GetDRMStatus</a>
-</td>
-<td align="left" width="63%">
-Gets the current DRM status.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_drmservice-setdrm">SetDRM</a>
-</td>
-<td align="left" width="63%">
-Activates a DRM system on the media transform device (MTD).
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

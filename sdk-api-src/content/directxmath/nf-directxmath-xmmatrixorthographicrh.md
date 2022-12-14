@@ -9,25 +9,25 @@ ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixOrthographicRH(float,float,fl
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixOrthographicRH, XMMatrixOrthographicRH, XMMatrixOrthographicRH method [DirectX Math Support APIs], dxmath.xmmatrixorthographicrh
 req.header: directxmath.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
 req.namespace: Use DirectX.
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 ms.custom: 19H1
 f1_keywords:
  - XMMatrixOrthographicRH
@@ -75,6 +75,10 @@ Distance to the far clipping plane.
 Returns the orthogonal projection matrix.
 
 ## -remarks
+
+For typical usage, <i>NearZ</i> is less than <i>FarZ</i>. However, if you flip these values so <i>FarZ</i> is less than <i>NearZ</i>, the result is an inverted z buffer (also known as a "reverse z buffer") which can provide increased floating-point precision.
+
+<i>NearZ</i> and <i>FarZ</i> cannot be the same value and must be greater than 0.
 
 All the parameters of
    <b>XMMatrixOrthographicRH</b> are distances

@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.get_Type
 title: IAzApplicationGroup::get_Type (azroles.h)
-description: Sets or retrieves the group type of the application group.
+description: Sets or retrieves the group type of the application group. (Get)
 helpviewer_keywords: ["AZ_GROUPTYPE_BASIC","AZ_GROUPTYPE_LDAP_QUERY","AzApplicationGroup object [Security]","Type property","IAzApplicationGroup interface [Security]","Type property","IAzApplicationGroup.Type","IAzApplicationGroup.get_Type","IAzApplicationGroup::Type","IAzApplicationGroup::get_Type","IAzApplicationGroup::put_Type","Type property [Security]","Type property [Security]","AzApplicationGroup object","Type property [Security]","IAzApplicationGroup interface","azroles/IAzApplicationGroup::Type","azroles/IAzApplicationGroup::get_Type","azroles/IAzApplicationGroup::put_Type","get_Type","security.iazapplicationgroup_type"]
 old-location: security\iazapplicationgroup_type.htm
 tech.root: security

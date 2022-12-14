@@ -57,65 +57,10 @@ The VMR-9 supports a maximum of 16 display devices.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRMonitorConfig9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRMonitorConfig9</b> also has these types of members:
+The <b>IVMRMonitorConfig9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRMonitorConfig9</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IVMRMonitorConfig9</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-getavailablemonitors">GetAvailableMonitors</a>
-</td>
-<td align="left" width="63%">
-Retrieves information about the monitors currently available on the system.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-getdefaultmonitor">GetDefaultMonitor</a>
-</td>
-<td align="left" width="63%">
-Retrieves the default monitor that all future instances of the VMR will use for video playback.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-getmonitor">GetMonitor</a>
-</td>
-<td align="left" width="63%">
-Retrieves the monitor that this instance of the VMR is using for video playback.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-setdefaultmonitor">SetDefaultMonitor</a>
-</td>
-<td align="left" width="63%">
-Specifies the default monitor that all future instances of the VMR should use for video playback.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-setmonitor">SetMonitor</a>
-</td>
-<td align="left" width="63%">
-On a multi-monitor system, specifies the monitor that this instance of the VMR should use for video playback.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

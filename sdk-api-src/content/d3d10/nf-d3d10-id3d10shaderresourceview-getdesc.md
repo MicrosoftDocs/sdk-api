@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10ShaderResourceView.GetDesc
 title: ID3D10ShaderResourceView::GetDesc (d3d10.h)
-description: Get the shader resource view's description.
+description: Get the shader resource view's description. (ID3D10ShaderResourceView.GetDesc)
 helpviewer_keywords: ["8574c822-dc15-12c5-f791-318996a6c282","GetDesc","GetDesc method [Direct3D 10]","GetDesc method [Direct3D 10]","ID3D10ShaderResourceView interface","ID3D10ShaderResourceView interface [Direct3D 10]","GetDesc method","ID3D10ShaderResourceView.GetDesc","ID3D10ShaderResourceView::GetDesc","d3d10/ID3D10ShaderResourceView::GetDesc","direct3d10.id3d10shaderresourceview_getdesc"]
 old-location: direct3d10\id3d10shaderresourceview_getdesc.htm
 tech.root: direct3d10

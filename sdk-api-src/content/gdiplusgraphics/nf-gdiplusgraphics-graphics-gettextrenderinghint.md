@@ -54,7 +54,7 @@ api_name:
 The <b>Graphics::GetTextRenderingHint</b> method returns the text rendering mode currently set for this 
 			<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
 
-## -parameters
+
 
 ## -returns
 

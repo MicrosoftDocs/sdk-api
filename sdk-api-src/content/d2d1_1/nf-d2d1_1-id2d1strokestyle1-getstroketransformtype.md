@@ -52,7 +52,7 @@ api_name:
 
 Gets the stroke transform type.
 
-## -parameters
+
 
 ## -returns
 

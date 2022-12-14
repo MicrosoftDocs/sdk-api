@@ -54,65 +54,7 @@ The <b>ITocCollection</b> represents a collection of tables of contents. It prov
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITocCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITocCollection</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITocCollection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoccollection-addentry">AddEntry</a>
-</td>
-<td align="left" width="63%">
-Adds an individual table of contents  to the collection, and assigns an index to the added table of contents.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/ee264252(v=vs.85)">AddEntryByIndex</a>
-</td>
-<td align="left" width="63%">
-Adds an individual table of contents to the collection, and associates a caller-supplied index with that table of contents.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/ee264253(v=vs.85)">GetEntryByIndex</a>
-</td>
-<td align="left" width="63%">
-Retrieves a table of contents, specified by an index, from the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoccollection-getentrycount">GetEntryCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of tables of contents in the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/ee264255(v=vs.85)">RemoveEntryByIndex</a>
-</td>
-<td align="left" width="63%">
- Removes a table of contents, specified by an index, from  the collection.
-
-</td>
-</tr>
-</table>
+The <b>ITocCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITocCollection</b> also has these types of members:
 
 ## -see-also
 

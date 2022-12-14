@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.wvnsprintfA
 title: wvnsprintfA function (shlwapi.h)
-description: Takes a list of arguments and returns the values of the arguments as a printf-style formatted string.
+description: Takes a list of arguments and returns the values of the arguments as a printf-style formatted string. (ANSI)
 helpviewer_keywords: ["_win32_wvnsprintf","shell.wvnsprintf","shlwapi/wvnsprintf","shlwapi/wvnsprintfA","shlwapi/wvnsprintfW","wvnsprintf","wvnsprintf function [Windows Shell]","wvnsprintfA","wvnsprintfW"]
 old-location: shell\wvnsprintf.htm
 tech.root: shell

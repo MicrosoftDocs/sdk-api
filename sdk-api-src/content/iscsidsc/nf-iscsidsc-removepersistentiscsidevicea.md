@@ -1,7 +1,7 @@
 ---
 UID: NF:iscsidsc.RemovePersistentIScsiDeviceA
 title: RemovePersistentIScsiDeviceA function (iscsidsc.h)
-description: RemovePersistentIscsiDevice function removes a device or volume from the list of persistently bound iSCSI volumes.
+description: RemovePersistentIscsiDevice function removes a device or volume from the list of persistently bound iSCSI volumes. (ANSI)
 helpviewer_keywords: ["RemovePersistentIScsiDeviceA","RemovePersistentIscsiDevice","RemovePersistentIscsiDevice function [iSCSI Discovery Library API]","RemovePersistentIscsiDeviceA","RemovePersistentIscsiDeviceW","iscsidisc.removepersistentiscsidevice","iscsidsc/RemovePersistentIscsiDevice","iscsidsc/RemovePersistentIscsiDeviceA","iscsidsc/RemovePersistentIscsiDeviceW"]
 old-location: iscsidisc\removepersistentiscsidevice.htm
 tech.root: iSCSIDisc

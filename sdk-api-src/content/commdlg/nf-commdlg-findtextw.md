@@ -1,7 +1,7 @@
 ---
 UID: NF:commdlg.FindTextW
 title: FindTextW function (commdlg.h)
-description: Creates a system-defined modeless Find dialog box that lets the user specify a string to search for and options to use when searching for text in a document.
+description: Creates a system-defined modeless Find dialog box that lets the user specify a string to search for and options to use when searching for text in a document. (Unicode)
 helpviewer_keywords: ["FindText","FindText function [Dialog Boxes]","FindTextA","FindTextW","_win32_FindText","_win32_findtext_cpp","commdlg/FindText","commdlg/FindTextA","commdlg/FindTextW","dlgbox.findtext","winui._win32_findtext"]
 old-location: dlgbox\findtext.htm
 tech.root: dlgbox
@@ -45,6 +45,7 @@ api_name:
  - FindText
  - FindTextA
  - FindTextW
+req.apiset: ext-ms-win-shell-comdlg32-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # FindTextW function
@@ -56,7 +57,7 @@ Creates a system-defined modeless <b>Find</b> dialog box that lets the user spec
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Type: <b>LPFINDREPLACE</b>
 

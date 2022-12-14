@@ -52,7 +52,7 @@ api_name:
 
 Updates an object handler's or link object's data or view caches.
 
-## -parameters
+
 
 ## -returns
 

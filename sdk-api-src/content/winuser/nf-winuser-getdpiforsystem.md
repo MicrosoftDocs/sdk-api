@@ -57,7 +57,7 @@ api_name:
 
 Returns the system DPI.
 
-## -parameters
+
 
 ## -returns
 

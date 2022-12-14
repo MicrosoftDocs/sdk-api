@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmIPsecTunnelAdd0
 title: FwpmIPsecTunnelAdd0 function (fwpmu.h)
-description: Adds a new Internet Protocol Security (IPsec) tunnel mode policy to the system.
+description: Adds a new Internet Protocol Security (IPsec) tunnel mode policy to the system. (FwpmIpsecTunnelAdd0)
 helpviewer_keywords: ["FWPM_TUNNEL_FLAG_POINT_TO_POINT","FwpmIPsecTunnelAdd0","FwpmIpsecTunnelAdd0","FwpmIpsecTunnelAdd0 function [Filtering]","fwp.fwpmipsectunneladd0","fwpmu/FwpmIpsecTunnelAdd0"]
 old-location: fwp\fwpmipsectunneladd0.htm
 tech.root: fwp

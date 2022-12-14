@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SetWindowLongPtrW
 title: SetWindowLongPtrW function (winuser.h)
-description: Changes an attribute of the specified window.
+description: Changes an attribute of the specified window. (Unicode)
 helpviewer_keywords: ["DWLP_DLGPROC","DWLP_MSGRESULT","DWLP_USER","GWLP_HINSTANCE","GWLP_ID","GWLP_USERDATA","GWLP_WNDPROC","GWL_EXSTYLE","GWL_STYLE","SetWindowLongPtr","SetWindowLongPtr function [Windows and Messages]","SetWindowLongPtrA","SetWindowLongPtrW","_win32_SetWindowLongPtr","_win32_setwindowlongptr_cpp","winmsg.setwindowlongptr","winui._win32_setwindowlongptr","winuser/SetWindowLongPtr","winuser/SetWindowLongPtrA","winuser/SetWindowLongPtrW"]
 old-location: winmsg\setwindowlongptr.htm
 tech.root: winmsg
@@ -53,6 +53,7 @@ api_name:
  - SetWindowLongPtr
  - SetWindowLongPtrA
  - SetWindowLongPtrW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetWindowLongPtrW function

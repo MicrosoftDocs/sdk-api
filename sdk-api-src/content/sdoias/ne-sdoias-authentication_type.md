@@ -57,7 +57,7 @@ The values of the <b>AUTHENTICATION_TYPE</b> enumerated
 
 ## -enum-fields
 
-### -field IAS_AUTH_INVALID
+### -field IAS_AUTH_INVALID:0
 
 Specifies the authorization type as invalid.
 

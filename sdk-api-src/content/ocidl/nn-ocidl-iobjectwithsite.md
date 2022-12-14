@@ -58,35 +58,5 @@ Through <b>IObjectWithSite</b>, a container can pass the <a href="/windows/deskt
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectWithSite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectWithSite</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IObjectWithSite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectWithSite</b> also has these types of members:
 
-## -members
-
-The <b>IObjectWithSite</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-getsite">GetSite</a>
-</td>
-<td align="left" width="63%">
-Retrieves the latest site passed using <a href="/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-setsite">SetSite</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-setsite">SetSite</a>
-</td>
-<td align="left" width="63%">
-Enables a container to pass an object a pointer to the interface for its site.
-
-</td>
-</tr>
-</table>

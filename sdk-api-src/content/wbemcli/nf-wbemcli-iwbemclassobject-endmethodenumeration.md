@@ -66,7 +66,7 @@ The
 This call is only supported if the current object is a CIM class definition. Method manipulation is not available from 
 <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> pointers which point to CIM instances.
 
-## -parameters
+
 
 ## -returns
 

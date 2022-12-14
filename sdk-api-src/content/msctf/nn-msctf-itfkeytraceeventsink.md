@@ -54,38 +54,7 @@ The <b>ITfKeyTraceEventSink</b> interface is implemented by an application or te
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfKeyTraceEventSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfKeyTraceEventSink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfKeyTraceEventSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfkeytraceeventsink-onkeytracedown">OnKeyTraceDown</a>
-</td>
-<td align="left" width="63%">
-Called when a key down event occurs.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfkeytraceeventsink-onkeytraceup">OnKeyTraceUp</a>
-</td>
-<td align="left" width="63%">
-Called when a key up event occurs.
-
-</td>
-</tr>
-</table>
+The <b>ITfKeyTraceEventSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfKeyTraceEventSink</b> also has these types of members:
 
 ## -remarks
 

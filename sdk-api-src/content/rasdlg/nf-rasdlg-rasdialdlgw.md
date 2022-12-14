@@ -1,7 +1,7 @@
 ---
 UID: NF:rasdlg.RasDialDlgW
 title: RasDialDlgW function (rasdlg.h)
-description: The RasDialDlg function establishes a RAS connection using a specified phone-book entry and the credentials of the logged-on user. The function displays a stream of dialog boxes that indicate the state of the connection operation.
+description: The RasDialDlg function establishes a RAS connection using a specified phone-book entry and the credentials of the logged-on user. The function displays a stream of dialog boxes that indicate the state of the connection operation. (Unicode)
 helpviewer_keywords: ["RasDialDlg","RasDialDlg function [RAS]","RasDialDlgA","RasDialDlgW","_ras_rasdialdlg","rasdlg/RasDialDlg","rasdlg/RasDialDlgA","rasdlg/RasDialDlgW","rras.rasdialdlg"]
 old-location: rras\rasdialdlg.htm
 tech.root: RRAS
@@ -144,7 +144,7 @@ DWORD __cdecl wmain(){
     dwError |= StringCchCopyN(lpentry->szDeviceType, RAS_MaxDeviceType, lpszdevicetype, DEVICE_TYPE_LENGTH);
     
     if (dwError != S_OK){
-        wprintf(L"Structure initilization failed: Error = %d\n", dwError);
+        wprintf(L"Structure initialization failed: Error = %d\n", dwError);
         HeapFree(GetProcessHeap(), 0, lpentry);
         HeapFree(GetProcessHeap(), 0, lpInfo);
         return 0;

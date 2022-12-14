@@ -75,7 +75,7 @@ The number of
 A pointer to the number of bytes received by this call if the 
 <b>WSARecvFrom</b> operation completes immediately. 
 
-Use <b>NULL</b> for this parameter if the <i>lpOverlapped</i> parameter is not <b>NULL</b> to avoid potentially erroneous results. This parameter can be <b>NULL</b> only  if the <i>lpOverlapped</i> parameter is not <b>NULL</b>.
+Use <b>NULL</b> for this parameter if the <i>lpOverlapped</i> parameter is not <b>NULL</b> to avoid potentially erroneous results. This parameter can be <b>NULL</b> only if the <i>lpOverlapped</i> parameter is not <b>NULL</b>.
 
 ### -param lpFlags [in, out]
 
@@ -97,7 +97,7 @@ A pointer to a
 
 ### -param lpCompletionRoutine [in]
 
-Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](/windows/win32/api/winsock2/nc-winsock2-lpwsaoverlapped_completion_routine)
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](./nc-winsock2-lpwsaoverlapped_completion_routine.md)
 
 A pointer to the completion routine called when the 
 <b>WSARecvFrom</b> operation has been completed (ignored for nonoverlapped sockets).
@@ -282,9 +282,9 @@ The
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsajoinleaf">WSAJoinLeaf</a>.
 
 For overlapped sockets, this function is used to post one or more buffers into which incoming data will be placed as it becomes available on a (possibly connected) socket, after which the application-specified completion indication (invocation of the completion routine or setting of an event object) occurs. If the operation does not complete immediately, the final completion status is retrieved through the completion routine or 
-<a href="/windows/desktop/api/winsock2/nf-winsock2-wsagetoverlappedresult">WSAGetOverlappedResult</a>. Also, the values indicated by <i>lpFrom</i> and <i>lpFromlen</i> are not updated until completion is itself indicated. Applications must not use or disturb these values until they have been updated, therefore the application must not use automatic (that is, stack-based) variables for these parameters.
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsagetoverlappedresult">WSAGetOverlappedResult</a>. Also, the values indicated by <i>lpFrom</i> and <i>lpFromlen</i> are not updated until completion is itself indicated. Applications must not use or disturb these values until they have been updated; therefore the application must not use automatic (that is, stack-based) variables for these parameters.
 
-<div class="alert"><b>Note</b>  All I/O initiated by a given thread is canceled when that thread exits. For overlapped sockets, pending asynchronous operations can fail if the thread is closed before the  operations complete. See <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a> for more information.</div>
+<div class="alert"><b>Note</b> All I/O initiated by a given thread is canceled when that thread exits. For overlapped sockets, pending asynchronous operations can fail if the thread is closed before the operations complete. See <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a> for more information.</div>
 <div> </div>
 If both <i>lpOverlapped</i> and <i>lpCompletionRoutine</i> are <b>NULL</b>, the socket in this function will be treated as a nonoverlapped socket.
 
@@ -371,7 +371,7 @@ If <i>lpCompletionRoutine</i> is not <b>NULL</b>, the <i>hEvent</i> parameter is
 The completion routine follows the same rules as stipulated for Windows file I/O completion routines. The completion routine will not be invoked until the thread is in an alertable wait state such as can occur when the function 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsawaitformultipleevents">WSAWaitForMultipleEvents</a> with the <i>fAlertable</i> parameter set to <b>TRUE</b> is invoked.
 
-If an IO completion port is used and the <i>lpCompletionRoutine</i> parameter and the <i>hEvent</i> parameter are <b>NULL</b>, the result of the operation is schedule on the IO completion port. This happens for all successful operations, whether the operations completes immediately or not.
+If an IO completion port is used and the <i>lpCompletionRoutine</i> parameter and the <i>hEvent</i> parameter are <b>NULL</b>, the result of the operation is schedule on the IO completion port. This happens for all successful operations, whether the operations complete immediately or not.
 
 The transport providers allow an application to invoke send and receive operations from within the context of the socket I/O completion routine, and guarantee that, for a given socket, I/O completion routines will not be nested. This permits time-sensitive data transmissions to occur entirely within a preemptive context.
 

@@ -54,65 +54,7 @@ The <b>ITocEntryList</b> interface represents a list of entries in a table of co
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITocEntryList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITocEntryList</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITocEntryList</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentrylist-addentry">AddEntry</a>
-</td>
-<td align="left" width="63%">
-Adds an individual entry to the list and assigns an index to the entry.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/ee264259(v=vs.85)">AddEntryByIndex</a>
-</td>
-<td align="left" width="63%">
-Adds an individual entry to the list and associates a caller-supplied index with the entry.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentrylist-getentrybyindex">GetEntryByIndex</a>
-</td>
-<td align="left" width="63%">
-Retrieves an entry, specified by an index, from the list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentrylist-getentrycount">GetEntryCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of entries in the list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/ee264262(v=vs.85)">RemoveEntryByIndex</a>
-</td>
-<td align="left" width="63%">
-Removes an entry, specified by an index, from the list.
-
-</td>
-</tr>
-</table>
+The <b>ITocEntryList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITocEntryList</b> also has these types of members:
 
 ## -see-also
 

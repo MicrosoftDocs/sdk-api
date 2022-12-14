@@ -57,11 +57,11 @@ Retrieves the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp"
 
 ### -param X [in]
 
-The <code>x-</code>position in ink space of the point.
+The <code>x-</code> position in ink space of the point.
 
 ### -param Y [in]
 
-Specifies the <code>y-</code>position in ink space of the point.
+Specifies the <code>y-</code> position in ink space of the point.
 
 ### -param PointOnStroke [in, out, optional]
 
@@ -149,7 +149,7 @@ The <i>distanceFromPacket</i> parameter describes the distance from the point to
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
+<a href="../msinkaut/nn-msinkaut-iinkdisp.md">IInkDisp</a>
 
 
 

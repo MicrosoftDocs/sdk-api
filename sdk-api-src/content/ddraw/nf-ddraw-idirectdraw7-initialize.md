@@ -50,7 +50,7 @@ Initializes a DirectDraw object that was created by using the <a href="/windows/
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to the globally unique identifier (GUID) that this method uses as the DirectDraw interface identifier. 
 
@@ -74,7 +74,7 @@ This method is provided for compliance with the Component Object Model (COM). If
 
 ## -remarks
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>IDirectDraw7::Initialize</b> method.
+
 
 ## -see-also
 

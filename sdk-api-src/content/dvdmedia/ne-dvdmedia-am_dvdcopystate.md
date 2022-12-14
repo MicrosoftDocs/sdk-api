@@ -54,23 +54,23 @@ Specifies the copy protection state.
 
 ## -enum-fields
 
-### -field AM_DVDCOPYSTATE_INITIALIZE
+### -field AM_DVDCOPYSTATE_INITIALIZE:0
 
 Starting a full key-exchange algorithm.
 
-### -field AM_DVDCOPYSTATE_INITIALIZE_TITLE
+### -field AM_DVDCOPYSTATE_INITIALIZE_TITLE:1
 
 Starting a title key-exchange algorithm.
 
-### -field AM_DVDCOPYSTATE_AUTHENTICATION_NOT_REQUIRED
+### -field AM_DVDCOPYSTATE_AUTHENTICATION_NOT_REQUIRED:2
 
 Authentication is not required.
 
-### -field AM_DVDCOPYSTATE_AUTHENTICATION_REQUIRED
+### -field AM_DVDCOPYSTATE_AUTHENTICATION_REQUIRED:3
 
 Authentication required.
 
-### -field AM_DVDCOPYSTATE_DONE
+### -field AM_DVDCOPYSTATE_DONE:4
 
 Key exchange negotiation is complete.
 

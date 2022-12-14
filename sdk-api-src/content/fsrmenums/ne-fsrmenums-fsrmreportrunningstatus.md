@@ -56,19 +56,19 @@ Defines the running states a for a report job.
 
 ## -enum-fields
 
-### -field FsrmReportRunningStatus_Unknown
+### -field FsrmReportRunningStatus_Unknown:0
 
 The report job status in unknown.
 
-### -field FsrmReportRunningStatus_NotRunning
+### -field FsrmReportRunningStatus_NotRunning:1
 
 The report job is not running.
 
-### -field FsrmReportRunningStatus_Queued
+### -field FsrmReportRunningStatus_Queued:2
 
 The report job is queued to run but is not running.
 
-### -field FsrmReportRunningStatus_Running
+### -field FsrmReportRunningStatus_Running:3
 
 The report job is running.
 

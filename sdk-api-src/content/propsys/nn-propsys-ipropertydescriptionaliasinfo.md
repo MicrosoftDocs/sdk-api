@@ -54,35 +54,5 @@ Exposes methods to get the "sort by" columns properties for an item. This interf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyDescriptionAliasInfo</b> interface inherits from <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>. <b>IPropertyDescriptionAliasInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPropertyDescriptionAliasInfo</b> interface inherits from <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>. <b>IPropertyDescriptionAliasInfo</b> also has these types of members:
 
-## -members
-
-The <b>IPropertyDescriptionAliasInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescriptionaliasinfo-getadditionalsortbyaliases">GetAdditionalSortByAliases</a>
-</td>
-<td align="left" width="63%">
-Gets the address of a pointer to the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a> interface, which contains additional sort column values.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescriptionaliasinfo-getsortbyalias">GetSortByAlias</a>
-</td>
-<td align="left" width="63%">
-Gets the address of a pointer to the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a> interface containing the primary sort column.
-
-</td>
-</tr>
-</table>

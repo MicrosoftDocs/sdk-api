@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetMuted
 title: IMFMediaEngine::SetMuted (mfmediaengine.h)
-description: Mutes or unmutes the audio.
+description: Mutes or unmutes the audio. (IMFMediaEngine.SetMuted)
 helpviewer_keywords: ["IMFMediaEngine interface [Media Foundation]","SetMuted method","IMFMediaEngine.SetMuted","IMFMediaEngine::SetMuted","SetMuted","SetMuted method [Media Foundation]","SetMuted method [Media Foundation]","IMFMediaEngine interface","mf.imfmediaengine_setmuted","mfmediaengine/IMFMediaEngine::SetMuted"]
 old-location: mf\imfmediaengine_setmuted.htm
 tech.root: mf
@@ -60,7 +60,7 @@ Specify <b>TRUE</b> to mute the audio, or <b>FALSE</b> to unmute the audio.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

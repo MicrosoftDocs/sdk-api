@@ -53,18 +53,18 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Enumerates the possible versions for parameters for the 
     <a href="/windows/win32/api/virtdisk/nf-virtdisk-takesnapshotvhdset">TakeSnapshotVhdSet</a> function.
 
 ## -enum-fields
 
-### -field TAKE_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED
+### -field TAKE_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED:0
 
 Not Supported.
 
-### -field TAKE_SNAPSHOT_VHDSET_VERSION_1
+### -field TAKE_SNAPSHOT_VHDSET_VERSION_1:1
 
 The Version1 member structure will be used.
 

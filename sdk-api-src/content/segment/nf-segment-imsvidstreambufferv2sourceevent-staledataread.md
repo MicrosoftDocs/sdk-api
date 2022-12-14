@@ -52,11 +52,11 @@ api_name:
 
 Fired when the SBE2 source filter receives a <b>STREAMBUFFER_EC_STALE_DATA_READ</b> event, which indicates an <a href="/previous-versions/windows/desktop/legacy/dd695136(v=vs.85)">MSVidStreamBufferSource</a> object has read from a temporary recording file that is marked for deletion.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

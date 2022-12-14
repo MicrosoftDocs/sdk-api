@@ -2,7 +2,6 @@
 UID: NC:gdiplustypes.ImageAbort
 title: ImageAbort
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: \**ImageAbort** is the signature of a callback function that you implement in your application. During the process of creating or retrieving a thumbnail image, or drawing an image, GDI+ calls this function to give you the opportunity to abort the process.
 tech.root: gdiplus
@@ -19,8 +18,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -44,11 +43,11 @@ dev_langs:
 
 **ImageAbort** is the signature of a callback function that you implement in your application. During the process of creating or retrieving a thumbnail image, or drawing an image, GDI+ calls this function to give you the opportunity to abort the process.
 
-Examples of the callback function in use are the corresponding parameters of the [Image::GetThumbnailImage method](../gdiplusheaders/nf-gdiplusheaders-image-getthumbnailimage.md), and the [Graphics::DrawImage method](../gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(inimage_inconstpointf_inint_inreal_inreal_inreal_inreal_inunit_inconstimageattributes_indrawimageabort_invoid).md).
+Examples of the callback function in use are the corresponding parameters of the [Image::GetThumbnailImage method](../gdiplusheaders/nf-gdiplusheaders-image-getthumbnailimage.md), and the [Graphics::DrawImage method](../gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(image_constpointf_int_real_real_real_real_unit_constimageattributes_drawimageabort_void).md).
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Type: **[VOID](/windows/win32/winprog/windows-data-types)\***
 
@@ -66,4 +65,4 @@ Return **TRUE** to abort; otherwise **FALSE**.
 
 [Image::GetThumbnailImage method](../gdiplusheaders/nf-gdiplusheaders-image-getthumbnailimage.md)
 
-[Graphics::DrawImage method](../gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(inimage_inconstpointf_inint_inreal_inreal_inreal_inreal_inunit_inconstimageattributes_indrawimageabort_invoid).md)
+[Graphics::DrawImage method](../gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(image_constpointf_int_real_real_real_real_unit_constimageattributes_drawimageabort_void).md)

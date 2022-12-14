@@ -1114,7 +1114,7 @@ A texture that is not a power of two cannot be set at a stage that will be read 
 </dl>
 </td>
 <td width="60%">
-Device does not support a projected bump-environment loopkup operation in programmable and fixed function shaders.
+Device does not support a projected bump-environment lookup operation in programmable and fixed function shaders.
 
 </td>
 </tr>

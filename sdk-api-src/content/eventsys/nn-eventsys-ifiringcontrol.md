@@ -54,26 +54,5 @@ Fires an event to a single subscription.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFiringControl</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFiringControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IFiringControl</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFiringControl</b> also has these types of members:
 
-## -members
-
-The <b>IFiringControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/eventsys/nf-eventsys-ifiringcontrol-firesubscription">FireSubscription</a>
-</td>
-<td align="left" width="63%">
-Fires an event to a single subscriber.
-
-</td>
-</tr>
-</table>

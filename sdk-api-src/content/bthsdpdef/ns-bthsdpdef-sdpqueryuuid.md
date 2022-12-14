@@ -60,9 +60,7 @@ The <b>SdpQueryUuid</b> structure facilitates searching for UUIDs.
 
 Union containing the UUID on which to search.
 
-### -field u.switch_is
 
-### -field u.switch_is.uuidType
 
 ### -field uuidType
 

@@ -88,7 +88,7 @@ You will need the resource name if you call the <a href="/windows/desktop/api/d3
 
 If <i>lpName</i> matches the name of an existing resource, <b>CreateSharedHandle</b> fails with <a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_NAME_ALREADY_EXISTS</a>. This occurs because these objects share the same namespace.
 
-The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\). For more information, see 
+The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\\). For more information, see 
 <a href="/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>. Fast user switching is implemented using Terminal Services sessions. Kernel object names must follow the guidelines outlined for Terminal Services so that applications can support multiple users.
 
 The object can be created in a private namespace. For more information, see <a href="/windows/desktop/Sync/object-namespaces">Object Namespaces</a>.
@@ -125,21 +125,25 @@ If you  created the resource as shared and did not specify that it uses NT handl
 
 #### Examples
 
-<pre class="syntax" xml:space="preserve"><code>ID3D11Texture2D* pTexture2D;
+
+``` syntax
+ID3D11Texture2D* pTexture2D;
 ID3D11Device* pDevice;
 
-pDevice-&gt;CreateTexture2D(…, &amp;pTexture2D); // Create the texture as shared with NT HANDLEs.
+pDevice->CreateTexture2D(…, &pTexture2D); // Create the texture as shared with NT HANDLEs.
 
 HANDLE handle;
 IDXGIResource1* pResource;
-pTexture2D-&gt;QueryInterface(__uuidof(IDXGIResource1), (void**) &amp;pResource);
-pResource-&gt;CreateSharedHandle(NULL, 
+pTexture2D->QueryInterface(__uuidof(IDXGIResource1), (void**) &pResource);
+pResource->CreateSharedHandle(NULL, 
          DXGI_SHARED_RESOURCE_READ | DXGI_SHARED_RESOURCE_WRITE, 
          NULL,
-         &amp;handle);
+         &handle);
 
 // Pass the handle to another process to share the resource.
-</code></pre>
+
+```
+
 
 ## -see-also
 

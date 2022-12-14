@@ -53,7 +53,7 @@ api_name:
 
 The <code>GetSize</code> method retrieves the size of the buffer.
 
-## -parameters
+
 
 ## -returns
 

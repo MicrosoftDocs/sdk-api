@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_4.ID3D11VideoContext3.DecoderBeginFrame1
 title: ID3D11VideoContext3::DecoderBeginFrame1
-description: Starts a decoding operation to decode a video frame.
+description: Starts a decoding operation to decode a video frame. (ID3D11VideoContext3::DecoderBeginFrame1)
 tech.root: direct3d11
 helpviewer_keywords: ["ID3D11VideoContext3::DecoderBeginFrame1"]
 ms.date: 4/26/2019
@@ -20,8 +20,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

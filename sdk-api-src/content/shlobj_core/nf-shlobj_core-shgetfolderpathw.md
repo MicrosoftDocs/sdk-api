@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHGetFolderPathW
 title: SHGetFolderPathW function (shlobj_core.h)
-description: Deprecated.
+description: Deprecated. (SHGetFolderPathW)
 helpviewer_keywords: ["SHGFP_TYPE_CURRENT","SHGFP_TYPE_DEFAULT","SHGetFolderPath","SHGetFolderPath function [Windows Shell]","SHGetFolderPathA","SHGetFolderPathW","_win32_SHGetFolderPath","_win32_SHGetFolderPath_cpp","shell.SHGetFolderPath","shlobj_core/SHGetFolderPath","shlobj_core/SHGetFolderPathA","shlobj_core/SHGetFolderPathW"]
 old-location: shell\SHGetFolderPath.htm
 tech.root: shell
@@ -122,7 +122,7 @@ Retrieve the folder's default path.
 
 ### -param pszPath [out]
 
-Type: <b>LPTSTR</b>
+Type: <b>LPWSTR</b>
 
 A pointer to a <b>null</b>-terminated string of length MAX_PATH which will receive the path. If an error occurs or S_FALSE is returned, this string will be empty. The returned path does not include a trailing backslash. For example, "C:\Users" is returned rather than "C:\Users\\".
 
@@ -140,7 +140,7 @@ Retrieve the folder's default path.
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

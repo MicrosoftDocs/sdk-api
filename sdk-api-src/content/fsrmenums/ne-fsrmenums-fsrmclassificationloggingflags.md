@@ -56,23 +56,23 @@ Defines the different options for logging information while running classificati
 
 ## -enum-fields
 
-### -field FsrmClassificationLoggingFlags_None
+### -field FsrmClassificationLoggingFlags_None:0
 
 No logging occurs.
 
-### -field FsrmClassificationLoggingFlags_ClassificationsInLogFile
+### -field FsrmClassificationLoggingFlags_ClassificationsInLogFile:0x1
 
 Logs to a log file information about all the files and properties that were classified.
 
-### -field FsrmClassificationLoggingFlags_ErrorsInLogFile
+### -field FsrmClassificationLoggingFlags_ErrorsInLogFile:0x2
 
 Logs to a log file errors that occurred during classification.
 
-### -field FsrmClassificationLoggingFlags_ClassificationsInSystemLog
+### -field FsrmClassificationLoggingFlags_ClassificationsInSystemLog:0x4
 
 Logs to the System event information about all the files and properties that were classified.
 
-### -field FsrmClassificationLoggingFlags_ErrorsInSystemLog
+### -field FsrmClassificationLoggingFlags_ErrorsInSystemLog:0x8
 
 Logs to the System event log errors that occurred during classification.
 

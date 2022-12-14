@@ -61,53 +61,5 @@ Most providers will not permit an <b>ICommandTree</b> method to set a new comman
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICommandTree</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICommandTree</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ICommandTree</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICommandTree</b> also has these types of members:
 
-## -members
-
-The <b>ICommandTree</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cmdtree/nf-cmdtree-icommandtree-finderrornodes">FindErrorNodes</a>
-</td>
-<td align="left" width="63%">
-Finds the error nodes on a tree. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cmdtree/nf-cmdtree-icommandtree-freecommandtree">FreeCommandTree</a>
-</td>
-<td align="left" width="63%">
-Deallocates <a href="/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structures on a tree. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cmdtree/nf-cmdtree-icommandtree-getcommandtree">GetCommandTree</a>
-</td>
-<td align="left" width="63%">
-Echoes a command as a command tree. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cmdtree/nf-cmdtree-icommandtree-setcommandtree">SetCommandTree</a>
-</td>
-<td align="left" width="63%">
-Sets the command tree of a command object. 
-
-</td>
-</tr>
-</table>

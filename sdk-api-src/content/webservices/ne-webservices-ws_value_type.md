@@ -54,66 +54,66 @@ The types of fixed-size primitives.
 
 ## -enum-fields
 
-### -field WS_BOOL_VALUE_TYPE
+### -field WS_BOOL_VALUE_TYPE:0
 
 Used to indicate a BOOL value.
 
-### -field WS_INT8_VALUE_TYPE
+### -field WS_INT8_VALUE_TYPE:1
 
 Used to indicate a signed 8-bit integer.
 
-### -field WS_INT16_VALUE_TYPE
+### -field WS_INT16_VALUE_TYPE:2
 
 Used to indicate a signed 16-bit integer.
 
-### -field WS_INT32_VALUE_TYPE
+### -field WS_INT32_VALUE_TYPE:3
 
 Used to indicate a signed 32-bit integer.
 
-### -field WS_INT64_VALUE_TYPE
+### -field WS_INT64_VALUE_TYPE:4
 
 Used to indicate a signed 64-bit integer.
 
-### -field WS_UINT8_VALUE_TYPE
+### -field WS_UINT8_VALUE_TYPE:5
 
 Used to indicate an unsigned 8-bit integer.
 
-### -field WS_UINT16_VALUE_TYPE
+### -field WS_UINT16_VALUE_TYPE:6
 
 Used to indicate an unsigned 16-bit integer.
 
-### -field WS_UINT32_VALUE_TYPE
+### -field WS_UINT32_VALUE_TYPE:7
 
 Used to indicate an unsigned 32-bit integer.
 
-### -field WS_UINT64_VALUE_TYPE
+### -field WS_UINT64_VALUE_TYPE:8
 
 Used to indicate an unsigned 64-bit integer.
 
-### -field WS_FLOAT_VALUE_TYPE
+### -field WS_FLOAT_VALUE_TYPE:9
 
 Used to indicate a 32-bit floating point value.
 
-### -field WS_DOUBLE_VALUE_TYPE
+### -field WS_DOUBLE_VALUE_TYPE:10
 
 Used to indicate a 64-bit floating point value.
 
-### -field WS_DECIMAL_VALUE_TYPE
+### -field WS_DECIMAL_VALUE_TYPE:11
 
 Used to indicate a 96-bit fixed point value.
 
-### -field WS_DATETIME_VALUE_TYPE
+### -field WS_DATETIME_VALUE_TYPE:12
 
 Used to indicate a date and time.
 
-### -field WS_TIMESPAN_VALUE_TYPE
+### -field WS_TIMESPAN_VALUE_TYPE:13
 
 Used to indicate a signed 64-bit time period in 100 nanosecond units.
 
-### -field WS_GUID_VALUE_TYPE
+### -field WS_GUID_VALUE_TYPE:14
 
 Used to indicate a GUID.
 
-### -field WS_DURATION_VALUE_TYPE
+### -field WS_DURATION_VALUE_TYPE:15
 
 Used to indicate a <a href="/windows/desktop/api/webservices/ns-webservices-ws_duration">WS_DURATION</a>.

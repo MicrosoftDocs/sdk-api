@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Image.Image(GpImage,Status)
 title: Image::Image(GpImage,Status) (gdiplusheaders.h)
-description: This topic lists the constructors of the Image class. For a complete class listing, see Image Class.
+description: This topic lists the constructors of the Image class. For a complete class listing, see Image Class. (overload 1/2)
 helpviewer_keywords: ["Image","Image constructors [GDI+]","Image.Image","Image.Image(GpImage","Status)","Image::Image","Image::Image(GpImage","Status)","_gdiplus_CLASS_Image_Constructors","gdiplus._gdiplus_CLASS_Image_Constructors","gdiplusheaders/Image"]
 old-location: gdiplus\_gdiplus_CLASS_Image_Constructors.htm
 tech.root: gdiplus

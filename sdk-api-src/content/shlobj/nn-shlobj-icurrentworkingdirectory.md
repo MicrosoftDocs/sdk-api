@@ -54,38 +54,7 @@ Exposes methods that enable a client to retrieve or set an object's current work
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICurrentWorkingDirectory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICurrentWorkingDirectory</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ICurrentWorkingDirectory</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj/nf-shlobj-icurrentworkingdirectory-getdirectory">GetDirectory</a>
-</td>
-<td align="left" width="63%">
-Gets the current working directory.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj/nf-shlobj-icurrentworkingdirectory-setdirectory">SetDirectory</a>
-</td>
-<td align="left" width="63%">
-Sets the current working directory.
-
-</td>
-</tr>
-</table>
+The <b>ICurrentWorkingDirectory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICurrentWorkingDirectory</b> also has these types of members:
 
 ## -remarks
 

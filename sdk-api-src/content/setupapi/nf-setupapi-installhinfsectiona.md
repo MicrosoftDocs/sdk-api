@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.InstallHinfSectionA
 title: InstallHinfSectionA function (setupapi.h)
-description: InstallHinfSection is an entry-point function exported by Setupapi.dll that you can use to execute a section of an .inf file. InstallHinfSection can be invoked by calling the Rundll32.exe utility as described in the Remarks section.
+description: InstallHinfSection is an entry-point function exported by Setupapi.dll that you can use to execute a section of an .inf file. InstallHinfSection can be invoked by calling the Rundll32.exe utility as described in the Remarks section. (ANSI)
 helpviewer_keywords: ["InstallHinfSection","InstallHinfSection function [Setup API]","InstallHinfSectionA","InstallHinfSectionW","_setupapi_installhinfsection","setup.installhinfsection","setupapi/InstallHinfSection","setupapi/InstallHinfSectionA","setupapi/InstallHinfSectionW"]
 old-location: setup\installhinfsection.htm
 tech.root: setup
@@ -96,7 +96,11 @@ This passes "<i>&lt;section&gt;</i><i>&lt;mode&gt;</i><i>&lt;path&gt;</i>" to <i
 Alternatively, your program may call 
 <b>InstallHinfSection</b>, <b>InstallHinfSectionA</b>, or <b>InstallHinfSectionW</b> directly, setting the <i>CmdLineBuffer</i> parameter to the following.
 
-<pre class="syntax" xml:space="preserve"><code>"&lt;section&gt; &lt;mode&gt; &lt;path&gt;"</code></pre>
+
+``` syntax
+"<section> <mode> <path>"
+```
+
 Where <i>path</i> is the full path to the .inf file, <i>mode</i> is the reboot mode parameter, and <i>section</i> is any <b>Install</b> section in the .inf file. The comma separator between SETUPAPI.DLL and 
 <b>InstallHinfSection</b> on the command line is required. Note that there cannot be any white space on the command line between the comma and SETUPAPI.DLL or 
 <b>InstallHinfSection</b>.

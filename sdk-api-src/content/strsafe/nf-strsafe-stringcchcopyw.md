@@ -1,7 +1,7 @@
 ---
 UID: NF:strsafe.StringCchCopyW
 title: StringCchCopyW function (strsafe.h)
-description: Copies one string to another.
+description: Copies one string to another. (StringCchCopyW)
 helpviewer_keywords: ["StringCchCopy","StringCchCopy function [Menus and Other Resources]","StringCchCopyA","StringCchCopyW","_shell_StringCchCopy","_shell_stringcchcopy_cpp","menurc.stringcchcopy","strsafe/StringCchCopy","strsafe/StringCchCopyA","strsafe/StringCchCopyW","winui._shell_stringcchcopy"]
 old-location: menurc\stringcchcopy.htm
 tech.root: menurc
@@ -136,7 +136,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-Compared to  the functions it replaces, <b>StringCchCopy</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchCopy</b>always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
+Compared to  the functions it replaces, <b>StringCchCopy</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchCopy</b> always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 

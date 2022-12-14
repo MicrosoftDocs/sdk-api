@@ -44,6 +44,7 @@ api_location:
  - Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
 api_name:
  - NotifyChangeEventLog
+req.apiset: ext-ms-win-advapi32-eventlog-l1-1-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # NotifyChangeEventLog function

@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_open
 title: ldap_open function (winldap.h)
-description: ldap_open is not recommended for use.
+description: The ldap_open function creates and initializes a connection block, then opens the connection to an LDAP server. It is not recommended, use the ldap_init function instead.
 helpviewer_keywords: ["_ldap_ldap_open","ldap.ldap__open","ldap.ldap_open","ldap_open","ldap_open function [LDAP]","ldap_openA","ldap_openW","winldap/ldap_open","winldap/ldap_openA","winldap/ldap_openW"]
 old-location: ldap\ldap_open.htm
 tech.root: ldap
 ms.assetid: ebd7303d-e98d-454d-9964-d774d5c2a756
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: _ldap_ldap_open, ldap.ldap__open, ldap.ldap_open, ldap_open, ldap_open function [LDAP], ldap_openA, ldap_openW, winldap/ldap_open, winldap/ldap_openA, winldap/ldap_openW
 req.header: winldap.h
 req.include-header: 

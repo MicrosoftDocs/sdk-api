@@ -54,6 +54,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - GetFocus
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetFocus function
@@ -63,7 +64,7 @@ api_name:
 
 Retrieves the handle to the window that has the keyboard focus, if the window is attached to the calling thread's message queue.
 
-## -parameters
+
 
 ## -returns
 

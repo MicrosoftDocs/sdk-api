@@ -52,7 +52,7 @@ api_name:
 
 The <b>Clear</b> method removes all <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a> objects from the collection.
 
-## -parameters
+
 
 ## -returns
 

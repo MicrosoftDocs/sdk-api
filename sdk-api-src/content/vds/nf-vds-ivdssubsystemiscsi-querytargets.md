@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsSubSystemIscsi.QueryTargets
 title: IVdsSubSystemIscsi::QueryTargets (vds.h)
-description: Returns an object that enumerates the iSCSI targets of the subsystem.
+description: The IVdsSubSystemIscsi::QueryTargets method (vds.h) returns an object that enumerates the iSCSI targets of the subsystem.
 helpviewer_keywords: ["IVdsSubSystemIscsi interface [VDS]","QueryTargets method","IVdsSubSystemIscsi.QueryTargets","IVdsSubSystemIscsi::QueryTargets","QueryTargets","QueryTargets method [VDS]","QueryTargets method [VDS]","IVdsSubSystemIscsi interface","base.ivdssubsystemiscsi_querytargets","vds/IVdsSubSystemIscsi::QueryTargets","vdshwprv/IVdsSubSystemIscsi::QueryTargets"]
 old-location: base\ivdssubsystemiscsi_querytargets.htm
 tech.root: base
 ms.assetid: 86a89c23-beed-48d0-8d35-ed8dd39db3c6
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsSubSystemIscsi interface [VDS],QueryTargets method, IVdsSubSystemIscsi.QueryTargets, IVdsSubSystemIscsi::QueryTargets, QueryTargets, QueryTargets method [VDS], QueryTargets method [VDS],IVdsSubSystemIscsi interface, base.ivdssubsystemiscsi_querytargets, vds/IVdsSubSystemIscsi::QueryTargets, vdshwprv/IVdsSubSystemIscsi::QueryTargets
 req.header: vds.h
 req.include-header: 

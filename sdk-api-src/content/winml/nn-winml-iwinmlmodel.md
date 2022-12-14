@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 <b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
 
@@ -58,53 +58,5 @@ Represents a Windows Machine Learning model with corresponding metadata; include
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWinMLModel</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWinMLModel</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWinMLModel</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWinMLModel</b> also has these types of members:
 
-## -members
-
-The <b>IWinMLModel</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/winml/nf-winml-iwinmlmodel-enumeratemetadata">EnumerateMetadata</a>
-</td>
-<td align="left" width="63%">
-Gets the metadata of the model.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/winml/nf-winml-iwinmlmodel-enumeratemodelinputs">EnumerateModelInputs</a>
-</td>
-<td align="left" width="63%">
-Enumerates the WinML model inputs.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/winml/nf-winml-iwinmlmodel-enumeratemodeloutputs">EnumerateModelOutputs</a>
-</td>
-<td align="left" width="63%">
-Enumerates the WinML model outputs.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/winml/nf-winml-iwinmlmodel-getdescription">GetDescription</a>
-</td>
-<td align="left" width="63%">
-Retrieves the WinML model description.
-
-</td>
-</tr>
-</table>

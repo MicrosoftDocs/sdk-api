@@ -78,7 +78,7 @@ This method can return the standard return values E_INVALIDARG and E_UNEXPECTED,
 </dl>
 </td>
 <td width="60%">
-The method completed succesfully.
+The method completed successfully.
 
 </td>
 </tr>

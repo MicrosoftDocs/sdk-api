@@ -54,56 +54,7 @@ Represents a debug visual.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionVisualDebug</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual2">IDCompositionVisual2</a>. <b>IDCompositionVisualDebug</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDCompositionVisualDebug</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisualdebug-disableheatmap">DisableHeatMap</a>
-</td>
-<td align="left" width="63%">
-Disables visual heatmaps.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisualdebug-disableredrawregions">DisableRedrawRegions</a>
-</td>
-<td align="left" width="63%">
-Disables visual redraw regions.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisualdebug-enableheatmap">EnableHeatMap</a>
-</td>
-<td align="left" width="63%">
-Enables a visual heatmap that represents overdraw regions.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisualdebug-enableredrawregions">EnableRedrawRegions</a>
-</td>
-<td align="left" width="63%">
-Enables highlighting visuals when content is being redrawn.
-
-</td>
-</tr>
-</table>
+The <b>IDCompositionVisualDebug</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual2">IDCompositionVisual2</a>. <b>IDCompositionVisualDebug</b> also has these types of members:
 
 ## -see-also
 

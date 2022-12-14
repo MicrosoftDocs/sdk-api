@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmDisableIME
 title: ImmDisableIME function (immdev.h)
-description: Disables the IME for a thread or for all threads in a process.
+description: The ImmDisableIME function (immdev.h) disables the IME for a thread or for all threads in a process.
 helpviewer_keywords: ["ImmDisableIME","ImmDisableIME function [Internationalization for Windows Applications]","_win32_ImmDisableIME","imm/ImmDisableIME","intl.immdisableime"]
 old-location: intl\immdisableime.htm
 tech.root: Intl
 ms.assetid: c563fc24-3c56-40ac-8539-8336d5231537
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: ImmDisableIME, ImmDisableIME function [Internationalization for Windows Applications], _win32_ImmDisableIME, imm/ImmDisableIME, intl.immdisableime
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h

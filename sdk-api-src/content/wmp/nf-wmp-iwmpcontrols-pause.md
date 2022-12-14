@@ -52,7 +52,7 @@ api_name:
 
 The <b>pause</b> method pauses playback of the media item.
 
-## -parameters
+
 
 ## -returns
 

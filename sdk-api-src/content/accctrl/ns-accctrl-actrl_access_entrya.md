@@ -1,7 +1,7 @@
 ---
 UID: NS:accctrl._ACTRL_ACCESS_ENTRYA
 title: ACTRL_ACCESS_ENTRYA (accctrl.h)
-description: Contains access-control information for a specified trustee. This structure stores information equivalent to the access-control information stored in an ACE.
+description: Contains access-control information for a specified trustee. This structure stores information equivalent to the access-control information stored in an ACE. (ANSI)
 helpviewer_keywords: ["*PACTRL_ACCESS_ENTRYA","ACTRL_ACCESS_ALLOWED","ACTRL_ACCESS_DENIED","ACTRL_ACCESS_ENTRY","ACTRL_ACCESS_ENTRY structure [COM]","ACTRL_ACCESS_ENTRYA","ACTRL_ACCESS_ENTRYW","ACTRL_AUDIT_FAILURE","ACTRL_AUDIT_SUCCESS","ACTRL_CHANGE_ACCESS","ACTRL_CHANGE_OWNER","ACTRL_DELETE","ACTRL_READ_CONTROL","ACTRL_STD_RIGHTS_ALL","ACTRL_STD_RIGHT_REQUIRED","ACTRL_SYNCHRONIZE","ACTRL_SYSTEM_ACCESS","COM_RIGHTS_ACTIVATE_LOCAL","COM_RIGHTS_ACTIVATE_REMOTE","COM_RIGHTS_EXECUTE","COM_RIGHTS_EXECUTE_LOCAL","COM_RIGHTS_EXECUTE_REMOTE","CONTAINER_INHERIT_ACE","INHERIT_ONLY_ACE","NO_PROPAGATE_INHERIT_ACE","OBJECT_INHERIT_ACE","PACTRL_ACCESS_ENTRY","PACTRL_ACCESS_ENTRY structure pointer [COM]","SUB_CONTAINERS_AND_OBJECTS_INHERIT","SUB_CONTAINERS_ONLY_INHERIT","SUB_OBJECTS_ONLY_INHERIT","_ACTRL_ACCESS_ENTRYA","_ACTRL_ACCESS_ENTRYW","accctrl/ACTRL_ACCESS_ENTRY","accctrl/ACTRL_ACCESS_ENTRYA","accctrl/ACTRL_ACCESS_ENTRYW","accctrl/PACTRL_ACCESS_ENTRY","com.actrl_access_entry"]
 old-location: com\actrl_access_entry.htm
 tech.root: com

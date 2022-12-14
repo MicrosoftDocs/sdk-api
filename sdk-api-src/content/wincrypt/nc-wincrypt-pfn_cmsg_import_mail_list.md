@@ -1,7 +1,7 @@
 ---
 UID: NC:wincrypt.PFN_CMSG_IMPORT_MAIL_LIST
 title: PFN_CMSG_IMPORT_MAIL_LIST (wincrypt.h)
-description: Imports a content encryption key for a key transport recipient of an enveloped message.
+description: Imports a content encryption key for a key transport recipient of an enveloped message. (PFN_CMSG_IMPORT_MAIL_LIST)
 helpviewer_keywords: ["PFN_CMSG_IMPORT_MAIL_LIST","PFN_CMSG_IMPORT_MAIL_LIST callback","PFN_CMSG_IMPORT_MAIL_LIST callback function [Security]","security.pfn_cmsg_import_mail_list","wincrypt/PFN_CMSG_IMPORT_MAIL_LIST"]
 old-location: security\pfn_cmsg_import_mail_list.htm
 tech.root: security
@@ -66,11 +66,11 @@ A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_ctrl_mail
 
 This value is not used. Set it to zero.
 
-### -param *pvReserved
+### -param pvReserved
 
 This parameter is reserved and must be <b>NULL</b>.
 
-### -param *phContentEncryptKey [out]
+### -param phContentEncryptKey [out]
 
 The address of a handle to the content encryption key returned by this function.
 

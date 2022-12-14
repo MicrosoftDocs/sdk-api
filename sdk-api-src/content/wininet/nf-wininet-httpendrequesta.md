@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.HttpEndRequestA
 title: HttpEndRequestA function (wininet.h)
-description: Ends an HTTP request that was initiated by HttpSendRequestEx.
+description: Ends an HTTP request that was initiated by HttpSendRequestEx. (ANSI)
 helpviewer_keywords: ["HttpEndRequest","HttpEndRequest function [WinINet]","HttpEndRequestA","HttpEndRequestW","_win32_httpendrequest","wininet.httpendrequest","wininet/HttpEndRequest","wininet/HttpEndRequestA","wininet/HttpEndRequestW"]
 old-location: wininet\httpendrequest.htm
 tech.root: wininet

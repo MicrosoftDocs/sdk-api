@@ -4,7 +4,7 @@ title: SetWaitableTimerEx function (synchapi.h)
 description: Activates the specified waitable timer and provides context information for the timer. When the due time arrives, the timer is signaled and the thread that set the timer calls the optional completion routine.
 helpviewer_keywords: ["SetWaitableTimerEx","SetWaitableTimerEx function","base.setwaitabletimerex","synchapi/SetWaitableTimerEx","winbase/SetWaitableTimerEx"]
 old-location: base\setwaitabletimerex.htm
-tech.root: backup
+tech.root: base
 ms.assetid: 2facde72-6e04-4a2f-9ee6-059f36932539
 ms.date: 12/05/2018
 ms.keywords: SetWaitableTimerEx, SetWaitableTimerEx function, base.setwaitabletimerex, synchapi/SetWaitableTimerEx, winbase/SetWaitableTimerEx

@@ -56,65 +56,10 @@ This interface is used by any application that creates tune requests, such as a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITuneRequest</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITuneRequest</b> also has these types of members:
+The <b>ITuneRequest</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITuneRequest</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ITuneRequest</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-itunerequest-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Returns a new copy of this tune request.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-itunerequest-get_components">get_Components</a>
-</td>
-<td align="left" width="63%">
-Retrieves the components contained in this tune request.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-itunerequest-get_locator">get_Locator</a>
-</td>
-<td align="left" width="63%">
-Called from the Network Provider to get the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a> object associated with the requested broadcast.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-itunerequest-get_tuningspace">get_TuningSpace</a>
-</td>
-<td align="left" width="63%">
-Retrieves the tuning space that was used to create this tune request.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-itunerequest-put_locator">put_Locator</a>
-</td>
-<td align="left" width="63%">
-Called from the Network Provider to set the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a> object associated with the requested broadcast.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

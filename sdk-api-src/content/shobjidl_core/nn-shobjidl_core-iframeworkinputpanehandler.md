@@ -54,38 +54,7 @@ Enables an app to be notified when the input pane (the on-screen keyboard or han
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFrameworkInputPaneHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFrameworkInputPaneHandler</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IFrameworkInputPaneHandler</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iframeworkinputpanehandler-hiding">Hiding</a>
-</td>
-<td align="left" width="63%">
-Called when the input pane is about to leave the display.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iframeworkinputpanehandler-showing">Showing</a>
-</td>
-<td align="left" width="63%">
-Called before the input pane is shown, to allow the app window to make any necessary adjustments to its UI in response to the reduced screen space available to it. This is particularly important for input elements, such as text boxes, that are used in conjunction with the input pane.
-
-</td>
-</tr>
-</table>
+The <b>IFrameworkInputPaneHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFrameworkInputPaneHandler</b> also has these types of members:
 
 ## -remarks
 

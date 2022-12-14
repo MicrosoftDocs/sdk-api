@@ -54,56 +54,7 @@ Enables the saving and loading of objects that use a simple serial stream for th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistStream</b> interface inherits from <b>IPersist</b>. <b>IPersistStream</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPersistStream</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststream-getsizemax">GetSizeMax</a>
-</td>
-<td align="left" width="63%">
-Retrieves the size of the stream needed to save the object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststream-isdirty">IsDirty</a>
-</td>
-<td align="left" width="63%">
-Determines whether an object has changed since it was last saved to its stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststream-load">Load</a>
-</td>
-<td align="left" width="63%">
-Initializes an object from the stream where it was saved previously.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststream-save">Save</a>
-</td>
-<td align="left" width="63%">
-Saves an object to the specified stream.
-
-</td>
-</tr>
-</table>
+The <b>IPersistStream</b> interface inherits from <b>IPersist</b>. <b>IPersistStream</b> also has these types of members:
 
 ## -remarks
 

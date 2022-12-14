@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateShaderResourceView
 title: ID3D11Device::CreateShaderResourceView (d3d11.h)
-description: Create a shader-resource view for accessing data in a resource.
+description: Create a shader-resource view for accessing data in a resource. (ID3D11Device.CreateShaderResourceView)
 helpviewer_keywords: ["6f2fff53-b73d-3404-2005-37078d5f283b","CreateShaderResourceView","CreateShaderResourceView method [Direct3D 11]","CreateShaderResourceView method [Direct3D 11]","ID3D11Device interface","ID3D11Device interface [Direct3D 11]","CreateShaderResourceView method","ID3D11Device.CreateShaderResourceView","ID3D11Device::CreateShaderResourceView","d3d11/ID3D11Device::CreateShaderResourceView","direct3d11.id3d11device_createshaderresourceview"]
 old-location: direct3d11\id3d11device_createshaderresourceview.htm
 tech.root: direct3d11
@@ -86,7 +86,7 @@ This method returns one of the following <a href="/windows/desktop/direct3d11/d3
 
 A resource is made up of one or more subresources; a view identifies which subresources to allow the pipeline to access. In addition, each resource is
           bound to the pipeline using a view. A shader-resource view is designed to bind any buffer or texture resource to the shader stages using the following
-          API methods: <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-vssetshaderresources">ID3D11DeviceContext::VSSetShaderResources</a>, <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-gssetshaderresources">ID3D11DeviceContext::GSSetShaderResources</a>and <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-pssetshaderresources">ID3D11DeviceContext::PSSetShaderResources</a>.
+          API methods: <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-vssetshaderresources">ID3D11DeviceContext::VSSetShaderResources</a>, <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-gssetshaderresources">ID3D11DeviceContext::GSSetShaderResources</a> and <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-pssetshaderresources">ID3D11DeviceContext::PSSetShaderResources</a>.
         
 
 Because a view is fully typed, this means that typeless resources become fully typed when bound to the pipeline.

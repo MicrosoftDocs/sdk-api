@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcServerInqDefaultPrincNameA
 title: RpcServerInqDefaultPrincNameA function (rpcdce.h)
-description: The RpcServerInqDefaultPrincName function obtains the default principal name for a given authentication service.
+description: The RpcServerInqDefaultPrincName function obtains the default principal name for a given authentication service. (RpcServerInqDefaultPrincNameA)
 helpviewer_keywords: ["RpcServerInqDefaultPrincName","RpcServerInqDefaultPrincName function [RPC]","RpcServerInqDefaultPrincNameA","RpcServerInqDefaultPrincNameW","_rpc_rpcserverinqdefaultprincname","rpc.rpcserverinqdefaultprincname","rpcdce/RpcServerInqDefaultPrincName","rpcdce/RpcServerInqDefaultPrincNameA","rpcdce/RpcServerInqDefaultPrincNameW"]
 old-location: rpc\rpcserverinqdefaultprincname.htm
 tech.root: Rpc

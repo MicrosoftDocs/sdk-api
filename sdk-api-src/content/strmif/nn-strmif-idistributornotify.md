@@ -61,65 +61,7 @@ During a call to any <b>IDistributorNotify</b> method, do not hold any critical 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDistributorNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDistributorNotify</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDistributorNotify</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-idistributornotify-notifygraphchange">NotifyGraphChange</a>
-</td>
-<td align="left" width="63%">
-Called when the set of filters in the filter graph change or their connections change.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-idistributornotify-pause">Pause</a>
-</td>
-<td align="left" width="63%">
-Called when the filter graph is entering a paused state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-idistributornotify-run">Run</a>
-</td>
-<td align="left" width="63%">
-Called when the filter graph is entering a running state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-idistributornotify-setsyncsource">SetSyncSource</a>
-</td>
-<td align="left" width="63%">
-Called when a new clock is registered.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-idistributornotify-stop">Stop</a>
-</td>
-<td align="left" width="63%">
-Called when the filter graph is entering a stopped state.
-
-</td>
-</tr>
-</table>
+The <b>IDistributorNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDistributorNotify</b> also has these types of members:
 
 ## -see-also
 

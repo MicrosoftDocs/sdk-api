@@ -44,6 +44,7 @@ api_location:
  - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
  - MapDialogRect
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # MapDialogRect function
@@ -81,11 +82,15 @@ The <b>MapDialogRect</b> function assumes that the initial coordinates in the <a
 				
 				
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 left   = MulDiv(left,   baseunitX, 4);
 right  = MulDiv(right,  baseunitX, 4);
 top    = MulDiv(top,    baseunitY, 8);
-bottom = MulDiv(bottom, baseunitY, 8);</code></pre>
+bottom = MulDiv(bottom, baseunitY, 8);
+```
+
 If the dialog box template has the <a href="/windows/desktop/dlgbox/about-dialog-boxes">DS_SETFONT</a> or <b>DS_SHELLFONT</b> style, the base units are the average width and height, in pixels, of the characters in the font specified by the template.
 
 ## -see-also

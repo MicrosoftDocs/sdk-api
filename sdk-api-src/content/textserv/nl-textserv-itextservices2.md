@@ -54,38 +54,7 @@ The <b>ITextServices2</b> interface extends the <a href="/windows/desktop/api/te
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextServices2</b> interface inherits from <a href="/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>. <b>ITextServices2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITextServices2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/textserv/nf-textserv-itextservices2-txdrawd2d">TxDrawD2D</a>
-</td>
-<td align="left" width="63%">
-Draws the text services object by using Direct2D rendering.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/textserv/nf-textserv-itextservices2-txgetnaturalsize2">TxGetNaturalSize2</a>
-</td>
-<td align="left" width="63%">
-Resizes a control so it fits its content appropriately. This method is similar to <a href="/windows/desktop/api/textserv/nf-textserv-itextservices-txgetnaturalsize">TxGetNaturalSize</a>, but also retrieves the ascent of the top line of text.
-
-</td>
-</tr>
-</table>
+The <b>ITextServices2</b> interface inherits from <a href="/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>. <b>ITextServices2</b> also has these types of members:
 
 ## -see-also
 

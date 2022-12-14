@@ -54,38 +54,10 @@ The <b>IATSCComponentType</b> interface represents a component type for a compon
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IATSCComponentType</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-impeg2componenttype">IMPEG2ComponentType</a>. <b>IATSCComponentType</b> also has these types of members:
+The <b>IATSCComponentType</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-impeg2componenttype">IMPEG2ComponentType</a>. <b>IATSCComponentType</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IATSCComponentType</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsccomponenttype-get_flags">get_Flags</a>
-</td>
-<td align="left" width="63%">
-Queries whether an audio component is in AC-3 format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsccomponenttype-put_flags">put_Flags</a>
-</td>
-<td align="left" width="63%">
-Specifies whether an audio component is in AC-3 format.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

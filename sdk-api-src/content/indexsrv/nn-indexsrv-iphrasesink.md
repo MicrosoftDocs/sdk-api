@@ -58,36 +58,7 @@ Handles phrases that word breakers parse from query text during query time.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPhraseSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPhraseSink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPhraseSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/indexsrv/nf-indexsrv-iphrasesink-putphrase">PutPhrase</a>
-</td>
-<td align="left" width="63%">
-Puts a query-time phrase in the PhraseSink object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>PutSmallPhrase</b></td>
-<td align="left" width="63%">
-Not supported.
-
-</td>
-</tr>
-</table>
+The <b>IPhraseSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPhraseSink</b> also has these types of members:
 
 ## -remarks
 

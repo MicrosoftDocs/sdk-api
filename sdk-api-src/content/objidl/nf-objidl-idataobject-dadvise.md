@@ -71,7 +71,7 @@ A group of flags for controlling the advisory connection. Possible values are fr
 <td>ADVF_NODATA
 </td>
 <td>
-Asks the data object to avoid sending data with the notifications. Typically data is sent. This flag is a way to override the default behavior. When ADVF_NODATA is used, the <b>tymed</b> member of the <a href="/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a> structure that is passed to <a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-ondatachange">OnDataChange</a> will usually contain TYMED_NULL. The caller can then retrieve the data with a subsequent <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> call.
+Asks the data object to avoid sending data with the notifications. Typically data is sent. This flag is a way to override the default behavior. When ADVF_NODATA is used, the <b>tymed</b> member of the <a href="/windows/win32/api/objidl/ns-objidl-ustgmedium-r1">STGMEDIUM</a> structure that is passed to <a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-ondatachange">OnDataChange</a> will usually contain TYMED_NULL. The caller can then retrieve the data with a subsequent <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> call.
 
 </td>
 </tr>
@@ -185,11 +185,15 @@ Containers of linked objects can set up advisory connections directly with the b
 
 The OLE default link object creates a "wildcard advise" with the link source so OLE can maintain the time of last change. This advise is specifically used to note the time that anything changed. OLE ignores all data formats that may have changed, noting only the time of last change. To allow wildcard advises, set the <a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> members as follows before calling <b>DAdvise</b>:
 
-<pre class="syntax" xml:space="preserve"><code>cf == 0; 
+
+``` syntax
+cf == 0; 
 ptd == NULL; 
 dwAspect == -1; 
 lindex == -1 
-tymed == -1;</code></pre>
+tymed == -1;
+```
+
 The advise flags should also include ADVF_NODATA. Wildcard advises from OLE should always be accepted by applications.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>

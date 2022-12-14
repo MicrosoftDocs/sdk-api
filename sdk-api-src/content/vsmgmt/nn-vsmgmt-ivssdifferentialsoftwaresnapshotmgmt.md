@@ -57,62 +57,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssDifferentialSoftwareSnapshotMgmt</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssDifferentialSoftwareSnapshotMgmt</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVssDifferentialSoftwareSnapshotMgmt</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-adddiffarea">AddDiffArea</a>
-</td>
-<td align="left" width="63%">
-Adds a diff area association for a certain volume.</p> (Inherited from <b>IVssDifferentialSoftwareSnapshotMgmt</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-changediffareamaximumsize">ChangeDiffAreaMaximumSize</a>
-</td>
-<td align="left" width="63%">
-Updates the shadow copy storage area maximum size for a certain volume.</p> (Inherited from <b>IVssDifferentialSoftwareSnapshotMgmt</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasforsnapshot">QueryDiffAreasForSnapshot</a>
-</td>
-<td align="left" width="63%">
-Queries shadow copy storage  areas in use by the given shadow copy.</p> (Inherited from <b>IVssDifferentialSoftwareSnapshotMgmt</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasforvolume">QueryDiffAreasForVolume</a>
-</td>
-<td align="left" width="63%">
-Queries shadow copy storage areas that host shadow copies on the given volume.</p> (Inherited from <b>IVssDifferentialSoftwareSnapshotMgmt</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasonvolume">QueryDiffAreasOnVolume</a>
-</td>
-<td align="left" width="63%">
-Queries shadow copy storage areas that physically reside on the given volume.</p> (Inherited from <b>IVssDifferentialSoftwareSnapshotMgmt</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-queryvolumessupportedfordiffareas">QueryVolumesSupportedForDiffAreas</a>
-</td>
-<td align="left" width="63%">
-Queries volumes that support shadow copy storage  areas (including volumes with disabled differential areas).</p> (Inherited from <b>IVssDifferentialSoftwareSnapshotMgmt</b>)</td>
-</tr>
-</table>
+The <b>IVssDifferentialSoftwareSnapshotMgmt</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssDifferentialSoftwareSnapshotMgmt</b> also has these types of members:
 
 ## -see-also
 

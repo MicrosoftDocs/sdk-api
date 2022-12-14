@@ -54,74 +54,7 @@ Interface that defines callbacks  for Microsoft Media Foundation Timed Text noti
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTimedTextNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTimedTextNotify</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFTimedTextNotify</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextnotify-cue">Cue</a>
-</td>
-<td align="left" width="63%">
-Called when a cue event occurs in a text track.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextnotify-error">Error</a>
-</td>
-<td align="left" width="63%">
-Called when an error occurs in a text track.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextnotify-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the timed-text-notify object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextnotify-trackadded">TrackAdded</a>
-</td>
-<td align="left" width="63%">
-Called when a text track is added
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextnotify-trackremoved">TrackRemoved</a>
-</td>
-<td align="left" width="63%">
-Called when a text track is removed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextnotify-trackselected">TrackSelected</a>
-</td>
-<td align="left" width="63%">
-Called when a track is selected or deselected.
-
-</td>
-</tr>
-</table>
+The <b>IMFTimedTextNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTimedTextNotify</b> also has these types of members:
 
 ## -see-also
 

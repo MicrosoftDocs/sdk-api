@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetRawInputDeviceInfoW
 title: GetRawInputDeviceInfoW function (winuser.h)
-description: Retrieves information about the raw input device.
+description: Retrieves information about the raw input device. (Unicode)
 helpviewer_keywords: ["GetRawInputDeviceInfo","GetRawInputDeviceInfo function [Keyboard and Mouse Input]","GetRawInputDeviceInfoA","GetRawInputDeviceInfoW","RIDI_DEVICEINFO","RIDI_DEVICENAME","RIDI_PREPARSEDDATA","_win32_GetRawInputDeviceInfo","_win32_getrawinputdeviceinfo_cpp","inputdev.getrawinputdeviceinfo","winui._win32_getrawinputdeviceinfo","winuser/GetRawInputDeviceInfo","winuser/GetRawInputDeviceInfoA","winuser/GetRawInputDeviceInfoW"]
 old-location: inputdev\getrawinputdeviceinfo.htm
 tech.root: inputdev
@@ -50,6 +50,7 @@ api_name:
  - GetRawInputDeviceInfo
  - GetRawInputDeviceInfoA
  - GetRawInputDeviceInfoW
+req.apiset: ext-ms-win-ntuser-rawinput-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetRawInputDeviceInfoW function
@@ -97,7 +98,7 @@ Specifies what data will be returned in <i>pData</i>. This parameter can be one 
 <td width="60%">
 <i>pData</i> points to a string that contains the <a href="/windows-hardware/drivers/wdf/using-device-interfaces">device interface name</a>.
 
-If this device is <a href="/windows-hardware/drivers/hid/hid-clients-supported-in-windows">opened with Shared Access Mode</a> then you can call <a href="/windows/win32/api/fileapi/nf-fileapi-createfilew">CreateFile</a> with this name to open a HID collection and use returned handle for calling <a href="/windows/win32/api/fileapi/nf-fileapi-readfile">ReadFile</a> to read input reports and <a href="/windows/win32/api/fileapi/nf-fileapi-writefile">WriteFile</a> to send output reports.
+If this device is <a href="/windows-hardware/drivers/hid/hid-architecture#hid-clients-supported-in-windows">opened with Shared Access Mode</a> then you can call <a href="/windows/win32/api/fileapi/nf-fileapi-createfilew">CreateFile</a> with this name to open a HID collection and use returned handle for calling <a href="/windows/win32/api/fileapi/nf-fileapi-readfile">ReadFile</a> to read input reports and <a href="/windows/win32/api/fileapi/nf-fileapi-writefile">WriteFile</a> to send output reports.
 
 For more information, see <a href="/windows-hardware/drivers/hid/opening-hid-collections">Opening HID Collections</a> and <a href="/windows-hardware/drivers/hid/handling-hid-reports">Handling HID Reports</a>.
 
@@ -111,7 +112,7 @@ For this <i>uiCommand</i> only, the value in <i>pcbSize</i> is the character cou
 </dl>
 </td>
 <td width="60%">
-<i>pData</i> points to an <a href="/windows/desktop/api/winuser/ns-winuser-rid_device_info.md">RID_DEVICE_INFO</a> structure.
+<i>pData</i> points to an <a href="/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a> structure.
 </td>
 </tr>
 </table>

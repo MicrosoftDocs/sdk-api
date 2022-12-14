@@ -1,12 +1,12 @@
 ---
 UID: NF:mmiscapi.mmioOpenW
 title: mmioOpenW function (mmiscapi.h)
-description: The mmioOpen function opens a file for unbuffered or buffered I/O; creates a file; deletes a file; or checks whether a file exists.
+description: The mmioOpenW (Unicode) function opens a file for unbuffered or buffered I/O; creates a file; deletes a file; or checks whether a file exists. (mmioOpenW)
 helpviewer_keywords: ["_win32_mmioOpen","mmioOpen","mmioOpen function [Windows Multimedia]","mmioOpenA","mmioOpenW","mmsystem/mmioOpen","mmsystem/mmioOpenA","mmsystem/mmioOpenW","multimedia.mmioopen"]
 old-location: multimedia\mmioopen.htm
 tech.root: Multimedia
 ms.assetid: 7361f0f2-1c3c-49f1-aec1-2927e05ef0f0
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: _win32_mmioOpen, mmioOpen, mmioOpen function [Windows Multimedia], mmioOpenA, mmioOpenW, mmsystem/mmioOpen, mmsystem/mmioOpenA, mmsystem/mmioOpenW, multimedia.mmioopen
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
@@ -81,7 +81,7 @@ Pointer to an <a href="/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> struct
 
 ### -param fdwOpen
 
-Flags for the open operation. The MMIO_READ, MMIO_WRITE, and MMIO_READWRITE flags are mutually exclusive â&euro;" only one should be specified. The MMIO_COMPAT, MMIO_EXCLUSIVE, MMIO_DENYWRITE, MMIO_DENYREAD, and MMIO_DENYNONE flags are file-sharing flags. The following values are defined.
+Flags for the open operation. The MMIO_READ, MMIO_WRITE, and MMIO_READWRITE flags are mutually exclusive – only one should be specified. The MMIO_COMPAT, MMIO_EXCLUSIVE, MMIO_DENYWRITE, MMIO_DENYREAD, and MMIO_DENYNONE flags are file-sharing flags. The following values are defined.
 
 <table>
 <tr>

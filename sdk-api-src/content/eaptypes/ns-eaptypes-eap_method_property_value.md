@@ -44,7 +44,7 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# EAP_METHOD_PROPERTY_VALUE structure
+# EAP_METHOD_PROPERTY_VALUE structure overview
 
 
 ## -description
@@ -99,7 +99,6 @@ If <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_property">eapMe
  
 
 
-### -field switch_type
 
  
 

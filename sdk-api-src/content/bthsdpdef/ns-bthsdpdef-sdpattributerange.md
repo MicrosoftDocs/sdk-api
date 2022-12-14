@@ -1,5 +1,5 @@
 ---
-UID: NS:bthsdpdef._SdpAttributeRange
+UID: NS:bthsdpdef.SdpAttributeRange
 title: SdpAttributeRange (bthsdpdef.h)
 description: The SdpAttributeRange structure is used in a Bluetooth query to constrain the set of attributes to return in the query.
 helpviewer_keywords: ["SdpAttributeRange","SdpAttributeRange structure [Bluetooth]","bluetooth.sdpattributerange","bthsdpdef/SdpAttributeRange"]

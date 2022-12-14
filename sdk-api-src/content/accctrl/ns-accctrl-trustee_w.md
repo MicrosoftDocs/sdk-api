@@ -1,7 +1,7 @@
 ---
 UID: NS:accctrl._TRUSTEE_W
 title: TRUSTEE_W (accctrl.h)
-description: Identifies the user account, group account, or logon session to which an access control entry (ACE) applies.
+description: Identifies the user account, group account, or logon session to which an access control entry (ACE) applies. (Unicode)
 helpviewer_keywords: ["*PTRUSTEEW","*PTRUSTEE_W","PTRUSTEE","PTRUSTEE structure pointer [Security]","TRUSTEE","TRUSTEE structure [Security]","TRUSTEEW","TRUSTEE_","TRUSTEE_A","TRUSTEE_IS_NAME","TRUSTEE_IS_OBJECTS_AND_NAME","TRUSTEE_IS_OBJECTS_AND_SID","TRUSTEE_IS_SID","TRUSTEE_W","_win32_trustee_str","accctrl/PTRUSTEE","accctrl/TRUSTEE","accctrl/TRUSTEE_A","accctrl/TRUSTEE_W","security.trustee"]
 old-location: security\trustee.htm
 tech.root: security
@@ -105,9 +105,7 @@ A value from the
 
 ### -field pObjectsAndName.case.TRUSTEE_IS_OBJECTS_AND_NAME
 
-### -field switch_is
 
-### -field switch_is.TrusteeForm
 
 ### -field ptstrName
 

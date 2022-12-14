@@ -55,38 +55,7 @@ Adds members to the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkwordl
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkRecognizer2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkRecognizer2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IInkRecognizer2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer2-get_id">get_Id</a>
-</td>
-<td align="left" width="63%">
-Retrieves the ID of the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2">IInkWordList2 Interface</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer2-get_unicoderanges">get_UnicodeRanges</a>
-</td>
-<td align="left" width="63%">
-Retrieves the Unicode ranges supported by the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2">IInkWordList2 Interface</a>.
-
-</td>
-</tr>
-</table>
+The <b>IInkRecognizer2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkRecognizer2</b> also has these types of members:
 
 ## -see-also
 

@@ -52,7 +52,7 @@ api_name:
 
 Gets the ready state of the media source.
 
-## -parameters
+
 
 ## -returns
 

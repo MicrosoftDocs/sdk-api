@@ -20,8 +20,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -575,7 +575,7 @@ When [LPWSPSetSockOpt](./nc-ws2spi-lpwspsetsockopt.md) SO_OOBINLINE is enabled, 
 1. When **LPWSPAsyncSelect** is called, if an [LPWSPSend](./nc-ws2spi-lpwspsend.md) or [LPWSPSendTo](./nc-ws2spi-lpwspsendto.md) is possible.
 2. After [LPWSPConnect](./nc-ws2spi-lpwspconnect.md) or [LPWSPAccept](./nc-ws2spi-lpwspaccept.md) is called, when connection established.
 3. After [LPWSPSend](./nc-ws2spi-lpwspsend.md) or [LPWSPSendTo](./nc-ws2spi-lpwspsendto.md) fail with WSAEWOULDBLOCK, when [LPWSPSend](./nc-ws2spi-lpwspsend.md) or [LPWSPSendTo](./nc-ws2spi-lpwspsendto.md) are likely to succeed.
-4. After [LPWSPBind](./nc-ws2spi-lpwspbind.md) on a connectionless socket. FD_WRITE may or may not occur at this time (implementation-dependent). In any case, a connectionless socket is always writeable immediately after [LPWSPBind](./nc-ws2spi-lpwspbind.md).
+4. After [LPWSPBind](./nc-ws2spi-lpwspbind.md) on a connectionless socket. FD_WRITE may or may not occur at this time (implementation-dependent). In any case, a connectionless socket is always writable immediately after [LPWSPBind](./nc-ws2spi-lpwspbind.md).
 
 **FD_OOB** (valid only when [LPWSPSetSockOpt](./nc-ws2spi-lpwspsetsockopt.md) SO_OOBINLINE is disabled (default))
 

@@ -1,12 +1,12 @@
 ---
 UID: NN:tapi3.ITAgentSessionEvent
 title: ITAgentSessionEvent (tapi3.h)
-description: The ITAgentSessionEvent interface contains methods that retrieve the description of agent session events.
+description: The ITAgentSessionEvent interface (tapi3.h) contains methods that retrieve the description of agent session events.
 helpviewer_keywords: ["ITAgentSessionEvent","ITAgentSessionEvent interface [TAPI 2.2]","ITAgentSessionEvent interface [TAPI 2.2]","described","_tapi3_itagentsessionevent","tapi3.itagentsessionevent","tapi3cc/ITAgentSessionEvent"]
 old-location: tapi3\itagentsessionevent.htm
 tech.root: tapi3
 ms.assetid: 70d37d06-b1a6-4f7e-bfe5-731d1b4cd66b
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: ITAgentSessionEvent, ITAgentSessionEvent interface [TAPI 2.2], ITAgentSessionEvent interface [TAPI 2.2],described, _tapi3_itagentsessionevent, tapi3.itagentsessionevent, tapi3cc/ITAgentSessionEvent
 req.header: tapi3.h
 req.include-header: Tapi3.h
@@ -64,40 +64,7 @@ See
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAgentSessionEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAgentSessionEvent</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITAgentSessionEvent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3/nf-tapi3-itagentsessionevent-get_event">get_Event</a>
-</td>
-<td align="left" width="63%">
-Gets an 
-<a href="/windows/desktop/api/tapi3/ne-tapi3-agent_session_event">AGENT_SESSION_EVENT</a> descriptor of the event.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3/nf-tapi3-itagentsessionevent-get_session">get_Session</a>
-</td>
-<td align="left" width="63%">
-Gets a pointer to the 
-<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a> interface.
-
-</td>
-</tr>
-</table>
+The <b>ITAgentSessionEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAgentSessionEvent</b> also has these types of members:
 
 ## -see-also
 

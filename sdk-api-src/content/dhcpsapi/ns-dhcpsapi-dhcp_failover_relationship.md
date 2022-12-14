@@ -57,27 +57,27 @@ The <b>DHCP_FAILOVER_RELATIONSHIP</b> structure defines information about a DHCP
 
 ### -field PrimaryServer
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> structure that contains the primary server IP address.
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> structure that contains the primary server IP address.
 
 ### -field SecondaryServer
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> structure that contains the secondary server IP address.
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> structure that contains the secondary server IP address.
 
 ### -field Mode
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_failover_mode">DHCP_FAILOVER_MODE</a> enumeration that specifies the failover relationship mode.
+<a href="/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_failover_mode">DHCP_FAILOVER_MODE</a> enumeration that specifies the failover relationship mode.
 
 ### -field ServerType
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_failover_server">DHCP_FAILOVER_SERVER</a> enumeration that specifies if the server is the primary or secondary server in the failover relationship
+<a href="/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_failover_server">DHCP_FAILOVER_SERVER</a> enumeration that specifies if the server is the primary or secondary server in the failover relationship
 
 ### -field State
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-fsm_state">FSM_STATE</a> enumeration that specifies the state of the failover relationship.
+<a href="/windows/desktop/api/dhcpsapi/ne-dhcpsapi-fsm_state">FSM_STATE</a> enumeration that specifies the state of the failover relationship.
 
 ### -field PrevState
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-fsm_state">FSM_STATE</a> enumeration that specifies the previous state of the failover relationship.
+<a href="/windows/desktop/api/dhcpsapi/ne-dhcpsapi-fsm_state">FSM_STATE</a> enumeration that specifies the previous state of the failover relationship.
 
 ### -field Mclt
 
@@ -85,7 +85,7 @@ A value that specifies the Maximum Client Lead Time (MCLT) in seconds. The MCLT 
 
 ### -field SafePeriod
 
-The time, in seconds, a server will wait before transitioning from the <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-fsm_state">COMMUNICATION-INT</a> state to a <b>PARTNER-DOWN</b> state. The timer begins when the server enters the <b>COMMUNICATION-INT</b> state.
+The time, in seconds, a server will wait before transitioning from the <a href="/windows/desktop/api/dhcpsapi/ne-dhcpsapi-fsm_state">COMMUNICATION-INT</a> state to a <b>PARTNER-DOWN</b> state. The timer begins when the server enters the <b>COMMUNICATION-INT</b> state.
 
 ### -field RelationshipName
 

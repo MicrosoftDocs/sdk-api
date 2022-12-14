@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.QueryLuns
 title: IVdsSubSystem::QueryLuns (vdshwprv.h)
-description: Returns an enumeration of LUNs surfaced in the subsystem. This method applies to hardware provider objects only.
+description: The IVdsSubSystem::QueryLuns (vdshwprv.h) method returns an enumeration of LUNs surfaced in the subsystem and applies to hardware provider objects only.
 helpviewer_keywords: ["IVdsSubSystem interface [VDS]","QueryLuns method","IVdsSubSystem.QueryLuns","IVdsSubSystem::QueryLuns","QueryLuns","QueryLuns method [VDS]","QueryLuns method [VDS]","IVdsSubSystem interface","base.ivdssubsystem_queryluns","vds/IVdsSubSystem::QueryLuns","vdshwprv/IVdsSubSystem::QueryLuns"]
 old-location: base\ivdssubsystem_queryluns.htm
 tech.root: base
 ms.assetid: b8e17085-03cd-40d1-accf-6ea5fa69de65
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsSubSystem interface [VDS],QueryLuns method, IVdsSubSystem.QueryLuns, IVdsSubSystem::QueryLuns, QueryLuns, QueryLuns method [VDS], QueryLuns method [VDS],IVdsSubSystem interface, base.ivdssubsystem_queryluns, vds/IVdsSubSystem::QueryLuns, vdshwprv/IVdsSubSystem::QueryLuns
 req.header: vdshwprv.h
 req.include-header: 

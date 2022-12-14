@@ -71,11 +71,11 @@ When this function returns, contains a pointer to the desired interface, typical
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-This function creates an in-memory property store object that implements <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>, <a href="/windows/desktop/api/propsys/nn-propsys-inamedpropertystore">INamedPropertyStore</a>, <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystorecache">IPropertyStoreCache</a>, <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>, <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a>, and <a href="/windows/desktop/api/propsys/nn-propsys-ipersistserializedpropstorage">IPersistSerializedPropStorage</a>.
+This function creates an in-memory property store object that implements <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>, <a href="/windows/desktop/api/propsys/nn-propsys-inamedpropertystore">INamedPropertyStore</a>, <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystorecache">IPropertyStoreCache</a>, <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>, <a href="../oaidl/nn-oaidl-ipropertybag.md">IPropertyBag</a>, and <a href="/windows/desktop/api/propsys/nn-propsys-ipersistserializedpropstorage">IPersistSerializedPropStorage</a>.
 
 The memory property store does not correspond to a file and is designed for use as a cache. <a href="/windows/desktop/api/propsys/nf-propsys-ipropertystore-commit">IPropertyStore::Commit</a> is a no-op, and the data stored in the object persists only as long as the object does.
 

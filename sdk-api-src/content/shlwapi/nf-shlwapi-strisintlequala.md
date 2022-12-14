@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.StrIsIntlEqualA
 title: StrIsIntlEqualA function (shlwapi.h)
-description: Compares a specified number of characters from the beginning of two strings to determine if they are equal.
+description: Compares a specified number of characters from the beginning of two strings to determine if they are equal. (ANSI)
 helpviewer_keywords: ["StrIsIntlEqual","StrIsIntlEqual function [Windows Shell]","StrIsIntlEqualA","StrIsIntlEqualW","_win32_StrIsIntlEqual","shell.StrIsIntlEqual","shlwapi/StrIsIntlEqual","shlwapi/StrIsIntlEqualA","shlwapi/StrIsIntlEqualW"]
 old-location: shell\StrIsIntlEqual.htm
 tech.root: shell
