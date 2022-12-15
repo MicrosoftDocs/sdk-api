@@ -5,7 +5,7 @@ title: ETW_PROVIDER_TRAIT_TYPE (evntcons.h)
 ms.date: 11/28/2022
 ms.keywords: ETW_PROVIDER_TRAIT_TYPE
 targetos: Windows
-description: 
+description: Specifies the types of Provider Traits supported by Event Tracing for Windows (ETW).
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: evntcons.h
@@ -32,7 +32,7 @@ f1_keywords:
 dev_langs:
  - c++
 helpviewer_keywords:
- - __unnamed_enum_0
+ - ETW_PROVIDER_TRAIT_TYPE
 ---
 
 # ETW_PROVIDER_TRAIT_TYPE enumeration (evntcons.h)
