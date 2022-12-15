@@ -16,7 +16,6 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.target-type: Windows
 req.typenames: ETW_PROVIDER_TRAIT_TYPE
-targetos: Windows
 req.umdf-ver: 
 topic_type:
  - apiref
