@@ -44,9 +44,9 @@ helpviewer_keywords:
 
 # EtwGetTraitFromProviderTraits function (evntcons.h)
 
-Retrieves an individual trait from the ETW provider.
-
 ## -description
+
+Retrieves an individual trait from the ETW provider.
 
 ## -parameters
 

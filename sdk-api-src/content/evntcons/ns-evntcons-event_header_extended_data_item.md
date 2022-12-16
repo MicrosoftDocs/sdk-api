@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>EVENT_HEADER_EXTENDED_DATA_ITEM</b> structure defines the extended data that ETW collects as part of the event data.
+Defines the extended data that Event Tracing for Windows (ETW) collects as part of the event data.
 
 ## -struct-fields
 
