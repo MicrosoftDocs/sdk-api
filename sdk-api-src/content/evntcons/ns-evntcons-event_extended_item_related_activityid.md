@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID</b> structure defines the parent event of this event.
+Defines the parent event of this event.
 
 ## -struct-fields
 

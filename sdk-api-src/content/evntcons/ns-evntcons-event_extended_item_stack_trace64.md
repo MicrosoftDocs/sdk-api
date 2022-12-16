@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The  <b>EVENT_EXTENDED_ITEM_STACK_TRACE64</b> structure defines a call stack on a 64-bit computer.
+Defines a call stack on a 64-bit computer.
 
 ## -struct-fields
 

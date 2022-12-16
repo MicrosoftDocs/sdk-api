@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>EVENT_RECORD</b> structure defines the layout of an event that ETW delivers.
+Defines the layout of an event that Event Tracing for Windows (ETW) delivers.
 
 ## -struct-fields
 
