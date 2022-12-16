@@ -27,7 +27,6 @@ req.dll: Advapi32.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
-targetos: Windows
 req.redist: 
 ms.custom: 19H1
 f1_keywords:
