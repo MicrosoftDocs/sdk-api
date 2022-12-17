@@ -138,7 +138,7 @@ Calling <b>CallNamedPipe</b> is equivalent to calling the <a href="/windows/desk
 
 <b>CallNamedPipe</b> fails if the pipe is a byte-type pipe.
 
-<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax "\\.\pipe\LOCAL\" for the pipe name.
+<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax `\\.\pipe\LOCAL\` for the pipe name.
 
 ### Examples
 
