@@ -58,8 +58,9 @@ api_name:
 
 ## -description
 
-Converts a <a href="/windows/desktop/Intl/locale-names">locale name</a> to a <a href="/windows/desktop/Intl/locale-identifiers">locale identifier</a>. <div class="alert"><b>Note</b>  For custom locales, including those created by Microsoft, your applications should prefer locale names over locale identifiers.</div>
-<div> </div>
+Converts a <a href="/windows/desktop/Intl/locale-names">locale name</a> to a <a href="/windows/desktop/Intl/locale-identifiers">locale identifier</a>.
+
+<div class="alert"><b>Note</b> For custom locales, including those created by Microsoft, your applications should prefer locale names over locale identifiers. See <a href="/globalization/locale/locale-names#the-deprecation-of-lcids">The deprecation of LCIDs</a> for more info.</div>
 
 ## -parameters
 
@@ -87,9 +88,11 @@ Pointer to a null-terminated string representing a locale name, or one of the fo
 
 ## -returns
 
-Returns the locale identifier corresponding to the locale name if successful. If the supplied locale name corresponds to a custom locale that is the user default, this function returns <a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>. If the locale name corresponds to a custom locale that is not the user default, the function returns <a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>.
+Returns the locale identifier corresponding to the locale name if successful.
 
-If the locale provided is a transient locale or a CLDR (Unicode Common Locale Data Repository) locale, then the LCID returned is 0x1000.
+If the supplied locale name corresponds to a custom locale that is the user default, this function returns <a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>.
+
+If the locale name corresponds to a custom locale that is not the user default or a transient locale or a CLDR (Unicode Common Locale Data Repository) locale, the function returns <a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>.
 
 The function returns 0 if it does not succeed. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 <ul>
