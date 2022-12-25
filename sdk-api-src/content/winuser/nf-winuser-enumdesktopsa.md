@@ -64,7 +64,7 @@ A handle to the window station whose desktops are to be enumerated. This handle 
 <a href="/windows/desktop/api/winuser/nf-winuser-openwindowstationa">OpenWindowStation</a> function, and must have the WINSTA_ENUMDESKTOPS access right. For more information, see 
 <a href="/windows/desktop/winstation/window-station-security-and-access-rights">Window Station Security and Access Rights</a>.
 
-If this parameter is NULL, the current window station is used.
+If this parameter is NULL, the callback function will received all windows station names instead of desktop names.
 
 ### -param lpEnumFunc [in]
 
