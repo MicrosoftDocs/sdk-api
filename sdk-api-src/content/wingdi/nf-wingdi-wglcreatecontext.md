@@ -54,7 +54,7 @@ The <b>wglCreateContext</b> function creates a new OpenGL rendering context, whi
 
 ## -parameters
 
-### -param unnamedParam1
+### -param handleToDeviceContext
 
 Handle to a device context for which the function creates a suitable OpenGL rendering context.
 
