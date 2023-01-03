@@ -98,9 +98,7 @@ Type: <b>UINT</b>
 
 The behavior of the function. 
 
-
-If bit 0 is set, a menu is active. 
-
+If bit 0 is set, a menu is active. In this mode <b>Alt+Numeric keypad</b> key combinations are not handled.
 
 If bit 2 is set, keyboard state is not changed (Windows 10, version 1607 and newer)
 
@@ -177,7 +175,7 @@ The parameters supplied to the <b>ToUnicodeEx</b> function might not be sufficie
 
 Typically, <b>ToUnicodeEx</b> performs the translation based on the virtual-key code. In some cases, however, bit 15 of the <i>wScanCode</i> parameter can be used to distinguish between a key press and a key release.
 
-As <b>ToUnicodeEx</b> translates the virtual-key code, it also changes the state of the kernel-mode keyboard buffer. This state-change affects dead keys, ligatures, alt+numpad key entry, and so on. It might also cause undesired side-effects if used in conjunction with <a href="/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a> (which also changes the state of the kernel-mode keyboard buffer).
+As <b>ToUnicodeEx</b> translates the virtual-key code, it also changes the state of the kernel-mode keyboard buffer. This state-change affects dead keys, ligatures, <b>Alt+Numeric keypad</b> key entry, and so on. It might also cause undesired side-effects if used in conjunction with <a href="/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a> (which also changes the state of the kernel-mode keyboard buffer).
 
 ## -see-also
 
