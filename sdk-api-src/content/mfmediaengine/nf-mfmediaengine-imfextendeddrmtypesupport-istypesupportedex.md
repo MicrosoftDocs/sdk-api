@@ -170,7 +170,6 @@ The following shows the most common usage for 1080p 8-bit H.264 SDR content with
 
 `IsTypeSupported(‘com.microsoft.playready.recommendation.3000’,’video/mp4;codecs=”avc1,mp4a”;features=”decode-res-x=1920,decode-res-y=1080,decode-bitrate=10000,decode-fps=30,decode-bpc=8,display-res-x=1920,display-res-y=1080,display-bpc=8,hdcp=1”’);`
 
-A convenient way to try out the queries is to use Microsoft Edge’s F12 console.  Click on the ellipsis (**…**) menu and select **F12 Developer Tools**.  Select **Console** from the headings in the toolbar.  In the console command prompt, enter "MSMediaKeys.isTypeSupportedWithFeatures" and paste in the entire query strings above, including parentheses.  Results will be “” for **NotSupported**, “maybe” for **Maybe**, and “probably” for **Probably**.
 
 ## -see-also
 [MF_MEDIA_ENGINE_CANPLAY](ne-mfmediaengine-mf_media_engine_canplay)
