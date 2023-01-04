@@ -59,17 +59,17 @@ The <b>FWPM_FILTER_CONDITION0</b> structure expresses a filter condition that mu
 
 ### -field fieldKey
 
-GUID of the field to be tested.
+GUID of the field to be tested. The available keys are listed under [Filtering Condition Identifiers](/windows/win32/fwp/filtering-condition-identifiers-).
 
 
 ### -field matchType
 
-A [FWP_MATCH_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_match_type)a> value that specifies the type of match to be performed.
+A [FWP_MATCH_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_match_type) value that specifies the type of match to be performed.
 
 
 ### -field conditionValue
 
-A [FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0)a> structure that contains the value to match the field against.
+A [FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0) structure that contains the value to match the field against.
 
 
 ## -remarks
@@ -81,7 +81,7 @@ Field GUIDs are
    field.
 
 The data type of 
-[FWP_MATCH_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_match_type)a> for detailed  compatibility rules.
+[FWP_MATCH_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_match_type) for detailed  compatibility rules.
 
 <b>FWPM_FILTER_CONDITION0</b> is a specific implementation of FWPM_FILTER_CONDITION. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
