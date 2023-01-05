@@ -50,11 +50,11 @@ The `AreShortNamesEnabled` function determines whether short names are enabled f
 
 ### -param Handle
 
-The handle for the volume you want to determine if short names are enabled.
+The handle to the volume to query.
 
 ### -param Enabled
 
-A pointer to a `BOOLEAN` value that receives the result of the query. If `TRUE`, short names are enabled for the volume. If `FALSE`, short names are disabled for the volume.
+A pointer to a `BOOLEAN` value that receives the result of the query. If `TRUE`, short names are enabled for the volume, otherwise `FALSE` is returned.
 
 ## -returns
 
