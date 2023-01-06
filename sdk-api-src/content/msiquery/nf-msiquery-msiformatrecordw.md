@@ -68,7 +68,7 @@ Handle to the record to format. The template string must be stored in record fie
 
 ### -param szResultBuf [out]
 
-Pointer to the buffer that receives the null terminated formatted string. Do not attempt to determine the size of the buffer by passing in a null (value=0) for <i>szResultBuf</i>. You can get the size of the buffer by passing in an empty string (for example "").  When compiling with `/permissive-` an empty string can be passed by first declaring `TCHAR emptyString[1] = {'\0'};` and then passing `emptyString`.  The function then returns <b>ERROR_MORE_DATA</b> and <i>pcchResultBuf</i> contains the required buffer size in <b>TCHAR</b>s, not including the terminating null character. On return of <b>ERROR_SUCCESS</b>, <i>pcchResultBuf</i> contains the number of <b>TCHAR</b>s written to the buffer, not including the terminating null character.
+Pointer to the buffer that receives the null terminated formatted string. Do not attempt to determine the size of the buffer by passing in a null (value=0) for <i>szResultBuf</i>. You can get the size of the buffer by passing in an empty string (for example "").  When compiling with `/permissive-` an empty string can be passed by first declaring `TCHAR emptyString[1] = {_T('\0')};` and then passing `emptyString`.  The function then returns <b>ERROR_MORE_DATA</b> and <i>pcchResultBuf</i> contains the required buffer size in <b>TCHAR</b>s, not including the terminating null character. On return of <b>ERROR_SUCCESS</b>, <i>pcchResultBuf</i> contains the number of <b>TCHAR</b>s written to the buffer, not including the terminating null character.
 
 ### -param pcchResultBuf [in, out]
 
