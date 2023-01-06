@@ -61,7 +61,7 @@ When provided with a remote path to a network resource, the
 ### -param lpNetResource [in]
 
 Pointer to a 
-<a href="/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure that specifies the network resource for which information is required. 
+<a href="/windows/desktop/api/winnetwk/ns-winnetwk-netresourcew">NETRESOURCE</a> structure that specifies the network resource for which information is required. 
 
 
 
@@ -72,7 +72,7 @@ The <b>lpRemoteName</b> member of the structure should specify the remote path n
 ### -param lpBuffer [out]
 
 Pointer to the buffer to receive the result. On successful return, the first portion of the buffer is a 
-<a href="/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure representing that portion of the input resource path that is accessed through the WNet functions, rather than through system functions specific to the input resource type. (The remainder of the buffer contains the variable-length strings to which the members of the 
+<a href="/windows/desktop/api/winnetwk/ns-winnetwk-netresourcew">NETRESOURCE</a> structure representing that portion of the input resource path that is accessed through the WNet functions, rather than through system functions specific to the input resource type. (The remainder of the buffer contains the variable-length strings to which the members of the 
 <b>NETRESOURCE</b> structure point.) 
 
 
