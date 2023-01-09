@@ -53,11 +53,13 @@ Gets disk space information for a volume at a given root path.
 
 ### -param rootPath
 
-The root path to query for disk space information.
+A pointer to a string that contains the root directory of the volume to be queried.
+
+If this parameter is `NULL`, the function uses the root of the current disk.
 
 ### -param diskSpaceInfo
 
-A `DISK_SPACE_INFORMATION` structure containing information about the current disk space for the volume at the given root path.
+A [**DISK_SPACE_INFORMATION**](ns-fileapi-disk_space_information.md) structure containing information about the current disk space for the volume at the given root path.
 
 ## -returns
 
@@ -69,6 +71,6 @@ The `rootPath` must be a root path, such as `C:\` or `D:\`, and not a subdirecto
 
 ## -see-also
 
-[GetDiskSpaceInformationA](./nf-fileapi-getdiskspaceinformationa.md)
+[GetDiskSpaceInformationA](nf-fileapi-getdiskspaceinformationa.md)
 
-[DISK_SPACE_INFORMATION](./ns-fileapi-disk_space_information.md)
+[DISK_SPACE_INFORMATION](ns-fileapi-disk_space_information.md)

@@ -46,27 +46,27 @@ The **DISK_SPACE_INFORMATION** structure contains information about the disk spa
 
 ### -field ActualTotalAllocationUnits
 
-The ActualTotalAllocationUnits is the total volume size without considering Quota setting.
+The `ActualTotalAllocationUnits` is the total volume size without considering Quota setting.
 
 ### -field ActualAvailableAllocationUnits
 
-The ActualTotalAllocationUnits is the available space for the volume without considering Quota setting.
+The `ActualTotalAllocationUnits` is the available space for the volume without considering Quota setting.
 
 ### -field ActualPoolUnavailableAllocationUnits
 
-The ActualPoolUnavailableAllocationUnits is the unavailable space for the volume due to insufficient free pool space
+The `ActualPoolUnavailableAllocationUnits` is the unavailable space for the volume due to insufficient free pool space
 
 ### -field CallerTotalAllocationUnits
 
-The CallerTotalAllocationUnits is the total volume size limited by Quota setting.
+The `CallerTotalAllocationUnits` is the total volume size limited by Quota setting.
 
 ### -field CallerAvailableAllocationUnits
 
-The CallerAvailableAllocationUnits is the available space for the volume limited by Quota setting.
+The `CallerAvailableAllocationUnits` is the available space for the volume limited by Quota setting.
 
 ### -field CallerPoolUnavailableAllocationUnits
 
-The CallerAvailableAllocationUnits is the unavailable space for the volume due to insufficient free pool space.
+The `CallerAvailableAllocationUnits` is the unavailable space for the volume due to insufficient free pool space.
 
 ### -field UsedAllocationUnits
 
@@ -82,7 +82,7 @@ A special type of reserved space for per-volume storage reserve. This is include
 
 ### -field AvailableCommittedAllocationUnits
 
-The available committed space for the volume.
+The space that has been committed by storage pool but has not been allocated by file system.
 
 ### -field PoolAvailableAllocationUnits
 
@@ -100,6 +100,6 @@ The number of bytes per sector for the volume.
 
 ## -see-also
 
-[GetDiskSpaceInformationA](./nf-fileapi-getdiskspaceinformationa.md)
+[GetDiskSpaceInformationA](nf-fileapi-getdiskspaceinformationa.md)
 
-[GetDiskSpaceInformationW](./nf-fileapi-getdiskspaceinformationw.md)
+[GetDiskSpaceInformationW](nf-fileapi-getdiskspaceinformationw.md)
