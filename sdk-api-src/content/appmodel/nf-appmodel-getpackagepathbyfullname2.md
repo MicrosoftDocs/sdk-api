@@ -9,13 +9,13 @@ ms.keywords: GetPackagePathByFullName2
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: Kernel32.dll
+req.lib: Kernel32.lib
+req.dll: KernelBase.dll
 req.header: appmodel.h
 req.idl: 
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: Kernel32.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
