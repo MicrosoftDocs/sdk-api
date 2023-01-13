@@ -1,0 +1,12 @@
+{
+  "docsets_to_publish": [
+    {
+      "docset_name": "Fake-Docset-Name",
+      "build_source_folder": ".",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": true
+    }
+  ]
+}
