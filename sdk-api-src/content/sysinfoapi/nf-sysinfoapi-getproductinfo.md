@@ -701,6 +701,28 @@ Windows MultiPoint Server Standard (full installation)
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="PRODUCT_PPI_PRO"></a><a id="product_ppi_pro"></a><dl>
+<dt><b>PRODUCT_PPI_PRO</b></dt>
+<dt>0x00000077</dt>
+</dl>
+</td>
+<td width="60%">
+Windows 10 Team
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PRODUCT_PRO_FOR_EDUCATION"></a><a id="product_pro_for_education"></a><dl>
+<dt><b>PRODUCT_PRO_FOR_EDUCATION</b></dt>
+<dt>0x000000A4</dt>
+</dl>
+</td>
+<td width="60%">
+Windows 10 Pro Education
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="PRODUCT_PRO_WORKSTATION"></a><a id="product_pro_workstation"></a><dl>
 <dt><b>PRODUCT_PRO_WORKSTATION</b></dt>
 <dt>0x000000A1</dt>
@@ -840,6 +862,17 @@ Windows Server 2008 without Hyper-V for Windows Essential Server Solutions
 </td>
 <td width="60%">
 Server Foundation
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PRODUCT_SERVERRDSH"></a><a id="product_serverrdsh"></a><dl>
+<dt><b>PRODUCT_SERVERRDSH</b></dt>
+<dt>0x000000AF</dt>
+</dl>
+</td>
+<td width="60%">
+Windows 10 Enterprise for Virtual Desktops
 
 </td>
 </tr>
