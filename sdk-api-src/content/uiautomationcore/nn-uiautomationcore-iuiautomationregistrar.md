@@ -58,7 +58,7 @@ The <b>IUIAutomationRegistrar</b> interface inherits from the <a href="/windows/
 
 ## -remarks
 
-The <b>IUIAutomationRegistrar</b> interface is exposed by the <a href="/previous-versions/windows/desktop/legacy/ff384837(v=vs.85)">CUIAutomationRegistrar</a> object. To obtain an instance of this object, call the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function with a class ID of <b>CLSID_CUIAutomationRegistrar</b>.
+The **IUIAutomationRegistrar** interface is exposed by the <a href="/previous-versions/windows/desktop/legacy/ff384837(v=vs.85)">CUIAutomationRegistrar</a> object. To obtain an instance of this object, call the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function with a class ID of <b>CLSID_CUIAutomationRegistrar</b>.
 
 ## -see-also
 
