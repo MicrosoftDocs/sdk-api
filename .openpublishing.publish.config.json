@@ -2,7 +2,7 @@
   "docsets_to_publish": [
     {
       "docset_name": "Fake-Docset-Name",
-      "build_source_folder": ".",
+      "build_source_folder": "sdk-api-src/content",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
