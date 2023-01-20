@@ -80,7 +80,9 @@ For PDB symbols, the index value for a symbol is not generated until the symbol 
 
 ### -field Size
 
-The symbol size, in bytes. When the symbol is a bitfield member, the symbol size, in bits. This value is meaningful only if the module symbols are from a pdb file;  otherwise, this value is typically zero and should be ignored.
+The symbol size, in bytes (or bits, if the symbol is a bitfield member).
+
+This value is meaningful only if the module symbols are from a pdb file;  otherwise, this value is typically zero and should be ignored.
 
 ### -field ModBase
 
