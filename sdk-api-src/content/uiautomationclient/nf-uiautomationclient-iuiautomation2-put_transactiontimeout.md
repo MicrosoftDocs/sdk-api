@@ -58,6 +58,12 @@ This property is read/write.
 
 ## -parameters
 
+### -param timeout [in]
+
+Type: <b>DWORD</b>
+
+The duration of the time-out period, in milliseconds.
+
 ## -remarks
 
 The default transaction timeout value is 20 seconds.  Because some operations require the provider to process hundreds of elements, the provider might need a significant amount of time to return information to the client.
