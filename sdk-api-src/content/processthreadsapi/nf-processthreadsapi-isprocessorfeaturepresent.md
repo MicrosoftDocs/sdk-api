@@ -464,15 +464,37 @@ This Arm processor implements the Arm v8 extra CRC32 instructions.
 This Arm processor implements the Arm v8.1 atomic instructions (e.g. CAS, SWP).
 </td>
 </tr>
-
- <tr>
-<td width="40%"><a id="PF_ARM_V83_LRCPC_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_v83_lrcpc_instructions_available"></a><dl>
-<dt><b>PF_ARM_V83_LRCPC_INSTRUCTIONS_AVAILABLE</b></dt>
-<dt>34</dt>
+ 
+<tr>
+<td width="40%"><a id="PF_ARM_V82_DP_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_v82_dp_instructions_available"></a><dl>
+<dt><b>PF_ARM_V82_DP_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>43</dt>
 </dl>
 </td>
 <td width="60%">
-This Arm processor implements the Arm v8.3 LRCPC instructions (e.g. ldapr). Note that certain Arm v8.2 CPUs may optionally support the LRCPC instructions.
+This Arm processor implements the Arm v8.2 DP instructions (e.g. SDOT, UDOT). This feature is optional in Arm v8.2 implementations and mandatory in Arm v8.4 implementations.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_ARM_V83_JSCVT_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_v83_jscvt_instructions_available"></a><dl>
+<dt><b>PF_ARM_V83_JSCVT_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>44</dt>
+</dl>
+</td>
+<td width="60%">
+This Arm processor implements the Arm v8.3 JSCVT instructions (e.g. FJCVTZS).
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_ARM_V83_LRCPC_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_v83_lrcpc_instructions_available"></a><dl>
+<dt><b>PF_ARM_V83_LRCPC_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>45</dt>
+</dl>
+</td>
+<td width="60%">
+This Arm processor implements the Arm v8.3 LRCPC instructions (e.g. LDAPR). Note that certain Arm v8.2 CPUs may optionally support the LRCPC instructions.
 </td>
 </tr>
  
