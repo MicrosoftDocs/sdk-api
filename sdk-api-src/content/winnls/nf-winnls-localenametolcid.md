@@ -90,7 +90,7 @@ If successful, returns the locale identifier corresponding to the locale name.
 
 If the supplied locale name corresponds to a custom locale that is the user default, this function returns <a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>.
 
-If the locale name corresponds to a custom locale that is not the user default, a transient locale, or a CLDR (Unicode Common Locale Data Repository) locale, the function returns <a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>.
+If the locale name corresponds to a custom locale that is not the user default, is a transient locale, or is a CLDR (Unicode Common Locale Data Repository) locale, the function returns <a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>.
 
 The function returns 0 if it does not succeed. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return ERROR_INVALID_PARAMETER if any of the parameter values are invalid.
 </ul>
