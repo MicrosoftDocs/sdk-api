@@ -52,7 +52,6 @@ api_name:
 
 Translates the specified virtual-key code and keyboard state to the corresponding Unicode character or characters.
 
-To specify a handle to the keyboard layout to use to translate the specified code, use the <a href="/windows/desktop/api/winuser/nf-winuser-tounicodeex">ToUnicodeEx</a> function.
 
 ## -parameters
 
@@ -150,7 +149,9 @@ One or more UTF-16 code units were written to the buffer specified by <i>pwszBuf
 
 ## -remarks
 
-Some keyboard layouts may return several characters and/or supplementary characters as <a href="/windows/win32/intl/surrogates-and-supplementary-characters">surrogate pairs</a> in <i>pwszBuff</i>. If dead key character (accent or diacritic) stored in the keyboard layout could not be combined with the specified virtual key to form a single character then the previous entered dead character can be combined with the current character.
+To specify a handle to the keyboard layout to use to translate the specified code, use the <a href="/windows/desktop/api/winuser/nf-winuser-tounicodeex">ToUnicodeEx</a> function.
+
+Some keyboard layouts may return several characters and/or supplementary characters as <a href="/windows/win32/intl/surrogates-and-supplementary-characters">surrogate pairs</a> in <i>pwszBuff</i>. If a dead key character (accent or diacritic) stored in the keyboard layout could not be combined with the specified virtual key to form a single character then the previous entered dead character can be combined with the current character.
 
 The parameters supplied to the <b>ToUnicodeEx</b> function might not be sufficient to translate the virtual-key code because a previous <a href="/windows/win32/inputdev/about-keyboard-input#dead-character-messages">dead key</a> is stored in the keyboard layout.
 
