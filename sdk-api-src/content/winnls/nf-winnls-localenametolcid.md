@@ -58,9 +58,7 @@ api_name:
 
 ## -description
 
-Converts a <a href="/windows/desktop/Intl/locale-names">locale name</a> to a <a href="/windows/desktop/Intl/locale-identifiers">locale identifier</a>.
-
-<div class="alert"><b>Note</b> For custom locales, including those created by Microsoft, your applications should prefer locale names over locale identifiers. See <a href="/globalization/locale/locale-names#the-deprecation-of-lcids">The deprecation of LCIDs</a> for more info.</div>
+Converts a [locale name](/windows/desktop/Intl/locale-names) to a [locale identifier](/windows/desktop/Intl/locale-identifiers).
 
 ## -parameters
 
@@ -100,6 +98,8 @@ The function returns 0 if it does not succeed. To get extended error information
 </ul>
 
 ## -remarks
+
+For custom locales, including those created by Microsoft, your applications should prefer locale names over locale identifiers. See [The deprecation of LCIDs](/globalization/locale/locale-names#the-deprecation-of-lcids) for more info.
 
 <b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
 
