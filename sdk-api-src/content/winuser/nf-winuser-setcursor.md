@@ -66,7 +66,11 @@ Sets the cursor shape.
 
 Type: <b>HCURSOR</b>
 
-A handle to the cursor. The cursor must have been created by the <a href="/windows/desktop/api/winuser/nf-winuser-createcursor">CreateCursor</a> or the <a href="/win32/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a> function or loaded by the <a href="/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a> or <a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a> function. If this parameter is <b>NULL</b>, the cursor is removed from the screen.
+A handle to the cursor.
+
+The cursor must have been created by either the <a href="/windows/desktop/api/winuser/nf-winuser-createcursor">CreateCursor</a> or the <a href="/win32/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a> function, or loaded by either the <a href="/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a> or <a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a> function.
+
+If this parameter is <b>NULL</b>, the cursor is removed from the screen.
 
 ## -returns
 
