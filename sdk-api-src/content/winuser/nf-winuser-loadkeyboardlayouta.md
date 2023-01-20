@@ -64,7 +64,7 @@ Loads a new input locale identifier (formerly called the keyboard layout) into t
 
 Type: <b>LPCTSTR</b>
 
-The name of the input locale identifier to load. This name is a string composed of the hexadecimal value of the <a href="/windows/desktop/Intl/language-identifiers">Language Identifier</a> (low word) and a device identifier (high word). For example, U.S. English has a language identifier of 0x0409, so the primary U.S. English layout is named "00000409". Variants of U.S. English layout (such as the Dvorak layout) are named "00010409", "00020409", and so on. See <a href="/windows-hardware/manufacture/desktop/windows-language-pack-default-values">Keyboard identifiers and input method editors for Windows</a> for a list of possible values.
+The name of the input locale identifier to load. This name is a string composed of the hexadecimal value of the <a href="/windows/desktop/Intl/language-identifiers">Language Identifier</a> (low word) and a device identifier (high word). For example, U.S. English has a language identifier of 0x0409, so the primary U.S. English layout is named "00000409". Variants of U.S. English layout (such as the Dvorak layout) are named "00010409", "00020409", and so on. For a list of possible values, see [Keyboard identifiers and input method editors for Windows](/windows-hardware/manufacture/desktop/windows-language-pack-default-values).
 
 ### -param Flags [in]
 
@@ -97,8 +97,7 @@ Specifies how the input locale identifier is to be loaded. This parameter can be
 </dl>
 </td>
 <td width="60%">
-<b>Prior to Windows 8:</b> Prevents a 
-						<a href="/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)">ShellProc</a> hook procedure from receiving an <b>HSHELL_LANGUAGE</b> hook code when the new input locale identifier is loaded. This value is typically used when an application loads multiple input locale identifiers one after another. Applying this value to all but the last input locale identifier delays the shell's processing until all input locale identifiers have been added.
+<b>Prior to Windows 8:</b> Prevents a <a href="/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)">ShellProc</a> hook procedure from receiving an <b>HSHELL_LANGUAGE</b> hook code when the new input locale identifier is loaded. This value is typically used when an application loads multiple input locale identifiers one after another. Applying this value to all but the last input locale identifier delays the shell's processing until all input locale identifiers have been added.
 
 <b>Beginning in  Windows 8:</b> In this scenario, the last input locale identifier is set for the entire system.
 
@@ -135,8 +134,7 @@ If the new input locale identifier has the same language identifier as a current
 </dl>
 </td>
 <td width="60%">
-Substitutes the specified input locale identifier with another locale preferred by the user. The system starts with this flag set, and it is recommended that your application always use this flag. The substitution occurs only if the registry key 
-						<b>HKEY_CURRENT_USER\Keyboard\Layout\Substitutes</b> explicitly defines a substitution locale. For example, if the key includes the value name "00000409" with value "00010409", loading the U.S. English layout ("00000409") causes the Dvorak U.S. English layout ("00010409") to be loaded instead. The system uses <b>KLF_SUBSTITUTE_OK</b> when booting, and it is recommended that all applications use this value when loading input locale identifiers to ensure that the user's preference is selected.
+Substitutes the specified input locale identifier with another locale preferred by the user. The system starts with this flag set, and it is recommended that your application always use this flag. The substitution occurs only if the registry key <b>HKEY_CURRENT_USER\Keyboard\Layout\Substitutes</b> explicitly defines a substitution locale. For example, if the key includes the value name "00000409" with value "00010409", loading the U.S. English layout ("00000409") causes the Dvorak U.S. English layout ("00010409") to be loaded instead. The system uses <b>KLF_SUBSTITUTE_OK</b> when booting, and it is recommended that all applications use this value when loading input locale identifiers to ensure that the user's preference is selected.
 
 </td>
 </tr>
@@ -147,8 +145,7 @@ Substitutes the specified input locale identifier with another locale preferred 
 </dl>
 </td>
 <td width="60%">
-<b>Prior to Windows 8:</b> This flag is valid only with <b>KLF_ACTIVATE</b>. Activates the specified input locale identifier for the entire process and sends the 
-						<a href="/windows/desktop/winmsg/wm-inputlangchange">WM_INPUTLANGCHANGE</a> message to the current thread's Focus or Active window. Typically, <b>LoadKeyboardLayout</b> activates an input locale identifier only for the current thread.
+<b>Prior to Windows 8:</b> This flag is valid only with <b>KLF_ACTIVATE</b>. Activates the specified input locale identifier for the entire process and sends the <a href="/windows/desktop/winmsg/wm-inputlangchange">WM_INPUTLANGCHANGE</a> message to the current thread's Focus or Active window. Typically, <b>LoadKeyboardLayout</b> activates an input locale identifier only for the current thread.
 
 <b>Beginning in  Windows 8:</b> This flag is not used. <b>LoadKeyboardLayout</b> always activates an input locale identifier for the entire system if the current process owns the window with keyboard focus.
 
@@ -180,16 +177,11 @@ To get extended error information, call <a href="/windows/desktop/api/errhandlin
 
 The input locale identifier is a broader concept than a keyboard layout, since it can also encompass a speech-to-text converter, an Input Method Editor (IME), or any other form of input. 
 
-An application can and will typically load the default input locale identifier or IME for a language and can do so by specifying only a string version of the language identifier. If an application wants to load a specific locale or IME, it should read the registry to determine the specific input locale identifier to pass to <b>LoadKeyboardLayout</b>. In this case, a request to activate the default input locale identifier for a locale will activate the first matching one. A specific IME should be activated using an explicit input locale identifier returned from 
-				<a href="/windows/desktop/api/winuser/nf-winuser-getkeyboardlayout">GetKeyboardLayout</a> or <b>LoadKeyboardLayout</b>.
+An application can and will typically load the default input locale identifier or IME for a language and can do so by specifying only a string version of the language identifier. If an application wants to load a specific locale or IME, it should read the registry to determine the specific input locale identifier to pass to <b>LoadKeyboardLayout</b>. In this case, a request to activate the default input locale identifier for a locale will activate the first matching one. A specific IME should be activated using an explicit input locale identifier returned from <a href="/windows/desktop/api/winuser/nf-winuser-getkeyboardlayout">GetKeyboardLayout</a> or <b>LoadKeyboardLayout</b>.
 
 <b>Prior to Windows 8:</b> This function only affects the layout for the current process or thread.
 
 <b>Beginning in  Windows 8:</b> This function affects the layout for the entire system.
-
-
-
-
 
 > [!NOTE]
 > The winuser.h header defines LoadKeyboardLayout as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
