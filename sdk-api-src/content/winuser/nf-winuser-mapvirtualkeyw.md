@@ -61,8 +61,6 @@ api_name:
 
 Translates (maps) a virtual-key code into a scan code or character value, or translates a scan code into a virtual-key code.
 
-To specify a handle to the keyboard layout to use for translating the specified code, use the [MapVirtualKeyEx](nf-winuser-mapvirtualkeyexw.md) function.
-
 ## -parameters
 
 ### -param uCode [in]
@@ -95,6 +93,8 @@ The return value is either a scan code, a virtual-key code, or a character value
 
 ## -remarks
 
+To specify a handle to the keyboard layout to use for translating the specified code, use the [MapVirtualKeyEx](nf-winuser-mapvirtualkeyexw.md) function.
+
 An application can use **MapVirtualKey** to translate scan codes to the virtual-key code constants **VK_SHIFT**, **VK_CONTROL**, and **VK_MENU**, and vice versa. These translations do not distinguish between the left and right instances of the SHIFT, CTRL, or ALT keys.
 
 An application can get the scan code corresponding to the left or right instance of one of these keys by calling **MapVirtualKey** with *uCode* set to one of the following virtual-key code constants:
@@ -108,7 +108,7 @@ An application can get the scan code corresponding to the left or right instance
 
 These left- and right-distinguishing constants are available to an application only through the [GetKeyboardState](nf-winuser-getkeyboardstate.md), [SetKeyboardState](nf-winuser-setkeyboardstate.md), [GetAsyncKeyState](nf-winuser-getasynckeystate.md), [GetKeyState](nf-winuser-getkeystate.md), [MapVirtualKey](nf-winuser-mapvirtualkeyw.md), and **MapVirtualKeyEx** functions. For list complete table of virtual key codes, see [Virtual Key Codes](/windows/win32/inputdev/virtual-key-codes).
 
-In **MAPVK\_VK\_TO\_CHAR** mode [virtual-key codes](/windows/win32/inputdev/virtual-key-codes) for 'A'..'Z' keys are translated to upper-case 'A'..'Z' characters regardless of current keyboard layout due to historical reasons. Instead, you can use [ToUnicode](/windows/win32/api/winuser/nf-winuser-tounicode) function if you want to translate virtual-key code to the corresponding Unicode character.
+In **MAPVK\_VK\_TO\_CHAR** mode [virtual-key codes](/windows/win32/inputdev/virtual-key-codes), the 'A'..'Z' keys are translated to upper-case 'A'..'Z' characters regardless of current keyboard layout. If you want to translate a virtual-key code to the corresponding character, use the [ToAscii](/windows/win32/api/winuser/nf-winuser-toascii) function.
 
 > [!NOTE]
 > The winuser.h header defines MapVirtualKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
