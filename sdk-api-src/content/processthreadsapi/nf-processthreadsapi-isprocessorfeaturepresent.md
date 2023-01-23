@@ -439,7 +439,7 @@ This Arm processor implements the Arm v8 instructions set.
 </dl>
 </td>
 <td width="60%">
-This Arm processor implements the Arm v8 extra cryptographic instructions (i.e. AES, SHA1 and SHA2).
+This Arm processor implements the Arm v8 extra cryptographic instructions (for example, AES, SHA1 and SHA2).
 </td>
 </tr>
 
@@ -461,7 +461,7 @@ This Arm processor implements the Arm v8 extra CRC32 instructions.
 </dl>
 </td>
 <td width="60%">
-This Arm processor implements the Arm v8.1 atomic instructions (e.g. CAS, SWP).
+This Arm processor implements the Arm v8.1 atomic instructions (for example, CAS, SWP).
 </td>
 </tr>
  
@@ -472,7 +472,7 @@ This Arm processor implements the Arm v8.1 atomic instructions (e.g. CAS, SWP).
 </dl>
 </td>
 <td width="60%">
-This Arm processor implements the Arm v8.2 DP instructions (e.g. SDOT, UDOT). This feature is optional in Arm v8.2 implementations and mandatory in Arm v8.4 implementations.
+This Arm processor implements the Arm v8.2 DP instructions (for example, SDOT, UDOT). This feature is optional in Arm v8.2 implementations and mandatory in Arm v8.4 implementations.
 </td>
 </tr>
 
@@ -483,7 +483,7 @@ This Arm processor implements the Arm v8.2 DP instructions (e.g. SDOT, UDOT). Th
 </dl>
 </td>
 <td width="60%">
-This Arm processor implements the Arm v8.3 JSCVT instructions (e.g. FJCVTZS).
+This Arm processor implements the Arm v8.3 JSCVT instructions (for example, FJCVTZS).
 </td>
 </tr>
 
@@ -494,7 +494,7 @@ This Arm processor implements the Arm v8.3 JSCVT instructions (e.g. FJCVTZS).
 </dl>
 </td>
 <td width="60%">
-This Arm processor implements the Arm v8.3 LRCPC instructions (e.g. LDAPR). Note that certain Arm v8.2 CPUs may optionally support the LRCPC instructions.
+This Arm processor implements the Arm v8.3 LRCPC instructions (for example, LDAPR). Note that certain Arm v8.2 CPUs may optionally support the LRCPC instructions.
 </td>
 </tr>
  
