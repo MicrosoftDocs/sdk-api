@@ -4,7 +4,7 @@ title: Accctrl.h header
 ms.assetid: aef287f5-bd2b-3608-a837-33f1afcbaa69
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: com
 f1_keywords:
  - accctrl

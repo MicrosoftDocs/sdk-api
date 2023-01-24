@@ -4,7 +4,7 @@ title: D3D10Sdklayers.h header
 ms.assetid: 2da45479-107f-3773-bc5f-b7c8cfb3189f
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: direct3d10
 f1_keywords:
  - d3d10sdklayers

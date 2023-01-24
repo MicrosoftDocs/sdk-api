@@ -4,7 +4,7 @@ title: XML HTTP Extended Request
 ms.assetid: 1bcd6a5a-1ca6-357d-9684-cbdeef45fb68
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # XML HTTP Extended Request

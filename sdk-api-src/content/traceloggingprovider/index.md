@@ -4,7 +4,7 @@ title: TraceLoggingProvider.h header
 ms.assetid: 9f0e53a0-c646-3851-b09a-e5e45c361a3c
 ms.date: 06/06/2022
 ms.keywords:
-ms.topic: conceptual
+ms.topic: overview
 tech.root: tracelogging
 f1_keywords:
   - traceloggingprovider

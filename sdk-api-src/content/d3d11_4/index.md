@@ -4,7 +4,7 @@ title: D3D11_4.h header
 ms.assetid: dd857e4a-c3d1-3058-bcf5-9eaeef5094d9
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: direct3d11
 f1_keywords:
  - d3d11_4

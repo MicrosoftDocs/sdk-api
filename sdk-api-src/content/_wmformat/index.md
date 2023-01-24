@@ -4,7 +4,7 @@ title: Windows Media Format 11 SDK
 ms.assetid: d9cec177-31f2-3ccd-a314-e6d46703ed09
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 archived: true
 ---
 

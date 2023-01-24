@@ -4,7 +4,7 @@ title: Wmiutils.h header
 ms.assetid: 22f6e95f-ec03-39be-94c4-81ea966f50da
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: lwef
 f1_keywords:
  - wmiutils

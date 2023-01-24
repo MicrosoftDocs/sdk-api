@@ -4,7 +4,7 @@ title: In6Addr.h header
 ms.assetid: 2884d416-3704-3d35-8cf6-82005d09ca55
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: winsock
 f1_keywords:
  - in6addr

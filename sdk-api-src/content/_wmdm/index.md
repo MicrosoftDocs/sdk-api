@@ -4,7 +4,7 @@ title: Windows Media Device Manager 11 SDK
 ms.assetid: ffc3f87d-c8ce-3f13-8c97-815310907dc0
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Windows Media Device Manager 11 SDK

@@ -4,7 +4,7 @@ title: D3D10_1.h header
 ms.assetid: 4ba732e9-2aa8-3873-97ce-3ba8c5283104
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: direct3d10
 f1_keywords:
  - d3d10_1

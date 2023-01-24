@@ -3,7 +3,7 @@ UID: NA:uiviewsettingsinterop
 title: Uiviewsettingsinterop.h header
 ms.date: 04/16/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: winrt
 f1_keywords:
  - uiviewsettingsinterop

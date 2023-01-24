@@ -4,7 +4,7 @@ title: Vsadmin.h header
 ms.assetid: 06dcee59-b6e3-3bcc-936b-905c2a845f5f
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: base
 f1_keywords:
  - vsadmin

@@ -4,7 +4,7 @@ title: Mmreg.h header
 ms.assetid: d007b444-9242-3b0d-ba8b-3719f561c30a
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: multimedia
 f1_keywords:
  - mmreg

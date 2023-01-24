@@ -3,7 +3,7 @@ UID: NA:presentationtypes
 title: Presentationtypes.h header
 ms.date: 06/08/2021
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: comp_swapchain
 f1_keywords:
  - presentationtypes

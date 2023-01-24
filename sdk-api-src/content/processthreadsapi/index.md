@@ -4,7 +4,7 @@ title: Processthreadsapi.h header
 ms.date: 10/28/2022
 ms.prod: windows
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 ms.technology: windows-sdk
 tech.root: processthreadsapi
 f1_keywords:

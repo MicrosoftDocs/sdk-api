@@ -3,7 +3,7 @@ UID: NA:windows.ui.xaml.hosting.desktopwindowxamlsource
 title: Windows.Ui.Xaml.Hosting.Desktopwindowxamlsource.h header
 ms.date: 07/25/2021
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: winrt
 f1_keywords:
  - windows.ui.xaml.hosting.desktopwindowxamlsource

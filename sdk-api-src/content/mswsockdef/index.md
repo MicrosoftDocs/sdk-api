@@ -4,7 +4,7 @@ title: Mswsockdef.h header
 ms.assetid: 79b78f80-6508-364c-87ce-ae9cde468bdf
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: winsock
 f1_keywords:
  - mswsockdef

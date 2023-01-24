@@ -4,7 +4,7 @@ title: Internationalization for Windows Applications
 ms.assetid: c8883f60-a6cc-3905-a03c-cf6c9d78580c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Internationalization for Windows Applications

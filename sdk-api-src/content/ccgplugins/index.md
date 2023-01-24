@@ -3,7 +3,7 @@ UID: NA:ccgplugins
 title: ccgplugins.h header
 ms.date: 03/02/2021
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: security
 f1_keywords:
  - ccgplugins

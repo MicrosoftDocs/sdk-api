@@ -4,7 +4,7 @@ title: Ntdef.h header
 ms.assetid: 2b32bfac-ffb7-339b-bf8b-ff83be6543e4
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: kernel
 f1_keywords:
  - ntdef

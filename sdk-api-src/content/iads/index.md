@@ -4,7 +4,7 @@ title: Iads.h header
 ms.assetid: 37322777-fb68-3a55-ad40-96f9b9258dd2
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: security
 f1_keywords:
  - iads
