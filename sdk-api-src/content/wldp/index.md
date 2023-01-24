@@ -3,7 +3,7 @@ UID: NA:wldp
 title: wldp.h header
 ms.date: 08/23/2022
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: security
 f1_keywords:
  - wldp

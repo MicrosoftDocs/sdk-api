@@ -4,7 +4,7 @@ title: Mfcaptureengine.h header
 ms.assetid: 348947e2-9865-3fc3-997c-0e7c76a0f215
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: mf
 f1_keywords:
  - mfcaptureengine

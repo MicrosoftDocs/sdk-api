@@ -4,7 +4,7 @@ title: Videoacc.h header
 ms.assetid: 13e308ee-c79d-328e-872a-7614ff20daeb
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: dshow
 archived: true
 f1_keywords:

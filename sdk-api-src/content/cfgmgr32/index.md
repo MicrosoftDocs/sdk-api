@@ -4,7 +4,7 @@ title: Cfgmgr32.h header
 ms.assetid: ab99e470-13e6-3d96-9554-82cb2ffcfbaf
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: devinst
 f1_keywords:
  - cfgmgr32

@@ -4,7 +4,7 @@ title: Icontentprefetchertasktrigger.h header
 ms.assetid: a74c0e06-fa9c-3706-8f24-8070aa142a35
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: wsw
 f1_keywords:
  - icontentprefetchertasktrigger

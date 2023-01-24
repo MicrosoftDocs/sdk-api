@@ -4,7 +4,7 @@ title: Bcrypt.h header
 ms.assetid: 33473f2e-8390-3a76-961e-16c6167959ef
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: security
 f1_keywords:
  - bcrypt

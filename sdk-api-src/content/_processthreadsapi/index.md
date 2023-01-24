@@ -5,7 +5,7 @@ ms.date: 10/26/2022
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
-ms.topic: portal
+ms.topic: overview
 ---
 
 # Processes and threads

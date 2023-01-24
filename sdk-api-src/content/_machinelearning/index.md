@@ -4,7 +4,7 @@ title: Windows Machine Learning
 ms.assetid: 528d7026-7368-3c15-91e7-6246f06cf947
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Windows Machine Learning

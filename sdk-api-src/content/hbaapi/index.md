@@ -3,7 +3,7 @@ UID: NA:hbaapi
 title: hbaapi.h header
 ms.date: 08/01/2022
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: hba
 f1_keywords:
  - hbaapi

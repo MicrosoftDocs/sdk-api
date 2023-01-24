@@ -4,7 +4,7 @@ title: AllJoyn API
 ms.assetid: 934044dd-93a8-367b-b7e2-7eb21a01df15
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # AllJoyn API

@@ -4,7 +4,7 @@ title: Uxtheme.h header
 ms.assetid: 6ca9ff0e-e465-3684-8ba2-beb75756b79e
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: controls
 f1_keywords:
  - uxtheme

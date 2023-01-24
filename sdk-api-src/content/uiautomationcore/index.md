@@ -4,7 +4,7 @@ title: Uiautomationcore.h header
 ms.assetid: c5d51e94-22a9-36a9-af43-bb5874168aac
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: winauto
 f1_keywords:
  - uiautomationcore

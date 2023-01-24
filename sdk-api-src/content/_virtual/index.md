@@ -4,7 +4,7 @@ title: Hyper-V WMI Provider
 ms.assetid: 9f53b2f8-af0e-3819-8ce3-76941cb66831
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Hyper-V WMI Provider
