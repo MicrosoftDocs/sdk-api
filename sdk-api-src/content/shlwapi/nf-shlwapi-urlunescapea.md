@@ -76,7 +76,7 @@ A pointer to a buffer that will receive a null-terminated string that contains t
 
 Type: <b>DWORD*</b>
 
-The number of characters in the buffer pointed to by <i>pszUnescaped</i>. On entry, the value <i>pcchUnescaped</i> points to is set to the size of the buffer. If the function returns a success code, the value that <i>pcchUnescaped</i> points to is set to the number of characters written to that buffer, not counting the terminating <b>NULL</b> character. If an E_POINTER error code is returned, the buffer was too small, and the value to which <i>pcchUnescaped</i> points is set to the required number of characters that the buffer must be able to contain. If any other errors are returned, the value to which <i>pcchUnescaped</i> points is undefined.
+The number of characters in the buffer pointed to by <i>pszUnescaped</i>. On entry, the value <i>pcchUnescaped</i> points to is set to the size of the buffer. If the function returns a success code and the <b>URL_UNESCAPE_INPLACE</b> flag is not set, the value that <i>pcchUnescaped</i> points to is set to the number of characters written to that buffer, not counting the terminating <b>NULL</b> character. If an E_POINTER error code is returned, the buffer was too small, and the value to which <i>pcchUnescaped</i> points is set to the required number of characters that the buffer must be able to contain. If any other errors are returned, the value to which <i>pcchUnescaped</i> points is undefined.
 
 ### -param dwFlags
 
