@@ -5,6 +5,7 @@ title: SetCachedSigningLevel (securitybaseapi.h)
 ms.date: 12/02/2022
 targetos: Windows
 description: Sets the cached signing level.
+ms.keywords: SetCachedSigningLevel
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
