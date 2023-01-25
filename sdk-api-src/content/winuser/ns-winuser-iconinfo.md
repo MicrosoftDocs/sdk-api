@@ -91,8 +91,6 @@ For monochrome icons, the <b>hbmMask</b> is twice the height of the icon (with t
 
 For color icons, the <b>hbmMask</b> and <b>hbmColor</b> bitmaps are the same size, each of which is the size of the icon.
 
-The mask bitmask of <b>hbmMask</b> is applied with the <b>SRCAND</b> flag to the destination; subsequently, the color bitmap (or XOR mask) is applied to the destination by using the <b>SRCINVERT</b> flag.
-
 You can use a <a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a> function to get contents of <b>hbmMask</b> and <b>hbmColor</b> in the BITMAP structure.
 
 ## -see-also
@@ -101,7 +99,7 @@ You can use a <a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObjec
 
 <a href="/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
 
-<a href="/windows/desktop/api/winuser/nf-winuser-geticoninfo">GetIconInfo</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-bitmap">BITMAP</a>
 
 <a href="/windows/desktop/menurc/icons">Icons</a>
 
