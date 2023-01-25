@@ -87,13 +87,13 @@ The y-coordinate of the cursor's hot spot. If this structure defines an icon, th
 
 Type: <b>HBITMAP</b>
 
-A handle to monochrome AND mask <a href="/windows/win32/gdi/bitmaps">bitmap</a>.
+A handle to the icon monochrome mask <a href="/windows/win32/gdi/bitmaps">bitmap</a>.
 
 ### -field hbmColor
 
 Type: <b>HBITMAP</b>
 
-A handle to device dependent XOR mask <a href="/windows/win32/gdi/bitmaps">bitmap</a>.
+A handle to the icon color <a href="/windows/win32/gdi/bitmaps">bitmap</a>.
 
 ### -field wResID
 
@@ -115,9 +115,11 @@ The fully qualified path of the resource.
 
 ## -remarks
 
-For monochrome icons, the <b>hbmMask</b> is twice the height of the icon (with the AND mask on top and the XOR mask on the bottom), and there is no <b>hbmColor</b>. Also, in this case the height should be an even multiple of two.
+For monochrome icons, the <b>hbmMask</b> is twice the height of the icon (with the AND mask on top and the XOR mask on the bottom), and <b>hbmColor</b> is <b>NULL</b>. Also, in this case the height should be an even multiple of two.
 
 For color icons, the <b>hbmMask</b> and <b>hbmColor</b> bitmaps are the same size, each of which is the size of the icon.
+
+The mask bitmask of <b>hbmMask</b> is applied with the <b>SRCAND</b> flag to the destination; subsequently, the color bitmap (or XOR mask) is applied to the destination by using the <b>SRCINVERT</b> flag.
 
 You can use a <a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a> function to get contents of <b>hbmMask</b> and <b>hbmColor</b> in the BITMAP structure.
 
