@@ -152,6 +152,8 @@ Draws the icon or cursor using the width and height specified by the system metr
 <td width="60%">
 Draws the icon or cursor using the image.
 
+If <b>DI_MASK</b> flag is not set then the color bitmap (or XOR mask) of <b>HICON</b> is drawn with the <b>SRCCOPY</b> <a href="/windows/win32/api/wingdi/nf-wingdi-bitblt">raster operation code</a>.
+
 </td>
 </tr>
 <tr>
@@ -162,6 +164,8 @@ Draws the icon or cursor using the image.
 </td>
 <td width="60%">
 Draws the icon or cursor using the mask.
+
+If <b>DI_IMAGE</b> flag is not set then the mask bitmask of <b>HICON</b> is drawn with the <b>SRCCOPY</b> <a href="/windows/win32/api/wingdi/nf-wingdi-bitblt">raster operation code</a>.
 
 </td>
 </tr>
@@ -184,6 +188,10 @@ Draws the icon as an unmirrored icon. By default, the icon is drawn as a mirrore
 </td>
 <td width="60%">
 Combination of <b>DI_IMAGE</b> and <b>DI_MASK</b>.
+ 
+The mask bitmask of <b>HICON</b> is drawn with the <b>SRCAND</b> raster operation code; subsequently, the color bitmap (or XOR mask) is drawn to the destination by using the <b>SRCINVERT</b> <a href="/windows/win32/api/wingdi/nf-wingdi-bitblt">raster operation code</a>.
+
+For 32-bit alpha-blended icons mask bitmask is not used in this mode and color bitmap is drawn with <b>AC_SRC_OVER</b> <a href="/windows/win32/api/wingdi/ns-wingdi-blendfunction">blend function</a>. 
 
 </td>
 </tr>
