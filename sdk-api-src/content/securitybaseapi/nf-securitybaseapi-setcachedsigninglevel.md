@@ -3,7 +3,6 @@ UID: NF:securitybaseapi.SetCachedSigningLevel
 tech.root: security
 title: SetCachedSigningLevel (securitybaseapi.h)
 ms.date: 12/02/2022
-ms.keywords: SetCachedSigningLevel
 targetos: Windows
 description: Sets the cached signing level.
 req.assembly: 
@@ -25,7 +24,6 @@ req.target-type: Windows
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
-targetos: Windows
 topic_type:
  - apiref
 api_type:

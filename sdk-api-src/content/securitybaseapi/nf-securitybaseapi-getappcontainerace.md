@@ -25,7 +25,6 @@ req.target-type: Windows
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
-targetos: Windows
 topic_type:
  - apiref
 api_type:
