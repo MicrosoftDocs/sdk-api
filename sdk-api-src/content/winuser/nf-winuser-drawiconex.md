@@ -205,7 +205,7 @@ If only one of the <b>DI_IMAGE</b> and <b>DI_MASK</b> flags is set, then the cor
 
 If both the <b>DI_IMAGE</b> and <b>DI_MASK</b> flags are set:
 * If the icon or cursor is a 32-bit alpha-blended icon or cursor, then the image is drawn with <b>AC_SRC_OVER</b> <a href="/windows/win32/api/wingdi/ns-wingdi-blendfunction">blend function</a> and the mask is ignored.
-* For all other icons or cursors, the mask is drawn with the <b>SRCAND</b> <a href="/windows/win32/api/wingdi/nf-wingdi-bitblt">raster operation code</a>, and the image is drawn with the <b>SRCCOP</b> <a href="/windows/win32/api/wingdi/nf-wingdi-bitblt">raster operation code</a>
+* For all other icons or cursors, the mask is drawn with the <b>SRCAND</b> <a href="/windows/win32/api/wingdi/nf-wingdi-bitblt">raster operation code</a>, and the image is drawn with the <b>SRCINVERT</b> <a href="/windows/win32/api/wingdi/nf-wingdi-bitblt">raster operation code</a>
 
 To duplicate <code>DrawIcon (hDC, X, Y, hIcon)</code>, call <b>DrawIconEx</b> as follows:
 
