@@ -85,7 +85,7 @@ The size in bytes of any change
 <td>
 <pre>  MaximumChangeJournalRecordSize = 
       ( MaximumComponentLength * sizeof(WCHAR) 
-        + sizeof(USN_RECORD)   - sizeof(WCHAR) );
+        + sizeof(USN_RECORD)   + sizeof(WCHAR) );
 </pre>
 </td>
 </tr>
