@@ -64,7 +64,7 @@ TBD
 
 ### -param Flags [in]
 
- Flags that specify the behavior of the mastering voice. Must be 0.
+ Flags that specify the behavior of the mastering voice. This can be 0 or ``XAUDIO2_NO_VIRTUAL_AUDIO_CLIENT``.
 
 ### -param InputChannels [in]
 
@@ -104,7 +104,7 @@ Pointer to an <a href="/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_effect_ch
 
 ### -param szDeviceId [in]
 
-Identifier of the device to receive the output audio. Specifying the default value of NULL causes XAudio2 to select the global default audio device.
+Identifier of the device to receive the output audio. Specifying the default value of NULL causes XAudio2 to select the global default audio device. On Windows 10 or later, NULL will also opt-in to the WASAPI virtualized client unless `XAUDIO2_NO_VIRTUAL_AUDIO_CLIENT` is passed in Flags.
 
 ## -returns
 

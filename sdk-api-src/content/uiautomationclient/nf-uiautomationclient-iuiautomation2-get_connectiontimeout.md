@@ -58,6 +58,12 @@ This property is read/write.
 
 ## -parameters
 
+### -param timeout [out]
+
+Type: <b>DWORD</b>
+
+The duration of the time-out period, in milliseconds.
+
 ## -remarks
 
 The default connection timeout value is two seconds. A responsive UI Automation provider can typically return an automation element to a client in a short length of time.
