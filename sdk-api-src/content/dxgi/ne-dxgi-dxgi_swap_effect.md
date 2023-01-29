@@ -96,7 +96,7 @@ Use this flag to specify the flip presentation model and to specify that DXGI di
             
 
 <b>Direct3D 11:  </b>This enumeration value is supported starting with Windows 10. 
-This flag is valid for a swap chain with more than one back buffer, although, applications only have read and write access to buffer 0.
+This flag is valid for a swap chain with more than one back buffer; although applications have read and write access only to buffer 0.
               
 
 <div class="alert"><b>Note</b>  Windows Store apps must use <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> or <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b>.
