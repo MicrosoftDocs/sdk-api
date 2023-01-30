@@ -6,7 +6,7 @@ helpviewer_keywords: ["SetupDiClassNameFromGuidEx","SetupDiClassNameFromGuidEx f
 old-location: devinst\setupdiclassnamefromguidex.htm
 tech.root: devinst
 ms.assetid: 0d576df1-e259-4025-8ef0-a520f5680fa0
-ms.date: 12/05/2018
+ms.date: 1/30/2023
 ms.keywords: SetupDiClassNameFromGuidEx, SetupDiClassNameFromGuidEx function [Device and Driver Installation], SetupDiClassNameFromGuidExA, SetupDiClassNameFromGuidExW, devinst.setupdiclassnamefromguidex, di-rtns_69da61fd-b042-4b1b-92a4-d40418f18794.xml, setupapi/SetupDiClassNameFromGuidEx
 req.header: setupapi.h
 req.include-header: Setupapi.h
@@ -75,6 +75,9 @@ The number of characters required to store the class name (including a terminati
 ### -param MachineName [in, optional]
 
 A pointer to a NULL-terminated string that contains the name of a remote system on which the class is installed. This parameter is optional and can be <b>NULL</b>. If <i>MachineName</i> is <b>NULL</b>, the local system name is used.
+
+> [!CAUTION]
+> Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.
 
 ### -param Reserved
 
