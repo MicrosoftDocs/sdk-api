@@ -123,7 +123,7 @@ The handle to an existing <a href="/windows-hardware/drivers/install/device-info
 
 ### -param MachineName [in, optional]
 
-A pointer to a constant string that contains the name of a remote computer on which the devices reside. A value of <b>NULL</b> for <i>MachineName</i> specifies that the device is installed on the local computer.
+A pointer to a constant string that contains the name of a remote computer on which the devices reside. A value of <b>NULL</b> for <i>MachineName</i> specifies that the device is installed on the local computer. Remote computer is not supported beginning with Windows 8 and Windows Server 2012.
 
 ### -param Reserved
 
