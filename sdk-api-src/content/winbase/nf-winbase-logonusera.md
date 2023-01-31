@@ -128,6 +128,8 @@ This logon type preserves the name and password in the <a href="/windows/desktop
 This logon type allows the caller to clone its current token and specify new credentials for outbound connections. The new logon session has the same local identifier but uses different credentials for other network connections.
 
 This logon type is supported only by the LOGON32_PROVIDER_WINNT50 logon provider.
+ 
+Note: As of January 2023, it is not possible to use the LOGON32_LOGON_NEW_CREDENTIALS logon type with a Group Managed Service Account (gMSA).
 
 </td>
 </tr>
