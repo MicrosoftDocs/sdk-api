@@ -54,7 +54,7 @@ Defines a method to release allocated resources.
 
 ## -inheritance
 
-The <b>IClosable</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IClosable</b> also has these types of members:
+The <b>IClosable</b> interface inherits from the <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> interface. <b>IClosable</b> also has these types of members:
 
 ## -remarks
 
