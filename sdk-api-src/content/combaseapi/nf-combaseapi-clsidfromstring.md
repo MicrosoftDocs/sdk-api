@@ -98,28 +98,6 @@ The class string was improperly formatted.
 
 </td>
 </tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>REGDB_E_CLASSNOTREG</b></dt>
-</dl>
-</td>
-<td width="60%">
-The CLSID corresponding to the class string was not found in the registry.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>REGDB_E_READREGDB</b></dt>
-</dl>
-</td>
-<td width="60%">
-The registry could not be opened for reading.
-
-</td>
-</tr>
 </table>
 
 ## -see-also
