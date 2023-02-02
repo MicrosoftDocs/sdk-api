@@ -6,7 +6,7 @@ helpviewer_keywords: ["SetupDiGetClassRegistryProperty","SetupDiGetClassRegistry
 old-location: devinst\setupdigetclassregistryproperty.htm
 tech.root: devinst
 ms.assetid: 79a600af-15c1-4afc-a2cd-568b97d979dc
-ms.date: 1/30/2023
+ms.date: 01/30/2023
 ms.keywords: SetupDiGetClassRegistryProperty, SetupDiGetClassRegistryProperty function [Device and Driver Installation], SetupDiGetClassRegistryPropertyA, SetupDiGetClassRegistryPropertyW, devinst.setupdigetclassregistryproperty, di-rtns_98a6c47a-6fb5-4752-9f0e-23ad00f4e5f2.xml, setupapi/SetupDiGetClassRegistryProperty
 req.header: setupapi.h
 req.include-header: Setupapi.h

@@ -6,7 +6,7 @@ helpviewer_keywords: ["SetupDiClassNameFromGuidEx","SetupDiClassNameFromGuidEx f
 old-location: devinst\setupdiclassnamefromguidex.htm
 tech.root: devinst
 ms.assetid: 0d576df1-e259-4025-8ef0-a520f5680fa0
-ms.date: 1/30/2023
+ms.date: 01/30/2023
 ms.keywords: SetupDiClassNameFromGuidEx, SetupDiClassNameFromGuidEx function [Device and Driver Installation], SetupDiClassNameFromGuidExA, SetupDiClassNameFromGuidExW, devinst.setupdiclassnamefromguidex, di-rtns_69da61fd-b042-4b1b-92a4-d40418f18794.xml, setupapi/SetupDiClassNameFromGuidEx
 req.header: setupapi.h
 req.include-header: Setupapi.h

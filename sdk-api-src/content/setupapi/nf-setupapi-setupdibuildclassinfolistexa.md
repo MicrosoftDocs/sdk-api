@@ -6,7 +6,7 @@ helpviewer_keywords: ["SetupDiBuildClassInfoListEx","SetupDiBuildClassInfoListEx
 old-location: devinst\setupdibuildclassinfolistex.htm
 tech.root: devinst
 ms.assetid: 32c6c548-79f8-41be-ad9a-5456972a16eb
-ms.date: 1/30/2023
+ms.date: 01/30/2023
 ms.keywords: SetupDiBuildClassInfoListEx, SetupDiBuildClassInfoListEx function [Device and Driver Installation], SetupDiBuildClassInfoListExA, SetupDiBuildClassInfoListExW, devinst.setupdibuildclassinfolistex, di-rtns_beaf3abb-65f5-4b7a-b0a1-5b8eab484eff.xml, setupapi/SetupDiBuildClassInfoListEx
 req.header: setupapi.h
 req.include-header: Setupapi.h

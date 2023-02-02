@@ -6,7 +6,7 @@ helpviewer_keywords: ["SetupDiGetClassPropertyKeysEx","SetupDiGetClassPropertyKe
 old-location: devinst\setupdigetclasspropertykeysex.htm
 tech.root: devinst
 ms.assetid: dde6fdbd-e189-4ec7-95c7-b655ea7083c1
-ms.date: 1/30/2023
+ms.date: 01/30/2023
 ms.keywords: SetupDiGetClassPropertyKeysEx, SetupDiGetClassPropertyKeysEx function [Device and Driver Installation], SetupDiGetClassPropertyKeysExW, devinst.setupdigetclasspropertykeysex, di-rtns_3f3e4cd6-af28-409f-8e1e-7e06067d7082.xml, setupapi/SetupDiGetClassPropertyKeysEx
 req.header: setupapi.h
 req.include-header: Setupapi.h

@@ -6,7 +6,7 @@ helpviewer_keywords: ["SetupDiSetClassPropertyEx","SetupDiSetClassPropertyEx fun
 old-location: devinst\setupdisetclasspropertyex.htm
 tech.root: devinst
 ms.assetid: 99b58da2-0398-4dc1-8c9e-0eefaf03bf91
-ms.date: 1/30/2023
+ms.date: 01/30/2023
 ms.keywords: SetupDiSetClassPropertyEx, SetupDiSetClassPropertyEx function [Device and Driver Installation], SetupDiSetClassPropertyExW, devinst.setupdisetclasspropertyex, di-rtns_1366f35d-3801-4b88-b8e3-9ea25292558e.xml, setupapi/SetupDiSetClassPropertyEx
 req.header: setupapi.h
 req.include-header: Setupapi.h
