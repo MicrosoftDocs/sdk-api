@@ -6,7 +6,7 @@ helpviewer_keywords: ["SetupDiOpenClassRegKeyEx","SetupDiOpenClassRegKeyEx funct
 old-location: devinst\setupdiopenclassregkeyex.htm
 tech.root: devinst
 ms.assetid: c931f906-8237-4203-b9b6-4dd54a93ca8b
-ms.date: 12/05/2018
+ms.date: 01/30/2023
 ms.keywords: SetupDiOpenClassRegKeyEx, SetupDiOpenClassRegKeyEx function [Device and Driver Installation], SetupDiOpenClassRegKeyExA, SetupDiOpenClassRegKeyExW, devinst.setupdiopenclassregkeyex, di-rtns_498e4805-8ce4-41cb-8d77-552dbf342f60.xml, setupapi/SetupDiOpenClassRegKeyEx
 req.header: setupapi.h
 req.include-header: Setupapi.h
@@ -84,6 +84,9 @@ Open an interface class key. If <i>ClassGuid</i> is <b>NULL</b>, open the root k
 ### -param MachineName [in, optional]
 
 Optionally points to a string that contains the name of a remote computer on which to open the specified key.
+
+> [!CAUTION]
+> Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.
 
 ### -param Reserved
 

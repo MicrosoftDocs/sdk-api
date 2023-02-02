@@ -6,7 +6,7 @@ helpviewer_keywords: ["SetupDiGetClassRegistryProperty","SetupDiGetClassRegistry
 old-location: devinst\setupdigetclassregistryproperty.htm
 tech.root: devinst
 ms.assetid: 79a600af-15c1-4afc-a2cd-568b97d979dc
-ms.date: 12/05/2018
+ms.date: 01/30/2023
 ms.keywords: SetupDiGetClassRegistryProperty, SetupDiGetClassRegistryProperty function [Device and Driver Installation], SetupDiGetClassRegistryPropertyA, SetupDiGetClassRegistryPropertyW, devinst.setupdigetclassregistryproperty, di-rtns_98a6c47a-6fb5-4752-9f0e-23ad00f4e5f2.xml, setupapi/SetupDiGetClassRegistryProperty
 req.header: setupapi.h
 req.include-header: Setupapi.h
@@ -126,6 +126,9 @@ A pointer to a variable of type DWORD that receives the required size, in bytes,
 ### -param MachineName [in, optional]
 
 A pointer to a NULL-terminated string that contains the name of a remote system from which to retrieve the specified device class property. This parameter is optional and can be <b>NULL</b>. If this parameter is <b>NULL</b>, the property is retrieved from the local system.
+
+> [!CAUTION]
+> Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.
 
 ### -param Reserved
 
