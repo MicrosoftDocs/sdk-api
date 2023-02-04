@@ -59,8 +59,11 @@ The
 
 ### -param StringUuid
 
-Pointer to a string representation of a 
-<a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>.
+Pointer to a string representation of a <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>.
+
+The UUID format is <b>xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</b>.
+
+Passing <b>NULL</b> results in <b>GUID_NULL</b> value in <b>Uuid</b>.
 
 ### -param Uuid
 
