@@ -54,7 +54,7 @@ api_name:
 
 <p class="CCE_Message">[The  <b>CryptCATAdminEnumCatalogFromHash</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CryptCATAdminEnumCatalogFromHash</b> function enumerates the catalogs that contain a specified hash. The hash is typically returned from the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadmincalchashfromfilehandle">CryptCATAdminCalcHashFromFileHandle</a> function. After the final call to this function, call <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadminreleasecatalogcontext">CryptCATAdminReleaseCatalogContext</a> to release allocated memory.
+The <b>CryptCATAdminEnumCatalogFromHash</b> function enumerates the catalogs that contain a specified hash. The hash is typically returned from the <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatadmincalchashfromfilehandle">CryptCATAdminCalcHashFromFileHandle</a> function. After the final call to this function, call <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatadminreleasecatalogcontext">CryptCATAdminReleaseCatalogContext</a> to release allocated memory.
 
 
 ## -parameters
@@ -64,12 +64,12 @@ The <b>CryptCATAdminEnumCatalogFromHash</b> function enumerates the catalogs tha
 
 ### -param hCatAdmin [in]
 
-A handle to a catalog administrator context previously assigned by the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadminacquirecontext">CryptCATAdminAcquireContext</a> function.
+A handle to a catalog administrator context previously assigned by the <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatadminacquirecontext">CryptCATAdminAcquireContext</a> function.
 
 
 ### -param pbHash [in]
 
-A pointer to the buffer that contains the hash retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadmincalchashfromfilehandle">CryptCATAdminCalcHashFromFileHandle</a>.
+A pointer to the buffer that contains the hash retrieved by calling <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatadmincalchashfromfilehandle">CryptCATAdminCalcHashFromFileHandle</a>.
 
 
 ### -param cbHash [in]
@@ -93,7 +93,7 @@ A pointer to the handle to the previous catalog context or <b>NULL</b>. To get t
 
 A handle to the catalog context, or <b>NULL</b> if there is an error or there are no more catalogs to enumerate. See important note, below, on the return value.
   
-If the function returns **NULL**, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the last error is **ERROR_NOT_FOUND** it means there are no more catalogs. For a complete list of error codes provided by the operating system, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+If the function returns **NULL**, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the last error is **ERROR_NOT_FOUND** it means there are no more catalogs. For a complete list of error codes provided by the operating system, see <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 **Note:** The function returns a value of type **HCATINFO**, but this is simply a typedef for **HANDLE**. Because of this, it is easy to accidentally use the **HCATINFO** when calling a function that expects a different kind of **HANDLE**. In particular, this is not the same as a **HANDLE** returned from **CryptCATOpen**, even though the compiler will not prevent you from using the **HCATINFO** in any function that expects a catalog handle. 
   
