@@ -4,7 +4,7 @@ title: Windows Animation Manager
 ms.assetid: 7f1f0a86-c201-3b53-888d-1528979b5d00
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Windows Animation Manager

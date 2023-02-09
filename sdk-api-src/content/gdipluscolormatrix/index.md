@@ -4,7 +4,7 @@ title: Gdipluscolormatrix.h header
 ms.assetid: 86e3da6b-07f6-3277-ac31-5f9e4617774b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: gdiplus
 f1_keywords:
  - gdipluscolormatrix

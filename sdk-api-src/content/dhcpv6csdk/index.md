@@ -4,7 +4,7 @@ title: Dhcpv6Csdk.h header
 ms.assetid: f31358a7-4b3e-352e-be82-92517d26ec1c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: dhcp
 f1_keywords:
  - dhcpv6csdk

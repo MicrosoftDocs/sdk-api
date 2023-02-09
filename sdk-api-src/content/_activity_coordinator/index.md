@@ -4,7 +4,7 @@ title: Activity Coordinator
 ms.assetid: e190851a-3613-419f-88fd-60c149c00a41
 ms.date: 04/26/2022
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Activity Coordinator

@@ -25,7 +25,6 @@ req.target-type: Windows
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
-targetos: Windows
 topic_type:
  - apiref
 api_type:
@@ -79,7 +78,7 @@ Pointer to the thumbprint algorithm.
 
 If the function succeeds, it returns **TRUE**.
 
-If the function fails, it returns **FALSE**. To get extended error information, call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror). **GetLastError** may return one of the following error codes defined in WinError.h.
+If the function fails, it returns **FALSE**. To get extended error information, call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror). **GetLastError** may return one of the error codes defined in WinError.h.
 
 ## -remarks
 

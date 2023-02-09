@@ -4,7 +4,7 @@ title: Windows Runtime C++ reference
 ms.assetid: 19ccb9a3-b0f9-3246-95d5-0d1c2650a2d5
 ms.date: 05/17/2022
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Windows Runtime C++ reference

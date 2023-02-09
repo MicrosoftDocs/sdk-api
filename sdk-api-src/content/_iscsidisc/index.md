@@ -4,7 +4,7 @@ title: iSCSI Discovery Library API
 ms.assetid: 1847a03e-ccd7-31ab-aef2-7722c427e045
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # iSCSI Discovery Library API

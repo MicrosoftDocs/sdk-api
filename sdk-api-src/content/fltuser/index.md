@@ -4,7 +4,7 @@ title: Fltuser.h header
 ms.assetid: 9960ef10-d342-395e-87c4-6b13f82ae703
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: ifsk
 f1_keywords:
  - fltuser

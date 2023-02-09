@@ -4,7 +4,7 @@ title: Corewindow.h header
 ms.assetid: 0875a51e-8a77-31d2-a86c-aeb2f40718a0
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: winrt
 f1_keywords:
  - corewindow

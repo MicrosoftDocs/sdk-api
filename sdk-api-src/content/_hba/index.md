@@ -3,7 +3,7 @@ UID: TP:hba
 title: Host bus adapter (HBA)
 ms.date: 08/01/2022
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Host bus adapter (HBA)

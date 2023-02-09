@@ -4,7 +4,7 @@ title: Lmalert.h header
 ms.assetid: 76daede2-19e4-3ac4-811c-fea6754b08df
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: netmgmt
 f1_keywords:
  - lmalert

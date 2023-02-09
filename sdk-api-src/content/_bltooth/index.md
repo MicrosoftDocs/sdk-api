@@ -4,7 +4,7 @@ title: Bluetooth devices reference
 ms.assetid: a24d2124-fb4a-3c14-aeb8-83c46e9ed71c
 ms.date: 10/20/2022
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Bluetooth devices reference

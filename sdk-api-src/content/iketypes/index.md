@@ -4,7 +4,7 @@ title: Iketypes.h header
 ms.assetid: 4cabed8b-566b-3f4d-93a7-04be3e62e55b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: fwp
 f1_keywords:
  - iketypes

@@ -4,7 +4,7 @@ title: Input Feedback Configuration
 ms.assetid: f753ea3d-0c89-30d6-9949-c06f7b12cdbf
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Input Feedback Configuration

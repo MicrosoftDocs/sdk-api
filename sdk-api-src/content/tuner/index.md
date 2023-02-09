@@ -4,7 +4,7 @@ title: Tuner.h header
 ms.assetid: b7caab1a-61f4-31f2-a184-68bd34811cf3
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: mstv
 archived: true
 f1_keywords:

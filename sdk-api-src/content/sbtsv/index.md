@@ -4,7 +4,7 @@ title: Sbtsv.h header
 ms.assetid: 2ea00425-4363-3cce-a58d-20d7e5db43ec
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: termserv
 f1_keywords:
  - sbtsv

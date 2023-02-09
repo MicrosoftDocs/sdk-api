@@ -3,9 +3,9 @@ UID: NF:securitybaseapi.SetCachedSigningLevel
 tech.root: security
 title: SetCachedSigningLevel (securitybaseapi.h)
 ms.date: 12/02/2022
-ms.keywords: SetCachedSigningLevel
 targetos: Windows
 description: Sets the cached signing level.
+ms.keywords: SetCachedSigningLevel
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -25,7 +25,6 @@ req.target-type: Windows
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
-targetos: Windows
 topic_type:
  - apiref
 api_type:
@@ -71,7 +70,7 @@ The target file.
 
 If the function succeeds, it returns **TRUE**.
 
-If the function fails, it returns **FALSE**. To get extended error information, call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror). **GetLastError** may return one of the following error codes defined in WinError.h.
+If the function fails, it returns **FALSE**. To get extended error information, call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror). **GetLastError** may return one of the error codes defined in WinError.h.
 
 ## -remarks
 
