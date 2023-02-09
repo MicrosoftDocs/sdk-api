@@ -2,7 +2,7 @@
 UID: NF:immdev.ImmGetCandidateListW
 title: ImmGetCandidateListW function (immdev.h)
 description: The ImmGetCandidateListW (Unicode) function (immdev.h) retrieves a candidate list. 
-helpviewer_keywords: ["ImmGetCandidateList","ImmGetCandidateList function [Internationalization for Windows Applications]","ImmGetCandidateListA","ImmGetCandidateListW","_win32_ImmGetCandidateList","imm/ImmGetCandidateList","imm/ImmGetCandidateListA","imm/ImmGetCandidateListW","intl.immgetcandidatelist"]
+helpviewer_keywords: ["ImmGetCandidateList", "ImmGetCandidateList function [Internationalization for Windows Applications]", "ImmGetCandidateListW", "_win32_ImmGetCandidateList", "intl.immgetcandidatelist"]
 old-location: intl\immgetcandidatelist.htm
 tech.root: Intl
 ms.assetid: 24163117-a283-4067-8ce6-118ca2de62c9

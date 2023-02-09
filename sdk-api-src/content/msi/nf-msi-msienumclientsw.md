@@ -2,7 +2,7 @@
 UID: NF:msi.MsiEnumClientsW
 title: MsiEnumClientsW function (msi.h)
 description: The MsiEnumClients function enumerates the clients for a given installed component. The function retrieves one product code each time it is called. (Unicode)
-helpviewer_keywords: ["MsiEnumClients","MsiEnumClients function","MsiEnumClientsA","MsiEnumClientsW","_msi_msienumclients","msi/MsiEnumClients","msi/MsiEnumClientsA","msi/MsiEnumClientsW","setup.msienumclients"]
+helpviewer_keywords: ["MsiEnumClients", "MsiEnumClients function", "MsiEnumClientsW", "_msi_msienumclients", "msi/MsiEnumClients", "msi/MsiEnumClientsW", "setup.msienumclients"]
 old-location: setup\msienumclients.htm
 tech.root: setup
 ms.assetid: 681c1c77-e3b2-4bb5-81f6-4eeadafcc404

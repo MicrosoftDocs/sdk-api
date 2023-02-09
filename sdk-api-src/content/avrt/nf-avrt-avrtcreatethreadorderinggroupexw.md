@@ -2,7 +2,7 @@
 UID: NF:avrt.AvRtCreateThreadOrderingGroupExW
 title: AvRtCreateThreadOrderingGroupExW function (avrt.h)
 description: Creates a thread ordering group and associates the server thread with a task. (Unicode)
-helpviewer_keywords: ["AvRtCreateThreadOrderingGroupEx","AvRtCreateThreadOrderingGroupEx function","AvRtCreateThreadOrderingGroupExA","AvRtCreateThreadOrderingGroupExW","avrt/AvRtCreateThreadOrderingGroupEx","avrt/AvRtCreateThreadOrderingGroupExA","avrt/AvRtCreateThreadOrderingGroupExW","base.avrtcreatethreadorderinggroupex"]
+helpviewer_keywords: ["AvRtCreateThreadOrderingGroupEx", "AvRtCreateThreadOrderingGroupEx function", "AvRtCreateThreadOrderingGroupExW", "avrt/AvRtCreateThreadOrderingGroupEx", "avrt/AvRtCreateThreadOrderingGroupExW", "base.avrtcreatethreadorderinggroupex"]
 old-location: base\avrtcreatethreadorderinggroupex.htm
 tech.root: backup
 ms.assetid: b1ada400-54d9-4238-8d22-97eaa55dcd50

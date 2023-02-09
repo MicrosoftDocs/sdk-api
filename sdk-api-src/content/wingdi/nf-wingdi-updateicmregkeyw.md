@@ -2,7 +2,7 @@
 UID: NF:wingdi.UpdateICMRegKeyW
 title: UpdateICMRegKeyW function (wingdi.h)
 description: The UpdateICMRegKey function manages color profiles and Color Management Modules in the system. (Unicode)
-helpviewer_keywords: ["ICM_ADDPROFILE","ICM_DELETEPROFILE","ICM_QUERYMATCH","ICM_QUERYPROFILE","ICM_REGISTERICMATCHER","ICM_SETDEFAULTPROFILE","ICM_UNREGISTERICMATCHER","UpdateICMRegKey","UpdateICMRegKey function [Windows Color System]","UpdateICMRegKeyA","UpdateICMRegKeyW","_color_UpdateICMRegKey","wcs.updateicmregkey","wingdi/UpdateICMRegKey","wingdi/UpdateICMRegKeyA","wingdi/UpdateICMRegKeyW"]
+helpviewer_keywords: ["ICM_ADDPROFILE", "ICM_DELETEPROFILE", "ICM_QUERYMATCH", "ICM_QUERYPROFILE", "ICM_REGISTERICMATCHER", "ICM_SETDEFAULTPROFILE", "ICM_UNREGISTERICMATCHER", "UpdateICMRegKey", "UpdateICMRegKey function [Windows Color System]", "UpdateICMRegKeyW", "_color_UpdateICMRegKey", "wcs.updateicmregkey", "wingdi/UpdateICMRegKey", "wingdi/UpdateICMRegKeyW"]
 old-location: wcs\updateicmregkey.htm
 tech.root: WCS
 ms.assetid: 705b9671-7bf2-4a47-a3a5-42dd0f334338

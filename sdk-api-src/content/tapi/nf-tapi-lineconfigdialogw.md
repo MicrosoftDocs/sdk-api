@@ -2,7 +2,7 @@
 UID: NF:tapi.lineConfigDialogW
 title: lineConfigDialogW function (tapi.h)
 description: The lineConfigDialogW (Unicode) function (tapi.h) causes the provider of the specified line device to display a dialog box.
-helpviewer_keywords: ["_tapi2_lineconfigdialog","lineConfigDialog","lineConfigDialog function [TAPI 2.2]","lineConfigDialogA","lineConfigDialogW","tapi/lineConfigDialog","tapi/lineConfigDialogA","tapi/lineConfigDialogW","tapi2.lineconfigdialog"]
+helpviewer_keywords: ["_tapi2_lineconfigdialog", "lineConfigDialog", "lineConfigDialog function [TAPI 2.2]", "lineConfigDialogW", "tapi/lineConfigDialog", "tapi/lineConfigDialogW", "tapi2.lineconfigdialog"]
 old-location: tapi2\lineconfigdialog.htm
 tech.root: tapi3
 ms.assetid: 52f23647-e9f5-48a3-95f4-1ac52898cb5a

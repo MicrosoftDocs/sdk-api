@@ -2,7 +2,7 @@
 UID: NF:wininet.InternetSetOptionExW
 title: InternetSetOptionExW function (wininet.h)
 description: Not supported.Implemented only as a stub that calls the InternetSetOption function; InternetSetOptionEx has no functionality of its own. Do not use this function at this time. (Unicode)
-helpviewer_keywords: ["InternetSetOptionEx","InternetSetOptionEx function [WinINet]","InternetSetOptionExA","InternetSetOptionExW","_inet_internetsetoptionex_function","wininet.internetsetoptionex","wininet/InternetSetOptionEx","wininet/InternetSetOptionExA","wininet/InternetSetOptionExW"]
+helpviewer_keywords: ["InternetSetOptionEx", "InternetSetOptionEx function [WinINet]", "InternetSetOptionExW", "_inet_internetsetoptionex_function", "wininet.internetsetoptionex", "wininet/InternetSetOptionEx", "wininet/InternetSetOptionExW"]
 old-location: wininet\internetsetoptionex.htm
 tech.root: wininet
 ms.assetid: 535e4f38-d941-4b69-8c48-ea47f3fbd5e7

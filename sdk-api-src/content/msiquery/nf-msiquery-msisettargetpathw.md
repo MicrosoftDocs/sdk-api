@@ -2,7 +2,7 @@
 UID: NF:msiquery.MsiSetTargetPathW
 title: MsiSetTargetPathW function (msiquery.h)
 description: The MsiSetTargetPath function sets the full target path for a folder in the Directory table. (Unicode)
-helpviewer_keywords: ["MsiSetTargetPath","MsiSetTargetPath function","MsiSetTargetPathA","MsiSetTargetPathW","_msi_msisettargetpath","msiquery/MsiSetTargetPath","msiquery/MsiSetTargetPathA","msiquery/MsiSetTargetPathW","setup.msisettargetpath"]
+helpviewer_keywords: ["MsiSetTargetPath", "MsiSetTargetPath function", "MsiSetTargetPathW", "_msi_msisettargetpath", "msiquery/MsiSetTargetPath", "msiquery/MsiSetTargetPathW", "setup.msisettargetpath"]
 old-location: setup\msisettargetpath.htm
 tech.root: setup
 ms.assetid: bfd39656-4901-442f-940d-424d440caf70

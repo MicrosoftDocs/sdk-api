@@ -2,7 +2,7 @@
 UID: NF:ntdsapi.DsQuerySitesByCostW
 title: DsQuerySitesByCostW function (ntdsapi.h)
 description: Gets the communication cost between one site and one or more other sites. (Unicode)
-helpviewer_keywords: ["DsQuerySitesByCost","DsQuerySitesByCost function [Active Directory]","DsQuerySitesByCostA","DsQuerySitesByCostW","ad.dsquerysitesbycost","ntdsapi/DsQuerySitesByCost","ntdsapi/DsQuerySitesByCostA","ntdsapi/DsQuerySitesByCostW"]
+helpviewer_keywords: ["DsQuerySitesByCost", "DsQuerySitesByCost function [Active Directory]", "DsQuerySitesByCostW", "ad.dsquerysitesbycost", "ntdsapi/DsQuerySitesByCost", "ntdsapi/DsQuerySitesByCostW"]
 old-location: ad\dsquerysitesbycost.htm
 tech.root: ad
 ms.assetid: 7a4cbd1c-8445-4882-8559-d44b6e5693e7

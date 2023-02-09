@@ -2,7 +2,7 @@
 UID: NF:rpcdce.RpcBindingToStringBindingW
 title: RpcBindingToStringBindingW function (rpcdce.h)
 description: The RpcBindingToStringBindingW (Unicode) function (rpcdce.h) returns a string representation of a binding handle.
-helpviewer_keywords: ["RpcBindingToStringBinding","RpcBindingToStringBinding function [RPC]","RpcBindingToStringBindingA","RpcBindingToStringBindingW","_rpc_rpcbindingtostringbinding","rpc.rpcbindingtostringbinding","rpcdce/RpcBindingToStringBinding","rpcdce/RpcBindingToStringBindingA","rpcdce/RpcBindingToStringBindingW"]
+helpviewer_keywords: ["RpcBindingToStringBinding", "RpcBindingToStringBinding function [RPC]", "RpcBindingToStringBindingW", "_rpc_rpcbindingtostringbinding", "rpc.rpcbindingtostringbinding", "rpcdce/RpcBindingToStringBinding", "rpcdce/RpcBindingToStringBindingW"]
 old-location: rpc\rpcbindingtostringbinding.htm
 tech.root: Rpc
 ms.assetid: fd4fea9a-067e-4a1b-8be5-867bbe9663c5

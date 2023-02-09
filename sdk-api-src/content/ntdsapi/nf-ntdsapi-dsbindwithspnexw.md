@@ -2,7 +2,7 @@
 UID: NF:ntdsapi.DsBindWithSpnExW
 title: DsBindWithSpnExW function (ntdsapi.h)
 description: Binds to a domain controller using the specified credentials and a specific service principal name (SPN) for mutual authentication. (DsBindWithSpnExW)
-helpviewer_keywords: ["DsBindWithSpnEx","DsBindWithSpnEx function [Active Directory]","DsBindWithSpnExA","DsBindWithSpnExW","NTDSAPI_BIND_ALLOW_DELEGATION","NTDSAPI_BIND_FIND_BINDING","NTDSAPI_BIND_FORCE_KERBEROS","ad.dsbindwithspnex","ntdsapi/DsBindWithSpnEx","ntdsapi/DsBindWithSpnExA","ntdsapi/DsBindWithSpnExW"]
+helpviewer_keywords: ["DsBindWithSpnEx", "DsBindWithSpnEx function [Active Directory]", "DsBindWithSpnExW", "NTDSAPI_BIND_ALLOW_DELEGATION", "NTDSAPI_BIND_FIND_BINDING", "NTDSAPI_BIND_FORCE_KERBEROS", "ad.dsbindwithspnex", "ntdsapi/DsBindWithSpnEx", "ntdsapi/DsBindWithSpnExW"]
 old-location: ad\dsbindwithspnex.htm
 tech.root: ad
 ms.assetid: 52a5761d-5244-4bc9-8c09-fd08f10a9fff

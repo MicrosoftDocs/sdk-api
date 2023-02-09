@@ -2,7 +2,7 @@
 UID: NF:tapi.lineGenerateDigitsW
 title: lineGenerateDigitsW function (tapi.h)
 description: The lineGenerateDigitsW (Unicode) function initiates the generation of the specified digits on the call as inband tones using the specified signaling mode.
-helpviewer_keywords: ["_tapi2_linegeneratedigits","lineGenerateDigits","lineGenerateDigits function [TAPI 2.2]","lineGenerateDigitsA","lineGenerateDigitsW","tapi/lineGenerateDigits","tapi/lineGenerateDigitsA","tapi/lineGenerateDigitsW","tapi2.linegeneratedigits"]
+helpviewer_keywords: ["_tapi2_linegeneratedigits", "lineGenerateDigits", "lineGenerateDigits function [TAPI 2.2]", "lineGenerateDigitsW", "tapi/lineGenerateDigits", "tapi/lineGenerateDigitsW", "tapi2.linegeneratedigits"]
 old-location: tapi2\linegeneratedigits.htm
 tech.root: tapi3
 ms.assetid: aa407269-06be-43e2-906e-20137e4bdb89

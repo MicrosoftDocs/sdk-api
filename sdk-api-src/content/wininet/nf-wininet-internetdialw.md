@@ -2,7 +2,7 @@
 UID: NF:wininet.InternetDialW
 title: InternetDialW function (wininet.h)
 description: The InternetDialW (Unicode) function (wininet.h) initiates a connection to the Internet using a modem.
-helpviewer_keywords: ["InternetDial","InternetDial function [WinINet]","InternetDialA","InternetDialW","_inet_internetdial_function","wininet.internetdial","winineti/InternetDial","winineti/InternetDialA","winineti/InternetDialW"]
+helpviewer_keywords: ["InternetDial", "InternetDial function [WinINet]", "InternetDialW", "_inet_internetdial_function", "wininet.internetdial"]
 old-location: wininet\internetdial.htm
 tech.root: wininet
 ms.assetid: b8ce748b-9879-4f68-aea1-32e2bfaee8ab

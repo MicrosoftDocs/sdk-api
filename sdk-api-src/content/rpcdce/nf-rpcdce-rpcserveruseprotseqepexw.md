@@ -2,7 +2,7 @@
 UID: NF:rpcdce.RpcServerUseProtseqEpExW
 title: RpcServerUseProtseqEpExW function (rpcdce.h)
 description: The RpcServerUseProtseqEpExW (Unicode) function (rpcdce.h) tells the RPC run-time library to use the specified protocol sequence and endpoint for receiving remote procedure calls. 
-helpviewer_keywords: ["RpcServerUseProtseqEpEx","RpcServerUseProtseqEpEx function [RPC]","RpcServerUseProtseqEpExA","RpcServerUseProtseqEpExW","_rpc_rpcserveruseprotseqepex","rpc.rpcserveruseprotseqepex","rpcdce/RpcServerUseProtseqEpEx","rpcdce/RpcServerUseProtseqEpExA","rpcdce/RpcServerUseProtseqEpExW"]
+helpviewer_keywords: ["RpcServerUseProtseqEpEx", "RpcServerUseProtseqEpEx function [RPC]", "RpcServerUseProtseqEpExW", "_rpc_rpcserveruseprotseqepex", "rpc.rpcserveruseprotseqepex", "rpcdce/RpcServerUseProtseqEpEx", "rpcdce/RpcServerUseProtseqEpExW"]
 old-location: rpc\rpcserveruseprotseqepex.htm
 tech.root: Rpc
 ms.assetid: c5bc52c5-9799-4fab-89fa-a680639a229f

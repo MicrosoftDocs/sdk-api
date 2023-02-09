@@ -2,7 +2,7 @@
 UID: NF:shlobj_core.ILCreateFromPathW
 title: ILCreateFromPathW function (shlobj_core.h)
 description: The ILCreateFromPathW (Unicode) function returns the ITEMIDLIST structure associated with a specified file path.
-helpviewer_keywords: ["ILCreateFromPath","ILCreateFromPath function [Windows Shell]","ILCreateFromPathA","ILCreateFromPathW","_win32_ILCreateFromPathW","shell.ILCreateFromPathW","shlobj_core/ILCreateFromPath","shlobj_core/ILCreateFromPathA","shlobj_core/ILCreateFromPathW"]
+helpviewer_keywords: ["ILCreateFromPath", "ILCreateFromPath function [Windows Shell]", "ILCreateFromPathW", "_win32_ILCreateFromPathW", "shell.ILCreateFromPathW", "shlobj_core/ILCreateFromPath", "shlobj_core/ILCreateFromPathW"]
 old-location: shell\ILCreateFromPathW.htm
 tech.root: shell
 ms.assetid: dee5486c-8be9-46c1-b5a1-e917e7c1e528

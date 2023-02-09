@@ -2,7 +2,7 @@
 UID: NF:winuser.CharLowerW
 title: CharLowerW function (winuser.h)
 description: Converts a character string or a single character to lowercase. If the operand is a character string, the function converts the characters in place. (Unicode)
-helpviewer_keywords: ["CharLower","CharLower function [Menus and Other Resources]","CharLowerA","CharLowerW","_win32_CharLower","_win32_charlower_cpp","menurc.charlower","winui._win32_charlower","winuser/CharLower","winuser/CharLowerA","winuser/CharLowerW"]
+helpviewer_keywords: ["CharLower", "CharLower function [Menus and Other Resources]", "CharLowerW", "_win32_CharLower", "_win32_charlower_cpp", "menurc.charlower", "winui._win32_charlower", "winuser/CharLower", "winuser/CharLowerW"]
 old-location: menurc\charlower.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charlower.htm

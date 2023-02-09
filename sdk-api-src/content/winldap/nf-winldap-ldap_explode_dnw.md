@@ -2,7 +2,7 @@
 UID: NF:winldap.ldap_explode_dnW
 title: ldap_explode_dnW function (winldap.h)
 description: The ldap_explode_dnW (Unicode) function (winldap.h) breaks up an entry name into its component parts. 
-helpviewer_keywords: ["_ldap_ldap_explode_dn","ldap.ldap__explode__dn","ldap.ldap_explode_dn","ldap_explode_dn","ldap_explode_dn function [LDAP]","ldap_explode_dnA","ldap_explode_dnW","winldap/ldap_explode_dn","winldap/ldap_explode_dnA","winldap/ldap_explode_dnW"]
+helpviewer_keywords: ["_ldap_ldap_explode_dn", "ldap.ldap__explode__dn", "ldap.ldap_explode_dn", "ldap_explode_dn", "ldap_explode_dn function [LDAP]", "ldap_explode_dnW", "winldap/ldap_explode_dn", "winldap/ldap_explode_dnW"]
 old-location: ldap\ldap_explode_dn.htm
 tech.root: ldap
 ms.assetid: 9d151adf-f8b2-4ed1-8e25-86c95a89a948

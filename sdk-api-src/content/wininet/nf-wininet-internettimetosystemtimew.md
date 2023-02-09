@@ -2,7 +2,7 @@
 UID: NF:wininet.InternetTimeToSystemTimeW
 title: InternetTimeToSystemTimeW function (wininet.h)
 description: The InternetTimeToSystemTimeW (Unicode) function (wininet.h) converts an HTTP time/date string to a SYSTEMTIME structure.
-helpviewer_keywords: ["InternetTimeToSystemTime","InternetTimeToSystemTime function [WinINet]","InternetTimeToSystemTimeA","InternetTimeToSystemTimeW","_inet_internettimetosystemtime_function","wininet.internettimetosystemtime","wininet/InternetTimeToSystemTime","wininet/InternetTimeToSystemTimeA","wininet/InternetTimeToSystemTimeW"]
+helpviewer_keywords: ["InternetTimeToSystemTime", "InternetTimeToSystemTime function [WinINet]", "InternetTimeToSystemTimeW", "_inet_internettimetosystemtime_function", "wininet.internettimetosystemtime", "wininet/InternetTimeToSystemTime", "wininet/InternetTimeToSystemTimeW"]
 old-location: wininet\internettimetosystemtime.htm
 tech.root: wininet
 ms.assetid: fcfe99de-13b2-4e93-a978-f013ddae89f0

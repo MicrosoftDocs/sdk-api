@@ -2,7 +2,7 @@
 UID: NF:rpcdce.RpcEpRegisterNoReplaceW
 title: RpcEpRegisterNoReplaceW function (rpcdce.h)
 description: The RpcEpRegisterNoReplaceW (Unicode) function (rpcdce.h) adds server-address information to the local endpoint-map database.
-helpviewer_keywords: ["RpcEpRegisterNoReplace","RpcEpRegisterNoReplace function [RPC]","RpcEpRegisterNoReplaceA","RpcEpRegisterNoReplaceW","_rpc_rpcepregisternoreplace","rpc.rpcepregisternoreplace","rpcdce/RpcEpRegisterNoReplace","rpcdce/RpcEpRegisterNoReplaceA","rpcdce/RpcEpRegisterNoReplaceW"]
+helpviewer_keywords: ["RpcEpRegisterNoReplace", "RpcEpRegisterNoReplace function [RPC]", "RpcEpRegisterNoReplaceW", "_rpc_rpcepregisternoreplace", "rpc.rpcepregisternoreplace", "rpcdce/RpcEpRegisterNoReplace", "rpcdce/RpcEpRegisterNoReplaceW"]
 old-location: rpc\rpcepregisternoreplace.htm
 tech.root: Rpc
 ms.assetid: eaf132a8-0bc2-4201-945a-76b6c2eab559

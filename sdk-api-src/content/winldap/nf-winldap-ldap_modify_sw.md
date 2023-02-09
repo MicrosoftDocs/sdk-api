@@ -2,7 +2,7 @@
 UID: NF:winldap.ldap_modify_sW
 title: ldap_modify_sW function (winldap.h)
 description: The ldap_modify_sW (Unicode) function (winldap.h) initiates an asynchronous operation to modify an existing entry.
-helpviewer_keywords: ["_ldap_ldap_modify_s","ldap.ldap__modify__s","ldap.ldap_modify_s","ldap_modify_s","ldap_modify_s function [LDAP]","ldap_modify_sA","ldap_modify_sW","winldap/ldap_modify_s","winldap/ldap_modify_sA","winldap/ldap_modify_sW"]
+helpviewer_keywords: ["_ldap_ldap_modify_s", "ldap.ldap__modify__s", "ldap.ldap_modify_s", "ldap_modify_s", "ldap_modify_s function [LDAP]", "ldap_modify_sW", "winldap/ldap_modify_s", "winldap/ldap_modify_sW"]
 old-location: ldap\ldap_modify_s.htm
 tech.root: ldap
 ms.assetid: 26002d58-a4ac-4fd6-aa63-39210f8fc883

@@ -2,7 +2,7 @@
 UID: NF:rpcdce.RpcServerRegisterAuthInfoW
 title: RpcServerRegisterAuthInfoW function (rpcdce.h)
 description: The RpcServerRegisterAuthInfoW (Unicode) function (rpcdce.h) registers authentication information with the RPC run-time library.
-helpviewer_keywords: ["RpcServerRegisterAuthInfo","RpcServerRegisterAuthInfo function [RPC]","RpcServerRegisterAuthInfoA","RpcServerRegisterAuthInfoW","_rpc_rpcserverregisterauthinfo","rpc.rpcserverregisterauthinfo","rpcdce/RpcServerRegisterAuthInfo","rpcdce/RpcServerRegisterAuthInfoA","rpcdce/RpcServerRegisterAuthInfoW"]
+helpviewer_keywords: ["RpcServerRegisterAuthInfo", "RpcServerRegisterAuthInfo function [RPC]", "RpcServerRegisterAuthInfoW", "_rpc_rpcserverregisterauthinfo", "rpc.rpcserverregisterauthinfo", "rpcdce/RpcServerRegisterAuthInfo", "rpcdce/RpcServerRegisterAuthInfoW"]
 old-location: rpc\rpcserverregisterauthinfo.htm
 tech.root: Rpc
 ms.assetid: b7a7b57e-540b-460b-9eec-6246cc1fd9d3

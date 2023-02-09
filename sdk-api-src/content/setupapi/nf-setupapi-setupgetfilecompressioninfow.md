@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupGetFileCompressionInfoW
 title: SetupGetFileCompressionInfoW function (setupapi.h)
 description: The SetupGetFileCompressionInfo function examines a physical file to determine if it is compressed and gets its full path, size, and the size of the uncompressed target file. (Unicode)
-helpviewer_keywords: ["SetupGetFileCompressionInfo","SetupGetFileCompressionInfo function [Setup API]","SetupGetFileCompressionInfoA","SetupGetFileCompressionInfoW","_setupapi_setupgetfilecompressioninfo","setup.setupgetfilecompressioninfo","setupapi/SetupGetFileCompressionInfo","setupapi/SetupGetFileCompressionInfoA","setupapi/SetupGetFileCompressionInfoW"]
+helpviewer_keywords: ["SetupGetFileCompressionInfo", "SetupGetFileCompressionInfo function [Setup API]", "SetupGetFileCompressionInfoW", "_setupapi_setupgetfilecompressioninfo", "setup.setupgetfilecompressioninfo", "setupapi/SetupGetFileCompressionInfo", "setupapi/SetupGetFileCompressionInfoW"]
 old-location: setup\setupgetfilecompressioninfo.htm
 tech.root: setup
 ms.assetid: 68bcfbb3-f0ba-412b-9ed2-e2139099fcf2

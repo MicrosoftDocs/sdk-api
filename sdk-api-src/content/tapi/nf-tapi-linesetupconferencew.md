@@ -2,7 +2,7 @@
 UID: NF:tapi.lineSetupConferenceW
 title: lineSetupConferenceW function (tapi.h)
 description: The lineSetupConferenceW (Unicode) function (tapi.h) sets up a conference call for the addition of the third party.
-helpviewer_keywords: ["_tapi2_linesetupconference","lineSetupConference","lineSetupConference function [TAPI 2.2]","lineSetupConferenceA","lineSetupConferenceW","tapi/lineSetupConference","tapi/lineSetupConferenceA","tapi/lineSetupConferenceW","tapi2.linesetupconference"]
+helpviewer_keywords: ["_tapi2_linesetupconference", "lineSetupConference", "lineSetupConference function [TAPI 2.2]", "lineSetupConferenceW", "tapi/lineSetupConference", "tapi/lineSetupConferenceW", "tapi2.linesetupconference"]
 old-location: tapi2\linesetupconference.htm
 tech.root: tapi3
 ms.assetid: 13bf81c6-f7f6-4fd4-b546-15e58f7bc618

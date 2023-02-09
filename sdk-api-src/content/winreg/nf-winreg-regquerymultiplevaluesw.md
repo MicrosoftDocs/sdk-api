@@ -2,7 +2,7 @@
 UID: NF:winreg.RegQueryMultipleValuesW
 title: RegQueryMultipleValuesW function (winreg.h)
 description: Retrieves the type and data for a list of value names associated with an open registry key. (Unicode)
-helpviewer_keywords: ["RegQueryMultipleValues","RegQueryMultipleValues function","RegQueryMultipleValuesA","RegQueryMultipleValuesW","_win32_regquerymultiplevalues","base.regquerymultiplevalues","winreg/RegQueryMultipleValues","winreg/RegQueryMultipleValuesA","winreg/RegQueryMultipleValuesW"]
+helpviewer_keywords: ["RegQueryMultipleValues", "RegQueryMultipleValues function", "RegQueryMultipleValuesW", "_win32_regquerymultiplevalues", "base.regquerymultiplevalues", "winreg/RegQueryMultipleValues", "winreg/RegQueryMultipleValuesW"]
 old-location: base\regquerymultiplevalues.htm
 tech.root: winprog
 ms.assetid: e718534a-6e68-40f5-9cdd-170ce9b5e6e5

@@ -2,7 +2,7 @@
 UID: NF:wininet.InternetCrackUrlW
 title: InternetCrackUrlW function (wininet.h)
 description: Cracks a URL into its component parts. (Unicode)
-helpviewer_keywords: ["ICU_DECODE","ICU_ESCAPE","InternetCrackUrl","InternetCrackUrl function [WinINet]","InternetCrackUrlA","InternetCrackUrlW","_inet_internetcrackurl_function","wininet.internetcrackurl","wininet/InternetCrackUrl","wininet/InternetCrackUrlA","wininet/InternetCrackUrlW"]
+helpviewer_keywords: ["ICU_DECODE", "ICU_ESCAPE", "InternetCrackUrl", "InternetCrackUrl function [WinINet]", "InternetCrackUrlW", "_inet_internetcrackurl_function", "wininet.internetcrackurl", "wininet/InternetCrackUrl", "wininet/InternetCrackUrlW"]
 old-location: wininet\internetcrackurl.htm
 tech.root: wininet
 ms.assetid: 30677071-3eb2-4d9c-a0a3-ff11a077f98a

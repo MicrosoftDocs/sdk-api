@@ -2,7 +2,7 @@
 UID: NF:tapi.lineSetupTransferW
 title: lineSetupTransferW function (tapi.h)
 description: The lineSetupTransferW (Unicode) function (tapi.h) initiates a transfer of the call specified by the hCall parameter. 
-helpviewer_keywords: ["_tapi2_linesetuptransfer","lineSetupTransfer","lineSetupTransfer function [TAPI 2.2]","lineSetupTransferA","lineSetupTransferW","tapi/lineSetupTransfer","tapi/lineSetupTransferA","tapi/lineSetupTransferW","tapi2.linesetuptransfer"]
+helpviewer_keywords: ["_tapi2_linesetuptransfer", "lineSetupTransfer", "lineSetupTransfer function [TAPI 2.2]", "lineSetupTransferW", "tapi/lineSetupTransfer", "tapi/lineSetupTransferW", "tapi2.linesetuptransfer"]
 old-location: tapi2\linesetuptransfer.htm
 tech.root: tapi3
 ms.assetid: 40f0ce8f-9809-43ec-af48-d8e410553048

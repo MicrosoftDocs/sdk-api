@@ -2,7 +2,7 @@
 UID: NF:shlwapi.UrlIsOpaqueW
 title: UrlIsOpaqueW function (shlwapi.h)
 description: Returns whether a URL is opaque. (Unicode)
-helpviewer_keywords: ["UrlIsOpaque","UrlIsOpaque function [Windows Shell]","UrlIsOpaqueA","UrlIsOpaqueW","_win32_UrlIsOpaque","shell.UrlIsOpaque","shlwapi/UrlIsOpaque","shlwapi/UrlIsOpaqueA","shlwapi/UrlIsOpaqueW"]
+helpviewer_keywords: ["UrlIsOpaque", "UrlIsOpaque function [Windows Shell]", "UrlIsOpaqueW", "_win32_UrlIsOpaque", "shell.UrlIsOpaque", "shlwapi/UrlIsOpaque", "shlwapi/UrlIsOpaqueW"]
 old-location: shell\UrlIsOpaque.htm
 tech.root: shell
 ms.assetid: 460f4d41-2796-496d-9199-f2d1cd6e4a24

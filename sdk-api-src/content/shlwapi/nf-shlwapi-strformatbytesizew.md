@@ -2,7 +2,7 @@
 UID: NF:shlwapi.StrFormatByteSizeW
 title: StrFormatByteSizeW function (shlwapi.h)
 description: Converts a numeric value into a string that represents the number expressed as a size value in bytes, kilobytes, megabytes, or gigabytes, depending on the size. Differs from StrFormatByteSizeA in one parameter type.
-helpviewer_keywords: ["StrFormatByteSizeW","StrFormatByteSizeW function [Windows Shell]","_win32_StrFormatByteSizeW","shell.StrFormatByteSizeW","shlwapi/StrFormatByteSizeW"]
+helpviewer_keywords: ["StrFormatByteSizeW", "StrFormatByteSizeW function [Windows Shell]", "_win32_StrFormatByteSizeW", "shell.StrFormatByteSizeW", "shlwapi/StrFormatByteSizeW"]
 old-location: shell\StrFormatByteSizeW.htm
 tech.root: shell
 ms.assetid: 00192755-9135-4193-90bc-6e312b294007

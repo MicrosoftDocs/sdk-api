@@ -2,7 +2,7 @@
 UID: NF:errhandlingapi.FatalAppExitW
 title: FatalAppExitW function (errhandlingapi.h)
 description: Displays a message box and terminates the application when the message box is closed. (Unicode)
-helpviewer_keywords: ["FatalAppExit","FatalAppExit function","FatalAppExitA","FatalAppExitW","_win32_fatalappexit","base.fatalappexit","errhandlingapi/FatalAppExit","errhandlingapi/FatalAppExitA","errhandlingapi/FatalAppExitW"]
+helpviewer_keywords: ["FatalAppExit", "FatalAppExit function", "FatalAppExitW", "_win32_fatalappexit", "base.fatalappexit", "errhandlingapi/FatalAppExit", "errhandlingapi/FatalAppExitW"]
 old-location: base\fatalappexit.htm
 tech.root: Debug
 ms.assetid: f18d8b16-ffe1-49f1-98be-ba8d49db86ef

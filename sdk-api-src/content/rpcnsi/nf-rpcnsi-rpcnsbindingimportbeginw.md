@@ -2,7 +2,7 @@
 UID: NF:rpcnsi.RpcNsBindingImportBeginW
 title: RpcNsBindingImportBeginW function (rpcnsi.h)
 description: The RpcNsBindingImportBegin function creates an import context for importing client-compatible binding handles for servers that offer the specified interface and object. (Unicode)
-helpviewer_keywords: ["RpcNsBindingImportBegin","RpcNsBindingImportBegin function [RPC]","RpcNsBindingImportBeginA","RpcNsBindingImportBeginW","_rpc_rpcnsbindingimportbegin","rpc.rpcnsbindingimportbegin","rpcnsi/RpcNsBindingImportBegin","rpcnsi/RpcNsBindingImportBeginA","rpcnsi/RpcNsBindingImportBeginW"]
+helpviewer_keywords: ["RpcNsBindingImportBegin", "RpcNsBindingImportBegin function [RPC]", "RpcNsBindingImportBeginW", "_rpc_rpcnsbindingimportbegin", "rpc.rpcnsbindingimportbegin", "rpcnsi/RpcNsBindingImportBegin", "rpcnsi/RpcNsBindingImportBeginW"]
 old-location: rpc\rpcnsbindingimportbegin.htm
 tech.root: Rpc
 ms.assetid: 8dca0490-72aa-41e0-b747-863d53a705ea

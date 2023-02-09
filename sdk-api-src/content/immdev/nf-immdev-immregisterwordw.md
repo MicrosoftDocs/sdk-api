@@ -2,7 +2,7 @@
 UID: NF:immdev.ImmRegisterWordW
 title: ImmRegisterWordW function (immdev.h)
 description: The ImmRegisterWordW (Unicode) function (immdev.h) registers a string with the dictionary of the IME associated with the specified input locale.
-helpviewer_keywords: ["Any value in the range from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_USER_LAST","IME_REGWORD_STYLE_EUDC","ImmRegisterWord","ImmRegisterWord function [Internationalization for Windows Applications]","ImmRegisterWordA","ImmRegisterWordW","_win32_ImmRegisterWord","imm/ImmRegisterWord","imm/ImmRegisterWordA","imm/ImmRegisterWordW","intl.immregisterword"]
+helpviewer_keywords: ["Any value in the range from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_USER_LAST", "IME_REGWORD_STYLE_EUDC", "ImmRegisterWord", "ImmRegisterWord function [Internationalization for Windows Applications]", "ImmRegisterWordW", "_win32_ImmRegisterWord", "intl.immregisterword"]
 old-location: intl\immregisterword.htm
 tech.root: Intl
 ms.assetid: c5a507f3-5908-4f44-be7a-7feba8bfe378

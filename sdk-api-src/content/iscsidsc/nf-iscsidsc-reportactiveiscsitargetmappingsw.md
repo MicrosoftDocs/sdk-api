@@ -2,7 +2,7 @@
 UID: NF:iscsidsc.ReportActiveIScsiTargetMappingsW
 title: ReportActiveIScsiTargetMappingsW function (iscsidsc.h)
 description: ReportActiveIscsiTargetMappings function retrieves the target mappings that are currently active for all initiators on the computer. (Unicode)
-helpviewer_keywords: ["ReportActiveIScsiTargetMappingsW","ReportActiveIscsiTargetMappings","ReportActiveIscsiTargetMappings function [iSCSI Discovery Library API]","ReportActiveIscsiTargetMappingsA","ReportActiveIscsiTargetMappingsW","iscsidisc.reportactiveiscsitargetmappings","iscsidsc/ReportActiveIscsiTargetMappings","iscsidsc/ReportActiveIscsiTargetMappingsA","iscsidsc/ReportActiveIscsiTargetMappingsW"]
+helpviewer_keywords: ["ReportActiveIScsiTargetMappingsW", "ReportActiveIscsiTargetMappings", "ReportActiveIscsiTargetMappings function [iSCSI Discovery Library API]", "ReportActiveIscsiTargetMappingsW", "iscsidisc.reportactiveiscsitargetmappings", "iscsidsc/ReportActiveIscsiTargetMappings", "iscsidsc/ReportActiveIscsiTargetMappingsW"]
 old-location: iscsidisc\reportactiveiscsitargetmappings.htm
 tech.root: iSCSIDisc
 ms.assetid: 24de0e43-ba16-4598-92c5-ea17da17e030

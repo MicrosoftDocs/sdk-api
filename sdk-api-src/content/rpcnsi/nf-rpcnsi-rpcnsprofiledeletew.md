@@ -2,7 +2,7 @@
 UID: NF:rpcnsi.RpcNsProfileDeleteW
 title: RpcNsProfileDeleteW function (rpcnsi.h)
 description: The RpcNsProfileDelete function deletes a profile attribute. (Unicode)
-helpviewer_keywords: ["RpcNsProfileDelete","RpcNsProfileDelete function [RPC]","RpcNsProfileDeleteA","RpcNsProfileDeleteW","_rpc_rpcnsprofiledelete","rpc.rpcnsprofiledelete","rpcnsi/RpcNsProfileDelete","rpcnsi/RpcNsProfileDeleteA","rpcnsi/RpcNsProfileDeleteW"]
+helpviewer_keywords: ["RpcNsProfileDelete", "RpcNsProfileDelete function [RPC]", "RpcNsProfileDeleteW", "_rpc_rpcnsprofiledelete", "rpc.rpcnsprofiledelete", "rpcnsi/RpcNsProfileDelete", "rpcnsi/RpcNsProfileDeleteW"]
 old-location: rpc\rpcnsprofiledelete.htm
 tech.root: Rpc
 ms.assetid: bac77a37-a4e8-4edf-a31b-28692ccec0f7

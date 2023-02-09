@@ -2,7 +2,7 @@
 UID: NF:wininet.InternetGetConnectedStateExW
 title: InternetGetConnectedStateExW function (wininet.h)
 description: The InternetGetConnectedStateExW (Unicode) function (wininet.h) retrieves the connected state of the specified Internet connection and is not recommended for use.
-helpviewer_keywords: ["INTERNET_CONNECTION_CONFIGURED","INTERNET_CONNECTION_LAN","INTERNET_CONNECTION_MODEM","INTERNET_CONNECTION_MODEM_BUSY","INTERNET_CONNECTION_OFFLINE","INTERNET_CONNECTION_PROXY","InternetGetConnectedStateEx","InternetGetConnectedStateEx function [WinINet]","InternetGetConnectedStateExA","InternetGetConnectedStateExW","_inet_internetgetconnectedstateex_function","wininet.internetgetconnectedstateex","winineti/InternetGetConnectedStateEx","winineti/InternetGetConnectedStateExA","winineti/InternetGetConnectedStateExW"]
+helpviewer_keywords: ["INTERNET_CONNECTION_CONFIGURED", "INTERNET_CONNECTION_LAN", "INTERNET_CONNECTION_MODEM", "INTERNET_CONNECTION_MODEM_BUSY", "INTERNET_CONNECTION_OFFLINE", "INTERNET_CONNECTION_PROXY", "InternetGetConnectedStateEx", "InternetGetConnectedStateEx function [WinINet]", "InternetGetConnectedStateExW", "_inet_internetgetconnectedstateex_function", "wininet.internetgetconnectedstateex"]
 old-location: wininet\internetgetconnectedstateex.htm
 tech.root: wininet
 ms.assetid: 0b27b86d-6e55-4022-84ce-d4116d71f124

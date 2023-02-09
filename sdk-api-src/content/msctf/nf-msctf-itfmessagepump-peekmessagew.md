@@ -2,7 +2,7 @@
 UID: NF:msctf.ITfMessagePump.PeekMessageW
 title: ITfMessagePump::PeekMessageW (msctf.h)
 description: ITfMessagePump::PeekMessageW method
-helpviewer_keywords: ["ITfMessagePump interface [Text Services Framework]","PeekMessageW method","ITfMessagePump.PeekMessageW","ITfMessagePump::PeekMessageW","PeekMessageW","PeekMessageW method [Text Services Framework]","PeekMessageW method [Text Services Framework]","ITfMessagePump interface","_tsf_itfmessagepump_peekmessagew_ref","msctf/ITfMessagePump::PeekMessageW","tsf.itfmessagepump_peekmessagew"]
+helpviewer_keywords: ["ITfMessagePump interface [Text Services Framework]", "PeekMessageW method", "ITfMessagePump.PeekMessageW", "ITfMessagePump::PeekMessageW", "PeekMessageW", "PeekMessageW method [Text Services Framework]", "PeekMessageW method [Text Services Framework]", "ITfMessagePump interface", "_tsf_itfmessagepump_peekmessagew_ref", "msctf/ITfMessagePump::PeekMessageW", "tsf.itfmessagepump_peekmessagew"]
 old-location: tsf\itfmessagepump_peekmessagew.htm
 tech.root: TSF
 ms.assetid: 05a3a7e1-4b83-4257-bfe8-7f79405ff02a

@@ -2,7 +2,7 @@
 UID: NF:immdev.ImmUnregisterWordW
 title: ImmUnregisterWordW function (immdev.h)
 description: The ImmUnregisterWordW (Unicode) function (immdev.h) removes a register string from the dictionary of the IME associated with the specified input locale.
-helpviewer_keywords: ["Any value from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_USER_LAST","IME_REGWORD_STYLE_EUDC","ImmUnregisterWord","ImmUnregisterWord function [Internationalization for Windows Applications]","ImmUnregisterWordA","ImmUnregisterWordW","_win32_ImmUnregisterWord","imm/ImmUnregisterWord","imm/ImmUnregisterWordA","imm/ImmUnregisterWordW","intl.immunregisterword"]
+helpviewer_keywords: ["Any value from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_USER_LAST", "IME_REGWORD_STYLE_EUDC", "ImmUnregisterWord", "ImmUnregisterWord function [Internationalization for Windows Applications]", "ImmUnregisterWordW", "_win32_ImmUnregisterWord", "intl.immunregisterword"]
 old-location: intl\immunregisterword.htm
 tech.root: Intl
 ms.assetid: 1724d516-bc9d-418f-9fe1-5c82eccc73c5

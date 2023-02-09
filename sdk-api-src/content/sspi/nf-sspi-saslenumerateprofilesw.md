@@ -2,7 +2,7 @@
 UID: NF:sspi.SaslEnumerateProfilesW
 title: SaslEnumerateProfilesW function (sspi.h)
 description: Lists the packages that provide a SASL interface. (Unicode)
-helpviewer_keywords: ["SaslEnumerateProfiles","SaslEnumerateProfiles function [Security]","SaslEnumerateProfilesA","SaslEnumerateProfilesW","security.saslenumerateprofiles","sspi/SaslEnumerateProfiles","sspi/SaslEnumerateProfilesA","sspi/SaslEnumerateProfilesW"]
+helpviewer_keywords: ["SaslEnumerateProfiles", "SaslEnumerateProfiles function [Security]", "SaslEnumerateProfilesW", "security.saslenumerateprofiles", "sspi/SaslEnumerateProfiles", "sspi/SaslEnumerateProfilesW"]
 old-location: security\saslenumerateprofiles.htm
 tech.root: security
 ms.assetid: 0c11e0e3-2538-4703-bc32-31c73d65a498

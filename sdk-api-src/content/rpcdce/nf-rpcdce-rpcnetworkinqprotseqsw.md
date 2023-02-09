@@ -2,7 +2,7 @@
 UID: NF:rpcdce.RpcNetworkInqProtseqsW
 title: RpcNetworkInqProtseqsW function (rpcdce.h)
 description: The RpcNetworkInqProtseqsW (Unicode) function (rpcdce.h) returns all protocol sequences supported by both the RPC run-time library and the operating system.
-helpviewer_keywords: ["RpcNetworkInqProtseqs","RpcNetworkInqProtseqs function [RPC]","RpcNetworkInqProtseqsA","RpcNetworkInqProtseqsW","_rpc_rpcnetworkinqprotseqs","rpc.rpcnetworkinqprotseqs","rpcdce/RpcNetworkInqProtseqs","rpcdce/RpcNetworkInqProtseqsA","rpcdce/RpcNetworkInqProtseqsW"]
+helpviewer_keywords: ["RpcNetworkInqProtseqs", "RpcNetworkInqProtseqs function [RPC]", "RpcNetworkInqProtseqsW", "_rpc_rpcnetworkinqprotseqs", "rpc.rpcnetworkinqprotseqs", "rpcdce/RpcNetworkInqProtseqs", "rpcdce/RpcNetworkInqProtseqsW"]
 old-location: rpc\rpcnetworkinqprotseqs.htm
 tech.root: Rpc
 ms.assetid: 7390e30a-9e29-417e-8d21-a045f1888036

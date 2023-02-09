@@ -2,7 +2,7 @@
 UID: NF:datetimeapi.GetDateFormatW
 title: GetDateFormatW function (datetimeapi.h)
 description: Formats a date as a date string for a locale specified by the locale identifier. (Unicode)
-helpviewer_keywords: ["GetDateFormat","GetDateFormat function [Internationalization for Windows Applications]","GetDateFormatA","GetDateFormatW","_win32_GetDateFormat","datetimeapi/GetDateFormat","datetimeapi/GetDateFormatA","datetimeapi/GetDateFormatW","intl.getdateformat"]
+helpviewer_keywords: ["GetDateFormat", "GetDateFormat function [Internationalization for Windows Applications]", "GetDateFormatW", "_win32_GetDateFormat", "datetimeapi/GetDateFormat", "datetimeapi/GetDateFormatW", "intl.getdateformat"]
 old-location: intl\getdateformat.htm
 tech.root: Intl
 ms.assetid: 546cede1-1702-403a-bba3-b5cd3b35a1bf

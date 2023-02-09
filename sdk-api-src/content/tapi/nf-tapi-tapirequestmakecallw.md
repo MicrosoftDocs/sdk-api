@@ -2,7 +2,7 @@
 UID: NF:tapi.tapiRequestMakeCallW
 title: tapiRequestMakeCallW function (tapi.h)
 description: The tapiRequestMakeCallW (Unicode) function (tapi.h) requests the establishment of a voice call. 
-helpviewer_keywords: ["_tapi2_tapirequestmakecall","tapi/tapiRequestMakeCall","tapi/tapiRequestMakeCallA","tapi/tapiRequestMakeCallW","tapi2.tapirequestmakecall","tapiRequestMakeCall","tapiRequestMakeCall function [TAPI 2.2]","tapiRequestMakeCallA","tapiRequestMakeCallW"]
+helpviewer_keywords: ["_tapi2_tapirequestmakecall", "tapi/tapiRequestMakeCall", "tapi/tapiRequestMakeCallW", "tapi2.tapirequestmakecall", "tapiRequestMakeCall", "tapiRequestMakeCall function [TAPI 2.2]", "tapiRequestMakeCallW"]
 old-location: tapi2\tapirequestmakecall.htm
 tech.root: tapi3
 ms.assetid: bdbc1565-6570-4fad-890c-fb3965cce452

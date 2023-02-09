@@ -2,7 +2,7 @@
 UID: NF:winbase.WritePrivateProfileSectionW
 title: WritePrivateProfileSectionW function (winbase.h)
 description: Replaces the keys and values for the specified section in an initialization file. (Unicode)
-helpviewer_keywords: ["WritePrivateProfileSection","WritePrivateProfileSection function","WritePrivateProfileSectionA","WritePrivateProfileSectionW","_win32_writeprivateprofilesection","base.writeprivateprofilesection","winbase/WritePrivateProfileSection","winbase/WritePrivateProfileSectionA","winbase/WritePrivateProfileSectionW"]
+helpviewer_keywords: ["WritePrivateProfileSection", "WritePrivateProfileSection function", "WritePrivateProfileSectionW", "_win32_writeprivateprofilesection", "base.writeprivateprofilesection", "winbase/WritePrivateProfileSection", "winbase/WritePrivateProfileSectionW"]
 old-location: base\writeprivateprofilesection.htm
 tech.root: winprog
 ms.assetid: 23f9e012-4196-437a-9e22-0524b37505b4

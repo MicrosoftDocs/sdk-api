@@ -2,7 +2,7 @@
 UID: NF:aclapi.BuildSecurityDescriptorW
 title: BuildSecurityDescriptorW function (aclapi.h)
 description: Allocates and initializes a new security descriptor. (Unicode)
-helpviewer_keywords: ["BuildSecurityDescriptor","BuildSecurityDescriptor function [Security]","BuildSecurityDescriptorA","BuildSecurityDescriptorW","_win32_buildsecuritydescriptor","aclapi/BuildSecurityDescriptor","aclapi/BuildSecurityDescriptorA","aclapi/BuildSecurityDescriptorW","security.buildsecuritydescriptor"]
+helpviewer_keywords: ["BuildSecurityDescriptor", "BuildSecurityDescriptor function [Security]", "BuildSecurityDescriptorW", "_win32_buildsecuritydescriptor", "aclapi/BuildSecurityDescriptor", "aclapi/BuildSecurityDescriptorW", "security.buildsecuritydescriptor"]
 old-location: security\buildsecuritydescriptor.htm
 tech.root: security
 ms.assetid: becc1218-5bc3-4ab2-86f8-3ebd10e16966

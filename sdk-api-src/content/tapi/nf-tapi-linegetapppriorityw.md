@@ -2,7 +2,7 @@
 UID: NF:tapi.lineGetAppPriorityW
 title: lineGetAppPriorityW function (tapi.h)
 description: The lineGetAppPriorityW (Unicode) function enables an application to determine whether or not it is in the handoff priority list for a particular media mode.
-helpviewer_keywords: ["_tapi2_linegetapppriority","lineGetAppPriority","lineGetAppPriority function [TAPI 2.2]","lineGetAppPriorityA","lineGetAppPriorityW","tapi/lineGetAppPriority","tapi/lineGetAppPriorityA","tapi/lineGetAppPriorityW","tapi2.linegetapppriority"]
+helpviewer_keywords: ["_tapi2_linegetapppriority", "lineGetAppPriority", "lineGetAppPriority function [TAPI 2.2]", "lineGetAppPriorityW", "tapi/lineGetAppPriority", "tapi/lineGetAppPriorityW", "tapi2.linegetapppriority"]
 old-location: tapi2\linegetapppriority.htm
 tech.root: tapi3
 ms.assetid: b1e402b5-a2d0-444c-83c5-12782772a4b1

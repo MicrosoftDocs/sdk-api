@@ -2,7 +2,7 @@
 UID: NF:winldap.ldap_get_values_lenW
 title: ldap_get_values_lenW function (winldap.h)
 description: The ldap_get_values_lenW (Unicode) function (winldap.h) retrieves the list of values for a given attribute. 
-helpviewer_keywords: ["_ldap_ldap_get_values_len","ldap.ldap__get__values__len","ldap.ldap_get_values_len","ldap_get_values_len","ldap_get_values_len function [LDAP]","ldap_get_values_lenA","ldap_get_values_lenW","winldap/ldap_get_values_len","winldap/ldap_get_values_lenA","winldap/ldap_get_values_lenW"]
+helpviewer_keywords: ["_ldap_ldap_get_values_len", "ldap.ldap__get__values__len", "ldap.ldap_get_values_len", "ldap_get_values_len", "ldap_get_values_len function [LDAP]", "ldap_get_values_lenW", "winldap/ldap_get_values_len", "winldap/ldap_get_values_lenW"]
 old-location: ldap\ldap_get_values_len.htm
 tech.root: ldap
 ms.assetid: e2100892-5dad-4fc7-8129-34c675bcf134

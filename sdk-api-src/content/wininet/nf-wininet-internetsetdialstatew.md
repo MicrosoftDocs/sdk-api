@@ -2,7 +2,7 @@
 UID: NF:wininet.InternetSetDialStateW
 title: InternetSetDialStateW function (wininet.h)
 description: The InternetSetDialStateW (Unicode) function (wininet.h) is not supported, is obsolete, and should not be used.
-helpviewer_keywords: ["InternetSetDialState","InternetSetDialState function [WinINet]","InternetSetDialStateA","InternetSetDialStateW","_inet_internetsetdialstate_function","wininet.internetsetdialstate","wininet/InternetSetDialState","wininet/InternetSetDialStateA","wininet/InternetSetDialStateW","winineti/InternetSetDialState","winineti/InternetSetDialStateA","winineti/InternetSetDialStateW"]
+helpviewer_keywords: ["InternetSetDialState", "InternetSetDialState function [WinINet]", "InternetSetDialStateW", "_inet_internetsetdialstate_function", "wininet.internetsetdialstate", "wininet/InternetSetDialState", "wininet/InternetSetDialStateW"]
 old-location: wininet\internetsetdialstate.htm
 tech.root: wininet
 ms.assetid: f523f1ca-3e5a-4da0-850f-8654c82ee41e

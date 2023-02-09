@@ -2,7 +2,7 @@
 UID: NF:winscard.SCardGetReaderIconW
 title: SCardGetReaderIconW function (winscard.h)
 description: Gets an icon of the smart card reader for a given reader's name. (Unicode)
-helpviewer_keywords: ["SCardGetReaderIcon","SCardGetReaderIcon function [Security]","SCardGetReaderIconA","SCardGetReaderIconW","security.scardgetreadericon","winscard/SCardGetReaderIcon"]
+helpviewer_keywords: ["SCardGetReaderIcon", "SCardGetReaderIcon function [Security]", "SCardGetReaderIconW", "security.scardgetreadericon", "winscard/SCardGetReaderIcon"]
 old-location: security\scardgetreadericon.htm
 tech.root: security
 ms.assetid: A83B5AF3-BF2C-42AE-9D34-3B651D7AF047

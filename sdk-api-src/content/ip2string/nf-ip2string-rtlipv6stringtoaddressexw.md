@@ -2,7 +2,7 @@
 UID: NF:ip2string.RtlIpv6StringToAddressExW
 title: RtlIpv6StringToAddressExW function (ip2string.h)
 description: Converts a string representation of an IPv6 address, scope ID, and port number to a binary IPv6 address, scope ID, and port. (Unicode)
-helpviewer_keywords: ["RtlIpv6StringToAddressEx","RtlIpv6StringToAddressEx function [IP Helper]","RtlIpv6StringToAddressExW","ip2string/RtlIpv6StringToAddressEx","ip2string/RtlIpv6StringToAddressExW","iphlp.rtlipv6stringtoaddressex"]
+helpviewer_keywords: ["RtlIpv6StringToAddressEx", "RtlIpv6StringToAddressEx function [IP Helper]", "RtlIpv6StringToAddressExW", "ip2string/RtlIpv6StringToAddressEx", "ip2string/RtlIpv6StringToAddressExW", "iphlp.rtlipv6stringtoaddressex"]
 old-location: iphlp\rtlipv6stringtoaddressex.htm
 tech.root: IpHlp
 ms.assetid: 3a95c405-3f2c-4bd5-805e-3e879c4c20e2

@@ -2,7 +2,7 @@
 UID: NF:wingdi.CreateFontIndirectExW
 title: CreateFontIndirectExW function (wingdi.h)
 description: The CreateFontIndirectEx function specifies a logical font that has the characteristics in the specified structure. The font can subsequently be selected as the current font for any device context. (Unicode)
-helpviewer_keywords: ["CreateFontIndirectEx","CreateFontIndirectEx function [Windows GDI]","CreateFontIndirectExA","CreateFontIndirectExW","_win32_CreateFontIndirectEx","gdi.createfontindirectex","wingdi/CreateFontIndirectEx","wingdi/CreateFontIndirectExA","wingdi/CreateFontIndirectExW"]
+helpviewer_keywords: ["CreateFontIndirectEx", "CreateFontIndirectEx function [Windows GDI]", "CreateFontIndirectExW", "_win32_CreateFontIndirectEx", "gdi.createfontindirectex", "wingdi/CreateFontIndirectEx", "wingdi/CreateFontIndirectExW"]
 old-location: gdi\createfontindirectex.htm
 tech.root: gdi
 ms.assetid: 1161b79e-f9c8-4073-97c4-1ccc1a78279b

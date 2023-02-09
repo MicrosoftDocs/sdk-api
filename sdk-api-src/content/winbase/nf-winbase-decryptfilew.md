@@ -2,7 +2,7 @@
 UID: NF:winbase.DecryptFileW
 title: DecryptFileW function (winbase.h)
 description: Decrypts an encrypted file or directory. (Unicode)
-helpviewer_keywords: ["DecryptFile","DecryptFile function [Files]","DecryptFileA","DecryptFileW","_win32_decryptfile","base.decryptfile","fs.decryptfile","winbase/DecryptFile","winbase/DecryptFileA","winbase/DecryptFileW"]
+helpviewer_keywords: ["DecryptFile", "DecryptFile function [Files]", "DecryptFileW", "_win32_decryptfile", "base.decryptfile", "fs.decryptfile", "winbase/DecryptFile", "winbase/DecryptFileW"]
 old-location: fs\decryptfile.htm
 tech.root: fs
 ms.assetid: 6b8f0ed0-8825-4c84-bf58-3a89cda882b4

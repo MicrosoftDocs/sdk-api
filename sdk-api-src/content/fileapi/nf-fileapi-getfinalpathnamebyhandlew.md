@@ -2,7 +2,7 @@
 UID: NF:fileapi.GetFinalPathNameByHandleW
 title: GetFinalPathNameByHandleW function (fileapi.h)
 description: Retrieves the final path for the specified file. (Unicode)
-helpviewer_keywords: ["FILE_NAME_NORMALIZED","FILE_NAME_OPENED","GetFinalPathNameByHandle","GetFinalPathNameByHandle function [Files]","GetFinalPathNameByHandleA","GetFinalPathNameByHandleW","VOLUME_NAME_DOS","VOLUME_NAME_GUID","VOLUME_NAME_NONE","VOLUME_NAME_NT","fileapi/GetFinalPathNameByHandle","fileapi/GetFinalPathNameByHandleA","fileapi/GetFinalPathNameByHandleW","fs.getfinalpathnamebyhandle","fs.getfinalpathnamebyhandlew","winbase/GetFinalPathNameByHandle","winbase/GetFinalPathNameByHandleA","winbase/GetFinalPathNameByHandleW"]
+helpviewer_keywords: ["FILE_NAME_NORMALIZED", "FILE_NAME_OPENED", "GetFinalPathNameByHandle", "GetFinalPathNameByHandle function [Files]", "GetFinalPathNameByHandleW", "VOLUME_NAME_DOS", "VOLUME_NAME_GUID", "VOLUME_NAME_NONE", "VOLUME_NAME_NT", "fileapi/GetFinalPathNameByHandle", "fileapi/GetFinalPathNameByHandleW", "fs.getfinalpathnamebyhandle", "fs.getfinalpathnamebyhandlew"]
 old-location: fs\getfinalpathnamebyhandle.htm
 tech.root: fs
 ms.assetid: 02783ba9-a8d7-482f-a8b1-7cac934cf476

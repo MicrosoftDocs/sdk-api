@@ -2,7 +2,7 @@
 UID: NF:winuser.SetDlgItemTextW
 title: SetDlgItemTextW function (winuser.h)
 description: Sets the title or text of a control in a dialog box. (Unicode)
-helpviewer_keywords: ["SetDlgItemText","SetDlgItemText function [Dialog Boxes]","SetDlgItemTextA","SetDlgItemTextW","_win32_SetDlgItemText","_win32_setdlgitemtext_cpp","dlgbox.setdlgitemtext","winui._win32_setdlgitemtext","winuser/SetDlgItemText","winuser/SetDlgItemTextA","winuser/SetDlgItemTextW"]
+helpviewer_keywords: ["SetDlgItemText", "SetDlgItemText function [Dialog Boxes]", "SetDlgItemTextW", "_win32_SetDlgItemText", "_win32_setdlgitemtext_cpp", "dlgbox.setdlgitemtext", "winui._win32_setdlgitemtext", "winuser/SetDlgItemText", "winuser/SetDlgItemTextW"]
 old-location: dlgbox\setdlgitemtext.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\setdlgitemtext.htm

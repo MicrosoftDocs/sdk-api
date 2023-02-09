@@ -2,7 +2,7 @@
 UID: NF:winuser.BroadcastSystemMessageW
 title: BroadcastSystemMessageW function (winuser.h)
 description: Sends a message to the specified recipients. (BroadcastSystemMessageW)
-helpviewer_keywords: ["BSF_ALLOWSFW","BSF_FLUSHDISK","BSF_FORCEIFHUNG","BSF_IGNORECURRENTTASK","BSF_NOHANG","BSF_NOTIMEOUTIFNOTHUNG","BSF_POSTMESSAGE","BSF_QUERY","BSF_SENDNOTIFYMESSAGE","BSM_ALLCOMPONENTS","BSM_ALLDESKTOPS","BSM_APPLICATIONS","BroadcastSystemMessage","BroadcastSystemMessage function [Windows and Messages]","BroadcastSystemMessageW","_win32_BroadcastSystemMessage","_win32_broadcastsystemmessage_cpp","winmsg.broadcastsystemmessage","winui._win32_broadcastsystemmessage","winuser/BroadcastSystemMessage","winuser/BroadcastSystemMessageW"]
+helpviewer_keywords: ["BSF_ALLOWSFW", "BSF_FLUSHDISK", "BSF_FORCEIFHUNG", "BSF_IGNORECURRENTTASK", "BSF_NOHANG", "BSF_NOTIMEOUTIFNOTHUNG", "BSF_POSTMESSAGE", "BSF_QUERY", "BSF_SENDNOTIFYMESSAGE", "BSM_ALLCOMPONENTS", "BSM_ALLDESKTOPS", "BSM_APPLICATIONS", "BroadcastSystemMessage", "BroadcastSystemMessage function [Windows and Messages]", "BroadcastSystemMessageW", "_win32_BroadcastSystemMessage", "_win32_broadcastsystemmessage_cpp", "winmsg.broadcastsystemmessage", "winui._win32_broadcastsystemmessage", "winuser/BroadcastSystemMessage", "winuser/BroadcastSystemMessageW"]
 old-location: winmsg\broadcastsystemmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\broadcastsystemmessage.htm
