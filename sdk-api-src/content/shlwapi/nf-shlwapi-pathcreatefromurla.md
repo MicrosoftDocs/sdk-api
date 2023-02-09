@@ -2,7 +2,7 @@
 UID: NF:shlwapi.PathCreateFromUrlA
 title: PathCreateFromUrlA function (shlwapi.h)
 description: Converts a file URL to a Microsoft MS-DOS path. (ANSI)
-helpviewer_keywords: ["PathCreateFromUrl","PathCreateFromUrl function [Windows Shell]","PathCreateFromUrlA","PathCreateFromUrlW","_win32_PathCreateFromUrl","shell.PathCreateFromUrl","shlwapi/PathCreateFromUrl","shlwapi/PathCreateFromUrlA","shlwapi/PathCreateFromUrlW"]
+helpviewer_keywords: ["PathCreateFromUrlA", "shlwapi/PathCreateFromUrlA"]
 old-location: shell\PathCreateFromUrl.htm
 tech.root: shell
 ms.assetid: f4136c80-a309-4551-be73-f2f24ecd4675

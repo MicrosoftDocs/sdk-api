@@ -2,7 +2,7 @@
 UID: NF:msiquery.MsiDatabaseOpenViewA
 title: MsiDatabaseOpenViewA function (msiquery.h)
 description: The MsiDatabaseOpenView function prepares a database query and creates a view object. This function returns a handle that should be closed using MsiCloseHandle. (ANSI)
-helpviewer_keywords: ["MsiDatabaseOpenView","MsiDatabaseOpenView function","MsiDatabaseOpenViewA","MsiDatabaseOpenViewW","_msi_msidatabaseopenview","msiquery/MsiDatabaseOpenView","msiquery/MsiDatabaseOpenViewA","msiquery/MsiDatabaseOpenViewW","setup.msidatabaseopenview"]
+helpviewer_keywords: ["MsiDatabaseOpenViewA", "msiquery/MsiDatabaseOpenViewA"]
 old-location: setup\msidatabaseopenview.htm
 tech.root: setup
 ms.assetid: 1ef23f9a-7d79-4d07-9349-8e9c132f1b94

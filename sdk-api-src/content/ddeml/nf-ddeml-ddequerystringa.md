@@ -2,7 +2,7 @@
 UID: NF:ddeml.DdeQueryStringA
 title: DdeQueryStringA function (ddeml.h)
 description: Copies text associated with a string handle into a buffer. (ANSI)
-helpviewer_keywords: ["DdeQueryString","DdeQueryString function [Data Exchange]","DdeQueryStringA","DdeQueryStringW","_win32_DdeQueryString","_win32_ddequerystring_cpp","dataxchg.ddequerystring","ddeml/DdeQueryString","ddeml/DdeQueryStringA","ddeml/DdeQueryStringW","winui._win32_ddequerystring"]
+helpviewer_keywords: ["DdeQueryStringA", "ddeml/DdeQueryStringA"]
 old-location: dataxchg\ddequerystring.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddequerystring.htm

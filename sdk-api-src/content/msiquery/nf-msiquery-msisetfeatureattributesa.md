@@ -2,7 +2,7 @@
 UID: NF:msiquery.MsiSetFeatureAttributesA
 title: MsiSetFeatureAttributesA function (msiquery.h)
 description: The MsiSetFeatureAttributes function can modify the default attributes of a feature at runtime. Note that the default attributes of features are authored in the Attributes column of the Feature table. (ANSI)
-helpviewer_keywords: ["INSTALLFEATUREATTRIBUTE_DISALLOWADVERTISE","INSTALLFEATUREATTRIBUTE_FAVORADVERTISE","INSTALLFEATUREATTRIBUTE_FAVORLOCAL","INSTALLFEATUREATTRIBUTE_FAVORSOURCE","INSTALLFEATUREATTRIBUTE_FOLLOWPARENT","INSTALLFEATUREATTRIBUTE_NOUNSUPPORTEDADVERTISE","MsiSetFeatureAttributes","MsiSetFeatureAttributes function","MsiSetFeatureAttributesA","MsiSetFeatureAttributesW","_msi_msisetfeatureattributes","msiquery/MsiSetFeatureAttributes","msiquery/MsiSetFeatureAttributesA","msiquery/MsiSetFeatureAttributesW","setup.msisetfeatureattributes"]
+helpviewer_keywords: ["INSTALLFEATUREATTRIBUTE_DISALLOWADVERTISE", "INSTALLFEATUREATTRIBUTE_FAVORADVERTISE", "INSTALLFEATUREATTRIBUTE_FAVORLOCAL", "INSTALLFEATUREATTRIBUTE_FAVORSOURCE", "INSTALLFEATUREATTRIBUTE_FOLLOWPARENT", "INSTALLFEATUREATTRIBUTE_NOUNSUPPORTEDADVERTISE", "MsiSetFeatureAttributesA", "msiquery/MsiSetFeatureAttributesA"]
 old-location: setup\msisetfeatureattributes.htm
 tech.root: setup
 ms.assetid: d8dcd6db-9792-4b34-9c78-7d11ec2d4d0f

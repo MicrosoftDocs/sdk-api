@@ -2,7 +2,7 @@
 UID: NF:winbase.lstrcmpiA
 title: lstrcmpiA function (winbase.h)
 description: Compares two character strings. The comparison is not case-sensitive. (ANSI)
-helpviewer_keywords: ["_win32_lstrcmpi","_win32_lstrcmpi_cpp","lstrcmpi","lstrcmpi function [Menus and Other Resources]","lstrcmpiA","lstrcmpiW","menurc.lstrcmpi","winbase/lstrcmpi","winbase/lstrcmpiA","winbase/lstrcmpiW","winui._win32_lstrcmpi"]
+helpviewer_keywords: ["lstrcmpiA", "winbase/lstrcmpiA"]
 old-location: menurc\lstrcmpi.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcmpi.htm

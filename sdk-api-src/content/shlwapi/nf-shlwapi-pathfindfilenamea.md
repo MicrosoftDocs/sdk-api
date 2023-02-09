@@ -2,7 +2,7 @@
 UID: NF:shlwapi.PathFindFileNameA
 title: PathFindFileNameA function (shlwapi.h)
 description: Searches a path for a file name. (ANSI)
-helpviewer_keywords: ["PathFindFileName","PathFindFileName function [Windows Shell]","PathFindFileNameA","PathFindFileNameW","_win32_PathFindFileName","shell.PathFindFileName","shlwapi/PathFindFileName","shlwapi/PathFindFileNameA","shlwapi/PathFindFileNameW"]
+helpviewer_keywords: ["PathFindFileNameA", "shlwapi/PathFindFileNameA"]
 old-location: shell\PathFindFileName.htm
 tech.root: shell
 ms.assetid: f3824dee-1169-4f89-9844-35aa8a1830c4

@@ -2,7 +2,7 @@
 UID: NF:rpcnsi.RpcNsBindingExportPnPA
 title: RpcNsBindingExportPnPA function (rpcnsi.h)
 description: The RpcNsBindingExportPnP function establishes a name-service database entry with multiple binding handles and multiple objects for a server that supports Plug and Play. (ANSI)
-helpviewer_keywords: ["RpcNsBindingExportPnP","RpcNsBindingExportPnP function [RPC]","RpcNsBindingExportPnPA","RpcNsBindingExportPnPW","_rpc_rpcnsbindingexportpnp","rpc.rpcnsbindingexportpnp","rpcnsi/RpcNsBindingExportPnP","rpcnsi/RpcNsBindingExportPnPA","rpcnsi/RpcNsBindingExportPnPW"]
+helpviewer_keywords: ["RpcNsBindingExportPnPA", "rpcnsi/RpcNsBindingExportPnPA"]
 old-location: rpc\rpcnsbindingexportpnp.htm
 tech.root: Rpc
 ms.assetid: 01440165-ab04-447a-9a39-9e91743aba65

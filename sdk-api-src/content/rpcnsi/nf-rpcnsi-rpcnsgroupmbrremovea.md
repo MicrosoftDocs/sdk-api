@@ -2,7 +2,7 @@
 UID: NF:rpcnsi.RpcNsGroupMbrRemoveA
 title: RpcNsGroupMbrRemoveA function (rpcnsi.h)
 description: The RpcNsGroupMbrRemove function removes an entry name from a group. (ANSI)
-helpviewer_keywords: ["RpcNsGroupMbrRemove","RpcNsGroupMbrRemove function [RPC]","RpcNsGroupMbrRemoveA","RpcNsGroupMbrRemoveW","_rpc_rpcnsgroupmbrremove","rpc.rpcnsgroupmbrremove","rpcnsi/RpcNsGroupMbrRemove","rpcnsi/RpcNsGroupMbrRemoveA","rpcnsi/RpcNsGroupMbrRemoveW"]
+helpviewer_keywords: ["RpcNsGroupMbrRemoveA", "rpcnsi/RpcNsGroupMbrRemoveA"]
 old-location: rpc\rpcnsgroupmbrremove.htm
 tech.root: Rpc
 ms.assetid: 0301b570-9a03-4f50-89df-3c15d8de246f

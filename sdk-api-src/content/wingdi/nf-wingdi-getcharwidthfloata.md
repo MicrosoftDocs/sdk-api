@@ -2,7 +2,7 @@
 UID: NF:wingdi.GetCharWidthFloatA
 title: GetCharWidthFloatA function (wingdi.h)
 description: The GetCharWidthFloat function retrieves the fractional widths of consecutive characters in a specified range from the current font. (ANSI)
-helpviewer_keywords: ["GetCharWidthFloat","GetCharWidthFloat function [Windows GDI]","GetCharWidthFloatA","GetCharWidthFloatW","_win32_GetCharWidthFloat","gdi.getcharwidthfloat","wingdi/GetCharWidthFloat","wingdi/GetCharWidthFloatA","wingdi/GetCharWidthFloatW"]
+helpviewer_keywords: ["GetCharWidthFloatA", "wingdi/GetCharWidthFloatA"]
 old-location: gdi\getcharwidthfloat.htm
 tech.root: gdi
 ms.assetid: 7a90b701-63f9-41e5-9069-10d344edfe02

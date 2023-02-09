@@ -2,7 +2,7 @@
 UID: NF:winuser.GetKeyNameTextA
 title: GetKeyNameTextA function (winuser.h)
 description: Retrieves a string that represents the name of a key. (ANSI)
-helpviewer_keywords: ["GetKeyNameText","GetKeyNameText function [Keyboard and Mouse Input]","GetKeyNameTextA","GetKeyNameTextW","_win32_GetKeyNameText","_win32_getkeynametext_cpp","inputdev.getkeynametext","winui._win32_getkeynametext","winuser/GetKeyNameText","winuser/GetKeyNameTextA","winuser/GetKeyNameTextW"]
+helpviewer_keywords: ["GetKeyNameTextA", "winuser/GetKeyNameTextA"]
 old-location: inputdev\getkeynametext.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getkeynametext.htm

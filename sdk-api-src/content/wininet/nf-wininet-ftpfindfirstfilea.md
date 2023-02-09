@@ -2,7 +2,7 @@
 UID: NF:wininet.FtpFindFirstFileA
 title: FtpFindFirstFileA function (wininet.h)
 description: Searches the specified directory of the given FTP session. File and directory entries are returned to the application in the WIN32_FIND_DATA structure. (ANSI)
-helpviewer_keywords: ["FtpFindFirstFile","FtpFindFirstFile function [WinINet]","FtpFindFirstFileA","FtpFindFirstFileW","_inet_ftpfindfirstfile_function","wininet.ftpfindfirstfile","wininet/FtpFindFirstFile","wininet/FtpFindFirstFileA","wininet/FtpFindFirstFileW"]
+helpviewer_keywords: ["FtpFindFirstFileA", "wininet/FtpFindFirstFileA"]
 old-location: wininet\ftpfindfirstfile.htm
 tech.root: wininet
 ms.assetid: 4f331f99-c52c-4744-a9a7-eeb09803862d

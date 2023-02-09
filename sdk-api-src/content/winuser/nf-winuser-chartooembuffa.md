@@ -2,7 +2,7 @@
 UID: NF:winuser.CharToOemBuffA
 title: CharToOemBuffA function (winuser.h)
 description: Translates a specified number of characters in a string into the OEM-defined character set. (ANSI)
-helpviewer_keywords: ["CharToOemBuff","CharToOemBuff function [Menus and Other Resources]","CharToOemBuffA","CharToOemBuffW","_win32_CharToOemBuff","_win32_chartooembuff_cpp","menurc.chartooembuff","winui._win32_chartooembuff","winuser/CharToOemBuff","winuser/CharToOemBuffA","winuser/CharToOemBuffW"]
+helpviewer_keywords: ["CharToOemBuffA", "winuser/CharToOemBuffA"]
 old-location: menurc\chartooembuff.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\chartooembuff.htm

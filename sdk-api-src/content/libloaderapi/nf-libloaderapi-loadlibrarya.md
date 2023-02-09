@@ -2,7 +2,7 @@
 UID: NF:libloaderapi.LoadLibraryA
 title: LoadLibraryA function (libloaderapi.h)
 description: Loads the specified module into the address space of the calling process. (LoadLibraryA)
-helpviewer_keywords: ["LoadLibrary","LoadLibrary function","LoadLibraryA","LoadLibraryW","_win32_loadlibrary","base.loadlibrary","libloaderapi/LoadLibrary","libloaderapi/LoadLibraryA","libloaderapi/LoadLibraryW","winbase/LoadLibrary","winbase/LoadLibraryA","winbase/LoadLibraryW"]
+helpviewer_keywords: ["LoadLibraryA", "libloaderapi/LoadLibraryA"]
 old-location: base\loadlibrary.htm
 tech.root: base
 ms.assetid: d936b4dd-058c-48e1-834b-b47ef6d8ef65

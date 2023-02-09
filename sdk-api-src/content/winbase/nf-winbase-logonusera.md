@@ -2,7 +2,7 @@
 UID: NF:winbase.LogonUserA
 title: LogonUserA function (winbase.h)
 description: The Win32 LogonUser function attempts to log a user on to the local computer. LogonUser returns a handle to a user token that you can use to impersonate user. (ANSI)
-helpviewer_keywords: ["LOGON32_LOGON_BATCH","LOGON32_LOGON_INTERACTIVE","LOGON32_LOGON_NETWORK","LOGON32_LOGON_NETWORK_CLEARTEXT","LOGON32_LOGON_NEW_CREDENTIALS","LOGON32_LOGON_SERVICE","LOGON32_LOGON_UNLOCK","LOGON32_PROVIDER_DEFAULT","LOGON32_PROVIDER_WINNT40","LOGON32_PROVIDER_WINNT50","LogonUser","LogonUser function [Security]","LogonUserA","LogonUserW","_win32_logonuser","security.logonuser","winbase/LogonUser","winbase/LogonUserA","winbase/LogonUserW"]
+helpviewer_keywords: ["LOGON32_LOGON_BATCH", "LOGON32_LOGON_INTERACTIVE", "LOGON32_LOGON_NETWORK", "LOGON32_LOGON_NETWORK_CLEARTEXT", "LOGON32_LOGON_NEW_CREDENTIALS", "LOGON32_LOGON_SERVICE", "LOGON32_LOGON_UNLOCK", "LOGON32_PROVIDER_DEFAULT", "LOGON32_PROVIDER_WINNT40", "LOGON32_PROVIDER_WINNT50", "LogonUserA", "winbase/LogonUserA"]
 old-location: security\logonuser.htm
 tech.root: security
 ms.assetid: a6d880a0-0aed-4bdb-89c9-4f667ecb510e

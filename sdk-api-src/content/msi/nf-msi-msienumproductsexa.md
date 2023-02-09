@@ -2,7 +2,7 @@
 UID: NF:msi.MsiEnumProductsExA
 title: MsiEnumProductsExA function (msi.h)
 description: Enumerates through one or all the instances of products that are currently advertised or installed in the specified contexts. (ANSI)
-helpviewer_keywords: ["MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiEnumProductsEx","MsiEnumProductsEx function","MsiEnumProductsExA","MsiEnumProductsExW","NULL","User SID","msi/MsiEnumProductsEx","msi/MsiEnumProductsExA","msi/MsiEnumProductsExW","s-1-1-0","setup.msienumproductsex"]
+helpviewer_keywords: ["MSIINSTALLCONTEXT_MACHINE", "MSIINSTALLCONTEXT_USERMANAGED", "MSIINSTALLCONTEXT_USERUNMANAGED", "MsiEnumProductsExA", "NULL", "User SID", "msi/MsiEnumProductsExA", "s-1-1-0"]
 old-location: setup\msienumproductsex.htm
 tech.root: setup
 ms.assetid: 33daeadc-021f-403e-808b-81a9915ae854

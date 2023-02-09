@@ -2,7 +2,7 @@
 UID: NF:winnls.LCMapStringA
 title: LCMapStringA function (winnls.h)
 description: For a locale specified by identifier, maps one input character string to another using a specified transformation, or generates a sort key for the input string. (ANSI)
-helpviewer_keywords: ["LCMapString","LCMapString function [Internationalization for Windows Applications]","LCMapStringA","LCMapStringW","_win32_LCMapString","intl.lcmapstring","winnls/LCMapString","winnls/LCMapStringA","winnls/LCMapStringW"]
+helpviewer_keywords: ["LCMapStringA", "winnls/LCMapStringA"]
 old-location: intl\lcmapstring.htm
 tech.root: Intl
 ms.assetid: 84dda2cd-cbf9-45e9-b18c-7dea0b5bc991

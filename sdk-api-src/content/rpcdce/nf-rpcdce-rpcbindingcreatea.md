@@ -2,7 +2,7 @@
 UID: NF:rpcdce.RpcBindingCreateA
 title: RpcBindingCreateA function (rpcdce.h)
 description: The RpcBindingCreate function creates a new fast RPC binding handle based on a supplied template. (ANSI)
-helpviewer_keywords: ["RpcBindingCreate","RpcBindingCreate function [RPC]","RpcBindingCreateA","RpcBindingCreateW","rpc.rpcbindingcreate","rpcdce/RpcBindingCreate","rpcdce/RpcBindingCreateA","rpcdce/RpcBindingCreateW"]
+helpviewer_keywords: ["RpcBindingCreateA", "rpcdce/RpcBindingCreateA"]
 old-location: rpc\rpcbindingcreate.htm
 tech.root: Rpc
 ms.assetid: 0188512e-bff6-414b-a6eb-19bfe8e0b3a9

@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupDiEnumDriverInfoA
 title: SetupDiEnumDriverInfoA function (setupapi.h)
 description: The SetupDiEnumDriverInfo function enumerates the members of a driver list. (ANSI)
-helpviewer_keywords: ["SetupDiEnumDriverInfo","SetupDiEnumDriverInfo function [Device and Driver Installation]","SetupDiEnumDriverInfoA","SetupDiEnumDriverInfoW","devinst.setupdienumdriverinfo","di-rtns_8d84a225-9dac-4ab3-8c9a-5048284d82be.xml","setupapi/SetupDiEnumDriverInfo"]
+helpviewer_keywords: ["SetupDiEnumDriverInfoA", "di-rtns_8d84a225-9dac-4ab3-8c9a-5048284d82be.xml"]
 old-location: devinst\setupdienumdriverinfo.htm
 tech.root: devinst
 ms.assetid: c4a66d0c-e9a9-41f8-87df-576795667b5c

@@ -2,7 +2,7 @@
 UID: NF:rasdlg.RasEntryDlgA
 title: RasEntryDlgA function (rasdlg.h)
 description: The RasEntryDlg function displays modal property sheets that allow a user to manipulate phone-book entries. (ANSI)
-helpviewer_keywords: ["RasEntryDlg","RasEntryDlg function [RAS]","RasEntryDlgA","RasEntryDlgW","_ras_rasentrydlg","rasdlg/RasEntryDlg","rasdlg/RasEntryDlgA","rasdlg/RasEntryDlgW","rras.rasentrydlg"]
+helpviewer_keywords: ["RasEntryDlgA", "rasdlg/RasEntryDlgA"]
 old-location: rras\rasentrydlg.htm
 tech.root: RRAS
 ms.assetid: 9259502d-c31b-4ebd-ace7-70f02bbb7873

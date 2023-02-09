@@ -2,7 +2,7 @@
 UID: NF:rpcdce.UuidFromStringA
 title: UuidFromStringA function (rpcdce.h)
 description: The UuidFromString function converts a string to a UUID. (UuidFromStringA)
-helpviewer_keywords: ["UuidFromString","UuidFromString function [RPC]","UuidFromStringA","UuidFromStringW","_rpc_uuidfromstring","rpc.uuidfromstring","rpcdce/UuidFromString","rpcdce/UuidFromStringA","rpcdce/UuidFromStringW"]
+helpviewer_keywords: ["UuidFromStringA", "rpcdce/UuidFromStringA"]
 old-location: rpc\uuidfromstring.htm
 tech.root: Rpc
 ms.assetid: 90b3cf6b-a15b-4f91-9ba2-0e43fe3374df

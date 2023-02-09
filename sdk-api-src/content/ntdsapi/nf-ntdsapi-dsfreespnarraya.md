@@ -2,7 +2,7 @@
 UID: NF:ntdsapi.DsFreeSpnArrayA
 title: DsFreeSpnArrayA function (ntdsapi.h)
 description: Frees an array returned from the DsGetSpn function. (ANSI)
-helpviewer_keywords: ["DsFreeSpnArray","DsFreeSpnArray function [Active Directory]","DsFreeSpnArrayA","DsFreeSpnArrayW","_glines_dsfreespnarray","ad.dsfreespnarray","ntdsapi/DsFreeSpnArray","ntdsapi/DsFreeSpnArrayA","ntdsapi/DsFreeSpnArrayW"]
+helpviewer_keywords: ["DsFreeSpnArrayA", "ntdsapi/DsFreeSpnArrayA"]
 old-location: ad\dsfreespnarray.htm
 tech.root: ad
 ms.assetid: 1c229933-432d-4ded-be3b-3bd339a0abe4

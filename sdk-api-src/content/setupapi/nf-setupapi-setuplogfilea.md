@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupLogFileA
 title: SetupLogFileA function (setupapi.h)
 description: The SetupLogFile function adds an entry to the log file. (ANSI)
-helpviewer_keywords: ["SetupLogFile","SetupLogFile function [Setup API]","SetupLogFileA","SetupLogFileW","_setupapi_setuplogfile","setup.setuplogfile","setupapi/SetupLogFile","setupapi/SetupLogFileA","setupapi/SetupLogFileW"]
+helpviewer_keywords: ["SetupLogFileA", "setupapi/SetupLogFileA"]
 old-location: setup\setuplogfile.htm
 tech.root: setup
 ms.assetid: bc738212-ff81-4b52-b2ef-50aabf6658ab

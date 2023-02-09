@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupUninstallOEMInfA
 title: SetupUninstallOEMInfA function (setupapi.h)
 description: The SetupUninstallOEMInf function uninstalls a specified .inf file and any associated .pnf file. (ANSI)
-helpviewer_keywords: ["SUOI_FORCEDELETE","SetupUninstallOEMInf","SetupUninstallOEMInf function [Setup API]","SetupUninstallOEMInfA","SetupUninstallOEMInfW","_setupapi_setupuninstalloeminf","setup.setupuninstalloeminf","setupapi/SetupUninstallOEMInf","setupapi/SetupUninstallOEMInfA","setupapi/SetupUninstallOEMInfW"]
+helpviewer_keywords: ["SUOI_FORCEDELETE", "SetupUninstallOEMInfA", "setupapi/SetupUninstallOEMInfA"]
 old-location: setup\setupuninstalloeminf.htm
 tech.root: setup
 ms.assetid: 70cec8c7-7954-44d7-93f5-711368f72bf7

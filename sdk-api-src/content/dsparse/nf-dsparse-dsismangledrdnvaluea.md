@@ -2,7 +2,7 @@
 UID: NF:dsparse.DsIsMangledRdnValueA
 title: DsIsMangledRdnValueA function (dsparse.h)
 description: Determines if a given relative distinguished name value is a mangled name of the given type. (ANSI)
-helpviewer_keywords: ["DsIsMangledRdnValue","DsIsMangledRdnValue function [Active Directory]","DsIsMangledRdnValueA","DsIsMangledRdnValueW","_glines_dsismangledrdnvalue","ad.dsismangledrdnvalue","dsparse/DsIsMangledRdnValue","dsparse/DsIsMangledRdnValueA","dsparse/DsIsMangledRdnValueW"]
+helpviewer_keywords: ["DsIsMangledRdnValueA", "dsparse/DsIsMangledRdnValueA"]
 old-location: ad\dsismangledrdnvalue.htm
 tech.root: ad
 ms.assetid: adf5e133-9e48-4e97-af0c-4f8ea9b8bf8f

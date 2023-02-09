@@ -2,7 +2,7 @@
 UID: NF:shlwapi.UrlIsNoHistoryA
 title: UrlIsNoHistoryA function (shlwapi.h)
 description: Returns whether a URL is a URL that browsers typically do not include in navigation history. (ANSI)
-helpviewer_keywords: ["UrlIsNoHistory","UrlIsNoHistory function [Windows Shell]","UrlIsNoHistoryA","UrlIsNoHistoryW","_win32_UrlIsNoHistory","shell.UrlIsNoHistory","shlwapi/UrlIsNoHistory","shlwapi/UrlIsNoHistoryA","shlwapi/UrlIsNoHistoryW"]
+helpviewer_keywords: ["UrlIsNoHistoryA", "shlwapi/UrlIsNoHistoryA"]
 old-location: shell\UrlIsNoHistory.htm
 tech.root: shell
 ms.assetid: 7602d2ef-1f21-4b2f-8ac9-195bb21d6ae7

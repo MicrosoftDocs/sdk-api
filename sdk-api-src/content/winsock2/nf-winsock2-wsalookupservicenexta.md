@@ -2,7 +2,7 @@
 UID: NF:winsock2.WSALookupServiceNextA
 title: WSALookupServiceNextA function (winsock2.h)
 description: The WSALookupServiceNext function is called after obtaining a handle from a previous call to WSALookupServiceBegin in order to retrieve the requested service information. (ANSI)
-helpviewer_keywords: ["LUP_CONTAINERS","LUP_DEEP","LUP_FLUSHCACHE","LUP_FLUSHPREVIOUS","LUP_NEAREST","LUP_NOCONTAINERS","LUP_RES_SERVICE","LUP_RETURN_ADDR","LUP_RETURN_ALIASES","LUP_RETURN_ALL","LUP_RETURN_BLOB","LUP_RETURN_COMMENT","LUP_RETURN_NAME","LUP_RETURN_QUERY_STRING","LUP_RETURN_TYPE","LUP_RETURN_VERSION","WSALookupServiceNext","WSALookupServiceNext function [Winsock]","WSALookupServiceNextA","WSALookupServiceNextW","_win32_wsalookupservicenext_2","winsock.wsalookupservicenext_2","winsock2/WSALookupServiceNext","winsock2/WSALookupServiceNextA","winsock2/WSALookupServiceNextW"]
+helpviewer_keywords: ["LUP_CONTAINERS", "LUP_DEEP", "LUP_FLUSHCACHE", "LUP_FLUSHPREVIOUS", "LUP_NEAREST", "LUP_NOCONTAINERS", "LUP_RES_SERVICE", "LUP_RETURN_ADDR", "LUP_RETURN_ALIASES", "LUP_RETURN_ALL", "LUP_RETURN_BLOB", "LUP_RETURN_COMMENT", "LUP_RETURN_NAME", "LUP_RETURN_QUERY_STRING", "LUP_RETURN_TYPE", "LUP_RETURN_VERSION", "WSALookupServiceNextA", "winsock2/WSALookupServiceNextA"]
 old-location: winsock\wsalookupservicenext_2.htm
 tech.root: WinSock
 ms.assetid: ab4f1830-b38d-4224-a6a9-6d4512245ad6

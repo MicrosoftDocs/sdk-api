@@ -2,7 +2,7 @@
 UID: NF:shlwapi.StrToIntA
 title: StrToIntA function (shlwapi.h)
 description: Converts a string that represents a decimal value to an integer. The StrToLong macro is identical to this function. (ANSI)
-helpviewer_keywords: ["StrToInt","StrToInt function [Windows Shell]","StrToIntA","StrToIntW","_win32_StrToInt","shell.StrToInt","shlwapi/StrToInt","shlwapi/StrToIntA","shlwapi/StrToIntW"]
+helpviewer_keywords: ["StrToIntA", "shlwapi/StrToIntA"]
 old-location: shell\StrToInt.htm
 tech.root: shell
 ms.assetid: 74313e56-a820-4d02-91f4-f629d2fc72d4

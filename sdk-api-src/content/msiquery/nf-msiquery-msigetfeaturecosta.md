@@ -2,7 +2,7 @@
 UID: NF:msiquery.MsiGetFeatureCostA
 title: MsiGetFeatureCostA function (msiquery.h)
 description: The MsiGetFeatureCost function returns the disk space required by a feature and its selected children and parent features. (ANSI)
-helpviewer_keywords: ["INSTALLSTATE_ABSENT","INSTALLSTATE_DEFAULT","INSTALLSTATE_LOCAL","INSTALLSTATE_SOURCE","INSTALLSTATE_UNKNOWN","MSICOSTTREE_CHILDREN","MSICOSTTREE_PARENTS","MSICOSTTREE_SELFONLY","MsiGetFeatureCost","MsiGetFeatureCost function","MsiGetFeatureCostA","MsiGetFeatureCostW","_msi_msigetfeaturecost","msiquery/MsiGetFeatureCost","msiquery/MsiGetFeatureCostA","msiquery/MsiGetFeatureCostW","setup.msigetfeaturecost"]
+helpviewer_keywords: ["INSTALLSTATE_ABSENT", "INSTALLSTATE_DEFAULT", "INSTALLSTATE_LOCAL", "INSTALLSTATE_SOURCE", "INSTALLSTATE_UNKNOWN", "MSICOSTTREE_CHILDREN", "MSICOSTTREE_PARENTS", "MSICOSTTREE_SELFONLY", "MsiGetFeatureCostA", "msiquery/MsiGetFeatureCostA"]
 old-location: setup\msigetfeaturecost.htm
 tech.root: setup
 ms.assetid: 492968a5-d781-45de-a4b2-eb1be3f3f148

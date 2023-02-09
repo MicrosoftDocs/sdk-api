@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupDiCreateDeviceInterfaceA
 title: SetupDiCreateDeviceInterfaceA function (setupapi.h)
 description: The SetupDiCreateDeviceInterface function registers a device interface on a local system or a remote system. (ANSI)
-helpviewer_keywords: ["SetupDiCreateDeviceInterface","SetupDiCreateDeviceInterface function [Device and Driver Installation]","SetupDiCreateDeviceInterfaceA","SetupDiCreateDeviceInterfaceW","devinst.setupdicreatedeviceinterface","di-rtns_252e73f4-f140-44bf-bd81-abb08a036df7.xml","setupapi/SetupDiCreateDeviceInterface"]
+helpviewer_keywords: ["SetupDiCreateDeviceInterfaceA", "di-rtns_252e73f4-f140-44bf-bd81-abb08a036df7.xml"]
 old-location: devinst\setupdicreatedeviceinterface.htm
 tech.root: devinst
 ms.assetid: e5f78c34-b61c-4fcb-b021-fb8d07c2d841

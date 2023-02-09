@@ -2,7 +2,7 @@
 UID: NF:winscard.SCardGetReaderDeviceInstanceIdA
 title: SCardGetReaderDeviceInstanceIdA function (winscard.h)
 description: Gets the device instance identifier of the card reader for the given reader name. This function does not affect the state of the reader. (ANSI)
-helpviewer_keywords: ["SCardGetReaderDeviceInstanceId","SCardGetReaderDeviceInstanceId function [Security]","SCardGetReaderDeviceInstanceIdA","SCardGetReaderDeviceInstanceIdW","security.scardgetreaderdeviceinstanceid","winscard/SCardGetReaderDeviceInstanceId"]
+helpviewer_keywords: ["SCardGetReaderDeviceInstanceIdA"]
 old-location: security\scardgetreaderdeviceinstanceid.htm
 tech.root: security
 ms.assetid: 306F1EAF-35A7-4449-802F-709667764737

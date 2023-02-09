@@ -2,7 +2,7 @@
 UID: NF:cfgmgr32.CM_Get_Device_ID_List_SizeA
 title: CM_Get_Device_ID_List_SizeA function (cfgmgr32.h)
 description: The CM_Get_Device_ID_List_Size function retrieves the buffer size required to hold a list of device instance IDs for the local machine's device instances. (ANSI)
-helpviewer_keywords: ["CM_Get_Device_ID_List_Size","CM_Get_Device_ID_List_Size function [Device and Driver Installation]","CM_Get_Device_ID_List_SizeA","CM_Get_Device_ID_List_SizeW","cfgmgr32/CM_Get_Device_ID_List_Size","cfgmgr32/CM_Get_Device_ID_List_SizeA","cfgmgr32/CM_Get_Device_ID_List_SizeW","cfgmgrfn_b3d09a40-04c8-4b59-9e33-cd8b7a41972d.xml","devinst.cm_get_device_id_list_size"]
+helpviewer_keywords: ["CM_Get_Device_ID_List_SizeA", "cfgmgr32/CM_Get_Device_ID_List_SizeA", "cfgmgrfn_b3d09a40-04c8-4b59-9e33-cd8b7a41972d.xml"]
 old-location: devinst\cm_get_device_id_list_size.htm
 tech.root: devinst
 ms.assetid: 3c650b21-56dc-4ef5-b986-417a247b3eb0

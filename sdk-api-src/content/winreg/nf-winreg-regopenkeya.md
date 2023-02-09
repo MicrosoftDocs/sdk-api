@@ -2,7 +2,7 @@
 UID: NF:winreg.RegOpenKeyA
 title: RegOpenKeyA function (winreg.h)
 description: Opens the specified registry key. (ANSI)
-helpviewer_keywords: ["RegOpenKey","RegOpenKey function","RegOpenKeyA","RegOpenKeyW","_win32_regopenkey","base.regopenkey","winreg/RegOpenKey","winreg/RegOpenKeyA","winreg/RegOpenKeyW"]
+helpviewer_keywords: ["RegOpenKeyA", "winreg/RegOpenKeyA"]
 old-location: base\regopenkey.htm
 tech.root: winprog
 ms.assetid: bad0a0f8-1889-4eff-98be-084c95d69f3b

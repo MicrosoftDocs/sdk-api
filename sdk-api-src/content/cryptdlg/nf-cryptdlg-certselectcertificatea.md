@@ -2,7 +2,7 @@
 UID: NF:cryptdlg.CertSelectCertificateA
 title: CertSelectCertificateA function (cryptdlg.h)
 description: Presents a dialog box that allows the user to select certificates from a set of certificates that match the given criteria. (ANSI)
-helpviewer_keywords: ["CertSelectCertificate","CertSelectCertificate function [Security]","CertSelectCertificateA","CertSelectCertificateW","cryptdlg/CertSelectCertificate","cryptdlg/CertSelectCertificateA","cryptdlg/CertSelectCertificateW","security.certselectcertificate"]
+helpviewer_keywords: ["CertSelectCertificateA", "cryptdlg/CertSelectCertificateA"]
 old-location: security\certselectcertificate.htm
 tech.root: security
 ms.assetid: 8160ea08-c7c0-40f5-8771-6603f768744b

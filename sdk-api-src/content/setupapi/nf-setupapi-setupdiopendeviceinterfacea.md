@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupDiOpenDeviceInterfaceA
 title: SetupDiOpenDeviceInterfaceA function (setupapi.h)
 description: The SetupDiOpenDeviceInterface function retrieves information about a device interface and adds the interface to the specified device information set for a local system or a remote system. (ANSI)
-helpviewer_keywords: ["SetupDiOpenDeviceInterface","SetupDiOpenDeviceInterface function [Device and Driver Installation]","SetupDiOpenDeviceInterfaceA","SetupDiOpenDeviceInterfaceW","devinst.setupdiopendeviceinterface","di-rtns_4505f6a3-e634-4070-a9b3-1487c2808838.xml","setupapi/SetupDiOpenDeviceInterface"]
+helpviewer_keywords: ["SetupDiOpenDeviceInterfaceA", "di-rtns_4505f6a3-e634-4070-a9b3-1487c2808838.xml"]
 old-location: devinst\setupdiopendeviceinterface.htm
 tech.root: devinst
 ms.assetid: 31ce43e5-08b4-4c1d-b31f-77ee4e278927

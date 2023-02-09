@@ -2,7 +2,7 @@
 UID: NF:winbase.MoveFileWithProgressA
 title: MoveFileWithProgressA function (winbase.h)
 description: Moves a file or directory, including its children. You can provide a callback function that receives progress notifications. (ANSI)
-helpviewer_keywords: ["MOVEFILE_COPY_ALLOWED","MOVEFILE_CREATE_HARDLINK","MOVEFILE_DELAY_UNTIL_REBOOT","MOVEFILE_FAIL_IF_NOT_TRACKABLE","MOVEFILE_REPLACE_EXISTING","MOVEFILE_WRITE_THROUGH","MoveFileWithProgress","MoveFileWithProgress function [Files]","MoveFileWithProgressA","MoveFileWithProgressW","Rename file [Files]","_win32_movefilewithprogress","base.movefilewithprogress","fs.movefilewithprogress","winbase/MoveFileWithProgress","winbase/MoveFileWithProgressA","winbase/MoveFileWithProgressW"]
+helpviewer_keywords: ["MOVEFILE_COPY_ALLOWED", "MOVEFILE_CREATE_HARDLINK", "MOVEFILE_DELAY_UNTIL_REBOOT", "MOVEFILE_FAIL_IF_NOT_TRACKABLE", "MOVEFILE_REPLACE_EXISTING", "MOVEFILE_WRITE_THROUGH", "MoveFileWithProgressA", "Rename file [Files]", "winbase/MoveFileWithProgressA"]
 old-location: fs\movefilewithprogress.htm
 tech.root: fs
 ms.assetid: f490aadc-7934-498a-8131-5c1be9e6f1aa

@@ -2,7 +2,7 @@
 UID: NF:winuser.MapVirtualKeyExA
 title: MapVirtualKeyExA function (winuser.h)
 description: Translates (maps) a virtual-key code into a scan code or character value, or translates a scan code into a virtual-key code. The function translates the codes using the input language and an input locale identifier. (ANSI)
-helpviewer_keywords: ["MAPVK_VK_TO_CHAR","MAPVK_VK_TO_VSC","MAPVK_VK_TO_VSC_EX","MAPVK_VSC_TO_VK","MAPVK_VSC_TO_VK_EX","MapVirtualKeyEx","MapVirtualKeyEx function [Keyboard and Mouse Input]","MapVirtualKeyExA","MapVirtualKeyExW","_win32_MapVirtualKeyEx","_win32_mapvirtualkeyex_cpp","inputdev.mapvirtualkeyex","winui._win32_mapvirtualkeyex","winuser/MapVirtualKeyEx","winuser/MapVirtualKeyExA","winuser/MapVirtualKeyExW"]
+helpviewer_keywords: ["MAPVK_VK_TO_CHAR", "MAPVK_VK_TO_VSC", "MAPVK_VK_TO_VSC_EX", "MAPVK_VSC_TO_VK", "MAPVK_VSC_TO_VK_EX", "MapVirtualKeyExA", "winuser/MapVirtualKeyExA"]
 old-location: inputdev\mapvirtualkeyex.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\mapvirtualkeyex.htm

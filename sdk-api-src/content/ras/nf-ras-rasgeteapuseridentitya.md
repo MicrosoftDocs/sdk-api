@@ -2,7 +2,7 @@
 UID: NF:ras.RasGetEapUserIdentityA
 title: RasGetEapUserIdentityA function (ras.h)
 description: The RasGetEapUserIdentity function retrieves identity information for the current user. Use this information to call RasDial with a phone-book entry that requires Extensible Authentication Protocol (EAP). (ANSI)
-helpviewer_keywords: ["RASEAPF_Logon","RASEAPF_NonInteractive","RASEAPF_Preview","RasGetEapUserIdentity","RasGetEapUserIdentity function [RAS]","RasGetEapUserIdentityA","RasGetEapUserIdentityW","_ras_rasgeteapuseridentity","ras/RasGetEapUserIdentity","ras/RasGetEapUserIdentityA","ras/RasGetEapUserIdentityW","rras.rasgeteapuseridentity"]
+helpviewer_keywords: ["RASEAPF_Logon", "RASEAPF_NonInteractive", "RASEAPF_Preview", "RasGetEapUserIdentityA", "ras/RasGetEapUserIdentityA"]
 old-location: rras\rasgeteapuseridentity.htm
 tech.root: RRAS
 ms.assetid: b1b44672-86f3-4d8b-b816-31167a84b05a

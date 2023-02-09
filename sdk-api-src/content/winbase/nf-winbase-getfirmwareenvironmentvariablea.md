@@ -2,7 +2,7 @@
 UID: NF:winbase.GetFirmwareEnvironmentVariableA
 title: GetFirmwareEnvironmentVariableA function (winbase.h)
 description: Retrieves the value of the specified firmware environment variable. (ANSI)
-helpviewer_keywords: ["GetFirmwareEnvironmentVariable","GetFirmwareEnvironmentVariable function","GetFirmwareEnvironmentVariableA","GetFirmwareEnvironmentVariableW","base.getfirmwareenvironmentvariable","winbase/GetFirmwareEnvironmentVariable","winbase/GetFirmwareEnvironmentVariableA","winbase/GetFirmwareEnvironmentVariableW"]
+helpviewer_keywords: ["GetFirmwareEnvironmentVariableA", "winbase/GetFirmwareEnvironmentVariableA"]
 old-location: base\getfirmwareenvironmentvariable.htm
 tech.root: winprog
 ms.assetid: 18e74e54-ecfe-46bf-8c9d-9eb16d22f3ba

@@ -2,7 +2,7 @@
 UID: NF:shlwapi.StrCmpICA
 title: StrCmpICA function (shlwapi.h)
 description: Compares two strings using C run-time (ASCII) collation rules. The comparison is not case-sensitive. (ANSI)
-helpviewer_keywords: ["StrCmpIC","StrCmpIC function [Windows Shell]","StrCmpICA","StrCmpICW","_shell_StrCmpIC","shell.StrCmpIC","shlwapi/StrCmpIC","shlwapi/StrCmpICA","shlwapi/StrCmpICW"]
+helpviewer_keywords: ["StrCmpICA", "shlwapi/StrCmpICA"]
 old-location: shell\StrCmpIC.htm
 tech.root: shell
 ms.assetid: 3f6d1ca1-fbd2-4ce2-b6d4-c3dfb37f1f87

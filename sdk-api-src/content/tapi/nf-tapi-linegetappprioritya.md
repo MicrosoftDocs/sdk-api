@@ -2,7 +2,7 @@
 UID: NF:tapi.lineGetAppPriorityA
 title: lineGetAppPriorityA function (tapi.h)
 description: Enables an application to determine whether or not it is in the handoff priority list for a particular media mode or Assisted Telephony request mode and, if so, its position in the priority list. (lineGetAppPriorityA)
-helpviewer_keywords: ["_tapi2_linegetapppriority","lineGetAppPriority","lineGetAppPriority function [TAPI 2.2]","lineGetAppPriorityA","lineGetAppPriorityW","tapi/lineGetAppPriority","tapi/lineGetAppPriorityA","tapi/lineGetAppPriorityW","tapi2.linegetapppriority"]
+helpviewer_keywords: ["lineGetAppPriorityA", "tapi/lineGetAppPriorityA"]
 old-location: tapi2\linegetapppriority.htm
 tech.root: tapi3
 ms.assetid: b1e402b5-a2d0-444c-83c5-12782772a4b1

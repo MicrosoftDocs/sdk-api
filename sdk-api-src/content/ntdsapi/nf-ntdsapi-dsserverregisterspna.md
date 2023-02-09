@@ -2,7 +2,7 @@
 UID: NF:ntdsapi.DsServerRegisterSpnA
 title: DsServerRegisterSpnA function (ntdsapi.h)
 description: The DsServerRegisterSpn function composes two SPNs for a host-based service. (ANSI)
-helpviewer_keywords: ["DS_SPN_ADD_SPN_OP","DS_SPN_DELETE_SPN_OP","DS_SPN_REPLACE_SPN_OP","DsServerRegisterSpn","DsServerRegisterSpn function [Active Directory]","DsServerRegisterSpnA","DsServerRegisterSpnW","_glines_dsserverregisterspn","ad.dsserverregisterspn","ntdsapi/DsServerRegisterSpn","ntdsapi/DsServerRegisterSpnA","ntdsapi/DsServerRegisterSpnW"]
+helpviewer_keywords: ["DS_SPN_ADD_SPN_OP", "DS_SPN_DELETE_SPN_OP", "DS_SPN_REPLACE_SPN_OP", "DsServerRegisterSpnA", "ntdsapi/DsServerRegisterSpnA"]
 old-location: ad\dsserverregisterspn.htm
 tech.root: ad
 ms.assetid: d95dfa55-f978-4d8d-a63d-cd1339769c79

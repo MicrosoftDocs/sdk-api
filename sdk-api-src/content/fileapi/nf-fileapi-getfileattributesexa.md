@@ -2,7 +2,7 @@
 UID: NF:fileapi.GetFileAttributesExA
 title: GetFileAttributesExA function (fileapi.h)
 description: Retrieves attributes for a specified file or directory. (ANSI)
-helpviewer_keywords: ["GetFileAttributesEx","GetFileAttributesEx function [Files]","GetFileAttributesExA","GetFileAttributesExW","GetFileExInfoStandard","_win32_getfileattributesex","base.getfileattributesex","fileapi/GetFileAttributesEx","fileapi/GetFileAttributesExA","fileapi/GetFileAttributesExW","fs.getfileattributesex","winbase/GetFileAttributesEx","winbase/GetFileAttributesExA","winbase/GetFileAttributesExW"]
+helpviewer_keywords: ["GetFileAttributesExA", "GetFileExInfoStandard", "fileapi/GetFileAttributesExA"]
 old-location: fs\getfileattributesex.htm
 tech.root: fs
 ms.assetid: e5d84000-17c1-4517-97a7-6bd240d73814

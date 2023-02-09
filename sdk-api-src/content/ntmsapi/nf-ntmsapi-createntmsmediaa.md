@@ -2,7 +2,7 @@
 UID: NF:ntmsapi.CreateNtmsMediaA
 title: CreateNtmsMediaA function (ntmsapi.h)
 description: The CreateNtmsMedia function creates a PMID and side (or sides) for a new piece of offline media. The media is placed in the media pool specified for lpPhysicalMedia. (ANSI)
-helpviewer_keywords: ["CreateNtmsMedia","CreateNtmsMedia function [Files]","CreateNtmsMediaA","CreateNtmsMediaW","NTMS_ERROR_ON_DUPLICATE","_zaw_createntmsmedia","base.createntmsmedia","fs.createntmsmedia","ntmsapi/CreateNtmsMedia","ntmsapi/CreateNtmsMediaA","ntmsapi/CreateNtmsMediaW"]
+helpviewer_keywords: ["CreateNtmsMediaA", "NTMS_ERROR_ON_DUPLICATE", "ntmsapi/CreateNtmsMediaA"]
 old-location: fs\createntmsmedia.htm
 tech.root: fs
 ms.assetid: a44c51c3-13d7-490e-9b6f-4d4c82d5a8f8

@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupPromptForDiskA
 title: SetupPromptForDiskA function (setupapi.h)
 description: The SetupPromptForDisk function displays a dialog box that prompts the user for a disk. (ANSI)
-helpviewer_keywords: ["SetupPromptForDisk","SetupPromptForDisk function [Setup API]","SetupPromptForDiskA","SetupPromptForDiskW","_setupapi_setuppromptfordisk","setup.setuppromptfordisk","setupapi/SetupPromptForDisk","setupapi/SetupPromptForDiskA","setupapi/SetupPromptForDiskW"]
+helpviewer_keywords: ["SetupPromptForDiskA", "setupapi/SetupPromptForDiskA"]
 old-location: setup\setuppromptfordisk.htm
 tech.root: setup
 ms.assetid: 65ccd3d1-1846-48cb-9fe6-ab5c69845e01

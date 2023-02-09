@@ -2,7 +2,7 @@
 UID: NF:winuser.GetMessageA
 title: GetMessageA function (winuser.h)
 description: Retrieves a message from the calling thread's message queue. The function dispatches incoming sent messages until a posted message is available for retrieval. (GetMessageA)
-helpviewer_keywords: ["GetMessage","GetMessage function [Windows and Messages]","GetMessageA","GetMessageW","_win32_GetMessage","_win32_getmessage_cpp","winmsg.getmessage","winui._win32_getmessage","winuser/GetMessage","winuser/GetMessageA","winuser/GetMessageW"]
+helpviewer_keywords: ["GetMessageA", "winuser/GetMessageA"]
 old-location: winmsg\getmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\getmessage.htm

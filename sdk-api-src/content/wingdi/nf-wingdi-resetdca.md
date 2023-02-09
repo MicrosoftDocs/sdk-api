@@ -2,7 +2,7 @@
 UID: NF:wingdi.ResetDCA
 title: ResetDCA function (wingdi.h)
 description: The ResetDC function updates the specified printer or plotter device context (DC) using the specified information. (ANSI)
-helpviewer_keywords: ["ResetDC","ResetDC function [Windows GDI]","ResetDCA","ResetDCW","_win32_ResetDC","gdi.resetdc","wingdi/ResetDC","wingdi/ResetDCA","wingdi/ResetDCW"]
+helpviewer_keywords: ["ResetDCA", "wingdi/ResetDCA"]
 old-location: gdi\resetdc.htm
 tech.root: gdi
 ms.assetid: 3f77db51-90d1-4a87-812b-1e129ae8fde9

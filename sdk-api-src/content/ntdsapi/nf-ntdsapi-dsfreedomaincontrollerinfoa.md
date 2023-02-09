@@ -2,7 +2,7 @@
 UID: NF:ntdsapi.DsFreeDomainControllerInfoA
 title: DsFreeDomainControllerInfoA function (ntdsapi.h)
 description: The DsFreeDomainControllerInfo function frees memory that is allocated by DsGetDomainControllerInfo for data about the domain controllers in a domain. (ANSI)
-helpviewer_keywords: ["1","2","DsFreeDomainControllerInfo","DsFreeDomainControllerInfo function [Active Directory]","DsFreeDomainControllerInfoA","DsFreeDomainControllerInfoW","_glines_dsfreedomaincontrollerinfo","ad.dsfreedomaincontrollerinfo","ntdsapi/DsFreeDomainControllerInfo","ntdsapi/DsFreeDomainControllerInfoA","ntdsapi/DsFreeDomainControllerInfoW"]
+helpviewer_keywords: ["1", "2", "DsFreeDomainControllerInfoA", "ntdsapi/DsFreeDomainControllerInfoA"]
 old-location: ad\dsfreedomaincontrollerinfo.htm
 tech.root: ad
 ms.assetid: 1b6d3136-91e2-4653-a4b0-ae2f66a6c5a2

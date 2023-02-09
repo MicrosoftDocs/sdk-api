@@ -2,7 +2,7 @@
 UID: NF:winuser.SendMessageTimeoutA
 title: SendMessageTimeoutA function (winuser.h)
 description: Sends the specified message to one or more windows. (ANSI)
-helpviewer_keywords: ["SMTO_ABORTIFHUNG","SMTO_BLOCK","SMTO_ERRORONEXIT","SMTO_NORMAL","SMTO_NOTIMEOUTIFNOTHUNG","SendMessageTimeout","SendMessageTimeout function [Windows and Messages]","SendMessageTimeoutA","SendMessageTimeoutW","_win32_SendMessageTimeout","_win32_sendmessagetimeout_cpp","winmsg.sendmessagetimeout","winui._win32_sendmessagetimeout","winuser/SendMessageTimeout","winuser/SendMessageTimeoutA","winuser/SendMessageTimeoutW"]
+helpviewer_keywords: ["SMTO_ABORTIFHUNG", "SMTO_BLOCK", "SMTO_ERRORONEXIT", "SMTO_NORMAL", "SMTO_NOTIMEOUTIFNOTHUNG", "SendMessageTimeoutA", "winuser/SendMessageTimeoutA"]
 old-location: winmsg\sendmessagetimeout.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendmessagetimeout.htm
