@@ -2,7 +2,7 @@
 UID: NF:ntdsapi.DsGetSpnW
 title: DsGetSpnW function (ntdsapi.h)
 description: The DsGetSpn function constructs an array of one or more service principal names (SPNs). Each name in the array identifies an instance of a service. These SPNs may be registered with the directory service (DS) using the DsWriteAccountSpn function. (Unicode)
-helpviewer_keywords: ["DS_SPN_DNS_HOST","DS_SPN_DN_HOST","DS_SPN_NB_HOST","DS_SPN_DOMAIN","DS_SPN_NB_DOMAIN","DS_SPN_SERVICE","DsGetSpn","DsGetSpn function [Active Directory]","DsGetSpnA","DsGetSpnW","_glines_dsgetspn","ad.dsgetspn","ntdsapi/DsGetSpn","ntdsapi/DsGetSpnA","ntdsapi/DsGetSpnW"]
+helpviewer_keywords: ["DS_SPN_DNS_HOST", "DS_SPN_DN_HOST", "DS_SPN_NB_HOST", "DS_SPN_DOMAIN", "DS_SPN_NB_DOMAIN", "DS_SPN_SERVICE", "DsGetSpn", "DsGetSpn function [Active Directory]", "DsGetSpnW", "_glines_dsgetspn", "ad.dsgetspn", "ntdsapi/DsGetSpn", "ntdsapi/DsGetSpnW"]
 old-location: ad\dsgetspn.htm
 tech.root: ad
 ms.assetid: cbd53850-9b05-4f74-ab07-30dcad583fc5

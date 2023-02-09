@@ -2,7 +2,7 @@
 UID: NF:ras.RasRenameEntryA
 title: RasRenameEntryA function (ras.h)
 description: The RasRenameEntry function changes the name of an entry in a phone book. (ANSI)
-helpviewer_keywords: ["RasRenameEntry","RasRenameEntry function [RAS]","RasRenameEntryA","RasRenameEntryW","_ras_rasrenameentry","ras/RasRenameEntry","ras/RasRenameEntryA","ras/RasRenameEntryW","rras.rasrenameentry"]
+helpviewer_keywords: ["RasRenameEntryA", "ras/RasRenameEntryA"]
 old-location: rras\rasrenameentry.htm
 tech.root: RRAS
 ms.assetid: 95c63e58-c96d-43ad-8878-ba9e29f53f6e

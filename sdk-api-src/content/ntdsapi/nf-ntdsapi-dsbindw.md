@@ -2,7 +2,7 @@
 UID: NF:ntdsapi.DsBindW
 title: DsBindW function (ntdsapi.h)
 description: Binds to a domain controller. (Unicode)
-helpviewer_keywords: ["DsBind","DsBind function [Active Directory]","DsBindA","DsBindW","_glines_dsbind","ad.dsbind","ntdsapi/DsBind","ntdsapi/DsBindA","ntdsapi/DsBindW"]
+helpviewer_keywords: ["DsBind", "DsBind function [Active Directory]", "DsBindW", "_glines_dsbind", "ad.dsbind", "ntdsapi/DsBind", "ntdsapi/DsBindW"]
 old-location: ad\dsbind.htm
 tech.root: ad
 ms.assetid: c73cd16d-ccfd-4f61-b1c5-50130bef64d7

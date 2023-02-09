@@ -2,7 +2,7 @@
 UID: NF:msiquery.MsiDatabaseGetPrimaryKeysA
 title: MsiDatabaseGetPrimaryKeysA function (msiquery.h)
 description: The MsiDatabaseGetPrimaryKeys function returns a record containing the names of all the primary key columns for a specified table. This function returns a handle that should be closed using MsiCloseHandle. (ANSI)
-helpviewer_keywords: ["MsiDatabaseGetPrimaryKeys","MsiDatabaseGetPrimaryKeys function","MsiDatabaseGetPrimaryKeysA","MsiDatabaseGetPrimaryKeysW","_msi_msidatabasegetprimarykeys","msiquery/MsiDatabaseGetPrimaryKeys","msiquery/MsiDatabaseGetPrimaryKeysA","msiquery/MsiDatabaseGetPrimaryKeysW","setup.msidatabasegetprimarykeys"]
+helpviewer_keywords: ["MsiDatabaseGetPrimaryKeysA", "msiquery/MsiDatabaseGetPrimaryKeysA"]
 old-location: setup\msidatabasegetprimarykeys.htm
 tech.root: setup
 ms.assetid: 08ceaf05-a64b-41ac-964b-ae4648e42bae

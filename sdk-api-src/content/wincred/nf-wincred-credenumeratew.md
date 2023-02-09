@@ -2,7 +2,7 @@
 UID: NF:wincred.CredEnumerateW
 title: CredEnumerateW function (wincred.h)
 description: Enumerates the credentials from the user's credential set. (Unicode)
-helpviewer_keywords: ["CRED_ENUMERATE_ALL_CREDENTIALS","CredEnumerate","CredEnumerate function [Security]","CredEnumerateA","CredEnumerateW","_cred_credenumerate","security.credenumerate","wincred/CredEnumerate","wincred/CredEnumerateA","wincred/CredEnumerateW"]
+helpviewer_keywords: ["CRED_ENUMERATE_ALL_CREDENTIALS", "CredEnumerate", "CredEnumerate function [Security]", "CredEnumerateW", "_cred_credenumerate", "security.credenumerate", "wincred/CredEnumerate", "wincred/CredEnumerateW"]
 old-location: security\credenumerate.htm
 tech.root: security
 ms.assetid: ef0b7620-7b00-45f1-af16-141d2e940783

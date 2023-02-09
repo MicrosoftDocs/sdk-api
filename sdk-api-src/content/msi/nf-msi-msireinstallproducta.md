@@ -2,7 +2,7 @@
 UID: NF:msi.MsiReinstallProductA
 title: MsiReinstallProductA function (msi.h)
 description: Reinstalls products. (ANSI)
-helpviewer_keywords: ["MsiReinstallProduct","MsiReinstallProduct function","MsiReinstallProductA","MsiReinstallProductW","REINSTALLMODE_FILEEQUALVERSION","REINSTALLMODE_FILEEXACT","REINSTALLMODE_FILEMISSING","REINSTALLMODE_FILEOLDERVERSION","REINSTALLMODE_FILEREPLACE","REINSTALLMODE_FILEVERIFY","REINSTALLMODE_MACHINEDATA","REINSTALLMODE_PACKAGE","REINSTALLMODE_SHORTCUT","REINSTALLMODE_USERDATA","_msi_msireinstallproduct","msi/MsiReinstallProduct","msi/MsiReinstallProductA","msi/MsiReinstallProductW","setup.msireinstallproduct"]
+helpviewer_keywords: ["MsiReinstallProductA", "REINSTALLMODE_FILEEQUALVERSION", "REINSTALLMODE_FILEEXACT", "REINSTALLMODE_FILEMISSING", "REINSTALLMODE_FILEOLDERVERSION", "REINSTALLMODE_FILEREPLACE", "REINSTALLMODE_FILEVERIFY", "REINSTALLMODE_MACHINEDATA", "REINSTALLMODE_PACKAGE", "REINSTALLMODE_SHORTCUT", "REINSTALLMODE_USERDATA", "msi/MsiReinstallProductA"]
 old-location: setup\msireinstallproduct.htm
 tech.root: setup
 ms.assetid: ad69868e-d653-417d-b902-d0d62e05c985

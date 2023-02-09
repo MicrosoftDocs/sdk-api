@@ -2,7 +2,7 @@
 UID: NF:tapi.lineHandoffW
 title: lineHandoffW function (tapi.h)
 description: The lineHandoffW (Unicode) function (tapi.h) gives ownership of the specified call to another application.
-helpviewer_keywords: ["_tapi2_linehandoff","lineHandoff","lineHandoff function [TAPI 2.2]","lineHandoffA","lineHandoffW","tapi/lineHandoff","tapi/lineHandoffA","tapi/lineHandoffW","tapi2.linehandoff"]
+helpviewer_keywords: ["_tapi2_linehandoff", "lineHandoff", "lineHandoff function [TAPI 2.2]", "lineHandoffW", "tapi/lineHandoff", "tapi/lineHandoffW", "tapi2.linehandoff"]
 old-location: tapi2\linehandoff.htm
 tech.root: tapi3
 ms.assetid: 931c2fa4-dad6-432d-8f07-bb04b646916b

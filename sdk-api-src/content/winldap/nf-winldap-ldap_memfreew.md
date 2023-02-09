@@ -2,7 +2,7 @@
 UID: NF:winldap.ldap_memfreeW
 title: ldap_memfreeW function (winldap.h)
 description: The ldap_memfreeW (Unicode) function (winldap.h) frees memory allocated from the LDAP heap.  
-helpviewer_keywords: ["_ldap_ldap_memfree","ldap.ldap__memfree","ldap.ldap_memfree","ldap_memfree","ldap_memfree function [LDAP]","ldap_memfreeA","ldap_memfreeW","winldap/ldap_memfree","winldap/ldap_memfreeA","winldap/ldap_memfreeW"]
+helpviewer_keywords: ["_ldap_ldap_memfree", "ldap.ldap__memfree", "ldap.ldap_memfree", "ldap_memfree", "ldap_memfree function [LDAP]", "ldap_memfreeW", "winldap/ldap_memfree", "winldap/ldap_memfreeW"]
 old-location: ldap\ldap_memfree.htm
 tech.root: ldap
 ms.assetid: 3256a202-4245-4bea-a66c-0f28bfe2ef7e

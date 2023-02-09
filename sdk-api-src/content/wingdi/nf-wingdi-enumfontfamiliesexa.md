@@ -2,7 +2,7 @@
 UID: NF:wingdi.EnumFontFamiliesExA
 title: EnumFontFamiliesExA function (wingdi.h)
 description: The EnumFontFamiliesEx function enumerates all uniquely-named fonts in the system that match the font characteristics specified by the LOGFONT structure. EnumFontFamiliesEx enumerates fonts based on typeface name, character set, or both. (ANSI)
-helpviewer_keywords: ["EnumFontFamiliesEx","EnumFontFamiliesEx function [Windows GDI]","EnumFontFamiliesExA","EnumFontFamiliesExW","_win32_EnumFontFamiliesEx","gdi.enumfontfamiliesex","wingdi/EnumFontFamiliesEx","wingdi/EnumFontFamiliesExA","wingdi/EnumFontFamiliesExW"]
+helpviewer_keywords: ["EnumFontFamiliesExA", "wingdi/EnumFontFamiliesExA"]
 old-location: gdi\enumfontfamiliesex.htm
 tech.root: gdi
 ms.assetid: 4d70906d-8005-4c4a-869e-16dd3e6fa3f2

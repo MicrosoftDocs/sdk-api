@@ -2,7 +2,7 @@
 UID: NF:shlwapi.PathMatchSpecExA
 title: PathMatchSpecExA function (shlwapi.h)
 description: Matches a file name from a path against one or more file name patterns. (ANSI)
-helpviewer_keywords: ["PMSF_DONT_STRIP_SPACES","PMSF_MULTIPLE","PMSF_NORMAL","PathMatchSpecEx","PathMatchSpecEx function [Windows Shell]","PathMatchSpecExA","PathMatchSpecExW","_win32_PathMatchSpecEx","shell.PathMatchSpecEx","shlwapi/PathMatchSpecEx","shlwapi/PathMatchSpecExA","shlwapi/PathMatchSpecExW"]
+helpviewer_keywords: ["PMSF_DONT_STRIP_SPACES", "PMSF_MULTIPLE", "PMSF_NORMAL", "PathMatchSpecExA", "shlwapi/PathMatchSpecExA"]
 old-location: shell\PathMatchSpecEx.htm
 tech.root: shell
 ms.assetid: bd9bf950-e349-4b67-8608-7acad84c0907

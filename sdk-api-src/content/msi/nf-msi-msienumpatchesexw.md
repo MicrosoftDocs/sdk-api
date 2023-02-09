@@ -2,7 +2,7 @@
 UID: NF:msi.MsiEnumPatchesExW
 title: MsiEnumPatchesExW function (msi.h)
 description: Enumerates all patches in a specific context or across all contexts. (Unicode)
-helpviewer_keywords: ["MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MSIPATCHSTATE_ALL","MSIPATCHSTATE_APPLIED","MSIPATCHSTATE_OBSOLETED","MSIPATCHSTATE_REGISTERED","MSIPATCHSTATE_SUPERSEDED","MsiEnumPatchesEx","MsiEnumPatchesEx function","MsiEnumPatchesExA","MsiEnumPatchesExW","NULL","User SID","msi/MsiEnumPatchesEx","msi/MsiEnumPatchesExA","msi/MsiEnumPatchesExW","s-1-1-0","setup.msienumpatchesex"]
+helpviewer_keywords: ["MSIINSTALLCONTEXT_MACHINE", "MSIINSTALLCONTEXT_USERMANAGED", "MSIINSTALLCONTEXT_USERUNMANAGED", "MSIPATCHSTATE_ALL", "MSIPATCHSTATE_APPLIED", "MSIPATCHSTATE_OBSOLETED", "MSIPATCHSTATE_REGISTERED", "MSIPATCHSTATE_SUPERSEDED", "MsiEnumPatchesEx", "MsiEnumPatchesEx function", "MsiEnumPatchesExW", "NULL", "User SID", "msi/MsiEnumPatchesEx", "msi/MsiEnumPatchesExW", "s-1-1-0", "setup.msienumpatchesex"]
 old-location: setup\msienumpatchesex.htm
 tech.root: setup
 ms.assetid: 32edcc56-190a-465f-b341-56dc60ab0589

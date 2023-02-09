@@ -2,7 +2,7 @@
 UID: NF:shlwapi.SHStrDupW
 title: SHStrDupW function (shlwapi.h)
 description: Makes a copy of a string in newly allocated memory. (SHStrDupW)
-helpviewer_keywords: ["SHStrDup","SHStrDup function [Windows Shell]","SHStrDupA","SHStrDupW","_win32_SHStrDup","shell.SHStrDup","shlwapi/SHStrDup","shlwapi/SHStrDupA","shlwapi/SHStrDupW"]
+helpviewer_keywords: ["SHStrDup", "SHStrDup function [Windows Shell]", "SHStrDupW", "_win32_SHStrDup", "shell.SHStrDup", "shlwapi/SHStrDup", "shlwapi/SHStrDupW"]
 old-location: shell\SHStrDup.htm
 tech.root: shell
 ms.assetid: 6f014fb4-7637-48a8-9bec-d3278c46a6d8

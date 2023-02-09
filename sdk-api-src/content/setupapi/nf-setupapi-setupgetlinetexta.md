@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupGetLineTextA
 title: SetupGetLineTextA function (setupapi.h)
 description: The SetupGetLineText function returns the contents of a line in an INF file in a compact form. (ANSI)
-helpviewer_keywords: ["SetupGetLineText","SetupGetLineText function [Setup API]","SetupGetLineTextA","SetupGetLineTextW","_setupapi_setupgetlinetext","setup.setupgetlinetext","setupapi/SetupGetLineText","setupapi/SetupGetLineTextA","setupapi/SetupGetLineTextW"]
+helpviewer_keywords: ["SetupGetLineTextA", "setupapi/SetupGetLineTextA"]
 old-location: setup\setupgetlinetext.htm
 tech.root: setup
 ms.assetid: ab689e03-5f4f-4f06-bd44-a927e1ab702d

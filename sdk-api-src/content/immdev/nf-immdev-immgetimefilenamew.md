@@ -2,7 +2,7 @@
 UID: NF:immdev.ImmGetIMEFileNameW
 title: ImmGetIMEFileNameW function (immdev.h)
 description: The ImmGetIMEFileNameW (Unicode) function (immdev.h) retrieves the file name of the IME associated with the specified input locale.
-helpviewer_keywords: ["ImmGetIMEFileName","ImmGetIMEFileName function [Internationalization for Windows Applications]","ImmGetIMEFileNameA","ImmGetIMEFileNameW","_win32_ImmGetIMEFileName","imm/ImmGetIMEFileName","imm/ImmGetIMEFileNameA","imm/ImmGetIMEFileNameW","intl.immgetimefilename"]
+helpviewer_keywords: ["ImmGetIMEFileName", "ImmGetIMEFileName function [Internationalization for Windows Applications]", "ImmGetIMEFileNameW", "_win32_ImmGetIMEFileName", "intl.immgetimefilename"]
 old-location: intl\immgetimefilename.htm
 tech.root: Intl
 ms.assetid: c2dafd0a-3cb9-4d9b-919b-c7ef86fb1cd4

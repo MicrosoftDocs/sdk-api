@@ -2,7 +2,7 @@
 UID: NF:msi.MsiEnumRelatedProductsA
 title: MsiEnumRelatedProductsA function (msi.h)
 description: The MsiEnumRelatedProducts function enumerates products with a specified upgrade code. This function lists the currently installed and advertised products that have the specified UpgradeCode property in their Property table. (ANSI)
-helpviewer_keywords: ["MsiEnumRelatedProducts","MsiEnumRelatedProducts function","MsiEnumRelatedProductsA","MsiEnumRelatedProductsW","_msi_msienumrelatedproducts","msi/MsiEnumRelatedProducts","msi/MsiEnumRelatedProductsA","msi/MsiEnumRelatedProductsW","setup.msienumrelatedproducts"]
+helpviewer_keywords: ["MsiEnumRelatedProductsA", "msi/MsiEnumRelatedProductsA"]
 old-location: setup\msienumrelatedproducts.htm
 tech.root: setup
 ms.assetid: cb0fbdce-0b20-4fb3-8b01-d5e81d7bf3a3

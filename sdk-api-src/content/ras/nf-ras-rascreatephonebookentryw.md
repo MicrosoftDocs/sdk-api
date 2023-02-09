@@ -2,7 +2,7 @@
 UID: NF:ras.RasCreatePhonebookEntryW
 title: RasCreatePhonebookEntryW function (ras.h)
 description: The RasCreatePhonebookEntry function creates a new phone-book entry. The function displays a dialog box in which the user types information for the phone-book entry. (Unicode)
-helpviewer_keywords: ["RasCreatePhonebookEntry","RasCreatePhonebookEntry function [RAS]","RasCreatePhonebookEntryA","RasCreatePhonebookEntryW","_ras_rascreatephonebookentry","ras/RasCreatePhonebookEntry","ras/RasCreatePhonebookEntryA","ras/RasCreatePhonebookEntryW","rras.rascreatephonebookentry"]
+helpviewer_keywords: ["RasCreatePhonebookEntry", "RasCreatePhonebookEntry function [RAS]", "RasCreatePhonebookEntryW", "_ras_rascreatephonebookentry", "ras/RasCreatePhonebookEntry", "ras/RasCreatePhonebookEntryW", "rras.rascreatephonebookentry"]
 old-location: rras\rascreatephonebookentry.htm
 tech.root: RRAS
 ms.assetid: da8bd49f-e890-4e8a-ab4d-7366c6f2b361

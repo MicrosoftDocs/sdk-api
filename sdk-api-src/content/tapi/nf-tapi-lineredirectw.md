@@ -2,7 +2,7 @@
 UID: NF:tapi.lineRedirectW
 title: lineRedirectW function (tapi.h)
 description: The lineRedirectW (Unicode) function (tapi.h) redirects the specified offering call to the specified destination address.
-helpviewer_keywords: ["_tapi2_lineredirect","lineRedirect","lineRedirect function [TAPI 2.2]","lineRedirectA","lineRedirectW","tapi/lineRedirect","tapi/lineRedirectA","tapi/lineRedirectW","tapi2.lineredirect"]
+helpviewer_keywords: ["_tapi2_lineredirect", "lineRedirect", "lineRedirect function [TAPI 2.2]", "lineRedirectW", "tapi/lineRedirect", "tapi/lineRedirectW", "tapi2.lineredirect"]
 old-location: tapi2\lineredirect.htm
 tech.root: tapi3
 ms.assetid: 014465af-26a7-451e-9d32-2e020d1043b0

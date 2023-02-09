@@ -2,7 +2,7 @@
 UID: NF:ntdsapi.DsBindToISTGW
 title: DsBindToISTGW function (ntdsapi.h)
 description: Binds to the computer that holds the Inter-Site Topology Generator (ISTG) role in the domain of the local computer. (Unicode)
-helpviewer_keywords: ["DsBindToISTG","DsBindToISTG function [Active Directory]","DsBindToISTGA","DsBindToISTGW","ad.dsbindtoistg","ntdsapi/DsBindToISTG","ntdsapi/DsBindToISTGA","ntdsapi/DsBindToISTGW"]
+helpviewer_keywords: ["DsBindToISTG", "DsBindToISTG function [Active Directory]", "DsBindToISTGW", "ad.dsbindtoistg", "ntdsapi/DsBindToISTG", "ntdsapi/DsBindToISTGW"]
 old-location: ad\dsbindtoistg.htm
 tech.root: ad
 ms.assetid: bd53124c-8578-495d-b540-d4b4c09297c3

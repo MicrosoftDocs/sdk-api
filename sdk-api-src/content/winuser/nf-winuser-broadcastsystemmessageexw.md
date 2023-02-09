@@ -2,7 +2,7 @@
 UID: NF:winuser.BroadcastSystemMessageExW
 title: BroadcastSystemMessageExW function (winuser.h)
 description: Sends a message to the specified recipients. (BroadcastSystemMessageExW)
-helpviewer_keywords: ["BSF_ALLOWSFW","BSF_FLUSHDISK","BSF_FORCEIFHUNG","BSF_IGNORECURRENTTASK","BSF_LUID","BSF_NOHANG","BSF_NOTIMEOUTIFNOTHUNG","BSF_POSTMESSAGE","BSF_QUERY","BSF_RETURNHDESK","BSF_SENDNOTIFYMESSAGE","BSM_ALLCOMPONENTS","BSM_ALLDESKTOPS","BSM_APPLICATIONS","BroadcastSystemMessageEx","BroadcastSystemMessageEx function [Windows and Messages]","BroadcastSystemMessageExA","BroadcastSystemMessageExW","_win32_BroadcastSystemMessageEx","_win32_broadcastsystemmessageex_cpp","winmsg.broadcastsystemmessageex","winui._win32_broadcastsystemmessageex","winuser/BroadcastSystemMessageEx","winuser/BroadcastSystemMessageExA","winuser/BroadcastSystemMessageExW"]
+helpviewer_keywords: ["BSF_ALLOWSFW", "BSF_FLUSHDISK", "BSF_FORCEIFHUNG", "BSF_IGNORECURRENTTASK", "BSF_LUID", "BSF_NOHANG", "BSF_NOTIMEOUTIFNOTHUNG", "BSF_POSTMESSAGE", "BSF_QUERY", "BSF_RETURNHDESK", "BSF_SENDNOTIFYMESSAGE", "BSM_ALLCOMPONENTS", "BSM_ALLDESKTOPS", "BSM_APPLICATIONS", "BroadcastSystemMessageEx", "BroadcastSystemMessageEx function [Windows and Messages]", "BroadcastSystemMessageExW", "_win32_BroadcastSystemMessageEx", "_win32_broadcastsystemmessageex_cpp", "winmsg.broadcastsystemmessageex", "winui._win32_broadcastsystemmessageex", "winuser/BroadcastSystemMessageEx", "winuser/BroadcastSystemMessageExW"]
 old-location: winmsg\broadcastsystemmessageex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\broadcastsystemmessageex.htm

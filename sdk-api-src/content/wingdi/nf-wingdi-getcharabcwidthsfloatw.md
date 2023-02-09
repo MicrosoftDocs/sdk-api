@@ -2,7 +2,7 @@
 UID: NF:wingdi.GetCharABCWidthsFloatW
 title: GetCharABCWidthsFloatW function (wingdi.h)
 description: The GetCharABCWidthsFloat function retrieves the widths, in logical units, of consecutive characters in a specified range from the current font. (Unicode)
-helpviewer_keywords: ["GetCharABCWidthsFloat","GetCharABCWidthsFloat function [Windows GDI]","GetCharABCWidthsFloatA","GetCharABCWidthsFloatW","_win32_GetCharABCWidthsFloat","gdi.getcharabcwidthsfloat","wingdi/GetCharABCWidthsFloat","wingdi/GetCharABCWidthsFloatA","wingdi/GetCharABCWidthsFloatW"]
+helpviewer_keywords: ["GetCharABCWidthsFloat", "GetCharABCWidthsFloat function [Windows GDI]", "GetCharABCWidthsFloatW", "_win32_GetCharABCWidthsFloat", "gdi.getcharabcwidthsfloat", "wingdi/GetCharABCWidthsFloat", "wingdi/GetCharABCWidthsFloatW"]
 old-location: gdi\getcharabcwidthsfloat.htm
 tech.root: gdi
 ms.assetid: 552942c9-e2a6-43f9-901f-3aba1e2523e5

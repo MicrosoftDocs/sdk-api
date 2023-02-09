@@ -2,7 +2,7 @@
 UID: NF:ntdsapi.DsClientMakeSpnForTargetServerW
 title: DsClientMakeSpnForTargetServerW function (ntdsapi.h)
 description: Constructs a service principal name (SPN) that identifies a specific server to use for authentication. (Unicode)
-helpviewer_keywords: ["DsClientMakeSpnForTargetServer","DsClientMakeSpnForTargetServer function [Active Directory]","DsClientMakeSpnForTargetServerA","DsClientMakeSpnForTargetServerW","_glines_dsclientmakespnfortargetserver","ad.dsclientmakespnfortargetserver","ntdsapi/DsClientMakeSpnForTargetServer","ntdsapi/DsClientMakeSpnForTargetServerA","ntdsapi/DsClientMakeSpnForTargetServerW"]
+helpviewer_keywords: ["DsClientMakeSpnForTargetServer", "DsClientMakeSpnForTargetServer function [Active Directory]", "DsClientMakeSpnForTargetServerW", "_glines_dsclientmakespnfortargetserver", "ad.dsclientmakespnfortargetserver", "ntdsapi/DsClientMakeSpnForTargetServer", "ntdsapi/DsClientMakeSpnForTargetServerW"]
 old-location: ad\dsclientmakespnfortargetserver.htm
 tech.root: ad
 ms.assetid: d205e7cc-4879-41a4-baa7-75e7dd177cd0

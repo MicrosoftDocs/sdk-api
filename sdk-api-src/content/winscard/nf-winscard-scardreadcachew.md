@@ -2,7 +2,7 @@
 UID: NF:winscard.SCardReadCacheW
 title: SCardReadCacheW function (winscard.h)
 description: Retrieves the value portion of a name-value pair from the global cache maintained by the Smart Card Resource Manager. (Unicode)
-helpviewer_keywords: ["SCardReadCache","SCardReadCache function [Security]","SCardReadCacheA","SCardReadCacheW","security.scardreadcache","winscard/SCardReadCache","winscard/SCardReadCacheA","winscard/SCardReadCacheW"]
+helpviewer_keywords: ["SCardReadCache", "SCardReadCache function [Security]", "SCardReadCacheW", "security.scardreadcache", "winscard/SCardReadCache", "winscard/SCardReadCacheW"]
 old-location: security\scardreadcache.htm
 tech.root: security
 ms.assetid: ffa15036-b6d6-4c0a-8f04-e1900484eb8d

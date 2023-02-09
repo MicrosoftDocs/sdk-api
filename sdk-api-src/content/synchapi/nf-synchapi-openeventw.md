@@ -2,7 +2,7 @@
 UID: NF:synchapi.OpenEventW
 title: OpenEventW function (synchapi.h)
 description: Opens an existing named event object. (Unicode)
-helpviewer_keywords: ["OpenEvent","OpenEvent function","OpenEventA","OpenEventW","_win32_openevent","base.openevent","synchapi/OpenEvent","synchapi/OpenEventA","synchapi/OpenEventW","winbase/OpenEvent","winbase/OpenEventA","winbase/OpenEventW"]
+helpviewer_keywords: ["OpenEvent", "OpenEvent function", "OpenEventW", "_win32_openevent", "base.openevent", "synchapi/OpenEvent", "synchapi/OpenEventW"]
 old-location: base\openevent.htm
 tech.root: base
 ms.assetid: 46741024-ace3-44d6-b8a6-5621ad121a1a

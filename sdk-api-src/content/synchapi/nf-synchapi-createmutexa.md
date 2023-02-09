@@ -2,7 +2,7 @@
 UID: NF:synchapi.CreateMutexA
 title: CreateMutexA function (synchapi.h)
 description: Creates or opens a named or unnamed mutex object. (ANSI)
-helpviewer_keywords: ["CreateMutex","CreateMutex function","CreateMutexA","CreateMutexW","_win32_createmutex","base.createmutex","synchapi/CreateMutex","synchapi/CreateMutexA","synchapi/CreateMutexW","winbase/CreateMutex","winbase/CreateMutexA","winbase/CreateMutexW"]
+helpviewer_keywords: ["CreateMutexA", "synchapi/CreateMutexA"]
 old-location: base\createmutex.htm
 tech.root: base
 ms.assetid: c8315d1c-98c9-4f0a-ae0d-800d7d8100cd

@@ -2,7 +2,7 @@
 UID: NF:strsafe.StringCbGetsExW
 title: StringCbGetsExW function (strsafe.h)
 description: Gets one line of text from stdin, up to and including the newline character ('\n'). (StringCbGetsExW)
-helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCbGetsEx","StringCbGetsEx function [Menus and Other Resources]","StringCbGetsExA","StringCbGetsExW","_shell_StringCbGetsEx","_shell_stringcbgetsex_cpp","menurc.stringcbgetsex","strsafe/StringCbGetsEx","strsafe/StringCbGetsExA","strsafe/StringCbGetsExW","winui._shell_stringcbgetsex"]
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL", "STRSAFE_FILL_ON_FAILURE", "STRSAFE_IGNORE_NULLS", "STRSAFE_NO_TRUNCATION", "STRSAFE_NULL_ON_FAILURE", "StringCbGetsEx", "StringCbGetsEx function [Menus and Other Resources]", "StringCbGetsExW", "_shell_StringCbGetsEx", "_shell_stringcbgetsex_cpp", "menurc.stringcbgetsex", "strsafe/StringCbGetsEx", "strsafe/StringCbGetsExW", "winui._shell_stringcbgetsex"]
 old-location: menurc\stringcbgetsex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbgetsex.htm

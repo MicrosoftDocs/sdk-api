@@ -2,7 +2,7 @@
 UID: NF:wininet.FtpRemoveDirectoryW
 title: FtpRemoveDirectoryW function (wininet.h)
 description: Removes the specified directory on the FTP server. (Unicode)
-helpviewer_keywords: ["FtpRemoveDirectory","FtpRemoveDirectory function [WinINet]","FtpRemoveDirectoryA","FtpRemoveDirectoryW","_inet_ftpremovedirectory_function","wininet.ftpremovedirectory","wininet/FtpRemoveDirectory","wininet/FtpRemoveDirectoryA","wininet/FtpRemoveDirectoryW"]
+helpviewer_keywords: ["FtpRemoveDirectory", "FtpRemoveDirectory function [WinINet]", "FtpRemoveDirectoryW", "_inet_ftpremovedirectory_function", "wininet.ftpremovedirectory", "wininet/FtpRemoveDirectory", "wininet/FtpRemoveDirectoryW"]
 old-location: wininet\ftpremovedirectory.htm
 tech.root: wininet
 ms.assetid: 4c02af2f-ece8-409a-9c3e-495e1beb80ef

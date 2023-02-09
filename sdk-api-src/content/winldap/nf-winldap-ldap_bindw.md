@@ -2,7 +2,7 @@
 UID: NF:winldap.ldap_bindW
 title: ldap_bindW function (winldap.h)
 description: the ldap_bindW (Unicode) function (winldap.h) asynchronously authenticates a client with the LDAP server. 
-helpviewer_keywords: ["_ldap_ldap_bind","ldap.ldap__bind","ldap.ldap_bind","ldap_bind","ldap_bind function [LDAP]","ldap_bindA","ldap_bindW","winldap/ldap_bind","winldap/ldap_bindA","winldap/ldap_bindW"]
+helpviewer_keywords: ["_ldap_ldap_bind", "ldap.ldap__bind", "ldap.ldap_bind", "ldap_bind", "ldap_bind function [LDAP]", "ldap_bindW", "winldap/ldap_bind", "winldap/ldap_bindW"]
 old-location: ldap\ldap_bind.htm
 tech.root: ldap
 ms.assetid: 889636f2-3dd0-4027-aa35-d7b7930d9e69

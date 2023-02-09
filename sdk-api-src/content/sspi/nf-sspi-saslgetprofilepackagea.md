@@ -2,7 +2,7 @@
 UID: NF:sspi.SaslGetProfilePackageA
 title: SaslGetProfilePackageA function (sspi.h)
 description: Returns the package information for the specified package. (ANSI)
-helpviewer_keywords: ["SaslGetProfilePackage","SaslGetProfilePackage function [Security]","SaslGetProfilePackageA","SaslGetProfilePackageW","security.saslgetprofilepackage","sspi/SaslGetProfilePackage","sspi/SaslGetProfilePackageA","sspi/SaslGetProfilePackageW"]
+helpviewer_keywords: ["SaslGetProfilePackageA", "sspi/SaslGetProfilePackageA"]
 old-location: security\saslgetprofilepackage.htm
 tech.root: security
 ms.assetid: b7cecc5f-775f-40ba-abfc-27d51b3f5395

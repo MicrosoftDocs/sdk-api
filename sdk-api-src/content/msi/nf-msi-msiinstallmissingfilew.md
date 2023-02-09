@@ -2,7 +2,7 @@
 UID: NF:msi.MsiInstallMissingFileW
 title: MsiInstallMissingFileW function (msi.h)
 description: The MsiInstallMissingFile function installs files that are unexpectedly missing. (Unicode)
-helpviewer_keywords: ["MsiInstallMissingFile","MsiInstallMissingFile function","MsiInstallMissingFileA","MsiInstallMissingFileW","_msi_msiinstallmissingfile","msi/MsiInstallMissingFile","msi/MsiInstallMissingFileA","msi/MsiInstallMissingFileW","setup.msiinstallmissingfile"]
+helpviewer_keywords: ["MsiInstallMissingFile", "MsiInstallMissingFile function", "MsiInstallMissingFileW", "_msi_msiinstallmissingfile", "msi/MsiInstallMissingFile", "msi/MsiInstallMissingFileW", "setup.msiinstallmissingfile"]
 old-location: setup\msiinstallmissingfile.htm
 tech.root: setup
 ms.assetid: 289ce1e2-64ac-4222-9d0d-52c8fdd4f9c3

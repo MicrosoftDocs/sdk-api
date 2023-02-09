@@ -2,7 +2,7 @@
 UID: NF:winscard.SCardForgetReaderGroupA
 title: SCardForgetReaderGroupA function (winscard.h)
 description: Removes a previously introduced smart card reader group from the smart card subsystem. Although this function automatically clears all readers from the group, it does not affect the existence of the individual readers in the database. (ANSI)
-helpviewer_keywords: ["SCARD_ALL_READERS","SCARD_DEFAULT_READERS","SCARD_LOCAL_READERS","SCARD_SYSTEM_READERS","SCardForgetReaderGroup","SCardForgetReaderGroup function [Security]","SCardForgetReaderGroupA","SCardForgetReaderGroupW","_smart_scardforgetreadergroup","security.scardforgetreadergroup","winscard/SCardForgetReaderGroup","winscard/SCardForgetReaderGroupA","winscard/SCardForgetReaderGroupW"]
+helpviewer_keywords: ["SCARD_ALL_READERS", "SCARD_DEFAULT_READERS", "SCARD_LOCAL_READERS", "SCARD_SYSTEM_READERS", "SCardForgetReaderGroupA", "winscard/SCardForgetReaderGroupA"]
 old-location: security\scardforgetreadergroup.htm
 tech.root: security
 ms.assetid: c6c98542-01b6-4b23-88cf-a619faee882e

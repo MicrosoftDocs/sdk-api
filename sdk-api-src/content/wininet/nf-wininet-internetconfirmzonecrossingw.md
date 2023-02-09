@@ -2,7 +2,7 @@
 UID: NF:wininet.InternetConfirmZoneCrossingW
 title: InternetConfirmZoneCrossingW function (wininet.h)
 description: The InternetConfirmZoneCrossingW (Unicode) function (wininet.h) checks for changes between secure and nonsecure URLs.
-helpviewer_keywords: ["InternetConfirmZoneCrossing","InternetConfirmZoneCrossing function [WinINet]","InternetConfirmZoneCrossingA","InternetConfirmZoneCrossingW","_inet_internetconfirmzonecrossing_function","wininet.internetconfirmzonecrossing","wininet/InternetConfirmZoneCrossing","wininet/InternetConfirmZoneCrossingA","wininet/InternetConfirmZoneCrossingW"]
+helpviewer_keywords: ["InternetConfirmZoneCrossing", "InternetConfirmZoneCrossing function [WinINet]", "InternetConfirmZoneCrossingW", "_inet_internetconfirmzonecrossing_function", "wininet.internetconfirmzonecrossing", "wininet/InternetConfirmZoneCrossing", "wininet/InternetConfirmZoneCrossingW"]
 old-location: wininet\internetconfirmzonecrossing.htm
 tech.root: wininet
 ms.assetid: e14f58df-5457-4a17-919c-6a25691c2ee1

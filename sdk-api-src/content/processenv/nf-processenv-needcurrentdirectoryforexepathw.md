@@ -2,7 +2,7 @@
 UID: NF:processenv.NeedCurrentDirectoryForExePathW
 title: NeedCurrentDirectoryForExePathW function (processenv.h)
 description: Determines whether the current directory should be included in the search path for the specified executable. (Unicode)
-helpviewer_keywords: ["NeedCurrentDirectoryForExePath","NeedCurrentDirectoryForExePath function","NeedCurrentDirectoryForExePathA","NeedCurrentDirectoryForExePathW","base.needcurrentdirectoryforexepath","processenv/NeedCurrentDirectoryForExePath","processenv/NeedCurrentDirectoryForExePathA","processenv/NeedCurrentDirectoryForExePathW","winbase/NeedCurrentDirectoryForExePath","winbase/NeedCurrentDirectoryForExePathA","winbase/NeedCurrentDirectoryForExePathW"]
+helpviewer_keywords: ["NeedCurrentDirectoryForExePath", "NeedCurrentDirectoryForExePath function", "NeedCurrentDirectoryForExePathW", "base.needcurrentdirectoryforexepath", "processenv/NeedCurrentDirectoryForExePath", "processenv/NeedCurrentDirectoryForExePathW"]
 old-location: base\needcurrentdirectoryforexepath.htm
 tech.root: backup
 ms.assetid: 2bdc07b9-bb83-48c2-a668-fda5c69d54ee

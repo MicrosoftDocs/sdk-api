@@ -2,7 +2,7 @@
 UID: NF:winbase.GetDllDirectoryW
 title: GetDllDirectoryW function (winbase.h)
 description: Retrieves the application-specific portion of the search path used to locate DLLs for the application. (Unicode)
-helpviewer_keywords: ["GetDllDirectory","GetDllDirectory function","GetDllDirectoryA","GetDllDirectoryW","base.getdlldirectory","winbase/GetDllDirectory","winbase/GetDllDirectoryA","winbase/GetDllDirectoryW"]
+helpviewer_keywords: ["GetDllDirectory", "GetDllDirectory function", "GetDllDirectoryW", "base.getdlldirectory", "winbase/GetDllDirectory", "winbase/GetDllDirectoryW"]
 old-location: base\getdlldirectory.htm
 tech.root: base
 ms.assetid: f892546a-6c48-48f2-8d9a-46e448fffb89

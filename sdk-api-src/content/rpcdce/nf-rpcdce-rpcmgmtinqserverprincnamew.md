@@ -2,7 +2,7 @@
 UID: NF:rpcdce.RpcMgmtInqServerPrincNameW
 title: RpcMgmtInqServerPrincNameW function (rpcdce.h)
 description: The RpcMgmtInqServerPrincNameW (Unicode) function (rpcdce.h) returns a server's principal name.
-helpviewer_keywords: ["RpcMgmtInqServerPrincName","RpcMgmtInqServerPrincName function [RPC]","RpcMgmtInqServerPrincNameA","RpcMgmtInqServerPrincNameW","_rpc_rpcmgmtinqserverprincname","rpc.rpcmgmtinqserverprincname","rpcdce/RpcMgmtInqServerPrincName","rpcdce/RpcMgmtInqServerPrincNameA","rpcdce/RpcMgmtInqServerPrincNameW"]
+helpviewer_keywords: ["RpcMgmtInqServerPrincName", "RpcMgmtInqServerPrincName function [RPC]", "RpcMgmtInqServerPrincNameW", "_rpc_rpcmgmtinqserverprincname", "rpc.rpcmgmtinqserverprincname", "rpcdce/RpcMgmtInqServerPrincName", "rpcdce/RpcMgmtInqServerPrincNameW"]
 old-location: rpc\rpcmgmtinqserverprincname.htm
 tech.root: Rpc
 ms.assetid: 2666adb4-8a89-480e-8855-9179a7128e35

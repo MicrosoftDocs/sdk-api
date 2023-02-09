@@ -2,7 +2,7 @@
 UID: NF:muiload.LoadMUILibraryW
 title: LoadMUILibraryW function (muiload.h)
 description: Returns a handle to the language-specific resources associated with a particular language-neutral (LN) file. (Unicode)
-helpviewer_keywords: ["LoadMUILibrary","LoadMUILibrary function [Internationalization for Windows Applications]","LoadMUILibraryA","LoadMUILibraryW","MUI_LANGUAGE_EXACT","MUI_LANGUAGE_ID","MUI_LANGUAGE_NAME","_win32_LoadMUILibrary","intl.loadmuilibrary","muiload/LoadMUILibrary","muiload/LoadMUILibraryA","muiload/LoadMUILibraryW"]
+helpviewer_keywords: ["LoadMUILibrary", "LoadMUILibrary function [Internationalization for Windows Applications]", "LoadMUILibraryW", "MUI_LANGUAGE_EXACT", "MUI_LANGUAGE_ID", "MUI_LANGUAGE_NAME", "_win32_LoadMUILibrary", "intl.loadmuilibrary", "muiload/LoadMUILibrary", "muiload/LoadMUILibraryW"]
 old-location: intl\loadmuilibrary.htm
 tech.root: Intl
 ms.assetid: 277067d8-c38d-4e79-9c1a-4e4af1987228

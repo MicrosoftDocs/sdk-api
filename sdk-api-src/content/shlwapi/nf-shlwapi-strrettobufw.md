@@ -2,7 +2,7 @@
 UID: NF:shlwapi.StrRetToBufW
 title: StrRetToBufW function (shlwapi.h)
 description: Converts an STRRET structure returned by IShellFolder::GetDisplayNameOf to a string, and places the result in a buffer. (Unicode)
-helpviewer_keywords: ["StrRetToBuf","StrRetToBuf function [Windows Shell]","StrRetToBufA","StrRetToBufW","_win32_StrRetToBuf","shell.StrRetToBuf","shlwapi/StrRetToBuf","shlwapi/StrRetToBufA","shlwapi/StrRetToBufW"]
+helpviewer_keywords: ["StrRetToBuf", "StrRetToBuf function [Windows Shell]", "StrRetToBufW", "_win32_StrRetToBuf", "shell.StrRetToBuf", "shlwapi/StrRetToBuf", "shlwapi/StrRetToBufW"]
 old-location: shell\StrRetToBuf.htm
 tech.root: shell
 ms.assetid: 89dab3ee-e9f8-499a-97ec-6fe732315891

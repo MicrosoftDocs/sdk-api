@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupDiInstallClassExW
 title: SetupDiInstallClassExW function (setupapi.h)
 description: The SetupDiInstallClassEx function installs a class installer or an interface class. (Unicode)
-helpviewer_keywords: ["SetupDiInstallClassEx","SetupDiInstallClassEx function [Device and Driver Installation]","SetupDiInstallClassExA","SetupDiInstallClassExW","devinst.setupdiinstallclassex","di-rtns_80aa5f67-e57e-4749-8130-5c940376db49.xml","setupapi/SetupDiInstallClassEx"]
+helpviewer_keywords: ["SetupDiInstallClassEx", "SetupDiInstallClassEx function [Device and Driver Installation]", "SetupDiInstallClassExW", "devinst.setupdiinstallclassex", "di-rtns_80aa5f67-e57e-4749-8130-5c940376db49.xml", "setupapi/SetupDiInstallClassEx"]
 old-location: devinst\setupdiinstallclassex.htm
 tech.root: devinst
 ms.assetid: 72ab3fb4-dc4f-439a-87ed-4f4ad061d03a

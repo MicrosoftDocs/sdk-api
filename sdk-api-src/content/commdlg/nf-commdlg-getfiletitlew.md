@@ -2,7 +2,7 @@
 UID: NF:commdlg.GetFileTitleW
 title: GetFileTitleW function (commdlg.h)
 description: Retrieves the name of the specified file. (Unicode)
-helpviewer_keywords: ["GetFileTitle","GetFileTitle function [Dialog Boxes]","GetFileTitleA","GetFileTitleW","_win32_GetFileTitle","_win32_getfiletitle_cpp","commdlg/GetFileTitle","commdlg/GetFileTitleA","commdlg/GetFileTitleW","dlgbox.getfiletitle","winui._win32_getfiletitle"]
+helpviewer_keywords: ["GetFileTitle", "GetFileTitle function [Dialog Boxes]", "GetFileTitleW", "_win32_GetFileTitle", "_win32_getfiletitle_cpp", "commdlg/GetFileTitle", "commdlg/GetFileTitleW", "dlgbox.getfiletitle", "winui._win32_getfiletitle"]
 old-location: dlgbox\getfiletitle.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\getfiletitle.htm

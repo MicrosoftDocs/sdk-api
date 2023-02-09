@@ -2,7 +2,7 @@
 UID: NF:winineti.InternetGoOnlineA
 title: InternetGoOnlineA function (winineti.h)
 description: The InternetGoOnlineA (ANSI) function (winineti.h) prompts the user for permission to initiate connection to a URL.
-helpviewer_keywords: ["INTERNET_GOONLINE_REFRESH","InternetGoOnline","InternetGoOnline function [WinINet]","InternetGoOnlineA","InternetGoOnlineW","_inet_internetgoonline_function","wininet.internetgoonline","winineti/InternetGoOnline","winineti/InternetGoOnlineA","winineti/InternetGoOnlineW"]
+helpviewer_keywords: ["INTERNET_GOONLINE_REFRESH", "InternetGoOnlineA", "winineti/InternetGoOnlineA"]
 old-location: wininet\internetgoonline.htm
 tech.root: wininet
 ms.assetid: ed1c0282-5469-49d5-8a8c-b7671d27ebd2

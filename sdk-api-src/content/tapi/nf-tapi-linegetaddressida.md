@@ -2,7 +2,7 @@
 UID: NF:tapi.lineGetAddressIDA
 title: lineGetAddressIDA function (tapi.h)
 description: The lineGetAddressID function returns the address identifier associated with an address in a different format on the specified line. (lineGetAddressIDA)
-helpviewer_keywords: ["_tapi2_linegetaddressid","lineGetAddressID","lineGetAddressID function [TAPI 2.2]","lineGetAddressIDA","lineGetAddressIDW","tapi/lineGetAddressID","tapi/lineGetAddressIDA","tapi/lineGetAddressIDW","tapi2.linegetaddressid"]
+helpviewer_keywords: ["lineGetAddressIDA", "tapi/lineGetAddressIDA"]
 old-location: tapi2\linegetaddressid.htm
 tech.root: tapi3
 ms.assetid: f714068c-8cdc-4098-b1f6-f2cfd62a83c4

@@ -2,7 +2,7 @@
 UID: NF:winuser.DlgDirSelectComboBoxExW
 title: DlgDirSelectComboBoxExW function (winuser.h)
 description: Retrieves the current selection from a combo box filled by using the DlgDirListComboBox function. The selection is interpreted as a drive letter, a file, or a directory name. (Unicode)
-helpviewer_keywords: ["DlgDirSelectComboBoxEx","DlgDirSelectComboBoxEx function [Windows Controls]","DlgDirSelectComboBoxExA","DlgDirSelectComboBoxExW","_win32_DlgDirSelectComboBoxEx","_win32_DlgDirSelectComboBoxEx_cpp","controls.DlgDirSelectComboBoxEx","controls._win32_DlgDirSelectComboBoxEx","winuser/DlgDirSelectComboBoxEx","winuser/DlgDirSelectComboBoxExA","winuser/DlgDirSelectComboBoxExW"]
+helpviewer_keywords: ["DlgDirSelectComboBoxEx", "DlgDirSelectComboBoxEx function [Windows Controls]", "DlgDirSelectComboBoxExW", "_win32_DlgDirSelectComboBoxEx", "_win32_DlgDirSelectComboBoxEx_cpp", "controls.DlgDirSelectComboBoxEx", "controls._win32_DlgDirSelectComboBoxEx", "winuser/DlgDirSelectComboBoxEx", "winuser/DlgDirSelectComboBoxExW"]
 old-location: controls\DlgDirSelectComboBoxEx.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxfunctions\dlgdirselectcomboboxex.htm

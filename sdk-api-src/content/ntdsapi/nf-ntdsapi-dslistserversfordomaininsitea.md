@@ -2,7 +2,7 @@
 UID: NF:ntdsapi.DsListServersForDomainInSiteA
 title: DsListServersForDomainInSiteA function (ntdsapi.h)
 description: Lists all the servers in a domain in a site. (ANSI)
-helpviewer_keywords: ["DsListServersForDomainInSite","DsListServersForDomainInSite function [Active Directory]","DsListServersForDomainInSiteA","DsListServersForDomainInSiteW","_glines_dslistserversfordomaininsite","ad.dslistserversfordomaininsite","ntdsapi/DsListServersForDomainInSite","ntdsapi/DsListServersForDomainInSiteA","ntdsapi/DsListServersForDomainInSiteW"]
+helpviewer_keywords: ["DsListServersForDomainInSiteA", "ntdsapi/DsListServersForDomainInSiteA"]
 old-location: ad\dslistserversfordomaininsite.htm
 tech.root: ad
 ms.assetid: 1e346532-bbbe-4b3b-a1cb-6a72319cb3e2

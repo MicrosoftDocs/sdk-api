@@ -2,7 +2,7 @@
 UID: NF:winuser.EnumPropsA
 title: EnumPropsA function (winuser.h)
 description: Enumerates all entries in the property list of a window by passing them, one by one, to the specified callback function. EnumProps continues until the last entry is enumerated or the callback function returns FALSE. (ANSI)
-helpviewer_keywords: ["EnumProps","EnumProps function [Windows and Messages]","EnumPropsA","EnumPropsW","_win32_EnumProps","_win32_enumprops_cpp","winmsg.enumprops","winui._win32_enumprops","winuser/EnumProps","winuser/EnumPropsA","winuser/EnumPropsW"]
+helpviewer_keywords: ["EnumPropsA", "winuser/EnumPropsA"]
 old-location: winmsg\enumprops.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\enumprops.htm

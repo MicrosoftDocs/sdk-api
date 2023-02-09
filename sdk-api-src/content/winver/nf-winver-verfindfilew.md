@@ -2,7 +2,7 @@
 UID: NF:winver.VerFindFileW
 title: VerFindFileW function (winver.h)
 description: Determines where to install a file based on whether it locates another version of the file in the system. The values VerFindFile returns in the specified buffers are used in a subsequent call to the VerInstallFile function. (Unicode)
-helpviewer_keywords: ["VFFF_ISSHAREDFILE","VerFindFile","VerFindFile function [Menus and Other Resources]","VerFindFileA","VerFindFileW","_win32_VerFindFile","_win32_verfindfile_cpp","menurc.verfindfile","winui._win32_verfindfile","winver/VerFindFile","winver/VerFindFileA","winver/VerFindFileW"]
+helpviewer_keywords: ["VFFF_ISSHAREDFILE", "VerFindFile", "VerFindFile function [Menus and Other Resources]", "VerFindFileW", "_win32_VerFindFile", "_win32_verfindfile_cpp", "menurc.verfindfile", "winui._win32_verfindfile", "winver/VerFindFile", "winver/VerFindFileW"]
 old-location: menurc\verfindfile.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verfindfile.htm

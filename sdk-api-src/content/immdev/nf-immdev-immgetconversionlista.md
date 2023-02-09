@@ -2,7 +2,7 @@
 UID: NF:immdev.ImmGetConversionListA
 title: ImmGetConversionListA function (immdev.h)
 description: The ImmGetConversionListA (ANSI) function (immdev.h) retrieves the conversion result list of characters or words without generating any IME-related messages. 
-helpviewer_keywords: ["GCL_CONVERSION","GCL_REVERSECONVERSION","GCL_REVERSE_LENGTH","ImmGetConversionList","ImmGetConversionList function [Internationalization for Windows Applications]","ImmGetConversionListA","ImmGetConversionListW","_win32_ImmGetConversionList","imm/ImmGetConversionList","imm/ImmGetConversionListA","imm/ImmGetConversionListW","intl.immgetconversionlist"]
+helpviewer_keywords: ["GCL_CONVERSION", "GCL_REVERSECONVERSION", "GCL_REVERSE_LENGTH", "ImmGetConversionListA"]
 old-location: intl\immgetconversionlist.htm
 tech.root: Intl
 ms.assetid: c38547fa-b9d8-41a0-8d73-21056212b775

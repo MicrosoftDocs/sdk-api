@@ -2,7 +2,7 @@
 UID: NF:msi.MsiGetProductPropertyW
 title: MsiGetProductPropertyW function (msi.h)
 description: The MsiGetProductProperty function retrieves product properties. These properties are in the product database. (Unicode)
-helpviewer_keywords: ["MsiGetProductProperty","MsiGetProductProperty function","MsiGetProductPropertyA","MsiGetProductPropertyW","_msi_msigetproductproperty","msi/MsiGetProductProperty","msi/MsiGetProductPropertyA","msi/MsiGetProductPropertyW","setup.msigetproductproperty"]
+helpviewer_keywords: ["MsiGetProductProperty", "MsiGetProductProperty function", "MsiGetProductPropertyW", "_msi_msigetproductproperty", "msi/MsiGetProductProperty", "msi/MsiGetProductPropertyW", "setup.msigetproductproperty"]
 old-location: setup\msigetproductproperty.htm
 tech.root: setup
 ms.assetid: 724f6034-c492-4bab-97dc-d9b2f75e9642

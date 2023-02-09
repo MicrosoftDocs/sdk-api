@@ -2,7 +2,7 @@
 UID: NF:wingdi.CreateScalableFontResourceA
 title: CreateScalableFontResourceA function (wingdi.h)
 description: The CreateScalableFontResource function creates a font resource file for a scalable font. (ANSI)
-helpviewer_keywords: ["0","1","CreateScalableFontResource","CreateScalableFontResource function [Windows GDI]","CreateScalableFontResourceA","CreateScalableFontResourceW","_win32_CreateScalableFontResource","gdi.createscalablefontresource","wingdi/CreateScalableFontResource","wingdi/CreateScalableFontResourceA","wingdi/CreateScalableFontResourceW"]
+helpviewer_keywords: ["0", "1", "CreateScalableFontResourceA", "wingdi/CreateScalableFontResourceA"]
 old-location: gdi\createscalablefontresource.htm
 tech.root: gdi
 ms.assetid: 9a43a254-4cf4-46de-80b2-a83838871fd7

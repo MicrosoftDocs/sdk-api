@@ -2,7 +2,7 @@
 UID: NF:ntdsapi.DsInheritSecurityIdentityA
 title: DsInheritSecurityIdentityA function (ntdsapi.h)
 description: Appends the objectSid and sidHistory attributes of SrcPrincipal to the sidHistory of DstPrincipal and then deletes SrcPrincipal, all in a single transaction. (ANSI)
-helpviewer_keywords: ["DsInheritSecurityIdentity","DsInheritSecurityIdentity function [Active Directory]","DsInheritSecurityIdentityA","DsInheritSecurityIdentityW","_glines_dsinheritsecurityidentity","ad.dsinheritsecurityidentity","ntdsapi/DsInheritSecurityIdentity","ntdsapi/DsInheritSecurityIdentityA","ntdsapi/DsInheritSecurityIdentityW"]
+helpviewer_keywords: ["DsInheritSecurityIdentityA", "ntdsapi/DsInheritSecurityIdentityA"]
 old-location: ad\dsinheritsecurityidentity.htm
 tech.root: ad
 ms.assetid: ea467069-f886-4e22-896c-16e6e01f3968

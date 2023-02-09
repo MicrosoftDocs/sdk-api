@@ -2,7 +2,7 @@
 UID: NF:tapi.lineMakeCallA
 title: lineMakeCallA function (tapi.h)
 description: The lineMakeCall function places a call on the specified line to the specified destination address. Optionally, call parameters can be specified if anything but default call setup parameters are requested. (lineMakeCallA)
-helpviewer_keywords: ["_tapi2_linemakecall","lineMakeCall","lineMakeCall function [TAPI 2.2]","lineMakeCallA","lineMakeCallW","tapi/lineMakeCall","tapi/lineMakeCallA","tapi/lineMakeCallW","tapi2.linemakecall"]
+helpviewer_keywords: ["lineMakeCallA", "tapi/lineMakeCallA"]
 old-location: tapi2\linemakecall.htm
 tech.root: tapi3
 ms.assetid: a7dc9cdc-3cc3-4b6a-98c8-e141402c781e

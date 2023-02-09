@@ -2,7 +2,7 @@
 UID: NF:wincred.CredUIPromptForWindowsCredentialsW
 title: CredUIPromptForWindowsCredentialsW function (wincred.h)
 description: Creates and displays a configurable dialog box that allows users to supply credential information by using any credential provider installed on the local computer. (Unicode)
-helpviewer_keywords: ["CREDUIWIN_AUTHPACKAGE_ONLY","CREDUIWIN_CHECKBOX","CREDUIWIN_ENUMERATE_ADMINS","CREDUIWIN_ENUMERATE_CURRENT_USER","CREDUIWIN_GENERIC","CREDUIWIN_IN_CRED_ONLY","CREDUIWIN_PACK_32_WOW","CREDUIWIN_PREPROMPTING","CREDUIWIN_SECURE_PROMPT","CredUIPromptForWindowsCredentials","CredUIPromptForWindowsCredentials function [Security]","CredUIPromptForWindowsCredentialsA","CredUIPromptForWindowsCredentialsW","security.creduipromptforwindowscredentials","wincred/CredUIPromptForWindowsCredentials","wincred/CredUIPromptForWindowsCredentialsA","wincred/CredUIPromptForWindowsCredentialsW"]
+helpviewer_keywords: ["CREDUIWIN_AUTHPACKAGE_ONLY", "CREDUIWIN_CHECKBOX", "CREDUIWIN_ENUMERATE_ADMINS", "CREDUIWIN_ENUMERATE_CURRENT_USER", "CREDUIWIN_GENERIC", "CREDUIWIN_IN_CRED_ONLY", "CREDUIWIN_PACK_32_WOW", "CREDUIWIN_PREPROMPTING", "CREDUIWIN_SECURE_PROMPT", "CredUIPromptForWindowsCredentials", "CredUIPromptForWindowsCredentials function [Security]", "CredUIPromptForWindowsCredentialsW", "security.creduipromptforwindowscredentials", "wincred/CredUIPromptForWindowsCredentials", "wincred/CredUIPromptForWindowsCredentialsW"]
 old-location: security\creduipromptforwindowscredentials.htm
 tech.root: security
 ms.assetid: 946ac279-d30a-4a6c-a76d-d93597121427

@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupDiClassNameFromGuidExA
 title: SetupDiClassNameFromGuidExA function (setupapi.h)
 description: The SetupDiClassNameFromGuidEx function retrieves the class name associated with a class GUID. The class can be installed on a local or remote computer. (ANSI)
-helpviewer_keywords: ["SetupDiClassNameFromGuidEx","SetupDiClassNameFromGuidEx function [Device and Driver Installation]","SetupDiClassNameFromGuidExA","SetupDiClassNameFromGuidExW","devinst.setupdiclassnamefromguidex","di-rtns_69da61fd-b042-4b1b-92a4-d40418f18794.xml","setupapi/SetupDiClassNameFromGuidEx"]
+helpviewer_keywords: ["SetupDiClassNameFromGuidExA", "di-rtns_69da61fd-b042-4b1b-92a4-d40418f18794.xml"]
 old-location: devinst\setupdiclassnamefromguidex.htm
 tech.root: devinst
 ms.assetid: 0d576df1-e259-4025-8ef0-a520f5680fa0

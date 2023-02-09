@@ -2,7 +2,7 @@
 UID: NF:shlwapi.StrChrIA
 title: StrChrIA function (shlwapi.h)
 description: Searches a string for the first occurrence of a character that matches the specified character. The comparison is not case-sensitive. (ANSI)
-helpviewer_keywords: ["StrChrI","StrChrI function [Windows Shell]","StrChrIA","StrChrIW","_win32_StrChrI","shell.StrChrI","shlwapi/StrChrI","shlwapi/StrChrIA","shlwapi/StrChrIW"]
+helpviewer_keywords: ["StrChrIA", "shlwapi/StrChrIA"]
 old-location: shell\StrChrI.htm
 tech.root: shell
 ms.assetid: bad606d2-e337-42b5-853e-c7afa8d3d71b

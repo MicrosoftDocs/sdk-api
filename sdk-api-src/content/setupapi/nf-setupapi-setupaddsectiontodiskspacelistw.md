@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupAddSectionToDiskSpaceListW
 title: SetupAddSectionToDiskSpaceListW function (setupapi.h)
 description: The SetupAddSectionToDiskSpaceList function adds to a disk-space list all the file delete or copy operations listed in a Copy Files or Delete Files section of an INF file. (Unicode)
-helpviewer_keywords: ["FILEOP_COPY","FILEOP_DELETE","SetupAddSectionToDiskSpaceList","SetupAddSectionToDiskSpaceList function [Setup API]","SetupAddSectionToDiskSpaceListA","SetupAddSectionToDiskSpaceListW","_setupapi_setupaddsectiontodiskspacelist","setup.setupaddsectiontodiskspacelist","setupapi/SetupAddSectionToDiskSpaceList","setupapi/SetupAddSectionToDiskSpaceListA","setupapi/SetupAddSectionToDiskSpaceListW"]
+helpviewer_keywords: ["FILEOP_COPY", "FILEOP_DELETE", "SetupAddSectionToDiskSpaceList", "SetupAddSectionToDiskSpaceList function [Setup API]", "SetupAddSectionToDiskSpaceListW", "_setupapi_setupaddsectiontodiskspacelist", "setup.setupaddsectiontodiskspacelist", "setupapi/SetupAddSectionToDiskSpaceList", "setupapi/SetupAddSectionToDiskSpaceListW"]
 old-location: setup\setupaddsectiontodiskspacelist.htm
 tech.root: setup
 ms.assetid: 8225d0b4-b750-4580-83f5-dcffdf2ee67b

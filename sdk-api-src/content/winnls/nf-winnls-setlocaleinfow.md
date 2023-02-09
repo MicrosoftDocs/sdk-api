@@ -2,7 +2,7 @@
 UID: NF:winnls.SetLocaleInfoW
 title: SetLocaleInfoW function (winnls.h)
 description: Sets an item of information in the user override portion of the current locale. This function does not set the system defaults. (Unicode)
-helpviewer_keywords: ["SetLocaleInfo","SetLocaleInfo function [Internationalization for Windows Applications]","SetLocaleInfoA","SetLocaleInfoW","_win32_SetLocaleInfo","intl.setlocaleinfo","winnls/SetLocaleInfo","winnls/SetLocaleInfoA","winnls/SetLocaleInfoW"]
+helpviewer_keywords: ["SetLocaleInfo", "SetLocaleInfo function [Internationalization for Windows Applications]", "SetLocaleInfoW", "_win32_SetLocaleInfo", "intl.setlocaleinfo", "winnls/SetLocaleInfo", "winnls/SetLocaleInfoW"]
 old-location: intl\setlocaleinfo.htm
 tech.root: Intl
 ms.assetid: 96e031cb-0d9f-4556-b9b3-3451d8f80da5

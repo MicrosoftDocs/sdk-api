@@ -2,7 +2,7 @@
 UID: NF:msi.MsiOpenProductA
 title: MsiOpenProductA function (msi.h)
 description: The MsiOpenProduct function opens a product for use with the functions that access the product database. The MsiCloseHandle function must be called with the handle when the handle is no longer needed. (ANSI)
-helpviewer_keywords: ["MsiOpenProduct","MsiOpenProduct function","MsiOpenProductA","MsiOpenProductW","_msi_msiopenproduct","msi/MsiOpenProduct","msi/MsiOpenProductA","msi/MsiOpenProductW","setup.msiopenproduct"]
+helpviewer_keywords: ["MsiOpenProductA", "msi/MsiOpenProductA"]
 old-location: setup\msiopenproduct.htm
 tech.root: setup
 ms.assetid: fdc5a2f5-c44a-4cb3-b206-a598bd60024b

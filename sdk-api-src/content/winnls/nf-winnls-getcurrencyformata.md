@@ -2,7 +2,7 @@
 UID: NF:winnls.GetCurrencyFormatA
 title: GetCurrencyFormatA function (winnls.h)
 description: Formats a number string as a currency string for a locale specified by identifier. (ANSI)
-helpviewer_keywords: ["GetCurrencyFormat","GetCurrencyFormat function [Internationalization for Windows Applications]","GetCurrencyFormatA","GetCurrencyFormatW","_win32_GetCurrencyFormat","intl.getcurrencyformat","winnls/GetCurrencyFormat","winnls/GetCurrencyFormatA","winnls/GetCurrencyFormatW"]
+helpviewer_keywords: ["GetCurrencyFormatA", "winnls/GetCurrencyFormatA"]
 old-location: intl\getcurrencyformat.htm
 tech.root: Intl
 ms.assetid: 43c51deb-ca92-4e14-8c27-3b588b7be061

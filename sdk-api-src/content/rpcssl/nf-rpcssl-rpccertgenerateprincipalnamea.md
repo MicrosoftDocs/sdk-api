@@ -2,7 +2,7 @@
 UID: NF:rpcssl.RpcCertGeneratePrincipalNameA
 title: RpcCertGeneratePrincipalNameA function (rpcssl.h)
 description: Server programs use the RpcCertGeneratePrincipalName function to generate principal names for security certificates. (RpcCertGeneratePrincipalNameA)
-helpviewer_keywords: ["RpcCertGeneratePrincipalName","RpcCertGeneratePrincipalName function [RPC]","RpcCertGeneratePrincipalNameA","RpcCertGeneratePrincipalNameW","_rpc_rpccertgenerateprincipalname","rpc.rpccertgenerateprincipalname","rpcssl/RpcCertGeneratePrincipalName","rpcssl/RpcCertGeneratePrincipalNameA","rpcssl/RpcCertGeneratePrincipalNameW"]
+helpviewer_keywords: ["RpcCertGeneratePrincipalNameA", "rpcssl/RpcCertGeneratePrincipalNameA"]
 old-location: rpc\rpccertgenerateprincipalname.htm
 tech.root: Rpc
 ms.assetid: 88a172f5-2226-46e9-845e-c67b0a885905

@@ -2,7 +2,7 @@
 UID: NF:rpcnsi.RpcNsGroupMbrInqBeginA
 title: RpcNsGroupMbrInqBeginA function (rpcnsi.h)
 description: The RpcNsGroupMbrInqBegin function creates an inquiry context for viewing group members. (ANSI)
-helpviewer_keywords: ["RpcNsGroupMbrInqBegin","RpcNsGroupMbrInqBegin function [RPC]","RpcNsGroupMbrInqBeginA","RpcNsGroupMbrInqBeginW","_rpc_rpcnsgroupmbrinqbegin","rpc.rpcnsgroupmbrinqbegin","rpcnsi/RpcNsGroupMbrInqBegin","rpcnsi/RpcNsGroupMbrInqBeginA","rpcnsi/RpcNsGroupMbrInqBeginW"]
+helpviewer_keywords: ["RpcNsGroupMbrInqBeginA", "rpcnsi/RpcNsGroupMbrInqBeginA"]
 old-location: rpc\rpcnsgroupmbrinqbegin.htm
 tech.root: Rpc
 ms.assetid: f3a98563-0c7f-4f4b-b272-af7c0366b95d

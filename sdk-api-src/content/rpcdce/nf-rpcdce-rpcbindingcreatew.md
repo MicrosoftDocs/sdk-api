@@ -2,7 +2,7 @@
 UID: NF:rpcdce.RpcBindingCreateW
 title: RpcBindingCreateW function (rpcdce.h)
 description: The RpcBindingCreate function creates a new fast RPC binding handle based on a supplied template. (Unicode)
-helpviewer_keywords: ["RpcBindingCreate","RpcBindingCreate function [RPC]","RpcBindingCreateA","RpcBindingCreateW","rpc.rpcbindingcreate","rpcdce/RpcBindingCreate","rpcdce/RpcBindingCreateA","rpcdce/RpcBindingCreateW"]
+helpviewer_keywords: ["RpcBindingCreate", "RpcBindingCreate function [RPC]", "RpcBindingCreateW", "rpc.rpcbindingcreate", "rpcdce/RpcBindingCreate", "rpcdce/RpcBindingCreateW"]
 old-location: rpc\rpcbindingcreate.htm
 tech.root: Rpc
 ms.assetid: 0188512e-bff6-414b-a6eb-19bfe8e0b3a9

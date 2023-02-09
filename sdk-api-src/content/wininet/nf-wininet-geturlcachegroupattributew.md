@@ -2,7 +2,7 @@
 UID: NF:wininet.GetUrlCacheGroupAttributeW
 title: GetUrlCacheGroupAttributeW function (wininet.h)
 description: Retrieves the attribute information of the specified cache group. (Unicode)
-helpviewer_keywords: ["GetUrlCacheGroupAttribute","GetUrlCacheGroupAttribute function [WinINet]","GetUrlCacheGroupAttributeA","GetUrlCacheGroupAttributeW","_inet_geturlcachegroupattribute_function","wininet.geturlcachegroupattribute","wininet/GetUrlCacheGroupAttribute","wininet/GetUrlCacheGroupAttributeA","wininet/GetUrlCacheGroupAttributeW"]
+helpviewer_keywords: ["GetUrlCacheGroupAttribute", "GetUrlCacheGroupAttribute function [WinINet]", "GetUrlCacheGroupAttributeW", "_inet_geturlcachegroupattribute_function", "wininet.geturlcachegroupattribute", "wininet/GetUrlCacheGroupAttribute", "wininet/GetUrlCacheGroupAttributeW"]
 old-location: wininet\geturlcachegroupattribute.htm
 tech.root: wininet
 ms.assetid: 5e4e5666-1999-4bea-9b3e-f435f5dcfff8

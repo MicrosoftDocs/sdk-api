@@ -2,7 +2,7 @@
 UID: NF:msi.MsiQueryFeatureStateW
 title: MsiQueryFeatureStateW function (msi.h)
 description: The MsiQueryFeatureState function returns the installed state for a product feature. (Unicode)
-helpviewer_keywords: ["MsiQueryFeatureState","MsiQueryFeatureState function","MsiQueryFeatureStateA","MsiQueryFeatureStateW","_msi_msiqueryfeaturestate","msi/MsiQueryFeatureState","msi/MsiQueryFeatureStateA","msi/MsiQueryFeatureStateW","setup.msiqueryfeaturestate"]
+helpviewer_keywords: ["MsiQueryFeatureState", "MsiQueryFeatureState function", "MsiQueryFeatureStateW", "_msi_msiqueryfeaturestate", "msi/MsiQueryFeatureState", "msi/MsiQueryFeatureStateW", "setup.msiqueryfeaturestate"]
 old-location: setup\msiqueryfeaturestate.htm
 tech.root: setup
 ms.assetid: d84aa7f1-d29a-493d-a065-8f7b680019d7

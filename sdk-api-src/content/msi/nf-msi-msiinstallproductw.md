@@ -2,7 +2,7 @@
 UID: NF:msi.MsiInstallProductW
 title: MsiInstallProductW function (msi.h)
 description: Installs or uninstalls a product. (MsiInstallProductW)
-helpviewer_keywords: ["MsiInstallProduct","MsiInstallProduct function","MsiInstallProductA","MsiInstallProductW","_msi_msiinstallproduct","msi/MsiInstallProduct","msi/MsiInstallProductA","msi/MsiInstallProductW","setup.msiinstallproduct"]
+helpviewer_keywords: ["MsiInstallProduct", "MsiInstallProduct function", "MsiInstallProductW", "_msi_msiinstallproduct", "msi/MsiInstallProduct", "msi/MsiInstallProductW", "setup.msiinstallproduct"]
 old-location: setup\msiinstallproduct.htm
 tech.root: setup
 ms.assetid: ec8d6710-ecfe-432c-ba1d-2e3532a25988

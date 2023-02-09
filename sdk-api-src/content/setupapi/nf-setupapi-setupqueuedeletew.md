@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupQueueDeleteW
 title: SetupQueueDeleteW function (setupapi.h)
 description: The SetupQueueDelete function places an individual file delete operation on a setup file queue. (Unicode)
-helpviewer_keywords: ["SetupQueueDelete","SetupQueueDelete function [Setup API]","SetupQueueDeleteA","SetupQueueDeleteW","_setupapi_setupqueuedelete","setup.setupqueuedelete","setupapi/SetupQueueDelete","setupapi/SetupQueueDeleteA","setupapi/SetupQueueDeleteW"]
+helpviewer_keywords: ["SetupQueueDelete", "SetupQueueDelete function [Setup API]", "SetupQueueDeleteW", "_setupapi_setupqueuedelete", "setup.setupqueuedelete", "setupapi/SetupQueueDelete", "setupapi/SetupQueueDeleteW"]
 old-location: setup\setupqueuedelete.htm
 tech.root: setup
 ms.assetid: 21cdaf05-c4fb-4130-baa5-31baf5391ece

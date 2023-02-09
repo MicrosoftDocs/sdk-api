@@ -2,7 +2,7 @@
 UID: NF:aclapi.SetNamedSecurityInfoW
 title: SetNamedSecurityInfoW function (aclapi.h)
 description: Sets specified security information in the security descriptor of a specified object. (Unicode)
-helpviewer_keywords: ["SetNamedSecurityInfo","SetNamedSecurityInfo function [Security]","SetNamedSecurityInfoA","SetNamedSecurityInfoW","_win32_setnamedsecurityinfo","aclapi/SetNamedSecurityInfo","aclapi/SetNamedSecurityInfoA","aclapi/SetNamedSecurityInfoW","security.setnamedsecurityinfo"]
+helpviewer_keywords: ["SetNamedSecurityInfo", "SetNamedSecurityInfo function [Security]", "SetNamedSecurityInfoW", "_win32_setnamedsecurityinfo", "aclapi/SetNamedSecurityInfo", "aclapi/SetNamedSecurityInfoW", "security.setnamedsecurityinfo"]
 old-location: security\setnamedsecurityinfo.htm
 tech.root: security
 ms.assetid: 70fbba50-2576-4857-a955-119fb12bf7b6

@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupDiGetDriverInstallParamsW
 title: SetupDiGetDriverInstallParamsW function (setupapi.h)
 description: The SetupDiGetDriverInstallParams function retrieves driver installation parameters for a device information set or a particular device information element. (Unicode)
-helpviewer_keywords: ["SetupDiGetDriverInstallParams","SetupDiGetDriverInstallParams function [Device and Driver Installation]","SetupDiGetDriverInstallParamsA","SetupDiGetDriverInstallParamsW","devinst.setupdigetdriverinstallparams","di-rtns_b8e7fdca-3201-42f9-86b4-a8a97be8cb90.xml","setupapi/SetupDiGetDriverInstallParams"]
+helpviewer_keywords: ["SetupDiGetDriverInstallParams", "SetupDiGetDriverInstallParams function [Device and Driver Installation]", "SetupDiGetDriverInstallParamsW", "devinst.setupdigetdriverinstallparams", "di-rtns_b8e7fdca-3201-42f9-86b4-a8a97be8cb90.xml", "setupapi/SetupDiGetDriverInstallParams"]
 old-location: devinst\setupdigetdriverinstallparams.htm
 tech.root: devinst
 ms.assetid: 7c5b0e3f-75cd-48e1-b84e-d81e4e4db7b2

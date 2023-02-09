@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupDiGetDriverInfoDetailW
 title: SetupDiGetDriverInfoDetailW function (setupapi.h)
 description: The SetupDiGetDriverInfoDetail function retrieves driver information detail for a device information set or a particular device information element in the device information set. (Unicode)
-helpviewer_keywords: ["SetupDiGetDriverInfoDetail","SetupDiGetDriverInfoDetail function [Device and Driver Installation]","SetupDiGetDriverInfoDetailA","SetupDiGetDriverInfoDetailW","devinst.setupdigetdriverinfodetail","di-rtns_5a2fb98d-54ee-4290-9969-f5e12d77cbcf.xml","setupapi/SetupDiGetDriverInfoDetail"]
+helpviewer_keywords: ["SetupDiGetDriverInfoDetail", "SetupDiGetDriverInfoDetail function [Device and Driver Installation]", "SetupDiGetDriverInfoDetailW", "devinst.setupdigetdriverinfodetail", "di-rtns_5a2fb98d-54ee-4290-9969-f5e12d77cbcf.xml", "setupapi/SetupDiGetDriverInfoDetail"]
 old-location: devinst\setupdigetdriverinfodetail.htm
 tech.root: devinst
 ms.assetid: 42f3668c-8112-4cc0-bce8-b0b3886c45fb

@@ -2,7 +2,7 @@
 UID: NF:msi.MsiApplyMultiplePatchesA
 title: MsiApplyMultiplePatchesA function (msi.h)
 description: Applies one or more patches to products eligible to receive the patches. (ANSI)
-helpviewer_keywords: ["MsiApplyMultiplePatches","MsiApplyMultiplePatches function","MsiApplyMultiplePatchesA","MsiApplyMultiplePatchesW","msi/MsiApplyMultiplePatches","msi/MsiApplyMultiplePatchesA","msi/MsiApplyMultiplePatchesW","setup.msiapplymultiplepatches"]
+helpviewer_keywords: ["MsiApplyMultiplePatchesA", "msi/MsiApplyMultiplePatchesA"]
 old-location: setup\msiapplymultiplepatches.htm
 tech.root: setup
 ms.assetid: dc0a93e3-9f3c-40b2-86ee-98306038742a

@@ -2,7 +2,7 @@
 UID: NF:shlwapi.IsCharSpaceA
 title: IsCharSpaceA function (shlwapi.h)
 description: Determines whether a character represents a space. (ANSI)
-helpviewer_keywords: ["IsCharSpace","IsCharSpace function [Windows Shell]","IsCharSpaceA","IsCharSpaceW","_shell_IsCharSpace","shell.IsCharSpace","shlwapi/IsCharSpace","shlwapi/IsCharSpaceA","shlwapi/IsCharSpaceW"]
+helpviewer_keywords: ["IsCharSpaceA", "shlwapi/IsCharSpaceA"]
 old-location: shell\IsCharSpace.htm
 tech.root: shell
 ms.assetid: 40ccde4d-38e8-4c03-a826-b6c060037ae5

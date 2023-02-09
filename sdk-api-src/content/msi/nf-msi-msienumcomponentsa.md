@@ -2,7 +2,7 @@
 UID: NF:msi.MsiEnumComponentsA
 title: MsiEnumComponentsA function (msi.h)
 description: The MsiEnumComponents function enumerates the installed components for all products. This function retrieves one component code each time it is called. (ANSI)
-helpviewer_keywords: ["MsiEnumComponents","MsiEnumComponents function","MsiEnumComponentsA","MsiEnumComponentsW","_msi_msienumcomponents","msi/MsiEnumComponents","msi/MsiEnumComponentsA","msi/MsiEnumComponentsW","setup.msienumcomponents"]
+helpviewer_keywords: ["MsiEnumComponentsA", "msi/MsiEnumComponentsA"]
 old-location: setup\msienumcomponents.htm
 tech.root: setup
 ms.assetid: 8ca07b2a-7616-4b0d-be3e-3e500172e5ab

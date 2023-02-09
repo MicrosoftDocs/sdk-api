@@ -2,7 +2,7 @@
 UID: NF:synchapi.CreateEventExA
 title: CreateEventExA function (synchapi.h)
 description: Creates or opens a named or unnamed event object and returns a handle to the object. (ANSI)
-helpviewer_keywords: ["CREATE_EVENT_INITIAL_SET","CREATE_EVENT_MANUAL_RESET","CreateEventEx","CreateEventEx function","CreateEventExA","CreateEventExW","base.createeventex","synchapi/CreateEventEx","synchapi/CreateEventExA","synchapi/CreateEventExW","winbase/CreateEventEx","winbase/CreateEventExA","winbase/CreateEventExW"]
+helpviewer_keywords: ["CREATE_EVENT_INITIAL_SET", "CREATE_EVENT_MANUAL_RESET", "CreateEventExA", "synchapi/CreateEventExA"]
 old-location: base\createeventex.htm
 tech.root: base
 ms.assetid: 402a721d-8338-4df1-ba0b-074f868a1731

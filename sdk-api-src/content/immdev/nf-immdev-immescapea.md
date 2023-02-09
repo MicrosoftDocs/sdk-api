@@ -2,7 +2,7 @@
 UID: NF:immdev.ImmEscapeA
 title: ImmEscapeA function (immdev.h)
 description: The ImmEscapeA (ANSI) function (immdev.h) accesses capabilities of particular IMEs that are not available through other IME API functions.
-helpviewer_keywords: ["ImmEscape","ImmEscape function [Internationalization for Windows Applications]","ImmEscapeA","ImmEscapeW","_win32_ImmEscape","imm/ImmEscape","imm/ImmEscapeA","imm/ImmEscapeW","intl.immescape"]
+helpviewer_keywords: ["ImmEscapeA"]
 old-location: intl\immescape.htm
 tech.root: Intl
 ms.assetid: f63783a8-9434-4fe4-943c-9383d049f848

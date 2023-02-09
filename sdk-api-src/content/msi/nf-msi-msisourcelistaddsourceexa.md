@@ -2,7 +2,7 @@
 UID: NF:msi.MsiSourceListAddSourceExA
 title: MsiSourceListAddSourceExA function (msi.h)
 description: Adds or reorders the set of sources of a patch or product in a specified context. It can also create a source list for a patch that does not exist in the specified context. (ANSI)
-helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MSISOURCETYPE_NETWORK","MSISOURCETYPE_URL","MsiSourceListAddSourceEx","MsiSourceListAddSourceEx function","MsiSourceListAddSourceExA","MsiSourceListAddSourceExW","NULL","User SID","msi/MsiSourceListAddSourceEx","msi/MsiSourceListAddSourceExA","msi/MsiSourceListAddSourceExW","setup.msisourcelistaddsourceex"]
+helpviewer_keywords: ["MSICODE_PATCH", "MSICODE_PRODUCT", "MSIINSTALLCONTEXT_MACHINE", "MSIINSTALLCONTEXT_USERMANAGED", "MSIINSTALLCONTEXT_USERUNMANAGED", "MSISOURCETYPE_NETWORK", "MSISOURCETYPE_URL", "MsiSourceListAddSourceExA", "NULL", "User SID", "msi/MsiSourceListAddSourceExA"]
 old-location: setup\msisourcelistaddsourceex.htm
 tech.root: setup
 ms.assetid: 79f1286e-e30b-4989-a631-f2bcb87486a2

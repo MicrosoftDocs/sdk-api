@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupOpenInfFileW
 title: SetupOpenInfFileW function (setupapi.h)
 description: The SetupOpenInfFile function opens an INF file and returns a handle to it. (Unicode)
-helpviewer_keywords: ["SetupOpenInfFile","SetupOpenInfFile function [Setup API]","SetupOpenInfFileA","SetupOpenInfFileW","_setupapi_setupopeninffile","setup.setupopeninffile","setupapi/SetupOpenInfFile","setupapi/SetupOpenInfFileA","setupapi/SetupOpenInfFileW"]
+helpviewer_keywords: ["SetupOpenInfFile", "SetupOpenInfFile function [Setup API]", "SetupOpenInfFileW", "_setupapi_setupopeninffile", "setup.setupopeninffile", "setupapi/SetupOpenInfFile", "setupapi/SetupOpenInfFileW"]
 old-location: setup\setupopeninffile.htm
 tech.root: setup
 ms.assetid: a0f29f2c-2ac8-4f2d-adad-7a948d5a4eb7

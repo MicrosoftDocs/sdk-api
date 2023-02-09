@@ -2,7 +2,7 @@
 UID: NF:shlwapi.StrCatBuffA
 title: StrCatBuffA function (shlwapi.h)
 description: Copies and appends characters from one string to the end of another. (ANSI)
-helpviewer_keywords: ["StrCatBuff","StrCatBuff function [Windows Shell]","StrCatBuffA","StrCatBuffW","_win32_StrCatBuff","shell.StrCatBuff","shlwapi/StrCatBuff","shlwapi/StrCatBuffA","shlwapi/StrCatBuffW"]
+helpviewer_keywords: ["StrCatBuffA", "shlwapi/StrCatBuffA"]
 old-location: shell\StrCatBuff.htm
 tech.root: shell
 ms.assetid: ce8c002f-f4f8-4b5f-a9e2-7bcd21f8808c

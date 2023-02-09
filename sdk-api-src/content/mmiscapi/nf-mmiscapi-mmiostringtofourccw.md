@@ -2,7 +2,7 @@
 UID: NF:mmiscapi.mmioStringToFOURCCW
 title: mmioStringToFOURCCW function (mmiscapi.h)
 description: The mmioStringToFOURCCW (Unicode) function converts a null-terminated string to a four-character code. (mmioStringToFOURCCW)
-helpviewer_keywords: ["_win32_mmioStringToFOURCC","mmioStringToFOURCC","mmioStringToFOURCC function [Windows Multimedia]","mmioStringToFOURCCA","mmioStringToFOURCCW","mmsystem/mmioStringToFOURCC","mmsystem/mmioStringToFOURCCA","mmsystem/mmioStringToFOURCCW","multimedia.mmiostringtofourcc"]
+helpviewer_keywords: ["_win32_mmioStringToFOURCC", "mmioStringToFOURCC", "mmioStringToFOURCC function [Windows Multimedia]", "mmioStringToFOURCCW", "multimedia.mmiostringtofourcc"]
 old-location: multimedia\mmiostringtofourcc.htm
 tech.root: Multimedia
 ms.assetid: e2d4f7f0-7827-4af0-baa8-02607369247a

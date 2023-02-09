@@ -2,7 +2,7 @@
 UID: NF:shlwapi.SHRegOpenUSKeyA
 title: SHRegOpenUSKeyA function (shlwapi.h)
 description: Opens a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). (ANSI)
-helpviewer_keywords: ["SHRegOpenUSKey","SHRegOpenUSKey function [Windows Shell]","SHRegOpenUSKeyA","SHRegOpenUSKeyW","_win32_SHRegOpenUSKey","shell.SHRegOpenUSKey","shlwapi/SHRegOpenUSKey","shlwapi/SHRegOpenUSKeyA","shlwapi/SHRegOpenUSKeyW"]
+helpviewer_keywords: ["SHRegOpenUSKeyA", "shlwapi/SHRegOpenUSKeyA"]
 old-location: shell\SHRegOpenUSKey.htm
 tech.root: shell
 ms.assetid: 756430a9-a495-412e-95c3-a93222bc467a

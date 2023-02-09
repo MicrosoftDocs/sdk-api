@@ -2,7 +2,7 @@
 UID: NF:shlobj_core.SHUpdateImageA
 title: SHUpdateImageA function (shlobj_core.h)
 description: Notifies the Shell that an image in the system image list has changed. (ANSI)
-helpviewer_keywords: ["SHUpdateImage","SHUpdateImage function [Windows Shell]","SHUpdateImageA","SHUpdateImageW","_win32_SHUpdateImage","shell.SHUpdateImage","shlobj_core/SHUpdateImage","shlobj_core/SHUpdateImageA","shlobj_core/SHUpdateImageW"]
+helpviewer_keywords: ["SHUpdateImageA", "shlobj_core/SHUpdateImageA"]
 old-location: shell\SHUpdateImage.htm
 tech.root: shell
 ms.assetid: 9df5860e-db65-4e43-aaf9-c1e0e33fc569

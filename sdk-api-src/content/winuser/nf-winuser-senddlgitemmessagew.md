@@ -2,7 +2,7 @@
 UID: NF:winuser.SendDlgItemMessageW
 title: SendDlgItemMessageW function (winuser.h)
 description: Sends a message to the specified control in a dialog box. (Unicode)
-helpviewer_keywords: ["SendDlgItemMessage","SendDlgItemMessage function [Dialog Boxes]","SendDlgItemMessageA","SendDlgItemMessageW","_win32_SendDlgItemMessage","_win32_senddlgitemmessage_cpp","dlgbox.senddlgitemmessage","winui._win32_senddlgitemmessage","winuser/SendDlgItemMessage","winuser/SendDlgItemMessageA","winuser/SendDlgItemMessageW"]
+helpviewer_keywords: ["SendDlgItemMessage", "SendDlgItemMessage function [Dialog Boxes]", "SendDlgItemMessageW", "_win32_SendDlgItemMessage", "_win32_senddlgitemmessage_cpp", "dlgbox.senddlgitemmessage", "winui._win32_senddlgitemmessage", "winuser/SendDlgItemMessage", "winuser/SendDlgItemMessageW"]
 old-location: dlgbox\senddlgitemmessage.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\senddlgitemmessage.htm

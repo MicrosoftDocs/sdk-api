@@ -2,7 +2,7 @@
 UID: NF:winbase.WritePrivateProfileStructW
 title: WritePrivateProfileStructW function (winbase.h)
 description: Copies data into a key in the specified section of an initialization file. As it copies the data, the function calculates a checksum and appends it to the end of the data. (Unicode)
-helpviewer_keywords: ["WritePrivateProfileStruct","WritePrivateProfileStruct function","WritePrivateProfileStructA","WritePrivateProfileStructW","_win32_writeprivateprofilestruct","base.writeprivateprofilestruct","winbase/WritePrivateProfileStruct","winbase/WritePrivateProfileStructA","winbase/WritePrivateProfileStructW"]
+helpviewer_keywords: ["WritePrivateProfileStruct", "WritePrivateProfileStruct function", "WritePrivateProfileStructW", "_win32_writeprivateprofilestruct", "base.writeprivateprofilestruct", "winbase/WritePrivateProfileStruct", "winbase/WritePrivateProfileStructW"]
 old-location: base\writeprivateprofilestruct.htm
 tech.root: winprog
 ms.assetid: 21b1927c-40b0-4b79-931b-6d3db176fb71

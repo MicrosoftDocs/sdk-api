@@ -2,7 +2,7 @@
 UID: NF:strsafe.StringCbGetsW
 title: StringCbGetsW function (strsafe.h)
 description: Gets one line of text from stdin, up to and including the newline character ('\n'). (StringCbGetsW)
-helpviewer_keywords: ["StringCbGets","StringCbGets function [Menus and Other Resources]","StringCbGetsA","StringCbGetsW","_shell_StringCbGets","_shell_stringcbgets_cpp","menurc.stringcbgets","strsafe/StringCbGets","strsafe/StringCbGetsA","strsafe/StringCbGetsW","winui._shell_stringcbgets"]
+helpviewer_keywords: ["StringCbGets", "StringCbGets function [Menus and Other Resources]", "StringCbGetsW", "_shell_StringCbGets", "_shell_stringcbgets_cpp", "menurc.stringcbgets", "strsafe/StringCbGets", "strsafe/StringCbGetsW", "winui._shell_stringcbgets"]
 old-location: menurc\stringcbgets.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbgets.htm

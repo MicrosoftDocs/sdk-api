@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupCopyOEMInfW
 title: SetupCopyOEMInfW function (setupapi.h)
 description: The SetupCopyOEMInf function copies a specified .inf file to the %windir%/Inf directory. (Unicode)
-helpviewer_keywords: ["SPOST_NONE","SPOST_PATH","SPOST_URL","SP_COPY_DELETESOURCE","SP_COPY_NOOVERWRITE","SP_COPY_OEMINF_CATALOG_ONLY","SP_COPY_REPLACEONLY","SetupCopyOEMInf","SetupCopyOEMInf function [Setup API]","SetupCopyOEMInfA","SetupCopyOEMInfW","_setupapi_setupcopyoeminf","setup.setupcopyoeminf","setupapi/SetupCopyOEMInf","setupapi/SetupCopyOEMInfA","setupapi/SetupCopyOEMInfW"]
+helpviewer_keywords: ["SPOST_NONE", "SPOST_PATH", "SPOST_URL", "SP_COPY_DELETESOURCE", "SP_COPY_NOOVERWRITE", "SP_COPY_OEMINF_CATALOG_ONLY", "SP_COPY_REPLACEONLY", "SetupCopyOEMInf", "SetupCopyOEMInf function [Setup API]", "SetupCopyOEMInfW", "_setupapi_setupcopyoeminf", "setup.setupcopyoeminf", "setupapi/SetupCopyOEMInf", "setupapi/SetupCopyOEMInfW"]
 old-location: setup\setupcopyoeminf.htm
 tech.root: setup
 ms.assetid: f082145d-b3e7-4efd-8820-3376a36f3710

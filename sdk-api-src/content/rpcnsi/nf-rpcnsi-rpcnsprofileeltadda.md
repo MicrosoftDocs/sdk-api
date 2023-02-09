@@ -2,7 +2,7 @@
 UID: NF:rpcnsi.RpcNsProfileEltAddA
 title: RpcNsProfileEltAddA function (rpcnsi.h)
 description: The RpcNsProfileEltAdd function adds an element to a profile. If necessary, it creates the entry. (ANSI)
-helpviewer_keywords: ["RpcNsProfileEltAdd","RpcNsProfileEltAdd function [RPC]","RpcNsProfileEltAddA","RpcNsProfileEltAddW","_rpc_rpcnsprofileeltadd","rpc.rpcnsprofileeltadd","rpcnsi/RpcNsProfileEltAdd","rpcnsi/RpcNsProfileEltAddA","rpcnsi/RpcNsProfileEltAddW"]
+helpviewer_keywords: ["RpcNsProfileEltAddA", "rpcnsi/RpcNsProfileEltAddA"]
 old-location: rpc\rpcnsprofileeltadd.htm
 tech.root: Rpc
 ms.assetid: e0a2d4b9-853c-4578-8a15-e0be7bfc0b9b

@@ -2,7 +2,7 @@
 UID: NF:winbase.GetPrivateProfileIntW
 title: GetPrivateProfileIntW function (winbase.h)
 description: The GetPrivateProfileIntW (Unicode) function (winbase.h) retrieves an integer associated with a key in the specified section of an initialization file.
-helpviewer_keywords: ["GetPrivateProfileInt","GetPrivateProfileInt function","GetPrivateProfileIntA","GetPrivateProfileIntW","_win32_getprivateprofileint","base.getprivateprofileint","winbase/GetPrivateProfileInt","winbase/GetPrivateProfileIntA","winbase/GetPrivateProfileIntW"]
+helpviewer_keywords: ["GetPrivateProfileInt", "GetPrivateProfileInt function", "GetPrivateProfileIntW", "_win32_getprivateprofileint", "base.getprivateprofileint", "winbase/GetPrivateProfileInt", "winbase/GetPrivateProfileIntW"]
 old-location: base\getprivateprofileint.htm
 tech.root: winprog
 ms.assetid: dcb48ec3-7172-4bcc-a833-23e34a73d70b

@@ -2,7 +2,7 @@
 UID: NF:winuser.GetClassInfoA
 title: GetClassInfoA function (winuser.h)
 description: Retrieves information about a window class. (ANSI)
-helpviewer_keywords: ["GetClassInfo","GetClassInfo function [Windows and Messages]","GetClassInfoA","GetClassInfoW","_win32_GetClassInfo","_win32_getclassinfo_cpp","winmsg.getclassinfo","winui._win32_getclassinfo","winuser/GetClassInfo","winuser/GetClassInfoA","winuser/GetClassInfoW"]
+helpviewer_keywords: ["GetClassInfoA", "winuser/GetClassInfoA"]
 old-location: winmsg\getclassinfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclassinfo.htm

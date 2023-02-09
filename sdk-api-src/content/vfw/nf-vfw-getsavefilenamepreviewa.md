@@ -2,7 +2,7 @@
 UID: NF:vfw.GetSaveFileNamePreviewA
 title: GetSaveFileNamePreviewA function (vfw.h)
 description: The GetSaveFileNamePreview function selects a file by using the Save As dialog box. The dialog box also allows the user to preview the currently specified file. This function augments the capability found in the GetSaveFileName function. (ANSI)
-helpviewer_keywords: ["GetSaveFileNamePreview","GetSaveFileNamePreview function [Windows Multimedia]","GetSaveFileNamePreviewA","GetSaveFileNamePreviewW","_win32_GetSaveFileNamePreview","multimedia.getsavefilenamepreview","vfw/GetSaveFileNamePreview","vfw/GetSaveFileNamePreviewA","vfw/GetSaveFileNamePreviewW"]
+helpviewer_keywords: ["GetSaveFileNamePreviewA", "vfw/GetSaveFileNamePreviewA"]
 old-location: multimedia\getsavefilenamepreview.htm
 tech.root: Multimedia
 ms.assetid: f6dd3127-b3fb-40bc-892c-34bacb47d9a6

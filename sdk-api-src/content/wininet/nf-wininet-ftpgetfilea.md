@@ -2,7 +2,7 @@
 UID: NF:wininet.FtpGetFileA
 title: FtpGetFileA function (wininet.h)
 description: Retrieves a file from the FTP server and stores it under the specified file name, creating a new local file in the process. (ANSI)
-helpviewer_keywords: ["FTP_TRANSFER_TYPE_ASCII","FTP_TRANSFER_TYPE_BINARY","FTP_TRANSFER_TYPE_UNKNOWN","FtpGetFile","FtpGetFile function [WinINet]","FtpGetFileA","FtpGetFileW","INTERNET_FLAG_HYPERLINK","INTERNET_FLAG_NEED_FILE","INTERNET_FLAG_RELOAD","INTERNET_FLAG_RESYNCHRONIZE","INTERNET_FLAG_TRANSFER_ASCII","INTERNET_FLAG_TRANSFER_BINARY","_win32_ftpgetfile","wininet.ftpgetfile","wininet/FtpGetFile","wininet/FtpGetFileA","wininet/FtpGetFileW"]
+helpviewer_keywords: ["FTP_TRANSFER_TYPE_ASCII", "FTP_TRANSFER_TYPE_BINARY", "FTP_TRANSFER_TYPE_UNKNOWN", "FtpGetFileA", "INTERNET_FLAG_HYPERLINK", "INTERNET_FLAG_NEED_FILE", "INTERNET_FLAG_RELOAD", "INTERNET_FLAG_RESYNCHRONIZE", "INTERNET_FLAG_TRANSFER_ASCII", "INTERNET_FLAG_TRANSFER_BINARY", "wininet/FtpGetFileA"]
 old-location: wininet\ftpgetfile.htm
 tech.root: wininet
 ms.assetid: 2de83924-dc48-42bc-8f08-b94e9eb88b6f

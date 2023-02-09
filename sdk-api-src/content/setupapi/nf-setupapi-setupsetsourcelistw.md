@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupSetSourceListW
 title: SetupSetSourceListW function (setupapi.h)
 description: The SetupSetSourceList function allows the caller to set the list of installation sources for either the current user or the system (common to all users). (Unicode)
-helpviewer_keywords: ["SetupSetSourceList","SetupSetSourceList function [Setup API]","SetupSetSourceListA","SetupSetSourceListW","_setupapi_setupsetsourcelist","setup.setupsetsourcelist","setupapi/SetupSetSourceList","setupapi/SetupSetSourceListA","setupapi/SetupSetSourceListW"]
+helpviewer_keywords: ["SetupSetSourceList", "SetupSetSourceList function [Setup API]", "SetupSetSourceListW", "_setupapi_setupsetsourcelist", "setup.setupsetsourcelist", "setupapi/SetupSetSourceList", "setupapi/SetupSetSourceListW"]
 old-location: setup\setupsetsourcelist.htm
 tech.root: setup
 ms.assetid: 6a37a56c-ae44-4a57-9307-90efcf025d1a

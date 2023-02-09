@@ -2,7 +2,7 @@
 UID: NF:wininet.HttpSendRequestA
 title: HttpSendRequestA function (wininet.h)
 description: Sends the specified request to the HTTP server, allowing callers to send extra data beyond what is normally passed to HttpSendRequestEx. (ANSI)
-helpviewer_keywords: ["HttpSendRequest","HttpSendRequest function [WinINet]","HttpSendRequestA","HttpSendRequestW","_inet_httpsendrequest_function","wininet.httpsendrequest","wininet/HttpSendRequest","wininet/HttpSendRequestA","wininet/HttpSendRequestW"]
+helpviewer_keywords: ["HttpSendRequestA", "wininet/HttpSendRequestA"]
 old-location: wininet\httpsendrequest.htm
 tech.root: wininet
 ms.assetid: f53d9ff7-43b1-452f-a6cb-754d0229ab9a

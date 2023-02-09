@@ -2,7 +2,7 @@
 UID: NF:msi.MsiGetPatchFileListA
 title: MsiGetPatchFileListA function (msi.h)
 description: The MsiGetPatchFileList function is provided a list of .msp files, delimited by semicolons, and retrieves the list of files that can be updated by the patches. (ANSI)
-helpviewer_keywords: ["MsiGetPatchFileList","MsiGetPatchFileList function","MsiGetPatchFileListA","MsiGetPatchFileListW","msi/MsiGetPatchFileList","msi/MsiGetPatchFileListA","msi/MsiGetPatchFileListW","setup.msigetpatchfilelist"]
+helpviewer_keywords: ["MsiGetPatchFileListA", "msi/MsiGetPatchFileListA"]
 old-location: setup\msigetpatchfilelist.htm
 tech.root: setup
 ms.assetid: c0a98ae4-d348-462d-8907-87116a64f79e

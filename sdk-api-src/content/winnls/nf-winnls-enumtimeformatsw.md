@@ -2,7 +2,7 @@
 UID: NF:winnls.EnumTimeFormatsW
 title: EnumTimeFormatsW function (winnls.h)
 description: Enumerates the time formats that are available for a locale specified by identifier.Note  For interoperability reasons, the application should prefer the EnumTimeFormatsEx function to EnumTimeFormats because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that runs only on Windows Vista and later should use EnumTimeFormatsEx. (Unicode)
-helpviewer_keywords: ["0","EnumTimeFormats","EnumTimeFormats function [Internationalization for Windows Applications]","EnumTimeFormatsA","EnumTimeFormatsW","LOCAL_USE_CP_ACP","TIME_NOSECONDS","_win32_EnumTimeFormats","intl.enumtimeformats","winnls/EnumTimeFormats","winnls/EnumTimeFormatsA","winnls/EnumTimeFormatsW"]
+helpviewer_keywords: ["0", "EnumTimeFormats", "EnumTimeFormats function [Internationalization for Windows Applications]", "EnumTimeFormatsW", "LOCAL_USE_CP_ACP", "TIME_NOSECONDS", "_win32_EnumTimeFormats", "intl.enumtimeformats", "winnls/EnumTimeFormats", "winnls/EnumTimeFormatsW"]
 old-location: intl\enumtimeformats.htm
 tech.root: Intl
 ms.assetid: ad0fe26f-b915-4903-9335-4b268a889c80

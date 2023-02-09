@@ -2,7 +2,7 @@
 UID: NF:pdh.PdhExpandWildCardPathHW
 title: PdhExpandWildCardPathHW function (pdh.h)
 description: Examines the specified computer or log file and returns those counter paths that match the given counter path which contains wildcard characters.This function is identical to the PdhExpandWildCardPath function, except that it supports the use of handles to data sources. (Unicode)
-helpviewer_keywords: ["PDH_NOEXPANDCOUNTERS","PDH_NOEXPANDINSTANCES","PdhExpandWildCardPathH","PdhExpandWildCardPathH function [Perf]","PdhExpandWildCardPathHA","PdhExpandWildCardPathHW","_win32_pdhexpandwildcardpathh","base.pdhexpandwildcardpathh","pdh/PdhExpandWildCardPathH","pdh/PdhExpandWildCardPathHA","pdh/PdhExpandWildCardPathHW","perf.pdhexpandwildcardpathh"]
+helpviewer_keywords: ["PDH_NOEXPANDCOUNTERS", "PDH_NOEXPANDINSTANCES", "PdhExpandWildCardPathH", "PdhExpandWildCardPathH function [Perf]", "PdhExpandWildCardPathHW", "_win32_pdhexpandwildcardpathh", "base.pdhexpandwildcardpathh", "pdh/PdhExpandWildCardPathH", "pdh/PdhExpandWildCardPathHW", "perf.pdhexpandwildcardpathh"]
 old-location: perf\pdhexpandwildcardpathh.htm
 tech.root: perf
 ms.assetid: d7d13beb-02ab-4204-808e-d395197f09e1

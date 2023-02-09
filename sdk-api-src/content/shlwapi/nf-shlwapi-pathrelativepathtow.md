@@ -2,7 +2,7 @@
 UID: NF:shlwapi.PathRelativePathToW
 title: PathRelativePathToW function (shlwapi.h)
 description: Creates a relative path from one file or folder to another. (Unicode)
-helpviewer_keywords: ["PathRelativePathTo","PathRelativePathTo function [Windows Shell]","PathRelativePathToA","PathRelativePathToW","_win32_PathRelativePathTo","shell.PathRelativePathTo","shlwapi/PathRelativePathTo","shlwapi/PathRelativePathToA","shlwapi/PathRelativePathToW"]
+helpviewer_keywords: ["PathRelativePathTo", "PathRelativePathTo function [Windows Shell]", "PathRelativePathToW", "_win32_PathRelativePathTo", "shell.PathRelativePathTo", "shlwapi/PathRelativePathTo", "shlwapi/PathRelativePathToW"]
 old-location: shell\PathRelativePathTo.htm
 tech.root: shell
 ms.assetid: 7ed8d50a-2ad4-4ddf-941d-aea593341592

@@ -2,7 +2,7 @@
 UID: NF:msiquery.MsiSummaryInfoGetPropertyW
 title: MsiSummaryInfoGetPropertyW function (msiquery.h)
 description: The MsiSummaryInfoGetProperty function gets a single property from the summary information stream. (Unicode)
-helpviewer_keywords: ["MsiSummaryInfoGetProperty","MsiSummaryInfoGetProperty function","MsiSummaryInfoGetPropertyA","MsiSummaryInfoGetPropertyW","_msi_msisummaryinfogetproperty","msiquery/MsiSummaryInfoGetProperty","msiquery/MsiSummaryInfoGetPropertyA","msiquery/MsiSummaryInfoGetPropertyW","setup.msisummaryinfogetproperty"]
+helpviewer_keywords: ["MsiSummaryInfoGetProperty", "MsiSummaryInfoGetProperty function", "MsiSummaryInfoGetPropertyW", "_msi_msisummaryinfogetproperty", "msiquery/MsiSummaryInfoGetProperty", "msiquery/MsiSummaryInfoGetPropertyW", "setup.msisummaryinfogetproperty"]
 old-location: setup\msisummaryinfogetproperty.htm
 tech.root: setup
 ms.assetid: 7df4bd31-85a7-4b61-beaf-5c1f2117e6f5

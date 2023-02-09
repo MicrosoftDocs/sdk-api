@@ -2,7 +2,7 @@
 UID: NF:rpcdce.RpcNetworkIsProtseqValidW
 title: RpcNetworkIsProtseqValidW function (rpcdce.h)
 description: The RpcNetworkIsProtseqValidW (Unicode) function (rpcdce.h) tells if the RPC run-time library and the operating system support the specified protocol sequence.
-helpviewer_keywords: ["RpcNetworkIsProtseqValid","RpcNetworkIsProtseqValid function [RPC]","RpcNetworkIsProtseqValidA","RpcNetworkIsProtseqValidW","_rpc_rpcnetworkisprotseqvalid","rpc.rpcnetworkisprotseqvalid","rpcdce/RpcNetworkIsProtseqValid","rpcdce/RpcNetworkIsProtseqValidA","rpcdce/RpcNetworkIsProtseqValidW"]
+helpviewer_keywords: ["RpcNetworkIsProtseqValid", "RpcNetworkIsProtseqValid function [RPC]", "RpcNetworkIsProtseqValidW", "_rpc_rpcnetworkisprotseqvalid", "rpc.rpcnetworkisprotseqvalid", "rpcdce/RpcNetworkIsProtseqValid", "rpcdce/RpcNetworkIsProtseqValidW"]
 old-location: rpc\rpcnetworkisprotseqvalid.htm
 tech.root: Rpc
 ms.assetid: 72a28f64-2a66-4b61-96a9-80b8b9486151

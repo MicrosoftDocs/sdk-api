@@ -2,7 +2,7 @@
 UID: NF:shlobj_core.SHGetDataFromIDListW
 title: SHGetDataFromIDListW function (shlobj_core.h)
 description: Retrieves extended property data from a relative identifier list. (Unicode)
-helpviewer_keywords: ["SHGDFIL_DESCRIPTIONID","SHGDFIL_FINDDATA","SHGDFIL_NETRESOURCE","SHGetDataFromIDList","SHGetDataFromIDList function [Windows Shell]","SHGetDataFromIDListA","SHGetDataFromIDListW","_win32_SHGetDataFromIDList","shell.SHGetDataFromIDList","shlobj_core/SHGetDataFromIDList","shlobj_core/SHGetDataFromIDListA","shlobj_core/SHGetDataFromIDListW"]
+helpviewer_keywords: ["SHGDFIL_DESCRIPTIONID", "SHGDFIL_FINDDATA", "SHGDFIL_NETRESOURCE", "SHGetDataFromIDList", "SHGetDataFromIDList function [Windows Shell]", "SHGetDataFromIDListW", "_win32_SHGetDataFromIDList", "shell.SHGetDataFromIDList", "shlobj_core/SHGetDataFromIDList", "shlobj_core/SHGetDataFromIDListW"]
 old-location: shell\SHGetDataFromIDList.htm
 tech.root: shell
 ms.assetid: 11c041bd-22fd-46a4-b75c-cc86ee771241

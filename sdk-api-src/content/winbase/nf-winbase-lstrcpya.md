@@ -2,7 +2,7 @@
 UID: NF:winbase.lstrcpyA
 title: lstrcpyA function (winbase.h)
 description: Copies a string to a buffer. (ANSI)
-helpviewer_keywords: ["_win32_lstrcpy","_win32_lstrcpy_cpp","lstrcpy","lstrcpy function [Menus and Other Resources]","lstrcpyA","lstrcpyW","menurc.lstrcpy","winbase/lstrcpy","winbase/lstrcpyA","winbase/lstrcpyW","winui._win32_lstrcpy"]
+helpviewer_keywords: ["lstrcpyA", "winbase/lstrcpyA"]
 old-location: menurc\lstrcpy.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcpy.htm

@@ -2,7 +2,7 @@
 UID: NF:ntdsapi.DsReplicaSyncAllA
 title: DsReplicaSyncAllA function (ntdsapi.h)
 description: Synchronizes a server with all other servers, using transitive replication, as necessary. (ANSI)
-helpviewer_keywords: ["DS_REPSYNCALL_ABORT_IF_SERVER_UNAVAILABLE","DS_REPSYNCALL_CROSS_SITE_BOUNDARIES","DS_REPSYNCALL_DO_NOT_SYNC","DS_REPSYNCALL_ID_SERVERS_BY_DN","DS_REPSYNCALL_NO_OPTIONS","DS_REPSYNCALL_PUSH_CHANGES_OUTWARD","DS_REPSYNCALL_SKIP_INITIAL_CHECK","DS_REPSYNCALL_SYNC_ADJACENT_SERVERS_ONLY","DsReplicaSyncAll","DsReplicaSyncAll function [Active Directory]","DsReplicaSyncAllA","DsReplicaSyncAllW","ad.dsreplicasyncall","ntdsapi/DsReplicaSyncAll","ntdsapi/DsReplicaSyncAllA","ntdsapi/DsReplicaSyncAllW"]
+helpviewer_keywords: ["DS_REPSYNCALL_ABORT_IF_SERVER_UNAVAILABLE", "DS_REPSYNCALL_CROSS_SITE_BOUNDARIES", "DS_REPSYNCALL_DO_NOT_SYNC", "DS_REPSYNCALL_ID_SERVERS_BY_DN", "DS_REPSYNCALL_NO_OPTIONS", "DS_REPSYNCALL_PUSH_CHANGES_OUTWARD", "DS_REPSYNCALL_SKIP_INITIAL_CHECK", "DS_REPSYNCALL_SYNC_ADJACENT_SERVERS_ONLY", "DsReplicaSyncAllA", "ntdsapi/DsReplicaSyncAllA"]
 old-location: ad\dsreplicasyncall.htm
 tech.root: ad
 ms.assetid: 2608adde-4f18-4048-a96f-d736ff09cd4b

@@ -2,7 +2,7 @@
 UID: NF:rpcnsi.RpcNsProfileEltRemoveA
 title: RpcNsProfileEltRemoveA function (rpcnsi.h)
 description: The RpcNsProfileEltRemove function removes an element from a profile. (ANSI)
-helpviewer_keywords: ["RpcNsProfileEltRemove","RpcNsProfileEltRemove function [RPC]","RpcNsProfileEltRemoveA","RpcNsProfileEltRemoveW","_rpc_rpcnsprofileeltremove","rpc.rpcnsprofileeltremove","rpcnsi/RpcNsProfileEltRemove","rpcnsi/RpcNsProfileEltRemoveA","rpcnsi/RpcNsProfileEltRemoveW"]
+helpviewer_keywords: ["RpcNsProfileEltRemoveA", "rpcnsi/RpcNsProfileEltRemoveA"]
 old-location: rpc\rpcnsprofileeltremove.htm
 tech.root: Rpc
 ms.assetid: 303df924-73ad-4e2f-aa30-e600bb5594c2

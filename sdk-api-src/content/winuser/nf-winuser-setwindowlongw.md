@@ -2,7 +2,7 @@
 UID: NF:winuser.SetWindowLongW
 title: SetWindowLongW function (winuser.h)
 description: Changes an attribute of the specified window. The function also sets the 32-bit (long) value at the specified offset into the extra window memory. (Unicode)
-helpviewer_keywords: ["DWL_DLGPROC","DWL_MSGRESULT","DWL_USER","GWL_EXSTYLE","GWL_HINSTANCE","GWL_ID","GWL_STYLE","GWL_USERDATA","GWL_WNDPROC","SetWindowLong","SetWindowLong function [Windows and Messages]","SetWindowLongA","SetWindowLongW","_win32_SetWindowLong","_win32_setwindowlong_cpp","winmsg.setwindowlong","winui._win32_setwindowlong","winuser/SetWindowLong","winuser/SetWindowLongA","winuser/SetWindowLongW"]
+helpviewer_keywords: ["DWL_DLGPROC", "DWL_MSGRESULT", "DWL_USER", "GWL_EXSTYLE", "GWL_HINSTANCE", "GWL_ID", "GWL_STYLE", "GWL_USERDATA", "GWL_WNDPROC", "SetWindowLong", "SetWindowLong function [Windows and Messages]", "SetWindowLongW", "_win32_SetWindowLong", "_win32_setwindowlong_cpp", "winmsg.setwindowlong", "winui._win32_setwindowlong", "winuser/SetWindowLong", "winuser/SetWindowLongW"]
 old-location: winmsg\setwindowlong.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\setwindowlong.htm

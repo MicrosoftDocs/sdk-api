@@ -2,7 +2,7 @@
 UID: NF:wingdi.CreateEnhMetaFileA
 title: CreateEnhMetaFileA function (wingdi.h)
 description: The CreateEnhMetaFile function creates a device context for an enhanced-format metafile. This device context can be used to store a device-independent picture. (ANSI)
-helpviewer_keywords: ["CreateEnhMetaFile","CreateEnhMetaFile function [Windows GDI]","CreateEnhMetaFileA","CreateEnhMetaFileW","_win32_CreateEnhMetaFile","gdi.createenhmetafile","wingdi/CreateEnhMetaFile","wingdi/CreateEnhMetaFileA","wingdi/CreateEnhMetaFileW"]
+helpviewer_keywords: ["CreateEnhMetaFileA", "wingdi/CreateEnhMetaFileA"]
 old-location: gdi\createenhmetafile.htm
 tech.root: gdi
 ms.assetid: 647f83ca-dca3-44af-a594-5f9ba2bd7607

@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupGetInfFileListW
 title: SetupGetInfFileListW function (setupapi.h)
 description: The SetupGetInfFileList function returns a list of INF files located in a caller-specified directory to a call-supplied buffer. (Unicode)
-helpviewer_keywords: ["SetupGetInfFileList","SetupGetInfFileList function [Setup API]","SetupGetInfFileListA","SetupGetInfFileListW","_setupapi_setupgetinffilelist","setup.setupgetinffilelist","setupapi/SetupGetInfFileList","setupapi/SetupGetInfFileListA","setupapi/SetupGetInfFileListW"]
+helpviewer_keywords: ["SetupGetInfFileList", "SetupGetInfFileList function [Setup API]", "SetupGetInfFileListW", "_setupapi_setupgetinffilelist", "setup.setupgetinffilelist", "setupapi/SetupGetInfFileList", "setupapi/SetupGetInfFileListW"]
 old-location: setup\setupgetinffilelist.htm
 tech.root: setup
 ms.assetid: d7074e88-757c-4ca9-adaf-2010472f106c

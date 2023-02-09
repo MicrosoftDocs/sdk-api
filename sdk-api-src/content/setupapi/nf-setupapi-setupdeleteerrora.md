@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupDeleteErrorA
 title: SetupDeleteErrorA function (setupapi.h)
 description: The SetupDeleteError function generates a dialog box that informs the user of a delete error. (ANSI)
-helpviewer_keywords: ["SetupDeleteError","SetupDeleteError function [Setup API]","SetupDeleteErrorA","SetupDeleteErrorW","_setupapi_setupdeleteerror","setup.setupdeleteerror","setupapi/SetupDeleteError","setupapi/SetupDeleteErrorA","setupapi/SetupDeleteErrorW"]
+helpviewer_keywords: ["SetupDeleteErrorA", "setupapi/SetupDeleteErrorA"]
 old-location: setup\setupdeleteerror.htm
 tech.root: setup
 ms.assetid: 200e1926-7ebd-4373-803d-1c054db5df8d

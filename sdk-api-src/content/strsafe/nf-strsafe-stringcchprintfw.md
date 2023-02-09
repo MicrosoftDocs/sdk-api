@@ -2,7 +2,7 @@
 UID: NF:strsafe.StringCchPrintfW
 title: StringCchPrintfW function (strsafe.h)
 description: Writes formatted data to the specified string. (StringCchPrintfW)
-helpviewer_keywords: ["StringCchPrintf","StringCchPrintf function [Menus and Other Resources]","StringCchPrintfA","StringCchPrintfW","_shell_StringCchPrintf","_shell_stringcchprintf_cpp","menurc.stringcchprintf","strsafe/StringCchPrintf","strsafe/StringCchPrintfA","strsafe/StringCchPrintfW","winui._shell_stringcchprintf"]
+helpviewer_keywords: ["StringCchPrintf", "StringCchPrintf function [Menus and Other Resources]", "StringCchPrintfW", "_shell_StringCchPrintf", "_shell_stringcchprintf_cpp", "menurc.stringcchprintf", "strsafe/StringCchPrintf", "strsafe/StringCchPrintfW", "winui._shell_stringcchprintf"]
 old-location: menurc\stringcchprintf.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchprintf.htm

@@ -2,7 +2,7 @@
 UID: NF:strsafe.StringCbCatNW
 title: StringCbCatNW function (strsafe.h)
 description: Concatenates the specified number of bytes from one string to another string. (StringCbCatNW)
-helpviewer_keywords: ["StringCbCatN","StringCbCatN function [Menus and Other Resources]","StringCbCatNA","StringCbCatNW","_shell_StringCbCatN","_shell_stringcbcatn_cpp","menurc.stringcbcatn","strsafe/StringCbCatN","strsafe/StringCbCatNA","strsafe/StringCbCatNW","winui._shell_stringcbcatn"]
+helpviewer_keywords: ["StringCbCatN", "StringCbCatN function [Menus and Other Resources]", "StringCbCatNW", "_shell_StringCbCatN", "_shell_stringcbcatn_cpp", "menurc.stringcbcatn", "strsafe/StringCbCatN", "strsafe/StringCbCatNW", "winui._shell_stringcbcatn"]
 old-location: menurc\stringcbcatn.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcatn.htm

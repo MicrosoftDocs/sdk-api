@@ -2,7 +2,7 @@
 UID: NF:winldap.ldap_rename_ext_sW
 title: ldap_rename_ext_sW function (winldap.h)
 description: The ldap_rename_ext_sW (Unicode) function (winldap.h) is a synchronous operation that changes the distinguished name of an entry in the directory.
-helpviewer_keywords: ["_ldap_ldap_rename_ext_s","ldap.ldap__rename__ext__s","ldap.ldap_rename_ext_s","ldap_rename_ext_s","ldap_rename_ext_s function [LDAP]","ldap_rename_ext_sA","ldap_rename_ext_sW","winldap/ldap_rename_ext_s","winldap/ldap_rename_ext_sA","winldap/ldap_rename_ext_sW"]
+helpviewer_keywords: ["_ldap_ldap_rename_ext_s", "ldap.ldap__rename__ext__s", "ldap.ldap_rename_ext_s", "ldap_rename_ext_s", "ldap_rename_ext_s function [LDAP]", "ldap_rename_ext_sW", "winldap/ldap_rename_ext_s", "winldap/ldap_rename_ext_sW"]
 old-location: ldap\ldap_rename_ext_s.htm
 tech.root: ldap
 ms.assetid: 85a605f9-d075-4b1d-bfcb-a75c9e7f3023

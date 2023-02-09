@@ -2,7 +2,7 @@
 UID: NF:shlwapi.UrlCanonicalizeW
 title: UrlCanonicalizeW function (shlwapi.h)
 description: Converts a URL string into canonical form. (Unicode)
-helpviewer_keywords: ["URL_DONT_SIMPLIFY","URL_ESCAPE_AS_UTF8","URL_ESCAPE_PERCENT","URL_ESCAPE_SPACES_ONLY","URL_ESCAPE_UNSAFE","URL_NO_META","URL_PLUGGABLE_PROTOCOL","URL_UNESCAPE","UrlCanonicalize","UrlCanonicalize function [Windows Shell]","UrlCanonicalizeA","UrlCanonicalizeW","_win32_UrlCanonicalize","shell.UrlCanonicalize","shlwapi/UrlCanonicalize","shlwapi/UrlCanonicalizeA","shlwapi/UrlCanonicalizeW"]
+helpviewer_keywords: ["URL_DONT_SIMPLIFY", "URL_ESCAPE_AS_UTF8", "URL_ESCAPE_PERCENT", "URL_ESCAPE_SPACES_ONLY", "URL_ESCAPE_UNSAFE", "URL_NO_META", "URL_PLUGGABLE_PROTOCOL", "URL_UNESCAPE", "UrlCanonicalize", "UrlCanonicalize function [Windows Shell]", "UrlCanonicalizeW", "_win32_UrlCanonicalize", "shell.UrlCanonicalize", "shlwapi/UrlCanonicalize", "shlwapi/UrlCanonicalizeW"]
 old-location: shell\UrlCanonicalize.htm
 tech.root: shell
 ms.assetid: 70802745-0611-4d37-800e-b50d5ea23426

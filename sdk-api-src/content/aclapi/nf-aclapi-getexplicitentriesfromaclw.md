@@ -2,7 +2,7 @@
 UID: NF:aclapi.GetExplicitEntriesFromAclW
 title: GetExplicitEntriesFromAclW function (aclapi.h)
 description: Retrieves an array of structures that describe the access control entries (ACEs) in an access control list (ACL). (Unicode)
-helpviewer_keywords: ["GetExplicitEntriesFromAcl","GetExplicitEntriesFromAcl function [Security]","GetExplicitEntriesFromAclA","GetExplicitEntriesFromAclW","_win32_getexplicitentriesfromacl","aclapi/GetExplicitEntriesFromAcl","aclapi/GetExplicitEntriesFromAclA","aclapi/GetExplicitEntriesFromAclW","security.getexplicitentriesfromacl"]
+helpviewer_keywords: ["GetExplicitEntriesFromAcl", "GetExplicitEntriesFromAcl function [Security]", "GetExplicitEntriesFromAclW", "_win32_getexplicitentriesfromacl", "aclapi/GetExplicitEntriesFromAcl", "aclapi/GetExplicitEntriesFromAclW", "security.getexplicitentriesfromacl"]
 old-location: security\getexplicitentriesfromacl.htm
 tech.root: security
 ms.assetid: 186aa6aa-efc3-4f8a-acad-e257da3dac0b

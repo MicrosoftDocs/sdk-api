@@ -2,7 +2,7 @@
 UID: NF:wingdi.wglUseFontOutlinesW
 title: wglUseFontOutlinesW function (wingdi.h)
 description: The wglUseFontOutlines function creates a set of display lists, one for each glyph of the currently selected outline font of a device context, for use with the current rendering context. (Unicode)
-helpviewer_keywords: ["_ogl_wglUseFontOutlines","opengl.wglusefontoutlines","wglUseFontOutlines","wglUseFontOutlines function [OpenGL]","wglUseFontOutlinesA","wglUseFontOutlinesW","wingdi/wglUseFontOutlines","wingdi/wglUseFontOutlinesA","wingdi/wglUseFontOutlinesW"]
+helpviewer_keywords: ["_ogl_wglUseFontOutlines", "opengl.wglusefontoutlines", "wglUseFontOutlines", "wglUseFontOutlines function [OpenGL]", "wglUseFontOutlinesW", "wingdi/wglUseFontOutlines", "wingdi/wglUseFontOutlinesW"]
 old-location: opengl\wglusefontoutlines.htm
 tech.root: OpenGL
 ms.assetid: 08a86563-c6ca-4efb-9096-bc487fc5037c

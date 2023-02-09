@@ -2,7 +2,7 @@
 UID: NF:immdev.ImmGetRegisterWordStyleA
 title: ImmGetRegisterWordStyleA function (immdev.h)
 description: The ImmGetRegisterWordStyleA (ANSI) function (immdev.h) retrieves a list of the styles supported by the IME associated with the specified input locale. 
-helpviewer_keywords: ["ImmGetRegisterWordStyle","ImmGetRegisterWordStyle function [Internationalization for Windows Applications]","ImmGetRegisterWordStyleA","ImmGetRegisterWordStyleW","_win32_ImmGetRegisterWordStyle","imm/ImmGetRegisterWordStyle","imm/ImmGetRegisterWordStyleA","imm/ImmGetRegisterWordStyleW","intl.immgetregisterwordstyle"]
+helpviewer_keywords: ["ImmGetRegisterWordStyleA"]
 old-location: intl\immgetregisterwordstyle.htm
 tech.root: Intl
 ms.assetid: 29ddf963-f421-4fad-9861-a6ed51e481ac

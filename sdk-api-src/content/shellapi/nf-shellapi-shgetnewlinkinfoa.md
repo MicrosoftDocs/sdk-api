@@ -2,7 +2,7 @@
 UID: NF:shellapi.SHGetNewLinkInfoA
 title: SHGetNewLinkInfoA function (shellapi.h)
 description: Creates a name for a new shortcut based on the shortcut's proposed target. This function does not create the shortcut, just the name. (ANSI)
-helpviewer_keywords: ["SHGNLI_NOLNK","SHGNLI_NOLOCNAME","SHGNLI_NOUNIQUE","SHGNLI_PIDL","SHGNLI_PREFIXNAME","SHGNLI_USEURLEXT","SHGetNewLinkInfo","SHGetNewLinkInfo function [Windows Shell]","SHGetNewLinkInfoA","SHGetNewLinkInfoW","_win32_SHGetNewLinkInfo","shell.SHGetNewLinkInfo","shellapi/SHGetNewLinkInfo","shellapi/SHGetNewLinkInfoA","shellapi/SHGetNewLinkInfoW"]
+helpviewer_keywords: ["SHGNLI_NOLNK", "SHGNLI_NOLOCNAME", "SHGNLI_NOUNIQUE", "SHGNLI_PIDL", "SHGNLI_PREFIXNAME", "SHGNLI_USEURLEXT", "SHGetNewLinkInfoA", "shellapi/SHGetNewLinkInfoA"]
 old-location: shell\SHGetNewLinkInfo.htm
 tech.root: shell
 ms.assetid: ca658d5c-af7b-400c-8f4d-7d4b07bf7f2b

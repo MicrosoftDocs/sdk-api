@@ -2,7 +2,7 @@
 UID: NF:msi.MsiSourceListEnumSourcesW
 title: MsiSourceListEnumSourcesW function (msi.h)
 description: The MsiSourceListEnumSources function enumerates the sources in the source list of a specified patch or product. (Unicode)
-helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MSISOURCETYPE_NETWORK","MSISOURCETYPE_URL","MsiSourceListEnumSources","MsiSourceListEnumSources function","MsiSourceListEnumSourcesA","MsiSourceListEnumSourcesW","NULL","User SID","msi/MsiSourceListEnumSources","msi/MsiSourceListEnumSourcesA","msi/MsiSourceListEnumSourcesW","s-1-1-0","setup.msisourcelistenumsources"]
+helpviewer_keywords: ["MSICODE_PATCH", "MSICODE_PRODUCT", "MSIINSTALLCONTEXT_MACHINE", "MSIINSTALLCONTEXT_USERMANAGED", "MSIINSTALLCONTEXT_USERUNMANAGED", "MSISOURCETYPE_NETWORK", "MSISOURCETYPE_URL", "MsiSourceListEnumSources", "MsiSourceListEnumSources function", "MsiSourceListEnumSourcesW", "NULL", "User SID", "msi/MsiSourceListEnumSources", "msi/MsiSourceListEnumSourcesW", "s-1-1-0", "setup.msisourcelistenumsources"]
 old-location: setup\msisourcelistenumsources.htm
 tech.root: setup
 ms.assetid: 30a5efae-ebb5-4ff3-880a-4eed1bc8eed4

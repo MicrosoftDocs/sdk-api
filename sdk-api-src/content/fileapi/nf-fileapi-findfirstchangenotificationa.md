@@ -2,7 +2,7 @@
 UID: NF:fileapi.FindFirstChangeNotificationA
 title: FindFirstChangeNotificationA function (fileapi.h)
 description: Creates a change notification handle and sets up initial change notification filter conditions. (ANSI)
-helpviewer_keywords: ["FILE_NOTIFY_CHANGE_ATTRIBUTES","FILE_NOTIFY_CHANGE_DIR_NAME","FILE_NOTIFY_CHANGE_FILE_NAME","FILE_NOTIFY_CHANGE_LAST_WRITE","FILE_NOTIFY_CHANGE_SECURITY","FILE_NOTIFY_CHANGE_SIZE","FindFirstChangeNotification","FindFirstChangeNotification function [Files]","FindFirstChangeNotificationA","FindFirstChangeNotificationW","_win32_findfirstchangenotification","base.findfirstchangenotification","fileapi/FindFirstChangeNotification","fileapi/FindFirstChangeNotificationA","fileapi/FindFirstChangeNotificationW","fs.findfirstchangenotification","winbase/FindFirstChangeNotification","winbase/FindFirstChangeNotificationA","winbase/FindFirstChangeNotificationW"]
+helpviewer_keywords: ["FILE_NOTIFY_CHANGE_ATTRIBUTES", "FILE_NOTIFY_CHANGE_DIR_NAME", "FILE_NOTIFY_CHANGE_FILE_NAME", "FILE_NOTIFY_CHANGE_LAST_WRITE", "FILE_NOTIFY_CHANGE_SECURITY", "FILE_NOTIFY_CHANGE_SIZE", "FindFirstChangeNotificationA", "fileapi/FindFirstChangeNotificationA"]
 old-location: fs\findfirstchangenotification.htm
 tech.root: fs
 ms.assetid: dde4dd17-0f8c-41b5-8685-4e4c6b3def3c

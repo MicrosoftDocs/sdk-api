@@ -2,7 +2,7 @@
 UID: NF:gdiplusheaders.Font.GetLogFontA
 title: Font::GetLogFontA (gdiplusheaders.h)
 description: The Font::GetLogFontA method uses a LOGFONTA structure to get the attributes of this Font object.
-helpviewer_keywords: ["Font class [GDI+]","GetLogFontA method","Font.GetLogFontA","Font::GetLogFontA","GetLogFontA","GetLogFontA method [GDI+]","GetLogFontA method [GDI+]","Font class","_gdiplus_CLASS_Font_GetLogFontA_g_logfontA_","gdiplus._gdiplus_CLASS_Font_GetLogFontA_g_logfontA_"]
+helpviewer_keywords: ["Font class [GDI+]", "GetLogFontA method", "Font.GetLogFontA", "Font::GetLogFontA", "GetLogFontA", "GetLogFontA method [GDI+]", "GetLogFontA method [GDI+]", "Font class", "_gdiplus_CLASS_Font_GetLogFontA_g_logfontA_", "gdiplus._gdiplus_CLASS_Font_GetLogFontA_g_logfontA_"]
 old-location: gdiplus\_gdiplus_CLASS_Font_GetLogFontA_g_logfontA_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getlogfonta.htm

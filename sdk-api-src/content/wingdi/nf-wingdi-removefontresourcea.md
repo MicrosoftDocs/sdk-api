@@ -2,7 +2,7 @@
 UID: NF:wingdi.RemoveFontResourceA
 title: RemoveFontResourceA function (wingdi.h)
 description: The RemoveFontResource function removes the fonts in the specified file from the system font table. (ANSI)
-helpviewer_keywords: ["RemoveFontResource","RemoveFontResource function [Windows GDI]","RemoveFontResourceA","RemoveFontResourceW","_win32_RemoveFontResource","gdi.removefontresource","wingdi/RemoveFontResource","wingdi/RemoveFontResourceA","wingdi/RemoveFontResourceW"]
+helpviewer_keywords: ["RemoveFontResourceA", "wingdi/RemoveFontResourceA"]
 old-location: gdi\removefontresource.htm
 tech.root: gdi
 ms.assetid: ccc0ac8b-e373-47a9-a362-64fd79a33d0c

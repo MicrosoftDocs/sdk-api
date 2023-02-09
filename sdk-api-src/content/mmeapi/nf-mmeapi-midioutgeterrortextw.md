@@ -2,7 +2,7 @@
 UID: NF:mmeapi.midiOutGetErrorTextW
 title: midiOutGetErrorTextW function (mmeapi.h)
 description: The midiOutGetErrorTextW (Unicode) function (mmeapi.h) retrieves a textual description for an error identified by the specified error code.
-helpviewer_keywords: ["_win32_midiOutGetErrorText","midiOutGetErrorText","midiOutGetErrorText function [Windows Multimedia]","midiOutGetErrorTextA","midiOutGetErrorTextW","mmeapi/midiOutGetErrorText","mmeapi/midiOutGetErrorTextA","mmeapi/midiOutGetErrorTextW","multimedia.midioutgeterrortext"]
+helpviewer_keywords: ["_win32_midiOutGetErrorText", "midiOutGetErrorText", "midiOutGetErrorText function [Windows Multimedia]", "midiOutGetErrorTextW", "mmeapi/midiOutGetErrorText", "mmeapi/midiOutGetErrorTextW", "multimedia.midioutgeterrortext"]
 old-location: multimedia\midioutgeterrortext.htm
 tech.root: Multimedia
 ms.assetid: e0e9a22f-da8b-4c87-bbdb-dedc22336503

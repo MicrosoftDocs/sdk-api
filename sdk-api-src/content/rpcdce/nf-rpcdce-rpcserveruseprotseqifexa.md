@@ -2,7 +2,7 @@
 UID: NF:rpcdce.RpcServerUseProtseqIfExA
 title: RpcServerUseProtseqIfExA function (rpcdce.h)
 description: The RpcServerUseProtseqIfEx function tells the RPC run-time library to use the specified protocol sequence combined with the endpoints in the interface specification for receiving remote procedure calls. (RpcServerUseProtseqIfExA)
-helpviewer_keywords: ["RpcServerUseProtseqIfEx","RpcServerUseProtseqIfEx function [RPC]","RpcServerUseProtseqIfExA","RpcServerUseProtseqIfExW","_rpc_rpcserveruseprotseqifex","rpc.rpcserveruseprotseqifex","rpcdce/RpcServerUseProtseqIfEx","rpcdce/RpcServerUseProtseqIfExA","rpcdce/RpcServerUseProtseqIfExW"]
+helpviewer_keywords: ["RpcServerUseProtseqIfExA", "rpcdce/RpcServerUseProtseqIfExA"]
 old-location: rpc\rpcserveruseprotseqifex.htm
 tech.root: Rpc
 ms.assetid: 28238ff2-0ed0-4cb5-8117-b6c544d8c098

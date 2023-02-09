@@ -2,7 +2,7 @@
 UID: NF:iscsidsc.SetIScsiIKEInfoW
 title: SetIScsiIKEInfoW function (iscsidsc.h)
 description: SetIscsiIKEInfo function establishes the IPsec policy and preshared key for the indicated initiator to use when performing iSCSI connections. (Unicode)
-helpviewer_keywords: ["SetIScsiIKEInfoW","SetIscsiIKEInfo","SetIscsiIKEInfo function [iSCSI Discovery Library API]","SetIscsiIKEInfoA","SetIscsiIKEInfoW","iscsidisc.setiscsiikeinfo","iscsidsc/SetIscsiIKEInfo","iscsidsc/SetIscsiIKEInfoA","iscsidsc/SetIscsiIKEInfoW"]
+helpviewer_keywords: ["SetIScsiIKEInfoW", "SetIscsiIKEInfo", "SetIscsiIKEInfo function [iSCSI Discovery Library API]", "SetIscsiIKEInfoW", "iscsidisc.setiscsiikeinfo", "iscsidsc/SetIscsiIKEInfo", "iscsidsc/SetIscsiIKEInfoW"]
 old-location: iscsidisc\setiscsiikeinfo.htm
 tech.root: iSCSIDisc
 ms.assetid: db020346-45cf-4944-9776-81bb38c7ee6a

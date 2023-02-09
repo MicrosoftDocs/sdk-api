@@ -2,7 +2,7 @@
 UID: NF:winuser.CreateMDIWindowW
 title: CreateMDIWindowW function (winuser.h)
 description: Creates a multiple-document interface (MDI) child window. (Unicode)
-helpviewer_keywords: ["CreateMDIWindow","CreateMDIWindow function [Windows and Messages]","CreateMDIWindowA","CreateMDIWindowW","WS_HSCROLL","WS_MAXIMIZE","WS_MINIMIZE","WS_VSCROLL","_win32_CreateMDIWindow","_win32_createmdiwindow_cpp","winmsg.createmdiwindow","winui._win32_createmdiwindow","winuser/CreateMDIWindow","winuser/CreateMDIWindowA","winuser/CreateMDIWindowW"]
+helpviewer_keywords: ["CreateMDIWindow", "CreateMDIWindow function [Windows and Messages]", "CreateMDIWindowW", "WS_HSCROLL", "WS_MAXIMIZE", "WS_MINIMIZE", "WS_VSCROLL", "_win32_CreateMDIWindow", "_win32_createmdiwindow_cpp", "winmsg.createmdiwindow", "winui._win32_createmdiwindow", "winuser/CreateMDIWindow", "winuser/CreateMDIWindowW"]
 old-location: winmsg\createmdiwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\multipledocumentinterface\multipledocumentinterfacereference\multipledocumentinterfacefunctions\createmdiwindow.htm

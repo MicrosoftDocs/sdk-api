@@ -2,7 +2,7 @@
 UID: NF:winbase.ReportEventW
 title: ReportEventW function (winbase.h)
 description: Writes an entry at the end of the specified event log. (Unicode)
-helpviewer_keywords: ["EVENTLOG_AUDIT_FAILURE","EVENTLOG_AUDIT_SUCCESS","EVENTLOG_ERROR_TYPE","EVENTLOG_INFORMATION_TYPE","EVENTLOG_SUCCESS","EVENTLOG_WARNING_TYPE","ReportEvent","ReportEvent function","ReportEventA","ReportEventW","_win32_reportevent","base.reportevent","winbase/ReportEvent","winbase/ReportEventA","winbase/ReportEventW"]
+helpviewer_keywords: ["EVENTLOG_AUDIT_FAILURE", "EVENTLOG_AUDIT_SUCCESS", "EVENTLOG_ERROR_TYPE", "EVENTLOG_INFORMATION_TYPE", "EVENTLOG_SUCCESS", "EVENTLOG_WARNING_TYPE", "ReportEvent", "ReportEvent function", "ReportEventW", "_win32_reportevent", "base.reportevent", "winbase/ReportEvent", "winbase/ReportEventW"]
 old-location: base\reportevent.htm
 tech.root: base
 ms.assetid: e39273c3-9e42-41a1-9ec1-1cdff2ab7b55

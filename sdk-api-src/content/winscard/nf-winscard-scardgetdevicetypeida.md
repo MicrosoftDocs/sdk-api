@@ -2,7 +2,7 @@
 UID: NF:winscard.SCardGetDeviceTypeIdA
 title: SCardGetDeviceTypeIdA function (winscard.h)
 description: Gets the device type identifier of the card reader for the given reader name. This function does not affect the state of the reader. (ANSI)
-helpviewer_keywords: ["SCardGetDeviceTypeId","SCardGetDeviceTypeId function [Security]","SCardGetDeviceTypeIdA","SCardGetDeviceTypeIdW","security.scardgetdevicetypeid","winscard/SCardGetDeviceTypeId","winscard/SCardGetDeviceTypeIdA","winscard/SCardGetDeviceTypeIdW"]
+helpviewer_keywords: ["SCardGetDeviceTypeIdA", "winscard/SCardGetDeviceTypeIdA"]
 old-location: security\scardgetdevicetypeid.htm
 tech.root: security
 ms.assetid: E637B5D6-B605-4216-9581-7E4ADC75F75A
