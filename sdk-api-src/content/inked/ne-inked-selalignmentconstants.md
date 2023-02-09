@@ -47,7 +47,6 @@ api_name:
 
 # SelAlignmentConstants enumeration
 
-
 ## -description
 
 Specifies the alignment of the paragraph relative to the margins of the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control.
