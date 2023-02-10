@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dcommon.ID3DDestructionNotifier.RegisterDestructionCallback
 title: ID3DDestructionNotifier::RegisterDestructionCallback (d3dcommon.h)
-description: Registers a user-defined callback to be invoked on destruction of the object from which this [ID3DDestructionNotifier](./nn-d3dcommon-id3ddestructionotifier.md) was created.
+description: Registers a user-defined callback to be invoked on destruction of the object from which this [ID3DDestructionNotifier](/windows/win32/api/d3dcommon/nn-d3dcommon-id3ddestructionotifier) was created.
 helpviewer_keywords: ["ID3DDestructionNotifier interface [Direct3D]","RegisterDestructionCallback method","ID3DDestructionNotifier.RegisterDestructionCallback","ID3DDestructionNotifier::RegisterDestructionCallback","RegisterDestructionCallback","RegisterDestructionCallback method [Direct3D]","RegisterDestructionCallback method [Direct3D]","ID3DDestructionNotifier interface","d3dcommon/ID3DDestructionNotifier::RegisterDestructionCallback","direct3d11.id3ddestructionnotifier_registerdestructioncallback"]
 tech.root: direct3d11
 ms.date: 10/06/2020
@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-Registers a user-defined callback to be invoked on destruction of the object from which this [ID3DDestructionNotifier](./nn-d3dcommon-id3ddestructionotifier.md) was created.
+Registers a user-defined callback to be invoked on destruction of the object from which this [ID3DDestructionNotifier](/windows/win32/api/d3dcommon/nn-d3dcommon-id3ddestructionotifier) was created.
 
 ## -parameters
 
