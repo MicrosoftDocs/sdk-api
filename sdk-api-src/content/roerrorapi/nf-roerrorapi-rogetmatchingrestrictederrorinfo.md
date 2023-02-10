@@ -31,6 +31,9 @@ api_type:
  - DllExport
 api_location:
  - roerrorapi.h
+ - API-MS-Win-Core-WinRT-error-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-error-l1-1-1.dll
 api_name:
  - RoGetMatchingRestrictedErrorInfo
 f1_keywords:
