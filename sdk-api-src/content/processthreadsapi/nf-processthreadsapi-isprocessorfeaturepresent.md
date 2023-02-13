@@ -508,6 +508,14 @@ If the feature is not supported, the return value is zero.
 
 If the HAL does not support detection of the feature, whether or not the hardware supports the feature, the return value is also zero.
 
+## -remarks
+
+Support for ``PF_SSSE3_INSTRUCTIONS_AVAILABLE`` through ``PF_AVX512F_INSTRUCTIONS_AVAILABLE`` were added in the Windows SDK (19041) and are supported by Windows 10, Version 2004 (May 2020 Update) or later.
+
+Support for ``PF_ERMS_AVAILABLE``, ``PF_ARM_V82_DP_INSTRUCTIONS_AVAILABLE``, and ``PF_ARM_V83_JSCVT_INSTRUCTIONS_AVAILABLE`` were added in the Windows SDK (20348) and are supported by Windows 11 and Windows Server 2022.
+
+The define ``PF_ARM_V83_LRCPC_INSTRUCTIONS_AVAILABLE`` was added in the Windows SDK (22621) and is supported by Windows 11, Version 22H2.
+
 ## -see-also
 
 <a href="/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
