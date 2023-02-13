@@ -1,7 +1,7 @@
 ---
 UID: NF:diagnosticdataquery.DdqSetTranscriptConfiguration
 title: DdqSetTranscriptConfiguration
-ms.date: 8/19/2019
+ms.date: 02/13/2023
 ms.keywords: DdqSetTranscriptConfiguration
 description: Sets event transcript configuration, such as maximum storage size and hours of data history. Note that setting the configuration will fail if the user is not elevated.
 ms.localizationpriority: low
@@ -52,7 +52,7 @@ Handle to the Diagnostic Data Query session.
 
 ### -param desiredConfig
 
-Type: **[DIAGNOSTIC_DATA_EVENT_TRANSCRIPT_CONFIGURATION\*](/windows/win32/api/diagnosticdataquery/ns-diagnosticdataquerytypes-diagnostic_data_event_transcript_configuration)**
+Type: **[DIAGNOSTIC_DATA_EVENT_TRANSCRIPT_CONFIGURATION\*](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_transcript_configuration)**
 Pointer to the resource that contains the desired event transcript configuration.
 
 ## -returns
@@ -63,4 +63,3 @@ Returns S_OK on successful completion.
 ## -remarks
 
 ## -see-also
-
