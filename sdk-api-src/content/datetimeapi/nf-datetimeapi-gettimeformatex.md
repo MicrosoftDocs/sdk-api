@@ -168,7 +168,7 @@ The time values in the structure indicated by <i>lpTime</i> must be valid. The f
 
 The function ignores the date members of the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure. These include: <b>wYear</b>, <b>wMonth</b>, <b>wDayOfWeek</b>, and <b>wDay</b>.
 
-If TIME_NOMINUTESORSECONDS or TIME_NOSECONDS is specified, the function removes the separators preceding the minutes and/or seconds members.
+If TIME_NOMINUTESORSECONDS or TIME_NOSECONDS is specified, the function removes the separators following the minutes and/or seconds members.
 
 If TIME_NOTIMEMARKER is specified, the function removes the separators preceding and following the time marker.
 
