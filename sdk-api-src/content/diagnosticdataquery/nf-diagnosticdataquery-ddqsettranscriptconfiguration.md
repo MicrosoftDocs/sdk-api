@@ -47,18 +47,15 @@ Sets event transcript configuration, such as maximum storage size and hours of d
 
 ### -param hSession
 
-Type: **[HANDLE](/windows/desktop/winprog/windows-data-types)**
-Handle to the Diagnostic Data Query session.
+A [HANDLE](/windows/win32/winprog/windows-data-types) to the **Diagnostic Data Query** session.
 
 ### -param desiredConfig
 
-Type: **[DIAGNOSTIC_DATA_EVENT_TRANSCRIPT_CONFIGURATION\*](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_transcript_configuration)**
-Pointer to the resource that contains the desired event transcript configuration.
+A [DIAGNOSTIC_DATA_EVENT_TRANSCRIPT_CONFIGURATION\*](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_transcript_configuration) that points to the resource that contains the desired event transcript configuration.
 
 ## -returns
 
-Type: **[HRESULT](/windows/desktop/com/structure-of-com-error-codes)**
-Returns S_OK on successful completion.
+An [HRESULT](/windows/win32/com/structure-of-com-error-codes) which returns `S_OK` on successful completion.
 
 ## -remarks
 
