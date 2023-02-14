@@ -7,7 +7,7 @@ old-location: base\logical_processor_relationship.htm
 tech.root: backup
 ms.assetid: 2ada52f0-70ec-4146-9ef7-9af3b08996f9
 ms.date: 12/05/2018
-ms.keywords: LOGICAL_PROCESSOR_RELATIONSHIP, LOGICAL_PROCESSOR_RELATIONSHIP enumeration, RelationAll, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, base.logical_processor_relationship, winnt/LOGICAL_PROCESSOR_RELATIONSHIP, winnt/RelationAll, winnt/RelationCache, winnt/RelationGroup, winnt/RelationNumaNode, winnt/RelationProcessorCore, winnt/RelationProcessorPackage
+ms.keywords: LOGICAL_PROCESSOR_RELATIONSHIP, LOGICAL_PROCESSOR_RELATIONSHIP enumeration, RelationAll, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, RelationProcessorDie, RelationProcessorModule, base.logical_processor_relationship, winnt/LOGICAL_PROCESSOR_RELATIONSHIP, winnt/RelationAll, winnt/RelationCache, winnt/RelationGroup, winnt/RelationNumaNode, winnt/RelationProcessorCore, winnt/RelationProcessorPackage
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -82,9 +82,17 @@ The specified logical processors share a single <a href="/windows/desktop/ProcTh
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP Professional x64 Edition:  </b>This value is not supported until Windows Server 2008 R2.
 
+### -field RelationProcessorDie
+
+The specified logical processors share a single processor die.
+
 ### -field RelationNumaNodeEx
 
-Introduced in TBD - Release Iron.  Requests that the full affinity be returned. Unlike the other relation types, **RelationNumaNodeEx** is not used on input. It is simply a request for **RelationNumaNode** with full group information.
+Introduced in 20348. Requests that the full affinity be returned. Unlike the other relation types, **RelationNumaNodeEx** is not used on input. It is simply a request for **RelationNumaNode** with full group information.
+
+### -field RelationModule
+
+Introduced in 22000. The specified logical processors share a single processor module.
 
 ### -field RelationAll:0xffff
 
