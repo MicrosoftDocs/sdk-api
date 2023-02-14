@@ -1,16 +1,16 @@
 ---
 UID: NN:appxpackaging.IAppxEncryptionFactory5
-tech.root: 
+tech.root: appxpkg
 title: IAppxEncryptionFactory5
-ms.date: 
+ms.date: 02/13/2023
 targetos: Windows
-description: 
-prerelease: false
+description: Creates objects for reading encrypted Windows app packages and bundles.
+prerelease: true
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 
 req.header: appxpackaging.h
-req.idl: 
+req.idl: AppxPackaging.idl
 req.include-header: 
 req.max-support: 
 req.namespace: 
@@ -37,6 +37,8 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+Creates objects for reading encrypted Windows app packages and bundles.
 
 ## -remarks
 

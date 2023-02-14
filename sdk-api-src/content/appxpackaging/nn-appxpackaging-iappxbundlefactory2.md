@@ -4,13 +4,13 @@ tech.root:
 title: IAppxBundleFactory2
 ms.date: 
 targetos: Windows
-description: 
-prerelease: false
+description: Creates objects for reading and writing bundle packages, with the ability to specify the expected digest for the bundle file.
+prerelease: true
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 
 req.header: appxpackaging.h
-req.idl: 
+req.idl: AppxPackaging.idl
 req.include-header: 
 req.max-support: 
 req.namespace: 
@@ -37,6 +37,8 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+Creates objects for reading bundle packages, with the ability to specify the expected digest for the bundle file.
 
 ## -remarks
 

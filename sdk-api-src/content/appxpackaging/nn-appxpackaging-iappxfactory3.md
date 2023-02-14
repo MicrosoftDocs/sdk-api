@@ -1,16 +1,16 @@
 ---
 UID: NN:appxpackaging.IAppxFactory3
-tech.root: 
+tech.root: appxpkg
 title: IAppxFactory3
-ms.date: 
+ms.date: 02/13/2023
 targetos: Windows
-description: 
+description: Creates objects for reading and writing app packages, manifests, and app installer files.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 
 req.header: appxpackaging.h
-req.idl: 
+req.idl: AppxPackaging.idl
 req.include-header: 
 req.max-support: 
 req.namespace: 
@@ -37,6 +37,8 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+Creates objects for reading app packages, manifests, and app installer files.
 
 ## -remarks
 

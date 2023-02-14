@@ -1,17 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxFactory3.CreateAppInstallerReader
-tech.root: 
+tech.root: appxpkg
 title: IAppxFactory3::CreateAppInstallerReader
-ms.date: 
+ms.date: 02/10/2023
 targetos: Windows
-description: 
-prerelease: false
+description: Creates an instance of IAppInstallerReader.
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
 req.dll: 
 req.header: appxpackaging.h
-req.idl: 
+req.idl: AppxPackaging.idl
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
@@ -44,17 +44,31 @@ helpviewer_keywords:
 
 ## -description
 
+Creates an instance of [IAppInstallerReader](nf-appxpackaging-iappxfactory3-createappinstallerreader.md).
+
 ## -parameters
 
-### -param inputStream
+### -param inputStream [in]
 
-### -param expectedDigest
+An [IStream](../objidl/nn-objidl-istream.md) that provides the contents of an App Installer File.
 
-### -param appInstallerReader
+### -param expectedDigest [in, optional]
+
+An LPCWSTR containing the expected digest, a hashed representation of the App Installer File.
+
+### -param appInstallerReader [out]
+
+Receives the created **IAppInstallerReader** Instance.
 
 ## -returns
 
+Returns S_OK on success.
+
 ## -remarks
 
+Get the digest string for the *expecteDigest* parameter by calling [IAppxDigestProvider::GetDigest](nf-appxpackaging-iappxdigestprovider-getdigest.md).
+
 ## -see-also
+
+[App Installer File overview](/windows/msix/app-installer/app-installer-file-overview)
 

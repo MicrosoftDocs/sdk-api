@@ -1,17 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBundleFactory2.CreateBundleReader2
-tech.root: 
+tech.root: appxpackaging
 title: IAppxBundleFactory2::CreateBundleReader2
-ms.date: 
+ms.date: 02/13/2023
 targetos: Windows
-description: 
-prerelease: false
+description: Creates a read-only bundle object that reads its contents from an IStream object, with an optional parameter for specifying the expected digest for the bundle.
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
 req.dll: 
 req.header: appxpackaging.h
-req.idl: 
+req.idl: AppxPackaging.idl
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
@@ -44,17 +44,36 @@ helpviewer_keywords:
 
 ## -description
 
+Creates a read-only bundle object that reads its contents from an [IStream](../objidl/nn-objidl-istream.md) object, with an optional parameter for specifying the expected digest for the bundle.
+
 ## -parameters
 
-### -param inputStream
+### -param inputStream [in]
 
-### -param expectedDigest
+The input stream that delivers the content of the package for reading. The stream must support [ISequentialStream::Read](../objidl/nf-objidl-isequentialstream-read.md), [IStream::Seek](../objidl/nf-objidl-istream-seek.md)">, and [IStream::Stat](/objidl/nf-objidl-istream-stat.md). If these methods fail, their error codes may be passed to and returned by this method.
 
-### -param bundleReader
+### -param expectedDigest [in,optional]
+
+An LPCWSTR containing the expected digest, a hashed representation of the bundle file.
+
+### -param bundleReader [out]
+
+The created bundle reader.
 
 ## -returns
 
+If the method succeeds, it returns S_OK. Otherwise, it returns an error code that includes, but is not limited to, those in the following table. 
+
+| Return code | Description |
+|-------------|-------------|
+| APPX_E_INTERLEAVING_NOT_ALLOWED | The ZIP file delivered by *inputStream8 is an interleaved OPC package. |
+| APPX_E_RELATIONSHIPS_NOT_ALLOWED | The OPC package delivered by *inputStream* contains OPC package/part relationships. |
+| APPX_E_MISSING_REQUIRED_FILE | The OPC package delivered by *inputStream* does not have a manifest, or a block map, or a signature file when a CI catalog is present. |
+| APPX_E_INVALID_MANIFEST | The bundle manifest is not valid. |
+
 ## -remarks
+
+Get the digest string for the *expecteDigest* parameter by calling [IAppxDigestProvider::GetDigest](nf-appxpackaging-iappxdigestprovider-getdigest.md).
 
 ## -see-also
 

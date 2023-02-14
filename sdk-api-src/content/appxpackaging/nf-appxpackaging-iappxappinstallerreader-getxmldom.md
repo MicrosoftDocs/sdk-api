@@ -1,17 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxAppInstallerReader.GetXmlDom
-tech.root: 
+tech.root: appxpkg
 title: IAppxAppInstallerReader::GetXmlDom
-ms.date: 
+ms.date: 02/10/2023
 targetos: Windows
-description: 
-prerelease: false
+description: Gets the XML DOM for an App Installer file.
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
 req.dll: 
 req.header: appxpackaging.h
-req.idl: 
+req.idl: AppxPackaging.idl
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
@@ -44,13 +44,21 @@ helpviewer_keywords:
 
 ## -description
 
+Gets the XML DOM for an App Installer file.
+
 ## -parameters
 
-### -param dom
+### -param dom [out]
+
+Receives a pointer to [IXMLDOMDocument](/previous-versions/windows/desktop/ms756987(v=vs.85)) representing the XML DOM for the App Installer file .
 
 ## -returns
+
+Returns S_OK on success.
 
 ## -remarks
 
 ## -see-also
+
+[App Installer File overview](/windows/msix/app-installer/app-installer-file-overview)
 

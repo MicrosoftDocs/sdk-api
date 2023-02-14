@@ -1,16 +1,16 @@
 ---
 UID: NN:appxpackaging.IAppxAppInstallerReader
-tech.root: 
+tech.root: appxpkg
 title: IAppxAppInstallerReader
-ms.date: 
+ms.date: 02/10/2023
 targetos: Windows
-description: 
+description: Provides access to the XML DOM for an App Installer file.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 
 req.header: appxpackaging.h
-req.idl: 
+req.idl: AppxPackaging.idl
 req.include-header: 
 req.max-support: 
 req.namespace: 
@@ -38,7 +38,13 @@ helpviewer_keywords:
 
 ## -description
 
+Provides access to the XML DOM for an App Installer file.
+
 ## -remarks
 
+Get an instance of this interface by calling [IAppxFactory3::CreateAppInstallerReader](nf-appxpackaging-iappxfactory3-createappinstallerreader.md).
+
 ## -see-also
+
+[App Installer File overview](/windows/msix/app-installer/app-installer-file-overview)
 

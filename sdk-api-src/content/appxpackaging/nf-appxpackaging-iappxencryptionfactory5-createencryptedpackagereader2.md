@@ -1,17 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory5.CreateEncryptedPackageReader2
-tech.root: 
+tech.root: appxpkg
 title: IAppxEncryptionFactory5::CreateEncryptedPackageReader2
-ms.date: 
+ms.date: 02/13/2023
 targetos: Windows
-description: 
-prerelease: false
+description: Creates a new instance of IAppxPackageReader for reading encrypted packages, with an optional parameter for specifying the expected digest for the manifest.
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
 req.dll: 
 req.header: appxpackaging.h
-req.idl: 
+req.idl: AppxPackaging.idl
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
@@ -44,19 +44,33 @@ helpviewer_keywords:
 
 ## -description
 
+Creates a new instance of [IAppxPackageReader](nn-appxpackaging-iappxpackagereader.md) for reading encrypted packages, with an optional parameter for specifying the expected digest for the manifest.
+
 ## -parameters
 
 ### -param inputStream
 
+A stream for reading the encrypted bundle.
+
 ### -param keyInfo
+
+Key info containing the base encryption key and key ID for decrypting the package. The base key is used to derive the per file encryption keys. If this parameter is null, the global test key and key ID are used.
 
 ### -param expectedDigest
 
+An LPCWSTR containing the expected digest, a hashed representation of the bundle file.
+
 ### -param packageReader
+
+The created bundle reader.
 
 ## -returns
 
+If the method succeeds, it returns **S_OK**. Otherwise, it returns an error code.
+
 ## -remarks
+
+Get the digest string for the *expecteDigest* parameter by calling [IAppxDigestProvider::GetDigest](nf-appxpackaging-iappxdigestprovider-getdigest.md).
 
 ## -see-also
 
