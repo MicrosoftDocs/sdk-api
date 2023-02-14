@@ -30,8 +30,6 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - roerrorapi.h
- - API-MS-Win-Core-WinRT-error-l1-1-0.dll
  - ComBase.dll
  - API-MS-Win-Core-WinRT-error-l1-1-1.dll
 api_name:
@@ -64,6 +62,8 @@ Receives an instance of [IRestrictedErrorInfo](../restrictederrorinfo/nn-restric
 Returns S_OK on success.
 
 ## -remarks
+
+The function checks to see if current error info matches the *hrIn* value passed in and, if not, it originates a matching error info.
 
 ## -see-also
 
