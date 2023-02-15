@@ -54,8 +54,8 @@ Specifies that sampler feedback is not supported. Attempts at calling sampler fe
 Specifies that sampler feedback is supported to tier 0.9. This indicates the following:
 
 Sampler feedback is supported for samplers with these texture addressing modes:
- * D3D12_TEXTURE_ADDRESS_MODE_WRAP
- * D3D12_TEXTURE_ADDRESS_MODE_CLAMP
+* D3D12_TEXTURE_ADDRESS_MODE_WRAP
+* D3D12_TEXTURE_ADDRESS_MODE_CLAMP
 
 The Texture2D shader resource view passed in to feedback-writing HLSL methods has these restrictions:
 * The MostDetailedMip field must be 0.
