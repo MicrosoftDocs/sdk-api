@@ -135,7 +135,7 @@ The structure is a <b>USN_RECORD_V3</b> structure and the
 </dl>
 </td>
 <td width="60%">
-The structure is a <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v4">USN_RECORD_V4</a> structure and the remainder of the structure should be parsed using that layout.
+The structure is a [USN_RECORD_V4 structure](ns-winioctl-usn_record_v4.md) and the remainder of the structure should be parsed using that layout.
 
 </td>
 </tr>
@@ -626,7 +626,7 @@ For more information, see
 
 
 
-<a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v4">USN_RECORD_V4</a>
+[USN_RECORD_V4 structure](ns-winioctl-usn_record_v4.md)
 
 
 

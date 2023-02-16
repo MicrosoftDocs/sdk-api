@@ -48,14 +48,9 @@ api_name:
 
 # MARK_HANDLE_INFO32 structure
 
-
 ## -description
 
-Contains information that is used to mark a specified file or directory, and its update sequence 
-    number (USN) change journal record with data about changes. This is only defined for 64-bit code and exists to 
-    interpret <a href="/windows/desktop/api/winioctl/ns-winioctl-mark_handle_info">MARK_HANDLE_INFO</a> structures sent by 32-bit 
-    code. It is used by the <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_mark_handle">FSCTL_MARK_HANDLE</a> 
-    control code.
+Contains information that is used to mark a specified file or directory, and its update sequence number (USN) change journal record with data about changes. This is only defined for 64-bit code and exists to interpret [MARK_HANDLE_INFO structures](ns-winioctl-mark_handle_info.md) sent by 32-bit code. It is used by the [FSCTL_MARK_HANDLE IOCTL](ni-winioctl-fsctl_mark_handle.md) control code.
 
 ## -struct-fields
 
@@ -65,12 +60,9 @@ Contains information that is used to mark a specified file or directory, and its
 
 The type of changes being made.
 
-The operation does not modify the file or directory externally from the point of view of the application that 
-       created it.
+The operation does not modify the file or directory externally from the point of view of the application that created it.
 
-When a thread writes a new USN record, the source information flags in the prior record continues to be 
-       present only if the thread also sets those flags. Therefore, the source information structure allows 
-       applications to filter out USN records that are set only by a known source, such as an antivirus filter.
+When a thread writes a new USN record, the source information flags in the prior record continues to be present only if the thread also sets those flags. Therefore, the source information structure allows applications to filter out USN records that are set only by a known source, such as an antivirus filter.
 
 The following values are defined.
 

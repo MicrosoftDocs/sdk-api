@@ -94,4 +94,4 @@ The method was successful.
 
 ## -see-also
 
-<a href="/windows/desktop/api/msctf/nn-msctf-itfkeyeventsink">ITfKeyEventSink</a>, <a href="/windows/desktop/inputdev/wm-keyupn">WM_KEYUP</a>, <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+[ITfKeyEventSink interface](nn-msctf-itfkeyeventsink.md), [WM_KEYUP](/windows/win32/inputdev/wm-keyup), [Keyboard Input](/windows/win32/inputdev/keyboard-input)
