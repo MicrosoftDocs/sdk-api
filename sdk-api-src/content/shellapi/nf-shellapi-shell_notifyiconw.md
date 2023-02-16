@@ -95,7 +95,7 @@ A value that specifies the action to be taken by this function. It can have one 
 
 0x00000004. <a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Shell32.dll version 5.0 and later only</a>. Instructs the notification area to behave according to the version number specified in the <b>uVersion</b> member of the structure pointed to by <i>lpdata</i>. The version number specifies which members are recognized.
 
-NIM_SETVERSION must be called every time a notification area icon is added (NIM_ADD)&gt;. It does not need to be called with NIM_MODIFY. The version setting is not persisted once a user logs off.
+NIM_SETVERSION must be called every time a notification area icon is added (NIM_ADD). It does not need to be called with NIM_MODIFY. The version setting is not persisted once a user logs off.
 
 For details, see the Remarks section.
 
