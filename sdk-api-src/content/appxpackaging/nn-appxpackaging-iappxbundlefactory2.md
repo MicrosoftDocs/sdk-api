@@ -1,8 +1,8 @@
 ---
 UID: NN:appxpackaging.IAppxBundleFactory2
-tech.root: 
+tech.root: appxpackaging
 title: IAppxBundleFactory2
-ms.date: 
+ms.date: 02/13/2023
 targetos: Windows
 description: Creates objects for reading and writing bundle packages, with the ability to specify the expected digest for the bundle file.
 prerelease: true
