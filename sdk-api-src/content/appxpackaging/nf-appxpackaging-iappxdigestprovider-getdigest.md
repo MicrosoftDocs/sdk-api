@@ -1,17 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxDigestProvider.GetDigest
-tech.root: 
+tech.root: appxpackaging
 title: IAppxDigestProvider::GetDigest
-ms.date: 
+ms.date: 02/16/2023
 targetos: Windows
-description: 
+description: Receives a pointer to an LPWSTR containing the digest representation of the app packaging object object managed by the associated interface.
 prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
 req.dll: 
 req.header: appxpackaging.h
-req.idl: 
+req.idl: AppxPackaging.idl
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
@@ -44,13 +44,28 @@ helpviewer_keywords:
 
 ## -description
 
+Retrieves the digest representation of the app packaging object managed by the associated interface.
+
 ## -parameters
 
-### -param digest
+### -param digest [out]
+
+Receives a pointer to an LPWSTR containing the digest representation of the app packaging object object managed by the associated interface.
 
 ## -returns
 
+Returns S_OK on success.
+
 ## -remarks
+
+A digest string is a hashed representation of the contents of the associated object that can be used to verify that the contents of the object haven't changed between operations.
+
+The **IAppxDigestProvider** interface is available for the coclasses that implement the following interfaces:
+
+- [IAppxEncryptionFactory5](nn-appxpackaging-iappxencryptionfactory4.md)
+- [IAppxBundleFactory2](nn-appxpackaging-iappxbundlefactory2.md)
+- [IAppxFactory3](nn-appxpackaging-iappxfactory3.md)
+
 
 ## -see-also
 

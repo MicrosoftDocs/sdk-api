@@ -1,16 +1,16 @@
 ---
 UID: NN:appxpackaging.IAppxDigestProvider
-tech.root: 
+tech.root: appxpackaging
 title: IAppxDigestProvider
-ms.date: 
+ms.date: 02/16/2023
 targetos: Windows
-description: 
+description: Provides APIs for retrieving the digest string representation of an app packaging object.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 
 req.header: appxpackaging.h
-req.idl: 
+req.idl: AppxPackaging.idl
 req.include-header: 
 req.max-support: 
 req.namespace: 
@@ -37,6 +37,8 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+Provides APIs for retrieving the digest string representation of an app packaging object.
 
 ## -remarks
 
