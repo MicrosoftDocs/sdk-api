@@ -124,12 +124,10 @@ int main(int argc, char *argv[])
 
 ## -see-also
 
-<a href="/windows/desktop/ProcThread/process-working-set">Process Working Set</a>
+[Process Working Set](/windows/desktop/ProcThread/process-working-set)
 
+[Processes](/windows/desktop/ProcThread/child-processes)
 
+[SetProcessWorkingSetSize function](nf-memoryapi-setprocessworkingsetsize.md)
 
-<a href="/windows/desktop/ProcThread/child-processes">Processes</a>
-
-
-
-<a href="/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a>
+[SetProcessWorkingSetSizeEx function](nf-memoryapi-setprocessworkingsetsizeex.md)

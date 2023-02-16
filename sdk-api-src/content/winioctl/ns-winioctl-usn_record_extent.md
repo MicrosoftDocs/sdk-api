@@ -65,7 +65,7 @@ The length of the extent, in bytes.
 
 ## -see-also
 
-<a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v4">USN_RECORD_V4</a>
+[USN_RECORD_V4 structure](ns-winioctl-usn_record_v4.md)
 
 
 
