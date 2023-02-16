@@ -1,5 +1,5 @@
 ---
-UID: NS:iscsidsc.__unnamed_struct_6
+UID: NS:iscsidsc.ISCSI_TARGET_PORTALW
 title: ISCSI_TARGET_PORTALW (iscsidsc.h)
 description: ISCSI_TARGET_PORTAL structure contains information about a portal. (Unicode)
 helpviewer_keywords: ["*PISCSI_TARGET_PORTALW","ISCSI_TARGET_PORTAL","ISCSI_TARGET_PORTAL structure [iSCSI Discovery Library API]","ISCSI_TARGET_PORTALA","ISCSI_TARGET_PORTALW","PISCSI_TARGET_PORTAL","PISCSI_TARGET_PORTAL structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_target_portal","iscsidsc/ISCSI_TARGET_PORTAL","iscsidsc/ISCSI_TARGET_PORTALA","iscsidsc/ISCSI_TARGET_PORTALW","iscsidsc/PISCSI_TARGET_PORTAL"]

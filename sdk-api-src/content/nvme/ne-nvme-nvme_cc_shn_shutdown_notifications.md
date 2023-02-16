@@ -1,8 +1,8 @@
 ---
-UID: NE:nvme.__unnamed_enum_1
-tech.root: fs 
+UID: NE:nvme.NVME_CC_SHN_SHUTDOWN_NOTIFICATIONS
+tech.root: fs
 title: NVME_CC_SHN_SHUTDOWN_NOTIFICATIONS
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that indicate a Controller Configuration (CC) shutdown notification.
@@ -12,7 +12,7 @@ req.header: nvme.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -33,6 +33,7 @@ dev_langs:
 ---
 
 # NVME_CC_SHN_SHUTDOWN_NOTIFICATIONS enumeration
+
 
 ## -description
 
@@ -59,3 +60,4 @@ Use the CC shutdown notification values from this enumeration in the **SHN** fie
 ## -see-also
 
 [NVME_CONTROLLER_CONFIGURATION](ns-nvme-nvme_controller_configuration.md)
+

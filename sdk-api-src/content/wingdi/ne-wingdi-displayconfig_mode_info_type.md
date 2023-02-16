@@ -1,5 +1,5 @@
 ---
-UID: NE:wingdi.__unnamed_enum_4
+UID: NE:wingdi.DISPLAYCONFIG_MODE_INFO_TYPE
 title: DISPLAYCONFIG_MODE_INFO_TYPE (wingdi.h)
 description: The DISPLAYCONFIG_MODE_INFO_TYPE enumeration specifies that the information that is contained within the DISPLAYCONFIG_MODE_INFO structure is either source or target mode.
 helpviewer_keywords: ["CCD_Enumerations_e8e863ac-c37b-4818-a968-e2658c3103e1.xml","DISPLAYCONFIG_MODE_INFO_TYPE","DISPLAYCONFIG_MODE_INFO_TYPE enumeration [Display Devices]","DISPLAYCONFIG_MODE_INFO_TYPE_DESKTOP_IMAGE","DISPLAYCONFIG_MODE_INFO_TYPE_FORCE_UINT32","DISPLAYCONFIG_MODE_INFO_TYPE_SOURCE","DISPLAYCONFIG_MODE_INFO_TYPE_TARGET","display.displayconfig_mode_info_type","wingdi/DISPLAYCONFIG_MODE_INFO_TYPE","wingdi/DISPLAYCONFIG_MODE_INFO_TYPE_DESKTOP_IMAGE","wingdi/DISPLAYCONFIG_MODE_INFO_TYPE_FORCE_UINT32","wingdi/DISPLAYCONFIG_MODE_INFO_TYPE_SOURCE","wingdi/DISPLAYCONFIG_MODE_INFO_TYPE_TARGET"]
@@ -73,3 +73,4 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 ## -see-also
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_mode_info">DISPLAYCONFIG_MODE_INFO</a>
+

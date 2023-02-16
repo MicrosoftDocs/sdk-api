@@ -1,5 +1,5 @@
 ---
-UID: NS:dsclient.__unnamed_struct_1
+UID: NS:dsclient.DSOBJECTNAMES
 title: DSOBJECTNAMES (dsclient.h)
 description: The DSOBJECTNAMES structure is used to contain directory object data for use by an Active Directory property sheet or context menu extension.
 helpviewer_keywords: ["*LPDSOBJECTNAMES","DSOBJECTNAMES","DSOBJECTNAMES structure [Active Directory]","LPDSOBJECTNAMES","LPDSOBJECTNAMES structure pointer [Active Directory]","_glines_dsobjectnames","ad.dsobjectnames","dsclient/DSOBJECTNAMES","dsclient/LPDSOBJECTNAMES"]
@@ -75,3 +75,4 @@ Contains an array of <a href="/windows/desktop/api/dsclient/ns-dsclient-dsobject
 
 
 <a href="/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active Directory Domain Services</a>
+

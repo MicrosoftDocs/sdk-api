@@ -1,5 +1,5 @@
 ---
-UID: NS:mstcpip.__unnamed_struct_1
+UID: NS:mstcpip.INET_PORT_RESERVATION_TOKEN
 title: INET_PORT_RESERVATION_TOKEN (mstcpip.h)
 description: Contains a port reservation token for a block of TCP or UDP ports.
 helpviewer_keywords: ["*PINET_PORT_RESERVATION_TOKEN","INET_PORT_RESERVATION_TOKEN","INET_PORT_RESERVATION_TOKEN structure [Winsock]","PINET_PORT_RESERVATION_TOKEN","PINET_PORT_RESERVATION_TOKEN structure pointer [Winsock]","mstcpip/INET_PORT_RESERVATION_TOKEN","mstcpip/PINET_PORT_RESERVATION_TOKEN","winsock.inet_port_reservation_token"]
@@ -109,3 +109,4 @@ The  <b>INET_PORT_RESERVATION_TOKEN</b> structure is used by the <a href="/windo
 
 
 <a href="/windows/win32/winsock/sio-release-port-reservation">SIO_RELEASE_PORT_RESERVATION</a>
+

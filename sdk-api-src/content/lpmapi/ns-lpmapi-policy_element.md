@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_14
+UID: NS:lpmapi.POLICY_ELEMENT
 title: POLICY_ELEMENT (lpmapi.h)
 description: The POLICY_ELEMENT (lpmapi.h) structure contains an RSVP policy element.
 helpviewer_keywords: ["POLICY_ELEMENT","POLICY_ELEMENT structure [QOS]","_POLICY_ELEMENT","infocard/POLICY_ELEMENT","qos.policy_element"]
@@ -62,3 +62,4 @@ Policy Element type.
 ### -field ucPeData
 
 Policy Element data.
+

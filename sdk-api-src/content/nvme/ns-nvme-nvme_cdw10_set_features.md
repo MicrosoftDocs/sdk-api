@@ -1,6 +1,6 @@
 ---
-UID: NS:nvme.__unnamed_union_39
-tech.root: fs 
+UID: NS:nvme.NVME_CDW10_SET_FEATURES
+tech.root: fs
 title: NVME_CDW10_SET_FEATURES
 ms.date: 08/09/2022
 ms.topic: language-reference
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW10_SET_FEATURES, *PNVME_CDW10_SET_FEATURES
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW10_SET_FEATURES structure
+
 
 ## -description
 
@@ -76,5 +77,4 @@ If the **FID** specified in the Set Features command is not saveable by the cont
 - [NVME_CDW13_FEATURES](ns-nvme-nvme_cdw13_features.md)
 - [NVME_CDW14_FEATURES](ns-nvme-nvme_cdw14_features.md)
 - [NVME_CDW15_FEATURES](ns-nvme-nvme_cdw15_features.md)
-
 

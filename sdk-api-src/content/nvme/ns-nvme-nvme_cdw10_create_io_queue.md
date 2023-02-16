@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_35
-tech.root: fs 
+UID: NS:nvme.NVME_CDW10_CREATE_IO_QUEUE
+tech.root: fs
 title: NVME_CDW10_CREATE_IO_QUEUE
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters that are used in the Create I/O Completion Queue and Create IO Submission Queue commands.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW10_CREATE_IO_QUEUE, *PNVME_CDW10_CREATE_IO_QUEUE
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW10_CREATE_IO_QUEUE structure
+
 
 ## -description
 
@@ -77,3 +78,4 @@ If the size is `0h` or larger than the controller supports, the controller shoul
 
 - [NVME_CDW11_CREATE_IO_CQ](ns-nvme-nvme_cdw11_create_io_cq.md)
 - [NVME_CDW11_CREATE_IO_SQ](ns-nvme-nvme_cdw11_create_io_sq.md)
+

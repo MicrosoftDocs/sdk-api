@@ -1,8 +1,8 @@
 ---
-UID: NE:nvme.__unnamed_enum_24
-tech.root: fs 
+UID: NE:nvme.NVME_FEATURE_VALUE_CODES
+tech.root: fs
 title: NVME_FEATURE_VALUE_CODES
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that indicate which value of a feature should be retrieved or configured by the **NVME_ADMIN_COMMAND_GET_FEATURES** and **NVME_ADMIN_COMMAND_SET_FEATURES** Admin commands.
@@ -12,7 +12,7 @@ req.header: nvme.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -33,6 +33,7 @@ dev_langs:
 ---
 
 # NVME_FEATURE_VALUE_CODES enumeration
+
 
 ## -description
 
@@ -73,3 +74,4 @@ If a Get Features command is received with the Select field **SEL** set to saved
 [NVME_ADMIN_COMMANDS](ne-nvme-nvme_admin_commands.md)
 [NVME_CDW10_GET_FEATURES](ns-nvme-nvme_cdw10_get_features.md)
 [NVME_CDW10_SET_FEATURES](ns-nvme-nvme_cdw10_set_features.md)
+

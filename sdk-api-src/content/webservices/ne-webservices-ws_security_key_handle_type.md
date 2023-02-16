@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_74
+UID: NE:webservices.WS_SECURITY_KEY_HANDLE_TYPE
 title: WS_SECURITY_KEY_HANDLE_TYPE (webservices.h)
 description: The types of security keys.
 helpviewer_keywords: ["WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE_TYPE","WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE_TYPE","WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE_TYPE","WS_SECURITY_KEY_HANDLE_TYPE","WS_SECURITY_KEY_HANDLE_TYPE enumeration [Web Services for Windows]","webservices/WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE_TYPE","webservices/WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE_TYPE","webservices/WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE_TYPE","webservices/WS_SECURITY_KEY_HANDLE_TYPE","wsw.ws_security_key_handle_type"]

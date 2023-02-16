@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_93
+UID: NE:webservices.WS_METADATA_EXCHANGE_TYPE
 title: WS_METADATA_EXCHANGE_TYPE (webservices.h)
 description: Information about enabling and disabling types of metadata exchange.
 helpviewer_keywords: ["WS_METADATA_EXCHANGE_TYPE","WS_METADATA_EXCHANGE_TYPE enumeration [Web Services for Windows]","WS_METADATA_EXCHANGE_TYPE_HTTP_GET","WS_METADATA_EXCHANGE_TYPE_MEX","WS_METADATA_EXCHANGE_TYPE_NONE","webservices/WS_METADATA_EXCHANGE_TYPE","webservices/WS_METADATA_EXCHANGE_TYPE_HTTP_GET","webservices/WS_METADATA_EXCHANGE_TYPE_MEX","webservices/WS_METADATA_EXCHANGE_TYPE_NONE","wsw.ws_metadata_exchange_type"]
@@ -64,3 +64,4 @@ Enables servicing of WS-MetadataExchange 1.1 request servicing on the <a href="/
 
 Enables servicing of HTTP GET request servicing on the <a href="/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">endpoint</a> for metadata 
                     retrieval.
+

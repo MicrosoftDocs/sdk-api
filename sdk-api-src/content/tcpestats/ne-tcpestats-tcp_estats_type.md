@@ -1,5 +1,5 @@
 ---
-UID: NE:tcpestats.__unnamed_enum_0
+UID: NE:tcpestats.TCP_ESTATS_TYPE
 title: TCP_ESTATS_TYPE (tcpestats.h)
 description: Defines the type of extended statistics for a TCP connection that is requested or being set.
 helpviewer_keywords: ["*PTCP_ESTATS_TYPE","TCP_ESTATS_TYPE","TCP_ESTATS_TYPE enumeration [IP Helper]","TcpConnectionEstatsBandwidth","TcpConnectionEstatsData","TcpConnectionEstatsFineRtt","TcpConnectionEstatsMaximum","TcpConnectionEstatsObsRec","TcpConnectionEstatsPath","TcpConnectionEstatsRec","TcpConnectionEstatsSendBuff","TcpConnectionEstatsSndCong","TcpConnectionEstatsSynOpts","iphlp.tcp_estats_type","tcpestats/TCP_ESTATS_TYPE","tcpestats/TcpConnectionEstatsBandwidth","tcpestats/TcpConnectionEstatsData","tcpestats/TcpConnectionEstatsFineRtt","tcpestats/TcpConnectionEstatsMaximum","tcpestats/TcpConnectionEstatsObsRec","tcpestats/TcpConnectionEstatsPath","tcpestats/TcpConnectionEstatsRec","tcpestats/TcpConnectionEstatsSendBuff","tcpestats/TcpConnectionEstatsSndCong","tcpestats/TcpConnectionEstatsSynOpts"]
@@ -217,3 +217,4 @@ The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestat
 
 
 <a href="/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_syn_opts_ros_v0">TCP_ESTATS_SYN_OPTS_ROS_v0</a>
+

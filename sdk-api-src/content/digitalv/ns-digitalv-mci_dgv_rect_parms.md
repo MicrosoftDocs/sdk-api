@@ -1,5 +1,5 @@
 ---
-UID: NS:digitalv.__unnamed_struct_0
+UID: NS:digitalv.MCI_DGV_RECT_PARMS
 title: MCI_DGV_RECT_PARMS (digitalv.h)
 description: The MCI_DGV_RECT_PARMS structure contains parameters for the MCI_FREEZE, MCI_PUT, MCI_UNFREEZE, and MCI_WHERE commands for digital-video devices.
 helpviewer_keywords: ["*LPMCI_DGV_FREEZE_PARMS","*LPMCI_DGV_PUT_PARMS","*LPMCI_DGV_RECT_PARMS","*LPMCI_DGV_UNFREEZE_PARMS","*LPMCI_DGV_WHERE_PARMS","MCI_DGV_FREEZE_PARMS","MCI_DGV_PUT_PARMS","MCI_DGV_RECT_PARMS","MCI_DGV_RECT_PARMS structure [Windows Multimedia]","MCI_DGV_UNFREEZE_PARMS","MCI_DGV_WHERE_PARMS","_win32_MCI_DGV_RECT_PARMS_str","digitalv/MCI_DGV_RECT_PARMS","multimedia.mci_dgv_rect_parms"]
@@ -103,3 +103,4 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 <a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
+

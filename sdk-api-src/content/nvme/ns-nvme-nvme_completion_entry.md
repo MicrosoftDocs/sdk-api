@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_13
-tech.root: fs 
+UID: NS:nvme.NVME_COMPLETION_ENTRY
+tech.root: fs
 title: NVME_COMPLETION_ENTRY
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Specifies an entry in the Completion Queue that is 16 bytes in size.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_COMPLETION_ENTRY, *PNVME_COMPLETION_ENTRY
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_COMPLETION_ENTRY structure
+
 
 ## -description
 

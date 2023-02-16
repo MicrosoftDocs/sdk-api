@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_18
-tech.root: fs 
+UID: NS:nvme.NVME_LBA_FORMAT
+tech.root: fs
 title: NVME_LBA_FORMAT
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters that specify the LBA format to apply to the NVM media as part of the Format NVM command.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_LBA_FORMAT, *PNVME_LBA_FORMAT
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_LBA_FORMAT structure
+
 
 ## -description
 
@@ -85,3 +86,4 @@ The meanings of the values are listed in the following table.
 ## -see-also
 
 - [NVME_IDENTIFY_NAMESPACE_DATA](ns-nvme-nvme_identify_namespace_data.md)
+

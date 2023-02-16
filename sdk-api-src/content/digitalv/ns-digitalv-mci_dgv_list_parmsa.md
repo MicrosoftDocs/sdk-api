@@ -1,5 +1,5 @@
 ---
-UID: NS:digitalv.__unnamed_struct_9
+UID: NS:digitalv.MCI_DGV_LIST_PARMSA
 title: MCI_DGV_LIST_PARMSA (digitalv.h)
 description: The MCI_DGV_LIST_PARMSA (ANSI) structure (digitalv.h) contains the information for the MCI_LIST command for digital-video devices.
 helpviewer_keywords: ["*LPMCI_DGV_LIST_PARMSA","MCI_DGV_LIST_PARMS","MCI_DGV_LIST_PARMS structure [Windows Multimedia]","MCI_DGV_LIST_PARMSA","_win32_MCI_DGV_LIST_PARMS_str","digitalv/MCI_DGV_LIST_PARMS","multimedia.mci_dgv_list_parms"]
@@ -105,3 +105,4 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 <a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
+

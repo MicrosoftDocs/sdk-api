@@ -1,5 +1,5 @@
 ---
-UID: NS:winioctl.__unnamed_struct_24
+UID: NS:winioctl.USN_RECORD_COMMON_HEADER
 title: USN_RECORD_COMMON_HEADER
 description: Contains the information for an update sequence number (USN) common header which is common through USN_RECORD_V2, USN_RECORD_V3 and USN_RECORD_V4.
 helpviewer_keywords: ["*PUSN_RECORD_COMMON_HEADER","PUSN_RECORD_COMMON_HEADER","PUSN_RECORD_COMMON_HEADER structure pointer [Files]","USN_RECORD_COMMON_HEADER","USN_RECORD_COMMON_HEADER structure [Files]","fs.usn_record_common_header","winioctl/PUSN_RECORD_COMMON_HEADER","winioctl/USN_RECORD_COMMON_HEADER"]
@@ -111,3 +111,4 @@ The minor version number of the change journal software for this record. For exa
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
+

@@ -1,11 +1,11 @@
 ---
-UID: NS:nvme.__unnamed_struct_52
-tech.root: fs 
+UID: NS:nvme.NVME_AUTO_POWER_STATE_TRANSITION_ENTRY
+tech.root: fs
 title: NVME_AUTO_POWER_STATE_TRANSITION_ENTRY
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
-description: Contains a 64 bit entry specifying information about idle time and power state transition for each of the allowable 32 power states. 
+description: Contains a 64 bit entry specifying information about idle time and power state transition for each of the allowable 32 power states.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_AUTO_POWER_STATE_TRANSITION_ENTRY, *PNVME_AUTO_POWER_STATE_TRANSITION_ENTRY
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_AUTO_POWER_STATE_TRANSITION_ENTRY structure
+
 
 ## -description
 

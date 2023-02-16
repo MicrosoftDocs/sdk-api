@@ -1,5 +1,5 @@
 ---
-UID: NS:winioctl.__unnamed_struct_25
+UID: NS:winioctl.USN_RECORD_EXTENT
 title: USN_RECORD_EXTENT
 description: Contains the offset and length for an update sequence number (USN) record extent.
 helpviewer_keywords: ["*PUSN_RECORD_EXTENT","PUSN_RECORD_EXTENT","PUSN_RECORD_EXTENT structure pointer [Files]","USN_RECORD_EXTENT","USN_RECORD_EXTENT structure [Files]","fs.usn_record_extent","winioctl/PUSN_RECORD_EXTENT","winioctl/USN_RECORD_EXTENT"]
@@ -70,3 +70,4 @@ The length of the extent, in bytes.
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
+

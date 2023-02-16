@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_25
-tech.root: fs 
+UID: NS:nvme.NVM_SET_LIST
+tech.root: fs
 title: NVM_SET_LIST
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains an array of entries for the NVME Set Attributes command.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVM_SET_LIST, *PNVM_SET_LIST
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVM_SET_LIST structure
+
 
 ## -description
 

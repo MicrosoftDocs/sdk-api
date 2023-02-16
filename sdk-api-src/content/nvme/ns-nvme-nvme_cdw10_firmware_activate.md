@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_106
-tech.root: fs 
+UID: NS:nvme.NVME_CDW10_FIRMWARE_ACTIVATE
+tech.root: fs
 title: NVME_CDW10_FIRMWARE_ACTIVATE
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters used in the Firmware Commit command.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW10_FIRMWARE_ACTIVATE, *PNVME_CDW10_FIRMWARE_ACTIVATE
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW10_FIRMWARE_ACTIVATE structure
+
 
 ## -description
 
@@ -70,5 +71,5 @@ The Activate Action (AA) field specifies the action that is taken on the image d
 
 ## -remarks
 
-
 ## -see-also
+

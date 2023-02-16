@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_51
-tech.root: fs 
+UID: NS:nvme.NVME_CDW11_FEATURE_AUTO_POWER_STATE_TRANSITION
+tech.root: fs
 title: NVME_CDW11_FEATURE_AUTO_POWER_STATE_TRANSITION
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters for the Autonomous Power State Transition Feature that configures the settings for autonomous power state transitions.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW11_FEATURE_AUTO_POWER_STATE_TRANSITION, *PNVME_CDW11_FEATURE_AUTO_POWER_STATE_TRANSITION
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW11_FEATURE_AUTO_POWER_STATE_TRANSITION structure
+
 
 ## -description
 
@@ -67,3 +68,4 @@ When the value of this field is set to `1`, autonomous power state transitions a
 
 - [NVME_AUTO_POWER_STATE_TRANSITION_ENTRY](ns-nvme-nvme_auto_power_state_transition_entry.md)
 - [NVME_CDW11_FEATURES](ns-nvme-nvme_cdw11_features.md)
+

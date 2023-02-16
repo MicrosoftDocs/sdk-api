@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_53
-tech.root: fs 
+UID: NS:nvme.NVME_CDW11_FEATURE_TEMPERATURE_THRESHOLD
+tech.root: fs
 title: NVME_CDW11_FEATURE_TEMPERATURE_THRESHOLD
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters for the Temperature Threshold feature that is used to set an over temperature threshold and an under temperature threshold for up to nine temperature values.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW11_FEATURE_TEMPERATURE_THRESHOLD, *PNVME_CDW11_FEATURE_TEMPERATURE_THRESHOLD
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW11_FEATURE_TEMPERATURE_THRESHOLD structure
+
 
 ## -description
 

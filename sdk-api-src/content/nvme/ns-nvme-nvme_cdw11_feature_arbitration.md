@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_46
-tech.root: fs 
+UID: NS:nvme.NVME_CDW11_FEATURE_ARBITRATION
+tech.root: fs
 title: NVME_CDW11_FEATURE_ARBITRATION
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values for the Arbitration Feature that controls command arbitration.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW11_FEATURE_ARBITRATION, *PNVME_CDW11_FEATURE_ARBITRATION
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW11_FEATURE_ARBITRATION structure
+
 
 ## -description
 
@@ -78,3 +79,4 @@ Specifies the High Priority Weight (HPW). The number of commands that may be exe
 ## -see-also
 
 - [NVME_CDW11_FEATURES](ns-nvme-nvme_cdw11_features.md)
+

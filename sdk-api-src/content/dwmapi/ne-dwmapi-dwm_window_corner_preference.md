@@ -1,5 +1,5 @@
 ---
-UID: NE:dwmapi.__unnamed_enum_0
+UID: NE:dwmapi.DWM_WINDOW_CORNER_PREFERENCE
 tech.root: dwm
 title: DWM_WINDOW_CORNER_PREFERENCE (dwmapi.h)
 description: The DWM_WINDOW_CORNER_PREFERENCE enumeration (dwmapi.h) specifies the rounded corner preference for a window.

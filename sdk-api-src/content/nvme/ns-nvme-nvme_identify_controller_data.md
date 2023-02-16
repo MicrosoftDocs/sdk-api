@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_22
-tech.root: fs 
+UID: NS:nvme.NVME_IDENTIFY_CONTROLLER_DATA
+tech.root: fs
 title: NVME_IDENTIFY_CONTROLLER_DATA
-ms.date: 08/09/2022 
+ms.date: 08/09/2022
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that indicate controller capabilities, features, command set attributes, and power state descriptors.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_IDENTIFY_CONTROLLER_DATA, *PNVME_IDENTIFY_CONTROLLER_DATA
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_IDENTIFY_CONTROLLER_DATA structure
+
 
 ## -description
 

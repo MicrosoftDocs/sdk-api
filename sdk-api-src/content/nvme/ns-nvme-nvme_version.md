@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_1
-tech.root: fs 
+UID: NS:nvme.NVME_VERSION
+tech.root: fs
 title: NVME_VERSION
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains fields that specify the version number of the NVM Express specification that the controller implementation supports.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_VERSION, *PNVME_VERSION
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_VERSION structure
+
 
 ## -description
 

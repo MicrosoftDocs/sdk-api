@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_47
-tech.root: fs 
+UID: NS:nvme.NVME_CDW11_FEATURE_VOLATILE_WRITE_CACHE
+tech.root: fs
 title: NVME_CDW11_FEATURE_VOLATILE_WRITE_CACHE
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters for the Volatile Write Cache Feature that controls the volatile write cache, if it is supported and present, on the controller.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW11_FEATURE_VOLATILE_WRITE_CACHE, *PNVME_CDW11_FEATURE_VOLATILE_WRITE_CACHE
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW11_FEATURE_VOLATILE_WRITE_CACHE structure
+
 
 ## -description
 

@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_161
-tech.root: fs 
+UID: NS:nvme.NVME_COMMAND
+tech.root: fs
 title: NVME_COMMAND
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains the parameters for all commands in the Admin Command and NVM Command sets.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_COMMAND, *PNVME_COMMAND
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_COMMAND structure
+
 
 ## -description
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:winioctl.__unnamed_struct_8
+UID: NS:winioctl.NTFS_FILE_RECORD_INPUT_BUFFER
 title: NTFS_FILE_RECORD_INPUT_BUFFER
 description: Contains data for the FSCTL_GET_NTFS_FILE_RECORD control code.
 helpviewer_keywords: ["*PNTFS_FILE_RECORD_INPUT_BUFFER","NTFS_FILE_RECORD_INPUT_BUFFER","NTFS_FILE_RECORD_INPUT_BUFFER structure [Files]","PNTFS_FILE_RECORD_INPUT_BUFFER","PNTFS_FILE_RECORD_INPUT_BUFFER structure pointer [Files]","_win32_ntfs_file_record_input_buffer_str","base.ntfs_file_record_input_buffer_str","fs.ntfs_file_record_input_buffer_str","winioctl/NTFS_FILE_RECORD_INPUT_BUFFER","winioctl/PNTFS_FILE_RECORD_INPUT_BUFFER"]
@@ -74,3 +74,4 @@ Pass this structure as input to the
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-ntfs_file_record_output_buffer">NTFS_FILE_RECORD_OUTPUT_BUFFER</a>
+

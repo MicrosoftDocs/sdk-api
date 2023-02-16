@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_2
+UID: NE:webservices.WS_XML_CANONICALIZATION_PROPERTY_ID
 title: WS_XML_CANONICALIZATION_PROPERTY_ID (webservices.h)
 description: Identifies each XML canonicalization property and its associated value. This enumeration is used within the WS_XML_CANONICALIZATION_PROPERTY structure, which is used as a parameter to WsStartReaderCanonicalization and WsStartWriterCanonicalization.
 helpviewer_keywords: ["WS_XML_CANONICALIZATION_PROPERTY_ALGORITHM","WS_XML_CANONICALIZATION_PROPERTY_ID","WS_XML_CANONICALIZATION_PROPERTY_ID enumeration [Web Services for Windows]","WS_XML_CANONICALIZATION_PROPERTY_INCLUSIVE_PREFIXES","WS_XML_CANONICALIZATION_PROPERTY_OMITTED_ELEMENT","WS_XML_CANONICALIZATION_PROPERTY_OUTPUT_BUFFER_SIZE","webservices/WS_XML_CANONICALIZATION_PROPERTY_ALGORITHM","webservices/WS_XML_CANONICALIZATION_PROPERTY_ID","webservices/WS_XML_CANONICALIZATION_PROPERTY_INCLUSIVE_PREFIXES","webservices/WS_XML_CANONICALIZATION_PROPERTY_OMITTED_ELEMENT","webservices/WS_XML_CANONICALIZATION_PROPERTY_OUTPUT_BUFFER_SIZE","wsw.ws_xml_canonicalization_property_id"]
@@ -83,3 +83,4 @@ A <b>ULONG</b> that specifies the size of the buffer in which canonical bytes ar
           many bytes are generated, or canonicalization is ended by a call to <a href="/windows/desktop/api/webservices/nf-webservices-wsendreadercanonicalization">WsEndReaderCanonicalization</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsendwritercanonicalization">WsEndWriterCanonicalization</a>, the canonical bytes are
           written to the output specified at the start of canonicalization.  If this is
           not specified, a default buffer size of 1024 is used.
+

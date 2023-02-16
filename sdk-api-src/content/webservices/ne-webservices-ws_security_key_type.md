@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_62
+UID: NE:webservices.WS_SECURITY_KEY_TYPE
 title: WS_SECURITY_KEY_TYPE (webservices.h)
 description: The key type of a security token. It is used as the return type when a security token is queried about its key. It is also used to specify the required key type when requesting a security token from a security token service.
 helpviewer_keywords: ["WS_SECURITY_KEY_TYPE","WS_SECURITY_KEY_TYPE enumeration [Web Services for Windows]","WS_SECURITY_KEY_TYPE_ASYMMETRIC","WS_SECURITY_KEY_TYPE_NONE","WS_SECURITY_KEY_TYPE_SYMMETRIC","webservices/WS_SECURITY_KEY_TYPE","webservices/WS_SECURITY_KEY_TYPE_ASYMMETRIC","webservices/WS_SECURITY_KEY_TYPE_NONE","webservices/WS_SECURITY_KEY_TYPE_SYMMETRIC","wsw.ws_security_key_type"]

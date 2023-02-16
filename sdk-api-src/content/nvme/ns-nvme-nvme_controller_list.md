@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_30
-tech.root: fs 
+UID: NS:nvme.NVME_CONTROLLER_LIST
+tech.root: fs
 title: NVME_CONTROLLER_LIST
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains an ordered list of controller identifiers.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CONTROLLER_LIST, *PNVME_CONTROLLER_LIST
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CONTROLLER_LIST structure
+
 
 ## -description
 
@@ -66,3 +67,4 @@ If the first value in the list is `0h`, the list is empty and there are no contr
 ## -see-also
 
 - [NVME_IDENTIFY_CONTROLLER_DATA](ns-nvme-nvme_identify_controller_data.md)
+

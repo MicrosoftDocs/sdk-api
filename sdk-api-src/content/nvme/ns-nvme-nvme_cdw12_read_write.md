@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_140
-tech.root: fs 
+UID: NS:nvme.NVME_CDW12_READ_WRITE
+tech.root: fs
 title: NVME_CDW12_READ_WRITE
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters for the NVME Read and NVME Write commands that read or write data and metadata, if applicable, to and from the NVM controller for the specified Logical Block Addresses (LBA).
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW12_READ_WRITE, *PNVME_CDW12_READ_WRITE
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW12_READ_WRITE structure
+
 
 ## -description
 
@@ -94,3 +95,4 @@ For a Write operation, if this value is set to `1`, the controller will apply li
 - [NVME_COMMAND](ns-nvme-nvme_command.md)
 - [NVME_CDW13_READ_WRITE](ns-nvme-nvme_cdw13_read_write.md)
 - [NVME_CDW15_READ_WRITE](ns-nvme-nvme_cdw15_read_write.md)
+

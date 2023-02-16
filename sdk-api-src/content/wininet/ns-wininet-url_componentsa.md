@@ -1,5 +1,5 @@
 ---
-UID: NS:wininet.__unnamed_struct_10
+UID: NS:wininet.URL_COMPONENTSA
 title: URL_COMPONENTSA (wininet.h)
 description: Contains the constituent parts of a URL. This structure is used with the InternetCrackUrl and InternetCreateUrl functions. (ANSI)
 helpviewer_keywords: ["*LPURL_COMPONENTSA","LPURL_COMPONENTS","LPURL_COMPONENTS structure pointer [WinINet]","URL_COMPONENTS","URL_COMPONENTS structure [WinINet]","URL_COMPONENTSA","URL_COMPONENTSW","_inet_url_components_structure","wininet.url_components","wininet/LPURL_COMPONENTS","wininet/URL_COMPONENTS","wininet/URL_COMPONENTSA","wininet/URL_COMPONENTSW"]
@@ -146,3 +146,4 @@ For
 
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetcreateurla">InternetCreateUrl</a>
+

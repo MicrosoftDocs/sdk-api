@@ -1,5 +1,5 @@
 ---
-UID: NE:cryptxml.__unnamed_enum_2
+UID: NE:cryptxml.CRYPT_XML_KEYINFO_SPEC
 title: CRYPT_XML_KEYINFO_SPEC (cryptxml.h)
 description: Specifies values for the dwKeyInfoSpec parameter in the CryptXmlSign function.
 helpviewer_keywords: ["CRYPT_XML_KEYINFO_SPEC","CRYPT_XML_KEYINFO_SPEC enumeration [Security]","CRYPT_XML_KEYINFO_SPEC_ENCODED","CRYPT_XML_KEYINFO_SPEC_NONE","CRYPT_XML_KEYINFO_SPEC_PARAM","cryptxml/CRYPT_XML_KEYINFO_SPEC","cryptxml/CRYPT_XML_KEYINFO_SPEC_ENCODED","cryptxml/CRYPT_XML_KEYINFO_SPEC_NONE","cryptxml/CRYPT_XML_KEYINFO_SPEC_PARAM","security.crypt_xml_keyinfo_spec"]
@@ -65,3 +65,4 @@ The value of the encoded <a href="/windows/desktop/api/cryptxml/ns-cryptxml-cryp
 ### -field CRYPT_XML_KEYINFO_SPEC_PARAM:2
 
 The members  of the <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_info">CRYPT_XML_KEY_INFO</a> structure to be encoded are specified in a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_keyinfo_param">CRYPT_XML_KEYINFO_PARAM</a> structure pointed by the <i>pvKeyInfoSpec</i> parameter.
+

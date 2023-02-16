@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_68
+UID: NE:webservices.WS_EXTENDED_PROTECTION_SCENARIO
 title: WS_EXTENDED_PROTECTION_SCENARIO (webservices.h)
 description: Defines how Extended Protection is validated.
 helpviewer_keywords: ["WS_EXTENDED_PROTECTION_SCENARIO","WS_EXTENDED_PROTECTION_SCENARIO enumeration [Web Services for Windows]","WS_EXTENDED_PROTECTION_SCENARIO_BOUND_SERVER","WS_EXTENDED_PROTECTION_SCENARIO_TERMINATED_SSL","webservices/WS_EXTENDED_PROTECTION_SCENARIO","webservices/WS_EXTENDED_PROTECTION_SCENARIO_BOUND_SERVER","webservices/WS_EXTENDED_PROTECTION_SCENARIO_TERMINATED_SSL","wsw.ws_extended_protection_scenario"]
@@ -67,3 +67,4 @@ There is no SSL connection between the client and the server, or the SSL connect
 
 An SSL connection exists but is terminated at an intermediary. The connection between the intermediary and the server may or may not
                     use SSL. When this property is set, <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_PROPERTY_ID</a> must be set as well.
+

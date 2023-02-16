@@ -1,5 +1,5 @@
 ---
-UID: NS:winioctl.__unnamed_struct_33
+UID: NS:winioctl._MARK_HANDLE_INFO32
 title: MARK_HANDLE_INFO32
 description: Contains information that is used to mark a specified file or directory, and its update sequence number (USN) change journal record with data about changes.
 helpviewer_keywords: ["*PMARK_HANDLE_INFO32","MARK_HANDLE_INFO32","MARK_HANDLE_INFO32 structure [Files]","MARK_HANDLE_NOT_REALTIME","MARK_HANDLE_NOT_TXF_SYSTEM_LOG","MARK_HANDLE_PROTECT_CLUSTERS","MARK_HANDLE_REALTIME","MARK_HANDLE_TXF_SYSTEM_LOG","PMARK_HANDLE_INFO32","PMARK_HANDLE_INFO32 structure pointer [Files]","USN_SOURCE_AUXILIARY_DATA","USN_SOURCE_DATA_MANAGEMENT","USN_SOURCE_REPLICATION_MANAGEMENT","fs.mark_handle_info32","winioctl/MARK_HANDLE_INFO32","winioctl/PMARK_HANDLE_INFO32"]
@@ -211,3 +211,4 @@ The file previously marked for real-time read behavior using the
 </td>
 </tr>
 </table>
+

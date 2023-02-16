@@ -1,8 +1,8 @@
 ---
-UID: NE:nvme.__unnamed_enum_8
-tech.root: fs 
+UID: NE:nvme.NVME_ASYNC_EVENT_NOTICE_CODES
+tech.root: fs
 title: NVME_ASYNC_EVENT_NOTICE_CODES
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that indicate a Notice event type.
@@ -12,7 +12,7 @@ req.header: nvme.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -33,6 +33,7 @@ dev_langs:
 ---
 
 # NVME_ASYNC_EVENT_NOTICE_CODES enumeration
+
 
 ## -description
 
@@ -68,3 +69,4 @@ Use this enumeration to specify values in the **NVME_ASYNC_EVENT_TYPE_NOTICE** f
 [NVME_IDENTIFY_NAMESPACE_DATA](ns-nvme-nvme_identify_namespace_data.md)
 [NVME_FIRMWARE_SLOT_INFO_LOG](ns-nvme-nvme_firmware_slot_info_log.md)
 [NVME_ADMIN_COMMANDS](ne-nvme-nvme_admin_commands.md)
+

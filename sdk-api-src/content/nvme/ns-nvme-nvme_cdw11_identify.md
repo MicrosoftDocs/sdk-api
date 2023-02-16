@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_17
-tech.root: fs 
+UID: NS:nvme.NVME_CDW11_IDENTIFY
+tech.root: fs
 title: NVME_CDW11_IDENTIFY
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains a parameter for the Identify command.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW11_IDENTIFY, *PNVME_CDW11_IDENTIFY
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW11_IDENTIFY structure
+
 
 ## -description
 
@@ -68,3 +69,4 @@ The Identify command returns information about the controller in the [NVME_IDENT
 - [NVME_CDW10_IDENTIFY](ns-nvme-nvme_cdw10_identify.md)
 - [NVME_IDENTIFY_NAMESPACE_DATA](ns-nvme-nvme_identify_namespace_data.md)
 - [NVME_IDENTIFY_CONTROLLER_DATA](ns-nvme-nvme_identify_controller_data.md)
+

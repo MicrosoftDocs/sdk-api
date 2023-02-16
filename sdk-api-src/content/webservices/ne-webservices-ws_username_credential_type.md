@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_72
+UID: NE:webservices.WS_USERNAME_CREDENTIAL_TYPE
 title: WS_USERNAME_CREDENTIAL_TYPE (webservices.h)
 description: The type of the username/password credential, used as a selector for subtypes of WS_USERNAME_CREDENTIAL.
 helpviewer_keywords: ["WS_STRING_USERNAME_CREDENTIAL_TYPE","WS_USERNAME_CREDENTIAL_TYPE","WS_USERNAME_CREDENTIAL_TYPE enumeration [Web Services for Windows]","webservices/WS_STRING_USERNAME_CREDENTIAL_TYPE","webservices/WS_USERNAME_CREDENTIAL_TYPE","wsw.ws_username_credential_type"]
@@ -58,3 +58,4 @@ subtypes of <a href="/windows/desktop/api/webservices/ns-webservices-ws_username
 ### -field WS_STRING_USERNAME_CREDENTIAL_TYPE:1
 
 Type ID for the username/password credential <a href="/windows/win32/api/webservices/ns-webservices-ws_string_username_credential">WS_STRING_USERNAME_CREDENTIAL</a>.
+

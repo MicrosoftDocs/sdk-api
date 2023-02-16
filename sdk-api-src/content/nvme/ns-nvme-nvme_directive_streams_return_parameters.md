@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_131
-tech.root: fs 
+UID: NS:nvme.NVME_DIRECTIVE_STREAMS_RETURN_PARAMETERS
+tech.root: fs
 title: NVME_DIRECTIVE_STREAMS_RETURN_PARAMETERS
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains return parameters for the Streams Directive.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_DIRECTIVE_STREAMS_RETURN_PARAMETERS, *PNVME_DIRECTIVE_STREAMS_RETURN_PARAMETERS
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_DIRECTIVE_STREAMS_RETURN_PARAMETERS structure
+
 
 ## -description
 
@@ -82,3 +83,4 @@ The number of namespace streams that are open.
 ## -remarks
 
 ## -see-also
+

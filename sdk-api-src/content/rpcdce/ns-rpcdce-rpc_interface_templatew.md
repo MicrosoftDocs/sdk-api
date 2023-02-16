@@ -1,5 +1,5 @@
 ---
-UID: NS:rpcdce.__unnamed_struct_7
+UID: NS:rpcdce.RPC_INTERFACE_TEMPLATEW
 title: RPC_INTERFACE_TEMPLATEW (rpcdce.h)
 description: The RPC_INTERFACE_TEMPLATEW (Unicode) structure (rpcdce.h) defines an RPC interface group server interface.
 helpviewer_keywords: ["*PRPC_INTERFACE_TEMPLATEW","PRPC_INTERFACE_TEMPLATE","PRPC_INTERFACE_TEMPLATE structure pointer [RPC]","RPC_INTERFACE_TEMPLATE","RPC_INTERFACE_TEMPLATE structure [RPC]","RPC_INTERFACE_TEMPLATEA","RPC_INTERFACE_TEMPLATEW","rpc.rpc_interface_template","rpcdce/PRPC_INTERFACE_TEMPLATE","rpcdce/RPC_INTERFACE_TEMPLATE","rpcdce/RPC_INTERFACE_TEMPLATEA","rpcdce/RPC_INTERFACE_TEMPLATEW"]
@@ -163,3 +163,4 @@ In some cases, the RPC run time may call the security-callback function more tha
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupdeactivate">RpcServerInterfaceGroupDeactivate</a>
+

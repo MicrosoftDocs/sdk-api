@@ -1,5 +1,5 @@
 ---
-UID: NE:ntdsapi.__unnamed_enum_5
+UID: NE:ntdsapi.DS_REPSYNCALL_ERROR
 title: DS_REPSYNCALL_ERROR (ntdsapi.h)
 description: The DS_REPSYNCALL_ERROR enumeration is used with the DS_REPSYNCALL_ERRINFO structure to indicate where in the replication process an error occurred.
 helpviewer_keywords: ["DS_REPSYNCALL_ERROR","DS_REPSYNCALL_ERROR enumeration [Active Directory]","DS_REPSYNCALL_SERVER_UNREACHABLE","DS_REPSYNCALL_WIN32_ERROR_CONTACTING_SERVER","DS_REPSYNCALL_WIN32_ERROR_REPLICATING","ad.ds_repsyncall_error","ntdsapi/DS_REPSYNCALL_ERROR","ntdsapi/DS_REPSYNCALL_SERVER_UNREACHABLE","ntdsapi/DS_REPSYNCALL_WIN32_ERROR_CONTACTING_SERVER","ntdsapi/DS_REPSYNCALL_WIN32_ERROR_REPLICATING"]
@@ -73,3 +73,4 @@ The server identified by the <b>pszSvrId</b> member of the <a href="/windows/des
 
 
 <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicasyncalla">DsReplicaSyncAll</a>
+

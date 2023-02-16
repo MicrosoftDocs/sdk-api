@@ -1,5 +1,5 @@
 ---
-UID: NS:dsquery.__unnamed_struct_1
+UID: NS:dsquery.DSCOLUMN
 title: DSCOLUMN (dsquery.h)
 description: The DSCOLUMN structure represents a column in the directory services query dialog box. An array of this structure is contained in the DSQUERYPARAMS structure.
 helpviewer_keywords: ["*LPDSCOLUMN","DSCOLUMN","DSCOLUMN structure [Active Directory]","DSCOLUMNPROP_ADSPATH","DSCOLUMNPROP_OBJECTCLASS","LPDSCOLUMN","LPDSCOLUMN structure pointer [Active Directory]","_glines_dscolumn","ad.dscolumn","dsquery/DSCOLUMN","dsquery/LPDSCOLUMN"]
@@ -113,3 +113,4 @@ Reserved.
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-loadstringa">LoadString</a>
+

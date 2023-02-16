@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_108
+UID: NE:webservices.WS_POLICY_EXTENSION_TYPE
 title: WS_POLICY_EXTENSION_TYPE (webservices.h)
 description: The values in this enumeration are used to identify the sub-types of WS_POLICY_EXTENSION.
 helpviewer_keywords: ["WS_ENDPOINT_POLICY_EXTENSION_TYPE","WS_POLICY_EXTENSION_TYPE","WS_POLICY_EXTENSION_TYPE enumeration [Web Services for Windows]","webservices/WS_ENDPOINT_POLICY_EXTENSION_TYPE","webservices/WS_POLICY_EXTENSION_TYPE","wsw.ws_policy_extension_type"]
@@ -57,3 +57,4 @@ The values in this enumeration are used to identify the sub-types of <a href="/w
 ### -field WS_ENDPOINT_POLICY_EXTENSION_TYPE:1
 
 This value is used in the type field of <a href="/windows/win32/api/webservices/ns-webservices-ws_endpoint_policy_extension">WS_POLICY_EXTENSION</a> to identify a <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_policy_extension">WS_ENDPOINT_POLICY_EXTENSION</a> structure.
+

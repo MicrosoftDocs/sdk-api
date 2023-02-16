@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_19
+UID: NE:webservices.WS_CHANNEL_TYPE
 title: WS_CHANNEL_TYPE (webservices.h)
 description: Indicates the basic characteristics of the channel, such as whether it is sessionful, and what directions of communication are supported.
 helpviewer_keywords: ["WS_CHANNEL_TYPE","WS_CHANNEL_TYPE enumeration [Web Services for Windows]","WS_CHANNEL_TYPE_DUPLEX","WS_CHANNEL_TYPE_DUPLEX_SESSION","WS_CHANNEL_TYPE_INPUT","WS_CHANNEL_TYPE_INPUT_SESSION","WS_CHANNEL_TYPE_OUTPUT","WS_CHANNEL_TYPE_OUTPUT_SESSION","WS_CHANNEL_TYPE_REPLY","WS_CHANNEL_TYPE_REQUEST","WS_CHANNEL_TYPE_SESSION","webservices/WS_CHANNEL_TYPE","webservices/WS_CHANNEL_TYPE_DUPLEX","webservices/WS_CHANNEL_TYPE_DUPLEX_SESSION","webservices/WS_CHANNEL_TYPE_INPUT","webservices/WS_CHANNEL_TYPE_INPUT_SESSION","webservices/WS_CHANNEL_TYPE_OUTPUT","webservices/WS_CHANNEL_TYPE_OUTPUT_SESSION","webservices/WS_CHANNEL_TYPE_REPLY","webservices/WS_CHANNEL_TYPE_REQUEST","webservices/WS_CHANNEL_TYPE_SESSION","wsw.ws_channel_type"]
@@ -136,3 +136,4 @@ The <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding"
 Note that reply channels provide built-in correlation of request replies.
                     It is possible to do request-reply correlation on other channel types using the
                     addressing headers (RelatesTo and MessageID).
+

@@ -1,5 +1,5 @@
 ---
-UID: NE:windns.__unnamed_enum_1
+UID: NE:windns.DNS_FREE_TYPE
 title: DNS_FREE_TYPE (windns.h)
 description: The DNS_FREE_TYPE enumeration specifies the type of data to free.
 helpviewer_keywords: ["DNS_FREE_TYPE","DNS_FREE_TYPE enumeration [DNS]","DnsFreeFlat","DnsFreeParsedMessageFields","DnsFreeRecordList","dns.dns_free_type","windns/DNS_FREE_TYPE","windns/DnsFreeFlat","windns/DnsFreeParsedMessageFields","windns/DnsFreeRecordList"]
@@ -85,3 +85,4 @@ The data freed is a parsed message field.
 
 
 <a href="/windows/desktop/api/windns/nf-windns-dnsrecordsetcopyex">DnsRecordSetCopyEx</a>
+

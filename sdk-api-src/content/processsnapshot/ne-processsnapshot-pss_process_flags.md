@@ -1,5 +1,5 @@
 ---
-UID: NE:processsnapshot.__unnamed_enum_6
+UID: NE:processsnapshot.PSS_PROCESS_FLAGS
 title: PSS_PROCESS_FLAGS (processsnapshot.h)
 description: Flags that describe a process.
 helpviewer_keywords: ["PSS_PROCESS_FLAGS","PSS_PROCESS_FLAGS enumeration","PSS_PROCESS_FLAGS_FROZEN","PSS_PROCESS_FLAGS_NONE","PSS_PROCESS_FLAGS_PROTECTED","PSS_PROCESS_FLAGS_RESERVED_03","PSS_PROCESS_FLAGS_RESERVED_04","PSS_PROCESS_FLAGS_WOW64","proc_snap.pss_process_flags","processsnapshot/PSS_PROCESS_FLAGS","processsnapshot/PSS_PROCESS_FLAGS_FROZEN","processsnapshot/PSS_PROCESS_FLAGS_NONE","processsnapshot/PSS_PROCESS_FLAGS_PROTECTED","processsnapshot/PSS_PROCESS_FLAGS_RESERVED_03","processsnapshot/PSS_PROCESS_FLAGS_RESERVED_04","processsnapshot/PSS_PROCESS_FLAGS_WOW64"]
@@ -85,3 +85,4 @@ There are <b>PSS_PROCESS_FLAGS</b> members in the <a href="/previous-versions/wi
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
+

@@ -1,5 +1,5 @@
 ---
-UID: NE:docobj.__unnamed_enum_5
+UID: NE:docobj.OLECMDID_WINDOWSTATE_FLAG
 title: OLECMDID_WINDOWSTATE_FLAG (docobj.h)
 description: Specifies the window state.
 helpviewer_keywords: ["OLECMDIDF_WINDOWSTATE_ENABLED","OLECMDIDF_WINDOWSTATE_ENABLED_VALID","OLECMDIDF_WINDOWSTATE_USERVISIBLE","OLECMDIDF_WINDOWSTATE_USERVISIBLE_VALID","OLECMDID_WINDOWSTATE_FLAG","OLECMDID_WINDOWSTATE_FLAG enumeration [COM]","_ole_OLECMDID_WINDOWSTATE_FLAG","com.olecmdid_windowstate_flag","docobj/OLECMDIDF_WINDOWSTATE_ENABLED","docobj/OLECMDIDF_WINDOWSTATE_ENABLED_VALID","docobj/OLECMDIDF_WINDOWSTATE_USERVISIBLE","docobj/OLECMDIDF_WINDOWSTATE_USERVISIBLE_VALID","docobj/OLECMDID_WINDOWSTATE_FLAG"]
@@ -77,3 +77,4 @@ A value from this enumeration is passed as the <i>nCmdExecOpt</i> parameter to <
 ## -see-also
 
 <a href="/windows/desktop/api/docobj/ne-docobj-olecmdid">OLECMDID</a>
+

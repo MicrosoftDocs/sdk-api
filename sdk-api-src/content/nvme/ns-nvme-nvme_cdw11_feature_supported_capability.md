@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_48
-tech.root: fs 
+UID: NS:nvme.NVME_CDW11_FEATURE_SUPPORTED_CAPABILITY
+tech.root: fs
 title: NVME_CDW11_FEATURE_SUPPORTED_CAPABILITY
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that are returned by the Get Features command, which describe the supported capabilities of the specified feature.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW11_FEATURE_SUPPORTED_CAPABILITY, *PNVME_CDW11_FEATURE_SUPPORTED_CAPABILITY
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW11_FEATURE_SUPPORTED_CAPABILITY structure
+
 
 ## -description
 
@@ -81,3 +82,4 @@ When this value is set to `0`, the feature is not changeable.
 ## -see-also
 
 - [NVME_CDW10_GET_FEATURES](ns-nvme-nvme_cdw10_get_features.md)
+

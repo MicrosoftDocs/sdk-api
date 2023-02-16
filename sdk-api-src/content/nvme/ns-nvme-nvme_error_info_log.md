@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_89
-tech.root: fs 
+UID: NS:nvme.NVME_ERROR_INFO_LOG
+tech.root: fs
 title: NVME_ERROR_INFO_LOG
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains fields that specify the information in an Error Information log page.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_ERROR_INFO_LOG, *PNVME_ERROR_INFO_LOG
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_ERROR_INFO_LOG structure
+
 
 ## -description
 
@@ -126,3 +127,4 @@ A reserved field.
 ## -remarks
 
 ## -see-also
+

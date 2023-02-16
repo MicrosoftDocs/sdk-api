@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_39
+UID: NE:webservices.WS_MESSAGE_STATE
 title: WS_MESSAGE_STATE (webservices.h)
 description: The different states that a message can be in.
 helpviewer_keywords: ["WS_MESSAGE_STATE","WS_MESSAGE_STATE enumeration [Web Services for Windows]","WS_MESSAGE_STATE_DONE","WS_MESSAGE_STATE_EMPTY","WS_MESSAGE_STATE_INITIALIZED","WS_MESSAGE_STATE_READING","WS_MESSAGE_STATE_WRITING","webservices/WS_MESSAGE_STATE","webservices/WS_MESSAGE_STATE_DONE","webservices/WS_MESSAGE_STATE_EMPTY","webservices/WS_MESSAGE_STATE_INITIALIZED","webservices/WS_MESSAGE_STATE_READING","webservices/WS_MESSAGE_STATE_WRITING","wsw.ws_message_state"]
@@ -105,3 +105,4 @@ The following are the state transitions while reading or receiving:
 
 Note that in the above diagrams, only valid transitions are
                 shown.
+

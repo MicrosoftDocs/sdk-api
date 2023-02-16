@@ -1,5 +1,5 @@
 ---
-UID: NS:windns.__unnamed_struct_19
+UID: NS:windns.DNS_DHCID_DATA
 title: DNS_DHCID_DATA (windns.h)
 description: Represents a DNS Dynamic Host Configuration Protocol Information (DHCID) resource record (RR) as specified in section 3 of RFC 4701.
 helpviewer_keywords: ["*PDNS_DHCID_DATA","DNS_DHCID_DATA","DNS_DHCID_DATA structure [DNS]","PDNS_DHCID_DATA","PDNS_DHCID_DATA structure pointer [DNS]","dns.dns_dhcid_data","windns/DNS_DHCID_DATA","windns/PDNS_DHCID_DATA"]
@@ -81,3 +81,4 @@ The
 
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+

@@ -1,5 +1,5 @@
 ---
-UID: NE:authz.__unnamed_enum_0
+UID: NE:authz.AUTHZ_SECURITY_ATTRIBUTE_OPERATION
 title: AUTHZ_SECURITY_ATTRIBUTE_OPERATION (authz.h)
 description: Indicates the type of modification to be made to security attributes by a call to the AuthzModifySecurityAttributes function.
 helpviewer_keywords: ["*PAUTHZ_SECURITY_ATTRIBUTE_OPERATION","AUTHZ_SECURITY_ATTRIBUTE_OPERATION","AUTHZ_SECURITY_ATTRIBUTE_OPERATION enumeration [Security]","AUTHZ_SECURITY_ATTRIBUTE_OPERATION_ADD","AUTHZ_SECURITY_ATTRIBUTE_OPERATION_DELETE","AUTHZ_SECURITY_ATTRIBUTE_OPERATION_NONE","AUTHZ_SECURITY_ATTRIBUTE_OPERATION_REPLACE","AUTHZ_SECURITY_ATTRIBUTE_OPERATION_REPLACE_ALL","PAUTHZ_SECURITY_ATTRIBUTE_OPERATION","PAUTHZ_SECURITY_ATTRIBUTE_OPERATION enumeration pointer [Security]","authz/AUTHZ_SECURITY_ATTRIBUTE_OPERATION","authz/AUTHZ_SECURITY_ATTRIBUTE_OPERATION_ADD","authz/AUTHZ_SECURITY_ATTRIBUTE_OPERATION_DELETE","authz/AUTHZ_SECURITY_ATTRIBUTE_OPERATION_NONE","authz/AUTHZ_SECURITY_ATTRIBUTE_OPERATION_REPLACE","authz/AUTHZ_SECURITY_ATTRIBUTE_OPERATION_REPLACE_ALL","authz/PAUTHZ_SECURITY_ATTRIBUTE_OPERATION","security.authz_security_attribute_operation"]
@@ -93,3 +93,4 @@ When no value is specified for an attribute, that attribute is deleted. Otherwis
 ## -see-also
 
 <a href="/windows/desktop/api/authz/nf-authz-authzmodifysecurityattributes">AuthzModifySecurityAttributes</a>
+

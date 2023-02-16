@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_21
-tech.root: fs 
+UID: NS:nvme.NVME_POWER_STATE_DESC
+tech.root: fs
 title: NVME_POWER_STATE_DESC
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains fields that describe the attributes of each power state.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_POWER_STATE_DESC, *PNVME_POWER_STATE_DESC
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_POWER_STATE_DESC structure
+
 
 ## -description
 
