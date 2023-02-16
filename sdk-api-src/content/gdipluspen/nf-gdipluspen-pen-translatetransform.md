@@ -86,7 +86,7 @@ If the method fails, it returns one of the other elements of the
 
 ## -see-also
 
-<a href="/windows/desktop/gdiplus/-gdiplus-coordinate-dystems-and-transformations-about">Coordinate dystems and Transformations</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-coordinate-systems-and-transformations-about">Coordinate systems and transformations</a>
 
 
 

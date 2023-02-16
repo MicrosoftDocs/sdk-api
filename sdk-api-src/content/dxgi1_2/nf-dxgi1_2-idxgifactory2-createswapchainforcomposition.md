@@ -92,8 +92,8 @@ A pointer to a variable that receives a pointer to the <a href="/windows/win32/a
 You can use composition swap chains with either:
 
 * <a href="/windows/win32/directcomp/directcomposition-portal">DirectComposition</a>'s <a href="/windows/win32/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a> interface,
-* WinRT XAML's [SwapChainPanel](/uwp/api/windows.ui.xaml.controls.swapchainpanel) or [SwapChainBackgroundPanel](/uwp/api/windows.ui.xaml.controls.swapchainbackgroundpanel) classes.
-* [Windows UI Library (WinUI)](https://docs.microsoft.com/windows/apps/winui/) XAML's [SwapChainPanel](/uwp/api/microsoft.ui.xaml.controls.swapchainpanel) or [SwapChainBackgroundPanel](/uwp/api/microsoft.ui.xaml.controls.swapchainbackgroundpanel) classes.
+* System XAML's [SwapChainPanel](/uwp/api/windows.ui.xaml.controls.swapchainpanel) or [SwapChainBackgroundPanel](/uwp/api/windows.ui.xaml.controls.swapchainbackgroundpanel) classes.
+* [Windows UI Library (WinUI) 3](https://docs.microsoft.com/windows/apps/winui/) XAML's [SwapChainPanel](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.swapchainpanel) or [SwapChainBackgroundPanel](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.swapchainbackgroundpanel) classes.
 
 For DirectComposition, you can call the <a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setcontent">IDCompositionVisual::SetContent</a> method to set the swap chain as the content of a <a href="/windows/win32/directcomp/basic-concepts">visual object</a>, which then allows you to bind the swap chain to the visual tree. For XAML, the <b>SwapChainBackgroundPanel</b> class exposes a classic COM interface <b>ISwapChainBackgroundPanelNative</b>. You can use the <a href="/windows/win32/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-iswapchainbackgroundpanelnative-setswapchain">ISwapChainBackgroundPanelNative::SetSwapChain</a> method to bind to the XAML UI graph. For info about how to use composition swap chains with XAML’s <b>SwapChainBackgroundPanel</b> class, see <a href="/windows/uwp/gaming/directx-and-xaml-interop">DirectX and XAML interop</a>.
 
