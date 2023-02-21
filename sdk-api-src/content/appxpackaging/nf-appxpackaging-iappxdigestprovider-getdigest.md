@@ -60,7 +60,7 @@ Returns **S_OK** on success.
 
 A digest string is a hashed representation of the contents of the associated object that can be used to verify that the contents of the object haven't changed between operations.
 
-The **IAppxDigestProvider** interface is available for the coclasses returned by the following interfaces:
+The **IAppxDigestProvider** interface is available for the objects returned by the following interfaces:
 
 - [IAppxEncryptionFactory5](nn-appxpackaging-iappxencryptionfactory4.md)
 - [IAppxBundleFactory2](nn-appxpackaging-iappxbundlefactory2.md)
