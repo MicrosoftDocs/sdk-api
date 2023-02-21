@@ -75,7 +75,7 @@ To retrieve the current compression state of a file or directory, use
 A pointer to a string that contains the root directory of the volume to be described.
 
 If this parameter is <b>NULL</b>, the root of the current directory is used. A trailing
-       backslash is required. For example, you  specify \\\\MyServer\\MyShare as
+       backslash is required. For example, specify \\\\MyServer\\MyShare as
        "\\\\MyServer\\MyShare\\", or the C drive as
        "C:\\".
 
