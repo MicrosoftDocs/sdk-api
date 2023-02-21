@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxBundleFactory2
-tech.root: appxpackaging
+tech.root: appxpkg
 title: IAppxBundleFactory2
 ms.date: 02/13/2023
 targetos: Windows

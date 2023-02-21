@@ -4,7 +4,7 @@ tech.root: appxpkg
 title: IAppxFactory3::CreateAppInstallerReader
 ms.date: 02/10/2023
 targetos: Windows
-description: Creates an instance of IAppInstallerReader.
+description: Creates an instance of IAppInstallerReader, with an optional parameter for specifying the expected digest for the App Installer file.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Creates an instance of [IAppInstallerReader](nf-appxpackaging-iappxfactory3-createappinstallerreader.md).
+Creates an instance of [IAppInstallerReader](nf-appxpackaging-iappxfactory3-createappinstallerreader.md), with an optional parameter for specifying the expected digest for the App Installer file.
 
 ## -parameters
 
@@ -62,7 +62,11 @@ Receives the created **IAppInstallerReader** Instance.
 
 ## -returns
 
-Returns S_OK on success.
+If the method succeeds, it returns S_OK. Otherwise, it returns an error code that includes, but is not limited to, those in the following table. 
+
+| Return code | Description |
+|-------------|-------------|
+| APPX_E_DIGEST_MISMATCH | The digest for the object doesn't match the digest provided in *expectedDigest*. |
 
 ## -remarks
 

@@ -62,15 +62,16 @@ The created manifest reader.
 
 ## -returns
 
-If the method succeeds, it returns S_OK. Otherwise, it returns an error code that includes, but is not limited to, those in the following table. 
+If the method succeeds, it returns **S_OK**. Otherwise, it returns an error code that includes, but is not limited to, those in the following table. 
 
 | Return code | Description |
 |-------------|-------------|
 | APPX_E_INVALID_MANIFEST | The *inputStream* does not contain syntactically valid XML for the manifest. |
+| APPX_E_DIGEST_MISMATCH | The digest for the object doesn't match the digest provided in *expectedDigest*. |
 
 ## -remarks
 
-Use **CreateManifestReader2** to read a manifest outside of an app package.  This method validates the manifest XML. The *manifestReader* provides access to all data elements and attributes in the manifest XML. The manifest logs the location of manifest validation errors in the ETW event log for AppxPackaging.
+Use **CreateManifestReader2** to read a manifest outside of an app package. This method validates the manifest XML. The *manifestReader* provides access to all data elements and attributes in the manifest XML. The manifest logs the location of manifest validation errors in the ETW event log for AppxPackaging.
 
 Get the digest string for the *expecteDigest* parameter by calling [IAppxDigestProvider::GetDigest](nf-appxpackaging-iappxdigestprovider-getdigest.md).
 

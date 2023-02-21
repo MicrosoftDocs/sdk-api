@@ -50,11 +50,11 @@ Gets the XML DOM for an App Installer file.
 
 ### -param dom [out]
 
-Receives a pointer to [IXMLDOMDocument](/previous-versions/windows/desktop/ms756987(v=vs.85)) representing the XML DOM for the App Installer file .
+Receives a pointer to [IXMLDOMDocument](/previous-versions/windows/desktop/ms756987(v=vs.85)) representing the XML DOM for the App Installer file.
 
 ## -returns
 
-Returns S_OK on success.
+Returns **S_OK** on success.
 
 ## -remarks
 

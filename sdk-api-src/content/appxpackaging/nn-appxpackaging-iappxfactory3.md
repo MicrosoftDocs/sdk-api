@@ -5,7 +5,7 @@ title: IAppxFactory3
 ms.date: 02/13/2023
 targetos: Windows
 description: Creates objects for reading and writing app packages, manifests, and app installer files.
-prerelease: false
+prerelease: true
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

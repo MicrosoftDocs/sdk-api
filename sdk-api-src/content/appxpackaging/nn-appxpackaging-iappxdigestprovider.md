@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxDigestProvider
-tech.root: appxpackaging
+tech.root: appxpkg
 title: IAppxDigestProvider
 ms.date: 02/16/2023
 targetos: Windows

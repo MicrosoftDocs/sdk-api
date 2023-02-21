@@ -66,7 +66,11 @@ The created bundle reader.
 
 ## -returns
 
-If the method succeeds, it returns **S_OK**. Otherwise, it returns an error code.
+If the method succeeds, it returns S_OK. Otherwise, it returns an error code that includes, but is not limited to, those in the following table. 
+
+| Return code | Description |
+|-------------|-------------|
+| APPX_E_DIGEST_MISMATCH | The digest for the object doesn't match the digest provided in *expectedDigest*. |
 
 ## -remarks
 

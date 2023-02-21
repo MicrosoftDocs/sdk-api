@@ -4,7 +4,7 @@ tech.root: appxpkg
 title: IAppxEncryptionFactory5::CreateEncryptedPackageReader2
 ms.date: 02/13/2023
 targetos: Windows
-description: Creates a new instance of IAppxPackageReader for reading encrypted packages, with an optional parameter for specifying the expected digest for the manifest.
+description: Creates a new instance of IAppxPackageReader for reading encrypted packages, with an optional parameter for specifying the expected digest for the package.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -44,13 +44,13 @@ helpviewer_keywords:
 
 ## -description
 
-Creates a new instance of [IAppxPackageReader](nn-appxpackaging-iappxpackagereader.md) for reading encrypted packages, with an optional parameter for specifying the expected digest for the manifest.
+Creates a new instance of [IAppxPackageReader](nn-appxpackaging-iappxpackagereader.md) for reading encrypted packages, with an optional parameter for specifying the expected digest for the package.
 
 ## -parameters
 
 ### -param inputStream
 
-A stream for reading the encrypted bundle.
+A stream for reading the encrypted package.
 
 ### -param keyInfo
 
@@ -58,15 +58,19 @@ Key info containing the base encryption key and key ID for decrypting the packag
 
 ### -param expectedDigest
 
-An LPCWSTR containing the expected digest, a hashed representation of the bundle file.
+An LPCWSTR containing the expected digest, a hashed representation of the package file.
 
 ### -param packageReader
 
-The created bundle reader.
+The created package reader.
 
 ## -returns
 
-If the method succeeds, it returns **S_OK**. Otherwise, it returns an error code.
+If the method succeeds, it returns **S_OK**. Otherwise, it returns an error code that includes, but is not limited to, those in the following table. 
+
+| Return code | Description |
+|-------------|-------------|
+| APPX_E_DIGEST_MISMATCH | The digest for the object doesn't match the digest provided in *expectedDigest*. |
 
 ## -remarks
 
