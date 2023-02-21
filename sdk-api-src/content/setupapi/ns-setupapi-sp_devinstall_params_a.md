@@ -96,18 +96,18 @@ Set if the configuration manager should not be called to remove or reenumerate d
 
 If this flag is set, device installation applications, class installers, and co-installers must not call the following functions:
 
-<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_reenumerate_devnode">CM_Reenumerate_DevNode</a>
-<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_reenumerate_devnode_ex">CM_Reenumerate_DevNode_Ex</a>
-<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_query_and_remove_subtreew">CM_Query_And_Remove_SubTree</a>
-<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_query_and_remove_subtree_exw">CM_Query_And_Remove_SubTree_Ex</a>
-<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_setup_devnode">CM_Setup_DevNode</a>
-<a href="/windows-hardware/drivers/install/cm-setup-devnode-ex">CM_Setup_DevNode_Ex</a>
-<a href="/windows-hardware/drivers/install/cm-set-hw-prof-flags">CM_Set_HW_Prof_Flags</a>
-<a href="/windows-hardware/drivers/install/cm-set-hw-prof-flags-ex">CM_Set_HW_Prof_Flags_Ex</a>
-<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_enable_devnode">CM_Enable_DevNode</a>
-<a href="/windows-hardware/drivers/install/cm-enable-devnode-ex">CM_Enable_DevNode_Ex</a>
-<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_disable_devnode">CM_Disable_DevNode</a>
-<a href="/windows-hardware/drivers/install/cm-disable-devnode-ex">CM_Disable_DevNode_Ex</a>
+<a href="../cfgmgr32/nf-cfgmgr32-cm_reenumerate_devnode.md">CM_Reenumerate_DevNode</a>
+<a href="../cfgmgr32/nf-cfgmgr32-cm_reenumerate_devnode_ex.md">CM_Reenumerate_DevNode_Ex</a>
+<a href="../cfgmgr32/nf-cfgmgr32-cm_query_and_remove_subtreew.md">CM_Query_And_Remove_SubTree</a>
+<a href="../cfgmgr32/nf-cfgmgr32-cm_query_and_remove_subtree_exw.md">CM_Query_And_Remove_SubTree_Ex</a>
+<a href="../cfgmgr32/nf-cfgmgr32-cm_setup_devnode.md">CM_Setup_DevNode</a>
+<a href="../cfgmgr32/nf-cfgmgr32-cm_setup_devnode_ex.md">CM_Setup_DevNode_Ex</a>
+<a href="../cfgmgr32/nf-cfgmgr32-cm_get_hw_prof_flagsw.md">CM_Set_HW_Prof_Flags</a>
+<a href="../cfgmgr32/nf-cfgmgr32-cm_get_hw_prof_flags_exw.md">CM_Set_HW_Prof_Flags_Ex</a>
+<a href="../cfgmgr32/nf-cfgmgr32-cm_enable_devnode.md">CM_Enable_DevNode</a>
+<a href="../cfgmgr32/nf-cfgmgr32-cm_enable_devnode_ex.md">CM_Enable_DevNode_Ex</a>
+<a href="../cfgmgr32/nf-cfgmgr32-cm_disable_devnode.md">CM_Disable_DevNode</a>
+<a href="../cfgmgr32/nf-cfgmgr32-cm_disable_devnode_ex.md">CM_Disable_DevNode_Ex</a>
 
 
 #### DI_ENUMSINGLEINF
