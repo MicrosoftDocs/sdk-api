@@ -58,7 +58,7 @@ An LPCWSTR containing the expected digest, a hashed representation of the packag
 
 ### -param packageReader [out]
 
-The created manifest reader.
+The created package reader.
 
 ## -returns
 
