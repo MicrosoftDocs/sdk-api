@@ -91,7 +91,7 @@ For monochrome icons, the <b>hbmMask</b> is twice the height of the icon (with t
 
 For color icons, the <b>hbmMask</b> and <b>hbmColor</b> bitmaps are the same size, each of which is the size of the icon.
 
-You can use a <a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a> function to get contents of <b>hbmMask</b> and <b>hbmColor</b> in the BITMAP structure.
+You can use a <a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a> function to get contents of <b>hbmMask</b> and <b>hbmColor</b> in the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmap">BITMAP</a> structure. The bitmap bits can be obtained with call to <a href="/windows/win32/api/wingdi/nf-wingdi-getdibits">GetDIBits</a> on the bitmaps in this structure.
 
 ## -see-also
 
@@ -99,13 +99,13 @@ You can use a <a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObjec
 
 <a href="/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
 
-<a href="/windows/desktop/api/wingdi/ns-wingdi-bitmap">BITMAP</a>
-
 <a href="/windows/desktop/menurc/icons">Icons</a>
 
 <a href="/windows/desktop/gdi/bitmaps">Bitmaps</a>
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>
+
+<a href="/windows/win32/api/wingdi/nf-wingdi-getdibits">GetDIBits</a>
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmap">BITMAP</a>
 
