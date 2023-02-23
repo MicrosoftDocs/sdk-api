@@ -215,7 +215,7 @@ Implementers must return a pointer to the <a href="/windows/desktop/api/vdshwprv
 
 This method is identical to the <a href="/windows/desktop/api/vds/nf-vds-ivdsvolume-shrink">IVdsVolume::Shrink</a> method.
 
-You can use the <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumeshrink-querymaxreclaimablebytes">IVdsVolumeShrink::QueryMaxReclaimableBytes</a> method to estimate the number of bytes to be reclaimed by the shrink operation. However, <b>QueryMaxReclaimableBytes</b> can return more bytes than are actually available. For more information, see "IVdsVolumeShrink::Shrink fails when provided value returned from QueryMaxReclaimableBytes" in the Help and Support Knowledge Base at <a href="https://support.microsoft.com/kb/976436">https://go.microsoft.com/fwlink/p/?linkid=167966</a>.
+You can use the <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumeshrink-querymaxreclaimablebytes">IVdsVolumeShrink::QueryMaxReclaimableBytes</a> method to estimate the number of bytes to be reclaimed by the shrink operation. However, <b>QueryMaxReclaimableBytes</b> can return more bytes than are actually available.
 
 ## -see-also
 
