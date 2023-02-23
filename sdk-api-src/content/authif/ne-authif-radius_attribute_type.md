@@ -376,6 +376,8 @@ Source IPv6 address. It is not a standard RADIUS attribute. It corresponds to th
 
 ### -field ratCertificateThumbprint
 
+Specifies the certificate thumbprint. It is not a standard RADIUS attribute. It corresponds to the internal attribute [IAS_ATTRIBUTE_CERTIFICATE_THUMBPRINT](/windows/win32/api/sdoias/ne-sdoias-attributeid). This is an extended attribute.
+
 ## -remarks
 
 The following attributes are read-only. Extension DLLs that implement [RadiusExtensionProcess2](/windows/win32/api/authif/nc-authif-pradius_extension_process_2) cannot add/remove/modify these attributes within a request or response contained in a [RADIUS_EXTENSION_CONTROL_BLOCK](/windows/win32/api/authif/ns-authif-radius_extension_control_block).
