@@ -2,7 +2,7 @@
 UID: NF:nspapi.SetServiceA
 title: SetServiceA function (nspapi.h)
 description: The SetService function registers or removes from the registry a network service within one or more namespaces. (ANSI)
-helpviewer_keywords: ["NS_DEFAULT","NS_DNS","NS_NDS","NS_NETBT","NS_SAP","NS_TCPIP_HOSTS","NS_TCPIP_LOCAL","SERVICE_ADD_TYPE","SERVICE_DELETE_TYPE","SERVICE_DEREGISTER","SERVICE_FLAG_DEFER","SERVICE_FLAG_HARD","SERVICE_FLUSH","SERVICE_REGISTER","SET_SERVICE_ PARTIAL_SUCCESS","SetService","SetService function [Winsock]","SetServiceA","SetServiceW","_win32_setservice_2","nspapi/SetService","nspapi/SetServiceA","nspapi/SetServiceW","winsock.setservice_2"]
+helpviewer_keywords: ["NS_DEFAULT", "NS_DNS", "NS_NDS", "NS_NETBT", "NS_SAP", "NS_TCPIP_HOSTS", "NS_TCPIP_LOCAL", "SERVICE_ADD_TYPE", "SERVICE_DELETE_TYPE", "SERVICE_DEREGISTER", "SERVICE_FLAG_DEFER", "SERVICE_FLAG_HARD", "SERVICE_FLUSH", "SERVICE_REGISTER", "SET_SERVICE_ PARTIAL_SUCCESS", "SetServiceA", "nspapi/SetServiceA"]
 old-location: winsock\setservice_2.htm
 tech.root: WinSock
 ms.assetid: cc5e35ef-5c64-41ba-a5f9-5961371c4d08

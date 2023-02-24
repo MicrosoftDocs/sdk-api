@@ -2,7 +2,7 @@
 UID: NF:loadperf.UnloadPerfCounterTextStringsW
 title: UnloadPerfCounterTextStringsW function (loadperf.h)
 description: Unloads performance objects and counters from the computer for the specified application. (Unicode)
-helpviewer_keywords: ["UnloadPerfCounterTextStrings","UnloadPerfCounterTextStrings function [Perf]","UnloadPerfCounterTextStringsA","UnloadPerfCounterTextStringsW","_win32_unloadperfcountertextstrings","base.unloadperfcountertextstrings","loadperf/UnloadPerfCounterTextStrings","loadperf/UnloadPerfCounterTextStringsA","loadperf/UnloadPerfCounterTextStringsW","perf.unloadperfcountertextstrings"]
+helpviewer_keywords: ["UnloadPerfCounterTextStrings", "UnloadPerfCounterTextStrings function [Perf]", "UnloadPerfCounterTextStringsW", "_win32_unloadperfcountertextstrings", "base.unloadperfcountertextstrings", "loadperf/UnloadPerfCounterTextStrings", "loadperf/UnloadPerfCounterTextStringsW", "perf.unloadperfcountertextstrings"]
 old-location: perf\unloadperfcountertextstrings.htm
 tech.root: perf
 ms.assetid: f78858ca-d8d0-4178-9f9a-731b89cf5a61

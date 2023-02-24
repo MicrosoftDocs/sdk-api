@@ -1,5 +1,5 @@
 ---
-UID: NE:ifdef.__unnamed_enum_1
+UID: NE:ifdef.IF_OPER_STATUS
 title: IF_OPER_STATUS (ifdef.h)
 description: The IF_OPER_STATUS enumeration specifies the operational status of an interface.
 helpviewer_keywords: ["IF_OPER_STATUS","IF_OPER_STATUS enumeration [IP Helper]","IfOperStatusDormant","IfOperStatusDown","IfOperStatusLowerLayerDown","IfOperStatusNotPresent","IfOperStatusTesting","IfOperStatusUnknown","IfOperStatusUp","ifdef/IF_OPER_STATUS","ifdef/IfOperStatusDormant","ifdef/IfOperStatusDown","ifdef/IfOperStatusLowerLayerDown","ifdef/IfOperStatusNotPresent","ifdef/IfOperStatusTesting","ifdef/IfOperStatusUnknown","ifdef/IfOperStatusUp","iphlp.if_oper_status"]
@@ -96,3 +96,4 @@ The <b>IF_OPER_STATUS</b> enumeration is used in the <b>OperStatus</b> member of
 ## -see-also
 
 <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a>
+

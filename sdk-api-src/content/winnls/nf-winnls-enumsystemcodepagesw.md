@@ -2,7 +2,7 @@
 UID: NF:winnls.EnumSystemCodePagesW
 title: EnumSystemCodePagesW function (winnls.h)
 description: Enumerates the code pages that are either installed on or supported by an operating system. (Unicode)
-helpviewer_keywords: ["CP_INSTALLED","CP_SUPPORTED","EnumSystemCodePages","EnumSystemCodePages function [Internationalization for Windows Applications]","EnumSystemCodePagesA","EnumSystemCodePagesW","_win32_EnumSystemCodePages","intl.enumsystemcodepages","winnls/EnumSystemCodePages","winnls/EnumSystemCodePagesA","winnls/EnumSystemCodePagesW"]
+helpviewer_keywords: ["CP_INSTALLED", "CP_SUPPORTED", "EnumSystemCodePages", "EnumSystemCodePages function [Internationalization for Windows Applications]", "EnumSystemCodePagesW", "_win32_EnumSystemCodePages", "intl.enumsystemcodepages", "winnls/EnumSystemCodePages", "winnls/EnumSystemCodePagesW"]
 old-location: intl\enumsystemcodepages.htm
 tech.root: Intl
 ms.assetid: 4ef4d30f-3e38-47ee-8f68-fbb286b7b5c3

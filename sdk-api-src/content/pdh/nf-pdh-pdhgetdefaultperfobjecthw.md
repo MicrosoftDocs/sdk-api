@@ -2,7 +2,7 @@
 UID: NF:pdh.PdhGetDefaultPerfObjectHW
 title: PdhGetDefaultPerfObjectHW function (pdh.h)
 description: Retrieves the name of the default object. (Unicode)
-helpviewer_keywords: ["PdhGetDefaultPerfObjectH","PdhGetDefaultPerfObjectH function [Perf]","PdhGetDefaultPerfObjectHA","PdhGetDefaultPerfObjectHW","_win32_pdhgetdefaultperfobjecth","base.pdhgetdefaultperfobjecth","pdh/PdhGetDefaultPerfObjectH","pdh/PdhGetDefaultPerfObjectHA","pdh/PdhGetDefaultPerfObjectHW","perf.pdhgetdefaultperfobjecth"]
+helpviewer_keywords: ["PdhGetDefaultPerfObjectH", "PdhGetDefaultPerfObjectH function [Perf]", "PdhGetDefaultPerfObjectHW", "_win32_pdhgetdefaultperfobjecth", "base.pdhgetdefaultperfobjecth", "pdh/PdhGetDefaultPerfObjectH", "pdh/PdhGetDefaultPerfObjectHW", "perf.pdhgetdefaultperfobjecth"]
 old-location: perf\pdhgetdefaultperfobjecth.htm
 tech.root: perf
 ms.assetid: 4950d5b7-3a6f-410d-830f-7868aa84f6d5

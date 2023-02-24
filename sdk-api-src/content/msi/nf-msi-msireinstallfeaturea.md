@@ -2,7 +2,7 @@
 UID: NF:msi.MsiReinstallFeatureA
 title: MsiReinstallFeatureA function (msi.h)
 description: Reinstalls features. (ANSI)
-helpviewer_keywords: ["MsiReinstallFeature","MsiReinstallFeature function","MsiReinstallFeatureA","MsiReinstallFeatureW","REINSTALLMODE_FILEEQUALVERSION","REINSTALLMODE_FILEEXACT","REINSTALLMODE_FILEMISSING","REINSTALLMODE_FILEOLDERVERSION","REINSTALLMODE_FILEREPLACE","REINSTALLMODE_FILEVERIFY","REINSTALLMODE_MACHINEDATA","REINSTALLMODE_PACKAGE","REINSTALLMODE_SHORTCUT","REINSTALLMODE_USERDATA","_msi_msireinstallfeature","msi/MsiReinstallFeature","msi/MsiReinstallFeatureA","msi/MsiReinstallFeatureW","setup.msireinstallfeature"]
+helpviewer_keywords: ["MsiReinstallFeatureA", "REINSTALLMODE_FILEEQUALVERSION", "REINSTALLMODE_FILEEXACT", "REINSTALLMODE_FILEMISSING", "REINSTALLMODE_FILEOLDERVERSION", "REINSTALLMODE_FILEREPLACE", "REINSTALLMODE_FILEVERIFY", "REINSTALLMODE_MACHINEDATA", "REINSTALLMODE_PACKAGE", "REINSTALLMODE_SHORTCUT", "REINSTALLMODE_USERDATA", "msi/MsiReinstallFeatureA"]
 old-location: setup\msireinstallfeature.htm
 tech.root: setup
 ms.assetid: 0750838d-56c8-449c-b1fd-99c9426beb52

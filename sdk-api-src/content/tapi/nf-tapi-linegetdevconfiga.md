@@ -2,7 +2,7 @@
 UID: NF:tapi.lineGetDevConfigA
 title: lineGetDevConfigA function (tapi.h)
 description: The lineGetDevConfig function returns an &quot;opaque&quot; data structure object, the contents of which are specific to the line (service provider) and device class. (lineGetDevConfigA)
-helpviewer_keywords: ["_tapi2_linegetdevconfig","lineGetDevConfig","lineGetDevConfig function [TAPI 2.2]","lineGetDevConfigA","lineGetDevConfigW","tapi/lineGetDevConfig","tapi/lineGetDevConfigA","tapi/lineGetDevConfigW","tapi2.linegetdevconfig"]
+helpviewer_keywords: ["lineGetDevConfigA", "tapi/lineGetDevConfigA"]
 old-location: tapi2\linegetdevconfig.htm
 tech.root: tapi3
 ms.assetid: 39ff5ddb-142e-4f11-9395-e2c3a3ac7d19

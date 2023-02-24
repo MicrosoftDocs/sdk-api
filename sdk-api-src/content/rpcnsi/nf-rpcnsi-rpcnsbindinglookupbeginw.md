@@ -2,7 +2,7 @@
 UID: NF:rpcnsi.RpcNsBindingLookupBeginW
 title: RpcNsBindingLookupBeginW function (rpcnsi.h)
 description: The RpcNsBindingLookupBegin function creates a lookup context for an interface and an object. (Unicode)
-helpviewer_keywords: ["RpcNsBindingLookupBegin","RpcNsBindingLookupBegin function [RPC]","RpcNsBindingLookupBeginA","RpcNsBindingLookupBeginW","_rpc_rpcnsbindinglookupbegin","rpc.rpcnsbindinglookupbegin","rpcnsi/RpcNsBindingLookupBegin","rpcnsi/RpcNsBindingLookupBeginA","rpcnsi/RpcNsBindingLookupBeginW"]
+helpviewer_keywords: ["RpcNsBindingLookupBegin", "RpcNsBindingLookupBegin function [RPC]", "RpcNsBindingLookupBeginW", "_rpc_rpcnsbindinglookupbegin", "rpc.rpcnsbindinglookupbegin", "rpcnsi/RpcNsBindingLookupBegin", "rpcnsi/RpcNsBindingLookupBeginW"]
 old-location: rpc\rpcnsbindinglookupbegin.htm
 tech.root: Rpc
 ms.assetid: 75b7e901-706a-4e3d-b958-d04a0709b993

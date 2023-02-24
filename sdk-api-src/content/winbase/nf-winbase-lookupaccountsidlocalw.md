@@ -2,7 +2,7 @@
 UID: NF:winbase.LookupAccountSidLocalW
 title: LookupAccountSidLocalW macro (winbase.h)
 description: Retrieves the name of the account for the specified SID on the local machine. (Unicode)
-helpviewer_keywords: ["LookupAccountSidLocal","LookupAccountSidLocal function [Security]","LookupAccountSidLocalA","LookupAccountSidLocalW","security.lookupaccountsidlocal","winbase/LookupAccountSidLocal","winbase/LookupAccountSidLocalA","winbase/LookupAccountSidLocalW"]
+helpviewer_keywords: ["LookupAccountSidLocal", "LookupAccountSidLocal function [Security]", "LookupAccountSidLocalW", "security.lookupaccountsidlocal", "winbase/LookupAccountSidLocal", "winbase/LookupAccountSidLocalW"]
 old-location: security\lookupaccountsidlocal.htm
 tech.root: security
 ms.assetid: B039FFD7-B483-4CC0-B606-FAA5003DA238

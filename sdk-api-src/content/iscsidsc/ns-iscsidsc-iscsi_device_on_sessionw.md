@@ -1,5 +1,5 @@
 ---
-UID: NS:iscsidsc.__unnamed_struct_20
+UID: NS:iscsidsc.ISCSI_DEVICE_ON_SESSIONW
 title: ISCSI_DEVICE_ON_SESSIONW (iscsidsc.h)
 description: ISCSI_DEVICE_ON_SESSION structure specifies multiple methods for identifying a device associated with an iSCSI login session. (Unicode)
 helpviewer_keywords: ["*PISCSI_DEVICE_ON_SESSIONW","ISCSI_DEVICE_ON_SESSION","ISCSI_DEVICE_ON_SESSION structure [iSCSI Discovery Library API]","ISCSI_DEVICE_ON_SESSIONA","ISCSI_DEVICE_ON_SESSIONW","PISCSI_DEVICE_ON_SESSION","PISCSI_DEVICE_ON_SESSION structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_device_on_session","iscsidsc/ISCSI_DEVICE_ON_SESSION","iscsidsc/ISCSI_DEVICE_ON_SESSIONA","iscsidsc/ISCSI_DEVICE_ON_SESSIONW","iscsidsc/PISCSI_DEVICE_ON_SESSION"]

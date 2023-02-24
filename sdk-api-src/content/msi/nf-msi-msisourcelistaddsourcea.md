@@ -2,7 +2,7 @@
 UID: NF:msi.MsiSourceListAddSourceA
 title: MsiSourceListAddSourceA function (msi.h)
 description: Adds to the list of valid network sources that contain the specified type of sources for a product or patch in a specified user context. (ANSI)
-helpviewer_keywords: ["MsiSourceListAddSource","MsiSourceListAddSource function","MsiSourceListAddSourceA","MsiSourceListAddSourceW","_msi_msisourcelistaddsource","msi/MsiSourceListAddSource","msi/MsiSourceListAddSourceA","msi/MsiSourceListAddSourceW","setup.msisourcelistaddsource"]
+helpviewer_keywords: ["MsiSourceListAddSourceA", "msi/MsiSourceListAddSourceA"]
 old-location: setup\msisourcelistaddsource.htm
 tech.root: setup
 ms.assetid: 5f01a49a-38ae-4a53-967a-38aad1aa01f4

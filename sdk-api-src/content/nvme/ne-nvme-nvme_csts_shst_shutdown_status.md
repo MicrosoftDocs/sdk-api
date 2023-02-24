@@ -1,8 +1,8 @@
 ---
-UID: NE:nvme.__unnamed_enum_3
-tech.root: fs 
+UID: NE:nvme.NVME_CSTS_SHST_SHUTDOWN_STATUS
+tech.root: fs
 title: NVME_CSTS_SHST_SHUTDOWN_STATUS
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that indicate the status of shutdown processing that is initiated by the host setting the **SHN** field in the [NVME_CONTROLLER_CONFIGURATION](ns-nvme-nvme_controller_configuration.md) structure.
@@ -12,7 +12,7 @@ req.header: nvme.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -33,6 +33,7 @@ dev_langs:
 ---
 
 # NVME_CSTS_SHST_SHUTDOWN_STATUS enumeration
+
 
 ## -description
 
@@ -60,3 +61,4 @@ To start executing commands on the controller after a shutdown operation, (when 
 
 [NVME_CONTROLLER_STATUS](ns-nvme-nvme_controller_status.md)
 [NVME_CONTROLLER_CONFIGURATION](ns-nvme-nvme_controller_configuration.md)
+

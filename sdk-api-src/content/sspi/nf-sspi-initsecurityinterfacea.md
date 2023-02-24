@@ -2,7 +2,7 @@
 UID: NF:sspi.InitSecurityInterfaceA
 title: InitSecurityInterfaceA function (sspi.h)
 description: The InitSecurityInterface function returns a pointer to an SSPI dispatch table. This function enables clients to use SSPI without binding directly to an implementation of the interface. (ANSI)
-helpviewer_keywords: ["InitSecurityInterface","InitSecurityInterface function [Security]","InitSecurityInterfaceA","InitSecurityInterfaceW","_ssp_initsecurityinterface","security.initsecurityinterface","sspi/InitSecurityInterface","sspi/InitSecurityInterfaceA","sspi/InitSecurityInterfaceW"]
+helpviewer_keywords: ["InitSecurityInterfaceA", "sspi/InitSecurityInterfaceA"]
 old-location: security\initsecurityinterface.htm
 tech.root: security
 ms.assetid: 1026eeab-e2d6-45f2-9677-82d6cfbf4e12

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dcommon.ID3DDestructionNotifier.UnregisterDestructionCallback
 title: ID3DDestructionNotifier::UnregisterDestructionCallback (d3dcommon.h)
-description: Unregisters a callback that was registered with [ID3DDestructionNotifier::RegisterDestructionCallback](./nf-d3dcommon-id3ddestructionotifier-registerdestructioncallback.md).
+description: Unregisters a callback that was registered with [RegisterDestructionCallback](/windows/win32/api/d3dcommon/nf-d3dcommon-id3ddestructionotifier-registerdestructioncallback).
 helpviewer_keywords: ["ID3DDestructionNotifier interface [Direct3D]","UnregisterDestructionCallback method","ID3DDestructionNotifier.UnregisterDestructionCallback","ID3DDestructionNotifier::UnregisterDestructionCallback","UnregisterDestructionCallback","UnregisterDestructionCallback method [Direct3D]","UnregisterDestructionCallback method [Direct3D]","ID3DDestructionNotifier interface","d3dcommon/ID3DDestructionNotifier::UnregisterDestructionCallback","direct3d11.id3ddestructionnotifier_unregisterdestructioncallback"]
 tech.root: direct3d11
 ms.date: 10/06/2020
@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-Unregisters a callback that was registered with [ID3DDestructionNotifier::RegisterDestructionCallback](./nf-d3dcommon-id3ddestructionotifier-registerdestructioncallback.md).
+Unregisters a callback that was registered with [RegisterDestructionCallback](/windows/win32/api/d3dcommon/nf-d3dcommon-id3ddestructionotifier-registerdestructioncallback).
 
 ## -parameters
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:mapi.__unnamed_struct_5
+UID: NS:mapi.MapiMessage
 title: MapiMessage (mapi.h)
 description: A MapiMessage structure contains information about a message. For Unicode support, use the MapiMessageW structure.
 helpviewer_keywords: ["*lpMapiMessage","MAPI_RECEIPT_REQUESTED","MAPI_SENT","MAPI_UNREAD","MapiMessage","MapiMessage structure","lpMapiMessage","lpMapiMessage structure pointer","mapi.mapimessage","mapi/MapiMessage","mapi/lpMapiMessage"]
@@ -160,3 +160,4 @@ Pointer to an array of <a href="/previous-versions/windows/desktop/api/mapi/ns-m
 
 
 <a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessagew">MapiMessageW</a>
+

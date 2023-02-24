@@ -2,7 +2,7 @@
 UID: NF:ras.RasHangUpW
 title: RasHangUpW function (ras.h)
 description: The RasHangUp function terminates a remote access connection. The connection is specified with a RAS connection handle. The function releases all RASAPI32.DLL resources associated with the handle. (Unicode)
-helpviewer_keywords: ["RasHangUp","RasHangUp function [RAS]","RasHangUpA","RasHangUpW","_ras_rashangup","ras/RasHangUp","ras/RasHangUpA","ras/RasHangUpW","rras.rashangup"]
+helpviewer_keywords: ["RasHangUp", "RasHangUp function [RAS]", "RasHangUpW", "_ras_rashangup", "ras/RasHangUp", "ras/RasHangUpW", "rras.rashangup"]
 old-location: rras\rashangup.htm
 tech.root: RRAS
 ms.assetid: b5720ddf-c7ac-439e-97cb-62240122a775

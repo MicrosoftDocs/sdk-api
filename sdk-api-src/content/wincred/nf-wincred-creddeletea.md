@@ -2,7 +2,7 @@
 UID: NF:wincred.CredDeleteA
 title: CredDeleteA function (wincred.h)
 description: Deletes a credential from the user's credential set. (ANSI)
-helpviewer_keywords: ["CredDelete","CredDelete function [Security]","CredDeleteA","CredDeleteW","_cred_creddelete","security.creddelete","wincred/CredDelete","wincred/CredDeleteA","wincred/CredDeleteW"]
+helpviewer_keywords: ["CredDeleteA", "wincred/CredDeleteA"]
 old-location: security\creddelete.htm
 tech.root: security
 ms.assetid: 154af9c8-18fd-412d-899d-7c6d2138380d

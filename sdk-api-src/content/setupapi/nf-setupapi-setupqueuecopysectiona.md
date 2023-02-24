@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupQueueCopySectionA
 title: SetupQueueCopySectionA function (setupapi.h)
 description: The SetupQueueCopySection function places all the files in a section of an INF file in a setup queue for copying. (ANSI)
-helpviewer_keywords: ["SetupQueueCopySection","SetupQueueCopySection function [Setup API]","SetupQueueCopySectionA","SetupQueueCopySectionW","_setupapi_setupqueuecopysection","setup.setupqueuecopysection","setupapi/SetupQueueCopySection","setupapi/SetupQueueCopySectionA","setupapi/SetupQueueCopySectionW"]
+helpviewer_keywords: ["SetupQueueCopySectionA", "setupapi/SetupQueueCopySectionA"]
 old-location: setup\setupqueuecopysection.htm
 tech.root: setup
 ms.assetid: f61fd00e-e60f-4722-9da7-1ed4d8491004

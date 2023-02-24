@@ -56,7 +56,7 @@ A pointer to the <b>IDirectDrawSurface</b> interface for the attached surface.
 
 ### -param unnamedParam2 [in]
 
-A pointer to a <a href="/previous-versions/windows/hardware/drivers/ff550339(v=vs.85)">DDSURFACEDESC</a> structure that describes the attached surface.
+A pointer to a <a href="/windows/win32/api/ddraw/ns-ddraw-ddsurfacedesc">DDSURFACEDESC</a> structure that describes the attached surface.
 
 ### -param unnamedParam3 [in]
 

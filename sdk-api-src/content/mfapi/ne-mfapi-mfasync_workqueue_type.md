@@ -1,5 +1,5 @@
 ---
-UID: NE:mfapi.__unnamed_enum_0
+UID: NE:mfapi.MFASYNC_WORKQUEUE_TYPE
 title: MFASYNC_WORKQUEUE_TYPE (mfapi.h)
 description: Specifies the type of work queue for the MFAllocateWorkQueueEx function to create.
 helpviewer_keywords: ["MFASYNC_WORKQUEUE_TYPE","MFASYNC_WORKQUEUE_TYPE enumeration [Media Foundation]","MF_MULTITHREADED_WORKQUEUE","MF_STANDARD_WORKQUEUE","MF_WINDOW_WORKQUEUE","mf.mfasync_workqueue_type","mfapi/MFASYNC_WORKQUEUE_TYPE","mfapi/MF_MULTITHREADED_WORKQUEUE","mfapi/MF_STANDARD_WORKQUEUE","mfapi/MF_WINDOW_WORKQUEUE"]
@@ -73,3 +73,4 @@ Create a multithreaded work queue. This type of work queue uses a thread pool to
 
 
 <a href="/windows/desktop/medfound/work-queues">Work Queues</a>
+

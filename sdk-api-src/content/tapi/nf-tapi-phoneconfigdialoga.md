@@ -2,7 +2,7 @@
 UID: NF:tapi.phoneConfigDialogA
 title: phoneConfigDialogA function (tapi.h)
 description: The phoneConfigDialog function causes the provider of the specified phone device to display a modal dialog box that allows the user to configure parameters related to the phone device. (phoneConfigDialogA)
-helpviewer_keywords: ["_tapi2_phoneconfigdialog","phoneConfigDialog","phoneConfigDialog function [TAPI 2.2]","phoneConfigDialogA","phoneConfigDialogW","tapi/phoneConfigDialog","tapi/phoneConfigDialogA","tapi/phoneConfigDialogW","tapi2.phoneconfigdialog"]
+helpviewer_keywords: ["phoneConfigDialogA", "tapi/phoneConfigDialogA"]
 old-location: tapi2\phoneconfigdialog.htm
 tech.root: tapi3
 ms.assetid: 64f2626a-283d-47c8-aecd-57d31712a700

@@ -2,7 +2,7 @@
 UID: NF:tapi.lineGetRequestW
 title: lineGetRequestW function (tapi.h)
 description: The lineGetRequestW (Unicode) function (tapi.h) retrieves the next by-proxy request for the specified request mode.
-helpviewer_keywords: ["_tapi2_linegetrequest","lineGetRequest","lineGetRequest function [TAPI 2.2]","lineGetRequestA","lineGetRequestW","tapi/lineGetRequest","tapi/lineGetRequestA","tapi/lineGetRequestW","tapi2.linegetrequest"]
+helpviewer_keywords: ["_tapi2_linegetrequest", "lineGetRequest", "lineGetRequest function [TAPI 2.2]", "lineGetRequestW", "tapi/lineGetRequest", "tapi/lineGetRequestW", "tapi2.linegetrequest"]
 old-location: tapi2\linegetrequest.htm
 tech.root: tapi3
 ms.assetid: c72ed61f-abbe-4a6d-9f8d-95afbd5dfb04

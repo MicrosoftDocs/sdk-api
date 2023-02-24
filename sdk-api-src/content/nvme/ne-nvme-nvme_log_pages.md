@@ -1,8 +1,8 @@
 ---
-UID: NE:nvme.__unnamed_enum_30
-tech.root: fs 
+UID: NE:nvme.NVME_LOG_PAGES
+tech.root: fs
 title: NVME_LOG_PAGES
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that indicate the log pages that can be retrieved by the Get Log Page **NVME_ADMIN_COMMAND_GET_LOG_PAGE** Admin Command.
@@ -12,7 +12,7 @@ req.header: nvme.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -33,6 +33,7 @@ dev_langs:
 ---
 
 # NVME_LOG_PAGES enumeration
+
 
 ## -description
 
@@ -108,5 +109,4 @@ The Sanitize Status log page that is created whenever an unmasked reservation no
 
 [NVME_CDW10_GET_LOG_PAGE](ns-nvme-nvme_cdw10_get_log_page.md)
 [NVME_CDW10_GET_LOG_PAGE_V13](ns-nvme-nvme_cdw10_get_log_page_v13.md)
-
 

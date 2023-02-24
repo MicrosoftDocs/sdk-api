@@ -2,7 +2,7 @@
 UID: NF:tapi.lineForwardA
 title: lineForwardA function (tapi.h)
 description: The lineForward function forwards calls destined for the specified address on the specified line, according to the specified forwarding instructions. (lineForwardA)
-helpviewer_keywords: ["_tapi2_lineforward","lineForward","lineForward function [TAPI 2.2]","lineForwardA","lineForwardW","tapi/lineForward","tapi/lineForwardA","tapi/lineForwardW","tapi2.lineforward"]
+helpviewer_keywords: ["lineForwardA", "tapi/lineForwardA"]
 old-location: tapi2\lineforward.htm
 tech.root: tapi3
 ms.assetid: 68dc99c5-1158-4e18-8e32-08216ff3567b

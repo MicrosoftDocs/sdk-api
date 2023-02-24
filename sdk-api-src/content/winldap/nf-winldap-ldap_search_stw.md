@@ -2,7 +2,7 @@
 UID: NF:winldap.ldap_search_stW
 title: ldap_search_stW function (winldap.h)
 description: The ldap_search_stW (Unicode) function (winldap.h) synchronously searches the LDAP directory and returns a requested set of attributes for each entry matched.  
-helpviewer_keywords: ["LDAP_SCOPE_BASE","LDAP_SCOPE_ONELEVEL","LDAP_SCOPE_SUBTREE","_ldap_ldap_search_st","ldap.ldap__search__st","ldap.ldap_search_st","ldap_search_st","ldap_search_st function [LDAP]","ldap_search_stA","ldap_search_stW","winldap/ldap_search_st","winldap/ldap_search_stA","winldap/ldap_search_stW"]
+helpviewer_keywords: ["LDAP_SCOPE_BASE", "LDAP_SCOPE_ONELEVEL", "LDAP_SCOPE_SUBTREE", "_ldap_ldap_search_st", "ldap.ldap__search__st", "ldap.ldap_search_st", "ldap_search_st", "ldap_search_st function [LDAP]", "ldap_search_stW", "winldap/ldap_search_st", "winldap/ldap_search_stW"]
 old-location: ldap\ldap_search_st.htm
 tech.root: ldap
 ms.assetid: af2ab469-fa72-4a57-912c-42d9a6721806

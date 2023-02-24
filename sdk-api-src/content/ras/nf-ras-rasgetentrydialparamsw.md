@@ -2,7 +2,7 @@
 UID: NF:ras.RasGetEntryDialParamsW
 title: RasGetEntryDialParamsW function (ras.h)
 description: The RasGetEntryDialParams function retrieves the connection information saved by the last successful call to the RasDial or RasSetEntryDialParams function for a specified phone-book entry. (Unicode)
-helpviewer_keywords: ["RasGetEntryDialParams","RasGetEntryDialParams function [RAS]","RasGetEntryDialParamsA","RasGetEntryDialParamsW","_ras_rasgetentrydialparams","ras/RasGetEntryDialParams","ras/RasGetEntryDialParamsA","ras/RasGetEntryDialParamsW","rras.rasgetentrydialparams"]
+helpviewer_keywords: ["RasGetEntryDialParams", "RasGetEntryDialParams function [RAS]", "RasGetEntryDialParamsW", "_ras_rasgetentrydialparams", "ras/RasGetEntryDialParams", "ras/RasGetEntryDialParamsW", "rras.rasgetentrydialparams"]
 old-location: rras\rasgetentrydialparams.htm
 tech.root: RRAS
 ms.assetid: c6752f95-c7e8-44d9-9dbd-9f03cc4778fa

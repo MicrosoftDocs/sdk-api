@@ -2,7 +2,7 @@
 UID: NF:msi.MsiSourceListClearAllA
 title: MsiSourceListClearAllA function (msi.h)
 description: The MsiSourceListClearAll function removes all network sources from the source list of a patch or product in a specified context. For more information, see Source Resiliency. (ANSI)
-helpviewer_keywords: ["MsiSourceListClearAll","MsiSourceListClearAll function","MsiSourceListClearAllA","MsiSourceListClearAllW","_msi_msisourcelistclearall","msi/MsiSourceListClearAll","msi/MsiSourceListClearAllA","msi/MsiSourceListClearAllW","setup.msisourcelistclearall"]
+helpviewer_keywords: ["MsiSourceListClearAllA", "msi/MsiSourceListClearAllA"]
 old-location: setup\msisourcelistclearall.htm
 tech.root: setup
 ms.assetid: e46d222d-f788-4b68-b7ff-a72261e1066b

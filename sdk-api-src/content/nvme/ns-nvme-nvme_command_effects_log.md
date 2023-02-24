@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_95
-tech.root: fs 
+UID: NS:nvme.NVME_COMMAND_EFFECTS_LOG
+tech.root: fs
 title: NVME_COMMAND_EFFECTS_LOG
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains information that describes the commands that the controller supports and the effects of those commands on the state of the NVM subsystem.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_COMMAND_EFFECTS_LOG, *PNVME_COMMAND_EFFECTS_LOG
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_COMMAND_EFFECTS_LOG structure
+
 
 ## -description
 

@@ -1,5 +1,5 @@
 ---
-UID: NE:ws2ipdef.__unnamed_enum_0
+UID: NE:ws2ipdef.MULTICAST_MODE_TYPE
 title: MULTICAST_MODE_TYPE (ws2ipdef.h)
 description: Specifies the filter mode for multicast group addresses.
 helpviewer_keywords: ["MCAST_EXCLUDE","MCAST_INCLUDE","MULTICAST_MODE_TYPE","MULTICAST_MODE_TYPE enumeration [Winsock]","winsock.multicast_mode_type","ws2ipdef/MCAST_EXCLUDE","ws2ipdef/MCAST_INCLUDE","ws2ipdef/MULTICAST_MODE_TYPE"]
@@ -97,3 +97,4 @@ The <b>MULTICAST_MODE_TYPE</b> enumeration is defined in the <i>Ws2ipdef.h</i> h
 
 
 <a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-ipv6_mreq">ipv6_mreq</a>
+

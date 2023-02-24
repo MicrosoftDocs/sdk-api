@@ -2,7 +2,7 @@
 UID: NF:winuser.CreateAcceleratorTableA
 title: CreateAcceleratorTableA function (winuser.h)
 description: Creates an accelerator table. (ANSI)
-helpviewer_keywords: ["CreateAcceleratorTable","CreateAcceleratorTable function [Menus and Other Resources]","CreateAcceleratorTableA","CreateAcceleratorTableW","_win32_CreateAcceleratorTable","_win32_createacceleratortable_cpp","menurc.createacceleratortable","winui._win32_createacceleratortable","winuser/CreateAcceleratorTable","winuser/CreateAcceleratorTableA","winuser/CreateAcceleratorTableW"]
+helpviewer_keywords: ["CreateAcceleratorTableA", "winuser/CreateAcceleratorTableA"]
 old-location: menurc\createacceleratortable.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\createacceleratortable.htm

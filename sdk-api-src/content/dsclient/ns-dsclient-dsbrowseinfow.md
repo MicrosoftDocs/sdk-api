@@ -1,5 +1,5 @@
 ---
-UID: NS:dsclient.__unnamed_struct_5
+UID: NS:dsclient.DSBROWSEINFOW
 title: DSBROWSEINFOW (dsclient.h)
 description: The DSBROWSEINFO structure is used with the DsBrowseForContainer function to supply and return data about the Active Directory container browser dialog box. (Unicode)
 helpviewer_keywords: ["*PDSBROWSEINFOW","DSBI_CHECKBOXES","DSBI_DONTSIGNSEAL","DSBI_ENTIREDIRECTORY","DSBI_EXPANDONOPEN","DSBI_HASCREDENTIALS","DSBI_IGNORETREATASLEAF","DSBI_INCLUDEHIDDEN","DSBI_NOBUTTONS","DSBI_NOLINES","DSBI_NOLINESATROOT","DSBI_NOROOT","DSBI_RETURNOBJECTCLASS","DSBI_RETURN_FORMAT","DSBI_SIMPLEAUTHENTICATE","DSBROWSEINFO","DSBROWSEINFO structure [Active Directory]","DSBROWSEINFOA","DSBROWSEINFOW","DSBROWSEINFOW structure [Active Directory]","PDSBROWSEINFOW","PDSBROWSEINFOW structure pointer [Active Directory]","_glines_dsbrowseinfo","ad.dsbrowseinfo","dsclient/DSBROWSEINFO","dsclient/DSBROWSEINFOA","dsclient/DSBROWSEINFOW","dsclient/PDSBROWSEINFOW"]
@@ -293,3 +293,4 @@ Indicates that secure authentication is not required when calling <a href="/wind
 
 > [!NOTE]
 > The dsclient.h header defines DSBROWSEINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

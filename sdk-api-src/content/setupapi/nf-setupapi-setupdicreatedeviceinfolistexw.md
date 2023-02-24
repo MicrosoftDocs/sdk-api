@@ -2,11 +2,11 @@
 UID: NF:setupapi.SetupDiCreateDeviceInfoListExW
 title: SetupDiCreateDeviceInfoListExW function (setupapi.h)
 description: The SetupDiCreateDeviceInfoList function creates an empty device information set on a remote or a local computer and optionally associates the set with a device setup class . (Unicode)
-helpviewer_keywords: ["SetupDiCreateDeviceInfoListEx","SetupDiCreateDeviceInfoListEx function [Device and Driver Installation]","SetupDiCreateDeviceInfoListExA","SetupDiCreateDeviceInfoListExW","devinst.setupdicreatedeviceinfolistex","di-rtns_584dc470-c07f-4658-b16d-53a2594dabf9.xml","setupapi/SetupDiCreateDeviceInfoListEx"]
+helpviewer_keywords: ["SetupDiCreateDeviceInfoListEx", "SetupDiCreateDeviceInfoListEx function [Device and Driver Installation]", "SetupDiCreateDeviceInfoListExW", "devinst.setupdicreatedeviceinfolistex", "di-rtns_584dc470-c07f-4658-b16d-53a2594dabf9.xml", "setupapi/SetupDiCreateDeviceInfoListEx"]
 old-location: devinst\setupdicreatedeviceinfolistex.htm
 tech.root: devinst
 ms.assetid: 4dae7b07-2e24-4fd8-82f2-f947296ce3c4
-ms.date: 12/05/2018
+ms.date: 01/30/2023
 ms.keywords: SetupDiCreateDeviceInfoListEx, SetupDiCreateDeviceInfoListEx function [Device and Driver Installation], SetupDiCreateDeviceInfoListExA, SetupDiCreateDeviceInfoListExW, devinst.setupdicreatedeviceinfolistex, di-rtns_584dc470-c07f-4658-b16d-53a2594dabf9.xml, setupapi/SetupDiCreateDeviceInfoListEx
 req.header: setupapi.h
 req.include-header: Setupapi.h
@@ -67,6 +67,9 @@ A handle to the top-level window to use for any user interface that is related t
 ### -param MachineName [in, optional]
 
 A pointer to a NULL-terminated string that contains the name of a computer on a network. If a name is specified, only devices on that computer can be created and opened in this device information set. If this parameter is set to <b>NULL</b>, the device information set is for devices on the local computer.
+
+> [!CAUTION]
+> Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.
 
 ### -param Reserved
 

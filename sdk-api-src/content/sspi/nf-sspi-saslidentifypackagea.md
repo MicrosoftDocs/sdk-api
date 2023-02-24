@@ -2,7 +2,7 @@
 UID: NF:sspi.SaslIdentifyPackageA
 title: SaslIdentifyPackageA function (sspi.h)
 description: Returns the negotiate prefix that matches the specified SASL negotiation buffer. (ANSI)
-helpviewer_keywords: ["SaslIdentifyPackage","SaslIdentifyPackage function [Security]","SaslIdentifyPackageA","SaslIdentifyPackageW","security.saslidentifypackage","sspi/SaslIdentifyPackage","sspi/SaslIdentifyPackageA","sspi/SaslIdentifyPackageW"]
+helpviewer_keywords: ["SaslIdentifyPackageA", "sspi/SaslIdentifyPackageA"]
 old-location: security\saslidentifypackage.htm
 tech.root: security
 ms.assetid: df6f4749-8f28-4ee5-8165-f7aeb3bea7ab

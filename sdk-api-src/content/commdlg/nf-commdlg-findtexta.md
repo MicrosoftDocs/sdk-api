@@ -2,7 +2,7 @@
 UID: NF:commdlg.FindTextA
 title: FindTextA function (commdlg.h)
 description: Creates a system-defined modeless Find dialog box that lets the user specify a string to search for and options to use when searching for text in a document. (ANSI)
-helpviewer_keywords: ["FindText","FindText function [Dialog Boxes]","FindTextA","FindTextW","_win32_FindText","_win32_findtext_cpp","commdlg/FindText","commdlg/FindTextA","commdlg/FindTextW","dlgbox.findtext","winui._win32_findtext"]
+helpviewer_keywords: ["FindTextA", "commdlg/FindTextA"]
 old-location: dlgbox\findtext.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\findtext.htm

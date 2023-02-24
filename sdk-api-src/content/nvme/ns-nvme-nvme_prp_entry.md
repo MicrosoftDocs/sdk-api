@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_160
-tech.root: fs 
+UID: NS:nvme.NVME_PRP_ENTRY
+tech.root: fs
 title: NVME_PRP_ENTRY
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains fields that specify the Page Base Address and Offset (PBAO) of a pointer to a physical memory page.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_PRP_ENTRY, *PNVME_PRP_ENTRY
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_PRP_ENTRY structure
+
 
 ## -description
 

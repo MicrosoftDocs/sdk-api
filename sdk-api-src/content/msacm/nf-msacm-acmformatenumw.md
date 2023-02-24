@@ -2,7 +2,7 @@
 UID: NF:msacm.acmFormatEnumW
 title: acmFormatEnumW function (msacm.h)
 description: The acmFormatEnum (Unicode) function enumerates waveform-audio formats available for a given format tag from an ACM driver. This function continues enumerating until there are no more suitable formats for the format tag or the callback function returns FALSE. (acmFormatEnumW)
-helpviewer_keywords: ["_win32_acmFormatEnum","acmFormatEnum","acmFormatEnum function [Windows Multimedia]","acmFormatEnumA","acmFormatEnumW","msacm/acmFormatEnum","msacm/acmFormatEnumA","msacm/acmFormatEnumW","multimedia.acmformatenum"]
+helpviewer_keywords: ["_win32_acmFormatEnum", "acmFormatEnum", "acmFormatEnum function [Windows Multimedia]", "acmFormatEnumW", "msacm/acmFormatEnum", "msacm/acmFormatEnumW", "multimedia.acmformatenum"]
 old-location: multimedia\acmformatenum.htm
 tech.root: Multimedia
 ms.assetid: 31da0e86-a298-4ef6-a515-4954aa120656

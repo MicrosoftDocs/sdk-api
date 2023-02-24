@@ -1,5 +1,5 @@
 ---
-UID: NS:wininet.__unnamed_struct_5
+UID: NS:wininet.INTERNET_PER_CONN_OPTION_LISTA
 title: INTERNET_PER_CONN_OPTION_LISTA (wininet.h)
 description: Contains the list of options for a particular Internet connection. (ANSI)
 helpviewer_keywords: ["*LPINTERNET_PER_CONN_OPTION_LISTA","INTERNET_PER_CONN_OPTION_LIST","INTERNET_PER_CONN_OPTION_LIST structure [WinINet]","INTERNET_PER_CONN_OPTION_LISTA","INTERNET_PER_CONN_OPTION_LISTW","LPINTERNET_PER_CONN_OPTION_LIST","LPINTERNET_PER_CONN_OPTION_LIST structure pointer [WinINet]","_inet_internet_per_conn_option_list_structure","wininet.internet_per_conn_option_list","wininet/INTERNET_PER_CONN_OPTION_LIST","wininet/INTERNET_PER_CONN_OPTION_LISTA","wininet/INTERNET_PER_CONN_OPTION_LISTW","wininet/LPINTERNET_PER_CONN_OPTION_LIST"]
@@ -108,3 +108,4 @@ In Microsoft Internet Explorer 5, only the ANSI versions of
 
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a>
+

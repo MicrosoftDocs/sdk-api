@@ -2,7 +2,7 @@
 UID: NF:imm.ImmSetCompositionFontA
 title: ImmSetCompositionFontA function (imm.h)
 description: The ImmSetCompositionFontA (ANSI) function (imm.h) sets the logical font to use to display characters in the composition window.
-helpviewer_keywords: ["ImmSetCompositionFont","ImmSetCompositionFont function [Internationalization for Windows Applications]","ImmSetCompositionFontA","ImmSetCompositionFontW","_win32_ImmSetCompositionFont","imm/ImmSetCompositionFont","imm/ImmSetCompositionFontA","imm/ImmSetCompositionFontW","intl.immsetcompositionfont"]
+helpviewer_keywords: ["ImmSetCompositionFontA", "imm/ImmSetCompositionFontA"]
 old-location: intl\immsetcompositionfont.htm
 tech.root: Intl
 ms.assetid: 5a3a9230-0ccf-4a6e-a3e0-7a3c7dbe35cf

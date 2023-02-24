@@ -2,7 +2,7 @@
 UID: NF:winldap.ldap_create_page_controlW
 title: ldap_create_page_controlW function (winldap.h)
 description: The ldap_create_page_controlW (Unicode) function (winldap.h) creates a basic control for paging results. 
-helpviewer_keywords: ["_ldap_ldap_create_page_control","ldap.ldap__create__page__control","ldap.ldap_create_page_control","ldap_create_page_control","ldap_create_page_control function [LDAP]","ldap_create_page_controlA","ldap_create_page_controlW","winldap/ldap_create_page_control","winldap/ldap_create_page_controlA","winldap/ldap_create_page_controlW"]
+helpviewer_keywords: ["_ldap_ldap_create_page_control", "ldap.ldap__create__page__control", "ldap.ldap_create_page_control", "ldap_create_page_control", "ldap_create_page_control function [LDAP]", "ldap_create_page_controlW", "winldap/ldap_create_page_control", "winldap/ldap_create_page_controlW"]
 old-location: ldap\ldap_create_page_control.htm
 tech.root: ldap
 ms.assetid: b3b1f3bd-7eb3-4f76-921c-386562dae2e2

@@ -2,7 +2,7 @@
 UID: NF:winnls.EnumSystemLanguageGroupsA
 title: EnumSystemLanguageGroupsA function (winnls.h)
 description: Enumerates the language groups that are either installed on or supported by an operating system. (ANSI)
-helpviewer_keywords: ["EnumSystemLanguageGroups","EnumSystemLanguageGroups function [Internationalization for Windows Applications]","EnumSystemLanguageGroupsA","EnumSystemLanguageGroupsW","LGRPID_INSTALLED","LGRPID_SUPPORTED","_win32_EnumSystemLanguageGroups","intl.enumsystemlanguagegroups","winnls/EnumSystemLanguageGroups","winnls/EnumSystemLanguageGroupsA","winnls/EnumSystemLanguageGroupsW"]
+helpviewer_keywords: ["EnumSystemLanguageGroupsA", "LGRPID_INSTALLED", "LGRPID_SUPPORTED", "winnls/EnumSystemLanguageGroupsA"]
 old-location: intl\enumsystemlanguagegroups.htm
 tech.root: Intl
 ms.assetid: 8cc2335e-b222-44d9-a966-4b6803639071

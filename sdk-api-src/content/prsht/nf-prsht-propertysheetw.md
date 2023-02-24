@@ -2,7 +2,7 @@
 UID: NF:prsht.PropertySheetW
 title: PropertySheetW function (prsht.h)
 description: Creates a property sheet and adds the pages defined in the specified property sheet header structure. (Unicode)
-helpviewer_keywords: ["PropertySheet","PropertySheet function [Windows Controls]","PropertySheetA","PropertySheetW","_win32_PropertySheet","_win32_PropertySheet_cpp","controls.PropertySheet","controls._win32_PropertySheet","prsht/PropertySheet","prsht/PropertySheetA","prsht/PropertySheetW"]
+helpviewer_keywords: ["PropertySheet", "PropertySheet function [Windows Controls]", "PropertySheetW", "_win32_PropertySheet", "_win32_PropertySheet_cpp", "controls.PropertySheet", "controls._win32_PropertySheet", "prsht/PropertySheet", "prsht/PropertySheetW"]
 old-location: controls\PropertySheet.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\propertysheet.htm

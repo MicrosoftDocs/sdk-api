@@ -1,5 +1,5 @@
 ---
-UID: NS:shlobj_core.__unnamed_struct_7
+UID: NS:shlobj_core.FILE_ATTRIBUTES_ARRAY
 title: FILE_ATTRIBUTES_ARRAY (shlobj_core.h)
 description: Contains the clipboard format definition for CFSTR_FILE_ATTRIBUTES_ARRAY.
 helpviewer_keywords: ["FILE_ATTRIBUTES_ARRAY","FILE_ATTRIBUTES_ARRAY structure [Windows Shell]","_shell_FILE_ATTRIBUTES_ARRAY","shell.FILE_ATTRIBUTES_ARRAY","shlobj_core/FILE_ATTRIBUTES_ARRAY"]

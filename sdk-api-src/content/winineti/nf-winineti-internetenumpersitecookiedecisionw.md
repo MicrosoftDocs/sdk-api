@@ -2,7 +2,7 @@
 UID: NF:winineti.InternetEnumPerSiteCookieDecisionW
 title: InternetEnumPerSiteCookieDecisionW function (winineti.h)
 description: The InternetEnumPerSiteCookieDecisionW (Unicode) function (winineti.h) retrieves the domains and cookie settings of websites for which site-specific cookie regulations are set.
-helpviewer_keywords: ["InternetEnumPerSiteCookieDecision","InternetEnumPerSiteCookieDecision function [WinINet]","InternetEnumPerSiteCookieDecisionA","InternetEnumPerSiteCookieDecisionW","wininet.internetenumpersitecookiedecision","winineti/InternetEnumPerSiteCookieDecision","winineti/InternetEnumPerSiteCookieDecisionA","winineti/InternetEnumPerSiteCookieDecisionW"]
+helpviewer_keywords: ["InternetEnumPerSiteCookieDecision", "InternetEnumPerSiteCookieDecision function [WinINet]", "InternetEnumPerSiteCookieDecisionW", "wininet.internetenumpersitecookiedecision", "winineti/InternetEnumPerSiteCookieDecision", "winineti/InternetEnumPerSiteCookieDecisionW"]
 old-location: wininet\internetenumpersitecookiedecision.htm
 tech.root: wininet
 ms.assetid: de1db7e6-21f4-4bbb-b4fc-277bbd01f32c

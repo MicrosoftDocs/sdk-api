@@ -1,5 +1,5 @@
 ---
-UID: NS:winioctl.__unnamed_struct_4
+UID: NS:winioctl.STARTING_LCN_INPUT_BUFFER
 title: STARTING_LCN_INPUT_BUFFER
 description: Contains the starting LCN to the FSCTL_GET_VOLUME_BITMAP control code.
 helpviewer_keywords: ["*PSTARTING_LCN_INPUT_BUFFER","PSTARTING_LCN_INPUT_BUFFER","PSTARTING_LCN_INPUT_BUFFER structure pointer [Files]","STARTING_LCN_INPUT_BUFFER","STARTING_LCN_INPUT_BUFFER structure [Files]","_win32_starting_lcn_input_buffer_str","base.starting_lcn_input_buffer_str","fs.starting_lcn_input_buffer_str","winioctl/PSTARTING_LCN_INPUT_BUFFER","winioctl/STARTING_LCN_INPUT_BUFFER"]
@@ -67,3 +67,4 @@ The LCN from which the operation should start when describing a bitmap. This mem
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_volume_bitmap">FSCTL_GET_VOLUME_BITMAP</a>
+

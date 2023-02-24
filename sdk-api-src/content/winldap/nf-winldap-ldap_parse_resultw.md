@@ -2,7 +2,7 @@
 UID: NF:winldap.ldap_parse_resultW
 title: ldap_parse_resultW function (winldap.h)
 description: The ldap_parse_resultW (Unicode) function (winldap.h) parses responses from the server and returns the appropriate fields. 
-helpviewer_keywords: ["_ldap_ldap_parse_result","ldap.ldap__parse__result","ldap.ldap_parse_result","ldap_parse_result","ldap_parse_result function [LDAP]","ldap_parse_resultA","ldap_parse_resultW","winldap/ldap_parse_result","winldap/ldap_parse_resultA","winldap/ldap_parse_resultW"]
+helpviewer_keywords: ["_ldap_ldap_parse_result", "ldap.ldap__parse__result", "ldap.ldap_parse_result", "ldap_parse_result", "ldap_parse_result function [LDAP]", "ldap_parse_resultW", "winldap/ldap_parse_result", "winldap/ldap_parse_resultW"]
 old-location: ldap\ldap_parse_result.htm
 tech.root: ldap
 ms.assetid: 6cadfbe0-0b69-4c43-a2ca-d8b3a12bf0a9

@@ -2,7 +2,7 @@
 UID: NF:winnetwk.WNetGetNetworkInformationA
 title: WNetGetNetworkInformationA function (winnetwk.h)
 description: The WNetGetNetworkInformation function returns extended information about a specific network provider whose name was returned by a previous network enumeration. (ANSI)
-helpviewer_keywords: ["WNetGetNetworkInformation","WNetGetNetworkInformation function [Windows Networking (WNet)]","WNetGetNetworkInformationA","WNetGetNetworkInformationW","_win32_wnetgetnetworkinformation","winnetwk/WNetGetNetworkInformation","winnetwk/WNetGetNetworkInformationA","winnetwk/WNetGetNetworkInformationW","wnet.wnetgetnetworkinformation"]
+helpviewer_keywords: ["WNetGetNetworkInformationA", "winnetwk/WNetGetNetworkInformationA"]
 old-location: wnet\wnetgetnetworkinformation.htm
 tech.root: WNet
 ms.assetid: df190133-b73b-4f3e-aaee-4095cd619065

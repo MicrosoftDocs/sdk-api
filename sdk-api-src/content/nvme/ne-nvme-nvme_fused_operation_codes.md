@@ -1,8 +1,8 @@
 ---
-UID: NE:nvme.__unnamed_enum_57
-tech.root: fs 
+UID: NE:nvme.NVME_FUSED_OPERATION_CODES
+tech.root: fs
 title: NVME_FUSED_OPERATION_CODES
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that indicate whether a command is the first or second command in a fused operation.
@@ -12,7 +12,7 @@ req.header: nvme.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -33,6 +33,7 @@ dev_langs:
 ---
 
 # NVME_FUSED_OPERATION_CODES enumeration
+
 
 ## -description
 
@@ -59,3 +60,4 @@ Use this enumeration to specify values in the **FUSE** field of the [NVME_COMMAN
 ## -see-also
 
 [NVME_COMMAND_DWORD0](ns-nvme-nvme_command_dword0.md)
+

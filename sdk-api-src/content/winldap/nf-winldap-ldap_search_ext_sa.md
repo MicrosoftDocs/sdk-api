@@ -2,7 +2,7 @@
 UID: NF:winldap.ldap_search_ext_sA
 title: ldap_search_ext_sA function (winldap.h)
 description: Synchronously searches the LDAP directory and returns a requested set of attributes for each matched entry. (ldap_search_ext_sA)
-helpviewer_keywords: ["LDAP_SCOPE_BASE","LDAP_SCOPE_ONELEVEL","LDAP_SCOPE_SUBTREE","_ldap_ldap_search_ext_s","ldap.ldap__search__ext__s","ldap.ldap_search_ext_s","ldap_search_ext_s","ldap_search_ext_s function [LDAP]","ldap_search_ext_sA","ldap_search_ext_sW","winldap/ldap_search_ext_s","winldap/ldap_search_ext_sA","winldap/ldap_search_ext_sW"]
+helpviewer_keywords: ["LDAP_SCOPE_BASE", "LDAP_SCOPE_ONELEVEL", "LDAP_SCOPE_SUBTREE", "ldap.ldap__search__ext__s", "ldap_search_ext_sA", "winldap/ldap_search_ext_sA"]
 old-location: ldap\ldap_search_ext_s.htm
 tech.root: ldap
 ms.assetid: 7ce74c35-7a30-4757-a4f7-d5cd4a389584

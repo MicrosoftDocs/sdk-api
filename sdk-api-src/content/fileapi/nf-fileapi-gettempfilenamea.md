@@ -2,7 +2,7 @@
 UID: NF:fileapi.GetTempFileNameA
 title: GetTempFileNameA function (fileapi.h)
 description: Creates a name for a temporary file. If a unique file name is generated, an empty file is created and the handle to it is released; otherwise, only a file name is generated. (GetTempFileNameA)
-helpviewer_keywords: ["GetTempFileName","GetTempFileName function [Files]","GetTempFileNameA","GetTempFileNameW","_win32_gettempfilename","base.gettempfilename","fileapi/GetTempFileName","fileapi/GetTempFileNameA","fileapi/GetTempFileNameW","fs.gettempfilename","winbase/GetTempFileName","winbase/GetTempFileNameA","winbase/GetTempFileNameW"]
+helpviewer_keywords: ["GetTempFileNameA", "fileapi/GetTempFileNameA"]
 old-location: fs\gettempfilename.htm
 tech.root: fs
 ms.assetid: 0a30055f-a3b9-439f-9304-40ee8a07b967

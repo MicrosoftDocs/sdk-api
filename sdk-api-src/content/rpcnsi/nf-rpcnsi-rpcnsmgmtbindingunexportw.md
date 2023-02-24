@@ -2,7 +2,7 @@
 UID: NF:rpcnsi.RpcNsMgmtBindingUnexportW
 title: RpcNsMgmtBindingUnexportW function (rpcnsi.h)
 description: The RpcNsMgmtBindingUnexport function removes multiple binding handles and objects from an entry in the name-service database. (Unicode)
-helpviewer_keywords: ["RPC_C_VERS_ALL","RPC_C_VERS_EXACT","RPC_C_VERS_IF_ID","RPC_C_VERS_MAJOR_ONLY","RPC_C_VERS_UPTO","RpcNsMgmtBindingUnexport","RpcNsMgmtBindingUnexport function [RPC]","RpcNsMgmtBindingUnexportA","RpcNsMgmtBindingUnexportW","_rpc_rpcnsmgmtbindingunexport","rpc.rpcnsmgmtbindingunexport","rpcnsi/RpcNsMgmtBindingUnexport","rpcnsi/RpcNsMgmtBindingUnexportA","rpcnsi/RpcNsMgmtBindingUnexportW"]
+helpviewer_keywords: ["RPC_C_VERS_ALL", "RPC_C_VERS_EXACT", "RPC_C_VERS_IF_ID", "RPC_C_VERS_MAJOR_ONLY", "RPC_C_VERS_UPTO", "RpcNsMgmtBindingUnexport", "RpcNsMgmtBindingUnexport function [RPC]", "RpcNsMgmtBindingUnexportW", "_rpc_rpcnsmgmtbindingunexport", "rpc.rpcnsmgmtbindingunexport", "rpcnsi/RpcNsMgmtBindingUnexport", "rpcnsi/RpcNsMgmtBindingUnexportW"]
 old-location: rpc\rpcnsmgmtbindingunexport.htm
 tech.root: Rpc
 ms.assetid: e15b9e45-ac9f-4f90-9323-8b16066290d2

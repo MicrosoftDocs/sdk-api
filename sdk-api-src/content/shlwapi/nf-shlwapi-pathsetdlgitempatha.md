@@ -2,7 +2,7 @@
 UID: NF:shlwapi.PathSetDlgItemPathA
 title: PathSetDlgItemPathA function (shlwapi.h)
 description: Sets the text of a child control in a window or dialog box, using PathCompactPath to ensure the path fits in the control. (ANSI)
-helpviewer_keywords: ["PathSetDlgItemPath","PathSetDlgItemPath function [Windows Shell]","PathSetDlgItemPathA","PathSetDlgItemPathW","_win32_PathSetDlgItemPath","shell.PathSetDlgItemPath","shlwapi/PathSetDlgItemPath","shlwapi/PathSetDlgItemPathA","shlwapi/PathSetDlgItemPathW"]
+helpviewer_keywords: ["PathSetDlgItemPathA", "shlwapi/PathSetDlgItemPathA"]
 old-location: shell\PathSetDlgItemPath.htm
 tech.root: shell
 ms.assetid: 05737525-d906-482c-847f-bdbf0ba0ce3d

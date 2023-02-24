@@ -2,7 +2,7 @@
 UID: NF:ras.RasGetCountryInfoA
 title: RasGetCountryInfoA function (ras.h)
 description: The RasGetCountryInfo function retrieves country/region-specific dialing information from the Windows Telephony list of countries/regions. (ANSI)
-helpviewer_keywords: ["RasGetCountryInfo","RasGetCountryInfo function [RAS]","RasGetCountryInfoA","RasGetCountryInfoW","_ras_rasgetcountryinfo","ras/RasGetCountryInfo","ras/RasGetCountryInfoA","ras/RasGetCountryInfoW","rras.rasgetcountryinfo"]
+helpviewer_keywords: ["RasGetCountryInfoA", "ras/RasGetCountryInfoA"]
 old-location: rras\rasgetcountryinfo.htm
 tech.root: RRAS
 ms.assetid: 87a4ae40-6750-46cf-89c2-c229de5a585d

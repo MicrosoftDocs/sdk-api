@@ -2,7 +2,7 @@
 UID: NF:oledlg.OleUIInsertObjectA
 title: OleUIInsertObjectA function (oledlg.h)
 description: Invokes the standard Insert Object dialog box, which allows the user to select an object source and class name, as well as the option of displaying the object as itself or as an icon. (ANSI)
-helpviewer_keywords: ["OleUIInsertObject","OleUIInsertObject function [COM]","OleUIInsertObjectA","OleUIInsertObjectW","_ole_OleUIInsertObject","com.oleuiinsertobject","oledlg/OleUIInsertObject","oledlg/OleUIInsertObjectA","oledlg/OleUIInsertObjectW"]
+helpviewer_keywords: ["OleUIInsertObjectA", "oledlg/OleUIInsertObjectA"]
 old-location: com\oleuiinsertobject.htm
 tech.root: com
 ms.assetid: f0ca8c0d-2538-4197-a830-d5ffb9f8b635

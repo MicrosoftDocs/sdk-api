@@ -1,5 +1,5 @@
 ---
-UID: NE:nldef.__unnamed_enum_0
+UID: NE:nldef.NL_PREFIX_ORIGIN
 title: NL_PREFIX_ORIGIN (nldef.h)
 description: The IP_PREFIX_ORIGIN enumeration specifies the origin of an IPv4 or IPv6 address prefix, and is used with the IP_ADAPTER_UNICAST_ADDRESS structure.
 helpviewer_keywords: ["IP_PREFIX_ORIGIN","IP_PREFIX_ORIGIN enumeration [IP Helper]","IpPrefixOriginDhcp","IpPrefixOriginManual","IpPrefixOriginOther","IpPrefixOriginRouterAdvertisement","IpPrefixOriginUnchanged","IpPrefixOriginWellKnown","NL_PREFIX_ORIGIN","iphlp.ip_prefix_origin","iptypes/IP_PREFIX_ORIGIN","iptypes/IpPrefixOriginDhcp","iptypes/IpPrefixOriginManual","iptypes/IpPrefixOriginOther","iptypes/IpPrefixOriginRouterAdvertisement","iptypes/IpPrefixOriginUnchanged","iptypes/IpPrefixOriginWellKnown","nldef/IP_PREFIX_ORIGIN","nldef/IpPrefixOriginDhcp","nldef/IpPrefixOriginManual","nldef/IpPrefixOriginOther","nldef/IpPrefixOriginRouterAdvertisement","nldef/IpPrefixOriginUnchanged","nldef/IpPrefixOriginWellKnown"]
@@ -93,3 +93,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 ## -see-also
 
 <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_unicast_address_lh">IP_ADAPTER_UNICAST_ADDRESS</a>
+

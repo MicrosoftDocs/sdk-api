@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_4
-tech.root: fs 
+UID: NS:nvme.NVME_ADMIN_QUEUE_ATTRIBUTES
+tech.root: fs
 title: NVME_ADMIN_QUEUE_ATTRIBUTES
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains the Admin Queue Attributes (AQA) for the Admin Submission Queue and Admin Completion Queue.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_ADMIN_QUEUE_ATTRIBUTES, *PNVME_ADMIN_QUEUE_ATTRIBUTES
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_ADMIN_QUEUE_ATTRIBUTES structure
+
 
 ## -description
 

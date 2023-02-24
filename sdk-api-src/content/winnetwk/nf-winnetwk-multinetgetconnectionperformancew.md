@@ -2,7 +2,7 @@
 UID: NF:winnetwk.MultinetGetConnectionPerformanceW
 title: MultinetGetConnectionPerformanceW function (winnetwk.h)
 description: Returns information about the expected performance of a connection used to access a network resource. (Unicode)
-helpviewer_keywords: ["MultinetGetConnectionPerformance","MultinetGetConnectionPerformance function [Windows Networking (WNet)]","MultinetGetConnectionPerformanceA","MultinetGetConnectionPerformanceW","_win32_multinetgetconnectionperformance","lpLocalName","lpProvider","lpRemoteName","winnetwk/MultinetGetConnectionPerformance","winnetwk/MultinetGetConnectionPerformanceA","winnetwk/MultinetGetConnectionPerformanceW","wnet.multinetgetconnectionperformance"]
+helpviewer_keywords: ["MultinetGetConnectionPerformance", "MultinetGetConnectionPerformance function [Windows Networking (WNet)]", "MultinetGetConnectionPerformanceW", "_win32_multinetgetconnectionperformance", "lpLocalName", "lpProvider", "lpRemoteName", "winnetwk/MultinetGetConnectionPerformance", "winnetwk/MultinetGetConnectionPerformanceW", "wnet.multinetgetconnectionperformance"]
 old-location: wnet\multinetgetconnectionperformance.htm
 tech.root: WNet
 ms.assetid: 3ec4a397-e0d4-419c-9e12-6d76a87b1ca0

@@ -1,5 +1,5 @@
 ---
-UID: NE:ntdsapi.__unnamed_enum_1
+UID: NE:ntdsapi.DS_NAME_FLAGS
 title: DS_NAME_FLAGS (ntdsapi.h)
 description: The DS_NAME_FLAGS enumeration is used to define how the name syntax will be cracked. These flags are used by the DsCrackNames function.
 helpviewer_keywords: ["DS_NAME_FLAGS","DS_NAME_FLAGS enumeration [Active Directory]","DS_NAME_FLAG_EVAL_AT_DC","DS_NAME_FLAG_GCVERIFY","DS_NAME_FLAG_SYNTACTICAL_ONLY","DS_NAME_FLAG_TRUST_REFERRAL","DS_NAME_NO_FLAGS","_glines_ds_name_flags","ad.ds__name__flags","ad.ds_name_flags","ntdsapi/DS_NAME_FLAGS","ntdsapi/DS_NAME_FLAG_EVAL_AT_DC","ntdsapi/DS_NAME_FLAG_GCVERIFY","ntdsapi/DS_NAME_FLAG_SYNTACTICAL_ONLY","ntdsapi/DS_NAME_FLAG_TRUST_REFERRAL","ntdsapi/DS_NAME_NO_FLAGS"]
@@ -85,3 +85,4 @@ Enables cross forest trust referral.
 
 
 <a href="/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
+

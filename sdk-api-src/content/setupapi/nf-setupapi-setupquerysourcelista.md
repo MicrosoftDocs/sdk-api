@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupQuerySourceListA
 title: SetupQuerySourceListA function (setupapi.h)
 description: The SetupQuerySourceList function queries the current list of installation sources. The list is built from the system and user-specific lists, and potentially overridden by a temporary list (see SetupSetSourceList). (ANSI)
-helpviewer_keywords: ["SetupQuerySourceList","SetupQuerySourceList function [Setup API]","SetupQuerySourceListA","SetupQuerySourceListW","_setupapi_setupquerysourcelist","setup.setupquerysourcelist","setupapi/SetupQuerySourceList","setupapi/SetupQuerySourceListA","setupapi/SetupQuerySourceListW"]
+helpviewer_keywords: ["SetupQuerySourceListA", "setupapi/SetupQuerySourceListA"]
 old-location: setup\setupquerysourcelist.htm
 tech.root: setup
 ms.assetid: 8d1de1d5-5b82-45ae-b29c-4f9a93d28c6e

@@ -2,7 +2,7 @@
 UID: NF:winbase.WriteProfileSectionA
 title: WriteProfileSectionA function (winbase.h)
 description: Replaces the contents of the specified section in the Win.ini file with specified keys and values. (ANSI)
-helpviewer_keywords: ["WriteProfileSection","WriteProfileSection function","WriteProfileSectionA","WriteProfileSectionW","_win32_writeprofilesection","base.writeprofilesection","winbase/WriteProfileSection","winbase/WriteProfileSectionA","winbase/WriteProfileSectionW"]
+helpviewer_keywords: ["WriteProfileSectionA", "winbase/WriteProfileSectionA"]
 old-location: base\writeprofilesection.htm
 tech.root: winprog
 ms.assetid: f712a7b4-d945-499c-b003-22204bc590d7

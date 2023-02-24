@@ -1,5 +1,5 @@
 ---
-UID: NE:clusapi.__unnamed_enum_4
+UID: NE:clusapi.CLUS_GROUP_START_SETTING
 title: CLUS_GROUP_START_SETTING (clusapi.h)
 description: CLUS_GROUP_START_SETTING (clusapi.h) enumerates the start settings for a cluster group.
 helpviewer_keywords: ["CLUS_GROUP_DO_NOT_START","CLUS_GROUP_START_ALLOWED","CLUS_GROUP_START_ALWAYS","CLUS_GROUP_START_SETTING","CLUS_GROUP_START_SETTING enumeration [Failover Cluster]","clusapi/CLUS_GROUP_DO_NOT_START","clusapi/CLUS_GROUP_START_ALLOWED","clusapi/CLUS_GROUP_START_ALWAYS","clusapi/CLUS_GROUP_START_SETTING","msclus/CLUS_GROUP_DO_NOT_START","msclus/CLUS_GROUP_START_ALLOWED","msclus/CLUS_GROUP_START_ALWAYS","msclus/CLUS_GROUP_START_SETTING","mscs.clus_group_start_setting"]

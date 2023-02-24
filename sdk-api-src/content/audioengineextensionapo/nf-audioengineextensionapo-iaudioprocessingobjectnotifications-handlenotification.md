@@ -60,5 +60,9 @@ This method will be called after [LockForProcess](/windows/win32/api/audioengine
 > [!NOTE]
 > APOs must query each property once to get its initial value because **HandleNotification** method is only invoked when any of the properties have changed. The exceptions to this are the initial audio endpoint volume when the APO registers for APO_NOTIFICATION_TYPE_ENDPOINT_VOLUME and the value of PKEY_AudioEndpoint_Disable_SysFx if the APO registers for APO_NOTIFICATION_TYPE_ENDPOINT_PROPERTY_CHANGE
 
+
+For more information on the Windows 11 APIs for the Audio Processing Objects (APOs) that can ship with audio drivers, see [Windows 11 APIs for Audio Processing Objects](/windows-hardware/drivers/audio/windows-11-apis-for-audio-processing-objects).
+
+
 ## -see-also
 

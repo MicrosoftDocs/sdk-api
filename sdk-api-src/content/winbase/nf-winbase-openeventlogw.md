@@ -2,7 +2,7 @@
 UID: NF:winbase.OpenEventLogW
 title: OpenEventLogW function (winbase.h)
 description: Opens a handle to the specified event log. (Unicode)
-helpviewer_keywords: ["OpenEventLog","OpenEventLog function","OpenEventLogA","OpenEventLogW","_win32_openeventlog","base.openeventlog","winbase/OpenEventLog","winbase/OpenEventLogA","winbase/OpenEventLogW"]
+helpviewer_keywords: ["OpenEventLog", "OpenEventLog function", "OpenEventLogW", "_win32_openeventlog", "base.openeventlog", "winbase/OpenEventLog", "winbase/OpenEventLogW"]
 old-location: base\openeventlog.htm
 tech.root: base
 ms.assetid: 6cd8797a-aeaf-4603-b43c-b1ff45b6200a

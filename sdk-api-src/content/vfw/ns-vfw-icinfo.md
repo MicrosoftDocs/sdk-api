@@ -1,5 +1,5 @@
 ---
-UID: NS:vfw.__unnamed_struct_1
+UID: NS:vfw.ICINFO
 title: ICINFO (vfw.h)
 description: The ICINFO structure contains compression parameters supplied by a video compression driver. The driver fills or updates the structure when it receives the ICM_GETINFO message.
 helpviewer_keywords: ["ICINFO","ICINFO structure [Windows Multimedia]","VIDCF_COMPRESSFRAMES","VIDCF_CRUNCH","VIDCF_DRAW","VIDCF_FASTTEMPORALC","VIDCF_FASTTEMPORALD","VIDCF_QUALITY","VIDCF_TEMPORAL","multimedia.icinfo_COLLISION204","multimedia.icinfo_struct","vfw/ICINFO"]
@@ -182,3 +182,4 @@ Name of the module containing VCM compression driver. Normally, a driver does no
 
 
 <a href="/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
+

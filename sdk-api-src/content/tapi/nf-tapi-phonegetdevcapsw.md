@@ -2,7 +2,7 @@
 UID: NF:tapi.phoneGetDevCapsW
 title: phoneGetDevCapsW function (tapi.h)
 description: The phoneGetDevCapsW (Unicode) function (tapi.h) queries a specified phone device to determine its telephony capabilities.
-helpviewer_keywords: ["_tapi2_phonegetdevcaps","phoneGetDevCaps","phoneGetDevCaps function [TAPI 2.2]","phoneGetDevCapsA","phoneGetDevCapsW","tapi/phoneGetDevCaps","tapi/phoneGetDevCapsA","tapi/phoneGetDevCapsW","tapi2.phonegetdevcaps"]
+helpviewer_keywords: ["_tapi2_phonegetdevcaps", "phoneGetDevCaps", "phoneGetDevCaps function [TAPI 2.2]", "phoneGetDevCapsW", "tapi/phoneGetDevCaps", "tapi/phoneGetDevCapsW", "tapi2.phonegetdevcaps"]
 old-location: tapi2\phonegetdevcaps.htm
 tech.root: tapi3
 ms.assetid: 7bfef6d7-d5fd-4887-afb8-b1d850df050d

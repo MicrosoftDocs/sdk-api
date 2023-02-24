@@ -2,7 +2,7 @@
 UID: NF:winuser.CharUpperA
 title: CharUpperA function (winuser.h)
 description: Converts a character string or a single character to uppercase. If the operand is a character string, the function converts the characters in place. (ANSI)
-helpviewer_keywords: ["CharUpper","CharUpper function [Menus and Other Resources]","CharUpperA","CharUpperW","_win32_CharUpper","_win32_charupper_cpp","menurc.charupper","winui._win32_charupper","winuser/CharUpper","winuser/CharUpperA","winuser/CharUpperW"]
+helpviewer_keywords: ["CharUpperA", "winuser/CharUpperA"]
 old-location: menurc\charupper.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charupper.htm

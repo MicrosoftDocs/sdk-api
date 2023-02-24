@@ -2,7 +2,7 @@
 UID: NF:commctrl.CreateStatusWindowA
 title: CreateStatusWindowA function (commctrl.h)
 description: Creates a status window, which is typically used to display the status of an application. (ANSI)
-helpviewer_keywords: ["CreateStatusWindow","CreateStatusWindow function [Windows Controls]","CreateStatusWindowA","CreateStatusWindowW","_win32_CreateStatusWindow","_win32_CreateStatusWindow_cpp","commctrl/CreateStatusWindow","commctrl/CreateStatusWindowA","commctrl/CreateStatusWindowW","controls.CreateStatusWindow","controls._win32_CreateStatusWindow"]
+helpviewer_keywords: ["CreateStatusWindowA", "commctrl/CreateStatusWindowA"]
 old-location: controls\CreateStatusWindow.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\status\functions\createstatuswindow.htm

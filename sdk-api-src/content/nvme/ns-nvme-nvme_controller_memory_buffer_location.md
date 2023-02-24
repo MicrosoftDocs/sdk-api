@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_7
-tech.root: fs 
+UID: NS:nvme.NVME_CONTROLLER_MEMORY_BUFFER_LOCATION
+tech.root: fs
 title: NVME_CONTROLLER_MEMORY_BUFFER_LOCATION
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Defines the location of the optional Controller Memory Buffer Location register in the **CMBLOC** field of the [NVME_CONTROLLER_REGISTERS](ns-nvme-nvme_controller_registers.md) structure.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CONTROLLER_MEMORY_BUFFER_LOCATION, *PNVME_CONTROLLER_MEMORY_BUFFER_LOCATION
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CONTROLLER_MEMORY_BUFFER_LOCATION structure
+
 
 ## -description
 
@@ -71,3 +72,4 @@ Indicates the offset of the Controller Memory Buffer in multiples of the Size Un
 
 - [NVME_CONTROLLER_REGISTERS](ns-nvme-nvme_controller_registers.md)
 - [NVME_CONTROLLER_MEMORY_BUFFER_SIZE](ns-nvme-nvme_controller_memory_buffer_size.md)
+

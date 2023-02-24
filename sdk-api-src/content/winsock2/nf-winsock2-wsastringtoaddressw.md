@@ -2,7 +2,7 @@
 UID: NF:winsock2.WSAStringToAddressW
 title: WSAStringToAddressW function (winsock2.h)
 description: The WSAStringToAddress function converts a network address in its standard text presentation form into its numeric binary form in a sockaddr structure, suitable for passing to Windows Sockets routines that take such a structure. (Unicode)
-helpviewer_keywords: ["WSAStringToAddress","WSAStringToAddress function [Winsock]","WSAStringToAddressA","WSAStringToAddressW","_win32_wsastringtoaddress_2","winsock.wsastringtoaddress_2","winsock2/WSAStringToAddress","winsock2/WSAStringToAddressA","winsock2/WSAStringToAddressW"]
+helpviewer_keywords: ["WSAStringToAddress", "WSAStringToAddress function [Winsock]", "WSAStringToAddressW", "_win32_wsastringtoaddress_2", "winsock.wsastringtoaddress_2", "winsock2/WSAStringToAddress", "winsock2/WSAStringToAddressW"]
 old-location: winsock\wsastringtoaddress_2.htm
 tech.root: WinSock
 ms.assetid: 7b9946c3-c8b3-45ae-9bde-03faaf604bba

@@ -1,5 +1,5 @@
 ---
-UID: NE:dhcpsapi.__unnamed_enum_5
+UID: NE:dhcpsapi.DHCP_POLICY_FIELDS_TO_UPDATE
 title: DHCP_POLICY_FIELDS_TO_UPDATE (dhcpsapi.h)
 description: The DHCP_POLICY_FIELDS_TO_UPDATE enumeration defines which properties of a DHCP server policy must be updated.
 helpviewer_keywords: ["DHCP_POLICY_FIELDS_TO_UPDATE","DHCP_POLICY_FIELDS_TO_UPDATE enumeration [DHCP]","DhcpUpdatePolicyDescr","DhcpUpdatePolicyExpr","DhcpUpdatePolicyName","DhcpUpdatePolicyOrder","DhcpUpdatePolicyRanges","DhcpUpdatePolicyStatus","dhcp.dhcp_policy_fields_to_update","dhcpsapi/DHCP_POLICY_FIELDS_TO_UPDATE","dhcpsapi/DhcpUpdatePolicyDescr","dhcpsapi/DhcpUpdatePolicyExpr","dhcpsapi/DhcpUpdatePolicyName","dhcpsapi/DhcpUpdatePolicyOrder","dhcpsapi/DhcpUpdatePolicyRanges","dhcpsapi/DhcpUpdatePolicyStatus"]
@@ -83,3 +83,4 @@ Update DHCP server policy enabled/disabled status.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4setpolicy">Dhcpv4SetPolicy</a>
+

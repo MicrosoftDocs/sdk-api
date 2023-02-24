@@ -178,9 +178,7 @@ The <i>lpInBuffer</i> parameter must be <b>NULL</b>; otherwise, the
         function returns <b>ERROR_INVALID_PARAMETER</b>.
         
 
-The <i>lpOutputBuffer</i> buffer receives a 
-         <a href="/windows/desktop/api/winnt/ns-winnt-system_battery_state">SYSTEM_BATTERY_STATE</a> structure containing 
-         information about the current system battery.
+The <i>lpOutputBuffer</i> buffer receives a [SYSTEM_BATTERY_STATE structure](../winnt/ns-winnt-system_battery_state.md) containing information about the current system battery.
 
 </td>
 </tr>
@@ -456,7 +454,7 @@ For more information on using PowrProf.h, see <a href="/windows/desktop/Power/po
 
 
 
-<a href="/windows/desktop/api/winnt/ns-winnt-system_battery_state">SYSTEM_BATTERY_STATE</a>
+[SYSTEM_BATTERY_STATE structure](../winnt/ns-winnt-system_battery_state.md)
 
 
 

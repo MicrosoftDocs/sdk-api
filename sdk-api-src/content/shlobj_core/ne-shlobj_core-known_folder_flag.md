@@ -1,5 +1,5 @@
 ---
-UID: NE:shlobj_core.__unnamed_enum_3
+UID: NE:shlobj_core.KNOWN_FOLDER_FLAG
 title: KNOWN_FOLDER_FLAG (shlobj_core.h)
 description: Specify special retrieval options for known folders. These values supersede CSIDL values, which have parallel meanings.
 helpviewer_keywords: ["KF_FLAG_ALIAS_ONLY","KF_FLAG_CREATE","KF_FLAG_DEFAULT","KF_FLAG_DEFAULT_PATH","KF_FLAG_DONT_UNEXPAND","KF_FLAG_DONT_VERIFY","KF_FLAG_FORCE_APPCONTAINER_REDIRECTION","KF_FLAG_FORCE_APP_DATA_REDIRECTION","KF_FLAG_FORCE_PACKAGE_REDIRECTION","KF_FLAG_INIT","KF_FLAG_NOT_PARENT_RELATIVE","KF_FLAG_NO_ALIAS","KF_FLAG_NO_APPCONTAINER_REDIRECTION","KF_FLAG_NO_PACKAGE_REDIRECTION","KF_FLAG_RETURN_FILTER_REDIRECTION_TARGET","KF_FLAG_SIMPLE_IDLIST","KNOWN_FOLDER_FLAG","KNOWN_FOLDER_FLAG enumeration [Windows Shell]","_shell_KNOWN_FOLDER_FLAG","shell.KNOWN_FOLDER_FLAG","shlobj_core/KF_FLAG_ALIAS_ONLY","shlobj_core/KF_FLAG_CREATE","shlobj_core/KF_FLAG_DEFAULT","shlobj_core/KF_FLAG_DEFAULT_PATH","shlobj_core/KF_FLAG_DONT_UNEXPAND","shlobj_core/KF_FLAG_DONT_VERIFY","shlobj_core/KF_FLAG_FORCE_APPCONTAINER_REDIRECTION","shlobj_core/KF_FLAG_FORCE_APP_DATA_REDIRECTION","shlobj_core/KF_FLAG_FORCE_PACKAGE_REDIRECTION","shlobj_core/KF_FLAG_INIT","shlobj_core/KF_FLAG_NOT_PARENT_RELATIVE","shlobj_core/KF_FLAG_NO_ALIAS","shlobj_core/KF_FLAG_NO_APPCONTAINER_REDIRECTION","shlobj_core/KF_FLAG_NO_PACKAGE_REDIRECTION","shlobj_core/KF_FLAG_RETURN_FILTER_REDIRECTION_TARGET","shlobj_core/KF_FLAG_SIMPLE_IDLIST","shlobj_core/KNOWN_FOLDER_FLAG"]
@@ -163,3 +163,4 @@ These values, with the exception of KF_FLAG_ALIAS_ONLY, were defined in WindowsÂ
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateiteminknownfolder">SHCreateItemInKnownFolder</a>
+

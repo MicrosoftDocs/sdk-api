@@ -1,5 +1,5 @@
 ---
-UID: NS:digitalv.__unnamed_struct_33
+UID: NS:digitalv.MCI_DGV_UPDATE_PARMS
 title: MCI_DGV_UPDATE_PARMS (digitalv.h)
 description: The MCI_DGV_UPDATE_PARMS structure contains parameters for the MCI_UPDATE command.
 helpviewer_keywords: ["*LPMCI_DGV_UPDATE_PARMS","MCI_DGV_UPDATE_PARMS","MCI_DGV_UPDATE_PARMS structure [Windows Multimedia]","_win32_MCI_DGV_UPDATE_PARMS_str","digitalv/MCI_DGV_UPDATE_PARMS","multimedia.mci_dgv_update_parms"]
@@ -95,3 +95,4 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 <a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
+

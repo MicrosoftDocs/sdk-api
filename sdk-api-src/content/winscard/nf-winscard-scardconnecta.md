@@ -2,7 +2,7 @@
 UID: NF:winscard.SCardConnectA
 title: SCardConnectA function (winscard.h)
 description: Establishes a connection (using a specific resource manager context) between the calling application and a smart card contained by a specific reader. If no card exists in the specified reader, an error is returned. (ANSI)
-helpviewer_keywords: ["0","SCARD_PROTOCOL_T0","SCARD_PROTOCOL_T1","SCARD_PROTOCOL_UNDEFINED","SCARD_SHARE_DIRECT","SCARD_SHARE_EXCLUSIVE","SCARD_SHARE_SHARED","SCardConnect","SCardConnect function [Security]","SCardConnectA","SCardConnectW","_smart_scardconnect","security.scardconnect","winscard/SCardConnect","winscard/SCardConnectA","winscard/SCardConnectW"]
+helpviewer_keywords: ["0", "SCARD_PROTOCOL_T0", "SCARD_PROTOCOL_T1", "SCARD_PROTOCOL_UNDEFINED", "SCARD_SHARE_DIRECT", "SCARD_SHARE_EXCLUSIVE", "SCARD_SHARE_SHARED", "SCardConnectA", "winscard/SCardConnectA"]
 old-location: security\scardconnect.htm
 tech.root: security
 ms.assetid: 389ada98-383f-4b37-bf5d-c40577ef25fd

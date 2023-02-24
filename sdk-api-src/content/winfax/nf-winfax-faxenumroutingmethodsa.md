@@ -2,7 +2,7 @@
 UID: NF:winfax.FaxEnumRoutingMethodsA
 title: FaxEnumRoutingMethodsA function (winfax.h)
 description: The FaxEnumRoutingMethods function enumerates all fax routing methods for a specific fax device. The function returns information about each routing method to a fax client application. (ANSI)
-helpviewer_keywords: ["FaxEnumRoutingMethods","FaxEnumRoutingMethods function [Fax Service]","FaxEnumRoutingMethodsA","FaxEnumRoutingMethodsW","_mfax_faxenumroutingmethods","fax._mfax_faxenumroutingmethods","winfax/FaxEnumRoutingMethods","winfax/FaxEnumRoutingMethodsA","winfax/FaxEnumRoutingMethodsW"]
+helpviewer_keywords: ["FaxEnumRoutingMethodsA", "winfax/FaxEnumRoutingMethodsA"]
 old-location: fax\_mfax_faxenumroutingmethods.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_41gz.htm

@@ -2,7 +2,7 @@
 UID: NF:winbase.SetFirmwareEnvironmentVariableA
 title: SetFirmwareEnvironmentVariableA function (winbase.h)
 description: Sets the value of the specified firmware environment variable. (ANSI)
-helpviewer_keywords: ["SetFirmwareEnvironmentVariable","SetFirmwareEnvironmentVariable function","SetFirmwareEnvironmentVariableA","SetFirmwareEnvironmentVariableW","base.setfirmwareenvironmentvariable","winbase/SetFirmwareEnvironmentVariable","winbase/SetFirmwareEnvironmentVariableA","winbase/SetFirmwareEnvironmentVariableW"]
+helpviewer_keywords: ["SetFirmwareEnvironmentVariableA", "winbase/SetFirmwareEnvironmentVariableA"]
 old-location: base\setfirmwareenvironmentvariable.htm
 tech.root: winprog
 ms.assetid: 42117632-61aa-4f83-abe1-c08f40cf3f0a

@@ -2,7 +2,7 @@
 UID: NF:dbghelp.SymMatchStringW
 title: SymMatchStringW function (dbghelp.h)
 description: The SymMatchStringW (Unicode) function compares the specified string to the specified wildcard expression.
-helpviewer_keywords: ["SymMatchString","SymMatchString function","SymMatchStringW","base.symmatchstring","dbghelp/SymMatchString","dbghelp/SymMatchStringW"]
+helpviewer_keywords: ["SymMatchString", "SymMatchString function", "SymMatchStringW", "base.symmatchstring", "dbghelp/SymMatchString", "dbghelp/SymMatchStringW"]
 old-location: base\symmatchstring.htm
 tech.root: Debug
 ms.assetid: 8423d14c-4ad7-453d-82d2-72e41492ac15

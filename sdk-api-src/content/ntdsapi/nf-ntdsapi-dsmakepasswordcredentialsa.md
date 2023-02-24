@@ -2,7 +2,7 @@
 UID: NF:ntdsapi.DsMakePasswordCredentialsA
 title: DsMakePasswordCredentialsA function (ntdsapi.h)
 description: Constructs a credential handle suitable for use with the DsBindWithCred function. (ANSI)
-helpviewer_keywords: ["DsMakePasswordCredentials","DsMakePasswordCredentials function [Active Directory]","DsMakePasswordCredentialsA","DsMakePasswordCredentialsW","_glines_dsmakepasswordcredentials","ad.dsmakepasswordcredentials","ntdsapi/DsMakePasswordCredentials","ntdsapi/DsMakePasswordCredentialsA","ntdsapi/DsMakePasswordCredentialsW"]
+helpviewer_keywords: ["DsMakePasswordCredentialsA", "ntdsapi/DsMakePasswordCredentialsA"]
 old-location: ad\dsmakepasswordcredentials.htm
 tech.root: ad
 ms.assetid: 51aba58b-07c5-4e6d-8568-fa6f1a963d8e

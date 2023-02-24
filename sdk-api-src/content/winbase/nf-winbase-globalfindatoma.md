@@ -2,7 +2,7 @@
 UID: NF:winbase.GlobalFindAtomA
 title: GlobalFindAtomA function (winbase.h)
 description: Searches the global atom table for the specified character string and retrieves the global atom associated with that string. (ANSI)
-helpviewer_keywords: ["GlobalFindAtom","GlobalFindAtom function [Data Exchange]","GlobalFindAtomA","GlobalFindAtomW","_win32_GlobalFindAtom","_win32_globalfindatom_cpp","dataxchg.globalfindatom","winbase/GlobalFindAtom","winbase/GlobalFindAtomA","winbase/GlobalFindAtomW","winui._win32_globalfindatom"]
+helpviewer_keywords: ["GlobalFindAtomA", "winbase/GlobalFindAtomA"]
 old-location: dataxchg\globalfindatom.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\globalfindatom.htm

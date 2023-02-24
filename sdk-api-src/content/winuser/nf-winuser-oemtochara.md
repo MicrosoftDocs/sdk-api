@@ -2,7 +2,7 @@
 UID: NF:winuser.OemToCharA
 title: OemToCharA function (winuser.h)
 description: Translates a string from the OEM-defined character set into either an ANSI or a wide-character string.Warning  Do not use. (ANSI)
-helpviewer_keywords: ["OemToChar","OemToChar function [Menus and Other Resources]","OemToCharA","OemToCharW","_win32_OemToChar","_win32_oemtochar_cpp","menurc.oemtochar","winui._win32_oemtochar","winuser/OemToChar","winuser/OemToCharA","winuser/OemToCharW"]
+helpviewer_keywords: ["OemToCharA", "winuser/OemToCharA"]
 old-location: menurc\oemtochar.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\oemtochar.htm

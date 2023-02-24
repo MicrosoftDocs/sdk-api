@@ -2,7 +2,7 @@
 UID: NF:winbase.GetBinaryTypeW
 title: GetBinaryTypeW function (winbase.h)
 description: Determines whether a file is an executable (.exe) file, and if so, which subsystem runs the executable file. (Unicode)
-helpviewer_keywords: ["GetBinaryType","GetBinaryType function [Files]","GetBinaryTypeA","GetBinaryTypeW","SCS_32BIT_BINARY","SCS_64BIT_BINARY","SCS_DOS_BINARY","SCS_OS216_BINARY","SCS_PIF_BINARY","SCS_POSIX_BINARY","SCS_WOW_BINARY","_win32_getbinarytype","base.getbinarytype","fs.getbinarytype","winbase/GetBinaryType","winbase/GetBinaryTypeA","winbase/GetBinaryTypeW"]
+helpviewer_keywords: ["GetBinaryType", "GetBinaryType function [Files]", "GetBinaryTypeW", "SCS_32BIT_BINARY", "SCS_64BIT_BINARY", "SCS_DOS_BINARY", "SCS_OS216_BINARY", "SCS_PIF_BINARY", "SCS_POSIX_BINARY", "SCS_WOW_BINARY", "_win32_getbinarytype", "base.getbinarytype", "fs.getbinarytype", "winbase/GetBinaryType", "winbase/GetBinaryTypeW"]
 old-location: fs\getbinarytype.htm
 tech.root: fs
 ms.assetid: ec937372-ee99-4505-a5dd-7c111405cbc6

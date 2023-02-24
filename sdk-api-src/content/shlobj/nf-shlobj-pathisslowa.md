@@ -2,7 +2,7 @@
 UID: NF:shlobj.PathIsSlowA
 title: PathIsSlowA function (shlobj.h)
 description: PathIsSlow may be altered or unavailable. (ANSI)
-helpviewer_keywords: ["PathIsSlow","PathIsSlow function [Windows Shell]","PathIsSlowA","PathIsSlowW","_win32_PathIsSlow","shell.PathIsSlow","shlobj/PathIsSlow","shlobj/PathIsSlowA","shlobj/PathIsSlowW"]
+helpviewer_keywords: ["PathIsSlowA", "shlobj/PathIsSlowA"]
 old-location: shell\PathIsSlow.htm
 tech.root: shell
 ms.assetid: f848a098-9248-453b-a957-77c35d70e528

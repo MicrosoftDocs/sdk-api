@@ -2,7 +2,7 @@
 UID: NF:fileapi.DeleteFileW
 title: DeleteFileW function (fileapi.h)
 description: Deletes an existing file. (DeleteFileW)
-helpviewer_keywords: ["DeleteFile","DeleteFile function [Files]","DeleteFileA","DeleteFileW","_win32_deletefile","base.deletefile","fileapi/DeleteFile","fileapi/DeleteFileA","fileapi/DeleteFileW","fs.deletefile","winbase/DeleteFile","winbase/DeleteFileA","winbase/DeleteFileW"]
+helpviewer_keywords: ["DeleteFile", "DeleteFile function [Files]", "DeleteFileW", "_win32_deletefile", "base.deletefile", "fileapi/DeleteFile", "fileapi/DeleteFileW", "fs.deletefile"]
 old-location: fs\deletefile.htm
 tech.root: fs
 ms.assetid: 0b947a85-816b-4374-a8f8-c369e366a17d

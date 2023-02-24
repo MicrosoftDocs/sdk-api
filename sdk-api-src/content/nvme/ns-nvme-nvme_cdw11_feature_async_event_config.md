@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_49
-tech.root: fs 
+UID: NS:nvme.NVME_CDW11_FEATURE_ASYNC_EVENT_CONFIG
+tech.root: fs
 title: NVME_CDW11_FEATURE_ASYNC_EVENT_CONFIG
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters for the Asynchronous Event Configuration Feature that controls the events that trigger an asynchronous event notification to the host.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW11_FEATURE_ASYNC_EVENT_CONFIG, *PNVME_CDW11_FEATURE_ASYNC_EVENT_CONFIG
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW11_FEATURE_ASYNC_EVENT_CONFIG structure
+
 
 ## -description
 
@@ -85,3 +86,4 @@ The Asynchronous Event Configuration Feature can be used to disable reporting ev
 
 - [NVME_ASYNC_EVENT_NOTICE_CODES](ne-nvme-nvme_async_event_notice_codes.md)
 - [NVME_CDW11_FEATURES](ns-nvme-nvme_cdw11_features.md)
+

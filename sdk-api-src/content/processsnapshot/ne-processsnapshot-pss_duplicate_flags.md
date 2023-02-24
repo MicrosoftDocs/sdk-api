@@ -1,5 +1,5 @@
 ---
-UID: NE:processsnapshot.__unnamed_enum_5
+UID: NE:processsnapshot.PSS_DUPLICATE_FLAGS
 title: PSS_DUPLICATE_FLAGS (processsnapshot.h)
 description: Duplication flags for use by PssDuplicateSnapshot.
 helpviewer_keywords: ["PSS_DUPLICATE_CLOSE_SOURCE","PSS_DUPLICATE_FLAGS","PSS_DUPLICATE_FLAGS enumeration","PSS_DUPLICATE_NONE","proc_snap.pss_duplicate_flags","processsnapshot/PSS_DUPLICATE_CLOSE_SOURCE","processsnapshot/PSS_DUPLICATE_FLAGS","processsnapshot/PSS_DUPLICATE_NONE"]
@@ -66,3 +66,4 @@ The close operation does not protect against concurrent access to the same descr
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
+

@@ -2,7 +2,7 @@
 UID: NF:shlwapi.PathFindNextComponentA
 title: PathFindNextComponentA function (shlwapi.h)
 description: Parses a path and returns the portion of that path that follows the first backslash. (ANSI)
-helpviewer_keywords: ["PathFindNextComponent","PathFindNextComponent function [Windows Shell]","PathFindNextComponentA","PathFindNextComponentW","_win32_PathFindNextComponent","shell.PathFindNextComponent","shlwapi/PathFindNextComponent","shlwapi/PathFindNextComponentA","shlwapi/PathFindNextComponentW"]
+helpviewer_keywords: ["PathFindNextComponentA", "shlwapi/PathFindNextComponentA"]
 old-location: shell\PathFindNextComponent.htm
 tech.root: shell
 ms.assetid: 2c76b901-dc0e-4f26-93c8-3c59b8f7147d

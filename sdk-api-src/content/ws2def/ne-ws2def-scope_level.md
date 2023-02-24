@@ -1,5 +1,5 @@
 ---
-UID: NE:ws2def.__unnamed_enum_1
+UID: NE:ws2def.SCOPE_LEVEL
 title: SCOPE_LEVEL (ws2def.h)
 description: The SCOPE_LEVEL enumeration is used with the IP_ADAPTER_ADDRESSES structure to identify scope levels for IPv6 addresses.
 helpviewer_keywords: ["SCOPE_LEVEL","SCOPE_LEVEL enumeration [IP Helper]","ScopeLevelAdmin","ScopeLevelGlobal","ScopeLevelInterface","ScopeLevelLink","ScopeLevelOrganization","ScopeLevelSite","ScopeLevelSubnet","iphlp.scope_level","iptypes/SCOPE_LEVEL","iptypes/ScopeLevelAdmin","iptypes/ScopeLevelGlobal","iptypes/ScopeLevelInterface","iptypes/ScopeLevelLink","iptypes/ScopeLevelOrganization","iptypes/ScopeLevelSite","iptypes/ScopeLevelSubnet","ws2def/SCOPE_LEVEL","ws2def/ScopeLevelAdmin","ws2def/ScopeLevelGlobal","ws2def/ScopeLevelInterface","ws2def/ScopeLevelLink","ws2def/ScopeLevelOrganization","ws2def/ScopeLevelSite","ws2def/ScopeLevelSubnet"]
@@ -94,3 +94,4 @@ On Windows Vista and later as well as on the Microsoft Windows Software Develop
 ## -see-also
 
 <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a>
+

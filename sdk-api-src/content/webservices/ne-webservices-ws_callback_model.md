@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_14
+UID: NE:webservices.WS_CALLBACK_MODEL
 title: WS_CALLBACK_MODEL (webservices.h)
 description: Specifies the threading behavior of a callback (for example, a WS_ASYNC_CALLBACK).
 helpviewer_keywords: ["WS_CALLBACK_MODEL","WS_CALLBACK_MODEL enumeration [Web Services for Windows]","WS_LONG_CALLBACK","WS_SHORT_CALLBACK","webservices/WS_CALLBACK_MODEL","webservices/WS_LONG_CALLBACK","webservices/WS_SHORT_CALLBACK","wsw.ws_callback_model"]
@@ -104,3 +104,4 @@ Whether a callback will be invoked long or short is up to the caller implementat
                 The channel and listener implementations provide a way to control this for async callbacks
                 via the <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_ASYNC_CALLBACK_MODEL</a> and 
                 <a href="/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_ASYNC_CALLBACK_MODEL</a> properties.
+

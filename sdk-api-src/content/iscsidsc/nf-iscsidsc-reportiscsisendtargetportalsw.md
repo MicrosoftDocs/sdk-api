@@ -2,7 +2,7 @@
 UID: NF:iscsidsc.ReportIScsiSendTargetPortalsW
 title: ReportIScsiSendTargetPortalsW function (iscsidsc.h)
 description: ReportIscsiSendTargetPortals function retrieves a list of target portals that the iSCSI initiator service uses to perform automatic discovery with SendTarget requests. (Unicode)
-helpviewer_keywords: ["ReportIScsiSendTargetPortalsW","ReportIscsiSendTargetPortals","ReportIscsiSendTargetPortals function [iSCSI Discovery Library API]","ReportIscsiSendTargetPortalsA","ReportIscsiSendTargetPortalsW","iscsidisc.reportiscsisendtargetportals","iscsidsc/ReportIscsiSendTargetPortals","iscsidsc/ReportIscsiSendTargetPortalsA","iscsidsc/ReportIscsiSendTargetPortalsW"]
+helpviewer_keywords: ["ReportIScsiSendTargetPortalsW", "ReportIscsiSendTargetPortals", "ReportIscsiSendTargetPortals function [iSCSI Discovery Library API]", "ReportIscsiSendTargetPortalsW", "iscsidisc.reportiscsisendtargetportals", "iscsidsc/ReportIscsiSendTargetPortals", "iscsidsc/ReportIscsiSendTargetPortalsW"]
 old-location: iscsidisc\reportiscsisendtargetportals.htm
 tech.root: iSCSIDisc
 ms.assetid: f082acc3-98d6-4758-aded-cb83e150e6d1

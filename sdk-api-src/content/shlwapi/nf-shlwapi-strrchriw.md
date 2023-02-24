@@ -2,7 +2,7 @@
 UID: NF:shlwapi.StrRChrIW
 title: StrRChrIW function (shlwapi.h)
 description: Searches a string for the last occurrence of a specified character. The comparison is not case-sensitive. (Unicode)
-helpviewer_keywords: ["StrRChrI","StrRChrI function [Windows Shell]","StrRChrIA","StrRChrIW","shell.StrRChrI","shlwapi/StrRChrI","shlwapi/StrRChrIA","shlwapi/StrRChrIW"]
+helpviewer_keywords: ["StrRChrI", "StrRChrI function [Windows Shell]", "StrRChrIW", "shell.StrRChrI", "shlwapi/StrRChrI", "shlwapi/StrRChrIW"]
 old-location: shell\StrRChrI.htm
 tech.root: shell
 ms.assetid: 3dc39c2a-d621-4f46-b65b-eb8a531e5abe

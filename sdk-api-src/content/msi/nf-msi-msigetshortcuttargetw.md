@@ -2,7 +2,7 @@
 UID: NF:msi.MsiGetShortcutTargetW
 title: MsiGetShortcutTargetW function (msi.h)
 description: The MsiGetShortcutTarget function examines a shortcut and returns its product, feature name, and component if available. (Unicode)
-helpviewer_keywords: ["MsiGetShortcutTarget","MsiGetShortcutTarget function","MsiGetShortcutTargetA","MsiGetShortcutTargetW","_msi_msigetshortcuttarget","msi/MsiGetShortcutTarget","msi/MsiGetShortcutTargetA","msi/MsiGetShortcutTargetW","setup.msigetshortcuttarget"]
+helpviewer_keywords: ["MsiGetShortcutTarget", "MsiGetShortcutTarget function", "MsiGetShortcutTargetW", "_msi_msigetshortcuttarget", "msi/MsiGetShortcutTarget", "msi/MsiGetShortcutTargetW", "setup.msigetshortcuttarget"]
 old-location: setup\msigetshortcuttarget.htm
 tech.root: setup
 ms.assetid: 5c040372-d266-4f79-9b80-950ceac9f9b8

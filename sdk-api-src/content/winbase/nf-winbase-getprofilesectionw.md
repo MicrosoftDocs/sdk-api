@@ -2,7 +2,7 @@
 UID: NF:winbase.GetProfileSectionW
 title: GetProfileSectionW function (winbase.h)
 description: Retrieves all the keys and values for the specified section of the Win.ini file. (Unicode)
-helpviewer_keywords: ["GetProfileSection","GetProfileSection function","GetProfileSectionA","GetProfileSectionW","_win32_getprofilesection","base.getprofilesection","winbase/GetProfileSection","winbase/GetProfileSectionA","winbase/GetProfileSectionW"]
+helpviewer_keywords: ["GetProfileSection", "GetProfileSection function", "GetProfileSectionW", "_win32_getprofilesection", "base.getprofilesection", "winbase/GetProfileSection", "winbase/GetProfileSectionW"]
 old-location: base\getprofilesection.htm
 tech.root: winprog
 ms.assetid: cc90811b-5e7b-4c75-987b-57f36a9408c5

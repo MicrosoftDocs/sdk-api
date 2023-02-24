@@ -2,7 +2,7 @@
 UID: NF:winscard.SCardLocateCardsW
 title: SCardLocateCardsW function (winscard.h)
 description: Searches the readers listed in the rgReaderStates parameter for a card with an ATR string that matches one of the card names specified in mszCards, returning immediately with the result. (Unicode)
-helpviewer_keywords: ["SCardLocateCards","SCardLocateCards function [Security]","SCardLocateCardsA","SCardLocateCardsW","_smart_scardlocatecards","security.scardlocatecards","winscard/SCardLocateCards","winscard/SCardLocateCardsA","winscard/SCardLocateCardsW"]
+helpviewer_keywords: ["SCardLocateCards", "SCardLocateCards function [Security]", "SCardLocateCardsW", "_smart_scardlocatecards", "security.scardlocatecards", "winscard/SCardLocateCards", "winscard/SCardLocateCardsW"]
 old-location: security\scardlocatecards.htm
 tech.root: security
 ms.assetid: 7ee90188-6fe5-417b-a7c7-9c29d9cdd4d0

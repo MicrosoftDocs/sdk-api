@@ -2,7 +2,7 @@
 UID: NF:vfw.AVIFileCreateStreamW
 title: AVIFileCreateStreamW function (vfw.h)
 description: The AVIFileCreateStreamW (Unicode) function (vfw.h) creates a new stream in an existing file and creates an interface to the new stream.
-helpviewer_keywords: ["AVIFileCreateStream","AVIFileCreateStream function [Windows Multimedia]","AVIFileCreateStreamA","AVIFileCreateStreamW","_win32_AVIFileCreateStream","multimedia.avifilecreatestream","vfw/AVIFileCreateStream","vfw/AVIFileCreateStreamA","vfw/AVIFileCreateStreamW"]
+helpviewer_keywords: ["AVIFileCreateStream", "AVIFileCreateStream function [Windows Multimedia]", "AVIFileCreateStreamW", "_win32_AVIFileCreateStream", "multimedia.avifilecreatestream", "vfw/AVIFileCreateStream", "vfw/AVIFileCreateStreamW"]
 old-location: multimedia\avifilecreatestream.htm
 tech.root: Multimedia
 ms.assetid: bff87fbb-fcd8-4dd4-93d0-9cab39c30409

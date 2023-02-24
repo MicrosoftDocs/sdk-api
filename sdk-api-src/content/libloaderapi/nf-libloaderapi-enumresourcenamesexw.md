@@ -2,7 +2,7 @@
 UID: NF:libloaderapi.EnumResourceNamesExW
 title: EnumResourceNamesExW function (libloaderapi.h)
 description: Enumerates resources of a specified type that are associated with a specified binary module. The search can include both an LN file and its associated .mui files, or it can be limited in several ways. (Unicode)
-helpviewer_keywords: ["EnumResourceNamesEx","EnumResourceNamesEx function [Menus and Other Resources]","EnumResourceNamesExA","EnumResourceNamesExW","RESOURCE_ENUM_LN","RESOURCE_ENUM_MUI","RESOURCE_ENUM_VALIDATE","_win32_EnumResourceNamesEx","_win32_enumresourcenamesex_cpp","libloaderapi/EnumResourceNamesEx","libloaderapi/EnumResourceNamesExA","libloaderapi/EnumResourceNamesExW","menurc.enumresourcenamesex","winui._win32_enumresourcenamesex"]
+helpviewer_keywords: ["EnumResourceNamesEx", "EnumResourceNamesEx function [Menus and Other Resources]", "EnumResourceNamesExW", "RESOURCE_ENUM_LN", "RESOURCE_ENUM_MUI", "RESOURCE_ENUM_VALIDATE", "_win32_EnumResourceNamesEx", "_win32_enumresourcenamesex_cpp", "libloaderapi/EnumResourceNamesEx", "libloaderapi/EnumResourceNamesExW", "menurc.enumresourcenamesex", "winui._win32_enumresourcenamesex"]
 old-location: menurc\enumresourcenamesex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcenamesex.htm

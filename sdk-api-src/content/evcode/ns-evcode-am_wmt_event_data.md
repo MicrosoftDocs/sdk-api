@@ -1,5 +1,5 @@
 ---
-UID: NS:evcode.__unnamed_struct_0
+UID: NS:evcode.AM_WMT_EVENT_DATA
 title: AM_WMT_EVENT_DATA (evcode.h)
 description: The AM_WMT_EVENT_DATA structure contains information pertaining to an EC_WMT_EVENT and the associated status code returned by the Windows Media Format SDK.
 helpviewer_keywords: ["AM_WMT_EVENT_DATA","AM_WMT_EVENT_DATA structure [windows Media Format]","evcode/AM_WMT_EVENT_DATA","wmformat.am_wmt_event_data"]
@@ -65,3 +65,4 @@ Pointer whose data is dependent on the value of the <b>WMT_STATUS</b> message in
 ## -remarks
 
 This structure is relevant when using the <a href="/windows/desktop/wmformat/wm-asf-reader-filter">WM ASF Reader</a> filter to read files protected with Digital Rights Management.
+

@@ -1,5 +1,5 @@
 ---
-UID: NS:winioctl.__unnamed_struct_30
+UID: NS:winioctl.USN_JOURNAL_DATA_V2
 title: USN_JOURNAL_DATA_V2
 description: Represents an update sequence number (USN) change journal, its records, and its capacity. This structure is the output buffer for the FSCTL_QUERY_USN_JOURNAL control code.
 helpviewer_keywords: ["*PUSN_JOURNAL_DATA_V2","FLAG_USN_TRACK_MODIFIED_RANGES_ENABLE","PUSN_JOURNAL_DATA_V2","PUSN_JOURNAL_DATA_V2 structure pointer [Files]","USN_JOURNAL_DATA_V2","USN_JOURNAL_DATA_V2 structure [Files]","fs.usn_journal_data_v2","winioctl/PUSN_JOURNAL_DATA_V2","winioctl/USN_JOURNAL_DATA_V2"]
@@ -159,3 +159,4 @@ File size threshold to start tracking range for files with equal or larger size.
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
+

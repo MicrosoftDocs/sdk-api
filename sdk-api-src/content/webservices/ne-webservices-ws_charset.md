@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_11
+UID: NE:webservices.WS_CHARSET
 title: WS_CHARSET (webservices.h)
 description: Identifies the character set of a document.
 helpviewer_keywords: ["WS_CHARSET","WS_CHARSET enumeration [Web Services for Windows]","WS_CHARSET_AUTO","WS_CHARSET_UTF16BE","WS_CHARSET_UTF16LE","WS_CHARSET_UTF8","webservices/WS_CHARSET","webservices/WS_CHARSET_AUTO","webservices/WS_CHARSET_UTF16BE","webservices/WS_CHARSET_UTF16LE","webservices/WS_CHARSET_UTF8","wsw.ws_charset"]

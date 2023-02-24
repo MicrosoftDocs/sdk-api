@@ -2,7 +2,7 @@
 UID: NF:winldap.ldap_parse_referenceW
 title: ldap_parse_referenceW function (winldap.h)
 description: The ldap_parse_referenceW (Unicode) function (winldap.h) returns a list of subordinate referrals in a search response message. 
-helpviewer_keywords: ["_ldap_ldap_parse_reference","ldap.ldap__parse__reference","ldap.ldap_parse_reference","ldap_parse_reference","ldap_parse_reference function [LDAP]","ldap_parse_referenceA","ldap_parse_referenceW","winldap/ldap_parse_reference","winldap/ldap_parse_referenceA","winldap/ldap_parse_referenceW"]
+helpviewer_keywords: ["_ldap_ldap_parse_reference", "ldap.ldap__parse__reference", "ldap.ldap_parse_reference", "ldap_parse_reference", "ldap_parse_reference function [LDAP]", "ldap_parse_referenceW", "winldap/ldap_parse_reference", "winldap/ldap_parse_referenceW"]
 old-location: ldap\ldap_parse_reference.htm
 tech.root: ldap
 ms.assetid: 106db7dd-ee1e-48c9-9357-e14d4f8e8782

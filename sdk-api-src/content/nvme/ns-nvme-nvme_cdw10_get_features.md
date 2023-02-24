@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_38
-tech.root: fs 
+UID: NS:nvme.NVME_CDW10_GET_FEATURES
+tech.root: fs
 title: NVME_CDW10_GET_FEATURES
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters for the Get Features command that retrieves the attributes of the specified feature.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW10_GET_FEATURES, *PNVME_CDW10_GET_FEATURES
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW10_GET_FEATURES structure
+
 
 ## -description
 
@@ -72,3 +73,4 @@ If a Get Features command is received with the **SEL**** field set to `010b` (**
 ## -see-also
 
 - [NVME_CDW11_FEATURES](ns-nvme-nvme_cdw11_features.md)
+

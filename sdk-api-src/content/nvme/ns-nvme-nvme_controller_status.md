@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_3
-tech.root: fs 
+UID: NS:nvme.NVME_CONTROLLER_STATUS
+tech.root: fs
 title: NVME_CONTROLLER_STATUS
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that indicate controller status.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CONTROLLER_STATUS, *PNVME_CONTROLLER_STATUS
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CONTROLLER_STATUS structure
+
 
 ## -description
 
@@ -103,3 +104,4 @@ This field is only valid when the **EN** field of the [Controller configuration]
 ## -see-also
 
 - [NVME_CONTROLLER_REGISTERS](ns-nvme-nvme_controller_registers.md)
+

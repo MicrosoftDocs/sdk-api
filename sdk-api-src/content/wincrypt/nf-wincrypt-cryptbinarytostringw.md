@@ -2,7 +2,7 @@
 UID: NF:wincrypt.CryptBinaryToStringW
 title: CryptBinaryToStringW function (wincrypt.h)
 description: Converts an array of bytes into a formatted string. (Unicode)
-helpviewer_keywords: ["CRYPT_STRING_BASE64","CRYPT_STRING_BASE64HEADER","CRYPT_STRING_BASE64REQUESTHEADER","CRYPT_STRING_BASE64X509CRLHEADER","CRYPT_STRING_BINARY","CRYPT_STRING_HEX","CRYPT_STRING_HEXADDR","CRYPT_STRING_HEXASCII","CRYPT_STRING_HEXASCIIADDR","CRYPT_STRING_HEXRAW","CRYPT_STRING_NOCR","CRYPT_STRING_NOCRLF","CRYPT_STRING_STRICT","CryptBinaryToString","CryptBinaryToString function [Security]","CryptBinaryToStringA","CryptBinaryToStringW","_crypto2_cryptbinarytostring","security.cryptbinarytostring","wincrypt/CryptBinaryToString","wincrypt/CryptBinaryToStringA","wincrypt/CryptBinaryToStringW"]
+helpviewer_keywords: ["CRYPT_STRING_BASE64", "CRYPT_STRING_BASE64HEADER", "CRYPT_STRING_BASE64REQUESTHEADER", "CRYPT_STRING_BASE64X509CRLHEADER", "CRYPT_STRING_BINARY", "CRYPT_STRING_HEX", "CRYPT_STRING_HEXADDR", "CRYPT_STRING_HEXASCII", "CRYPT_STRING_HEXASCIIADDR", "CRYPT_STRING_HEXRAW", "CRYPT_STRING_NOCR", "CRYPT_STRING_NOCRLF", "CRYPT_STRING_STRICT", "CryptBinaryToString", "CryptBinaryToString function [Security]", "CryptBinaryToStringW", "_crypto2_cryptbinarytostring", "security.cryptbinarytostring", "wincrypt/CryptBinaryToString", "wincrypt/CryptBinaryToStringW"]
 old-location: security\cryptbinarytostring.htm
 tech.root: security
 ms.assetid: e6bdf931-fba3-4a33-b22e-5f818f565842

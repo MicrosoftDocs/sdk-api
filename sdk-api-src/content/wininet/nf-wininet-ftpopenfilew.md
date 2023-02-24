@@ -2,7 +2,7 @@
 UID: NF:wininet.FtpOpenFileW
 title: FtpOpenFileW function (wininet.h)
 description: Initiates access to a remote file on an FTP server for reading or writing. (Unicode)
-helpviewer_keywords: ["FTP_TRANSFER_TYPE_ASCII","FTP_TRANSFER_TYPE_BINARY","FTP_TRANSFER_TYPE_UNKNOWN","FtpOpenFile","FtpOpenFile function [WinINet]","FtpOpenFileA","FtpOpenFileW","INTERNET_FLAG_HYPERLINK","INTERNET_FLAG_NEED_FILE","INTERNET_FLAG_RELOAD","INTERNET_FLAG_RESYNCHRONIZE","INTERNET_FLAG_TRANSFER_ASCII","INTERNET_FLAG_TRANSFER_BINARY","_inet_ftpopenfile_function","wininet.ftpopenfile","wininet/FtpOpenFile","wininet/FtpOpenFileA","wininet/FtpOpenFileW"]
+helpviewer_keywords: ["FTP_TRANSFER_TYPE_ASCII", "FTP_TRANSFER_TYPE_BINARY", "FTP_TRANSFER_TYPE_UNKNOWN", "FtpOpenFile", "FtpOpenFile function [WinINet]", "FtpOpenFileW", "INTERNET_FLAG_HYPERLINK", "INTERNET_FLAG_NEED_FILE", "INTERNET_FLAG_RELOAD", "INTERNET_FLAG_RESYNCHRONIZE", "INTERNET_FLAG_TRANSFER_ASCII", "INTERNET_FLAG_TRANSFER_BINARY", "_inet_ftpopenfile_function", "wininet.ftpopenfile", "wininet/FtpOpenFile", "wininet/FtpOpenFileW"]
 old-location: wininet\ftpopenfile.htm
 tech.root: wininet
 ms.assetid: fb44d7bd-7868-4c53-aa4b-608d79c5bc7c

@@ -2,7 +2,7 @@
 UID: NF:winfax.FaxGetPortW
 title: FaxGetPortW function (winfax.h)
 description: The FaxGetPort function returns information for a specified fax port to a fax client application. (Unicode)
-helpviewer_keywords: ["FaxGetPort","FaxGetPort function [Fax Service]","FaxGetPortA","FaxGetPortW","_mfax_faxgetport","fax._mfax_faxgetport","winfax/FaxGetPort","winfax/FaxGetPortA","winfax/FaxGetPortW"]
+helpviewer_keywords: ["FaxGetPort", "FaxGetPort function [Fax Service]", "FaxGetPortW", "_mfax_faxgetport", "fax._mfax_faxgetport", "winfax/FaxGetPort", "winfax/FaxGetPortW"]
 old-location: fax\_mfax_faxgetport.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3910.htm

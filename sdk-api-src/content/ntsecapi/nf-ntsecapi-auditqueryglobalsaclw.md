@@ -2,7 +2,7 @@
 UID: NF:ntsecapi.AuditQueryGlobalSaclW
 title: AuditQueryGlobalSaclW function (ntsecapi.h)
 description: Retrieves a global system access control list (SACL) that delegates access to the audit messages. (Unicode)
-helpviewer_keywords: ["AuditQueryGlobalSacl","AuditQueryGlobalSacl function [Security]","AuditQueryGlobalSaclA","AuditQueryGlobalSaclW","ntsecapi/AuditQueryGlobalSacl","ntsecapi/AuditQueryGlobalSaclA","ntsecapi/AuditQueryGlobalSaclW","security.auditqueryglobalsacl"]
+helpviewer_keywords: ["AuditQueryGlobalSacl", "AuditQueryGlobalSacl function [Security]", "AuditQueryGlobalSaclW", "ntsecapi/AuditQueryGlobalSacl", "ntsecapi/AuditQueryGlobalSaclW", "security.auditqueryglobalsacl"]
 old-location: security\auditqueryglobalsacl.htm
 tech.root: security
 ms.assetid: 133BBC94-9C89-437A-9146-75A9898A6566

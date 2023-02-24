@@ -2,7 +2,7 @@
 UID: NF:winbase.GlobalAddAtomW
 title: GlobalAddAtomW function (winbase.h)
 description: Adds a character string to the global atom table and returns a unique value (an atom) identifying the string. (GlobalAddAtomW)
-helpviewer_keywords: ["GlobalAddAtom","GlobalAddAtom function [Data Exchange]","GlobalAddAtomA","GlobalAddAtomW","_win32_GlobalAddAtom","_win32_globaladdatom_cpp","dataxchg.globaladdatom","winbase/GlobalAddAtom","winbase/GlobalAddAtomA","winbase/GlobalAddAtomW","winui._win32_globaladdatom"]
+helpviewer_keywords: ["GlobalAddAtom", "GlobalAddAtom function [Data Exchange]", "GlobalAddAtomW", "_win32_GlobalAddAtom", "_win32_globaladdatom_cpp", "dataxchg.globaladdatom", "winbase/GlobalAddAtom", "winbase/GlobalAddAtomW", "winui._win32_globaladdatom"]
 old-location: dataxchg\globaladdatom.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\globaladdatom.htm

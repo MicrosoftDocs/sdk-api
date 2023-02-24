@@ -2,7 +2,7 @@
 UID: NF:shlwapi.SHMessageBoxCheckA
 title: SHMessageBoxCheckA function (shlwapi.h)
 description: SHMessageBoxCheck may be altered or unavailable. (ANSI)
-helpviewer_keywords: ["MB_ICONEXCLAMATION","MB_ICONHAND","MB_ICONINFORMATION","MB_ICONQUESTION","MB_OK","MB_OKCANCEL","MB_YESNO","SHMessageBoxCheck","SHMessageBoxCheck function [Windows Shell]","SHMessageBoxCheckA","SHMessageBoxCheckW","_win32_SHMessageBoxCheck","shell.SHMessageBoxCheck","shlwapi/SHMessageBoxCheck","shlwapi/SHMessageBoxCheckA","shlwapi/SHMessageBoxCheckW"]
+helpviewer_keywords: ["MB_ICONEXCLAMATION", "MB_ICONHAND", "MB_ICONINFORMATION", "MB_ICONQUESTION", "MB_OK", "MB_OKCANCEL", "MB_YESNO", "SHMessageBoxCheckA", "shlwapi/SHMessageBoxCheckA"]
 old-location: shell\SHMessageBoxCheck.htm
 tech.root: shell
 ms.assetid: 7e62cde0-2b9f-44d3-afb8-5df71f98453a

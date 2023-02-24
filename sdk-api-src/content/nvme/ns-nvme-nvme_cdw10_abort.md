@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_15
-tech.root: fs 
+UID: NS:nvme.NVME_CDW10_ABORT
+tech.root: fs
 title: NVME_CDW10_ABORT
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters for the Abort command that is used to abort a specific command previously submitted to the Admin Submission Queue or an I/O Submission Queue.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW10_ABORT, *PNVME_CDW10_ABORT
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW10_ABORT structure
+
 
 ## -description
 
@@ -71,3 +72,4 @@ An Abort command is a best effort command; the command to abort may have already
 
 - [NVME_COMMAND_DWORD0](ns-nvme-nvme_command_dword0.md) structure
 - [Command](ns-nvme-nvme_command.md)
+

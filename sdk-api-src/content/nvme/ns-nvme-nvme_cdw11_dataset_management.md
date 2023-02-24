@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_146
-tech.root: fs 
+UID: NS:nvme.NVME_CDW11_DATASET_MANAGEMENT
+tech.root: fs
 title: NVME_CDW11_DATASET_MANAGEMENT
-ms.date: 08/09/2022 
+ms.date: 08/09/2022
 ms.topic: language-reference
 targetos: Windows
 description: The NVME_CDW11_DATASET_MANAGEMENT structure contains parameters for the Dataset Management command that indicates attributes for ranges of logical blocks.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW11_DATASET_MANAGEMENT, *PNVME_CDW11_DATASET_MANAGEMENT
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW11_DATASET_MANAGEMENT structure
+
 
 ## -description
 
@@ -80,3 +81,4 @@ If this value is set to `1`, the NVM subsystem may deallocate all provided range
 ## -see-also
 
 - [NVME_CDW10_DATASET_MANAGEMENT](ns-nvme-nvme_cdw10_dataset_management.md)
+

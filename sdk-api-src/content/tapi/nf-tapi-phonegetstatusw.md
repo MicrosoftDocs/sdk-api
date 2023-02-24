@@ -2,7 +2,7 @@
 UID: NF:tapi.phoneGetStatusW
 title: phoneGetStatusW function (tapi.h)
 description: The phoneGetStatusW (Unicode) function (tapi.h) enables an application to query the specified open phone device for its overall status.
-helpviewer_keywords: ["_tapi2_phonegetstatus","phoneGetStatus","phoneGetStatus function [TAPI 2.2]","phoneGetStatusA","phoneGetStatusW","tapi/phoneGetStatus","tapi/phoneGetStatusA","tapi/phoneGetStatusW","tapi2.phonegetstatus"]
+helpviewer_keywords: ["_tapi2_phonegetstatus", "phoneGetStatus", "phoneGetStatus function [TAPI 2.2]", "phoneGetStatusW", "tapi/phoneGetStatus", "tapi/phoneGetStatusW", "tapi2.phonegetstatus"]
 old-location: tapi2\phonegetstatus.htm
 tech.root: tapi3
 ms.assetid: d2e9e209-54f5-4895-b57a-a5f4c24e063e

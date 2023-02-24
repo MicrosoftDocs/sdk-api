@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_36
-tech.root: fs 
+UID: NS:nvme.NVME_CDW11_CREATE_IO_CQ
+tech.root: fs
 title: NVME_CDW11_CREATE_IO_CQ
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters for the Create I/O Completion Queue command, that is used to create all I/O Completion Queues with the exception of the Admin Completion Queue.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW11_CREATE_IO_CQ, *PNVME_CDW11_CREATE_IO_CQ
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW11_CREATE_IO_CQ structure
+
 
 ## -description
 
@@ -82,3 +83,4 @@ This value should not be set to a value greater than the number of messages the 
 ## -see-also
 
 - [NVME_CDW10_CREATE_IO_QUEUE structure](ns-nvme-nvme_cdw10_create_io_queue.md)
+

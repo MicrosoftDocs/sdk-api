@@ -2,7 +2,7 @@
 UID: NF:imm.ImmConfigureIMEA
 title: ImmConfigureIMEA function (imm.h)
 description: The ImmConfigureIMEA (ANSI) function (imm.h) displays the configuration dialog box for the IME of the specified input locale identifier.
-helpviewer_keywords: ["IME_CONFIG_GENERAL","IME_CONFIG_REGISTERWORD","IME_CONFIG_SELECTDICTIONARY","ImmConfigureIME","ImmConfigureIME function [Internationalization for Windows Applications]","ImmConfigureIMEA","ImmConfigureIMEW","_win32_ImmConfigureIME","imm/ImmConfigureIME","imm/ImmConfigureIMEA","imm/ImmConfigureIMEW","intl.immconfigureime"]
+helpviewer_keywords: ["IME_CONFIG_GENERAL", "IME_CONFIG_REGISTERWORD", "IME_CONFIG_SELECTDICTIONARY", "ImmConfigureIMEA", "imm/ImmConfigureIMEA"]
 old-location: intl\immconfigureime.htm
 tech.root: Intl
 ms.assetid: acefb3a0-82c7-4af6-8ef0-aba561f570c1

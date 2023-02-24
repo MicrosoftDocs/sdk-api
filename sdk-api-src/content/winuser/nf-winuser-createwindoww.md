@@ -2,7 +2,7 @@
 UID: NF:winuser.CreateWindowW
 title: CreateWindowW macro (winuser.h)
 description: Creates an overlapped, pop-up, or child window. (Unicode)
-helpviewer_keywords: ["CreateWindow","CreateWindow function [Windows and Messages]","CreateWindowA","CreateWindowW","_win32_CreateWindow","_win32_createwindow_cpp","winmsg.createwindow","winui._win32_createwindow","winuser/CreateWindow","winuser/CreateWindowA","winuser/CreateWindowW"]
+helpviewer_keywords: ["CreateWindow", "CreateWindow function [Windows and Messages]", "CreateWindowW", "_win32_CreateWindow", "_win32_createwindow_cpp", "winmsg.createwindow", "winui._win32_createwindow", "winuser/CreateWindow", "winuser/CreateWindowW"]
 old-location: winmsg\createwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\createwindow.htm

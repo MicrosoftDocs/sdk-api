@@ -1,5 +1,5 @@
 ---
-UID: NE:shlobj_core.__unnamed_enum_6
+UID: NE:shlobj_core.DROPIMAGETYPE
 title: DROPIMAGETYPE (shlobj_core.h)
 description: Values used with the DROPDESCRIPTION structure to specify the drop image.
 helpviewer_keywords: ["DROPIMAGETYPE","DROPIMAGETYPE enumeration [Windows Shell]","DROPIMAGE_COPY","DROPIMAGE_INVALID","DROPIMAGE_LABEL","DROPIMAGE_LINK","DROPIMAGE_MOVE","DROPIMAGE_NOIMAGE","DROPIMAGE_NONE","DROPIMAGE_WARNING","_shell_DROPIMAGETYPE","shell.DROPIMAGETYPE","shlobj_core/DROPIMAGETYPE","shlobj_core/DROPIMAGE_COPY","shlobj_core/DROPIMAGE_INVALID","shlobj_core/DROPIMAGE_LABEL","shlobj_core/DROPIMAGE_LINK","shlobj_core/DROPIMAGE_MOVE","shlobj_core/DROPIMAGE_NOIMAGE","shlobj_core/DROPIMAGE_NONE","shlobj_core/DROPIMAGE_WARNING"]
@@ -85,3 +85,4 @@ A yellow exclamation mark that indicates that a problem has been encountered in 
 ### -field DROPIMAGE_NOIMAGE:8
 
 <b>Windows 7 and later</b>. Use no drop image.
+

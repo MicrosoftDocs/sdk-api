@@ -2,7 +2,7 @@
 UID: NF:winnetwk.WNetAddConnection2W
 title: WNetAddConnection2W function (winnetwk.h)
 description: The WNetAddConnection2 function makes a connection to a network resource and can redirect a local device to the network resource. (Unicode)
-helpviewer_keywords: ["CONNECT_CMD_SAVECRED","CONNECT_COMMANDLINE","CONNECT_CRED_RESET","CONNECT_CURRENT_MEDIA","CONNECT_INTERACTIVE","CONNECT_PROMPT","CONNECT_REDIRECT","CONNECT_TEMPORARY","CONNECT_UPDATE_PROFILE","CONNECT_UPDATE_RECENT","WNetAddConnection2","WNetAddConnection2 function [Windows Networking (WNet)]","WNetAddConnection2A","WNetAddConnection2W","_win32_wnetaddconnection2","dwType","lpLocalName","lpProvider","lpRemoteName","winnetwk/WNetAddConnection2","winnetwk/WNetAddConnection2A","winnetwk/WNetAddConnection2W","wnet.wnetaddconnection2"]
+helpviewer_keywords: ["CONNECT_CMD_SAVECRED", "CONNECT_COMMANDLINE", "CONNECT_CRED_RESET", "CONNECT_CURRENT_MEDIA", "CONNECT_INTERACTIVE", "CONNECT_PROMPT", "CONNECT_REDIRECT", "CONNECT_TEMPORARY", "CONNECT_UPDATE_PROFILE", "CONNECT_UPDATE_RECENT", "WNetAddConnection2", "WNetAddConnection2 function [Windows Networking (WNet)]", "WNetAddConnection2W", "_win32_wnetaddconnection2", "dwType", "lpLocalName", "lpProvider", "lpRemoteName", "winnetwk/WNetAddConnection2", "winnetwk/WNetAddConnection2W", "wnet.wnetaddconnection2"]
 old-location: wnet\wnetaddconnection2.htm
 tech.root: WNet
 ms.assetid: faec728c-f19e-418c-9bdb-cde93e7d98fb

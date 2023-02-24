@@ -2,7 +2,7 @@
 UID: NF:oledlg.OleUIUpdateLinksA
 title: OleUIUpdateLinksA function (oledlg.h)
 description: Updates all links in the link container and displays a dialog box that shows the progress of the updating process. The process is stopped if the user presses the Stop button or when all links are processed. (ANSI)
-helpviewer_keywords: ["OleUIUpdateLinks","OleUIUpdateLinks function [COM]","OleUIUpdateLinksA","OleUIUpdateLinksW","_ole_OleUIUpdateLinks","com.oleuiupdatelinks","oledlg/OleUIUpdateLinks","oledlg/OleUIUpdateLinksA","oledlg/OleUIUpdateLinksW"]
+helpviewer_keywords: ["OleUIUpdateLinksA", "oledlg/OleUIUpdateLinksA"]
 old-location: com\oleuiupdatelinks.htm
 tech.root: com
 ms.assetid: f280b061-45d8-484d-9fe1-ec4d85288bc6

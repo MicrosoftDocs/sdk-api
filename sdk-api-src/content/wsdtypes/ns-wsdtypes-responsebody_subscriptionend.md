@@ -1,5 +1,5 @@
 ---
-UID: NS:wsdtypes.__unnamed_struct_8
+UID: NS:wsdtypes.RESPONSEBODY_SubscriptionEnd
 title: RESPONSEBODY_SubscriptionEnd (wsdtypes.h)
 description: Represents a WS-Eventing SubscriptionEnd response message.
 helpviewer_keywords: ["RESPONSEBODY_SubscriptionEnd","RESPONSEBODY_SubscriptionEnd structure","http://schemas.xmlsoap.org/ws/2004/08/eventing/DeliveryFailure","http://schemas.xmlsoap.org/ws/2004/08/eventing/SourceCancelling","http://schemas.xmlsoap.org/ws/2004/08/eventing/SourceShuttingDown","ncd.responsebody_subscriptionend","wsdtypes/RESPONSEBODY_SubscriptionEnd"]
@@ -106,3 +106,4 @@ Reference to a  <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_localized
 ### -field Any
 
 Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
+

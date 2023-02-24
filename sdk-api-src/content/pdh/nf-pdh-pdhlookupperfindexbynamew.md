@@ -2,7 +2,7 @@
 UID: NF:pdh.PdhLookupPerfIndexByNameW
 title: PdhLookupPerfIndexByNameW function (pdh.h)
 description: Returns the counter index corresponding to the specified counter name. (Unicode)
-helpviewer_keywords: ["PdhLookupPerfIndexByName","PdhLookupPerfIndexByName function [Perf]","PdhLookupPerfIndexByNameA","PdhLookupPerfIndexByNameW","_win32_pdhlookupperfindexbyname","base.pdhlookupperfindexbyname","pdh/PdhLookupPerfIndexByName","pdh/PdhLookupPerfIndexByNameA","pdh/PdhLookupPerfIndexByNameW","perf.pdhlookupperfindexbyname"]
+helpviewer_keywords: ["PdhLookupPerfIndexByName", "PdhLookupPerfIndexByName function [Perf]", "PdhLookupPerfIndexByNameW", "_win32_pdhlookupperfindexbyname", "base.pdhlookupperfindexbyname", "pdh/PdhLookupPerfIndexByName", "pdh/PdhLookupPerfIndexByNameW", "perf.pdhlookupperfindexbyname"]
 old-location: perf\pdhlookupperfindexbyname.htm
 tech.root: perf
 ms.assetid: b8530bf3-0a9b-49c2-9494-4dca14cd57ef

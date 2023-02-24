@@ -2,7 +2,7 @@
 UID: NF:strsafe.StringCchCopyExA
 title: StringCchCopyExA function (strsafe.h)
 description: Copies one string to another. (StringCchCopyExA)
-helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCchCopyEx","StringCchCopyEx function [Menus and Other Resources]","StringCchCopyExA","StringCchCopyExW","_shell_StringCchCopyEx","_shell_stringcchcopyex_cpp","menurc.stringcchcopyex","strsafe/StringCchCopyEx","strsafe/StringCchCopyExA","strsafe/StringCchCopyExW","winui._shell_stringcchcopyex"]
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL", "STRSAFE_FILL_ON_FAILURE", "STRSAFE_IGNORE_NULLS", "STRSAFE_NO_TRUNCATION", "STRSAFE_NULL_ON_FAILURE", "StringCchCopyExA", "strsafe/StringCchCopyExA"]
 old-location: menurc\stringcchcopyex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcopyex.htm

@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_33
+UID: NE:webservices.WS_FAULT_DISCLOSURE
 title: WS_FAULT_DISCLOSURE (webservices.h)
 description: Controls how much error information is included in a fault. Since the error object may contain sensitive data as part of the error string, it is not always appropriate to include the error strings information in all faults.
 helpviewer_keywords: ["WS_FAULT_DISCLOSURE","WS_FAULT_DISCLOSURE enumeration [Web Services for Windows]","WS_FULL_FAULT_DISCLOSURE","WS_MINIMAL_FAULT_DISCLOSURE","webservices/WS_FAULT_DISCLOSURE","webservices/WS_FULL_FAULT_DISCLOSURE","webservices/WS_MINIMAL_FAULT_DISCLOSURE","wsw.ws_fault_disclosure"]

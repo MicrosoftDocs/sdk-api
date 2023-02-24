@@ -1,8 +1,8 @@
 ---
-UID: NE:nvme.__unnamed_enum_36
-tech.root: fs 
+UID: NE:nvme.NVME_PROTECTION_INFORMATION_TYPES
+tech.root: fs
 title: NVME_PROTECTION_INFORMATION_TYPES
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that indicate whether end-to-end data protection is enabled, and if it is, specifies the type of protection information.
@@ -12,7 +12,7 @@ req.header: nvme.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -33,6 +33,7 @@ dev_langs:
 ---
 
 # NVME_PROTECTION_INFORMATION_TYPES enumeration
+
 
 ## -description
 
@@ -65,3 +66,4 @@ Use this enumeration to specify values in the **PI** field of the [NVME_CDW10_FO
 ## -see-also
 
 - [NVME_CDW10_FORMAT_NVM](ns-nvme-nvme_cdw10_format_nvm.md)
+

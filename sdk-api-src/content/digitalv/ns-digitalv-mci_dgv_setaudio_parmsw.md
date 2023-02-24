@@ -1,5 +1,5 @@
 ---
-UID: NS:digitalv.__unnamed_struct_26
+UID: NS:digitalv.MCI_DGV_SETAUDIO_PARMSW
 title: MCI_DGV_SETAUDIO_PARMSW (digitalv.h)
 description: The MCI_DGV_SETAUDIO_PARMSW (Unicode) structure (digitalv.h) contains parameters for the MCI_SETAUDIO command for digital-video devices.
 helpviewer_keywords: ["*LPMCI_DGV_SETAUDIO_PARMSW","MCI_DGV_SETAUDIO_PARMS","MCI_DGV_SETAUDIO_PARMS structure [Windows Multimedia]","MCI_DGV_SETAUDIO_PARMSW","_win32_MCI_DGV_SETAUDIO_PARMS_str","digitalv/MCI_DGV_SETAUDIO_PARMS","multimedia.mci_dgv_setaudio_parms"]
@@ -105,3 +105,4 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 <a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
+

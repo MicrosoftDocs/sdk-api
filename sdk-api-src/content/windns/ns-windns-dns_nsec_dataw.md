@@ -1,5 +1,5 @@
 ---
-UID: NS:windns.__unnamed_struct_20
+UID: NS:windns.DNS_NSEC_DATAW
 title: DNS_NSEC_DATAW (windns.h)
 description: Represents an NSEC resource record (RR) as specified in section 4 of RFC 4034. (Unicode)
 helpviewer_keywords: ["*PDNS_NSEC_DATA","*PDNS_NSEC_DATAW","DNS_NSEC_DATA","DNS_NSEC_DATA structure [DNS]","DNS_NSEC_DATAW","PDNS_NSEC_DATA","PDNS_NSEC_DATA structure pointer [DNS]","dns.dns_nsec_data","windns/DNS_NSEC_DATA","windns/PDNS_NSEC_DATA"]
@@ -96,3 +96,4 @@ The
 
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+

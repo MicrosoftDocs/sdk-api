@@ -5,7 +5,7 @@ ms.date: 10/07/2020
 ms.topic: language-reference
 targetos: Windows
 description: Retrieves the path of the directory designated for temporary files, based on the privileges of the calling process. (ANSI)
-helpviewer_keywords: ["GetTempPath2","GetTempPath2A","GetTempPath2A","fileapi/GetTempPath2A","fileapi/GetTempPath2"]
+helpviewer_keywords: ["GetTempPath2A", "GetTempPath2A", "fileapi/GetTempPath2A"]
 tech.root: fs
 req.assembly: 
 req.construct-type: function

@@ -2,7 +2,7 @@
 UID: NF:winuser.CopyAcceleratorTableA
 title: CopyAcceleratorTableA function (winuser.h)
 description: Copies the specified accelerator table. This function is used to obtain the accelerator-table data that corresponds to an accelerator-table handle, or to determine the size of the accelerator-table data. (ANSI)
-helpviewer_keywords: ["CopyAcceleratorTable","CopyAcceleratorTable function [Menus and Other Resources]","CopyAcceleratorTableA","CopyAcceleratorTableW","_win32_CopyAcceleratorTable","_win32_copyacceleratortable_cpp","menurc.copyacceleratortable","winui._win32_copyacceleratortable","winuser/CopyAcceleratorTable","winuser/CopyAcceleratorTableA","winuser/CopyAcceleratorTableW"]
+helpviewer_keywords: ["CopyAcceleratorTableA", "winuser/CopyAcceleratorTableA"]
 old-location: menurc\copyacceleratortable.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\copyacceleratortable.htm

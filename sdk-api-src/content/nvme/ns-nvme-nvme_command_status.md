@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_12
-tech.root: fs 
+UID: NS:nvme.NVME_COMMAND_STATUS
+tech.root: fs
 title: NVME_COMMAND_STATUS
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains information about the status of a command.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_COMMAND_STATUS, *PNVME_COMMAND_STATUS
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_COMMAND_STATUS structure
+
 
 ## -description
 
@@ -95,3 +96,4 @@ If a command is aborted due to a time limited error recovery, this field should 
 
 - [NVME_COMPLETION_ENTRY](ns-nvme-nvme_completion_entry.md)
 - [NVME_ERROR_INFO_LOG](ns-nvme-nvme_error_info_log.md)
+

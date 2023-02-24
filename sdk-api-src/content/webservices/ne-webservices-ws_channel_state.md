@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_16
+UID: NE:webservices.WS_CHANNEL_STATE
 title: WS_CHANNEL_STATE (webservices.h)
 description: The different states that a channel can be in.
 helpviewer_keywords: ["WS_CHANNEL_STATE","WS_CHANNEL_STATE enumeration [Web Services for Windows]","WS_CHANNEL_STATE_ACCEPTING","WS_CHANNEL_STATE_CLOSED","WS_CHANNEL_STATE_CLOSING","WS_CHANNEL_STATE_CREATED","WS_CHANNEL_STATE_FAULTED","WS_CHANNEL_STATE_OPEN","WS_CHANNEL_STATE_OPENING","webservices/WS_CHANNEL_STATE","webservices/WS_CHANNEL_STATE_ACCEPTING","webservices/WS_CHANNEL_STATE_CLOSED","webservices/WS_CHANNEL_STATE_CLOSING","webservices/WS_CHANNEL_STATE_CREATED","webservices/WS_CHANNEL_STATE_FAULTED","webservices/WS_CHANNEL_STATE_OPEN","webservices/WS_CHANNEL_STATE_OPENING","wsw.ws_channel_state"]
@@ -85,3 +85,4 @@ Note that only the valid state transitions are shown.  Using
                 <b>WS_E_INVALID_OPERATION</b> error being returned from
                 the function (or crash in the case of <a href="/windows/desktop/api/webservices/nf-webservices-wsfreechannel">WsFreeChannel</a>).
             For information on error codes, see<a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.
+

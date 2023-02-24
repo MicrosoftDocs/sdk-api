@@ -2,7 +2,7 @@
 UID: NF:ws2tcpip.GetAddrInfoExA
 title: GetAddrInfoExA function (ws2tcpip.h)
 description: Provides protocol-independent name resolution with additional parameters to qualify which namespace providers should handle the request. (ANSI)
-helpviewer_keywords: ["GetAddrInfoEx","GetAddrInfoEx function [Winsock]","GetAddrInfoExA","GetAddrInfoExW","NS_ALL","NS_BTH","NS_DNS","NS_EMAIL","NS_NETBT","NS_NLA","NS_NTDS","NS_PNRPCLOUD","NS_PNRPNAME","NS_WINS","winsock.getaddrinfoex","ws2tcpip/GetAddrInfoEx","ws2tcpip/GetAddrInfoExA","ws2tcpip/GetAddrInfoExW"]
+helpviewer_keywords: ["GetAddrInfoExA", "NS_ALL", "NS_BTH", "NS_DNS", "NS_EMAIL", "NS_NETBT", "NS_NLA", "NS_NTDS", "NS_PNRPCLOUD", "NS_PNRPNAME", "NS_WINS", "ws2tcpip/GetAddrInfoExA"]
 old-location: winsock\getaddrinfoex.htm
 tech.root: WinSock
 ms.assetid: cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39

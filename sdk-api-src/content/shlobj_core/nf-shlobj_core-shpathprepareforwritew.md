@@ -2,7 +2,7 @@
 UID: NF:shlobj_core.SHPathPrepareForWriteW
 title: SHPathPrepareForWriteW function (shlobj_core.h)
 description: Checks to see if the path exists. (Unicode)
-helpviewer_keywords: ["SHPPFW_ASKDIRCREATE","SHPPFW_DEFAULT","SHPPFW_DIRCREATE","SHPPFW_IGNOREFILENAME","SHPPFW_MEDIACHECKONLY","SHPPFW_NONE","SHPPFW_NOWRITECHECK","SHPathPrepareForWrite","SHPathPrepareForWrite function [Windows Shell]","SHPathPrepareForWriteA","SHPathPrepareForWriteW","_shell_shpathprepareforwrite","shell.SHPathPrepareForWrite","shlobj_core/SHPathPrepareForWrite","shlobj_core/SHPathPrepareForWriteA","shlobj_core/SHPathPrepareForWriteW"]
+helpviewer_keywords: ["SHPPFW_ASKDIRCREATE", "SHPPFW_DEFAULT", "SHPPFW_DIRCREATE", "SHPPFW_IGNOREFILENAME", "SHPPFW_MEDIACHECKONLY", "SHPPFW_NONE", "SHPPFW_NOWRITECHECK", "SHPathPrepareForWrite", "SHPathPrepareForWrite function [Windows Shell]", "SHPathPrepareForWriteW", "_shell_shpathprepareforwrite", "shell.SHPathPrepareForWrite", "shlobj_core/SHPathPrepareForWrite", "shlobj_core/SHPathPrepareForWriteW"]
 old-location: shell\SHPathPrepareForWrite.htm
 tech.root: shell
 ms.assetid: 1b65e34f-2c31-421b-9d27-ed263dfb372b

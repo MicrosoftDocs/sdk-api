@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_83
-tech.root: fs 
+UID: NS:nvme.NVME_CDW10_GET_LOG_PAGE
+tech.root: fs
 title: NVME_CDW10_GET_LOG_PAGE
-ms.date: 08/09/2022 
+ms.date: 08/09/2022
 ms.topic: language-reference
 targetos: Windows
 description: The NVME_CDW10_GET_LOG_PAGE structure contains parameters for the Get Log Page command that returns a data buffer containing the requested log page.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW10_GET_LOG_PAGE, *PNVME_CDW10_GET_LOG_PAGE
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW10_GET_LOG_PAGE structure
+
 
 ## -description
 
@@ -78,3 +79,4 @@ If the host software specifies a size larger than the requested log page, the co
 - [NVME_CDW11_GET_LOG_PAGE](ns-nvme-nvme_cdw11_get_log_page.md)
 - [NVME_CDW12_GET_LOG_PAGE](ns-nvme-nvme_cdw12_get_log_page.md)
 - [NVME_CDW13_GET_LOG_PAGE](ns-nvme-nvme_cdw13_get_log_page.md)
+

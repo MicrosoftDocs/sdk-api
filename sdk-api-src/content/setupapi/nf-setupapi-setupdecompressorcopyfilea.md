@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupDecompressOrCopyFileA
 title: SetupDecompressOrCopyFileA function (setupapi.h)
 description: The SetupDecompressOrCopyFile function copies a file, decompressing it if necessary. (ANSI)
-helpviewer_keywords: ["SetupDecompressOrCopyFile","SetupDecompressOrCopyFile function [Setup API]","SetupDecompressOrCopyFileA","SetupDecompressOrCopyFileW","_setupapi_setupdecompressorcopyfile","setup.setupdecompressorcopyfile","setupapi/SetupDecompressOrCopyFile","setupapi/SetupDecompressOrCopyFileA","setupapi/SetupDecompressOrCopyFileW"]
+helpviewer_keywords: ["SetupDecompressOrCopyFileA", "setupapi/SetupDecompressOrCopyFileA"]
 old-location: setup\setupdecompressorcopyfile.htm
 tech.root: setup
 ms.assetid: 6058567b-fa34-472b-91d8-3c5f9ee741b1

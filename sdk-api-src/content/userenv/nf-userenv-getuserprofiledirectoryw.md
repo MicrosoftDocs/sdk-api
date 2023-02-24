@@ -2,7 +2,7 @@
 UID: NF:userenv.GetUserProfileDirectoryW
 title: GetUserProfileDirectoryW function (userenv.h)
 description: Retrieves the path to the root directory of the specified user's profile. (Unicode)
-helpviewer_keywords: ["GetUserProfileDirectory","GetUserProfileDirectory function [Windows Shell]","GetUserProfileDirectoryA","GetUserProfileDirectoryW","_shell_GetUserProfileDirectory","shell.GetUserProfileDirectory","userenv/GetUserProfileDirectory","userenv/GetUserProfileDirectoryA","userenv/GetUserProfileDirectoryW"]
+helpviewer_keywords: ["GetUserProfileDirectory", "GetUserProfileDirectory function [Windows Shell]", "GetUserProfileDirectoryW", "_shell_GetUserProfileDirectory", "shell.GetUserProfileDirectory", "userenv/GetUserProfileDirectory", "userenv/GetUserProfileDirectoryW"]
 old-location: shell\GetUserProfileDirectory.htm
 tech.root: shell
 ms.assetid: b5de762d-c9ee-42b0-bce0-e74bcc9c78f0

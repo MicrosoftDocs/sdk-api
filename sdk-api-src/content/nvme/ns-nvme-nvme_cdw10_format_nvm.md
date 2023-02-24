@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_107
-tech.root: fs 
+UID: NS:nvme.NVME_CDW10_FORMAT_NVM
+tech.root: fs
 title: NVME_CDW10_FORMAT_NVM
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters for the Format NVM command that is used to low level format the NVM media.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW10_FORMAT_NVM, *PNVME_CDW10_FORMAT_NVM
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW10_FORMAT_NVM structure
+
 
 ## -description
 
@@ -86,4 +87,5 @@ An [NVME_SECURE_ERASE_SETTINGS](ne-nvme-nvme_secure_erase_settings.md) enumerati
 ## -see-also
 
 - [NVME_IDENTIFY_NAMESPACE_DATA](ns-nvme-nvme_identify_namespace_data.md)
-- [NVME_LBA_FORMAT](ns-nvme-nvme_lba_format.md) 
+- [NVME_LBA_FORMAT](ns-nvme-nvme_lba_format.md)
+

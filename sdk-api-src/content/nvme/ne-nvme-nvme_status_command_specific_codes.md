@@ -1,8 +1,8 @@
 ---
-UID: NE:nvme.__unnamed_enum_12
-tech.root: fs 
+UID: NE:nvme.NVME_STATUS_COMMAND_SPECIFIC_CODES
+tech.root: fs
 title: NVME_STATUS_COMMAND_SPECIFIC_CODES
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values indicating status that is specific to a particular command.
@@ -12,7 +12,7 @@ req.header: nvme.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -33,6 +33,7 @@ dev_langs:
 ---
 
 # NVME_STATUS_COMMAND_SPECIFIC_CODES enumeration
+
 
 ## -description
 

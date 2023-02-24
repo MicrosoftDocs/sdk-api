@@ -2,7 +2,7 @@
 UID: NF:immdev.ImmGetDescriptionA
 title: ImmGetDescriptionA function (immdev.h)
 description: The ImmGetDescriptionA (ANSI) function (immdev.h) copies the description of the IME to the specified buffer.
-helpviewer_keywords: ["ImmGetDescription","ImmGetDescription function [Internationalization for Windows Applications]","ImmGetDescriptionA","ImmGetDescriptionW","_win32_ImmGetDescription","imm/ImmGetDescription","imm/ImmGetDescriptionA","imm/ImmGetDescriptionW","intl.immgetdescription"]
+helpviewer_keywords: ["ImmGetDescriptionA"]
 old-location: intl\immgetdescription.htm
 tech.root: Intl
 ms.assetid: 62f4efc8-7b46-4d8e-a6a2-2f346efe8ba6

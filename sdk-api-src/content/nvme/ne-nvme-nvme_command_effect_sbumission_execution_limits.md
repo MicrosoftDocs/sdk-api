@@ -1,8 +1,8 @@
 ---
-UID: NE:nvme.__unnamed_enum_31
-tech.root: fs 
+UID: NE:nvme.NVME_COMMAND_EFFECT_SBUMISSION_EXECUTION_LIMITS
+tech.root: fs
 title: NVME_COMMAND_EFFECT_SBUMISSION_EXECUTION_LIMITS
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that indicate the command submission and execution recommendations for the associated command.
@@ -12,7 +12,7 @@ req.header: nvme.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -33,6 +33,7 @@ dev_langs:
 ---
 
 # NVME_COMMAND_EFFECT_SBUMISSION_EXECUTION_LIMITS enumeration
+
 
 ## -description
 
@@ -59,3 +60,4 @@ Use the values from this enumeration in the Command Submission and Execution (**
 ## -see-also
 
 [NVME_COMMAND_EFFECTS_DATA](ns-nvme-nvme_command_effects_data.md)
+

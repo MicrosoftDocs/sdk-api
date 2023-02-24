@@ -1,5 +1,5 @@
 ---
-UID: NS:winscard.__unnamed_struct_5
+UID: NS:winscard.OPENCARDNAME_EXW
 title: OPENCARDNAME_EXW (winscard.h)
 description: The OPENCARDNAME_EX structure contains the information that the SCardUIDlgSelectCard function uses to initialize a smart card Select Card dialog box. (Unicode)
 helpviewer_keywords: ["*LPOPENCARDNAME_EXW","*POPENCARDNAME_EXW","LPOPENCARDNAME_EX","LPOPENCARDNAME_EX structure pointer [Security]","OPENCARDNAME_EX","OPENCARDNAME_EX structure [Security]","OPENCARDNAME_EXA","OPENCARDNAME_EXW","POPENCARDNAME_EX","POPENCARDNAME_EX structure pointer [Security]","SC_DLG_FORCE_UI","SC_DLG_MINIMAL_UI","SC_DLG_NO_UI","_smart_opencardname_ex","security.opencardname_ex","winscard/LPOPENCARDNAME_EX","winscard/OPENCARDNAME_EX","winscard/OPENCARDNAME_EXA","winscard/OPENCARDNAME_EXW","winscard/POPENCARDNAME_EX"]
@@ -215,3 +215,4 @@ A handle of the connected card (either through an internal dialog box connect or
 
 > [!NOTE]
 > The winscard.h header defines OPENCARDNAME_EX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

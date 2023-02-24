@@ -2,7 +2,7 @@
 UID: NF:iscsidsc.ReportRadiusServerListA
 title: ReportRadiusServerListA function (iscsidsc.h)
 description: ReportRadiusServerList function retrieves the list of Remote Authentication Dial-In Service (RADIUS) servers the iSCSI initiator service uses during authentication. (ANSI)
-helpviewer_keywords: ["ReportRadiusServerList","ReportRadiusServerList function [iSCSI Discovery Library API]","ReportRadiusServerListA","ReportRadiusServerListW","iscsidisc.reportradiusserverlist","iscsidsc/ReportRadiusServerList","iscsidsc/ReportRadiusServerListA","iscsidsc/ReportRadiusServerListW"]
+helpviewer_keywords: ["ReportRadiusServerListA", "iscsidsc/ReportRadiusServerListA"]
 old-location: iscsidisc\reportradiusserverlist.htm
 tech.root: iSCSIDisc
 ms.assetid: 83f9fdca-805a-44ed-bd6b-0a731c63cfe6

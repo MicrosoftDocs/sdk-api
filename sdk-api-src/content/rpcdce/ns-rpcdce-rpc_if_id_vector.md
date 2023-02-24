@@ -1,5 +1,5 @@
 ---
-UID: NS:rpcdce.__unnamed_struct_1
+UID: NS:rpcdce.RPC_IF_ID_VECTOR
 title: RPC_IF_ID_VECTOR (rpcdce.h)
 description: The RPC_IF_ID_VECTOR structure contains a list of interfaces offered by a server.
 helpviewer_keywords: ["RPC_IF_ID_VECTOR","RPC_IF_ID_VECTOR structure [RPC]","_rpc_rpc_if_id_vector","rpc.rpc_if_id_vector","rpcdce/RPC_IF_ID_VECTOR"]
@@ -93,3 +93,4 @@ The RPC run-time library allocates memory for the interface identification vecto
 
 
 <a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentryinqifidsa">RpcNsMgmtEntryInqIfIds</a>
+

@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_105
-tech.root: fs 
+UID: NS:nvme.NVME_CDW11_FIRMWARE_DOWNLOAD
+tech.root: fs
 title: NVME_CDW11_FIRMWARE_DOWNLOAD
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters for the Firmware Image Download command that is used to copy a new firmware image (in whole or in part) to the controller.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW11_FIRMWARE_DOWNLOAD, *PNVME_CDW11_FIRMWARE_DOWNLOAD
@@ -41,6 +41,7 @@ dev_langs:
 
 # NVME_CDW11_FIRMWARE_DOWNLOAD structure
 
+
 ## -description
 
 Contains parameters for the Firmware Image Download command that is used to copy a new firmware image (in whole or in part) to the controller.
@@ -60,3 +61,4 @@ The Offset (OFST) field specifies the number of Dwords offset from the start of 
 ## -see-also
 
 - [NVME_CDW10_FIRMWARE_DOWNLOAD](ns-nvme-nvme_cdw10_firmware_download.md)
+

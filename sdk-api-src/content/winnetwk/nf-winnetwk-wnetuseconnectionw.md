@@ -2,7 +2,7 @@
 UID: NF:winnetwk.WNetUseConnectionW
 title: WNetUseConnectionW function (winnetwk.h)
 description: The WNetUseConnection function makes a connection to a network resource. The function can redirect a local device to a network resource. (Unicode)
-helpviewer_keywords: ["CONNECT_CMD_SAVECRED","CONNECT_COMMANDLINE","CONNECT_INTERACTIVE","CONNECT_LOCALDRIVE","CONNECT_PROMPT","CONNECT_REDIRECT","CONNECT_UPDATE_PROFILE","WNetUseConnection","WNetUseConnection function [Windows Networking (WNet)]","WNetUseConnectionA","WNetUseConnectionW","_win32_wnetuseconnection","dwType","lpLocalName","lpProvider","lpRemoteName","winnetwk/WNetUseConnection","winnetwk/WNetUseConnectionA","winnetwk/WNetUseConnectionW","wnet.wnetuseconnection"]
+helpviewer_keywords: ["CONNECT_CMD_SAVECRED", "CONNECT_COMMANDLINE", "CONNECT_INTERACTIVE", "CONNECT_LOCALDRIVE", "CONNECT_PROMPT", "CONNECT_REDIRECT", "CONNECT_UPDATE_PROFILE", "WNetUseConnection", "WNetUseConnection function [Windows Networking (WNet)]", "WNetUseConnectionW", "_win32_wnetuseconnection", "dwType", "lpLocalName", "lpProvider", "lpRemoteName", "winnetwk/WNetUseConnection", "winnetwk/WNetUseConnectionW", "wnet.wnetuseconnection"]
 old-location: wnet\wnetuseconnection.htm
 tech.root: WNet
 ms.assetid: 80fa471d-074c-468f-b90f-1636081e1583

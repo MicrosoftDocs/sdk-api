@@ -2,7 +2,7 @@
 UID: NF:immdev.ImmGetImeMenuItemsW
 title: ImmGetImeMenuItemsW function (immdev.h)
 description: The ImmGetImeMenuItemsW (Unicode) function (immdev.h) retrieves the menu items that are registered in the IME menu of a specified input context. 
-helpviewer_keywords: ["IGIMIF_RIGHTMENU","IGIMII_CMODE","IGIMII_CONFIGURE","IGIMII_HELP","IGIMII_INPUTTOOLS","IGIMII_OTHER","IGIMII_SMODE","IGIMII_TOOLS","ImmGetImeMenuItems","ImmGetImeMenuItems function [Internationalization for Windows Applications]","ImmGetImeMenuItemsA","ImmGetImeMenuItemsW","_win32_ImmGetImeMenuItems","imm/ImmGetImeMenuItems","imm/ImmGetImeMenuItemsA","imm/ImmGetImeMenuItemsW","intl.immgetimemenuitems"]
+helpviewer_keywords: ["IGIMIF_RIGHTMENU", "IGIMII_CMODE", "IGIMII_CONFIGURE", "IGIMII_HELP", "IGIMII_INPUTTOOLS", "IGIMII_OTHER", "IGIMII_SMODE", "IGIMII_TOOLS", "ImmGetImeMenuItems", "ImmGetImeMenuItems function [Internationalization for Windows Applications]", "ImmGetImeMenuItemsW", "_win32_ImmGetImeMenuItems", "intl.immgetimemenuitems"]
 old-location: intl\immgetimemenuitems.htm
 tech.root: Intl
 ms.assetid: 452c864d-b2e7-452a-85f2-d06d46170865

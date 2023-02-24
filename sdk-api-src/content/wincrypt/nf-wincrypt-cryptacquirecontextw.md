@@ -2,7 +2,7 @@
 UID: NF:wincrypt.CryptAcquireContextW
 title: CryptAcquireContextW function (wincrypt.h)
 description: Used to acquire a handle to a particular key container within a particular cryptographic service provider (CSP). This returned handle is used in calls to CryptoAPI functions that use the selected CSP. (Unicode)
-helpviewer_keywords: ["CRYPT_DEFAULT_CONTAINER_OPTIONAL","CRYPT_DELETEKEYSET","CRYPT_MACHINE_KEYSET","CRYPT_NEWKEYSET","CRYPT_SILENT","CRYPT_VERIFYCONTEXT","CryptAcquireContext","CryptAcquireContext function [Security]","CryptAcquireContextA","CryptAcquireContextW","_crypto2_cryptacquirecontext","security.cryptacquirecontext","wincrypt/CryptAcquireContext","wincrypt/CryptAcquireContextA","wincrypt/CryptAcquireContextW"]
+helpviewer_keywords: ["CRYPT_DEFAULT_CONTAINER_OPTIONAL", "CRYPT_DELETEKEYSET", "CRYPT_MACHINE_KEYSET", "CRYPT_NEWKEYSET", "CRYPT_SILENT", "CRYPT_VERIFYCONTEXT", "CryptAcquireContext", "CryptAcquireContext function [Security]", "CryptAcquireContextW", "_crypto2_cryptacquirecontext", "security.cryptacquirecontext", "wincrypt/CryptAcquireContext", "wincrypt/CryptAcquireContextW"]
 old-location: security\cryptacquirecontext.htm
 tech.root: security
 ms.assetid: 57e13662-3189-4f8d-b90a-d1fbdc09b63c

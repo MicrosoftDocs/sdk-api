@@ -2,7 +2,7 @@
 UID: NF:wininet.InternetSetCookieW
 title: InternetSetCookieW function (wininet.h)
 description: Creates a cookie associated with the specified URL. (InternetSetCookieW)
-helpviewer_keywords: ["InternetSetCookie","InternetSetCookie function [WinINet]","InternetSetCookieA","InternetSetCookieW","_win32_internetsetcookie","wininet.internetsetcookie","wininet/InternetSetCookie","wininet/InternetSetCookieA","wininet/InternetSetCookieW"]
+helpviewer_keywords: ["InternetSetCookie", "InternetSetCookie function [WinINet]", "InternetSetCookieW", "_win32_internetsetcookie", "wininet.internetsetcookie", "wininet/InternetSetCookie", "wininet/InternetSetCookieW"]
 old-location: wininet\internetsetcookie.htm
 tech.root: wininet
 ms.assetid: 1b1ca72e-9c74-4e94-86a9-6fee12c83933

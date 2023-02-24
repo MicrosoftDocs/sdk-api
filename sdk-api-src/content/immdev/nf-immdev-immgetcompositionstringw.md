@@ -2,7 +2,7 @@
 UID: NF:immdev.ImmGetCompositionStringW
 title: ImmGetCompositionStringW function (immdev.h)
 description: The ImmGetCompositionStringW (Unicode) function (immdev.h) retrieves information about the composition string. 
-helpviewer_keywords: ["ImmGetCompositionString","ImmGetCompositionString function [Internationalization for Windows Applications]","ImmGetCompositionStringA","ImmGetCompositionStringW","_win32_ImmGetCompositionString","imm/ImmGetCompositionString","imm/ImmGetCompositionStringA","imm/ImmGetCompositionStringW","intl.immgetcompositionstring"]
+helpviewer_keywords: ["ImmGetCompositionString", "ImmGetCompositionString function [Internationalization for Windows Applications]", "ImmGetCompositionStringW", "_win32_ImmGetCompositionString", "intl.immgetcompositionstring"]
 old-location: intl\immgetcompositionstring.htm
 tech.root: Intl
 ms.assetid: 6309e5b4-36ce-4899-be33-d7bf0d828d3d

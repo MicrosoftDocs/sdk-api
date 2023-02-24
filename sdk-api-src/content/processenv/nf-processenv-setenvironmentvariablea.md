@@ -2,7 +2,7 @@
 UID: NF:processenv.SetEnvironmentVariableA
 title: SetEnvironmentVariableA function (processenv.h)
 description: Sets the contents of the specified environment variable for the current process. (SetEnvironmentVariableA)
-helpviewer_keywords: ["SetEnvironmentVariable","SetEnvironmentVariable function","SetEnvironmentVariableA","SetEnvironmentVariableW","_win32_setenvironmentvariable","base.setenvironmentvariable","processenv/SetEnvironmentVariable","processenv/SetEnvironmentVariableA","processenv/SetEnvironmentVariableW","winbase/SetEnvironmentVariable","winbase/SetEnvironmentVariableA","winbase/SetEnvironmentVariableW"]
+helpviewer_keywords: ["SetEnvironmentVariableA", "processenv/SetEnvironmentVariableA"]
 old-location: base\setenvironmentvariable.htm
 tech.root: backup
 ms.assetid: 95bd6fa5-886d-41dc-a5c3-ede86dbfa15d

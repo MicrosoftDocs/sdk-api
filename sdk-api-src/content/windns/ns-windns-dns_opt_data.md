@@ -1,5 +1,5 @@
 ---
-UID: NS:windns.__unnamed_struct_26
+UID: NS:windns.DNS_OPT_DATA
 title: DNS_OPT_DATA (windns.h)
 description: Represents a DNS Option (OPT) resource record (RR) as specified in section 4 of RFC 2671.
 helpviewer_keywords: ["*PDNS_OPT_DATA","DNS_OPT_DATA","DNS_OPT_DATA structure [DNS]","PDNS_OPT_DATA","PDNS_OPT_DATA structure pointer [DNS]","dns.dns_opt_data","windns/DNS_OPT_DATA","windns/PDNS_OPT_DATA"]
@@ -85,3 +85,4 @@ The
 
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+

@@ -1,5 +1,5 @@
 ---
-UID: NS:vfw.__unnamed_struct_4
+UID: NS:vfw.ICSETSTATUSPROC
 title: ICSETSTATUSPROC (vfw.h)
 description: The ICSETSTATUSPROC structure contains status information used with the ICM_SET_STATUS_PROC message.
 helpviewer_keywords: ["ICSETSTATUSPROC","ICSETSTATUSPROC structure [Windows Multimedia]","multimedia.icsetstatusproc_COLLISION563","multimedia.icsetstatusproc_struct","vfw/ICSETSTATUSPROC"]
@@ -88,3 +88,4 @@ Pointer to the status function. Specify <b>NULL</b> if status messages should no
 
 
 <a href="/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
+

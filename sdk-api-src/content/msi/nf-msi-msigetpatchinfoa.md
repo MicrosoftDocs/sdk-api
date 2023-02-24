@@ -2,7 +2,7 @@
 UID: NF:msi.MsiGetPatchInfoA
 title: MsiGetPatchInfoA function (msi.h)
 description: The MsiGetPatchInfo function returns information about a patch. (ANSI)
-helpviewer_keywords: ["INSTALLPROPERTY_LOCALPACKAGE","MsiGetPatchInfo","MsiGetPatchInfo function","MsiGetPatchInfoA","MsiGetPatchInfoW","_msi_msigetpatchinfo","msi/MsiGetPatchInfo","msi/MsiGetPatchInfoA","msi/MsiGetPatchInfoW","setup.msigetpatchinfo"]
+helpviewer_keywords: ["INSTALLPROPERTY_LOCALPACKAGE", "MsiGetPatchInfoA", "msi/MsiGetPatchInfoA"]
 old-location: setup\msigetpatchinfo.htm
 tech.root: setup
 ms.assetid: 4ff951df-5c1b-4874-9f09-f4ac23702e87

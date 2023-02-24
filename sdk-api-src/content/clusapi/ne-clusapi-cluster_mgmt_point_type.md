@@ -1,5 +1,5 @@
 ---
-UID: NE:clusapi.__unnamed_enum_1
+UID: NE:clusapi.CLUSTER_MGMT_POINT_TYPE
 title: CLUSTER_MGMT_POINT_TYPE (clusapi.h)
 description: CLUSTER_MGMT_POINT_TYPE (clusapi.h) specifies the type of the management point for the cluster.
 helpviewer_keywords: ["CLUSTER_MGMT_POINT_TYPE","CLUSTER_MGMT_POINT_TYPE enumeration [Failover Cluster]","CLUSTER_MGMT_POINT_TYPE_CNO","CLUSTER_MGMT_POINT_TYPE_CNO_ONLY","CLUSTER_MGMT_POINT_TYPE_DNS_ONLY","CLUSTER_MGMT_POINT_TYPE_NONE","clusapi/CLUSTER_MGMT_POINT_TYPE","clusapi/CLUSTER_MGMT_POINT_TYPE_CNO","clusapi/CLUSTER_MGMT_POINT_TYPE_CNO_ONLY","clusapi/CLUSTER_MGMT_POINT_TYPE_DNS_ONLY","clusapi/CLUSTER_MGMT_POINT_TYPE_NONE","msclus/CLUSTER_MGMT_POINT_TYPE","msclus/CLUSTER_MGMT_POINT_TYPE_CNO","msclus/CLUSTER_MGMT_POINT_TYPE_CNO_ONLY","msclus/CLUSTER_MGMT_POINT_TYPE_DNS_ONLY","msclus/CLUSTER_MGMT_POINT_TYPE_NONE","mscs.cluster_mgmt_point_type"]
@@ -86,3 +86,4 @@ The management point type is cluster name object (CNO) only.
 
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
+

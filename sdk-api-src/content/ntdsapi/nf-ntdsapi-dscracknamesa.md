@@ -2,7 +2,7 @@
 UID: NF:ntdsapi.DsCrackNamesA
 title: DsCrackNamesA function (ntdsapi.h)
 description: Converts an array of directory service object names from one format to another. (ANSI)
-helpviewer_keywords: ["DsCrackNames","DsCrackNames function [Active Directory]","DsCrackNamesA","DsCrackNamesW","_glines_dscracknames","ad.dscracknames","ntdsapi/DsCrackNames","ntdsapi/DsCrackNamesA","ntdsapi/DsCrackNamesW"]
+helpviewer_keywords: ["DsCrackNamesA", "ntdsapi/DsCrackNamesA"]
 old-location: ad\dscracknames.htm
 tech.root: ad
 ms.assetid: f812a001-5aab-4c62-87bd-54f95792e271

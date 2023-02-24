@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupQueryInfFileInformationW
 title: SetupQueryInfFileInformationW function (setupapi.h)
 description: The SetupQueryInfFileInformation function returns an INF filename from an SP_INF_INFORMATION structure to a buffer. (Unicode)
-helpviewer_keywords: ["SetupQueryInfFileInformation","SetupQueryInfFileInformation function [Setup API]","SetupQueryInfFileInformationA","SetupQueryInfFileInformationW","_setupapi_setupqueryinffileinformation","setup.setupqueryinffileinformation","setupapi/SetupQueryInfFileInformation","setupapi/SetupQueryInfFileInformationA","setupapi/SetupQueryInfFileInformationW"]
+helpviewer_keywords: ["SetupQueryInfFileInformation", "SetupQueryInfFileInformation function [Setup API]", "SetupQueryInfFileInformationW", "_setupapi_setupqueryinffileinformation", "setup.setupqueryinffileinformation", "setupapi/SetupQueryInfFileInformation", "setupapi/SetupQueryInfFileInformationW"]
 old-location: setup\setupqueryinffileinformation.htm
 tech.root: setup
 ms.assetid: 36f1824d-f71e-462a-a233-0240e76de3d2

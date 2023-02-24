@@ -1,5 +1,5 @@
 ---
-UID: NE:lmdfs.__unnamed_enum_0
+UID: NE:lmdfs.DFS_NAMESPACE_VERSION_ORIGIN
 title: DFS_NAMESPACE_VERSION_ORIGIN (lmdfs.h)
 description: Identifies the origin of DFS namespace version information.
 helpviewer_keywords: ["*PDFS_NAMESPACE_VERSION_ORIGIN","DFS_NAMESPACE_VERSION_ORIGIN","DFS_NAMESPACE_VERSION_ORIGIN enumeration [Distributed File System]","DFS_NAMESPACE_VERSION_ORIGIN_COMBINED","DFS_NAMESPACE_VERSION_ORIGIN_DOMAIN","DFS_NAMESPACE_VERSION_ORIGIN_SERVER","dfs.dfs_namespace_version_origin","fs.dfs_namespace_version_origin","lmdfs/DFS_NAMESPACE_VERSION_ORIGIN","lmdfs/DFS_NAMESPACE_VERSION_ORIGIN_COMBINED","lmdfs/DFS_NAMESPACE_VERSION_ORIGIN_DOMAIN","lmdfs/DFS_NAMESPACE_VERSION_ORIGIN_SERVER"]
@@ -79,3 +79,4 @@ The version information specifies the maximum version that the AD DS domain can 
 
 
 <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetsupportednamespaceversion">NetDfsGetSupportedNamespaceVersion</a>
+

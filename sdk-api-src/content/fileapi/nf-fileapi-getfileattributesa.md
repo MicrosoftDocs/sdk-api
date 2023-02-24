@@ -2,7 +2,7 @@
 UID: NF:fileapi.GetFileAttributesA
 title: GetFileAttributesA function (fileapi.h)
 description: Retrieves file system attributes for a specified file or directory. (ANSI)
-helpviewer_keywords: ["GetFileAttributes","GetFileAttributes function [Files]","GetFileAttributesA","GetFileAttributesW","_win32_getfileattributes","base.getfileattributes","fileapi/GetFileAttributes","fileapi/GetFileAttributesA","fileapi/GetFileAttributesW","fs.getfileattributes","winbase/GetFileAttributes","winbase/GetFileAttributesA","winbase/GetFileAttributesW"]
+helpviewer_keywords: ["GetFileAttributesA", "fileapi/GetFileAttributesA"]
 old-location: fs\getfileattributes.htm
 tech.root: fs
 ms.assetid: 9f9bcdbb-1ffd-49c2-92f4-181fdcc9c690

@@ -2,7 +2,7 @@
 UID: NF:immdev.ImmGetCompositionFontW
 title: ImmGetCompositionFontW function (immdev.h)
 description: The ImmGetCompositionFontW (Unicode) function (immdev.h) retrieves information about the logical font currently used to display characters in the composition window.
-helpviewer_keywords: ["ImmGetCompositionFont","ImmGetCompositionFont function [Internationalization for Windows Applications]","ImmGetCompositionFontA","ImmGetCompositionFontW","_win32_ImmGetCompositionFont","imm/ImmGetCompositionFont","imm/ImmGetCompositionFontA","imm/ImmGetCompositionFontW","intl.immgetcompositionfont"]
+helpviewer_keywords: ["ImmGetCompositionFont", "ImmGetCompositionFont function [Internationalization for Windows Applications]", "ImmGetCompositionFontW", "_win32_ImmGetCompositionFont", "intl.immgetcompositionfont"]
 old-location: intl\immgetcompositionfont.htm
 tech.root: Intl
 ms.assetid: c38f424f-84d4-4181-9ada-bbd178a70373

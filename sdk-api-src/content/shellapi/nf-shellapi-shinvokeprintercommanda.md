@@ -2,7 +2,7 @@
 UID: NF:shellapi.SHInvokePrinterCommandA
 title: SHInvokePrinterCommandA function (shellapi.h)
 description: Executes a command on a printer object. (ANSI)
-helpviewer_keywords: ["PRINTACTION_DOCUMENTDEFAULTS","PRINTACTION_NETINSTALL","PRINTACTION_NETINSTALLLINK","PRINTACTION_OPEN","PRINTACTION_OPENNETPRN","PRINTACTION_PROPERTIES","PRINTACTION_SERVERPROPERTIES","PRINTACTION_TESTPAGE","SHInvokePrinterCommand","SHInvokePrinterCommand function [Windows Shell]","SHInvokePrinterCommandA","SHInvokePrinterCommandW","_win32_SHInvokePrinterCommand","shell.SHInvokePrinterCommand","shellapi/SHInvokePrinterCommand","shellapi/SHInvokePrinterCommandA","shellapi/SHInvokePrinterCommandW"]
+helpviewer_keywords: ["PRINTACTION_DOCUMENTDEFAULTS", "PRINTACTION_NETINSTALL", "PRINTACTION_NETINSTALLLINK", "PRINTACTION_OPEN", "PRINTACTION_OPENNETPRN", "PRINTACTION_PROPERTIES", "PRINTACTION_SERVERPROPERTIES", "PRINTACTION_TESTPAGE", "SHInvokePrinterCommandA", "shellapi/SHInvokePrinterCommandA"]
 old-location: shell\SHInvokePrinterCommand.htm
 tech.root: shell
 ms.assetid: 32a5802f-cef7-4dbd-affd-82285fe97a8c

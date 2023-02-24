@@ -2,7 +2,7 @@
 UID: NF:sspi.QueryCredentialsAttributesW
 title: QueryCredentialsAttributesW function (sspi.h)
 description: Retrieves the attributes of a credential, such as the name associated with the credential. (Unicode)
-helpviewer_keywords: ["QueryCredentialsAttributes","QueryCredentialsAttributes function [Security]","QueryCredentialsAttributesA","QueryCredentialsAttributesW","_ssp_querycredentialsattributes","security.querycredentialsattributes","sspi/QueryCredentialsAttributes","sspi/QueryCredentialsAttributesA","sspi/QueryCredentialsAttributesW"]
+helpviewer_keywords: ["QueryCredentialsAttributes", "QueryCredentialsAttributes function [Security]", "QueryCredentialsAttributesW", "_ssp_querycredentialsattributes", "security.querycredentialsattributes", "sspi/QueryCredentialsAttributes", "sspi/QueryCredentialsAttributesW"]
 old-location: security\querycredentialsattributes.htm
 tech.root: security
 ms.assetid: a8ba6f73-8469-431b-b185-183b45b2c533

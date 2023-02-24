@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_16
+UID: NS:lpmapi.IntServServiceHdr
 title: IntServServiceHdr (lpmapi.h)
 description: The IntServServiceHdr structure is a header for Integrated Services service objects.
 helpviewer_keywords: ["IntServServiceHdr","IntServServiceHdr structure [QOS]","lpmapi/IntServServiceHdr","qos.intservservicehdr"]
@@ -74,3 +74,4 @@ Number of 32-bit WORDs in the object, excluding this header object.
 
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservparmhdr">IntServParmHdr</a>
+

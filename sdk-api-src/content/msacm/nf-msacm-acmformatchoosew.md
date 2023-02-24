@@ -2,7 +2,7 @@
 UID: NF:msacm.acmFormatChooseW
 title: acmFormatChooseW function (msacm.h)
 description: The acmFormatChoose (Unicode) function creates an ACM-defined dialog box that enables the user to select a waveform-audio format. (acmFormatChooseW)
-helpviewer_keywords: ["_win32_acmFormatChoose","acmFormatChoose","acmFormatChoose function [Windows Multimedia]","acmFormatChooseA","acmFormatChooseW","msacm/acmFormatChoose","msacm/acmFormatChooseA","msacm/acmFormatChooseW","multimedia.acmformatchoose"]
+helpviewer_keywords: ["_win32_acmFormatChoose", "acmFormatChoose", "acmFormatChoose function [Windows Multimedia]", "acmFormatChooseW", "msacm/acmFormatChoose", "msacm/acmFormatChooseW", "multimedia.acmformatchoose"]
 old-location: multimedia\acmformatchoose.htm
 tech.root: Multimedia
 ms.assetid: 9be8311a-f6ad-4007-a254-841ee99ff3b6

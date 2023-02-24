@@ -2,7 +2,7 @@
 UID: NF:shlwapi.SHRegGetValueW
 title: SHRegGetValueW function (shlwapi.h)
 description: Retrieves a registry value. (SHRegGetValueW)
-helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHRegGetValue","SHRegGetValue function [Windows Shell]","SHRegGetValueA","SHRegGetValueW","_shell_SHRegGetValue","shell.SHRegGetValue","shlwapi/SHRegGetValue","shlwapi/SHRegGetValueA","shlwapi/SHRegGetValueW"]
+helpviewer_keywords: ["HKEY_CLASSES_ROOT", "HKEY_CURRENT_CONFIG", "HKEY_CURRENT_USER", "HKEY_LOCAL_MACHINE", "HKEY_PERFORMANCE_DATA", "HKEY_USERS", "SHRegGetValue", "SHRegGetValue function [Windows Shell]", "SHRegGetValueW", "_shell_SHRegGetValue", "shell.SHRegGetValue", "shlwapi/SHRegGetValue", "shlwapi/SHRegGetValueW"]
 old-location: shell\SHRegGetValue.htm
 tech.root: shell
 ms.assetid: 5650eb4c-40fd-47d7-af76-2688d62d9bca

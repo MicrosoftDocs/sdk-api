@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# SetProcessWorkingSetSize function
+
 ## -description
 
 Sets the minimum and maximum working set sizes for the specified process.

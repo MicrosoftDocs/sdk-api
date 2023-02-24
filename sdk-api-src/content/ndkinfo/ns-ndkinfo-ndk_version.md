@@ -1,5 +1,5 @@
 ---
-UID: NS:ndkinfo.__unnamed_struct_0
+UID: NS:ndkinfo.NDK_VERSION
 title: NDK_VERSION (ndkinfo.h)
 description: The NDK_VERSION structure specifies major and minor versions in the NDK interface.
 helpviewer_keywords: ["NDK_VERSION","NDK_VERSION structure [Network Drivers Starting with Windows Vista]","ndkinfo/NDK_VERSION","netvista.ndk_version"]
@@ -85,3 +85,4 @@ To specify version 1.2 (for Windows Server 2012 R2), set the <b>Major</b> memb
 
 
 <a href="/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a>
+

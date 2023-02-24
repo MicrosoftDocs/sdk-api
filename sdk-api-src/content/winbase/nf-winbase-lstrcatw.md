@@ -2,7 +2,7 @@
 UID: NF:winbase.lstrcatW
 title: lstrcatW function (winbase.h)
 description: Appends one string to another.Warning  Do not use. (Unicode)
-helpviewer_keywords: ["_win32_lstrcat","_win32_lstrcat_cpp","lstrcat","lstrcat function [Menus and Other Resources]","lstrcatA","lstrcatW","menurc.lstrcat","winbase/lstrcat","winbase/lstrcatA","winbase/lstrcatW","winui._win32_lstrcat"]
+helpviewer_keywords: ["_win32_lstrcat", "_win32_lstrcat_cpp", "lstrcat", "lstrcat function [Menus and Other Resources]", "lstrcatW", "menurc.lstrcat", "winbase/lstrcat", "winbase/lstrcatW", "winui._win32_lstrcat"]
 old-location: menurc\lstrcat.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcat.htm

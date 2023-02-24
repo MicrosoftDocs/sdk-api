@@ -1,5 +1,5 @@
 ---
-UID: NS:iptypes.__unnamed_struct_12
+UID: NS:iptypes.FIXED_INFO_W2KSP1
 title: FIXED_INFO_W2KSP1 (iptypes.h)
 description: The FIXED_INFO structure contains information that is the same across all the interfaces on a computer.
 helpviewer_keywords: ["*PFIXED_INFO","*PFIXED_INFO_W2KSP1","BROADCAST_NODETYPE","FIXED_INFO","FIXED_INFO structure [IP Helper]","FIXED_INFO_W2KSP1","HYBRID_NODETYPE","MIXED_NODETYPE","PEER_TO_PEER_NODETYPE","PFIXED_INFO","PFIXED_INFO structure pointer [IP Helper]","_iphlp_fixed_info","iphlp.fixed_info","iptypes/FIXED_INFO","iptypes/PFIXED_INFO"]
@@ -313,3 +313,4 @@ int __cdecl main()
 
 
 <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a>
+

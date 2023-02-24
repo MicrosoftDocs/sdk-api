@@ -1,5 +1,5 @@
 ---
-UID: NE:winnt.__unnamed_enum_9
+UID: NE:winnt.ACTCTX_COMPATIBILITY_ELEMENT_TYPE
 title: ACTCTX_COMPATIBILITY_ELEMENT_TYPE (winnt.h)
 description: The ACTCTX_COMPATIBILITY_ELEMENT_TYPE enumeration describes the compatibility element in the application manifest.
 helpviewer_keywords: ["ACTCTX_COMPATIBILITY_ELEMENT_TYPE","ACTCTX_COMPATIBILITY_ELEMENT_TYPE enumeration [Side-by-side Assemblies]","ACTCX_COMPATIBILITY_ELEMENT_TYPE_OS","ACTCX_COMPATIBILITY_ELEMENT_TYPE_UNKNOWN","setup.actctx_compatibility_element_type","winnt/ACTCTX_COMPATIBILITY_ELEMENT_TYPE","winnt/ACTCX_COMPATIBILITY_ELEMENT_TYPE_OS","winnt/ACTCX_COMPATIBILITY_ELEMENT_TYPE_UNKNOWN"]

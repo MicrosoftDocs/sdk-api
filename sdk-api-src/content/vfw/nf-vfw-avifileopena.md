@@ -2,7 +2,7 @@
 UID: NF:vfw.AVIFileOpenA
 title: AVIFileOpenA function (vfw.h)
 description: The AVIFileOpen function opens an AVI file and returns the address of a file interface used to access it. (AVIFileOpenA)
-helpviewer_keywords: ["AVIFileOpen","AVIFileOpen function [Windows Multimedia]","AVIFileOpenA","AVIFileOpenW","_win32_AVIFileOpen","multimedia.avifileopen","vfw/AVIFileOpen","vfw/AVIFileOpenA","vfw/AVIFileOpenW"]
+helpviewer_keywords: ["AVIFileOpenA", "vfw/AVIFileOpenA"]
 old-location: multimedia\avifileopen.htm
 tech.root: Multimedia
 ms.assetid: a5d7b278-7c80-42a3-94a4-5c012ad9a9fd

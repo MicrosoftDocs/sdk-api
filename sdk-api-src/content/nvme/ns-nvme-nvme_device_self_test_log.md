@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_97
-tech.root: fs 
+UID: NS:nvme.NVME_DEVICE_SELF_TEST_LOG
+tech.root: fs
 title: NVME_DEVICE_SELF_TEST_LOG
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains fields that specify the information in a Device Self Test log page that describes the status, completion percentage, and results of a device self-test.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_DEVICE_SELF_TEST_LOG, *PNVME_DEVICE_SELF_TEST_LOG
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_DEVICE_SELF_TEST_LOG structure
+
 
 ## -description
 

@@ -2,7 +2,7 @@
 UID: NF:wininet.RetrieveUrlCacheEntryStreamW
 title: RetrieveUrlCacheEntryStreamW function (wininet.h)
 description: Provides the most efficient and implementation-independent way to access the cache data. (Unicode)
-helpviewer_keywords: ["RetrieveUrlCacheEntryStream","RetrieveUrlCacheEntryStream function [WinINet]","RetrieveUrlCacheEntryStreamA","RetrieveUrlCacheEntryStreamW","_inet_retrieveurlcacheentrystream_function","wininet.retrieveurlcacheentrystream","wininet/RetrieveUrlCacheEntryStream","wininet/RetrieveUrlCacheEntryStreamA","wininet/RetrieveUrlCacheEntryStreamW"]
+helpviewer_keywords: ["RetrieveUrlCacheEntryStream", "RetrieveUrlCacheEntryStream function [WinINet]", "RetrieveUrlCacheEntryStreamW", "_inet_retrieveurlcacheentrystream_function", "wininet.retrieveurlcacheentrystream", "wininet/RetrieveUrlCacheEntryStream", "wininet/RetrieveUrlCacheEntryStreamW"]
 old-location: wininet\retrieveurlcacheentrystream.htm
 tech.root: wininet
 ms.assetid: 0414efb0-d91b-46f0-9fee-0b69ef823029

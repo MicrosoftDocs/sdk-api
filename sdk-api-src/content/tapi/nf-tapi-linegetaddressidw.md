@@ -2,7 +2,7 @@
 UID: NF:tapi.lineGetAddressIDW
 title: lineGetAddressIDW function (tapi.h)
 description: The lineGetAddressIDW (Unicode) function (tapi.h) returns the address identifier associated with an address in a different format on the specified line.
-helpviewer_keywords: ["_tapi2_linegetaddressid","lineGetAddressID","lineGetAddressID function [TAPI 2.2]","lineGetAddressIDA","lineGetAddressIDW","tapi/lineGetAddressID","tapi/lineGetAddressIDA","tapi/lineGetAddressIDW","tapi2.linegetaddressid"]
+helpviewer_keywords: ["_tapi2_linegetaddressid", "lineGetAddressID", "lineGetAddressID function [TAPI 2.2]", "lineGetAddressIDW", "tapi/lineGetAddressID", "tapi/lineGetAddressIDW", "tapi2.linegetaddressid"]
 old-location: tapi2\linegetaddressid.htm
 tech.root: tapi3
 ms.assetid: f714068c-8cdc-4098-b1f6-f2cfd62a83c4

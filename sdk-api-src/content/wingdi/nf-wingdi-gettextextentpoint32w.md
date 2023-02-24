@@ -2,7 +2,7 @@
 UID: NF:wingdi.GetTextExtentPoint32W
 title: GetTextExtentPoint32W function (wingdi.h)
 description: The GetTextExtentPoint32 function computes the width and height of the specified string of text. (Unicode)
-helpviewer_keywords: ["GetTextExtentPoint32","GetTextExtentPoint32 function [Windows GDI]","GetTextExtentPoint32A","GetTextExtentPoint32W","_win32_GetTextExtentPoint32","gdi.gettextextentpoint32","wingdi/GetTextExtentPoint32","wingdi/GetTextExtentPoint32A","wingdi/GetTextExtentPoint32W"]
+helpviewer_keywords: ["GetTextExtentPoint32", "GetTextExtentPoint32 function [Windows GDI]", "GetTextExtentPoint32W", "_win32_GetTextExtentPoint32", "gdi.gettextextentpoint32", "wingdi/GetTextExtentPoint32", "wingdi/GetTextExtentPoint32W"]
 old-location: gdi\gettextextentpoint32.htm
 tech.root: gdi
 ms.assetid: 530280ee-dfd8-4905-9b72-6c19efcff133
