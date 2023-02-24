@@ -80,7 +80,7 @@ The types of messages for which to check. This parameter can be one or more of t
 | **QS\_PAINT**<br>0x0020 | A [WM\_PAINT](/windows/desktop/gdi/wm-paint) message is in the queue. |
 | **QS\_SENDMESSAGE**<br>0x0040 | A message sent by another thread or application is in the queue. For more information, see [SendMessage](/windows/win32/api/winuser/nf-winuser-sendmessagew). |
 | **QS\_HOTKEY**<br>0x0080 | A [WM\_HOTKEY](/windows/desktop/inputdev/wm-hotkey) message is in the queue. |
-| **QS\_ALLPOSTMESSAGE**<br>0x0100 | A posted message (other than those listed here) is in the queue. <br>This value is cleared when you call GetMessage or PeekMessage without filtering messages. | 
+| **QS\_ALLPOSTMESSAGE**<br>0x0100 | A posted message (other than those listed here) is in the queue. For more information, see [PostMessage](/windows/win32/api/winuser/nf-winuser-postmessagew).<br>This value is cleared when you call GetMessage or PeekMessage without filtering messages. | 
 | **QS\_RAWINPUT**<br>0x0400 | Windows XP and newer: A raw input message is in the queue. For more information, see [Raw Input](/windows/desktop/inputdev/raw-input). |
 | **QS\_TOUCH**<br>0x0800 | Windows 8 and newer: A touch input message is in the queue. For more information, see [Touch Input](/windows/win32/wintouch/windows-touch-portal). |
 | **QS\_POINTER**<br>0x1000 | Windows 8 and newer: A pointer input message is in the queue. For more information, see [Raw Input](/windows/win32/inputmsg/messages-and-notifications-portal). |
