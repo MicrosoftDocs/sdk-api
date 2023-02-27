@@ -80,9 +80,11 @@ This policy modifier grants the platform the permission to not store any data re
 
 This policy modifier grants the platform the permission to dehydrate in-sync cloud file placeholders without the help of sync providers. Without this flag, the platform is not allowed to call [CfDehydratePlaceholder](/previous-versions/mt827480(v=vs.85)) directly. Instead, the only supported way to dehydrate a cloud file placeholder is to clear the file’s pinned attribute and set the file’s unpinned attribute. At that point, the actual dehydration will be performed asynchronously by the sync engine after it receives the directory change notification on the two attributes. When this flag is specified, the platform will be allowed to invoke **CfDehydratePlaceholder** directly on any in-sync cloud file placeholder. It is recommended for sync providers to support auto-dehydration.
 
-### CF_HYDRATION_POLICY_MODIFIER_ALLOW_FULL_RESTART_HYDRATION
+### -field CF_HYDRATION_POLICY_MODIFIER_ALLOW_FULL_RESTART_HYDRATION
 
 `0x0008`
+
+This policy modifier grants the platform the permission to hydrate a placeholder file by performing a full restart hydration. This is a special hydration mode that is only supported by the platform and not by sync providers. It is only used when the platform is unable to hydrate a placeholder file by performing a partial hydration.
 
 ## -remarks
 
