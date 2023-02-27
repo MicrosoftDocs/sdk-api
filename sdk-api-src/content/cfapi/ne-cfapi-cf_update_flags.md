@@ -105,19 +105,19 @@ The platform marks the placeholder as not in-sync upon a successful update place
 
 `0x00000080`
 
+The platform removes all existing extrinsic properties on the placeholder.
+
 > [!NOTE]
 > This value is available in Windows 10, version 1803 and later.
-
-The platform removes all existing extrinsic properties on the placeholder.
 
 ### -field CF_UPDATE_FLAG_PASSTHROUGH_FS_METADATA
 
 `0x00000100`
 
+The platform passes **CF_FS_METADATA** to the file system without any filtering; otherwise, the platform skips setting any fields whose value is 0.
+
 > [!NOTE]
 > This value is available in Windows 10, version 1803 and later.
-
-The platform passes **CF_FS_METADATA** to the file system without any filtering; otherwise, the platform skips setting any fields whose value is 0.
 
 ### -field CF_UPDATE_FLAG_ALWAYS_FULL
 
