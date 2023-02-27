@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_SYNC_POLICIES","CF_SYNC_POLICIES structure","cfapi/CF_
 old-location: cloudapi\cf_sync_policies.htm
 tech.root: cloudapi
 ms.assetid: 5BCD0958-1FED-4F97-A4B4-2EB354E85BF6
-ms.date: 12/05/2018
+ms.date: 02/27/2023
 ms.keywords: CF_SYNC_POLICIES, CF_SYNC_POLICIES structure, cfapi/CF_SYNC_POLICIES, cloudApi.cf_sync_policies
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CF_SYNC_POLICIES structure
 
-
 ## -description
 
 Defines the sync policies used by  a sync root.
@@ -74,3 +73,6 @@ The in-sync policy.
 
 The hard link policy.
 
+### -field PlaceholderManagement
+
+The placeholder management policy.
