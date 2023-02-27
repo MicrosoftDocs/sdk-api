@@ -69,7 +69,7 @@ The number of elements allocated for the <i>CharacteristicsBuffer</i> parameter.
 
 ### -param CharacteristicsBuffer [out, optional]
 
-Pointer to buffer into which to return characteristics in a <a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_service">BTH_LE_GATT_SERVICE</a> structure.
+Pointer to buffer into which to return characteristics in the <a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_characteristic">PBTH_LE_GATT_CHARACTERISTIC</a> structures array.
 
 ### -param CharacteristicsBufferActual [out]
 
