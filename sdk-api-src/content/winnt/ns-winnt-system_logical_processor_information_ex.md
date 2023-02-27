@@ -6,7 +6,7 @@ helpviewer_keywords: ["*PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX","PSYSTEM_LOGIC
 old-location: base\system_logical_processor_information_ex.htm
 tech.root: backup
 ms.assetid: 6ff16cda-c1dc-4d5c-ac60-756653cd6b07
-ms.date: 12/05/2018
+ms.date: 27/02/2023
 ms.keywords: '*PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure pointer, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, RelationProcessorModule, RelationProcessorDie, SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure, _SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, base.system_logical_processor_information_ex, winnt/PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, winnt/SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX'
 req.header: winnt.h
 req.include-header: 
