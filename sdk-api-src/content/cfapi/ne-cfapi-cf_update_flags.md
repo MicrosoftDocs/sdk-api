@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_UPDATE_FLAGS","CF_UPDATE_FLAGS enumeration","CF_UPDATE
 old-location: cloudapi\cf_update_flags.htm
 tech.root: cloudapi
 ms.assetid: 83EBEF22-9EAE-4B51-AA23-325FA96EB070
-ms.date: 02/27/2023
+ms.date: 02/28/2023
 ms.keywords: CF_UPDATE_FLAGS, CF_UPDATE_FLAGS enumeration, CF_UPDATE_FLAG_CLEAR_IN_SYNC, CF_UPDATE_FLAG_DEHYDRATE, CF_UPDATE_FLAG_DISABLE_ON_DEMAND_POPULATION, CF_UPDATE_FLAG_ENABLE_ON_DEMAND_POPULATION, CF_UPDATE_FLAG_MARK_IN_SYNC, CF_UPDATE_FLAG_NONE, CF_UPDATE_FLAG_ALLOW_PARTIAL, CF_UPDATE_FLAG_ALWAYS_FULL, CF_UPDATE_FLAG_PASSTHROUGH_FS_METADATA, CF_UPDATE_FLAG_REMOVE_FILE_IDENTITY, CF_UPDATE_FLAG_REMOVE_PROPERTY, CF_UPDATE_FLAG_VERIFY_IN_SYNC, cfapi/CF_UPDATE_FLAG_ALLOW_PARTIAL, cfapi/CF_UPDATE_FLAG_ALWAYS_FULL, cfapi/ CF_UPDATE_FLAG_PASSTHROUGH_FS_METADATA, cfapi/ CF_UPDATE_FLAG_REMOVE_PROPERTY, cfapi/CF_UPDATE_FLAGS, cfapi/CF_UPDATE_FLAG_CLEAR_IN_SYNC, cfapi/CF_UPDATE_FLAG_DEHYDRATE, cfapi/CF_UPDATE_FLAG_DISABLE_ON_DEMAND_POPULATION, cfapi/CF_UPDATE_FLAG_ENABLE_ON_DEMAND_POPULATION, cfapi/CF_UPDATE_FLAG_MARK_IN_SYNC, cfapi/CF_UPDATE_FLAG_NONE, cfapi/CF_UPDATE_FLAG_REMOVE_FILE_IDENTITY, cfapi/CF_UPDATE_FLAG_VERIFY_IN_SYNC, cloudApi.cf_update_flags
 req.header: cfapi.h
 req.include-header: 
@@ -123,13 +123,13 @@ The platform passes **CF_FS_METADATA** to the file system without any filtering;
 
 `0x00000200`
 
-When specified, the platform will always perform a full update of the placeholder, even if the placeholder is already in-sync.
+`CF_UPDATE_FLAG_ALWAYS_FULL` is effective on placeholder files only. When specified, the placeholder to be updated is marked always full. Once hydrated, any attempt to dehydrate such a placeholder file will fail with error code `ERROR_CLOUD_FILE_DEHYDRATION_DISALLOWED`.
 
 ### -field CF_UPDATE_FLAG_ALLOW_PARTIAL
 
 `0x00000400`
 
-When specified, the platform will allow partial updates of the placeholder.
+`CF_UPDATE_FLAG_ALLOW_PARTIAL` is effective on placeholder files only. When specified, the always full state on a placeholder file, if present, is cleared thus allowing it to be dehydrated again. It is invalid to specify this flag along with `CF_UPDATE_FLAG_ALWAYS_FULL` and error code `ERROR_CLOUD_FILE_INVALID_REQUEST` will be returned as a result.
 
 ## -see-also
 

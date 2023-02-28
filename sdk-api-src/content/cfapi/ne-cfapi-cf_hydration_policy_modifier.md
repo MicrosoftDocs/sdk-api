@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_HYDRATION_POLICY_MODIFIER","CF_HYDRATION_POLICY_MODIFI
 old-location: cloudapi\cf_hydration_policy_modifier.htm
 tech.root: cloudapi
 ms.assetid: A98C635E-7E18-4E18-B19A-D3FD85A53CBB
-ms.date: 02/27/2023
+ms.date: 02/28/2023
 ms.keywords: CF_HYDRATION_POLICY_MODIFIER, CF_HYDRATION_POLICY_MODIFIER enumeration, CF_HYDRATION_POLICY_MODIFIER_ALLOW_FULL_RESTART_HYDRATION, CF_HYDRATION_POLICY_MODIFIER_AUTO_DEHYDRATION_ALLOWED, CF_HYDRATION_POLICY_MODIFIER_NONE, CF_HYDRATION_POLICY_MODIFIER_STREAMING_ALLOWED, CF_HYDRATION_POLICY_MODIFIER_VALIDATION_REQUIRED, cfapi/CF_HYDRATION_POLICY_MODIFIER, cfapi/CF_HYDRATION_POLICY_MODIFIER_ALLOW_FULL_RESTART_HYDRATION, cfapi/CF_HYDRATION_POLICY_MODIFIER_AUTO_DEHYDRATION_ALLOWED, cfapi/CF_HYDRATION_POLICY_MODIFIER_NONE, cfapi/CF_HYDRATION_POLICY_MODIFIER_STREAMING_ALLOWED, cfapi/CF_HYDRATION_POLICY_MODIFIER_VALIDATION_REQUIRED, cloudApi.cf_hydration_policy_modifier
 req.header: cfapi.h
 req.include-header: 
@@ -84,14 +84,21 @@ This policy modifier grants the platform the permission to dehydrate in-sync clo
 
 `0x0008`
 
-This policy modifier grants the platform the permission to hydrate a placeholder file by performing a full restart hydration. This is a special hydration mode that is only supported by the platform and not by sync providers. It is only used when the platform is unable to hydrate a placeholder file by performing a partial hydration.
+This policy modifier grants the platform permission to fully hydrate a file synchronously when it intercepts an attempt by an AV Filter to scan the file. Sync providers that wish to use **RestartHydration** to change the `fileSize` from a **FetchData** callback must opt-in for the `ALLOW_FULL_RESTART_HYDRATION` policy to avoid possible deadlocks with anti-virus and anti-malware software trying to scan the file and the provider trying to change `fileSize` using **RestartHydration**.
+
+> [!NOTE]
+> This enum update is supported only if the `PlatformVersion.IntegrationNumber` obtained from [CfGetPlatformInfo](nf-cfapi-cfgetplatforminfo.md) is `0x500` or higher.
 
 ## -remarks
 
 In general, modifiers can be mixed and matched with any primary policy ([CF_HYDRATION_POLICY_PRIMARY](/windows/win32/api/cfapi/ne-cfapi-cf_hydration_policy_primary)) and other policy modifiers so long as the combination is not self-conflicting.
+
+The `CF_HYDRATION_POLICY_MODIFIER_ALLOW_FULL_RESTART_HYDRATION` flag is added to avoid the Restart Hydration feature from encountering deadlocks caused by Anti-Virus and Malware detectors (AV). All Sync Providers that intend to update the file size of a dehydrated file during the course of a hydration request should opt-in for this feature or restart hydration may run into deadlock when an AV attempts to scan a file being opened by creating a memory mapped section of the file and that leads to hydration. Note that providers that maintain snapshots or versions of a file and satisfy a user's request by supplying the requested version of the file even though the file has been updated in the backend/server need not opt in for this policy. Similarly, providers that fail the hydration request in case the file has changed in the backend may not opt-in for this policy.
 
 ## -see-also
 
 [CF_HYDRATION_POLICY_PRIMARY](/windows/win32/api/cfapi/ne-cfapi-cf_hydration_policy_primary)
 
 [CfDehydratePlaceholder](/previous-versions/mt827480(v=vs.85))
+
+[CfGetPlatformInfo](nf-cfapi-cfgetplatforminfo.md)
