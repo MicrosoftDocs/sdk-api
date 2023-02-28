@@ -59,7 +59,7 @@ The <b>OnHeader</b> method is called by the writer when the ASF header is ready 
 
 ### -param pHeader [in]
 
-Pointer to an <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface on an object containing the ASF header.
+Pointer to an <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface on an object containing the ASF header.
 
 ## -returns
 
