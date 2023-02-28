@@ -63,11 +63,17 @@ The opaque handle to the placeholder file for which `CF_CALLBACK_TYPE_FETCH_DATA
 
 ### -param FileId [in]
 
-A unique ID of the placeholder file or directory to be serviced.
+A 64bit file system-maintained volume-wide unique ID of the placeholder file/directory to be serviced.
 
 ### -param InfoClass [in]
 
-Types of the range of placeholder data.
+Types of the range of placeholder data. The value can be one of the following:
+
+| Value | Description |
+|--------|--------|
+| CF_PLACEHOLDER_RANGE_INFO_ONDISK | On-disk data is data that is physical present in the file. This is a super set of other types of ranges. |
+| CF_PLACEHOLDER_RANGE_INFO_VALIDATED | Validated data is a subset of the on-disk data that is currently in sync with the cloud. |
+| CF_PLACEHOLDER_RANGEINFO_MODIFIED | Modified data is a subset of the on-disk data that is currently not in sync with the cloud (i.e., either modified or appended.) |
 
 ### -param StartingOffset [in]
 
@@ -108,14 +114,6 @@ Hence, this API is needed. It performs the same functionality as [CfGetPlacehold
 Note that the caller always has the `ConnectionKey` obtained via [CfConnectSyncRoot](nf-cfapi-cfconnectsyncroot.md). It can obtain `TransferKey` via [CfGetTransferKey](nf-cfapi-cfgettransferkey.md) and obtain `FileId` using [GetFileInformationByHandle](/windows/win32/api/fileapi/nf-fileapi-getfileinformationbyhandle). But this approach needs a handle to be opened to the file and hence is no different than using [CfGetPlaceholderRangeInfo](nf-cfapi-cfgetplaceholderrangeinfo.md).
 
 To summarize, when range info is needed from the context of a `CF_CALLBACK_TYPE_FETCH_DATA` callback, this API should be used. In all other cases, including when the provider wants to hydrate the file without being requested by the filter, [CfGetPlaceholderRangeInfo](nf-cfapi-cfgetplaceholderrangeinfo.md) should be used. The platform can’t recognize which API is called in a specific context and hence the onus is on the provider/Sync Engine to do the right thing.
-
-The `InfoClass` value can be one of the following:
-
-| Value | Description |
-|--------|--------|
-| CF_PLACEHOLDER_RANGE_INFO_ONDISK | On-disk data is data that is physical present in the file. This is a super set of other types of ranges. |
-| CF_PLACEHOLDER_RANGE_INFO_VALIDATED | Validated data is a subset of the on-disk data that is currently in sync with the cloud. |
-| CF_PLACEHOLDER_RANGEINFO_MODIFIED | Modified data is a subset of the on-disk data that is currently not in sync with the cloud (i.e., either modified or appended.) |
 
 ## -see-also
 
