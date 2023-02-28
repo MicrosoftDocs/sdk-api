@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-This callback is used to inform the sync provider that a placeholder file or directory under one of its sync roots is about to be deleted or undeleted.
+This enum is used by `CF_CALLBACK_TYPE_NOTIFY_DELETE` (see [CF_CALLBACK_TYPE](ne-cfapi-cf_callback_type.md)) when informing the sync provider that a placeholder file or directory under one of its sync roots is about to be deleted or undeleted.
 
 ## -enum-fields
 
@@ -70,3 +70,7 @@ The placeholder that is about to be deleted is a directory.
 `0x00000002`
 
 The placeholder is being undeleted.
+
+## -see-also
+
+[CF_CALLBACK_TYPE](ne-cfapi-cf_callback_type.md)
