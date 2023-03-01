@@ -348,7 +348,7 @@ AMINTERLACE_DisplayModeWeaveOnly
 </table>
  
 
-If the video is interlaced, the media samples may carry flags that describe the contents of the sample (such as field 1 or field 2), along with the rendering requirements. These are specified by setting the <b>dwTypeSpecificFlags</b> member of each media sample's <a href="/previous-versions/windows/desktop/api/strmif/ns-strmif-am_sample2_properties">AM_SAMPLE2_PROPERTIES</a> structure. The following table shows the valid media sample flags for each of the display modes listed in the previous table. To set these flags, call <a href="/windows/desktop/api/strmif/nf-strmif-imediasample2-setproperties">IMediaSample2::SetProperties</a> on the media sample.
+If the video is interlaced, the media samples may carry flags that describe the contents of the sample (such as field 1 or field 2), along with the rendering requirements. These are specified by setting the <b>dwTypeSpecificFlags</b> member of each media sample's <a href="/windows/win32/api/strmif/ns-strmif-am_sample2_properties">AM_SAMPLE2_PROPERTIES</a> structure. The following table shows the valid media sample flags for each of the display modes listed in the previous table. To set these flags, call <a href="/windows/desktop/api/strmif/nf-strmif-imediasample2-setproperties">IMediaSample2::SetProperties</a> on the media sample.
 
 <table>
 <tr>

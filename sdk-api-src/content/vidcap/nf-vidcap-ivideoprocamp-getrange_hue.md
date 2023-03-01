@@ -72,7 +72,7 @@ Receives the default hue setting.
 
 ### -param pCapsFlag [out]
 
-Receives one or more flags. See <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-videoprocampflags">VideoProcAmpFlags</a>.
+Receives one or more flags. See <a href="/windows/win32/api/strmif/ne-strmif-videoprocampflags">VideoProcAmpFlags</a>.
 
 ## -returns
 

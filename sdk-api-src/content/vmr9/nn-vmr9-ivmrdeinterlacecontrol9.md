@@ -70,7 +70,7 @@ To determine what de-interlacing modes are available, perform these steps:
 <li>Create the VMR-9 and put it into mixing mode.
       </li>
 <li>Query the VMR-9 for the <b>IVMRDeinterlaceControl9</b> interface</li>
-<li>Fill in a <a href="/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrvideodesc">VMRVideoDesc</a> structure that describes the format of the interlaced video.</li>
+<li>Fill in a <a href="/windows/win32/api/strmif/ns-strmif-vmrvideodesc">VMRVideoDesc</a> structure that describes the format of the interlaced video.</li>
 <li>Call <a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getnumberofdeinterlacemodes">IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes</a> to get the number of available de-interlacing modes.</li>
 <li>For each mode returned, call <a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getdeinterlacemodecaps">IVMRDeinterlaceControl::GetDeinterlaceModeCaps</a> to get information about the mode.</li>
 </ol>

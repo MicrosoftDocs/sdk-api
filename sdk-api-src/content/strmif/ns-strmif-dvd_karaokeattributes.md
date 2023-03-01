@@ -70,7 +70,7 @@ A Boolean value indicating whether the song is intended to be sung as a duet.
 
 ### -field ChannelAssignment
 
-A [DVD_KARAOKE_ASSIGNMENT](/windows/desktop/api/strmif/ne-strmif-dvd_karaoke_assignment) value indicating the speaker configuration into which all the channels will be mixed.
+A [DVD_KARAOKE_ASSIGNMENT](/windows/win32/api/strmif/ne-strmif-dvd_karaoke_assignment) value indicating the speaker configuration into which all the channels will be mixed.
 
 ### -field wChannelContents
 
