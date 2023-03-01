@@ -40,7 +40,7 @@ Provides access to the real time work queue for APOs.
 
 ## -remarks
 
-Get an instance of this interface by calling [QueryService](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)) on the object in the *pServiceProvider* field of the [APOInitSystemEffects3](nn-audioengineextensionapo-iaudiosystemeffects3.md) structure passed in the *pbyData* parameter to [IAudioProcessingObject::Initialize](./audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobject-initialize.md). Specify **SID_AudioProcessingObjectRTQueue** as the identifier in the *guidService* parameter.
+Get an instance of this interface by calling [QueryService](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)) on the object in the *pServiceProvider* field of the [APOInitSystemEffects3](nn-audioengineextensionapo-iaudiosystemeffects3.md) structure passed in the *pbyData* parameter to [IAudioProcessingObject::Initialize](../audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobject-initialize.md). Specify **SID_AudioProcessingObjectRTQueue** as the identifier in the *guidService* parameter.
 
 For information on using the real-time work queue APIs, see [rtworkq.h header](../rtworkq).
 
