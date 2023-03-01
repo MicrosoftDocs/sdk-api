@@ -44,7 +44,7 @@ dev_langs:
 ## -description
 
 > [!NOTE] 
-> This API is being deprecated as part of ongoing security and reliability efforts in Windows. We encourage new and existing software to use other APIs for color profile interactions. Please refer to the below table for some examples.
+> This API is being deprecated as part of ongoing modernization efforts in Windows. We encourage new and existing software to use other APIs for color profile interactions. Please refer to the below table for some examples.
 >
 >| Scenario | Mechanism |
 >| :------: | :------: |
