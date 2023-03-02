@@ -26,8 +26,8 @@ ms.keywords:
 req.header: evntrace.h
 req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
@@ -40,11 +40,11 @@ req.type-library:
 req.lib:
   Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on
   Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows
-  Server 2008, Windows Vista and Windows XP
+  Server 2008, Windows Vista
 req.dll:
   Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on
   Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows
-  Server 2008, Windows Vista and Windows XP
+  Server 2008, Windows Vista
 req.irql:
 targetos: Windows
 req.typenames:
@@ -176,8 +176,7 @@ are some common errors and their causes.
   - The **LogFileMode** member of _Properties_ specifies a combination of flags
     that is not valid.
   - The **Wnode.Guid** member is **SystemTraceControlGuid**, but the
-    _InstanceName_ parameter is not **KERNEL_LOGGER_NAME**. **Windows 2000:**
-    This case does not return an error.
+    _InstanceName_ parameter is not **KERNEL_LOGGER_NAME**.
 
 - **ERROR_ALREADY_EXISTS**
 
