@@ -52,7 +52,7 @@ The host software sets the following fields to valid values prior to enabling th
 - [Memory Page Size **MPS**](#field-dummystructname.mps)
 - [Command Set **CSS**](#field-Sdummystructname.css)
 
-This structure is used in the Controller Capabilities (**CC**) field of the [NVME_CONTROLLER_REGISTERS](ns-nvme-nvme_controller_registers.md) structure.
+This structure is used in the Controller Capabilities (**CC**) field of the [NVME_CONTROLLER_REGISTERS](../nvme/ns-nvme-nvme_controller_registers.md) structure.
 
 ## -struct-fields
 

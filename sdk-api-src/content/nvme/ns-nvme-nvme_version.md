@@ -46,7 +46,7 @@ dev_langs:
 
 Contains fields that specify the version number of the NVM Express specification that the controller implementation supports.
 
-This structure is used in the **VS** field of the [NVME_CONTROLLER_REGISTERS](ns-nvme-nvme_controller_registers.md) structure.
+This structure is used in the **VS** field of the [NVME_CONTROLLER_REGISTERS](../nvme/ns-nvme-nvme_controller_registers.md) structure.
 
 ## -struct-fields
 

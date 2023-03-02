@@ -46,7 +46,7 @@ dev_langs:
 
 Contains values that indicate controller status.
 
-This structure is used in the **CSTS** field of the [NVME_CONTROLLER_REGISTERS](ns-nvme-nvme_controller_registers.md) structure.
+This structure is used in the **CSTS** field of the [NVME_CONTROLLER_REGISTERS](../nvme/ns-nvme-nvme_controller_registers.md) structure.
 
 ## -struct-fields
 
@@ -103,5 +103,5 @@ This field is only valid when the **EN** field of the [Controller configuration]
 
 ## -see-also
 
-- [NVME_CONTROLLER_REGISTERS](ns-nvme-nvme_controller_registers.md)
+- [NVME_CONTROLLER_REGISTERS](../nvme/ns-nvme-nvme_controller_registers.md)
 

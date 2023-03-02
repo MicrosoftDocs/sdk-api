@@ -5,7 +5,7 @@ title: NVME_CONTROLLER_MEMORY_BUFFER_SIZE
 ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
-description: Defines the size of the optional Controller Memory Buffer register, and is used in the **CMBSZ** field of the [NVME_CONTROLLER_REGISTERS](ns-nvme-nvme_controller_registers.md) structure.
+description: Defines the size of the optional Controller Memory Buffer register, and is used in the **CMBSZ** field of the [NVME_CONTROLLER_REGISTERS](../nvme/ns-nvme-nvme_controller_registers.md) structure.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-Defines the size of the optional Controller Memory Buffer register, and is used in the **CMBSZ** field of the [NVME_CONTROLLER_REGISTERS](ns-nvme-nvme_controller_registers.md) structure.
+Defines the size of the optional Controller Memory Buffer register, and is used in the **CMBSZ** field of the [NVME_CONTROLLER_REGISTERS](../nvme/ns-nvme-nvme_controller_registers.md) structure.
 
 If the controller does not support the Controller Memory Buffer feature, the **CMBSZ** field is cleared to `0h`.
 

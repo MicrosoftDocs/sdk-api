@@ -46,7 +46,7 @@ dev_langs:
 
 Contains parameters that specify the LBA format to apply to the NVM media as part of the Format NVM command.
 
-This structure is used in the **LBAF** field of the [NVME_IDENTIFY_NAMESPACE_DATA](ns-nvme-nvme_identify_namespace_data.md) structure.
+This structure is used in the **LBAF** field of the [NVME_IDENTIFY_NAMESPACE_DATA](../nvme/ns-nvme-nvme_identify_namespace_data.md) structure.
 
 ## -struct-fields
 
@@ -85,5 +85,5 @@ The meanings of the values are listed in the following table.
 
 ## -see-also
 
-- [NVME_IDENTIFY_NAMESPACE_DATA](ns-nvme-nvme_identify_namespace_data.md)
+- [NVME_IDENTIFY_NAMESPACE_DATA](../nvme/ns-nvme-nvme_identify_namespace_data.md)
 

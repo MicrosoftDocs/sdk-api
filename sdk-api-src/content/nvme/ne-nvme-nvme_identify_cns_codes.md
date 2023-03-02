@@ -45,7 +45,7 @@ Contains values that indicate the type of controller or namespace information th
 
 Information for a specific namespace will be returned.
 
-The Identify Namespace [NVME_IDENTIFY_NAMESPACE_DATA](ns-nvme-nvme_identify_namespace_data.md) structure is returned to the host for the namespace specified in the Namespace Identifier (**NSID**) member of the [NVME_COMMAND](ns-nvme-nvme_command.md) structure, if the namespace is attached to this controller.
+The Identify Namespace [NVME_IDENTIFY_NAMESPACE_DATA](../nvme/ns-nvme-nvme_identify_namespace_data.md) structure is returned to the host for the namespace specified in the Namespace Identifier (**NSID**) member of the [NVME_COMMAND](ns-nvme-nvme_command.md) structure, if the namespace is attached to this controller.
 
 If the specified namespace is an inactive namespace ID, then the controller returns a zero filled data structure.
 
@@ -75,7 +75,7 @@ An [NVM_SET_LIST](ns-nvme-nvm_set_list.md) will be returned.
 
 [NVME_COMMAND](ns-nvme-nvme_command.md)
 [NVME_CDW10_IDENTIFY](ns-nvme-nvme_command_dword0.md)
-[NVME_IDENTIFY_NAMESPACE_DATA](ns-nvme-nvme_identify_namespace_data.md)
+[NVME_IDENTIFY_NAMESPACE_DATA](../nvme/ns-nvme-nvme_identify_namespace_data.md)
 [NVME_IDENTIFY_CONTROLLER_DATA](ns-nvme-nvme_identify_controller_data.md)
 [NVM_SET_LIST](ns-nvme-nvm_set_list.md)
 

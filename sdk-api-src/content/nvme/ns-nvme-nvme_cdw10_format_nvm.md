@@ -56,7 +56,7 @@ The Format NVM command uses the Command Dword 10 **CDW10** field in the **FORMAT
 
 ### -field DUMMYSTRUCTNAME.LBAF
 
-An [NVME_LBA_FORMAT](ns-nvme-nvme_lba_format.md) value that specifies the LBA format to apply to the NVM media. Only supported LBA formats can be selected. This value corresponds to the **LBAF** field in the [NVME_IDENTIFY_NAMESPACE_DATA](ns-nvme-nvme_identify_namespace_data.md) structure for the Identify command.
+An [NVME_LBA_FORMAT](ns-nvme-nvme_lba_format.md) value that specifies the LBA format to apply to the NVM media. Only supported LBA formats can be selected. This value corresponds to the **LBAF** field in the [NVME_IDENTIFY_NAMESPACE_DATA](../nvme/ns-nvme-nvme_identify_namespace_data.md) structure for the Identify command.
 
 ### -field DUMMYSTRUCTNAME.MS
 
@@ -72,7 +72,7 @@ An [NVME_PROTECTION_INFORMATION_TYPES](ne-nvme-nvme_protection_information_types
 
 Specifies the protection information location.
 
-If this value is set to `1` and protection information is enabled, then protection information is transferred as the first eight bytes of metadata. If cleared to `0` and protection information is enabled, then protection information is transferred as the last eight bytes of metadata. This setting is reported in the Formatted LBA Size **LBAF** field of the [Identify Namespace data structure](ns-nvme-nvme_identify_namespace_data.md).
+If this value is set to `1` and protection information is enabled, then protection information is transferred as the first eight bytes of metadata. If cleared to `0` and protection information is enabled, then protection information is transferred as the last eight bytes of metadata. This setting is reported in the Formatted LBA Size **LBAF** field of the [Identify Namespace data structure](../nvme/ns-nvme-nvme_identify_namespace_data.md).
 
 ### -field DUMMYSTRUCTNAME.SES
 
@@ -86,6 +86,6 @@ An [NVME_SECURE_ERASE_SETTINGS](ne-nvme-nvme_secure_erase_settings.md) enumerati
 
 ## -see-also
 
-- [NVME_IDENTIFY_NAMESPACE_DATA](ns-nvme-nvme_identify_namespace_data.md)
+- [NVME_IDENTIFY_NAMESPACE_DATA](../nvme/ns-nvme-nvme_identify_namespace_data.md)
 - [NVME_LBA_FORMAT](ns-nvme-nvme_lba_format.md)
 
