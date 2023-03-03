@@ -65,7 +65,7 @@ A pointer to a UMS thread context.
 
 ### -param UmsThreadInfoClass [in]
 
-A <a href="/windows/desktop/api/winnt/ne-winnt-_rtl_ums_thread_info_class">UMS_THREAD_INFO_CLASS</a> value that specifies the kind of information to set. This parameter must be <b>UmsThreadUserContext</b>.
+A <a href="/windows/win32/api/winbase/nf-winbase-queryumsthreadinformation">UMS_THREAD_INFO_CLASS</a> value that specifies the kind of information to set. This parameter must be <b>UmsThreadUserContext</b>.
 
 ### -param UmsThreadInformation [in]
 
