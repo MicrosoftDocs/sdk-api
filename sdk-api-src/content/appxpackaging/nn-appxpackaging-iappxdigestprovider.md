@@ -42,11 +42,13 @@ Provides APIs for retrieving the digest string representation of an app packagin
 
 ## -remarks
 
-The **IAppxDigestProvider** interface can be obtained by calling QueryInterface on the objects returned by the following interfaces: 
+The **IAppxDigestProvider** interface can be obtained by calling QueryInterface on the objects returned by the following factory interfaces, as well as the corresponding methods in different versions of the factory interfaces, such as [IAppxFactory::CreatePackageReader](nf-appxpackaging-iappxfactory-createpackagereader.md): 
 
 - [IAppxEncryptionFactory5](nn-appxpackaging-iappxencryptionfactory4.md)
 - [IAppxBundleFactory2](nn-appxpackaging-iappxbundlefactory2.md)
 - [IAppxFactory3](nn-appxpackaging-iappxfactory3.md)
+
+
 
 ## -see-also
 
