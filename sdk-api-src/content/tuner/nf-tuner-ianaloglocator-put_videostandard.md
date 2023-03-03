@@ -56,7 +56,7 @@ The <b>put_VideoStandard</b> method specifies the format of the analog televisio
 
 ### -param AVS [in]
 
-Specifies the format of the analog television signal. This parameter is of type <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-analogvideostandard">AnalogVideoStandard</a>.
+Specifies the format of the analog television signal. This parameter is of type <a href="/windows/win32/api/strmif/ne-strmif-analogvideostandard">AnalogVideoStandard</a>.
 
 ## -returns
 
