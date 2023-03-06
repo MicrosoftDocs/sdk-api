@@ -106,7 +106,7 @@ The <i>FeatureID</i> parameter of the function corresponds to a bit within the f
 
 If you are setting XState on a thread via the 
     <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext">SetThreadContext</a> or 
-    <a href="/windows/desktop/api/winbase/nf-winbase-wow64setthreadcontext">Wow64SetThreadContext</a> 
+    <a href="/windows/win32/api/wow64apiset/">Wow64SetThreadContext</a> 
     APIs, you must also call 
     <a href="/windows/desktop/api/winbase/nf-winbase-setxstatefeaturesmask">SetXStateFeaturesMask</a> on the 
     <a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure with the mask value of the filled-in 
@@ -145,4 +145,4 @@ If you are setting XState on a thread via the
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-wow64setthreadcontext">Wow64SetThreadContext</a>
+<a href="/windows/win32/api/wow64apiset/">Wow64SetThreadContext</a>

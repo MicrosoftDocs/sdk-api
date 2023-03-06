@@ -48,7 +48,7 @@ An [APOInitBaseStruct](../audioenginebaseapo/ns-audioenginebaseapo-apoinitbasest
 
 ### -field pAPOEndpointProperties
 
-A pointer to an [../propsys/nn-propsys-ipropertystore](IPropertyStore) object.
+A pointer to an [../propsys/nn-propsys-ipropertystore.md](IPropertyStore) object.
 
 ### -field pServiceProvider
 

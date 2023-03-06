@@ -43,11 +43,11 @@ Contains values that indicate a Notice event type.
 
 ### -field NVME_ASYNC_NOTICE_NAMESPACE_ATTRIBUTE_CHANGED
 
-The [Identify Namespace data structure](ns-nvme-nvme_identify_namespace_data.md) for one or more namespaces has changed.
+The [Identify Namespace data structure](../nvme/ns-nvme-nvme_identify_namespace_data.md) for one or more namespaces has changed.
 
-Host software may use this event as an indication that it should read the [Identify Namespace](ns-nvme-nvme_identify_namespace_data.md) data structures for each namespace to determine what has changed.
+Host software may use this event as an indication that it should read the [Identify Namespace](../nvme/ns-nvme-nvme_identify_namespace_data.md) data structures for each namespace to determine what has changed.
 
-A controller should not send this event when [Namespace Utilization (NUSE)](ns-nvme-nvme_identify_namespace_data.md) has changed, as this is a frequent event that does not require action by the host. A controller should only send this event for changes to the [Format Progress Indicator (FPI)](ns-nvme-nvme_identify_namespace_data.md) field when bits `6:0` of that field transition from a non-zero value to zero or from a zero value to a non-zero value.
+A controller should not send this event when [Namespace Utilization (NUSE)](../nvme/ns-nvme-nvme_identify_namespace_data.md) has changed, as this is a frequent event that does not require action by the host. A controller should only send this event for changes to the [Format Progress Indicator (FPI)](../nvme/ns-nvme-nvme_identify_namespace_data.md) field when bits `6:0` of that field transition from a non-zero value to zero or from a zero value to a non-zero value.
 
 ### -field NVME_ASYNC_NOTICE_FIRMWARE_ACTIVATION_STARTING
 
@@ -66,7 +66,7 @@ Use this enumeration to specify values in the **NVME_ASYNC_EVENT_TYPE_NOTICE** f
 ## -see-also
 
 [NVME_ASYNC_EVENT_TYPES](ne-nvme-nvme_async_event_types.md)
-[NVME_IDENTIFY_NAMESPACE_DATA](ns-nvme-nvme_identify_namespace_data.md)
+[NVME_IDENTIFY_NAMESPACE_DATA](../nvme/ns-nvme-nvme_identify_namespace_data.md)
 [NVME_FIRMWARE_SLOT_INFO_LOG](ns-nvme-nvme_firmware_slot_info_log.md)
 [NVME_ADMIN_COMMANDS](ne-nvme-nvme_admin_commands.md)
 

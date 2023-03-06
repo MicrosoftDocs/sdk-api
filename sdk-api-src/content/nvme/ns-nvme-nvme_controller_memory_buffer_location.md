@@ -5,7 +5,7 @@ title: NVME_CONTROLLER_MEMORY_BUFFER_LOCATION
 ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
-description: Defines the location of the optional Controller Memory Buffer Location register in the **CMBLOC** field of the [NVME_CONTROLLER_REGISTERS](ns-nvme-nvme_controller_registers.md) structure.
+description: Defines the location of the optional Controller Memory Buffer Location register in the **CMBLOC** field of the [NVME_CONTROLLER_REGISTERS](../nvme/ns-nvme-nvme_controller_registers.md) structure.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-Defines the location of the optional Controller Memory Buffer Location register in the **CMBLOC** field of the [NVME_CONTROLLER_REGISTERS](ns-nvme-nvme_controller_registers.md) structure.
+Defines the location of the optional Controller Memory Buffer Location register in the **CMBLOC** field of the [NVME_CONTROLLER_REGISTERS](../nvme/ns-nvme-nvme_controller_registers.md) structure.
 
 If the Controller Memory Buffer Size **CMBSZ** field of **NVME_CONTROLLER_REGISTERS** has a value of `0`, this register is reserved.
 
@@ -70,6 +70,6 @@ Indicates the offset of the Controller Memory Buffer in multiples of the Size Un
 
 ## -see-also
 
-- [NVME_CONTROLLER_REGISTERS](ns-nvme-nvme_controller_registers.md)
+- [NVME_CONTROLLER_REGISTERS](../nvme/ns-nvme-nvme_controller_registers.md)
 - [NVME_CONTROLLER_MEMORY_BUFFER_SIZE](ns-nvme-nvme_controller_memory_buffer_size.md)
 

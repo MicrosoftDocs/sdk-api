@@ -2,10 +2,10 @@
 UID: NE:nvme.NVME_CSTS_SHST_SHUTDOWN_STATUS
 tech.root: fs
 title: NVME_CSTS_SHST_SHUTDOWN_STATUS
-ms.date: 02/19/2021
+ms.date: 01/03/2023
 ms.topic: language-reference
 targetos: Windows
-description: Contains values that indicate the status of shutdown processing that is initiated by the host setting the **SHN** field in the [NVME_CONTROLLER_CONFIGURATION](ns-nvme-nvme_controller_configuration.md) structure.
+description: Contains values that indicate the status of shutdown processing that is initiated by the host setting the **SHN** field in the [NVME_CONTROLLER_CONFIGURATION](../nvme/ns-nvme-nvme_controller_configuration.md) structure.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: nvme.h
@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-Contains values that indicate the status of shutdown processing that is initiated by the host setting the **SHN** field in the [NVME_CONTROLLER_CONFIGURATION](ns-nvme-nvme_controller_configuration.md) structure.
+Contains values that indicate the status of shutdown processing that is initiated by the host setting the **SHN** field in the [NVME_CONTROLLER_CONFIGURATION](../nvme/ns-nvme-nvme_controller_configuration.md) structure.
 
 ## -enum-fields
 
@@ -55,10 +55,10 @@ Shutdown processing is complete.
 
 ## -remarks
 
-To start executing commands on the controller after a shutdown operation, (when the **SHST** field of the [NVME_CONTROLLER_STATUS](ns-nvme-nvme_controller_status.md) structure is set to `10b`, a Controller Reset (setting the **EN** field in [NVME_CONTROLLER_CONFIGURATION](ns-nvme-nvme_controller_configuration.md) to `0`) is required. If the host software submits commands to the controller without issuing a reset, the behavior is undefined.
+To start executing commands on the controller after a shutdown operation, (when the **SHST** field of the [NVME_CONTROLLER_STATUS](../nvme/ns-nvme-nvme_controller_status.md) structure is set to `10b`, a Controller Reset (setting the **EN** field in [NVME_CONTROLLER_CONFIGURATION](../nvme/ns-nvme-nvme_controller_configuration.md) to `0`) is required. If the host software submits commands to the controller without issuing a reset, the behavior is undefined.
 
 ## -see-also
 
-[NVME_CONTROLLER_STATUS](ns-nvme-nvme_controller_status.md)
-[NVME_CONTROLLER_CONFIGURATION](ns-nvme-nvme_controller_configuration.md)
+[NVME_CONTROLLER_STATUS](../nvme/ns-nvme-nvme_controller_status.md)
+[NVME_CONTROLLER_CONFIGURATION](../nvme/ns-nvme-nvme_controller_configuration.md)
 

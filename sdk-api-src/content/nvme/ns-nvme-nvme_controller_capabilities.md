@@ -46,7 +46,7 @@ dev_langs:
 
 Contains read only values that specify the basic capabilities of the controller to host software.
 
-This structure is used in the Controller Capabilities (**CAP**) field of the [NVME_CONTROLLER_REGISTERS](ns-nvme-nvme_controller_registers.md) structure.
+This structure is used in the Controller Capabilities (**CAP**) field of the [NVME_CONTROLLER_REGISTERS](../nvme/ns-nvme-nvme_controller_registers.md) structure.
 
 ## -struct-fields
 
@@ -162,5 +162,5 @@ The host will not configure a memory page size in the **MPS** field of [NVME_CON
 ## -see-also
 
 - [NVME_CONTROLLER_CONFIGURATION](ns-nvme-nvme_controller_configuration.md)
-- [NVME_CONTROLLER_REGISTERS](ns-nvme-nvme_controller_registers.md)
+- [NVME_CONTROLLER_REGISTERS](../nvme/ns-nvme-nvme_controller_registers.md)
 

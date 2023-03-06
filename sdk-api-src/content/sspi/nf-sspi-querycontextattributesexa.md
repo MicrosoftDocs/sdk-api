@@ -344,7 +344,8 @@ Returns information about the security package to be used with the negotiation p
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_packageinfoa">SecPkgContext_PackageInfo</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/win32/api/sspi/ns-sspi-secpkgcontext_packageinfoa">SecPkgContext_PackageInfo</a> structure.
+
 
 Returns information on the SSP in use.
 

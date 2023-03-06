@@ -61,7 +61,7 @@ The information contained in the Firmware Slot Information log page is defined i
 
 ### -field NVME_LOG_PAGE_CHANGED_NAMESPACE_LIST
 
-The Changed Namespace List log page that describes namespaces in the controller that have changed [Identify Namespace](ns-nvme-nvme_identify_namespace_data.md) information since the last time the log page was read.
+The Changed Namespace List log page that describes namespaces in the controller that have changed [Identify Namespace](../nvme/ns-nvme-nvme_identify_namespace_data.md) information since the last time the log page was read.
 
 The information contained in the Changed Namespace List log page is defined in the [CHANGED_NAMESPACE_LIST_LOG](ns-nvme-nvme_changed_namespace_list_log.md) structure.
 

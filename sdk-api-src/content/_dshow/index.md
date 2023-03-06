@@ -53,4 +53,4 @@ To develop DirectShow, you need these headers:
  * [wmp.h](../wmp/index.md)
 
 For programming guidance for this technology, see:
-* [DirectShow](/previous-versions/windows/win32/directshow)
+* [DirectShow](/windows/win32/directshow/directshow)

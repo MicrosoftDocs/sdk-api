@@ -60,7 +60,7 @@ When this value is set to `1`, the host specifies that **AWUN** and **NAWUN** ar
 
 When this value is cleared to `0`, **AWUN**, **NAWUN**, **AWUPF**, and **NAWUPF** will be honored by the controller.
 
-The **AWUN** and **AWUPF** fields are in the [NVME_IDENTIFY_CONTROLLER_DATA](ns-nvme-nvme_identify_controller_data.md) structure, and the **NAWUN** and **NAWUPF** fields are in the [NVME_IDENTIFY_NAMESPACE_DATA](ns-nvme-nvme_identify_namespace_data.md) structure.
+The **AWUN** and **AWUPF** fields are in the [NVME_IDENTIFY_CONTROLLER_DATA](ns-nvme-nvme_identify_controller_data.md) structure, and the **NAWUN** and **NAWUPF** fields are in the [NVME_IDENTIFY_NAMESPACE_DATA](../nvme/ns-nvme-nvme_identify_namespace_data.md) structure.
 
 ### -field DUMMYSTRUCTNAME.Reserved0
 
@@ -71,5 +71,5 @@ The **AWUN** and **AWUPF** fields are in the [NVME_IDENTIFY_CONTROLLER_DATA](ns-
 ## -see-also
 
 - [NVME_IDENTIFY_CONTROLLER_DATA](ns-nvme-nvme_identify_controller_data.md)
-- [NVME_IDENTIFY_NAMESPACE_DATA](ns-nvme-nvme_identify_namespace_data.md)
+- [NVME_IDENTIFY_NAMESPACE_DATA](../nvme/ns-nvme-nvme_identify_namespace_data.md)
 

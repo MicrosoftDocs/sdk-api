@@ -30,5 +30,4 @@ To develop IP Helper, you need these headers:
  * [ws2ipdef.h](../ws2ipdef/index.md)
 
 For programming guidance for this technology, see:
-* [IP Helper](/windows/desktop/iphlp)
-
+* [IP Helper](/windows/win32/IpHlp/ip-helper-start-page)

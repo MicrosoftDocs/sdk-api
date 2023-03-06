@@ -69,4 +69,4 @@ The <b>IAMWMBufferPassCallback</b> interface inherits from the <a href="/windows
 
 
 
-<a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3">INSSBuffer3 Interface</a>
+<a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3">INSSBuffer3 Interface</a>

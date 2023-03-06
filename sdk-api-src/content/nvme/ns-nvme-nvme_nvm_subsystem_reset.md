@@ -48,7 +48,7 @@ dev_langs:
 
 Specifies a parameter that provides host software with the capability to initiate an NVM Subsystem Reset.
 
-This structure is used in the **NSSR** field of the [NVME_CONTROLLER_REGISTERS](ns-nvme-nvme_controller_registers.md) structure.
+This structure is used in the **NSSR** field of the [NVME_CONTROLLER_REGISTERS](../nvme/ns-nvme-nvme_controller_registers.md) structure.
 
 ## -struct-fields
 
