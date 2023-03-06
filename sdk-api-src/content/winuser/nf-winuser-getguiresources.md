@@ -65,7 +65,7 @@ If this parameter is the special value **GR_GLOBAL**, then the resource usage is
 
 **Windows Server 2008, Windows Vista, Windows Server 2003, and Windows XP:** The **GR_GLOBAL** value is not supported until Windows 7 and Windows Server 2008 R2.
 
-**Windows Server 2003 Windows XP:** The handle must have the **PROCESS_QUERY_INFORMATION** access right.
+**Windows Server 2003 and Windows XP:** The handle must have the **PROCESS_QUERY_INFORMATION** access right.
 
 ### -param uiFlags [in]
 
