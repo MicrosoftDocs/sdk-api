@@ -86,7 +86,7 @@ Specifies color space types.
 
 This is the standard definition for sRGB. 
 
-	  Note that this is often implemented with a linear segment, but in that case the exponent is corrected to stay aligned with a gamma 2.2 curve. 
+	  Note that this is meant to be implemented with sRGB gamma (linear segment + 2.4 power), which is roughly aligned with a gamma 2.2 curve. 
 
 	  This is usually used with 8 or 10 bit color channels.
 
@@ -919,7 +919,7 @@ Indicates which integer range corresponds to the floating point [0..1] range of 
 <tr>
 <td>2.2</td>
 <td>_G22_</td>
-<td>Commonly used for sRGB and BT.709 (linear segment + 2.222).</td>
+<td>Commonly used for sRGB and BT.709 (linear segment + 2.4).</td>
 </tr>
 <tr>
 <td>2084</td>
