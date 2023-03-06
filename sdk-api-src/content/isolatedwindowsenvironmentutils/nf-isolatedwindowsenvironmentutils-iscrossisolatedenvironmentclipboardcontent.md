@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-**IsCrossIsolatedEnvironmentClipboardContent** can be called after an app detects a paste failure to determine if the content being pasted came from the other side of a [Windows Defender Application Guard (WDAG)](/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview) boundary.
+**IsCrossIsolatedEnvironmentClipboardContent** can be called after an app detects a paste failure to determine if the content being pasted came from the other side of a [Windows Defender Application Guard (WDAG)](/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview) boundary. In this scenario, applications can display a custom error message to help users understand that the clipboard operation was intentionally blocked by WDAG.
 
 ## -parameters
 
@@ -60,14 +60,14 @@ If the function succeeds, the return value is `S_OK`. If it fails, it returns an
 
 ## -remarks
 
-This API can be called from both the host and isolated windows environment app instance and can detect both relevant scenarios:
+This API can be called from both the host and Isolated Windows Environment app instance and can detect both relevant scenarios:
 
 - Scenario 1 -  Called from a host document (ex: pasting content to the host)
-  - Returns true if the clipboard content came from any isolated windows environment.
-- Scenario 2 -  Called from an isolated windows environment document (ex: pasting content to isolated environment)
-  - Returns true if the clipboard content came from the host, or from a different isolated windows environment.
+  - Returns true if the clipboard content came from any Isolated Windows Environment.
+- Scenario 2 -  Called from an Isolated Windows Environment document (ex: pasting content to Isolated Environment)
+  - Returns true if the clipboard content came from the host, or from a different Isolated Windows Environment.
 
-This API also allows apps to continue to show their default paste error handler where appropriate. For example, copy/pasting content within the same isolated environment is not subject to WDAG clipboard policy. Any failure would be due to an unrelated paste error, such as corrupted data. In this case, **IsCrossIsolatedEnvironmentClipboardContent** would return false, so the app knows to follow their default paste error handler flow.
+This API also allows apps to continue to show their default paste error handler where appropriate. For example, copy/pasting content within the same Isolated Environment is not subject to WDAG clipboard policy. Any failure would be due to an unrelated paste error, such as corrupted data. In this case, **IsCrossIsolatedEnvironmentClipboardContent** would return false, so the app knows to follow their default paste error handler flow.
 
 #### Examples
 
@@ -104,7 +104,7 @@ LRESULT CALLBACK SampleAppWndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM
       // environment boundary. Otherwise, show the app’s default paste error message.
       if (SUCCEEDED(hr) && isCrossEnvContent)
       {
-        // This runs on both the host and isolated environment app instance, so customize error
+        // This runs on both the host and Isolated Environment app instance, so customize error
         // message per scenario.
         BOOL isIsolatedWindowsEnvironment = FALSE;
         IsProcessInIsolatedWindowsEnvironment(&isIsolatedWindowsEnvironment);

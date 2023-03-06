@@ -52,7 +52,7 @@ Determines in which execution environment the application is running – a host 
 
 `[out]`
 
-A pointer to a boolean value that receives the result of the API. This parameter will be `true` if the process is in an isolated Windows environment, `false` otherwise.
+A pointer to a boolean value that receives the result of the API. This parameter will be `true` if the process is in an Isolated Windows Environment, `false` otherwise.
 
 ## -returns
 
@@ -83,7 +83,7 @@ HRESULT TakeActionAsPerExecutionEnvironment()
   //For instance the action could be saving changes to user settings for the app.
   //Lets assume the app has made a design decision to save change to user settings if
   //the app is running on the host, and discard the changes to user settings if they were
-  //changed in an isolated environment.
+  //changed in an Isolated Environment.
 
   HMODULE dllInstance (LoadLibrary(L"IsolatedWindowsEnvironmentUtils.dll"));
 
@@ -114,7 +114,7 @@ HRESULT TakeActionAsPerExecutionEnvironment()
     return PrintError(__LINE__, hr);
   }
 
-  if (isInIsolatedWindowsEnvironment == TRUE) //app is running in isolated environment
+  if (isInIsolatedWindowsEnvironment == TRUE) //app is running in Isolated Environment
   {
     //do not save changes to the app’s user settings in this case
     PrintInfo(L"Discarding changes to app’s user settings.\n");
