@@ -2,14 +2,14 @@
 UID: NA:isolatedwindowsenvironmentutils
 tech.root: security
 title: isolatedwindowsenvironmentutils
-ms.date: 03/06/2023
+ms.date: 03/09/2023
 targetos: Windows
 description: These APIs are used to query attributes of a host and Isolated Environment.
 prerelease: false
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 
-req.dll: 
+req.dll: isolatedwindowsenvironmentutils.dll
 req.header: isolatedwindowsenvironmentutils.h
 req.idl: 
 req.include-header: 
@@ -29,9 +29,9 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - HeaderDef
+ - DllExport
 api_location:
- - isolatedwindowsenvironmentutils.h
+ - isolatedwindowsenvironmentutils.dll
 api_name:
  - isolatedwindowsenvironmentutils
 f1_keywords:
