@@ -2,14 +2,14 @@
 UID: NF:isolatedwindowsenvironmentutils.IsCrossIsolatedEnvironmentClipboardContent
 tech.root: security
 title: IsCrossIsolatedEnvironmentClipboardContent
-ms.date: 03/06/2023
+ms.date: 03/09/2023
 targetos: Windows
 description: IsCrossIsolatedEnvironmentClipboardContent is called after an app detects a paste failure to determine if the content being pasted came from the other side of a Windows Defender Application Guard (WDAG) boundary.
 prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: 
+req.dll: isolatedwindowsenvironmentutils.dll
 req.header: isolatedwindowsenvironmentutils.h
 req.idl: 
 req.include-header: 
@@ -28,9 +28,9 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
- - isolatedwindowsenvironmentutils.h
+ - isolatedwindowsenvironmentutils.dll
 api_name:
  - IsCrossIsolatedEnvironmentClipboardContent
 f1_keywords:

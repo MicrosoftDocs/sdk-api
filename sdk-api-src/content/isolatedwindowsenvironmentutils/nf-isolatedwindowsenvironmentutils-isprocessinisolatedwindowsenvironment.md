@@ -2,14 +2,14 @@
 UID: NF:isolatedwindowsenvironmentutils.IsProcessInIsolatedWindowsEnvironment
 tech.root: security
 title: IsProcessInIsolatedWindowsEnvironment
-ms.date: 03/06/2023
+ms.date: 03/09/2023
 targetos: Windows
 description: Determines in which execution environment the application is running.
 prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: 
+req.dll: isolatedwindowsenvironmentutils.dll
 req.header: isolatedwindowsenvironmentutils.h
 req.idl: 
 req.include-header: 
@@ -28,9 +28,9 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
- - isolatedwindowsenvironmentutils.h
+ - isolatedwindowsenvironmentutils.dll
 api_name:
  - IsProcessInIsolatedWindowsEnvironment
 f1_keywords:
