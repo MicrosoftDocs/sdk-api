@@ -200,51 +200,51 @@ A strikeout font if set to <b>TRUE</b>.
 
 ### -field lfCharSet
 
-The character set. The following values are predefined.
+The character set. The following values are predefined:
 
+<ul>
+<li>ANSI_CHARSET</li>
+<li>BALTIC_CHARSET</li>
+<li>CHINESEBIG5_CHARSET</li>
+<li>DEFAULT_CHARSET</li>
+<li>EASTEUROPE_CHARSET</li>
+<li>GB2312_CHARSET</li>
+<li>GREEK_CHARSET</li>
+<li>HANGUL_CHARSET</li>
+<li>MAC_CHARSET</li>
+<li>OEM_CHARSET</li>
+<li>RUSSIAN_CHARSET</li>
+<li>SHIFTJIS_CHARSET</li>
+<li>SYMBOL_CHARSET</li>
+<li>TURKISH_CHARSET</li>
+<li>VIETNAMESE_CHARSET</li>
+</ul>
+Korean language edition of Windows:
+            
 
-<dl>
-<dd>ANSI_CHARSET</dd>
-<dd>BALTIC_CHARSET</dd>
-<dd>CHINESEBIG5_CHARSET</dd>
-<dd>DEFAULT_CHARSET</dd>
-<dd>EASTEUROPE_CHARSET</dd>
-<dd>GB2312_CHARSET</dd>
-<dd>GREEK_CHARSET</dd>
-<dd>HANGUL_CHARSET</dd>
-<dd>MAC_CHARSET</dd>
-<dd>OEM_CHARSET</dd>
-<dd>RUSSIAN_CHARSET</dd>
-<dd>SHIFTJIS_CHARSET</dd>
-<dd>SYMBOL_CHARSET</dd>
-<dd>TURKISH_CHARSET</dd>
-<dd>VIETNAMESE_CHARSET</dd>
-</dl>
-<b>Korean language edition of Windows:</b>
+<ul>
+<li>JOHAB_CHARSET</li>
+</ul>
+Middle East language edition of Windows:
+            
 
-<dl>
-<dd>JOHAB_CHARSET</dd>
-</dl>
-<b>Middle East language edition of Windows:</b>
+<ul>
+<li>ARABIC_CHARSET</li>
+<li>HEBREW_CHARSET</li>
+</ul>
+Thai language edition of Windows:
+            
 
-<dl>
-<dd>ARABIC_CHARSET</dd>
-<dd>HEBREW_CHARSET</dd>
-</dl>
-<b>Thai language edition of Windows:</b>
-
-<dl>
-<dd>THAI_CHARSET</dd>
-</dl>
-
-
+<ul>
+<li>THAI_CHARSET</li>
+</ul>
 The OEM_CHARSET value specifies a character set that is operating-system dependent.
 
- DEFAULT_CHARSET is set to a value based on the current system locale. For example, when the system locale is English (United States), it is set as ANSI_CHARSET.
+DEFAULT_CHARSET is set to a value based on the current system locale. For example, when the system locale is English (United States), it is set as ANSI_CHARSET.
 
 Fonts with other character sets may exist in the operating system. If an application uses a font with an unknown character set, it should not attempt to translate or interpret strings that are rendered with that font.
 
-This parameter is important in the font mapping process. To ensure consistent results, specify a specific character set. If you specify a typeface name in the <b>lfFaceName</b> member, make sure that the <b>lfCharSet</b> value matches the character set of the typeface specified in <b>lfFaceName</b>.
+This parameter is important in the font mapping process. To ensure consistent results when creating a font, do not specify OEM_CHARSET or DEFAULT_CHARSET. If you specify a typeface name in the <b>lfFaceName</b> member, make sure that the <b>lfCharSet</b> value matches the character set of the typeface specified in <b>lfFaceName</b>.
 
 ### -field lfOutPrecision
 
