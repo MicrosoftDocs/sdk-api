@@ -75,7 +75,7 @@ This function can return the standard return values E_INVALIDARG, E_OUTOFMEMORY,
 
 The function converts the interface identifier in a way that guarantees different interface identifiers will always be converted to different strings.
 
-The CLSID format is <b>{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}</b>.
+The IID format is <b>{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}</b>.
 
 Passing <b>NULL</b> results in <b>GUID_NULL</b> value.
 
