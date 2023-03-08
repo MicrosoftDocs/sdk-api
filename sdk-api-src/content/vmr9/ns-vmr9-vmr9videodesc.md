@@ -82,7 +82,7 @@ A <a href="/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9frequency">VM
 
 ### -field OutputFrameFreq
 
-A <a href="/windows/win32/api/strmif/ns-strmif-vmrfrequency">VMRFrequency</a> structure that specifies the output frequency. For NTSC TV, the frequency would be expressed as 60,000:1001.
+A **VMRFrequency** structure that specifies the output frequency. For NTSC TV, the frequency would be expressed as 60,000:1001.
 
 ## -see-also
 

@@ -47,9 +47,6 @@ api_name:
  - DVD_WARNING
 ---
 
-# DVD_WARNING enumeration
-
-
 ## -description
 
 Specifies DVD warning conditions.
