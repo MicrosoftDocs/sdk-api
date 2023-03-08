@@ -62,7 +62,8 @@ api_name:
 
 Retrieves the type and data for the specified value name associated with an open registry key.
 
-To ensure that any string values (REG_SZ, REG_MULTI_SZ, and REG_EXPAND_SZ) returned are <b>null</b>-terminated, use the <a href="/windows/desktop/api/winreg/nf-winreg-reggetvaluea">RegGetValue</a> function.
+> [!WARNING]
+> If the value being queried is a string (REG_SZ, REG_MULTI_SZ, and REG_EXPAND_SZ) the value returned is NOT guaranteed to be null-terminated. Use the <a href="/windows/desktop/api/winreg/nf-winreg-reggetvaluea">RegGetValue</a> function if you want to ensure returned string values are null-terminated. More information is in the remarks below.
 
 ## -parameters
 
