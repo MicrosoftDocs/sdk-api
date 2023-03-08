@@ -47,10 +47,11 @@ api_name:
 
 # CreateIcon function
 
-
 ## -description
 
 Creates an icon that has the specified size, colors, and bit patterns.
+
+To create a colored icon at run time you can use the [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect) function, which creates a icon based on the content of an [**ICONINFO**](/windows/desktop/api/Winuser/ns-winuser-iconinfo) structure.
 
 ## -parameters
 
@@ -106,7 +107,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 ## -remarks
 
-The <i>nWidth</i> and <i>nHeight</i> parameters must specify a width and height supported by the current display driver, because the system cannot create icons of other sizes. To determine the width and height supported by the display driver, use the <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function, specifying the <b>SM_CXICON</b> or <b>SM_CYICON</b> value. 
+For more information about <i>nWidth</i> and <i>nHeight</i> parameters see <a href="/windows/desktop/menurc/about-icons#icon-sizes">Icon Sizes</a>. 
 
 <b>CreateIcon</b> applies the following truth table to the AND and XOR bitmasks.
 
@@ -137,29 +138,21 @@ The <i>nWidth</i> and <i>nHeight</i> parameters must specify a width and height 
 <td>Reverse screen </td>
 </tr>
 </table>
- 
 
 When you are finished using the icon, destroy it using the <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
-
 
 #### Examples
 
 For an example, see <a href="/windows/desktop/menurc/using-icons">Creating an Icon</a>.
 
-<div class="code"></div>
-
 ## -see-also
 
 <b>Conceptual</b>
 
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
-
-
+<a href="/windows/desktop/api/Winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
 
 <a href="/windows/desktop/menurc/icons">Icons</a>
 
-
+<a href="/windows/desktop/menurc/about-icons#icon-sizes">Icon Sizes</a>
 
 <b>Other Resources</b>
